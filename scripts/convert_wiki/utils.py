@@ -214,6 +214,8 @@ def _get_image_filename(ele: Tag) -> str | None:
         return _filename_from_url(str(src))
     if href := ele.get("href"):
         return _filename_from_url(str(href))
+    if mwtitle := ele.get("data-mwtitle"):
+        return str(mwtitle).replace("_", " ")
     return None
 
 

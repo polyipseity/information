@@ -636,6 +636,66 @@ class TestImageHandling:
 
 # ---------------------------------------------------------------------------
 
+# Video handling
+
+# ---------------------------------------------------------------------------
+
+
+class TestVideoHandling:
+    """Tests for ``_handle_video`` alt-text derivation."""
+
+    @pytest.mark.anyio
+    async def test_video_with_resource(self, converter: WikiHtmlConverter) -> None:
+        """Video with ``resource`` should render an embed with File: alt."""
+        html = (
+            '<video resource="/wiki/File:Rotation_table.ogv" '
+            'data-mwtitle="Rotation_table.ogv"></video>'
+        )
+        result = await _convert(converter, html)
+        assert "![File:Rotation table.ogv]" in result
+
+    @pytest.mark.anyio
+    async def test_video_without_resource_uses_mwtitle(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Video lacking ``resource`` should fall back to ``data-mwtitle``."""
+        html = '<video data-mwtitle="Rotation_table.ogv"></video>'
+        result = await _convert(converter, html)
+        assert "![File:Rotation table.ogv]" in result
+
+    @pytest.mark.anyio
+    async def test_video_with_source(self, converter: WikiHtmlConverter) -> None:
+        """Video with a ``<source>`` child should derive alt from its URL."""
+        html = (
+            '<video data-mwtitle="Rotation_table.ogv">'
+            '<source src="//upload.wikimedia.org/wikipedia/commons/'
+            '9/93/Rotation_table.ogv"></source></video>'
+        )
+        result = await _convert(converter, html)
+        assert "![File:Rotation table.ogv]" in result
+
+    @pytest.mark.anyio
+    async def test_video_uses_metadata_description(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Video with a collected description should use it as alt."""
+        html = (
+            '<video resource="/wiki/File:Rotation_table.ogv" '
+            'data-mwtitle="Rotation_table.ogv"></video>'
+        )
+        soup = BeautifulSoup(html, "html.parser")
+        converter._image_metadata = {"File:Rotation table.ogv": "A spinning table."}
+        result = await converter.convert(
+            soup,
+            out_to_archive=set(),
+            redirect_map={},
+            refs=True,
+        )
+        assert "![A spinning table.]" in result
+
+
+# ---------------------------------------------------------------------------
+
 # Paragraph handling
 
 # ---------------------------------------------------------------------------
@@ -1167,6 +1227,48 @@ class TestAudioHandling:
         html = '<span class="mw-tmh-play">play</span>'
         result = await _convert(converter, html)
         assert result == "" or "play" in result
+
+    @pytest.mark.anyio
+    async def test_audio_uses_file_alt(self, converter: WikiHtmlConverter) -> None:
+        """Audio href should derive a ``File:`` alt via the image mechanism."""
+        html = (
+            '<span class="mw-tmh-play" '
+            'href="//upload.wikimedia.org/wikipedia/commons/a/ab/Sound.ogg">'
+            "play</span>"
+        )
+        result = await _convert(converter, html)
+        assert "[File:Sound.ogg]" in result
+
+    @pytest.mark.anyio
+    async def test_audio_player_embeds(self, converter: WikiHtmlConverter) -> None:
+        """``mw-tmh-player`` audio should render as an embed, not a link."""
+        html = (
+            '<span class="mw-tmh-play mw-tmh-player" '
+            'href="//upload.wikimedia.org/wikipedia/commons/a/ab/Sound.ogg">'
+            "play</span>"
+        )
+        result = await _convert(converter, html)
+        assert "![File:Sound.ogg]" in result
+
+    @pytest.mark.anyio
+    async def test_audio_uses_metadata_description(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Audio with a collected description should use it as alt."""
+        html = (
+            '<span class="mw-tmh-play" '
+            'href="//upload.wikimedia.org/wikipedia/commons/a/ab/Sound.ogg">'
+            "play</span>"
+        )
+        soup = BeautifulSoup(html, "html.parser")
+        converter._image_metadata = {"File:Sound.ogg": "A short tone."}
+        result = await converter.convert(
+            soup,
+            out_to_archive=set(),
+            redirect_map={},
+            refs=True,
+        )
+        assert "[A short tone.]" in result
 
 
 # ---------------------------------------------------------------------------
