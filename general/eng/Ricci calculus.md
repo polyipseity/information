@@ -57,7 +57,7 @@ For example, in {@{3-D Euclidean space and using [Cartesian coordinates](Cartesi
 
 #### reference to basis
 
-{@{Indices themselves}@} may be {@{_labelled_ using [diacritic](diacritic.md)-like symbols}@}, such as {@{a [hat](circumflex.md) \(ˆ\), [bar](macron%20(diacritic).md) \(¯\), [tilde](tilde.md) \(˜\), or prime \(′\)}@} as in: {@{$$X_{\hat {\phi } }\,,Y_{\bar {\lambda } }\,,Z_{\tilde {\eta } }\,,T_{\mu '}$$}@} to denote {@{a possibly different [basis](basis%20(linear%20algebra).md) for that index}@}. An example is in {@{[Lorentz transformations](Lorentz%20transformation.md) from one [frame of reference](frame%20of%20reference.md) to another}@}, where {@{one frame could be unprimed and the other primed}@}, as in: {@{$$v^{\mu '}=v^{\nu }L_{\nu }{}^{\mu '}.$$}@} <!--SR:!2026-12-17,341,350!2026-10-04,273,330!2026-12-04,328,350!2026-09-26,265,330!fsrs,2028-08-30T00:00:00.000Z,715,715.17050691,2.49272837,2,9,0,0,2026-09-15T00:00:00.000Z!2026-12-28,351,350!2026-10-09,278,330!2028-06-06,740,330-->
+{@{Indices themselves}@} may be {@{_labelled_ using [diacritic](diacritic.md)-like symbols}@}, such as {@{a [hat](circumflex.md) \(ˆ\), [bar](macron%20(diacritic).md) \(¯\), [tilde](tilde.md) \(˜\), or prime \(′\)}@} as in: {@{$$X_{\hat {\phi } }\,,Y_{\bar {\lambda } }\,,Z_{\tilde {\eta } }\,,T_{\mu '}$$}@} to denote {@{a possibly different [basis](basis%20(linear%20algebra).md) for that index}@}. An example is in {@{[Lorentz transformations](Lorentz%20transformation.md) from one [frame of reference](frame%20of%20reference.md) to another}@}, where {@{one frame could be unprimed and the other primed}@}, as in: {@{$$v^{\mu '}=v^{\nu }L_{\nu }{}^{\mu '}.$$}@} <!--SR:!2026-12-17,341,350!2026-10-04,273,330!2026-12-04,328,350!fsrs,2029-12-05T00:00:00.000Z,1165,1164.5679841,1,2,9,0,0,2026-09-27T00:00:00.000Z!fsrs,2028-08-30T00:00:00.000Z,715,715.17050691,2.49272837,2,9,0,0,2026-09-15T00:00:00.000Z!2026-12-28,351,350!2026-10-09,278,330!2028-06-06,740,330-->
 
 This is not to be confused with {@{[van der Waerden notation](Van%20der%20Waerden%20notation.md) for [spinors](spinor.md)}@}, which uses {@{hats and overdots on indices}@} to reflect {@{the chirality of a spinor}@}. <!--SR:!2026-10-03,272,330!2026-10-04,273,330!2026-10-02,271,330-->
 
@@ -102,7 +102,7 @@ In the special case that {@{the metric tensor is everywhere equal to the identit
 | {@{$A_{\alpha \alpha }{}^{\gamma }$}@}                                  | \({@{both occurrences of $\alpha$ are lower}@}; {@{$A_{\alpha }{}^{\alpha \gamma }$}@} would be fine\)                                                                                  |
 | {@{$A_{\alpha \gamma }{}^{\gamma }B^{\alpha }C_{\gamma }{}^{\beta }$}@} | \({@{$\gamma$ occurs twice as a lower index}@}; {@{$A_{\alpha \gamma }{}^{\gamma }B^{\alpha }$ or $A_{\alpha \delta }{}^{\gamma }B^{\alpha }C_{\gamma }{}^{\beta }$}@} would be fine\). | <!--SR:!fsrs,2029-08-25T00:00:00.000Z,1096,1095.51488793,1,2,9,0,0,2026-08-25T00:00:00.000Z!2026-12-17,341,350!2026-10-25,294,330!fsrs,2029-10-27T00:00:00.000Z,1134,1133.95119242,1,2,9,0,0,2026-09-19T00:00:00.000Z!2026-12-10,334,350!2026-12-12,336,350-->
 
-{@{The reason for excluding such formulae}@} is that although {@{these quantities could be computed as arrays of numbers}@}, they would {@{not in general transform as tensors under a change of basis}@}. <!--SR:!2026-09-26,265,330!2026-10-01,270,330!2026-10-14,283,330-->
+{@{The reason for excluding such formulae}@} is that although {@{these quantities could be computed as arrays of numbers}@}, they would {@{not in general transform as tensors under a change of basis}@}. <!--SR:!fsrs,2029-12-05T00:00:00.000Z,1165,1164.5679841,1,2,9,0,0,2026-09-27T00:00:00.000Z!2026-10-01,270,330!2026-10-14,283,330-->
 
 #### [multi-index notation](multi-index%20notation.md)
 
@@ -234,7 +234,7 @@ This may be {@{repeated \(without adding further commas\)}@}: {@{$$A_{\alpha _{1
 
 - \(annotation: covariant derivative of a scalar function\) ::@:: $$f_{;\beta }=f_{,\beta }$$ <!--SR:!2026-12-01,325,350!2026-11-26,326,350-->
 - \(annotation: covariant derivative of a contravariant vector\) ::@:: $$A^{\alpha }{}_{;\beta }=A^{\alpha }{}_{,\beta }+\Gamma ^{\alpha }{}_{\gamma \beta }A^{\gamma }$$ <!--SR:!fsrs,2028-06-01T00:00:00.000Z,669,669.41906183,2.98092302,2,9,0,0,2026-08-02T00:00:00.000Z!2027-09-20,510,310-->
-- \(annotation: covariant derivative of a covariant vector\) ::@:: $$A_{\alpha ;\beta }=A_{\alpha ,\beta }-\Gamma ^{\gamma }{}_{\alpha \beta }A_{\gamma }\,,$$ <!--SR:!2026-09-26,265,330!2026-12-16,340,350-->
+- \(annotation: covariant derivative of a covariant vector\) ::@:: $$A_{\alpha ;\beta }=A_{\alpha ,\beta }-\Gamma ^{\gamma }{}_{\alpha \beta }A_{\gamma }\,,$$ <!--SR:!fsrs,2029-12-05T00:00:00.000Z,1165,1164.5679841,1,2,9,0,0,2026-09-27T00:00:00.000Z!2026-12-16,340,350-->
 
 where Γ<!-- markdown separator -->_<sup>α</sup><sub>γβ</sub>_ are {@{the connection coefficients}@}. <!--SR:!2026-11-04,304,350-->
 

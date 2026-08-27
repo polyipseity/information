@@ -35,7 +35,7 @@ In computer science, applications of this type arise in [instruction scheduling]
 
 ## algorithms
 
-{@{The usual algorithms for topological sorting}@} have running time {@{linear in the number of nodes plus the number of edges}@}, {@{asymptotically, $O(\left|{V}\right|+\left|{E}\right|).$}@} <!--SR:!fsrs,2032-02-08T00:45:09.457Z,2073,2073.37029021,1,2,10,0,0,2026-06-06T00:45:09.457Z!2031-04-14,1864,391!2026-09-26,158,429-->
+{@{The usual algorithms for topological sorting}@} have running time {@{linear in the number of nodes plus the number of edges}@}, {@{asymptotically, $O(\left|{V}\right|+\left|{E}\right|).$}@} <!--SR:!fsrs,2032-02-08T00:45:09.457Z,2073,2073.37029021,1,2,10,0,0,2026-06-06T00:45:09.457Z!2031-04-14,1864,391!fsrs,2029-01-21T00:00:00.000Z,847,847.01881638,1,2,8,0,0,2026-09-27T00:00:00.000Z-->
 
 ### Kahn's algorithm
 

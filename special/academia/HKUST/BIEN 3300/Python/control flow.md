@@ -13,7 +13,7 @@ Keep in mind a thing mostly unique to Python: {@{Indentation matters in Python, 
 
 ## branching
 
-An `if` statement consists of {@{a condition and a statement block}@}: <!--SR:!2026-09-26,258,330-->
+An `if` statement consists of {@{a condition and a statement block}@}: <!--SR:!fsrs,2029-11-08T00:00:00.000Z,1138,1137.78464757,1,2,9,0,0,2026-09-27T00:00:00.000Z-->
 
 ```Python
 if condition:

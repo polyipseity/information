@@ -25,7 +25,7 @@ class Name:
     print(str(arg1) + str(an_attribute) + str(arg2))
 ```
 
-Then to create an object, one uses {@{the name of the class}@}: <!--SR:!2026-09-26,265,330-->
+Then to create an object, one uses {@{the name of the class}@}: <!--SR:!fsrs,2029-12-05T00:00:00.000Z,1165,1164.5679841,1,2,9,0,0,2026-09-27T00:00:00.000Z-->
 
 ```Python
 name_object = Name(42)

@@ -52,7 +52,7 @@ Indeed, any domain that {@{supplies these methods}@}—{@{booleans, strings, tup
 >   val rand = java.util.Random()
 >   def generate() = rand.nextInt()
 > ```
-<!--SR:!2026-11-03,290,330!2026-09-26,255,330-->
+<!--SR:!2026-11-03,290,330!fsrs,2029-10-27T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-09-27T00:00:00.000Z-->
 
 Using {@{the same pattern}@} one can define {@{a boolean generator}@}: <!--SR:!fsrs,2029-06-28T00:00:00.000Z,1030,1029.72783972,1,2,9,0,0,2026-09-02T00:00:00.000Z!2026-11-03,290,330-->
 
@@ -128,11 +128,11 @@ and {@{a generic pair generator}@} becomes, using {@{`flatMap`}@}: <!--SR:!fsrs,
 > ```
 <!--SR:!2026-10-15,274,330!2026-10-13,272,330-->
 
-The compiler rewrites {@{these _for_ expressions}@} in the same way {@{it does for collections}@}; {@{`for x <- g yield f(x)`}@} becomes {@{`g.map(f)`}@}, while {@{nested generators}@} translate into {@{successive calls to `flatMap`}@}. <!--SR:!2026-09-26,255,330!2026-10-03,262,330!2026-11-06,292,330!fsrs,2029-10-22T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-09-26T00:00:00.000Z!2026-10-13,272,330!fsrs,2029-07-22T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-09-07T00:00:00.000Z-->
+The compiler rewrites {@{these _for_ expressions}@} in the same way {@{it does for collections}@}; {@{`for x <- g yield f(x)`}@} becomes {@{`g.map(f)`}@}, while {@{nested generators}@} translate into {@{successive calls to `flatMap`}@}. <!--SR:!fsrs,2029-10-27T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-09-27T00:00:00.000Z!2026-10-03,262,330!2026-11-06,292,330!fsrs,2029-10-22T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-09-26T00:00:00.000Z!2026-10-13,272,330!fsrs,2029-07-22T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-09-07T00:00:00.000Z-->
 
 #### generator monad recursion
 
-{@{Generators}@} can be {@{combined recursively}@}. For example, {@{a generator of integer lists}@} is defined by first {@{choosing whether the list should be empty or non-empty}@} and then {@{constructing it accordingly}@}: <!--SR:!2026-11-04,290,330!2026-10-14,273,330!2026-09-30,259,330!2026-11-03,290,330!2026-09-26,255,330-->
+{@{Generators}@} can be {@{combined recursively}@}. For example, {@{a generator of integer lists}@} is defined by first {@{choosing whether the list should be empty or non-empty}@} and then {@{constructing it accordingly}@}: <!--SR:!2026-11-04,290,330!2026-10-14,273,330!2026-09-30,259,330!2026-11-03,290,330!fsrs,2029-10-27T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-09-27T00:00:00.000Z-->
 
 > [!example] __integer list generator__
 >
@@ -185,7 +185,7 @@ we can generate {@{leaves and inner nodes}@} by combining {@{existing generators
 
 #### generator monad usage
 
-{@{Unit tests}@} traditionally {@{supply concrete inputs and check a post-condition}@}.  Using {@{generators}@}, one can instead {@{automatically produce many random test cases}@}: <!--SR:!2026-10-04,263,330!2026-10-08,267,330!2026-10-09,268,330!2026-09-26,255,330-->
+{@{Unit tests}@} traditionally {@{supply concrete inputs and check a post-condition}@}.  Using {@{generators}@}, one can instead {@{automatically produce many random test cases}@}: <!--SR:!2026-10-04,263,330!2026-10-08,267,330!2026-10-09,268,330!fsrs,2029-10-27T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-09-27T00:00:00.000Z-->
 
 > [!example] __unit test__
 >
@@ -200,7 +200,7 @@ we can generate {@{leaves and inner nodes}@} by combining {@{existing generators
 > ```
 <!--SR:!2026-10-13,272,330!2026-11-01,288,330!2026-10-04,263,330!2026-10-31,287,330-->
 
-{@{An example property}@} that {@{fails}@} is <!--SR:!2026-09-26,255,330!2026-10-17,276,330-->
+{@{An example property}@} that {@{fails}@} is <!--SR:!fsrs,2029-10-27T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-09-27T00:00:00.000Z!2026-10-17,276,330-->
 
 > [!example] __unit test usage__
 >
@@ -261,7 +261,7 @@ For a type to be {@{considered a true monad}@}, {@{three algebraic laws}@} must 
 
 ### `map`
 
-Although monads only {@{require `flatMap` and `unit`}@}, {@{a `map` operation}@} can always be {@{defined in terms of them}@}: <!--SR:!2026-09-26,255,330!2026-10-08,267,330!2026-10-03,262,330-->
+Although monads only {@{require `flatMap` and `unit`}@}, {@{a `map` operation}@} can always be {@{defined in terms of them}@}: <!--SR:!fsrs,2029-10-27T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-09-27T00:00:00.000Z!2026-10-08,267,330!2026-10-03,262,330-->
 
 > [!example] __monad `map`__
 >
@@ -360,9 +360,9 @@ Because of {@{these issues}@}, it is sometimes preferable to treat {@{failures a
 >     catch case NonFatal(ex) => Failure(ex)
 > }
 > ```
-<!--SR:!2026-11-05,291,330!2026-09-26,255,330-->
+<!--SR:!2026-11-05,291,330!fsrs,2029-10-27T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-09-27T00:00:00.000Z-->
 
-{@{`Try`}@} supports {@{monadic composition}@} via {@{`flatMap` and `map`}@}: <!--SR:!2026-09-26,255,330!2026-10-10,269,330!2026-10-27,283,330-->
+{@{`Try`}@} supports {@{monadic composition}@} via {@{`flatMap` and `map`}@}: <!--SR:!fsrs,2029-10-27T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-09-27T00:00:00.000Z!2026-10-10,269,330!2026-10-27,283,330-->
 
 > [!example] __`Try.flatMap`__
 >

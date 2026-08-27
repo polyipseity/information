@@ -101,7 +101,7 @@ To {@{reduce boilerplate}@} {@{the `ord` argument}@} can be declared {@{_implici
 >
 > Now {@{callers}@} need not {@{supply it explicitly \(though it could if it chooses to\)}@}; {@{the compiler}@} searches for {@{an implicit `Ordering[T]` in scope}@} and {@{supplies it automatically}@}. <!--SR:!2026-12-30,326,349!2027-01-25,346,349!2026-12-15,313,349!2027-03-03,380,368!2027-03-02,379,368!2027-03-09,385,368!2027-03-19,392,368!2027-03-14,388,368-->
 
-Now {@{callers}@} need not {@{supply it explicitly \(though it could if it chooses to\)}@}; {@{the compiler}@} searches for {@{an implicit `Ordering[T]` in scope}@} and {@{supplies it automatically}@}. {@{Calling it}@} becomes {@{simpler}@}: <!--SR:!2026-09-26,245,330!2026-09-29,248,330!2027-01-30,351,349!2026-11-09,283,349!2026-12-20,318,349!2027-01-31,352,349!2026-11-21,292,349-->
+Now {@{callers}@} need not {@{supply it explicitly \(though it could if it chooses to\)}@}; {@{the compiler}@} searches for {@{an implicit `Ordering[T]` in scope}@} and {@{supplies it automatically}@}. {@{Calling it}@} becomes {@{simpler}@}: <!--SR:!fsrs,2029-09-19T00:00:00.000Z,1088,1087.80493378,1,2,9,0,0,2026-09-27T00:00:00.000Z!2026-09-29,248,330!2027-01-30,351,349!2026-11-09,283,349!2026-12-20,318,349!2027-01-31,352,349!2026-11-21,292,349-->
 
 > [!example] __using parameterized sort with implicit ordering__
 >

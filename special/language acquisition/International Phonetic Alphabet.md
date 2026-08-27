@@ -231,7 +231,7 @@ return chain.from_iterable(result.value for result in results)
 > 15. {@{antero-dorsal (front [tongue](tongue.md) body)}@}
 > 16. {@{laminal ([tongue](tongue.md) blade)}@}
 > 17. {@{apical ([tongue](tongue.md) tip or apex)}@}
-> 18. {@{sub-laminal/sub-apical ([tongue](tongue.md) underside)}@} <!--SR:!2028-06-01,976,330!2033-08-06,2895,358!2034-04-08,3101,364!2028-10-12,1374,324!2028-01-12,1162,324!2027-03-02,922,324!2030-05-07,1937,344!2032-02-02,2295,313!2029-03-07,1494,333!2028-11-09,1253,273!2030-11-23,1742,313!2035-06-16,3466,373!2029-01-08,1059,278!2032-06-12,2231,337!2026-09-26,207,281!2030-05-15,1472,250!2027-04-02,884,330!fsrs,2031-09-30T00:00:00.000Z,1850,1850.21399763,2.49272837,2,11,0,0,2026-09-06T00:00:00.000Z-->
+> 18. {@{sub-laminal/sub-apical ([tongue](tongue.md) underside)}@} <!--SR:!2028-06-01,976,330!2033-08-06,2895,358!2034-04-08,3101,364!2028-10-12,1374,324!2028-01-12,1162,324!2027-03-02,922,324!2030-05-07,1937,344!2032-02-02,2295,313!2029-03-07,1494,333!2028-11-09,1253,273!2030-11-23,1742,313!2035-06-16,3466,373!2029-01-08,1059,278!2032-06-12,2231,337!fsrs,2028-11-16T00:00:00.000Z,781,781.34826846,2.43058475,2,9,0,0,2026-09-27T00:00:00.000Z!2030-05-15,1472,250!2027-04-02,884,330!fsrs,2031-09-30T00:00:00.000Z,1850,1850.21399763,2.49272837,2,11,0,0,2026-09-06T00:00:00.000Z-->
 
 - [consonant](consonant.md)::@::[phone](phone%20phonetics.md) articulated with partial or complete stricture in the [vocal tract](vocal%20tract.md) <!--SR:!2034-02-19,2848,310!2029-05-13,1542,330-->
     - [airstream mechanism](airstream%20mechanism.md)::@::how the moving [air](air.md) is thrusted <!--SR:!2028-10-05,1484,338!2032-09-28,2650,363-->
@@ -290,7 +290,7 @@ return chain.from_iterable(result.value for result in results)
 Different brackets used to enclose IPA transcriptions have different meanings:
 
 - (principal) \[[square brackets](bracket.md#square%20brackets%20or%20brackets)\]::@::[phonetic](phonetics.md) notation, board or narrow, indicating actual [pronunciation](pronunciation.md) <!--SR:!2030-12-31,1702,264!2026-12-16,910,337-->
-- (principal) /[slashes](slash%20(punctuation).md)/::@::[phonemic](phoneme.md) notation, indicating features that are distinctive in the language only <!--SR:!2030-09-23,1749,293!2026-09-26,592,334-->
+- (principal) /[slashes](slash%20(punctuation).md)/::@::[phonemic](phoneme.md) notation, indicating features that are distinctive in the language only <!--SR:!2030-09-23,1749,293!fsrs,2033-04-01T00:00:00.000Z,2378,2378.10150476,1,2,10,0,0,2026-09-27T00:00:00.000Z-->
 - (uncommon) {[curly brackets](bracket.md#curly%20brackets%20or%20braces)}::@::[prosodic](prosody%20(linguistics).md) notation, also indicating elements of speech that are not [segments](segment%20(linguistics).md) called suprasegmentals <!--SR:!2026-10-14,569,254!2030-02-04,1625,336-->
 - (uncommon) ([round brackets](bracket.md#round%20brackets%20or%20parentheses))::@::transcription of indistinguishable or unidentified [utterances](utterance.md), or [silent articulation](mouthing.md) <!--SR:!2027-07-07,713,233!2027-06-14,941,331-->
 - (uncommon) (([double round brackets](bracket.md#round%20brackets%20or%20parentheses)))::@::transcription of obscured speech or description of obscuring sound <!--SR:!2033-08-30,2668,304!fsrs,2031-08-24T00:00:00.000Z,1843,1842.71299588,3.46675337,2,11,0,0,2026-08-07T00:00:00.000Z-->

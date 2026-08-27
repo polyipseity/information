@@ -126,7 +126,7 @@ The compiler guarantees that {@{all possible shapes of the input lists}@} are ha
 
 ### sorting arbitrary types
 
-To sort lists whose {@{elements are not necessarily `Int`}@}, {@{the comparison operation}@} must be {@{supplied explicitly}@}. {@{The most flexible design}@} introduces {@{a polymorphic type parameter}@} and {@{a second argument list that receives a less-than predicate}@}: <!--SR:!2026-10-08,267,330!fsrs,2028-08-23T00:00:00.000Z,705,705.09333259,2.49272837,2,9,0,0,2026-09-18T00:00:00.000Z!fsrs,2028-08-16T00:00:00.000Z,700,700.04868809,2.49272837,2,9,0,0,2026-09-16T00:00:00.000Z!2026-10-14,273,330!2026-09-26,258,330!2026-10-10,269,330-->
+To sort lists whose {@{elements are not necessarily `Int`}@}, {@{the comparison operation}@} must be {@{supplied explicitly}@}. {@{The most flexible design}@} introduces {@{a polymorphic type parameter}@} and {@{a second argument list that receives a less-than predicate}@}: <!--SR:!2026-10-08,267,330!fsrs,2028-08-23T00:00:00.000Z,705,705.09333259,2.49272837,2,9,0,0,2026-09-18T00:00:00.000Z!fsrs,2028-08-16T00:00:00.000Z,700,700.04868809,2.49272837,2,9,0,0,2026-09-16T00:00:00.000Z!2026-10-14,273,330!fsrs,2029-11-08T00:00:00.000Z,1138,1137.78464757,1,2,9,0,0,2026-09-27T00:00:00.000Z!2026-10-10,269,330-->
 
 > [!example] __merge sort with comparator__
 >

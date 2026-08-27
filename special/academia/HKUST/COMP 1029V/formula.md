@@ -266,7 +266,7 @@ return chain.from_iterable([r.value for r in results])
 
 - _(begin)_→::@::←(operator) `&` <!--SR:!2029-09-13,1464,330!2029-01-02,1397,350-->
 - (operator) `&`→::@::←`LEFT(string, length)` <!--SR:!2028-02-13,1036,310!2027-01-29,768,290-->
-- `LEFT(string, length)`→::@::←`LEN(string)` <!--SR:!2028-10-12,1254,310!2026-09-26,624,250-->
+- `LEFT(string, length)`→::@::←`LEN(string)` <!--SR:!2028-10-12,1254,310!fsrs,2031-09-12T00:00:00.000Z,1811,1810.53304193,3.98153807,2,10,0,0,2026-09-27T00:00:00.000Z-->
 - `LEN(string)`→::@::←`LOWER(string)` <!--SR:!2027-01-21,722,290!2028-03-08,1036,310-->
 - `LOWER(string)`→::@::←`RIGHT(string, length)` <!--SR:!2026-10-18,388,170!2030-03-07,1495,270-->
 - `RIGHT(string, length)`→::@::←`SUBSTITUTE(string, old, new)` <!--SR:!2026-10-07,618,270!2030-04-06,1509,270-->

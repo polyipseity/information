@@ -182,7 +182,7 @@ The content is in teaching order.
     - [§ dependencies](UML.md#dependencies)
     - [§ realizations](UML.md#realizations)
 - Unified Model Language
-    - Unified Model Language / static modeling ::@:: It is for modeling data. <!--SR:!2027-05-10,461,383!2026-09-26,281,371-->
+    - Unified Model Language / static modeling ::@:: It is for modeling data. <!--SR:!2027-05-10,461,383!fsrs,2030-07-20T00:00:00.000Z,1392,1392.13648795,1,2,9,0,0,2026-09-27T00:00:00.000Z-->
     - Unified Model Language / dynamic modeling ::@:: It is for modeling programs \(program behavior\). <!--SR:!2027-05-02,461,391!2027-05-30,481,391-->
 - quiz: [quiz 3](questions/quiz%203.md)
 - [questions § week 2 pre-lecture](questions/index.md#week%202%20pre-lecture)
@@ -302,7 +302,7 @@ The content is in teaching order.
         - project management / process / importance ::@:: communication is better, consistency, division of labor, eases project management, eases training, expertise are reused \(by reusing processes that have proven to be successful\), productivity is higher, products are better, structure, etc. <!--SR:!2026-11-29,318,371!2027-01-12,362,378-->
 - quiz: [quiz 4](questions/quiz%204.md)
 - software development process
-    - software development process / common steps ::@:: gather _requirements_ → _analyze_ and _design_ → _implement_ → _test_ <!--SR:!2026-09-26,281,371!2026-12-31,350,378-->
+    - software development process / common steps ::@:: gather _requirements_ → _analyze_ and _design_ → _implement_ → _test_ <!--SR:!fsrs,2030-07-20T00:00:00.000Z,1392,1392.13648795,1,2,9,0,0,2026-09-27T00:00:00.000Z!2026-12-31,350,378-->
     - software development process / differences ::@:: The major differences are: carrying out the steps, combining the steps, and emphasizing the steps. These lead to different strengths and weaknesses. <!--SR:!2027-06-11,493,398!2027-07-16,523,398-->
     - software development process / types ::@:: monolithic, iterative and incremental \(these two are _slightly different_ things\) <!--SR:!2027-01-05,353,378!2027-05-07,458,383-->
     - software development process / monolithic ::@:: 1+ items: waterfall, etc. <!--SR:!2027-01-18,366,378!2027-06-21,503,398-->
@@ -376,14 +376,14 @@ The content is in teaching order.
     - agile software development / advantages ::@:: adaptable/flexible to changing requirements, faster speed-to-market, fewer defects, immediate user feedback <!--SR:!2027-07-23,530,398!2027-05-18,475,398-->
     - agile software development / disadvantages ::@:: close collaboration between developers and product owner required, daily meetings may be costly, docs are often missing, scope creep due to adding requirements <!--SR:!2026-11-10,299,371!2027-04-29,456,391-->
 - software development process
-    - software development process / characteristics ::@:: abstraction or generality \(of process\), adaptable to changes, discipline \(formal, rigor\), incremental, risk assessment, separation of concerns \(modularity\) <!--SR:!2027-01-23,371,378!2026-09-26,281,371-->
-    - software development process / discipline ::@:: - spiral: The 4 phases must be followed in a spiral without backtracking. <br/> - waterfall: SDLC is followed sequentially without possibility of backtracking. <!--SR:!2026-09-26,281,371!2027-01-17,365,378-->
+    - software development process / characteristics ::@:: abstraction or generality \(of process\), adaptable to changes, discipline \(formal, rigor\), incremental, risk assessment, separation of concerns \(modularity\) <!--SR:!2027-01-23,371,378!fsrs,2030-07-20T00:00:00.000Z,1392,1392.13648795,1,2,9,0,0,2026-09-27T00:00:00.000Z-->
+    - software development process / discipline ::@:: - spiral: The 4 phases must be followed in a spiral without backtracking. <br/> - waterfall: SDLC is followed sequentially without possibility of backtracking. <!--SR:!fsrs,2030-07-20T00:00:00.000Z,1392,1392.13648795,1,2,9,0,0,2026-09-27T00:00:00.000Z!2027-01-17,365,378-->
     - software development process / separation of concerns ::@:: - phased release: Development and release is separate. <br/> - spiral: Planning, risk analysis, engineering, and evaluation are separate. <br/> - waterfall: Each phase of SDLC is separate. <!--SR:!2027-01-25,373,378!2027-04-26,455,391-->
     - software development process / abstraction or generality ::@:: - spiral: Allows using other processes for the actual development and testing. <br/> - waterfall: As a direct implementation of the general SDLC. <!--SR:!2027-04-15,444,383!2027-06-10,492,398-->
     - software development process / adaptable to changes ::@:: - agile: By its nature. <br/> - phased release: Releases happen over time. <br/> - spiral: Planning happens periodically. <!--SR:!2027-04-24,453,391!2026-11-07,296,371-->
     - software development process / incremental ::@:: - agile: Many sprints are needed. <br/> - phased release: Many releases are needed. <br/> - prototyping: Many prototypes are needed. <br/> - spiral: Many spirals are needed. <!--SR:!2026-12-19,338,371!2026-11-14,301,371-->
     - software development process / risk assessment ::@:: - spiral: The only process to explicitly integrate risk analysis. <!--SR:!2027-07-22,528,398!2027-05-31,482,391-->
-- [unified process](../../../../general/unified%20process.md) ::@:: It is an iterative and incremental software development process framework. <p> It is not simply a process, but rather an extensible framework which should be customized for specific organizations or projects. <!--SR:!2027-06-22,503,398!2026-09-26,281,371-->
+- [unified process](../../../../general/unified%20process.md) ::@:: It is an iterative and incremental software development process framework. <p> It is not simply a process, but rather an extensible framework which should be customized for specific organizations or projects. <!--SR:!2027-06-22,503,398!fsrs,2030-07-20T00:00:00.000Z,1392,1392.13648795,1,2,9,0,0,2026-09-27T00:00:00.000Z-->
     - unified process / cycle ::@:: inception → elaboration → construction → transition <!--SR:!2027-04-20,449,391!2027-06-06,488,391-->
         - unified process / cycle / inception ::@:: Gather requirements. See if the requirements are feasible. Decide if to continue with the project or not. <!--SR:!2027-06-30,511,406!2027-01-30,378,386-->
         - unified process / cycle / elaboration ::@:: Based on the gathered requirements, come up with a design to be implemented. <!--SR:!2027-08-01,538,406!2026-11-19,306,386-->

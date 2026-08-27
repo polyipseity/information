@@ -129,7 +129,7 @@ return chain.from_iterable([r.value for r in results])
 <!--pytextgen generate section="299018"--><!-- The following content is generated at 2024-02-18T15:03:20.984589+08:00. Any edits will be overridden! -->
 
 - _(most reactive)_→::@::←[caesium](caesium.md) <!--SR:!2027-05-20,1173,350!2027-06-01,1182,350-->
-- [caesium](caesium.md)→::@::←[rubidium](rubidium.md) <!--SR:!2026-09-26,500,250!2026-12-07,463,230-->
+- [caesium](caesium.md)→::@::←[rubidium](rubidium.md) <!--SR:!fsrs,2030-10-23T00:00:00.000Z,1487,1486.77392122,3.98153807,2,10,0,0,2026-09-27T00:00:00.000Z!2026-12-07,463,230-->
 - [rubidium](rubidium.md)→::@::←[potassium](potassium.md) <!--SR:!2027-09-13,979,250!2028-09-17,1060,250-->
 - [potassium](potassium.md)→::@::←[sodium](sodium.md) <!--SR:!fsrs,2034-05-04T00:00:00.000Z,2800,2800.31953583,1.98030797,2,11,0,0,2026-09-03T00:00:00.000Z!2033-07-27,2812,330-->
 - [sodium](sodium.md)→::@::←[lithium](lithium.md) <!--SR:!2027-03-27,579,230!fsrs,2034-02-22T00:00:00.000Z,2733,2733.2079687,1.98030797,2,11,0,0,2026-08-30T00:00:00.000Z-->
