@@ -62,13 +62,22 @@ def _is_citation_ui_anchor(anchor: Tag) -> bool:
 
 
 def _collect_image_filenames(html: Tag) -> set[str]:
-    """Collect all image file titles from ``<img>`` elements in the HTML tree.
+    """Collect all media file titles from the HTML tree.
 
     Returns a set of ``File:XXX`` titles (e.g. ``File:Modernphysicsfields.svg``).
+    Covers images (``<img>``), videos (``<video>``), and audio players
+    (``<a class="mw-tmh-play">``) so every media embed is eligible for an
+    ``image_metadata`` description.
     """
     filenames: set[str] = set()
     for img in html.find_all("img"):
         if filename := _get_image_filename(img):
+            filenames.add(f"File:{filename}")
+    for video in html.find_all("video"):
+        if filename := _get_image_filename(video):
+            filenames.add(f"File:{filename}")
+    for audio in html.find_all("a", class_="mw-tmh-play"):
+        if filename := _get_image_filename(audio):
             filenames.add(f"File:{filename}")
     return filenames
 

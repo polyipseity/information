@@ -67,7 +67,7 @@ The __moment of inertia__ is defined as the product of mass of section and the s
 
 <!-- markdownlint MD028 -->
 
-> ![25._Ротационен_стол.ogv](../../archives/Wikimedia%20Commons/25.%20%D0%A0%D0%BE%D1%82%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B5%D0%BD%20%D1%81%D1%82%D0%BE%D0%BB.ogv)
+> ![File:25. Ротационен стол.ogv](../../archives/Wikimedia%20Commons/25.%20%D0%A0%D0%BE%D1%82%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B5%D0%BD%20%D1%81%D1%82%D0%BE%D0%BB.ogv)
 >
 > Video of rotating chair experiment, illustrating moment of inertia. When the spinning professor pulls his arms, his moment of inertia decreases; to conserve angular momentum, his angular velocity increases.
 

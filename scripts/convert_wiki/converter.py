@@ -1575,17 +1575,53 @@ class WikiHtmlConverter:
             src_url_str = quote(formats[1].format(to_archive.replace("_", " ")))
         return src_url_str
 
+    def _derive_media_alt(self, *, ele: Tag, explicit_alt: str | None = None) -> str:
+        """Derive alt text for a media embed — the canonical image mechanism.
+
+        1. Prefer ``explicit_alt`` (the element's ``alt`` attribute) when non-empty.
+        2. Otherwise fall back to the uploaded filename: ``File:<name>`` with
+           underscores→spaces, or an ``image_metadata`` description when present.
+        3. Markdown-escape the label; for a description, balance brackets instead.
+        4. Normalize paragraphs (``\\n\\n`` → `` <p> ``) and line breaks
+           (``\\n`` → `` <br/> ``).
+        """
+        alt = (explicit_alt or "").strip()
+        if not alt:
+            filename = _get_image_filename(ele)
+            if not filename:
+                return ""
+            file_title = f"File:{filename}"
+            if desc := self._image_metadata.get(file_title, ""):
+                alt = desc
+            else:
+                alt = file_title
+            if filename and file_title in self._image_metadata:
+                alt = _balance_brackets(alt)
+            else:
+                alt = _cfg._MARKDOWN_ESCAPE_REGEX.sub(lambda m: Rf"\{m[0]}", alt)
+        else:
+            alt = _cfg._MARKDOWN_ESCAPE_REGEX.sub(lambda m: Rf"\{m[0]}", alt)
+        paragraphs = alt.split("\n\n")
+        alt = (" <p> ".join(paragraphs)).strip()
+        alt = alt.replace("\n", " <br/> ")
+        return alt
+
     def _build_media_config(
         self,
         *,
         ele: Tag,
         src: str,
-        text: str,
         embed: bool,
+        explicit_alt: str | None = None,
     ) -> _HandlerConfig:
-        """Build a handler config that emits a media link/embed."""
+        """Build a handler config that emits a media link/embed.
+
+        Alt text is derived here via ``_derive_media_alt`` — never by the caller —
+        so every media embed (image, video, audio) applies the canonical mechanism.
+        """
+        text = self._derive_media_alt(ele=ele, explicit_alt=explicit_alt).strip()
         src_url_str = self._process_archive_url(str(src))
-        link = f"{'!' if embed else ''}[{text.strip()}]({src_url_str})"
+        link = f"{'!' if embed else ''}[{text}]({src_url_str})"
         return _HandlerConfig(
             suffix="" if self._in_inline_context(ele) else "\n\n",
             process_strings=lambda _strings: link,
@@ -1598,7 +1634,6 @@ class WikiHtmlConverter:
         return self._build_media_config(
             ele=ele,
             src=str(src),
-            text=ele.get_text(),
             embed="mw-tmh-player" in classes,
         )
 
@@ -1606,20 +1641,12 @@ class WikiHtmlConverter:
         """Handle <img> image elements with download and link."""
         if (src := ele.get("src")) is None:
             return _HandlerConfig()
-        alt = str(ele.get("alt", "")).strip()
-        if not alt:
-            alt = self._fallback_alt(ele)
-            filename = _get_image_filename(ele)
-            if filename and f"File:{filename}" in self._image_metadata:
-                alt = _balance_brackets(alt)
-            else:
-                alt = _cfg._MARKDOWN_ESCAPE_REGEX.sub(lambda m: Rf"\{m[0]}", alt)
-        else:
-            alt = _cfg._MARKDOWN_ESCAPE_REGEX.sub(lambda m: Rf"\{m[0]}", alt)
-        paragraphs = alt.split("\n\n")
-        alt = (" <p> ".join(paragraphs)).strip()
-        alt = alt.replace("\n", " <br/> ")
-        return self._build_media_config(ele=ele, src=str(src), text=alt, embed=True)
+        return self._build_media_config(
+            ele=ele,
+            src=str(src),
+            embed=True,
+            explicit_alt=str(ele.get("alt", "")),
+        )
 
     def _handle_video(self, ele: Tag, classes: frozenset[str]) -> _HandlerConfig:
         """Handle <video> media elements, routing through the shared helper."""
@@ -1635,8 +1662,7 @@ class WikiHtmlConverter:
                 src = str(poster)
             else:
                 return _HandlerConfig()
-        title = str(ele.get("data-mwtitle") or ele.get("title") or "")
-        return self._build_media_config(ele=ele, src=src, text=title, embed=True)
+        return self._build_media_config(ele=ele, src=src, embed=True)
 
     def _fallback_alt(self, ele: Tag) -> str:
         """Compute alt text fallback for an <img> element."""

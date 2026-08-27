@@ -185,24 +185,35 @@ def _strip_url_query(url: URL) -> URL:
     return url.with_query(None).with_fragment(None)
 
 
+def _filename_from_url(url: str) -> str | None:
+    """Extract the original uploaded filename from a media URL.
+
+    Applies ``_ARCHIVE_REGEXES`` + ``unquote`` + underscores→spaces. Works for
+    image upload URLs, video ``resource`` (/wiki/File:…), and audio ``href``
+    (//en.wikipedia.org/wiki/File:…) identically. Returns the filename without
+    the ``File:`` prefix, or ``None`` if it cannot be determined.
+    """
+    src_url = _strip_url_query(_cfg._WIKI_HOST_URL.join(URL(str(url))))
+    src_url_str = src_url.human_repr()
+    for regex in _cfg._ARCHIVE_REGEXES:
+        if match := regex.search(src_url_str):
+            return unquote(match[1]).replace("_", " ")
+    return None
+
+
 def _get_image_filename(ele: Tag) -> str | None:
-    """Extract the original uploaded filename from an ``<img>`` element.
+    """Extract the original uploaded filename from a media element.
 
     Returns the filename without ``File:`` prefix (e.g. ``Modernphysicsfields.svg``)
     or ``None`` if it cannot be determined from either ``resource`` or ``src``.
     """
     if resource := ele.get("resource"):
-        src_url = _strip_url_query(_cfg._WIKI_HOST_URL.join(URL(str(resource))))
-        src_url_str = src_url.human_repr()
-        for regex in _cfg._ARCHIVE_REGEXES:
-            if match := regex.search(src_url_str):
-                return unquote(match[1]).replace("_", " ")
+        if filename := _filename_from_url(str(resource)):
+            return filename
     if src := ele.get("src"):
-        src_url = _strip_url_query(_cfg._WIKI_HOST_URL.join(URL(str(src))))
-        src_url_str = src_url.human_repr()
-        for regex in _cfg._ARCHIVE_REGEXES:
-            if match := regex.search(src_url_str):
-                return unquote(match[1]).replace("_", " ")
+        return _filename_from_url(str(src))
+    if href := ele.get("href"):
+        return _filename_from_url(str(href))
     return None
 
 
