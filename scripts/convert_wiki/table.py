@@ -147,6 +147,7 @@ class TableConverter:
         cls._transform_infobox_caption_rows(ele, soup)
         cls._normalize_table_cells(ele, soup)
         cls._merge_header_rows(ele, soup)
+        cls._transform_sidebar_rows(ele, soup)
         cls._insert_mixed_alignment_rows(ele, soup)
         has_thead = ele.find_previous_sibling("thead") is not None
         return _HandlerConfig(prefix="" if has_thead else "\n", suffix="\n\n")
@@ -474,6 +475,58 @@ class TableConverter:
                         target_cell.insert(0, soup.new_tag("br"))
 
             tr.decompose()
+
+    @classmethod
+    def _transform_sidebar_rows(cls, ele: Tag, soup: Tag) -> None:
+        """Apply Classical-mechanics sidebar formatting to a table in place.
+
+        Wraps specific sidebar cells in ``<b>``/``<i>`` so the Markdown output
+        matches the ``cm-sidebar`` template: the title (already wrapped in
+        ``<big>`` by ``_merge_header_rows``) becomes ``<b><big>…</big></b>``,
+        heading/list-title/below cells get per-item ``<b>`` wrapping, and the
+        caption becomes ``<i>…</i>``.
+        """
+        table = ele.find_parent("table")
+        table_classes = (
+            set(table.get_attribute_list("class")) if isinstance(table, Tag) else set()
+        )
+        if not table_classes & {"sidebar", "cm-sidebar"}:
+            return
+
+        for cell in ele.find_all(_TD_OR_TH):
+            cell_classes = set(cell.get_attribute_list("class"))
+            if "sidebar-title-with-pretitle" in cell_classes:
+                # _merge_header_rows already wrapped the title link in <big>;
+                # bold only that <big>, leaving "Part of a series on" + <br/> outside.
+                big = cell.find("big")
+                if isinstance(big, Tag):
+                    bold = soup.new_tag("b")
+                    big.insert_after(bold)
+                    bold.append(big.extract())
+            elif "sidebar-heading" in cell_classes:
+                for li in cell.find_all("li"):
+                    cls._wrap_children(li, soup, "b")
+            elif "sidebar-below" in cell_classes:
+                for li in cell.find_all("li"):
+                    cls._wrap_children(li, soup, "b")
+
+        # Section labels (Branches, Fundamentals, …) live in <div> elements
+        # nested inside <td class="sidebar-content">, not in <th>/<td> cells.
+        for title_div in ele.find_all("div", class_="sidebar-list-title-c"):
+            cls._wrap_children(title_div, soup, "b")
+
+        if isinstance(table, Tag):
+            for caption in table.find_all("div", class_="sidebar-caption"):
+                cls._wrap_children(caption, soup, "i")
+
+    @staticmethod
+    def _wrap_children(target: Tag, soup: Tag, tag_name: str) -> None:
+        """Move all children of ``target`` into a new ``<tag_name>`` wrapper."""
+        children = list(target.children)
+        wrapper = soup.new_tag(tag_name)
+        for child in children:
+            wrapper.append(child.extract())
+        target.append(wrapper)
 
     @classmethod
     def _insert_mixed_alignment_rows(cls, ele: Tag, soup: Tag) -> None:
