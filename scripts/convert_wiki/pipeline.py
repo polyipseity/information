@@ -226,7 +226,21 @@ def _collect_block_math_info(
             parent = parents[-1]
             parent_children = parent.get("children", [])
             idx = next(i for i, t in enumerate(parent_children) if t is token)
-            prev_sib = parent_children[idx - 1] if idx > 0 else None
+            if idx > 0:
+                prev_sib = parent_children[idx - 1]
+            elif len(parents) >= 2:
+                # Math is the first/only child of its container (e.g. the sole
+                # child of a link).  Fall back to the container's previous
+                # sibling in the grandparent so spacing reflects the real
+                # preceding text rather than the (empty) container interior.
+                grandparent = parents[-2]
+                gp_children = grandparent.get("children", [])
+                gp_idx = next(
+                    (i for i, t in enumerate(gp_children) if t is parent), None
+                )
+                prev_sib = gp_children[gp_idx - 1] if gp_idx and gp_idx > 0 else None
+            else:
+                prev_sib = None
             next_sib = (
                 parent_children[idx + 1] if idx + 1 < len(parent_children) else None
             )
@@ -330,9 +344,25 @@ def _scan_and_apply(text: str, info: Sequence[tuple[str, bool, bool, bool]]) -> 
                             parts.pop()
                         parts.append(" <br/> ")
                     else:
-                        parts.append(gap)
-                        if needs_before and not (gap and gap[-1].isspace()):
-                            parts.append(separator)
+                        if needs_before and gap and gap[-1] == "[" and dollar_pos >= 2:
+                            if text[dollar_pos - 2].isspace():
+                                # Link-wrapped block math already separated
+                                # from the preceding text by a space outside
+                                # the link — keep it as-is.
+                                parts.append(gap)
+                            else:
+                                # Link-wrapped block math: the separator
+                                # belongs outside the link, between the
+                                # preceding text and the opening bracket, so
+                                # the math still renders inside the link
+                                # target.
+                                parts.append(gap[:-1])
+                                parts.append(separator)
+                                parts.append("[")
+                        else:
+                            parts.append(gap)
+                            if needs_before and not (gap and gap[-1].isspace()):
+                                parts.append(separator)
                     parts.append(target)
                     if needs_after and not (
                         dollar_pos + target_len < len(text)
