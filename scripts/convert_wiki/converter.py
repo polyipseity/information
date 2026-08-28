@@ -221,20 +221,30 @@ class WikiHtmlConverter:
                 text = text.translate(str.maketrans({c: " " for c in "\t\n\r\x0b\x0c"}))
                 text = _COLLAPSE_SPACES_REGEX.sub(" ", text)
                 if all(c in "\t\n\r\x0b\x0c " for c in text):
-                    # Preserve a single space between adjacent inline
-                    # emphasis elements, e.g. ``<b>M</b> <b>L</b>`` →
-                    # ``__M__ __L__``.  The space separates two distinct
-                    # tokens and must survive whitespace collapsing.  Math
-                    # fragments wrapped in a ``texhtml`` span
-                    # (e.g. ``<i>m</i> <i>x</i>``) are an exception: adjacent
-                    # variables are conventionally tight, so the space stays
-                    # collapsed there.
+                    # Preserve a single space between two adjacent inline
+                    # tokens of the same kind that would otherwise merge: two
+                    # emphasis elements (``<b>M</b> <b>L</b>`` → ``__M__ __L__``)
+                    # or two links (``[a](x) [b](y)`` → ``[a](x)[b](y)`` if
+                    # dropped).  The space separates two distinct tokens and
+                    # must survive whitespace collapsing.  A link directly
+                    # followed by an emphasis (e.g. ``[x](y)_z_``) is
+                    # intentionally tight, so the space stays collapsed there.
+                    # Math fragments wrapped in a ``texhtml`` span
+                    # (e.g. ``<i>m</i> <i>x</i>``) are also an exception:
+                    # adjacent variables are conventionally tight.
                     if (
                         not self._in_texhtml(ele)
                         and isinstance(prev := ele.previous_sibling, Tag)
                         and isinstance(nxt := ele.next_sibling, Tag)
-                        and self._is_inline_emphasis(prev)
-                        and self._is_inline_emphasis(nxt)
+                        and (
+                            (
+                                self._is_inline_emphasis(prev)
+                                and self._is_inline_emphasis(nxt)
+                            )
+                            or (
+                                self._is_inline_link(prev) and self._is_inline_link(nxt)
+                            )
+                        )
                     ):
                         return " "
                     return ""
@@ -830,6 +840,11 @@ class WikiHtmlConverter:
                 or _ITALIC_FONT_STYLE_REGEX.search(style)
             )
         return False
+
+    @staticmethod
+    def _is_inline_link(ele: Tag) -> bool:
+        """Return True for inline link (anchor) elements."""
+        return ele.name == "a"
 
     @staticmethod
     def _in_inline_context(ele: Tag) -> bool:
