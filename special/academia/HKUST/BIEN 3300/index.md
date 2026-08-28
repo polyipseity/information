@@ -70,7 +70,7 @@ The content is in teaching order.
         - data science / examples / molecular engineering ::@:: antibody discovery, drug discovery, genomics, protein structure prediction, materials design, simulation and modeling, etc. <!--SR:!2026-10-07,276,330!fsrs,2029-07-05T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-08-13T00:00:00.000Z-->
     - data science / vs. AI ::@:: The former extracts _knowledge_ and _insights_ from structured and unstructured data. The latter builds systems that can perform tasks typically requiring human _intelligence_. <p> \(__this course__: They are used interchangeably in this course.\) <!--SR:!2026-10-19,288,330!2026-10-03,272,330-->
 - [molecular engineering](../../../../general/molecular%20engineering.md) ::@:: It is an emerging field of study concerned with the design and testing of molecular properties, behavior and interactions in order to assemble better materials, systems, and processes for specific functions. <!--SR:!fsrs,2028-09-06T00:00:00.000Z,720,720.2031195,2.49272837,2,9,0,0,2026-09-17T00:00:00.000Z!fsrs,2029-06-05T00:00:00.000Z,1034,1033.61384781,1,2,9,0,0,2026-08-06T00:00:00.000Z-->
-    - molecular engineering / data science ::@:: Analyze, make predictions about molecules, and design molecules. <p> It is helpful because we do not have _complete_ knowledge of underlying rules of interactions between molecules. <!--SR:!2026-09-29,268,330!2026-10-16,285,330-->
+    - molecular engineering / data science ::@:: Analyze, make predictions about molecules, and design molecules. <p> It is helpful because we do not have _complete_ knowledge of underlying rules of interactions between molecules. <!--SR:!fsrs,2029-12-19T00:00:00.000Z,1176,1176.0199518,1,2,9,0,0,2026-09-30T00:00:00.000Z!2026-10-16,285,330-->
 - data science
     - data science / examples
         - data science / examples / chemistry
@@ -85,7 +85,7 @@ The content is in teaching order.
         - BIEN 3300 / format / lectures
         - BIEN 3300 / format / tutorials
     - BIEN 3300 / schedule
-    - BIEN 3300 / most unclear discussion \(MUD\) ::@:: Slido is used to collect feedback on what the instructor can improve on. <!--SR:!fsrs,2029-08-25T00:00:00.000Z,1096,1095.51488793,1,2,9,0,0,2026-08-25T00:00:00.000Z!2026-09-29,268,330-->
+    - BIEN 3300 / most unclear discussion \(MUD\) ::@:: Slido is used to collect feedback on what the instructor can improve on. <!--SR:!fsrs,2029-08-25T00:00:00.000Z,1096,1095.51488793,1,2,9,0,0,2026-08-25T00:00:00.000Z!fsrs,2029-12-19T00:00:00.000Z,1176,1176.0199518,1,2,9,0,0,2026-09-30T00:00:00.000Z-->
 
 ## week 1 lecture 2
 
@@ -101,7 +101,7 @@ The content is in teaching order.
         - [§ print](Python/console.md#print)
     - Python / [comment](Python/comment.md)
         - [§ comment](Python/comment.md#comment)
-    - Python / scripts ::@:: You can write Python scripts like a text document. Remember to change the extension from `.txt` to `.py`. <!--SR:!fsrs,2029-08-14T00:00:00.000Z,1088,1087.80493378,1,2,9,0,0,2026-08-22T00:00:00.000Z!2026-09-29,268,330-->
+    - Python / scripts ::@:: You can write Python scripts like a text document. Remember to change the extension from `.txt` to `.py`. <!--SR:!fsrs,2029-08-14T00:00:00.000Z,1088,1087.80493378,1,2,9,0,0,2026-08-22T00:00:00.000Z!fsrs,2029-12-19T00:00:00.000Z,1176,1176.0199518,1,2,9,0,0,2026-09-30T00:00:00.000Z-->
     - Python / [basics](Python/basics.md)
         - [§ variable](Python/basics.md#variable)
         - [§ augmented assignment](Python/basics.md#augmented%20assignment)

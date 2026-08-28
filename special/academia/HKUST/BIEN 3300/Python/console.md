@@ -24,7 +24,7 @@ for _ in range(4):
   print("\n" * 25)
 ```
 
-Note that the above only prints 25 newlines a time. This is because {@{IDLE does not show identical lines}@} if {@{the number of lines printed at once is 50 or more}@}. <!--SR:!2026-09-29,259,330!2027-01-12,364,357-->
+Note that the above only prints 25 newlines a time. This is because {@{IDLE does not show identical lines}@} if {@{the number of lines printed at once is 50 or more}@}. <!--SR:!fsrs,2029-11-15T00:00:00.000Z,1142,1141.61620684,1,2,9,0,0,2026-09-30T00:00:00.000Z!2027-01-12,364,357-->
 
 If your console is an actual console, then you can call {@{a system command using `os.system`}@}, which is {@{`cls` on Windows and `clear` on UNIX systems}@}. One can detect {@{whether the current OS is Windows}@} by writing {@{`os.name == "nt"`}@}. <!--SR:!2026-11-02,293,330!2026-10-24,284,330!2027-01-07,359,357!2027-01-11,363,357-->
 

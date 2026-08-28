@@ -147,7 +147,7 @@ It is {@{an [open problem](open%20problem.md)}@} whether there exists {@{a [poly
 - [AVL tree](AVL%20tree.md), [red–black tree](red–black%20tree.md), and [splay tree](splay%20tree.md), ::@:: kinds of [binary search tree](binary%20search%20tree.md) data structures that use rotations to maintain balance. <!--SR:!2027-02-21,549,330!2028-10-12,1079,350-->
 - [Associativity](associative%20property.md) of a binary operation ::@:: means that performing a tree rotation on it does not change the final result. <!--SR:!2028-12-12,1128,350!2029-09-13,1342,350-->
 - The [Day–Stout–Warren algorithm](Day–Stout–Warren%20algorithm.md) ::@:: balances an unbalanced BST. <!--SR:!2027-01-19,556,310!2027-11-18,770,310-->
-- [Tamari lattice](Tamari%20lattice.md), ::@:: a partially ordered set in which the elements can be defined as binary trees and the ordering between elements is defined by tree rotation. <!--SR:!2026-09-29,473,310!2028-05-23,911,310-->
+- [Tamari lattice](Tamari%20lattice.md), ::@:: a partially ordered set in which the elements can be defined as binary trees and the ordering between elements is defined by tree rotation. <!--SR:!fsrs,2031-09-05T00:00:00.000Z,1801,1800.69929054,1,2,10,0,0,2026-09-30T00:00:00.000Z!2028-05-23,911,310-->
 
 ## references
 

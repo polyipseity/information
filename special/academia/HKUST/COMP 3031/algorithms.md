@@ -150,7 +150,7 @@ To sort lists whose {@{elements are not necessarily `Int`}@}, {@{the comparison 
 > ```
 <!--SR:!2026-11-04,290,330!2026-09-30,262,330!2026-11-02,289,330-->
 
-{@{The `lt` function}@} can be {@{passed by name}@} or {@{inferred from the context \(keyword `implicit`\)}@}. With `msort` accepting {@{a comparison predicate}@}, it can {@{sort any list}@}: <!--SR:!2026-10-16,275,330!2026-09-29,261,330!2026-10-04,266,330!2026-10-15,274,330!2026-10-12,271,330-->
+{@{The `lt` function}@} can be {@{passed by name}@} or {@{inferred from the context \(keyword `implicit`\)}@}. With `msort` accepting {@{a comparison predicate}@}, it can {@{sort any list}@}: <!--SR:!2026-10-16,275,330!fsrs,2029-11-22T00:00:00.000Z,1149,1149.27403969,1,2,9,0,0,2026-09-30T00:00:00.000Z!2026-10-04,266,330!2026-10-15,274,330!2026-10-12,271,330-->
 
 > [!example] __using merge sort with comparator__
 >

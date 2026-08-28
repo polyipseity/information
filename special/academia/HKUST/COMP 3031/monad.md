@@ -152,7 +152,7 @@ The compiler rewrites {@{these _for_ expressions}@} in the same way {@{it does f
 > ```
 <!--SR:!2026-10-04,263,330!2026-10-29,285,330!fsrs,2029-06-28T00:00:00.000Z,1030,1029.72783972,1,2,9,0,0,2026-09-02T00:00:00.000Z-->
 
-{@{A more sophisticated example}@} is {@{a random tree generator}@}. Defining {@{the tree shape}@} as {@{an `enum`}@}: <!--SR:!2026-10-17,276,330!2026-10-24,280,330!2026-09-29,258,330!2026-10-28,284,330-->
+{@{A more sophisticated example}@} is {@{a random tree generator}@}. Defining {@{the tree shape}@} as {@{an `enum`}@}: <!--SR:!2026-10-17,276,330!2026-10-24,280,330!fsrs,2029-11-11T00:00:00.000Z,1138,1137.78464757,1,2,9,0,0,2026-09-30T00:00:00.000Z!2026-10-28,284,330-->
 
 > [!example] __`Tree` definition__
 >
@@ -255,9 +255,9 @@ For a type to be {@{considered a true monad}@}, {@{three algebraic laws}@} must 
 
 - __Associativity__ ::@:: `m.flatMap(f).flatMap(g) == m.flatMap(x => f(x).flatMap(g))` <!--SR:!2026-11-08,294,330!2026-11-06,292,330-->
 - __Left Identity (Left Unit Law)__ ::@:: `unit(x).flatMap(f) == f(x)` <!--SR:!2026-11-07,293,330!fsrs,2029-10-22T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-09-26T00:00:00.000Z-->
-- __Right Identity (Right Unit Law)__ ::@:: `m.flatMap(unit) == m` <!--SR:!2026-10-10,269,330!2026-09-29,258,330-->
+- __Right Identity (Right Unit Law)__ ::@:: `m.flatMap(unit) == m` <!--SR:!2026-10-10,269,330!fsrs,2029-11-11T00:00:00.000Z,1138,1137.78464757,1,2,9,0,0,2026-09-30T00:00:00.000Z-->
 
-{@{These laws}@} ensure that {@{monadic chaining behaves predictably}@}, enabling {@{reasoning about code and allowing optimizations}@}. <!--SR:!2026-09-29,258,330!2026-10-16,275,330!2026-11-04,290,330-->
+{@{These laws}@} ensure that {@{monadic chaining behaves predictably}@}, enabling {@{reasoning about code and allowing optimizations}@}. <!--SR:!fsrs,2029-11-11T00:00:00.000Z,1138,1137.78464757,1,2,9,0,0,2026-09-30T00:00:00.000Z!2026-10-16,275,330!2026-11-04,290,330-->
 
 ### `map`
 
@@ -284,7 +284,7 @@ Because {@{every monad supports this construction}@}, it is often convenient to 
 - `Option`: ::@:: `unit(x) = Some(x)` <!--SR:!2026-10-29,285,330!2026-09-30,259,330-->
 - `Generator`: ::@:: `unit(x) = single(x)` <!--SR:!2026-10-16,275,330!2026-10-25,281,330-->
 
-{@{All of these types}@} provide {@{a natural implementation of `flatMap`}@} that preserves {@{the structure of the container}@}. <!--SR:!2026-09-29,258,330!2026-10-25,281,330!2026-10-09,268,330-->
+{@{All of these types}@} provide {@{a natural implementation of `flatMap`}@} that preserves {@{the structure of the container}@}. <!--SR:!fsrs,2029-11-11T00:00:00.000Z,1138,1137.78464757,1,2,9,0,0,2026-09-30T00:00:00.000Z!2026-10-25,281,330!2026-10-09,268,330-->
 
 ## significance for `for`-expressions
 
