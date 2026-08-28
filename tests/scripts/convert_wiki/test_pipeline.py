@@ -289,36 +289,6 @@ class TestCollectBlockMathInfo:
         info = _collect_block_math_info([])
         assert info == []
 
-    def test_block_math_first_child_of_link_needs_before(self) -> None:
-        """Block math as the only child of a ``link`` whose previous sibling is
-        an ``inline_html`` (e.g. ``</sup>``) → ``needs_before`` is True.
-
-        This is the Q48103 case: the converter emits
-        ``</sup>[$$…$$](MathWikibase link)`` with no space, and the space must
-        be inserted *before* the link's opening bracket.
-        """
-        tokens = _parse("</sup>[$$f(x)$$](url)")
-        info = _collect_block_math_info(tokens)
-        assert len(info) == 1
-        raw, needs_before, needs_after, is_inline = info[0]
-        assert raw == "f(x)"
-        assert needs_before is True
-        assert needs_after is False
-        assert is_inline is False
-
-    def test_block_math_first_child_of_link_no_space_before(self) -> None:
-        """Block math as the only child of a ``link`` whose previous sibling is
-        text ending in whitespace → ``needs_before`` is False.
-        """
-        tokens = _parse("text [$$f(x)$$](url)")
-        info = _collect_block_math_info(tokens)
-        assert len(info) == 1
-        raw, needs_before, needs_after, is_inline = info[0]
-        assert raw == "f(x)"
-        assert needs_before is False
-        assert needs_after is False
-        assert is_inline is False
-
 
 # =========================================================================
 # _scan_and_apply — text replacement for block math spacing
@@ -373,18 +343,6 @@ class TestScanAndApply:
             [("one", True, False, False), ("two", False, True, False)],
         )
         assert result == "a $$one$$b$$two$$ c"
-
-    def test_insert_space_before_link_wrapping_math(self) -> None:
-        """When block math is the only child of a link and ``needs_before`` is
-        True, the separator goes *before* the link's opening ``[`` so the space
-        sits outside the link rather than between ``[`` and ``$$``.
-
-        Regression guard for Q48103: ``</sup>[$$…$$](url)`` →
-        ``</sup> [$$…$$](url)``.
-        """
-        text = "</sup>[$$f(x)$$](url)"
-        result = _scan_and_apply(text, [("f(x)", True, False, False)])
-        assert result == "</sup> [$$f(x)$$](url)"
 
 
 class TestInlineMathSpacing:
@@ -926,19 +884,6 @@ class TestSeparateBlockMath:
         assert (
             _separate_block_math("$$equation$$text$$another$$")
             == "$$equation$$ text $$another$$"
-        )
-
-    def test_link_wrapped_block_math_gets_space_before_link(self) -> None:
-        """Block math wrapped in a MathWikibase link after ``</sup>`` gets a
-        space inserted *before* the link's opening bracket (Q48103 regression).
-
-        The converter emits ``</sup>[$$…$$](url)`` with no space; the space
-        must land outside the link, not between ``[`` and ``$$``.
-        """
-        text = "</sup>[$$f(x)$$](/w/index.php?title=Special:MathWikibase&qid=Q1)"
-        assert (
-            _separate_block_math(text)
-            == "</sup> [$$f(x)$$](/w/index.php?title=Special:MathWikibase&qid=Q1)"
         )
 
     # ── No-op cases ──────────────────────────────────────────────

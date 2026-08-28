@@ -227,18 +227,6 @@ def _collect_block_math_info(
             parent_children = parent.get("children", [])
             idx = next(i for i, t in enumerate(parent_children) if t is token)
             prev_sib = parent_children[idx - 1] if idx > 0 else None
-            if prev_sib is None and len(parents) >= 2:
-                # Math is the first child of its container (e.g. a link
-                # wrapping block math). Look at the container's previous
-                # sibling to decide whether a separator is needed before
-                # the whole link.
-                grandparent = parents[-2]
-                gp_children = grandparent.get("children", [])
-                gp_idx = next(
-                    (i for i, t in enumerate(gp_children) if t is parent), None
-                )
-                if gp_idx is not None and gp_idx > 0:
-                    prev_sib = gp_children[gp_idx - 1]
             next_sib = (
                 parent_children[idx + 1] if idx + 1 < len(parent_children) else None
             )
@@ -342,24 +330,9 @@ def _scan_and_apply(text: str, info: Sequence[tuple[str, bool, bool, bool]]) -> 
                             parts.pop()
                         parts.append(" <br/> ")
                     else:
-                        if (
-                            needs_before
-                            and dollar_pos > 0
-                            and text[dollar_pos - 1] == "["
-                        ):
-                            # The math is the first child of a link (e.g. a
-                            # MathWikibase link). Insert the separator before
-                            # the link's opening bracket so the space sits
-                            # outside the link, not between "[" and "$$".
-                            before = text[pos : dollar_pos - 1]
-                            parts.append(before)
-                            if not before.endswith(" "):
-                                parts.append(separator)
-                            parts.append("[")
-                        else:
-                            parts.append(gap)
-                            if needs_before and not (gap and gap[-1].isspace()):
-                                parts.append(separator)
+                        parts.append(gap)
+                        if needs_before and not (gap and gap[-1].isspace()):
+                            parts.append(separator)
                     parts.append(target)
                     if needs_after and not (
                         dollar_pos + target_len < len(text)
