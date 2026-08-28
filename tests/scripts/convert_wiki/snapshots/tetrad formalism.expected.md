@@ -32,7 +32,7 @@ where $\delta _{b}^{a}$ is the [Kronecker delta](Kronecker%20delta.md). A vielbe
 
 From the point of view of the [differential geometry](differential%20geometry.md) of [fiber bundles](fiber%20bundles.md), the n vector fields $\{e_{a}\}_{a=1\dots n}$ define a section of the [frame bundle](frame%20bundle.md)_i.e._ a [parallelization](parallelization%20(mathematics).md) of $U\subset M$ which is equivalent to an isomorphism $TU\cong U\times {\mathbb {R} ^{n} }$. Since not every manifold is parallelizable, a vielbein can generally only be chosen locally \(_i.e._ only on a [coordinate chart](coordinate%20chart.md#coordinate%20charts)<!-- markdown separator -->$U$ and not all of $M$.\)
 
-All tensors of the theory can be expressed in the vector and covector basis, by expressing them as linear combinations of members of the \(co\)vielbein. For example, the spacetime metric tensor can be transformed from a coordinate basis to the [tetrad](tetrad%20(general%20relativity).md)[basis](basis%20(mathematics).md).
+All tensors of the theory can be expressed in the vector and covector basis, by expressing them as linear combinations of members of the \(co\)vielbein. For example, the spacetime metric tensor can be transformed from a coordinate basis to the [tetrad](tetrad%20(general%20relativity).md) [basis](basis%20(mathematics).md).
 
 Popular tetrad bases in general relativity include [orthonormal tetrads](frame%20fields%20in%20general%20relativity.md) and null tetrads. Null tetrads are composed of four [null vectors](null%20vector.md), so are used frequently in problems dealing with radiation, and are the basis of the [Newman–Penrose formalism](Newman–Penrose%20formalism.md) and the [GHP formalism](GHP%20formalism.md).
 
