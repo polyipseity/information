@@ -239,4 +239,4 @@ Watch "1959 The Year that Changed Jazz" \(<https://youtu.be/dou3aSZmEg0>\).
 > 3. modal jazz record
 > 4. electric jazz record
 >
-> - solution: {@{3}@} <!--SR:!2026-09-30,404,375-->
+> - solution: {@{3}@} <!--SR:!fsrs,2031-12-21T00:00:00.000Z,1907,1906.58386004,1,2,10,0,0,2026-10-01T00:00:00.000Z-->

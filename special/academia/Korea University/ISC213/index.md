@@ -219,7 +219,7 @@ The content is in teaching order.
     - non-obvious relationship awareness / processing ::@:: name standardization → merging → matching <!--SR:!2027-01-20,444,393!2027-02-06,459,393-->
     - non-obvious relationship awareness / outputs ::@:: NORA alerts <!--SR:!2027-02-03,456,393!2027-03-03,480,393-->
 - ethics
-    - ethics / steps ::@:: 5 steps: <p> 1. identify and state facts <br/> 2. define conflicts, lemmas, and values involved <br/> 3. identify stakeholders <br/> 4. identify reasonable options <br/> 5. identify potential consequences <!--SR:!2027-03-02,479,393!2026-09-30,332,373-->
+    - ethics / steps ::@:: 5 steps: <p> 1. identify and state facts <br/> 2. define conflicts, lemmas, and values involved <br/> 3. identify stakeholders <br/> 4. identify reasonable options <br/> 5. identify potential consequences <!--SR:!2027-03-02,479,393!fsrs,2031-02-25T00:00:00.000Z,1608,1608.330138,1,2,9,0,0,2026-10-01T00:00:00.000Z-->
 - [privacy](../../../../generala/privacy.md) ::@:: It is the ability of an individual or group to seclude themselves or information about themselves, and thereby express themselves selectively. <!--SR:!2027-01-09,436,393!2027-03-05,482,393-->
     - privacy / United States ::@:: First Amendment: freedom of speech <br/> Fourth Amendment: unreasonable search and seizure <br/> additional federal statues: Privacy Act of 1974, etc. <!--SR:!2027-02-19,469,393!2027-01-30,453,393-->
 - [FTC fair information practice](../../../../general/FTC%20fair%20information%20practice.md) \(FTC FIP\) ::@:: They are US FTC guidelines that represent widely accepted concepts concerning fair information practice in an electronic marketplace. <!--SR:!2027-02-28,477,393!2027-01-30,452,393-->

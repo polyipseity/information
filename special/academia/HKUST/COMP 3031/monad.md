@@ -80,7 +80,7 @@ and {@{a pair generator}@} that produces {@{two independent random integers}@}: 
 
 #### generator monad
 
-Rather than writing {@{a new anonymous class}@} for {@{each derived generator}@}, {@{the `Generator` trait}@} can be {@{enriched with higher-order methods}@}. {@{An extension}@} that adds {@{`map`}@} is <!--SR:!2026-11-06,292,330!2026-10-17,276,330!2026-10-17,276,330!2026-09-30,259,330!fsrs,2029-06-18T00:00:00.000Z,1022,1021.94953015,1,2,9,0,0,2026-08-31T00:00:00.000Z!2026-10-26,282,330-->
+Rather than writing {@{a new anonymous class}@} for {@{each derived generator}@}, {@{the `Generator` trait}@} can be {@{enriched with higher-order methods}@}. {@{An extension}@} that adds {@{`map`}@} is <!--SR:!2026-11-06,292,330!2026-10-17,276,330!2026-10-17,276,330!fsrs,2029-11-16T00:00:00.000Z,1142,1141.61620684,1,2,9,0,0,2026-10-01T00:00:00.000Z!fsrs,2029-06-18T00:00:00.000Z,1022,1021.94953015,1,2,9,0,0,2026-08-31T00:00:00.000Z!2026-10-26,282,330-->
 
 > [!example] __`Generator.map`__
 >
@@ -132,7 +132,7 @@ The compiler rewrites {@{these _for_ expressions}@} in the same way {@{it does f
 
 #### generator monad recursion
 
-{@{Generators}@} can be {@{combined recursively}@}. For example, {@{a generator of integer lists}@} is defined by first {@{choosing whether the list should be empty or non-empty}@} and then {@{constructing it accordingly}@}: <!--SR:!2026-11-04,290,330!2026-10-14,273,330!2026-09-30,259,330!2026-11-03,290,330!fsrs,2029-10-27T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-09-27T00:00:00.000Z-->
+{@{Generators}@} can be {@{combined recursively}@}. For example, {@{a generator of integer lists}@} is defined by first {@{choosing whether the list should be empty or non-empty}@} and then {@{constructing it accordingly}@}: <!--SR:!2026-11-04,290,330!2026-10-14,273,330!fsrs,2029-11-16T00:00:00.000Z,1142,1141.61620684,1,2,9,0,0,2026-10-01T00:00:00.000Z!2026-11-03,290,330!fsrs,2029-10-27T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-09-27T00:00:00.000Z-->
 
 > [!example] __integer list generator__
 >
@@ -251,7 +251,7 @@ In Scala, {@{`flatMap`}@} is typically {@{implemented as a method of the type it
 
 ### monad laws
 
-For a type to be {@{considered a true monad}@}, {@{three algebraic laws}@} must hold: \(annotation: 3 items: {@{associativity, left identity, right identity}@}\) <!--SR:!2026-10-25,281,330!2026-09-30,259,330!2026-10-04,263,330-->
+For a type to be {@{considered a true monad}@}, {@{three algebraic laws}@} must hold: \(annotation: 3 items: {@{associativity, left identity, right identity}@}\) <!--SR:!2026-10-25,281,330!fsrs,2029-11-16T00:00:00.000Z,1142,1141.61620684,1,2,9,0,0,2026-10-01T00:00:00.000Z!2026-10-04,263,330-->
 
 - __Associativity__ ::@:: `m.flatMap(f).flatMap(g) == m.flatMap(x => f(x).flatMap(g))` <!--SR:!2026-11-08,294,330!2026-11-06,292,330-->
 - __Left Identity (Left Unit Law)__ ::@:: `unit(x).flatMap(f) == f(x)` <!--SR:!2026-11-07,293,330!fsrs,2029-10-22T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-09-26T00:00:00.000Z-->
@@ -281,7 +281,7 @@ Because {@{every monad supports this construction}@}, it is often convenient to 
 
 - `List`: ::@:: `unit(x) = List(x)` <!--SR:!2026-11-08,294,330!fsrs,2029-10-18T00:00:00.000Z,1119,1118.59914239,1,2,9,0,0,2026-09-25T00:00:00.000Z-->
 - `Set`:  ::@:: `unit(x) = Set(x)` <!--SR:!2026-10-16,275,330!2026-10-15,274,330-->
-- `Option`: ::@:: `unit(x) = Some(x)` <!--SR:!2026-10-29,285,330!2026-09-30,259,330-->
+- `Option`: ::@:: `unit(x) = Some(x)` <!--SR:!2026-10-29,285,330!fsrs,2029-11-16T00:00:00.000Z,1142,1141.61620684,1,2,9,0,0,2026-10-01T00:00:00.000Z-->
 - `Generator`: ::@:: `unit(x) = single(x)` <!--SR:!2026-10-16,275,330!2026-10-25,281,330-->
 
 {@{All of these types}@} provide {@{a natural implementation of `flatMap`}@} that preserves {@{the structure of the container}@}. <!--SR:!fsrs,2029-11-11T00:00:00.000Z,1138,1137.78464757,1,2,9,0,0,2026-09-30T00:00:00.000Z!2026-10-25,281,330!2026-10-09,268,330-->
@@ -327,7 +327,7 @@ Using {@{simple algebraic reasoning}@}, one can verify that {@{all three laws ho
 
 ## `Try`
 
-While {@{exceptions}@} are {@{inexpensive in Scala}@}, they have {@{drawbacks}@}: \(annotation: 2 items: {@{no effect on function type, cross-evaluation context}@}\) <!--SR:!2026-09-30,259,330!2026-10-11,270,330!2026-10-15,274,330!fsrs,2028-08-30T00:00:00.000Z,708,707.6141386,2.49272837,2,9,0,0,2026-09-22T00:00:00.000Z-->
+While {@{exceptions}@} are {@{inexpensive in Scala}@}, they have {@{drawbacks}@}: \(annotation: 2 items: {@{no effect on function type, cross-evaluation context}@}\) <!--SR:!fsrs,2029-11-16T00:00:00.000Z,1142,1141.61620684,1,2,9,0,0,2026-10-01T00:00:00.000Z!2026-10-11,270,330!2026-10-15,274,330!fsrs,2028-08-30T00:00:00.000Z,708,707.6141386,2.49272837,2,9,0,0,2026-09-22T00:00:00.000Z-->
 
 - no effect on function type ::@:: The types of functions that may throw are not reflected in the signature (unlike Java's `throws` clause). <!--SR:!2026-11-03,290,330!2026-10-10,269,330-->
 - cross-evaluation context ::@:: Exceptions can only propagate within the current evaluation context \(e.g. current thread\). They do not propagate naturally across threads or asynchronous boundaries. <!--SR:!2026-10-03,262,330!2026-10-26,282,330-->

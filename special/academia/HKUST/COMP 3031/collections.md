@@ -67,7 +67,7 @@ Unlike {@{arrays}@}, lists are {@{__immutable__}@}—once constructed {@{their c
 
 Pattern matching works {@{seamlessly with lists}@}. {@{The constant `Nil`}@} matches {@{an empty list}@}; {@{the pattern `p :: ps`}@} matches {@{a non-empty list}@} whose first element {@{satisfies pattern `p` and whose remainder satisfies pattern `ps`}@}. {@{A shorthand}@} for {@{a concrete list of length _n_}@} is {@{`List(p₁, ..., pₙ)`}@}, which expands to {@{nested conses ending in `Nil`}@}. For instance, {@{the pattern `1 :: 2 :: xs`}@} matches {@{any list that begins with `1` followed by `2`}@}, while {@{`x :: Nil`}@} matches {@{a singleton list}@}. {@{More elaborate patterns}@} such as {@{`x :: y :: List(xs, ys) :: zs`}@} illustrate {@{nested matching}@}. <!--SR:!2026-10-31,287,330!fsrs,2028-08-20T00:00:00.000Z,700,700.04868809,2.49272837,2,9,0,0,2026-09-20T00:00:00.000Z!2026-10-08,266,330!fsrs,2029-07-08T00:00:00.000Z,1037,1037.49777357,1,2,9,0,0,2026-09-05T00:00:00.000Z!fsrs,2029-06-29T00:00:00.000Z,1030,1029.72783972,1,2,9,0,0,2026-09-03T00:00:00.000Z!2026-10-08,266,330!fsrs,2028-08-13T00:00:00.000Z,695,694.99996464,2.49272837,2,9,0,0,2026-09-18T00:00:00.000Z!2026-10-23,281,330!2026-10-13,271,330!2026-10-04,262,330!fsrs,2029-07-23T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-09-08T00:00:00.000Z!fsrs,2029-10-19T00:00:00.000Z,1119,1118.59914239,1,2,9,0,0,2026-09-26T00:00:00.000Z!fsrs,2029-07-13T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-09-06T00:00:00.000Z!2026-10-05,263,330!fsrs,2028-02-01T00:00:00.000Z,506,506.03526322,5.00637887,2,9,0,0,2026-09-13T00:00:00.000Z!2026-10-29,285,330!2026-10-27,283,330-->
 
-Overall, lists provide {@{a simple yet powerful abstraction}@} for {@{ordered collections}@}: they are {@{immutable, recursively defined, and naturally suited to pattern matching}@}, making them {@{a staple of functional Scala code}@}. <!--SR:!fsrs,2029-10-28T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-09-28T00:00:00.000Z!fsrs,2029-10-09T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-09-24T00:00:00.000Z!2026-10-13,271,330!2026-09-30,258,330-->
+Overall, lists provide {@{a simple yet powerful abstraction}@} for {@{ordered collections}@}: they are {@{immutable, recursively defined, and naturally suited to pattern matching}@}, making them {@{a staple of functional Scala code}@}. <!--SR:!fsrs,2029-10-28T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-09-28T00:00:00.000Z!fsrs,2029-10-09T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-09-24T00:00:00.000Z!2026-10-13,271,330!fsrs,2029-11-12T00:00:00.000Z,1138,1137.78464757,1,2,9,0,0,2026-10-01T00:00:00.000Z-->
 
 ### list covariance
 
@@ -231,7 +231,7 @@ Because {@{each recursive call}@} concatenates {@{a singleton list to the result
 
 {@{Typical list algorithms}@} fall into {@{three broad categories}@}: \(annotation: 3 items: {@{map, filter, reduce/fold}@}\) <!--SR:!fsrs,2028-07-21T00:00:00.000Z,745,744.93144381,1,2,8,0,0,2026-07-07T00:00:00.000Z!fsrs,2029-11-02T00:00:00.000Z,1130,1130.11601442,1,2,9,0,0,2026-09-29T00:00:00.000Z!fsrs,2028-08-13T00:00:00.000Z,695,694.99996464,2.49272837,2,9,0,0,2026-09-18T00:00:00.000Z-->
 
-- __Mapping__ ::@:: – transform every element in a list. <!--SR:!fsrs,2028-02-07T00:00:00.000Z,510,509.87501298,5.00637887,2,9,0,0,2026-09-15T00:00:00.000Z!2026-09-30,258,330-->
+- __Mapping__ ::@:: – transform every element in a list. <!--SR:!fsrs,2028-02-07T00:00:00.000Z,510,509.87501298,5.00637887,2,9,0,0,2026-09-15T00:00:00.000Z!fsrs,2029-11-12T00:00:00.000Z,1138,1137.78464757,1,2,9,0,0,2026-10-01T00:00:00.000Z-->
 - __Filtering__ ::@:: – extract all elements that satisfy a predicate. <!--SR:!fsrs,2029-06-19T00:00:00.000Z,1022,1021.94953015,1,2,9,0,0,2026-09-01T00:00:00.000Z!fsrs,2028-08-27T00:00:00.000Z,705,705.09333259,2.49272837,2,9,0,0,2026-09-22T00:00:00.000Z-->
 - __Reduction / Folding__ ::@:: – combine the elements of a list with an associative operator. <!--SR:!fsrs,2028-01-29T00:00:00.000Z,504,504.11440767,5.00637887,2,9,0,0,2026-09-12T00:00:00.000Z!2026-10-31,287,330-->
 
@@ -262,7 +262,7 @@ Using {@{`map`}@}, {@{a simple scaling routine}@} can be written as: <!--SR:!202
 > def scaleList(xs: List[Double], factor: Double) =
 >   xs.map(x => x * factor)
 > ```
-<!--SR:!2026-09-30,258,330!2026-10-22,280,330-->
+<!--SR:!fsrs,2029-11-12T00:00:00.000Z,1138,1137.78464757,1,2,9,0,0,2026-10-01T00:00:00.000Z!2026-10-22,280,330-->
 
 ### filter
 
@@ -326,7 +326,7 @@ In {@{the return type of `pack`}@}, {@{`::[T]`, a case class under `List[T]`}@},
 > def encode[T](xs: List[T]): List[(T, Int)] =
 >   pack(xs).map(ys => (ys.head, ys.length))
 > ```
-<!--SR:!2026-09-30,258,330!fsrs,2028-08-31T00:00:00.000Z,708,707.6141386,2.49272837,2,9,0,0,2026-09-23T00:00:00.000Z-->
+<!--SR:!fsrs,2029-11-12T00:00:00.000Z,1138,1137.78464757,1,2,9,0,0,2026-10-01T00:00:00.000Z!fsrs,2028-08-31T00:00:00.000Z,708,707.6141386,2.49272837,2,9,0,0,2026-09-23T00:00:00.000Z-->
 
 As {@{`pack`}@} returns {@{`List[::[T]]` instead of `List[List[T]]`}@}, it is {@{type-safe \(always safe\)}@} to {@{call `ys.head`}@} as {@{`ys` is `::[T]` instead of `List[T]`}@}. <!--SR:!fsrs,2028-07-14T03:38:04.673Z,760,759.95962134,1,2,8,0,0,2026-06-15T03:38:04.673Z!2026-11-08,294,330!fsrs,2028-01-29T00:00:00.000Z,504,504.11440767,5.00637887,2,9,0,0,2026-09-12T00:00:00.000Z!fsrs,2029-11-07T00:00:00.000Z,1134,1133.95119242,1,2,9,0,0,2026-09-30T00:00:00.000Z!2026-12-31,339,350-->
 
@@ -533,7 +533,7 @@ These operations are typically implemented via {@{recursion or tail-recursion}@}
 > ```
 <!--SR:!2026-10-30,286,330!2026-10-12,270,330!2026-10-28,284,330-->
 
-Maps extend {@{`Iterable[(Key, Value)]`}@}, so {@{all collection operations}@} apply {@{to key/value pairs}@}. Moreover, `Map` extends {@{the function type `Key => Value`}@}; thus a map can be {@{used as a function}@}: <!--SR:!fsrs,2028-08-17T00:00:00.000Z,698,697.52483893,2.49272837,2,9,0,0,2026-09-19T00:00:00.000Z!2026-10-31,287,330!2026-10-16,274,330!fsrs,2028-08-13T00:00:00.000Z,695,694.99996464,2.49272837,2,9,0,0,2026-09-18T00:00:00.000Z!2026-09-30,258,330-->
+Maps extend {@{`Iterable[(Key, Value)]`}@}, so {@{all collection operations}@} apply {@{to key/value pairs}@}. Moreover, `Map` extends {@{the function type `Key => Value`}@}; thus a map can be {@{used as a function}@}: <!--SR:!fsrs,2028-08-17T00:00:00.000Z,698,697.52483893,2.49272837,2,9,0,0,2026-09-19T00:00:00.000Z!2026-10-31,287,330!2026-10-16,274,330!fsrs,2028-08-13T00:00:00.000Z,695,694.99996464,2.49272837,2,9,0,0,2026-09-18T00:00:00.000Z!fsrs,2029-11-12T00:00:00.000Z,1138,1137.78464757,1,2,9,0,0,2026-10-01T00:00:00.000Z-->
 
 > [!example] __`Map` as a function example__
 >

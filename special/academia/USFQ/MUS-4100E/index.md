@@ -163,7 +163,7 @@ The content is in teaching order.
 - [ragtime](../../../../general/ragtime.md) ::@:: a music style during 1897–1917; mainly piano <!--SR:!2029-03-06,1176,360!2031-05-08,1823,380-->
     - ragtime / characteristics ::@:: marches but with syncopation <!--SR:!fsrs,2031-05-02T00:00:00.000Z,1774,1774.4470415,1,2,10,0,0,2026-06-23T00:00:00.000Z!2031-05-25,1836,380-->
     - [syncopation](../../../../general/syncopation.md)
-    - [Scott Joplin](../../../../general/Scott%20Joplin.md) (1868–1917) ::@:: father of ragtime, wrote many classics: The Entertainer, Maple Leaf Rag (first music to sell over a million copies) <!--SR:!2026-09-30,455,320!fsrs,2030-04-28T05:22:33.459Z,1414,1413.74543025,1,2,9,0,0,2026-06-14T05:22:33.459Z-->
+    - [Scott Joplin](../../../../general/Scott%20Joplin.md) (1868–1917) ::@:: father of ragtime, wrote many classics: The Entertainer, Maple Leaf Rag (first music to sell over a million copies) <!--SR:!fsrs,2031-09-08T00:00:00.000Z,1803,1802.73563209,1,2,10,0,0,2026-10-01T00:00:00.000Z!fsrs,2030-04-28T05:22:33.459Z,1414,1413.74543025,1,2,9,0,0,2026-06-14T05:22:33.459Z-->
 - [jazz](../../../../general/jazz.md)
     - jazz / influences ::@:: primarily blues, gospel music, march, ragtime, coming together in New Orleans <!--SR:!fsrs,2031-04-02T00:00:00.000Z,1750,1750.41742438,1,2,10,0,0,2026-06-17T00:00:00.000Z!2029-02-23,1166,360-->
 - quiz \(attendance\): [African traits in early jazz](questions/index.md#African%20traits%20in%20early%20jazz)
@@ -344,7 +344,7 @@ The content is in teaching order.
 - [gypsy jazz](../../../../general/gypsy%20jazz.md) ::@:: It is a style of jazz from France in the 1930s. It was how gypsy played the swing rhythm. <!--SR:!2027-03-31,622,416!2027-04-27,643,416-->
     - gypsy jazz / instrumentation ::@:: accordion, bass, clarinet, secondary instruments; small mobile instruments because gypsy would travel often, so no drums, pianos, etc. <!--SR:!2027-04-17,633,416!2027-06-30,697,416-->
     - gypsy jazz / rhythm ::@:: "_la pompe_", i.e. "the pump", which gives gypsy jazz's swing feeling and played by guitars <!--SR:!2027-04-28,644,416!2027-07-01,698,416-->
-    - gypsy jazz / originators ::@:: Django Reinhardt, Stéphane Grappelli <!--SR:!2027-06-24,691,416!2026-09-30,465,396-->
+    - gypsy jazz / originators ::@:: Django Reinhardt, Stéphane Grappelli <!--SR:!2027-06-24,691,416!fsrs,2032-08-24T00:00:00.000Z,2154,2154.0218629,1,2,10,0,0,2026-10-01T00:00:00.000Z-->
 - [Stéphane Grappelli](../../../../general/Stéphane%20Grappelli.md) (1908–1997) ::@:: French/Italian violinist; led the first _string_ jazz band; first violinist to improvise in jazz, and this (improvisation on string instruments) would not exist if it was not for him <!--SR:!2026-11-16,481,356!2031-05-05,1797,396-->
     - Stéphane Grappelli / works ::@:: "Limehouse Blues" (1936) — Stéphane Grappelli <!--SR:!2028-07-10,987,396!2027-06-20,687,416-->
 - [Django Reinhardt](../../../../general/Django%20Reinhardt.md) (1910–1953) ::@:: Belgian-Romani guitarist. He lost his pinky and ring finger in a fire, so learned to play (again) with 3 fingers. He was introduced and attracted to jazz while hearing Paul Whiteman in Paris. <!--SR:!2031-05-20,1812,396!2026-11-28,493,356-->

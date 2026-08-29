@@ -56,7 +56,7 @@ The content is in teaching order.
         - Bloomberg Terminal / Bloomberg News / front page ::@:: `FRNT <GO>` <!--SR:!fsrs,2029-10-29T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-08-29T00:00:00.000Z!fsrs,2029-12-23T00:00:00.000Z,1199,1198.87680538,1,2,9,0,0,2026-09-11T00:00:00.000Z-->
 - FINA 3810
     - FINA 3810 / current topics
-        - FINA 3810 / current topics / heartbeat trades ::@:: What are heartbeat trades? How do they affect ETFs? What can be done about them \(e.g. reforming taxation\)? <!--SR:!2026-09-30,290,330!fsrs,2029-11-23T00:00:00.000Z,1176,1176.0199518,1,2,9,0,0,2026-09-04T00:00:00.000Z-->
+        - FINA 3810 / current topics / heartbeat trades ::@:: What are heartbeat trades? How do they affect ETFs? What can be done about them \(e.g. reforming taxation\)? <!--SR:!fsrs,2030-03-14T00:00:00.000Z,1260,1259.53358194,1,2,9,0,0,2026-10-01T00:00:00.000Z!fsrs,2029-11-23T00:00:00.000Z,1176,1176.0199518,1,2,9,0,0,2026-09-04T00:00:00.000Z-->
 - Bloomberg Terminal
     - Bloomberg Terminal / login
     - Bloomberg Terminal / Bloomberg Market Concepts \(BMC\) ::@:: A 10-hour, self-paced e-learning course. It is split into 3 sections: core concepts → getting started on the terminal → portfolio management. <p> \(__this course__: Only need to do the 4 modules in the section "core concepts".\) <!--SR:!fsrs,2029-07-07T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-07-31T00:00:00.000Z!2028-05-30,746,330-->

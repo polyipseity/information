@@ -287,7 +287,7 @@ For {@{the case of normal incidence}@} these reduce to: {@{$$r_{\text{s0} }={\fr
 
 {@{The power reflection coefficients}@} become: {@{$$R_{\text{s} }=\left|{\frac {n_{1}\cos \theta _{\text{i} }-n_{2}\cos \theta _{\text{t} } }{n_{1}\cos \theta _{\text{i} }+n_{2}\cos \theta _{\text{t} } } }\right|^{2}$$}@} __<a id="math 37">(37)</a>__ <p> {@{$$R_{\text{p} }=\left|{\frac {n_{2}\cos \theta _{\text{i} }-n_{1}\cos \theta _{\text{t} } }{n_{2}\cos \theta _{\text{i} }+n_{1}\cos \theta _{\text{t} } } }\right|^{2}\,.$$}@} __<a id="math 38">(38)</a>__ <p> <!--SR:!fsrs,2030-11-25T00:00:00.000Z,1575,1574.65825061,1,2,9,0,0,2026-08-03T00:00:00.000Z!2028-05-28,797,330!2029-07-24,1185,360-->
 
-{@{The power transmissions}@} can then be found from {@{_T_<!-- markdown separator -->&nbsp;=&nbsp;1&nbsp;−&nbsp;<!-- markdown separator -->_R_}@}. <!--SR:!fsrs,2030-08-02T00:00:00.000Z,1488,1488.08066228,1,2,9,0,0,2026-07-06T00:00:00.000Z!2026-09-30,400,364-->
+{@{The power transmissions}@} can then be found from {@{_T_<!-- markdown separator -->&nbsp;=&nbsp;1&nbsp;−&nbsp;<!-- markdown separator -->_R_}@}. <!--SR:!fsrs,2030-08-02T00:00:00.000Z,1488,1488.08066228,1,2,9,0,0,2026-07-06T00:00:00.000Z!fsrs,2031-11-01T00:00:00.000Z,1857,1856.67182743,1,2,10,0,0,2026-10-01T00:00:00.000Z-->
 
 <!-- markdownlint-disable-next-line MD024 -->
 

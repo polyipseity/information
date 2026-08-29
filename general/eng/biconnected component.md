@@ -26,7 +26,7 @@ In {@{[graph theory](graph%20theory.md)}@}, {@{a __biconnected component__ or __
 The idea is to {@{run a depth-first search while maintaining the following information}@}: <!--SR:!2029-01-24,1163,350-->
 
 1. depth ::@:: the depth of each vertex in the depth-first-search tree \(once it gets visited\), and <!--SR:!2029-12-06,1412,355!2027-07-04,638,315-->
-2. lowpoint ::@:: for each vertex _v_, the lowest depth of neighbors of all descendants of _v_ \(including _v_ itself\) in the depth-first-search tree, called the __lowpoint__. <!--SR:!2029-11-24,1338,310!2026-09-30,486,315-->
+2. lowpoint ::@:: for each vertex _v_, the lowest depth of neighbors of all descendants of _v_ \(including _v_ itself\) in the depth-first-search tree, called the __lowpoint__. <!--SR:!2029-11-24,1338,310!fsrs,2030-02-11T00:00:00.000Z,1229,1228.61386821,3.05466587,2,10,0,0,2026-10-01T00:00:00.000Z-->
 
 The depth is {@{standard to maintain during a depth-first search}@}. The lowpoint of _v_ can be {@{computed after visiting all descendants of _v_ \(i.e., just before _v_ gets popped off the depth-first-search [stack](stack%20(abstract%20data%20type).md)\)}@} as {@{the minimum of the depth of _v_, the depth of all neighbors of _v_ \(other than the parent of _v_ in the depth-first-search tree\) and the lowpoint of all children of _v_ in the depth-first-search tree}@}. <!--SR:!2029-02-14,1178,350!2026-10-11,493,310!fsrs,2029-10-14T00:00:00.000Z,1156,1155.99057396,3.7313843,2,10,0,0,2026-08-15T00:00:00.000Z-->
 

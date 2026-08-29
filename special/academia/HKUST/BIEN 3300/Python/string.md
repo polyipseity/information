@@ -11,15 +11,15 @@ tags:
 
 ## formatting
 
-There are {@{4 main ways}@} to {@{format a string with values}@} in Python: {@{C formatting, f-string, string concatenation, and `str.format`}@}. <!--SR:!fsrs,2029-11-12T00:00:00.000Z,1142,1141.61620684,1,2,9,0,0,2026-09-27T00:00:00.000Z!2026-09-30,263,330!2026-10-09,272,330-->
+There are {@{4 main ways}@} to {@{format a string with values}@} in Python: {@{C formatting, f-string, string concatenation, and `str.format`}@}. <!--SR:!fsrs,2029-11-12T00:00:00.000Z,1142,1141.61620684,1,2,9,0,0,2026-09-27T00:00:00.000Z!fsrs,2029-12-01T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-10-01T00:00:00.000Z!2026-10-09,272,330-->
 
 ### f-string
 
-{@{f-string}@} starts the string with {@{`f` before the starting quote `"`}@}. Then use {@{`{variableName}`}@} to {@{print a value in the middle of the string}@}. To {@{literally represent `{}`}@}, use {@{`{{}}`}@}. <!--SR:!2026-10-05,268,330!2026-10-08,271,330!2026-10-11,274,330!2026-09-30,263,330!2026-10-04,267,330!2026-10-04,267,330-->
+{@{f-string}@} starts the string with {@{`f` before the starting quote `"`}@}. Then use {@{`{variableName}`}@} to {@{print a value in the middle of the string}@}. To {@{literally represent `{}`}@}, use {@{`{{}}`}@}. <!--SR:!2026-10-05,268,330!2026-10-08,271,330!2026-10-11,274,330!fsrs,2029-12-01T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-10-01T00:00:00.000Z!2026-10-04,267,330!2026-10-04,267,330-->
 
 ### string concatenation
 
-String concatenation uses {@{`+`}@} to {@{concat strings and values converted to strings}@}. This is the {@{most cumbersome way}@} and usually is {@{the least efficient}@} as well. <!--SR:!2026-09-30,263,330!2026-10-31,294,330!2026-10-15,278,330!2026-10-26,289,330-->
+String concatenation uses {@{`+`}@} to {@{concat strings and values converted to strings}@}. This is the {@{most cumbersome way}@} and usually is {@{the least efficient}@} as well. <!--SR:!fsrs,2029-12-01T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-10-01T00:00:00.000Z!2026-10-31,294,330!2026-10-15,278,330!2026-10-26,289,330-->
 
 ### `str.format`
 

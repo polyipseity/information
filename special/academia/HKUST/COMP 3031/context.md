@@ -156,7 +156,7 @@ However, {@{explicit passing}@} is {@{usually unnecessary}@}. If the caller {@{o
 > def f(x: Int)(using a: A, b: B) = ...
 > f(10)(using a, b)
 > ```
-<!--SR:!2026-12-26,323,349!2026-09-30,249,330!2026-11-21,295,349!2026-11-26,296,349-->
+<!--SR:!2026-12-26,323,349!fsrs,2029-10-08T00:00:00.000Z,1103,1103.2172026,1,2,9,0,0,2026-10-01T00:00:00.000Z!2026-11-21,295,349!2026-11-26,296,349-->
 
 Alternatively, {@{separate `using` clauses}@} can be {@{chained}@}. {@{`using` clauses}@} can also be {@{interleaved with ordinary parameter lists}@}, allowing {@{a mix of implicit and explicit arguments}@}: <!--SR:!2027-01-02,329,349!2026-11-20,294,349!2026-11-28,298,349!2026-12-10,310,349!2027-01-29,350,349-->
 
@@ -412,7 +412,7 @@ With {@{such `given` instances}@} in scope {@{a polymorphic method}@} can be wri
 >   xs.sorted // uses `ord` for comparison
 > ```
 >
-> {@{The compiler}@} resolves {@{the appropriate `Ordering[A]` at compile time}@}. <!--SR:!2026-12-31,327,349!2026-09-30,249,330!2026-12-22,320,349!2026-11-30,300,349-->
+> {@{The compiler}@} resolves {@{the appropriate `Ordering[A]` at compile time}@}. <!--SR:!2026-12-31,327,349!fsrs,2029-10-08T00:00:00.000Z,1103,1103.2172026,1,2,9,0,0,2026-10-01T00:00:00.000Z!2026-12-22,320,349!2026-11-30,300,349-->
 
 ### retroactive extension
 

@@ -76,7 +76,7 @@ void aMethod(String arg1, int arg2) {
 
 The return type indicates {@{the type of the method output}@}. The `void` type is {@{a special return type indicating no method output}@}. To return a non-`void` value, use {@{`return`, like `return valueOfReturnType;`}@}. <!--SR:!2028-05-23,1224,350!2028-02-04,1136,350!fsrs,2034-03-24T00:00:00.000Z,2755,2755.16810621,1,2,10,0,0,2026-09-07T00:00:00.000Z-->
 
-The parameter types indicates {@{the types of the method inputs}@}. It is possible to have {@{no parameters}@}. Each parameter is {@{separated by `,`, with the parameter type appearing before the parameter name}@}. <!--SR:!2028-01-23,1128,350!2026-09-30,728,330!2028-10-15,1335,350-->
+The parameter types indicates {@{the types of the method inputs}@}. It is possible to have {@{no parameters}@}. Each parameter is {@{separated by `,`, with the parameter type appearing before the parameter name}@}. <!--SR:!2028-01-23,1128,350!fsrs,2034-06-14T00:00:00.000Z,2813,2812.77203471,1,2,11,0,0,2026-10-01T00:00:00.000Z!2028-10-15,1335,350-->
 
 ### constructor
 

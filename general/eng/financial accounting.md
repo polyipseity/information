@@ -179,7 +179,7 @@ However, there are {@{instances of accounts, known as contra-accounts}@} \({@{co
 
 - contra-asset accounts, such as... ::@:: [accumulated depreciation](depreciation.md#accumulated%20depreciation) and allowances for bad debt or obsolete inventory <!--SR:!2027-07-04,777,330!2027-03-17,699,330-->
 - contra-revenue accounts, such as... ::@:: sales allowances <!--SR:!2028-09-26,1147,350!2027-04-29,721,330-->
-- contra-equity accounts, such as... ::@:: [treasury stock](treasury%20stock.md) <!--SR:!2026-09-30,572,330!2027-08-15,812,330-->
+- contra-equity accounts, such as... ::@:: [treasury stock](treasury%20stock.md) <!--SR:!fsrs,2030-10-23T00:00:00.000Z,1483,1482.69641641,2.49272837,2,10,0,0,2026-10-01T00:00:00.000Z!2027-08-15,812,330-->
 
 ## financial accounting versus cost accounting
 
