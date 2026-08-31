@@ -267,7 +267,7 @@ For example, in {@{∀<!-- markdown separator -->_x_ ∀<!-- markdown separator 
 
 ### example: ordered abelian groups
 
-In {@{mathematics}@}, {@{the language of ordered [abelian groups](abelian%20group.md)}@} has {@{one constant symbol 0, one unary function symbol −, one binary function symbol +, and one binary relation symbol ≤}@}. Then:
+In {@{mathematics}@}, {@{the language of ordered [abelian groups](abelian%20group.md)}@} has {@{one constant symbol 0, one unary function symbol −}@}, {@{one binary function symbol +, and one binary relation symbol ≤}@}. Then:
 
 - The expressions {@{+\(_x_, _y_\) and +\(_x_, +\(_y_, −\(_z_\)\)\)}@} are {@{_terms_}@}. These are usually written as {@{_x_ + _y_ and _x_ + _y_ − _z_}@}.
 - The expressions {@{+\(_x_, _y_\) = 0 and ≤\(+\(_x_, +\(_y_, −\(_z_\)\)\), +\(_x_, _y_\)\)}@} are {@{_atomic formulas_}@}. These are usually written as {@{_x_ + _y_ = 0 and _x_ + _y_ − _z_  ≤  _x_ + _y_}@}.
