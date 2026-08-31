@@ -1085,7 +1085,7 @@ class WikiHtmlConverter:
 
         in_table = self._in_table_cell(ele)
         prefix = "\n" if not in_table else ""
-        suffix = "" if in_table else "\n\n"
+        suffix = "\n\n"
         return _HandlerConfig(prefix=prefix, suffix=suffix, process_strings=process)
 
     def _handle_code(self, ele: Tag, classes: frozenset[str]) -> _HandlerConfig:

@@ -637,8 +637,7 @@ class TableConverter:
                 nodes: list[PageElement] = []
                 for i, tr in enumerate(cls._table_rows(nested_table)):
                     if i > 0:
-                        nodes.append(soup.new_tag("br"))
-                        nodes.append(soup.new_tag("br"))
+                        nodes.append(soup.new_tag("p"))
                     sub_cells = tr.find_all(_TD_OR_TH, recursive=False)
                     for j, sub_cell in enumerate(sub_cells):
                         if j > 0:
