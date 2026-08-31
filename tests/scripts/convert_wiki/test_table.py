@@ -65,11 +65,11 @@ class TestFlattenNestedTables:
         assert "Item B" in text
         assert "Item C" in text
         assert "Item D" in text
-        # Rows separated by <p> separators.
-        p_tags = cell.find_all("p")
-        assert len(p_tags) >= 1  # at least 1 between rows
-        # Intra-row <br> for cell separation.
+        # Rows separated by <br><br> separators.
         br_tags = cell.find_all("br")
+        # 2 <br> per row separator × 3 separators (4 rows) = 6
+        # plus intra-row separators (2 rows with 2 cells) = 2
+        assert len(br_tags) >= 8
         assert len(br_tags) >= 2  # between cells in each row
 
     def test_wikitable_inside_navbox_cell(self) -> None:
