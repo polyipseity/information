@@ -40,6 +40,7 @@ __all__ = ()
 _HEADER_REGEX = re.compile(r"^h(\d)$")
 """Tags that render as bold or italic."""
 _BOLD_OR_ITALIC = frozenset({"b", "em", "i", "strong"})
+_INLINE_TAGS = frozenset({"a", "span", "em", "i", "b", "strong", "img"})
 """Bold font-weight style detector."""
 _BOLD_FONT_STYLE_REGEX = re.compile(r"\bfont-weight\s*:\s*bold\b", re.IGNORECASE)
 """Italic font-style detector."""
@@ -244,6 +245,8 @@ class WikiHtmlConverter:
                             or (
                                 self._is_inline_link(prev) and self._is_inline_link(nxt)
                             )
+                            or (self._is_inline_link(prev) and nxt.name in _INLINE_TAGS)
+                            or (prev.name in _INLINE_TAGS and self._is_inline_link(nxt))
                         )
                     ):
                         return " "
@@ -565,13 +568,6 @@ class WikiHtmlConverter:
         elif href.startswith("/wiki/"):
             title = unquote(href[6:].split("#")[0]).replace("_", " ")
         else:
-            table = ele.find_parent("table")
-            table_classes = (
-                table.get_attribute_list("class") if isinstance(table, Tag) else []
-            )
-            in_sidebar = any(c in ("sidebar", "cm-sidebar") for c in table_classes)
-            if not in_sidebar:
-                return _HandlerConfig()
             title = ele.get_text(strip=True)
         info = self._redirect_map.get(title, _RedirectInfo(to=title))
         to = info.to
@@ -1784,6 +1780,14 @@ class WikiHtmlConverter:
                 href = _markdown_fragment(
                     _fix_name_maybe(
                         href[href.index("#") + 1 :],
+                        replace_underscores=True,
+                        names_map=self._names_map,
+                    )
+                )
+            elif href.startswith("#") and len(href) > 1:
+                href = _markdown_fragment(
+                    _fix_name_maybe(
+                        href[1:],
                         replace_underscores=True,
                         names_map=self._names_map,
                     )
