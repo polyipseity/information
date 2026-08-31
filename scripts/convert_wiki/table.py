@@ -11,7 +11,7 @@ explicit parameters.
 import re
 from copy import copy
 
-from bs4 import NavigableString, Tag
+from bs4 import NavigableString, PageElement, Tag
 
 from .ast_utils import _replace_pipes_outside_math
 from .types import _HandlerConfig
@@ -144,6 +144,7 @@ class TableConverter:
         soup:
             The root BeautifulSoup object used to create new tags.
         """
+        cls._flatten_nested_tables(ele, soup)
         cls._transform_infobox_caption_rows(ele, soup)
         cls._normalize_table_cells(ele, soup)
         cls._merge_header_rows(ele, soup)
@@ -621,6 +622,39 @@ class TableConverter:
             # Only process the first mixed row; subsequent rows are not
             # alignment-related and should not get markers.
             break
+
+    @classmethod
+    def _flatten_nested_tables(cls, tbody: Tag, soup: Tag) -> None:
+        """Replace nested ``<table>`` elements inside ``<td>``/``<th>`` with flat inline HTML.
+
+        Unlike a plain ``get_text()`` call, this preserves child elements
+        (``<a>``, ``<b>``, ``<sup>``, etc.) so that links and formatting
+        survive the flattening.
+        """
+        for cell in tbody.find_all(_TD_OR_TH):
+            # Process in reverse so inner tables are flattened before outer ones.
+            for nested_table in reversed(list(cell.find_all("table"))):
+                nodes: list[PageElement] = []
+                for i, tr in enumerate(cls._table_rows(nested_table)):
+                    if i > 0:
+                        nodes.append(soup.new_tag("br"))
+                        nodes.append(soup.new_tag("br"))
+                    sub_cells = tr.find_all(_TD_OR_TH, recursive=False)
+                    for j, sub_cell in enumerate(sub_cells):
+                        if j > 0:
+                            nodes.append(soup.new_tag("br"))
+                        # Wrap <th> children in <b> to preserve navbox-group bold.
+                        if sub_cell.name == "th":
+                            b_tag = soup.new_tag("b")
+                            for child in list(sub_cell.children):
+                                b_tag.append(child)
+                            nodes.append(b_tag)
+                        else:
+                            for child in list(sub_cell.children):
+                                nodes.append(child)
+                for node in nodes:
+                    nested_table.insert_before(node)
+                nested_table.extract()
 
     # -- Static helpers --
 
