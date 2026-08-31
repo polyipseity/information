@@ -1078,15 +1078,20 @@ class WikiHtmlConverter:
 
     def _handle_p(self, ele: Tag, classes: frozenset[str]) -> _HandlerConfig:
         """Render a <p> paragraph with appropriate spacing."""
+        in_table = self._in_table_cell(ele)
 
         def process(strings: str) -> str:
             """Collapse whitespace runs in paragraph text."""
-            return _collapse_whitespace(strings)
+            collapsed = _collapse_whitespace(strings)
+            if in_table:
+                # Use ``full_result`` so the ``\n\n`` suffix is always
+                # produced, even for empty paragraphs (e.g. row
+                # separators inserted by ``_flatten_nested_tables``).
+                return collapsed or "\n\n"
+            prefix = "\n" if collapsed else ""
+            return f"{prefix}{collapsed}\n\n"
 
-        in_table = self._in_table_cell(ele)
-        prefix = "\n" if not in_table else ""
-        suffix = "\n\n"
-        return _HandlerConfig(prefix=prefix, suffix=suffix, process_strings=process)
+        return _HandlerConfig(full_result=True, process_strings=process)
 
     def _handle_code(self, ele: Tag, classes: frozenset[str]) -> _HandlerConfig:
         """Render inline <code> with backtick markers."""
