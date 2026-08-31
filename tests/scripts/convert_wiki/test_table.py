@@ -65,9 +65,12 @@ class TestFlattenNestedTables:
         assert "Item B" in text
         assert "Item C" in text
         assert "Item D" in text
-        # Rows separated by <br/> separators.
+        # Rows separated by <p> separators.
+        p_tags = cell.find_all("p")
+        assert len(p_tags) >= 1  # at least 1 between rows
+        # Intra-row <br> for cell separation.
         br_tags = cell.find_all("br")
-        assert len(br_tags) >= 4  # 2 between cells in each row, 2 between rows
+        assert len(br_tags) >= 2  # between cells in each row
 
     def test_wikitable_inside_navbox_cell(self) -> None:
         """Inner wikitable with alignment row is flattened; alignment row gone."""

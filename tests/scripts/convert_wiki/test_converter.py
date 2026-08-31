@@ -712,7 +712,7 @@ class TestParagraphHandling:
 
     @pytest.mark.anyio
     async def test_paragraph_in_table_cell(self, converter: WikiHtmlConverter) -> None:
-        """Paragraph inside a table cell should not add outer spacing."""
+        """Paragraph inside a table cell produces paragraph spacing."""
         result = await _convert(
             converter, "<table><tr><td><p>cell text</p></td></tr></table>"
         )
