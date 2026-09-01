@@ -26,7 +26,7 @@ The Routhian, like the Hamiltonian, can be obtained from a [Legendre transform](
 
 The Routhian differs from these functions in that some coordinates are chosen to have corresponding generalized velocities, the rest to have corresponding generalized momenta. This choice is arbitrary, and can be done to simplify the problem. It also has the consequence that the __Routhian equations__ are exactly the Hamiltonian equations for some coordinates and corresponding momenta, and the Lagrangian equations for the rest of the coordinates and their velocities. In each case the Lagrangian and Hamiltonian functions are replaced by a single function, the Routhian. The full set thus has the advantages of both sets of equations, with the convenience of splitting one set of coordinates to the Hamilton equations, and the rest to the Lagrangian equations.
 
-In the case of Lagrangian mechanics, the [generalized coordinates](generalized%20coordinates.md)_q_<sub>1</sub>, _q_<sub>2</sub>, ... and the corresponding velocities _dq_<sub>1</sub>/<!-- markdown separator -->_dt_, _dq_<sub>2</sub>/<!-- markdown separator -->_dt_, ..., and possibly time<sup>[\[nb 1\]](#^nb-1)</sup>_t_, enter the Lagrangian,
+In the case of Lagrangian mechanics, the [generalized coordinates](generalized%20coordinates.md) _q_<sub>1</sub>, _q_<sub>2</sub>, ... and the corresponding velocities _dq_<sub>1</sub>/<!-- markdown separator -->_dt_, _dq_<sub>2</sub>/<!-- markdown separator -->_dt_, ..., and possibly time<sup>[\[nb 1\]](#^nb-1)</sup>_t_, enter the Lagrangian,
 
 $$L(q_{1},q_{2},\ldots ,{\dot {q} }_{1},{\dot {q} }_{2},\ldots ,t)\,,\quad {\dot {q} }_{i}={\frac {dq_{i} }{dt} }\,,$$
 
@@ -208,7 +208,7 @@ Routh's procedure does not guarantee the equations of motion will be simple, how
 
 One general class of mechanical systems with cyclic coordinates are those with [central potentials](central%20potential.md), because potentials of this form only have dependence on radial separations and no dependence on angles.
 
-Consider a particle of mass _m_ under the influence of a central potential _V_\(_r_\) in [spherical polar coordinates](spherical%20polar%20coordinates.md)\(_r_, _θ_, _φ_\)
+Consider a particle of mass _m_ under the influence of a central potential _V_\(_r_\) in [spherical polar coordinates](spherical%20polar%20coordinates.md) \(_r_, _θ_, _φ_\)
 
 $$L(r,{\dot {r} },\theta ,{\dot {\theta } },{\dot {\phi } })={\frac {m}{2} }({\dot {r} }^{2}+{r}^{2}{\dot {\theta } }^{2}+r^{2}\sin ^{2}\theta {\dot {\varphi } }^{2})-V(r)\,.$$
 
@@ -298,7 +298,7 @@ The heavy [symmetrical top](symmetrical%20top.md#principal%20axes) of mass _M_ h
 
 $$L(\theta ,{\dot {\theta } },{\dot {\psi } },{\dot {\phi } })={\frac {I_{1} }{2} }({\dot {\theta } }^{2}+{\dot {\phi } }^{2}\sin ^{2}\theta )+{\frac {I_{3} }{2} }({\dot {\psi } }^{2}+{\dot {\phi } }^{2}\cos ^{2}\theta )+I_{3}{\dot {\psi } }{\dot {\phi } }\cos \theta -Mg\ell \cos \theta$$
 
-where _ψ_, _φ_, _θ_ are the [Euler angles](Euler%20angles.md), _θ_ is the angle between the vertical _z_-axis and the top's _z_<!-- markdown separator -->′-axis, _ψ_ is the rotation of the top about its own _z_<!-- markdown separator -->′-axis, and _φ_ the azimuthal of the top's _z_<!-- markdown separator -->′-axis around the vertical _z_-axis. The principal [moments of inertia](moments%20of%20inertia.md) are _I_<sub>1</sub> about the top's own _x_<!-- markdown separator -->′ axis, _I_<sub>2</sub> about the top's own _y_<!-- markdown separator -->′ axes, and _I_<sub>3</sub> about the top's own _z_<!-- markdown separator -->′-axis. Since the top is symmetric about its _z_<!-- markdown separator -->′-axis, _I_<sub>1</sub> = _I_<sub>2</sub>. Here the simple relation for local [gravitational potential energy](gravitational%20potential%20energy.md)_V_ = _Mgl_<!-- markdown separator -->cos<!-- markdown separator -->_θ_ is used where _g_ is the acceleration due to gravity, and the centre of mass of the top is a distance _l_ from its tip along its _z_<!-- markdown separator -->′-axis.
+where _ψ_, _φ_, _θ_ are the [Euler angles](Euler%20angles.md), _θ_ is the angle between the vertical _z_-axis and the top's _z_<!-- markdown separator -->′-axis, _ψ_ is the rotation of the top about its own _z_<!-- markdown separator -->′-axis, and _φ_ the azimuthal of the top's _z_<!-- markdown separator -->′-axis around the vertical _z_-axis. The principal [moments of inertia](moments%20of%20inertia.md) are _I_<sub>1</sub> about the top's own _x_<!-- markdown separator -->′ axis, _I_<sub>2</sub> about the top's own _y_<!-- markdown separator -->′ axes, and _I_<sub>3</sub> about the top's own _z_<!-- markdown separator -->′-axis. Since the top is symmetric about its _z_<!-- markdown separator -->′-axis, _I_<sub>1</sub> = _I_<sub>2</sub>. Here the simple relation for local [gravitational potential energy](gravitational%20potential%20energy.md) _V_ = _Mgl_<!-- markdown separator -->cos<!-- markdown separator -->_θ_ is used where _g_ is the acceleration due to gravity, and the centre of mass of the top is a distance _l_ from its tip along its _z_<!-- markdown separator -->′-axis.
 
 The angles _ψ_, _φ_ are cyclic. The constant momenta are the angular momenta of the top about its axis and its precession about the vertical, respectively:
 
@@ -373,11 +373,11 @@ $${\frac {d}{dt} }{\frac {\partial L}{\partial {\dot {\phi } } } }={\frac {\part
 >
 > Classical charged particle in uniform __B__ field, using cylindrical coordinates. __Top:__ If the radial coordinate _r_ and angular velocity _dθ_<!-- markdown separator -->/<!-- markdown separator -->_dt_ vary, the trajectory is a helicoid with varying radius but uniform motion in the _z_ direction. __Bottom:__ Constant _r_ and _dθ_<!-- markdown separator -->/<!-- markdown separator -->_dt_ means a helicoid with constant radius.
 
-Consider a classical [charged particle](charged%20particle.md) of mass _m_ and [electric charge](electric%20charge.md)_q_ in a static \(time-independent\) uniform \(constant throughout space\) [magnetic field](magnetic%20field.md)__B__.<sup>[\[10\]](#^ref-10)</sup> The Lagrangian for a charged particle in a general [electromagnetic field](electromagnetic%20field.md) given by the [magnetic potential](magnetic%20vector%20potential.md)__A__ and [electric potential](electric%20potential.md) $\phi$ is
+Consider a classical [charged particle](charged%20particle.md) of mass _m_ and [electric charge](electric%20charge.md) _q_ in a static \(time-independent\) uniform \(constant throughout space\) [magnetic field](magnetic%20field.md) __B__.<sup>[\[10\]](#^ref-10)</sup> The Lagrangian for a charged particle in a general [electromagnetic field](electromagnetic%20field.md) given by the [magnetic potential](magnetic%20vector%20potential.md) __A__ and [electric potential](electric%20potential.md) $\phi$ is
 
 $$L={\frac {m}{2} }{\dot {\mathbf {r} } }^{2}-q\phi +q{\dot {\mathbf {r} } }\cdot \mathbf {A} \,,$$
 
-It is convenient to use [cylindrical coordinates](cylindrical%20coordinates.md)\(_r_, _θ_, _z_\), so that
+It is convenient to use [cylindrical coordinates](cylindrical%20coordinates.md) \(_r_, _θ_, _z_\), so that
 
 $${\dot {\mathbf {r} } }=\mathbf {v} =(v_{r},v_{\theta },v_{z})=({\dot {r} },r{\dot {\theta } },{\dot {z} })\,,$$
 $$\mathbf {B} =(B_{r},B_{\theta },B_{z})=(0,0,B)\,.$$
