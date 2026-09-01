@@ -40,6 +40,7 @@ __all__ = ()
 _HEADER_REGEX = re.compile(r"^h(\d)$")
 """Tags that render as bold or italic."""
 _BOLD_OR_ITALIC = frozenset({"b", "em", "i", "strong"})
+"""Inline-level HTML tags for whitespace-preservation checks."""
 _INLINE_TAGS = frozenset({"a", "span", "em", "i", "b", "strong", "img"})
 """Bold font-weight style detector."""
 _BOLD_FONT_STYLE_REGEX = re.compile(r"\bfont-weight\s*:\s*bold\b", re.IGNORECASE)
