@@ -26,7 +26,7 @@ tags:
 
 ## hints
 
-1. software development complexity sources ::@:: application domain \(e.g. nature, vocabulary, etc.\), organization, size, etc. <!--SR:!fsrs,2029-05-31T00:00:00.000Z,1030,1029.72783972,1,2,9,0,0,2026-08-05T00:00:00.000Z!2026-10-01,270,330-->
+1. software development complexity sources ::@:: application domain \(e.g. nature, vocabulary, etc.\), organization, size, etc. <!--SR:!fsrs,2029-05-31T00:00:00.000Z,1030,1029.72783972,1,2,9,0,0,2026-08-05T00:00:00.000Z!fsrs,2029-12-29T00:00:00.000Z,1184,1183.64577796,1,2,9,0,0,2026-10-02T00:00:00.000Z-->
 2. software / types / uses / custom ::@:: copies in use: low <br/> development effort: high <br/> source of user requirements: client needs <!--SR:!2026-10-16,285,330!fsrs,2029-09-08T00:00:00.000Z,1107,1107.06552019,1,2,9,0,0,2026-08-28T00:00:00.000Z-->
 3. software development life cycle / milestone ::@:: It is a management _decision point_, where the management can make major decisions. <!--SR:!fsrs,2029-12-05T00:00:00.000Z,1165,1164.5679841,1,2,9,0,0,2026-09-27T00:00:00.000Z!2026-10-17,286,330-->
 4. project management / steps ::@:: scope → risks → schedule \(e.g. deliverables\) → implement <!--SR:!fsrs,2029-07-05T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-08-13T00:00:00.000Z!2028-02-16,655,330-->

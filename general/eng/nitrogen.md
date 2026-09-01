@@ -48,7 +48,7 @@ return await memorize_table(
 
 <!--pytextgen generate section="232ba1"--><!-- The following content is generated at 2024-01-04T20:17:52.345867+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←food packaging <!--SR:!2028-10-24,1199,290!2026-10-02,915,330-->
+- _(begin)_→::@::←food packaging <!--SR:!2028-10-24,1199,290!fsrs,2036-02-29T00:00:00.000Z,3437,3436.8521901,1,2,11,0,0,2026-10-02T00:00:00.000Z-->
 - food packaging→::@::←making [ammonia](ammonia.md) <!--SR:!2029-07-06,1562,310!2031-01-06,1882,330-->
 - making [ammonia](ammonia.md)→::@::←[refrigerant](refrigerant.md) <!--SR:!2029-09-17,1595,290!2033-08-25,2760,310-->
 - [refrigerant](refrigerant.md)→::@::←_(end)_ <!--SR:!2035-06-24,3417,350!2031-05-21,1871,270-->

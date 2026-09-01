@@ -17,7 +17,7 @@ tags:
 
 # _Q_ factor
 
-{@{The _Q_ factor}@} also describes {@{the sharpness of [resonance](resonance.md) curves on a motional spectrum}@}, i.e. {@{[resonance transmissibility](<transmissibility%20(vibration).md>) $G(\omega_d)$ over frequency ratio $\omega_d / \omega_n$}@}. {@{Higher _Q_ factor}@} indicates that {@{the resonance curve is sharper}@}. <!--SR:!2032-03-15,2112,290!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z-->
+{@{The _Q_ factor}@} also describes {@{the sharpness of [resonance](resonance.md) curves on a motional spectrum}@}, i.e. {@{[resonance transmissibility](<transmissibility%20(vibration).md>) $G(\omega_d)$ over frequency ratio $\omega_d / \omega_n$}@}. {@{Higher _Q_ factor}@} indicates that {@{the resonance curve is sharper}@}. <!--SR:!2032-03-15,2112,290!fsrs,2028-01-14T00:00:00.000Z,469,468.69043243,1,2,3,0,0,2026-10-02T00:00:00.000Z!fsrs,2028-01-14T00:00:00.000Z,469,468.69043243,1,2,3,0,0,2026-10-02T00:00:00.000Z!fsrs,2028-01-14T00:00:00.000Z,469,468.69043243,1,2,3,0,0,2026-10-02T00:00:00.000Z!fsrs,2028-01-14T00:00:00.000Z,469,468.69043243,1,2,3,0,0,2026-10-02T00:00:00.000Z-->
 
 ## references
 

@@ -333,7 +333,7 @@ Under {@{the class `Pouring`}@}, {@{all glasses and possible moves}@} are {@{gen
 > ```
 <!--SR:!2026-11-21,293,345!2026-11-28,298,345!2026-11-28,300,345-->
 
-{@{The search space}@} of {@{the water pouring problem}@} is {@{explored lazily}@}: <!--SR:!2027-01-11,334,345!2026-10-02,258,330!2026-12-01,302,345-->
+{@{The search space}@} of {@{the water pouring problem}@} is {@{explored lazily}@}: <!--SR:!2027-01-11,334,345!fsrs,2029-11-13T00:00:00.000Z,1138,1137.78464757,1,2,9,0,0,2026-10-02T00:00:00.000Z!2026-12-01,302,345-->
 
 > [!example] __water pouring problem search__
 >

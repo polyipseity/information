@@ -29,7 +29,7 @@ tags:
 - header ::@:: company name, `(Adjusted/Unadjusted/Post-closing) Trial Balance`, date, (monetary unit) <!--SR:!2027-01-05,552,310!2029-01-21,1170,350-->
     - header / date ::@:: Not duration, surprisingly. Example: `At December 31, 2019` <!--SR:!fsrs,2031-01-27T00:00:00.000Z,1640,1639.62909579,1,2,10,0,0,2026-08-01T00:00:00.000Z!2027-12-27,838,330-->
     - header / monetary unit ::@:: example: <br/> (none; not recommended) <br/> `(in million of dollars)` <!--SR:!2027-06-02,686,330!2029-01-28,1174,350-->
-- dollar sign ::@:: There is no need to add it. It is supposed to be done in a spreadsheet anyway. <!--SR:!2029-05-04,1247,350!2026-10-01,483,310-->
+- dollar sign ::@:: There is no need to add it. It is supposed to be done in a spreadsheet anyway. <!--SR:!2029-05-04,1247,350!fsrs,2031-10-12T00:00:00.000Z,1836,1836.00256196,1,2,10,0,0,2026-10-02T00:00:00.000Z-->
 - total ::@:: Calculate the total debit and credit for unadjusted, adjustments, and adjusted. The debit and credit should always equal. <!--SR:!2027-05-27,680,330!2029-03-02,1202,350-->
 - negative number ::@:: There should be no negative numbers. <!--SR:!2029-01-21,1169,350!2029-02-14,1188,350-->
 - casing ::@:: Use title case for basically everything!!! (Ignore that I have been NOT using title case in this note.) <!--SR:!2029-05-07,1249,350!2029-06-29,1293,350-->

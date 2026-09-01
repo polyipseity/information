@@ -83,7 +83,7 @@ return chain.from_iterable([r.value for r in results])
 <!--pytextgen generate section="d5f1"--><!-- The following content is generated at 2024-01-04T20:17:52.536836+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←[liqueified petroleum gas](liqueified%20petroleum%20gas.md) <!--SR:!fsrs,2036-02-14T00:00:00.000Z,3427,3426.96598419,1,2,11,0,0,2026-09-27T00:00:00.000Z!2028-06-08,1481,354-->
-- [liqueified petroleum gas](liqueified%20petroleum%20gas.md)→::@::←[butane](butane.md) <!--SR:!2026-10-09,928,334!2026-10-02,924,334-->
+- [liqueified petroleum gas](liqueified%20petroleum%20gas.md)→::@::←[butane](butane.md) <!--SR:!2026-10-09,928,334!fsrs,2036-05-13T00:00:00.000Z,3511,3511.35604076,1,2,11,0,0,2026-10-02T00:00:00.000Z-->
 - [butane](butane.md)→::@::←[gasoline/petrol](gasoline.md) <!--SR:!2028-02-13,1205,294!2030-01-30,1476,314-->
 - [gasoline/petrol](gasoline.md)→::@::←[naphtha](naphtha.md) <!--SR:!2032-10-08,2458,294!2027-08-20,557,190-->
 - [naphtha](naphtha.md)→::@::←[jet fuel](jet%20fuel.md) <!--SR:!2027-08-02,460,190!2027-10-23,876,234-->
@@ -103,7 +103,7 @@ return chain.from_iterable([r.value for r in results])
 - [liqueified petroleum gas](liqueified%20petroleum%20gas.md):@:-40 to -1 °C <!--SR:!2029-10-09,1250,270-->
 - [butane](butane.md):@:-12 to -1 °C <!--SR:!2027-01-08,963,314-->
 - [gasoline/petrol](gasoline.md):@:-1 to 110 °C <!--SR:!2027-01-19,543,190-->
-- [naphtha](naphtha.md):@:30 to 200 °C <!--SR:!2026-10-02,387,190-->
+- [naphtha](naphtha.md):@:30 to 200 °C <!--SR:!fsrs,2029-02-06T00:00:00.000Z,858,858.18973201,6.98338322,2,10,0,0,2026-10-02T00:00:00.000Z-->
 - [jet fuel](jet%20fuel.md):@:150 to 205 °C <!--SR:!2027-08-21,517,190-->
 - [kerosene](kerosene.md):@:205 to 260 °C <!--SR:!2026-12-18,424,170-->
 - [fuel oil](fuel%20oil.md):@:205 to 290 °C <!--SR:!2026-12-03,303,170-->

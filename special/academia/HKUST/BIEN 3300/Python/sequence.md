@@ -41,7 +41,7 @@ assert "asd"[-1] == "d"
 assert [39, "omg", 'asd', 3.4][-2] == "asd"
 ```
 
-One can obtain subsequences, i.e. smaller sequences, via {@{slicing}@}. To obtain a subsequence from the a-th item to the b-th item, write {@{`sequence[a-1:b]`}@}: <!--SR:!fsrs,2028-09-13T00:00:00.000Z,725,725.23172215,2.49272837,2,9,0,0,2026-09-19T00:00:00.000Z!2026-10-01,270,330-->
+One can obtain subsequences, i.e. smaller sequences, via {@{slicing}@}. To obtain a subsequence from the a-th item to the b-th item, write {@{`sequence[a-1:b]`}@}: <!--SR:!fsrs,2028-09-13T00:00:00.000Z,725,725.23172215,2.49272837,2,9,0,0,2026-09-19T00:00:00.000Z!fsrs,2029-12-31T00:00:00.000Z,1186,1186.0509745,1,2,9,0,0,2026-10-02T00:00:00.000Z-->
 
 ```Python
 assert "asd"[1:3] == 'sd'

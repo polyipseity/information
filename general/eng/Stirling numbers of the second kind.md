@@ -117,7 +117,7 @@ If {@{$n\geq 2$ (annotation: notice if $n < 2$ then the latter condition is unsa
 
 ### asymptotic approximation
 
-For {@{fixed value of $k$}@}, the asymptotic value of the Stirling numbers of the second kind as $n\rightarrow \infty$ is {@{given by $$\left\{ {n \atop k}\right\}{\underset {n\to \infty }{\sim } }{\frac {k^{n} }{k!} }.$$}@} <!--SR:!2026-10-16,535,310!2026-10-01,161,170-->
+For {@{fixed value of $k$}@}, the asymptotic value of the Stirling numbers of the second kind as $n\rightarrow \infty$ is {@{given by $$\left\{ {n \atop k}\right\}{\underset {n\to \infty }{\sim } }{\frac {k^{n} }{k!} }.$$}@} <!--SR:!2026-10-16,535,310!fsrs,2027-09-04T00:00:00.000Z,337,336.73113538,7.98399827,2,8,0,0,2026-10-02T00:00:00.000Z-->
 
 If {@{$n=o({\sqrt {k} })$ (where _o_ denotes the [little o notation](big%20O%20notation.md#little-o%20notation))}@} then {@{$$\left\{ {n+k \atop k}\right\}{\underset {k\to \infty }{\sim } }{\frac {k^{2n} }{2^{n}n!} }.$$}@}<sup>[\[13\]](#^ref-13)</sup> <!--SR:!2027-12-01,688,270!fsrs,2027-12-25T00:00:00.000Z,477,477.1247249,4.98215312,2,8,0,0,2026-09-04T00:00:00.000Z-->
 

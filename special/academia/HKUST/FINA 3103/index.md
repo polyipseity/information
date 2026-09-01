@@ -200,7 +200,7 @@ The content is in teaching order.
     - over-the-counter / disadvantages ::@:: counterparty risk, less liquid, opaque, systemic risk \(if major dealers are distressed\) <!--SR:!2027-04-24,457,390!2027-04-10,443,387-->
     - over-the-counter / examples ::@:: exotic options, forwards, structured products, swaps <p> \(__this course__: typically bonds\) <!--SR:!fsrs,2030-01-31T00:00:00.000Z,1260,1259.89547299,1,2,9,0,0,2026-08-20T00:00:00.000Z!2027-04-13,446,390-->
 - stock exchange
-    - stock exchange / competition ::@:: There are multiple exchanges in the United States. This competition benefits users. <p> However, there are unintended consequences, e.g. enabling high-frequency trading \(HFT\), enabling latency arbitrage, etc. <!--SR:!2026-10-01,285,370!2027-04-25,458,390-->
+    - stock exchange / competition ::@:: There are multiple exchanges in the United States. This competition benefits users. <p> However, there are unintended consequences, e.g. enabling high-frequency trading \(HFT\), enabling latency arbitrage, etc. <!--SR:!fsrs,2030-08-11T00:00:00.000Z,1409,1409.26283089,1,2,9,0,0,2026-10-02T00:00:00.000Z!2027-04-25,458,390-->
 - order book
 - order
     - order / types

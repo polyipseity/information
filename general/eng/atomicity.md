@@ -60,7 +60,7 @@ Molecules can be classified based on atomicity as:
 - O<sub>2</sub> ([oxygen](oxygen.md)):@:[diatomic](diatomic%20molecule.md) <!--SR:!2027-06-27,1209,350-->
 - O<sub>3</sub> ([ozone](ozone.md)):@:[triatomic](triatomic%20molecule.md) <!--SR:!2027-04-03,1141,350-->
 - P<sub>4</sub> ([white phosphorous](white%20phosphorous.md)):@:polyatomic <!--SR:!2027-06-28,1118,330-->
-- S<sub>8</sub> ([sulfur](sulfur.md)):@:polyatomic <!--SR:!2026-10-01,920,330-->
+- S<sub>8</sub> ([sulfur](sulfur.md)):@:polyatomic <!--SR:!fsrs,2032-12-22T00:00:00.000Z,2273,2272.61943435,2.49272837,2,11,0,0,2026-10-02T00:00:00.000Z-->
 
 <!--/pytextgen-->
 

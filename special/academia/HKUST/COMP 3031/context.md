@@ -23,7 +23,7 @@ Normally in Scala, {@{values \(terms\) and types}@} infer {@{types}@}, e.g. {@{i
 
 ## motivation
 
-We want to write {@{code that is _modular_}@} by {@{abstracting over the "context" in which it will run}@}. {@{Context}@} can be {@{the current configuration, security level}@}, or even {@{a user on whose behalf an operation executes}@}.  In practice this means making {@{functions and classes independent of global state \(dependent on "context"\)}@} so they can be {@{reused safely across modules}@}. There are several {@{common approaches}@}: \(annotation: 5 items: {@{globals, mutable globals, monkey patch, dependency injection, functional context}@}\) <!--SR:!2027-01-17,338,349!2026-12-16,314,349!2026-12-27,324,349!2026-11-23,293,349!2027-01-28,349,349!2027-01-26,347,349!2026-10-02,251,330!fsrs,2028-08-08T00:00:00.000Z,685,684.89001444,2.49272837,2,9,0,0,2026-09-23T00:00:00.000Z!2026-11-20,294,349-->
+We want to write {@{code that is _modular_}@} by {@{abstracting over the "context" in which it will run}@}. {@{Context}@} can be {@{the current configuration, security level}@}, or even {@{a user on whose behalf an operation executes}@}.  In practice this means making {@{functions and classes independent of global state \(dependent on "context"\)}@} so they can be {@{reused safely across modules}@}. There are several {@{common approaches}@}: \(annotation: 5 items: {@{globals, mutable globals, monkey patch, dependency injection, functional context}@}\) <!--SR:!2027-01-17,338,349!2026-12-16,314,349!2026-12-27,324,349!2026-11-23,293,349!2027-01-28,349,349!2027-01-26,347,349!fsrs,2029-10-17T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-10-02T00:00:00.000Z!fsrs,2028-08-08T00:00:00.000Z,685,684.89001444,2.49272837,2,9,0,0,2026-09-23T00:00:00.000Z!2026-11-20,294,349-->
 
 - globals ::@:: Simple to use. Rigid, hard to change per module. <!--SR:!2026-12-06,306,349!2026-12-19,317,349-->
 - mutable globals ::@:: Flexible but unsafe. Risk of interference \(e.g. race conditions\). <!--SR:!2026-12-20,318,349!2026-11-20,290,349-->
@@ -44,7 +44,7 @@ When {@{a method}@} needs to {@{operate over arbitrary types}@} – for example,
 > ```
 <!--SR:!2027-01-18,339,349!2026-12-05,305,349!2027-01-02,329,349!2026-11-25,295,349!2026-12-01,301,349-->
 
-However, {@{sorting}@} requires {@{an ordering relation `<`}@}, which {@{does not exist for all types}@}.  {@{The resolution}@} is to {@{_parameterise with an ordering_ rather than just a type}@}. <!--SR:!2026-10-01,250,330!2026-12-24,321,349!2026-12-27,324,349!2026-12-08,308,349!2027-01-02,329,349-->
+However, {@{sorting}@} requires {@{an ordering relation `<`}@}, which {@{does not exist for all types}@}.  {@{The resolution}@} is to {@{_parameterise with an ordering_ rather than just a type}@}. <!--SR:!fsrs,2029-10-13T00:00:00.000Z,1107,1107.06552019,1,2,9,0,0,2026-10-02T00:00:00.000Z!2026-12-24,321,349!2026-12-27,324,349!2026-12-08,308,349!2027-01-02,329,349-->
 
 > [!example] __parameterized sort with ordering__
 >
@@ -146,7 +146,7 @@ When calling {@{such a method}@}, you may {@{supply the argument explicitly}@} v
 
 However, {@{explicit passing}@} is {@{usually unnecessary}@}. If the caller {@{omits the `using` argument}@}, the compiler {@{automatically searches for an appropriate instance of `Ordering[T]`}@} and {@{supplies it implicitly}@}, as in the second line above. <!--SR:!2027-02-24,375,368!2027-03-02,379,368!2027-03-03,380,368!2027-01-25,351,368!2027-03-31,403,368-->
 
-{@{The syntax for `using` clauses}@} is {@{flexible}@}. {@{A single clause}@} may contain {@{multiple parameters}@}: <!--SR:!2026-10-02,251,330!2026-12-19,317,349!2026-12-03,303,349!2027-01-28,349,349-->
+{@{The syntax for `using` clauses}@} is {@{flexible}@}. {@{A single clause}@} may contain {@{multiple parameters}@}: <!--SR:!fsrs,2029-10-17T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-10-02T00:00:00.000Z!2026-12-19,317,349!2026-12-03,303,349!2027-01-28,349,349-->
 
 > [!example] __`using` multiple parameters__
 >
@@ -188,7 +188,7 @@ Alternatively, {@{separate `using` clauses}@} can be {@{chained}@}. {@{`using` c
 >
 > can be written with {@{an unnamed `Ordering[T]`}@}, yet internally {@{each `merge` and `sort` implicitly receives the same ordering}@}. <!--SR:!fsrs,2028-07-28T00:00:00.000Z,677,677.29649533,2.49272837,2,9,0,0,2026-09-20T00:00:00.000Z!2027-01-01,328,349!2027-01-20,341,349!2027-01-23,344,349!fsrs,2028-01-21T00:00:00.000Z,493,492.57579613,5.00637887,2,9,0,0,2026-09-15T00:00:00.000Z-->
 
-{@{Writing `(using Ordering[T])` inside a parameter list}@} is equivalent to explicitly {@{passing a named `ord` through every call that needs an `Ordering` implicitly}@}, but keeps the body of `sort` {@{free from boilerplate}@} and shows that {@{the implicit context can propagate transparently}@} even when the method itself {@{never directly references the parameter}@}. <!--SR:!2026-10-02,251,330!2026-12-21,319,349!2026-10-05,254,330!2026-12-09,309,349!2028-01-18,627,411-->
+{@{Writing `(using Ordering[T])` inside a parameter list}@} is equivalent to explicitly {@{passing a named `ord` through every call that needs an `Ordering` implicitly}@}, but keeps the body of `sort` {@{free from boilerplate}@} and shows that {@{the implicit context can propagate transparently}@} even when the method itself {@{never directly references the parameter}@}. <!--SR:!fsrs,2029-10-17T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-10-02T00:00:00.000Z!2026-12-21,319,349!2026-10-05,254,330!2026-12-09,309,349!2028-01-18,627,411-->
 
 ### context bound
 
@@ -279,7 +279,7 @@ To refer to {@{an instance directly without using `using`}@}, you may {@{use `su
 
 There are {@{three forms of import}@} to {@{import `given`s}@}: \(annotation: 3 items: {@{by name, by type, by wildcard}@}\) <!--SR:!2026-11-13,283,349!2026-12-25,322,349!2027-01-27,348,349-->
 
-- by name ::@:: `import scala.math.Ordering.Int` <!--SR:!2026-10-02,251,330!2027-01-26,347,349-->
+- by name ::@:: `import scala.math.Ordering.Int` <!--SR:!fsrs,2029-10-17T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-10-02T00:00:00.000Z!2027-01-26,347,349-->
 - by type ::@:: using the `given` keyword, e.g., `import scala.math.Ordering.{given Ordering[Int]}`, `import scala.math.Ordering.{given Ordering[?]}` <!--SR:!2026-11-18,288,349!2026-12-08,308,349-->
 - by wildcard ::@:: via a blanket wildcard, e.g. `import scala.math.given` <!--SR:!2026-11-30,300,349!2027-01-23,344,349-->
 
@@ -325,7 +325,7 @@ When {@{a method}@} requires {@{an instance that depends on another instance}@},
 >
 > {@{The compiler}@} first finds {@{`Ordering[List[Int]]`}@}, then finds {@{`Ordering[Int]`}@}, and finally {@{builds them in reverse order}@} and {@{supplies it to `sort`}@}. <!--SR:!2027-02-28,377,367!2027-03-18,391,367!2027-03-01,379,367!2027-03-04,381,367!2026-12-25,322,349!2027-01-27,348,349!2027-01-01,328,349!2026-11-18,292,349!2027-03-06,382,368-->
 
-For {@{another example}@} of {@{recursive `given` resolution}@}, {@{pairs}@} can be {@{ordered lexicographically}@} if {@{both components are orderable}@}: <!--SR:!2026-12-20,318,349!2026-11-09,283,349!2026-10-02,251,330!2027-01-19,340,349!2026-11-27,297,349-->
+For {@{another example}@} of {@{recursive `given` resolution}@}, {@{pairs}@} can be {@{ordered lexicographically}@} if {@{both components are orderable}@}: <!--SR:!2026-12-20,318,349!2026-11-09,283,349!fsrs,2029-10-17T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-10-02T00:00:00.000Z!2027-01-19,340,349!2026-11-27,297,349-->
 
 > [!example] __`pairOrdering`__
 >
@@ -502,9 +502,9 @@ With {@{an `Ordering[T]` in scope}@} one can {@{write}@}: <!--SR:!2026-10-03,252
 > ```
 <!--SR:!2026-12-11,311,349!2027-01-31,352,349-->
 
-{@{The syntax in Rust}@} is {@{slightly different}@} but {@{the concept}@} remains {@{the same}@}—defining {@{a set of operations}@} that can be {@{implemented for many distinct types}@}. <!--SR:!2027-01-02,329,349!fsrs,2028-07-18T00:00:00.000Z,670,669.69339296,2.49272837,2,9,0,0,2026-09-17T00:00:00.000Z!2026-10-02,251,330!2026-12-09,309,349!2027-01-25,346,349!2026-12-31,327,349-->
+{@{The syntax in Rust}@} is {@{slightly different}@} but {@{the concept}@} remains {@{the same}@}—defining {@{a set of operations}@} that can be {@{implemented for many distinct types}@}. <!--SR:!2027-01-02,329,349!fsrs,2028-07-18T00:00:00.000Z,670,669.69339296,2.49272837,2,9,0,0,2026-09-17T00:00:00.000Z!fsrs,2029-10-17T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-10-02T00:00:00.000Z!2026-12-09,309,349!2027-01-25,346,349!2026-12-31,327,349-->
 
-{@{Other functional and dependently-typed languages}@} are moving {@{toward a similar approach}@}.  {@{Agda, Lean, and soon OCaml}@} provide {@{general _contextual parameters_ or equivalent mechanisms}@} that allow {@{programmers to encode type-class-like behaviour}@} in a manner analogous to {@{Scala's `given` instances}@}.  {@{These systems}@} combine the expressiveness of {@{Haskell's type classes with Scala-style contextual resolution}@}, enabling {@{conditional polymorphism across a wide range of types}@}. <!--SR:!2026-11-30,300,349!2027-01-31,352,349!2026-10-02,251,330!2026-10-06,255,330!2027-01-27,348,349!2027-01-29,350,349!2026-11-08,282,349!2027-01-30,351,349!2026-12-04,305,349-->
+{@{Other functional and dependently-typed languages}@} are moving {@{toward a similar approach}@}.  {@{Agda, Lean, and soon OCaml}@} provide {@{general _contextual parameters_ or equivalent mechanisms}@} that allow {@{programmers to encode type-class-like behaviour}@} in a manner analogous to {@{Scala's `given` instances}@}.  {@{These systems}@} combine the expressiveness of {@{Haskell's type classes with Scala-style contextual resolution}@}, enabling {@{conditional polymorphism across a wide range of types}@}. <!--SR:!2026-11-30,300,349!2027-01-31,352,349!fsrs,2029-10-17T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-10-02T00:00:00.000Z!2026-10-06,255,330!2027-01-27,348,349!2027-01-29,350,349!2026-11-08,282,349!2027-01-30,351,349!2026-12-04,305,349-->
 
 ## monoid example
 

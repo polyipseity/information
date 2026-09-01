@@ -341,7 +341,7 @@ return await memorize_map(
 <!--pytextgen generate section="b92d"--><!-- The following content is generated at 2024-01-04T20:17:52.642068+08:00. Any edits will be overridden! -->
 
 - [ammonium carbonate](ammonium%20carbonate.md):@:<span style="color: green;">soluble</span> <!--SR:!2032-11-30,2403,338-->
-- [ammonium chloride](ammonium%20chloride.md):@:<span style="color: green;">soluble</span> <!--SR:!2026-10-02,829,338-->
+- [ammonium chloride](ammonium%20chloride.md):@:<span style="color: green;">soluble</span> <!--SR:!fsrs,2032-07-15T00:00:00.000Z,2113,2113.04107074,2.19302837,2,11,0,0,2026-10-02T00:00:00.000Z-->
 - [ammonium hydroxide](ammonia%20solution.md):@:<span style="color: green;">soluble</span> <!--SR:!2027-02-05,320,298-->
 - [ammonium phosphate](ammonium%20phosphate.md):@:<span style="color: green;">soluble</span> <!--SR:!2027-01-19,307,298-->
 - [ammonium sulfide](ammonium%20sulfide.md):@:<span style="color: violet;">reacts</span> <!--SR:!2030-01-05,1449,278-->

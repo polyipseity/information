@@ -53,7 +53,7 @@ The content is in teaching order.
     - local: 2025-09-04T09:30:00+08:00/2025-09-04T10:45:00+08:00, PT1H15M
 - topic: measuring a nation's income
 - [microeconomics](../../../../general/microeconomics.md) ::@:: It is a branch of economics that studies the behavior of individuals and firms in making decisions regarding the allocation of scarce resources and the interactions among these individuals and firms. <!--SR:!fsrs,2030-02-27T00:00:00.000Z,1248,1248.19227538,1,2,9,0,0,2026-09-28T00:00:00.000Z!fsrs,2029-08-08T00:00:00.000Z,1096,1095.51488793,1,2,9,0,0,2026-08-08T00:00:00.000Z-->
-    - microeconomics / vs. macroeconomics ::@:: Microeconomics focuses on the study of individual markets, sectors, or industries as opposed to the economy as a whole, which is studied in macroeconomics. <!--SR:!2026-10-03,292,330!2026-10-02,291,330-->
+    - microeconomics / vs. macroeconomics ::@:: Microeconomics focuses on the study of individual markets, sectors, or industries as opposed to the economy as a whole, which is studied in macroeconomics. <!--SR:!2026-10-03,292,330!fsrs,2030-03-18T00:00:00.000Z,1263,1263.3108468,1,2,9,0,0,2026-10-02T00:00:00.000Z-->
 - macroeconomics
     - macroeconomics / vs. microeconomics
 - [gross domestic product](../../../../general/gross%20domestic%20product.md) \(GDP\) ::@:: It is a monetary measure of the total market value of all the final goods and services produced and rendered in a specific time period by a country or countries. <!--SR:!fsrs,2029-07-02T00:00:00.000Z,1068,1068.495917,1,2,9,0,0,2026-07-30T00:00:00.000Z!fsrs,2028-10-26T00:00:00.000Z,773,772.81357058,2.49272837,2,9,0,0,2026-09-14T00:00:00.000Z-->

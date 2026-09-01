@@ -121,9 +121,9 @@ For example, when there is {@{water buildup in the soil}@}, there is {@{increase
 
 #### lateral load
 
-{@{Lateral load}@} may be caused by {@{bulk materials, [groundwater](groundwater.md), or [soil](soil.md)}@}. <!--SR:!2027-08-07,897,330!2026-10-01,120,390-->
+{@{Lateral load}@} may be caused by {@{bulk materials, [groundwater](groundwater.md), or [soil](soil.md)}@}. <!--SR:!2027-08-07,897,330!fsrs,2028-08-04T00:00:00.000Z,672,671.85355723,1,2,8,0,0,2026-10-02T00:00:00.000Z-->
 
-For example, there is {@{lateral soil load on retaining walls of a slope}@} because {@{the soil of a slope on the retained side tends to slip down, pushing the walls towards the excavated side}@}. {@{This lateral soil load}@} can cause {@{lateral deflection, toppling of the retaining structure, or even a landslide}@}. <!--SR:!2031-08-16,1937,320!2026-10-01,645,320!fsrs,2026-12-04T00:59:39.554Z,181,180.82294193,1,2,6,0,0,2026-06-06T00:59:39.554Z!fsrs,2028-02-20T00:00:00.000Z,537,537.38840954,1,2,8,0,0,2026-09-01T00:00:00.000Z-->
+For example, there is {@{lateral soil load on retaining walls of a slope}@} because {@{the soil of a slope on the retained side tends to slip down, pushing the walls towards the excavated side}@}. {@{This lateral soil load}@} can cause {@{lateral deflection, toppling of the retaining structure, or even a landslide}@}. <!--SR:!2031-08-16,1937,320!fsrs,2033-06-16T00:00:00.000Z,2449,2448.78362921,1,2,10,0,0,2026-10-02T00:00:00.000Z!fsrs,2026-12-04T00:59:39.554Z,181,180.82294193,1,2,6,0,0,2026-06-06T00:59:39.554Z!fsrs,2028-02-20T00:00:00.000Z,537,537.38840954,1,2,8,0,0,2026-09-01T00:00:00.000Z-->
 
 To {@{protect against soil loads}@}, {@{retaining structures are built and weep holes may be installed}@}. Alternatively, {@{slopes on natural terrain}@} can become {@{man-made slopes, such as cut slopes, fill slopes, or retaining walls}@}. <!--SR:!2027-12-02,924,300!fsrs,2032-08-18T00:00:00.000Z,2233,2232.71383121,1,2,10,0,0,2026-07-08T00:00:00.000Z!2026-10-07,125,390!2026-10-07,125,390-->
 
@@ -137,7 +137,7 @@ To {@{protect against soil loads}@}, {@{retaining structures are built and weep 
 
 {@{Thermal load}@} refers to load {@{caused by [temperature](temperature.md) changes}@} leading to {@{[thermal expansion](thermal%20expansion.md) (contraction) of structural and non-structural members}@}. <!--SR:!2031-12-04,2047,328!fsrs,2026-12-04T00:59:36.690Z,181,180.82294193,1,2,6,0,0,2026-06-06T00:59:36.690Z!fsrs,2028-07-26T00:00:00.000Z,664,663.84023351,1,2,8,0,0,2026-10-01T00:00:00.000Z-->
 
-For example, {@{a beam in between two fixed support}@} creates {@{thermal load under heating as the beam expands}@}. {@{A solution}@} would be making {@{the beam a simply supported beam instead, with one side a pinned support and the other side a roller support}@}. Then when thermal expansion occurs, the beam can {@{expand in the direction of the roller support, relieving the thermal load}@}. <!--SR:!2026-12-12,698,328!2027-09-15,916,330!2029-02-16,1362,360!2026-10-01,120,390!fsrs,2026-12-04T00:59:40.496Z,181,180.82294193,1,2,6,0,0,2026-06-06T00:59:40.496Z-->
+For example, {@{a beam in between two fixed support}@} creates {@{thermal load under heating as the beam expands}@}. {@{A solution}@} would be making {@{the beam a simply supported beam instead, with one side a pinned support and the other side a roller support}@}. Then when thermal expansion occurs, the beam can {@{expand in the direction of the roller support, relieving the thermal load}@}. <!--SR:!2026-12-12,698,328!2027-09-15,916,330!2029-02-16,1362,360!fsrs,2028-08-04T00:00:00.000Z,672,671.85355723,1,2,8,0,0,2026-10-02T00:00:00.000Z!fsrs,2026-12-04T00:59:40.496Z,181,180.82294193,1,2,6,0,0,2026-06-06T00:59:40.496Z-->
 
 #### wind load
 

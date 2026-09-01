@@ -94,13 +94,13 @@ Common themes of unit vectors occur {@{throughout [physics](physics.md) and [geo
 > - Binormal vector to tangent and normal
 >     - Binormal vector to tangent and normal / Nomenclature ::@:: $\mathbf {\hat {b} } =\mathbf {\hat {t} } \times \mathbf {\hat {n} }$<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2026-10-04,140,405!fsrs,2028-10-02T00:00:00.000Z,735,735.10222202,1,2,8,0,0,2026-09-28T00:00:00.000Z-->
 > - Parallel to some axis/line
->     - Parallel to some axis/line / Nomenclature ::@:: $\mathbf {\hat {e} } _{\parallel }$ <!--SR:!2026-10-04,140,405!2026-10-02,138,405-->
+>     - Parallel to some axis/line / Nomenclature ::@:: $\mathbf {\hat {e} } _{\parallel }$ <!--SR:!2026-10-04,140,405!fsrs,2028-10-25T00:00:00.000Z,754,753.92506728,1,2,8,0,0,2026-10-02T00:00:00.000Z-->
 >     - Parallel to some axis/line / Diagram ::@:: !["200px"](../../archives/Wikimedia%20Commons/Perpendicular%20and%20parallel%20unit%20vectors.svg) <p> One unit vector $\mathbf {\hat {e} } _{\parallel }$ aligned parallel to a principal direction \(red line\), and a perpendicular unit vector $\mathbf {\hat {e} } _{\bot }$ is in any radial direction relative to the principal line. <!--SR:!fsrs,2028-10-08T00:00:00.000Z,740,739.81467051,1,2,8,0,0,2026-09-29T00:00:00.000Z!fsrs,2027-11-24T00:00:00.000Z,431,430.99948753,1,2,8,0,0,2026-09-19T00:00:00.000Z-->
 > - Perpendicular to some axis/line in some radial direction
 >     - Perpendicular to some axis/line in some radial direction / Nomenclature ::@:: $\mathbf {\hat {e} } _{\bot }$ <!--SR:!2026-10-04,140,405!fsrs,2027-11-20T00:00:00.000Z,428,427.99440451,1,2,8,0,0,2026-09-18T00:00:00.000Z-->
 > - Possible angular deviation relative to some axis/line
 >     - Possible angular deviation relative to some axis/line / Nomenclature ::@:: $\mathbf {\hat {e} } _{\angle }$ <!--SR:!fsrs,2027-12-06T00:00:00.000Z,440,439.99899934,1,2,8,0,0,2026-09-22T00:00:00.000Z!fsrs,2027-12-07T00:00:00.000Z,440,439.99899934,1,2,8,0,0,2026-09-23T00:00:00.000Z-->
->     - Possible angular deviation relative to some axis/line / Diagram ::@:: !["200px"](../../archives/Wikimedia%20Commons/Angular%20unit%20vector.svg) <p> Unit vector at acute deviation angle _φ_ \(including 0 or _π_/2 rad\) relative to a principal direction. <!--SR:!2026-10-01,137,405!fsrs,2027-12-06T00:00:00.000Z,440,439.99899934,1,2,8,0,0,2026-09-22T00:00:00.000Z-->
+>     - Possible angular deviation relative to some axis/line / Diagram ::@:: !["200px"](../../archives/Wikimedia%20Commons/Angular%20unit%20vector.svg) <p> Unit vector at acute deviation angle _φ_ \(including 0 or _π_/2 rad\) relative to a principal direction. <!--SR:!fsrs,2028-10-23T00:00:00.000Z,752,752.3856229,1,2,8,0,0,2026-10-02T00:00:00.000Z!fsrs,2027-12-06T00:00:00.000Z,440,439.99899934,1,2,8,0,0,2026-09-22T00:00:00.000Z-->
 
 ## curvilinear coordinates
 

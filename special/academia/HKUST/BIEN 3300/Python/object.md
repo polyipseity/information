@@ -39,7 +39,7 @@ Note that Python attributes are not {@{declared inside the class}@}. Instead, th
 
 ## method
 
-A method consists of {@{a name, parameter names, and statement block}@}: <!--SR:!2026-10-01,270,330-->
+A method consists of {@{a name, parameter names, and statement block}@}: <!--SR:!fsrs,2029-12-29T00:00:00.000Z,1184,1183.64577796,1,2,9,0,0,2026-10-02T00:00:00.000Z-->
 
 ```Python
 def name(parameter_names):
