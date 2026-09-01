@@ -24,9 +24,9 @@
   "type": "module",
   "version": "1.0.0",
   "dependencies": {
-    "body-parser": "1.20.6",
-    "express": "4.19.2",
-    "flat": "5.0.0",
-    "pug": "3.0.2"
+    "body-parser": "2.3.0",
+    "express": "5.2.1",
+    "flat": "6.0.1",
+    "pug": "3.0.4"
   }
 }
