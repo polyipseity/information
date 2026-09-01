@@ -13,7 +13,7 @@ tags:
 # import ../../scripts/utility.py.md
 ```
 
-The __Ostwald process__ is {@{a [chemical process](chemical%20process.md) for the production of [nitric acid](nitric%20acid.md)}@}. It is closely related to {@{the [Haber process](Haber%20process.md), which provides the required raw material [ammonia](ammonia.md)}@}. <!--SR:!2026-10-03,951,330!fsrs,2036-06-10T00:00:00.000Z,3542,3542.0748763,1,2,11,0,0,2026-09-29T00:00:00.000Z-->
+The __Ostwald process__ is {@{a [chemical process](chemical%20process.md) for the production of [nitric acid](nitric%20acid.md)}@}. It is closely related to {@{the [Haber process](Haber%20process.md), which provides the required raw material [ammonia](ammonia.md)}@}. <!--SR:!fsrs,2036-06-27T00:00:00.000Z,3555,3555.19864739,1,2,11,0,0,2026-10-03T00:00:00.000Z!fsrs,2036-06-10T00:00:00.000Z,3542,3542.0748763,1,2,11,0,0,2026-09-29T00:00:00.000Z-->
 
 ## process
 

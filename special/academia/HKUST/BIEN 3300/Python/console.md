@@ -17,7 +17,7 @@ Note that when you call `print`, even if you have not added newlines to the stri
 
 ## clear
 
-{@{A primitive way to clear the console}@} that also {@{works on IDLE}@} is by {@{printing a lot of newlines}@}: <!--SR:!2026-10-03,263,330!2027-01-11,363,357!2027-01-12,364,357-->
+{@{A primitive way to clear the console}@} that also {@{works on IDLE}@} is by {@{printing a lot of newlines}@}: <!--SR:!fsrs,2029-12-03T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-10-03T00:00:00.000Z!2027-01-11,363,357!2027-01-12,364,357-->
 
 ```Python
 for _ in range(4):

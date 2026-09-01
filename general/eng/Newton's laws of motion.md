@@ -31,7 +31,7 @@ In modern notation, the [momentum](momentum.md) of a body is {@{the product of i
 
 ### third law
 
-Newton's third law relates to {@{a more fundamental principle, the [conservation of momentum](momentum.md#conservation)}@}. <!--SR:!2026-10-03,619,330-->
+Newton's third law relates to {@{a more fundamental principle, the [conservation of momentum](momentum.md#conservation)}@}. <!--SR:!fsrs,2033-06-08T00:00:00.000Z,2440,2440.49607446,1,2,10,0,0,2026-10-03T00:00:00.000Z-->
 
 ## references
 

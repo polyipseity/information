@@ -171,7 +171,7 @@ Alternatively, {@{separate `using` clauses}@} can be {@{chained}@}. {@{`using` c
 > f(10)(using a)(using b)
 > f(10)(using a)(true)(using b)
 > ```
-<!--SR:!2026-10-03,252,330!2026-11-16,286,349!2027-01-26,347,349!2026-12-26,323,349!2026-12-20,318,349-->
+<!--SR:!fsrs,2029-10-22T00:00:00.000Z,1115,1114.75652523,1,2,9,0,0,2026-10-03T00:00:00.000Z!2026-11-16,286,349!2027-01-26,347,349!2026-12-26,323,349!2026-12-20,318,349-->
 
 {@{Anonymous `using` clauses}@} let a method declare {@{an implicit parameter without naming it}@}; the compiler will still {@{supply and forward that instance to other methods automatically}@}. For example, <!--SR:!2027-01-17,338,349!2026-11-21,291,349!2026-11-23,297,349-->
 
@@ -347,7 +347,7 @@ When a method expects {@{an implicit of type `T` \(e.g. `Ordering[Int]` in the a
 - compatible ::@:: Has a compatible type. <!--SR:!2026-12-04,304,349!2026-11-11,281,349-->
 - visibility ::@:: Is visible in the current scope (lexical, imports, parameters) or defined in a companion object associated with `T`. <!--SR:!2026-10-05,254,330!2027-01-26,347,349-->
 
-If {@{exactly one suitable instance exists}@} it is {@{used}@}; otherwise {@{compilation fails}@} due to {@{no instance found}@} or {@{ambiguity}@} if {@{there is more than one _most specific_ instance}@}. It will {@{search in \(in no particular order\)}@}: \(annotation: 3 items: {@{lexical scope, companion objects, enclosing objects}@}\) <!--SR:!2026-10-03,252,330!2027-01-01,328,349!2026-11-25,295,349!2026-12-19,317,349!2027-01-21,342,349!2027-01-19,340,349!2027-01-02,329,349!2026-12-11,311,349-->
+If {@{exactly one suitable instance exists}@} it is {@{used}@}; otherwise {@{compilation fails}@} due to {@{no instance found}@} or {@{ambiguity}@} if {@{there is more than one _most specific_ instance}@}. It will {@{search in \(in no particular order\)}@}: \(annotation: 3 items: {@{lexical scope, companion objects, enclosing objects}@}\) <!--SR:!fsrs,2029-10-22T00:00:00.000Z,1115,1114.75652523,1,2,9,0,0,2026-10-03T00:00:00.000Z!2027-01-01,328,349!2026-11-25,295,349!2026-12-19,317,349!2027-01-21,342,349!2027-01-19,340,349!2027-01-02,329,349!2026-12-11,311,349-->
 
 - lexical scope ::@:: Visible `given` instances in the lexical scope, including inherited, imported and defined instances. <!--SR:!2026-11-08,282,349!2027-01-29,350,349-->
 - companion objects ::@:: Companion objects of `T`, its super-classes, its type arguments, super-classes of its type arguments, etc. <!--SR:!2026-12-17,315,349!2026-10-05,254,330-->
@@ -453,7 +453,7 @@ With {@{such `given` instances}@} in scope {@{a polymorphic method}@} can be wri
 > ```
 <!--SR:!2026-12-26,323,349!2026-12-28,325,349!2026-12-07,307,349-->
 
-With {@{an `Ordering[T]` in scope}@} one can {@{write}@}: <!--SR:!2026-10-03,252,330!2026-12-24,321,349-->
+With {@{an `Ordering[T]` in scope}@} one can {@{write}@}: <!--SR:!fsrs,2029-10-22T00:00:00.000Z,1115,1114.75652523,1,2,9,0,0,2026-10-03T00:00:00.000Z!2026-12-24,321,349-->
 
 > [!example] __type class extension methods usage__
 >

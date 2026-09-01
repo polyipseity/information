@@ -101,7 +101,7 @@ An alternative to {@{adding a method type parameter}@} is to {@{use extension me
 >   def ::(xs: List[T]): List[T] = Cons(x, xs)
 > ```
 >
-> This approach does not require {@{adding a method type parameter}@} and allows {@{natural list construction syntax (`1 :: 2 :: Nil`)}@}. <!--SR:!fsrs,2029-10-09T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-09-24T00:00:00.000Z!2026-10-03,261,330!2026-10-05,263,330!2026-10-05,263,330!fsrs,2028-08-31T00:00:00.000Z,708,707.6141386,2.49272837,2,9,0,0,2026-09-23T00:00:00.000Z!2026-10-05,263,330-->
+> This approach does not require {@{adding a method type parameter}@} and allows {@{natural list construction syntax (`1 :: 2 :: Nil`)}@}. <!--SR:!fsrs,2029-10-09T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-09-24T00:00:00.000Z!fsrs,2029-11-25T00:00:00.000Z,1149,1149.27403969,1,2,9,0,0,2026-10-03T00:00:00.000Z!2026-10-05,263,330!2026-10-05,263,330!fsrs,2028-08-31T00:00:00.000Z,708,707.6141386,2.49272837,2,9,0,0,2026-09-23T00:00:00.000Z!2026-10-05,263,330-->
 
 ### list methods
 
@@ -162,7 +162,7 @@ The `List` API offers {@{a rich set of operations}@} for {@{sublists, element ac
 >   case y :: ys      => y :: init(ys)
 > }
 > ```
-<!--SR:!fsrs,2029-11-02T00:00:00.000Z,1130,1130.11601442,1,2,9,0,0,2026-09-29T00:00:00.000Z!2026-10-03,261,330!2026-10-30,286,330-->
+<!--SR:!fsrs,2029-11-02T00:00:00.000Z,1130,1130.11601442,1,2,9,0,0,2026-09-29T00:00:00.000Z!fsrs,2029-11-25T00:00:00.000Z,1149,1149.27403969,1,2,9,0,0,2026-10-03T00:00:00.000Z!2026-10-30,286,330-->
 
 {@{The concatenation operator `:::`}@} can be implemented by {@{pattern matching on the left operand}@}. This recursive definition runs in time {@{proportional to the length of the left list, `O(xs.length)`}@}. <!--SR:!2026-10-19,277,330!2026-10-18,276,330!2026-11-05,291,330-->
 
@@ -194,7 +194,7 @@ The `List` API offers {@{a rich set of operations}@} for {@{sublists, element ac
 > ```
 <!--SR:!2026-10-17,275,330!2026-10-05,263,330-->
 
-Because {@{each recursive call}@} concatenates {@{a singleton list to the result of reversing the tail}@}, the complexity is {@{quadratic, `O(xs.length²)`}@}. {@{A linear-time implementation}@} would use {@{an accumulator}@}. <!--SR:!2026-10-12,270,330!fsrs,2029-07-04T00:00:00.000Z,1034,1033.61384781,1,2,9,0,0,2026-09-04T00:00:00.000Z!2026-10-03,261,330!fsrs,2029-08-02T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-09-10T00:00:00.000Z!fsrs,2028-08-06T00:00:00.000Z,690,689.94707246,2.49272837,2,9,0,0,2026-09-16T00:00:00.000Z-->
+Because {@{each recursive call}@} concatenates {@{a singleton list to the result of reversing the tail}@}, the complexity is {@{quadratic, `O(xs.length²)`}@}. {@{A linear-time implementation}@} would use {@{an accumulator}@}. <!--SR:!2026-10-12,270,330!fsrs,2029-07-04T00:00:00.000Z,1034,1033.61384781,1,2,9,0,0,2026-09-04T00:00:00.000Z!fsrs,2029-11-25T00:00:00.000Z,1149,1149.27403969,1,2,9,0,0,2026-10-03T00:00:00.000Z!fsrs,2029-08-02T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-09-10T00:00:00.000Z!fsrs,2028-08-06T00:00:00.000Z,690,689.94707246,2.49272837,2,9,0,0,2026-09-16T00:00:00.000Z-->
 
 {@{Removing the _n_-th element}@} can be defined by {@{pattern matching on the index}@}: <!--SR:!2026-10-29,285,330!fsrs,2028-07-30T00:00:00.000Z,685,684.89001444,2.49272837,2,9,0,0,2026-09-14T00:00:00.000Z-->
 
@@ -381,7 +381,7 @@ Using {@{`reduceLeft`}@}, {@{summation}@} becomes: <!--SR:!2026-11-07,293,330!20
 
 {@{Replacing `foldRight` with `foldLeft`}@} would {@{reverse the order of operations}@}. When {@{the operator is associative and commutative}@}, the final result is {@{the same}@}; otherwise, {@{the types or semantics change}@}. {@{`foldRight`}@} also does not {@{work with infinite lists}@}, as there is {@{no rightmost or ending element to start folding}@}. <!--SR:!fsrs,2029-08-02T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-09-10T00:00:00.000Z!2026-11-04,290,330!2026-10-10,268,330!2026-10-08,266,330!fsrs,2029-10-28T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-09-28T00:00:00.000Z!2026-10-18,276,330!2026-10-20,278,330!2026-10-14,272,330-->
 
-{@{Both `reduceLeft` and `foldLeft`}@} can be {@{defined directly in the abstract `List` class}@}: <!--SR:!fsrs,2028-08-20T00:00:00.000Z,700,700.04868809,2.49272837,2,9,0,0,2026-09-20T00:00:00.000Z!2026-10-03,261,330-->
+{@{Both `reduceLeft` and `foldLeft`}@} can be {@{defined directly in the abstract `List` class}@}: <!--SR:!fsrs,2028-08-20T00:00:00.000Z,700,700.04868809,2.49272837,2,9,0,0,2026-09-20T00:00:00.000Z!fsrs,2029-11-25T00:00:00.000Z,1149,1149.27403969,1,2,9,0,0,2026-10-03T00:00:00.000Z-->
 
 > [!example] __`reduceLeft`, `foldLeft` implementation__
 >

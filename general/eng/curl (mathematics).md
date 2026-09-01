@@ -135,7 +135,7 @@ Calculating the curl: {@{$${\nabla }\times \mathbf {F} =0{\boldsymbol {\hat {\im
 
 ## identities
 
-- Main article: ::@:: [Vector calculus identities](vector%20calculus%20identities.md) <!--SR:!fsrs,2030-02-27T00:00:00.000Z,1319,1318.70869553,1,2,9,0,0,2026-07-19T00:00:00.000Z!2026-10-03,355,362-->
+- Main article: ::@:: [Vector calculus identities](vector%20calculus%20identities.md) <!--SR:!fsrs,2030-02-27T00:00:00.000Z,1319,1318.70869553,1,2,9,0,0,2026-07-19T00:00:00.000Z!fsrs,2031-04-24T00:00:00.000Z,1664,1663.93551981,1,2,9,0,0,2026-10-03T00:00:00.000Z-->
 
 In {@{general [curvilinear coordinates](curvilinear%20coordinates.md) \(not only in Cartesian coordinates\)}@}, {@{the curl of a cross product of vector fields __v__ and __F__}@} can be shown to be {@{$$\nabla \times \left(\mathbf {v\times F} \right)={\Big (}\left(\mathbf {\nabla \cdot F} \right)+\mathbf {F\cdot \nabla } {\Big )}\mathbf {v} -{\Big (}\left(\mathbf {\nabla \cdot v} \right)+\mathbf {v\cdot \nabla } {\Big )}\mathbf {F} \ .$$}@} \(annotation: Observe that {@{the two terms of the inner "cross product" on the left hand side}@} appear {@{in the same order and outside the dot product on the right hand side}@}. Additionally, comparing with {@{the identity for $\mathbf a \times (\mathbf b \times \mathbf c)$}@}, there are {@{2 extra terms}@}.\) <!--SR:!2026-11-13,389,360!fsrs,2029-12-02T00:00:00.000Z,1236,1235.97435229,1,2,9,0,0,2026-07-15T00:00:00.000Z!2026-10-23,200,282!2028-10-24,907,342!2026-12-17,420,374!2026-10-19,143,424!fsrs,2028-03-20T00:00:00.000Z,562,562.03288223,1,2,8,0,0,2026-09-05T00:00:00.000Z-->
 

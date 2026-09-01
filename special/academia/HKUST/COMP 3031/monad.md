@@ -26,7 +26,7 @@ In {@{functional programming}@}, {@{many data structures}@} that provide {@{`uni
 
 {@{The Scala _for_ notation}@} is a concise syntax for expressing {@{compositional queries over collections}@}. {@{Its semantics}@} are essentially equivalent to {@{the map–flatMap–filter pipeline}@} that underlies {@{many database query languages}@}, and it can be applied to {@{any type that supplies `map`, `flatMap` and `withFilter` \(lazy version of `filter`\)}@}. <!--SR:!2026-10-26,282,330!fsrs,2029-10-22T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-09-26T00:00:00.000Z!2026-10-04,263,330!2026-10-10,269,330!2026-10-11,270,330!2026-11-05,291,330-->
 
-Indeed, any domain that {@{supplies these methods}@}—{@{booleans, strings, tuples, trees, even random number streams}@}—can participate in {@{a _for_ comprehension}@}. Further, such objects are called {@{_monads_}@} in {@{functional programming}@}, and they provide {@{a powerful abstraction for structuring programs}@}. <!--SR:!2026-10-04,263,330!2026-10-27,283,330!fsrs,2029-10-22T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-09-26T00:00:00.000Z!2026-11-08,294,330!2026-10-03,262,330!2026-10-17,276,330-->
+Indeed, any domain that {@{supplies these methods}@}—{@{booleans, strings, tuples, trees, even random number streams}@}—can participate in {@{a _for_ comprehension}@}. Further, such objects are called {@{_monads_}@} in {@{functional programming}@}, and they provide {@{a powerful abstraction for structuring programs}@}. <!--SR:!2026-10-04,263,330!2026-10-27,283,330!fsrs,2029-10-22T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-09-26T00:00:00.000Z!2026-11-08,294,330!fsrs,2029-11-29T00:00:00.000Z,1153,1153.10014712,1,2,9,0,0,2026-10-03T00:00:00.000Z!2026-10-17,276,330-->
 
 ### generator
 
@@ -64,7 +64,7 @@ Using {@{the same pattern}@} one can define {@{a boolean generator}@}: <!--SR:!f
 > val booleans = new Generator[Boolean]:
 >   def generate() = integers.generate() > 0
 > ```
-<!--SR:!2026-10-03,262,330!2026-10-17,276,330-->
+<!--SR:!fsrs,2029-11-29T00:00:00.000Z,1153,1153.10014712,1,2,9,0,0,2026-10-03T00:00:00.000Z!2026-10-17,276,330-->
 
 and {@{a pair generator}@} that produces {@{two independent random integers}@}: <!--SR:!fsrs,2029-10-13T00:00:00.000Z,1115,1114.75652523,1,2,9,0,0,2026-09-24T00:00:00.000Z!fsrs,2029-11-06T00:00:00.000Z,1134,1133.95119242,1,2,9,0,0,2026-09-29T00:00:00.000Z-->
 
@@ -105,7 +105,7 @@ and {@{a corresponding extension}@} to add {@{`flatMap`}@}: <!--SR:!2026-11-06,2
 > ```
 <!--SR:!2026-10-23,279,330!2026-10-29,285,330-->
 
-With {@{these in place}@}, {@{the boolean generator}@} can be written {@{succinctly using `map`}@} as <!--SR:!fsrs,2029-10-22T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-09-26T00:00:00.000Z!2026-10-03,262,330!2026-10-13,272,330-->
+With {@{these in place}@}, {@{the boolean generator}@} can be written {@{succinctly using `map`}@} as <!--SR:!fsrs,2029-10-22T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-09-26T00:00:00.000Z!fsrs,2029-11-29T00:00:00.000Z,1153,1153.10014712,1,2,9,0,0,2026-10-03T00:00:00.000Z!2026-10-13,272,330-->
 
 > [!example] __boolean generator using `map`__
 >
@@ -128,7 +128,7 @@ and {@{a generic pair generator}@} becomes, using {@{`flatMap`}@}: <!--SR:!fsrs,
 > ```
 <!--SR:!2026-10-15,274,330!2026-10-13,272,330-->
 
-The compiler rewrites {@{these _for_ expressions}@} in the same way {@{it does for collections}@}; {@{`for x <- g yield f(x)`}@} becomes {@{`g.map(f)`}@}, while {@{nested generators}@} translate into {@{successive calls to `flatMap`}@}. <!--SR:!fsrs,2029-10-27T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-09-27T00:00:00.000Z!2026-10-03,262,330!2026-11-06,292,330!fsrs,2029-10-22T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-09-26T00:00:00.000Z!2026-10-13,272,330!fsrs,2029-07-22T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-09-07T00:00:00.000Z-->
+The compiler rewrites {@{these _for_ expressions}@} in the same way {@{it does for collections}@}; {@{`for x <- g yield f(x)`}@} becomes {@{`g.map(f)`}@}, while {@{nested generators}@} translate into {@{successive calls to `flatMap`}@}. <!--SR:!fsrs,2029-10-27T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-09-27T00:00:00.000Z!fsrs,2029-11-29T00:00:00.000Z,1153,1153.10014712,1,2,9,0,0,2026-10-03T00:00:00.000Z!2026-11-06,292,330!fsrs,2029-10-22T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-09-26T00:00:00.000Z!2026-10-13,272,330!fsrs,2029-07-22T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-09-07T00:00:00.000Z-->
 
 #### generator monad recursion
 
@@ -261,7 +261,7 @@ For a type to be {@{considered a true monad}@}, {@{three algebraic laws}@} must 
 
 ### `map`
 
-Although monads only {@{require `flatMap` and `unit`}@}, {@{a `map` operation}@} can always be {@{defined in terms of them}@}: <!--SR:!fsrs,2029-10-27T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-09-27T00:00:00.000Z!2026-10-08,267,330!2026-10-03,262,330-->
+Although monads only {@{require `flatMap` and `unit`}@}, {@{a `map` operation}@} can always be {@{defined in terms of them}@}: <!--SR:!fsrs,2029-10-27T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-09-27T00:00:00.000Z!2026-10-08,267,330!fsrs,2029-11-29T00:00:00.000Z,1153,1153.10014712,1,2,9,0,0,2026-10-03T00:00:00.000Z-->
 
 > [!example] __monad `map`__
 >
@@ -330,7 +330,7 @@ Using {@{simple algebraic reasoning}@}, one can verify that {@{all three laws ho
 While {@{exceptions}@} are {@{inexpensive in Scala}@}, they have {@{drawbacks}@}: \(annotation: 2 items: {@{no effect on function type, cross-evaluation context}@}\) <!--SR:!fsrs,2029-11-16T00:00:00.000Z,1142,1141.61620684,1,2,9,0,0,2026-10-01T00:00:00.000Z!2026-10-11,270,330!2026-10-15,274,330!fsrs,2028-08-30T00:00:00.000Z,708,707.6141386,2.49272837,2,9,0,0,2026-09-22T00:00:00.000Z-->
 
 - no effect on function type ::@:: The types of functions that may throw are not reflected in the signature (unlike Java's `throws` clause). <!--SR:!2026-11-03,290,330!2026-10-10,269,330-->
-- cross-evaluation context ::@:: Exceptions can only propagate within the current evaluation context \(e.g. current thread\). They do not propagate naturally across threads or asynchronous boundaries. <!--SR:!2026-10-03,262,330!2026-10-26,282,330-->
+- cross-evaluation context ::@:: Exceptions can only propagate within the current evaluation context \(e.g. current thread\). They do not propagate naturally across threads or asynchronous boundaries. <!--SR:!fsrs,2029-11-29T00:00:00.000Z,1153,1153.10014712,1,2,9,0,0,2026-10-03T00:00:00.000Z!2026-10-26,282,330-->
 
 Because of {@{these issues}@}, it is sometimes preferable to treat {@{failures as ordinary values}@}. {@{This idea}@} is captured by {@{the `scala.util.Try` _monad_ type}@}. <!--SR:!2026-10-31,287,330!2026-10-17,276,330!2026-10-25,281,330!2026-10-15,274,330-->
 
@@ -347,7 +347,7 @@ Because of {@{these issues}@}, it is sometimes preferable to treat {@{failures a
 > ```
 <!--SR:!2026-10-24,280,330!2026-10-14,273,330!2026-10-12,271,330-->
 
-{@{A convenient factory for `Try`}@} wraps {@{arbitrary computations}@}: <!--SR:!2026-10-17,276,330!2026-10-03,262,330-->
+{@{A convenient factory for `Try`}@} wraps {@{arbitrary computations}@}: <!--SR:!2026-10-17,276,330!fsrs,2029-11-29T00:00:00.000Z,1153,1153.10014712,1,2,9,0,0,2026-10-03T00:00:00.000Z-->
 
 > [!example] __`Try.apply`__
 >

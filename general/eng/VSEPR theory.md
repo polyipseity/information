@@ -69,7 +69,7 @@ tags:
 > - AX<sub>4</sub>E<sub>0</sub>
 >     - AX<sub>4</sub>E<sub>0</sub> / [shape](molecular%20geometry.md) ::@:: [tetrahedral](tetrahedral%20molecular%20geometry.md)<br/>![tetrahedral](../../archives/Wikimedia%20Commons/AX4E0-3D-balls.png) <!--SR:!2027-04-04,338,345!fsrs,2027-07-07T00:00:00.000Z,312,312.15146517,5.62873505,2,8,0,0,2026-08-29T00:00:00.000Z-->
 >     - AX<sub>4</sub>E<sub>0</sub> / ideal bond angle(s) :@: ~109.5° <!--SR:!2026-10-08,200,325-->
->     - AX<sub>4</sub>E<sub>0</sub> / example(s) ::@:: [CH<sub>4</sub>](methane.md) <!--SR:!2026-12-17,230,325!2026-10-03,196,325-->
+>     - AX<sub>4</sub>E<sub>0</sub> / example(s) ::@:: [CH<sub>4</sub>](methane.md) <!--SR:!2026-12-17,230,325!fsrs,2028-04-17T00:00:00.000Z,562,561.65823522,2.68004087,2,9,0,0,2026-10-03T00:00:00.000Z-->
 > - AX<sub>4</sub>E<sub>1</sub>
 >     - AX<sub>4</sub>E<sub>1</sub> / [shape](molecular%20geometry.md) ::@:: [seesaw/disphenoidal](seesaw%20molecular%20geometry.md)<br/>![seesaw/disphenoidal](../../archives/Wikimedia%20Commons/AX4E1-3D-balls.png) <!--SR:!fsrs,2027-05-24T00:00:00.000Z,288,287.94809514,3.42929087,2,8,0,0,2026-08-09T00:00:00.000Z!2026-10-05,198,325-->
 >     - AX<sub>4</sub>E<sub>1</sub> / ideal bond angle(s) :@: 90°, 120°, 180° <!--SR:!2027-04-05,339,345-->

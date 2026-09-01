@@ -290,7 +290,7 @@ return chain.from_iterable([r.value for r in results])
 - [lithium](lithium.md):@:[electrolysis](electrolysis.md) <!--SR:!2035-11-01,3558,350-->
 - [barium](barium.md):@:[electrolysis](electrolysis.md) <!--SR:!2027-02-27,1025,330-->
 - [strontium](strontium.md):@:[electrolysis](electrolysis.md) <!--SR:!2031-08-05,2027,330-->
-- [calcium](calcium.md):@:[electrolysis](electrolysis.md) <!--SR:!2026-10-03,916,330-->
+- [calcium](calcium.md):@:[electrolysis](electrolysis.md) <!--SR:!fsrs,2036-03-04T00:00:00.000Z,3440,3440.14683443,1,2,11,0,0,2026-10-03T00:00:00.000Z-->
 - [magnesium](magnesium.md):@:[electrolysis](electrolysis.md) <!--SR:!2028-09-19,1137,270-->
 - [beryllium](beryllium.md):@:[electrolysis](electrolysis.md) <!--SR:!2029-03-06,1281,310-->
 - [aluminium](aluminium.md):@:[electrolysis](electrolysis.md) <!--SR:!2031-06-17,1866,250-->

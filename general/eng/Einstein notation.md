@@ -29,10 +29,10 @@ According to {@{this convention}@}, when {@{an index variable appears twice in a
 
 In {@{[general relativity](general%20relativity.md)}@}, {@{a common convention}@} is that <!--SR:!2026-10-20,289,330!fsrs,2028-09-13T00:00:00.000Z,725,725.23172215,2.49272837,2,9,0,0,2026-09-19T00:00:00.000Z-->
 
-- the [Greek alphabet](Greek%20alphabet.md) ::@:: is used for space and time components, where indices take on values 0, 1, 2, or 3 \(frequently used letters are _μ_, _ν_, ...\), <!--SR:!2026-10-23,292,330!2026-10-03,272,330-->
+- the [Greek alphabet](Greek%20alphabet.md) ::@:: is used for space and time components, where indices take on values 0, 1, 2, or 3 \(frequently used letters are _μ_, _ν_, ...\), <!--SR:!2026-10-23,292,330!fsrs,2030-01-06T00:00:00.000Z,1191,1191.26470738,1,2,9,0,0,2026-10-03T00:00:00.000Z-->
 - the [Latin alphabet](Latin%20alphabet.md) ::@:: is used for spatial components only, where indices take on values 1, 2, or 3 \(frequently used letters are _i_, _j_, ...\), <!--SR:!2026-10-11,280,330!2026-10-08,277,330-->
 
-In general, indices can {@{range over any [indexing set](indexed%20family.md), including an [infinite set](infinite%20set.md)}@}. This should not be confused with {@{a typographically similar convention}@} used to distinguish between {@{[tensor index notation](tensor%20index%20notation.md) and the closely related but distinct basis-independent [abstract index notation](abstract%20index%20notation.md)}@}. <!--SR:!2026-10-07,276,330!2026-10-03,272,330!fsrs,2029-09-08T00:00:00.000Z,1107,1107.06552019,1,2,9,0,0,2026-08-28T00:00:00.000Z-->
+In general, indices can {@{range over any [indexing set](indexed%20family.md), including an [infinite set](infinite%20set.md)}@}. This should not be confused with {@{a typographically similar convention}@} used to distinguish between {@{[tensor index notation](tensor%20index%20notation.md) and the closely related but distinct basis-independent [abstract index notation](abstract%20index%20notation.md)}@}. <!--SR:!2026-10-07,276,330!fsrs,2030-01-06T00:00:00.000Z,1191,1191.26470738,1,2,9,0,0,2026-10-03T00:00:00.000Z!fsrs,2029-09-08T00:00:00.000Z,1107,1107.06552019,1,2,9,0,0,2026-08-28T00:00:00.000Z-->
 
 {@{An index that is summed over}@} is {@{a _summation index_}@}, in this case "_i_<!-- markdown separator -->&hairsp;". It is also called {@{a [dummy index](bound%20variable.md)}@} since {@{any symbol can replace "_i_<!-- markdown separator -->&hairsp;" without changing the meaning of the expression}@} \(provided that it {@{does not collide with other index symbols in the same term}@}\). <!--SR:!fsrs,2029-08-25T00:00:00.000Z,1096,1095.51488793,1,2,9,0,0,2026-08-25T00:00:00.000Z!2026-10-06,275,330!2026-10-20,289,330!fsrs,2030-01-01T00:00:00.000Z,1187,1187.45608877,1,2,9,0,0,2026-10-02T00:00:00.000Z!fsrs,2029-11-25T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-09-25T00:00:00.000Z-->
 
@@ -59,7 +59,7 @@ In {@{the presence of a [non-degenerate form](degenerate%20bilinear%20form.md)}@
 
 {@{A basis}@} gives {@{such a \(annotation: non-degenerate\) form \(via the [dual basis](dual%20basis.md)\)}@}, hence when working on {@{__R__<sup>_n_</sup> with a [Euclidean metric](Euclidean%20metric.md) and a fixed [orthonormal basis](orthonormal%20basis.md)}@}, one has the option to {@{work with only subscripts}@}. <!--SR:!fsrs,2029-09-19T00:00:00.000Z,1115,1114.75652523,1,2,9,0,0,2026-08-31T00:00:00.000Z!2026-10-17,286,330!fsrs,2028-09-06T00:00:00.000Z,720,720.2031195,2.49272837,2,9,0,0,2026-09-17T00:00:00.000Z!2026-10-18,287,330-->
 
-However, if {@{one changes coordinates}@}, {@{the way that coefficients change}@} depends on {@{the variance of the object}@}, and one cannot {@{ignore the distinction}@}; see {@{[Covariance and contravariance of vectors](covariance%20and%20contravariance%20of%20vectors.md)}@}. <!--SR:!fsrs,2029-08-29T00:00:00.000Z,1099,1099.36699517,1,2,9,0,0,2026-08-26T00:00:00.000Z!2026-10-03,272,330!2026-10-11,280,330!fsrs,2029-09-28T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-09-02T00:00:00.000Z!2026-10-07,276,330-->
+However, if {@{one changes coordinates}@}, {@{the way that coefficients change}@} depends on {@{the variance of the object}@}, and one cannot {@{ignore the distinction}@}; see {@{[Covariance and contravariance of vectors](covariance%20and%20contravariance%20of%20vectors.md)}@}. <!--SR:!fsrs,2029-08-29T00:00:00.000Z,1099,1099.36699517,1,2,9,0,0,2026-08-26T00:00:00.000Z!fsrs,2030-01-06T00:00:00.000Z,1191,1191.26470738,1,2,9,0,0,2026-10-03T00:00:00.000Z!2026-10-11,280,330!fsrs,2029-09-28T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-09-02T00:00:00.000Z!2026-10-07,276,330-->
 
 ### mnemonics
 
@@ -110,7 +110,7 @@ For {@{a [square matrix](square%20matrix.md) _A<sup>i</sup><sub>j</sub>_}@}, {@{
 
 ### outer product
 
-{@{The [outer product](outer%20product.md) of the column vector _u<sup>i</sup>_ by the row vector _v<sub>j</sub>_}@} yields {@{an _m_<!-- markdown separator --> × <!-- markdown separator -->_n_ matrix __A__}@}: {@{$${A^{i} }_{j}=u^{i}v_{j}={(uv)^{i} }_{j}$$}@} Since {@{_i_ and _j_ represent two _different_ indices}@}, there is {@{no summation}@} and the indices are {@{not eliminated by the multiplication}@}. <!--SR:!2026-10-25,294,330!2026-10-03,272,330!2026-10-17,286,330!fsrs,2029-09-03T00:00:00.000Z,1103,1103.2172026,1,2,9,0,0,2026-08-27T00:00:00.000Z!2026-10-15,284,330!2026-10-11,280,330-->
+{@{The [outer product](outer%20product.md) of the column vector _u<sup>i</sup>_ by the row vector _v<sub>j</sub>_}@} yields {@{an _m_<!-- markdown separator --> × <!-- markdown separator -->_n_ matrix __A__}@}: {@{$${A^{i} }_{j}=u^{i}v_{j}={(uv)^{i} }_{j}$$}@} Since {@{_i_ and _j_ represent two _different_ indices}@}, there is {@{no summation}@} and the indices are {@{not eliminated by the multiplication}@}. <!--SR:!2026-10-25,294,330!fsrs,2030-01-06T00:00:00.000Z,1191,1191.26470738,1,2,9,0,0,2026-10-03T00:00:00.000Z!2026-10-17,286,330!fsrs,2029-09-03T00:00:00.000Z,1103,1103.2172026,1,2,9,0,0,2026-08-27T00:00:00.000Z!2026-10-15,284,330!2026-10-11,280,330-->
 
 ### raising and lowering indices
 

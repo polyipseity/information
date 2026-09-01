@@ -48,7 +48,7 @@ The content is in teaching order.
     - ACCT 3010 / approach ::@:: mix both user perspective and preparer perspective <!--SR:!2028-06-21,773,339!2026-10-30,317,339-->
     - ACCT 3010 / class participation
     - ACCT 3010 / introduction ::@:: artificial intelligence \(AI\), importance of accounting, stories from the instructor, etc. <!--SR:!fsrs,2029-11-26T00:00:00.000Z,1187,1187.45608877,1,2,9,0,0,2026-08-27T00:00:00.000Z!fsrs,2029-11-24T00:00:00.000Z,1187,1187.45608877,1,2,9,0,0,2026-08-25T00:00:00.000Z-->
-        - ACCT 3010 / introduction / motivation ::@:: career versatility, language of business \(albeit imperfect\), real-world impact, skill development <!--SR:!2026-10-03,298,339!fsrs,2030-04-30T00:00:00.000Z,1310,1309.68737771,1,2,9,0,0,2026-09-28T00:00:00.000Z-->
+        - ACCT 3010 / introduction / motivation ::@:: career versatility, language of business \(albeit imperfect\), real-world impact, skill development <!--SR:!fsrs,2030-05-24T00:00:00.000Z,1329,1329.08406463,1,2,9,0,0,2026-10-03T00:00:00.000Z!fsrs,2030-04-30T00:00:00.000Z,1310,1309.68737771,1,2,9,0,0,2026-09-28T00:00:00.000Z-->
         - ACCT 3010 / introduction / artificial intelligence ::@:: It _probably_ changes accounting, but would not replace accountants using AIs... \(or maybe not... who knows?\) <!--SR:!fsrs,2028-12-12T00:00:00.000Z,815,815.49670394,2.15556587,2,9,0,0,2026-09-19T00:00:00.000Z!fsrs,2028-12-09T00:00:00.000Z,813,812.94957751,2.15556587,2,9,0,0,2026-09-18T00:00:00.000Z-->
 - [questions § week 1 lecture](questions.md#week%201%20lecture)
 
