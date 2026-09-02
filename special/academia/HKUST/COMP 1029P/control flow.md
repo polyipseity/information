@@ -20,7 +20,7 @@ if condition:
   statement_block
 ```
 
-The semantics of `if` is obvious: If {@{the condition is `true`, then the following statement is executed}@}. Otherwise, {@{it is not executed}@}. Note that the condition itself is {@{always executed}@}. <!--SR:!2026-10-09,736,330!2028-05-23,789,429!2028-05-12,779,429-->
+The semantics of `if` is obvious: If {@{the condition is `true`, then the following statement is executed}@}. Otherwise, {@{it is not executed}@}. Note that the condition itself is {@{always executed}@}. <!--SR:!fsrs,2034-07-19T00:00:00.000Z,2840,2839.82517353,1,2,11,0,0,2026-10-09T00:00:00.000Z!2028-05-23,789,429!2028-05-12,779,429-->
 
 An `if...else` statement consists of {@{a condition and two statement blocks}@}: <!--SR:!fsrs,2034-03-20T00:00:00.000Z,2752,2751.77450859,1,2,10,0,0,2026-09-06T00:00:00.000Z-->
 

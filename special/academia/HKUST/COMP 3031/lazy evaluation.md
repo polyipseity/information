@@ -51,7 +51,7 @@ In Scala {@{a _lazy list_}@} ({@{`scala.collection.immutable.LazyList`}@}, forme
 > ```
 <!--SR:!2026-12-12,311,345!2026-12-20,317,345!2027-01-12,335,345!2026-11-15,290,345-->
 
-or {@{more conveniently}@} via {@{the factory syntax}@}, in which {@{parameters are by-value \(eager\)}@}: <!--SR:!2026-10-09,265,330!2026-11-19,291,345!2026-12-29,325,345-->
+or {@{more conveniently}@} via {@{the factory syntax}@}, in which {@{parameters are by-value \(eager\)}@}: <!--SR:!fsrs,2029-12-17T00:00:00.000Z,1165,1164.5679841,1,2,9,0,0,2026-10-09T00:00:00.000Z!2026-11-19,291,345!2026-12-29,325,345-->
 
 > [!example] __`LazyList.apply`__
 >

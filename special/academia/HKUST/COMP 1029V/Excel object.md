@@ -13,7 +13,7 @@ tags:
 
 ### `Range`
 
-{@{The `Range` object}@} can refer to {@{a cell or a range}@}. We can pass {@{a cell reference, a range reference, or even a user-defined name}@}: {@{`Range(reference)`, such as `Range("C3")`, `Range("A2:B5")`, `Range("UserDefinedName")`}@}. By default, {@{the worksheet the range is on}@} is {@{the currently active worksheet}@}. <!--SR:!2028-01-17,1125,350!2026-10-09,670,310!2027-08-18,927,330!fsrs,2027-01-29T00:00:00.000Z,140,140.44399864,1,2,2,0,0,2026-09-11T00:00:00.000Z!fsrs,2027-01-29T00:00:00.000Z,140,140.44399864,1,2,2,0,0,2026-09-11T00:00:00.000Z!fsrs,2027-01-29T00:00:00.000Z,140,140.44399864,1,2,2,0,0,2026-09-11T00:00:00.000Z-->
+{@{The `Range` object}@} can refer to {@{a cell or a range}@}. We can pass {@{a cell reference, a range reference, or even a user-defined name}@}: {@{`Range(reference)`, such as `Range("C3")`, `Range("A2:B5")`, `Range("UserDefinedName")`}@}. By default, {@{the worksheet the range is on}@} is {@{the currently active worksheet}@}. <!--SR:!2028-01-17,1125,350!fsrs,2031-03-14T00:00:00.000Z,1617,1617.13980055,3.24197837,2,10,0,0,2026-10-09T00:00:00.000Z!2027-08-18,927,330!fsrs,2027-01-29T00:00:00.000Z,140,140.44399864,1,2,2,0,0,2026-09-11T00:00:00.000Z!fsrs,2027-01-29T00:00:00.000Z,140,140.44399864,1,2,2,0,0,2026-09-11T00:00:00.000Z!fsrs,2027-01-29T00:00:00.000Z,140,140.44399864,1,2,2,0,0,2026-09-11T00:00:00.000Z-->
 
 ### `Cells`
 

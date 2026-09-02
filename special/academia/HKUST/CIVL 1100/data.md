@@ -254,7 +254,7 @@ See [Parthenon](../../../../general/Parthenon.md).
 - construction period ::@:: 447 BC to 438 BC, 9 years <!--SR:!fsrs,2029-08-13T00:00:00.000Z,1085,1084.87264493,5.68258365,2,10,0,0,2026-08-24T00:00:00.000Z!fsrs,2034-04-24T00:00:00.000Z,2801,2800.70977612,1,2,10,0,0,2026-08-23T00:00:00.000Z-->
 - dedication ::@:: Greek goddess Athena <!--SR:!2027-05-25,898,416!2026-12-11,763,416-->
 - description ::@:: temple on the Athenian Acropolis, Greece, dedicated to the Greek goddess Athena <!--SR:!2032-09-03,2360,376!2026-11-27,751,416-->
-- geographic location ::@:: Athenian Acropolis, Greece <!--SR:!2026-10-09,678,376!fsrs,2034-10-05T00:00:00.000Z,2967,2966.58624759,1,2,10,0,0,2026-08-21T00:00:00.000Z-->
+- geographic location ::@:: Athenian Acropolis, Greece <!--SR:!fsrs,2034-12-16T00:00:00.000Z,2990,2989.6261501,1,2,10,0,0,2026-10-09T00:00:00.000Z!fsrs,2034-10-05T00:00:00.000Z,2967,2966.58624759,1,2,10,0,0,2026-08-21T00:00:00.000Z-->
 - importance ::@:: most important surviving building of classical Greece <!--SR:!2032-03-09,2250,396!2026-10-16,722,416-->
 
 ## Stonecutters Bridge

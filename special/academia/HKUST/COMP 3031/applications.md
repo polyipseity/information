@@ -92,7 +92,7 @@ With {@{`charCode` available}@}, {@{any word}@} can be turned {@{into the numeri
 > private val wordsForNum: Map[String, List[String]] =
 >   words.groupBy(wordCode).withDefaultValue(Nil)
 > ```
-<!--SR:!fsrs,2029-12-15T00:00:00.000Z,1168,1168.38706892,1,2,9,0,0,2026-10-04T00:00:00.000Z!2026-10-09,269,330!fsrs,2029-07-09T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-09-02T00:00:00.000Z!fsrs,2028-09-06T00:00:00.000Z,715,715.17050691,2.49272837,2,9,0,0,2026-09-22T00:00:00.000Z!2026-10-16,276,330!2026-10-19,275,330-->
+<!--SR:!fsrs,2029-12-15T00:00:00.000Z,1168,1168.38706892,1,2,9,0,0,2026-10-04T00:00:00.000Z!fsrs,2030-01-01T00:00:00.000Z,1180,1179.83367202,1,2,9,0,0,2026-10-09T00:00:00.000Z!fsrs,2029-07-09T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-09-02T00:00:00.000Z!fsrs,2028-09-06T00:00:00.000Z,715,715.17050691,2.49272837,2,9,0,0,2026-09-22T00:00:00.000Z!2026-10-16,276,330!2026-10-19,275,330-->
 
 ### `Coder.encode`
 
@@ -111,13 +111,13 @@ With {@{`charCode` available}@}, {@{any word}@} can be turned {@{into the numeri
 >     rest       <- encode(number.drop(splitPoint))
 >   } yield word :: rest
 > ```
-<!--SR:!fsrs,2028-08-27T00:00:00.000Z,708,707.6141386,2.49272837,2,9,0,0,2026-09-19T00:00:00.000Z!2026-10-14,274,330!fsrs,2029-08-27T00:00:00.000Z,1080,1080.08717202,1,2,9,0,0,2026-09-12T00:00:00.000Z!2026-10-12,272,330!fsrs,2029-07-19T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-09-04T00:00:00.000Z!2026-10-09,269,330!2026-10-12,272,330-->
+<!--SR:!fsrs,2028-08-27T00:00:00.000Z,708,707.6141386,2.49272837,2,9,0,0,2026-09-19T00:00:00.000Z!2026-10-14,274,330!fsrs,2029-08-27T00:00:00.000Z,1080,1080.08717202,1,2,9,0,0,2026-09-12T00:00:00.000Z!2026-10-12,272,330!fsrs,2029-07-19T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-09-04T00:00:00.000Z!fsrs,2030-01-01T00:00:00.000Z,1180,1179.83367202,1,2,9,0,0,2026-10-09T00:00:00.000Z!2026-10-12,272,330-->
 
 {@{This comprehension}@} enumerates {@{all ways of partitioning the digit string into dictionary words}@}, accumulating {@{each complete phrase as a list}@}. <!--SR:!2026-11-06,292,330!2026-11-04,290,330!2026-11-06,292,330-->
 
 ### word coder usage
 
-{@{A minimal test harness}@} {@{demonstrates usage}@}: <!--SR:!fsrs,2029-07-14T00:00:00.000Z,1045,1045.2595081,1,2,9,0,0,2026-09-03T00:00:00.000Z!2026-10-09,269,330-->
+{@{A minimal test harness}@} {@{demonstrates usage}@}: <!--SR:!fsrs,2029-07-14T00:00:00.000Z,1045,1045.2595081,1,2,9,0,0,2026-09-03T00:00:00.000Z!fsrs,2030-01-01T00:00:00.000Z,1180,1179.83367202,1,2,9,0,0,2026-10-09T00:00:00.000Z-->
 
 > [!example] __word coder results__
 >
@@ -141,7 +141,7 @@ Thus the implementation finds {@{all valid mnemonic phrases in a handful of line
 
 - _concise_ ::@:: A single for-comprehension or higher-order function replaces multiple nested loops. As a result, few steps are needed. <!--SR:!2026-10-10,270,330!2026-10-21,277,330-->
 - _fast_ ::@:: Operations on collections may be optimized and parallelized. <!--SR:!2026-10-23,279,330!2026-10-14,274,330-->
-- _safe_ ::@:: The type checker guarantees that collections are manipulated in a valid way. <!--SR:!2026-10-09,269,330!fsrs,2029-08-12T00:00:00.000Z,1068,1068.495917,1,2,9,0,0,2026-09-09T00:00:00.000Z-->
+- _safe_ ::@:: The type checker guarantees that collections are manipulated in a valid way. <!--SR:!fsrs,2030-01-01T00:00:00.000Z,1180,1179.83367202,1,2,9,0,0,2026-10-09T00:00:00.000Z!fsrs,2029-08-12T00:00:00.000Z,1068,1068.495917,1,2,9,0,0,2026-09-09T00:00:00.000Z-->
 - _universal_ ::@:: The API interfaces exposed by lists, vectors, sets, maps, etc. are almost the same. <!--SR:!2026-10-22,278,330!2026-10-19,275,330-->
 
 These qualities illustrate why {@{immutable Scala collections}@} are considered {@{a powerful tool for modern software development}@}. <!--SR:!2026-10-23,279,330!2026-10-12,272,330-->
@@ -218,7 +218,7 @@ The same syntax can be used to {@{find all books whose title}@} contains {@{the 
 > ```
 <!--SR:!fsrs,2029-07-09T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-09-02T00:00:00.000Z!2026-11-07,293,330!fsrs,2029-12-27T00:00:00.000Z,1176,1176.0199518,1,2,9,0,0,2026-10-08T00:00:00.000Z-->
 
-Running {@{this against the sample list}@} returns {@{each qualifying author twice}@}, because {@{the pair of book records}@} can be {@{ordered in two ways}@}. To {@{eliminate duplicates}@} we may {@{impose an ordering on the books}@} by {@{changing `if b1 != b2` to `b1.title < b2.title`}@}. However, {@{an author who has written three books}@} will still {@{appear three times}@}, as there are {@{3 ways to choose 2 books from 3 books}@}.  {@{A straightforward remedy}@} is to {@{call `distinct` on the result}@}: <!--SR:!2026-10-25,281,330!fsrs,2029-08-17T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-09-10T00:00:00.000Z!2026-10-24,280,330!fsrs,2029-06-15T00:00:00.000Z,1022,1021.94953015,1,2,9,0,0,2026-08-28T00:00:00.000Z!2026-10-09,269,330!2026-10-15,275,330!2026-10-30,286,330!fsrs,2029-10-24T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-09-24T00:00:00.000Z!2026-10-15,275,330!fsrs,2029-08-17T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-09-10T00:00:00.000Z!2026-11-05,291,330!2026-10-31,287,330-->
+Running {@{this against the sample list}@} returns {@{each qualifying author twice}@}, because {@{the pair of book records}@} can be {@{ordered in two ways}@}. To {@{eliminate duplicates}@} we may {@{impose an ordering on the books}@} by {@{changing `if b1 != b2` to `b1.title < b2.title`}@}. However, {@{an author who has written three books}@} will still {@{appear three times}@}, as there are {@{3 ways to choose 2 books from 3 books}@}.  {@{A straightforward remedy}@} is to {@{call `distinct` on the result}@}: <!--SR:!2026-10-25,281,330!fsrs,2029-08-17T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-09-10T00:00:00.000Z!2026-10-24,280,330!fsrs,2029-06-15T00:00:00.000Z,1022,1021.94953015,1,2,9,0,0,2026-08-28T00:00:00.000Z!fsrs,2030-01-01T00:00:00.000Z,1180,1179.83367202,1,2,9,0,0,2026-10-09T00:00:00.000Z!2026-10-15,275,330!2026-10-30,286,330!fsrs,2029-10-24T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-09-24T00:00:00.000Z!2026-10-15,275,330!fsrs,2029-08-17T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-09-10T00:00:00.000Z!2026-11-05,291,330!2026-10-31,287,330-->
 
 > [!example] __complex database query filtering by author__
 >

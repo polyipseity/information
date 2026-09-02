@@ -226,7 +226,7 @@ Watch "1959 The Year that Changed Jazz" \(<https://youtu.be/dou3aSZmEg0>\).
 >
 > What contribution did the record "Time Out" have on future jazz generations?
 >
-> - solution: {@{\(for reference\) It was very expermental with time signature. It was very popular, and made jazz well-known.}@} <!--SR:!2026-10-09,411,375-->
+> - solution: {@{\(for reference\) It was very expermental with time signature. It was very popular, and made jazz well-known.}@} <!--SR:!fsrs,2032-01-26T00:00:00.000Z,1935,1935.20445991,1,2,10,0,0,2026-10-09T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 

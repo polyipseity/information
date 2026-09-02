@@ -57,13 +57,13 @@ tags:
 > - AX<sub>3</sub>E<sub>0</sub>
 >     - AX<sub>3</sub>E<sub>0</sub> / [shape](molecular%20geometry.md) ::@:: [trigonal planar](trigonal%20planar%20molecular%20geometry.md)<br/>![trigonal planar](../../archives/Wikimedia%20Commons/AX3E0-3D-balls.png) <!--SR:!2027-04-05,339,345!2026-10-10,202,325-->
 >     - AX<sub>3</sub>E<sub>0</sub> / ideal bond angle(s) :@: 120° <!--SR:!fsrs,2027-09-04T16:39:00.381Z,454,454.30619422,1.22984669,2,8,0,0,2026-06-07T16:39:00.381Z-->
->     - AX<sub>3</sub>E<sub>0</sub> / example(s) ::@:: [BF<sub>3</sub>](boron%20trifluoride.md) <!--SR:!2027-05-28,391,361!2026-10-09,201,325-->
+>     - AX<sub>3</sub>E<sub>0</sub> / example(s) ::@:: [BF<sub>3</sub>](boron%20trifluoride.md) <!--SR:!2027-05-28,391,361!fsrs,2028-05-05T00:00:00.000Z,574,574.38216194,2.68004087,2,9,0,0,2026-10-09T00:00:00.000Z-->
 > - AX<sub>3</sub>E<sub>1</sub>
 >     - AX<sub>3</sub>E<sub>1</sub> / [shape](molecular%20geometry.md) ::@:: [trigonal pyramidal](trigonal%20pyramidal%20molecular%20geometry.md)<br/>![trigonal pyramidal](../../archives/Wikimedia%20Commons/AX3E1-3D-balls.png) <!--SR:!2027-03-09,312,345!fsrs,2028-04-24T00:00:00.000Z,567,566.75169301,2.68004087,2,9,0,0,2026-10-05T00:00:00.000Z-->
 >     - AX<sub>3</sub>E<sub>1</sub> / ideal bond angle(s) :@: ~109.5° <!--SR:!2027-03-16,319,345-->
 >     - AX<sub>3</sub>E<sub>1</sub> / example(s) ::@:: [NH<sub>3</sub>](ammonia.md) <!--SR:!2026-12-17,230,325!fsrs,2028-04-16T00:00:00.000Z,611,611.37794575,1.22984669,2,8,0,0,2026-08-14T00:00:00.000Z-->
 > - AX<sub>3</sub>E<sub>2</sub>
->     - AX<sub>3</sub>E<sub>2</sub> / [shape](molecular%20geometry.md) ::@:: [T-shaped](T-shaped%20molecular%20geometry.md)<br/>![T-shaped](../../archives/Wikimedia%20Commons/AX3E2-3D-balls.png) <!--SR:!2026-10-09,201,325!2027-02-04,277,341-->
+>     - AX<sub>3</sub>E<sub>2</sub> / [shape](molecular%20geometry.md) ::@:: [T-shaped](T-shaped%20molecular%20geometry.md)<br/>![T-shaped](../../archives/Wikimedia%20Commons/AX3E2-3D-balls.png) <!--SR:!fsrs,2028-05-05T00:00:00.000Z,574,574.38216194,2.68004087,2,9,0,0,2026-10-09T00:00:00.000Z!2027-02-04,277,341-->
 >     - AX<sub>3</sub>E<sub>2</sub> / ideal bond angle(s) :@: 90°, 180° <!--SR:!2027-06-03,396,361-->
 >     - AX<sub>3</sub>E<sub>2</sub> / example(s) ::@:: [ClF<sub>3</sub>](chlorine%20trifluoride.md) <!--SR:!fsrs,2026-12-20T16:38:59.223Z,196,196.18685601,1.22984669,2,6,0,0,2026-06-07T16:38:59.223Z!2027-05-29,392,361-->
 > - AX<sub>4</sub>E<sub>0</sub>

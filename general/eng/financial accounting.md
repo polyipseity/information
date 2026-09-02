@@ -24,7 +24,7 @@ While {@{financial accounting}@} is used to prepare {@{accounting information fo
 {@{Financial accounting and financial reporting}@} are often used {@{as synonyms}@}. <!--SR:!2029-04-27,1314,350!fsrs,2027-01-29T00:00:00.000Z,140,140.44399864,1,2,2,0,0,2026-09-11T00:00:00.000Z-->
 
 1. According to International Financial Reporting Standards: the objective of financial reporting is ... ::@:: To provide financial information that is useful to existing and potential investors, lenders and other creditors in making decisions about providing resources to the reporting entity.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2026-10-12,534,310!2028-02-20,889,290-->
-2. According to the European Accounting Association: ... ::@:: Capital maintenance is a competing objective of financial reporting.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2030-01-06,1441,310!2026-10-09,567,310-->
+2. According to the European Accounting Association: ... ::@:: Capital maintenance is a competing objective of financial reporting.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2030-01-06,1441,310!fsrs,2032-07-20T00:00:00.000Z,2111,2110.82492595,1,2,10,0,0,2026-10-09T00:00:00.000Z-->
 
 Financial accounting is {@{the preparation of financial statements that can be consumed by the public and the relevant stakeholders}@}. Financial information {@{would be useful to users if such qualitative characteristics are present}@}. When producing financial statements, the following must be complied with: {@{fundamental qualitative characteristics and enhancing qualitative characteristics}@}. <!--SR:!fsrs,2031-03-04T15:29:59.588Z,1724,1723.77298778,1,2,10,0,0,2026-06-14T15:29:59.588Z!2029-04-12,1301,350!2031-06-14,1878,330-->
 
@@ -114,7 +114,7 @@ Liabilities include {@{current liabilities and long-term liabilities}@}: <!--SR:
 - _current liabilities_ ::@:: trade accounts payable, dividends payable, employee salaries payable, interest (e.g. on debt) payable <!--SR:!2026-10-14,542,290!fsrs,2030-06-10T00:00:00.000Z,1413,1413.28710796,2.98092302,2,10,0,0,2026-07-28T00:00:00.000Z-->
 - _long-term liabilities_ ::@:: mortgage notes payable, bonds payable <!--SR:!2028-09-20,1142,350!2027-08-03,807,330-->
 
-{@{Owner's equity, sometimes referred to as net assets}@}, is {@{represented differently depending on the type of business ownership}@}. Business ownership can be in the form of {@{a sole proprietorship, partnership, or a [corporation](corporation.md)}@}. For {@{a corporation}@}, the owner's equity portion {@{usually shows common stock, and retained earnings (earnings kept in the company)}@}. Retained earnings come from {@{the retained earnings statement, prepared prior to the balance sheet}@}.<sup>[\[8\]](#^ref-8)</sup> <!--SR:!2027-05-01,731,330!2026-11-23,590,310!2027-11-30,841,330!2027-12-09,905,330!2027-03-24,704,330!2026-10-09,559,310-->
+{@{Owner's equity, sometimes referred to as net assets}@}, is {@{represented differently depending on the type of business ownership}@}. Business ownership can be in the form of {@{a sole proprietorship, partnership, or a [corporation](corporation.md)}@}. For {@{a corporation}@}, the owner's equity portion {@{usually shows common stock, and retained earnings (earnings kept in the company)}@}. Retained earnings come from {@{the retained earnings statement, prepared prior to the balance sheet}@}.<sup>[\[8\]](#^ref-8)</sup> <!--SR:!2027-05-01,731,330!2026-11-23,590,310!2027-11-30,841,330!2027-12-09,905,330!2027-03-24,704,330!fsrs,2032-06-24T00:00:00.000Z,2085,2084.67747766,1,2,10,0,0,2026-10-09T00:00:00.000Z-->
 
 #### statement of retained earnings
 
