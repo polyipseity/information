@@ -157,7 +157,7 @@ One can define {@{a [binary relation](binary%20relation.md) on the edges of an a
 
 - [Triconnected component](SPQR%20tree.md)
 - [Bridge \(graph theory\)](bridge%20(graph%20theory).md)
-- [Single-entry single-exit](single-entry%20single-exit.md) ::@:: Counter part of biconnected components in directed graphs <!--SR:!2026-10-06,491,315!2028-01-17,860,335-->
+- [Single-entry single-exit](single-entry%20single-exit.md) ::@:: Counter part of biconnected components in directed graphs <!--SR:!fsrs,2030-02-27T00:00:00.000Z,1240,1239.96445456,3.05466587,2,10,0,0,2026-10-06T00:00:00.000Z!2028-01-17,860,335-->
 
 ## notes
 

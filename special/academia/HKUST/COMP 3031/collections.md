@@ -27,7 +27,7 @@ tags:
 
 ## list
 
-In Scala {@{a __list__}@} is {@{the canonical immutable linear data structure}@} used {@{throughout functional programming}@}. A list {@{containing the elements _x₁, ..., xₙ_}@} is written {@{`List(x₁, ..., xₙ)`}@}. Typical examples include <!--SR:!2026-10-13,271,330!2026-10-06,264,330!2026-11-07,293,330!fsrs,2029-08-02T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-09-10T00:00:00.000Z!2026-10-26,282,330-->
+In Scala {@{a __list__}@} is {@{the canonical immutable linear data structure}@} used {@{throughout functional programming}@}. A list {@{containing the elements _x₁, ..., xₙ_}@} is written {@{`List(x₁, ..., xₙ)`}@}. Typical examples include <!--SR:!2026-10-13,271,330!fsrs,2029-12-10T00:00:00.000Z,1161,1160.74715681,1,2,9,0,0,2026-10-06T00:00:00.000Z!2026-11-07,293,330!fsrs,2029-08-02T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-09-10T00:00:00.000Z!2026-10-26,282,330-->
 
 > [!example] __list construction__
 >
@@ -86,7 +86,7 @@ However, adding {@{a method that "mutates" \(no actual mutation occurs\) the lis
 >   def prepend[U >: T](elem: U): List[U] = Cons(elem, this)
 > ```
 >
-> This is okay because {@{covariant parameters}@} can be used in {@{lower bounds of method type parameters}@}. The same holds for {@{upper bounds of method type parameters}@} and {@{contravariant parameters}@}. <!--SR:!fsrs,2028-02-01T00:00:00.000Z,506,506.03526322,5.00637887,2,9,0,0,2026-09-13T00:00:00.000Z!fsrs,2028-08-09T00:00:00.000Z,692,692.47401324,2.49272837,2,9,0,0,2026-09-17T00:00:00.000Z!2026-10-06,264,330!fsrs,2029-10-28T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-09-28T00:00:00.000Z!2026-10-16,274,330!fsrs,2028-08-23T00:00:00.000Z,771,771.20338158,1,2,8,0,0,2026-07-14T00:00:00.000Z!2027-07-24,473,310!2026-10-18,276,330!2026-10-28,284,330!2027-06-10,463,383-->
+> This is okay because {@{covariant parameters}@} can be used in {@{lower bounds of method type parameters}@}. The same holds for {@{upper bounds of method type parameters}@} and {@{contravariant parameters}@}. <!--SR:!fsrs,2028-02-01T00:00:00.000Z,506,506.03526322,5.00637887,2,9,0,0,2026-09-13T00:00:00.000Z!fsrs,2028-08-09T00:00:00.000Z,692,692.47401324,2.49272837,2,9,0,0,2026-09-17T00:00:00.000Z!fsrs,2029-12-10T00:00:00.000Z,1161,1160.74715681,1,2,9,0,0,2026-10-06T00:00:00.000Z!fsrs,2029-10-28T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-09-28T00:00:00.000Z!2026-10-16,274,330!fsrs,2028-08-23T00:00:00.000Z,771,771.20338158,1,2,8,0,0,2026-07-14T00:00:00.000Z!2027-07-24,473,310!2026-10-18,276,330!2026-10-28,284,330!2027-06-10,463,383-->
 
 This is okay because {@{covariant parameters}@} can be used in {@{lower bounds of method type parameters}@}. The same holds for {@{upper bounds of method type parameters}@} and {@{contravariant parameters}@}. Now `prepend` accepts {@{any supertype of `T`}@}, producing a list whose {@{element type is that supertype}@}. For example, calling {@{`xs.prepend(orange)` on a `List[Apple]`}@} \(where {@{`Apple` and `Orange` are _direct_ subclasses of `Fruit`}@}\) yields {@{a `List[Fruit]`}@}. <!--SR:!2026-10-31,287,330!fsrs,2028-08-31T00:00:00.000Z,708,707.6141386,2.49272837,2,9,0,0,2026-09-23T00:00:00.000Z!2026-10-26,282,330!2026-10-19,277,330!2026-10-24,280,330!2026-10-18,276,330!2027-06-29,455,330!2026-10-16,274,330!2027-06-09,462,383-->
 

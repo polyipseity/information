@@ -55,7 +55,7 @@ The goal is to find {@{estimated values ${\widehat {\alpha } }$ and ${\widehat {
 
 ### relationship with the sample covariance matrix
 
-{@{The solution can be reformulated}@} using {@{elements of the [covariance matrix](covariance%20matrix.md)}@}: {@{$${\widehat {\beta } }={\frac {s_{x,y} }{s_{x}^{2} } }=r_{xy}{\frac {s_{y} }{s_{x} } }$$}@} where <!--SR:!2029-01-22,1128,350!fsrs,2029-09-18T00:00:00.000Z,1094,1093.93108325,3.24197837,2,10,0,0,2026-09-20T00:00:00.000Z!2026-10-06,372,250-->
+{@{The solution can be reformulated}@} using {@{elements of the [covariance matrix](covariance%20matrix.md)}@}: {@{$${\widehat {\beta } }={\frac {s_{x,y} }{s_{x}^{2} } }=r_{xy}{\frac {s_{y} }{s_{x} } }$$}@} where <!--SR:!2029-01-22,1128,350!fsrs,2029-09-18T00:00:00.000Z,1094,1093.93108325,3.24197837,2,10,0,0,2026-09-20T00:00:00.000Z!fsrs,2029-11-23T00:00:00.000Z,1144,1143.61304722,3.98153807,2,10,0,0,2026-10-06T00:00:00.000Z-->
 
 - _r_<sub>_xy_</sub> ::@:: is the [sample correlation coefficient](correlation.md#sample%20correlation%20coefficient) between _x_ and _y_ <!--SR:!2026-12-25,505,310!2029-05-27,1226,350-->
 - _s_<sub>_x_</sub> and _s<sub>y</sub>_ ::@:: are the [uncorrected sample standard deviations](standard%20deviation.md#uncorrected%20sample%20standard%20deviation) of _x_ and _y_ <!--SR:!2028-02-29,841,330!2029-02-16,1139,350-->

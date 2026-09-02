@@ -221,7 +221,7 @@ In particular, {@{`and` has a higher precedence than `or`}@}. This implies {@{`T
 
 ## variable
 
-To assign a value or the result of an expression to a variable, use {@{`=`}@}: <!--SR:!2026-10-06,275,330-->
+To assign a value or the result of an expression to a variable, use {@{`=`}@}: <!--SR:!fsrs,2030-01-21T00:00:00.000Z,1203,1202.68030072,1,2,9,0,0,2026-10-06T00:00:00.000Z-->
 
 ```Python
 variableName = 1 + 2

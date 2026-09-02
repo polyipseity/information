@@ -17,7 +17,7 @@ tags:
 
 In {@{[category theory](category%20theory.md) and its applications to other branches of [mathematics](mathematics.md)}@}, {@{__kernels__}@} are a generalization of {@{the kernels of [group homomorphisms](group%20homomorphism.md), the kernels of [module homomorphisms](module%20homomorphism.md) and certain other [kernels from algebra](kernel%20(algebra).md)}@}. Intuitively, {@{the kernel of the [morphism](morphism.md) _f_ : _X_ → _Y_}@} is {@{the "most general" morphism _k_ : _K_ → _X_ that yields zero when composed with \(followed by\) _f_}@}. <!--SR:!2029-12-01,1401,362!2030-01-29,1449,362!2028-07-18,915,302!2028-09-13,1041,350!2030-03-01,1474,362-->
 
-Note that {@{[kernel pairs](kernel%20pair.md) and [difference kernels](difference%20kernel.md) \(also known as binary [equalisers](equaliser%20(mathematics).md)\)}@} sometimes {@{go by the name "kernel"}@}; while {@{related, these aren't quite the same thing and are not discussed in this article}@}. <!--SR:!2028-04-20,919,342!2030-07-02,1571,362!2026-10-06,472,310-->
+Note that {@{[kernel pairs](kernel%20pair.md) and [difference kernels](difference%20kernel.md) \(also known as binary [equalisers](equaliser%20(mathematics).md)\)}@} sometimes {@{go by the name "kernel"}@}; while {@{related, these aren't quite the same thing and are not discussed in this article}@}. <!--SR:!2028-04-20,919,342!2030-07-02,1571,362!fsrs,2031-09-07T00:00:00.000Z,1797,1797.36381341,1,2,10,0,0,2026-10-06T00:00:00.000Z-->
 
 ## definition
 

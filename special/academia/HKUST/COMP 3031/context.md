@@ -252,7 +252,7 @@ To {@{assign an already existing instance to `given`}@}, use {@{the assignment o
 ### `summon`
 <!--SR:!2026-01-31,65,329!2026-02-05,69,329!2026-01-23,58,310-->
 
-To refer to {@{an instance directly without using `using`}@}, you may {@{use `summon`}@}: <!--SR:!fsrs,2028-07-25T00:00:00.000Z,675,674.76322068,2.49272837,2,9,0,0,2026-09-19T00:00:00.000Z!2026-10-06,255,330-->
+To refer to {@{an instance directly without using `using`}@}, you may {@{use `summon`}@}: <!--SR:!fsrs,2028-07-25T00:00:00.000Z,675,674.76322068,2.49272837,2,9,0,0,2026-09-19T00:00:00.000Z!fsrs,2029-11-05T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-10-06T00:00:00.000Z-->
 
 > [!example] __`summon`__
 >
@@ -366,7 +366,7 @@ Thus you can provide {@{multiple `given`s}@} and rely on Scala's rules to pick {
 
 ## type class
 
-In Scala {@{a _type class_}@} is {@{a generic trait}@} that declares {@{operations for a type `A`}@} and is instantiated by {@{`given` definitions for particular types}@}. {@{The pattern}@} is inspired by {@{Haskell's type-class mechanism}@} but expressed in Scala through {@{contextual parameters (`using`) and implicit resolution}@}. <!--SR:!2026-10-06,255,330!2026-11-26,296,349!2026-11-16,286,349!fsrs,2028-07-28T00:00:00.000Z,677,677.29649533,2.49272837,2,9,0,0,2026-09-20T00:00:00.000Z!2026-12-06,306,349!2026-12-31,327,349!2026-12-23,320,349-->
+In Scala {@{a _type class_}@} is {@{a generic trait}@} that declares {@{operations for a type `A`}@} and is instantiated by {@{`given` definitions for particular types}@}. {@{The pattern}@} is inspired by {@{Haskell's type-class mechanism}@} but expressed in Scala through {@{contextual parameters (`using`) and implicit resolution}@}. <!--SR:!fsrs,2028-09-25T00:00:00.000Z,720,720.2031195,2.49272837,2,9,0,0,2026-10-06T00:00:00.000Z!2026-11-26,296,349!2026-11-16,286,349!fsrs,2028-07-28T00:00:00.000Z,677,677.29649533,2.49272837,2,9,0,0,2026-09-20T00:00:00.000Z!2026-12-06,306,349!2026-12-31,327,349!2026-12-23,320,349-->
 
 {@{Type classes}@} turn {@{a type into a value}@} by providing {@{a trait and concrete instances}@}. They enable {@{_ad-hoc polymorphism_}@}: {@{different implementations}@} for {@{different types}@}. <!--SR:!2026-11-17,287,349!2026-12-11,311,349!2027-01-18,339,349!2026-11-27,297,349!2027-01-21,342,349!2026-11-27,297,349-->
 
@@ -504,7 +504,7 @@ With {@{an `Ordering[T]` in scope}@} one can {@{write}@}: <!--SR:!fsrs,2029-10-2
 
 {@{The syntax in Rust}@} is {@{slightly different}@} but {@{the concept}@} remains {@{the same}@}—defining {@{a set of operations}@} that can be {@{implemented for many distinct types}@}. <!--SR:!2027-01-02,329,349!fsrs,2028-07-18T00:00:00.000Z,670,669.69339296,2.49272837,2,9,0,0,2026-09-17T00:00:00.000Z!fsrs,2029-10-17T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-10-02T00:00:00.000Z!2026-12-09,309,349!2027-01-25,346,349!2026-12-31,327,349-->
 
-{@{Other functional and dependently-typed languages}@} are moving {@{toward a similar approach}@}.  {@{Agda, Lean, and soon OCaml}@} provide {@{general _contextual parameters_ or equivalent mechanisms}@} that allow {@{programmers to encode type-class-like behaviour}@} in a manner analogous to {@{Scala's `given` instances}@}.  {@{These systems}@} combine the expressiveness of {@{Haskell's type classes with Scala-style contextual resolution}@}, enabling {@{conditional polymorphism across a wide range of types}@}. <!--SR:!2026-11-30,300,349!2027-01-31,352,349!fsrs,2029-10-17T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-10-02T00:00:00.000Z!2026-10-06,255,330!2027-01-27,348,349!2027-01-29,350,349!2026-11-08,282,349!2027-01-30,351,349!2026-12-04,305,349-->
+{@{Other functional and dependently-typed languages}@} are moving {@{toward a similar approach}@}.  {@{Agda, Lean, and soon OCaml}@} provide {@{general _contextual parameters_ or equivalent mechanisms}@} that allow {@{programmers to encode type-class-like behaviour}@} in a manner analogous to {@{Scala's `given` instances}@}.  {@{These systems}@} combine the expressiveness of {@{Haskell's type classes with Scala-style contextual resolution}@}, enabling {@{conditional polymorphism across a wide range of types}@}. <!--SR:!2026-11-30,300,349!2027-01-31,352,349!fsrs,2029-10-17T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-10-02T00:00:00.000Z!fsrs,2028-09-25T00:00:00.000Z,720,720.2031195,2.49272837,2,9,0,0,2026-10-06T00:00:00.000Z!2027-01-27,348,349!2027-01-29,350,349!2026-11-08,282,349!2027-01-30,351,349!2026-12-04,305,349-->
 
 ## monoid example
 
