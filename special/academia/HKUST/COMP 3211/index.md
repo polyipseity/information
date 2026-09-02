@@ -263,7 +263,7 @@ The content is in teaching order.
         - search algorithm / implicit graph / repetition ::@:: As mentioned above, implicit graphs may repeat states. There are several ways to deal with this, in increasing effectiveness and overhead: do not return to the state we have just come from, which requires tracking the last state; do not create cycles, which requires tracking the current path; do not generate any state that has been generated, which requires tracking the set of generated states.  <p> \(Note that for A\*, unless the heuristic is also consistent, you can at most deduplicate _visited_ instead of _generated_ states, otherwise the path may not be optimal.\) <!--SR:!2026-11-14,499,396!fsrs,2032-08-03T00:00:00.000Z,2134,2133.90042994,1,2,10,0,0,2026-09-30T00:00:00.000Z-->
     - search algorithm / heuristic (informed) ::@:: The search uses a _heuristic function_, which given the current path and search tree, maps states to real numbers. The leaf with the smallest heuristic function value is expanded first. <!--SR:!2026-12-16,521,396!2026-12-12,517,396-->
         - search algorithm / heuristic / heuristic function ::@:: Given the current path and search tree, it usually measures how far the inputted state and path is from a goal state. <!--SR:!2026-12-09,514,396!2026-10-14,474,396-->
-            - search algorithm / heuristic / heuristic function / examples ::@:: 8 puzzle: number of tiles out of place, current path length + number of tiles out of place, etc. <!--SR:!2026-10-26,483,396!2026-10-08,469,396-->
+            - search algorithm / heuristic / heuristic function / examples ::@:: 8 puzzle: number of tiles out of place, current path length + number of tiles out of place, etc. <!--SR:!2026-10-26,483,396!fsrs,2032-09-16T00:00:00.000Z,2170,2170.09977723,1,2,10,0,0,2026-10-08T00:00:00.000Z-->
 
 ## week 4 tutorial
 
@@ -283,7 +283,7 @@ The content is in teaching order.
     - genetic programming / selection
     - genetic programming / reproduction
     - genetic programming / optimization ::@:: It can be considered as a zeroth-order optimization method (evolution). That is, the fitness/loss function is used directly, and its derivatives are not used. <!--SR:!2026-11-03,489,396!2026-12-18,523,396-->
-        - genetic programming / optimization / gradient descent, Newton's method ::@:: They are respectively one of the first-order and second-order optimization methods. <p> The first uses first derivatives (gradient). The second uses both first and second derivatives (Hessian matrix). <p> Usually, the higher the order of the derivatives used, the more efficient and also computationally expensive the method is. <p> The first is commonly used in deep learning and machine learning. The second is good for convex problems. <!--SR:!2026-12-17,522,396!2026-10-08,469,396-->
+        - genetic programming / optimization / gradient descent, Newton's method ::@:: They are respectively one of the first-order and second-order optimization methods. <p> The first uses first derivatives (gradient). The second uses both first and second derivatives (Hessian matrix). <p> Usually, the higher the order of the derivatives used, the more efficient and also computationally expensive the method is. <p> The first is commonly used in deep learning and machine learning. The second is good for convex problems. <!--SR:!2026-12-17,522,396!fsrs,2032-09-16T00:00:00.000Z,2170,2170.09977723,1,2,10,0,0,2026-10-08T00:00:00.000Z-->
 
 ## week 4 lecture
 

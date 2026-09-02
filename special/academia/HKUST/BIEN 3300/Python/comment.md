@@ -20,7 +20,7 @@ a = 1 # assign 1 to `a`
 a += 1 # increment `a` by 1
 ```
 
-If you want multiline comments, you can use {@{multiline strings to emulate it}@}: <!--SR:!2026-10-08,268,330-->
+If you want multiline comments, you can use {@{multiline strings to emulate it}@}: <!--SR:!fsrs,2029-12-27T00:00:00.000Z,1176,1176.0199518,1,2,9,0,0,2026-10-08T00:00:00.000Z-->
 
 ```Python
 a = 1

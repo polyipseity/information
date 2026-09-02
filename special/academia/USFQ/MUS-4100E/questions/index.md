@@ -218,7 +218,7 @@ Watch "1959 The Year that Changed Jazz" \(<https://youtu.be/dou3aSZmEg0>\).
 >
 > What is Fables of Faubus and why was it important?
 >
-> - solution: {@{\(for reference\) It was one of Charles Mingus' work. It had political messages about racial issues. Specifically, its lyrics opposed Arkansas governor Orval Faubus.}@} <!--SR:!2026-10-08,411,375-->
+> - solution: {@{\(for reference\) It was one of Charles Mingus' work. It had political messages about racial issues. Specifically, its lyrics opposed Arkansas governor Orval Faubus.}@} <!--SR:!fsrs,2032-01-25T00:00:00.000Z,1935,1935.20445991,1,2,10,0,0,2026-10-08T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 

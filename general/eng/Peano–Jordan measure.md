@@ -31,7 +31,7 @@ The above can be fixed by rewriting {@{any simple set as the union of mutually [
 >
 > {@{rewritten union of disjoint rectangles}@} <!--SR:!2028-05-27,1224,350!2029-10-06,1636,383-->
 
-One can show {@{the above definition of Jordan measure for simple set}@} is {@{independent of the representation of simple set as disjoint rectangles, and the openness and closeness of the rectangles}@}. They all give {@{the same value for $m(S)$}@}. In fact, {@{the rectangles having disjoint [interior](interior%20(topology).md)}@} suffices. <!--SR:!fsrs,2033-11-23T00:00:00.000Z,2667,2666.75300594,1,2,10,0,0,2026-08-05T00:00:00.000Z!fsrs,2028-08-23T00:00:00.000Z,688,687.7179261,1,2,8,0,0,2026-10-05T00:00:00.000Z!2026-10-11,129,389!2026-10-08,126,389-->
+One can show {@{the above definition of Jordan measure for simple set}@} is {@{independent of the representation of simple set as disjoint rectangles, and the openness and closeness of the rectangles}@}. They all give {@{the same value for $m(S)$}@}. In fact, {@{the rectangles having disjoint [interior](interior%20(topology).md)}@} suffices. <!--SR:!fsrs,2033-11-23T00:00:00.000Z,2667,2666.75300594,1,2,10,0,0,2026-08-05T00:00:00.000Z!fsrs,2028-08-23T00:00:00.000Z,688,687.7179261,1,2,8,0,0,2026-10-05T00:00:00.000Z!2026-10-11,129,389!fsrs,2028-09-04T00:00:00.000Z,697,697.23354019,1,2,8,0,0,2026-10-08T00:00:00.000Z-->
 
 ## extension to more complicated sets
 
@@ -45,7 +45,7 @@ Formally, {@{for a bounded set $B$}@}, define its {@{_inner Jordan measure_ as t
 >
 > {@{squeezing a bounded set by simple sets}@} <!--SR:!2027-01-15,810,330!2029-06-12,1543,383-->
 
-If {@{the inner Jordan measure equals the outer Jordan measure}@}, then $B$ is said to be {@{_Jordan measurable_ and its _Jordan measure_ is simply the common value of the inner and outer Jordan measures}@}. Then {@{the _Jordan measure_}@} is {@{the [set function](set%20function.md) that maps Jordan measurable sets to their Jordan measures}@}. <!--SR:!2027-08-27,1010,350!fsrs,2034-05-26T00:00:00.000Z,2799,2799.23244904,1,2,11,0,0,2026-09-26T00:00:00.000Z!2026-10-08,126,389!2026-10-09,127,389-->
+If {@{the inner Jordan measure equals the outer Jordan measure}@}, then $B$ is said to be {@{_Jordan measurable_ and its _Jordan measure_ is simply the common value of the inner and outer Jordan measures}@}. Then {@{the _Jordan measure_}@} is {@{the [set function](set%20function.md) that maps Jordan measurable sets to their Jordan measures}@}. <!--SR:!2027-08-27,1010,350!fsrs,2034-05-26T00:00:00.000Z,2799,2799.23244904,1,2,11,0,0,2026-09-26T00:00:00.000Z!fsrs,2028-09-04T00:00:00.000Z,697,697.23354019,1,2,8,0,0,2026-10-08T00:00:00.000Z!2026-10-09,127,389-->
 
 ## references
 

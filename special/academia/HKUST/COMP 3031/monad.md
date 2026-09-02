@@ -20,7 +20,7 @@ tags:
 
 In {@{functional programming}@}, {@{many data structures}@} that provide {@{`unit` \(also called `return`\) and `flatMap` \(also called `bind`\) operations}@} fall under {@{a common algebraic abstraction known as a _monad_}@}. <!--SR:!2026-10-28,284,330!2026-10-12,271,330!fsrs,2029-07-22T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-09-07T00:00:00.000Z!2026-10-27,283,330-->
 
-{@{The monad abstraction}@} underpins {@{many Scala types beyond collections}@}, such as {@{generators, options, and tries}@}. When {@{a type implements `flatMap`}@} \(and optionally {@{`withFilter` for _monads with zero_}@}\), it becomes {@{eligible to participate in Scala's `for`-comprehensions}@}. {@{The three monad laws}@} provide designers with {@{powerful guidance}@}: they enforce {@{consistent composition semantics}@} and enable reasoning about {@{program behavior across different contexts}@}. <!--SR:!2026-11-04,290,330!2026-11-05,291,330!fsrs,2028-02-03T00:00:00.000Z,508,507.95545468,5.00637887,2,9,0,0,2026-09-13T00:00:00.000Z!2026-11-07,293,330!2026-10-31,287,330!2026-10-11,270,330!2026-10-08,267,330!fsrs,2028-08-16T00:00:00.000Z,698,697.52483893,2.49272837,2,9,0,0,2026-09-18T00:00:00.000Z!2026-11-02,289,330!2026-10-09,268,330-->
+{@{The monad abstraction}@} underpins {@{many Scala types beyond collections}@}, such as {@{generators, options, and tries}@}. When {@{a type implements `flatMap`}@} \(and optionally {@{`withFilter` for _monads with zero_}@}\), it becomes {@{eligible to participate in Scala's `for`-comprehensions}@}. {@{The three monad laws}@} provide designers with {@{powerful guidance}@}: they enforce {@{consistent composition semantics}@} and enable reasoning about {@{program behavior across different contexts}@}. <!--SR:!2026-11-04,290,330!2026-11-05,291,330!fsrs,2028-02-03T00:00:00.000Z,508,507.95545468,5.00637887,2,9,0,0,2026-09-13T00:00:00.000Z!2026-11-07,293,330!2026-10-31,287,330!2026-10-11,270,330!fsrs,2029-12-23T00:00:00.000Z,1172,1172.20432607,1,2,9,0,0,2026-10-08T00:00:00.000Z!fsrs,2028-08-16T00:00:00.000Z,698,697.52483893,2.49272837,2,9,0,0,2026-09-18T00:00:00.000Z!2026-11-02,289,330!2026-10-09,268,330-->
 
 ## motivation
 
@@ -114,7 +114,7 @@ With {@{these in place}@}, {@{the boolean generator}@} can be written {@{succinc
 > ```Scala
 > val booleans = integers.map(x => x > 0)
 > ```
-<!--SR:!2026-10-08,267,330!2026-10-24,280,330!2026-10-13,272,330-->
+<!--SR:!fsrs,2029-12-23T00:00:00.000Z,1172,1172.20432607,1,2,9,0,0,2026-10-08T00:00:00.000Z!2026-10-24,280,330!2026-10-13,272,330-->
 
 and {@{a generic pair generator}@} becomes, using {@{`flatMap`}@}: <!--SR:!fsrs,2029-06-23T00:00:00.000Z,1026,1025.83973773,1,2,9,0,0,2026-09-01T00:00:00.000Z!fsrs,2028-08-12T00:00:00.000Z,695,694.99996464,2.49272837,2,9,0,0,2026-09-17T00:00:00.000Z-->
 
@@ -185,7 +185,7 @@ we can generate {@{leaves and inner nodes}@} by combining {@{existing generators
 
 #### generator monad usage
 
-{@{Unit tests}@} traditionally {@{supply concrete inputs and check a post-condition}@}.  Using {@{generators}@}, one can instead {@{automatically produce many random test cases}@}: <!--SR:!fsrs,2029-12-04T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-10-04T00:00:00.000Z!2026-10-08,267,330!2026-10-09,268,330!fsrs,2029-10-27T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-09-27T00:00:00.000Z-->
+{@{Unit tests}@} traditionally {@{supply concrete inputs and check a post-condition}@}.  Using {@{generators}@}, one can instead {@{automatically produce many random test cases}@}: <!--SR:!fsrs,2029-12-04T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-10-04T00:00:00.000Z!fsrs,2029-12-23T00:00:00.000Z,1172,1172.20432607,1,2,9,0,0,2026-10-08T00:00:00.000Z!2026-10-09,268,330!fsrs,2029-10-27T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-09-27T00:00:00.000Z-->
 
 > [!example] __unit test__
 >
@@ -231,7 +231,7 @@ ScalaCheck integrates {@{with ScalaTest or can run stand-alone}@}, providing a s
 
 ## definition
 
-{@{A monad}@} is defined for {@{a parametric type constructor `M[_]`}@}. {@{Two fundamental operations}@} must be supplied: <!--SR:!2026-11-07,293,330!2026-10-29,285,330!2026-10-08,267,330-->
+{@{A monad}@} is defined for {@{a parametric type constructor `M[_]`}@}. {@{Two fundamental operations}@} must be supplied: <!--SR:!2026-11-07,293,330!2026-10-29,285,330!fsrs,2029-12-23T00:00:00.000Z,1172,1172.20432607,1,2,9,0,0,2026-10-08T00:00:00.000Z-->
 
 > [!example] __monad definition__
 >
@@ -261,7 +261,7 @@ For a type to be {@{considered a true monad}@}, {@{three algebraic laws}@} must 
 
 ### `map`
 
-Although monads only {@{require `flatMap` and `unit`}@}, {@{a `map` operation}@} can always be {@{defined in terms of them}@}: <!--SR:!fsrs,2029-10-27T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-09-27T00:00:00.000Z!2026-10-08,267,330!fsrs,2029-11-29T00:00:00.000Z,1153,1153.10014712,1,2,9,0,0,2026-10-03T00:00:00.000Z-->
+Although monads only {@{require `flatMap` and `unit`}@}, {@{a `map` operation}@} can always be {@{defined in terms of them}@}: <!--SR:!fsrs,2029-10-27T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-09-27T00:00:00.000Z!fsrs,2029-12-23T00:00:00.000Z,1172,1172.20432607,1,2,9,0,0,2026-10-08T00:00:00.000Z!fsrs,2029-11-29T00:00:00.000Z,1153,1153.10014712,1,2,9,0,0,2026-10-03T00:00:00.000Z-->
 
 > [!example] __monad `map`__
 >
@@ -323,7 +323,7 @@ For instance, consider {@{Scala's `Option`}@}. {@{Its `flatMap`}@} is defined by
 > ```
 <!--SR:!2026-11-01,288,330!2026-10-23,279,330!2026-10-11,270,330-->
 
-Using {@{simple algebraic reasoning}@}, one can verify that {@{all three laws hold for `Option`}@}. {@{The left-unit law}@} is immediate because {@{`Some(x).flatMap(f)` evaluates to `f(x)`}@}, and {@{the right-unit law}@} follows from the fact that {@{mapping a value with `unit` (i.e., `Some`) leaves it unchanged}@}. {@{Associativity}@} can be shown by unfolding {@{both sides and observing that they reduce to identical pattern matches}@}. <!--SR:!2026-11-08,294,330!2026-10-20,276,330!2026-10-25,281,330!fsrs,2029-08-06T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-09-10T00:00:00.000Z!2026-11-01,288,330!2026-11-06,292,330!2026-10-08,267,330!fsrs,2028-08-19T00:00:00.000Z,700,700.04868809,2.49272837,2,9,0,0,2026-09-19T00:00:00.000Z-->
+Using {@{simple algebraic reasoning}@}, one can verify that {@{all three laws hold for `Option`}@}. {@{The left-unit law}@} is immediate because {@{`Some(x).flatMap(f)` evaluates to `f(x)`}@}, and {@{the right-unit law}@} follows from the fact that {@{mapping a value with `unit` (i.e., `Some`) leaves it unchanged}@}. {@{Associativity}@} can be shown by unfolding {@{both sides and observing that they reduce to identical pattern matches}@}. <!--SR:!2026-11-08,294,330!2026-10-20,276,330!2026-10-25,281,330!fsrs,2029-08-06T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-09-10T00:00:00.000Z!2026-11-01,288,330!2026-11-06,292,330!fsrs,2029-12-23T00:00:00.000Z,1172,1172.20432607,1,2,9,0,0,2026-10-08T00:00:00.000Z!fsrs,2028-08-19T00:00:00.000Z,700,700.04868809,2.49272837,2,9,0,0,2026-09-19T00:00:00.000Z-->
 
 ## `Try`
 
@@ -380,7 +380,7 @@ Because of {@{these issues}@}, it is sometimes preferable to treat {@{failures a
 >   }
 > }
 > ```
-<!--SR:!fsrs,2029-11-01T00:00:00.000Z,1130,1130.11601442,1,2,9,0,0,2026-09-28T00:00:00.000Z!2026-10-08,267,330!2026-11-08,294,330-->
+<!--SR:!fsrs,2029-11-01T00:00:00.000Z,1130,1130.11601442,1,2,9,0,0,2026-09-28T00:00:00.000Z!fsrs,2029-12-23T00:00:00.000Z,1172,1172.20432607,1,2,9,0,0,2026-10-08T00:00:00.000Z!2026-11-08,294,330-->
 
 Thus {@{`t.map(f)`}@} equals {@{`t.flatMap(x => Try(f(x)))`}@}, mirroring {@{the general monadic definition of `map`}@}. <!--SR:!2026-11-02,289,330!2026-10-14,273,330!2026-11-02,289,330-->
 

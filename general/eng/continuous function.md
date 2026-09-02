@@ -29,7 +29,7 @@ There are {@{several ways}@} to define {@{whether a function is _continuous_ at 
 
 #### global continuity
 
-There are {@{several incompatible definitions}@} of {@{the (global) continuity of a function}@}, depending on {@{the nature of its domain}@}. <!--SR:!2026-10-08,717,330!2028-02-14,643,412!2028-01-14,616,412-->
+There are {@{several incompatible definitions}@} of {@{the (global) continuity of a function}@}, depending on {@{the nature of its domain}@}. <!--SR:!fsrs,2034-05-15T00:00:00.000Z,2776,2775.51715593,1,2,10,0,0,2026-10-08T00:00:00.000Z!2028-02-14,643,412!2028-01-14,616,412-->
 
 A function is {@{continuous on an open [interval](interval%20(mathematics).md)}@} if {@{the interval is contained in the [function domain](domain%20of%20a%20function.md) and the function is continuous at every interval point}@}. A function is {@{continuous on a semi-open or closed [interval](interval%20(mathematics).md)}@} if {@{the interval is contained in the [function domain](domain%20of%20a%20function.md), the function is continuous at every [interior](interior%20(topology).md) point of the interval}@}, and {@{the value of the function at each interval endpoint is the limit of the values of the function as the input tends to the endpoint from the interval interior}@}. <!--SR:!2028-12-26,1153,290!2029-07-10,1310,304!2028-02-19,648,412!2028-02-21,650,412!2028-02-06,636,412-->
 

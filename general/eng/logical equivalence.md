@@ -32,7 +32,7 @@ In logic, many common logical equivalences {@{exist and are often listed as laws
 
 - [material implication](material%20implication%20(rule%20of%20inference).md) & primitives ::@:: $$p\implies q\equiv \neg p\vee q$$ <!--SR:!2027-07-05,797,350!2028-04-08,1016,350-->
 - [transposition](contraposition.md) ::@:: $$p\implies q\equiv \neg q\implies \neg p$$ <!--SR:!2028-09-17,1138,350!2029-09-25,1453,370-->
-- [material implication](material%20implication%20(rule%20of%20inference).md) & [disjunction](logical%20disjunction.md) ::@:: $$p\vee q\equiv \neg p\implies q$$ <!--SR:!2028-05-06,1038,350!2026-10-08,579,330-->
+- [material implication](material%20implication%20(rule%20of%20inference).md) & [disjunction](logical%20disjunction.md) ::@:: $$p\vee q\equiv \neg p\implies q$$ <!--SR:!2028-05-06,1038,350!fsrs,2033-01-26T00:00:00.000Z,2302,2301.99548008,1,2,10,0,0,2026-10-08T00:00:00.000Z-->
 - [material implication](material%20implication%20(rule%20of%20inference).md) & [conjunction](logical%20conjunction.md) ::@:: $$p\wedge q\equiv \neg (p\implies \neg q)$$ <!--SR:!2027-11-19,903,350!2027-12-20,930,350-->
 - [material implication](material%20implication%20(rule%20of%20inference).md) & [negation](negation.md) ::@:: $$\neg (p\implies q)\equiv p\wedge \neg q$$ <!--SR:!2028-04-09,1015,350!2029-07-09,1361,350-->
 - [distributive laws](distributive%20property.md) ::@:: $$\begin{aligned} (p\implies q)\wedge (p\implies r) & \equiv p\implies (q\wedge r) \\ (p\implies q)\vee (p\implies r) & \equiv p\implies (q\vee r) \end{aligned}$$ <!--SR:!2029-08-11,1419,370!2030-04-02,1602,370-->

@@ -18,7 +18,7 @@ tags:
 
 ### molecular solid
 
-A __molecular solid__, also called __simple molecular structure__, {@{consists of discrete [molecules](molecule.md) held together by [intermolecular force](intermolecular%20force.md)}@}. If the molecules are [highly organized](crystal%20structure.md), {@{it is also called a __molecular crystal__}@}. <!--SR:!fsrs,2031-03-06T00:00:00.000Z,1630,1629.71963634,5.48972837,2,11,0,0,2026-09-18T00:00:00.000Z!2026-10-08,926,330-->
+A __molecular solid__, also called __simple molecular structure__, {@{consists of discrete [molecules](molecule.md) held together by [intermolecular force](intermolecular%20force.md)}@}. If the molecules are [highly organized](crystal%20structure.md), {@{it is also called a __molecular crystal__}@}. <!--SR:!fsrs,2031-03-06T00:00:00.000Z,1630,1629.71963634,5.48972837,2,11,0,0,2026-09-18T00:00:00.000Z!fsrs,2036-04-11T00:00:00.000Z,3473,3473.06991735,1,2,11,0,0,2026-10-08T00:00:00.000Z-->
 
 #### properties of molecular solid
 

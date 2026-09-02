@@ -68,7 +68,7 @@ tags:
 >     - AX<sub>3</sub>E<sub>2</sub> / example(s) ::@:: [ClF<sub>3</sub>](chlorine%20trifluoride.md) <!--SR:!fsrs,2026-12-20T16:38:59.223Z,196,196.18685601,1.22984669,2,6,0,0,2026-06-07T16:38:59.223Z!2027-05-29,392,361-->
 > - AX<sub>4</sub>E<sub>0</sub>
 >     - AX<sub>4</sub>E<sub>0</sub> / [shape](molecular%20geometry.md) ::@:: [tetrahedral](tetrahedral%20molecular%20geometry.md)<br/>![tetrahedral](../../archives/Wikimedia%20Commons/AX4E0-3D-balls.png) <!--SR:!2027-04-04,338,345!fsrs,2027-07-07T00:00:00.000Z,312,312.15146517,5.62873505,2,8,0,0,2026-08-29T00:00:00.000Z-->
->     - AX<sub>4</sub>E<sub>0</sub> / ideal bond angle(s) :@: ~109.5° <!--SR:!2026-10-08,200,325-->
+>     - AX<sub>4</sub>E<sub>0</sub> / ideal bond angle(s) :@: ~109.5° <!--SR:!fsrs,2028-05-02T00:00:00.000Z,572,571.8399695,2.68004087,2,9,0,0,2026-10-08T00:00:00.000Z-->
 >     - AX<sub>4</sub>E<sub>0</sub> / example(s) ::@:: [CH<sub>4</sub>](methane.md) <!--SR:!2026-12-17,230,325!fsrs,2028-04-17T00:00:00.000Z,562,561.65823522,2.68004087,2,9,0,0,2026-10-03T00:00:00.000Z-->
 > - AX<sub>4</sub>E<sub>1</sub>
 >     - AX<sub>4</sub>E<sub>1</sub> / [shape](molecular%20geometry.md) ::@:: [seesaw/disphenoidal](seesaw%20molecular%20geometry.md)<br/>![seesaw/disphenoidal](../../archives/Wikimedia%20Commons/AX4E1-3D-balls.png) <!--SR:!fsrs,2027-05-24T00:00:00.000Z,288,287.94809514,3.42929087,2,8,0,0,2026-08-09T00:00:00.000Z!fsrs,2028-04-24T00:00:00.000Z,567,566.75169301,2.68004087,2,9,0,0,2026-10-05T00:00:00.000Z-->
@@ -104,7 +104,7 @@ tags:
 >     - AX<sub>7</sub>E<sub>0</sub> / example(s) ::@:: [IF<sub>7</sub>](iodine%20heptafluoride.md) <!--SR:!fsrs,2028-04-21T00:00:00.000Z,615,615.16533793,1.22984669,2,8,0,0,2026-08-15T00:00:00.000Z!2027-02-02,277,341-->
 > - AX<sub>8</sub>E<sub>0</sub>
 >     - AX<sub>8</sub>E<sub>0</sub> / [shape](molecular%20geometry.md) ::@:: [square antiprismatic](square%20antiprismatic%20molecular%20geometry.md)<br/>![square antiprismatic](../../archives/Wikimedia%20Commons/AX8E0-3D-balls.png) <!--SR:!2027-03-14,317,345!2027-02-07,282,341-->
->     - AX<sub>8</sub>E<sub>0</sub> / example(s) ::@:: XeF<sub>8</sub><sup>2-</sup> <!--SR:!2027-02-02,276,341!2026-10-08,200,325-->
+>     - AX<sub>8</sub>E<sub>0</sub> / example(s) ::@:: XeF<sub>8</sub><sup>2-</sup> <!--SR:!2027-02-02,276,341!fsrs,2028-05-02T00:00:00.000Z,572,571.8399695,2.68004087,2,9,0,0,2026-10-08T00:00:00.000Z-->
 > - AX<sub>9</sub>E<sub>0</sub>
 >     - AX<sub>9</sub>E<sub>0</sub> / [shape](molecular%20geometry.md) ::@:: [tricapped trigonal antiprismatic](tricapped%20trigonal%20antiprismatic%20molecular%20geometry.md)<br/>![tricapped trigonal antiprismatic](../../archives/Wikimedia%20Commons/AX9E0-3D-balls.png) <!--SR:!fsrs,2028-04-24T00:00:00.000Z,567,566.75169301,2.68004087,2,9,0,0,2026-10-05T00:00:00.000Z!fsrs,2027-06-05T00:00:00.000Z,325,324.72497743,2.23046173,2,7,0,0,2026-07-15T00:00:00.000Z-->
 >     - AX<sub>9</sub>E<sub>0</sub> / example(s) ::@:: ReH<sub>9</sub><sup>2-</sup> <!--SR:!fsrs,2027-09-09T00:00:00.000Z,394,394.17173257,3.42929087,2,8,0,0,2026-08-11T00:00:00.000Z!fsrs,2029-03-07T00:00:00.000Z,885,884.73935381,1,2,9,0,0,2026-10-04T00:00:00.000Z-->

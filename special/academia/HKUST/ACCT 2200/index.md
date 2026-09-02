@@ -231,7 +231,7 @@ The content is in teaching order.
 - datetime: 2025-02-26T12:00:00+08:00/2025-02-26T13:20:00+08:00
 - topic: activity-based costing (ABC)
 - activity-based costing
-    - activity-based costing / activity-rate method ::@:: For each activity cost pool, choose a cost driver. Calculate the activity rate using: <p> activity rate = total activity cost / total cost driver <p> You may use a _table_ to calculate the total cost driver. You may also use a _table_ to allocate the costs to different processes/products/services. <!--SR:!2026-10-08,469,399!2026-10-23,484,399-->
+    - activity-based costing / activity-rate method ::@:: For each activity cost pool, choose a cost driver. Calculate the activity rate using: <p> activity rate = total activity cost / total cost driver <p> You may use a _table_ to calculate the total cost driver. You may also use a _table_ to allocate the costs to different processes/products/services. <!--SR:!fsrs,2032-09-16T00:00:00.000Z,2170,2170.09977723,1,2,10,0,0,2026-10-08T00:00:00.000Z!2026-10-23,484,399-->
         - activity-based costing / activity-rate method / table: [formats § activity cost pool](formats.md#activity%20cost%20pool)
         - activity-based costing / activity-rate method / table (total cost driver: number of setups): [formats § activity cost driver - setups](formats.md#activity%20cost%20driver%20-%20setups)
         - activity-based costing / activity-rate method / table (cost allocation): [formats § activity cost allocation](formats.md#activity%20cost%20allocation)
