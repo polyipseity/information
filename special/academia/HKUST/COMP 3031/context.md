@@ -207,7 +207,7 @@ Alternatively, {@{separate `using` clauses}@} can be {@{chained}@}. {@{`using` c
 
 Intuitively, {@{a context bound `T : U`}@} may be interpreted as {@{the type parameter `T` "satisfying" the "trait" `U`}@}. <!--SR:!2027-03-05,381,368!2027-03-30,401,368-->
 
-More generally, {@{any definition `def f[T : {U1, ..., Un}](ps) : R`}@} \({@{_deprecated_ syntax}@}: {@{`def f[T : U1 : ... : Un](ps) : R`}@}\) is expanded to {@{`def f[T](ps)(using U1[T], ..., Un[T]) : R`}@}. {@{This transformation}@} makes {@{context bounds a convenient shorthand}@} for {@{implicit parameters without altering the generated code}@}. <!--SR:!2026-11-24,294,349!2026-10-04,253,330!2027-01-25,346,349!2026-11-18,288,349!2026-12-01,301,349!2027-03-07,382,368!2027-02-24,375,368-->
+More generally, {@{any definition `def f[T : {U1, ..., Un}](ps) : R`}@} \({@{_deprecated_ syntax}@}: {@{`def f[T : U1 : ... : Un](ps) : R`}@}\) is expanded to {@{`def f[T](ps)(using U1[T], ..., Un[T]) : R`}@}. {@{This transformation}@} makes {@{context bounds a convenient shorthand}@} for {@{implicit parameters without altering the generated code}@}. <!--SR:!2026-11-24,294,349!fsrs,2029-10-27T00:00:00.000Z,1119,1118.59914239,1,2,9,0,0,2026-10-04T00:00:00.000Z!2027-01-25,346,349!2026-11-18,288,349!2026-12-01,301,349!2027-03-07,382,368!2027-02-24,375,368-->
 
 ## `given`
 
@@ -308,7 +308,7 @@ Since {@{the actual names of `given` instances}@} are {@{irrelevant to resolutio
 >
 > {@{An `Ordering[List[A]]` exists}@} only when {@{an `Ordering[A]` is available}@}. <!--SR:!2027-03-20,393,370!2027-04-01,404,370!2027-03-20,394,368!2027-03-01,378,368!2027-03-05,380,367!2027-03-07,384,367-->
 
-In {@{some sense}@}, {@{conditional `given`}@} {@{pattern matches on types and their type parameters}@}. In the example above, {@{`listOrdering[A]`}@} pattern matches on {@{`T` in `Ordering[T]`}@} for {@{the pattern `List[A]` in `Ordering[List[A]]`}@}. <!--SR:!2026-12-05,305,349!2027-01-25,346,349!2026-10-04,253,330!2026-11-12,282,349!2026-12-06,306,349!2026-12-08,308,349-->
+In {@{some sense}@}, {@{conditional `given`}@} {@{pattern matches on types and their type parameters}@}. In the example above, {@{`listOrdering[A]`}@} pattern matches on {@{`T` in `Ordering[T]`}@} for {@{the pattern `List[A]` in `Ordering[List[A]]`}@}. <!--SR:!2026-12-05,305,349!2027-01-25,346,349!fsrs,2029-10-27T00:00:00.000Z,1119,1118.59914239,1,2,9,0,0,2026-10-04T00:00:00.000Z!2026-11-12,282,349!2026-12-06,306,349!2026-12-08,308,349-->
 
 ### recursive `given` resolution
 

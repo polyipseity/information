@@ -271,7 +271,7 @@ The content is in teaching order.
 - [Lindi-Hop](../../../../general/Lindy%20Hop.md)
     - Lindi-Hop / name ::@:: named after Charles Lindberg <!--SR:!2031-04-15,1795,398!2026-10-26,497,398-->
 - [jazz](../../../../general/jazz.md)
-    - jazz / 1920s–1930s ::@:: transitioned from novelty/silly to national craze <!--SR:!fsrs,2030-07-01T00:00:00.000Z,1382,1382.49131002,1,2,10,0,0,2026-09-18T00:00:00.000Z!2026-10-04,485,398-->
+    - jazz / 1920s–1930s ::@:: transitioned from novelty/silly to national craze <!--SR:!fsrs,2030-07-01T00:00:00.000Z,1382,1382.49131002,1,2,10,0,0,2026-09-18T00:00:00.000Z!fsrs,2032-11-15T00:00:00.000Z,2234,2234.24126267,1,2,10,0,0,2026-10-04T00:00:00.000Z-->
 - [big band](../../../../general/big%20band.md) ::@:: a type of musical ensemble of jazz music that usually consists of ten or more musicians with four sections: saxophones, trumpets, trombones, and a rhythm section <!--SR:!2026-10-21,492,398!fsrs,2031-04-14T00:00:00.000Z,1719,1718.82780688,1,2,10,0,0,2026-07-30T00:00:00.000Z-->
     - big bands / sections ::@:: brass: trombones, trumpets <br/> rhythm: bass, drums, guitar, piano <br/> woodwinds: saxophones <!--SR:!fsrs,2031-06-20T00:00:00.000Z,1771,1770.8569414,1,2,10,0,0,2026-08-14T00:00:00.000Z!2031-02-23,1767,398-->
     - big bands / changes ::@:: an arranger became essential, more people meant more organization needed, popular songs that many people knew became important as bands were traveling <!--SR:!2026-11-13,515,398!2026-11-22,524,398-->

@@ -1228,7 +1228,7 @@ Strictly speaking, {@{multiple parameter lists}@} is {@{distinct from _currying_
 
 ### extension methods
 
-{@{Extension methods}@} define {@{extra members to a class while being outside the class definition}@}. They are useful for {@{adding utility methods to a class}@}. To define an extension, start with the syntax {@{`extension (<arg name>: <arg type>)` \(no trailing colon\)}@}, and then {@{start a newline and indent}@} to {@{add the extra methods}@}. <!--SR:!2027-06-09,493,399!2026-10-04,293,379!2027-05-13,472,390!fsrs,2029-02-25T06:01:36.692Z,986,985.8846373,1,2,9,0,0,2026-06-15T06:01:36.692Z!2027-07-18,528,399!2027-05-07,466,390-->
+{@{Extension methods}@} define {@{extra members to a class while being outside the class definition}@}. They are useful for {@{adding utility methods to a class}@}. To define an extension, start with the syntax {@{`extension (<arg name>: <arg type>)` \(no trailing colon\)}@}, and then {@{start a newline and indent}@} to {@{add the extra methods}@}. <!--SR:!2027-06-09,493,399!fsrs,2030-09-16T00:00:00.000Z,1443,1443.42418977,1,2,9,0,0,2026-10-04T00:00:00.000Z!2027-05-13,472,390!fsrs,2029-02-25T06:01:36.692Z,986,985.8846373,1,2,9,0,0,2026-06-15T06:01:36.692Z!2027-07-18,528,399!2027-05-07,466,390-->
 
 When {@{defining extension methods}@}, they cannot {@{access `private` members of the class}@}. They also cannot {@{access `this`}@} but must use {@{the name defined in the starting `extension` line}@}. <!--SR:!2027-05-07,466,390!2027-06-29,513,399!2027-07-23,533,399!2027-07-19,530,399-->
 

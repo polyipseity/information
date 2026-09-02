@@ -15,7 +15,7 @@ tags:
 
 Because the Cooley–Tukey algorithm breaks {@{the DFT into smaller DFTs}@}, it can be combined {@{arbitrarily with any other algorithm for the DFT}@}. For example, {@{[Rader's](Rader's%20FFT%20algorithm.md) or [Bluestein's](Bluestein's%20FFT%20algorithm.md#Bluestein's%20algorithm) algorithm}@} can be used to handle {@{large prime factors that cannot be decomposed by Cooley–Tukey}@}, or {@{the [prime-factor algorithm](Prime-factor%20FFT%20algorithm.md)}@} can be exploited for {@{greater efficiency in separating out [relatively prime](relatively%20prime.md) factors}@}. <!--SR:!2026-10-22,270,330!2026-10-27,270,330!2026-11-10,281,330!2026-11-19,290,330!fsrs,2029-10-14T00:00:00.000Z,1115,1114.75652523,1,2,9,0,0,2026-09-25T00:00:00.000Z!2026-10-06,263,330-->
 
-{@{The algorithm, along with its recursive application}@}, was invented by {@{[Carl Friedrich Gauss](Carl%20Friedrich%20Gauss.md)}@}. Cooley and Tukey {@{independently rediscovered and popularized it 160 years later}@}. <!--SR:!2026-10-04,261,330!2026-10-22,270,330!2026-10-21,269,330-->
+{@{The algorithm, along with its recursive application}@}, was invented by {@{[Carl Friedrich Gauss](Carl%20Friedrich%20Gauss.md)}@}. Cooley and Tukey {@{independently rediscovered and popularized it 160 years later}@}. <!--SR:!fsrs,2029-11-26T00:00:00.000Z,1149,1149.27403969,1,2,9,0,0,2026-10-04T00:00:00.000Z!2026-10-22,270,330!2026-10-21,269,330-->
 
 ## history
 

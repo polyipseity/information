@@ -480,7 +480,7 @@ The content is in teaching order.
 - topic: distance, shortest paths, matchings
 - assignments: [homework 2](assignments/homework%202/submission.md)
 - graph theory
-    - graph theory / distance ::@:: The __distance__ between two vertices (repeats allowed) in a graph is the minimum number of edges in a path connecting the two vertices. <!--SR:!2026-10-04,582,409!2029-11-26,1472,389-->
+    - graph theory / distance ::@:: The __distance__ between two vertices (repeats allowed) in a graph is the minimum number of edges in a path connecting the two vertices. <!--SR:!fsrs,2033-12-04T00:00:00.000Z,2618,2617.7899213,1,2,10,0,0,2026-10-04T00:00:00.000Z!2029-11-26,1472,389-->
     - graph theory / eccentricity ::@:: The __eccentricity__ of a vertex in a graph is the maximum distance it can have with any vertex in the same graph. <!--SR:!2032-06-03,2225,409!2030-04-24,1608,389-->
     - graph theory / center ::@:: The __center__ of a graph is a vertex with the minimum eccentricity among all of its vertices. <!--SR:!2029-10-14,1438,389!fsrs,2031-03-17T00:00:00.000Z,1638,1638.2892339,1,2,10,0,0,2026-09-21T00:00:00.000Z-->
     - graph theory / radius ::@:: The __radius__ of a graph is the minimum eccentricity of its vertices, i.e. the eccentricity of its center. <!--SR:!2029-10-18,1441,389!2032-06-11,2233,409-->

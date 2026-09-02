@@ -24,9 +24,9 @@ In {@{functional programming}@}, {@{many data structures}@} that provide {@{`uni
 
 ## motivation
 
-{@{The Scala _for_ notation}@} is a concise syntax for expressing {@{compositional queries over collections}@}. {@{Its semantics}@} are essentially equivalent to {@{the map–flatMap–filter pipeline}@} that underlies {@{many database query languages}@}, and it can be applied to {@{any type that supplies `map`, `flatMap` and `withFilter` \(lazy version of `filter`\)}@}. <!--SR:!2026-10-26,282,330!fsrs,2029-10-22T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-09-26T00:00:00.000Z!2026-10-04,263,330!2026-10-10,269,330!2026-10-11,270,330!2026-11-05,291,330-->
+{@{The Scala _for_ notation}@} is a concise syntax for expressing {@{compositional queries over collections}@}. {@{Its semantics}@} are essentially equivalent to {@{the map–flatMap–filter pipeline}@} that underlies {@{many database query languages}@}, and it can be applied to {@{any type that supplies `map`, `flatMap` and `withFilter` \(lazy version of `filter`\)}@}. <!--SR:!2026-10-26,282,330!fsrs,2029-10-22T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-09-26T00:00:00.000Z!fsrs,2029-12-04T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-10-04T00:00:00.000Z!2026-10-10,269,330!2026-10-11,270,330!2026-11-05,291,330-->
 
-Indeed, any domain that {@{supplies these methods}@}—{@{booleans, strings, tuples, trees, even random number streams}@}—can participate in {@{a _for_ comprehension}@}. Further, such objects are called {@{_monads_}@} in {@{functional programming}@}, and they provide {@{a powerful abstraction for structuring programs}@}. <!--SR:!2026-10-04,263,330!2026-10-27,283,330!fsrs,2029-10-22T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-09-26T00:00:00.000Z!2026-11-08,294,330!fsrs,2029-11-29T00:00:00.000Z,1153,1153.10014712,1,2,9,0,0,2026-10-03T00:00:00.000Z!2026-10-17,276,330-->
+Indeed, any domain that {@{supplies these methods}@}—{@{booleans, strings, tuples, trees, even random number streams}@}—can participate in {@{a _for_ comprehension}@}. Further, such objects are called {@{_monads_}@} in {@{functional programming}@}, and they provide {@{a powerful abstraction for structuring programs}@}. <!--SR:!fsrs,2029-12-04T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-10-04T00:00:00.000Z!2026-10-27,283,330!fsrs,2029-10-22T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-09-26T00:00:00.000Z!2026-11-08,294,330!fsrs,2029-11-29T00:00:00.000Z,1153,1153.10014712,1,2,9,0,0,2026-10-03T00:00:00.000Z!2026-10-17,276,330-->
 
 ### generator
 
@@ -150,7 +150,7 @@ The compiler rewrites {@{these _for_ expressions}@} in the same way {@{it does f
 >     tail <- lists
 >   yield head :: tail
 > ```
-<!--SR:!2026-10-04,263,330!2026-10-29,285,330!fsrs,2029-06-28T00:00:00.000Z,1030,1029.72783972,1,2,9,0,0,2026-09-02T00:00:00.000Z-->
+<!--SR:!fsrs,2029-12-04T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-10-04T00:00:00.000Z!2026-10-29,285,330!fsrs,2029-06-28T00:00:00.000Z,1030,1029.72783972,1,2,9,0,0,2026-09-02T00:00:00.000Z-->
 
 {@{A more sophisticated example}@} is {@{a random tree generator}@}. Defining {@{the tree shape}@} as {@{an `enum`}@}: <!--SR:!2026-10-17,276,330!2026-10-24,280,330!fsrs,2029-11-11T00:00:00.000Z,1138,1137.78464757,1,2,9,0,0,2026-09-30T00:00:00.000Z!2026-10-28,284,330-->
 
@@ -185,7 +185,7 @@ we can generate {@{leaves and inner nodes}@} by combining {@{existing generators
 
 #### generator monad usage
 
-{@{Unit tests}@} traditionally {@{supply concrete inputs and check a post-condition}@}.  Using {@{generators}@}, one can instead {@{automatically produce many random test cases}@}: <!--SR:!2026-10-04,263,330!2026-10-08,267,330!2026-10-09,268,330!fsrs,2029-10-27T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-09-27T00:00:00.000Z-->
+{@{Unit tests}@} traditionally {@{supply concrete inputs and check a post-condition}@}.  Using {@{generators}@}, one can instead {@{automatically produce many random test cases}@}: <!--SR:!fsrs,2029-12-04T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-10-04T00:00:00.000Z!2026-10-08,267,330!2026-10-09,268,330!fsrs,2029-10-27T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-09-27T00:00:00.000Z-->
 
 > [!example] __unit test__
 >
@@ -198,7 +198,7 @@ we can generate {@{leaves and inner nodes}@} by combining {@{existing generators
 >     assert(test(value), s"test failed for $value")
 >   println(s"passed $numTimes tests")
 > ```
-<!--SR:!2026-10-13,272,330!2026-11-01,288,330!2026-10-04,263,330!2026-10-31,287,330-->
+<!--SR:!2026-10-13,272,330!2026-11-01,288,330!fsrs,2029-12-04T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-10-04T00:00:00.000Z!2026-10-31,287,330-->
 
 {@{An example property}@} that {@{fails}@} is <!--SR:!fsrs,2029-10-27T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-09-27T00:00:00.000Z!2026-10-17,276,330-->
 
@@ -251,7 +251,7 @@ In Scala, {@{`flatMap`}@} is typically {@{implemented as a method of the type it
 
 ### monad laws
 
-For a type to be {@{considered a true monad}@}, {@{three algebraic laws}@} must hold: \(annotation: 3 items: {@{associativity, left identity, right identity}@}\) <!--SR:!2026-10-25,281,330!fsrs,2029-11-16T00:00:00.000Z,1142,1141.61620684,1,2,9,0,0,2026-10-01T00:00:00.000Z!2026-10-04,263,330-->
+For a type to be {@{considered a true monad}@}, {@{three algebraic laws}@} must hold: \(annotation: 3 items: {@{associativity, left identity, right identity}@}\) <!--SR:!2026-10-25,281,330!fsrs,2029-11-16T00:00:00.000Z,1142,1141.61620684,1,2,9,0,0,2026-10-01T00:00:00.000Z!fsrs,2029-12-04T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-10-04T00:00:00.000Z-->
 
 - __Associativity__ ::@:: `m.flatMap(f).flatMap(g) == m.flatMap(x => f(x).flatMap(g))` <!--SR:!2026-11-08,294,330!2026-11-06,292,330-->
 - __Left Identity (Left Unit Law)__ ::@:: `unit(x).flatMap(f) == f(x)` <!--SR:!2026-11-07,293,330!fsrs,2029-10-22T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-09-26T00:00:00.000Z-->
@@ -309,7 +309,7 @@ Because {@{every monad supports this construction}@}, it is often convenient to 
 
 ## `Option`
 
-For instance, consider {@{Scala's `Option`}@}. {@{Its `flatMap`}@} is defined by {@{pattern matching}@}: <!--SR:!2026-10-04,263,330!2026-10-14,273,330!2026-10-16,275,330-->
+For instance, consider {@{Scala's `Option`}@}. {@{Its `flatMap`}@} is defined by {@{pattern matching}@}: <!--SR:!fsrs,2029-12-04T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-10-04T00:00:00.000Z!2026-10-14,273,330!2026-10-16,275,330-->
 
 > [!example] __`Option.flatMap`__
 >

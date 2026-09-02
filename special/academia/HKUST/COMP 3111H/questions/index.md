@@ -55,7 +55,7 @@ tags:
 > ---
 >
 > - solution: {@{`Student 0..50 -EnrollsIn- 0..5 Course`. Add notes next to the multiplicities to indicate the minimum counts instead.}@}
-> - explanation: {@{Multiplicities are _hard_ constraints that must be followed at all times. <p> Consider creating a student or a course. There is no _natural_ way to associate courses to a student or students to a course. So we must allow 0 when creating a student or a course. The notes next to the multiplicities are meant to fill in the _missing_ semantics.}@} <!--SR:!2026-10-04,273,330!fsrs,2029-12-29T00:00:00.000Z,1184,1183.64577796,1,2,9,0,0,2026-10-02T00:00:00.000Z-->
+> - explanation: {@{Multiplicities are _hard_ constraints that must be followed at all times. <p> Consider creating a student or a course. There is no _natural_ way to associate courses to a student or students to a course. So we must allow 0 when creating a student or a course. The notes next to the multiplicities are meant to fill in the _missing_ semantics.}@} <!--SR:!fsrs,2030-01-11T00:00:00.000Z,1195,1195.07164214,1,2,9,0,0,2026-10-04T00:00:00.000Z!fsrs,2029-12-29T00:00:00.000Z,1184,1183.64577796,1,2,9,0,0,2026-10-02T00:00:00.000Z-->
 
 ---
 
