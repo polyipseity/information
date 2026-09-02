@@ -16,7 +16,7 @@ __Market equilibrium__ in this case is {@{a condition where a market [price](pri
 
 ## understanding economic equilibrium
 
-An economic equilibrium is {@{a situation when the economic agent cannot change the situation by adopting any strategy}@}. The concept has been {@{borrowed from the physical sciences}@}. Take {@{a system where physical forces are balanced for instance}@}. This economically interpreted means {@{no further change ensues}@}. <!--SR:!2026-10-07,518,325!2028-04-16,963,345!2030-06-20,1607,365!2028-10-28,1124,350-->
+An economic equilibrium is {@{a situation when the economic agent cannot change the situation by adopting any strategy}@}. The concept has been {@{borrowed from the physical sciences}@}. Take {@{a system where physical forces are balanced for instance}@}. This economically interpreted means {@{no further change ensues}@}. <!--SR:!fsrs,2032-05-22T00:00:00.000Z,2054,2053.910569,1,2,10,0,0,2026-10-07T00:00:00.000Z!2028-04-16,963,345!2030-06-20,1607,365!2028-10-28,1124,350-->
 
 ## properties of equilibrium
 

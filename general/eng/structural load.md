@@ -125,13 +125,13 @@ For example, when there is {@{water buildup in the soil}@}, there is {@{increase
 
 For example, there is {@{lateral soil load on retaining walls of a slope}@} because {@{the soil of a slope on the retained side tends to slip down, pushing the walls towards the excavated side}@}. {@{This lateral soil load}@} can cause {@{lateral deflection, toppling of the retaining structure, or even a landslide}@}. <!--SR:!2031-08-16,1937,320!fsrs,2033-06-16T00:00:00.000Z,2449,2448.78362921,1,2,10,0,0,2026-10-02T00:00:00.000Z!fsrs,2026-12-04T00:59:39.554Z,181,180.82294193,1,2,6,0,0,2026-06-06T00:59:39.554Z!fsrs,2028-02-20T00:00:00.000Z,537,537.38840954,1,2,8,0,0,2026-09-01T00:00:00.000Z-->
 
-To {@{protect against soil loads}@}, {@{retaining structures are built and weep holes may be installed}@}. Alternatively, {@{slopes on natural terrain}@} can become {@{man-made slopes, such as cut slopes, fill slopes, or retaining walls}@}. <!--SR:!2027-12-02,924,300!fsrs,2032-08-18T00:00:00.000Z,2233,2232.71383121,1,2,10,0,0,2026-07-08T00:00:00.000Z!2026-10-07,125,390!2026-10-07,125,390-->
+To {@{protect against soil loads}@}, {@{retaining structures are built and weep holes may be installed}@}. Alternatively, {@{slopes on natural terrain}@} can become {@{man-made slopes, such as cut slopes, fill slopes, or retaining walls}@}. <!--SR:!2027-12-02,924,300!fsrs,2032-08-18T00:00:00.000Z,2233,2232.71383121,1,2,10,0,0,2026-07-08T00:00:00.000Z!fsrs,2028-08-29T00:00:00.000Z,692,692.47822021,1,2,8,0,0,2026-10-07T00:00:00.000Z!fsrs,2028-08-29T00:00:00.000Z,692,692.47822021,1,2,8,0,0,2026-10-07T00:00:00.000Z-->
 
 #### seismic load
 
 {@{Seismic load}@} are {@{caused by [earthquakes](earthquake.md)}@}. It can induce {@{both horizontal and vertical load on structures}@}. <!--SR:!2032-06-22,2245,330!2026-12-20,729,340!fsrs,2026-12-04T00:59:38.106Z,181,180.82294193,1,2,6,0,0,2026-06-06T00:59:38.106Z-->
 
-{@{The consequences}@} are {@{partial or complete collapse}@} of {@{structural elements or entire buildings}@}. <!--SR:!2027-10-16,939,330!fsrs,2028-07-26T00:00:00.000Z,664,663.84023351,1,2,8,0,0,2026-10-01T00:00:00.000Z!2026-10-07,125,390-->
+{@{The consequences}@} are {@{partial or complete collapse}@} of {@{structural elements or entire buildings}@}. <!--SR:!2027-10-16,939,330!fsrs,2028-07-26T00:00:00.000Z,664,663.84023351,1,2,8,0,0,2026-10-01T00:00:00.000Z!fsrs,2028-08-29T00:00:00.000Z,692,692.47822021,1,2,8,0,0,2026-10-07T00:00:00.000Z-->
 
 #### thermal load
 
@@ -141,9 +141,9 @@ For example, {@{a beam in between two fixed support}@} creates {@{thermal load u
 
 #### wind load
 
-{@{[Wind](wind.md)}@} is {@{movement of air}@}. When wind {@{moves past a building}@}, {@{wind changes in velocity}@}. Then, {@{the pressure of air changes}@}. {@{Positive pressure}@} outside causes {@{inward forces while negative causes outward (uplift for roof) forces}@}. This is {@{_wind load_}@}. It also depends on {@{building shape, wind direction, and wind speed}@}. <!--SR:!2028-01-09,1024,340!2027-03-28,798,330!2032-10-19,2356,340!2027-11-20,985,340!2030-11-30,1834,340!2026-10-07,125,390!fsrs,2028-07-14T00:00:00.000Z,654,654.25263153,1,2,8,0,0,2026-09-29T00:00:00.000Z!2026-10-07,125,390!2026-10-07,125,390-->
+{@{[Wind](wind.md)}@} is {@{movement of air}@}. When wind {@{moves past a building}@}, {@{wind changes in velocity}@}. Then, {@{the pressure of air changes}@}. {@{Positive pressure}@} outside causes {@{inward forces while negative causes outward (uplift for roof) forces}@}. This is {@{_wind load_}@}. It also depends on {@{building shape, wind direction, and wind speed}@}. <!--SR:!2028-01-09,1024,340!2027-03-28,798,330!2032-10-19,2356,340!2027-11-20,985,340!2030-11-30,1834,340!fsrs,2028-08-29T00:00:00.000Z,692,692.47822021,1,2,8,0,0,2026-10-07T00:00:00.000Z!fsrs,2028-07-14T00:00:00.000Z,654,654.25263153,1,2,8,0,0,2026-09-29T00:00:00.000Z!fsrs,2028-08-29T00:00:00.000Z,692,692.47822021,1,2,8,0,0,2026-10-07T00:00:00.000Z!fsrs,2028-08-29T00:00:00.000Z,692,692.47822021,1,2,8,0,0,2026-10-07T00:00:00.000Z-->
 
-{@{Wind load}@} causes {@{lateral deflection, which may further lead to toppling of the structure, such as collapse of bridges}@}. {@{Less serious consequences}@} include damage to {@{individual structural elements such as roofs, walls, and windows}@}; and causes {@{excessive building vibrations}@}. <!--SR:!2026-11-28,644,320!2031-10-22,2001,320!fsrs,2026-12-04T00:59:37.366Z,181,180.82294193,1,2,6,0,0,2026-06-06T00:59:37.366Z!2026-10-07,125,390!fsrs,2028-07-20T00:00:00.000Z,659,659.04910028,1,2,8,0,0,2026-09-30T00:00:00.000Z-->
+{@{Wind load}@} causes {@{lateral deflection, which may further lead to toppling of the structure, such as collapse of bridges}@}. {@{Less serious consequences}@} include damage to {@{individual structural elements such as roofs, walls, and windows}@}; and causes {@{excessive building vibrations}@}. <!--SR:!2026-11-28,644,320!2031-10-22,2001,320!fsrs,2026-12-04T00:59:37.366Z,181,180.82294193,1,2,6,0,0,2026-06-06T00:59:37.366Z!fsrs,2028-08-29T00:00:00.000Z,692,692.47822021,1,2,8,0,0,2026-10-07T00:00:00.000Z!fsrs,2028-07-20T00:00:00.000Z,659,659.04910028,1,2,8,0,0,2026-09-30T00:00:00.000Z-->
 
 ### other loads
 

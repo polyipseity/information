@@ -93,7 +93,7 @@ tags:
 > - AX<sub>6</sub>E<sub>0</sub>
 >     - AX<sub>6</sub>E<sub>0</sub> / [shape](molecular%20geometry.md) ::@:: [octahedral](octahedral%20molecular%20geometry.md)<br/>![octahedral](../../archives/Wikimedia%20Commons/AX6E0-3D-balls.png) <!--SR:!2027-03-11,314,345!2027-02-03,276,341-->
 >     - AX<sub>6</sub>E<sub>0</sub> / ideal bond angle(s) :@: 90° <!--SR:!2027-04-08,342,345-->
->     - AX<sub>6</sub>E<sub>0</sub> / example(s) ::@:: [SF<sub>6</sub>](sulfur%20hexafluoride.md) <!--SR:!2026-10-07,199,325!2027-03-15,318,345-->
+>     - AX<sub>6</sub>E<sub>0</sub> / example(s) ::@:: [SF<sub>6</sub>](sulfur%20hexafluoride.md) <!--SR:!fsrs,2028-04-28T00:00:00.000Z,569,569.29646982,2.68004087,2,9,0,0,2026-10-07T00:00:00.000Z!2027-03-15,318,345-->
 > - AX<sub>6</sub>E<sub>1</sub>
 >     - AX<sub>6</sub>E<sub>1</sub> / [shape](molecular%20geometry.md) ::@:: [pentagonal pyramidal](pentagonal%20pyramidal%20molecular%20geometry.md)<br/>![pentagonal pyramidal](../../archives/Wikimedia%20Commons/AX6E1-3D-balls.png) <!--SR:!2027-04-07,341,345!fsrs,2027-11-20T00:00:00.000Z,465,464.71957937,1.22984669,2,8,0,0,2026-08-12T00:00:00.000Z-->
 >     - AX<sub>6</sub>E<sub>1</sub> / ideal bond angle(s) :@: 72°, 90° <!--SR:!2027-03-13,316,345-->

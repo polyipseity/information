@@ -27,7 +27,7 @@ The first step in all the branches is {@{the fusion of two [protons](proton.md) 
 
 {@{The [positron](positron.md)}@} will {@{[annihilate](annihilation.md) with an [electron](electron.md) from the environment into two [gamma rays](gamma%20ray.md)}@}. Including {@{this annihilation and the energy of the neutrino}@}, the net reaction {@{$$\mathrm{p} + \mathrm{p} + \mathrm{e}^- \to {}_1^2 \mathrm{D} + \nu_{\mathrm{e} } + 2\, \gamma + 1.442\text{ MeV } \,,$$}@} which is {@{the same as the [PEP reaction](#the%20PEP%20reaction)}@}. {@{The relative amounts of energy}@} going to {@{the neutrino and to the other products is variable}@}. <!--SR:!2029-11-06,1431,310!fsrs,2028-11-30T00:00:00.000Z,893,892.80824485,4.98215312,2,9,0,0,2026-06-21T00:00:00.000Z!fsrs,2030-04-02T00:00:00.000Z,1293,1292.67864529,3.99122837,2,10,0,0,2026-09-17T00:00:00.000Z!2027-02-15,329,356!2027-02-09,325,356!2027-02-09,324,356!2027-01-17,305,356-->
 
-- 1st step + annihilation / energy release ::@:: 1.442 MeV <!--SR:!2028-06-03,996,295!2026-10-07,548,315-->
+- 1st step + annihilation / energy release ::@:: 1.442 MeV <!--SR:!2028-06-03,996,295!fsrs,2032-06-22T00:00:00.000Z,2085,2084.96008489,1,2,10,0,0,2026-10-07T00:00:00.000Z-->
 
 After it is formed, the [deuteron](deuteron.md) produced in the first stage can {@{fuse with another [proton](proton.md) to produce the stable, light [isotope](isotope.md) of [helium](helium.md), <sup>3</sup>He}@}: {@{$${}_1^2 \mathrm{D} + {}_1^1 \mathrm{H} \to {}_2^3 \mathrm{He} + \gamma + 5.493\text{ MeV}$$}@}. <!--SR:!2029-09-19,1372,315!2027-02-06,281,235-->
 

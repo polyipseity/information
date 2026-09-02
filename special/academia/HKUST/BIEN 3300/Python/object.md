@@ -57,7 +57,7 @@ It is possible to have {@{no parameters}@}. Each parameter is {@{separated by a 
 
 ### constructor
 
-A constructor is {@{a special method that is called when you create an object of that class}@}. It consists of {@{a name that must be `__init__`, parameter names, and statement block}@}: <!--SR:!2026-10-07,276,330!fsrs,2029-08-19T00:00:00.000Z,1092,1091.66087084,1,2,9,0,0,2026-08-23T00:00:00.000Z-->
+A constructor is {@{a special method that is called when you create an object of that class}@}. It consists of {@{a name that must be `__init__`, parameter names, and statement block}@}: <!--SR:!fsrs,2030-01-25T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-10-07T00:00:00.000Z!fsrs,2029-08-19T00:00:00.000Z,1092,1091.66087084,1,2,9,0,0,2026-08-23T00:00:00.000Z-->
 
 ```Python
 def __init__(parameter_names):
