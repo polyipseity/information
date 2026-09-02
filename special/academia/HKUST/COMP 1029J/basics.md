@@ -130,7 +130,7 @@ int anInteger = (int) -3.14; // the `double` of value -3.14 is explicitly conver
 assert anInteger == 3;
 ```
 
-{@{The above explicit conversion (annotation: `(int) -3.14`)}@} is called {@{casting}@}. A value can be {@{casted to any type without any compilation error}@}. However, only {@{casting that makes sense will not result in a runtime error}@}: <!--SR:!fsrs,2033-10-10T00:00:00.000Z,2639,2639.46974993,1,2,10,0,0,2026-07-20T00:00:00.000Z!fsrs,2026-10-05T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-07-31T00:00:00.000Z!fsrs,2026-10-05T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-07-31T00:00:00.000Z!fsrs,2026-10-05T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-07-31T00:00:00.000Z-->
+{@{The above explicit conversion (annotation: `(int) -3.14`)}@} is called {@{casting}@}. A value can be {@{casted to any type without any compilation error}@}. However, only {@{casting that makes sense will not result in a runtime error}@}: <!--SR:!fsrs,2033-10-10T00:00:00.000Z,2639,2639.46974993,1,2,10,0,0,2026-07-20T00:00:00.000Z!fsrs,2027-11-06T00:00:00.000Z,397,396.77501923,1,2,3,0,0,2026-10-05T00:00:00.000Z!fsrs,2027-11-06T00:00:00.000Z,397,396.77501923,1,2,3,0,0,2026-10-05T00:00:00.000Z!fsrs,2027-11-06T00:00:00.000Z,397,396.77501923,1,2,3,0,0,2026-10-05T00:00:00.000Z-->
 
 ```Java
 int anInteger = (int) -3.14; // no compilation error and runtime error

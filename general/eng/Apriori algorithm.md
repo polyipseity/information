@@ -22,7 +22,7 @@ For _prune step_, confirm the _possible_ candidate sets. For each _possible_ can
 
 Note that the above is a slower variant of the Apriori algorithm. There is a much more common variant that is also faster, but {@{that additionally requires all sets above be lexicographically ordered sets}@}. With this additional requirement in mind, the difference is in {@{the join step}@}. First, we define the _prefix set_ of an ordered set of size _n_ as {@{the first _n_−1 items of the ordered set, itself in an ordered set}@}. Now the join step instead becomes {@{considering all possible pairs of sets that have the same prefix set, then the union of each pair is a _possible_ candidate set}@}. <!--SR:!2033-12-15,2786,356!2027-10-17,986,356!2034-05-15,2906,356!fsrs,2034-01-24T00:00:00.000Z,2719,2719.21117375,1,2,10,0,0,2026-08-15T00:00:00.000Z-->
 
-If we consider each set is directionally linked from itself to the new candidate sets it has generated, {@{a tree-like structure}@} appears, and the Apriori algorithm is similar to {@{[breadth-first search](breadth-first%20search.md)}@}. <!--SR:!2026-10-05,727,330!2027-11-19,998,339-->
+If we consider each set is directionally linked from itself to the new candidate sets it has generated, {@{a tree-like structure}@} appears, and the Apriori algorithm is similar to {@{[breadth-first search](breadth-first%20search.md)}@}. <!--SR:!fsrs,2034-06-14T00:00:00.000Z,2809,2809.38796941,1,2,11,0,0,2026-10-05T00:00:00.000Z!2027-11-19,998,339-->
 
 Creation of association rules from the frequent item sets is {@{not covered by this algorithm}@}. <!--SR:!2029-06-07,1493,383-->
 

@@ -36,7 +36,7 @@ This cycle is now understood as {@{being the first part of a larger process, the
 - 3rd step ::@:: $${}_{\phantom{0}6}^{13}\mathrm{C} + {}_1^1\mathrm{H} \rightarrow {}_{\phantom{0}7}^{14}\mathrm{N} + \gamma + 7.54~\mathrm{MeV}$$ <!--SR:!2027-06-12,739,290!2029-02-02,1042,310-->
     - 3rd step / energy release (& half-life if available) ::@:: 7.54 MeV <!--SR:!2027-12-31,882,290!2027-04-13,569,270-->
 - 4th step ::@:: $${}_{\phantom{0}7}^{14}\mathrm{N} + {}_1^1\mathrm{H} \rightarrow {}_{\phantom{0}8}^{15}\mathrm{O} + \gamma + 7.35~\mathrm{MeV}$$ <!--SR:!2028-05-12,714,210!2029-05-06,1157,290-->
-    - 4th step / energy release (& half-life if available) ::@:: 7.35 MeV <!--SR:!2027-07-07,644,250!2026-10-05,462,270-->
+    - 4th step / energy release (& half-life if available) ::@:: 7.35 MeV <!--SR:!2027-07-07,644,250!fsrs,2030-11-25T00:00:00.000Z,1512,1511.9701468,2.98092302,2,10,0,0,2026-10-05T00:00:00.000Z-->
 - 5th step ::@:: $${}_{\phantom{0}8}^{15}\mathrm{O} \rightarrow {}_{\phantom{0}7}^{15}\mathrm{N} + \mathrm{e}^+ + \nu_{\mathrm{e} } + 1.73~\mathrm{MeV} \quad (\text{half life of 122.24 seconds})$$ <!--SR:!2028-01-21,767,250!2028-02-27,868,290-->
     - 5th step / energy release (& half-life if available) ::@:: 1.73 MeV, 122.24 seconds <!--SR:!2027-03-02,489,210!2027-05-15,701,310-->
 - 6th step ::@:: $${}_{\phantom{0}7}^{15}\mathrm{N} + {}_1^1\mathrm{H} \rightarrow {}_{\phantom{0}6}^{12}\mathrm{C} + {}_2^4\mathrm{He} + 4.96~\mathrm{MeV}$$ <!--SR:!2027-03-25,541,230!2029-02-12,1288,350-->

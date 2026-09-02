@@ -106,7 +106,7 @@ The content is in teaching order.
 - datetime: 2025-02-11T13:30:00+08:00/2025-02-11T14:50:00+08:00
 - [cross product](../../../../general/cross%20product.md)
     - cross product / calculation
-        - cross product / calculation / 3D basis ::@:: $\hat i \times \hat j = \hat k \qquad \hat j \times \hat k = \hat i \qquad \hat k \times \hat i = \hat j$ <!--SR:!fsrs,2032-08-25T00:00:00.000Z,2154,2154.0218629,1,2,10,0,0,2026-10-02T00:00:00.000Z!2026-10-05,468,383-->
+        - cross product / calculation / 3D basis ::@:: $\hat i \times \hat j = \hat k \qquad \hat j \times \hat k = \hat i \qquad \hat k \times \hat i = \hat j$ <!--SR:!fsrs,2032-08-25T00:00:00.000Z,2154,2154.0218629,1,2,10,0,0,2026-10-02T00:00:00.000Z!fsrs,2032-09-09T00:00:00.000Z,2166,2166.08190138,1,2,10,0,0,2026-10-05T00:00:00.000Z-->
     - cross product / properties
         - cross product / properties / perpendicularity ::@:: $(\mathbf u \times \mathbf v) \cdot \mathbf u = (\mathbf u \times \mathbf v) \cdot \mathbf v = 0$ <!--SR:!fsrs,2032-09-04T00:00:00.000Z,2162,2162.0629296,1,2,10,0,0,2026-10-04T00:00:00.000Z!fsrs,2032-08-30T00:00:00.000Z,2158,2158.04303497,1,2,10,0,0,2026-10-03T00:00:00.000Z-->
         - cross product / properties / parallelism ::@:: $\mathbf u \times \mathbf v = \mathbf 0$ iff the 2 vectors are parallel or at least 1 of them is $\mathbf 0$. <!--SR:!fsrs,2032-09-04T00:00:00.000Z,2162,2162.0629296,1,2,10,0,0,2026-10-04T00:00:00.000Z!fsrs,2031-12-23T00:00:00.000Z,1972,1971.9126144,1,2,10,0,0,2026-07-30T00:00:00.000Z-->

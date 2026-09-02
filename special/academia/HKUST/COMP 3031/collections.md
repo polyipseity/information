@@ -65,7 +65,7 @@ Unlike {@{arrays}@}, lists are {@{__immutable__}@}—once constructed {@{their c
 
 {@{These operations}@} are defined as {@{methods on any instance of `List`}@}. For example, {@{`fruits.head` \(`fruits` is nonempty\)}@} evaluates to {@{its first element}@}, whereas calling {@{`Nil.head` throws a `NoSuchElementException`}@}. <!--SR:!fsrs,2029-10-14T00:00:00.000Z,1115,1114.75652523,1,2,9,0,0,2026-09-25T00:00:00.000Z!fsrs,2028-08-20T00:00:00.000Z,700,700.04868809,2.49272837,2,9,0,0,2026-09-20T00:00:00.000Z!fsrs,2028-11-16T00:00:00.000Z,838,838.20060054,1,2,9,0,0,2026-08-01T00:00:00.000Z!2026-10-10,268,330!2026-10-28,284,330-->
 
-Pattern matching works {@{seamlessly with lists}@}. {@{The constant `Nil`}@} matches {@{an empty list}@}; {@{the pattern `p :: ps`}@} matches {@{a non-empty list}@} whose first element {@{satisfies pattern `p` and whose remainder satisfies pattern `ps`}@}. {@{A shorthand}@} for {@{a concrete list of length _n_}@} is {@{`List(p₁, ..., pₙ)`}@}, which expands to {@{nested conses ending in `Nil`}@}. For instance, {@{the pattern `1 :: 2 :: xs`}@} matches {@{any list that begins with `1` followed by `2`}@}, while {@{`x :: Nil`}@} matches {@{a singleton list}@}. {@{More elaborate patterns}@} such as {@{`x :: y :: List(xs, ys) :: zs`}@} illustrate {@{nested matching}@}. <!--SR:!2026-10-31,287,330!fsrs,2028-08-20T00:00:00.000Z,700,700.04868809,2.49272837,2,9,0,0,2026-09-20T00:00:00.000Z!2026-10-08,266,330!fsrs,2029-07-08T00:00:00.000Z,1037,1037.49777357,1,2,9,0,0,2026-09-05T00:00:00.000Z!fsrs,2029-06-29T00:00:00.000Z,1030,1029.72783972,1,2,9,0,0,2026-09-03T00:00:00.000Z!2026-10-08,266,330!fsrs,2028-08-13T00:00:00.000Z,695,694.99996464,2.49272837,2,9,0,0,2026-09-18T00:00:00.000Z!2026-10-23,281,330!2026-10-13,271,330!fsrs,2029-11-30T00:00:00.000Z,1153,1153.10014712,1,2,9,0,0,2026-10-04T00:00:00.000Z!fsrs,2029-07-23T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-09-08T00:00:00.000Z!fsrs,2029-10-19T00:00:00.000Z,1119,1118.59914239,1,2,9,0,0,2026-09-26T00:00:00.000Z!fsrs,2029-07-13T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-09-06T00:00:00.000Z!2026-10-05,263,330!fsrs,2028-02-01T00:00:00.000Z,506,506.03526322,5.00637887,2,9,0,0,2026-09-13T00:00:00.000Z!2026-10-29,285,330!2026-10-27,283,330-->
+Pattern matching works {@{seamlessly with lists}@}. {@{The constant `Nil`}@} matches {@{an empty list}@}; {@{the pattern `p :: ps`}@} matches {@{a non-empty list}@} whose first element {@{satisfies pattern `p` and whose remainder satisfies pattern `ps`}@}. {@{A shorthand}@} for {@{a concrete list of length _n_}@} is {@{`List(p₁, ..., pₙ)`}@}, which expands to {@{nested conses ending in `Nil`}@}. For instance, {@{the pattern `1 :: 2 :: xs`}@} matches {@{any list that begins with `1` followed by `2`}@}, while {@{`x :: Nil`}@} matches {@{a singleton list}@}. {@{More elaborate patterns}@} such as {@{`x :: y :: List(xs, ys) :: zs`}@} illustrate {@{nested matching}@}. <!--SR:!2026-10-31,287,330!fsrs,2028-08-20T00:00:00.000Z,700,700.04868809,2.49272837,2,9,0,0,2026-09-20T00:00:00.000Z!2026-10-08,266,330!fsrs,2029-07-08T00:00:00.000Z,1037,1037.49777357,1,2,9,0,0,2026-09-05T00:00:00.000Z!fsrs,2029-06-29T00:00:00.000Z,1030,1029.72783972,1,2,9,0,0,2026-09-03T00:00:00.000Z!2026-10-08,266,330!fsrs,2028-08-13T00:00:00.000Z,695,694.99996464,2.49272837,2,9,0,0,2026-09-18T00:00:00.000Z!2026-10-23,281,330!2026-10-13,271,330!fsrs,2029-11-30T00:00:00.000Z,1153,1153.10014712,1,2,9,0,0,2026-10-04T00:00:00.000Z!fsrs,2029-07-23T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-09-08T00:00:00.000Z!fsrs,2029-10-19T00:00:00.000Z,1119,1118.59914239,1,2,9,0,0,2026-09-26T00:00:00.000Z!fsrs,2029-07-13T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-09-06T00:00:00.000Z!fsrs,2029-12-05T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-10-05T00:00:00.000Z!fsrs,2028-02-01T00:00:00.000Z,506,506.03526322,5.00637887,2,9,0,0,2026-09-13T00:00:00.000Z!2026-10-29,285,330!2026-10-27,283,330-->
 
 Overall, lists provide {@{a simple yet powerful abstraction}@} for {@{ordered collections}@}: they are {@{immutable, recursively defined, and naturally suited to pattern matching}@}, making them {@{a staple of functional Scala code}@}. <!--SR:!fsrs,2029-10-28T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-09-28T00:00:00.000Z!fsrs,2029-10-09T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-09-24T00:00:00.000Z!2026-10-13,271,330!fsrs,2029-11-12T00:00:00.000Z,1138,1137.78464757,1,2,9,0,0,2026-10-01T00:00:00.000Z-->
 
@@ -101,7 +101,7 @@ An alternative to {@{adding a method type parameter}@} is to {@{use extension me
 >   def ::(xs: List[T]): List[T] = Cons(x, xs)
 > ```
 >
-> This approach does not require {@{adding a method type parameter}@} and allows {@{natural list construction syntax (`1 :: 2 :: Nil`)}@}. <!--SR:!fsrs,2029-10-09T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-09-24T00:00:00.000Z!fsrs,2029-11-25T00:00:00.000Z,1149,1149.27403969,1,2,9,0,0,2026-10-03T00:00:00.000Z!2026-10-05,263,330!2026-10-05,263,330!fsrs,2028-08-31T00:00:00.000Z,708,707.6141386,2.49272837,2,9,0,0,2026-09-23T00:00:00.000Z!2026-10-05,263,330-->
+> This approach does not require {@{adding a method type parameter}@} and allows {@{natural list construction syntax (`1 :: 2 :: Nil`)}@}. <!--SR:!fsrs,2029-10-09T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-09-24T00:00:00.000Z!fsrs,2029-11-25T00:00:00.000Z,1149,1149.27403969,1,2,9,0,0,2026-10-03T00:00:00.000Z!fsrs,2029-12-05T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-10-05T00:00:00.000Z!fsrs,2029-12-05T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-10-05T00:00:00.000Z!fsrs,2028-08-31T00:00:00.000Z,708,707.6141386,2.49272837,2,9,0,0,2026-09-23T00:00:00.000Z!fsrs,2029-12-05T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-10-05T00:00:00.000Z-->
 
 ### list methods
 
@@ -192,7 +192,7 @@ The `List` API offers {@{a rich set of operations}@} for {@{sublists, element ac
 >     case y :: ys    => ys.reverse ::: (y :: Nil)
 >   }
 > ```
-<!--SR:!2026-10-17,275,330!2026-10-05,263,330-->
+<!--SR:!2026-10-17,275,330!fsrs,2029-12-05T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-10-05T00:00:00.000Z-->
 
 Because {@{each recursive call}@} concatenates {@{a singleton list to the result of reversing the tail}@}, the complexity is {@{quadratic, `O(xs.length²)`}@}. {@{A linear-time implementation}@} would use {@{an accumulator}@}. <!--SR:!2026-10-12,270,330!fsrs,2029-07-04T00:00:00.000Z,1034,1033.61384781,1,2,9,0,0,2026-09-04T00:00:00.000Z!fsrs,2029-11-25T00:00:00.000Z,1149,1149.27403969,1,2,9,0,0,2026-10-03T00:00:00.000Z!fsrs,2029-08-02T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-09-10T00:00:00.000Z!fsrs,2028-08-06T00:00:00.000Z,690,689.94707246,2.49272837,2,9,0,0,2026-09-16T00:00:00.000Z-->
 
@@ -377,7 +377,7 @@ Using {@{`reduceLeft`}@}, {@{summation}@} becomes: <!--SR:!2026-11-07,293,330!20
 > def concat[T](xs: List[T], ys: List[T]): List[T] =
 >   xs.foldRight(ys)(_ :: _)
 > ```
-<!--SR:!fsrs,2029-10-09T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-09-24T00:00:00.000Z!2026-10-05,263,330!2027-01-11,347,350-->
+<!--SR:!fsrs,2029-10-09T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-09-24T00:00:00.000Z!fsrs,2029-12-05T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-10-05T00:00:00.000Z!2027-01-11,347,350-->
 
 {@{Replacing `foldRight` with `foldLeft`}@} would {@{reverse the order of operations}@}. When {@{the operator is associative and commutative}@}, the final result is {@{the same}@}; otherwise, {@{the types or semantics change}@}. {@{`foldRight`}@} also does not {@{work with infinite lists}@}, as there is {@{no rightmost or ending element to start folding}@}. <!--SR:!fsrs,2029-08-02T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-09-10T00:00:00.000Z!2026-11-04,290,330!2026-10-10,268,330!2026-10-08,266,330!fsrs,2029-10-28T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-09-28T00:00:00.000Z!2026-10-18,276,330!2026-10-20,278,330!2026-10-14,272,330-->
 
@@ -437,7 +437,7 @@ Unlike {@{`List`}@}, vectors do not {@{support the cons operator (`::`)}@}. Inst
 
 ## Java sequences
 
-{@{Arrays and strings}@} behave {@{like sequences}@}: while they {@{could _not_ be subclasses of `Seq` \(as they come from Java\)}@}, {@{an `Array[Int]` or a `String`}@} can be used {@{in place of any `Seq[T]` or `Seq[Char]` respectively}@} because the compiler {@{inserts an implicit conversion}@}. Thus one can write: <!--SR:!2026-10-05,263,330!2026-10-28,284,330!2026-10-20,278,330!2026-10-05,263,330!2026-10-27,283,330!2026-10-09,267,330-->
+{@{Arrays and strings}@} behave {@{like sequences}@}: while they {@{could _not_ be subclasses of `Seq` \(as they come from Java\)}@}, {@{an `Array[Int]` or a `String`}@} can be used {@{in place of any `Seq[T]` or `Seq[Char]` respectively}@} because the compiler {@{inserts an implicit conversion}@}. Thus one can write: <!--SR:!fsrs,2029-12-05T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-10-05T00:00:00.000Z!2026-10-28,284,330!2026-10-20,278,330!fsrs,2029-12-05T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-10-05T00:00:00.000Z!2026-10-27,283,330!2026-10-09,267,330-->
 
 > [!example] __Java sequence examples__
 >
@@ -474,7 +474,7 @@ Because ranges are {@{lazy and small}@}, they provide {@{constant-time `contains
 
 The following operations are {@{common to all `Seq`s}@} (and thus to {@{lists, vectors, arrays, strings and ranges}@}): <!--SR:!2026-11-03,290,330!fsrs,2029-07-23T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-09-08T00:00:00.000Z-->
 
-- `exists(p)` ::@:: Returns `true` if any element satisfies predicate `p`. For empty sequences it returns `false`. <!--SR:!fsrs,2028-08-17T00:00:00.000Z,698,697.52483893,2.49272837,2,9,0,0,2026-09-19T00:00:00.000Z!2026-10-05,263,330-->
+- `exists(p)` ::@:: Returns `true` if any element satisfies predicate `p`. For empty sequences it returns `false`. <!--SR:!fsrs,2028-08-17T00:00:00.000Z,698,697.52483893,2.49272837,2,9,0,0,2026-09-19T00:00:00.000Z!fsrs,2029-12-05T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-10-05T00:00:00.000Z-->
 - `forall(p)` ::@:: Returns `true` only if every element satisfies `p`. For empty sequences it returns `true`. <!--SR:!fsrs,2029-11-19T00:00:00.000Z,1144,1144.03786294,1,2,9,0,0,2026-10-02T00:00:00.000Z!fsrs,2029-10-28T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-09-28T00:00:00.000Z-->
 - `zip(ys)` ::@:: Combines two sequences into a sequence of pairs. If they do not have the same length, the result is truncated to the shorter length. <!--SR:!2026-10-23,281,330!2026-10-27,283,330-->
 - `unzip` ::@:: Splits a sequence of pairs into two separate sequences. <!--SR:!2026-10-11,269,330!fsrs,2029-08-07T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-09-11T00:00:00.000Z-->
@@ -543,9 +543,9 @@ Maps extend {@{`Iterable[(Key, Value)]`}@}, so {@{all collection operations}@} a
 > val capitalOfCountry = Map("US" -> "Washington", "Switzerland" -> "Bern")
 > capitalOfCountry("US")  // returns "Washington"
 > ```
-<!--SR:!2026-10-05,263,330!fsrs,2029-10-14T00:00:00.000Z,1115,1114.75652523,1,2,9,0,0,2026-09-25T00:00:00.000Z-->
+<!--SR:!fsrs,2029-12-05T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-10-05T00:00:00.000Z!fsrs,2029-10-14T00:00:00.000Z,1115,1114.75652523,1,2,9,0,0,2026-09-25T00:00:00.000Z-->
 
-Attempting to {@{call a map with a missing key}@} throws {@{an `java.util.NoSuchElementException`}@}; {@{safer access}@} is provided by {@{the `get` method}@} which {@{returns an `Option[Value]`}@}. {@{The `Option` type}@} has {@{two subclasses, `Some(value)` and `None`}@}, enabling {@{pattern matching}@}: <!--SR:!fsrs,2028-08-20T00:00:00.000Z,700,700.04868809,2.49272837,2,9,0,0,2026-09-20T00:00:00.000Z!2026-10-05,263,330!2026-10-08,266,330!fsrs,2029-10-28T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-09-28T00:00:00.000Z!2026-10-23,281,330!2026-10-19,277,330!fsrs,2029-10-28T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-09-28T00:00:00.000Z!2026-10-28,284,330-->
+Attempting to {@{call a map with a missing key}@} throws {@{an `java.util.NoSuchElementException`}@}; {@{safer access}@} is provided by {@{the `get` method}@} which {@{returns an `Option[Value]`}@}. {@{The `Option` type}@} has {@{two subclasses, `Some(value)` and `None`}@}, enabling {@{pattern matching}@}: <!--SR:!fsrs,2028-08-20T00:00:00.000Z,700,700.04868809,2.49272837,2,9,0,0,2026-09-20T00:00:00.000Z!fsrs,2029-12-05T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-10-05T00:00:00.000Z!2026-10-08,266,330!fsrs,2029-10-28T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-09-28T00:00:00.000Z!2026-10-23,281,330!2026-10-19,277,330!fsrs,2029-10-28T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-09-28T00:00:00.000Z!2026-10-28,284,330-->
 
 > [!example] __`Map.get` example__
 >
@@ -696,7 +696,7 @@ To avoid {@{the verbosity of `Polynomial(Map(...))`}@}, {@{a _varargs_ construct
 > ```
 <!--SR:!fsrs,2029-06-24T00:00:00.000Z,1026,1025.83973773,1,2,9,0,0,2026-09-02T00:00:00.000Z!fsrs,2029-11-19T00:00:00.000Z,1144,1144.03786294,1,2,9,0,0,2026-10-02T00:00:00.000Z-->
 
-{@{The core distinction}@} between {@{a `Set` and a `Seq`}@} is that the former {@{does not preserve order and automatically removes duplicates}@}; consequently {@{the only fundamental operation}@} on a set is {@{membership testing via `contains`}@}. {@{A small example}@} shows {@{how duplicate values collapse}@}: <!--SR:!2026-10-27,283,330!2026-10-14,272,330!2026-10-05,263,330!2026-10-18,276,330!2026-10-18,276,330!2026-10-22,280,330!2026-10-18,276,330-->
+{@{The core distinction}@} between {@{a `Set` and a `Seq`}@} is that the former {@{does not preserve order and automatically removes duplicates}@}; consequently {@{the only fundamental operation}@} on a set is {@{membership testing via `contains`}@}. {@{A small example}@} shows {@{how duplicate values collapse}@}: <!--SR:!2026-10-27,283,330!2026-10-14,272,330!fsrs,2029-12-05T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-10-05T00:00:00.000Z!2026-10-18,276,330!2026-10-18,276,330!2026-10-22,280,330!2026-10-18,276,330-->
 
 > [!example] __`Set` deduplication__
 >

@@ -105,7 +105,7 @@ The content is in teaching order.
     - COMP 3111H / objectives ::@:: _disciplined_ approach to software development, theoretical and practical aspects of software engineering <!--SR:!fsrs,2029-05-14T00:00:00.000Z,1030,1029.72783972,1,2,9,0,0,2026-07-19T00:00:00.000Z!fsrs,2029-12-13T00:00:00.000Z,1191,1191.26470738,1,2,9,0,0,2026-09-09T00:00:00.000Z-->
     - COMP 3111H / course intended learning outcomes \(CILO\)
     - COMP 3111H / motivation ::@:: communication, design, leadership, modeling, project management, etc. <!--SR:!fsrs,2030-03-04T00:00:00.000Z,1252,1251.97430334,1,2,9,0,0,2026-09-29T00:00:00.000Z!fsrs,2030-03-23T00:00:00.000Z,1267,1267.08647061,1,2,9,0,0,2026-10-03T00:00:00.000Z-->
-    - COMP 3111H / syllabus ::@:: introduction → modeling language → development approaches → development activities → project management <!--SR:!fsrs,2028-11-06T00:00:00.000Z,780,780.29610418,2.49272837,2,9,0,0,2026-09-18T00:00:00.000Z!2026-10-05,294,330-->
+    - COMP 3111H / syllabus ::@:: introduction → modeling language → development approaches → development activities → project management <!--SR:!fsrs,2028-11-06T00:00:00.000Z,780,780.29610418,2.49272837,2,9,0,0,2026-09-18T00:00:00.000Z!fsrs,2030-04-02T00:00:00.000Z,1275,1274.63302429,1,2,9,0,0,2026-10-05T00:00:00.000Z-->
     - COMP 3111H / rules
     - COMP 3111H / project ::@:: specification \(from system requirements\) → implementation and testing <!--SR:!2028-12-09,938,458!fsrs,2028-12-01T03:50:14.945Z,909,908.59437321,1,2,8,0,0,2026-06-06T03:50:14.945Z-->
 - [§ week 1 pre-lecture](#week%201%20pre-lecture)

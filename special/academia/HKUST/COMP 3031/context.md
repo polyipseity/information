@@ -188,7 +188,7 @@ Alternatively, {@{separate `using` clauses}@} can be {@{chained}@}. {@{`using` c
 >
 > can be written with {@{an unnamed `Ordering[T]`}@}, yet internally {@{each `merge` and `sort` implicitly receives the same ordering}@}. <!--SR:!fsrs,2028-07-28T00:00:00.000Z,677,677.29649533,2.49272837,2,9,0,0,2026-09-20T00:00:00.000Z!2027-01-01,328,349!2027-01-20,341,349!2027-01-23,344,349!fsrs,2028-01-21T00:00:00.000Z,493,492.57579613,5.00637887,2,9,0,0,2026-09-15T00:00:00.000Z-->
 
-{@{Writing `(using Ordering[T])` inside a parameter list}@} is equivalent to explicitly {@{passing a named `ord` through every call that needs an `Ordering` implicitly}@}, but keeps the body of `sort` {@{free from boilerplate}@} and shows that {@{the implicit context can propagate transparently}@} even when the method itself {@{never directly references the parameter}@}. <!--SR:!fsrs,2029-10-17T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-10-02T00:00:00.000Z!2026-12-21,319,349!2026-10-05,254,330!2026-12-09,309,349!2028-01-18,627,411-->
+{@{Writing `(using Ordering[T])` inside a parameter list}@} is equivalent to explicitly {@{passing a named `ord` through every call that needs an `Ordering` implicitly}@}, but keeps the body of `sort` {@{free from boilerplate}@} and shows that {@{the implicit context can propagate transparently}@} even when the method itself {@{never directly references the parameter}@}. <!--SR:!fsrs,2029-10-17T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-10-02T00:00:00.000Z!2026-12-21,319,349!fsrs,2029-10-31T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-10-05T00:00:00.000Z!2026-12-09,309,349!2028-01-18,627,411-->
 
 ### context bound
 
@@ -345,12 +345,12 @@ For {@{another example}@} of {@{recursive `given` resolution}@}, {@{pairs}@} can
 When a method expects {@{an implicit of type `T` \(e.g. `Ordering[Int]` in the above example\)}@}, the compiler looks for {@{a _`given` instance_ that}@}: \(annotation: 2 items: {@{compatible, visible}@}\) <!--SR:!2026-12-01,301,349!2027-01-30,351,349!2027-01-01,328,349-->
 
 - compatible ::@:: Has a compatible type. <!--SR:!2026-12-04,304,349!2026-11-11,281,349-->
-- visibility ::@:: Is visible in the current scope (lexical, imports, parameters) or defined in a companion object associated with `T`. <!--SR:!2026-10-05,254,330!2027-01-26,347,349-->
+- visibility ::@:: Is visible in the current scope (lexical, imports, parameters) or defined in a companion object associated with `T`. <!--SR:!fsrs,2029-10-31T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-10-05T00:00:00.000Z!2027-01-26,347,349-->
 
 If {@{exactly one suitable instance exists}@} it is {@{used}@}; otherwise {@{compilation fails}@} due to {@{no instance found}@} or {@{ambiguity}@} if {@{there is more than one _most specific_ instance}@}. It will {@{search in \(in no particular order\)}@}: \(annotation: 3 items: {@{lexical scope, companion objects, enclosing objects}@}\) <!--SR:!fsrs,2029-10-22T00:00:00.000Z,1115,1114.75652523,1,2,9,0,0,2026-10-03T00:00:00.000Z!2027-01-01,328,349!2026-11-25,295,349!2026-12-19,317,349!2027-01-21,342,349!2027-01-19,340,349!2027-01-02,329,349!2026-12-11,311,349-->
 
 - lexical scope ::@:: Visible `given` instances in the lexical scope, including inherited, imported and defined instances. <!--SR:!2026-11-08,282,349!2027-01-29,350,349-->
-- companion objects ::@:: Companion objects of `T`, its super-classes, its type arguments, super-classes of its type arguments, etc. <!--SR:!2026-12-17,315,349!2026-10-05,254,330-->
+- companion objects ::@:: Companion objects of `T`, its super-classes, its type arguments, super-classes of its type arguments, etc. <!--SR:!2026-12-17,315,349!fsrs,2029-10-31T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-10-05T00:00:00.000Z-->
 - enclosing objects ::@:: For inner classes, outer enclosing objects. <!--SR:!2027-01-30,351,349!2026-11-28,298,349-->
 
 {@{This mechanism}@} allows {@{libraries}@} to provide {@{default behaviours}@} that can be {@{overridden locally without changing every call site}@}. <!--SR:!2026-12-21,319,349!2026-12-26,323,349!2026-11-15,285,349!2026-11-13,287,349-->

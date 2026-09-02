@@ -25,7 +25,7 @@ This same equation using {@{[wavelength](wavelength.md)}@} is obtained by {@{usi
 
 The peak value of this curve can be determined by {@{setting the [derivative](derivative.md) of the equation to zero and solving it}@}. <!--SR:!2028-01-02,947,330-->
 
-The peak value occurs at, for wavelength, {@{$$\lambda_{\text{max} } = \frac {hc} {5 k_{\mathrm B} T} \approx \frac {2.878 \times 10^{-3}~\mathrm{m \cdot K} } T$$}@}, and for frequency, {@{$$\nu_{\text{max} } = \frac {3 k_{\mathrm B} T} h \approx 6.25 \times 10^{10}~\frac {\mathrm{Hz} } {\mathrm{K} } \cdot T$$}@}. <!--SR:!2026-10-05,150,150!fsrs,2027-10-19T09:57:39.045Z,492,492.48018712,7.98399827,2,9,0,0,2026-06-14T09:57:39.045Z-->
+The peak value occurs at, for wavelength, {@{$$\lambda_{\text{max} } = \frac {hc} {5 k_{\mathrm B} T} \approx \frac {2.878 \times 10^{-3}~\mathrm{m \cdot K} } T$$}@}, and for frequency, {@{$$\nu_{\text{max} } = \frac {3 k_{\mathrm B} T} h \approx 6.25 \times 10^{10}~\frac {\mathrm{Hz} } {\mathrm{K} } \cdot T$$}@}. <!--SR:!fsrs,2027-06-27T00:00:00.000Z,265,265.49594533,8.98461332,2,8,0,0,2026-10-05T00:00:00.000Z!fsrs,2027-10-19T09:57:39.045Z,492,492.48018712,7.98399827,2,9,0,0,2026-06-14T09:57:39.045Z-->
 
 ## references
 

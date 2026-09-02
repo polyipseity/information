@@ -77,7 +77,7 @@ tags:
 > ---
 >
 > - solution: {@{Use a _new separate class_ replacing the association. The new class is associated with `Student` and `Course`.}@}
-> - annotation: {@{An _association class_ would have worked if multiple enrollments were impossible.}@} <!--SR:!fsrs,2029-08-14T00:00:00.000Z,1088,1087.80493378,1,2,9,0,0,2026-08-22T00:00:00.000Z!2026-10-05,274,330-->
+> - annotation: {@{An _association class_ would have worked if multiple enrollments were impossible.}@} <!--SR:!fsrs,2029-08-14T00:00:00.000Z,1088,1087.80493378,1,2,9,0,0,2026-08-22T00:00:00.000Z!fsrs,2030-01-16T00:00:00.000Z,1199,1198.87680538,1,2,9,0,0,2026-10-05T00:00:00.000Z-->
 
 ---
 

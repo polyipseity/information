@@ -96,7 +96,7 @@ With {@{`charCode` available}@}, {@{any word}@} can be turned {@{into the numeri
 
 ### `Coder.encode`
 
-{@{The core algorithm}@} is {@{a classic recursive split}@}.  If {@{the input number is empty}@}, {@{the only encoding}@} is {@{the empty list}@}; otherwise we try {@{every possible prefix length}@} and combine {@{the results of the suffix recursively}@}: <!--SR:!fsrs,2028-02-09T00:00:00.000Z,514,513.71227157,5.00637887,2,9,0,0,2026-09-13T00:00:00.000Z!2026-10-05,267,330!2026-10-21,277,330!2026-10-27,283,330!2026-10-16,276,330!2026-10-11,271,330!2026-11-02,289,330-->
+{@{The core algorithm}@} is {@{a classic recursive split}@}.  If {@{the input number is empty}@}, {@{the only encoding}@} is {@{the empty list}@}; otherwise we try {@{every possible prefix length}@} and combine {@{the results of the suffix recursively}@}: <!--SR:!fsrs,2028-02-09T00:00:00.000Z,514,513.71227157,5.00637887,2,9,0,0,2026-09-13T00:00:00.000Z!fsrs,2029-12-20T00:00:00.000Z,1172,1172.20432607,1,2,9,0,0,2026-10-05T00:00:00.000Z!2026-10-21,277,330!2026-10-27,283,330!2026-10-16,276,330!2026-10-11,271,330!2026-11-02,289,330-->
 
 > [!example] __`Coder.encode`__
 >

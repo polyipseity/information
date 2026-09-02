@@ -15,7 +15,7 @@ There are {@{4 main ways}@} to {@{format a string with values}@} in Python: {@{C
 
 ### f-string
 
-{@{f-string}@} starts the string with {@{`f` before the starting quote `"`}@}. Then use {@{`{variableName}`}@} to {@{print a value in the middle of the string}@}. To {@{literally represent `{}`}@}, use {@{`{{}}`}@}. <!--SR:!2026-10-05,268,330!2026-10-08,271,330!2026-10-11,274,330!fsrs,2029-12-01T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-10-01T00:00:00.000Z!fsrs,2029-12-19T00:00:00.000Z,1172,1172.20432607,1,2,9,0,0,2026-10-04T00:00:00.000Z!fsrs,2029-12-19T00:00:00.000Z,1172,1172.20432607,1,2,9,0,0,2026-10-04T00:00:00.000Z-->
+{@{f-string}@} starts the string with {@{`f` before the starting quote `"`}@}. Then use {@{`{variableName}`}@} to {@{print a value in the middle of the string}@}. To {@{literally represent `{}`}@}, use {@{`{{}}`}@}. <!--SR:!fsrs,2029-12-24T00:00:00.000Z,1176,1176.0199518,1,2,9,0,0,2026-10-05T00:00:00.000Z!2026-10-08,271,330!2026-10-11,274,330!fsrs,2029-12-01T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-10-01T00:00:00.000Z!fsrs,2029-12-19T00:00:00.000Z,1172,1172.20432607,1,2,9,0,0,2026-10-04T00:00:00.000Z!fsrs,2029-12-19T00:00:00.000Z,1172,1172.20432607,1,2,9,0,0,2026-10-04T00:00:00.000Z-->
 
 ### string concatenation
 
