@@ -1557,7 +1557,12 @@ class WikiHtmlConverter:
 
     def _handle_tbody(self, ele: Tag, classes: frozenset[str]) -> _HandlerConfig:
         """Handle <tbody> table body elements."""
-        return TableConverter.handle_tbody(ele, classes, self._soup)
+        return TableConverter.handle_tbody(
+            ele,
+            classes,
+            self._soup,
+            names_map=self._names_map,
+        )
 
     def _handle_thead(self, ele: Tag, classes: frozenset[str]) -> _HandlerConfig:
         """Handle <thead> table head elements."""

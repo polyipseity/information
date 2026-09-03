@@ -9,12 +9,15 @@ explicit parameters.
 """
 
 import re
+import urllib.parse
+from collections.abc import Mapping
 from copy import copy
 
 from bs4 import NavigableString, PageElement, Tag
 
 from .ast_utils import _replace_pipes_outside_math
 from .types import _HandlerConfig
+from .utils import _fix_name_maybe
 
 """Table cell tag names."""
 _TD_OR_TH = frozenset({"td", "th"})
@@ -127,11 +130,267 @@ class TableConverter:
         return None
 
     @classmethod
+    def _is_navbox_blockquote_pattern(cls, tbody: Tag) -> bool:
+        """Detect navbox tables with a single standalone inner wikitable.
+
+        Returns True when the ``<tbody>`` belongs to a 2-TR navbox-inner
+        table whose second row wraps a substantial inner wikitable (≥ 3
+        rows).  These tables should be rendered as a blockquote containing
+        the inner wikitable as a proper Markdown table, rather than
+        flattened into br-separated inline text.
+        """
+        table = tbody.find_parent("table")
+        if table is None:
+            return False
+        classes = set(table.get_attribute_list("class"))
+        if "navbox-inner" not in classes:
+            return False
+        trs = tbody.find_all("tr", recursive=False)
+        if len(trs) != 2:
+            return False
+        # First TR: single header cell.
+        tr0_cells = [
+            c for c in trs[0].children if isinstance(c, Tag) and c.name in _TD_OR_TH
+        ]
+        if len(tr0_cells) != 1:
+            return False
+        # Second TR: single td cell containing a nested table.
+        tr1_cells = [
+            c for c in trs[1].children if isinstance(c, Tag) and c.name in _TD_OR_TH
+        ]
+        if len(tr1_cells) != 1:
+            return False
+        inner_tables = tr1_cells[0].find_all("table")
+        if not inner_tables:
+            return False
+        # Inner table should have multiple rows (substantial standalone table).
+        for it in inner_tables:
+            it_rows = it.find_all("tr", recursive=False)
+            if not it_rows:
+                it_tbody = it.find("tbody", recursive=False)
+                if it_tbody:
+                    it_rows = it_tbody.find_all("tr", recursive=False)
+            if len(it_rows) >= 3:
+                return True
+        return False
+
+    @classmethod
+    def _extract_navbox_blockquote_header(
+        cls,
+        tbody: Tag,
+        *,
+        names_map: Mapping[str, str] | None = None,
+    ) -> tuple[str, str]:
+        """Extract the blockquote title and v/t/e link comment from a navbox header row.
+
+        Returns a tuple of ``(title_md, link_comment)`` where
+        *title_md* is the Markdown-formatted title (with resolved relative
+        links) and *link_comment* is an HTML comment string containing the
+        navbox template links (raw Wikipedia URLs).
+
+        The title div (identified by ``font-size:114%`` in its style) may
+        contain ``<a>`` tags whose hrefs are resolved through
+        :func:`_fix_name_maybe` to produce local relative links.  Non-link
+        text in the title is preserved as-is.
+        """
+        trs = tbody.find_all("tr", recursive=False)
+        header_cell = next(
+            (c for c in trs[0].children if isinstance(c, Tag) and c.name in _TD_OR_TH),
+            None,
+        )
+        if header_cell is None:
+            return "", ""
+        # Build link comment from <a> tags, preserving href as Markdown links.
+        links = header_cell.find_all("a")
+        link_parts = [f"- [{a.get_text()}]({a.get('href', '')})" for a in links]
+        link_comment = f"<!-- {' '.join(link_parts)} -->" if link_parts else ""
+        # Extract the title div (font-size:114%).
+        title_div = header_cell.find(
+            "div",
+            style=lambda s: s and "font-size" in s and "114%" in s,
+        )
+        if title_div is None:
+            # Fallback: plain text without links.
+            title_text = header_cell.get_text()
+            title_text = re.sub(r"^vte\s*", "", title_text)
+            title_text = title_text.strip()
+            return title_text, link_comment
+        # Build Markdown title from the div's <a> tags and text nodes.
+        title_parts: list[str] = []
+        for child in title_div.children:
+            if isinstance(child, NavigableString):
+                text = child.strip()
+                if text:
+                    title_parts.append(text)
+            elif isinstance(child, Tag) and child.name == "a":
+                href = str(child.get("href", ""))
+                display = child.get_text(strip=True)
+                # Resolve /wiki/Target → local relative link.
+                wiki_title = href.removeprefix("/wiki/").replace("_", " ")
+                resolved = _fix_name_maybe(
+                    wiki_title,
+                    replace_underscores=True,
+                    names_map=names_map,
+                )
+                encoded = urllib.parse.quote(resolved)
+                title_parts.append(f"[{display}]({encoded}.md)")
+        title_md = " ".join(title_parts)
+        return title_md, link_comment
+
+    @classmethod
+    def _extract_navbox_section_headers(cls, inner_wikitable: Tag) -> tuple[str, str]:
+        """Extract CSS-bold section header text from the inner wikitable.
+
+        The inner wikitable's first row contains two ``<td>`` cells with
+        ``font-weight:bold`` styling that serve as section headers for the
+        linear and angular columns.  This method extracts their plain text
+        and removes them from the DOM so the remaining rows form a
+        standard Markdown table.
+
+        Returns
+        -------
+        A tuple of ``(linear_header, angular_header)`` where each string
+        is the plain text of the corresponding section header, or empty
+        if the cell was not found.
+        """
+        tbody = inner_wikitable.find("tbody", recursive=False)
+        if tbody is None:
+            return "", ""
+        trs = tbody.find_all("tr", recursive=False)
+        if not trs:
+            return "", ""
+        first_row = trs[0]
+        bold_cells = [
+            c
+            for c in first_row.children
+            if isinstance(c, Tag)
+            and c.name == "td"
+            and _BOLD_FONT_STYLE_REGEX.search(str(c.get("style", "")))
+        ]
+        linear_header = ""
+        angular_header = ""
+        if len(bold_cells) >= 1:
+            linear_header = bold_cells[0].get_text(strip=True)
+            bold_cells[0].extract()
+        if len(bold_cells) >= 2:
+            # After extracting the first, the second is still in bold_cells
+            # only if it wasn't removed from the list.  Re-find to be safe.
+            remaining = [
+                c
+                for c in first_row.children
+                if isinstance(c, Tag)
+                and c.name == "td"
+                and _BOLD_FONT_STYLE_REGEX.search(str(c.get("style", "")))
+            ]
+            if remaining:
+                angular_header = remaining[0].get_text(strip=True)
+                remaining[0].extract()
+        return linear_header, angular_header
+
+    # Linear table: indices in the 9-column rendered row.
+    _NAVBOX_LINEAR_INDICES = (0, 2, 3, 4)
+    # Angular table: indices in the 9-column rendered row.
+    _NAVBOX_ANGULAR_INDICES = (5, 6, 7, 8)
+
+    @classmethod
+    def _blockquote_wrap_navbox(
+        cls,
+        s: str,
+        *,
+        link_comment: str,
+        title_md: str,
+        linear_header: str,
+        angular_header: str,
+    ) -> str:
+        """Wrap rendered navbox content in a blockquote with two 4-column tables.
+
+        The pipeline renders the inner wikitable as a single Markdown table
+        with 9 columns (4 linear + 1 empty separator + 4 angular).  This
+        method splits each data row into two groups, constructs separate
+        linear and angular Markdown tables, and wraps every line in a
+        blockquote prefix (``> ``).
+        """
+        lines: list[str] = []
+        if link_comment:
+            lines.append(f"> {link_comment}")
+            lines.append(">")
+        if title_md:
+            lines.append(f"> __{title_md}__")
+            lines.append(">")
+        if linear_header:
+            lines.append(f"> __{linear_header}__")
+            lines.append(">")
+
+        header_row: list[str] = []
+        data_rows: list[list[str]] = []
+
+        for row in s.split("\n"):
+            row = row.strip()
+            if not row:
+                continue
+            cells = [c.strip() for c in row.split("|")]
+            # Remove leading/trailing empty strings from outer pipes.
+            while cells and cells[0] == "":
+                cells.pop(0)
+            while cells and cells[-1] == "":
+                cells.pop()
+            # Replace zero-width-space separator filler with empty string.
+            cells = ["" if c == "\u200b" else c for c in cells]
+            if not cells:
+                continue
+            # Skip alignment rows (cells contain only dashes).
+            if all(c.replace("-", "").replace(":", "") == "" for c in cells):
+                continue
+            # Detect header row: first row with ≥ 3 cells.
+            if not header_row and len(cells) >= 3:
+                header_row = cells
+                continue
+            if len(cells) >= 3:
+                data_rows.append(cells)
+
+        def _pick(cells: list[str], indices: tuple[int, int, int, int]) -> list[str]:
+            """Select columns by index, returning empty string for missing."""
+            return [cells[i] if i < len(cells) else "" for i in indices]
+
+        def _fmt(cells: list[str]) -> str:
+            """Format a table row, rendering empty cells as a single space."""
+            return f"> | {' | '.join(c if c else ' ' for c in cells)} |"
+
+        # Build linear table (columns at _NAVBOX_LINEAR_INDICES).
+        if header_row:
+            lin_cols = _pick(header_row, cls._NAVBOX_LINEAR_INDICES)
+            lines.append(_fmt(lin_cols))
+            lines.append(f"> | {' | '.join(['---'] * len(lin_cols))} |")
+        for row_cells in data_rows:
+            lines.append(_fmt(_pick(row_cells, cls._NAVBOX_LINEAR_INDICES)))
+
+        if angular_header:
+            lines.append(">")
+            lines.append(f"> __{angular_header}__")
+            lines.append(">")
+
+        # Build angular table (columns at _NAVBOX_ANGULAR_INDICES).
+        if header_row:
+            ang_cols = _pick(header_row, cls._NAVBOX_ANGULAR_INDICES)
+            lines.append(_fmt(ang_cols))
+            lines.append(f"> | {' | '.join(['---'] * len(ang_cols))} |")
+        for row_cells in data_rows:
+            lines.append(_fmt(_pick(row_cells, cls._NAVBOX_ANGULAR_INDICES)))
+
+        # Trailing empty blockquote lines to close the blockquote.
+        lines.append(">")
+        lines.append(">")
+
+        return "\n".join(lines)
+
+    @classmethod
     def handle_tbody(
         cls,
         ele: Tag,
         classes: frozenset[str],  # noqa: ARG003
         soup: Tag,
+        *,
+        names_map: Mapping[str, str] | None = None,
     ) -> _HandlerConfig:
         """Handle ``<tbody>`` table body elements.
 
@@ -143,7 +402,71 @@ class TableConverter:
             Unused, kept for API compatibility.
         soup:
             The root BeautifulSoup object used to create new tags.
+        names_map:
+            Optional name map for resolving Wikipedia titles to local
+            stems.  Passed through to the navbox blockquote header
+            extractor.
         """
+        # Check for navbox blockquote pattern BEFORE flattening.
+        if cls._is_navbox_blockquote_pattern(ele):
+            title_md, link_comment = cls._extract_navbox_blockquote_header(
+                ele,
+                names_map=names_map,
+            )
+            trs = ele.find_all("tr", recursive=False)
+            inner_wikitable: Tag | None = None
+            if len(trs) >= 2:
+                # Extract the inner wikitable from the second TR's cell.
+                second_td = next(
+                    (
+                        c
+                        for c in trs[1].children
+                        if isinstance(c, Tag) and c.name in _TD_OR_TH
+                    ),
+                    None,
+                )
+                if second_td is not None:
+                    inner_wikitable = second_td.find("table")
+                    if inner_wikitable is not None:
+                        # Place inner wikitable directly in the <tbody> so
+                        # _flatten_nested_tables won't wrap it in inline HTML.
+                        inner_wikitable.extract()
+                        ele.append(inner_wikitable)
+                # Remove navbox header and second TRs.
+                for tr in reversed(trs):
+                    tr.extract()
+
+            # Extract section headers from the inner wikitable's first row
+            # BEFORE the pipeline converts it.  These bold <td> cells serve
+            # as section headers for the linear and angular columns.
+            linear_header = ""
+            angular_header = ""
+            if inner_wikitable is not None:
+                linear_header, angular_header = cls._extract_navbox_section_headers(
+                    inner_wikitable
+                )
+
+            # Let the remaining structure (inner wikitable in its own TR)
+            # convert normally via the dispatch pipeline.
+            cls._flatten_nested_tables(ele, soup)
+            cls._normalize_table_cells(ele, soup)
+
+            def _wrap(s: str) -> str:
+                """Wrap inner wikitable output in blockquote with navbox headers."""
+                return cls._blockquote_wrap_navbox(
+                    s,
+                    link_comment=link_comment,
+                    title_md=title_md,
+                    linear_header=linear_header,
+                    angular_header=angular_header,
+                )
+
+            return _HandlerConfig(
+                full_result=True,
+                prefix="",
+                suffix="\n\n",
+                process_strings=_wrap,
+            )
         cls._flatten_nested_tables(ele, soup)
         cls._transform_infobox_caption_rows(ele, soup)
         cls._normalize_table_cells(ele, soup)
@@ -645,6 +968,14 @@ class TableConverter:
                             nodes.append(soup.new_tag("br"))
                         # Wrap <th> children in <b> to preserve navbox-group bold.
                         if sub_cell.name == "th":
+                            b_tag = soup.new_tag("b")
+                            for child in list(sub_cell.children):
+                                b_tag.append(child)
+                            nodes.append(b_tag)
+                        # Wrap CSS-bold <td> children in <b> to preserve bold.
+                        elif sub_cell.name == "td" and _BOLD_FONT_STYLE_REGEX.search(
+                            str(sub_cell.get("style", ""))
+                        ):
                             b_tag = soup.new_tag("b")
                             for child in list(sub_cell.children):
                                 b_tag.append(child)
