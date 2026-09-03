@@ -85,7 +85,7 @@ Do
 Loop While condition
 ```
 
-The semantics of {@{`Do...Loop While`}@} is that {@{the statement block is executed}@} first. Then {@{the condition is executed}@}. If {@{the condition is `True`, we repeat the above process again}@}. If {@{the condition is `False`, the `Do...Loop While` statement ends its execution}@}. <!--SR:!2032-09-27,2348,330!2026-10-12,130,407!2026-10-12,130,407!fsrs,2026-12-06T05:57:07.745Z,183,182.60853552,1,2,6,0,0,2026-06-06T05:57:07.745Z!fsrs,2026-11-29T11:16:03.097Z,177,176.73131765,1,2,6,0,0,2026-06-05T11:16:03.097Z-->
+The semantics of {@{`Do...Loop While`}@} is that {@{the statement block is executed}@} first. Then {@{the condition is executed}@}. If {@{the condition is `True`, we repeat the above process again}@}. If {@{the condition is `False`, the `Do...Loop While` statement ends its execution}@}. <!--SR:!2032-09-27,2348,330!fsrs,2028-09-27T00:00:00.000Z,716,716.20587414,1,2,8,0,0,2026-10-12T00:00:00.000Z!fsrs,2028-09-27T00:00:00.000Z,716,716.20587414,1,2,8,0,0,2026-10-12T00:00:00.000Z!fsrs,2026-12-06T05:57:07.745Z,183,182.60853552,1,2,6,0,0,2026-06-06T05:57:07.745Z!fsrs,2026-11-29T11:16:03.097Z,177,176.73131765,1,2,6,0,0,2026-06-05T11:16:03.097Z-->
 
 As VBA is {@{intended to be English like}@}, it also provides the unconventional {@{`Do Until...Loop` and `Do...Loop Until` constructs}@}. The semantics is exactly the same except that {@{the loop stops if the condition is `True`}@}. <!--SR:!2027-03-15,793,321!2027-01-31,773,321!fsrs,2026-12-06T05:57:08.750Z,183,182.60853552,1,2,6,0,0,2026-06-06T05:57:08.750Z-->
 

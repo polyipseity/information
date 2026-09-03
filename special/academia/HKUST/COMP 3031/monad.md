@@ -18,7 +18,7 @@ tags:
 
 - HKUST COMP 3031
 
-In {@{functional programming}@}, {@{many data structures}@} that provide {@{`unit` \(also called `return`\) and `flatMap` \(also called `bind`\) operations}@} fall under {@{a common algebraic abstraction known as a _monad_}@}. <!--SR:!2026-10-28,284,330!2026-10-12,271,330!fsrs,2029-07-22T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-09-07T00:00:00.000Z!2026-10-27,283,330-->
+In {@{functional programming}@}, {@{many data structures}@} that provide {@{`unit` \(also called `return`\) and `flatMap` \(also called `bind`\) operations}@} fall under {@{a common algebraic abstraction known as a _monad_}@}. <!--SR:!2026-10-28,284,330!fsrs,2030-01-11T00:00:00.000Z,1187,1187.45608877,1,2,9,0,0,2026-10-12T00:00:00.000Z!fsrs,2029-07-22T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-09-07T00:00:00.000Z!2026-10-27,283,330-->
 
 {@{The monad abstraction}@} underpins {@{many Scala types beyond collections}@}, such as {@{generators, options, and tries}@}. When {@{a type implements `flatMap`}@} \(and optionally {@{`withFilter` for _monads with zero_}@}\), it becomes {@{eligible to participate in Scala's `for`-comprehensions}@}. {@{The three monad laws}@} provide designers with {@{powerful guidance}@}: they enforce {@{consistent composition semantics}@} and enable reasoning about {@{program behavior across different contexts}@}. <!--SR:!2026-11-04,290,330!2026-11-05,291,330!fsrs,2028-02-03T00:00:00.000Z,508,507.95545468,5.00637887,2,9,0,0,2026-09-13T00:00:00.000Z!2026-11-07,293,330!2026-10-31,287,330!fsrs,2030-01-07T00:00:00.000Z,1184,1183.64577796,1,2,9,0,0,2026-10-11T00:00:00.000Z!fsrs,2029-12-23T00:00:00.000Z,1172,1172.20432607,1,2,9,0,0,2026-10-08T00:00:00.000Z!fsrs,2028-08-16T00:00:00.000Z,698,697.52483893,2.49272837,2,9,0,0,2026-09-18T00:00:00.000Z!2026-11-02,289,330!fsrs,2029-12-28T00:00:00.000Z,1176,1176.0199518,1,2,9,0,0,2026-10-09T00:00:00.000Z-->
 
@@ -214,7 +214,7 @@ we can generate {@{leaves and inner nodes}@} by combining {@{existing generators
 >
 > which should be corrected {@{to `>=` instead of `>`}@}.  This illustrates how {@{generators can reveal subtle invariants}@}. <!--SR:!fsrs,2028-02-03T00:00:00.000Z,508,507.95545468,5.00637887,2,9,0,0,2026-09-13T00:00:00.000Z!2026-10-14,273,330!fsrs,2029-10-22T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-09-26T00:00:00.000Z!2026-11-04,290,330-->
 
-The same idea is {@{used in the _ScalaCheck_ library}@}.  {@{A property expressed as a lambda}@} can be automatically {@{checked against many random inputs}@}: <!--SR:!2026-10-12,271,330!2026-10-13,272,330!fsrs,2029-07-12T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-09-05T00:00:00.000Z-->
+The same idea is {@{used in the _ScalaCheck_ library}@}.  {@{A property expressed as a lambda}@} can be automatically {@{checked against many random inputs}@}: <!--SR:!fsrs,2030-01-11T00:00:00.000Z,1187,1187.45608877,1,2,9,0,0,2026-10-12T00:00:00.000Z!2026-10-13,272,330!fsrs,2029-07-12T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-09-05T00:00:00.000Z-->
 
 > [!example] ___ScalaCheck___
 >
@@ -271,7 +271,7 @@ Although monads only {@{require `flatMap` and `unit`}@}, {@{a `map` operation}@}
 > m.map(f) == m.flatMap(x => unit(f(x)))
 > m.map(f) == m.flatMap(f andThen unit)
 > ```
-<!--SR:!2026-11-05,291,330!2026-10-12,271,330!2026-10-25,281,330-->
+<!--SR:!2026-11-05,291,330!fsrs,2030-01-11T00:00:00.000Z,1187,1187.45608877,1,2,9,0,0,2026-10-12T00:00:00.000Z!2026-10-25,281,330-->
 
 Because {@{every monad supports this construction}@}, it is often convenient to {@{expose a dedicated `map` method for clarity}@}. <!--SR:!2026-10-31,287,330!fsrs,2029-06-13T00:00:00.000Z,1018,1018.05728725,1,2,9,0,0,2026-08-30T00:00:00.000Z-->
 
@@ -345,7 +345,7 @@ Because of {@{these issues}@}, it is sometimes preferable to treat {@{failures a
 > case class Success[+T](x: T) extends Try[T]
 > case class Failure(ex: Exception) extends Try[Nothing]
 > ```
-<!--SR:!2026-10-24,280,330!2026-10-14,273,330!2026-10-12,271,330-->
+<!--SR:!2026-10-24,280,330!2026-10-14,273,330!fsrs,2030-01-11T00:00:00.000Z,1187,1187.45608877,1,2,9,0,0,2026-10-12T00:00:00.000Z-->
 
 {@{A convenient factory for `Try`}@} wraps {@{arbitrary computations}@}: <!--SR:!2026-10-17,276,330!fsrs,2029-11-29T00:00:00.000Z,1153,1153.10014712,1,2,9,0,0,2026-10-03T00:00:00.000Z-->
 

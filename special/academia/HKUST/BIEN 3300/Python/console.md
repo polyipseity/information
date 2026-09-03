@@ -13,7 +13,7 @@ How to control the output?
 
 ## print
 
-Note that when you call `print`, even if you have not added newlines to the string, {@{a newline is always printed at the end}@}. To prevent that, pass {@{`end=""` to `print` as well, like `print(value, end="")`}@}. You can also specify {@{nonempty strings}@} for `end`. The effect of `end` is that {@{it will be also be printed after printing the value to be printed}@}. Since {@{`end` is by default a newline `\n`}@}, {@{a newline is always printed at the end}@} when {@{you only do `print(value)`}@}. <!--SR:!fsrs,2029-12-27T00:00:00.000Z,1176,1176.0199518,1,2,9,0,0,2026-10-08T00:00:00.000Z!2026-10-19,279,330!2026-10-20,280,330!2026-10-12,272,330!2026-11-15,306,341!2026-11-26,317,341!2026-11-20,311,341-->
+Note that when you call `print`, even if you have not added newlines to the string, {@{a newline is always printed at the end}@}. To prevent that, pass {@{`end=""` to `print` as well, like `print(value, end="")`}@}. You can also specify {@{nonempty strings}@} for `end`. The effect of `end` is that {@{it will be also be printed after printing the value to be printed}@}. Since {@{`end` is by default a newline `\n`}@}, {@{a newline is always printed at the end}@} when {@{you only do `print(value)`}@}. <!--SR:!fsrs,2029-12-27T00:00:00.000Z,1176,1176.0199518,1,2,9,0,0,2026-10-08T00:00:00.000Z!2026-10-19,279,330!2026-10-20,280,330!fsrs,2030-01-15T00:00:00.000Z,1191,1191.26470738,1,2,9,0,0,2026-10-12T00:00:00.000Z!2026-11-15,306,341!2026-11-26,317,341!2026-11-20,311,341-->
 
 ## clear
 

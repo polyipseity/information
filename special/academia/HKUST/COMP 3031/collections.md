@@ -21,7 +21,7 @@ tags:
 
 ## hierarchy
 
-{@{The type hierarchy}@} for {@{sequential collections}@} is rooted in {@{the abstract class `Seq`}@}, which extends {@{`Iterable`}@}. {@{Concrete subclasses}@} include {@{`List` and `Vector`}@}. {@{The Java-backed}@} {@{`Array` and `String`}@} are {@{_not_ subclasses of `Seq` \(as they come from Java\)}@}, but they can be {@{converted into `Seq` where needed}@}. <!--SR:!fsrs,2029-11-30T00:00:00.000Z,1153,1153.10014712,1,2,9,0,0,2026-10-04T00:00:00.000Z!2026-10-12,270,330!fsrs,2029-08-07T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-09-11T00:00:00.000Z!fsrs,2029-11-19T00:00:00.000Z,1144,1144.03786294,1,2,9,0,0,2026-10-02T00:00:00.000Z!fsrs,2029-11-02T00:00:00.000Z,1130,1130.11601442,1,2,9,0,0,2026-09-29T00:00:00.000Z!2026-10-13,271,330!2026-10-12,270,330!fsrs,2029-10-23T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-09-27T00:00:00.000Z!2026-10-19,277,330!fsrs,2029-11-30T00:00:00.000Z,1153,1153.10014712,1,2,9,0,0,2026-10-04T00:00:00.000Z-->
+{@{The type hierarchy}@} for {@{sequential collections}@} is rooted in {@{the abstract class `Seq`}@}, which extends {@{`Iterable`}@}. {@{Concrete subclasses}@} include {@{`List` and `Vector`}@}. {@{The Java-backed}@} {@{`Array` and `String`}@} are {@{_not_ subclasses of `Seq` \(as they come from Java\)}@}, but they can be {@{converted into `Seq` where needed}@}. <!--SR:!fsrs,2029-11-30T00:00:00.000Z,1153,1153.10014712,1,2,9,0,0,2026-10-04T00:00:00.000Z!fsrs,2030-01-08T00:00:00.000Z,1184,1183.64577796,1,2,9,0,0,2026-10-12T00:00:00.000Z!fsrs,2029-08-07T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-09-11T00:00:00.000Z!fsrs,2029-11-19T00:00:00.000Z,1144,1144.03786294,1,2,9,0,0,2026-10-02T00:00:00.000Z!fsrs,2029-11-02T00:00:00.000Z,1130,1130.11601442,1,2,9,0,0,2026-09-29T00:00:00.000Z!2026-10-13,271,330!fsrs,2030-01-08T00:00:00.000Z,1184,1183.64577796,1,2,9,0,0,2026-10-12T00:00:00.000Z!fsrs,2029-10-23T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-09-27T00:00:00.000Z!2026-10-19,277,330!fsrs,2029-11-30T00:00:00.000Z,1153,1153.10014712,1,2,9,0,0,2026-10-04T00:00:00.000Z-->
 
 {@{`Set` and `Map`}@} are also {@{subclasses of `Iterable`}@}, but they do not {@{inherit from `Seq`}@}. <!--SR:!fsrs,2028-08-17T00:00:00.000Z,698,697.52483893,2.49272837,2,9,0,0,2026-09-19T00:00:00.000Z!2026-10-21,279,330!2026-10-27,283,330-->
 
@@ -60,7 +60,7 @@ Unlike {@{arrays}@}, lists are {@{__immutable__}@}—once constructed {@{their c
 {@{The basic list API}@} exposes {@{three core methods}@}: \(annotation: 3 items: {@{`head`, `tail`, `isEmpty`}@}\) <!--SR:!fsrs,2029-07-28T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-09-09T00:00:00.000Z!fsrs,2029-10-14T00:00:00.000Z,1115,1114.75652523,1,2,9,0,0,2026-09-25T00:00:00.000Z!2026-12-21,329,350-->
 
 - `head`, ::@:: which returns the first element; <!--SR:!fsrs,2029-07-28T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-09-09T00:00:00.000Z!fsrs,2029-07-28T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-09-09T00:00:00.000Z-->
-- `tail`, ::@:: which yields a new list containing all elements except the head; <!--SR:!2026-10-15,273,330!2026-10-12,270,330-->
+- `tail`, ::@:: which yields a new list containing all elements except the head; <!--SR:!2026-10-15,273,330!fsrs,2030-01-08T00:00:00.000Z,1184,1183.64577796,1,2,9,0,0,2026-10-12T00:00:00.000Z-->
 - `isEmpty`, ::@:: which reports whether the list contains no elements. <!--SR:!fsrs,2028-08-13T00:00:00.000Z,695,694.99996464,2.49272837,2,9,0,0,2026-09-18T00:00:00.000Z!2026-10-31,287,330-->
 
 {@{These operations}@} are defined as {@{methods on any instance of `List`}@}. For example, {@{`fruits.head` \(`fruits` is nonempty\)}@} evaluates to {@{its first element}@}, whereas calling {@{`Nil.head` throws a `NoSuchElementException`}@}. <!--SR:!fsrs,2029-10-14T00:00:00.000Z,1115,1114.75652523,1,2,9,0,0,2026-09-25T00:00:00.000Z!fsrs,2028-08-20T00:00:00.000Z,700,700.04868809,2.49272837,2,9,0,0,2026-09-20T00:00:00.000Z!fsrs,2028-11-16T00:00:00.000Z,838,838.20060054,1,2,9,0,0,2026-08-01T00:00:00.000Z!fsrs,2029-12-29T00:00:00.000Z,1176,1176.0199518,1,2,9,0,0,2026-10-10T00:00:00.000Z!2026-10-28,284,330-->
@@ -117,7 +117,7 @@ Lists are {@{the fundamental data structure}@} that will {@{recur throughout the
 > ```
 <!--SR:!fsrs,2029-12-19T00:00:00.000Z,1168,1168.38706892,1,2,9,0,0,2026-10-08T00:00:00.000Z!2026-11-04,290,330!fsrs,2029-07-08T00:00:00.000Z,1037,1037.49777357,1,2,9,0,0,2026-09-05T00:00:00.000Z!2026-10-17,275,330-->
 
-{@{Decomposition}@} is equally {@{concise}@}. {@{The head of a list}@} is accessed by {@{`.head` \(the first element\)}@}, {@{the tail by `.tail` \(a list of the remaining elements\)}@}, and {@{pattern matching}@} can be used to {@{deconstruct lists directly}@}: <!--SR:!fsrs,2028-08-24T00:00:00.000Z,703,702.57151752,2.49272837,2,9,0,0,2026-09-21T00:00:00.000Z!2026-11-05,291,330!2026-11-08,294,330!fsrs,2029-07-13T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-09-06T00:00:00.000Z!2026-10-12,270,330!2026-11-05,291,330!fsrs,2029-07-18T00:00:00.000Z,1045,1045.2595081,1,2,9,0,0,2026-09-07T00:00:00.000Z-->
+{@{Decomposition}@} is equally {@{concise}@}. {@{The head of a list}@} is accessed by {@{`.head` \(the first element\)}@}, {@{the tail by `.tail` \(a list of the remaining elements\)}@}, and {@{pattern matching}@} can be used to {@{deconstruct lists directly}@}: <!--SR:!fsrs,2028-08-24T00:00:00.000Z,703,702.57151752,2.49272837,2,9,0,0,2026-09-21T00:00:00.000Z!2026-11-05,291,330!2026-11-08,294,330!fsrs,2029-07-13T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-09-06T00:00:00.000Z!fsrs,2030-01-08T00:00:00.000Z,1184,1183.64577796,1,2,9,0,0,2026-10-12T00:00:00.000Z!2026-11-05,291,330!fsrs,2029-07-18T00:00:00.000Z,1045,1045.2595081,1,2,9,0,0,2026-09-07T00:00:00.000Z-->
 
 > [!example] __list decomposition__
 >
@@ -194,7 +194,7 @@ The `List` API offers {@{a rich set of operations}@} for {@{sublists, element ac
 > ```
 <!--SR:!2026-10-17,275,330!fsrs,2029-12-05T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-10-05T00:00:00.000Z-->
 
-Because {@{each recursive call}@} concatenates {@{a singleton list to the result of reversing the tail}@}, the complexity is {@{quadratic, `O(xs.length²)`}@}. {@{A linear-time implementation}@} would use {@{an accumulator}@}. <!--SR:!2026-10-12,270,330!fsrs,2029-07-04T00:00:00.000Z,1034,1033.61384781,1,2,9,0,0,2026-09-04T00:00:00.000Z!fsrs,2029-11-25T00:00:00.000Z,1149,1149.27403969,1,2,9,0,0,2026-10-03T00:00:00.000Z!fsrs,2029-08-02T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-09-10T00:00:00.000Z!fsrs,2028-08-06T00:00:00.000Z,690,689.94707246,2.49272837,2,9,0,0,2026-09-16T00:00:00.000Z-->
+Because {@{each recursive call}@} concatenates {@{a singleton list to the result of reversing the tail}@}, the complexity is {@{quadratic, `O(xs.length²)`}@}. {@{A linear-time implementation}@} would use {@{an accumulator}@}. <!--SR:!fsrs,2030-01-08T00:00:00.000Z,1184,1183.64577796,1,2,9,0,0,2026-10-12T00:00:00.000Z!fsrs,2029-07-04T00:00:00.000Z,1034,1033.61384781,1,2,9,0,0,2026-09-04T00:00:00.000Z!fsrs,2029-11-25T00:00:00.000Z,1149,1149.27403969,1,2,9,0,0,2026-10-03T00:00:00.000Z!fsrs,2029-08-02T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-09-10T00:00:00.000Z!fsrs,2028-08-06T00:00:00.000Z,690,689.94707246,2.49272837,2,9,0,0,2026-09-16T00:00:00.000Z-->
 
 {@{Removing the _n_-th element}@} can be defined by {@{pattern matching on the index}@}: <!--SR:!2026-10-29,285,330!fsrs,2028-07-30T00:00:00.000Z,685,684.89001444,2.49272837,2,9,0,0,2026-09-14T00:00:00.000Z-->
 
@@ -531,7 +531,7 @@ These operations are typically implemented via {@{recursion or tail-recursion}@}
 > val romanNumerals    = Map("I" -> 1, "V" -> 5, "X" -> 10)
 > val capitalOfCountry = Map("US" -> "Washington", "Switzerland" -> "Bern")
 > ```
-<!--SR:!2026-10-30,286,330!2026-10-12,270,330!2026-10-28,284,330-->
+<!--SR:!2026-10-30,286,330!fsrs,2030-01-08T00:00:00.000Z,1184,1183.64577796,1,2,9,0,0,2026-10-12T00:00:00.000Z!2026-10-28,284,330-->
 
 Maps extend {@{`Iterable[(Key, Value)]`}@}, so {@{all collection operations}@} apply {@{to key/value pairs}@}. Moreover, `Map` extends {@{the function type `Key => Value`}@}; thus a map can be {@{used as a function}@}: <!--SR:!fsrs,2028-08-17T00:00:00.000Z,698,697.52483893,2.49272837,2,9,0,0,2026-09-19T00:00:00.000Z!2026-10-31,287,330!2026-10-16,274,330!fsrs,2028-08-13T00:00:00.000Z,695,694.99996464,2.49272837,2,9,0,0,2026-09-18T00:00:00.000Z!fsrs,2029-11-12T00:00:00.000Z,1138,1137.78464757,1,2,9,0,0,2026-10-01T00:00:00.000Z-->
 
@@ -574,7 +574,7 @@ Because {@{maps are immutable}@}, updates {@{produce new maps}@}. {@{The operato
 > val m2 = m1 + ("blue" -> 3)      // blue now maps to 3
 > val m3 = m1 ++ Map("blue" -> 3)  // same as above
 > ```
-<!--SR:!fsrs,2029-10-14T00:00:00.000Z,1115,1114.75652523,1,2,9,0,0,2026-09-25T00:00:00.000Z!fsrs,2028-02-07T00:00:00.000Z,510,509.87501298,5.00637887,2,9,0,0,2026-09-15T00:00:00.000Z!2026-10-18,276,330!fsrs,2029-11-19T00:00:00.000Z,1144,1144.03786294,1,2,9,0,0,2026-10-02T00:00:00.000Z!2026-10-12,270,330!2026-10-18,276,330-->
+<!--SR:!fsrs,2029-10-14T00:00:00.000Z,1115,1114.75652523,1,2,9,0,0,2026-09-25T00:00:00.000Z!fsrs,2028-02-07T00:00:00.000Z,510,509.87501298,5.00637887,2,9,0,0,2026-09-15T00:00:00.000Z!2026-10-18,276,330!fsrs,2029-11-19T00:00:00.000Z,1144,1144.03786294,1,2,9,0,0,2026-10-02T00:00:00.000Z!fsrs,2030-01-08T00:00:00.000Z,1184,1183.64577796,1,2,9,0,0,2026-10-12T00:00:00.000Z!2026-10-18,276,330-->
 
 {@{Both operations}@} are {@{purely functional}@}: {@{the original map}@} {@{remains unchanged}@}. <!--SR:!fsrs,2028-08-24T00:00:00.000Z,703,702.57151752,2.49272837,2,9,0,0,2026-09-21T00:00:00.000Z!2026-11-03,290,330!2026-10-18,276,330!2026-11-04,290,330-->
 

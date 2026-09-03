@@ -93,7 +93,7 @@ The content is in teaching order.
 - topic: Python syntax; Python variables; Python scripting
 - [Python](Python/Python.md)
     - [§ installation](Python/Python.md#installation)
-    - Python / terminal ::@:: You can type `python` in a terminal to enter its REPL. Then you can run Python code. <!--SR:!2026-10-12,281,330!fsrs,2028-09-10T00:00:00.000Z,723,722.71793178,2.49272837,2,9,0,0,2026-09-18T00:00:00.000Z-->
+    - Python / terminal ::@:: You can type `python` in a terminal to enter its REPL. Then you can run Python code. <!--SR:!fsrs,2030-02-18T00:00:00.000Z,1225,1225.46601476,1,2,9,0,0,2026-10-12T00:00:00.000Z!fsrs,2028-09-10T00:00:00.000Z,723,722.71793178,2.49272837,2,9,0,0,2026-09-18T00:00:00.000Z-->
     - Python / [basics](Python/basics.md)
         - [§ operators](Python/basics.md#operators)
         - [§ arithmetic operators](Python/basics.md#arithmetic%20operators)

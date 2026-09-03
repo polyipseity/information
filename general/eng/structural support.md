@@ -35,7 +35,7 @@ Examples include {@{a table leg pinned by a single screw only, joints of a truss
 
 Examples include {@{a computer monitor with a single non-rotatable support, fixed supports under a bridge}@}. <!--SR:!2031-09-15,2033,330-->
 
-Note that the reaction [torque](torque.md) only makes sense when {@{you consider that the support is not a single ideal point, or otherwise the moment arm is always zero}@}. <!--SR:!2026-10-12,670,330-->
+Note that the reaction [torque](torque.md) only makes sense when {@{you consider that the support is not a single ideal point, or otherwise the moment arm is always zero}@}. <!--SR:!fsrs,2033-12-10T00:00:00.000Z,2616,2615.56569365,1,2,10,0,0,2026-10-12T00:00:00.000Z-->
 
 ## references
 
