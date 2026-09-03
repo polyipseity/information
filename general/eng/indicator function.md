@@ -57,7 +57,7 @@ __[Mean](mean.md)__ <br/> ::@:: &emsp;&emsp; $\operatorname {E} (\mathbf {1} _{A
 
 __[Variance](variance.md)__ <br/> ::@:: &emsp;&emsp; $\operatorname {Var} (\mathbf {1} _{A}(\omega ))=\operatorname {P} (A)(1-\operatorname {P} (A))$ <!--SR:!2030-02-12,1382,310!2029-08-20,1311,350-->
 
-__[Covariance](covariance.md)__ <br/> ::@:: &emsp;&emsp; $\operatorname {Cov} (\mathbf {1} _{A}(\omega ),\mathbf {1} _{B}(\omega ))=\operatorname {P} (A\cap B)-\operatorname {P} (A)\operatorname {P} (B)$ <!--SR:!2028-08-20,941,290!2026-10-13,394,250-->
+__[Covariance](covariance.md)__ <br/> ::@:: &emsp;&emsp; $\operatorname {Cov} (\mathbf {1} _{A}(\omega ),\mathbf {1} _{B}(\omega ))=\operatorname {P} (A\cap B)-\operatorname {P} (A)\operatorname {P} (B)$ <!--SR:!2028-08-20,941,290!fsrs,2030-01-28T00:00:00.000Z,1203,1203.37385516,3.98153807,2,10,0,0,2026-10-13T00:00:00.000Z-->
 
 ## characteristic function in recursion theory, Gödel's and Kleene's representing function
 

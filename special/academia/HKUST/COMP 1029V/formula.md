@@ -19,7 +19,7 @@ A formula always {@{starts with an equals sign `=`}@}. <!--SR:!2028-10-22,1340,3
 
 ## cell reference
 
-To get the value of a cell in a formula, {@{use its location, like `=A1`. This is known as a _cell reference_}@}. <!--SR:!2026-10-13,702,330-->
+To get the value of a cell in a formula, {@{use its location, like `=A1`. This is known as a _cell reference_}@}. <!--SR:!fsrs,2034-03-30T00:00:00.000Z,2725,2724.60664256,1,2,10,0,0,2026-10-13T00:00:00.000Z-->
 
 When copying and pasting formulas, the cell references in the formula are {@{offsetted by the same offset from the original cell to the copied cell}@}. To prevent this offset, {@{add ` $ ` before the column, the row, or both, like `=$A$1`}@}. <!--SR:!2027-05-05,892,330!2027-05-08,896,330-->
 

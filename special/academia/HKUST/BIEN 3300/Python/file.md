@@ -15,7 +15,7 @@ To open a file in reading mode, use {@{`open(path, "r")` or `open(path)`}@}. To 
 
 Always remember to {@{close the file by calling `file.close()`}@}. This is to ensure {@{the file is unlocked or saved properly}@}. A better method is using {@{`with`}@}, but it will not be mentioned here. <!--SR:!fsrs,2029-06-30T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-08-12T00:00:00.000Z!fsrs,2029-09-19T00:00:00.000Z,1115,1114.75652523,1,2,9,0,0,2026-08-31T00:00:00.000Z!fsrs,2029-12-24T00:00:00.000Z,1176,1176.0199518,1,2,9,0,0,2026-10-05T00:00:00.000Z-->
 
-Note that {@{opening a nonexistent file}@} will {@{throw a `FileNotFoundError`}@}. Furthermore, there are {@{other possible errors that will throw an `IOError` or a subclass of it}@}. So it is generally good to {@{catch errors}@} when opening files. <!--SR:!fsrs,2029-07-21T00:00:00.000Z,1068,1068.495917,1,2,9,0,0,2026-08-18T00:00:00.000Z!2026-10-13,276,330!2026-11-13,307,342!2026-11-12,306,342-->
+Note that {@{opening a nonexistent file}@} will {@{throw a `FileNotFoundError`}@}. Furthermore, there are {@{other possible errors that will throw an `IOError` or a subclass of it}@}. So it is generally good to {@{catch errors}@} when opening files. <!--SR:!fsrs,2029-07-21T00:00:00.000Z,1068,1068.495917,1,2,9,0,0,2026-08-18T00:00:00.000Z!fsrs,2030-01-31T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-10-13T00:00:00.000Z!2026-11-13,307,342!2026-11-12,306,342-->
 
 ## reading
 

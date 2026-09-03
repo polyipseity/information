@@ -75,7 +75,7 @@ while condition:
   statement_block
 ```
 
-The semantics of `while` is that {@{the condition is executed first}@}. If {@{the condition is `true`}@}, the statement block is {@{executed and then we repeat the above process again}@}. If {@{the condition is `false`}@}, {@{the `while` statement ends its execution}@}. <!--SR:!2026-10-13,275,330!2026-12-15,338,347!2026-12-19,342,347!2026-12-17,340,347!2026-12-17,340,347-->
+The semantics of `while` is that {@{the condition is executed first}@}. If {@{the condition is `true`}@}, the statement block is {@{executed and then we repeat the above process again}@}. If {@{the condition is `false`}@}, {@{the `while` statement ends its execution}@}. <!--SR:!fsrs,2030-01-28T00:00:00.000Z,1203,1202.68030072,1,2,9,0,0,2026-10-13T00:00:00.000Z!2026-12-15,338,347!2026-12-19,342,347!2026-12-17,340,347!2026-12-17,340,347-->
 
 If there are {@{no statements to be executed in an iteration}@}, you {@{must still put a properly indented `pass` statement}@}, which {@{does nothing, for that iteration}@}. For example: <!--SR:!2026-10-21,283,330!2026-10-14,276,330!2027-06-12,433,390-->
 

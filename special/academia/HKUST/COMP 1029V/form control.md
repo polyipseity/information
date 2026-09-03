@@ -11,7 +11,7 @@ tags:
 
 We can use form controls to create {@{user interface in spreadsheets}@}. The other option is using {@{the more flexible ActiveX controls, but they are unavailable on MacOS while form controls are}@}. <!--SR:!2027-05-28,913,330!2031-11-26,2126,330-->
 
-Some examples of form control are {@{`Button`, which is a button, and `ComboBox`, which is a dropdown selection list}@}. <!--SR:!2026-10-13,675,310-->
+Some examples of form control are {@{`Button`, which is a button, and `ComboBox`, which is a dropdown selection list}@}. <!--SR:!fsrs,2033-07-08T00:00:00.000Z,2460,2459.90978269,1,2,10,0,0,2026-10-13T00:00:00.000Z-->
 
 ## adding
 

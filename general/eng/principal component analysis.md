@@ -114,7 +114,7 @@ return chain(
 
 6. __<!--pytextgen generate section="ef78"--><!-- The following content is generated at 2024-06-11T22:43:08.554349+08:00. Any edits will be overridden! -->rearrange the eigenvectors and eigenvalues<!--/pytextgen-->__
     - Sort {@{the columns of the eigenvector matrix __V__ and eigenvalue matrix __D__ in order of _decreasing_ eigenvalue}@}.
-    - Make sure {@{the pairings between the 2 matrices are maintained}@}. <!--SR:!2028-11-11,1247,350!2026-10-13,648,330-->
+    - Make sure {@{the pairings between the 2 matrices are maintained}@}. <!--SR:!2028-11-11,1247,350!fsrs,2033-09-26T00:00:00.000Z,2540,2540.24528214,1,2,10,0,0,2026-10-13T00:00:00.000Z-->
 
 7. __<!--pytextgen generate section="dd01"--><!-- The following content is generated at 2024-06-11T22:43:08.410586+08:00. Any edits will be overridden! -->compute the cumulative variance for each eigenvector<!--/pytextgen-->__
     - The eigenvalues {@{represent the distribution of the data's variance among each of the eigenvector}@}. The cumulative variance _g_ for the _j_-th eigenvector is {@{simply the sum of the eigenvalues from the 1st to the _j_-th eigenvector}@}: {@{$$g_j = \sum_{i = 1}^j \mathbf{D}_{ii} \quad \forall j \in \set{1, \ldots, p}$$}@} <!--SR:!2027-06-30,777,290!2032-05-02,2191,330!fsrs,2032-02-17T00:00:00.000Z,2065,2065.03853956,1,2,10,0,0,2026-06-23T00:00:00.000Z-->

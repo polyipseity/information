@@ -27,7 +27,7 @@ String concatenation uses {@{`+`}@} to {@{concat strings and values converted to
 
 ## functions
 
-- `<str>.count(<substr>)` ::@:: Count the number of _non-overlapping_ occurrences of `<substr>` in `<str>`. <!--SR:!2026-10-13,276,330!fsrs,2030-01-27T00:00:00.000Z,1203,1202.68030072,1,2,9,0,0,2026-10-12T00:00:00.000Z-->
+- `<str>.count(<substr>)` ::@:: Count the number of _non-overlapping_ occurrences of `<substr>` in `<str>`. <!--SR:!fsrs,2030-01-31T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-10-13T00:00:00.000Z!fsrs,2030-01-27T00:00:00.000Z,1203,1202.68030072,1,2,9,0,0,2026-10-12T00:00:00.000Z-->
 - `<str>.find(<substr>)` ::@:: Get the index of the _first_ occurrence of `<substr>` in `<str>`, or raise `ValueError` if not found. <!--SR:!2026-10-26,289,330!2026-10-30,293,330-->
 - `<str>.lower()` ::@:: Converts all characters of `<str>` to lowercase. <!--SR:!fsrs,2029-11-07T00:00:00.000Z,1138,1137.78464757,1,2,9,0,0,2026-09-26T00:00:00.000Z!2026-10-18,281,330-->
 - `<str>.replace(<substr>, <replacement>)` ::@:: Replace _all non-overlapping_ occurrences of `<substr>` in `<str>` with `<replacement>`. <!--SR:!2026-10-20,283,330!fsrs,2029-11-12T00:00:00.000Z,1142,1141.61620684,1,2,9,0,0,2026-09-27T00:00:00.000Z-->

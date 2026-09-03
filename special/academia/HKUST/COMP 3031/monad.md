@@ -105,7 +105,7 @@ and {@{a corresponding extension}@} to add {@{`flatMap`}@}: <!--SR:!2026-11-06,2
 > ```
 <!--SR:!2026-10-23,279,330!2026-10-29,285,330-->
 
-With {@{these in place}@}, {@{the boolean generator}@} can be written {@{succinctly using `map`}@} as <!--SR:!fsrs,2029-10-22T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-09-26T00:00:00.000Z!fsrs,2029-11-29T00:00:00.000Z,1153,1153.10014712,1,2,9,0,0,2026-10-03T00:00:00.000Z!2026-10-13,272,330-->
+With {@{these in place}@}, {@{the boolean generator}@} can be written {@{succinctly using `map`}@} as <!--SR:!fsrs,2029-10-22T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-09-26T00:00:00.000Z!fsrs,2029-11-29T00:00:00.000Z,1153,1153.10014712,1,2,9,0,0,2026-10-03T00:00:00.000Z!fsrs,2030-01-16T00:00:00.000Z,1191,1191.26470738,1,2,9,0,0,2026-10-13T00:00:00.000Z-->
 
 > [!example] __boolean generator using `map`__
 >
@@ -114,7 +114,7 @@ With {@{these in place}@}, {@{the boolean generator}@} can be written {@{succinc
 > ```Scala
 > val booleans = integers.map(x => x > 0)
 > ```
-<!--SR:!fsrs,2029-12-23T00:00:00.000Z,1172,1172.20432607,1,2,9,0,0,2026-10-08T00:00:00.000Z!2026-10-24,280,330!2026-10-13,272,330-->
+<!--SR:!fsrs,2029-12-23T00:00:00.000Z,1172,1172.20432607,1,2,9,0,0,2026-10-08T00:00:00.000Z!2026-10-24,280,330!fsrs,2030-01-16T00:00:00.000Z,1191,1191.26470738,1,2,9,0,0,2026-10-13T00:00:00.000Z-->
 
 and {@{a generic pair generator}@} becomes, using {@{`flatMap`}@}: <!--SR:!fsrs,2029-06-23T00:00:00.000Z,1026,1025.83973773,1,2,9,0,0,2026-09-01T00:00:00.000Z!fsrs,2028-08-12T00:00:00.000Z,695,694.99996464,2.49272837,2,9,0,0,2026-09-17T00:00:00.000Z-->
 
@@ -126,9 +126,9 @@ and {@{a generic pair generator}@} becomes, using {@{`flatMap`}@}: <!--SR:!fsrs,
 > def pairs[T, U](t: Generator[T], u: Generator[U]) =
 >   t.flatMap(x => u.map(y => (x, y)))
 > ```
-<!--SR:!2026-10-15,274,330!2026-10-13,272,330-->
+<!--SR:!2026-10-15,274,330!fsrs,2030-01-16T00:00:00.000Z,1191,1191.26470738,1,2,9,0,0,2026-10-13T00:00:00.000Z-->
 
-The compiler rewrites {@{these _for_ expressions}@} in the same way {@{it does for collections}@}; {@{`for x <- g yield f(x)`}@} becomes {@{`g.map(f)`}@}, while {@{nested generators}@} translate into {@{successive calls to `flatMap`}@}. <!--SR:!fsrs,2029-10-27T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-09-27T00:00:00.000Z!fsrs,2029-11-29T00:00:00.000Z,1153,1153.10014712,1,2,9,0,0,2026-10-03T00:00:00.000Z!2026-11-06,292,330!fsrs,2029-10-22T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-09-26T00:00:00.000Z!2026-10-13,272,330!fsrs,2029-07-22T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-09-07T00:00:00.000Z-->
+The compiler rewrites {@{these _for_ expressions}@} in the same way {@{it does for collections}@}; {@{`for x <- g yield f(x)`}@} becomes {@{`g.map(f)`}@}, while {@{nested generators}@} translate into {@{successive calls to `flatMap`}@}. <!--SR:!fsrs,2029-10-27T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-09-27T00:00:00.000Z!fsrs,2029-11-29T00:00:00.000Z,1153,1153.10014712,1,2,9,0,0,2026-10-03T00:00:00.000Z!2026-11-06,292,330!fsrs,2029-10-22T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-09-26T00:00:00.000Z!fsrs,2030-01-16T00:00:00.000Z,1191,1191.26470738,1,2,9,0,0,2026-10-13T00:00:00.000Z!fsrs,2029-07-22T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-09-07T00:00:00.000Z-->
 
 #### generator monad recursion
 
@@ -198,7 +198,7 @@ we can generate {@{leaves and inner nodes}@} by combining {@{existing generators
 >     assert(test(value), s"test failed for $value")
 >   println(s"passed $numTimes tests")
 > ```
-<!--SR:!2026-10-13,272,330!2026-11-01,288,330!fsrs,2029-12-04T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-10-04T00:00:00.000Z!2026-10-31,287,330-->
+<!--SR:!fsrs,2030-01-16T00:00:00.000Z,1191,1191.26470738,1,2,9,0,0,2026-10-13T00:00:00.000Z!2026-11-01,288,330!fsrs,2029-12-04T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-10-04T00:00:00.000Z!2026-10-31,287,330-->
 
 {@{An example property}@} that {@{fails}@} is <!--SR:!fsrs,2029-10-27T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-09-27T00:00:00.000Z!2026-10-17,276,330-->
 
@@ -214,7 +214,7 @@ we can generate {@{leaves and inner nodes}@} by combining {@{existing generators
 >
 > which should be corrected {@{to `>=` instead of `>`}@}.  This illustrates how {@{generators can reveal subtle invariants}@}. <!--SR:!fsrs,2028-02-03T00:00:00.000Z,508,507.95545468,5.00637887,2,9,0,0,2026-09-13T00:00:00.000Z!2026-10-14,273,330!fsrs,2029-10-22T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-09-26T00:00:00.000Z!2026-11-04,290,330-->
 
-The same idea is {@{used in the _ScalaCheck_ library}@}.  {@{A property expressed as a lambda}@} can be automatically {@{checked against many random inputs}@}: <!--SR:!fsrs,2030-01-11T00:00:00.000Z,1187,1187.45608877,1,2,9,0,0,2026-10-12T00:00:00.000Z!2026-10-13,272,330!fsrs,2029-07-12T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-09-05T00:00:00.000Z-->
+The same idea is {@{used in the _ScalaCheck_ library}@}.  {@{A property expressed as a lambda}@} can be automatically {@{checked against many random inputs}@}: <!--SR:!fsrs,2030-01-11T00:00:00.000Z,1187,1187.45608877,1,2,9,0,0,2026-10-12T00:00:00.000Z!fsrs,2030-01-16T00:00:00.000Z,1191,1191.26470738,1,2,9,0,0,2026-10-13T00:00:00.000Z!fsrs,2029-07-12T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-09-05T00:00:00.000Z-->
 
 > [!example] ___ScalaCheck___
 >
@@ -290,7 +290,7 @@ Because {@{every monad supports this construction}@}, it is often convenient to 
 
 {@{Scala's syntactic sugar}@} for {@{monadic composition}@} is {@{the `for`-expression}@}. <!--SR:!fsrs,2029-11-01T00:00:00.000Z,1130,1130.11601442,1,2,9,0,0,2026-09-28T00:00:00.000Z!2026-10-15,274,330!2026-10-29,285,330-->
 
-{@{Associativity}@} guarantee that {@{nested `for`-expressions}@} can {@{always be collapsed into a single `for`-expression}@}: <!--SR:!2026-10-13,272,330!2026-10-17,276,330!2027-04-20,419,390-->
+{@{Associativity}@} guarantee that {@{nested `for`-expressions}@} can {@{always be collapsed into a single `for`-expression}@}: <!--SR:!fsrs,2030-01-16T00:00:00.000Z,1191,1191.26470738,1,2,9,0,0,2026-10-13T00:00:00.000Z!2026-10-17,276,330!2027-04-20,419,390-->
 
 > [!example] __flatten `for`-expressions__
 >

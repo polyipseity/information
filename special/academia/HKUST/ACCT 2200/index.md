@@ -196,7 +196,7 @@ The content is in teaching order.
         - process costing / weighted average / advantages ::@:: It is simpler, thus more often used in the real world. <!--SR:!fsrs,2032-07-17T00:00:00.000Z,2122,2121.81441071,1,2,10,0,0,2026-09-25T00:00:00.000Z!fsrs,2032-08-09T00:00:00.000Z,2146,2145.97655349,1,2,10,0,0,2026-09-24T00:00:00.000Z-->
         - process costing / weighted average / disadvantages ::@:: May not be as accurate, especially for companies with significant inventories. <!--SR:!2029-05-03,1208,382!fsrs,2032-04-09T00:00:00.000Z,2041,2040.98347043,1,2,10,0,0,2026-09-07T00:00:00.000Z-->
     - process costing / first-in, first-out (FIFO)
-        - process costing / first-in, first-out (FIFO) / advantages ::@:: More accurate (closely match the actual/physical cost flow), especially for companies with significant inventories. <!--SR:!fsrs,2030-05-20T00:00:00.000Z,1335,1335.41985716,1,2,10,0,0,2026-09-23T00:00:00.000Z!2026-10-13,475,388-->
+        - process costing / first-in, first-out (FIFO) / advantages ::@:: More accurate (closely match the actual/physical cost flow), especially for companies with significant inventories. <!--SR:!fsrs,2030-05-20T00:00:00.000Z,1335,1335.41985716,1,2,10,0,0,2026-09-23T00:00:00.000Z!fsrs,2032-10-15T00:00:00.000Z,2194,2194.18434604,1,2,10,0,0,2026-10-13T00:00:00.000Z-->
         - process costing / first-in, first-out (FIFO) / disadvantages ::@:: It is more complicated, thus rarely used in the real world. <!--SR:!fsrs,2032-01-09T00:00:00.000Z,1968,1967.83883924,1,2,10,0,0,2026-08-20T00:00:00.000Z!2030-09-26,1608,388-->
 
 ## week 3 lecture 2
