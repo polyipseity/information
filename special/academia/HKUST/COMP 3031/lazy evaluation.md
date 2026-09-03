@@ -316,7 +316,7 @@ Because {@{the tail of a lazy list}@} is {@{lazily evaluated}@}, it can {@{repre
 >           prev.updated(f, prev(f) - amount).updated(t, prev(t) + amount)
 >   // more ...
 > ```
-> <!--SR:!2026-10-11,266,330!2026-11-29,300,345!2027-01-07,331,345-->
+> <!--SR:!fsrs,2029-12-22T00:00:00.000Z,1168,1168.38706892,1,2,9,0,0,2026-10-11T00:00:00.000Z!2026-11-29,300,345!2027-01-07,331,345-->
 
 Under {@{the class `Pouring`}@}, {@{all glasses and possible moves}@} are {@{generated}@}: <!--SR:!2026-11-14,289,345!2026-11-09,284,345!2026-10-28,272,345-->
 

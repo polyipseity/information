@@ -51,7 +51,7 @@ The goal is to implement {@{a method `encode(phoneNumber)`}@} that returns {@{ev
 
 #### `Coder.charCode`
 
-{@{The first helper, `charCode`}@}, maps {@{any alphabetic character to its corresponding digit}@}. Using {@{a for-comprehension}@} we {@{invert the `mnemonics` map}@}: <!--SR:!2026-10-27,283,330!fsrs,2028-08-16T00:00:00.000Z,700,700.04868809,2.49272837,2,9,0,0,2026-09-16T00:00:00.000Z!fsrs,2028-08-20T00:00:00.000Z,703,702.57151752,2.49272837,2,9,0,0,2026-09-17T00:00:00.000Z!2026-10-11,271,330-->
+{@{The first helper, `charCode`}@}, maps {@{any alphabetic character to its corresponding digit}@}. Using {@{a for-comprehension}@} we {@{invert the `mnemonics` map}@}: <!--SR:!2026-10-27,283,330!fsrs,2028-08-16T00:00:00.000Z,700,700.04868809,2.49272837,2,9,0,0,2026-09-16T00:00:00.000Z!fsrs,2028-08-20T00:00:00.000Z,703,702.57151752,2.49272837,2,9,0,0,2026-09-17T00:00:00.000Z!fsrs,2030-01-10T00:00:00.000Z,1187,1187.45608877,1,2,9,0,0,2026-10-11T00:00:00.000Z-->
 
 > [!example] __`Coder.charCode`__
 >
@@ -96,7 +96,7 @@ With {@{`charCode` available}@}, {@{any word}@} can be turned {@{into the numeri
 
 ### `Coder.encode`
 
-{@{The core algorithm}@} is {@{a classic recursive split}@}.  If {@{the input number is empty}@}, {@{the only encoding}@} is {@{the empty list}@}; otherwise we try {@{every possible prefix length}@} and combine {@{the results of the suffix recursively}@}: <!--SR:!fsrs,2028-02-09T00:00:00.000Z,514,513.71227157,5.00637887,2,9,0,0,2026-09-13T00:00:00.000Z!fsrs,2029-12-20T00:00:00.000Z,1172,1172.20432607,1,2,9,0,0,2026-10-05T00:00:00.000Z!2026-10-21,277,330!2026-10-27,283,330!2026-10-16,276,330!2026-10-11,271,330!2026-11-02,289,330-->
+{@{The core algorithm}@} is {@{a classic recursive split}@}.  If {@{the input number is empty}@}, {@{the only encoding}@} is {@{the empty list}@}; otherwise we try {@{every possible prefix length}@} and combine {@{the results of the suffix recursively}@}: <!--SR:!fsrs,2028-02-09T00:00:00.000Z,514,513.71227157,5.00637887,2,9,0,0,2026-09-13T00:00:00.000Z!fsrs,2029-12-20T00:00:00.000Z,1172,1172.20432607,1,2,9,0,0,2026-10-05T00:00:00.000Z!2026-10-21,277,330!2026-10-27,283,330!2026-10-16,276,330!fsrs,2030-01-10T00:00:00.000Z,1187,1187.45608877,1,2,9,0,0,2026-10-11T00:00:00.000Z!2026-11-02,289,330-->
 
 > [!example] __`Coder.encode`__
 >
@@ -196,7 +196,7 @@ The same syntax can be used to {@{find all books whose title}@} contains {@{the 
 > ```Scala
 > for (b <- books if b.title.indexOf("Program") >= 0) yield b.title
 > ```
-<!--SR:!fsrs,2030-01-06T00:00:00.000Z,1184,1183.64577796,1,2,9,0,0,2026-10-10T00:00:00.000Z!2026-10-11,271,330-->
+<!--SR:!fsrs,2030-01-06T00:00:00.000Z,1184,1183.64577796,1,2,9,0,0,2026-10-10T00:00:00.000Z!fsrs,2030-01-10T00:00:00.000Z,1187,1187.45608877,1,2,9,0,0,2026-10-11T00:00:00.000Z-->
 
 ### complex database queries
 
@@ -235,7 +235,7 @@ Running {@{this against the sample list}@} returns {@{each qualifying author twi
 > } yield a1
 > repeated.distinct  // removes duplicate author names
 > ```
-<!--SR:!fsrs,2029-07-29T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-09-06T00:00:00.000Z!2026-10-11,271,330!2026-11-01,288,330!2026-11-02,289,330!2026-10-20,276,330-->
+<!--SR:!fsrs,2029-07-29T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-09-06T00:00:00.000Z!fsrs,2030-01-10T00:00:00.000Z,1187,1187.45608877,1,2,9,0,0,2026-10-11T00:00:00.000Z!2026-11-01,288,330!2026-11-02,289,330!2026-10-20,276,330-->
 
 {@{An alternative to avoid duplicate book results}@} is to use {@{a `Set` to store the starting collection `books`}@}. Remember {@{`for` expressions}@} {@{desugar to `map`, `flatMap`, and `withFilter`}@}. Since these operations {@{usually return the same type as that of the original collection}@}, this means {@{the resulting type of `repeated` is a `Set` as well}@}, which {@{automagically deduplicates}@}. In most cases, {@{a `for` expression}@} returns {@{the same type as the starting collection type}@}. <!--SR:!2026-10-19,275,330!2026-10-20,276,330!fsrs,2029-08-08T00:00:00.000Z,1065,1064.62815785,1,2,9,0,0,2026-09-08T00:00:00.000Z!2026-10-12,272,330!2026-10-15,275,330!fsrs,2029-08-22T00:00:00.000Z,1076,1076.22532725,1,2,9,0,0,2026-09-11T00:00:00.000Z!fsrs,2028-08-13T00:00:00.000Z,698,697.52483893,2.49272837,2,9,0,0,2026-09-15T00:00:00.000Z!2026-10-14,274,330!fsrs,2028-02-12T00:00:00.000Z,516,515.62997874,5.00637887,2,9,0,0,2026-09-14T00:00:00.000Z-->
 

@@ -9,7 +9,7 @@ tags:
 
 # apparent retrograde motion
 
-__Apparent retrograde motion__ is {@{the apparent motion of a [planet](planet.md) in a direction opposite to that of other bodies within its system, as observed from a particular vantage point}@}. {@{__Direct motion__ or __prograde motion__}@} is {@{motion in the same direction as other bodies}@}. From [Earth](Earth.md), {@{the [Moon](Moon.md)'s eastward motion day after day is the direction of direct motion}@}. <!--SR:!2027-01-01,638,310!2028-04-06,1065,350!2026-10-11,630,330!2027-03-15,738,330-->
+__Apparent retrograde motion__ is {@{the apparent motion of a [planet](planet.md) in a direction opposite to that of other bodies within its system, as observed from a particular vantage point}@}. {@{__Direct motion__ or __prograde motion__}@} is {@{motion in the same direction as other bodies}@}. From [Earth](Earth.md), {@{the [Moon](Moon.md)'s eastward motion day after day is the direction of direct motion}@}. <!--SR:!2027-01-01,638,310!2028-04-06,1065,350!fsrs,2033-07-24T00:00:00.000Z,2478,2478.39553519,1,2,10,0,0,2026-10-11T00:00:00.000Z!2027-03-15,738,330-->
 
 ## apparent motion
 

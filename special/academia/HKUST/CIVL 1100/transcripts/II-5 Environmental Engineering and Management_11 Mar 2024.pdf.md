@@ -267,7 +267,7 @@ HATS Stage 2A — Overall Layout
 Sewage Conveyance System
 
 - HATS Stage 2A
-    - HATS Stage 2A tunnel ::@:: a drop shaft, a tunnel, and a riser shaft, from PTWs to SCISTW across the Victoria Harbour <!--SR:!2030-06-23,1622,330!2026-10-11,597,310-->
+    - HATS Stage 2A tunnel ::@:: a drop shaft, a tunnel, and a riser shaft, from PTWs to SCISTW across the Victoria Harbour <!--SR:!2030-06-23,1622,330!fsrs,2032-10-28T00:00:00.000Z,2209,2208.50423399,1,2,10,0,0,2026-10-11T00:00:00.000Z-->
         - HATS Stage 2A tunnel sizes ::@:: 21 km tunnel, about 70 to 160 m (inside bedrock) below sea level <!--SR:!2029-04-06,1210,270!2029-01-29,1334,350-->
 
 ## page 21

@@ -41,7 +41,7 @@ tags:
 > - AX<sub>2</sub>E<sub>0</sub>
 >     - AX<sub>2</sub>E<sub>0</sub> / [shape](molecular%20geometry.md) ::@:: [linear](linear%20molecular%20geometry.md)<br/>![linear](../../archives/Wikimedia%20Commons/AX2E0-3D-balls.png) <!--SR:!2027-03-19,322,345!2027-05-19,383,361-->
 >     - AX<sub>2</sub>E<sub>0</sub> / ideal bond angle(s) :@: 180° <!--SR:!fsrs,2028-04-11T00:00:00.000Z,611,611.37794575,1.22984669,2,8,0,0,2026-08-09T00:00:00.000Z-->
->     - AX<sub>2</sub>E<sub>0</sub> / example(s) ::@:: [CO<sub>2</sub>](carbon%20dioxide.md) <!--SR:!2027-04-09,343,345!2026-10-11,203,325-->
+>     - AX<sub>2</sub>E<sub>0</sub> / example(s) ::@:: [CO<sub>2</sub>](carbon%20dioxide.md) <!--SR:!2027-04-09,343,345!fsrs,2029-04-06T00:00:00.000Z,908,908.0771299,1,2,9,0,0,2026-10-11T00:00:00.000Z-->
 > - AX<sub>2</sub>E<sub>1</sub>
 >     - AX<sub>2</sub>E<sub>1</sub> / [shape](molecular%20geometry.md) ::@:: [bent](bent%20molecular%20geometry.md)<br/>![bent](../../archives/Wikimedia%20Commons/AX2E1-3D-balls.png) <!--SR:!2027-04-02,336,345!fsrs,2028-04-24T00:00:00.000Z,567,566.75169301,2.68004087,2,9,0,0,2026-10-05T00:00:00.000Z-->
 >     - AX<sub>2</sub>E<sub>1</sub> / ideal bond angle(s) :@: 120° <!--SR:!2027-02-28,296,305-->
@@ -89,7 +89,7 @@ tags:
 > - AX<sub>5</sub>E<sub>2</sub>
 >     - AX<sub>5</sub>E<sub>2</sub> / [shape](molecular%20geometry.md) ::@:: [pentagonal planar](pentagonal%20planar%20molecular%20geometry.md)<br/>![pentagonal planar](../../archives/Wikimedia%20Commons/AX5E2-3D-balls.png) <!--SR:!fsrs,2027-09-05T00:00:00.000Z,392,391.68345654,3.42929087,2,8,0,0,2026-08-09T00:00:00.000Z!2027-02-17,290,341-->
 >     - AX<sub>5</sub>E<sub>2</sub> / ideal bond angle(s) :@: 72° <!--SR:!2026-12-18,231,325-->
->     - AX<sub>5</sub>E<sub>2</sub> / example(s) ::@:: XeF<sub>5</sub><sup>-</sup> <!--SR:!fsrs,2027-09-01T00:00:00.000Z,389,389.1934457,3.42929087,2,8,0,0,2026-08-08T00:00:00.000Z!2026-10-11,203,325-->
+>     - AX<sub>5</sub>E<sub>2</sub> / example(s) ::@:: XeF<sub>5</sub><sup>-</sup> <!--SR:!fsrs,2027-09-01T00:00:00.000Z,389,389.1934457,3.42929087,2,8,0,0,2026-08-08T00:00:00.000Z!fsrs,2029-04-06T00:00:00.000Z,908,908.0771299,1,2,9,0,0,2026-10-11T00:00:00.000Z-->
 > - AX<sub>6</sub>E<sub>0</sub>
 >     - AX<sub>6</sub>E<sub>0</sub> / [shape](molecular%20geometry.md) ::@:: [octahedral](octahedral%20molecular%20geometry.md)<br/>![octahedral](../../archives/Wikimedia%20Commons/AX6E0-3D-balls.png) <!--SR:!2027-03-11,314,345!2027-02-03,276,341-->
 >     - AX<sub>6</sub>E<sub>0</sub> / ideal bond angle(s) :@: 90° <!--SR:!2027-04-08,342,345-->

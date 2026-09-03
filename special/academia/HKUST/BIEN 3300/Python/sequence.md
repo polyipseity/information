@@ -70,7 +70,7 @@ If {@{the index \(but not slicing\) is out of range}@} \(regardless if {@{it is 
 
 ## concatenation
 
-Concatenation means {@{joining several sequences into one larger sequence}@}. It is as simple as using {@{the operator `+`}@}: <!--SR:!2026-10-18,287,330!2026-10-11,280,330-->
+Concatenation means {@{joining several sequences into one larger sequence}@}. It is as simple as using {@{the operator `+`}@}: <!--SR:!2026-10-18,287,330!fsrs,2030-02-14T00:00:00.000Z,1222,1221.67255456,1,2,9,0,0,2026-10-11T00:00:00.000Z-->
 
 ```Python
 assert "abc" + "def" == "abcdef"

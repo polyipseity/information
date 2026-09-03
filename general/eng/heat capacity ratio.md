@@ -21,7 +21,7 @@ tags:
 > - {@{$C$}@} is {@{the [heat capacity](heat%20capcaity.md)}@}
 > - {@{$\bar{C}$}@} is {@{the [molar heat capacity](molar%20heat%20capacity.md)}@}
 > - {@{$c$}@} is {@{the [specific heat capacity](specific%20heat%20capacity.md)}@}
-> - {@{the subscript $p$ and $V$}@} means {@{[constant pressure](isobaric%20process.md) and [constant volume](isochoric%20process.md) respectively}@} <!--SR:!2028-04-01,1219,350!2030-12-21,1799,290!2026-10-11,250,346!2027-02-17,362,366!2027-03-08,376,366!2027-04-01,394,366!2027-03-31,393,366!2027-04-03,396,366!2027-04-04,397,366-->
+> - {@{the subscript $p$ and $V$}@} means {@{[constant pressure](isobaric%20process.md) and [constant volume](isochoric%20process.md) respectively}@} <!--SR:!2028-04-01,1219,350!2030-12-21,1799,290!fsrs,2029-12-22T00:00:00.000Z,1168,1167.56426279,1,2,9,0,0,2026-10-11T00:00:00.000Z!2027-02-17,362,366!2027-03-08,376,366!2027-04-01,394,366!2027-03-31,393,366!2027-04-03,396,366!2027-04-04,397,366-->
 
 <!-- markdownlint MD028 -->
 
