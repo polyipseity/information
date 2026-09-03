@@ -55,7 +55,7 @@ tags:
 >     - AX<sub>2</sub>E<sub>3</sub> / ideal bond angle(s) :@: 180° <!--SR:!fsrs,2028-06-17T00:00:00.000Z,657,656.6160178,1.22984669,2,8,0,0,2026-08-30T00:00:00.000Z-->
 >     - AX<sub>2</sub>E<sub>3</sub> / example(s) ::@:: [XeF<sub>2</sub>](xenon%20difluoride.md) <!--SR:!fsrs,2028-04-24T00:00:00.000Z,567,566.75169301,2.68004087,2,9,0,0,2026-10-05T00:00:00.000Z!fsrs,2027-05-15T00:00:00.000Z,276,275.8636202,4.23169184,2,7,0,0,2026-08-12T00:00:00.000Z-->
 > - AX<sub>3</sub>E<sub>0</sub>
->     - AX<sub>3</sub>E<sub>0</sub> / [shape](molecular%20geometry.md) ::@:: [trigonal planar](trigonal%20planar%20molecular%20geometry.md)<br/>![trigonal planar](../../archives/Wikimedia%20Commons/AX3E0-3D-balls.png) <!--SR:!2027-04-05,339,345!2026-10-10,202,325-->
+>     - AX<sub>3</sub>E<sub>0</sub> / [shape](molecular%20geometry.md) ::@:: [trigonal planar](trigonal%20planar%20molecular%20geometry.md)<br/>![trigonal planar](../../archives/Wikimedia%20Commons/AX3E0-3D-balls.png) <!--SR:!2027-04-05,339,345!fsrs,2029-04-01T00:00:00.000Z,904,904.19353564,1,2,9,0,0,2026-10-10T00:00:00.000Z-->
 >     - AX<sub>3</sub>E<sub>0</sub> / ideal bond angle(s) :@: 120° <!--SR:!fsrs,2027-09-04T16:39:00.381Z,454,454.30619422,1.22984669,2,8,0,0,2026-06-07T16:39:00.381Z-->
 >     - AX<sub>3</sub>E<sub>0</sub> / example(s) ::@:: [BF<sub>3</sub>](boron%20trifluoride.md) <!--SR:!2027-05-28,391,361!fsrs,2028-05-05T00:00:00.000Z,574,574.38216194,2.68004087,2,9,0,0,2026-10-09T00:00:00.000Z-->
 > - AX<sub>3</sub>E<sub>1</sub>
@@ -81,7 +81,7 @@ tags:
 > - AX<sub>5</sub>E<sub>0</sub>
 >     - AX<sub>5</sub>E<sub>0</sub> / [shape](molecular%20geometry.md) ::@:: [trigonal bipyramidal](trigonal%20bipyramidal%20molecular%20geometry.md)<br/>![trigonal bipyramidal](../../archives/Wikimedia%20Commons/Trigonal-bipyramidal-3D-balls.png) <!--SR:!2026-10-20,172,281!2027-04-08,342,345-->
 >     - AX<sub>5</sub>E<sub>0</sub> / ideal bond angle(s) :@: 90°, 120° <!--SR:!2027-03-08,311,345-->
->     - AX<sub>5</sub>E<sub>0</sub> / example(s) ::@:: [PCl<sub>5</sub>](phosphorous%20pentachloride.md) <!--SR:!2026-10-20,139,325!2026-10-10,202,325-->
+>     - AX<sub>5</sub>E<sub>0</sub> / example(s) ::@:: [PCl<sub>5</sub>](phosphorous%20pentachloride.md) <!--SR:!2026-10-20,139,325!fsrs,2029-04-01T00:00:00.000Z,904,904.19353564,1,2,9,0,0,2026-10-10T00:00:00.000Z-->
 > - AX<sub>5</sub>E<sub>1</sub>
 >     - AX<sub>5</sub>E<sub>1</sub> / [shape](molecular%20geometry.md) ::@:: [square pyramidal](square%20pyramidal%20molecular%20geometry.md)<br/>![square pyramidal](../../archives/Wikimedia%20Commons/AX5E1-3D-balls.png) <!--SR:!fsrs,2027-05-31T00:00:00.000Z,293,293.09684021,3.42929087,2,8,0,0,2026-08-11T00:00:00.000Z!2027-04-04,338,345-->
 >     - AX<sub>5</sub>E<sub>1</sub> / ideal bond angle(s) :@: 90° <!--SR:!2027-03-31,334,345-->

@@ -164,7 +164,7 @@ Also, one {@{CAN chain comparison operators}@} in Python, unlike {@{many other l
 
 ### logic operators
 
-Below are common logic operators, all of which {@{accept two booleans and return a boolean}@}. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. Operators higher in the list {@{have higher precedence}@}: <!--SR:!2026-10-10,279,330!2026-12-31,351,349!2026-12-11,331,349!2026-12-25,345,349-->
+Below are common logic operators, all of which {@{accept two booleans and return a boolean}@}. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. Operators higher in the list {@{have higher precedence}@}: <!--SR:!fsrs,2030-02-09T00:00:00.000Z,1218,1217.87747351,1,2,9,0,0,2026-10-10T00:00:00.000Z!2026-12-31,351,349!2026-12-11,331,349!2026-12-25,345,349-->
 
 ```Python
 # pytextgen generate data

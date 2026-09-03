@@ -41,7 +41,7 @@ In Scala {@{a __list__}@} is {@{the canonical immutable linear data structure}@}
 > ```
 <!--SR:!fsrs,2029-07-08T00:00:00.000Z,1037,1037.49777357,1,2,9,0,0,2026-09-05T00:00:00.000Z!fsrs,2029-12-19T00:00:00.000Z,1168,1168.38706892,1,2,9,0,0,2026-10-08T00:00:00.000Z-->
 
-Unlike {@{arrays}@}, lists are {@{__immutable__}@}—once constructed {@{their contents cannot be altered}@}—and they are inherently {@{__recursive__}@}; {@{each element is prepended}@} to a list by storing {@{the element and the remaining of the list as another list}@}. Lists are also {@{__homogeneous__}@}: all elements must {@{share the same type _T_}@}, so {@{a list of integers}@} is written {@{`List[Int]`}@} and its type annotation can be {@{omitted when inferred}@}. <!--SR:!2026-10-10,268,330!2026-11-03,290,330!2026-10-29,285,330!fsrs,2029-10-23T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-09-27T00:00:00.000Z!fsrs,2028-08-24T00:00:00.000Z,703,702.57151752,2.49272837,2,9,0,0,2026-09-21T00:00:00.000Z!fsrs,2029-07-18T00:00:00.000Z,1045,1045.2595081,1,2,9,0,0,2026-09-07T00:00:00.000Z!fsrs,2029-11-30T00:00:00.000Z,1153,1153.10014712,1,2,9,0,0,2026-10-04T00:00:00.000Z!2026-10-11,269,330!fsrs,2029-12-19T00:00:00.000Z,1168,1168.38706892,1,2,9,0,0,2026-10-08T00:00:00.000Z!2026-10-19,277,330!2026-11-07,293,330-->
+Unlike {@{arrays}@}, lists are {@{__immutable__}@}—once constructed {@{their contents cannot be altered}@}—and they are inherently {@{__recursive__}@}; {@{each element is prepended}@} to a list by storing {@{the element and the remaining of the list as another list}@}. Lists are also {@{__homogeneous__}@}: all elements must {@{share the same type _T_}@}, so {@{a list of integers}@} is written {@{`List[Int]`}@} and its type annotation can be {@{omitted when inferred}@}. <!--SR:!fsrs,2029-12-29T00:00:00.000Z,1176,1176.0199518,1,2,9,0,0,2026-10-10T00:00:00.000Z!2026-11-03,290,330!2026-10-29,285,330!fsrs,2029-10-23T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-09-27T00:00:00.000Z!fsrs,2028-08-24T00:00:00.000Z,703,702.57151752,2.49272837,2,9,0,0,2026-09-21T00:00:00.000Z!fsrs,2029-07-18T00:00:00.000Z,1045,1045.2595081,1,2,9,0,0,2026-09-07T00:00:00.000Z!fsrs,2029-11-30T00:00:00.000Z,1153,1153.10014712,1,2,9,0,0,2026-10-04T00:00:00.000Z!2026-10-11,269,330!fsrs,2029-12-19T00:00:00.000Z,1168,1168.38706892,1,2,9,0,0,2026-10-08T00:00:00.000Z!2026-10-19,277,330!2026-11-07,293,330-->
 
 {@{Every list}@} in Scala is {@{built from two primitives}@}. {@{The empty list}@} is denoted by {@{the constant `Nil`}@}, while {@{the cons operator `::`}@} constructs {@{a new list by prepending an element to an existing one (`x :: xs`)}@}. Because {@{operators ending with a colon}@} {@{associate to the right}@}, {@{a sequence of cons operations}@} can be {@{written without parentheses}@}: <!--SR:!2026-10-13,271,330!fsrs,2029-07-13T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-09-06T00:00:00.000Z!fsrs,2029-12-24T00:00:00.000Z,1172,1172.20432607,1,2,9,0,0,2026-10-09T00:00:00.000Z!fsrs,2029-10-19T00:00:00.000Z,1119,1118.59914239,1,2,9,0,0,2026-09-26T00:00:00.000Z!fsrs,2029-12-24T00:00:00.000Z,1172,1172.20432607,1,2,9,0,0,2026-10-09T00:00:00.000Z!2026-10-23,281,330!2026-10-22,280,330!fsrs,2029-10-28T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-09-28T00:00:00.000Z!fsrs,2028-02-01T00:00:00.000Z,506,506.03526322,5.00637887,2,9,0,0,2026-09-13T00:00:00.000Z!2026-11-07,293,330-->
 
@@ -63,7 +63,7 @@ Unlike {@{arrays}@}, lists are {@{__immutable__}@}—once constructed {@{their c
 - `tail`, ::@:: which yields a new list containing all elements except the head; <!--SR:!2026-10-15,273,330!2026-10-12,270,330-->
 - `isEmpty`, ::@:: which reports whether the list contains no elements. <!--SR:!fsrs,2028-08-13T00:00:00.000Z,695,694.99996464,2.49272837,2,9,0,0,2026-09-18T00:00:00.000Z!2026-10-31,287,330-->
 
-{@{These operations}@} are defined as {@{methods on any instance of `List`}@}. For example, {@{`fruits.head` \(`fruits` is nonempty\)}@} evaluates to {@{its first element}@}, whereas calling {@{`Nil.head` throws a `NoSuchElementException`}@}. <!--SR:!fsrs,2029-10-14T00:00:00.000Z,1115,1114.75652523,1,2,9,0,0,2026-09-25T00:00:00.000Z!fsrs,2028-08-20T00:00:00.000Z,700,700.04868809,2.49272837,2,9,0,0,2026-09-20T00:00:00.000Z!fsrs,2028-11-16T00:00:00.000Z,838,838.20060054,1,2,9,0,0,2026-08-01T00:00:00.000Z!2026-10-10,268,330!2026-10-28,284,330-->
+{@{These operations}@} are defined as {@{methods on any instance of `List`}@}. For example, {@{`fruits.head` \(`fruits` is nonempty\)}@} evaluates to {@{its first element}@}, whereas calling {@{`Nil.head` throws a `NoSuchElementException`}@}. <!--SR:!fsrs,2029-10-14T00:00:00.000Z,1115,1114.75652523,1,2,9,0,0,2026-09-25T00:00:00.000Z!fsrs,2028-08-20T00:00:00.000Z,700,700.04868809,2.49272837,2,9,0,0,2026-09-20T00:00:00.000Z!fsrs,2028-11-16T00:00:00.000Z,838,838.20060054,1,2,9,0,0,2026-08-01T00:00:00.000Z!fsrs,2029-12-29T00:00:00.000Z,1176,1176.0199518,1,2,9,0,0,2026-10-10T00:00:00.000Z!2026-10-28,284,330-->
 
 Pattern matching works {@{seamlessly with lists}@}. {@{The constant `Nil`}@} matches {@{an empty list}@}; {@{the pattern `p :: ps`}@} matches {@{a non-empty list}@} whose first element {@{satisfies pattern `p` and whose remainder satisfies pattern `ps`}@}. {@{A shorthand}@} for {@{a concrete list of length _n_}@} is {@{`List(p₁, ..., pₙ)`}@}, which expands to {@{nested conses ending in `Nil`}@}. For instance, {@{the pattern `1 :: 2 :: xs`}@} matches {@{any list that begins with `1` followed by `2`}@}, while {@{`x :: Nil`}@} matches {@{a singleton list}@}. {@{More elaborate patterns}@} such as {@{`x :: y :: List(xs, ys) :: zs`}@} illustrate {@{nested matching}@}. <!--SR:!2026-10-31,287,330!fsrs,2028-08-20T00:00:00.000Z,700,700.04868809,2.49272837,2,9,0,0,2026-09-20T00:00:00.000Z!fsrs,2029-12-19T00:00:00.000Z,1168,1168.38706892,1,2,9,0,0,2026-10-08T00:00:00.000Z!fsrs,2029-07-08T00:00:00.000Z,1037,1037.49777357,1,2,9,0,0,2026-09-05T00:00:00.000Z!fsrs,2029-06-29T00:00:00.000Z,1030,1029.72783972,1,2,9,0,0,2026-09-03T00:00:00.000Z!fsrs,2029-12-19T00:00:00.000Z,1168,1168.38706892,1,2,9,0,0,2026-10-08T00:00:00.000Z!fsrs,2028-08-13T00:00:00.000Z,695,694.99996464,2.49272837,2,9,0,0,2026-09-18T00:00:00.000Z!2026-10-23,281,330!2026-10-13,271,330!fsrs,2029-11-30T00:00:00.000Z,1153,1153.10014712,1,2,9,0,0,2026-10-04T00:00:00.000Z!fsrs,2029-07-23T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-09-08T00:00:00.000Z!fsrs,2029-10-19T00:00:00.000Z,1119,1118.59914239,1,2,9,0,0,2026-09-26T00:00:00.000Z!fsrs,2029-07-13T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-09-06T00:00:00.000Z!fsrs,2029-12-05T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-10-05T00:00:00.000Z!fsrs,2028-02-01T00:00:00.000Z,506,506.03526322,5.00637887,2,9,0,0,2026-09-13T00:00:00.000Z!2026-10-29,285,330!2026-10-27,283,330-->
 
@@ -135,7 +135,7 @@ Lists are {@{the fundamental data structure}@} that will {@{recur throughout the
 >   case x :: y :: _ => x + y  // 3
 > }
 > ```
-<!--SR:!2026-10-27,283,330!2026-10-11,269,330!2026-10-10,268,330!2026-10-21,279,330!2026-11-08,294,330!fsrs,2029-08-21T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-09-14T00:00:00.000Z!2026-10-26,282,330-->
+<!--SR:!2026-10-27,283,330!2026-10-11,269,330!fsrs,2029-12-29T00:00:00.000Z,1176,1176.0199518,1,2,9,0,0,2026-10-10T00:00:00.000Z!2026-10-21,279,330!2026-11-08,294,330!fsrs,2029-08-21T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-09-14T00:00:00.000Z!2026-10-26,282,330-->
 
 The `List` API offers {@{a rich set of operations}@} for {@{sublists, element access, and construction}@}. Methods such as {@{`.length`, `.take(n)`, `.drop(n)`}@}, {@{`.last` \(the last element\), `.init` \(a list of all the elements except for `.last`\) and the indexer `xs(n)`}@} provide {@{standard functional list manipulation}@}. {@{The last three}@} are {@{_partial_ methods}@} because they {@{throw exceptions on empty lists or out-of-range indices}@}; consequently it is preferable to {@{use safer alternatives whenever possible}@}. <!--SR:!2026-11-08,294,330!fsrs,2029-10-23T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-09-27T00:00:00.000Z!2026-10-18,276,330!fsrs,2028-07-09T14:11:53.577Z,756,756.20650093,1,2,8,0,0,2026-06-14T14:11:53.577Z!2026-11-01,288,330!fsrs,2029-10-09T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-09-24T00:00:00.000Z!fsrs,2028-07-30T00:00:00.000Z,685,684.89001444,2.49272837,2,9,0,0,2026-09-14T00:00:00.000Z!fsrs,2028-08-06T00:00:00.000Z,690,689.94707246,2.49272837,2,9,0,0,2026-09-16T00:00:00.000Z!2026-10-26,282,330-->
 
@@ -179,7 +179,7 @@ The `List` API offers {@{a rich set of operations}@} for {@{sublists, element ac
 > ```
 <!--SR:!fsrs,2028-02-07T00:00:00.000Z,510,509.87501298,5.00637887,2,9,0,0,2026-09-15T00:00:00.000Z!fsrs,2029-07-13T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-09-06T00:00:00.000Z!2026-10-21,279,330-->
 
-{@{Reversal}@} can be _naively_ written by {@{recursively reversing the tail and appending the head}@}: <!--SR:!2026-10-10,268,330!fsrs,2028-08-27T00:00:00.000Z,705,705.09333259,2.49272837,2,9,0,0,2026-09-22T00:00:00.000Z-->
+{@{Reversal}@} can be _naively_ written by {@{recursively reversing the tail and appending the head}@}: <!--SR:!fsrs,2029-12-29T00:00:00.000Z,1176,1176.0199518,1,2,9,0,0,2026-10-10T00:00:00.000Z!fsrs,2028-08-27T00:00:00.000Z,705,705.09333259,2.49272837,2,9,0,0,2026-09-22T00:00:00.000Z-->
 
 > [!example] __`List.reverse`__
 >
@@ -225,7 +225,7 @@ Because {@{each recursive call}@} concatenates {@{a singleton list to the result
 > }
 > ```
 >
-> Calling `deepFlatten(List(List(1, 1), 2, List(3, List(5, 8))))` yields {@{`List(1, 1, 2, 3, 5, 8)`}@}. <!--SR:!2026-10-10,268,330!2026-10-17,275,330!2026-10-30,286,330-->
+> Calling `deepFlatten(List(List(1, 1), 2, List(3, List(5, 8))))` yields {@{`List(1, 1, 2, 3, 5, 8)`}@}. <!--SR:!fsrs,2029-12-29T00:00:00.000Z,1176,1176.0199518,1,2,9,0,0,2026-10-10T00:00:00.000Z!2026-10-17,275,330!2026-10-30,286,330-->
 
 ## higher-order methods
 
@@ -379,7 +379,7 @@ Using {@{`reduceLeft`}@}, {@{summation}@} becomes: <!--SR:!2026-11-07,293,330!20
 > ```
 <!--SR:!fsrs,2029-10-09T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-09-24T00:00:00.000Z!fsrs,2029-12-05T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-10-05T00:00:00.000Z!2027-01-11,347,350-->
 
-{@{Replacing `foldRight` with `foldLeft`}@} would {@{reverse the order of operations}@}. When {@{the operator is associative and commutative}@}, the final result is {@{the same}@}; otherwise, {@{the types or semantics change}@}. {@{`foldRight`}@} also does not {@{work with infinite lists}@}, as there is {@{no rightmost or ending element to start folding}@}. <!--SR:!fsrs,2029-08-02T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-09-10T00:00:00.000Z!2026-11-04,290,330!2026-10-10,268,330!fsrs,2029-12-19T00:00:00.000Z,1168,1168.38706892,1,2,9,0,0,2026-10-08T00:00:00.000Z!fsrs,2029-10-28T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-09-28T00:00:00.000Z!2026-10-18,276,330!2026-10-20,278,330!2026-10-14,272,330-->
+{@{Replacing `foldRight` with `foldLeft`}@} would {@{reverse the order of operations}@}. When {@{the operator is associative and commutative}@}, the final result is {@{the same}@}; otherwise, {@{the types or semantics change}@}. {@{`foldRight`}@} also does not {@{work with infinite lists}@}, as there is {@{no rightmost or ending element to start folding}@}. <!--SR:!fsrs,2029-08-02T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-09-10T00:00:00.000Z!2026-11-04,290,330!fsrs,2029-12-29T00:00:00.000Z,1176,1176.0199518,1,2,9,0,0,2026-10-10T00:00:00.000Z!fsrs,2029-12-19T00:00:00.000Z,1168,1168.38706892,1,2,9,0,0,2026-10-08T00:00:00.000Z!fsrs,2029-10-28T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-09-28T00:00:00.000Z!2026-10-18,276,330!2026-10-20,278,330!2026-10-14,272,330-->
 
 {@{Both `reduceLeft` and `foldLeft`}@} can be {@{defined directly in the abstract `List` class}@}: <!--SR:!fsrs,2028-08-20T00:00:00.000Z,700,700.04868809,2.49272837,2,9,0,0,2026-09-20T00:00:00.000Z!fsrs,2029-11-25T00:00:00.000Z,1149,1149.27403969,1,2,9,0,0,2026-10-03T00:00:00.000Z-->
 
@@ -479,7 +479,7 @@ The following operations are {@{common to all `Seq`s}@} (and thus to {@{lists, v
 - `zip(ys)` ::@:: Combines two sequences into a sequence of pairs. If they do not have the same length, the result is truncated to the shorter length. <!--SR:!2026-10-23,281,330!2026-10-27,283,330-->
 - `unzip` ::@:: Splits a sequence of pairs into two separate sequences. <!--SR:!2026-10-11,269,330!fsrs,2029-08-07T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-09-11T00:00:00.000Z-->
 - `flatMap(f)` ::@:: Applies a collection-valued function to each element and concatenates the results. <!--SR:!fsrs,2029-11-20T00:00:00.000Z,1145,1145.44606232,1,2,9,0,0,2026-10-02T00:00:00.000Z!fsrs,2029-07-18T00:00:00.000Z,1045,1045.2595081,1,2,9,0,0,2026-09-07T00:00:00.000Z-->
-- `sum`, `product` ::@:: Aggregate numeric collections. <!--SR:!2026-10-10,268,330!2026-10-26,282,330-->
+- `sum`, `product` ::@:: Aggregate numeric collections. <!--SR:!fsrs,2029-12-29T00:00:00.000Z,1176,1176.0199518,1,2,9,0,0,2026-10-10T00:00:00.000Z!2026-10-26,282,330-->
 - `max`, `min` ::@:: Return the largest or smallest element (requires an implicit `Ordering`). <!--SR:!fsrs,2028-08-06T00:00:00.000Z,690,689.94707246,2.49272837,2,9,0,0,2026-09-16T00:00:00.000Z!2026-11-04,290,330-->
 
 These operations are typically implemented via {@{recursion or tail-recursion}@} over {@{the underlying list structure}@}. <!--SR:!2026-10-27,283,330!2026-11-02,289,330-->
@@ -605,7 +605,7 @@ Because {@{maps are immutable}@}, updates {@{produce new maps}@}. {@{The operato
 > ```
 <!--SR:!2026-10-14,272,330!fsrs,2028-08-13T00:00:00.000Z,695,694.99996464,2.49272837,2,9,0,0,2026-09-18T00:00:00.000Z!fsrs,2029-10-09T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-09-24T00:00:00.000Z-->
 
-{@{`Map.withDefaultValue`}@} turns {@{a map into a total function}@} by providing {@{a default value for missing keys}@}. <!--SR:!fsrs,2029-06-29T00:00:00.000Z,1030,1029.72783972,1,2,9,0,0,2026-09-03T00:00:00.000Z!2026-10-10,268,330!2026-11-03,290,330-->
+{@{`Map.withDefaultValue`}@} turns {@{a map into a total function}@} by providing {@{a default value for missing keys}@}. <!--SR:!fsrs,2029-06-29T00:00:00.000Z,1030,1029.72783972,1,2,9,0,0,2026-09-03T00:00:00.000Z!fsrs,2029-12-29T00:00:00.000Z,1176,1176.0199518,1,2,9,0,0,2026-10-10T00:00:00.000Z!2026-11-03,290,330-->
 
 <!-- markdownlint MD028 -->
 

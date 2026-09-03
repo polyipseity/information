@@ -15,7 +15,7 @@ There are two types of errors: {@{syntax errors and runtime errors}@}. The forme
 
 ## runtime errors
 
-Runtime errors occur when {@{something error or unexpected}@} happens. The program {@{generally crashes}@} when an error occurs. There are {@{many types of errors, such as `IndexError`, `ValueError`, `ZeroDivisionError`, etc.}@} <!--SR:!fsrs,2029-11-13T00:00:00.000Z,1142,1141.61620684,1,2,9,0,0,2026-09-28T00:00:00.000Z!fsrs,2029-12-04T00:00:00.000Z,1159,1159.34014939,1,2,9,0,0,2026-10-02T00:00:00.000Z!2026-10-10,272,330-->
+Runtime errors occur when {@{something error or unexpected}@} happens. The program {@{generally crashes}@} when an error occurs. There are {@{many types of errors, such as `IndexError`, `ValueError`, `ZeroDivisionError`, etc.}@} <!--SR:!fsrs,2029-11-13T00:00:00.000Z,1142,1141.61620684,1,2,9,0,0,2026-09-28T00:00:00.000Z!fsrs,2029-12-04T00:00:00.000Z,1159,1159.34014939,1,2,9,0,0,2026-10-02T00:00:00.000Z!fsrs,2030-01-13T00:00:00.000Z,1191,1191.26470738,1,2,9,0,0,2026-10-10T00:00:00.000Z-->
 
 ## catching errors
 

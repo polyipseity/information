@@ -524,7 +524,7 @@ Here is a list of common IPA letters and their pronunciations:
 - [near-close near-back rounded vowel](near-close%20near-back%20rounded%20vowel.md):@:\[ʊ\] <!--SR:!2028-04-22,1100,356-->
 - [close central rounded vowel](close%20central%20rounded%20vowel.md):@:\[ʉ\] <!--SR:!fsrs,2027-12-11T00:00:00.000Z,504,503.73742784,2.45526587,2,8,0,0,2026-07-25T00:00:00.000Z-->
 - [voiced labiodental fricative](voiced%20labiodental%20fricative.md):@:\[v\] <!--SR:!2030-09-07,1920,395-->
-- [voiced labiodental approximant](voiced%20labiodental%20approximant.md):@:\[ʋ\] <!--SR:!2026-10-10,679,335-->
+- [voiced labiodental approximant](voiced%20labiodental%20approximant.md):@:\[ʋ\] <!--SR:!fsrs,2031-07-29T00:00:00.000Z,1753,1752.57055781,2.30541587,2,10,0,0,2026-10-10T00:00:00.000Z-->
 - [voiced labial–velar approximant](voiced%20labial–velar%20approximant.md):@:\[w\] <!--SR:!fsrs,2027-07-13T06:00:20.266Z,393,392.87077442,3.24197837,2,8,0,0,2026-06-15T06:00:20.266Z-->
 - [labialization](labialization.md):@:\[ʷ\] <!--SR:!2030-07-13,1788,394-->
 - [voiceless labial–velar fricative](voiceless%20labial–velar%20fricative.md):@:\[ʍ\] <!--SR:!2027-05-19,691,256-->
@@ -866,7 +866,7 @@ Here is a list of common IPA letters and their pronunciations:
 - ![nasalized open-mid back rounded vowel](../../archives/Wikimedia%20Commons/Fr-on.ogg):@:[nasalized open-mid back rounded vowel](nasal%20vowel.md) <!--SR:!fsrs,2026-11-30T00:00:00.000Z,65,64.67087117,9.96891253,2,8,0,0,2026-09-26T00:00:00.000Z-->
 - ![close-mid front rounded vowel](../../archives/Wikimedia%20Commons/Close-mid%20front%20rounded%20vowel.ogg):@:[close-mid front rounded vowel](close-mid%20front%20rounded%20vowel.md) <!--SR:!fsrs,2027-01-29T00:00:00.000Z,170,170.37303484,7.49580362,2,8,0,0,2026-08-12T00:00:00.000Z-->
 - ![close-mid central rounded vowel](../../archives/Wikimedia%20Commons/Close-mid%20central%20rounded%20vowel.ogg):@:[close-mid central rounded vowel](close-mid%20central%20rounded%20vowel.md) <!--SR:!fsrs,2027-01-22T00:00:00.000Z,158,158.38506261,8.34220803,2,8,0,0,2026-08-17T00:00:00.000Z-->
-- ![open-mid front rounded vowel](../../archives/Wikimedia%20Commons/Open-mid%20front%20rounded%20vowel.ogg):@:[open-mid front rounded vowel](open-mid%20front%20rounded%20vowel.md) <!--SR:!fsrs,2026-10-10T00:00:00.000Z,31,30.82156714,9.95377931,2,8,0,0,2026-09-09T00:00:00.000Z-->
+- ![open-mid front rounded vowel](../../archives/Wikimedia%20Commons/Open-mid%20front%20rounded%20vowel.ogg):@:[open-mid front rounded vowel](open-mid%20front%20rounded%20vowel.md) <!--SR:!fsrs,2026-11-20T00:00:00.000Z,41,40.67583078,9.9390539,2,9,0,0,2026-10-10T00:00:00.000Z-->
 - ![nasalized open-mid front rounded vowel](../../archives/Wikimedia%20Commons/Fr-un-fr%20BE.ogg):@:[nasalized open-mid front rounded vowel](nasal%20vowel.md) <!--SR:!fsrs,2026-10-19T00:00:00.000Z,47,47.01620883,9.60948804,2,7,0,0,2026-09-02T00:00:00.000Z-->
 - ![open front rounded vowel](../../archives/Wikimedia%20Commons/Open%20front%20rounded%20vowel.ogg):@:[open front rounded vowel](open%20front%20rounded%20vowel.md) <!--SR:!2027-01-30,271,290-->
 - ![voiceless bilabial plosive](../../archives/Wikimedia%20Commons/Voiceless%20bilabial%20plosive.ogg):@:[voiceless bilabial plosive](voiceless%20bilabial%20plosive.md) <!--SR:!fsrs,2027-01-04T00:00:00.000Z,108,108.17315357,9.97542228,2,8,0,0,2026-09-18T00:00:00.000Z-->

@@ -30,7 +30,7 @@ tags:
 > ```Scala
 > val mnemonics = Map('2' -> "ABC", '3' -> "DEF", /* ... */ '9' -> "WXYZ")
 > ```
-<!--SR:!2026-11-04,290,330!2026-10-13,273,330!2026-10-10,270,330!2026-10-13,273,330!2026-10-16,276,330!2026-10-26,282,330-->
+<!--SR:!2026-11-04,290,330!2026-10-13,273,330!fsrs,2030-01-06T00:00:00.000Z,1184,1183.64577796,1,2,9,0,0,2026-10-10T00:00:00.000Z!2026-10-13,273,330!2026-10-16,276,330!2026-10-26,282,330-->
 
 The goal is to implement {@{a method `encode(phoneNumber)`}@} that returns {@{every sequence of dictionary words}@} whose {@{concatenated numeric encodings match the input number}@}. For example, {@{the phone number `"7225247386"`}@} can be expressed as the single mnemonic phrase {@{`"Scala is fun"`}@}. <!--SR:!fsrs,2028-08-20T00:00:00.000Z,703,702.57151752,2.49272837,2,9,0,0,2026-09-17T00:00:00.000Z!2026-10-24,280,330!2026-10-19,275,330!2026-10-16,276,330!2026-10-13,273,330-->
 
@@ -135,11 +135,11 @@ Thus the implementation finds {@{all valid mnemonic phrases in a handful of line
 
 ### word coder conclusion
 
-{@{The problem}@} originates from Lutz Prechelt's 2000 study _An Empirical Comparison of Seven Programming Languages_ \(IEEE Computer 33(10): 23-29\), where he compared {@{code sizes for the same task}@} across {@{Tcl, Python, Perl, Rexx, Java, C++, and C}@}. {@{Scripting languages}@} typically required {@{about 100 lines of code}@}; {@{compiled languages}@} needed {@{200–300 lines}@}.  In Scala {@{the equivalent solver}@} is {@{roughly 20 lines long}@}, yet it remains {@{statically typed, purely functional, and free of side effects}@}—attributes that make {@{reasoning and refactoring straightforward}@}. <!--SR:!fsrs,2029-08-12T00:00:00.000Z,1068,1068.495917,1,2,9,0,0,2026-09-09T00:00:00.000Z!2026-10-14,274,330!2026-10-28,284,330!2026-10-10,270,330!2026-10-13,273,330!fsrs,2029-08-22T00:00:00.000Z,1076,1076.22532725,1,2,9,0,0,2026-09-11T00:00:00.000Z!fsrs,2029-12-27T00:00:00.000Z,1176,1176.0199518,1,2,9,0,0,2026-10-08T00:00:00.000Z!fsrs,2028-08-30T00:00:00.000Z,710,710.13394084,2.49272837,2,9,0,0,2026-09-20T00:00:00.000Z!2026-10-14,274,330!2026-10-15,275,330!fsrs,2029-12-25T00:00:00.000Z,1176,1176.0199518,1,2,9,0,0,2026-10-06T00:00:00.000Z-->
+{@{The problem}@} originates from Lutz Prechelt's 2000 study _An Empirical Comparison of Seven Programming Languages_ \(IEEE Computer 33(10): 23-29\), where he compared {@{code sizes for the same task}@} across {@{Tcl, Python, Perl, Rexx, Java, C++, and C}@}. {@{Scripting languages}@} typically required {@{about 100 lines of code}@}; {@{compiled languages}@} needed {@{200–300 lines}@}.  In Scala {@{the equivalent solver}@} is {@{roughly 20 lines long}@}, yet it remains {@{statically typed, purely functional, and free of side effects}@}—attributes that make {@{reasoning and refactoring straightforward}@}. <!--SR:!fsrs,2029-08-12T00:00:00.000Z,1068,1068.495917,1,2,9,0,0,2026-09-09T00:00:00.000Z!2026-10-14,274,330!2026-10-28,284,330!fsrs,2030-01-06T00:00:00.000Z,1184,1183.64577796,1,2,9,0,0,2026-10-10T00:00:00.000Z!2026-10-13,273,330!fsrs,2029-08-22T00:00:00.000Z,1076,1076.22532725,1,2,9,0,0,2026-09-11T00:00:00.000Z!fsrs,2029-12-27T00:00:00.000Z,1176,1176.0199518,1,2,9,0,0,2026-10-08T00:00:00.000Z!fsrs,2028-08-30T00:00:00.000Z,710,710.13394084,2.49272837,2,9,0,0,2026-09-20T00:00:00.000Z!2026-10-14,274,330!2026-10-15,275,330!fsrs,2029-12-25T00:00:00.000Z,1176,1176.0199518,1,2,9,0,0,2026-10-06T00:00:00.000Z-->
 
 {@{The concise implementation}@} hinges on {@{several features of Scala's collection library}@}: \(annotation: 4 items: {@{concise, fast, safe, universal}@}\) <!--SR:!2026-10-20,276,330!fsrs,2028-09-03T00:00:00.000Z,713,712.65274453,2.49272837,2,9,0,0,2026-09-21T00:00:00.000Z!2026-10-29,285,330-->
 
-- _concise_ ::@:: A single for-comprehension or higher-order function replaces multiple nested loops. As a result, few steps are needed. <!--SR:!2026-10-10,270,330!2026-10-21,277,330-->
+- _concise_ ::@:: A single for-comprehension or higher-order function replaces multiple nested loops. As a result, few steps are needed. <!--SR:!fsrs,2030-01-06T00:00:00.000Z,1184,1183.64577796,1,2,9,0,0,2026-10-10T00:00:00.000Z!2026-10-21,277,330-->
 - _fast_ ::@:: Operations on collections may be optimized and parallelized. <!--SR:!2026-10-23,279,330!2026-10-14,274,330-->
 - _safe_ ::@:: The type checker guarantees that collections are manipulated in a valid way. <!--SR:!fsrs,2030-01-01T00:00:00.000Z,1180,1179.83367202,1,2,9,0,0,2026-10-09T00:00:00.000Z!fsrs,2029-08-12T00:00:00.000Z,1068,1068.495917,1,2,9,0,0,2026-09-09T00:00:00.000Z-->
 - _universal_ ::@:: The API interfaces exposed by lists, vectors, sets, maps, etc. are almost the same. <!--SR:!2026-10-22,278,330!2026-10-19,275,330-->
@@ -185,7 +185,7 @@ To retrieve {@{the titles of books written by an author}@} whose {@{name begins 
 >   if a.startsWith("Bird,")
 > } yield b.title
 > ```
-<!--SR:!2026-10-15,275,330!2026-10-10,270,330-->
+<!--SR:!2026-10-15,275,330!fsrs,2030-01-06T00:00:00.000Z,1184,1183.64577796,1,2,9,0,0,2026-10-10T00:00:00.000Z-->
 
 The same syntax can be used to {@{find all books whose title}@} contains {@{the word "Program"}@}: <!--SR:!fsrs,2028-09-03T00:00:00.000Z,713,712.65274453,2.49272837,2,9,0,0,2026-09-21T00:00:00.000Z!2026-10-12,272,330-->
 
@@ -196,7 +196,7 @@ The same syntax can be used to {@{find all books whose title}@} contains {@{the 
 > ```Scala
 > for (b <- books if b.title.indexOf("Program") >= 0) yield b.title
 > ```
-<!--SR:!2026-10-10,270,330!2026-10-11,271,330-->
+<!--SR:!fsrs,2030-01-06T00:00:00.000Z,1184,1183.64577796,1,2,9,0,0,2026-10-10T00:00:00.000Z!2026-10-11,271,330-->
 
 ### complex database queries
 

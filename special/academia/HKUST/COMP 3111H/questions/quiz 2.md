@@ -26,7 +26,7 @@ tags:
 
 ## hints
 
-1. Unified Modeling Language \(UML\) ::@:: It is a general-purpose, object-oriented, visual modeling language that provides a way to visualize the architecture and design of a system; like a blueprint. <p> It makes us think about the world in a certain way. <!--SR:!2026-10-10,279,330!fsrs,2028-07-07T06:11:11.304Z,762,761.69637376,1,2,8,0,0,2026-06-06T06:11:11.304Z-->
+1. Unified Modeling Language \(UML\) ::@:: It is a general-purpose, object-oriented, visual modeling language that provides a way to visualize the architecture and design of a system; like a blueprint. <p> It makes us think about the world in a certain way. <!--SR:!fsrs,2030-02-09T00:00:00.000Z,1218,1217.87747351,1,2,9,0,0,2026-10-10T00:00:00.000Z!fsrs,2028-07-07T06:11:11.304Z,762,761.69637376,1,2,8,0,0,2026-06-06T06:11:11.304Z-->
 2. UML classifiers ::@:: They are _abstractions_ to group a _collection_ of entities in the _application domain_, e.g. association, attribute, class, operation, etc. <!--SR:!fsrs,2029-12-14T00:00:00.000Z,1172,1172.20432607,1,2,9,0,0,2026-09-29T00:00:00.000Z!fsrs,2029-06-20T00:00:00.000Z,1045,1045.2595081,1,2,9,0,0,2026-08-10T00:00:00.000Z-->
 3. attribute properties ::@:: name \(required\), type \(required\), visibility, initial value \(optional\), multiplicity \(optional\), mutability/changeability <!--SR:!fsrs,2030-01-06T00:00:00.000Z,1191,1191.26470738,1,2,9,0,0,2026-10-03T00:00:00.000Z!2026-10-21,290,330-->
 4. class ::@:: Instances of a class have _common_ attributes, operations, relations with other objects, and semantics. <!--SR:!fsrs,2028-09-20T00:00:00.000Z,730,730.25645087,2.49272837,2,9,0,0,2026-09-21T00:00:00.000Z!fsrs,2028-08-12T10:16:21.125Z,790,790.32460702,1,2,9,0,0,2026-06-14T10:16:21.125Z-->

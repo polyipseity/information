@@ -71,7 +71,7 @@ Parent parent(     {});
 Parent parent{     {}};
 ```
 
-Before {@{[C++11](C++11.md)}@}, {@{the two common solutions}@} are {@{using extra parentheses or copy-initialization}@}: <!--SR:!2026-10-10,718,330!2027-01-06,390,375!2026-12-24,382,375-->
+Before {@{[C++11](C++11.md)}@}, {@{the two common solutions}@} are {@{using extra parentheses or copy-initialization}@}: <!--SR:!fsrs,2034-05-20T00:00:00.000Z,2779,2778.90679664,1,2,10,0,0,2026-10-10T00:00:00.000Z!2027-01-06,390,375!2026-12-24,382,375-->
 
 ```C++
 Parent parent((Child())); // extra parentheses

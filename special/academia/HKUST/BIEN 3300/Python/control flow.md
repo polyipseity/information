@@ -68,7 +68,7 @@ Iterables can be {@{ranges, strings, lists, and many more not mentioned here}@}.
 
 To emulate the traditional `for` loop, one uses {@{`range` and specifies the starting point (inclusive), ending point (exclusive), and step}@}. A `for` loop with code in the form of `for (int idx = begin; idx < end; idx += step)` translates to {@{`for idx in range(begin, end, step):` (if `step` is negative, then `idx < end` becomes `idx > end`)}@}. `range(begin, end, step)` has shorter forms: {@{`range(begin, end)` is equivalent to `range(begin, end, 1)` and `range(end)` is equivalent to `range(0, end, 1)`}@}. <!--SR:!fsrs,2029-06-26T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-08-12T00:00:00.000Z!fsrs,2029-11-03T00:00:00.000Z,1134,1133.95119242,1,2,9,0,0,2026-09-26T00:00:00.000Z!fsrs,2029-07-04T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-08-12T00:00:00.000Z-->
 
-In Python, `while` can also perform iteration. A `while` statement consists of {@{a condition and a statement block}@}: <!--SR:!2026-10-10,272,330-->
+In Python, `while` can also perform iteration. A `while` statement consists of {@{a condition and a statement block}@}: <!--SR:!fsrs,2030-01-13T00:00:00.000Z,1191,1191.26470738,1,2,9,0,0,2026-10-10T00:00:00.000Z-->
 
 ```Python
 while condition:
