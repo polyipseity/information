@@ -93,7 +93,7 @@ Rather than writing {@{a new anonymous class}@} for {@{each derived generator}@}
 > ```
 <!--SR:!fsrs,2029-12-28T00:00:00.000Z,1176,1176.0199518,1,2,9,0,0,2026-10-09T00:00:00.000Z!2026-10-21,277,330-->
 
-and {@{a corresponding extension}@} to add {@{`flatMap`}@}: <!--SR:!2026-11-06,292,330!2026-10-14,273,330-->
+and {@{a corresponding extension}@} to add {@{`flatMap`}@}: <!--SR:!2026-11-06,292,330!fsrs,2030-01-21T00:00:00.000Z,1195,1195.07164214,1,2,9,0,0,2026-10-14T00:00:00.000Z-->
 
 > [!example] __`Generator.flatMap`__
 >
@@ -132,7 +132,7 @@ The compiler rewrites {@{these _for_ expressions}@} in the same way {@{it does f
 
 #### generator monad recursion
 
-{@{Generators}@} can be {@{combined recursively}@}. For example, {@{a generator of integer lists}@} is defined by first {@{choosing whether the list should be empty or non-empty}@} and then {@{constructing it accordingly}@}: <!--SR:!2026-11-04,290,330!2026-10-14,273,330!fsrs,2029-11-16T00:00:00.000Z,1142,1141.61620684,1,2,9,0,0,2026-10-01T00:00:00.000Z!2026-11-03,290,330!fsrs,2029-10-27T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-09-27T00:00:00.000Z-->
+{@{Generators}@} can be {@{combined recursively}@}. For example, {@{a generator of integer lists}@} is defined by first {@{choosing whether the list should be empty or non-empty}@} and then {@{constructing it accordingly}@}: <!--SR:!2026-11-04,290,330!fsrs,2030-01-21T00:00:00.000Z,1195,1195.07164214,1,2,9,0,0,2026-10-14T00:00:00.000Z!fsrs,2029-11-16T00:00:00.000Z,1142,1141.61620684,1,2,9,0,0,2026-10-01T00:00:00.000Z!2026-11-03,290,330!fsrs,2029-10-27T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-09-27T00:00:00.000Z-->
 
 > [!example] __integer list generator__
 >
@@ -212,7 +212,7 @@ we can generate {@{leaves and inner nodes}@} by combining {@{existing generators
 > }
 > ```
 >
-> which should be corrected {@{to `>=` instead of `>`}@}.  This illustrates how {@{generators can reveal subtle invariants}@}. <!--SR:!fsrs,2028-02-03T00:00:00.000Z,508,507.95545468,5.00637887,2,9,0,0,2026-09-13T00:00:00.000Z!2026-10-14,273,330!fsrs,2029-10-22T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-09-26T00:00:00.000Z!2026-11-04,290,330-->
+> which should be corrected {@{to `>=` instead of `>`}@}.  This illustrates how {@{generators can reveal subtle invariants}@}. <!--SR:!fsrs,2028-02-03T00:00:00.000Z,508,507.95545468,5.00637887,2,9,0,0,2026-09-13T00:00:00.000Z!fsrs,2030-01-21T00:00:00.000Z,1195,1195.07164214,1,2,9,0,0,2026-10-14T00:00:00.000Z!fsrs,2029-10-22T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-09-26T00:00:00.000Z!2026-11-04,290,330-->
 
 The same idea is {@{used in the _ScalaCheck_ library}@}.  {@{A property expressed as a lambda}@} can be automatically {@{checked against many random inputs}@}: <!--SR:!fsrs,2030-01-11T00:00:00.000Z,1187,1187.45608877,1,2,9,0,0,2026-10-12T00:00:00.000Z!fsrs,2030-01-16T00:00:00.000Z,1191,1191.26470738,1,2,9,0,0,2026-10-13T00:00:00.000Z!fsrs,2029-07-12T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-09-05T00:00:00.000Z-->
 
@@ -227,7 +227,7 @@ The same idea is {@{used in the _ScalaCheck_ library}@}.  {@{A property expresse
 > ```
 <!--SR:!fsrs,2029-06-23T00:00:00.000Z,1026,1025.83973773,1,2,9,0,0,2026-09-01T00:00:00.000Z!2026-11-02,289,330!2026-10-24,280,330-->
 
-ScalaCheck integrates {@{with ScalaTest or can run stand-alone}@}, providing a systematic way to {@{validate program behaviour without hand-crafted test data}@}. <!--SR:!2026-10-14,273,330!fsrs,2028-07-20T00:00:00.000Z,745,744.93144381,1,2,8,0,0,2026-07-06T00:00:00.000Z-->
+ScalaCheck integrates {@{with ScalaTest or can run stand-alone}@}, providing a systematic way to {@{validate program behaviour without hand-crafted test data}@}. <!--SR:!fsrs,2030-01-21T00:00:00.000Z,1195,1195.07164214,1,2,9,0,0,2026-10-14T00:00:00.000Z!fsrs,2028-07-20T00:00:00.000Z,745,744.93144381,1,2,8,0,0,2026-07-06T00:00:00.000Z-->
 
 ## definition
 
@@ -309,7 +309,7 @@ Because {@{every monad supports this construction}@}, it is often convenient to 
 
 ## `Option`
 
-For instance, consider {@{Scala's `Option`}@}. {@{Its `flatMap`}@} is defined by {@{pattern matching}@}: <!--SR:!fsrs,2029-12-04T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-10-04T00:00:00.000Z!2026-10-14,273,330!2026-10-16,275,330-->
+For instance, consider {@{Scala's `Option`}@}. {@{Its `flatMap`}@} is defined by {@{pattern matching}@}: <!--SR:!fsrs,2029-12-04T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-10-04T00:00:00.000Z!fsrs,2030-01-21T00:00:00.000Z,1195,1195.07164214,1,2,9,0,0,2026-10-14T00:00:00.000Z!2026-10-16,275,330-->
 
 > [!example] __`Option.flatMap`__
 >
@@ -345,7 +345,7 @@ Because of {@{these issues}@}, it is sometimes preferable to treat {@{failures a
 > case class Success[+T](x: T) extends Try[T]
 > case class Failure(ex: Exception) extends Try[Nothing]
 > ```
-<!--SR:!2026-10-24,280,330!2026-10-14,273,330!fsrs,2030-01-11T00:00:00.000Z,1187,1187.45608877,1,2,9,0,0,2026-10-12T00:00:00.000Z-->
+<!--SR:!2026-10-24,280,330!fsrs,2030-01-21T00:00:00.000Z,1195,1195.07164214,1,2,9,0,0,2026-10-14T00:00:00.000Z!fsrs,2030-01-11T00:00:00.000Z,1187,1187.45608877,1,2,9,0,0,2026-10-12T00:00:00.000Z-->
 
 {@{A convenient factory for `Try`}@} wraps {@{arbitrary computations}@}: <!--SR:!2026-10-17,276,330!fsrs,2029-11-29T00:00:00.000Z,1153,1153.10014712,1,2,9,0,0,2026-10-03T00:00:00.000Z-->
 
@@ -382,7 +382,7 @@ Because of {@{these issues}@}, it is sometimes preferable to treat {@{failures a
 > ```
 <!--SR:!fsrs,2029-11-01T00:00:00.000Z,1130,1130.11601442,1,2,9,0,0,2026-09-28T00:00:00.000Z!fsrs,2029-12-23T00:00:00.000Z,1172,1172.20432607,1,2,9,0,0,2026-10-08T00:00:00.000Z!2026-11-08,294,330-->
 
-Thus {@{`t.map(f)`}@} equals {@{`t.flatMap(x => Try(f(x)))`}@}, mirroring {@{the general monadic definition of `map`}@}. <!--SR:!2026-11-02,289,330!2026-10-14,273,330!2026-11-02,289,330-->
+Thus {@{`t.map(f)`}@} equals {@{`t.flatMap(x => Try(f(x)))`}@}, mirroring {@{the general monadic definition of `map`}@}. <!--SR:!2026-11-02,289,330!fsrs,2030-01-21T00:00:00.000Z,1195,1195.07164214,1,2,9,0,0,2026-10-14T00:00:00.000Z!2026-11-02,289,330-->
 
 One might ask whether {@{`Try` satisfies the monad laws with `unit = Try.apply`}@}. {@{The left-unit law}@} fails: {@{`Try(expr).flatMap(f)`}@} will {@{never throw a non-fatal exception}@}, whereas {@{`f(expr)` may}@}. Consequently, `Try` trades {@{the left identity law}@} for {@{a useful property}@}—{@{any composition of `Try`, `map`, and `flatMap`}@} guarantees that {@{no non-fatal exception propagates outward}@} ({@{the "bullet-proof" principle}@}\). <!--SR:!2026-10-17,276,330!2026-10-25,281,330!2026-10-29,285,330!2026-10-17,276,330!2026-10-30,286,330!2026-10-24,280,330!fsrs,2029-07-17T00:00:00.000Z,1045,1045.2595081,1,2,9,0,0,2026-09-06T00:00:00.000Z!2026-10-24,280,330!2026-11-03,290,330!2026-11-07,293,330-->
 

@@ -143,7 +143,7 @@ The proof of the weak form is given in {@{[Hausdorff maximal principle\#Proof](H
 
 The same proof also shows {@{the following equivalent variant of Zorn's lemma}@}:<sup>[\[16\]](#^ref-16)</sup> <!--SR:!2030-09-23,1660,370-->
 
-> __Lemma__ — Let {@{$P$ be a partially ordered set in which each chain has a least upper bound in $P$}@}. Then {@{$P$ has a maximal element}@}. <!--SR:!2026-10-14,458,310!2030-09-12,1652,370-->
+> __Lemma__ — Let {@{$P$ be a partially ordered set in which each chain has a least upper bound in $P$}@}. Then {@{$P$ has a maximal element}@}. <!--SR:!fsrs,2031-07-31T00:00:00.000Z,1751,1750.57921598,1,2,10,0,0,2026-10-14T00:00:00.000Z!2030-09-12,1652,370-->
 
 Indeed, {@{trivially, Zorn's lemma implies the above lemma}@}. Conversely, the above lemma {@{implies the aforementioned weak form of Zorn's lemma}@}, since {@{a union gives a least upper bound}@}. <!--SR:!2028-05-13,960,350!2030-10-18,1681,370!2029-05-10,1253,358-->
 

@@ -266,7 +266,7 @@ Using {@{`map`}@}, {@{a simple scaling routine}@} can be written as: <!--SR:!fsr
 
 ### filter
 
-{@{Filtering \(`filter`\)}@} extracts {@{elements that satisfy a Boolean predicate}@}: <!--SR:!2026-11-04,290,330!2026-10-14,272,330-->
+{@{Filtering \(`filter`\)}@} extracts {@{elements that satisfy a Boolean predicate}@}: <!--SR:!2026-11-04,290,330!fsrs,2030-01-17T00:00:00.000Z,1191,1191.26470738,1,2,9,0,0,2026-10-14T00:00:00.000Z-->
 
 > [!example] __`filter`__
 >
@@ -379,7 +379,7 @@ Using {@{`reduceLeft`}@}, {@{summation}@} becomes: <!--SR:!2026-11-07,293,330!20
 > ```
 <!--SR:!fsrs,2029-10-09T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-09-24T00:00:00.000Z!fsrs,2029-12-05T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-10-05T00:00:00.000Z!2027-01-11,347,350-->
 
-{@{Replacing `foldRight` with `foldLeft`}@} would {@{reverse the order of operations}@}. When {@{the operator is associative and commutative}@}, the final result is {@{the same}@}; otherwise, {@{the types or semantics change}@}. {@{`foldRight`}@} also does not {@{work with infinite lists}@}, as there is {@{no rightmost or ending element to start folding}@}. <!--SR:!fsrs,2029-08-02T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-09-10T00:00:00.000Z!2026-11-04,290,330!fsrs,2029-12-29T00:00:00.000Z,1176,1176.0199518,1,2,9,0,0,2026-10-10T00:00:00.000Z!fsrs,2029-12-19T00:00:00.000Z,1168,1168.38706892,1,2,9,0,0,2026-10-08T00:00:00.000Z!fsrs,2029-10-28T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-09-28T00:00:00.000Z!2026-10-18,276,330!2026-10-20,278,330!2026-10-14,272,330-->
+{@{Replacing `foldRight` with `foldLeft`}@} would {@{reverse the order of operations}@}. When {@{the operator is associative and commutative}@}, the final result is {@{the same}@}; otherwise, {@{the types or semantics change}@}. {@{`foldRight`}@} also does not {@{work with infinite lists}@}, as there is {@{no rightmost or ending element to start folding}@}. <!--SR:!fsrs,2029-08-02T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-09-10T00:00:00.000Z!2026-11-04,290,330!fsrs,2029-12-29T00:00:00.000Z,1176,1176.0199518,1,2,9,0,0,2026-10-10T00:00:00.000Z!fsrs,2029-12-19T00:00:00.000Z,1168,1168.38706892,1,2,9,0,0,2026-10-08T00:00:00.000Z!fsrs,2029-10-28T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-09-28T00:00:00.000Z!2026-10-18,276,330!2026-10-20,278,330!fsrs,2030-01-17T00:00:00.000Z,1191,1191.26470738,1,2,9,0,0,2026-10-14T00:00:00.000Z-->
 
 {@{Both `reduceLeft` and `foldLeft`}@} can be {@{defined directly in the abstract `List` class}@}: <!--SR:!fsrs,2028-08-20T00:00:00.000Z,700,700.04868809,2.49272837,2,9,0,0,2026-09-20T00:00:00.000Z!fsrs,2029-11-25T00:00:00.000Z,1149,1149.27403969,1,2,9,0,0,2026-10-03T00:00:00.000Z-->
 
@@ -591,7 +591,7 @@ Because {@{maps are immutable}@}, updates {@{produce new maps}@}. {@{The operato
 > fruit.sortWith(_.length < _.length)  // order by length
 > fruit.sorted                         // natural ordering
 > ```
-<!--SR:!2026-11-01,288,330!2026-10-14,272,330-->
+<!--SR:!2026-11-01,288,330!fsrs,2030-01-17T00:00:00.000Z,1191,1191.26470738,1,2,9,0,0,2026-10-14T00:00:00.000Z-->
 
 {@{Grouping \(`groupBy`\)}@} partitions {@{a collection into a map}@} keyed by {@{the result of a discriminator function}@}: <!--SR:!fsrs,2029-06-19T00:00:00.000Z,1022,1021.94953015,1,2,9,0,0,2026-09-01T00:00:00.000Z!fsrs,2029-07-13T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-09-06T00:00:00.000Z!fsrs,2028-01-29T00:00:00.000Z,504,504.11440767,5.00637887,2,9,0,0,2026-09-12T00:00:00.000Z-->
 
@@ -603,7 +603,7 @@ Because {@{maps are immutable}@}, updates {@{produce new maps}@}. {@{The operato
 > val fruit = List("apple", "pear", "orange", "pineapple")
 > fruit.groupBy(_.head)  // Map('a' -> List("apple"), 'p' -> List("pear", "pineapple"), ...)
 > ```
-<!--SR:!2026-10-14,272,330!fsrs,2028-08-13T00:00:00.000Z,695,694.99996464,2.49272837,2,9,0,0,2026-09-18T00:00:00.000Z!fsrs,2029-10-09T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-09-24T00:00:00.000Z-->
+<!--SR:!fsrs,2030-01-17T00:00:00.000Z,1191,1191.26470738,1,2,9,0,0,2026-10-14T00:00:00.000Z!fsrs,2028-08-13T00:00:00.000Z,695,694.99996464,2.49272837,2,9,0,0,2026-09-18T00:00:00.000Z!fsrs,2029-10-09T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-09-24T00:00:00.000Z-->
 
 {@{`Map.withDefaultValue`}@} turns {@{a map into a total function}@} by providing {@{a default value for missing keys}@}. <!--SR:!fsrs,2029-06-29T00:00:00.000Z,1030,1029.72783972,1,2,9,0,0,2026-09-03T00:00:00.000Z!fsrs,2029-12-29T00:00:00.000Z,1176,1176.0199518,1,2,9,0,0,2026-10-10T00:00:00.000Z!2026-11-03,290,330-->
 
@@ -696,7 +696,7 @@ To avoid {@{the verbosity of `Polynomial(Map(...))`}@}, {@{a _varargs_ construct
 > ```
 <!--SR:!fsrs,2029-06-24T00:00:00.000Z,1026,1025.83973773,1,2,9,0,0,2026-09-02T00:00:00.000Z!fsrs,2029-11-19T00:00:00.000Z,1144,1144.03786294,1,2,9,0,0,2026-10-02T00:00:00.000Z-->
 
-{@{The core distinction}@} between {@{a `Set` and a `Seq`}@} is that the former {@{does not preserve order and automatically removes duplicates}@}; consequently {@{the only fundamental operation}@} on a set is {@{membership testing via `contains`}@}. {@{A small example}@} shows {@{how duplicate values collapse}@}: <!--SR:!2026-10-27,283,330!2026-10-14,272,330!fsrs,2029-12-05T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-10-05T00:00:00.000Z!2026-10-18,276,330!2026-10-18,276,330!2026-10-22,280,330!2026-10-18,276,330-->
+{@{The core distinction}@} between {@{a `Set` and a `Seq`}@} is that the former {@{does not preserve order and automatically removes duplicates}@}; consequently {@{the only fundamental operation}@} on a set is {@{membership testing via `contains`}@}. {@{A small example}@} shows {@{how duplicate values collapse}@}: <!--SR:!2026-10-27,283,330!fsrs,2030-01-17T00:00:00.000Z,1191,1191.26470738,1,2,9,0,0,2026-10-14T00:00:00.000Z!fsrs,2029-12-05T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-10-05T00:00:00.000Z!2026-10-18,276,330!2026-10-18,276,330!2026-10-22,280,330!2026-10-18,276,330-->
 
 > [!example] __`Set` deduplication__
 >
@@ -708,4 +708,4 @@ To avoid {@{the verbosity of `Polynomial(Map(...))`}@}, {@{a _varargs_ construct
 > ```
 <!--SR:!fsrs,2028-02-01T00:00:00.000Z,506,506.03526322,5.00637887,2,9,0,0,2026-09-13T00:00:00.000Z!fsrs,2029-10-14T00:00:00.000Z,1115,1114.75652523,1,2,9,0,0,2026-09-25T00:00:00.000Z-->
 
-{@{These properties}@} make sets especially suitable for {@{combinatorial search problems}@} where the focus lies on {@{the presence or absence of items rather than their position}@}. <!--SR:!2026-11-05,291,330!fsrs,2029-07-08T00:00:00.000Z,1037,1037.49777357,1,2,9,0,0,2026-09-05T00:00:00.000Z!2026-10-14,272,330-->
+{@{These properties}@} make sets especially suitable for {@{combinatorial search problems}@} where the focus lies on {@{the presence or absence of items rather than their position}@}. <!--SR:!2026-11-05,291,330!fsrs,2029-07-08T00:00:00.000Z,1037,1037.49777357,1,2,9,0,0,2026-09-05T00:00:00.000Z!fsrs,2030-01-17T00:00:00.000Z,1191,1191.26470738,1,2,9,0,0,2026-10-14T00:00:00.000Z-->

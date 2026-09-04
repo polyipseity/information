@@ -89,7 +89,7 @@ return chain.from_iterable([r.value for r in results])
 
 ### comparison operators
 
-Below are common comparison operators, all of which returns {@{a boolean}@}. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. The comparison operators below {@{have the same precedence}@}: <!--SR:!2026-10-14,283,330!2027-01-01,352,349!2026-12-31,351,349!2026-12-16,336,349-->
+Below are common comparison operators, all of which returns {@{a boolean}@}. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. The comparison operators below {@{have the same precedence}@}: <!--SR:!fsrs,2030-02-28T00:00:00.000Z,1233,1233.04800529,1,2,9,0,0,2026-10-14T00:00:00.000Z!2027-01-01,352,349!2026-12-31,351,349!2026-12-16,336,349-->
 
 ```Python
 # pytextgen generate data
@@ -136,7 +136,7 @@ return chain.from_iterable([r.value for r in results])
 <!--pytextgen generate section="d123"--><!-- The following content is generated at 2024-01-30T13:35:46.633801+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←`in` <!--SR:!fsrs,2030-02-23T00:00:00.000Z,1229,1229.25786194,1,2,9,0,0,2026-10-13T00:00:00.000Z!fsrs,2029-06-20T00:00:00.000Z,1045,1045.2595081,1,2,9,0,0,2026-08-10T00:00:00.000Z-->
-- `in`→::@::←`<` <!--SR:!2026-10-14,283,330!fsrs,2030-01-01T00:00:00.000Z,1187,1187.45608877,1,2,9,0,0,2026-10-02T00:00:00.000Z-->
+- `in`→::@::←`<` <!--SR:!fsrs,2030-02-28T00:00:00.000Z,1233,1233.04800529,1,2,9,0,0,2026-10-14T00:00:00.000Z!fsrs,2030-01-01T00:00:00.000Z,1187,1187.45608877,1,2,9,0,0,2026-10-02T00:00:00.000Z-->
 - `<`→::@::←`<=` <!--SR:!fsrs,2029-09-08T00:00:00.000Z,1107,1107.06552019,1,2,9,0,0,2026-08-28T00:00:00.000Z!fsrs,2028-09-27T00:00:00.000Z,735,735.27734513,2.49272837,2,9,0,0,2026-09-23T00:00:00.000Z-->
 - `<=`→::@::←`>` <!--SR:!fsrs,2029-08-04T00:00:00.000Z,1080,1080.08717202,1,2,9,0,0,2026-08-20T00:00:00.000Z!fsrs,2030-02-04T00:00:00.000Z,1214,1214.08066657,1,2,9,0,0,2026-10-09T00:00:00.000Z-->
 - `>`→::@::←`>=` <!--SR:!2026-10-15,284,330!2026-10-21,290,330-->

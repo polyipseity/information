@@ -37,4 +37,4 @@ assert aChar == 'd';
 
 ## equality
 
-One should (almost) always use {@{`equals` instead of `==` to compare whether two strings are the same, like `string1.equals(string2)`}@}. In general, comparing equality of objects uses {@{`equals` in most cases. Non-objects always use `==`}@}. See [object § equality](object.md#equality). <!--SR:!2028-06-02,1235,356!2026-10-14,750,336-->
+One should (almost) always use {@{`equals` instead of `==` to compare whether two strings are the same, like `string1.equals(string2)`}@}. In general, comparing equality of objects uses {@{`equals` in most cases. Non-objects always use `==`}@}. See [object § equality](object.md#equality). <!--SR:!2028-06-02,1235,356!fsrs,2034-11-05T00:00:00.000Z,2944,2943.65531778,1,2,11,0,0,2026-10-14T00:00:00.000Z-->

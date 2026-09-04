@@ -103,7 +103,7 @@ The Fourier transform has {@{the following basic properties}@}:<sup>[\[15\]](#^r
 
 #### frequency shifting
 
-\(annotation: frequency shifting\) ::@:: $$e^{i2\pi \xi _{0}x}f(x)\ \ {\stackrel {\mathcal {F} }{\Longleftrightarrow } }\ \ {\widehat {f} }(\xi -\xi _{0});\quad \ \xi _{0}\in \mathbb {R}$$ <!--SR:!2026-10-14,241,339!2027-03-22,389,378-->
+\(annotation: frequency shifting\) ::@:: $$e^{i2\pi \xi _{0}x}f(x)\ \ {\stackrel {\mathcal {F} }{\Longleftrightarrow } }\ \ {\widehat {f} }(\xi -\xi _{0});\quad \ \xi _{0}\in \mathbb {R}$$ <!--SR:!fsrs,2029-10-23T00:00:00.000Z,1105,1105.37155424,1,2,9,0,0,2026-10-14T00:00:00.000Z!2027-03-22,389,378-->
 
 #### time scaling
 

@@ -126,7 +126,7 @@ The compiler guarantees that {@{all possible shapes of the input lists}@} are ha
 
 ### sorting arbitrary types
 
-To sort lists whose {@{elements are not necessarily `Int`}@}, {@{the comparison operation}@} must be {@{supplied explicitly}@}. {@{The most flexible design}@} introduces {@{a polymorphic type parameter}@} and {@{a second argument list that receives a less-than predicate}@}: <!--SR:!fsrs,2029-12-23T00:00:00.000Z,1172,1172.20432607,1,2,9,0,0,2026-10-08T00:00:00.000Z!fsrs,2028-08-23T00:00:00.000Z,705,705.09333259,2.49272837,2,9,0,0,2026-09-18T00:00:00.000Z!fsrs,2028-08-16T00:00:00.000Z,700,700.04868809,2.49272837,2,9,0,0,2026-09-16T00:00:00.000Z!2026-10-14,273,330!fsrs,2029-11-08T00:00:00.000Z,1138,1137.78464757,1,2,9,0,0,2026-09-27T00:00:00.000Z!fsrs,2030-01-02T00:00:00.000Z,1180,1179.83367202,1,2,9,0,0,2026-10-10T00:00:00.000Z-->
+To sort lists whose {@{elements are not necessarily `Int`}@}, {@{the comparison operation}@} must be {@{supplied explicitly}@}. {@{The most flexible design}@} introduces {@{a polymorphic type parameter}@} and {@{a second argument list that receives a less-than predicate}@}: <!--SR:!fsrs,2029-12-23T00:00:00.000Z,1172,1172.20432607,1,2,9,0,0,2026-10-08T00:00:00.000Z!fsrs,2028-08-23T00:00:00.000Z,705,705.09333259,2.49272837,2,9,0,0,2026-09-18T00:00:00.000Z!fsrs,2028-08-16T00:00:00.000Z,700,700.04868809,2.49272837,2,9,0,0,2026-09-16T00:00:00.000Z!fsrs,2030-01-21T00:00:00.000Z,1195,1195.07164214,1,2,9,0,0,2026-10-14T00:00:00.000Z!fsrs,2029-11-08T00:00:00.000Z,1138,1137.78464757,1,2,9,0,0,2026-09-27T00:00:00.000Z!fsrs,2030-01-02T00:00:00.000Z,1180,1179.83367202,1,2,9,0,0,2026-10-10T00:00:00.000Z-->
 
 > [!example] __merge sort with comparator__
 >
