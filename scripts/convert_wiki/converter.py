@@ -40,6 +40,8 @@ __all__ = ()
 _HEADER_REGEX = re.compile(r"^h(\d)$")
 """Tags that render as bold or italic."""
 _BOLD_OR_ITALIC = frozenset({"b", "em", "i", "strong"})
+"""Inline-level HTML tags for whitespace-preservation checks."""
+_INLINE_TAGS = frozenset({"a", "span", "em", "i", "b", "strong", "img"})
 """Bold font-weight style detector."""
 _BOLD_FONT_STYLE_REGEX = re.compile(r"\bfont-weight\s*:\s*bold\b", re.IGNORECASE)
 """Italic font-style detector."""
@@ -175,8 +177,13 @@ class WikiHtmlConverter:
         escape: bool = True,
         refs: bool,
         redirect_map: Mapping[str, _RedirectInfo],
+        seen_heading_texts: set[str] | None = None,
     ) -> str:
         """Convert a Wikipedia HTML element tree to a Markdown string."""
+        # Heading-dedup state is per-document: created once at the external
+        # entry and threaded through the recursion so repeated convert() calls
+        # on the same instance start clean (MD024 formatting-agnostic test).
+        seen_heading_texts = set() if seen_heading_texts is None else seen_heading_texts
 
         # ---- Formatting-agnostic principle ----
         # HTML-to-Markdown conversion must be invariant under formatting
@@ -216,6 +223,42 @@ class WikiHtmlConverter:
                 text = text.translate(str.maketrans({c: " " for c in "\t\n\r\x0b\x0c"}))
                 text = _COLLAPSE_SPACES_REGEX.sub(" ", text)
                 if all(c in "\t\n\r\x0b\x0c " for c in text):
+                    # Preserve a single space between two adjacent inline
+                    # tokens of the same kind that would otherwise merge: two
+                    # emphasis elements (``<b>M</b> <b>L</b>`` → ``__M__ __L__``)
+                    # or two links (``[a](x) [b](y)`` → ``[a](x)[b](y)`` if
+                    # dropped).  The space separates two distinct tokens and
+                    # must survive whitespace collapsing.  A link directly
+                    # followed by an emphasis (e.g. ``[x](y)_z_``) is
+                    # intentionally tight, so the space stays collapsed there.
+                    # Math fragments wrapped in a ``texhtml`` span
+                    # (e.g. ``<i>m</i> <i>x</i>``) are also an exception:
+                    # adjacent variables are conventionally tight.
+                    if (
+                        not self._in_texhtml(ele)
+                        and isinstance(prev := ele.previous_sibling, Tag)
+                        and isinstance(nxt := ele.next_sibling, Tag)
+                        and (
+                            (
+                                self._is_inline_emphasis(prev)
+                                and self._is_inline_emphasis(nxt)
+                            )
+                            or (
+                                self._is_inline_link(prev) and self._is_inline_link(nxt)
+                            )
+                            or (self._is_inline_link(prev) and nxt.name in _INLINE_TAGS)
+                            or (prev.name in _INLINE_TAGS and self._is_inline_link(nxt))
+                        )
+                    ):
+                        return " "
+                    if (
+                        self._in_texhtml(ele)
+                        and isinstance(prev := ele.previous_sibling, Tag)
+                        and isinstance(nxt := ele.next_sibling, Tag)
+                        and self._is_inline_emphasis(prev)
+                        and self._is_inline_emphasis(nxt)
+                    ):
+                        return _cfg._MARKDOWN_SEPARATOR
                     return ""
                 return escape_markdown(text) if escape else text
             return ""
@@ -257,9 +300,24 @@ class WikiHtmlConverter:
         self._out_to_archive = out_to_archive
         self._redirect_map = redirect_map
 
-        config = await self._dispatch(ele, classes, list_stack=list_stack)
+        config = await self._dispatch(
+            ele, classes, list_stack=list_stack, seen_heading_texts=seen_heading_texts
+        )
         if config is None:
             config = _HandlerConfig()
+
+        # Ensure a single blank line separates a single-newline block from a
+        # following heading (markdownlint MD022/MD032). Blocks already ending
+        # in "\n\n" are left untouched to avoid double blank lines.
+        if config.suffix == "\n":
+            nxt = self._effective_sibling_skipping(
+                ele, following=True, skip_whitespace=True
+            )
+            if isinstance(nxt, Tag) and (
+                _HEADER_REGEX.match(nxt.name)
+                or "mw-heading" in frozenset(nxt.get_attribute_list("class"))
+            ):
+                config.suffix = "\n\n"
 
         joiner = config.joiner
         process_strings = config.process_strings
@@ -269,9 +327,17 @@ class WikiHtmlConverter:
         if "hatnote" in classes:
             config.prefix = f"- {config.prefix.removesuffix('_')}"
             next_sib = ele.find_next_sibling()
+            nxt = self._effective_sibling_skipping(
+                ele, following=True, skip_whitespace=True
+            )
             if isinstance(next_sib, Tag) and (
                 next_sib.name == "figure"
                 or _BOXED_CLASSES & frozenset(next_sib.get_attribute_list("class"))
+            ):
+                config.suffix = f"{config.suffix.removeprefix('_')}\n\n"
+            elif isinstance(nxt, Tag) and (
+                _HEADER_REGEX.match(nxt.name)
+                or "mw-heading" in frozenset(nxt.get_attribute_list("class"))
             ):
                 config.suffix = f"{config.suffix.removeprefix('_')}\n\n"
             else:
@@ -308,9 +374,8 @@ class WikiHtmlConverter:
             and isinstance(ele, Tag)
             and ele.find("div", class_="thumbcaption") is not None
         )
-        has_box_title = (
-            _BLOCKQUOTE_CLASSES & classes
-            and bool(self._find_box_title(ele, has_numblk=False))
+        has_box_title = _BLOCKQUOTE_CLASSES & classes and bool(
+            self._find_box_title(ele, has_numblk=False)
         )
         if "sistersitebox" in classes:
             original_process = process_strings
@@ -340,9 +405,12 @@ class WikiHtmlConverter:
                     "\n".join(_collapse_whitespace(line) for line in para.split("\n"))
                     for para in strings.split("\n\n")
                 )
-                result = "".join(
-                    f">{line.strip() and ' '}{line}"
-                    for line in strings.strip().splitlines(keepends=True)
+                result = "\n".join(
+                    f">{content and ' '}{content}"
+                    for content in (
+                        _collapse_whitespace(line).strip()
+                        for line in strings.strip().splitlines()
+                    )
                 )
                 result = _COLLAPSE_EMPTY_BLOCKQUOTE_RE.sub(">\n", result)
                 # Separate the box title from its body with a blank ``> `` line.
@@ -365,6 +433,7 @@ class WikiHtmlConverter:
             escape=escape,
             refs=refs,
             redirect_map=redirect_map,
+            seen_heading_texts=seen_heading_texts,
         )
         strings = joiner.join(sv.value for sv in soon_values)
         if config.full_result:
@@ -378,10 +447,13 @@ class WikiHtmlConverter:
         classes: frozenset[str],
         *,
         list_stack: tuple[int, ...],
+        seen_heading_texts: set[str],
     ) -> _HandlerConfig | None:
         """Dispatch to a handler for the given element."""
         if header_match := _HEADER_REGEX.match(ele.name):
-            return self._handle_header(ele, classes, header_match)
+            return self._handle_header(
+                ele, classes, header_match, seen_heading_texts=seen_heading_texts
+            )
 
         if ele.name == "a" and "mw-selflink" in classes:
             return self._handle_selflink(ele, classes)
@@ -418,6 +490,9 @@ class WikiHtmlConverter:
         if ele.name == "li":
             return self._handle_li(ele, classes, list_stack)
 
+        if ele.name == "video":
+            return self._handle_video(ele, classes)
+
         handler = getattr(self, f"_handle_{ele.name}", None)
         if handler is not None:
             return handler(ele, classes)
@@ -433,6 +508,7 @@ class WikiHtmlConverter:
         escape: bool,
         refs: bool,
         redirect_map: Mapping[str, _RedirectInfo],
+        seen_heading_texts: set[str],
     ) -> tuple[list[SoonValue[str]], tuple[int, ...]]:
         """Process child elements concurrently using task groups."""
         soon_values: list[SoonValue[str]] = []
@@ -453,6 +529,7 @@ class WikiHtmlConverter:
                         escape=escape and ele.name not in {"code", "math"},
                         refs=refs,
                         redirect_map=redirect_map,
+                        seen_heading_texts=seen_heading_texts,
                     )
                 )
         return soon_values, list_stack
@@ -469,7 +546,11 @@ class WikiHtmlConverter:
         return _HandlerConfig(process_strings=process)
 
     def _handle_header(
-        self, ele: Tag, classes: frozenset[str], header_match: re.Match[str]
+        self,
+        ele: Tag,
+        classes: frozenset[str],
+        header_match: re.Match[str],
+        seen_heading_texts: set[str],
     ) -> _HandlerConfig:
         """Render a heading with Markdown # markers."""
         level = int(header_match[1] or "1")
@@ -477,10 +558,15 @@ class WikiHtmlConverter:
         suffix = "\n\n"
 
         def process(strings: str) -> str:
-            """Fix name casing in heading text."""
-            return _fix_name_maybe(strings.strip(), names_map=self._names_map)
+            """Fix name casing in heading text; suppress MD024 on repeats."""
+            text = _fix_name_maybe(strings.strip(), names_map=self._names_map)
+            key = text.casefold()
+            if key in seen_heading_texts:
+                return f"<!-- markdownlint-disable-next-line MD024 -->\n{prefix}{text}"
+            seen_heading_texts.add(key)
+            return f"{prefix}{text}"
 
-        return _HandlerConfig(prefix=prefix, suffix=suffix, process_strings=process)
+        return _HandlerConfig(prefix="", suffix=suffix, process_strings=process)
 
     def _handle_selflink(self, ele: Tag, classes: frozenset[str]) -> _HandlerConfig:
         """Render a self-link as a relative Markdown link."""
@@ -491,7 +577,7 @@ class WikiHtmlConverter:
         elif href.startswith("/wiki/"):
             title = unquote(href[6:].split("#")[0]).replace("_", " ")
         else:
-            return _HandlerConfig()
+            title = ele.get_text(strip=True)
         info = self._redirect_map.get(title, _RedirectInfo(to=title))
         to = info.to
         to_filename = _fix_name_maybe(
@@ -554,15 +640,39 @@ class WikiHtmlConverter:
         through such transparent wrappers until a real sibling is found or a
         non-span boundary (block element or root) is reached.
         """
+        return WikiHtmlConverter._effective_sibling_skipping(
+            ele, following=following, skip_whitespace=False
+        )
+
+    @staticmethod
+    def _effective_sibling_skipping(
+        ele: PageElement, *, following: bool, skip_whitespace: bool
+    ) -> PageElement | None:
+        """Like ``_effective_sibling`` but optionally skips whitespace-only text.
+
+        Whitespace-only ``NavigableString`` siblings carry no rendered content,
+        so structural decisions (e.g. a blank line before a following heading)
+        must look past them.  The separator helpers at L609-611 intentionally
+        rely on the raw whitespace result, so callers there must pass
+        ``skip_whitespace=False``.
+        """
         node: PageElement = ele
         while True:
             sibling = node.next_sibling if following else node.previous_sibling
-            if sibling is not None:
-                return sibling
-            parent = node.parent
-            if not isinstance(parent, Tag) or parent.name != "span":
-                return None
-            node = parent
+            if sibling is None:
+                parent = node.parent
+                if not isinstance(parent, Tag) or parent.name != "span":
+                    return None
+                node = parent
+                continue
+            if (
+                skip_whitespace
+                and isinstance(sibling, NavigableString)
+                and not sibling.strip()
+            ):
+                node = sibling
+                continue
+            return sibling
 
     def _handle_bold_italic(self, ele: Tag, classes: frozenset[str]) -> _HandlerConfig:
         """Render bold/italic text with Markdown emphasis markers."""
@@ -709,6 +819,39 @@ class WikiHtmlConverter:
         return any(isinstance(p, Tag) and p.name in _TD_OR_TH for p in ele.parents)
 
     @staticmethod
+    def _in_texhtml(ele: PageElement) -> bool:
+        """Check if *ele* is nested inside a ``texhtml`` math span."""
+        parent = ele.parent
+        while isinstance(parent, Tag):
+            if "texhtml" in frozenset(parent.get_attribute_list("class")):
+                return True
+            parent = parent.parent
+        return False
+
+    @staticmethod
+    def _is_inline_emphasis(ele: Tag) -> bool:
+        """Return True for inline emphasis elements.
+
+        Covers the explicit emphasis tags (``b``, ``em``, ``i``, ``strong``)
+        and ``<span>`` elements whose inline style forces bold or italic
+        (e.g. ``font-weight: bold`` / ``font-style: italic``).
+        """
+        if ele.name in _BOLD_OR_ITALIC:
+            return True
+        if ele.name == "span":
+            style = str(ele.get("style", ""))
+            return bool(
+                _BOLD_FONT_STYLE_REGEX.search(style)
+                or _ITALIC_FONT_STYLE_REGEX.search(style)
+            )
+        return False
+
+    @staticmethod
+    def _is_inline_link(ele: Tag) -> bool:
+        """Return True for inline link (anchor) elements."""
+        return ele.name == "a"
+
+    @staticmethod
     def _in_inline_context(ele: Tag) -> bool:
         """Check if element is inside a handler that provides block spacing.
 
@@ -750,7 +893,9 @@ class WikiHtmlConverter:
             # ``> `` line (blank ``> `` separation from following siblings),
             # e.g. multi-image ``tmulti`` thumbnails with per-image captions.
             return _HandlerConfig(suffix="\n\n")
-        if "sidebar-caption" in classes and self._in_table_cell(ele):
+        if (
+            "sidebar-caption" in classes or "infobox-caption" in classes
+        ) and self._in_table_cell(ele):
             # Inside an infobox/sidebar cell, the caption follows the image
             # or math on the same cell line; separate it with a ``<p>``
             # marker (the cell-internal separator convention) rather than a
@@ -842,7 +987,9 @@ class WikiHtmlConverter:
         return _HandlerConfig(suffix="" if self._in_table_cell(ele) else "\n\n")
 
     @staticmethod
-    def _find_box_title(ele: Tag, *, has_numblk: bool) -> list[Tag | NavigableString] | None:
+    def _find_box_title(
+        ele: Tag, *, has_numblk: bool
+    ) -> list[Tag | NavigableString] | None:
         """Detect the leading title of a box div without extracting it.
 
         The title is the run of leading inline nodes (bare text and inline
@@ -872,7 +1019,9 @@ class WikiHtmlConverter:
         return title_nodes if title_nodes else None
 
     @staticmethod
-    def _equation_box_title(ele: Tag, *, has_numblk: bool) -> list[Tag | NavigableString]:
+    def _equation_box_title(
+        ele: Tag, *, has_numblk: bool
+    ) -> list[Tag | NavigableString]:
         """Extract the leading title of an equation-box div.
 
         The title is the run of leading inline nodes (bare text and inline
@@ -1416,7 +1565,12 @@ class WikiHtmlConverter:
 
     def _handle_tbody(self, ele: Tag, classes: frozenset[str]) -> _HandlerConfig:
         """Handle <tbody> table body elements."""
-        return TableConverter.handle_tbody(ele, classes, self._soup)
+        return TableConverter.handle_tbody(
+            ele,
+            classes,
+            self._soup,
+            names_map=self._names_map,
+        )
 
     def _handle_thead(self, ele: Tag, classes: frozenset[str]) -> _HandlerConfig:
         """Handle <thead> table head elements."""
@@ -1446,51 +1600,94 @@ class WikiHtmlConverter:
             src_url_str = quote(formats[1].format(to_archive.replace("_", " ")))
         return src_url_str
 
+    def _derive_media_alt(self, *, ele: Tag, explicit_alt: str | None = None) -> str:
+        """Derive alt text for a media embed — the canonical image mechanism.
+
+        1. Prefer ``explicit_alt`` (the element's ``alt`` attribute) when non-empty.
+        2. Otherwise fall back to the uploaded filename: ``File:<name>`` with
+           underscores→spaces, or an ``image_metadata`` description when present.
+        3. Markdown-escape the label; for a description, balance brackets instead.
+        4. Normalize paragraphs (``\\n\\n`` → `` <p> ``) and line breaks
+           (``\\n`` → `` <br/> ``).
+        """
+        alt = (explicit_alt or "").strip()
+        if not alt:
+            filename = _get_image_filename(ele)
+            if not filename:
+                return ""
+            file_title = f"File:{filename}"
+            if desc := self._image_metadata.get(file_title, ""):
+                alt = desc
+            else:
+                alt = file_title
+            if filename and file_title in self._image_metadata:
+                alt = _balance_brackets(alt)
+            else:
+                alt = _cfg._MARKDOWN_ESCAPE_REGEX.sub(lambda m: Rf"\{m[0]}", alt)
+        else:
+            alt = _cfg._MARKDOWN_ESCAPE_REGEX.sub(lambda m: Rf"\{m[0]}", alt)
+        paragraphs = alt.split("\n\n")
+        alt = (" <p> ".join(paragraphs)).strip()
+        alt = alt.replace("\n", " <br/> ")
+        return alt
+
+    def _build_media_config(
+        self,
+        *,
+        ele: Tag,
+        src: str,
+        embed: bool,
+        explicit_alt: str | None = None,
+    ) -> _HandlerConfig:
+        """Build a handler config that emits a media link/embed.
+
+        Alt text is derived here via ``_derive_media_alt`` — never by the caller —
+        so every media embed (image, video, audio) applies the canonical mechanism.
+        """
+        text = self._derive_media_alt(ele=ele, explicit_alt=explicit_alt).strip()
+        src_url_str = self._process_archive_url(str(src))
+        link = f"{'!' if embed else ''}[{text}]({src_url_str})"
+        return _HandlerConfig(
+            suffix="" if self._in_inline_context(ele) else "\n\n",
+            process_strings=lambda _strings: link,
+        )
+
     def _handle_audio(self, ele: Tag, classes: frozenset[str]) -> _HandlerConfig:
         """Handle <audio> media elements."""
-        if src := ele.get("href"):
-
-            def process(strings: str) -> str:
-                """Generate Markdown link for audio file."""
-                src_url_str = self._process_archive_url(str(src))
-                embed = "!" if {"mw-tmh-player"} & classes else ""
-                return f"{embed}[{strings.strip()}]({src_url_str})"
-
-            return _HandlerConfig(
-                suffix="" if self._in_inline_context(ele) else "\n\n",
-                process_strings=process,
-            )
-        return _HandlerConfig()
+        if (src := ele.get("href")) is None:
+            return _HandlerConfig()
+        return self._build_media_config(
+            ele=ele,
+            src=str(src),
+            embed="mw-tmh-player" in classes,
+        )
 
     def _handle_image(self, ele: Tag, classes: frozenset[str]) -> _HandlerConfig:
         """Handle <img> image elements with download and link."""
-        if src := ele.get("src"):
+        if (src := ele.get("src")) is None:
+            return _HandlerConfig()
+        return self._build_media_config(
+            ele=ele,
+            src=str(src),
+            embed=True,
+            explicit_alt=str(ele.get("alt", "")),
+        )
 
-            def process(strings: str) -> str:
-                """Generate Markdown image syntax with alt text."""
-                src_url_str = self._process_archive_url(str(src))
-                alt = str(ele.get("alt", "")).strip()
-                if not alt:
-                    alt = self._fallback_alt(ele)
-                    filename = _get_image_filename(ele)
-                    if filename and f"File:{filename}" in self._image_metadata:
-                        alt = _balance_brackets(alt)
-                    else:
-                        alt = _cfg._MARKDOWN_ESCAPE_REGEX.sub(
-                            lambda m: Rf"\{m[0]}", alt
-                        )
-                else:
-                    alt = _cfg._MARKDOWN_ESCAPE_REGEX.sub(lambda m: Rf"\{m[0]}", alt)
-                paragraphs = alt.split("\n\n")
-                alt = (" <p> ".join(paragraphs)).strip()
-                alt = alt.replace("\n", " <br/> ")
-                return f"{strings}![{alt}]({src_url_str})"
-
-            return _HandlerConfig(
-                suffix="" if self._in_inline_context(ele) else "\n\n",
-                process_strings=process,
-            )
-        return _HandlerConfig()
+    def _handle_video(self, ele: Tag, classes: frozenset[str]) -> _HandlerConfig:
+        """Handle <video> media elements, routing through the shared helper."""
+        if (resource := ele.get("resource")) is not None:
+            src = str(resource)
+        elif (data_mwtitle := ele.get("data-mwtitle")) is not None:
+            src = f"/wiki/File:{data_mwtitle}"
+        else:
+            source = next((c for c in ele.find_all("source", recursive=False)), None)
+            if source is not None:
+                src = str(source.get("resource") or source.get("src"))
+            elif (poster := ele.get("poster")) is not None:
+                src = str(poster)
+            else:
+                return _HandlerConfig()
+        return self._build_media_config(ele=ele, src=src, embed=True)
 
     def _fallback_alt(self, ele: Tag) -> str:
         """Compute alt text fallback for an <img> element."""
@@ -1597,6 +1794,14 @@ class WikiHtmlConverter:
                 href = _markdown_fragment(
                     _fix_name_maybe(
                         href[href.index("#") + 1 :],
+                        replace_underscores=True,
+                        names_map=self._names_map,
+                    )
+                )
+            elif href.startswith("#") and len(href) > 1:
+                href = _markdown_fragment(
+                    _fix_name_maybe(
+                        href[1:],
                         replace_underscores=True,
                         names_map=self._names_map,
                     )
