@@ -17,7 +17,7 @@ from bs4 import NavigableString, PageElement, Tag
 
 from .ast_utils import _replace_pipes_outside_math
 from .types import _HandlerConfig
-from .utils import _fix_name_maybe
+from .utils import _fix_name_maybe, _smart_split_row
 
 """Table cell tag names."""
 _TD_OR_TH = frozenset({"td", "th"})
@@ -328,12 +328,9 @@ class TableConverter:
             row = row.strip()
             if not row:
                 continue
-            cells = [c.strip() for c in row.split("|")]
-            # Remove leading/trailing empty strings from outer pipes.
-            while cells and cells[0] == "":
-                cells.pop(0)
-            while cells and cells[-1] == "":
-                cells.pop()
+            cells = _smart_split_row(row)
+            if cells is None:
+                continue
             # Replace zero-width-space separator filler with empty string.
             cells = ["" if c == "\u200b" else c for c in cells]
             if not cells:
@@ -353,16 +350,16 @@ class TableConverter:
             return [cells[i] if i < len(cells) else "" for i in indices]
 
         def _fmt(cells: list[str]) -> str:
-            """Format a table row, rendering empty cells as a single space."""
-            return f"> | {' | '.join(c if c else ' ' for c in cells)} |"
+            """Pre-format row for pipeline realignment."""
+            return f"| {' | '.join(c if c else ' ' for c in cells)} |"
 
         # Build linear table (columns at _NAVBOX_LINEAR_INDICES).
         if header_row:
             lin_cols = _pick(header_row, cls._NAVBOX_LINEAR_INDICES)
-            lines.append(_fmt(lin_cols))
+            lines.append(f"> {_fmt(lin_cols)}")
             lines.append(f"> | {' | '.join(['---'] * len(lin_cols))} |")
         for row_cells in data_rows:
-            lines.append(_fmt(_pick(row_cells, cls._NAVBOX_LINEAR_INDICES)))
+            lines.append(f"> {_fmt(_pick(row_cells, cls._NAVBOX_LINEAR_INDICES))}")
 
         if angular_header:
             lines.append(">")
@@ -372,14 +369,10 @@ class TableConverter:
         # Build angular table (columns at _NAVBOX_ANGULAR_INDICES).
         if header_row:
             ang_cols = _pick(header_row, cls._NAVBOX_ANGULAR_INDICES)
-            lines.append(_fmt(ang_cols))
+            lines.append(f"> {_fmt(ang_cols)}")
             lines.append(f"> | {' | '.join(['---'] * len(ang_cols))} |")
         for row_cells in data_rows:
-            lines.append(_fmt(_pick(row_cells, cls._NAVBOX_ANGULAR_INDICES)))
-
-        # Trailing empty blockquote lines to close the blockquote.
-        lines.append(">")
-        lines.append(">")
+            lines.append(f"> {_fmt(_pick(row_cells, cls._NAVBOX_ANGULAR_INDICES))}")
 
         return "\n".join(lines)
 
@@ -453,13 +446,14 @@ class TableConverter:
 
             def _wrap(s: str) -> str:
                 """Wrap inner wikitable output in blockquote with navbox headers."""
-                return cls._blockquote_wrap_navbox(
+                result = cls._blockquote_wrap_navbox(
                     s,
                     link_comment=link_comment,
                     title_md=title_md,
                     linear_header=linear_header,
                     angular_header=angular_header,
                 )
+                return result + "\n\n" if result else result
 
             return _HandlerConfig(
                 full_result=True,
