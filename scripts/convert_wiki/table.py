@@ -17,7 +17,7 @@ from bs4 import NavigableString, PageElement, Tag
 
 from .ast_utils import _replace_pipes_outside_math
 from .types import _HandlerConfig
-from .utils import _fix_name_maybe, _smart_split_row
+from .utils import _fix_name_maybe, _format_separator_cell, _smart_split_row
 
 """Table cell tag names."""
 _TD_OR_TH = frozenset({"td", "th"})
@@ -350,16 +350,16 @@ class TableConverter:
             return [cells[i] if i < len(cells) else "" for i in indices]
 
         def _fmt(cells: list[str]) -> str:
-            """Pre-format row for pipeline realignment."""
-            return f"| {' | '.join(c if c else ' ' for c in cells)} |"
+            return f"> | {' | '.join(c if c else ' ' for c in cells)} |"
 
         # Build linear table (columns at _NAVBOX_LINEAR_INDICES).
         if header_row:
             lin_cols = _pick(header_row, cls._NAVBOX_LINEAR_INDICES)
-            lines.append(f"> {_fmt(lin_cols)}")
-            lines.append(f"> | {' | '.join(['---'] * len(lin_cols))} |")
+            sep_cells = [_format_separator_cell(3, ":-:") for _ in lin_cols]
+            lines.append(_fmt(lin_cols))
+            lines.append(f"> | {' | '.join(sep_cells)} |")
         for row_cells in data_rows:
-            lines.append(f"> {_fmt(_pick(row_cells, cls._NAVBOX_LINEAR_INDICES))}")
+            lines.append(_fmt(_pick(row_cells, cls._NAVBOX_LINEAR_INDICES)))
 
         if angular_header:
             lines.append(">")
@@ -369,10 +369,11 @@ class TableConverter:
         # Build angular table (columns at _NAVBOX_ANGULAR_INDICES).
         if header_row:
             ang_cols = _pick(header_row, cls._NAVBOX_ANGULAR_INDICES)
-            lines.append(f"> {_fmt(ang_cols)}")
-            lines.append(f"> | {' | '.join(['---'] * len(ang_cols))} |")
+            sep_cells = [_format_separator_cell(3, ":-:") for _ in ang_cols]
+            lines.append(_fmt(ang_cols))
+            lines.append(f"> | {' | '.join(sep_cells)} |")
         for row_cells in data_rows:
-            lines.append(f"> {_fmt(_pick(row_cells, cls._NAVBOX_ANGULAR_INDICES))}")
+            lines.append(_fmt(_pick(row_cells, cls._NAVBOX_ANGULAR_INDICES)))
 
         return "\n".join(lines)
 
