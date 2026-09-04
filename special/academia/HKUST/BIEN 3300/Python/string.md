@@ -19,7 +19,7 @@ There are {@{4 main ways}@} to {@{format a string with values}@} in Python: {@{C
 
 ### string concatenation
 
-String concatenation uses {@{`+`}@} to {@{concat strings and values converted to strings}@}. This is the {@{most cumbersome way}@} and usually is {@{the least efficient}@} as well. <!--SR:!fsrs,2029-12-01T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-10-01T00:00:00.000Z!2026-10-31,294,330!2026-10-15,278,330!2026-10-26,289,330-->
+String concatenation uses {@{`+`}@} to {@{concat strings and values converted to strings}@}. This is the {@{most cumbersome way}@} and usually is {@{the least efficient}@} as well. <!--SR:!fsrs,2029-12-01T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-10-01T00:00:00.000Z!2026-10-31,294,330!fsrs,2030-02-10T00:00:00.000Z,1214,1214.08066657,1,2,9,0,0,2026-10-15T00:00:00.000Z!2026-10-26,289,330-->
 
 ### `str.format`
 

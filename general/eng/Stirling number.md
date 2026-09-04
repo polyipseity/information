@@ -106,7 +106,7 @@ See the specific articles for details.
 
 Abramowitz and Stegun give {@{the following symmetric formulae}@} that relate {@{the Stirling numbers of the first and second kind}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2028-05-03,967,330!2027-01-08,358,371-->
 
-- symmetric formulae ::@:: $$\left[{n \atop k}\right]=\sum _{j=n}^{2n-k}(-1)^{j-k}{\binom {2n-k}{j} }{\binom {j-1}{k-1} }\left\{ {j-k \atop j-n}\right\}$$ and $$\left\{ {n \atop k}\right\}=\sum _{j=n}^{2n-k}(-1)^{j-k}{\binom {2n-k}{j} }{\binom {j-1}{k-1} }\left[{j-k \atop j-n}\right]$$ <!--SR:!fsrs,2026-10-15T00:00:00.000Z,54,54.3655286,9.95572941,2,8,0,0,2026-08-22T00:00:00.000Z!fsrs,2028-09-13T00:00:00.000Z,770,770.3730863,3.98153807,2,9,0,0,2026-08-05T00:00:00.000Z-->
+- symmetric formulae ::@:: $$\left[{n \atop k}\right]=\sum _{j=n}^{2n-k}(-1)^{j-k}{\binom {2n-k}{j} }{\binom {j-1}{k-1} }\left\{ {j-k \atop j-n}\right\}$$ and $$\left\{ {n \atop k}\right\}=\sum _{j=n}^{2n-k}(-1)^{j-k}{\binom {2n-k}{j} }{\binom {j-1}{k-1} }\left[{j-k \atop j-n}\right]$$ <!--SR:!fsrs,2026-12-24T00:00:00.000Z,70,70.00906138,9.94100205,2,9,0,0,2026-10-15T00:00:00.000Z!fsrs,2028-09-13T00:00:00.000Z,770,770.3730863,3.98153807,2,9,0,0,2026-08-05T00:00:00.000Z-->
 
 ## Stirling numbers with negative integral values
 

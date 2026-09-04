@@ -63,7 +63,7 @@ Mathematically: {@{$${\mathcal {F} }(\{x_{n}\})_{k}=X_{k} \implies {\mathcal {F}
 
 ### real and imaginary part
 
-This table shows {@{some mathematical operations on $x_{n}$ in the time domain and the corresponding effects on its DFT $X_{k}$ in the frequency domain}@}. <!--SR:!2026-10-15,568,336-->
+This table shows {@{some mathematical operations on $x_{n}$ in the time domain and the corresponding effects on its DFT $X_{k}$ in the frequency domain}@}. <!--SR:!fsrs,2033-02-09T00:00:00.000Z,2309,2308.59836239,1,2,10,0,0,2026-10-15T00:00:00.000Z-->
 
 | property                    | time domain $x_{n}$                                | frequency domain $X_{k}$                           |
 | --------------------------- | -------------------------------------------------- | -------------------------------------------------- |

@@ -150,7 +150,7 @@ To sort lists whose {@{elements are not necessarily `Int`}@}, {@{the comparison 
 > ```
 <!--SR:!2026-11-04,290,330!fsrs,2029-11-27T00:00:00.000Z,1153,1153.10014712,1,2,9,0,0,2026-10-01T00:00:00.000Z!2026-11-02,289,330-->
 
-{@{The `lt` function}@} can be {@{passed by name}@} or {@{inferred from the context \(keyword `implicit`\)}@}. With `msort` accepting {@{a comparison predicate}@}, it can {@{sort any list}@}: <!--SR:!2026-10-16,275,330!fsrs,2029-11-22T00:00:00.000Z,1149,1149.27403969,1,2,9,0,0,2026-09-30T00:00:00.000Z!fsrs,2029-12-15T00:00:00.000Z,1168,1168.38706892,1,2,9,0,0,2026-10-04T00:00:00.000Z!2026-10-15,274,330!fsrs,2030-01-11T00:00:00.000Z,1187,1187.45608877,1,2,9,0,0,2026-10-12T00:00:00.000Z-->
+{@{The `lt` function}@} can be {@{passed by name}@} or {@{inferred from the context \(keyword `implicit`\)}@}. With `msort` accepting {@{a comparison predicate}@}, it can {@{sort any list}@}: <!--SR:!2026-10-16,275,330!fsrs,2029-11-22T00:00:00.000Z,1149,1149.27403969,1,2,9,0,0,2026-09-30T00:00:00.000Z!fsrs,2029-12-15T00:00:00.000Z,1168,1168.38706892,1,2,9,0,0,2026-10-04T00:00:00.000Z!fsrs,2030-01-26T00:00:00.000Z,1199,1198.87680538,1,2,9,0,0,2026-10-15T00:00:00.000Z!fsrs,2030-01-11T00:00:00.000Z,1187,1187.45608877,1,2,9,0,0,2026-10-12T00:00:00.000Z-->
 
 > [!example] __using merge sort with comparator__
 >

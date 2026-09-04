@@ -126,7 +126,7 @@ and {@{a generic pair generator}@} becomes, using {@{`flatMap`}@}: <!--SR:!fsrs,
 > def pairs[T, U](t: Generator[T], u: Generator[U]) =
 >   t.flatMap(x => u.map(y => (x, y)))
 > ```
-<!--SR:!2026-10-15,274,330!fsrs,2030-01-16T00:00:00.000Z,1191,1191.26470738,1,2,9,0,0,2026-10-13T00:00:00.000Z-->
+<!--SR:!fsrs,2030-01-26T00:00:00.000Z,1199,1198.87680538,1,2,9,0,0,2026-10-15T00:00:00.000Z!fsrs,2030-01-16T00:00:00.000Z,1191,1191.26470738,1,2,9,0,0,2026-10-13T00:00:00.000Z-->
 
 The compiler rewrites {@{these _for_ expressions}@} in the same way {@{it does for collections}@}; {@{`for x <- g yield f(x)`}@} becomes {@{`g.map(f)`}@}, while {@{nested generators}@} translate into {@{successive calls to `flatMap`}@}. <!--SR:!fsrs,2029-10-27T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-09-27T00:00:00.000Z!fsrs,2029-11-29T00:00:00.000Z,1153,1153.10014712,1,2,9,0,0,2026-10-03T00:00:00.000Z!2026-11-06,292,330!fsrs,2029-10-22T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-09-26T00:00:00.000Z!fsrs,2030-01-16T00:00:00.000Z,1191,1191.26470738,1,2,9,0,0,2026-10-13T00:00:00.000Z!fsrs,2029-07-22T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-09-07T00:00:00.000Z-->
 
@@ -163,7 +163,7 @@ The compiler rewrites {@{these _for_ expressions}@} in the same way {@{it does f
 >   case Inner(left: Tree, right: Tree)
 >   case Leaf(x: Int)
 > ```
-<!--SR:!2026-10-16,275,330!2026-10-15,274,330!2026-10-26,282,330!fsrs,2029-08-11T00:00:00.000Z,1065,1064.62815785,1,2,9,0,0,2026-09-11T00:00:00.000Z-->
+<!--SR:!2026-10-16,275,330!fsrs,2030-01-26T00:00:00.000Z,1199,1198.87680538,1,2,9,0,0,2026-10-15T00:00:00.000Z!2026-10-26,282,330!fsrs,2029-08-11T00:00:00.000Z,1065,1064.62815785,1,2,9,0,0,2026-09-11T00:00:00.000Z-->
 
 we can generate {@{leaves and inner nodes}@} by combining {@{existing generators}@}: <!--SR:!2026-10-27,283,330!2026-10-22,278,330-->
 
@@ -245,7 +245,7 @@ ScalaCheck integrates {@{with ScalaTest or can run stand-alone}@}, providing a s
 > ```
 <!--SR:!2026-11-02,289,330!2026-11-07,293,330!fsrs,2029-07-27T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-09-08T00:00:00.000Z-->
 
-{@{`flatMap`}@} chains {@{computations that may produce values wrapped in the monad}@}, while {@{`unit`}@} injects {@{a plain value into the monadic context}@}. Additionally, these operations must {@{respect the monad laws}@}. <!--SR:!2026-10-15,274,330!2026-10-17,276,330!fsrs,2029-10-13T00:00:00.000Z,1115,1114.75652523,1,2,9,0,0,2026-09-24T00:00:00.000Z!2026-10-28,284,330!2026-11-01,288,330-->
+{@{`flatMap`}@} chains {@{computations that may produce values wrapped in the monad}@}, while {@{`unit`}@} injects {@{a plain value into the monadic context}@}. Additionally, these operations must {@{respect the monad laws}@}. <!--SR:!fsrs,2030-01-26T00:00:00.000Z,1199,1198.87680538,1,2,9,0,0,2026-10-15T00:00:00.000Z!2026-10-17,276,330!fsrs,2029-10-13T00:00:00.000Z,1115,1114.75652523,1,2,9,0,0,2026-09-24T00:00:00.000Z!2026-10-28,284,330!2026-11-01,288,330-->
 
 In Scala, {@{`flatMap`}@} is typically {@{implemented as a method of the type itself or an extension method}@}; {@{`unit`}@} can be provided as {@{a constructor of the type}@}. <!--SR:!2026-10-24,280,330!2026-10-29,285,330!fsrs,2029-10-22T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-09-26T00:00:00.000Z!2026-10-29,285,330-->
 
@@ -280,7 +280,7 @@ Because {@{every monad supports this construction}@}, it is often convenient to 
 {@{Typical examples}@} include: \(annotation: 4 items: {@{`List`, `Set`, `Option`, `Generator`}@}\) <!--SR:!2026-11-01,288,330!2026-10-31,287,330-->
 
 - `List`: ::@:: `unit(x) = List(x)` <!--SR:!2026-11-08,294,330!fsrs,2029-10-18T00:00:00.000Z,1119,1118.59914239,1,2,9,0,0,2026-09-25T00:00:00.000Z-->
-- `Set`:  ::@:: `unit(x) = Set(x)` <!--SR:!2026-10-16,275,330!2026-10-15,274,330-->
+- `Set`:  ::@:: `unit(x) = Set(x)` <!--SR:!2026-10-16,275,330!fsrs,2030-01-26T00:00:00.000Z,1199,1198.87680538,1,2,9,0,0,2026-10-15T00:00:00.000Z-->
 - `Option`: ::@:: `unit(x) = Some(x)` <!--SR:!2026-10-29,285,330!fsrs,2029-11-16T00:00:00.000Z,1142,1141.61620684,1,2,9,0,0,2026-10-01T00:00:00.000Z-->
 - `Generator`: ::@:: `unit(x) = single(x)` <!--SR:!2026-10-16,275,330!2026-10-25,281,330-->
 
@@ -288,7 +288,7 @@ Because {@{every monad supports this construction}@}, it is often convenient to 
 
 ## significance for `for`-expressions
 
-{@{Scala's syntactic sugar}@} for {@{monadic composition}@} is {@{the `for`-expression}@}. <!--SR:!fsrs,2029-11-01T00:00:00.000Z,1130,1130.11601442,1,2,9,0,0,2026-09-28T00:00:00.000Z!2026-10-15,274,330!2026-10-29,285,330-->
+{@{Scala's syntactic sugar}@} for {@{monadic composition}@} is {@{the `for`-expression}@}. <!--SR:!fsrs,2029-11-01T00:00:00.000Z,1130,1130.11601442,1,2,9,0,0,2026-09-28T00:00:00.000Z!fsrs,2030-01-26T00:00:00.000Z,1199,1198.87680538,1,2,9,0,0,2026-10-15T00:00:00.000Z!2026-10-29,285,330-->
 
 {@{Associativity}@} guarantee that {@{nested `for`-expressions}@} can {@{always be collapsed into a single `for`-expression}@}: <!--SR:!fsrs,2030-01-16T00:00:00.000Z,1191,1191.26470738,1,2,9,0,0,2026-10-13T00:00:00.000Z!2026-10-17,276,330!2027-04-20,419,390-->
 
@@ -327,12 +327,12 @@ Using {@{simple algebraic reasoning}@}, one can verify that {@{all three laws ho
 
 ## `Try`
 
-While {@{exceptions}@} are {@{inexpensive in Scala}@}, they have {@{drawbacks}@}: \(annotation: 2 items: {@{no effect on function type, cross-evaluation context}@}\) <!--SR:!fsrs,2029-11-16T00:00:00.000Z,1142,1141.61620684,1,2,9,0,0,2026-10-01T00:00:00.000Z!fsrs,2030-01-07T00:00:00.000Z,1184,1183.64577796,1,2,9,0,0,2026-10-11T00:00:00.000Z!2026-10-15,274,330!fsrs,2028-08-30T00:00:00.000Z,708,707.6141386,2.49272837,2,9,0,0,2026-09-22T00:00:00.000Z-->
+While {@{exceptions}@} are {@{inexpensive in Scala}@}, they have {@{drawbacks}@}: \(annotation: 2 items: {@{no effect on function type, cross-evaluation context}@}\) <!--SR:!fsrs,2029-11-16T00:00:00.000Z,1142,1141.61620684,1,2,9,0,0,2026-10-01T00:00:00.000Z!fsrs,2030-01-07T00:00:00.000Z,1184,1183.64577796,1,2,9,0,0,2026-10-11T00:00:00.000Z!fsrs,2030-01-26T00:00:00.000Z,1199,1198.87680538,1,2,9,0,0,2026-10-15T00:00:00.000Z!fsrs,2028-08-30T00:00:00.000Z,708,707.6141386,2.49272837,2,9,0,0,2026-09-22T00:00:00.000Z-->
 
 - no effect on function type ::@:: The types of functions that may throw are not reflected in the signature (unlike Java's `throws` clause). <!--SR:!2026-11-03,290,330!fsrs,2030-01-02T00:00:00.000Z,1180,1179.83367202,1,2,9,0,0,2026-10-10T00:00:00.000Z-->
 - cross-evaluation context ::@:: Exceptions can only propagate within the current evaluation context \(e.g. current thread\). They do not propagate naturally across threads or asynchronous boundaries. <!--SR:!fsrs,2029-11-29T00:00:00.000Z,1153,1153.10014712,1,2,9,0,0,2026-10-03T00:00:00.000Z!2026-10-26,282,330-->
 
-Because of {@{these issues}@}, it is sometimes preferable to treat {@{failures as ordinary values}@}. {@{This idea}@} is captured by {@{the `scala.util.Try` _monad_ type}@}. <!--SR:!2026-10-31,287,330!2026-10-17,276,330!2026-10-25,281,330!2026-10-15,274,330-->
+Because of {@{these issues}@}, it is sometimes preferable to treat {@{failures as ordinary values}@}. {@{This idea}@} is captured by {@{the `scala.util.Try` _monad_ type}@}. <!--SR:!2026-10-31,287,330!2026-10-17,276,330!2026-10-25,281,330!fsrs,2030-01-26T00:00:00.000Z,1199,1198.87680538,1,2,9,0,0,2026-10-15T00:00:00.000Z-->
 
 {@{`scala.util.Try`}@} behaves like{@{ an `Option`}@}, but distinguishes {@{between success and failure}@}: <!--SR:!2026-10-30,286,330!2026-10-28,284,330!2026-10-17,276,330-->
 

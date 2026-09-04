@@ -214,7 +214,7 @@ Here the _α_ and _γ_ indices are antisymmetrized, _β_ is not.
 
 - See also: ::@:: [Four-gradient](four-gradient.md), [d'Alembertian](d'Alembertian.md), and [Intrinsic derivative](intrinsic%20derivative.md#derivative%20along%20a%20curve) <!--SR:!fsrs,2028-09-27T00:00:00.000Z,735,735.27734513,2.49272837,2,9,0,0,2026-09-23T00:00:00.000Z!2026-12-07,331,350-->
 
-For {@{compactness}@}, {@{derivatives}@} may be indicated by {@{adding indices after a comma or semicolon}@}.<sup>[\[13\]](#^ref-13)</sup><sup>[\[14\]](#^ref-14)</sup> <!--SR:!2026-12-05,329,350!2026-10-15,284,330!fsrs,2029-09-03T00:00:00.000Z,1103,1103.2172026,1,2,9,0,0,2026-08-27T00:00:00.000Z-->
+For {@{compactness}@}, {@{derivatives}@} may be indicated by {@{adding indices after a comma or semicolon}@}.<sup>[\[13\]](#^ref-13)</sup><sup>[\[14\]](#^ref-14)</sup> <!--SR:!2026-12-05,329,350!fsrs,2030-03-05T00:00:00.000Z,1237,1236.83645167,1,2,9,0,0,2026-10-15T00:00:00.000Z!fsrs,2029-09-03T00:00:00.000Z,1103,1103.2172026,1,2,9,0,0,2026-08-27T00:00:00.000Z-->
 
 ### [partial derivative](partial%20derivative.md)
 
@@ -282,7 +282,7 @@ For {@{an arbitrary tensor}@}:<sup>[\[17\]](#^ref-17)</sup> {@{$${\begin{aligned
 
 ### [torsion tensor](torsion%20tensor.md)
 
-{@{An affine connection}@} has {@{a torsion tensor _T_<sup>_α_</sup><sub>_βγ_</sub>}@}: {@{$$T^{\alpha }{}_{\beta \gamma }=\Gamma ^{\alpha }{}_{\beta \gamma }-\Gamma ^{\alpha }{}_{\gamma \beta }-\gamma ^{\alpha }{}_{\beta \gamma },$$}@} \(annotation: mnemonic: {@{plus, minus, minus}@}; {@{same indices, swap covariant indices, same indices}@}\) where {@{_γ_<sup>_α_</sup><sub>_βγ_</sub> are given by the components of the Lie bracket of the local basis}@}, which {@{vanish when it is a coordinate basis}@}. <!--SR:!2026-11-28,322,350!fsrs,2029-07-06T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-08-14T00:00:00.000Z!2026-12-22,346,350!2026-10-15,284,330!2027-11-22,568,310!2028-06-01,735,330!fsrs,2029-12-09T00:00:00.000Z,1168,1168.38706892,1,2,9,0,0,2026-09-28T00:00:00.000Z-->
+{@{An affine connection}@} has {@{a torsion tensor _T_<sup>_α_</sup><sub>_βγ_</sub>}@}: {@{$$T^{\alpha }{}_{\beta \gamma }=\Gamma ^{\alpha }{}_{\beta \gamma }-\Gamma ^{\alpha }{}_{\gamma \beta }-\gamma ^{\alpha }{}_{\beta \gamma },$$}@} \(annotation: mnemonic: {@{plus, minus, minus}@}; {@{same indices, swap covariant indices, same indices}@}\) where {@{_γ_<sup>_α_</sup><sub>_βγ_</sub> are given by the components of the Lie bracket of the local basis}@}, which {@{vanish when it is a coordinate basis}@}. <!--SR:!2026-11-28,322,350!fsrs,2029-07-06T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-08-14T00:00:00.000Z!2026-12-22,346,350!fsrs,2030-03-05T00:00:00.000Z,1237,1236.83645167,1,2,9,0,0,2026-10-15T00:00:00.000Z!2027-11-22,568,310!2028-06-01,735,330!fsrs,2029-12-09T00:00:00.000Z,1168,1168.38706892,1,2,9,0,0,2026-09-28T00:00:00.000Z-->
 
 For {@{a Levi-Civita connection}@} {@{this tensor is defined to be zero}@}, which for {@{a coordinate basis}@} gives the equations {@{$$\Gamma ^{\alpha }{}_{\beta \gamma }=\Gamma ^{\alpha }{}_{\gamma \beta }.$$}@} <!--SR:!2026-10-24,293,350!2026-12-21,345,350!2026-11-28,322,350!2026-12-27,350,350-->
 

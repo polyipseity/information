@@ -60,7 +60,7 @@ Unlike {@{arrays}@}, lists are {@{__immutable__}@}—once constructed {@{their c
 {@{The basic list API}@} exposes {@{three core methods}@}: \(annotation: 3 items: {@{`head`, `tail`, `isEmpty`}@}\) <!--SR:!fsrs,2029-07-28T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-09-09T00:00:00.000Z!fsrs,2029-10-14T00:00:00.000Z,1115,1114.75652523,1,2,9,0,0,2026-09-25T00:00:00.000Z!2026-12-21,329,350-->
 
 - `head`, ::@:: which returns the first element; <!--SR:!fsrs,2029-07-28T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-09-09T00:00:00.000Z!fsrs,2029-07-28T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-09-09T00:00:00.000Z-->
-- `tail`, ::@:: which yields a new list containing all elements except the head; <!--SR:!2026-10-15,273,330!fsrs,2030-01-08T00:00:00.000Z,1184,1183.64577796,1,2,9,0,0,2026-10-12T00:00:00.000Z-->
+- `tail`, ::@:: which yields a new list containing all elements except the head; <!--SR:!fsrs,2030-01-22T00:00:00.000Z,1195,1195.07164214,1,2,9,0,0,2026-10-15T00:00:00.000Z!fsrs,2030-01-08T00:00:00.000Z,1184,1183.64577796,1,2,9,0,0,2026-10-12T00:00:00.000Z-->
 - `isEmpty`, ::@:: which reports whether the list contains no elements. <!--SR:!fsrs,2028-08-13T00:00:00.000Z,695,694.99996464,2.49272837,2,9,0,0,2026-09-18T00:00:00.000Z!2026-10-31,287,330-->
 
 {@{These operations}@} are defined as {@{methods on any instance of `List`}@}. For example, {@{`fruits.head` \(`fruits` is nonempty\)}@} evaluates to {@{its first element}@}, whereas calling {@{`Nil.head` throws a `NoSuchElementException`}@}. <!--SR:!fsrs,2029-10-14T00:00:00.000Z,1115,1114.75652523,1,2,9,0,0,2026-09-25T00:00:00.000Z!fsrs,2028-08-20T00:00:00.000Z,700,700.04868809,2.49272837,2,9,0,0,2026-09-20T00:00:00.000Z!fsrs,2028-11-16T00:00:00.000Z,838,838.20060054,1,2,9,0,0,2026-08-01T00:00:00.000Z!fsrs,2029-12-29T00:00:00.000Z,1176,1176.0199518,1,2,9,0,0,2026-10-10T00:00:00.000Z!2026-10-28,284,330-->
@@ -75,7 +75,7 @@ Scala's {@{immutable `List`}@} is {@{covariant}@}. This means that {@{`List[A]` 
 
 By declaring it {@{covariant (`sealed abstract class List[+T]`)}@} we allow {@{`Nil`}@} to be represented as {@{a singleton object of type `List[Nothing]`}@}, which is {@{a subtype of any `List[T]`}@}. <!--SR:!2026-10-26,282,330!fsrs,2028-08-27T00:00:00.000Z,705,705.09333259,2.49272837,2,9,0,0,2026-09-22T00:00:00.000Z!2026-10-18,276,330!fsrs,2030-01-03T00:00:00.000Z,1180,1179.83367202,1,2,9,0,0,2026-10-11T00:00:00.000Z-->
 
-However, adding {@{a method that "mutates" \(no actual mutation occurs\) the list}@} \(e.g. {@{`prepend(elem: T): List[T]`}@}\) {@{breaks covariance}@} because it {@{accepts an argument of type `T`—an input position for a covariant parameter}@}. To restore {@{variance correctness}@} we can use {@{a lower bound on the method's parameter}@}: <!--SR:!fsrs,2028-08-09T00:00:00.000Z,760,759.95962134,1,2,8,0,0,2026-07-11T00:00:00.000Z!fsrs,2028-08-20T00:00:00.000Z,700,700.04868809,2.49272837,2,9,0,0,2026-09-20T00:00:00.000Z!fsrs,2029-10-19T00:00:00.000Z,1119,1118.59914239,1,2,9,0,0,2026-09-26T00:00:00.000Z!fsrs,2028-08-27T00:00:00.000Z,705,705.09333259,2.49272837,2,9,0,0,2026-09-22T00:00:00.000Z!2026-10-15,273,330!2027-06-11,464,383-->
+However, adding {@{a method that "mutates" \(no actual mutation occurs\) the list}@} \(e.g. {@{`prepend(elem: T): List[T]`}@}\) {@{breaks covariance}@} because it {@{accepts an argument of type `T`—an input position for a covariant parameter}@}. To restore {@{variance correctness}@} we can use {@{a lower bound on the method's parameter}@}: <!--SR:!fsrs,2028-08-09T00:00:00.000Z,760,759.95962134,1,2,8,0,0,2026-07-11T00:00:00.000Z!fsrs,2028-08-20T00:00:00.000Z,700,700.04868809,2.49272837,2,9,0,0,2026-09-20T00:00:00.000Z!fsrs,2029-10-19T00:00:00.000Z,1119,1118.59914239,1,2,9,0,0,2026-09-26T00:00:00.000Z!fsrs,2028-08-27T00:00:00.000Z,705,705.09333259,2.49272837,2,9,0,0,2026-09-22T00:00:00.000Z!fsrs,2030-01-22T00:00:00.000Z,1195,1195.07164214,1,2,9,0,0,2026-10-15T00:00:00.000Z!2027-06-11,464,383-->
 
 > [!example] __implementing `prepend` on `List`__
 >
@@ -105,7 +105,7 @@ An alternative to {@{adding a method type parameter}@} is to {@{use extension me
 
 ### list methods
 
-Lists are {@{the fundamental data structure}@} that will {@{recur throughout the course}@}. In Scala a list is {@{an immutable linked-list whose type carries the element type}@}: {@{`List[Fruit]`}@}. A list can be constructed in {@{two idiomatic ways}@}: using {@{the factory method `List.apply`}@}, which accepts {@{zero or more arguments}@}, or by prepending {@{elements to the sentinel value `Nil` with the cons operator (`::`)}@}. For example: <!--SR:!2026-10-30,286,330!fsrs,2029-06-14T00:00:00.000Z,1018,1018.05728725,1,2,9,0,0,2026-08-31T00:00:00.000Z!fsrs,2029-07-28T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-09-09T00:00:00.000Z!fsrs,2028-01-29T00:00:00.000Z,504,504.11440767,5.00637887,2,9,0,0,2026-09-12T00:00:00.000Z!fsrs,2028-08-20T00:00:00.000Z,700,700.04868809,2.49272837,2,9,0,0,2026-09-20T00:00:00.000Z!2026-10-15,273,330!fsrs,2029-06-14T00:00:00.000Z,1018,1018.05728725,1,2,9,0,0,2026-08-31T00:00:00.000Z!2026-10-18,276,330-->
+Lists are {@{the fundamental data structure}@} that will {@{recur throughout the course}@}. In Scala a list is {@{an immutable linked-list whose type carries the element type}@}: {@{`List[Fruit]`}@}. A list can be constructed in {@{two idiomatic ways}@}: using {@{the factory method `List.apply`}@}, which accepts {@{zero or more arguments}@}, or by prepending {@{elements to the sentinel value `Nil` with the cons operator (`::`)}@}. For example: <!--SR:!2026-10-30,286,330!fsrs,2029-06-14T00:00:00.000Z,1018,1018.05728725,1,2,9,0,0,2026-08-31T00:00:00.000Z!fsrs,2029-07-28T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-09-09T00:00:00.000Z!fsrs,2028-01-29T00:00:00.000Z,504,504.11440767,5.00637887,2,9,0,0,2026-09-12T00:00:00.000Z!fsrs,2028-08-20T00:00:00.000Z,700,700.04868809,2.49272837,2,9,0,0,2026-09-20T00:00:00.000Z!fsrs,2030-01-22T00:00:00.000Z,1195,1195.07164214,1,2,9,0,0,2026-10-15T00:00:00.000Z!fsrs,2029-06-14T00:00:00.000Z,1018,1018.05728725,1,2,9,0,0,2026-08-31T00:00:00.000Z!2026-10-18,276,330-->
 
 > [!example] __list construction__
 >
@@ -250,7 +250,7 @@ Because {@{each recursive call}@} concatenates {@{a singleton list to the result
 >       case Nil          => Nil
 >       case x :: xs     => f(x) :: xs.map(f)
 > ```
-<!--SR:!2026-10-15,273,330!fsrs,2029-10-19T00:00:00.000Z,1119,1118.59914239,1,2,9,0,0,2026-09-26T00:00:00.000Z-->
+<!--SR:!fsrs,2030-01-22T00:00:00.000Z,1195,1195.07164214,1,2,9,0,0,2026-10-15T00:00:00.000Z!fsrs,2029-10-19T00:00:00.000Z,1119,1118.59914239,1,2,9,0,0,2026-09-26T00:00:00.000Z-->
 
 Using {@{`map`}@}, {@{a simple scaling routine}@} can be written as: <!--SR:!fsrs,2029-11-20T00:00:00.000Z,1145,1145.44606232,1,2,9,0,0,2026-10-02T00:00:00.000Z!2026-10-18,276,330-->
 
@@ -352,7 +352,7 @@ Using {@{`reduceLeft`}@}, {@{summation}@} becomes: <!--SR:!2026-11-07,293,330!20
 > ```Scala
 > def sum(xs: List[Int]) = (0 :: xs).reduceLeft(_ + _)
 > ```
-<!--SR:!2026-10-15,273,330!fsrs,2029-10-19T00:00:00.000Z,1119,1118.59914239,1,2,9,0,0,2026-09-26T00:00:00.000Z-->
+<!--SR:!fsrs,2030-01-22T00:00:00.000Z,1195,1195.07164214,1,2,9,0,0,2026-10-15T00:00:00.000Z!fsrs,2029-10-19T00:00:00.000Z,1119,1118.59914239,1,2,9,0,0,2026-09-26T00:00:00.000Z-->
 
 {@{`reduceLeft`}@} does not {@{support empty lists}@}. It also does not support {@{returning other types other than a supertype of the collection `T`}@}. {@{`foldLeft`}@} generalizes `reduceLeft` by {@{supplying an initial accumulator `z`}@} that is {@{used as a starting value}@}, and returned for {@{an empty list as the starting value is simply returned}@}. It also supports {@{returning any other types}@}, as long as {@{the initial value and the operation have the right types}@}. <!--SR:!2026-10-18,276,330!2026-10-30,286,330!2026-10-18,276,330!fsrs,2029-08-02T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-09-10T00:00:00.000Z!fsrs,2029-06-14T00:00:00.000Z,1018,1018.05728725,1,2,9,0,0,2026-08-31T00:00:00.000Z!2027-01-13,349,350!2026-12-16,324,350!2026-12-31,339,350!2026-12-19,327,350-->
 
@@ -521,7 +521,7 @@ These operations are typically implemented via {@{recursion or tail-recursion}@}
 
 ## mapping
 
-{@{A `Map`}@} associates {@{keys of type `Key` with values of type `Value`}@}. {@{The literal syntax `key -> value`}@} is {@{syntactic sugar for a pair `(key, value)`}@}, implemented as {@{an extension method on any object}@}. Typical examples: <!--SR:!2026-10-18,276,330!fsrs,2028-08-09T00:00:00.000Z,692,692.47401324,2.49272837,2,9,0,0,2026-09-17T00:00:00.000Z!2026-10-18,276,330!2026-10-22,280,330!2026-10-15,273,330-->
+{@{A `Map`}@} associates {@{keys of type `Key` with values of type `Value`}@}. {@{The literal syntax `key -> value`}@} is {@{syntactic sugar for a pair `(key, value)`}@}, implemented as {@{an extension method on any object}@}. Typical examples: <!--SR:!2026-10-18,276,330!fsrs,2028-08-09T00:00:00.000Z,692,692.47401324,2.49272837,2,9,0,0,2026-09-17T00:00:00.000Z!2026-10-18,276,330!2026-10-22,280,330!fsrs,2030-01-22T00:00:00.000Z,1195,1195.07164214,1,2,9,0,0,2026-10-15T00:00:00.000Z-->
 
 > [!example] __`Map` construction__
 >

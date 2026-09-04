@@ -9,7 +9,7 @@ tags:
 
 # comet
 
-{@{A __comet__}@} is {@{an icy, [small Solar System body](small%20Solar%20System%20body.md) that warms and begins to release gases when passing close to the [Sun](Sun.md)}@}, a process called {@{[outgassing](outgassing.md)}@}. <!--SR:!2028-04-26,946,290!2026-10-15,284,334!fsrs,2030-02-25T00:00:00.000Z,1234,1234.44589952,1,2,9,0,0,2026-10-10T00:00:00.000Z-->
+{@{A __comet__}@} is {@{an icy, [small Solar System body](small%20Solar%20System%20body.md) that warms and begins to release gases when passing close to the [Sun](Sun.md)}@}, a process called {@{[outgassing](outgassing.md)}@}. <!--SR:!2028-04-26,946,290!fsrs,2030-03-22T00:00:00.000Z,1254,1253.65121258,1,2,9,0,0,2026-10-15T00:00:00.000Z!fsrs,2030-02-25T00:00:00.000Z,1234,1234.44589952,1,2,9,0,0,2026-10-10T00:00:00.000Z-->
 
 ## references
 

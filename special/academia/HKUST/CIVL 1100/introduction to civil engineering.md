@@ -95,7 +95,7 @@ The content is in teaching order.
 - construction engineering ::@:: planning and execution of the designs from other fields of engineers <!--SR:!2030-10-16,1842,357!2032-01-30,2309,414-->
     - [construction engineer skills](#construction%20engineer%20skills)
     - [construction engineer jobs](#construction%20engineer%20jobs)
-- civil engineer prospects ::@:: A civil engineering degree prepares one for work in the construction industry and the broader business, financial, and management sectors. <!--SR:!2026-10-15,735,345!2028-11-25,1352,370-->
+- civil engineer prospects ::@:: A civil engineering degree prepares one for work in the construction industry and the broader business, financial, and management sectors. <!--SR:!fsrs,2034-12-08T00:00:00.000Z,2976,2975.511518,1,2,11,0,0,2026-10-15T00:00:00.000Z!2028-11-25,1352,370-->
     - civil engineer demand ::@:: Civil engineer are always in demand due to new infrastructure and maintenance and monitoring of existing ones. <!--SR:!2031-02-05,1995,400!2031-09-25,2207,417-->
     - [civil engineer prospect examples](#civil%20engineer%20prospect%20examples)
     - civil engineer organization examples ::@:: contractors or construction companies, engineering consulting firms, government (working as civil servants) <!--SR:!2027-11-29,979,305!2028-07-09,1209,350-->
@@ -144,7 +144,7 @@ quantity surveyor
 
 - _(begin)_→::@::←building services engineer <!--SR:!2030-07-07,1742,355!2033-11-17,2846,417-->
 - building services engineer→::@::←consulting civil engineer <!--SR:!2027-02-01,780,357!2029-06-30,1448,357-->
-- consulting civil engineer→::@::←consulting environmental engineer <!--SR:!fsrs,2031-05-22T00:00:00.000Z,1703,1702.93817837,1.85586587,2,10,0,0,2026-09-22T00:00:00.000Z!2026-10-15,507,360-->
+- consulting civil engineer→::@::←consulting environmental engineer <!--SR:!fsrs,2031-05-22T00:00:00.000Z,1703,1702.93817837,1.85586587,2,10,0,0,2026-09-22T00:00:00.000Z!fsrs,2032-12-16T00:00:00.000Z,2254,2253.944934,1,2,10,0,0,2026-10-15T00:00:00.000Z-->
 - consulting environmental engineer→::@::←consulting geo-technical engineer <!--SR:!2030-02-24,1562,305!2029-08-02,1452,326-->
 - consulting geo-technical engineer→::@::←consulting structural engineer <!--SR:!fsrs,2032-06-27T00:00:00.000Z,2158,2158.13413177,1,2,10,0,0,2026-07-31T00:00:00.000Z!2028-05-20,1116,337-->
 - consulting structural engineer→::@::←contracting civil engineer <!--SR:!2028-12-29,1209,335!2028-09-19,1202,335-->

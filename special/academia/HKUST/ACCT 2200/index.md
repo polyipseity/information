@@ -247,7 +247,7 @@ The content is in teaching order.
 - price setting ::@:: markup, target costing, etc. <!--SR:!2031-07-12,1867,399!2026-11-25,511,399-->
 - [markup](../../../../general/markup%20(business)) ::@:: sale price = cost × (1 + markup) <p> It uses the cost and markup percentage to set the price. It ignores the market _supply and demand_. <!--SR:!fsrs,2032-09-11T00:00:00.000Z,2166,2166.08190138,1,2,10,0,0,2026-10-07T00:00:00.000Z!2026-12-04,520,399-->
 - [target costing](../../../../general/target%20costing.md) ::@:: It is an approach to determine a product's _life-cycle cost_ which should be sufficient to develop specified functionality and quality, while _ensuring_ its desired profit. <p> It differs from markup in that we use the market price (target price) and target profit to set the cost instead of the other way around. This way, market _supply and demand_ is considered. <!--SR:!2031-04-18,1800,399!2031-05-25,1819,399-->
-    - target costing / equation ::@:: The target profit % (margin) is used to calculate the target profit from the target price. Then use the following equation: <p> target price – target profit = target cost <p> And then the target cost is the maximum amount spendable for lifecycle cost while ensuring a XX% profit/return. <!--SR:!2026-10-15,477,399!2026-11-13,502,399-->
+    - target costing / equation ::@:: The target profit % (margin) is used to calculate the target profit from the target price. Then use the following equation: <p> target price – target profit = target cost <p> And then the target cost is the maximum amount spendable for lifecycle cost while ensuring a XX% profit/return. <!--SR:!fsrs,2032-10-25T00:00:00.000Z,2202,2202.20400893,1,2,10,0,0,2026-10-15T00:00:00.000Z!2026-11-13,502,399-->
 
 ## week 5 lecture
 

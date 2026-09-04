@@ -74,7 +74,7 @@ return await memorize_seq(
 - [Venus](Venus.md)→::@::←[Sun](Sun.md) <!--SR:!2027-05-12,758,290!2027-02-06,655,310-->
 - [Sun](Sun.md)→::@::←[Mars](Mars.md) <!--SR:!2027-03-25,751,330!fsrs,2032-04-09T00:00:00.000Z,2092,2092.07751145,1,2,10,0,0,2026-07-18T00:00:00.000Z-->
 - [Mars](Mars.md)→::@::←[Jupiter](Jupiter.md) <!--SR:!2032-05-30,2194,330!2027-10-08,900,330-->
-- [Jupiter](Jupiter.md)→::@::←[Saturn](Saturn.md) <!--SR:!2031-05-23,1892,330!2026-10-15,588,310-->
+- [Jupiter](Jupiter.md)→::@::←[Saturn](Saturn.md) <!--SR:!2031-05-23,1892,330!fsrs,2032-10-02T00:00:00.000Z,2179,2179.26111368,1,2,10,0,0,2026-10-15T00:00:00.000Z-->
 - [Saturn](Saturn.md)→::@::←[fixed stars](fixed%20stars.md) <!--SR:!2027-07-04,789,330!2029-05-15,1387,350-->
 - [fixed stars](fixed%20stars.md)→::@::←[_Primum Mobile_](Primum%20Mobile.md) ("first moveable"), outermost [celestial sphere](celestial%20sphere.md) <!--SR:!2027-06-03,805,330!2028-12-31,1279,350-->
 - [_Primum Mobile_](Primum%20Mobile.md) ("first moveable"), outermost [celestial sphere](celestial%20sphere.md)→::@::←_(end)_ <!--SR:!2027-08-01,805,330!2030-10-18,1742,330-->

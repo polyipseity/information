@@ -11,7 +11,7 @@ tags:
 
 ## types
 
-There are two types of errors: {@{syntax errors and runtime errors}@}. The former {@{occurs during compilation and is detected by the compiler}@}, while the latter {@{occurs during execution}@}. <!--SR:!fsrs,2029-12-25T00:00:00.000Z,1176,1176.0199518,1,2,9,0,0,2026-10-06T00:00:00.000Z!2026-10-15,277,330!2027-01-25,375,364-->
+There are two types of errors: {@{syntax errors and runtime errors}@}. The former {@{occurs during compilation and is detected by the compiler}@}, while the latter {@{occurs during execution}@}. <!--SR:!fsrs,2029-12-25T00:00:00.000Z,1176,1176.0199518,1,2,9,0,0,2026-10-06T00:00:00.000Z!fsrs,2030-02-06T00:00:00.000Z,1210,1210.28222352,1,2,9,0,0,2026-10-15T00:00:00.000Z!2027-01-25,375,364-->
 
 ## runtime errors
 
