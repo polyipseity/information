@@ -251,6 +251,14 @@ class WikiHtmlConverter:
                         )
                     ):
                         return " "
+                    if (
+                        self._in_texhtml(ele)
+                        and isinstance(prev := ele.previous_sibling, Tag)
+                        and isinstance(nxt := ele.next_sibling, Tag)
+                        and self._is_inline_emphasis(prev)
+                        and self._is_inline_emphasis(nxt)
+                    ):
+                        return _cfg._MARKDOWN_SEPARATOR
                     return ""
                 return escape_markdown(text) if escape else text
             return ""
