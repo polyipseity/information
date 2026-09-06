@@ -12,9 +12,9 @@ tags:
 
 {@{The simplest analytical model}@}, often called the {@{__binary channel__ or __binary symmetric channel with additive white Gaussian noise__ (__AWGN__)}@}, reduces {@{the whole communication link to a black box}@} that accepts {@{binary input symbols at the transmitter and produces binary output symbols at the receiver}@}. {@{All intermediate physical-layer details}@} – {@{propagation, multipath, fading, etc.}@} – are {@{absorbed into this single stochastic channel model}@}.
 
-{@{This simple binary channel model}@} underpins {@{higher-level analyses in digital communications}@}: it provides the baseline against which {@{coding gains, diversity techniques, or more complex modulation schemes}@} are measured.  In practice, {@{real systems}@} {@{deviate from this idealization}@} due to {@{multipath fading, colored noise, timing errors and non-binary signalling}@}; nevertheless, it remains {@{a standard model in communication theory}@}.
+{@{The binary channel}@} is the baseline against which {@{coding gains, diversity techniques, or more complex modulation schemes}@} are measured.  In practice, {@{real systems}@} {@{deviate from this idealization}@} due to {@{multipath fading, colored noise, timing errors and non-binary signalling}@}; nevertheless, it remains {@{a standard model in communication theory}@}.
 
-Here, as {@{binary modulation is considered}@}, {@{a _bit_ and a _symbol_ refer to the same thing}@}, and are {@{used interchangeably}@} here. In {@{[_M_-ary transmission](M-ary%20transmission.md)}@}, {@{a _symbol_ can represent more than one _bit_}@}, and thus should be {@{distinguished in that context}@}.
+Here, as {@{binary modulation is considered}@}, {@{a _bit_ and a _symbol_}@} are {@{used interchangeably}@}. In {@{[_M_-ary transmission](M-ary%20transmission.md)}@}, {@{a _symbol_ can represent more than one _bit_}@} and should be {@{distinguished}@}.
 
 ## binary channel
 
@@ -39,7 +39,7 @@ Thus {@{the decision statistic $V$}@} conditioned on {@{the transmitted bit}@} i
 
 In {@{digital communications}@} {@{the _bit error rate_ (BER)}@} is {@{a standard metric}@} for quantifying {@{how reliably a transmitter–receiver pair can convey data over a noisy medium}@}.
 
-The following section develops {@{the BER expression for this simple model}@} from {@{first principles}@}, detailing the assumptions about {@{the transmitted waveform, receiver structure, and noise statistics}@}, and deriving {@{the BER in terms of the Q-function and signal energy}@}.
+The following section develops {@{the BER expression for this simple model}@}, detailing the assumptions about {@{the transmitted waveform, receiver structure, and noise statistics}@}, and deriving {@{the BER in terms of the Q-function and signal energy}@}.
 
 Let {@{the prior probabilities}@} be {@{$$P(b_k=0)=p_0,\qquad P(b_k=1)=p_1,$$}@} with {@{$p_0+p_1=1$}@}. {@{The a-priori bit error probabilities}@} are {@{no longer equal}@}; they become {@{$$P_e^{(0)} = P(\hat b_k \neq 0 | b_k=0),\qquad P_e^{(1)} = P(\hat b_k \neq 1 | b_k=1).$$}@} {@{The overall BER}@} is {@{the weighted sum}@} {@{$$P_e = p_0\,P_e^{(0)} + p_1\,P_e^{(1)} \,.$$}@}
 
@@ -53,7 +53,7 @@ For {@{a transmitted '1'}@}: {@{$$P_e^{(1)} = P(N_T < -AT) = Q\!\left(\frac{AT}{
 
 For {@{a transmitted '0'}@}: {@{$$P_e^{(0)} = P(N_T > AT) = Q\!\left(\frac{AT}{\sigma_{n_T} }\right) = Q\!\left(\sqrt{\frac{2A^2T}{N_0} }\right) = Q\left(\sqrt {\frac{2E_b} {N_0} } \right) \,,$$}@} where {@{$E_b = A^2 T$}@} is {@{the signal \(excluding the noise\) power \(see below\)}@}.
 
-Hence {@{the BER with arbitrary priors}@} is {@{$$\boxed{P_e = p_0\,Q\!\left(\sqrt{\tfrac{2E_b}{N_0} }\right)+p_1\,Q\!\left(\sqrt{\tfrac{2E_b}{N_0} }\right) = Q\!\left(\sqrt{\tfrac{2E_b}{N_0} }\right)} \,.$$}@} Notice how {@{the input bit probabilities}@} do not {@{affect the BER}@}.
+Hence {@{the BER with arbitrary priors}@} is {@{$$\boxed{P_e = p_0\,Q\!\left(\sqrt{\tfrac{2E_b}{N_0} }\right)+p_1\,Q\!\left(\sqrt{\tfrac{2E_b}{N_0} }\right) = Q\!\left(\sqrt{\tfrac{2E_b}{N_0} }\right)} \,.$$}@} {@{The input bit probabilities}@} do not {@{affect the BER}@}.
 
 ### bit error rate with arbitrary threshold
 
@@ -70,9 +70,9 @@ $$P_e^{(0)} = Q\!\left(\frac{AT+V_{\!th} }{\sigma_{n_T} }\right).$$
 
 {@{The variance term $\sigma^2_{n_T}$}@} governs how much {@{the decision statistic $V$ can deviate from its mean value $\pm AT$}@} before {@{causing a bit error}@}.
 
-In {@{a binary antipodal system}@}, {@{the probability of error}@} is governed by {@{the tail probability of a Gaussian distribution}@}; hence it {@{decays exponentially with the ratio}@} {@{$\frac{A^2T}{N_0} = \frac{E_b}{N_0}$}@}. \(The ratio comes from {@{the approximation for large $x$ below}@}.\) Because {@{the noise variance}@} scales {@{linearly with the symbol duration $T$}@}, {@{longer symbols}@} provide {@{more averaging and reduce $\sigma^2_{n_T}$}@}, improving {@{reliability}@}.
+In {@{a binary antipodal system}@}, {@{the probability of error}@} is governed by {@{the tail probability of a Gaussian distribution}@}; hence it {@{decays exponentially with the ratio}@} {@{$\frac{A^2T}{N_0} = \frac{E_b}{N_0}$}@}. Because {@{the noise variance}@} scales {@{linearly with the symbol duration $T$}@}, {@{longer symbols}@} provide {@{more averaging and reduce $\sigma^2_{n_T}$}@}, improving {@{reliability}@}.
 
-Mathematically, for {@{a fixed energy per bit $E_b$}@}, {@{the error probability}@} is {@{$$P_e = Q\!\left(\sqrt{\frac{2E_b}{N_0} }\right) \;\approx\; \sqrt{\frac {N_0} {2E_b} } \frac{1}{\sqrt{2 \pi } }\exp\!\left(-\frac{E_b}{N_0}\right)\quad (E_b/N_0 \gg 1) \,,$$}@} using the approximation: {@{$$Q(x) \approx \frac {\phi(x)} x = \frac 1 {x \sqrt{2\pi} } e^{-x^2 / 2} \qquad x > 0 \,.$$}@} This approximation is {@{asymptotically exact}@} as {@{$x \to \infty$}@}. Thus, improving {@{the signal-to-noise ratio}@} by {@{increasing transmit power or reducing noise spectral density}@} directly {@{translates into a steep reduction in BER}@}.
+Mathematically, for {@{a fixed energy per bit $E_b$}@}, {@{the error probability}@} is {@{$$P_e = Q\!\left(\sqrt{\frac{2E_b}{N_0} }\right) \;\approx\; \sqrt{\frac {N_0} {2E_b} } \frac{1}{\sqrt{2 \pi } }\exp\!\left(-\frac{E_b}{N_0}\right)\quad (E_b/N_0 \gg 1) \,,$$}@} using the approximation: {@{$$Q(x) \approx \frac {\phi(x)} x = \frac 1 {x \sqrt{2\pi} } e^{-x^2 / 2} \qquad x > 0 \,.$$}@} This approximation is {@{asymptotically exact}@} as {@{$x \to \infty$}@}. Thus, improving {@{the signal-to-noise ratio}@} by {@{increasing transmit power or reducing noise spectral density}@} reduces BER steeply.
 
 ## signal energy
 
@@ -82,7 +82,7 @@ With {@{non-equiprobable bits}@} {@{the average energy per bit}@} is {@{$$E_b = 
 
 ## signal-to-noise ratio
 
-{@{The _signal-to-noise ratio_ (SNR) _per bit_}@} is defined as {@{$$\boxed{\text{bSNR}_{\text{lin} } := \frac{E_b}{N_0} } \,.$$}@} Note {@{the noise power spectral density uses one-sided power $N_0$}@} rather than {@{two-sided power $N_0 / 2$}@}. Thus, {@{the BER for _zero threshold_ can be expressed compactly}@} as {@{$$\boxed{\text{BER}=Q\!\left(\sqrt{\dfrac{2E_b}{N_0} }\right) = Q\!\left(\sqrt{2 \cdot \text{bSNR}_{\text{lin} } } \right) \qquad V_{\!th} = 0} \,.$$}@} It is {@{a classic result}@} for {@{binary antipodal signaling over an AWGN channel}@}.
+{@{The _signal-to-noise ratio_ (SNR) _per bit_}@} is defined as {@{$$\boxed{\text{bSNR}_{\text{lin} } := \frac{E_b}{N_0} } \,.$$}@} {@{The noise power spectral density}@} uses {@{one-sided power $N_0$}@} rather than {@{two-sided power $N_0 / 2$}@}. Thus, {@{the BER for _zero threshold_}@} is {@{$$\boxed{\text{BER}=Q\!\left(\sqrt{\dfrac{2E_b}{N_0} }\right) = Q\!\left(\sqrt{2 \cdot \text{bSNR}_{\text{lin} } } \right) \qquad V_{\!th} = 0} \,.$$}@} This is {@{the standard result}@} for {@{binary antipodal signaling over an AWGN channel}@}.
 
 ## using Q-function
 
@@ -94,7 +94,7 @@ For {@{large positive arguments}@}, $Q(x)$ can be approximated by {@{$$Q(x)\appr
 
 {@{The Q-function}@} can be written in terms of {@{the _complementary_ error function $\operatorname{erfc}$}@}: {@{$$Q(x)=\frac12\,\operatorname{erfc}\!\left(\frac{x}{\sqrt{2} }\right) =\frac12-\frac12\,\operatorname{erf}\!\left(\frac{x}{\sqrt{2} }\right),$$}@} where {@{the ordinary error function}@} is {@{$$\operatorname{erf}(z)= \frac{2}{\sqrt{\pi} }\int_{0}^{z} e^{-t^2}\,dt.$$}@}
 
-{@{These identities are useful}@} when {@{numerical tables or software libraries}@} provide {@{$\operatorname{erfc}$ rather than $Q$}@}. For example, the equation for {@{the BER using zero threshold}@}: {@{$$\boxed{\text{BER}= \frac12\,\operatorname{erfc}\!\left(\sqrt{\dfrac{E_b}{N_0} }\right)} \,,$$}@} and the equation for {@{the BER using arbitrary threshold}@}: {@{$$\boxed{\text{BER}(V_{\!th})= p_{0}\,\tfrac12\,\operatorname{erfc}\!\left(\dfrac{AT+V_{\!th} } {\sqrt{2\,\sigma^2_{n_T} } }\right) +p_{1}\,\tfrac12\,\operatorname{erfc}\!\left(\dfrac{AT-V_{\!th} } {\sqrt{2\,\sigma^2_{n_T} } }\right)} \,.$$}@}
+These identities are useful when {@{numerical tables or software libraries}@} provide {@{$\operatorname{erfc}$ rather than $Q$}@}. For example, the equation for {@{the BER using zero threshold}@}: {@{$$\boxed{\text{BER}= \frac12\,\operatorname{erfc}\!\left(\sqrt{\dfrac{E_b}{N_0} }\right)} \,,$$}@} and the equation for {@{the BER using arbitrary threshold}@}: {@{$$\boxed{\text{BER}(V_{\!th})= p_{0}\,\tfrac12\,\operatorname{erfc}\!\left(\dfrac{AT+V_{\!th} } {\sqrt{2\,\sigma^2_{n_T} } }\right) +p_{1}\,\tfrac12\,\operatorname{erfc}\!\left(\dfrac{AT-V_{\!th} } {\sqrt{2\,\sigma^2_{n_T} } }\right)} \,.$$}@}
 
 ## optimization
 
@@ -108,7 +108,7 @@ As we have seen above, {@{the overall BER with priors $p_0,p_1$}@} is {@{$$\boxe
 
 ### filter optimization
 
-Next is to {@{find the most optimal filter $h(t)$}@}. Assume {@{both bits are _equiprobable_}@}, otherwise {@{more complex mathematics are needed}@}. From {@{the overall BER formula for equiprobable bits}@}, we see {@{maximizing $\left\lvert \frac {s_{o0} - s_{o1} } {\sigma_{n_T} } \right\rvert$}@} or equivalently {@{$\rho := \frac {(s_{o0} - s_{o 1})^2} {\sigma_{n_T}^2}$}@} can {@{minimize $P_e$}@}.
+Next, we find {@{the optimal filter $h(t)$}@}. Assume {@{both bits are _equiprobable_}@}, otherwise {@{more complex mathematics are needed}@}. From {@{the overall BER formula for equiprobable bits}@}, we see {@{maximizing $\left\lvert \frac {s_{o0} - s_{o1} } {\sigma_{n_T} } \right\rvert$}@} or equivalently {@{$\rho := \frac {(s_{o0} - s_{o 1})^2} {\sigma_{n_T}^2}$}@} can {@{minimize $P_e$}@}.
 
 First, we generalize {@{$\sigma_{n_T}^2$ to arbitrary filter $h(t)$ and _WSS process_ \(not necessarily _white noise_!\) with power spectrum $S_{xx}(f)$}@}: {@{$$\begin{aligned} \sigma_{n_T}^2 & = \operatorname E\left[\left(\int_{-\infty}^\infty \! h(T - \tau) n(\tau) \,\mathrm d\tau\right)^2 \right] - \operatorname E\left[\int_{-\infty}^\infty \! h(T - \tau) n(\tau) \,\mathrm d\tau \right] \\ & = \operatorname{E} \left[\int_{\mathbb R^2} \! h(T - \tau_1) h(T - \tau_2) n(\tau_1) n(\tau_2) \,\mathrm d(\tau_1, \tau_2) \right] \\ & = \int_{\mathbb R^2} \! h(T - \tau_1) h(T - \tau_2) \operatorname E[n(\tau_1) n(\tau_2)] \,\mathrm d(\tau_1, \tau_2) \\ & = \int_{\mathbb R^2} \! h(T - \tau_1) h(T - \tau_2) r_{xx}(\tau_1 - \tau_2) \,\mathrm d(\tau_1, \tau_2) \,, \end{aligned}$$}@} which is {@{very ugly}@}. But we can make it {@{nicer using Fourier transform}@} and that {@{the Fourier transform of the \(WSS\) autocorrelation function $r_{xx}(t)$ is the power spectral density $S_{xx}(f)$}@}: {@{$$\begin{aligned} \sigma_{n_T}^2 & = \int_{\mathbb R^2} \! h(T - \tau_1) h(T - \tau_2) r_{xx}(\tau_1 - \tau_2) \,\mathrm d(\tau_1, \tau_2) \\ & = \int_{\mathbb R} h(\tau_1) \int_{\mathbb R} h(\tau_1 - \tau_2) r_{xx}(\tau_2) \,\mathrm d\tau_2 \,\mathrm d\tau_1 \\ & = \int_{\mathbb R} h(\tau_1) \int_{\mathbb R} H(f) S_{xx}(f) e^{j 2\pi f \tau_1} \,\mathrm df \,\mathrm d\tau_1 \\ & = \int_{\mathbb R} H(f) S_{xx}(f) \int_{\mathbb R} h(\tau_1) e^{j 2\pi f \tau_1} \,\mathrm d\tau_1 \,\mathrm df \\ & = \int_{\mathbb R} H(f) S_{xx}(f) \overline{H(f)} \,\mathrm df \\ & = \int_{\mathbb R} \lvert H(f) \rvert^2 S_{xx}(f) \,\mathrm df \,. \end{aligned}$$}@} Note we assumed that {@{$h(t)$ is a real function \(thus $\overline{h(t)} = h(t)$\)}@} when {@{manipulating the expression}@}. Thus, we have the following expression for {@{$\sigma_{n_T}^2$ for filter $h(t)$ and noise power spectral density $S_{xx}(f)$}@}: {@{$$\boxed{\sigma_{n_T}^2 = \int_{-\infty}^\infty \lvert H(f) \rvert^2 S_{xx}(f) \,\mathrm df} \,.$$}@}
 
@@ -148,7 +148,7 @@ Continue to assume {@{the noise is _white_ Gaussian noise}@}. An alternative is 
 
 ## modulation schemes
 
-{@{_Signal modulation_}@} refers to {@{the controlled variation of one or more attributes of a periodic carrier waveform}@}—such as {@{amplitude, phase, or frequency}@}—to {@{embed information onto it for transmission}@}. Modulation transforms {@{a baseband data stream}@} into {@{a form suitable for a particular channel}@}, allowing efficient {@{use of bandwidth}@} and improved {@{resilience to noise}@}. {@{The basic principle}@} is that {@{the transmitted signal $s(t)$}@} carries {@{the data through its modulated parameters}@} while {@{the receiver}@} demodulates {@{these changes to recover the original bit pattern}@}.
+{@{_Signal modulation_}@} refers to {@{the controlled variation of one or more attributes of a periodic carrier waveform}@}—such as {@{amplitude, phase, or frequency}@}—to {@{embed information onto it for transmission}@}. Modulation transforms {@{a baseband data stream}@} into {@{a form suitable for a particular channel}@}, allowing efficient {@{use of bandwidth}@} and improved {@{resilience to noise}@}. {@{The transmitted signal $s(t)$}@} carries {@{the data through its modulated parameters}@} while {@{the receiver}@} demodulates {@{these changes to recover the original bit pattern}@}.
 
 ### bipolar non-return-to-zero
 
@@ -164,7 +164,7 @@ In {@{bipolar or antipodal NRZ \(__this course__: "_antipodal signaling_"\)}@} {
 
 ### phase-shift keying
 
-{@{Phase-shift keying \(PSK\)}@} modulates {@{the carrier's phase while maintaining constant amplitude and frequency}@}. {@{Binary PSK \(BPSK\)}@} uses {@{two phases separated by $180^\circ$}@}, making it {@{a simple form of digital modulation}@}. {@{The transmitted waveforms for one bit interval}@} {@{are $$s_0(t)= +A\cos(\omega t+\theta), \qquad s_1(t)= -A\cos(\omega t+\theta) \qquad (t \in [0, T]) \,,$$}@} again with {@{$\omega T$ an integer multiple of $2\pi$}@} to ensure {@{smooth phase transition between symbols}@} and {@{signal orthogonality}@}.
+{@{Phase-shift keying \(PSK\)}@} modulates {@{the carrier's phase while maintaining constant amplitude and frequency}@}. {@{Binary PSK \(BPSK\)}@} uses {@{two phases separated by $180^\circ$}@}. {@{The transmitted waveforms for one bit interval}@} {@{are $$s_0(t)= +A\cos(\omega t+\theta), \qquad s_1(t)= -A\cos(\omega t+\theta) \qquad (t \in [0, T]) \,,$$}@} again with {@{$\omega T$ an integer multiple of $2\pi$}@} to ensure {@{smooth phase transition between symbols}@} and {@{signal orthogonality}@}.
 
 ### frequency-shift keying
 
