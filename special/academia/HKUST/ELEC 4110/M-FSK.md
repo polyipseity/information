@@ -12,7 +12,7 @@ tags:
 
 - see: [general/multiple frequency-shift keying](../../../../general/multiple%20frequency-shift%20keying.md)
 
-{@{_Frequency shift keying_ (M-FSK)}@} assigns {@{$\log_2M$ bits to one of $M$ distinct orthogonal carrier frequencies}@}. {@{Each symbol}@} is represented by {@{a single tone at a different frequency}@}, which makes FSK {@{inherently robust against amplitude fading and nonlinearities}@}—an advantage in {@{power-limited or highly distorted channels}@}. However, {@{the required bandwidth}@} expands {@{linearly with $M$}@}, as {@{each additional frequency}@} must be {@{accommodated within the channel spectrum}@}. <!--SR:!2026-12-22,278,330!2027-01-06,291,330!2026-11-10,245,330!2026-10-26,232,330!2026-12-29,285,330!2026-11-21,254,330!2027-01-04,290,330!2026-11-10,245,330!2027-01-01,287,330!2026-12-01,262,330-->
+{@{_Frequency shift keying_ (M-FSK)}@} assigns {@{$\log_2M$ bits to one of $M$ distinct orthogonal carrier frequencies}@}. {@{Each symbol}@} is represented by {@{a single tone at a different frequency}@}, which makes FSK {@{inherently robust against amplitude fading and nonlinearities}@}—an advantage in {@{power-limited or highly distorted channels}@}. However, {@{the required bandwidth}@} grows {@{linearly with $M$}@} because {@{each new frequency}@} needs {@{its own spectral allocation}@}. <!--SR:!2026-12-22,278,330!2027-01-06,291,330!2026-11-10,245,330!2026-10-26,232,330!2026-12-29,285,330!2026-11-21,254,330!2027-01-04,290,330!2026-11-10,245,330!2027-01-01,287,330!2026-12-01,262,330-->
 
 ## waveforms
 
@@ -52,6 +52,6 @@ In the case of {@{M-FSK}@}, using {@{the pairwise symbol error probability formu
 
 ### error analysis using simulation
 
-In practice, {@{_simulation_}@} is {@{often used}@} instead. As {@{the bit error rate is small}@}, {@{simulation takes a long time}@} to {@{produce an accurate approximation}@}. <!--SR:!2026-11-05,241,330!2027-01-02,288,330!2027-01-04,290,330!2026-11-18,251,330!2027-01-04,290,330-->
+In practice, {@{_simulation_}@} is more common. Because {@{the bit error rate is small}@}, {@{simulations run for a long time}@} before {@{converging on a reliable estimate}@}. <!--SR:!2026-11-05,241,330!2027-01-02,288,330!2027-01-04,290,330!2026-11-18,251,330!2027-01-04,290,330-->
 
 Using {@{simulations}@}, we can show {@{the union bound}@} is {@{a good approximation in most cases}@}. \(We do not know {@{_a priori_}@} if {@{the union bound is a good approximation}@}.\) <!--SR:!2026-12-21,278,330!2026-12-28,284,330!2026-11-04,240,330!2026-12-13,272,330!2026-12-12,271,330-->

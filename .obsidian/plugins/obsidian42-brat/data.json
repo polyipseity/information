@@ -1,13 +1,6 @@
 {
-  "pluginList": [
-    "polyipseity/obsidian-show-hidden-files"
-  ],
-  "pluginSubListFrozenVersion": [
-    {
-      "repo": "polyipseity/obsidian-show-hidden-files",
-      "version": "rolling"
-    }
-  ],
+  "pluginList": [],
+  "pluginSubListFrozenVersion": [],
   "themesList": [],
   "updateAtStartup": false,
   "updateThemesAtStartup": false,

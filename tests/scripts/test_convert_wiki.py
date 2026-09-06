@@ -751,6 +751,32 @@ class TestConverterLinkSpacing:
             "[Graph](https://en.wikipedia.org/wiki/Graph_of_a_function) of"
         )
 
+    @pytest.mark.anyio
+    async def test_preserves_space_between_adjacent_links(self) -> None:
+        """A space between two adjacent links must survive whitespace collapsing.
+
+        Regression: a whitespace-only text node between two ``<a>`` tags was
+        collapsed to empty, merging the links (``[a](x)[b](y)``).  The space
+        separates two distinct tokens and must be preserved.
+        """
+        soup = BeautifulSoup(
+            '<div><a href="https://en.wikipedia.org/wiki/Natural_frequency" class="extiw">natural</a> '
+            '<a href="https://en.wikipedia.org/wiki/Angular_frequency" class="extiw">frequency</a></div>',
+            "html.parser",
+        )
+        div = soup.find("div")
+        assert isinstance(div, Tag)
+        for a in div.find_all("a"):
+            a.attrs.pop("title", None)
+        converter = WikiHtmlConverter()
+        result = await converter.convert(
+            div, out_to_archive=set(), refs=False, redirect_map={}
+        )
+        assert (
+            "[natural](https://en.wikipedia.org/wiki/Natural_frequency) [frequency](https://en.wikipedia.org/wiki/Angular_frequency)"
+            in result
+        )
+
 
 class TestBlockMathParagraphAffiliation:
     """Tests that _handle_p and _handle_math produce correct paragraph affiliation.

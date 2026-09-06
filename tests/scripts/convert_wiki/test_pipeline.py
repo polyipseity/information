@@ -289,6 +289,28 @@ class TestCollectBlockMathInfo:
         info = _collect_block_math_info([])
         assert info == []
 
+    def test_block_math_only_child_of_link_uses_link_prev_sibling(self) -> None:
+        """Block math as the sole child of a link derives spacing from the
+        link's previous sibling, not the (empty) link interior.
+
+        ``</sup>`` is inline HTML (no trailing whitespace) so a space is
+        needed; ``text `` ends with a space so no space is needed.  Without
+        the fallback both would be ``False`` (empty link interior).
+        """
+        info = _collect_block_math_info(_parse("</sup>[$$f(x)$$](url)"))
+        assert len(info) == 1
+        raw, needs_before, needs_after, is_inline = info[0]
+        assert raw == "f(x)"
+        assert is_inline is False
+        assert needs_before is True
+
+        info = _collect_block_math_info(_parse("text [$$f(x)$$](url)"))
+        assert len(info) == 1
+        raw, needs_before, needs_after, is_inline = info[0]
+        assert raw == "f(x)"
+        assert is_inline is False
+        assert needs_before is False
+
 
 # =========================================================================
 # _scan_and_apply — text replacement for block math spacing
@@ -343,6 +365,25 @@ class TestScanAndApply:
             [("one", True, False, False), ("two", False, True, False)],
         )
         assert result == "a $$one$$b$$two$$ c"
+
+    def test_insert_space_before_link_wrapping_math(self) -> None:
+        """Link-wrapped block math with ``needs_before`` gets the space outside
+        the link, between the preceding text and the opening bracket."""
+        result = _scan_and_apply(
+            "</sup>[$$f(x)$$](url)", [("f(x)", True, False, False)]
+        )
+        assert result == "</sup> [$$f(x)$$](url)"
+
+    def test_no_space_before_link_when_already_spaced(self) -> None:
+        """Link-wrapped block math whose preceding text already ends with a
+        space keeps the existing space and does not insert a second one.
+
+        Here ``word`` has no trailing space (so ``needs_before`` is True),
+        but the character immediately before the ``[`` is whitespace, so the
+        separator is not inserted a second time.
+        """
+        result = _scan_and_apply("word [$$f(x)$$](url)", [("f(x)", True, False, False)])
+        assert result == "word [$$f(x)$$](url)"
 
 
 class TestInlineMathSpacing:
@@ -448,6 +489,16 @@ class TestInlineMathSpacing:
     def test_function_call_math_keeps_space(self) -> None:
         """``f(x)``-style math abutting words keeps spaces (non-atomic)."""
         assert _separate_block_math("word$f(x)$word") == "word $f(x)$ word"
+
+    def test_link_wrapped_block_math_gets_space_before_link(self) -> None:
+        """Block math wrapped in a link gets the separator outside the link.
+
+        The space goes between the preceding text and the opening bracket so
+        the math still renders inside the link target.  When the preceding
+        text already ends with a space, no extra space is inserted.
+        """
+        assert _separate_block_math("</sup>[$$f(x)$$](url)") == "</sup> [$$f(x)$$](url)"
+        assert _separate_block_math("text [$$f(x)$$](url)") == "text [$$f(x)$$](url)"
 
     def test_marker_idempotent(self) -> None:
         """Re-running on marker'd output inserts nothing (inline_html guard)."""
