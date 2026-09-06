@@ -22,7 +22,7 @@ tags:
 
 ## motivation
 
-{@{OFDM}@} addresses the challenge of {@{transmitting data over a frequency‑selective fading channel}@} by {@{decomposing it into many narrowband flat sub‑channels}@} (e.g. on the order of {@{$N=1024$}@}). By {@{sending independent data streams simultaneously across these sub‑channels}@}, {@{the serial modulation scheme becomes parallel}@}, so {@{each sub‑carrier experiences only flat fading}@}. <!--SR:!2026-11-17,233,330!2027-01-31,278,330!2026-12-12,254,330!2026-12-12,254,330!2027-02-16,294,330!2026-12-07,250,330!2026-12-13,255,330!2027-02-05,283,330-->
+{@{OFDM}@} addresses the challenge of {@{transmitting data over a frequency‑selective fading channel}@} by {@{decomposing it into many narrowband flat sub‑channels}@} (e.g. on the order of {@{$N=1024$}@}). By {@{sending independent data streams simultaneously across these sub‑channels}@}, {@{the serial modulation scheme becomes parallel}@}, so {@{each sub‑carrier experiences only flat fading}@}. <!--SR:!2026-11-17,233,330!2027-01-31,278,330!2026-12-12,254,330!2026-12-12,254,330!2027-02-16,294,330!2026-12-07,250,330!2026-12-13,255,330-->
 
 {@{Implementing such a large set of sub‑carriers}@} would require a {@{separate transmitter front end (modulator, mixer, etc.) for each tone}@} and the {@{insertion of guard bands between adjacent carriers}@} to {@{prevent overlap}@}—both {@{costly and wasteful of spectral efficiency}@}. <!--SR:!2026-12-12,254,330!2026-12-03,246,330!2026-11-25,240,330!2026-11-18,234,330!2027-01-11,278,330-->
 
@@ -38,7 +38,7 @@ To {@{decode the OFDM symbol}@}, {@{quadrature-mix down to baseband}@}, then dig
 
 ## principles
 
-Conceptually, {@{OFDM}@} is a {@{specialized frequency-division multiplexing (FDM) method}@}, with the requirement that {@{all subcarrier signals within a communication channel are orthogonal to one another}@}. <!--SR:!2026-12-09,251,330!2026-12-12,254,330!2026-11-28,242,330!2026-11-30,243,330-->
+Conceptually, {@{OFDM}@} is a {@{specialized frequency-division multiplexing (FDM) method}@}, with the requirement that {@{all subcarrier signals within a communication channel are orthogonal to one another}@}. <!--SR:!2026-12-09,251,330!2026-12-12,254,330!2026-11-28,242,330-->
 
 In {@{OFDM}@}, {@{the subcarrier frequencies are chosen}@} so that {@{the subcarriers are orthogonal to each other}@}, meaning that {@{crosstalk between the sub-channels is eliminated}@} and {@{inter-carrier guard bands}@} are not required. This {@{simplifies the design of both the transmitter and the receiver}@}; unlike {@{conventional FDM}@}, {@{a separate filter for each sub-channel}@} is not required. <!--SR:!2026-12-06,249,330!2027-02-02,280,330!2026-12-05,248,330!2027-01-03,272,330!2027-01-02,271,330!2027-02-12,290,330!2026-12-02,246,330!2027-01-07,275,330-->
 
