@@ -52,6 +52,6 @@ In the case of {@{M-FSK}@}, using {@{the pairwise symbol error probability formu
 
 ### error analysis using simulation
 
-In practice, {@{_simulation_}@} is more common. Because {@{the bit error rate is small}@}, {@{simulations run for a long time}@} before {@{converging on a reliable estimate}@}. <!--SR:!2026-11-05,241,330!2027-01-02,288,330!2027-01-04,290,330!2026-11-18,251,330!2027-01-04,290,330-->
+In practice, {@{_simulation_}@} is more common. Because {@{the bit error rate is small}@}, {@{simulations run for a long time}@} before {@{converging on a reliable estimate}@}. <!--SR:!2026-11-05,241,330!2027-01-02,288,330!2027-01-04,290,330!2026-11-18,251,330-->
 
 Using {@{simulations}@}, we can show {@{the union bound}@} is {@{a good approximation in most cases}@}. \(We do not know {@{_a priori_}@} if {@{the union bound is a good approximation}@}.\) <!--SR:!2026-12-21,278,330!2026-12-28,284,330!2026-11-04,240,330!2026-12-13,272,330!2026-12-12,271,330-->

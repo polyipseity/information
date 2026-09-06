@@ -20,7 +20,7 @@ tags:
 
 This technique is {@{most often used for initial access or for the first uplink burst}@} (e.g., {@{PRACH in LTE}@}). Because {@{there is no feedback loop}@}, the {@{power setting}@} can only be {@{as accurate as the channel‑state information available at the transmitter}@}. It provides a {@{quick, low‑overhead way}@} to obtain a {@{reasonable transmit power}@} before {@{any active communication link is established}@}. <!--SR:!2026-11-22,238,330!2026-12-03,247,330!2026-11-24,240,330!2027-02-16,292,330!2027-02-06,282,330!2026-11-10,227,330!2026-12-03,247,330!2026-12-16,259,330-->
 
-This works only if {@{uplink and downlink experience identical large‑scale fading phenomena}@}, such as {@{shadowing, blockage, or distance‑dependent path loss}@}. In {@{frequency division duplex (FDD) systems}@} this assumption often {@{fails because the two bands propagate differently}@}, leading to {@{mismatched fading statistics}@}. <!--SR:!2026-11-25,241,330!2026-12-11,254,330!2026-11-24,240,330!2026-12-11,254,330!2027-01-11,278,330!2026-11-19,236,330-->
+This works only if {@{uplink and downlink experience identical large‑scale fading phenomena}@}, such as {@{shadowing, blockage, or distance‑dependent path loss}@}. In {@{frequency division duplex (FDD) systems}@} this assumption often {@{fails because the two bands propagate differently}@}, leading to {@{mismatched fading statistics}@}. <!--SR:!2026-11-25,241,330!2026-12-11,254,330!2026-11-24,240,330!2026-12-11,254,330!2027-01-11,278,330-->
 
 ## closed-loop power control
 
