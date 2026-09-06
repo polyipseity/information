@@ -12,7 +12,7 @@ tags:
 
 - see: [general/multiple frequency-shift keying](../../../../general/multiple%20frequency-shift%20keying.md)
 
-{@{_Frequency shift keying_ (M-FSK)}@} assigns {@{$\log_2M$ bits to one of $M$ distinct orthogonal carrier frequencies}@}. {@{Each symbol}@} is represented by {@{a single tone at a different frequency}@}, which makes FSK {@{inherently robust against amplitude fading and nonlinearities}@}—an advantage in {@{power-limited or highly distorted channels}@}. However, {@{the required bandwidth}@} expands {@{linearly with $M$}@}, as {@{each additional frequency}@} must be {@{accommodated within the channel spectrum}@}.
+{@{_Frequency shift keying_ (M-FSK)}@} assigns {@{$\log_2M$ bits to one of $M$ distinct orthogonal carrier frequencies}@}. {@{Each symbol}@} is represented by {@{a single tone at a different frequency}@}, which makes FSK {@{inherently robust against amplitude fading and nonlinearities}@}—an advantage in {@{power-limited or highly distorted channels}@}. However, {@{the required bandwidth}@} grows {@{linearly with $M$}@} because {@{each new frequency}@} needs {@{its own spectral allocation}@}.
 
 ## waveforms
 
@@ -52,6 +52,6 @@ In the case of {@{M-FSK}@}, using {@{the pairwise symbol error probability formu
 
 ### error analysis using simulation
 
-In practice, {@{_simulation_}@} is {@{often used}@} instead. As {@{the bit error rate is small}@}, {@{simulation takes a long time}@} to {@{produce an accurate approximation}@}.
+In practice, {@{_simulation_}@} is more common. Because {@{the bit error rate is small}@}, {@{simulations run for a long time}@} before {@{converging on a reliable estimate}@}.
 
 Using {@{simulations}@}, we can show {@{the union bound}@} is {@{a good approximation in most cases}@}. \(We do not know {@{_a priori_}@} if {@{the union bound is a good approximation}@}.\)

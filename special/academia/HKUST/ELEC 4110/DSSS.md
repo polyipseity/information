@@ -24,7 +24,7 @@ tags:
 
 {@{_Spread‑spectrum_ techniques}@} were introduced to {@{mitigate the effects of _frequency‑selective fading_}@}, notably {@{_inter‑symbol interference_ (ISI) and the irreducible error floor}@} that arise from {@{multiple propagation paths}@}. While {@{diversity}@} can address {@{flat‑fading}@}, {@{spread spectrum}@} offers a {@{complementary solution}@} by {@{widening the transmitted signal's bandwidth}@}.
 
-{@{A system is classified as _spread‑spectrum_}@} when {@{its transmitted bandwidth $B_s$}@} greatly {@{exceeds the message bandwidth $B_m$}@}, and this relationship remains {@{independent of the data rate}@}: {@{$$B_s \gg B_m, \qquad B_s\;\text{is independent of}\; B_m \,.$$}@} By transmitting {@{over a wide spectrum}@}, {@{narrowband interference}@} is {@{suppressed}@} and {@{ISI in multipath channels}@} can be {@{mitigated}@}, enabling {@{reliable communication even in challenging frequency‑selective environments}@}.
+{@{A system is classified as _spread‑spectrum_}@} when {@{its transmitted bandwidth $B_s$}@} greatly {@{exceeds the message bandwidth $B_m$}@}, and this relationship remains {@{independent of the data rate}@}: {@{$$B_s \gg B_m, \qquad B_s\;\text{is independent of}\; B_m \,.$$}@} By transmitting {@{over a wide spectrum}@}, {@{narrowband interference}@} is {@{suppressed}@} and {@{ISI in multipath channels}@} is {@{reduced}@}, allowing {@{reliable communication over frequency‑selective channels}@}.
 
 ## spreading
 
@@ -52,7 +52,7 @@ To {@{recover the data reliably}@} a receiver must {@{know exactly which PN sequ
 
 ## advantages
 
-{@{The key advantages}@} of {@{DS spreading}@} are: (annotation: 3 items: {@{interference suppression, low probability of interception, no additional channel-noise penalty}@})
+{@{The advantages}@} of {@{DS spreading}@} are: (annotation: 3 items: {@{interference suppression, low probability of interception, no additional channel-noise penalty}@})
 
 - _Interference suppression_ ::@:: – spreading reduces the effect of narrowband interference because the energy is spread over a larger spectrum; it is the _primary_ benefits, but there are other benefits below.
 - _Low probability of interception (LPI)_ ::@:: – an unintended receiver that does not know the PN sequence sees only noise, making detection difficult.
@@ -64,13 +64,13 @@ If {@{no external interference exists}@}, the {@{bandwidth cost outweighs the be
 
 In {@{_DS-CDMA_ systems}@} each user is {@{assigned a unique PN code}@}. The {@{transmitted data}@} are {@{multiplied by that code before transmission}@}; at the receiver, {@{correlation with the same code}@} recovers {@{the data while simultaneously rejecting signals from other users}@}. This {@{code division multiple access}@} allows {@{many users to share the same frequency band}@}.
 
-When {@{several users transmit simultaneously over the same time slot and bandwidth}@}—so that {@{their spectra completely overlap}@}—it is {@{impossible to separate them by conventional filtering}@} in either the {@{time or frequency domain}@}; {@{all user signals}@} appear {@{indistinguishable at the front‑end}@}. Treating the {@{unwanted signals as simple additive noise}@} would yield a {@{very low SINR (e.g., <0&nbsp;dB for BPSK)}@}, leading to {@{prohibitively high error rates}@}.
+When {@{several users transmit simultaneously over the same time slot and bandwidth}@}, so that {@{their spectra completely overlap}@}, it is {@{impossible to separate them by conventional filtering}@} in either the {@{time or frequency domain}@}; {@{all user signals}@} appear {@{indistinguishable at the front‑end}@}. Treating the {@{unwanted signals as simple additive noise}@} would yield a {@{very low SINR (e.g., <0&nbsp;dB for BPSK)}@}, leading to {@{prohibitively high error rates}@}.
 
-{@{The key advantage of DS-CDMA}@} is that {@{each user's data}@} is {@{first spread by its unique PN sequence}@}. At the {@{intended receiver}@}, {@{multiplying the received waveform by the correct code}@} {@{"despreads" the desired signal}@}: it {@{collapses back into a narrowband BPSK spectrum}@}, while {@{signals from other users remain widely spread across frequency}@}. A {@{subsequent band‑pass filter}@} can therefore {@{pass only the despread desired component}@} and {@{reject most of the residual interference}@}. {@{This filtering}@} reduces {@{the effective interference power of _each interfering user_}@} to {@{roughly its original value multiplied by the reciprocal of the _spreading_ factor}@} (e.g., {@{a 1/64 "discount factor" per interfering user}@} for {@{a spreading factor of  64}@}), dramatically {@{improving the SINR and enabling reliable demodulation}@}.
+{@{The main advantage of DS-CDMA}@} is that {@{each user's data}@} is {@{first spread by its unique PN sequence}@}. At the {@{intended receiver}@}, {@{multiplying the received waveform by the correct code}@} {@{"despreads" the desired signal}@}: it {@{collapses back into a narrowband BPSK spectrum}@}, while {@{signals from other users remain widely spread across frequency}@}. A {@{subsequent band‑pass filter}@} can therefore {@{pass only the despread desired component}@} and {@{reject most of the residual interference}@}. {@{This filtering}@} reduces {@{the effective interference power of _each interfering user_}@} to {@{roughly its original value multiplied by the reciprocal of the _spreading_ factor}@} (e.g., {@{a 1/64 "discount factor" per interfering user}@} for {@{a spreading factor of  64}@}), improving {@{the SINR enough for reliable demodulation}@}.
 
 ## pseudo-noise code
 
-A {@{spread‑spectrum system}@} relies on the {@{statistical properties of its pseudorandom noise (PN) codes}@}.  
+A {@{spread‑spectrum system}@} relies on the {@{statistical properties of its pseudorandom noise (PN) codes}@}.
 
 The {@{_correlation_ function}@} quantifies {@{how similar two sequences are as one is shifted relative to the other}@}: {@{$$R_{xy}(\tau)=\sum_n x[n]\,y^*[n-\tau]$$}@} When {@{the two sequences are identical}@}, this reduces to the {@{_auto‑correlation_ of a single sequence $c[n]$}@}: {@{$$R_{cc}(\tau)=\sum_n c[n]\,c^*[n-\tau].$$}@}
 
@@ -84,7 +84,7 @@ The {@{standard way a DS‑SS system suppresses ISI}@} is to {@{employ a _RAKE r
 
 ### rake receiver
 
-The {@{received signal}@} can be written as a {@{combination of $L = \lfloor W / B_c \rfloor$}@} (where {@{$W$}@} is {@{spread passband bandwidth}@} and {@{$B_c$}@} is the {@{coherence bandwidth}@}) {@{resolved paths}@}: {@{$$y(t)=\sum_{i=1}^{L}\alpha_i\,s(t-\tau_i)c(t-\tau_i)+n(t),$$}@} where {@{$s(\cdot)$}@} is the {@{modulated data}@}, {@{$c(\cdot)$}@} the {@{PN code}@}, {@{$\alpha_i$}@} the {@{complex channel coefficient for path $i$}@}, and {@{$\tau_i$}@} its {@{delay}@}.  
+The {@{received signal}@} can be written as a {@{combination of $L = \lfloor W / B_c \rfloor$}@} (where {@{$W$}@} is {@{spread passband bandwidth}@} and {@{$B_c$}@} is the {@{coherence bandwidth}@}) {@{resolved paths}@}: {@{$$y(t)=\sum_{i=1}^{L}\alpha_i\,s(t-\tau_i)c(t-\tau_i)+n(t),$$}@} where {@{$s(\cdot)$}@} is the {@{modulated data}@}, {@{$c(\cdot)$}@} the {@{PN code}@}, {@{$\alpha_i$}@} the {@{complex channel coefficient for path $i$}@}, and {@{$\tau_i$}@} its {@{delay}@}.
 
 {@{A finger that targets path $j$}@} computes {@{$$r_j(t)=\text{Despread}\!\bigl(y(t),\,c(t-\tau_j)\bigr) =\alpha_j\,s(t-\tau_j)\;\!+\! \sum_{i\neq j}\alpha_i\,s(t-\tau_i)\,\underbrace{\langle c(t-\tau_i), c(t-\tau_j)\rangle}_{\text{small} }\; +\;\langle c(t-\tau_i), n(t)\rangle.$$}@} The {@{term $\langle c(t-\tau_i), c(t-\tau_j)\rangle$}@} is the {@{_normalized cross‑correlation_}@} ("normalized" means {@{divided by the number of chips $N$}@}) of {@{two PN sequences that are misaligned in time}@}.
 
@@ -98,7 +98,7 @@ Moreover, because {@{each finger provides an independent measurement of the same
 
 ## performance
 
-Compare three scenarios: {@{_BPSK_ without spreading}@}. {@{_BPSK + DSSS_ with a single RAKE finger}@}, and {@{_BPSK + DSSS_ with multiple ($L>1$) RAKE fingers}@}. Even {@{one finger dramatically reduces the BER floor}@} due to the {@{processing gain}@}, while {@{adding more fingers}@} steepens the {@{curve further due to diversity and diversity gain}@}. {@{Full diversity is exploited}@} when {@{the number fingers equals the number of resolvable paths $L$}@}. (annotation: __this course__: Tested in {@{the final examination}@}.) {@{The key takeaway}@} is that {@{processing gain and finger diversity}@} jointly mitigate {@{ISI in frequency‑selective fading channels}@}.
+Compare three scenarios: {@{_BPSK_ without spreading}@}. {@{_BPSK + DSSS_ with a single RAKE finger}@}, and {@{_BPSK + DSSS_ with multiple ($L>1$) RAKE fingers}@}. Even {@{one finger dramatically reduces the BER floor}@} due to the {@{processing gain}@}, while {@{adding more fingers}@} steepens the {@{curve further due to diversity and diversity gain}@}. {@{Full diversity is exploited}@} when {@{the number fingers equals the number of resolvable paths $L$}@}. (annotation: __this course__: Tested in {@{the final examination}@}.) In summary, {@{processing gain and finger diversity}@} jointly reduce {@{ISI in frequency‑selective fading channels}@}.
 
 ## implementation
 
