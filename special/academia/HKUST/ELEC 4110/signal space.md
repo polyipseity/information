@@ -10,27 +10,27 @@ tags:
 
 # signal space
 
-{@{A __signal space__}@} is {@{an abstract vector-space representation used in digital communications}@} to {@{model transmitted waveforms as points or vectors within a multidimensional Euclidean (or Hilbert) space}@}. Using {@{an orthonormal set of basis functions}@} (often derived via {@{Gram–Schmidt orthogonalisation}@}), {@{the time-domain signals}@} become {@{linear combinations whose coefficients are the coordinates}@}.
+{@{A __signal space__}@} is {@{an abstract vector-space representation used in digital communications}@} to model {@{transmitted waveforms as points within a multidimensional Euclidean (or Hilbert) space}@}. Using {@{an orthonormal set of basis functions}@} (often derived via {@{Gram–Schmidt orthogonalisation}@}), {@{time-domain signals}@} become {@{linear combinations whose coefficients are the coordinates}@}.
 
-{@{This geometric view}@} simplifies analysis of {@{modulation schemes, receiver design, and error performance}@}. Designers can visualize {@{constellations, compute Euclidean distances between symbols}@}, and construct {@{matched filters that maximise signal-to-noise ratio}@}.
+{@{This geometric view}@} simplifies analysis of {@{modulation schemes, receiver design, and error performance}@}: visualize {@{constellations, compute Euclidean distances between symbols}@}, and build {@{matched filters that maximise SNR}@}.
 
 ## motivation
 
-{@{The optimality of a demodulator}@} holds {@{only within the assumed receiver structure \(e.g. matched filter for LTI filters\)}@}. Changing {@{the signal space or receiver architecture}@} can yield {@{different, potentially better performance for multilevel schemes}@}.
+{@{The optimality of a demodulator}@} holds {@{only within the assumed receiver structure \(e.g. matched filter for LTI filters\)}@}. Changing {@{the signal space or receiver architecture}@} can yield {@{different performance for multilevel schemes}@}.
 
-{@{Digital communication in general \(not limited to LTI filters\)}@} can be analysed by representing {@{transmitted waveforms}@} as {@{vectors in a multidimensional space}@}. This perspective turns {@{complex algebra into visual intuition}@} and guides {@{modulation, demodulation, and receiver optimisation}@}.
+{@{Digital communication in general}@} can be analysed by representing {@{transmitted waveforms}@} as {@{vectors in a multidimensional space}@}, turning {@{complex algebra into visual intuition}@} and guiding {@{modulation, demodulation, and receiver optimisation}@}.
 
 ## geometric domain
 
-A signal $s(t)$ can be described in {@{time domain, frequency domain, or geometric domain}@}. Actually, {@{time domain and frequency domain}@} are {@{special cases of the geometric domain}@}.
+{@{A signal $s(t)$}@} can be described in {@{time domain, frequency domain, or geometric domain}@}; the first two are {@{special cases of the geometric domain}@}.
 
-{@{A signal $s(t)$}@} is typically {@{expressed as a function of continuous time}@}, showing {@{its waveform shape, duration, and temporal features}@} such as {@{rise/fall times or modulation patterns}@}. {@{Analysis in this domain}@} focuses on {@{causality, stability, and the physical realization of transmitters and receivers}@}. {@{Energy in the time domain}@} is obtained by {@{integrating $|s(t)|^{2}$ over the signal's support}@}.
+{@{Time domain}@}: {@{A signal $s(t)$}@} is {@{a function of continuous time}@} showing {@{waveform shape, duration, and temporal features}@}. {@{Energy}@} is {@{$\int|s(t)|^{2}$ over the signal's support}@}.
 
-{@{The Fourier transform $S(f)=\int_{-\infty}^{\infty}s(t)e^{-j2\pi ft}\,dt$}@} maps {@{the time waveform into a spectrum of sinusoidal components}@}, showing {@{bandwidth requirements, spectral occupancy, and filtering behavior}@}. {@{Parseval's theorem}@} gives {@{$\int|s(t)|^{2}dt=\int|S(f)|^{2}df$ \(under the unitary convention\)}@}, so {@{total energy is preserved}@}.
+{@{Frequency domain}@}: {@{The Fourier transform $S(f)=\int_{-\infty}^{\infty}s(t)e^{-j2\pi ft}\,dt$}@} maps {@{the waveform into sinusoidal components}@}, revealing {@{bandwidth and spectral occupancy}@}. {@{Parseval's theorem}@} gives {@{$\int|s(t)|^{2}dt=\int|S(f)|^{2}df$}@}, so {@{energy is preserved}@}.
 
-In {@{signal space}@}, {@{each waveform}@} is regarded as {@{a vector in an abstract Hilbert space}@} whose {@{inner product}@} is defined by {@{$\langle u,v\rangle=\int_{0}^{T}u(t)v^{*}(t)\,dt$}@}. {@{Choosing a finite-dimensional orthonormal basis}@} converts {@{the continuous-time signal into a finite-dimensional coordinate vector}@}, so {@{Euclidean geometry tools (distances, angles, projections)}@} can analyze {@{modulation constellations, design matched filters, and evaluate error probabilities}@}.
+{@{Geometric domain}@}: {@{Each waveform}@} is {@{a vector in an abstract Hilbert space}@} with {@{inner product}@} {@{$\langle u,v\rangle=\int_{0}^{T}u(t)v^{*}(t)\,dt$}@}. {@{Choosing a finite-dimensional orthonormal basis}@} converts {@{the signal into a coordinate vector}@}, letting {@{Euclidean geometry tools}@} analyze {@{constellations, design matched filters, and evaluate error probabilities}@}.
 
-From the view of {@{geometric domain}@}, {@{the time-domain waveform}@} is simply {@{a coordinate representation using the basis $\{\,\delta(t-t_k)\,\}$}@}, while {@{the frequency domain}@} uses {@{complex exponentials $\{e^{j2\pi ft}\}$}@}; both are {@{specific orthonormal bases of the same signal Hilbert space}@}. Thus, {@{time and frequency views}@} are merely {@{different coordinate systems}@} within {@{the same geometric (vector-space) framework}@}.
+{@{The time-domain waveform}@} uses {@{basis $\{\,\delta(t-t_k)\,\}$}@}, {@{the frequency domain}@} uses {@{complex exponentials $\{e^{j2\pi ft}\}$}@}; both are {@{orthonormal bases of the same Hilbert space}@} — merely {@{different coordinate systems}@} within {@{the same geometric framework}@}.
 
 ## definition
 
@@ -38,15 +38,15 @@ Choose {@{a set of _orthonormal_ basis functions $\{\phi_k(t)\}$}@}. {@{Any fini
 
 ### inner product
 
-{@{The _inner product_}@} is a function {@{$$\langle\,\cdot,\cdot\,\rangle : V\times V \longrightarrow \mathbb{F}$$}@} satisfying {@{the following axioms}@} for {@{all vectors $u,v,w\in V$ and scalars $a\in\mathbb{F}$}@}: \(annotation: 3 items: {@{conjugate symmetry, linearity in the first argument, positive definiteness}@}\)
+{@{The _inner product_}@} is {@{a function $$\langle\,\cdot,\cdot\,\rangle : V\times V \longrightarrow \mathbb{F}$$}@} satisfying {@{these axioms}@} for {@{all vectors $u,v,w\in V$ and scalars $a\in\mathbb{F}$}@}: \(annotation: 3 items: {@{conjugate symmetry, linearity in the first argument, positive definiteness}@}\)
 
 1. Conjugate symmetry: ::@:: $\langle u,v\rangle = \overline{\langle v,u\rangle}$.
 2. Linearity in the first argument ::@:: $\langle u+v,w\rangle = \langle u,w\rangle + \langle v,w\rangle$, and $\langle au,v\rangle = a\,\langle u,v\rangle$.
 3. Positive definiteness: ::@:: $\langle u,u\rangle \ge 0$ with equality iff $u=0$.
 
-{@{These properties}@} imply that {@{the _induced norm_ $$\|v\|=\sqrt{\langle v,v\rangle}$$}@} is {@{a Euclidean length}@}. {@{Two vectors}@} are {@{_orthogonal_}@} if {@{their inner product equals zero}@}; they are {@{_orthonormal_}@} when {@{each also has unit norm}@}.
+These imply {@{the _induced norm_ $$\|v\|=\sqrt{\langle v,v\rangle}$$ (Euclidean length)}@}. {@{Two vectors}@} are {@{_orthogonal_}@} if {@{$\langle u,v\rangle=0$}@}; {@{_orthonormal_}@} when {@{also unit norm}@}.
 
-{@{The inner product}@} for {@{continuous-time signals}@} is {@{$$\langle u,v\rangle = \int_{0}^{T}u(t)v^*(t)\,dt \,.$$}@} With {@{this definition}@} {@{a signal $s(t)$ has unit norm}@} when {@{its energy equals one}@}: {@{$$\|s\|^2 = \langle s,s\rangle = \int_{0}^{T}|s(t)|^{2}\,dt = 1 \,.$$}@}
+For {@{continuous-time signals}@}: {@{$$\langle u,v\rangle = \int_{0}^{T}u(t)v^*(t)\,dt \,.$$}@} {@{A signal $s(t)$ has unit norm}@} when {@{energy equals one}@}: {@{$$\|s\|^2 = \langle s,s\rangle = \int_{0}^{T}|s(t)|^{2}\,dt = 1 \,.$$}@}
 
 ### geometric concepts
 
@@ -56,47 +56,43 @@ Choose {@{a set of _orthonormal_ basis functions $\{\phi_k(t)\}$}@}. {@{Any fini
 - _Orthogonality_: ::@:: Vectors are orthogonal if their inner product vanishes: $\langle u,v\rangle=0$.
 - _Circles and spheres_: ::@:: The set $\{x\in V : \|x-x_c\| = r\}$ describes a circle (or hypersphere) centered at $x_c$ with radius $r$.
 
-{@{A sequence $(v_n)$}@} {@{converges to $v$ in an inner product space}@} iff {@{$\|v_n - v\|\to 0$}@}. Equivalently, for {@{every $\varepsilon>0$}@} there exists {@{$N$ such that $n>N\Rightarrow \|v_n-v\|<\varepsilon$}@}, which is {@{the standard definition of convergence in a metric space}@}.
+{@{A sequence $(v_n)$}@} {@{converges to $v$}@} iff {@{$\|v_n - v\|\to 0$}@}, i.e. for {@{every $\varepsilon>0$}@} there exists {@{$N$ such that $n>N\Rightarrow \|v_n-v\|<\varepsilon$}@}.
 
 ### energy
 
-{@{The signal energy}@} is {@{$$E=\langle s,s\rangle \,.$$}@} In {@{time domain}@} it is {@{$$\int|s(t)|^2 \, dt \,;$$}@} in {@{frequency domain}@} it becomes {@{$$\int |S(f)|^2 \,df \,;$$}@} in {@{geometric space with _orthonormal_ \(not just _orthogonal_\) basis}@} it equals {@{the _squared_ Euclidean norm of the coordinate vector}@}.
+{@{Signal energy}@}: {@{$$E=\langle s,s\rangle \,.$$}@} Equivalently, {@{$\int|s(t)|^2 \, dt = \int |S(f)|^2 \,df$}@}; in {@{geometric space with an _orthonormal_ basis}@} it equals {@{the _squared_ Euclidean norm of the coordinate vector}@}.
 
 ### coordinates
 
-To locate {@{a transmitted waveform $s(t)$}@} within {@{its signal-space representation}@} you first select {@{an orthonormal set of basis functions $\{\phi_{k}(t)\}$}@} that spans {@{the subspace of interest (often obtained via the Gram–Schmidt process)}@}. {@{The coordinates of $s(t)$}@} are then simply {@{the projection coefficients onto these basis functions}@}: {@{$$a_k=\langle s(t),\,\phi_{k}(t)\rangle \;=\;\int_{0}^{T}s(t)\,\phi_{k}^{*}(t)\,dt \,.$$}@}
+To locate {@{a transmitted waveform $s(t)$}@} within {@{its signal-space representation}@}, select {@{an orthonormal basis $\{\phi_{k}(t)\}$}@} spanning {@{the subspace of interest}@}. {@{Coordinates}@} are {@{projection coefficients}@}: {@{$$a_k=\langle s(t),\,\phi_{k}(t)\rangle \;=\;\int_{0}^{T}s(t)\,\phi_{k}^{*}(t)\,dt \,.$$}@}
 
-{@{The vector $(a_1,a_2,\dots ,a_N)^T$}@} is {@{the point in Euclidean space that represents the waveform}@}. {@{These coefficients}@} are {@{unique}@} because {@{the basis is orthonormal}@}, and they provide {@{a unique vector representation of $s(t)$}@}.
+{@{The vector $(a_1,a_2,\dots ,a_N)^T$}@} is {@{the Euclidean-space point representing the waveform}@}. {@{Coefficients}@} are {@{unique}@} because {@{the basis is orthonormal}@}.
 
 ## properties
 
 ### algebraic properties
 
-For {@{any three signals $x(t),y(t),z(t)$}@} in the space, {@{adding them in any grouping}@} yields {@{the same result}@}: {@{$$[x(t)+y(t)] + z(t)= x(t) + [y(t)+z(t)] \,.$$}@} {@{This _associative_ property}@} means {@{the order of additions}@} does not {@{change the result}@}. It is also {@{_commutative_ \(i.e. order-independent\)}@}; {@{swapping operands leaves the sum unchanged}@}: {@{$$x(t)+y(t)= y(t)+x(t) \,.$$}@}
+For {@{any three signals $x(t),y(t),z(t)$}@}: {@{$$[x(t)+y(t)] + z(t)= x(t) + [y(t)+z(t)] \,.$$}@} {@{_Associativity_}@}: {@{addition order does not matter}@}. {@{_Commutativity_}@}: {@{$$x(t)+y(t)= y(t)+x(t) \,.$$}@}
 
-{@{Multiplying a signal by a scalar $a$}@} and then {@{adding two scaled versions}@} is equivalent to {@{scaling the sum}@}: {@{$$a\, [x(t)+y(t)] = a\,x(t)+ a\,y(t) \,.$$}@} Thus, {@{linear combinations}@} can be {@{distributed across addition}@}. Further, if {@{$a,b$ are scalars and $x(t)$ is a signal}@}, then {@{$$(a+b)\,x(t)= a\,x(t)+ b\,x(t) \,.$$}@} This axiom preserves {@{scalar arithmetic on signals}@}.
+{@{Distributivity}@}: {@{$$a\, [x(t)+y(t)] = a\,x(t)+ a\,y(t) \,.$$}@} and {@{$$(a+b)\,x(t)= a\,x(t)+ b\,x(t) \,.$$}@}
 
-There exists {@{an _additive identity_ \(unique "zero" signal\) $0(t)$}@} that leaves {@{any other signal unchanged when added}@}: {@{$$x(t)+0(t)= x(t) \,.$$}@} {@{The zero waveform}@} is {@{identically zero and has no energy}@}. For {@{every signal $x(t)$}@}, there is {@{a corresponding _additive inverse_ $-x(t)$}@} such that {@{their sum equals the additive identity}@}: {@{$$x(t)+[-x(t)] = 0(t) \,.$$}@} This allows {@{subtraction of signals}@} by {@{adding their inverses}@}.
+{@{_Additive identity_ $0(t)$}@} leaves {@{any signal unchanged}@}: {@{$$x(t)+0(t)= x(t) \,.$$}@} {@{_Additive inverse_ $-x(t)$}@}: {@{$$x(t)+[-x(t)] = 0(t) \,.$$}@}
 
-{@{Multiplying by two scalars sequentially}@} is equivalent to {@{multiplying by their product}@}: {@{$$a(b\,x(t)) = (ab)\,x(t) \,.$$}@} This is {@{associativity of scalar multiplication}@}. There also exists {@{a _multiplicative identity_ in the underlying field (usually $1$)}@} such that {@{scaling any signal by it leaves the signal unchanged}@}: {@{$$1\,x(t)= x(t) \,.$$}@}
-
-Consequently, {@{the vector space's additive structure}@} works like {@{ordinary arithmetic on real or complex numbers}@}.
+{@{Associativity of scalar multiplication}@}: {@{$$a(b\,x(t)) = (ab)\,x(t) \,.$$}@} {@{Multiplicative identity (field element $1$)}@}: {@{$$1\,x(t)= x(t) \,.$$}@}
 
 ### basis
 
-{@{An $n$-dimensional vector space $S$}@} is generated by {@{a set of $n$ basis vectors $\{e_1,e_2,\dots ,e_n\}$}@}. {@{The space}@} is {@{the span of these vectors}@}: {@{$$S=\operatorname{span}(e_1,e_2,\dots ,e_n)$$}@} {@{Any vector $a\in S$}@} can be {@{expressed uniquely as a linear combination of the basis}@}, i.e. {@{$$a=\sum_{i=1}^{n}c_i\,e_i \,.$$}@} {@{The number $n$}@} is called {@{the _dimension_ of the space}@} and equals {@{the maximum number of linearly independent vectors it contains}@}.
+{@{An $n$-dimensional vector space $S$}@} is {@{the span of $n$ basis vectors $\{e_1,\dots,e_n\}$}@}: {@{$$S=\operatorname{span}(e_1,e_2,\dots ,e_n)$$}@} {@{Any $a\in S$}@} has {@{a unique linear combination}@}: {@{$$a=\sum_{i=1}^{n}c_i\,e_i \,.$$}@} {@{The _dimension_}@} equals {@{the maximum number of linearly independent vectors in $S$}@}.
 
-For {@{a particular subspace}@}, there are {@{infinitely many bases and infinitely many orthonormal bases}@}; the choice is {@{arbitrary}@}. What matters is {@{the subspace itself}@}, not {@{the particular basis vectors chosen}@}. One may pick {@{any convenient basis}@}, even if it {@{looks different from another}@}.
-
-{@{_Orthonormal_ bases}@} are preferred because they {@{simplify coordinate extraction}@} and preserve {@{energy without additional scaling factors}@}.
+{@{A subspace}@} has {@{infinitely many orthonormal bases}@}; the choice is {@{arbitrary}@}. What matters is {@{the subspace itself}@}. {@{_Orthonormal_ bases}@} are preferred because they {@{simplify coordinate extraction}@} and preserve {@{energy without scaling factors}@}.
 
 ### coordinate representation
 
-Given {@{a basis $\{e_i\}$}@}, {@{the _coordinate representation_ of a vector $a$}@} is {@{the ordered list of its expansion coefficients}@}: {@{$$[a]_E=(c_1,c_2,\dots ,c_n)^T \,.$$}@} {@{These coordinates}@} provide {@{a one-to-one correspondence}@} between {@{vectors in $S$ and points in $\mathbb{R}^n$}@}.
+Given {@{a basis $\{e_i\}$}@}, {@{the _coordinate representation_}@} is {@{$$[a]_E=(c_1,c_2,\dots ,c_n)^T \,.$$}@} — a {@{one-to-one correspondence}@} between {@{vectors in $S$ and points in $\mathbb{R}^n$}@}.
 
 ### orthogonality and orthonormality
 
-{@{A set of vectors}@} is {@{_orthonormal_}@} if {@{each pair is _orthogonal_}@} ({@{$e_i^\top e_j=0$ for $i\neq j$}@}) and {@{every vector has unit norm ($\|e_i\|=1$)}@}. {@{Orthonormal bases}@} simplify {@{coordinate calculations}@} because {@{the coordinates equal inner products}@}: {@{$$c_i=\langle a,e_i\rangle \,.$$}@}
+{@{A set of vectors}@} is {@{_orthonormal_}@} if {@{each pair is _orthogonal_ ($e_i^\top e_j=0$ for $i\neq j$})}@} and {@{every vector has unit norm ($\|e_i\|=1$)}@}. Coordinates {@{equal inner products}@}: {@{$$c_i=\langle a,e_i\rangle \,.$$}@}
 
 ### linear transformations
 
@@ -104,25 +100,25 @@ Given {@{a basis $\{e_i\}$}@}, {@{the _coordinate representation_ of a vector $a
 
 ### linear independence
 
-{@{Vectors $a_1,a_2,\dots ,a_n$}@} are {@{_linearly independent_}@} if {@{no vector}@} can be {@{expressed as a linear combination of the others}@}. Equivalently, {@{the only solution to $\sum_{i=1}^{n}\lambda_i a_i = 0$}@} is {@{$\lambda_i=0$ for all $i$}@}.
+{@{Vectors $a_1,\dots,a_n$}@} are {@{_linearly independent_}@} if {@{the only solution to $\sum_{i=1}^{n}\lambda_i a_i = 0$}@} is {@{$\lambda_i=0$ for all $i$}@}.
 
 ### triangle inequality
 
-For {@{any vectors $a,b\in S$}@}, {@{$$\|a+b\|\leq \|a\|+\|b\|,$$}@} with {@{equality}@} {@{if and only if $a$ and $b$ are positively collinear}@} (one is {@{a non-negative scalar multiple of the other}@}).
+For {@{any vectors $a,b\in S$}@}, {@{$$\|a+b\|\leq \|a\|+\|b\|,$$}@} with {@{equality iff $a$ and $b$ are positively collinear}@}.
 
 ### Cauchy–Schwarz inequality
 
-{@{The inner product}@} satisfies {@{$$|\langle a,b\rangle|\leq \|a\|\,\|b\| \,,$$}@} with {@{equality precisely}@} when {@{$a$ and $b$ are linearly dependent}@}.
+{@{The inner product}@} satisfies {@{$$|\langle a,b\rangle|\leq \|a\|\,\|b\| \,,$$}@} with {@{equality iff $a$ and $b$ are linearly dependent}@}.
 
 ### Pythagorean relation
 
-If {@{two vectors $a$ and $b$ are orthogonal}@} ({@{$\langle a,b\rangle=0$}@}), then {@{$$\|a+b\|^2=\|a\|^2+\|b\|^2 \,,$$}@} which generalises {@{the classical Pythagorean theorem to arbitrary inner product spaces}@}.
+If {@{$a$ and $b$ are orthogonal}@} ({@{$\langle a,b\rangle=0$}@}), then {@{$$\|a+b\|^2=\|a\|^2+\|b\|^2 \,.$$}@}
 
 ## Gram–Schmidt process
 
-Given {@{any linearly independent set of signals $\{s_1,\dots,s_M\}$}@}, {@{the _Gram–Schmidt process_}@} constructs {@{an _orthonormal_ basis $\{\phi_1,\dots,\phi_P\}$}@} for {@{the subspace they span}@}. {@{The first basis vector}@} is a {@{normalised copy of $s_1$}@}. {@{Subsequent vectors are obtained}@} by {@{subtracting from each new signal its projections onto previously found basis vectors}@} and {@{normalising}@}.
+Given {@{any linearly independent set $\{s_1,\dots,s_M\}$}@}, {@{the _Gram–Schmidt process_}@} constructs {@{an _orthonormal_ basis $\{\phi_1,\dots,\phi_P\}$}@} for {@{the subspace they span}@}. Start with {@{a normalised copy of $s_1$}@}; then {@{subtract projections onto prior basis vectors and normalise}@}.
 
-The algorithm is: \(annotation: 3 items: {@{first basis vector → remaining basis vectors → skip conditions}@}\)
+{@{The GS algorithm}@} is: \(annotation: 3 items: {@{first basis vector → remaining basis vectors → skip conditions}@}\)
 
 1. first basis vector ::@:: Set $\phi_1 = s_1/\|s_1\|$.
 2. remaining basis vectors ::@:: For $k=2$ to $M$: compute the projection of $s_k$ onto the span of $\{\phi_1,\dots,\phi_{k-1}\}$; subtract this projection from $s_k$ and normalise the remainder to get $\phi_k$.
@@ -132,30 +128,30 @@ The algorithm is: \(annotation: 3 items: {@{first basis vector → remaining bas
 
 ## examples
 
-{@{Three unit-amplitude pulses}@} that occupy {@{consecutive thirds of an interval}@} are {@{_orthogonal_}@} because each pulse {@{occupies a distinct subinterval}@}. {@{Their coordinates}@} are simply {@{$(1,0,0)$, $(0,1,0)$, and $(0, 0, 1)$}@}, and {@{the basis functions}@} are {@{the three unit-amplitude pulses, but _normalized_}@}.
+{@{Three unit-amplitude pulses}@} occupying {@{consecutive thirds of an interval}@} are {@{_orthogonal_ (distinct subintervals)}@}. Coordinates: {@{$(1,0,0)$, $(0,1,0)$, $(0, 0, 1)$}@}; basis functions are {@{the pulses _normalized_}@}.
 
 ### sinusoidal examples
 
-{@{Two signals $$s_1(t)=A\cos(2\pi f_ct)$$ and $$s_2(t)=A\sin(2\pi f_ct)$$}@} over {@{$[0,T)$ where $f_c$ is a _multiple_ of $1 / T$}@}, are {@{orthogonal}@} because {@{their inner product integrates to zero}@}. {@{The resulting basis}@} is {@{two-dimensional}@}, matching {@{the number of signals}@}. {@{The basis functions}@} are {@{the same but _normalized_}@}.
+{@{Two signals $$s_1(t)=A\cos(2\pi f_ct)$$ and $$s_2(t)=A\sin(2\pi f_ct)$$}@} over {@{$[0,T)$ where $f_c$ is a _multiple_ of $1 / T$}@} are {@{orthogonal (inner product integrates to zero)}@}. Basis: {@{two-dimensional, same signals _normalized_}@}.
 
-Given {@{the same two signals}@}, consider {@{$$s_m'(t) = A\cos\left(2\pi f_ct + \frac {2 \pi (m - 1)} {M} \right)$$}@} where {@{$M \ge 3$ is the number of signals and $f_c$ has the same restriction as above}@}. Using {@{trigonometric identities}@}, we can {@{express $s_m'(t)$ as a sum of $s_1(t)$ and $s_2(t)$}@}: {@{$$s_m'(t) = A\cos\left(\frac {2 \pi (m - 1)} {M} \right) \cos(2\pi f_c t) - A \sin\left(\frac {2 \pi (m - 1)} M \right) \sin(2\pi f_c t) \,.$$}@} The resulting basis is {@{the same as before}@}.
+For {@{$$s_m'(t) = A\cos\left(2\pi f_ct + \frac {2 \pi (m - 1)} {M} \right)$$}@} with {@{$M \ge 3$ and $f_c$ as above}@}, {@{trigonometric identities}@} give {@{$$s_m'(t) = A\cos\left(\frac {2 \pi (m - 1)} {M} \right) \cos(2\pi f_c t) - A \sin\left(\frac {2 \pi (m - 1)} M \right) \sin(2\pi f_c t) \,.$$}@} {@{Same basis}@} as before.
 
-These examples show that {@{sinusoidal signals over a fixed interval $[0, T)$}@} can always be {@{represented as a linear combination of two signals}@}. This is used in {@{_M_-PSK \(including QPSK\) and _M_-QAM}@}, so {@{their constellation diagrams}@} are {@{two-dimensional}@}. {@{The amplitude of the basis $\cos (2\pi f_c t)$}@} is called {@{the _inphase_ signal $I(t)$}@}, while {@{the amplitude of the basis $-\sin(2\pi f_c t)$ \(note the _negative_ sign\)}@} is called {@{the _quadrature_ signal $Q(t)$}@}. They may be represented as {@{a complex number $Z(t) = I(t) + j Q(t)$}@} or plotted {@{on an constellation plane as $(I(t), Q(t))$}@}.
+{@{Sinusoidal signals over $[0, T)$}@} always reduce to {@{a two-dimensional linear combination}@}, so {@{_M_-PSK and _M_-QAM constellations}@} are {@{two-dimensional}@}. {@{The _inphase_ signal $I(t)$}@} is {@{the amplitude of $\cos(2\pi f_c t)$}@}; {@{the _quadrature_ signal $Q(t)$}@} is {@{the amplitude of $-\sin(2\pi f_c t)$}@}. Represented as {@{$Z(t) = I(t) + j Q(t)$}@} or plotted on {@{the constellation plane as $(I(t), Q(t))$}@}.
 
 ## applications
 
 ### receiver optimization
 
-For {@{linear time invariant \(LTI\) filters}@}, {@{the matched filter}@} {@{maximises signal-to-noise ratio}@}. In {@{signal space}@} this is equivalent to {@{projecting the received vector onto each basis function}@} and deciding on {@{the symbol whose projected coordinates}@} are {@{closest in Euclidean distance}@}.
+For {@{LTI filters}@}, {@{the matched filter}@} {@{maximises SNR}@}. In {@{signal space}@} this is equivalent to {@{projecting the received vector onto each basis function}@} and picking {@{the symbol whose coordinates}@} are {@{closest in Euclidean distance}@}.
 
-Raising {@{bit rate}@} by {@{adding dimensions}@} usually requires {@{higher bandwidth or power}@}. {@{The geometric view}@} helps visualise {@{these trade-offs}@} and guides {@{practical modulation choices}@} such as {@{quadrature amplitude modulation \(QAM\), phase-shift keying \(PSK\), and orthogonal frequency-division multiplexing \(OFDM\).@}
+Raising {@{bit rate}@} by {@{adding dimensions}@} requires {@{higher bandwidth or power}@}. {@{The geometric view}@} guides {@{modulation choices}@} such as {@{QAM, PSK, and OFDM}@}.
 
-For example, {@{frequency-domain representation}@} as {@{a special case of geometric-domain representation}@}, can {@{represent discrete signals of length _N_ exactly}@}, but {@{the resulting space}@} has {@{_N_ dimensions}@}, which is {@{_inefficient_}@} when {@{the signals to be transmitted lie in a lower-dimensional subspace}@}. {@{The signals to be transmitted}@} might lie in {@{a subspace that has less than _N_ dimensions}@}. The goal of {@{a geometric-domain representation}@} is to find {@{the _minimal_ dimensions}@} that still {@{contains all signals to be transmitted}@}.
+{@{Frequency-domain representation}@} can {@{represent discrete signals of length _N_ exactly}@} but uses {@{_N_ dimensions}@} — {@{_inefficient_}@} when {@{the signals lie in a lower-dimensional subspace}@}. {@{The goal of geometric-domain representation}@} is to find {@{the _minimal_ dimensions}@} containing all {@{transmitted signals}@}.
 
 ### M-ary modulation
 
-By assigning {@{distinct vectors in signal space to each symbol}@}, {@{more than one bit per symbol}@} can be {@{transmitted}@}. {@{The dimensionality of the space}@} dictates {@{how many _orthogonal_ symbols can coexist}@}. {@{Higher dimensional spaces}@} enable {@{denser constellations}@}.
+Assigning {@{distinct vectors to each symbol}@} transmits {@{more than one bit per symbol}@}. {@{Dimensionality}@} dictates {@{how many _orthogonal_ symbols can coexist}@}; higher dimensions enable {@{denser constellations}@}.
 
 ### constellation diagram
 
-Plotting {@{the coordinate vectors}@} of {@{all allowed signals on a Euclidean plane (or higher-dimensional hyperplane)}@} gives {@{the _constellation diagram_}@}. {@{Distances between points}@} determine {@{error probability, typically under some assumptions}@}, such as {@{additive white Gaussian noise}@}.
+Plotting {@{coordinate vectors}@} of {@{all allowed signals on a Euclidean plane}@} gives {@{the _constellation diagram_}@}. {@{Distances between points}@} determine {@{error probability under AWGN}@}.
