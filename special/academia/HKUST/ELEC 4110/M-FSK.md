@@ -52,4 +52,4 @@ For {@{M-FSK}@}, {@{the pairwise error probability}@} is: {@{$$\boxed{P(s_k \mid
 
 ### error analysis using simulation
 
-{@{Simulations are more common}@} in practice. Because {@{the bit error rate is small}@}, {@{simulations must run long enough}@} to converge {@{on a reliable estimate}@}. <!--SR:!2026-11-05,241,330!2027-01-02,288,330!2027-01-04,290,330!2026-11-18,251,330--> They show {@{the union bound is a good approximation in most cases}@}. \(We cannot know {@{_a priori_}@} whether {@{the bound is tight}@}.\) <!--SR:!2026-12-21,278,330!2026-12-28,284,330!2026-11-04,240,330!2026-12-13,272,330!2026-12-12,271,330-->
+{@{Simulations are more common}@} in practice. Because {@{the bit error rate is small}@}, {@{simulations must run long enough}@} to converge {@{on a reliable estimate}@}. They show {@{the union bound is a good approximation in most cases}@}. \(We cannot know {@{_a priori_}@} whether {@{the bound is tight}@}.\) <!--SR:!2026-11-05,241,330!2027-01-02,288,330!2027-01-04,290,330!2026-11-18,251,330!2026-12-21,278,330!2026-12-28,284,330!2026-11-04,240,330-->
