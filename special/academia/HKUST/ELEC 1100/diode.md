@@ -51,11 +51,9 @@ Flashcards for this section are as follows:
 - diode region assumption method: Step 1 and 2 (assume state + equivalent; ON uses $0.7\text{ V}$ drop): what do you do? ::@:: Assume the diode is ON or OFF, then replace it with the corresponding equivalent circuit (ON: short/short + $0.7\text{ V}$ drop; OFF: open circuit).
 - diode region assumption method: Step 3 and 4 (solve + check $V_D$, $I_D$): what do you do? ::@:: Solve for currents/voltages using KVL/Ohm's law, then check that the resulting $V_D$ and $I_D$ are consistent with the assumed ON/OFF region; if inconsistent, flip the assumption and re-solve.
 
-## simple diode circuit analysis and safety
+## simple diode circuit analysis
 
 For a series source–resistor–diode circuit, we can use the constant-drop model to find the current. If the supply voltage $V_S$ is less than about $0.7\text{ V}$, the diode is off and no current flows; the circuit behaves like an open switch. If $V_S$ exceeds $0.7\text{ V}$ and the diode is forward biased, we approximate $V_D\approx0.7\text{ V}$ and find $I_D\approx(V_S-0.7\text{ V})/R$ and $V_R\approx V_S-0.7\text{ V}$. <p> ![series source–resistor–diode circuit](attachments/series_diode_resistor.svg)
-
-It is important to include a series resistor (typically around $1\text{ k}\Omega$ in lab circuits) with a diode or LED; otherwise the current can become very large when the diode turns on, potentially damaging the diode, LED, or other components.
 
 ---
 
@@ -63,4 +61,13 @@ Flashcards for this section are as follows:
 
 - series diode circuit example: In a series source–resistor–diode circuit with $V_S$, $R$, and a forward-biased diode modelled with $V_D\approx0.7\text{ V}$, what is the approximate current? <p> ![series source–resistor–diode circuit](attachments/series_diode_resistor.svg) ::@:: Use $I_D\approx(V_S-0.7\text{ V})/R$ when $V_S>0.7\text{ V}$ and the diode is forward biased.
 - diode off condition: In a series source–resistor–diode circuit, when is the diode effectively off ($I_D\approx0$) in the constant-drop model? <p> ![series source–resistor–diode circuit](attachments/series_diode_resistor.svg) ::@:: When the applied source $V_S$ is less than about $0.7\text{ V}$ in the forward direction, the diode is off and $I_D\approx0$.
+
+## diode safety in the lab
+
+It is important to include a series resistor (typically around $1\text{ k}\Omega$ in lab circuits) with a diode or LED; otherwise the current can become very large when the diode turns on, potentially damaging the diode, LED, or other components.
+
+---
+
+Flashcards for this section are as follows:
+
 - need for series resistor with diode/LED: Why do we include a series resistor (often about $1\text{ k}\Omega$) with a diode or LED? ::@:: A series resistor (often $\approx1\text{ k}\Omega$) limits current through a forward-biased diode or LED; without it, current can become very large and damage the components.

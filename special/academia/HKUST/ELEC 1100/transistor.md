@@ -55,7 +55,9 @@ Flashcards for this section are as follows:
 
 ## transistor operation modes
 
-For an NPN BJT, the base–emitter (B–E) junction behaves like a diode with an approximate forward drop of $0.7\text{ V}$. When $V_{BE}<0.7\text{ V}$, the transistor is off and there is essentially no base current ($I_B\approx0$) or collector current ($I_C\approx0$). When $V_{BE}>0.7\text{ V}$ and the transistor is biased appropriately, it can operate in amplification mode where the collector current is approximately proportional to the base current: $I_C\approx\beta I_B$, where $\beta$ is the current gain (typically in the range $20$ – $300$).
+For an NPN BJT, the base–emitter (B–E) junction behaves like a diode with an approximate forward drop of $0.7\text{ V}$. The same device can therefore appear as an open switch, a current amplifier, or a saturated switch depending on its bias point and the surrounding circuit.
+
+### key voltages and current relation
 
 Two voltages appear often in BJT circuits:
 
@@ -64,7 +66,46 @@ Two voltages appear often in BJT circuits:
 
 [Kirchhoff's current law](Kirchhoff%27s%20circuit%20laws.md#kirchhoff%27s%20current%20law) at the transistor gives $I_E=I_C+I_B$ when all three currents are defined as __leaving__ the transistor; in practice we often draw NPN currents flowing _into_ the device at C and B and _out_ at E, or the opposite for PNP, but the magnitude relation "emitter current equals base plus collector" still holds in either case.
 
-In amplification (sometimes called "active") mode, the transistor behaves like a controlled current source: a small change in $I_B$ produces a much larger change in $I_C$ while $V_{CE}$ stays somewhere between $0.2\text{ V}$ and the supply voltage. In saturation mode, $I_C$ is limited by the external circuit rather than by $\beta I_B$, and the collector–emitter voltage drops to a small value (about $0.2\text{ V}$) similar to a closed switch.
+---
+
+Flashcards for this section are as follows:
+
+- meaning of $V_{CC}$ and $V_{CE}$ ($V_{CE}=V_C-V_E$): what are they? ::@:: $V_{CC}$ is the DC supply rail that feeds the collector/load network (e.g. $5\text{ V}$). $V_{CE}$ is the voltage from collector to emitter: $V_{CE}=V_C-V_E$.
+- emitter current relation ($I_E=I_C+I_B$): what does KCL at the BJT give? ::@:: For suitably chosen current directions, Kirchhoff's current law at the transistor gives $I_E=I_C+I_B$; in magnitude this means the emitter current is approximately the sum of the base and collector currents, so in normal operation $I_E$ is only slightly larger than $I_C$ for both NPN and PNP devices.
+
+### off mode
+
+When $V_{BE}<0.7\text{ V}$, the transistor is off and there is essentially no base current ($I_B\approx0$) or collector current ($I_C\approx0$).
+
+---
+
+Flashcards for this section are as follows:
+
+- base–emitter diode behaviour ($V_{BE}<0.7\text{ V}$ vs $>0.7\text{ V}$): NPN B–E junction? ::@:: The B–E junction of an NPN transistor behaves like a diode: for $V_{BE}<0.7\text{ V}$ it is off with negligible base current; for $V_{BE}>0.7\text{ V}$ it conducts and allows base current to flow.
+
+### amplification mode
+
+When $V_{BE}>0.7\text{ V}$ and the transistor is biased appropriately, it can operate in amplification mode where the collector current is approximately proportional to the base current: $I_C\approx\beta I_B$, where $\beta$ is the current gain (typically in the range $20$ – $300$). In amplification (sometimes called "active") mode, the transistor behaves like a controlled current source: a small change in $I_B$ produces a much larger change in $I_C$ while $V_{CE}$ stays somewhere between $0.2\text{ V}$ and the supply voltage.
+
+---
+
+Flashcards for this section are as follows:
+
+- transistor current gain relation ($I_C\approx\beta I_B$): in which mode? ::@:: In amplification mode the collector current is approximately $I_C\approx\beta I_B$, where $\beta$ is the transistor's current gain (typically $20$ – $300$).
+- beta typical range meaning ($\beta$ typically $20$ – $300$): what does it imply? ::@:: A typical BJT has current gain $\beta$ in the range $20$ – $300$, meaning the collector current can be tens to hundreds of times larger than the base current in active mode.
+
+### saturation mode
+
+In saturation mode, $I_C$ is limited by the external circuit rather than by $\beta I_B$, and the collector–emitter voltage drops to a small value (about $0.2\text{ V}$) similar to a closed switch.
+
+---
+
+Flashcards for this section are as follows:
+
+- saturation idea (use $I_{C,\max}$ and $V_{CE,\text{sat}}\approx0.2\text{ V}$): what defines saturation? ::@:: In saturation, base drive is strong enough that the collector current is limited by the external circuit, so $I_C$ is approximately the maximum allowed by the collector/load network: $I_C\approx I_{C,\max}$, and the collector–emitter voltage is small: $V_{CE}\approx V_{CE,\text{sat}}\approx0.2\text{ V}$.
+- transistor operation modes (OFF, AMP with $I_C\approx\beta I_B$, SAT): list them. ::@:: The three main BJT modes are OFF (no base or collector current), AMPLIFICATION ($I_C\approx\beta I_B$), and SATURATION (collector current at maximum with small $V_{CE}$ and further base current having little effect).
+
+### worked mode check
 
 In the lecture example, an NPN transistor with current gain $\beta\approx100$ has its collector connected through a $1\text{ k}\Omega$ resistor to a $5\text{ V}$ supply, and its base driven through a $10\text{ k}\Omega$ resistor from an input $V_{\text{IN}}$. For $V_{\text{IN}}=0.8\text{ V}$, the base current in active mode is approximately $I_B\approx(0.8\text{ V}-0.7\text{ V})/10\text{ k}\Omega=10\,\mu\text{A}$, giving a collector current $I_C\approx\beta I_B\approx1\text{ mA}$ and a collector voltage $V_{\text{out}}\approx5\text{ V}-I_C\cdot1\text{ k}\Omega\approx4\text{ V}$. For $V_{\text{IN}}=1\text{ V}$, $I_B\approx30\,\mu\text{A}$, $I_C\approx3\text{ mA}$ and $V_{\text{out}}\approx2\text{ V}$. When $V_{\text{IN}}=3\text{ V}$, the naive active-mode calculation would predict $I_C\approx23\text{ mA}$, but the $5\text{ V}$ supply and $1\text{ k}\Omega$ resistor can only provide about $(5\text{ V}-0.2\text{ V})/1\text{ k}\Omega\approx4.8\text{ mA}$ in saturation, so the transistor saturates and $V_{CE}$ drops to about $0.2\text{ V}$.
 
@@ -78,18 +119,11 @@ The three basic operating modes discussed in this course are:
 
 Flashcards for this section are as follows:
 
-- base–emitter diode behaviour ($V_{BE}<0.7\text{ V}$ vs $>0.7\text{ V}$): NPN B–E junction? ::@:: The B–E junction of an NPN transistor behaves like a diode: for $V_{BE}<0.7\text{ V}$ it is off with negligible base current; for $V_{BE}>0.7\text{ V}$ it conducts and allows base current to flow.
-- meaning of $V_{CC}$ and $V_{CE}$ ($V_{CE}=V_C-V_E$): what are they? ::@:: $V_{CC}$ is the DC supply rail that feeds the collector/load network (e.g. $5\text{ V}$). $V_{CE}$ is the voltage from collector to emitter: $V_{CE}=V_C-V_E$.
-- transistor current gain relation ($I_C\approx\beta I_B$): in which mode? ::@:: In amplification mode the collector current is approximately $I_C\approx\beta I_B$, where $\beta$ is the transistor's current gain (typically $20$ – $300$).
-- transistor operation modes (OFF, AMP with $I_C\approx\beta I_B$, SAT): list them. ::@:: The three main BJT modes are OFF (no base or collector current), AMPLIFICATION ($I_C\approx\beta I_B$), and SATURATION (collector current at maximum with small $V_{CE}$ and further base current having little effect).
-- emitter current relation ($I_E=I_C+I_B$): what does KCL at the BJT give? ::@:: For suitably chosen current directions, Kirchhoff's current law at the transistor gives $I_E=I_C+I_B$; in magnitude this means the emitter current is approximately the sum of the base and collector currents, so in normal operation $I_E$ is only slightly larger than $I_C$ for both NPN and PNP devices.
 - active vs saturation check: compute $\beta I_B$ and $I_{C,\max}$ first ::@:: Compute $I_B$ from the base drive, then compute $\beta I_B$ (active-mode capability) and compute $I_{C,\max}$ from the collector/load network (circuit-limited maximum).
 - active vs saturation check: decide which mode and $I_C$ formula ::@:: If $\beta I_B \ge I_{C,\max}$, the transistor can be in saturation so $I_C\approx I_{C,\max}$ and $V_{CE}$ is small. If $\beta I_B < I_{C,\max}$, it stays in active mode so $I_C\approx\beta I_B$.
-- beta typical range meaning ($\beta$ typically $20$ – $300$): what does it imply? ::@:: A typical BJT has current gain $\beta$ in the range $20$ – $300$, meaning the collector current can be tens to hundreds of times larger than the base current in active mode.
 - lecture numeric case (given $R_B=10\text{ k}\Omega$, $R_C=1\text{ k}\Omega$, $V_{CC}=5\text{ V}$, $\beta\approx100$): if $V_{\text{IN}}=0.8\text{ V}$, find $I_B$, $I_C$, and $V_{\text{out}}(=V_C)$. ::@:: $I_B\approx(0.8\text{ V}-0.7\text{ V})/10\text{ k}\Omega=10\,\mu\text{A}$. In active mode $I_C\approx\beta I_B\approx100\times10\,\mu\text{A}=1\text{ mA}$. Then $V_{\text{out}}=V_C\approx V_{CC}-I_C R_C=5\text{ V}-1\text{ mA}\cdot1\text{ k}\Omega=4\text{ V}$.
 - lecture numeric case (given $R_B=10\text{ k}\Omega$, $R_C=1\text{ k}\Omega$, $V_{CC}=5\text{ V}$, $\beta\approx100$): if $V_{\text{IN}}=1\text{ V}$, find $I_B$, $I_C$, and $V_{\text{out}}(=V_C)$. ::@:: $I_B\approx(1.0\text{ V}-0.7\text{ V})/10\text{ k}\Omega=30\,\mu\text{A}$. In active mode $I_C\approx\beta I_B\approx3\text{ mA}$. Then $V_{\text{out}}=V_C\approx5\text{ V}-3\text{ mA}\cdot1\text{ k}\Omega=2\text{ V}$ (still not saturated).
 - lecture numeric case (given $R_B=10\text{ k}\Omega$, $R_C=1\text{ k}\Omega$, $V_{CC}=5\text{ V}$, $\beta\approx100$, $V_{CE,\text{sat}}\approx0.2\text{ V}$): if $V_{\text{IN}}=3\text{ V}$, decide active vs saturation and find $I_C$ and $V_{CE}$. ::@:: Drive gives $I_B\approx(3.0\text{ V}-0.7\text{ V})/10\text{ k}\Omega=230\,\mu\text{A}$ so $\beta I_B\approx23\text{ mA}$. But the collector network limits current to $I_{C,\max}\approx(V_{CC}-V_{CE,\text{sat}})/R_C\approx(5.0-0.2)/1\text{ k}\Omega=4.8\text{ mA}$. Since $\beta I_B \gg I_{C,\max}$, the transistor saturates: $I_C\approx I_{C,\max}\approx4.8\text{ mA}$ and $V_{CE}\approx V_{CE,\text{sat}}\approx0.2\text{ V}$.
-- saturation idea (use $I_{C,\max}$ and $V_{CE,\text{sat}}\approx0.2\text{ V}$): what defines saturation? ::@:: In saturation, base drive is strong enough that the collector current is limited by the external circuit, so $I_C$ is approximately the maximum allowed by the collector/load network: $I_C\approx I_{C,\max}$, and the collector–emitter voltage is small: $V_{CE}\approx V_{CE,\text{sat}}\approx0.2\text{ V}$.
 - maximum collector current $I_{C,\max}$ (given $V_{CC}$, $R_C$, $V_{CE,\text{sat}}$): how to compute? ::@:: For a collector resistor $R_C$ to a supply $V_{CC}$, when saturated the transistor has $V_{CE}\approx V_{CE,\text{sat}}$ so the resistor sees about $V_{CC}-V_{CE,\text{sat}}$. Thus $I_{C,\max}\approx(V_{CC}-V_{CE,\text{sat}})/R_C$ (with $V_{CE,\text{sat}}\approx0.2\text{ V}$).
 - saturation vs amplification ($I_C\approx I_{C,\max}$ vs $I_C\approx\beta I_B$): which formula applies when? ::@:: In active (amplification) mode, $I_C\approx\beta I_B$ and $V_{CE}$ is not forced small. In saturation, the circuit forces $I_C\approx I_{C,\max}$ and $V_{CE}\approx0.2\text{ V}$, so typically $I_C<\beta I_B$.
 - why drive into saturation for switching ($V_{CE,\text{sat}}\approx0.2\text{ V}$): why? ::@:: Saturation makes the transistor behave like a closed switch: $V_{CE}$ is small (about $0.2\text{ V}$) so most of $V_{CC}$ appears across the load, giving near-maximum load current and low voltage drop across the transistor.

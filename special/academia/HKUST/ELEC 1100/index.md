@@ -52,56 +52,37 @@ The content is in teaching order.
 
 - [attachments/](attachments/)
 - [labs/](labs/index.md)
+- [questions/](questions/index.md)
 - [AGENTS](AGENTS.md)
+- [Arduino](Arduino.md)
+- [Boolean algebra](Boolean%20algebra.md)
 - [H-bridge](H-bridge.md)
 - [Kirchhoff's circuit laws](Kirchhoff%27s%20circuit%20laws.md)
 - [brushed DC electric motor](brushed%20DC%20electric%20motor.md)
 - [diode](diode.md)
 - [electronic component](electronic%20component.md)
+- [final project](final%20project.md)
 - [lab equipment](lab%20equipment.md)
-- [questions](questions.md)
+- [logic control](logic%20control.md)
+- [microcontroller](microcontroller.md)
+- [pulse-width modulation](pulse-width%20modulation.md)
+- [sensor](sensor.md)
 - [transistor](transistor.md)
 - [voltage regulator](voltage%20regulator.md)
 
-## H-bridge (sections and subsections)
-
-- [H-bridge](H-bridge.md)
-    - [§ four-switch topology and direction control](H-bridge.md#four-switch%20topology%20and%20direction%20control)
-        - [§ switches and current path](H-bridge.md#switches%20and%20current%20path)
-        - [§ hazards](H-bridge.md#hazards)
-    - [§ building an H-bridge with transistors](H-bridge.md#building%20an%20H-bridge%20with%20transistors)
-        - [§ saturation, transistor types, and layout](H-bridge.md#saturation-transistor-types-and-layout)
-        - [§ base voltage pattern](H-bridge.md#base%20voltage%20pattern)
-    - [§ single direction (DIR) signal and the need for an inverter](H-bridge.md#single%20direction%20(dir)%20signal%20and%20the%20need%20for%20an%20inverter)
-        - [§ direction (DIR) signal and inverter solution](H-bridge.md#direction%20(dir)%20signal%20and%20inverter%20solution)
-    - [§ 74HC14 hex inverter](H-bridge.md#74hc14%20hex%20inverter)
-        - [§ function and logic](H-bridge.md#function%20and%20logic)
-        - [§ power and pinout](H-bridge.md#power%20and%20pinout)
-    - [§ dual H-bridge motor driver (L293)](H-bridge.md#dual%20H-bridge%20motor%20driver%20(l293))
-        - [§ function and pins](H-bridge.md#function%20and%20pins)
-        - [§ supplies and bypass](H-bridge.md#supplies%20and%20bypass)
-    - [§ connecting L293, 74HC14, and LM7805](H-bridge.md#connecting-l293-74hc14-and-lm7805)
-        - [§ power sources ($12\text{ V}$ and $5\text{ V}$)](H-bridge.md#power%20sources%20(%2412%5Ctext%7B%20V%7D%24%20and%20%245%5Ctext%7B%20V%7D%24))
-        - [§ wiring DIR and inverters](H-bridge.md#wiring%20dir%20and%20inverters)
-    - [§ breadboard layout](H-bridge.md#breadboard%20layout)
-        - [§ rail labels and 74HC14 power](H-bridge.md#rail%20labels%20and%2074hc14%20power)
-        - [§ pin counts and placement](H-bridge.md#pin%20counts%20and%20placement)
-
-## assignments
-
-### week 1 lab 1
+## week 1 lab 1
 
 - datetime: 2026-02-02T10:30:00+08:00/2026-02-02T13:20:00+08:00, PT2H50M
 - venue: Room 2133 & 2134, Academic Building
-- status: no lab
+- status: no class
 
-### week 1 tutorial 1
+## week 1 tutorial 1
 
 - datetime: 2026-02-02T14:30:00+08:00/2026-02-02T15:20:00+08:00, PT50M
 - venue: CYT-G001
-- status: no tutorial
+- status: no class
 
-### week 1 lecture 1
+## week 1 lecture 1
 
 - datetime: 2026-02-02T16:00:00+08:00/2026-02-02T16:50:00+08:00, PT50M
 - venue: CYT-LTL
@@ -137,9 +118,9 @@ The content is in teaching order.
 
 ---
 
-During the first lecture the instructor went over {@{the course logistics}@}.  You should regularly check {@{the Canvas home page and syllabus}@} for {@{the complete schedule and any exam announcements}@} and monitor your HKUST email account for updates; {@{next week the tutorials}@} start on 2026‑02‑09, 2026‑02‑12, and 2026‑02‑13 and {@{the first lab sessions}@} begin on 2026‑02‑13, so be prepared for Lab #1.  The teaching team consists of {@{the course instructor supported by an instructional assistant and a technical officer}@}.  Grading is weighted as follows: {@{six labs totalling 29%, eight pop‑up quizzes worth up to 3%, a closed‑book lab exam 20%, a closed‑book written exam 25%, a project demo 20%, and a short project report 3%}@}.  {@{Late work}@} is not accepted; if you {@{miss a submission for a legitimate reason}@} you must {@{contact the IA within one week and provide documentation}@} to arrange a make‑up.  Finally, all students are expected to observe {@{the HKUST academic honour code}@} – {@{violations such as plagiarism}@} may result in {@{failing the course}@}.  The next lecture will cover {@{basic components and charge/current/voltage/resistor}@}.
+During the first lecture the instructor went over {@{the course logistics}@}.  You should regularly check {@{the Canvas home page and syllabus}@} for {@{the complete schedule and any exam announcements}@} and monitor your HKUST email account for updates; {@{the tutorials}@} start on 2026‑02‑09, 2026‑02‑12, and 2026‑02‑13 and {@{the first lab sessions}@} begin on 2026‑02‑13, so be prepared for Lab #1.  The teaching team consists of {@{the course instructor supported by an instructional assistant and a technical officer}@}.  Grading is weighted as follows: {@{six labs totalling 29%, eight pop‑up quizzes worth up to 3%, a closed‑book lab exam 20%, a closed‑book written exam 25%, a project demo 20%, and a short project report 3%}@}.  {@{Late work}@} is not accepted; if you {@{miss a submission for a legitimate reason}@} you must {@{contact the IA within one week and provide documentation}@} to arrange a make‑up.  Finally, all students are expected to observe {@{the HKUST academic honour code}@} – {@{violations such as plagiarism}@} may result in {@{failing the course}@}.
 
-### week 1 lecture 2
+## week 1 lecture 2
 
 - datetime: 2026-02-06T11:30:00+08:00/2026-02-06T12:20:00+08:00, PT50M
 - venue: CYT-LTL
@@ -156,13 +137,13 @@ During the first lecture the instructor went over {@{the course logistics}@}.  Y
         - [§ capacitors](electronic%20component.md#capacitors)
         - [§ capacitor actions](electronic%20component.md#capacitor%20actions)
 
-### week 2 lab 1
+## week 2 lab 1
 
 - datetime: 2026-02-09T10:30:00+08:00/2026-02-09T13:20:00+08:00, PT2H50M
 - venue: Room 2133 & 2134, Academic Building
-- status: no lab
+- status: no class
 
-### week 2 tutorial 1
+## week 2 tutorial 1
 
 - datetime: 2026-02-09T14:30:00+08:00/2026-02-09T15:20:00+08:00, PT50M
 - venue: CYT-G001
@@ -184,7 +165,7 @@ During the first lecture the instructor went over {@{the course logistics}@}.  Y
         - ELEC 1100 / lab 1 preparation / Canvas and grades ::@:: Canvas hosts the syllabus, lecture/tutorial/lab materials and project documents; it also records quiz, lab, project and exam grades and pushes announcements to your HKUST email.
         - ELEC 1100 / lab 1 preparation / quiz system (iPRS) ::@:: In‑tutorial quizzes use the iPRS system via the HKUST iLearn app or web interface; you are responsible for ensuring your own device connects and works during quizzes.
 
-### week 2 lecture 1
+## week 2 lecture 1
 
 - datetime: 2026-02-09T16:00:00+08:00/2026-02-09T16:50:00+08:00, PT50M
 - venue: CYT-LTL
@@ -202,7 +183,7 @@ During the first lecture the instructor went over {@{the course logistics}@}.  Y
         - [§ energy and power](electronic%20component.md#energy%20and%20power) $E=qV$, $P=IV$ ::@:: $E=qV$, $P=IV=I^{2}R=V^{2}/R$ <p> Human/robot energy analogy; DC vs AC sources; lab gear (bench supply, function generator, breadboard, battery monitor, LiPo); human body energy comparison; Galileo $v=\sqrt{2gh}$; resistor heating/short‑circuit hazard and worked numerical examples.
         - [§ resistor networks](electronic%20component.md#resistor%20networks) $R_{\text{eq}}$ ::@:: series add, parallel combine via reciprocal conductance
 
-### week 2 lecture 2
+## week 2 lecture 2
 
 - datetime: 2026-02-13T11:30:00+08:00/2026-02-13T12:20:00+08:00, PT50M
 - venue: CYT-LTL
@@ -216,31 +197,31 @@ During the first lecture the instructor went over {@{the course logistics}@}.  Y
         - [§ integrated numerical calculations](Kirchhoff%27s%20circuit%20laws.md#integrated%20numerical%20calculations) ::@:: Worked calculations using KCL and KVL for simple and bridge circuits
         - [§ equivalence and application](Kirchhoff%27s%20circuit%20laws.md#equivalence%20and%20application) ::@:: When to apply KCL and KVL laws and how to compute equivalent resistance
 
-### week 3 lab 1
+## week 3 lab 1
 
 - datetime: 2026-02-16T10:30:00+08:00/2026-02-16T13:20:00+08:00, PT2H50M
 - venue: Room 2133 & 2134, Academic Building
-- status: no lab
+- status: no class
 
-### week 3 tutorial 1
+## week 3 tutorial 1
 
 - datetime: 2026-02-16T14:30:00+08:00/2026-02-16T15:20:00+08:00, PT50M
 - venue: CYT-G001
-- status: no tutorial
+- status: no class
 
-### week 3 lecture 1
+## week 3 lecture 1
 
 - datetime: 2026-02-16T16:00:00+08:00/2026-02-16T16:50:00+08:00, PT50M
 - venue: CYT-LTL
-- status: no lecture; public holiday
+- status: public holiday: Spring Festival
 
-### week 3 lecture 2
+## week 3 lecture 2
 
 - datetime: 2026-02-20T11:30:00+08:00/2026-02-20T12:20:00+08:00, PT50M
 - venue: CYT-LTL
-- status: no lecture; public holiday
+- status: public holiday: Spring Festival
 
-### week 4 lab 1
+## week 4 lab 1
 
 - datetime: 2026-02-23T10:30:00+08:00/2026-02-23T13:20:00+08:00, PT2H50M
 - venue: Room 2133 & 2134, Academic Building
@@ -263,7 +244,7 @@ During the first lecture the instructor went over {@{the course logistics}@}.  Y
         - [§ lab safety](lab%20equipment.md#lab%20safety)
     - ELEC 1100 / [lab 1](labs/lab%201/index.md)
 
-### week 4 tutorial 1
+## week 4 tutorial 1
 
 - datetime: 2026-02-23T14:30:00+08:00/2026-02-23T15:20:00+08:00, PT50M
 - venue: CYT-G001
@@ -293,13 +274,13 @@ During the first lecture the instructor went over {@{the course logistics}@}.  Y
         - ELEC 1100 / lab 2 preparation / current measurement safety / using the mA terminals correctly ::@:: When measuring current the multimeter's mA terminals behave like a short and must be placed _in series_ with the branch whose current you want; never connect the mA terminals directly across a component or source.
         - ELEC 1100 / lab 2 preparation / current measurement safety / danger of incorrect current connection ::@:: Mis‑using the mA input (placing it in parallel) can create a short circuit that damages both the multimeter's current channel and the circuit under test.
 
-### week 4 lecture 1
+## week 4 lecture 1
 
 - datetime: 2026-02-23T16:00:00+08:00/2026-02-23T16:50:00+08:00, PT50M
 - venue: CYT-LTL
 - topic: DC regulation
 - ELEC 1100
-    - ELEC 1100 / DC regulation: why use a regulator with a DC source in a robot circuit? ::@:: Real DC sources are non-ideal: their terminal voltage changes with discharge, temperature, and loading. A regulator is used so downstream circuits still see a predictable supply rail such as a stable $5\text{ V}$ logic supply.
+    - ELEC 1100 / DC regulation: why use a regulator with a DC source in a robot circuit? ::@:: Real DC sources are non-ideal: their terminal voltage changes with discharge, temperature, and loading. A regulator is used so downstream circuits still see a predictable supply rail such as a stable $5\text{ V}$ logic supply. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
         - ELEC 1100 / DC regulation / direct current (DC) ::@:: "Unidirectional" current flow; in practice used as an adjective meaning approximately "constant" voltage/current (vs AC oscillation).
         - ELEC 1100 / DC regulation / common DC source ::@:: Batteries provide DC voltage from chemical reactions; AC adapters convert wall AC into DC for devices like laptops.
         - ELEC 1100 / DC regulation / connecting ideal sources ::@:: Ideal voltage sources can be in series; they can be in parallel only if they have the same value (different values in parallel is invalid).
@@ -312,7 +293,7 @@ During the first lecture the instructor went over {@{the course logistics}@}.  Y
         - [§ integrated-circuit linear regulators (LM7805)](voltage%20regulator.md#integrated-circuit%20linear%20regulators%20(LM7805)): what rails are produced ($12\text{ V}$ motor, $5\text{ V}$ logic)? ::@:: The LM7805 converts a higher raw input into a regulated $5\text{ V}$ rail for logic/control electronics. In the project, the raw $12\text{ V}$ rail is kept for motor power, while the regulated $5\text{ V}$ rail is used for the other circuits with stabilizing capacitors.
         - [§ regulator performance metrics](voltage%20regulator.md#regulator%20performance%20metrics): define line and load regulation as $\Delta V_O/\Delta V_I$ and $\Delta V_O/\Delta I_O$, and what do they test physically? ::@:: Line regulation $\Delta V_O/\Delta V_I$ measures how much the output voltage changes when the input voltage changes, so it tests immunity to source-side variation. Load regulation $\Delta V_O/\Delta I_O$ measures how much the output voltage changes when output current demand changes, so it tests how well the regulator holds the rail steady against load changes. Ideally both are $0$ or very small.
 
-### week 4 lecture 2
+## week 4 lecture 2
 
 - datetime: 2026-02-27T11:30:00+08:00/2026-02-27T12:20:00+08:00, PT50M
 - venue: CYT-LTL
@@ -336,7 +317,7 @@ During the first lecture the instructor went over {@{the course logistics}@}.  Y
         - ELEC 1100 / transistor / [transistor as a switch](transistor.md#transistor%20as%20a%20switch): NPN low-side connections (E, C, base / $R_B$)? ::@:: Emitter to ground, collector to the load (and the other side of the load to $V_{CC}$), base driven from $V_{\text{IN}}$ through a resistor $R_B$ to limit $I_B$.
         - ELEC 1100 / transistor / [transistor as a switch](transistor.md#transistor%20as%20a%20switch): OFF vs ON condition ($V_{\text{IN}}<0.7\text{ V}$, saturation)? ::@:: If $V_{\text{IN}}<0.7\text{ V}$ then $V_{BE}$ is not forward-biased and the transistor is OFF ($I_C\approx0$). If $V_{\text{IN}}$ is high enough to drive base current, the transistor can turn ON; if base drive is strong it saturates with $V_{CE}\approx0.2\text{ V}$ and the load current is near its maximum.
 
-### week 5 lab 1
+## week 5 lab 1
 
 - datetime: 2026-03-02T10:30:00+08:00/2026-03-02T13:20:00+08:00, PT2H50M
 - venue: Room 2133 & 2134, Academic Building
@@ -354,7 +335,7 @@ During the first lecture the instructor went over {@{the course logistics}@}.  Y
         - [§ energy and power](electronic%20component.md#energy%20and%20power)
     - ELEC 1100 / [lab 2](labs/lab%202/index.md)
 
-### week 5 tutorial 1
+## week 5 tutorial 1
 
 - datetime: 2026-03-02T14:30:00+08:00/2026-03-02T15:20:00+08:00, PT50M
 - venue: CYT-G001
@@ -369,9 +350,9 @@ During the first lecture the instructor went over {@{the course logistics}@}.  Y
         - [§ diode and zener diode as regulators](voltage%20regulator.md#diode%20and%20zener%20diode%20as%20regulators)
         - [§ integrated-circuit linear regulators (LM7805)](voltage%20regulator.md#integrated-circuit%20linear%20regulators%20(LM7805))
         - [§ regulator performance metrics](voltage%20regulator.md#regulator%20performance%20metrics)
-        - ELEC 1100 / voltage regulator / reading Zener breakdown from $V_Z$–$V_{\text{in}}$ graph: Given a plot of $V_Z$ versus $V_{\text{in}}$ for the ELEC 1100 Zener clamp, how do you estimate the breakdown voltage? ::@:: From the $V_Z$ versus $V_{\text{in}}$ plot, identify where the curve stops rising with $V_{\text{in}}$ and flattens into a plateau; the plateau level of $V_Z$ in this region is the Zener breakdown voltage (about $5.7\text{ V}$ in the tutorial example).
+        - ELEC 1100 / voltage regulator / reading Zener breakdown from the $V_Z$ versus $V_{\text{in}}$ graph: Given a plot of $V_Z$ versus $V_{\text{in}}$ for the ELEC 1100 Zener clamp, how do you estimate the breakdown voltage? ::@:: From the $V_Z$ versus $V_{\text{in}}$ plot, identify where the curve stops rising with $V_{\text{in}}$ and flattens into a plateau; the plateau level of $V_Z$ in this region is the Zener breakdown voltage (about $5.7\text{ V}$ in the tutorial example).
 
-### week 5 lecture 1
+## week 5 lecture 1
 
 - datetime: 2026-03-02T16:00:00+08:00/2026-03-02T16:50:00+08:00, PT50M
 - venue: CYT-LTL
@@ -408,11 +389,7 @@ During the first lecture the instructor went over {@{the course logistics}@}.  Y
             - [§ rail labels and 74HC14 power](H-bridge.md#rail%20labels%20and%2074hc14%20power)
             - [§ pin counts and placement](H-bridge.md#pin%20counts%20and%20placement)
 
----
-
-Next lecture: motor basics, DC brushed motors.
-
-### week 5 lecture 2
+## week 5 lecture 2
 
 - datetime: 2026-03-06T11:30:00+08:00/2026-03-06T12:20:00+08:00, PT50M
 - venue: CYT-LTL
@@ -427,7 +404,7 @@ Next lecture: motor basics, DC brushed motors.
         - [§ direction control with H-bridge](brushed%20DC%20electric%20motor.md#direction%20control%20with%20H-bridge) ::@:: Reverse current to reverse direction; H-bridge and DIR signal ( $5\text{ V}$ / $0\text{ V}$ ) for reversible control <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
         - [§ speed control and limitations of variable resistor](brushed%20DC%20electric%20motor.md#speed%20control%20and%20limitations%20of%20variable%20resistor) ::@:: Factors affecting speed; variable resistor, drawbacks, and PWM
 
-### week 6 lab 1
+## week 6 lab 1
 
 - datetime: 2026-03-09T10:30:00+08:00/2026-03-09T13:20:00+08:00, PT2H50M
 - venue: Room 2133 & 2134, Academic Building
@@ -444,7 +421,7 @@ Next lecture: motor basics, DC brushed motors.
         - [§ regulator performance metrics](voltage%20regulator.md#regulator%20performance%20metrics)
     - ELEC 1100 / [lab 3](labs/lab%203/index.md)
 
-### week 6 tutorial 1
+## week 6 tutorial 1
 
 - datetime: 2026-03-09T14:30:00+08:00/2026-03-09T15:20:00+08:00, PT50M
 - venue: CYT-G001
@@ -464,23 +441,39 @@ Next lecture: motor basics, DC brushed motors.
         - [§ connecting L293, 74HC14, and LM7805](H-bridge.md#connecting-l293-74hc14-and-lm7805)
         - [§ breadboard layout](H-bridge.md#breadboard%20layout)
 
-### week 6 lecture 1
+## week 6 lecture 1
 
 - datetime: 2026-03-09T16:00:00+08:00/2026-03-09T16:50:00+08:00, PT50M
 - venue: CYT-LTL
 - topic: pulse & PWM
+- ELEC 1100
+    - ELEC 1100 / [pulse-width modulation](pulse-width%20modulation.md)
+        - [§ pulse waveform quantities](pulse-width%20modulation.md#pulse%20waveform%20quantities)
+        - [§ average voltage and equivalent DC voltage](pulse-width%20modulation.md#average%20voltage%20and%20equivalent%20dc%20voltage)
+        - [§ PWM in motor control](pulse-width%20modulation.md#pwm%20in%20motor%20control)
+        - [§ PWM generation methods](pulse-width%20modulation.md#pwm%20generation%20methods)
+        - [§ practical PWM habits](pulse-width%20modulation.md#practical%20pwm%20habits)
 
-### week 6 lecture 2
+## week 6 lecture 2
 
 - datetime: 2026-03-13T11:30:00+08:00/2026-03-13T12:20:00+08:00, PT50M
 - venue: CYT-LTL
 - topic: sensors
+- ELEC 1100
+    - ELEC 1100 / [sensor](sensor.md)
+        - [§ sensor role and categories](sensor.md#sensor%20role%20and%20categories)
+        - [§ lumens and lux](sensor.md#lumens%20and%20lux)
+        - [§ LDR, photodiode, phototransistor, and thresholding](sensor.md#ldr-photodiode-phototransistor-and-thresholding)
+        - [§ dark and bright sensing circuits](sensor.md#dark%20and%20bright%20sensing%20circuits)
+        - [§ IR discovery and history](sensor.md#ir%20discovery%20and%20history)
+        - [§ IR line sensor module and calibration](sensor.md#ir%20line%20sensor%20module%20and%20calibration)
+        - [§ sensor patterns for line following](sensor.md#sensor%20patterns%20for%20line%20following)
 
-### week 7 lab 1
+## week 7 lab 1
 
 - datetime: 2026-03-16T10:30:00+08:00/2026-03-16T13:20:00+08:00, PT2H50M
 - venue: Room 2133 & 2134, Academic Building
-- topic: transistor & H-bridge
+- topic: lab 4 transistor inverter & H-bridge
 - ELEC 1100
     - ELEC 1100 / [transistor](transistor.md)
         - [§ structure](transistor.md#structure)
@@ -495,198 +488,275 @@ Next lecture: motor basics, DC brushed motors.
         - [§ dual H-bridge motor driver (L293)](H-bridge.md#dual%20H-bridge%20motor%20driver%20(l293))
         - [§ connecting L293, 74HC14, and LM7805](H-bridge.md#connecting-l293-74hc14-and-lm7805)
         - [§ breadboard layout](H-bridge.md#breadboard%20layout)
+    - ELEC 1100 / [lab 4](labs/lab%204/index.md)
 
-### week 7 tutorial 1
+## week 7 tutorial 1
 
 - datetime: 2026-03-16T14:30:00+08:00/2026-03-16T15:20:00+08:00, PT50M
 - venue: CYT-G001
-- topic: Lab practice (for lab exam)
+- topic: prepare for lab exam
+- ELEC 1100
+    - ELEC 1100 / [questions / lab exam review](questions/lab%20exam%20review.md)
 
-### week 7 lecture 1
+## week 7 lecture 1
 
 - datetime: 2026-03-16T16:00:00+08:00/2026-03-16T16:50:00+08:00, PT50M
 - venue: CYT-LTL
 - topic: Boolean algebra
+- ELEC 1100
+    - ELEC 1100 / [Boolean algebra](Boolean%20algebra.md)
+        - [§ binary variables and truth tables](Boolean%20algebra.md#binary%20variables%20and%20truth%20tables)
+        - [§ basic gates and laws](Boolean%20algebra.md#basic%20gates%20and%20laws)
+        - [§ NAND and NOR gates](Boolean%20algebra.md#nand%20and%20nor%20gates)
+        - [§ historical development](Boolean%20algebra.md#historical%20development)
+        - [§ XOR, XNOR, and simplification](Boolean%20algebra.md#xor-xnor-and-simplification)
+        - [§ from robot specification to expression](Boolean%20algebra.md#from%20robot%20specification%20to%20expression)
 
-### week 7 lecture 2
+## week 7 lecture 2
 
 - datetime: 2026-03-20T11:30:00+08:00/2026-03-20T12:20:00+08:00, PT50M
 - venue: CYT-LTL
 - topic: logic control
+- ELEC 1100
+    - ELEC 1100 / [logic control](logic%20control.md)
+        - [§ deriving motor-direction expressions](logic%20control.md#deriving%20motor-direction%20expressions)
+        - [§ combinational control circuits](logic%20control.md#combinational%20control%20circuits)
+        - [§ half adder and full adder](logic%20control.md#half%20adder%20and%20full%20adder)
+        - [§ cascading full adders and serial addition](logic%20control.md#cascading%20full%20adders%20and%20serial%20addition)
+        - [§ sequential logic and memory](logic%20control.md#sequential%20logic%20and%20memory)
 
-### week 8 lab 1
+## week 8 lab 1
 
 - datetime: 2026-03-23T10:30:00+08:00/2026-03-23T13:20:00+08:00, PT2H50M
 - venue: Room 2133 & 2134, Academic Building
 - topic: Lab practice (for lab exam)
+- ELEC 1100
+    - ELEC 1100 / [questions / lab exam review](questions/lab%20exam%20review.md)
 
-### week 8 tutorial 1
+## week 8 tutorial 1
 
 - datetime: 2026-03-23T14:30:00+08:00/2026-03-23T15:20:00+08:00, PT50M
 - venue: CYT-G001
-- status: no tutorial
+- status: no class
 
-### week 8 lecture 1
+## week 8 lecture 1
 
 - datetime: 2026-03-23T16:00:00+08:00/2026-03-23T16:50:00+08:00, PT50M
 - venue: CYT-LTL
-- topic: MCU & arduino
+- topic: MCU & Arduino
+- ELEC 1100
+    - ELEC 1100 / [microcontroller](microcontroller.md)
+        - [§ MCU role and integrated architecture](microcontroller.md#mcu%20role%20and%20integrated%20architecture)
+        - [§ programmable control versus fixed logic](microcontroller.md#programmable%20control%20versus%20fixed%20logic)
+        - [§ logic-power and motor-power split](microcontroller.md#logic-power%20and%20motor-power%20split)
+    - ELEC 1100 / [Arduino](Arduino.md)
+        - [§ board, IDE, compiler, and sketch workflow](Arduino.md#board-ide-compiler-and-sketch-workflow)
 
-### week 8 lecture 2
+## week 8 lecture 2
 
 - datetime: 2026-03-27T11:30:00+08:00/2026-03-27T12:20:00+08:00, PT50M
 - venue: CYT-LTL
-- topic: arduino programming (i)
+- topic: Arduino programming (i)
+- ELEC 1100
+    - ELEC 1100 / [Arduino](Arduino.md)
+        - [§ sketch structure, comments, and variables](Arduino.md#sketch-structure-comments-and-variables)
+        - [§ digital and analog pins, ADC input, and output limits](Arduino.md#digital-and-analog-pins-adc-input-and-output-limits)
+        - [§ control structures and reusable functions](Arduino.md#control-structures-and-reusable-functions)
+        - [§ robot pin map](Arduino.md#robot-pin-map)
+        - [§ timing, PWM output, and debugging habits](Arduino.md#timing-pwm-output-and-debugging-habits)
 
-### week 9 lab 1
+## week 9 lab 1
 
 - datetime: 2026-03-30T10:30:00+08:00/2026-03-30T13:20:00+08:00, PT2H50M
 - venue: Room 2133 & 2134, Academic Building
 - topic: lab exam
 
-### week 9 tutorial 1
+## week 9 tutorial 1
 
 - datetime: 2026-03-30T14:30:00+08:00/2026-03-30T15:20:00+08:00, PT50M
 - venue: CYT-G001
 - topic: prepare for lab 5
+- ELEC 1100
+    - ELEC 1100 / [pulse-width modulation](pulse-width%20modulation.md#pwm%20in%20motor%20control)
+    - ELEC 1100 / [pulse-width modulation](pulse-width%20modulation.md#pwm%20generation%20methods)
+    - ELEC 1100 / [sensor](sensor.md#lumens%20and%20lux)
+    - ELEC 1100 / [sensor](sensor.md#ir%20line%20sensor%20module%20and%20calibration)
+    - ELEC 1100 / [Arduino](Arduino.md#robot-pin-map)
+    - ELEC 1100 / [lab 5](labs/lab%205/index.md)
 
-### week 9 lecture 1
+## week 9 lecture 1
 
 - datetime: 2026-03-30T16:00:00+08:00/2026-03-30T16:50:00+08:00, PT50M
 - venue: CYT-LTL
 - topic: Arduino programming (II)
+- ELEC 1100
+    - ELEC 1100 / [Arduino](Arduino.md)
+        - [§ control structures and reusable functions](Arduino.md#control-structures-and-reusable-functions)
+        - [§ robot pin map](Arduino.md#robot-pin-map)
+        - [§ timing, PWM output, and debugging habits](Arduino.md#timing-pwm-output-and-debugging-habits)
 
-### week 9 lecture 2
+## week 9 lecture 2
 
 - datetime: 2026-04-03T11:30:00+08:00/2026-04-03T12:20:00+08:00, PT50M
 - venue: CYT-LTL
 - status: public holiday
 
-### week 10 lab 1
+## week 10 lab 1
 
 - datetime: 2026-04-06T10:30:00+08:00/2026-04-06T13:20:00+08:00, PT2H50M
 - venue: Room 2133 & 2134, Academic Building
-- status: public holiday; unscheduled
+- status: public holiday
 
-### week 10 tutorial 1
+## week 10 tutorial 1
 
 - datetime: 2026-04-06T14:30:00+08:00/2026-04-06T15:20:00+08:00, PT50M
 - venue: CYT-G001
-- status: public holiday; unscheduled
+- status: public holiday
 
-### week 10 lecture 1
+## week 10 lecture 1
 
 - datetime: 2026-04-06T16:00:00+08:00/2026-04-06T16:50:00+08:00, PT50M
 - venue: CYT-LTL
-- status: public holiday; unscheduled
+- status: public holiday
 
-### week 10 lecture 2
+## week 10 lecture 2
 
 - datetime: 2026-04-10T11:30:00+08:00/2026-04-10T12:20:00+08:00, PT50M
 - venue: CYT-LTL
 - topic: final project
+- ELEC 1100
+    - ELEC 1100 / [final project](final%20project.md)
+        - [§ project objective and hardware constraints](final%20project.md#project%20objective%20and%20hardware%20constraints)
+        - [§ route, stages, and scoring logic](final%20project.md#route-stages-and-scoring-logic)
+        - [§ line-tracking logic and memory](final%20project.md#line-tracking%20logic%20and%20memory)
+        - [§ code, demo, and report expectations](final%20project.md#code-demo-and-report-expectations)
 
-### week 11 lab 1
+## week 11 lab 1
 
 - datetime: 2026-04-13T10:30:00+08:00/2026-04-13T13:20:00+08:00, PT2H50M
 - venue: Room 2133 & 2134, Academic Building
 - topic: lab 5 sensor & MCU
+- ELEC 1100
+    - ELEC 1100 / [sensor](sensor.md)
+    - ELEC 1100 / [microcontroller](microcontroller.md)
+    - ELEC 1100 / [Arduino](Arduino.md)
+    - ELEC 1100 / [lab 5](labs/lab%205/index.md)
 
-### week 11 tutorial 1
+## week 11 tutorial 1
 
 - datetime: 2026-04-13T14:30:00+08:00/2026-04-13T15:20:00+08:00, PT50M
 - venue: CYT-G001
 - topic: prepare for lab 6
+- ELEC 1100
+    - ELEC 1100 / [sensor](sensor.md#sensor%20patterns%20for%20line%20following)
+    - ELEC 1100 / [final project](final%20project.md#line-tracking%20logic%20and%20memory)
+    - ELEC 1100 / [lab 6](labs/lab%206/index.md)
 
-### week 11 lecture 1
+## week 11 lecture 1
 
 - datetime: 2026-04-13T16:00:00+08:00/2026-04-13T16:50:00+08:00, PT50M
 - venue: CYT-LTL
 - topic: written exam review
+- ELEC 1100
+    - ELEC 1100 / [questions / written exam review](questions/written%20exam%20review.md)
+    - ELEC 1100 / [questions / circuit analysis](questions/circuit%20analysis.md)
+    - ELEC 1100 / [questions / devices and logic](questions/devices%20and%20logic.md)
+    - ELEC 1100 / [questions / embedded control](questions/embedded%20control.md)
 
-### week 11 lecture 2
+## week 11 lecture 2
 
 - datetime: 2026-04-17T11:30:00+08:00/2026-04-17T12:20:00+08:00, PT50M
 - venue: CYT-LTL
-- status: unscheduled
+- status: no class
 
-### week 12 lab 1
+## week 12 lab 1
 
 - datetime: 2026-04-20T10:30:00+08:00/2026-04-20T13:20:00+08:00, PT2H50M
 - venue: Room 2133 & 2134, Academic Building
 - topic: lab 6 assembly of the robot car
+- ELEC 1100
+    - ELEC 1100 / [final project](final%20project.md)
+    - ELEC 1100 / [lab 6](labs/lab%206/index.md)
 
-### week 12 tutorial 1
+## week 12 tutorial 1
 
 - datetime: 2026-04-20T14:30:00+08:00/2026-04-20T15:20:00+08:00, PT50M
 - venue: CYT-G001
 - topic: prepare for project demo
+- ELEC 1100
+    - ELEC 1100 / [final project](final%20project.md#route-stages-and-scoring-logic)
+    - ELEC 1100 / [questions / written exam review](questions/written%20exam%20review.md)
 
-### week 12 lecture 1
+## week 12 lecture 1
 
 - datetime: 2026-04-20T16:00:00+08:00/2026-04-20T16:50:00+08:00, PT50M
 - venue: CYT-LTL
-- status: unscheduled
+- status: no class
 
-### week 12 lecture 2
+## week 12 lecture 2
 
 - datetime: 2026-04-24T11:30:00+08:00/2026-04-24T12:20:00+08:00, PT50M
 - venue: CYT-LTL
-- status: unscheduled
+- status: no class
 
-### week 13 lab 1
+## week 13 lab 1
 
 - datetime: 2026-04-27T10:30:00+08:00/2026-04-27T13:20:00+08:00, PT2H50M
 - venue: Room 2133 & 2134, Academic Building
 - topic: early demo
+- ELEC 1100
+    - ELEC 1100 / [final project](final%20project.md#route-stages-and-scoring-logic)
+    - ELEC 1100 / [final project](final%20project.md#code-demo-and-report-expectations)
 
-### week 13 tutorial 1
+## week 13 tutorial 1
 
 - datetime: 2026-04-27T14:30:00+08:00/2026-04-27T15:20:00+08:00, PT50M
 - venue: CYT-G001
-- status: unscheduled
+- status: no class
 
-### week 13 lecture 1
+## week 13 lecture 1
 
 - datetime: 2026-04-27T16:00:00+08:00/2026-04-27T16:50:00+08:00, PT50M
 - venue: CYT-LTL
-- status: unscheduled
+- status: no class
 
-### week 13 lecture 2
+## week 13 lecture 2
 
 - datetime: 2026-05-01T11:30:00+08:00/2026-05-01T12:20:00+08:00, PT50M
 - venue: CYT-LTL
-- status: unscheduled
+- status: no class
 
-### week 14 lab 1
+## week 14 lab 1
 
 - datetime: 2026-05-04T10:30:00+08:00/2026-05-04T13:20:00+08:00, PT2H50M
 - venue: Room 2133 & 2134, Academic Building
 - topic: final demo
+- ELEC 1100
+    - ELEC 1100 / [final project](final%20project.md#route-stages-and-scoring-logic)
+    - ELEC 1100 / [final project](final%20project.md#code-demo-and-report-expectations)
 
-### week 14 tutorial 1
+## week 14 tutorial 1
 
 - datetime: 2026-05-04T14:30:00+08:00/2026-05-04T15:20:00+08:00, PT50M
 - venue: CYT-G001
-- status: unscheduled
+- status: no class
 
-### week 14 lecture 1
+## week 14 lecture 1
 
 - datetime: 2026-05-04T16:00:00+08:00/2026-05-04T16:50:00+08:00, PT50M
 - venue: CYT-LTL
-- status: unscheduled
+- status: no class
 
-### week 14 lecture 2
+## week 14 lecture 2
 
 - datetime: 2026-05-08T11:30:00+08:00/2026-05-08T12:20:00+08:00, PT50M
 - venue: CYT-LTL
-- status: unscheduled
+- status: no class
 
 ## lab examination
 
 - datetime: 2026-03-30T10:30:00+08:00/2026-03-30T13:20:00+08:00, PT2H50M
-- venue: CYT-LTL
-- venue: lab sessions (LA3)
+- venue: Room 2133 & 2134, Academic Building
 - format:
     - cheatsheet: no
     - open book: no
@@ -694,8 +764,8 @@ Next lecture: motor basics, DC brushed motors.
 
 ## final examination
 
-- datetime: 2026-05-16T00:00:00+08:00/2026-05-29T23:59:00+08:00
-- venue: CYT-LTL
+- datetime: 2026-05-20T12:45:00+08:00/2026-05-20T14:15:00+08:00, PT1H30M
+- venue: LTA
 - venue: Spring Term Final Examinations, arranged by ARO
 - format:
     - cheatsheet: no
