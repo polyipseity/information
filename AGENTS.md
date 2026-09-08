@@ -15,6 +15,10 @@ __Not submodules__: `self/stash/` remains part of this repository and stores use
 
 __Submodule hierarchy__: Innermost `AGENTS.md` takes priority.
 
+__Intent & ownership__: This is primarily a public knowledgebase; most content (encyclopedic articles, tutorials, course notes) is intended to be public and editable by maintainers. Small, well-documented fixes are welcome via PRs. Avoid bulk or automated rewrites unless there is an agreed plan and review.
+
+__Public vs private__: Keep content public unless it contains PII, confidential academic records, commercial/embargoed research, or contracts. If in doubt, place in `private/` and consult the owner.
+
 ## Quick start: Common workflows
 
 __Creating notes__:

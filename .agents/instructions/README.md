@@ -6,7 +6,6 @@ This index summarizes the repository instruction files under `.agents/instructio
 | --- | --- | --- |
 | `core-workflows.instructions.md` | Startup checklist, workflows, and repo gotchas | `**` |
 | `commit-convention.instructions.md` | Commit/PR message rules and trailers | `**` |
-| `content-organization.instructions.md` | Repo structure and content layout | `**` |
 | `editing-conventions.instructions.md` | Markdown editing rules, cloze/pytextgen guards, config folder policy, skill integrations | `**/*.md` |
 | `python-entry-points.instructions.md` | Python `__name__ == "__main__"` entry point convention | `**/*.py` |
 | `special.instructions.md` | Conventions for `special/` content and tooling | `special/**/*.md, special/**/*.py` |
