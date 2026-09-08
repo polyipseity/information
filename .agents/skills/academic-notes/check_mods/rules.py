@@ -2359,6 +2359,76 @@ def link_unencoded_space(ctx: ValidationContext) -> list[ValidationMessage]:
     return errors
 
 
+@RULE_REGISTRY.register()
+def link_anchor_slug(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Detect markdown links whose anchor fragment uses dash-slug format.
+
+    The project convention requires ``%20`` encoding for spaces in anchor
+    fragments (e.g. ``#section%20name``), but AI frequently generates
+    dash-slugified anchors (e.g. ``#section-name``).  This rule catches
+    that pattern.  For same-file links, the fragment is validated against
+    the file's actual AST headings.  For cross-file links, a lightweight
+    heuristic is used: the fragment must contain at least one dash, be
+    entirely lowercase, and contain no ``%20`` encoding.
+    """
+    errors: list[ValidationMessage] = []
+    text = ctx.text
+    ast = ctx.ast
+    filename = ctx.path.name
+
+    # Build set of expected same-file anchors from AST headings.
+    _expected: set[str] = set()
+    if ast:
+        for h in ast_headings(ast):
+            anchor = h["text"].casefold().replace(" ", "%20").replace(":", "")
+            _expected.add(f"#{anchor}")
+
+    for m in re.finditer(r"\[[^\]]+\]\([^\)]+\)", text):
+        if _is_inside_code_block(m.start(), text, ast):
+            continue
+        target = m.group(1)
+        # Skip external URLs.
+        if "://" in target:
+            continue
+        # Split on # to get (filename_part, fragment).
+        parts = target.split("#", 1)
+        if len(parts) < 2 or not parts[1]:
+            continue
+        frag = parts[1]
+        if not frag:
+            continue
+        file_part = parts[0]
+        is_same_file = (not file_part) or (file_part == filename)
+        flagged = False
+        if is_same_file:
+            # Same-file: check against actual heading anchors.
+            if f"#{frag}" not in _expected:
+                flagged = True
+        else:
+            # Cross-file: heuristic — dash-slug is all-lowercase, has
+            # dashes, and no %20.
+            if "-" in frag and frag == frag.lower() and "%20" not in frag:
+                flagged = True
+        if flagged:
+            length = len(m.group(0))
+            line, col, col_end = locate_range(text, m.start(), length)
+            errors.append(
+                ValidationMessage(
+                    rule_id="link_anchor_slug",
+                    msg=(
+                        "anchor fragment uses dash-slug format; "
+                        "use %20 encoding for spaces "
+                        "(e.g., '#section%20name' not '#section-name')"
+                    ),
+                    line=line,
+                    col=col,
+                    col_end=col_end,
+                )
+            )
+            break
+    return errors
+
+
 # new rule to prohibit lecture summary sections ---------------------------------------------
 
 
