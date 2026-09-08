@@ -311,7 +311,7 @@ Present the proposed commit message to the user for confirmation before committi
 - __Media archives__: Ensure all images/files are downloaded to `archives/Wikimedia Commons/` with `%20`-encoded filenames. If downloads fail, check that clipboard HTML was complete and retry `convert_wiki`.
 - __Link normalization__: Use relative paths only; verify `%20` encoding for spaces (not `%3A` or other encodings).
 - __Formatting__: Simplify complex tables/lists if needed; respect `.markdownlint.json` settings.
-- __Frontmatter__: Follow [markdown-notes](../instructions/markdown-notes.instructions.md) conventions for `aliases` and `tags`.
+- __Frontmatter__: Follow [editing-conventions](../instructions/editing-conventions.instructions.md) conventions for `aliases` and `tags`.
 - __Attribution__: Preserve the Wikipedia source URL in frontmatter or as an HTML comment.
 - __Editing rules__: See [editing-conventions](../instructions/editing-conventions.instructions.md) for general rules when editing imported notes.
 - __Redirect symlinks__: Redirect symlinks may point at articles not yet ingested. The `check-symlinks` pre-commit hook excludes `general/`; dangling wiki redirects are intentional.
