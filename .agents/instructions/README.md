@@ -6,10 +6,8 @@ This index summarizes the repository instruction files under `.agents/instructio
 | --- | --- | --- |
 | `core-workflows.instructions.md` | Startup checklist, workflows, and repo gotchas | `**` |
 | `commit-convention.instructions.md` | Commit/PR message rules and trailers | `**` |
-| `config-folders.instructions.md` | Warn against editing .git, .obsidian, .vscode unless requested | `.git/**,.obsidian/**,.vscode/**` |
 | `content-organization.instructions.md` | Repo structure and content layout | `**` |
-| `editing-conventions.instructions.md` | Markdown editing rules, cloze/pytextgen guards | `**/*.md` |
-| `markdown-notes.instructions.md` | Conventions for `general/` encyclopedia notes | `general/**/*.md` |
+| `editing-conventions.instructions.md` | Markdown editing rules, cloze/pytextgen guards, config folder policy, skill integrations | `**/*.md` |
 | `python-entry-points.instructions.md` | Python `__name__ == "__main__"` entry point convention | `**/*.py` |
 | `special.instructions.md` | Conventions for `special/` content and tooling | `special/**/*.md, special/**/*.py` |
 | `submodule-pyarchivist.instructions.md` | Guardrails for `scripts/pyarchivist` submodule | `scripts/pyarchivist/**` |

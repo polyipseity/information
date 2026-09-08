@@ -18,9 +18,9 @@ applyTo: "**/*.md"
 
 Agent quickstart pointer: See `.agents/instructions/core-workflows.instructions.md` for a concise agent checklist and quick repository gotchas (preserve pytextgen fences, don't reflow cloze markup, and prefer `bun run <script>` wrappers for reproducible runs).
 
-- __pytextgen fences__: Do not modify `# pytextgen generate ...` comments, fence delimiters, or `return export_seq(...)` signatures. These are parsed by pytextgen; breaking them prevents regeneration.
+- __pytextgen fences__: Do not modify `# pytextgen generate ...` comments, fence delimiters, or `return export_seq(...)` signatures. These are parsed by pytextgen; breaking them prevents regeneration. Preserve HTML comment variants (`<!--pytextgen generate section="..."-->` / `<!--/pytextgen-->`) exactly. Content between tags is auto-replaced on regeneration; do not run `uv run -m init generate`.
 
-- __Links__: Always relative with `%20` encoding (not `%3A` or other encodings). Use `archives/` for shared media.
+- __Links__: Always relative with `%20` encoding (not `%3A` or other encodings). Use `archives/` for shared media. Point media to `archives/Wikimedia Commons/` (preferred). Preserve existing link targets.
 
 - __Math__: Keep KaTeX `$...$` (inline) and `$$...$$` (block) intact; don't wrap or escape.
 
@@ -48,7 +48,12 @@ When two separate blockquote blocks appear adjacent (separated only by blank lin
 
 ## Config folder policy
 
-- __`.git/`, `.obsidian/`, `.vscode/`__: Do not edit unless explicitly requested; use UI tools to modify app settings
+- These folders and files contain auto-generated or sensitive configuration. Do not edit them unless explicitly requested by the user.
+- `.git/`: Git repository internals — editing may corrupt the repository.
+- `.markdownlint*` files: markdownlint configuration. Never add, remove, or modify rules in these files unless the user explicitly asks. This is a hard ban — markdownlint config is owned by the user.
+- `.obsidian/`: Obsidian app settings, plugins, and workspace state — changes should be made in the Obsidian UI or after explicit user permission.
+- `.vscode/`: VS Code workspace configuration — changes should be made in VS Code settings or after explicit user permission.
+- If a task requires editing these folders, ask the user for explicit permission first.
 
 ## Formatting & linting
 
@@ -61,6 +66,10 @@ When two separate blockquote blocks appear adjacent (separated only by blank lin
 - __YAML frontmatter__: `aliases`, `tags`, `language/in/English` are standard fields; preserve during edits
 
 - __KaTeX math__: `$inline$` and `$$display$$` formats untouched; Extended MathJax in Obsidian uses `.obsidian/plugins/obsidian-latex/preamble.sty` for custom macros
+
+## Skill integrations
+
+Use [wiki-ingestion](../skills/wiki-ingestion/SKILL.md) for Wikipedia imports, [pytextgen](../skills/pytextgen/SKILL.md) for flashcard regeneration, and [tools/SKILL.md](../skills/tools/SKILL.md) for note scaffolding.
 
 ## Developer tooling & testing conventions
 
