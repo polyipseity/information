@@ -18,7 +18,7 @@ This skill automates the user’s process for converting Markdown prose into act
 
 All style decisions are driven by the representative examples and heuristics embedded in this document.  When you encounter a new pattern, capture it here as an example or add a heuristic rule.  An optional prompt file (`flashcard-creation.prompt.md`) can solicit path/line information.  Do __not__ run any commands such as `init generate` in the course of editing; operational advice belongs elsewhere.
 
-__Academic content:__ if editing `special/academia` material also consult the `academic-notes` skill for course‑specific conventions such as full hierarchical gloss paths and QA list separators; it links back here for general guidance.  Conversely, the `academic-notes` documentation refers you here for the general cloze/QA patterns and example transformations. __Topic notes:__ by default do __not__ add cloze cards; use only two-sided (::@::) or very rarely one-sided (:@:) cards and add more of those as needed. __Accounting journal-entry worked examples embedded in topic notes:__ (a) Put a __very brief description__ of the entry in the first column header of each journal-entry table; wrap that description and __each account name__ in the first column in clozes so flashcards cover them fully. (b) Mask all debit and credit amounts in tables; add scenario (and calculation/explanation) clozes but leave __a few hint words__ at the start or end; for calculations, cover __both sides of an equality separately__ and cover the __text (non-equation) portion__ with hint words uncovered; use `&nbsp;` for the thousands separator (see academic-notes skill § Journal entry examples in accounting topic notes). __Cloze delimiter:__ the closing `}@}` must come __before__ any trailing punctuation; place punctuation after the delimiter (e.g. `{@{text}@}.` not `{@{text.}@}`).
+__Academic content:__ if editing `special/academia` material also consult the `academic-notes` skill for course‑specific conventions such as full hierarchical gloss paths and QA list separators; it links back here for general guidance.  Conversely, the `academic-notes` documentation refers you here for the general cloze/QA patterns and example transformations. __Topic notes:__ by default do __not__ add cloze cards; use only two-sided (::@::) or very rarely one-sided (:@:) cards and add more of those as needed. __Cloze delimiter:__ the closing `}@}` must come __before__ any trailing punctuation; place punctuation after the delimiter (e.g. `{@{text}@}.` not `{@{text.}@}`).
 
 For private academic quiz archives where the user has explicitly confirmed that a checked option is correct, prefer a short `- explanation:` bullet with clozes over a bare answer-only card. Cloze the decisive method, condition, contrast, or reason that makes the selected answer correct; do not merely hide the same final option twice. If the question or answer depends on an embedded figure, still add the cloze-rich explanation instead of treating the image itself as sufficient review support. If the `Solution:` line contains the embedded image, keep at least one cloze on that `Solution:` line too so the chosen option or structural descriptor is directly quizzable there.
 
@@ -72,29 +72,117 @@ Invoke the skill when the user asks to “add flashcards”, “cloze this”, �
 - Never suggest running any external command during editing.  Command advice is irrelevant to this skill.
 - If session memory grows large (≈20 examples or after a long session), summarise learned rules and cement them in this document. Prompt the user before consolidating.
 
+## Cloze creation methodology
+
+Use this three-step process for every clozing task.  It produces fine-grained clozes that maximise recall context while keeping each blank to one recallable unit.
+
+### Step 1: Assume everything needs clozing
+
+Read the target sentence and treat every clause, equation, and factual claim as a candidate blank.  This counteracts the natural tendency to under-cloze.  Aim for ≥80% of each solution sentence inside clozes — only linking words ("so", "hence", "therefore"), articles ("the", "a"), and 1–3 hint words should remain visible.  In multi-step worked solutions, every intermediate equation and every conclusion must be individually clozed — not left visible between clozes.
+
+### Step 2: Split at natural boundaries
+
+Break at commas, semicolons, conjunctions (`and`, `but`, `so`, `because`), relative clauses (`that`, `which`), and equation boundaries.  Each resulting fragment becomes a separate cloze candidate.
+
+| Boundary type | Example split |
+| --- | --- |
+| Comma | "voltage is equal, so current differs" → two clozes |
+| Semicolon | "R increases; X decreases" → two clozes |
+| Conjunction | "blocks the MCU and risks missing inputs" → two clozes |
+| Equation boundary | "IB is 0.09 mA, so βIB is 8.2 mA" → two clozes |
+| Prose + equation | "current is $I=...$" → two clozes (prose visible, equation hidden) |
+| Solution step | "IB is 0.09 mA, so βIB is 8.2 mA" → each equation gets its own cloze |
+| Contrast (A vs B) | "X is good, whereas Y is bad" → two clozes |
+| Do NOT split | "$01\to1$, $10\to1$" (same type of item) → one cloze |
+
+> __Important:__ the prose+equation split applies only when one side is a math expression (`$...$`). For all-prose sentences, keep related clauses together in one cloze.
+
+### Common mistakes
+
+1. __Missing hint words.__ Every cloze must have at least one visible word outside it. A cloze that starts at the beginning of a sentence without a lead-in phrase is wrong — add a hint like "The advantage is" before it. Hint words are at least 1 word, typically 1–3 words, but can be longer phrases (e.g., "The node voltage is", "Solution:"). There is no upper limit on hint length.
+2. __Contrast merged into one cloze.__ Contrast items (A vs B) must be separate clozes — never `{@{X is good, whereas Y is bad}@}`.
+3. __Over-splitting.__ Do not split at every comma. Related items within one reasoning step stay in one cloze.
+4. __Prose+equation merge.__ Never put both prose description and equation in one cloze (e.g., `{@{Ohm's law, $V=IR$}@}`). Split into `{@{Ohm's law}@} is {@{$V=IR$}@}` so the concept name stays visible as a recall hint.
+5. __Under-clozing solution steps.__ In multi-step solutions, every intermediate equation and every conclusion must be clozed. Leaving an equation or conclusion visible between clozes means the solver sees the answer instead of recalling it. Each step gets its own cloze; only linking words (`so`, `hence`, `therefore`) stay visible between clozes.
+
+### Step 3: Shrink to leave hint words
+
+Remove words from the cloze until one or two anchor words remain visible outside the braces.  The visible words provide recall context; the hidden words test the core concept.
+
+```text
+Before (one giant cloze): {@{The transistor is not in saturation because βIB < IC,max}@}
+After (two focused clozes): The {@{transistor is not in saturation@}} because {@{βIB < IC,max@}}.
+```
+
+__Never mix prose and equation in one cloze.__  When a sentence has prose plus an equation (e.g., "The voltage is $V=...$"), put the prose in one cloze and the equation in a separate cloze, with the linking word (`is`, `gives`) visible between them: `{@{The voltage}@} is {@{$V=...$}@}`.  __Do not apply this split to prose-to-prose sentences.__  A sentence like "the Zener is effectively off" is all prose — keep it as one cloze: `{@{the Zener is effectively off@}}`.
+
+### Step 4: Audit coverage
+
+After applying clozes, estimate the cloze-to-visible ratio for each solution line.  The hard minimum is 80% of each solution sentence inside clozes; the target is ~90%.  Use the expand→add→merge hierarchy below to reach the target:
+
+1. __Expand__: if an existing cloze has important content visible around it, expand the cloze to absorb that content (preferred first step — rewrites the fewest lines).
+2. __Add__: if uncovered content is far from any existing cloze, add a new cloze around it.
+3. __Merge__: if two adjacent clozes are separated by only one or two visible words and merging yields a stronger recall prompt, combine them into one cloze.  Use sparingly — only when the merged cloze tests a single coherent concept.
+
+A common failure mode is clozing only equations while leaving entire prose explanations visible — both prose and equations must be inside clozes.  Another failure mode is splitting content into too many tiny clozes when one larger cloze would be a stronger recall prompt (e.g., `{@{reverse breakdown}@}` is weaker than `{@{reverse breakdown, the node is clamped near@}}`).
+
+### Splitting guide for common patterns
+
+- __Equation + prose__: when a sentence contains prose plus an equation (`$...$`), put the prose in one cloze and the equation in a separate cloze; the linking word (`is`, `gives`) stays visible between them.  __Do not use this pattern for all-prose sentences__ — "the Zener is effectively off" stays as one cloze: `{@{the Zener is effectively off@}}`.
+- __Conditional chain__: keep `if`/`when` visible, cloze the condition body separately from the consequence.
+- __Comparison__: cloze each side of the contrast separately; keep the contrastive conjunction (`but`, `however`) visible.
+- __Step-by-step procedure__: one cloze per step; keep step connectors (`then`, `next`, `finally`) visible.
+
 ## Representative examples
 
-Several patterns recur frequently; the first five entries below illustrate the kinds of transformations you should perform.  When editing a new passage, recall which example best matches and mimic its cloze placement and style.
+The three worked examples below illustrate the three-step cloze methodology in action.  Each shows the before/after transformation.
 
-1. __Dense math paragraph__ – multiple expressions and annotations require many inline clozes so each formula or qualifier can be tested separately.
-2. __Long technical paragraph__ – break a single sentence containing several logical ideas into separate deletions rather than one giant blank.
-3. __Circuit cancellation description__ – sequential procedural text with paired concepts gets split at each step; retain anchors such as “easiest way” or “however”.
-4. __Transform hierarchy statement__ – simple declarative sentence with nested subjects encourages small, discrete clozes for each noun phrase.
-5. __Concentration/spread of Fourier transform__ – comparative statement best handled by clozing each contrasted clause individually.
+1. __Truth table + formula split__ (electronic circuits) – formula and concept get separate clozes; a hint word anchors each.
 
-Below are the full before/after examples for reference (copy them into the agent’s reasoning when needed):
+   ```text
+   Input: The output is XNOR with Q = AB' + A'B.
+   Output: The {@{output is XNOR@}} with {@{$Q = AB' + A'B$@}}.
+   ```
 
-```text
-Input: If _f_ is (annotation: of exponential growth; then) also causal, and analytical, then: ${\widehat {f} }(i\tau )=F(-2\pi \tau )$. Thus, extending the Fourier transform to the complex domain means it includes the Laplace transform as a special case in the case of causal functions—but with the change of variable _s_ = _i_<-- markdown separator -->2π<-- markdown separator -->_ξ_. (annotation: That is, make any expression containing _ξ_ in the form of that on the right hand side, then simply replace it with _s_. Now the Fourier transform with _ξ_ as input becomes the Laplace transform with _s_ as input.)
-Output: If _f_ is {@{(annotation: of exponential growth; then) also causal, and analytical}@}, then: {@{${\widehat {f} }(i\tau )=F(-2\pi \tau )$}@}. Thus, extending {@{the Fourier transform to the complex domain}@} means it includes {@{the Laplace transform as a special case}@} in the case of {@{causal functions}@}—but with {@{the change of variable _s_ = _i_<-- markdown separator -->2π<-- markdown separator -->_ξ_}@}. (annotation: That is, make {@{any expression containing _ξ_}@} in the form of that on {@{the right hand side}@}, then simply {@{replace it with _s_}@}. Now {@{the Fourier transform with _ξ_ as input}@} becomes {@{the Laplace transform with _s_ as input}@}.)
-```
+2. __Splitting a single long cloze__ (embedded systems) – one giant blank becomes three focused ones, each testing a distinct concept.
 
-```text
-Input: From another, perhaps more classical viewpoint, the Laplace transform by its form involves an additional exponential regulating term which lets it converge outside of the imaginary line where the Fourier transform is defined. As such it can converge for at most exponentially divergent series and integrals, whereas the original Fourier decomposition cannot, enabling analysis of systems with divergent or critical elements. Two particular examples from linear signal processing are the construction of allpass filter networks from critical comb and mitigating filters via exact pole-zero cancellation on the unit circle. Such designs are common in audio processing, where highly nonlinear phase response is sought for, as in reverb.
-Output: From another, perhaps {@{more classical viewpoint}@}, {@{the Laplace transform by its form}@} involves {@{an additional exponential regulating term}@} which lets it converge {@{outside of the imaginary line}@} where {@{the Fourier transform is defined}@}. As such it can {@{converge for at most exponentially divergent series and integrals}@}, whereas {@{the original Fourier decomposition cannot}@}, enabling {@{analysis of systems with divergent or critical elements}@}. Two particular examples from {@{linear signal processing}@} are the construction of {@{allpass filter networks from critical comb}@} and {@{mitigating filters}@} via {@{exact pole-zero cancellation on the unit circle}@}. Such designs are {@{common in audio processing}@}, where {@{highly nonlinear phase response}@} is {@{sought for, as in reverb}@}.
-```
+   ```text
+   Input: millis() returns milliseconds and has no rollover risk for months, but delay() blocks the MCU and risks missing sensor inputs.
+   Output: millis() returns {@{milliseconds@}} and has {@{no rollover risk for months@}}, but delay() {@{blocks the MCU and risks missing sensor inputs@}}.
+   ```
 
-_The remaining examples follow the same pattern; open the files for more entries if needed._
+3. __Resistor network__ (circuit analysis) – split a single equation cloze into a concept cloze plus a separate equation cloze.
+
+   ```text
+   Input: In a parallel circuit, voltage is equal: V_1 = V_2 = V_3.
+   Output: In a parallel circuit, {@{voltage is equal@}: $V_1 = V_2 = V_3$}.
+   ```
+
+4. __Additive clozing__ (circuit analysis) – keep existing clozes, add new ones around uncovered factual content.
+
+   ```text
+   Input: Below the combined threshold, the Zener is effectively off and the node behaves like an ordinary voltage divider. Once the current is large enough to drive the Zener into reverse breakdown, the node is clamped near 7.2 V and extra source variation mainly changes the current through the series path.
+
+   After initial clozing (some factual content still visible):
+   Below the combined threshold, the Zener is {@{effectively off@}} and the {@{node behaves like an ordinary voltage divider}@}. Once the current is large enough to drive the Zener into {@{reverse breakdown@}}, the {@{node is clamped near@} {@{$7.2\text{ V}$@}} and extra source variation mainly changes the current through the series path.
+
+   After coverage audit (add new clozes for visible facts):
+   Below the combined threshold, {@{the Zener is effectively off@}} and the {@{node behaves like an ordinary voltage divider}@}. Once the current is large enough to drive the Zener into {@{reverse breakdown@}}, the {@{node is clamped near@} {@{$7.2\text{ V}$@}} and {@{extra source variation mainly changes the current through the series path}@}.
+   ```
+
+5. __Cloze expansion__ (circuit analysis) – merge two adjacent small clozes into one larger cloze when the expanded version tests a stronger, more coherent concept.
+
+   ```text
+   Before (two small clozes, visible text between them):
+   The decision is made from stale data. Even if the physical sensor {@{changes@}}, the code keeps using the old value and the {@{motor behavior may continue incorrectly@}}.
+
+   After (expand first cloze to absorb nearby visible words):
+   The decision is made from stale data. Even if the physical sensor {@{changes, the code keeps using the old value@}} and the {@{motor behavior may continue incorrectly@}}.
+   ```
+
+   Expansion is preferred when the two clozes are separated by only one or two visible words and the expanded version captures a single coherent cause-and-effect relationship.
+
+_These examples demonstrate the three-step methodology: assume everything → split at natural boundaries → shrink to leave hint words.  Apply this pattern when clozing Q&A solutions, worked examples, and explanatory prose._
 
 ## Heuristics and rules
 
@@ -104,7 +192,6 @@ The form of the examples above is complemented by a set of practical heuristics,
 
 - Preserve the source verbatim except for cloze markup; do not paraphrase or reflow text.
 - Equations stay whole: wrap an entire `$...$` or `$$...$$` block in a single cloze; never split math.
-- __Prompt length is irrelevant for calculations.__  When constructing two‑sided or one‑sided cards involving numeric problems, copy every number, parameter, and even full equations to the left of the separator; the prompt may be arbitrarily long.  The warning rules in the validator are designed to catch cases where the answer cannot possibly be deduced from the prompt, not to force brevity.  Resist any urge to split a single calculation across multiple cards purely to shorten the left-hand text – that reduces clarity and defeats the purpose of spaced repetition.
 - Anchor context: leave visible words around each deletion to give a hint; avoid blanking a sentence entirely unless context is crystal clear.
 - Mirror the user’s style when they supply examples or corrections.
 - Preserving HTML entities and escapes exactly; treat them as opaque literals.
@@ -116,7 +203,7 @@ The form of the examples above is complemented by a set of practical heuristics,
 - Break long sentences with multiple ideas into separate cards rather than one huge deletion.  Semicolon lists get individual clozes per clause.
 - Split around contrastive conjunctions (`but`, `however`, etc.) and keep conditional connectors (`if`, `when`, etc.) visible unless the condition itself is tested.
 - Default to inline clozes; use `::@::` or `:@:` only if the user requests QA style or an example clearly shows it.
-- When expanding an already-clozed official solution block, do not just add more equation clozes. Prefer a balanced trio of recall targets: what is being counted/conditioned on, why the method applies, and what the final conclusion is. This is especially useful in academic question banks where the formulas are short but the decisive explanatory phrase carries the real memory cue.
+- When re-clozing a solution block, apply the three-step methodology (assume everything → split at natural boundaries → shrink to leave hint words). This yields fine-grained clozes where each blank tests one recallable unit.
 - For simple declarative sentences, consider hiding subject and object separately to yield focused cards.
 - Articles, possessives, prepositions, and qualifiers should be included inside the cloze when they are part of the tested concept.
 - Hide the minimal meaningful semantic unit—adjust if the user later shifts words in or out of the cloze.
