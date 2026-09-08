@@ -6,6 +6,9 @@ from bs4 import BeautifulSoup, Tag
 
 from scripts.convert_wiki.table import TableConverter
 
+"""Public API of this test module (empty: no symbols are exported)."""
+__all__ = ()
+
 
 def _make_tbody(html: str):
     """Parse an HTML fragment and return the soup and the first <tbody> element."""
