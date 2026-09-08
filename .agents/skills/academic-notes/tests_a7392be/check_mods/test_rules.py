@@ -21,6 +21,7 @@ from check_mods.rules import (
     cloze_open_close_matching,
     cloze_single_line,
     cloze_wrong_closing_token,
+    cloze_wrong_token,
     find_math_spans,
     flashcard_tag_unique,
     folder_link_trailing_slash,
@@ -1258,6 +1259,61 @@ def test_cloze_no_nested_rule():
 
     good = make_ctx("Flat {@{outer text}@}.\n")
     assert not cloze_no_nested(good)
+
+
+def test_cloze_wrong_token_rule():
+    """Malformed cloze tokens should be detected."""
+
+    # Wrong open token (no second {)
+    bad = make_ctx(
+        "---\ntags: [flashcard/active/special/academia/test]\n---\nText {@ text@} here.\n"
+    )
+    msgs = cloze_wrong_token(bad)
+    assert msgs and any("wrong open token" in m.msg for m in msgs)
+
+    # Wrong close token (no second })
+    bad = make_ctx(
+        "---\ntags: [flashcard/active/special/academia/test]\n---\nText {@{text@} here.\n"
+    )
+    msgs = cloze_wrong_token(bad)
+    assert msgs and any("wrong close token" in m.msg for m in msgs)
+
+    # Reversed structure
+    bad = make_ctx(
+        "---\ntags: [flashcard/active/special/academia/test]\n---\nText @{ cloze }@ here.\n"
+    )
+    msgs = cloze_wrong_token(bad)
+    assert msgs and any("wrong open token" in m.msg for m in msgs)
+
+    # Missing opening brace
+    bad = make_ctx(
+        "---\ntags: [flashcard/active/special/academia/test]\n---\nText @text@} here.\n"
+    )
+    msgs = cloze_wrong_token(bad)
+    # Should detect the @text@} as a wrong token
+    assert msgs
+
+    # Valid cloze — no false positive
+    good = make_ctx(
+        "---\ntags: [flashcard/active/special/academia/test]\n---\nText {@{valid cloze}@} here.\n"
+    )
+    assert not cloze_wrong_token(good)
+
+    # Inside LaTeX math — no false positive
+    good = make_ctx(
+        "---\ntags: [flashcard/active/special/academia/test]\n---\nText {@{$x@y$}@} here.\n"
+    )
+    assert not cloze_wrong_token(good)
+
+    # Inside code fence — no false positive
+    good = make_ctx(
+        "---\ntags: [flashcard/active/special/academia/test]\n---\nText {@{code}@} here.\n```\n@bad\n```\n"
+    )
+    assert not cloze_wrong_token(good)
+
+    # No flashcard tag — rule should not fire
+    no_tag = make_ctx("---\ntags: []\n---\nText {@ text@} here.\n")
+    assert not cloze_wrong_token(no_tag)
 
 
 def test_no_smart_double_quotes_rule():

@@ -3057,6 +3057,148 @@ def cloze_no_nested(ctx: ValidationContext) -> list[ValidationMessage]:
     return errors
 
 
+def _scan_wrong_cloze_tokens(
+    text: str,
+) -> list[tuple[int, int, str]]:
+    """Scan for malformed cloze tokens that are not valid ``{@{`` or ``}@}``.
+
+    Returns a list of ``(start, end, description)`` tuples where ``start``
+    and ``end`` are byte offsets and ``description`` explains the expected
+    token.
+
+    Skips ``@`` characters inside LaTeX math mode, inline code, and
+    fenced code blocks.
+    """
+    wrong_tokens: list[tuple[int, int, str]] = []
+    n = len(text)
+
+    # Track math mode
+    in_math = False
+    in_code_fence = False
+    in_inline_code = False
+    i = 0
+    while i < n:
+        # Track code fences
+        if text.startswith("```", i):
+            in_code_fence = not in_code_fence
+            i += 3
+            continue
+
+        # Track inline code
+        if text[i] == "`" and not in_code_fence:
+            in_inline_code = not in_inline_code
+            i += 1
+            continue
+
+        # Skip content inside code blocks
+        if in_code_fence or in_inline_code:
+            i += 1
+            continue
+
+        # Track math mode
+        if text[i] == "$" and (i == 0 or text[i - 1] != "\\"):
+            if i + 1 < n and text[i + 1] == "$":
+                in_math = not in_math
+                i += 2
+                continue
+            in_math = not in_math
+            i += 1
+            continue
+
+        # Skip content inside math
+        if in_math:
+            i += 1
+            continue
+
+        # Check for @ characters that might be malformed cloze tokens
+        if text[i] == "@":
+            # Check if this is part of a valid open token {@{
+            # @ is at position 1 in the 3-char token, so check i-1 and i+1
+            if i >= 1 and i + 1 < n and text[i - 1] == "{" and text[i + 1] == "{":
+                # Valid {@{ token, skip all 3 characters
+                i += 2
+                continue
+
+            # Check if this is part of a valid close token }@}
+            # @ is at position 1 in the 3-char token, so check i-1 and i+1
+            if i >= 1 and i + 1 < n and text[i - 1] == "}" and text[i + 1] == "}":
+                # Valid }@} token, skip all 3 characters
+                i += 2
+                continue
+
+            # Check for potential malformed tokens
+            # {@ without following { — incomplete open token
+            if i >= 1 and text[i - 1] == "{" and (i + 1 >= n or text[i + 1] != "{"):
+                # Malformed: {@ without following {
+                wrong_tokens.append(
+                    (i - 1, i + 1, "wrong open token '{@'; use '{@{' instead")
+                )
+                i += 1
+                continue
+
+            # @} without preceding } — incomplete close token
+            if i + 1 < n and text[i + 1] == "}" and (i < 1 or text[i - 1] != "}"):
+                # Malformed: @} without preceding }
+                wrong_tokens.append(
+                    (i, i + 2, "wrong close token '@}'; use '}@}' instead")
+                )
+                i += 2
+                continue
+
+            # }@ without following } — possible close-token typo
+            if i >= 1 and text[i - 1] == "}" and (i + 1 >= n or text[i + 1] != "}"):
+                # Malformed: }@ without following }
+                wrong_tokens.append(
+                    (i - 1, i + 1, "wrong close token '}@'; use '}@}' instead")
+                )
+                i += 1
+                continue
+
+            # @{ without preceding { — possible open-token typo
+            if i + 1 < n and text[i + 1] == "{" and (i < 1 or text[i - 1] != "{"):
+                # Malformed: @{ without preceding {
+                wrong_tokens.append(
+                    (i, i + 2, "wrong open token '@{'; use '{@{' instead")
+                )
+                i += 2
+                continue
+
+            i += 1
+            continue
+
+        i += 1
+
+    return wrong_tokens
+
+
+@RULE_REGISTRY.register()
+def cloze_wrong_token(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Check for malformed cloze tokens that are not valid ``{@{`` or ``}@}``.
+
+    Detects common typos like ``{@``, ``}@``, ``{@}``, etc.  Skips tokens
+    inside math mode, inline code, and fenced code blocks.
+    """
+    errors: list[ValidationMessage] = []
+    if not has_flash_tag(ctx.front):
+        return errors
+
+    wrong_tokens = _scan_wrong_cloze_tokens(ctx.text)
+    for start, end, description in wrong_tokens:
+        line_no, col_no = locate(ctx.text, start)
+        _, _, col_end = locate_range(ctx.text, start, end - start)
+        errors.append(
+            ValidationMessage(
+                rule_id="cloze_wrong_token",
+                msg=description,
+                line=line_no,
+                col=col_no,
+                col_end=col_end,
+            )
+        )
+
+    return errors
+
+
 # split the original check into two specific rules; retain a wrapper
 # for backward compatibility.
 
