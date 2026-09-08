@@ -4,11 +4,10 @@ This index summarizes the repository instruction files under `.agents/instructio
 
 | File | Purpose | applyTo |
 | --- | --- | --- |
-| `core-workflows.instructions.md` | Startup checklist, workflows, and repo gotchas for agents | `**` |
-| `commit-convention.instructions.md` | Commit/PR message rules and trailers for agents | `**` |
+| `core-workflows.instructions.md` | Startup checklist, workflows, and repo gotchas | `**` |
+| `commit-convention.instructions.md` | Commit/PR message rules and trailers | `**` |
 | `config-folders.instructions.md` | Warn against editing .git, .obsidian, .vscode unless requested | `.git/**,.obsidian/**,.vscode/**` |
 | `content-organization.instructions.md` | Repo structure and content layout | `**` |
-| `core-workflows.instructions.md` | Command-line workflows (generate, pack, publish) | `**` |
 | `editing-conventions.instructions.md` | Markdown editing rules, cloze/pytextgen guards | `**/*.md` |
 | `markdown-notes.instructions.md` | Conventions for `general/` encyclopedia notes | `general/**/*.md` |
 | `python-entry-points.instructions.md` | Python `__name__ == "__main__"` entry point convention | `**/*.py` |

@@ -23,13 +23,7 @@ The authoritative long-form policy lives in `.agents/skills/academic-notes/SKILL
 - Questions-page solutions use cloze `{@{ }@}`, not QA cards.
 - When changing a topic note, update its prose, flashcards, and every affected `index.md` section link in the same task.
 
-## Tools
-
-- Skill: `.agents/skills/academic-notes/`
-- Template: `.agents/skills/academic-notes/course-template.md`
-- Validator: `.agents/skills/academic-notes/check.py`
-
 ## Reference
 
-- [assignment-creation](../skills/assignment-creation/SKILL.md) — for assignment-style leaf indexes (labs, homework folders)
+- [assignment-creation](../skills/assignment-creation/SKILL.md) — assignment-style leaf indexes
 - [special.instructions.md](special.instructions.md) — general special/ conventions

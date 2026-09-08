@@ -28,51 +28,15 @@ Agent quickstart pointer: See `.agents/instructions/core-workflows.instructions.
 
 ## MD028 (consecutive blockquotes)
 
-When two blockquote blocks (`> ...`) appear adjacent without intervening non-blockquote content, markdownlint rule MD028 fires. To suppress it legitimately (when the blockquotes are intentionally separate), always use the exact pattern below. The `<!-- markdownlint MD028 -->` comment is required __whenever two separate blockquote blocks__ appear adjacent to each other (separated only by blank lines). If the blockquotes represent distinct content that should remain separate (e.g., questions and answers, different speakers, or separate quotations), you must insert the separator comment. If the blockquotes should be treated as a single continuous blockquote (same speaker, same context), write them as one blockquote without separation.
-
-### Required pattern
+When two separate blockquote blocks appear adjacent (separated only by blank lines), insert `<!-- markdownlint MD028 -->` between them — exactly one blank line before and after, literal comment text, no trailing whitespace. If the blockquotes are one continuous quote, merge them instead.
 
 ```markdown
-> (end of prior block)
+> End of prior block.
 
 <!-- markdownlint MD028 -->
 
-> (start of next block)
+> Start of next block.
 ```
-
-### Rules (enforced by checks)
-
-1. __Exactly one blank line__ before `<!-- markdownlint MD028 -->` — no more,
-   no fewer. A blank line means an empty line (zero visible characters)
-   between the last line of the prior blockquote and the comment.
-2. __Exactly one blank line__ after `<!-- markdownlint MD028 -->` — no more,
-   no fewer. An empty line between the comment and the first line of the
-   next blockquote.
-3. __Comment text is literal__ — use `<!-- markdownlint MD028 -->` exactly.
-   Do __not__ use `<!-- markdownlint-disable-next-line MD028 -->`,
-   `<!-- markdownlint-enable MD028 -->`, or any other markdownlint
-   directive. This is a plain HTML comment whose content merely names the
-   rule; it is not a tool command.
-4. __No trailing whitespace__ on the comment line or the blank lines.
-5. __Use only when separation is intentional__: Insert the comment only
-   between blockquotes that are genuinely separate. If blockquotes form one
-   continuous quote, merge them into a single blockquote instead.
-
-### Example
-
-```markdown
-> First blockquote paragraph.
-> More text in the first block.
-
-<!-- markdownlint MD028 -->
-
-> Second blockquote paragraph.
-> More text in the second block.
-```
-
-### Rationale
-
-The comment acts as a semantic separator (intentional break) that also prevents markdownlint from flagging adjacent blockquotes as a single merged block. Using a plain HTML comment instead of a suppression directive keeps the intent explicit for both human readers and linters.
 
 ## Submodule editing policy
 
