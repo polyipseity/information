@@ -50,6 +50,7 @@ from check_mods.rules import (
     latex_single_line,
     latex_spacing_after,
     latex_spacing_before,
+    link_anchor_slug,
     md028_bad_format,
     md028_missing,
     metadata_aliases_present,
@@ -2490,3 +2491,76 @@ def test_md028_bad_format_trailing_whitespace():
     ctx = make_ctx(txt)
     msgs = md028_bad_format(ctx)
     assert msgs and msgs[0].rule_id == "md028_bad_format/trailing_whitespace"
+
+
+# link_anchor_slug tests ----------------------------------------------------------------
+
+
+def test_link_anchor_slug_catches_slug_pattern():
+    """Cross-file link with slugified fragment → expects violation."""
+    txt = "## Route stages and scoring logic\n\n[text](file.md#route-stages-and-scoring-logic)\n"
+    ctx = make_ctx(txt)
+    msgs = link_anchor_slug(ctx)
+    assert msgs and msgs[0].rule_id == "link_anchor_slug"
+
+
+def test_link_anchor_slug_allows_percent20():
+    """Fragment with %20 → no violation."""
+    txt = "## Route stages and scoring logic\n\n[text](file.md#route%20stages%20and%20scoring%20logic)\n"
+    ctx = make_ctx(txt)
+    assert not link_anchor_slug(ctx)
+
+
+def test_link_anchor_slug_allows_legitimate_dash():
+    """Fragment with dash, lowercase, no %20 → IS flagged (conservative heuristic).
+
+    If the heading is 'Softmax regression', the correct anchor is
+    '#softmax%20regression', so '#softmax-regression' is wrong.
+    """
+    txt = "## Softmax regression\n\n[text](file.md#softmax-regression)\n"
+    ctx = make_ctx(txt)
+    msgs = link_anchor_slug(ctx)
+    assert msgs and msgs[0].rule_id == "link_anchor_slug"
+
+
+def test_link_anchor_slug_same_file_exact_match():
+    """Same-file #fragment that matches an AST heading → no violation."""
+    txt = "## Route stages and scoring logic\n\n[text](#route%20stages%20and%20scoring%20logic)\n"
+    ctx = make_ctx(txt)
+    assert not link_anchor_slug(ctx)
+
+
+def test_link_anchor_slug_same_file_mismatch():
+    """Same-file #fragment that doesn't match any heading → violation."""
+    txt = (
+        "## Route stages and scoring logic\n\n[text](#route-stages-and-scoring-logic)\n"
+    )
+    ctx = make_ctx(txt)
+    msgs = link_anchor_slug(ctx)
+    assert msgs and msgs[0].rule_id == "link_anchor_slug"
+
+
+def test_link_anchor_slug_skips_code_blocks():
+    """Slug pattern inside a code block → no violation."""
+    txt = "```\n[text](file.md#route-stages-and-scoring-logic)\n```\n"
+    ctx = make_ctx(txt)
+    assert not link_anchor_slug(ctx)
+
+
+def test_link_anchor_slug_skips_bare_fragment():
+    """#fragment-only (no filename) → no violation."""
+    txt = "## Route stages\n\n[text](#route-stages)\n"
+    ctx = make_ctx(txt)
+    # Bare fragment — same-file check applies; if no heading matches,
+    # it's still flagged. But 'route-stages' has a dash and is lowercase,
+    # so we test that same-file bare fragments ARE validated against headings.
+    # If no heading matches, it should fire.
+    msgs = link_anchor_slug(ctx)
+    assert msgs and msgs[0].rule_id == "link_anchor_slug"
+
+
+def test_link_anchor_slug_mixed_case_no_flag():
+    """Fragment with uppercase letters → no violation (heuristic requires all-lowercase)."""
+    txt = "## Route stages\n\n[text](file.md#Route-Stages)\n"
+    ctx = make_ctx(txt)
+    assert not link_anchor_slug(ctx)

@@ -2383,7 +2383,7 @@ def link_anchor_slug(ctx: ValidationContext) -> list[ValidationMessage]:
             anchor = h["text"].casefold().replace(" ", "%20").replace(":", "")
             _expected.add(f"#{anchor}")
 
-    for m in re.finditer(r"\[[^\]]+\]\([^\)]+\)", text):
+    for m in re.finditer(r"\[[^\]]+\]\(([^\)]+)\)", text):
         if _is_inside_code_block(m.start(), text, ast):
             continue
         target = m.group(1)
