@@ -99,11 +99,16 @@ Break at commas, semicolons, conjunctions (`and`, `but`, `so`, `because`), relat
 
 ### Common mistakes
 
-1. __Missing hint words.__ Every cloze must have at least one visible word outside it. A cloze that starts at the beginning of a sentence without a lead-in phrase is wrong — add a hint like "The advantage is" before it. Hint words are at least 1 word, typically 1–3 words, but can be longer phrases (e.g., "The node voltage is", "Solution:"). There is no upper limit on hint length.
+1. __Missing hint words.__ Every cloze must have at least one visible word outside it. A cloze that starts at the beginning of a sentence without a lead-in phrase is wrong — add a hint like "The advantage is" before it. Hint words are at least 1 word, typically 1–3 words, but can be longer phrases (e.g., "The node voltage is", "Solution:"). There is no upper limit on hint length. The validator now catches cloze clauses with no visible hint words.
 2. __Contrast merged into one cloze.__ Contrast items (A vs B) must be separate clozes — never `{@{X is good, whereas Y is bad}@}`.
 3. __Over-splitting.__ Do not split at every comma. Related items within one reasoning step stay in one cloze.
 4. __Prose+equation merge.__ Never put both prose description and equation in one cloze (e.g., `{@{Ohm's law, $V=IR$}@}`). Split into `{@{Ohm's law}@} is {@{$V=IR$}@}` so the concept name stays visible as a recall hint.
 5. __Under-clozing solution steps.__ In multi-step solutions, every intermediate equation and every conclusion must be clozed. Leaving an equation or conclusion visible between clozes means the solver sees the answer instead of recalling it. Each step gets its own cloze; only linking words (`so`, `hence`, `therefore`) stay visible between clozes.
+6. __Articles left outside cloze.__ Articles (`the`, `a`, `an`) are determiners that belong to the noun phrase inside the cloze. `the {@{device}@}` means the article is a hint but the user likely intended to test recall of "the device" as a unit. Move the article inside: `{@{the device}@}` with surrounding hint text produces better recall. The validator warns when an article immediately precedes a cloze opening.
+7. __Trailing copula/auxiliary verb.__ Verbs like `is`, `are`, `was`, `were`, `be`, `been`, `being`, `has`, `have`, `had` before a cloze opening usually signal that the verb itself should be inside the cloze for better recall. `is {@{5V}@}` is less useful than `{@{is 5V}@}`. The validator warns when a copula/auxiliary verb sits immediately before a cloze.
+8. __Wrong cloze token variants.__ Cloze tokens must be exactly `{@{` and `}@}`. Common typos include `@{` (missing opening brace), `@}` (missing closing brace), `{@}` (wrong structure), and reversed `}@`. The validator detects these malformed tokens and reports them.
+9. __Insufficient coverage.__ Each paragraph with cloze flashcards should have at least 80% of visible characters inside cloze bodies. Coverage below 80% means too much content is left visible for effective recall. The validator warns when coverage falls below this threshold.
+10. __Excessive coverage.__ When coverage exceeds 98%, almost everything is hidden and there are too few hint words visible. Leave at least some context words outside clozes so the reader knows what they're recalling. The validator warns when coverage exceeds this threshold.
 
 ### Step 3: Shrink to leave hint words
 
