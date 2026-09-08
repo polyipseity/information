@@ -911,6 +911,9 @@ Additional rules:
 - When linking to `general/`, prefer the canonical article title and the correct
   relative path, but do not create or edit the `general/` file automatically.
 - Use the Wikipedia helper only to discover canonical titles.
+- Anchor fragments must use `%20` for spaces, never dash-slugification
+  (e.g., `#section%20name` not `#section-name`). The `link_anchor_slug`
+  validator rule enforces this.
 
 ## Validator and tooling
 
@@ -942,6 +945,8 @@ Rules of thumb:
   `cloze_wrong_closing_token`, `cloze_single_line`, and `cloze_no_nested`.
 - Common math-layout rules include `latex_block_no_newline`,
   `latex_not_standalone`, and `no_soft_wrap_paragraph`.
+- Common link rules include `link_unencoded_space` and
+  `link_anchor_slug` (catches dash-slugified anchor fragments).
 
 ### Developer tooling and tests
 
