@@ -350,6 +350,7 @@ class TableConverter:
             return [cells[i] if i < len(cells) else "" for i in indices]
 
         def _fmt(cells: list[str]) -> str:
+            """Format a list of cell values as a pipe-table row."""
             return f"> | {' | '.join(c if c else ' ' for c in cells)} |"
 
         # Build linear table (columns at _NAVBOX_LINEAR_INDICES).

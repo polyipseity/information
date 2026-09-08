@@ -17,12 +17,14 @@ class TestResolvePlainRewrite:
     """Tests for _resolve_plain_rewrite."""
 
     def test_name_map_hit(self) -> None:
+        """Resolve an entry present in the name map."""
         names_map = {"modern physics": "Modern physics"}
         assert _resolve_plain_rewrite("modern physics", names_map=names_map) == (
             "Modern physics"
         )
 
     def test_lowercase_fallback(self) -> None:
+        """Fall back to case-insensitive match when exact key is missing."""
         names_map = {
             "Fourier transform": "Fourier transform",
             "fourier transform": "Fourier transform",
@@ -32,6 +34,7 @@ class TestResolvePlainRewrite:
         )
 
     def test_migrations_on_top(self) -> None:
+        """Migration overrides the name-map result."""
         names_map = {"modern physics": "modern physics"}
         migrations = {"modern physics": "Modern physics"}
         assert (
@@ -42,6 +45,7 @@ class TestResolvePlainRewrite:
         )
 
     def test_replace_underscores_flag(self) -> None:
+        """Underscore replacement when the flag is enabled."""
         names_map = {
             "legendre transformation on manifolds": "Legendre transformation on manifolds"
         }
@@ -55,6 +59,7 @@ class TestResolvePlainRewrite:
         )
 
     def test_no_migrations_returns_name_map_result(self) -> None:
+        """Passing migrations=None still returns the name-map result."""
         names_map = {"modern physics": "Modern physics"}
         assert (
             _resolve_plain_rewrite(
@@ -68,22 +73,26 @@ class TestRewritePlainSpan:
     """Tests for _rewrite_plain_span and_align_plain_to_raw."""
 
     def test_markup_free_fast_path(self) -> None:
+        """Plain text with no markup returns the new string directly."""
         assert _rewrite_plain_span(
             "Modern physics", "Modern physics", "Modern physics"
         ) == ("Modern physics")
 
     def test_plain_equals_raw_returns_new(self) -> None:
+        """When plain equals raw, return the rewritten string."""
         assert _rewrite_plain_span(
             "modern physics", "modern physics", "Modern physics"
         ) == ("Modern physics")
 
     def test_emphasis_stripped_raw(self) -> None:
+        """Markup-stripped plain differs from raw; alignment is used."""
         raw = "modern _physics_"
         assert _rewrite_plain_span(raw, "modern physics", "Modern physics") == (
             "Modern _physics_"
         )
 
     def test_escaped_parens_raw(self) -> None:
+        """Escaped parentheses in raw text are preserved."""
         raw = r"Phase space coordinates \(_p_, _q_\) and Hamiltonian _H_"
         plain = "Phase space coordinates (p, q) and Hamiltonian H"
         new = "phase space coordinates (p, q) and Hamiltonian H"
@@ -92,21 +101,25 @@ class TestRewritePlainSpan:
         )
 
     def test_markup_after_plain(self) -> None:
+        """Markup trailing the plain span is preserved."""
         raw = "modern physics _and more_"
         assert _rewrite_plain_span(
             raw, "modern physics and more", "Modern physics and more"
         ) == ("Modern physics _and more_")
 
     def test_insert_spanning_markup(self) -> None:
+        """Inserted text spans across existing markup."""
         raw = "modern _physics_"
         assert _rewrite_plain_span(raw, "modern physics", "modern applied physics") == (
             "modern applied _physics_"
         )
 
     def test_alignment_failure_returns_raw(self) -> None:
+        """Alignment failure returns the original raw string."""
         assert _rewrite_plain_span("abc", "xyz", "xyz") == "abc"
 
     def test_align_helper_subsequence(self) -> None:
+        """Subsequence alignment maps plain chars to raw indices."""
         assert _align_plain_to_raw("a_b_c", "abc") == [0, 2, 4]
 
 
