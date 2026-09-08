@@ -17,6 +17,10 @@ from check_mods.rules import (
     assignment_index_heading,
     assignment_index_metadata,
     assignment_index_sections,
+    cloze_article_before,
+    cloze_excessive_coverage,
+    cloze_insufficient_coverage,
+    cloze_no_hint_words,
     cloze_no_nested,
     cloze_open_close_matching,
     cloze_single_line,
@@ -1311,9 +1315,206 @@ def test_cloze_wrong_token_rule():
     )
     assert not cloze_wrong_token(good)
 
+
+def test_cloze_insufficient_coverage_rule():
+    """Cloze coverage should be flagged when below 80%."""
+
+    # Paragraph with ~50% coverage — insufficient warning
+    bad = make_ctx(
+        "---\ntags: [flashcard/active/special/academia/test]\n---\nText {@{half covered}@} here and more text here.\n"
+    )
+    msgs = cloze_insufficient_coverage(bad)
+    assert msgs and any(
+        "cloze coverage is" in m.msg and "target is ≥80%" in m.msg for m in msgs
+    )
+
+    # Paragraph with ~90% coverage — no warning
+    good = make_ctx(
+        "---\ntags: [flashcard/active/special/academia/test]\n---\nA {@{very long cloze that covers most of the paragraph text here and extends quite a bit}@} short.\n"
+    )
+    assert not cloze_insufficient_coverage(good)
+
+    # Paragraph with no clozes — no warnings
+    no_cloze = make_ctx(
+        "---\ntags: [flashcard/active/special/academia/test]\n---\nText without any cloze tokens here.\n"
+    )
+    assert not cloze_insufficient_coverage(no_cloze)
+
+    # Very short paragraph (< 5 visible chars) — no warnings
+    short = make_ctx(
+        "---\ntags: [flashcard/active/special/academia/test]\n---\n{@{x}@}\n"
+    )
+    assert not cloze_insufficient_coverage(short)
+
+    # No flashcard tag — rule should not fire
+    no_tag = make_ctx(
+        "---\ntags: []\n---\nText {@{half covered}@} here and more text here.\n"
+    )
+    assert not cloze_insufficient_coverage(no_tag)
+
+
+def test_cloze_excessive_coverage_rule():
+    """Cloze coverage should be flagged when above 98%."""
+
+    # Paragraph with ~99% coverage — excessive warning
+    bad = make_ctx(
+        "---\ntags: [flashcard/active/special/academia/test]\n---\n{@{almost everything is hidden in this very long cloze that covers nearly all of the paragraph text}@}.\n"
+    )
+    msgs = cloze_excessive_coverage(bad)
+    assert msgs and any(
+        "cloze coverage is" in m.msg and "almost everything is hidden" in m.msg
+        for m in msgs
+    )
+
+    # Paragraph with ~90% coverage — no warning
+    good = make_ctx(
+        "---\ntags: [flashcard/active/special/academia/test]\n---\nA {@{very long cloze that covers most of the paragraph text here}@} only a bit outside.\n"
+    )
+    assert not cloze_excessive_coverage(good)
+
+    # Paragraph with no clozes — no warnings
+    no_cloze = make_ctx(
+        "---\ntags: [flashcard/active/special/academia/test]\n---\nText without any cloze tokens here.\n"
+    )
+    assert not cloze_excessive_coverage(no_cloze)
+
+    # Very short paragraph (< 5 visible chars) — no warnings
+    short = make_ctx(
+        "---\ntags: [flashcard/active/special/academia/test]\n---\n{@{x}@}\n"
+    )
+    assert not cloze_excessive_coverage(short)
+
+    # Paragraph with only equation clozes — coverage computed correctly
+    eq_cloze = make_ctx(
+        "---\ntags: [flashcard/active/special/academia/test]\n---\n{@{$x^2 + y^2 = z^2$}@} and some text outside.\n"
+    )
+    # This should have reasonable coverage, not excessive
+    assert not cloze_excessive_coverage(eq_cloze)
+
+    # No flashcard tag — rule should not fire
+    no_tag = make_ctx("---\ntags: []\n---\n{@{almost everything is hidden}@}.\n")
+    assert not cloze_excessive_coverage(no_tag)
+
     # No flashcard tag — rule should not fire
     no_tag = make_ctx("---\ntags: []\n---\nText {@ text@} here.\n")
     assert not cloze_wrong_token(no_tag)
+
+
+def test_cloze_no_hint_words_rule():
+    """Cloze flashcard clauses without hint words should be warned."""
+
+    # Clause with cloze but no hint words — warning
+    bad = make_ctx(
+        "---\ntags: [flashcard/active/special/academia/test]\n---\n"
+        "... {@{Each midpoint therefore sits at $8\\text{ V}$, so the bridge "
+        "resistor has zero voltage across it and carries no current}@}. ...\n"
+    )
+    msgs = cloze_no_hint_words(bad)
+    assert msgs and any("no visible hint words" in m.msg for m in msgs)
+
+    # Entire sentence clozed with no surrounding text — warning
+    bad = make_ctx(
+        "---\ntags: [flashcard/active/special/academia/test]\n---\n"
+        "{@{entire sentence clozed}@}\n"
+    )
+    msgs = cloze_no_hint_words(bad)
+    assert msgs and any("no visible hint words" in m.msg for m in msgs)
+
+    # Cloze with hint words outside — no warning
+    good = make_ctx(
+        "---\ntags: [flashcard/active/special/academia/test]\n---\n"
+        "The {@{transistor is not in saturation@}} because ...\n"
+    )
+    assert not cloze_no_hint_words(good)
+
+    # Equation-only cloze with prose outside — no warning
+    good = make_ctx(
+        "---\ntags: [flashcard/active/special/academia/test]\n---\n"
+        "Ohm's law: {@{$I=\\frac{V}{R}$}@} relates current, voltage, and resistance.\n"
+    )
+    assert not cloze_no_hint_words(good)
+
+    # Cloze with hint words before and after — no warning
+    good = make_ctx(
+        "---\ntags: [flashcard/active/special/academia/test]\n---\n"
+        "In the {@{RC}@} circuit, the time constant is RC.\n"
+    )
+    assert not cloze_no_hint_words(good)
+
+    # Comma does not split clauses — hint word in same clause
+    good = make_ctx(
+        "---\ntags: [flashcard/active/special/academia/test]\n---\n"
+        "Since V=IR, {@{the voltage across R is 5V@}}.\n"
+    )
+    assert not cloze_no_hint_words(good)
+
+    # No flashcard tag — rule should not fire
+    no_tag = make_ctx("---\ntags: []\n---\nText {@{cloze}@} here.\n")
+    assert not cloze_no_hint_words(no_tag)
+
+
+def test_cloze_article_before_rule():
+    """Articles before cloze openings should be warned."""
+
+    # "the" before cloze — warning
+    bad = make_ctx(
+        "---\ntags: [flashcard/active/special/academia/test]\n---\nThe {@{device}@} is active.\n"
+    )
+    msgs = cloze_article_before(bad)
+    assert msgs and any(
+        "article" in m.msg.lower() and "the" in m.msg.lower() for m in msgs
+    )
+
+    # "a" before cloze — warning
+    bad = make_ctx(
+        "---\ntags: [flashcard/active/special/academia/test]\n---\nA {@{transistor}@} amplifies.\n"
+    )
+    msgs = cloze_article_before(bad)
+    assert msgs and any("article 'A'" in m.msg for m in msgs)
+
+    # "an" before cloze — warning
+    bad = make_ctx(
+        "---\ntags: [flashcard/active/special/academia/test]\n---\nan {@{electron}@} orbits.\n"
+    )
+    msgs = cloze_article_before(bad)
+    assert msgs and any("article 'an'" in m.msg for m in msgs)
+
+    # Case-insensitive: "The" before cloze — warning
+    bad = make_ctx(
+        "---\ntags: [flashcard/active/special/academia/test]\n---\nThe {@{RC}@} circuit.\n"
+    )
+    msgs = cloze_article_before(bad)
+    assert msgs and any("article 'The'" in m.msg for m in msgs)
+
+    # "the" before cloze in mid-sentence — warning
+    bad = make_ctx(
+        "---\ntags: [flashcard/active/special/academia/test]\n---\nIn the {@{RC}@} circuit, current flows.\n"
+    )
+    msgs = cloze_article_before(bad)
+    assert msgs and any("article 'the'" in m.msg for m in msgs)
+
+    # "the" before cloze for Thevenin — warning
+    bad = make_ctx(
+        "---\ntags: [flashcard/active/special/academia/test]\n---\nUse the {@{Thevenin}@} equivalent.\n"
+    )
+    msgs = cloze_article_before(bad)
+    assert msgs and any("article 'the'" in m.msg for m in msgs)
+
+    # No article — no warning
+    good = make_ctx(
+        "---\ntags: [flashcard/active/special/academia/test]\n---\nConsider {@{Thevenin}@} equivalent.\n"
+    )
+    assert not cloze_article_before(good)
+
+    # Cloze at start of line — no preceding word, no warning
+    good = make_ctx(
+        "---\ntags: [flashcard/active/special/academia/test]\n---\n{@{The device}@} is active.\n"
+    )
+    assert not cloze_article_before(good)
+
+    # No flashcard tag — rule should not fire
+    no_tag = make_ctx("---\ntags: []\n---\nThe {@{device}@} is active.\n")
+    assert not cloze_article_before(no_tag)
 
 
 def test_no_smart_double_quotes_rule():

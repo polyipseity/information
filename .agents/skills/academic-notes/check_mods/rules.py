@@ -31,6 +31,7 @@ from .models import Severity, ValidationContext, ValidationMessage
 from .registry import RuleRegistry
 from .utils import (
     FRONT_RE,
+    _segment_paragraphs,
     ast_headings,
     filter_ast,
     has_flash_tag,
@@ -3195,6 +3196,327 @@ def cloze_wrong_token(ctx: ValidationContext) -> list[ValidationMessage]:
                 col_end=col_end,
             )
         )
+
+    return errors
+
+
+def _compute_cloze_coverage(paragraph_text: str) -> float | None:
+    """Compute cloze coverage for a paragraph.
+
+    Returns None if paragraph has no cloze flashcards or is too short.
+    Coverage = (characters inside cloze bodies) / (total visible characters).
+    """
+    _, spans, _, _, _ = _scan_cloze_tokens(paragraph_text)
+    if not spans:
+        return None
+
+    # Count characters inside cloze bodies
+    cloze_chars = 0
+    for start, end in spans:
+        # Start is after {@{, end is before }@}
+        # The cloze body is from start+3 to end (exclusive)
+        cloze_body = paragraph_text[start + 3 : end]
+        cloze_chars += len(cloze_body)
+
+    # Count non-cloze text (text outside cloze delimiters)
+    non_cloze_chars = 0
+    pos = 0
+    for start, end in spans:
+        # Count non-whitespace chars before this cloze
+        for ch in paragraph_text[pos:start]:
+            if not ch.isspace():
+                non_cloze_chars += 1
+        pos = end + 3  # Skip past }@}
+    # Count non-whitespace chars after last cloze
+    for ch in paragraph_text[pos:]:
+        if not ch.isspace():
+            non_cloze_chars += 1
+
+    # Total visible characters = cloze chars + non-cloze chars
+    total_visible = cloze_chars + non_cloze_chars
+
+    # Too short to evaluate
+    if total_visible < 5:
+        return None
+
+    # Coverage = cloze chars / total visible chars
+    if total_visible == 0:
+        return None
+    return cloze_chars / total_visible
+
+
+@RULE_REGISTRY.register()
+def cloze_insufficient_coverage(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Warn when cloze coverage is below 80% in a paragraph."""
+    errors: list[ValidationMessage] = []
+    if not has_flash_tag(ctx.front):
+        return errors
+
+    # Segment body text (after frontmatter) into paragraphs
+
+    fm = FRONT_RE.match(ctx.text)
+    body_start = fm.end() if fm else 0
+    body = ctx.text[body_start:]
+    paragraphs = _segment_paragraphs(body)
+
+    for para_text, para_start, para_end in paragraphs:
+        coverage = _compute_cloze_coverage(para_text)
+        if coverage is not None and coverage < 0.80:
+            # Find the line number for the start of this paragraph
+            line_no, col_no = locate(ctx.text, body_start + para_start)
+            errors.append(
+                ValidationMessage(
+                    rule_id="cloze_insufficient_coverage",
+                    msg=f"cloze coverage is {coverage:.0%} in this paragraph; target is ≥80%",
+                    line=line_no,
+                    col=col_no,
+                )
+            )
+
+    return errors
+
+
+@RULE_REGISTRY.register()
+def cloze_excessive_coverage(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Warn when cloze coverage is above 98% in a paragraph."""
+    errors: list[ValidationMessage] = []
+    if not has_flash_tag(ctx.front):
+        return errors
+
+    # Segment body text (after frontmatter) into paragraphs
+
+    fm = FRONT_RE.match(ctx.text)
+    body_start = fm.end() if fm else 0
+    body = ctx.text[body_start:]
+    paragraphs = _segment_paragraphs(body)
+
+    for para_text, para_start, para_end in paragraphs:
+        coverage = _compute_cloze_coverage(para_text)
+        if coverage is not None and coverage > 0.98:
+            # Find the line number for the start of this paragraph
+            line_no, col_no = locate(ctx.text, body_start + para_start)
+            errors.append(
+                ValidationMessage(
+                    rule_id="cloze_excessive_coverage",
+                    msg=f"cloze coverage is {coverage:.0%} in this paragraph; almost everything is hidden — leave at least some hint words visible",
+                    line=line_no,
+                    col=col_no,
+                )
+            )
+
+    return errors
+
+
+@RULE_REGISTRY.register()
+def cloze_no_hint_words(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Warn when a cloze flashcard clause has no hint words visible.
+
+    A clause is delimited by `.`, `;`, `!`, `?` (commas do NOT split).
+    For each clause containing at least one cloze, strip the cloze delimiters
+    to get visible text.  A "hint word" is 1+ alphabetic characters in
+    visible text outside cloze bodies.  If no hint word is found, emit
+    a warning.  Skip clozes that contain only LaTeX math (equation-only
+    clozes are acceptable).
+    """
+    errors: list[ValidationMessage] = []
+    if not has_flash_tag(ctx.front):
+        return errors
+
+    # Split text into lines and process each line
+    for line_idx, line in enumerate(ctx.text.splitlines(), start=1):
+        # Find all cloze spans in this line
+        _, spans, _, _, _ = _scan_cloze_tokens(line)
+        if not spans:
+            continue
+
+        # Split line into clauses by sentence delimiters (not commas)
+        # We need to track positions relative to the original line
+        clauses: list[tuple[str, int, int]] = []  # (clause_text, start, end)
+        clause_start = 0
+        for i, ch in enumerate(line):
+            if ch in ".;!?":
+                clause = line[clause_start : i + 1]
+                clauses.append((clause, clause_start, i + 1))
+                clause_start = i + 1
+        # Add the last clause if any
+        if clause_start < len(line):
+            clause = line[clause_start:]
+            clauses.append((clause, clause_start, len(line)))
+
+        # Check each clause for cloze flashcards
+        for clause_text, clause_start_off, clause_end_off in clauses:
+            # Find cloze spans within this clause
+            clause_spans = []
+            for span_start, span_end in spans:
+                # Check if cloze overlaps with this clause
+                if span_start < clause_end_off and span_end > clause_start_off:
+                    # Adjust spans to clause-relative positions
+                    rel_start = max(0, span_start - clause_start_off)
+                    rel_end = min(len(clause_text), span_end - clause_start_off)
+                    clause_spans.append((rel_start, rel_end))
+
+            if not clause_spans:
+                continue
+
+            # Build visible text: text outside cloze bodies
+            visible_parts: list[str] = []
+            pos = 0
+            for span_start, span_end in clause_spans:
+                # Add text before this cloze
+                visible_parts.append(clause_text[pos:span_start])
+                pos = span_end
+            # Add text after last cloze
+            visible_parts.append(clause_text[pos:])
+            visible_text = "".join(visible_parts)
+
+            # Strip cloze delimiters from visible text (they were already excluded)
+            # Now check if there's a hint word (1+ alphabetic characters)
+            has_hint_word = bool(re.search(r"[a-zA-Z]", visible_text))
+
+            if not has_hint_word:
+                # Check if all clozes in this clause are equation-only (contain LaTeX math)
+                all_equation_only = True
+                for span_start, span_end in clause_spans:
+                    # Extract cloze body (between {@{ and }@})
+                    # spans are (open_index, close_index) where open is position of {@{}
+                    # and close is position of }@}
+                    cloze_body = line[span_start + 3 : span_end]
+                    # Check if cloze body contains only LaTeX math
+                    # Strip whitespace and check if it's all math delimiters/content
+                    stripped = cloze_body.strip()
+                    if stripped and not re.match(
+                        r"^\$.*\$$|^\$\$.*\$\$$", stripped, re.DOTALL
+                    ):
+                        all_equation_only = False
+                        break
+
+                if not all_equation_only:
+                    # Report error at the first cloze in this clause
+                    first_span = clause_spans[0]
+                    abs_pos = clause_start_off + first_span[0]
+                    line_no, col_no = locate(ctx.text, abs_pos)
+                    errors.append(
+                        ValidationMessage(
+                            rule_id="cloze_no_hint_words",
+                            msg="cloze flashcard clause has no visible hint words",
+                            severity=Severity.WARNING,
+                            line=line_no,
+                            col=col_no,
+                        )
+                    )
+
+    return errors
+
+
+@RULE_REGISTRY.register()
+def cloze_article_before(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Warn when an English article sits immediately before a cloze opening.
+
+    Articles (``the``, ``a``, ``an``) are determiners that belong to the
+    noun phrase inside the cloze.  ``the {@{device}@}`` means the article
+    is a hint but the user likely intended to test recall of "the device"
+    as a unit.  Moving the article inside (``{@{the device}@}`` with
+    surrounding hint text) produces better recall.
+    """
+    errors: list[ValidationMessage] = []
+    if not has_flash_tag(ctx.front):
+        return errors
+
+    articles = {"the", "a", "an"}
+    text = ctx.text
+
+    for m in re.finditer(r"\{@\{", text):
+        open_idx = m.start()
+        # find the word immediately before the opening delimiter
+        # walk backwards over non-space characters, then over spaces
+        j = open_idx - 1
+        # skip whitespace between word and {@{
+        while j >= 0 and text[j].isspace():
+            j -= 1
+        if j < 0:
+            continue
+        # find start of the preceding word
+        word_end = j + 1
+        while j >= 0 and not text[j].isspace():
+            j -= 1
+        word_start = j + 1
+        preceding_word = text[word_start:word_end]
+        if preceding_word.casefold() in articles:
+            line_no, col_no, col_end = locate_range(
+                text, word_start, word_end - word_start
+            )
+            errors.append(
+                ValidationMessage(
+                    rule_id="cloze_article_before",
+                    msg=f"article '{preceding_word}' immediately before cloze; move it inside the cloze",
+                    line=line_no,
+                    col=col_no,
+                    col_end=col_end,
+                    severity=Severity.WARNING,
+                )
+            )
+
+    return errors
+
+
+@RULE_REGISTRY.register()
+def cloze_trailing_verb(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Warn when a copula or auxiliary verb sits immediately before a cloze.
+
+    Verbs like ``is``, ``are``, ``was``, ``were``, ``be``, ``been``, ``being``,
+    ``has``, ``have``, ``had`` before a cloze opening usually signal that the
+    verb itself should be inside the cloze for better recall.  ``is {@{5V}@}``
+    is less useful than ``{@{is 5V}@}``.
+    """
+    errors: list[ValidationMessage] = []
+    if not has_flash_tag(ctx.front):
+        return errors
+
+    copula_verbs = {
+        "is",
+        "are",
+        "was",
+        "were",
+        "be",
+        "been",
+        "being",
+        "has",
+        "have",
+        "had",
+    }
+    text = ctx.text
+
+    for m in re.finditer(r"\{@\{", text):
+        open_idx = m.start()
+        # find the word immediately before the opening delimiter
+        j = open_idx - 1
+        # skip whitespace between word and {@{
+        while j >= 0 and text[j].isspace():
+            j -= 1
+        if j < 0:
+            continue
+        # find start of the preceding word
+        word_end = j + 1
+        while j >= 0 and not text[j].isspace():
+            j -= 1
+        word_start = j + 1
+        preceding_word = text[word_start:word_end]
+        # normalize: lowercase and strip trailing punctuation
+        normalized = preceding_word.casefold().rstrip(".,;:!?")
+        if normalized in copula_verbs:
+            line_no, col_no, col_end = locate_range(
+                text, word_start, word_end - word_start
+            )
+            errors.append(
+                ValidationMessage(
+                    rule_id="cloze_trailing_verb",
+                    msg=f"copula/auxiliary verb '{preceding_word}' immediately before cloze; consider moving it inside",
+                    line=line_no,
+                    col=col_no,
+                    col_end=col_end,
+                    severity=Severity.WARNING,
+                )
+            )
 
     return errors
 
