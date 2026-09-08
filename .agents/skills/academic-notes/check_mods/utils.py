@@ -432,3 +432,75 @@ def html_cpt(text: str) -> str:
     function avoids that tool artifact.
     """
     return "<!-- " + text + " -->"
+
+
+def _segment_paragraphs(text: str) -> list[tuple[str, int, int]]:
+    """Segment *text* into paragraphs with blockquote stripping.
+
+    Returns a list of ``(stripped_text, start_offset, end_offset)`` tuples
+    where ``start_offset`` and ``end_offset`` are byte offsets into the
+    original ``text``.  A paragraph is a maximal run of consecutive
+    non-blank lines (blank lines = ``\n\n`` boundaries).  Leading
+    ``> `` / ``> > `` / etc. blockquote prefixes are stripped from each
+    line when building ``stripped_text``.
+
+    Empty paragraphs (consecutive blank lines) produce no entries.
+    """
+    result: list[tuple[str, int, int]] = []
+    if not text:
+        return result
+
+    # Split on blank lines (\n\n boundaries).
+    # We need to track byte offsets, so work with the raw string.
+    paragraphs: list[tuple[int, int]] = []  # (start, end) byte offsets
+    start = 0
+    i = 0
+    n = len(text)
+    last_added_end = -1  # track end of last added paragraph
+    while i < n:
+        # Find next blank line (\n\n)
+        nl = text.find("\n", i)
+        if nl == -1:
+            # Rest of text is one paragraph
+            paragraphs.append((start, n))
+            last_added_end = n
+            break
+        # Check if next line is also blank
+        if nl + 1 < n and text[nl + 1] == "\n":
+            # Found blank line; paragraph ends before the blank
+            if start < nl:  # non-empty paragraph
+                paragraphs.append((start, nl))
+                last_added_end = nl
+            # Skip blank lines
+            i = nl + 2
+            while i < n and text[i] == "\n":
+                i += 1
+            start = i
+        else:
+            i = nl + 1
+
+    # Handle last paragraph if text doesn't end with blank line
+    # and we haven't already added it
+    if start < n and last_added_end != n:
+        paragraphs.append((start, n))
+
+    # Process each paragraph: strip blockquote prefixes
+    blockquote_re = re.compile(r"^(?:\s*>\s*)+")
+    for para_start, para_end in paragraphs:
+        raw_para = text[para_start:para_end]
+        lines = raw_para.splitlines(keepends=True)
+        stripped_lines: list[str] = []
+        for line in lines:
+            # Remove trailing newline for processing
+            content = line.rstrip("\n")
+            m = blockquote_re.match(content)
+            if m:
+                # Strip the blockquote prefix
+                stripped = content[m.end() :]
+            else:
+                stripped = content
+            stripped_lines.append(stripped)
+        stripped_text = "\n".join(stripped_lines)
+        result.append((stripped_text, para_start, para_end))
+
+    return result

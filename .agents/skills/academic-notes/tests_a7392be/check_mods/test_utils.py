@@ -8,6 +8,7 @@ from os import PathLike
 import pytest
 from anyio import Path
 from check_mods.utils import (
+    _segment_paragraphs,
     ast_collect_text,
     ast_headings,
     ast_sections,
@@ -338,3 +339,85 @@ class TestAstSections:
         assert len(sects[0]["children"]) == 1
         assert sects[0]["children"][0] == ast[0]
         assert len(sects[1]["children"]) == 1
+
+
+# paragraph segmentation tests -------------------------------------------------
+
+
+class TestSegmentParagraphs:
+    """Exercises for _segment_paragraphs()."""
+
+    def test_empty_text(self):
+        """Verify _segment_paragraphs returns empty list for empty input."""
+        assert _segment_paragraphs("") == []
+
+    def test_single_paragraph(self):
+        """Verify _segment_paragraphs handles a single paragraph."""
+        text = "hello world"
+        result = _segment_paragraphs(text)
+        assert len(result) == 1
+        stripped, start, end = result[0]
+        assert stripped == "hello world"
+        assert start == 0
+        assert end == len(text)
+
+    def test_multiple_paragraphs(self):
+        """Verify _segment_paragraphs splits on blank lines."""
+        text = "first paragraph\n\nsecond paragraph"
+        result = _segment_paragraphs(text)
+        assert len(result) == 2
+        assert result[0][0] == "first paragraph"
+        assert result[1][0] == "second paragraph"
+
+    def test_blockquote_paragraph(self):
+        """Verify _segment_paragraphs strips blockquote prefixes."""
+        text = "> quoted text"
+        result = _segment_paragraphs(text)
+        assert len(result) == 1
+        assert result[0][0] == "quoted text"
+
+    def test_nested_blockquote(self):
+        """Verify _segment_paragraphs strips nested blockquote prefixes."""
+        text = "> > deeply quoted"
+        result = _segment_paragraphs(text)
+        assert len(result) == 1
+        assert result[0][0] == "deeply quoted"
+
+    def test_mixed_content(self):
+        """Verify _segment_paragraphs handles mixed paragraphs and blockquotes."""
+        text = "plain text\n\n> quoted text\n\nmore plain"
+        result = _segment_paragraphs(text)
+        assert len(result) == 3
+        assert result[0][0] == "plain text"
+        assert result[1][0] == "quoted text"
+        assert result[2][0] == "more plain"
+
+    def test_consecutive_blank_lines(self):
+        """Verify _segment_paragraphs handles consecutive blank lines."""
+        text = "first\n\n\n\nsecond"
+        result = _segment_paragraphs(text)
+        assert len(result) == 2
+        assert result[0][0] == "first"
+        assert result[1][0] == "second"
+
+    def test_paragraph_with_multiple_lines(self):
+        """Verify _segment_paragraphs handles multi-line paragraphs."""
+        text = "line one\nline two\nline three\n\nnext paragraph"
+        result = _segment_paragraphs(text)
+        assert len(result) == 2
+        assert "line one" in result[0][0]
+        assert "line two" in result[0][0]
+        assert "line three" in result[0][0]
+        assert result[1][0] == "next paragraph"
+
+    def test_byte_offsets_correct(self):
+        """Verify byte offsets point to correct positions in original text."""
+        text = "aaa\n\nbbb"
+        result = _segment_paragraphs(text)
+        assert len(result) == 2
+        # First paragraph: bytes 0-2 ("aaa")
+        assert result[0][1] == 0
+        assert result[0][2] == 3
+        # Second paragraph: bytes 5-7 ("bbb")
+        assert result[1][1] == 5
+        assert result[1][2] == 8
