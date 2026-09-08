@@ -10,7 +10,7 @@ tags:
 
 # binary modulation
 
-{@{The simplest analytical model}@}, often called the {@{__binary channel__ or __binary symmetric channel with additive white Gaussian noise__ (__AWGN__)}@}, reduces {@{the whole communication link to a black box}@} that accepts {@{binary input symbols at the transmitter and produces binary output symbols at the receiver}@}. {@{All intermediate physical-layer details}@} – {@{propagation, multipath, fading, etc.}@} – are {@{absorbed into this single stochastic channel model}@}.
+{@{The simplest analytical model}@}, often called {@{the __binary channel__ or __binary symmetric channel with additive white Gaussian noise__ (__AWGN__)}@}, reduces {@{the whole communication link to a black box}@} that accepts {@{binary input symbols at the transmitter and produces binary output symbols at the receiver}@}. {@{All intermediate physical-layer details}@} – {@{propagation, multipath, fading, etc.}@} – are {@{absorbed into this single stochastic channel model}@}.
 
 {@{The binary channel}@} is the baseline against which {@{coding gains, diversity techniques, or more complex modulation schemes}@} are measured.  In practice, {@{real systems}@} {@{deviate from this idealization}@} due to {@{multipath fading, colored noise, timing errors and non-binary signalling}@}; nevertheless, it remains {@{a standard model in communication theory}@}.
 
@@ -92,7 +92,7 @@ These identities are useful when {@{numerical tables or software libraries}@} pr
 
 ## optimization
 
-For {@{a given modulation and noise model}@}, BER depends on the {@{receiver front–end filter $h(t)$ and on the decision threshold $\gamma$}@}. {@{Minimizing $P_{\text{e} }$}@} {@{proceeds in two stages}@}: {@{_fixed-filter optimization_}@} – for {@{a predetermined impulse response $h(t)$}@}, determine {@{the threshold $\gamma$ that gives the smallest BER}@}; and {@{_filter design optimization_}@} – search over {@{all admissible filters $h(t)$ \(an infinite–dimensional space\)}@} to find {@{the receiver that achieves the lowest possible BER}@}. Here we only consider {@{receivers modeled by a LTI system}@}; {@{non-linear receivers}@} can achieve {@{even lower BER}@}.
+For {@{a given modulation and noise model}@}, BER depends on {@{the receiver front–end filter $h(t)$ and on the decision threshold $\gamma$}@}. {@{Minimizing $P_{\text{e} }$}@} {@{proceeds in two stages}@}: {@{_fixed-filter optimization_}@} – for {@{a predetermined impulse response $h(t)$}@}, determine {@{the threshold $\gamma$ that gives the smallest BER}@}; and {@{_filter design optimization_}@} – search over {@{all admissible filters $h(t)$ \(an infinite–dimensional space\)}@} to find {@{the receiver that achieves the lowest possible BER}@}. Here we only consider {@{receivers modeled by a LTI system}@}; {@{non-linear receivers}@} can achieve {@{even lower BER}@}.
 
 Assuming {@{both bits are equiprobable}@} and {@{the optimal threshold is chosen \(middle\)}@}, we also seek to {@{minimize the energy of each bit}@} while {@{maintaining the error rate}@}.
 
@@ -114,15 +114,15 @@ In the _special case_ that {@{the noise is white noise}@}, {@{$S_{xx}(f) = N_0 /
 
 #### response of LTI system to WSS random signal
 
-Given a {@{zero-mean WSS random signal with power spectrum $S_{xx}(f)$ \(not necessary Gaussian\)}@}, {@{the response of a LTI system with impulse response $h(t)$}@} is also {@{a zero-mean WSS random signal}@}.
+Given {@{a zero-mean WSS random signal with power spectrum $S_{xx}(f)$ \(not necessary Gaussian\)}@}, {@{the response of a LTI system with impulse response $h(t)$}@} is also {@{a zero-mean WSS random signal}@}.
 
 We derived above that {@{$$\begin{aligned} \sigma_{n_T}^2 & = \int_{\mathbb R} h(\tau_1) \int_{\mathbb R} h(\tau_1 - \tau_2) r_{xx}(\tau_2) \,\mathrm d\tau_2 \,\mathrm d\tau_1 \,, \end{aligned}$$}@} which can be {@{derived more simply via Fourier transform}@} by noting {@{two convolutions}@}: {@{$$\begin{aligned} \sigma_{n_T}^2 & = \int_{\mathbb R} h(\tau_1) \int_{\mathbb R} h(\tau_1 - \tau_2) r_{xx}(\tau_2) \,\mathrm d\tau_2 \,\mathrm d\tau_1 \\ & = \int_{\mathbb R} h(\tau_1) (h * r_{xx})(\tau_1) \,\mathrm d\tau_1 \\ & = ((h(-t)) * (h * r_{xx}))(0) \\ & = \int_{-\infty}^\infty H^*(f) H(f) S_{xx}(f) e^{j 2 \pi f 0} \,\mathrm df \\ & = \int_{-\infty}^\infty \lvert H(f) \rvert^2 S_{xx}(f) \,\mathrm df \,. \end{aligned}$$}@} We assumed {@{$h(t)$ is real \(thus $\overline{h(t)} = h(t)$\)}@}. Thus {@{$$\boxed{\sigma_{n_T}^2 = \int_{-\infty}^\infty \lvert H(f) \rvert^2 S_{xx}(f) \,\mathrm df} \,.$$}@}
 
-We also prove that {@{the LTI response mean}@} is zero when {@{the WSS random signal has zero mean}@}: since {@{a WSS has constant mean $m$}@}, the {@{response mean is $m H(0)$}@}, which vanishes when {@{$m = 0$}@}.
+We also prove that {@{the LTI response mean}@} is zero when {@{the WSS random signal has zero mean}@}: since {@{a WSS has constant mean $m$}@}, {@{the response mean is $m H(0)$}@}, which vanishes when {@{$m = 0$}@}.
 
 ### matched filter
 
-For {@{equiprobable bits and white noise}@}, given {@{the input difference $g(t)$}@}, {@{the optimal filter}@} is {@{$$\boxed{h_{\text{opt} }(t) = \overline {g(-(t - T))} = g^*(T - t)} \,.$$}@} It is interpreted as {@{flipping $g(t)$ across $t = 0$}@}, shifting {@{it right by $T$}@}, and taking {@{its conjugate}@}. This is a {@{_matched filter_}@}.
+For {@{equiprobable bits and white noise}@}, given {@{the input difference $g(t)$}@}, {@{the optimal filter}@} is {@{$$\boxed{h_{\text{opt} }(t) = \overline {g(-(t - T))} = g^*(T - t)} \,.$$}@} It is interpreted as {@{flipping $g(t)$ across $t = 0$}@}, shifting {@{it right by $T$}@}, and taking {@{its conjugate}@}. This is {@{a _matched filter_}@}.
 
 When {@{$s_0(t), s_1(t)$ are readily available}@} but {@{$g(t) = s_1(t) - s_0(t)$ is not}@}, use {@{linearity of convolution}@}: create {@{a matched filter for each}@}: {@{$$h_0(t) := s_0^*(T - t) \qquad h_1(t) := s_1^*(T - t) \,,$$}@} then {@{subtract the outputs}@}. Mathematically {@{equivalent to the single-filter form}@}.
 

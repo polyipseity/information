@@ -38,17 +38,17 @@ tags:
 
 ### spreading in frequency domain
 
-In {@{the frequency domain}@} the {@{spreading operation}@} can be seen as a {@{convolution between the data spectrum and the PN‑code spectrum}@}.
+In {@{the frequency domain}@} {@{the spreading operation}@} can be seen as {@{a convolution between the data spectrum and the PN‑code spectrum}@}.
 
 {@{The spectrum of the _spread signal_}@} {@{occupies a band $W_s$}@} much {@{wider than the original narrowband carrier}@}. {@{A non‑spread BPSK signal}@} has {@{_passband_ bandwidth $W_{\text{non-spread} } = 1/t_b$}@}, while {@{the DSSS signal}@} has {@{_passband_ bandwidth $W_{\text{spread} } \approx 1/t_c$}@}.
 
 ## despreading
 
-{@{The receiver}@} performs the {@{inverse of the transmitter's spreading operation}@}. First it {@{multiplies the incoming signal $s(t)$ by the _known_ PN sequence $c(t)$}@}. Because {@{the sequence is bipolar, $$c(t)\,c(t)=1$$}@}, {@{the spread spectrum collapses to its underlying data waveform}@}: {@{$$s_{demod}(t)=c(t)\,s(t)\;\longrightarrow\; \text{data carrier}$$}@}
+{@{The receiver}@} performs {@{the inverse of the transmitter's spreading operation}@}. First it {@{multiplies the incoming signal $s(t)$ by the _known_ PN sequence $c(t)$}@}. Because {@{the sequence is bipolar, $$c(t)\,c(t)=1$$}@}, {@{the spread spectrum collapses to its underlying data waveform}@}: {@{$$s_{demod}(t)=c(t)\,s(t)\;\longrightarrow\; \text{data carrier}$$}@}
 
 After {@{despreading}@}, the signal is {@{demodulated normally (e.g., coherent BPSK detection)}@}. {@{The data modulation}@} {@{need not be BPSK; any scheme}@} works. Often {@{the same modulation format}@} is used {@{for both spreading and data to simplify hardware}@}. {@{The order of spreading and data modulation}@} can be {@{swapped}@}: both yield {@{the same transmitted waveform}@} because {@{multiplication is commutative}@}.
 
-To {@{recover the data reliably}@} a receiver must {@{know exactly which PN sequence was used for spreading}@}; and {@{align its local replica of $c(t)$}@} with the {@{received signal at the correct chip‑rate timing}@}. When these conditions hold, {@{despreading recovers the original data stream}@} with the {@{same spectral properties as an ordinary narrowband link}@}.
+To {@{recover the data reliably}@} a receiver must {@{know exactly which PN sequence was used for spreading}@}; and {@{align its local replica of $c(t)$}@} with {@{the received signal at the correct chip‑rate timing}@}. When these conditions hold, {@{despreading recovers the original data stream}@} with {@{the same spectral properties as an ordinary narrowband link}@}.
 
 ## advantages
 
@@ -58,21 +58,21 @@ To {@{recover the data reliably}@} a receiver must {@{know exactly which PN sequ
 - _Low probability of interception (LPI)_ ::@:: – an unintended receiver that does not know the PN sequence sees only noise, making detection difficult.
 - _No additional channel‑noise penalty_ ::@:: – the process preserves the signal‑to‑noise ratio of the underlying channel.
 
-If {@{no external interference exists}@}, the {@{bandwidth cost outweighs the benefit}@}. {@{Spreading}@} helps in two cases: {@{frequency‑selective fading}@} causing {@{inter‑symbol interference}@}, and {@{multi‑user interference in CDMA systems}@} where {@{many users share the same time/frequency resources}@}.
+If {@{no external interference exists}@}, {@{the bandwidth cost outweighs the benefit}@}. {@{Spreading}@} helps in two cases: {@{frequency‑selective fading}@} causing {@{inter‑symbol interference}@}, and {@{multi‑user interference in CDMA systems}@} where {@{many users share the same time/frequency resources}@}.
 
 ## DS-CDMA
 
-In {@{_DS-CDMA_ systems}@} each user is {@{assigned a unique PN code}@}. The {@{transmitted data}@} are {@{multiplied by that code before transmission}@}; at the receiver, {@{correlation with the same code}@} recovers {@{the data while simultaneously rejecting signals from other users}@}. This {@{code division multiple access}@} allows {@{many users to share the same frequency band}@}.
+In {@{_DS-CDMA_ systems}@} each user is {@{assigned a unique PN code}@}. {@{The transmitted data}@} are {@{multiplied by that code before transmission}@}; at the receiver, {@{correlation with the same code}@} recovers {@{the data while simultaneously rejecting signals from other users}@}. This {@{code division multiple access}@} allows {@{many users to share the same frequency band}@}.
 
-When {@{several users transmit simultaneously over the same time slot and bandwidth}@}, {@{their spectra completely overlap}@} and {@{conventional filtering}@} in {@{either the time or frequency domain}@} {@{cannot separate them}@}; {@{all user signals}@} look {@{indistinguishable at the front‑end}@}. Treating {@{unwanted signals as additive noise}@} yields a {@{very low SINR (e.g., <0&nbsp;dB for BPSK)}@} and {@{prohibitively high error rates}@}.
+When {@{several users transmit simultaneously over the same time slot and bandwidth}@}, {@{their spectra completely overlap}@} and {@{conventional filtering}@} in {@{either the time or frequency domain}@} {@{cannot separate them}@}; {@{all user signals}@} look {@{indistinguishable at the front‑end}@}. Treating {@{unwanted signals as additive noise}@} yields {@{a very low SINR (e.g., <0&nbsp;dB for BPSK)}@} and {@{prohibitively high error rates}@}.
 
 {@{The main advantage of DS-CDMA}@} is that {@{each user's data}@} is {@{spread by its unique PN sequence}@}. At {@{the intended receiver}@}, {@{multiplying the received waveform by the correct code}@} {@{"despreads" the desired signal}@}: it {@{collapses back into a narrowband BPSK spectrum}@}, while {@{other users' signals remain widely spread}@}. {@{A band‑pass filter}@} can then {@{pass only the despread desired component}@} and {@{reject most residual interference}@}. This filtering {@{reduces the effective interference power of _each interfering user_}@} to {@{roughly its original value divided by the _spreading factor_}@} (e.g., a 1/64 {@{discount factor per interfering user}@} for {@{a spreading factor of 64}@}), improving {@{the SINR enough for reliable demodulation}@}.
 
 ## pseudo-noise code
 
-A {@{spread‑spectrum system}@} relies on the {@{statistical properties of its pseudorandom noise (PN) codes}@}.
+{@{A spread‑spectrum system}@} relies on {@{the statistical properties of its pseudorandom noise (PN) codes}@}.
 
-The {@{_correlation_ function}@} measures {@{how similar two sequences are as one is shifted relative to the other}@}: {@{$$R_{xy}(\tau)=\sum_n x[n]\,y^*[n-\tau]$$}@} When {@{the two sequences are identical}@}, this is {@{the _auto‑correlation_ of $c[n]$}@}: {@{$$R_{cc}(\tau)=\sum_n c[n]\,c^*[n-\tau].$$}@}
+{@{The _correlation_ function}@} measures {@{how similar two sequences are as one is shifted relative to the other}@}: {@{$$R_{xy}(\tau)=\sum_n x[n]\,y^*[n-\tau]$$}@} When {@{the two sequences are identical}@}, this is {@{the _auto‑correlation_ of $c[n]$}@}: {@{$$R_{cc}(\tau)=\sum_n c[n]\,c^*[n-\tau].$$}@}
 
 For {@{DS/CDMA}@}, {@{a _good PN code_}@} has {@{auto‑correlation}@} with {@{a sharp peak at zero shift}@} and {@{very small values for all non‑zero offsets}@}. This gives {@{near‑perfect orthogonality between different shifts}@}: {@{correlation with the correct code}@} yields {@{a strong response}@} while {@{cross‑correlation with other codes or shifted versions}@} stays {@{negligible}@}, minimizing {@{interference}@} and improving {@{security}@}.
 
@@ -86,7 +86,7 @@ DSSS {@{expands a data signal}@} by {@{multiplying it with a pseudo‑random noi
 
 {@{The received signal}@} is {@{a combination of $L = \lfloor W / B_c \rfloor$ resolved paths}@} ({@{$W$}@} is {@{spread passband bandwidth}@}, {@{$B_c$}@} {@{the coherence bandwidth}@}): {@{$$y(t)=\sum_{i=1}^{L}\alpha_i\,s(t-\tau_i)c(t-\tau_i)+n(t),$$}@} where {@{$s(\cdot)$}@} is {@{the modulated data}@}, {@{$c(\cdot)$}@} {@{the PN code}@}, {@{$\alpha_i$}@} {@{the complex channel coefficient for path $i$}@}, and {@{$\tau_i$}@} its {@{delay}@}.
 
-{@{A finger that targets path $j$}@} computes {@{$$r_j(t)=\text{Despread}\!\bigl(y(t),\,c(t-\tau_j)\bigr) =\alpha_j\,s(t-\tau_j)\;\!+\! \sum_{i\neq j}\alpha_i\,s(t-\tau_i)\,\underbrace{\langle c(t-\tau_i), c(t-\tau_j)\rangle}_{\text{small} }\; +\;\langle c(t-\tau_i), n(t)\rangle.$$}@} The {@{term $\langle c(t-\tau_i), c(t-\tau_j)\rangle$}@} is {@{the _normalized cross‑correlation_}@} ("normalized" means {@{divided by the number of chips $N$}@}) of {@{two PN sequences that are misaligned in time}@}.
+{@{A finger that targets path $j$}@} computes {@{$$r_j(t)=\text{Despread}\!\bigl(y(t),\,c(t-\tau_j)\bigr) =\alpha_j\,s(t-\tau_j)\;\!+\! \sum_{i\neq j}\alpha_i\,s(t-\tau_i)\,\underbrace{\langle c(t-\tau_i), c(t-\tau_j)\rangle}_{\text{small} }\; +\;\langle c(t-\tau_i), n(t)\rangle.$$}@} {@{The term $\langle c(t-\tau_i), c(t-\tau_j)\rangle$}@} is {@{the _normalized cross‑correlation_}@} ("normalized" means {@{divided by the number of chips $N$}@}) of {@{two PN sequences that are misaligned in time}@}.
 
 For {@{an i.i.d. PN sequence}@} {@{the _normalized_ cross-correlation of two misaligned ($i \ne j$) PN sequences}@} tends to {@{zero variance as the code length $N$ grows}@}: {@{$$\operatorname E[\langle c(t-\tau_i), c(t-\tau_j)\rangle] = 0\,, \qquad \operatorname{Var}(\langle c(t-\tau_i), c(t-\tau_j)\rangle) = \frac 1 N \,.$$}@} Thus {@{each finger}@} extracts {@{a clean observation of the desired data}@} with only {@{residual ISI from other paths and additive noise}@}, which has {@{a power of roughly $1/N$ of the original power}@}. {@{The set of observations $\{r_1,r_2,\dots ,r_L\}$}@} are {@{effectively independent}@}, which yields {@{_diversity gain_}@} in addition to {@{the _processing gain_ from DSSS}@}.
 
@@ -108,7 +108,7 @@ In {@{a DSSS receiver}@}, {@{each incoming chip}@} is multiplied by {@{the local
 
 ### time and power considerations
 
-{@{The despreader core}@} runs at {@{the chip rate}@}, typically {@{many times (e.g. 64, 1024) faster than the symbol clock}@}. Since {@{dynamic power scales with frequency}@}, {@{the high‑speed despreader dominates the power budget}@}. {@{The combinatorial logic between clocks (adders, sign‐inverters)}@} must {@{finish within one chip period}@}; {@{oversized logic}@} forces a {@{lower clock or higher energy consumption}@}.
+{@{The despreader core}@} runs at {@{the chip rate}@}, typically {@{many times (e.g. 64, 1024) faster than the symbol clock}@}. Since {@{dynamic power scales with frequency}@}, {@{the high‑speed despreader dominates the power budget}@}. {@{The combinatorial logic between clocks (adders, sign‐inverters)}@} must {@{finish within one chip period}@}; {@{oversized logic}@} forces {@{a lower clock or higher energy consumption}@}.
 
 {@{The core arithmetic for spreading and despreading}@} is {@{deliberately simple}@}: {@{full adders for accumulation}@} and {@{bit‑shift units for division by powers of two}@}. {@{Multiplication by $\pm1$}@} uses {@{sign inversion}@}, eliminating the need for {@{a multiplier}@}. This keeps {@{the data path short and power‑efficient}@} while meeting {@{chip‑clock timing constraints}@}.
 

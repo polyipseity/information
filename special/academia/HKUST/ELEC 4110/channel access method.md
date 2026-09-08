@@ -28,7 +28,7 @@ All three require each {@{user's resource allocation}@} to be {@{_orthogonal_ to
 
 ## time division multiple access
 
-In {@{a TDMA system}@} the {@{base station}@} schedules {@{users cyclically}@}. {@{A single radio front end at the base transceiver}@} can handle {@{all scheduled users}@}: after finishing {@{one slot}@} it immediately {@{switches to the next}@}. The {@{maximum data rate}@} that a user experiences is therefore {@{determined by its share of the cycle}@}; if {@{the cycle length is $T$}@} and each user receives {@{a fraction $\frac{1}{N}$}@} of that time, the {@{_physical_ peak rate}@} for a user equals {@{$$R_{\text{peak} } = N\, R_{\text{data} } \,,$$}@} where {@{$R_{\text{data} }$}@} is the {@{nominal data rate required per user}@}.
+In {@{a TDMA system}@} {@{the base station}@} schedules {@{users cyclically}@}. {@{A single radio front end at the base transceiver}@} can handle {@{all scheduled users}@}: after finishing {@{one slot}@} it immediately {@{switches to the next}@}. {@{The maximum data rate}@} that a user experiences is therefore {@{determined by its share of the cycle}@}; if {@{the cycle length is $T$}@} and each user receives {@{a fraction $\frac{1}{N}$}@} of that time, {@{the _physical_ peak rate}@} for a user equals {@{$$R_{\text{peak} } = N\, R_{\text{data} } \,,$$}@} where {@{$R_{\text{data} }$}@} is {@{the nominal data rate required per user}@}.
 
 Because {@{each user's transmission}@} occupies {@{only a short burst of time}@}, the channel can be {@{reused rapidly}@}. This allows {@{many users to share the same frequency band}@} with {@{minimal hardware at the base station}@}—only {@{one transceiver}@} is needed {@{regardless of $N$}@}.
 
@@ -36,7 +36,7 @@ Because {@{each user's transmission}@} occupies {@{only a short burst of time}@}
 
 ## frequency division multiple access
 
-{@{Frequency Division Multiple Access}@} {@{partitions the total allocated spectrum $W$}@} into {@{_N_ non‑overlapping frequency slots}@}. Each slot therefore carries a {@{channel of bandwidth $\frac{W}{N}$}@} and is {@{assigned to one mobile terminal}@}. Because {@{every user transmits on a distinct frequency band}@}, the {@{channels are _orthogonal_}@}; no two users {@{interfere with one another's signals}@}.
+{@{Frequency Division Multiple Access}@} {@{partitions the total allocated spectrum $W$}@} into {@{_N_ non‑overlapping frequency slots}@}. Each slot therefore carries {@{a channel of bandwidth $\frac{W}{N}$}@} and is {@{assigned to one mobile terminal}@}. Because {@{every user transmits on a distinct frequency band}@}, {@{the channels are _orthogonal_}@}; no two users {@{interfere with one another's signals}@}.
 
 {@{The allocation scheme}@} is {@{static}@}: once a mobile has been {@{granted a particular slot}@} it continues to {@{use that same frequency}@} until its {@{session ends or the network reconfigures the partitioning}@}. By contrast, {@{TDMA shares the spectrum in time slots}@} rather than {@{across separate frequencies}@}.
 
@@ -44,7 +44,7 @@ Because {@{each user's transmission}@} occupies {@{only a short burst of time}@}
 
 ## FDMA vs. TDMA
 
-Comparing {@{_FDMA_ and _TDMA_}@} in a {@{15&nbsp;MHz band}@} where each user needs {@{25&nbsp;kbps with one bit per symbol}@}: {@{_FDMA_}@} allocates a {@{fixed bandwidth (~25&nbsp;kHz)}@} to each user; {@{up to about 600 users}@} could be served if the {@{spectrum is perfectly divided}@}. {@{_TDMA_}@} shares the {@{full 15&nbsp;MHz}@} among all users in {@{separate time slots}@}; under the {@{average rate constraint of 25&nbsp;kbps}@}, {@{600 users}@} could be served as {@{at most 600 time slots can be created}@}, matching the {@{FDMA result}@}. Under identical assumptions, {@{FDMA and TDMA support about the same number of users}@}; neither has {@{an inherent capacity advantage}@}.
+Comparing {@{_FDMA_ and _TDMA_}@} in {@{a 15&nbsp;MHz band}@} where each user needs {@{25&nbsp;kbps with one bit per symbol}@}: {@{_FDMA_}@} allocates {@{a fixed bandwidth (~25&nbsp;kHz)}@} to each user; {@{up to about 600 users}@} could be served if {@{the spectrum is perfectly divided}@}. {@{_TDMA_}@} shares {@{the full 15&nbsp;MHz}@} among all users in {@{separate time slots}@}; under {@{the average rate constraint of 25&nbsp;kbps}@}, {@{600 users}@} could be served as {@{at most 600 time slots can be created}@}, matching {@{the FDMA result}@}. Under identical assumptions, {@{FDMA and TDMA support about the same number of users}@}; neither has {@{an inherent capacity advantage}@}.
 
 {@{The choice between FDMA and TDMA}@} depends on {@{implementation factors}@}: {@{FDMA}@} underlies {@{first‑generation analog mobile systems}@}, while {@{TDMA (e.g., GSM)}@} forms {@{the basis of 2G digital networks}@}. {@{Real‑world performance differences}@} arise from {@{protocol overhead, synchronization, and hardware constraints}@} rather than {@{raw channel count}@}.
 
@@ -56,13 +56,13 @@ Assume {@{a channel coherence bandwidth of 200&nbsp;kHz}@} and {@{prohibits equa
 
 ## code division multiple access
 
-{@{_CDMA_ (Code Division Multiple Access)}@} is a {@{spread‑spectrum technique}@} in which {@{each user's data}@} are {@{multiplied by a unique pseudorandom noise (PN) sequence}@} before transmission. There are {@{two types of CDMA}@}: {@{deterministic CDMA and random CDMA}@}.
+{@{_CDMA_ (Code Division Multiple Access)}@} is {@{a spread‑spectrum technique}@} in which {@{each user's data}@} are {@{multiplied by a unique pseudorandom noise (PN) sequence}@} before transmission. There are {@{two types of CDMA}@}: {@{deterministic CDMA and random CDMA}@}.
 
-{@{CDMA}@} underpins {@{modern cellular systems}@} such as {@{GSM's 2G and UMTS's 3G architectures}@}, where it forms the {@{basis of both uplink and downlink signalling}@}.
+{@{CDMA}@} underpins {@{modern cellular systems}@} such as {@{GSM's 2G and UMTS's 3G architectures}@}, where it forms {@{the basis of both uplink and downlink signalling}@}.
 
 ### deterministic CDMA
 
-In {@{deterministic CDMA}@} the {@{PN sequences form an orthogonal set}@}, i.e. {@{$$\langle c_i(t),c_j(t)\rangle = \frac 1 N \sum_t c_i(t) c_j^*(t) = 0 \quad (i\neq j)\,,$$}@} where {@{$N$}@} is the {@{number of chips in a symbol}@}. The {@{_spreading factor_}@} is the {@{_maximum_ number of simultaneous users}@} that can be supported, which is the {@{_upper limit_ to the size of this orthogonal code set}@}.
+In {@{deterministic CDMA}@} {@{the PN sequences form an orthogonal set}@}, i.e. {@{$$\langle c_i(t),c_j(t)\rangle = \frac 1 N \sum_t c_i(t) c_j^*(t) = 0 \quad (i\neq j)\,,$$}@} where {@{$N$}@} is {@{the number of chips in a symbol}@}. {@{The _spreading factor_}@} is {@{the _maximum_ number of simultaneous users}@} that can be supported, which is {@{the _upper limit_ to the size of this orthogonal code set}@}.
 
 With {@{deterministic CDMA}@}, the system is {@{_code-limited_}@}: capacity depends on {@{how many orthogonal codes can be generated}@}.
 
@@ -72,7 +72,7 @@ For example, {@{a base station}@} transmits {@{two users simultaneously}@}, each
 
 ### random CDMA
 
-{@{Random CDMA}@} relaxes the requirement of {@{strict orthogonality}@}. {@{The PN sequences}@} are {@{chosen randomly and independently}@}, so {@{$$\langle c_i(t),c_j(t)\rangle = \frac 1 N \sum_t c_i(t) c_j^*(t) \approx 0 \quad (i \neq j) \,,$$}@} where {@{$N$}@} is the {@{number of chips in a symbol}@}. {@{The _normalized_ cross-correlation}@} has {@{an _expected value_ of zero}@} and {@{a _variance_ that diminishes as $N$ grows}@}: {@{$$\operatorname{Var}(\langle c_i(t), c_j(t)\rangle) = \frac 1 {\sqrt N} \,.$$}@} One can also show that {@{the normalized cross-correlation}@} is {@{almost surely bounded as $N$ grows}@}: {@{$$\lvert \langle c_i(t), c_j(t) \rangle \rvert \le \sqrt{\frac {2 \log \log N} N} \;\text{a.s.} \,.$$}@}
+{@{Random CDMA}@} relaxes the requirement of {@{strict orthogonality}@}. {@{The PN sequences}@} are {@{chosen randomly and independently}@}, so {@{$$\langle c_i(t),c_j(t)\rangle = \frac 1 N \sum_t c_i(t) c_j^*(t) \approx 0 \quad (i \neq j) \,,$$}@} where {@{$N$}@} is {@{the number of chips in a symbol}@}. {@{The _normalized_ cross-correlation}@} has {@{an _expected value_ of zero}@} and {@{a _variance_ that diminishes as $N$ grows}@}: {@{$$\operatorname{Var}(\langle c_i(t), c_j(t)\rangle) = \frac 1 {\sqrt N} \,.$$}@} One can also show that {@{the normalized cross-correlation}@} is {@{almost surely bounded as $N$ grows}@}: {@{$$\lvert \langle c_i(t), c_j(t) \rangle \rvert \le \sqrt{\frac {2 \log \log N} N} \;\text{a.s.} \,.$$}@}
 
 With {@{random CDMA}@}, {@{the number of usable codes}@} is {@{no longer limited}@}; you can {@{generate thousands of distinct sequences}@}. {@{Cross‑correlation}@} stays {@{small even with timing offsets}@}, so R‑CDMA works {@{well in asynchronous uplink}@}.
 
@@ -82,7 +82,7 @@ Because {@{channels are not perfectly orthogonal}@}, a user transmitting at high
 
 ### effective SINR of random CDMA
 
-{@{Random CDMA}@} uses {@{DSSS}@}. {@{The spread spectrum}@} introduces {@{a _processing gain_}@} {@{$\text{PG} = W_{\text{spread} }/W_{\text{non-spread} }$}@}. {@{The _signal‑to‑interference‑plus‑noise ratio_ (SINR) per bit}@} at {@{each finger}@} is {@{multiplied by this factor}@}: {@{$$\text{SINR}_{\text{effective} } = \frac {\lvert a_i \rvert^2 E_b} {N_0 + \frac {(\text{\# users}) \cdot \lvert a_i \rvert^2 E_b} {\text{PG} } } \approx \frac {\text{PG} } {\text{\# users} } \,,$$}@} where {@{$E_b$}@} is {@{the energy per bit}@}, {@{$N_0$}@} is {@{the noise spectral density}@}, and {@{$(\text{\# users})$}@} is {@{the number of _other_ users that can interfere with the current user}@}. {@{The final approximation}@} holds well for {@{high SNR situations}@} (so {@{$N_0$}@} is {@{small relative to $E_b$}@}) in which {@{the error rate becomes interference-limited}@}, and {@{the _BER floor_ from ISI}@} becomes the {@{limiting factor}@}.
+{@{Random CDMA}@} uses {@{DSSS}@}. {@{The spread spectrum}@} introduces {@{a _processing gain_}@} {@{$\text{PG} = W_{\text{spread} }/W_{\text{non-spread} }$}@}. {@{The _signal‑to‑interference‑plus‑noise ratio_ (SINR) per bit}@} at {@{each finger}@} is {@{multiplied by this factor}@}: {@{$$\text{SINR}_{\text{effective} } = \frac {\lvert a_i \rvert^2 E_b} {N_0 + \frac {(\text{\# users}) \cdot \lvert a_i \rvert^2 E_b} {\text{PG} } } \approx \frac {\text{PG} } {\text{\# users} } \,,$$}@} where {@{$E_b$}@} is {@{the energy per bit}@}, {@{$N_0$}@} is {@{the noise spectral density}@}, and {@{$(\text{\# users})$}@} is {@{the number of _other_ users that can interfere with the current user}@}. {@{The final approximation}@} holds well for {@{high SNR situations}@} (so {@{$N_0$}@} is {@{small relative to $E_b$}@}) in which {@{the error rate becomes interference-limited}@}, and {@{the _BER floor_ from ISI}@} becomes {@{the limiting factor}@}.
 
 In {@{an interference‑limited regime ($s \gg \sigma^2$)}@} and for {@{large number of users $K$}@}, the above formula also gives {@{the maximum number of users random CDMA can support}@}: {@{$$K_{\max} \approx \frac{N}{\gamma_{\text{req} } }$$}@} where {@{$\gamma_{\text{req} }$}@} is {@{the minimum SINR needed by the physical‑layer}@} (set by {@{modulation, coding, fading}@}).
 
