@@ -51,12 +51,8 @@ These files live alongside `main.py` in the `academic-lint/` directory:
 | --- | --- |
 | `main.py` | Entry point for the validator CLI |
 | `main_mods/` | Validation rules, models, and registry |
-| `course-template.md` | Scaffold template for new course `index.md` files |
-| `find_wikipedia.py` | Wikipedia search for canonical `general/` note titles |
 | `tests_a7392be/` | Validator test suite |
 
 ## References
 
-- `academic-crud-course-index` uses `course-template.md` for scaffolding
-- `academic-crud-topic-note` uses `find_wikipedia.py` for canonical titles
 - All `academic-crud-*` skills run this after edits
