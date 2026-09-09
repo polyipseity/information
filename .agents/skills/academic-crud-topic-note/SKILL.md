@@ -80,11 +80,7 @@ Flashcards for this section are as follows:
    - Update session `topic:` line if applicable
    - Refresh affected cross-references
 
-3. __Validate:__
-
-   ```bash
-   uv run .agents/skills/academic-notes/check.py "special/academia/<INSTITUTION>/<COURSE>/<topic>.md"
-   ```
+3. __Validate:__ run `academic-lint` on the created file.
 
 ### Read
 
@@ -165,5 +161,5 @@ Merge new material into existing note:
 ## References
 
 - `create-flashcards` flashcard markup patterns
-- `.agents/skills/academic-notes/check.py` validator
-- `.agents/skills/academic-notes/find_wikipedia.py` canonical title discovery
+- `academic-lint` validation
+- `academic-lint/find_wikipedia.py` canonical title discovery

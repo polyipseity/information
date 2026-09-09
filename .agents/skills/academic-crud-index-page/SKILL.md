@@ -92,15 +92,11 @@ The calling skill provides: target path, child name, child link path. This skill
 
 ## Validation
 
-Run on the index file after changes:
-
-```bash
-uv run .agents/skills/academic-notes/check.py "<path-to-index.md>"
-```
+Run `academic-lint` after every edit. If you know which files changed, pass those files specifically. Otherwise lint the whole course folder.
 
 ## References
 
 - `academic-crud-course-index` creates subdirectories and their indexes
 - `academic-crud-submission-page` adds submission pages to indexes
 - `academic-crud-question-page` adds question pages to indexes
-- `.agents/skills/academic-notes/check.py` — validator
+- `academic-lint` validation

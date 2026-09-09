@@ -171,12 +171,10 @@ After creating a submission page, add child link to the parent `index.md` via `a
 
 ## Validation
 
-```bash
-uv run .agents/skills/academic-notes/check.py "special/academia/<INSTITUTION>/<COURSE>/<subdir>/<name>/index.md"
-```
+Run `academic-lint` after every edit. If you know which files changed, pass those files specifically. Otherwise lint the whole course folder.
 
 ## References
 
 - `convert_canvas_submission.py` Canvas HTML to `submission.yml`
 - `academic-crud-index-page` parent index updates
-- `.agents/skills/academic-notes/check.py` validator
+- `academic-lint` validation

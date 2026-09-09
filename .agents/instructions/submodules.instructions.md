@@ -16,7 +16,7 @@ All submodules have their own `AGENTS.md` and `.agents/` that take priority when
 - Validate academic content before migrating:
 
   ```sh
-  uv run .agents/skills/academic-notes/check.py --content private/special/academia/<INSTITUTION>
+  uv run .agents/skills/academic-lint/check.py --content private/special/academia/<INSTITUTION>
   ```
 
 1. Use `publish.py` to mirror curated content into the public repository; do not copy files manually.

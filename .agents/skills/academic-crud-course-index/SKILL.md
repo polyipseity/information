@@ -15,7 +15,7 @@ Create, read, update, and delete the top-level course `index.md` and course scaf
 
 ### Create
 
-Scaffold a new course from the template at `.agents/skills/academic-notes/course-template.md`.
+Scaffold a new course from the template at `.agents/skills/academic-lint/course-template.md`.
 
 1. Verify no `index.md` already exists in the course root.
 2. Create directory: `special/academia/<INSTITUTION>/<COURSE>/`
@@ -205,13 +205,11 @@ Official Canvas announcements as blockquotes after `---`:
 
 ## Validation
 
-```bash
-uv run .agents/skills/academic-notes/check.py "special/academia/<INSTITUTION>/<COURSE>/"
-```
+Run `academic-lint` after every edit. If you know which files changed, pass those files specifically. Otherwise lint the whole course folder.
 
 ## References
 
-- `.agents/skills/academic-notes/course-template.md` scaffold template
-- `.agents/skills/academic-notes/check.py` validator
+- `academic-lint/course-template.md` scaffold template
+- `academic-lint` validation
 - `academic-crud-index-page` subdirectory index format
 - `create-flashcards` exam error report flashcards

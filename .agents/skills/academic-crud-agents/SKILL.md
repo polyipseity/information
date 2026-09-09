@@ -61,13 +61,9 @@ Remove the `AGENTS.md` file.
 
 ## Validation
 
-Run on the course root after creating or modifying:
-
-```bash
-uv run .agents/skills/academic-notes/check.py "special/academia/<INSTITUTION>/<COURSE>/AGENTS.md"
-```
+Run `academic-lint` after every edit. If you know which files changed, pass those files specifically. Otherwise lint the whole course folder.
 
 ## References
 
 - `academic-crud-course-index` — for course structure and index linkage
-- `.agents/skills/academic-notes/check.py` — validator
+- `academic-lint` — validation

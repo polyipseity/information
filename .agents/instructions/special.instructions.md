@@ -50,7 +50,7 @@ When encountering a new content type, apply the conventions in this document (fr
 
 ## Editing guidelines
 
-Follow the conventions in [editing-conventions.instructions.md](../editing-conventions.instructions.md) and the [academic-notes](../skills/academic-notes/SKILL.md) skill. Preserve institution-specific formatting, semester notation, and status markers. Include source references in frontmatter where applicable. Keep `index.md` files current when adding or removing content.
+Follow the conventions in [editing-conventions.instructions.md](../editing-conventions.instructions.md) and the [academic-ingest](../skills/academic-ingest/SKILL.md) skill. Preserve institution-specific formatting, semester notation, and status markers. Include source references in frontmatter where applicable. Keep `index.md` files current when adding or removing content.
 
 ### Academia-specific
 
