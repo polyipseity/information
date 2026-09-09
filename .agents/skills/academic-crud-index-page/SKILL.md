@@ -96,6 +96,7 @@ Run `academic-lint` after every edit. If you know which files changed, pass thos
 
 ## References
 
+- `academic-crud-index-page/course-template.md` scaffold template for new course `index.md` files
 - `academic-crud-course-index` creates subdirectories and their indexes
 - `academic-crud-submission-page` adds submission pages to indexes
 - `academic-crud-question-page` adds question pages to indexes
