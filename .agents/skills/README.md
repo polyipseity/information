@@ -24,7 +24,7 @@ Guidelines for new skills
   > __Note:__ the `applyTo` key is no longer supported in skill frontmatter.  Older skills may still include it, but new skills should omit it entirely or the validator will raise an error.
    Other keys are ignored and may prevent the skill from loading correctly.
 
-   Example: the `flashcard-creation` skill uses only
+   Example: the `create-flashcards` skill uses only
    `name` and `description` plus optional explanatory text; no
    `applyTo` field appears.
 2. Ensure the frontmatter contains the allowed keys listed above. Do not invent additional fields.

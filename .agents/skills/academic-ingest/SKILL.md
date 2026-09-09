@@ -136,5 +136,5 @@ After the dispatched skill completes:
 ## References
 
 - All `academic-crud-*` skills for dispatch targets
-- `flashcard-creation` for flashcard markup guidance
+- `create-flashcards` for flashcard markup guidance
 - `.agents/skills/academic-notes/check.py` for validation

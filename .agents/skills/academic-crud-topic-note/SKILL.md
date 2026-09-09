@@ -164,6 +164,6 @@ Merge new material into existing note:
 
 ## References
 
-- `flashcard-creation` flashcard markup patterns
+- `create-flashcards` flashcard markup patterns
 - `.agents/skills/academic-notes/check.py` validator
 - `.agents/skills/academic-notes/find_wikipedia.py` canonical title discovery

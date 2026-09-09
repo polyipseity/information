@@ -1,4 +1,4 @@
-# Continuous improvement — flashcard-creation skill
+# Continuous improvement — create-flashcards skill
 
 Detailed continuous-improvement guidance for this skill is embedded under the "Continuous improvement" heading within the main [`SKILL.md`](./SKILL.md) file. Please consult that section whenever you're editing flashcards, as it contains the comprehensive feedback loop, collection steps, and numerous examples of lessons learned.
 

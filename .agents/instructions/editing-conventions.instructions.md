@@ -14,7 +14,7 @@ applyTo: "**/*.md"
     - `{@{ hidden text }@}` – cloze deletion; the inner text is hidden when the card is shown and must be recalled. (Most common.) __Closing delimiter:__ place `}@}` __before__ any trailing punctuation so punctuation sits outside the cloze (e.g. `{@{text}@}.` not `{@{text.}@}`).
     - `::@::` – two‑sided question/answer pair on a single Markdown line; creates two cards (left→right and right→left). Use `<br/>` for line breaks or `<p>` for paragraphs if needed, but keep the source line literal.
     - `:@:` – one‑sided question/answer pair on a single Markdown line; creates a single card where the right side is recalled from the left. Same line‑only rule applies.
-    Do __not__ reflow, escape, or split any of these markers across lines; altering spacing or wrapping can break generation.  For guidance on _what_ to cloze and how to split sentences into fine-grained clozes, see the `flashcard-creation` skill (§ "Cloze creation methodology").
+    Do __not__ reflow, escape, or split any of these markers across lines; altering spacing or wrapping can break generation.  For guidance on _what_ to cloze and how to split sentences into fine-grained clozes, see the `create-flashcards` skill (§ "Cloze creation methodology").
 
 Agent quickstart pointer: See `.agents/instructions/core-workflows.instructions.md` for a concise agent checklist and quick repository gotchas (preserve pytextgen fences, don't reflow cloze markup, and prefer `bun run <script>` wrappers for reproducible runs).
 

@@ -63,7 +63,7 @@ tags:
    - Split prose + equation into separate clozes: `{@{prose}@} is {@{$equation$}@}`
    - Cloze technique names: `{@{Swap sum order}@}`, `{@{completing the square}@}`
    - Maximum-coverage density — every solution sentence gets clozes
-   - Reference `flashcard-creation` skill for cloze methodology
+   - Reference `create-flashcards` skill for cloze methodology
 
 2. __Create `questions/index.md`__ via `academic-crud-index-page` if first question page.
 
@@ -142,6 +142,6 @@ Every line inside a blockquote must begin with `>` — including blank lines.
 
 ## References
 
-- `flashcard-creation` cloze methodology and patterns
+- `create-flashcards` cloze methodology and patterns
 - `academic-crud-index-page` parent index updates
 - `.agents/skills/academic-notes/check.py` validator

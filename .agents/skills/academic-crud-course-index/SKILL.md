@@ -214,4 +214,4 @@ uv run .agents/skills/academic-notes/check.py "special/academia/<INSTITUTION>/<C
 - `.agents/skills/academic-notes/course-template.md` scaffold template
 - `.agents/skills/academic-notes/check.py` validator
 - `academic-crud-index-page` subdirectory index format
-- `flashcard-creation` exam error report flashcards
+- `create-flashcards` exam error report flashcards

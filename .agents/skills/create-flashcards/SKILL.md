@@ -1,5 +1,5 @@
 ---
-name: flashcard-creation
+name: create-flashcards
 description: |
   Help the user add spaced-repetition flashcards (cloze deletions or Q/A pairs) to existing Markdown notes across the repository.  The skill encapsulates the multi‑step process the user follows in their finance lecture notes (e.g. FINA 3103) and elsewhere: read the prose, identify key terms, dates, formulas and logical assertions, and wrap them using flashcard markup (`{@{ }@}`, `::@::`, `:@:`).
 
@@ -16,7 +16,7 @@ description: |
 
 This skill automates the user’s process for converting Markdown prose into active‑recall flashcards.  It works interactively: you provide a file path or text snippet, the agent edits it in place with cloze markup, and the user refines.  The skill supports three forms of flashcards—inline cloze (`{@{ }@}`), two‑sided QA (`::@::`), and one‑sided QA (`:@:`).  QA cards must fit on one Markdown line; use `<br/>` or `<p>` for visual breaks.
 
-All style decisions are driven by the representative examples and heuristics embedded in this document.  When you encounter a new pattern, capture it here as an example or add a heuristic rule.  An optional prompt file (`flashcard-creation.prompt.md`) can solicit path/line information.  Do __not__ run any commands such as `init generate` in the course of editing; operational advice belongs elsewhere.
+All style decisions are driven by the representative examples and heuristics embedded in this document.  When you encounter a new pattern, capture it here as an example or add a heuristic rule.  An optional prompt file (`create-flashcards.prompt.md`) can solicit path/line information.  Do __not__ run any commands such as `init generate` in the course of editing; operational advice belongs elsewhere.
 
 __Academic content:__ if editing `special/academia` material also consult the `academic-notes` skill for course‑specific conventions such as full hierarchical gloss paths and QA list separators; it links back here for general guidance.  Conversely, the `academic-notes` documentation refers you here for the general cloze/QA patterns and example transformations. __Topic notes:__ by default do __not__ add cloze cards; use only two-sided (::@::) or very rarely one-sided (:@:) cards and add more of those as needed. __Cloze delimiter:__ the closing `}@}` must come __before__ any trailing punctuation; place punctuation after the delimiter (e.g. `{@{text}@}.` not `{@{text.}@}`).
 

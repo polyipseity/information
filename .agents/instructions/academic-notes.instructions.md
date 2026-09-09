@@ -23,7 +23,7 @@ For all academic material ingestion, start with the `academic-ingest` dispatcher
 | `academic-crud-topic-note` | Standalone concept and lecture notes |
 | `academic-crud-question-page` | Problem sets, iPRs, quizzes (no submission) |
 | `academic-crud-agents` | Course-level `AGENTS.md` files |
-| `flashcard-creation` | Flashcard markup (referenced by other skills) |
+| `create-flashcards` | Flashcard markup (referenced by other skills) |
 
 ## Cross-cutting rules
 
