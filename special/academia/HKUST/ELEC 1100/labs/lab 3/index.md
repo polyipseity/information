@@ -32,7 +32,9 @@ No additional details were added for this assignment.
 
 - [Lab3_2026s.pdf](attachments/Lab3_2026s.pdf)
 - [Lab3_SummarySheet_2026s.docx](attachments/Lab3_SummarySheet_2026s.docx)
+- [Lab3_SummarySheet_2026s.pdf](attachments/Lab3_SummarySheet_2026s.pdf)
 
 ## submission
 
-- [submission.docx](submission.docx)
+- summary sheet upload: each student submits their own completed summary sheet before the end of the lab slot.
+- archived Canvas export: [submission.yml](submission.yml)
