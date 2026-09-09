@@ -1,6 +1,6 @@
 ---
 name: academic-lint
-description: Validate academic course notes after edits. Wraps main.py validator with two modes: whole-course or specific-files.
+description: 'Validate academic course notes after edits. Wraps main.py validator with two modes: whole-course or specific-files.'
 ---
 
 # Academic Lint
