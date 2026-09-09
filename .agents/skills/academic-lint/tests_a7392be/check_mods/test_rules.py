@@ -8,8 +8,8 @@ from os import PathLike
 
 import pytest
 from anyio import Path
-from check_mods.models import Frontmatter, Severity, ValidationContext
-from check_mods.rules import (
+from main_mods.models import Frontmatter, Severity, ValidationContext
+from main_mods.rules import (
     RULE_REGISTRY,
     agents_no_flashcard_markup,
     agents_title,
@@ -82,13 +82,13 @@ from check_mods.rules import (
     two_sided_calc_warning,
     unit_outside_math,
 )
-from check_mods.utils import (
+from main_mods.utils import (
     FRONT_RE,
     html_cpt,
     parse_frontmatter,
     parse_session_headers,
 )
-from check_mods.validator import _MD, check_markdown_file
+from main_mods.validator import _MD, check_markdown_file
 from pydantic_yaml import parse_yaml_raw_as
 
 # explicit imports reduce namespace clutter and make references clear

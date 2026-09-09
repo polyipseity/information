@@ -10,7 +10,7 @@ from sys import argv
 
 import rich.traceback
 from asyncer import runnify
-from check_mods import validator
+from main_mods import validator
 
 """Public symbols exported by this module."""
 __all__ = ("main",)

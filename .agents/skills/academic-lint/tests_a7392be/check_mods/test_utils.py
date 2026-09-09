@@ -7,7 +7,7 @@ from os import PathLike
 
 import pytest
 from anyio import Path
-from check_mods.utils import (
+from main_mods.utils import (
     _segment_paragraphs,
     ast_collect_text,
     ast_headings,

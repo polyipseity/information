@@ -1,11 +1,11 @@
 ---
 name: academic-lint
-description: Validate academic course notes after edits. Wraps check.py validator with two modes: whole-course or specific-files.
+description: Validate academic course notes after edits. Wraps main.py validator with two modes: whole-course or specific-files.
 ---
 
 # Academic Lint
 
-Validate academic course notes after every edit. This skill wraps the `check.py` validator and defines when and how to run it.
+Validate academic course notes after every edit. This skill wraps the `main.py` validator and defines when and how to run it.
 
 ## When to run
 
@@ -18,7 +18,7 @@ Run this skill after every edit to academic notes under `special/academia/`. Do 
 When you know which files were edited, lint those files only:
 
 ```bash
-uv run .agents/skills/academic-lint/check.py <file1> <file2> ...
+uv run .agents/skills/academic-lint/main.py <file1> <file2> ...
 ```
 
 ### Whole-course (default)
@@ -26,7 +26,7 @@ uv run .agents/skills/academic-lint/check.py <file1> <file2> ...
 When the full course folder was modified (e.g., scaffolding a new course, batch updates), lint the entire course:
 
 ```bash
-uv run .agents/skills/academic-lint/check.py "special/academia/<INSTITUTION>/<COURSE>/"
+uv run .agents/skills/academic-lint/main.py "special/academia/<INSTITUTION>/<COURSE>/"
 ```
 
 ## Exit codes
@@ -45,12 +45,12 @@ uv run .agents/skills/academic-lint/check.py "special/academia/<INSTITUTION>/<CO
 
 ## Sibling tools
 
-These files live alongside `check.py` in the `academic-lint/` directory:
+These files live alongside `main.py` in the `academic-lint/` directory:
 
 | Tool | Purpose |
 | --- | --- |
-| `check.py` | Entry point for the validator CLI |
-| `check_mods/` | Validation rules, models, and registry |
+| `main.py` | Entry point for the validator CLI |
+| `main_mods/` | Validation rules, models, and registry |
 | `course-template.md` | Scaffold template for new course `index.md` files |
 | `find_wikipedia.py` | Wikipedia search for canonical `general/` note titles |
 | `tests_a7392be/` | Validator test suite |

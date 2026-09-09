@@ -10,14 +10,14 @@ For all academic material ingestion, start with the `academic-ingest` dispatcher
 
 - Read `../skills/academic-ingest/SKILL.md` as the entry point for all ingestion.
 - Read `../skills/academic-lint/course-template.md` as the scaffold for new course indexes.
-- The validator is at `.agents/skills/academic-lint/check.py`; run `academic-lint` to validate after editing.
+- The validator is at `.agents/skills/academic-lint/main.py`; run `academic-lint` to validate after editing.
 
 ## Skills
 
 | Skill | Purpose |
 | --- | --- |
 | `academic-ingest` | Dispatcher — classify input, resolve course, route to CRUD skill |
-| `academic-lint` | Validate academic notes after edits (wraps check.py) |
+| `academic-lint` | Validate academic notes after edits (wraps main.py) |
 | `academic-crud-course-index` | Top-level `index.md`, exams, logistics, course scaffolding |
 | `academic-crud-index-page` | Sub-directory `index.md` (shared utility) |
 | `academic-crud-submission-page` | Labs, tutorials, lectures, assignments (shared hierarchy) |

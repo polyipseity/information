@@ -2,7 +2,7 @@
 
 This module provides asynchronous functions that read files, construct a
 :class:`ValidationContext`, execute all registered rules, and aggregate the
-results.  The command-line entry point lives in ``check.py`` so the core
+results.  The command-line entry point lives in ``main.py`` so the core
 logic can be reused by tests and other callers.
 """
 
@@ -364,7 +364,7 @@ async def walk_and_check(roots: Sequence[Path]) -> ValidationResult:
 
 
 async def main(argv: Sequence[str] | None = None) -> None:
-    """Command-line entry point invoked by ``check.py``.
+    """Command-line entry point invoked by ``main.py``.
 
     By default the tool checks ``special/academia`` and
     ``private/special/academia``.  ``--json`` emits a machine-readable
@@ -372,7 +372,7 @@ async def main(argv: Sequence[str] | None = None) -> None:
     empty under the current rule set.
     """
     parser = ArgumentParser(
-        prog="check.py",
+        prog="main.py",
         description="Validate academic course notes (structural and content checks)",
     )
     parser.add_argument(

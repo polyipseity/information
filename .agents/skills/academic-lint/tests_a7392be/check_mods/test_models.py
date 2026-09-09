@@ -4,7 +4,7 @@ Covers Frontmatter defaults, Severity enum, and ValidationResult helpers.
 """
 
 from anyio import Path
-from check_mods.models import (
+from main_mods.models import (
     Frontmatter,
     PreviewEntry,
     Severity,

@@ -3,14 +3,14 @@
 import sys
 from os import PathLike
 
-import check
+import main
 import pytest
 from anyio import Path
-from check_mods import validator
-from check_mods.registry import RuleRegistry
-from check_mods.rules import RULE_REGISTRY as RULES_REGISTRY
-from check_mods.validator import RULE_REGISTRY as VALIDATOR_REGISTRY
-from check_mods.validator import check_markdown_file, walk_and_check
+from main_mods import validator
+from main_mods.registry import RuleRegistry
+from main_mods.rules import RULE_REGISTRY as RULES_REGISTRY
+from main_mods.validator import RULE_REGISTRY as VALIDATOR_REGISTRY
+from main_mods.validator import check_markdown_file, walk_and_check
 
 """Public symbols exported by this module (none)."""
 __all__ = ()
@@ -212,15 +212,15 @@ async def test_check_entrypoint(
 
     previous_argv = sys.argv[:]  # keep original list contents
     try:
-        sys.argv[:] = ["check", str(tmp_path)]
+        sys.argv[:] = ["main", str(tmp_path)]
         with pytest.raises(SystemExit) as exc_info:
-            await check.main()
+            await main.main()
         assert exc_info.value.code == 2
 
         # verify that passing a markdown file directly also works
-        sys.argv[:] = ["check", str(_path)]
+        sys.argv[:] = ["main", str(_path)]
         with pytest.raises(SystemExit) as exc_info2:
-            await check.main()
+            await main.main()
         assert exc_info2.value.code == 2
     finally:
         sys.argv[:] = previous_argv

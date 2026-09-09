@@ -42,7 +42,7 @@ The `academic-*` skills handle all academic material ingestion:
 | Skill | Purpose |
 | --- | --- |
 | `academic-ingest` | Dispatcher — classify input, resolve course, route to CRUD skill |
-| `academic-lint` | Validate academic notes after edits (wraps check.py) |
+| `academic-lint` | Validate academic notes after edits (wraps main.py) |
 | `academic-crud-course-index` | Top-level `index.md`, exams, logistics |
 | `academic-crud-index-page` | Sub-directory `index.md` (shared utility) |
 | `academic-crud-submission-page` | Labs, tutorials, lectures, assignments |
@@ -50,7 +50,7 @@ The `academic-*` skills handle all academic material ingestion:
 | `academic-crud-question-page` | Problem sets, iPRs, quizzes |
 | `academic-crud-agents` | Course-level `AGENTS.md` files |
 
-The `academic-lint/` folder contains the validator (`check.py`, `check_mods/`), scaffold template (`course-template.md`), Wikipedia helper (`find_wikipedia.py`), and tests (`tests_a7392be/`).
+The `academic-lint/` folder contains the validator (`main.py`, `main_mods/`), scaffold template (`course-template.md`), Wikipedia helper (`find_wikipedia.py`), and tests (`tests_a7392be/`).
 
 ## Running commands safely (avoid polluting skill folders)
 
@@ -59,6 +59,6 @@ Some skill folders contain a `pyproject.toml` for tool configuration (e.g., `ty`
 __Never run `uv` commands from inside a skill folder.__ Always run from the workspace root and reference skill paths as arguments. Examples:
 
 - Tests: `uv run pytest .agents/skills/academic-lint/tests_a7392be/`
-- Validator: `uv run .agents/skills/academic-lint/check.py "special/academia/..."`
+- Validator: `uv run .agents/skills/academic-lint/main.py "special/academia/..."`
 
 This applies regardless of whether the command is run implicitly by an agent or explicitly by a human. If you accidentally create `.venv` or `uv.lock` inside a skill folder, delete them immediately (`rm -rf .agents/skills/*/.venv .agents/skills/*/uv.lock`).
