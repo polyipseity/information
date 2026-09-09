@@ -30,9 +30,9 @@ tags:
 > ```Scala
 > val mnemonics = Map('2' -> "ABC", '3' -> "DEF", /* ... */ '9' -> "WXYZ")
 > ```
-<!--SR:!2026-11-04,290,330!fsrs,2030-01-20T00:00:00.000Z,1195,1195.07164214,1,2,9,0,0,2026-10-13T00:00:00.000Z!fsrs,2030-01-06T00:00:00.000Z,1184,1183.64577796,1,2,9,0,0,2026-10-10T00:00:00.000Z!fsrs,2030-01-20T00:00:00.000Z,1195,1195.07164214,1,2,9,0,0,2026-10-13T00:00:00.000Z!2026-10-16,276,330!2026-10-26,282,330-->
+<!--SR:!2026-11-04,290,330!fsrs,2030-01-20T00:00:00.000Z,1195,1195.07164214,1,2,9,0,0,2026-10-13T00:00:00.000Z!fsrs,2030-01-06T00:00:00.000Z,1184,1183.64577796,1,2,9,0,0,2026-10-10T00:00:00.000Z!fsrs,2030-01-20T00:00:00.000Z,1195,1195.07164214,1,2,9,0,0,2026-10-13T00:00:00.000Z!fsrs,2028-11-27T00:00:00.000Z,773,772.81357058,2.49272837,2,9,0,0,2026-10-16T00:00:00.000Z!2026-10-26,282,330-->
 
-The goal is to implement {@{a method `encode(phoneNumber)`}@} that returns {@{every sequence of dictionary words}@} whose {@{concatenated numeric encodings match the input number}@}. For example, {@{the phone number `"7225247386"`}@} can be expressed as the single mnemonic phrase {@{`"Scala is fun"`}@}. <!--SR:!fsrs,2028-08-20T00:00:00.000Z,703,702.57151752,2.49272837,2,9,0,0,2026-09-17T00:00:00.000Z!2026-10-24,280,330!2026-10-19,275,330!2026-10-16,276,330!fsrs,2030-01-20T00:00:00.000Z,1195,1195.07164214,1,2,9,0,0,2026-10-13T00:00:00.000Z-->
+The goal is to implement {@{a method `encode(phoneNumber)`}@} that returns {@{every sequence of dictionary words}@} whose {@{concatenated numeric encodings match the input number}@}. For example, {@{the phone number `"7225247386"`}@} can be expressed as the single mnemonic phrase {@{`"Scala is fun"`}@}. <!--SR:!fsrs,2028-08-20T00:00:00.000Z,703,702.57151752,2.49272837,2,9,0,0,2026-09-17T00:00:00.000Z!2026-10-24,280,330!2026-10-19,275,330!fsrs,2030-02-03T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-10-16T00:00:00.000Z!fsrs,2030-01-20T00:00:00.000Z,1195,1195.07164214,1,2,9,0,0,2026-10-13T00:00:00.000Z-->
 
 ### `Coder`
 
@@ -68,7 +68,7 @@ The goal is to implement {@{a method `encode(phoneNumber)`}@} that returns {@{ev
 
 #### `Coder.wordCode`
 
-With {@{`charCode` available}@}, {@{any word}@} can be turned {@{into the numeric string it represents}@}.  The method simply {@{upper-cases the word and looks up each character}@}: <!--SR:!2026-10-31,287,330!2026-10-16,276,330!fsrs,2028-02-12T00:00:00.000Z,516,515.62997874,5.00637887,2,9,0,0,2026-09-14T00:00:00.000Z!fsrs,2030-01-15T00:00:00.000Z,1191,1191.26470738,1,2,9,0,0,2026-10-12T00:00:00.000Z-->
+With {@{`charCode` available}@}, {@{any word}@} can be turned {@{into the numeric string it represents}@}.  The method simply {@{upper-cases the word and looks up each character}@}: <!--SR:!2026-10-31,287,330!fsrs,2028-11-27T00:00:00.000Z,773,772.81357058,2.49272837,2,9,0,0,2026-10-16T00:00:00.000Z!fsrs,2028-02-12T00:00:00.000Z,516,515.62997874,5.00637887,2,9,0,0,2026-09-14T00:00:00.000Z!fsrs,2030-01-15T00:00:00.000Z,1191,1191.26470738,1,2,9,0,0,2026-10-12T00:00:00.000Z-->
 
 > [!example] __`Coder.wordCode`__
 >
@@ -92,11 +92,11 @@ With {@{`charCode` available}@}, {@{any word}@} can be turned {@{into the numeri
 > private val wordsForNum: Map[String, List[String]] =
 >   words.groupBy(wordCode).withDefaultValue(Nil)
 > ```
-<!--SR:!fsrs,2029-12-15T00:00:00.000Z,1168,1168.38706892,1,2,9,0,0,2026-10-04T00:00:00.000Z!fsrs,2030-01-01T00:00:00.000Z,1180,1179.83367202,1,2,9,0,0,2026-10-09T00:00:00.000Z!fsrs,2029-07-09T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-09-02T00:00:00.000Z!fsrs,2028-09-06T00:00:00.000Z,715,715.17050691,2.49272837,2,9,0,0,2026-09-22T00:00:00.000Z!2026-10-16,276,330!2026-10-19,275,330-->
+<!--SR:!fsrs,2029-12-15T00:00:00.000Z,1168,1168.38706892,1,2,9,0,0,2026-10-04T00:00:00.000Z!fsrs,2030-01-01T00:00:00.000Z,1180,1179.83367202,1,2,9,0,0,2026-10-09T00:00:00.000Z!fsrs,2029-07-09T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-09-02T00:00:00.000Z!fsrs,2028-09-06T00:00:00.000Z,715,715.17050691,2.49272837,2,9,0,0,2026-09-22T00:00:00.000Z!fsrs,2028-11-27T00:00:00.000Z,773,772.81357058,2.49272837,2,9,0,0,2026-10-16T00:00:00.000Z!2026-10-19,275,330-->
 
 ### `Coder.encode`
 
-{@{The core algorithm}@} is {@{a classic recursive split}@}.  If {@{the input number is empty}@}, {@{the only encoding}@} is {@{the empty list}@}; otherwise we try {@{every possible prefix length}@} and combine {@{the results of the suffix recursively}@}: <!--SR:!fsrs,2028-02-09T00:00:00.000Z,514,513.71227157,5.00637887,2,9,0,0,2026-09-13T00:00:00.000Z!fsrs,2029-12-20T00:00:00.000Z,1172,1172.20432607,1,2,9,0,0,2026-10-05T00:00:00.000Z!2026-10-21,277,330!2026-10-27,283,330!2026-10-16,276,330!fsrs,2030-01-10T00:00:00.000Z,1187,1187.45608877,1,2,9,0,0,2026-10-11T00:00:00.000Z!2026-11-02,289,330-->
+{@{The core algorithm}@} is {@{a classic recursive split}@}.  If {@{the input number is empty}@}, {@{the only encoding}@} is {@{the empty list}@}; otherwise we try {@{every possible prefix length}@} and combine {@{the results of the suffix recursively}@}: <!--SR:!fsrs,2028-02-09T00:00:00.000Z,514,513.71227157,5.00637887,2,9,0,0,2026-09-13T00:00:00.000Z!fsrs,2029-12-20T00:00:00.000Z,1172,1172.20432607,1,2,9,0,0,2026-10-05T00:00:00.000Z!2026-10-21,277,330!2026-10-27,283,330!fsrs,2028-11-27T00:00:00.000Z,773,772.81357058,2.49272837,2,9,0,0,2026-10-16T00:00:00.000Z!fsrs,2030-01-10T00:00:00.000Z,1187,1187.45608877,1,2,9,0,0,2026-10-11T00:00:00.000Z!2026-11-02,289,330-->
 
 > [!example] __`Coder.encode`__
 >
@@ -241,7 +241,7 @@ Running {@{this against the sample list}@} returns {@{each qualifying author twi
 
 ### translating queries to higher-order functions
 
-{@{The query}@} that extracts {@{titles of books}@} with an author whose {@{name starts with "Bird"}@} can be expressed using higher-order functions as: <!--SR:!2026-10-26,282,330!2026-11-03,290,330!2026-10-16,276,330-->
+{@{The query}@} that extracts {@{titles of books}@} with an author whose {@{name starts with "Bird"}@} can be expressed using higher-order functions as: <!--SR:!2026-10-26,282,330!2026-11-03,290,330!fsrs,2028-11-27T00:00:00.000Z,773,772.81357058,2.49272837,2,9,0,0,2026-10-16T00:00:00.000Z-->
 
 > [!example] __simple database query filtering by author__
 >

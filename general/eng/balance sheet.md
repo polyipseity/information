@@ -111,7 +111,7 @@ __Net current assets__ means {@{current [assets](asset.md) minus current liabili
 
 ### equity / capital
 
-The net [assets](asset.md) shown by the balance sheet equals {@{the third part of the balance sheet, which is known as the [shareholders' equity](equity%20(finance).md)}@}. It comprises: {@{controlling interest and non-controlling interest}@}. <!--SR:!2028-01-02,905,330!2026-10-16,578,330-->
+The net [assets](asset.md) shown by the balance sheet equals {@{the third part of the balance sheet, which is known as the [shareholders' equity](equity%20(finance).md)}@}. It comprises: {@{controlling interest and non-controlling interest}@}. <!--SR:!2028-01-02,905,330!fsrs,2033-01-31T00:00:00.000Z,2299,2298.51865657,1,2,10,0,0,2026-10-16T00:00:00.000Z-->
 
 1. issued capital and [reserves](reserve%20(accounting).md) attributable to equity holders of the [parent company](holding%20company.md#parent%20company) (controlling interest)
 2. [non-controlling interest](minority%20interest.md) in equity

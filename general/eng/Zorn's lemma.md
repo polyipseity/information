@@ -93,7 +93,7 @@ Take {@{_I_ to be the union of all the ideals in _T_}@}. We wish to {@{show that
 
 __\#1 - _I_ is a nonempty subset of _R_.__
 
-Because {@{_T_ contains at least one element}@}, and {@{that element contains at least 0}@}, {@{the union _I_ contains at least 0 and is not empty}@}. {@{Every element of _T_ is a subset of _R_}@}, so {@{the union _I_ only consists of elements in _R_}@}. <!--SR:!2028-05-30,975,350!2030-07-23,1612,370!2030-08-23,1635,370!2027-09-07,704,330!2026-10-16,503,330-->
+Because {@{_T_ contains at least one element}@}, and {@{that element contains at least 0}@}, {@{the union _I_ contains at least 0 and is not empty}@}. {@{Every element of _T_ is a subset of _R_}@}, so {@{the union _I_ only consists of elements in _R_}@}. <!--SR:!2028-05-30,975,350!2030-07-23,1612,370!2030-08-23,1635,370!2027-09-07,704,330!fsrs,2032-05-13T00:00:00.000Z,2036,2035.62322268,1,2,10,0,0,2026-10-16T00:00:00.000Z-->
 
 __\#2 - For every _x_, _y_ ∈ _I_, the sum _x_ + _y_ is in _I_.__
 

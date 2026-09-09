@@ -41,7 +41,7 @@ Indeed, any domain that {@{supplies these methods}@}—{@{booleans, strings, tup
 > ```
 <!--SR:!2026-10-31,287,330!2026-10-25,281,330-->
 
-{@{Concrete generators}@} can be created by {@{extending the trait `Generator`}@}.  For example, {@{an integer generator}@} that draws {@{from a `java.util.Random` instance}@} looks like <!--SR:!fsrs,2029-12-28T00:00:00.000Z,1176,1176.0199518,1,2,9,0,0,2026-10-09T00:00:00.000Z!2026-10-16,275,330!2026-10-24,280,330!2026-10-25,281,330-->
+{@{Concrete generators}@} can be created by {@{extending the trait `Generator`}@}.  For example, {@{an integer generator}@} that draws {@{from a `java.util.Random` instance}@} looks like <!--SR:!fsrs,2029-12-28T00:00:00.000Z,1176,1176.0199518,1,2,9,0,0,2026-10-09T00:00:00.000Z!fsrs,2030-01-31T00:00:00.000Z,1203,1202.68030072,1,2,9,0,0,2026-10-16T00:00:00.000Z!2026-10-24,280,330!2026-10-25,281,330-->
 
 > [!example] __integer generator__
 >
@@ -163,7 +163,7 @@ The compiler rewrites {@{these _for_ expressions}@} in the same way {@{it does f
 >   case Inner(left: Tree, right: Tree)
 >   case Leaf(x: Int)
 > ```
-<!--SR:!2026-10-16,275,330!fsrs,2030-01-26T00:00:00.000Z,1199,1198.87680538,1,2,9,0,0,2026-10-15T00:00:00.000Z!2026-10-26,282,330!fsrs,2029-08-11T00:00:00.000Z,1065,1064.62815785,1,2,9,0,0,2026-09-11T00:00:00.000Z-->
+<!--SR:!fsrs,2030-01-31T00:00:00.000Z,1203,1202.68030072,1,2,9,0,0,2026-10-16T00:00:00.000Z!fsrs,2030-01-26T00:00:00.000Z,1199,1198.87680538,1,2,9,0,0,2026-10-15T00:00:00.000Z!2026-10-26,282,330!fsrs,2029-08-11T00:00:00.000Z,1065,1064.62815785,1,2,9,0,0,2026-09-11T00:00:00.000Z-->
 
 we can generate {@{leaves and inner nodes}@} by combining {@{existing generators}@}: <!--SR:!2026-10-27,283,330!2026-10-22,278,330-->
 
@@ -257,7 +257,7 @@ For a type to be {@{considered a true monad}@}, {@{three algebraic laws}@} must 
 - __Left Identity (Left Unit Law)__ ::@:: `unit(x).flatMap(f) == f(x)` <!--SR:!2026-11-07,293,330!fsrs,2029-10-22T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-09-26T00:00:00.000Z-->
 - __Right Identity (Right Unit Law)__ ::@:: `m.flatMap(unit) == m` <!--SR:!fsrs,2030-01-02T00:00:00.000Z,1180,1179.83367202,1,2,9,0,0,2026-10-10T00:00:00.000Z!fsrs,2029-11-11T00:00:00.000Z,1138,1137.78464757,1,2,9,0,0,2026-09-30T00:00:00.000Z-->
 
-{@{These laws}@} ensure that {@{monadic chaining behaves predictably}@}, enabling {@{reasoning about code and allowing optimizations}@}. <!--SR:!fsrs,2029-11-11T00:00:00.000Z,1138,1137.78464757,1,2,9,0,0,2026-09-30T00:00:00.000Z!2026-10-16,275,330!2026-11-04,290,330-->
+{@{These laws}@} ensure that {@{monadic chaining behaves predictably}@}, enabling {@{reasoning about code and allowing optimizations}@}. <!--SR:!fsrs,2029-11-11T00:00:00.000Z,1138,1137.78464757,1,2,9,0,0,2026-09-30T00:00:00.000Z!fsrs,2030-01-31T00:00:00.000Z,1203,1202.68030072,1,2,9,0,0,2026-10-16T00:00:00.000Z!2026-11-04,290,330-->
 
 ### `map`
 
@@ -280,9 +280,9 @@ Because {@{every monad supports this construction}@}, it is often convenient to 
 {@{Typical examples}@} include: \(annotation: 4 items: {@{`List`, `Set`, `Option`, `Generator`}@}\) <!--SR:!2026-11-01,288,330!2026-10-31,287,330-->
 
 - `List`: ::@:: `unit(x) = List(x)` <!--SR:!2026-11-08,294,330!fsrs,2029-10-18T00:00:00.000Z,1119,1118.59914239,1,2,9,0,0,2026-09-25T00:00:00.000Z-->
-- `Set`:  ::@:: `unit(x) = Set(x)` <!--SR:!2026-10-16,275,330!fsrs,2030-01-26T00:00:00.000Z,1199,1198.87680538,1,2,9,0,0,2026-10-15T00:00:00.000Z-->
+- `Set`:  ::@:: `unit(x) = Set(x)` <!--SR:!fsrs,2030-01-31T00:00:00.000Z,1203,1202.68030072,1,2,9,0,0,2026-10-16T00:00:00.000Z!fsrs,2030-01-26T00:00:00.000Z,1199,1198.87680538,1,2,9,0,0,2026-10-15T00:00:00.000Z-->
 - `Option`: ::@:: `unit(x) = Some(x)` <!--SR:!2026-10-29,285,330!fsrs,2029-11-16T00:00:00.000Z,1142,1141.61620684,1,2,9,0,0,2026-10-01T00:00:00.000Z-->
-- `Generator`: ::@:: `unit(x) = single(x)` <!--SR:!2026-10-16,275,330!2026-10-25,281,330-->
+- `Generator`: ::@:: `unit(x) = single(x)` <!--SR:!fsrs,2030-01-31T00:00:00.000Z,1203,1202.68030072,1,2,9,0,0,2026-10-16T00:00:00.000Z!2026-10-25,281,330-->
 
 {@{All of these types}@} provide {@{a natural implementation of `flatMap`}@} that preserves {@{the structure of the container}@}. <!--SR:!fsrs,2029-11-11T00:00:00.000Z,1138,1137.78464757,1,2,9,0,0,2026-09-30T00:00:00.000Z!2026-10-25,281,330!fsrs,2029-12-28T00:00:00.000Z,1176,1176.0199518,1,2,9,0,0,2026-10-09T00:00:00.000Z-->
 
@@ -309,7 +309,7 @@ Because {@{every monad supports this construction}@}, it is often convenient to 
 
 ## `Option`
 
-For instance, consider {@{Scala's `Option`}@}. {@{Its `flatMap`}@} is defined by {@{pattern matching}@}: <!--SR:!fsrs,2029-12-04T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-10-04T00:00:00.000Z!fsrs,2030-01-21T00:00:00.000Z,1195,1195.07164214,1,2,9,0,0,2026-10-14T00:00:00.000Z!2026-10-16,275,330-->
+For instance, consider {@{Scala's `Option`}@}. {@{Its `flatMap`}@} is defined by {@{pattern matching}@}: <!--SR:!fsrs,2029-12-04T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-10-04T00:00:00.000Z!fsrs,2030-01-21T00:00:00.000Z,1195,1195.07164214,1,2,9,0,0,2026-10-14T00:00:00.000Z!fsrs,2030-01-31T00:00:00.000Z,1203,1202.68030072,1,2,9,0,0,2026-10-16T00:00:00.000Z-->
 
 > [!example] __`Option.flatMap`__
 >

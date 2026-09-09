@@ -201,7 +201,7 @@ To {@{prove the inclusion–exclusion principle for the cardinality of sets}@}, 
 - [maximum-minimums identity](maximum-minimums%20identity.md) – ::@:: Relates the maximum element of a set of numbers and the minima of its non-empty subsets <!--SR:!2028-08-16,1094,351!2029-07-28,1362,350-->
 - [necklace problem](necklace%20problem.md)
 - [pigeonhole principle](pigeonhole%20principle.md) – ::@:: If there are more items than boxes holding them, one box must contain at least two items <!--SR:!2029-11-27,1469,360!2030-08-13,1674,371-->
-- [Schuette–Nesbitt formula](Schuette–Nesbitt%20formula.md) – ::@:: mathematical formula in probability theory <!--SR:!2026-10-16,499,300!2028-04-01,953,330-->
+- [Schuette–Nesbitt formula](Schuette–Nesbitt%20formula.md) – ::@:: mathematical formula in probability theory <!--SR:!fsrs,2030-02-01T00:00:00.000Z,1204,1204.30841481,3.61660337,2,10,0,0,2026-10-16T00:00:00.000Z!2028-04-01,953,330-->
 
 ## notes
 

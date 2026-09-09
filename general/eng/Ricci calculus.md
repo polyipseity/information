@@ -65,7 +65,7 @@ This is not to be confused with {@{[van der Waerden notation](Van%20der%20Waerde
 
 {@{Ricci calculus, and [index notation](abstract%20index%20notation.md) more generally}@}, distinguishes between {@{lower indices \(subscripts\) and upper indices \(superscripts\)}@}; the latter are {@{_not_ exponents}@}, even though they may {@{look as such to the reader only familiar with other parts of mathematics}@}. <!--SR:!2026-10-23,292,330!2026-12-04,328,350!fsrs,2029-08-20T00:00:00.000Z,1092,1091.66087084,1,2,9,0,0,2026-08-24T00:00:00.000Z!2026-12-16,340,350-->
 
-In the special case that {@{the metric tensor is everywhere equal to the identity matrix}@}, it is possible to {@{drop the distinction between upper and lower indices}@}, and then {@{all indices could be written in the lower position}@}. {@{Coordinate formulae in linear algebra}@} such as {@{$a_{ij}b_{jk}$ for the product of matrices}@} may be {@{examples of this}@}. But in general, {@{the distinction between upper and lower indices should be maintained}@}. <!--SR:!2026-11-22,322,350!2026-10-18,287,330!2026-10-16,285,330!2026-11-27,321,350!2026-12-04,328,350!2026-12-24,347,350!2026-12-26,349,350-->
+In the special case that {@{the metric tensor is everywhere equal to the identity matrix}@}, it is possible to {@{drop the distinction between upper and lower indices}@}, and then {@{all indices could be written in the lower position}@}. {@{Coordinate formulae in linear algebra}@} such as {@{$a_{ij}b_{jk}$ for the product of matrices}@} may be {@{examples of this}@}. But in general, {@{the distinction between upper and lower indices should be maintained}@}. <!--SR:!2026-11-22,322,350!2026-10-18,287,330!fsrs,2030-03-10T00:00:00.000Z,1241,1240.62340626,1,2,9,0,0,2026-10-16T00:00:00.000Z!2026-11-27,321,350!2026-12-04,328,350!2026-12-24,347,350!2026-12-26,349,350-->
 
 #### [covariant tensor components](covariance%20and%20contravariance%20of%20vectors.md)
 
@@ -256,7 +256,7 @@ For {@{an arbitrary tensor}@}:<sup>[\[17\]](#^ref-17)</sup> {@{$${\begin{aligned
 
 {@{An [affine connection](affine%20connection.md) that is also a metric connection}@} is called {@{a [Riemannian connection](Riemannian%20connection.md#Riemannian%20connection)}@}. {@{A Riemannian connection that is torsion-free}@} \(i.e., for which {@{the [torsion tensor](torsion%20tensor.md) vanishes}@}: {@{_T_<sup>_α_</sup><sub>_βγ_</sub> = 0}@}\) is {@{a [Levi-Civita connection](Levi-Civita%20connection.md)}@}. <!--SR:!2026-12-20,344,350!2026-11-20,314,350!fsrs,2029-09-03T00:00:00.000Z,1103,1103.2172026,1,2,9,0,0,2026-08-27T00:00:00.000Z!2026-11-14,314,350!2026-12-02,326,350!2026-11-27,321,350-->
 
-{@{The Γ<sup>_α_</sup><sub>_βγ_</sub>}@} for {@{a Levi-Civita connection in a coordinate basis}@} are called {@{[Christoffel symbols](Christoffel%20symbols.md) of the second kind}@}. <!--SR:!2026-12-13,337,350!2026-12-15,339,350!2026-10-16,285,330-->
+{@{The Γ<sup>_α_</sup><sub>_βγ_</sub>}@} for {@{a Levi-Civita connection in a coordinate basis}@} are called {@{[Christoffel symbols](Christoffel%20symbols.md) of the second kind}@}. <!--SR:!2026-12-13,337,350!2026-12-15,339,350!fsrs,2030-03-10T00:00:00.000Z,1241,1240.62340626,1,2,9,0,0,2026-10-16T00:00:00.000Z-->
 
 ### [exterior derivative](exterior%20derivative.md)
 
