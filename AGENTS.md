@@ -105,9 +105,19 @@ __Skills metadata__: Each skill is self-described in its `SKILL.md` frontmatter 
 - __[pytextgen](.agents/skills/pytextgen/SKILL.md)__ — Regenerate/clear content blocks, fence syntax, cloze markup, debugging
 - __[tools](.agents/skills/tools/SKILL.md)__ — Repository-wide tooling overview (includes templates & academic LMS converters), tool coordination, dependency management
 - __[pyarchivist](.agents/skills/pyarchivist/SKILL.md)__ — Archive online content, auto-maintain `index.md`, media management
-- __[academic-notes](.agents/skills/academic-notes/SKILL.md)__ — Writing notes in academic course style: frontmatter conventions, index & weekly structure, flashcard metadata, cross-references, and scaffolding templates (institution-agnostic)
 
-__Skill flow__: Most workflows use multiple skills in sequence; see individual skill files for cross-references and integration guidance.
+### Academic material ingestion
+
+- __[academic-ingest](.agents/skills/academic-ingest/SKILL.md)__ — Single entry point: classify input, resolve course, dispatch to CRUD skill
+- __[academic-crud-course-index](.agents/skills/academic-crud-course-index/SKILL.md)__ — Top-level `index.md`, exams, logistics, course scaffolding
+- __[academic-crud-index-page](.agents/skills/academic-crud-index-page/SKILL.md)__ — Sub-directory `index.md` (shared utility)
+- __[academic-crud-submission-page](.agents/skills/academic-crud-submission-page/SKILL.md)__ — Labs, tutorials, lectures, assignments (shared hierarchy)
+- __[academic-crud-topic-note](.agents/skills/academic-crud-topic-note/SKILL.md)__ — Standalone concept and lecture notes
+- __[academic-crud-question-page](.agents/skills/academic-crud-question-page/SKILL.md)__ — Problem sets, iPRs, quizzes (no submission)
+- __[academic-crud-agents](.agents/skills/academic-crud-agents/SKILL.md)__ — Course-level `AGENTS.md` files
+- __[flashcard-creation](.agents/skills/flashcard-creation/SKILL.md)__ — Flashcard markup (referenced by academic skills)
+
+__Skill flow__: Start with `academic-ingest` for all ingestion. It dispatches to the appropriate CRUD skill. Most workflows use multiple skills in sequence; see individual skill files for cross-references and integration guidance.
 
 ## Recent updates
 

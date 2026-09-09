@@ -6,11 +6,24 @@ applyTo: "special/academia/**,private/special/academia/**"
 
 # Academic notes instruction
 
-The authoritative long-form policy lives in `.agents/skills/academic-notes/SKILL.md`. Read it before acting. This file only contains cross-cutting rules that must auto-load.
+For all academic material ingestion, start with the `academic-ingest` dispatcher skill. It classifies input and routes to the correct CRUD skill.
 
-- Read `../skills/academic-notes/SKILL.md` before acting.
+- Read `../skills/academic-ingest/SKILL.md` as the entry point for all ingestion.
 - Read `../skills/academic-notes/course-template.md` as the scaffold for new course indexes.
 - The validator is at `.agents/skills/academic-notes/check.py`; run `uv run .agents/skills/academic-notes/check.py <path>` to validate the smallest relevant scope after editing.
+
+## Skills
+
+| Skill | Purpose |
+| --- | --- |
+| `academic-ingest` | Dispatcher — classify input, resolve course, route to CRUD skill |
+| `academic-crud-course-index` | Top-level `index.md`, exams, logistics, course scaffolding |
+| `academic-crud-index-page` | Sub-directory `index.md` (shared utility) |
+| `academic-crud-submission-page` | Labs, tutorials, lectures, assignments (shared hierarchy) |
+| `academic-crud-topic-note` | Standalone concept and lecture notes |
+| `academic-crud-question-page` | Problem sets, iPRs, quizzes (no submission) |
+| `academic-crud-agents` | Course-level `AGENTS.md` files |
+| `flashcard-creation` | Flashcard markup (referenced by other skills) |
 
 ## Cross-cutting rules
 
@@ -25,5 +38,4 @@ The authoritative long-form policy lives in `.agents/skills/academic-notes/SKILL
 
 ## Reference
 
-- [assignment-creation](../skills/assignment-creation/SKILL.md) — assignment-style leaf indexes
 - [special.instructions.md](special.instructions.md) — general special/ conventions
