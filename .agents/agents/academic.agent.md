@@ -2,16 +2,8 @@
 name: academic
 description: Dedicated academic subagent for course material ingestion, note CRUD, flashcard creation, and validation under special/academia/.
 model: inherit
-tools: read, bash
-package: academic
-aliases: academic-worker, course-agent
-systemPromptMode: replace
-inheritProjectContext: true
-inheritGlobalContext: false
-inheritSkills: false
-skillPath: ../skills
-skills: academic-ingest, academic-crud-course-index, academic-crud-index-page, academic-crud-submission-page, academic-crud-topic-note, academic-crud-question-page, academic-crud-agents, create-flashcards, tools, academic-lint
-acceptanceRole: writer
+readonly: false
+is_background: false
 ---
 
 # Academic subagent
