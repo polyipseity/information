@@ -18,11 +18,11 @@ In {@{a multi‑user wireless system}@}, {@{the _orthogonal resource partitionin
 
 {@{The base station}@} must {@{_separate_ the individual user streams}@} from {@{the aggregate observation $y(t)$}@}. This requires {@{distinct, mutually orthogonal resources}@}. {@{The network protocol}@} coordinates {@{resource allocation among the $K$ users}@}, assigning them {@{different frequencies, time slots, or spreading codes}@}. <!--SR:!2027-04-04,340,360!2027-04-09,345,360!2027-05-08,374,360!2027-05-13,379,360!2026-11-23,238,330!2027-04-12,350,360!2026-11-17,233,330-->
 
-{@{Three orthogonal multiple‑access strategies}@} partition {@{the shared medium}@} in {@{different domains}@}: <!--SR:!2027-02-26,324,360!2027-05-29,395,360-->
+{@{Three orthogonal multiple‑access strategies}@} partition {@{the shared medium}@} in {@{different domains}@}: <!--SR:!2027-02-26,324,360!2027-05-29,395,360!fsrs,2026-10-23T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-15T00:00:00.000Z-->
 
-1. _Frequency Division Multiple Access (FDMA)_ ::@:: – the spectrum is divided into non‑overlapping frequency bands; each user occupies a unique band.
-2. _Time Division Multiple Access (TDMA)_ ::@:: – users are assigned distinct time slots within a repeating frame; the same frequency channel is reused in successive slots.
-3. _Code Division Multiple Access (CDMA)_ ::@:: – users transmit simultaneously over the full bandwidth but use orthogonal (or almost orthogonal) spreading codes to distinguish their signals.
+1. _Frequency Division Multiple Access (FDMA)_ ::@:: – the spectrum is divided into non‑overlapping frequency bands; each user occupies a unique band. <!--SR:!fsrs,2026-10-23T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-15T00:00:00.000Z!fsrs,2026-10-23T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-15T00:00:00.000Z-->
+2. _Time Division Multiple Access (TDMA)_ ::@:: – users are assigned distinct time slots within a repeating frame; the same frequency channel is reused in successive slots. <!--SR:!fsrs,2026-10-23T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-15T00:00:00.000Z!fsrs,2026-10-23T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-15T00:00:00.000Z-->
+3. _Code Division Multiple Access (CDMA)_ ::@:: – users transmit simultaneously over the full bandwidth but use orthogonal (or almost orthogonal) spreading codes to distinguish their signals. <!--SR:!fsrs,2026-10-23T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-15T00:00:00.000Z!fsrs,2026-10-23T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-15T00:00:00.000Z-->
 
 All three require each {@{user's resource allocation}@} to be {@{_orthogonal_ to those of all others}@}, enabling clean {@{signal separation at the base station}@}. <!--SR:!2027-01-16,285,349!2027-04-29,365,360!2027-01-13,283,349-->
 

@@ -26,7 +26,7 @@ tags:
 
 {@{Time domain}@}: {@{A signal $s(t)$}@} is {@{a function of continuous time}@} showing {@{waveform shape, duration, and temporal features}@}. {@{Energy}@} is {@{$\int|s(t)|^{2}$ over the signal's support}@}. <!--SR:!2027-04-19,387,364!2026-12-01,271,345!2027-01-07,302,345!2027-01-24,315,345!2027-02-02,323,345!2027-01-02,298,345-->
 
-{@{Frequency domain}@}: {@{The Fourier transform $S(f)=\int_{-\infty}^{\infty}s(t)e^{-j2\pi ft}\,dt$}@} maps {@{the waveform into sinusoidal components}@}, revealing {@{bandwidth and spectral occupancy}@}. {@{Parseval's theorem}@} gives {@{$\int|s(t)|^{2}dt=\int|S(f)|^{2}df$}@}, so {@{energy is preserved}@}. <!--SR:!2026-12-08,277,345!2027-02-20,337,345!2026-12-06,275,345!2027-04-05,376,364!2027-02-25,342,345!2027-02-19,337,345-->
+{@{Frequency domain}@}: {@{The Fourier transform $S(f)=\int_{-\infty}^{\infty}s(t)e^{-j2\pi ft}\,dt$}@} maps {@{the waveform into sinusoidal components}@}, revealing {@{bandwidth and spectral occupancy}@}. {@{Parseval's theorem}@} gives {@{$\int|s(t)|^{2}dt=\int|S(f)|^{2}df$}@}, so {@{energy is preserved}@}. <!--SR:!2026-12-08,277,345!2027-02-20,337,345!2026-12-06,275,345!2027-04-05,376,364!2027-02-25,342,345!2027-02-19,337,345!fsrs,2026-10-23T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-15T00:00:00.000Z-->
 
 {@{Geometric domain}@}: {@{Each waveform}@} is {@{a vector in an abstract Hilbert space}@} with {@{inner product}@} {@{$\langle u,v\rangle=\int_{0}^{T}u(t)v^{*}(t)\,dt$}@}. {@{Choosing a finite-dimensional orthonormal basis}@} converts {@{the signal into a coordinate vector}@}, letting {@{Euclidean geometry tools}@} analyze {@{constellations, design matched filters, and evaluate error probabilities}@}. <!--SR:!2027-02-15,334,345!2027-01-22,312,345!2027-02-11,330,345!2026-12-26,292,345!2026-12-17,284,345!2026-12-06,275,345!2026-12-19,286,345!2027-03-22,365,364!2027-02-08,328,345-->
 
@@ -78,13 +78,13 @@ For {@{any three signals $x(t),y(t),z(t)$}@}: {@{$$[x(t)+y(t)] + z(t)= x(t) + [y
 
 {@{_Additive identity_ $0(t)$}@} leaves {@{any signal unchanged}@}: {@{$$x(t)+0(t)= x(t) \,.$$}@} {@{_Additive inverse_ $-x(t)$}@}: {@{$$x(t)+[-x(t)] = 0(t) \,.$$}@} <!--SR:!2027-02-04,325,345!2027-02-13,332,345!2027-02-19,337,345!2027-02-20,338,345!2026-11-11,253,330-->
 
-{@{Associativity of scalar multiplication}@}: {@{$$a(b\,x(t)) = (ab)\,x(t) \,.$$}@} {@{Multiplicative identity (field element $1$)}@}: {@{$$1\,x(t)= x(t) \,.$$}@}
+{@{Associativity of scalar multiplication}@}: {@{$$a(b\,x(t)) = (ab)\,x(t) \,.$$}@} {@{Multiplicative identity (field element $1$)}@}: {@{$$1\,x(t)= x(t) \,.$$}@} <!--SR:!fsrs,2026-10-23T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-15T00:00:00.000Z!fsrs,2026-10-23T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-15T00:00:00.000Z!fsrs,2026-10-23T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-15T00:00:00.000Z!fsrs,2026-10-23T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-15T00:00:00.000Z-->
 
 ### basis
 
 {@{An $n$-dimensional vector space $S$}@} is {@{the span of $n$ basis vectors $\{e_1,\dots,e_n\}$}@}: {@{$$S=\operatorname{span}(e_1,e_2,\dots ,e_n)$$}@} {@{Any $a\in S$}@} has {@{a unique linear combination}@}: {@{$$a=\sum_{i=1}^{n}c_i\,e_i \,.$$}@} {@{The _dimension_}@} equals {@{the maximum number of linearly independent vectors in $S$}@}. <!--SR:!2027-04-15,384,364!2027-04-02,374,364!2027-01-31,321,345!2027-02-01,322,345!2027-01-22,312,345!2027-04-16,385,364!2027-01-26,316,345!2026-12-24,290,345-->
 
-{@{A subspace}@} has {@{infinitely many orthonormal bases}@}; the choice is {@{arbitrary}@}. What matters is {@{the subspace itself}@}. {@{_Orthonormal_ bases}@} are preferred because they {@{simplify coordinate extraction}@} and preserve {@{energy without scaling factors}@}.
+{@{A subspace}@} has {@{infinitely many orthonormal bases}@}; the choice is {@{arbitrary}@}. What matters is {@{the subspace itself}@}. {@{_Orthonormal_ bases}@} are preferred because they {@{simplify coordinate extraction}@} and preserve {@{energy without scaling factors}@}. <!--SR:!fsrs,2026-10-23T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-15T00:00:00.000Z!fsrs,2026-10-23T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-15T00:00:00.000Z!fsrs,2026-10-23T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-15T00:00:00.000Z!fsrs,2026-10-23T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-15T00:00:00.000Z!fsrs,2026-10-23T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-15T00:00:00.000Z!fsrs,2026-10-23T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-15T00:00:00.000Z!fsrs,2026-10-23T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-15T00:00:00.000Z-->
 
 ### coordinate representation
 
@@ -118,7 +118,7 @@ If {@{$a$ and $b$ are orthogonal}@} ({@{$\langle a,b\rangle=0$}@}), then {@{$$\|
 
 Given {@{any linearly independent set $\{s_1,\dots,s_M\}$}@}, {@{the _Gram–Schmidt process_}@} constructs {@{an _orthonormal_ basis $\{\phi_1,\dots,\phi_P\}$}@} for {@{the subspace they span}@}. Start with {@{a normalised copy of $s_1$}@}; then {@{subtract projections onto prior basis vectors and normalise}@}. <!--SR:!2027-01-04,299,345!2027-01-31,321,345!2027-01-08,303,345!2027-03-21,363,364!2026-12-14,282,345!2027-02-04,325,345-->
 
-{@{The GS algorithm}@} is: \(annotation: 3 items: {@{first basis vector → remaining basis vectors → skip conditions}@}\) <!--SR:!2026-12-18,285,345-->
+{@{The GS algorithm}@} is: \(annotation: 3 items: {@{first basis vector → remaining basis vectors → skip conditions}@}\) <!--SR:!2026-12-18,285,345!fsrs,2026-10-23T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-15T00:00:00.000Z-->
 
 1. first basis vector ::@:: Set $\phi_1 = s_1/\|s_1\|$. <!--SR:!2026-12-27,293,345!2026-12-28,294,345-->
 2. remaining basis vectors ::@:: For $k=2$ to $M$: compute the projection of $s_k$ onto the span of $\{\phi_1,\dots,\phi_{k-1}\}$; subtract this projection from $s_k$ and normalise the remainder to get $\phi_k$. <!--SR:!2027-02-14,333,345!fsrs,2029-02-03T00:00:00.000Z,893,892.52825833,1,2,9,0,0,2026-08-25T00:00:00.000Z-->
