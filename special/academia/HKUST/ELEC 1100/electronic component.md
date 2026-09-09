@@ -51,7 +51,7 @@ Flashcards for this section are as follows:
 
 - electricity ::@:: Electricity is the flow of electrical power or charge; static electricity occurs when charges gather in one place and current electricity is when they move. <!--SR:!2027-01-16,246,330!2027-01-23,251,330-->
 - static electricity ::@:: Electrical effects caused by an imbalance of positive and negative charges between objects. <!--SR:!2027-01-25,253,330!2027-03-02,272,330-->
-- charge attraction/repulsion ::@:: Opposite charges attract; like charges repel. <!--SR:!2026-10-18,170,310!2027-01-21,251,330-->
+- charge attraction/repulsion ::@:: Opposite charges attract; like charges repel. <!--SR:!fsrs,2028-10-24T00:00:00.000Z,737,737.40151351,1,2,8,0,0,2026-10-18T00:00:00.000Z!2027-01-21,251,330-->
 - current electricity focus ::@:: Current electricity refers to moving charges and is the primary focus of ELEC 1100. <!--SR:!2027-02-27,269,330!2027-02-25,267,330-->
 
 ### atoms and charge

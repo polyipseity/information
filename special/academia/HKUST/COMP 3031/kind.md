@@ -81,7 +81,7 @@ Intuitively, {@{a type function}@} is like {@{an ordinary function}@}, but accep
 >
 > {@{`unit`}@} {@{injects a value}@}, {@{`flatMap`}@} {@{chains computations}@}, and {@{`map`}@} is {@{derived from `flatMap`}@}. <!--SR:!2027-01-14,288,330!2026-11-16,246,330!2026-11-06,237,330!2026-12-24,271,330!2026-11-16,246,330!2026-12-16,264,330!2026-11-27,255,330!2026-12-04,255,330-->
 
-{@{A concrete instance of `Monad`, `ListMonad`}@}, shows how {@{the abstraction works}@}: <!--SR:!2026-10-18,199,310!2027-01-10,285,330-->
+{@{A concrete instance of `Monad`, `ListMonad`}@}, shows how {@{the abstraction works}@}: <!--SR:!fsrs,2029-02-10T00:00:00.000Z,846,845.59777468,1,2,9,0,0,2026-10-18T00:00:00.000Z!2027-01-10,285,330-->
 
 > [!example] __list monad__
 >

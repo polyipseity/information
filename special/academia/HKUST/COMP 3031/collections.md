@@ -73,7 +73,7 @@ Overall, lists provide {@{a simple yet powerful abstraction}@} for {@{ordered co
 
 Scala's {@{immutable `List`}@} is {@{covariant}@}. This means that {@{`List[A]` is a subtype of `List[B]`}@} whenever {@{`A` is a subtype of `B`}@}. Covariance is denoted by {@{the `+` symbol in the type parameter}@}: {@{`List[+T]`}@}. <!--SR:!fsrs,2029-10-23T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-09-27T00:00:00.000Z!2026-11-06,292,330!2026-10-20,278,330!fsrs,2029-11-19T00:00:00.000Z,1144,1144.03786294,1,2,9,0,0,2026-10-02T00:00:00.000Z!fsrs,2029-07-18T00:00:00.000Z,1045,1045.2595081,1,2,9,0,0,2026-09-07T00:00:00.000Z!fsrs,2028-11-22T00:00:00.000Z,768,767.82070873,2.49272837,2,9,0,0,2026-10-16T00:00:00.000Z-->
 
-By declaring it {@{covariant (`sealed abstract class List[+T]`)}@} we allow {@{`Nil`}@} to be represented as {@{a singleton object of type `List[Nothing]`}@}, which is {@{a subtype of any `List[T]`}@}. <!--SR:!2026-10-26,282,330!fsrs,2028-08-27T00:00:00.000Z,705,705.09333259,2.49272837,2,9,0,0,2026-09-22T00:00:00.000Z!2026-10-18,276,330!fsrs,2030-01-03T00:00:00.000Z,1180,1179.83367202,1,2,9,0,0,2026-10-11T00:00:00.000Z-->
+By declaring it {@{covariant (`sealed abstract class List[+T]`)}@} we allow {@{`Nil`}@} to be represented as {@{a singleton object of type `List[Nothing]`}@}, which is {@{a subtype of any `List[T]`}@}. <!--SR:!2026-10-26,282,330!fsrs,2028-08-27T00:00:00.000Z,705,705.09333259,2.49272837,2,9,0,0,2026-09-22T00:00:00.000Z!fsrs,2030-02-05T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-10-18T00:00:00.000Z!fsrs,2030-01-03T00:00:00.000Z,1180,1179.83367202,1,2,9,0,0,2026-10-11T00:00:00.000Z-->
 
 However, adding {@{a method that "mutates" \(no actual mutation occurs\) the list}@} \(e.g. {@{`prepend(elem: T): List[T]`}@}\) {@{breaks covariance}@} because it {@{accepts an argument of type `T`—an input position for a covariant parameter}@}. To restore {@{variance correctness}@} we can use {@{a lower bound on the method's parameter}@}: <!--SR:!fsrs,2028-08-09T00:00:00.000Z,760,759.95962134,1,2,8,0,0,2026-07-11T00:00:00.000Z!fsrs,2028-08-20T00:00:00.000Z,700,700.04868809,2.49272837,2,9,0,0,2026-09-20T00:00:00.000Z!fsrs,2029-10-19T00:00:00.000Z,1119,1118.59914239,1,2,9,0,0,2026-09-26T00:00:00.000Z!fsrs,2028-08-27T00:00:00.000Z,705,705.09333259,2.49272837,2,9,0,0,2026-09-22T00:00:00.000Z!fsrs,2030-01-22T00:00:00.000Z,1195,1195.07164214,1,2,9,0,0,2026-10-15T00:00:00.000Z!2027-06-11,464,383-->
 
@@ -86,9 +86,9 @@ However, adding {@{a method that "mutates" \(no actual mutation occurs\) the lis
 >   def prepend[U >: T](elem: U): List[U] = Cons(elem, this)
 > ```
 >
-> This is okay because {@{covariant parameters}@} can be used in {@{lower bounds of method type parameters}@}. The same holds for {@{upper bounds of method type parameters}@} and {@{contravariant parameters}@}. <!--SR:!fsrs,2028-02-01T00:00:00.000Z,506,506.03526322,5.00637887,2,9,0,0,2026-09-13T00:00:00.000Z!fsrs,2028-08-09T00:00:00.000Z,692,692.47401324,2.49272837,2,9,0,0,2026-09-17T00:00:00.000Z!fsrs,2029-12-10T00:00:00.000Z,1161,1160.74715681,1,2,9,0,0,2026-10-06T00:00:00.000Z!fsrs,2029-10-28T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-09-28T00:00:00.000Z!fsrs,2030-01-27T00:00:00.000Z,1199,1198.87680538,1,2,9,0,0,2026-10-16T00:00:00.000Z!fsrs,2028-08-23T00:00:00.000Z,771,771.20338158,1,2,8,0,0,2026-07-14T00:00:00.000Z!2027-07-24,473,310!2026-10-18,276,330!2026-10-28,284,330!2027-06-10,463,383-->
+> This is okay because {@{covariant parameters}@} can be used in {@{lower bounds of method type parameters}@}. The same holds for {@{upper bounds of method type parameters}@} and {@{contravariant parameters}@}. <!--SR:!fsrs,2028-02-01T00:00:00.000Z,506,506.03526322,5.00637887,2,9,0,0,2026-09-13T00:00:00.000Z!fsrs,2028-08-09T00:00:00.000Z,692,692.47401324,2.49272837,2,9,0,0,2026-09-17T00:00:00.000Z!fsrs,2029-12-10T00:00:00.000Z,1161,1160.74715681,1,2,9,0,0,2026-10-06T00:00:00.000Z!fsrs,2029-10-28T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-09-28T00:00:00.000Z!fsrs,2030-01-27T00:00:00.000Z,1199,1198.87680538,1,2,9,0,0,2026-10-16T00:00:00.000Z!fsrs,2028-08-23T00:00:00.000Z,771,771.20338158,1,2,8,0,0,2026-07-14T00:00:00.000Z!2027-07-24,473,310!fsrs,2030-02-05T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-10-18T00:00:00.000Z!2026-10-28,284,330!2027-06-10,463,383-->
 
-This is okay because {@{covariant parameters}@} can be used in {@{lower bounds of method type parameters}@}. The same holds for {@{upper bounds of method type parameters}@} and {@{contravariant parameters}@}. Now `prepend` accepts {@{any supertype of `T`}@}, producing a list whose {@{element type is that supertype}@}. For example, calling {@{`xs.prepend(orange)` on a `List[Apple]`}@} \(where {@{`Apple` and `Orange` are _direct_ subclasses of `Fruit`}@}\) yields {@{a `List[Fruit]`}@}. <!--SR:!2026-10-31,287,330!fsrs,2028-08-31T00:00:00.000Z,708,707.6141386,2.49272837,2,9,0,0,2026-09-23T00:00:00.000Z!2026-10-26,282,330!2026-10-19,277,330!2026-10-24,280,330!2026-10-18,276,330!2027-06-29,455,330!fsrs,2030-01-27T00:00:00.000Z,1199,1198.87680538,1,2,9,0,0,2026-10-16T00:00:00.000Z!2027-06-09,462,383-->
+This is okay because {@{covariant parameters}@} can be used in {@{lower bounds of method type parameters}@}. The same holds for {@{upper bounds of method type parameters}@} and {@{contravariant parameters}@}. Now `prepend` accepts {@{any supertype of `T`}@}, producing a list whose {@{element type is that supertype}@}. For example, calling {@{`xs.prepend(orange)` on a `List[Apple]`}@} \(where {@{`Apple` and `Orange` are _direct_ subclasses of `Fruit`}@}\) yields {@{a `List[Fruit]`}@}. <!--SR:!2026-10-31,287,330!fsrs,2028-08-31T00:00:00.000Z,708,707.6141386,2.49272837,2,9,0,0,2026-09-23T00:00:00.000Z!2026-10-26,282,330!2026-10-19,277,330!2026-10-24,280,330!fsrs,2030-02-05T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-10-18T00:00:00.000Z!2027-06-29,455,330!fsrs,2030-01-27T00:00:00.000Z,1199,1198.87680538,1,2,9,0,0,2026-10-16T00:00:00.000Z!2027-06-09,462,383-->
 
 An alternative to {@{adding a method type parameter}@} is to {@{use extension methods (available in Scala 3)}@}. By defining {@{an extension method for the element type rather than the list itself}@}, we sidestep {@{variance violations}@}: <!--SR:!fsrs,2029-10-28T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-09-28T00:00:00.000Z!fsrs,2029-06-24T00:00:00.000Z,1026,1025.83973773,1,2,9,0,0,2026-09-02T00:00:00.000Z!2026-11-01,288,330!2026-10-20,278,330-->
 
@@ -105,7 +105,7 @@ An alternative to {@{adding a method type parameter}@} is to {@{use extension me
 
 ### list methods
 
-Lists are {@{the fundamental data structure}@} that will {@{recur throughout the course}@}. In Scala a list is {@{an immutable linked-list whose type carries the element type}@}: {@{`List[Fruit]`}@}. A list can be constructed in {@{two idiomatic ways}@}: using {@{the factory method `List.apply`}@}, which accepts {@{zero or more arguments}@}, or by prepending {@{elements to the sentinel value `Nil` with the cons operator (`::`)}@}. For example: <!--SR:!2026-10-30,286,330!fsrs,2029-06-14T00:00:00.000Z,1018,1018.05728725,1,2,9,0,0,2026-08-31T00:00:00.000Z!fsrs,2029-07-28T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-09-09T00:00:00.000Z!fsrs,2028-01-29T00:00:00.000Z,504,504.11440767,5.00637887,2,9,0,0,2026-09-12T00:00:00.000Z!fsrs,2028-08-20T00:00:00.000Z,700,700.04868809,2.49272837,2,9,0,0,2026-09-20T00:00:00.000Z!fsrs,2030-01-22T00:00:00.000Z,1195,1195.07164214,1,2,9,0,0,2026-10-15T00:00:00.000Z!fsrs,2029-06-14T00:00:00.000Z,1018,1018.05728725,1,2,9,0,0,2026-08-31T00:00:00.000Z!2026-10-18,276,330-->
+Lists are {@{the fundamental data structure}@} that will {@{recur throughout the course}@}. In Scala a list is {@{an immutable linked-list whose type carries the element type}@}: {@{`List[Fruit]`}@}. A list can be constructed in {@{two idiomatic ways}@}: using {@{the factory method `List.apply`}@}, which accepts {@{zero or more arguments}@}, or by prepending {@{elements to the sentinel value `Nil` with the cons operator (`::`)}@}. For example: <!--SR:!2026-10-30,286,330!fsrs,2029-06-14T00:00:00.000Z,1018,1018.05728725,1,2,9,0,0,2026-08-31T00:00:00.000Z!fsrs,2029-07-28T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-09-09T00:00:00.000Z!fsrs,2028-01-29T00:00:00.000Z,504,504.11440767,5.00637887,2,9,0,0,2026-09-12T00:00:00.000Z!fsrs,2028-08-20T00:00:00.000Z,700,700.04868809,2.49272837,2,9,0,0,2026-09-20T00:00:00.000Z!fsrs,2030-01-22T00:00:00.000Z,1195,1195.07164214,1,2,9,0,0,2026-10-15T00:00:00.000Z!fsrs,2029-06-14T00:00:00.000Z,1018,1018.05728725,1,2,9,0,0,2026-08-31T00:00:00.000Z!fsrs,2030-02-05T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-10-18T00:00:00.000Z-->
 
 > [!example] __list construction__
 >
@@ -137,7 +137,7 @@ Lists are {@{the fundamental data structure}@} that will {@{recur throughout the
 > ```
 <!--SR:!2026-10-27,283,330!fsrs,2030-01-03T00:00:00.000Z,1180,1179.83367202,1,2,9,0,0,2026-10-11T00:00:00.000Z!fsrs,2029-12-29T00:00:00.000Z,1176,1176.0199518,1,2,9,0,0,2026-10-10T00:00:00.000Z!2026-10-21,279,330!2026-11-08,294,330!fsrs,2029-08-21T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-09-14T00:00:00.000Z!2026-10-26,282,330-->
 
-The `List` API offers {@{a rich set of operations}@} for {@{sublists, element access, and construction}@}. Methods such as {@{`.length`, `.take(n)`, `.drop(n)`}@}, {@{`.last` \(the last element\), `.init` \(a list of all the elements except for `.last`\) and the indexer `xs(n)`}@} provide {@{standard functional list manipulation}@}. {@{The last three}@} are {@{_partial_ methods}@} because they {@{throw exceptions on empty lists or out-of-range indices}@}; consequently it is preferable to {@{use safer alternatives whenever possible}@}. <!--SR:!2026-11-08,294,330!fsrs,2029-10-23T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-09-27T00:00:00.000Z!2026-10-18,276,330!fsrs,2028-07-09T14:11:53.577Z,756,756.20650093,1,2,8,0,0,2026-06-14T14:11:53.577Z!2026-11-01,288,330!fsrs,2029-10-09T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-09-24T00:00:00.000Z!fsrs,2028-07-30T00:00:00.000Z,685,684.89001444,2.49272837,2,9,0,0,2026-09-14T00:00:00.000Z!fsrs,2028-08-06T00:00:00.000Z,690,689.94707246,2.49272837,2,9,0,0,2026-09-16T00:00:00.000Z!2026-10-26,282,330-->
+The `List` API offers {@{a rich set of operations}@} for {@{sublists, element access, and construction}@}. Methods such as {@{`.length`, `.take(n)`, `.drop(n)`}@}, {@{`.last` \(the last element\), `.init` \(a list of all the elements except for `.last`\) and the indexer `xs(n)`}@} provide {@{standard functional list manipulation}@}. {@{The last three}@} are {@{_partial_ methods}@} because they {@{throw exceptions on empty lists or out-of-range indices}@}; consequently it is preferable to {@{use safer alternatives whenever possible}@}. <!--SR:!2026-11-08,294,330!fsrs,2029-10-23T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-09-27T00:00:00.000Z!fsrs,2030-02-05T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-10-18T00:00:00.000Z!fsrs,2028-07-09T14:11:53.577Z,756,756.20650093,1,2,8,0,0,2026-06-14T14:11:53.577Z!2026-11-01,288,330!fsrs,2029-10-09T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-09-24T00:00:00.000Z!fsrs,2028-07-30T00:00:00.000Z,685,684.89001444,2.49272837,2,9,0,0,2026-09-14T00:00:00.000Z!fsrs,2028-08-06T00:00:00.000Z,690,689.94707246,2.49272837,2,9,0,0,2026-09-16T00:00:00.000Z!2026-10-26,282,330-->
 
 {@{Additional constructors}@} include {@{concatenation (`xs ::: ys`), reversal (`xs.reverse`) and update (`xs.updated(n, x)`)}@}. {@{Element search}@} is supported by {@{`.indexOf(x)` and `.contains(x)`}@}. <!--SR:!fsrs,2028-08-17T00:00:00.000Z,698,697.52483893,2.49272837,2,9,0,0,2026-09-19T00:00:00.000Z!fsrs,2029-11-19T00:00:00.000Z,1144,1144.03786294,1,2,9,0,0,2026-10-02T00:00:00.000Z!fsrs,2029-07-04T00:00:00.000Z,1034,1033.61384781,1,2,9,0,0,2026-09-04T00:00:00.000Z!fsrs,2028-08-24T00:00:00.000Z,703,702.57151752,2.49272837,2,9,0,0,2026-09-21T00:00:00.000Z-->
 
@@ -164,7 +164,7 @@ The `List` API offers {@{a rich set of operations}@} for {@{sublists, element ac
 > ```
 <!--SR:!fsrs,2029-11-02T00:00:00.000Z,1130,1130.11601442,1,2,9,0,0,2026-09-29T00:00:00.000Z!fsrs,2029-11-25T00:00:00.000Z,1149,1149.27403969,1,2,9,0,0,2026-10-03T00:00:00.000Z!2026-10-30,286,330-->
 
-{@{The concatenation operator `:::`}@} can be implemented by {@{pattern matching on the left operand}@}. This recursive definition runs in time {@{proportional to the length of the left list, `O(xs.length)`}@}. <!--SR:!2026-10-19,277,330!2026-10-18,276,330!2026-11-05,291,330-->
+{@{The concatenation operator `:::`}@} can be implemented by {@{pattern matching on the left operand}@}. This recursive definition runs in time {@{proportional to the length of the left list, `O(xs.length)`}@}. <!--SR:!2026-10-19,277,330!fsrs,2030-02-05T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-10-18T00:00:00.000Z!2026-11-05,291,330-->
 
 > [!example] __concatenation operator `:::`__
 >
@@ -211,7 +211,7 @@ Because {@{each recursive call}@} concatenates {@{a singleton list to the result
 > ```
 <!--SR:!2026-11-06,292,330!2026-11-01,288,330-->
 
-{@{A "deep" flattening routine}@} demonstrates {@{recursion over heterogeneous structures}@}: <!--SR:!2026-10-29,285,330!2026-10-18,276,330-->
+{@{A "deep" flattening routine}@} demonstrates {@{recursion over heterogeneous structures}@}: <!--SR:!2026-10-29,285,330!fsrs,2030-02-05T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-10-18T00:00:00.000Z-->
 
 > [!example] __`deepFlatten`__
 >
@@ -252,7 +252,7 @@ Because {@{each recursive call}@} concatenates {@{a singleton list to the result
 > ```
 <!--SR:!fsrs,2030-01-22T00:00:00.000Z,1195,1195.07164214,1,2,9,0,0,2026-10-15T00:00:00.000Z!fsrs,2029-10-19T00:00:00.000Z,1119,1118.59914239,1,2,9,0,0,2026-09-26T00:00:00.000Z-->
 
-Using {@{`map`}@}, {@{a simple scaling routine}@} can be written as: <!--SR:!fsrs,2029-11-20T00:00:00.000Z,1145,1145.44606232,1,2,9,0,0,2026-10-02T00:00:00.000Z!2026-10-18,276,330-->
+Using {@{`map`}@}, {@{a simple scaling routine}@} can be written as: <!--SR:!fsrs,2029-11-20T00:00:00.000Z,1145,1145.44606232,1,2,9,0,0,2026-10-02T00:00:00.000Z!fsrs,2030-02-05T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-10-18T00:00:00.000Z-->
 
 > [!example] __`map` example__
 >
@@ -354,7 +354,7 @@ Using {@{`reduceLeft`}@}, {@{summation}@} becomes: <!--SR:!2026-11-07,293,330!fs
 > ```
 <!--SR:!fsrs,2030-01-22T00:00:00.000Z,1195,1195.07164214,1,2,9,0,0,2026-10-15T00:00:00.000Z!fsrs,2029-10-19T00:00:00.000Z,1119,1118.59914239,1,2,9,0,0,2026-09-26T00:00:00.000Z-->
 
-{@{`reduceLeft`}@} does not {@{support empty lists}@}. It also does not support {@{returning other types other than a supertype of the collection `T`}@}. {@{`foldLeft`}@} generalizes `reduceLeft` by {@{supplying an initial accumulator `z`}@} that is {@{used as a starting value}@}, and returned for {@{an empty list as the starting value is simply returned}@}. It also supports {@{returning any other types}@}, as long as {@{the initial value and the operation have the right types}@}. <!--SR:!2026-10-18,276,330!2026-10-30,286,330!2026-10-18,276,330!fsrs,2029-08-02T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-09-10T00:00:00.000Z!fsrs,2029-06-14T00:00:00.000Z,1018,1018.05728725,1,2,9,0,0,2026-08-31T00:00:00.000Z!2027-01-13,349,350!2026-12-16,324,350!2026-12-31,339,350!2026-12-19,327,350-->
+{@{`reduceLeft`}@} does not {@{support empty lists}@}. It also does not support {@{returning other types other than a supertype of the collection `T`}@}. {@{`foldLeft`}@} generalizes `reduceLeft` by {@{supplying an initial accumulator `z`}@} that is {@{used as a starting value}@}, and returned for {@{an empty list as the starting value is simply returned}@}. It also supports {@{returning any other types}@}, as long as {@{the initial value and the operation have the right types}@}. <!--SR:!fsrs,2030-02-05T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-10-18T00:00:00.000Z!2026-10-30,286,330!fsrs,2030-02-05T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-10-18T00:00:00.000Z!fsrs,2029-08-02T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-09-10T00:00:00.000Z!fsrs,2029-06-14T00:00:00.000Z,1018,1018.05728725,1,2,9,0,0,2026-08-31T00:00:00.000Z!2027-01-13,349,350!2026-12-16,324,350!2026-12-31,339,350!2026-12-19,327,350-->
 
 > [!example] __`foldLeft`__
 >
@@ -379,7 +379,7 @@ Using {@{`reduceLeft`}@}, {@{summation}@} becomes: <!--SR:!2026-11-07,293,330!fs
 > ```
 <!--SR:!fsrs,2029-10-09T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-09-24T00:00:00.000Z!fsrs,2029-12-05T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-10-05T00:00:00.000Z!2027-01-11,347,350-->
 
-{@{Replacing `foldRight` with `foldLeft`}@} would {@{reverse the order of operations}@}. When {@{the operator is associative and commutative}@}, the final result is {@{the same}@}; otherwise, {@{the types or semantics change}@}. {@{`foldRight`}@} also does not {@{work with infinite lists}@}, as there is {@{no rightmost or ending element to start folding}@}. <!--SR:!fsrs,2029-08-02T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-09-10T00:00:00.000Z!2026-11-04,290,330!fsrs,2029-12-29T00:00:00.000Z,1176,1176.0199518,1,2,9,0,0,2026-10-10T00:00:00.000Z!fsrs,2029-12-19T00:00:00.000Z,1168,1168.38706892,1,2,9,0,0,2026-10-08T00:00:00.000Z!fsrs,2029-10-28T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-09-28T00:00:00.000Z!2026-10-18,276,330!2026-10-20,278,330!fsrs,2030-01-17T00:00:00.000Z,1191,1191.26470738,1,2,9,0,0,2026-10-14T00:00:00.000Z-->
+{@{Replacing `foldRight` with `foldLeft`}@} would {@{reverse the order of operations}@}. When {@{the operator is associative and commutative}@}, the final result is {@{the same}@}; otherwise, {@{the types or semantics change}@}. {@{`foldRight`}@} also does not {@{work with infinite lists}@}, as there is {@{no rightmost or ending element to start folding}@}. <!--SR:!fsrs,2029-08-02T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-09-10T00:00:00.000Z!2026-11-04,290,330!fsrs,2029-12-29T00:00:00.000Z,1176,1176.0199518,1,2,9,0,0,2026-10-10T00:00:00.000Z!fsrs,2029-12-19T00:00:00.000Z,1168,1168.38706892,1,2,9,0,0,2026-10-08T00:00:00.000Z!fsrs,2029-10-28T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-09-28T00:00:00.000Z!fsrs,2030-02-05T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-10-18T00:00:00.000Z!2026-10-20,278,330!fsrs,2030-01-17T00:00:00.000Z,1191,1191.26470738,1,2,9,0,0,2026-10-14T00:00:00.000Z-->
 
 {@{Both `reduceLeft` and `foldLeft`}@} can be {@{defined directly in the abstract `List` class}@}: <!--SR:!fsrs,2028-08-20T00:00:00.000Z,700,700.04868809,2.49272837,2,9,0,0,2026-09-20T00:00:00.000Z!fsrs,2029-11-25T00:00:00.000Z,1149,1149.27403969,1,2,9,0,0,2026-10-03T00:00:00.000Z-->
 
@@ -416,7 +416,7 @@ Using {@{`reduceLeft`}@}, {@{summation}@} becomes: <!--SR:!2026-11-07,293,330!fs
 
 ## vector
 
-In Scala, {@{`List`}@} is {@{a singly-linked list}@}: {@{accessing the head is constant time}@} while {@{random access to an element in the middle or at the end}@} requires {@{traversing a length proportional to the length of the list}@}. For workloads where {@{more balanced access patterns are required}@}, the library provides {@{the immutable `Vector` type}@}. A vector internally uses {@{a shallow tree of 32-element blocks}@}; this design gives {@{roughly logarithmic-time complexity}@} for {@{both indexing and updates}@} while {@{preserving immutability}@}. <!--SR:!fsrs,2028-08-24T00:00:00.000Z,703,702.57151752,2.49272837,2,9,0,0,2026-09-21T00:00:00.000Z!fsrs,2029-10-23T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-09-27T00:00:00.000Z!2026-11-06,292,330!fsrs,2030-01-12T00:00:00.000Z,1187,1187.45608877,1,2,9,0,0,2026-10-13T00:00:00.000Z!2026-10-18,276,330!fsrs,2028-08-09T00:00:00.000Z,692,692.47401324,2.49272837,2,9,0,0,2026-09-17T00:00:00.000Z!fsrs,2029-06-29T00:00:00.000Z,1030,1029.72783972,1,2,9,0,0,2026-09-03T00:00:00.000Z!fsrs,2029-08-07T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-09-11T00:00:00.000Z!fsrs,2029-07-04T00:00:00.000Z,1034,1033.61384781,1,2,9,0,0,2026-09-04T00:00:00.000Z!fsrs,2029-10-28T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-09-28T00:00:00.000Z!2026-10-28,284,330-->
+In Scala, {@{`List`}@} is {@{a singly-linked list}@}: {@{accessing the head is constant time}@} while {@{random access to an element in the middle or at the end}@} requires {@{traversing a length proportional to the length of the list}@}. For workloads where {@{more balanced access patterns are required}@}, the library provides {@{the immutable `Vector` type}@}. A vector internally uses {@{a shallow tree of 32-element blocks}@}; this design gives {@{roughly logarithmic-time complexity}@} for {@{both indexing and updates}@} while {@{preserving immutability}@}. <!--SR:!fsrs,2028-08-24T00:00:00.000Z,703,702.57151752,2.49272837,2,9,0,0,2026-09-21T00:00:00.000Z!fsrs,2029-10-23T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-09-27T00:00:00.000Z!2026-11-06,292,330!fsrs,2030-01-12T00:00:00.000Z,1187,1187.45608877,1,2,9,0,0,2026-10-13T00:00:00.000Z!fsrs,2030-02-05T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-10-18T00:00:00.000Z!fsrs,2028-08-09T00:00:00.000Z,692,692.47401324,2.49272837,2,9,0,0,2026-09-17T00:00:00.000Z!fsrs,2029-06-29T00:00:00.000Z,1030,1029.72783972,1,2,9,0,0,2026-09-03T00:00:00.000Z!fsrs,2029-08-07T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-09-11T00:00:00.000Z!fsrs,2029-07-04T00:00:00.000Z,1034,1033.61384781,1,2,9,0,0,2026-09-04T00:00:00.000Z!fsrs,2029-10-28T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-09-28T00:00:00.000Z!2026-10-28,284,330-->
 
 Vectors are constructed {@{in exactly the same way as lists}@}: <!--SR:!fsrs,2029-06-14T00:00:00.000Z,1018,1018.05728725,1,2,9,0,0,2026-08-31T00:00:00.000Z-->
 
@@ -454,7 +454,7 @@ Unlike {@{`List`}@}, vectors do not {@{support the cons operator (`::`)}@}. Inst
 
 ## range
 
-{@{A `Range`}@} is {@{a lightweight representation of an arithmetic progression}@}. It stores {@{only three fields – lower bound, upper bound and step size}@} – and implements {@{the `Seq[Int]` interface}@}. {@{Three constructor operators}@} are available: <!--SR:!2026-11-02,289,330!2026-10-21,279,330!2026-10-18,276,330!fsrs,2029-11-02T00:00:00.000Z,1130,1130.11601442,1,2,9,0,0,2026-09-29T00:00:00.000Z!2026-10-18,276,330-->
+{@{A `Range`}@} is {@{a lightweight representation of an arithmetic progression}@}. It stores {@{only three fields – lower bound, upper bound and step size}@} – and implements {@{the `Seq[Int]` interface}@}. {@{Three constructor operators}@} are available: <!--SR:!2026-11-02,289,330!2026-10-21,279,330!fsrs,2030-02-05T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-10-18T00:00:00.000Z!fsrs,2029-11-02T00:00:00.000Z,1130,1130.11601442,1,2,9,0,0,2026-09-29T00:00:00.000Z!fsrs,2030-02-05T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-10-18T00:00:00.000Z-->
 
 > [!example] __`Range` examples__
 >
@@ -504,7 +504,7 @@ These operations are typically implemented via {@{recursion or tail-recursion}@}
 >   xs.zip(ys).map(_ * _).sum
 > ```
 >
-> Here {@{`zip`}@} produces {@{a sequence of pairs}@}; {@{`_ * _`}@} is {@{shorthand for `(x, y) => x * y`}@}. <!--SR:!fsrs,2029-10-09T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-09-24T00:00:00.000Z!2026-10-28,284,330!fsrs,2029-11-20T00:00:00.000Z,1145,1145.44606232,1,2,9,0,0,2026-10-02T00:00:00.000Z!2026-10-18,276,330!fsrs,2029-07-13T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-09-06T00:00:00.000Z!2026-10-18,276,330!2026-10-29,285,330-->
+> Here {@{`zip`}@} produces {@{a sequence of pairs}@}; {@{`_ * _`}@} is {@{shorthand for `(x, y) => x * y`}@}. <!--SR:!fsrs,2029-10-09T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-09-24T00:00:00.000Z!2026-10-28,284,330!fsrs,2029-11-20T00:00:00.000Z,1145,1145.44606232,1,2,9,0,0,2026-10-02T00:00:00.000Z!fsrs,2030-02-05T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-10-18T00:00:00.000Z!fsrs,2029-07-13T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-09-06T00:00:00.000Z!fsrs,2030-02-05T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-10-18T00:00:00.000Z!2026-10-29,285,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -521,7 +521,7 @@ These operations are typically implemented via {@{recursion or tail-recursion}@}
 
 ## mapping
 
-{@{A `Map`}@} associates {@{keys of type `Key` with values of type `Value`}@}. {@{The literal syntax `key -> value`}@} is {@{syntactic sugar for a pair `(key, value)`}@}, implemented as {@{an extension method on any object}@}. Typical examples: <!--SR:!2026-10-18,276,330!fsrs,2028-08-09T00:00:00.000Z,692,692.47401324,2.49272837,2,9,0,0,2026-09-17T00:00:00.000Z!2026-10-18,276,330!2026-10-22,280,330!fsrs,2030-01-22T00:00:00.000Z,1195,1195.07164214,1,2,9,0,0,2026-10-15T00:00:00.000Z-->
+{@{A `Map`}@} associates {@{keys of type `Key` with values of type `Value`}@}. {@{The literal syntax `key -> value`}@} is {@{syntactic sugar for a pair `(key, value)`}@}, implemented as {@{an extension method on any object}@}. Typical examples: <!--SR:!fsrs,2030-02-05T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-10-18T00:00:00.000Z!fsrs,2028-08-09T00:00:00.000Z,692,692.47401324,2.49272837,2,9,0,0,2026-09-17T00:00:00.000Z!fsrs,2030-02-05T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-10-18T00:00:00.000Z!2026-10-22,280,330!fsrs,2030-01-22T00:00:00.000Z,1195,1195.07164214,1,2,9,0,0,2026-10-15T00:00:00.000Z-->
 
 > [!example] __`Map` construction__
 >
@@ -559,7 +559,7 @@ Attempting to {@{call a map with a missing key}@} throws {@{an `java.util.NoSuch
 >     case None          => "missing data"
 >   }
 > ```
-<!--SR:!fsrs,2029-11-07T00:00:00.000Z,1134,1133.95119242,1,2,9,0,0,2026-09-30T00:00:00.000Z!fsrs,2028-08-17T00:00:00.000Z,698,697.52483893,2.49272837,2,9,0,0,2026-09-19T00:00:00.000Z!fsrs,2029-11-19T00:00:00.000Z,1144,1144.03786294,1,2,9,0,0,2026-10-02T00:00:00.000Z!2026-10-18,276,330!2026-10-31,287,330-->
+<!--SR:!fsrs,2029-11-07T00:00:00.000Z,1134,1133.95119242,1,2,9,0,0,2026-09-30T00:00:00.000Z!fsrs,2028-08-17T00:00:00.000Z,698,697.52483893,2.49272837,2,9,0,0,2026-09-19T00:00:00.000Z!fsrs,2029-11-19T00:00:00.000Z,1144,1144.03786294,1,2,9,0,0,2026-10-02T00:00:00.000Z!fsrs,2030-02-05T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-10-18T00:00:00.000Z!2026-10-31,287,330-->
 
 ### map update
 
@@ -574,13 +574,13 @@ Because {@{maps are immutable}@}, updates {@{produce new maps}@}. {@{The operato
 > val m2 = m1 + ("blue" -> 3)      // blue now maps to 3
 > val m3 = m1 ++ Map("blue" -> 3)  // same as above
 > ```
-<!--SR:!fsrs,2029-10-14T00:00:00.000Z,1115,1114.75652523,1,2,9,0,0,2026-09-25T00:00:00.000Z!fsrs,2028-02-07T00:00:00.000Z,510,509.87501298,5.00637887,2,9,0,0,2026-09-15T00:00:00.000Z!2026-10-18,276,330!fsrs,2029-11-19T00:00:00.000Z,1144,1144.03786294,1,2,9,0,0,2026-10-02T00:00:00.000Z!fsrs,2030-01-08T00:00:00.000Z,1184,1183.64577796,1,2,9,0,0,2026-10-12T00:00:00.000Z!2026-10-18,276,330-->
+<!--SR:!fsrs,2029-10-14T00:00:00.000Z,1115,1114.75652523,1,2,9,0,0,2026-09-25T00:00:00.000Z!fsrs,2028-02-07T00:00:00.000Z,510,509.87501298,5.00637887,2,9,0,0,2026-09-15T00:00:00.000Z!fsrs,2030-02-05T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-10-18T00:00:00.000Z!fsrs,2029-11-19T00:00:00.000Z,1144,1144.03786294,1,2,9,0,0,2026-10-02T00:00:00.000Z!fsrs,2030-01-08T00:00:00.000Z,1184,1183.64577796,1,2,9,0,0,2026-10-12T00:00:00.000Z!fsrs,2030-02-05T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-10-18T00:00:00.000Z-->
 
-{@{Both operations}@} are {@{purely functional}@}: {@{the original map}@} {@{remains unchanged}@}. <!--SR:!fsrs,2028-08-24T00:00:00.000Z,703,702.57151752,2.49272837,2,9,0,0,2026-09-21T00:00:00.000Z!2026-11-03,290,330!2026-10-18,276,330!2026-11-04,290,330-->
+{@{Both operations}@} are {@{purely functional}@}: {@{the original map}@} {@{remains unchanged}@}. <!--SR:!fsrs,2028-08-24T00:00:00.000Z,703,702.57151752,2.49272837,2,9,0,0,2026-09-21T00:00:00.000Z!2026-11-03,290,330!fsrs,2030-02-05T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-10-18T00:00:00.000Z!2026-11-04,290,330-->
 
 ### map methods
 
-{@{Ordering a collection}@} can be expressed with {@{`sortWith` or `sorted`}@}. For example: <!--SR:!2026-10-18,276,330!fsrs,2029-10-23T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-09-27T00:00:00.000Z-->
+{@{Ordering a collection}@} can be expressed with {@{`sortWith` or `sorted`}@}. For example: <!--SR:!fsrs,2030-02-05T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-10-18T00:00:00.000Z!fsrs,2029-10-23T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-09-27T00:00:00.000Z-->
 
 > [!example] __`sortWith` and `sorted` examples__
 >
@@ -616,7 +616,7 @@ Because {@{maps are immutable}@}, updates {@{produce new maps}@}. {@{The operato
 > ```Scala
 > Map(0 -> 5, 1 -> -2, 3 -> 1)
 > ```
-<!--SR:!2026-11-06,292,330!fsrs,2029-10-28T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-09-28T00:00:00.000Z!2026-10-18,276,330-->
+<!--SR:!2026-11-06,292,330!fsrs,2029-10-28T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-09-28T00:00:00.000Z!fsrs,2030-02-05T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-10-18T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -664,7 +664,7 @@ To avoid {@{the verbosity of `Polynomial(Map(...))`}@}, {@{a _varargs_ construct
 > ```Scala
 > def this(bindings: (Int, Double)*) = this(bindings.toMap)
 > ```
-<!--SR:!2026-10-18,276,330!2026-11-01,288,330-->
+<!--SR:!fsrs,2030-02-05T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-10-18T00:00:00.000Z!2026-11-01,288,330-->
 
 ## set
 
@@ -696,7 +696,7 @@ To avoid {@{the verbosity of `Polynomial(Map(...))`}@}, {@{a _varargs_ construct
 > ```
 <!--SR:!fsrs,2029-06-24T00:00:00.000Z,1026,1025.83973773,1,2,9,0,0,2026-09-02T00:00:00.000Z!fsrs,2029-11-19T00:00:00.000Z,1144,1144.03786294,1,2,9,0,0,2026-10-02T00:00:00.000Z-->
 
-{@{The core distinction}@} between {@{a `Set` and a `Seq`}@} is that the former {@{does not preserve order and automatically removes duplicates}@}; consequently {@{the only fundamental operation}@} on a set is {@{membership testing via `contains`}@}. {@{A small example}@} shows {@{how duplicate values collapse}@}: <!--SR:!2026-10-27,283,330!fsrs,2030-01-17T00:00:00.000Z,1191,1191.26470738,1,2,9,0,0,2026-10-14T00:00:00.000Z!fsrs,2029-12-05T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-10-05T00:00:00.000Z!2026-10-18,276,330!2026-10-18,276,330!2026-10-22,280,330!2026-10-18,276,330-->
+{@{The core distinction}@} between {@{a `Set` and a `Seq`}@} is that the former {@{does not preserve order and automatically removes duplicates}@}; consequently {@{the only fundamental operation}@} on a set is {@{membership testing via `contains`}@}. {@{A small example}@} shows {@{how duplicate values collapse}@}: <!--SR:!2026-10-27,283,330!fsrs,2030-01-17T00:00:00.000Z,1191,1191.26470738,1,2,9,0,0,2026-10-14T00:00:00.000Z!fsrs,2029-12-05T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-10-05T00:00:00.000Z!fsrs,2030-02-05T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-10-18T00:00:00.000Z!fsrs,2030-02-05T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-10-18T00:00:00.000Z!2026-10-22,280,330!fsrs,2030-02-05T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-10-18T00:00:00.000Z-->
 
 > [!example] __`Set` deduplication__
 >

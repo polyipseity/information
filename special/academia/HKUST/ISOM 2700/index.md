@@ -83,7 +83,7 @@ The content is in teaching order.
     - operations management / practical relevance ::@:: focuses on real-world business problems and usually has substantial implications on humans; good business acumen are needed: key trade-offs, managerial insights <!--SR:!2029-11-01,1345,350!2028-01-08,816,330-->
         - operations management / practical relevance / examples ::@:: allocation of ICU beds during the pandemic; fairness, equity, social responsibility, not just profit maximization <!--SR:!2027-12-25,802,330!2028-02-09,839,330-->
     - operations management / steps ::@:: description, optimization <!--SR:!2029-06-05,1230,350!2029-01-08,1117,350-->
-    - operations management / description ::@:: estimate and understand the dynamics and performance of the system (like physics), e.g. expected waiting time, average inventory level, expected revenue <!--SR:!2026-10-18,459,310!2027-11-20,777,330-->
+    - operations management / description ::@:: estimate and understand the dynamics and performance of the system (like physics), e.g. expected waiting time, average inventory level, expected revenue <!--SR:!fsrs,2029-12-11T00:00:00.000Z,1150,1150.40177904,3.24197837,2,10,0,0,2026-10-18T00:00:00.000Z!2027-11-20,777,330-->
     - operations management / optimization ::@:: identify the ways to improve the system performance (like engineering), e.g. how to order, how to allocate <!--SR:!2027-05-19,636,330!2027-11-17,774,330-->
     - operations management / decisions
         - operations management / decisions / examples ::@:: capacity, demand, inventory, pricing, supply chain <!--SR:!2027-11-09,767,330!2029-03-19,1164,350-->

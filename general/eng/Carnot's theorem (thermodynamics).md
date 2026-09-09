@@ -18,7 +18,7 @@ tags:
 >
 > where
 >
-> - {@{$\eta_\text{max}$}@} is {@{the maximum [efficiency](thermal%20efficiency.md) any [heat engine](heat%20engine.md) can achieve}@} operating between {@{a cold reservoir of [temperature](temperature.md) $T_\mathrm{C}$ and a hot reservoir of [temperature](temperature.md) $T_\mathrm{H}$}@} <!--SR:!2026-11-24,818,330!2027-04-22,950,350!2026-10-18,312,350!2026-10-28,319,350!2027-03-28,391,361-->
+> - {@{$\eta_\text{max}$}@} is {@{the maximum [efficiency](thermal%20efficiency.md) any [heat engine](heat%20engine.md) can achieve}@} operating between {@{a cold reservoir of [temperature](temperature.md) $T_\mathrm{C}$ and a hot reservoir of [temperature](temperature.md) $T_\mathrm{H}$}@} <!--SR:!2026-11-24,818,330!2027-04-22,950,350!fsrs,2030-09-20T00:00:00.000Z,1433,1433.18276708,1,2,9,0,0,2026-10-18T00:00:00.000Z!2026-10-28,319,350!2027-03-28,391,361-->
 
 ## references
 

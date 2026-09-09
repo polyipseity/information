@@ -63,7 +63,7 @@ The content is in teaching order.
         - management accounting / vs. financial accounting / report frequency ::@:: prepared as needed, can be daily or even real-time; prepared periodically, e.g. monthly, quarterly, yearly <!--SR:!2028-02-18,845,330!2028-05-09,895,330-->
         - management accounting / vs. financial accounting / report types ::@:: various internal reports, e.g. budget, cost reports, performance evaluations; financial statements according to GAAP/IFRS <!--SR:!2028-02-16,844,330!2029-02-06,1083,310-->
     - management accounting / functions ::@:: infinite cycle: plan, implement, control; all about decision-making <!--SR:!2029-10-08,1328,350!2029-08-29,1295,350-->
-    - management accounting / role of cost ::@:: inventory valuation; profitability determination; provides management information for decision-making <!--SR:!2028-01-23,824,330!2026-10-18,462,310-->
+    - management accounting / role of cost ::@:: inventory valuation; profitability determination; provides management information for decision-making <!--SR:!2028-01-23,824,330!fsrs,2031-08-17T00:00:00.000Z,1764,1763.96298204,1,2,10,0,0,2026-10-18T00:00:00.000Z-->
 - organization types ::@:: manufacturing company, merchandising company, service company <!--SR:!2029-10-28,1345,350!2029-10-11,1331,350-->
     - manufacturing company ::@:: purchase raw material from suppliers, manufacture finished products, sell finished products <!--SR:!2028-04-23,882,330!2029-10-06,1327,350-->
     - merchandising company ::@:: sell manufactured goods <p> - _wholesalers_: to other businesses <br/> - _retailers_: to the general public <!--SR:!2029-10-06,1327,350!2028-04-25,883,330-->
@@ -261,7 +261,7 @@ The content is in teaching order.
     - fixed cost / cost behavior ::@:: Assume we are within the _relevant range_. Total cost of this type is constant with regards to activity. Per unit cost of this type is inversely proportional to activity. <!--SR:!2026-11-08,497,406!2026-11-10,498,406-->
 - mixed cost ::@:: fixed cost + variable cost, e.g. a cell phone plan with monthly charge plus usage charge <!--SR:!fsrs,2031-07-04T00:00:00.000Z,1816,1816.2214364,1,2,10,0,0,2026-07-14T00:00:00.000Z!2026-10-31,489,406-->
 - cost behavior
-    - cost behavior / linear equation ::@:: $$y = a + bx \,,$$ where $y$ is the total cost, $a$ is the _total_ fixed cost, $b$ is the _unit_ variable cost, $x$ is activity/cost driver. <!--SR:!2026-12-19,524,406!2026-10-18,479,406-->
+    - cost behavior / linear equation ::@:: $$y = a + bx \,,$$ where $y$ is the total cost, $a$ is the _total_ fixed cost, $b$ is the _unit_ variable cost, $x$ is activity/cost driver. <!--SR:!2026-12-19,524,406!fsrs,2032-11-05T00:00:00.000Z,2210,2210.21956418,1,2,10,0,0,2026-10-18T00:00:00.000Z-->
     - cost behavior / graph ::@:: $y$ is plotted on the vertical axis, called the _dependent variable_. $x$ is plotted on the horizontal axis, called the _independent variable_. <!--SR:!2026-12-18,523,406!2026-12-11,524,406-->
 - [scatter plot](../../../../general/scatter%20plot.md) (scattergraph) ::@:: a type of plot or mathematical diagram using Cartesian coordinates to display values for typically two variables for a set of data <!--SR:!2027-01-14,550,406!2027-01-07,543,406-->
 - cost behavior
