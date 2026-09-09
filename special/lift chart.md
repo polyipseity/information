@@ -15,7 +15,7 @@ tags:
 
 # lift chart
 
-A __lift chart__, also called {@{__cumulative gain chart__, or just __gain chart__}@}, is a chart that {@{visualizes the effect of a predictive [classification](../general/statistical%20classification.md) model}@}.
+{@{A __lift chart__}@}, also called {@{__cumulative gain chart__, or just __gain chart__}@}, is {@{a chart that visualizes the effect of a predictive [classification](../general/statistical%20classification.md) model}@}.
 
 A __decile-wise lift chart__ is a variant of the lift chart that {@{visualizes the [lift](../general/association%20rule%20learning.md#lift) in the ten [deciles](../general/decile.md) of the data}@}.
 
@@ -41,6 +41,6 @@ To construct a decile-wise lift chart, {@{follow the same [instructions above](#
 
 ## interpretation
 
-For the normal lift chart, the baseline curve represents {@{the average lift curve of all possible classifiers}@}. Consider {@{the area enclosed between the model curve and the baseline curve}@}. Treat {@{all enclosed areas above the baseline curve as positive and below the baseline curve as negative}@}, which we will call {@{the _signed area_}@} here. Add {@{the signed areas together}@}. {@{The larger the signed area}@}, {@{the better the model at predicting the "success" value}@}, and vice versa.
+For {@{the normal lift chart}@}, {@{the baseline curve}@} represents {@{the average lift curve of all possible classifiers}@}. Consider {@{the area enclosed between the model curve and the baseline curve}@}. Treat {@{all enclosed areas above the baseline curve as positive and below the baseline curve as negative}@}, which we will call {@{the _signed area_}@} here. Add {@{the signed areas together}@}. {@{The larger the signed area}@}, {@{the better the model at predicting the "success" value}@}, and vice versa.
 
-For the decile-wise lift chart, the classifier is ideal when {@{the bars are maximum starting from the first decile, dropping off suddenly in one of the decile, and then zero for the rest of the deciles}@}.
+For {@{the decile-wise lift chart}@}, the classifier is {@{ideal when the bars are maximum starting from the first decile}@}, {@{dropping off suddenly in one of the decile, and then zero for the rest of the deciles}@}.
