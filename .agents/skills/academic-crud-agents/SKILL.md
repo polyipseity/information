@@ -41,7 +41,7 @@ Modify the guidance in an existing `AGENTS.md`.
 1. Read the current file.
 2. Apply requested changes (add rules, update references, modify guidance).
 3. Preserve the `# <COURSE CODE> agent instructions` heading.
-4. Keep the file concise — extract detailed rules into `.agents/instructions/` if they grow beyond ~30 lines.
+4. Keep the file concise. Extract detailed rules into `.agents/instructions/` if they grow beyond ~30 lines.
 
 ### Delete
 
@@ -56,7 +56,7 @@ Remove the `AGENTS.md` file.
 - First heading must be exactly `# <COURSE code> agent instructions`
 - No flashcard markup (`{@{ }@}`, `::@::`, `:@:`) in this file
 - No PII, instructor names, or email addresses
-- Keep concise — reference other skills by name, not by embedding their rules
+- Keep concise. Reference other skills by name, not by embedding their rules
 - If the file exceeds ~30 lines, split detailed rules into `.agents/instructions/` files
 
 ## Validation

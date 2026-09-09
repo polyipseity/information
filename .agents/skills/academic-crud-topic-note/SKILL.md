@@ -5,7 +5,7 @@ description: Create, read, update, and delete standalone topic notes (<topic>.md
 
 # Academic CRUD: Topic notes
 
-Create, read, update, and delete standalone topic notes. These are concept-focused pages — like compact encyclopedia entries — with explanatory prose and section-local flashcards.
+Create, read, update, and delete standalone topic notes. These are concept-focused pages, like compact encyclopedia entries, with explanatory prose and section-local flashcards.
 
 ## Target
 
@@ -119,8 +119,8 @@ Merge new material into existing note:
 - Left/right limits: `\lim_{y\uparrow m}`, `\lim_{y\downarrow m}`
 - "Distributed as": `\sim` (e.g., `$X\sim N(0,1)$`)
 - Binomial coefficients: `\binom{n}{k}`
-- No source numbering (theorem numbers, definition numbers, chapter numbers) — use topic names
-- No "in this lecture" or "the tutorial sheet shows" — use topic-level references
+- No source numbering (theorem numbers, definition numbers, chapter numbers). Use topic names
+- No "in this lecture" or "the tutorial sheet shows". Use topic-level references
 
 ## Subject-specific guidance
 
@@ -164,6 +164,6 @@ Merge new material into existing note:
 
 ## References
 
-- `flashcard-creation` — flashcard markup patterns
-- `.agents/skills/academic-notes/check.py` — validator
-- `.agents/skills/academic-notes/find_wikipedia.py` — canonical title discovery
+- `flashcard-creation` flashcard markup patterns
+- `.agents/skills/academic-notes/check.py` validator
+- `.agents/skills/academic-notes/find_wikipedia.py` canonical title discovery

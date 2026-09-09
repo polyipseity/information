@@ -1,6 +1,6 @@
 ---
 name: academic-crud-question-page
-description: Create, read, update, and delete question and problem-set pages under special/academia/<INSTITUTION>/<COURSE>/questions/. Covers iPRs, in-class exercises, quizzes, practice problems — anything without a formal submission.
+description: Create, read, update, and delete question and problem-set pages under special/academia/<INSTITUTION>/<COURSE>/questions/. Covers iPRs, in-class exercises, quizzes, practice problems, and anything without a formal submission.
 ---
 
 # Academic CRUD: Question pages
@@ -142,6 +142,6 @@ Every line inside a blockquote must begin with `>` — including blank lines.
 
 ## References
 
-- `flashcard-creation` — cloze methodology and patterns
-- `academic-crud-index-page` — parent index updates
-- `.agents/skills/academic-notes/check.py` — validator
+- `flashcard-creation` cloze methodology and patterns
+- `academic-crud-index-page` parent index updates
+- `.agents/skills/academic-notes/check.py` validator

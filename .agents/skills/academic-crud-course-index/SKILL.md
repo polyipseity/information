@@ -5,7 +5,7 @@ description: Create, read, update, and delete the top-level course index.md (chi
 
 # Academic CRUD: Course index
 
-Create, read, update, and delete the top-level course `index.md` and course scaffolding. This skill owns the course root — including exam records, which live inline in the top-level index.
+Create, read, update, and delete the top-level course `index.md` and course scaffolding. This skill owns the course root, including exam records, which live inline in the top-level index.
 
 ## Target
 
@@ -191,7 +191,7 @@ Official Canvas announcements as blockquotes after `---`:
 
 - Canvas single-student view: mean, median, high, low, quartiles
 - `statistics.timestamp` from Canvas announcement posting datetime
-- `statistics.data: (none)` — no external LMS links
+- `statistics.data: (none)` (no external LMS links)
 - Per-question breakdown from PDF via PyMuPDF:
 
   ```python
@@ -211,7 +211,7 @@ uv run .agents/skills/academic-notes/check.py "special/academia/<INSTITUTION>/<C
 
 ## References
 
-- `.agents/skills/academic-notes/course-template.md` — scaffold template
-- `.agents/skills/academic-notes/check.py` — validator
-- `academic-crud-index-page` — subdirectory index format
-- `flashcard-creation` — exam error report flashcards
+- `.agents/skills/academic-notes/course-template.md` scaffold template
+- `.agents/skills/academic-notes/check.py` validator
+- `academic-crud-index-page` subdirectory index format
+- `flashcard-creation` exam error report flashcards

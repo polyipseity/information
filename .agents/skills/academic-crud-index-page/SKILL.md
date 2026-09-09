@@ -5,7 +5,7 @@ description: Create, read, update, and delete sub-directory index.md pages (assi
 
 # Academic CRUD: Index pages
 
-Create, read, update, and delete sub-directory `index.md` files. This is a shared utility — other `academic-crud-*` skills call it when they need to create or update a sub-directory index.
+Create, read, update, and delete sub-directory `index.md` files. This is a shared utility. Other `academic-crud-*` skills call it when they need to create or update a sub-directory index.
 
 ## Target
 
@@ -39,7 +39,7 @@ tags:
 
 - `aliases`: cover institution + course + type combinations (both short and long forms)
 - `tags`: include `flashcard/active/...` path (underscore-normalized), `function/index`, and `language/in/<lang>`
-- Keep aliases exhaustive — cover `HKUST COMP 3031 assignment`, `HKUST COMP3031 assignments`, `COMP 3031 assignment`, etc.
+- Keep aliases exhaustive. Cover `HKUST COMP 3031 assignment`, `HKUST COMP3031 assignments`, `COMP 3031 assignment`, etc.
 
 ### Children format
 
@@ -70,7 +70,7 @@ Add, remove, or reorder child links.
    - __Add:__ insert a new bullet in the correct position (chronological or alphabetical).
    - __Remove:__ delete the bullet and verify the child file still exists (or remove it too).
    - __Reorder:__ reorder bullets to match the desired order.
-3. Preserve frontmatter exactly — only modify the `## children` section.
+3. Preserve frontmatter exactly. Only modify the `## children` section.
 
 ### Delete
 
@@ -84,9 +84,9 @@ Remove the index and optionally the entire subdirectory.
 
 Other `academic-crud-*` skills create or update index pages as part of their workflows:
 
-- `academic-crud-course-index` — creates subdirectory indexes when setting up a new course
-- `academic-crud-submission-page` — adds child links when creating submission pages
-- `academic-crud-question-page` — adds child links when creating question pages
+- `academic-crud-course-index` creates subdirectory indexes when setting up a new course
+- `academic-crud-submission-page` adds child links when creating submission pages
+- `academic-crud-question-page` adds child links when creating question pages
 
 The calling skill provides: target path, child name, child link path. This skill provides the format and structure.
 
@@ -100,7 +100,7 @@ uv run .agents/skills/academic-notes/check.py "<path-to-index.md>"
 
 ## References
 
-- `academic-crud-course-index` — creates subdirectories and their indexes
-- `academic-crud-submission-page` — adds submission pages to indexes
-- `academic-crud-question-page` — adds question pages to indexes
+- `academic-crud-course-index` creates subdirectories and their indexes
+- `academic-crud-submission-page` adds submission pages to indexes
+- `academic-crud-question-page` adds question pages to indexes
 - `.agents/skills/academic-notes/check.py` — validator

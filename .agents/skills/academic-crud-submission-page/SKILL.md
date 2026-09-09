@@ -5,7 +5,7 @@ description: Create, read, update, and delete submission-bound pages (labs, tuto
 
 # Academic CRUD: Submission pages
 
-Create, read, update, and delete submission-bound pages. Applies to `labs/`, `tutorials/`, `lectures/`, and `assignments/` — all share the same folder hierarchy and page format.
+Create, read, update, and delete submission-bound pages. Applies to `labs/`, `tutorials/`, `lectures/`, and `assignments/`. All share the same folder hierarchy and page format.
 
 ## Target
 
@@ -141,7 +141,7 @@ tags:
 - Availability windows: ISO datetime range + `, <ISO duration>`
 - Description: verbatim Canvas wording, preserve `<span style>` for color
 - Update announcements: verbatim with color and bold
-- Normalize metadata fields only — not prose body
+- Normalize metadata fields only, not prose body
 
 ## Display-vs-link convention
 
@@ -177,6 +177,6 @@ uv run .agents/skills/academic-notes/check.py "special/academia/<INSTITUTION>/<C
 
 ## References
 
-- `convert_canvas_submission.py` — Canvas HTML → `submission.yml`
-- `academic-crud-index-page` — parent index updates
-- `.agents/skills/academic-notes/check.py` — validator
+- `convert_canvas_submission.py` Canvas HTML to `submission.yml`
+- `academic-crud-index-page` parent index updates
+- `.agents/skills/academic-notes/check.py` validator
