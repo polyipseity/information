@@ -69,7 +69,7 @@ When two separate blockquote blocks appear adjacent (separated only by blank lin
 
 ## Skill integrations
 
-Use [wiki-ingestion](../skills/wiki-ingestion/SKILL.md) for Wikipedia imports, [pytextgen](../skills/pytextgen/SKILL.md) for flashcard regeneration, and [tools/SKILL.md](../skills/tools/SKILL.md) for note scaffolding.
+Use [ingest-wikipedia](../skills/ingest-wikipedia/SKILL.md) for Wikipedia imports, [pytextgen](../skills/pytextgen/SKILL.md) for flashcard regeneration, and [tools/SKILL.md](../skills/tools/SKILL.md) for note scaffolding.
 
 ## Developer tooling & testing conventions
 

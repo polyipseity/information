@@ -24,7 +24,7 @@ __Public vs private__: Keep content public unless it contains PII, confidential 
 __Creating notes__:
 
 ```bash
-# Scaffold new wiki-sourced note (see wiki-ingestion skill)
+# Scaffold new wiki-sourced note (see ingest-wikipedia skill)
 uv run -m scripts.new_wiki_page
 uv run -m scripts.convert_wiki --clipboard  # Paste Wikipedia HTML from clipboard
 # Flashcards are created automatically by the build; do not run
@@ -101,7 +101,7 @@ __Skills metadata__: Each skill is self-described in its `SKILL.md` frontmatter 
 
 ### Content creation & ingestion
 
-- __[wiki-ingestion](.agents/skills/wiki-ingestion/SKILL.md)__ — Import Wikipedia articles, normalize links/media, scaffold new notes
+- __[ingest-wikipedia](.agents/skills/ingest-wikipedia/SKILL.md)__ — Import Wikipedia articles, normalize links/media, scaffold new notes
 - __[pytextgen](.agents/skills/pytextgen/SKILL.md)__ — Regenerate/clear content blocks, fence syntax, cloze markup, debugging
 - __[tools](.agents/skills/tools/SKILL.md)__ — Repository-wide tooling overview (includes templates & academic LMS converters), tool coordination, dependency management
 - __[pyarchivist](.agents/skills/pyarchivist/SKILL.md)__ — Archive online content, auto-maintain `index.md`, media management

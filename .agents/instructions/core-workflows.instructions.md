@@ -49,7 +49,7 @@ Commands are for human reference. Agents do not run `uv run -m init generate`.
 | Package bundle | `uv run -m pack -o pack.zip -n 25 --damping-factor 0.5 --page-rank-iterations 100 <paths>` |
 | Publish private→public | `uv run -m publish --paths-file <file>` |
 
-See [wiki-ingestion](../skills/wiki-ingestion/SKILL.md) for step-by-step guidance.
+See [ingest-wikipedia](../skills/ingest-wikipedia/SKILL.md) for step-by-step guidance.
 
 ## Commit & PR behavior
 

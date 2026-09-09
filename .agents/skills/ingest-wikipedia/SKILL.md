@@ -1,11 +1,11 @@
 ---
-name: wiki-ingestion
+name: ingest-wikipedia
 description: Ingest Wikipedia HTML, normalize links/media, archive to knowledge base, and fix capitalization in ingested notes (links, headers, stems) via convert_wiki --reprocess.
 ---
 
 # Wiki Ingestion Workflow
 
-> __Continuous improvement:__ see `continuous_improvement.md` in this folder for a running log of lessons learned and guidance on evolving the wiki-ingestion skill.
+> __Continuous improvement:__ see `continuous_improvement.md` in this folder for a running log of lessons learned and guidance on evolving the ingest-wikipedia skill.
 
 Use this skill when importing Wikipedia articles or converting HTML content into Markdown notes.
 
