@@ -115,7 +115,7 @@ Lists are {@{the fundamental data structure}@} that will {@{recur throughout the
 > val fruits = List("Apple", "Orange", "Banana")
 > val nums   = 1 :: 2 :: Nil          // equivalent to List(1, 2)
 > ```
-<!--SR:!fsrs,2029-12-19T00:00:00.000Z,1168,1168.38706892,1,2,9,0,0,2026-10-08T00:00:00.000Z!2026-11-04,290,330!fsrs,2029-07-08T00:00:00.000Z,1037,1037.49777357,1,2,9,0,0,2026-09-05T00:00:00.000Z!2026-10-17,275,330-->
+<!--SR:!fsrs,2029-12-19T00:00:00.000Z,1168,1168.38706892,1,2,9,0,0,2026-10-08T00:00:00.000Z!2026-11-04,290,330!fsrs,2029-07-08T00:00:00.000Z,1037,1037.49777357,1,2,9,0,0,2026-09-05T00:00:00.000Z!fsrs,2030-02-01T00:00:00.000Z,1203,1202.68030072,1,2,9,0,0,2026-10-17T00:00:00.000Z-->
 
 {@{Decomposition}@} is equally {@{concise}@}. {@{The head of a list}@} is accessed by {@{`.head` \(the first element\)}@}, {@{the tail by `.tail` \(a list of the remaining elements\)}@}, and {@{pattern matching}@} can be used to {@{deconstruct lists directly}@}: <!--SR:!fsrs,2028-08-24T00:00:00.000Z,703,702.57151752,2.49272837,2,9,0,0,2026-09-21T00:00:00.000Z!2026-11-05,291,330!2026-11-08,294,330!fsrs,2029-07-13T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-09-06T00:00:00.000Z!fsrs,2030-01-08T00:00:00.000Z,1184,1183.64577796,1,2,9,0,0,2026-10-12T00:00:00.000Z!2026-11-05,291,330!fsrs,2029-07-18T00:00:00.000Z,1045,1045.2595081,1,2,9,0,0,2026-09-07T00:00:00.000Z-->
 
@@ -192,7 +192,7 @@ The `List` API offers {@{a rich set of operations}@} for {@{sublists, element ac
 >     case y :: ys    => ys.reverse ::: (y :: Nil)
 >   }
 > ```
-<!--SR:!2026-10-17,275,330!fsrs,2029-12-05T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-10-05T00:00:00.000Z-->
+<!--SR:!fsrs,2030-02-01T00:00:00.000Z,1203,1202.68030072,1,2,9,0,0,2026-10-17T00:00:00.000Z!fsrs,2029-12-05T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-10-05T00:00:00.000Z-->
 
 Because {@{each recursive call}@} concatenates {@{a singleton list to the result of reversing the tail}@}, the complexity is {@{quadratic, `O(xs.length²)`}@}. {@{A linear-time implementation}@} would use {@{an accumulator}@}. <!--SR:!fsrs,2030-01-08T00:00:00.000Z,1184,1183.64577796,1,2,9,0,0,2026-10-12T00:00:00.000Z!fsrs,2029-07-04T00:00:00.000Z,1034,1033.61384781,1,2,9,0,0,2026-09-04T00:00:00.000Z!fsrs,2029-11-25T00:00:00.000Z,1149,1149.27403969,1,2,9,0,0,2026-10-03T00:00:00.000Z!fsrs,2029-08-02T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-09-10T00:00:00.000Z!fsrs,2028-08-06T00:00:00.000Z,690,689.94707246,2.49272837,2,9,0,0,2026-09-16T00:00:00.000Z-->
 
@@ -225,7 +225,7 @@ Because {@{each recursive call}@} concatenates {@{a singleton list to the result
 > }
 > ```
 >
-> Calling `deepFlatten(List(List(1, 1), 2, List(3, List(5, 8))))` yields {@{`List(1, 1, 2, 3, 5, 8)`}@}. <!--SR:!fsrs,2029-12-29T00:00:00.000Z,1176,1176.0199518,1,2,9,0,0,2026-10-10T00:00:00.000Z!2026-10-17,275,330!2026-10-30,286,330-->
+> Calling `deepFlatten(List(List(1, 1), 2, List(3, List(5, 8))))` yields {@{`List(1, 1, 2, 3, 5, 8)`}@}. <!--SR:!fsrs,2029-12-29T00:00:00.000Z,1176,1176.0199518,1,2,9,0,0,2026-10-10T00:00:00.000Z!fsrs,2030-02-01T00:00:00.000Z,1203,1202.68030072,1,2,9,0,0,2026-10-17T00:00:00.000Z!2026-10-30,286,330-->
 
 ## higher-order methods
 
@@ -295,7 +295,7 @@ Using {@{`map`}@}, {@{a simple scaling routine}@} can be written as: <!--SR:!fsr
 > ```
 <!--SR:!fsrs,2029-06-29T00:00:00.000Z,1030,1029.72783972,1,2,9,0,0,2026-09-03T00:00:00.000Z!2026-10-23,281,330-->
 
-{@{Other useful filter-like operations}@} are built from `filter`, such as {@{`filterNot`, `partition`, `takeWhile`, `dropWhile`, and `span`}@}.  Each of these performs {@{a single traversal}@} while producing {@{different views of the original list}@}. <!--SR:!2026-10-17,275,330!fsrs,2028-08-27T00:00:00.000Z,705,705.09333259,2.49272837,2,9,0,0,2026-09-22T00:00:00.000Z!fsrs,2028-02-01T00:00:00.000Z,506,506.03526322,5.00637887,2,9,0,0,2026-09-13T00:00:00.000Z!2026-10-22,280,330-->
+{@{Other useful filter-like operations}@} are built from `filter`, such as {@{`filterNot`, `partition`, `takeWhile`, `dropWhile`, and `span`}@}.  Each of these performs {@{a single traversal}@} while producing {@{different views of the original list}@}. <!--SR:!fsrs,2030-02-01T00:00:00.000Z,1203,1202.68030072,1,2,9,0,0,2026-10-17T00:00:00.000Z!fsrs,2028-08-27T00:00:00.000Z,705,705.09333259,2.49272837,2,9,0,0,2026-09-22T00:00:00.000Z!fsrs,2028-02-01T00:00:00.000Z,506,506.03526322,5.00637887,2,9,0,0,2026-09-13T00:00:00.000Z!2026-10-22,280,330-->
 
 ### pack
 
@@ -343,7 +343,7 @@ As {@{`pack`}@} returns {@{`List[::[T]]` instead of `List[List[T]]`}@}, it is {@
 > ```
 <!--SR:!fsrs,2029-06-19T00:00:00.000Z,1022,1021.94953015,1,2,9,0,0,2026-09-01T00:00:00.000Z!fsrs,2029-07-04T00:00:00.000Z,1034,1033.61384781,1,2,9,0,0,2026-09-04T00:00:00.000Z!2026-11-08,294,330-->
 
-Using {@{`reduceLeft`}@}, {@{summation}@} becomes: <!--SR:!2026-11-07,293,330!2026-10-17,275,330-->
+Using {@{`reduceLeft`}@}, {@{summation}@} becomes: <!--SR:!2026-11-07,293,330!fsrs,2030-02-01T00:00:00.000Z,1203,1202.68030072,1,2,9,0,0,2026-10-17T00:00:00.000Z-->
 
 > [!example] __`reduceLeft` example__
 >
@@ -432,7 +432,7 @@ Vectors are constructed {@{in exactly the same way as lists}@}: <!--SR:!fsrs,202
 
 Unlike {@{`List`}@}, vectors do not {@{support the cons operator (`::`)}@}. Instead {@{two operators with a colon pointing toward the sequence operand}@} are provided: <!--SR:!2026-11-05,291,330!fsrs,2029-12-19T00:00:00.000Z,1168,1168.38706892,1,2,9,0,0,2026-10-08T00:00:00.000Z!fsrs,2029-07-23T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-09-08T00:00:00.000Z-->
 
-- `x +: xs` ::@:: creates a new vector whose first element is `x` followed by all elements of `xs`; <!--SR:!2026-10-17,275,330!fsrs,2029-06-14T00:00:00.000Z,1018,1018.05728725,1,2,9,0,0,2026-08-31T00:00:00.000Z-->
+- `x +: xs` ::@:: creates a new vector whose first element is `x` followed by all elements of `xs`; <!--SR:!fsrs,2030-02-01T00:00:00.000Z,1203,1202.68030072,1,2,9,0,0,2026-10-17T00:00:00.000Z!fsrs,2029-06-14T00:00:00.000Z,1018,1018.05728725,1,2,9,0,0,2026-08-31T00:00:00.000Z-->
 - `xs :+ x` ::@:: appends `x` to the end of `xs`. In both cases the colon points toward the sequence, reflecting that the operation acts on the whole collection rather than just its head. <!--SR:!fsrs,2029-07-23T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-09-08T00:00:00.000Z!2026-11-07,293,330-->
 
 ## Java sequences
@@ -653,7 +653,7 @@ Because {@{maps are immutable}@}, updates {@{produce new maps}@}. {@{The operato
 >     }
 > }
 > ```
-<!--SR:!2026-11-02,289,330!fsrs,2029-08-07T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-09-11T00:00:00.000Z!2026-10-17,275,330!fsrs,2029-10-14T00:00:00.000Z,1115,1114.75652523,1,2,9,0,0,2026-09-25T00:00:00.000Z-->
+<!--SR:!2026-11-02,289,330!fsrs,2029-08-07T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-09-11T00:00:00.000Z!fsrs,2030-02-01T00:00:00.000Z,1203,1202.68030072,1,2,9,0,0,2026-10-17T00:00:00.000Z!fsrs,2029-10-14T00:00:00.000Z,1115,1114.75652523,1,2,9,0,0,2026-09-25T00:00:00.000Z-->
 
 To avoid {@{the verbosity of `Polynomial(Map(...))`}@}, {@{a _varargs_ constructor}@} is provided: <!--SR:!fsrs,2028-08-24T00:00:00.000Z,703,702.57151752,2.49272837,2,9,0,0,2026-09-21T00:00:00.000Z!fsrs,2028-08-09T00:00:00.000Z,692,692.47401324,2.49272837,2,9,0,0,2026-09-17T00:00:00.000Z-->
 

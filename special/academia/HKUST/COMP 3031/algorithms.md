@@ -168,4 +168,4 @@ To sort lists whose {@{elements are not necessarily `Int`}@}, {@{the comparison 
 > ```
 <!--SR:!fsrs,2028-09-10T00:00:00.000Z,718,717.68728078,2.49272837,2,9,0,0,2026-09-23T00:00:00.000Z!fsrs,2029-07-22T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-08-30T00:00:00.000Z!2026-11-04,290,330!2026-11-07,293,330!2026-10-24,281,330-->
 
-These examples demonstrate how Scala's {@{type inference and higher-order functions}@} enable {@{concise yet powerful generic algorithms}@}. <!--SR:!fsrs,2028-09-06T00:00:00.000Z,715,715.17050691,2.49272837,2,9,0,0,2026-09-22T00:00:00.000Z!2026-10-17,276,330-->
+These examples demonstrate how Scala's {@{type inference and higher-order functions}@} enable {@{concise yet powerful generic algorithms}@}. <!--SR:!fsrs,2028-09-06T00:00:00.000Z,715,715.17050691,2.49272837,2,9,0,0,2026-09-22T00:00:00.000Z!fsrs,2030-02-04T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-10-17T00:00:00.000Z-->

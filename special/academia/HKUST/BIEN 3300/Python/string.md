@@ -23,7 +23,7 @@ String concatenation uses {@{`+`}@} to {@{concat strings and values converted to
 
 ### `str.format`
 
-`str.format` replaces {@{each `{}` in the string}@} by {@{each argument passed to `str.format` in the order of passing}@}. There are {@{more advanced usage}@} not mentioned here. <!--SR:!2026-10-27,290,330!2026-10-27,290,330!2026-10-17,280,330-->
+`str.format` replaces {@{each `{}` in the string}@} by {@{each argument passed to `str.format` in the order of passing}@}. There are {@{more advanced usage}@} not mentioned here. <!--SR:!2026-10-27,290,330!2026-10-27,290,330!fsrs,2030-02-20T00:00:00.000Z,1222,1221.67255456,1,2,9,0,0,2026-10-17T00:00:00.000Z-->
 
 ## functions
 

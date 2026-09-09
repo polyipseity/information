@@ -10,7 +10,7 @@ tags:
 
 # extinction
 
-In {@{[astronomy](astronomy.md)}@}, {@{__extinction__}@} is {@{the [absorption](absorption%20(electromagnetic%20radiation).md) and [scattering](scattering.md#electromagnetics) of [electromagnetic radiation](electromagnetic%20radiation.md)}@} by {@{dust and gas between an emitting [astronomical object](astronomical%20object.md) and the [observer](observation.md)}@}. <!--SR:!2026-10-17,562,310!fsrs,2027-01-31T00:00:00.000Z,142,142.42562933,1,2,2,0,0,2026-09-11T00:00:00.000Z!fsrs,2027-01-31T00:00:00.000Z,142,142.42562933,1,2,2,0,0,2026-09-11T00:00:00.000Z!fsrs,2027-01-31T00:00:00.000Z,142,142.42562933,1,2,2,0,0,2026-09-11T00:00:00.000Z-->
+In {@{[astronomy](astronomy.md)}@}, {@{__extinction__}@} is {@{the [absorption](absorption%20(electromagnetic%20radiation).md) and [scattering](scattering.md#electromagnetics) of [electromagnetic radiation](electromagnetic%20radiation.md)}@} by {@{dust and gas between an emitting [astronomical object](astronomical%20object.md) and the [observer](observation.md)}@}. <!--SR:!fsrs,2032-07-11T00:00:00.000Z,2094,2094.48771386,1,2,10,0,0,2026-10-17T00:00:00.000Z!fsrs,2027-01-31T00:00:00.000Z,142,142.42562933,1,2,2,0,0,2026-09-11T00:00:00.000Z!fsrs,2027-01-31T00:00:00.000Z,142,142.42562933,1,2,2,0,0,2026-09-11T00:00:00.000Z!fsrs,2027-01-31T00:00:00.000Z,142,142.42562933,1,2,2,0,0,2026-09-11T00:00:00.000Z-->
 
 ## interstellar reddening
 

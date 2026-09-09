@@ -103,7 +103,7 @@ There, the table entry in row number 26 at column
 
 - % LoL \> ⁠4/5⁠ → 60.49
 
-indicates that 60.49% \(≈ 40000000\) of the integers 1 ≤ _n_ ≤ 67108863 have {@{_λ_\(_n_\) \> _n_<sup>⁠4/5⁠</sup>}@} meaning that the majority of the _λ_ values is {@{exponential in the length _l_<!-- markdown separator --> := log<sub>2</sub>\(_n_\) of the input _n_}@}, namely {@{$$\left(2^{\frac {4}{5} }\right)^{l}=2^{\frac {4l}{5} }=\left(2^{l}\right)^{\frac {4}{5} }=n^{\frac {4}{5} }.$$}@} <!--SR:!2030-02-25,1484,361!2026-10-17,429,270!2026-11-30,374,379-->
+indicates that 60.49% \(≈ 40000000\) of the integers 1 ≤ _n_ ≤ 67108863 have {@{_λ_\(_n_\) \> _n_<sup>⁠4/5⁠</sup>}@} meaning that the majority of the _λ_ values is {@{exponential in the length _l_<!-- markdown separator --> := log<sub>2</sub>\(_n_\) of the input _n_}@}, namely {@{$$\left(2^{\frac {4}{5} }\right)^{l}=2^{\frac {4l}{5} }=\left(2^{l}\right)^{\frac {4}{5} }=n^{\frac {4}{5} }.$$}@} <!--SR:!2030-02-25,1484,361!fsrs,2030-09-02T00:00:00.000Z,1416,1416.20148815,2.98092302,2,10,0,0,2026-10-17T00:00:00.000Z!2026-11-30,374,379-->
 
 | _ν_ | _n_ = 2<sup>_ν_</sup> – 1 | sum <br/> $\sum _{i\leq n}\lambda (i)$ | average <br/> ${\tfrac {1}{n} }\sum _{i\leq n}\lambda (i)$ | Erdős average | Erdős /exact average | LoL average | % LoL \> ⁠4/5⁠ | % LoL \> ⁠7/8⁠ |
 | --: | ------------------------: | -------------------------------------: | ---------------------------------------------------------: | ------------: | -------------------: | ----------: | -------------: | -------------: |

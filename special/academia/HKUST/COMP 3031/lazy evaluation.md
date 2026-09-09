@@ -83,7 +83,7 @@ or {@{more conveniently}@} via {@{the factory syntax}@}, in which {@{parameters 
 > ```Scala
 > LazyList.range(1000, 10000)   // equivalent to (1000 until 10000).to(LazyList)
 > ```
-<!--SR:!2026-12-19,316,345!2026-10-17,272,330!2026-12-15,313,345-->
+<!--SR:!2026-12-19,316,345!fsrs,2030-01-20T00:00:00.000Z,1191,1191.26470738,1,2,9,0,0,2026-10-17T00:00:00.000Z!2026-12-15,313,345-->
 
 {@{A hand-rolled recursive function}@} illustrates {@{the laziness}@}: <!--SR:!2026-12-21,318,345!2026-12-30,325,345-->
 

@@ -162,7 +162,7 @@ This allows us to {@{_simplify_ diagrams for _clarity_}@}, because {@{common att
 
 #### generalization properties
 
-{@{Generalization}@} can be characterized by {@{2 main properties \(and possibly more\)}@}: {@{_completeness_ and _disjointness_}@}. These two are also called {@{_coverage constraints_}@}. These depend on {@{the semantics of the superclass and subclasses}@} and {@{the _application domain_}@} \(e.g. {@{the exact same generalization in different domains may have different properties}@}\). <!--SR:!2027-02-25,392,361!2027-02-10,388,361!2027-03-21,416,370!2027-02-09,387,361!2027-02-02,381,361!2026-11-04,304,342!2026-10-17,275,341-->
+{@{Generalization}@} can be characterized by {@{2 main properties \(and possibly more\)}@}: {@{_completeness_ and _disjointness_}@}. These two are also called {@{_coverage constraints_}@}. These depend on {@{the semantics of the superclass and subclasses}@} and {@{the _application domain_}@} \(e.g. {@{the exact same generalization in different domains may have different properties}@}\). <!--SR:!2027-02-25,392,361!2027-02-10,388,361!2027-03-21,416,370!2027-02-09,387,361!2027-02-02,381,361!2026-11-04,304,342!fsrs,2030-03-18T00:00:00.000Z,1248,1247.70008002,1,2,9,0,0,2026-10-17T00:00:00.000Z-->
 
 {@{_Disjointness_}@} refers to {@{whether an instance of a superclass is also an instance of _at most_ one subclass}@}. A {@{_disjoint_ generalization}@} is {@{one where all instances of a superclass is also an instance of _at most_ one subclass}@}. Its opposite is {@{_overlapping_}@}, in which {@{there are instances of a superclass that are also instances of _multiple_ subclasses}@}. <!--SR:!2026-12-03,323,342!2026-11-23,313,342!2027-01-15,366,361!2027-03-14,409,370!2027-02-25,392,361!2026-11-04,304,342-->
 
