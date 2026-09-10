@@ -68,7 +68,9 @@ Follow the conventions in [editing-conventions.instructions.md](../editing-conve
 
 ### Missing data
 
-Use `\[missing\]` when a field or value is present but its content is unknown, unavailable, or intentionally empty. This distinguishes "field exists, value absent" from "field not applicable" (omit entirely). In Markdown, escape the brackets (`\[missing\]`) to prevent link creation. Do not use empty strings, `(none)`, `N/A`, `TBD`, `—`, or other variants. Every `academic-crud-*` skill follows this convention.
+The canonical format is `[missing]`. In Markdown files, escape the square brackets (`\[missing\]`) to prevent link creation — but `[missing]` is the true representation.
+
+Use `[missing]` when a field or value is present but its content is unknown, unavailable, or intentionally empty. This distinguishes "field exists, value absent" from "field not applicable" (omit entirely). Do not invent, hallucinate, or generate placeholder content for missing values — mark them `\[missing\]` instead. Do not use empty strings, `(none)`, `N/A`, `TBD`, `—`, or other variants. Every `academic-crud-*` skill follows this convention.
 
 ## Developer tooling & tests
 
