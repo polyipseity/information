@@ -11,6 +11,24 @@ Create, read, update, and delete submission-bound pages. Applies to `labs/`, `tu
 
 `<subdirectory>/<name>/index.md` + `attachments/` + `submission/` + `solution/`
 
+## Dual-component model
+
+Labs, tutorials, and lectures can have __two__ Canvas submission components:
+
+- __Out-of-class__ (pre-lab, post-lab, take-home): work completed outside the session, submitted on Canvas. Can happen before, after, or both relative to the session. Metadata: `submission.yml`.
+- __In-class__ (lab, tutorial, lecture): work done live during the session, also submitted on Canvas. Metadata: `lab.yml`/`tutorial.yml`/`lecture.yml`.
+
+Assignments have a single component → `submission.yml`.
+
+When the in-class component exists, the `index.md` links to `lab.md`/`tutorial.md`/`lecture.md` as children. The Canvas HTML for the in-class component is converted to the component-specific YAML via `convert_canvas_submission.py`.
+
+| Submission type     | Out-of-class YAML  | In-class YAML      | In-class content   |
+| ------------------- | ------------------ | ------------------ | ------------------ |
+| Lab                 | `submission.yml`   | `lab.yml`          | `lab.md`           |
+| Tutorial            | `submission.yml`   | `tutorial.yml`     | `tutorial.md`      |
+| Lecture             | `submission.yml`   | `lecture.yml`      | `lecture.md`       |
+| Assignment          | `submission.yml`   | N/A                | N/A                |
+
 ## Partial-info workflow
 
 Submissions arrive in stages. Each stage fills in what's available without requiring all information upfront.
@@ -46,17 +64,27 @@ Input: submitted work (PDF, source markdown, images).
 
 Input: Canvas HTML (for metadata extraction).
 
-1. Extract:
+__Out-of-class component__ (default):
 
-   ```bash
-   uv run -m scripts.special.convert_canvas_submission <<< "/path/to/Canvas HTML.html" 2> submission.yml
-   ```
+```bash
+uv run -m scripts.special.convert_canvas_submission <<< "/path/to/Canvas HTML.html" 2> submission.yml
+```
 
-2. Redact author names:
+__In-class component__ (labs, tutorials, lectures):
 
-   ```bash
-   sed -i '' "s/author: .*/author: '[redacted]'/" submission.yml
-   ```
+```bash
+uv run -m scripts.special.convert_canvas_submission <<< "/path/to/Canvas HTML.html" 2> lab.yml
+```
+
+Use `lab.yml` for labs, `tutorial.yml` for tutorials, `lecture.yml` for lectures. Overwrite the existing file if present.
+
+__Assignments__: run the convert script to produce `submission.yml`, overwriting if needed.
+
+Redact author names in the resulting YAML:
+
+```bash
+sed -i '' "s/author: .*/author: '[redacted]'/" submission.yml
+```
 
 ### Stage 4: Solution
 
@@ -81,7 +109,7 @@ Fill in the next available stage. Check completion:
 
 - Stage 1 done? → check for `index.md` + `attachments/`
 - Stage 2 done? → check for files in `submission/`
-- Stage 3 done? → check for `submission.yml`
+- Stage 3 done? → check for `submission.yml` (out-of-class) and, if applicable, `lab.yml`/`tutorial.yml`/`lecture.yml` (in-class)
 - Stage 4 done? → check for files in `solution/`
 
 Add what's missing without disturbing existing content.
@@ -91,6 +119,8 @@ Add what's missing without disturbing existing content.
 Remove the submission directory and files. Remove from parent `index.md`.
 
 ## Index page format
+
+### Out-of-class only (assignments, or labs/tutorials/lectures without in-class component)
 
 ```markdown
 ---
@@ -129,6 +159,55 @@ tags:
 - submission: [`<filename>`](submission/<filename>)
   - metadata: [`submission.yml`](submission.yml)
   - source: [`<source>.md`](submission/<source>.md)
+
+## solution
+
+- [`<filename>`](solution/<filename>)
+```
+
+### With in-class component (labs, tutorials, lectures)
+
+When an in-class component exists, add a `## children` section linking to the component content file and list both YAML metadata files in `## submission`:
+
+```markdown
+---
+aliases:
+  - <INSTITUTION> <COURSE> <type> <name>
+tags:
+  - date/<YYYY>/<MM>/<DD>
+  - flashcard/active/special/academia/<INSTITUTION>/<COURSE>/<type>/<name>
+  - language/in/English
+---
+
+# <name>
+
+- <INSTITUTION> <COURSE>
+
+---
+
+- title: <Canvas title>
+- due: <ISO 8601 with timezone>
+- points: <N>
+- submitting: <Canvas submission type>
+
+---
+
+<verbatim Canvas description>
+
+## children
+
+- [<type>](<type>.md)
+
+## attachments
+
+- [`<display-name>`](attachments/<file>)
+
+## submission
+
+- submission: [`<filename>`](submission/<filename>)
+  - metadata: [`submission.yml`](submission.yml)
+  - source: [`<source>.md`](submission/<source>.md)
+- in-class: metadata: [`<type>.yml`](<type>.yml)
 
 ## solution
 
@@ -229,7 +308,7 @@ Run `academic-lint` after every edit. If you know which files changed, pass thos
 
 ## References
 
-- `convert_canvas_submission.py` Canvas HTML to `submission.yml`
+- `convert_canvas_submission.py` Canvas HTML to `submission.yml` / `lab.yml` / `tutorial.yml` / `lecture.yml`
 - `academic-crud-index` parent index updates
 - `academic-crud-attachments` submission-level attachments
 - `academic-lint` validation
