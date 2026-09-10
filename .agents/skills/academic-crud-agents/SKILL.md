@@ -49,11 +49,12 @@ Remove the `AGENTS.md` file.
 
 1. Confirm with the user before deleting.
 2. Remove the file.
-3. No index update needed (AGENTS.md is not linked from `index.md` children in the standard layout, though some courses include `[AGENTS](AGENTS.md)` in their children list — remove that link if present).
+3. Remove the `[AGENTS](AGENTS.md)` link from the parent course `index.md` `## children` section (the validator requires this link when `AGENTS.md` exists).
 
 ## Rules
 
 - First heading must be exactly `# <COURSE code> agent instructions`
+- YAML frontmatter is allowed and commonly used for `aliases` and `tags`
 - No flashcard markup (`{@{ }@}`, `::@::`, `:@:`) in this file
 - No PII, instructor names, or email addresses
 - Keep concise. Reference other skills by name, not by embedding their rules
