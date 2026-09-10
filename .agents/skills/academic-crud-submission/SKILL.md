@@ -216,7 +216,7 @@ tags:
 
 ## Missing data
 
-Use `\[missing\]` for absent fields — for example, `points: \[missing\]` when ungraded, or `venue: \[missing\]` when not yet assigned. See [special.instructions.md](../../instructions/special.instructions.md#missing-data).
+Use `\[missing\]` for absent fields — for example, `points: \[missing\]` when ungraded, or `venue: \[missing\]` when not yet assigned. Do not invent or generate placeholder content for missing values. See [special.instructions.md](../../instructions/special.instructions.md#missing-data).
 
 ## Canvas metadata rules
 
