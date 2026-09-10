@@ -3719,6 +3719,17 @@ def no_soft_wrap_paragraph(ctx: ValidationContext) -> list[ValidationMessage]:
             newline_off = body.find("\n", body_idx)
             if newline_off == -1:
                 newline_off = body_idx
+
+            # Exempt intentional hard breaks: <br/>, backslash, or
+            # two trailing spaces at end of line.
+            line_before_nl = body[body_idx:newline_off]
+            if (
+                line_before_nl.rstrip().endswith("<br/>")
+                or line_before_nl.rstrip().endswith("\\")
+                or line_before_nl.rstrip() != line_before_nl.rstrip(" ")
+            ):
+                continue
+
             abs_idx = body_start + newline_off
             line_no, col, col_end = locate_range(text, abs_idx, 1)
             errors.append(
@@ -3775,6 +3786,20 @@ def no_soft_wrap_list(ctx: ValidationContext) -> list[ValidationMessage]:
 
         body_idx = body.find(first_text)
         if body_idx == -1:
+            continue
+
+        # Exempt intentional hard breaks: find the line containing
+        # the softbreak and check if it ends with <br/>, backslash,
+        # or two trailing spaces.
+        newline_off = body.find("\n", body_idx)
+        if newline_off == -1:
+            newline_off = len(body)
+        line_text = body[body_idx:newline_off]
+        if (
+            line_text.rstrip().endswith("<br/>")
+            or line_text.rstrip().endswith("\\")
+            or line_text.rstrip() != line_text.rstrip(" ")
+        ):
             continue
 
         abs_idx = body_start + body_idx
@@ -4024,5 +4049,57 @@ def md028_bad_format(ctx: ValidationContext) -> list[ValidationMessage]:
                     col_end=col_end,
                 )
             )
+
+    return errors
+
+
+@RULE_REGISTRY.register()
+def html_br_mid_line(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Flag <br/> tags used mid-line (not followed by a newline).
+
+    ``<br/>`` must appear at the end of a line (followed by ``\n``) to
+    produce an intentional hard break.  When used mid-line it is
+    incorrect usage and should be moved to the line end or replaced
+    with a blank line.
+    """
+    errors: list[ValidationMessage] = []
+    text = ctx.text
+    fm = FRONT_RE.match(text)
+    body_start = fm.end() if fm else 0
+    body = text[body_start:]
+
+    # Match <br/>, <br>, <br /> variants (case-insensitive).
+    br_re = re.compile(r"<br\s*/?>", re.IGNORECASE)
+
+    for m in br_re.finditer(body):
+        abs_pos = body_start + m.start()
+
+        # Skip inside code fences.
+        if body[: m.start()].count("```") % 2 == 1:
+            continue
+
+        # Skip inside inline code (backtick pairs).
+        before = body[: m.start()]
+        if before.count("`") % 2 == 1:
+            continue
+
+        # Check if followed by newline (correct) or more content (wrong).
+        after = body[m.end() :]
+        if after.startswith("\n") or after.startswith("\r\n"):
+            continue  # correct: <br/> at end of line
+
+        line_no, col, col_end = locate_range(text, abs_pos, len(m.group(0)))
+        errors.append(
+            ValidationMessage(
+                rule_id="html_br_mid_line",
+                msg=(
+                    "<br/> must appear at end of line (followed by newline) — "
+                    "move it to the line end or use a blank line instead"
+                ),
+                line=line_no,
+                col=col,
+                col_end=col_end,
+            )
+        )
 
     return errors
