@@ -66,6 +66,15 @@ Input
 ├─ Sub-directory index? (listing page for assignments/, questions/, etc.)
 │  ├─ Yes → academic-crud-index (<dir>/index.md)
 │
+├─ Attachments? (raw files: PDFs, images, data, scripts at any level)
+│  ├─ Yes → academic-crud-attachments (attachments/<file>)
+│
+├─ Wikipedia articles for reference? (transcludes/ directory)
+│  ├─ Yes → academic-crud-transcludes (transcludes/<article>.md)
+│
+├─ Deprecated pattern? (flat questions.md, flat assignment dirs, transcripts/)
+│  ├─ Yes → warn user, suggest migration, route to active skill
+│
 └─ Unclear → prompt user with candidates
 ```
 
@@ -132,6 +141,9 @@ After the dispatched skill completes:
 | Submission pages (labs, tutorials, lectures, assignments) | `academic-crud-submission` |
 | Question pages (no submission) | `academic-crud-question` |
 | `AGENTS.md` | `academic-crud-agents` |
+| Attachments at any level | `academic-crud-attachments` |
+| Wikipedia transcludes | `academic-crud-transcludes` |
+| Deprecated patterns | `academic-deprecated` (warn only) |
 
 ## References
 
