@@ -24,6 +24,7 @@ For all academic material ingestion, start with the `academic-ingest` dispatcher
 | `academic-crud-topic-note` | Standalone concept and lecture notes |
 | `academic-crud-question` | Problem sets, iPRs, quizzes (no submission) |
 | `academic-crud-agents` | Course-level `AGENTS.md` files |
+| `academic-crud-attachments` | Attachments directories at any level |
 | `create-flashcards` | Flashcard markup (referenced by other skills) |
 
 ## Cross-cutting rules

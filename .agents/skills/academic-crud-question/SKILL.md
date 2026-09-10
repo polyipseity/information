@@ -144,4 +144,5 @@ Every line inside a blockquote must begin with `>` — including blank lines.
 
 - `create-flashcards` cloze methodology and patterns
 - `academic-crud-index` parent index updates
+- `academic-crud-attachments` questions-level attachments
 - `academic-lint` validation

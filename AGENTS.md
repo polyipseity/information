@@ -116,6 +116,7 @@ __Skills metadata__: Each skill is self-described in its `SKILL.md` frontmatter 
 - __[academic-crud-topic-note](.agents/skills/academic-crud-topic-note/SKILL.md)__ — Standalone concept and lecture notes
 - __[academic-crud-question](.agents/skills/academic-crud-question/SKILL.md)__ — Problem sets, iPRs, quizzes (no submission)
 - __[academic-crud-agents](.agents/skills/academic-crud-agents/SKILL.md)__ — Course-level `AGENTS.md` files
+- __[academic-crud-attachments](.agents/skills/academic-crud-attachments/SKILL.md)__ — Attachments directories at any level
 - __[create-flashcards](.agents/skills/create-flashcards/SKILL.md)__ — Flashcard markup (referenced by academic skills)
 
 __Skill flow__: Start with `academic-ingest` for all ingestion. It dispatches to the appropriate CRUD skill. Run `academic-lint` after every edit. Most workflows use multiple skills in sequence; see individual skill files for cross-references and integration guidance.

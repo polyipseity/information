@@ -177,4 +177,5 @@ Run `academic-lint` after every edit. If you know which files changed, pass thos
 
 - `convert_canvas_submission.py` Canvas HTML to `submission.yml`
 - `academic-crud-index` parent index updates
+- `academic-crud-attachments` submission-level attachments
 - `academic-lint` validation
