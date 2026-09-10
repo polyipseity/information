@@ -33,6 +33,7 @@ from main_mods.rules import (
     header_flashcard_sections_duplicate,
     header_flashcard_separator,
     header_style,
+    html_br_mid_line,
     index_canvas_metadata_iso_datetime,
     index_children,
     index_children_agents_link,
@@ -2614,3 +2615,90 @@ def test_flashcard_rules_still_fire_on_non_exempt_files():
     ctx = make_ctx(txt, path=Path("/tmp/course/labs/lab 1/preparation.md"))
     msgs = header_flashcard_presence(ctx)
     assert msgs and msgs[0].rule_id == "header_flashcard_presence"
+
+
+# soft-wrap <br/> exemption tests ---------------------------------------------------
+
+
+def test_no_soft_wrap_paragraph_exempt_brslash():
+    """Lines ending with <br/> should not trigger soft-wrap paragraph errors."""
+    # <br/> at end of line — intentional hard break, no error
+    txt = "This is locked. <br/>\nNo additional details.\n"
+    ctx = make_ctx(txt)
+    assert not no_soft_wrap_paragraph(ctx)
+
+    # backslash at end of line — also exempt
+    txt2 = "Line one \\\nLine two\n"
+    ctx2 = make_ctx(txt2)
+    assert not no_soft_wrap_paragraph(ctx2)
+
+    # two trailing spaces — also exempt
+    txt3 = "Line one   \nLine two\n"
+    ctx3 = make_ctx(txt3)
+    assert not no_soft_wrap_paragraph(ctx3)
+
+    # plain soft wrap — still flagged
+    txt4 = "Line one\nLine two\n"
+    ctx4 = make_ctx(txt4)
+    msgs = no_soft_wrap_paragraph(ctx4)
+    assert msgs and "soft-wrapped" in msgs[0].msg
+
+
+def test_no_soft_wrap_list_exempt_brslash():
+    """List items ending with <br/> should not trigger soft-wrap list errors."""
+    # <br/> at end of list item — intentional, no error
+    txt = "- item one <br/>\n  continuation\n"
+    ctx = make_ctx(txt)
+    assert not no_soft_wrap_list(ctx)
+
+    # backslash at end of list item — also exempt
+    txt2 = "- line1 \\\nline2\n"
+    ctx2 = make_ctx(txt2)
+    assert not no_soft_wrap_list(ctx2)
+
+    # plain soft-wrapped list — still flagged
+    txt3 = "- item part1\n  continuation\n"
+    ctx3 = make_ctx(txt3)
+    msgs = no_soft_wrap_list(ctx3)
+    assert msgs and "soft-wrapped" in msgs[0].msg
+
+
+def test_html_br_mid_line():
+    """<br/> mid-line (not at end) should produce an error."""
+    # <br/> mid-line — error
+    txt = "Some text <br/> more text\n"
+    ctx = make_ctx(txt)
+    msgs = html_br_mid_line(ctx)
+    assert msgs and msgs[0].rule_id == "html_br_mid_line"
+    assert "end of line" in msgs[0].msg
+
+    # <br/> at end of line — no error
+    txt2 = "Some text <br/>\nMore text\n"
+    ctx2 = make_ctx(txt2)
+    assert not html_br_mid_line(ctx2)
+
+    # <br> (without slash) mid-line — also error
+    txt3 = "Some text <br> more text\n"
+    ctx3 = make_ctx(txt3)
+    msgs3 = html_br_mid_line(ctx3)
+    assert msgs3 and msgs3[0].rule_id == "html_br_mid_line"
+
+    # <br /> (with space) at end of line — no error
+    txt4 = "Some text <br />\nMore text\n"
+    ctx4 = make_ctx(txt4)
+    assert not html_br_mid_line(ctx4)
+
+
+def test_html_br_mid_line_skips_code():
+    """<br/> inside code fences or inline code should not produce errors."""
+    fence = "```"
+
+    # Inside code fence — no error
+    txt = fence + "\n<br/> inside code\n" + fence + "\n"
+    ctx = make_ctx(txt)
+    assert not html_br_mid_line(ctx)
+
+    # Inside inline code — no error
+    txt2 = "Use `" + "<br/>" + "` in HTML\n"
+    ctx2 = make_ctx(txt2)
+    assert not html_br_mid_line(ctx2)
