@@ -83,7 +83,7 @@ Remove question page. Update `questions/index.md`.
 
 ## Missing data
 
-Use `(none)` for absent metadata — for example, when a problem has no solution yet or a quiz has no timestamp. See [special.instructions.md](../../instructions/special.instructions.md#missing-data).
+Use `\[missing\]` for absent values — for example, when a problem has no solution yet or a quiz has no timestamp. See [special.instructions.md](../../instructions/special.instructions.md#missing-data).
 
 ## Blockquote formatting
 

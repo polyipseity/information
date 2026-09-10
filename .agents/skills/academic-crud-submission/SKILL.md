@@ -216,7 +216,7 @@ tags:
 
 ## Missing data
 
-Use `(none)` for metadata fields with absent values — for example, `points: (none)` when ungraded, or `venue: (none)` when not yet assigned. See [special.instructions.md](../../instructions/special.instructions.md#missing-data).
+Use `\[missing\]` for absent fields — for example, `points: \[missing\]` when ungraded, or `venue: \[missing\]` when not yet assigned. See [special.instructions.md](../../instructions/special.instructions.md#missing-data).
 
 ## Canvas metadata rules
 

@@ -22,7 +22,7 @@ Attachments can appear at multiple levels:
 - Link from parent `## children` as `[attachments/](attachments/)` or as individual file links
 - Contents are raw files (PDF, PNG, SVG, CSV, Python, Java, etc.), not Markdown notes
 - Use `%20` encoding for spaces in filenames when linking
-- Missing-data indicator `(none)` rarely applies here — files either exist or don't. See [special.instructions.md](../../instructions/special.instructions.md#missing-data)
+- Missing-data indicator `\[missing\]` rarely applies here — files either exist or don't. See [special.instructions.md](../../instructions/special.instructions.md#missing-data)
 
 ## Creating or updating attachments
 

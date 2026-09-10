@@ -143,7 +143,7 @@ After determining the target type for a material, apply these steps before dispa
 
 ### Missing data
 
-Use `(none)` when a metadata field is present but its value is unknown or unavailable during partial-info ingestion. See [special.instructions.md](../../instructions/special.instructions.md#missing-data).
+Use `\[missing\]` when a field is present but its value is unknown or unavailable during partial-info ingestion. See [special.instructions.md](../../instructions/special.instructions.md#missing-data).
 
 ### 1. Existing-match check
 
