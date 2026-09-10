@@ -177,6 +177,25 @@ After all exam sections:
     ...
 ```
 
+### Appendix section
+
+Optional section after sessions/exams, before `## aftermath`. Holds supplementary topic links not in the main `## children` section.
+
+```markdown
+## appendix
+
+- [topic name](topic%20name.md)
+    - topic name / [§ section heading](topic%20name.md#section%20heading)
+```
+
+Use `## appendix` for:
+
+- Wikipedia transcludes (see `academic-crud-transcludes`)
+- Supplementary reference material
+- Topics that don't fit the main session flow
+
+Not all courses use `## appendix`. Only add it when there is supplementary content that warrants separation from the main `## children` list.
+
 ### Announcement preservation
 
 Official Canvas announcements as blockquotes after `---`:
