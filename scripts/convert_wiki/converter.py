@@ -327,18 +327,12 @@ class WikiHtmlConverter:
         if "hatnote" in classes:
             config.prefix = f"- {config.prefix.removesuffix('_')}"
             next_sib = ele.find_next_sibling()
-            nxt = self._effective_sibling_skipping(
-                ele, following=True, skip_whitespace=True
-            )
             if isinstance(next_sib, Tag) and (
                 next_sib.name == "figure"
                 or _BOXED_CLASSES & frozenset(next_sib.get_attribute_list("class"))
             ):
                 config.suffix = f"{config.suffix.removeprefix('_')}\n\n"
-            elif isinstance(nxt, Tag) and (
-                _HEADER_REGEX.match(nxt.name)
-                or "mw-heading" in frozenset(nxt.get_attribute_list("class"))
-            ):
+            elif self._effective_sibling_is_heading(ele):
                 config.suffix = f"{config.suffix.removeprefix('_')}\n\n"
             else:
                 config.suffix = f"{config.suffix.removeprefix('_')}\n"
@@ -673,6 +667,64 @@ class WikiHtmlConverter:
                 node = sibling
                 continue
             return sibling
+
+    @staticmethod
+    def _effective_sibling_is_heading(ele: PageElement) -> bool:
+        """Check if the effective next sibling is a heading.
+
+        Handles the case where the next sibling is a ``<section>`` wrapper
+        containing a heading as a direct child (not nested deeper).
+        """
+        node: PageElement = ele
+        while True:
+            sibling = node.next_sibling
+            if sibling is None:
+                return False
+            if isinstance(sibling, NavigableString):
+                if not sibling.strip():
+                    node = sibling
+                    continue
+                return False
+            if isinstance(sibling, Tag):
+                if _HEADER_REGEX.match(sibling.name):
+                    return True
+                if "mw-heading" in frozenset(sibling.get_attribute_list("class")):
+                    return True
+                # <section> wrapper: check only direct children for headings
+                # (not recursive, to avoid false positives from nested sections)
+                if sibling.name == "section":
+                    for child in sibling.children:
+                        if isinstance(child, Tag) and (
+                            _HEADER_REGEX.match(child.name)
+                            or "mw-heading"
+                            in frozenset(child.get_attribute_list("class"))
+                        ):
+                            return True
+                    return False
+                return False
+            return False
+
+    @staticmethod
+    def _sole_bold_child(ele: Tag) -> Tag | None:
+        """Return the single ``<b>``/``<strong>`` child if *ele* contains only bold + whitespace.
+
+        Only checks ``<b>`` and ``<strong>`` (not ``<em>``/``<i>``), because
+        bold-only paragraphs in Wikipedia "See also" sections are category
+        headers that trigger MD036.
+        """
+        _BOLD_ONLY = frozenset({"b", "strong"})
+        content_children = [
+            c
+            for c in ele.children
+            if not (isinstance(c, NavigableString) and not c.strip())
+        ]
+        if (
+            len(content_children) == 1
+            and isinstance(content_children[0], Tag)
+            and content_children[0].name in _BOLD_ONLY
+        ):
+            return content_children[0]
+        return None
 
     def _handle_bold_italic(self, ele: Tag, classes: frozenset[str]) -> _HandlerConfig:
         """Render bold/italic text with Markdown emphasis markers."""
@@ -1091,6 +1143,13 @@ class WikiHtmlConverter:
         in_table = self._in_table_cell(ele)
         prefix = "\n" if not in_table else ""
         suffix = "" if in_table else "\n\n"
+
+        # Bold-only paragraphs (e.g., "See also" category headers) trigger
+        # MD036 (no-emphasis-as-heading).  Suppress per-line rather than
+        # converting to a heading, preserving the original bold rendering.
+        if not in_table and self._sole_bold_child(ele) is not None:
+            prefix = f"<!-- markdownlint-disable-next-line MD036 -->\n{prefix}"
+
         return _HandlerConfig(prefix=prefix, suffix=suffix, process_strings=process)
 
     def _handle_code(self, ele: Tag, classes: frozenset[str]) -> _HandlerConfig:
