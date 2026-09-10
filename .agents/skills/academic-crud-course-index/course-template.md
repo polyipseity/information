@@ -29,6 +29,11 @@ Keep detailed policy, edge cases, and advanced note-writing rules in `SKILL.md`.
   (for example tutorial rounds, lab rounds, quizzes, or homeworks), scaffold
   minimal child pages for those foreseeable items early and keep them lightweight
   until official content arrives.
+- Lab, tutorial, and lecture leaf indexes may have in-class content files
+  (`lab.md`, `tutorial.md`, `lecture.md`) as children when the in-class
+  component exists. The `## children` section links to these files, and
+  `## submission` lists both out-of-class (`submission.yml`) and in-class
+  (`lab.yml`/`tutorial.yml`/`lecture.yml`) metadata.
 - Keep `index.md` pages lean: the course root should hold only the high-value
   overview, folder indexes should summarize just enough to navigate, and leaf
   indexes should usually contain only minimal logistics until real content is
@@ -197,4 +202,51 @@ Administrative exam notes may be written here as ordinary prose.
   - cheatsheet: allowed
   - open book: no
   - questions: long question ×3
+```
+
+### Example: lab leaf index with dual components
+
+A lab with both out-of-class (pre-lab) and in-class components:
+
+```markdown
+---
+aliases:
+  - HKUST ELEC 2100 lab 1
+tags:
+  - flashcard/active/special/academia/HKUST/ELEC_2100/labs/lab_1/index
+  - language/in/English
+---
+
+# lab 1
+
+- HKUST ELEC 2100
+
+---
+
+- title: Lab 1: Signal Sampling
+- due: 2025-09-26T23:59:00+08:00
+- points: 20
+- submitting: a file upload
+
+---
+
+Lab instructions and sample data.
+
+## children
+
+- [lab](lab.md)
+
+## attachments
+
+- [`lab1.pdf`](attachments/lab1.pdf)
+
+## submission
+
+- submission: [`prelab.pdf`](submission/prelab.pdf)
+  - metadata: [`submission.yml`](submission.yml)
+- in-class: metadata: [`lab.yml`](lab.yml)
+
+## solution
+
+- [`solution.pdf`](solution/solution.pdf)
 ```
