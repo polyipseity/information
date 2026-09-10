@@ -157,8 +157,8 @@ tags:
 ## submission
 
 - submission
-  - metadata: [`submission.yml`](submission.yml)
-  - source: [`<source>.md`](submission/<source>.md)
+    - metadata: [`submission.yml`](submission.yml)
+    - source: [`<source>.md`](submission/<source>.md)
 
 ## solution
 
@@ -203,9 +203,10 @@ tags:
 ## submission
 
 - submission
-  - metadata: [`submission.yml`](submission.yml)
-  - source: [`<source>.md`](submission/<source>.md)
-- in-class: metadata: [`<type>.yml`](<type>.yml)
+    - metadata: [`submission.yml`](submission.yml)
+    - source: [`<source>.md`](submission/<source>.md)
+- in-class submission
+    - metadata: [`<type>.yml`](<type>.yml)
 
 ## solution
 
