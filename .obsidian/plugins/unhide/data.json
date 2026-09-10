@@ -3,6 +3,7 @@
   "language": "",
   "noticeTimeout": 5,
   "openChangelogOnUpdate": true,
+  "protectSync": true,
   "showConfigurationFolder": true,
   "showHiddenFiles": true,
   "showingRules": [
