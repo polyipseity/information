@@ -68,7 +68,7 @@ Follow the conventions in [editing-conventions.instructions.md](../editing-conve
 
 ### Missing data
 
-Use `(none)` when a metadata field is present but its value is unknown, unavailable, or intentionally empty. This distinguishes "field exists, value absent" from "field not applicable" (omit entirely). Do not use empty strings, `N/A`, `TBD`, `—`, or other variants. Every `academic-crud-*` skill follows this convention.
+Use `\[missing\]` when a field or value is present but its content is unknown, unavailable, or intentionally empty. This distinguishes "field exists, value absent" from "field not applicable" (omit entirely). In Markdown, escape the brackets (`\[missing\]`) to prevent link creation. Do not use empty strings, `(none)`, `N/A`, `TBD`, `—`, or other variants. Every `academic-crud-*` skill follows this convention.
 
 ## Developer tooling & tests
 
