@@ -143,6 +143,60 @@ tags:
 - Update announcements: verbatim with color and bold
 - Normalize metadata fields only, not prose body
 
+## submission.pdf.yml (PDF rendering metadata)
+
+Some submissions include a `submission.pdf.yml` file alongside `submission.yml`. This file controls PDF rendering and display configuration, separate from the Canvas submission metadata.
+
+### Format
+
+```yaml
+landscape: false
+margin:
+  top: 0.5in
+  right: 0.5in
+  bottom: 0.5in
+  left: 0.5in
+page size: A4
+scale: 1.0
+```
+
+### Fields
+
+- `landscape`: `true` or `false` — page orientation
+- `margin`: page margins with units (in, cm, mm)
+- `page size`: paper size (A4, letter, etc.)
+- `scale`: zoom factor (1.0 = 100%)
+
+### When to create
+
+Create `submission.pdf.yml` when:
+
+- A PDF needs non-default rendering (landscape, custom margins)
+- The submission is a cheatsheet or reference card with specific layout
+- The PDF is displayed inline rather than linked
+
+### Relationship to submission.yml
+
+- `submission.yml` = Canvas submission metadata (assignment ID, grade, course ID, author)
+- `submission.pdf.yml` = PDF rendering/display configuration
+
+They are independent files. A submission can have either or both.
+
+### Examples
+
+ACCT 2010 final examination cheatsheet:
+
+```yaml
+landscape: false
+margin:
+  top: 0.5in
+  right: 0.5in
+  bottom: 0.5in
+  left: 0.5in
+page size: A4
+scale: 1.0
+```
+
 ## Display-vs-link convention
 
 On-disk filename may differ from Canvas display name (e.g., `PS7-3.pdf` displayed as `PS7.pdf`):
