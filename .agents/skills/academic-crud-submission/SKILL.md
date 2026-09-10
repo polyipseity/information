@@ -156,7 +156,7 @@ tags:
 
 ## submission
 
-- submission: [`<filename>`](submission/<filename>)
+- submission
   - metadata: [`submission.yml`](submission.yml)
   - source: [`<source>.md`](submission/<source>.md)
 
@@ -165,9 +165,11 @@ tags:
 - [`<filename>`](solution/<filename>)
 ```
 
+The `- submission` label is a generic type used when the specific submission type is not yet determined. When the type is known, replace with the concrete type (e.g., `- file: ...`). See the in-class example below.
+
 ### With in-class component (labs, tutorials, lectures)
 
-When an in-class component exists, add a `## children` section linking to the component content file and list both YAML metadata files in `## submission`:
+When an in-class component exists, list both YAML metadata files in `## submission` using type-based labels, and add a `## children` section as the very last section:
 
 ```markdown
 ---
@@ -194,17 +196,13 @@ tags:
 
 <verbatim Canvas description>
 
-## children
-
-- [<type>](<type>.md)
-
 ## attachments
 
 - [`<display-name>`](attachments/<file>)
 
 ## submission
 
-- submission: [`<filename>`](submission/<filename>)
+- submission
   - metadata: [`submission.yml`](submission.yml)
   - source: [`<source>.md`](submission/<source>.md)
 - in-class: metadata: [`<type>.yml`](<type>.yml)
@@ -212,6 +210,10 @@ tags:
 ## solution
 
 - [`<filename>`](solution/<filename>)
+
+## children
+
+- [<type>](<type>.md)
 ```
 
 ## Missing data
@@ -224,6 +226,7 @@ Use `\[missing\]` for absent fields — for example, `points: \[missing\]` when 
 - Availability windows: ISO datetime range + `, <ISO duration>`
 - Description: verbatim Canvas wording, preserve `<span style>` for color
 - Update announcements: verbatim with color and bold
+- Canvas system messages (e.g., "This assignment was locked...", "No additional details were added for this assignment.") appearing in or near the description body are part of the description and must be preserved verbatim
 - Normalize metadata fields only, not prose body
 
 ## submission.pdf.yml (PDF rendering metadata)
