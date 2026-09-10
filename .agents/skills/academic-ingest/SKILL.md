@@ -85,6 +85,11 @@ Material
 │  │  │     worksheets, or graded lecture activities.)
 │  │  ├─ Unbound (PS, HW, project) → academic-crud-submission (assignments/<name>/)
 │  │  └─ Ambiguous → prompt user to pick directory
+│  │
+│  │  In-class component: If the Canvas page is for live session work
+│  │  (in-class lab, tutorial, or lecture) for an existing submission,
+│  │  route to academic-crud-submission and treat as an in-class addition
+│  │  (creating lab.yml/tutorial.yml/lecture.yml and lab.md/tutorial.md/lecture.md).
 │
 ├─ Question set? (problems, exercises, iPRs, no submission)
 │  ├─ Yes → academic-crud-question (questions/<name>.md)
@@ -152,6 +157,10 @@ If a match is found, show the existing note and ask:
 - __Cancel__
 
 All types support partial information: you can create a note with minimal info and fill in details later. An existing match never overrides type classification — a problem set that shares words with a topic note is still classified as a question set.
+
+### In-class component detection
+
+When the input is a Canvas HTML for a lab, tutorial, or lecture that already has a `submission.yml` in its directory, ask the user whether this is the out-of-class or in-class Canvas page. The in-class page produces `lab.yml`/`tutorial.yml`/`lecture.yml` (not `submission.yml`) and creates a `lab.md`/`tutorial.md`/`lecture.md` content file as a child of `index.md`.
 
 ### 2. Attachment handling
 
