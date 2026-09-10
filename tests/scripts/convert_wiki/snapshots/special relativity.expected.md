@@ -107,6 +107,7 @@ The derivation of special relativity depends not only on these two explicit post
 ## principle_of_relativity
 
 - Main article: [Principle of relativity](principle_of_relativity.md)
+
 ### reference frames and relative motion
 
 [Reference frames](frame_of_reference.md) play a crucial role in relativity theory. The term reference frame as used here is an observational perspective in space that is not undergoing any change in motion \(acceleration\), from which a position can be measured along 3 spatial axes \(so, at rest or constant velocity\). In addition, a reference frame has the ability to determine measurements of the time of events using a "clock" \(any reference device with uniform periodicity\).
@@ -142,6 +143,7 @@ From the principle of relativity alone without assuming the constancy of the spe
 ## Lorentz transformation
 
 - Main article: [Lorentz transformation](Lorentz%20transformation.md)
+
 ### two- vs one- postulate approaches
 
 - Main article: [Derivations of the Lorentz transformations](derivations%20of%20the%20Lorentz%20transformations.md)
@@ -390,6 +392,7 @@ There is nothing special about the _x_ direction in the standard configuration. 
 ### thomas_rotation
 
 - See also: [Thomas rotation](thomas_rotation.md)
+
 > ![First of two figures helping to explain Thomas rotation (Thomas-Wigner rotation). Source: Figure 77 in Taylor and Wheeler, Spacetime Physics, 1st edition.](https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Thomas-Wigner_Rotation_1.svg/250px-Thomas-Wigner_Rotation_1.svg.png)
 >
 > ![Second of two figures helping to explain Thomas rotation (Thomas-Wigner rotation). Source: Figure 77 in Taylor and Wheeler, Spacetime Physics, 1st edition.](https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Thomas-Wigner_Rotation_2.svg/250px-Thomas-Wigner_Rotation_2.svg.png)
@@ -479,6 +482,7 @@ $\cos \theta '={\frac {\cos \theta +v/c}{1+(v/c)\cos \theta } }$  __OR__  $\sin 
 ### relativistic Doppler effect
 
 - Main article: [Relativistic Doppler effect](relativistic%20Doppler%20effect.md)
+
 #### relativistic longitudinal Doppler effect
 
 The classical Doppler effect depends on whether the source, receiver, or both are in motion with respect to the medium. The relativistic Doppler effect is independent of any medium. Nevertheless, relativistic Doppler shift for the longitudinal case, with source and receiver moving directly towards or away from each other, can be derived as if it were the classical phenomenon, but modified by the addition of a [time dilation](time_dilation.md) term, and that is the treatment described here.<sup>[\[62\]](#^ref-62)</sup><sup>[\[63\]](#^ref-63)</sup>
@@ -681,6 +685,7 @@ For the symmetrical case in which $\phi =\theta$ and ⁠$\beta _{2}=\beta _{3}$�
 ## rapidity
 
 - Main article: [Rapidity](rapidity.md)
+
 > ![This file is intended to be used with File:Hyperbolic_functions-2.svg to demonstrate the analogies between circular and hyperbolic functions](https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Trig_functions_(sine_and_cosine).svg/250px-Trig_functions_(sine_and_cosine).svg.png)
 >
 > Figure 7-1a. A ray through the [unit circle](unit_circle.md) _x_<sup>2</sup> + _y_<sup>2</sup> = 1 in the point \(cos _a_, sin _a_\), where _a_ is twice the area between the ray, the circle, and the _x_-axis.
@@ -935,6 +940,7 @@ Several experiments predating Einstein's 1905 paper are now interpreted as evide
 
 ## see also
 
+<!-- markdownlint-disable-next-line MD036 -->
 __People__
 
 - [Arnold Sommerfeld](arnold_sommerfeld.md)
@@ -944,6 +950,7 @@ __People__
 - [Max von Laue](max_von_laue.md)
 - [Mileva Marić](mileva_marić.md)
 
+<!-- markdownlint-disable-next-line MD036 -->
 __Relativity__
 
 - [Bondi k-calculus](bondi_k-calculus.md)
@@ -954,6 +961,7 @@ __Relativity__
 - [Rietdijk–Putnam argument](rietdijk–putnam_argument.md)
 - [Special relativity \(alternative formulations\)](special_relativity_(alternative_formulations).md)
 
+<!-- markdownlint-disable-next-line MD036 -->
 __Physics__
 
 - [Born coordinates](born_coordinates.md)
@@ -967,16 +975,19 @@ __Physics__
 - [Relativistic heat conduction](relativistic_heat_conduction.md)
 - [Shape waves](shape_waves.md)
 
+<!-- markdownlint-disable-next-line MD036 -->
 __Mathematics__
 
 - [Lorentz group](lorentz_group.md)
 - [Relativity in the APS formalism](algebra_of_physical_space.md)
 
+<!-- markdownlint-disable-next-line MD036 -->
 __Philosophy__
 
 - [Actualism](actualism.md)
 - [Conventionalism](conventionalism.md)
 
+<!-- markdownlint-disable-next-line MD036 -->
 __Paradoxes__
 
 - [Bell's spaceship paradox](bell's_spaceship_paradox.md)
