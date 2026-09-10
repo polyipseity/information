@@ -59,6 +59,7 @@ Remove the `AGENTS.md` file.
 - No PII, instructor names, or email addresses
 - Keep concise. Reference other skills by name, not by embedding their rules
 - If the file exceeds ~30 lines, split detailed rules into `.agents/instructions/` files
+- Use `(none)` for placeholder metadata fields with absent values. See [special.instructions.md](../../instructions/special.instructions.md#missing-data)
 
 ## Validation
 

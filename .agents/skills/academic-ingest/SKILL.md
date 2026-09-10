@@ -141,6 +141,10 @@ Show at most __3 candidates__ per phase, each with a one-line description of why
 
 After determining the target type for a material, apply these steps before dispatch.
 
+### Missing data
+
+Use `(none)` when a metadata field is present but its value is unknown or unavailable during partial-info ingestion. See [special.instructions.md](../../instructions/special.instructions.md#missing-data).
+
 ### 1. Existing-match check
 
 Fuzzy-match the input content against existing notes of the __same target type__ within the resolved course:

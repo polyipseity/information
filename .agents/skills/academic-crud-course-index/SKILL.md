@@ -226,6 +226,10 @@ Official Canvas announcements as blockquotes after `---`:
 
 Run `academic-lint` after every edit. If you know which files changed, pass those files specifically. Otherwise lint the whole course folder.
 
+## Missing data
+
+Use `(none)` for metadata fields with absent values (see [special.instructions.md](../../instructions/special.instructions.md#missing-data)).
+
 ## References
 
 - `academic-crud-course-index/course-template.md` scaffold template

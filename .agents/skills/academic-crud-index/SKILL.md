@@ -50,6 +50,10 @@ tags:
 
 ## CRUD operations
 
+## Missing data
+
+Use `(none)` for metadata fields with absent values in index pages. See [special.instructions.md](../../instructions/special.instructions.md#missing-data).
+
 ### Create
 
 Scaffold a new sub-directory index.

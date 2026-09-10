@@ -214,6 +214,10 @@ tags:
 - [`<filename>`](solution/<filename>)
 ```
 
+## Missing data
+
+Use `(none)` for metadata fields with absent values — for example, `points: (none)` when ungraded, or `venue: (none)` when not yet assigned. See [special.instructions.md](../../instructions/special.instructions.md#missing-data).
+
 ## Canvas metadata rules
 
 - Due date → ISO 8601 with timezone (seconds `:00` for start, `:59` for end)
