@@ -9,7 +9,7 @@ applyTo: "special/academia/**,private/special/academia/**"
 For all academic material ingestion, start with the `academic-ingest` dispatcher skill. It classifies input and routes to the correct CRUD skill.
 
 - Read `../skills/academic-ingest/SKILL.md` as the entry point for all ingestion.
-- Read `../skills/academic-lint/course-template.md` as the scaffold for new course indexes.
+- Read `../skills/academic-crud-course-index/course-template.md` as the scaffold for new course indexes.
 - The validator is at `.agents/skills/academic-lint/main.py`; run `academic-lint` to validate after editing.
 
 ## Skills
