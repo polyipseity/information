@@ -44,7 +44,7 @@ Assuming {@{equiprobable bits and AWGN}@}, {@{a $\sqrt M$-PAM}@} has the error p
 
 {@{The M-QAM}@} {@{symbol error probability}@} is: {@{$$P_{eM} = 1 - (1 - P_{\sqrt M} )^2 \le 1 - (1 - 2P_{\sqrt M}) = 2P_{\sqrt M} = \boxed{4 \left(\frac {\sqrt M - 1} {\sqrt M} \right) Q\left(\sqrt {\frac 3 {M - 1} \frac {E_s} {N_0} } \right) } \,,$$}@} where {@{the inequality}@} is {@{tight for small $P_{\sqrt M}$}@}.
 
-Comparing {@{M-QAM with M-PSK}@}: {@{$$\begin{aligned} P_{\text{M-QAM} } & \approx 4 \left(\frac {\sqrt M - 1} {\sqrt M} \right) Q\left(\sqrt{\frac 3 {M - 1} \frac {E_s} {N_0} } \right) \\ P_{\text{M-PSK} } & \approx 2 Q\left(\sqrt{\frac {2E_s \sin^2(\pi / M) } {N_0} } \right) \,. \end{aligned}$$}@} {@{The _gain_ of M-QAM over M-PSK}@} is {@{the ratio of $Q(\cdot)$ arguments at fixed $E_s$}@}: {@{$$\text{gain} = \frac {3 / (M - 1)} {2 \sin^2(\pi / M) } \,.$$}@} This gain {@{increases rapidly with $M$}@}.
+Comparing {@{M-QAM with M-PSK}@}: {@{$$\begin{aligned} P_{\text{M-QAM} } & \approx 4 \left(\frac {\sqrt M - 1} {\sqrt M} \right) Q\left(\sqrt{\frac 3 {M - 1} \frac {E_s} {N_0} } \right) \\ P_{\text{M-PSK} } & \approx 2 Q\left(\sqrt{\frac {2E_s \sin^2(\pi / M) } {N_0} } \right) \,. \end{aligned}$$}@} {@{The _gain_ of M-QAM over M-PSK}@} is {@{the ratio of $Q(\cdot)$ arguments at fixed $E_s$}@}: {@{$$\text{gain} = \frac {3 / (M - 1)} {2 \sin^2(\pi / M) } \approx \frac {3M} {2 \pi^2} \,.$$}@} This gain {@{increases with $M$}@}.
 
 ### symbol error probability bounds
 
