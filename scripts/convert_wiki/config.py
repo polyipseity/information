@@ -226,6 +226,10 @@ _ARCHIVE_REGEXES = {
         "File:{}",
         "../../archives/Wikimedia Commons/{}",
     ),
+    compile(r"^https://[^\.]*.?wikipedia.org/File:([^?#]*)$"): (
+        "File:{}",
+        "../../archives/Wikimedia Commons/{}",
+    ),
 }
 
 "Module-level logger."
