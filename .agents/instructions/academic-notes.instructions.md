@@ -26,6 +26,7 @@ For all academic material ingestion, start with the `academic-ingest` dispatcher
 | `academic-crud-agents` | Course-level `AGENTS.md` files |
 | `academic-crud-attachments` | Attachments directories at any level |
 | `academic-crud-transcludes` | Wikipedia articles included by reference |
+| `academic-deprecated` | Deprecated patterns (documentation-only) |
 | `create-flashcards` | Flashcard markup (referenced by other skills) |
 
 ## Cross-cutting rules
