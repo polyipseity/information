@@ -51,20 +51,20 @@ Input
 │
 ├─ Submission? (has attachments, due date, submission requirement)
 │  ├─ Yes → which submission-bound directory?
-│  │  ├─ Lab → academic-crud-submission-page (labs/<name>/)
-│  │  ├─ Tutorial → academic-crud-submission-page (tutorials/<name>/)
-│  │  ├─ Lecture-bound → academic-crud-submission-page (lectures/<name>/)
-│  │  ├─ Unbound (PS, HW, project) → academic-crud-submission-page (assignments/<name>/)
+│  │  ├─ Lab → academic-crud-submission (labs/<name>/)
+│  │  ├─ Tutorial → academic-crud-submission (tutorials/<name>/)
+│  │  ├─ Lecture-bound → academic-crud-submission (lectures/<name>/)
+│  │  ├─ Unbound (PS, HW, project) → academic-crud-submission (assignments/<name>/)
 │  │  └─ Ambiguous → prompt user to pick directory
 │
 ├─ Question set? (problems, exercises, iPRs, no submission)
-│  ├─ Yes → academic-crud-question-page (questions/<name>.md)
+│  ├─ Yes → academic-crud-question (questions/<name>.md)
 │
 ├─ Course-level agent guidance?
 │  ├─ Yes → academic-crud-agents (AGENTS.md)
 │
 ├─ Sub-directory index? (listing page for assignments/, questions/, etc.)
-│  ├─ Yes → academic-crud-index-page (<dir>/index.md)
+│  ├─ Yes → academic-crud-index (<dir>/index.md)
 │
 └─ Unclear → prompt user with candidates
 ```
@@ -127,10 +127,10 @@ After the dispatched skill completes:
 | Target | Skill |
 | --- | --- |
 | Top-level `index.md`, exams, logistics | `academic-crud-course-index` |
-| Sub-directory `index.md` | `academic-crud-index-page` |
+| Sub-directory `index.md` | `academic-crud-index` |
 | `<topic>.md` standalone notes | `academic-crud-topic-note` |
-| Submission pages (labs, tutorials, lectures, assignments) | `academic-crud-submission-page` |
-| Question pages (no submission) | `academic-crud-question-page` |
+| Submission pages (labs, tutorials, lectures, assignments) | `academic-crud-submission` |
+| Question pages (no submission) | `academic-crud-question` |
 | `AGENTS.md` | `academic-crud-agents` |
 
 ## References

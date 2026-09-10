@@ -19,10 +19,10 @@ For all academic material ingestion, start with the `academic-ingest` dispatcher
 | `academic-ingest` | Dispatcher — classify input, resolve course, route to CRUD skill |
 | `academic-lint` | Validate academic notes after edits (wraps main.py) |
 | `academic-crud-course-index` | Top-level `index.md`, exams, logistics, course scaffolding |
-| `academic-crud-index-page` | Sub-directory `index.md` (shared utility) |
-| `academic-crud-submission-page` | Labs, tutorials, lectures, assignments (shared hierarchy) |
+| `academic-crud-index` | Sub-directory `index.md` (shared utility) |
+| `academic-crud-submission` | Labs, tutorials, lectures, assignments (shared hierarchy) |
 | `academic-crud-topic-note` | Standalone concept and lecture notes |
-| `academic-crud-question-page` | Problem sets, iPRs, quizzes (no submission) |
+| `academic-crud-question` | Problem sets, iPRs, quizzes (no submission) |
 | `academic-crud-agents` | Course-level `AGENTS.md` files |
 | `create-flashcards` | Flashcard markup (referenced by other skills) |
 

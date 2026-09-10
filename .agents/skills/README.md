@@ -44,13 +44,13 @@ The `academic-*` skills handle all academic material ingestion:
 | `academic-ingest` | Dispatcher — classify input, resolve course, route to CRUD skill |
 | `academic-lint` | Validate academic notes after edits (wraps main.py) |
 | `academic-crud-course-index` | Top-level `index.md`, exams, logistics |
-| `academic-crud-index-page` | Sub-directory `index.md` (shared utility) |
-| `academic-crud-submission-page` | Labs, tutorials, lectures, assignments |
+| `academic-crud-index` | Sub-directory `index.md` (shared utility) |
+| `academic-crud-submission` | Labs, tutorials, lectures, assignments |
 | `academic-crud-topic-note` | Standalone concept and lecture notes |
-| `academic-crud-question-page` | Problem sets, iPRs, quizzes |
+| `academic-crud-question` | Problem sets, iPRs, quizzes |
 | `academic-crud-agents` | Course-level `AGENTS.md` files |
 
-The `academic-lint/` folder contains the validator (`main.py`, `main_mods/`) and tests (`tests_a7392be/`). The Wikipedia helper (`find_wikipedia.py`) lives in `academic-crud-topic-note/`, and the scaffold template (`course-template.md`) lives in `academic-crud-index-page/`.
+The `academic-lint/` folder contains the validator (`main.py`, `main_mods/`) and tests (`tests_a7392be/`). The Wikipedia helper (`find_wikipedia.py`) lives in `academic-crud-topic-note/`, and the scaffold template (`course-template.md`) lives in `academic-crud-course-index/`.
 
 ## Running commands safely (avoid polluting skill folders)
 

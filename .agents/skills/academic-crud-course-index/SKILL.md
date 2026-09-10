@@ -15,7 +15,7 @@ Create, read, update, and delete the top-level course `index.md` and course scaf
 
 ### Create
 
-Scaffold a new course from the template at `.agents/skills/academic-crud-index-page/course-template.md`.
+Scaffold a new course from the template at `.agents/skills/academic-crud-course-index/course-template.md`.
 
 1. Verify no `index.md` already exists in the course root.
 2. Create directory: `special/academia/<INSTITUTION>/<COURSE>/`
@@ -73,7 +73,7 @@ tags:
 | `tutorials/` | Tutorials require submission |
 | `lectures/` | Lecture-bound submissions exist |
 
-Each subdirectory gets an `index.md` via `academic-crud-index-page`.
+Each subdirectory gets an `index.md` via `academic-crud-index`.
 
 ### Read
 
@@ -209,7 +209,7 @@ Run `academic-lint` after every edit. If you know which files changed, pass thos
 
 ## References
 
-- `academic-crud-index-page/course-template.md` scaffold template
+- `academic-crud-course-index/course-template.md` scaffold template
 - `academic-lint` validation
-- `academic-crud-index-page` subdirectory index format
+- `academic-crud-index` subdirectory index format
 - `create-flashcards` exam error report flashcards

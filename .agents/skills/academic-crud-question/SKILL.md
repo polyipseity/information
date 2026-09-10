@@ -1,5 +1,5 @@
 ---
-name: academic-crud-question-page
+name: academic-crud-question
 description: Create, read, update, and delete question and problem-set pages under special/academia/<INSTITUTION>/<COURSE>/questions/. Covers iPRs, in-class exercises, quizzes, practice problems, and anything without a formal submission.
 ---
 
@@ -65,7 +65,7 @@ tags:
    - Maximum-coverage density — every solution sentence gets clozes
    - Reference `create-flashcards` skill for cloze methodology
 
-2. __Create `questions/index.md`__ via `academic-crud-index-page` if first question page.
+2. __Create `questions/index.md`__ via `academic-crud-index` if first question page.
 
 ### Read
 
@@ -143,5 +143,5 @@ Every line inside a blockquote must begin with `>` — including blank lines.
 ## References
 
 - `create-flashcards` cloze methodology and patterns
-- `academic-crud-index-page` parent index updates
+- `academic-crud-index` parent index updates
 - `academic-lint` validation

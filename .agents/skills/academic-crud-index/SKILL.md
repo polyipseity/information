@@ -1,5 +1,5 @@
 ---
-name: academic-crud-index-page
+name: academic-crud-index
 description: Create, read, update, and delete sub-directory index.md pages (assignments/index.md, questions/index.md, labs/index.md, etc.). Shared utility used by other academic-crud-* skills.
 ---
 
@@ -85,8 +85,8 @@ Remove the index and optionally the entire subdirectory.
 Other `academic-crud-*` skills create or update index pages as part of their workflows:
 
 - `academic-crud-course-index` creates subdirectory indexes when setting up a new course
-- `academic-crud-submission-page` adds child links when creating submission pages
-- `academic-crud-question-page` adds child links when creating question pages
+- `academic-crud-submission` adds child links when creating submission pages
+- `academic-crud-question` adds child links when creating question pages
 
 The calling skill provides: target path, child name, child link path. This skill provides the format and structure.
 
@@ -96,8 +96,8 @@ Run `academic-lint` after every edit. If you know which files changed, pass thos
 
 ## References
 
-- `academic-crud-index-page/course-template.md` scaffold template for new course `index.md` files
+- `academic-crud-course-index/course-template.md` scaffold template for new course `index.md` files
 - `academic-crud-course-index` creates subdirectories and their indexes
-- `academic-crud-submission-page` adds submission pages to indexes
-- `academic-crud-question-page` adds question pages to indexes
+- `academic-crud-submission` adds submission pages to indexes
+- `academic-crud-question` adds question pages to indexes
 - `academic-lint` validation

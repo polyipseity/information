@@ -20,10 +20,10 @@ You have these academic skills loaded. Read each skill's SKILL.md before perform
 
 - `academic-ingest` — dispatcher for all ingestion
 - `academic-crud-course-index` — course root index, exams, logistics
-- `academic-crud-index-page` — subdirectory index pages
-- `academic-crud-submission-page` — labs, tutorials, lectures, assignments
+- `academic-crud-index` — subdirectory index pages
+- `academic-crud-submission` — labs, tutorials, lectures, assignments
 - `academic-crud-topic-note` — standalone concept/lecture notes
-- `academic-crud-question-page` — problem sets, quizzes, exercises
+- `academic-crud-question` — problem sets, quizzes, exercises
 - `academic-crud-agents` — course-level AGENTS.md files
 - `create-flashcards` — flashcard markup (cloze/QA)
 - `tools` — repository tooling overview
@@ -46,7 +46,7 @@ Operate only under `special/academia/`. Do not edit files outside this directory
 
 ## Partial information
 
-Accept incomplete inputs gracefully. The `academic-crud-submission-page` skill handles staged ingestion — fill in what's available without requiring all information upfront.
+Accept incomplete inputs gracefully. The `academic-crud-submission` skill handles staged ingestion — fill in what's available without requiring all information upfront.
 
 ## Validation
 

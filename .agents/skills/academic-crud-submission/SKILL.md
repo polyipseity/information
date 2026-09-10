@@ -1,5 +1,5 @@
 ---
-name: academic-crud-submission-page
+name: academic-crud-submission
 description: Create, read, update, and delete submission-bound pages (labs, tutorials, lectures, assignments) with attachments, submissions, and solutions under special/academia/<INSTITUTION>/<COURSE>/. Handles partial information gracefully.
 ---
 
@@ -167,7 +167,7 @@ When creating multiple submissions at once:
 
 ## Parent index updates
 
-After creating a submission page, add child link to the parent `index.md` via `academic-crud-index-page`.
+After creating a submission page, add child link to the parent `index.md` via `academic-crud-index`.
 
 ## Validation
 
@@ -176,5 +176,5 @@ Run `academic-lint` after every edit. If you know which files changed, pass thos
 ## References
 
 - `convert_canvas_submission.py` Canvas HTML to `submission.yml`
-- `academic-crud-index-page` parent index updates
+- `academic-crud-index` parent index updates
 - `academic-lint` validation
