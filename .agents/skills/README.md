@@ -50,6 +50,7 @@ The `academic-*` skills handle all academic material ingestion:
 | `academic-crud-question` | Problem sets, iPRs, quizzes |
 | `academic-crud-agents` | Course-level `AGENTS.md` files |
 | `academic-crud-attachments` | Attachments directories at any level |
+| `academic-crud-transcludes` | Wikipedia articles included by reference |
 
 The `academic-lint/` folder contains the validator (`main.py`, `main_mods/`) and tests (`tests_a7392be/`). The Wikipedia helper (`find_wikipedia.py`) lives in `academic-crud-topic-note/`, and the scaffold template (`course-template.md`) lives in `academic-crud-course-index/`.
 

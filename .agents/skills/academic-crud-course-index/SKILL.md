@@ -213,4 +213,5 @@ Run `academic-lint` after every edit. If you know which files changed, pass thos
 - `academic-lint` validation
 - `academic-crud-index` subdirectory index format
 - `academic-crud-attachments` attachments directories at any level
+- `academic-crud-transcludes` Wikipedia articles included by reference
 - `create-flashcards` exam error report flashcards
