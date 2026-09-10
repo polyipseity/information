@@ -44,6 +44,7 @@ tags:
 ### Children format
 
 - One bullet per child, linking to the child's `index.md` (for submission pages) or directly to the file (for question pages)
+- Submission leaf indexes may also link to in-class content files (`lab.md`, `tutorial.md`, `lecture.md`) as children when the in-class component exists
 - Use `%20` encoding for spaces in links
 - Order: chronological for sessions/assignments, alphabetical for topics
 
@@ -85,7 +86,7 @@ Remove the index and optionally the entire subdirectory.
 Other `academic-crud-*` skills create or update index pages as part of their workflows:
 
 - `academic-crud-course-index` creates subdirectory indexes when setting up a new course
-- `academic-crud-submission` adds child links when creating submission pages
+- `academic-crud-submission` adds child links when creating submission pages, including in-class content file links (`lab.md`, `tutorial.md`, `lecture.md`)
 - `academic-crud-question` adds child links when creating question pages
 
 The calling skill provides: target path, child name, child link path. This skill provides the format and structure.
