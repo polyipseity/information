@@ -326,10 +326,16 @@ class WikiHtmlConverter:
 
         if "hatnote" in classes:
             config.prefix = f"- {config.prefix.removesuffix('_')}"
-            next_sib = ele.find_next_sibling()
-            if isinstance(next_sib, Tag) and (
-                next_sib.name == "figure"
-                or _BOXED_CLASSES & frozenset(next_sib.get_attribute_list("class"))
+            # Find the next non-empty sibling, skipping whitespace and empty spans.
+            nxt = ele.find_next_sibling()
+            while isinstance(nxt, Tag) and "mw-empty-elt" in frozenset(
+                nxt.get_attribute_list("class")
+            ):
+                nxt = nxt.find_next_sibling()
+            if isinstance(nxt, Tag) and (
+                nxt.name == "figure"
+                or nxt.name == "blockquote"
+                or _BOXED_CLASSES & frozenset(nxt.get_attribute_list("class"))
             ):
                 config.suffix = f"{config.suffix.removeprefix('_')}\n\n"
             elif self._effective_sibling_is_heading(ele):
@@ -1147,8 +1153,10 @@ class WikiHtmlConverter:
         # Bold-only paragraphs (e.g., "See also" category headers) trigger
         # MD036 (no-emphasis-as-heading).  Suppress per-line rather than
         # converting to a heading, preserving the original bold rendering.
+        # The comment must be on the immediately preceding line (no blank line
+        # between comment and content) for markdownlint to apply the suppression.
         if not in_table and self._sole_bold_child(ele) is not None:
-            prefix = f"<!-- markdownlint-disable-next-line MD036 -->\n{prefix}"
+            prefix = "\n<!-- markdownlint-disable-next-line MD036 -->\n"
 
         return _HandlerConfig(prefix=prefix, suffix=suffix, process_strings=process)
 
