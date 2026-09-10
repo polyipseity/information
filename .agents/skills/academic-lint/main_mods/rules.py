@@ -1523,6 +1523,7 @@ def header_flashcard_presence(ctx: ValidationContext) -> list[ValidationMessage]
         name == "index.md"
         or name == "questions.md"
         or name == "agents.md"
+        or name in {"lab.md", "tutorial.md", "lecture.md"}
         or "questions" in parent_parts
     ):
         return errors
@@ -1577,6 +1578,7 @@ def header_flashcard_separator(ctx: ValidationContext) -> list[ValidationMessage
         name == "index.md"
         or name == "questions.md"
         or name == "agents.md"
+        or name in {"lab.md", "tutorial.md", "lecture.md"}
         or "questions" in parent_parts
     ):
         return errors
@@ -1621,6 +1623,7 @@ def header_flashcard_sections_duplicate(
         name == "index.md"
         or name == "questions.md"
         or name == "agents.md"
+        or name in {"lab.md", "tutorial.md", "lecture.md"}
         or "questions" in parent_parts
     ):
         return errors
@@ -2780,7 +2783,10 @@ def topic_note_redundant_filename_prefix(
     errors: list[ValidationMessage] = []
     name = ctx.path.name.lower()
     parent_parts = [part.casefold() for part in ctx.path.parts[:-1]]
-    if name in {"index.md", "questions.md"} or "questions" in parent_parts:
+    if (
+        name in {"index.md", "questions.md", "lab.md", "tutorial.md", "lecture.md"}
+        or "questions" in parent_parts
+    ):
         return errors
 
     stem = ctx.path.stem
