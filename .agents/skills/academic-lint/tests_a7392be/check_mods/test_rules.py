@@ -2564,3 +2564,53 @@ def test_link_anchor_slug_mixed_case_no_flag():
     txt = "## Route stages\n\n[text](file.md#Route-Stages)\n"
     ctx = make_ctx(txt)
     assert not link_anchor_slug(ctx)
+
+
+# submission content file exclusions -------------------------------------------------
+
+
+def test_flashcard_rules_exempt_submission_content_files():
+    """lab.md, tutorial.md, and lecture.md should be exempt from flashcard-presence rules.
+
+    These are Canvas submission content pages (in-class component metadata),
+    not concept/topic notes. They typically have no flashcards.
+    """
+    content = (
+        "# lab\n\n"
+        "- HKUST ELEC 1100 lab 2\n"
+        "- parent: [lab 2](index.md)\n\n"
+        "---\n\n"
+        "No additional details were added for this assignment.\n"
+    )
+
+    for name in ("lab.md", "tutorial.md", "lecture.md"):
+        ctx = make_ctx(content, path=Path(f"/tmp/course/labs/lab 1/{name}"))
+        assert not header_flashcard_presence(ctx), (
+            f"header_flashcard_presence should not fire on {name}"
+        )
+        assert not header_flashcard_separator(ctx), (
+            f"header_flashcard_separator should not fire on {name}"
+        )
+        assert not header_flashcard_sections_duplicate(ctx), (
+            f"header_flashcard_sections_duplicate should not fire on {name}"
+        )
+
+    # topic_note_redundant_filename_prefix also exempts these files
+    ctx_lab = make_ctx(content, path=Path("/tmp/course/labs/lab 1/lab.md"))
+    assert not topic_note_redundant_filename_prefix(ctx_lab)
+
+
+def test_flashcard_rules_still_fire_on_topic_notes():
+    """Regular topic notes should still be checked for flashcard markers."""
+    txt = "# Topic\nThis section has no flashcards.\n"
+    ctx = make_ctx(txt, path=Path("/tmp/course/topic.md"))
+    msgs = header_flashcard_presence(ctx)
+    assert msgs and msgs[0].rule_id == "header_flashcard_presence"
+
+
+def test_flashcard_rules_still_fire_on_non_exempt_files():
+    """Regular non-index, non-question files should still be checked."""
+    txt = "# Lab preparation\nSome content without flashcards.\n"
+    ctx = make_ctx(txt, path=Path("/tmp/course/labs/lab 1/preparation.md"))
+    msgs = header_flashcard_presence(ctx)
+    assert msgs and msgs[0].rule_id == "header_flashcard_presence"
