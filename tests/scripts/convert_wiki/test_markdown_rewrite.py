@@ -247,11 +247,15 @@ class TestRewriteLinkFragments:
         )
 
     def test_fragment_only_run_no_stem_change(self) -> None:
-        """With no migrations, only the fragment should change."""
+        """With no migrations, the stem should also be corrected via
+        names_map when the stem maps to a different canonical value.
+        This is the primary fix for the bug where links with wrong-stem
+        casing were never corrected when the mapping already existed
+        in the base name_map (so no migration was generated)."""
         text = "[x](modern%20physics.md#modern%20physics)"
         names_map = {"modern physics": "Modern physics"}
         rewritten = _rewrite_markdown_links(text, {}, names_map=names_map)
-        assert rewritten == "[x](modern%20physics.md#Modern%20physics)"
+        assert rewritten == "[x](Modern%20physics.md#Modern%20physics)"
 
     def test_fragment_idempotent_round_trip(self) -> None:
         """An already-canonical fragment should stay byte-identical."""
@@ -267,6 +271,33 @@ class TestRewriteLinkFragments:
         migrations = {"modern physics": "Modern physics"}
         rewritten = _rewrite_markdown_links(text, migrations, names_map=names_map)
         assert rewritten == "[x](Modern%20physics.md#Modern%20physics)"
+
+    def test_stem_corrected_via_names_map_fallback(self) -> None:
+        """When no migration exists (mapping already in base name_map),
+        the names_map fallback should still correct link stems with
+        wrong casing. This is the regression test for the bug where
+        links like ``einstein%20ring.md`` were never corrected because
+        the mapping already existed in the base name_map, so no stem
+        migration was generated."""
+        text = "See [ring](einstein%20ring.md) or [rings](einstein%20rings.md)."
+        names_map = {
+            "einstein ring": "Einstein ring",
+            "einstein rings": "Einstein rings",
+        }
+        # Empty migrations — simulates the case where the mapping
+        # already existed in the base name_map.
+        rewritten = _rewrite_markdown_links(text, {}, names_map=names_map)
+        assert (
+            rewritten
+            == "See [ring](Einstein%20ring.md) or [rings](Einstein%20rings.md)."
+        )
+
+    def test_stem_unchanged_when_absent_from_names_map(self) -> None:
+        """A stem not present in names_map should not be rewritten."""
+        text = "[x](modern%20physics.md)"
+        names_map = {"Fourier transform": "Fourier transform"}
+        rewritten = _rewrite_markdown_links(text, {}, names_map=names_map)
+        assert rewritten == text
 
 
 class TestRewriteArticleHeading:
