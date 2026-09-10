@@ -199,8 +199,50 @@ Under the session heading, after the existing content, add:
 
 Omit the indented section links if the topic has no `##` sections (single-section notes).
 
+## Wikipedia title discovery with `find_wikipedia.py`
+
+When creating topic notes from Wikipedia content, use `find_wikipedia.py` to discover canonical article titles. This ensures consistent naming and proper linking.
+
+### What it does
+
+`find_wikipedia.py` searches Wikipedia for articles matching a query and returns canonical titles, URLs, and short descriptions. It helps you:
+
+- Find the exact Wikipedia article title (avoiding redirects and disambiguation pages)
+- Discover related articles you may not have considered
+- Get the canonical spelling of technical terms
+
+### When to use
+
+- Creating a topic note that summarizes a Wikipedia article
+- Creating a `transcludes/` entry for full Wikipedia content (see `academic-crud-transcludes`)
+- Verifying the canonical title of a concept before creating aliases
+
+### How to use
+
+```bash
+# Search for articles matching a query (default: 5 results)
+uv run .agents/skills/academic-crud-topic-note/find_wikipedia.py "Fourier transform"
+
+# Limit results
+uv run .agents/skills/academic-crud-topic-note/find_wikipedia.py --limit 3 "Bayes theorem"
+```
+
+### Mapping output to frontmatter
+
+The canonical title from `find_wikipedia.py` should appear in your topic note's `aliases` list:
+
+```yaml
+aliases:
+  - Fourier transform
+  - Fourier analysis
+  - DFT
+```
+
+Use the canonical title as the primary alias. Add synonyms and abbreviations as secondary aliases.
+
 ## References
 
 - `create-flashcards` flashcard markup patterns
 - `academic-lint` validation
-- `academic-crud-topic-note/find_wikipedia.py` canonical title discovery
+- `academic-crud-transcludes` full Wikipedia article inclusion
+- `academic-crud-topic-note/find_wikipedia.py` canonical title discovery script
