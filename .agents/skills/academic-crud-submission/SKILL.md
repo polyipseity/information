@@ -29,6 +29,46 @@ When the in-class component exists, the `index.md` links to `lab.md`/`tutorial.m
 | Lecture             | `submission.yml`   | `lecture.yml`      | `lecture.md`       |
 | Assignment          | `submission.yml`   | N/A                | N/A                |
 
+### Component YAML schema
+
+`lab.yml`, `tutorial.yml`, and `lecture.yml` share this structure:
+
+```yaml
+type: lab|tutorial|lecture
+title: <Canvas or PRS session title>
+course: <course code>
+session: <type> <N>
+date: <ISO 8601 range with timezone>
+venue: <room/building>
+grading: graded|ungraded (<explanation>)
+grade:                  # optional, from Canvas grade record
+  entered: <score>
+  possible: <max>
+canvas_assignment_id: <ID>  # optional, from Canvas HTML
+quiz_system: <system name>  # optional, for PRS/iClicker
+source: <PRS HTML|Canvas|mixed>
+```
+
+Omit fields that are not available at ingestion time. Do not add fields not in this schema without documenting the extension.
+
+### In-class-only submissions
+
+When a tutorial/lab/lecture has only an in-class component (no pre-lab, no take-home, no Canvas assignment outside the session):
+
+- Create `tutorial.yml`/`lab.yml`/`lecture.yml` only — do NOT create `submission.yml`
+- In `index.md`, list only the in-class submission entry under `## submission`:
+
+```markdown
+## submission
+
+- in-class submission
+    - metadata: [`tutorial.yml`](tutorial.yml)
+```
+
+- The `## submission` section omits `file:` entries when there is no out-of-class artifact.
+
+Detect this when: the source is PRS/iClicker HTML (quiz questions only, no Canvas assignment page), or the user says "these are in-class quizzes."
+
 ## Partial-info workflow
 
 Submissions arrive in stages. Each stage fills in what's available without requiring all information upfront.
@@ -46,6 +86,18 @@ Input: Canvas assignment HTML page + prompt files.
 3. Create `index.md` with metadata and description
 4. Copy prompt PDFs and data files to `attachments/`
 5. Apply display-vs-link convention for versioned PDFs
+
+### What goes in `attachments/`
+
+- Prompt PDFs, assignment sheets → `attachments/`
+- Data files (CSV, JSON, datasets) → `attachments/`
+- Code files (.ino, .py, .java) referenced by the submission → `attachments/`
+- Images (circuit diagrams, screenshots) → `attachments/`
+
+Do NOT put in `attachments/`:
+
+- HTML source files (Canvas pages, PRS pages) — these are extraction sources, not referenced raw files. Extract the content into `.md`/`.yml` and discard the HTML.
+- Transcripted text — if the content can be represented as markdown, it belongs in a `.md` file, not as a raw file in `attachments/`.
 
 ### Stage 2: Submission file(s)
 
@@ -85,6 +137,18 @@ Redact author names in the resulting YAML:
 ```bash
 sed -i '' "s/author: .*/author: '[redacted]'/" submission.yml
 ```
+
+### Grade extraction
+
+When the Canvas HTML is a submission detail page (contains "Grade:" and "pts possible"), extract the grade into the component YAML:
+
+```yaml
+grade:
+  entered: 2    # from "Grade: 2"
+  possible: 2   # from "(2 pts possible)"
+```
+
+Also extract `canvas_assignment_id` from the URL comment or page content for cross-referencing. Add both fields to `tutorial.yml`/`lab.yml`/`lecture.yml`.
 
 ### Stage 4: Solution
 
@@ -293,6 +357,7 @@ Use `\[missing\]` for absent fields — for example, `points: \[missing\]` when 
 - Update announcements: verbatim with color and bold
 - Canvas system messages (e.g., "This assignment was locked...", "No additional details were added for this assignment.") appearing in or near the description body are part of the description and must be preserved verbatim
 - Normalize metadata fields only, not prose body
+- `canvas_assignment_id`: numeric ID from the Canvas assignment URL or submission detail page. Used for cross-referencing between PRS content and Canvas grade records.
 
 ## submission.pdf.yml (PDF rendering metadata)
 
