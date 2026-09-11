@@ -1,1 +1,1 @@
-characteristic (algebra).md
+field (mathematics).md

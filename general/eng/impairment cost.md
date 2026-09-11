@@ -1,1 +1,1 @@
-impairment (financial reporting).md
+impaired asset.md

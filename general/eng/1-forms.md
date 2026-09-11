@@ -1,1 +1,1 @@
-one-form (differential geometry).md
+one-form.md

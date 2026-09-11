@@ -1,1 +1,1 @@
-behavioral economics.md
+behavioural finance.md

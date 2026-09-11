@@ -1,1 +1,1 @@
-risk premium.md
+expected utility hypothesis.md

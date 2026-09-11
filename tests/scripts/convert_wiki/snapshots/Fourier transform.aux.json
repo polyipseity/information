@@ -1,4 +1,2398 @@
 {
+  "api_responses": [
+    {
+      "batchcomplete": true,
+      "query": {
+        "redirects": [
+          {
+            "from": "Uniformly continuous",
+            "to": "Uniform continuity"
+          },
+          {
+            "from": "Absolutely convergent",
+            "to": "Absolute convergence"
+          },
+          {
+            "from": "Lorentzian function",
+            "to": "Cauchy distribution",
+            "tofragment": "Probability density function (PDF)"
+          },
+          {
+            "from": "Partial differential equations",
+            "to": "Partial differential equation"
+          },
+          {
+            "from": "Hermite polynomial",
+            "to": "Hermite polynomials"
+          },
+          {
+            "from": "Orthonormal",
+            "to": "Orthonormality"
+          },
+          {
+            "from": "Solid spherical harmonics",
+            "to": "Solid harmonics"
+          },
+          {
+            "from": "Dimensionless units",
+            "to": "Dimensionless quantity"
+          },
+          {
+            "from": "Wadsworth & Brooks/Cole",
+            "to": "Cengage Group",
+            "tofragment": "Brooks/Cole"
+          },
+          {
+            "from": "Discrete Fourier transform (general)",
+            "to": "Discrete Fourier transform over a ring"
+          }
+        ],
+        "pages": [
+          {
+            "pageid": 612,
+            "ns": 0,
+            "title": "Arithmetic mean"
+          },
+          {
+            "pageid": 2724,
+            "ns": 0,
+            "title": "Autocorrelation"
+          },
+          {
+            "pageid": 7003,
+            "ns": 0,
+            "title": "Cauchy distribution"
+          },
+          {
+            "pageid": 19447,
+            "ns": 0,
+            "title": "Group (mathematics)"
+          },
+          {
+            "pageid": 24047,
+            "ns": 0,
+            "title": "Phase (waves)"
+          },
+          {
+            "pageid": 25202,
+            "ns": 0,
+            "title": "Quantum mechanics"
+          },
+          {
+            "pageid": 26685,
+            "ns": 0,
+            "title": "Statistics"
+          },
+          {
+            "pageid": 32337,
+            "ns": 0,
+            "title": "Uniform continuity"
+          },
+          {
+            "pageid": 33662,
+            "ns": 0,
+            "title": "Weak topology"
+          },
+          {
+            "pageid": 41741,
+            "ns": 0,
+            "title": "Standing wave"
+          },
+          {
+            "pageid": 51331,
+            "ns": 0,
+            "title": "Dimensionless quantity"
+          },
+          {
+            "pageid": 52564,
+            "ns": 0,
+            "title": "Partial differential equation"
+          },
+          {
+            "pageid": 61190,
+            "ns": 0,
+            "title": "Cauchy's integral theorem"
+          },
+          {
+            "pageid": 61532,
+            "ns": 0,
+            "title": "Absolute convergence"
+          },
+          {
+            "pageid": 144823,
+            "ns": 0,
+            "title": "Special linear group"
+          },
+          {
+            "pageid": 173419,
+            "ns": 0,
+            "title": "Time domain"
+          },
+          {
+            "pageid": 173918,
+            "ns": 0,
+            "title": "Complex conjugate"
+          },
+          {
+            "pageid": 194743,
+            "ns": 0,
+            "title": "Orthonormality"
+          },
+          {
+            "pageid": 195984,
+            "ns": 0,
+            "title": "Hermite polynomials"
+          },
+          {
+            "pageid": 199829,
+            "ns": 0,
+            "title": "Angular frequency"
+          },
+          {
+            "pageid": 252670,
+            "ns": 0,
+            "title": "Absolute continuity"
+          },
+          {
+            "pageid": 283810,
+            "ns": 0,
+            "title": "Mass spectrometry"
+          },
+          {
+            "pageid": 292788,
+            "ns": 0,
+            "title": "Unitary representation"
+          },
+          {
+            "pageid": 330673,
+            "ns": 0,
+            "title": "Bounded variation"
+          },
+          {
+            "pageid": 355931,
+            "ns": 0,
+            "title": "Camille Jordan"
+          },
+          {
+            "pageid": 364643,
+            "ns": 0,
+            "title": "Israel Gelfand"
+          },
+          {
+            "pageid": 393048,
+            "ns": 0,
+            "title": "Rigged Hilbert space"
+          },
+          {
+            "pageid": 502042,
+            "ns": 0,
+            "title": "Poisson summation formula"
+          },
+          {
+            "pageid": 632992,
+            "ns": 0,
+            "title": "Paley–Wiener theorem"
+          },
+          {
+            "pageid": 706435,
+            "ns": 0,
+            "title": "Parseval's theorem"
+          },
+          {
+            "pageid": 834382,
+            "ns": 0,
+            "title": "CRC Press"
+          },
+          {
+            "pageid": 995746,
+            "ns": 0,
+            "title": "Multiplier (Fourier analysis)"
+          },
+          {
+            "pageid": 1103773,
+            "ns": 0,
+            "title": "Fractional Fourier transform"
+          },
+          {
+            "pageid": 1106213,
+            "ns": 0,
+            "title": "Laplace distribution"
+          },
+          {
+            "pageid": 1461209,
+            "ns": 0,
+            "title": "Riemann–Lebesgue lemma"
+          },
+          {
+            "pageid": 1543837,
+            "ns": 0,
+            "title": "Phase response"
+          },
+          {
+            "pageid": 2009061,
+            "ns": 0,
+            "title": "Regularization (mathematics)"
+          },
+          {
+            "pageid": 2588624,
+            "ns": 0,
+            "title": "Tannaka–Krein duality"
+          },
+          {
+            "pageid": 3108737,
+            "ns": 0,
+            "title": "Hermitian function"
+          },
+          {
+            "pageid": 4316185,
+            "ns": 0,
+            "title": "Finite measure"
+          },
+          {
+            "pageid": 12184856,
+            "ns": 0,
+            "title": "Solid harmonics"
+          },
+          {
+            "pageid": 16300032,
+            "ns": 0,
+            "title": "Discrete Fourier transform over a ring"
+          },
+          {
+            "pageid": 18345540,
+            "ns": 0,
+            "title": "Cengage Group"
+          },
+          {
+            "pageid": 19594213,
+            "ns": 0,
+            "title": "Planck constant"
+          },
+          {
+            "pageid": 23434533,
+            "ns": 0,
+            "title": "Filter (signal processing)"
+          },
+          {
+            "pageid": 25161352,
+            "ns": 0,
+            "title": "Homogeneous distribution"
+          },
+          {
+            "pageid": 25767401,
+            "ns": 0,
+            "title": "Joseph Fourier"
+          },
+          {
+            "pageid": 27367275,
+            "ns": 0,
+            "title": "Envelope (waves)"
+          },
+          {
+            "pageid": 30871845,
+            "ns": 0,
+            "title": "Anticausal system"
+          },
+          {
+            "pageid": 35420291,
+            "ns": 0,
+            "title": "Transient (acoustics)"
+          }
+        ]
+      }
+    },
+    {
+      "batchcomplete": true,
+      "query": {
+        "redirects": [
+          {
+            "from": "Eigenvalue",
+            "to": "Eigenvalues and eigenvectors"
+          },
+          {
+            "from": "Dirac delta",
+            "to": "Dirac delta function"
+          },
+          {
+            "from": "Polar coordinate",
+            "to": "Polar coordinate system"
+          },
+          {
+            "from": "Absolutely continuous",
+            "to": "Absolute continuity"
+          },
+          {
+            "from": "Eigenfunctions",
+            "to": "Eigenfunction"
+          },
+          {
+            "from": "Elias Stein",
+            "to": "Elias M. Stein"
+          },
+          {
+            "from": "Springer-Verlag",
+            "to": "Springer Science+Business Media",
+            "tofragment": "History"
+          },
+          {
+            "from": "Vector (mathematics)",
+            "to": "Vector (mathematics and physics)"
+          },
+          {
+            "from": "Fourier multiplier",
+            "to": "Multiplier (Fourier analysis)"
+          },
+          {
+            "from": "Non-commutative harmonic analysis",
+            "to": "Noncommutative harmonic analysis"
+          },
+          {
+            "from": "Hirschman uncertainty",
+            "to": "Entropic uncertainty"
+          },
+          {
+            "from": "Yuri Veniaminovich Geronimus",
+            "to": "Gradshteyn and Ryzhik",
+            "tofragment": "Geronimus"
+          },
+          {
+            "from": "S2CID (identifier)",
+            "to": "Semantic Scholar",
+            "tofragment": "S2CID"
+          },
+          {
+            "from": "ArXiv (identifier)",
+            "to": "ArXiv"
+          }
+        ],
+        "pages": [
+          {
+            "pageid": 1160,
+            "ns": 0,
+            "title": "Automorphism"
+          },
+          {
+            "pageid": 8811,
+            "ns": 0,
+            "title": "Discrete Fourier transform"
+          },
+          {
+            "pageid": 13637,
+            "ns": 0,
+            "title": "Hausdorff space"
+          },
+          {
+            "pageid": 18610,
+            "ns": 0,
+            "title": "Laplace transform"
+          },
+          {
+            "pageid": 19719,
+            "ns": 0,
+            "title": "Filter (mathematics)"
+          },
+          {
+            "pageid": 22939,
+            "ns": 0,
+            "title": "Physics"
+          },
+          {
+            "pageid": 25120,
+            "ns": 0,
+            "title": "Polar coordinate system"
+          },
+          {
+            "pageid": 25267,
+            "ns": 0,
+            "title": "Quantum field theory"
+          },
+          {
+            "pageid": 31883,
+            "ns": 0,
+            "title": "Uncertainty principle"
+          },
+          {
+            "pageid": 37021,
+            "ns": 0,
+            "title": "Dirac delta function"
+          },
+          {
+            "pageid": 38751,
+            "ns": 0,
+            "title": "ArXiv"
+          },
+          {
+            "pageid": 50347,
+            "ns": 0,
+            "title": "Multivariate normal distribution"
+          },
+          {
+            "pageid": 77933,
+            "ns": 0,
+            "title": "Pitch (music)"
+          },
+          {
+            "pageid": 157093,
+            "ns": 0,
+            "title": "Dot product"
+          },
+          {
+            "pageid": 164570,
+            "ns": 0,
+            "title": "Wavenumber"
+          },
+          {
+            "pageid": 166415,
+            "ns": 0,
+            "title": "Heat equation"
+          },
+          {
+            "pageid": 185427,
+            "ns": 0,
+            "title": "Function (mathematics)"
+          },
+          {
+            "pageid": 214137,
+            "ns": 0,
+            "title": "Linear form"
+          },
+          {
+            "pageid": 228601,
+            "ns": 0,
+            "title": "Eigenfunction"
+          },
+          {
+            "pageid": 245688,
+            "ns": 0,
+            "title": "Inverse Laplace transform"
+          },
+          {
+            "pageid": 252670,
+            "ns": 0,
+            "title": "Absolute continuity"
+          },
+          {
+            "pageid": 418073,
+            "ns": 0,
+            "title": "Elias M. Stein"
+          },
+          {
+            "pageid": 421402,
+            "ns": 0,
+            "title": "C major"
+          },
+          {
+            "pageid": 448518,
+            "ns": 0,
+            "title": "Heisenberg group"
+          },
+          {
+            "pageid": 579311,
+            "ns": 0,
+            "title": "Image (mathematics)"
+          },
+          {
+            "pageid": 726335,
+            "ns": 0,
+            "title": "Compact-open topology"
+          },
+          {
+            "pageid": 857780,
+            "ns": 0,
+            "title": "Entropic uncertainty"
+          },
+          {
+            "pageid": 950777,
+            "ns": 0,
+            "title": "Analytic signal"
+          },
+          {
+            "pageid": 967440,
+            "ns": 0,
+            "title": "Riesz–Thorin theorem"
+          },
+          {
+            "pageid": 995746,
+            "ns": 0,
+            "title": "Multiplier (Fourier analysis)"
+          },
+          {
+            "pageid": 1019002,
+            "ns": 0,
+            "title": "Dirac measure"
+          },
+          {
+            "pageid": 1077450,
+            "ns": 0,
+            "title": "G. N. Watson"
+          },
+          {
+            "pageid": 1418949,
+            "ns": 0,
+            "title": "Springer Science+Business Media"
+          },
+          {
+            "pageid": 1830142,
+            "ns": 0,
+            "title": "Bijection, injection and surjection"
+          },
+          {
+            "pageid": 1951424,
+            "ns": 0,
+            "title": "Critical point (mathematics)"
+          },
+          {
+            "pageid": 2161429,
+            "ns": 0,
+            "title": "Eigenvalues and eigenvectors"
+          },
+          {
+            "pageid": 2788568,
+            "ns": 0,
+            "title": "Raymond Paley"
+          },
+          {
+            "pageid": 3504168,
+            "ns": 0,
+            "title": "Differential entropy"
+          },
+          {
+            "pageid": 3675281,
+            "ns": 0,
+            "title": "Vector-valued function"
+          },
+          {
+            "pageid": 4140245,
+            "ns": 0,
+            "title": "Operation (mathematics)"
+          },
+          {
+            "pageid": 4277567,
+            "ns": 0,
+            "title": "Schwartz space"
+          },
+          {
+            "pageid": 7392980,
+            "ns": 0,
+            "title": "Graduate Texts in Mathematics"
+          },
+          {
+            "pageid": 13752615,
+            "ns": 0,
+            "title": "Journal of Computational Physics"
+          },
+          {
+            "pageid": 19389837,
+            "ns": 0,
+            "title": "Relativistic quantum mechanics"
+          },
+          {
+            "pageid": 23218956,
+            "ns": 0,
+            "title": "Vector (mathematics and physics)"
+          },
+          {
+            "pageid": 24062542,
+            "ns": 0,
+            "title": "Noncommutative harmonic analysis"
+          },
+          {
+            "pageid": 25110709,
+            "ns": 0,
+            "title": "Nuclear magnetic resonance"
+          },
+          {
+            "pageid": 41309901,
+            "ns": 0,
+            "title": "Multidimensional transform"
+          },
+          {
+            "pageid": 48455863,
+            "ns": 0,
+            "title": "Semantic Scholar"
+          },
+          {
+            "pageid": 49343041,
+            "ns": 0,
+            "title": "Gradshteyn and Ryzhik"
+          }
+        ]
+      }
+    },
+    {
+      "batchcomplete": true,
+      "query": {
+        "redirects": [
+          {
+            "from": "Sinusoid",
+            "to": "Sine wave"
+          },
+          {
+            "from": "Stephane Mallat",
+            "to": "Stéphane Mallat"
+          },
+          {
+            "from": "Gelfand transform",
+            "to": "Gelfand representation"
+          },
+          {
+            "from": "Lebesgue-measurable",
+            "to": "Lebesgue measure"
+          },
+          {
+            "from": "Linear canonical transform",
+            "to": "Linear canonical transformation"
+          },
+          {
+            "from": "Naum Ya. Vilenkin",
+            "to": "Naum Yakovlevich Vilenkin"
+          }
+        ],
+        "pages": [
+          {
+            "pageid": 2974,
+            "ns": 0,
+            "title": "Abelian group"
+          },
+          {
+            "pageid": 5826,
+            "ns": 0,
+            "title": "Complex number"
+          },
+          {
+            "pageid": 7519,
+            "ns": 0,
+            "title": "Convolution"
+          },
+          {
+            "pageid": 10779,
+            "ns": 0,
+            "title": "Frequency"
+          },
+          {
+            "pageid": 17945,
+            "ns": 0,
+            "title": "Lie group"
+          },
+          {
+            "pageid": 18198,
+            "ns": 0,
+            "title": "Lebesgue measure"
+          },
+          {
+            "pageid": 18831,
+            "ns": 0,
+            "title": "Mathematics"
+          },
+          {
+            "pageid": 19446,
+            "ns": 0,
+            "title": "Magnetic resonance imaging"
+          },
+          {
+            "pageid": 21462,
+            "ns": 0,
+            "title": "Normal distribution"
+          },
+          {
+            "pageid": 25685,
+            "ns": 0,
+            "title": "Random variable"
+          },
+          {
+            "pageid": 40645,
+            "ns": 0,
+            "title": "Haar measure"
+          },
+          {
+            "pageid": 44055,
+            "ns": 0,
+            "title": "Measurable function"
+          },
+          {
+            "pageid": 47732,
+            "ns": 0,
+            "title": "Fourier-transform spectroscopy"
+          },
+          {
+            "pageid": 52564,
+            "ns": 0,
+            "title": "Partial differential equation"
+          },
+          {
+            "pageid": 63185,
+            "ns": 0,
+            "title": "Norbert Wiener"
+          },
+          {
+            "pageid": 66819,
+            "ns": 0,
+            "title": "Root mean square"
+          },
+          {
+            "pageid": 73199,
+            "ns": 0,
+            "title": "Cambridge University Press"
+          },
+          {
+            "pageid": 184539,
+            "ns": 0,
+            "title": "Chebyshev polynomials"
+          },
+          {
+            "pageid": 184726,
+            "ns": 0,
+            "title": "Heat transfer"
+          },
+          {
+            "pageid": 198822,
+            "ns": 0,
+            "title": "American Mathematical Society"
+          },
+          {
+            "pageid": 217628,
+            "ns": 0,
+            "title": "Complex plane"
+          },
+          {
+            "pageid": 275991,
+            "ns": 0,
+            "title": "Range of a function"
+          },
+          {
+            "pageid": 292852,
+            "ns": 0,
+            "title": "Symplectic vector space"
+          },
+          {
+            "pageid": 324749,
+            "ns": 0,
+            "title": "Sine wave"
+          },
+          {
+            "pageid": 330491,
+            "ns": 0,
+            "title": "Riemann–Stieltjes integral"
+          },
+          {
+            "pageid": 346030,
+            "ns": 0,
+            "title": "Improper integral"
+          },
+          {
+            "pageid": 364372,
+            "ns": 0,
+            "title": "Gelfand representation"
+          },
+          {
+            "pageid": 366136,
+            "ns": 0,
+            "title": "Pontryagin duality"
+          },
+          {
+            "pageid": 366436,
+            "ns": 0,
+            "title": "Active and passive transformation"
+          },
+          {
+            "pageid": 387750,
+            "ns": 0,
+            "title": "Separation of variables"
+          },
+          {
+            "pageid": 430912,
+            "ns": 0,
+            "title": "Integral transform"
+          },
+          {
+            "pageid": 505449,
+            "ns": 0,
+            "title": "Sign function"
+          },
+          {
+            "pageid": 567580,
+            "ns": 0,
+            "title": "Gaussian integral"
+          },
+          {
+            "pageid": 592151,
+            "ns": 0,
+            "title": "Even and odd functions"
+          },
+          {
+            "pageid": 679596,
+            "ns": 0,
+            "title": "Continuous wavelet transform"
+          },
+          {
+            "pageid": 691741,
+            "ns": 0,
+            "title": "Character theory"
+          },
+          {
+            "pageid": 724496,
+            "ns": 0,
+            "title": "Stéphane Mallat"
+          },
+          {
+            "pageid": 987847,
+            "ns": 0,
+            "title": "Salomon Bochner"
+          },
+          {
+            "pageid": 1090930,
+            "ns": 0,
+            "title": "DFT matrix"
+          },
+          {
+            "pageid": 1092282,
+            "ns": 0,
+            "title": "Negative frequency"
+          },
+          {
+            "pageid": 1261615,
+            "ns": 0,
+            "title": "Rectangular function"
+          },
+          {
+            "pageid": 4415205,
+            "ns": 0,
+            "title": "Linear canonical transformation"
+          },
+          {
+            "pageid": 6420246,
+            "ns": 0,
+            "title": "Sinusoidal plane-wave solutions of the electromagnetic wave equation"
+          },
+          {
+            "pageid": 8318947,
+            "ns": 0,
+            "title": "Naum Yakovlevich Vilenkin"
+          },
+          {
+            "pageid": 10138003,
+            "ns": 0,
+            "title": "Fourier integral operator"
+          },
+          {
+            "pageid": 32742753,
+            "ns": 0,
+            "title": "Ordinary differential equation"
+          },
+          {
+            "pageid": 34270042,
+            "ns": 0,
+            "title": "Time stretch dispersive Fourier transform"
+          },
+          {
+            "pageid": 36535208,
+            "ns": 0,
+            "title": "Guido Weiss"
+          },
+          {
+            "pageid": 39580830,
+            "ns": 0,
+            "title": "Symmetry in quantum mechanics"
+          }
+        ]
+      }
+    },
+    {
+      "batchcomplete": true,
+      "query": {
+        "redirects": [
+          {
+            "from": "Rapidly decreasing",
+            "to": "Vanish at infinity",
+            "tofragment": "Rapidly decreasing"
+          },
+          {
+            "from": "Locally integrable",
+            "to": "Locally integrable function"
+          },
+          {
+            "from": "Schwartz function",
+            "to": "Schwartz space"
+          },
+          {
+            "from": "Schwartz functions",
+            "to": "Schwartz space"
+          },
+          {
+            "from": "Michail Yulyevich Tseytlin",
+            "to": "Gradshteyn and Ryzhik",
+            "tofragment": "Tseytlin"
+          },
+          {
+            "from": "LTI system theory",
+            "to": "Linear time-invariant system"
+          },
+          {
+            "from": "PMC (identifier)",
+            "to": "PubMed Central",
+            "tofragment": "PMCID"
+          },
+          {
+            "from": "OCLC (identifier)",
+            "to": "OCLC",
+            "tofragment": "Identifiers and linked data"
+          },
+          {
+            "from": "CiteSeerX (identifier)",
+            "to": "CiteSeerX"
+          },
+          {
+            "from": "Indirect Fourier transform",
+            "to": "Indirect Fourier transformation"
+          }
+        ],
+        "pages": [
+          {
+            "pageid": 4665,
+            "ns": 0,
+            "title": "Banach algebra"
+          },
+          {
+            "pageid": 5759,
+            "ns": 0,
+            "title": "Complex analysis"
+          },
+          {
+            "pageid": 7921,
+            "ns": 0,
+            "title": "Derivative"
+          },
+          {
+            "pageid": 9649,
+            "ns": 0,
+            "title": "Energy"
+          },
+          {
+            "pageid": 11512,
+            "ns": 0,
+            "title": "Fast Fourier transform"
+          },
+          {
+            "pageid": 14110,
+            "ns": 0,
+            "title": "Holomorphic function"
+          },
+          {
+            "pageid": 14147,
+            "ns": 0,
+            "title": "Harmonic analysis"
+          },
+          {
+            "pageid": 14563,
+            "ns": 0,
+            "title": "Integer"
+          },
+          {
+            "pageid": 18422,
+            "ns": 0,
+            "title": "Linear algebra"
+          },
+          {
+            "pageid": 20431,
+            "ns": 0,
+            "title": "Momentum"
+          },
+          {
+            "pageid": 25676,
+            "ns": 0,
+            "title": "Radar"
+          },
+          {
+            "pageid": 26003,
+            "ns": 0,
+            "title": "Radian"
+          },
+          {
+            "pageid": 27752,
+            "ns": 0,
+            "title": "Spectroscopy"
+          },
+          {
+            "pageid": 29324,
+            "ns": 0,
+            "title": "Signal processing"
+          },
+          {
+            "pageid": 37649,
+            "ns": 0,
+            "title": "Amplitude"
+          },
+          {
+            "pageid": 45194,
+            "ns": 0,
+            "title": "Lp space"
+          },
+          {
+            "pageid": 50719,
+            "ns": 0,
+            "title": "Quantum harmonic oscillator"
+          },
+          {
+            "pageid": 52358,
+            "ns": 0,
+            "title": "Imaginary unit"
+          },
+          {
+            "pageid": 56484,
+            "ns": 0,
+            "title": "Low-pass filter"
+          },
+          {
+            "pageid": 145343,
+            "ns": 0,
+            "title": "Wave function"
+          },
+          {
+            "pageid": 158949,
+            "ns": 0,
+            "title": "CiteSeerX"
+          },
+          {
+            "pageid": 195984,
+            "ns": 0,
+            "title": "Hermite polynomials"
+          },
+          {
+            "pageid": 240790,
+            "ns": 0,
+            "title": "Indicator function"
+          },
+          {
+            "pageid": 293450,
+            "ns": 0,
+            "title": "Involution (mathematics)"
+          },
+          {
+            "pageid": 324749,
+            "ns": 0,
+            "title": "Sine wave"
+          },
+          {
+            "pageid": 364372,
+            "ns": 0,
+            "title": "Gelfand representation"
+          },
+          {
+            "pageid": 405746,
+            "ns": 0,
+            "title": "Analog signal processing"
+          },
+          {
+            "pageid": 436912,
+            "ns": 0,
+            "title": "Short-time Fourier transform"
+          },
+          {
+            "pageid": 461986,
+            "ns": 0,
+            "title": "Vanish at infinity"
+          },
+          {
+            "pageid": 585143,
+            "ns": 0,
+            "title": "Closed-form expression"
+          },
+          {
+            "pageid": 857897,
+            "ns": 0,
+            "title": "Time–frequency analysis"
+          },
+          {
+            "pageid": 883885,
+            "ns": 0,
+            "title": "OCLC"
+          },
+          {
+            "pageid": 1383899,
+            "ns": 0,
+            "title": "Linear time-invariant system"
+          },
+          {
+            "pageid": 1683270,
+            "ns": 0,
+            "title": "Nondimensionalization"
+          },
+          {
+            "pageid": 1709459,
+            "ns": 0,
+            "title": "Edward Charles Titchmarsh"
+          },
+          {
+            "pageid": 2092501,
+            "ns": 0,
+            "title": "Harry Dym"
+          },
+          {
+            "pageid": 2369850,
+            "ns": 0,
+            "title": "Bochner's theorem"
+          },
+          {
+            "pageid": 2571064,
+            "ns": 0,
+            "title": "Academic Press"
+          },
+          {
+            "pageid": 2775325,
+            "ns": 0,
+            "title": "PubMed Central"
+          },
+          {
+            "pageid": 3350111,
+            "ns": 0,
+            "title": "Wiener–Khinchin theorem"
+          },
+          {
+            "pageid": 3524992,
+            "ns": 0,
+            "title": "Triangular function"
+          },
+          {
+            "pageid": 4258398,
+            "ns": 0,
+            "title": "Locally integrable function"
+          },
+          {
+            "pageid": 4277567,
+            "ns": 0,
+            "title": "Schwartz space"
+          },
+          {
+            "pageid": 4838571,
+            "ns": 0,
+            "title": "Position operator"
+          },
+          {
+            "pageid": 6779393,
+            "ns": 0,
+            "title": "Riesz potential"
+          },
+          {
+            "pageid": 19762116,
+            "ns": 0,
+            "title": "Fourier-transform infrared spectroscopy"
+          },
+          {
+            "pageid": 25700988,
+            "ns": 0,
+            "title": "Indirect Fourier transformation"
+          },
+          {
+            "pageid": 28661853,
+            "ns": 0,
+            "title": "Gerald Teschl"
+          },
+          {
+            "pageid": 49343041,
+            "ns": 0,
+            "title": "Gradshteyn and Ryzhik"
+          }
+        ]
+      }
+    },
+    {
+      "batchcomplete": true,
+      "query": {
+        "redirects": [
+          {
+            "from": "Integers",
+            "to": "Integer"
+          },
+          {
+            "from": "Integral kernel",
+            "to": "Integral transform"
+          },
+          {
+            "from": "Compact support",
+            "to": "Support (mathematics)",
+            "tofragment": "Compact support"
+          },
+          {
+            "from": "Hyperbolic function",
+            "to": "Hyperbolic functions"
+          },
+          {
+            "from": "4-momentum",
+            "to": "Four-momentum"
+          },
+          {
+            "from": "Impulse response function",
+            "to": "Impulse response"
+          },
+          {
+            "from": "Locally compact Hausdorff space",
+            "to": "Locally compact space"
+          },
+          {
+            "from": "Izrail Solomonovich Gradshteyn",
+            "to": "Gradshteyn and Ryzhik",
+            "tofragment": "Gradshteyn"
+          },
+          {
+            "from": "ISSN (identifier)",
+            "to": "ISSN"
+          },
+          {
+            "from": "John Wiley & Sons",
+            "to": "Wiley (publisher)"
+          },
+          {
+            "from": "MR (identifier)",
+            "to": "Mathematical Reviews"
+          },
+          {
+            "from": "Euler–Mascheroni constant",
+            "to": "Euler's constant"
+          }
+        ],
+        "pages": [
+          {
+            "pageid": 4700,
+            "ns": 0,
+            "title": "Bessel function"
+          },
+          {
+            "pageid": 11490,
+            "ns": 0,
+            "title": "Fundamental frequency"
+          },
+          {
+            "pageid": 14563,
+            "ns": 0,
+            "title": "Integer"
+          },
+          {
+            "pageid": 15532,
+            "ns": 0,
+            "title": "Integral"
+          },
+          {
+            "pageid": 23034,
+            "ns": 0,
+            "title": "Piano"
+          },
+          {
+            "pageid": 23542,
+            "ns": 0,
+            "title": "Probability theory"
+          },
+          {
+            "pageid": 23543,
+            "ns": 0,
+            "title": "Probability distribution"
+          },
+          {
+            "pageid": 44688,
+            "ns": 0,
+            "title": "Almost everywhere"
+          },
+          {
+            "pageid": 48632,
+            "ns": 0,
+            "title": "Locally compact space"
+          },
+          {
+            "pageid": 55762,
+            "ns": 0,
+            "title": "Harmonic function"
+          },
+          {
+            "pageid": 56567,
+            "ns": 0,
+            "title": "Hyperbolic functions"
+          },
+          {
+            "pageid": 61478,
+            "ns": 0,
+            "title": "Analytic function"
+          },
+          {
+            "pageid": 87299,
+            "ns": 0,
+            "title": "Heaviside step function"
+          },
+          {
+            "pageid": 91161,
+            "ns": 0,
+            "title": "Andrey Kolmogorov"
+          },
+          {
+            "pageid": 148594,
+            "ns": 0,
+            "title": "Euler's constant"
+          },
+          {
+            "pageid": 204680,
+            "ns": 0,
+            "title": "Four-momentum"
+          },
+          {
+            "pageid": 234930,
+            "ns": 0,
+            "title": "ISSN"
+          },
+          {
+            "pageid": 381013,
+            "ns": 0,
+            "title": "Support (mathematics)"
+          },
+          {
+            "pageid": 430912,
+            "ns": 0,
+            "title": "Integral transform"
+          },
+          {
+            "pageid": 496676,
+            "ns": 0,
+            "title": "Sound intensity"
+          },
+          {
+            "pageid": 500958,
+            "ns": 0,
+            "title": "Lars Hörmander"
+          },
+          {
+            "pageid": 521933,
+            "ns": 0,
+            "title": "Radon measure"
+          },
+          {
+            "pageid": 537930,
+            "ns": 0,
+            "title": "Wiley (publisher)"
+          },
+          {
+            "pageid": 545825,
+            "ns": 0,
+            "title": "Impulse response"
+          },
+          {
+            "pageid": 596556,
+            "ns": 0,
+            "title": "Hartley transform"
+          },
+          {
+            "pageid": 638274,
+            "ns": 0,
+            "title": "Ronald W. Schafer"
+          },
+          {
+            "pageid": 744569,
+            "ns": 0,
+            "title": "Stone–von Neumann theorem"
+          },
+          {
+            "pageid": 815799,
+            "ns": 0,
+            "title": "Bump function"
+          },
+          {
+            "pageid": 857710,
+            "ns": 0,
+            "title": "Time–frequency representation"
+          },
+          {
+            "pageid": 1135324,
+            "ns": 0,
+            "title": "Conjugate variables"
+          },
+          {
+            "pageid": 1216914,
+            "ns": 0,
+            "title": "Discrete-time Fourier transform"
+          },
+          {
+            "pageid": 1485646,
+            "ns": 0,
+            "title": "Mathematical Reviews"
+          },
+          {
+            "pageid": 1698977,
+            "ns": 0,
+            "title": "Homogeneous polynomial"
+          },
+          {
+            "pageid": 2668304,
+            "ns": 0,
+            "title": "Bulletin of the American Mathematical Society"
+          },
+          {
+            "pageid": 3352292,
+            "ns": 0,
+            "title": "Wavelet transform"
+          },
+          {
+            "pageid": 3772515,
+            "ns": 0,
+            "title": "Alexandre Kirillov"
+          },
+          {
+            "pageid": 4916481,
+            "ns": 0,
+            "title": "Inverse scattering transform"
+          },
+          {
+            "pageid": 8465724,
+            "ns": 0,
+            "title": "Fourier–Mukai transform"
+          },
+          {
+            "pageid": 10063692,
+            "ns": 0,
+            "title": "Constant-Q transform"
+          },
+          {
+            "pageid": 16678376,
+            "ns": 0,
+            "title": "Nonlinear partial differential equation"
+          },
+          {
+            "pageid": 19908550,
+            "ns": 0,
+            "title": "Diffusion"
+          },
+          {
+            "pageid": 20598932,
+            "ns": 0,
+            "title": "Hilbert space"
+          },
+          {
+            "pageid": 22907213,
+            "ns": 0,
+            "title": "K. S. Chandrasekharan"
+          },
+          {
+            "pageid": 24149984,
+            "ns": 0,
+            "title": "SIAM Journal on Scientific Computing"
+          },
+          {
+            "pageid": 29262224,
+            "ns": 0,
+            "title": "Periodic summation"
+          },
+          {
+            "pageid": 32842052,
+            "ns": 0,
+            "title": "Argument of a function"
+          },
+          {
+            "pageid": 42333982,
+            "ns": 0,
+            "title": "Beevers–Lipson strip"
+          },
+          {
+            "pageid": 49343041,
+            "ns": 0,
+            "title": "Gradshteyn and Ryzhik"
+          }
+        ]
+      }
+    },
+    {
+      "batchcomplete": true,
+      "query": {
+        "redirects": [
+          {
+            "from": "ANOVA",
+            "to": "Analysis of variance"
+          },
+          {
+            "from": "Square-integrable",
+            "to": "Square-integrable function"
+          },
+          {
+            "from": "Heisenberg uncertainty principle",
+            "to": "Uncertainty principle"
+          },
+          {
+            "from": "Clarendon Press",
+            "to": "Oxford University Press",
+            "tofragment": "Clarendon Press"
+          },
+          {
+            "from": "Tempered distribution",
+            "to": "Distribution (mathematical analysis)",
+            "tofragment": "Tempered distribution"
+          },
+          {
+            "from": "Matlab",
+            "to": "MATLAB"
+          },
+          {
+            "from": "PNAS",
+            "to": "Proceedings of the National Academy of Sciences of the United States of America"
+          },
+          {
+            "from": "Fourier sine transform",
+            "to": "Sine and cosine transforms"
+          },
+          {
+            "from": "Alternating harmonic series",
+            "to": "Harmonic series (mathematics)",
+            "tofragment": "Alternating harmonic series"
+          },
+          {
+            "from": "Hölder conjugate",
+            "to": "Conjugate index"
+          },
+          {
+            "from": "Weak limit",
+            "to": "Weak topology"
+          },
+          {
+            "from": "Wolfram Alpha",
+            "to": "WolframAlpha"
+          },
+          {
+            "from": "Time–frequency domain",
+            "to": "Time–frequency analysis"
+          },
+          {
+            "from": "ISBN (identifier)",
+            "to": "ISBN"
+          },
+          {
+            "from": "PMID (identifier)",
+            "to": "PubMed",
+            "tofragment": "PubMed identifier"
+          },
+          {
+            "from": "Doi (identifier)",
+            "to": "Digital object identifier"
+          },
+          {
+            "from": "Bibcode (identifier)",
+            "to": "Bibcode"
+          },
+          {
+            "from": "Victor Hugo Moll",
+            "to": "Victor Moll"
+          }
+        ],
+        "pages": [
+          {
+            "pageid": 634,
+            "ns": 0,
+            "title": "Analysis of variance"
+          },
+          {
+            "pageid": 7988,
+            "ns": 0,
+            "title": "Dual space"
+          },
+          {
+            "pageid": 10372,
+            "ns": 0,
+            "title": "Entire function"
+          },
+          {
+            "pageid": 11180,
+            "ns": 0,
+            "title": "Functional analysis"
+          },
+          {
+            "pageid": 14919,
+            "ns": 0,
+            "title": "ISBN"
+          },
+          {
+            "pageid": 20412,
+            "ns": 0,
+            "title": "MATLAB"
+          },
+          {
+            "pageid": 26873,
+            "ns": 0,
+            "title": "Second"
+          },
+          {
+            "pageid": 31883,
+            "ns": 0,
+            "title": "Uncertainty principle"
+          },
+          {
+            "pageid": 33662,
+            "ns": 0,
+            "title": "Weak topology"
+          },
+          {
+            "pageid": 48518,
+            "ns": 0,
+            "title": "Oxford University Press"
+          },
+          {
+            "pageid": 48740,
+            "ns": 0,
+            "title": "Henri Poincaré"
+          },
+          {
+            "pageid": 50907,
+            "ns": 0,
+            "title": "List of Fourier-related transforms"
+          },
+          {
+            "pageid": 51955,
+            "ns": 0,
+            "title": "Distribution (mathematical analysis)"
+          },
+          {
+            "pageid": 59874,
+            "ns": 0,
+            "title": "Schrödinger equation"
+          },
+          {
+            "pageid": 142488,
+            "ns": 0,
+            "title": "Harmonic series (mathematics)"
+          },
+          {
+            "pageid": 191101,
+            "ns": 0,
+            "title": "Phase space"
+          },
+          {
+            "pageid": 202722,
+            "ns": 0,
+            "title": "Tensor contraction"
+          },
+          {
+            "pageid": 206644,
+            "ns": 0,
+            "title": "William Feller"
+          },
+          {
+            "pageid": 224256,
+            "ns": 0,
+            "title": "Chord (music)"
+          },
+          {
+            "pageid": 224259,
+            "ns": 0,
+            "title": "Proceedings of the National Academy of Sciences of the United States of America"
+          },
+          {
+            "pageid": 236007,
+            "ns": 0,
+            "title": "Unitary transformation"
+          },
+          {
+            "pageid": 245560,
+            "ns": 0,
+            "title": "Trigonometric integral"
+          },
+          {
+            "pageid": 302033,
+            "ns": 0,
+            "title": "Frequency response"
+          },
+          {
+            "pageid": 320861,
+            "ns": 0,
+            "title": "Constant function"
+          },
+          {
+            "pageid": 338746,
+            "ns": 0,
+            "title": "Radon–Nikodym theorem"
+          },
+          {
+            "pageid": 422994,
+            "ns": 0,
+            "title": "Digital object identifier"
+          },
+          {
+            "pageid": 454315,
+            "ns": 0,
+            "title": "Plancherel theorem"
+          },
+          {
+            "pageid": 454325,
+            "ns": 0,
+            "title": "Locally compact abelian group"
+          },
+          {
+            "pageid": 455961,
+            "ns": 0,
+            "title": "Bounded operator"
+          },
+          {
+            "pageid": 503009,
+            "ns": 0,
+            "title": "PubMed"
+          },
+          {
+            "pageid": 513128,
+            "ns": 0,
+            "title": "Airy disk"
+          },
+          {
+            "pageid": 807056,
+            "ns": 0,
+            "title": "Dover Publications"
+          },
+          {
+            "pageid": 857897,
+            "ns": 0,
+            "title": "Time–frequency analysis"
+          },
+          {
+            "pageid": 976673,
+            "ns": 0,
+            "title": "Hilbert–Schmidt operator"
+          },
+          {
+            "pageid": 1034358,
+            "ns": 0,
+            "title": "Chirplet transform"
+          },
+          {
+            "pageid": 1580246,
+            "ns": 0,
+            "title": "Generalized function"
+          },
+          {
+            "pageid": 2660978,
+            "ns": 0,
+            "title": "Sine and cosine transforms"
+          },
+          {
+            "pageid": 3017297,
+            "ns": 0,
+            "title": "Sergei Fomin"
+          },
+          {
+            "pageid": 3229401,
+            "ns": 0,
+            "title": "Characteristic function (probability theory)"
+          },
+          {
+            "pageid": 4350689,
+            "ns": 0,
+            "title": "Conjugate index"
+          },
+          {
+            "pageid": 10374890,
+            "ns": 0,
+            "title": "NGC 4622"
+          },
+          {
+            "pageid": 11105238,
+            "ns": 0,
+            "title": "SL2(R)"
+          },
+          {
+            "pageid": 14092434,
+            "ns": 0,
+            "title": "Bibcode"
+          },
+          {
+            "pageid": 21903944,
+            "ns": 0,
+            "title": "WolframAlpha"
+          },
+          {
+            "pageid": 24758132,
+            "ns": 0,
+            "title": "Constant (mathematics)"
+          },
+          {
+            "pageid": 28680558,
+            "ns": 0,
+            "title": "Square-integrable function"
+          },
+          {
+            "pageid": 30872292,
+            "ns": 0,
+            "title": "Quantum Fourier transform"
+          },
+          {
+            "pageid": 38948504,
+            "ns": 0,
+            "title": "Riesz–Markov–Kakutani representation theorem"
+          },
+          {
+            "pageid": 69850885,
+            "ns": 0,
+            "title": "Victor Moll"
+          }
+        ]
+      }
+    },
+    {
+      "batchcomplete": true,
+      "query": {
+        "redirects": [
+          {
+            "from": "Complex function",
+            "to": "Complex analysis"
+          },
+          {
+            "from": "Tempered distributions",
+            "to": "Distribution (mathematical analysis)",
+            "tofragment": "Tempered distributions"
+          },
+          {
+            "from": "Lebesgue integrable",
+            "to": "Lebesgue integral",
+            "tofragment": "Lebesgue integrable"
+          },
+          {
+            "from": "Phase offset",
+            "to": "Phase (waves)",
+            "tofragment": "Phase shift"
+          },
+          {
+            "from": "Complementary variables",
+            "to": "Complementarity (physics)"
+          },
+          {
+            "from": "Arg (mathematics)",
+            "to": "Argument (complex analysis)"
+          },
+          {
+            "from": "Bochner–Minlos theorem",
+            "to": "Nuclear space",
+            "tofragment": "Bochner–Minlos theorem"
+          },
+          {
+            "from": "Mathematica",
+            "to": "Wolfram Mathematica"
+          }
+        ],
+        "pages": [
+          {
+            "pageid": 5759,
+            "ns": 0,
+            "title": "Complex analysis"
+          },
+          {
+            "pageid": 6042,
+            "ns": 0,
+            "title": "Compact space"
+          },
+          {
+            "pageid": 9613,
+            "ns": 0,
+            "title": "Euler's formula"
+          },
+          {
+            "pageid": 11659,
+            "ns": 0,
+            "title": "Fourier analysis"
+          },
+          {
+            "pageid": 14121,
+            "ns": 0,
+            "title": "Hertz"
+          },
+          {
+            "pageid": 14922,
+            "ns": 0,
+            "title": "If and only if"
+          },
+          {
+            "pageid": 21474,
+            "ns": 0,
+            "title": "Natural number"
+          },
+          {
+            "pageid": 23000,
+            "ns": 0,
+            "title": "Polynomial"
+          },
+          {
+            "pageid": 24047,
+            "ns": 0,
+            "title": "Phase (waves)"
+          },
+          {
+            "pageid": 26390,
+            "ns": 0,
+            "title": "Riemann integral"
+          },
+          {
+            "pageid": 30448,
+            "ns": 0,
+            "title": "Taylor series"
+          },
+          {
+            "pageid": 33125,
+            "ns": 0,
+            "title": "Wavelength"
+          },
+          {
+            "pageid": 37021,
+            "ns": 0,
+            "title": "Dirac delta function"
+          },
+          {
+            "pageid": 41480,
+            "ns": 0,
+            "title": "Overtone"
+          },
+          {
+            "pageid": 42315,
+            "ns": 0,
+            "title": "Topological group"
+          },
+          {
+            "pageid": 49024,
+            "ns": 0,
+            "title": "Wolfram Mathematica"
+          },
+          {
+            "pageid": 51955,
+            "ns": 0,
+            "title": "Distribution (mathematical analysis)"
+          },
+          {
+            "pageid": 52327,
+            "ns": 0,
+            "title": "Cyclic group"
+          },
+          {
+            "pageid": 56538,
+            "ns": 0,
+            "title": "Rule of thumb"
+          },
+          {
+            "pageid": 76848,
+            "ns": 0,
+            "title": "Periodic function"
+          },
+          {
+            "pageid": 170089,
+            "ns": 0,
+            "title": "Numerical integration"
+          },
+          {
+            "pageid": 225999,
+            "ns": 0,
+            "title": "Unitary operator"
+          },
+          {
+            "pageid": 228601,
+            "ns": 0,
+            "title": "Eigenfunction"
+          },
+          {
+            "pageid": 245552,
+            "ns": 0,
+            "title": "Gaussian function"
+          },
+          {
+            "pageid": 295917,
+            "ns": 0,
+            "title": "Noncommutative geometry"
+          },
+          {
+            "pageid": 340630,
+            "ns": 0,
+            "title": "Function space"
+          },
+          {
+            "pageid": 408195,
+            "ns": 0,
+            "title": "Cauchy principal value"
+          },
+          {
+            "pageid": 508177,
+            "ns": 0,
+            "title": "Circle group"
+          },
+          {
+            "pageid": 545825,
+            "ns": 0,
+            "title": "Impulse response"
+          },
+          {
+            "pageid": 610583,
+            "ns": 0,
+            "title": "Sinc function"
+          },
+          {
+            "pageid": 927236,
+            "ns": 0,
+            "title": "Convergence of Fourier series"
+          },
+          {
+            "pageid": 1077330,
+            "ns": 0,
+            "title": "E. T. Whittaker"
+          },
+          {
+            "pageid": 1452960,
+            "ns": 0,
+            "title": "Hankel transform"
+          },
+          {
+            "pageid": 1530689,
+            "ns": 0,
+            "title": "Complementarity (physics)"
+          },
+          {
+            "pageid": 2047311,
+            "ns": 0,
+            "title": "DC bias"
+          },
+          {
+            "pageid": 2702957,
+            "ns": 0,
+            "title": "Nuclear space"
+          },
+          {
+            "pageid": 3351909,
+            "ns": 0,
+            "title": "Alan V. Oppenheim"
+          },
+          {
+            "pageid": 7147157,
+            "ns": 0,
+            "title": "Absolutely integrable function"
+          },
+          {
+            "pageid": 13609399,
+            "ns": 0,
+            "title": "Least-squares spectral analysis"
+          },
+          {
+            "pageid": 14699765,
+            "ns": 0,
+            "title": "Argument (complex analysis)"
+          },
+          {
+            "pageid": 18536812,
+            "ns": 0,
+            "title": "Fourier transform on finite groups"
+          },
+          {
+            "pageid": 18994087,
+            "ns": 0,
+            "title": "Sound"
+          },
+          {
+            "pageid": 22386332,
+            "ns": 0,
+            "title": "Hausdorff–Young inequality"
+          },
+          {
+            "pageid": 26064288,
+            "ns": 0,
+            "title": "Lebesgue integral"
+          },
+          {
+            "pageid": 28680558,
+            "ns": 0,
+            "title": "Square-integrable function"
+          },
+          {
+            "pageid": 31393808,
+            "ns": 0,
+            "title": "Mehler kernel"
+          },
+          {
+            "pageid": 41952478,
+            "ns": 0,
+            "title": "Robert Strichartz"
+          },
+          {
+            "pageid": 61563184,
+            "ns": 0,
+            "title": "Nonlocal operator"
+          },
+          {
+            "pageid": 65470508,
+            "ns": 0,
+            "title": "Quadratic Fourier transform"
+          }
+        ]
+      }
+    },
+    {
+      "batchcomplete": true,
+      "query": {
+        "redirects": [
+          {
+            "from": "Injective",
+            "to": "Injective function"
+          },
+          {
+            "from": "Complex conjugation",
+            "to": "Complex conjugate"
+          },
+          {
+            "from": "Lorentz invariant",
+            "to": "Lorentz scalar"
+          },
+          {
+            "from": "DC component",
+            "to": "DC bias"
+          },
+          {
+            "from": "Transform (mathematics)",
+            "to": "Transformation (function)"
+          },
+          {
+            "from": "Iosif Moiseevich Ryzhik",
+            "to": "Gradshteyn and Ryzhik",
+            "tofragment": "Ryzhik"
+          },
+          {
+            "from": "Distribution (mathematics)",
+            "to": "Distribution (mathematical analysis)"
+          }
+        ],
+        "pages": [
+          {
+            "pageid": 991,
+            "ns": 0,
+            "title": "Absolute value"
+          },
+          {
+            "pageid": 4322,
+            "ns": 0,
+            "title": "Borel measure"
+          },
+          {
+            "pageid": 9260,
+            "ns": 0,
+            "title": "Equivalence class"
+          },
+          {
+            "pageid": 9531,
+            "ns": 0,
+            "title": "Electrical engineering"
+          },
+          {
+            "pageid": 9697,
+            "ns": 0,
+            "title": "Euclidean space"
+          },
+          {
+            "pageid": 21723,
+            "ns": 0,
+            "title": "Nonlinear optics"
+          },
+          {
+            "pageid": 28186,
+            "ns": 0,
+            "title": "Symmetry group"
+          },
+          {
+            "pageid": 43487,
+            "ns": 0,
+            "title": "Probability density function"
+          },
+          {
+            "pageid": 45196,
+            "ns": 0,
+            "title": "Injective function"
+          },
+          {
+            "pageid": 51955,
+            "ns": 0,
+            "title": "Distribution (mathematical analysis)"
+          },
+          {
+            "pageid": 53268,
+            "ns": 0,
+            "title": "Convolution theorem"
+          },
+          {
+            "pageid": 59038,
+            "ns": 0,
+            "title": "Fourier series"
+          },
+          {
+            "pageid": 173918,
+            "ns": 0,
+            "title": "Complex conjugate"
+          },
+          {
+            "pageid": 202672,
+            "ns": 0,
+            "title": "Spectral density"
+          },
+          {
+            "pageid": 246722,
+            "ns": 0,
+            "title": "Operator norm"
+          },
+          {
+            "pageid": 294474,
+            "ns": 0,
+            "title": "Peter–Weyl theorem"
+          },
+          {
+            "pageid": 296000,
+            "ns": 0,
+            "title": "Without loss of generality"
+          },
+          {
+            "pageid": 368684,
+            "ns": 0,
+            "title": "Moment (mathematics)"
+          },
+          {
+            "pageid": 370346,
+            "ns": 0,
+            "title": "Frequency domain"
+          },
+          {
+            "pageid": 374235,
+            "ns": 0,
+            "title": "MathWorld"
+          },
+          {
+            "pageid": 382445,
+            "ns": 0,
+            "title": "Fourier inversion theorem"
+          },
+          {
+            "pageid": 387297,
+            "ns": 0,
+            "title": "Mellin transform"
+          },
+          {
+            "pageid": 461986,
+            "ns": 0,
+            "title": "Vanish at infinity"
+          },
+          {
+            "pageid": 502831,
+            "ns": 0,
+            "title": "Charles Fefferman"
+          },
+          {
+            "pageid": 574024,
+            "ns": 0,
+            "title": "Hilbert transform"
+          },
+          {
+            "pageid": 714163,
+            "ns": 0,
+            "title": "Cross-correlation"
+          },
+          {
+            "pageid": 719601,
+            "ns": 0,
+            "title": "MIT Press"
+          },
+          {
+            "pageid": 836189,
+            "ns": 0,
+            "title": "Eric W. Weisstein"
+          },
+          {
+            "pageid": 954539,
+            "ns": 0,
+            "title": "Dini test"
+          },
+          {
+            "pageid": 1179451,
+            "ns": 0,
+            "title": "Change of basis"
+          },
+          {
+            "pageid": 1251967,
+            "ns": 0,
+            "title": "Princeton University Press"
+          },
+          {
+            "pageid": 1314272,
+            "ns": 0,
+            "title": "Dirac comb"
+          },
+          {
+            "pageid": 1384568,
+            "ns": 0,
+            "title": "Character group"
+          },
+          {
+            "pageid": 1424309,
+            "ns": 0,
+            "title": "Differential equation"
+          },
+          {
+            "pageid": 1643598,
+            "ns": 0,
+            "title": "Kōsaku Yosida"
+          },
+          {
+            "pageid": 1652672,
+            "ns": 0,
+            "title": "Symbolic integration"
+          },
+          {
+            "pageid": 1904373,
+            "ns": 0,
+            "title": "Transformation (function)"
+          },
+          {
+            "pageid": 1907745,
+            "ns": 0,
+            "title": "Edward Condon"
+          },
+          {
+            "pageid": 1911511,
+            "ns": 0,
+            "title": "Lorentz scalar"
+          },
+          {
+            "pageid": 2047311,
+            "ns": 0,
+            "title": "DC bias"
+          },
+          {
+            "pageid": 2139612,
+            "ns": 0,
+            "title": "A Course of Modern Analysis"
+          },
+          {
+            "pageid": 13070117,
+            "ns": 0,
+            "title": "Spectral density estimation"
+          },
+          {
+            "pageid": 19378200,
+            "ns": 0,
+            "title": "Representation theory"
+          },
+          {
+            "pageid": 20646438,
+            "ns": 0,
+            "title": "Real number"
+          },
+          {
+            "pageid": 26250647,
+            "ns": 0,
+            "title": "Fourier–Deligne transform"
+          },
+          {
+            "pageid": 49343041,
+            "ns": 0,
+            "title": "Gradshteyn and Ryzhik"
+          },
+          {
+            "pageid": 53736337,
+            "ns": 0,
+            "title": "Dimitris Manolakis"
+          },
+          {
+            "pageid": 80687023,
+            "ns": 0,
+            "title": "Fourier extension operator"
+          }
+        ]
+      }
+    }
+  ],
   "image_metadata": {
     "File:Commons-logo.svg": "The Wikimedia Commons logo, SVG version.",
     "File:Commutative diagram illustrating problem solving via the Fourier transform.svg": "Diagram designed to illustrate how the Fourier transform may be used to solve a problem when it is simplified by applying the Fourier transform.",
@@ -15,1597 +2409,1995 @@
   },
   "name_map_overrides": {},
   "redirect_cache": {
-    "4-momentum": {
-      "to": "Four-momentum",
-      "tofragment": ""
-    },
-    "A Course of Modern Analysis": {
-      "to": "A Course of Modern Analysis",
-      "tofragment": ""
-    },
-    "Abelian group": {
-      "to": "Abelian group",
-      "tofragment": ""
-    },
-    "Absolute continuity": {
-      "to": "Absolute continuity",
-      "tofragment": ""
-    },
-    "Absolute value": {
-      "to": "Absolute value",
-      "tofragment": ""
-    },
-    "Absolutely continuous": {
-      "to": "Absolute continuity",
-      "tofragment": ""
+    "Uniformly continuous": {
+      "to": "Uniform continuity",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
     },
     "Absolutely convergent": {
       "to": "Absolute convergence",
-      "tofragment": ""
-    },
-    "Absolutely integrable function": {
-      "to": "Absolutely integrable function",
-      "tofragment": ""
-    },
-    "Academic Press": {
-      "to": "Academic Press",
-      "tofragment": ""
-    },
-    "Active and passive transformation": {
-      "to": "Active and passive transformation",
-      "tofragment": ""
-    },
-    "Airy disk": {
-      "to": "Airy disk",
-      "tofragment": ""
-    },
-    "Alan V. Oppenheim": {
-      "to": "Alan V. Oppenheim",
-      "tofragment": ""
-    },
-    "Alexandre Kirillov": {
-      "to": "Alexandre Kirillov",
-      "tofragment": ""
-    },
-    "Almost everywhere": {
-      "to": "Almost everywhere",
-      "tofragment": ""
-    },
-    "Alternating harmonic series": {
-      "to": "Harmonic series (mathematics)",
-      "tofragment": "Alternating harmonic series"
-    },
-    "American Mathematical Society": {
-      "to": "American Mathematical Society",
-      "tofragment": ""
-    },
-    "Amplitude": {
-      "to": "Amplitude",
-      "tofragment": ""
-    },
-    "Analog signal processing": {
-      "to": "Analog signal processing",
-      "tofragment": ""
-    },
-    "Analytic function": {
-      "to": "Analytic function",
-      "tofragment": ""
-    },
-    "Analytic signal": {
-      "to": "Analytic signal",
-      "tofragment": ""
-    },
-    "Andrey Kolmogorov": {
-      "to": "Andrey Kolmogorov",
-      "tofragment": ""
-    },
-    "Angular frequency": {
-      "to": "Angular frequency",
-      "tofragment": ""
-    },
-    "ANOVA": {
-      "to": "Analysis of variance",
-      "tofragment": ""
-    },
-    "Anticausal system": {
-      "to": "Anticausal system",
-      "tofragment": ""
-    },
-    "Arg (mathematics)": {
-      "to": "Argument (complex analysis)",
-      "tofragment": ""
-    },
-    "Argument of a function": {
-      "to": "Argument of a function",
-      "tofragment": ""
-    },
-    "Arithmetic mean": {
-      "to": "Arithmetic mean",
-      "tofragment": ""
-    },
-    "ArXiv (identifier)": {
-      "to": "ArXiv",
-      "tofragment": ""
-    },
-    "Autocorrelation": {
-      "to": "Autocorrelation",
-      "tofragment": ""
-    },
-    "Automorphism": {
-      "to": "Automorphism",
-      "tofragment": ""
-    },
-    "Banach algebra": {
-      "to": "Banach algebra",
-      "tofragment": ""
-    },
-    "Beevers–Lipson strip": {
-      "to": "Beevers–Lipson strip",
-      "tofragment": ""
-    },
-    "Bessel function": {
-      "to": "Bessel function",
-      "tofragment": ""
-    },
-    "Bibcode (identifier)": {
-      "to": "Bibcode",
-      "tofragment": ""
-    },
-    "Bijection, injection and surjection": {
-      "to": "Bijection, injection and surjection",
-      "tofragment": ""
-    },
-    "Bochner–Minlos theorem": {
-      "to": "Nuclear space",
-      "tofragment": "Bochner–Minlos theorem"
-    },
-    "Bochner's theorem": {
-      "to": "Bochner's theorem",
-      "tofragment": ""
-    },
-    "Borel measure": {
-      "to": "Borel measure",
-      "tofragment": ""
-    },
-    "Bounded operator": {
-      "to": "Bounded operator",
-      "tofragment": ""
-    },
-    "Bounded variation": {
-      "to": "Bounded variation",
-      "tofragment": ""
-    },
-    "Bulletin of the American Mathematical Society": {
-      "to": "Bulletin of the American Mathematical Society",
-      "tofragment": ""
-    },
-    "Bump function": {
-      "to": "Bump function",
-      "tofragment": ""
-    },
-    "C major": {
-      "to": "C major",
-      "tofragment": ""
-    },
-    "Cambridge University Press": {
-      "to": "Cambridge University Press",
-      "tofragment": ""
-    },
-    "Camille Jordan": {
-      "to": "Camille Jordan",
-      "tofragment": ""
-    },
-    "Cauchy principal value": {
-      "to": "Cauchy principal value",
-      "tofragment": ""
-    },
-    "Cauchy's integral theorem": {
-      "to": "Cauchy's integral theorem",
-      "tofragment": ""
-    },
-    "Change of basis": {
-      "to": "Change of basis",
-      "tofragment": ""
-    },
-    "Character group": {
-      "to": "Character group",
-      "tofragment": ""
-    },
-    "Character theory": {
-      "to": "Character theory",
-      "tofragment": ""
-    },
-    "Characteristic function (probability theory)": {
-      "to": "Characteristic function (probability theory)",
-      "tofragment": ""
-    },
-    "Charles Fefferman": {
-      "to": "Charles Fefferman",
-      "tofragment": ""
-    },
-    "Chebyshev polynomials": {
-      "to": "Chebyshev polynomials",
-      "tofragment": ""
-    },
-    "Chirplet transform": {
-      "to": "Chirplet transform",
-      "tofragment": ""
-    },
-    "Chord (music)": {
-      "to": "Chord (music)",
-      "tofragment": ""
-    },
-    "Circle group": {
-      "to": "Circle group",
-      "tofragment": ""
-    },
-    "CiteSeerX (identifier)": {
-      "to": "CiteSeerX",
-      "tofragment": ""
-    },
-    "Clarendon Press": {
-      "to": "Oxford University Press",
-      "tofragment": "Clarendon Press"
-    },
-    "Closed-form expression": {
-      "to": "Closed-form expression",
-      "tofragment": ""
-    },
-    "Compact space": {
-      "to": "Compact space",
-      "tofragment": ""
-    },
-    "Compact support": {
-      "to": "Support (mathematics)",
-      "tofragment": "Compact support"
-    },
-    "Compact-open topology": {
-      "to": "Compact-open topology",
-      "tofragment": ""
-    },
-    "Complementary variables": {
-      "to": "Complementarity (physics)",
-      "tofragment": ""
-    },
-    "Complex analysis": {
-      "to": "Complex analysis",
-      "tofragment": ""
-    },
-    "Complex conjugate": {
-      "to": "Complex conjugate",
-      "tofragment": ""
-    },
-    "Complex conjugation": {
-      "to": "Complex conjugate",
-      "tofragment": ""
-    },
-    "Complex function": {
-      "to": "Complex analysis",
-      "tofragment": ""
-    },
-    "Complex number": {
-      "to": "Complex number",
-      "tofragment": ""
-    },
-    "Complex plane": {
-      "to": "Complex plane",
-      "tofragment": ""
-    },
-    "Conjugate variables": {
-      "to": "Conjugate variables",
-      "tofragment": ""
-    },
-    "Constant (mathematics)": {
-      "to": "Constant (mathematics)",
-      "tofragment": ""
-    },
-    "Constant function": {
-      "to": "Constant function",
-      "tofragment": ""
-    },
-    "Constant-Q transform": {
-      "to": "Constant-Q transform",
-      "tofragment": ""
-    },
-    "Continuous wavelet transform": {
-      "to": "Continuous wavelet transform",
-      "tofragment": ""
-    },
-    "Convergence of Fourier series": {
-      "to": "Convergence of Fourier series",
-      "tofragment": ""
-    },
-    "Convolution": {
-      "to": "Convolution",
-      "tofragment": ""
-    },
-    "Convolution theorem": {
-      "to": "Convolution theorem",
-      "tofragment": ""
-    },
-    "CRC Press": {
-      "to": "CRC Press",
-      "tofragment": ""
-    },
-    "Critical point (mathematics)": {
-      "to": "Critical point (mathematics)",
-      "tofragment": ""
-    },
-    "Cross-correlation": {
-      "to": "Cross-correlation",
-      "tofragment": ""
-    },
-    "Cyclic group": {
-      "to": "Cyclic group",
-      "tofragment": ""
-    },
-    "DC bias": {
-      "to": "DC bias",
-      "tofragment": ""
-    },
-    "DC component": {
-      "to": "DC bias",
-      "tofragment": ""
-    },
-    "Derivative": {
-      "to": "Derivative",
-      "tofragment": ""
-    },
-    "DFT matrix": {
-      "to": "DFT matrix",
-      "tofragment": ""
-    },
-    "Differential entropy": {
-      "to": "Differential entropy",
-      "tofragment": ""
-    },
-    "Differential equation": {
-      "to": "Differential equation",
-      "tofragment": ""
-    },
-    "Diffusion": {
-      "to": "Diffusion",
-      "tofragment": ""
-    },
-    "Dimensionless units": {
-      "to": "Dimensionless quantity",
-      "tofragment": ""
-    },
-    "Dimitris Manolakis": {
-      "to": "Dimitris Manolakis",
-      "tofragment": ""
-    },
-    "Dini test": {
-      "to": "Dini test",
-      "tofragment": ""
-    },
-    "Dirac comb": {
-      "to": "Dirac comb",
-      "tofragment": ""
-    },
-    "Dirac delta": {
-      "to": "Dirac delta function",
-      "tofragment": ""
-    },
-    "Dirac delta function": {
-      "to": "Dirac delta function",
-      "tofragment": ""
-    },
-    "Dirac measure": {
-      "to": "Dirac measure",
-      "tofragment": ""
-    },
-    "Discrete Fourier transform": {
-      "to": "Discrete Fourier transform",
-      "tofragment": ""
-    },
-    "Discrete Fourier transform (general)": {
-      "to": "Discrete Fourier transform over a ring",
-      "tofragment": ""
-    },
-    "Discrete-time Fourier transform": {
-      "to": "Discrete-time Fourier transform",
-      "tofragment": ""
-    },
-    "Distribution (mathematics)": {
-      "to": "Distribution (mathematical analysis)",
-      "tofragment": ""
-    },
-    "Doi (identifier)": {
-      "to": "Digital object identifier",
-      "tofragment": ""
-    },
-    "Dot product": {
-      "to": "Dot product",
-      "tofragment": ""
-    },
-    "Dover Publications": {
-      "to": "Dover Publications",
-      "tofragment": ""
-    },
-    "Dual space": {
-      "to": "Dual space",
-      "tofragment": ""
-    },
-    "E. T. Whittaker": {
-      "to": "E. T. Whittaker",
-      "tofragment": ""
-    },
-    "Edward Charles Titchmarsh": {
-      "to": "Edward Charles Titchmarsh",
-      "tofragment": ""
-    },
-    "Edward Condon": {
-      "to": "Edward Condon",
-      "tofragment": ""
-    },
-    "Eigenfunction": {
-      "to": "Eigenfunction",
-      "tofragment": ""
-    },
-    "Eigenfunctions": {
-      "to": "Eigenfunction",
-      "tofragment": ""
-    },
-    "Eigenvalue": {
-      "to": "Eigenvalues and eigenvectors",
-      "tofragment": ""
-    },
-    "Electrical engineering": {
-      "to": "Electrical engineering",
-      "tofragment": ""
-    },
-    "Elias Stein": {
-      "to": "Elias M. Stein",
-      "tofragment": ""
-    },
-    "Energy": {
-      "to": "Energy",
-      "tofragment": ""
-    },
-    "Entire function": {
-      "to": "Entire function",
-      "tofragment": ""
-    },
-    "Envelope (waves)": {
-      "to": "Envelope (waves)",
-      "tofragment": ""
-    },
-    "Equivalence class": {
-      "to": "Equivalence class",
-      "tofragment": ""
-    },
-    "Eric W. Weisstein": {
-      "to": "Eric W. Weisstein",
-      "tofragment": ""
-    },
-    "Euclidean space": {
-      "to": "Euclidean space",
-      "tofragment": ""
-    },
-    "Euler–Mascheroni constant": {
-      "to": "Euler's constant",
-      "tofragment": ""
-    },
-    "Euler's formula": {
-      "to": "Euler's formula",
-      "tofragment": ""
-    },
-    "Even and odd functions": {
-      "to": "Even and odd functions",
-      "tofragment": ""
-    },
-    "Fast Fourier transform": {
-      "to": "Fast Fourier transform",
-      "tofragment": ""
-    },
-    "Filter (mathematics)": {
-      "to": "Filter (mathematics)",
-      "tofragment": ""
-    },
-    "Filter (signal processing)": {
-      "to": "Filter (signal processing)",
-      "tofragment": ""
-    },
-    "Finite measure": {
-      "to": "Finite measure",
-      "tofragment": ""
-    },
-    "Fourier analysis": {
-      "to": "Fourier analysis",
-      "tofragment": ""
-    },
-    "Fourier extension operator": {
-      "to": "Fourier extension operator",
-      "tofragment": ""
-    },
-    "Fourier integral operator": {
-      "to": "Fourier integral operator",
-      "tofragment": ""
-    },
-    "Fourier inversion theorem": {
-      "to": "Fourier inversion theorem",
-      "tofragment": ""
-    },
-    "Fourier multiplier": {
-      "to": "Multiplier (Fourier analysis)",
-      "tofragment": ""
-    },
-    "Fourier series": {
-      "to": "Fourier series",
-      "tofragment": ""
-    },
-    "Fourier sine transform": {
-      "to": "Sine and cosine transforms",
-      "tofragment": ""
-    },
-    "Fourier transform on finite groups": {
-      "to": "Fourier transform on finite groups",
-      "tofragment": ""
-    },
-    "Fourier-transform infrared spectroscopy": {
-      "to": "Fourier-transform infrared spectroscopy",
-      "tofragment": ""
-    },
-    "Fourier-transform spectroscopy": {
-      "to": "Fourier-transform spectroscopy",
-      "tofragment": ""
-    },
-    "Fourier–Deligne transform": {
-      "to": "Fourier–Deligne transform",
-      "tofragment": ""
-    },
-    "Fourier–Mukai transform": {
-      "to": "Fourier–Mukai transform",
-      "tofragment": ""
-    },
-    "Fractional Fourier transform": {
-      "to": "Fractional Fourier transform",
-      "tofragment": ""
-    },
-    "Frequency": {
-      "to": "Frequency",
-      "tofragment": ""
-    },
-    "Frequency domain": {
-      "to": "Frequency domain",
-      "tofragment": ""
-    },
-    "Frequency response": {
-      "to": "Frequency response",
-      "tofragment": ""
-    },
-    "Function (mathematics)": {
-      "to": "Function (mathematics)",
-      "tofragment": ""
-    },
-    "Function space": {
-      "to": "Function space",
-      "tofragment": ""
-    },
-    "Functional analysis": {
-      "to": "Functional analysis",
-      "tofragment": ""
-    },
-    "Fundamental frequency": {
-      "to": "Fundamental frequency",
-      "tofragment": ""
-    },
-    "G. N. Watson": {
-      "to": "G. N. Watson",
-      "tofragment": ""
-    },
-    "Gaussian function": {
-      "to": "Gaussian function",
-      "tofragment": ""
-    },
-    "Gaussian integral": {
-      "to": "Gaussian integral",
-      "tofragment": ""
-    },
-    "Gelfand representation": {
-      "to": "Gelfand representation",
-      "tofragment": ""
-    },
-    "Gelfand transform": {
-      "to": "Gelfand representation",
-      "tofragment": ""
-    },
-    "Generalized function": {
-      "to": "Generalized function",
-      "tofragment": ""
-    },
-    "Gerald Teschl": {
-      "to": "Gerald Teschl",
-      "tofragment": ""
-    },
-    "Gradshteyn and Ryzhik": {
-      "to": "Gradshteyn and Ryzhik",
-      "tofragment": ""
-    },
-    "Graduate Texts in Mathematics": {
-      "to": "Graduate Texts in Mathematics",
-      "tofragment": ""
-    },
-    "Group (mathematics)": {
-      "to": "Group (mathematics)",
-      "tofragment": ""
-    },
-    "Guido Weiss": {
-      "to": "Guido Weiss",
-      "tofragment": ""
-    },
-    "Haar measure": {
-      "to": "Haar measure",
-      "tofragment": ""
-    },
-    "Hankel transform": {
-      "to": "Hankel transform",
-      "tofragment": ""
-    },
-    "Harmonic analysis": {
-      "to": "Harmonic analysis",
-      "tofragment": ""
-    },
-    "Harmonic function": {
-      "to": "Harmonic function",
-      "tofragment": ""
-    },
-    "Harry Dym": {
-      "to": "Harry Dym",
-      "tofragment": ""
-    },
-    "Hartley transform": {
-      "to": "Hartley transform",
-      "tofragment": ""
-    },
-    "Hausdorff space": {
-      "to": "Hausdorff space",
-      "tofragment": ""
-    },
-    "Hausdorff–Young inequality": {
-      "to": "Hausdorff–Young inequality",
-      "tofragment": ""
-    },
-    "Heat equation": {
-      "to": "Heat equation",
-      "tofragment": ""
-    },
-    "Heat transfer": {
-      "to": "Heat transfer",
-      "tofragment": ""
-    },
-    "Heaviside step function": {
-      "to": "Heaviside step function",
-      "tofragment": ""
-    },
-    "Heisenberg group": {
-      "to": "Heisenberg group",
-      "tofragment": ""
-    },
-    "Heisenberg uncertainty principle": {
-      "to": "Uncertainty principle",
-      "tofragment": ""
-    },
-    "Henri Poincaré": {
-      "to": "Henri Poincaré",
-      "tofragment": ""
-    },
-    "Hermite polynomial": {
-      "to": "Hermite polynomials",
-      "tofragment": ""
-    },
-    "Hermite polynomials": {
-      "to": "Hermite polynomials",
-      "tofragment": ""
-    },
-    "Hermitian function": {
-      "to": "Hermitian function",
-      "tofragment": ""
-    },
-    "Hertz": {
-      "to": "Hertz",
-      "tofragment": ""
-    },
-    "Hilbert space": {
-      "to": "Hilbert space",
-      "tofragment": ""
-    },
-    "Hilbert transform": {
-      "to": "Hilbert transform",
-      "tofragment": ""
-    },
-    "Hilbert–Schmidt operator": {
-      "to": "Hilbert–Schmidt operator",
-      "tofragment": ""
-    },
-    "Hirschman uncertainty": {
-      "to": "Entropic uncertainty",
-      "tofragment": ""
-    },
-    "Hölder conjugate": {
-      "to": "Conjugate index",
-      "tofragment": ""
-    },
-    "Holomorphic function": {
-      "to": "Holomorphic function",
-      "tofragment": ""
-    },
-    "Homogeneous distribution": {
-      "to": "Homogeneous distribution",
-      "tofragment": ""
-    },
-    "Homogeneous polynomial": {
-      "to": "Homogeneous polynomial",
-      "tofragment": ""
-    },
-    "Hyperbolic function": {
-      "to": "Hyperbolic functions",
-      "tofragment": ""
-    },
-    "If and only if": {
-      "to": "If and only if",
-      "tofragment": ""
-    },
-    "Image (mathematics)": {
-      "to": "Image (mathematics)",
-      "tofragment": ""
-    },
-    "Imaginary unit": {
-      "to": "Imaginary unit",
-      "tofragment": ""
-    },
-    "Improper integral": {
-      "to": "Improper integral",
-      "tofragment": ""
-    },
-    "Impulse response": {
-      "to": "Impulse response",
-      "tofragment": ""
-    },
-    "Impulse response function": {
-      "to": "Impulse response",
-      "tofragment": ""
-    },
-    "Indicator function": {
-      "to": "Indicator function",
-      "tofragment": ""
-    },
-    "Indirect Fourier transform": {
-      "to": "Indirect Fourier transformation",
-      "tofragment": ""
-    },
-    "Injective": {
-      "to": "Injective function",
-      "tofragment": ""
-    },
-    "Integer": {
-      "to": "Integer",
-      "tofragment": ""
-    },
-    "Integers": {
-      "to": "Integer",
-      "tofragment": ""
-    },
-    "Integral": {
-      "to": "Integral",
-      "tofragment": ""
-    },
-    "Integral kernel": {
-      "to": "Integral transform",
-      "tofragment": ""
-    },
-    "Integral transform": {
-      "to": "Integral transform",
-      "tofragment": ""
-    },
-    "Inverse Laplace transform": {
-      "to": "Inverse Laplace transform",
-      "tofragment": ""
-    },
-    "Inverse scattering transform": {
-      "to": "Inverse scattering transform",
-      "tofragment": ""
-    },
-    "Involution (mathematics)": {
-      "to": "Involution (mathematics)",
-      "tofragment": ""
-    },
-    "Iosif Moiseevich Ryzhik": {
-      "to": "Gradshteyn and Ryzhik",
-      "tofragment": "Ryzhik"
-    },
-    "ISBN (identifier)": {
-      "to": "ISBN",
-      "tofragment": ""
-    },
-    "Israel Gelfand": {
-      "to": "Israel Gelfand",
-      "tofragment": ""
-    },
-    "ISSN (identifier)": {
-      "to": "ISSN",
-      "tofragment": ""
-    },
-    "Izrail Solomonovich Gradshteyn": {
-      "to": "Gradshteyn and Ryzhik",
-      "tofragment": "Gradshteyn"
-    },
-    "John Wiley & Sons": {
-      "to": "Wiley (publisher)",
-      "tofragment": ""
-    },
-    "Joseph Fourier": {
-      "to": "Joseph Fourier",
-      "tofragment": ""
-    },
-    "Journal of Computational Physics": {
-      "to": "Journal of Computational Physics",
-      "tofragment": ""
-    },
-    "K. S. Chandrasekharan": {
-      "to": "K. S. Chandrasekharan",
-      "tofragment": ""
-    },
-    "Kōsaku Yosida": {
-      "to": "Kōsaku Yosida",
-      "tofragment": ""
-    },
-    "Laplace distribution": {
-      "to": "Laplace distribution",
-      "tofragment": ""
-    },
-    "Laplace transform": {
-      "to": "Laplace transform",
-      "tofragment": ""
-    },
-    "Lars Hörmander": {
-      "to": "Lars Hörmander",
-      "tofragment": ""
-    },
-    "Least-squares spectral analysis": {
-      "to": "Least-squares spectral analysis",
-      "tofragment": ""
-    },
-    "Lebesgue integrable": {
-      "to": "Lebesgue integral",
-      "tofragment": "Lebesgue integrable"
-    },
-    "Lebesgue integral": {
-      "to": "Lebesgue integral",
-      "tofragment": ""
-    },
-    "Lebesgue-measurable": {
-      "to": "Lebesgue measure",
-      "tofragment": ""
-    },
-    "Lie group": {
-      "to": "Lie group",
-      "tofragment": ""
-    },
-    "Linear algebra": {
-      "to": "Linear algebra",
-      "tofragment": ""
-    },
-    "Linear canonical transform": {
-      "to": "Linear canonical transformation",
-      "tofragment": ""
-    },
-    "Linear canonical transformation": {
-      "to": "Linear canonical transformation",
-      "tofragment": ""
-    },
-    "Linear form": {
-      "to": "Linear form",
-      "tofragment": ""
-    },
-    "List of Fourier-related transforms": {
-      "to": "List of Fourier-related transforms",
-      "tofragment": ""
-    },
-    "Locally compact abelian group": {
-      "to": "Locally compact abelian group",
-      "tofragment": ""
-    },
-    "Locally compact Hausdorff space": {
-      "to": "Locally compact space",
-      "tofragment": ""
-    },
-    "Locally compact space": {
-      "to": "Locally compact space",
-      "tofragment": ""
-    },
-    "Locally integrable": {
-      "to": "Locally integrable function",
-      "tofragment": ""
-    },
-    "Lorentz invariant": {
-      "to": "Lorentz scalar",
-      "tofragment": ""
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
     },
     "Lorentzian function": {
       "to": "Cauchy distribution",
-      "tofragment": "Probability density function (PDF)"
-    },
-    "Low-pass filter": {
-      "to": "Low-pass filter",
-      "tofragment": ""
-    },
-    "Lp space": {
-      "to": "Lp space",
-      "tofragment": ""
-    },
-    "LTI system theory": {
-      "to": "Linear time-invariant system",
-      "tofragment": ""
-    },
-    "Magnetic resonance imaging": {
-      "to": "Magnetic resonance imaging",
-      "tofragment": ""
-    },
-    "Mass spectrometry": {
-      "to": "Mass spectrometry",
-      "tofragment": ""
-    },
-    "Mathematica": {
-      "to": "Wolfram Mathematica",
-      "tofragment": ""
-    },
-    "Mathematics": {
-      "to": "Mathematics",
-      "tofragment": ""
-    },
-    "MathWorld": {
-      "to": "MathWorld",
-      "tofragment": ""
-    },
-    "Matlab": {
-      "to": "MATLAB",
-      "tofragment": ""
-    },
-    "Measurable function": {
-      "to": "Measurable function",
-      "tofragment": ""
-    },
-    "Mehler kernel": {
-      "to": "Mehler kernel",
-      "tofragment": ""
-    },
-    "Mellin transform": {
-      "to": "Mellin transform",
-      "tofragment": ""
-    },
-    "Michail Yulyevich Tseytlin": {
-      "to": "Gradshteyn and Ryzhik",
-      "tofragment": "Tseytlin"
-    },
-    "MIT Press": {
-      "to": "MIT Press",
-      "tofragment": ""
-    },
-    "Moment (mathematics)": {
-      "to": "Moment (mathematics)",
-      "tofragment": ""
-    },
-    "Momentum": {
-      "to": "Momentum",
-      "tofragment": ""
-    },
-    "MR (identifier)": {
-      "to": "Mathematical Reviews",
-      "tofragment": ""
-    },
-    "Multidimensional transform": {
-      "to": "Multidimensional transform",
-      "tofragment": ""
-    },
-    "Multiplier (Fourier analysis)": {
-      "to": "Multiplier (Fourier analysis)",
-      "tofragment": ""
-    },
-    "Multivariate normal distribution": {
-      "to": "Multivariate normal distribution",
-      "tofragment": ""
-    },
-    "Natural number": {
-      "to": "Natural number",
-      "tofragment": ""
-    },
-    "Naum Ya. Vilenkin": {
-      "to": "Naum Yakovlevich Vilenkin",
-      "tofragment": ""
-    },
-    "Negative frequency": {
-      "to": "Negative frequency",
-      "tofragment": ""
-    },
-    "NGC 4622": {
-      "to": "NGC 4622",
-      "tofragment": ""
-    },
-    "Non-commutative harmonic analysis": {
-      "to": "Noncommutative harmonic analysis",
-      "tofragment": ""
-    },
-    "Noncommutative geometry": {
-      "to": "Noncommutative geometry",
-      "tofragment": ""
-    },
-    "Nondimensionalization": {
-      "to": "Nondimensionalization",
-      "tofragment": ""
-    },
-    "Nonlinear optics": {
-      "to": "Nonlinear optics",
-      "tofragment": ""
-    },
-    "Nonlinear partial differential equation": {
-      "to": "Nonlinear partial differential equation",
-      "tofragment": ""
-    },
-    "Nonlocal operator": {
-      "to": "Nonlocal operator",
-      "tofragment": ""
-    },
-    "Norbert Wiener": {
-      "to": "Norbert Wiener",
-      "tofragment": ""
-    },
-    "Normal distribution": {
-      "to": "Normal distribution",
-      "tofragment": ""
-    },
-    "Nuclear magnetic resonance": {
-      "to": "Nuclear magnetic resonance",
-      "tofragment": ""
-    },
-    "Numerical integration": {
-      "to": "Numerical integration",
-      "tofragment": ""
-    },
-    "OCLC (identifier)": {
-      "to": "OCLC",
-      "tofragment": "Identifiers and linked data"
-    },
-    "Operation (mathematics)": {
-      "to": "Operation (mathematics)",
-      "tofragment": ""
-    },
-    "Operator norm": {
-      "to": "Operator norm",
-      "tofragment": ""
-    },
-    "Ordinary differential equation": {
-      "to": "Ordinary differential equation",
-      "tofragment": ""
-    },
-    "Orthonormal": {
-      "to": "Orthonormality",
-      "tofragment": ""
-    },
-    "Overtone": {
-      "to": "Overtone",
-      "tofragment": ""
-    },
-    "Paley–Wiener theorem": {
-      "to": "Paley–Wiener theorem",
-      "tofragment": ""
-    },
-    "Parseval's theorem": {
-      "to": "Parseval's theorem",
-      "tofragment": ""
-    },
-    "Partial differential equation": {
-      "to": "Partial differential equation",
-      "tofragment": ""
+      "tofragment": "Probability density function (PDF)",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
     },
     "Partial differential equations": {
       "to": "Partial differential equation",
-      "tofragment": ""
-    },
-    "Periodic function": {
-      "to": "Periodic function",
-      "tofragment": ""
-    },
-    "Periodic summation": {
-      "to": "Periodic summation",
-      "tofragment": ""
-    },
-    "Peter–Weyl theorem": {
-      "to": "Peter–Weyl theorem",
-      "tofragment": ""
-    },
-    "Phase (waves)": {
-      "to": "Phase (waves)",
-      "tofragment": ""
-    },
-    "Phase offset": {
-      "to": "Phase (waves)",
-      "tofragment": "Phase shift"
-    },
-    "Phase response": {
-      "to": "Phase response",
-      "tofragment": ""
-    },
-    "Phase space": {
-      "to": "Phase space",
-      "tofragment": ""
-    },
-    "Physics": {
-      "to": "Physics",
-      "tofragment": ""
-    },
-    "Piano": {
-      "to": "Piano",
-      "tofragment": ""
-    },
-    "Pitch (music)": {
-      "to": "Pitch (music)",
-      "tofragment": ""
-    },
-    "Plancherel theorem": {
-      "to": "Plancherel theorem",
-      "tofragment": ""
-    },
-    "Planck constant": {
-      "to": "Planck constant",
-      "tofragment": ""
-    },
-    "PMC (identifier)": {
-      "to": "PubMed Central",
-      "tofragment": "PMCID"
-    },
-    "PMID (identifier)": {
-      "to": "PubMed",
-      "tofragment": "PubMed identifier"
-    },
-    "PNAS": {
-      "to": "Proceedings of the National Academy of Sciences of the United States of America",
-      "tofragment": ""
-    },
-    "Poisson summation formula": {
-      "to": "Poisson summation formula",
-      "tofragment": ""
-    },
-    "Polar coordinate": {
-      "to": "Polar coordinate system",
-      "tofragment": ""
-    },
-    "Polynomial": {
-      "to": "Polynomial",
-      "tofragment": ""
-    },
-    "Pontryagin duality": {
-      "to": "Pontryagin duality",
-      "tofragment": ""
-    },
-    "Position operator": {
-      "to": "Position operator",
-      "tofragment": ""
-    },
-    "Princeton University Press": {
-      "to": "Princeton University Press",
-      "tofragment": ""
-    },
-    "Probability density function": {
-      "to": "Probability density function",
-      "tofragment": ""
-    },
-    "Probability distribution": {
-      "to": "Probability distribution",
-      "tofragment": ""
-    },
-    "Probability theory": {
-      "to": "Probability theory",
-      "tofragment": ""
-    },
-    "Quadratic Fourier transform": {
-      "to": "Quadratic Fourier transform",
-      "tofragment": ""
-    },
-    "Quantum field theory": {
-      "to": "Quantum field theory",
-      "tofragment": ""
-    },
-    "Quantum Fourier transform": {
-      "to": "Quantum Fourier transform",
-      "tofragment": ""
-    },
-    "Quantum harmonic oscillator": {
-      "to": "Quantum harmonic oscillator",
-      "tofragment": ""
-    },
-    "Quantum mechanics": {
-      "to": "Quantum mechanics",
-      "tofragment": ""
-    },
-    "Radar": {
-      "to": "Radar",
-      "tofragment": ""
-    },
-    "Radian": {
-      "to": "Radian",
-      "tofragment": ""
-    },
-    "Radon measure": {
-      "to": "Radon measure",
-      "tofragment": ""
-    },
-    "Radon–Nikodym theorem": {
-      "to": "Radon–Nikodym theorem",
-      "tofragment": ""
-    },
-    "Random variable": {
-      "to": "Random variable",
-      "tofragment": ""
-    },
-    "Range of a function": {
-      "to": "Range of a function",
-      "tofragment": ""
-    },
-    "Rapidly decreasing": {
-      "to": "Vanish at infinity",
-      "tofragment": "Rapidly decreasing"
-    },
-    "Raymond Paley": {
-      "to": "Raymond Paley",
-      "tofragment": ""
-    },
-    "Real number": {
-      "to": "Real number",
-      "tofragment": ""
-    },
-    "Rectangular function": {
-      "to": "Rectangular function",
-      "tofragment": ""
-    },
-    "Regularization (mathematics)": {
-      "to": "Regularization (mathematics)",
-      "tofragment": ""
-    },
-    "Relativistic quantum mechanics": {
-      "to": "Relativistic quantum mechanics",
-      "tofragment": ""
-    },
-    "Representation theory": {
-      "to": "Representation theory",
-      "tofragment": ""
-    },
-    "Riemann integral": {
-      "to": "Riemann integral",
-      "tofragment": ""
-    },
-    "Riemann–Lebesgue lemma": {
-      "to": "Riemann–Lebesgue lemma",
-      "tofragment": ""
-    },
-    "Riemann–Stieltjes integral": {
-      "to": "Riemann–Stieltjes integral",
-      "tofragment": ""
-    },
-    "Riesz potential": {
-      "to": "Riesz potential",
-      "tofragment": ""
-    },
-    "Riesz–Markov–Kakutani representation theorem": {
-      "to": "Riesz–Markov–Kakutani representation theorem",
-      "tofragment": ""
-    },
-    "Riesz–Thorin theorem": {
-      "to": "Riesz–Thorin theorem",
-      "tofragment": ""
-    },
-    "Rigged Hilbert space": {
-      "to": "Rigged Hilbert space",
-      "tofragment": ""
-    },
-    "Robert Strichartz": {
-      "to": "Robert Strichartz",
-      "tofragment": ""
-    },
-    "Ronald W. Schafer": {
-      "to": "Ronald W. Schafer",
-      "tofragment": ""
-    },
-    "Root mean square": {
-      "to": "Root mean square",
-      "tofragment": ""
-    },
-    "Rule of thumb": {
-      "to": "Rule of thumb",
-      "tofragment": ""
-    },
-    "S2CID (identifier)": {
-      "to": "Semantic Scholar",
-      "tofragment": "S2CID"
-    },
-    "Salomon Bochner": {
-      "to": "Salomon Bochner",
-      "tofragment": ""
-    },
-    "Schrödinger equation": {
-      "to": "Schrödinger equation",
-      "tofragment": ""
-    },
-    "Schwartz function": {
-      "to": "Schwartz space",
-      "tofragment": ""
-    },
-    "Schwartz functions": {
-      "to": "Schwartz space",
-      "tofragment": ""
-    },
-    "Schwartz space": {
-      "to": "Schwartz space",
-      "tofragment": ""
-    },
-    "Second": {
-      "to": "Second",
-      "tofragment": ""
-    },
-    "Separation of variables": {
-      "to": "Separation of variables",
-      "tofragment": ""
-    },
-    "Sergei Fomin": {
-      "to": "Sergei Fomin",
-      "tofragment": ""
-    },
-    "Short-time Fourier transform": {
-      "to": "Short-time Fourier transform",
-      "tofragment": ""
-    },
-    "SIAM Journal on Scientific Computing": {
-      "to": "SIAM Journal on Scientific Computing",
-      "tofragment": ""
-    },
-    "Sign function": {
-      "to": "Sign function",
-      "tofragment": ""
-    },
-    "Signal processing": {
-      "to": "Signal processing",
-      "tofragment": ""
-    },
-    "Sinc function": {
-      "to": "Sinc function",
-      "tofragment": ""
-    },
-    "Sine and cosine transforms": {
-      "to": "Sine and cosine transforms",
-      "tofragment": ""
-    },
-    "Sine wave": {
-      "to": "Sine wave",
-      "tofragment": ""
-    },
-    "Sinusoid": {
-      "to": "Sine wave",
-      "tofragment": ""
-    },
-    "Sinusoidal plane-wave solutions of the electromagnetic wave equation": {
-      "to": "Sinusoidal plane-wave solutions of the electromagnetic wave equation",
-      "tofragment": ""
-    },
-    "SL2(R)": {
-      "to": "SL2(R)",
-      "tofragment": ""
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Hermite polynomial": {
+      "to": "Hermite polynomials",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Orthonormal": {
+      "to": "Orthonormality",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
     },
     "Solid spherical harmonics": {
       "to": "Solid harmonics",
-      "tofragment": ""
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
     },
-    "Sound": {
-      "to": "Sound",
-      "tofragment": ""
-    },
-    "Sound intensity": {
-      "to": "Sound intensity",
-      "tofragment": ""
-    },
-    "Special linear group": {
-      "to": "Special linear group",
-      "tofragment": ""
-    },
-    "Spectral density": {
-      "to": "Spectral density",
-      "tofragment": ""
-    },
-    "Spectral density estimation": {
-      "to": "Spectral density estimation",
-      "tofragment": ""
-    },
-    "Spectroscopy": {
-      "to": "Spectroscopy",
-      "tofragment": ""
-    },
-    "Springer-Verlag": {
-      "to": "Springer Science+Business Media",
-      "tofragment": "History"
-    },
-    "Square-integrable": {
-      "to": "Square-integrable function",
-      "tofragment": ""
-    },
-    "Square-integrable function": {
-      "to": "Square-integrable function",
-      "tofragment": ""
-    },
-    "Standing wave": {
-      "to": "Standing wave",
-      "tofragment": ""
-    },
-    "Statistics": {
-      "to": "Statistics",
-      "tofragment": ""
-    },
-    "Stephane Mallat": {
-      "to": "Stéphane Mallat",
-      "tofragment": ""
-    },
-    "Stone–von Neumann theorem": {
-      "to": "Stone–von Neumann theorem",
-      "tofragment": ""
-    },
-    "Symbolic integration": {
-      "to": "Symbolic integration",
-      "tofragment": ""
-    },
-    "Symmetry group": {
-      "to": "Symmetry group",
-      "tofragment": ""
-    },
-    "Symmetry in quantum mechanics": {
-      "to": "Symmetry in quantum mechanics",
-      "tofragment": ""
-    },
-    "Symplectic vector space": {
-      "to": "Symplectic vector space",
-      "tofragment": ""
-    },
-    "Tannaka–Krein duality": {
-      "to": "Tannaka–Krein duality",
-      "tofragment": ""
-    },
-    "Taylor series": {
-      "to": "Taylor series",
-      "tofragment": ""
-    },
-    "Tempered distribution": {
-      "to": "Distribution (mathematical analysis)",
-      "tofragment": "Tempered distribution"
-    },
-    "Tempered distributions": {
-      "to": "Distribution (mathematical analysis)",
-      "tofragment": "Tempered distributions"
-    },
-    "Tensor contraction": {
-      "to": "Tensor contraction",
-      "tofragment": ""
-    },
-    "Time domain": {
-      "to": "Time domain",
-      "tofragment": ""
-    },
-    "Time stretch dispersive Fourier transform": {
-      "to": "Time stretch dispersive Fourier transform",
-      "tofragment": ""
-    },
-    "Time–frequency analysis": {
-      "to": "Time–frequency analysis",
-      "tofragment": ""
-    },
-    "Time–frequency domain": {
-      "to": "Time–frequency analysis",
-      "tofragment": ""
-    },
-    "Time–frequency representation": {
-      "to": "Time–frequency representation",
-      "tofragment": ""
-    },
-    "Topological group": {
-      "to": "Topological group",
-      "tofragment": ""
-    },
-    "Transform (mathematics)": {
-      "to": "Transformation (function)",
-      "tofragment": ""
-    },
-    "Transient (acoustics)": {
-      "to": "Transient (acoustics)",
-      "tofragment": ""
-    },
-    "Triangular function": {
-      "to": "Triangular function",
-      "tofragment": ""
-    },
-    "Trigonometric integral": {
-      "to": "Trigonometric integral",
-      "tofragment": ""
-    },
-    "Uncertainty principle": {
-      "to": "Uncertainty principle",
-      "tofragment": ""
-    },
-    "Uniformly continuous": {
-      "to": "Uniform continuity",
-      "tofragment": ""
-    },
-    "Unitary operator": {
-      "to": "Unitary operator",
-      "tofragment": ""
-    },
-    "Unitary representation": {
-      "to": "Unitary representation",
-      "tofragment": ""
-    },
-    "Unitary transformation": {
-      "to": "Unitary transformation",
-      "tofragment": ""
-    },
-    "Vanish at infinity": {
-      "to": "Vanish at infinity",
-      "tofragment": ""
-    },
-    "Vector (mathematics)": {
-      "to": "Vector (mathematics and physics)",
-      "tofragment": ""
-    },
-    "Vector-valued function": {
-      "to": "Vector-valued function",
-      "tofragment": ""
-    },
-    "Victor Hugo Moll": {
-      "to": "Victor Moll",
-      "tofragment": ""
+    "Dimensionless units": {
+      "to": "Dimensionless quantity",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
     },
     "Wadsworth & Brooks/Cole": {
       "to": "Cengage Group",
-      "tofragment": "Brooks/Cole"
+      "tofragment": "Brooks/Cole",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
     },
-    "Wave function": {
-      "to": "Wave function",
-      "tofragment": ""
+    "Discrete Fourier transform (general)": {
+      "to": "Discrete Fourier transform over a ring",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
     },
-    "Wavelength": {
-      "to": "Wavelength",
-      "tofragment": ""
+    "Mass spectrometry": {
+      "to": "Mass spectrometry",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
     },
-    "Wavelet transform": {
-      "to": "Wavelet transform",
-      "tofragment": ""
+    "Autocorrelation": {
+      "to": "Autocorrelation",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
     },
-    "Wavenumber": {
-      "to": "Wavenumber",
-      "tofragment": ""
+    "Standing wave": {
+      "to": "Standing wave",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
     },
-    "Weak limit": {
-      "to": "Weak topology",
-      "tofragment": ""
+    "Rigged Hilbert space": {
+      "to": "Rigged Hilbert space",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Fractional Fourier transform": {
+      "to": "Fractional Fourier transform",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Poisson summation formula": {
+      "to": "Poisson summation formula",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Homogeneous distribution": {
+      "to": "Homogeneous distribution",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "CRC Press": {
+      "to": "CRC Press",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Finite measure": {
+      "to": "Finite measure",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Joseph Fourier": {
+      "to": "Joseph Fourier",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Israel Gelfand": {
+      "to": "Israel Gelfand",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Multiplier (Fourier analysis)": {
+      "to": "Multiplier (Fourier analysis)",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Angular frequency": {
+      "to": "Angular frequency",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Special linear group": {
+      "to": "Special linear group",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Bounded variation": {
+      "to": "Bounded variation",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Statistics": {
+      "to": "Statistics",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Complex conjugate": {
+      "to": "Complex conjugate",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Time domain": {
+      "to": "Time domain",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
     },
     "Weak topology": {
       "to": "Weak topology",
-      "tofragment": ""
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
     },
-    "Wiener–Khinchin theorem": {
-      "to": "Wiener–Khinchin theorem",
-      "tofragment": ""
+    "Envelope (waves)": {
+      "to": "Envelope (waves)",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
     },
-    "William Feller": {
-      "to": "William Feller",
-      "tofragment": ""
+    "Camille Jordan": {
+      "to": "Camille Jordan",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
     },
-    "Without loss of generality": {
-      "to": "Without loss of generality",
-      "tofragment": ""
+    "Phase response": {
+      "to": "Phase response",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
     },
-    "Wolfram Alpha": {
-      "to": "WolframAlpha",
-      "tofragment": ""
+    "Arithmetic mean": {
+      "to": "Arithmetic mean",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Group (mathematics)": {
+      "to": "Group (mathematics)",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Tannaka–Krein duality": {
+      "to": "Tannaka–Krein duality",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Anticausal system": {
+      "to": "Anticausal system",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Regularization (mathematics)": {
+      "to": "Regularization (mathematics)",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Riemann–Lebesgue lemma": {
+      "to": "Riemann–Lebesgue lemma",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Transient (acoustics)": {
+      "to": "Transient (acoustics)",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Unitary representation": {
+      "to": "Unitary representation",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Filter (signal processing)": {
+      "to": "Filter (signal processing)",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Paley–Wiener theorem": {
+      "to": "Paley–Wiener theorem",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Absolute continuity": {
+      "to": "Absolute continuity",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Cauchy's integral theorem": {
+      "to": "Cauchy's integral theorem",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Laplace distribution": {
+      "to": "Laplace distribution",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Planck constant": {
+      "to": "Planck constant",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Hermitian function": {
+      "to": "Hermitian function",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Parseval's theorem": {
+      "to": "Parseval's theorem",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Phase (waves)": {
+      "to": "Phase (waves)",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Quantum mechanics": {
+      "to": "Quantum mechanics",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Eigenvalue": {
+      "to": "Eigenvalues and eigenvectors",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Dirac delta": {
+      "to": "Dirac delta function",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Polar coordinate": {
+      "to": "Polar coordinate system",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Absolutely continuous": {
+      "to": "Absolute continuity",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Eigenfunctions": {
+      "to": "Eigenfunction",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Elias Stein": {
+      "to": "Elias M. Stein",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Springer-Verlag": {
+      "to": "Springer Science+Business Media",
+      "tofragment": "History",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Vector (mathematics)": {
+      "to": "Vector (mathematics and physics)",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Fourier multiplier": {
+      "to": "Multiplier (Fourier analysis)",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Non-commutative harmonic analysis": {
+      "to": "Noncommutative harmonic analysis",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Hirschman uncertainty": {
+      "to": "Entropic uncertainty",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
     },
     "Yuri Veniaminovich Geronimus": {
       "to": "Gradshteyn and Ryzhik",
-      "tofragment": "Geronimus"
+      "tofragment": "Geronimus",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "S2CID (identifier)": {
+      "to": "Semantic Scholar",
+      "tofragment": "S2CID",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "ArXiv (identifier)": {
+      "to": "ArXiv",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Quantum field theory": {
+      "to": "Quantum field theory",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Function (mathematics)": {
+      "to": "Function (mathematics)",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Critical point (mathematics)": {
+      "to": "Critical point (mathematics)",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Nuclear magnetic resonance": {
+      "to": "Nuclear magnetic resonance",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Analytic signal": {
+      "to": "Analytic signal",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Riesz–Thorin theorem": {
+      "to": "Riesz–Thorin theorem",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Multivariate normal distribution": {
+      "to": "Multivariate normal distribution",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Differential entropy": {
+      "to": "Differential entropy",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Journal of Computational Physics": {
+      "to": "Journal of Computational Physics",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Discrete Fourier transform": {
+      "to": "Discrete Fourier transform",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Vector-valued function": {
+      "to": "Vector-valued function",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Pitch (music)": {
+      "to": "Pitch (music)",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Relativistic quantum mechanics": {
+      "to": "Relativistic quantum mechanics",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "G. N. Watson": {
+      "to": "G. N. Watson",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Linear form": {
+      "to": "Linear form",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Inverse Laplace transform": {
+      "to": "Inverse Laplace transform",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Filter (mathematics)": {
+      "to": "Filter (mathematics)",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Bijection, injection and surjection": {
+      "to": "Bijection, injection and surjection",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Image (mathematics)": {
+      "to": "Image (mathematics)",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Graduate Texts in Mathematics": {
+      "to": "Graduate Texts in Mathematics",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Dot product": {
+      "to": "Dot product",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "C major": {
+      "to": "C major",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Heisenberg group": {
+      "to": "Heisenberg group",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Automorphism": {
+      "to": "Automorphism",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Schwartz space": {
+      "to": "Schwartz space",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Heat equation": {
+      "to": "Heat equation",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Uncertainty principle": {
+      "to": "Uncertainty principle",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Dirac measure": {
+      "to": "Dirac measure",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Physics": {
+      "to": "Physics",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Laplace transform": {
+      "to": "Laplace transform",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Raymond Paley": {
+      "to": "Raymond Paley",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Wavenumber": {
+      "to": "Wavenumber",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Multidimensional transform": {
+      "to": "Multidimensional transform",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Compact-open topology": {
+      "to": "Compact-open topology",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Hausdorff space": {
+      "to": "Hausdorff space",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Operation (mathematics)": {
+      "to": "Operation (mathematics)",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Sinusoid": {
+      "to": "Sine wave",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Stephane Mallat": {
+      "to": "Stéphane Mallat",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Gelfand transform": {
+      "to": "Gelfand representation",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Lebesgue-measurable": {
+      "to": "Lebesgue measure",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Linear canonical transform": {
+      "to": "Linear canonical transformation",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Naum Ya. Vilenkin": {
+      "to": "Naum Yakovlevich Vilenkin",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Complex number": {
+      "to": "Complex number",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Magnetic resonance imaging": {
+      "to": "Magnetic resonance imaging",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Chebyshev polynomials": {
+      "to": "Chebyshev polynomials",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "DFT matrix": {
+      "to": "DFT matrix",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Ordinary differential equation": {
+      "to": "Ordinary differential equation",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Convolution": {
+      "to": "Convolution",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Random variable": {
+      "to": "Random variable",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Partial differential equation": {
+      "to": "Partial differential equation",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Riemann–Stieltjes integral": {
+      "to": "Riemann–Stieltjes integral",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Rectangular function": {
+      "to": "Rectangular function",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Measurable function": {
+      "to": "Measurable function",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Integral transform": {
+      "to": "Integral transform",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Complex plane": {
+      "to": "Complex plane",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "American Mathematical Society": {
+      "to": "American Mathematical Society",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Haar measure": {
+      "to": "Haar measure",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Heat transfer": {
+      "to": "Heat transfer",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Frequency": {
+      "to": "Frequency",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Character theory": {
+      "to": "Character theory",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Sinusoidal plane-wave solutions of the electromagnetic wave equation": {
+      "to": "Sinusoidal plane-wave solutions of the electromagnetic wave equation",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Gaussian integral": {
+      "to": "Gaussian integral",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Symplectic vector space": {
+      "to": "Symplectic vector space",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Active and passive transformation": {
+      "to": "Active and passive transformation",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Separation of variables": {
+      "to": "Separation of variables",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Fourier-transform spectroscopy": {
+      "to": "Fourier-transform spectroscopy",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Norbert Wiener": {
+      "to": "Norbert Wiener",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Mathematics": {
+      "to": "Mathematics",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Sign function": {
+      "to": "Sign function",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Abelian group": {
+      "to": "Abelian group",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Continuous wavelet transform": {
+      "to": "Continuous wavelet transform",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Pontryagin duality": {
+      "to": "Pontryagin duality",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Even and odd functions": {
+      "to": "Even and odd functions",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Linear canonical transformation": {
+      "to": "Linear canonical transformation",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Normal distribution": {
+      "to": "Normal distribution",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Improper integral": {
+      "to": "Improper integral",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Guido Weiss": {
+      "to": "Guido Weiss",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Lie group": {
+      "to": "Lie group",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Range of a function": {
+      "to": "Range of a function",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Time stretch dispersive Fourier transform": {
+      "to": "Time stretch dispersive Fourier transform",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Root mean square": {
+      "to": "Root mean square",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Fourier integral operator": {
+      "to": "Fourier integral operator",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Symmetry in quantum mechanics": {
+      "to": "Symmetry in quantum mechanics",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Salomon Bochner": {
+      "to": "Salomon Bochner",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Negative frequency": {
+      "to": "Negative frequency",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Cambridge University Press": {
+      "to": "Cambridge University Press",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Rapidly decreasing": {
+      "to": "Vanish at infinity",
+      "tofragment": "Rapidly decreasing",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Locally integrable": {
+      "to": "Locally integrable function",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Schwartz function": {
+      "to": "Schwartz space",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Schwartz functions": {
+      "to": "Schwartz space",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Michail Yulyevich Tseytlin": {
+      "to": "Gradshteyn and Ryzhik",
+      "tofragment": "Tseytlin",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "LTI system theory": {
+      "to": "Linear time-invariant system",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "PMC (identifier)": {
+      "to": "PubMed Central",
+      "tofragment": "PMCID",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "OCLC (identifier)": {
+      "to": "OCLC",
+      "tofragment": "Identifiers and linked data",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "CiteSeerX (identifier)": {
+      "to": "CiteSeerX",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Indirect Fourier transform": {
+      "to": "Indirect Fourier transformation",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Banach algebra": {
+      "to": "Banach algebra",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Fast Fourier transform": {
+      "to": "Fast Fourier transform",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Hermite polynomials": {
+      "to": "Hermite polynomials",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Involution (mathematics)": {
+      "to": "Involution (mathematics)",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Academic Press": {
+      "to": "Academic Press",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Analog signal processing": {
+      "to": "Analog signal processing",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Holomorphic function": {
+      "to": "Holomorphic function",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Gelfand representation": {
+      "to": "Gelfand representation",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Time–frequency analysis": {
+      "to": "Time–frequency analysis",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Lp space": {
+      "to": "Lp space",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Riesz potential": {
+      "to": "Riesz potential",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Fourier-transform infrared spectroscopy": {
+      "to": "Fourier-transform infrared spectroscopy",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Nondimensionalization": {
+      "to": "Nondimensionalization",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Linear algebra": {
+      "to": "Linear algebra",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Wave function": {
+      "to": "Wave function",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Short-time Fourier transform": {
+      "to": "Short-time Fourier transform",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Derivative": {
+      "to": "Derivative",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Position operator": {
+      "to": "Position operator",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Harmonic analysis": {
+      "to": "Harmonic analysis",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Integer": {
+      "to": "Integer",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Radian": {
+      "to": "Radian",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Amplitude": {
+      "to": "Amplitude",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Triangular function": {
+      "to": "Triangular function",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Radar": {
+      "to": "Radar",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Momentum": {
+      "to": "Momentum",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Harry Dym": {
+      "to": "Harry Dym",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Complex analysis": {
+      "to": "Complex analysis",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Quantum harmonic oscillator": {
+      "to": "Quantum harmonic oscillator",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Spectroscopy": {
+      "to": "Spectroscopy",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Closed-form expression": {
+      "to": "Closed-form expression",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Edward Charles Titchmarsh": {
+      "to": "Edward Charles Titchmarsh",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Sine wave": {
+      "to": "Sine wave",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Imaginary unit": {
+      "to": "Imaginary unit",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Gerald Teschl": {
+      "to": "Gerald Teschl",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Indicator function": {
+      "to": "Indicator function",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Energy": {
+      "to": "Energy",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Bochner's theorem": {
+      "to": "Bochner's theorem",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Wiener–Khinchin theorem": {
+      "to": "Wiener–Khinchin theorem",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Signal processing": {
+      "to": "Signal processing",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Low-pass filter": {
+      "to": "Low-pass filter",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Integers": {
+      "to": "Integer",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Integral kernel": {
+      "to": "Integral transform",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Compact support": {
+      "to": "Support (mathematics)",
+      "tofragment": "Compact support",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Hyperbolic function": {
+      "to": "Hyperbolic functions",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "4-momentum": {
+      "to": "Four-momentum",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Impulse response function": {
+      "to": "Impulse response",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Locally compact Hausdorff space": {
+      "to": "Locally compact space",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Izrail Solomonovich Gradshteyn": {
+      "to": "Gradshteyn and Ryzhik",
+      "tofragment": "Gradshteyn",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "ISSN (identifier)": {
+      "to": "ISSN",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "John Wiley & Sons": {
+      "to": "Wiley (publisher)",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "MR (identifier)": {
+      "to": "Mathematical Reviews",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Euler–Mascheroni constant": {
+      "to": "Euler's constant",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Bulletin of the American Mathematical Society": {
+      "to": "Bulletin of the American Mathematical Society",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Constant-Q transform": {
+      "to": "Constant-Q transform",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Probability theory": {
+      "to": "Probability theory",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Beevers–Lipson strip": {
+      "to": "Beevers–Lipson strip",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Stone–von Neumann theorem": {
+      "to": "Stone–von Neumann theorem",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Analytic function": {
+      "to": "Analytic function",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Gradshteyn and Ryzhik": {
+      "to": "Gradshteyn and Ryzhik",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Nonlinear partial differential equation": {
+      "to": "Nonlinear partial differential equation",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Diffusion": {
+      "to": "Diffusion",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Lars Hörmander": {
+      "to": "Lars Hörmander",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "K. S. Chandrasekharan": {
+      "to": "K. S. Chandrasekharan",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Homogeneous polynomial": {
+      "to": "Homogeneous polynomial",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Periodic summation": {
+      "to": "Periodic summation",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Integral": {
+      "to": "Integral",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Inverse scattering transform": {
+      "to": "Inverse scattering transform",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Sound intensity": {
+      "to": "Sound intensity",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Alexandre Kirillov": {
+      "to": "Alexandre Kirillov",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Andrey Kolmogorov": {
+      "to": "Andrey Kolmogorov",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Ronald W. Schafer": {
+      "to": "Ronald W. Schafer",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Hartley transform": {
+      "to": "Hartley transform",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Radon measure": {
+      "to": "Radon measure",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Wavelet transform": {
+      "to": "Wavelet transform",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Harmonic function": {
+      "to": "Harmonic function",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Conjugate variables": {
+      "to": "Conjugate variables",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Almost everywhere": {
+      "to": "Almost everywhere",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Bessel function": {
+      "to": "Bessel function",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Locally compact space": {
+      "to": "Locally compact space",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Piano": {
+      "to": "Piano",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "SIAM Journal on Scientific Computing": {
+      "to": "SIAM Journal on Scientific Computing",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Bump function": {
+      "to": "Bump function",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Argument of a function": {
+      "to": "Argument of a function",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Discrete-time Fourier transform": {
+      "to": "Discrete-time Fourier transform",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Fourier–Mukai transform": {
+      "to": "Fourier–Mukai transform",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Heaviside step function": {
+      "to": "Heaviside step function",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Probability distribution": {
+      "to": "Probability distribution",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Fundamental frequency": {
+      "to": "Fundamental frequency",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Hilbert space": {
+      "to": "Hilbert space",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Time–frequency representation": {
+      "to": "Time–frequency representation",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "ANOVA": {
+      "to": "Analysis of variance",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Square-integrable": {
+      "to": "Square-integrable function",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Heisenberg uncertainty principle": {
+      "to": "Uncertainty principle",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Clarendon Press": {
+      "to": "Oxford University Press",
+      "tofragment": "Clarendon Press",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Tempered distribution": {
+      "to": "Distribution (mathematical analysis)",
+      "tofragment": "Tempered distribution",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Matlab": {
+      "to": "MATLAB",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "PNAS": {
+      "to": "Proceedings of the National Academy of Sciences of the United States of America",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Fourier sine transform": {
+      "to": "Sine and cosine transforms",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Alternating harmonic series": {
+      "to": "Harmonic series (mathematics)",
+      "tofragment": "Alternating harmonic series",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Hölder conjugate": {
+      "to": "Conjugate index",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Weak limit": {
+      "to": "Weak topology",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Wolfram Alpha": {
+      "to": "WolframAlpha",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Time–frequency domain": {
+      "to": "Time–frequency analysis",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "ISBN (identifier)": {
+      "to": "ISBN",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "PMID (identifier)": {
+      "to": "PubMed",
+      "tofragment": "PubMed identifier",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Doi (identifier)": {
+      "to": "Digital object identifier",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Bibcode (identifier)": {
+      "to": "Bibcode",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Victor Hugo Moll": {
+      "to": "Victor Moll",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Henri Poincaré": {
+      "to": "Henri Poincaré",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Phase space": {
+      "to": "Phase space",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "NGC 4622": {
+      "to": "NGC 4622",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Locally compact abelian group": {
+      "to": "Locally compact abelian group",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Chirplet transform": {
+      "to": "Chirplet transform",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Tensor contraction": {
+      "to": "Tensor contraction",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Constant function": {
+      "to": "Constant function",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "William Feller": {
+      "to": "William Feller",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Chord (music)": {
+      "to": "Chord (music)",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Hilbert–Schmidt operator": {
+      "to": "Hilbert–Schmidt operator",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Sergei Fomin": {
+      "to": "Sergei Fomin",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Functional analysis": {
+      "to": "Functional analysis",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Characteristic function (probability theory)": {
+      "to": "Characteristic function (probability theory)",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Airy disk": {
+      "to": "Airy disk",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Sine and cosine transforms": {
+      "to": "Sine and cosine transforms",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Generalized function": {
+      "to": "Generalized function",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Unitary transformation": {
+      "to": "Unitary transformation",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Plancherel theorem": {
+      "to": "Plancherel theorem",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Bounded operator": {
+      "to": "Bounded operator",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Dual space": {
+      "to": "Dual space",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Frequency response": {
+      "to": "Frequency response",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Trigonometric integral": {
+      "to": "Trigonometric integral",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "SL2(R)": {
+      "to": "SL2(R)",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Quantum Fourier transform": {
+      "to": "Quantum Fourier transform",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Radon–Nikodym theorem": {
+      "to": "Radon–Nikodym theorem",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Dover Publications": {
+      "to": "Dover Publications",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Entire function": {
+      "to": "Entire function",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Riesz–Markov–Kakutani representation theorem": {
+      "to": "Riesz–Markov–Kakutani representation theorem",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Constant (mathematics)": {
+      "to": "Constant (mathematics)",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Second": {
+      "to": "Second",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "List of Fourier-related transforms": {
+      "to": "List of Fourier-related transforms",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Schrödinger equation": {
+      "to": "Schrödinger equation",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Complex function": {
+      "to": "Complex analysis",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Tempered distributions": {
+      "to": "Distribution (mathematical analysis)",
+      "tofragment": "Tempered distributions",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Lebesgue integrable": {
+      "to": "Lebesgue integral",
+      "tofragment": "Lebesgue integrable",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Phase offset": {
+      "to": "Phase (waves)",
+      "tofragment": "Phase shift",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Complementary variables": {
+      "to": "Complementarity (physics)",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Arg (mathematics)": {
+      "to": "Argument (complex analysis)",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Bochner–Minlos theorem": {
+      "to": "Nuclear space",
+      "tofragment": "Bochner–Minlos theorem",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Mathematica": {
+      "to": "Wolfram Mathematica",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Taylor series": {
+      "to": "Taylor series",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Least-squares spectral analysis": {
+      "to": "Least-squares spectral analysis",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Topological group": {
+      "to": "Topological group",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "DC bias": {
+      "to": "DC bias",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Absolutely integrable function": {
+      "to": "Absolutely integrable function",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "E. T. Whittaker": {
+      "to": "E. T. Whittaker",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Circle group": {
+      "to": "Circle group",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Quadratic Fourier transform": {
+      "to": "Quadratic Fourier transform",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Euler's formula": {
+      "to": "Euler's formula",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Function space": {
+      "to": "Function space",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Impulse response": {
+      "to": "Impulse response",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Sound": {
+      "to": "Sound",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Rule of thumb": {
+      "to": "Rule of thumb",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Gaussian function": {
+      "to": "Gaussian function",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Numerical integration": {
+      "to": "Numerical integration",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Compact space": {
+      "to": "Compact space",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Hankel transform": {
+      "to": "Hankel transform",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Lebesgue integral": {
+      "to": "Lebesgue integral",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Hausdorff–Young inequality": {
+      "to": "Hausdorff–Young inequality",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Overtone": {
+      "to": "Overtone",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Nonlocal operator": {
+      "to": "Nonlocal operator",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Dirac delta function": {
+      "to": "Dirac delta function",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Cauchy principal value": {
+      "to": "Cauchy principal value",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Noncommutative geometry": {
+      "to": "Noncommutative geometry",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "If and only if": {
+      "to": "If and only if",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Natural number": {
+      "to": "Natural number",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Convergence of Fourier series": {
+      "to": "Convergence of Fourier series",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Riemann integral": {
+      "to": "Riemann integral",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Mehler kernel": {
+      "to": "Mehler kernel",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Fourier transform on finite groups": {
+      "to": "Fourier transform on finite groups",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Robert Strichartz": {
+      "to": "Robert Strichartz",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Unitary operator": {
+      "to": "Unitary operator",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Cyclic group": {
+      "to": "Cyclic group",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Eigenfunction": {
+      "to": "Eigenfunction",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Alan V. Oppenheim": {
+      "to": "Alan V. Oppenheim",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Hertz": {
+      "to": "Hertz",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Sinc function": {
+      "to": "Sinc function",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Square-integrable function": {
+      "to": "Square-integrable function",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Wavelength": {
+      "to": "Wavelength",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Polynomial": {
+      "to": "Polynomial",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Fourier analysis": {
+      "to": "Fourier analysis",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Periodic function": {
+      "to": "Periodic function",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Injective": {
+      "to": "Injective function",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Complex conjugation": {
+      "to": "Complex conjugate",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Lorentz invariant": {
+      "to": "Lorentz scalar",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "DC component": {
+      "to": "DC bias",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Transform (mathematics)": {
+      "to": "Transformation (function)",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Iosif Moiseevich Ryzhik": {
+      "to": "Gradshteyn and Ryzhik",
+      "tofragment": "Ryzhik",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Distribution (mathematics)": {
+      "to": "Distribution (mathematical analysis)",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Symbolic integration": {
+      "to": "Symbolic integration",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Edward Condon": {
+      "to": "Edward Condon",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Cross-correlation": {
+      "to": "Cross-correlation",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Fourier–Deligne transform": {
+      "to": "Fourier–Deligne transform",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Equivalence class": {
+      "to": "Equivalence class",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Kōsaku Yosida": {
+      "to": "Kōsaku Yosida",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Electrical engineering": {
+      "to": "Electrical engineering",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Moment (mathematics)": {
+      "to": "Moment (mathematics)",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Change of basis": {
+      "to": "Change of basis",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Euclidean space": {
+      "to": "Euclidean space",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Character group": {
+      "to": "Character group",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Princeton University Press": {
+      "to": "Princeton University Press",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Eric W. Weisstein": {
+      "to": "Eric W. Weisstein",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Absolute value": {
+      "to": "Absolute value",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Fourier extension operator": {
+      "to": "Fourier extension operator",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Borel measure": {
+      "to": "Borel measure",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "MathWorld": {
+      "to": "MathWorld",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Fourier series": {
+      "to": "Fourier series",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Without loss of generality": {
+      "to": "Without loss of generality",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Peter–Weyl theorem": {
+      "to": "Peter–Weyl theorem",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Symmetry group": {
+      "to": "Symmetry group",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Spectral density estimation": {
+      "to": "Spectral density estimation",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Mellin transform": {
+      "to": "Mellin transform",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "MIT Press": {
+      "to": "MIT Press",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Spectral density": {
+      "to": "Spectral density",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Dini test": {
+      "to": "Dini test",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Frequency domain": {
+      "to": "Frequency domain",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Nonlinear optics": {
+      "to": "Nonlinear optics",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Dimitris Manolakis": {
+      "to": "Dimitris Manolakis",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Convolution theorem": {
+      "to": "Convolution theorem",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Dirac comb": {
+      "to": "Dirac comb",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Operator norm": {
+      "to": "Operator norm",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Probability density function": {
+      "to": "Probability density function",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Real number": {
+      "to": "Real number",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Hilbert transform": {
+      "to": "Hilbert transform",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Charles Fefferman": {
+      "to": "Charles Fefferman",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Fourier inversion theorem": {
+      "to": "Fourier inversion theorem",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "A Course of Modern Analysis": {
+      "to": "A Course of Modern Analysis",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Vanish at infinity": {
+      "to": "Vanish at infinity",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Representation theory": {
+      "to": "Representation theory",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
+    },
+    "Differential equation": {
+      "to": "Differential equation",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:28.002045+00:00"
     }
   }
 }

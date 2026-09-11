@@ -1,1 +1,1 @@
-rotation formalisms in three dimensions.md
+rotation formulations in three dimensions.md

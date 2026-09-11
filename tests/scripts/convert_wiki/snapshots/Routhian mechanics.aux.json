@@ -1,834 +1,1786 @@
 {
-  "redirect_cache": {
-    "SI units": {
-      "to": "International System of Units",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
+  "api_responses": [
+    {
+      "batchcomplete": true,
+      "query": {
+        "redirects": [
+          {
+            "from": "Gravitational potential energy",
+            "to": "Gravitational energy"
+          },
+          {
+            "from": "ISSN (identifier)",
+            "to": "ISSN"
+          },
+          {
+            "from": "Mechanical power (physics)",
+            "to": "Power (physics)",
+            "tofragment": "Mechanical power"
+          }
+        ],
+        "pages": [
+          {
+            "ns": 0,
+            "title": "Edit section: Two degrees of freedom",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: Examples",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: Cyclic coordinates",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: References",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: Equations of motion",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: Classical charged particle in a uniform magnetic field",
+            "missing": true
+          },
+          {
+            "pageid": 2443,
+            "ns": 0,
+            "title": "Acceleration"
+          },
+          {
+            "pageid": 7534,
+            "ns": 0,
+            "title": "Centripetal force"
+          },
+          {
+            "pageid": 9804,
+            "ns": 0,
+            "title": "Electric charge"
+          },
+          {
+            "pageid": 10902,
+            "ns": 0,
+            "title": "Force"
+          },
+          {
+            "pageid": 13899,
+            "ns": 0,
+            "title": "Harmonic oscillator"
+          },
+          {
+            "pageid": 14909,
+            "ns": 0,
+            "title": "Inertia"
+          },
+          {
+            "pageid": 15942,
+            "ns": 0,
+            "title": "John von Neumann"
+          },
+          {
+            "pageid": 19048,
+            "ns": 0,
+            "title": "Mass"
+          },
+          {
+            "pageid": 23703,
+            "ns": 0,
+            "title": "Potential energy"
+          },
+          {
+            "pageid": 24236,
+            "ns": 0,
+            "title": "Power (physics)"
+          },
+          {
+            "pageid": 28481,
+            "ns": 0,
+            "title": "Statistical mechanics"
+          },
+          {
+            "pageid": 41092,
+            "ns": 0,
+            "title": "Electric field"
+          },
+          {
+            "pageid": 42127,
+            "ns": 0,
+            "title": "Christiaan Huygens"
+          },
+          {
+            "pageid": 46784,
+            "ns": 0,
+            "title": "Daniel Bernoulli"
+          },
+          {
+            "pageid": 65913,
+            "ns": 0,
+            "title": "Equations of motion"
+          },
+          {
+            "pageid": 65927,
+            "ns": 0,
+            "title": "Angular velocity"
+          },
+          {
+            "pageid": 74263,
+            "ns": 0,
+            "title": "Frame of reference"
+          },
+          {
+            "pageid": 102182,
+            "ns": 0,
+            "title": "Celestial mechanics"
+          },
+          {
+            "pageid": 132729,
+            "ns": 0,
+            "title": "Tuple"
+          },
+          {
+            "pageid": 185427,
+            "ns": 0,
+            "title": "Function (mathematics)"
+          },
+          {
+            "pageid": 191101,
+            "ns": 0,
+            "title": "Phase space"
+          },
+          {
+            "pageid": 198319,
+            "ns": 0,
+            "title": "Hamiltonian mechanics"
+          },
+          {
+            "pageid": 199829,
+            "ns": 0,
+            "title": "Angular frequency"
+          },
+          {
+            "pageid": 234930,
+            "ns": 0,
+            "title": "ISSN"
+          },
+          {
+            "pageid": 248988,
+            "ns": 0,
+            "title": "Product rule"
+          },
+          {
+            "pageid": 278366,
+            "ns": 0,
+            "title": "Moment (physics)"
+          },
+          {
+            "pageid": 341810,
+            "ns": 0,
+            "title": "Joseph Liouville"
+          },
+          {
+            "pageid": 473514,
+            "ns": 0,
+            "title": "Generalized coordinates"
+          },
+          {
+            "pageid": 473596,
+            "ns": 0,
+            "title": "Configuration space (physics)"
+          },
+          {
+            "pageid": 499429,
+            "ns": 0,
+            "title": "D'Alembert's principle"
+          },
+          {
+            "pageid": 1744868,
+            "ns": 0,
+            "title": "Damping"
+          },
+          {
+            "pageid": 2023218,
+            "ns": 0,
+            "title": "Bernard Koopman"
+          },
+          {
+            "pageid": 3096395,
+            "ns": 0,
+            "title": "Rotation around a fixed axis"
+          },
+          {
+            "pageid": 3114255,
+            "ns": 0,
+            "title": "History of classical mechanics"
+          },
+          {
+            "pageid": 4413754,
+            "ns": 0,
+            "title": "Gravitational energy"
+          },
+          {
+            "pageid": 4946686,
+            "ns": 0,
+            "title": "Relative velocity"
+          },
+          {
+            "pageid": 11717900,
+            "ns": 0,
+            "title": "Appell's equation of motion"
+          },
+          {
+            "pageid": 16652317,
+            "ns": 0,
+            "title": "Linear motion"
+          },
+          {
+            "pageid": 17593800,
+            "ns": 0,
+            "title": "Kinetics (physics)"
+          },
+          {
+            "pageid": 19555586,
+            "ns": 0,
+            "title": "Classical mechanics"
+          },
+          {
+            "pageid": 23997203,
+            "ns": 0,
+            "title": "Differential of a function"
+          },
+          {
+            "pageid": 36402903,
+            "ns": 0,
+            "title": "Tangential speed"
+          },
+          {
+            "pageid": 36858805,
+            "ns": 0,
+            "title": "Edmond Halley"
+          },
+          {
+            "pageid": 37704906,
+            "ns": 0,
+            "title": "Koopman–von Neumann classical mechanics"
+          }
+        ]
+      }
     },
+    {
+      "batchcomplete": true,
+      "query": {
+        "redirects": [
+          {
+            "from": "Edward John Routh",
+            "to": "Edward Routh"
+          },
+          {
+            "from": "L. D. Landau",
+            "to": "Lev Landau"
+          },
+          {
+            "from": "Central potential",
+            "to": "Central force"
+          },
+          {
+            "from": "Rigid body mechanics",
+            "to": "Rigid body dynamics"
+          },
+          {
+            "from": "Pendulum equation",
+            "to": "Pendulum (mechanics)"
+          },
+          {
+            "from": "ISBN (identifier)",
+            "to": "ISBN"
+          },
+          {
+            "from": "Doi (identifier)",
+            "to": "Digital object identifier"
+          }
+        ],
+        "pages": [
+          {
+            "ns": 0,
+            "title": "Edit section: See also",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: Spherical pendulum",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: Velocity-dependent potentials",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: Footnotes",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: Any number of degrees of freedom",
+            "missing": true
+          },
+          {
+            "pageid": 1842,
+            "ns": 0,
+            "title": "Augustin-Louis Cauchy"
+          },
+          {
+            "pageid": 2839,
+            "ns": 0,
+            "title": "Angular momentum"
+          },
+          {
+            "pageid": 11062,
+            "ns": 0,
+            "title": "Friction"
+          },
+          {
+            "pageid": 14919,
+            "ns": 0,
+            "title": "ISBN"
+          },
+          {
+            "pageid": 15736,
+            "ns": 0,
+            "title": "Johannes Kepler"
+          },
+          {
+            "pageid": 17327,
+            "ns": 0,
+            "title": "Kinetic energy"
+          },
+          {
+            "pageid": 20580,
+            "ns": 0,
+            "title": "Motion"
+          },
+          {
+            "pageid": 28437,
+            "ns": 0,
+            "title": "Simple harmonic motion"
+          },
+          {
+            "pageid": 28767,
+            "ns": 0,
+            "title": "Statics"
+          },
+          {
+            "pageid": 39817,
+            "ns": 0,
+            "title": "William Rowan Hamilton"
+          },
+          {
+            "pageid": 44670,
+            "ns": 0,
+            "title": "Siméon Denis Poisson"
+          },
+          {
+            "pageid": 52565,
+            "ns": 0,
+            "title": "Partial derivative"
+          },
+          {
+            "pageid": 55212,
+            "ns": 0,
+            "title": "Newton's laws of motion"
+          },
+          {
+            "pageid": 58764,
+            "ns": 0,
+            "title": "Timeline of classical mechanics"
+          },
+          {
+            "pageid": 65914,
+            "ns": 0,
+            "title": "Kinematics"
+          },
+          {
+            "pageid": 65926,
+            "ns": 0,
+            "title": "Angular displacement"
+          },
+          {
+            "pageid": 65929,
+            "ns": 0,
+            "title": "Angular acceleration"
+          },
+          {
+            "pageid": 80322,
+            "ns": 0,
+            "title": "Lev Landau"
+          },
+          {
+            "pageid": 87793,
+            "ns": 0,
+            "title": "Joseph-Louis Lagrange"
+          },
+          {
+            "pageid": 157093,
+            "ns": 0,
+            "title": "Dot product"
+          },
+          {
+            "pageid": 157700,
+            "ns": 0,
+            "title": "Moment of inertia"
+          },
+          {
+            "pageid": 226020,
+            "ns": 0,
+            "title": "Dynamics (mechanics)"
+          },
+          {
+            "pageid": 268886,
+            "ns": 0,
+            "title": "Johann Bernoulli"
+          },
+          {
+            "pageid": 390273,
+            "ns": 0,
+            "title": "Legendre transformation"
+          },
+          {
+            "pageid": 422994,
+            "ns": 0,
+            "title": "Digital object identifier"
+          },
+          {
+            "pageid": 455769,
+            "ns": 0,
+            "title": "Rigid body"
+          },
+          {
+            "pageid": 481856,
+            "ns": 0,
+            "title": "Rigid body dynamics"
+          },
+          {
+            "pageid": 898792,
+            "ns": 0,
+            "title": "Euler's equations (rigid body dynamics)"
+          },
+          {
+            "pageid": 1191067,
+            "ns": 0,
+            "title": "Magnetic vector potential"
+          },
+          {
+            "pageid": 1209823,
+            "ns": 0,
+            "title": "Rotating reference frame"
+          },
+          {
+            "pageid": 1211986,
+            "ns": 0,
+            "title": "Virtual work"
+          },
+          {
+            "pageid": 1783069,
+            "ns": 0,
+            "title": "Time derivative"
+          },
+          {
+            "pageid": 1888817,
+            "ns": 0,
+            "title": "Central force"
+          },
+          {
+            "pageid": 2233179,
+            "ns": 0,
+            "title": "Edward Routh"
+          },
+          {
+            "pageid": 2342319,
+            "ns": 0,
+            "title": "Herbert Goldstein"
+          },
+          {
+            "pageid": 2434557,
+            "ns": 0,
+            "title": "Non-inertial reference frame"
+          },
+          {
+            "pageid": 4562815,
+            "ns": 0,
+            "title": "Applied mechanics"
+          },
+          {
+            "pageid": 5937299,
+            "ns": 0,
+            "title": "Pendulum (mechanics)"
+          },
+          {
+            "pageid": 19265670,
+            "ns": 0,
+            "title": "Centrifugal force"
+          },
+          {
+            "pageid": 20646772,
+            "ns": 0,
+            "title": "Vibration"
+          },
+          {
+            "pageid": 22222481,
+            "ns": 0,
+            "title": "Euler's laws of motion"
+          },
+          {
+            "pageid": 29688374,
+            "ns": 0,
+            "title": "Galileo Galilei"
+          },
+          {
+            "pageid": 32742753,
+            "ns": 0,
+            "title": "Ordinary differential equation"
+          },
+          {
+            "pageid": 61276647,
+            "ns": 0,
+            "title": "List of textbooks on classical mechanics and quantum mechanics"
+          }
+        ]
+      }
+    },
+    {
+      "batchcomplete": true,
+      "query": {
+        "redirects": [
+          {
+            "from": "SI units",
+            "to": "International System of Units"
+          },
+          {
+            "from": "Cylindrical coordinates",
+            "to": "Cylindrical coordinate system"
+          },
+          {
+            "from": "Euler-Lagrange",
+            "to": "Euler–Lagrange equation"
+          },
+          {
+            "from": "Jean le Rond d'Alembert",
+            "to": "Jean Le Rond d'Alembert"
+          },
+          {
+            "from": "E. M. Lifshitz",
+            "to": "Evgeny Lifshitz"
+          },
+          {
+            "from": "Hamiltonian function",
+            "to": "Hamiltonian mechanics",
+            "tofragment": "Mathematical formalism"
+          },
+          {
+            "from": "Second law of motion",
+            "to": "Newton's laws of motion",
+            "tofragment": "Second law"
+          },
+          {
+            "from": "Lagrange's equation",
+            "to": "Euler–Lagrange equation"
+          },
+          {
+            "from": "Moments of inertia",
+            "to": "Moment of inertia"
+          },
+          {
+            "from": "Cyclic coordinates",
+            "to": "Lagrangian mechanics"
+          },
+          {
+            "from": "Symmetrical top",
+            "to": "Moment of inertia",
+            "tofragment": "Principal axes"
+          },
+          {
+            "from": "Course of theoretical physics",
+            "to": "Course of Theoretical Physics"
+          },
+          {
+            "from": "Classical Mechanics (Goldstein book)",
+            "to": "Classical Mechanics (Goldstein)"
+          }
+        ],
+        "pages": [
+          {
+            "ns": 0,
+            "title": "Edit section: Heavy symmetrical top",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: Energy",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: Notes",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: Definitions",
+            "missing": true
+          },
+          {
+            "pageid": 5918,
+            "ns": 0,
+            "title": "Continuum mechanics"
+          },
+          {
+            "pageid": 9735,
+            "ns": 0,
+            "title": "Electromagnetic field"
+          },
+          {
+            "pageid": 14627,
+            "ns": 0,
+            "title": "Isaac Newton"
+          },
+          {
+            "pageid": 16327,
+            "ns": 0,
+            "title": "Joule"
+          },
+          {
+            "pageid": 17902,
+            "ns": 0,
+            "title": "Leonhard Euler"
+          },
+          {
+            "pageid": 20431,
+            "ns": 0,
+            "title": "Momentum"
+          },
+          {
+            "pageid": 26764,
+            "ns": 0,
+            "title": "International System of Units"
+          },
+          {
+            "pageid": 27667,
+            "ns": 0,
+            "title": "Space"
+          },
+          {
+            "pageid": 28748,
+            "ns": 0,
+            "title": "Speed"
+          },
+          {
+            "pageid": 30012,
+            "ns": 0,
+            "title": "Time"
+          },
+          {
+            "pageid": 30400,
+            "ns": 0,
+            "title": "Torque"
+          },
+          {
+            "pageid": 36563,
+            "ns": 0,
+            "title": "Magnetic field"
+          },
+          {
+            "pageid": 37332,
+            "ns": 0,
+            "title": "Josiah Willard Gibbs"
+          },
+          {
+            "pageid": 51182,
+            "ns": 0,
+            "title": "Jean Le Rond d'Alembert"
+          },
+          {
+            "pageid": 55212,
+            "ns": 0,
+            "title": "Newton's laws of motion"
+          },
+          {
+            "pageid": 59615,
+            "ns": 0,
+            "title": "Electric potential"
+          },
+          {
+            "pageid": 149861,
+            "ns": 0,
+            "title": "Work (physics)"
+          },
+          {
+            "pageid": 157700,
+            "ns": 0,
+            "title": "Moment of inertia"
+          },
+          {
+            "pageid": 171882,
+            "ns": 0,
+            "title": "Calculus of variations"
+          },
+          {
+            "pageid": 176733,
+            "ns": 0,
+            "title": "Cylindrical coordinate system"
+          },
+          {
+            "pageid": 196273,
+            "ns": 0,
+            "title": "Alexis Clairaut"
+          },
+          {
+            "pageid": 198319,
+            "ns": 0,
+            "title": "Hamiltonian mechanics"
+          },
+          {
+            "pageid": 211922,
+            "ns": 0,
+            "title": "Impulse (physics)"
+          },
+          {
+            "pageid": 244611,
+            "ns": 0,
+            "title": "Newton's law of universal gravitation"
+          },
+          {
+            "pageid": 294995,
+            "ns": 0,
+            "title": "Euler–Lagrange equation"
+          },
+          {
+            "pageid": 344783,
+            "ns": 0,
+            "title": "Pierre-Simon Laplace"
+          },
+          {
+            "pageid": 411492,
+            "ns": 0,
+            "title": "Euler angles"
+          },
+          {
+            "pageid": 428513,
+            "ns": 0,
+            "title": "Many-body problem"
+          },
+          {
+            "pageid": 481856,
+            "ns": 0,
+            "title": "Rigid body dynamics"
+          },
+          {
+            "pageid": 574544,
+            "ns": 0,
+            "title": "Circular motion"
+          },
+          {
+            "pageid": 684207,
+            "ns": 0,
+            "title": "Helicoid"
+          },
+          {
+            "pageid": 689767,
+            "ns": 0,
+            "title": "Spherical pendulum"
+          },
+          {
+            "pageid": 713353,
+            "ns": 0,
+            "title": "Evgeny Lifshitz"
+          },
+          {
+            "pageid": 813086,
+            "ns": 0,
+            "title": "Rotational frequency"
+          },
+          {
+            "pageid": 1082841,
+            "ns": 0,
+            "title": "Fictitious force"
+          },
+          {
+            "pageid": 1293340,
+            "ns": 0,
+            "title": "Classical field theory"
+          },
+          {
+            "pageid": 3359510,
+            "ns": 0,
+            "title": "Paul Émile Appell"
+          },
+          {
+            "pageid": 16795124,
+            "ns": 0,
+            "title": "Classical Mechanics (Goldstein)"
+          },
+          {
+            "pageid": 17137358,
+            "ns": 0,
+            "title": "Reactive centrifugal force"
+          },
+          {
+            "pageid": 20491903,
+            "ns": 0,
+            "title": "Velocity"
+          },
+          {
+            "pageid": 23371726,
+            "ns": 0,
+            "title": "Lagrangian mechanics"
+          },
+          {
+            "pageid": 25975488,
+            "ns": 0,
+            "title": "Course of Theoretical Physics"
+          },
+          {
+            "pageid": 26998547,
+            "ns": 0,
+            "title": "Degrees of freedom (physics and chemistry)"
+          }
+        ]
+      }
+    },
+    {
+      "batchcomplete": true,
+      "query": {
+        "redirects": [
+          {
+            "from": "Initial conditions",
+            "to": "Initial condition"
+          },
+          {
+            "from": "Spherical polar coordinates",
+            "to": "Spherical coordinate system"
+          }
+        ],
+        "pages": [
+          {
+            "ns": 0,
+            "title": "Edit section: Symmetric mechanical systems",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: Central potential in spherical coordinates",
+            "missing": true
+          },
+          {
+            "pageid": 7783,
+            "ns": 0,
+            "title": "Coriolis force"
+          },
+          {
+            "pageid": 9649,
+            "ns": 0,
+            "title": "Energy"
+          },
+          {
+            "pageid": 14838,
+            "ns": 0,
+            "title": "Inertial frame of reference"
+          },
+          {
+            "pageid": 29181,
+            "ns": 0,
+            "title": "Spherical coordinate system"
+          },
+          {
+            "pageid": 196221,
+            "ns": 0,
+            "title": "Pierre Louis Maupertuis"
+          },
+          {
+            "pageid": 210340,
+            "ns": 0,
+            "title": "Carl Gustav Jacob Jacobi"
+          },
+          {
+            "pageid": 352541,
+            "ns": 0,
+            "title": "Charged particle"
+          },
+          {
+            "pageid": 454450,
+            "ns": 0,
+            "title": "Analytical mechanics"
+          },
+          {
+            "pageid": 859275,
+            "ns": 0,
+            "title": "Displacement (geometry)"
+          },
+          {
+            "pageid": 897539,
+            "ns": 0,
+            "title": "Hamilton–Jacobi equation"
+          },
+          {
+            "pageid": 1186804,
+            "ns": 0,
+            "title": "Initial condition"
+          },
+          {
+            "pageid": 2233179,
+            "ns": 0,
+            "title": "Edward Routh"
+          },
+          {
+            "pageid": 7885048,
+            "ns": 0,
+            "title": "Couple (mechanics)"
+          },
+          {
+            "pageid": 20012466,
+            "ns": 0,
+            "title": "Jeremiah Horrocks"
+          }
+        ]
+      }
+    }
+  ],
+  "redirect_cache": {
     "Gravitational potential energy": {
       "to": "Gravitational energy",
       "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Hamiltonian function": {
-      "to": "Hamiltonian mechanics",
-      "tofragment": "Mathematical formalism",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Lagrange's equation": {
-      "to": "Euler–Lagrange equation",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Spherical polar coordinates": {
-      "to": "Spherical coordinate system",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Symmetrical top": {
-      "to": "Moment of inertia",
-      "tofragment": "Principal axes",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Course of theoretical physics": {
-      "to": "Course of Theoretical Physics",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Rigid body mechanics": {
-      "to": "Rigid body dynamics",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Angular displacement": {
-      "to": "Angular displacement",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Time derivative": {
-      "to": "Time derivative",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Partial derivative": {
-      "to": "Partial derivative",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Newton's laws of motion": {
-      "to": "Newton's laws of motion",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Edmond Halley": {
-      "to": "Edmond Halley",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Christiaan Huygens": {
-      "to": "Christiaan Huygens",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Kinetics (physics)": {
-      "to": "Kinetics (physics)",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Displacement (geometry)": {
-      "to": "Displacement (geometry)",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Velocity": {
-      "to": "Velocity",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Non-inertial reference frame": {
-      "to": "Non-inertial reference frame",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Equations of motion": {
-      "to": "Equations of motion",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Electromagnetic field": {
-      "to": "Electromagnetic field",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Centripetal force": {
-      "to": "Centripetal force",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Relative velocity": {
-      "to": "Relative velocity",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Simple harmonic motion": {
-      "to": "Simple harmonic motion",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Joule": {
-      "to": "Joule",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Acceleration": {
-      "to": "Acceleration",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Dot product": {
-      "to": "Dot product",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Impulse (physics)": {
-      "to": "Impulse (physics)",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Galileo Galilei": {
-      "to": "Galileo Galilei",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "William Rowan Hamilton": {
-      "to": "William Rowan Hamilton",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Johann Bernoulli": {
-      "to": "Johann Bernoulli",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Josiah Willard Gibbs": {
-      "to": "Josiah Willard Gibbs",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Isaac Newton": {
-      "to": "Isaac Newton",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Speed": {
-      "to": "Speed",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Appell's equation of motion": {
-      "to": "Appell's equation of motion",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Centrifugal force": {
-      "to": "Centrifugal force",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Rigid body": {
-      "to": "Rigid body",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Electric charge": {
-      "to": "Electric charge",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Ordinary differential equation": {
-      "to": "Ordinary differential equation",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Paul Émile Appell": {
-      "to": "Paul Émile Appell",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Electric field": {
-      "to": "Electric field",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Augustin-Louis Cauchy": {
-      "to": "Augustin-Louis Cauchy",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Moment (physics)": {
-      "to": "Moment (physics)",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Tangential speed": {
-      "to": "Tangential speed",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Siméon Denis Poisson": {
-      "to": "Siméon Denis Poisson",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Continuum mechanics": {
-      "to": "Continuum mechanics",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Applied mechanics": {
-      "to": "Applied mechanics",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Rigid body dynamics": {
-      "to": "Rigid body dynamics",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Johannes Kepler": {
-      "to": "Johannes Kepler",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Edward Routh": {
-      "to": "Edward Routh",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Reactive centrifugal force": {
-      "to": "Reactive centrifugal force",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Cylindrical coordinates": {
-      "to": "Cylindrical coordinate system",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Jean le Rond d'Alembert": {
-      "to": "Jean Le Rond d'Alembert",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Initial conditions": {
-      "to": "Initial condition",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Central potential": {
-      "to": "Central force",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Pendulum equation": {
-      "to": "Pendulum (mechanics)",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Legendre transformation": {
-      "to": "Legendre transformation",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Vibration": {
-      "to": "Vibration",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Angular frequency": {
-      "to": "Angular frequency",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Timeline of classical mechanics": {
-      "to": "Timeline of classical mechanics",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "History of classical mechanics": {
-      "to": "History of classical mechanics",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Potential energy": {
-      "to": "Potential energy",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Frame of reference": {
-      "to": "Frame of reference",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Daniel Bernoulli": {
-      "to": "Daniel Bernoulli",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Hamiltonian mechanics": {
-      "to": "Hamiltonian mechanics",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Angular momentum": {
-      "to": "Angular momentum",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Configuration space (physics)": {
-      "to": "Configuration space (physics)",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Pendulum (mechanics)": {
-      "to": "Pendulum (mechanics)",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Hamilton–Jacobi equation": {
-      "to": "Hamilton–Jacobi equation",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Bernard Koopman": {
-      "to": "Bernard Koopman",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Mass": {
-      "to": "Mass",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Carl Gustav Jacob Jacobi": {
-      "to": "Carl Gustav Jacob Jacobi",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Tuple": {
-      "to": "Tuple",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Virtual work": {
-      "to": "Virtual work",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Kinematics": {
-      "to": "Kinematics",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Degrees of freedom (physics and chemistry)": {
-      "to": "Degrees of freedom (physics and chemistry)",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Damping": {
-      "to": "Damping",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Phase space": {
-      "to": "Phase space",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Euler's equations (rigid body dynamics)": {
-      "to": "Euler's equations (rigid body dynamics)",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Pierre-Simon Laplace": {
-      "to": "Pierre-Simon Laplace",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Classical field theory": {
-      "to": "Classical field theory",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Friction": {
-      "to": "Friction",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Generalized coordinates": {
-      "to": "Generalized coordinates",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Pierre Louis Maupertuis": {
-      "to": "Pierre Louis Maupertuis",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Newton's law of universal gravitation": {
-      "to": "Newton's law of universal gravitation",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Torque": {
-      "to": "Torque",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Work (physics)": {
-      "to": "Work (physics)",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Harmonic oscillator": {
-      "to": "Harmonic oscillator",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Angular acceleration": {
-      "to": "Angular acceleration",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Moment of inertia": {
-      "to": "Moment of inertia",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Lagrangian mechanics": {
-      "to": "Lagrangian mechanics",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Joseph Liouville": {
-      "to": "Joseph Liouville",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "John von Neumann": {
-      "to": "John von Neumann",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "D'Alembert's principle": {
-      "to": "D'Alembert's principle",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Koopman–von Neumann classical mechanics": {
-      "to": "Koopman–von Neumann classical mechanics",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Force": {
-      "to": "Force",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Inertial frame of reference": {
-      "to": "Inertial frame of reference",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Linear motion": {
-      "to": "Linear motion",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Rotation around a fixed axis": {
-      "to": "Rotation around a fixed axis",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Function (mathematics)": {
-      "to": "Function (mathematics)",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Statistical mechanics": {
-      "to": "Statistical mechanics",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Euler-Lagrange": {
-      "to": "Euler–Lagrange equation",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "E. M. Lifshitz": {
-      "to": "Evgeny Lifshitz",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Edward John Routh": {
-      "to": "Edward Routh",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Second law of motion": {
-      "to": "Newton's laws of motion",
-      "tofragment": "Second law",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Moments of inertia": {
-      "to": "Moment of inertia",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "L. D. Landau": {
-      "to": "Lev Landau",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Cyclic coordinates": {
-      "to": "Lagrangian mechanics",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "ISBN (identifier)": {
-      "to": "ISBN",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
     },
     "ISSN (identifier)": {
       "to": "ISSN",
       "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Doi (identifier)": {
-      "to": "Digital object identifier",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Classical Mechanics (Goldstein book)": {
-      "to": "Classical Mechanics (Goldstein)",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
     },
     "Mechanical power (physics)": {
       "to": "Power (physics)",
       "tofragment": "Mechanical power",
-      "cached_at": "2026-08-20T20:53:01Z"
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
     },
-    "Kinetic energy": {
-      "to": "Kinetic energy",
+    "Equations of motion": {
+      "to": "Equations of motion",
       "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Jeremiah Horrocks": {
-      "to": "Jeremiah Horrocks",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Product rule": {
-      "to": "Product rule",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Many-body problem": {
-      "to": "Many-body problem",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Charged particle": {
-      "to": "Charged particle",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Calculus of variations": {
-      "to": "Calculus of variations",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Couple (mechanics)": {
-      "to": "Couple (mechanics)",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Euler's laws of motion": {
-      "to": "Euler's laws of motion",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Celestial mechanics": {
-      "to": "Celestial mechanics",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Leonhard Euler": {
-      "to": "Leonhard Euler",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Inertia": {
-      "to": "Inertia",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Statics": {
-      "to": "Statics",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Classical mechanics": {
-      "to": "Classical mechanics",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Angular velocity": {
-      "to": "Angular velocity",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Circular motion": {
-      "to": "Circular motion",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Alexis Clairaut": {
-      "to": "Alexis Clairaut",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Time": {
-      "to": "Time",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Space": {
-      "to": "Space",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Magnetic field": {
-      "to": "Magnetic field",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Electric potential": {
-      "to": "Electric potential",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Rotational frequency": {
-      "to": "Rotational frequency",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Differential of a function": {
-      "to": "Differential of a function",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Spherical pendulum": {
-      "to": "Spherical pendulum",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Analytical mechanics": {
-      "to": "Analytical mechanics",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Energy": {
-      "to": "Energy",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Fictitious force": {
-      "to": "Fictitious force",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Coriolis force": {
-      "to": "Coriolis force",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Euler angles": {
-      "to": "Euler angles",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Herbert Goldstein": {
-      "to": "Herbert Goldstein",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Dynamics (mechanics)": {
-      "to": "Dynamics (mechanics)",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Magnetic vector potential": {
-      "to": "Magnetic vector potential",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Motion": {
-      "to": "Motion",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Momentum": {
-      "to": "Momentum",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "List of textbooks on classical mechanics and quantum mechanics": {
-      "to": "List of textbooks on classical mechanics and quantum mechanics",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Rotating reference frame": {
-      "to": "Rotating reference frame",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Helicoid": {
-      "to": "Helicoid",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Joseph-Louis Lagrange": {
-      "to": "Joseph-Louis Lagrange",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Edit section: Definitions": {
-      "to": "Edit section: Definitions",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Edit section: Two degrees of freedom": {
-      "to": "Edit section: Two degrees of freedom",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Edit section: References": {
-      "to": "Edit section: References",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Edit section: Heavy symmetrical top": {
-      "to": "Edit section: Heavy symmetrical top",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Edit section: See also": {
-      "to": "Edit section: See also",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Edit section: Footnotes": {
-      "to": "Edit section: Footnotes",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
     },
     "Edit section: Classical charged particle in a uniform magnetic field": {
       "to": "Edit section: Classical charged particle in a uniform magnetic field",
       "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
     },
-    "Edit section: Any number of degrees of freedom": {
-      "to": "Edit section: Any number of degrees of freedom",
+    "Inertia": {
+      "to": "Inertia",
       "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
     },
     "Edit section: Equations of motion": {
       "to": "Edit section: Equations of motion",
       "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Differential of a function": {
+      "to": "Differential of a function",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Rotation around a fixed axis": {
+      "to": "Rotation around a fixed axis",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Edit section: References": {
+      "to": "Edit section: References",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Appell's equation of motion": {
+      "to": "Appell's equation of motion",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Angular frequency": {
+      "to": "Angular frequency",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Harmonic oscillator": {
+      "to": "Harmonic oscillator",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
     },
     "Edit section: Cyclic coordinates": {
       "to": "Edit section: Cyclic coordinates",
       "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
     },
-    "Edit section: Velocity-dependent potentials": {
-      "to": "Edit section: Velocity-dependent potentials",
+    "Hamiltonian mechanics": {
+      "to": "Hamiltonian mechanics",
       "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Edit section: Symmetric mechanical systems": {
-      "to": "Edit section: Symmetric mechanical systems",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Edit section: Spherical pendulum": {
-      "to": "Edit section: Spherical pendulum",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Edit section: Central potential in spherical coordinates": {
-      "to": "Edit section: Central potential in spherical coordinates",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Edit section: Energy": {
-      "to": "Edit section: Energy",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
-    },
-    "Edit section: Notes": {
-      "to": "Edit section: Notes",
-      "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
     },
     "Edit section: Examples": {
       "to": "Edit section: Examples",
       "tofragment": "",
-      "cached_at": "2026-08-20T20:53:01Z"
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Linear motion": {
+      "to": "Linear motion",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Tuple": {
+      "to": "Tuple",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Edmond Halley": {
+      "to": "Edmond Halley",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Centripetal force": {
+      "to": "Centripetal force",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Kinetics (physics)": {
+      "to": "Kinetics (physics)",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Angular velocity": {
+      "to": "Angular velocity",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Daniel Bernoulli": {
+      "to": "Daniel Bernoulli",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Generalized coordinates": {
+      "to": "Generalized coordinates",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Acceleration": {
+      "to": "Acceleration",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Koopman–von Neumann classical mechanics": {
+      "to": "Koopman–von Neumann classical mechanics",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "John von Neumann": {
+      "to": "John von Neumann",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Tangential speed": {
+      "to": "Tangential speed",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Damping": {
+      "to": "Damping",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Potential energy": {
+      "to": "Potential energy",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Configuration space (physics)": {
+      "to": "Configuration space (physics)",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Electric charge": {
+      "to": "Electric charge",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Edit section: Two degrees of freedom": {
+      "to": "Edit section: Two degrees of freedom",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Bernard Koopman": {
+      "to": "Bernard Koopman",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "D'Alembert's principle": {
+      "to": "D'Alembert's principle",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Relative velocity": {
+      "to": "Relative velocity",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Product rule": {
+      "to": "Product rule",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Force": {
+      "to": "Force",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Electric field": {
+      "to": "Electric field",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Statistical mechanics": {
+      "to": "Statistical mechanics",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Celestial mechanics": {
+      "to": "Celestial mechanics",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Christiaan Huygens": {
+      "to": "Christiaan Huygens",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Classical mechanics": {
+      "to": "Classical mechanics",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Joseph Liouville": {
+      "to": "Joseph Liouville",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Function (mathematics)": {
+      "to": "Function (mathematics)",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Frame of reference": {
+      "to": "Frame of reference",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Mass": {
+      "to": "Mass",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Moment (physics)": {
+      "to": "Moment (physics)",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Phase space": {
+      "to": "Phase space",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "History of classical mechanics": {
+      "to": "History of classical mechanics",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Edward John Routh": {
+      "to": "Edward Routh",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "L. D. Landau": {
+      "to": "Lev Landau",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Central potential": {
+      "to": "Central force",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Rigid body mechanics": {
+      "to": "Rigid body dynamics",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Pendulum equation": {
+      "to": "Pendulum (mechanics)",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "ISBN (identifier)": {
+      "to": "ISBN",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Doi (identifier)": {
+      "to": "Digital object identifier",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Kinetic energy": {
+      "to": "Kinetic energy",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Centrifugal force": {
+      "to": "Centrifugal force",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Siméon Denis Poisson": {
+      "to": "Siméon Denis Poisson",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Angular acceleration": {
+      "to": "Angular acceleration",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Edit section: Any number of degrees of freedom": {
+      "to": "Edit section: Any number of degrees of freedom",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Joseph-Louis Lagrange": {
+      "to": "Joseph-Louis Lagrange",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "List of textbooks on classical mechanics and quantum mechanics": {
+      "to": "List of textbooks on classical mechanics and quantum mechanics",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Herbert Goldstein": {
+      "to": "Herbert Goldstein",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Galileo Galilei": {
+      "to": "Galileo Galilei",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Virtual work": {
+      "to": "Virtual work",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Dot product": {
+      "to": "Dot product",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Applied mechanics": {
+      "to": "Applied mechanics",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Magnetic vector potential": {
+      "to": "Magnetic vector potential",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Edit section: Footnotes": {
+      "to": "Edit section: Footnotes",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Newton's laws of motion": {
+      "to": "Newton's laws of motion",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Non-inertial reference frame": {
+      "to": "Non-inertial reference frame",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Vibration": {
+      "to": "Vibration",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Euler's laws of motion": {
+      "to": "Euler's laws of motion",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Simple harmonic motion": {
+      "to": "Simple harmonic motion",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Legendre transformation": {
+      "to": "Legendre transformation",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Pendulum (mechanics)": {
+      "to": "Pendulum (mechanics)",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Edit section: Velocity-dependent potentials": {
+      "to": "Edit section: Velocity-dependent potentials",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Euler's equations (rigid body dynamics)": {
+      "to": "Euler's equations (rigid body dynamics)",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Kinematics": {
+      "to": "Kinematics",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Dynamics (mechanics)": {
+      "to": "Dynamics (mechanics)",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Angular displacement": {
+      "to": "Angular displacement",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "William Rowan Hamilton": {
+      "to": "William Rowan Hamilton",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Rigid body": {
+      "to": "Rigid body",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Johannes Kepler": {
+      "to": "Johannes Kepler",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Timeline of classical mechanics": {
+      "to": "Timeline of classical mechanics",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Angular momentum": {
+      "to": "Angular momentum",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Motion": {
+      "to": "Motion",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Augustin-Louis Cauchy": {
+      "to": "Augustin-Louis Cauchy",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Moment of inertia": {
+      "to": "Moment of inertia",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Time derivative": {
+      "to": "Time derivative",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Rotating reference frame": {
+      "to": "Rotating reference frame",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Edit section: Spherical pendulum": {
+      "to": "Edit section: Spherical pendulum",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Ordinary differential equation": {
+      "to": "Ordinary differential equation",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Partial derivative": {
+      "to": "Partial derivative",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Friction": {
+      "to": "Friction",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Statics": {
+      "to": "Statics",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Edit section: See also": {
+      "to": "Edit section: See also",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Johann Bernoulli": {
+      "to": "Johann Bernoulli",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "SI units": {
+      "to": "International System of Units",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Cylindrical coordinates": {
+      "to": "Cylindrical coordinate system",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Euler-Lagrange": {
+      "to": "Euler–Lagrange equation",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Jean le Rond d'Alembert": {
+      "to": "Jean Le Rond d'Alembert",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "E. M. Lifshitz": {
+      "to": "Evgeny Lifshitz",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Hamiltonian function": {
+      "to": "Hamiltonian mechanics",
+      "tofragment": "Mathematical formalism",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Second law of motion": {
+      "to": "Newton's laws of motion",
+      "tofragment": "Second law",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Lagrange's equation": {
+      "to": "Euler–Lagrange equation",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Moments of inertia": {
+      "to": "Moment of inertia",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Cyclic coordinates": {
+      "to": "Lagrangian mechanics",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Symmetrical top": {
+      "to": "Moment of inertia",
+      "tofragment": "Principal axes",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Course of theoretical physics": {
+      "to": "Course of Theoretical Physics",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Classical Mechanics (Goldstein book)": {
+      "to": "Classical Mechanics (Goldstein)",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Alexis Clairaut": {
+      "to": "Alexis Clairaut",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Joule": {
+      "to": "Joule",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Paul Émile Appell": {
+      "to": "Paul Émile Appell",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Edit section: Definitions": {
+      "to": "Edit section: Definitions",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Work (physics)": {
+      "to": "Work (physics)",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Torque": {
+      "to": "Torque",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Leonhard Euler": {
+      "to": "Leonhard Euler",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Helicoid": {
+      "to": "Helicoid",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Newton's law of universal gravitation": {
+      "to": "Newton's law of universal gravitation",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Electromagnetic field": {
+      "to": "Electromagnetic field",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Rotational frequency": {
+      "to": "Rotational frequency",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Degrees of freedom (physics and chemistry)": {
+      "to": "Degrees of freedom (physics and chemistry)",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Edit section: Notes": {
+      "to": "Edit section: Notes",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Time": {
+      "to": "Time",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Magnetic field": {
+      "to": "Magnetic field",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Calculus of variations": {
+      "to": "Calculus of variations",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Spherical pendulum": {
+      "to": "Spherical pendulum",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Space": {
+      "to": "Space",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Speed": {
+      "to": "Speed",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Lagrangian mechanics": {
+      "to": "Lagrangian mechanics",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Pierre-Simon Laplace": {
+      "to": "Pierre-Simon Laplace",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Edit section: Energy": {
+      "to": "Edit section: Energy",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Reactive centrifugal force": {
+      "to": "Reactive centrifugal force",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Many-body problem": {
+      "to": "Many-body problem",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Edit section: Heavy symmetrical top": {
+      "to": "Edit section: Heavy symmetrical top",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Electric potential": {
+      "to": "Electric potential",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Circular motion": {
+      "to": "Circular motion",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Rigid body dynamics": {
+      "to": "Rigid body dynamics",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Isaac Newton": {
+      "to": "Isaac Newton",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Josiah Willard Gibbs": {
+      "to": "Josiah Willard Gibbs",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Classical field theory": {
+      "to": "Classical field theory",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Euler angles": {
+      "to": "Euler angles",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Continuum mechanics": {
+      "to": "Continuum mechanics",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Velocity": {
+      "to": "Velocity",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Momentum": {
+      "to": "Momentum",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Fictitious force": {
+      "to": "Fictitious force",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Impulse (physics)": {
+      "to": "Impulse (physics)",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Initial conditions": {
+      "to": "Initial condition",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Spherical polar coordinates": {
+      "to": "Spherical coordinate system",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Pierre Louis Maupertuis": {
+      "to": "Pierre Louis Maupertuis",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Couple (mechanics)": {
+      "to": "Couple (mechanics)",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Edit section: Central potential in spherical coordinates": {
+      "to": "Edit section: Central potential in spherical coordinates",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Edward Routh": {
+      "to": "Edward Routh",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Hamilton–Jacobi equation": {
+      "to": "Hamilton–Jacobi equation",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Inertial frame of reference": {
+      "to": "Inertial frame of reference",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Charged particle": {
+      "to": "Charged particle",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Carl Gustav Jacob Jacobi": {
+      "to": "Carl Gustav Jacob Jacobi",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Jeremiah Horrocks": {
+      "to": "Jeremiah Horrocks",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Energy": {
+      "to": "Energy",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Coriolis force": {
+      "to": "Coriolis force",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Analytical mechanics": {
+      "to": "Analytical mechanics",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Edit section: Symmetric mechanical systems": {
+      "to": "Edit section: Symmetric mechanical systems",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
+    },
+    "Displacement (geometry)": {
+      "to": "Displacement (geometry)",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:38.415415+00:00"
     }
   },
   "name_map_overrides": {},

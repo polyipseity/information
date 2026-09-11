@@ -1,1 +1,0 @@
-moment-generating function.md

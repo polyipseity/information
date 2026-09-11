@@ -9,9 +9,9 @@ from pathlib import Path
 
 import pytest
 from anyio import Path as AnyioPath
-from bs4 import BeautifulSoup, Tag
+from bs4 import BeautifulSoup, NavigableString, Tag
 
-from scripts.convert_wiki.converter import WikiHtmlConverter
+from scripts.convert_wiki.converter import WikiHtmlConverter, _discards_subtree
 from scripts.convert_wiki.latex import LatexConverter
 from scripts.convert_wiki.types import _RedirectInfo
 from tests.scripts.test_convert_wiki import _assert_markdownlint_clean
@@ -633,6 +633,96 @@ class TestImageHandling:
         assert out_to_archive == {"File:Lagrange_portrait.jpg"}
         assert "../../archives/Wikimedia%20Commons/Lagrange%20portrait.jpg" in result
 
+    @pytest.mark.anyio
+    async def test_thumb_host_thumbnail_rewritten(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Thumbnails served from thumb.wikimedia.org resolve to the archive."""
+        html = (
+            '<img src="//thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/'
+            "Einstein_patentoffice.jpg/250px-Einstein_patentoffice.jpg"
+            '?utm_source=en.wikipedia.org&amp;utm_campaign=parser"/>'
+        )
+        soup = BeautifulSoup(html, "html.parser")
+        out_to_archive: set[str] = set()
+        result = await converter.convert(
+            soup,
+            out_to_archive=out_to_archive,
+            redirect_map={},
+            refs=True,
+        )
+        assert out_to_archive == {"File:Einstein_patentoffice.jpg"}
+        assert (
+            "../../archives/Wikimedia%20Commons/Einstein%20patentoffice.jpg" in result
+        )
+        assert "thumb.wikimedia.org" not in result
+
+    @pytest.mark.anyio
+    async def test_thumb_host_percent_encoded_filename(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Percent-encoded thumb-host filenames are decoded for the archive path."""
+        html = (
+            '<img src="//thumb.wikimedia.org/wikipedia/commons/thumb/2/29/'
+            'Sinh%2Bcosh%2Btanh.svg/250px-Sinh%2Bcosh%2Btanh.svg.png"/>'
+        )
+        soup = BeautifulSoup(html, "html.parser")
+        out_to_archive: set[str] = set()
+        result = await converter.convert(
+            soup,
+            out_to_archive=out_to_archive,
+            redirect_map={},
+            refs=True,
+        )
+        assert out_to_archive == {"File:Sinh+cosh+tanh.svg"}
+        assert "../../archives/Wikimedia%20Commons/Sinh%2Bcosh%2Btanh.svg" in result
+
+    @pytest.mark.anyio
+    async def test_thumb_host_transcoded_rewritten(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A transcoded video on thumb.wikimedia.org resolves to the archive.
+
+        The URL names the transcoded derivative, but the archive holds the
+        source file, so the directory segment above it is the filename.
+        """
+        html = (
+            '<img src="//thumb.wikimedia.org/wikipedia/commons/transcoded/9/93/'
+            'X.ogv/X.ogv.480p.vp9.webm"/>'
+        )
+        soup = BeautifulSoup(html, "html.parser")
+        out_to_archive: set[str] = set()
+        result = await converter.convert(
+            soup,
+            out_to_archive=out_to_archive,
+            redirect_map={},
+            refs=True,
+        )
+        assert out_to_archive == {"File:X.ogv"}
+        assert "../../archives/Wikimedia%20Commons/X.ogv" in result
+        assert "thumb.wikimedia.org" not in result
+
+    @pytest.mark.anyio
+    async def test_thumb_host_transcoded_percent_encoded_filename(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A percent-encoded transcoded filename is decoded then re-encoded."""
+        html = (
+            '<img src="//thumb.wikimedia.org/wikipedia/commons/transcoded/2/29/'
+            'Sinh%2Bcosh%2Btanh.svg/Sinh%2Bcosh%2Btanh.svg.480p.vp9.webm"/>'
+        )
+        soup = BeautifulSoup(html, "html.parser")
+        out_to_archive: set[str] = set()
+        result = await converter.convert(
+            soup,
+            out_to_archive=out_to_archive,
+            redirect_map={},
+            refs=True,
+        )
+        assert out_to_archive == {"File:Sinh+cosh+tanh.svg"}
+        assert "../../archives/Wikimedia%20Commons/Sinh%2Bcosh%2Btanh.svg" in result
+        assert "thumb.wikimedia.org" not in result
+
 
 # ---------------------------------------------------------------------------
 
@@ -761,6 +851,53 @@ class TestHeaderHandling:
         result = await _convert(converter, "<h2>Title</h2><p>text</p>")
         assert "## title\n\n" in result or "## title\n" in result
 
+    @pytest.mark.anyio
+    async def test_document_title_becomes_level_1_heading(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A ``<head><title>`` renders as a level-1 heading via the shared path."""
+        result = await _convert(
+            converter,
+            "<html><head><title>Special relativity</title></head>"
+            "<body><p>Body text</p></body></html>",
+        )
+        assert result.startswith("# special relativity\n\n")
+        assert "Body text" in result
+
+    @pytest.mark.anyio
+    async def test_document_title_uses_shared_heading_casing(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Title casing goes through ``_fix_name_maybe`` like any other heading."""
+        result = await _convert(
+            converter,
+            "<html><head><title>Routhian mechanics</title></head>"
+            "<body><h2>Overview</h2></body></html>",
+        )
+        assert result.startswith("# Routhian mechanics\n\n")
+        assert "## overview" in result
+
+    @pytest.mark.anyio
+    async def test_inline_svg_title_not_a_heading(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """``<title>`` outside ``<head>`` must not be promoted to a heading."""
+        result = await _convert(converter, "<svg><title>Icon</title></svg><p>After</p>")
+        assert "# Icon" not in result
+        assert "Icon" in result
+
+    @pytest.mark.anyio
+    async def test_title_shares_md024_suppression(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """The title participates in the shared heading dedup state."""
+        result = await _convert(
+            converter,
+            "<html><head><title>Physics</title></head>"
+            "<body><h1>Physics</h1></body></html>",
+        )
+        assert "<!-- markdownlint-disable-next-line MD024 -->" in result
+
 
 # ---------------------------------------------------------------------------
 
@@ -805,6 +942,135 @@ class TestBoldItalicHandling:
         html = '<p><span class="texhtml"><i>n</i></span>th-order</p>'
         result = await _convert(converter, html)
         assert "_n_<!-- markdown separator -->th-order" in result
+
+    @pytest.mark.anyio
+    async def test_adjacent_bold_runs_keep_separator(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Two bold runs with nothing between them are kept apart."""
+        result = await _convert(converter, "<p><b>a</b><b>b</b></p>")
+        assert "__a__<!-- markdown separator -->__b__" in result
+
+    @pytest.mark.anyio
+    async def test_separator_past_collapsed_emphasis_span(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A whitespace-only emphasis span is looked past, not merged with.
+
+        The italic span renders nothing: its whitespace body collapses, so the
+        processed result is empty and the markers around it are dropped.  It
+        therefore cannot be the neighbour that separates the two bold runs.
+        """
+        html = '<p><b>a</b><span style="font-style:italic"> </span><b>b</b></p>'
+        result = await _convert(converter, html)
+        assert "__a__<!-- markdown separator -->__b__" in result
+
+    @pytest.mark.anyio
+    async def test_separator_past_empty_span(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """An empty span renders nothing, so it is not the adjacent token."""
+        result = await _convert(converter, "<p><b>a</b><span></span><b>b</b></p>")
+        assert "__a__<!-- markdown separator -->__b__" in result
+
+    @pytest.mark.anyio
+    async def test_separator_past_nested_empty_span(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A wrapper around only empty wrappers renders nothing either.
+
+        Transparent spans are flattened, so the wrapper's own output is exactly
+        its children's: non-empty contents are not enough to count as content.
+        """
+        html = "<p><b>a</b><span><span></span></span><b>b</b></p>"
+        result = await _convert(converter, html)
+        assert "__a__<!-- markdown separator -->__b__" in result
+
+    @pytest.mark.anyio
+    async def test_separator_past_discarded_span(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A discarded span is not the token that abuts the whitespace.
+
+        ``convert`` drops ``mw-editsection`` subtrees, so the text either side
+        of one must still see each other.  Without the same verdict in
+        ``_renders_nothing`` the walk-up stops at the dropped span and its
+        arrow glyph swallows the separation.  Either side may carry it.
+        """
+        for html in (
+            '<p>x<span class="mw-editsection">↑</span> y</p>',
+            '<p>x <span class="mw-editsection">↑</span>y</p>',
+        ):
+            assert "x y" in await _convert(converter, html)
+
+    @pytest.mark.anyio
+    async def test_separator_past_empty_entity_span(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """An empty ``mw:Entity`` span renders nothing either."""
+        html = '<p><b>a</b><span typeof="mw:Entity"></span><b>b</b></p>'
+        result = await _convert(converter, html)
+        assert "__a__<!-- markdown separator -->__b__" in result
+
+    @pytest.mark.anyio
+    async def test_transparent_span_keeps_its_space(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A transparent span holding a space still supplies that space.
+
+        The whitespace branch renders the space, so the span is not empty and
+        must not be skipped in favour of the emphasis run beyond it.
+        """
+        result = await _convert(converter, "<p><b>a</b><span> </span><b>b</b></p>")
+        assert "__a__ __b__" in result
+        assert "markdown separator" not in result
+
+    @pytest.mark.anyio
+    async def test_space_before_transparent_span_preserved(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A space between a word and a transparent span is not dropped.
+
+        ``_nearest_edge_is_word`` must look past transparent spans to find
+        the next rendered element, so the space before the span survives.
+        """
+        result = await _convert(converter, "<p><b>x</b> <span> </span>y</p>")
+        assert "__x__ y" in result
+
+    @pytest.mark.anyio
+    async def test_transparent_ws_span_between_bolds_gets_separator(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A transparent span with only whitespace between two bolds adds a separator.
+
+        ``_needs_separator_after`` descends into transparent spans; a
+        whitespace-only span is a gap that needs a markdown separator.
+        """
+        result = await _convert(converter, "<p><b>a</b><span> </span><b>b</b></p>")
+        assert "__a__ __b__" in result
+
+    @pytest.mark.anyio
+    async def test_nbsp_span_between_bolds_no_separator(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A transparent span with \xa0 between two bolds does not add a markdown separator.
+
+        ``\xa0`` is rendered content, not a gap, so no markdown separator
+        is needed — the \xa0 itself provides the separation.
+        """
+        result = await _convert(converter, "<p><b>a</b><span>\xa0</span><b>b</b></p>")
+        assert "markdown separator" not in result
+        # The \xa0 renders as a space between the two bold runs
+        assert "__a__ __b__" in result
+
+    @pytest.mark.anyio
+    async def test_literal_space_between_bold_runs_kept(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A literal space between emphasis runs stays a space."""
+        result = await _convert(converter, "<p><b>a</b> <b>b</b></p>")
+        assert "__a__ __b__" in result
+        assert "markdown separator" not in result
 
     @pytest.mark.anyio
     async def test_italic_inside_span_preceded_by_text(
@@ -987,6 +1253,136 @@ class TestBoldItalicHandling:
         assert sup is None
         soup = BeautifulSoup("<p><sup>2</sup></p>", "html.parser")
         assert WikiHtmlConverter._needs_separator_before(soup.sup) is False
+
+    @pytest.mark.anyio
+    async def test_nested_bold_deduped(self, converter: WikiHtmlConverter) -> None:
+        """Nested bold must not render as the meaningless ``____text____``."""
+        result = await _convert(converter, "<b><b>Foundations</b></b>")
+        assert result.strip() == "__Foundations__"
+
+    @pytest.mark.anyio
+    async def test_css_bold_ancestor_deduped(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A bold-styled ancestor satisfies the inner ``<b>``."""
+        result = await _convert(
+            converter,
+            '<span style="font-weight: bold"><b>Foundations</b></span>',
+        )
+        assert result.strip() == "__Foundations__"
+
+    @pytest.mark.anyio
+    async def test_nested_italic_deduped(self, converter: WikiHtmlConverter) -> None:
+        """Nested italic collapses to a single ``_`` pair."""
+        result = await _convert(converter, "<i><i>Italic</i></i>")
+        assert result.strip() == "_Italic_"
+
+    @pytest.mark.anyio
+    async def test_distinct_nested_emphasis_preserved(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Bold inside italic is distinct emphasis and must be kept."""
+        result = await _convert(converter, "<i><b>Both</b></i>")
+        assert result.strip() == "___Both___"
+
+    @pytest.mark.anyio
+    async def test_sidebar_title_bold_not_doubled(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Sidebar title bold wrapping must not double a CSS-bold ancestor."""
+        result = await _convert(
+            converter,
+            '<table class="sidebar"><tbody><tr><td class="sidebar-content">'
+            '<div class="sidebar-list"><div class="sidebar-list-title" '
+            'style="font-weight: bold"><div class="sidebar-list-title-c">'
+            "<b>Foundations</b></div></div></div></td></tr></tbody></table>",
+        )
+        assert "____" not in result
+        assert "__Foundations__" in result
+
+    @pytest.mark.anyio
+    async def test_mw_heading_wrapper_ignored(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A CSS-bold ``mw-heading`` wrapper does not suppress inner emphasis."""
+        result = await _convert(
+            converter,
+            '<div class="mw-heading mw-heading2" style="font-weight: bold">'
+            "<h2>Heading</h2><b>bold</b></div>",
+        )
+        assert "## heading" in result
+        assert "__bold__" in result
+
+    @pytest.mark.anyio
+    async def test_bold_list_wrapper_bolds_each_item(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Bold around a whole list must bold each item, not the list."""
+        result = await _convert(
+            converter, "<b><ul><li>alpha</li><li>beta</li></ul></b>"
+        )
+        assert "\n- __alpha__" in result
+        assert "\n- __beta__" in result
+        assert "__- " not in result
+
+    @pytest.mark.anyio
+    async def test_bold_list_cell_bolds_each_item(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A CSS-bold cell wrapping a list bolds each ``hlist`` item."""
+        result = await _convert(
+            converter,
+            '<table><tbody><tr><td style="font-weight: bold">'
+            "<ul><li>alpha</li><li>beta</li></ul></td></tr></tbody></table>",
+        )
+        assert "- __alpha__ <br/> - __beta__" in result
+        assert "__- " not in result
+
+    @pytest.mark.anyio
+    async def test_bold_nested_list_wrapper_bolds_each_item(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A ``hlist`` div between the bold wrapper and the list is transparent."""
+        result = await _convert(
+            converter,
+            '<div style="font-weight: bold"><div class="hlist">'
+            "<ul><li>alpha</li></ul></div></div>",
+        )
+        assert "- __alpha__" in result
+        assert "__- " not in result
+
+    @pytest.mark.anyio
+    async def test_unbolded_list_wrapper_unchanged(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A list that is not bolded keeps its item markers unbolded."""
+        result = await _convert(converter, "<ul><li>alpha</li><li>beta</li></ul>")
+        assert "- alpha" in result
+        assert "__" not in result
+
+    @pytest.mark.anyio
+    async def test_hatnote_wrapper_ignored(self, converter: WikiHtmlConverter) -> None:
+        """A hatnote's own CSS emphasis must not suppress nested emphasis.
+
+        Hatnotes render as list items and deliberately never emit their own
+        emphasis, so an emphasized word inside one keeps its markers.
+        """
+        result = await _convert(
+            converter,
+            '<div class="hatnote" style="font-style: italic">See <i>also</i></div>',
+        )
+        assert "- See _also_" in result
+
+    @pytest.mark.anyio
+    async def test_hatnote_bold_wrapper_ignored(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A bold-styled hatnote must not suppress nested bold."""
+        result = await _convert(
+            converter,
+            '<div class="hatnote" style="font-weight: bold">See <b>also</b></div>',
+        )
+        assert "- See __also__" in result
 
 
 # ---------------------------------------------------------------------------
@@ -1640,6 +2036,123 @@ class TestTextNormalization:
     """Tests for the formatting-agnostic text normalization."""
 
     @pytest.mark.anyio
+    async def test_space_between_two_plain_spans(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Whitespace between two inline wrappers survives the flattening.
+
+        ``_handle_span`` emits nothing, so at a span edge the whitespace has no
+        direct sibling in the markup yet still separates two rendered tokens.
+        """
+        result = await _convert(converter, "<p><span>a</span> <span>b</span></p>")
+        assert "a b" in result
+
+    @pytest.mark.anyio
+    async def test_space_between_bold_and_span(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A bold run and an inline wrapper are still two tokens."""
+        result = await _convert(converter, "<p><b>a</b> <span>b</span></p>")
+        assert "__a__ b" in result
+
+    @pytest.mark.anyio
+    async def test_space_at_nested_span_edge(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """The walk up through nested transparent spans keeps the space."""
+        result = await _convert(
+            converter, "<p><span><span>a</span></span> <span>b</span></p>"
+        )
+        assert "a b" in result
+
+    @pytest.mark.anyio
+    async def test_space_kept_between_spans_inside_text(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """The preserved space still separates the surrounding text runs."""
+        result = await _convert(converter, "<p>x<span>a</span> <span>b</span>y</p>")
+        assert "xa by" in result
+
+    @pytest.mark.anyio
+    async def test_no_extra_space_when_one_side_is_spaced(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Whitespace runs collapse to one space, never two."""
+        result = await _convert(converter, "<p>dash  events</p>")
+        assert "dash events" in result
+        assert "dash  events" not in result
+
+    @pytest.mark.anyio
+    async def test_no_space_across_block_boundary(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Whitespace touching a block element separates blocks, not words."""
+        result = await _convert(converter, "<p>a</p> <p>b</p>")
+        assert "a b" not in result
+
+    @pytest.mark.anyio
+    @pytest.mark.parametrize(
+        ("html", "expected"),
+        [
+            # At a block boundary nothing renders beside the run, so it goes.
+            ("<div>\n      Text here\n    </div>", "Text here"),
+            ("<div>text here\n   </div>", "text here"),
+            ("<dl><dd>\n  Text here\n</dd></dl>", "Text here\n\n"),
+            # Between two inline tokens the run is the separation they need.
+            ("<div><b>x</b>\n     text here\n</div>", "__x__ text here"),
+            ("<div>one\n   two</div>", "one two"),
+            # The run must survive even when the neighbour ends in whitespace:
+            # the two runs resolve together, so dropping both merges the tokens
+            # into ``kgm``.
+            ("<div><span>kg </span> m s</div>", "kg  m s"),
+            # Markup that renders nothing is stepped over, not treated as the
+            # boundary, so the tokens either side still see each other.
+            (
+                '<div><span>173</span><div class="paragraphbreak"></div>\n  The rest</div>',
+                "173 The rest",
+            ),
+        ],
+    )
+    async def test_glued_whitespace_run(
+        self, converter: WikiHtmlConverter, html: str, expected: str
+    ) -> None:
+        """A run glued to text is dropped at a block boundary, not between tokens."""
+        assert await _convert(converter, html) == expected
+
+    @pytest.mark.anyio
+    @pytest.mark.parametrize(
+        "html",
+        [
+            "<div><b>x</b> y</div>",
+            "<div><b>x</b><span> </span>y</div>",
+            "<div><b>x</b>\n     y</div>",
+        ],
+    )
+    async def test_whitespace_renders_the_same_glued_or_alone(
+        self, converter: WikiHtmlConverter, html: str
+    ) -> None:
+        """A run is decided by its neighbour, not by which node holds it.
+
+        A whitespace-only node between two real tokens and the same run glued
+        to adjacent text must render identically, or the two spellings of one
+        separation disagree.
+        """
+        assert await _convert(converter, html) == "__x__ y"
+
+    @pytest.mark.anyio
+    async def test_adjacent_whitespace_runs_lose_the_separation(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A whitespace run between a word and a transparent span survives.
+
+        A whitespace-only node whose neighbour is a transparent span with only
+        whitespace now looks past the span to find the next rendered element.
+        If that element is a word, the space is preserved as a separator.
+        """
+        result = await _convert(converter, "<div><b>x</b> <span> </span>y</div>")
+        assert result == "__x__ y"
+
+    @pytest.mark.anyio
     async def test_newlines_normalized_to_spaces(
         self, converter: WikiHtmlConverter
     ) -> None:
@@ -1823,6 +2336,272 @@ class TestStaticUtilities:
         span = soup.find("span")
         assert span is not None
         assert not WikiHtmlConverter._in_navbox(span)
+
+    def test_renders_emphasis_predicate(self) -> None:
+        """The bold/italic routing test shared with ``_dispatch``.
+
+        Covers the explicit emphasis tags and both forcing styles, and rejects
+        the inline tags that a Markdown emphasis handler must not claim.
+        """
+        soup = BeautifulSoup(
+            "<p><b>1</b><i>2</i><em>3</em><strong>4</strong>"
+            '<span style="font-weight: bold">5</span>'
+            '<span style="font-style:italic">6</span>'
+            "<span>7</span><a href='#'>8</a></p>",
+            "html.parser",
+        )
+        p = soup.find("p")
+        assert isinstance(p, Tag)
+        expected = [True, True, True, True, True, True, False, False]
+        for child, want in zip(p.find_all(True), expected, strict=True):
+            assert isinstance(child, Tag)
+            assert WikiHtmlConverter._renders_emphasis(child) is want
+
+    def test_is_transparent_span_accepts_plain_spans(self) -> None:
+        """A span with no rendering class is flattened by ``_handle_span``.
+
+        The ``mwe-math-element`` wrapper around inline math is the common case:
+        it emits nothing of its own, so its children take its place in the
+        rendered output.
+        """
+        soup = BeautifulSoup(
+            '<p><span>a</span><span class="mwe-math-element">b</span></p>',
+            "html.parser",
+        )
+        spans = soup.find_all("span")
+        assert len(spans) == 2
+        for span in spans:
+            assert WikiHtmlConverter._is_transparent_span(span)
+
+    @pytest.mark.parametrize("style", ["font-weight: bold", "font-style: italic"])
+    def test_is_transparent_span_rejects_emphasis_styles(self, style: str) -> None:
+        """A styled span is routed to ``_handle_bold_italic`` and emits markers."""
+        soup = BeautifulSoup(f'<p><span style="{style}">a</span></p>', "html.parser")
+        span = soup.find("span")
+        assert isinstance(span, Tag)
+        assert not WikiHtmlConverter._is_transparent_span(span)
+
+    @pytest.mark.parametrize(
+        "classes",
+        [
+            "hatnote",
+            "mw-tmh-play",
+            "navbar",
+            "oo-ui-buttonElement-button",
+            "sidebar-navbar",
+            "sistersitebox",
+            "thumb",
+            "portalbox",
+        ],
+    )
+    def test_is_transparent_span_rejects_class_driven_rendering(
+        self, classes: str
+    ) -> None:
+        """Classes that add markers or block spacing make a span opaque."""
+        soup = BeautifulSoup(f'<p><span class="{classes}">a</span></p>', "html.parser")
+        span = soup.find("span")
+        assert isinstance(span, Tag)
+        assert not WikiHtmlConverter._is_transparent_span(span)
+
+    def test_is_transparent_span_hatnote_beats_bold_style(self) -> None:
+        """A hatnote keeps its list-marker prefix even when styled bold.
+
+        ``_dispatch`` skips the emphasis handler for hatnotes, but ``convert``
+        still prefixes ``- `` and the span therefore renders content.
+        """
+        soup = BeautifulSoup(
+            '<p><span class="hatnote" style="font-weight: bold">a</span></p>',
+            "html.parser",
+        )
+        span = soup.find("span")
+        assert isinstance(span, Tag)
+        assert not WikiHtmlConverter._is_transparent_span(span)
+
+    def test_is_transparent_span_rejects_non_spans(self) -> None:
+        """Only spans are flattened; every other inline tag renders itself."""
+        soup = BeautifulSoup(
+            "<p><b>a</b><i>b</i><em>c</em><strong>d</strong>"
+            "<a href='#'>e</a><img src='f'/></p>",
+            "html.parser",
+        )
+        p = soup.find("p")
+        assert isinstance(p, Tag)
+        for child in p.find_all(True):
+            assert not WikiHtmlConverter._is_transparent_span(child)
+        assert not WikiHtmlConverter._is_transparent_span(None)
+        assert not WikiHtmlConverter._is_transparent_span(soup)
+
+    @pytest.mark.parametrize(
+        ("html", "expected"),
+        [
+            ("<span></span>", True),
+            ("<b></b>", True),
+            ('<span style="font-style:italic"> </span>', True),
+            ("<span> </span>", False),
+            ("<b>x</b>", False),
+            ("<br/>", False),
+            ("<img src='a'/>", False),
+            ("<span><img src='b'/></span>", False),
+            ("<video><source src='a.webm'/></video>", False),
+            ("<audio><source src='a.ogg'/></audio>", False),
+            ("<span><span></span></span>", True),
+            ("<span><span> </span></span>", False),
+            ("<span><!-- c --></span>", True),
+            ("<!-- note -->", True),
+            ("text", False),
+            (" ", True),
+        ],
+    )
+    def test_renders_nothing(self, html: str, expected: bool) -> None:
+        """Only markup with no text, image, or separating space is nothing."""
+        soup = BeautifulSoup(html, "html.parser")
+        node = next(iter(soup.children))
+        assert WikiHtmlConverter._renders_nothing(node, refs=True) is expected
+
+    @pytest.mark.parametrize(
+        ("classes", "refs", "expected"),
+        [
+            ("mw-editsection", True, True),
+            ("mw-editsection", False, True),
+            ("mw-cite-backlink", True, True),
+            ("mw-cite-backlink", False, True),
+            ("reference", False, True),
+            ("reference", True, False),
+            ("hatnote", True, False),
+            ("", True, False),
+        ],
+    )
+    def test_discards_subtree(self, classes: str, refs: bool, expected: bool) -> None:
+        """The two unconditional classes ignore ``refs``; ``reference`` does not.
+
+        References still render a link when they are rendered at all, so only
+        their mode-off case is a discarded subtree.
+        """
+        assert _discards_subtree(frozenset(classes.split()), refs=refs) is expected
+
+    @pytest.mark.anyio
+    @pytest.mark.parametrize(
+        ("classes", "refs"),
+        [
+            ("mw-editsection", True),
+            ("mw-editsection", False),
+            ("mw-cite-backlink", True),
+            ("mw-cite-backlink", False),
+            ("reference", True),
+            ("reference", False),
+        ],
+    )
+    async def test_discard_verdict_matches_convert(
+        self, converter: WikiHtmlConverter, classes: str, refs: bool
+    ) -> None:
+        """``convert`` and ``_renders_nothing`` must agree about a subtree.
+
+        This is the invariant that stops the two drifting apart: whatever
+        ``convert`` drops entirely must also be invisible to the
+        rendered-adjacency walk-up, or a dropped span becomes a phantom
+        neighbour.
+        """
+        soup = BeautifulSoup(f'<p><span class="{classes}">x</span></p>', "html.parser")
+        span = soup.find("span")
+        assert isinstance(span, Tag)
+        output = await converter.convert(
+            span, out_to_archive=set(), redirect_map={}, refs=refs
+        )
+        discarded = WikiHtmlConverter._renders_nothing(span, refs=refs)
+        assert (output == "") is discarded
+
+    def test_edge_is_word_plain_text(self) -> None:
+        """Each side is judged by the character that touches the whitespace.
+
+        The previous neighbour is read from its last character and the next
+        from its first, so either side may carry the separation on its own.
+        """
+        assert WikiHtmlConverter._nearest_edge_is_word(
+            NavigableString("Physics"), following=False, refs=True
+        )
+        assert WikiHtmlConverter._nearest_edge_is_word(
+            NavigableString("portal"), following=True, refs=True
+        )
+        assert not WikiHtmlConverter._nearest_edge_is_word(
+            NavigableString("dash "), following=False, refs=True
+        )
+        assert not WikiHtmlConverter._nearest_edge_is_word(
+            NavigableString(" events"), following=True, refs=True
+        )
+        assert not WikiHtmlConverter._nearest_edge_is_word(
+            NavigableString(""), following=False, refs=True
+        )
+        assert not WikiHtmlConverter._nearest_edge_is_word(
+            None, following=True, refs=True
+        )
+
+    def test_edge_is_word_descends_into_inline_wrappers(self) -> None:
+        """The edge comes from rendered content, not the first element boundary.
+
+        ``<bdi>`` wraps a word but is not one of the inline tags the converter
+        otherwise cares about, so a descent that stopped at a known-tag list
+        would report no edge at all.
+        """
+        soup = BeautifulSoup(
+            '<p><a href="#"><bdi>978-0-486-63612-2</bdi></a> <span>b</span></p>',
+            "html.parser",
+        )
+        link = soup.find("a")
+        assert isinstance(link, Tag)
+        assert WikiHtmlConverter._nearest_edge_is_word(link, following=False, refs=True)
+
+    def test_edge_is_word_skips_unrendered_markup(self) -> None:
+        """Whitespace and empty wrappers are not the edge.
+
+        Parsoid leaves a whitespace-only text node as the first child of
+        ``<math>``, and emits empty ``<span class="Z3988">`` metadata spans
+        between citation links; neither may terminate the descent.
+        """
+        soup = BeautifulSoup(
+            '<p><span><span class="Z3988"></span>Physics</span> <span>b</span></p>',
+            "html.parser",
+        )
+        outer = soup.find("span")
+        assert isinstance(outer, Tag)
+        assert WikiHtmlConverter._nearest_edge_is_word(
+            outer, following=False, refs=True
+        )
+        math = BeautifulSoup(
+            "<p><span><math> <mi>M</mi></math></span> <span>b</span></p>", "html.parser"
+        ).find("span")
+        assert isinstance(math, Tag)
+        assert WikiHtmlConverter._nearest_edge_is_word(math, following=True, refs=True)
+
+    def test_edge_is_word_block_boundaries(self) -> None:
+        """Block tags and ``<br>`` separate blocks, not words."""
+        for html in ("<div>a</div>", "<p>a</p>", "<br/>", "<hr/>"):
+            soup = BeautifulSoup(html, "html.parser")
+            node = next(iter(soup.children))
+            assert not WikiHtmlConverter._nearest_edge_is_word(
+                node, following=True, refs=True
+            )
+            assert not WikiHtmlConverter._nearest_edge_is_word(
+                node, following=False, refs=True
+            )
+
+    def test_edge_is_word_treats_image_as_a_token(self) -> None:
+        """An image has no children yet still renders an inline token."""
+        soup = BeautifulSoup("<img src='a'/>", "html.parser")
+        img = next(iter(soup.children))
+        assert WikiHtmlConverter._nearest_edge_is_word(img, following=True, refs=True)
+        assert WikiHtmlConverter._nearest_edge_is_word(img, following=False, refs=True)
+
+    def test_edge_is_word_ignores_empty_wrappers(self) -> None:
+        """A wrapper that renders nothing has no word edge either way."""
+        for html in ("<span></span>", "<b> </b>"):
+            soup = BeautifulSoup(html, "html.parser")
+            node = next(iter(soup.children))
+            assert not WikiHtmlConverter._nearest_edge_is_word(
+                node, following=True, refs=True
+            )
+            assert not WikiHtmlConverter._nearest_edge_is_word(
+                node, following=False, refs=True
+            )
 
 
 # ---------------------------------------------------------------------------

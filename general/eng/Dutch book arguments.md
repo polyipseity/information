@@ -1,1 +1,0 @@
-Dutch book theorems.md

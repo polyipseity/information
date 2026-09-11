@@ -1,1 +1,0 @@
-propositional calculus.md

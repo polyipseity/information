@@ -1,1 +1,0 @@
-higher category theory.md

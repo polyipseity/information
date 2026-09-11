@@ -1,1 +1,1 @@
-valuation (logic).md
+substitution (logic).md

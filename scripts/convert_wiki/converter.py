@@ -40,8 +40,8 @@ __all__ = ()
 _HEADER_REGEX = re.compile(r"^h(\d)$")
 """Tags that render as bold or italic."""
 _BOLD_OR_ITALIC = frozenset({"b", "em", "i", "strong"})
-"""Inline-level HTML tags for whitespace-preservation checks."""
-_INLINE_TAGS = frozenset({"a", "span", "em", "i", "b", "strong", "img"})
+"""Tags that render as lists."""
+_LIST_TAGS = frozenset({"ol", "ul"})
 """Bold font-weight style detector."""
 _BOLD_FONT_STYLE_REGEX = re.compile(r"\bfont-weight\s*:\s*bold\b", re.IGNORECASE)
 """Italic font-style detector."""
@@ -74,6 +74,121 @@ _BOXED_CLASSES = frozenset(
 )
 """Box-like classes whose content renders as a blockquote."""
 _BLOCKQUOTE_CLASSES = frozenset(_BOXED_CLASSES - {"equation-box"})
+"""
+Span classes whose handler emits markers, media, or block spacing.
+
+``_handle_span`` returns ``None``, so a span is normally flattened and
+contributes nothing of its own.  These classes are the exception: ``hatnote``
+prefixes a list marker, ``sidebar-navbar``/``navbar`` may wrap their text in an
+HTML comment, ``mw-tmh-play``/``oo-ui-buttonElement-button`` become an audio
+embed, ``sistersitebox`` and ``thumb`` add block spacing, and the boxed classes
+render as blockquotes.  The set is deliberately inclusive where a class only
+sometimes renders (``navbar`` without a navbar ancestor, ``thumb`` without a
+caption): calling such a span opaque stops a rendered-adjacency walk early,
+which keeps the previous behaviour rather than inventing an adjacency.
+"""
+_OPAQUE_SPAN_CLASSES = _BOXED_CLASSES | frozenset(
+    {
+        "hatnote",
+        "mw-tmh-play",
+        "navbar",
+        "oo-ui-buttonElement-button",
+        "sidebar-navbar",
+        "sistersitebox",
+        "thumb",
+    }
+)
+"""
+Tags whose handler emits a media link or embed instead of text.
+
+``_renders_nothing`` must not call these empty just because they carry no text:
+``<video>`` and ``<audio>`` name their source in attributes and child
+``<source>`` elements.
+"""
+_MEDIA_TAGS = frozenset({"audio", "video"})
+"""
+Tags that render a glyph or a line break with no child content.
+
+``_renders_nothing`` must not treat these as empty just because they have no
+text: they are rendered tokens in their own right.
+"""
+_ATOMIC_TAGS = frozenset({"br", "hr", "img"})
+"""
+Classes whose entire subtree ``convert`` discards before dispatch.
+
+``convert`` returns an empty string for these, so nothing inside them reaches
+the output and no element in the subtree can be a rendered neighbour.
+"""
+_DISCARDED_CLASSES = frozenset({"mw-cite-backlink", "mw-editsection"})
+
+
+def _discards_subtree(classes: frozenset[str], *, refs: bool) -> bool:
+    """Whether ``convert`` drops an element carrying *classes* entirely.
+
+    ``<sup class="reference">`` renders a citation link only when references
+    are rendered at all, so the verdict depends on ``refs`` as well as on the
+    classes.
+    """
+    return bool(_DISCARDED_CLASSES & classes) or ("reference" in classes and not refs)
+
+
+"""
+Block-level tags whose edges separate blocks rather than joining words.
+
+``_nearest_edge_is_word`` stops its descent here: a whitespace run that touches
+one of these separates block elements, so it carries no inline separation.
+"""
+_BLOCK_TAGS = frozenset(
+    {
+        "address",
+        "article",
+        "aside",
+        "blockquote",
+        "br",
+        "caption",
+        "colgroup",
+        "dd",
+        "details",
+        "dialog",
+        "div",
+        "dl",
+        "dt",
+        "fieldset",
+        "figcaption",
+        "figure",
+        "footer",
+        "form",
+        "h1",
+        "h2",
+        "h3",
+        "h4",
+        "h5",
+        "h6",
+        "header",
+        "hgroup",
+        "hr",
+        "li",
+        "main",
+        "menu",
+        "nav",
+        "ol",
+        "optgroup",
+        "option",
+        "p",
+        "pre",
+        "search",
+        "section",
+        "summary",
+        "table",
+        "tbody",
+        "td",
+        "tfoot",
+        "th",
+        "thead",
+        "tr",
+        "ul",
+    }
+)
 """Inline tags that can form an equation-box title."""
 _EQUATION_BOX_TITLE_TAGS = frozenset({"b", "strong", "i", "em", "span"})
 """Block-level tags that separate an equation-box title from its body."""
@@ -222,67 +337,80 @@ class WikiHtmlConverter:
                 # See the formatting-agnostic principle documented above.
                 text = text.translate(str.maketrans({c: " " for c in "\t\n\r\x0b\x0c"}))
                 text = _COLLAPSE_SPACES_REGEX.sub(" ", text)
-                if all(c in "\t\n\r\x0b\x0c " for c in text):
+                core = text.strip(" ")
+                if not core:
                     # Preserve a single space between two adjacent inline
-                    # tokens of the same kind that would otherwise merge: two
-                    # emphasis elements (``<b>M</b> <b>L</b>`` → ``__M__ __L__``)
-                    # or two links (``[a](x) [b](y)`` → ``[a](x)[b](y)`` if
-                    # dropped).  The space separates two distinct tokens and
-                    # must survive whitespace collapsing.  A link directly
-                    # followed by an emphasis (e.g. ``[x](y)_z_``) is
-                    # intentionally tight, so the space stays collapsed there.
-                    # Math fragments wrapped in a ``texhtml`` span
-                    # (e.g. ``<i>m</i> <i>x</i>``) are also an exception:
+                    # tokens that would otherwise merge: two emphasis elements
+                    # (``<b>M</b> <b>L</b>`` → ``__M__ __L__``), two links
+                    # (``[a](x) [b](y)`` → ``[a](x)[b](y)`` if dropped), or two
+                    # plain-text runs (``Physics<span> </span>portal`` → the
+                    # space is the only separation).  The space separates two
+                    # distinct tokens and must survive whitespace collapsing.
+                    # Whether two neighbours run together is decided from the
+                    # character at each rendered edge, not from which tags happen
+                    # to sit either side.  Math fragments wrapped in a ``texhtml``
+                    # span (e.g. ``<i>m</i> <i>x</i>``) are an exception:
                     # adjacent variables are conventionally tight.
-                    if (
-                        not self._in_texhtml(ele)
-                        and isinstance(prev := ele.previous_sibling, Tag)
-                        and isinstance(nxt := ele.next_sibling, Tag)
-                        and (
-                            (
-                                self._is_inline_emphasis(prev)
-                                and self._is_inline_emphasis(nxt)
-                            )
-                            or (
-                                self._is_inline_link(prev) and self._is_inline_link(nxt)
-                            )
-                            or (self._is_inline_link(prev) and nxt.name in _INLINE_TAGS)
-                            or (prev.name in _INLINE_TAGS and self._is_inline_link(nxt))
-                        )
-                    ):
+                    #
+                    # The decision uses *rendered* adjacency, not raw siblings:
+                    # ``_handle_span`` flattens transparent spans, so a
+                    # whitespace run at a span edge has no direct sibling yet
+                    # still separates two rendered tokens.  Markup that renders
+                    # nothing — an empty ``<span>``, or the ``<link>`` elements
+                    # Parsoid leaves between citations — is stepped over rather
+                    # than mistaken for the neighbour.
+                    if self._whitespace_run_renders(
+                        ele, following=False, refs=refs
+                    ) and self._whitespace_run_renders(ele, following=True, refs=refs):
                         return " "
                     if (
                         self._in_texhtml(ele)
-                        and isinstance(prev := ele.previous_sibling, Tag)
-                        and isinstance(nxt := ele.next_sibling, Tag)
-                        and self._is_inline_emphasis(prev)
-                        and self._is_inline_emphasis(nxt)
+                        and isinstance(raw_prev := ele.previous_sibling, Tag)
+                        and isinstance(raw_nxt := ele.next_sibling, Tag)
+                        and self._is_inline_emphasis(raw_prev)
+                        and self._is_inline_emphasis(raw_nxt)
                     ):
                         return _cfg._MARKDOWN_SEPARATOR
                     return ""
-                return escape_markdown(text) if escape else text
+                # A run glued to the text is dropped only at a block boundary,
+                # because the block supplies its own newline.  Between two inline
+                # tokens the run is the separation they need, and it survives even
+                # when the neighbour also ends in whitespace: the two runs are
+                # resolved together, so dropping both would merge the tokens
+                # (``<span>kg </span> m`` must not become ``kgm``).
+                prefix = (
+                    " "
+                    if text.startswith(" ")
+                    and not self._meets_block_boundary(ele, following=False, refs=refs)
+                    else ""
+                )
+                suffix = (
+                    " "
+                    if text.endswith(" ")
+                    and not self._meets_block_boundary(ele, following=True, refs=refs)
+                    else ""
+                )
+                rendered = f"{prefix}{core}{suffix}"
+                return escape_markdown(rendered) if escape else rendered
             return ""
 
         classes = frozenset(ele.get_attribute_list("class"))
-        if {"mw-cite-backlink", "mw-editsection"} & classes:
+        if _discards_subtree(classes, refs=refs):
             return ""
 
         if "reference" in classes:
-            if refs:
-                ref_link = ele.find("a", href=lambda v: v and "#cite_note-" in v)
-                if ref_link:
-                    ref_content = ref_link.get_text(strip=True).strip("[]")
-                    if " " in ref_content:
-                        group, number = ref_content.split(" ", 1)
-                        fragment = f"^{group}-{number}"
-                    else:
-                        fragment = f"^ref-{ref_content}"
-                    return (
-                        f"<sup>[{escape_markdown(f'[{ref_content}]')}]"
-                        f"({_markdown_fragment(fragment)})</sup>"
-                    )
-            else:
-                return ""
+            ref_link = ele.find("a", href=lambda v: v and "#cite_note-" in v)
+            if ref_link:
+                ref_content = ref_link.get_text(strip=True).strip("[]")
+                if " " in ref_content:
+                    group, number = ref_content.split(" ", 1)
+                    fragment = f"^{group}-{number}"
+                else:
+                    fragment = f"^ref-{ref_content}"
+                return (
+                    f"<sup>[{escape_markdown(f'[{ref_content}]')}]"
+                    f"({_markdown_fragment(fragment)})</sup>"
+                )
 
         if (
             isinstance(ele, Tag)
@@ -299,6 +427,10 @@ class WikiHtmlConverter:
 
         self._out_to_archive = out_to_archive
         self._redirect_map = redirect_map
+        # Handlers are reached through the generic ``_handle_*`` protocol, which
+        # cannot take per-handler arguments, so the rendering mode joins the
+        # other per-call context on the instance.
+        self._refs = refs
 
         config = await self._dispatch(
             ele, classes, list_stack=list_stack, seen_heading_texts=seen_heading_texts
@@ -311,7 +443,7 @@ class WikiHtmlConverter:
         # in "\n\n" are left untouched to avoid double blank lines.
         if config.suffix == "\n":
             nxt = self._effective_sibling_skipping(
-                ele, following=True, skip_whitespace=True
+                ele, following=True, skip_whitespace=True, refs=refs
             )
             if isinstance(nxt, Tag) and (
                 _HEADER_REGEX.match(nxt.name)
@@ -326,19 +458,19 @@ class WikiHtmlConverter:
 
         if "hatnote" in classes:
             config.prefix = f"- {config.prefix.removesuffix('_')}"
-            next_sib = ele.find_next_sibling()
-            nxt = self._effective_sibling_skipping(
-                ele, following=True, skip_whitespace=True
-            )
-            if isinstance(next_sib, Tag) and (
-                next_sib.name == "figure"
-                or _BOXED_CLASSES & frozenset(next_sib.get_attribute_list("class"))
+            # Find the next non-empty sibling, skipping whitespace and empty spans.
+            nxt = ele.find_next_sibling()
+            while isinstance(nxt, Tag) and "mw-empty-elt" in frozenset(
+                nxt.get_attribute_list("class")
+            ):
+                nxt = nxt.find_next_sibling()
+            if isinstance(nxt, Tag) and (
+                nxt.name == "figure"
+                or nxt.name == "blockquote"
+                or _BOXED_CLASSES & frozenset(nxt.get_attribute_list("class"))
             ):
                 config.suffix = f"{config.suffix.removeprefix('_')}\n\n"
-            elif isinstance(nxt, Tag) and (
-                _HEADER_REGEX.match(nxt.name)
-                or "mw-heading" in frozenset(nxt.get_attribute_list("class"))
-            ):
+            elif self._effective_sibling_is_heading(ele):
                 config.suffix = f"{config.suffix.removeprefix('_')}\n\n"
             else:
                 config.suffix = f"{config.suffix.removeprefix('_')}\n"
@@ -452,17 +584,28 @@ class WikiHtmlConverter:
         """Dispatch to a handler for the given element."""
         if header_match := _HEADER_REGEX.match(ele.name):
             return self._handle_header(
-                ele, classes, header_match, seen_heading_texts=seen_heading_texts
+                ele,
+                classes,
+                level=int(header_match[1]),
+                seen_heading_texts=seen_heading_texts,
+            )
+
+        # A document ``<title>`` is the page's level-1 heading.  Only the
+        # document title (direct child of ``<head>``) qualifies: SVG and other
+        # inline ``<title>`` elements are descriptive text, not headings.
+        if (
+            ele.name == "title"
+            and isinstance(ele.parent, Tag)
+            and ele.parent.name == "head"
+        ):
+            return self._handle_header(
+                ele, classes, level=1, seen_heading_texts=seen_heading_texts
             )
 
         if ele.name == "a" and "mw-selflink" in classes:
             return self._handle_selflink(ele, classes)
 
-        if "hatnote" not in classes and (
-            ele.name in _BOLD_OR_ITALIC
-            or _BOLD_FONT_STYLE_REGEX.search(str(ele.get("style", "")))
-            or _ITALIC_FONT_STYLE_REGEX.search(str(ele.get("style", "")))
-        ):
+        if "hatnote" not in classes and self._renders_emphasis(ele):
             return self._handle_bold_italic(ele, classes)
 
         if {"mw-tmh-play", "oo-ui-buttonElement-button"} & classes:
@@ -549,11 +692,10 @@ class WikiHtmlConverter:
         self,
         ele: Tag,
         classes: frozenset[str],
-        header_match: re.Match[str],
+        level: int,
         seen_heading_texts: set[str],
     ) -> _HandlerConfig:
         """Render a heading with Markdown # markers."""
-        level = int(header_match[1] or "1")
         prefix = f"{'#' * level} "
         suffix = "\n\n"
 
@@ -608,8 +750,9 @@ class WikiHtmlConverter:
         if isinstance(sibling, NavigableString):
             return sibling.rstrip(_cfg._MARKDOWN_SEPARATOR_CHARACTERS) == sibling
         if isinstance(sibling, Tag):
-            # Transparent spans emit nothing; descend to their last rendered
-            # child to find what abuts the block on the rendered side.
+            # Descend through spans to the last child that renders: a span's
+            # emphasis markers wrap its content without changing what abuts the
+            # element after it, so the child's own trailing text decides.
             last: PageElement = sibling
             while isinstance(last, Tag) and last.name == "span" and last.contents:
                 last = last.contents[-1]
@@ -624,44 +767,274 @@ class WikiHtmlConverter:
 
     @staticmethod
     def _needs_separator_after(sibling: PageElement | None) -> bool:
-        """Whether a separator is needed after the block."""
+        """Whether a separator is needed after the block.
+
+        A transparent span containing only whitespace is a gap — the
+        whitespace is the separation, so no markdown separator is needed.
+        A transparent span with non-whitespace content (``\xa0``) is rendered
+        content, and no separator is needed either.  An empty transparent span
+        renders nothing, so the elements are already adjacent.
+        """
+        if isinstance(sibling, NavigableString):
+            return sibling.lstrip(_cfg._MARKDOWN_SEPARATOR_CHARACTERS) == sibling
+        if isinstance(sibling, Tag) and WikiHtmlConverter._is_transparent_span(sibling):
+            # Descend into the transparent span.  Whitespace-only → gap
+            # (separator needed).  Non-whitespace content → rendered content
+            # (no separator).  Empty → nothing (no separator).
+            first: PageElement | None = sibling
+            while isinstance(first, Tag):
+                children = [
+                    c
+                    for c in first.contents
+                    if not WikiHtmlConverter._renders_nothing(c, refs=False)
+                ]
+                if not children:
+                    return False
+                first = children[0]
+            if isinstance(first, NavigableString) and not str(first).strip():
+                return True
+            return False
         return (
             isinstance(sibling, NavigableString)
             and sibling.lstrip(_cfg._MARKDOWN_SEPARATOR_CHARACTERS) == sibling
         )
 
-    @staticmethod
-    def _effective_sibling(ele: PageElement, *, following: bool) -> PageElement | None:
-        """Return the sibling adjacent to *ele* in rendered output order.
+    @classmethod
+    def _rendered_edge_node(
+        cls, ele: PageElement | None, *, following: bool, refs: bool
+    ) -> PageElement | None:
+        """Return the node holding the character at *ele*'s rendered edge.
 
-        ``_handle_span`` emits nothing and flattens its children, so an
-        element that is the only child of a ``<span>`` has no direct sibling
-        yet is adjacent to the wrapper's sibling in the output.  Walk up
-        through such transparent wrappers until a real sibling is found or a
-        non-span boundary (block element or root) is reached.
+        The answer comes from the *rendered* edge, so the walk steps through
+        inline wrappers (``<bdi>``, ``<math>``, nested spans) and past markup
+        that renders nothing rather than stopping at the first element boundary.
+
+        ``None`` means the edge is a boundary rather than a character: a block
+        element, ``<br>``, markup that never renders, or the document edge.
+        Those separate blocks instead of joining words.
         """
-        return WikiHtmlConverter._effective_sibling_skipping(
-            ele, following=following, skip_whitespace=False
+        node: PageElement | None = ele
+        while node is not None:
+            if isinstance(node, PreformattedString):
+                return None
+            if isinstance(node, NavigableString):
+                return node
+            if not isinstance(node, Tag):
+                return None
+            if node.name == "img":
+                # An image has no children yet still renders an inline token.
+                return node
+            if node.name in _BLOCK_TAGS:
+                return None
+            children = tuple(node.contents)
+            if not following:
+                children = children[::-1]
+            node = next(
+                (
+                    child
+                    for child in children
+                    if not cls._renders_nothing(child, refs=refs)
+                ),
+                None,
+            )
+        return None
+
+    @classmethod
+    def _nearest_edge_is_word(
+        cls, ele: PageElement | None, *, following: bool, refs: bool
+    ) -> bool:
+        """Whether the nearest rendered character at *ele*'s edge is a word character.
+
+        The whitespace branch asks this of both neighbours.  A run of whitespace
+        is the only separation between two words, so it must survive whitespace
+        collapsing whenever both rendered edges are word characters; the previous
+        neighbour is judged by its last character and the next by its first.
+
+        When the walk reaches a transparent span, it descends through the span
+        to find the first rendered content beyond it.  A transparent span with
+        only whitespace is treated as a non-word gap (returns ``False``),
+        preserving the space that separates a word from the span.
+        """
+        node: PageElement | None = ele
+        while node is not None:
+            if isinstance(node, PreformattedString):
+                return False
+            if isinstance(node, NavigableString):
+                text = str(node)
+                if not text.strip():
+                    return False
+                return not (text[0] if following else text[-1]).isspace()
+            if not isinstance(node, Tag):
+                return False
+            if node.name == "img":
+                # An image renders an inline token even though it has no children.
+                return True
+            if node.name in _BLOCK_TAGS:
+                return False
+            # A transparent span with only whitespace is a gap, not a word.
+            # Walk past it to find the next rendered element beyond the gap.
+            if (
+                node.name == "span"
+                and cls._is_transparent_span(node)
+                and not any(
+                    not cls._renders_nothing(c, refs=refs) for c in node.contents
+                )
+            ):
+                # Continue walking to the span's next sibling (or parent's sibling)
+                # to find what lies beyond this gap.
+                node = node.next_sibling if following else node.previous_sibling
+                continue
+            children = tuple(node.contents)
+            if not following:
+                children = children[::-1]
+            node = next(
+                (
+                    child
+                    for child in children
+                    if not cls._renders_nothing(child, refs=refs)
+                ),
+                None,
+            )
+        return False
+
+    def _meets_block_boundary(
+        self, ele: PageElement, *, following: bool, refs: bool
+    ) -> bool:
+        """Whether *ele*'s text edge meets a block boundary rather than a character.
+
+        True at the document edge and where a block element or ``<br>`` renders;
+        false whenever some character is rendered there, even a space.  Callers
+        use it to tell "nothing is rendered beside this run" from "the run's
+        neighbour is itself whitespace".
+        """
+        neighbour = self._rendered_neighbour(ele, following=following, refs=refs)
+        return (
+            self._rendered_edge_node(neighbour, following=following, refs=refs) is None
         )
 
+    def _whitespace_run_renders(
+        self, ele: PageElement, *, following: bool, refs: bool
+    ) -> bool:
+        """Whether a whitespace-only text node separates two merged tokens.
+
+        Asked of both directions before a whitespace-only node is kept, because
+        its neighbour may already supply the same separation.
+        """
+        if self._in_texhtml(ele):
+            return False
+        neighbour = self._rendered_neighbour(ele, following=following, refs=refs)
+        return self._nearest_edge_is_word(neighbour, following=following, refs=refs)
+
     @staticmethod
+    def _renders_emphasis(ele: Tag) -> bool:
+        """Whether *ele* is routed to ``_handle_bold_italic``.
+
+        Covers the explicit emphasis tags and any element whose inline style
+        forces bold or italic.  ``_dispatch`` and ``_is_transparent_span`` both
+        use this, so the routing decision and the transparency model cannot
+        drift apart.
+        """
+        return bool(
+            ele.name in _BOLD_OR_ITALIC
+            or _BOLD_FONT_STYLE_REGEX.search(str(ele.get("style", "")))
+            or _ITALIC_FONT_STYLE_REGEX.search(str(ele.get("style", "")))
+        )
+
+    @classmethod
+    def _is_transparent_span(cls, ele: PageElement | None) -> bool:
+        """Whether *ele* is a ``<span>`` that renders nothing of its own.
+
+        Such a span is flattened by ``_handle_span``: its children take its
+        place in the rendered output, so the wrapper's own siblings become
+        their rendered neighbours.  A span is opaque when ``_dispatch`` routes
+        it to an emphasis handler (which emits ``__``/``_`` markers), or when
+        ``convert`` gives it a class-driven prefix, suffix, or block spacing.
+        """
+        if not isinstance(ele, Tag) or ele.name != "span":
+            return False
+        classes = frozenset(ele.get_attribute_list("class"))
+        if "hatnote" not in classes and cls._renders_emphasis(ele):
+            return False
+        return not classes & _OPAQUE_SPAN_CLASSES
+
+    @classmethod
+    def _renders_nothing(cls, ele: PageElement, *, refs: bool) -> bool:
+        """Whether *ele* contributes no text, image, or separating space.
+
+        An empty ``<span>`` renders nothing, and neither does an emphasis span
+        whose whole body is whitespace: ``convert`` drops the collapsed result,
+        so the markers around it never appear.  A subtree ``convert`` discards
+        outright renders nothing either, whatever text it holds.
+        """
+        if isinstance(ele, Tag) and _discards_subtree(
+            frozenset(ele.get_attribute_list("class")), refs=refs
+        ):
+            return True
+        if isinstance(ele, PreformattedString):
+            # Comments, CDATA, and doctypes are markup, never content.
+            return True
+        if isinstance(ele, NavigableString):
+            return not str(ele).strip()
+        if not isinstance(ele, Tag):
+            return False
+        if ele.name in _ATOMIC_TAGS or ele.name in _MEDIA_TAGS:
+            return False
+        if ele.find("img") is not None:
+            return False
+        if cls._is_transparent_span(ele):
+            # ``_handle_span`` flattens this wrapper, so it renders exactly what
+            # its children render.  A whitespace-only text child counts as
+            # rendering, because the whitespace branch turns it into the
+            # separating space; a child that renders nothing counts for nothing,
+            # so a wrapper around only empty wrappers renders nothing itself.
+            return not any(
+                not cls._renders_nothing(child, refs=refs)
+                or (
+                    isinstance(child, NavigableString)
+                    and not isinstance(child, PreformattedString)
+                )
+                for child in ele.contents
+            )
+        return not any(
+            not isinstance(s, PreformattedString) and str(s).strip()
+            for s in ele.strings
+        )
+
+    @classmethod
     def _effective_sibling_skipping(
-        ele: PageElement, *, following: bool, skip_whitespace: bool
+        cls,
+        ele: PageElement,
+        *,
+        following: bool,
+        skip_whitespace: bool,
+        skip_nothing_rendering: bool = False,
+        refs: bool,
     ) -> PageElement | None:
-        """Like ``_effective_sibling`` but optionally skips whitespace-only text.
+        """Walk to the sibling adjacent to *ele* in rendered output order.
+
+        ``_handle_span`` emits nothing and flattens its children, so an element
+        that is the only child of a transparent ``<span>`` has no direct sibling
+        yet is adjacent to the wrapper's sibling in the output.  Climb through
+        such wrappers until a real sibling is found or an opaque boundary (block
+        element or root) is reached.
 
         Whitespace-only ``NavigableString`` siblings carry no rendered content,
         so structural decisions (e.g. a blank line before a following heading)
-        must look past them.  The separator helpers at L609-611 intentionally
-        rely on the raw whitespace result, so callers there must pass
-        ``skip_whitespace=False``.
+        must look past them.  ``_needs_separator_before`` and
+        ``_needs_separator_after`` intentionally rely on the raw whitespace
+        result, so callers there must pass ``skip_whitespace=False``.
+
+        ``skip_nothing_rendering`` additionally steps over elements that render
+        nothing, such as an empty ``<span>``.  Whitespace-only text is never
+        skipped by that flag: it is what supplies the separation in the first
+        place, so replacing it with the element beyond would be wrong.
         """
         node: PageElement = ele
         while True:
             sibling = node.next_sibling if following else node.previous_sibling
             if sibling is None:
                 parent = node.parent
-                if not isinstance(parent, Tag) or parent.name != "span":
+                if not isinstance(parent, Tag) or not cls._is_transparent_span(parent):
                     return None
                 node = parent
                 continue
@@ -672,10 +1045,157 @@ class WikiHtmlConverter:
             ):
                 node = sibling
                 continue
+            if (
+                skip_nothing_rendering
+                and isinstance(sibling, Tag)
+                and cls._renders_nothing(sibling, refs=refs)
+            ):
+                node = sibling
+                continue
             return sibling
 
+    @classmethod
+    def _rendered_neighbour(
+        cls, ele: PageElement, *, following: bool, refs: bool
+    ) -> PageElement | None:
+        """Nearest neighbour in rendered order that renders content.
+
+        ``_needs_separator_before`` and ``_needs_separator_after`` ask what
+        abuts an emphasis run in the rendered output.  A neighbour that renders
+        nothing is not that abutment, so the search continues past it — that is
+        what lets ``<b>a</b><span></span><b>b</b>`` keep its two runs apart.
+        """
+        return cls._effective_sibling_skipping(
+            ele,
+            following=following,
+            skip_whitespace=False,
+            skip_nothing_rendering=True,
+            refs=refs,
+        )
+
+    @staticmethod
+    def _effective_sibling_is_heading(ele: PageElement) -> bool:
+        """Check if the effective next sibling is a heading.
+
+        Handles the case where the next sibling is a ``<section>`` wrapper
+        containing a heading as a direct child (not nested deeper).
+        """
+        node: PageElement = ele
+        while True:
+            sibling = node.next_sibling
+            if sibling is None:
+                return False
+            if isinstance(sibling, NavigableString):
+                if not sibling.strip():
+                    node = sibling
+                    continue
+                return False
+            if isinstance(sibling, Tag):
+                if _HEADER_REGEX.match(sibling.name):
+                    return True
+                if "mw-heading" in frozenset(sibling.get_attribute_list("class")):
+                    return True
+                # <section> wrapper: check only direct children for headings
+                # (not recursive, to avoid false positives from nested sections)
+                if sibling.name == "section":
+                    for child in sibling.children:
+                        if isinstance(child, Tag) and (
+                            _HEADER_REGEX.match(child.name)
+                            or "mw-heading"
+                            in frozenset(child.get_attribute_list("class"))
+                        ):
+                            return True
+                    return False
+                return False
+            return False
+
+    @classmethod
+    def _has_emphasis_ancestor(cls, ele: Tag, *, bold: bool) -> bool:
+        """Return whether an ancestor already renders the same emphasis.
+
+        Wrappers that never emit Markdown emphasis are skipped: ``mw-heading``
+        (rendered with ``#`` markers), ``hatnote`` (rendered as a list item,
+        whose own CSS emphasis is deliberately not emitted), and bold wrappers
+        around a bare list (whose bold is pushed onto the list items).
+        """
+        for ancestor in ele.parents:
+            if not isinstance(ancestor, Tag):
+                continue
+            if {"mw-heading", "hatnote"} & frozenset(
+                ancestor.get_attribute_list("class")
+            ):
+                continue
+            if bold and cls._is_list_only(ancestor):
+                continue
+            style = str(ancestor.get("style", ""))
+            if bold:
+                if ancestor.name in {"b", "strong"} or _BOLD_FONT_STYLE_REGEX.search(
+                    style
+                ):
+                    return True
+            elif ancestor.name in {"em", "i"} or _ITALIC_FONT_STYLE_REGEX.search(style):
+                return True
+        return False
+
+    @staticmethod
+    def _sole_bold_child(ele: Tag) -> Tag | None:
+        """Return the single ``<b>``/``<strong>`` child if *ele* contains only bold + whitespace.
+
+        Only checks ``<b>`` and ``<strong>`` (not ``<em>``/``<i>``), because
+        bold-only paragraphs in Wikipedia "See also" sections are category
+        headers that trigger MD036.
+        """
+        _BOLD_ONLY = frozenset({"b", "strong"})
+        content_children = [
+            c
+            for c in ele.children
+            if not (isinstance(c, NavigableString) and not c.strip())
+        ]
+        if (
+            len(content_children) == 1
+            and isinstance(content_children[0], Tag)
+            and content_children[0].name in _BOLD_ONLY
+        ):
+            return content_children[0]
+        return None
+
+    @classmethod
+    def _is_list_only(cls, ele: Tag) -> bool:
+        """Return whether *ele*'s content consists solely of lists.
+
+        Emphasis around a whole list has no Markdown representation: wrapping
+        the rendered list (``__- a <br/> - b__``) leaves the item markers inside
+        the emphasis span.  Such wrappers push the emphasis onto each item
+        instead, and this predicate recognises them.
+        """
+        children = [
+            c
+            for c in ele.children
+            if not (isinstance(c, NavigableString) and not c.strip())
+        ]
+        if not children:
+            return False
+        return all(
+            isinstance(child, Tag)
+            and (child.name in _LIST_TAGS or cls._is_list_only(child))
+            for child in children
+        )
+
+    def _bold_list_items(self, ele: Tag) -> None:
+        """Wrap every list item's content in ``<b>`` so bold survives."""
+        for list_ele in ele.find_all(list(_LIST_TAGS)):
+            for item in list_ele.find_all("li", recursive=False):
+                TableConverter._wrap_children(item, self._soup, "b")
+
     def _handle_bold_italic(self, ele: Tag, classes: frozenset[str]) -> _HandlerConfig:
-        """Render bold/italic text with Markdown emphasis markers."""
+        """Render bold/italic text with Markdown emphasis markers.
+
+        Emphasis already opened by an ancestor is not re-opened: Markdown has
+        no nested-bold concept, and Wikipedia markup routinely nests bold
+        containers (e.g. a CSS-bold ``sidebar-list-title`` around a
+        presenter-synthesised ``<b>``), which would otherwise render as the
+        meaningless ``____text____``.
+        """
         bold = (
             ele.name in {"b", "strong"}
             or _BOLD_FONT_STYLE_REGEX.search(str(ele.get("style", "")))
@@ -684,13 +1204,26 @@ class WikiHtmlConverter:
         italic = ele.name in {"em", "i"} or _ITALIC_FONT_STYLE_REGEX.search(
             str(ele.get("style", ""))
         )
+        if bold and self._is_list_only(ele):
+            # A bolded list is rendered by bolding each item, not by wrapping
+            # the whole list (which would leave ``- `` markers inside ``__``).
+            self._bold_list_items(ele)
+            bold = False
+        if bold and self._has_emphasis_ancestor(ele, bold=True):
+            bold = False
+        if italic and self._has_emphasis_ancestor(ele, bold=False):
+            italic = False
         bold_str = "__" if bold else ""
         italic_str = "_" if italic else ""
         prefix = f"{bold_str}{italic_str}"
         suffix = f"{italic_str}{bold_str}"
-        if self._needs_separator_before(self._effective_sibling(ele, following=False)):
+        if self._needs_separator_before(
+            self._rendered_neighbour(ele, following=False, refs=self._refs)
+        ):
             prefix = f"{_cfg._MARKDOWN_SEPARATOR}{prefix}"
-        if self._needs_separator_after(self._effective_sibling(ele, following=True)):
+        if self._needs_separator_after(
+            self._rendered_neighbour(ele, following=True, refs=self._refs)
+        ):
             suffix += _cfg._MARKDOWN_SEPARATOR
 
         # Equation-reference numbers (the ``math_N`` / ``math_Eq.N`` spans
@@ -845,11 +1378,6 @@ class WikiHtmlConverter:
                 or _ITALIC_FONT_STYLE_REGEX.search(style)
             )
         return False
-
-    @staticmethod
-    def _is_inline_link(ele: Tag) -> bool:
-        """Return True for inline link (anchor) elements."""
-        return ele.name == "a"
 
     @staticmethod
     def _in_inline_context(ele: Tag) -> bool:
@@ -1091,6 +1619,15 @@ class WikiHtmlConverter:
         in_table = self._in_table_cell(ele)
         prefix = "\n" if not in_table else ""
         suffix = "" if in_table else "\n\n"
+
+        # Bold-only paragraphs (e.g., "See also" category headers) trigger
+        # MD036 (no-emphasis-as-heading).  Suppress per-line rather than
+        # converting to a heading, preserving the original bold rendering.
+        # The comment must be on the immediately preceding line (no blank line
+        # between comment and content) for markdownlint to apply the suppression.
+        if not in_table and self._sole_bold_child(ele) is not None:
+            prefix = "\n<!-- markdownlint-disable-next-line MD036 -->\n"
+
         return _HandlerConfig(prefix=prefix, suffix=suffix, process_strings=process)
 
     def _handle_code(self, ele: Tag, classes: frozenset[str]) -> _HandlerConfig:

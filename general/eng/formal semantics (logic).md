@@ -1,1 +1,1 @@
-semantics of logic.md
+semantics (logic).md

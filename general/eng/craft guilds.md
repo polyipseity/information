@@ -1,1 +1,1 @@
-guild.md
+craft guild.md

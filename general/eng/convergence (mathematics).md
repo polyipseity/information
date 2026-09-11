@@ -1,1 +1,1 @@
-convergent series.md
+convergence.md

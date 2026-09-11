@@ -1,1 +1,1 @@
-numerical analysis.md
+numerical method.md
