@@ -422,6 +422,29 @@ class TestGetImageFilename:
         result = _mod._get_image_filename(img)  # noqa: SLF001
         assert result == "Lagrange portrait.jpg"
 
+    def test_filename_from_thumb_host_thumbnail(self) -> None:
+        """Thumbnail URLs on thumb.wikimedia.org yield the original filename."""
+        img = BeautifulSoup(
+            '<img src="//thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/'
+            "Einstein_patentoffice.jpg/250px-Einstein_patentoffice.jpg"
+            '?utm_source=en.wikipedia.org"/>',
+            "html.parser",
+        ).find("img")
+        assert isinstance(img, Tag)
+        result = _mod._get_image_filename(img)  # noqa: SLF001
+        assert result == "Einstein patentoffice.jpg"
+
+    def test_filename_from_thumb_host_percent_encoded(self) -> None:
+        """Percent-encoded thumb-host filenames are decoded."""
+        img = BeautifulSoup(
+            '<img src="//thumb.wikimedia.org/wikipedia/commons/thumb/2/29/'
+            'Sinh%2Bcosh%2Btanh.svg/250px-Sinh%2Bcosh%2Btanh.svg.png"/>',
+            "html.parser",
+        ).find("img")
+        assert isinstance(img, Tag)
+        result = _mod._get_image_filename(img)  # noqa: SLF001
+        assert result == "Sinh+cosh+tanh.svg"
+
 
 class TestBalanceBrackets:
     """Tests for the _balance_brackets function."""

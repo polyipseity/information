@@ -633,6 +633,50 @@ class TestImageHandling:
         assert out_to_archive == {"File:Lagrange_portrait.jpg"}
         assert "../../archives/Wikimedia%20Commons/Lagrange%20portrait.jpg" in result
 
+    @pytest.mark.anyio
+    async def test_thumb_host_thumbnail_rewritten(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Thumbnails served from thumb.wikimedia.org resolve to the archive."""
+        html = (
+            '<img src="//thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/'
+            "Einstein_patentoffice.jpg/250px-Einstein_patentoffice.jpg"
+            '?utm_source=en.wikipedia.org&amp;utm_campaign=parser"/>'
+        )
+        soup = BeautifulSoup(html, "html.parser")
+        out_to_archive: set[str] = set()
+        result = await converter.convert(
+            soup,
+            out_to_archive=out_to_archive,
+            redirect_map={},
+            refs=True,
+        )
+        assert out_to_archive == {"File:Einstein_patentoffice.jpg"}
+        assert (
+            "../../archives/Wikimedia%20Commons/Einstein%20patentoffice.jpg" in result
+        )
+        assert "thumb.wikimedia.org" not in result
+
+    @pytest.mark.anyio
+    async def test_thumb_host_percent_encoded_filename(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Percent-encoded thumb-host filenames are decoded for the archive path."""
+        html = (
+            '<img src="//thumb.wikimedia.org/wikipedia/commons/thumb/2/29/'
+            'Sinh%2Bcosh%2Btanh.svg/250px-Sinh%2Bcosh%2Btanh.svg.png"/>'
+        )
+        soup = BeautifulSoup(html, "html.parser")
+        out_to_archive: set[str] = set()
+        result = await converter.convert(
+            soup,
+            out_to_archive=out_to_archive,
+            redirect_map={},
+            refs=True,
+        )
+        assert out_to_archive == {"File:Sinh+cosh+tanh.svg"}
+        assert "../../archives/Wikimedia%20Commons/Sinh%2Bcosh%2Btanh.svg" in result
+
 
 # ---------------------------------------------------------------------------
 
