@@ -33,7 +33,11 @@ Keep detailed policy, edge cases, and advanced note-writing rules in `SKILL.md`.
   (`lab.md`, `tutorial.md`, `lecture.md`) as children when the in-class
   component exists. The `## children` section links to these files, and
   `## submission` lists both out-of-class (`submission.yml`) and in-class
-  (`lab.yml`/`tutorial.yml`/`lecture.yml`) metadata.
+  (`lab.yml`/`tutorial.yml`/`lecture.yml`) metadata. A Canvas-sourced content
+  file mirrors the Canvas header block of its `index.md` — frontmatter,
+  `# <type>` heading, identity bullets, the Canvas metadata bullets from the
+  component YAML, and the verbatim Canvas description — instead of being left
+  as a bare stub.
 - Keep `index.md` pages lean: the course root should hold only the high-value
   overview, folder indexes should summarize just enough to navigate, and leaf
   indexes should usually contain only minimal logistics until real content is
