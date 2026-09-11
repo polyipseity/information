@@ -5,10 +5,11 @@ function, verifying expected messages or lack thereof.
 """
 
 from os import PathLike
+from typing import cast
 
 import pytest
 from anyio import Path
-from main_mods.models import Frontmatter, Severity, ValidationContext
+from main_mods.models import AstNode, Frontmatter, Severity, ValidationContext
 from main_mods.rules import (
     RULE_REGISTRY,
     agents_no_flashcard_markup,
@@ -118,7 +119,8 @@ def make_ctx(text: str, path: Path = Path("/tmp/course/index.md")) -> Validation
     # frontmatter) so mistune doesn't produce spurious nodes from YAML
     # list items / key-value pairs.
     try:
-        ast = _MD(body)
+        # Mistune returns untyped node dicts whose runtime shape is AstNode.
+        ast = cast("list[AstNode]", _MD(body))
     except Exception:
         ast = []
     session_headers = parse_session_headers(text, ast)

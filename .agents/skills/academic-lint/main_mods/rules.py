@@ -27,7 +27,7 @@ from urllib.parse import unquote
 
 from anyio import Path
 
-from .models import Severity, ValidationContext, ValidationMessage
+from .models import AstNode, Severity, ValidationContext, ValidationMessage
 from .registry import RuleRegistry
 from .utils import (
     FRONT_RE,
@@ -57,8 +57,8 @@ def _normalize_heading_text(text: str) -> str:
 
 
 def _iter_regex_headings_filtered_by_ast(
-    text: str, ast: list[dict] | None, min_level: int = 1
-) -> Iterator[re.Match]:
+    text: str, ast: list[AstNode] | None, min_level: int = 1
+) -> Iterator[re.Match[str]]:
     """Yield regex matches for headings validated by AST parsing.
 
     Uses the mistune AST to filter out false-positive header matches
@@ -85,15 +85,15 @@ def _iter_regex_headings_filtered_by_ast(
 
 
 def _build_filtered_header_positions(
-    text: str, ast: list[dict] | None
-) -> list[tuple[int, int, re.Match]]:
+    text: str, ast: list[AstNode] | None
+) -> list[tuple[int, int, re.Match[str]]]:
     """Build a list of (start_pos, level, match) for AST-validated headings.
 
     Uses the mistune AST to skip false-positive header matches
     (e.g. ``#``-prefixed lines inside fenced code blocks).
     Falls back to all regex matches when *ast* is ``None`` or empty.
     """
-    result: list[tuple[int, int, re.Match]] = []
+    result: list[tuple[int, int, re.Match[str]]] = []
 
     valid: set[tuple[int, str]] = set()
     if ast:
@@ -111,7 +111,7 @@ def _build_filtered_header_positions(
 
 
 def _build_code_block_ranges(
-    text: str, ast: list[dict] | None
+    text: str, ast: list[AstNode] | None
 ) -> list[tuple[int, int]]:
     """Build sorted list of (start_byte, end_byte) for code-block raw content.
 
@@ -133,7 +133,7 @@ def _build_code_block_ranges(
     return ranges
 
 
-def _is_inside_code_block(pos: int, text: str, ast: list[dict] | None) -> bool:
+def _is_inside_code_block(pos: int, text: str, ast: list[AstNode] | None) -> bool:
     """Return ``True`` if byte position *pos* falls inside a code-block range.
 
     Uses AST ``block_code`` nodes for reliable code-block detection.
@@ -146,7 +146,7 @@ def _is_inside_code_block(pos: int, text: str, ast: list[dict] | None) -> bool:
 
 
 def _get_section_end(
-    text: str, start_offset: int, hdr_text: str, ast: list[dict] | None
+    text: str, start_offset: int, hdr_text: str, ast: list[AstNode] | None
 ) -> int:
     """Find the end of a section beginning at *start_offset*.
 
@@ -1854,7 +1854,9 @@ def misplaced_suppression_comment(ctx: ValidationContext) -> list[ValidationMess
 # math and unit rules --------------------------------------------------------
 
 
-def find_math_spans(text: str, ast: list[dict] | None = None) -> list[tuple[int, int]]:
+def find_math_spans(
+    text: str, ast: list[AstNode] | None = None
+) -> list[tuple[int, int]]:
     """Find LaTeX math spans ``$…$`` and ``$$…$$``.
 
     When *ast* is provided (a mistune AST), uses the AST's
@@ -1913,7 +1915,7 @@ def _find_math_spans_fallback(text: str) -> list[tuple[int, int]]:
     return spans
 
 
-def _find_math_spans_ast(text: str, ast: list[dict]) -> list[tuple[int, int]]:
+def _find_math_spans_ast(text: str, ast: list[AstNode]) -> list[tuple[int, int]]:
     """AST-based math span detection using mistune.
 
     Walks the AST for ``inline_math`` / ``block_math`` nodes and locates
@@ -3885,7 +3887,7 @@ def md028_missing(ctx: ValidationContext) -> list[ValidationMessage]:
     if not ast:
         return errors
 
-    prev_bq: dict | None = None
+    prev_bq: AstNode | None = None
     prev_idx = -1
 
     for idx, node in enumerate(ast):
@@ -3935,7 +3937,7 @@ def md028_missing(ctx: ValidationContext) -> list[ValidationMessage]:
     return errors
 
 
-def _first_text_content(node: dict) -> str:
+def _first_text_content(node: AstNode) -> str:
     """Walk an AST node returning the first raw text content found."""
     if node.get("type") == "text":
         return node.get("raw", "")

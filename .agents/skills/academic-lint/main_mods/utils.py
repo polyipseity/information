@@ -7,6 +7,7 @@ functions shared between the validator and tests.
 
 import re
 from collections.abc import Iterator
+from typing import TypedDict
 
 import mistune
 from anyio import Path
@@ -22,7 +23,7 @@ from mistune.plugins.math import (
 )
 from mistune.plugins.table import table as _mistune_table
 
-from .models import PreviewEntry, ValidationMessage
+from .models import AstNode, PreviewEntry, ValidationMessage
 
 """Public symbols exported by this module."""
 __all__ = (
@@ -40,6 +41,9 @@ __all__ = (
     "ast_collect_text",
     "ast_headings",
     "ast_sections",
+    "ast_heading_level",
+    "AstHeading",
+    "AstSection",
     # session/AST shared helpers
     "_MD",
     "SESSION_HEADING_RE",
@@ -292,7 +296,7 @@ async def aggregate(
 # AST/session helpers (mistune) --------------------------------------------
 
 
-def extract_ast_heading_positions(ast: list[dict] | None, text: str) -> set[int]:
+def extract_ast_heading_positions(ast: list[AstNode] | None, text: str) -> set[int]:
     """Return set of byte positions where the AST finds real headings.
 
     Skips headings inside code blocks or comments that regex might match
@@ -304,7 +308,7 @@ def extract_ast_heading_positions(ast: list[dict] | None, text: str) -> set[int]
     for node in iter_ast(ast):
         if node.get("type") == "heading":
             raw_text = ast_collect_text(node)
-            needle = f"{'#' * node.get('attrs', {}).get('level', 2)} {raw_text}"
+            needle = f"{'#' * ast_heading_level(node, 2)} {raw_text}"
             idx = text.find(needle)
             # Consume previously-found positions so duplicates aren't lost.
             while idx in positions and idx != -1:
@@ -315,7 +319,7 @@ def extract_ast_heading_positions(ast: list[dict] | None, text: str) -> set[int]
 
 
 def parse_session_headers(
-    text: str, ast: list[dict] | None = None
+    text: str, ast: list[AstNode] | None = None
 ) -> list[tuple[str, str, str, int]]:
     """Extract session heading metadata from *text*.
 
@@ -345,7 +349,34 @@ def parse_session_headers(
 # AST helpers (mistune) ------------------------------------------------------
 
 
-def iter_ast(nodes: list[dict]) -> Iterator[dict]:
+class AstHeading(TypedDict):
+    """Summary of one heading produced by :func:`ast_headings`."""
+
+    type: str
+    level: int
+    text: str
+    node: AstNode
+
+
+class AstSection(TypedDict):
+    """One heading-delimited section produced by :func:`ast_sections`."""
+
+    heading: AstNode | None
+    children: list[AstNode]
+
+
+def ast_heading_level(node: AstNode, default: int) -> int:
+    """Return the heading level recorded in *node*'s ``attrs``.
+
+    Mistune stores the ATX/Setext level as an integer under ``attrs``.
+    *default* is returned when the parser omits the attribute or records a
+    non-integer value, preserving the callers' fallback semantics.
+    """
+    level = node.get("attrs", {}).get("level", default)
+    return level if isinstance(level, int) else default
+
+
+def iter_ast(nodes: list[AstNode]) -> Iterator[AstNode]:
     """Recursively yield all AST nodes depth-first pre-order from *nodes*."""
     for node in nodes:
         yield node
@@ -354,15 +385,15 @@ def iter_ast(nodes: list[dict]) -> Iterator[dict]:
             yield from iter_ast(children)
 
 
-def filter_ast(nodes: list[dict], node_type: str) -> Iterator[dict]:
+def filter_ast(nodes: list[AstNode], node_type: str) -> Iterator[AstNode]:
     """Yield only AST nodes whose ``type`` equals *node_type*."""
     return (n for n in iter_ast(nodes) if n.get("type") == node_type)
 
 
-def ast_collect_text(node: dict) -> str:
+def ast_collect_text(node: AstNode) -> str:
     """Collect all ``raw`` text from *node* and its children recursively."""
 
-    def _walk(n: dict, parts: list[str]) -> None:
+    def _walk(n: AstNode, parts: list[str]) -> None:
         """Recursively collect raw text from an AST node into parts list."""
         if "raw" in n:
             parts.append(n["raw"])
@@ -374,17 +405,17 @@ def ast_collect_text(node: dict) -> str:
     return "".join(parts)
 
 
-def ast_headings(ast_nodes: list[dict]) -> list[dict]:
+def ast_headings(ast_nodes: list[AstNode]) -> list[AstHeading]:
     """Return summary dicts for every heading in *ast_nodes*.
 
     Each result has keys ``type``, ``level``, ``text``, ``node``.
     """
-    result: list[dict] = []
+    result: list[AstHeading] = []
     for node in filter_ast(ast_nodes, "heading"):
         result.append(
             {
                 "type": "heading",
-                "level": node.get("attrs", {}).get("level", 1),
+                "level": ast_heading_level(node, 1),
                 "text": ast_collect_text(node),
                 "node": node,
             }
@@ -392,16 +423,16 @@ def ast_headings(ast_nodes: list[dict]) -> list[dict]:
     return result
 
 
-def ast_sections(ast_nodes: list[dict]) -> list[dict]:
+def ast_sections(ast_nodes: list[AstNode]) -> list[AstSection]:
     """Split the top-level AST into heading-delimited sections.
 
     Returns a list of dicts with keys ``heading`` (the heading node, or
     ``None`` for the preamble) and ``children`` (non-heading nodes in that
     section).  ``blank_line`` nodes are silently dropped.
     """
-    sections: list[dict] = []
-    current_children: list[dict] = []
-    current_heading: dict | None = None
+    sections: list[AstSection] = []
+    current_children: list[AstNode] = []
+    current_heading: AstNode | None = None
 
     for node in ast_nodes:
         if node.get("type") == "heading":

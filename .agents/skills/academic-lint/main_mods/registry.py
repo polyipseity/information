@@ -14,7 +14,7 @@ from typing import Protocol, TypeVar
 from .models import ValidationContext, ValidationMessage
 
 """Public symbols exported by this module."""
-__all__ = ("RuleFunction", "RuleRegistry")
+__all__ = ("RuleFunction", "RuleRegistry", "RuleResult")
 
 
 RuleResult = Sequence[ValidationMessage] | Awaitable[Sequence[ValidationMessage]]

@@ -104,7 +104,7 @@ async def test_walk_and_check_and_main_json(
         # use a tag matching the flashcard/active/special/academia prefix
         "---\naliases: [a]\ntags: [language/in/English, flashcard/active/special/academia/test]\n---\n",
     )
-    bad = await make_temp_markdown(tmp_path / "sub", "---\ntags: []\n---\n")
+    bad = await make_temp_markdown(Path(tmp_path) / "sub", "---\ntags: []\n---\n")
     # run walk_and_check on directory
     res = await walk_and_check([Path(tmp_path)])
     # should record errors for bad file
@@ -145,7 +145,9 @@ tags: [language/in/English, flashcard/active/special/academia/test]
 """,
     )
     # create one file that triggers an error
-    _file_err = await make_temp_markdown(tmp_path / "err.md", "---\ntags: []\n---\n")
+    _file_err = await make_temp_markdown(
+        Path(tmp_path) / "err.md", "---\ntags: []\n---\n"
+    )
     with pytest.raises(SystemExit) as exc_info:
         await validator.main([str(tmp_path)])
     assert exc_info.value.code == 2
@@ -177,7 +179,7 @@ async def test_max_per_rule_limit(
 
     # create six files that all trigger the same error (missing aliases)
     for i in range(6):
-        fpath = tmp_path / f"bad{i}.md"
+        fpath = Path(tmp_path) / f"bad{i}.md"
         await Path(fpath).write_text("""---\ntags: []\n---\n""")
 
     # run without specifying limit (default 5)

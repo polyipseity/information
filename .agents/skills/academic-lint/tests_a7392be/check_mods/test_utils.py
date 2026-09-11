@@ -7,6 +7,7 @@ from os import PathLike
 
 import pytest
 from anyio import Path
+from main_mods.models import AstNode
 from main_mods.utils import (
     _segment_paragraphs,
     ast_collect_text,
@@ -65,6 +66,8 @@ async def test_get_excerpt_latex_delimiter_shows_next_line(tmp_path: PathLike[st
     p = Path(tmp_path) / "file.md"
     await p.write_text("$\nmath\n")
     excerpt, caret = await get_excerpt(p, "math msg", line=1, col=1)
+    assert excerpt is not None
+    assert caret is not None
     assert excerpt.strip() == "math"
     # caret should span the entire snippet (length of 'math' == 4)
     assert caret.strip() == "^" * len(excerpt.strip())
@@ -104,7 +107,9 @@ def test_parse_frontmatter_none_and_malformed():
     # malformed frontmatter should simply return content between delimiters
     sample = "---\nnot yaml: [\n---\n"
     # carriage return/newline variations may exist; compare stripped
-    assert parse_frontmatter(sample).strip() == "not yaml: ["
+    malformed = parse_frontmatter(sample)
+    assert malformed is not None
+    assert malformed.strip() == "not yaml: ["
 
 
 def test_has_flash_tag_false():
@@ -150,12 +155,12 @@ async def test_get_excerpt_file_missing(tmp_path: PathLike[str]):
 # Minimal AST node factories
 
 
-def _text(raw: str) -> dict:
+def _text(raw: str) -> AstNode:
     """Create a minimal text AST node."""
     return {"type": "text", "raw": raw}
 
 
-def _heading(level: int, text: str) -> dict:
+def _heading(level: int, text: str) -> AstNode:
     """Create a minimal heading AST node."""
     return {
         "type": "heading",
@@ -165,22 +170,22 @@ def _heading(level: int, text: str) -> dict:
     }
 
 
-def _para(text: str) -> dict:
+def _para(text: str) -> AstNode:
     """Create a minimal paragraph AST node."""
     return {"type": "paragraph", "children": [_text(text)]}
 
 
-def _blank() -> dict:
+def _blank() -> AstNode:
     """Create a minimal blank-line AST node."""
     return {"type": "blank_line"}
 
 
-def _list_item(text: str) -> dict:
+def _list_item(text: str) -> AstNode:
     """Create a minimal list-item AST node."""
     return {"type": "list_item", "children": [_text(text)]}
 
 
-def _list(items: list[dict]) -> dict:
+def _list(items: list[AstNode]) -> AstNode:
     """Create a minimal list AST node."""
     return {"type": "list", "tight": True, "children": items}
 
@@ -246,7 +251,7 @@ class TestAstCollectText:
 
     def test_paragraph_with_inline(self):
         """Verify ast_collect_text handles inline formatting in paragraphs."""
-        para = {
+        para: AstNode = {
             "type": "paragraph",
             "children": [
                 _text("a "),
@@ -258,7 +263,7 @@ class TestAstCollectText:
 
     def test_nested_formatting(self):
         """Verify ast_collect_text handles nested strong/emphasis."""
-        outer = {
+        outer: AstNode = {
             "type": "emphasis",
             "children": [{"type": "strong", "children": [_text("bold+italic")]}],
         }
@@ -283,7 +288,7 @@ class TestAstHeadings:
 
     def test_heading_level_default(self):
         """Verify ast_headings uses default level 1 for unmarked headings."""
-        node = {"type": "heading", "children": [_text("X")]}
+        node: AstNode = {"type": "heading", "children": [_text("X")]}
         heads = ast_headings([node])
         assert heads[0]["level"] == 1  # default
 
@@ -317,8 +322,11 @@ class TestAstSections:
         ast = [_heading(1, "A"), _para("body a"), _heading(2, "B"), _para("body b")]
         sects = ast_sections(ast)
         assert len(sects) == 2
-        assert ast_collect_text(sects[0]["heading"]) == "A"
-        assert ast_collect_text(sects[1]["heading"]) == "B"
+        first, second = sects[0]["heading"], sects[1]["heading"]
+        assert first is not None
+        assert second is not None
+        assert ast_collect_text(first) == "A"
+        assert ast_collect_text(second) == "B"
         assert len(sects[0]["children"]) == 1
         assert len(sects[1]["children"]) == 1
 

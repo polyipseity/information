@@ -6,12 +6,12 @@ results.  The command-line entry point lives in ``main.py`` so the core
 logic can be reused by tests and other callers.
 """
 
-import inspect
 import json
 import re
 from argparse import ArgumentParser
-from collections.abc import Sequence
+from collections.abc import Awaitable, Sequence
 from os import fspath
+from typing import cast
 
 from anyio import Path
 from pydantic_yaml import parse_yaml_raw_as
@@ -20,13 +20,14 @@ from rich.text import Text
 
 from . import rules
 from .models import (
+    AstNode,
     Frontmatter,
     Severity,
     ValidationContext,
     ValidationMessage,
     ValidationResult,
 )
-from .registry import RuleRegistry
+from .registry import RuleRegistry, RuleResult
 from .utils import (
     _MD,
     DEFAULT_PATHS,
@@ -38,7 +39,6 @@ from .utils import (
 
 # build local registry and import the rules defined in rules.py
 """Merged registry of all validation rules; used by main() to run checks."""
-
 RULE_REGISTRY = RuleRegistry()
 RULE_REGISTRY.include_registry(rules.RULE_REGISTRY)
 
@@ -176,7 +176,10 @@ async def check_markdown_file(path: Path) -> list[ValidationMessage]:
     # key-value pairs as Markdown lists/paragraphs, which would otherwise
     # produce spurious AST nodes.
     try:
-        ast = _MD(body)
+        # Mistune returns untyped node dicts; its runtime shape is the
+        # AstNode structure every rule consumes, so assert it once here
+        # instead of re-narrowing at each rule.
+        ast = cast("list[AstNode]", _MD(body))
     except Exception:
         ast = []
 
@@ -195,9 +198,7 @@ async def check_markdown_file(path: Path) -> list[ValidationMessage]:
 
     for rid, rule in RULE_REGISTRY.items():
         try:
-            results = rule(ctx)
-            if inspect.isawaitable(results):
-                results = await results
+            errors.extend(await _collect_messages(rule(ctx)))
         except Exception as exc:  # pragma: no cover - defensive
             errors.append(
                 ValidationMessage(
@@ -205,7 +206,6 @@ async def check_markdown_file(path: Path) -> list[ValidationMessage]:
                 )
             )
             continue
-        errors.extend(results)
 
     # before we actually apply the suppression filter, validate any rule IDs
     # in suppression directives.  If a rule ID is not registered then emit a
@@ -305,6 +305,18 @@ async def check_markdown_file(path: Path) -> list[ValidationMessage]:
         errors = filtered
 
     return errors
+
+
+async def _collect_messages(result: RuleResult) -> Sequence[ValidationMessage]:
+    """Return the messages carried by *result*, awaiting async rules.
+
+    *result* is the union of the sync and async rule return types.  Type
+    narrowing cannot select the awaitable member of that union, so each
+    branch asserts the member it consumes.
+    """
+    if isinstance(result, Awaitable):
+        return await cast("Awaitable[Sequence[ValidationMessage]]", result)
+    return cast("Sequence[ValidationMessage]", result)
 
 
 async def walk_and_check(roots: Sequence[Path]) -> ValidationResult:

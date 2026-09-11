@@ -41,7 +41,9 @@ def test_make_filenames_basic():
 def test_search_parsing(monkeypatch: pytest.MonkeyPatch):
     """The search() wrapper should parse JSON into SearchHit objects."""
     # provide a canned response to the underlying API helper
-    fake = {"query": {"search": [{"title": "T1", "snippet": "<b>hi</b>"}]}}
+    fake: dict[str, object] = {
+        "query": {"search": [{"title": "T1", "snippet": "<b>hi</b>"}]}
+    }
 
     def fake_req(
         url: str, model: type[BaseModel] | None = None
