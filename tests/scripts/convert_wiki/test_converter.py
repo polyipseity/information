@@ -1922,6 +1922,61 @@ class TestTextNormalization:
     """Tests for the formatting-agnostic text normalization."""
 
     @pytest.mark.anyio
+    async def test_space_between_two_plain_spans(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Whitespace between two inline wrappers survives the flattening.
+
+        ``_handle_span`` emits nothing, so at a span edge the whitespace has no
+        direct sibling in the markup yet still separates two rendered tokens.
+        """
+        result = await _convert(converter, "<p><span>a</span> <span>b</span></p>")
+        assert "a b" in result
+
+    @pytest.mark.anyio
+    async def test_space_between_bold_and_span(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A bold run and an inline wrapper are still two tokens."""
+        result = await _convert(converter, "<p><b>a</b> <span>b</span></p>")
+        assert "__a__ b" in result
+
+    @pytest.mark.anyio
+    async def test_space_at_nested_span_edge(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """The walk up through nested transparent spans keeps the space."""
+        result = await _convert(
+            converter, "<p><span><span>a</span></span> <span>b</span></p>"
+        )
+        assert "a b" in result
+
+    @pytest.mark.anyio
+    async def test_space_kept_between_spans_inside_text(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """The preserved space still separates the surrounding text runs."""
+        result = await _convert(converter, "<p>x<span>a</span> <span>b</span>y</p>")
+        assert "xa by" in result
+
+    @pytest.mark.anyio
+    async def test_no_extra_space_when_one_side_is_spaced(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Whitespace runs collapse to one space, never two."""
+        result = await _convert(converter, "<p>dash  events</p>")
+        assert "dash events" in result
+        assert "dash  events" not in result
+
+    @pytest.mark.anyio
+    async def test_no_space_across_block_boundary(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Whitespace touching a block element separates blocks, not words."""
+        result = await _convert(converter, "<p>a</p> <p>b</p>")
+        assert "a b" not in result
+
+    @pytest.mark.anyio
     async def test_newlines_normalized_to_spaces(
         self, converter: WikiHtmlConverter
     ) -> None:
@@ -2220,38 +2275,84 @@ class TestStaticUtilities:
         node = next(iter(soup.children))
         assert WikiHtmlConverter._renders_nothing(node) is expected
 
-    def test_text_edges_would_merge(self) -> None:
-        """Two word edges need the space between them."""
-        assert WikiHtmlConverter._text_edges_would_merge(
-            NavigableString("Physics"), NavigableString("portal")
-        )
+    def test_edge_is_word_plain_text(self) -> None:
+        """Each side is judged by the character that touches the whitespace.
 
-    def test_text_edges_already_separated(self) -> None:
-        """A neighbour that already supplies a space needs no second one.
-
-        The previous edge is its last character and the next edge its first,
-        so either side may carry the separation on its own.
+        The previous neighbour is read from its last character and the next
+        from its first, so either side may carry the separation on its own.
         """
-        assert not WikiHtmlConverter._text_edges_would_merge(
-            NavigableString("dash"), NavigableString(" events")
+        assert WikiHtmlConverter._nearest_edge_is_word(
+            NavigableString("Physics"), following=False
         )
-        assert not WikiHtmlConverter._text_edges_would_merge(
-            NavigableString("dash "), NavigableString("events")
+        assert WikiHtmlConverter._nearest_edge_is_word(
+            NavigableString("portal"), following=True
         )
+        assert not WikiHtmlConverter._nearest_edge_is_word(
+            NavigableString("dash "), following=False
+        )
+        assert not WikiHtmlConverter._nearest_edge_is_word(
+            NavigableString(" events"), following=True
+        )
+        assert not WikiHtmlConverter._nearest_edge_is_word(
+            NavigableString(""), following=False
+        )
+        assert not WikiHtmlConverter._nearest_edge_is_word(None, following=True)
 
-    def test_text_edges_rejects_non_text(self) -> None:
-        """Only a pair of plain-text neighbours can merge this way."""
-        soup = BeautifulSoup("<p>a<b>b</b></p>", "html.parser")
-        bold = soup.find("b")
-        assert bold is not None
-        assert not WikiHtmlConverter._text_edges_would_merge(NavigableString("a"), bold)
-        assert not WikiHtmlConverter._text_edges_would_merge(None, None)
-        assert not WikiHtmlConverter._text_edges_would_merge(
-            NavigableString(""), NavigableString("text")
+    def test_edge_is_word_descends_into_inline_wrappers(self) -> None:
+        """The edge comes from rendered content, not the first element boundary.
+
+        ``<bdi>`` is not in the inline-tag set yet still wraps a word, so a
+        descent that stopped at whitelisted tags would report no edge at all.
+        """
+        soup = BeautifulSoup(
+            '<p><a href="#"><bdi>978-0-486-63612-2</bdi></a> <span>b</span></p>',
+            "html.parser",
         )
-        assert not WikiHtmlConverter._text_edges_would_merge(
-            NavigableString("text"), NavigableString("")
+        link = soup.find("a")
+        assert isinstance(link, Tag)
+        assert WikiHtmlConverter._nearest_edge_is_word(link, following=False)
+
+    def test_edge_is_word_skips_unrendered_markup(self) -> None:
+        """Whitespace and empty wrappers are not the edge.
+
+        Parsoid leaves a whitespace-only text node as the first child of
+        ``<math>``, and emits empty ``<span class="Z3988">`` metadata spans
+        between citation links; neither may terminate the descent.
+        """
+        soup = BeautifulSoup(
+            '<p><span><span class="Z3988"></span>Physics</span> <span>b</span></p>',
+            "html.parser",
         )
+        outer = soup.find("span")
+        assert isinstance(outer, Tag)
+        assert WikiHtmlConverter._nearest_edge_is_word(outer, following=False)
+        math = BeautifulSoup(
+            "<p><span><math> <mi>M</mi></math></span> <span>b</span></p>", "html.parser"
+        ).find("span")
+        assert isinstance(math, Tag)
+        assert WikiHtmlConverter._nearest_edge_is_word(math, following=True)
+
+    def test_edge_is_word_block_boundaries(self) -> None:
+        """Block tags and ``<br>`` separate blocks, not words."""
+        for html in ("<div>a</div>", "<p>a</p>", "<br/>", "<hr/>"):
+            soup = BeautifulSoup(html, "html.parser")
+            node = next(iter(soup.children))
+            assert not WikiHtmlConverter._nearest_edge_is_word(node, following=True)
+            assert not WikiHtmlConverter._nearest_edge_is_word(node, following=False)
+
+    def test_edge_is_word_treats_image_as_a_token(self) -> None:
+        """An image has no children yet still renders an inline token."""
+        soup = BeautifulSoup("<img src='a'/>", "html.parser")
+        img = next(iter(soup.children))
+        assert WikiHtmlConverter._nearest_edge_is_word(img, following=True)
+
+    def test_edge_is_word_ignores_empty_wrappers(self) -> None:
+        """A wrapper that renders nothing has no word edge either way."""
+        for html in ("<span></span>", "<b> </b>"):
+            soup = BeautifulSoup(html, "html.parser")
+            node = next(iter(soup.children))
+            assert not WikiHtmlConverter._nearest_edge_is_word(node, following=True)
+            assert not WikiHtmlConverter._nearest_edge_is_word(node, following=False)
 
 
 # ---------------------------------------------------------------------------

@@ -42,8 +42,6 @@ _HEADER_REGEX = re.compile(r"^h(\d)$")
 _BOLD_OR_ITALIC = frozenset({"b", "em", "i", "strong"})
 """Tags that render as lists."""
 _LIST_TAGS = frozenset({"ol", "ul"})
-"""Inline-level HTML tags for whitespace-preservation checks."""
-_INLINE_TAGS = frozenset({"a", "span", "em", "i", "b", "strong", "img"})
 """Bold font-weight style detector."""
 _BOLD_FONT_STYLE_REGEX = re.compile(r"\bfont-weight\s*:\s*bold\b", re.IGNORECASE)
 """Italic font-style detector."""
@@ -96,6 +94,63 @@ Tags that render a glyph or a line break with no child content.
 text: they are rendered tokens in their own right.
 """
 _ATOMIC_TAGS = frozenset({"br", "hr", "img"})
+"""
+Block-level tags whose edges separate blocks rather than joining words.
+
+``_nearest_edge_is_word`` stops its descent here: a whitespace run that touches
+one of these separates block elements, so it carries no inline separation.
+"""
+_BLOCK_TAGS = frozenset(
+    {
+        "address",
+        "article",
+        "aside",
+        "blockquote",
+        "br",
+        "caption",
+        "colgroup",
+        "dd",
+        "details",
+        "dialog",
+        "div",
+        "dl",
+        "dt",
+        "fieldset",
+        "figcaption",
+        "figure",
+        "footer",
+        "form",
+        "h1",
+        "h2",
+        "h3",
+        "h4",
+        "h5",
+        "h6",
+        "header",
+        "hgroup",
+        "hr",
+        "li",
+        "main",
+        "menu",
+        "nav",
+        "ol",
+        "optgroup",
+        "option",
+        "p",
+        "pre",
+        "search",
+        "section",
+        "summary",
+        "table",
+        "tbody",
+        "td",
+        "tfoot",
+        "th",
+        "thead",
+        "tr",
+        "ul",
+    }
+)
 """Inline tags that can form an equation-box title."""
 _EQUATION_BOX_TITLE_TAGS = frozenset({"b", "strong", "i", "em", "span"})
 """Block-level tags that separate an equation-box title from its body."""
@@ -262,40 +317,20 @@ class WikiHtmlConverter:
                     # ``_handle_span`` flattens transparent spans, so a
                     # whitespace run at a span edge has no direct sibling yet
                     # still separates two rendered tokens.
-                    prev = self._effective_sibling(ele, following=False)
-                    nxt = self._effective_sibling(ele, following=True)
-                    if not self._in_texhtml(ele) and (
-                        (
-                            isinstance(prev, Tag)
-                            and isinstance(nxt, Tag)
-                            and (
-                                (
-                                    self._is_inline_emphasis(prev)
-                                    and self._is_inline_emphasis(nxt)
-                                )
-                                or (
-                                    self._is_inline_link(prev)
-                                    and self._is_inline_link(nxt)
-                                )
-                                or (
-                                    self._is_inline_link(prev)
-                                    and nxt.name in _INLINE_TAGS
-                                )
-                                or (
-                                    prev.name in _INLINE_TAGS
-                                    and self._is_inline_link(nxt)
-                                )
-                            )
-                        )
-                        or self._text_edges_would_merge(prev, nxt)
+                    prev = self._rendered_neighbour(ele, following=False)
+                    nxt = self._rendered_neighbour(ele, following=True)
+                    if (
+                        not self._in_texhtml(ele)
+                        and self._nearest_edge_is_word(prev, following=False)
+                        and self._nearest_edge_is_word(nxt, following=True)
                     ):
                         return " "
                     if (
                         self._in_texhtml(ele)
-                        and isinstance(prev := ele.previous_sibling, Tag)
-                        and isinstance(nxt := ele.next_sibling, Tag)
-                        and self._is_inline_emphasis(prev)
-                        and self._is_inline_emphasis(nxt)
+                        and isinstance(raw_prev := ele.previous_sibling, Tag)
+                        and isinstance(raw_nxt := ele.next_sibling, Tag)
+                        and self._is_inline_emphasis(raw_prev)
+                        and self._is_inline_emphasis(raw_nxt)
                     ):
                         return _cfg._MARKDOWN_SEPARATOR
                     return ""
@@ -679,30 +714,44 @@ class WikiHtmlConverter:
             and sibling.lstrip(_cfg._MARKDOWN_SEPARATOR_CHARACTERS) == sibling
         )
 
-    @staticmethod
-    def _text_edges_would_merge(
-        prev: PageElement | None, nxt: PageElement | None
-    ) -> bool:
-        """Whether two plain-text neighbours would merge without a space.
+    @classmethod
+    def _nearest_edge_is_word(cls, ele: PageElement | None, *, following: bool) -> bool:
+        """Whether the nearest rendered character at *ele*'s edge is a word character.
 
-        Parsoid renders an explicit character reference as an ``mw:Entity`` span
-        whose body is the referenced character: U+0020 for ``&#32;``, U+00A0 for
-        ``&nbsp;``.  Only an ASCII-whitespace body reaches the whitespace
-        collapsing above; when such a span sits between two words its text is the
-        only separation, so both rendered neighbours must be text and neither may
-        already supply a space.
+        The whitespace branch asks this of both neighbours.  A run of whitespace
+        is the only separation between two words, so it must survive whitespace
+        collapsing whenever both rendered edges are word characters; the previous
+        neighbour is judged by its last character and the next by its first.
+
+        The answer comes from the *rendered* edge, so the descent steps through
+        inline wrappers (``<bdi>``, ``<math>``, nested spans) and past markup
+        that renders nothing instead of stopping at the first element boundary.
+        An edge that reaches a block element or ``<br>`` is not a word edge:
+        those separate blocks rather than joining words.
         """
-        if not isinstance(prev, NavigableString) or not isinstance(
-            nxt, NavigableString
-        ):
-            return False
-        before, after = str(prev), str(nxt)
-        return (
-            bool(before)
-            and bool(after)
-            and not before[-1].isspace()
-            and not after[0].isspace()
-        )
+        node = ele
+        while node is not None:
+            if isinstance(node, PreformattedString):
+                return False
+            if isinstance(node, NavigableString):
+                text = str(node)
+                if not text.strip():
+                    return False
+                return not (text[0] if following else text[-1]).isspace()
+            if not isinstance(node, Tag):
+                return False
+            if node.name == "img":
+                return True
+            if node.name in _BLOCK_TAGS:
+                return False
+            children = tuple(node.contents)
+            if not following:
+                children = children[::-1]
+            node = next(
+                (child for child in children if not cls._renders_nothing(child)),
+                None,
+            )
+        return False
 
     @staticmethod
     def _renders_emphasis(ele: Tag) -> bool:
@@ -1146,11 +1195,6 @@ class WikiHtmlConverter:
                 or _ITALIC_FONT_STYLE_REGEX.search(style)
             )
         return False
-
-    @staticmethod
-    def _is_inline_link(ele: Tag) -> bool:
-        """Return True for inline link (anchor) elements."""
-        return ele.name == "a"
 
     @staticmethod
     def _in_inline_context(ele: Tag) -> bool:
