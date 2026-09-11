@@ -43,14 +43,15 @@ Keep detailed policy, edge cases, and advanced note-writing rules in `SKILL.md`.
   indexes should usually contain only minimal logistics until real content is
   ingested.
 - For Canvas-derived assignment-style leaf indexes (for example lab rounds,
-  homework folders, quiz handouts, or similar deliverables), structure the page
-  as index metadata, `## children`, `## description`, `## attachments`,
-  `## submission`, and `## solution`; do not insert an extra `---` after the
-  parent line. In `## description`, store the Canvas title header as the first
-  list item `- title: <verbatim title>` rather than as a heading, keep the
-  visible Canvas wording verbatim, and point the attachments list at local
-  `attachments/` files. If submission or solution artifacts are intentionally
-  private but the page should still preserve the ordinary repository routes,
+  homework folders, quiz handouts, or similar deliverables), store the Canvas
+  title header as the first list item `- title: <verbatim title>` in a metadata
+  block delimited by `---` above and below and placed directly after the parent
+  line, then the verbatim Canvas description, then `## attachments`,
+  `## submission`, and `## solution`, with `## children` last when an in-class
+  component exists. Keep the visible Canvas wording verbatim, and point the
+  attachments list at local `attachments/` files. If submission or solution
+  artifacts are intentionally private but the page should still preserve the
+  ordinary repository routes,
   keep normal relative links in public `## submission` / `## solution`
   sections as if the files were colocated, and do not rewrite those links to
   `private/`. Keep `## solution` in the same plain file-list style as
@@ -236,10 +237,6 @@ tags:
 
 Lab instructions and sample data.
 
-## children
-
-- [lab](lab.md)
-
 ## attachments
 
 - [`lab1.pdf`](attachments/lab1.pdf)
@@ -253,4 +250,8 @@ Lab instructions and sample data.
 ## solution
 
 - [`solution.pdf`](solution/solution.pdf)
+
+## children
+
+- [lab](lab.md)
 ```
