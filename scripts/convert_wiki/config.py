@@ -14,8 +14,10 @@ from pathlib import Path as PathlibPath
 from re import Pattern, compile
 from string import punctuation, whitespace
 from sys import version
+from typing import override
 
 import json5
+from aiohttp_retry import JitterRetry
 from yarl import URL
 
 """Exported names from this module."""
@@ -197,14 +199,7 @@ _REDIRECT_CACHE_PATH = _DATA_DIRECTORY / f"{_NAMES_MAP_NAME}.redirect_cache.json
 _API_MAX_TITLES_PER_REQUEST = 50
 "TTL for the redirect cache."
 _CACHE_TTL = timedelta(days=1)
-"Maximum number of retries for 429 Too Many Requests."
-_API_MAX_RETRIES = 3
-"Initial backoff in seconds for 429 retry."
-_API_INITIAL_BACKOFF = 1.0
-"Multiplier for exponential backoff."
-_API_BACKOFF_MULTIPLIER = 2.0
-"Maximum backoff in seconds."
-_API_MAX_BACKOFF = 30.0
+
 
 # Regex patterns
 "Regex for filesystem-unsafe characters in filenames."
@@ -233,6 +228,22 @@ _ARCHIVE_REGEXES = {
         "../../archives/Wikimedia Commons/{}",
     ),
 }
+
+
+class _WikimediaRetry(JitterRetry):
+    """Exponential retry that reads the Retry-After header from 429 responses."""
+
+    @override
+    def get_timeout(self, attempt: int, response=None) -> float:
+        if response is not None and response.status == 429:
+            retry_after = response.headers.get("Retry-After")
+            if retry_after is not None:
+                try:
+                    return max(float(retry_after), self._start_timeout)
+                except ValueError:
+                    pass
+        return super().get_timeout(attempt, response)
+
 
 "Module-level logger."
 _logger = getLogger(__name__)

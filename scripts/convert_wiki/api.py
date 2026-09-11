@@ -10,8 +10,7 @@ from contextlib import suppress
 from datetime import datetime, timezone
 from os import PathLike
 
-import anyio
-from aiohttp import ClientSession
+from aiohttp_retry.types import ClientType
 from anyio import Path
 from bs4 import BeautifulSoup, Tag
 from yarl import URL
@@ -158,38 +157,25 @@ async def _save_redirect_cache(
 
 
 async def _api_request(
-    session: ClientSession,
+    session: ClientType,
     params: dict[str, str | int],
     host: URL = _cfg._WIKI_HOST_URL,
 ) -> _ApiResponse:
-    """Make a MediaWiki API request with retry on HTTP 429."""
+    """Make a MediaWiki API request. Retry handled by RetryClient session."""
     url = URL.build(
         scheme=host.scheme,
         host=str(host.host),
         path="/w/api.php",
         query=params,
     )
-    backoff = _cfg._API_INITIAL_BACKOFF
-    for attempt in range(_cfg._API_MAX_RETRIES):
-        async with session.get(url) as req:
-            if req.status == 429 and attempt < _cfg._API_MAX_RETRIES - 1:
-                retry_after_str = req.headers.get("Retry-After")
-                if retry_after_str is not None:
-                    try:
-                        backoff = float(retry_after_str)
-                    except ValueError:
-                        pass
-                await anyio.sleep(min(backoff, _cfg._API_MAX_BACKOFF))
-                backoff = min(
-                    backoff * _cfg._API_BACKOFF_MULTIPLIER, _cfg._API_MAX_BACKOFF
-                )
-                continue
-            return await req.json()
-    raise AssertionError("unreachable")
+    async with session.get(url) as req:
+        if req.status >= 400:
+            raise ValueError(f"API error: HTTP {req.status} for {url}")
+        return await req.json()
 
 
 async def _resolve_redirects(
-    session: ClientSession,
+    session: ClientType,
     titles: set[str],
     cache: MutableMapping[str, _RedirectInfo],
     cache_path: PathLike[str],
@@ -252,7 +238,7 @@ def _resolve_chain_terminal(first_hop: str, redirect_from_to: Mapping[str, str])
 
 
 async def _fetch_redirect_status(
-    session: ClientSession,
+    session: ClientType,
     titles: Iterable[str],
 ) -> dict[str, _RedirectStatus]:
     """Probe the live redirect status of each title, bypassing the cache.
@@ -317,7 +303,7 @@ async def _fetch_redirect_status(
 
 
 async def _resolve_image_metadata(
-    session: ClientSession,
+    session: ClientType,
     filenames: set[str],
 ) -> dict[str, str]:
     """Fetch image description metadata from Wikimedia Commons API.

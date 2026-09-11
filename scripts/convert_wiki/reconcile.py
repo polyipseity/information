@@ -10,7 +10,7 @@ from dataclasses import dataclass
 from datetime import datetime, timezone
 from os import PathLike
 
-from aiohttp import ClientSession
+from aiohttp_retry.types import ClientType
 from anyio import Path
 
 from . import config as _cfg
@@ -35,7 +35,7 @@ class _ReconcileReport:
 
 
 async def reconcile_redirect_symlinks(
-    session: ClientSession,
+    session: ClientType,
     *,
     wiki_dir: PathLike[str] | None = None,
     cache_path: PathLike[str] | None = None,

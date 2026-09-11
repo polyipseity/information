@@ -12,6 +12,8 @@ from pathlib import PurePath
 from typing import Any
 
 from aiohttp import ClientSession, TCPConnector
+from aiohttp_retry import RetryClient
+from aiohttp_retry.types import ClientType
 from bs4 import BeautifulSoup, PageElement
 
 from . import config as _cfg
@@ -71,18 +73,31 @@ async def _create_session_and_run(
             "Accept-Encoding": "gzip",
             "User-Agent": _cfg.USER_AGENT,
         },
-    ) as session:
-        return await run_pipeline(
-            html,
-            session=session,
-            redirect_map=redirect_map,
-            image_metadata=image_metadata,
-            cache_path=cache_path,
-            names_map=names_map,
-            wiki_dir=wiki_dir,
-            wiki_lang_dir=wiki_lang_dir,
-            refs=refs,
+    ) as raw_session:
+        session = RetryClient(
+            client_session=raw_session,
+            retry_options=_cfg._WikimediaRetry(
+                attempts=3,
+                start_timeout=1.0,
+                max_timeout=30.0,
+                statuses={429},
+            ),
+            raise_for_status=False,
         )
+        try:
+            return await run_pipeline(
+                html,
+                session=session,
+                redirect_map=redirect_map,
+                image_metadata=image_metadata,
+                cache_path=cache_path,
+                names_map=names_map,
+                wiki_dir=wiki_dir,
+                wiki_lang_dir=wiki_lang_dir,
+                refs=refs,
+            )
+        finally:
+            await session.close()
 
 
 def _determine_needs_before(
@@ -583,7 +598,7 @@ async def wiki_html_to_plaintext(
 async def run_pipeline(
     html: BeautifulSoup,
     *,
-    session: ClientSession | None = None,
+    session: ClientType | None = None,
     redirect_map: MutableMapping[str, _RedirectInfo] | None = None,
     image_metadata: Mapping[str, str] | None = None,
     cache_path: PurePath | None = None,

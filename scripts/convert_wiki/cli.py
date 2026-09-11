@@ -12,6 +12,7 @@ from sys import stderr, stdin
 import anyio
 import json5
 from aiohttp import ClientSession, TCPConnector
+from aiohttp_retry import RetryClient
 from anyio import Path
 from asyncer import runnify
 from bs4 import BeautifulSoup
@@ -264,8 +265,21 @@ async def _run_redirect_maintenance(*, dry_run: bool) -> None:
             "Accept-Encoding": "gzip",
             "User-Agent": _cfg.USER_AGENT,
         },
-    ) as session:
-        report = await reconcile_redirect_symlinks(session, dry_run=dry_run)
+    ) as raw_session:
+        session = RetryClient(
+            client_session=raw_session,
+            retry_options=_cfg._WikimediaRetry(
+                attempts=3,
+                start_timeout=1.0,
+                max_timeout=30.0,
+                statuses={429},
+            ),
+            raise_for_status=False,
+        )
+        try:
+            report = await reconcile_redirect_symlinks(session, dry_run=dry_run)
+        finally:
+            await session.close()
     print(
         f"Redirect reconciliation: scanned={report.scanned}, "
         f"retargeted={report.retargeted}, removed={report.removed}, "
