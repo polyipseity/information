@@ -26,7 +26,7 @@ The Routhian, like the Hamiltonian, can be obtained from a [Legendre transform](
 
 The Routhian differs from these functions in that some coordinates are chosen to have corresponding generalized velocities, the rest to have corresponding generalized momenta. This choice is arbitrary, and can be done to simplify the problem. It also has the consequence that the __Routhian equations__ are exactly the Hamiltonian equations for some coordinates and corresponding momenta, and the Lagrangian equations for the rest of the coordinates and their velocities. In each case the Lagrangian and Hamiltonian functions are replaced by a single function, the Routhian. The full set thus has the advantages of both sets of equations, with the convenience of splitting one set of coordinates to the Hamilton equations, and the rest to the Lagrangian equations.
 
-In the case of Lagrangian mechanics, the [generalized coordinates](generalized%20coordinates.md) _q_<sub>1</sub>, _q_<sub>2</sub>, ... and the corresponding velocities _dq_<sub>1</sub>/<!-- markdown separator -->_dt_, _dq_<sub>2</sub>/<!-- markdown separator -->_dt_, ..., and possibly time<sup>[\[nb 1\]](#^nb-1)</sup>_t_, enter the Lagrangian,
+In the case of Lagrangian mechanics, the [generalized coordinates](generalized%20coordinates.md) _q_<sub>1</sub>, _q_<sub>2</sub>, ... and the corresponding velocities _dq_<sub>1</sub>/<!-- markdown separator -->_dt_, _dq_<sub>2</sub>/<!-- markdown separator -->_dt_, ..., and possibly time<sup>[\[nb 1\]](#^nb-1)</sup> _t_, enter the Lagrangian,
 
 $$L(q_{1},q_{2},\ldots ,{\dot {q} }_{1},{\dot {q} }_{2},\ldots ,t)\,,\quad {\dot {q} }_{i}={\frac {dq_{i} }{dt} }\,,$$
 
@@ -400,7 +400,7 @@ so the velocities are
 
 $${\dot {\theta } }={\frac {1}{mr^{2} } }\left(p_{\theta }-{\frac {qBr^{2} }{2} }\right)\,,\quad {\dot {z} }={\frac {p_{z} }{m} }\,.$$
 
-The angular momentum about the _z_ axis is _not__p<sub>θ</sub>_, but the quantity _mr_<sup>2</sup>_dθ_<!-- markdown separator -->/<!-- markdown separator -->_dt_, which is not conserved due to the contribution from the magnetic field. The canonical momentum _p<sub>θ</sub>_ is the conserved quantity. It is still the case that _p<sub>z</sub>_ is the linear or translational momentum along the _z_ axis, which is also conserved.
+The angular momentum about the _z_ axis is _not_ _p<sub>θ</sub>_, but the quantity _mr_<sup>2</sup>_dθ_<!-- markdown separator -->/<!-- markdown separator -->_dt_, which is not conserved due to the contribution from the magnetic field. The canonical momentum _p<sub>θ</sub>_ is the conserved quantity. It is still the case that _p<sub>z</sub>_ is the linear or translational momentum along the _z_ axis, which is also conserved.
 
 The radial component _r_ and angular velocity _dθ_<!-- markdown separator -->/<!-- markdown separator -->_dt_ can vary with time, but _p<sub>θ</sub>_ is constant, and since _p<sub>z</sub>_ is constant it follows _dz_<!-- markdown separator -->/<!-- markdown separator -->_dt_ is constant. The Routhian can take the form
 
