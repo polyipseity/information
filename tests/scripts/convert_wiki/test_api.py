@@ -29,6 +29,13 @@ _SNAPSHOT_DIR = PathlibPath(__file__).resolve(strict=True).parent / "snapshots"
 __all__ = ()
 
 
+def _snapshot_aux_names() -> list[str]:
+    """Return the snapshot names that carry auxiliary data."""
+    return sorted(
+        path.name[: -len(".aux.json")] for path in _SNAPSHOT_DIR.glob("*.aux.json")
+    )
+
+
 class TestCollectLinkTitles:
     """Tests for _collect_link_titles function."""
 
@@ -629,16 +636,20 @@ class TestResolveRedirectsWithRealResponses:
     """
 
     @pytest.mark.anyio
-    async def test_parses_modern_physics_api_response(
-        self, tmp_path: PathLike[str]
+    @pytest.mark.parametrize("name", _snapshot_aux_names())
+    async def test_parses_recorded_api_responses(
+        self, name: str, tmp_path: PathLike[str]
     ) -> None:
-        """Feed the real modern physics API response through
-        _resolve_redirects and verify the output matches the cache file."""
+        """Replaying the recorded raw batches must reproduce the stored cache.
+
+        Every snapshot aux fixture records the raw API responses used to build
+        its ``redirect_cache``, so the parser stays verified against the real
+        Wikipedia response shape for every fixture rather than one.
+        """
 
         cache_path = Path(tmp_path) / "redirect_cache.json"
 
-        # Load the raw API responses from the consolidated aux fixture.
-        aux_path = _SNAPSHOT_DIR / "modern physics.aux.json"
+        aux_path = _SNAPSHOT_DIR / f"{name}.aux.json"
         aux = json.loads(aux_path.read_text(encoding="UTF-8"))
         raw_batches: list[dict[str, object]] = aux["api_responses"]
 
@@ -691,7 +702,7 @@ class TestResolveRedirectsWithRealResponses:
             get = MockGet()
 
         # Collect titles the same way the snapshot test does.
-        html_path = _SNAPSHOT_DIR / "modern physics.input.html"
+        html_path = _SNAPSHOT_DIR / f"{name}.input.html"
         html = BeautifulSoup(html_path.read_text(encoding="UTF-8"), "html.parser")
         titles = _mod._collect_link_titles(html)  # noqa: SLF001
 
