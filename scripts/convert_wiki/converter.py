@@ -40,6 +40,8 @@ __all__ = ()
 _HEADER_REGEX = re.compile(r"^h(\d)$")
 """Tags that render as bold or italic."""
 _BOLD_OR_ITALIC = frozenset({"b", "em", "i", "strong"})
+"""Tags that render as lists."""
+_LIST_TAGS = frozenset({"ol", "ul"})
 """Inline-level HTML tags for whitespace-preservation checks."""
 _INLINE_TAGS = frozenset({"a", "span", "em", "i", "b", "strong", "img"})
 """Bold font-weight style detector."""
@@ -724,13 +726,14 @@ class WikiHtmlConverter:
                 return False
             return False
 
-    @staticmethod
-    def _has_emphasis_ancestor(ele: Tag, *, bold: bool) -> bool:
+    @classmethod
+    def _has_emphasis_ancestor(cls, ele: Tag, *, bold: bool) -> bool:
         """Return whether an ancestor already renders the same emphasis.
 
         Wrappers that never emit Markdown emphasis are skipped: ``mw-heading``
-        (rendered with ``#`` markers) and ``hatnote`` (rendered as a list item,
-        whose own CSS emphasis is deliberately not emitted).
+        (rendered with ``#`` markers), ``hatnote`` (rendered as a list item,
+        whose own CSS emphasis is deliberately not emitted), and bold wrappers
+        around a bare list (whose bold is pushed onto the list items).
         """
         for ancestor in ele.parents:
             if not isinstance(ancestor, Tag):
@@ -738,6 +741,8 @@ class WikiHtmlConverter:
             if {"mw-heading", "hatnote"} & frozenset(
                 ancestor.get_attribute_list("class")
             ):
+                continue
+            if bold and cls._is_list_only(ancestor):
                 continue
             style = str(ancestor.get("style", ""))
             if bold:
@@ -771,6 +776,34 @@ class WikiHtmlConverter:
             return content_children[0]
         return None
 
+    @classmethod
+    def _is_list_only(cls, ele: Tag) -> bool:
+        """Return whether *ele*'s content consists solely of lists.
+
+        Emphasis around a whole list has no Markdown representation: wrapping
+        the rendered list (``__- a <br/> - b__``) leaves the item markers inside
+        the emphasis span.  Such wrappers push the emphasis onto each item
+        instead, and this predicate recognises them.
+        """
+        children = [
+            c
+            for c in ele.children
+            if not (isinstance(c, NavigableString) and not c.strip())
+        ]
+        if not children:
+            return False
+        return all(
+            isinstance(child, Tag)
+            and (child.name in _LIST_TAGS or cls._is_list_only(child))
+            for child in children
+        )
+
+    def _bold_list_items(self, ele: Tag) -> None:
+        """Wrap every list item's content in ``<b>`` so bold survives."""
+        for list_ele in ele.find_all(list(_LIST_TAGS)):
+            for item in list_ele.find_all("li", recursive=False):
+                TableConverter._wrap_children(item, self._soup, "b")
+
     def _handle_bold_italic(self, ele: Tag, classes: frozenset[str]) -> _HandlerConfig:
         """Render bold/italic text with Markdown emphasis markers.
 
@@ -788,6 +821,11 @@ class WikiHtmlConverter:
         italic = ele.name in {"em", "i"} or _ITALIC_FONT_STYLE_REGEX.search(
             str(ele.get("style", ""))
         )
+        if bold and self._is_list_only(ele):
+            # A bolded list is rendered by bolding each item, not by wrapping
+            # the whole list (which would leave ``- `` markers inside ``__``).
+            self._bold_list_items(ele)
+            bold = False
         if bold and self._has_emphasis_ancestor(ele, bold=True):
             bold = False
         if italic and self._has_emphasis_ancestor(ele, bold=False):

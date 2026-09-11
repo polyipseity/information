@@ -1139,6 +1139,53 @@ class TestBoldItalicHandling:
         assert "__bold__" in result
 
     @pytest.mark.anyio
+    async def test_bold_list_wrapper_bolds_each_item(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Bold around a whole list must bold each item, not the list."""
+        result = await _convert(
+            converter, "<b><ul><li>alpha</li><li>beta</li></ul></b>"
+        )
+        assert "\n- __alpha__" in result
+        assert "\n- __beta__" in result
+        assert "__- " not in result
+
+    @pytest.mark.anyio
+    async def test_bold_list_cell_bolds_each_item(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A CSS-bold cell wrapping a list bolds each ``hlist`` item."""
+        result = await _convert(
+            converter,
+            '<table><tbody><tr><td style="font-weight: bold">'
+            "<ul><li>alpha</li><li>beta</li></ul></td></tr></tbody></table>",
+        )
+        assert "- __alpha__ <br/> - __beta__" in result
+        assert "__- " not in result
+
+    @pytest.mark.anyio
+    async def test_bold_nested_list_wrapper_bolds_each_item(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A ``hlist`` div between the bold wrapper and the list is transparent."""
+        result = await _convert(
+            converter,
+            '<div style="font-weight: bold"><div class="hlist">'
+            "<ul><li>alpha</li></ul></div></div>",
+        )
+        assert "- __alpha__" in result
+        assert "__- " not in result
+
+    @pytest.mark.anyio
+    async def test_unbolded_list_wrapper_unchanged(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A list that is not bolded keeps its item markers unbolded."""
+        result = await _convert(converter, "<ul><li>alpha</li><li>beta</li></ul>")
+        assert "- alpha" in result
+        assert "__" not in result
+
+    @pytest.mark.anyio
     async def test_hatnote_wrapper_ignored(self, converter: WikiHtmlConverter) -> None:
         """A hatnote's own CSS emphasis must not suppress nested emphasis.
 
