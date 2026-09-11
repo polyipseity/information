@@ -728,13 +728,16 @@ class WikiHtmlConverter:
     def _has_emphasis_ancestor(ele: Tag, *, bold: bool) -> bool:
         """Return whether an ancestor already renders the same emphasis.
 
-        ``mw-heading`` wrappers are ignored: headings are rendered with ``#``
-        markers, so their CSS bold does not open Markdown emphasis.
+        Wrappers that never emit Markdown emphasis are skipped: ``mw-heading``
+        (rendered with ``#`` markers) and ``hatnote`` (rendered as a list item,
+        whose own CSS emphasis is deliberately not emitted).
         """
         for ancestor in ele.parents:
             if not isinstance(ancestor, Tag):
                 continue
-            if "mw-heading" in frozenset(ancestor.get_attribute_list("class")):
+            if {"mw-heading", "hatnote"} & frozenset(
+                ancestor.get_attribute_list("class")
+            ):
                 continue
             style = str(ancestor.get("style", ""))
             if bold:

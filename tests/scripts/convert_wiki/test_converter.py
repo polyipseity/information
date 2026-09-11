@@ -1133,10 +1133,34 @@ class TestBoldItalicHandling:
         result = await _convert(
             converter,
             '<div class="mw-heading mw-heading2" style="font-weight: bold">'
-            "<h2>Heading</h2></div><p><b>bold</b></p>",
+            "<h2>Heading</h2><b>bold</b></div>",
         )
         assert "## heading" in result
         assert "__bold__" in result
+
+    @pytest.mark.anyio
+    async def test_hatnote_wrapper_ignored(self, converter: WikiHtmlConverter) -> None:
+        """A hatnote's own CSS emphasis must not suppress nested emphasis.
+
+        Hatnotes render as list items and deliberately never emit their own
+        emphasis, so an emphasized word inside one keeps its markers.
+        """
+        result = await _convert(
+            converter,
+            '<div class="hatnote" style="font-style: italic">See <i>also</i></div>',
+        )
+        assert "- See _also_" in result
+
+    @pytest.mark.anyio
+    async def test_hatnote_bold_wrapper_ignored(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A bold-styled hatnote must not suppress nested bold."""
+        result = await _convert(
+            converter,
+            '<div class="hatnote" style="font-weight: bold">See <b>also</b></div>',
+        )
+        assert "- See __also__" in result
 
 
 # ---------------------------------------------------------------------------
