@@ -243,9 +243,10 @@ Lab instructions and sample data.
 
 ## submission
 
-- submission: [`prelab.pdf`](submission/prelab.pdf)
-  - metadata: [`submission.yml`](submission.yml)
-- in-class: metadata: [`lab.yml`](lab.yml)
+- file: [`prelab.pdf`](submission/prelab.pdf)
+    - metadata: [`submission.yml`](submission.yml)
+- in-class submission
+    - metadata: [`lab.yml`](lab.yml)
 
 ## solution
 

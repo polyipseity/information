@@ -49,10 +49,10 @@ Input: Canvas assignment HTML page + prompt files.
 
 ### Stage 2: Submission file(s)
 
-Input: submitted work (PDF, source markdown, images).
+Input: the artifact uploaded to Canvas — a document, a rendered PDF, an archive, source code, or a link — plus, when that artifact was generated from a local file, the local file it came from.
 
 1. Add files to `submission/`
-2. Update `index.md` submission section
+2. Update the `index.md` submission section: the uploaded artifact is the entry itself; a local file it was generated from becomes a `source:` child (see "Submission entry model")
 3. For Apple Notes markdown:
    - Detect UUID attachment paths: `(Attachments|../attachments)/<UUID>.<ext>`
    - Rewrite paths to `../attachments/`
@@ -156,16 +156,42 @@ tags:
 
 ## submission
 
-- submission
+- file: [`<uploaded>.<ext>`](submission/<uploaded>.<ext>)
     - metadata: [`submission.yml`](submission.yml)
-    - source: [`<source>.md`](submission/<source>.md)
 
 ## solution
 
 - [`<filename>`](solution/<filename>)
 ```
 
-The `- submission` label is a generic type used when the specific submission type is not yet determined. When the type is known, replace with the concrete type (e.g., `- file: ...`). See the in-class example below.
+### Submission entry model
+
+The submission entry names the artifact actually uploaded to Canvas. Choose the label that matches its form:
+
+| Label          | Use when                                        |
+| -------------- | ----------------------------------------------- |
+| `- file:`      | a single uploaded file (document, PDF, archive) |
+| `- folder:`    | an uploaded directory tree                      |
+| `- URL:`       | a link was submitted instead of a file          |
+| `- submission` | the submission type is not yet known (no link)  |
+
+These child keys nest under the entry:
+
+- `metadata:` — the component YAML (`submission.yml`, `lab.yml`, `tutorial.yml`, `lecture.yml`) or rendering config such as `submission.pdf.yml`
+- `filename:` — the uploaded filename, when it differs from the canonical on-disk name
+- `source:` — the local artifact the uploaded file was generated from
+
+`source:` never names the uploaded artifact; it records what that artifact was produced from, such as a `.md` or `.docx` rendered to the submitted PDF, or a directory packed into the submitted archive. A file authored directly as the submission — a filled-in summary sheet, an assignment's own source file — has no `source:` child.
+
+```markdown
+- file: [`submission.pdf`](submission/submission.pdf)
+    - metadata: [`submission.yml`](submission.yml)
+    - filename: `PS5-answer-key.pdf`
+    - source: [`submission.md`](submission/submission.md)
+
+- file: [`submission.docx`](submission/submission.docx)
+    - metadata: [`submission.yml`](submission.yml)
+```
 
 ### With in-class component (labs, tutorials, lectures)
 
@@ -202,9 +228,8 @@ tags:
 
 ## submission
 
-- submission
+- file: [`<uploaded>.<ext>`](submission/<uploaded>.<ext>)
     - metadata: [`submission.yml`](submission.yml)
-    - source: [`<source>.md`](submission/<source>.md)
 - in-class submission
     - metadata: [`<type>.yml`](<type>.yml)
 
@@ -333,6 +358,16 @@ On-disk filename may differ from Canvas display name (e.g., `PS7-3.pdf` displaye
 ## attachments
 
 - [`PS7.pdf`](attachments/PS7-3.pdf)
+```
+
+The same applies to a submission, where the uploaded name goes in a `filename:` child:
+
+```markdown
+## submission
+
+- file: [`submission.pdf`](submission.pdf)
+    - metadata: [`submission.yml`](submission.yml)
+    - filename: `2025_10_07 23_58 Microsoft Lens.pdf`
 ```
 
 ## Batch creation workflow
