@@ -1079,6 +1079,65 @@ class TestBoldItalicHandling:
         soup = BeautifulSoup("<p><sup>2</sup></p>", "html.parser")
         assert WikiHtmlConverter._needs_separator_before(soup.sup) is False
 
+    @pytest.mark.anyio
+    async def test_nested_bold_deduped(self, converter: WikiHtmlConverter) -> None:
+        """Nested bold must not render as the meaningless ``____text____``."""
+        result = await _convert(converter, "<b><b>Foundations</b></b>")
+        assert result.strip() == "__Foundations__"
+
+    @pytest.mark.anyio
+    async def test_css_bold_ancestor_deduped(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A bold-styled ancestor satisfies the inner ``<b>``."""
+        result = await _convert(
+            converter,
+            '<span style="font-weight: bold"><b>Foundations</b></span>',
+        )
+        assert result.strip() == "__Foundations__"
+
+    @pytest.mark.anyio
+    async def test_nested_italic_deduped(self, converter: WikiHtmlConverter) -> None:
+        """Nested italic collapses to a single ``_`` pair."""
+        result = await _convert(converter, "<i><i>Italic</i></i>")
+        assert result.strip() == "_Italic_"
+
+    @pytest.mark.anyio
+    async def test_distinct_nested_emphasis_preserved(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Bold inside italic is distinct emphasis and must be kept."""
+        result = await _convert(converter, "<i><b>Both</b></i>")
+        assert result.strip() == "___Both___"
+
+    @pytest.mark.anyio
+    async def test_sidebar_title_bold_not_doubled(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Sidebar title bold wrapping must not double a CSS-bold ancestor."""
+        result = await _convert(
+            converter,
+            '<table class="sidebar"><tbody><tr><td class="sidebar-content">'
+            '<div class="sidebar-list"><div class="sidebar-list-title" '
+            'style="font-weight: bold"><div class="sidebar-list-title-c">'
+            "<b>Foundations</b></div></div></div></td></tr></tbody></table>",
+        )
+        assert "____" not in result
+        assert "__Foundations__" in result
+
+    @pytest.mark.anyio
+    async def test_mw_heading_wrapper_ignored(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A CSS-bold ``mw-heading`` wrapper does not suppress inner emphasis."""
+        result = await _convert(
+            converter,
+            '<div class="mw-heading mw-heading2" style="font-weight: bold">'
+            "<h2>Heading</h2></div><p><b>bold</b></p>",
+        )
+        assert "## heading" in result
+        assert "__bold__" in result
+
 
 # ---------------------------------------------------------------------------
 

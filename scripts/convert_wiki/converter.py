@@ -725,6 +725,28 @@ class WikiHtmlConverter:
             return False
 
     @staticmethod
+    def _has_emphasis_ancestor(ele: Tag, *, bold: bool) -> bool:
+        """Return whether an ancestor already renders the same emphasis.
+
+        ``mw-heading`` wrappers are ignored: headings are rendered with ``#``
+        markers, so their CSS bold does not open Markdown emphasis.
+        """
+        for ancestor in ele.parents:
+            if not isinstance(ancestor, Tag):
+                continue
+            if "mw-heading" in frozenset(ancestor.get_attribute_list("class")):
+                continue
+            style = str(ancestor.get("style", ""))
+            if bold:
+                if ancestor.name in {"b", "strong"} or _BOLD_FONT_STYLE_REGEX.search(
+                    style
+                ):
+                    return True
+            elif ancestor.name in {"em", "i"} or _ITALIC_FONT_STYLE_REGEX.search(style):
+                return True
+        return False
+
+    @staticmethod
     def _sole_bold_child(ele: Tag) -> Tag | None:
         """Return the single ``<b>``/``<strong>`` child if *ele* contains only bold + whitespace.
 
@@ -747,7 +769,14 @@ class WikiHtmlConverter:
         return None
 
     def _handle_bold_italic(self, ele: Tag, classes: frozenset[str]) -> _HandlerConfig:
-        """Render bold/italic text with Markdown emphasis markers."""
+        """Render bold/italic text with Markdown emphasis markers.
+
+        Emphasis already opened by an ancestor is not re-opened: Markdown has
+        no nested-bold concept, and Wikipedia markup routinely nests bold
+        containers (e.g. a CSS-bold ``sidebar-list-title`` around a
+        presenter-synthesised ``<b>``), which would otherwise render as the
+        meaningless ``____text____``.
+        """
         bold = (
             ele.name in {"b", "strong"}
             or _BOLD_FONT_STYLE_REGEX.search(str(ele.get("style", "")))
@@ -756,6 +785,10 @@ class WikiHtmlConverter:
         italic = ele.name in {"em", "i"} or _ITALIC_FONT_STYLE_REGEX.search(
             str(ele.get("style", ""))
         )
+        if bold and self._has_emphasis_ancestor(ele, bold=True):
+            bold = False
+        if italic and self._has_emphasis_ancestor(ele, bold=False):
+            italic = False
         bold_str = "__" if bold else ""
         italic_str = "_" if italic else ""
         prefix = f"{bold_str}{italic_str}"
