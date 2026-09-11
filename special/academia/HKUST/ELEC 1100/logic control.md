@@ -9,7 +9,7 @@ tags:
 
 # logic control
 
-Logic control turns Boolean expressions into actual decision circuits. In ELEC 1100 it starts with the line-following truth table, then expands into adders and memory so students can see the difference between purely combinational behavior and stateful control.
+Logic control turns Boolean expressions into decision circuits. In ELEC 1100 it starts with the line-following truth table and expands into adders and memory, showing the difference between combinational behavior and stateful control.
 
 ## deriving motor-direction expressions
 
@@ -19,9 +19,9 @@ The line-following example shows how a truth table can be converted into compact
 
 Flashcards for this section are as follows:
 
-- logic-control derivation workflow ::@:: Specify the desired behavior, write the truth table, derive the Boolean expressions, simplify them, and then implement them with gates.
-- ELEC 1100 line-following expression for $L_{\text{DIR}}$ and $R_{\text{DIR}}$ ::@:: $L_{\text{DIR}}=L'$ and $R_{\text{DIR}}=L+R'$.
-- why the simple DIR expressions matter pedagogically ::@:: They demonstrate how a verbal control rule becomes a truth table, then a Boolean expression, then a real logic circuit.
+- derivation workflow ::@:: Specify behavior → truth table → Boolean expressions → simplify → implement with gates.
+- ELEC 1100 line-following expressions ::@:: $L_{\text{DIR}}=L'$ and $R_{\text{DIR}}=L+R'$.
+- pedagogical point ::@:: Shows how a verbal control rule becomes a truth table, then a Boolean expression, then a logic circuit.
 
 ## combinational control circuits
 
@@ -31,9 +31,9 @@ A combinational circuit's outputs depend only on the current input values. If th
 
 Flashcards for this section are as follows:
 
-- combinational logic definition ::@:: A combinational circuit has outputs determined only by the current inputs, with no stored state from the past.
-- why the early robot DIR controller is combinational ::@:: The motor-direction outputs are computed directly from the present line-sensor readings.
-- main limitation of a purely combinational robot controller ::@:: It cannot distinguish different situations that produce the same current sensor pattern.
+- combinational logic ::@:: Outputs depend only on current inputs, with no stored state.
+- why the early robot DIR controller is combinational ::@:: Direction outputs are computed directly from present sensor readings.
+- combinational limitation ::@:: Cannot distinguish situations that produce the same sensor pattern.
 
 ## half adder and full adder
 
@@ -43,12 +43,12 @@ The half adder and full adder are standard examples of combinational design. A h
 
 Flashcards for this section are as follows:
 
-- half adder limitation ::@:: A half adder works only when there is no incoming carry from a previous bit position.
-- half adder with inputs $A$ and $B$: what are the sum and carry outputs? ::@:: A half adder outputs $S=A\oplus B$ and $C=AB$.
-- full adder with inputs $A$, $B$, and $C_{\text{in}}$: what is the sum output? ::@:: $S=(A\oplus B)\oplus C_{\text{in}}$.
-- full adder with inputs $A$, $B$, and $C_{\text{in}}$: what is the carry output? ::@:: $C_{\text{out}}=AB+AC_{\text{in}}+BC_{\text{in}}=(A\oplus B)C_{\text{in}}+AB$.
-- when a full adder is needed instead of a half adder ::@:: A full adder is needed whenever the stage may receive a carry from the previous bit position.
-- how a full adder is built from simpler blocks ::@:: It can be built from two half adders and one OR gate.
+- half adder limitation ::@:: Works only when there is no incoming carry.
+- half adder outputs ::@:: $S=A\oplus B$ and $C=AB$.
+- full adder sum ::@:: $S=(A\oplus B)\oplus C_{\text{in}}$.
+- full adder carry ::@:: $C_{\text{out}}=AB+AC_{\text{in}}+BC_{\text{in}}=(A\oplus B)C_{\text{in}}+AB$.
+- when full adder is needed ::@:: Whenever the stage may receive a carry from the previous position.
+- full adder from simpler blocks ::@:: Two half adders and one OR gate.
 
 ## cascading full adders and serial addition
 
@@ -60,10 +60,10 @@ A serial binary adder trades hardware for time. Instead of having one full adder
 
 Flashcards for this section are as follows:
 
-- how full adders are chained in a multi-bit adder ::@:: Each stage's $C_{\text{out}}$ is connected to the next stage's $C_{\text{in}}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- what four full adders in a row create ::@:: They create a 4-bit ripple-carry adder.
-- why a serial binary adder needs memory ::@:: It must store the previous carry so one full-adder core can be reused for the next clocked bit position.
-- why a serial binary adder needs a clock ::@:: The clock synchronizes when each new bit pair is processed and when the stored carry is updated.
+- chaining full adders ::@:: Each stage's $C_{\text{out}}$ feeds the next stage's $C_{\text{in}}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- four chained adders ::@:: A 4-bit ripple-carry adder.
+- serial adder memory ::@:: Stores the previous carry so one full-adder core can be reused for the next clocked bit position.
+- serial adder clock ::@:: Synchronizes when each bit pair is processed and when the stored carry updates.
 
 ## sequential logic and memory
 
@@ -73,7 +73,7 @@ Memory is what makes a circuit sequential. A sequential circuit depends on both 
 
 Flashcards for this section are as follows:
 
-- sequential logic definition ::@:: A sequential circuit depends on the current inputs together with stored state from earlier events.
+- sequential logic ::@:: Outputs depend on current inputs plus stored state from earlier events.
 - why the serial adder is sequential ::@:: It reuses one adder stage while storing intermediate state between clocked steps.
-- why the robot project needs memory ::@:: The same current sensor pattern can represent different physical situations, so stored state such as `countBumper` is needed to tell them apart.
-- combinational vs sequential summary ::@:: Combinational logic depends only on present inputs, while sequential logic depends on present inputs plus remembered state.
+- why the robot needs memory ::@:: The same sensor pattern can represent different situations, so stored state (e.g. `countBumper`) is needed.
+- combinational vs sequential ::@:: Combinational: present inputs only. Sequential: present inputs plus remembered state.

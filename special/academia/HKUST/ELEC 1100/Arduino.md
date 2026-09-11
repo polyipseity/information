@@ -24,10 +24,10 @@ The workflow is straightforward: write a sketch, verify or compile it, and uploa
 
 Flashcards for this section are as follows:
 
-- what is Arduino in one sentence ::@:: Arduino is an open-source microcontroller-board platform for building interactive digital devices.
-- why Nano and Uno are similar in this context ::@:: Both are built around the ATmega328 microcontroller, so the Uno is close enough for simulation while the Nano is preferred on the physical robot.
-- Arduino workflow in one line ::@:: Write a sketch, verify or compile it in the IDE, and upload it through USB to the board.
-- what a compiler does for Arduino code ::@:: The compiler converts the source code into machine language that the microcontroller can execute.
+- Arduino definition ::@:: An open-source microcontroller-board platform for building interactive digital devices.
+- why Nano and Uno are similar ::@:: Both use the ATmega328, so the Uno works for simulation while the Nano is used on the physical robot.
+- Arduino workflow ::@:: Write a sketch, verify/compile in the IDE, upload via USB.
+- compiler role ::@:: Converts source code into machine language the microcontroller can execute.
 
 ## sketch structure, comments, constants, and variables
 
@@ -41,8 +41,8 @@ The `setup()` function runs once after reset or power-up and is used for initial
 
 Flashcards for this section are as follows:
 
-- `setup()` role in Arduino ::@:: `setup()` runs once after reset or power-up and is used for initialization such as pin configuration.
-- `loop()` role in Arduino ::@:: `loop()` runs repeatedly and carries the ongoing control behavior.
+- `setup()` ::@:: Runs once after reset or power-up; used for initialization (e.g. pin configuration).
+- `loop()` ::@:: Runs repeatedly; carries the ongoing control behavior.
 
 ### comments, `const`, and `int`
 
@@ -52,10 +52,10 @@ Comments explain the code without affecting execution, while named constants and
 
 Flashcards for this section are as follows:
 
-- why named constants help in an Arduino sketch ::@:: Named constants keep pin numbers and hardware roles readable instead of burying them in raw numbers.
-- why comments matter in an Arduino sketch ::@:: Comments explain intent and wiring roles without changing program execution.
-- what `const` communicates in an Arduino sketch ::@:: `const` marks a value that should not change during execution, such as a named pin assignment or fixed threshold.
-- what `int` is used for in the course Arduino examples ::@:: `int` stores whole-number values such as sensor readings, counters, and delay times.
+- named constants ::@:: Keep pin numbers and hardware roles readable instead of hiding them in raw numbers.
+- comments ::@:: Explain intent and wiring roles without changing execution.
+- `const` ::@:: Marks a value that should not change during execution (e.g. named pin assignment).
+- `int` ::@:: Stores whole-number values such as sensor readings, counters, and delay times.
 
 ### local variables and stored state
 
@@ -65,7 +65,7 @@ Where a variable is declared affects how long it keeps its value. A variable dec
 
 Flashcards for this section are as follows:
 
-- why a variable such as `countBumper` must have persistent scope ::@:: If the robot must remember previous events across repeated passes through `loop()`, the variable must be stored outside the momentary decision block so it is not reinitialized every time.
+- persistent scope for `countBumper` ::@:: Must be outside the decision block so it is not reinitialized every time `loop()` repeats.
 
 ## digital and analog pin naming, input logic, and output limits
 
@@ -79,8 +79,8 @@ Pins labeled `D0` to `D13` are used mainly for digital HIGH/LOW signals. Pins la
 
 Flashcards for this section are as follows:
 
-- Nano pin naming: what is the practical difference between `D` and `A` labels? ::@:: `D` labels identify pins usually used for digital HIGH/LOW signals, while `A` labels identify pins tied to the ADC hardware for analog input; the `A` pins can still be used as named digital inputs in this course.
-- ADC meaning in the Arduino context ::@:: ADC means analog-to-digital conversion, which converts a continuously varying electrical signal into a numerical value.
+- `D` vs `A` pin labels ::@:: `D` pins are for digital HIGH/LOW; `A` pins are tied to ADC hardware but can also be used as named digital inputs.
+- ADC ::@:: Analog-to-digital conversion: converts a continuously varying signal into a numerical value.
 
 ### built-in pin functions and logic values
 
@@ -90,12 +90,11 @@ Flashcards for this section are as follows:
 
 Flashcards for this section are as follows:
 
-- what `pinMode()` does ::@:: `pinMode()` configures a pin to behave as an input or an output.
-- what values `pinMode()` expects for basic direction setup ::@:: In the basic ELEC 1100 usage, `pinMode()` is called with `INPUT` or `OUTPUT` to choose whether a pin reads a signal or drives one.
-- what `digitalRead()` returns ::@:: `digitalRead()` returns a logical HIGH or LOW from an input pin.
-- what `digitalWrite()` does ::@:: `digitalWrite()` drives an output pin to a logical HIGH or LOW.
-- what values Arduino treats as true and false in the lecture examples ::@:: Arduino treats `HIGH`, `1`, and `true` equivalently, and treats `LOW`, `0`, and `false` equivalently; more generally, any non-zero integer is treated as true.
-- `=` versus `==` in Arduino code ::@:: `=` assigns a value, while `==` compares values.
+- `pinMode()` ::@:: Configures a pin as INPUT or OUTPUT.
+- `digitalRead()` ::@:: Returns HIGH or LOW from an input pin.
+- `digitalWrite()` ::@:: Drives an output pin to HIGH or LOW.
+- Arduino true/false ::@:: `HIGH`/`1`/`true` are equivalent; `LOW`/`0`/`false` are equivalent; any non-zero integer is true.
+- `=` vs `==` ::@:: `=` assigns, `==` compares.
 
 ### analog input and output limits
 
@@ -105,8 +104,8 @@ The analog-labeled pins can be used for sensor inputs through ADC, which turns a
 
 Flashcards for this section are as follows:
 
-- why motors must not be connected directly to Arduino output pins ::@:: The output pins can drive only small loads, so motors require interface circuitry such as the L293 driver.
-- Nano digital thresholds: what voltages are interpreted as HIGH and LOW? ::@:: Above about $3.0\text{ V}$ is interpreted as HIGH, and below about $1.5\text{ V}$ is interpreted as LOW. <!-- check: ignore-line[two_sided_calc_warning]: threshold values are conceptual here -->
+- why motors need a driver ::@:: Output pins can drive only small loads; motors require interface circuitry (e.g. L293).
+- digital thresholds ::@:: Above ~$3.0\text{ V}$ is HIGH; below ~$1.5\text{ V}$ is LOW. <!-- check: ignore-line[two_sided_calc_warning]: threshold values are conceptual here -->
 
 ## control flow, operators, and reusable functions
 
@@ -120,8 +119,8 @@ In a regular flow, statements execute in the order they are written. In a contro
 
 Flashcards for this section are as follows:
 
-- regular flow versus controlled flow ::@:: Regular flow executes statements in written order, while controlled flow uses conditions and loops to choose different execution paths.
-- which control structures were emphasized in the ELEC 1100 Arduino lectures ::@:: The lectures emphasized `if`, `else if`, `for`, and `while` as the core control structures for turning logic flow into code.
+- regular vs controlled flow ::@:: Regular: statements in written order. Controlled: conditions and loops choose different paths.
+- emphasized control structures ::@:: `if`, `else if`, `for`, and `while`.
 
 ### conditionals, comparisons, and Boolean operators
 
@@ -131,8 +130,8 @@ Conditional statements such as `if`, `else if`, and `else` choose actions from s
 
 Flashcards for this section are as follows:
 
-- Boolean operators in Arduino code ::@:: `!` means NOT, `&&` means AND, and `||` means OR.
-- comparison operators emphasized in the lecture ::@:: The lecture highlights `!=`, `<`, `<=`, `==`, `>`, and `>=` as the core comparison operators used inside conditions.
+- Boolean operators ::@:: `!` = NOT, `&&` = AND, `||` = OR.
+- comparison operators ::@:: `!=`, `<`, `<=`, `==`, `>`, `>=`.
 
 ### loops and refreshing the tested condition
 
@@ -142,9 +141,9 @@ Repetition can be expressed with `for` loops when the repeat count is known and 
 
 Flashcards for this section are as follows:
 
-- when a `for` loop is more natural than a `while` loop ::@:: A `for` loop is more natural when the repetition count is known in advance.
-- why a `while` loop can be dangerous in robot control ::@:: If it does not refresh the tested condition, it can keep acting on stale information forever.
-- what must happen inside a sensor-controlled `while` loop ::@:: The code must re-read the sensor, for example with `digitalRead()`, so the loop condition can change and the loop can exit.
+- `for` vs `while` ::@:: `for` when the count is known; `while` when it depends on a changing condition.
+- `while` loop danger ::@:: If the tested condition is not refreshed, the loop acts on stale information forever.
+- sensor-controlled `while` ::@:: Must re-read the sensor (e.g. `digitalRead()`) so the exit condition can change.
 
 ### compound operators and counters
 
@@ -154,8 +153,8 @@ Compound operators such as `++`, `+=`, `--`, and `-=` make repeated updates shor
 
 Flashcards for this section are as follows:
 
-- compound operators introduced in the lecture ::@:: `++`, `+=`, `--`, and `-=` are shorthand for repeated updates such as incrementing, decrementing, or adding a step value.
-- why `countBumper`-style counters are useful ::@:: They let the robot remember how many times an event has happened so later decisions can depend on past state instead of only the current sensor reading.
+- compound operators ::@:: `++`, `+=`, `--`, `-=`: shorthand for increment, add, decrement, subtract.
+- counter usefulness ::@:: Let the robot remember event counts so later decisions depend on past state.
 
 ### logic flowcharts and user-defined functions
 
@@ -167,13 +166,13 @@ The built-in functions emphasized in the lectures are `pinMode()`, `digitalRead(
 
 Flashcards for this section are as follows:
 
-- why flowcharts matter before coding the robot ::@:: A flowchart turns the task into explicit decision, process, and input/output steps, making the later code structure and project explanation clearer.
-- built-in functions emphasized in the ELEC 1100 Arduino lectures ::@:: The lectures highlighted `pinMode()`, `digitalRead()`, `digitalWrite()`, `delay()`, and `analogWrite()` as the main built-in functions for the project.
-- what a user-defined function contains ::@:: A return type, a function name, an optional parameter list, and the function body.
-- where user-defined functions must be placed in an Arduino sketch ::@:: They must be declared outside `setup()` and `loop()`.
-- how to use a user-defined function in order ::@:: First define the function, then call it where needed, and optionally use the returned result in later code.
-- why parameters are useful in a function ::@:: Parameters let one function be reused with different values instead of hard-coding one case.
-- what `void myBlink(int delayTime, int led)` shows about user-defined functions ::@:: It shows that one function can accept parameters so the same blink logic can be reused with different delays and different LED pins.
+- flowchart purpose ::@:: Turns the task into explicit decision, process, and I/O steps before coding.
+- built-in functions ::@:: `pinMode()`, `digitalRead()`, `digitalWrite()`, `delay()`, `analogWrite()`.
+- user-defined function contents ::@:: Return type, function name, optional parameters, function body.
+- function placement ::@:: Declared outside `setup()` and `loop()`.
+- function usage order ::@:: Define → call → optionally use returned result.
+- parameter usefulness ::@:: One function reused with different values instead of hard-coding.
+- `void myBlink(int delayTime, int led)` ::@:: Shows that parameters let the same blink logic work with different delays and LED pins.
 
 ## robot pin map
 
@@ -187,8 +186,8 @@ The left and right line sensors connect to `A5` and `A3`, and the bumper sensor 
 
 Flashcards for this section are as follows:
 
-- robot line sensor pins ::@:: `A5` is the left sensor input and `A3` is the right sensor input.
-- robot bumper sensor pin ::@:: `A4` is the bumper sensor input.
+- line sensor pins ::@:: `A5` = left, `A3` = right.
+- bumper sensor pin ::@:: `A4`.
 
 ### motor outputs
 
@@ -198,9 +197,9 @@ The left and right PWM commands use `D9` and `D11`, and the left and right direc
 
 Flashcards for this section are as follows:
 
-- robot PWM output pins ::@:: `D9` is `L_PWM` and `D11` is `R_PWM`.
-- robot direction output pins ::@:: `D10` is `L_DIR` and `D12` is `R_DIR`.
-- why the fixed pin map matters ::@:: It keeps the code, driver circuit, and sensor wiring consistent across the robot platform.
+- PWM pins ::@:: `D9` = `L_PWM`, `D11` = `R_PWM`.
+- direction pins ::@:: `D10` = `L_DIR`, `D12` = `R_DIR`.
+- fixed pin map ::@:: Keeps code, driver circuit, and sensor wiring consistent.
 
 ## timing, PWM output, and debugging habits
 
@@ -212,10 +211,10 @@ Flashcards for this section are as follows:
 
 Flashcards for this section are as follows:
 
-- what `delay()` does ::@:: `delay()` pauses the program for a chosen number of milliseconds.
-- why long `delay()` calls are risky in robot control ::@:: Long blocking delays reduce how quickly the controller can react to new input.
-- what `analogWrite(pin, value)` is used for ::@:: It generates PWM on supported output pins for tasks such as LED fading or motor-speed control.
-- what the lecture means by `analogWrite(pin, value)` ::@:: Despite its name, `analogWrite()` produces a PWM waveform rather than a true continuously variable analog voltage.
+- `delay()` ::@:: Pauses the program for a chosen number of milliseconds.
+- `delay()` risk ::@:: Long blocking delays slow the controller's reaction to new input.
+- `analogWrite(pin, value)` ::@:: Generates PWM on supported output pins for LED fading or motor-speed control.
+- `analogWrite` misnomer ::@:: Despite the name, it produces a PWM waveform, not a true analog voltage.
 
 ### debugging habits
 
@@ -225,5 +224,5 @@ When debugging, verify the pin map, power rails, sensor reads, logic values, and
 
 Flashcards for this section are as follows:
 
-- common Arduino debugging checks ::@:: Verify the pin map, power rails, sensor reads, logic values, and upload path.
-- when the Nano may need to be removed before uploading ::@:: Remove the Nano before uploading when the surrounding socketed hardware interferes with reprogramming.
+- debugging checks ::@:: Verify pin map, power rails, sensor reads, logic values, and upload path.
+- Nano removal before upload ::@:: Remove when surrounding socketed hardware interferes with reprogramming.

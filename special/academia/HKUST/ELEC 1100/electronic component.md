@@ -31,15 +31,13 @@ Common schematic symbols used throughout the notes: <p> ![resistor symbol](attac
 
 Flashcards for this section are as follows:
 
-- electronic component definition ::@:: Electronic components are the building blocks used in electronic circuits that influence the behaviour of currents and voltages.
-- passive vs active examples ::@:: Passive elements like resistors and capacitors contrast with active semiconductor devices such as diodes and transistors.
-- course context ::@:: In ELEC 1100, electronic components also include basic electrical concepts needed to understand how components operate.
-- active device examples ::@:: Active semiconductor devices include diodes and transistors, distinguishing them from passive elements.
-- power/energy context ::@:: In ELEC 1100, electronic components also encompass power sources and delivery systems such as batteries and supplies that provide energy.
-- schematic symbol: resistor <p> ![resistor symbol](attachments/symbol_resistor.svg) ::@:: Resistor symbol (zigzag/box style depending on standard) representing a component that limits current and creates voltage drops.
-- schematic symbol: capacitor <p> ![capacitor symbol](attachments/symbol_capacitor.svg) ::@:: Capacitor symbol (two plates) representing a component that stores charge/energy in an electric field.
-- schematic symbol: DC voltage source <p> ![voltage source symbol](attachments/symbol_voltage_source.svg) ::@:: Ideal DC voltage source symbol representing a supply that maintains a fixed potential difference.
-- schematic symbol: ground (GND, $0\text{ V}$ reference) <p> ![ground symbol](attachments/symbol_ground.svg) ::@:: Ground/reference node symbol ( $0\text{ V}$ reference) used as the circuit's common return.
+- electronic component ::@:: Elements used in electronic circuits that influence current and voltage behaviour.
+- passive vs active ::@:: Passive: resistors, capacitors. Active: diodes, transistors.
+- course scope ::@:: ELEC 1100 also covers basic electrical concepts and power sources (batteries, supplies).
+- resistor symbol <p> ![resistor symbol](attachments/symbol_resistor.svg) ::@:: Limits current and creates voltage drops.
+- capacitor symbol <p> ![capacitor symbol](attachments/symbol_capacitor.svg) ::@:: Stores charge/energy in an electric field.
+- voltage source symbol <p> ![voltage source symbol](attachments/symbol_voltage_source.svg) ::@:: Maintains a fixed potential difference.
+- ground symbol <p> ![ground symbol](attachments/symbol_ground.svg) ::@:: $0\text{ V}$ reference; the circuit's common return.
 
 ## electrical fundamentals
 
@@ -49,10 +47,10 @@ Electricity arises from electric charge; when charges accumulate at rest the phe
 
 Flashcards for this section are as follows:
 
-- electricity ::@:: Electricity is the flow of electrical power or charge; static electricity occurs when charges gather in one place and current electricity is when they move.
-- static electricity ::@:: Electrical effects caused by an imbalance of positive and negative charges between objects.
+- electricity ::@:: Flow of electrical power or charge; static = charges at rest, current = charges in motion.
+- static electricity ::@:: Electrical effects from charge imbalance between objects.
 - charge attraction/repulsion ::@:: Opposite charges attract; like charges repel.
-- current electricity focus ::@:: Current electricity refers to moving charges and is the primary focus of ELEC 1100.
+- current electricity ::@:: Moving charges; the primary focus of ELEC 1100.
 
 ### atoms and charge
 
@@ -62,10 +60,10 @@ Atoms contain positively charged protons, neutral neutrons and negatively charge
 
 Flashcards for this section are as follows:
 
-- outer electrons conduction ::@:: Electrons in the outermost orbit are held most weakly and can be added or removed easily, which is why they participate in conduction.
-- atom structure ::@:: An atom consists of protons (positive), neutrons (neutral), and electrons (negative); it is electrically neutral when protons equal electrons.
-- elementary charge ::@:: The smallest amount of electric charge is the charge of one proton or electron, $q = 1.6\times10^{-19}\,\mathrm{C}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- charge imbalance ::@:: When atoms lose electrons they become positively charged; when they gain electrons they become negatively charged.
+- outer electrons ::@:: Held most weakly; added or removed easily, so they participate in conduction.
+- atom structure ::@:: Protons (+), neutrons (neutral), electrons (−); neutral when protons = electrons.
+- elementary charge ::@:: $q = 1.6\times10^{-19}\,\mathrm{C}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- charge imbalance ::@:: Lose electrons → positive ion. Gain electrons → negative ion.
 
 ### conductors and insulators
 
@@ -75,9 +73,9 @@ Materials are classified by how easily charges can move through them. Metals are
 
 Flashcards for this section are as follows:
 
-- material classification ::@:: Materials are classified by how easily charges can move through them, with conductors allowing easy flow and insulators restricting movement.
-- conductor definition ::@:: A conductor is a material through which charge flows readily because its atoms require little energy to remove outer electrons.
-- insulator definition ::@:: An insulator is a material that does not allow charge to move easily due to tightly bound electrons.
+- material classification ::@:: Conductors: charges move easily. Insulators: charges are restricted.
+- conductor ::@:: Charge flows readily because outer electrons require little energy to remove.
+- insulator ::@:: Charge does not move easily due to tightly bound electrons.
 
 ### current
 
@@ -87,11 +85,11 @@ By convention, the direction of current is taken to be the direction in which po
 
 Flashcards for this section are as follows:
 
-- current definition ::@:: Current is the orderly movement of charged particles; $I = \Delta q/\Delta t$, measured in amperes (1&nbsp;A = 1&nbsp;C/s). <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- current unit ::@:: The unit of current is the ampere, defined as one coulomb of charge passing a point per second.
-- electron vs conventional direction ::@:: In metal wires only electrons move; by convention current direction is the direction positive charges would move (opposite electron flow).
-- current example heater: A heater draws $8.5\times10^{20}$ electrons in $10\,\textrm{s}$ ($e=1.6\times10^{-19}\,\textrm{C}$); find $q$ and $I$. ::@:: $q=Ne\approx136\,\textrm{C}$ and $I=q/t\approx13.6\,\textrm{A}$.
-- battery example: A battery supplies $50\,\textrm{A}$ for $4\,\textrm{s}$ ($e=1.6\times10^{-19}\,\textrm{C}$); find $q$ and number of electrons. ::@:: $q=It=200\,\textrm{C}$, electrons = $q/e\approx1.25\times10^{21}$.
+- current definition ::@:: $I = \Delta q/\Delta t$; unit: ampere (A). <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- current unit ::@:: One coulomb of charge passing a point per second.
+- conventional direction ::@:: By convention, current flows in the direction positive charges would move (opposite to electron flow).
+- heater example ::@:: $8.5\times10^{20}$ electrons in 10 s → $q \approx 136\,\textrm{C}$, $I \approx 13.6\,\textrm{A}$.
+- battery example ::@:: 50 A for 4 s → $q = 200\,\textrm{C}$, electrons $\approx 1.25\times10^{21}$.
 
 ### voltage and potential difference
 
@@ -101,9 +99,9 @@ voltage (electric potential difference) is the energy per unit charge that drive
 
 Flashcards for this section are as follows:
 
-- voltage definition ::@:: Voltage is the force that makes electrons move through a conductor; symbol V, unit volt (V).
-- potential difference ::@:: Voltage is a difference in electric potential between two points; current flows only if there is a potential difference.
-- ground reference ::@:: Ground (GND) is a circuit reference point defined to be $0\,\text{V}$; voltage measurements are always relative to another point. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- voltage definition ::@:: Energy per unit charge that drives current; symbol V, unit volt. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- potential difference ::@:: Voltage between two points; current flows only with a potential difference.
+- ground reference ::@:: GND = $0\,\text{V}$ reference; voltage measurements are always relative.
 
 ## resistance and resistors
 
@@ -113,18 +111,17 @@ Resistance describes how strongly a material opposes the flow of current. For a 
 
 Flashcards for this section are as follows:
 
-- resistance definition ::@:: Resistance is a measure of the difficulty in passing current through a substance.
-- unit of resistance ::@:: The unit of resistance is the ohm ($\Omega$), symbol $R$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- resistivity formula ::@:: $R = \rho\frac{L}{A}$ for a wire of length $L$ and area $A$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- resistivity depends on material ::@:: The resistivity ρ in the resistance formula depends on the material of the conductor; different materials have different resistivities.
-- ideal wire ::@:: An ideal wire is treated as a perfect conductor and therefore has no resistance.
-- ideal insulator ::@:: An ideal insulator has infinite resistance and does not allow current to flow.
-- resistor definition ::@:: A resistor is a device that limits or regulates current flow in a circuit; colour bands on a resistor encode its resistance value.
-- resistor usage ::@:: Resistors control current and create voltage drops; all loads and even connecting wires inherently have resistance.
-- Ohm's law ::@:: $V = IR$; an I–V plot for a resistor is a straight line with slope $1/R$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- Ohm's law example: Given $V = 5\,\textrm{V}$ across a resistor $R = 200\,\Omega$, what is the current? ::@:: Use $I = V/R$ to calculate $25\,\textrm{mA}$.
-- multimeter use ::@:: Digital multimeters may be used to measure resistance, voltage, or current in laboratory circuits.
-- metric prefixes ::@:: Prefixes such as kilo ($k=10^{3}$) and milli ($m=10^{-3}$) are applied to ohms and amperes (e.g. $10\,\text{k}\Omega = 10000\,\Omega$; $50\,\text{mA} = 0.05\,\text{A}$). <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- resistance ::@:: Difficulty passing current through a substance. Unit: ohm ($\Omega$). <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- resistivity formula ::@:: $R = \rho\frac{L}{A}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- resistivity ::@:: Depends on material; different materials have different values.
+- ideal wire ::@:: Perfect conductor, zero resistance.
+- ideal insulator ::@:: Infinite resistance.
+- resistor ::@:: Limits or regulates current; colour bands encode resistance value.
+- resistor usage ::@:: Controls current and creates voltage drops; all loads and wires have resistance.
+- Ohm's law ::@:: $V = IR$; I–V plot is a straight line with slope $1/R$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- Ohm's law example ::@:: $V = 5\,\textrm{V}$, $R = 200\,\Omega$ → $I = 25\,\textrm{mA}$.
+- multimeter ::@:: Measures resistance, voltage, or current.
+- metric prefixes ::@:: kilo ($k=10^3$), milli ($m=10^{-3}$). E.g. $10\,\text{k}\Omega = 10000\,\Omega$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
 ## capacitors
 
@@ -134,12 +131,11 @@ A capacitor consists of two conductive plates separated by an insulating materia
 
 Flashcards for this section are as follows:
 
-- capacitor definition ::@:: A capacitor is a passive device that can store electrical energy when connected to a voltage source.
-- capacitor structure ::@:: A capacitor consists of two conductive plates separated by an insulating material.
-- capacitor energy storage ::@:: When a voltage is applied, opposite charges accumulate on the plates, storing electrical energy.
-- capacitor action ::@:: When connected, the capacitor charges and current flows; when disconnected it discharges and can keep a lamp lit for a while.
-- capacitor discharge ::@:: If the voltage source is removed the capacitor can discharge and supply current for a short period, temporarily powering a circuit.
-- capacitor analog ::@:: The water analog for a capacitor is a tank that stores fluid under pressure; the capacitor stores charge under voltage.
+- capacitor ::@:: Passive device that stores electrical energy when connected to a voltage source.
+- capacitor structure ::@:: Two conductive plates separated by an insulating material.
+- capacitor energy storage ::@:: Opposite charges accumulate on plates when voltage is applied.
+- capacitor action ::@:: Charges when connected, discharges when disconnected, temporarily powering loads.
+- capacitor analog ::@:: Like a water tank storing fluid under pressure.
 
 ### capacitor actions
 
@@ -153,9 +149,9 @@ Simple circuits illustrate how a capacitor changes transient behaviour. Without 
 
 Flashcards for this section are as follows:
 
-- capacitor action ::@:: A capacitor charges when connected and discharges when disconnected, smoothing voltage changes and temporarily powering loads.
-- parallel capacitor role ::@:: Placing a capacitor in parallel with a load gives the circuit a charge reservoir that helps smooth transient behaviour when switches change state.
-- capacitor sequence ::@:: Switch off, lamp off; switch on, lamp on and capacitor charges; switch opened again lamp keeps on for a while as the capacitor discharges.
+- capacitor behaviour ::@:: Charges when connected, discharges when disconnected; smooths voltage changes.
+- parallel capacitor ::@:: Gives the circuit a charge reservoir that smooths transient behaviour.
+- capacitor sequence ::@:: Switch off → lamp off. Switch on → lamp on, capacitor charges. Switch opens → lamp stays on briefly as capacitor discharges.
 
 ## energy and power
 
@@ -175,13 +171,12 @@ Electrical sources may deliver either direct current (DC) or alternating current
 
 Flashcards for this section are as follows:
 
-- energy definition ::@:: Energy is the ability to do work and can take forms like mechanical, thermal, electrical, or chemical; it is conserved during conversion.
-- battery energy role ::@:: Batteries supply electrical energy through electrochemical reactions and provide DC power with long storage times.
-- human/robot analogy ::@:: People get energy by eating food while robots obtain energy from batteries or power supplies.
-- DC vs AC ::@:: Direct current (DC) has constant polarity and amplitude; alternating current (AC) oscillates and reverses direction periodically.
-- household AC frequency ::@:: Mains electricity typically alternates at $50\,\text{Hz}$ (Hong Kong) or $60\,\text{Hz}$ (some other countries). <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- energy formula circuit ::@:: Electrical energy delivered to charge $q$ through a voltage $V$ is $E = qV$, with $q$ measured in coulombs. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- power definition ::@:: Power is the rate of energy consumption; $P = E/\Delta t = IV$ and for resistors $P = I^2R = V^2/R$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- energy definition ::@:: Ability to do work; takes mechanical, thermal, electrical, chemical forms; conserved during conversion.
+- battery role ::@:: Supplies electrical energy via electrochemical reactions; DC power with long storage.
+- DC vs AC ::@:: DC: constant polarity. AC: oscillates and reverses periodically.
+- household AC frequency ::@:: 50 Hz (Hong Kong) or 60 Hz (other countries). <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- energy formula ::@:: $E = qV$; $q$ in coulombs. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- power definition ::@:: $P = E/\Delta t = IV$; for resistors $P = I^2R = V^2/R$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
 ### energy sources in lab
 
@@ -191,9 +186,9 @@ At the HKUST electronics lab you will typically power circuits from bench suppli
 
 Flashcards for lab sources are as follows:
 
-- lab DC supply ::@:: A DC power supply provides a regulated constant voltage for breadboard experiments.
-- function generator ::@:: A function generator produces AC waveforms of selectable frequency and amplitude.
-- robot battery ::@:: Project robots use rechargeable LiPo batteries monitored by a battery monitor.
+- lab DC supply ::@:: Provides regulated constant voltage for breadboard experiments.
+- function generator ::@:: Produces AC waveforms of selectable frequency and amplitude.
+- robot battery ::@:: Rechargeable LiPo batteries with a battery monitor.
 
 ### energy conversion
 
@@ -203,8 +198,8 @@ One way to visualise energy is by considering gravitational potential becoming k
 
 Flashcards for energy conversion are as follows:
 
-- energy conversion example ::@:: Galileo's falling objects experiment shows $v=\sqrt{2gh}$, relating potential $mgh$ to kinetic $\tfrac12 mv^{2}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- gravitational acceleration ::@:: The acceleration due to gravity is independent of mass, so all objects fall at the same rate neglecting air resistance.
+- energy conversion example ::@:: $v=\sqrt{2gh}$; potential $mgh$ → kinetic $\tfrac12 mv^{2}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- gravitational acceleration ::@:: Independent of mass; all objects fall at the same rate neglecting air resistance.
 
 ### human body energy
 
@@ -214,7 +209,7 @@ For context, the human body itself uses electrical, chemical and mechanical powe
 
 Flashcards for human body energy are as follows:
 
-- human body energy ::@:: A human body expends a few watts for heartbeat and thermal output, and tens of watts for limb motion, much larger than the power dissipated in small resistors.
+- human body energy ::@:: A few watts for heartbeat and heat; tens of watts for limb motion — much larger than small-resistor power dissipation.
 
 ### resistor networks
 
@@ -232,15 +227,14 @@ Resistors dissipate electrical power as heat, which is why excessive current can
 
 Flashcards for this section are as follows:
 
-- series resistors formula ::@:: Resistors in series simply add: $R_{\text{eq}} = R_1 + R_2 + \cdots$ (same current through each). <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- voltage divider ::@:: A voltage divider is two series resistors; assuming an ideal wire and ground, setup the circuit as V → RS → N → RL → GND → (V), then the voltage at node N is $V\cdot\frac{R_L}{R_S + R_L}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- series divider assumptions ::@:: The voltage-divider formula assumes an ideal wire (zero resistance) and that the reference node is ground ($0\,\text{V}$). <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- parallel resistors formula ::@:: Resistors in parallel satisfy $1/R_{\text{eq}} = 1/R_1 + 1/R_2 + \cdots$; conductance $G = 1 / R$ with unit siemens. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- conductance units ::@:: Conductance $G=1/R$ is measured in siemens (S); older units mho or ℧ are equivalent. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- infinite ladder concept: Given an infinite resistor ladder built by repeating a small series/parallel cell, how can you model the resistance of the "tail" of the network in terms of an unknown $R_{\text{eq}}$? ::@:: Because the part of the ladder to the right of any cell looks identical to the whole, you can replace the infinite tail by a single unknown equivalent resistance $R_{\text{eq}}$ and solve for it.
-- ELEC 1100 infinite ladder example: Given the ELEC 1100 ladder made from repeating a $2R$ series resistor with a $1.5R$ shunt to ground, how do you find its equivalent resistance? ::@:: Write the equation $R_{\text{eq}} = 2R + (1.5R\parallel R_{\text{eq}})$ using the usual parallel formula and solve to obtain $R_{\text{eq}} = 3R$.
-- network calculation example: A $5\,\textrm{V}$ source drives $30\,\Omega$ in series with parallel $40\,\Omega$ and $60\,\Omega$ branches; what are $R_{\text{eq}}$ and total current? ::@:: $R_{\parallel}=24\,\Omega$, $R_{\text{eq}}=54\,\Omega$, $I=5/54\approx0.093\,\textrm{A}$.
-- short circuit danger ::@:: A short circuit is a near-zero-resistance path (close to zero, like through a metal wire) causing very high current and has the potential to damage components.
+- series resistors ::@:: $R_{\text{eq}} = R_1 + R_2 + \cdots$; same current through each. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- voltage divider ::@:: Two series resistors; voltage at node N: $V\cdot\frac{R_L}{R_S + R_L}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- divider assumptions ::@:: Ideal wire (zero resistance) and ground ($0\,\text{V}$) reference. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- parallel resistors ::@:: $1/R_{\text{eq}} = 1/R_1 + 1/R_2 + \cdots$; conductance $G = 1/R$, unit siemens. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- infinite ladder concept ::@:: Replace the infinite tail with $R_{\text{eq}}$ and solve the equation.
+- ELEC 1100 ladder example ::@:: $R_{\text{eq}} = 2R + (1.5R\parallel R_{\text{eq}})$ → $R_{\text{eq}} = 3R$.
+- network example ::@:: 5 V → 30 Ω + (40 Ω ∥ 60 Ω) → $R_{\text{eq}}=54\,\Omega$, $I\approx0.093\,\textrm{A}$.
+- short circuit ::@:: Near-zero-resistance path causing very high current; can damage components.
 
 ### worked calculations
 
@@ -252,7 +246,7 @@ Flashcards for this section are as follows:
 
 Flashcards for this section are as follows:
 
-- example power calculation: Given a $200\,\Omega$ resistor with $5\text{ V}$ across it, what power is dissipated? ::@:: Use $P=V^{2}/R$ to get $0.125\text{ W}$.
-- parallel circuit current: Two $2\,\Omega$ resistors are in parallel with $10\,\text{V}$ applied; find the total current. ::@:: First compute $R_{\text{eq}}=(1/2+1/2)^{-1}=1\,\Omega$ then $I=V/R_{\text{eq}}=10\,\text{A}$.
-- 10&nbsp;V series-plus-parallel network: A $10\text{ V}$ source drives a $2\,\Omega$ resistor in series with a parallel combination of a single $2\,\Omega$ branch and another branch composed of two $2\,\Omega$ resistors in series; what is the total current? ::@:: Equivalent resistance $10/3\,\Omega$ gives $I=3\text{ A}$.
-- series/parallel power: A $5\text{ V}$ source drives two equal resistors $R_S=R_L=2.4\text{ k}\Omega$ in series; calculate the power dissipated by $R_L$. ::@:: The answer is about $2.6\text{ mW}$ (use $I=1.04\text{ mA}$, then $I^{2}R$, or halve the total power).
+- power calculation ::@:: $200\,\Omega$ with 5 V → $P=V^{2}/R = 0.125\text{ W}$.
+- parallel current ::@:: Two 2 Ω in parallel with 10 V → $R_{\text{eq}}=1\,\Omega$, $I=10\,\text{A}$.
+- series-plus-parallel network ::@:: 10 V → 2 Ω + (2 Ω ∥ 4 Ω) → $R=10/3\,\Omega$, $I=3\text{ A}$.
+- series/parallel power ::@:: 5 V, two 2.4 kΩ in series → $P_{R_L}\approx2.6\text{ mW}$.
