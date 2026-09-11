@@ -669,10 +669,12 @@ class WikiHtmlConverter:
     ) -> bool:
         """Whether two plain-text neighbours would merge without a space.
 
-        Parsoid renders an explicit character reference (``&#32;``, ``&nbsp;``)
-        as ``<span typeof="mw:Entity"> </span>``.  When such a span sits between
-        two words its text is the only separation, so both rendered neighbours
-        must be text and neither may already supply a space.
+        Parsoid renders an explicit character reference as an ``mw:Entity`` span
+        whose body is the referenced character: U+0020 for ``&#32;``, U+00A0 for
+        ``&nbsp;``.  Only an ASCII-whitespace body reaches the whitespace
+        collapsing above; when such a span sits between two words its text is the
+        only separation, so both rendered neighbours must be text and neither may
+        already supply a space.
         """
         if not isinstance(prev, NavigableString) or not isinstance(
             nxt, NavigableString
@@ -708,9 +710,9 @@ class WikiHtmlConverter:
 
         Whitespace-only ``NavigableString`` siblings carry no rendered content,
         so structural decisions (e.g. a blank line before a following heading)
-        must look past them.  The separator helpers at L609-611 intentionally
-        rely on the raw whitespace result, so callers there must pass
-        ``skip_whitespace=False``.
+        must look past them.  ``_needs_separator_before`` and
+        ``_needs_separator_after`` intentionally rely on the raw whitespace
+        result, so callers there must pass ``skip_whitespace=False``.
         """
         node: PageElement = ele
         while True:
