@@ -76,6 +76,19 @@ _BOXED_CLASSES = frozenset(
 )
 """Box-like classes whose content renders as a blockquote."""
 _BLOCKQUOTE_CLASSES = frozenset(_BOXED_CLASSES - {"equation-box"})
+"""
+Span classes whose handler emits markers or block spacing.
+
+``_handle_span`` returns ``None``, so a span is normally flattened and
+contributes nothing of its own.  These classes are the exception: ``hatnote``
+prefixes a list marker, ``sidebar-navbar``/``navbar`` may wrap their text in an
+HTML comment, ``sistersitebox`` and ``thumb`` add block spacing, and the boxed
+classes render as blockquotes.  ``_is_transparent_span`` needs this set so its
+verdict agrees with what ``convert`` actually emits for a span.
+"""
+_OPAQUE_SPAN_CLASSES = _BOXED_CLASSES | frozenset(
+    {"hatnote", "navbar", "sidebar-navbar", "sistersitebox", "thumb"}
+)
 """Inline tags that can form an equation-box title."""
 _EQUATION_BOX_TITLE_TAGS = frozenset({"b", "strong", "i", "em", "span"})
 """Block-level tags that separate an equation-box title from its body."""
@@ -492,11 +505,7 @@ class WikiHtmlConverter:
         if ele.name == "a" and "mw-selflink" in classes:
             return self._handle_selflink(ele, classes)
 
-        if "hatnote" not in classes and (
-            ele.name in _BOLD_OR_ITALIC
-            or _BOLD_FONT_STYLE_REGEX.search(str(ele.get("style", "")))
-            or _ITALIC_FONT_STYLE_REGEX.search(str(ele.get("style", "")))
-        ):
+        if "hatnote" not in classes and self._renders_emphasis(ele):
             return self._handle_bold_italic(ele, classes)
 
         if {"mw-tmh-play", "oo-ui-buttonElement-button"} & classes:
@@ -689,22 +698,56 @@ class WikiHtmlConverter:
         )
 
     @staticmethod
-    def _effective_sibling(ele: PageElement, *, following: bool) -> PageElement | None:
+    def _renders_emphasis(ele: Tag) -> bool:
+        """Whether *ele* is routed to ``_handle_bold_italic``.
+
+        Covers the explicit emphasis tags and any element whose inline style
+        forces bold or italic.  ``_dispatch`` and ``_is_transparent_span`` both
+        use this, so the routing decision and the transparency model cannot
+        drift apart.
+        """
+        return bool(
+            ele.name in _BOLD_OR_ITALIC
+            or _BOLD_FONT_STYLE_REGEX.search(str(ele.get("style", "")))
+            or _ITALIC_FONT_STYLE_REGEX.search(str(ele.get("style", "")))
+        )
+
+    @classmethod
+    def _is_transparent_span(cls, ele: PageElement | None) -> bool:
+        """Whether *ele* is a ``<span>`` that renders nothing of its own.
+
+        Such a span is flattened by ``_handle_span``: its children take its
+        place in the rendered output, so the wrapper's own siblings become
+        their rendered neighbours.  A span is opaque when ``_dispatch`` routes
+        it to an emphasis handler (which emits ``__``/``_`` markers), or when
+        ``convert`` gives it a class-driven prefix, suffix, or block spacing.
+        """
+        if not isinstance(ele, Tag) or ele.name != "span":
+            return False
+        classes = frozenset(ele.get_attribute_list("class"))
+        if "hatnote" not in classes and cls._renders_emphasis(ele):
+            return False
+        return not classes & _OPAQUE_SPAN_CLASSES
+
+    @classmethod
+    def _effective_sibling(
+        cls, ele: PageElement, *, following: bool
+    ) -> PageElement | None:
         """Return the sibling adjacent to *ele* in rendered output order.
 
         ``_handle_span`` emits nothing and flattens its children, so an
-        element that is the only child of a ``<span>`` has no direct sibling
-        yet is adjacent to the wrapper's sibling in the output.  Walk up
-        through such transparent wrappers until a real sibling is found or a
-        non-span boundary (block element or root) is reached.
+        element that is the only child of a transparent ``<span>`` has no
+        direct sibling yet is adjacent to the wrapper's sibling in the output.
+        Walk up through such wrappers until a real sibling is found or an
+        opaque boundary (block element or root) is reached.
         """
-        return WikiHtmlConverter._effective_sibling_skipping(
+        return cls._effective_sibling_skipping(
             ele, following=following, skip_whitespace=False
         )
 
-    @staticmethod
+    @classmethod
     def _effective_sibling_skipping(
-        ele: PageElement, *, following: bool, skip_whitespace: bool
+        cls, ele: PageElement, *, following: bool, skip_whitespace: bool
     ) -> PageElement | None:
         """Like ``_effective_sibling`` but optionally skips whitespace-only text.
 
@@ -719,7 +762,7 @@ class WikiHtmlConverter:
             sibling = node.next_sibling if following else node.previous_sibling
             if sibling is None:
                 parent = node.parent
-                if not isinstance(parent, Tag) or parent.name != "span":
+                if not isinstance(parent, Tag) or not cls._is_transparent_span(parent):
                     return None
                 node = parent
                 continue

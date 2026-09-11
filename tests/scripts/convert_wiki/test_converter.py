@@ -2045,6 +2045,98 @@ class TestStaticUtilities:
         assert span is not None
         assert not WikiHtmlConverter._in_navbox(span)
 
+    def test_renders_emphasis_predicate(self) -> None:
+        """The bold/italic routing test shared with ``_dispatch``.
+
+        Covers the explicit emphasis tags and both forcing styles, and rejects
+        the inline tags that a Markdown emphasis handler must not claim.
+        """
+        soup = BeautifulSoup(
+            "<p><b>1</b><i>2</i><em>3</em><strong>4</strong>"
+            '<span style="font-weight: bold">5</span>'
+            '<span style="font-style:italic">6</span>'
+            "<span>7</span><a href='#'>8</a></p>",
+            "html.parser",
+        )
+        p = soup.find("p")
+        assert isinstance(p, Tag)
+        expected = [True, True, True, True, True, True, False, False]
+        for child, want in zip(p.find_all(True), expected, strict=True):
+            assert isinstance(child, Tag)
+            assert WikiHtmlConverter._renders_emphasis(child) is want
+
+    def test_is_transparent_span_accepts_plain_spans(self) -> None:
+        """A span with no rendering class is flattened by ``_handle_span``.
+
+        The ``mwe-math-element`` wrapper around inline math is the common case:
+        it emits nothing of its own, so its children take its place in the
+        rendered output.
+        """
+        soup = BeautifulSoup(
+            '<p><span>a</span><span class="mwe-math-element">b</span></p>',
+            "html.parser",
+        )
+        spans = soup.find_all("span")
+        assert len(spans) == 2
+        for span in spans:
+            assert WikiHtmlConverter._is_transparent_span(span)
+
+    @pytest.mark.parametrize("style", ["font-weight: bold", "font-style: italic"])
+    def test_is_transparent_span_rejects_emphasis_styles(self, style: str) -> None:
+        """A styled span is routed to ``_handle_bold_italic`` and emits markers."""
+        soup = BeautifulSoup(f'<p><span style="{style}">a</span></p>', "html.parser")
+        span = soup.find("span")
+        assert isinstance(span, Tag)
+        assert not WikiHtmlConverter._is_transparent_span(span)
+
+    @pytest.mark.parametrize(
+        "classes",
+        [
+            "hatnote",
+            "navbar",
+            "sidebar-navbar",
+            "sistersitebox",
+            "thumb",
+            "portalbox",
+        ],
+    )
+    def test_is_transparent_span_rejects_class_driven_rendering(
+        self, classes: str
+    ) -> None:
+        """Classes that add markers or block spacing make a span opaque."""
+        soup = BeautifulSoup(f'<p><span class="{classes}">a</span></p>', "html.parser")
+        span = soup.find("span")
+        assert isinstance(span, Tag)
+        assert not WikiHtmlConverter._is_transparent_span(span)
+
+    def test_is_transparent_span_hatnote_beats_bold_style(self) -> None:
+        """A hatnote keeps its list-marker prefix even when styled bold.
+
+        ``_dispatch`` skips the emphasis handler for hatnotes, but ``convert``
+        still prefixes ``- `` and the span therefore renders content.
+        """
+        soup = BeautifulSoup(
+            '<p><span class="hatnote" style="font-weight: bold">a</span></p>',
+            "html.parser",
+        )
+        span = soup.find("span")
+        assert isinstance(span, Tag)
+        assert not WikiHtmlConverter._is_transparent_span(span)
+
+    def test_is_transparent_span_rejects_non_spans(self) -> None:
+        """Only spans are flattened; every other inline tag renders itself."""
+        soup = BeautifulSoup(
+            "<p><b>a</b><i>b</i><em>c</em><strong>d</strong>"
+            "<a href='#'>e</a><img src='f'/></p>",
+            "html.parser",
+        )
+        p = soup.find("p")
+        assert isinstance(p, Tag)
+        for child in p.find_all(True):
+            assert not WikiHtmlConverter._is_transparent_span(child)
+        assert not WikiHtmlConverter._is_transparent_span(None)
+        assert not WikiHtmlConverter._is_transparent_span(soup)
+
     def test_text_edges_would_merge(self) -> None:
         """Two word edges need the space between them."""
         assert WikiHtmlConverter._text_edges_would_merge(
