@@ -11,7 +11,7 @@ import pytest
 from anyio import Path as AnyioPath
 from bs4 import BeautifulSoup, NavigableString, Tag
 
-from scripts.convert_wiki.converter import WikiHtmlConverter
+from scripts.convert_wiki.converter import WikiHtmlConverter, _discards_subtree
 from scripts.convert_wiki.latex import LatexConverter
 from scripts.convert_wiki.types import _RedirectInfo
 from tests.scripts.test_convert_wiki import _assert_markdownlint_clean
@@ -939,6 +939,23 @@ class TestBoldItalicHandling:
         html = "<p><b>a</b><span><span></span></span><b>b</b></p>"
         result = await _convert(converter, html)
         assert "__a__<!-- markdown separator -->__b__" in result
+
+    @pytest.mark.anyio
+    async def test_separator_past_discarded_span(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A discarded span is not the token that abuts the whitespace.
+
+        ``convert`` drops ``mw-editsection`` subtrees, so the text either side
+        of one must still see each other.  Without the same verdict in
+        ``_renders_nothing`` the walk-up stops at the dropped span and its
+        arrow glyph swallows the separation.  Either side may carry it.
+        """
+        for html in (
+            '<p>x<span class="mw-editsection">↑</span> y</p>',
+            '<p>x <span class="mw-editsection">↑</span>y</p>',
+        ):
+            assert "x y" in await _convert(converter, html)
 
     @pytest.mark.anyio
     async def test_separator_past_empty_entity_span(
@@ -2293,7 +2310,59 @@ class TestStaticUtilities:
         """Only markup with no text, image, or separating space is nothing."""
         soup = BeautifulSoup(html, "html.parser")
         node = next(iter(soup.children))
-        assert WikiHtmlConverter._renders_nothing(node) is expected
+        assert WikiHtmlConverter._renders_nothing(node, refs=True) is expected
+
+    @pytest.mark.parametrize(
+        ("classes", "refs", "expected"),
+        [
+            ("mw-editsection", True, True),
+            ("mw-editsection", False, True),
+            ("mw-cite-backlink", True, True),
+            ("mw-cite-backlink", False, True),
+            ("reference", False, True),
+            ("reference", True, False),
+            ("hatnote", True, False),
+            ("", True, False),
+        ],
+    )
+    def test_discards_subtree(self, classes: str, refs: bool, expected: bool) -> None:
+        """The two unconditional classes ignore ``refs``; ``reference`` does not.
+
+        References still render a link when they are rendered at all, so only
+        their mode-off case is a discarded subtree.
+        """
+        assert _discards_subtree(frozenset(classes.split()), refs=refs) is expected
+
+    @pytest.mark.anyio
+    @pytest.mark.parametrize(
+        ("classes", "refs"),
+        [
+            ("mw-editsection", True),
+            ("mw-editsection", False),
+            ("mw-cite-backlink", True),
+            ("mw-cite-backlink", False),
+            ("reference", True),
+            ("reference", False),
+        ],
+    )
+    async def test_discard_verdict_matches_convert(
+        self, converter: WikiHtmlConverter, classes: str, refs: bool
+    ) -> None:
+        """``convert`` and ``_renders_nothing`` must agree about a subtree.
+
+        This is the invariant that stops the two drifting apart: whatever
+        ``convert`` drops entirely must also be invisible to the
+        rendered-adjacency walk-up, or a dropped span becomes a phantom
+        neighbour.
+        """
+        soup = BeautifulSoup(f'<p><span class="{classes}">x</span></p>', "html.parser")
+        span = soup.find("span")
+        assert isinstance(span, Tag)
+        output = await converter.convert(
+            span, out_to_archive=set(), redirect_map={}, refs=refs
+        )
+        discarded = WikiHtmlConverter._renders_nothing(span, refs=refs)
+        assert (output == "") is discarded
 
     def test_edge_is_word_plain_text(self) -> None:
         """Each side is judged by the character that touches the whitespace.
@@ -2302,21 +2371,23 @@ class TestStaticUtilities:
         from its first, so either side may carry the separation on its own.
         """
         assert WikiHtmlConverter._nearest_edge_is_word(
-            NavigableString("Physics"), following=False
+            NavigableString("Physics"), following=False, refs=True
         )
         assert WikiHtmlConverter._nearest_edge_is_word(
-            NavigableString("portal"), following=True
+            NavigableString("portal"), following=True, refs=True
         )
         assert not WikiHtmlConverter._nearest_edge_is_word(
-            NavigableString("dash "), following=False
+            NavigableString("dash "), following=False, refs=True
         )
         assert not WikiHtmlConverter._nearest_edge_is_word(
-            NavigableString(" events"), following=True
+            NavigableString(" events"), following=True, refs=True
         )
         assert not WikiHtmlConverter._nearest_edge_is_word(
-            NavigableString(""), following=False
+            NavigableString(""), following=False, refs=True
         )
-        assert not WikiHtmlConverter._nearest_edge_is_word(None, following=True)
+        assert not WikiHtmlConverter._nearest_edge_is_word(
+            None, following=True, refs=True
+        )
 
     def test_edge_is_word_descends_into_inline_wrappers(self) -> None:
         """The edge comes from rendered content, not the first element boundary.
@@ -2331,7 +2402,7 @@ class TestStaticUtilities:
         )
         link = soup.find("a")
         assert isinstance(link, Tag)
-        assert WikiHtmlConverter._nearest_edge_is_word(link, following=False)
+        assert WikiHtmlConverter._nearest_edge_is_word(link, following=False, refs=True)
 
     def test_edge_is_word_skips_unrendered_markup(self) -> None:
         """Whitespace and empty wrappers are not the edge.
@@ -2346,35 +2417,45 @@ class TestStaticUtilities:
         )
         outer = soup.find("span")
         assert isinstance(outer, Tag)
-        assert WikiHtmlConverter._nearest_edge_is_word(outer, following=False)
+        assert WikiHtmlConverter._nearest_edge_is_word(
+            outer, following=False, refs=True
+        )
         math = BeautifulSoup(
             "<p><span><math> <mi>M</mi></math></span> <span>b</span></p>", "html.parser"
         ).find("span")
         assert isinstance(math, Tag)
-        assert WikiHtmlConverter._nearest_edge_is_word(math, following=True)
+        assert WikiHtmlConverter._nearest_edge_is_word(math, following=True, refs=True)
 
     def test_edge_is_word_block_boundaries(self) -> None:
         """Block tags and ``<br>`` separate blocks, not words."""
         for html in ("<div>a</div>", "<p>a</p>", "<br/>", "<hr/>"):
             soup = BeautifulSoup(html, "html.parser")
             node = next(iter(soup.children))
-            assert not WikiHtmlConverter._nearest_edge_is_word(node, following=True)
-            assert not WikiHtmlConverter._nearest_edge_is_word(node, following=False)
+            assert not WikiHtmlConverter._nearest_edge_is_word(
+                node, following=True, refs=True
+            )
+            assert not WikiHtmlConverter._nearest_edge_is_word(
+                node, following=False, refs=True
+            )
 
     def test_edge_is_word_treats_image_as_a_token(self) -> None:
         """An image has no children yet still renders an inline token."""
         soup = BeautifulSoup("<img src='a'/>", "html.parser")
         img = next(iter(soup.children))
-        assert WikiHtmlConverter._nearest_edge_is_word(img, following=True)
-        assert WikiHtmlConverter._nearest_edge_is_word(img, following=False)
+        assert WikiHtmlConverter._nearest_edge_is_word(img, following=True, refs=True)
+        assert WikiHtmlConverter._nearest_edge_is_word(img, following=False, refs=True)
 
     def test_edge_is_word_ignores_empty_wrappers(self) -> None:
         """A wrapper that renders nothing has no word edge either way."""
         for html in ("<span></span>", "<b> </b>"):
             soup = BeautifulSoup(html, "html.parser")
             node = next(iter(soup.children))
-            assert not WikiHtmlConverter._nearest_edge_is_word(node, following=True)
-            assert not WikiHtmlConverter._nearest_edge_is_word(node, following=False)
+            assert not WikiHtmlConverter._nearest_edge_is_word(
+                node, following=True, refs=True
+            )
+            assert not WikiHtmlConverter._nearest_edge_is_word(
+                node, following=False, refs=True
+            )
 
 
 # ---------------------------------------------------------------------------

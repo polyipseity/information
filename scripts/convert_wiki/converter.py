@@ -114,6 +114,25 @@ text: they are rendered tokens in their own right.
 """
 _ATOMIC_TAGS = frozenset({"br", "hr", "img"})
 """
+Classes whose entire subtree ``convert`` discards before dispatch.
+
+``convert`` returns an empty string for these, so nothing inside them reaches
+the output and no element in the subtree can be a rendered neighbour.
+"""
+_DISCARDED_CLASSES = frozenset({"mw-cite-backlink", "mw-editsection"})
+
+
+def _discards_subtree(classes: frozenset[str], *, refs: bool) -> bool:
+    """Whether ``convert`` drops an element carrying *classes* entirely.
+
+    ``<sup class="reference">`` renders a citation link only when references
+    are rendered at all, so the verdict depends on ``refs`` as well as on the
+    classes.
+    """
+    return bool(_DISCARDED_CLASSES & classes) or ("reference" in classes and not refs)
+
+
+"""
 Block-level tags whose edges separate blocks rather than joining words.
 
 ``_nearest_edge_is_word`` stops its descent here: a whitespace run that touches
@@ -339,12 +358,12 @@ class WikiHtmlConverter:
                     # nothing — an empty ``<span>``, or the ``<link>`` elements
                     # Parsoid leaves between citations — is stepped over rather
                     # than mistaken for the neighbour.
-                    prev = self._rendered_neighbour(ele, following=False)
-                    nxt = self._rendered_neighbour(ele, following=True)
+                    prev = self._rendered_neighbour(ele, following=False, refs=refs)
+                    nxt = self._rendered_neighbour(ele, following=True, refs=refs)
                     if (
                         not self._in_texhtml(ele)
-                        and self._nearest_edge_is_word(prev, following=False)
-                        and self._nearest_edge_is_word(nxt, following=True)
+                        and self._nearest_edge_is_word(prev, following=False, refs=refs)
+                        and self._nearest_edge_is_word(nxt, following=True, refs=refs)
                     ):
                         return " "
                     if (
@@ -360,25 +379,22 @@ class WikiHtmlConverter:
             return ""
 
         classes = frozenset(ele.get_attribute_list("class"))
-        if {"mw-cite-backlink", "mw-editsection"} & classes:
+        if _discards_subtree(classes, refs=refs):
             return ""
 
         if "reference" in classes:
-            if refs:
-                ref_link = ele.find("a", href=lambda v: v and "#cite_note-" in v)
-                if ref_link:
-                    ref_content = ref_link.get_text(strip=True).strip("[]")
-                    if " " in ref_content:
-                        group, number = ref_content.split(" ", 1)
-                        fragment = f"^{group}-{number}"
-                    else:
-                        fragment = f"^ref-{ref_content}"
-                    return (
-                        f"<sup>[{escape_markdown(f'[{ref_content}]')}]"
-                        f"({_markdown_fragment(fragment)})</sup>"
-                    )
-            else:
-                return ""
+            ref_link = ele.find("a", href=lambda v: v and "#cite_note-" in v)
+            if ref_link:
+                ref_content = ref_link.get_text(strip=True).strip("[]")
+                if " " in ref_content:
+                    group, number = ref_content.split(" ", 1)
+                    fragment = f"^{group}-{number}"
+                else:
+                    fragment = f"^ref-{ref_content}"
+                return (
+                    f"<sup>[{escape_markdown(f'[{ref_content}]')}]"
+                    f"({_markdown_fragment(fragment)})</sup>"
+                )
 
         if (
             isinstance(ele, Tag)
@@ -395,6 +411,10 @@ class WikiHtmlConverter:
 
         self._out_to_archive = out_to_archive
         self._redirect_map = redirect_map
+        # Handlers are reached through the generic ``_handle_*`` protocol, which
+        # cannot take per-handler arguments, so the rendering mode joins the
+        # other per-call context on the instance.
+        self._refs = refs
 
         config = await self._dispatch(
             ele, classes, list_stack=list_stack, seen_heading_texts=seen_heading_texts
@@ -407,7 +427,7 @@ class WikiHtmlConverter:
         # in "\n\n" are left untouched to avoid double blank lines.
         if config.suffix == "\n":
             nxt = self._effective_sibling_skipping(
-                ele, following=True, skip_whitespace=True
+                ele, following=True, skip_whitespace=True, refs=refs
             )
             if isinstance(nxt, Tag) and (
                 _HEADER_REGEX.match(nxt.name)
@@ -738,7 +758,9 @@ class WikiHtmlConverter:
         )
 
     @classmethod
-    def _nearest_edge_is_word(cls, ele: PageElement | None, *, following: bool) -> bool:
+    def _nearest_edge_is_word(
+        cls, ele: PageElement | None, *, following: bool, refs: bool
+    ) -> bool:
         """Whether the nearest rendered character at *ele*'s edge is a word character.
 
         The whitespace branch asks this of both neighbours.  A run of whitespace
@@ -771,7 +793,11 @@ class WikiHtmlConverter:
             if not following:
                 children = children[::-1]
             node = next(
-                (child for child in children if not cls._renders_nothing(child)),
+                (
+                    child
+                    for child in children
+                    if not cls._renders_nothing(child, refs=refs)
+                ),
                 None,
             )
         return False
@@ -809,13 +835,18 @@ class WikiHtmlConverter:
         return not classes & _OPAQUE_SPAN_CLASSES
 
     @classmethod
-    def _renders_nothing(cls, ele: PageElement) -> bool:
+    def _renders_nothing(cls, ele: PageElement, *, refs: bool) -> bool:
         """Whether *ele* contributes no text, image, or separating space.
 
         An empty ``<span>`` renders nothing, and neither does an emphasis span
         whose whole body is whitespace: ``convert`` drops the collapsed result,
-        so the markers around it never appear.
+        so the markers around it never appear.  A subtree ``convert`` discards
+        outright renders nothing either, whatever text it holds.
         """
+        if isinstance(ele, Tag) and _discards_subtree(
+            frozenset(ele.get_attribute_list("class")), refs=refs
+        ):
+            return True
         if isinstance(ele, PreformattedString):
             # Comments, CDATA, and doctypes are markup, never content.
             return True
@@ -834,7 +865,7 @@ class WikiHtmlConverter:
             # separating space; a child that renders nothing counts for nothing,
             # so a wrapper around only empty wrappers renders nothing itself.
             return not any(
-                not cls._renders_nothing(child)
+                not cls._renders_nothing(child, refs=refs)
                 or (
                     isinstance(child, NavigableString)
                     and not isinstance(child, PreformattedString)
@@ -847,22 +878,6 @@ class WikiHtmlConverter:
         )
 
     @classmethod
-    def _effective_sibling(
-        cls, ele: PageElement, *, following: bool
-    ) -> PageElement | None:
-        """Return the sibling adjacent to *ele* in rendered output order.
-
-        ``_handle_span`` emits nothing and flattens its children, so an
-        element that is the only child of a transparent ``<span>`` has no
-        direct sibling yet is adjacent to the wrapper's sibling in the output.
-        Walk up through such wrappers until a real sibling is found or an
-        opaque boundary (block element or root) is reached.
-        """
-        return cls._effective_sibling_skipping(
-            ele, following=following, skip_whitespace=False
-        )
-
-    @classmethod
     def _effective_sibling_skipping(
         cls,
         ele: PageElement,
@@ -870,8 +885,15 @@ class WikiHtmlConverter:
         following: bool,
         skip_whitespace: bool,
         skip_nothing_rendering: bool = False,
+        refs: bool,
     ) -> PageElement | None:
-        """Like ``_effective_sibling`` but optionally skips unrendered siblings.
+        """Walk to the sibling adjacent to *ele* in rendered output order.
+
+        ``_handle_span`` emits nothing and flattens its children, so an element
+        that is the only child of a transparent ``<span>`` has no direct sibling
+        yet is adjacent to the wrapper's sibling in the output.  Climb through
+        such wrappers until a real sibling is found or an opaque boundary (block
+        element or root) is reached.
 
         Whitespace-only ``NavigableString`` siblings carry no rendered content,
         so structural decisions (e.g. a blank line before a following heading)
@@ -903,7 +925,7 @@ class WikiHtmlConverter:
             if (
                 skip_nothing_rendering
                 and isinstance(sibling, Tag)
-                and cls._renders_nothing(sibling)
+                and cls._renders_nothing(sibling, refs=refs)
             ):
                 node = sibling
                 continue
@@ -911,7 +933,7 @@ class WikiHtmlConverter:
 
     @classmethod
     def _rendered_neighbour(
-        cls, ele: PageElement, *, following: bool
+        cls, ele: PageElement, *, following: bool, refs: bool
     ) -> PageElement | None:
         """Nearest neighbour in rendered order that renders content.
 
@@ -925,6 +947,7 @@ class WikiHtmlConverter:
             following=following,
             skip_whitespace=False,
             skip_nothing_rendering=True,
+            refs=refs,
         )
 
     @staticmethod
@@ -1071,9 +1094,13 @@ class WikiHtmlConverter:
         italic_str = "_" if italic else ""
         prefix = f"{bold_str}{italic_str}"
         suffix = f"{italic_str}{bold_str}"
-        if self._needs_separator_before(self._rendered_neighbour(ele, following=False)):
+        if self._needs_separator_before(
+            self._rendered_neighbour(ele, following=False, refs=self._refs)
+        ):
             prefix = f"{_cfg._MARKDOWN_SEPARATOR}{prefix}"
-        if self._needs_separator_after(self._rendered_neighbour(ele, following=True)):
+        if self._needs_separator_after(
+            self._rendered_neighbour(ele, following=True, refs=self._refs)
+        ):
             suffix += _cfg._MARKDOWN_SEPARATOR
 
         # Equation-reference numbers (the ``math_N`` / ``math_Eq.N`` spans
