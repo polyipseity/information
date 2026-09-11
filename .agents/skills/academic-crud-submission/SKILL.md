@@ -217,6 +217,45 @@ tags:
 - [<type>](<type>.md)
 ```
 
+### In-class content file (`lab.md`, `tutorial.md`, `lecture.md`)
+
+When the in-class component comes from a Canvas assignment or assignment submission page, its content file mirrors the Canvas header block of the submission `index.md`: frontmatter, `# <type>` heading, identity bullets, `---`, Canvas metadata bullets, `---`, verbatim Canvas description. Never leave the body as a bare stub.
+
+```markdown
+---
+aliases:
+  - <INSTITUTION> <COURSE> <type> <name> <type>
+  - <INSTITUTION> <COURSE> <name> <type>
+tags:
+  - flashcard/active/special/academia/<INSTITUTION>/<COURSE>/<type>/<name>/<type>
+  - language/in/English
+---
+
+# <type>
+
+- <INSTITUTION> <COURSE> <name>
+- parent: [<name>](index.md)
+
+---
+
+- title: <Canvas title>
+- due: <ISO 8601 with timezone>
+- points: <N>
+- submitting: <Canvas submission type>
+- file types: <a, b, c>
+- available: <start>/<end>, <ISO duration>
+
+---
+
+<verbatim Canvas description>
+
+## <authored content>
+```
+
+Draw the metadata fields from the component YAML (`lab.yml`, `tutorial.yml`, `lecture.yml`) using the same rules as the index page (see "Canvas metadata rules"), and omit fields absent from the YAML. The index-only sections (`## attachments`, `## submission`, `## solution`, `## children`) stay in `index.md`. Authored study content, if any, follows the Canvas header block.
+
+A content file that is not Canvas-sourced keeps the ordinary note format instead.
+
 ## Missing data
 
 Use `\[missing\]` for absent fields — for example, `points: \[missing\]` when ungraded, or `venue: \[missing\]` when not yet assigned. Do not invent or generate placeholder content for missing values. See [special.instructions.md](../../instructions/special.instructions.md#missing-data).
