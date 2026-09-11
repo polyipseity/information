@@ -25,7 +25,7 @@ Flashcards for this section are as follows:
 
 ## basic gates and laws
 
-The core gates are NOT, AND, and OR. NOT inverts a value, AND is 1 only when all required inputs are 1, and OR is 1 when at least one required input is 1. Their algebraic forms are $X'$, $X\cdot Y$, and $X+Y$. The standard simplification laws are listed explicitly below.
+The core gates are NOT, AND, and OR. NOT inverts a value, AND is 1 only when all required inputs are 1, and OR is 1 when at least one required input is 1. Their algebraic forms are $X'$, $X\cdot Y$, and $X+Y$. The standard simplification laws are:
 
 - __exchange / commutative laws:__ $X+Y=Y+X$ and $X\cdot Y=Y\cdot X$
 - __basic identity, complement, idempotence, and involution laws:__ $0+X=X$, $1+X=1$, $X'+X=1$, $X+X=X$, $0\cdot X=0$, $1\cdot X=X$, $X\cdot X=X$, $X\cdot X'=0$, and $(X')'=X$
@@ -33,7 +33,7 @@ The core gates are NOT, AND, and OR. NOT inverts a value, AND is 1 only when all
 - __distributive laws:__ $X\cdot(Y+Z)=X\cdot Y+X\cdot Z$ and $X+Y\cdot Z=(X+Y)(X+Z)$
 - __DeMorgan's laws:__ $(X+Y)'=X'\cdot Y'$ and $(X\cdot Y)'=X'+Y'$
 
-These laws are not abstract decoration; they let you simplify a logic expression before building it with gates.
+These laws simplify logic expressions before building them with gates.
 
 ---
 
@@ -50,7 +50,7 @@ Flashcards for this section are as follows:
 <!-- check: ignore-next-line[header_style]: acronym -->
 ## NAND and NOR gates
 
-NAND and NOR are the complemented versions of AND and OR. Their formulas are $(X\cdot Y)'$ and $(X+Y)'$. They are important because each is a universal gate family: in principle an entire Boolean circuit can be built using only NAND gates or only NOR gates.
+NAND and NOR are the complemented versions of AND and OR. Their formulas are $(X\cdot Y)'$ and $(X+Y)'$. Each is a universal gate: an entire Boolean circuit can be built from only NAND or only NOR gates.
 
 ---
 
@@ -62,7 +62,7 @@ Flashcards for this section are as follows:
 
 ## historical development
 
-Boolean algebra is not just notation. George Boole (1815–1864) invented the subject, and Boolean logic later became one of the foundations of modern computer science. Claude Shannon's 1937 MIT master's thesis linked Boolean algebra to electronic telephone-switch circuits and helped establish binary digital electronics as a practical engineering design language.
+George Boole (1815–1864) invented the subject. Claude Shannon's 1937 MIT thesis linked Boolean algebra to electronic telephone-switch circuits, establishing binary digital electronics as a practical design language.
 
 ---
 
@@ -75,7 +75,7 @@ Flashcards for this section are as follows:
 <!-- check: ignore-next-line[header_style]: acronym -->
 ## XOR, XNOR, and simplification
 
-XOR reports inequality: it is 1 when two inputs differ. XNOR reports equality: it is 1 when two inputs match. Their standard formulas are $X\oplus Y=X'Y+XY'$ and $X\odot Y=XY+X'Y'=(X\oplus Y)'$. These gates emphasise that some behaviors are easier to express as relationships between inputs than as long sums of minterms. Simplification means rewriting a logically equivalent expression with fewer gates or cleaner structure. For example, $(A'B'+A'B)'=(A'(B'+B))'=(A'\cdot1)'=(A')'=A$.
+XOR reports inequality: it is 1 when two inputs differ. XNOR reports equality: it is 1 when two inputs match. Their standard formulas are $X\oplus Y=X'Y+XY'$ and $X\odot Y=XY+X'Y'=(X\oplus Y)'$. Some behaviors are easier to express as relationships between inputs than as long sums of minterms. Simplification rewrites a logically equivalent expression with fewer gates or cleaner structure. For example, $(A'B'+A'B)'=(A'(B'+B))'=(A'\cdot1)'=(A')'=A$.
 
 ---
 
@@ -89,7 +89,7 @@ Flashcards for this section are as follows:
 
 ## from robot specification to expression
 
-The robot application makes Boolean algebra concrete. Sensor readings such as `L_Sensor` and `R_Sensor` define the input rows, and target motor commands such as `L_DIR` and `R_DIR` define the outputs. The correct workflow is specification first, then truth table, then Boolean expression, then simplification, and only then the gate-level circuit. If you skip the truth table, it is easy to wire a circuit that is neat but wrong.
+In the robot, `L_Sensor` and `R_Sensor` define input rows; `L_DIR` and `R_DIR` define outputs. The workflow is: specification → truth table → Boolean expression → simplify → gate-level circuit. Skipping the truth table risks a neat-looking circuit that does not match the required behavior.
 
 ---
 

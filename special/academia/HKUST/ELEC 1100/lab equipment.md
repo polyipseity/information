@@ -22,7 +22,7 @@ Flashcards for this section are as follows:
 
 ## equipment overview
 
-The standard lab bench provides a __DC power supply__ (one or two channels) for constant voltage to power the breadboard rails; you set the output voltage and often a current limit—never short the supply outputs. A __function generator__ produces AC waveforms (sine, square, triangle) with adjustable amplitude (e.g. peak-to-peak voltage) and frequency (e.g. Hz or kHz); you use it in later labs for diode and rectifier circuits and view the waveform on the DSO. In lab you normally press the function generator's reset or _default setup_ key at the start of an experiment to clear any hidden user settings, and you connect the probe or BNC cable to the __FUNCTION__ output (not the TTL or sync output). A __digital multimeter__ (DMM) measures voltage, current, or resistance depending on mode and connection. A __digital storage oscilloscope__ (DSO) displays voltage versus time and can show amplitude, period, and frequency of signals. The breadboard is the platform on which you plug components and jumper wires to form circuits. For regulated $5\text{ V}$ (and $12\text{ V}$ motor) rails in the project see [voltage regulator](voltage%20regulator.md).
+A __DC power supply__ (one or two channels) provides constant voltage to the breadboard rails; set output voltage and current limit, never short the outputs. A __function generator__ produces AC waveforms (sine, square, triangle) with adjustable amplitude and frequency; used in later labs, viewed on the DSO. Reset the function generator at the start of each experiment and connect the probe to the __FUNCTION__ output (not TTL or sync). A __DMM__ measures voltage, current, or resistance. A __DSO__ displays voltage versus time, showing amplitude, period, and frequency. The breadboard is where components and jumper wires form circuits. For regulated $5\text{ V}$ (and $12\text{ V}$ motor) rails see [voltage regulator](voltage%20regulator.md).
 
 ---
 
@@ -37,7 +37,7 @@ Flashcards for this section are as follows:
 
 ## breadboard structure and connections
 
-Historically, experimenters used literal wooden bread boards and nailed components to them; modern breadboards use a plastic (insulating) body with internal metal strips that act as conductors. Row holes are grouped in sets of five that are connected internally; long power-rail columns run along the edges and are connected along their length. Adjacent columns are not connected, so you must use jumper wires to connect different rows or columns. Knowing which holes share a connection is essential to avoid short circuits and to build circuits correctly.
+Breadboards use a plastic body with internal metal strips as conductors. Row holes are grouped in sets of five, connected internally; long power-rail columns along the edges are connected along their length. Adjacent columns are not connected; use jumper wires to bridge between rows or columns.
 
 ---
 
@@ -141,7 +141,7 @@ Flashcards for this section are as follows:
 
 ## lab safety
 
-Never short the power rails or reverse power and ground. When you finish a measurement or are about to rewire a circuit, turn off the DC power supply or disable its output and use the current-limit knob as described in lab to protect your circuit from accidental overcurrent. In ELEC 1100 experiments you normally ignore the bench supply's GND binding post: treat the negative terminal in the circuit diagram as the reference node (GND) and connect the negative leads of the DMM, DSO probes, and function generator there instead of to the supply's chassis ground. If readings look wrong or you smell burning, turn off the supply immediately and ask a TA.
+Never short the power rails or reverse power and ground. Before rewiring, turn off or disable the DC supply and use the current-limit knob. Ignore the bench supply's GND binding post; treat the circuit's negative terminal as the reference node (GND) for DMM, DSO, and function generator leads. If readings look wrong or you smell burning, turn off immediately and ask a TA.
 
 ---
 

@@ -14,7 +14,7 @@ Sensors are the robot's interface to the physical world. In ELEC 1100 they are i
 
 ## sensor role and categories
 
-A robot needs sensors because control without measurement is blind. Broad families include chemical sensors, accelerometers, gyroscopes, image sensors, microphones, and biosensors, but what matters is that sensors convert a physical quantity into an electrical signal a controller can read. In the robot-car project the key physical cue is light reflected from the floor.
+A robot needs sensors because control without measurement is blind. Sensors convert physical quantities into electrical signals a controller can read. In this project the key cue is light reflected from the floor.
 
 ---
 
@@ -27,7 +27,7 @@ Flashcards for this section are as follows:
 
 ## lumens and lux
 
-Two related brightness measures matter in light sensing. Lumens measure luminous flux: the total light emitted in all directions by a source. Lux measures illuminance: the total light falling on a surface. Both measure brightness, but lumens describe emitted light while lux describe light received on a surface.
+Lumens measure luminous flux (total light emitted by a source). Lux measures illuminance (total light falling on a surface).
 
 ---
 
@@ -40,7 +40,7 @@ Flashcards for this section are as follows:
 <!-- check: ignore-next-line[header_style]: acronym -->
 ## LDR, photodiode, phototransistor, and thresholding
 
-Common light-sensing devices include the LDR, photodiode, and phototransistor. An LDR (photoresistor) has high resistance in darkness and lower resistance in brighter light; the examples use a dark resistance around $10\text{ M}\Omega$ and a bright resistance around $100\Omega$ to show how strongly the divider voltage changes with illumination. Photodiodes and phototransistors use semiconductor junctions to respond to light in detection circuits. Thresholding then converts a changing sensor voltage into a clean digital LOW or HIGH.
+Common light-sensing devices include the LDR, photodiode, and phototransistor. An LDR (photoresistor) has high resistance in darkness (~$10\text{ M}\Omega$) and low resistance in bright light (~$100\Omega$). Photodiodes and phototransistors use semiconductor junctions to respond to light. Thresholding converts a changing sensor voltage into a clean digital LOW or HIGH.
 
 ---
 
@@ -53,7 +53,7 @@ Flashcards for this section are as follows:
 
 ## dark and bright sensing circuits
 
-Two transistor-based templates show how the same NPN stage works as a dark detector or a bright detector. In a __dark-sensing__ circuit, the fixed resistor is on the high side from $+5\text{ V}$ to the base node and the LDR is on the low side from the base node to ground. In darkness the LDR resistance becomes large, so the base node is pulled upward through the fixed resistor, the transistor turns on, and the LED lights. In a __bright-sensing__ circuit, the positions are swapped: the LDR is on the high side and the fixed resistor is on the low side. Bright light then lowers the LDR resistance, pulls the base node upward, turns the transistor on, and lights the LED. The transistor stage is the same; moving the LDR between the low side and the high side decides which condition turns it on.
+Two transistor-based templates show how the same NPN stage works as a dark or bright detector. In a __dark-sensing__ circuit, the fixed resistor is on the high side and the LDR on the low side; darkness raises LDR resistance, pulling the base up and turning the transistor on. In a __bright-sensing__ circuit, the positions are swapped; bright light lowers LDR resistance, pulling the base up. The transistor stage is the same; swapping the LDR position decides which condition triggers it.
 
 ---
 
@@ -84,9 +84,9 @@ Flashcards for this section are as follows:
 <!-- check: ignore-next-line[header_style]: acronym -->
 ### IR line sensor module and calibration
 
-The project hardware uses a reflective IR sensor module. An IR emitter sends light toward the floor; the receiver responds to the reflected amount. A variable resistor lets you tune the switching threshold for the sensor height and the brightness contrast between the white line and the dark mat. In this robot setup, the tuned module outputs approximately $0\text{ V}$ on white and approximately $5\text{ V}$ on black.
+The project hardware uses a reflective IR sensor module. An IR emitter sends light toward the floor; the receiver responds to the reflected amount. A variable resistor tunes the switching threshold for sensor height and white-vs-black contrast. The tuned module outputs ~$0\text{ V}$ on white, ~$5\text{ V}$ on black.
 
-Because the module includes thresholding and exposes one digital output, treat it as a binary line sensor, not a continuous distance sensor. At the controller interface, the tuned setup behaves like a __dark-sensing__ output: the black mat gives less reflected light but the module reports HIGH, while the white line reports LOW. That behavior is not universal across IR sensors; it comes from this specific module and its threshold/output logic.
+The module includes thresholding and outputs one digital signal, so treat it as a binary line sensor. The tuned setup behaves like a __dark-sensing__ output: black mat gives less reflected light but the module reports HIGH; white line reports LOW. This behavior comes from this specific module's threshold logic and is not universal across IR sensors.
 
 ---
 

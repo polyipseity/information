@@ -14,7 +14,7 @@ Pulse-width modulation (PWM) is a practical way to turn a digital controller int
 
 ## pulse waveform quantities
 
-A rectangular pulse waveform is described by its HIGH duration $H$, LOW duration $L$, period $T=H+L$, frequency $f=1/T$, and duty cycle $D=H/T$. In ELEC 1100 the HIGH level is usually the logic or motor command voltage and the LOW level is usually $0\text{ V}$. Duty cycle is the fraction of each period for which the signal stays HIGH, so it is the first number to check when a waveform looks "mostly on" or "mostly off" on the DSO.
+A rectangular pulse waveform is described by its HIGH duration $H$, LOW duration $L$, period $T=H+L$, frequency $f=1/T$, and duty cycle $D=H/T$. In ELEC 1100 the HIGH level is usually the logic or motor command voltage and the LOW level is usually $0\text{ V}$. Duty cycle is the fraction of each period for which the signal stays HIGH.
 
 ---
 
@@ -26,7 +26,7 @@ Flashcards for this section are as follows:
 
 ## average voltage and equivalent DC voltage
 
-For a pulse source that switches between $V_H$ and $V_L$, the average voltage over one period is $V_{\text{ave}}=(HV_H+LV_L)/(H+L)$. For a resistive load where equal power matters rather than equal arithmetic mean, the equivalent DC voltage is $V_{\text{eq}}=\sqrt{(HV_H^2+LV_L^2)/(H+L)}$. When $V_L=0$, this becomes $V_{\text{eq}}=\sqrt{D}\,V_H$. This distinction explains why two signals with the same average voltage can produce different brightness or heating if their waveforms differ.
+For a pulse source that switches between $V_H$ and $V_L$, the average voltage over one period is $V_{\text{ave}}=(HV_H+LV_L)/(H+L)$. For a resistive load where equal power matters rather than equal arithmetic mean, the equivalent DC voltage is $V_{\text{eq}}=\sqrt{(HV_H^2+LV_L^2)/(H+L)}$. When $V_L=0$, this becomes $V_{\text{eq}}=\sqrt{D}\,V_H$. Two signals with the same average voltage can produce different heating if their waveforms differ.
 
 ---
 
@@ -42,7 +42,7 @@ Flashcards for this section are as follows:
 
 In the robot car, direction and speed are separated. The H-bridge direction inputs decide whether current flows forward or backward through the motor, while the enable/PWM input decides how much average motor voltage is applied. The Arduino therefore sends one signal such as `DIR` for direction and a second PWM signal for speed. The final pin map is: `D9` and `D11` generate left/right PWM, and `D10` and `D12` provide left/right direction.
 
-When a pulse voltage is applied to a DC motor, the motor speed is closely related to the average voltage across its terminals. For most motors on this robot platform the speed is _approximately_ linear in the PWM duty cycle at fixed supply, because the average motor voltage rises with duty cycle. Real motors deviate from perfect linearity because of friction, driver voltage drop, unequal motors, battery droop, mechanical load, and dead-zone behavior at low duty cycle.
+When a pulse voltage is applied to a DC motor, the motor speed is closely related to the average voltage across its terminals. For most motors on this platform, speed is _approximately_ linear in duty cycle at fixed supply. Real motors deviate due to friction, driver voltage drop, battery droop, mechanical load, and low-duty-cycle dead-zone effects.
 
 The Arduino `analogWrite(pin, value)` call is the standard PWM interface on this platform. The numeric value ranges from 0 to 255, where 0 means always LOW, 255 means always HIGH, and intermediate values produce intermediate duty cycles.
 

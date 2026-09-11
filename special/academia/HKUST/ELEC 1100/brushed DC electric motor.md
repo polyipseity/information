@@ -15,7 +15,7 @@ tags:
 
 # brushed DC electric motor
 
-A brushed DC electric motor is an electromechanical device that converts electrical energy into mechanical energy (rotation). It uses a mechanical commutator and carbon brushes to switch the current direction in the rotor windings so that a single DC supply can produce continuous rotation. The reverse conversion—mechanical to electrical—is a generator. For a concise treatment of the general concept see [brushed DC electric motor](../../../../general/brushed%20DC%20electric%20motor.md). This note summarises the ELEC 1100 coverage: motor definition, classification, magnetic basics, stator–rotor interaction, commutation, direction and speed control, and the link to the H-bridge and PWM.
+A brushed DC electric motor is an electromechanical device that converts electrical energy into mechanical energy (rotation). It uses a mechanical commutator and carbon brushes to switch the current direction in the rotor windings so that a single DC supply can produce continuous rotation. The reverse conversion (mechanical to electrical) is a generator. For a concise treatment of the general concept see [brushed DC electric motor](../../../../general/brushed%20DC%20electric%20motor.md). This note covers motor definition, classification, magnetic basics, stator–rotor interaction, commutation, direction and speed control, and the link to the H-bridge and PWM.
 
 ---
 
@@ -30,7 +30,7 @@ Flashcards for this section are as follows:
 
 ### what is a motor and applications
 
-A motor is an electric–mechanical device that converts electrical power (voltage $\times$ current) into mechanical power (rotating speed $\times$ torque). Electric motors are ubiquitous: vacuum cleaners, fans, air conditioners, printers, water pumps, manufacturing, conventional and hybrid cars, and subway systems.
+A motor converts electrical power (voltage $\times$ current) into mechanical power (rotating speed $\times$ torque). Applications include fans, pumps, cars, and subway systems.
 
 ---
 
@@ -41,7 +41,7 @@ Flashcards for this section are as follows:
 
 ### classification by power source
 
-Electric motors are classified by power source: __DC motors__ are powered by direct current; __AC motors__ by alternating current. DC motors are further divided into brushed motors (commutator and brushes), brushless motors (electronic commutation), and stepper motors. AC motors include induction and synchronous types. In ELEC 1100 labs and the project we use __brushed DC motors__, which are simple to drive with an H-bridge and a single DC supply.
+Electric motors are classified by power source: __DC motors__ are powered by direct current; __AC motors__ by alternating current. DC motors are further divided into brushed motors (commutator and brushes), brushless motors (electronic commutation), and stepper motors. AC motors include induction and synchronous types. In ELEC 1100 labs and the project we use __brushed DC motors__, which drive with an H-bridge and a single DC supply.
 
 ---
 
@@ -68,7 +68,7 @@ Most electric motors rely on magnetic fields.
 
 ### poles and forces
 
-A magnet has two poles, north (N) and south (S); like poles repel and opposite poles attract. Magnetic poles always come in pairs. __Magnetic monopoles__ — isolated north or south poles with no partner — are predicted by some theories but have no experimental evidence yet; all known magnets have paired N and S poles. The __Earth's magnetic field__ behaves as if a giant bar magnet lay inside the planet: the _magnetic_ south pole of that equivalent magnet sits near Earth's _geographic_ north pole (and vice versa), which is why a compass needle (N-seeking) points toward geographic north.
+A magnet has two poles, north (N) and south (S); like poles repel and opposite poles attract. Magnetic poles always come in pairs. __Magnetic monopoles__ (isolated N or S poles) are predicted by some theories but have no experimental evidence; all known magnets have paired poles. The __Earth's magnetic field__ behaves as if a giant bar magnet lay inside the planet: the magnetic south sits near geographic north, so a compass (N-seeking) points north.
 
 ---
 
@@ -90,7 +90,7 @@ Flashcards for this section are as follows:
 
 ### electromagnet and right-hand rule
 
-An __electromagnet__ is made by passing current through a wire (often wound as a solenoid). The direction of current determines which end is N and which is S; the poles reverse if the current direction is reversed. The direction of the magnetic field around a current-carrying wire can be found using the __right-hand rule__. __Applying the right-hand rule:__ for a straight wire, point your right thumb in the direction of conventional current; your fingers curl in the direction of the magnetic field around the wire. For a solenoid, grip the coil with your right hand so your fingers follow the current direction along the turns; your thumb then points toward the north pole of the electromagnet. Electromagnets can be turned on or off and their polarity reversed by changing the current, which is essential for motor control.
+An __electromagnet__ is made by passing current through a wire (often wound as a solenoid). The direction of current determines which end is N and which is S; the poles reverse if the current direction is reversed. The direction of the magnetic field around a current-carrying wire can be found using the __right-hand rule__. ____Straight wire:__ point right thumb in current direction; fingers curl in the field direction. __Solenoid:__ grip coil so fingers follow current along turns; thumb points toward the north pole. Electromagnets switch on/off and reverse polarity by changing the current.
 
 ---
 
@@ -129,7 +129,7 @@ Flashcards for this section are as follows:
 
 ### commutation and the commutator and brushes
 
-The switching of the magnetic field in the rotor (reversing current direction) is called __commutation__. A DC source cannot by itself reverse the current in the rotor. In a __brushed DC motor__ this is done mechanically: a __commutator__ (e.g. a copper sleeve split into segments) rotates with the rotor, and __carbon brushes__ (fixed) slide on the commutator and make contact with different segments. As the rotor turns, the brushes contact different segments so that the current through the rotor windings is effectively reversed at the right moments, keeping rotation in one direction. The DC current from the supply is in one direction at the brushes, but inside the motor the commutator and brushes perform the switching needed for continuous rotation.
+The switching of the magnetic field in the rotor (reversing current direction) is called __commutation__. A DC source cannot by itself reverse the current in the rotor. In a __brushed DC motor__ this is done mechanically: a __commutator__ (e.g. a copper sleeve split into segments) rotates with the rotor, and __carbon brushes__ (fixed) slide on the commutator and make contact with different segments. As the rotor turns, the brushes contact different segments so that the current through the rotor windings is effectively reversed at the right moments, keeping rotation in one direction. At the brushes the DC current is one direction; the commutator switches segments so the rotor winding current reverses as it rotates.
 
 ---
 
@@ -142,7 +142,7 @@ Flashcards for this section are as follows:
 
 ## direction control with H-bridge
 
-To change the rotation direction of a brushed DC motor we change the direction of current through the motor: reversing the applied voltage (or swapping which terminal is positive and which is negative) reverses the current and thus the direction of the magnetic field in the rotor. An [H-bridge](H-bridge.md) does this electronically: a single direction (DIR) signal ($5\text{ V}$ or $0\text{ V}$), often with an inverter to obtain the complementary logic levels, drives the four transistors so that one diagonal pair is on for one direction and the other diagonal for the opposite direction. Clockwise with one polarity, anti-clockwise with the other; the H-bridge is the standard way to achieve reversible motor control from one supply in the course.
+To change the rotation direction of a brushed DC motor we change the direction of current through the motor: reversing the applied voltage (or swapping which terminal is positive and which is negative) reverses the current and thus the direction of the magnetic field in the rotor. An [H-bridge](H-bridge.md) does this electronically: a single direction (DIR) signal ($5\text{ V}$ or $0\text{ V}$), often with an inverter to obtain the complementary logic levels, drives the four transistors so that one diagonal pair is on for one direction and the other diagonal for the opposite direction. One polarity gives clockwise, the other anti-clockwise.
 
 ---
 
@@ -167,7 +167,7 @@ Flashcards for this section are as follows:
 
 ### variable resistor, drawbacks, and PWM
 
-One simple method is a __variable resistor__ in series with the motor: reducing the resistor increases the voltage across the motor and speeds it up. This approach has drawbacks: it is __inefficient__ (energy dissipated as heat in the resistor, especially at low speeds), __imprecise__, and requires mechanical adjustment, so it is not computer-friendly. The course uses __pulse-width modulation (PWM)__ for efficient, precise, and software-controllable speed control, covered in the next lecture.
+A __variable resistor__ in series with the motor changes its voltage and speed, but it wastes energy as heat (especially at low speeds), is imprecise, and requires mechanical adjustment. The course uses __pulse-width modulation (PWM)__ instead, covered in the next lecture.
 
 ---
 

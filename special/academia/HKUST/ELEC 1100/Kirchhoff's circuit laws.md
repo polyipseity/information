@@ -8,7 +8,7 @@ tags:
 
 # Kirchhoff's circuit laws
 
-Kirchhoff's circuit laws are two principles for analysing electrical networks. When a network cannot be reduced by series or parallel combination, these laws give the relationships among currents and voltages. They are attributed to Gustav Kirchhoff (1824–1887) and follow from conservation of charge and energy.
+Kirchhoff's circuit laws are two principles for analysing electrical networks that cannot be reduced by series or parallel combination. They are attributed to Gustav Kirchhoff (1824–1887) and follow from conservation of charge and energy.
 
 ## background
 
@@ -74,7 +74,7 @@ A typical procedure for analysing a circuit combines KCL and KVL in a systematic
 4. __Write KVL equations__ around each independent loop, summing voltage drops and rises in the traversal direction and equating the total to zero.
 5. __Solve the resulting linear system__ for the unknowns (currents, voltages, or resistances).
 
-The current-direction freedom is important: any choice leads to a correct system, with negative solutions signalling reversal. Both KCL and KVL may be used interchangeably; a given problem may be easier to handle with one method or the other depending on the circuit topology.
+Any current-direction choice leads to a correct system; negative solutions signal reversal. KCL and KVL are interchangeable; the easier method depends on circuit topology.
 
 ---
 

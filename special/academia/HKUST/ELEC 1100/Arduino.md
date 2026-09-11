@@ -18,7 +18,7 @@ Arduino is an open-source microcontroller-board family that began in 2003 at the
 
 ### from sketch to running hardware
 
-The workflow is straightforward: write a sketch, verify or compile it, and upload it through USB so the board can execute the instructions. The compiler is the program that converts the source code into machine language that the microcontroller can execute.
+Write a sketch, verify or compile it, and upload it through USB. The compiler converts source code into machine language the microcontroller can execute.
 
 ---
 
@@ -46,7 +46,7 @@ Flashcards for this section are as follows:
 
 ### comments, `const`, and `int`
 
-Comments explain the code without affecting execution, while named constants and simple variable types make the sketch readable instead of hiding meaning inside raw pin numbers and magic values. In the lecture sequence, `const` is used for values that should not change, such as named pin assignments, while `int` is used for whole-number quantities such as sensor states, counters, or delay times.
+Comments explain intent without affecting execution. `const` marks values that should not change (e.g. named pin assignments); `int` stores whole-number quantities such as sensor states, counters, or delay times.
 
 ---
 
@@ -59,7 +59,7 @@ Flashcards for this section are as follows:
 
 ### local variables and stored state
 
-Where a variable is declared affects how long it keeps its value. A variable declared inside a function or inside a control block is local to that block, while a variable declared outside `loop()` can preserve state between successive passes through the control program. That is why a memory variable such as `countBumper` should live in persistent scope when the robot must remember previous bumper hits instead of forgetting them every time `loop()` repeats.
+Where a variable is declared determines its lifetime. A variable inside a function or control block is local to that block; one declared outside `loop()` preserves state between passes. A memory variable such as `countBumper` must live in persistent scope so the robot remembers previous bumper hits across `loop()` iterations.
 
 ---
 
@@ -73,7 +73,7 @@ The Nano exposes digital and analog-labeled pins with distinct names and typical
 
 ### digital pins, analog pins, and naming
 
-Pins labeled `D0` to `D13` are used mainly for digital HIGH/LOW signals. Pins labeled `A0` to `A5` are identified as analog inputs because they connect to the board's analog-to-digital conversion (ADC) hardware, but in this course they also appear as ordinary digital sensor pins when the robot only needs black-versus-white logic states. That is why the line and bumper sensors are still named by their physical headers `A5`, `A3`, and `A4` even when the code treats them as digital inputs.
+Pins labeled `D0` to `D13` are used mainly for digital HIGH/LOW signals. Pins `A0`–`A5` connect to ADC hardware but can also serve as digital inputs. The line and bumper sensors use headers `A5`, `A3`, and `A4` even when the code treats them as digital.
 
 ---
 
@@ -84,7 +84,7 @@ Flashcards for this section are as follows:
 
 ### built-in pin functions and logic values
 
-`pinMode()` configures a pin as `INPUT` or `OUTPUT`. `digitalRead()` returns `HIGH` or `LOW`, and `digitalWrite()` drives an output to `HIGH` or `LOW`. Arduino also treats `HIGH`, `1`, and `true` equivalently, while `LOW`, `0`, and `false` are equivalent; more generally, any non-zero integer is treated as true in a Boolean context. The lecture sequence also recommends comparing values of the same data type and remembering that `=` assigns a value while `==` compares two values.
+`pinMode()` configures a pin as `INPUT` or `OUTPUT`. `digitalRead()` returns `HIGH` or `LOW`, and `digitalWrite()` drives an output to `HIGH` or `LOW`. Arduino also treats `HIGH`, `1`, and `true` equivalently, while `LOW`, `0`, and `false` are equivalent; more generally, any non-zero integer is treated as true in a Boolean context. Compare values of the same data type. `=` assigns; `==` compares.
 
 ---
 
@@ -98,7 +98,7 @@ Flashcards for this section are as follows:
 
 ### analog input and output limits
 
-The analog-labeled pins can be used for sensor inputs through ADC, which turns a continuously varying electrical signal into a numerical value. On this board, a value above about $3.0\text{ V}$ is read as HIGH and a value below about $1.5\text{ V}$ is read as LOW. Pins configured as outputs can drive only small loads — up to about $40\text{ mA}$ — so motors must be driven through interface circuitry such as the L293 rather than directly from the board.
+Analog pins read through ADC. On this board, above ~$3.0\text{ V}$ reads HIGH, below ~$1.5\text{ V}$ reads LOW. Output pins drive only small loads (up to ~$40\text{ mA}$), so motors need interface circuitry such as the L293.
 
 ---
 
@@ -113,7 +113,7 @@ Regular code flow proceeds line by line, but embedded control needs decisions, r
 
 ### regular flow versus controlled flow
 
-In a regular flow, statements execute in the order they are written. In a controlled flow, the code takes different paths depending on conditions and loop structure. The important idea is not memorizing syntax in isolation, but translating a human logic process into step-by-step instructions that the controller can execute.
+In regular flow, statements execute in written order. In controlled flow, conditions and loops choose different paths.
 
 ---
 
@@ -135,7 +135,7 @@ Flashcards for this section are as follows:
 
 ### loops and refreshing the tested condition
 
-Repetition can be expressed with `for` loops when the repeat count is known and `while` loops when execution depends on a changing condition. A `while` loop must refresh the tested condition, such as a sensor reading, or it can continue acting on stale information forever. If a control block uses `while` for sensor-based behavior, it should call `digitalRead()` again inside the loop so the exit condition can actually change.
+Repetition can be expressed with `for` loops when the repeat count is known and `while` loops when execution depends on a changing condition. A `while` loop must refresh the tested condition, such as a sensor reading, or it can continue acting on stale information forever. A sensor-controlled `while` loop must re-read the sensor (e.g. `digitalRead()`) so the exit condition can change.
 
 ---
 
@@ -147,7 +147,7 @@ Flashcards for this section are as follows:
 
 ### compound operators and counters
 
-Compound operators such as `++`, `+=`, `--`, and `-=` make repeated updates shorter and clearer. The lecture examples use them in loops and fading patterns, but the same idea is useful for project counters: a variable such as `countBumper` can be incremented each time the bumper event occurs so the robot can react differently on the first, second, or later trigger.
+Compound operators (`++`, `+=`, `--`, `-=`) shorten repeated updates. A counter such as `countBumper` increments each time the bumper fires, letting the robot react differently on the first, second, or later trigger.
 
 ---
 
@@ -158,9 +158,9 @@ Flashcards for this section are as follows:
 
 ### logic flowcharts and user-defined functions
 
-A flowchart represents a process using start or stop terminals, processing boxes, input or output boxes, decision diamonds, and flow lines. In this course it is not decoration: it is the design bridge between the robot task and the program structure that will appear in the project report.
+A flowchart uses terminals, processing boxes, I/O boxes, decision diamonds, and flow lines to map the robot task to program structure before coding.
 
-The built-in functions emphasized in the lectures are `pinMode()`, `digitalRead()`, `digitalWrite()`, `delay()`, and `analogWrite()`. Reusable user-defined functions package repeated tasks such as blinking or motion helpers into one named block with a return type, a function name, and optional parameters. To use a function, define it, call it, and optionally use its return value. User-defined functions must be declared outside `setup()` and `loop()`. A parameterized example is `void myBlink(int delayTime, int led)`, which allows one blink routine to be reused with different LEDs or different blink speeds.
+The built-in functions emphasized in the lectures are `pinMode()`, `digitalRead()`, `digitalWrite()`, `delay()`, and `analogWrite()`. User-defined functions package repeated tasks into named blocks with a return type, name, and optional parameters. Define, call, optionally use the return value. Functions must be declared outside `setup()` and `loop()`. For example, `void myBlink(int delayTime, int led)` reuses one blink routine with different LEDs or speeds.
 
 ---
 
@@ -205,7 +205,7 @@ Flashcards for this section are as follows:
 
 ### `delay()` and PWM output
 
-`delay()` pauses the program for a chosen number of milliseconds, so it is useful when a motion or output state needs to be held for a short time. However, long blocking delays reduce responsiveness. `analogWrite(pin, value)` generates a PWM wave on supported output pins, which makes it useful for tasks such as LED fading and motor-speed control.
+`delay(ms)` pauses the program for `ms` milliseconds; long blocking delays reduce responsiveness. `analogWrite(pin, value)` generates PWM on supported output pins for LED fading or motor-speed control.
 
 ---
 
@@ -218,7 +218,7 @@ Flashcards for this section are as follows:
 
 ### debugging habits
 
-When debugging, verify the pin map, power rails, sensor reads, logic values, and upload path. If the board is installed in a socketed hardware setup that interferes with reprogramming, remove the Nano before uploading when that hardware configuration requires it.
+Debugging checklist: verify pin map, power rails, sensor reads, logic values, and upload path. Remove the Nano from socketed hardware before uploading if the setup interferes with reprogramming.
 
 ---
 

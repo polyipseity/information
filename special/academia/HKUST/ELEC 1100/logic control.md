@@ -13,7 +13,7 @@ Logic control turns Boolean expressions into decision circuits. In ELEC 1100 it 
 
 ## deriving motor-direction expressions
 
-The line-following example shows how a truth table can be converted into compact expressions for motor-direction outputs. For the simple two-sensor controller, the simplified forms are $L_{\text{DIR}}=L'$ and $R_{\text{DIR}}=L+R'$. These expressions matter not because they are the only possible controller, but because they show the full design chain: specify behavior, build the truth table, derive expressions, simplify, and implement.
+The line-following example shows how a truth table can be converted into compact expressions for motor-direction outputs. For the simple two-sensor controller, the simplified forms are $L_{\text{DIR}}=L'$ and $R_{\text{DIR}}=L+R'$. These expressions show the full design chain: specify behavior, build the truth table, derive expressions, simplify, and implement.
 
 ---
 
@@ -25,7 +25,7 @@ Flashcards for this section are as follows:
 
 ## combinational control circuits
 
-A combinational circuit's outputs depend only on the current input values. If the inputs change immediately, the output changes according to the circuit logic and nothing needs to be remembered from the past. The early robot-control design in ELEC 1100 is combinational because the direction signals are computed directly from the present sensor readings.
+A combinational circuit's outputs depend only on current inputs; nothing is remembered from the past. The early robot-control design is combinational because direction signals are computed directly from present sensor readings.
 
 ---
 
@@ -37,7 +37,7 @@ Flashcards for this section are as follows:
 
 ## half adder and full adder
 
-The half adder and full adder are standard examples of combinational design. A half adder accepts only two bits $A$ and $B$, so it works only when there is __no incoming carry__ from a previous column. Its outputs are sum $S=A\oplus B$ and carry $C=AB$. A full adder adds three inputs $A$, $B$, and $C_{\text{in}}$ and therefore handles the normal multi-bit case. Its sum output is $S=(A\oplus B)\oplus C_{\text{in}}$, and its carry output is 1 whenever at least two of the three inputs are 1, so $C_{\text{out}}=AB+AC_{\text{in}}+BC_{\text{in}}=(A\oplus B)C_{\text{in}}+AB$. Structurally, one half adder first combines $A$ and $B$, a second half adder adds $C_{\text{in}}$ to that partial sum, and an OR gate combines the two carry terms. That is the standard mechanism when one stage must add both the current-column bits and an incoming carry.
+The half adder and full adder are standard examples of combinational design. A half adder accepts only two bits $A$ and $B$, so it works only when there is __no incoming carry__ from a previous column. Its outputs are sum $S=A\oplus B$ and carry $C=AB$. A full adder adds three inputs $A$, $B$, and $C_{\text{in}}$ and therefore handles the normal multi-bit case. Its sum output is $S=(A\oplus B)\oplus C_{\text{in}}$, and its carry output is 1 whenever at least two of the three inputs are 1, so $C_{\text{out}}=AB+AC_{\text{in}}+BC_{\text{in}}=(A\oplus B)C_{\text{in}}+AB$. Structurally, one half adder combines $A$ and $B$, a second adds $C_{\text{in}}$ to that partial sum, and an OR gate combines the two carry terms.
 
 ---
 
@@ -52,9 +52,9 @@ Flashcards for this section are as follows:
 
 ## cascading full adders and serial addition
 
-Full adders can be chained to add multi-bit binary numbers. The usual connection is to feed each stage's $C_{\text{out}}$ into the next stage's $C_{\text{in}}$. Four chained stages make a 4-bit ripple-carry adder, and $n$ stages make an $n$-bit adder. This is the standard usage of the full adder: one stage handles one bit position, and the carry propagates from the least significant side toward the most significant side.
+Full adders can be chained to add multi-bit binary numbers. The usual connection is to feed each stage's $C_{\text{out}}$ into the next stage's $C_{\text{in}}$. Four chained stages make a 4-bit ripple-carry adder, and $n$ stages make an $n$-bit adder. One stage handles one bit position, and the carry propagates from the least significant side toward the most significant side.
 
-A serial binary adder trades hardware for time. Instead of having one full adder per bit position, it reuses one full-adder core together with a 1-bit memory element that stores the previous carry. A clock pulse then steps the machine forward one bit position at a time. The clock synchronizes when the next input bits are read and when the saved carry is updated, so serial addition is a sequential process rather than a purely combinational one.
+A serial binary adder trades hardware for time. Instead of having one full adder per bit position, it reuses one full-adder core together with a 1-bit memory element that stores the previous carry. A clock pulse then steps the machine forward one bit position at a time. The clock synchronizes input reading and carry updates, making serial addition a sequential process.
 
 ---
 

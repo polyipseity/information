@@ -23,7 +23,7 @@ tags:
 
 - see: [general/electronic component](../../../../general/electronic%20component.md)
 
-Electronic components are the building blocks of electronic circuits; they affect how currents flow and voltages appear, and range from passive elements such as resistors and capacitors to active semiconductor devices like [diodes](diode.md) and [transistors](transistor.md).  In ELEC 1100 the scope is expanded to include the underlying electrical concepts required to understand component behaviour, together with the power sources and delivery systems (batteries, supplies) that energise a robot's electronic subsystems.
+Electronic components range from passive elements (resistors, capacitors) to active semiconductor devices ([diodes](diode.md), [transistors](transistor.md)). ELEC 1100 also covers the underlying electrical concepts and power sources (batteries, supplies) needed to understand component behaviour in the robot.
 
 Common schematic symbols used throughout the notes: <p> ![resistor symbol](attachments/symbol_resistor.svg) <p> ![capacitor symbol](attachments/symbol_capacitor.svg) <p> ![voltage source symbol](attachments/symbol_voltage_source.svg) <p> ![ground symbol](attachments/symbol_ground.svg)
 
@@ -41,7 +41,7 @@ Flashcards for this section are as follows:
 
 ## electrical fundamentals
 
-Electricity arises from electric charge; when charges accumulate at rest the phenomenon is called _static electricity_, a behaviour often demonstrated with balloons and combs (for example, rubbing a balloon on hair transfers electrons onto the balloon, leaving the hair positively charged and causing attraction or repulsion).  Opposite charges attract while like charges repel, and when charges move in an organised way the result is _current electricity_, which is the focus of this course.
+Charges at rest produce _static electricity_ (e.g. rubbing a balloon on hair transfers electrons, causing attraction). Opposite charges attract; like charges repel. Moving charges produce _current electricity_, the focus of this course.
 
 ---
 
@@ -54,7 +54,7 @@ Flashcards for this section are as follows:
 
 ### atoms and charge
 
-Atoms contain positively charged protons, neutral neutrons and negatively charged electrons; when protons and electrons are equal the atom is electrically neutral, but removing electrons leaves a positive ion and adding them produces a negative ion.  The outermost electrons are held most weakly and can be added or removed with relatively little energy, which is why they participate in electrical conduction.  The elementary charge carried by one proton (or the magnitude carried by one electron) is approximately $1.6\times10^{-19}\,\mathrm{C}$.
+Atoms contain protons (+), neutrons (neutral), and electrons (−). Equal protons and electrons give a neutral atom; removing electrons produces a positive ion, adding them a negative ion. Outermost electrons are held most weakly and participate in conduction. The elementary charge is $q = 1.6\times10^{-19}\,\mathrm{C}$.
 
 ---
 
@@ -67,7 +67,7 @@ Flashcards for this section are as follows:
 
 ### conductors and insulators
 
-Materials are classified by how easily charges can move through them. Metals are _conductors_ because their outer electrons are loosely bound and can move freely; materials such as glass or plastic are _insulators_ and restrict charge motion due to tightly bound electrons.
+Metals are _conductors_ (outer electrons move freely); glass and plastic are _insulators_ (tightly bound electrons restrict charge motion).
 
 ---
 
@@ -79,7 +79,7 @@ Flashcards for this section are as follows:
 
 ### current
 
-By convention, the direction of current is taken to be the direction in which positive charges would move, which is opposite to the actual electron flow in metals.  Current quantifies the rate at which charge passes a point in a circuit; by definition $I = \Delta q/\Delta t$ where $\Delta q$ is the charge transported in time $\Delta t$, and the unit is the ampere (A), equivalent to one coulomb per second.  Although the carriers in metallic conductors are electrons, the conventional current direction remains that of hypothetical positive charges.
+By convention, current flows in the direction positive charges would move (opposite to electron flow in metals). $I = \Delta q/\Delta t$; unit: ampere (A) = one coulomb per second.
 
 ---
 
@@ -93,7 +93,7 @@ Flashcards for this section are as follows:
 
 ### voltage and potential difference
 
-voltage (electric potential difference) is the energy per unit charge that drives current. It is measured in volts and is always defined between two points; a reference point called _ground_ (GND) is conventionally assigned $0\,\text{V}$. A battery, for example, maintains a fixed voltage difference between its terminals that forces current through a connected load.
+Voltage (electric potential difference) is the energy per unit charge that drives current, measured in volts between two points. _Ground_ (GND) is the $0\,\text{V}$ reference. A battery maintains a fixed voltage between its terminals, forcing current through a load.
 
 ---
 
@@ -105,7 +105,7 @@ Flashcards for this section are as follows:
 
 ## resistance and resistors
 
-Resistance describes how strongly a material opposes the flow of current. For a uniform conductor its resistance is given by $$R = \rho\frac{L}{A}$$ where ρ is the material's resistivity, L its length and A its cross-sectional area. The resistivity ρ depends on the material – copper, aluminium and stainless steel all have different values. An "ideal wire" is treated as an ideal conductor with zero resistance, while an ideal insulator has infinite resistance; real components fall between these extremes, exhibiting finite resistance. Components called resistors have a specified resistance and are used to control currents and create voltage drops. Ohm's law relates voltage, current and resistance: $$V = IR.$$ The unit of resistance is the ohm ($\Omega$), and the symbol R is commonly used in formulas. Resistance can be added to avoid large currents; all loads (light bulbs, motors) and even wires have resistance. Digital multimeters may be used to measure resistance, voltage, or current in lab. Prefixes such as kilo ($k = 10^{3}$) and milli ($m = 10^{-3}$) are applied to ohms and amperes (e.g. $10\,\text{k}\Omega = 10000\,\Omega$; $50\,\text{mA} = 0.05\,\text{A}$).
+Resistance describes how strongly a material opposes current. For a uniform conductor: $$R = \rho\frac{L}{A}$$ where ρ is resistivity, L is length, A is cross-sectional area. An ideal wire has zero resistance; an ideal insulator has infinite resistance. Resistors have specified resistance and are used to control currents and create voltage drops. Ohm's law: $$V = IR.$$ Unit: ohm ($\Omega$). All loads and wires have resistance. Multimeters measure resistance, voltage, or current. Prefixes: kilo ($k = 10^{3}$), milli ($m = 10^{-3}$) (e.g. $10\,\text{k}\Omega = 10000\,\Omega$; $50\,\text{mA} = 0.05\,\text{A}$).
 
 ---
 
@@ -125,7 +125,7 @@ Flashcards for this section are as follows:
 
 ## capacitors
 
-A capacitor consists of two conductive plates separated by an insulating material. When a voltage is applied, opposite charges accumulate on the plates, storing electrical energy. If the voltage source is removed the capacitor can discharge and supply current for a short period, temporarily powering a circuit. A common analogy is a water tank storing fluid under pressure.
+A capacitor stores electrical energy on two conductive plates separated by an insulator. When voltage is applied, opposite charges accumulate on the plates. Removing the source lets the capacitor discharge, temporarily powering a circuit (like a water tank under pressure).
 
 ---
 
@@ -139,7 +139,7 @@ Flashcards for this section are as follows:
 
 ### capacitor actions
 
-Simple circuits illustrate how a capacitor changes transient behaviour. Without any capacitor the lamp only lights while the switch is closed; opening the switch immediately extinguishes the lamp because the supply and load are disconnected. Inserting a capacitor in parallel with the lamp gives the circuit a charge reservoir. When the switch is opened the capacitor discharges through the lamp, allowing it to stay lit for a short time even though the source is removed. The sequence can be summarised as follows:
+Without a capacitor, a lamp lights only while the switch is closed. A capacitor in parallel with the lamp provides a charge reservoir: when the switch opens, the capacitor discharges through the lamp, keeping it lit briefly after the source is removed.
 
 - switch off, lamp off – capacitor initially uncharged and electrically neutral.
 - switch on, lamp on – current flows from the source and the capacitor charges, plates accumulating $\pm$ charge.
@@ -155,17 +155,13 @@ Flashcards for this section are as follows:
 
 ## energy and power
 
-Energy is the ability to do work and, although it can take many forms — mechanical, thermal, electrical, chemical, and so on — our interest in circuits is with electrical energy; this quantity may be converted from one form to another while the total energy remains conserved (for example, mechanical energy becomes electrical energy in a generator).
-
-Just as people gain energy by eating food, robots must be fed electrical power from a source such as a battery or power supply.
-
-In the context of ELEC 1100, robots derive their power primarily from batteries (disposable or rechargeable LiPo cells) or, in the lab, from DC power supplies and function generators; batteries supply direct‑current power through electrochemical reactions and can hold energy for days or years, and for theoretical analysis sources are usually modelled as ideal voltage generators.
+Energy takes many forms (mechanical, thermal, electrical, chemical) and is conserved during conversion. In circuits, electrical energy converts to other forms (e.g. a generator converts mechanical to electrical). ELEC 1100 robots use batteries (LiPo cells) or lab DC power supplies; theoretical analysis models sources as ideal voltage generators.
 
 Electrical energy delivered to a charge $q$ moving through a potential difference $V$ is $E = qV$, and the smallest discrete charge is $q = 1.6\times10^{-19}\,\mathrm{C}$.
 
 Power is the rate of energy transfer: $P = E/\Delta t = \Delta q\,V/\Delta t = IV$, and by substituting Ohm's law we obtain $P = I^{2}R = V^{2}/R$ for purely resistive components.
 
-Electrical sources may deliver either direct current (DC) or alternating current (AC).  In a DC supply the voltage and current are essentially constant in time – batteries and the LiPo packs used on your robot are examples – so the direction of current flow never reverses.  Household mains power is AC: the voltage oscillates sinusoidally and the current changes direction periodically ($50\,\text{Hz}$ in Hong Kong, $60\,\text{Hz}$ in some other countries).  AC is convenient for transmission over long distances and can be converted to DC with rectifiers.
+Sources deliver DC (constant voltage/current, e.g. batteries) or AC (sinusoidal, reverses periodically: $50\,\text{Hz}$ in Hong Kong, $60\,\text{Hz}$ elsewhere). AC suits long-distance transmission and converts to DC with rectifiers.
 
 ---
 
@@ -180,7 +176,7 @@ Flashcards for this section are as follows:
 
 ### energy sources in lab
 
-At the HKUST electronics lab you will typically power circuits from bench supplies: a DC power supply provides a regulated constant-voltage source, while a function generator can supply small AC waveforms (sine, square, triangle) for testing.  Both connect to your breadboard where components are assembled. See [lab equipment](lab%20equipment.md) for the DC supply, function generator, DSO, and breadboard.  For your project robot the primary energy source is a rechargeable lithium‑polymer (LiPo) battery paired with a battery monitor that reports voltage and current.
+Lab circuits use bench DC power supplies (regulated constant voltage) and function generators (AC waveforms for testing). See [lab equipment](lab%20equipment.md). The robot uses a rechargeable LiPo battery with a voltage/current monitor.
 
 ---
 
@@ -192,7 +188,7 @@ Flashcards for lab sources are as follows:
 
 ### energy conversion
 
-One way to visualise energy is by considering gravitational potential becoming kinetic energy.  Galileo's famous Leaning‑Tower‑of‑Pisa experiment (or the later Apollo 15 Moon drop) showed that acceleration due to gravity $g$ is independent of mass.  An object falling from height $h$ converts potential energy $mgh$ into kinetic energy $\tfrac12 m v^{2}$, giving the relation $v=\sqrt{2gh}$.  In circuits the analogous conversion is between electrical potential energy and other forms when charges move through a voltage.
+An object falling from height $h$ converts potential energy $mgh$ into kinetic energy $\tfrac12 m v^{2}$, giving $v=\sqrt{2gh}$. In circuits, the analogous conversion is between electrical potential energy and other forms when charges move through a voltage.
 
 ---
 
@@ -203,7 +199,7 @@ Flashcards for energy conversion are as follows:
 
 ### human body energy
 
-For context, the human body itself uses electrical, chemical and mechanical power on the order of watts to tens of watts: body heat ($2\text{--}5\,\text{W}$), heartbeat ($\sim1.4\,\text{W}$), arm motion ($\sim60\,\text{W}$), footfalls ($\sim67\,\text{W}$) and so on.  This comparison emphasises that the milliwatt and watt‑level powers we calculate for resistors are small compared with everyday biological energy use.
+For scale, the human body uses watts to tens of watts: body heat ($2\text{--}5\,\text{W}$), heartbeat ($\sim1.4\,\text{W}$), arm motion ($\sim60\,\text{W}$). Resistor power dissipation in this course is much smaller.
 
 ---
 
@@ -213,15 +209,13 @@ Flashcards for human body energy are as follows:
 
 ### resistor networks
 
-Resistors in series add: $R_{\text{eq}} = R_1 + R_2 + \cdots$; the same current flows through each. A voltage divider is a pair of series resistors; the voltage at the junction N relative to ground is $V\cdot\frac{R_L}{R_S + R_L}$ assuming ideal wire (zero resistance) and ground reference.
+Series resistors add: $R_{\text{eq}} = R_1 + R_2 + \cdots$; same current through each. A voltage divider gives $V\cdot\frac{R_L}{R_S + R_L}$ at the junction.
 
-Resistors in parallel combine as $1/R_{\text{eq}} = 1/R_1 + 1/R_2 + \cdots$; the total resistance is always smaller than the smallest branch. Conductance $G = 1/R$ is useful, unit siemens (S).
+Parallel resistors: $1/R_{\text{eq}} = 1/R_1 + 1/R_2 + \cdots$; total is smaller than the smallest branch. Conductance $G = 1/R$ (siemens).
 
-For a network with mixed series/parallel elements the total resistance may be computed stepwise (e.g. $30\,\Omega + (40\,\Omega\parallel 60\,\Omega) = 54\,\Omega$). Some tutorial problems use an _infinite resistor network_ (ladder): a small series/parallel pattern (such as a $2R$ series resistor followed by a $1.5R$ shunt to ground) is repeated indefinitely so that the "tail" of the ladder looks identical to the whole network. In that case you model the infinite tail by a single unknown equivalent $R_{\text{eq}}$ and write an equation like $R_{\text{eq}} = 2R + (1.5R\parallel R_{\text{eq}})$ using the usual parallel formula; solving gives $R_{\text{eq}} = 3R$ in the ELEC 1100 example. When a network cannot be reduced by series/parallel alone, use [Kirchhoff's circuit laws](Kirchhoff%27s%20circuit%20laws.md) to relate currents and voltages at nodes and loops.
+Mixed networks reduce stepwise (e.g. $30\,\Omega + (40\,\Omega\parallel 60\,\Omega) = 54\,\Omega$). An _infinite ladder_ repeats a series/parallel pattern; model the tail as $R_{\text{eq}}$ and solve (e.g. $R_{\text{eq}} = 2R + (1.5R\parallel R_{\text{eq}})$ gives $R_{\text{eq}} = 3R$). When series/parallel alone cannot reduce a network, use [Kirchhoff's circuit laws](Kirchhoff%27s%20circuit%20laws.md).
 
-Short circuit occurs when a low-resistance path bypasses a component (R→0); current through the short tends to infinity and components may be damaged. In an ideal short the branch current is infinite and the other branch zero.
-
-Resistors dissipate electrical power as heat, which is why excessive current can make a resistor get hot or even burn.  The video linked in the slides demonstrates a resistor glowing when driven beyond its power rating.
+A short circuit bypasses a component (R→0), causing very high current that can damage parts.
 
 ---
 

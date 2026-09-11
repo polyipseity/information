@@ -26,9 +26,9 @@ Flashcards for this section are as follows:
 
 A BJT is a [PN junction diode](diode.md#pn%20junction%20and%20biasing) with an additional layer, forming either NPN or PNP structures. The base is thin and lightly doped; the emitter and collector are more heavily doped for current injection and collection. The emitter is the carrier source, the collector gathers them, and the base controls how easily carriers cross the structure. <p> ![NPN BJT symbol](attachments/symbol_npn.svg) <p> ![PNP BJT symbol](attachments/symbol_pnp.svg)
 
-In the common symbol convention, for an NPN transistor the emitter arrow points _out_ of the device (from emitter to base); for PNP it points _in_ (toward the base). In both symbols the base is the middle leg and the collector has no arrow. Schematic symbols depict current directions and layers, not physical pin ordering; the datasheet gives the actual pinout.
+In the NPN symbol the emitter arrow points _out_; in PNP it points _in_. The base is the middle leg; the collector has no arrow. Symbols depict current directions, not physical pin ordering; the datasheet gives the actual pinout.
 
-For analysis, the equivalent circuit models the base–emitter junction as a diode and the collector–emitter path as a dependent current source $I_C=\beta I_B$. For __NPN__ the B–E diode has its anode at the base and cathode at the emitter (forward when $V_{BE}>0.7\text{ V}$), and the dependent current source drives current from collector to emitter. For __PNP__ the E–B diode has its anode at the emitter and cathode at the base (forward when the emitter is more positive than the base), and the dependent current source drives current from emitter to collector. <p> ![NPN BJT equivalent: diode and dependent current source](attachments/equivalent_npn.svg) <p> ![PNP BJT equivalent: diode and dependent current source](attachments/equivalent_pnp.svg)
+The equivalent circuit models the base–emitter junction as a diode and the collector–emitter path as a dependent current source $I_C=\beta I_B$. For __NPN__, the B–E diode has anode at base, cathode at emitter (forward when $V_{BE}>0.7\text{ V}$); current flows collector to emitter. For __PNP__, the E–B diode has anode at emitter, cathode at base; current flows emitter to collector. <p> ![NPN BJT equivalent: diode and dependent current source](attachments/equivalent_npn.svg) <p> ![PNP BJT equivalent: diode and dependent current source](attachments/equivalent_pnp.svg)
 
 ---
 
@@ -55,7 +55,7 @@ Flashcards for this section are as follows:
 
 ## transistor operation modes
 
-For an NPN BJT, the base–emitter (B–E) junction behaves like a diode with an approximate forward drop of $0.7\text{ V}$. The same device can therefore appear as an open switch, a current amplifier, or a saturated switch depending on its bias point and the surrounding circuit.
+For an NPN BJT, the base–emitter junction behaves like a diode with forward drop ~$0.7\text{ V}$. Depending on bias, the device appears as an open switch, a current amplifier, or a saturated switch.
 
 ### key voltages and current relation
 
@@ -64,7 +64,7 @@ Two voltages appear often in BJT circuits:
 - $V_{CC}$: the DC supply voltage feeding the collector/load network (e.g. the " $5\text{ V}$ rail").
 - $V_{CE}$: the collector-to-emitter voltage, defined as $V_{CE}=V_C-V_E$ (for an NPN low-side switch, $V_E$ is usually $0\text{ V}$ so $V_{CE}\approx V_C$).
 
-[Kirchhoff's current law](Kirchhoff%27s%20circuit%20laws.md#kirchhoff%27s%20current%20law) at the transistor gives $I_E=I_C+I_B$ when all three currents are defined as __leaving__ the transistor; in practice we often draw NPN currents flowing _into_ the device at C and B and _out_ at E, or the opposite for PNP, but the magnitude relation "emitter current equals base plus collector" still holds in either case.
+[Kirchhoff's current law](Kirchhoff%27s%20circuit%20laws.md#kirchhoff%27s%20current%20law) at the transistor gives $I_E=I_C+I_B$. In practice NPN currents flow into C and B and out at E (opposite for PNP), but the magnitude relation holds either way.
 
 ---
 
@@ -85,7 +85,7 @@ Flashcards for this section are as follows:
 
 ### amplification mode
 
-When $V_{BE}>0.7\text{ V}$ and the transistor is biased appropriately, it can operate in amplification mode where the collector current is approximately proportional to the base current: $I_C\approx\beta I_B$, where $\beta$ is the current gain (typically in the range $20$ – $300$). In amplification (sometimes called "active") mode, the transistor behaves like a controlled current source: a small change in $I_B$ produces a much larger change in $I_C$ while $V_{CE}$ stays somewhere between $0.2\text{ V}$ and the supply voltage.
+When $V_{BE}>0.7\text{ V}$ and the transistor is biased appropriately, it operates in amplification mode: $I_C\approx\beta I_B$, where $\beta$ is typically $20$ – $300$. The transistor behaves like a controlled current source; a small $I_B$ change produces a much larger $I_C$ change while $V_{CE}$ stays between $0.2\text{ V}$ and the supply.
 
 ---
 
@@ -96,7 +96,7 @@ Flashcards for this section are as follows:
 
 ### saturation mode
 
-In saturation mode, $I_C$ is limited by the external circuit rather than by $\beta I_B$, and the collector–emitter voltage drops to a small value (about $0.2\text{ V}$) similar to a closed switch.
+In saturation mode, $I_C$ is limited by the external circuit rather than $\beta I_B$; $V_{CE}$ drops to ~$0.2\text{ V}$, similar to a closed switch.
 
 ---
 
@@ -130,11 +130,9 @@ Flashcards for this section are as follows:
 
 ## transistor as inverter
 
-The same NPN resistor-loaded circuit (collector to $V_{CC}$ through $R_C$, base driven through $R_B$) behaves as a __logic inverter__. Logical HIGH and LOW come from comparing $V_C$ and $V_E$.
+The same NPN resistor-loaded circuit behaves as a __logic inverter__. Input LOW (below ~$0.7\text{ V}$): transistor off, $V_C$ near $V_{CC}$, output HIGH. Input HIGH (saturating): $V_C$ drops to ~$0.2\text{ V}$ above $V_E$, output LOW.
 
-When the input is low (below about $0.7\text{ V}$), the transistor is off. $V_C$ stays high (near $V_{CC}$) and $V_E$ is at ground, so $V_C - V_E$ is large: __logical HIGH__. When the input is high enough to saturate the transistor, $V_C$ drops to only slightly above $V_E$ (about $0.2\text{ V}$ difference): __logical LOW__. Input LOW gives output HIGH; input HIGH gives output LOW.
-
-The input voltage at which the transistor just enters saturation is called $V_{\text{sat}}$. It is found by equating $\beta I_B$ to the collector circuit's maximum current $I_{C,\max}$. Base current is $I_B = (V_{\text{sat}} - 0.7\text{ V})/R_B$; the circuit limit is $I_{C,\max} = (V_{CC} - 0.2\text{ V})/R_C$. Setting $\beta I_B = I_{C,\max}$ and solving gives $V_{\text{sat}} = 0.7\text{ V} + R_B(V_{CC} - 0.2\text{ V})/(\beta R_C)$. For the lecture example ($R_B = 10\text{ k}\Omega$, $R_C = 1\text{ k}\Omega$, $V_{CC} = 5\text{ V}$, $\beta = 100$), $V_{\text{sat}} = 1.18\text{ V}$; inputs above that saturate the transistor and give a low output.
+The saturation threshold $V_{\text{sat}}$ is found by equating $\beta I_B$ to $I_{C,\max}$. With $I_B = (V_{\text{sat}} - 0.7\text{ V})/R_B$ and $I_{C,\max} = (V_{CC} - 0.2\text{ V})/R_C$, solving gives $V_{\text{sat}} = 0.7\text{ V} + R_B(V_{CC} - 0.2\text{ V})/(\beta R_C)$. For the lecture example ($R_B = 10\text{ k}\Omega$, $R_C = 1\text{ k}\Omega$, $V_{CC} = 5\text{ V}$, $\beta = 100$), $V_{\text{sat}} = 1.18\text{ V}$.
 
 ---
 
@@ -148,11 +146,9 @@ Flashcards for this section are as follows:
 
 ## transistor as a switch
 
-In digital or motor-control circuits, a BJT is often used as an on–off switch. A __low-side switch__ is one where the switching device sits between the load and ground (the "low" side of the supply); current flows from the positive supply through the load, then through the transistor to ground. (A high-side switch would sit between the supply and the load instead.) For an NPN transistor used as a low-side switch, the emitter is tied to ground, the collector connects to the load and then to a positive supply, and a base resistor $R_B$ limits the base current from a control voltage $V_{\text{IN}}$. When $V_{\text{IN}}$ is below about $0.7\text{ V}$, the transistor is off and no significant collector current flows. When $V_{\text{IN}}$ is driven high enough to provide sufficient base current, the transistor saturates, pulling the collector near ground (with $V_{CE}\approx0.2\text{ V}$) and turning the load on. <p> ![NPN low-side switch schematic](attachments/npn_low_side_switch.svg)
+A __low-side switch__ sits between the load and ground: current flows supply → load → transistor → ground. For an NPN low-side switch, emitter ties to ground, collector connects to the load, and a base resistor $R_B$ limits base current from $V_{\text{IN}}$. Below ~$0.7\text{ V}$ the transistor is off; above, it saturates and pulls the collector near ground ($V_{CE}\approx0.2\text{ V}$). <p> ![NPN low-side switch schematic](attachments/npn_low_side_switch.svg)
 
-A typical design procedure: (1) determine the desired collector current from the load and supply, (2) pick a conservative $\beta_{\text{forced}}$ and compute $I_B=I_C/\beta_{\text{forced}}$, (3) choose $R_B$ so the base–emitter junction sees about $0.7\text{ V}$ at the high input level with sufficient $I_B$, and (4) verify $V_{CE}$ drops to $\approx0.2\text{ V}$ and the transistor's power rating is not exceeded.
-
-A base resistor limits $I_B$: $I_B\approx(V_{\text{IN}}-0.7\text{ V})/R_B$ when on. Then check whether $I_C\le\beta I_B$ (amplification) or the transistor saturates with $I_C$ limited by the external circuit.
+Design procedure: (1) determine $I_C$ from load and supply, (2) pick conservative $\beta_{\text{forced}}$ and compute $I_B=I_C/\beta_{\text{forced}}$, (3) choose $R_B$ for ~$0.7\text{ V}$ at the high input with sufficient $I_B$, (4) verify $V_{CE}\approx0.2\text{ V}$ and power rating. $I_B\approx(V_{\text{IN}}-0.7\text{ V})/R_B$ when on; check whether $I_C\le\beta I_B$ (active) or the transistor saturates.
 
 ---
 

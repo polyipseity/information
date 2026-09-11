@@ -15,7 +15,7 @@ A microcontroller is a small computer embedded inside a device that runs one con
 <!-- check: ignore-next-line[header_style]: acronym -->
 ## MCU role and integrated architecture
 
-A microcontroller unit (MCU) integrates the central processing unit (CPU), memory, timer resources, and input/output (I/O) ports on one integrated circuit. It reads inputs, evaluates logic, stores state, and drives outputs — using less space and power than a general-purpose computer. This suits battery-powered embedded systems that repeat the same control task continuously.
+A microcontroller unit (MCU) integrates the central processing unit (CPU), memory, timer resources, and input/output (I/O) ports on one integrated circuit. It reads inputs, evaluates logic, stores state, and drives outputs using less space and power than a general-purpose computer. This suits battery-powered embedded systems that repeat the same control task.
 
 ---
 
@@ -27,7 +27,7 @@ Flashcards for this section are as follows:
 
 ## programmable control versus fixed logic
 
-A simple truth table can be built from gates, but a more complex robot controller is hard to build, test, and debug with fixed-purpose logic ICs alone. A programmable microcontroller keeps the same control ideas (truth tables, conditions, stored state, output assignment) while making the behavior easier to modify in code. On this platform the MCU board is an Arduino Nano, but the point generalizes: programmable control scales better than hand-built gates as behavior gets more complex.
+A simple truth table can be built from gates, but a more complex robot controller is hard to build, test, and debug with fixed-purpose logic ICs alone. A programmable microcontroller keeps the same control ideas (truth tables, conditions, stored state, output assignment) while making the behavior easier to modify in code. On this platform the MCU board is an Arduino Nano; programmable control scales better than hand-built gates as behavior gets more complex.
 
 ---
 

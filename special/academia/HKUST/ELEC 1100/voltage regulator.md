@@ -32,7 +32,7 @@ Flashcards for this section are as follows:
 
 ## diode and Zener diode as regulators
 
-A [diode](diode.md) conducts primarily in one direction. In the ideal model it is a short circuit when forward biased and an open circuit when reverse biased; in practice a forward-biased diode has an approximately constant forward drop (typically about $0.7\text{ V}$ for a silicon diode at modest currents).
+A [diode](diode.md) conducts primarily in one direction. Ideally it is a short when forward biased and open when reverse biased; in practice a forward-biased silicon diode has a ~$0.7\text{ V}$ drop.
 
 A Zener diode behaves like a normal diode in forward bias, but in reverse bias it conducts once the voltage exceeds the Zener breakdown magnitude, clamping the voltage near its breakdown value. This gives a simple clamp regulator: a series resistor limits current, and the Zener shunts current to hold the load node near the Zener voltage when the input is high enough. <p> ![Zener diode symbol](attachments/symbol_zener.svg)
 
@@ -54,9 +54,9 @@ Flashcards for this section are as follows:
 
 Zener regulators are simple but have poorer regulation than dedicated ICs. Standard ICs are usually the better choice.
 
-An integrated circuit (IC) packs many components onto one chip to perform a function like voltage regulation. Focus on the IC's pins, input/output requirements, recommended external components, and limits — not its internal transistor-level design. The datasheet covers all of these.
+An integrated circuit (IC) packs many components onto one chip to perform a function like voltage regulation. Focus on the IC's pins, input/output requirements, recommended external components, and limits, not its internal design. The datasheet covers all of these.
 
-The LM7805 is a common fixed-output linear regulator that produces a regulated $5\text{ V}$ output from a higher input voltage. In the project, the battery's $12\text{ V}$ rail drives motors while a regulated $5\text{ V}$ rail powers logic and control circuits (including the [H-bridge](H-bridge.md) driver logic, e.g. L293 VCC and 74HC14). Capacitors at the input and output reduce transients and stabilize the regulator. With the number side of the TO‑220 package facing you, the three LM7805 pins from left to right are IN, GND, and OUT; miswiring defeats regulation and can overheat the device. In lab the LM7805 can get warm or hot in normal operation, so avoid touching it directly; if you notice a bad smell or suspect overheating, turn off the supply and ask a TA to check the circuit. To check regulation, slowly increase $V_{\text{in}}$ from the lab supply and confirm that $V_{\text{out}}$ on the DMM sits close to $5\text{ V}$ instead of tracking $V_{\text{in}}$; if the reading follows $V_{\text{in}}$, turn off the supply and re-check wiring. <p> ![3-pin regulator with input/output capacitors](attachments/three_pin_regulator.svg)
+The LM7805 is a fixed-output linear regulator producing a regulated $5\text{ V}$ from a higher input. In the project, the $12\text{ V}$ rail drives motors while $5\text{ V}$ (via LM7805) powers logic ([H-bridge](H-bridge.md) driver, L293 VCC, 74HC14). Input/output capacitors reduce transients. TO‑220 pins (number side facing you, left to right): IN, GND, OUT. The LM7805 can get hot in normal operation; if you smell burning, turn off and ask a TA. To check regulation, increase $V_{\text{in}}$ slowly and confirm $V_{\text{out}}$ stays near $5\text{ V}$ instead of tracking $V_{\text{in}}$; if it follows $V_{\text{in}}$, re-check wiring. <p> ![3-pin regulator with input/output capacitors](attachments/three_pin_regulator.svg)
 
 ---
 
@@ -78,9 +78,9 @@ Two common measures of regulator quality are line regulation and load regulation
 
 Definitions used in the lecture are: line regulation $=\Delta V_{O}/\Delta V_{I}$ and load regulation $=\Delta V_{O}/\Delta I_{O}$. In the LM7805 example, if $10\text{ V}\le V_{\text{in}}\le15\text{ V}$ produces $V_{\text{out}}$ changing from $4.98\text{ V}$ to $5.03\text{ V}$, then line regulation $=(5.03-4.98)/(15-10)=0.01$ (in $\text{V}/\text{V}$).
 
-Line regulation tests how stable the output is against changes from the input side — battery variation, adapter variation, or supply ripple. The input quantity is therefore input voltage, not input current. Input current depends on the load and regulator operation, so it does not isolate source variation cleanly; $\Delta V_I$ does.
+Line regulation tests stability against input-voltage changes (battery variation, supply ripple). Input voltage is the disturbance variable because it isolates source-side variation; input current depends on the load and does not isolate it cleanly.
 
-Load regulation asks how well the regulator holds $V_{\text{out}}$ steady when the load changes. The independent variable is output current, because the regulator's job is to keep output voltage fixed. If the robot logic or motor-driver circuitry draws more current, a good regulator lets $V_O$ move only slightly. In short, line regulation tests stability against input changes; load regulation tests stability against load changes.
+Load regulation tests stability against output-current changes. The regulator's job is to keep output voltage fixed, so the natural disturbance is the load current. A good regulator lets $V_O$ move only slightly when the robot logic or motor-driver circuitry draws more current.
 
 ---
 
