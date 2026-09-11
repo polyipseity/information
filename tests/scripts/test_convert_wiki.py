@@ -8,6 +8,7 @@ import json
 import os
 import re
 import subprocess
+from collections.abc import Mapping
 from os import PathLike
 from pathlib import Path as PathlibPath
 
@@ -17,12 +18,16 @@ from anyio import Path, run_process
 from bs4 import BeautifulSoup, Tag
 
 from scripts.convert_wiki import config
-from scripts.convert_wiki.api import _collect_image_filenames
+from scripts.convert_wiki.api import _collect_image_filenames, _collect_link_titles
 from scripts.convert_wiki.converter import WikiHtmlConverter
 from scripts.convert_wiki.pipeline import run_pipeline
 from scripts.convert_wiki.table import TableConverter
 from scripts.convert_wiki.types import _RedirectInfo
-from scripts.convert_wiki.utils import _get_image_filename
+from scripts.convert_wiki.utils import (
+    _fix_filename,
+    _fix_name_maybe,
+    _get_image_filename,
+)
 
 """Public API of this test module (empty: no symbols are exported)."""
 __all__ = ()
@@ -281,6 +286,57 @@ async def _assert_markdownlint_clean(output: str, tmp: Path) -> None:
     )
 
 
+async def _assert_redirect_symlinks(
+    *,
+    tmp: Path,
+    isolated_lang: Path,
+    redirect_map: Mapping[str, _RedirectInfo],
+    link_titles: set[str],
+    names_map: Mapping[str, str],
+) -> None:
+    """Assert the converter created exactly the redirect symlinks the aux implies.
+
+    Every anchor whose resolved page differs from its own title yields a
+    language-directory symlink ``{from}.md -> {to}.md`` plus a top-level mirror
+    ``{from}.md -> eng/{from}.md``.  The aux ``redirect_cache`` is the snapshot's
+    record of the symlinks that existed when it was captured, so asserting the
+    created links keeps that record honest.
+    """
+    expected: dict[str, str] = {}
+    for title, info in redirect_map.items():
+        if title not in link_titles:
+            continue
+        if info.to == title and not info.tofragment:
+            continue
+        if any(
+            info.to.startswith(prefix) for prefix in config._PRESERVED_PAGE_PREFIXES
+        ):
+            continue
+        from_name = _fix_filename(
+            _fix_name_maybe(title, replace_underscores=True, names_map=names_map)
+        )
+        to_name = _fix_filename(
+            _fix_name_maybe(info.to, replace_underscores=True, names_map=names_map)
+        )
+        if from_name != to_name:
+            expected[f"{from_name}.md"] = f"{to_name}.md"
+
+    actual: dict[str, str] = {}
+    async for entry in isolated_lang.iterdir():
+        if await entry.is_symlink():
+            actual[entry.name] = str(await entry.readlink())
+    assert actual == expected
+
+    mirror_dir = tmp / "general"
+    mirrors: dict[str, str] = {}
+    async for entry in mirror_dir.iterdir():
+        if await entry.is_symlink():
+            mirrors[entry.name] = str(await entry.readlink())
+    assert set(mirrors) == set(expected)
+    for name, target in mirrors.items():
+        assert target == f"eng/{name}"
+
+
 class TestWikiHtmlToPlaintextSnapshot:
     """Snapshot tests for the core wiki_html_to_plaintext function.
 
@@ -318,6 +374,9 @@ class TestWikiHtmlToPlaintextSnapshot:
         # Parse HTML
         html = BeautifulSoup(html_text, "html.parser")
 
+        # Collect the anchors before conversion: ``run_pipeline`` mutates the tree.
+        link_titles = _collect_link_titles(html)
+
         # Load pre-computed data from aux instead of hitting the live API.
         redirect_map = {
             k: _RedirectInfo(to=v["to"], tofragment=v.get("tofragment", ""))
@@ -341,6 +400,13 @@ class TestWikiHtmlToPlaintextSnapshot:
 
         assert output == expected
         await _assert_markdownlint_clean(output, tmp)
+        await _assert_redirect_symlinks(
+            tmp=tmp,
+            isolated_lang=isolated_lang,
+            redirect_map=redirect_map,
+            link_titles=link_titles,
+            names_map=names_map,
+        )
 
 
 class TestImageAltTextFallback:
