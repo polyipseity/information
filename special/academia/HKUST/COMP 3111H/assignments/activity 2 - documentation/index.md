@@ -15,11 +15,11 @@ tags:
 ---
 
 - title: Activity 2 - Documentation
-- due: 2025‑11‑23T23:59:59+08:00
+- due: 2025-11-23T23:59:59+08:00
 - points: 10
 - submitting: file upload
 - file types: pdf
-- available: 2025‑09‑29T00:00:00+08:00/2025‑11‑23T23:59:59+08:00, P55DT23H59M59S
+- available: 2025-09-29T00:00:00+08:00/2025-11-23T23:59:59+08:00, P55DT23H59M59S
 
 ---
 
@@ -60,5 +60,5 @@ Templates are provided for reference. You are required to adopt this particular 
 ## submission
 
 - file: [`submission.pdf`](submission/submission.pdf)
-    - name: `group14_documentation.pdf`
+    - filename: `group14_documentation.pdf`
     - source: [`submission/`](submission/)

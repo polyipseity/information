@@ -27,7 +27,7 @@ from urllib.parse import unquote
 
 from anyio import Path
 
-from .models import Severity, ValidationContext, ValidationMessage
+from .models import AstNode, Severity, ValidationContext, ValidationMessage
 from .registry import RuleRegistry
 from .utils import (
     FRONT_RE,
@@ -57,8 +57,8 @@ def _normalize_heading_text(text: str) -> str:
 
 
 def _iter_regex_headings_filtered_by_ast(
-    text: str, ast: list[dict] | None, min_level: int = 1
-) -> Iterator[re.Match]:
+    text: str, ast: list[AstNode] | None, min_level: int = 1
+) -> Iterator[re.Match[str]]:
     """Yield regex matches for headings validated by AST parsing.
 
     Uses the mistune AST to filter out false-positive header matches
@@ -85,15 +85,15 @@ def _iter_regex_headings_filtered_by_ast(
 
 
 def _build_filtered_header_positions(
-    text: str, ast: list[dict] | None
-) -> list[tuple[int, int, re.Match]]:
+    text: str, ast: list[AstNode] | None
+) -> list[tuple[int, int, re.Match[str]]]:
     """Build a list of (start_pos, level, match) for AST-validated headings.
 
     Uses the mistune AST to skip false-positive header matches
     (e.g. ``#``-prefixed lines inside fenced code blocks).
     Falls back to all regex matches when *ast* is ``None`` or empty.
     """
-    result: list[tuple[int, int, re.Match]] = []
+    result: list[tuple[int, int, re.Match[str]]] = []
 
     valid: set[tuple[int, str]] = set()
     if ast:
@@ -111,7 +111,7 @@ def _build_filtered_header_positions(
 
 
 def _build_code_block_ranges(
-    text: str, ast: list[dict] | None
+    text: str, ast: list[AstNode] | None
 ) -> list[tuple[int, int]]:
     """Build sorted list of (start_byte, end_byte) for code-block raw content.
 
@@ -133,7 +133,7 @@ def _build_code_block_ranges(
     return ranges
 
 
-def _is_inside_code_block(pos: int, text: str, ast: list[dict] | None) -> bool:
+def _is_inside_code_block(pos: int, text: str, ast: list[AstNode] | None) -> bool:
     """Return ``True`` if byte position *pos* falls inside a code-block range.
 
     Uses AST ``block_code`` nodes for reliable code-block detection.
@@ -146,7 +146,7 @@ def _is_inside_code_block(pos: int, text: str, ast: list[dict] | None) -> bool:
 
 
 def _get_section_end(
-    text: str, start_offset: int, hdr_text: str, ast: list[dict] | None
+    text: str, start_offset: int, hdr_text: str, ast: list[AstNode] | None
 ) -> int:
     """Find the end of a section beginning at *start_offset*.
 
@@ -398,6 +398,28 @@ def _extract_children_section(text: str) -> list[tuple[int, str]]:
     """Return the lines contained within the `## children` section."""
 
     return _extract_named_h2_section(text, "children")
+
+
+def _extract_canvas_metadata_block(text: str) -> list[tuple[int, str]]:
+    """Return the lines of the first `---`-delimited block after frontmatter.
+
+    Canvas-derived leaf indexes keep the Canvas metadata bullets in a
+    ``---``-bounded block directly after the parent line instead of under a
+    ``## description`` heading, so those bullets need to be inspected too.
+    """
+    front = FRONT_RE.match(text)
+    first_line = text.count("\n", 0, front.end()) if front else 0
+    lines = text.splitlines()
+
+    start: int | None = None
+    for index in range(first_line, len(lines)):
+        if lines[index].strip() != "---":
+            continue
+        if start is None:
+            start = index + 1
+        else:
+            return [(i + 1, lines[i]) for i in range(start, index)]
+    return []
 
 
 async def _path_exists(href: str, base: Path) -> bool:
@@ -672,8 +694,9 @@ def index_canvas_metadata_iso_datetime(
 
     Applies to assignment-style leaf ``index.md`` pages under ``assignments`` or
     ``labs``. The rule inspects metadata bullets in ``## description`` and
-    ``## logistics`` and requires ISO 8601 values for due timestamps,
-    availability endpoints or ranges, and durations.
+    ``## logistics`` sections and in the ``---``-delimited metadata block, and
+    requires ISO 8601 values for due timestamps, availability endpoints or
+    ranges, and durations.
     """
 
     errors: list[ValidationMessage] = []
@@ -708,10 +731,12 @@ def index_canvas_metadata_iso_datetime(
             )
         )
 
-    sections = _extract_named_h2_section(
-        ctx.text, "description"
-    ) + _extract_named_h2_section(ctx.text, "logistics")
-    for line_no, line in sections:
+    sections = (
+        _extract_named_h2_section(ctx.text, "description")
+        + _extract_named_h2_section(ctx.text, "logistics")
+        + _extract_canvas_metadata_block(ctx.text)
+    )
+    for line_no, line in dict.fromkeys(sections):
         stripped = line.strip()
         m = re.match(r"^-\s*([^:]+):\s*(.+)$", stripped)
         if not m:
@@ -1523,6 +1548,7 @@ def header_flashcard_presence(ctx: ValidationContext) -> list[ValidationMessage]
         name == "index.md"
         or name == "questions.md"
         or name == "agents.md"
+        or name in {"lab.md", "tutorial.md", "lecture.md"}
         or "questions" in parent_parts
     ):
         return errors
@@ -1577,6 +1603,7 @@ def header_flashcard_separator(ctx: ValidationContext) -> list[ValidationMessage
         name == "index.md"
         or name == "questions.md"
         or name == "agents.md"
+        or name in {"lab.md", "tutorial.md", "lecture.md"}
         or "questions" in parent_parts
     ):
         return errors
@@ -1621,6 +1648,7 @@ def header_flashcard_sections_duplicate(
         name == "index.md"
         or name == "questions.md"
         or name == "agents.md"
+        or name in {"lab.md", "tutorial.md", "lecture.md"}
         or "questions" in parent_parts
     ):
         return errors
@@ -1826,7 +1854,9 @@ def misplaced_suppression_comment(ctx: ValidationContext) -> list[ValidationMess
 # math and unit rules --------------------------------------------------------
 
 
-def find_math_spans(text: str, ast: list[dict] | None = None) -> list[tuple[int, int]]:
+def find_math_spans(
+    text: str, ast: list[AstNode] | None = None
+) -> list[tuple[int, int]]:
     """Find LaTeX math spans ``$…$`` and ``$$…$$``.
 
     When *ast* is provided (a mistune AST), uses the AST's
@@ -1885,7 +1915,7 @@ def _find_math_spans_fallback(text: str) -> list[tuple[int, int]]:
     return spans
 
 
-def _find_math_spans_ast(text: str, ast: list[dict]) -> list[tuple[int, int]]:
+def _find_math_spans_ast(text: str, ast: list[AstNode]) -> list[tuple[int, int]]:
     """AST-based math span detection using mistune.
 
     Walks the AST for ``inline_math`` / ``block_math`` nodes and locates
@@ -2780,7 +2810,10 @@ def topic_note_redundant_filename_prefix(
     errors: list[ValidationMessage] = []
     name = ctx.path.name.lower()
     parent_parts = [part.casefold() for part in ctx.path.parts[:-1]]
-    if name in {"index.md", "questions.md"} or "questions" in parent_parts:
+    if (
+        name in {"index.md", "questions.md", "lab.md", "tutorial.md", "lecture.md"}
+        or "questions" in parent_parts
+    ):
         return errors
 
     stem = ctx.path.stem
@@ -3713,6 +3746,17 @@ def no_soft_wrap_paragraph(ctx: ValidationContext) -> list[ValidationMessage]:
             newline_off = body.find("\n", body_idx)
             if newline_off == -1:
                 newline_off = body_idx
+
+            # Exempt intentional hard breaks: <br/>, backslash, or
+            # two trailing spaces at end of line.
+            line_before_nl = body[body_idx:newline_off]
+            if (
+                line_before_nl.rstrip().endswith("<br/>")
+                or line_before_nl.rstrip().endswith("\\")
+                or line_before_nl.rstrip() != line_before_nl.rstrip(" ")
+            ):
+                continue
+
             abs_idx = body_start + newline_off
             line_no, col, col_end = locate_range(text, abs_idx, 1)
             errors.append(
@@ -3769,6 +3813,20 @@ def no_soft_wrap_list(ctx: ValidationContext) -> list[ValidationMessage]:
 
         body_idx = body.find(first_text)
         if body_idx == -1:
+            continue
+
+        # Exempt intentional hard breaks: find the line containing
+        # the softbreak and check if it ends with <br/>, backslash,
+        # or two trailing spaces.
+        newline_off = body.find("\n", body_idx)
+        if newline_off == -1:
+            newline_off = len(body)
+        line_text = body[body_idx:newline_off]
+        if (
+            line_text.rstrip().endswith("<br/>")
+            or line_text.rstrip().endswith("\\")
+            or line_text.rstrip() != line_text.rstrip(" ")
+        ):
             continue
 
         abs_idx = body_start + body_idx
@@ -3829,7 +3887,7 @@ def md028_missing(ctx: ValidationContext) -> list[ValidationMessage]:
     if not ast:
         return errors
 
-    prev_bq: dict | None = None
+    prev_bq: AstNode | None = None
     prev_idx = -1
 
     for idx, node in enumerate(ast):
@@ -3879,7 +3937,7 @@ def md028_missing(ctx: ValidationContext) -> list[ValidationMessage]:
     return errors
 
 
-def _first_text_content(node: dict) -> str:
+def _first_text_content(node: AstNode) -> str:
     """Walk an AST node returning the first raw text content found."""
     if node.get("type") == "text":
         return node.get("raw", "")
@@ -4018,5 +4076,57 @@ def md028_bad_format(ctx: ValidationContext) -> list[ValidationMessage]:
                     col_end=col_end,
                 )
             )
+
+    return errors
+
+
+@RULE_REGISTRY.register()
+def html_br_mid_line(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Flag <br/> tags used mid-line (not followed by a newline).
+
+    ``<br/>`` must appear at the end of a line (followed by ``\n``) to
+    produce an intentional hard break.  When used mid-line it is
+    incorrect usage and should be moved to the line end or replaced
+    with a blank line.
+    """
+    errors: list[ValidationMessage] = []
+    text = ctx.text
+    fm = FRONT_RE.match(text)
+    body_start = fm.end() if fm else 0
+    body = text[body_start:]
+
+    # Match <br/>, <br>, <br /> variants (case-insensitive).
+    br_re = re.compile(r"<br\s*/?>", re.IGNORECASE)
+
+    for m in br_re.finditer(body):
+        abs_pos = body_start + m.start()
+
+        # Skip inside code fences.
+        if body[: m.start()].count("```") % 2 == 1:
+            continue
+
+        # Skip inside inline code (backtick pairs).
+        before = body[: m.start()]
+        if before.count("`") % 2 == 1:
+            continue
+
+        # Check if followed by newline (correct) or more content (wrong).
+        after = body[m.end() :]
+        if after.startswith("\n") or after.startswith("\r\n"):
+            continue  # correct: <br/> at end of line
+
+        line_no, col, col_end = locate_range(text, abs_pos, len(m.group(0)))
+        errors.append(
+            ValidationMessage(
+                rule_id="html_br_mid_line",
+                msg=(
+                    "<br/> must appear at end of line (followed by newline) — "
+                    "move it to the line end or use a blank line instead"
+                ),
+                line=line_no,
+                col=col,
+                col_end=col_end,
+            )
+        )
 
     return errors

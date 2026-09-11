@@ -115,6 +115,10 @@ Merge new material into existing note:
 4. Update cross-references in other notes that linked to this topic
 5. Validate after changes
 
+## Missing data
+
+Use `\[missing\]` for absent values — for example, when a topic has no cross-references or a section has no formula. See [special.instructions.md](../../instructions/special.instructions.md#missing-data).
+
 ## Style conventions
 
 - Lowercase headings except proper nouns (use `<!-- check: ignore-next-line[header_style]: proper noun -->`)

@@ -66,6 +66,12 @@ Follow the conventions in [editing-conventions.instructions.md](../editing-conve
 - Include `by/<author>` tag in frontmatter
 - Use both `language/for/中文` and `language/in/中文` tags
 
+### Missing data
+
+The canonical format is `[missing]`. In Markdown files, escape the square brackets (`\[missing\]`) to prevent link creation — but `[missing]` is the true representation.
+
+Use `[missing]` when a field or value is present but its content is unknown, unavailable, or intentionally empty. This distinguishes "field exists, value absent" from "field not applicable" (omit entirely). Do not invent, hallucinate, or generate placeholder content for missing values — mark them `\[missing\]` instead. Do not use empty strings, `(none)`, `N/A`, `TBD`, `—`, or other variants. Every `academic-crud-*` skill follows this convention.
+
 ## Developer tooling & tests
 
 - New tools that transform `special/` content require tests under `tests/` using `tmp_path: os.PathLike[str]` (annotate the fixture as `PathLike[str]`). Use `os.fspath(path_like)` when converting paths to strings.

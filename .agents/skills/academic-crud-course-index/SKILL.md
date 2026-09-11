@@ -130,9 +130,9 @@ Create a `## <exam name>` section elsewhere in the index (typically after all re
   - calculator: yes
   - cheatsheet: yes (one A4 page)
   - referencing: closed book, closed notes
-  - provided: (none)
+  - provided: \[missing\]
   - questions: long questions ×5
-- note: (none)
+- note: \[missing\]
 - grade:
   - 89/100
   - letter grade: A+
@@ -141,21 +141,21 @@ Create a `## <exam name>` section elsewhere in the index (typically after all re
       - timestamp: 2026-04-20T10:00:00+08:00
       - count: 120
       - mean: 72.5
-      - standard deviation: (none)
+      - standard deviation: \[missing\]
       - low: 35
       - lower quartile: 62
       - median: 74
       - upper quartile: 83
       - high: 98
-      - distribution: (none)
-      - data: (none)
+      - distribution: \[missing\]
+      - data: \[missing\]
 - report:
   - - (topic name) (–1): <error description with flashcard>
   - - (topic name) (+1.5): <surprise with flashcard>
 - check:
   - datetime: 2026-04-22T14:00:00+08:00
   - venue: Office
-  - report: (none)
+  - report: \[missing\]
 ```
 
 ### Aftermath section
@@ -171,7 +171,7 @@ After all exam sections:
 - letter grade: A+
 - statistics:
   - L1:
-    - timestamp: (none)
+    - timestamp: \[missing\]
     - count: 120
     - mean: 75.2
     ...
@@ -210,7 +210,7 @@ Official Canvas announcements as blockquotes after `---`:
 
 - Canvas single-student view: mean, median, high, low, quartiles
 - `statistics.timestamp` from Canvas announcement posting datetime
-- `statistics.data: (none)` (no external LMS links)
+- `statistics.data: \[missing\]` (no external LMS links)
 - Per-question breakdown from PDF via PyMuPDF:
 
   ```python
@@ -225,6 +225,10 @@ Official Canvas announcements as blockquotes after `---`:
 ## Validation
 
 Run `academic-lint` after every edit. If you know which files changed, pass those files specifically. Otherwise lint the whole course folder.
+
+## Missing data
+
+Use `\[missing\]` when a field or value is absent. See [special.instructions.md](../../instructions/special.instructions.md#missing-data).
 
 ## References
 

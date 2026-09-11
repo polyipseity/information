@@ -22,6 +22,7 @@ Use `transcludes/` when a course references Wikipedia articles that should be av
 - Use `find_wikipedia.py` from `academic-crud-topic-note` for canonical title discovery
 - Flashcard tag path includes `transcludes/` segment (e.g., `flashcard/active/special/academia/HKUST/ELEC 4110/transcludes/Fourier transform`)
 - Linked from course `## children` as topic notes
+- Use `\[missing\]` for absent fields. See [special.instructions.md](../../instructions/special.instructions.md#missing-data)
 
 ## Creating a transclude
 

@@ -718,6 +718,7 @@ TSWLatexianTemp*
 # }
 
 # self {
+/.agents/skills/*/uv.lock
 /.obsidian/workspace-mobile.json
 /.obsidian/workspace.json
 /.trash/

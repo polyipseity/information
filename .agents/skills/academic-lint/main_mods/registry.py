@@ -9,11 +9,34 @@ in the test suite.
 
 import re
 from collections.abc import Awaitable, Callable, Sequence
+from typing import Protocol, TypeVar
 
 from .models import ValidationContext, ValidationMessage
 
 """Public symbols exported by this module."""
-__all__ = ("RuleRegistry",)
+__all__ = ("RuleFunction", "RuleRegistry", "RuleResult")
+
+
+RuleResult = Sequence[ValidationMessage] | Awaitable[Sequence[ValidationMessage]]
+"""Return type of a rule: messages, or an awaitable of them for async rules."""
+
+_RuleResultT = TypeVar("_RuleResultT", bound=RuleResult)
+
+
+class RuleFunction(Protocol[_RuleResultT]):
+    """Structural type of a rule callable held by a registry.
+
+    Rules are plain functions, so they expose ``__name__`` in addition to
+    being callable.  The name is used to derive rule ids and to identify the
+    rule in diagnostics.  Sync rules return their messages directly while
+    async rules return an awaitable of them.
+    """
+
+    __name__: str
+
+    def __call__(self, ctx: ValidationContext) -> _RuleResultT:
+        """Return the validation messages produced for *ctx*."""
+        ...
 
 
 class RuleRegistry:
@@ -34,28 +57,11 @@ class RuleRegistry:
         The internal dictionary ``_rules`` stores the associations and is
         keyed by the rule id string supplied to the ``register`` decorator.
         """
-        self._rules: dict[
-            str,
-            Callable[
-                [ValidationContext],
-                Sequence[ValidationMessage] | Awaitable[Sequence[ValidationMessage]],
-            ],
-        ] = {}
+        self._rules: dict[str, RuleFunction[RuleResult]] = {}
 
     def register(
         self, *, id: str | None = None
-    ) -> Callable[
-        [
-            Callable[
-                [ValidationContext],
-                Sequence[ValidationMessage] | Awaitable[Sequence[ValidationMessage]],
-            ]
-        ],
-        Callable[
-            [ValidationContext],
-            Sequence[ValidationMessage] | Awaitable[Sequence[ValidationMessage]],
-        ],
-    ]:
+    ) -> Callable[[RuleFunction[_RuleResultT]], RuleFunction[_RuleResultT]]:
         """Decorator that registers the wrapped function under *id*.
 
         If *id* is omitted the decorated function's name is used as the
@@ -67,15 +73,7 @@ class RuleRegistry:
         with the same id raises ``RuntimeError``.
         """
 
-        def _decorate(
-            func: Callable[
-                [ValidationContext],
-                Sequence[ValidationMessage] | Awaitable[Sequence[ValidationMessage]],
-            ],
-        ) -> Callable[
-            [ValidationContext],
-            Sequence[ValidationMessage] | Awaitable[Sequence[ValidationMessage]],
-        ]:
+        def _decorate(func: RuleFunction[_RuleResultT]) -> RuleFunction[_RuleResultT]:
             """Actual decorator applied to the user-defined rule function.
 
             If the caller did not supply an explicit *id*, derive one from the
@@ -106,38 +104,15 @@ class RuleRegistry:
 
         return _decorate
 
-    def items(
-        self,
-    ) -> list[
-        tuple[
-            str,
-            Callable[
-                [ValidationContext],
-                Sequence[ValidationMessage] | Awaitable[Sequence[ValidationMessage]],
-            ],
-        ]
-    ]:
+    def items(self) -> list[tuple[str, RuleFunction[RuleResult]]]:
         """Return a list of ``(id, function)`` pairs for all registered rules."""
         return list(self._rules.items())
 
-    def values(
-        self,
-    ) -> list[
-        Callable[
-            [ValidationContext],
-            Sequence[ValidationMessage] | Awaitable[Sequence[ValidationMessage]],
-        ]
-    ]:
+    def values(self) -> list[RuleFunction[RuleResult]]:
         """Return the rule callables in registration order."""
         return list(self._rules.values())
 
-    def get_rule_id(
-        self,
-        func: Callable[
-            [ValidationContext],
-            Sequence[ValidationMessage] | Awaitable[Sequence[ValidationMessage]],
-        ],
-    ) -> str:
+    def get_rule_id(self, func: RuleFunction[RuleResult]) -> str:
         """Return the identifier for a registered rule by reverse lookup.
 
         Returns an empty string if the function is not found.

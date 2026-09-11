@@ -35,7 +35,7 @@ Problem Set 11, due on <span style="color: #0e68b3">__Friday 15/05/2026, until 1
 
 ## submission
 
-- submission: [`HKUST MATH 2431 - problem set 11.pdf`](submission/HKUST%20MATH%202431%20-%20problem%20set%2011.pdf)
+- file: [`HKUST MATH 2431 - problem set 11.pdf`](submission/HKUST%20MATH%202431%20-%20problem%20set%2011.pdf)
     - metadata: [`submission.yml`](submission.yml)
     - source: [`HKUST MATH 2431 problem set 11.md`](submission/HKUST%20MATH%202431%20problem%20set%2011.md)
 

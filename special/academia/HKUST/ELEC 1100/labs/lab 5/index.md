@@ -8,7 +8,7 @@ tags:
   - language/in/English
 ---
 
-<!-- check: ignore-file[index_heading,index_children]: assignment-style index for lab 5 -->
+<!-- check: ignore-file[index_heading]: assignment-style index for lab 5 -->
 
 # lab 5
 
@@ -18,12 +18,15 @@ tags:
 
 - title: Lab#05 Summary Sheet
 - due: 2026-04-13T13:20:00+08:00
+- points: 1
+- submitting: a file upload
+- file types: doc, docx, pdf, jpg, jpeg
 - available: 2026-04-13T10:30:00+08:00/2026-04-13T13:20:00+08:00, PT2H50M
-- source note: the archived source set contains the lab manual, the summary-sheet PDF, the bottom-assembly guide, and example Arduino sketches; detailed Canvas assignment-export metadata is still pending.
 
 ---
 
-Lab 5 moves the course from fixed breadboard subsystems into the robot-car platform. The archived sources show three durable deliverables: the assembly workflow, the sensor/PWM experiments recorded in the summary sheet, and the first Arduino-controlled sensor-to-motor integration.
+This assignment was locked Apr 13 at 1:20pm. <br/>
+No additional details were added for this assignment.
 
 ## attachments
 
@@ -36,5 +39,11 @@ Lab 5 moves the course from fixed breadboard subsystems into the robot-car platf
 
 ## submission
 
-- summary sheet upload: each student submits their own completed summary sheet before the end of the lab slot; canonical Canvas-export metadata is pending.
-- code provenance: the archived example sketches document the lab workflow, but the exact Canvas submission filenames are still pending.
+- file: [`submission.docx`](submission/submission.docx)
+    - metadata: [`submission.yml`](submission.yml)
+- in-class submission
+    - metadata: [`lab.yml`](lab.yml)
+
+## children
+
+- [lab](lab.md)

@@ -10,7 +10,7 @@ from collections.abc import Iterable
 from dataclasses import dataclass
 from enum import StrEnum
 from os import fspath
-from typing import cast
+from typing import TypedDict, cast
 
 from anyio import Path
 from pydantic import BaseModel, ConfigDict, Field, GetCoreSchemaHandler, ValidationInfo
@@ -20,10 +20,12 @@ from pydantic_core import core_schema
 __all__ = (
     "StrList",
     "Frontmatter",
+    "AstNode",
     "ValidationContext",
     "Severity",
     "ValidationMessage",
     "PreviewEntry",
+    "PreviewDict",
     "ValidationResult",
 )
 
@@ -120,6 +122,24 @@ class Frontmatter(BaseModel):
     model_config = ConfigDict(extra="ignore")
 
 
+class AstNode(TypedDict, total=False):
+    """A Mistune AST node.
+
+    Mistune produces open-ended dictionaries, so ``total=False`` keeps every
+    key optional.  Only the keys the validator reads are declared: ``type``
+    for node identification, ``raw`` for verbatim source text, ``children``
+    for nesting, and ``attrs`` for parser attributes such as heading levels.
+    """
+
+    type: str
+    raw: str
+    text: str
+    style: str
+    tight: bool
+    attrs: dict[str, object]
+    children: list["AstNode"]
+
+
 @dataclass
 class ValidationContext:
     """Execution context passed to each validation rule.
@@ -138,7 +158,7 @@ class ValidationContext:
     data: Frontmatter
     body: str
     session_headers: list[tuple[str, str, str, int]]
-    ast: list[dict] | None = None
+    ast: list[AstNode] | None = None
 
 
 class Severity(StrEnum):
@@ -185,6 +205,22 @@ class ValidationMessage:
     col_end: int | None = None
 
 
+class PreviewDict(TypedDict, total=False):
+    """Serialized form of :class:`PreviewEntry` used in JSON output.
+
+    Every optional field is only present when the entry records it, so
+    ``total=False`` keeps the keys optional.
+    """
+
+    path: str
+    excerpt: str
+    msg: str
+    severity: Severity
+    caret: str
+    line: int
+    col: int
+
+
 @dataclass
 class PreviewEntry:
     """Preview information for a specific validation message.
@@ -204,13 +240,13 @@ class PreviewEntry:
     line: int | None = None
     col: int | None = None
 
-    def to_dict(self) -> dict[str, object]:
+    def to_dict(self) -> PreviewDict:
         """Serialize the preview entry to a dictionary for JSON output.
 
         The returned dict includes the path, excerpt, and optionally caret,
         line, and column information if available.
         """
-        d: dict[str, object] = {
+        d: PreviewDict = {
             "path": fspath(self.path),
             "excerpt": self.excerpt,
             "msg": self.msg,

@@ -85,6 +85,11 @@ Material
 │  │  │     worksheets, or graded lecture activities.)
 │  │  ├─ Unbound (PS, HW, project) → academic-crud-submission (assignments/<name>/)
 │  │  └─ Ambiguous → prompt user to pick directory
+│  │
+│  │  In-class component: If the Canvas page is for live session work
+│  │  (in-class lab, tutorial, or lecture) for an existing submission,
+│  │  route to academic-crud-submission and treat as an in-class addition
+│  │  (creating lab.yml/tutorial.yml/lecture.yml and lab.md/tutorial.md/lecture.md).
 │
 ├─ Question set? (problems, exercises, iPRs, no submission)
 │  ├─ Yes → academic-crud-question (questions/<name>.md)
@@ -136,6 +141,10 @@ Show at most __3 candidates__ per phase, each with a one-line description of why
 
 After determining the target type for a material, apply these steps before dispatch.
 
+### Missing data
+
+Use `\[missing\]` when a field is present but its value is unknown or unavailable during partial-info ingestion. Do not invent or generate placeholder content for missing values. See [special.instructions.md](../../instructions/special.instructions.md#missing-data).
+
 ### 1. Existing-match check
 
 Fuzzy-match the input content against existing notes of the __same target type__ within the resolved course:
@@ -152,6 +161,10 @@ If a match is found, show the existing note and ask:
 - __Cancel__
 
 All types support partial information: you can create a note with minimal info and fill in details later. An existing match never overrides type classification — a problem set that shares words with a topic note is still classified as a question set.
+
+### In-class component detection
+
+When the input is a Canvas HTML for a lab, tutorial, or lecture that already has a `submission.yml` in its directory, ask the user whether this is the out-of-class or in-class Canvas page. The in-class page produces `lab.yml`/`tutorial.yml`/`lecture.yml` (not `submission.yml`) and creates a `lab.md`/`tutorial.md`/`lecture.md` content file as a child of `index.md`. That content file is Canvas-sourced, so it mirrors the Canvas header block of the submission `index.md`: frontmatter, `# <type>` heading, identity bullets, the Canvas metadata bullets drawn from the component YAML, and the verbatim Canvas description. Do not leave it as a bare stub; see `academic-crud-submission` for the exact format.
 
 ### 2. Attachment handling
 

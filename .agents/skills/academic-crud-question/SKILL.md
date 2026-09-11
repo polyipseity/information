@@ -81,6 +81,10 @@ List question pages; search by topic; show flashcard coverage.
 
 Remove question page. Update `questions/index.md`.
 
+## Missing data
+
+Use `\[missing\]` for absent values — for example, when a problem has no solution yet or a quiz has no timestamp. See [special.instructions.md](../../instructions/special.instructions.md#missing-data).
+
 ## Blockquote formatting
 
 - Official problems in blockquotes (`>`)

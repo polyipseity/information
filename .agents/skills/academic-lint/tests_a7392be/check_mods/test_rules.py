@@ -5,10 +5,11 @@ function, verifying expected messages or lack thereof.
 """
 
 from os import PathLike
+from typing import cast
 
 import pytest
 from anyio import Path
-from main_mods.models import Frontmatter, Severity, ValidationContext
+from main_mods.models import AstNode, Frontmatter, Severity, ValidationContext
 from main_mods.rules import (
     RULE_REGISTRY,
     agents_no_flashcard_markup,
@@ -33,6 +34,7 @@ from main_mods.rules import (
     header_flashcard_sections_duplicate,
     header_flashcard_separator,
     header_style,
+    html_br_mid_line,
     index_canvas_metadata_iso_datetime,
     index_children,
     index_children_agents_link,
@@ -117,7 +119,8 @@ def make_ctx(text: str, path: Path = Path("/tmp/course/index.md")) -> Validation
     # frontmatter) so mistune doesn't produce spurious nodes from YAML
     # list items / key-value pairs.
     try:
-        ast = _MD(body)
+        # Mistune returns untyped node dicts whose runtime shape is AstNode.
+        ast = cast("list[AstNode]", _MD(body))
     except Exception:
         ast = []
     session_headers = parse_session_headers(text, ast)
@@ -274,6 +277,54 @@ def test_index_canvas_metadata_iso_datetime_rule():
         path=Path("/tmp/special/academia/HKUST/ELEC 2100/labs/lab 1/index.md"),
     )
     assert not index_canvas_metadata_iso_datetime(ctx_good_description_prose)
+
+    # Canonical `---`-delimited metadata block (no `## description` heading)
+    bad_block = (
+        "# lab 1\n"
+        "\n"
+        "- HKUST ELEC 1100\n"
+        "\n"
+        "---\n"
+        "\n"
+        "- title: Lab#01\n"
+        "- due: Mar 5 by 1:30pm\n"
+        "- available: until Mar 5 at 1:30pm\n"
+        "\n"
+        "---\n"
+        "\n"
+        "No additional details were added for this assignment.\n"
+    )
+    ctx_bad_block = make_ctx(
+        bad_block,
+        path=Path("/tmp/special/academia/HKUST/ELEC 1100/labs/lab 1/index.md"),
+    )
+    msgs_bad_block = index_canvas_metadata_iso_datetime(ctx_bad_block)
+    assert len(msgs_bad_block) == 2
+    assert all(
+        msg.rule_id == "index_canvas_metadata_iso_datetime" for msg in msgs_bad_block
+    )
+
+    good_block = (
+        "# lab 1\n"
+        "\n"
+        "- HKUST ELEC 1100\n"
+        "\n"
+        "---\n"
+        "\n"
+        "- title: Lab#01\n"
+        "- due: 2026-02-23T13:20:00+08:00\n"
+        "- available: 2026-02-23T10:30:00+08:00/2026-02-23T13:20:00+08:00,"
+        " PT2H50M\n"
+        "\n"
+        "---\n"
+        "\n"
+        "No additional details were added for this assignment.\n"
+    )
+    ctx_good_block = make_ctx(
+        good_block,
+        path=Path("/tmp/special/academia/HKUST/ELEC 1100/labs/lab 1/index.md"),
+    )
+    assert not index_canvas_metadata_iso_datetime(ctx_good_block)
 
 
 @pytest.mark.anyio
@@ -2564,3 +2615,140 @@ def test_link_anchor_slug_mixed_case_no_flag():
     txt = "## Route stages\n\n[text](file.md#Route-Stages)\n"
     ctx = make_ctx(txt)
     assert not link_anchor_slug(ctx)
+
+
+# submission content file exclusions -------------------------------------------------
+
+
+def test_flashcard_rules_exempt_submission_content_files():
+    """lab.md, tutorial.md, and lecture.md should be exempt from flashcard-presence rules.
+
+    These are Canvas submission content pages (in-class component metadata),
+    not concept/topic notes. They typically have no flashcards.
+    """
+    content = (
+        "# lab\n\n"
+        "- HKUST ELEC 1100 lab 2\n"
+        "- parent: [lab 2](index.md)\n\n"
+        "---\n\n"
+        "No additional details were added for this assignment.\n"
+    )
+
+    for name in ("lab.md", "tutorial.md", "lecture.md"):
+        ctx = make_ctx(content, path=Path(f"/tmp/course/labs/lab 1/{name}"))
+        assert not header_flashcard_presence(ctx), (
+            f"header_flashcard_presence should not fire on {name}"
+        )
+        assert not header_flashcard_separator(ctx), (
+            f"header_flashcard_separator should not fire on {name}"
+        )
+        assert not header_flashcard_sections_duplicate(ctx), (
+            f"header_flashcard_sections_duplicate should not fire on {name}"
+        )
+
+    # topic_note_redundant_filename_prefix also exempts these files
+    ctx_lab = make_ctx(content, path=Path("/tmp/course/labs/lab 1/lab.md"))
+    assert not topic_note_redundant_filename_prefix(ctx_lab)
+
+
+def test_flashcard_rules_still_fire_on_topic_notes():
+    """Regular topic notes should still be checked for flashcard markers."""
+    txt = "# Topic\nThis section has no flashcards.\n"
+    ctx = make_ctx(txt, path=Path("/tmp/course/topic.md"))
+    msgs = header_flashcard_presence(ctx)
+    assert msgs and msgs[0].rule_id == "header_flashcard_presence"
+
+
+def test_flashcard_rules_still_fire_on_non_exempt_files():
+    """Regular non-index, non-question files should still be checked."""
+    txt = "# Lab preparation\nSome content without flashcards.\n"
+    ctx = make_ctx(txt, path=Path("/tmp/course/labs/lab 1/preparation.md"))
+    msgs = header_flashcard_presence(ctx)
+    assert msgs and msgs[0].rule_id == "header_flashcard_presence"
+
+
+# soft-wrap <br/> exemption tests ---------------------------------------------------
+
+
+def test_no_soft_wrap_paragraph_exempt_brslash():
+    """Lines ending with <br/> should not trigger soft-wrap paragraph errors."""
+    # <br/> at end of line — intentional hard break, no error
+    txt = "This is locked. <br/>\nNo additional details.\n"
+    ctx = make_ctx(txt)
+    assert not no_soft_wrap_paragraph(ctx)
+
+    # backslash at end of line — also exempt
+    txt2 = "Line one \\\nLine two\n"
+    ctx2 = make_ctx(txt2)
+    assert not no_soft_wrap_paragraph(ctx2)
+
+    # two trailing spaces — also exempt
+    txt3 = "Line one   \nLine two\n"
+    ctx3 = make_ctx(txt3)
+    assert not no_soft_wrap_paragraph(ctx3)
+
+    # plain soft wrap — still flagged
+    txt4 = "Line one\nLine two\n"
+    ctx4 = make_ctx(txt4)
+    msgs = no_soft_wrap_paragraph(ctx4)
+    assert msgs and "soft-wrapped" in msgs[0].msg
+
+
+def test_no_soft_wrap_list_exempt_brslash():
+    """List items ending with <br/> should not trigger soft-wrap list errors."""
+    # <br/> at end of list item — intentional, no error
+    txt = "- item one <br/>\n  continuation\n"
+    ctx = make_ctx(txt)
+    assert not no_soft_wrap_list(ctx)
+
+    # backslash at end of list item — also exempt
+    txt2 = "- line1 \\\nline2\n"
+    ctx2 = make_ctx(txt2)
+    assert not no_soft_wrap_list(ctx2)
+
+    # plain soft-wrapped list — still flagged
+    txt3 = "- item part1\n  continuation\n"
+    ctx3 = make_ctx(txt3)
+    msgs = no_soft_wrap_list(ctx3)
+    assert msgs and "soft-wrapped" in msgs[0].msg
+
+
+def test_html_br_mid_line():
+    """<br/> mid-line (not at end) should produce an error."""
+    # <br/> mid-line — error
+    txt = "Some text <br/> more text\n"
+    ctx = make_ctx(txt)
+    msgs = html_br_mid_line(ctx)
+    assert msgs and msgs[0].rule_id == "html_br_mid_line"
+    assert "end of line" in msgs[0].msg
+
+    # <br/> at end of line — no error
+    txt2 = "Some text <br/>\nMore text\n"
+    ctx2 = make_ctx(txt2)
+    assert not html_br_mid_line(ctx2)
+
+    # <br> (without slash) mid-line — also error
+    txt3 = "Some text <br> more text\n"
+    ctx3 = make_ctx(txt3)
+    msgs3 = html_br_mid_line(ctx3)
+    assert msgs3 and msgs3[0].rule_id == "html_br_mid_line"
+
+    # <br /> (with space) at end of line — no error
+    txt4 = "Some text <br />\nMore text\n"
+    ctx4 = make_ctx(txt4)
+    assert not html_br_mid_line(ctx4)
+
+
+def test_html_br_mid_line_skips_code():
+    """<br/> inside code fences or inline code should not produce errors."""
+    fence = "```"
+
+    # Inside code fence — no error
+    txt = fence + "\n<br/> inside code\n" + fence + "\n"
+    ctx = make_ctx(txt)
+    assert not html_br_mid_line(ctx)
+
+    # Inside inline code — no error
+    txt2 = "Use `" + "<br/>" + "` in HTML\n"
+    ctx2 = make_ctx(txt2)
+    assert not html_br_mid_line(ctx2)

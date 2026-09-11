@@ -15,11 +15,11 @@ tags:
 ---
 
 - title: Activity 1
-- due: 2025‑10‑24T23:59:59+08:00
+- due: 2025-10-24T23:59:59+08:00
 - points: 30
 - submitting: file upload
 - file types: pdf
-- available: 2025‑09‑29T00:00:00+08:00/2025‑10‑24T23:59:59+08:00, P26DT23H59M59S
+- available: 2025-09-29T00:00:00+08:00/2025-10-24T23:59:59+08:00, P26DT23H59M59S
 
 ---
 
@@ -44,5 +44,5 @@ Here is the list of TAs' GitHub accounts for you to invite them as collaborators
 ## submission
 
 - file: [`submission.pdf`](submission.pdf)
-    - name: `COMP3111H Activity 1.pdf`
+    - filename: `COMP3111H Activity 1.pdf`
     - source: [`submission.docx`](submission.docx)
