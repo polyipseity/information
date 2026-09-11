@@ -39,7 +39,7 @@ Flashcards for this section are as follows:
 
 ## logic-power and motor-power split
 
-The microcontroller lives in the logic domain, not in the motor-power domain. The Nano, the 74HC14, and the logic side of the L293 run from the regulated $5\text{ V}$ rail, while the motor-power side uses the higher battery voltage. The design principle is stable: the MCU decides, the driver translates, and the motor stage supplies the large current.
+The microcontroller lives in the logic domain, not in the motor-power domain. The Nano, the 74HC14, and the logic side of the L293 run from the regulated $5\text{ V}$ rail, while the motor-power side uses the higher battery voltage. The principle is: the MCU decides, the driver translates, and the motor stage supplies the large current.
 
 ---
 

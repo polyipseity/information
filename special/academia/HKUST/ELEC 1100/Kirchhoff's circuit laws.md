@@ -35,7 +35,7 @@ Flashcards for this section are as follows:
 
 Also known as the _junction rule_, Kirchhoff's current law (KCL) states that at any node in a circuit the algebraic sum of currents is zero. <p> ![KCL](attachments/kcl.svg)
 
-Equivalently, the sum of currents entering a junction equals the sum leaving it, reflecting that charge does not accumulate at a point. For a node with currents drawn in and out one may write $\sum I_{\text{in}} = \sum I_{\text{out}}$; putting all terms on one side gives relations such as $I_1+I_2-I_3-I_4=0$. The law is a discrete analogue of the continuity equation and follows from charge conservation.
+Equivalently, the sum of currents entering a junction equals the sum leaving it, because charge does not accumulate at a point. For a node with currents drawn in and out one may write $\sum I_{\text{in}} = \sum I_{\text{out}}$; putting all terms on one side gives relations such as $I_1+I_2-I_3-I_4=0$. The law is a discrete analogue of the continuity equation and follows from charge conservation.
 
 ---
 
@@ -112,7 +112,7 @@ Flashcards for this section are as follows:
 
 ## equivalence and application
 
-Each application of KCL or KVL produces a linear equation relating unknowns (voltages, currents, or resistances). A sufficient number of independent equations allows the circuit to be solved uniquely. For networks where series and parallel simplification fail—such as bridges—a test source $V$ may be attached across the terminals, the laws applied to determine the total current $I$, and the equivalent resistance computed as $R_{\text{eq}} = V/I$.
+Each application of KCL or KVL produces a linear equation relating unknowns (voltages, currents, or resistances). A sufficient number of independent equations allows the circuit to be solved uniquely. For networks where series and parallel simplification fail, such as bridges, a test source $V$ may be attached across the terminals, the laws applied to determine the total current $I$, and the equivalent resistance computed as $R_{\text{eq}} = V/I$.
 
 ---
 

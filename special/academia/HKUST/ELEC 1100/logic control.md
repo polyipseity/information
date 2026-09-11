@@ -67,7 +67,7 @@ Flashcards for this section are as follows:
 
 ## sequential logic and memory
 
-Memory is what makes a circuit sequential. A sequential circuit depends on both the current inputs and a stored state from earlier inputs. The serial adder is sequential because the saved carry from one clock step becomes the next step's $C_{\text{in}}$. Likewise, the robot project uses state variables such as `countBumper` to distinguish the start line from later `00` sensor patterns. The main lesson is that repeated patterns need memory if their meaning changes over time.
+Memory is what makes a circuit sequential. A sequential circuit depends on both the current inputs and a stored state from earlier inputs. The serial adder is sequential because the saved carry from one clock step becomes the next step's $C_{\text{in}}$. Likewise, the robot project uses state variables such as `countBumper` to distinguish the start line from later `00` sensor patterns. Repeated patterns need memory if their meaning changes over time.
 
 ---
 

@@ -11,7 +11,7 @@ tags:
 
 # lab equipment
 
-Lab sessions in ELEC 1100 use a breadboard to build circuits without soldering. Core instruments include a DC power supply, digital multimeter (DMM), function generator, and digital storage oscilloscope (DSO). This note summarises breadboard layout and safe use of equipment so you can complete Lab 1 and later labs confidently.
+Lab sessions in ELEC 1100 use a breadboard to build circuits without soldering. Core instruments include a DC power supply, digital multimeter (DMM), function generator, and digital storage oscilloscope (DSO). This note summarises breadboard layout and safe use of equipment so you can complete Lab 1 and later labs.
 
 ---
 

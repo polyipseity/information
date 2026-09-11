@@ -14,7 +14,7 @@ Sensors are the robot's interface to the physical world. In ELEC 1100 they are i
 
 ## sensor role and categories
 
-A robot needs sensors because control without measurement is blind. Broad families include chemical sensors, accelerometers, gyroscopes, image sensors, microphones, and biosensors, but the durable lesson is functional: sensors convert a physical quantity into an electrical signal that a controller can read. In the robot-car project the key physical cue is light reflected from the floor.
+A robot needs sensors because control without measurement is blind. Broad families include chemical sensors, accelerometers, gyroscopes, image sensors, microphones, and biosensors, but the key point is functional: sensors convert a physical quantity into an electrical signal that a controller can read. In the robot-car project the key physical cue is light reflected from the floor.
 
 ---
 
@@ -71,7 +71,7 @@ The course next narrows from generic light-sensitive components to the reflectiv
 <!-- check: ignore-next-line[header_style]: acronym -->
 ### IR discovery and history
 
-Infrared radiation was accidentally discovered in 1800 by the astronomer William Herschel. He separated visible light with a prism, placed thermometers in the different colors, and observed that the temperature increased from blue toward red; he then found an even warmer reading just beyond the red end of the visible spectrum. This is a useful reminder that anything giving off heat also emits infrared radiation even though the human eye cannot see it directly.
+Infrared radiation was accidentally discovered in 1800 by the astronomer William Herschel. He separated visible light with a prism, placed thermometers in the different colors, and observed that the temperature increased from blue toward red; he then found an even warmer reading just beyond the red end of the visible spectrum. Anything that gives off heat also emits infrared radiation, even though the human eye cannot see it directly.
 
 ---
 

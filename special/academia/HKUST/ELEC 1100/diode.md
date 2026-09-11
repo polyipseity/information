@@ -64,7 +64,7 @@ Flashcards for this section are as follows:
 
 ## diode safety in the lab
 
-It is important to include a series resistor (typically around $1\text{ k}\Omega$ in lab circuits) with a diode or LED; otherwise the current can become very large when the diode turns on, potentially damaging the diode, LED, or other components.
+Include a series resistor (typically around $1\text{ k}\Omega$ in lab circuits) with a diode or LED; otherwise the current can become very large when the diode turns on, potentially damaging the diode, LED, or other components.
 
 ---
 

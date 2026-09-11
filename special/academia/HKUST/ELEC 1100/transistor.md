@@ -45,7 +45,7 @@ Flashcards for this section are as follows:
 
 ## historical context
 
-Historically, the first working transistor was demonstrated at Bell Labs in 1947 by John Bardeen, Walter Brattain, and William Shockley. Transistors became the fundamental building blocks of modern electronics, enabling compact integrated circuits and the development of computers, mobile phones, and many other devices. Shockley later founded a semiconductor company in Palo Alto, triggering the growth of Silicon Valley.
+Historically, the first working transistor was demonstrated at Bell Labs in 1947 by John Bardeen, Walter Brattain, and William Shockley. Transistors enabled compact integrated circuits and eventually computers, mobile phones, and other devices. Shockley later founded Shockley Semiconductor Laboratory in Palo Alto.
 
 ---
 

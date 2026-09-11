@@ -13,7 +13,7 @@ The ELEC 1100 final project turns the earlier electronics, logic, and Arduino wo
 
 ## project objective and hardware constraints
 
-The robot follows a white line on a dark mat and is evaluated on a staged sequence of tasks rather than on one vague impression of "it kind of works". The project guide fixes several hardware constraints: the robot must use the course platform, the controller logic is built on the established sensor-driver-Arduino stack from the earlier robot build, at most six sensors are allowed, two front sensors are required for line tracking, and one bumper sensor is required for the start line and white-wall detection.
+The robot follows a white line on a dark mat and is evaluated on a staged sequence of tasks rather than on one vague impression of "it kind of works". The project guide specifies several hardware constraints: the robot must use the course platform, the controller logic builds on the sensor-driver-Arduino stack from the earlier robot build, at most six sensors are allowed, two front sensors are required for line tracking, and one bumper sensor is required for the start line and white-wall detection.
 
 ---
 
@@ -40,8 +40,6 @@ Flashcards for this section are as follows:
 
 The project guide makes the logic requirement explicit. The left and right sensors determine immediate steering behavior, but the bumper sensor and a memory variable such as `countBumper` are needed because the same line-sensor pattern can mean different things at different times. For example, both the start line and a later junction can present the same `00` pattern, so the controller must remember whether the robot has already left the starting state.
 
-This is a clear example of the transition from combinational logic to sequential logic in a real embedded system.
-
 ---
 
 Flashcards for this section are as follows:
@@ -53,7 +51,7 @@ Flashcards for this section are as follows:
 
 ## code, demo, and report expectations
 
-The deliverable structure is clear. The group code submission extends the existing robot-control template, and the source header is expected to record the group number and member information. The written report is individual and is structured around introduction, logic design, debugging report, and results/conclusion. The report guideline also fixes formatting constraints such as page limit, minimum word count, and font/margin expectations, so the project is assessed as both a technical system and a communicated engineering result.
+The group code submission extends the existing robot-control template, and the source header is expected to record the group number and member information. The written report is individual and is structured around introduction, logic design, debugging report, and results/conclusion. The report guideline also specifies formatting constraints such as page limit, minimum word count, and font/margin expectations, so the project is graded on both robot performance and report quality.
 
 ---
 
