@@ -479,7 +479,7 @@ The classical explanation failed experimental test. Since the aberration angle d
 
 Assuming inertial frames, the relativistic expression for the aberration of light is applicable to both the receiver moving and source moving cases. A variety of trigonometrically equivalent formulas have been published. Expressed in terms of the variables in Fig. 5-2, these include<sup>[\[34\]](#^ref-34)</sup><sup>:&hairsp;57–60&hairsp;</sup>
 
-$\cos \theta '={\frac {\cos \theta +v/c}{1+(v/c)\cos \theta } }$  __OR__  $\sin \theta '={\frac {\sin \theta }{\gamma [1+(v/c)\cos \theta ]} }$  __OR__  $\tan {\frac {\theta '}{2} }=\left({\frac {c-v}{c+v} }\right)^{1/2}\tan {\frac {\theta }{2} }$
+$\cos \theta '={\frac {\cos \theta +v/c}{1+(v/c)\cos \theta } }$   __OR__   $\sin \theta '={\frac {\sin \theta }{\gamma [1+(v/c)\cos \theta ]} }$   __OR__   $\tan {\frac {\theta '}{2} }=\left({\frac {c-v}{c+v} }\right)^{1/2}\tan {\frac {\theta }{2} }$
 
 ### relativistic Doppler effect
 
