@@ -18,6 +18,6 @@
 
 <!-- markdownlint MD028 -->
 
-> ![File:Another thumb.png](https://upload.wikimedia.org/wikipedia/en/t/another_thumb.png)
+> ![Another thumbnail description.](https://upload.wikimedia.org/wikipedia/en/t/another_thumb.png)
 >
 > Another thumbnail with empty alt.
