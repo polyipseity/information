@@ -89,6 +89,13 @@ verdict agrees with what ``convert`` actually emits for a span.
 _OPAQUE_SPAN_CLASSES = _BOXED_CLASSES | frozenset(
     {"hatnote", "navbar", "sidebar-navbar", "sistersitebox", "thumb"}
 )
+"""
+Tags that render a glyph or a line break with no child content.
+
+``_renders_nothing`` must not treat these as empty just because they have no
+text: they are rendered tokens in their own right.
+"""
+_ATOMIC_TAGS = frozenset({"br", "hr", "img"})
 """Inline tags that can form an equation-box title."""
 _EQUATION_BOX_TITLE_TAGS = frozenset({"b", "strong", "i", "em", "span"})
 """Block-level tags that separate an equation-box title from its body."""
@@ -730,6 +737,34 @@ class WikiHtmlConverter:
         return not classes & _OPAQUE_SPAN_CLASSES
 
     @classmethod
+    def _renders_nothing(cls, ele: PageElement) -> bool:
+        """Whether *ele* contributes no text, image, or separating space.
+
+        An empty ``<span>`` renders nothing, and neither does an emphasis span
+        whose whole body is whitespace: ``convert`` drops the collapsed result,
+        so the markers around it never appear.  A *transparent* span holding
+        whitespace is the exception — the whitespace branch turns that text into
+        the separating space, so the wrapper does render something.
+        """
+        if isinstance(ele, PreformattedString):
+            # Comments, CDATA, and doctypes are markup, never content.
+            return True
+        if isinstance(ele, NavigableString):
+            return not str(ele).strip()
+        if not isinstance(ele, Tag):
+            return False
+        if ele.name in _ATOMIC_TAGS:
+            return False
+        if ele.find("img") is not None:
+            return False
+        if any(
+            not isinstance(s, PreformattedString) and str(s).strip()
+            for s in ele.strings
+        ):
+            return False
+        return not (cls._is_transparent_span(ele) and ele.contents)
+
+    @classmethod
     def _effective_sibling(
         cls, ele: PageElement, *, following: bool
     ) -> PageElement | None:
@@ -747,15 +782,25 @@ class WikiHtmlConverter:
 
     @classmethod
     def _effective_sibling_skipping(
-        cls, ele: PageElement, *, following: bool, skip_whitespace: bool
+        cls,
+        ele: PageElement,
+        *,
+        following: bool,
+        skip_whitespace: bool,
+        skip_nothing_rendering: bool = False,
     ) -> PageElement | None:
-        """Like ``_effective_sibling`` but optionally skips whitespace-only text.
+        """Like ``_effective_sibling`` but optionally skips unrendered siblings.
 
         Whitespace-only ``NavigableString`` siblings carry no rendered content,
         so structural decisions (e.g. a blank line before a following heading)
         must look past them.  ``_needs_separator_before`` and
         ``_needs_separator_after`` intentionally rely on the raw whitespace
         result, so callers there must pass ``skip_whitespace=False``.
+
+        ``skip_nothing_rendering`` additionally steps over elements that render
+        nothing, such as an empty ``<span>``.  Whitespace-only text is never
+        skipped by that flag: it is what supplies the separation in the first
+        place, so replacing it with the element beyond would be wrong.
         """
         node: PageElement = ele
         while True:
@@ -773,7 +818,32 @@ class WikiHtmlConverter:
             ):
                 node = sibling
                 continue
+            if (
+                skip_nothing_rendering
+                and isinstance(sibling, Tag)
+                and cls._renders_nothing(sibling)
+            ):
+                node = sibling
+                continue
             return sibling
+
+    @classmethod
+    def _rendered_neighbour(
+        cls, ele: PageElement, *, following: bool
+    ) -> PageElement | None:
+        """Nearest neighbour in rendered order that renders content.
+
+        ``_needs_separator_before`` and ``_needs_separator_after`` ask what
+        abuts an emphasis run in the rendered output.  A neighbour that renders
+        nothing is not that abutment, so the search continues past it — that is
+        what lets ``<b>a</b><span></span><b>b</b>`` keep its two runs apart.
+        """
+        return cls._effective_sibling_skipping(
+            ele,
+            following=following,
+            skip_whitespace=False,
+            skip_nothing_rendering=True,
+        )
 
     @staticmethod
     def _effective_sibling_is_heading(ele: PageElement) -> bool:
@@ -919,9 +989,9 @@ class WikiHtmlConverter:
         italic_str = "_" if italic else ""
         prefix = f"{bold_str}{italic_str}"
         suffix = f"{italic_str}{bold_str}"
-        if self._needs_separator_before(self._effective_sibling(ele, following=False)):
+        if self._needs_separator_before(self._rendered_neighbour(ele, following=False)):
             prefix = f"{_cfg._MARKDOWN_SEPARATOR}{prefix}"
-        if self._needs_separator_after(self._effective_sibling(ele, following=True)):
+        if self._needs_separator_after(self._rendered_neighbour(ele, following=True)):
             suffix += _cfg._MARKDOWN_SEPARATOR
 
         # Equation-reference numbers (the ``math_N`` / ``math_Eq.N`` spans

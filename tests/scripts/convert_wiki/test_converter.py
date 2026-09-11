@@ -898,6 +898,67 @@ class TestBoldItalicHandling:
         assert "_n_<!-- markdown separator -->th-order" in result
 
     @pytest.mark.anyio
+    async def test_adjacent_bold_runs_keep_separator(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Two bold runs with nothing between them are kept apart."""
+        result = await _convert(converter, "<p><b>a</b><b>b</b></p>")
+        assert "__a__<!-- markdown separator -->__b__" in result
+
+    @pytest.mark.anyio
+    async def test_separator_past_collapsed_emphasis_span(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A whitespace-only emphasis span is looked past, not merged with.
+
+        The italic span renders nothing: its whitespace body collapses, so the
+        processed result is empty and the markers around it are dropped.  It
+        therefore cannot be the neighbour that separates the two bold runs.
+        """
+        html = '<p><b>a</b><span style="font-style:italic"> </span><b>b</b></p>'
+        result = await _convert(converter, html)
+        assert "__a__<!-- markdown separator -->__b__" in result
+
+    @pytest.mark.anyio
+    async def test_separator_past_empty_span(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """An empty span renders nothing, so it is not the adjacent token."""
+        result = await _convert(converter, "<p><b>a</b><span></span><b>b</b></p>")
+        assert "__a__<!-- markdown separator -->__b__" in result
+
+    @pytest.mark.anyio
+    async def test_separator_past_empty_entity_span(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """An empty ``mw:Entity`` span renders nothing either."""
+        html = '<p><b>a</b><span typeof="mw:Entity"></span><b>b</b></p>'
+        result = await _convert(converter, html)
+        assert "__a__<!-- markdown separator -->__b__" in result
+
+    @pytest.mark.anyio
+    async def test_transparent_span_keeps_its_space(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A transparent span holding a space still supplies that space.
+
+        The whitespace branch renders the space, so the span is not empty and
+        must not be skipped in favour of the emphasis run beyond it.
+        """
+        result = await _convert(converter, "<p><b>a</b><span> </span><b>b</b></p>")
+        assert "__a__ __b__" in result
+        assert "markdown separator" not in result
+
+    @pytest.mark.anyio
+    async def test_literal_space_between_bold_runs_kept(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A literal space between emphasis runs stays a space."""
+        result = await _convert(converter, "<p><b>a</b> <b>b</b></p>")
+        assert "__a__ __b__" in result
+        assert "markdown separator" not in result
+
+    @pytest.mark.anyio
     async def test_italic_inside_span_preceded_by_text(
         self, converter: WikiHtmlConverter
     ) -> None:
@@ -2136,6 +2197,28 @@ class TestStaticUtilities:
             assert not WikiHtmlConverter._is_transparent_span(child)
         assert not WikiHtmlConverter._is_transparent_span(None)
         assert not WikiHtmlConverter._is_transparent_span(soup)
+
+    @pytest.mark.parametrize(
+        ("html", "expected"),
+        [
+            ("<span></span>", True),
+            ("<b></b>", True),
+            ('<span style="font-style:italic"> </span>', True),
+            ("<span> </span>", False),
+            ("<b>x</b>", False),
+            ("<br/>", False),
+            ("<img src='a'/>", False),
+            ("<span><img src='b'/></span>", False),
+            ("<!-- note -->", True),
+            ("text", False),
+            (" ", True),
+        ],
+    )
+    def test_renders_nothing(self, html: str, expected: bool) -> None:
+        """Only markup with no text, image, or separating space is nothing."""
+        soup = BeautifulSoup(html, "html.parser")
+        node = next(iter(soup.children))
+        assert WikiHtmlConverter._renders_nothing(node) is expected
 
     def test_text_edges_would_merge(self) -> None:
         """Two word edges need the space between them."""
