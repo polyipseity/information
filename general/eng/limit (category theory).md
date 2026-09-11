@@ -193,7 +193,7 @@ For {@{a given diagram _F_ : _J_ → _C_ and functor _G_ : _C_ → _D_}@}, if {@
 {@{Lifting of limits}@} is clearly {@{related to preservation of limits}@}. If {@{_G_ lifts limits for a diagram _F_ and _GF_ has a limit}@}, then {@{_F_ also has a limit and _G_ preserves the limits of _F_}@}. \(annotation: note that {@{limits}@} are {@{essentially unique up to unique isomorphisms}@}.\) It follows that: <!--SR:!2027-11-10,772,330!2026-12-26,485,313!2027-02-28,364,278!2027-07-05,459,401!2028-05-08,722,421!2027-09-28,505,401-->
 
 - If _G_ lifts limits of all shape _J_ and _D_ has all limits of shape _J_, ::@:: then _C_ also has all limits of shape _J_ and _G_ preserves these limits. <!--SR:!2029-12-28,1319,313!2027-02-15,475,265-->
-- If _G_ lifts all small limits and _D_ is complete, ::@:: then _C_ is also complete and _G_ is continuous. <!--SR:!2027-03-03,488,265!2026-10-19,473,318-->
+- If _G_ lifts all small limits and _D_ is complete, ::@:: then _C_ is also complete and _G_ is continuous. <!--SR:!2027-03-03,488,265!fsrs,2031-11-14T00:00:00.000Z,1852,1852.09410179,1,2,10,0,0,2026-10-19T00:00:00.000Z-->
 
 {@{The dual statements (annotation: on relating lifting of colimits to preservation of colimits and cocompleteness)}@} for {@{colimits are equally valid}@}. <!--SR:!2031-02-28,1767,378!fsrs,2026-12-06T01:04:36.791Z,183,182.60853552,1,2,6,0,0,2026-06-06T01:04:36.791Z-->
 

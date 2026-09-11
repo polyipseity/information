@@ -77,7 +77,7 @@ assert "abc" + "def" == "abcdef"
 assert [39, "omg"] + ['asd', 3.4] == [39, "omg", "asd", 3.4]
 ```
 
-Extrapolating the addition above further to multiplication, {@{the operator `*` repeats the sequence itself for the specified number of times}@}: <!--SR:!2026-10-19,741,330-->
+Extrapolating the addition above further to multiplication, {@{the operator `*` repeats the sequence itself for the specified number of times}@}: <!--SR:!fsrs,2034-08-15T00:00:00.000Z,2857,2856.71579152,1,2,11,0,0,2026-10-19T00:00:00.000Z-->
 
 ```Python
 assert 'ab' * 3 == "ababab"

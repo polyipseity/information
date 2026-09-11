@@ -100,7 +100,7 @@ Given {@{a basis $\{e_i\}$}@}, {@{the _coordinate representation_}@} is {@{$$[a]
 
 ### linear independence
 
-{@{Vectors $a_1,\dots,a_n$}@} are {@{_linearly independent_}@} if {@{the only solution to $\sum_{i=1}^{n}\lambda_i a_i = 0$}@} is {@{$\lambda_i=0$ for all $i$}@}. <!--SR:!2026-10-19,234,330!2026-12-10,279,345!2026-12-15,283,345!2027-02-26,343,345-->
+{@{Vectors $a_1,\dots,a_n$}@} are {@{_linearly independent_}@} if {@{the only solution to $\sum_{i=1}^{n}\lambda_i a_i = 0$}@} is {@{$\lambda_i=0$ for all $i$}@}. <!--SR:!fsrs,2028-08-16T00:00:00.000Z,667,667.15687335,2.49272837,2,9,0,0,2026-10-19T00:00:00.000Z!2026-12-10,279,345!2026-12-15,283,345!2027-02-26,343,345-->
 
 ### triangle inequality
 

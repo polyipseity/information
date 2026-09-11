@@ -32,11 +32,11 @@ tags:
 > ```
 <!--SR:!2026-11-04,290,330!fsrs,2030-01-20T00:00:00.000Z,1195,1195.07164214,1,2,9,0,0,2026-10-13T00:00:00.000Z!fsrs,2030-01-06T00:00:00.000Z,1184,1183.64577796,1,2,9,0,0,2026-10-10T00:00:00.000Z!fsrs,2030-01-20T00:00:00.000Z,1195,1195.07164214,1,2,9,0,0,2026-10-13T00:00:00.000Z!fsrs,2028-11-27T00:00:00.000Z,773,772.81357058,2.49272837,2,9,0,0,2026-10-16T00:00:00.000Z!2026-10-26,282,330-->
 
-The goal is to implement {@{a method `encode(phoneNumber)`}@} that returns {@{every sequence of dictionary words}@} whose {@{concatenated numeric encodings match the input number}@}. For example, {@{the phone number `"7225247386"`}@} can be expressed as the single mnemonic phrase {@{`"Scala is fun"`}@}. <!--SR:!fsrs,2028-08-20T00:00:00.000Z,703,702.57151752,2.49272837,2,9,0,0,2026-09-17T00:00:00.000Z!2026-10-24,280,330!2026-10-19,275,330!fsrs,2030-02-03T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-10-16T00:00:00.000Z!fsrs,2030-01-20T00:00:00.000Z,1195,1195.07164214,1,2,9,0,0,2026-10-13T00:00:00.000Z-->
+The goal is to implement {@{a method `encode(phoneNumber)`}@} that returns {@{every sequence of dictionary words}@} whose {@{concatenated numeric encodings match the input number}@}. For example, {@{the phone number `"7225247386"`}@} can be expressed as the single mnemonic phrase {@{`"Scala is fun"`}@}. <!--SR:!fsrs,2028-08-20T00:00:00.000Z,703,702.57151752,2.49272837,2,9,0,0,2026-09-17T00:00:00.000Z!2026-10-24,280,330!fsrs,2030-02-03T00:00:00.000Z,1203,1202.68030072,1,2,9,0,0,2026-10-19T00:00:00.000Z!fsrs,2030-02-03T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-10-16T00:00:00.000Z!fsrs,2030-01-20T00:00:00.000Z,1195,1195.07164214,1,2,9,0,0,2026-10-13T00:00:00.000Z-->
 
 ### `Coder`
 
-{@{A natural way to structure the solution}@} is {@{a small class}@} that encapsulates {@{the dictionary and all derived data structures}@}: <!--SR:!2026-10-19,275,330!fsrs,2030-01-20T00:00:00.000Z,1195,1195.07164214,1,2,9,0,0,2026-10-13T00:00:00.000Z!fsrs,2028-08-30T00:00:00.000Z,710,710.13394084,2.49272837,2,9,0,0,2026-09-20T00:00:00.000Z-->
+{@{A natural way to structure the solution}@} is {@{a small class}@} that encapsulates {@{the dictionary and all derived data structures}@}: <!--SR:!fsrs,2030-02-03T00:00:00.000Z,1203,1202.68030072,1,2,9,0,0,2026-10-19T00:00:00.000Z!fsrs,2030-01-20T00:00:00.000Z,1195,1195.07164214,1,2,9,0,0,2026-10-13T00:00:00.000Z!fsrs,2028-08-30T00:00:00.000Z,710,710.13394084,2.49272837,2,9,0,0,2026-09-20T00:00:00.000Z-->
 
 > [!example] __`Coder`__
 >
@@ -92,7 +92,7 @@ With {@{`charCode` available}@}, {@{any word}@} can be turned {@{into the numeri
 > private val wordsForNum: Map[String, List[String]] =
 >   words.groupBy(wordCode).withDefaultValue(Nil)
 > ```
-<!--SR:!fsrs,2029-12-15T00:00:00.000Z,1168,1168.38706892,1,2,9,0,0,2026-10-04T00:00:00.000Z!fsrs,2030-01-01T00:00:00.000Z,1180,1179.83367202,1,2,9,0,0,2026-10-09T00:00:00.000Z!fsrs,2029-07-09T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-09-02T00:00:00.000Z!fsrs,2028-09-06T00:00:00.000Z,715,715.17050691,2.49272837,2,9,0,0,2026-09-22T00:00:00.000Z!fsrs,2028-11-27T00:00:00.000Z,773,772.81357058,2.49272837,2,9,0,0,2026-10-16T00:00:00.000Z!2026-10-19,275,330-->
+<!--SR:!fsrs,2029-12-15T00:00:00.000Z,1168,1168.38706892,1,2,9,0,0,2026-10-04T00:00:00.000Z!fsrs,2030-01-01T00:00:00.000Z,1180,1179.83367202,1,2,9,0,0,2026-10-09T00:00:00.000Z!fsrs,2029-07-09T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-09-02T00:00:00.000Z!fsrs,2028-09-06T00:00:00.000Z,715,715.17050691,2.49272837,2,9,0,0,2026-09-22T00:00:00.000Z!fsrs,2028-11-27T00:00:00.000Z,773,772.81357058,2.49272837,2,9,0,0,2026-10-16T00:00:00.000Z!fsrs,2030-02-03T00:00:00.000Z,1203,1202.68030072,1,2,9,0,0,2026-10-19T00:00:00.000Z-->
 
 ### `Coder.encode`
 
@@ -142,7 +142,7 @@ Thus the implementation finds {@{all valid mnemonic phrases in a handful of line
 - _concise_ ::@:: A single for-comprehension or higher-order function replaces multiple nested loops. As a result, few steps are needed. <!--SR:!fsrs,2030-01-06T00:00:00.000Z,1184,1183.64577796,1,2,9,0,0,2026-10-10T00:00:00.000Z!2026-10-21,277,330-->
 - _fast_ ::@:: Operations on collections may be optimized and parallelized. <!--SR:!2026-10-23,279,330!fsrs,2030-01-25T00:00:00.000Z,1199,1198.87680538,1,2,9,0,0,2026-10-14T00:00:00.000Z-->
 - _safe_ ::@:: The type checker guarantees that collections are manipulated in a valid way. <!--SR:!fsrs,2030-01-01T00:00:00.000Z,1180,1179.83367202,1,2,9,0,0,2026-10-09T00:00:00.000Z!fsrs,2029-08-12T00:00:00.000Z,1068,1068.495917,1,2,9,0,0,2026-09-09T00:00:00.000Z-->
-- _universal_ ::@:: The API interfaces exposed by lists, vectors, sets, maps, etc. are almost the same. <!--SR:!2026-10-22,278,330!2026-10-19,275,330-->
+- _universal_ ::@:: The API interfaces exposed by lists, vectors, sets, maps, etc. are almost the same. <!--SR:!2026-10-22,278,330!fsrs,2030-02-03T00:00:00.000Z,1203,1202.68030072,1,2,9,0,0,2026-10-19T00:00:00.000Z-->
 
 These qualities illustrate why {@{immutable Scala collections}@} are considered {@{a powerful tool for modern software development}@}. <!--SR:!2026-10-23,279,330!fsrs,2030-01-15T00:00:00.000Z,1191,1191.26470738,1,2,9,0,0,2026-10-12T00:00:00.000Z-->
 
@@ -200,7 +200,7 @@ The same syntax can be used to {@{find all books whose title}@} contains {@{the 
 
 ### complex database queries
 
-{@{A slightly more involved query}@} finds {@{authors}@} who appear in {@{at least two distinct book records}@}: <!--SR:!2026-10-19,275,330!fsrs,2030-01-15T00:00:00.000Z,1191,1191.26470738,1,2,9,0,0,2026-10-12T00:00:00.000Z!fsrs,2028-08-16T00:00:00.000Z,700,700.04868809,2.49272837,2,9,0,0,2026-09-16T00:00:00.000Z-->
+{@{A slightly more involved query}@} finds {@{authors}@} who appear in {@{at least two distinct book records}@}: <!--SR:!fsrs,2030-02-03T00:00:00.000Z,1203,1202.68030072,1,2,9,0,0,2026-10-19T00:00:00.000Z!fsrs,2030-01-15T00:00:00.000Z,1191,1191.26470738,1,2,9,0,0,2026-10-12T00:00:00.000Z!fsrs,2028-08-16T00:00:00.000Z,700,700.04868809,2.49272837,2,9,0,0,2026-09-16T00:00:00.000Z-->
 
 > [!example] __complex database query filtering by author with duplicates__
 >
@@ -237,7 +237,7 @@ Running {@{this against the sample list}@} returns {@{each qualifying author twi
 > ```
 <!--SR:!fsrs,2029-07-29T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-09-06T00:00:00.000Z!fsrs,2030-01-10T00:00:00.000Z,1187,1187.45608877,1,2,9,0,0,2026-10-11T00:00:00.000Z!2026-11-01,288,330!2026-11-02,289,330!2026-10-20,276,330-->
 
-{@{An alternative to avoid duplicate book results}@} is to use {@{a `Set` to store the starting collection `books`}@}. Remember {@{`for` expressions}@} {@{desugar to `map`, `flatMap`, and `withFilter`}@}. Since these operations {@{usually return the same type as that of the original collection}@}, this means {@{the resulting type of `repeated` is a `Set` as well}@}, which {@{automagically deduplicates}@}. In most cases, {@{a `for` expression}@} returns {@{the same type as the starting collection type}@}. <!--SR:!2026-10-19,275,330!2026-10-20,276,330!fsrs,2029-08-08T00:00:00.000Z,1065,1064.62815785,1,2,9,0,0,2026-09-08T00:00:00.000Z!fsrs,2030-01-15T00:00:00.000Z,1191,1191.26470738,1,2,9,0,0,2026-10-12T00:00:00.000Z!fsrs,2030-01-30T00:00:00.000Z,1203,1202.68030072,1,2,9,0,0,2026-10-15T00:00:00.000Z!fsrs,2029-08-22T00:00:00.000Z,1076,1076.22532725,1,2,9,0,0,2026-09-11T00:00:00.000Z!fsrs,2028-08-13T00:00:00.000Z,698,697.52483893,2.49272837,2,9,0,0,2026-09-15T00:00:00.000Z!fsrs,2030-01-25T00:00:00.000Z,1199,1198.87680538,1,2,9,0,0,2026-10-14T00:00:00.000Z!fsrs,2028-02-12T00:00:00.000Z,516,515.62997874,5.00637887,2,9,0,0,2026-09-14T00:00:00.000Z-->
+{@{An alternative to avoid duplicate book results}@} is to use {@{a `Set` to store the starting collection `books`}@}. Remember {@{`for` expressions}@} {@{desugar to `map`, `flatMap`, and `withFilter`}@}. Since these operations {@{usually return the same type as that of the original collection}@}, this means {@{the resulting type of `repeated` is a `Set` as well}@}, which {@{automagically deduplicates}@}. In most cases, {@{a `for` expression}@} returns {@{the same type as the starting collection type}@}. <!--SR:!fsrs,2030-02-03T00:00:00.000Z,1203,1202.68030072,1,2,9,0,0,2026-10-19T00:00:00.000Z!2026-10-20,276,330!fsrs,2029-08-08T00:00:00.000Z,1065,1064.62815785,1,2,9,0,0,2026-09-08T00:00:00.000Z!fsrs,2030-01-15T00:00:00.000Z,1191,1191.26470738,1,2,9,0,0,2026-10-12T00:00:00.000Z!fsrs,2030-01-30T00:00:00.000Z,1203,1202.68030072,1,2,9,0,0,2026-10-15T00:00:00.000Z!fsrs,2029-08-22T00:00:00.000Z,1076,1076.22532725,1,2,9,0,0,2026-09-11T00:00:00.000Z!fsrs,2028-08-13T00:00:00.000Z,698,697.52483893,2.49272837,2,9,0,0,2026-09-15T00:00:00.000Z!fsrs,2030-01-25T00:00:00.000Z,1199,1198.87680538,1,2,9,0,0,2026-10-14T00:00:00.000Z!fsrs,2028-02-12T00:00:00.000Z,516,515.62997874,5.00637887,2,9,0,0,2026-09-14T00:00:00.000Z-->
 
 ### translating queries to higher-order functions
 

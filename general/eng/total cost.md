@@ -45,7 +45,7 @@ In {@{marketing}@}, it is {@{necessary to know how total costs divide between va
 - Marginal Cost ::@:: = Change in Total Costs / Change in Quantity of goods <!--SR:!2030-02-05,1455,361!2030-02-11,1460,361-->
 - Marginal Product ::@:: = Change in Quantity of goods / Change in Variable Factor <!--SR:!2029-09-25,1342,350!2030-02-17,1464,361-->
 - Marginal Revenue ::@:: = Change in Total Revenue / Change in Quantity of goods <!--SR:!2030-06-06,1550,361!2030-04-10,1506,361-->
-- Average Product ::@:: = Quantity of goods / Variable Factor <!--SR:!2026-10-19,491,321!2029-09-25,1342,350-->
+- Average Product ::@:: = Quantity of goods / Variable Factor <!--SR:!fsrs,2030-04-02T00:00:00.000Z,1261,1261.19494304,2.82989087,2,10,0,0,2026-10-19T00:00:00.000Z!2029-09-25,1342,350-->
 - Total Revenue ::@:: = Price X Quantity of goods <!--SR:!2030-03-06,1479,361!2030-03-30,1497,361-->
 - Average Revenue ::@:: = TR / Quantity of goods <!--SR:!2030-02-26,1472,361!2030-07-06,1576,361-->
 - Total Product ::@:: = AP X Variable Factor <!--SR:!2027-09-05,747,341!2030-04-01,1498,361-->

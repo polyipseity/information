@@ -17,7 +17,7 @@ tags:
 
 ### `Cells`
 
-{@{The `Cells` object}@} can refer to {@{a cell}@}. We pass {@{the 1-based row and the 1-based column in order}@}: {@{`Cells(row, column)`, such as `Cells(2, 1)`}@}. By default, {@{the worksheet the cell is on}@} is {@{the currently active worksheet}@}. <!--SR:!2027-12-05,1087,350!2028-06-08,1041,290!2026-10-19,741,330!2026-12-15,398,376!fsrs,2027-01-29T00:00:00.000Z,140,140.44399864,1,2,2,0,0,2026-09-11T00:00:00.000Z!fsrs,2027-01-29T00:00:00.000Z,140,140.44399864,1,2,2,0,0,2026-09-11T00:00:00.000Z-->
+{@{The `Cells` object}@} can refer to {@{a cell}@}. We pass {@{the 1-based row and the 1-based column in order}@}: {@{`Cells(row, column)`, such as `Cells(2, 1)`}@}. By default, {@{the worksheet the cell is on}@} is {@{the currently active worksheet}@}. <!--SR:!2027-12-05,1087,350!2028-06-08,1041,290!fsrs,2034-08-15T00:00:00.000Z,2857,2856.71579152,1,2,11,0,0,2026-10-19T00:00:00.000Z!2026-12-15,398,376!fsrs,2027-01-29T00:00:00.000Z,140,140.44399864,1,2,2,0,0,2026-09-11T00:00:00.000Z!fsrs,2027-01-29T00:00:00.000Z,140,140.44399864,1,2,2,0,0,2026-09-11T00:00:00.000Z-->
 
 ### `Worksheets`
 

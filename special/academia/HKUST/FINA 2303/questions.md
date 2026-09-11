@@ -469,7 +469,7 @@ tags:
 > 4. neither
 >
 > - solution: {@{1}@}
-> - explanation: {@{Model A's EAA is about -84.1392442. Model B's EAA is about -87.6190476.}@} <!--SR:!2026-10-22,475,399!2026-10-19,473,399-->
+> - explanation: {@{Model A's EAA is about -84.1392442. Model B's EAA is about -87.6190476.}@} <!--SR:!2026-10-22,475,399!fsrs,2032-10-13T00:00:00.000Z,2186,2186.16037489,1,2,10,0,0,2026-10-19T00:00:00.000Z-->
 
 ## week 5 lecture 2
 

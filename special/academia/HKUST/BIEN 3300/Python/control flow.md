@@ -57,7 +57,7 @@ Python has {@{no `switch` statements}@}. Since {@{Python 3.10}@}, Python has {@{
 
 ## iteration
 
-In Python, iteration is done through using `for...in`. A `for...in` statement consists of {@{loop variables, iterable, and a statement block}@}: <!--SR:!2026-10-19,281,330-->
+In Python, iteration is done through using `for...in`. A `for...in` statement consists of {@{loop variables, iterable, and a statement block}@}: <!--SR:!fsrs,2030-02-25T00:00:00.000Z,1225,1225.46601476,1,2,9,0,0,2026-10-19T00:00:00.000Z-->
 
 ```Python
 for loop_variables in iterable:
