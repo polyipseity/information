@@ -767,7 +767,33 @@ class WikiHtmlConverter:
 
     @staticmethod
     def _needs_separator_after(sibling: PageElement | None) -> bool:
-        """Whether a separator is needed after the block."""
+        """Whether a separator is needed after the block.
+
+        A transparent span containing only whitespace is a gap — the
+        whitespace is the separation, so no markdown separator is needed.
+        A transparent span with non-whitespace content (``\xa0``) is rendered
+        content, and no separator is needed either.  An empty transparent span
+        renders nothing, so the elements are already adjacent.
+        """
+        if isinstance(sibling, NavigableString):
+            return sibling.lstrip(_cfg._MARKDOWN_SEPARATOR_CHARACTERS) == sibling
+        if isinstance(sibling, Tag) and WikiHtmlConverter._is_transparent_span(sibling):
+            # Descend into the transparent span.  Whitespace-only → gap
+            # (separator needed).  Non-whitespace content → rendered content
+            # (no separator).  Empty → nothing (no separator).
+            first: PageElement | None = sibling
+            while isinstance(first, Tag):
+                children = [
+                    c
+                    for c in first.contents
+                    if not WikiHtmlConverter._renders_nothing(c, refs=False)
+                ]
+                if not children:
+                    return False
+                first = children[0]
+            if isinstance(first, NavigableString) and not str(first).strip():
+                return True
+            return False
         return (
             isinstance(sibling, NavigableString)
             and sibling.lstrip(_cfg._MARKDOWN_SEPARATOR_CHARACTERS) == sibling
@@ -823,14 +849,53 @@ class WikiHtmlConverter:
         is the only separation between two words, so it must survive whitespace
         collapsing whenever both rendered edges are word characters; the previous
         neighbour is judged by its last character and the next by its first.
+
+        When the walk reaches a transparent span, it descends through the span
+        to find the first rendered content beyond it.  A transparent span with
+        only whitespace is treated as a non-word gap (returns ``False``),
+        preserving the space that separates a word from the span.
         """
-        edge = cls._rendered_edge_node(ele, following=following, refs=refs)
-        if isinstance(edge, NavigableString):
-            text = str(edge)
-            if not text.strip():
+        node: PageElement | None = ele
+        while node is not None:
+            if isinstance(node, PreformattedString):
                 return False
-            return not (text[0] if following else text[-1]).isspace()
-        return isinstance(edge, Tag)
+            if isinstance(node, NavigableString):
+                text = str(node)
+                if not text.strip():
+                    return False
+                return not (text[0] if following else text[-1]).isspace()
+            if not isinstance(node, Tag):
+                return False
+            if node.name == "img":
+                # An image renders an inline token even though it has no children.
+                return True
+            if node.name in _BLOCK_TAGS:
+                return False
+            # A transparent span with only whitespace is a gap, not a word.
+            # Walk past it to find the next rendered element beyond the gap.
+            if (
+                node.name == "span"
+                and cls._is_transparent_span(node)
+                and not any(
+                    not cls._renders_nothing(c, refs=refs) for c in node.contents
+                )
+            ):
+                # Continue walking to the span's next sibling (or parent's sibling)
+                # to find what lies beyond this gap.
+                node = node.next_sibling if following else node.previous_sibling
+                continue
+            children = tuple(node.contents)
+            if not following:
+                children = children[::-1]
+            node = next(
+                (
+                    child
+                    for child in children
+                    if not cls._renders_nothing(child, refs=refs)
+                ),
+                None,
+            )
+        return False
 
     def _meets_block_boundary(
         self, ele: PageElement, *, following: bool, refs: bool

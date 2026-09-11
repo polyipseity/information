@@ -1026,6 +1026,44 @@ class TestBoldItalicHandling:
         assert "markdown separator" not in result
 
     @pytest.mark.anyio
+    async def test_space_before_transparent_span_preserved(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A space between a word and a transparent span is not dropped.
+
+        ``_nearest_edge_is_word`` must look past transparent spans to find
+        the next rendered element, so the space before the span survives.
+        """
+        result = await _convert(converter, "<p><b>x</b> <span> </span>y</p>")
+        assert "__x__ y" in result
+
+    @pytest.mark.anyio
+    async def test_transparent_ws_span_between_bolds_gets_separator(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A transparent span with only whitespace between two bolds adds a separator.
+
+        ``_needs_separator_after`` descends into transparent spans; a
+        whitespace-only span is a gap that needs a markdown separator.
+        """
+        result = await _convert(converter, "<p><b>a</b><span> </span><b>b</b></p>")
+        assert "__a__ __b__" in result
+
+    @pytest.mark.anyio
+    async def test_nbsp_span_between_bolds_no_separator(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A transparent span with \xa0 between two bolds does not add a markdown separator.
+
+        ``\xa0`` is rendered content, not a gap, so no markdown separator
+        is needed — the \xa0 itself provides the separation.
+        """
+        result = await _convert(converter, "<p><b>a</b><span>\xa0</span><b>b</b></p>")
+        assert "markdown separator" not in result
+        # The \xa0 renders as a space between the two bold runs
+        assert "__a__ __b__" in result
+
+    @pytest.mark.anyio
     async def test_literal_space_between_bold_runs_kept(
         self, converter: WikiHtmlConverter
     ) -> None:
@@ -2105,16 +2143,14 @@ class TestTextNormalization:
     async def test_adjacent_whitespace_runs_lose_the_separation(
         self, converter: WikiHtmlConverter
     ) -> None:
-        """Recorded limitation: two whitespace runs facing each other both drop.
+        """A whitespace run between a word and a transparent span survives.
 
-        A whitespace-only node whose neighbour is itself whitespace-only sees
-        no token on that side, and the neighbour makes the same judgement in
-        reverse, so a space that HTML would collapse to one is lost entirely.
-        Pre-existing (verified against ``b119dd43b``); fixing it needs the runs
-        between two tokens collapsed as a sequence rather than one at a time.
+        A whitespace-only node whose neighbour is a transparent span with only
+        whitespace now looks past the span to find the next rendered element.
+        If that element is a word, the space is preserved as a separator.
         """
         result = await _convert(converter, "<div><b>x</b> <span> </span>y</div>")
-        assert result == "__x__y"
+        assert result == "__x__ y"
 
     @pytest.mark.anyio
     async def test_newlines_normalized_to_spaces(
