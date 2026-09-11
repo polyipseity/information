@@ -276,6 +276,54 @@ def test_index_canvas_metadata_iso_datetime_rule():
     )
     assert not index_canvas_metadata_iso_datetime(ctx_good_description_prose)
 
+    # Canonical `---`-delimited metadata block (no `## description` heading)
+    bad_block = (
+        "# lab 1\n"
+        "\n"
+        "- HKUST ELEC 1100\n"
+        "\n"
+        "---\n"
+        "\n"
+        "- title: Lab#01\n"
+        "- due: Mar 5 by 1:30pm\n"
+        "- available: until Mar 5 at 1:30pm\n"
+        "\n"
+        "---\n"
+        "\n"
+        "No additional details were added for this assignment.\n"
+    )
+    ctx_bad_block = make_ctx(
+        bad_block,
+        path=Path("/tmp/special/academia/HKUST/ELEC 1100/labs/lab 1/index.md"),
+    )
+    msgs_bad_block = index_canvas_metadata_iso_datetime(ctx_bad_block)
+    assert len(msgs_bad_block) == 2
+    assert all(
+        msg.rule_id == "index_canvas_metadata_iso_datetime" for msg in msgs_bad_block
+    )
+
+    good_block = (
+        "# lab 1\n"
+        "\n"
+        "- HKUST ELEC 1100\n"
+        "\n"
+        "---\n"
+        "\n"
+        "- title: Lab#01\n"
+        "- due: 2026-02-23T13:20:00+08:00\n"
+        "- available: 2026-02-23T10:30:00+08:00/2026-02-23T13:20:00+08:00,"
+        " PT2H50M\n"
+        "\n"
+        "---\n"
+        "\n"
+        "No additional details were added for this assignment.\n"
+    )
+    ctx_good_block = make_ctx(
+        good_block,
+        path=Path("/tmp/special/academia/HKUST/ELEC 1100/labs/lab 1/index.md"),
+    )
+    assert not index_canvas_metadata_iso_datetime(ctx_good_block)
+
 
 @pytest.mark.anyio
 async def test_index_children_format_and_order_rules(tmp_path):

@@ -400,6 +400,28 @@ def _extract_children_section(text: str) -> list[tuple[int, str]]:
     return _extract_named_h2_section(text, "children")
 
 
+def _extract_canvas_metadata_block(text: str) -> list[tuple[int, str]]:
+    """Return the lines of the first `---`-delimited block after frontmatter.
+
+    Canvas-derived leaf indexes keep the Canvas metadata bullets in a
+    ``---``-bounded block directly after the parent line instead of under a
+    ``## description`` heading, so those bullets need to be inspected too.
+    """
+    front = FRONT_RE.match(text)
+    first_line = text.count("\n", 0, front.end()) if front else 0
+    lines = text.splitlines()
+
+    start: int | None = None
+    for index in range(first_line, len(lines)):
+        if lines[index].strip() != "---":
+            continue
+        if start is None:
+            start = index + 1
+        else:
+            return [(i + 1, lines[i]) for i in range(start, index)]
+    return []
+
+
 async def _path_exists(href: str, base: Path) -> bool:
     """Check if a linked file/directory exists on disk.
 
@@ -672,8 +694,9 @@ def index_canvas_metadata_iso_datetime(
 
     Applies to assignment-style leaf ``index.md`` pages under ``assignments`` or
     ``labs``. The rule inspects metadata bullets in ``## description`` and
-    ``## logistics`` and requires ISO 8601 values for due timestamps,
-    availability endpoints or ranges, and durations.
+    ``## logistics`` sections and in the ``---``-delimited metadata block, and
+    requires ISO 8601 values for due timestamps, availability endpoints or
+    ranges, and durations.
     """
 
     errors: list[ValidationMessage] = []
@@ -708,10 +731,12 @@ def index_canvas_metadata_iso_datetime(
             )
         )
 
-    sections = _extract_named_h2_section(
-        ctx.text, "description"
-    ) + _extract_named_h2_section(ctx.text, "logistics")
-    for line_no, line in sections:
+    sections = (
+        _extract_named_h2_section(ctx.text, "description")
+        + _extract_named_h2_section(ctx.text, "logistics")
+        + _extract_canvas_metadata_block(ctx.text)
+    )
+    for line_no, line in dict.fromkeys(sections):
         stripped = line.strip()
         m = re.match(r"^-\s*([^:]+):\s*(.+)$", stripped)
         if not m:
