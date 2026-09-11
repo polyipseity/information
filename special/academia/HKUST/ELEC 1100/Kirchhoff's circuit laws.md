@@ -8,7 +8,7 @@ tags:
 
 # Kirchhoff's circuit laws
 
-Kirchhoff's circuit laws are two fundamental principles used in the analysis of electrical networks. When a network cannot be reduced by simple series or parallel combination of components, these laws provide a systematic way to obtain the relationships among currents and voltages. The laws are attributed to Gustav Kirchhoff (1824–1887) and are direct consequences of the conservation of charge and energy.
+Kirchhoff's circuit laws are two principles for analysing electrical networks that cannot be reduced by series or parallel combination. They are attributed to Gustav Kirchhoff (1824–1887) and follow from conservation of charge and energy.
 
 ## background
 
@@ -24,29 +24,29 @@ Many networks consist of interconnections that are neither purely series nor pur
 
 Flashcards for this section are as follows:
 
-- origin of laws ::@:: Gustav Kirchhoff (1824–1887) formulated the current and voltage laws now bearing his name.
-- purpose of laws ::@:: Provide a systematic way to relate currents and voltages when a network cannot be reduced by simple series or parallel combinations.
-- series resistance formula <p> ![resistors in series](attachments/series.svg) ::@:: For resistors in series, $R_{\text{eq}} = R_1 + R_2 + \cdots$ because the same current flows through each element. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- parallel resistance formula <p> ![resistors in parallel](attachments/parallel.svg) ::@:: For resistors in parallel, $1/R_{\text{eq}} = 1/R_1 + 1/R_2 + \cdots$ since each branch has the same voltage and conductances sum. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- complex network definition ::@:: A circuit whose interconnections are neither purely series nor purely parallel, requiring general analysis using Kirchhoff's laws.
-- applicability domain ::@:: Kirchhoff's laws apply to any network by writing equations for nodes (junctions) and closed loops.
+- origin ::@:: Gustav Kirchhoff (1824–1887) formulated the current and voltage laws.
+- purpose ::@:: Relate currents and voltages when a network cannot be reduced by series or parallel combinations.
+- series resistance formula <p> ![resistors in series](attachments/series.svg) ::@:: $R_{\text{eq}} = R_1 + R_2 + \cdots$; the same current flows through each element. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- parallel resistance formula <p> ![resistors in parallel](attachments/parallel.svg) ::@:: $1/R_{\text{eq}} = 1/R_1 + 1/R_2 + \cdots$; each branch has the same voltage and conductances sum. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- complex network ::@:: A circuit with interconnections that are neither purely series nor purely parallel.
+- applicability ::@:: Kirchhoff's laws apply to any network by writing equations for nodes and closed loops.
 
 ## Kirchhoff's current law <!-- check: ignore-line[header_style]: proper noun -->
 
 Also known as the _junction rule_, Kirchhoff's current law (KCL) states that at any node in a circuit the algebraic sum of currents is zero. <p> ![KCL](attachments/kcl.svg)
 
-Equivalently, the sum of currents entering a junction equals the sum leaving it, reflecting that charge does not accumulate at a point. For a node with currents drawn in and out one may write $\sum I_{\text{in}} = \sum I_{\text{out}}$; putting all terms on one side gives relations such as $I_1+I_2-I_3-I_4=0$. The law is a discrete analogue of the continuity equation and follows from charge conservation.
+Equivalently, the sum of currents entering a junction equals the sum leaving it, because charge does not accumulate at a point. For a node with currents drawn in and out one may write $\sum I_{\text{in}} = \sum I_{\text{out}}$; putting all terms on one side gives relations such as $I_1+I_2-I_3-I_4=0$. The law is a discrete analogue of the continuity equation and follows from charge conservation.
 
 ---
 
 Flashcards for this section are as follows:
 
-- KCL alternative name ::@:: Kirchhoff's current law is also called the junction rule.
+- KCL name ::@:: Also called the junction rule.
 - KCL statement ::@:: At any node, the algebraic sum of currents is zero. <p> ![KCL](attachments/kcl.svg)
-- KCL entering vs leaving ::@:: The sum of currents entering a junction equals the sum leaving.
-- KCL algebraic form ::@:: $\sum I_{\text{in}} = \sum I_{\text{out}}$; bringing all to one side gives equations like $I_1+I_2-I_3-I_4=0$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- KCL sign convention ::@:: Currents assumed leaving may be taken as negative so a single summation suffices.
-- KCL rationale ::@:: It follows from conservation of charge; no net charge accumulates at a point, discrete analogue of the continuity equation.
+- KCL entering vs leaving ::@:: Currents entering a junction equal currents leaving.
+- KCL algebraic form ::@:: $\sum I_{\text{in}} = \sum I_{\text{out}}$; all terms on one side: $I_1+I_2-I_3-I_4=0$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- KCL sign convention ::@:: Leaving currents may be taken as negative so one summation suffices.
+- KCL rationale ::@:: Follows from charge conservation; no net charge accumulates at a point.
 
 ## Kirchhoff's voltage law <!-- check: ignore-line[header_style]: proper noun -->
 
@@ -58,11 +58,11 @@ Traversing a loop in a chosen direction, voltage drops (positive when taken in t
 
 Flashcards for this section are as follows:
 
-- KVL alternative name ::@:: Kirchhoff's voltage law is also known as the loop rule.
+- KVL name ::@:: Also called the loop rule.
 - KVL statement ::@:: Around any closed path, the algebraic sum of potential differences is zero. <p> ![KVL](attachments/kvl.svg)
-- KVL traversal rule ::@:: When traversing a loop, add voltage drops (positive in direction of current) and subtract rises; orientation of sources matters.
-- KVL example equation ::@:: For a loop with a source and two resistors: $-v + v_1 + v_2 = 0$, giving $v = v_1 + v_2$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- KVL justification ::@:: Because electrostatic fields are conservative, no net work is done completing a closed circuit.
+- KVL traversal rule ::@:: Add voltage drops (positive in current direction) and subtract rises; source orientation matters.
+- KVL example equation ::@:: Loop with source and two resistors: $-v + v_1 + v_2 = 0$, so $v = v_1 + v_2$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- KVL justification ::@:: Electrostatic fields are conservative; no net work is done completing a closed circuit.
 
 ## circuit analysis using Kirchhoff's laws
 
@@ -74,19 +74,19 @@ A typical procedure for analysing a circuit combines KCL and KVL in a systematic
 4. __Write KVL equations__ around each independent loop, summing voltage drops and rises in the traversal direction and equating the total to zero.
 5. __Solve the resulting linear system__ for the unknowns (currents, voltages, or resistances).
 
-The current-direction freedom is important: any choice leads to a correct system, with negative solutions signalling reversal. Both KCL and KVL may be used interchangeably; a given problem may be easier to handle with one method or the other depending on the circuit topology.
+Any current-direction choice leads to a correct system; negative solutions signal reversal. KCL and KVL are interchangeable; the easier method depends on circuit topology.
 
 ---
 
 Flashcards for this section are as follows:
 
-- analysis overview ::@:: Circuit analysis combines KCL and KVL systematically.
-- step 1 choose nodes/loops ::@:: Select a reference node (ground) and identify independent loops covering the network without redundancy.
-- step 2 assign directions ::@:: Arbitrary current arrows are drawn; negative solutions indicate actual flow is opposite.
-- step 3 write KCL ::@:: Form equations at nodes with chosen sign conventions, set algebraic sum to zero.
-- step 4 write KVL ::@:: Form loop equations by summing drops and rises in traversal direction, set to zero.
-- step 5 solve system ::@:: Solve the resulting linear equations for unknown currents, voltages, or resistances.
-- method flexibility ::@:: Either KCL or KVL may be used preferentially depending on topology; the choice of current directions is immaterial.
+- analysis overview ::@:: Combine KCL and KVL systematically.
+- step 1 ::@:: Select a reference node (ground) and independent loops covering the network.
+- step 2 ::@:: Draw arbitrary current arrows; negative solutions mean actual flow is opposite.
+- step 3 ::@:: Write KCL equations at nodes, set algebraic sum to zero.
+- step 4 ::@:: Write KVL equations around loops, sum drops and rises, set to zero.
+- step 5 ::@:: Solve the linear system for unknowns.
+- method flexibility ::@:: Either KCL or KVL may be preferred depending on topology; current direction choice is immaterial.
 
 ## integrated numerical calculations
 
@@ -112,12 +112,12 @@ Flashcards for this section are as follows:
 
 ## equivalence and application
 
-Each application of KCL or KVL produces a linear equation relating unknowns (voltages, currents, or resistances). A sufficient number of independent equations allows the circuit to be solved uniquely. For networks where series and parallel simplification fail—such as bridges—a test source $V$ may be attached across the terminals, the laws applied to determine the total current $I$, and the equivalent resistance computed as $R_{\text{eq}} = V/I$.
+Each application of KCL or KVL produces a linear equation relating unknowns (voltages, currents, or resistances). A sufficient number of independent equations allows the circuit to be solved uniquely. For networks where series and parallel simplification fail, such as bridges, a test source $V$ may be attached across the terminals, the laws applied to determine the total current $I$, and the equivalent resistance computed as $R_{\text{eq}} = V/I$.
 
 ---
 
 Flashcards for this section are as follows:
 
-- independence principle ::@:: A sufficient number of independent KCL/KVL equations uniquely determines circuit unknowns.
-- when to apply ::@:: Use Kirchhoff's laws when series/parallel simplification fails, as in bridge circuits.
-- equivalent resistance technique ::@:: Attach a test voltage source $V$, compute total current $I$ by KCL/KVL, then $R_{\text{eq}} = V/I$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- independence principle ::@:: Enough independent KCL/KVL equations uniquely determine circuit unknowns.
+- when to apply ::@:: When series/parallel simplification fails, as in bridge circuits.
+- equivalent resistance technique ::@:: Attach a test source $V$, compute total current $I$ by KCL/KVL, then $R_{\text{eq}} = V/I$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->

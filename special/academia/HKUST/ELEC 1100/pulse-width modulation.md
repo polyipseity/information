@@ -14,7 +14,7 @@ Pulse-width modulation (PWM) is a practical way to turn a digital controller int
 
 ## pulse waveform quantities
 
-A rectangular pulse waveform is described by its HIGH duration $H$, LOW duration $L$, period $T=H+L$, frequency $f=1/T$, and duty cycle $D=H/T$. In ELEC 1100 the HIGH level is usually the logic or motor command voltage and the LOW level is usually $0\text{ V}$. Duty cycle is the fraction of each period for which the signal stays HIGH, so it is the first number to check when a waveform looks "mostly on" or "mostly off" on the DSO.
+A rectangular pulse waveform is described by its HIGH duration $H$, LOW duration $L$, period $T=H+L$, frequency $f=1/T$, and duty cycle $D=H/T$. In ELEC 1100 the HIGH level is usually the logic or motor command voltage and the LOW level is usually $0\text{ V}$. Duty cycle is the fraction of each period for which the signal stays HIGH.
 
 ---
 
@@ -26,7 +26,7 @@ Flashcards for this section are as follows:
 
 ## average voltage and equivalent DC voltage
 
-For a pulse source that switches between $V_H$ and $V_L$, the average voltage over one period is $V_{\text{ave}}=(HV_H+LV_L)/(H+L)$. If the load is resistive and we care about equal power rather than equal arithmetic mean, the equivalent DC voltage is $V_{\text{eq}}=\sqrt{(HV_H^2+LV_L^2)/(H+L)}$. When $V_L=0$, this becomes $V_{\text{eq}}=\sqrt{D}\,V_H$. ELEC 1100 uses this distinction to explain why two signals can share the same average voltage yet produce different brightness or heating if their waveforms are different.
+For a pulse source that switches between $V_H$ and $V_L$, the average voltage over one period is $V_{\text{ave}}=(HV_H+LV_L)/(H+L)$. For a resistive load where equal power matters rather than equal arithmetic mean, the equivalent DC voltage is $V_{\text{eq}}=\sqrt{(HV_H^2+LV_L^2)/(H+L)}$. When $V_L=0$, this becomes $V_{\text{eq}}=\sqrt{D}\,V_H$. Two signals with the same average voltage can produce different heating if their waveforms differ.
 
 ---
 
@@ -35,14 +35,14 @@ Flashcards for this section are as follows:
 - PWM average voltage: for levels $V_H$ and $V_L$, what is $V_{\text{ave}}$? ::@:: $V_{\text{ave}}=(HV_H+LV_L)/(H+L)$.
 - PWM equivalent DC voltage: for a resistive load, what is $V_{\text{eq}}$? ::@:: $V_{\text{eq}}=\sqrt{(HV_H^2+LV_L^2)/(H+L)}$.
 - PWM with $V_L=0$: what does $V_{\text{eq}}$ reduce to? ::@:: $V_{\text{eq}}=\sqrt{D}\,V_H$ when the LOW level is $0\text{ V}$.
-- average vs equivalent voltage: why does ELEC 1100 distinguish $V_{\text{ave}}$ from $V_{\text{eq}}$? ::@:: Equal arithmetic mean does not always imply equal delivered power, so $V_{\text{eq}}$ is needed when comparing heating or lamp brightness in a resistive load.
+- average vs equivalent voltage: why distinguish $V_{\text{ave}}$ from $V_{\text{eq}}$? ::@:: Equal arithmetic mean does not always mean equal delivered power; $V_{\text{eq}}$ is needed when comparing heating or brightness in a resistive load.
 
 <!-- check: ignore-next-line[header_style]: acronym -->
 ## PWM in motor control
 
-In the robot car, direction and speed are separated. The H-bridge direction inputs decide whether current flows forward or backward through the motor, while the enable/PWM input decides how much average motor voltage is applied. The Arduino therefore sends one signal such as `DIR` for direction and a second PWM signal for speed. The late-course pin map is stable: `D9` and `D11` generate left/right PWM, and `D10` and `D12` provide left/right direction.
+In the robot car, direction and speed are separated. The H-bridge direction inputs decide whether current flows forward or backward through the motor, while the enable/PWM input decides how much average motor voltage is applied. The Arduino therefore sends one signal such as `DIR` for direction and a second PWM signal for speed. The final pin map is: `D9` and `D11` generate left/right PWM, and `D10` and `D12` provide left/right direction.
 
-When a pulse voltage is applied to a DC motor, the motor speed is closely related to the average voltage across its terminals. In practice, for most motors on this robot platform that means the speed is _approximately_ linear in the PWM duty cycle when the supply rail is fixed, because the average motor voltage rises with duty cycle. Real motors can deviate from perfect linearity because of friction, driver voltage drop, unequal motors, battery droop, mechanical load, and dead-zone behavior at low duty cycle.
+When a pulse voltage is applied to a DC motor, the motor speed is closely related to the average voltage across its terminals. For most motors on this platform, speed is _approximately_ linear in duty cycle at fixed supply. Real motors deviate due to friction, driver voltage drop, battery droop, mechanical load, and low-duty-cycle dead-zone effects.
 
 The Arduino `analogWrite(pin, value)` call is the standard PWM interface on this platform. The numeric value ranges from 0 to 255, where 0 means always LOW, 255 means always HIGH, and intermediate values produce intermediate duty cycles.
 
@@ -60,19 +60,19 @@ Flashcards for this section are as follows:
 <!-- check: ignore-next-line[header_style]: acronym -->
 ## PWM generation methods
 
-There are two direct physical ways to generate pulses. A positive pulse can be generated mechanically by pressing a switch so the circuit alternates between ON and OFF states. It can also be generated electrically by an oscillator, which is a circuit that produces a continuous, repeated AC waveform. In the robot car, the practical digital version comes from the Arduino, which changes the pulse width in software to produce the required PWM duty cycle.
+There are two physical ways to generate pulses. A pulse can be generated mechanically by pressing a switch so the circuit alternates between ON and OFF states. It can also be generated electrically by an oscillator, which produces a continuous, repeated AC waveform. In the robot car, the Arduino produces pulses digitally, changing the pulse width in software to set the required duty cycle.
 
 ---
 
 Flashcards for this section are as follows:
 
-- PWM generation methods: what pulse-generation methods are highlighted? ::@:: Pulses can be generated mechanically by switching ON and OFF, electrically by an oscillator, or digitally by a controller such as the Arduino.
-- oscillator in PWM generation: what is it? ::@:: An oscillator is a circuit that produces a continuous, repeated AC waveform.
-- why the Arduino is a natural PWM source in ELEC 1100 ::@:: The Arduino is a digital controller, so it can change pulse width in software and generate PWM signals that are easy to control and use.
+- PWM generation methods: what are the pulse-generation methods? ::@:: Pulses can be generated mechanically by switching, electrically by an oscillator, or digitally by the Arduino.
+- oscillator in PWM generation: what is it? ::@:: An oscillator produces a continuous, repeated AC waveform.
+- why the Arduino is a natural PWM source ::@:: The Arduino is a digital controller, so it can change pulse width in software to produce the required duty cycle.
 
 ## practical PWM habits
 
-ELEC 1100 treats PWM as an empirical design tool as well as a formula topic. If two motors do not behave identically, you may intentionally drive them with different PWM values to compensate. PWM is also preferable to a large variable resistor because it controls speed without wasting as much power as heat in an extra resistor. When debugging, confirm both the duty cycle and the direction logic; a motor that spins the wrong way at the correct speed is still wired or programmed incorrectly.
+ELEC 1100 treats PWM as both a formula topic and a practical design tool. If two motors do not behave identically, you can drive them with different PWM values to compensate. PWM is preferable to a variable resistor because it controls speed without wasting power as heat. When debugging, check both the duty cycle and the direction logic; a motor spinning the wrong way at the correct speed is wired or programmed wrong.
 
 ---
 
@@ -80,4 +80,4 @@ Flashcards for this section are as follows:
 
 - why PWM is preferred to a variable resistor for motor speed control ::@:: PWM changes the average drive electronically instead of burning a large amount of power in a series resistor.
 - unequal motors and PWM: why might left and right PWM values differ? ::@:: Real motors and wheels are not perfectly matched, so different PWM values can be used to equalize the robot's motion.
-- PWM debugging habit: which two things must you verify together? ::@:: Verify both the duty cycle and the direction logic because speed and direction are controlled separately.
+- PWM debugging habit: what must you check together? ::@:: Check both the duty cycle and the direction logic because speed and direction are controlled separately.

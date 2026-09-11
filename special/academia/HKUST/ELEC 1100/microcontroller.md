@@ -10,12 +10,12 @@ tags:
 
 # microcontroller
 
-A microcontroller is a small computer embedded inside a device to run one control program efficiently. In this robot platform, it replaces a large fixed gate network and acts as the logic, memory, timing, and input/output hub between sensors and actuators.
+A microcontroller is a small computer embedded inside a device that runs one control program. In this robot platform, it replaces a large fixed gate network and acts as the logic, memory, timing, and I/O hub between sensors and actuators.
 
 <!-- check: ignore-next-line[header_style]: acronym -->
 ## MCU role and integrated architecture
 
-A microcontroller unit (MCU) integrates the central processing unit (CPU), memory, timer resources, and input/output (I/O) ports on one integrated circuit. It reads inputs, evaluates logic, stores state, and drives outputs while using much less space and power than a general-purpose computer. That makes it appropriate for battery-powered embedded systems that repeat the same control task continuously.
+A microcontroller unit (MCU) integrates the central processing unit (CPU), memory, timer resources, and input/output (I/O) ports on one integrated circuit. It reads inputs, evaluates logic, stores state, and drives outputs using less space and power than a general-purpose computer. This suits battery-powered embedded systems that repeat the same control task.
 
 ---
 
@@ -27,19 +27,19 @@ Flashcards for this section are as follows:
 
 ## programmable control versus fixed logic
 
-A simple truth table can be implemented directly with gates, but a more complicated robot controller quickly becomes difficult to build, test, and debug entirely from fixed-purpose logic ICs. A programmable microcontroller keeps the same control ideas — truth tables, conditions, stored state, and output assignment — while making the behavior easier to modify in code. On this platform the specific MCU board is an Arduino Nano, but the design lesson is general: programmable control scales better than hand-built gate networks when the required behavior becomes more complex.
+A simple truth table can be built from gates, but a more complex robot controller is hard to build, test, and debug with fixed-purpose logic ICs alone. A programmable microcontroller keeps the same control ideas (truth tables, conditions, stored state, output assignment) while making the behavior easier to modify in code. On this platform the MCU board is an Arduino Nano; programmable control scales better than hand-built gates as behavior gets more complex.
 
 ---
 
 Flashcards for this section are as follows:
 
-- why programmable control replaces a large fixed gate network ::@:: A programmable controller is easier to modify, test, debug, and extend when the required behavior becomes more complex.
+- why programmable control replaces fixed gate networks ::@:: A programmable controller is easier to modify and extend than hand-built gates as behavior gets complex.
 - what control ideas remain the same after moving from gates to an MCU ::@:: The system still depends on truth tables, conditions, stored state, and output assignment; the implementation just moves into code.
-- which MCU board is used on this robot platform ::@:: The robot platform uses an Arduino Nano as the MCU board.
+- which MCU board is used ::@:: The robot platform uses an Arduino Nano.
 
 ## logic-power and motor-power split
 
-The microcontroller lives in the logic domain, not in the motor-power domain. The Nano, the 74HC14, and the logic side of the L293 run from the regulated $5\text{ V}$ rail, while the motor-power side uses the higher battery voltage. The design principle is stable: the MCU decides, the driver translates, and the motor stage supplies the large current.
+The microcontroller lives in the logic domain, not in the motor-power domain. The Nano, the 74HC14, and the logic side of the L293 run from the regulated $5\text{ V}$ rail, while the motor-power side uses the higher battery voltage. The split: the MCU decides, the driver translates, and the motor stage supplies the current.
 
 ---
 
@@ -47,4 +47,4 @@ Flashcards for this section are as follows:
 
 - which hardware belongs on the $5\text{ V}$ logic rail ::@:: The Arduino Nano, the 74HC14, and the logic side of the L293 belong on the regulated $5\text{ V}$ rail.
 - which hardware belongs on the higher motor-power rail ::@:: The motor-driving side of the L293 and the motors belong on the higher motor-power rail.
-- logic-power versus motor-power split: what is the design lesson? ::@:: The MCU makes decisions in the low-power logic domain, the driver translates those commands, and the motor stage supplies the large current.
+- logic-power vs motor-power split: what is the design lesson? ::@:: The MCU operates in the low-power logic domain; the driver and motor stage handle the high-current side.

@@ -69,4 +69,4 @@ These questions are course-authored practice variants based on the official addi
 
 > A student measures a loop and finds the signed sum of the rises and drops to be $-0.15\text{ V}$ instead of exactly zero. Is KVL automatically wrong?
 >
-> Solution: No. In {@{lab measurements a small nonzero residual}@} can come from {@{meter tolerance, lead resistance, and rounding}@}. KVL is still {@{the governing law KVL, which sums the voltages around any closed loop}@}; the result is {@{approximately consistent}@} if {@{the error is small compared with the measured voltages}@}.
+> Solution: No. In {@{lab measurements a small nonzero residual}@} can come from {@{meter tolerance, lead resistance, and rounding}@}. KVL still applies; {@{it sums the voltages around any closed loop}@}; the result is {@{approximately consistent}@} if {@{the error is small compared with the measured voltages}@}.
