@@ -75,18 +75,35 @@ _BOXED_CLASSES = frozenset(
 """Box-like classes whose content renders as a blockquote."""
 _BLOCKQUOTE_CLASSES = frozenset(_BOXED_CLASSES - {"equation-box"})
 """
-Span classes whose handler emits markers or block spacing.
+Span classes whose handler emits markers, media, or block spacing.
 
 ``_handle_span`` returns ``None``, so a span is normally flattened and
 contributes nothing of its own.  These classes are the exception: ``hatnote``
 prefixes a list marker, ``sidebar-navbar``/``navbar`` may wrap their text in an
-HTML comment, ``sistersitebox`` and ``thumb`` add block spacing, and the boxed
-classes render as blockquotes.  ``_is_transparent_span`` needs this set so its
-verdict agrees with what ``convert`` actually emits for a span.
+HTML comment, ``mw-tmh-play``/``oo-ui-buttonElement-button`` become an audio
+embed, ``sistersitebox`` and ``thumb`` add block spacing, and the boxed classes
+render as blockquotes.  ``_is_transparent_span`` needs this set so its verdict
+agrees with what ``convert`` actually emits for a span.
 """
 _OPAQUE_SPAN_CLASSES = _BOXED_CLASSES | frozenset(
-    {"hatnote", "navbar", "sidebar-navbar", "sistersitebox", "thumb"}
+    {
+        "hatnote",
+        "mw-tmh-play",
+        "navbar",
+        "oo-ui-buttonElement-button",
+        "sidebar-navbar",
+        "sistersitebox",
+        "thumb",
+    }
 )
+"""
+Tags whose handler emits a media link or embed instead of text.
+
+``_renders_nothing`` must not call these empty just because they carry no text:
+``<video>`` and ``<audio>`` name their source in attributes and child
+``<source>`` elements.
+"""
+_MEDIA_TAGS = frozenset({"audio", "video"})
 """
 Tags that render a glyph or a line break with no child content.
 
@@ -800,7 +817,7 @@ class WikiHtmlConverter:
             return not str(ele).strip()
         if not isinstance(ele, Tag):
             return False
-        if ele.name in _ATOMIC_TAGS:
+        if ele.name in _ATOMIC_TAGS or ele.name in _MEDIA_TAGS:
             return False
         if ele.find("img") is not None:
             return False

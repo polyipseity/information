@@ -2222,7 +2222,9 @@ class TestStaticUtilities:
         "classes",
         [
             "hatnote",
+            "mw-tmh-play",
             "navbar",
+            "oo-ui-buttonElement-button",
             "sidebar-navbar",
             "sistersitebox",
             "thumb",
@@ -2277,6 +2279,8 @@ class TestStaticUtilities:
             ("<br/>", False),
             ("<img src='a'/>", False),
             ("<span><img src='b'/></span>", False),
+            ("<video><source src='a.webm'/></video>", False),
+            ("<audio><source src='a.ogg'/></audio>", False),
             ("<span><span></span></span>", True),
             ("<span><span> </span></span>", False),
             ("<span><!-- c --></span>", True),
