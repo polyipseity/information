@@ -1,1 +1,1 @@
-banking regulation and supervision.md
+bank regulation and supervision.md

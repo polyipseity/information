@@ -1,1 +1,1 @@
-minimum mean square error.md
+minimum mean square error estimator.md

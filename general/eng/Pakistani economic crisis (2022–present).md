@@ -1,1 +1,1 @@
-Pakistani economic crisis (2022–2024).md
+pakistani economic crisis (2021–2024).md

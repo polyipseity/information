@@ -1,1 +1,1 @@
-predicate variable.md
+predicate (logic).md

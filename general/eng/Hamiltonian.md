@@ -1,1 +1,0 @@
-Hamiltonian mechanics.md

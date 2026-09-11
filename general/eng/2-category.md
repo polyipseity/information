@@ -1,1 +1,0 @@
-strict 2-category.md

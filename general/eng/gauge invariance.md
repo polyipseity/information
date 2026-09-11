@@ -1,1 +1,1 @@
-gauge theory.md
+gauge fixing.md

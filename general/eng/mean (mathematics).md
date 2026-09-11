@@ -1,1 +1,1 @@
-mean.md
+average.md
