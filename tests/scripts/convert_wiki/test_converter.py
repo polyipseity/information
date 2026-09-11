@@ -2321,8 +2321,9 @@ class TestStaticUtilities:
     def test_edge_is_word_descends_into_inline_wrappers(self) -> None:
         """The edge comes from rendered content, not the first element boundary.
 
-        ``<bdi>`` is not in the inline-tag set yet still wraps a word, so a
-        descent that stopped at whitelisted tags would report no edge at all.
+        ``<bdi>`` wraps a word but is not one of the inline tags the converter
+        otherwise cares about, so a descent that stopped at a known-tag list
+        would report no edge at all.
         """
         soup = BeautifulSoup(
             '<p><a href="#"><bdi>978-0-486-63612-2</bdi></a> <span>b</span></p>',

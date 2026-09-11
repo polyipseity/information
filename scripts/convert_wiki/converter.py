@@ -82,8 +82,10 @@ contributes nothing of its own.  These classes are the exception: ``hatnote``
 prefixes a list marker, ``sidebar-navbar``/``navbar`` may wrap their text in an
 HTML comment, ``mw-tmh-play``/``oo-ui-buttonElement-button`` become an audio
 embed, ``sistersitebox`` and ``thumb`` add block spacing, and the boxed classes
-render as blockquotes.  ``_is_transparent_span`` needs this set so its verdict
-agrees with what ``convert`` actually emits for a span.
+render as blockquotes.  The set is deliberately inclusive where a class only
+sometimes renders (``navbar`` without a navbar ancestor, ``thumb`` without a
+caption): calling such a span opaque stops a rendered-adjacency walk early,
+which keeps the previous behaviour rather than inventing an adjacency.
 """
 _OPAQUE_SPAN_CLASSES = _BOXED_CLASSES | frozenset(
     {
@@ -324,16 +326,19 @@ class WikiHtmlConverter:
                     # plain-text runs (``Physics<span> </span>portal`` → the
                     # space is the only separation).  The space separates two
                     # distinct tokens and must survive whitespace collapsing.
-                    # A link directly followed by an emphasis (e.g.
-                    # ``[x](y)_z_``) is intentionally tight, so the space stays
-                    # collapsed there.  Math fragments wrapped in a ``texhtml``
-                    # span (e.g. ``<i>m</i> <i>x</i>``) are also an exception:
+                    # Whether two neighbours run together is decided from the
+                    # character at each rendered edge, not from which tags happen
+                    # to sit either side.  Math fragments wrapped in a ``texhtml``
+                    # span (e.g. ``<i>m</i> <i>x</i>``) are an exception:
                     # adjacent variables are conventionally tight.
                     #
                     # The decision uses *rendered* adjacency, not raw siblings:
                     # ``_handle_span`` flattens transparent spans, so a
                     # whitespace run at a span edge has no direct sibling yet
-                    # still separates two rendered tokens.
+                    # still separates two rendered tokens.  Markup that renders
+                    # nothing — an empty ``<span>``, or the ``<link>`` elements
+                    # Parsoid leaves between citations — is stepped over rather
+                    # than mistaken for the neighbour.
                     prev = self._rendered_neighbour(ele, following=False)
                     nxt = self._rendered_neighbour(ele, following=True)
                     if (
@@ -709,8 +714,9 @@ class WikiHtmlConverter:
         if isinstance(sibling, NavigableString):
             return sibling.rstrip(_cfg._MARKDOWN_SEPARATOR_CHARACTERS) == sibling
         if isinstance(sibling, Tag):
-            # Transparent spans emit nothing; descend to their last rendered
-            # child to find what abuts the block on the rendered side.
+            # Descend through spans to the last child that renders: a span's
+            # emphasis markers wrap its content without changing what abuts the
+            # element after it, so the child's own trailing text decides.
             last: PageElement = sibling
             while isinstance(last, Tag) and last.name == "span" and last.contents:
                 last = last.contents[-1]
