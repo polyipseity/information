@@ -93,7 +93,10 @@ Remove entire course directory (with confirmation). Remove from institution `ind
 - Put `## children` first, then `## logistics`, then `## overview`
 - Children order: AGENTS → assignments → questions → topics (chronological)
 - Session headings: `## week N lecture`, `## week N tutorial`, `## week N lab`
-- Session metadata: `datetime:`, `topic:`, `status:`, `assignment:`
+- Session metadata: `datetime:`, `topic:`, `status:`, `assignment:`, `quiz:`
+    - `quiz:` links to the tutorial quiz page when a quiz was administered:
+      `[tutorial <N>](tutorials/tutorial%20<N>/index.md)`
+      Append grade if known: `(grade: 2/2)`
 - Gap sessions: `status: no class` or `status: public holiday: <name>`
 - Exam sessions: continuous week heading, `status: unscheduled; <exam name>`
 
