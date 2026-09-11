@@ -677,6 +677,52 @@ class TestImageHandling:
         assert out_to_archive == {"File:Sinh+cosh+tanh.svg"}
         assert "../../archives/Wikimedia%20Commons/Sinh%2Bcosh%2Btanh.svg" in result
 
+    @pytest.mark.anyio
+    async def test_thumb_host_transcoded_rewritten(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A transcoded video on thumb.wikimedia.org resolves to the archive.
+
+        The URL names the transcoded derivative, but the archive holds the
+        source file, so the directory segment above it is the filename.
+        """
+        html = (
+            '<img src="//thumb.wikimedia.org/wikipedia/commons/transcoded/9/93/'
+            'X.ogv/X.ogv.480p.vp9.webm"/>'
+        )
+        soup = BeautifulSoup(html, "html.parser")
+        out_to_archive: set[str] = set()
+        result = await converter.convert(
+            soup,
+            out_to_archive=out_to_archive,
+            redirect_map={},
+            refs=True,
+        )
+        assert out_to_archive == {"File:X.ogv"}
+        assert "../../archives/Wikimedia%20Commons/X.ogv" in result
+        assert "thumb.wikimedia.org" not in result
+
+    @pytest.mark.anyio
+    async def test_thumb_host_transcoded_percent_encoded_filename(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A percent-encoded transcoded filename is decoded then re-encoded."""
+        html = (
+            '<img src="//thumb.wikimedia.org/wikipedia/commons/transcoded/2/29/'
+            'Sinh%2Bcosh%2Btanh.svg/Sinh%2Bcosh%2Btanh.svg.480p.vp9.webm"/>'
+        )
+        soup = BeautifulSoup(html, "html.parser")
+        out_to_archive: set[str] = set()
+        result = await converter.convert(
+            soup,
+            out_to_archive=out_to_archive,
+            redirect_map={},
+            refs=True,
+        )
+        assert out_to_archive == {"File:Sinh+cosh+tanh.svg"}
+        assert "../../archives/Wikimedia%20Commons/Sinh%2Bcosh%2Btanh.svg" in result
+        assert "thumb.wikimedia.org" not in result
+
 
 # ---------------------------------------------------------------------------
 
