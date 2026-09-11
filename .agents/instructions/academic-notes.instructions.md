@@ -6,11 +6,28 @@ applyTo: "special/academia/**,private/special/academia/**"
 
 # Academic notes instruction
 
-The authoritative long-form policy lives in `.agents/skills/academic-notes/SKILL.md`. Read it before acting. This file only contains cross-cutting rules that must auto-load.
+For all academic material ingestion, start with the `academic-ingest` dispatcher skill. It classifies input and routes to the correct CRUD skill.
 
-- Read `../skills/academic-notes/SKILL.md` before acting.
-- Read `../skills/academic-notes/course-template.md` as the scaffold for new course indexes.
-- The validator is at `.agents/skills/academic-notes/check.py`; run `uv run .agents/skills/academic-notes/check.py <path>` to validate the smallest relevant scope after editing.
+- Read `../skills/academic-ingest/SKILL.md` as the entry point for all ingestion.
+- Read `../skills/academic-crud-course-index/course-template.md` as the scaffold for new course indexes.
+- The validator is at `.agents/skills/academic-lint/main.py`; run `academic-lint` to validate after editing.
+
+## Skills
+
+| Skill | Purpose |
+| --- | --- |
+| `academic-ingest` | Dispatcher — classify input, resolve course, route to CRUD skill |
+| `academic-lint` | Validate academic notes after edits (wraps main.py) |
+| `academic-crud-course-index` | Top-level `index.md`, exams, logistics, course scaffolding |
+| `academic-crud-index` | Sub-directory `index.md` (shared utility) |
+| `academic-crud-submission` | Labs, tutorials, lectures, assignments (shared hierarchy) |
+| `academic-crud-topic-note` | Standalone concept and lecture notes |
+| `academic-crud-question` | Problem sets, iPRs, quizzes (no submission) |
+| `academic-crud-agents` | Course-level `AGENTS.md` files |
+| `academic-crud-attachments` | Attachments directories at any level |
+| `academic-crud-transcludes` | Wikipedia articles included by reference |
+| `academic-deprecated` | Deprecated patterns (documentation-only) |
+| `create-flashcards` | Flashcard markup (referenced by other skills) |
 
 ## Cross-cutting rules
 
@@ -23,13 +40,6 @@ The authoritative long-form policy lives in `.agents/skills/academic-notes/SKILL
 - Questions-page solutions use cloze `{@{ }@}`, not QA cards.
 - When changing a topic note, update its prose, flashcards, and every affected `index.md` section link in the same task.
 
-## Tools
-
-- Skill: `.agents/skills/academic-notes/`
-- Template: `.agents/skills/academic-notes/course-template.md`
-- Validator: `.agents/skills/academic-notes/check.py`
-
 ## Reference
 
-- [assignment-creation](../skills/assignment-creation/SKILL.md) — for assignment-style leaf indexes (labs, homework folders)
 - [special.instructions.md](special.instructions.md) — general special/ conventions

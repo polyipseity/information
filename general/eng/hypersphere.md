@@ -1,1 +1,1 @@
-3-sphere.md
+n-sphere.md

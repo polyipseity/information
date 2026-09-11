@@ -17,12 +17,14 @@ class TestResolvePlainRewrite:
     """Tests for _resolve_plain_rewrite."""
 
     def test_name_map_hit(self) -> None:
+        """Resolve an entry present in the name map."""
         names_map = {"modern physics": "Modern physics"}
         assert _resolve_plain_rewrite("modern physics", names_map=names_map) == (
             "Modern physics"
         )
 
     def test_lowercase_fallback(self) -> None:
+        """Fall back to case-insensitive match when exact key is missing."""
         names_map = {
             "Fourier transform": "Fourier transform",
             "fourier transform": "Fourier transform",
@@ -32,6 +34,7 @@ class TestResolvePlainRewrite:
         )
 
     def test_migrations_on_top(self) -> None:
+        """Migration overrides the name-map result."""
         names_map = {"modern physics": "modern physics"}
         migrations = {"modern physics": "Modern physics"}
         assert (
@@ -42,6 +45,7 @@ class TestResolvePlainRewrite:
         )
 
     def test_replace_underscores_flag(self) -> None:
+        """Underscore replacement when the flag is enabled."""
         names_map = {
             "legendre transformation on manifolds": "Legendre transformation on manifolds"
         }
@@ -55,6 +59,7 @@ class TestResolvePlainRewrite:
         )
 
     def test_no_migrations_returns_name_map_result(self) -> None:
+        """Passing migrations=None still returns the name-map result."""
         names_map = {"modern physics": "Modern physics"}
         assert (
             _resolve_plain_rewrite(
@@ -68,22 +73,26 @@ class TestRewritePlainSpan:
     """Tests for _rewrite_plain_span and_align_plain_to_raw."""
 
     def test_markup_free_fast_path(self) -> None:
+        """Plain text with no markup returns the new string directly."""
         assert _rewrite_plain_span(
             "Modern physics", "Modern physics", "Modern physics"
         ) == ("Modern physics")
 
     def test_plain_equals_raw_returns_new(self) -> None:
+        """When plain equals raw, return the rewritten string."""
         assert _rewrite_plain_span(
             "modern physics", "modern physics", "Modern physics"
         ) == ("Modern physics")
 
     def test_emphasis_stripped_raw(self) -> None:
+        """Markup-stripped plain differs from raw; alignment is used."""
         raw = "modern _physics_"
         assert _rewrite_plain_span(raw, "modern physics", "Modern physics") == (
             "Modern _physics_"
         )
 
     def test_escaped_parens_raw(self) -> None:
+        """Escaped parentheses in raw text are preserved."""
         raw = r"Phase space coordinates \(_p_, _q_\) and Hamiltonian _H_"
         plain = "Phase space coordinates (p, q) and Hamiltonian H"
         new = "phase space coordinates (p, q) and Hamiltonian H"
@@ -92,21 +101,25 @@ class TestRewritePlainSpan:
         )
 
     def test_markup_after_plain(self) -> None:
+        """Markup trailing the plain span is preserved."""
         raw = "modern physics _and more_"
         assert _rewrite_plain_span(
             raw, "modern physics and more", "Modern physics and more"
         ) == ("Modern physics _and more_")
 
     def test_insert_spanning_markup(self) -> None:
+        """Inserted text spans across existing markup."""
         raw = "modern _physics_"
         assert _rewrite_plain_span(raw, "modern physics", "modern applied physics") == (
             "modern applied _physics_"
         )
 
     def test_alignment_failure_returns_raw(self) -> None:
+        """Alignment failure returns the original raw string."""
         assert _rewrite_plain_span("abc", "xyz", "xyz") == "abc"
 
     def test_align_helper_subsequence(self) -> None:
+        """Subsequence alignment maps plain chars to raw indices."""
         assert _align_plain_to_raw("a_b_c", "abc") == [0, 2, 4]
 
 
@@ -234,11 +247,15 @@ class TestRewriteLinkFragments:
         )
 
     def test_fragment_only_run_no_stem_change(self) -> None:
-        """With no migrations, only the fragment should change."""
+        """With no migrations, the stem should also be corrected via
+        names_map when the stem maps to a different canonical value.
+        This is the primary fix for the bug where links with wrong-stem
+        casing were never corrected when the mapping already existed
+        in the base name_map (so no migration was generated)."""
         text = "[x](modern%20physics.md#modern%20physics)"
         names_map = {"modern physics": "Modern physics"}
         rewritten = _rewrite_markdown_links(text, {}, names_map=names_map)
-        assert rewritten == "[x](modern%20physics.md#Modern%20physics)"
+        assert rewritten == "[x](Modern%20physics.md#Modern%20physics)"
 
     def test_fragment_idempotent_round_trip(self) -> None:
         """An already-canonical fragment should stay byte-identical."""
@@ -254,6 +271,33 @@ class TestRewriteLinkFragments:
         migrations = {"modern physics": "Modern physics"}
         rewritten = _rewrite_markdown_links(text, migrations, names_map=names_map)
         assert rewritten == "[x](Modern%20physics.md#Modern%20physics)"
+
+    def test_stem_corrected_via_names_map_fallback(self) -> None:
+        """When no migration exists (mapping already in base name_map),
+        the names_map fallback should still correct link stems with
+        wrong casing. This is the regression test for the bug where
+        links like ``einstein%20ring.md`` were never corrected because
+        the mapping already existed in the base name_map, so no stem
+        migration was generated."""
+        text = "See [ring](einstein%20ring.md) or [rings](einstein%20rings.md)."
+        names_map = {
+            "einstein ring": "Einstein ring",
+            "einstein rings": "Einstein rings",
+        }
+        # Empty migrations — simulates the case where the mapping
+        # already existed in the base name_map.
+        rewritten = _rewrite_markdown_links(text, {}, names_map=names_map)
+        assert (
+            rewritten
+            == "See [ring](Einstein%20ring.md) or [rings](Einstein%20rings.md)."
+        )
+
+    def test_stem_unchanged_when_absent_from_names_map(self) -> None:
+        """A stem not present in names_map should not be rewritten."""
+        text = "[x](modern%20physics.md)"
+        names_map = {"Fourier transform": "Fourier transform"}
+        rewritten = _rewrite_markdown_links(text, {}, names_map=names_map)
+        assert rewritten == text
 
 
 class TestRewriteArticleHeading:

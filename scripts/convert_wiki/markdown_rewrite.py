@@ -104,9 +104,22 @@ def _rewrite_link_target(
     When *names_map* is provided, the link fragment (section anchor) is
     also re-cased through the name map so anchors interrupted by inline
     markup or wrong casing are corrected, mirroring heading rewriting.
+
+    When no migration exists for a stem (e.g. the mapping already existed
+    in the base name_map before this reprocess run), the *names_map* is
+    used as a fallback to correct the link stem.
     """
     stem, fragment = _decode_link_stem(target)
     new_stem = migrations.get(stem, stem)
+    # Fallback: when no migration exists (mapping already in base name_map),
+    # still apply names_map to correct link stems that have wrong casing.
+    # Only apply when the stem (or its underscore variant) is actually
+    # present in names_map — do not apply _fix_name_maybe's lowercase
+    # fallback, which would incorrectly change stems that are absent.
+    if new_stem == stem and names_map is not None:
+        lookup = stem.replace("_", " ") if "_" in stem else stem
+        if lookup in names_map:
+            new_stem = _fix_filename(names_map[lookup])
     encoded = _encode_stem(new_stem)
     if fragment and names_map is not None:
         plain_fragment = unquote(fragment)
@@ -147,18 +160,22 @@ def _rewrite_markdown_links(
     if not destination_ranges:
         return text
 
+    # Build a dict from AST-detected URLs for content-based matching.
+    # This avoids fragile 1:1 sequential matching which desyncs when
+    # _find_link_destination_ranges finds extra ]( patterns.
+    ast_urls_by_unquoted: dict[str, str] = {}
+    for url in md_urls:
+        ast_urls_by_unquoted[unquote(url)] = url
+
     edits: list[tuple[int, int, str]] = []
-    url_index = 0
     for dest_start, dest_end, destination in destination_ranges:
         if not destination.endswith(".md") and ".md#" not in destination:
             continue
-        if url_index >= len(md_urls):
-            break
-        expected_url = md_urls[url_index]
-        url_index += 1
-        if unquote(destination) != unquote(expected_url):
+        # Match by unquoted content against AST-detected URLs.
+        expected_url = ast_urls_by_unquoted.get(unquote(destination))
+        if expected_url is None:
             continue
-        new_url = _rewrite_link_target(destination, migrations, names_map=names_map)
+        new_url = _rewrite_link_target(expected_url, migrations, names_map=names_map)
         if unquote(new_url) != unquote(destination):
             edits.append((dest_start, dest_end, new_url))
 

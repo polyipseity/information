@@ -1,1 +1,1 @@
-functor.md
+product category.md

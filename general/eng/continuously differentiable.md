@@ -1,1 +1,1 @@
-differentiable function.md
+smoothness.md

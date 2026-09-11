@@ -1,342 +1,964 @@
 {
+  "api_responses": [
+    {
+      "batchcomplete": true,
+      "query": {
+        "redirects": [
+          {
+            "from": "Einstein summation convention",
+            "to": "Einstein notation"
+          },
+          {
+            "from": "Riemannian metric",
+            "to": "Riemannian manifold",
+            "tofragment": "Riemannian metrics and Riemannian manifolds"
+          },
+          {
+            "from": "Coordinate chart",
+            "to": "Topological manifold",
+            "tofragment": "Coordinate charts"
+          },
+          {
+            "from": "Tensor products",
+            "to": "Tensor product"
+          },
+          {
+            "from": "Fiber bundles",
+            "to": "Fiber bundle"
+          },
+          {
+            "from": "Spin manifold",
+            "to": "Spin structure",
+            "tofragment": "Spin structures on vector bundles"
+          },
+          {
+            "from": "Basis (mathematics)",
+            "to": "Basis (linear algebra)"
+          },
+          {
+            "from": "Orthonormal frame bundle",
+            "to": "Frame bundle",
+            "tofragment": "Orthonormal frame bundle"
+          },
+          {
+            "from": "Spin bundle",
+            "to": "Spinor bundle"
+          },
+          {
+            "from": "Structure constant",
+            "to": "Structure constants"
+          },
+          {
+            "from": "ISBN (identifier)",
+            "to": "ISBN"
+          },
+          {
+            "from": "PMID (identifier)",
+            "to": "PubMed",
+            "tofragment": "PubMed identifier"
+          },
+          {
+            "from": "ISSN (identifier)",
+            "to": "ISSN"
+          },
+          {
+            "from": "ArXiv (identifier)",
+            "to": "ArXiv"
+          },
+          {
+            "from": "PMC (identifier)",
+            "to": "PubMed Central",
+            "tofragment": "PMCID"
+          }
+        ],
+        "pages": [
+          {
+            "ns": 0,
+            "title": "Edit section: Relation to standard formalism",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: Notes",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: Citations",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: See also",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: Example: Lie groups",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: References",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: External links",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: Manipulation of indices",
+            "missing": true
+          },
+          {
+            "pageid": 8625,
+            "ns": 0,
+            "title": "Differential geometry"
+          },
+          {
+            "pageid": 12024,
+            "ns": 0,
+            "title": "General relativity"
+          },
+          {
+            "pageid": 14919,
+            "ns": 0,
+            "title": "ISBN"
+          },
+          {
+            "pageid": 17070,
+            "ns": 0,
+            "title": "Kaluza–Klein theory"
+          },
+          {
+            "pageid": 17944,
+            "ns": 0,
+            "title": "Lie algebra"
+          },
+          {
+            "pageid": 18420,
+            "ns": 0,
+            "title": "Basis (linear algebra)"
+          },
+          {
+            "pageid": 28758,
+            "ns": 0,
+            "title": "Spacetime"
+          },
+          {
+            "pageid": 29965,
+            "ns": 0,
+            "title": "Tensor"
+          },
+          {
+            "pageid": 30844,
+            "ns": 0,
+            "title": "Tensor product"
+          },
+          {
+            "pageid": 38751,
+            "ns": 0,
+            "title": "ArXiv"
+          },
+          {
+            "pageid": 62641,
+            "ns": 0,
+            "title": "Vector field"
+          },
+          {
+            "pageid": 144652,
+            "ns": 0,
+            "title": "Riemannian manifold"
+          },
+          {
+            "pageid": 195407,
+            "ns": 0,
+            "title": "Einstein notation"
+          },
+          {
+            "pageid": 195795,
+            "ns": 0,
+            "title": "Metric tensor"
+          },
+          {
+            "pageid": 211794,
+            "ns": 0,
+            "title": "Tangent bundle"
+          },
+          {
+            "pageid": 234930,
+            "ns": 0,
+            "title": "ISSN"
+          },
+          {
+            "pageid": 276526,
+            "ns": 0,
+            "title": "Fiber bundle"
+          },
+          {
+            "pageid": 276548,
+            "ns": 0,
+            "title": "Exponential map (Riemannian geometry)"
+          },
+          {
+            "pageid": 287555,
+            "ns": 0,
+            "title": "Pseudo-Riemannian manifold"
+          },
+          {
+            "pageid": 348085,
+            "ns": 0,
+            "title": "Spinor bundle"
+          },
+          {
+            "pageid": 366550,
+            "ns": 0,
+            "title": "Frame bundle"
+          },
+          {
+            "pageid": 432632,
+            "ns": 0,
+            "title": "Supergravity"
+          },
+          {
+            "pageid": 503009,
+            "ns": 0,
+            "title": "PubMed"
+          },
+          {
+            "pageid": 606874,
+            "ns": 0,
+            "title": "Einstein–Cartan theory"
+          },
+          {
+            "pageid": 671804,
+            "ns": 0,
+            "title": "Lattice gauge theory"
+          },
+          {
+            "pageid": 706412,
+            "ns": 0,
+            "title": "Connection form"
+          },
+          {
+            "pageid": 715909,
+            "ns": 0,
+            "title": "Greek alphabet"
+          },
+          {
+            "pageid": 982386,
+            "ns": 0,
+            "title": "Killing form"
+          },
+          {
+            "pageid": 1674987,
+            "ns": 0,
+            "title": "Abstract index notation"
+          },
+          {
+            "pageid": 2119193,
+            "ns": 0,
+            "title": "Topological manifold"
+          },
+          {
+            "pageid": 2641081,
+            "ns": 0,
+            "title": "Sigma model"
+          },
+          {
+            "pageid": 2775325,
+            "ns": 0,
+            "title": "PubMed Central"
+          },
+          {
+            "pageid": 2844303,
+            "ns": 0,
+            "title": "Spin structure"
+          },
+          {
+            "pageid": 2915190,
+            "ns": 0,
+            "title": "Spin connection"
+          },
+          {
+            "pageid": 3108161,
+            "ns": 0,
+            "title": "Parallelizable manifold"
+          },
+          {
+            "pageid": 4127125,
+            "ns": 0,
+            "title": "GHP formalism"
+          },
+          {
+            "pageid": 6176811,
+            "ns": 0,
+            "title": "Newman–Penrose formalism"
+          },
+          {
+            "pageid": 9792297,
+            "ns": 0,
+            "title": "Solder form"
+          },
+          {
+            "pageid": 10282799,
+            "ns": 0,
+            "title": "Lie bracket of vector fields"
+          },
+          {
+            "pageid": 20285142,
+            "ns": 0,
+            "title": "Structure constants"
+          },
+          {
+            "pageid": 39171284,
+            "ns": 0,
+            "title": "Dirac equation in curved spacetime"
+          },
+          {
+            "pageid": 41172240,
+            "ns": 0,
+            "title": "Jürgen Jost"
+          }
+        ]
+      }
+    },
+    {
+      "batchcomplete": true,
+      "query": {
+        "redirects": [
+          {
+            "from": "Open cover",
+            "to": "Cover (topology)",
+            "tofragment": "open cover"
+          },
+          {
+            "from": "1-form",
+            "to": "One-form"
+          },
+          {
+            "from": "Tangent manifold",
+            "to": "Tangent bundle"
+          },
+          {
+            "from": "Coordinate basis",
+            "to": "Holonomic basis"
+          },
+          {
+            "from": "Tetrad (general relativity)",
+            "to": "Frame fields in general relativity"
+          },
+          {
+            "from": "G-structure",
+            "to": "G-structure on a manifold"
+          },
+          {
+            "from": "Exponential map (Lie group)",
+            "to": "Exponential map (Lie theory)"
+          },
+          {
+            "from": "S2CID (identifier)",
+            "to": "Semantic Scholar",
+            "tofragment": "S2CID"
+          },
+          {
+            "from": "Doi (identifier)",
+            "to": "Digital object identifier"
+          },
+          {
+            "from": "Bibcode (identifier)",
+            "to": "Bibcode"
+          }
+        ],
+        "pages": [
+          {
+            "ns": 0,
+            "title": "Edit section: Mathematical formulation",
+            "missing": true
+          },
+          {
+            "pageid": 18306,
+            "ns": 0,
+            "title": "Latin alphabet"
+          },
+          {
+            "pageid": 18420,
+            "ns": 0,
+            "title": "Basis (linear algebra)"
+          },
+          {
+            "pageid": 30807,
+            "ns": 0,
+            "title": "Tangent space"
+          },
+          {
+            "pageid": 91096,
+            "ns": 0,
+            "title": "Geodesic"
+          },
+          {
+            "pageid": 130526,
+            "ns": 0,
+            "title": "Riemann curvature tensor"
+          },
+          {
+            "pageid": 144652,
+            "ns": 0,
+            "title": "Riemannian manifold"
+          },
+          {
+            "pageid": 161879,
+            "ns": 0,
+            "title": "Scalar field"
+          },
+          {
+            "pageid": 182890,
+            "ns": 0,
+            "title": "Kronecker delta"
+          },
+          {
+            "pageid": 195243,
+            "ns": 0,
+            "title": "Riemannian geometry"
+          },
+          {
+            "pageid": 211794,
+            "ns": 0,
+            "title": "Tangent bundle"
+          },
+          {
+            "pageid": 285595,
+            "ns": 0,
+            "title": "Parallel transport"
+          },
+          {
+            "pageid": 308815,
+            "ns": 0,
+            "title": "Connection (mathematics)"
+          },
+          {
+            "pageid": 310950,
+            "ns": 0,
+            "title": "Principal bundle"
+          },
+          {
+            "pageid": 314692,
+            "ns": 0,
+            "title": "One-form"
+          },
+          {
+            "pageid": 317552,
+            "ns": 0,
+            "title": "Cover (topology)"
+          },
+          {
+            "pageid": 366550,
+            "ns": 0,
+            "title": "Frame bundle"
+          },
+          {
+            "pageid": 422994,
+            "ns": 0,
+            "title": "Digital object identifier"
+          },
+          {
+            "pageid": 487859,
+            "ns": 0,
+            "title": "Directional derivative"
+          },
+          {
+            "pageid": 1277699,
+            "ns": 0,
+            "title": "G-structure on a manifold"
+          },
+          {
+            "pageid": 1453977,
+            "ns": 0,
+            "title": "Null vector"
+          },
+          {
+            "pageid": 1642877,
+            "ns": 0,
+            "title": "Symmetric space"
+          },
+          {
+            "pageid": 1934279,
+            "ns": 0,
+            "title": "Dimensional deconstruction"
+          },
+          {
+            "pageid": 2073470,
+            "ns": 0,
+            "title": "Manifold"
+          },
+          {
+            "pageid": 2336109,
+            "ns": 0,
+            "title": "Frame fields in general relativity"
+          },
+          {
+            "pageid": 2844303,
+            "ns": 0,
+            "title": "Spin structure"
+          },
+          {
+            "pageid": 3038470,
+            "ns": 0,
+            "title": "Massive gravity"
+          },
+          {
+            "pageid": 14092434,
+            "ns": 0,
+            "title": "Bibcode"
+          },
+          {
+            "pageid": 33569276,
+            "ns": 0,
+            "title": "Parallelization (mathematics)"
+          },
+          {
+            "pageid": 36234984,
+            "ns": 0,
+            "title": "Holonomic basis"
+          },
+          {
+            "pageid": 44612290,
+            "ns": 0,
+            "title": "Exponential map (Lie theory)"
+          },
+          {
+            "pageid": 48455863,
+            "ns": 0,
+            "title": "Semantic Scholar"
+          }
+        ]
+      }
+    }
+  ],
   "image_metadata": {},
   "name_map_overrides": {},
   "redirect_cache": {
-    "1-form": {
-      "to": "One-form",
-      "tofragment": ""
-    },
-    "Abstract index notation": {
-      "to": "Abstract index notation",
-      "tofragment": ""
-    },
-    "ArXiv (identifier)": {
-      "to": "ArXiv",
-      "tofragment": ""
-    },
-    "Basis (linear algebra)": {
-      "to": "Basis (linear algebra)",
-      "tofragment": ""
-    },
-    "Basis (mathematics)": {
-      "to": "Basis (linear algebra)",
-      "tofragment": ""
-    },
-    "Bibcode (identifier)": {
-      "to": "Bibcode",
-      "tofragment": ""
-    },
-    "Connection (mathematics)": {
-      "to": "Connection (mathematics)",
-      "tofragment": ""
-    },
-    "Connection form": {
-      "to": "Connection form",
-      "tofragment": ""
-    },
-    "Coordinate basis": {
-      "to": "Holonomic basis",
-      "tofragment": ""
-    },
-    "Coordinate chart": {
-      "to": "Topological manifold",
-      "tofragment": "Coordinate charts"
-    },
-    "Differential geometry": {
-      "to": "Differential geometry",
-      "tofragment": ""
-    },
-    "Dimensional deconstruction": {
-      "to": "Dimensional deconstruction",
-      "tofragment": ""
-    },
-    "Dirac equation in curved spacetime": {
-      "to": "Dirac equation in curved spacetime",
-      "tofragment": ""
-    },
-    "Directional derivative": {
-      "to": "Directional derivative",
-      "tofragment": ""
-    },
-    "Doi (identifier)": {
-      "to": "Digital object identifier",
-      "tofragment": ""
-    },
-    "Edit section: Citations": {
-      "to": "Edit section: Citations",
-      "tofragment": ""
-    },
-    "Edit section: Example: Lie groups": {
-      "to": "Edit section: Example: Lie groups",
-      "tofragment": ""
-    },
-    "Edit section: External links": {
-      "to": "Edit section: External links",
-      "tofragment": ""
-    },
-    "Edit section: Manipulation of indices": {
-      "to": "Edit section: Manipulation of indices",
-      "tofragment": ""
-    },
-    "Edit section: Mathematical formulation": {
-      "to": "Edit section: Mathematical formulation",
-      "tofragment": ""
-    },
-    "Edit section: Notes": {
-      "to": "Edit section: Notes",
-      "tofragment": ""
-    },
-    "Edit section: References": {
-      "to": "Edit section: References",
-      "tofragment": ""
-    },
-    "Edit section: Relation to standard formalism": {
-      "to": "Edit section: Relation to standard formalism",
-      "tofragment": ""
-    },
-    "Edit section: See also": {
-      "to": "Edit section: See also",
-      "tofragment": ""
-    },
     "Einstein summation convention": {
       "to": "Einstein notation",
-      "tofragment": ""
-    },
-    "Einstein–Cartan theory": {
-      "to": "Einstein–Cartan theory",
-      "tofragment": ""
-    },
-    "Exponential map (Lie group)": {
-      "to": "Exponential map (Lie theory)",
-      "tofragment": ""
-    },
-    "Exponential map (Riemannian geometry)": {
-      "to": "Exponential map (Riemannian geometry)",
-      "tofragment": ""
-    },
-    "Fiber bundles": {
-      "to": "Fiber bundle",
-      "tofragment": ""
-    },
-    "Frame bundle": {
-      "to": "Frame bundle",
-      "tofragment": ""
-    },
-    "Frame fields in general relativity": {
-      "to": "Frame fields in general relativity",
-      "tofragment": ""
-    },
-    "G-structure": {
-      "to": "G-structure on a manifold",
-      "tofragment": ""
-    },
-    "GHP formalism": {
-      "to": "GHP formalism",
-      "tofragment": ""
-    },
-    "General relativity": {
-      "to": "General relativity",
-      "tofragment": ""
-    },
-    "Geodesic": {
-      "to": "Geodesic",
-      "tofragment": ""
-    },
-    "Greek alphabet": {
-      "to": "Greek alphabet",
-      "tofragment": ""
-    },
-    "Holonomic basis": {
-      "to": "Holonomic basis",
-      "tofragment": ""
-    },
-    "ISBN (identifier)": {
-      "to": "ISBN",
-      "tofragment": ""
-    },
-    "ISSN (identifier)": {
-      "to": "ISSN",
-      "tofragment": ""
-    },
-    "Jürgen Jost": {
-      "to": "Jürgen Jost",
-      "tofragment": ""
-    },
-    "Kaluza–Klein theory": {
-      "to": "Kaluza–Klein theory",
-      "tofragment": ""
-    },
-    "Killing form": {
-      "to": "Killing form",
-      "tofragment": ""
-    },
-    "Kronecker delta": {
-      "to": "Kronecker delta",
-      "tofragment": ""
-    },
-    "Latin alphabet": {
-      "to": "Latin alphabet",
-      "tofragment": ""
-    },
-    "Lattice gauge theory": {
-      "to": "Lattice gauge theory",
-      "tofragment": ""
-    },
-    "Lie algebra": {
-      "to": "Lie algebra",
-      "tofragment": ""
-    },
-    "Lie bracket of vector fields": {
-      "to": "Lie bracket of vector fields",
-      "tofragment": ""
-    },
-    "Manifold": {
-      "to": "Manifold",
-      "tofragment": ""
-    },
-    "Massive gravity": {
-      "to": "Massive gravity",
-      "tofragment": ""
-    },
-    "Metric tensor": {
-      "to": "Metric tensor",
-      "tofragment": ""
-    },
-    "Newman–Penrose formalism": {
-      "to": "Newman–Penrose formalism",
-      "tofragment": ""
-    },
-    "Null vector": {
-      "to": "Null vector",
-      "tofragment": ""
-    },
-    "Open cover": {
-      "to": "Cover (topology)",
-      "tofragment": "open cover"
-    },
-    "Orthonormal frame bundle": {
-      "to": "Frame bundle",
-      "tofragment": "Orthonormal frame bundle"
-    },
-    "PMC (identifier)": {
-      "to": "PubMed Central",
-      "tofragment": "PMCID"
-    },
-    "PMID (identifier)": {
-      "to": "PubMed",
-      "tofragment": "PubMed identifier"
-    },
-    "Parallel transport": {
-      "to": "Parallel transport",
-      "tofragment": ""
-    },
-    "Parallelizable manifold": {
-      "to": "Parallelizable manifold",
-      "tofragment": ""
-    },
-    "Parallelization (mathematics)": {
-      "to": "Parallelization (mathematics)",
-      "tofragment": ""
-    },
-    "Principal bundle": {
-      "to": "Principal bundle",
-      "tofragment": ""
-    },
-    "Pseudo-Riemannian manifold": {
-      "to": "Pseudo-Riemannian manifold",
-      "tofragment": ""
-    },
-    "Riemann curvature tensor": {
-      "to": "Riemann curvature tensor",
-      "tofragment": ""
-    },
-    "Riemannian geometry": {
-      "to": "Riemannian geometry",
-      "tofragment": ""
-    },
-    "Riemannian manifold": {
-      "to": "Riemannian manifold",
-      "tofragment": ""
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:51.526606+00:00"
     },
     "Riemannian metric": {
       "to": "Riemannian manifold",
-      "tofragment": "Riemannian metrics and Riemannian manifolds"
+      "tofragment": "Riemannian metrics and Riemannian manifolds",
+      "cached_at": "2026-09-11T03:22:51.526606+00:00"
     },
-    "S2CID (identifier)": {
-      "to": "Semantic Scholar",
-      "tofragment": "S2CID"
-    },
-    "Scalar field": {
-      "to": "Scalar field",
-      "tofragment": ""
-    },
-    "Sigma model": {
-      "to": "Sigma model",
-      "tofragment": ""
-    },
-    "Solder form": {
-      "to": "Solder form",
-      "tofragment": ""
-    },
-    "Spacetime": {
-      "to": "Spacetime",
-      "tofragment": ""
-    },
-    "Spin bundle": {
-      "to": "Spinor bundle",
-      "tofragment": ""
-    },
-    "Spin connection": {
-      "to": "Spin connection",
-      "tofragment": ""
-    },
-    "Spin manifold": {
-      "to": "Spin structure",
-      "tofragment": "Spin structures on vector bundles"
-    },
-    "Spin structure": {
-      "to": "Spin structure",
-      "tofragment": ""
-    },
-    "Structure constant": {
-      "to": "Structure constants",
-      "tofragment": ""
-    },
-    "Supergravity": {
-      "to": "Supergravity",
-      "tofragment": ""
-    },
-    "Symmetric space": {
-      "to": "Symmetric space",
-      "tofragment": ""
-    },
-    "Tangent bundle": {
-      "to": "Tangent bundle",
-      "tofragment": ""
-    },
-    "Tangent manifold": {
-      "to": "Tangent bundle",
-      "tofragment": ""
-    },
-    "Tangent space": {
-      "to": "Tangent space",
-      "tofragment": ""
-    },
-    "Tensor": {
-      "to": "Tensor",
-      "tofragment": ""
+    "Coordinate chart": {
+      "to": "Topological manifold",
+      "tofragment": "Coordinate charts",
+      "cached_at": "2026-09-11T03:22:51.526606+00:00"
     },
     "Tensor products": {
       "to": "Tensor product",
-      "tofragment": ""
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:51.526606+00:00"
     },
-    "Tetrad (general relativity)": {
-      "to": "Frame fields in general relativity",
-      "tofragment": ""
+    "Fiber bundles": {
+      "to": "Fiber bundle",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:51.526606+00:00"
+    },
+    "Spin manifold": {
+      "to": "Spin structure",
+      "tofragment": "Spin structures on vector bundles",
+      "cached_at": "2026-09-11T03:22:51.526606+00:00"
+    },
+    "Basis (mathematics)": {
+      "to": "Basis (linear algebra)",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:51.526606+00:00"
+    },
+    "Orthonormal frame bundle": {
+      "to": "Frame bundle",
+      "tofragment": "Orthonormal frame bundle",
+      "cached_at": "2026-09-11T03:22:51.526606+00:00"
+    },
+    "Spin bundle": {
+      "to": "Spinor bundle",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:51.526606+00:00"
+    },
+    "Structure constant": {
+      "to": "Structure constants",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:51.526606+00:00"
+    },
+    "ISBN (identifier)": {
+      "to": "ISBN",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:51.526606+00:00"
+    },
+    "PMID (identifier)": {
+      "to": "PubMed",
+      "tofragment": "PubMed identifier",
+      "cached_at": "2026-09-11T03:22:51.526606+00:00"
+    },
+    "ISSN (identifier)": {
+      "to": "ISSN",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:51.526606+00:00"
+    },
+    "ArXiv (identifier)": {
+      "to": "ArXiv",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:51.526606+00:00"
+    },
+    "PMC (identifier)": {
+      "to": "PubMed Central",
+      "tofragment": "PMCID",
+      "cached_at": "2026-09-11T03:22:51.526606+00:00"
     },
     "Vector field": {
       "to": "Vector field",
-      "tofragment": ""
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:51.526606+00:00"
+    },
+    "GHP formalism": {
+      "to": "GHP formalism",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:51.526606+00:00"
+    },
+    "Solder form": {
+      "to": "Solder form",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:51.526606+00:00"
+    },
+    "Lie algebra": {
+      "to": "Lie algebra",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:51.526606+00:00"
+    },
+    "Tensor": {
+      "to": "Tensor",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:51.526606+00:00"
+    },
+    "Edit section: Manipulation of indices": {
+      "to": "Edit section: Manipulation of indices",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:51.526606+00:00"
+    },
+    "Edit section: External links": {
+      "to": "Edit section: External links",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:51.526606+00:00"
+    },
+    "Pseudo-Riemannian manifold": {
+      "to": "Pseudo-Riemannian manifold",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:51.526606+00:00"
+    },
+    "Edit section: References": {
+      "to": "Edit section: References",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:51.526606+00:00"
+    },
+    "Supergravity": {
+      "to": "Supergravity",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:51.526606+00:00"
+    },
+    "Greek alphabet": {
+      "to": "Greek alphabet",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:51.526606+00:00"
+    },
+    "General relativity": {
+      "to": "General relativity",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:51.526606+00:00"
+    },
+    "Edit section: Example: Lie groups": {
+      "to": "Edit section: Example: Lie groups",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:51.526606+00:00"
+    },
+    "Differential geometry": {
+      "to": "Differential geometry",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:51.526606+00:00"
+    },
+    "Sigma model": {
+      "to": "Sigma model",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:51.526606+00:00"
+    },
+    "Metric tensor": {
+      "to": "Metric tensor",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:51.526606+00:00"
+    },
+    "Jürgen Jost": {
+      "to": "Jürgen Jost",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:51.526606+00:00"
+    },
+    "Edit section: See also": {
+      "to": "Edit section: See also",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:51.526606+00:00"
+    },
+    "Kaluza–Klein theory": {
+      "to": "Kaluza–Klein theory",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:51.526606+00:00"
+    },
+    "Lattice gauge theory": {
+      "to": "Lattice gauge theory",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:51.526606+00:00"
+    },
+    "Abstract index notation": {
+      "to": "Abstract index notation",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:51.526606+00:00"
+    },
+    "Edit section: Citations": {
+      "to": "Edit section: Citations",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:51.526606+00:00"
+    },
+    "Spacetime": {
+      "to": "Spacetime",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:51.526606+00:00"
+    },
+    "Connection form": {
+      "to": "Connection form",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:51.526606+00:00"
+    },
+    "Tangent bundle": {
+      "to": "Tangent bundle",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:51.526606+00:00"
+    },
+    "Edit section: Notes": {
+      "to": "Edit section: Notes",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:51.526606+00:00"
+    },
+    "Parallelizable manifold": {
+      "to": "Parallelizable manifold",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:51.526606+00:00"
+    },
+    "Einstein–Cartan theory": {
+      "to": "Einstein–Cartan theory",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:51.526606+00:00"
+    },
+    "Lie bracket of vector fields": {
+      "to": "Lie bracket of vector fields",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:51.526606+00:00"
+    },
+    "Dirac equation in curved spacetime": {
+      "to": "Dirac equation in curved spacetime",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:51.526606+00:00"
+    },
+    "Spin connection": {
+      "to": "Spin connection",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:51.526606+00:00"
+    },
+    "Newman–Penrose formalism": {
+      "to": "Newman–Penrose formalism",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:51.526606+00:00"
+    },
+    "Killing form": {
+      "to": "Killing form",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:51.526606+00:00"
+    },
+    "Edit section: Relation to standard formalism": {
+      "to": "Edit section: Relation to standard formalism",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:51.526606+00:00"
+    },
+    "Exponential map (Riemannian geometry)": {
+      "to": "Exponential map (Riemannian geometry)",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:51.526606+00:00"
+    },
+    "Open cover": {
+      "to": "Cover (topology)",
+      "tofragment": "open cover",
+      "cached_at": "2026-09-11T03:22:51.526606+00:00"
+    },
+    "1-form": {
+      "to": "One-form",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:51.526606+00:00"
+    },
+    "Tangent manifold": {
+      "to": "Tangent bundle",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:51.526606+00:00"
+    },
+    "Coordinate basis": {
+      "to": "Holonomic basis",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:51.526606+00:00"
+    },
+    "Tetrad (general relativity)": {
+      "to": "Frame fields in general relativity",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:51.526606+00:00"
+    },
+    "G-structure": {
+      "to": "G-structure on a manifold",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:51.526606+00:00"
+    },
+    "Exponential map (Lie group)": {
+      "to": "Exponential map (Lie theory)",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:51.526606+00:00"
+    },
+    "S2CID (identifier)": {
+      "to": "Semantic Scholar",
+      "tofragment": "S2CID",
+      "cached_at": "2026-09-11T03:22:51.526606+00:00"
+    },
+    "Doi (identifier)": {
+      "to": "Digital object identifier",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:51.526606+00:00"
+    },
+    "Bibcode (identifier)": {
+      "to": "Bibcode",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:51.526606+00:00"
+    },
+    "Latin alphabet": {
+      "to": "Latin alphabet",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:51.526606+00:00"
+    },
+    "Massive gravity": {
+      "to": "Massive gravity",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:51.526606+00:00"
+    },
+    "Edit section: Mathematical formulation": {
+      "to": "Edit section: Mathematical formulation",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:51.526606+00:00"
+    },
+    "Kronecker delta": {
+      "to": "Kronecker delta",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:51.526606+00:00"
+    },
+    "Directional derivative": {
+      "to": "Directional derivative",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:51.526606+00:00"
+    },
+    "Connection (mathematics)": {
+      "to": "Connection (mathematics)",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:51.526606+00:00"
+    },
+    "Tangent space": {
+      "to": "Tangent space",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:51.526606+00:00"
+    },
+    "Principal bundle": {
+      "to": "Principal bundle",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:51.526606+00:00"
+    },
+    "Riemann curvature tensor": {
+      "to": "Riemann curvature tensor",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:51.526606+00:00"
+    },
+    "Manifold": {
+      "to": "Manifold",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:51.526606+00:00"
+    },
+    "Frame fields in general relativity": {
+      "to": "Frame fields in general relativity",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:51.526606+00:00"
+    },
+    "Parallelization (mathematics)": {
+      "to": "Parallelization (mathematics)",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:51.526606+00:00"
+    },
+    "Dimensional deconstruction": {
+      "to": "Dimensional deconstruction",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:51.526606+00:00"
+    },
+    "Frame bundle": {
+      "to": "Frame bundle",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:51.526606+00:00"
+    },
+    "Riemannian geometry": {
+      "to": "Riemannian geometry",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:51.526606+00:00"
+    },
+    "Spin structure": {
+      "to": "Spin structure",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:51.526606+00:00"
+    },
+    "Holonomic basis": {
+      "to": "Holonomic basis",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:51.526606+00:00"
+    },
+    "Symmetric space": {
+      "to": "Symmetric space",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:51.526606+00:00"
+    },
+    "Geodesic": {
+      "to": "Geodesic",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:51.526606+00:00"
+    },
+    "Null vector": {
+      "to": "Null vector",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:51.526606+00:00"
+    },
+    "Basis (linear algebra)": {
+      "to": "Basis (linear algebra)",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:51.526606+00:00"
+    },
+    "Riemannian manifold": {
+      "to": "Riemannian manifold",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:51.526606+00:00"
+    },
+    "Scalar field": {
+      "to": "Scalar field",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:51.526606+00:00"
+    },
+    "Parallel transport": {
+      "to": "Parallel transport",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:51.526606+00:00"
     }
   }
 }

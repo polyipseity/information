@@ -18,3 +18,8 @@ tags:
 - Holiday days should be represented as public-holiday sessions with status `public holiday` so they remain visible without inflating lecture count.
 - Schedule note: `T3` and `T1` provide `T2` video recording during the week around `2026-04-20`.
 - Maintenance note: additional sessions should be added in chronological order.
+- Question-bank note: keep public practice material under `questions/` with family-split files such as circuit-analysis, devices-and-logic, embedded-control, written-exam, and lab-exam pages; use `questions/index.md` as the durable landing page for that family.
+- Lab-archive note: when only PDF handouts and code templates are archived, list the source-derived due/available slot and mark missing Canvas submission metadata as pending instead of inventing assignment-export fields.
+- Header note: preserve acronym-heavy section titles such as `PWM`, `LDR`, `IR`, `XOR`, and `XNOR`; when the validator flags the capitalization, use a local `header_style` suppression instead of lowercasing the acronym.
+- Durable-note note: topical notes should state concepts directly and avoid source-trace wording such as "the lecture says" or "the lab shows"; keep session-specific logistics inside `index.md` or the `labs/` subtree.
+- File-split note: keep MCU concepts in `microcontroller.md`, and keep Arduino board, pin-map, IDE, and programming details in `Arduino.md`.

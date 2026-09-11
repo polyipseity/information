@@ -39,7 +39,7 @@ __<span style="color: #e62429">Update (09/02/2026, 8:45 PM): Small typo in Quest
 
 ## submission
 
-- submission: [`HKUST MATH 2431 - problem set 1.pdf`](submission/HKUST%20MATH%202431%20-%20problem%20set%201.pdf)
+- file: [`HKUST MATH 2431 - problem set 1.pdf`](submission/HKUST%20MATH%202431%20-%20problem%20set%201.pdf)
     - metadata: [`submission.yml`](submission.yml)
     - source: [`HKUST MATH 2431 problem set 1.md`](submission/HKUST%20MATH%202431%20problem%20set%201.md)
 

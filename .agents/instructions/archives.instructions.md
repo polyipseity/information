@@ -24,15 +24,6 @@ applyTo: "archives/**/*.md"
     - Users manually add files with chosen filenames
     - Entry in `index.md` must include source URL, timestamp, and description
 
-## Future Expansion
-
-Additional archive categories may be added as needed:
-
-- `archives/datasets/`: Research datasets, CSV files
-- `archives/papers/`: Academic papers, preprints
-- `archives/books/`: E-books, full-length texts
-- `archives/code/`: Archived source code, repos
-
 ## index.md Format
 
 __Required metadata for each entry__:
@@ -52,18 +43,6 @@ __Example__:
   - Downloaded: 2024-01-20
 ```
 
-__Automation__: Archive content can be manually indexed with `index.md` files.
+## Developer tooling
 
-## Best Practices
-
-- Use descriptive filenames when human-readability matters
-- Use content hashes when deduplication is critical
-- Keep `index.md` updated (manually or via pyarchivist)
-- Preserve existing archive structure; don't reorganize without reason
-- Link to archives from notes using relative paths
-
-## Developer tooling & tests (archives)
-
-- Tools that write to `archives/` (for example, pyarchivist scripts) must include tests that verify `index.md` entries, timestamp formats, and that media are downloaded to the expected path. Prefer adding tests that run against a temporary directory (`tmp_path: os.PathLike[str]`)—annotate the `tmp_path` fixture as `PathLike[str]`—and that assert index updates and idempotency. When your test needs a string path, convert with `os.fspath(path_like)` rather than `str(path_like)`.
-- Async archive tools should abide by the repo-wide AnyIO/Asyncer conventions; avoid `asyncio` and import helpers like `create_task_group`, `soonify`, and `asyncify` from Asyncer.
-- When adding archive tooling, document its invariants in the `archives/` `index.md` and add CI checks where appropriate.
+Tools writing to `archives/` must include tests (use `tmp_path: os.PathLike[str]`, convert paths with `os.fspath(path_like)`). Follow repo AnyIO/Asyncer conventions for async tools. Document invariants in `archives/index.md`.

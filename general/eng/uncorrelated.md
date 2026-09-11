@@ -1,1 +1,1 @@
-uncorrelatedness (probability theory).md
+uncorrelatedness.md

@@ -8,7 +8,7 @@ tags:
   - language/in/English
 ---
 
-<!-- check: ignore-file[index_heading,index_children]: assignment-style index for lab 2 -->
+<!-- check: ignore-file[index_heading]: assignment-style index for lab 2 -->
 
 # lab 2
 
@@ -32,7 +32,15 @@ No additional details were added for this assignment.
 
 - [Lab2_2026s.pdf](attachments/Lab2_2026s.pdf)
 - [Lab2_SummarySheet_2026s.docx](attachments/Lab2_SummarySheet_2026s.docx)
+- [Lab2_SummarySheet_2026s.pdf](attachments/Lab2_SummarySheet_2026s.pdf)
 
 ## submission
 
-- [submission.docx](submission.docx)
+- file: [`submission.docx`](submission/submission.docx)
+    - metadata: [`submission.yml`](submission.yml)
+- in-class submission
+    - metadata: [`lab.yml`](lab.yml)
+
+## children
+
+- [lab](lab.md)

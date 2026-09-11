@@ -1,1 +1,0 @@
-eng/theories of truth.md

@@ -1,1729 +1,3675 @@
 {
+  "api_responses": [
+    {
+      "batchcomplete": true,
+      "query": {
+        "redirects": [
+          {
+            "from": "SI",
+            "to": "International System of Units"
+          },
+          {
+            "from": "Exterior form",
+            "to": "Differential form"
+          },
+          {
+            "from": "Meter second",
+            "to": "Absement"
+          }
+        ],
+        "pages": [
+          {
+            "ns": 0,
+            "title": "Edit section: Parallel axis theorem",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: Examples",
+            "missing": true
+          },
+          {
+            "pageid": 1196,
+            "ns": 0,
+            "title": "Angle"
+          },
+          {
+            "pageid": 2443,
+            "ns": 0,
+            "title": "Acceleration"
+          },
+          {
+            "pageid": 8267,
+            "ns": 0,
+            "title": "Dimensional analysis"
+          },
+          {
+            "pageid": 9251,
+            "ns": 0,
+            "title": "Engineering"
+          },
+          {
+            "pageid": 10902,
+            "ns": 0,
+            "title": "Force"
+          },
+          {
+            "pageid": 15942,
+            "ns": 0,
+            "title": "John von Neumann"
+          },
+          {
+            "pageid": 17327,
+            "ns": 0,
+            "title": "Kinetic energy"
+          },
+          {
+            "pageid": 19048,
+            "ns": 0,
+            "title": "Mass"
+          },
+          {
+            "pageid": 19983,
+            "ns": 0,
+            "title": "Central moment"
+          },
+          {
+            "pageid": 26764,
+            "ns": 0,
+            "title": "International System of Units"
+          },
+          {
+            "pageid": 32370,
+            "ns": 0,
+            "title": "Vector space"
+          },
+          {
+            "pageid": 42127,
+            "ns": 0,
+            "title": "Christiaan Huygens"
+          },
+          {
+            "pageid": 59718,
+            "ns": 0,
+            "title": "Identity matrix"
+          },
+          {
+            "pageid": 65927,
+            "ns": 0,
+            "title": "Angular velocity"
+          },
+          {
+            "pageid": 74263,
+            "ns": 0,
+            "title": "Frame of reference"
+          },
+          {
+            "pageid": 99242,
+            "ns": 0,
+            "title": "Hermann Grassmann"
+          },
+          {
+            "pageid": 102182,
+            "ns": 0,
+            "title": "Celestial mechanics"
+          },
+          {
+            "pageid": 173961,
+            "ns": 0,
+            "title": "Center of mass"
+          },
+          {
+            "pageid": 185427,
+            "ns": 0,
+            "title": "Function (mathematics)"
+          },
+          {
+            "pageid": 195982,
+            "ns": 0,
+            "title": "Levi-Civita symbol"
+          },
+          {
+            "pageid": 199829,
+            "ns": 0,
+            "title": "Angular frequency"
+          },
+          {
+            "pageid": 202772,
+            "ns": 0,
+            "title": "Mixed tensor"
+          },
+          {
+            "pageid": 221519,
+            "ns": 0,
+            "title": "Differential form"
+          },
+          {
+            "pageid": 256738,
+            "ns": 0,
+            "title": "Tensor field"
+          },
+          {
+            "pageid": 341810,
+            "ns": 0,
+            "title": "Joseph Liouville"
+          },
+          {
+            "pageid": 431848,
+            "ns": 0,
+            "title": "Covariant derivative"
+          },
+          {
+            "pageid": 499429,
+            "ns": 0,
+            "title": "D'Alembert's principle"
+          },
+          {
+            "pageid": 997260,
+            "ns": 0,
+            "title": "Specific angular momentum"
+          },
+          {
+            "pageid": 1026848,
+            "ns": 0,
+            "title": "Weyl tensor"
+          },
+          {
+            "pageid": 1920694,
+            "ns": 0,
+            "title": "Volume element"
+          },
+          {
+            "pageid": 2023218,
+            "ns": 0,
+            "title": "Bernard Koopman"
+          },
+          {
+            "pageid": 2727288,
+            "ns": 0,
+            "title": "Multivector"
+          },
+          {
+            "pageid": 3096395,
+            "ns": 0,
+            "title": "Rotation around a fixed axis"
+          },
+          {
+            "pageid": 3406245,
+            "ns": 0,
+            "title": "Routhian mechanics"
+          },
+          {
+            "pageid": 3588425,
+            "ns": 0,
+            "title": "Scalar (physics)"
+          },
+          {
+            "pageid": 4562902,
+            "ns": 0,
+            "title": "Radian per second"
+          },
+          {
+            "pageid": 4946686,
+            "ns": 0,
+            "title": "Relative velocity"
+          },
+          {
+            "pageid": 5095393,
+            "ns": 0,
+            "title": "Poinsot's ellipsoid"
+          },
+          {
+            "pageid": 16652317,
+            "ns": 0,
+            "title": "Linear motion"
+          },
+          {
+            "pageid": 17593800,
+            "ns": 0,
+            "title": "Kinetics (physics)"
+          },
+          {
+            "pageid": 20556859,
+            "ns": 0,
+            "title": "Matrix (mathematics)"
+          },
+          {
+            "pageid": 21347693,
+            "ns": 0,
+            "title": "Watt"
+          },
+          {
+            "pageid": 27147535,
+            "ns": 0,
+            "title": "Transport phenomena"
+          },
+          {
+            "pageid": 36402903,
+            "ns": 0,
+            "title": "Tangential speed"
+          },
+          {
+            "pageid": 36858805,
+            "ns": 0,
+            "title": "Edmond Halley"
+          },
+          {
+            "pageid": 37704906,
+            "ns": 0,
+            "title": "Koopman–von Neumann classical mechanics"
+          },
+          {
+            "pageid": 41974836,
+            "ns": 0,
+            "title": "Moment of inertia factor"
+          },
+          {
+            "pageid": 48938687,
+            "ns": 0,
+            "title": "Absement"
+          }
+        ]
+      }
+    },
+    {
+      "batchcomplete": true,
+      "query": {
+        "redirects": [
+          {
+            "from": "Kinematic viscosity",
+            "to": "Viscosity",
+            "tofragment": "Kinematic viscosity"
+          },
+          {
+            "from": "Angular speed",
+            "to": "Angular frequency"
+          },
+          {
+            "from": "Euler's laws",
+            "to": "Euler's laws of motion"
+          },
+          {
+            "from": "Rotational acceleration",
+            "to": "Rotational frequency"
+          },
+          {
+            "from": "Position (vector)",
+            "to": "Position (geometry)"
+          },
+          {
+            "from": "Newton second",
+            "to": "Newton-second"
+          }
+        ],
+        "pages": [
+          {
+            "ns": 0,
+            "title": "Edit section: Motion in space of a rigid body, and the inertia matrix",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: Inertia tensor of translation",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: Introduction",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: Inertia matrix in different reference frames",
+            "missing": true
+          },
+          {
+            "pageid": 2839,
+            "ns": 0,
+            "title": "Angular momentum"
+          },
+          {
+            "pageid": 6125,
+            "ns": 0,
+            "title": "Carl Friedrich Gauss"
+          },
+          {
+            "pageid": 9417,
+            "ns": 0,
+            "title": "Euclidean geometry"
+          },
+          {
+            "pageid": 12024,
+            "ns": 0,
+            "title": "General relativity"
+          },
+          {
+            "pageid": 15492,
+            "ns": 0,
+            "title": "Imperial units"
+          },
+          {
+            "pageid": 15736,
+            "ns": 0,
+            "title": "Johannes Kepler"
+          },
+          {
+            "pageid": 18420,
+            "ns": 0,
+            "title": "Basis (linear algebra)"
+          },
+          {
+            "pageid": 18947,
+            "ns": 0,
+            "title": "Metre"
+          },
+          {
+            "pageid": 20580,
+            "ns": 0,
+            "title": "Motion"
+          },
+          {
+            "pageid": 22939,
+            "ns": 0,
+            "title": "Physics"
+          },
+          {
+            "pageid": 29965,
+            "ns": 0,
+            "title": "Tensor"
+          },
+          {
+            "pageid": 30844,
+            "ns": 0,
+            "title": "Tensor product"
+          },
+          {
+            "pageid": 39686,
+            "ns": 0,
+            "title": "Figure skating spins"
+          },
+          {
+            "pageid": 39817,
+            "ns": 0,
+            "title": "William Rowan Hamilton"
+          },
+          {
+            "pageid": 44670,
+            "ns": 0,
+            "title": "Siméon Denis Poisson"
+          },
+          {
+            "pageid": 55212,
+            "ns": 0,
+            "title": "Newton's laws of motion"
+          },
+          {
+            "pageid": 58764,
+            "ns": 0,
+            "title": "Timeline of classical mechanics"
+          },
+          {
+            "pageid": 65914,
+            "ns": 0,
+            "title": "Kinematics"
+          },
+          {
+            "pageid": 87793,
+            "ns": 0,
+            "title": "Joseph-Louis Lagrange"
+          },
+          {
+            "pageid": 126474,
+            "ns": 0,
+            "title": "Symmetric matrix"
+          },
+          {
+            "pageid": 130526,
+            "ns": 0,
+            "title": "Riemann curvature tensor"
+          },
+          {
+            "pageid": 145381,
+            "ns": 0,
+            "title": "Ellipsoid"
+          },
+          {
+            "pageid": 157092,
+            "ns": 0,
+            "title": "Cross product"
+          },
+          {
+            "pageid": 157093,
+            "ns": 0,
+            "title": "Dot product"
+          },
+          {
+            "pageid": 195407,
+            "ns": 0,
+            "title": "Einstein notation"
+          },
+          {
+            "pageid": 199829,
+            "ns": 0,
+            "title": "Angular frequency"
+          },
+          {
+            "pageid": 320026,
+            "ns": 0,
+            "title": "Index notation"
+          },
+          {
+            "pageid": 455769,
+            "ns": 0,
+            "title": "Rigid body"
+          },
+          {
+            "pageid": 468843,
+            "ns": 0,
+            "title": "List of moments of inertia"
+          },
+          {
+            "pageid": 813086,
+            "ns": 0,
+            "title": "Rotational frequency"
+          },
+          {
+            "pageid": 898792,
+            "ns": 0,
+            "title": "Euler's equations (rigid body dynamics)"
+          },
+          {
+            "pageid": 1209823,
+            "ns": 0,
+            "title": "Rotating reference frame"
+          },
+          {
+            "pageid": 1266589,
+            "ns": 0,
+            "title": "Point particle"
+          },
+          {
+            "pageid": 1345771,
+            "ns": 0,
+            "title": "Position (geometry)"
+          },
+          {
+            "pageid": 1912367,
+            "ns": 0,
+            "title": "Electromagnetic tensor"
+          },
+          {
+            "pageid": 2244399,
+            "ns": 0,
+            "title": "Newton-second"
+          },
+          {
+            "pageid": 2973987,
+            "ns": 0,
+            "title": "Penrose graphical notation"
+          },
+          {
+            "pageid": 4140245,
+            "ns": 0,
+            "title": "Operation (mathematics)"
+          },
+          {
+            "pageid": 4562815,
+            "ns": 0,
+            "title": "Applied mechanics"
+          },
+          {
+            "pageid": 8227451,
+            "ns": 0,
+            "title": "Symmetrization"
+          },
+          {
+            "pageid": 18963754,
+            "ns": 0,
+            "title": "Viscosity"
+          },
+          {
+            "pageid": 19265670,
+            "ns": 0,
+            "title": "Centrifugal force"
+          },
+          {
+            "pageid": 20646772,
+            "ns": 0,
+            "title": "Vibration"
+          },
+          {
+            "pageid": 22222481,
+            "ns": 0,
+            "title": "Euler's laws of motion"
+          },
+          {
+            "pageid": 38184895,
+            "ns": 0,
+            "title": "Gluon field strength tensor"
+          }
+        ]
+      }
+    },
+    {
+      "batchcomplete": true,
+      "query": {
+        "redirects": [
+          {
+            "from": "SI unit",
+            "to": "International System of Units"
+          },
+          {
+            "from": "Jean le Rond d'Alembert",
+            "to": "Jean Le Rond d'Alembert"
+          },
+          {
+            "from": "Tightrope walker",
+            "to": "Tightrope walking"
+          },
+          {
+            "from": "Kilogram square metre",
+            "to": "Moment of inertia"
+          },
+          {
+            "from": "Compound pendulum",
+            "to": "Pendulum",
+            "tofragment": "Compound pendulum"
+          },
+          {
+            "from": "Rotational speed",
+            "to": "Rotational frequency"
+          }
+        ],
+        "pages": [
+          {
+            "ns": 0,
+            "title": "Edit section: Body frame",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: See also",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: Inertia tensor of rotation",
+            "missing": true
+          },
+          {
+            "pageid": 5918,
+            "ns": 0,
+            "title": "Continuum mechanics"
+          },
+          {
+            "pageid": 8402,
+            "ns": 0,
+            "title": "Diving (sport)"
+          },
+          {
+            "pageid": 8625,
+            "ns": 0,
+            "title": "Differential geometry"
+          },
+          {
+            "pageid": 9532,
+            "ns": 0,
+            "title": "Electromagnetism"
+          },
+          {
+            "pageid": 10779,
+            "ns": 0,
+            "title": "Frequency"
+          },
+          {
+            "pageid": 16619,
+            "ns": 0,
+            "title": "Kilogram"
+          },
+          {
+            "pageid": 17902,
+            "ns": 0,
+            "title": "Leonhard Euler"
+          },
+          {
+            "pageid": 18831,
+            "ns": 0,
+            "title": "Mathematics"
+          },
+          {
+            "pageid": 20431,
+            "ns": 0,
+            "title": "Momentum"
+          },
+          {
+            "pageid": 26003,
+            "ns": 0,
+            "title": "Radian"
+          },
+          {
+            "pageid": 26764,
+            "ns": 0,
+            "title": "International System of Units"
+          },
+          {
+            "pageid": 28748,
+            "ns": 0,
+            "title": "Speed"
+          },
+          {
+            "pageid": 29276,
+            "ns": 0,
+            "title": "Spinor"
+          },
+          {
+            "pageid": 30012,
+            "ns": 0,
+            "title": "Time"
+          },
+          {
+            "pageid": 30400,
+            "ns": 0,
+            "title": "Torque"
+          },
+          {
+            "pageid": 42709,
+            "ns": 0,
+            "title": "Pendulum"
+          },
+          {
+            "pageid": 51182,
+            "ns": 0,
+            "title": "Jean Le Rond d'Alembert"
+          },
+          {
+            "pageid": 72540,
+            "ns": 0,
+            "title": "Newton (unit)"
+          },
+          {
+            "pageid": 74366,
+            "ns": 0,
+            "title": "Square metre"
+          },
+          {
+            "pageid": 76425,
+            "ns": 0,
+            "title": "Kater's pendulum"
+          },
+          {
+            "pageid": 157700,
+            "ns": 0,
+            "title": "Moment of inertia"
+          },
+          {
+            "pageid": 167053,
+            "ns": 0,
+            "title": "Unit vector"
+          },
+          {
+            "pageid": 172253,
+            "ns": 0,
+            "title": "Woldemar Voigt"
+          },
+          {
+            "pageid": 173844,
+            "ns": 0,
+            "title": "Transpose"
+          },
+          {
+            "pageid": 195795,
+            "ns": 0,
+            "title": "Metric tensor"
+          },
+          {
+            "pageid": 215754,
+            "ns": 0,
+            "title": "Newton-metre"
+          },
+          {
+            "pageid": 249176,
+            "ns": 0,
+            "title": "Levi-Civita connection"
+          },
+          {
+            "pageid": 255059,
+            "ns": 0,
+            "title": "Tensor (intrinsic definition)"
+          },
+          {
+            "pageid": 268886,
+            "ns": 0,
+            "title": "Johann Bernoulli"
+          },
+          {
+            "pageid": 294370,
+            "ns": 0,
+            "title": "Jacobi identity"
+          },
+          {
+            "pageid": 294437,
+            "ns": 0,
+            "title": "Lie derivative"
+          },
+          {
+            "pageid": 302015,
+            "ns": 0,
+            "title": "Spinning top"
+          },
+          {
+            "pageid": 344783,
+            "ns": 0,
+            "title": "Pierre-Simon Laplace"
+          },
+          {
+            "pageid": 511445,
+            "ns": 0,
+            "title": "Tightrope walking"
+          },
+          {
+            "pageid": 604268,
+            "ns": 0,
+            "title": "Multi-index notation"
+          },
+          {
+            "pageid": 813086,
+            "ns": 0,
+            "title": "Rotational frequency"
+          },
+          {
+            "pageid": 1293340,
+            "ns": 0,
+            "title": "Classical field theory"
+          },
+          {
+            "pageid": 1436668,
+            "ns": 0,
+            "title": "Voigt notation"
+          },
+          {
+            "pageid": 1674987,
+            "ns": 0,
+            "title": "Abstract index notation"
+          },
+          {
+            "pageid": 2145168,
+            "ns": 0,
+            "title": "Metric tensor (general relativity)"
+          },
+          {
+            "pageid": 11694119,
+            "ns": 0,
+            "title": "Inverse second"
+          },
+          {
+            "pageid": 13556959,
+            "ns": 0,
+            "title": "Perpendicular distance"
+          },
+          {
+            "pageid": 17137358,
+            "ns": 0,
+            "title": "Reactive centrifugal force"
+          },
+          {
+            "pageid": 23371726,
+            "ns": 0,
+            "title": "Lagrangian mechanics"
+          },
+          {
+            "pageid": 35669023,
+            "ns": 0,
+            "title": "Tensors in curvilinear coordinates"
+          },
+          {
+            "pageid": 48938687,
+            "ns": 0,
+            "title": "Absement"
+          }
+        ]
+      }
+    },
+    {
+      "batchcomplete": true,
+      "query": {
+        "redirects": [
+          {
+            "from": "Tensor calculus",
+            "to": "Ricci calculus"
+          },
+          {
+            "from": "Raising and lowering indices",
+            "to": "Musical isomorphism"
+          },
+          {
+            "from": "Center of oscillation",
+            "to": "Center of percussion"
+          },
+          {
+            "from": "Mechanical system",
+            "to": "Machine",
+            "tofragment": "Mechanical systems"
+          },
+          {
+            "from": "Kilogram metre per second",
+            "to": "Newton-second"
+          },
+          {
+            "from": "Mechanical power (physics)",
+            "to": "Power (physics)",
+            "tofragment": "Mechanical power"
+          }
+        ],
+        "pages": [
+          {
+            "ns": 0,
+            "title": "Edit section: Angular momentum",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: Alternate inertia convention",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: References",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: External links",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: Point mass",
+            "missing": true
+          },
+          {
+            "pageid": 6596,
+            "ns": 0,
+            "title": "Computer vision"
+          },
+          {
+            "pageid": 7534,
+            "ns": 0,
+            "title": "Centripetal force"
+          },
+          {
+            "pageid": 8398,
+            "ns": 0,
+            "title": "Dimension"
+          },
+          {
+            "pageid": 9649,
+            "ns": 0,
+            "title": "Energy"
+          },
+          {
+            "pageid": 13899,
+            "ns": 0,
+            "title": "Harmonic oscillator"
+          },
+          {
+            "pageid": 14838,
+            "ns": 0,
+            "title": "Inertial frame of reference"
+          },
+          {
+            "pageid": 14909,
+            "ns": 0,
+            "title": "Inertia"
+          },
+          {
+            "pageid": 17730,
+            "ns": 0,
+            "title": "Latin"
+          },
+          {
+            "pageid": 23703,
+            "ns": 0,
+            "title": "Potential energy"
+          },
+          {
+            "pageid": 23905,
+            "ns": 0,
+            "title": "Platonic solid"
+          },
+          {
+            "pageid": 24236,
+            "ns": 0,
+            "title": "Power (physics)"
+          },
+          {
+            "pageid": 28481,
+            "ns": 0,
+            "title": "Statistical mechanics"
+          },
+          {
+            "pageid": 32308,
+            "ns": 0,
+            "title": "United States customary units"
+          },
+          {
+            "pageid": 37438,
+            "ns": 0,
+            "title": "Complex system"
+          },
+          {
+            "pageid": 41660,
+            "ns": 0,
+            "title": "Resonance"
+          },
+          {
+            "pageid": 44590,
+            "ns": 0,
+            "title": "Radius of gyration"
+          },
+          {
+            "pageid": 46784,
+            "ns": 0,
+            "title": "Daniel Bernoulli"
+          },
+          {
+            "pageid": 51462,
+            "ns": 0,
+            "title": "Machine"
+          },
+          {
+            "pageid": 65913,
+            "ns": 0,
+            "title": "Equations of motion"
+          },
+          {
+            "pageid": 81931,
+            "ns": 0,
+            "title": "Coordinate system"
+          },
+          {
+            "pageid": 94102,
+            "ns": 0,
+            "title": "Solid angle"
+          },
+          {
+            "pageid": 198319,
+            "ns": 0,
+            "title": "Hamiltonian mechanics"
+          },
+          {
+            "pageid": 220782,
+            "ns": 0,
+            "title": "Exterior derivative"
+          },
+          {
+            "pageid": 276582,
+            "ns": 0,
+            "title": "Ricci curvature"
+          },
+          {
+            "pageid": 363628,
+            "ns": 0,
+            "title": "Tensor algebra"
+          },
+          {
+            "pageid": 454450,
+            "ns": 0,
+            "title": "Analytical mechanics"
+          },
+          {
+            "pageid": 607690,
+            "ns": 0,
+            "title": "Affine connection"
+          },
+          {
+            "pageid": 696955,
+            "ns": 0,
+            "title": "Antisymmetric tensor"
+          },
+          {
+            "pageid": 849738,
+            "ns": 0,
+            "title": "Exterior covariant derivative"
+          },
+          {
+            "pageid": 852713,
+            "ns": 0,
+            "title": "Grandfather clock"
+          },
+          {
+            "pageid": 859275,
+            "ns": 0,
+            "title": "Displacement (geometry)"
+          },
+          {
+            "pageid": 897539,
+            "ns": 0,
+            "title": "Hamilton–Jacobi equation"
+          },
+          {
+            "pageid": 1744868,
+            "ns": 0,
+            "title": "Damping"
+          },
+          {
+            "pageid": 2233179,
+            "ns": 0,
+            "title": "Edward Routh"
+          },
+          {
+            "pageid": 2244399,
+            "ns": 0,
+            "title": "Newton-second"
+          },
+          {
+            "pageid": 2664158,
+            "ns": 0,
+            "title": "Center of percussion"
+          },
+          {
+            "pageid": 2757224,
+            "ns": 0,
+            "title": "Multiple integral"
+          },
+          {
+            "pageid": 2862062,
+            "ns": 0,
+            "title": "Jan Arnoldus Schouten"
+          },
+          {
+            "pageid": 3762980,
+            "ns": 0,
+            "title": "Musical isomorphism"
+          },
+          {
+            "pageid": 9058508,
+            "ns": 0,
+            "title": "Seconds pendulum"
+          },
+          {
+            "pageid": 9559591,
+            "ns": 0,
+            "title": "Tire balance"
+          },
+          {
+            "pageid": 11717900,
+            "ns": 0,
+            "title": "Appell's equation of motion"
+          },
+          {
+            "pageid": 17928005,
+            "ns": 0,
+            "title": "Dyadics"
+          },
+          {
+            "pageid": 23218956,
+            "ns": 0,
+            "title": "Vector (mathematics and physics)"
+          },
+          {
+            "pageid": 35456546,
+            "ns": 0,
+            "title": "Ricci calculus"
+          }
+        ]
+      }
+    },
+    {
+      "batchcomplete": true,
+      "query": {
+        "redirects": [
+          {
+            "from": "Conservation of angular momentum",
+            "to": "Angular momentum",
+            "tofragment": "Conservation of angular momentum"
+          },
+          {
+            "from": "Gravimeter",
+            "to": "Gravimetry",
+            "tofragment": "Gravimeters"
+          },
+          {
+            "from": "Rotational velocity",
+            "to": "Rotational frequency"
+          },
+          {
+            "from": "Radian per second squared",
+            "to": "Angular acceleration"
+          },
+          {
+            "from": "Kilogram square metre per second",
+            "to": "Joule-second"
+          },
+          {
+            "from": "Doi (identifier)",
+            "to": "Digital object identifier"
+          }
+        ],
+        "pages": [
+          {
+            "ns": 0,
+            "title": "Edit section: Moment of inertia of area",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: Inertia tensor",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: Measuring moment of inertia",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: Kinetic energy",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: Derivation of the tensor components",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: Center of oscillation",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: Motion in a fixed plane",
+            "missing": true
+          },
+          {
+            "pageid": 736,
+            "ns": 0,
+            "title": "Albert Einstein"
+          },
+          {
+            "pageid": 2839,
+            "ns": 0,
+            "title": "Angular momentum"
+          },
+          {
+            "pageid": 16290,
+            "ns": 0,
+            "title": "Jerk (physics)"
+          },
+          {
+            "pageid": 18902,
+            "ns": 0,
+            "title": "Mathematician"
+          },
+          {
+            "pageid": 26764,
+            "ns": 0,
+            "title": "International System of Units"
+          },
+          {
+            "pageid": 28437,
+            "ns": 0,
+            "title": "Simple harmonic motion"
+          },
+          {
+            "pageid": 42709,
+            "ns": 0,
+            "title": "Pendulum"
+          },
+          {
+            "pageid": 52027,
+            "ns": 0,
+            "title": "Niagara River"
+          },
+          {
+            "pageid": 65929,
+            "ns": 0,
+            "title": "Angular acceleration"
+          },
+          {
+            "pageid": 67231,
+            "ns": 0,
+            "title": "Metre per second"
+          },
+          {
+            "pageid": 89480,
+            "ns": 0,
+            "title": "Flywheel"
+          },
+          {
+            "pageid": 103109,
+            "ns": 0,
+            "title": "Outer product"
+          },
+          {
+            "pageid": 187544,
+            "ns": 0,
+            "title": "Hermann Weyl"
+          },
+          {
+            "pageid": 187926,
+            "ns": 0,
+            "title": "Centroid"
+          },
+          {
+            "pageid": 202722,
+            "ns": 0,
+            "title": "Tensor contraction"
+          },
+          {
+            "pageid": 202886,
+            "ns": 0,
+            "title": "Covariance and contravariance of vectors"
+          },
+          {
+            "pageid": 226020,
+            "ns": 0,
+            "title": "Dynamics (mechanics)"
+          },
+          {
+            "pageid": 243946,
+            "ns": 0,
+            "title": "Multilinear algebra"
+          },
+          {
+            "pageid": 276526,
+            "ns": 0,
+            "title": "Fiber bundle"
+          },
+          {
+            "pageid": 278366,
+            "ns": 0,
+            "title": "Moment (physics)"
+          },
+          {
+            "pageid": 422994,
+            "ns": 0,
+            "title": "Digital object identifier"
+          },
+          {
+            "pageid": 531239,
+            "ns": 0,
+            "title": "Rotational spectroscopy"
+          },
+          {
+            "pageid": 813086,
+            "ns": 0,
+            "title": "Rotational frequency"
+          },
+          {
+            "pageid": 978650,
+            "ns": 0,
+            "title": "Triple product"
+          },
+          {
+            "pageid": 1084219,
+            "ns": 0,
+            "title": "Gravimetry"
+          },
+          {
+            "pageid": 1127460,
+            "ns": 0,
+            "title": "Sylvester's law of inertia"
+          },
+          {
+            "pageid": 1211986,
+            "ns": 0,
+            "title": "Virtual work"
+          },
+          {
+            "pageid": 1455471,
+            "ns": 0,
+            "title": "Pseudotensor"
+          },
+          {
+            "pageid": 1736264,
+            "ns": 0,
+            "title": "Second moment of area"
+          },
+          {
+            "pageid": 2223535,
+            "ns": 0,
+            "title": "Mass flow rate"
+          },
+          {
+            "pageid": 2434557,
+            "ns": 0,
+            "title": "Non-inertial reference frame"
+          },
+          {
+            "pageid": 2778009,
+            "ns": 0,
+            "title": "Spin tensor"
+          },
+          {
+            "pageid": 3114255,
+            "ns": 0,
+            "title": "History of classical mechanics"
+          },
+          {
+            "pageid": 3323565,
+            "ns": 0,
+            "title": "Cauchy stress tensor"
+          },
+          {
+            "pageid": 3526052,
+            "ns": 0,
+            "title": "Van der Waerden notation"
+          },
+          {
+            "pageid": 3543585,
+            "ns": 0,
+            "title": "Joule-second"
+          },
+          {
+            "pageid": 4342484,
+            "ns": 0,
+            "title": "Torsion tensor"
+          },
+          {
+            "pageid": 5937299,
+            "ns": 0,
+            "title": "Pendulum (mechanics)"
+          },
+          {
+            "pageid": 19555586,
+            "ns": 0,
+            "title": "Classical mechanics"
+          },
+          {
+            "pageid": 29688374,
+            "ns": 0,
+            "title": "Galileo Galilei"
+          },
+          {
+            "pageid": 30876319,
+            "ns": 0,
+            "title": "Parallel axis theorem"
+          },
+          {
+            "pageid": 61276647,
+            "ns": 0,
+            "title": "List of textbooks on classical mechanics and quantum mechanics"
+          }
+        ]
+      }
+    },
+    {
+      "batchcomplete": true,
+      "query": {
+        "redirects": [
+          {
+            "from": "Simple pendulum",
+            "to": "Pendulum"
+          },
+          {
+            "from": "Cartan formalism (physics)",
+            "to": "Tetrad formalism"
+          },
+          {
+            "from": "Tetrad (index notation)",
+            "to": "Tetrad formalism"
+          },
+          {
+            "from": "Second law of motion",
+            "to": "Newton's laws of motion",
+            "tofragment": "Second law"
+          },
+          {
+            "from": "ISBN (identifier)",
+            "to": "ISBN"
+          },
+          {
+            "from": "Motion (physics)",
+            "to": "Motion"
+          },
+          {
+            "from": "Yank (physics)",
+            "to": "Force",
+            "tofragment": "Yank"
+          }
+        ],
+        "pages": [
+          {
+            "ns": 0,
+            "title": "Edit section: Rigid body",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: Ellipsoid",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: Resultant torque",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: Scalar moment of inertia in a plane",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: Simple pendulum",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: Principal axes",
+            "missing": true
+          },
+          {
+            "pageid": 1209,
+            "ns": 0,
+            "title": "Area"
+          },
+          {
+            "pageid": 1842,
+            "ns": 0,
+            "title": "Augustin-Louis Cauchy"
+          },
+          {
+            "pageid": 6050,
+            "ns": 0,
+            "title": "List of equations in classical mechanics"
+          },
+          {
+            "pageid": 10902,
+            "ns": 0,
+            "title": "Force"
+          },
+          {
+            "pageid": 11062,
+            "ns": 0,
+            "title": "Friction"
+          },
+          {
+            "pageid": 14919,
+            "ns": 0,
+            "title": "ISBN"
+          },
+          {
+            "pageid": 16327,
+            "ns": 0,
+            "title": "Joule"
+          },
+          {
+            "pageid": 20580,
+            "ns": 0,
+            "title": "Motion"
+          },
+          {
+            "pageid": 24714,
+            "ns": 0,
+            "title": "Precession"
+          },
+          {
+            "pageid": 26873,
+            "ns": 0,
+            "title": "Second"
+          },
+          {
+            "pageid": 27667,
+            "ns": 0,
+            "title": "Space"
+          },
+          {
+            "pageid": 28767,
+            "ns": 0,
+            "title": "Statics"
+          },
+          {
+            "pageid": 33931,
+            "ns": 0,
+            "title": "Weight"
+          },
+          {
+            "pageid": 39378,
+            "ns": 0,
+            "title": "Distance"
+          },
+          {
+            "pageid": 42709,
+            "ns": 0,
+            "title": "Pendulum"
+          },
+          {
+            "pageid": 48518,
+            "ns": 0,
+            "title": "Oxford University Press"
+          },
+          {
+            "pageid": 55212,
+            "ns": 0,
+            "title": "Newton's laws of motion"
+          },
+          {
+            "pageid": 65926,
+            "ns": 0,
+            "title": "Angular displacement"
+          },
+          {
+            "pageid": 70671,
+            "ns": 0,
+            "title": "Stress–energy tensor"
+          },
+          {
+            "pageid": 149861,
+            "ns": 0,
+            "title": "Work (physics)"
+          },
+          {
+            "pageid": 196273,
+            "ns": 0,
+            "title": "Alexis Clairaut"
+          },
+          {
+            "pageid": 234861,
+            "ns": 0,
+            "title": "James Joseph Sylvester"
+          },
+          {
+            "pageid": 244611,
+            "ns": 0,
+            "title": "Newton's law of universal gravitation"
+          },
+          {
+            "pageid": 312881,
+            "ns": 0,
+            "title": "Action (physics)"
+          },
+          {
+            "pageid": 314692,
+            "ns": 0,
+            "title": "One-form"
+          },
+          {
+            "pageid": 344173,
+            "ns": 0,
+            "title": "Rotational energy"
+          },
+          {
+            "pageid": 369981,
+            "ns": 0,
+            "title": "Glossary of tensor theory"
+          },
+          {
+            "pageid": 460235,
+            "ns": 0,
+            "title": "Resultant force"
+          },
+          {
+            "pageid": 499180,
+            "ns": 0,
+            "title": "Tullio Levi-Civita"
+          },
+          {
+            "pageid": 499223,
+            "ns": 0,
+            "title": "Gregorio Ricci-Curbastro"
+          },
+          {
+            "pageid": 605155,
+            "ns": 0,
+            "title": "Elwin Bruno Christoffel"
+          },
+          {
+            "pageid": 701096,
+            "ns": 0,
+            "title": "Rotational symmetry"
+          },
+          {
+            "pageid": 706412,
+            "ns": 0,
+            "title": "Connection form"
+          },
+          {
+            "pageid": 856005,
+            "ns": 0,
+            "title": "Rotation matrix"
+          },
+          {
+            "pageid": 1057638,
+            "ns": 0,
+            "title": "Einstein tensor"
+          },
+          {
+            "pageid": 1519351,
+            "ns": 0,
+            "title": "Nonmetricity tensor"
+          },
+          {
+            "pageid": 2664158,
+            "ns": 0,
+            "title": "Center of percussion"
+          },
+          {
+            "pageid": 3121604,
+            "ns": 0,
+            "title": "Planar lamina"
+          },
+          {
+            "pageid": 3359510,
+            "ns": 0,
+            "title": "Paul Émile Appell"
+          },
+          {
+            "pageid": 11141222,
+            "ns": 0,
+            "title": "Tetrad formalism"
+          },
+          {
+            "pageid": 23087738,
+            "ns": 0,
+            "title": "Symmetric tensor"
+          },
+          {
+            "pageid": 25150322,
+            "ns": 0,
+            "title": "Orthogonal diagonalization"
+          },
+          {
+            "pageid": 35456546,
+            "ns": 0,
+            "title": "Ricci calculus"
+          }
+        ]
+      }
+    },
+    {
+      "batchcomplete": true,
+      "query": {
+        "redirects": [
+          {
+            "from": "Axis of rotation",
+            "to": "Rotation"
+          },
+          {
+            "from": "Exterior product",
+            "to": "Exterior algebra"
+          },
+          {
+            "from": "Yaw, pitch, and roll",
+            "to": "Aircraft principal axes"
+          },
+          {
+            "from": "Exterior calculus",
+            "to": "Differential form"
+          },
+          {
+            "from": "Rotatum",
+            "to": "Torque",
+            "tofragment": "Derivatives of torque"
+          },
+          {
+            "from": "Turn (geometry)",
+            "to": "Turn (angle)"
+          },
+          {
+            "from": "Displacement (vector)",
+            "to": "Displacement (geometry)"
+          },
+          {
+            "from": "Kilogram per second",
+            "to": "Mass flow rate"
+          },
+          {
+            "from": "Inverse square second",
+            "to": "Inverse second"
+          }
+        ],
+        "pages": [
+          {
+            "ns": 0,
+            "title": "Edit section: Definition",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: Compound pendulums",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: Determine inertia convention (principal axes method)",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: Newton's laws",
+            "missing": true
+          },
+          {
+            "pageid": 7783,
+            "ns": 0,
+            "title": "Coriolis force"
+          },
+          {
+            "pageid": 14121,
+            "ns": 0,
+            "title": "Hertz"
+          },
+          {
+            "pageid": 14627,
+            "ns": 0,
+            "title": "Isaac Newton"
+          },
+          {
+            "pageid": 18102,
+            "ns": 0,
+            "title": "Linear map"
+          },
+          {
+            "pageid": 24236,
+            "ns": 0,
+            "title": "Power (physics)"
+          },
+          {
+            "pageid": 28299,
+            "ns": 0,
+            "title": "Steradian"
+          },
+          {
+            "pageid": 30400,
+            "ns": 0,
+            "title": "Torque"
+          },
+          {
+            "pageid": 32410,
+            "ns": 0,
+            "title": "Vehicle"
+          },
+          {
+            "pageid": 37332,
+            "ns": 0,
+            "title": "Josiah Willard Gibbs"
+          },
+          {
+            "pageid": 39789,
+            "ns": 0,
+            "title": "Rotation"
+          },
+          {
+            "pageid": 41980,
+            "ns": 0,
+            "title": "Bernhard Riemann"
+          },
+          {
+            "pageid": 91096,
+            "ns": 0,
+            "title": "Geodesic"
+          },
+          {
+            "pageid": 182890,
+            "ns": 0,
+            "title": "Kronecker delta"
+          },
+          {
+            "pageid": 196221,
+            "ns": 0,
+            "title": "Pierre Louis Maupertuis"
+          },
+          {
+            "pageid": 210340,
+            "ns": 0,
+            "title": "Carl Gustav Jacob Jacobi"
+          },
+          {
+            "pageid": 211922,
+            "ns": 0,
+            "title": "Impulse (physics)"
+          },
+          {
+            "pageid": 221519,
+            "ns": 0,
+            "title": "Differential form"
+          },
+          {
+            "pageid": 221537,
+            "ns": 0,
+            "title": "Exterior algebra"
+          },
+          {
+            "pageid": 310914,
+            "ns": 0,
+            "title": "Hodge star operator"
+          },
+          {
+            "pageid": 386274,
+            "ns": 0,
+            "title": "Élie Cartan"
+          },
+          {
+            "pageid": 481856,
+            "ns": 0,
+            "title": "Rigid body dynamics"
+          },
+          {
+            "pageid": 574544,
+            "ns": 0,
+            "title": "Circular motion"
+          },
+          {
+            "pageid": 630099,
+            "ns": 0,
+            "title": "Beam (structure)"
+          },
+          {
+            "pageid": 742238,
+            "ns": 0,
+            "title": "Metre per second squared"
+          },
+          {
+            "pageid": 855329,
+            "ns": 0,
+            "title": "Turn (angle)"
+          },
+          {
+            "pageid": 859275,
+            "ns": 0,
+            "title": "Displacement (geometry)"
+          },
+          {
+            "pageid": 1082841,
+            "ns": 0,
+            "title": "Fictitious force"
+          },
+          {
+            "pageid": 1763396,
+            "ns": 0,
+            "title": "Tensor density"
+          },
+          {
+            "pageid": 2073470,
+            "ns": 0,
+            "title": "Manifold"
+          },
+          {
+            "pageid": 2223535,
+            "ns": 0,
+            "title": "Mass flow rate"
+          },
+          {
+            "pageid": 3323529,
+            "ns": 0,
+            "title": "Two-point tensor"
+          },
+          {
+            "pageid": 3543585,
+            "ns": 0,
+            "title": "Joule-second"
+          },
+          {
+            "pageid": 4060446,
+            "ns": 0,
+            "title": "Tensor bundle"
+          },
+          {
+            "pageid": 7885048,
+            "ns": 0,
+            "title": "Couple (mechanics)"
+          },
+          {
+            "pageid": 9023486,
+            "ns": 0,
+            "title": "Aircraft principal axes"
+          },
+          {
+            "pageid": 11694119,
+            "ns": 0,
+            "title": "Inverse second"
+          },
+          {
+            "pageid": 13576645,
+            "ns": 0,
+            "title": "Eigendecomposition of a matrix"
+          },
+          {
+            "pageid": 20012466,
+            "ns": 0,
+            "title": "Jeremiah Horrocks"
+          },
+          {
+            "pageid": 20491903,
+            "ns": 0,
+            "title": "Velocity"
+          },
+          {
+            "pageid": 39654522,
+            "ns": 0,
+            "title": "Tensor operator"
+          }
+        ]
+      }
+    }
+  ],
   "redirect_cache": {
-    "Axis of rotation": {
-      "to": "Rotation",
+    "SI": {
+      "to": "International System of Units",
       "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Exterior product": {
-      "to": "Exterior algebra",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Kinematic viscosity": {
-      "to": "Viscosity",
-      "tofragment": "Kinematic viscosity",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Cartan formalism (physics)": {
-      "to": "Tetrad formalism",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Second law of motion": {
-      "to": "Newton's laws of motion",
-      "tofragment": "Second law",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
     },
     "Exterior form": {
       "to": "Differential form",
       "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
     },
     "Meter second": {
       "to": "Absement",
       "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Kilogram metre per second": {
-      "to": "Newton-second",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Displacement (vector)": {
-      "to": "Displacement (geometry)",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Mechanical power (physics)": {
-      "to": "Power (physics)",
-      "tofragment": "Mechanical power",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Newton-metre": {
-      "to": "Newton-metre",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Mass": {
-      "to": "Mass",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Edit section: Center of oscillation": {
-      "to": "Edit section: Center of oscillation",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Alexis Clairaut": {
-      "to": "Alexis Clairaut",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Riemann curvature tensor": {
-      "to": "Riemann curvature tensor",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Celestial mechanics": {
-      "to": "Celestial mechanics",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Acceleration": {
-      "to": "Acceleration",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Edit section: Parallel axis theorem": {
-      "to": "Edit section: Parallel axis theorem",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Euler's laws of motion": {
-      "to": "Euler's laws of motion",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Exterior derivative": {
-      "to": "Exterior derivative",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Appell's equation of motion": {
-      "to": "Appell's equation of motion",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Diving (sport)": {
-      "to": "Diving (sport)",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Edit section: Moment of inertia of area": {
-      "to": "Edit section: Moment of inertia of area",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Albert Einstein": {
-      "to": "Albert Einstein",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Geodesic": {
-      "to": "Geodesic",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Figure skating spins": {
-      "to": "Figure skating spins",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Eigendecomposition of a matrix": {
-      "to": "Eigendecomposition of a matrix",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Metric tensor": {
-      "to": "Metric tensor",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Jacobi identity": {
-      "to": "Jacobi identity",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Rotating reference frame": {
-      "to": "Rotating reference frame",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Bernard Koopman": {
-      "to": "Bernard Koopman",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Differential geometry": {
-      "to": "Differential geometry",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Moment (physics)": {
-      "to": "Moment (physics)",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Action (physics)": {
-      "to": "Action (physics)",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Symmetric matrix": {
-      "to": "Symmetric matrix",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Force": {
-      "to": "Force",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Tensor product": {
-      "to": "Tensor product",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "John von Neumann": {
-      "to": "John von Neumann",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Hamiltonian mechanics": {
-      "to": "Hamiltonian mechanics",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Continuum mechanics": {
-      "to": "Continuum mechanics",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Bernhard Riemann": {
-      "to": "Bernhard Riemann",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Distance": {
-      "to": "Distance",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Covariance and contravariance of vectors": {
-      "to": "Covariance and contravariance of vectors",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Joseph-Louis Lagrange": {
-      "to": "Joseph-Louis Lagrange",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Perpendicular distance": {
-      "to": "Perpendicular distance",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Symmetric tensor": {
-      "to": "Symmetric tensor",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Matrix (mathematics)": {
-      "to": "Matrix (mathematics)",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Edit section: See also": {
-      "to": "Edit section: See also",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Joseph Liouville": {
-      "to": "Joseph Liouville",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Multivector": {
-      "to": "Multivector",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Gravimeter": {
-      "to": "Gravimetry",
-      "tofragment": "Gravimeters",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Rotatum": {
-      "to": "Torque",
-      "tofragment": "Derivatives of torque",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Motion (physics)": {
-      "to": "Motion",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Turn (geometry)": {
-      "to": "Turn (angle)",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Rotation matrix": {
-      "to": "Rotation matrix",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Specific angular momentum": {
-      "to": "Specific angular momentum",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Edit section: Determine inertia convention (principal axes method)": {
-      "to": "Edit section: Determine inertia convention (principal axes method)",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Power (physics)": {
-      "to": "Power (physics)",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Glossary of tensor theory": {
-      "to": "Glossary of tensor theory",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Tullio Levi-Civita": {
-      "to": "Tullio Levi-Civita",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Tensor bundle": {
-      "to": "Tensor bundle",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Stress–energy tensor": {
-      "to": "Stress–energy tensor",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Central moment": {
-      "to": "Central moment",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Edit section: Measuring moment of inertia": {
-      "to": "Edit section: Measuring moment of inertia",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Edit section: Inertia matrix in different reference frames": {
-      "to": "Edit section: Inertia matrix in different reference frames",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Index notation": {
-      "to": "Index notation",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Edmond Halley": {
-      "to": "Edmond Halley",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Dimensional analysis": {
-      "to": "Dimensional analysis",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Abstract index notation": {
-      "to": "Abstract index notation",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Affine connection": {
-      "to": "Affine connection",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Jerk (physics)": {
-      "to": "Jerk (physics)",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Edit section: Inertia tensor of translation": {
-      "to": "Edit section: Inertia tensor of translation",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Dimension": {
-      "to": "Dimension",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Einstein tensor": {
-      "to": "Einstein tensor",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Rotational symmetry": {
-      "to": "Rotational symmetry",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Euclidean geometry": {
-      "to": "Euclidean geometry",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Edit section: Ellipsoid": {
-      "to": "Edit section: Ellipsoid",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Classical mechanics": {
-      "to": "Classical mechanics",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Newton's law of universal gravitation": {
-      "to": "Newton's law of universal gravitation",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Mass flow rate": {
-      "to": "Mass flow rate",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Spinor": {
-      "to": "Spinor",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Elwin Bruno Christoffel": {
-      "to": "Elwin Bruno Christoffel",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Area": {
-      "to": "Area",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Planar lamina": {
-      "to": "Planar lamina",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Tensor (intrinsic definition)": {
-      "to": "Tensor (intrinsic definition)",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Vehicle": {
-      "to": "Vehicle",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Woldemar Voigt": {
-      "to": "Woldemar Voigt",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Resultant force": {
-      "to": "Resultant force",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Tire balance": {
-      "to": "Tire balance",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Fictitious force": {
-      "to": "Fictitious force",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Electromagnetic tensor": {
-      "to": "Electromagnetic tensor",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Levi-Civita connection": {
-      "to": "Levi-Civita connection",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Isaac Newton": {
-      "to": "Isaac Newton",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Johannes Kepler": {
-      "to": "Johannes Kepler",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Pseudotensor": {
-      "to": "Pseudotensor",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Precession": {
-      "to": "Precession",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Orthogonal diagonalization": {
-      "to": "Orthogonal diagonalization",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "List of moments of inertia": {
-      "to": "List of moments of inertia",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Metric tensor (general relativity)": {
-      "to": "Metric tensor (general relativity)",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Hertz": {
-      "to": "Hertz",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Jean le Rond d'Alembert": {
-      "to": "Jean Le Rond d'Alembert",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Exterior calculus": {
-      "to": "Differential form",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "SI": {
-      "to": "International System of Units",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Kilogram square metre": {
-      "to": "Moment of inertia",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Rotational acceleration": {
-      "to": "Rotational frequency",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Newton second": {
-      "to": "Newton-second",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Kilogram per second": {
-      "to": "Mass flow rate",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Koopman–von Neumann classical mechanics": {
-      "to": "Koopman–von Neumann classical mechanics",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Momentum": {
-      "to": "Momentum",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Vibration": {
-      "to": "Vibration",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Angular displacement": {
-      "to": "Angular displacement",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Ellipsoid": {
-      "to": "Ellipsoid",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Speed": {
-      "to": "Speed",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "United States customary units": {
-      "to": "United States customary units",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Dot product": {
-      "to": "Dot product",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Newton's laws of motion": {
-      "to": "Newton's laws of motion",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Connection form": {
-      "to": "Connection form",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "List of equations in classical mechanics": {
-      "to": "List of equations in classical mechanics",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Tensor field": {
-      "to": "Tensor field",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Kinematics": {
-      "to": "Kinematics",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Siméon Denis Poisson": {
-      "to": "Siméon Denis Poisson",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Square metre": {
-      "to": "Square metre",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Kater's pendulum": {
-      "to": "Kater's pendulum",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Joule": {
-      "to": "Joule",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Edit section: References": {
-      "to": "Edit section: References",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Newton (unit)": {
-      "to": "Newton (unit)",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Space": {
-      "to": "Space",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Platonic solid": {
-      "to": "Platonic solid",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Absement": {
-      "to": "Absement",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Torsion tensor": {
-      "to": "Torsion tensor",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Latin": {
-      "to": "Latin",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Einstein notation": {
-      "to": "Einstein notation",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Triple product": {
-      "to": "Triple product",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Rotational frequency": {
-      "to": "Rotational frequency",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Tensor": {
-      "to": "Tensor",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Velocity": {
-      "to": "Velocity",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Watt": {
-      "to": "Watt",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Mathematician": {
-      "to": "Mathematician",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "William Rowan Hamilton": {
-      "to": "William Rowan Hamilton",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Edit section: Simple pendulum": {
-      "to": "Edit section: Simple pendulum",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Moment of inertia factor": {
-      "to": "Moment of inertia factor",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Rotational spectroscopy": {
-      "to": "Rotational spectroscopy",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Niagara River": {
-      "to": "Niagara River",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Circular motion": {
-      "to": "Circular motion",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Cauchy stress tensor": {
-      "to": "Cauchy stress tensor",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Work (physics)": {
-      "to": "Work (physics)",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Analytical mechanics": {
-      "to": "Analytical mechanics",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Function (mathematics)": {
-      "to": "Function (mathematics)",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Edit section: Angular momentum": {
-      "to": "Edit section: Angular momentum",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Resonance": {
-      "to": "Resonance",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Yaw, pitch, and roll": {
-      "to": "Aircraft principal axes",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Tetrad (index notation)": {
-      "to": "Tetrad formalism",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Kilogram square metre per second": {
-      "to": "Joule-second",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Position (vector)": {
-      "to": "Position (geometry)",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Galileo Galilei": {
-      "to": "Galileo Galilei",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Edit section: External links": {
-      "to": "Edit section: External links",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Metre": {
-      "to": "Metre",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Simple harmonic motion": {
-      "to": "Simple harmonic motion",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Edit section: Body frame": {
-      "to": "Edit section: Body frame",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Beam (structure)": {
-      "to": "Beam (structure)",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "International System of Units": {
-      "to": "International System of Units",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Kronecker delta": {
-      "to": "Kronecker delta",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Multilinear algebra": {
-      "to": "Multilinear algebra",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Angular velocity": {
-      "to": "Angular velocity",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Leonhard Euler": {
-      "to": "Leonhard Euler",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Hodge star operator": {
-      "to": "Hodge star operator",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Flywheel": {
-      "to": "Flywheel",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "One-form": {
-      "to": "One-form",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Hamilton–Jacobi equation": {
-      "to": "Hamilton–Jacobi equation",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Engineering": {
-      "to": "Engineering",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Centroid": {
-      "to": "Centroid",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Nonmetricity tensor": {
-      "to": "Nonmetricity tensor",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Couple (mechanics)": {
-      "to": "Couple (mechanics)",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Transpose": {
-      "to": "Transpose",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Penrose graphical notation": {
-      "to": "Penrose graphical notation",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Élie Cartan": {
-      "to": "Élie Cartan",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Center of mass": {
-      "to": "Center of mass",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Second moment of area": {
-      "to": "Second moment of area",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Gregorio Ricci-Curbastro": {
-      "to": "Gregorio Ricci-Curbastro",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Potential energy": {
-      "to": "Potential energy",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Edit section: Motion in a fixed plane": {
-      "to": "Edit section: Motion in a fixed plane",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Antisymmetric tensor": {
-      "to": "Antisymmetric tensor",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Transport phenomena": {
-      "to": "Transport phenomena",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Pendulum (mechanics)": {
-      "to": "Pendulum (mechanics)",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Imperial units": {
-      "to": "Imperial units",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Metre per second squared": {
-      "to": "Metre per second squared",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Dyadics": {
-      "to": "Dyadics",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Inverse second": {
-      "to": "Inverse second",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Classical field theory": {
-      "to": "Classical field theory",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Radius of gyration": {
-      "to": "Radius of gyration",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Daniel Bernoulli": {
-      "to": "Daniel Bernoulli",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Van der Waerden notation": {
-      "to": "Van der Waerden notation",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Timeline of classical mechanics": {
-      "to": "Timeline of classical mechanics",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Virtual work": {
-      "to": "Virtual work",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Applied mechanics": {
-      "to": "Applied mechanics",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Inertia": {
-      "to": "Inertia",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Impulse (physics)": {
-      "to": "Impulse (physics)",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Edit section: Derivation of the tensor components": {
-      "to": "Edit section: Derivation of the tensor components",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Centrifugal force": {
-      "to": "Centrifugal force",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Kinetics (physics)": {
-      "to": "Kinetics (physics)",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Simple pendulum": {
-      "to": "Pendulum",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Raising and lowering indices": {
-      "to": "Musical isomorphism",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Mechanical system": {
-      "to": "Machine",
-      "tofragment": "Mechanical systems",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Yank (physics)": {
-      "to": "Force",
-      "tofragment": "Yank",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Rotational speed": {
-      "to": "Rotational frequency",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Grandfather clock": {
-      "to": "Grandfather clock",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Edit section: Kinetic energy": {
-      "to": "Edit section: Kinetic energy",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Equations of motion": {
-      "to": "Equations of motion",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Johann Bernoulli": {
-      "to": "Johann Bernoulli",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Euler's equations (rigid body dynamics)": {
-      "to": "Euler's equations (rigid body dynamics)",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Non-inertial reference frame": {
-      "to": "Non-inertial reference frame",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Carl Gustav Jacob Jacobi": {
-      "to": "Carl Gustav Jacob Jacobi",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Relative velocity": {
-      "to": "Relative velocity",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Hermann Grassmann": {
-      "to": "Hermann Grassmann",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Energy": {
-      "to": "Energy",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Fiber bundle": {
-      "to": "Fiber bundle",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Multi-index notation": {
-      "to": "Multi-index notation",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Routhian mechanics": {
-      "to": "Routhian mechanics",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Edit section: Introduction": {
-      "to": "Edit section: Introduction",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "James Joseph Sylvester": {
-      "to": "James Joseph Sylvester",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Basis (linear algebra)": {
-      "to": "Basis (linear algebra)",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Physics": {
-      "to": "Physics",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Identity matrix": {
-      "to": "Identity matrix",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
     },
     "Poinsot's ellipsoid": {
       "to": "Poinsot's ellipsoid",
       "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "List of textbooks on classical mechanics and quantum mechanics": {
-      "to": "List of textbooks on classical mechanics and quantum mechanics",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Edit section: Resultant torque": {
-      "to": "Edit section: Resultant torque",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Edward Routh": {
-      "to": "Edward Routh",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Parallel axis theorem": {
-      "to": "Parallel axis theorem",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Weyl tensor": {
-      "to": "Weyl tensor",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Point particle": {
-      "to": "Point particle",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Second": {
-      "to": "Second",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Operation (mathematics)": {
-      "to": "Operation (mathematics)",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Exterior covariant derivative": {
-      "to": "Exterior covariant derivative",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Steradian": {
-      "to": "Steradian",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Tangential speed": {
-      "to": "Tangential speed",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Spin tensor": {
-      "to": "Spin tensor",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Statistical mechanics": {
-      "to": "Statistical mechanics",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Friction": {
-      "to": "Friction",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Tensors in curvilinear coordinates": {
-      "to": "Tensors in curvilinear coordinates",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Electromagnetism": {
-      "to": "Electromagnetism",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Josiah Willard Gibbs": {
-      "to": "Josiah Willard Gibbs",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Torque": {
-      "to": "Torque",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Rigid body dynamics": {
-      "to": "Rigid body dynamics",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Reactive centrifugal force": {
-      "to": "Reactive centrifugal force",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Spinning top": {
-      "to": "Spinning top",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Levi-Civita symbol": {
-      "to": "Levi-Civita symbol",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Ricci curvature": {
-      "to": "Ricci curvature",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Radian per second": {
-      "to": "Radian per second",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Cross product": {
-      "to": "Cross product",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Rotation around a fixed axis": {
-      "to": "Rotation around a fixed axis",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Radian per second squared": {
-      "to": "Angular acceleration",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Center of oscillation": {
-      "to": "Center of percussion",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Compound pendulum": {
-      "to": "Pendulum",
-      "tofragment": "Compound pendulum",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Euler's laws": {
-      "to": "Euler's laws of motion",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "ISBN (identifier)": {
-      "to": "ISBN",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Inverse square second": {
-      "to": "Inverse second",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Lagrangian mechanics": {
-      "to": "Lagrangian mechanics",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Edit section: Rigid body": {
-      "to": "Edit section: Rigid body",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Edit section: Principal axes": {
-      "to": "Edit section: Principal axes",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Ricci calculus": {
-      "to": "Ricci calculus",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Carl Friedrich Gauss": {
-      "to": "Carl Friedrich Gauss",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Coriolis force": {
-      "to": "Coriolis force",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Statics": {
-      "to": "Statics",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Seconds pendulum": {
-      "to": "Seconds pendulum",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Angular frequency": {
-      "to": "Angular frequency",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Mathematics": {
-      "to": "Mathematics",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Augustin-Louis Cauchy": {
-      "to": "Augustin-Louis Cauchy",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Time": {
-      "to": "Time",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Tensor operator": {
-      "to": "Tensor operator",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Edit section: Compound pendulums": {
-      "to": "Edit section: Compound pendulums",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Center of percussion": {
-      "to": "Center of percussion",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Linear motion": {
-      "to": "Linear motion",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Edit section: Alternate inertia convention": {
-      "to": "Edit section: Alternate inertia convention",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Angular momentum": {
-      "to": "Angular momentum",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "History of classical mechanics": {
-      "to": "History of classical mechanics",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Covariant derivative": {
-      "to": "Covariant derivative",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Gluon field strength tensor": {
-      "to": "Gluon field strength tensor",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Pendulum": {
-      "to": "Pendulum",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Outer product": {
-      "to": "Outer product",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Voigt notation": {
-      "to": "Voigt notation",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Dynamics (mechanics)": {
-      "to": "Dynamics (mechanics)",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Pierre Louis Maupertuis": {
-      "to": "Pierre Louis Maupertuis",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Edit section: Newton's laws": {
-      "to": "Edit section: Newton's laws",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Radian": {
-      "to": "Radian",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Angular acceleration": {
-      "to": "Angular acceleration",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Solid angle": {
-      "to": "Solid angle",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Christiaan Huygens": {
-      "to": "Christiaan Huygens",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Vector space": {
-      "to": "Vector space",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Unit vector": {
-      "to": "Unit vector",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Edit section: Scalar moment of inertia in a plane": {
-      "to": "Edit section: Scalar moment of inertia in a plane",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Pierre-Simon Laplace": {
-      "to": "Pierre-Simon Laplace",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Metre per second": {
-      "to": "Metre per second",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Weight": {
-      "to": "Weight",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Hermann Weyl": {
-      "to": "Hermann Weyl",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Complex system": {
-      "to": "Complex system",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Multiple integral": {
-      "to": "Multiple integral",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Scalar (physics)": {
-      "to": "Scalar (physics)",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Rotational energy": {
-      "to": "Rotational energy",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Manifold": {
-      "to": "Manifold",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Vector (mathematics and physics)": {
-      "to": "Vector (mathematics and physics)",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "SI unit": {
-      "to": "International System of Units",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Conservation of angular momentum": {
-      "to": "Angular momentum",
-      "tofragment": "Conservation of angular momentum",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Tensor calculus": {
-      "to": "Ricci calculus",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Angular speed": {
-      "to": "Angular frequency",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Tightrope walker": {
-      "to": "Tightrope walking",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Rotational velocity": {
-      "to": "Rotational frequency",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Doi (identifier)": {
-      "to": "Digital object identifier",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Paul Émile Appell": {
-      "to": "Paul Émile Appell",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Harmonic oscillator": {
-      "to": "Harmonic oscillator",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Linear map": {
-      "to": "Linear map",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Two-point tensor": {
-      "to": "Two-point tensor",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Jeremiah Horrocks": {
-      "to": "Jeremiah Horrocks",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Mixed tensor": {
-      "to": "Mixed tensor",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Edit section: Inertia tensor of rotation": {
-      "to": "Edit section: Inertia tensor of rotation",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Centripetal force": {
-      "to": "Centripetal force",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Tensor density": {
-      "to": "Tensor density",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Kilogram": {
-      "to": "Kilogram",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Inertial frame of reference": {
-      "to": "Inertial frame of reference",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Jan Arnoldus Schouten": {
-      "to": "Jan Arnoldus Schouten",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Lie derivative": {
-      "to": "Lie derivative",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Sylvester's law of inertia": {
-      "to": "Sylvester's law of inertia",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Volume element": {
-      "to": "Volume element",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "General relativity": {
-      "to": "General relativity",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Coordinate system": {
-      "to": "Coordinate system",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Edit section: Definition": {
-      "to": "Edit section: Definition",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Edit section: Motion in space of a rigid body, and the inertia matrix": {
-      "to": "Edit section: Motion in space of a rigid body, and the inertia matrix",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Edit section: Examples": {
-      "to": "Edit section: Examples",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
-    },
-    "Joule-second": {
-      "to": "Joule-second",
-      "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
     },
     "Angle": {
       "to": "Angle",
       "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
     },
-    "Frequency": {
-      "to": "Frequency",
+    "Weyl tensor": {
+      "to": "Weyl tensor",
       "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
     },
-    "Computer vision": {
-      "to": "Computer vision",
+    "Tensor field": {
+      "to": "Tensor field",
       "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
     },
-    "Kinetic energy": {
-      "to": "Kinetic energy",
+    "Hermann Grassmann": {
+      "to": "Hermann Grassmann",
       "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
     },
-    "Rigid body": {
-      "to": "Rigid body",
+    "Rotation around a fixed axis": {
+      "to": "Rotation around a fixed axis",
       "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
     },
-    "Edit section: Inertia tensor": {
-      "to": "Edit section: Inertia tensor",
+    "Routhian mechanics": {
+      "to": "Routhian mechanics",
       "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
     },
-    "Frame of reference": {
-      "to": "Frame of reference",
+    "Angular frequency": {
+      "to": "Angular frequency",
       "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
     },
-    "Tensor algebra": {
-      "to": "Tensor algebra",
+    "Matrix (mathematics)": {
+      "to": "Matrix (mathematics)",
       "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Watt": {
+      "to": "Watt",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Edit section: Examples": {
+      "to": "Edit section: Examples",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Linear motion": {
+      "to": "Linear motion",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Edmond Halley": {
+      "to": "Edmond Halley",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Kinetics (physics)": {
+      "to": "Kinetics (physics)",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Angular velocity": {
+      "to": "Angular velocity",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Transport phenomena": {
+      "to": "Transport phenomena",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Acceleration": {
+      "to": "Acceleration",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Koopman–von Neumann classical mechanics": {
+      "to": "Koopman–von Neumann classical mechanics",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "John von Neumann": {
+      "to": "John von Neumann",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Tangential speed": {
+      "to": "Tangential speed",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Levi-Civita symbol": {
+      "to": "Levi-Civita symbol",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Dimensional analysis": {
+      "to": "Dimensional analysis",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Volume element": {
+      "to": "Volume element",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Bernard Koopman": {
+      "to": "Bernard Koopman",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
     },
     "D'Alembert's principle": {
       "to": "D'Alembert's principle",
       "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
     },
-    "Displacement (geometry)": {
-      "to": "Displacement (geometry)",
+    "Relative velocity": {
+      "to": "Relative velocity",
       "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
     },
-    "Tensor contraction": {
-      "to": "Tensor contraction",
+    "Radian per second": {
+      "to": "Radian per second",
       "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
     },
-    "Symmetrization": {
-      "to": "Symmetrization",
+    "Engineering": {
+      "to": "Engineering",
       "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
     },
-    "Edit section: Point mass": {
-      "to": "Edit section: Point mass",
+    "Vector space": {
+      "to": "Vector space",
       "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Force": {
+      "to": "Force",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Scalar (physics)": {
+      "to": "Scalar (physics)",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Mixed tensor": {
+      "to": "Mixed tensor",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Celestial mechanics": {
+      "to": "Celestial mechanics",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Identity matrix": {
+      "to": "Identity matrix",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Covariant derivative": {
+      "to": "Covariant derivative",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Christiaan Huygens": {
+      "to": "Christiaan Huygens",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Moment of inertia factor": {
+      "to": "Moment of inertia factor",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Joseph Liouville": {
+      "to": "Joseph Liouville",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Function (mathematics)": {
+      "to": "Function (mathematics)",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Center of mass": {
+      "to": "Center of mass",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Frame of reference": {
+      "to": "Frame of reference",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Mass": {
+      "to": "Mass",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Specific angular momentum": {
+      "to": "Specific angular momentum",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Multivector": {
+      "to": "Multivector",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Central moment": {
+      "to": "Central moment",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Edit section: Parallel axis theorem": {
+      "to": "Edit section: Parallel axis theorem",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Kinetic energy": {
+      "to": "Kinetic energy",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Kinematic viscosity": {
+      "to": "Viscosity",
+      "tofragment": "Kinematic viscosity",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Angular speed": {
+      "to": "Angular frequency",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Euler's laws": {
+      "to": "Euler's laws of motion",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Rotational acceleration": {
+      "to": "Rotational frequency",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Position (vector)": {
+      "to": "Position (geometry)",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Newton second": {
+      "to": "Newton-second",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Centrifugal force": {
+      "to": "Centrifugal force",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Siméon Denis Poisson": {
+      "to": "Siméon Denis Poisson",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Metre": {
+      "to": "Metre",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "List of moments of inertia": {
+      "to": "List of moments of inertia",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Joseph-Louis Lagrange": {
+      "to": "Joseph-Louis Lagrange",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Riemann curvature tensor": {
+      "to": "Riemann curvature tensor",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Dot product": {
+      "to": "Dot product",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Applied mechanics": {
+      "to": "Applied mechanics",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Symmetric matrix": {
+      "to": "Symmetric matrix",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Cross product": {
+      "to": "Cross product",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Tensor product": {
+      "to": "Tensor product",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Carl Friedrich Gauss": {
+      "to": "Carl Friedrich Gauss",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Newton's laws of motion": {
+      "to": "Newton's laws of motion",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Edit section: Inertia matrix in different reference frames": {
+      "to": "Edit section: Inertia matrix in different reference frames",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Vibration": {
+      "to": "Vibration",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Euler's laws of motion": {
+      "to": "Euler's laws of motion",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Einstein notation": {
+      "to": "Einstein notation",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Penrose graphical notation": {
+      "to": "Penrose graphical notation",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Gluon field strength tensor": {
+      "to": "Gluon field strength tensor",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Electromagnetic tensor": {
+      "to": "Electromagnetic tensor",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Basis (linear algebra)": {
+      "to": "Basis (linear algebra)",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Euler's equations (rigid body dynamics)": {
+      "to": "Euler's equations (rigid body dynamics)",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Kinematics": {
+      "to": "Kinematics",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Figure skating spins": {
+      "to": "Figure skating spins",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "William Rowan Hamilton": {
+      "to": "William Rowan Hamilton",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Tensor": {
+      "to": "Tensor",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Euclidean geometry": {
+      "to": "Euclidean geometry",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Physics": {
+      "to": "Physics",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Imperial units": {
+      "to": "Imperial units",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Rigid body": {
+      "to": "Rigid body",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Point particle": {
+      "to": "Point particle",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Timeline of classical mechanics": {
+      "to": "Timeline of classical mechanics",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Johannes Kepler": {
+      "to": "Johannes Kepler",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Angular momentum": {
+      "to": "Angular momentum",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
     },
     "Motion": {
       "to": "Motion",
       "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Edit section: Introduction": {
+      "to": "Edit section: Introduction",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Edit section: Inertia tensor of translation": {
+      "to": "Edit section: Inertia tensor of translation",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Symmetrization": {
+      "to": "Symmetrization",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Edit section: Motion in space of a rigid body, and the inertia matrix": {
+      "to": "Edit section: Motion in space of a rigid body, and the inertia matrix",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Index notation": {
+      "to": "Index notation",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "General relativity": {
+      "to": "General relativity",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Ellipsoid": {
+      "to": "Ellipsoid",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Operation (mathematics)": {
+      "to": "Operation (mathematics)",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Rotating reference frame": {
+      "to": "Rotating reference frame",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "SI unit": {
+      "to": "International System of Units",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Jean le Rond d'Alembert": {
+      "to": "Jean Le Rond d'Alembert",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Tightrope walker": {
+      "to": "Tightrope walking",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Kilogram square metre": {
+      "to": "Moment of inertia",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Compound pendulum": {
+      "to": "Pendulum",
+      "tofragment": "Compound pendulum",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Rotational speed": {
+      "to": "Rotational frequency",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Tensor (intrinsic definition)": {
+      "to": "Tensor (intrinsic definition)",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Edit section: Inertia tensor of rotation": {
+      "to": "Edit section: Inertia tensor of rotation",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Differential geometry": {
+      "to": "Differential geometry",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Transpose": {
+      "to": "Transpose",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Metric tensor": {
+      "to": "Metric tensor",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Square metre": {
+      "to": "Square metre",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Newton-metre": {
+      "to": "Newton-metre",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Edit section: See also": {
+      "to": "Edit section: See also",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Johann Bernoulli": {
+      "to": "Johann Bernoulli",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Newton (unit)": {
+      "to": "Newton (unit)",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Frequency": {
+      "to": "Frequency",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Abstract index notation": {
+      "to": "Abstract index notation",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Multi-index notation": {
+      "to": "Multi-index notation",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Torque": {
+      "to": "Torque",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Mathematics": {
+      "to": "Mathematics",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Leonhard Euler": {
+      "to": "Leonhard Euler",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Voigt notation": {
+      "to": "Voigt notation",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Lie derivative": {
+      "to": "Lie derivative",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Rotational frequency": {
+      "to": "Rotational frequency",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Edit section: Body frame": {
+      "to": "Edit section: Body frame",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Metric tensor (general relativity)": {
+      "to": "Metric tensor (general relativity)",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Perpendicular distance": {
+      "to": "Perpendicular distance",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Jacobi identity": {
+      "to": "Jacobi identity",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Time": {
+      "to": "Time",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Tensors in curvilinear coordinates": {
+      "to": "Tensors in curvilinear coordinates",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Inverse second": {
+      "to": "Inverse second",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Speed": {
+      "to": "Speed",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Lagrangian mechanics": {
+      "to": "Lagrangian mechanics",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Pierre-Simon Laplace": {
+      "to": "Pierre-Simon Laplace",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Kater's pendulum": {
+      "to": "Kater's pendulum",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Reactive centrifugal force": {
+      "to": "Reactive centrifugal force",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Spinning top": {
+      "to": "Spinning top",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Diving (sport)": {
+      "to": "Diving (sport)",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Kilogram": {
+      "to": "Kilogram",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Unit vector": {
+      "to": "Unit vector",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Spinor": {
+      "to": "Spinor",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Radian": {
+      "to": "Radian",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Classical field theory": {
+      "to": "Classical field theory",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Continuum mechanics": {
+      "to": "Continuum mechanics",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Momentum": {
+      "to": "Momentum",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Electromagnetism": {
+      "to": "Electromagnetism",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Absement": {
+      "to": "Absement",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Levi-Civita connection": {
+      "to": "Levi-Civita connection",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Woldemar Voigt": {
+      "to": "Woldemar Voigt",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Tensor calculus": {
+      "to": "Ricci calculus",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Raising and lowering indices": {
+      "to": "Musical isomorphism",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Center of oscillation": {
+      "to": "Center of percussion",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Mechanical system": {
+      "to": "Machine",
+      "tofragment": "Mechanical systems",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Kilogram metre per second": {
+      "to": "Newton-second",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Mechanical power (physics)": {
+      "to": "Power (physics)",
+      "tofragment": "Mechanical power",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Multiple integral": {
+      "to": "Multiple integral",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Edward Routh": {
+      "to": "Edward Routh",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Hamilton–Jacobi equation": {
+      "to": "Hamilton–Jacobi equation",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Inertial frame of reference": {
+      "to": "Inertial frame of reference",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Computer vision": {
+      "to": "Computer vision",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Exterior covariant derivative": {
+      "to": "Exterior covariant derivative",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Latin": {
+      "to": "Latin",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Energy": {
+      "to": "Energy",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Complex system": {
+      "to": "Complex system",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Analytical mechanics": {
+      "to": "Analytical mechanics",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Exterior derivative": {
+      "to": "Exterior derivative",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Edit section: Point mass": {
+      "to": "Edit section: Point mass",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "United States customary units": {
+      "to": "United States customary units",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Displacement (geometry)": {
+      "to": "Displacement (geometry)",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Equations of motion": {
+      "to": "Equations of motion",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Inertia": {
+      "to": "Inertia",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Vector (mathematics and physics)": {
+      "to": "Vector (mathematics and physics)",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Edit section: External links": {
+      "to": "Edit section: External links",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Platonic solid": {
+      "to": "Platonic solid",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Jan Arnoldus Schouten": {
+      "to": "Jan Arnoldus Schouten",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Ricci curvature": {
+      "to": "Ricci curvature",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Edit section: References": {
+      "to": "Edit section: References",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Antisymmetric tensor": {
+      "to": "Antisymmetric tensor",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Coordinate system": {
+      "to": "Coordinate system",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Appell's equation of motion": {
+      "to": "Appell's equation of motion",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Grandfather clock": {
+      "to": "Grandfather clock",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Harmonic oscillator": {
+      "to": "Harmonic oscillator",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Hamiltonian mechanics": {
+      "to": "Hamiltonian mechanics",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Solid angle": {
+      "to": "Solid angle",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Edit section: Alternate inertia convention": {
+      "to": "Edit section: Alternate inertia convention",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Centripetal force": {
+      "to": "Centripetal force",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Daniel Bernoulli": {
+      "to": "Daniel Bernoulli",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Radius of gyration": {
+      "to": "Radius of gyration",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Dimension": {
+      "to": "Dimension",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Tensor algebra": {
+      "to": "Tensor algebra",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Tire balance": {
+      "to": "Tire balance",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
     },
     "Damping": {
       "to": "Damping",
       "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
     },
-    "Differential form": {
-      "to": "Differential form",
+    "Dyadics": {
+      "to": "Dyadics",
       "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Potential energy": {
+      "to": "Potential energy",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Affine connection": {
+      "to": "Affine connection",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Resonance": {
+      "to": "Resonance",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Edit section: Angular momentum": {
+      "to": "Edit section: Angular momentum",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Seconds pendulum": {
+      "to": "Seconds pendulum",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Statistical mechanics": {
+      "to": "Statistical mechanics",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Conservation of angular momentum": {
+      "to": "Angular momentum",
+      "tofragment": "Conservation of angular momentum",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Gravimeter": {
+      "to": "Gravimetry",
+      "tofragment": "Gravimeters",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Rotational velocity": {
+      "to": "Rotational frequency",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Radian per second squared": {
+      "to": "Angular acceleration",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Kilogram square metre per second": {
+      "to": "Joule-second",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Doi (identifier)": {
+      "to": "Digital object identifier",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Mass flow rate": {
+      "to": "Mass flow rate",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Fiber bundle": {
+      "to": "Fiber bundle",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Edit section: Motion in a fixed plane": {
+      "to": "Edit section: Motion in a fixed plane",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Edit section: Center of oscillation": {
+      "to": "Edit section: Center of oscillation",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Niagara River": {
+      "to": "Niagara River",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Classical mechanics": {
+      "to": "Classical mechanics",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Metre per second": {
+      "to": "Metre per second",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Edit section: Derivation of the tensor components": {
+      "to": "Edit section: Derivation of the tensor components",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Centroid": {
+      "to": "Centroid",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Albert Einstein": {
+      "to": "Albert Einstein",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Edit section: Kinetic energy": {
+      "to": "Edit section: Kinetic energy",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Pseudotensor": {
+      "to": "Pseudotensor",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Spin tensor": {
+      "to": "Spin tensor",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Hermann Weyl": {
+      "to": "Hermann Weyl",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Edit section: Measuring moment of inertia": {
+      "to": "Edit section: Measuring moment of inertia",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Moment (physics)": {
+      "to": "Moment (physics)",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "History of classical mechanics": {
+      "to": "History of classical mechanics",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Van der Waerden notation": {
+      "to": "Van der Waerden notation",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Outer product": {
+      "to": "Outer product",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Tensor contraction": {
+      "to": "Tensor contraction",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Sylvester's law of inertia": {
+      "to": "Sylvester's law of inertia",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Angular acceleration": {
+      "to": "Angular acceleration",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Flywheel": {
+      "to": "Flywheel",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "International System of Units": {
+      "to": "International System of Units",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "List of textbooks on classical mechanics and quantum mechanics": {
+      "to": "List of textbooks on classical mechanics and quantum mechanics",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Edit section: Inertia tensor": {
+      "to": "Edit section: Inertia tensor",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Multilinear algebra": {
+      "to": "Multilinear algebra",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Parallel axis theorem": {
+      "to": "Parallel axis theorem",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Galileo Galilei": {
+      "to": "Galileo Galilei",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Pendulum": {
+      "to": "Pendulum",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Virtual work": {
+      "to": "Virtual work",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Torsion tensor": {
+      "to": "Torsion tensor",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Mathematician": {
+      "to": "Mathematician",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Covariance and contravariance of vectors": {
+      "to": "Covariance and contravariance of vectors",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Triple product": {
+      "to": "Triple product",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Non-inertial reference frame": {
+      "to": "Non-inertial reference frame",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Simple harmonic motion": {
+      "to": "Simple harmonic motion",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Second moment of area": {
+      "to": "Second moment of area",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Cauchy stress tensor": {
+      "to": "Cauchy stress tensor",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Edit section: Moment of inertia of area": {
+      "to": "Edit section: Moment of inertia of area",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Pendulum (mechanics)": {
+      "to": "Pendulum (mechanics)",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Jerk (physics)": {
+      "to": "Jerk (physics)",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Dynamics (mechanics)": {
+      "to": "Dynamics (mechanics)",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Rotational spectroscopy": {
+      "to": "Rotational spectroscopy",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Simple pendulum": {
+      "to": "Pendulum",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Cartan formalism (physics)": {
+      "to": "Tetrad formalism",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Tetrad (index notation)": {
+      "to": "Tetrad formalism",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Second law of motion": {
+      "to": "Newton's laws of motion",
+      "tofragment": "Second law",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "ISBN (identifier)": {
+      "to": "ISBN",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Motion (physics)": {
+      "to": "Motion",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Yank (physics)": {
+      "to": "Force",
+      "tofragment": "Yank",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Angular displacement": {
+      "to": "Angular displacement",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "List of equations in classical mechanics": {
+      "to": "List of equations in classical mechanics",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Second": {
+      "to": "Second",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Edit section: Principal axes": {
+      "to": "Edit section: Principal axes",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Rotation matrix": {
+      "to": "Rotation matrix",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Edit section: Simple pendulum": {
+      "to": "Edit section: Simple pendulum",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Elwin Bruno Christoffel": {
+      "to": "Elwin Bruno Christoffel",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Orthogonal diagonalization": {
+      "to": "Orthogonal diagonalization",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Edit section: Scalar moment of inertia in a plane": {
+      "to": "Edit section: Scalar moment of inertia in a plane",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Gregorio Ricci-Curbastro": {
+      "to": "Gregorio Ricci-Curbastro",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Symmetric tensor": {
+      "to": "Symmetric tensor",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Augustin-Louis Cauchy": {
+      "to": "Augustin-Louis Cauchy",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Precession": {
+      "to": "Precession",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
     },
     "Oxford University Press": {
       "to": "Oxford University Press",
       "tofragment": "",
-      "cached_at": "2026-08-24T08:50:15.890593+00:00"
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Planar lamina": {
+      "to": "Planar lamina",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Edit section: Resultant torque": {
+      "to": "Edit section: Resultant torque",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Stress–energy tensor": {
+      "to": "Stress–energy tensor",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Friction": {
+      "to": "Friction",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Rotational energy": {
+      "to": "Rotational energy",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Statics": {
+      "to": "Statics",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Tullio Levi-Civita": {
+      "to": "Tullio Levi-Civita",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Edit section: Ellipsoid": {
+      "to": "Edit section: Ellipsoid",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Ricci calculus": {
+      "to": "Ricci calculus",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Action (physics)": {
+      "to": "Action (physics)",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Alexis Clairaut": {
+      "to": "Alexis Clairaut",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "James Joseph Sylvester": {
+      "to": "James Joseph Sylvester",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Joule": {
+      "to": "Joule",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Area": {
+      "to": "Area",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Paul Émile Appell": {
+      "to": "Paul Émile Appell",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Rotational symmetry": {
+      "to": "Rotational symmetry",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Work (physics)": {
+      "to": "Work (physics)",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Glossary of tensor theory": {
+      "to": "Glossary of tensor theory",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Connection form": {
+      "to": "Connection form",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Center of percussion": {
+      "to": "Center of percussion",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Einstein tensor": {
+      "to": "Einstein tensor",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Newton's law of universal gravitation": {
+      "to": "Newton's law of universal gravitation",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Weight": {
+      "to": "Weight",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "One-form": {
+      "to": "One-form",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Edit section: Rigid body": {
+      "to": "Edit section: Rigid body",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Distance": {
+      "to": "Distance",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Resultant force": {
+      "to": "Resultant force",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Space": {
+      "to": "Space",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Nonmetricity tensor": {
+      "to": "Nonmetricity tensor",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Axis of rotation": {
+      "to": "Rotation",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Exterior product": {
+      "to": "Exterior algebra",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Yaw, pitch, and roll": {
+      "to": "Aircraft principal axes",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Exterior calculus": {
+      "to": "Differential form",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Rotatum": {
+      "to": "Torque",
+      "tofragment": "Derivatives of torque",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Turn (geometry)": {
+      "to": "Turn (angle)",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Displacement (vector)": {
+      "to": "Displacement (geometry)",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Kilogram per second": {
+      "to": "Mass flow rate",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Inverse square second": {
+      "to": "Inverse second",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Edit section: Newton's laws": {
+      "to": "Edit section: Newton's laws",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Hertz": {
+      "to": "Hertz",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Steradian": {
+      "to": "Steradian",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Eigendecomposition of a matrix": {
+      "to": "Eigendecomposition of a matrix",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Tensor density": {
+      "to": "Tensor density",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Tensor operator": {
+      "to": "Tensor operator",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Linear map": {
+      "to": "Linear map",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Circular motion": {
+      "to": "Circular motion",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Rigid body dynamics": {
+      "to": "Rigid body dynamics",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Vehicle": {
+      "to": "Vehicle",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Isaac Newton": {
+      "to": "Isaac Newton",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Metre per second squared": {
+      "to": "Metre per second squared",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Josiah Willard Gibbs": {
+      "to": "Josiah Willard Gibbs",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Beam (structure)": {
+      "to": "Beam (structure)",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Tensor bundle": {
+      "to": "Tensor bundle",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Kronecker delta": {
+      "to": "Kronecker delta",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Velocity": {
+      "to": "Velocity",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Fictitious force": {
+      "to": "Fictitious force",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Differential form": {
+      "to": "Differential form",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Impulse (physics)": {
+      "to": "Impulse (physics)",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Pierre Louis Maupertuis": {
+      "to": "Pierre Louis Maupertuis",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Élie Cartan": {
+      "to": "Élie Cartan",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Couple (mechanics)": {
+      "to": "Couple (mechanics)",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Manifold": {
+      "to": "Manifold",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Edit section: Determine inertia convention (principal axes method)": {
+      "to": "Edit section: Determine inertia convention (principal axes method)",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Joule-second": {
+      "to": "Joule-second",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Hodge star operator": {
+      "to": "Hodge star operator",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Edit section: Compound pendulums": {
+      "to": "Edit section: Compound pendulums",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Two-point tensor": {
+      "to": "Two-point tensor",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Power (physics)": {
+      "to": "Power (physics)",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Carl Gustav Jacob Jacobi": {
+      "to": "Carl Gustav Jacob Jacobi",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Edit section: Definition": {
+      "to": "Edit section: Definition",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Geodesic": {
+      "to": "Geodesic",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Jeremiah Horrocks": {
+      "to": "Jeremiah Horrocks",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Bernhard Riemann": {
+      "to": "Bernhard Riemann",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
+    },
+    "Coriolis force": {
+      "to": "Coriolis force",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:43.080350+00:00"
     }
   },
   "name_map_overrides": {},

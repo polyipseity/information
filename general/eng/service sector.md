@@ -1,1 +1,1 @@
-tertiary sector of the economy.md
+tertiary sector.md

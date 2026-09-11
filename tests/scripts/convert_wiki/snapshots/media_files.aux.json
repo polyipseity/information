@@ -1,6 +1,7 @@
 {
+  "api_responses": [],
   "image_metadata": {
-    "File:Test_image.png": "A test image used for testing purposes.",
+    "File:Test image.png": "A test image used for testing purposes.",
     "File:Diagram.svg": "An example diagram SVG file."
   },
   "name_map_overrides": {},

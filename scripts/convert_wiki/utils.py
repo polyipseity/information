@@ -420,10 +420,11 @@ def _reformat_table_block(block: list[str]) -> list[str]:
     return result
 
 
-# Matches a leading blockquote prefix (one or more ``>`` markers, each
-# followed by whitespace).  Used to align pipe tables that live inside
-# blockquotes, which mistune's AST parser does not surface as ``table``
-# tokens (so the main mistune-based pass skips them).
+"""Matches a leading blockquote prefix (one or more ``>`` markers, each followed by whitespace).
+
+Used to align pipe tables that live inside blockquotes, which mistune's AST parser does not
+surface as ``table`` tokens (so the main mistune-based pass skips them).
+"""
 _BLOCKQUOTE_PREFIX_RE = re.compile(r"^(>\s+)+")
 
 

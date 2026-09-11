@@ -52,6 +52,12 @@ async def _save_names_map(
     )
     tmp = resolved_path.with_suffix(".tmp")
     payload = json.dumps(dict(names_map), ensure_ascii=False, indent=2, sort_keys=True)
+    if names_map and payload.endswith("\n}"):
+        # Prettier formats ``.jsonc`` with ``trailingComma: "all"``, so the last
+        # entry needs a comma that ``json.dumps`` never writes.  ``json5.load``,
+        # the parser that reads this file, accepts it.
+        closing = "\n}"
+        payload = f"{payload.removesuffix(closing)},{closing}"
     try:
         await tmp.write_text(f"{payload}\n", encoding="UTF-8")
         await tmp.replace(resolved_path)

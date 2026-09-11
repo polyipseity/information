@@ -1,1 +1,1 @@
-von Neumann cardinal assignment.md
+cardinal number.md

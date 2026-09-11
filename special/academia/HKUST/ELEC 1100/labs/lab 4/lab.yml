@@ -1,0 +1,19 @@
+assignment:
+  comments: {}
+  content: No additional details were added for this assignment.
+  grade:
+    entered: 5
+    graded anonymously: false
+    possible: 5
+  id: 428900
+  properties:
+    due: No Due Date
+    points: 5
+  submissions:
+    - datetime: ""
+      id: -1
+  title: Lab#04
+course:
+  id: 70004
+  name: ELEC1100 (LA3)
+type: submission/Canvas/canvas.ust.hk

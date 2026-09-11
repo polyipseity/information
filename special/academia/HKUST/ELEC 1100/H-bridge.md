@@ -165,7 +165,7 @@ Two __74HC14__ inverters are needed for the two motors (left and right DIR). Con
 
 Flashcards for this section are as follows:
 
-- connecting DIR to L293: How is each motor's DIR signal wired to the L293? ::@:: Feed that motor's DIR line into one 74HC14 inverter input. Then wire the original DIR signal to one L293 direction input and the inverted DIR output to the other direction input of the same H-bridge half. So each motor sees a complementary pair such as $(\text{IN}_1,\text{IN}_2)=(\text{DIR},\overline{\text{DIR}})$. <!--SR:!fsrs,2027-04-03T05:31:40.654Z,302,302.49864392,1,2,7,0,0,2026-06-05T05:31:40.654Z!fsrs,2027-05-05T16:21:04.324Z,327,326.83582061,1,2,7,0,0,2026-06-12T16:21:04.324Z-->
+- connecting DIR to L293: How is each motor's DIR signal wired to the L293? ::@:: Feed that motor's DIR line into one 74HC14 inverter input. Then wire the original DIR signal to one L293 direction input and the inverted DIR output to the other direction input of the same H-bridge half. So each motor sees a complementary pair such as $(\text{IN}_1,\text{IN}_2)=(\text{DIR},\overline{\text{DIR}})$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2027-04-03T05:31:40.654Z,302,302.49864392,1,2,7,0,0,2026-06-05T05:31:40.654Z!fsrs,2027-05-05T16:21:04.324Z,327,326.83582061,1,2,7,0,0,2026-06-12T16:21:04.324Z-->
 
 ## breadboard layout
 

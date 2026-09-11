@@ -211,18 +211,24 @@ _API_MAX_BACKOFF = 30.0
 _BAD_CHARACTERS: Pattern[str] = compile(r"[/:\\]")
 "Regex for escaping special Markdown characters."
 _MARKDOWN_ESCAPE_REGEX: Pattern[str] = compile(r"[#$()*<>\\[\\\]_`|]")
+"Wikimedia media hosts serving uploads and thumbnails."
+_WIKIMEDIA_MEDIA_HOST = r"(?:upload|thumb)\.wikimedia\.org"
 "Regexes mapping Wikimedia upload URLs to archive filename and path formats."
 _ARCHIVE_REGEXES = {
     compile(
-        r"^https://upload.wikimedia.org/wikipedia/[^/]*/[0-9a-f]/[0-9a-f]{2}/([^/?]*)$"
+        rf"^https://{_WIKIMEDIA_MEDIA_HOST}/wikipedia/[^/]*/[0-9a-f]/[0-9a-f]{{2}}/([^/?]*)$"
     ): ("File:{}", "../../archives/Wikimedia Commons/{}"),
     compile(
-        r"^https://upload.wikimedia.org/wikipedia/[^/]*/thumb/[0-9a-f]/[0-9a-f]{2}/([^/?#]*)/.*$"
+        rf"^https://{_WIKIMEDIA_MEDIA_HOST}/wikipedia/[^/]*/thumb/[0-9a-f]/[0-9a-f]{{2}}/([^/?#]*)/.*$"
     ): ("File:{}", "../../archives/Wikimedia Commons/{}"),
     compile(
-        r"^https://upload.wikimedia.org/wikipedia/[^/]*/transcoded/[0-9a-f]/[0-9a-f]{2}/([^/?#]*)/.*$"
+        rf"^https://{_WIKIMEDIA_MEDIA_HOST}/wikipedia/[^/]*/transcoded/[0-9a-f]/[0-9a-f]{{2}}/([^/?#]*)/.*$"
     ): ("File:{}", "../../archives/Wikimedia Commons/{}"),
     compile(r"^https://[^\.]*.?wikipedia.org/wiki/File:([^?#]*)$"): (
+        "File:{}",
+        "../../archives/Wikimedia Commons/{}",
+    ),
+    compile(r"^https://[^\.]*.?wikipedia.org/File:([^?#]*)$"): (
         "File:{}",
         "../../archives/Wikimedia Commons/{}",
     ),

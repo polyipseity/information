@@ -1,1 +1,1 @@
-de Rham cohomology.md
+de Rham theorem.md
