@@ -8,7 +8,7 @@ tags:
   - language/in/English
 ---
 
-<!-- check: ignore-file[index_heading,index_children]: assignment-style index for lab 4 -->
+<!-- check: ignore-file[index_heading]: assignment-style index for lab 4 -->
 
 # lab 4
 
@@ -18,12 +18,15 @@ tags:
 
 - title: Lab#04 Summary Sheet
 - due: 2026-03-16T13:20:00+08:00
+- points: 1
+- submitting: a file upload
+- file types: doc, docx, pdf, jpg, jpeg
 - available: 2026-03-16T10:30:00+08:00/2026-03-16T13:20:00+08:00, PT2H50M
-- source note: lab handout and summary-sheet PDFs are archived, but Canvas assignment metadata beyond the lab slot is not yet archived.
 
 ---
 
-This lab turns the earlier transistor and regulator notes into a reusable motor-driver stack. The archived sources show that the summary sheet is submitted individually after the in-lab TA checks, while the breadboarded LM7805, 74HC14, and L293 circuits should be kept intact for later labs.
+This assignment was locked Mar 16 at 1:20pm. <br/>
+No additional details were added for this assignment.
 
 ## attachments
 
@@ -33,4 +36,11 @@ This lab turns the earlier transistor and regulator notes into a reusable motor-
 
 ## submission
 
-- summary sheet upload: each student submits their own completed summary sheet before the end of the lab slot; canonical Canvas-export metadata is pending.
+- submission
+    - metadata: [`submission.yml`](submission.yml)
+- in-class submission
+    - metadata: [`lab.yml`](lab.yml)
+
+## children
+
+- [lab](lab.md)

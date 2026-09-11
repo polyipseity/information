@@ -8,7 +8,7 @@ tags:
   - language/in/English
 ---
 
-<!-- check: ignore-file[index_heading,index_children]: assignment-style index for lab 2 -->
+<!-- check: ignore-file[index_heading]: assignment-style index for lab 2 -->
 
 # lab 2
 
@@ -36,5 +36,11 @@ No additional details were added for this assignment.
 
 ## submission
 
-- summary sheet upload: each student submits their own completed summary sheet before the end of the lab slot.
-- archived Canvas export: [submission.yml](submission.yml)
+- submission
+    - metadata: [`submission.yml`](submission.yml)
+- in-class submission
+    - metadata: [`lab.yml`](lab.yml)
+
+## children
+
+- [lab](lab.md)
