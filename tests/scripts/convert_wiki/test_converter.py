@@ -2007,6 +2007,70 @@ class TestTextNormalization:
         assert "a b" not in result
 
     @pytest.mark.anyio
+    @pytest.mark.parametrize(
+        ("html", "expected"),
+        [
+            # At a block boundary nothing renders beside the run, so it goes.
+            ("<div>\n      Text here\n    </div>", "Text here"),
+            ("<div>text here\n   </div>", "text here"),
+            ("<dl><dd>\n  Text here\n</dd></dl>", "Text here\n\n"),
+            # Between two inline tokens the run is the separation they need.
+            ("<div><b>x</b>\n     text here\n</div>", "__x__ text here"),
+            ("<div>one\n   two</div>", "one two"),
+            # The run must survive even when the neighbour ends in whitespace:
+            # the two runs resolve together, so dropping both merges the tokens
+            # into ``kgm``.
+            ("<div><span>kg </span> m s</div>", "kg  m s"),
+            # Markup that renders nothing is stepped over, not treated as the
+            # boundary, so the tokens either side still see each other.
+            (
+                '<div><span>173</span><div class="paragraphbreak"></div>\n  The rest</div>',
+                "173 The rest",
+            ),
+        ],
+    )
+    async def test_glued_whitespace_run(
+        self, converter: WikiHtmlConverter, html: str, expected: str
+    ) -> None:
+        """A run glued to text is dropped at a block boundary, not between tokens."""
+        assert await _convert(converter, html) == expected
+
+    @pytest.mark.anyio
+    @pytest.mark.parametrize(
+        "html",
+        [
+            "<div><b>x</b> y</div>",
+            "<div><b>x</b><span> </span>y</div>",
+            "<div><b>x</b>\n     y</div>",
+        ],
+    )
+    async def test_whitespace_renders_the_same_glued_or_alone(
+        self, converter: WikiHtmlConverter, html: str
+    ) -> None:
+        """A run is decided by its neighbour, not by which node holds it.
+
+        A whitespace-only node between two real tokens and the same run glued
+        to adjacent text must render identically, or the two spellings of one
+        separation disagree.
+        """
+        assert await _convert(converter, html) == "__x__ y"
+
+    @pytest.mark.anyio
+    async def test_adjacent_whitespace_runs_lose_the_separation(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Recorded limitation: two whitespace runs facing each other both drop.
+
+        A whitespace-only node whose neighbour is itself whitespace-only sees
+        no token on that side, and the neighbour makes the same judgement in
+        reverse, so a space that HTML would collapse to one is lost entirely.
+        Pre-existing (verified against ``b119dd43b``); fixing it needs the runs
+        between two tokens collapsed as a sequence rather than one at a time.
+        """
+        result = await _convert(converter, "<div><b>x</b> <span> </span>y</div>")
+        assert result == "__x__y"
+
+    @pytest.mark.anyio
     async def test_newlines_normalized_to_spaces(
         self, converter: WikiHtmlConverter
     ) -> None:

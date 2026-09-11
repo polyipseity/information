@@ -337,7 +337,8 @@ class WikiHtmlConverter:
                 # See the formatting-agnostic principle documented above.
                 text = text.translate(str.maketrans({c: " " for c in "\t\n\r\x0b\x0c"}))
                 text = _COLLAPSE_SPACES_REGEX.sub(" ", text)
-                if all(c in "\t\n\r\x0b\x0c " for c in text):
+                core = text.strip(" ")
+                if not core:
                     # Preserve a single space between two adjacent inline
                     # tokens that would otherwise merge: two emphasis elements
                     # (``<b>M</b> <b>L</b>`` → ``__M__ __L__``), two links
@@ -358,13 +359,9 @@ class WikiHtmlConverter:
                     # nothing — an empty ``<span>``, or the ``<link>`` elements
                     # Parsoid leaves between citations — is stepped over rather
                     # than mistaken for the neighbour.
-                    prev = self._rendered_neighbour(ele, following=False, refs=refs)
-                    nxt = self._rendered_neighbour(ele, following=True, refs=refs)
-                    if (
-                        not self._in_texhtml(ele)
-                        and self._nearest_edge_is_word(prev, following=False, refs=refs)
-                        and self._nearest_edge_is_word(nxt, following=True, refs=refs)
-                    ):
+                    if self._whitespace_run_renders(
+                        ele, following=False, refs=refs
+                    ) and self._whitespace_run_renders(ele, following=True, refs=refs):
                         return " "
                     if (
                         self._in_texhtml(ele)
@@ -375,7 +372,26 @@ class WikiHtmlConverter:
                     ):
                         return _cfg._MARKDOWN_SEPARATOR
                     return ""
-                return escape_markdown(text) if escape else text
+                # A run glued to the text is dropped only at a block boundary,
+                # because the block supplies its own newline.  Between two inline
+                # tokens the run is the separation they need, and it survives even
+                # when the neighbour also ends in whitespace: the two runs are
+                # resolved together, so dropping both would merge the tokens
+                # (``<span>kg </span> m`` must not become ``kgm``).
+                prefix = (
+                    " "
+                    if text.startswith(" ")
+                    and not self._meets_block_boundary(ele, following=False, refs=refs)
+                    else ""
+                )
+                suffix = (
+                    " "
+                    if text.endswith(" ")
+                    and not self._meets_block_boundary(ele, following=True, refs=refs)
+                    else ""
+                )
+                rendered = f"{prefix}{core}{suffix}"
+                return escape_markdown(rendered) if escape else rendered
             return ""
 
         classes = frozenset(ele.get_attribute_list("class"))
@@ -758,37 +774,32 @@ class WikiHtmlConverter:
         )
 
     @classmethod
-    def _nearest_edge_is_word(
+    def _rendered_edge_node(
         cls, ele: PageElement | None, *, following: bool, refs: bool
-    ) -> bool:
-        """Whether the nearest rendered character at *ele*'s edge is a word character.
+    ) -> PageElement | None:
+        """Return the node holding the character at *ele*'s rendered edge.
 
-        The whitespace branch asks this of both neighbours.  A run of whitespace
-        is the only separation between two words, so it must survive whitespace
-        collapsing whenever both rendered edges are word characters; the previous
-        neighbour is judged by its last character and the next by its first.
-
-        The answer comes from the *rendered* edge, so the descent steps through
+        The answer comes from the *rendered* edge, so the walk steps through
         inline wrappers (``<bdi>``, ``<math>``, nested spans) and past markup
-        that renders nothing instead of stopping at the first element boundary.
-        An edge that reaches a block element or ``<br>`` is not a word edge:
-        those separate blocks rather than joining words.
+        that renders nothing rather than stopping at the first element boundary.
+
+        ``None`` means the edge is a boundary rather than a character: a block
+        element, ``<br>``, markup that never renders, or the document edge.
+        Those separate blocks instead of joining words.
         """
-        node = ele
+        node: PageElement | None = ele
         while node is not None:
             if isinstance(node, PreformattedString):
-                return False
+                return None
             if isinstance(node, NavigableString):
-                text = str(node)
-                if not text.strip():
-                    return False
-                return not (text[0] if following else text[-1]).isspace()
+                return node
             if not isinstance(node, Tag):
-                return False
+                return None
             if node.name == "img":
-                return True
+                # An image has no children yet still renders an inline token.
+                return node
             if node.name in _BLOCK_TAGS:
-                return False
+                return None
             children = tuple(node.contents)
             if not following:
                 children = children[::-1]
@@ -800,7 +811,54 @@ class WikiHtmlConverter:
                 ),
                 None,
             )
-        return False
+        return None
+
+    @classmethod
+    def _nearest_edge_is_word(
+        cls, ele: PageElement | None, *, following: bool, refs: bool
+    ) -> bool:
+        """Whether the nearest rendered character at *ele*'s edge is a word character.
+
+        The whitespace branch asks this of both neighbours.  A run of whitespace
+        is the only separation between two words, so it must survive whitespace
+        collapsing whenever both rendered edges are word characters; the previous
+        neighbour is judged by its last character and the next by its first.
+        """
+        edge = cls._rendered_edge_node(ele, following=following, refs=refs)
+        if isinstance(edge, NavigableString):
+            text = str(edge)
+            if not text.strip():
+                return False
+            return not (text[0] if following else text[-1]).isspace()
+        return isinstance(edge, Tag)
+
+    def _meets_block_boundary(
+        self, ele: PageElement, *, following: bool, refs: bool
+    ) -> bool:
+        """Whether *ele*'s text edge meets a block boundary rather than a character.
+
+        True at the document edge and where a block element or ``<br>`` renders;
+        false whenever some character is rendered there, even a space.  Callers
+        use it to tell "nothing is rendered beside this run" from "the run's
+        neighbour is itself whitespace".
+        """
+        neighbour = self._rendered_neighbour(ele, following=following, refs=refs)
+        return (
+            self._rendered_edge_node(neighbour, following=following, refs=refs) is None
+        )
+
+    def _whitespace_run_renders(
+        self, ele: PageElement, *, following: bool, refs: bool
+    ) -> bool:
+        """Whether a whitespace-only text node separates two merged tokens.
+
+        Asked of both directions before a whitespace-only node is kept, because
+        its neighbour may already supply the same separation.
+        """
+        if self._in_texhtml(ele):
+            return False
+        neighbour = self._rendered_neighbour(ele, following=following, refs=refs)
+        return self._nearest_edge_is_word(neighbour, following=following, refs=refs)
 
     @staticmethod
     def _renders_emphasis(ele: Tag) -> bool:
