@@ -408,7 +408,7 @@ The content is in teaching order.
     - continuous variable ::@:: can be measured continuously <!--SR:!2027-08-07,719,419!2027-06-08,671,419-->
         - continuous variable / examples ::@:: length, speed, temperature, weight, width <!--SR:!2027-05-01,638,416!2027-06-17,679,416-->
 - x̅ and R chart
-    - x̅ and R chart / data ::@:: Take a series of samples over _time_. Each sample is taken on a small group (fixed size _n_) of products. <!--SR:!2027-06-30,690,419!2026-10-21,479,399-->
+    - x̅ and R chart / data ::@:: Take a series of samples over _time_. Each sample is taken on a small group (fixed size _n_) of products. <!--SR:!2027-06-30,690,419!fsrs,2032-11-08T00:00:00.000Z,2210,2210.21956418,1,2,10,0,0,2026-10-21T00:00:00.000Z-->
     - x̅ and R chart / method ::@:: For each sample, compute mean $\overline x$ and range $R$. Then across all samples, compute mean of mean $\overline {\overline x}$ and mean of range $\overline R$. Compute _control_ \(not _specification_\) limits by multiplying the mean of range $\overline R$ by $A_2$ that is obtained given $n$. <!--SR:!2027-07-16,702,419!2027-07-19,704,419-->
     - x̅ and R chart / center line ::@:: $${\bar {\bar {x} } }={\frac {\sum _{i=1}^{m}\sum _{j=1}^{n}x_{ij} }{mn} }$$ <!--SR:!2027-07-14,700,419!2027-05-15,651,416-->
     - x̅ and R chart / control limits ::@:: $${\bar {\bar {x} } }\pm A_{2}{\bar {R} }$$ <!--SR:!2027-08-06,718,419!2027-07-01,691,419-->

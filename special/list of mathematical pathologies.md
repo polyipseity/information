@@ -49,7 +49,7 @@ The [Dirichlet function](Dirichlet%20function.md) is {@{$$f(x \in \mathbb{R}) = 
 {@{Every [set](../general/set%20(mathematics).md) $X$ has the unique [function](../general/function%20(mathematics).md) $\varnothing \to X$}@} called the __empty function__. <!--SR:!2028-04-02,1147,350-->
 
 - [continuity](../general/continuous%20function.md) and discontinuity ::@:: It is continuous and not discontinuous at every point of its [domain](../general/domain%20of%20a%20function.md) by [vacuous truth](../general/vacuous%20truth.md). It is neither continuous nor discontinuous at every [real](../general/real%20number.md). <!--SR:!2026-12-10,713,330!2027-02-04,755,330-->
-    - global continuity or discontinuity ::@:: It is a [continuous function](../general/continuous%20function.md). <!--SR:!2027-03-15,775,343!2026-10-21,669,343-->
+    - global continuity or discontinuity ::@:: It is a [continuous function](../general/continuous%20function.md). <!--SR:!2027-03-15,775,343!fsrs,2034-04-06T00:00:00.000Z,2724,2723.59364464,1,2,10,0,0,2026-10-21T00:00:00.000Z-->
 - [limit of a function](../general/limit%20of%20a%20function.md) ::@:: It has limit and it has no limit at every point of its [domain](../general/domain%20of%20a%20function.md) by [vacuous truth](../general/vacuous%20truth.md). <!--SR:!2027-08-20,969,350!2028-11-12,1324,350-->
 
 ## topologies
@@ -64,6 +64,6 @@ The [Dirichlet function](Dirichlet%20function.md) is {@{$$f(x \in \mathbb{R}) = 
 
 The function is {@{$$f(x) = \begin{cases} x^2 \sin \frac 1 {x^2}, & x \ne 0 \\ 0, & x = 0 \end{cases}$$}@}. <!--SR:!fsrs,2032-08-20T00:00:00.000Z,2230,2230.3468557,1,2,10,0,0,2026-07-13T00:00:00.000Z-->
 
-- derivative ::@:: $$f'(x) = \begin{cases} 2x \sin \frac 1 {x^2} - \frac {2 \cos \frac 1 {x^2} } x, & x \ne 0 \\ 0, & x = 0 \end{cases}$$ <!--SR:!2027-10-21,531,286!2026-10-21,650,326-->
+- derivative ::@:: $$f'(x) = \begin{cases} 2x \sin \frac 1 {x^2} - \frac {2 \cos \frac 1 {x^2} } x, & x \ne 0 \\ 0, & x = 0 \end{cases}$$ <!--SR:!2027-10-21,531,286!fsrs,2031-04-23T00:00:00.000Z,1645,1645.04868118,2.64257837,2,10,0,0,2026-10-21T00:00:00.000Z-->
     - derivative integrability
         - derivative [Riemann integrability](../general/Riemann%20integral.md) ::@:: The derivative is not Riemann integrable on any non-trivial interval containing 0, as it is [unbounded](../general/bounded%20function.md). The derivative is an example of an non-integrable function that has an [antiderivative](../general/antiderivative.md) everywhere. <!--SR:!2030-11-09,1763,326!2027-09-13,899,346-->

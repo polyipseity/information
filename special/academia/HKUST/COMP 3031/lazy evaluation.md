@@ -60,7 +60,7 @@ or {@{more conveniently}@} via {@{the factory syntax}@}, in which {@{parameters 
 > ```Scala
 > val ys = LazyList(1, 2, 3)
 > ```
-<!--SR:!2026-10-21,265,345!2026-11-05,280,345!2027-01-16,339,345-->
+<!--SR:!fsrs,2030-02-26T00:00:00.000Z,1224,1224.09821834,1,2,9,0,0,2026-10-21T00:00:00.000Z!2026-11-05,280,345!2027-01-16,339,345-->
 
 {@{The operator corresponding to `::` for `LazyList`}@} is {@{the `#::` operator}@}, which prepends {@{a head element to a tail}@} that is {@{itself a lazy list}@}: <!--SR:!2026-11-29,301,345!2026-12-18,316,345!2027-01-09,333,345!2026-10-30,274,345-->
 

@@ -120,7 +120,7 @@ This shift reshaped {@{mobile usage}@}: people moved from {@{voice‑centric ser
 
 {@{_5G_}@} builds on {@{LTE's bandwidth}@} but adds {@{_latency_ as a first‑class requirement}@}. {@{Current deployments}@} target {@{sub‑50&nbsp;ms round‑trip times}@}, which is needed for {@{smooth VoIP and low‑delay video streaming}@}. <!--SR:!2027-03-08,313,343!2027-03-14,319,343!2027-03-15,320,343!2027-01-08,282,343!2027-03-18,323,343!2027-03-04,309,343-->
 
-5G aims to support {@{a _tactile wireless network_}@} for {@{machine‑type communications, real‑time control loops, and immersive interactive gaming}@}. Here {@{end‑to‑end delays must drop below _1&nbsp;ms_}@}. This requires {@{dense small‑cell deployments, massive MIMO}@}, and {@{ultra‑reliable low‑latency communication (URLLC) protocols}@} that handle {@{high‑throughput data and time‑critical control signals}@}. <!--SR:!2027-02-28,305,343!2027-03-23,328,343!2026-10-21,202,323!2027-03-15,320,343!2027-03-06,311,343!2027-02-19,296,343-->
+5G aims to support {@{a _tactile wireless network_}@} for {@{machine‑type communications, real‑time control loops, and immersive interactive gaming}@}. Here {@{end‑to‑end delays must drop below _1&nbsp;ms_}@}. This requires {@{dense small‑cell deployments, massive MIMO}@}, and {@{ultra‑reliable low‑latency communication (URLLC) protocols}@} that handle {@{high‑throughput data and time‑critical control signals}@}. <!--SR:!2027-02-28,305,343!2027-03-23,328,343!fsrs,2029-04-06T00:00:00.000Z,898,897.85795487,1,2,9,0,0,2026-10-21T00:00:00.000Z!2027-03-15,320,343!2027-03-06,311,343!2027-02-19,296,343-->
 
 ### 5G implementation
 

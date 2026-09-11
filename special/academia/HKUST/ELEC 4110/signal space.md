@@ -150,8 +150,8 @@ Raising {@{bit rate}@} by {@{adding dimensions}@} requires {@{higher bandwidth o
 
 ### M-ary modulation
 
-Assigning {@{distinct vectors to each symbol}@} transmits {@{more than one bit per symbol}@}. {@{Dimensionality}@} dictates {@{how many _orthogonal_ symbols can coexist}@}; higher dimensions enable {@{denser constellations}@}. <!--SR:!2027-02-09,329,345!2027-02-15,334,345!2027-03-18,361,364!2027-02-04,325,345!2026-10-21,237,344-->
+Assigning {@{distinct vectors to each symbol}@} transmits {@{more than one bit per symbol}@}. {@{Dimensionality}@} dictates {@{how many _orthogonal_ symbols can coexist}@}; higher dimensions enable {@{denser constellations}@}. <!--SR:!2027-02-09,329,345!2027-02-15,334,345!2027-03-18,361,364!2027-02-04,325,345!fsrs,2029-11-02T00:00:00.000Z,1108,1107.52679912,1,2,9,0,0,2026-10-21T00:00:00.000Z-->
 
 ### constellation diagram
 
-Plotting {@{coordinate vectors}@} of {@{all allowed signals on a Euclidean plane}@} gives {@{the _constellation diagram_}@}. {@{Distances between points}@} determine {@{error probability under AWGN}@}. <!--SR:!2026-12-07,276,345!2027-01-05,300,345!2026-12-10,278,345!2027-01-27,317,345!2026-10-21,236,330-->
+Plotting {@{coordinate vectors}@} of {@{all allowed signals on a Euclidean plane}@} gives {@{the _constellation diagram_}@}. {@{Distances between points}@} determine {@{error probability under AWGN}@}. <!--SR:!2026-12-07,276,345!2027-01-05,300,345!2026-12-10,278,345!2027-01-27,317,345!fsrs,2029-09-08T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-10-21T00:00:00.000Z-->

@@ -497,7 +497,7 @@ tags:
 > 2. Firm B
 >
 > - solution: {@{2}@}
-> - explanation: {@{Its net working capital \(NWC\) is smaller. Note that the term _insolvency_ describes liquidity, so long-term debt is ignored.}@} <!--SR:!2026-10-21,474,399!2026-10-24,477,399-->
+> - explanation: {@{Its net working capital \(NWC\) is smaller. Note that the term _insolvency_ describes liquidity, so long-term debt is ignored.}@} <!--SR:!fsrs,2032-10-19T00:00:00.000Z,2190,2190.17281116,1,2,10,0,0,2026-10-21T00:00:00.000Z!2026-10-24,477,399-->
 
 <!-- markdownlint MD028 -->
 

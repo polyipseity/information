@@ -74,7 +74,7 @@ Non-sampling errors are other errors which can impact final survey estimates, ca
 - processing error ::@:: mistakes in data coding <!--SR:!2029-01-28,1251,350!2028-12-30,1230,350-->
 - [non-response or participation bias](participation%20bias.md) ::@:: failure to obtain complete data from all selected individuals <!--SR:!2028-01-03,947,350!2028-10-21,1175,350-->
 
-After sampling, {@{a review is held of the exact process followed in sampling, rather than that intended}@}, in order to {@{study any effects that any divergences might have on subsequent analysis}@}. <!--SR:!2026-10-21,571,310!2027-08-09,800,330-->
+After sampling, {@{a review is held of the exact process followed in sampling, rather than that intended}@}, in order to {@{study any effects that any divergences might have on subsequent analysis}@}. <!--SR:!fsrs,2032-08-14T00:00:00.000Z,2124,2123.88260095,1,2,10,0,0,2026-10-21T00:00:00.000Z!2027-08-09,800,330-->
 
 A particular problem involves {@{_non-response_}@}. Two major types of non-response exist: {@{unit non-response and item non-response}@}. <!--SR:!2029-05-24,1344,350!2029-01-10,1237,350-->
 

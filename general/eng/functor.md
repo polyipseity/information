@@ -26,7 +26,7 @@ In {@{[mathematics](mathematics.md), specifically [category theory](category%20t
 
 > {@{![A category with objects X, Y, Z and morphisms f, g, g ∘ f](../../archives/Wikimedia%20Commons/Commutative%20diagram%20for%20morphism.svg)}@}
 >
-> {@{A category}@} with {@{objects X, Y, Z and morphisms f, g, g ∘ f}@} <!--SR:!2029-09-24,1340,350!2030-11-07,1691,377!2026-10-21,146,415-->
+> {@{A category}@} with {@{objects X, Y, Z and morphisms f, g, g ∘ f}@} <!--SR:!2029-09-24,1340,350!2030-11-07,1691,377!fsrs,2028-12-20T00:00:00.000Z,791,791.36012753,1,2,8,0,0,2026-10-21T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 

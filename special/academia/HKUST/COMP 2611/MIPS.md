@@ -422,4 +422,4 @@ It also has its own {@{instructions}@}. They are listed in [§ floating-point in
 
 ### 32-bit immediate
 
-The immediate field can {@{only up to 16 bits}@}. A natural question arises: {@{How do we store a 32-bit signed/unsigned integer}@}? The answer is {@{using `lui` and `ori` together}@}. Since {@{this is a common operation}@}, {@{the pseudo-instruction `li` is available and does the same thing}@}. <!--SR:!2027-02-01,532,401!2027-01-05,514,401!2026-10-21,445,401!2027-01-31,531,401!2027-01-03,509,401-->
+The immediate field can {@{only up to 16 bits}@}. A natural question arises: {@{How do we store a 32-bit signed/unsigned integer}@}? The answer is {@{using `lui` and `ori` together}@}. Since {@{this is a common operation}@}, {@{the pseudo-instruction `li` is available and does the same thing}@}. <!--SR:!2027-02-01,532,401!2027-01-05,514,401!fsrs,2032-06-24T00:00:00.000Z,2073,2073.37029021,1,2,10,0,0,2026-10-21T00:00:00.000Z!2027-01-31,531,401!2027-01-03,509,401-->

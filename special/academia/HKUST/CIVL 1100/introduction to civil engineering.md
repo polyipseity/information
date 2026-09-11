@@ -47,7 +47,7 @@ The content is in teaching order.
         - underground structure examples ::@:: Turin–Lyon high-speed railway (2002–2032), 271 km long, has the Mont Cenis base tunnel that is 57.5 km long with up to 4 km long access tunnels <!--SR:!2029-06-06,1404,341!2033-01-30,2501,372-->
     - [civil engineering new challenges](#civil%20engineering%20new%20challenges)
         - climate change engineering examples ::@:: Project MOSE (2003–2025) in Venice, Thames Barrier (1974–1982) <!--SR:!2029-07-16,1373,307!2031-01-17,1955,400-->
-            - Thames Barrier (1974–1982) mechanism ::@:: The gate is a chord of a circle. It rotates along the circumference of the circle. When open, it acts like the river floor. When closing, the chord rotates about the circle center and becomes a barrier. <!--SR:!2030-06-10,1723,357!2026-10-21,698,360-->
+            - Thames Barrier (1974–1982) mechanism ::@:: The gate is a chord of a circle. It rotates along the circumference of the circle. When open, it acts like the river floor. When closing, the chord rotates about the circle center and becomes a barrier. <!--SR:!2030-06-10,1723,357!fsrs,2034-12-15T00:00:00.000Z,2977,2977.43666345,1,2,10,0,0,2026-10-21T00:00:00.000Z-->
 - civil engineering solutions ::@:: smart cities <!--SR:!2034-04-29,2976,420!2030-12-09,1925,396-->
     - smart cities examples ::@:: Using technology to gather information, predict events, and notify people. <!--SR:!2029-01-25,1403,355!2033-07-20,2741,420-->
 - [civil engineering subdisciplines](#civil%20engineering%20subdisciplines)

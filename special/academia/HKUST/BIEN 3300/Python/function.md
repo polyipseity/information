@@ -23,7 +23,7 @@ def square(x):
   return x * x
 ```
 
-This is an example of a function that returns nothing. They are used for {@{side effects}@}: <!--SR:!2026-10-21,284,330-->
+This is an example of a function that returns nothing. They are used for {@{side effects}@}: <!--SR:!fsrs,2030-03-11T00:00:00.000Z,1237,1236.83645167,1,2,9,0,0,2026-10-21T00:00:00.000Z-->
 
 ```Python
 def print_square(x):
