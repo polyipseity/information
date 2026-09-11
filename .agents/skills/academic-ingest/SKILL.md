@@ -24,11 +24,42 @@ Preprocess each input:
 2. Extract metadata (Canvas URLs, dates, course codes from content)
 3. Normalize (strip HTML styling, extract plain text from PDFs)
 
+### Source identification
+
+Identify HTML source type before extraction:
+
+- __Canvas HTML__: URL contains `canvas.ust.hk`; has assignment metadata (title, due date, points, grade). Extract via `convert_canvas_submission`.
+- __PRS/iClicker HTML__: URL contains `prsmob.ust.hk/ars/`; has question text and numbered answer choices. Extract quiz content directly — do not run `convert_canvas_submission`.
+- __Generic HTML__: neither pattern. Extract readable text.
+
+### Directory ingestion
+
+When the input is a directory (or glob resolving to directories), scan recursively for supported file types. Group files by immediate parent directory — each subdirectory is a potential batch of related materials.
+
+1. List all files recursively, filtering to supported extensions.
+2. Group by immediate parent directory.
+3. For each group, apply the classification decision tree to the group as a whole (not per-file), using the directory name as the primary classification hint.
+4. Report the detected groupings before proceeding:
+
+```text
+Detected 5 groups in .pi/academic-ingest/:
+  - "ELEC 1100 - quiz 0 (tutorial 1)" → 2 HTML files
+  - "ELEC 1100 - quiz 1 (tutorial 2)" → 2 HTML files
+  ...
+Proceeding with ingestion for each group.
+```
+
 ## Course resolution
 
 1. __Extract from input:__ Canvas URL (course ID in path), file path (under `special/academia/<INST>/<CRS>/`), frontmatter tags
-2. __If ambiguous:__ list matching courses (name, institution, note count, last modified) and prompt user to pick
-3. __If no match:__ ask user to specify institution and course code, or confirm creation of new course
+2. __Directory name parsing:__ When ingesting from a directory, parse the directory name for structural hints:
+    - Pattern: `<COURSE> - <type> <N> (<binding> <M>)`
+    - Example: `ELEC 1100 - quiz 1 (tutorial 2)` → course=ELEC 1100, type=quiz, number=1, binding=tutorial, target=2
+    - Use the binding field to classify: tutorial → `tutorials/<name>/`, lab → `labs/<name>/`, etc.
+    - Use the course field to resolve the institution and course directory.
+    - This parsing is a hint, not a certainty — confirm with the user when the pattern is ambiguous.
+3. __If ambiguous:__ list matching courses (name, institution, note count, last modified) and prompt user to pick
+4. __If no match:__ ask user to specify institution and course code, or confirm creation of new course
 
 ## Splitting mixed-type materials
 
@@ -90,6 +121,10 @@ Material
 │  │  (in-class lab, tutorial, or lecture) for an existing submission,
 │  │  route to academic-crud-submission and treat as an in-class addition
 │  │  (creating lab.yml/tutorial.yml/lecture.yml and lab.md/tutorial.md/lecture.md).
+│  │  Also apply when the source is PRS/iClicker HTML (quiz questions only,
+│  │  no Canvas assignment page) — treat as in-class content for the matching
+│  │  tutorial. PRS HTML contains quiz questions, not Canvas metadata — extract
+│  │  question text and answer choices, do not run convert_canvas_submission.
 │
 ├─ Question set? (problems, exercises, iPRs, no submission)
 │  ├─ Yes → academic-crud-question (questions/<name>.md)
@@ -162,6 +197,49 @@ If a match is found, show the existing note and ask:
 
 All types support partial information: you can create a note with minimal info and fill in details later. An existing match never overrides type classification — a problem set that shares words with a topic note is still classified as a question set.
 
+### Multi-source merging
+
+When multiple input files classify to the same target directory, merge rather than creating duplicate entries.
+
+1. Identify shared target by matching directory name patterns (e.g., "quiz 1 (tutorial 2)" and "Quiz 01 (in Tutorial 02)" both target `tutorials/tutorial 2/`).
+2. Determine which source provides what:
+    - PRS/iClicker HTML → quiz content (questions, choices)
+    - Canvas HTML → metadata (grade, assignment ID, submission record)
+    - PDF/image attachments → supplementary files in `attachments/`
+3. Create the target directory once, then apply each source's contribution:
+    - Content from PRS HTML → `tutorial.md` (quiz questions)
+    - Metadata from Canvas HTML → `tutorial.yml` (grade, canvas_assignment_id)
+4. Report the merge:
+
+```text
+Merged 2 sources into tutorials/tutorial 2/:
+  - PRS HTML → tutorial.md (2 quiz questions)
+  - Canvas HTML → tutorial.yml (grade: 2/2)
+```
+
+### Schedule cross-referencing
+
+When the target is a submission (lab, tutorial, lecture), look up the matching session in the course `index.md` to fill metadata:
+
+1. Parse the session heading pattern: `## week N <type> M`
+2. Match by type and sequence number (e.g., "tutorial 2" → the second tutorial session in the course schedule)
+3. Extract: `datetime`, `venue`, `topic` from the session metadata
+4. Carry these into the created `index.md` and component YAML files
+
+This avoids inventing metadata and ensures consistency with the course schedule.
+
+### Source file disposition
+
+After extracting content from HTML source files:
+
+- Quiz questions → `tutorial.md` / `lab.md` / `lecture.md`
+- Grade metadata → `tutorial.yml` / `lab.yml` / `lecture.yml`
+- Canvas submission metadata → `submission.yml`
+- Prompt PDFs, data files, images → `attachments/` (only actual media/data)
+- Original HTML files → not stored in the repository
+
+Do not copy extracted-content HTML into `attachments/`. The `attachments/` directory is for raw referenced files (PDFs, images, data, scripts), not for source documents whose content has been transcripted into markdown.
+
 ### In-class component detection
 
 When the input is a Canvas HTML for a lab, tutorial, or lecture that already has a `submission.yml` in its directory, ask the user whether this is the out-of-class or in-class Canvas page. The in-class page produces `lab.yml`/`tutorial.yml`/`lecture.yml` (not `submission.yml`) and creates a `lab.md`/`tutorial.md`/`lecture.md` content file as a child of `index.md`. That content file is Canvas-sourced, so it mirrors the Canvas header block of the submission `index.md`: frontmatter, `# <type>` heading, identity bullets, the Canvas metadata bullets drawn from the component YAML, and the verbatim Canvas description. Do not leave it as a bare stub; see `academic-crud-submission` for the exact format.
@@ -178,6 +256,48 @@ Attachment directory placement depends on the classified target:
 - Course-level → `attachments/` at course root
 
 This step is optional when no raw files accompany the material.
+
+## Non-Canvas content templates
+
+When the in-class content is not Canvas-sourced, use these templates instead of the Canvas header block format.
+
+### PRS/iClicker quiz (`tutorial.md`)
+
+```markdown
+---
+aliases:
+  - <INSTITUTION> <COURSE> tutorial <N> tutorial
+  - <INSTITUTION> <COURSE> tutorial <N> quiz content
+tags:
+  - flashcard/active/special/academia/<INST>/<CRS>/tutorials/tutorial_<N>/tutorial
+  - language/in/English
+---
+
+# tutorial
+
+- <INSTITUTION> <COURSE> tutorial <N>
+- parent: [tutorial <N>](index.md)
+
+---
+
+- title: <session title from PRS HTML>
+- datetime: <from course schedule>
+- venue: <from course schedule>
+- topic: <from course schedule>
+
+## quiz
+
+### question 1 — <question stem>
+
+<question text>
+
+- 1\. <choice>
+- 2\. <choice>
+- 3\. <choice>
+- 4\. <choice>
+```
+
+Strip PRS UI chrome (navigation, error messages, "Pull down to refresh", "Your response is submitted") — keep only question text and answer choices. Preserve LaTeX math notation from the original.
 
 ## Dispatch
 
