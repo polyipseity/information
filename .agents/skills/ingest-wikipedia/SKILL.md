@@ -133,10 +133,10 @@ For example, if the article name is `Fourier transform` and the language is Engl
 Then instruct the user:
 
 1. Click the link above to open the article in your browser.
-2. Select all content (Ctrl+A on Windows/Linux, Cmd+A on macOS).
+2. Select all content (Ctrl+A on Windows/Linux, Cmd+A on macOS), excluding the article title and the short description directly beneath it: the Step 1 scaffold already supplies the note's heading, and the converter renders a copied document title as a second level-1 heading, while the short description is search metadata rather than article content.
 3. Copy (Ctrl+C on Windows/Linux, Cmd+C on macOS).
 
-⏸️ __Stop here.__ This step requires human action. Open the link, select all content, and copy the HTML. Resume once the HTML is in the clipboard.
+⏸️ __Stop here.__ This step requires human action. Open the link, select all content, drop the title and short description from the selection, and copy the HTML. Resume once the HTML is in the clipboard.
 
 When re-invoking the skill to continue, tell the agent the file path of the note being ingested (`general/<dir_code>/<name>.md`) and that Step 2 (copying HTML) is done.
 
