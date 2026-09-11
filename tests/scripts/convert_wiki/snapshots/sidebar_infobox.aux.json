@@ -1,18 +1,45 @@
 {
+  "api_responses": [
+    {
+      "batchcomplete": true,
+      "query": {
+        "pages": [
+          {
+            "ns": 0,
+            "title": "Related topic 3",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Related topic 1",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Related topic 2",
+            "missing": true
+          }
+        ]
+      }
+    }
+  ],
   "image_metadata": {},
   "name_map_overrides": {},
   "redirect_cache": {
-    "Related topic 1": {
-      "to": "Related topic 1",
-      "tofragment": ""
-    },
     "Related topic 2": {
       "to": "Related topic 2",
-      "tofragment": ""
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:45.653098+00:00"
+    },
+    "Related topic 1": {
+      "to": "Related topic 1",
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:45.653098+00:00"
     },
     "Related topic 3": {
       "to": "Related topic 3",
-      "tofragment": ""
+      "tofragment": "",
+      "cached_at": "2026-09-11T03:22:45.653098+00:00"
     }
   }
 }
