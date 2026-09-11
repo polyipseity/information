@@ -5,6 +5,7 @@ from dataclasses import replace
 from os import PathLike
 from pathlib import Path
 
+import json5
 import pytest
 from anyio import Path as AnyioPath
 
@@ -171,7 +172,7 @@ class TestApplyReprocess:
         plan = await plan_reprocess(request, base_map={})
         await apply_reprocess_plan(plan, dry_run=False)
 
-        saved = json.loads(await map_path.read_text(encoding="UTF-8"))
+        saved = json5.loads(await map_path.read_text(encoding="UTF-8"))
         assert saved["Modern physics"] == "Modern physics"
 
     @pytest.mark.anyio
