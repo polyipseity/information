@@ -791,9 +791,7 @@ class WikiHtmlConverter:
 
         An empty ``<span>`` renders nothing, and neither does an emphasis span
         whose whole body is whitespace: ``convert`` drops the collapsed result,
-        so the markers around it never appear.  A *transparent* span holding
-        whitespace is the exception — the whitespace branch turns that text into
-        the separating space, so the wrapper does render something.
+        so the markers around it never appear.
         """
         if isinstance(ele, PreformattedString):
             # Comments, CDATA, and doctypes are markup, never content.
@@ -806,12 +804,24 @@ class WikiHtmlConverter:
             return False
         if ele.find("img") is not None:
             return False
-        if any(
+        if cls._is_transparent_span(ele):
+            # ``_handle_span`` flattens this wrapper, so it renders exactly what
+            # its children render.  A whitespace-only text child counts as
+            # rendering, because the whitespace branch turns it into the
+            # separating space; a child that renders nothing counts for nothing,
+            # so a wrapper around only empty wrappers renders nothing itself.
+            return not any(
+                not cls._renders_nothing(child)
+                or (
+                    isinstance(child, NavigableString)
+                    and not isinstance(child, PreformattedString)
+                )
+                for child in ele.contents
+            )
+        return not any(
             not isinstance(s, PreformattedString) and str(s).strip()
             for s in ele.strings
-        ):
-            return False
-        return not (cls._is_transparent_span(ele) and ele.contents)
+        )
 
     @classmethod
     def _effective_sibling(

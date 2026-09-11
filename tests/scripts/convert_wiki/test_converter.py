@@ -928,6 +928,19 @@ class TestBoldItalicHandling:
         assert "__a__<!-- markdown separator -->__b__" in result
 
     @pytest.mark.anyio
+    async def test_separator_past_nested_empty_span(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A wrapper around only empty wrappers renders nothing either.
+
+        Transparent spans are flattened, so the wrapper's own output is exactly
+        its children's: non-empty contents are not enough to count as content.
+        """
+        html = "<p><b>a</b><span><span></span></span><b>b</b></p>"
+        result = await _convert(converter, html)
+        assert "__a__<!-- markdown separator -->__b__" in result
+
+    @pytest.mark.anyio
     async def test_separator_past_empty_entity_span(
         self, converter: WikiHtmlConverter
     ) -> None:
@@ -2264,6 +2277,9 @@ class TestStaticUtilities:
             ("<br/>", False),
             ("<img src='a'/>", False),
             ("<span><img src='b'/></span>", False),
+            ("<span><span></span></span>", True),
+            ("<span><span> </span></span>", False),
+            ("<span><!-- c --></span>", True),
             ("<!-- note -->", True),
             ("text", False),
             (" ", True),
@@ -2345,6 +2361,7 @@ class TestStaticUtilities:
         soup = BeautifulSoup("<img src='a'/>", "html.parser")
         img = next(iter(soup.children))
         assert WikiHtmlConverter._nearest_edge_is_word(img, following=True)
+        assert WikiHtmlConverter._nearest_edge_is_word(img, following=False)
 
     def test_edge_is_word_ignores_empty_wrappers(self) -> None:
         """A wrapper that renders nothing has no word edge either way."""
