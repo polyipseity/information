@@ -226,31 +226,48 @@ class WikiHtmlConverter:
                 text = _COLLAPSE_SPACES_REGEX.sub(" ", text)
                 if all(c in "\t\n\r\x0b\x0c " for c in text):
                     # Preserve a single space between two adjacent inline
-                    # tokens of the same kind that would otherwise merge: two
-                    # emphasis elements (``<b>M</b> <b>L</b>`` → ``__M__ __L__``)
-                    # or two links (``[a](x) [b](y)`` → ``[a](x)[b](y)`` if
-                    # dropped).  The space separates two distinct tokens and
-                    # must survive whitespace collapsing.  A link directly
-                    # followed by an emphasis (e.g. ``[x](y)_z_``) is
-                    # intentionally tight, so the space stays collapsed there.
-                    # Math fragments wrapped in a ``texhtml`` span
-                    # (e.g. ``<i>m</i> <i>x</i>``) are also an exception:
+                    # tokens that would otherwise merge: two emphasis elements
+                    # (``<b>M</b> <b>L</b>`` → ``__M__ __L__``), two links
+                    # (``[a](x) [b](y)`` → ``[a](x)[b](y)`` if dropped), or two
+                    # plain-text runs (``Physics<span> </span>portal`` → the
+                    # space is the only separation).  The space separates two
+                    # distinct tokens and must survive whitespace collapsing.
+                    # A link directly followed by an emphasis (e.g.
+                    # ``[x](y)_z_``) is intentionally tight, so the space stays
+                    # collapsed there.  Math fragments wrapped in a ``texhtml``
+                    # span (e.g. ``<i>m</i> <i>x</i>``) are also an exception:
                     # adjacent variables are conventionally tight.
-                    if (
-                        not self._in_texhtml(ele)
-                        and isinstance(prev := ele.previous_sibling, Tag)
-                        and isinstance(nxt := ele.next_sibling, Tag)
-                        and (
-                            (
-                                self._is_inline_emphasis(prev)
-                                and self._is_inline_emphasis(nxt)
+                    #
+                    # The decision uses *rendered* adjacency, not raw siblings:
+                    # ``_handle_span`` flattens transparent spans, so a
+                    # whitespace run at a span edge has no direct sibling yet
+                    # still separates two rendered tokens.
+                    prev = self._effective_sibling(ele, following=False)
+                    nxt = self._effective_sibling(ele, following=True)
+                    if not self._in_texhtml(ele) and (
+                        (
+                            isinstance(prev, Tag)
+                            and isinstance(nxt, Tag)
+                            and (
+                                (
+                                    self._is_inline_emphasis(prev)
+                                    and self._is_inline_emphasis(nxt)
+                                )
+                                or (
+                                    self._is_inline_link(prev)
+                                    and self._is_inline_link(nxt)
+                                )
+                                or (
+                                    self._is_inline_link(prev)
+                                    and nxt.name in _INLINE_TAGS
+                                )
+                                or (
+                                    prev.name in _INLINE_TAGS
+                                    and self._is_inline_link(nxt)
+                                )
                             )
-                            or (
-                                self._is_inline_link(prev) and self._is_inline_link(nxt)
-                            )
-                            or (self._is_inline_link(prev) and nxt.name in _INLINE_TAGS)
-                            or (prev.name in _INLINE_TAGS and self._is_inline_link(nxt))
                         )
+                        or self._text_edges_would_merge(prev, nxt)
                     ):
                         return " "
                     if (
@@ -644,6 +661,29 @@ class WikiHtmlConverter:
         return (
             isinstance(sibling, NavigableString)
             and sibling.lstrip(_cfg._MARKDOWN_SEPARATOR_CHARACTERS) == sibling
+        )
+
+    @staticmethod
+    def _text_edges_would_merge(
+        prev: PageElement | None, nxt: PageElement | None
+    ) -> bool:
+        """Whether two plain-text neighbours would merge without a space.
+
+        Parsoid renders an explicit character reference (``&#32;``, ``&nbsp;``)
+        as ``<span typeof="mw:Entity"> </span>``.  When such a span sits between
+        two words its text is the only separation, so both rendered neighbours
+        must be text and neither may already supply a space.
+        """
+        if not isinstance(prev, NavigableString) or not isinstance(
+            nxt, NavigableString
+        ):
+            return False
+        before, after = str(prev), str(nxt)
+        return (
+            bool(before)
+            and bool(after)
+            and not before[-1].isspace()
+            and not after[0].isspace()
         )
 
     @staticmethod
