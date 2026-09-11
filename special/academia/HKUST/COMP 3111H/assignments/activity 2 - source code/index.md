@@ -15,10 +15,10 @@ tags:
 ---
 
 - title: Activity 2 - Source Code
-- due: 2025‑11‑23T23:59:59+08:00
+- due: 2025-11-23T23:59:59+08:00
 - points: 60
 - submitting: text entry box, website url, file upload
-- available: 2025‑09‑29T00:00:00+08:00/2025‑11‑23T23:59:59+08:00, P55DT23H59M59S
+- available: 2025-09-29T00:00:00+08:00/2025-11-23T23:59:59+08:00, P55DT23H59M59S
 
 ---
 
