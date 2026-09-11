@@ -36,10 +36,10 @@ No additional details were added for this assignment.
 
 ## submission
 
-- submission
-    - metadata: [submission.yml](submission.yml)
+- file: [`submission.docx`](submission/submission.docx)
+    - metadata: [`submission.yml`](submission.yml)
 - in-class submission
-    - metadata: [lab.yml](lab.yml)
+    - metadata: [`lab.yml`](lab.yml)
 
 ## children
 

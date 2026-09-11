@@ -36,7 +36,7 @@ No additional details were added for this assignment.
 
 ## submission
 
-- submission
+- file: [`submission.docx`](submission/submission.docx)
     - metadata: [`submission.yml`](submission.yml)
 - in-class submission
     - metadata: [`lab.yml`](lab.yml)
