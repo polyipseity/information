@@ -9,7 +9,7 @@ from pathlib import Path
 
 import pytest
 from anyio import Path as AnyioPath
-from bs4 import BeautifulSoup, Tag
+from bs4 import BeautifulSoup, NavigableString, Tag
 
 from scripts.convert_wiki.converter import WikiHtmlConverter
 from scripts.convert_wiki.latex import LatexConverter
@@ -2044,6 +2044,39 @@ class TestStaticUtilities:
         span = soup.find("span")
         assert span is not None
         assert not WikiHtmlConverter._in_navbox(span)
+
+    def test_text_edges_would_merge(self) -> None:
+        """Two word edges need the space between them."""
+        assert WikiHtmlConverter._text_edges_would_merge(
+            NavigableString("Physics"), NavigableString("portal")
+        )
+
+    def test_text_edges_already_separated(self) -> None:
+        """A neighbour that already supplies a space needs no second one.
+
+        The previous edge is its last character and the next edge its first,
+        so either side may carry the separation on its own.
+        """
+        assert not WikiHtmlConverter._text_edges_would_merge(
+            NavigableString("dash"), NavigableString(" events")
+        )
+        assert not WikiHtmlConverter._text_edges_would_merge(
+            NavigableString("dash "), NavigableString("events")
+        )
+
+    def test_text_edges_rejects_non_text(self) -> None:
+        """Only a pair of plain-text neighbours can merge this way."""
+        soup = BeautifulSoup("<p>a<b>b</b></p>", "html.parser")
+        bold = soup.find("b")
+        assert bold is not None
+        assert not WikiHtmlConverter._text_edges_would_merge(NavigableString("a"), bold)
+        assert not WikiHtmlConverter._text_edges_would_merge(None, None)
+        assert not WikiHtmlConverter._text_edges_would_merge(
+            NavigableString(""), NavigableString("text")
+        )
+        assert not WikiHtmlConverter._text_edges_would_merge(
+            NavigableString("text"), NavigableString("")
+        )
 
 
 # ---------------------------------------------------------------------------
