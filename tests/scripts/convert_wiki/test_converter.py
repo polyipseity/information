@@ -805,6 +805,53 @@ class TestHeaderHandling:
         result = await _convert(converter, "<h2>Title</h2><p>text</p>")
         assert "## title\n\n" in result or "## title\n" in result
 
+    @pytest.mark.anyio
+    async def test_document_title_becomes_level_1_heading(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A ``<head><title>`` renders as a level-1 heading via the shared path."""
+        result = await _convert(
+            converter,
+            "<html><head><title>Special relativity</title></head>"
+            "<body><p>Body text</p></body></html>",
+        )
+        assert result.startswith("# special relativity\n\n")
+        assert "Body text" in result
+
+    @pytest.mark.anyio
+    async def test_document_title_uses_shared_heading_casing(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Title casing goes through ``_fix_name_maybe`` like any other heading."""
+        result = await _convert(
+            converter,
+            "<html><head><title>Routhian mechanics</title></head>"
+            "<body><h2>Overview</h2></body></html>",
+        )
+        assert result.startswith("# Routhian mechanics\n\n")
+        assert "## overview" in result
+
+    @pytest.mark.anyio
+    async def test_inline_svg_title_not_a_heading(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """``<title>`` outside ``<head>`` must not be promoted to a heading."""
+        result = await _convert(converter, "<svg><title>Icon</title></svg><p>After</p>")
+        assert "# Icon" not in result
+        assert "Icon" in result
+
+    @pytest.mark.anyio
+    async def test_title_shares_md024_suppression(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """The title participates in the shared heading dedup state."""
+        result = await _convert(
+            converter,
+            "<html><head><title>Physics</title></head>"
+            "<body><h1>Physics</h1></body></html>",
+        )
+        assert "<!-- markdownlint-disable-next-line MD024 -->" in result
+
 
 # ---------------------------------------------------------------------------
 

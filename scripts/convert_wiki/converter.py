@@ -452,7 +452,22 @@ class WikiHtmlConverter:
         """Dispatch to a handler for the given element."""
         if header_match := _HEADER_REGEX.match(ele.name):
             return self._handle_header(
-                ele, classes, header_match, seen_heading_texts=seen_heading_texts
+                ele,
+                classes,
+                level=int(header_match[1]),
+                seen_heading_texts=seen_heading_texts,
+            )
+
+        # A document ``<title>`` is the page's level-1 heading.  Only the
+        # document title (direct child of ``<head>``) qualifies: SVG and other
+        # inline ``<title>`` elements are descriptive text, not headings.
+        if (
+            ele.name == "title"
+            and isinstance(ele.parent, Tag)
+            and ele.parent.name == "head"
+        ):
+            return self._handle_header(
+                ele, classes, level=1, seen_heading_texts=seen_heading_texts
             )
 
         if ele.name == "a" and "mw-selflink" in classes:
@@ -549,11 +564,10 @@ class WikiHtmlConverter:
         self,
         ele: Tag,
         classes: frozenset[str],
-        header_match: re.Match[str],
+        level: int,
         seen_heading_texts: set[str],
     ) -> _HandlerConfig:
         """Render a heading with Markdown # markers."""
-        level = int(header_match[1] or "1")
         prefix = f"{'#' * level} "
         suffix = "\n\n"
 
