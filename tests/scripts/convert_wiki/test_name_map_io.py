@@ -66,6 +66,35 @@ class TestSaveNamesMap:
         assert '"A": "a"' in text
 
     @pytest.mark.anyio
+    async def test_trailing_comma_matches_prettier(
+        self, tmp_path: PathLike[str]
+    ) -> None:
+        """The last entry needs a trailing comma.
+
+        ``.jsonc`` is formatted with prettier's ``trailingComma: "all"``, which
+        ``json.dumps`` never writes, so an uncommitted comma fails
+        ``bun run check:prettier`` on the checked-in map.
+        """
+        path = AnyioPath(tmp_path) / "map.name_map.jsonc"
+        await _save_names_map({"A": "a", "B": "b"}, path=path)
+        text = await path.read_text(encoding="UTF-8")
+        assert text.endswith(",\n}\n")
+
+    @pytest.mark.anyio
+    async def test_empty_map_gains_no_comma(self, tmp_path: PathLike[str]) -> None:
+        """An empty map stays a brace pair."""
+        path = AnyioPath(tmp_path) / "map.name_map.jsonc"
+        await _save_names_map({}, path=path)
+        assert await path.read_text(encoding="UTF-8") == "{}\n"
+
+    @pytest.mark.anyio
+    async def test_trailing_comma_still_loads(self, tmp_path: PathLike[str]) -> None:
+        """The comma must remain parseable by the json5 loader that reads it."""
+        path = AnyioPath(tmp_path) / "map.name_map.jsonc"
+        await _save_names_map({"A": "a", "B": "b"}, path=path)
+        assert cfg._load_names_map(path) == {"A": "a", "B": "b"}
+
+    @pytest.mark.anyio
     async def test_reload_updates_module_map(
         self,
         tmp_path: PathLike[str],
