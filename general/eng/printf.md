@@ -35,7 +35,7 @@ When {@{reading or writing a placeholder}@}, it helps to think of it as {@{a pip
 
 ### parameter selection
 
-Placeholders may optionally specify {@{_which argument_ they apply to}@}. This is done using {@{a number followed by <code>&dollar;</code>, such as <code>1&dollar;</code> or <code>2&dollar;</code>}@}. For example, {@{<code>%2&dollar;d</code>}@} formats {@{the second argument as a decimal integer}@}. <!--SR:!2027-04-08,340,351!2026-10-20,203,331!2026-10-22,205,331!2027-04-07,339,351-->
+Placeholders may optionally specify {@{_which argument_ they apply to}@}. This is done using {@{a number followed by <code>&dollar;</code>, such as <code>1&dollar;</code> or <code>2&dollar;</code>}@}. For example, {@{<code>%2&dollar;d</code>}@} formats {@{the second argument as a decimal integer}@}. <!--SR:!2027-04-08,340,351!fsrs,2029-05-04T00:00:00.000Z,927,927.16192439,1,2,9,0,0,2026-10-20T00:00:00.000Z!2026-10-22,205,331!2027-04-07,339,351-->
 
 This feature follows {@{POSIX rules}@}: either {@{_all_ placeholders in the format string}@} use positional parameters, or {@{_none_ of them do}@}. {@{Mixing positional and non-positional placeholders}@} is {@{not allowed}@}. <!--SR:!2027-03-19,325,351!2027-04-11,343,351!2027-04-09,341,351!2027-03-16,322,351!2027-03-12,318,351-->
 

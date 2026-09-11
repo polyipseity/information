@@ -498,7 +498,7 @@ Here is a list of common IPA letters and their pronunciations:
 - [open-mid back rounded vowel](open-mid%20back%20rounded%20vowel.md):@:\[ɔ\] <!--SR:!2028-01-20,1076,354-->
 - [nasalized open-mid back rounded vowel](nasal%20vowel.md):@:\[ɔ̃\] <!--SR:!2027-08-05,703,337-->
 - [close-mid front rounded vowel](close-mid%20front%20rounded%20vowel.md):@:\[ø\] <!--SR:!2027-03-01,448,237-->
-- [close-mid central rounded vowel](close-mid%20central%20rounded%20vowel.md):@:\[ɵ\] <!--SR:!2026-10-20,560,314-->
+- [close-mid central rounded vowel](close-mid%20central%20rounded%20vowel.md):@:\[ɵ\] <!--SR:!fsrs,2029-09-14T00:00:00.000Z,1060,1060.12995396,5.40468683,2,10,0,0,2026-10-20T00:00:00.000Z-->
 - [open-mid front rounded vowel](open-mid%20front%20rounded%20vowel.md):@:\[œ\] <!--SR:!fsrs,2030-06-21T00:00:00.000Z,1437,1436.98642089,3.87884087,2,10,0,0,2026-07-15T00:00:00.000Z-->
 - [nasalized open-mid front rounded vowel](nasal%20vowel.md):@:\[œ̃\] <!--SR:!fsrs,2027-05-05T00:00:00.000Z,261,260.80281728,6.22619699,2,8,0,0,2026-08-17T00:00:00.000Z-->
 - [open front rounded vowel](open%20front%20rounded%20vowel.md):@:\[ɶ\] <!--SR:!2027-03-07,334,311-->
@@ -958,7 +958,7 @@ Here is a list of common IPA letters and their pronunciations:
 - [voiceless labiodental fricative](voiceless%20labiodental%20fricative.md):@:[English](English%20language.md) _**f**ill_ \[fɪɫ\] <!--SR:!2026-10-23,533,237-->
 - [voiced velar plosive](voiced%20velar%20plosive.md):@:[English](English%20language.md) _**g**a**gg**le_ \[ˈɡæɡɫ̩\] <!--SR:!2027-01-05,389,177-->
 - [voiced velar implosive](voiced%20velar%20implosive.md):@:[Zulu](Zulu%20language.md) _u**k**uza_ \[uˈɠuːza\] "come" <!--SR:!fsrs,2027-03-04T00:00:00.000Z,249,249.3555891,9.63501311,2,8,0,0,2026-06-28T00:00:00.000Z-->
-- [voiced uvular plosive](voiced%20uvular%20plosive.md):@:[English](English%20language.md) _**g**audy_ \[ˈɡ̠oːɾi\] <!--SR:!2026-10-20,159,217-->
+- [voiced uvular plosive](voiced%20uvular%20plosive.md):@:[English](English%20language.md) _**g**audy_ \[ˈɡ̠oːɾi\] <!--SR:!fsrs,2027-09-02T00:00:00.000Z,317,316.63483386,6.72599087,2,8,0,0,2026-10-20T00:00:00.000Z-->
 - [voiceless glottal fricative](voiceless%20glottal%20fricative.md):@:[English](English%20language.md) _**h**igh_ \[haɪ̯\] <!--SR:!2026-11-24,750,297-->
 - [voiced glottal fricative](voiced%20glottal%20fricative.md):@:[English](English%20language.md) _be**h**ind_ \[bɪˈɦaɪ̯nd\] <!--SR:!2028-05-20,1042,257-->
 - [aspirated consonant](aspirated%20consonant.md):@:[English](English%20langugae.md) _**t**op_ \[tʰɒp\] <!--SR:!2032-05-16,2517,377-->
@@ -1026,7 +1026,7 @@ Here is a list of common IPA letters and their pronunciations:
 - [voiceless uvular fricative](voiceless%20uvular%20fricative.md):@:[French](French%20language.md) _t**r**ès_ \[t̪χɛ\] "very" <!--SR:!fsrs,2026-11-29T00:00:00.000Z,149,149.29286638,9.98522837,2,8,0,0,2026-07-03T00:00:00.000Z-->
 - [close front rounded vowel](close%20front%20rounded%20vowel.md):@:[French](French%20language.md) _t**u**_ \[t̪y] "you" <!--SR:!2026-12-24,567,210-->
 - [near-close near-front rounded vowel](near-close%20near-front%20rounded%20vowel.md):@:[German](German%20language.md) _sch**ü**tzen_ \[ˈʃʏ̞t͡sn̩\] "protect" <!--SR:!fsrs,2026-12-17T00:00:00.000Z,77,77.45941935,9.97542228,2,8,0,0,2026-10-01T00:00:00.000Z-->
-- [voiced velar fricative](voiced%20velar%20fricative.md):@:[Spanish](Spanish%20language.md) _ami**g**o_ \[a̠ˈmiɣo̟\] "friend" <!--SR:!fsrs,2026-10-20T00:00:00.000Z,51,50.96888027,9.96562598,2,8,0,0,2026-08-30T00:00:00.000Z-->
+- [voiced velar fricative](voiced%20velar%20fricative.md):@:[Spanish](Spanish%20language.md) _ami**g**o_ \[a̠ˈmiɣo̟\] "friend" <!--SR:!fsrs,2026-12-19T00:00:00.000Z,60,59.84651578,9.96240929,2,9,0,0,2026-10-20T00:00:00.000Z-->
 - [close-mid back unrounded vowel](close-mid%20back%20unrounded%20vowel.md):@:[Chinese](Chinese%20language.md) 餓/_**è**_ \[ɤ˥˩\] "hungry" <!--SR:!fsrs,2026-10-29T00:00:00.000Z,54,54.13790107,9.96562598,2,8,0,0,2026-09-05T00:00:00.000Z-->
 - [voiced palatal lateral approximant](voiced%20palatal%20lateral%20approximant.md):@:[English](English%20language.md) _mi**lli**on_ \[ˈmɪʎən\] <!--SR:!fsrs,2027-05-05T00:00:00.000Z,214,214.34750854,9.23597837,2,8,0,0,2026-10-03T00:00:00.000Z-->
 - [voiced labial–palatal approximant](voiced%20labial–palatal%20approximant.md):@:[French](French%20language.md) _n**u**ire_ \[nɥiʁ\] "to harm" <!--SR:!fsrs,2026-10-22T00:00:00.000Z,35,34.63967079,9.94942233,2,9,0,0,2026-09-17T00:00:00.000Z-->
@@ -1039,7 +1039,7 @@ Here is a list of common IPA letters and their pronunciations:
 - [glottal stop](glottal%20stop.md):@:[English](English%20language.md) _uh-oh_ \[ˈɐʔəʊ\] <!--SR:!2026-11-25,538,230-->
 - [voiced pharyngeal fricative](voiced%20pharyngeal%20fricative.md):@:[Arabic](Arabic%20language.md) _عَقْرَب/ʿaqrab_ \[ʕaqrab\] "scorpion" <!--SR:!fsrs,2027-02-18T00:00:00.000Z,154,154.42098045,9.98522837,2,8,0,0,2026-09-17T00:00:00.000Z-->
 - [tenuis dental click](tenuis%20dental%20click.md):@:[English](English%20language.md) _**tut**-**tut**_ \[ˈǀˈǀ\] <!--SR:!2028-12-21,1069,270-->
-- [tenuis alveolar lateral click](tenuis%20alveolar%20lateral%20click.md):@:[English](English%20language.md) _**tchick**_ \[ˈǁ\] <!--SR:!2026-10-20,258,210-->
+- [tenuis alveolar lateral click](tenuis%20alveolar%20lateral%20click.md):@:[English](English%20language.md) _**tchick**_ \[ˈǁ\] <!--SR:!fsrs,2028-02-11T00:00:00.000Z,479,479.05627889,6.98822837,2,9,0,0,2026-10-20T00:00:00.000Z-->
 - [tenuis alveolar click](tenuis%20alveolar%20click.md):@:[Zulu](Zulu%20language.md) _i**q**a**q**a_ \[íːk͜ǃaːk͜ǃá\] "polecat" <!--SR:!fsrs,2027-01-18T00:00:00.000Z,115,114.95220372,9.97047151,2,8,0,0,2026-09-25T00:00:00.000Z-->
 - [tenuis bilabial click](tenuis%20bilabial%20click.md):@:[ǂʼAmkoe](ǂʼAmkoe%20language.md) _**ʘ**oa_ \[k͡ʘoa\] "two" <!--SR:!fsrs,2027-02-11T00:00:00.000Z,157,156.8886461,9.48734342,2,8,0,0,2026-09-07T00:00:00.000Z-->
 - [tenuis palatal click](tenuis%20palatal%20click.md):@:[Khoekhoe](Khoekhoe%20lalnguage.md) _**ǂg**ā-amǃnâ_ \[k͜ǂààʔám̀ŋ͜ǃã̀ã̀\] "to put in the mouth" <!--SR:!fsrs,2026-12-10T00:00:00.000Z,99,98.86945556,9.97047151,2,8,0,0,2026-09-02T00:00:00.000Z-->
@@ -1080,7 +1080,7 @@ Here is a list of common IPA diacritics and their descriptions:
 - [extra-short](extra-shortness.md):@:\[◌̆\] (e.g. [ă]) <!--SR:!fsrs,2027-01-28T00:00:00.000Z,194,194.32210306,8.98461332,2,8,0,0,2026-07-18T00:00:00.000Z-->
 - [non-syllabic](diphthong.md):@:\[◌̯\] (e.g. [a̯]) <!--SR:!2029-03-22,1442,334-->
 - [voiceless](voicelessness.md):@:\[◌̥\] (e.g. [n̥]) <!--SR:!2027-04-29,817,294-->
-- [syllabic](syllabic%20consonant.md):@:\[◌̩\]/\[◌̍\] (e.g. [n̩], [ŋ̍]) <!--SR:!2026-10-20,828,341-->
+- [syllabic](syllabic%20consonant.md):@:\[◌̩\]/\[◌̍\] (e.g. [n̩], [ŋ̍]) <!--SR:!fsrs,2032-08-16T00:00:00.000Z,2127,2127.15022889,2.08064087,2,11,0,0,2026-10-20T00:00:00.000Z-->
 - [dental/alveolar](dental%20consonant.md):@:\[◌̪\] (e.g. [d̪]) <!--SR:!2027-11-17,873,360-->
 - [aspirated](aspirated%20consonant.md):@:\[◌ʰ\] (e.g. [kʰ]) <!--SR:!2033-02-25,2759,380-->
 - [ejective](ejective%20consonant.md):@:\[◌’\] (e.g. [k’]) <!--SR:!2029-07-23,1552,373-->

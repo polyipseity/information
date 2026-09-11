@@ -918,7 +918,7 @@ The content is in teaching order.
 - [HTTP](../../../../general/HTTP.md) ::@:: It is an application layer protocol in the Internet protocol suite model for distributed, collaborative, hypermedia information systems. It is the foundation of data communication for the World Wide Web, where hypertext documents include hyperlinks to other resources that the user can easily access, for example by a mouse click or by tapping the screen in a web browser. <!--SR:!2026-12-12,385,370!2026-12-19,390,370-->
     - HTTP / full name ::@:: Hypertext Transfer Protocol <!--SR:!2026-12-31,399,370!2027-01-11,408,370-->
     - HTTP / server ::@:: It receives requests and sends web objects. Its _port_ is typically 80. <!--SR:!2026-11-01,351,370!2026-11-06,354,370-->
-        - HTTP / server / cache ::@:: There may be _web caches_ acting as _proxy servers_. Clients requests from the proxy server instead of the _origin server_. The proxy server returns the requested web objects if cached; if not, request from the origin server, cache it, and returns the web object. <!--SR:!2026-12-15,387,370!2026-10-20,341,370-->
+        - HTTP / server / cache ::@:: There may be _web caches_ acting as _proxy servers_. Clients requests from the proxy server instead of the _origin server_. The proxy server returns the requested web objects if cached; if not, request from the origin server, cache it, and returns the web object. <!--SR:!2026-12-15,387,370!fsrs,2031-04-23T00:00:00.000Z,1646,1646.02691725,1,2,9,0,0,2026-10-20T00:00:00.000Z-->
     - HTTP / client ::@:: It requests web objects and "displays" them. <!--SR:!2026-12-30,398,370!2026-12-17,389,370-->
 - [Domain Name System](../../../../general/Domain%20Name%20System.md) \(DNS\) ::@:: It is a hierarchical and distributed name service that provides a naming system for computers, services, and other resources on the Internet or other Internet Protocol \(IP\) networks. <p> Essentially, this allows you to type meaningful domain names instead of hard-to-remember IP addresses to connect other computers. <!--SR:!2026-11-08,356,370!2026-11-18,365,370-->
     - Domain Name System / characteristics ::@:: application-layer protocol, distributed and hierarchical databases, internet-wide service, short messages \(thus primarily uses UDP\) <!--SR:!2027-01-01,400,370!2027-01-08,405,370-->
@@ -1011,7 +1011,7 @@ The content is in teaching order.
 - datetime: 2025-08-07T11:00:00+08:00/2025-08-07T12:20:00+08:00, PT1H20M
 - topic: lab 7, signal transmission using frequency division multiplexing
 - ELEC 1200
-    - ELEC 1200 / lab 7 ::@:: modulation → demodulation → bandwidth estimation, carrier frequency estimation → multiplexing <!--SR:!2026-10-20,341,370!2026-10-30,349,370-->
+    - ELEC 1200 / lab 7 ::@:: modulation → demodulation → bandwidth estimation, carrier frequency estimation → multiplexing <!--SR:!fsrs,2031-04-23T00:00:00.000Z,1646,1646.02691725,1,2,9,0,0,2026-10-20T00:00:00.000Z!2026-10-30,349,370-->
 - [§ week 4 lab 2](#week%204%20lab%202)
 
 ## week 4 lab 2

@@ -148,7 +148,7 @@ return chain.from_iterable([r.value for r in results])
 
 <!--pytextgen generate section="cc23"--><!-- The following content is generated at 2024-01-30T13:35:46.619801+08:00. Any edits will be overridden! -->
 
-- `in`:@:membership test <!--SR:!2026-10-20,289,330-->
+- `in`:@:membership test <!--SR:!fsrs,2030-03-29T00:00:00.000Z,1256,1255.75476993,1,2,9,0,0,2026-10-20T00:00:00.000Z-->
 - `<`:@:lesser than <!--SR:!fsrs,2029-06-24T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-08-10T00:00:00.000Z-->
 - `<=`:@:lesser than or equal to <!--SR:!fsrs,2030-01-06T00:00:00.000Z,1191,1191.26470738,1,2,9,0,0,2026-10-03T00:00:00.000Z-->
 - `>`:@:greater than <!--SR:!fsrs,2030-03-10T00:00:00.000Z,1241,1240.62340626,1,2,9,0,0,2026-10-16T00:00:00.000Z-->

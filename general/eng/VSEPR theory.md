@@ -79,9 +79,9 @@ tags:
 >     - AX<sub>4</sub>E<sub>2</sub> / ideal bond angle(s) :@: 90° <!--SR:!fsrs,2028-09-27T00:00:00.000Z,748,747.99103229,1,2,8,0,0,2026-09-10T00:00:00.000Z-->
 >     - AX<sub>4</sub>E<sub>2</sub> / example(s) ::@:: [XeF<sub>4</sub>](xenon%20tetrafluoride.md) <!--SR:!2026-11-14,231,341!fsrs,2027-02-04T00:00:00.000Z,205,205.37777602,4.17854087,2,7,0,0,2026-07-14T00:00:00.000Z-->
 > - AX<sub>5</sub>E<sub>0</sub>
->     - AX<sub>5</sub>E<sub>0</sub> / [shape](molecular%20geometry.md) ::@:: [trigonal bipyramidal](trigonal%20bipyramidal%20molecular%20geometry.md)<br/>![trigonal bipyramidal](../../archives/Wikimedia%20Commons/Trigonal-bipyramidal-3D-balls.png) <!--SR:!2026-10-20,172,281!2027-04-08,342,345-->
+>     - AX<sub>5</sub>E<sub>0</sub> / [shape](molecular%20geometry.md) ::@:: [trigonal bipyramidal](trigonal%20bipyramidal%20molecular%20geometry.md)<br/>![trigonal bipyramidal](../../archives/Wikimedia%20Commons/Trigonal-bipyramidal-3D-balls.png) <!--SR:!fsrs,2027-12-29T00:00:00.000Z,435,434.9805249,4.32839087,2,8,0,0,2026-10-20T00:00:00.000Z!2027-04-08,342,345-->
 >     - AX<sub>5</sub>E<sub>0</sub> / ideal bond angle(s) :@: 90°, 120° <!--SR:!2027-03-08,311,345-->
->     - AX<sub>5</sub>E<sub>0</sub> / example(s) ::@:: [PCl<sub>5</sub>](phosphorous%20pentachloride.md) <!--SR:!2026-10-20,139,325!fsrs,2029-04-01T00:00:00.000Z,904,904.19353564,1,2,9,0,0,2026-10-10T00:00:00.000Z-->
+>     - AX<sub>5</sub>E<sub>0</sub> / example(s) ::@:: [PCl<sub>5</sub>](phosphorous%20pentachloride.md) <!--SR:!fsrs,2027-12-08T00:00:00.000Z,414,414.00601882,2.68004087,2,8,0,0,2026-10-20T00:00:00.000Z!fsrs,2029-04-01T00:00:00.000Z,904,904.19353564,1,2,9,0,0,2026-10-10T00:00:00.000Z-->
 > - AX<sub>5</sub>E<sub>1</sub>
 >     - AX<sub>5</sub>E<sub>1</sub> / [shape](molecular%20geometry.md) ::@:: [square pyramidal](square%20pyramidal%20molecular%20geometry.md)<br/>![square pyramidal](../../archives/Wikimedia%20Commons/AX5E1-3D-balls.png) <!--SR:!fsrs,2027-05-31T00:00:00.000Z,293,293.09684021,3.42929087,2,8,0,0,2026-08-11T00:00:00.000Z!2027-04-04,338,345-->
 >     - AX<sub>5</sub>E<sub>1</sub> / ideal bond angle(s) :@: 90° <!--SR:!2027-03-31,334,345-->

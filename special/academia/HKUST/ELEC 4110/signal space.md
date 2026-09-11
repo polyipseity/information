@@ -124,7 +124,7 @@ Given {@{any linearly independent set $\{s_1,\dots,s_M\}$}@}, {@{the _Gram–Sch
 2. remaining basis vectors ::@:: For $k=2$ to $M$: compute the projection of $s_k$ onto the span of $\{\phi_1,\dots,\phi_{k-1}\}$; subtract this projection from $s_k$ and normalise the remainder to get $\phi_k$. <!--SR:!2027-02-14,333,345!fsrs,2029-02-03T00:00:00.000Z,893,892.52825833,1,2,9,0,0,2026-08-25T00:00:00.000Z-->
 3. skip conditions ::@:: If a residual becomes zero, skip to the next signal; the dimension of the signal space is less than $M$. <!--SR:!2026-12-20,287,345!2027-01-29,320,345-->
 
-\(__this course__: Whenever possible, {@{identify orthogonal signals}@} {@{by inspection}@} and {@{normalize them}@}, which is {@{usually much faster}@}. Only if {@{the problem is complex or explicitly asks for a Gram–Schmidt process}@}, then {@{use the Gram–Schmidt process}@}.\) <!--SR:!2027-02-18,336,345!2026-10-20,235,330!2027-01-07,302,345!2027-01-21,311,345!2027-02-10,330,345!2027-01-03,299,345-->
+\(__this course__: Whenever possible, {@{identify orthogonal signals}@} {@{by inspection}@} and {@{normalize them}@}, which is {@{usually much faster}@}. Only if {@{the problem is complex or explicitly asks for a Gram–Schmidt process}@}, then {@{use the Gram–Schmidt process}@}.\) <!--SR:!2027-02-18,336,345!fsrs,2029-09-03T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-10-20T00:00:00.000Z!2027-01-07,302,345!2027-01-21,311,345!2027-02-10,330,345!2027-01-03,299,345-->
 
 ## examples
 

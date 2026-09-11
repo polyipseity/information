@@ -59,7 +59,7 @@ There are {@{many objects in the application domain}@}. Classes allow us to {@{_
 
 ## operations
 
-{@{An _operation_}@} represents {@{a _function_ or _transformation_ that can be applied to or by instances of the class}@}. It has {@{4 major properties \(and possibly more\)}@}: {@{operation name, parameter names, result type, and visibility}@}. {@{The first 3 properties}@} is known as {@{the _operation signature_}@}. It is {@{a _classifier_}@} for {@{_methods_}@}. For {@{modeling using the simplest possible model \(__this course__: may be used in this course\)}@}, the operation signature should {@{always be specified}@}. <!--SR:!2026-11-20,310,342!2027-03-21,416,370!2027-01-27,377,361!2027-01-21,372,361!2027-02-25,392,361!2026-10-20,289,342!2027-03-19,414,370!2026-10-23,292,342!2028-08-18,833,436!2028-09-06,849,436-->
+{@{An _operation_}@} represents {@{a _function_ or _transformation_ that can be applied to or by instances of the class}@}. It has {@{4 major properties \(and possibly more\)}@}: {@{operation name, parameter names, result type, and visibility}@}. {@{The first 3 properties}@} is known as {@{the _operation signature_}@}. It is {@{a _classifier_}@} for {@{_methods_}@}. For {@{modeling using the simplest possible model \(__this course__: may be used in this course\)}@}, the operation signature should {@{always be specified}@}. <!--SR:!2026-11-20,310,342!2027-03-21,416,370!2027-01-27,377,361!2027-01-21,372,361!2027-02-25,392,361!fsrs,2030-05-19T00:00:00.000Z,1307,1306.9359048,1,2,9,0,0,2026-10-20T00:00:00.000Z!2027-03-19,414,370!2026-10-23,292,342!2028-08-18,833,436!2028-09-06,849,436-->
 
 {@{An instance of an operation}@} is called {@{a _method_}@}. This matters because there {@{can be several methods implementing the same operation \(a _polymorphic_ operation\)}@}. One way to do this is via {@{_overriding_ to achieve _polymorphism_}@}. <!--SR:!2027-01-31,379,361!2026-11-03,303,342!fsrs,2028-09-25T00:00:00.000Z,740,740.18975175,2.08064087,2,9,0,0,2026-09-16T00:00:00.000Z!2027-03-02,397,361-->
 
@@ -108,7 +108,7 @@ In practice, there are {@{"multiplicities" that are _soft_ constraints}@}. We {@
 
 ### association roles
 
-{@{A _role_}@} of an association is {@{one _end_ of an association}@}. It describes {@{the _semantics_ of a class participating in the association}@}. It is written on {@{the side of the _current_ class}@}. It is usually {@{_optional_ for binary associations}@}, and always {@{_required_ for unary associations}@}. <!--SR:!2026-10-20,289,342!2026-11-04,304,342!2026-11-10,310,342!2027-03-01,396,361!2026-11-24,314,342!2026-10-25,294,342-->
+{@{A _role_}@} of an association is {@{one _end_ of an association}@}. It describes {@{the _semantics_ of a class participating in the association}@}. It is written on {@{the side of the _current_ class}@}. It is usually {@{_optional_ for binary associations}@}, and always {@{_required_ for unary associations}@}. <!--SR:!fsrs,2030-05-19T00:00:00.000Z,1307,1306.9359048,1,2,9,0,0,2026-10-20T00:00:00.000Z!2026-11-04,304,342!2026-11-10,310,342!2027-03-01,396,361!2026-11-24,314,342!2026-10-25,294,342-->
 
 {@{The _name_}@} of a role should be {@{_unique_ in an association}@}. <!--SR:!2026-11-08,308,342!2027-03-13,408,370-->
 
@@ -140,7 +140,7 @@ To {@{represent composition}@}, use {@{a _solid_ diamond \(_adornment_\) at the 
 
 ### association generalizations
 
-{@{_Generalization_}@} represent {@{a "is-a" or "kind-of" relationship between _subclasses_ and a _superclass_}@}. The subclasses are said to be {@{the _same kind_}@}, and should have {@{_similar_ \(but not the same\) attributes, operations, and associations}@}. It is represented by {@{_inheritance_ in object-oriented programming languages}@}. It allows us to {@{_simplify_ diagrams for _clarity_}@}. <!--SR:!2026-11-23,313,342!2026-10-20,289,342!2026-12-12,332,342!2027-03-20,415,370!2026-11-07,307,342!2027-03-09,404,370-->
+{@{_Generalization_}@} represent {@{a "is-a" or "kind-of" relationship between _subclasses_ and a _superclass_}@}. The subclasses are said to be {@{the _same kind_}@}, and should have {@{_similar_ \(but not the same\) attributes, operations, and associations}@}. It is represented by {@{_inheritance_ in object-oriented programming languages}@}. It allows us to {@{_simplify_ diagrams for _clarity_}@}. <!--SR:!2026-11-23,313,342!fsrs,2030-05-19T00:00:00.000Z,1307,1306.9359048,1,2,9,0,0,2026-10-20T00:00:00.000Z!2026-12-12,332,342!2027-03-20,415,370!2026-11-07,307,342!2027-03-09,404,370-->
 
 To {@{construct a generalization}@}, we have {@{top-down and bottom-up}@} approaches. Both can be {@{used together}@}. <!--SR:!2026-12-08,328,342!2027-01-18,369,361!2027-03-08,403,370-->
 

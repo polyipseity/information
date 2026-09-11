@@ -19,7 +19,7 @@ where {@{$Q$ is the [electric charge](electric%20charge.md) transferred over tim
 
 ## external voltage
 
-By applying an external [voltage](voltage.md), the photocurrent can be {@{changed}@}. A voltage that increases the photocurrent ({@{positive voltage}@}) is called {@{accelerating potential}@}, while the inverse ({@{negative voltage}@}) is called {@{retarding potential}@}. <!--SR:!2026-10-20,1013,290!2026-11-30,1132,350!2031-04-07,2317,330!2027-10-17,1387,350!2027-06-15,1291,350-->
+By applying an external [voltage](voltage.md), the photocurrent can be {@{changed}@}. A voltage that increases the photocurrent ({@{positive voltage}@}) is called {@{accelerating potential}@}, while the inverse ({@{negative voltage}@}) is called {@{retarding potential}@}. <!--SR:!fsrs,2035-10-06T00:00:00.000Z,3273,3273.43766768,1.98030797,2,11,0,0,2026-10-20T00:00:00.000Z!2026-11-30,1132,350!2031-04-07,2317,330!2027-10-17,1387,350!2027-06-15,1291,350-->
 
 An accelerating potential {@{increases the photocurrent}@}, but only up to a point called {@{saturation current $I_s$}@}. The potential {@{attracts electrons to the anode}@}, {@{increasing the number of captured electrons}@}, thus the photocurrent. The saturation current is reached when {@{no more additional electrons can be captured}@}. <!--SR:!2029-02-27,1595,310!2027-08-07,1332,350!2032-04-13,2431,290!fsrs,2035-08-05T00:00:00.000Z,3231,3230.53163979,1.98030797,2,11,0,0,2026-09-30T00:00:00.000Z!fsrs,2035-03-31T00:00:00.000Z,3145,3144.50850837,1.98030797,2,11,0,0,2026-08-20T00:00:00.000Z-->
 

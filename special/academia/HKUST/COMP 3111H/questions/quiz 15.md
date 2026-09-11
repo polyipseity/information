@@ -28,7 +28,7 @@ tags:
 
 1. [acceptance testing](../../../../../general/acceptance%20testing.md) ::@:: It is a test conducted to determine if the requirements of a specification or contract are met. It may involve chemical tests, physical tests, or performance tests. <!--SR:!2026-11-05,248,330!2026-12-31,294,330-->
 2. cyclomatic complexity / interpretation ::@:: The value reflects the logical richness of the procedure; _internally_, higher values mean more _testing effort_ or less _maintainability_; _externally_, higher values means less _safety_ \(how likely it is to be error free\). <!--SR:!2026-12-05,272,330!2026-11-22,262,330-->
-3. [integration testing](../../../../../general/integration%20testing.md) ::@:: It is a form of software testing in which multiple software components, modules, or services are tested together to verify they work as expected when combined. <!--SR:!2026-10-20,235,330!2026-11-30,268,330-->
+3. [integration testing](../../../../../general/integration%20testing.md) ::@:: It is a form of software testing in which multiple software components, modules, or services are tested together to verify they work as expected when combined. <!--SR:!fsrs,2029-09-03T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-10-20T00:00:00.000Z!2026-11-30,268,330-->
 4. system testing vs. acceptance testing
     - system testing / nature ::@:: black-box, run by independent test group <!--SR:!2026-12-15,281,330!2026-10-22,236,330-->
     - acceptance testing / nature ::@:: black-box, run by client or user <!--SR:!2026-11-25,264,330!2026-12-19,284,330-->

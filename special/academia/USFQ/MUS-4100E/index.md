@@ -238,7 +238,7 @@ The content is in teaching order.
     - Harlem Renaissance / outcome ::@:: Perception of African Americans changed from being farmers, laborers, and uneducated to African art, culture, music, and style being adopted by White America and the world. <!--SR:!2027-06-12,657,358!2028-08-13,1013,378-->
     - Harlem Renaissance / examples ::@:: clothing: emphasis on animal patterns <!--SR:!2026-11-14,516,398!2026-11-26,528,398-->
 - [jazz](../../../../general/jazz.md)
-    - jazz / Why moved to New York City? ::@:: largest city; largest number of immigrants: 6M Italians, 4M Jews, 4M Irish, Great Migration, etc.; has Harlem; recording center (not Los Angeles): had special labels for black and other minority artists <!--SR:!2026-10-20,491,398!2031-08-05,1889,398-->
+    - jazz / Why moved to New York City? ::@:: largest city; largest number of immigrants: 6M Italians, 4M Jews, 4M Irish, Great Migration, etc.; has Harlem; recording center (not Los Angeles): had special labels for black and other minority artists <!--SR:!fsrs,2032-12-25T00:00:00.000Z,2258,2258.22586073,1,2,10,0,0,2026-10-20T00:00:00.000Z!2031-08-05,1889,398-->
 - [Black Swan Records](../../../../general/Black%20Swan%20Records.md) (1921–1924) ::@:: first record company owned by African Americans; everyone working, from top to bottom, were black; give fair treatment to black artists: Ethel Waters, James P. Johnson, etc. <!--SR:!2031-04-09,1790,398!fsrs,2030-07-09T00:00:00.000Z,1388,1387.71000849,1,2,10,0,0,2026-09-20T00:00:00.000Z-->
 - [big band](../../../../general/big%20band.md)
     - big band / originators ::@:: Fletcher Henderson, Paul Whiteman, etc. <!--SR:!2026-11-08,510,398!2026-11-11,513,398-->
@@ -307,7 +307,7 @@ The content is in teaching order.
 - [jazz standard](../../../../general/jazz%20standard.md) ::@:: musical compositions that are an important part of the musical repertoire of jazz musicians, in that they are widely known, performed, and recorded by jazz musicians, and widely known by listeners <!--SR:!2027-05-17,663,412!fsrs,2030-06-08T00:00:00.000Z,1356,1356.3637692,1,2,10,0,0,2026-09-21T00:00:00.000Z-->
 - [thirty-two-bar form](../../../../general/thirty-two-bar%20form.md) ::@:: introductory verse (early terminology: verse) → AABA form/ABAB form (early terminology: chorus) <p> The former is slower and happens once (usually rubato). The latter is faster and repeats many times. <!--SR:!fsrs,2030-05-14T00:00:00.000Z,1338,1338.03994709,1,2,10,0,0,2026-09-14T00:00:00.000Z!2027-04-13,636,412-->
     - thirty-two-bar form / AABA form ::@:: A<sub>1</sub>: 8 measures → A<sub>2</sub>: 8 measures → B: 8 measures; also called "bridge"; it musically and lyrically contrasts the A sections → A<sub>3</sub>: 8 measures <!--SR:!2027-03-21,616,412!2027-05-07,653,412-->
-    - thirty-two-bar form / examples ::@:: "I Got Rhythm" (1930) — George Gershwin; sung by Judy Garland, written for the musical _Girl Crazy_ <!--SR:!2026-10-20,485,392!2027-06-16,683,412-->
+    - thirty-two-bar form / examples ::@:: "I Got Rhythm" (1930) — George Gershwin; sung by Judy Garland, written for the musical _Girl Crazy_ <!--SR:!fsrs,2030-09-08T00:00:00.000Z,1419,1418.97472511,1,2,10,0,0,2026-10-20T00:00:00.000Z!2027-06-16,683,412-->
 - assignment: (none)
 
 ## week 5 lecture 2
