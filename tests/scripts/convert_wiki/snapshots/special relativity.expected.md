@@ -79,8 +79,7 @@ Two observers in relative motion receive information about two events via light 
 The more technical background ideas include:
 
 - [spacetime](spacetime.md): geometrical space and time considered together.<sup>[\[10\]](#^ref-10)</sup><sup>:&hairsp;18&hairsp;</sup>
-- [spacetime interval](spacetime.md#spacetime%20interval) between two events: a measure of separation between events that incorporates both the spatial distance between them and the duration of time separating them:<sup>[\[10\]](#^ref-10)</sup><sup>:&hairsp;9&hairsp;</sup>
- $$({\text{interval} })^{2}=\left[{\text{event separation in time} }\right]^{2}-\left[{\text{event separation in space} }\right]^{2}$$
+- [spacetime interval](spacetime.md#spacetime%20interval) between two events: a measure of separation between events that incorporates both the spatial distance between them and the duration of time separating them:<sup>[\[10\]](#^ref-10)</sup><sup>:&hairsp;9&hairsp;</sup> $$({\text{interval} })^{2}=\left[{\text{event separation in time} }\right]^{2}-\left[{\text{event separation in space} }\right]^{2}$$
 
 - [coordinate system](coordinate%20system.md) or [reference frame](reference%20frame.md): a way to locate events in spacetime. Events have coordinates _x_, _y_, _z_ for space and _t_ for time. The coordinates of the event are different in a different reference frame.<sup>[\[19\]](#^ref-19)</sup><sup>:&hairsp;67&hairsp;</sup>
 - [inertial reference frame](inertial%20reference%20frame.md): a region of a reference frame where objects \(not influenced by external forces\) at rest with respect to the frame stay at rest, or if in uniform motion, stay in motion; also called a _free-float frame_.<sup>[\[10\]](#^ref-10)</sup><sup>:&hairsp;31&hairsp;</sup>
@@ -256,10 +255,7 @@ The [Sagnac effect](Sagnac%20effect.md) can be considered a manifestation of the
 
 The time lapse between two events is not invariant from one observer to another, but is dependent on the relative speeds of the observers' reference frames.
 
-Suppose a [clock](clock.md) is at rest in the unprimed system _S_. The location of the clock on two different ticks is then characterized by Δ<!-- markdown separator -->_x_ = 0. To find the relation between the times between these ticks as measured in both systems, __[Equation 3](#math%203)__ can be used to find:
-
-$\Delta t'=\gamma \,\Delta t$ for events satisfying $\Delta x=0\ $.
-
+Suppose a [clock](clock.md) is at rest in the unprimed system _S_. The location of the clock on two different ticks is then characterized by Δ<!-- markdown separator -->_x_ = 0. To find the relation between the times between these ticks as measured in both systems, __[Equation 3](#math%203)__ can be used to find: <p> &nbsp;&nbsp;&nbsp;&nbsp; $\Delta t'=\gamma \,\Delta t$ for events satisfying $\Delta x=0\ $. <p>
 This shows that the time \(Δ<!-- markdown separator -->_t_′\) between the two ticks as seen in the frame in which the clock is moving \(_S_′\), is _longer_ than the time \(Δ<!-- markdown separator -->_t_\) between these ticks as measured in the rest frame of the clock \(_S_\). Time dilation explains a number of physical phenomena; for example, the lifetime of high speed [muons](muon.md) created by the collision of cosmic rays with particles in the Earth's outer atmosphere and moving towards the surface is greater than the lifetime of slowly moving muons, created and decaying in a laboratory.<sup>[\[36\]](#^ref-36)</sup>
 
 > ![In special relativity, the term "observer" has a meaning that differs significantly from the ordinary English meaning of the term. Each location in spacetime is marked by four numbers defined by a frame of reference: the position in space, and the time (which can be visualized as the reading of a clock located at each position in space). The "observer" synchronizes the clocks according to their own reference frame.](../../archives/Wikimedia%20Commons/Observer%20in%20special%20relativity.svg)
@@ -323,10 +319,7 @@ Our basic aim will be to demonstrate that, after the trip, both twins are in per
 
 The dimensions \(e.g., length\) of an object as measured by one observer may be smaller than the results of measurements of the same object made by another observer \(e.g., the [ladder paradox](ladder%20paradox.md) involves a long ladder traveling near the speed of light and being contained within a smaller garage\).
 
-Similarly, suppose a [measuring rod](measuring%20rod.md) is at rest and aligned along the _x_-axis in the unprimed system _S_. In this system, the length of this rod is written as Δ<!-- markdown separator -->_x_. To measure the length of this rod in the system _S_′, in which the rod is moving, the distances _x′_ to the end points of the rod must be measured simultaneously in that system _S_′. In other words, the measurement is characterized by Δ<!-- markdown separator -->_t_′ = 0, which can be combined with __[Equation 4](#math%204)__ to find the relation between the lengths Δ<!-- markdown separator -->_x_ and Δ<!-- markdown separator -->_x_′:
-
-$\Delta x'={\frac {\Delta x}{\gamma } }$  for events satisfying $\Delta t'=0\ $.
-
+Similarly, suppose a [measuring rod](measuring%20rod.md) is at rest and aligned along the _x_-axis in the unprimed system _S_. In this system, the length of this rod is written as Δ<!-- markdown separator -->_x_. To measure the length of this rod in the system _S_′, in which the rod is moving, the distances _x′_ to the end points of the rod must be measured simultaneously in that system _S_′. In other words, the measurement is characterized by Δ<!-- markdown separator -->_t_′ = 0, which can be combined with __[Equation 4](#math%204)__ to find the relation between the lengths Δ<!-- markdown separator -->_x_ and Δ<!-- markdown separator -->_x_′: <p> &nbsp;&nbsp;&nbsp;&nbsp; $\Delta x'={\frac {\Delta x}{\gamma } }$  for events satisfying $\Delta t'=0\ $. <p>
 This shows that the length \(Δ<!-- markdown separator -->_x_′\) of the rod as measured in the frame in which it is moving \(_S_′\), is _shorter_ than its length \(Δ<!-- markdown separator -->_x_\) in its own rest frame \(_S_\).
 
 Time dilation and length contraction are not merely appearances. Time dilation is explicitly related to our way of measuring _time intervals_ between events that occur at the same place in a given coordinate system \(called "co-local" events\). These time intervals are _different_ in another coordinate system moving with respect to the first, unless the events, in addition to being co-local, are also simultaneous. Similarly, length contraction relates to our measured distances between separated but simultaneous events in a given coordinate system of choice. If these events are not co-local, but are separated by distance \(space\), they will _not_ occur at the same _spatial distance_ from each other when seen from another moving coordinate system.
@@ -450,11 +443,7 @@ According to the theories prevailing at the time, light traveling through a movi
 
 Fizeau's results, although consistent with Fresnel's earlier hypothesis of [partial aether dragging](aether%20drag%20hypothesis.md), were extremely disconcerting to physicists of the time. Among other things, the presence of an index of refraction term meant that, since $n$ depends on wavelength, _the aether must be capable of sustaining different motions at the same time_.<sup>[\[note 1\]](#^note-1)</sup> A variety of theoretical explanations were proposed to explain [Fresnel's dragging coefficient](Fizeau%20experiment.md#Fresnel%20drag%20coefficient), that were completely at odds with each other. Even before the Michelson–Morley experiment, Fizeau's experimental results were among a number of observations that created a critical situation in explaining the optics of moving bodies.<sup>[\[55\]](#^ref-55)</sup>
 
-From the point of view of special relativity, Fizeau's result is nothing but an approximation to __[Equation 10](#math%2010)__, the relativistic formula for composition of velocities.<sup>[\[34\]](#^ref-34)</sup>
-
-$u_{\pm }={\frac {u'\pm v}{1\pm u'v/c^{2} } }=$ ${\frac {c/n\pm v}{1\pm v/cn} }\approx$ $c\left({\frac {1}{n} }\pm {\frac {v}{c} }\right)\left(1\mp {\frac {v}{cn} }\right)\approx$ ${\frac {c}{n} }\pm v\left(1-{\frac {1}{n^{2} } }\right)$
-
-### relativistic aberration of light
+From the point of view of special relativity, Fizeau's result is nothing but an approximation to __[Equation 10](#math%2010)__, the relativistic formula for composition of velocities.<sup>[\[34\]](#^ref-34)</sup> <p> &nbsp;&nbsp;&nbsp;&nbsp; $u_{\pm }={\frac {u'\pm v}{1\pm u'v/c^{2} } }=$ ${\frac {c/n\pm v}{1\pm v/cn} }\approx$ $c\left({\frac {1}{n} }\pm {\frac {v}{c} }\right)\left(1\mp {\frac {v}{cn} }\right)\approx$ ${\frac {c}{n} }\pm v\left(1-{\frac {1}{n^{2} } }\right)$ <p> ### relativistic aberration of light
 
 - Main articles: [Aberration of light](aberration%20of%20light.md) and [Light-time correction](light-time%20correction.md)
 
@@ -466,11 +455,7 @@ Because of the finite speed of light, if the relative motions of a source and re
 
 The classical explanation failed experimental test. Since the aberration angle depends on the relationship between the velocity of the receiver and the speed of the incident light, passage of the incident light through a refractive medium should change the aberration angle. In 1810, [Arago](François%20Arago.md) used this expected phenomenon in a failed attempt to measure the speed of light,<sup>[\[58\]](#^ref-58)</sup> and in 1870, [George Airy](George%20Airy.md) tested the hypothesis using a water-filled telescope, finding that, against expectation, the measured aberration was identical to the aberration measured with an air-filled telescope.<sup>[\[59\]](#^ref-59)</sup> A "cumbrous" attempt to explain these results used the hypothesis of partial aether-drag,<sup>[\[60\]](#^ref-60)</sup> but was incompatible with the results of the Michelson–Morley experiment, which apparently demanded _complete_ aether-drag.<sup>[\[61\]](#^ref-61)</sup>
 
-Assuming inertial frames, the relativistic expression for the aberration of light is applicable to both the receiver moving and source moving cases. A variety of trigonometrically equivalent formulas have been published. Expressed in terms of the variables in Fig. 5-2, these include<sup>[\[34\]](#^ref-34)</sup><sup>:&hairsp;57–60&hairsp;</sup>
-
-$\cos \theta '={\frac {\cos \theta +v/c}{1+(v/c)\cos \theta } }$   __OR__   $\sin \theta '={\frac {\sin \theta }{\gamma [1+(v/c)\cos \theta ]} }$   __OR__   $\tan {\frac {\theta '}{2} }=\left({\frac {c-v}{c+v} }\right)^{1/2}\tan {\frac {\theta }{2} }$
-
-### relativistic Doppler effect
+Assuming inertial frames, the relativistic expression for the aberration of light is applicable to both the receiver moving and source moving cases. A variety of trigonometrically equivalent formulas have been published. Expressed in terms of the variables in Fig. 5-2, these include<sup>[\[34\]](#^ref-34)</sup><sup>:&hairsp;57–60&hairsp;</sup> <p> &nbsp;&nbsp;&nbsp;&nbsp; $\cos \theta '={\frac {\cos \theta +v/c}{1+(v/c)\cos \theta } }$   __OR__   $\sin \theta '={\frac {\sin \theta }{\gamma [1+(v/c)\cos \theta ]} }$   __OR__   $\tan {\frac {\theta '}{2} }=\left({\frac {c-v}{c+v} }\right)^{1/2}\tan {\frac {\theta }{2} }$ <p> ### relativistic Doppler effect
 
 - Main article: [Relativistic Doppler effect](relativistic%20Doppler%20effect.md)
 
@@ -701,10 +686,7 @@ where
 
 $$\tanh \phi ={\frac {\sinh \phi }{\cosh \phi } }={\frac {e^{\phi }-e^{-\phi } }{e^{\phi }+e^{-\phi } } }.$$
 
-The rapidity defined above is very useful in special relativity because many expressions take on a considerably simpler form when expressed in terms of it. For example, rapidity is simply additive in the collinear velocity-addition formula;<sup>[\[27\]](#^ref-27)</sup><sup>:&hairsp;544&hairsp;</sup>
-
-$\beta ={\frac {\beta _{1}+\beta _{2} }{1+\beta _{1}\beta _{2} } }=$ ${\frac {\tanh \phi _{1}+\tanh \phi _{2} }{1+\tanh \phi _{1}\tanh \phi _{2} } }=$ $\tanh(\phi _{1}+\phi _{2})$,
-
+The rapidity defined above is very useful in special relativity because many expressions take on a considerably simpler form when expressed in terms of it. For example, rapidity is simply additive in the collinear velocity-addition formula;<sup>[\[27\]](#^ref-27)</sup><sup>:&hairsp;544&hairsp;</sup> <p> &nbsp;&nbsp;&nbsp;&nbsp; $\beta ={\frac {\beta _{1}+\beta _{2} }{1+\beta _{1}\beta _{2} } }=$ ${\frac {\tanh \phi _{1}+\tanh \phi _{2} }{1+\tanh \phi _{1}\tanh \phi _{2} } }=$ $\tanh(\phi _{1}+\phi _{2})$, <p>
 or in other words, ⁠$\phi =\phi _{1}+\phi _{2}$⁠.
 
 The Lorentz transformations take a simple form when expressed in terms of rapidity. The _γ_ factor can be written as

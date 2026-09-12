@@ -589,7 +589,7 @@ class WikiHtmlConverter:
                 and self._is_display_math_only(nxt)
             ):
                 strings = strings.rstrip("\n")
-                config.suffix = "\n"
+                config.suffix = ""
         # When a <p> is followed by a display-math-only <dl>, strip the
         # trailing \n\n from the <p> output so the <dl> content (with its
         # " <p> " prefix) joins inline on the same line.
@@ -1853,12 +1853,10 @@ class WikiHtmlConverter:
         class_str = " ".join(first.get_attribute_list("class"))
         if "mwe-math-element" not in class_str:
             return False
-        # The last child must be non-math (trailing text/description)
-        last = dd_children[-1]
-        if isinstance(last, Tag):
-            last_class = " ".join(last.get_attribute_list("class"))
-            if "mwe-math-element" in last_class:
-                return False
+        # Match as long as the first child is math and there are
+        # ≥2 children (ensuring trailing content exists).  The last
+        # child may be math (e.g. "$\Delta x=0\ $" at the end of
+        # "for events satisfying …").
         return True
 
     def _handle_code(self, ele: Tag, classes: frozenset[str]) -> _HandlerConfig:
