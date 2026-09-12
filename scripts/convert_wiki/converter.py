@@ -2223,6 +2223,12 @@ class WikiHtmlConverter:
                         _set_text_align(cell, align)
                     if cells := tuple(tr.find_all(_TD_OR_TH)):
                         _strip_cell_bold(cells[-1])
+            # Rewrite equation-number cells regardless of alignment.
+            for tr in tbody.find_all("tr"):
+                if tr is header_row:
+                    continue
+                if cells := tuple(tr.find_all(_TD_OR_TH)):
+                    self._rewrite_equation_number_cell(cells[-1])
 
             return TableConverter.handle_table(ele, classes, self._soup)
 
@@ -2493,8 +2499,17 @@ class WikiHtmlConverter:
                     else ""
                 )
                 # Same-page link: use fragment-only.
-                if self._page_name and _fix_filename(stem_name) == _fix_filename(
-                    self._page_name
+                normalized_page = (
+                    _fix_name_maybe(
+                        self._page_name,
+                        replace_underscores=True,
+                        names_map=self._names_map,
+                    )
+                    if self._page_name
+                    else None
+                )
+                if normalized_page and _fix_filename(stem_name) == _fix_filename(
+                    normalized_page
                 ):
                     href = f"#{_encode_fragment(new_frag)}" if new_frag else ""
                 else:

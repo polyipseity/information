@@ -387,6 +387,9 @@ class TestWikiHtmlToPlaintextSnapshot:
         # per-test overrides (for titles not in the global name_map).
         names_map = shared_name_map | aux["name_map_overrides"]
 
+        # Derive page name from snapshot name for same-page link detection.
+        page_name = name[0].upper() + name[1:] if name else name
+
         # run_pipeline handles all post-processing (nbsp→space, hair→&hairsp;, strip).
         output, _ = await run_pipeline(
             html,
@@ -396,6 +399,7 @@ class TestWikiHtmlToPlaintextSnapshot:
             wiki_dir=tmp / "general",
             wiki_lang_dir=isolated_lang,
             refs=True,
+            page_name=page_name,
         )
 
         assert output == expected
