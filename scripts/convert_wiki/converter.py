@@ -24,6 +24,7 @@ from .types import _HandlerConfig, _RedirectInfo
 from .utils import (
     _balance_brackets,
     _create_redirect_symlinks,
+    _encode_fragment,
     _fix_filename,
     _fix_name_maybe,
     _get_image_filename,
@@ -722,13 +723,21 @@ class WikiHtmlConverter:
             title = ele.get_text(strip=True)
         info = self._redirect_map.get(title, _RedirectInfo(to=title))
         to = info.to
+        # Extract fragment from href for relative links (e.g. ./Page#math_3).
+        # info.tofragment is empty for self-links, so we must parse it from
+        # the href to normalize the fragment (underscores -> spaces) and keep
+        # it in sync with the anchor produced by _equation_reference_anchor.
+        if "#" in href:
+            to_fragment = href.split("#", 1)[1]
+        else:
+            to_fragment = info.tofragment
         to_filename = _fix_name_maybe(
             to, replace_underscores=True, names_map=self._names_map
         )
         target = _markdown_link_target(
             to_filename,
             _fix_name_maybe(
-                info.tofragment,
+                to_fragment,
                 replace_underscores=True,
                 names_map=self._names_map,
             ),
@@ -1282,19 +1291,15 @@ class WikiHtmlConverter:
     def _equation_reference_anchor(self, ele: Tag) -> str:
         """Build the Markdown ``<a id>`` anchor for an equation reference.
 
-        The anchor id must match the fragment used by prose links. A bare
-        ``math_1`` is referenced raw (``#math_1``), while a dotted
-        ``math_Eq.1`` is referenced via the normalized Wikipedia fragment
-        (``#math%20Eq.1``), so the id is normalized the same way
-        (underscores -> spaces) to keep the two in sync.
+        The anchor id must match the fragment used by prose links. Both bare
+        ``math_1`` and dotted ``math_Eq.1`` ids are normalized via
+        ``_fix_name_maybe`` (underscores -> spaces) so the anchor matches
+        the normalized Wikipedia fragment (``#math%201``, ``#math%20Eq.1``).
         """
         ele_id = str(ele["id"])
-        if "." in ele_id:
-            anchor_id = _fix_name_maybe(
-                ele_id, replace_underscores=True, names_map=self._names_map
-            )
-        else:
-            anchor_id = ele_id
+        anchor_id = _fix_name_maybe(
+            ele_id, replace_underscores=True, names_map=self._names_map
+        )
         return f'<a id="{anchor_id}"></a> '
 
     @staticmethod
@@ -2343,6 +2348,19 @@ class WikiHtmlConverter:
                         names_map=self._names_map,
                     )
                 )
+            elif "#" in href:
+                # Relative link with fragment (e.g. ./Special_relativity#math_3).
+                # Normalize the fragment to match the anchor produced by
+                # _equation_reference_anchor (underscores -> spaces -> %20).
+                stem, _, frag = href.partition("#")
+                new_frag = (
+                    _fix_name_maybe(
+                        frag, replace_underscores=True, names_map=self._names_map
+                    )
+                    if frag
+                    else ""
+                )
+                href = f"{stem}#{_encode_fragment(new_frag)}" if new_frag else stem
 
             def process(strings: str) -> str:
                 """Collapse whitespace in anchor text."""
