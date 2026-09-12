@@ -19,9 +19,9 @@ A Boolean variable takes only two values, usually written as 0 and 1, LOW and HI
 
 Flashcards for this section are as follows:
 
-- Boolean variable values ::@:: A Boolean variable takes only two values, such as 0/1, LOW/HIGH, or false/true.
-- truth table purpose ::@:: A truth table lists the output for every possible input combination, so it makes the intended logic behavior explicit.
-- number of truth-table rows for $n$ inputs ::@:: A complete truth table has $2^n$ rows for $n$ Boolean inputs.
+- Boolean variable values ::@:: A Boolean variable takes only two values, such as 0/1, LOW/HIGH, or false/true. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- truth table purpose ::@:: A truth table lists the output for every possible input combination, so it makes the intended logic behavior explicit. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- number of truth-table rows for $n$ inputs ::@:: A complete truth table has $2^n$ rows for $n$ Boolean inputs. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
 
 ## basic gates and laws
 
@@ -39,13 +39,13 @@ These laws are not abstract decoration; they let you simplify a logic expression
 
 Flashcards for this section are as follows:
 
-- NOT gate action ::@:: NOT inverts its input, changing 0 to 1 and 1 to 0.
-- AND gate action ::@:: AND outputs 1 only when all required inputs are 1.
-- OR gate action ::@:: OR outputs 1 when at least one required input is 1.
-- exchange and commutative laws in Boolean algebra ::@:: $X+Y=Y+X$ and $X\cdot Y=Y\cdot X$. <!-- check: ignore-line[two_sided_calc_warning]: formula flashcard -->
-- identity and complement laws: what are four key formulas? ::@:: $0+X=X$, $1+X=1$, $X'+X=1$, and $X\cdot X'=0$. <!-- check: ignore-line[two_sided_calc_warning]: formula flashcard -->
-- idempotence and involution laws: what are the key formulas? ::@:: $X+X=X$, $X\cdot X=X$, and $(X')'=X$. <!-- check: ignore-line[two_sided_calc_warning]: formula flashcard -->
-- DeMorgan's laws in one sentence ::@:: DeMorgan's laws convert complemented AND forms into OR forms and complemented OR forms into AND forms, which is useful for simplification and gate substitution.
+- NOT gate action ::@:: NOT inverts its input, changing 0 to 1 and 1 to 0. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- AND gate action ::@:: AND outputs 1 only when all required inputs are 1. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- OR gate action ::@:: OR outputs 1 when at least one required input is 1. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- exchange and commutative laws in Boolean algebra ::@:: $X+Y=Y+X$ and $X\cdot Y=Y\cdot X$. <!-- check: ignore-line[two_sided_calc_warning]: formula flashcard --> <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- identity and complement laws: what are four key formulas? ::@:: $0+X=X$, $1+X=1$, $X'+X=1$, and $X\cdot X'=0$. <!-- check: ignore-line[two_sided_calc_warning]: formula flashcard --> <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- idempotence and involution laws: what are the key formulas? ::@:: $X+X=X$, $X\cdot X=X$, and $(X')'=X$. <!-- check: ignore-line[two_sided_calc_warning]: formula flashcard --> <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- DeMorgan's laws in one sentence ::@:: DeMorgan's laws convert complemented AND forms into OR forms and complemented OR forms into AND forms, which is useful for simplification and gate substitution. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
 
 <!-- check: ignore-next-line[header_style]: acronym -->
 ## NAND and NOR gates
@@ -56,9 +56,9 @@ NAND and NOR are the complemented versions of AND and OR. Their formulas are $(X
 
 Flashcards for this section are as follows:
 
-- NAND formula ::@:: The NAND of $X$ and $Y$ is $(X\cdot Y)'$. <!-- check: ignore-line[two_sided_calc_warning]: formula flashcard -->
-- NOR formula ::@:: The NOR of $X$ and $Y$ is $(X+Y)'$. <!-- check: ignore-line[two_sided_calc_warning]: formula flashcard -->
-- why NAND and NOR matter in circuit design ::@:: Each is a universal gate family, so a complete Boolean circuit can be implemented using only NAND gates or only NOR gates.
+- NAND formula ::@:: The NAND of $X$ and $Y$ is $(X\cdot Y)'$. <!-- check: ignore-line[two_sided_calc_warning]: formula flashcard --> <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- NOR formula ::@:: The NOR of $X$ and $Y$ is $(X+Y)'$. <!-- check: ignore-line[two_sided_calc_warning]: formula flashcard --> <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- why NAND and NOR matter in circuit design ::@:: Each is a universal gate family, so a complete Boolean circuit can be implemented using only NAND gates or only NOR gates. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
 
 ## historical development
 
@@ -68,9 +68,9 @@ Boolean algebra is not just notation. George Boole (1815–1864) invented the su
 
 Flashcards for this section are as follows:
 
-- George Boole and Boolean algebra ::@:: George Boole invented Boolean algebra.
-- why Boolean logic matters historically ::@:: Boolean logic became one of the foundations of modern computer science.
-- Claude Shannon's contribution to Boolean algebra in engineering ::@:: Shannon connected Boolean algebra to electronic switching circuits in his 1937 MIT master's thesis, helping establish binary digital electronics as a practical design tool.
+- George Boole and Boolean algebra ::@:: George Boole invented Boolean algebra. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- why Boolean logic matters historically ::@:: Boolean logic became one of the foundations of modern computer science. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- Claude Shannon's contribution to Boolean algebra in engineering ::@:: Shannon connected Boolean algebra to electronic switching circuits in his 1937 MIT master's thesis, helping establish binary digital electronics as a practical design tool. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
 
 <!-- check: ignore-next-line[header_style]: acronym -->
 ## XOR, XNOR, and simplification
@@ -81,13 +81,13 @@ XOR reports inequality: it is 1 when two inputs differ. XNOR reports equality: i
 
 Flashcards for this section are as follows:
 
-- XOR meaning ::@:: XOR outputs 1 when the two inputs are different.
-- XNOR meaning ::@:: XNOR outputs 1 when the two inputs are equal.
-- XOR formula ::@:: $X\oplus Y=X'Y+XY'$. <!-- check: ignore-line[two_sided_calc_warning]: formula flashcard -->
-- XNOR formula ::@:: $X\odot Y=XY+X'Y'=(X\oplus Y)'$. <!-- check: ignore-line[two_sided_calc_warning]: formula flashcard -->
-- why XOR and XNOR are useful in ELEC 1100 ::@:: They express difference or equality directly, which can be cleaner than expanding a long Boolean expression.
-- simplification example: what does $(A'B'+A'B)'$ reduce to? ::@:: It reduces to $A$.
-- logic simplification goal ::@:: Simplification keeps the same logic behavior while reducing gate count or making the circuit easier to build and debug.
+- XOR meaning ::@:: XOR outputs 1 when the two inputs are different. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- XNOR meaning ::@:: XNOR outputs 1 when the two inputs are equal. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- XOR formula ::@:: $X\oplus Y=X'Y+XY'$. <!-- check: ignore-line[two_sided_calc_warning]: formula flashcard --> <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- XNOR formula ::@:: $X\odot Y=XY+X'Y'=(X\oplus Y)'$. <!-- check: ignore-line[two_sided_calc_warning]: formula flashcard --> <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- why XOR and XNOR are useful in ELEC 1100 ::@:: They express difference or equality directly, which can be cleaner than expanding a long Boolean expression. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- simplification example: what does $(A'B'+A'B)'$ reduce to? ::@:: It reduces to $A$. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- logic simplification goal ::@:: Simplification keeps the same logic behavior while reducing gate count or making the circuit easier to build and debug. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
 
 ## from robot specification to expression
 
@@ -97,6 +97,6 @@ The robot application makes Boolean algebra concrete. Sensor readings such as `L
 
 Flashcards for this section are as follows:
 
-- robot-control Boolean workflow ::@:: Start from the verbal specification, build the truth table, derive the Boolean expression, simplify it, and then implement it with gates.
-- ELEC 1100 Boolean inputs and outputs in the robot example ::@:: Inputs are sensor states such as `L_Sensor` and `R_Sensor`, and outputs are control signals such as `L_DIR` and `R_DIR`.
-- why skipping the truth table is risky ::@:: Without the truth table you may build a tidy-looking circuit that does not actually match the required behavior.
+- robot-control Boolean workflow ::@:: Start from the verbal specification, build the truth table, derive the Boolean expression, simplify it, and then implement it with gates. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- ELEC 1100 Boolean inputs and outputs in the robot example ::@:: Inputs are sensor states such as `L_Sensor` and `R_Sensor`, and outputs are control signals such as `L_DIR` and `R_DIR`. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- why skipping the truth table is risky ::@:: Without the truth table you may build a tidy-looking circuit that does not actually match the required behavior. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->

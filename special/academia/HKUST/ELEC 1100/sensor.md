@@ -20,10 +20,10 @@ A robot needs sensors because control without measurement is blind. Broad famili
 
 Flashcards for this section are as follows:
 
-- sensor role in a robot ::@:: A sensor converts a physical quantity into an electrical signal so the controller can observe the environment.
-- why a robot needs sensors ::@:: Without sensors the controller has no measurement of the environment and cannot react intelligently.
-- sensor families briefly surveyed in ELEC 1100 ::@:: The note briefly surveys chemical sensors, accelerometers, gyroscopes, image sensors, microphones, and biosensors before focusing on light sensing.
-- ELEC 1100 sensor focus ::@:: The course surveys many sensor types but focuses mainly on light sensing for line tracking.
+- sensor role in a robot ::@:: A sensor converts a physical quantity into an electrical signal so the controller can observe the environment. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- why a robot needs sensors ::@:: Without sensors the controller has no measurement of the environment and cannot react intelligently. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- sensor families briefly surveyed in ELEC 1100 ::@:: The note briefly surveys chemical sensors, accelerometers, gyroscopes, image sensors, microphones, and biosensors before focusing on light sensing. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- ELEC 1100 sensor focus ::@:: The course surveys many sensor types but focuses mainly on light sensing for line tracking. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
 
 ## lumens and lux
 
@@ -33,9 +33,9 @@ Two related brightness measures are important in light sensing. Lumens measure l
 
 Flashcards for this section are as follows:
 
-- lumens vs lux: what is the core difference? ::@:: Lumens measure the total light emitted in all directions, while lux measures the total light falling on a surface.
-- lumen definition ::@:: A lumen is a measure of luminous flux, the total amount of light emitted in all directions.
-- lux definition ::@:: A lux is a measure of illuminance, the total amount of light that falls on a surface.
+- lumens vs lux: what is the core difference? ::@:: Lumens measure the total light emitted in all directions, while lux measures the total light falling on a surface. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- lumen definition ::@:: A lumen is a measure of luminous flux, the total amount of light emitted in all directions. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- lux definition ::@:: A lux is a measure of illuminance, the total amount of light that falls on a surface. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
 
 <!-- check: ignore-next-line[header_style]: acronym -->
 ## LDR, photodiode, phototransistor, and thresholding
@@ -46,10 +46,10 @@ Common light-sensing devices include the LDR, photodiode, and phototransistor. A
 
 Flashcards for this section are as follows:
 
-- LDR behavior ::@:: An LDR has high resistance in darkness and lower resistance in brighter light.
-- LDR resistance scale in the simple examples: what dark and bright resistances are used (about $10\text{ M}\Omega$ and $100\Omega$)? ::@:: The simple examples use a very high dark resistance (around $10\text{ M}\Omega$) and a much lower bright resistance (around $100\Omega$) to explain why the bias voltage changes strongly with illumination.
-- why ELEC 1100 introduces thresholding after analog light sensing ::@:: Thresholding converts a changing analog sensor voltage into a clean digital LOW or HIGH that logic and Arduino code can use directly.
-- photodiode and phototransistor role in the note ::@:: They are semiconductor light-sensing devices used to convert light exposure into an electrical response.
+- LDR behavior ::@:: An LDR has high resistance in darkness and lower resistance in brighter light. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- LDR resistance scale in the simple examples: what dark and bright resistances are used (about $10\text{ M}\Omega$ and $100\Omega$)? ::@:: The simple examples use a very high dark resistance (around $10\text{ M}\Omega$) and a much lower bright resistance (around $100\Omega$) to explain why the bias voltage changes strongly with illumination. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- why ELEC 1100 introduces thresholding after analog light sensing ::@:: Thresholding converts a changing analog sensor voltage into a clean digital LOW or HIGH that logic and Arduino code can use directly. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- photodiode and phototransistor role in the note ::@:: They are semiconductor light-sensing devices used to convert light exposure into an electrical response. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
 
 ## dark and bright sensing circuits
 
@@ -59,10 +59,10 @@ Two transistor-based light-sensor templates show how the same NPN stage can be t
 
 Flashcards for this section are as follows:
 
-- dark-sensing topology ::@:: In the dark-sensing circuit the fixed resistor is on the high side and the LDR is on the low side to ground.
-- bright-sensing topology ::@:: In the bright-sensing circuit the LDR is on the high side and the fixed resistor is on the low side to ground.
-- dark-sensing circuit with an NPN and LDR: when does the LED turn on? ::@:: The LED turns on in darkness because the low-side LDR becomes high resistance and lets the base node rise.
-- bright-sensing circuit with an NPN and LDR: when does the LED turn on? ::@:: The LED turns on in bright light because the high-side LDR becomes low resistance and pulls the base node upward.
+- dark-sensing topology ::@:: In the dark-sensing circuit the fixed resistor is on the high side and the LDR is on the low side to ground. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- bright-sensing topology ::@:: In the bright-sensing circuit the LDR is on the high side and the fixed resistor is on the low side to ground. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- dark-sensing circuit with an NPN and LDR: when does the LED turn on? ::@:: The LED turns on in darkness because the low-side LDR becomes high resistance and lets the base node rise. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- bright-sensing circuit with an NPN and LDR: when does the LED turn on? ::@:: The LED turns on in bright light because the high-side LDR becomes low resistance and pulls the base node upward. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
 
 ## infrared sensing for line tracking
 
@@ -77,9 +77,9 @@ Infrared radiation was accidentally discovered in 1800 by the astronomer William
 
 Flashcards for this section are as follows:
 
-- William Herschel and IR: what did he discover in 1800? ::@:: William Herschel accidentally discovered infrared radiation while measuring temperatures across the prism-separated visible spectrum.
-- Herschel prism experiment: what key observation revealed IR? ::@:: The temperature kept rising toward red and became even warmer just beyond the red end of the visible spectrum.
-- why IR is associated with heat ::@:: Anything that gives off heat emits infrared radiation, even though human eyes cannot see those waves directly.
+- William Herschel and IR: what did he discover in 1800? ::@:: William Herschel accidentally discovered infrared radiation while measuring temperatures across the prism-separated visible spectrum. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- Herschel prism experiment: what key observation revealed IR? ::@:: The temperature kept rising toward red and became even warmer just beyond the red end of the visible spectrum. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- why IR is associated with heat ::@:: Anything that gives off heat emits infrared radiation, even though human eyes cannot see those waves directly. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
 
 <!-- check: ignore-next-line[header_style]: acronym -->
 ### IR line sensor module and calibration
@@ -92,12 +92,12 @@ Because the module includes thresholding and exposes one main digital output, it
 
 Flashcards for this section are as follows:
 
-- IR line sensor principle ::@:: An IR emitter shines toward the floor and the receiver detects how much light is reflected back.
-- IR line sensor calibration: why adjust the variable resistor? ::@:: To tune the switching threshold for the actual sensor height and the white-vs-black reflectance difference.
-- ELEC 1100 line sensor output convention: which surface gives about $0\text{ V}$ and which gives about $5\text{ V}$? ::@:: The tuned module outputs about $0\text{ V}$ on white and about $5\text{ V}$ on black.
-- what type of IR sensor the robot car uses ::@:: The robot uses a reflective IR sensor module with an emitter, a receiver, and onboard thresholding.
-- why the IR module should be treated as a digital sensor ::@:: It is used as a thresholded switch with one main digital output that reports black-or-white states, not as a precise continuous ranging device.
-- why the IR sensor behaves like a dark-sensing output in the car ::@:: In the tuned setup the black mat makes the module output HIGH and the white line makes it output LOW, so the controller sees it as a dark-detecting binary signal.
+- IR line sensor principle ::@:: An IR emitter shines toward the floor and the receiver detects how much light is reflected back. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- IR line sensor calibration: why adjust the variable resistor? ::@:: To tune the switching threshold for the actual sensor height and the white-vs-black reflectance difference. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- ELEC 1100 line sensor output convention: which surface gives about $0\text{ V}$ and which gives about $5\text{ V}$? ::@:: The tuned module outputs about $0\text{ V}$ on white and about $5\text{ V}$ on black. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- what type of IR sensor the robot car uses ::@:: The robot uses a reflective IR sensor module with an emitter, a receiver, and onboard thresholding. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- why the IR module should be treated as a digital sensor ::@:: It is used as a thresholded switch with one main digital output that reports black-or-white states, not as a precise continuous ranging device. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- why the IR sensor behaves like a dark-sensing output in the car ::@:: In the tuned setup the black mat makes the module output HIGH and the white line makes it output LOW, so the controller sees it as a dark-detecting binary signal. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
 
 ## sensor patterns for line following
 
@@ -107,7 +107,7 @@ Two front line sensors are enough to decide whether the robot is centered, drift
 
 Flashcards for this section are as follows:
 
-- why ELEC 1100 uses two front line sensors instead of one ::@:: Two sensors can distinguish centered motion from left/right deviation, while one sensor cannot resolve the direction of the error as reliably.
-- bumper sensor role in the final project ::@:: The bumper sensor provides a state-changing event that helps distinguish the start line or wall contact from later line-sensor patterns.
-- why `countBumper` or similar memory is needed ::@:: The same left/right sensor pattern can occur in different contexts, so stored state is needed to tell those situations apart.
-- line sensors and motor commands: what do the sensor states ultimately control? ::@:: They are converted into motor direction and speed commands such as `L_DIR`, `R_DIR`, `L_PWM`, and `R_PWM`.
+- why ELEC 1100 uses two front line sensors instead of one ::@:: Two sensors can distinguish centered motion from left/right deviation, while one sensor cannot resolve the direction of the error as reliably. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- bumper sensor role in the final project ::@:: The bumper sensor provides a state-changing event that helps distinguish the start line or wall contact from later line-sensor patterns. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- why `countBumper` or similar memory is needed ::@:: The same left/right sensor pattern can occur in different contexts, so stored state is needed to tell those situations apart. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- line sensors and motor commands: what do the sensor states ultimately control? ::@:: They are converted into motor direction and speed commands such as `L_DIR`, `R_DIR`, `L_PWM`, and `R_PWM`. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->

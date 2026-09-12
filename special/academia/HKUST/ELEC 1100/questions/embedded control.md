@@ -22,52 +22,52 @@ These practice problems are derived from the Arduino-oriented exercise sets, but
 
 > An Arduino sketch defines `const int ledPin = 6;` and `const int sensorPin = A2;`. What should `setup()` contain so the LED is driven and the sensor is read correctly?
 >
-> Solution: {@{`pinMode(ledPin, OUTPUT);`}@} and {@{`pinMode(sensorPin, INPUT);`}@} should be {@{placed in `setup()`}@}.
+> Solution: {@{`pinMode(ledPin, OUTPUT);`}@} and {@{`pinMode(sensorPin, INPUT);`}@} should be {@{placed in `setup()`}@}. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
 > A temperature warning system should blink the red LED when `temperature >= 68`, blink the yellow LED when `temperature >= 58` but below 68, and otherwise blink the green LED. Why is `if ... else if ... else` the right structure?
 >
-> Solution: {@{The conditions}@} are {@{mutually exclusive priority bands}@}, so {@{`if ... else if ... else` ensures only one LED behavior}@} is {@{chosen for each temperature reading}@}.
+> Solution: {@{The conditions}@} are {@{mutually exclusive priority bands}@}, so {@{`if ... else if ... else` ensures only one LED behavior}@} is {@{chosen for each temperature reading}@}. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
 > Complete the idea: if a loop keeps a motor turning `while(leftSensor == 0)` but never updates `leftSensor` inside the loop, what goes wrong?
 >
-> Solution: The decision is {@{made from stale data}@}. Even if the physical sensor {@{changes, the code keeps using the old value}@} and {@{the motor behavior may continue incorrectly}@}.
+> Solution: The decision is {@{made from stale data}@}. Even if the physical sensor {@{changes, the code keeps using the old value}@} and {@{the motor behavior may continue incorrectly}@}. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
 > A helper function `void driveMotor(int pwmPin, int dirPin, int speed, int dir)` is introduced. What advantage does this have over writing four separate assignment lines everywhere?
 >
-> Solution: It packages {@{repeated control logic into one reusable unit}@}, which reduces {@{duplication and makes later debugging or tuning easier}@}.
+> Solution: It packages {@{repeated control logic into one reusable unit}@}, which reduces {@{duplication and makes later debugging or tuning easier}@}. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
 > A fan should remain on for 20 seconds after motion disappears. Why is `millis()` usually better than a single `delay(20000)` inside the control logic?
 >
-> Solution: {@{The advantage of `millis()`}@} is it lets {@{the program keep checking sensors and updating outputs while tracking elapsed time}@}, whereas {@{a long `delay()` blocks the controller}@}.
+> Solution: {@{The advantage of `millis()`}@} is it lets {@{the program keep checking sensors and updating outputs while tracking elapsed time}@}, whereas {@{a long `delay()` blocks the controller}@}. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
 > The ELEC 1100 robot uses `A5`, `A4`, and `A3` for left, bumper, and right sensors. Write a short explanation of why the pin map should be kept in named constants instead of raw numeric literals scattered through the code.
 >
-> Solution: {@{Named constants}@} make {@{the hardware contract explicit}@}, prevent {@{accidental pin swaps, and keep the sketch readable}@} when {@{many sensor and motor signals are used together}@}.
+> Solution: {@{Named constants}@} make {@{the hardware contract explicit}@}, prevent {@{accidental pin swaps, and keep the sketch readable}@} when {@{many sensor and motor signals are used together}@}. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
 
 ## coding-style practice
 
 > A sketch reads two line sensors. If both sensors read white at startup, the robot should stay still until the bumper sensor is first triggered. What kind of variable is needed in addition to the live sensor readings?
 >
-> Solution: {@{A state variable or counter such as `countBumper`}@} is needed so the code {@{remembers whether the start event has already happened}@}.
+> Solution: {@{A state variable or counter such as `countBumper`}@} is needed so the code {@{remembers whether the start event has already happened}@}. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
 > A student accidentally writes `if (sensor = HIGH)` instead of `if (sensor == HIGH)`. Why is that dangerous?
 >
-> Solution: {@{The `=` sign}@} assigns {@{HIGH to `sensor` instead of comparing it}@}, so the condition {@{no longer tests the real reading and the logic becomes incorrect}@}.
+> Solution: {@{The `=` sign}@} assigns {@{HIGH to `sensor` instead of comparing it}@}, so the condition {@{no longer tests the real reading and the logic becomes incorrect}@}. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
 > Extra challenge: the left motor is weaker than the right motor. Give one safe software-only adjustment before changing hardware.
 >
-> Solution: Use {@{different PWM values for the two motors}@} so {@{the weaker side gets a stronger command to compensate for the mechanical asymmetry}@} or {@{the stronger side is reduced until the robot tracks straight}@}.
+> Solution: Use {@{different PWM values for the two motors}@} so {@{the weaker side gets a stronger command to compensate for the mechanical asymmetry}@} or {@{the stronger side is reduced until the robot tracks straight}@}. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->

@@ -19,10 +19,10 @@ The robot follows a white line on a dark mat and is evaluated on a staged sequen
 
 Flashcards for this section are as follows:
 
-- ELEC 1100 final project objective ::@:: Build a line-following robot car that completes the staged demonstration route on the white-line mat.
-- maximum number of sensors allowed in the final project ::@:: At most six sensors are allowed.
-- required sensor set in the final project ::@:: Two front line sensors and one bumper sensor are required.
-- why the final project is an integration task ::@:: It combines sensing, logic, motor driving, Arduino programming, and debugging into one system.
+- ELEC 1100 final project objective ::@:: Build a line-following robot car that completes the staged demonstration route on the white-line mat. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- maximum number of sensors allowed in the final project ::@:: At most six sensors are allowed. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- required sensor set in the final project ::@:: Two front line sensors and one bumper sensor are required. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- why the final project is an integration task ::@:: It combines sensing, logic, motor driving, Arduino programming, and debugging into one system. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
 
 ## route, stages, and scoring logic
 
@@ -32,9 +32,9 @@ The project route includes curves, turns, branching sections, looping behavior, 
 
 Flashcards for this section are as follows:
 
-- why the project route needs more than one simple line-following rule ::@:: The route includes curves, junction-like situations, turns, and a white-wall end condition, so the robot needs multiple behaviors.
-- early-demo bonus idea in the final project ::@:: Strong early-demo completion earns bonus credit, so the project rewards reaching a stable solution early.
-- why timing matters in project scoring ::@:: The project includes a completion-time bonus, so correctness and stable tuning both matter.
+- why the project route needs more than one simple line-following rule ::@:: The route includes curves, junction-like situations, turns, and a white-wall end condition, so the robot needs multiple behaviors. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- early-demo bonus idea in the final project ::@:: Strong early-demo completion earns bonus credit, so the project rewards reaching a stable solution early. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- why timing matters in project scoring ::@:: The project includes a completion-time bonus, so correctness and stable tuning both matter. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
 
 ## line-tracking logic and memory
 
@@ -46,10 +46,10 @@ This is a clear example of the transition from combinational logic to sequential
 
 Flashcards for this section are as follows:
 
-- why the final project cannot rely on line sensors alone ::@:: The same current sensor pattern can appear in different contexts, so extra state information is needed.
-- bumper sensor role in project logic ::@:: The bumper sensor provides a state-changing event for start and wall-detection logic.
-- why `countBumper` is a sequential-logic idea ::@:: It stores past information so the controller can interpret the same current sensor pattern differently at different times.
-- final project control outputs: what signals must the code ultimately choose? ::@:: The code must choose motor direction and speed outputs such as `L_DIR`, `R_DIR`, `L_PWM`, and `R_PWM`.
+- why the final project cannot rely on line sensors alone ::@:: The same current sensor pattern can appear in different contexts, so extra state information is needed. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- bumper sensor role in project logic ::@:: The bumper sensor provides a state-changing event for start and wall-detection logic. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- why `countBumper` is a sequential-logic idea ::@:: It stores past information so the controller can interpret the same current sensor pattern differently at different times. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- final project control outputs: what signals must the code ultimately choose? ::@:: The code must choose motor direction and speed outputs such as `L_DIR`, `R_DIR`, `L_PWM`, and `R_PWM`. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
 
 ## code, demo, and report expectations
 
@@ -59,8 +59,8 @@ The deliverable structure is clear. The group code submission extends the existi
 
 Flashcards for this section are as follows:
 
-- where the final project code starts from in ELEC 1100 ::@:: It starts from the Lab 6 logic template and then extends that code for the full route.
-- final project code submission style ::@:: The code submission is group-based and should keep the group/member header information.
-- final project report ownership ::@:: The report is an individual submission even though the robot code and demo are group-based.
-- core sections of the final project report ::@:: Introduction, logic design, debugging report, and results/conclusion.
-- why the report guideline matters ::@:: The project is graded not only on robot behavior but also on how clearly the engineering work is explained and documented.
+- where the final project code starts from in ELEC 1100 ::@:: It starts from the Lab 6 logic template and then extends that code for the full route. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- final project code submission style ::@:: The code submission is group-based and should keep the group/member header information. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- final project report ownership ::@:: The report is an individual submission even though the robot code and demo are group-based. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- core sections of the final project report ::@:: Introduction, logic design, debugging report, and results/conclusion. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- why the report guideline matters ::@:: The project is graded not only on robot behavior but also on how clearly the engineering work is explained and documented. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->

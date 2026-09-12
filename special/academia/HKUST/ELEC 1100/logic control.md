@@ -19,9 +19,9 @@ The line-following example shows how a truth table can be converted into compact
 
 Flashcards for this section are as follows:
 
-- logic-control derivation workflow ::@:: Specify the desired behavior, write the truth table, derive the Boolean expressions, simplify them, and then implement them with gates.
-- ELEC 1100 line-following expression for $L_{\text{DIR}}$ and $R_{\text{DIR}}$ ::@:: $L_{\text{DIR}}=L'$ and $R_{\text{DIR}}=L+R'$.
-- why the simple DIR expressions matter pedagogically ::@:: They demonstrate how a verbal control rule becomes a truth table, then a Boolean expression, then a real logic circuit.
+- logic-control derivation workflow ::@:: Specify the desired behavior, write the truth table, derive the Boolean expressions, simplify them, and then implement them with gates. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- ELEC 1100 line-following expression for $L_{\text{DIR}}$ and $R_{\text{DIR}}$ ::@:: $L_{\text{DIR}}=L'$ and $R_{\text{DIR}}=L+R'$. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- why the simple DIR expressions matter pedagogically ::@:: They demonstrate how a verbal control rule becomes a truth table, then a Boolean expression, then a real logic circuit. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
 
 ## combinational control circuits
 
@@ -31,9 +31,9 @@ A combinational circuit's outputs depend only on the current input values. If th
 
 Flashcards for this section are as follows:
 
-- combinational logic definition ::@:: A combinational circuit has outputs determined only by the current inputs, with no stored state from the past.
-- why the early robot DIR controller is combinational ::@:: The motor-direction outputs are computed directly from the present line-sensor readings.
-- main limitation of a purely combinational robot controller ::@:: It cannot distinguish different situations that produce the same current sensor pattern.
+- combinational logic definition ::@:: A combinational circuit has outputs determined only by the current inputs, with no stored state from the past. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- why the early robot DIR controller is combinational ::@:: The motor-direction outputs are computed directly from the present line-sensor readings. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- main limitation of a purely combinational robot controller ::@:: It cannot distinguish different situations that produce the same current sensor pattern. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
 
 ## half adder and full adder
 
@@ -43,12 +43,12 @@ The half adder and full adder are standard examples of combinational design. A h
 
 Flashcards for this section are as follows:
 
-- half adder limitation ::@:: A half adder works only when there is no incoming carry from a previous bit position.
-- half adder with inputs $A$ and $B$: what are the sum and carry outputs? ::@:: A half adder outputs $S=A\oplus B$ and $C=AB$.
-- full adder with inputs $A$, $B$, and $C_{\text{in}}$: what is the sum output? ::@:: $S=(A\oplus B)\oplus C_{\text{in}}$.
-- full adder with inputs $A$, $B$, and $C_{\text{in}}$: what is the carry output? ::@:: $C_{\text{out}}=AB+AC_{\text{in}}+BC_{\text{in}}=(A\oplus B)C_{\text{in}}+AB$.
-- when a full adder is needed instead of a half adder ::@:: A full adder is needed whenever the stage may receive a carry from the previous bit position.
-- how a full adder is built from simpler blocks ::@:: It can be built from two half adders and one OR gate.
+- half adder limitation ::@:: A half adder works only when there is no incoming carry from a previous bit position. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- half adder with inputs $A$ and $B$: what are the sum and carry outputs? ::@:: A half adder outputs $S=A\oplus B$ and $C=AB$. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- full adder with inputs $A$, $B$, and $C_{\text{in}}$: what is the sum output? ::@:: $S=(A\oplus B)\oplus C_{\text{in}}$. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- full adder with inputs $A$, $B$, and $C_{\text{in}}$: what is the carry output? ::@:: $C_{\text{out}}=AB+AC_{\text{in}}+BC_{\text{in}}=(A\oplus B)C_{\text{in}}+AB$. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- when a full adder is needed instead of a half adder ::@:: A full adder is needed whenever the stage may receive a carry from the previous bit position. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- how a full adder is built from simpler blocks ::@:: It can be built from two half adders and one OR gate. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
 
 ## cascading full adders and serial addition
 
@@ -60,10 +60,10 @@ A serial binary adder trades hardware for time. Instead of having one full adder
 
 Flashcards for this section are as follows:
 
-- how full adders are chained in a multi-bit adder ::@:: Each stage's $C_{\text{out}}$ is connected to the next stage's $C_{\text{in}}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- what four full adders in a row create ::@:: They create a 4-bit ripple-carry adder.
-- why a serial binary adder needs memory ::@:: It must store the previous carry so one full-adder core can be reused for the next clocked bit position.
-- why a serial binary adder needs a clock ::@:: The clock synchronizes when each new bit pair is processed and when the stored carry is updated.
+- how full adders are chained in a multi-bit adder ::@:: Each stage's $C_{\text{out}}$ is connected to the next stage's $C_{\text{in}}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- what four full adders in a row create ::@:: They create a 4-bit ripple-carry adder. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- why a serial binary adder needs memory ::@:: It must store the previous carry so one full-adder core can be reused for the next clocked bit position. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- why a serial binary adder needs a clock ::@:: The clock synchronizes when each new bit pair is processed and when the stored carry is updated. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
 
 ## sequential logic and memory
 
@@ -73,7 +73,7 @@ Memory is what makes a circuit sequential. A sequential circuit depends on both 
 
 Flashcards for this section are as follows:
 
-- sequential logic definition ::@:: A sequential circuit depends on the current inputs together with stored state from earlier events.
-- why the serial adder is sequential ::@:: It reuses one adder stage while storing intermediate state between clocked steps.
-- why the robot project needs memory ::@:: The same current sensor pattern can represent different physical situations, so stored state such as `countBumper` is needed to tell them apart.
-- combinational vs sequential summary ::@:: Combinational logic depends only on present inputs, while sequential logic depends on present inputs plus remembered state.
+- sequential logic definition ::@:: A sequential circuit depends on the current inputs together with stored state from earlier events. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- why the serial adder is sequential ::@:: It reuses one adder stage while storing intermediate state between clocked steps. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- why the robot project needs memory ::@:: The same current sensor pattern can represent different physical situations, so stored state such as `countBumper` is needed to tell them apart. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- combinational vs sequential summary ::@:: Combinational logic depends only on present inputs, while sequential logic depends on present inputs plus remembered state. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
