@@ -3199,6 +3199,51 @@ def _scan_wrong_cloze_tokens(
             i += 1
             continue
 
+        # Check for $-involved misspelt cloze delimiters before math tracking,
+        # since the $ in these tokens would falsely toggle math mode.
+        # {@${  (4 chars: { @ $ {)
+        if i + 4 <= n and text[i : i + 4] == "{@${":
+            wrong_tokens.append(
+                (i, i + 4, "misspelt cloze delimiter '{@${'; use '{@{' instead")
+            )
+            i += 4
+            continue
+        # {$@{  (4 chars: { $ @ {)
+        if i + 4 <= n and text[i : i + 4] == "{$@{":
+            wrong_tokens.append(
+                (i, i + 4, "misspelt cloze delimiter '{$@{'; use '{@{' instead")
+            )
+            i += 4
+            continue
+        # {$@${  (5 chars: { $ @ $ {)
+        if i + 5 <= n and text[i : i + 5] == "{$@${":
+            wrong_tokens.append(
+                (i, i + 5, "misspelt cloze delimiter '{$@${'; use '{@{' instead")
+            )
+            i += 5
+            continue
+        # }$@}  (4 chars: } $ @ })
+        if i + 4 <= n and text[i : i + 4] == "}$@}":
+            wrong_tokens.append(
+                (i, i + 4, "misspelt cloze delimiter '}$@}'; use '}@}' instead")
+            )
+            i += 4
+            continue
+        # }@$}  (4 chars: } @ $ })
+        if i + 4 <= n and text[i : i + 4] == "}@$}":
+            wrong_tokens.append(
+                (i, i + 4, "misspelt cloze delimiter '}@$}'; use '}@}' instead")
+            )
+            i += 4
+            continue
+        # }$@$}  (5 chars: } $ @ $ })
+        if i + 5 <= n and text[i : i + 5] == "}$@$}":
+            wrong_tokens.append(
+                (i, i + 5, "misspelt cloze delimiter '}$@$}'; use '}@}' instead")
+            )
+            i += 5
+            continue
+
         # Track math mode
         if text[i] == "$" and (i == 0 or text[i - 1] != "\\"):
             if i + 1 < n and text[i + 1] == "$":
