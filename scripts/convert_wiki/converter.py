@@ -1853,6 +1853,12 @@ class WikiHtmlConverter:
             if inline:
                 alt_text, punct = self._strip_trailing_punctuation(alt_text)
                 suffix += punct
+                # Prevent trailing \ from escaping closing $ delimiter.
+                # After _strip_trailing_punctuation + rstrip, a trailing
+                # LaTeX space command (e.g. \ .) becomes bare \. The space
+                # restores \  so $ closes the math instead of becoming \$.
+                if alt_text.endswith("\\"):
+                    alt_text += " "
 
             ele.clear()
             ele.append(alt_text)
