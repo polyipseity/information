@@ -560,6 +560,8 @@ class WikiHtmlConverter:
             process_strings = process_strings_blockquote
 
         if ele.name in _DISPLAY_MATH_CONTAINERS or ele.name == "p":
+            if ele.name == "dd":
+                self._merge_adjacent_math_dd(ele)
             self._normalize_external_math_punctuation(ele)
 
         soon_values, list_stack = await self._convert_children(
@@ -1889,7 +1891,7 @@ class WikiHtmlConverter:
             for c in dd.children
             if not (isinstance(c, NavigableString) and not c.strip())
         ]
-        if len(dd_children) < 2:
+        if not dd_children:
             return False
         # The first child must be a math element (block or inline)
         first = dd_children[0]
@@ -1898,10 +1900,17 @@ class WikiHtmlConverter:
         class_str = " ".join(first.get_attribute_list("class"))
         if "mwe-math-element" not in class_str:
             return False
+        # A single merged multi-part math span qualifies — it was
+        # assembled from adjacent inline math spans and should be
+        # joined inline like the original multi-part form.
+        if len(dd_children) == 1 and first.get("data-merged-inline") is not None:
+            return True
         # Match as long as the first child is math and there are
         # ≥2 children (ensuring trailing content exists).  The last
-        # child may be math (e.g. "$\Delta x=0\ $" at the end of
-        # "for events satisfying …").
+        # child may be math (e.g. “$\Delta x=0\ $” at the end of
+        # “for events satisfying …”).
+        if len(dd_children) < 2:
+            return False
         return True
 
     @staticmethod
@@ -2035,6 +2044,9 @@ class WikiHtmlConverter:
             )
         ):
             return False
+        # Merged multi-part math retains the inline classification.
+        if outer_span is not None and outer_span.get("data-merged-inline") is not None:
+            return True
         return WikiHtmlConverter._substantive_child_count(container) > 1
 
     @staticmethod
@@ -2063,6 +2075,107 @@ class WikiHtmlConverter:
         else:
             alt_text = alt_text.rstrip()
         return alt_text
+
+    @staticmethod
+    def _merge_adjacent_math_dd(dd: Tag) -> None:
+        """Merge consecutive inline math spans in a ``<dd>`` element.
+
+        Wikipedia HTML often splits multi-part equations into separate
+        ``<span class="mwe-math-element mwe-math-element-inline">``
+        children separated only by whitespace. This method detects runs
+        of ≥2 such spans (with only whitespace NavigableStrings between)
+        and replaces each run with a single merged span whose alttext is
+        the space-joined LaTeX of all parts.
+        """
+        # Repeat until no more merges are possible.
+        while True:
+            children = list(dd.children)
+            merged_any = False
+            i = 0
+            while i < len(children):
+                child = children[i]
+                if not isinstance(child, Tag) or "mwe-math-element" not in " ".join(
+                    child.get_attribute_list("class")
+                ):
+                    i += 1
+                    continue
+                # Start of a potential run.
+                run = [child]
+                j = i + 1
+                while j < len(children):
+                    nxt = children[j]
+                    if isinstance(nxt, NavigableString):
+                        if nxt.strip():
+                            break  # non-whitespace text ends run
+                        j += 1
+                        continue
+                    if isinstance(nxt, Tag) and "mwe-math-element" in " ".join(
+                        nxt.get_attribute_list("class")
+                    ):
+                        run.append(nxt)
+                        j += 1
+                        continue
+                    break
+                if len(run) < 2:
+                    i = j
+                    continue
+                # Merge the run into a single span.
+                parts: list[str] = []
+                for span in run:
+                    math = span.find("math")
+                    if isinstance(math, Tag):
+                        raw = math.get("alttext", "")
+                        if raw:
+                            parts.append(
+                                WikiHtmlConverter._prepare_math_alttext(str(raw))
+                            )
+                merged_alt = " ".join(parts)
+                # Build replacement element.
+                new_span = dd.new_tag(
+                    "span",
+                    attrs={"class": "mwe-math-element mwe-math-element-inline"},
+                )
+                new_mathml_span = dd.new_tag(
+                    "span",
+                    attrs={"class": "mwe-math-mathml-inline"},
+                )
+                new_math = dd.new_tag(
+                    "math",
+                    attrs={
+                        "alttext": merged_alt,
+                        "xmlns": "http://www.w3.org/1998/Math/MathML",
+                    },
+                )
+                new_annotation = dd.new_tag(
+                    "annotation",
+                    attrs={"encoding": "application/x-tex"},
+                )
+                new_annotation.string = merged_alt
+                new_math.append(new_annotation)
+                new_mathml_span.append(new_math)
+                new_span.append(new_mathml_span)
+                # Replace first span; remove rest and surrounding whitespace.
+                run[0].replace_with(new_span)
+                for span in run[1:]:
+                    span.extract()
+                # Clean up adjacent whitespace NS.
+                prev = new_span.previous_sibling
+                while isinstance(prev, NavigableString) and not prev.strip():
+                    to_remove = prev
+                    prev = to_remove.previous_sibling
+                    to_remove.extract()
+                nxt = new_span.next_sibling
+                while isinstance(nxt, NavigableString) and not nxt.strip():
+                    to_remove = nxt
+                    nxt = to_remove.next_sibling
+                    to_remove.extract()
+                # Mark the merged span so _is_inline_math knows it was
+                # assembled from multiple inline math spans.
+                new_span["data-merged-inline"] = ""
+                merged_any = True
+                break  # restart scan from beginning
+            if not merged_any:
+                break
 
     def _normalize_external_math_punctuation(self, container: Tag) -> None:
         """Absorb external punct into ``alttext`` before concurrent child conversion."""

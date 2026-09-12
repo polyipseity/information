@@ -440,7 +440,7 @@ According to the theories prevailing at the time, light traveling through a movi
 
 Fizeau's results, although consistent with Fresnel's earlier hypothesis of [partial aether dragging](aether%20drag%20hypothesis.md), were extremely disconcerting to physicists of the time. Among other things, the presence of an index of refraction term meant that, since $n$ depends on wavelength, _the aether must be capable of sustaining different motions at the same time_.<sup>[\[note 1\]](#^note-1)</sup> A variety of theoretical explanations were proposed to explain [Fresnel's dragging coefficient](Fizeau%20experiment.md#Fresnel%20drag%20coefficient), that were completely at odds with each other. Even before the Michelson–Morley experiment, Fizeau's experimental results were among a number of observations that created a critical situation in explaining the optics of moving bodies.<sup>[\[55\]](#^ref-55)</sup>
 
-From the point of view of special relativity, Fizeau's result is nothing but an approximation to __[Equation 10](#math%2010)__, the relativistic formula for composition of velocities.<sup>[\[34\]](#^ref-34)</sup> <p> &nbsp;&nbsp;&nbsp;&nbsp; $u_{\pm }={\frac {u'\pm v}{1\pm u'v/c^{2} } }=$ ${\frac {c/n\pm v}{1\pm v/cn} }\approx$ $c\left({\frac {1}{n} }\pm {\frac {v}{c} }\right)\left(1\mp {\frac {v}{cn} }\right)\approx$ ${\frac {c}{n} }\pm v\left(1-{\frac {1}{n^{2} } }\right)$
+From the point of view of special relativity, Fizeau's result is nothing but an approximation to __[Equation 10](#math%2010)__, the relativistic formula for composition of velocities.<sup>[\[34\]](#^ref-34)</sup> <p> &nbsp;&nbsp;&nbsp;&nbsp; $u_{\pm }={\frac {u'\pm v}{1\pm u'v/c^{2} } }= {\frac {c/n\pm v}{1\pm v/cn} }\approx c\left({\frac {1}{n} }\pm {\frac {v}{c} }\right)\left(1\mp {\frac {v}{cn} }\right)\approx {\frac {c}{n} }\pm v\left(1-{\frac {1}{n^{2} } }\right)$
 
 ### relativistic aberration of light
 
@@ -687,12 +687,12 @@ where
 
 $$\tanh \phi ={\frac {\sinh \phi }{\cosh \phi } }={\frac {e^{\phi }-e^{-\phi } }{e^{\phi }+e^{-\phi } } }.$$
 
-The rapidity defined above is very useful in special relativity because many expressions take on a considerably simpler form when expressed in terms of it. For example, rapidity is simply additive in the collinear velocity-addition formula;<sup>[\[27\]](#^ref-27)</sup><sup>:&hairsp;544&hairsp;</sup> <p> &nbsp;&nbsp;&nbsp;&nbsp; $\beta ={\frac {\beta _{1}+\beta _{2} }{1+\beta _{1}\beta _{2} } }=$ ${\frac {\tanh \phi _{1}+\tanh \phi _{2} }{1+\tanh \phi _{1}\tanh \phi _{2} } }=$ $\tanh(\phi _{1}+\phi _{2})$, <p> or in other words, ⁠$\phi =\phi _{1}+\phi _{2}$⁠.
+The rapidity defined above is very useful in special relativity because many expressions take on a considerably simpler form when expressed in terms of it. For example, rapidity is simply additive in the collinear velocity-addition formula;<sup>[\[27\]](#^ref-27)</sup><sup>:&hairsp;544&hairsp;</sup> <p> &nbsp;&nbsp;&nbsp;&nbsp; $\beta ={\frac {\beta _{1}+\beta _{2} }{1+\beta _{1}\beta _{2} } }= {\frac {\tanh \phi _{1}+\tanh \phi _{2} }{1+\tanh \phi _{1}\tanh \phi _{2} } }= \tanh(\phi _{1}+\phi _{2})$, <p> or in other words, ⁠$\phi =\phi _{1}+\phi _{2}$⁠.
 
 The Lorentz transformations take a simple form when expressed in terms of rapidity. The _γ_ factor can be written as
 
-$\gamma ={\frac {1}{\sqrt {1-\beta ^{2} } } }={\frac {1}{\sqrt {1-\tanh ^{2}\phi } } }$ $=\cosh \phi$,
-$\gamma \beta ={\frac {\beta }{\sqrt {1-\beta ^{2} } } }={\frac {\tanh \phi }{\sqrt {1-\tanh ^{2}\phi } } }$ $=\sinh \phi$.
+$\gamma ={\frac {1}{\sqrt {1-\beta ^{2} } } }={\frac {1}{\sqrt {1-\tanh ^{2}\phi } } } =\cosh \phi$,
+$\gamma \beta ={\frac {\beta }{\sqrt {1-\beta ^{2} } } }={\frac {\tanh \phi }{\sqrt {1-\tanh ^{2}\phi } } } =\sinh \phi$.
 
 Transformations describing relative motion with uniform velocity and without rotation of the space coordinate axes are called _boosts_.
 
@@ -747,7 +747,7 @@ The last three components of a 4–vector must be a standard vector in three-dim
 #### properties of 4-vectors
 
 - __Closure under linear combination:__ If _A_ and _B_ are 4-vectors, then ⁠$C=aA+aB$⁠ is also a 4-vector.
-- __Inner-product invariance:__ If _A_ and _B_ are 4-vectors, then their inner product \(scalar product\) is invariant, i.e. their inner product is independent of the frame in which it is calculated. Note how the calculation of inner product differs from the calculation of the inner product of a 3-vector. In the following, ${\vec {A} }$ and ${\vec {B} }$ are 3-vectors:$A\cdot B\equiv$ $A_{0}B_{0}-A_{1}B_{1}-A_{2}B_{2}-A_{3}B_{3}\equiv$ $A_{0}B_{0}-{\vec {A} }\cdot {\vec {B} }$ <p>
+- __Inner-product invariance:__ If _A_ and _B_ are 4-vectors, then their inner product \(scalar product\) is invariant, i.e. their inner product is independent of the frame in which it is calculated. Note how the calculation of inner product differs from the calculation of the inner product of a 3-vector. In the following, ${\vec {A} }$ and ${\vec {B} }$ are 3-vectors:$A\cdot B\equiv A_{0}B_{0}-A_{1}B_{1}-A_{2}B_{2}-A_{3}B_{3}\equiv A_{0}B_{0}-{\vec {A} }\cdot {\vec {B} }$ <p>
 
 In addition to being invariant under Lorentz transformation, the above inner product is also invariant under rotation in 3-space.
 Two vectors are said to be _orthogonal_ if ⁠$A\cdot B=0$⁠. Unlike the case with 3-vectors, orthogonal 4-vectors are not necessarily at right angles to each other. The rule is that two 4-vectors are orthogonal if they are offset by equal and opposite angles from the 45° line, which is the world line of a light ray. This implies that a lightlike 4-vector is orthogonal to _itself_.
@@ -757,7 +757,7 @@ Two vectors are said to be _orthogonal_ if ⁠$A\cdot B=0$⁠. Unlike the case w
 #### examples of 4-vectors
 
 - __Displacement 4-vector:__ Otherwise known as the _spacetime separation_, this is \(_Δt, Δx, Δy, Δz_\), or for infinitesimal separations, \(_dt_, _dx_, _dy_, _dz_\). $$dS\equiv (dt,dx,dy,dz)$$ <p>
-- __Velocity 4-vector:__ This results when the displacement 4-vector is divided by $d\tau$, where $d\tau$ is the proper time between the two events that yield _dt_, _dx_, _dy_, and _dz_.$V\equiv {\frac {dS}{d\tau } }={\frac {(dt,dx,dy,dz)}{dt/\gamma } }=$ $\gamma \left(1,{\frac {dx}{dt} },{\frac {dy}{dt} },{\frac {dz}{dt} }\right)=$ $(\gamma ,\gamma {\vec {v} })$ <p>
+- __Velocity 4-vector:__ This results when the displacement 4-vector is divided by $d\tau$, where $d\tau$ is the proper time between the two events that yield _dt_, _dx_, _dy_, and _dz_.$V\equiv {\frac {dS}{d\tau } }={\frac {(dt,dx,dy,dz)}{dt/\gamma } }= \gamma \left(1,{\frac {dx}{dt} },{\frac {dy}{dt} },{\frac {dz}{dt} }\right)= (\gamma ,\gamma {\vec {v} })$ <p>
 
 > ![Momentarily Comoving Reference Frame](../../archives/Wikimedia%20Commons/Momentarily%20Comoving%20Reference%20Frame.gif)
 >
@@ -775,8 +775,8 @@ Since photons move on null lines, $d\tau =0$ for a photon, and a 4-velocity cann
 
 As indicated before, there are varying treatments for the energy–momentum 4-vector so that one may also see it expressed as $(E,{\vec {p} })$ or ⁠$(E,{\vec {p} }c)$⁠. The first component is the total energy \(including mass\) of the particle \(or system of particles\) in a given frame, while the remaining components are its spatial momentum. The energy–momentum 4-vector is a conserved quantity.
 
-- __Acceleration 4-vector:__ This results from taking the derivative of the velocity 4-vector with respect to ⁠$\tau$⁠.$A\equiv {\frac {dV}{d\tau } }=$ ${\frac {d}{d\tau } }(\gamma ,\gamma {\vec {v} })=$ $\gamma \left({\frac {d\gamma }{dt} },{\frac {d(\gamma {\vec {v} })}{dt} }\right)$ <p>
-- __Force 4-vector:__ This is the derivative of the momentum 4-vector with respect to $\tau$.$F\equiv {\frac {dP}{d\tau } }=$ $\gamma \left({\frac {dE}{dt} },{\frac {d{\vec {p} } }{dt} }\right)=$ $\gamma \left({\frac {dE}{dt} },{\vec {f} }\right)$ <p>
+- __Acceleration 4-vector:__ This results from taking the derivative of the velocity 4-vector with respect to ⁠$\tau$⁠.$A\equiv {\frac {dV}{d\tau } }= {\frac {d}{d\tau } }(\gamma ,\gamma {\vec {v} })= \gamma \left({\frac {d\gamma }{dt} },{\frac {d(\gamma {\vec {v} })}{dt} }\right)$ <p>
+- __Force 4-vector:__ This is the derivative of the momentum 4-vector with respect to $\tau$.$F\equiv {\frac {dP}{d\tau } }= \gamma \left({\frac {dE}{dt} },{\frac {d{\vec {p} } }{dt} }\right)= \gamma \left({\frac {dE}{dt} },{\vec {f} }\right)$ <p>
 
 As expected, the final components of the above 4-vectors are all standard 3-vectors corresponding to spatial 3-momentum, 3-force etc.<sup>[\[90\]](#^ref-90)</sup><sup>:&hairsp;36–59&hairsp;</sup>
 
