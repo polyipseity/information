@@ -1367,10 +1367,10 @@ class WikiHtmlConverter:
         # Clear the cell and rebuild: __\([text](#norm_frag)\)__
         cell.clear()
         bold = cell.new_tag("b")
-        open_paren = cell.new_string("\\(")
+        open_paren = cell.new_string("(")
         new_link = cell.new_tag("a", href=f"#{norm_frag}")
         new_link.string = text
-        close_paren = cell.new_string("\\)")
+        close_paren = cell.new_string(")")
         bold.append(open_paren)
         bold.append(new_link)
         bold.append(close_paren)
@@ -1407,10 +1407,10 @@ class WikiHtmlConverter:
             text = link.get_text(strip=True)
             td.clear()
             bold = td.new_tag("b")
-            open_paren = td.new_string("\\(")
+            open_paren = td.new_string("(")
             new_link = td.new_tag("a", href=f"#{norm_frag}")
             new_link.string = text
-            close_paren = td.new_string("\\)")
+            close_paren = td.new_string(")")
             bold.append(open_paren)
             bold.append(new_link)
             bold.append(close_paren)
