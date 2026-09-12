@@ -6,8 +6,8 @@
 //  Your name: SUO, Xun Xin
 //  Your ITSC email: xxsuoaa@connect.ust.hk
 //
-//  Project TA: PAPPAS Christodoulos (cpappas@connect.ust.hk);
-//              XU Shuangjie (shuangjie.xu@connect.ust.hk)
+//  Project TA: ;
+//
 //
 //  For code-level questions, please send a direct email to the above TA.
 //  Asking questions with code  in a public discussion forum (e.g., Piazza) may

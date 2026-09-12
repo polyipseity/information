@@ -10,7 +10,7 @@
 //  I declare that I am not involved in plagiarism
 //  I understand that both parties (i.e., students providing the codes and students copying the codes) will receive 0 marks.
 //
-//  Project TA: CHUNG, Peter (cspeter@cse.ust.hk)
+//  Project TA:
 //
 //  For code-level questions, please send a direct email to the above TA.
 //  Asking questions with code blocks in a public discussion forum (e.g., Piazza) may cause plagiarism issues
