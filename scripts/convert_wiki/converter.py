@@ -2507,7 +2507,7 @@ class WikiHtmlConverter:
                         names_map=self._names_map,
                     )
                 )
-            elif "#" in href:
+            elif href.startswith("./") and "#" in href:
                 # Relative link with fragment (e.g. ./Special_relativity#math_3).
                 # Normalize the stem to a proper filename and the fragment to
                 # match the anchor produced by _equation_reference_anchor.
