@@ -1666,6 +1666,28 @@ class TestAudioHandling:
         )
         assert "[A short tone.]" in result
 
+    @pytest.mark.anyio
+    async def test_inline_math_trailing_backslash_space_period(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Inline math ending with ``\\ .`` should produce ``\\ $`` not ``\\$``.
+
+        After _strip_trailing_punctuation removes the period and rstrip()
+        removes the space, the trailing \\ would escape the closing $
+        delimiter.  The fix appends a space to restore \\  so $ closes
+        the math correctly.
+        """
+        # Use a container that qualifies for inline math (e.g. <li>)
+        # Real Wikipedia alttexts use single backslashes: {\displaystyle ...}
+        result = await _convert(
+            converter,
+            f"<li>text {_inline_math_span('{\\displaystyle a \\ .}')}</li>",
+        )
+        # Should NOT contain \$ (escaped dollar = literal $ in KaTeX)
+        assert "\\$" not in result
+        # Should contain \ $ (backslash-space before closing $)
+        assert "\\ $" in result
+
 
 # ---------------------------------------------------------------------------
 
@@ -1775,7 +1797,7 @@ class TestDivHandling:
             "> E = mc<sup>2</sup>\n"
             "> | | |\n"
             "> | :-: | :-: |\n"
-            '> | E = mc<sup>2</sup> | <a id="math_1"></a> __\\(1\\)__ |\n\n'
+            '> | E = mc<sup>2</sup> | <a id="math 1"></a> __\\(1\\)__ |\n\n'
         )
 
     @pytest.mark.anyio
@@ -1820,15 +1842,15 @@ class TestDivHandling:
         """Equation-reference spans must emit a Markdown ``<a id>`` anchor.
 
         The anchor id matches the fragment used by prose links: a bare
-        ``math_1`` stays raw, while a dotted ``math_Eq.1`` is normalized the
-        same way Wikipedia link fragments are (underscores -> spaces).
+        Both bare ``math_1`` and dotted ``math_Eq.1`` are normalized
+        (underscores -> spaces) to match the normalized Wikipedia fragment.
         """
         raw = await _convert(
             converter,
             '<span id="math_1" class="reference nourlexpansion" '
             'style="font-weight: bold">1</span>',
         )
-        assert '<a id="math_1"></a>' in raw
+        assert '<a id="math 1"></a>' in raw
         dotted = await _convert(
             converter,
             '<span id="math_Eq.1" class="reference nourlexpansion" '

@@ -1932,6 +1932,14 @@ class WikiHtmlConverter:
 
             ele.clear()
             ele.append(alt_text)
+            # Bypass NavigableString processing which would strip the trailing
+            # space needed to prevent \\ from escaping the closing $ delimiter.
+            _alt = alt_text
+            return _HandlerConfig(
+                prefix=prefix,
+                suffix=suffix,
+                process_strings=lambda s, _a=_alt: _a,
+            )
 
         return _HandlerConfig(prefix=prefix, suffix=suffix)
 
