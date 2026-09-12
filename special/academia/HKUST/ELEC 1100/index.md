@@ -50,6 +50,7 @@ The content is in teaching order.
 
 ## children
 
+- [assignments/](assignments/index.md)
 - [attachments/](attachments/)
 - [labs/](labs/index.md)
 - [questions/](questions/index.md)
@@ -693,6 +694,14 @@ During the first lecture the instructor went over {@{the course logistics}@}.  Y
     - ELEC 1100 / [final project](final%20project.md#route-stages-and-scoring-logic)
     - ELEC 1100 / [questions / written exam review](questions/written%20exam%20review.md)
 
+---
+
+> __Project Period and Early Demo__
+>
+> Notice: Your project period has officially begun! You can now visit the Home page to access the project guidelines (or use the link below).
+>
+> Important Notice: Rooms 2133 and 2134 will be closed (no further lab classes) until the Early Demo: Early Demo: 5min each group
+
 ## week 12 lecture 1
 
 - datetime: 2026-04-20T16:00:00+08:00/2026-04-20T16:50:00+08:00, PT50M
@@ -704,6 +713,24 @@ During the first lecture the instructor went over {@{the course logistics}@}.  Y
 - datetime: 2026-04-24T11:30:00+08:00/2026-04-24T12:20:00+08:00, PT50M
 - venue: CYT-LTL
 - status: no class
+- ELEC 1100
+    - ELEC 1100 / [early demo code](assignments/early%20demo%20code/index.md)
+
+---
+
+> __MONDAY: Early Demo (Submission Deadline: 10:30AM)__
+>
+> ELEC1100 Early Demo (LA3, Monday)
+>
+> April 27 (Mon), 10:30-11:30
+> Bring your robot car to Rm2133 at the assigned slot. Early Demo: 5min each group
+>
+>
+> Canvas Submission Deadline (April 27, Monday, 10:30AM) Submit your demo code (.ino file) to your Canvas LA3 "Assignments" before the deadline. This is a group assignment (1 code allowed), only needs one member in a group to do the submission. Late submissions will NOT be accepted.
+>
+> Notice: If you've missed the submission deadline, you cannot have any demo trials at the early session. You will need to wait until the final demo for grading your work.
+
+<!-- markdownlint MD028 -->
 
 ## week 13 lab 1
 
@@ -753,11 +780,30 @@ During the first lecture the instructor went over {@{the course logistics}@}.  Y
 - venue: CYT-LTL
 - status: no class
 
+<!-- check: ignore-next-line[session_next_lecture_remark]: verbatim Canvas announcement -->
 ## week 14 lecture 2
 
 - datetime: 2026-05-08T11:30:00+08:00/2026-05-08T12:20:00+08:00, PT50M
 - venue: CYT-LTL
 - status: no class
+- ELEC 1100
+    - ELEC 1100 / [project report](assignments/project%20report/index.md)
+
+---
+
+> __Final Demo Code and Report Submission__
+>
+> If you've received the full mark of 20 points today, it's no need for you to come at the final demo next week. You can now submit to your Canvas ELEC1100 (L1) assignment "Project Report". Follow the instructions in the document: Report Format and Writing Guidelines_2026s.pdf
+>
+> For joining the Final Demo on May 04 (Monday), you will need to submit before the Canvas deadline (10:30AM on May 04, Monday). Final Demo: 5min each group. Late submissions will NOT be accepted. Students who did not complete Stage 1 in the Early Demo (score ≤ 7) must begin the Final Demo from Task 1.
+
+<!-- markdownlint MD028 -->
+
+> __Project Report Submission__
+>
+> You can now submit to the "Project Report" assignment on Canvas ELEC1100 (L1) page. Please follow the instructions provided in the document: Report Format and Writing Guidelines_2026s.pdf
+>
+> Submission deadline: 10:00 AM on Friday, May 8. Late submissions will NOT be accepted.
 
 ## lab examination
 

@@ -1,0 +1,28 @@
+assignment:
+  comments: {}
+  content: No additional details were added for this assignment.
+  grade:
+    entered: 3
+    graded anonymously: false
+    possible: 3
+  id: 432240
+  properties:
+    available:
+      end: 2026-05-08 10:00:00+08:00
+      start: null
+    due: 2026-05-08 10:00:00+08:00
+    file types:
+      - doc
+      - docx
+      - pdf
+    points: 3
+    submitting:
+      - a file upload
+  submissions:
+    - datetime: ""
+      id: -1
+  title: Project Report
+course:
+  id: 68450
+  name: ELEC1100 (L1)
+type: submission/Canvas/canvas.ust.hk
