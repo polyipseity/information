@@ -604,9 +604,6 @@ class WikiHtmlConverter:
                 ele, classes, level=1, seen_heading_texts=seen_heading_texts
             )
 
-        if ele.name == "a" and "mw-selflink" in classes:
-            return self._handle_selflink(ele, classes)
-
         if "hatnote" not in classes and self._renders_emphasis(ele):
             return self._handle_bold_italic(ele, classes)
 
