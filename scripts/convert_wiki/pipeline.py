@@ -43,6 +43,7 @@ def _make_converter(
     image_metadata: Mapping[str, str] | None = None,
     names_map: Mapping[str, str] | None = None,
     soup: BeautifulSoup | None = None,
+    page_name: str | None = None,
 ) -> WikiHtmlConverter:
     """Create a WikiHtmlConverter with default path fallbacks."""
     return WikiHtmlConverter(
@@ -52,6 +53,7 @@ def _make_converter(
         image_metadata=image_metadata or {},
         names_map=names_map,
         soup=soup,
+        page_name=page_name,
     )
 
 
@@ -606,6 +608,7 @@ async def run_pipeline(
     wiki_dir: PathLike[str] | None = None,
     wiki_lang_dir: PathLike[str] | None = None,
     refs: bool = True,
+    page_name: str | None = None,
 ) -> tuple[str, set[str]]:
     """Run the full conversion pipeline on parsed Wikipedia HTML.
 
@@ -656,7 +659,12 @@ async def run_pipeline(
             redirect_map=redirect_map,
             refs=refs,
             converter=_make_converter(
-                wiki_dir, wiki_lang_dir, image_metadata, names_map, soup=html
+                wiki_dir,
+                wiki_lang_dir,
+                image_metadata,
+                names_map,
+                soup=html,
+                page_name=page_name,
             ),
         )
         return output, out_to_archive
@@ -696,6 +704,8 @@ async def run_pipeline(
         out_to_archive=out_to_archive,
         redirect_map=redirect_map,
         refs=refs,
-        converter=_make_converter(wiki_dir, wiki_lang_dir, image_metadata, names_map),
+        converter=_make_converter(
+            wiki_dir, wiki_lang_dir, image_metadata, names_map, page_name=page_name
+        ),
     )
     return output, out_to_archive

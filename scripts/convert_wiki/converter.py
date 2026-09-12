@@ -275,6 +275,7 @@ class WikiHtmlConverter:
         image_metadata: Mapping[str, str] | None = None,
         names_map: Mapping[str, str] | None = None,
         soup: BeautifulSoup | None = None,
+        page_name: str | None = None,
     ) -> None:
         """Initialize converter with directory paths and name map."""
         self._converted_wiki_dir = Path(converted_wiki_dir)
@@ -284,6 +285,7 @@ class WikiHtmlConverter:
         self._soup: BeautifulSoup = (
             soup if soup is not None else BeautifulSoup("", "html.parser")
         )
+        self._page_name = page_name
 
     async def convert(
         self,
@@ -2431,9 +2433,14 @@ class WikiHtmlConverter:
                 )
             elif "#" in href:
                 # Relative link with fragment (e.g. ./Special_relativity#math_3).
-                # Normalize the fragment to match the anchor produced by
-                # _equation_reference_anchor (underscores -> spaces -> %20).
+                # Normalize the stem to a proper filename and the fragment to
+                # match the anchor produced by _equation_reference_anchor.
                 stem, _, frag = href.partition("#")
+                stem_name = _fix_name_maybe(
+                    stem.removeprefix("./"),
+                    replace_underscores=True,
+                    names_map=self._names_map,
+                )
                 new_frag = (
                     _fix_name_maybe(
                         frag, replace_underscores=True, names_map=self._names_map
@@ -2441,7 +2448,17 @@ class WikiHtmlConverter:
                     if frag
                     else ""
                 )
-                href = f"{stem}#{_encode_fragment(new_frag)}" if new_frag else stem
+                # Same-page link: use fragment-only.
+                if self._page_name and _fix_filename(stem_name) == _fix_filename(
+                    self._page_name
+                ):
+                    href = f"#{_encode_fragment(new_frag)}" if new_frag else ""
+                else:
+                    href = (
+                        _markdown_link_target(stem_name, new_frag)
+                        if new_frag
+                        else _markdown_link_target(stem_name)
+                    )
 
             def process(strings: str) -> str:
                 """Collapse whitespace in anchor text."""
