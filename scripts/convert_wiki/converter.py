@@ -69,6 +69,7 @@ _BOXED_CLASSES = frozenset(
         "math_proof",
         "math_theorem",
         "portalbox",
+        "quotebox",
         "tmulti",
         "unsolved",
     }
