@@ -3,7 +3,7 @@
 
   To program the car tracking the white line on a dark mat
 
-  Group No. (number of your project box): 67
+  Group No. (number of your project box): 98
   Group Member 1 (name & SID): Kai Kuen Klein (29083088)
   Group Member 2 (name & SID): Suo Xun Xin (24944268)
 */
