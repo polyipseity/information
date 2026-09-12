@@ -108,6 +108,15 @@ tags:
 > question...
 ```
 
+### Cloze flashcards in question blocks
+
+All question quote blocks must include cloze flashcards (`{@{ }@}`) on the `- solution:` and `- explanation:` lines. Do NOT cloze the question text or answer choices.
+
+- __Solution lines:__ ideally one cloze per solution — cloze the core result, formula, or decisive step. Only for very long solutions (multi-step derivations, lengthy prose) may multiple clozes appear, one per logical step.
+- __Explanation lines:__ prefer multiple clozes whenever possible — break the explanation into individual claims, conditions, and reasoning steps, each wrapped in its own cloze.
+- Closing delimiter is `}@}` (3 chars: `}` `@` `}`)
+- Delegate cloze creation to a dedicated subagent using the `create-flashcards` skill when adding flashcards to multiple questions
+
 ### No-submission case (no Canvas at all)
 
 When a tutorial/lab/lecture has neither in-class nor out-of-class Canvas components (e.g., an ungraded practice session):

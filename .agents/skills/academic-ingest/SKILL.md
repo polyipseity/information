@@ -323,6 +323,21 @@ Use `![](attachments/<name>.jpg)` inside the blockquote when the question refere
 
 One line per MC option. `solution` is required. `explanation` is optional — if omitted, remove the `- explanation:` line entirely.
 
+### Cloze flashcards in question blocks
+
+All question quote blocks must include cloze flashcards (`{@{ }@}`) on the `- solution:` and `- explanation:` lines. Do NOT add clozes to the question text or answer choices.
+
+__Solution lines:__ ideally one cloze per solution — cloze the core result, formula, or decisive step. Only for very long solutions (multi-step derivations, lengthy prose) may multiple clozes appear, one per logical step.
+
+__Explanation lines:__ prefer multiple clozes whenever possible — break the explanation into individual claims, conditions, and reasoning steps, each wrapped in its own cloze.
+
+__Cloze syntax:__
+
+- Closing delimiter is `}@}` (3 chars: `}` `@` `}`)
+- For LaTeX math: `{@{content $LaTeX math$}@}` — the trailing `$` closes the math, then `}@}` closes the cloze
+- For plain text: `{@{content plain text}@}` — closing is `}@}`
+- Delegate cloze creation to a dedicated subagent using the `create-flashcards` skill when adding flashcards to multiple questions
+
 Separate consecutive blockquote questions with `<!-- markdownlint MD028 -->`. Strip PRS UI chrome (navigation, error messages, "Pull down to refresh", "Your response is submitted") — keep only question text and answer choices. Preserve LaTeX math notation from the original.
 
 ## Dispatch

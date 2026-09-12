@@ -57,12 +57,12 @@ tags:
 > <solution>
 ```
 
-1. __Flashcards (dense cloze):__
+1. __Flashcards (cloze):__
    - Use `{@{ }@}` (cloze) format for solutions — NOT QA format
-   - Near-exhaustive coverage: every claim, formula, theorem reference, condition
+   - __Solution lines:__ ideally one cloze per solution — cloze the core result, formula, or decisive step. Only for very long solutions (multi-step derivations, lengthy prose) may multiple clozes appear, one per logical step.
+   - __Explanation lines:__ prefer multiple clozes whenever possible — break the explanation into individual claims, conditions, and reasoning steps, each wrapped in its own cloze.
    - Split prose + equation into separate clozes: `{@{prose}@} is {@{$equation$}@}`
    - Cloze technique names: `{@{Swap sum order}@}`, `{@{completing the square}@}`
-   - Maximum-coverage density — every solution sentence gets clozes
    - Reference `create-flashcards` skill for cloze methodology
 
 2. __Create `questions/index.md`__ via `academic-crud-index` if first question page.
@@ -74,7 +74,7 @@ List question pages; search by topic; show flashcard coverage.
 ### Update
 
 - Add questions, enhance solutions
-- Increase cloze density on under-covered solutions
+- Ensure each solution has a cloze and each explanation has multiple clozes
 - Cross-reference with topic notes: `(from Problem N)`
 
 ### Delete
@@ -107,7 +107,6 @@ Every line inside a blockquote must begin with `>` — including blank lines.
 - Cross-reference: `(from Problem 2(b))`
 - True/false: __False.__ with counterexample; __True.__ with theorem reference
 - Alternative solutions: __Alternative (method name):__ bold header
-- Progressive cloze density: dense on first problem, sparser on later ones
 - Cloze as logical implication: visible premise → hidden conclusion
 - Display math merged onto blockquote line: `> The form simplifies to $$...$$`
 
@@ -137,9 +136,9 @@ Every line inside a blockquote must begin with `>` — including blank lines.
 ## Flashcard conventions for question pages
 
 - Cloze `{@{ }@}` format (NOT QA)
-- Each solution block gets dense clozes
+- __Solution lines:__ ideally one cloze per solution — cloze the core result, formula, or decisive step. Only for very long solutions may multiple clozes appear, one per logical step.
+- __Explanation lines:__ prefer multiple clozes whenever possible — one cloze per claim, condition, or reasoning step.
 - Cloze both technique names and final results
-- Multi-cloze paragraph sequencing: many clozes in one paragraph, each covering one step
 - `{@{ }@}` must never appear inside `$…$` or `$$…$$` — wrap from outside
 - Place `}`@}` before trailing punctuation
 - Progressive difficulty: simple case first, then extend
