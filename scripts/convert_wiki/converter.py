@@ -1318,6 +1318,39 @@ class WikiHtmlConverter:
             ele.clear()
             ele.string = f"({text})"
 
+    @staticmethod
+    def _rewrite_equation_number_cell(cell: Tag) -> None:
+        """Rewrite an equation-number cell to produce ``__\\([N](#math%20N)\\)__``.
+
+        The cell contains a self-link ``<a href=./Page#math_N>N</a>``.
+        This method rewrites it to a bold, fragment-only link wrapped in
+        escaped parentheses, matching the expected Wikipedia equation
+        reference format.
+        """
+        link = cell.find("a", href=True)
+        if not isinstance(link, Tag):
+            return
+        href = str(link.get("href", ""))
+        if "#" not in href:
+            return
+        frag = href.split("#", 1)[1]
+        if not re.fullmatch(r"math[_.].+", frag):
+            return
+        # Normalize: math_7 -> math%207
+        norm_frag = frag.replace("_", "%20")
+        text = link.get_text(strip=True)
+        # Clear the cell and rebuild: __\([text](#norm_frag)\)__
+        cell.clear()
+        bold = cell.new_tag("b")
+        open_paren = cell.new_string("\\(")
+        new_link = cell.new_tag("a", href=f"#{norm_frag}")
+        new_link.string = text
+        close_paren = cell.new_string("\\)")
+        bold.append(open_paren)
+        bold.append(new_link)
+        bold.append(close_paren)
+        cell.append(bold)
+
     def _handle_sub(self, ele: Tag, classes: frozenset[str]) -> _HandlerConfig:
         """Render <sub> as subscript Markdown."""
         prefix, suffix = _tag_affixes("sub")
@@ -1497,6 +1530,10 @@ class WikiHtmlConverter:
                 # ``__N__`` rather than ``____N____``.
                 if cells := tuple(new_tr.find_all(_TD_OR_TH)):
                     _strip_cell_bold(cells[-1])
+                    # Rewrite the equation-number cell to produce
+                    # ``__\([N](#math%20N)\)__``: bold, fragment-only link,
+                    # wrapped in escaped parentheses.
+                    self._rewrite_equation_number_cell(cells[-1])
                 tbody.append(new_tr)
         else:
             # No numblk table: place the remaining content in a single
