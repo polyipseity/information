@@ -606,6 +606,9 @@ class WikiHtmlConverter:
                 ele, classes, level=1, seen_heading_texts=seen_heading_texts
             )
 
+        if any(c.startswith("mw-selflink") for c in classes):
+            return self._handle_selflink(ele, classes)
+
         if "hatnote" not in classes and self._renders_emphasis(ele):
             return self._handle_bold_italic(ele, classes)
 
@@ -719,6 +722,9 @@ class WikiHtmlConverter:
             title = unquote(href[len(wiki_prefix) :].split("#")[0]).replace("_", " ")
         elif href.startswith("/wiki/"):
             title = unquote(href[6:].split("#")[0]).replace("_", " ")
+        elif href.startswith("./"):
+            # Relative self-link: extract page name from href.
+            title = unquote(href[2:].split("#")[0]).replace("_", " ")
         else:
             title = ele.get_text(strip=True)
         info = self._redirect_map.get(title, _RedirectInfo(to=title))
@@ -734,14 +740,34 @@ class WikiHtmlConverter:
         to_filename = _fix_name_maybe(
             to, replace_underscores=True, names_map=self._names_map
         )
-        target = _markdown_link_target(
-            to_filename,
+        norm_frag = (
             _fix_name_maybe(
-                to_fragment,
+                to_fragment, replace_underscores=True, names_map=self._names_map
+            )
+            if to_fragment
+            else ""
+        )
+
+        # Same-page detection: use fragment-only.
+        normalized_page = (
+            _fix_name_maybe(
+                self._page_name,
                 replace_underscores=True,
                 names_map=self._names_map,
-            ),
+            )
+            if self._page_name
+            else None
         )
+        if normalized_page and _fix_filename(to_filename) == _fix_filename(
+            normalized_page
+        ):
+            target = (
+                f"#{_encode_fragment(norm_frag)}"
+                if norm_frag
+                else _markdown_link_target(to_filename)
+            )
+        else:
+            target = _markdown_link_target(to_filename, norm_frag)
 
         def process(strings: str) -> str:
             """Strip and flatten self-link display text."""
@@ -2518,6 +2544,14 @@ class WikiHtmlConverter:
                         if new_frag
                         else _markdown_link_target(stem_name)
                     )
+            elif href.startswith("./"):
+                # Relative link without fragment (e.g. ./Special_relativity).
+                stem_name = _fix_name_maybe(
+                    href.removeprefix("./"),
+                    replace_underscores=True,
+                    names_map=self._names_map,
+                )
+                href = _markdown_link_target(stem_name)
 
             def process(strings: str) -> str:
                 """Collapse whitespace in anchor text."""
