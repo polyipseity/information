@@ -34,7 +34,7 @@ Relativity is a theory that accurately describes objects moving at speeds far be
 
 The theory of special relativity needs only mathematics at high school level, which is unusual among topics in modern physics. It also fundamentally alters our understanding, especially our understanding of the concept of [time](time.md).<sup>[\[3\]](#^ref-3)</sup><sup>:&hairsp;ix&hairsp;</sup>Built on just two postulates or assumptions, many consequences follow.
 
-The two postulates both concern observers moving at a constant speed relative to each other. The first postulate, the [principle of relativity](./Special_relativity#Principle_of_relativity), says the laws of physics do not depend on objects being at absolute rest: for example, an observer on a train sees natural phenomena on that train that look the same whether the train is moving or not.<sup>[\[3\]](#^ref-3)</sup><sup>:&hairsp;5&hairsp;</sup>The second postulate, constant speed of light, says observers in a train station see light travel at the same speed whether they measure light from within the station or light from a moving train. A light signal from the station to the train has the same speed, no matter how fast a train goes.<sup>[\[3\]](#^ref-3)</sup><sup>:&hairsp;25&hairsp;</sup>
+The two postulates both concern observers moving at a constant speed relative to each other. The first postulate, the [principle of relativity](./Special_relativity#principle%20of%20relativity), says the laws of physics do not depend on objects being at absolute rest: for example, an observer on a train sees natural phenomena on that train that look the same whether the train is moving or not.<sup>[\[3\]](#^ref-3)</sup><sup>:&hairsp;5&hairsp;</sup>The second postulate, constant speed of light, says observers in a train station see light travel at the same speed whether they measure light from within the station or light from a moving train. A light signal from the station to the train has the same speed, no matter how fast a train goes.<sup>[\[3\]](#^ref-3)</sup><sup>:&hairsp;25&hairsp;</sup>
 
 In the theory of special relativity, the two postulates combine to change the definition of "relative speed". Rather than the simple concept of distance traveled divided by time spent, the new theory incorporates the speed of light as the maximum possible speed. In special relativity, covering ten times more distance on the ground in the same amount of time according to a moving watch does not result in a speed up as seen from the ground by a factor of ten.<sup>[\[3\]](#^ref-3)</sup><sup>:&hairsp;28&hairsp;</sup>
 
@@ -42,10 +42,10 @@ In the theory of special relativity, the two postulates combine to change the de
 
 Special relativity has a wide range of consequences that have been experimentally verified.<sup>[\[4\]](#^ref-4)</sup><sup>[\[5\]](#^ref-5)</sup> The conceptual effects include:
 
-- The [relativity of simultaneity](./Special_relativity#Relativity_of_simultaneity) –events that appear simultaneous to one observer may not be simultaneous to an observer in motion<sup>[\[3\]](#^ref-3)</sup><sup>:&hairsp;49&hairsp;</sup>
-- [§ Time dilation](./Special_relativity#Time_dilation) –time measured between two events by observers in motion differ
-- [§ Length contraction](./Special_relativity#Length_contraction) –distances between two events by observers in motion differ
-- The [§ Lorentz transformation of velocities](./Special_relativity#Lorentz_transformation_of_velocities) –velocities no longer simply add
+- The [relativity of simultaneity](./Special_relativity#relativity%20of%20simultaneity) –events that appear simultaneous to one observer may not be simultaneous to an observer in motion<sup>[\[3\]](#^ref-3)</sup><sup>:&hairsp;49&hairsp;</sup>
+- [§ Time dilation](./Special_relativity#time%20dilation) –time measured between two events by observers in motion differ
+- [§ Length contraction](./Special_relativity#length%20contraction) –distances between two events by observers in motion differ
+- The [§ Lorentz transformation of velocities](./Special_relativity#Lorentz%20transformation%20of%20velocities) –velocities no longer simply add
 
 Combined with other laws of physics, the two postulates of special relativity predict the equivalence of [mass](mass.md) and [energy](energy.md), as expressed in the [mass–energy equivalence](mass–energy%20equivalence.md) formula ⁠$E=mc^{2}$⁠, where $c$ is the [speed of light](speed%20of%20light.md) in vacuum.<sup>[\[6\]](#^ref-6)</sup><sup>[\[7\]](#^ref-7)</sup> Special relativity replaced the conventional notion of an absolute, universal time with the notion of a time that is local to each observer.<sup>[\[8\]](#^ref-8)</sup><sup>:&hairsp;33&hairsp;</sup>Information about distant objects can arrive no faster than the speed of light so visual observations always report events that have happened in the past. This effect makes visual descriptions of the effects of special relativity especially prone to mistakes.<sup>[\[9\]](#^ref-9)</sup>
 
@@ -83,7 +83,7 @@ The more technical background ideas include:
 - [spacetime](spacetime.md): geometrical space and time considered together.<sup>[\[10\]](#^ref-10)</sup><sup>:&hairsp;18&hairsp;</sup>
 - [spacetime interval](spacetime.md#spacetime%20interval) between two events: a measure of separation between events that incorporates both the spatial distance between them and the duration of time separating them:<sup>[\[10\]](#^ref-10)</sup><sup>:&hairsp;9&hairsp;</sup>
 
-$$({\text{interval} })^{2}=\left[{\text{event separation in time} }\right]^{2}-\left[{\text{event separation in space} }\right]^{2}$$
+ $$({\text{interval} })^{2}=\left[{\text{event separation in time} }\right]^{2}-\left[{\text{event separation in space} }\right]^{2}$$
 
 - [coordinate system](coordinate%20system.md) or [reference frame](reference%20frame.md): a way to locate events in spacetime. Events have coordinates _x_, _y_, _z_ for space and _t_ for time. The coordinates of the event are different in a different reference frame.<sup>[\[19\]](#^ref-19)</sup><sup>:&hairsp;67&hairsp;</sup>
 - [inertial reference frame](inertial%20reference%20frame.md): a region of a reference frame where objects \(not influenced by external forces\) at rest with respect to the frame stay at rest, or if in uniform motion, stay in motion; also called a _free-float frame_.<sup>[\[10\]](#^ref-10)</sup><sup>:&hairsp;31&hairsp;</sup>
@@ -93,9 +93,11 @@ $$({\text{interval} })^{2}=\left[{\text{event separation in time} }\right]^{2}-\
 
 ## traditional "two postulates" approach to special relativity
 
-"Reflections of this type made it clear to me as long ago as shortly after 1900, i.e., shortly after Planck's trailblazing work, that neither mechanics nor electrodynamics could \(except in limiting cases\) claim exact validity. Gradually I despaired of the possibility of discovering the true laws by means of constructive efforts based on known facts. The longer and the more desperately I tried, the more I came to the conviction that only the discovery of a universal formal principle could lead us to assured results ... How, then, could such a universal principle be found?"
+> "Reflections of this type made it clear to me as long ago as shortly after 1900, i.e., shortly after Planck's trailblazing work, that neither mechanics nor electrodynamics could \(except in limiting cases\) claim exact validity. Gradually I despaired of the possibility of discovering the true laws by means of constructive efforts based on known facts. The longer and the more desperately I tried, the more I came to the conviction that only the discovery of a universal formal principle could lead us to assured results ... How, then, could such a universal principle be found?"
+>
+> —&hairsp;Albert Einstein: _Autobiographical Notes_<sup>[\[p 2\]](#^p-2)</sup>
 
-—&hairsp;Albert Einstein: _Autobiographical Notes_<sup>[\[p 2\]](#^p-2)</sup>- Main article: [Postulates of special relativity](postulates%20of%20special%20relativity.md)
+- Main article: [Postulates of special relativity](postulates%20of%20special%20relativity.md)
 
 Einstein discerned two fundamental propositions that seemed to be the most assured, regardless of the exact validity of the \(then\) known laws of either mechanics or electrodynamics. These propositions were the constancy of the speed of light in vacuum and the independence of physical laws \(especially the constancy of the speed of light\) from the choice of inertial system. In his initial presentation of special relativity in 1905 he expressed these postulates as:<sup>[\[p 1\]](#^p-1)</sup><sup>[\[20\]](#^ref-20)</sup>
 
@@ -174,18 +176,18 @@ A quantity that is invariant under Lorentz transformations is known as a [Lorent
 
 Writing the Lorentz transformation and its inverse in terms of coordinate differences, where one event has coordinates \(_x_<sub>1</sub>, _t_<sub>1</sub>\) and \(_x_′<sub>1</sub>, _t_′<sub>1</sub>\), another event has coordinates \(_x_<sub>2</sub>, _t_<sub>2</sub>\) and \(_x_′<sub>2</sub>, _t_′<sub>2</sub>\), and the differences are defined as
 
-- <a id="math_1"></a> __Eq. 1:__  $\Delta x'=x'_{2}-x'_{1}\ ,\ \Delta t'=t'_{2}-t'_{1}\$.
-- <a id="math_2"></a> __Eq. 2:__  $\Delta x=x_{2}-x_{1}\ ,\ \ \Delta t=t_{2}-t_{1}\$.
+- <a id="math 1"></a> __Eq. 1:__  $\Delta x'=x'_{2}-x'_{1}\ ,\ \Delta t'=t'_{2}-t'_{1}\ $.
+- <a id="math 2"></a> __Eq. 2:__  $\Delta x=x_{2}-x_{1}\ ,\ \ \Delta t=t_{2}-t_{1}\ $.
 
 we get
 
-- <a id="math_3"></a> __Eq. 3:__  $\Delta x'=\gamma \ (\Delta x-v\,\Delta t)\ ,\ \ {}$ $\Delta t'=\gamma \ \left(\Delta t-v\ \Delta x/c^{2}\right)\$.
-- <a id="math_4"></a> __Eq. 4:__  $\Delta x=\gamma \ (\Delta x'+v\,\Delta t')\ ,\ {}$ $\Delta t=\gamma \ \left(\Delta t'+v\ \Delta x'/c^{2}\right)\$.
+- <a id="math 3"></a> __Eq. 3:__  $\Delta x'=\gamma \ (\Delta x-v\,\Delta t)\ ,\ \ {}$ $\Delta t'=\gamma \ \left(\Delta t-v\ \Delta x/c^{2}\right)\ $.
+- <a id="math 4"></a> __Eq. 4:__  $\Delta x=\gamma \ (\Delta x'+v\,\Delta t')\ ,\ {}$ $\Delta t=\gamma \ \left(\Delta t'+v\ \Delta x'/c^{2}\right)\ $.
 
 If we take differentials instead of taking differences, we get
 
-- <a id="math_5"></a> __Eq. 5:__  $dx'=\gamma \ (dx-v\,dt)\ ,\ \ {}$ $dt'=\gamma \ \left(dt-v\ dx/c^{2}\right)\$.
-- <a id="math_6"></a> __Eq. 6:__  $dx=\gamma \ (dx'+v\,dt')\ ,\ {}$ $dt=\gamma \ \left(dt'+v\ dx'/c^{2}\right)\$.
+- <a id="math 5"></a> __Eq. 5:__  $dx'=\gamma \ (dx-v\,dt)\ ,\ \ {}$ $dt'=\gamma \ \left(dt-v\ dx/c^{2}\right)\ $.
+- <a id="math 6"></a> __Eq. 6:__  $dx=\gamma \ (dx'+v\,dt')\ ,\ {}$ $dt=\gamma \ \left(dt'+v\ dx'/c^{2}\right)\ $.
 
 ### graphical representation of the Lorentz transformation
 
@@ -245,7 +247,7 @@ The value of $\Delta s^{2}$ is hence independent of the frame in which it is mea
 
 Consider two events happening in two different locations that occur simultaneously in the reference frame of one inertial observer. They may occur non-simultaneously in the reference frame of another inertial observer \(lack of [absolute simultaneity](absolute%20simultaneity.md#absolute%20simultaneity)\).
 
-From __[Equation 3](./Special_relativity#math_3)__ \(the forward Lorentz transformation in terms of coordinate differences\) $$\Delta t'=\gamma \left(\Delta t-{\frac {v\,\Delta x}{c^{2} } }\right)$$
+From __[Equation 3](./Special_relativity#math%203)__ \(the forward Lorentz transformation in terms of coordinate differences\) $$\Delta t'=\gamma \left(\Delta t-{\frac {v\,\Delta x}{c^{2} } }\right)$$
 
 It is clear that the two events that are simultaneous in frame _S_ \(satisfying Δ<!-- markdown separator -->_t_ = 0\), are not necessarily simultaneous in another inertial frame _S_′ \(satisfying Δ<!-- markdown separator -->_t_′ = 0\). Only if these events are additionally co-local in frame _S_ \(satisfying Δ<!-- markdown separator -->_x_ = 0\), will they be simultaneous in another frame _S_′.
 
@@ -257,9 +259,9 @@ The [Sagnac effect](Sagnac%20effect.md) can be considered a manifestation of the
 
 The time lapse between two events is not invariant from one observer to another, but is dependent on the relative speeds of the observers' reference frames.
 
-Suppose a [clock](clock.md) is at rest in the unprimed system _S_. The location of the clock on two different ticks is then characterized by Δ<!-- markdown separator -->_x_ = 0. To find the relation between the times between these ticks as measured in both systems, __[Equation 3](./Special_relativity#math_3)__ can be used to find:
+Suppose a [clock](clock.md) is at rest in the unprimed system _S_. The location of the clock on two different ticks is then characterized by Δ<!-- markdown separator -->_x_ = 0. To find the relation between the times between these ticks as measured in both systems, __[Equation 3](./Special_relativity#math%203)__ can be used to find:
 
-$\Delta t'=\gamma \,\Delta t$ for events satisfying $\Delta x=0\$.
+$\Delta t'=\gamma \,\Delta t$ for events satisfying $\Delta x=0\ $.
 
 This shows that the time \(Δ<!-- markdown separator -->_t_′\) between the two ticks as seen in the frame in which the clock is moving \(_S_′\), is _longer_ than the time \(Δ<!-- markdown separator -->_t_\) between these ticks as measured in the rest frame of the clock \(_S_\). Time dilation explains a number of physical phenomena; for example, the lifetime of high speed [muons](muon.md) created by the collision of cosmic rays with particles in the Earth's outer atmosphere and moving towards the surface is greater than the lifetime of slowly moving muons, created and decaying in a laboratory.<sup>[\[36\]](#^ref-36)</sup>
 
@@ -324,9 +326,9 @@ Our basic aim will be to demonstrate that, after the trip, both twins are in per
 
 The dimensions \(e.g., length\) of an object as measured by one observer may be smaller than the results of measurements of the same object made by another observer \(e.g., the [ladder paradox](ladder%20paradox.md) involves a long ladder traveling near the speed of light and being contained within a smaller garage\).
 
-Similarly, suppose a [measuring rod](measuring%20rod.md) is at rest and aligned along the _x_-axis in the unprimed system _S_. In this system, the length of this rod is written as Δ<!-- markdown separator -->_x_. To measure the length of this rod in the system _S_′, in which the rod is moving, the distances _x′_ to the end points of the rod must be measured simultaneously in that system _S_′. In other words, the measurement is characterized by Δ<!-- markdown separator -->_t_′ = 0, which can be combined with __[Equation 4](./Special_relativity#math_4)__ to find the relation between the lengths Δ<!-- markdown separator -->_x_ and Δ<!-- markdown separator -->_x_′:
+Similarly, suppose a [measuring rod](measuring%20rod.md) is at rest and aligned along the _x_-axis in the unprimed system _S_. In this system, the length of this rod is written as Δ<!-- markdown separator -->_x_. To measure the length of this rod in the system _S_′, in which the rod is moving, the distances _x′_ to the end points of the rod must be measured simultaneously in that system _S_′. In other words, the measurement is characterized by Δ<!-- markdown separator -->_t_′ = 0, which can be combined with __[Equation 4](./Special_relativity#math%204)__ to find the relation between the lengths Δ<!-- markdown separator -->_x_ and Δ<!-- markdown separator -->_x_′:
 
-$\Delta x'={\frac {\Delta x}{\gamma } }$  for events satisfying $\Delta t'=0\$.
+$\Delta x'={\frac {\Delta x}{\gamma } }$  for events satisfying $\Delta t'=0\ $.
 
 This shows that the length \(Δ<!-- markdown separator -->_x_′\) of the rod as measured in the frame in which it is moving \(_S_′\), is _shorter_ than its length \(Δ<!-- markdown separator -->_x_\) in its own rest frame \(_S_\).
 
@@ -340,47 +342,47 @@ Consider two frames _S_ and _S_′ in standard configuration. A particle in _S_ 
 
 We can write
 
-|                                         |                                  |
-| --------------------------------------- | -------------------------------- |
-| $$\mathbf {\vert u\vert } =u=dx/dt\,.$$ | [7](./Special_relativity#math_7) |
+|                                         |                                    |
+| --------------------------------------- | ---------------------------------- |
+| $$\mathbf {\vert u\vert } =u=dx/dt\,.$$ | [7](./Special_relativity#math%207) |
 
-|                                             |                                  |
-| ------------------------------------------- | -------------------------------- |
-| $$\mathbf {\vert u'\vert } =u'=dx'/dt'\,.$$ | [8](./Special_relativity#math_8) |
+|                                             |                                    |
+| ------------------------------------------- | ---------------------------------- |
+| $$\mathbf {\vert u'\vert } =u'=dx'/dt'\,.$$ | [8](./Special_relativity#math%208) |
 
-Substituting expressions for $dx'$ and $dt'$ from __[Equation 5](./Special_relativity#math_5)__ into __[Equation 8](./Special_relativity#math_8)__, followed by straightforward mathematical manipulations and back-substitution from __[Equation 7](./Special_relativity#math_7)__ yields the Lorentz transformation of the speed $u$ to ⁠$u'$⁠:
+Substituting expressions for $dx'$ and $dt'$ from __[Equation 5](./Special_relativity#math%205)__ into __[Equation 8](./Special_relativity#math%208)__, followed by straightforward mathematical manipulations and back-substitution from __[Equation 7](./Special_relativity#math%207)__ yields the Lorentz transformation of the speed $u$ to ⁠$u'$⁠:
 
-|                                                                                                                                                                                                                                     |                                  |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------- |
-| $$u'={\frac {dx'}{dt'} }={\frac {\gamma (dx-v\,dt)}{\gamma \left(dt-{\dfrac {v\,dx}{c^{2} } }\right)} }={\frac { {\dfrac {dx}{dt} }-v}{1-{\dfrac {v}{c^{2} } }\,{\dfrac {dx}{dt} } } }={\frac {u-v}{1-{\dfrac {uv}{c^{2} } } } }.$$ | [9](./Special_relativity#math_9) |
+|                                                                                                                                                                                                                                     |                                    |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------- |
+| $$u'={\frac {dx'}{dt'} }={\frac {\gamma (dx-v\,dt)}{\gamma \left(dt-{\dfrac {v\,dx}{c^{2} } }\right)} }={\frac { {\dfrac {dx}{dt} }-v}{1-{\dfrac {v}{c^{2} } }\,{\dfrac {dx}{dt} } } }={\frac {u-v}{1-{\dfrac {uv}{c^{2} } } } }.$$ | [9](./Special_relativity#math%209) |
 
 The inverse relation is obtained by interchanging the primed and unprimed symbols and replacing $v$ with ⁠$-v$⁠.
 
-|                                      |                                    |
-| ------------------------------------ | ---------------------------------- |
-| $$u={\frac {u'+v}{1+u'v/c^{2} } }.$$ | [10](./Special_relativity#math_10) |
+|                                      |                                      |
+| ------------------------------------ | ------------------------------------ |
+| $$u={\frac {u'+v}{1+u'v/c^{2} } }.$$ | [10](./Special_relativity#math%2010) |
 
 For $\mathbf {u}$ not aligned along the x-axis, we write:<sup>[\[13\]](#^ref-13)</sup><sup>:&hairsp;47–49&hairsp;</sup>
 
-|                                                                     |                                    |
-| ------------------------------------------------------------------- | ---------------------------------- |
-| $$\mathbf {u} =(u_{1},\ u_{2},\ u_{3})=(dx/dt,\ dy/dt,\ dz/dt)\ .$$ | [11](./Special_relativity#math_11) |
+|                                                                     |                                      |
+| ------------------------------------------------------------------- | ------------------------------------ |
+| $$\mathbf {u} =(u_{1},\ u_{2},\ u_{3})=(dx/dt,\ dy/dt,\ dz/dt)\ .$$ | [11](./Special_relativity#math%2011) |
 
-|                                                                               |                                    |
-| ----------------------------------------------------------------------------- | ---------------------------------- |
-| $$\mathbf {u'} =(u_{1}',\ u_{2}',\ u_{3}')=(dx'/dt',\ dy'/dt',\ dz'/dt')\ .$$ | [12](./Special_relativity#math_12) |
+|                                                                               |                                      |
+| ----------------------------------------------------------------------------- | ------------------------------------ |
+| $$\mathbf {u'} =(u_{1}',\ u_{2}',\ u_{3}')=(dx'/dt',\ dy'/dt',\ dz'/dt')\ .$$ | [12](./Special_relativity#math%2012) |
 
 The forward and inverse transformations for this case are:
 
-|                                                                                                                                                                                               |                                    |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------- |
-| $$u_{1}'={\frac {u_{1}-v}{1-u_{1}v/c^{2} } }\ ,\qquad u_{2}'={\frac {u_{2} }{\gamma \left(1-u_{1}v/c^{2}\right)} }\ ,\qquad u_{3}'={\frac {u_{3} }{\gamma \left(1-u_{1}v/c^{2}\right)} }\ .$$ | [13](./Special_relativity#math_13) |
+|                                                                                                                                                                                               |                                      |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------ |
+| $$u_{1}'={\frac {u_{1}-v}{1-u_{1}v/c^{2} } }\ ,\qquad u_{2}'={\frac {u_{2} }{\gamma \left(1-u_{1}v/c^{2}\right)} }\ ,\qquad u_{3}'={\frac {u_{3} }{\gamma \left(1-u_{1}v/c^{2}\right)} }\ .$$ | [13](./Special_relativity#math%2013) |
 
-|                                                                                                                                                                                                |                                    |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------- |
-| $$u_{1}={\frac {u_{1}'+v}{1+u_{1}'v/c^{2} } }\ ,\qquad u_{2}={\frac {u_{2}'}{\gamma \left(1+u_{1}'v/c^{2}\right)} }\ ,\qquad u_{3}={\frac {u_{3}'}{\gamma \left(1+u_{1}'v/c^{2}\right)} }\ .$$ | [14](./Special_relativity#math_14) |
+|                                                                                                                                                                                                |                                      |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------ |
+| $$u_{1}={\frac {u_{1}'+v}{1+u_{1}'v/c^{2} } }\ ,\qquad u_{2}={\frac {u_{2}'}{\gamma \left(1+u_{1}'v/c^{2}\right)} }\ ,\qquad u_{3}={\frac {u_{3}'}{\gamma \left(1+u_{1}'v/c^{2}\right)} }\ .$$ | [14](./Special_relativity#math%2014) |
 
-__[Equation 10](./Special_relativity#math_10)__ and __[Equation 14](./Special_relativity#math_14)__ can be interpreted as giving the _resultant_ $\mathbf {u}$ of the two velocities $\mathbf {v}$ and ⁠$\mathbf {u'}$⁠, and they replace the formula ⁠$\mathbf {u=u'+v}$⁠. which is valid in Galilean relativity. Interpreted in such a fashion, they are commonly referred to as the _relativistic velocity addition \(or composition\) formulas_, valid for the three axes of _S_ and _S_′ being aligned with each other \(although not necessarily in standard configuration\).<sup>[\[13\]](#^ref-13)</sup><sup>:&hairsp;47–49&hairsp;</sup>
+__[Equation 10](./Special_relativity#math%2010)__ and __[Equation 14](./Special_relativity#math%2014)__ can be interpreted as giving the _resultant_ $\mathbf {u}$ of the two velocities $\mathbf {v}$ and ⁠$\mathbf {u'}$⁠, and they replace the formula ⁠$\mathbf {u=u'+v}$⁠. which is valid in Galilean relativity. Interpreted in such a fashion, they are commonly referred to as the _relativistic velocity addition \(or composition\) formulas_, valid for the three axes of _S_ and _S_′ being aligned with each other \(although not necessarily in standard configuration\).<sup>[\[13\]](#^ref-13)</sup><sup>:&hairsp;47–49&hairsp;</sup>
 
 We note the following points:
 
@@ -405,7 +407,7 @@ The composition of two non-collinear Lorentz boosts \(i.e., two non-collinear Lo
 
 Thomas rotation results from the relativity of simultaneity. In Fig. 4-5a, a rod of length $L$ in its rest frame \(i.e., having a [proper length](proper%20length.md) of ⁠$L$⁠\) rises vertically along the y-axis in the ground frame.
 
-In Fig. 4-5b, the same rod is observed from the frame of a rocket moving at speed $v$ to the right. If we imagine two clocks situated at the left and right ends of the rod that are synchronized _in the frame of the rod_, relativity of simultaneity causes the observer in the rocket frame to observe \(not [_see_](./Special_relativity#Measurement_versus_visual_appearance)\) the clock at the right end of the rod as being advanced in time by ⁠$Lv/c^{2}$⁠, and the rod is correspondingly observed as tilted.<sup>[\[10\]](#^ref-10)</sup><sup>:&hairsp;98–99&hairsp;</sup>
+In Fig. 4-5b, the same rod is observed from the frame of a rocket moving at speed $v$ to the right. If we imagine two clocks situated at the left and right ends of the rod that are synchronized _in the frame of the rod_, relativity of simultaneity causes the observer in the rocket frame to observe \(not [_see_](./Special_relativity#measurement%20versus%20visual%20appearance)\) the clock at the right end of the rod as being advanced in time by ⁠$Lv/c^{2}$⁠, and the rod is correspondingly observed as tilted.<sup>[\[10\]](#^ref-10)</sup><sup>:&hairsp;98–99&hairsp;</sup>
 
 Unlike second-order relativistic effects such as length contraction or time dilation, this effect becomes quite significant even at fairly low velocities. For example, this can be seen in the [spin of moving particles](spin–orbit%20interaction.md), where [Thomas precession](Thomas%20precession.md) is a relativistic correction that applies to the [spin](spin%20(physics).md) of an elementary particle or the rotation of a macroscopic [gyroscope](gyroscope.md), relating the [angular velocity](angular%20velocity.md) of the spin of a particle following a [curvilinear](curvilinear.md) orbit to the angular velocity of the orbital motion.<sup>[\[10\]](#^ref-10)</sup><sup>:&hairsp;169–174&hairsp;</sup>
 
@@ -461,7 +463,7 @@ According to the theories prevailing at the time, light traveling through a movi
 
 Fizeau's results, although consistent with Fresnel's earlier hypothesis of [partial aether dragging](aether%20drag%20hypothesis.md), were extremely disconcerting to physicists of the time. Among other things, the presence of an index of refraction term meant that, since $n$ depends on wavelength, _the aether must be capable of sustaining different motions at the same time_.<sup>[\[note 1\]](#^note-1)</sup> A variety of theoretical explanations were proposed to explain [Fresnel's dragging coefficient](Fizeau%20experiment.md#Fresnel%20drag%20coefficient), that were completely at odds with each other. Even before the Michelson–Morley experiment, Fizeau's experimental results were among a number of observations that created a critical situation in explaining the optics of moving bodies.<sup>[\[55\]](#^ref-55)</sup>
 
-From the point of view of special relativity, Fizeau's result is nothing but an approximation to __[Equation 10](./Special_relativity#math_10)__, the relativistic formula for composition of velocities.<sup>[\[34\]](#^ref-34)</sup>
+From the point of view of special relativity, Fizeau's result is nothing but an approximation to __[Equation 10](./Special_relativity#math%2010)__, the relativistic formula for composition of velocities.<sup>[\[34\]](#^ref-34)</sup>
 
 $u_{\pm }={\frac {u'\pm v}{1\pm u'v/c^{2} } }=$ ${\frac {c/n\pm v}{1\pm v/cn} }\approx$ $c\left({\frac {1}{n} }\pm {\frac {v}{c} }\right)\left(1\mp {\frac {v}{cn} }\right)\approx$ ${\frac {c}{n} }\pm v\left(1-{\frac {1}{n^{2} } }\right)$
 
@@ -544,7 +546,7 @@ Another example where visual appearance is at odds with measurement comes from t
 
 ## dynamics
 
-Section _[§ Consequences derived from the Lorentz transformation](./Special_relativity#Consequences_derived_from_the_Lorentz_transformation)_ dealt strictly with [kinematics](kinematics.md), the study of the motion of points, bodies, and systems of bodies without considering the forces that caused the motion. This section discusses masses, forces, energy and so forth, and as such requires consideration of physical effects beyond those encompassed by the Lorentz transformation itself.
+Section _[§ Consequences derived from the Lorentz transformation](./Special_relativity#consequences%20derived%20from%20the%20Lorentz%20transformation)_ dealt strictly with [kinematics](kinematics.md), the study of the motion of points, bodies, and systems of bodies without considering the forces that caused the motion. This section discusses masses, forces, energy and so forth, and as such requires consideration of physical effects beyond those encompassed by the Lorentz transformation itself.
 
 ### equivalence of mass and energy
 
@@ -580,21 +582,21 @@ $${\begin{aligned}E_{0}&=E_{1}+{\tfrac {1}{2} }L+{\tfrac {1}{2} }L=E_{1}+L\\[5mu
 
 From the above equations, we obtain the following:
 
-|                                                                                                   |                                      |
-| ------------------------------------------------------------------------------------------------- | ------------------------------------ |
-| $$\quad \quad (H_{0}-E_{0})-(H_{1}-E_{1})=L\left({\frac {1}{\sqrt {1-v^{2}/c^{2} } } }-1\right)$$ | [6-1](./Special_relativity#math_6-1) |
+|                                                                                                   |                                        |
+| ------------------------------------------------------------------------------------------------- | -------------------------------------- |
+| $$\quad \quad (H_{0}-E_{0})-(H_{1}-E_{1})=L\left({\frac {1}{\sqrt {1-v^{2}/c^{2} } } }-1\right)$$ | [6-1](./Special_relativity#math%206-1) |
 
 The two differences of form $H-E$ seen in the above equation have a straightforward physical interpretation. Since $H$ and $E$ are the energies of the arbitrary body in the moving and stationary frames, $H_{0}-E_{0}$ and $H_{1}-E_{1}$ represents the kinetic energies of the bodies before and after the emission of light \(except for an additive constant that fixes the zero point of energy and is conventionally set to zero\). Hence,
 
-|                                                                                   |                                      |
-| --------------------------------------------------------------------------------- | ------------------------------------ |
-| $$\quad \quad K_{0}-K_{1}=L\left({\frac {1}{\sqrt {1-v^{2}/c^{2} } } }-1\right)$$ | [6-2](./Special_relativity#math_6-2) |
+|                                                                                   |                                        |
+| --------------------------------------------------------------------------------- | -------------------------------------- |
+| $$\quad \quad K_{0}-K_{1}=L\left({\frac {1}{\sqrt {1-v^{2}/c^{2} } } }-1\right)$$ | [6-2](./Special_relativity#math%206-2) |
 
 Taking a Taylor series expansion and neglecting higher order terms, he obtained
 
-|                                                                      |                                      |
-| -------------------------------------------------------------------- | ------------------------------------ |
-| $$\quad \quad K_{0}-K_{1}={\frac {1}{2} }{\frac {L}{c^{2} } }v^{2}$$ | [6-3](./Special_relativity#math_6-3) |
+|                                                                      |                                        |
+| -------------------------------------------------------------------- | -------------------------------------- |
+| $$\quad \quad K_{0}-K_{1}={\frac {1}{2} }{\frac {L}{c^{2} } }v^{2}$$ | [6-3](./Special_relativity#math%206-3) |
 
 Comparing the above expression with the classical expression for kinetic energy, _K.E._ = ⁠1/2⁠<!-- markdown separator -->_mv_<sup>2</sup>, Einstein then noted: "If a body gives off the energy _L_ in the form of radiation, its mass diminishes by _L_<!-- markdown separator -->/<!-- markdown separator -->_c_<sup>2</sup>."
 
@@ -634,55 +636,55 @@ Consider the elastic collision scenario in Fig. 6-3 between a moving particle co
 
 The relativistic momentum and total relativistic energy of a particle are given by
 
-|                                                                                         |                                      |
-| --------------------------------------------------------------------------------------- | ------------------------------------ |
-| $$\quad \quad {\vec {p} }=\gamma m{\vec {v} }\quad {\text{and} }\quad E=\gamma mc^{2}$$ | [6-4](./Special_relativity#math_6-4) |
+|                                                                                         |                                        |
+| --------------------------------------------------------------------------------------- | -------------------------------------- |
+| $$\quad \quad {\vec {p} }=\gamma m{\vec {v} }\quad {\text{and} }\quad E=\gamma mc^{2}$$ | [6-4](./Special_relativity#math%206-4) |
 
 Conservation of momentum dictates that the sum of the momenta of the incoming particle and the stationary particle \(which initially has momentum = 0\) equals the sum of the momenta of the emergent particles:
 
-|                                                                                                          |                                      |
-| -------------------------------------------------------------------------------------------------------- | ------------------------------------ |
-| $$\quad \quad \gamma _{1}m{\vec {v_{1} } }+0=\gamma _{2}m{\vec {v_{2} } }+\gamma _{3}m{\vec {v_{3} } }$$ | [6-5](./Special_relativity#math_6-5) |
+|                                                                                                          |                                        |
+| -------------------------------------------------------------------------------------------------------- | -------------------------------------- |
+| $$\quad \quad \gamma _{1}m{\vec {v_{1} } }+0=\gamma _{2}m{\vec {v_{2} } }+\gamma _{3}m{\vec {v_{3} } }$$ | [6-5](./Special_relativity#math%206-5) |
 
 Likewise, the sum of the total relativistic energies of the incoming particle and the stationary particle \(which initially has total energy mc<sup>2</sup>\) equals the sum of the total energies of the emergent particles:
 
-|                                                                              |                                      |
-| ---------------------------------------------------------------------------- | ------------------------------------ |
-| $$\quad \quad \gamma _{1}mc^{2}+mc^{2}=\gamma _{2}mc^{2}+\gamma _{3}mc^{2}$$ | [6-6](./Special_relativity#math_6-6) |
+|                                                                              |                                        |
+| ---------------------------------------------------------------------------- | -------------------------------------- |
+| $$\quad \quad \gamma _{1}mc^{2}+mc^{2}=\gamma _{2}mc^{2}+\gamma _{3}mc^{2}$$ | [6-6](./Special_relativity#math%206-6) |
 
-Breaking down \(__[6-5](./Special_relativity#math_6-5)__\) into its components, replacing $v$ with the dimensionless ⁠$\beta$⁠, and factoring out common terms from \(__[6-5](./Special_relativity#math_6-5)__\) and \(__[6-6](./Special_relativity#math_6-6)__\) yields the following:<sup>[\[p 18\]](#^p-18)</sup>
+Breaking down \(__[6-5](./Special_relativity#math%206-5)__\) into its components, replacing $v$ with the dimensionless ⁠$\beta$⁠, and factoring out common terms from \(__[6-5](./Special_relativity#math%206-5)__\) and \(__[6-6](./Special_relativity#math%206-6)__\) yields the following:<sup>[\[p 18\]](#^p-18)</sup>
 
-|                                                                                                             |                                      |
-| ----------------------------------------------------------------------------------------------------------- | ------------------------------------ |
-| $$\quad \quad \beta _{1}\gamma _{1}=\beta _{2}\gamma _{2}\cos {\theta }+\beta _{3}\gamma _{3}\cos {\phi }$$ | [6-7](./Special_relativity#math_6-7) |
+|                                                                                                             |                                        |
+| ----------------------------------------------------------------------------------------------------------- | -------------------------------------- |
+| $$\quad \quad \beta _{1}\gamma _{1}=\beta _{2}\gamma _{2}\cos {\theta }+\beta _{3}\gamma _{3}\cos {\phi }$$ | [6-7](./Special_relativity#math%206-7) |
 
-|                                                                                       |                                      |
-| ------------------------------------------------------------------------------------- | ------------------------------------ |
-| $$\quad \quad \beta _{2}\gamma _{2}\sin {\theta }=\beta _{3}\gamma _{3}\sin {\phi }$$ | [6-8](./Special_relativity#math_6-8) |
+|                                                                                       |                                        |
+| ------------------------------------------------------------------------------------- | -------------------------------------- |
+| $$\quad \quad \beta _{2}\gamma _{2}\sin {\theta }=\beta _{3}\gamma _{3}\sin {\phi }$$ | [6-8](./Special_relativity#math%206-8) |
 
-|                                                       |                                      |
-| ----------------------------------------------------- | ------------------------------------ |
-| $$\quad \quad \gamma _{1}+1=\gamma _{2}+\gamma _{3}$$ | [6-9](./Special_relativity#math_6-9) |
+|                                                       |                                        |
+| ----------------------------------------------------- | -------------------------------------- |
+| $$\quad \quad \gamma _{1}+1=\gamma _{2}+\gamma _{3}$$ | [6-9](./Special_relativity#math%206-9) |
 
 From these we obtain the following relationships:<sup>[\[p 18\]](#^p-18)</sup>
 
-|                                                                                                                                                   |                                        |
-| ------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------- |
-| $$\quad \quad \beta _{2}={\frac {\beta _{1}\sin {\phi } }{\{\beta _{1}^{2}\sin ^{2}{\phi }+\sin ^{2}(\phi +\theta )/\gamma _{1}^{2}\}^{1/2} } }$$ | [6-10](./Special_relativity#math_6-10) |
+|                                                                                                                                                   |                                          |
+| ------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------- |
+| $$\quad \quad \beta _{2}={\frac {\beta _{1}\sin {\phi } }{\{\beta _{1}^{2}\sin ^{2}{\phi }+\sin ^{2}(\phi +\theta )/\gamma _{1}^{2}\}^{1/2} } }$$ | [6-10](./Special_relativity#math%206-10) |
 
-|                                                                                                                                                       |                                        |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------- |
-| $$\quad \quad \beta _{3}={\frac {\beta _{1}\sin {\theta } }{\{\beta _{1}^{2}\sin ^{2}{\theta }+\sin ^{2}(\phi +\theta )/\gamma _{1}^{2}\}^{1/2} } }$$ | [6-11](./Special_relativity#math_6-11) |
+|                                                                                                                                                       |                                          |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------- |
+| $$\quad \quad \beta _{3}={\frac {\beta _{1}\sin {\theta } }{\{\beta _{1}^{2}\sin ^{2}{\theta }+\sin ^{2}(\phi +\theta )/\gamma _{1}^{2}\}^{1/2} } }$$ | [6-11](./Special_relativity#math%206-11) |
 
-|                                                                                                                                                                  |                                        |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------- |
-| $$\quad \quad \cos {(\phi +\theta )}={\frac {(\gamma _{1}-1)\sin {\theta }\cos {\theta } }{\{(\gamma _{1}+1)^{2}\sin ^{2}\theta +4\cos ^{2}\theta \}^{1/2} } }$$ | [6-12](./Special_relativity#math_6-12) |
+|                                                                                                                                                                  |                                          |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------- |
+| $$\quad \quad \cos {(\phi +\theta )}={\frac {(\gamma _{1}-1)\sin {\theta }\cos {\theta } }{\{(\gamma _{1}+1)^{2}\sin ^{2}\theta +4\cos ^{2}\theta \}^{1/2} } }$$ | [6-12](./Special_relativity#math%206-12) |
 
-For the symmetrical case in which $\phi =\theta$ and ⁠$\beta _{2}=\beta _{3}$⁠, \(__[6-12](./Special_relativity#math_6-12)__\) takes on the simpler form:<sup>[\[p 18\]](#^p-18)</sup>
+For the symmetrical case in which $\phi =\theta$ and ⁠$\beta _{2}=\beta _{3}$⁠, \(__[6-12](./Special_relativity#math%206-12)__\) takes on the simpler form:<sup>[\[p 18\]](#^p-18)</sup>
 
-|                                                                                                   |                                        |
-| ------------------------------------------------------------------------------------------------- | -------------------------------------- |
-| $$\quad \quad \cos {\theta }={\frac {\beta _{1} }{\{2/\gamma _{1}+3\beta _{1}^{2}-2\}^{1/2} } }$$ | [6-13](./Special_relativity#math_6-13) |
+|                                                                                                   |                                          |
+| ------------------------------------------------------------------------------------------------- | ---------------------------------------- |
+| $$\quad \quad \cos {\theta }={\frac {\beta _{1} }{\{2/\gamma _{1}+3\beta _{1}^{2}-2\}^{1/2} } }$$ | [6-13](./Special_relativity#math%206-13) |
 
 ## rapidity
 
@@ -779,7 +781,7 @@ If using ⁠$(ct,x,y,z)$⁠ coordinates, _A_ is a 4–vector if it transforms \(
 
 $${\begin{aligned}A_{0}'&=\gamma \left(A_{0}-(v/c)A_{1}\right)\\A_{1}'&=\gamma \left(A_{1}-(v/c)A_{0}\right)\\A_{2}'&=A_{2}\\A_{3}'&=A_{3}\end{aligned} },$$
 
-which comes from simply replacing _ct_ with _A_<sub>0</sub> and _x_ with _A_<sub>1</sub> in the earlier presentation of the [__Lorentz transformation.__](./Special_relativity#Lorentz_transformations)
+which comes from simply replacing _ct_ with _A_<sub>0</sub> and _x_ with _A_<sub>1</sub> in the earlier presentation of the [__Lorentz transformation.__](./Special_relativity#Lorentz%20transformations)
 
 As usual, when we write _x_, _t_, etc. we generally mean Δ<!-- markdown separator -->_x_, Δ<!-- markdown separator -->_t_ etc.
 
@@ -1127,7 +1129,7 @@ __Paradoxes__
 99. The number of works is vast, see as example: <a id="^ref-99"></a>^ref-99
 <a id="CITEREFSidney ColemanSheldon L. Glashow1997"></a> Sidney Coleman; Sheldon L. Glashow \(1997\). "Cosmic Ray and Neutrino Tests of Special Relativity". _Physics Letters B_. __405__ \(3–4\): 249–252. [arXiv](ArXiv%20(identifier).md):[hep-ph/9703240](https://arxiv.org/abs/hep-ph/9703240). [Bibcode](bibcode%20(identifier).md):[1997PhLB..405..249C](https://ui.adsabs.harvard.edu/abs/1997PhLB..405..249C). [doi](doi%20(identifier).md):[10.1016/S0370-2693\(97\)00638-2](https://doi.org/10.1016%2FS0370-2693%2897%2900638-2). [S2CID](S2CID%20(identifier).md#S2CID) [17286330](https://api.semanticscholar.org/CorpusID:17286330).
 An overview can be found on [this page](http://www.edu-observatory.org/physics-faq/Relativity/SR/experiments.html)
-100. <a id="CITEREFRobertsSchleif"></a> Roberts, Tom; Schleif, Siegmar. ["Experiments that Apparently are NOT Consistent with SR/GR"](https://math.ucr.edu/home/baez/physics/Relativity/SR/experiments.html#Experiments_not_consistent_with_SR). _What is the experimental basis of Special Relativity?_. University of California at Riverside. Retrieved 10 July 2024. <a id="^ref-100"></a>^ref-100
+100. <a id="CITEREFRobertsSchleif"></a> Roberts, Tom; Schleif, Siegmar. ["Experiments that Apparently are NOT Consistent with SR/GR"](https://math.ucr.edu/home/baez/physics/Relativity/SR/experiments.html#Experiments%20not%20consistent%20with%20SR). _What is the experimental basis of Special Relativity?_. University of California at Riverside. Retrieved 10 July 2024. <a id="^ref-100"></a>^ref-100
 101. <a id="CITEREFJohn D. Norton2004"></a> John D. Norton, John D. \(2004\). ["Einstein's Investigations of Galilean Covariant Electrodynamics prior to 1905"](http://philsci-archive.pitt.edu/archive/00001743/). _Archive for History of Exact Sciences_. __59__ \(1\): 45–105. [Bibcode](bibcode%20(identifier).md):[2004AHES...59...45N](https://ui.adsabs.harvard.edu/abs/2004AHES...59...45N). [doi](doi%20(identifier).md):[10.1007/s00407-004-0085-6](https://doi.org/10.1007%2Fs00407-004-0085-6). [S2CID](S2CID%20(identifier).md#S2CID) [17459755](https://api.semanticscholar.org/CorpusID:17459755). <a id="^ref-101"></a>^ref-101
 
 ## further reading
