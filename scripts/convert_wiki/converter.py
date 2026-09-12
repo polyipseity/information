@@ -572,6 +572,34 @@ class WikiHtmlConverter:
             seen_heading_texts=seen_heading_texts,
         )
         strings = joiner.join(sv.value for sv in soon_values)
+        # When a list (<ul>/<ol>) is followed by a display-math-only <p>,
+        # strip the trailing \n from the list output AND reduce the suffix
+        # from "\n\n" to "\n" so the <p> prefix (space) can join the
+        # equation to the last list item on the same line.  The <li> items
+        # each end with \n (their suffix), so even after stripping one \n
+        # from strings, the list suffix must also be reduced to avoid
+        # re-creating the blank line.
+        if ele.name in _LIST_TAGS and config.suffix == "\n\n":
+            nxt = self._effective_sibling_skipping(
+                ele, following=True, skip_whitespace=True, refs=refs
+            )
+            if (
+                isinstance(nxt, Tag)
+                and nxt.name == "p"
+                and self._is_display_math_only(nxt)
+            ):
+                strings = strings.rstrip("\n")
+                config.suffix = "\n"
+        # When a <p> is followed by a display-math-only <dl>, strip the
+        # trailing \n\n from the <p> output so the <dl> content (with its
+        # " <p> " prefix) joins inline on the same line.
+        if ele.name == "p" and config.suffix == "\n\n":
+            nxt = self._effective_sibling_skipping(
+                ele, following=True, skip_whitespace=True, refs=refs
+            )
+            if isinstance(nxt, Tag) and self._is_display_math_only_dl(nxt):
+                strings = strings.rstrip("\n")
+                config.suffix = ""
         if config.full_result:
             return process_strings(strings) or ""
         strings = process_strings(strings)
@@ -1524,7 +1552,15 @@ class WikiHtmlConverter:
             # Figure captions are block-level content: give them their own
             # ``> `` line (blank ``> `` separation from following siblings),
             # e.g. multi-image ``tmulti`` thumbnails with per-image captions.
-            return _HandlerConfig(suffix="\n\n")
+            # Collapse <br/> line breaks to spaces so the caption stays on
+            # one blockquote line.
+            def process_strings_thumbcaption(strings: str) -> str:
+                """Collapse newlines in thumbcaption to spaces."""
+                return _collapse_whitespace(strings.replace("\n", " "))
+
+            return _HandlerConfig(
+                suffix="\n\n", process_strings=process_strings_thumbcaption
+            )
         if (
             "sidebar-caption" in classes or "infobox-caption" in classes
         ) and self._in_table_cell(ele):
@@ -1687,6 +1723,7 @@ class WikiHtmlConverter:
         in_table = self._in_table_cell(ele)
         in_list = self._in_list_item(ele)
         joiner = "" if in_table else "\n"
+        prefix = ""
         if joiner:
             for child in tuple(ele.children):
                 if isinstance(child, NavigableString) and not child.strip():
@@ -1715,7 +1752,16 @@ class WikiHtmlConverter:
                 suffix = " <p> "
         else:
             suffix = "\n\n"
-        return _HandlerConfig(joiner=joiner, suffix=suffix)
+            # When a display-math-only <dl> follows a <p>, join inline
+            # with <p> separator instead of creating a block break.
+            if self._is_display_math_only_dl(ele):
+                prev = ele.find_previous_sibling()
+                while isinstance(prev, Tag) and prev.name in {"link", "style"}:
+                    prev = prev.find_previous_sibling()
+                if isinstance(prev, Tag) and prev.name == "p":
+                    prefix = " <p> &nbsp;&nbsp;&nbsp;&nbsp; "
+                    suffix = " <p> "
+        return _HandlerConfig(joiner=joiner, prefix=prefix, suffix=suffix)
 
     def _handle_p(self, ele: Tag, classes: frozenset[str]) -> _HandlerConfig:
         """Render a <p> paragraph with appropriate spacing."""
@@ -1769,6 +1815,51 @@ class WikiHtmlConverter:
             return False
         class_str = " ".join(child.get_attribute_list("class"))
         return "mwe-math-element" in class_str and "mwe-math-element-block" in class_str
+
+    @staticmethod
+    def _is_display_math_only_dl(ele: Tag) -> bool:
+        """Return True if *ele* is a <dl> whose content is display math
+        followed by trailing text (e.g. "for events satisfying ...").
+
+        Matches a <dl> with a single <dd> child whose first rendered
+        element is display math and whose last rendered element is a
+        non-math span or text node (the trailing description).
+        """
+        if ele.name != "dl":
+            return False
+        children = [
+            c
+            for c in ele.children
+            if not (isinstance(c, NavigableString) and not c.strip())
+        ]
+        if (
+            len(children) != 1
+            or not isinstance(children[0], Tag)
+            or children[0].name != "dd"
+        ):
+            return False
+        dd = children[0]
+        dd_children = [
+            c
+            for c in dd.children
+            if not (isinstance(c, NavigableString) and not c.strip())
+        ]
+        if len(dd_children) < 2:
+            return False
+        # The first child must be a math element (block or inline)
+        first = dd_children[0]
+        if not isinstance(first, Tag):
+            return False
+        class_str = " ".join(first.get_attribute_list("class"))
+        if "mwe-math-element" not in class_str:
+            return False
+        # The last child must be non-math (trailing text/description)
+        last = dd_children[-1]
+        if isinstance(last, Tag):
+            last_class = " ".join(last.get_attribute_list("class"))
+            if "mwe-math-element" in last_class:
+                return False
+        return True
 
     def _handle_code(self, ele: Tag, classes: frozenset[str]) -> _HandlerConfig:
         """Render inline <code> with backtick markers."""

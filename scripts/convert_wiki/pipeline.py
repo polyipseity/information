@@ -14,7 +14,7 @@ from typing import Any
 from aiohttp import ClientSession, TCPConnector
 from aiohttp_retry import RetryClient
 from aiohttp_retry.types import ClientType
-from bs4 import BeautifulSoup, PageElement
+from bs4 import BeautifulSoup, PageElement, Tag
 
 from . import config as _cfg
 from .api import (
@@ -538,6 +538,32 @@ def _separate_block_math(text: str) -> str:
     return _scan_and_apply(text, info)
 
 
+def _merge_adjacent_numblk_tables(ele: PageElement) -> None:
+    """Merge adjacent <table class="numblk"> siblings into one table.
+
+    Adjacent numblk tables share the same parent and have only whitespace
+    or non-content siblings (``<link>``, ``<style>``) between them.  This
+    function moves ``<tr>`` elements from the second table's ``<tbody>``
+    into the first table's ``<tbody>``, then decomposes the second table.
+    """
+    if not isinstance(ele, Tag):
+        return
+    for table in list(ele.find_all("table", class_="numblk")):
+        nxt = table.find_next_sibling()
+        while isinstance(nxt, Tag) and nxt.name in {"link", "style"}:
+            nxt = nxt.find_next_sibling()
+        if not isinstance(nxt, Tag) or nxt.name != "table":
+            continue
+        if "numblk" not in frozenset(nxt.get_attribute_list("class")):
+            continue
+        # Both are numblk tables and adjacent — merge rows.
+        src_tbody = nxt.find("tbody") or nxt
+        dst_tbody = table.find("tbody") or table
+        for tr in src_tbody.find_all("tr"):
+            dst_tbody.append(tr.extract())
+        nxt.decompose()
+
+
 async def wiki_html_to_plaintext(
     ele: PageElement,
     *,
@@ -559,6 +585,10 @@ async def wiki_html_to_plaintext(
     image_metadata:
         Pre-fetched image description metadata (``File:XXX`` → description).
     """
+    # Merge adjacent numblk tables before conversion so they render as a
+    # single multi-row table instead of separate tables.
+    if isinstance(ele, (BeautifulSoup, Tag)):
+        _merge_adjacent_numblk_tables(ele)
     if converter is None:
         soup = ele if isinstance(ele, BeautifulSoup) else None
         converter = WikiHtmlConverter(image_metadata=image_metadata, soup=soup)
