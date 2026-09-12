@@ -39,8 +39,8 @@ No additional details were added for this assignment.
 > 3. $1\;0$
 > 4. $1\;1$
 >
-> - solution: $0\;1$
-> - explanation: A "0 1" motor rotation means left motor off, right motor on, which corresponds to sensor reading $0\;1$.
+> - solution: {@{$0\;1$}@}
+> - explanation: {@{A "0 1" sensor rotation}@} means {@{left sensor not on white, right sensor on white}@}, which corresponds to {@{rotating left}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -51,5 +51,5 @@ No additional details were added for this assignment.
 > 3. `digitalWrite(ledPin, 1==5);`
 > 4. `digitalWrite(ledPin, 1<5);`
 >
-> - solution: 1 and 4
-> - explanation: `digitalWrite` treats any nonzero value as HIGH. `1` is nonzero (HIGH), `1==5` evaluates to `0` (LOW), `1<5` evaluates to `1` (HIGH). `-5` is nonzero but may behave unexpectedly on some platforms.
+> - solution: {@{1, 2, 4}@}
+> - explanation: {@{`digitalWrite`}@} treats {@{any nonzero value as HIGH}@}. Only {@{`1==5` evaluates to zero}@}, and the remaining {@{evaluates to nonzero}@}.

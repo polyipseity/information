@@ -21,7 +21,7 @@ tags:
 > 2. No
 > 3. It depends on the procedure
 >
-> - solution: ungraded (test question)
+> - solution: {@{1/2/3}@}
 
 <!-- markdownlint MD028 -->
 
@@ -33,4 +33,4 @@ tags:
 > 4. Childcare
 > 5. Customer service
 >
-> - solution: ungraded (test question)
+> - solution: {@{1/2/3/4/5}@}
