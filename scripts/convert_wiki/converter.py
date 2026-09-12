@@ -1350,6 +1350,46 @@ class WikiHtmlConverter:
         bold.append(close_paren)
         cell.append(bold)
 
+    @staticmethod
+    def _rewrite_table_equation_cells(table: Tag) -> None:
+        """Rewrite equation-number cells in any table to ``__\\([N](#math%20N)\\)__``.
+
+        Scans all ``<td>`` elements for a single self-link to an equation
+        anchor and rewrites it to bold, fragment-only link with escaped
+        parentheses.
+        """
+        for td in table.find_all("td"):
+            children = [
+                c
+                for c in td.children
+                if not isinstance(c, NavigableString) or str(c).strip()
+            ]
+            if len(children) != 1 or not isinstance(children[0], Tag):
+                continue
+            link = children[0]
+            if link.name != "a" or "mw-selflink-fragment" not in (
+                link.get("class") or []
+            ):
+                continue
+            href = str(link.get("href", ""))
+            if "#" not in href:
+                continue
+            frag = href.split("#", 1)[1]
+            if not re.fullmatch(r"math[_.].+", frag):
+                continue
+            norm_frag = frag.replace("_", "%20")
+            text = link.get_text(strip=True)
+            td.clear()
+            bold = td.new_tag("b")
+            open_paren = td.new_string("\\(")
+            new_link = td.new_tag("a", href=f"#{norm_frag}")
+            new_link.string = text
+            close_paren = td.new_string("\\)")
+            bold.append(open_paren)
+            bold.append(new_link)
+            bold.append(close_paren)
+            td.append(bold)
+
     def _handle_sub(self, ele: Tag, classes: frozenset[str]) -> _HandlerConfig:
         """Render <sub> as subscript Markdown."""
         prefix, suffix = _tag_affixes("sub")
@@ -2185,6 +2225,10 @@ class WikiHtmlConverter:
                         _strip_cell_bold(cells[-1])
 
             return TableConverter.handle_table(ele, classes, self._soup)
+
+        # Rewrite equation-number cells (e.g. velocity table) before
+        # conversion so they produce __\([N](#math%20N)\)__.
+        WikiHtmlConverter._rewrite_table_equation_cells(ele)
 
         return TableConverter.handle_table(ele, classes, self._soup)
 
