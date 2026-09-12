@@ -1671,7 +1671,39 @@ class WikiHtmlConverter:
         if not in_table and self._sole_bold_child(ele) is not None:
             prefix = "\n<!-- markdownlint-disable-next-line MD036 -->\n"
 
+        # Display math after a list: when a <p> containing only display math
+        # follows a </ul>, join it to the last list item on the same line
+        # instead of creating a separate paragraph.
+        if not in_table and self._is_display_math_only(ele):
+            prev = ele.find_previous_sibling()
+            while isinstance(prev, Tag) and prev.name in {"ul", "ol"}:
+                prefix = " "
+                suffix = "\n\n"
+                break
+            else:
+                prev = None
+            if prev is None:
+                pass  # no list sibling found, keep default prefix
+
         return _HandlerConfig(prefix=prefix, suffix=suffix, process_strings=process)
+
+    @staticmethod
+    def _is_display_math_only(ele: Tag) -> bool:
+        """Return True if *ele* is a <p> whose sole child is display math."""
+        if ele.name != "p":
+            return False
+        children = [
+            c
+            for c in ele.children
+            if not (isinstance(c, NavigableString) and not c.strip())
+        ]
+        if len(children) != 1:
+            return False
+        child = children[0]
+        if not isinstance(child, Tag):
+            return False
+        class_str = " ".join(child.get_attribute_list("class"))
+        return "mwe-math-element" in class_str and "mwe-math-element-block" in class_str
 
     def _handle_code(self, ele: Tag, classes: frozenset[str]) -> _HandlerConfig:
         """Render inline <code> with backtick markers."""
