@@ -1374,13 +1374,18 @@ class WikiHtmlConverter:
             ele.string = f"({text})"
 
     @staticmethod
-    def _rewrite_equation_number_cell(cell: Tag) -> None:
+    def _rewrite_equation_number_cell(
+        cell: Tag, *, anchor_id: str | None = None
+    ) -> None:
         """Rewrite an equation-number cell to produce ``__\\([N](#math%20N)\\)__``.
 
         The cell contains a self-link ``<a href=./Page#math_N>N</a>``.
         This method rewrites it to a bold, fragment-only link wrapped in
         escaped parentheses, matching the expected Wikipedia equation
         reference format.
+
+        When *anchor_id* is provided, an ``<a id="...">`` tag is
+        prepended inside the cell so prose links to the equation resolve.
         """
         link = cell.find("a", href=True)
         if not isinstance(link, Tag):
@@ -1396,6 +1401,10 @@ class WikiHtmlConverter:
         text = link.get_text(strip=True)
         # Clear the cell and rebuild: __\([text](#norm_frag)\)__
         cell.clear()
+        if anchor_id:
+            anchor = cell.new_tag("a", attrs={"id": anchor_id})
+            anchor.string = " "
+            cell.append(anchor)
         bold = cell.new_tag("b")
         open_paren = cell.new_string("(")
         new_link = cell.new_tag("a", href=f"#{norm_frag}")
@@ -2513,49 +2522,20 @@ class WikiHtmlConverter:
                         _set_text_align(cell, align)
                     if cells := tuple(tr.find_all(_TD_OR_TH)):
                         _strip_cell_bold(cells[-1])
-            # Rewrite equation-number cells regardless of alignment.
+            # Rewrite equation-number cells regardless of alignment,
+            # prepending an <a id> anchor derived from the originating
+            # table id so prose links like #math%20N resolve correctly.
+            default_origin = str(ele.get("id", "")) if ele.get("id") else None
             for tr in tbody.find_all("tr"):
                 if tr is header_row:
                     continue
                 if cells := tuple(tr.find_all(_TD_OR_TH)):
-                    self._rewrite_equation_number_cell(cells[-1])
+                    raw = tr.get("data-origin-id")
+                    origin = str(raw) if raw else default_origin
+                    anchor = origin.replace("_", " ") if origin else None
+                    self._rewrite_equation_number_cell(cells[-1], anchor_id=anchor)
 
-            result = TableConverter.handle_table(ele, classes, self._soup)
-            # Preserve equation anchors so prose links like #math%20N
-            # resolve correctly.  A merged table may carry absorbed ids
-            # from adjacent numblk tables (data-merged-ids="math_8,...").
-            anchor_ids: list[str] = []
-            if ele.get("id"):
-                anchor_ids.append(str(ele["id"]))
-            merged = ele.get("data-merged-ids", "")
-            if merged:
-                anchor_ids.extend(
-                    m.strip() for m in str(merged).split(",") if m.strip()
-                )
-            if anchor_ids:
-                anchor_md = (
-                    " ".join(
-                        f'<a id="{aid.replace(chr(95), chr(32))}"></a>'
-                        for aid in anchor_ids
-                    )
-                    + " "
-                )
-                if result is not None:
-                    result = _HandlerConfig(
-                        prefix=f"{anchor_md}{result.prefix}",
-                        suffix=result.suffix,
-                        joiner=result.joiner,
-                        process_strings=result.process_strings,
-                        full_result=result.full_result,
-                        list_stack=result.list_stack,
-                    )
-                else:
-                    # TableConverter returns None for tables without
-                    # <caption>.  The table's children (<tr> etc.) are
-                    # rendered inline by their own handlers; prepend
-                    # the anchor so it appears before the table output.
-                    result = _HandlerConfig(prefix=anchor_md)
-            return result
+            return TableConverter.handle_table(ele, classes, self._soup)
 
         # Rewrite equation-number cells (e.g. velocity table) before
         # conversion so they produce __\([N](#math%20N)\)__.
@@ -2703,6 +2683,14 @@ class WikiHtmlConverter:
         self, ele: Tag, classes: frozenset[str]
     ) -> _HandlerConfig | None:
         """Handle ``<a>`` link elements."""
+        # Bare anchors (<a id="math 7"></a>) with no href/title are
+        # equation-reference anchors emitted by _rewrite_equation_number_cell.
+        # Preserve them as raw HTML so they survive conversion.
+        if not ele.get("href") and not ele.get("title") and ele.get("id"):
+            return _HandlerConfig(
+                full_result=True,
+                process_strings=lambda _: str(ele),
+            )
         if (title := ele.get("title")) and title not in _cfg._BAD_TITLES:
             title = str(title)
             if "new" in classes:
