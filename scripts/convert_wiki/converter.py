@@ -1404,7 +1404,7 @@ class WikiHtmlConverter:
         if anchor_id:
             anchor = cell.new_tag("a", attrs={"id": anchor_id})
             cell.append(anchor)
-            cell.append(NavigableString(" "))
+            cell.append(NavigableString("\xa0"))
         bold = cell.new_tag("b")
         open_paren = cell.new_string("(")
         new_link = cell.new_tag("a", href=f"#{norm_frag}")
