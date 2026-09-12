@@ -207,26 +207,19 @@ When multiple input files classify to the same target directory, merge rather th
     - Canvas HTML → metadata (grade, assignment ID, submission record)
     - PDF/image attachments → supplementary files in `attachments/`
 3. Create the target directory once, then apply each source's contribution:
-    - Content from PRS HTML → `tutorial.md` (quiz questions)
-    - Metadata from Canvas HTML → `tutorial.yml` (grade, canvas_assignment_id)
+    - Content from PRS HTML → `<type>.md` (quiz questions)
+    - Metadata from Canvas HTML → `<type>.yml` (via `convert_canvas_submission`)
 4. Report the merge:
 
 ```text
 Merged 2 sources into tutorials/tutorial 2/:
-  - PRS HTML → tutorial.md (2 quiz questions)
-  - Canvas HTML → tutorial.yml (grade: 2/2)
+  - PRS HTML → <type>.md (2 quiz questions)
+  - Canvas HTML → <type>.yml (grade: 2/2)
 ```
 
 ### Schedule cross-referencing
 
-When the target is a submission (lab, tutorial, lecture), look up the matching session in the course `index.md` to fill metadata:
-
-1. Parse the session heading pattern: `## week N <type> M`
-2. Match by type and sequence number (e.g., "tutorial 2" → the second tutorial session in the course schedule)
-3. Extract: `datetime`, `venue`, `topic` from the session metadata
-4. Carry these into the created `index.md` and component YAML files
-
-This avoids inventing metadata and ensures consistency with the course schedule.
+When the target is a submission (lab, tutorial, lecture), look up the matching session in the course `index.md` for reference. Do NOT copy schedule metadata into `<type>.yml` or `<type>.md` unless the source HTML explicitly provides it — schedule info belongs in the course `index.md`, not in the submission files.
 
 ### Source file disposition
 
@@ -239,6 +232,18 @@ After extracting content from HTML source files:
 - Original HTML files → not stored in the repository
 
 Do not copy extracted-content HTML into `attachments/`. The `attachments/` directory is for raw referenced files (PDFs, images, data, scripts), not for source documents whose content has been transcripted into markdown.
+
+### Embedded image extraction
+
+When extracting content from PRS/iClicker HTML, check for embedded base64 images (circuit diagrams, pinout diagrams, sensor illustrations). These are quiz-relevant assets and must be extracted:
+
+1. Scan the HTML for `data:image/...;base64,...` URIs.
+2. Discard tiny images (< 1 KB) — these are UI icons, not content.
+3. Keep substantial images (> 1 KB) — these are likely circuit diagrams or figures referenced by quiz questions.
+4. Use the original filename if available. If the image is a bare data URI with no filename, generate a descriptive filename reflecting the content (e.g., `req_circuit.jpg`, `l293_pinout.jpg`).
+5. Preserve original alt text from the `<img>` tag if present. If alt text is missing or empty, generate a concise, humanized description of what the image shows (e.g., "Resistor network with 6, 12, 3, and 2 ohm resistors"). Do not use LaTeX math notation in alt text — use plain language descriptions instead.
+6. Reference them in the quiz markdown with `![<alt text>](attachments/<name>.jpg)` inside the blockquote question.
+7. List them in the `## attachments` section of both `<type>.md` and `index.md` (where applicable — in-class-only `index.md` omits `## attachments`).
 
 ### In-class component detection
 
@@ -261,43 +266,64 @@ This step is optional when no raw files accompany the material.
 
 When the in-class content is not Canvas-sourced, use these templates instead of the Canvas header block format.
 
-### PRS/iClicker quiz (`tutorial.md`)
+### PRS/iClicker quiz (`<type>.md`)
+
+Use the blockquote question format, matching existing question files. Applies to labs, tutorials, and lectures with in-class PRS/iClicker quizzes.
 
 ```markdown
 ---
 aliases:
-  - <INSTITUTION> <COURSE> tutorial <N> tutorial
-  - <INSTITUTION> <COURSE> tutorial <N> quiz content
+  - <INSTITUTION> <COURSE> <type> <N> <type>
+  - <INSTITUTION> <COURSE> <type> <N> quiz content
 tags:
-  - flashcard/active/special/academia/<INST>/<CRS>/tutorials/tutorial_<N>/tutorial
+  - flashcard/active/special/academia/<INST>/<CRS>/<type>s/<type>_<N>/<type>
   - language/in/English
 ---
 
-# tutorial
+# <type>
 
-- <INSTITUTION> <COURSE> tutorial <N>
-- parent: [tutorial <N>](index.md)
+- <INSTITUTION> <COURSE> <type> <N>
+- parent: [<type> <N>](index.md)
 
 ---
 
-- title: <session title from PRS HTML>
-- datetime: <from course schedule>
-- venue: <from course schedule>
-- topic: <from course schedule>
+- title: <Canvas assignment title from Canvas HTML>
+- points: <N> from Canvas HTML
+- grade: <entered>/<possible> from Canvas grade record
+- submitting: <submission type> from Canvas HTML
+
+---
+
+<Canvas description from Canvas HTML>
+
+## attachments
+
+- [`<filename>.ext`](attachments/<filename>.ext)
 
 ## quiz
 
-### question 1 — <question stem>
+> <question text>
+>
+> ![<alt text>](attachments/<diagram>.jpg)
+>
+> 1. <choice>
+> 2. <choice>
+> 3. <choice>
+> 4. <choice>
+>
+> - solution: <correct answer>
+> - explanation: <why this is correct>
 
-<question text>
+<!-- markdownlint MD028 -->
 
-- 1\. <choice>
-- 2\. <choice>
-- 3\. <choice>
-- 4\. <choice>
+> <next question>
 ```
 
-Strip PRS UI chrome (navigation, error messages, "Pull down to refresh", "Your response is submitted") — keep only question text and answer choices. Preserve LaTeX math notation from the original.
+Use `![](attachments/<name>.jpg)` inside the blockquote when the question references a diagram. List the image in `## attachments` in both the content file and `index.md`.
+
+One line per MC option. `solution` is required. `explanation` is optional — if omitted, remove the `- explanation:` line entirely.
+
+Separate consecutive blockquote questions with `<!-- markdownlint MD028 -->`. Strip PRS UI chrome (navigation, error messages, "Pull down to refresh", "Your response is submitted") — keep only question text and answer choices. Preserve LaTeX math notation from the original.
 
 ## Dispatch
 

@@ -38,14 +38,14 @@ Extract course, session number, and binding from directory names:
 
 ## 4. Cross-reference
 
-Look up each session in the course `index.md` for datetime, venue, and topic.
+Look up each session in the course `index.md` for reference only. Do NOT copy schedule metadata into submission files.
 
 ## 5. Merge
 
 When multiple source types target the same directory, assign contributions:
 
-- PRS HTML → quiz content → `tutorial.md`
-- Canvas HTML → grade metadata → `tutorial.yml`
+- PRS HTML → quiz content → `<type>.md`
+- Canvas HTML → grade metadata → `<type>.yml` (via `convert_canvas_submission`)
 - PDF prompt files → `attachments/` (only actual media/data)
 - Source HTML files → __discarded after extraction__ (not stored in repo)
 
@@ -54,9 +54,9 @@ When multiple source types target the same directory, assign contributions:
 For each target directory, in dependency order:
 
 1. Create directory structure (`index.md`, component YAML, content file, `attachments/`)
-2. Write component YAML first (`tutorial.yml`, `submission.yml`)
-3. Write content file (`tutorial.md`) with extracted quiz questions
-4. Write `index.md` with metadata and children link
+2. Write component YAML first (`<type>.yml`, `submission.yml`)
+3. Write content file (`<type>.md`) with extracted quiz questions
+4. Write `index.md` with submission and children only (no metadata section)
 5. Copy only actual media/data to `attachments/` (PDFs, images, data files)
 
 Do not copy HTML source files into `attachments/`.

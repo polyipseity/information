@@ -29,45 +29,94 @@ When the in-class component exists, the `index.md` links to `lab.md`/`tutorial.m
 | Lecture             | `submission.yml`   | `lecture.yml`      | `lecture.md`       |
 | Assignment          | `submission.yml`   | N/A                | N/A                |
 
-### Component YAML schema
+### Component YAML format
 
-`lab.yml`, `tutorial.yml`, and `lecture.yml` share this structure:
+`lab.yml`, `tutorial.yml`, and `lecture.yml` are produced by `convert_canvas_submission.py`. Their format is entirely defined by that script — do not invent custom schemas. Run the script to generate the YAML:
 
-```yaml
-type: lab|tutorial|lecture
-title: <Canvas or PRS session title>
-course: <course code>
-session: <type> <N>
-date: <ISO 8601 range with timezone>
-venue: <room/building>
-grading: graded|ungraded (<explanation>)
-grade:                  # optional, from Canvas grade record
-  entered: <score>
-  possible: <max>
-canvas_assignment_id: <ID>  # optional, from Canvas HTML
-quiz_system: <system name>  # optional, for PRS/iClicker
-source: <PRS HTML|Canvas|mixed>
+```bash
+echo "/path/to/Canvas HTML.html" | uv run -m scripts.special.convert_canvas_submission 2> tutorial.yml
 ```
 
-Omit fields that are not available at ingestion time. Do not add fields not in this schema without documenting the extension.
+For in-class components, redirect stderr to `tutorial.yml`/`lab.yml`/`lecture.yml`. For out-of-class components, redirect to `submission.yml`.
+
+If no Canvas page exists (e.g., ungraded PRS-only session), do not create a component YAML file.
 
 ### In-class-only submissions
 
 When a tutorial/lab/lecture has only an in-class component (no pre-lab, no take-home, no Canvas assignment outside the session):
 
 - Create `tutorial.yml`/`lab.yml`/`lecture.yml` only — do NOT create `submission.yml`
-- In `index.md`, list only the in-class submission entry under `## submission`:
+- `index.md` contains only `## submission` and `## children` — no metadata section, no `## attachments`
+- `tutorial.md`/`lab.md`/`lecture.md` contains the Canvas metadata block (when a Canvas page exists) followed by `## attachments` (if any) and the content
 
 ```markdown
+# index.md (in-class only)
+
+---
+aliases:
+  - ...
+tags:
+  - ...
+---
+
+# index
+
+- <INSTITUTION> <COURSE>
+
 ## submission
 
 - in-class submission
-    - metadata: [`tutorial.yml`](tutorial.yml)
+    - metadata: [`<type>.yml`](<type>.yml)
+
+## children
+
+- [<type>](<type>.md)
 ```
 
-- The `## submission` section omits `file:` entries when there is no out-of-class artifact.
+```markdown
+# <type>.md (in-class only, with Canvas page)
 
-Detect this when: the source is PRS/iClicker HTML (quiz questions only, no Canvas assignment page), or the user says "these are in-class quizzes."
+---
+aliases:
+  - ...
+tags:
+  - ...
+---
+
+# <type>
+
+- <INSTITUTION> <COURSE> <type> <N>
+- parent: [<type> <N>](index.md)
+
+---
+
+- title: <Canvas assignment title>
+- points: <N>
+- grade: <entered>/<possible>
+- submitting: <submission type>
+
+---
+
+<Canvas description>
+
+## attachments
+
+- [`filename.ext`](attachments/filename.ext)
+
+## quiz
+
+> question...
+```
+
+### No-submission case (no Canvas at all)
+
+When a tutorial/lab/lecture has neither in-class nor out-of-class Canvas components (e.g., an ungraded practice session):
+
+- Do NOT create `tutorial.yml`/`lab.yml`/`lecture.yml`
+- `index.md` contains only `## children` — no `## submission`
+- `tutorial.md`/`lab.md`/`lecture.md` contains only the content — no Canvas metadata block, no attachments section (unless raw files are referenced)
+
+Detect this when: the source is PRS/iClicker HTML with only ungraded test questions, or the user confirms there are no Canvas pages for the session.
 
 ## Partial-info workflow
 
@@ -92,7 +141,13 @@ Input: Canvas assignment HTML page + prompt files.
 - Prompt PDFs, assignment sheets → `attachments/`
 - Data files (CSV, JSON, datasets) → `attachments/`
 - Code files (.ino, .py, .java) referenced by the submission → `attachments/`
-- Images (circuit diagrams, screenshots) → `attachments/`
+- Images (circuit diagrams, screenshots, pinout diagrams) → `attachments/`
+- Quiz images extracted from PRS/Clicker HTML (circuit diagrams, sensor figures) → `attachments/`
+
+When adding images to `attachments/`:
+
+- Preserve the original filename when available. If the source has no filename (e.g., bare base64 data URI), generate a descriptive name reflecting the content.
+- Preserve the original alt text from the HTML `<img>` tag when present. If alt text is missing or empty, generate a concise, humanized description of what the image shows. Do not use LaTeX math notation in alt text — use plain language descriptions instead.
 
 Do NOT put in `attachments/`:
 
