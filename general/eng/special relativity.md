@@ -71,7 +71,7 @@ In {@{1864 [James Clerk Maxwell](James%20Clerk%20Maxwell.md)}@} presented {@{a t
 
 {@{Special relativity}@} has proven to be {@{the most accurate model of motion at any speed}@} when {@{gravitational and quantum effects are negligible}@}.<sup>[\[15\]](#^ref-15)</sup><sup>[\[14\]](#^ref-14)</sup> Even so, {@{the Newtonian model remains accurate}@} at {@{low velocities relative to the speed of light}@}, for example, {@{everyday motion on Earth}@}.
 
-In comparing to {@{the [general theory of relativity](general%20theory%20of%20relativity.md)}@}, Einstein specifically called {@{his earlier work "special theory of relativity" \(German: Spezielle Relativitätstheorie\)}@} in {@{two short papers published in November 1915<sup>[\[16\]](#^ref-16)</sup><sup>[\[17\]](#^ref-17)</sup> and in a long review article published in 1916}@},<sup>[\[18\]](#^ref-18)</sup> saying he meant {@{a restriction to frames in uniform motion}@}, and was featured in {@{the title of Einstein's popular book _[Relativity: The Special and the General Theory](Relativity_%20The%20Special%20and%20the%20General%20Theory.md)_ first published in 1916}@}. Just as {@{[Galilean relativity](Galilean%20invariance.md)}@} is accepted as {@{an approximation of special relativity that is valid for low speeds}@}, {@{special relativity}@} is considered {@{an approximation of general relativity that is valid for weak [gravitational fields](gravitational%20field.md)}@}, that is, at {@{a sufficiently small scale \(e.g., when [tidal forces](tidal%20force.md) are negligible\) and in conditions of [free fall](free%20fall.md)}@}. But {@{general relativity incorporates [non-Euclidean geometry](non-Euclidean%20geometry.md)}@} to represent {@{gravitational effects as the geometric curvature of spacetime}@}. {@{Special relativity}@} is restricted to {@{the flat spacetime known as [Minkowski space](Minkowski%20space.md)}@}. As long as {@{the universe can be modeled as a [pseudo-Riemannian manifold](pseudo-Riemannian%20manifold.md)}@}, {@{a Lorentz-invariant frame that abides by special relativity}@} can be defined for {@{a sufficiently small neighborhood of each point in this [curved spacetime](curved%20spacetime.md)}@}.
+In comparing to {@{the [general theory of relativity](general%20theory%20of%20relativity.md)}@}, Einstein specifically called {@{his earlier work "special theory of relativity" \(German: Spezielle Relativitätstheorie\)}@} in {@{two short papers published in November 1915<sup>[\[16\]](#^ref-16)</sup><sup>[\[17\]](#^ref-17)</sup> and in a long review article published in 1916}@},<sup>[\[18\]](#^ref-18)</sup> saying he meant {@{a restriction to frames in uniform motion}@}, and was featured in {@{the title of Einstein's popular book _[Relativity: The Special and the General Theory](Relativity%5F%20The%20Special%20and%20the%20General%20Theory.md)_ first published in 1916}@}. Just as {@{[Galilean relativity](Galilean%20invariance.md)}@} is accepted as {@{an approximation of special relativity that is valid for low speeds}@}, {@{special relativity}@} is considered {@{an approximation of general relativity that is valid for weak [gravitational fields](gravitational%20field.md)}@}, that is, at {@{a sufficiently small scale \(e.g., when [tidal forces](tidal%20force.md) are negligible\) and in conditions of [free fall](free%20fall.md)}@}. But {@{general relativity incorporates [non-Euclidean geometry](non-Euclidean%20geometry.md)}@} to represent {@{gravitational effects as the geometric curvature of spacetime}@}. {@{Special relativity}@} is restricted to {@{the flat spacetime known as [Minkowski space](Minkowski%20space.md)}@}. As long as {@{the universe can be modeled as a [pseudo-Riemannian manifold](pseudo-Riemannian%20manifold.md)}@}, {@{a Lorentz-invariant frame that abides by special relativity}@} can be defined for {@{a sufficiently small neighborhood of each point in this [curved spacetime](curved%20spacetime.md)}@}.
 
 ## terminology
 
@@ -177,18 +177,18 @@ There is {@{nothing special about the _x_-axis}@}. {@{The transformation}@} can 
 
 Writing {@{the Lorentz transformation and its inverse}@} in terms of {@{coordinate differences}@}, where one event has {@{coordinates \(_x_<sub>1</sub>, _t_<sub>1</sub>\) and \(_x_′<sub>1</sub>, _t_′<sub>1</sub>\)}@}, another event has {@{coordinates \(_x_<sub>2</sub>, _t_<sub>2</sub>\) and \(_x_′<sub>2</sub>, _t_′<sub>2</sub>\)}@}, and {@{the differences}@} are defined as
 
-- <a id="math_1"></a> __Eq. 1:__    {@{$\Delta x'=x'_{2}-x'_{1}\ ,\ \Delta t'=t'_{2}-t'_{1}\ $}@}.
-- <a id="math_2"></a> __Eq. 2:__    {@{$\Delta x=x_{2}-x_{1}\ ,\ \ \Delta t=t_{2}-t_{1}\ $}@}.
+- <a id="math 1"></a> __Eq. 1:__    {@{$\Delta x'=x'_{2}-x'_{1}\ ,\ \Delta t'=t'_{2}-t'_{1}\ $}@}.
+- <a id="math 2"></a> __Eq. 2:__    {@{$\Delta x=x_{2}-x_{1}\ ,\ \ \Delta t=t_{2}-t_{1}\ $}@}.
 
 we get
 
-- <a id="math_3"></a> __Eq. 3:__    {@{$\Delta x'=\gamma \ (\Delta x-v\,\Delta t)\ ,\ \ {}$ $\Delta t'=\gamma \ \left(\Delta t-v\ \Delta x/c^{2}\right)\ $}@}.
-- <a id="math_4"></a> __Eq. 4:__    {@{$\Delta x=\gamma \ (\Delta x'+v\,\Delta t')\ ,\ {}$ $\Delta t=\gamma \ \left(\Delta t'+v\ \Delta x'/c^{2}\right)\ $}@}.
+- <a id="math 3"></a> __Eq. 3:__    {@{$\Delta x'=\gamma \ (\Delta x-v\,\Delta t)\ ,\ \ {}$ $\Delta t'=\gamma \ \left(\Delta t-v\ \Delta x/c^{2}\right)\ $}@}.
+- <a id="math 4"></a> __Eq. 4:__    {@{$\Delta x=\gamma \ (\Delta x'+v\,\Delta t')\ ,\ {}$ $\Delta t=\gamma \ \left(\Delta t'+v\ \Delta x'/c^{2}\right)\ $}@}.
 
 If we take differentials instead of taking differences, we get
 
-- <a id="math_5"></a> __Eq. 5:__    {@{$dx'=\gamma \ (dx-v\,dt)\ ,\ \ {}$ $dt'=\gamma \ \left(dt-v\ dx/c^{2}\right)\$}@}.
-- <a id="math_6"></a> __Eq. 6:__    {@{$dx=\gamma \ (dx'+v\,dt')\ ,\ {}$ $dt=\gamma \ \left(dt'+v\ dx'/c^{2}\right)\ $}@}.
+- <a id="math 5"></a> __Eq. 5:__    {@{$dx'=\gamma \ (dx-v\,dt)\ ,\ \ {}$ $dt'=\gamma \ \left(dt-v\ dx/c^{2}\right)\$}@}.
+- <a id="math 6"></a> __Eq. 6:__    {@{$dx=\gamma \ (dx'+v\,dt')\ ,\ {}$ $dt=\gamma \ \left(dt'+v\ dx'/c^{2}\right)\ $}@}.
 
 ### graphical representation of the Lorentz transformation
 
@@ -314,29 +314,29 @@ Knowing {@{the general resolution of the paradox}@}, however, does not immediate
 > __flashcards__
 >
 > - total time of trip
->     - total time of trip / measured by the stay-at-home $T$ ::@:: $$T={\frac {2L}{v} }$$ <p> __Fig 4-4:__ 10 yr
->     - total time of trip / measured by the traveler $T'$ ::@:: $$T'={\frac {2L}{\gamma v} }$$ <p> __Fig 4-4:__ 8 yr
+>     - total time of trip / measured by the stay-at-home $T$ ::@:: $$T={\frac {2L}{v} }$$ <p> __Fig 4-4:__ 10 yr <p> (annotation: Nothing special here.)
+>     - total time of trip / measured by the traveler $T'$ ::@:: $$T'={\frac {2L}{\gamma v} }$$ <p> __Fig 4-4:__ 8 yr <p> (annotation: The measured distance being contracted by the Lorentz factor.)
 > - total number of pulses sent
->     - total number of pulses sent / measured by the stay-at-home $fT$ ::@:: $$fT={\frac {2fL}{v} }$$ <p> __Fig 4-4:__ 10
->     - total number of pulses sent / measured by the traveler $fT'$ ::@:: $$fT'={\frac {2fL}{\gamma v} }$$ <p> __Fig 4-4:__ 8
+>     - total number of pulses sent / measured by the stay-at-home $fT$ ::@:: $$fT={\frac {2fL}{v} }$$ <p> __Fig 4-4:__ 10 <p> (annotation: Nothing special here)
+>     - total number of pulses sent / measured by the traveler $fT'$ ::@:: $$fT'={\frac {2fL}{\gamma v} }$$ <p> __Fig 4-4:__ 8 <p> (annotation: The traveler experiences less time to finish the round trip.)
 > - time when traveler's turnaround is __detected__
->     - time when traveler's turnaround is __detected__ / measured by the stay-at-home $t_{1}$ ::@:: $$t_{1}={\frac {L}{v} }+{\frac {L}{c} }$$ <p> __Fig 4-4:__ 8 yr
->     - time when traveler's turnaround is __detected__ / measured by the traveler $t_{1}'$ ::@:: $$t_{1}'={\frac {L}{\gamma v} }$$ <p> __Fig 4-4:__ 4 yr
+>     - time when traveler's turnaround is __detected__ / measured by the stay-at-home $t_{1}$ ::@:: $$t_{1}={\frac {L}{v} }+{\frac {L}{c} }$$ <p> __Fig 4-4:__ 8 yr <p> (annotation: The second term is the time needed for light to reach the stay-at-home observer.)
+>     - time when traveler's turnaround is __detected__ / measured by the traveler $t_{1}'$ ::@:: $$t_{1}'={\frac {L}{\gamma v} }$$ <p> __Fig 4-4:__ 4 yr <p> (annotation: The traveler experiences less time to finish the first leg of the trip.)
 > - number of pulses received at initial $f'$ rate
->     - number of pulses received at initial $f'$ rate / measured by the stay-at-home $f't_{1}$ ::@:: $f't_{1}={\frac {fL}{v} }(1+\beta )\left({\frac {1-\beta }{1+\beta } }\right)^{1/2}$ <br/> $={\frac {fL}{v} }(1-\beta ^{2})^{1/2}$ <p> __Fig 4-4:__ 4
->     - number of pulses received at initial $f'$ rate / measured by the traveler $f't_{1}'$ ::@:: $f't_{1}'={\frac {fL}{v} }(1-\beta ^{2})^{1/2}\left({\frac {1-\beta }{1+\beta } }\right)^{1/2}$ <br/> $={\frac {fL}{v} }(1-\beta )$ <p> __Fig 4-4:__ 2
+>     - number of pulses received at initial $f'$ rate / measured by the stay-at-home $f't_{1}$ ::@:: $f't_{1}={\frac {fL}{v} }(1+\beta )\left({\frac {1-\beta }{1+\beta } }\right)^{1/2}$ <br/> $={\frac {fL}{v} }(1-\beta ^{2})^{1/2}$ <p> __Fig 4-4:__ 4 <p> (annotation: The combined effect of the longer turnaround detection time and the relativistic Doppler effect.)
+>     - number of pulses received at initial $f'$ rate / measured by the traveler $f't_{1}'$ ::@:: $f't_{1}'={\frac {fL}{v} }(1-\beta ^{2})^{1/2}\left({\frac {1-\beta }{1+\beta } }\right)^{1/2}$ <br/> $={\frac {fL}{v} }(1-\beta )$ <p> __Fig 4-4:__ 2 <p> (annotation: The combined effect of the shorter measured travel time and the relativistic Doppler effect.)
 > - time for remainder of trip
->     - time for remainder of trip / measured by the stay-at-home $t_{2}$ ::@:: $$t_{2}={\frac {L}{v} }-{\frac {L}{c} }$$ <p> __Fig 4-4:__ 2 yr
->     - time for remainder of trip / measured by the traveler $t_{2}'$ ::@:: $$t_{2}'={\frac {L}{\gamma v} }$$ <p> __Fig 4-4:__ 4 yr
+>     - time for remainder of trip / measured by the stay-at-home $t_{2}$ ::@:: $$t_{2}={\frac {L}{v} }-{\frac {L}{c} }$$ <p> __Fig 4-4:__ 2 yr <p> (annotation: The second term subtracts the time delay in turnaround detection caused by finite speed of light.)
+>     - time for remainder of trip / measured by the traveler $t_{2}'$ ::@:: $$t_{2}'={\frac {L}{\gamma v} }$$ <p> __Fig 4-4:__ 4 yr <p> (annotation: The traveler experiences less time to finish the second leg of the trip.)
 > - number of signals received at final $f''$ rate
->     - number of signals received at final $f''$ rate / measured by the stay-at-home $f''t_{2}$ ::@:: $f''t_{2}={\frac {fL}{v} }(1-\beta )\left({\frac {1+\beta }{1-\beta } }\right)^{1/2}={\frac {fL}{v} }(1-\beta ^{2})^{1/2}$ <p> __Fig 4-4:__ 4
->     - number of signals received at final $f''$ rate / measured by the traveler $f''t_{2}'$ ::@:: $f''t_{2}'={\frac {fL}{v} }(1-\beta ^{2})^{1/2}\left({\frac {1+\beta }{1-\beta } }\right)^{1/2}={\frac {fL}{v} }(1+\beta )$ <p> __Fig 4-4:__ 8
+>     - number of signals received at final $f''$ rate / measured by the stay-at-home $f''t_{2}$ ::@:: $f''t_{2}={\frac {fL}{v} }(1-\beta )\left({\frac {1+\beta }{1-\beta } }\right)^{1/2}={\frac {fL}{v} }(1-\beta ^{2})^{1/2}$ <p> __Fig 4-4:__ 4 <p> (annotation: The combined effect of the shorter return time and the relativistic Doppler effect.)
+>     - number of signals received at final $f''$ rate / measured by the traveler $f''t_{2}'$ ::@:: $f''t_{2}'={\frac {fL}{v} }(1-\beta ^{2})^{1/2}\left({\frac {1+\beta }{1-\beta } }\right)^{1/2}={\frac {fL}{v} }(1+\beta )$ <p> __Fig 4-4:__ 8 <p>  (annotation: The combined effect of the shorter measured travel time and the relativistic Doppler effect.)
 > - total number of received pulses
->     - total number of received pulses / measured by the stay-at-home $fT$ ::@:: ${\frac {2fL}{v} }(1-\beta ^{2})^{1/2}={\frac {2fL}{\gamma v} }$ <p> __Fig 4-4:__ 8
->     - total number of received pulses / measured by the traveler $fT'$ ::@:: $${\frac {2fL}{v} }$$ <p> __Fig 4-4:__ 10
+>     - total number of received pulses / measured by the stay-at-home $fT$ ::@:: ${\frac {2fL}{v} }(1-\beta ^{2})^{1/2}={\frac {2fL}{\gamma v} }$ <p> __Fig 4-4:__ 8 <p> (annotation: The stay-at-home thus infers the traveler has aged by 8 years.)
+>     - total number of received pulses / measured by the traveler $fT'$ ::@:: $${\frac {2fL}{v} }$$ <p> __Fig 4-4:__ 10 <p> (annotation: The traveler thus infers the stay-at-home has aged by 10 years.)
 > - twin's calculation as to how much the ___other___ twin should have aged
->     - twin's calculation as to how much the ___other___ twin should have aged / measured by the stay-at-home $T'$ ::@:: $$T'={\frac {2L}{\gamma v} }$$ <p> __Fig 4-4:__ 8 yr
->     - twin's calculation as to how much the ___other___ twin should have aged / measured by the traveler $T$ ::@:: $$T={\frac {2L}{v} }$$ <p> __Fig 4-4:__ 10 yr
+>     - twin's calculation as to how much the ___other___ twin should have aged / measured by the stay-at-home $T'$ ::@:: $$T'={\frac {2L}{\gamma v} }$$ <p> __Fig 4-4:__ 8 yr <p> (annotation: As inferred from the number of received pulses from the other twin.)
+>     - twin's calculation as to how much the ___other___ twin should have aged / measured by the traveler $T$ ::@:: $$T={\frac {2L}{v} }$$ <p> __Fig 4-4:__ 10 yr <p> (annotation: As inferred from the number of received pulses from the other twin.)
 
 ### length contraction
 
@@ -616,7 +616,7 @@ In {@{Newtonian mechanics}@}, {@{analysis of collisions}@} involves use of {@{th
 
 #### Newtonian analysis
 
-> {@{![\(a\) In the stationary frame, an incident sphere traveling at 2<!-- markdown separator -->__v__ strikes a stationary sphere. \(b\) In the center of momentum frame, the two spheres approach each other symmetrically at ±__v__. After elastic collision, the two spheres rebound from each other with equal and opposite velocities ±__u__. Energy conservation requires that \|u\| = \|v\|. \(c\) Reverting to the stationary frame, the rebound velocities are __v ± u.__ The dot product of __v + u__ and __v - u__ equals zero, indicating that the vectors are orthogonal.](../../archives/Wikimedia%20Commons/Elastic%20collision%20of%20moving%20particle%20with%20equal%20mass%20stationary%20particle.svg)}@}
+> {@{![\(a\) In the stationary frame, an incident sphere traveling at 2<!-- markdown separator -->__v__ strikes a stationary sphere. \(b\) In the center of momentum frame, the two spheres approach each other symmetrically at ±<!-- markdown separator -->__v__. After elastic collision, the two spheres rebound from each other with equal and opposite velocities ±<!-- markdown separator -->__u__. Energy conservation requires that \|u\| = \|v\|. \(c\) Reverting to the stationary frame, the rebound velocities are __v ± u.__ The dot product of __v + u__ and __v - u__ equals zero, indicating that the vectors are orthogonal.](../../archives/Wikimedia%20Commons/Elastic%20collision%20of%20moving%20particle%20with%20equal%20mass%20stationary%20particle.svg)}@}
 >
 > Figure 6–2. {@{Newtonian analysis}@} of {@{the elastic collision of a moving particle}@} with {@{an equal mass stationary particle}@}
 Fig. 6-2 provides {@{a demonstration of the result, familiar to billiard players}@}, that if {@{a stationary ball is struck elastically by another one of the same mass \(assuming no sidespin, or "English"\)}@}, then after {@{collision, the diverging paths of the two balls will subtend a right angle}@}. \(a\) In {@{the stationary frame}@}, {@{an incident sphere traveling at 2<!-- markdown separator -->__v__}@} strikes {@{a stationary sphere}@}. \(b\) In {@{the center of momentum frame}@}, the two spheres {@{approach each other symmetrically at ±__v__}@}. After {@{elastic collision}@}, {@{the two spheres rebound from each other}@} with {@{equal and opposite velocities ±__u__}@}. {@{Energy conservation}@} requires that {@{\|__u__\| = \|__v__\|}@}. \(c\) Reverting to {@{the stationary frame}@}, {@{the rebound velocities}@} are {@{__v__ ± __u__}@}. {@{The dot product}@} {@{\(__v__ + __u__\) ⋅ \(__v__ − __u__\) = __v__<sup>2</sup> − __u__<sup>2</sup> = 0}@}, indicating that {@{the vectors are orthogonal}@}.<sup>[\[13\]](#^ref-13)</sup><sup>:&hairsp;26–27&hairsp;</sup>

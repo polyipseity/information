@@ -56,7 +56,7 @@ In {@{phase space coordinates ⁠$({\boldsymbol {p} },{\boldsymbol {q} })$}@}⁠
 >
 > |                                                                                                                                                                              |                               |
 > | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------: |
-> | {@{$${\mathcal {L} }({\boldsymbol {q} },{\dot {\boldsymbol {q} } })+{\mathcal {H} }({\boldsymbol {p} },{\boldsymbol {q} })={\boldsymbol {p} }{\dot {\boldsymbol {q} } }$$}@} | <a id="math_1"></a> __\(1\)__ |
+> | {@{$${\mathcal {L} }({\boldsymbol {q} },{\dot {\boldsymbol {q} } })+{\mathcal {H} }({\boldsymbol {p} },{\boldsymbol {q} })={\boldsymbol {p} }{\dot {\boldsymbol {q} } }$$}@} | <a id="math 1"></a> __\(1\)__ |
 >
 > where {@{${\boldsymbol {p} }=\partial {\mathcal {L} }/\partial {\dot {\boldsymbol {q} } }$}@}.
 >
