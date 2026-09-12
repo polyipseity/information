@@ -97,8 +97,10 @@ Remove entire course directory (with confirmation). Remove from institution `ind
     - `quiz:` links to the tutorial quiz page when a quiz was administered:
       `[tutorial <N>](tutorials/tutorial%20<N>/index.md)`
       Append grade if known: `(grade: 2/2)`
+    - Assignment links: in the last lecture entry on or before the assignment due date, add the assignment as an `ELEC 1100` child (e.g. `- ELEC 1100 / [assignment name](assignments/<name>/index.md)`)
 - Gap sessions: `status: no class` or `status: public holiday: <name>`
 - Exam sessions: continuous week heading, `status: unscheduled; <exam name>`
+- Session free text: optional content after the `---` separator following session metadata; used for verbatim Canvas announcements as blockquotes (see "Announcement preservation")
 
 ## Exam handling
 
@@ -201,13 +203,31 @@ Not all courses use `## appendix`. Only add it when there is supplementary conte
 
 ### Announcement preservation
 
-Official Canvas announcements as blockquotes after `---`:
+Official Canvas announcements (discussion/topic pages) are placed as blockquotes in the session entry that matches the related assignment or activity, after a `---` separator following the session metadata. When an announcement relates to an assignment, place it in the same lecture entry where the assignment link appears (the last lecture on or before the due date). When an announcement relates to a lab or tutorial activity, place it in that session's entry.
+
+__When to add__: When a Canvas HTML source is a discussion/topic page (title starts with "Topic:" or page type is discussion), extract the title and body and place them in the chronologically matching session entry.
+
+__Format__: Each announcement is a blockquote with the title bolded. Omit the author name and platform chrome ("This topic is closed for comments", navigation elements). Preserve the original wording and formatting of the body text.
 
 ```markdown
+## week N lecture 1
+
+- datetime: ...
+- venue: ...
+- status: no class
+
 ---
 
-> <announcement text with original formatting preserved>
+> **Announcement Title**
+>
+> Verbatim announcement body text. Multiple sentences can be joined
+> into a single line within each paragraph to avoid soft-wrap lint errors.
+> Preserve original wording; do not summarize or rephrase.
 ```
+
+__Multiple announcements__: When several announcements target the same session, list them sequentially as separate blockquotes. Separate consecutive blockquotes with a blank line.
+
+__Placement rule__: Match the announcement to the session where the related content lives. Assignment-related announcements go in the lecture entry that links the assignment (last lecture on or before due date). Activity-related announcements (labs, tutorials) go in the session entry for that activity. When multiple announcements target the same session, list them sequentially as separate blockquotes.
 
 ## Grade extraction patterns
 

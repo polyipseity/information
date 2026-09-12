@@ -29,6 +29,7 @@ Preprocess each input:
 Identify HTML source type before extraction:
 
 - __Canvas HTML__: URL contains `canvas.ust.hk`; has assignment metadata (title, due date, points, grade). Extract via `convert_canvas_submission`.
+- __Canvas announcement__: URL contains `canvas.ust.hk` and page type is "Topic" (discussion/announcement). Has a title and body text but no grade/submission metadata. Extract title and body verbatim (omit author name and platform chrome like "This topic is closed for comments").
 - __PRS/iClicker HTML__: URL contains `prsmob.ust.hk/ars/`; has question text and numbered answer choices. Extract quiz content directly — do not run `convert_canvas_submission`.
 - __Generic HTML__: neither pattern. Extract readable text.
 
@@ -102,6 +103,12 @@ Material
 │  (syllabus, schedule, grading policy, course logistics,
 │   exam scores, grade distributions, exam statistics/reports)
 │  ├─ Yes → academic-crud-course-index (top-level index.md)
+│
+├─ Canvas announcement? (discussion/topic page with title and body,
+│  no grade/submission metadata)
+│  ├─ Yes → academic-crud-course-index: place verbatim in the
+│  │  matching session entry's free text area as a blockquote
+│  │  (see "Announcement preservation" in academic-crud-course-index)
 │
 ├─ Concept, theorem, or lecture topic? (standalone knowledge, not submission-bound)
 │  ├─ Yes → academic-crud-topic-note (<topic>.md)
@@ -228,6 +235,7 @@ After extracting content from HTML source files:
 - Quiz questions → `tutorial.md` / `lab.md` / `lecture.md`
 - Grade metadata → `tutorial.yml` / `lab.yml` / `lecture.yml`
 - Canvas submission metadata → `submission.yml`
+- Canvas announcement body → course `index.md` session entry (blockquote)
 - Prompt PDFs, data files, images → `attachments/` (only actual media/data)
 - Original HTML files → not stored in the repository
 
@@ -244,6 +252,19 @@ When extracting content from PRS/iClicker HTML, check for embedded base64 images
 5. Preserve original alt text from the `<img>` tag if present. If alt text is missing or empty, generate a concise, humanized description of what the image shows (e.g., "Resistor network with 6, 12, 3, and 2 ohm resistors"). Do not use LaTeX math notation in alt text — use plain language descriptions instead.
 6. Reference them in the quiz markdown with `![<alt text>](attachments/<name>.jpg)` inside the blockquote question.
 7. List them in the `## attachments` section of both `<type>.md` and `index.md` (where applicable — in-class-only `index.md` omits `## attachments`).
+
+### Canvas announcement extraction
+
+When the source is a Canvas discussion/topic page (title starts with "Topic:" or page structure indicates a discussion), extract the announcement content:
+
+1. Extract the title (text after "Topic:" or the discussion heading).
+2. Extract the body text verbatim, preserving line breaks and formatting.
+3. Strip the author name, timestamp, and platform chrome ("This topic is closed for comments", "Sort by", navigation elements).
+4. Match the announcement to the session where the related content lives. Assignment-related announcements go in the lecture entry that links the assignment (last lecture on or before due date). Activity-related announcements go in the matching lab or tutorial entry.
+5. Place the title (bolded) and body as a blockquote after a `---` separator in the matched session entry's free text area (after the session metadata).
+6. When multiple announcements target the same session, list them as separate blockquotes with a blank line between them.
+
+Do NOT run `convert_canvas_submission` on announcement pages — they have no grade or submission metadata.
 
 ### In-class component detection
 
@@ -359,8 +380,9 @@ Route to the correct `academic-crud-*` skill with preprocessed context:
 After the dispatched skill completes:
 
 1. Run validation on the created/modified file
-2. Report what was created/updated with file paths
-3. Suggest next steps (e.g., "Add flashcards", "Update index")
+2. Add a link to the assignment in the last lecture entry on or before its due date in the course `index.md`
+3. Report what was created/updated with file paths
+4. Suggest next steps (e.g., "Add flashcards", "Update index")
 
 > __Legacy patterns:__ If you encounter deprecated content structures (flat `questions.md`, flat assignment directories, `transcripts/`), consult the `academic-deprecated` skill for migration guidance. Deprecated pattern detection is not part of ingestion classification — it is a separate maintenance concern.
 
