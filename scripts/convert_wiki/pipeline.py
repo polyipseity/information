@@ -539,29 +539,31 @@ def _separate_block_math(text: str) -> str:
 
 
 def _merge_adjacent_numblk_tables(ele: PageElement) -> None:
-    """Merge adjacent <table class="numblk"> siblings into one table.
+    """Merge chains of adjacent <table class="numblk"> siblings into one table.
 
     Adjacent numblk tables share the same parent and have only whitespace
     or non-content siblings (``<link>``, ``<style>``) between them.  This
-    function moves ``<tr>`` elements from the second table's ``<tbody>``
-    into the first table's ``<tbody>``, then decomposes the second table.
+    function moves ``<tr>`` elements from each subsequent numblk table
+    into the first table's ``<tbody>``, then decomposes the subsequent
+    table.  The inner while-loop handles chains of 3+ tables.
     """
     if not isinstance(ele, Tag):
         return
     for table in list(ele.find_all("table", class_="numblk")):
-        nxt = table.find_next_sibling()
-        while isinstance(nxt, Tag) and nxt.name in {"link", "style"}:
-            nxt = nxt.find_next_sibling()
-        if not isinstance(nxt, Tag) or nxt.name != "table":
-            continue
-        if "numblk" not in frozenset(nxt.get_attribute_list("class")):
-            continue
-        # Both are numblk tables and adjacent — merge rows.
-        src_tbody = nxt.find("tbody") or nxt
-        dst_tbody = table.find("tbody") or table
-        for tr in src_tbody.find_all("tr"):
-            dst_tbody.append(tr.extract())
-        nxt.decompose()
+        while True:
+            nxt = table.find_next_sibling()
+            while isinstance(nxt, Tag) and nxt.name in {"link", "style"}:
+                nxt = nxt.find_next_sibling()
+            if not isinstance(nxt, Tag) or nxt.name != "table":
+                break
+            if "numblk" not in frozenset(nxt.get_attribute_list("class")):
+                break
+            # Both are numblk tables and adjacent — merge rows.
+            src_tbody = nxt.find("tbody") or nxt
+            dst_tbody = table.find("tbody") or table
+            for tr in src_tbody.find_all("tr"):
+                dst_tbody.append(tr.extract())
+            nxt.decompose()
 
 
 async def wiki_html_to_plaintext(
