@@ -2520,7 +2520,42 @@ class WikiHtmlConverter:
                 if cells := tuple(tr.find_all(_TD_OR_TH)):
                     self._rewrite_equation_number_cell(cells[-1])
 
-            return TableConverter.handle_table(ele, classes, self._soup)
+            result = TableConverter.handle_table(ele, classes, self._soup)
+            # Preserve equation anchors so prose links like #math%20N
+            # resolve correctly.  A merged table may carry absorbed ids
+            # from adjacent numblk tables (data-merged-ids="math_8,...").
+            anchor_ids: list[str] = []
+            if ele.get("id"):
+                anchor_ids.append(str(ele["id"]))
+            merged = ele.get("data-merged-ids", "")
+            if merged:
+                anchor_ids.extend(
+                    m.strip() for m in str(merged).split(",") if m.strip()
+                )
+            if anchor_ids:
+                anchor_md = (
+                    " ".join(
+                        f'<a id="{aid.replace(chr(95), chr(32))}"></a>'
+                        for aid in anchor_ids
+                    )
+                    + " "
+                )
+                if result is not None:
+                    result = _HandlerConfig(
+                        prefix=f"{anchor_md}{result.prefix}",
+                        suffix=result.suffix,
+                        joiner=result.joiner,
+                        process_strings=result.process_strings,
+                        full_result=result.full_result,
+                        list_stack=result.list_stack,
+                    )
+                else:
+                    # TableConverter returns None for tables without
+                    # <caption>.  The table's children (<tr> etc.) are
+                    # rendered inline by their own handlers; prepend
+                    # the anchor so it appears before the table output.
+                    result = _HandlerConfig(prefix=anchor_md)
+            return result
 
         # Rewrite equation-number cells (e.g. velocity table) before
         # conversion so they produce __\([N](#math%20N)\)__.

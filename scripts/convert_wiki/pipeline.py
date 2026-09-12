@@ -559,6 +559,13 @@ def _merge_adjacent_numblk_tables(ele: PageElement) -> None:
             if "numblk" not in frozenset(nxt.get_attribute_list("class")):
                 break
             # Both are numblk tables and adjacent — merge rows.
+            # Preserve the absorbed table's id so equation anchors
+            # (e.g. math_8) survive the merge.
+            src_id = nxt.get("id")
+            if src_id:
+                existing = table.get("data-merged-ids", "")
+                merged = f"{existing},{src_id}" if existing else src_id
+                table["data-merged-ids"] = merged
             src_tbody = nxt.find("tbody") or nxt
             dst_tbody = table.find("tbody") or table
             for tr in src_tbody.find_all("tr"):

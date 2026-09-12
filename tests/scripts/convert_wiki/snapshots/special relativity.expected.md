@@ -329,6 +329,8 @@ Consider two frames _S_ and _S_′ in standard configuration. A particle in _S_ 
 
 We can write
 
+<a id="math 7"></a> <a id="math 8"></a>
+
 |                                             |                        |
 | ------------------------------------------- | ---------------------- |
 | $$\mathbf {\vert u\vert } =u=dx/dt\,.$$     | __\([7](#math%207)\)__ |
@@ -336,11 +338,15 @@ We can write
 
 Substituting expressions for $dx'$ and $dt'$ from __[Equation 5](#math%205)__ into __[Equation 8](#math%208)__, followed by straightforward mathematical manipulations and back-substitution from __[Equation 7](#math%207)__ yields the Lorentz transformation of the speed $u$ to ⁠$u'$⁠:
 
+<a id="math 9"></a>
+
 |                                                                                                                                                                                                                                     |                        |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------- |
 | $$u'={\frac {dx'}{dt'} }={\frac {\gamma (dx-v\,dt)}{\gamma \left(dt-{\dfrac {v\,dx}{c^{2} } }\right)} }={\frac { {\dfrac {dx}{dt} }-v}{1-{\dfrac {v}{c^{2} } }\,{\dfrac {dx}{dt} } } }={\frac {u-v}{1-{\dfrac {uv}{c^{2} } } } }.$$ | __\([9](#math%209)\)__ |
 
 The inverse relation is obtained by interchanging the primed and unprimed symbols and replacing $v$ with ⁠$-v$⁠.
+
+<a id="math 10"></a>
 
 |                                      |                          |
 | ------------------------------------ | ------------------------ |
@@ -348,12 +354,16 @@ The inverse relation is obtained by interchanging the primed and unprimed symbol
 
 For $\mathbf {u}$ not aligned along the x-axis, we write:<sup>[\[13\]](#^ref-13)</sup><sup>:&hairsp;47–49&hairsp;</sup>
 
+<a id="math 11"></a> <a id="math 12"></a>
+
 |                                                                               |                          |
 | ----------------------------------------------------------------------------- | ------------------------ |
 | $$\mathbf {u} =(u_{1},\ u_{2},\ u_{3})=(dx/dt,\ dy/dt,\ dz/dt)\ .$$           | __\([11](#math%2011)\)__ |
 | $$\mathbf {u'} =(u_{1}',\ u_{2}',\ u_{3}')=(dx'/dt',\ dy'/dt',\ dz'/dt')\ .$$ | __\([12](#math%2012)\)__ |
 
 The forward and inverse transformations for this case are:
+
+<a id="math 13"></a> <a id="math 14"></a>
 
 |                                                                                                                                                                                                |                          |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------ |
@@ -555,17 +565,23 @@ $${\begin{aligned}E_{0}&=E_{1}+{\tfrac {1}{2} }L+{\tfrac {1}{2} }L=E_{1}+L\\[5mu
 
 From the above equations, we obtain the following:
 
+<a id="math 6-1"></a>
+
 |                                                                                                   |                            |
 | ------------------------------------------------------------------------------------------------- | -------------------------- |
 | $$\quad \quad (H_{0}-E_{0})-(H_{1}-E_{1})=L\left({\frac {1}{\sqrt {1-v^{2}/c^{2} } } }-1\right)$$ | __\([6-1](#math%206-1)\)__ |
 
 The two differences of form $H-E$ seen in the above equation have a straightforward physical interpretation. Since $H$ and $E$ are the energies of the arbitrary body in the moving and stationary frames, $H_{0}-E_{0}$ and $H_{1}-E_{1}$ represents the kinetic energies of the bodies before and after the emission of light \(except for an additive constant that fixes the zero point of energy and is conventionally set to zero\). Hence,
 
+<a id="math 6-2"></a>
+
 |                                                                                   |                            |
 | --------------------------------------------------------------------------------- | -------------------------- |
 | $$\quad \quad K_{0}-K_{1}=L\left({\frac {1}{\sqrt {1-v^{2}/c^{2} } } }-1\right)$$ | __\([6-2](#math%206-2)\)__ |
 
 Taking a Taylor series expansion and neglecting higher order terms, he obtained
+
+<a id="math 6-3"></a>
 
 |                                                                      |                            |
 | -------------------------------------------------------------------- | -------------------------- |
@@ -609,11 +625,15 @@ Consider the elastic collision scenario in Fig. 6-3 between a moving particle co
 
 The relativistic momentum and total relativistic energy of a particle are given by
 
+<a id="math 6-4"></a>
+
 |                                                                                         |                            |
 | --------------------------------------------------------------------------------------- | -------------------------- |
 | $$\quad \quad {\vec {p} }=\gamma m{\vec {v} }\quad {\text{and} }\quad E=\gamma mc^{2}$$ | __\([6-4](#math%206-4)\)__ |
 
 Conservation of momentum dictates that the sum of the momenta of the incoming particle and the stationary particle \(which initially has momentum = 0\) equals the sum of the momenta of the emergent particles:
+
+<a id="math 6-5"></a>
 
 |                                                                                                          |                            |
 | -------------------------------------------------------------------------------------------------------- | -------------------------- |
@@ -621,11 +641,15 @@ Conservation of momentum dictates that the sum of the momenta of the incoming pa
 
 Likewise, the sum of the total relativistic energies of the incoming particle and the stationary particle \(which initially has total energy mc<sup>2</sup>\) equals the sum of the total energies of the emergent particles:
 
+<a id="math 6-6"></a>
+
 |                                                                              |                            |
 | ---------------------------------------------------------------------------- | -------------------------- |
 | $$\quad \quad \gamma _{1}mc^{2}+mc^{2}=\gamma _{2}mc^{2}+\gamma _{3}mc^{2}$$ | __\([6-6](#math%206-6)\)__ |
 
 Breaking down \(__[6-5](#math%206-5)__\) into its components, replacing $v$ with the dimensionless ⁠$\beta$⁠, and factoring out common terms from \(__[6-5](#math%206-5)__\) and \(__[6-6](#math%206-6)__\) yields the following:<sup>[\[p 18\]](#^p-18)</sup>
+
+<a id="math 6-7"></a> <a id="math 6-8"></a> <a id="math 6-9"></a>
 
 |                                                                                                             |                            |
 | ----------------------------------------------------------------------------------------------------------- | -------------------------- |
@@ -635,6 +659,8 @@ Breaking down \(__[6-5](#math%206-5)__\) into its components, replacing $v$ with
 
 From these we obtain the following relationships:<sup>[\[p 18\]](#^p-18)</sup>
 
+<a id="math 6-10"></a> <a id="math 6-11"></a> <a id="math 6-12"></a>
+
 |                                                                                                                                                                  |                              |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------- |
 | $$\quad \quad \beta _{2}={\frac {\beta _{1}\sin {\phi } }{\{\beta _{1}^{2}\sin ^{2}{\phi }+\sin ^{2}(\phi +\theta )/\gamma _{1}^{2}\}^{1/2} } }$$                | __\([6-10](#math%206-10)\)__ |
@@ -642,6 +668,8 @@ From these we obtain the following relationships:<sup>[\[p 18\]](#^p-18)</sup>
 | $$\quad \quad \cos {(\phi +\theta )}={\frac {(\gamma _{1}-1)\sin {\theta }\cos {\theta } }{\{(\gamma _{1}+1)^{2}\sin ^{2}\theta +4\cos ^{2}\theta \}^{1/2} } }$$ | __\([6-12](#math%206-12)\)__ |
 
 For the symmetrical case in which $\phi =\theta$ and ⁠$\beta _{2}=\beta _{3}$⁠, \(__[6-12](#math%206-12)__\) takes on the simpler form:<sup>[\[p 18\]](#^p-18)</sup>
+
+<a id="math 6-13"></a>
 
 |                                                                                                   |                              |
 | ------------------------------------------------------------------------------------------------- | ---------------------------- |
