@@ -1760,7 +1760,24 @@ class WikiHtmlConverter:
                     prev = prev.find_previous_sibling()
                 if isinstance(prev, Tag) and prev.name == "p":
                     prefix = " <p> &nbsp;&nbsp;&nbsp;&nbsp; "
-                    suffix = " <p> "
+                    # Check if next sibling is a heading — headings should
+                    # be on separate lines, not joined with <p>.
+                    # Headings may be wrapped in div.mw-heading.
+                    nxt = ele.find_next_sibling()
+                    while isinstance(nxt, Tag) and nxt.name in {"link", "style"}:
+                        nxt = nxt.find_next_sibling()
+                    is_heading = isinstance(nxt, Tag) and (
+                        nxt.name in {"h1", "h2", "h3", "h4", "h5", "h6"}
+                        or (
+                            nxt.name == "div"
+                            and "mw-heading"
+                            in frozenset(nxt.get_attribute_list("class"))
+                        )
+                    )
+                    if is_heading:
+                        suffix = "\n\n"
+                    else:
+                        suffix = " <p> "
         return _HandlerConfig(joiner=joiner, prefix=prefix, suffix=suffix)
 
     def _handle_p(self, ele: Tag, classes: frozenset[str]) -> _HandlerConfig:
@@ -1789,12 +1806,40 @@ class WikiHtmlConverter:
             prev = ele.find_previous_sibling()
             while isinstance(prev, Tag) and prev.name in {"ul", "ol"}:
                 prefix = " "
-                suffix = "\n\n"
+                suffix = ""
                 break
             else:
                 prev = None
             if prev is None:
                 pass  # no list sibling found, keep default prefix
+
+        # When a <p> follows a display-math-only <dl> (which uses " <p> " as
+        # its suffix), strip the prefix newline so the content joins inline.
+        if not in_table and prefix == "\n":
+            prev = ele.find_previous_sibling()
+            while isinstance(prev, Tag) and prev.name in {"link", "style"}:
+                prev = prev.find_previous_sibling()
+            if (
+                isinstance(prev, Tag)
+                and self._is_display_math_only_dl(prev)
+                and self._dl_follows_p(prev)
+            ):
+                nxt_of_dl = prev.find_next_sibling()
+                while isinstance(nxt_of_dl, Tag) and nxt_of_dl.name in {
+                    "link",
+                    "style",
+                }:
+                    nxt_of_dl = nxt_of_dl.find_next_sibling()
+                is_heading = isinstance(nxt_of_dl, Tag) and (
+                    nxt_of_dl.name in {"h1", "h2", "h3", "h4", "h5", "h6"}
+                    or (
+                        nxt_of_dl.name == "div"
+                        and "mw-heading"
+                        in frozenset(nxt_of_dl.get_attribute_list("class"))
+                    )
+                )
+                if not is_heading:
+                    prefix = ""
 
         return _HandlerConfig(prefix=prefix, suffix=suffix, process_strings=process)
 
@@ -1858,6 +1903,14 @@ class WikiHtmlConverter:
         # child may be math (e.g. "$\Delta x=0\ $" at the end of
         # "for events satisfying …").
         return True
+
+    @staticmethod
+    def _dl_follows_p(ele: Tag) -> bool:
+        """Return True if *ele* is a <dl> whose previous sibling is a <p>."""
+        prev = ele.find_previous_sibling()
+        while isinstance(prev, Tag) and prev.name in {"link", "style"}:
+            prev = prev.find_previous_sibling()
+        return isinstance(prev, Tag) and prev.name == "p"
 
     def _handle_code(self, ele: Tag, classes: frozenset[str]) -> _HandlerConfig:
         """Render inline <code> with backtick markers."""
@@ -2141,6 +2194,15 @@ class WikiHtmlConverter:
             else:
                 prefix = "\n\n"
             suffix = "\n\n"
+        # When a list follows a display-math-only <p> (which was joined to
+        # the previous list), reduce the prefix from "\n\n" to "\n" so
+        # there is no blank line between the equation and the next list.
+        if prefix == "\n\n" and not self._in_table_cell(ele):
+            prev = ele.find_previous_sibling()
+            while isinstance(prev, Tag) and prev.name in {"link", "style"}:
+                prev = prev.find_previous_sibling()
+            if isinstance(prev, Tag) and self._is_display_math_only(prev):
+                prefix = "\n"
         return prefix, suffix
 
     def _handle_ol(
