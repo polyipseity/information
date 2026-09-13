@@ -462,10 +462,12 @@ class WikiHtmlConverter:
 
         if "hatnote" in classes:
             config.prefix = f"- {config.prefix.removesuffix('_')}"
-            # Find the next non-empty sibling, skipping whitespace and empty spans.
+            # Find the next non-empty sibling, skipping whitespace, empty
+            # spans, and <link>/<style> elements.
             nxt = ele.find_next_sibling()
-            while isinstance(nxt, Tag) and "mw-empty-elt" in frozenset(
-                nxt.get_attribute_list("class")
+            while isinstance(nxt, Tag) and (
+                "mw-empty-elt" in frozenset(nxt.get_attribute_list("class"))
+                or nxt.name in {"link", "style"}
             ):
                 nxt = nxt.find_next_sibling()
             if isinstance(nxt, Tag) and (
@@ -1869,6 +1871,15 @@ class WikiHtmlConverter:
                 if not is_heading:
                     prefix = ""
 
+        # When a <p> is followed by a display-math-only <dl>, suppress the
+        # blank line so the <dl> joins inline with <p> separator.
+        if not in_table and suffix == "\n\n":
+            nxt = ele.find_next_sibling()
+            while isinstance(nxt, Tag) and nxt.name in {"link", "style"}:
+                nxt = nxt.find_next_sibling()
+            if isinstance(nxt, Tag) and self._is_display_math_only_dl(nxt):
+                suffix = ""
+
         return _HandlerConfig(prefix=prefix, suffix=suffix, process_strings=process)
 
     @staticmethod
@@ -2342,6 +2353,18 @@ class WikiHtmlConverter:
                 prev = prev.find_previous_sibling()
             if isinstance(prev, Tag) and self._is_display_math_only(prev):
                 prefix = "\n"
+            # When a list follows a <dl> that was joined inline with the
+            # preceding list (the <dl> is between two lists), reduce the
+            # prefix to avoid an extra blank line.
+            elif isinstance(prev, Tag) and prev.name == "dl":
+                dl_prev = prev.find_previous_sibling()
+                while isinstance(dl_prev, Tag) and dl_prev.name in {
+                    "link",
+                    "style",
+                }:
+                    dl_prev = dl_prev.find_previous_sibling()
+                if isinstance(dl_prev, Tag) and dl_prev.name in {"ul", "ol"}:
+                    prefix = "\n"
         return prefix, suffix
 
     def _handle_ol(
