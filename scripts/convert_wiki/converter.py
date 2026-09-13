@@ -68,6 +68,7 @@ from .template_config import (
     _BOXED_CLASSES,
     _DISPLAY_MATH_CONTAINERS,
     _DISPLAY_MATH_ENVIRONMENTS,
+    _INLINE_LIST_CLASSES,
     _MEDIA_TAGS,
     _OPAQUE_SPAN_CLASSES,
 )
@@ -576,8 +577,8 @@ class WikiHtmlConverter:
 
         if ele.name == "ol":
             return self._handle_ol(ele, classes, list_stack)
-        if ele.name == "ul" and "portalbox" in classes:
-            return self._handle_portalbox(ele, classes)
+        if ele.name == "ul" and _INLINE_LIST_CLASSES & classes:
+            return self._handle_inline_list(ele, classes)
         if ele.name == "ul":
             return self._handle_ul(ele, classes, list_stack)
         if ele.name == "li":
@@ -1930,10 +1931,10 @@ class WikiHtmlConverter:
             list_stack=(*list_stack, 0),
         )
 
-    def _handle_portalbox(
+    def _handle_inline_list(
         self, ele: Tag, classes: frozenset[str]
     ) -> _HandlerConfig | None:
-        """Handle portal box elements as inline content."""
+        """Handle list elements rendered as inline content (e.g. portalbox)."""
         if ele.name != "ul":
             return None
 
