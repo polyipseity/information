@@ -9,7 +9,7 @@ tags:
 
 # friction
 
-{@{__Friction__}@} is {@{the [force](force.md) resisting the relative motion}@} of {@{solid surfaces, fluid layers, and material elements [sliding](sliding%20(motion).md) against each other}@}. {@{Types of friction}@} include {@{dry, fluid, internal, lubricated, and skin}@}. <!--SR:!2030-03-09,1570,330!2029-01-28,1111,270!2026-11-12,279,339!2026-11-06,274,339!2026-10-22,260,339-->
+{@{__Friction__}@} is {@{the [force](force.md) resisting the relative motion}@} of {@{solid surfaces, fluid layers, and material elements [sliding](sliding%20(motion).md) against each other}@}. {@{Types of friction}@} include {@{dry, fluid, internal, lubricated, and skin}@}. <!--SR:!2030-03-09,1570,330!2029-01-28,1111,270!2026-11-12,279,339!2026-11-06,274,339!fsrs,2030-01-15T00:00:00.000Z,1181,1180.6034795,1,2,9,0,0,2026-10-22T00:00:00.000Z-->
 
 ## references
 

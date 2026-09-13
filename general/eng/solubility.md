@@ -352,7 +352,7 @@ return await memorize_map(
 - [calcium hydroxide](calcium%20hydroxide.md):@:<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2031-01-18,1943,318-->
 - [calcium oxide](calcium%20oxide.md):@:<span style="color: violet;">reacts</span> <!--SR:!fsrs,2031-03-12T00:00:00.000Z,1701,1700.79733812,3.58129205,2,10,0,0,2026-07-15T00:00:00.000Z-->
 - [calcium sulfate](calcium%20sulfate.md):@:<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2027-05-15,607,198-->
-- [calcium sulfide](calcium%20sulfide.md):@:<span style="color: violet;">reacts</span> <!--SR:!2026-10-22,284,150-->
+- [calcium sulfide](calcium%20sulfide.md):@:<span style="color: violet;">reacts</span> <!--SR:!fsrs,2027-11-15T00:00:00.000Z,389,388.7424906,9.23597837,2,9,0,0,2026-10-22T00:00:00.000Z-->
 - [calcium sulfite](calcium%20sulfite.md):@:<span style="color: red;">insoluble</span> <!--SR:!fsrs,2026-12-25T00:00:00.000Z,148,147.73377144,8.48672837,2,8,0,0,2026-07-30T00:00:00.000Z-->
 - [copper(I) bromide](copper(I)%20bromide.md):@:<span style="color: red;">insoluble</span> <!--SR:!2027-12-24,1041,278-->
 - [copper(I) chloride](copper(I)%20chloride.md):@:<span style="color: red;">insoluble</span> <!--SR:!2027-02-13,776,278-->

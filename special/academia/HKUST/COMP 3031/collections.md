@@ -43,7 +43,7 @@ In Scala {@{a __list__}@} is {@{the canonical immutable linear data structure}@}
 
 Unlike {@{arrays}@}, lists are {@{__immutable__}@}—once constructed {@{their contents cannot be altered}@}—and they are inherently {@{__recursive__}@}; {@{each element is prepended}@} to a list by storing {@{the element and the remaining of the list as another list}@}. Lists are also {@{__homogeneous__}@}: all elements must {@{share the same type _T_}@}, so {@{a list of integers}@} is written {@{`List[Int]`}@} and its type annotation can be {@{omitted when inferred}@}. <!--SR:!fsrs,2029-12-29T00:00:00.000Z,1176,1176.0199518,1,2,9,0,0,2026-10-10T00:00:00.000Z!2026-11-03,290,330!2026-10-29,285,330!fsrs,2029-10-23T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-09-27T00:00:00.000Z!fsrs,2028-08-24T00:00:00.000Z,703,702.57151752,2.49272837,2,9,0,0,2026-09-21T00:00:00.000Z!fsrs,2029-07-18T00:00:00.000Z,1045,1045.2595081,1,2,9,0,0,2026-09-07T00:00:00.000Z!fsrs,2029-11-30T00:00:00.000Z,1153,1153.10014712,1,2,9,0,0,2026-10-04T00:00:00.000Z!fsrs,2030-01-03T00:00:00.000Z,1180,1179.83367202,1,2,9,0,0,2026-10-11T00:00:00.000Z!fsrs,2029-12-19T00:00:00.000Z,1168,1168.38706892,1,2,9,0,0,2026-10-08T00:00:00.000Z!fsrs,2028-12-02T00:00:00.000Z,775,775.30862487,2.49272837,2,9,0,0,2026-10-19T00:00:00.000Z!2026-11-07,293,330-->
 
-{@{Every list}@} in Scala is {@{built from two primitives}@}. {@{The empty list}@} is denoted by {@{the constant `Nil`}@}, while {@{the cons operator `::`}@} constructs {@{a new list by prepending an element to an existing one (`x :: xs`)}@}. Because {@{operators ending with a colon}@} {@{associate to the right}@}, {@{a sequence of cons operations}@} can be {@{written without parentheses}@}: <!--SR:!fsrs,2030-01-12T00:00:00.000Z,1187,1187.45608877,1,2,9,0,0,2026-10-13T00:00:00.000Z!fsrs,2029-07-13T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-09-06T00:00:00.000Z!fsrs,2029-12-24T00:00:00.000Z,1172,1172.20432607,1,2,9,0,0,2026-10-09T00:00:00.000Z!fsrs,2029-10-19T00:00:00.000Z,1119,1118.59914239,1,2,9,0,0,2026-09-26T00:00:00.000Z!fsrs,2029-12-24T00:00:00.000Z,1172,1172.20432607,1,2,9,0,0,2026-10-09T00:00:00.000Z!2026-10-23,281,330!2026-10-22,280,330!fsrs,2029-10-28T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-09-28T00:00:00.000Z!fsrs,2028-02-01T00:00:00.000Z,506,506.03526322,5.00637887,2,9,0,0,2026-09-13T00:00:00.000Z!2026-11-07,293,330-->
+{@{Every list}@} in Scala is {@{built from two primitives}@}. {@{The empty list}@} is denoted by {@{the constant `Nil`}@}, while {@{the cons operator `::`}@} constructs {@{a new list by prepending an element to an existing one (`x :: xs`)}@}. Because {@{operators ending with a colon}@} {@{associate to the right}@}, {@{a sequence of cons operations}@} can be {@{written without parentheses}@}: <!--SR:!fsrs,2030-01-12T00:00:00.000Z,1187,1187.45608877,1,2,9,0,0,2026-10-13T00:00:00.000Z!fsrs,2029-07-13T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-09-06T00:00:00.000Z!fsrs,2029-12-24T00:00:00.000Z,1172,1172.20432607,1,2,9,0,0,2026-10-09T00:00:00.000Z!fsrs,2029-10-19T00:00:00.000Z,1119,1118.59914239,1,2,9,0,0,2026-09-26T00:00:00.000Z!fsrs,2029-12-24T00:00:00.000Z,1172,1172.20432607,1,2,9,0,0,2026-10-09T00:00:00.000Z!2026-10-23,281,330!fsrs,2030-02-25T00:00:00.000Z,1222,1221.67255456,1,2,9,0,0,2026-10-22T00:00:00.000Z!fsrs,2029-10-28T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-09-28T00:00:00.000Z!fsrs,2028-02-01T00:00:00.000Z,506,506.03526322,5.00637887,2,9,0,0,2026-09-13T00:00:00.000Z!2026-11-07,293,330-->
 
 > [!example] __operator associativity__
 >
@@ -141,7 +141,7 @@ The `List` API offers {@{a rich set of operations}@} for {@{sublists, element ac
 
 {@{Additional constructors}@} include {@{concatenation (`xs ::: ys`), reversal (`xs.reverse`) and update (`xs.updated(n, x)`)}@}. {@{Element search}@} is supported by {@{`.indexOf(x)` and `.contains(x)`}@}. <!--SR:!fsrs,2028-08-17T00:00:00.000Z,698,697.52483893,2.49272837,2,9,0,0,2026-09-19T00:00:00.000Z!fsrs,2029-11-19T00:00:00.000Z,1144,1144.03786294,1,2,9,0,0,2026-10-02T00:00:00.000Z!fsrs,2029-07-04T00:00:00.000Z,1034,1033.61384781,1,2,9,0,0,2026-09-04T00:00:00.000Z!fsrs,2028-08-24T00:00:00.000Z,703,702.57151752,2.49272837,2,9,0,0,2026-09-21T00:00:00.000Z-->
 
-{@{The implementation of `last` and `init`}@}, for instance, is {@{linear in the length of the list}@} because it must {@{traverse all elements to reach the tail}@}. <!--SR:!fsrs,2029-07-08T00:00:00.000Z,1037,1037.49777357,1,2,9,0,0,2026-09-05T00:00:00.000Z!fsrs,2029-11-07T00:00:00.000Z,1134,1133.95119242,1,2,9,0,0,2026-09-30T00:00:00.000Z!2026-10-22,280,330-->
+{@{The implementation of `last` and `init`}@}, for instance, is {@{linear in the length of the list}@} because it must {@{traverse all elements to reach the tail}@}. <!--SR:!fsrs,2029-07-08T00:00:00.000Z,1037,1037.49777357,1,2,9,0,0,2026-09-05T00:00:00.000Z!fsrs,2029-11-07T00:00:00.000Z,1134,1133.95119242,1,2,9,0,0,2026-09-30T00:00:00.000Z!fsrs,2030-02-25T00:00:00.000Z,1222,1221.67255456,1,2,9,0,0,2026-10-22T00:00:00.000Z-->
 
 > [!example] __`List.last`, `List.init`__
 >
@@ -262,7 +262,7 @@ Using {@{`map`}@}, {@{a simple scaling routine}@} can be written as: <!--SR:!fsr
 > def scaleList(xs: List[Double], factor: Double) =
 >   xs.map(x => x * factor)
 > ```
-<!--SR:!fsrs,2029-11-12T00:00:00.000Z,1138,1137.78464757,1,2,9,0,0,2026-10-01T00:00:00.000Z!2026-10-22,280,330-->
+<!--SR:!fsrs,2029-11-12T00:00:00.000Z,1138,1137.78464757,1,2,9,0,0,2026-10-01T00:00:00.000Z!fsrs,2030-02-25T00:00:00.000Z,1222,1221.67255456,1,2,9,0,0,2026-10-22T00:00:00.000Z-->
 
 ### filter
 
@@ -295,7 +295,7 @@ Using {@{`map`}@}, {@{a simple scaling routine}@} can be written as: <!--SR:!fsr
 > ```
 <!--SR:!fsrs,2029-06-29T00:00:00.000Z,1030,1029.72783972,1,2,9,0,0,2026-09-03T00:00:00.000Z!2026-10-23,281,330-->
 
-{@{Other useful filter-like operations}@} are built from `filter`, such as {@{`filterNot`, `partition`, `takeWhile`, `dropWhile`, and `span`}@}.  Each of these performs {@{a single traversal}@} while producing {@{different views of the original list}@}. <!--SR:!fsrs,2030-02-01T00:00:00.000Z,1203,1202.68030072,1,2,9,0,0,2026-10-17T00:00:00.000Z!fsrs,2028-08-27T00:00:00.000Z,705,705.09333259,2.49272837,2,9,0,0,2026-09-22T00:00:00.000Z!fsrs,2028-02-01T00:00:00.000Z,506,506.03526322,5.00637887,2,9,0,0,2026-09-13T00:00:00.000Z!2026-10-22,280,330-->
+{@{Other useful filter-like operations}@} are built from `filter`, such as {@{`filterNot`, `partition`, `takeWhile`, `dropWhile`, and `span`}@}.  Each of these performs {@{a single traversal}@} while producing {@{different views of the original list}@}. <!--SR:!fsrs,2030-02-01T00:00:00.000Z,1203,1202.68030072,1,2,9,0,0,2026-10-17T00:00:00.000Z!fsrs,2028-08-27T00:00:00.000Z,705,705.09333259,2.49272837,2,9,0,0,2026-09-22T00:00:00.000Z!fsrs,2028-02-01T00:00:00.000Z,506,506.03526322,5.00637887,2,9,0,0,2026-09-13T00:00:00.000Z!fsrs,2030-02-25T00:00:00.000Z,1222,1221.67255456,1,2,9,0,0,2026-10-22T00:00:00.000Z-->
 
 ### pack
 
@@ -521,7 +521,7 @@ These operations are typically implemented via {@{recursion or tail-recursion}@}
 
 ## mapping
 
-{@{A `Map`}@} associates {@{keys of type `Key` with values of type `Value`}@}. {@{The literal syntax `key -> value`}@} is {@{syntactic sugar for a pair `(key, value)`}@}, implemented as {@{an extension method on any object}@}. Typical examples: <!--SR:!fsrs,2030-02-05T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-10-18T00:00:00.000Z!fsrs,2028-08-09T00:00:00.000Z,692,692.47401324,2.49272837,2,9,0,0,2026-09-17T00:00:00.000Z!fsrs,2030-02-05T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-10-18T00:00:00.000Z!2026-10-22,280,330!fsrs,2030-01-22T00:00:00.000Z,1195,1195.07164214,1,2,9,0,0,2026-10-15T00:00:00.000Z-->
+{@{A `Map`}@} associates {@{keys of type `Key` with values of type `Value`}@}. {@{The literal syntax `key -> value`}@} is {@{syntactic sugar for a pair `(key, value)`}@}, implemented as {@{an extension method on any object}@}. Typical examples: <!--SR:!fsrs,2030-02-05T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-10-18T00:00:00.000Z!fsrs,2028-08-09T00:00:00.000Z,692,692.47401324,2.49272837,2,9,0,0,2026-09-17T00:00:00.000Z!fsrs,2030-02-05T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-10-18T00:00:00.000Z!fsrs,2030-02-25T00:00:00.000Z,1222,1221.67255456,1,2,9,0,0,2026-10-22T00:00:00.000Z!fsrs,2030-01-22T00:00:00.000Z,1195,1195.07164214,1,2,9,0,0,2026-10-15T00:00:00.000Z-->
 
 > [!example] __`Map` construction__
 >
@@ -696,7 +696,7 @@ To avoid {@{the verbosity of `Polynomial(Map(...))`}@}, {@{a _varargs_ construct
 > ```
 <!--SR:!fsrs,2029-06-24T00:00:00.000Z,1026,1025.83973773,1,2,9,0,0,2026-09-02T00:00:00.000Z!fsrs,2029-11-19T00:00:00.000Z,1144,1144.03786294,1,2,9,0,0,2026-10-02T00:00:00.000Z-->
 
-{@{The core distinction}@} between {@{a `Set` and a `Seq`}@} is that the former {@{does not preserve order and automatically removes duplicates}@}; consequently {@{the only fundamental operation}@} on a set is {@{membership testing via `contains`}@}. {@{A small example}@} shows {@{how duplicate values collapse}@}: <!--SR:!2026-10-27,283,330!fsrs,2030-01-17T00:00:00.000Z,1191,1191.26470738,1,2,9,0,0,2026-10-14T00:00:00.000Z!fsrs,2029-12-05T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-10-05T00:00:00.000Z!fsrs,2030-02-05T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-10-18T00:00:00.000Z!fsrs,2030-02-05T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-10-18T00:00:00.000Z!2026-10-22,280,330!fsrs,2030-02-05T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-10-18T00:00:00.000Z-->
+{@{The core distinction}@} between {@{a `Set` and a `Seq`}@} is that the former {@{does not preserve order and automatically removes duplicates}@}; consequently {@{the only fundamental operation}@} on a set is {@{membership testing via `contains`}@}. {@{A small example}@} shows {@{how duplicate values collapse}@}: <!--SR:!2026-10-27,283,330!fsrs,2030-01-17T00:00:00.000Z,1191,1191.26470738,1,2,9,0,0,2026-10-14T00:00:00.000Z!fsrs,2029-12-05T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-10-05T00:00:00.000Z!fsrs,2030-02-05T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-10-18T00:00:00.000Z!fsrs,2030-02-05T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-10-18T00:00:00.000Z!fsrs,2030-02-25T00:00:00.000Z,1222,1221.67255456,1,2,9,0,0,2026-10-22T00:00:00.000Z!fsrs,2030-02-05T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-10-18T00:00:00.000Z-->
 
 > [!example] __`Set` deduplication__
 >

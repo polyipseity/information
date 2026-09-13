@@ -49,7 +49,7 @@ Statisticians often contemplate {@{a [parameterized family](parameterized%20fami
 
 ### statistical properties
 
-{@{Important potential properties of statistics}@} include {@{[completeness](completeness%20(statistics).md), [consistency](consistent%20estimator.md), [sufficiency](sufficiency%20(statistics).md), [unbiasedness](estimator%20bias.md)}@}, {@{[minimum mean square error](minimum%20mean%20square%20error.md), low [variance](variance.md), [robustness](robust%20statistics.md), and computational convenience}@}. <!--SR:!2028-11-07,1067,350!2029-08-11,1207,310!2026-10-22,466,310-->
+{@{Important potential properties of statistics}@} include {@{[completeness](completeness%20(statistics).md), [consistency](consistent%20estimator.md), [sufficiency](sufficiency%20(statistics).md), [unbiasedness](estimator%20bias.md)}@}, {@{[minimum mean square error](minimum%20mean%20square%20error.md), low [variance](variance.md), [robustness](robust%20statistics.md), and computational convenience}@}. <!--SR:!2028-11-07,1067,350!2029-08-11,1207,310!fsrs,2031-09-03T00:00:00.000Z,1777,1777.3333521,1,2,10,0,0,2026-10-22T00:00:00.000Z-->
 
 ### information of a statistic
 

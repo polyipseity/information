@@ -141,7 +141,7 @@ return chain.from_iterable([r.value for r in results])
 - [beryllium](beryllium.md)→::@::←[aluminium](aluminium.md) <!--SR:!2027-03-13,675,230!2027-02-27,434,210-->
 - [aluminium](aluminium.md)→::@::←[titanium](titanium.md) <!--SR:!2027-08-18,718,230!2028-05-15,832,230-->
 - [titanium](titanium.md)→::@::←[manganese](manganese.md) <!--SR:!2027-06-25,930,250!2029-05-18,1277,270-->
-- [manganese](manganese.md)→::@::←[zinc](zinc.md) <!--SR:!2026-11-29,448,190!2026-10-22,560,210-->
+- [manganese](manganese.md)→::@::←[zinc](zinc.md) <!--SR:!2026-11-29,448,190!fsrs,2030-07-02T00:00:00.000Z,1349,1348.6184479,5.98276817,2,10,0,0,2026-10-22T00:00:00.000Z-->
 - [zinc](zinc.md)→::@::←[chromium](chromium.md) <!--SR:!2028-12-27,944,230!2027-10-04,881,230-->
 - [chromium](chromium.md)→::@::←[iron](iron.md) <!--SR:!fsrs,2034-01-15T00:00:00.000Z,2689,2689.32964705,1.98030797,2,11,0,0,2026-09-05T00:00:00.000Z!fsrs,2028-08-12T00:00:00.000Z,750,750.46806542,7.73747837,2,10,0,0,2026-07-24T00:00:00.000Z-->
 - [iron](iron.md)→::@::←[cadmium](cadmium.md) <!--SR:!2027-09-09,1066,290!2027-01-30,391,210-->

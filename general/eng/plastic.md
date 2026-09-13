@@ -125,7 +125,7 @@ return chain.from_iterable([r.value for r in results])
 
 - [high-density polyethylene](high-density%20polyethylene.md) (HDPE):@:[bottles](bottle.md), [boxes](boxes.md), [buckets](bucket.md) <!--SR:!2029-09-22,1615,274-->
 - [low-density polyethylene](low-density%20polyethylene.md) (LDPE):@:flexible cold water pipes, food wrapping films, [plastic bags](plastic%20bag.md) <!--SR:!2028-10-12,1214,230-->
-- [polyethylene terephthalate](polyethylene%20terephthalate.md) (PET):@:[bottles](bottle.md), [clothing](clothing.md), [fibers](fiber.md), lightweight sails <!--SR:!2026-10-22,307,150-->
+- [polyethylene terephthalate](polyethylene%20terephthalate.md) (PET):@:[bottles](bottle.md), [clothing](clothing.md), [fibers](fiber.md), lightweight sails <!--SR:!fsrs,2027-12-15T00:00:00.000Z,419,418.74470775,9.23597837,2,9,0,0,2026-10-22T00:00:00.000Z-->
 - [polymethyl methacrylate](poly(methyl%20methacrylate).md) (PMMA), Perspex:@:[airplane](airplane.md) windows, [goggles](goggles.md), [plastic optical fibers](plastic%20optical%20fiber.md) <!--SR:!2026-11-21,829,261-->
 - [polypropylene](polypropylene.md) (PP):@:[fibers](fiber.md), [food containers](food%20storage%20container.md), [ropes](rope.md) <!--SR:!2027-05-27,448,170-->
 - [polystyrene](polystyrene.md) (PS):@:expanded: [construction](construction.md), [disposable](disposable%20product.md) [cutlery](cutlery.md), [packaging](packaging%20and%20labeling.md); solid: [optical disc packaging](optical%20disc%20packaging.md), [transparent](transparency%20and%20translucency.md) [containers](container.md) <!--SR:!fsrs,2030-04-27T00:00:00.000Z,1330,1329.67395655,6.43304494,2,10,0,0,2026-09-05T00:00:00.000Z-->

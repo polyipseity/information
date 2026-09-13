@@ -819,7 +819,7 @@ The content is in teaching order.
 - OSI model
     - OSI model / the layers
     - OSI model / network
-- [network layer](../../../../general/network%20layer.md) ::@:: It is __layer 3__. It is responsible for packet forwarding including routing through intermediate routers. <!--SR:!2026-10-22,343,370!2027-01-09,405,370-->
+- [network layer](../../../../general/network%20layer.md) ::@:: It is __layer 3__. It is responsible for packet forwarding including routing through intermediate routers. <!--SR:!fsrs,2031-05-03T00:00:00.000Z,1654,1654.38681741,1,2,9,0,0,2026-10-22T00:00:00.000Z!2027-01-09,405,370-->
     - network layer / functions ::@:: addressing, datagram, forwarding, routing <!--SR:!2026-12-15,385,370!2026-11-10,358,370-->
     - network layer / datagram ::@:: Encapsulate _segments_ into _datagrams_ by adding _headers_ and _trailers_. _Routers_ examines these headers to know where to _forward_. <!--SR:!2027-01-14,410,370!2026-11-04,353,370-->
     - network layer / addressing ::@:: IP \(Internet Protocol\) addresses are used to address the destination. The address identifies the destination so that _datagram networks_ \(e.g. internet\) responsible for sending the datagram or packet can know where to forward. <!--SR:!2026-12-03,376,370!2026-12-18,389,370-->

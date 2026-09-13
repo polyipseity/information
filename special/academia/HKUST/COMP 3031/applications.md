@@ -21,7 +21,7 @@ tags:
 
 ## word coder
 
-{@{A __word coder__}@} translates {@{a telephone number into all possible mnemonic phrases}@} using {@{a supplied dictionary of words}@}. Prior to the era of {@{smartphone predictive-text}@}, {@{each numeric key on a phone}@} keypad had {@{an associated set of letters}@}; for instance, {@{the digit `2` represented "ABC"}@}, {@{the digit `3` represented "DEF"}@}, and so forth. In {@{Scala this mapping}@} can be expressed as <!--SR:!fsrs,2030-02-12T00:00:00.000Z,1210,1210.28222352,1,2,9,0,0,2026-10-21T00:00:00.000Z!fsrs,2028-09-03T00:00:00.000Z,713,712.65274453,2.49272837,2,9,0,0,2026-09-21T00:00:00.000Z!fsrs,2028-08-23T00:00:00.000Z,705,705.09333259,2.49272837,2,9,0,0,2026-09-18T00:00:00.000Z!fsrs,2028-09-10T00:00:00.000Z,718,717.68728078,2.49272837,2,9,0,0,2026-09-23T00:00:00.000Z!2026-11-03,290,330!fsrs,2029-07-04T00:00:00.000Z,1037,1037.49777357,1,2,9,0,0,2026-09-01T00:00:00.000Z!fsrs,2030-01-20T00:00:00.000Z,1195,1195.07164214,1,2,9,0,0,2026-10-13T00:00:00.000Z!fsrs,2028-09-06T00:00:00.000Z,715,715.17050691,2.49272837,2,9,0,0,2026-09-22T00:00:00.000Z!2026-10-22,278,330-->
+{@{A __word coder__}@} translates {@{a telephone number into all possible mnemonic phrases}@} using {@{a supplied dictionary of words}@}. Prior to the era of {@{smartphone predictive-text}@}, {@{each numeric key on a phone}@} keypad had {@{an associated set of letters}@}; for instance, {@{the digit `2` represented "ABC"}@}, {@{the digit `3` represented "DEF"}@}, and so forth. In {@{Scala this mapping}@} can be expressed as <!--SR:!fsrs,2030-02-12T00:00:00.000Z,1210,1210.28222352,1,2,9,0,0,2026-10-21T00:00:00.000Z!fsrs,2028-09-03T00:00:00.000Z,713,712.65274453,2.49272837,2,9,0,0,2026-09-21T00:00:00.000Z!fsrs,2028-08-23T00:00:00.000Z,705,705.09333259,2.49272837,2,9,0,0,2026-09-18T00:00:00.000Z!fsrs,2028-09-10T00:00:00.000Z,718,717.68728078,2.49272837,2,9,0,0,2026-09-23T00:00:00.000Z!2026-11-03,290,330!fsrs,2029-07-04T00:00:00.000Z,1037,1037.49777357,1,2,9,0,0,2026-09-01T00:00:00.000Z!fsrs,2030-01-20T00:00:00.000Z,1195,1195.07164214,1,2,9,0,0,2026-10-13T00:00:00.000Z!fsrs,2028-09-06T00:00:00.000Z,715,715.17050691,2.49272837,2,9,0,0,2026-09-22T00:00:00.000Z!fsrs,2030-02-17T00:00:00.000Z,1214,1214.08066657,1,2,9,0,0,2026-10-22T00:00:00.000Z-->
 
 > [!example] __mnemonics__
 >
@@ -64,7 +64,7 @@ The goal is to implement {@{a method `encode(phoneNumber)`}@} that returns {@{ev
 >     letter <- letters
 >   yield letter -> digit
 > ```
-<!--SR:!2026-10-22,278,330!fsrs,2030-01-25T00:00:00.000Z,1199,1198.87680538,1,2,9,0,0,2026-10-14T00:00:00.000Z!2026-11-08,294,330!fsrs,2029-08-03T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-09-07T00:00:00.000Z-->
+<!--SR:!fsrs,2030-02-17T00:00:00.000Z,1214,1214.08066657,1,2,9,0,0,2026-10-22T00:00:00.000Z!fsrs,2030-01-25T00:00:00.000Z,1199,1198.87680538,1,2,9,0,0,2026-10-14T00:00:00.000Z!2026-11-08,294,330!fsrs,2029-08-03T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-09-07T00:00:00.000Z-->
 
 #### `Coder.wordCode`
 
@@ -142,7 +142,7 @@ Thus the implementation finds {@{all valid mnemonic phrases in a handful of line
 - _concise_ ::@:: A single for-comprehension or higher-order function replaces multiple nested loops. As a result, few steps are needed. <!--SR:!fsrs,2030-01-06T00:00:00.000Z,1184,1183.64577796,1,2,9,0,0,2026-10-10T00:00:00.000Z!fsrs,2030-02-12T00:00:00.000Z,1210,1210.28222352,1,2,9,0,0,2026-10-21T00:00:00.000Z-->
 - _fast_ ::@:: Operations on collections may be optimized and parallelized. <!--SR:!2026-10-23,279,330!fsrs,2030-01-25T00:00:00.000Z,1199,1198.87680538,1,2,9,0,0,2026-10-14T00:00:00.000Z-->
 - _safe_ ::@:: The type checker guarantees that collections are manipulated in a valid way. <!--SR:!fsrs,2030-01-01T00:00:00.000Z,1180,1179.83367202,1,2,9,0,0,2026-10-09T00:00:00.000Z!fsrs,2029-08-12T00:00:00.000Z,1068,1068.495917,1,2,9,0,0,2026-09-09T00:00:00.000Z-->
-- _universal_ ::@:: The API interfaces exposed by lists, vectors, sets, maps, etc. are almost the same. <!--SR:!2026-10-22,278,330!fsrs,2030-02-03T00:00:00.000Z,1203,1202.68030072,1,2,9,0,0,2026-10-19T00:00:00.000Z-->
+- _universal_ ::@:: The API interfaces exposed by lists, vectors, sets, maps, etc. are almost the same. <!--SR:!fsrs,2030-02-17T00:00:00.000Z,1214,1214.08066657,1,2,9,0,0,2026-10-22T00:00:00.000Z!fsrs,2030-02-03T00:00:00.000Z,1203,1202.68030072,1,2,9,0,0,2026-10-19T00:00:00.000Z-->
 
 These qualities illustrate why {@{immutable Scala collections}@} are considered {@{a powerful tool for modern software development}@}. <!--SR:!2026-10-23,279,330!fsrs,2030-01-15T00:00:00.000Z,1191,1191.26470738,1,2,9,0,0,2026-10-12T00:00:00.000Z-->
 
