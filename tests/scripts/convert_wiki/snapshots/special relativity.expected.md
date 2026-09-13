@@ -121,7 +121,7 @@ In relativity theory, we often want to calculate the coordinates of an event fro
 
 > ![The standard configuration in Special Relativity of two frames of reference, the primed system in motion relative to the unprimed system only along the x-axis and with speed v.](../../archives/Wikimedia%20Commons/Frames%20of%20reference%20in%20relative%20motion.svg)
 >
-> Figure 2–1. The primed system is in motion relative to the unprimed system with constant velocity _v_ only along the _x_-axis, from the perspective of an observer stationary in the unprimed system. By the [principle of relativity](principle%20of%20relativity.md), an observer stationary in the primed system will view a likewise construction except that the velocity they record will be −_v_. The changing of the speed of propagation of interaction from infinite in non-relativistic mechanics to a finite value will require a modification of the transformation equations mapping events in one frame to another.
+> Figure 2–1. The primed system is in motion relative to the unprimed system with constant velocity _v_ only along the _x_-axis, from the perspective of an observer stationary in the unprimed system. By the [principle of relativity](principle%20of%20relativity.md), an observer stationary in the primed system will view a likewise construction except that the velocity they record will be −<!-- markdown separator -->_v_. The changing of the speed of propagation of interaction from infinite in non-relativistic mechanics to a finite value will require a modification of the transformation equations mapping events in one frame to another.
 
 To gain insight into how the spacetime coordinates measured by observers in different [reference frames](inertial%20frame%20of%20reference.md) compare with each other, it is useful to work with a simplified setup with frames in a _standard configuration_.<sup>[\[25\]](#^ref-25)</sup><sup>:&hairsp;107&hairsp;</sup> With care, this allows simplification of the math with no loss of generality in the conclusions that are reached. In Fig. 2-1, two [Galilean reference frames](Galilean%20reference%20frame.md) \(i.e., conventional 3-space frames\) are displayed in relative motion. Frame S belongs to a first observer _O_, and frame _S_′ \(pronounced "S prime" or "S dash"\) belongs to a second observer _O_′.
 
@@ -163,7 +163,7 @@ Define an [event](spacetime.md#basic%20concepts) to have spacetime coordinates \
 
 Solving the four transformation equations above for the unprimed coordinates yields the inverse Lorentz transformation: $${\begin{aligned}t&=\gamma (t'+vx'/c^{2})\\x&=\gamma (x'+vt')\\y&=y'\\z&=z'.\end{aligned} }$$
 
-This shows that the unprimed frame is moving with the velocity −_v_, as measured in the primed frame.<sup>[\[31\]](#^ref-31)</sup>
+This shows that the unprimed frame is moving with the velocity −<!-- markdown separator -->_v_, as measured in the primed frame.<sup>[\[31\]](#^ref-31)</sup>
 
 There is nothing special about the _x_-axis. The transformation can apply to the _y_- or _z_-axis, or indeed in any direction parallel to the motion \(which are warped by the _γ_ factor\) and perpendicular; see the article Lorentz transformation for details.
 
@@ -364,7 +364,7 @@ __[Equation 10](#math%2010)__ and __[Equation 14](#math%2014)__ can be interpret
 
 We note the following points:
 
-- If an object \(e.g., a [photon](photon.md)\) were moving at the speed of light in one frame \(i.e., _u_ = ±_c_ or _u_′ = ±_c_\), then it would also be moving at the speed of light in any other frame, moving at \|_v_\| \< _c_.
+- If an object \(e.g., a [photon](photon.md)\) were moving at the speed of light in one frame \(i.e., _u_ = ±<!-- markdown separator -->_c_ or _u_′ = ±<!-- markdown separator -->_c_\), then it would also be moving at the speed of light in any other frame, moving at \|_v_\| \< _c_.
 - The resultant speed of two velocities with magnitude less than _c_ is always a velocity with magnitude less than _c_.
 - If both \|_u_\| and \|_v_\| \(and then also \|_u_′\| and \|_v_′\|\) are small with respect to the speed of light \(that is, e.g., \|$\frac{u}{c}$\| ≪ 1\), then the intuitive Galilean transformations are recovered from the transformation equations for special relativity
 - Attaching a frame to a photon \(_riding a light beam_ like Einstein considers\) requires special treatment of the transformations.
@@ -597,7 +597,7 @@ Elastic scattering of charged elementary particles deviates from ideality due to
 >
 > Figure 6–2. Newtonian analysis of the elastic collision of a moving particle with an equal mass stationary particle
 
-Fig. 6-2 provides a demonstration of the result, familiar to billiard players, that if a stationary ball is struck elastically by another one of the same mass \(assuming no sidespin, or "English"\), then after collision, the diverging paths of the two balls will subtend a right angle. \(a\) In the stationary frame, an incident sphere traveling at 2<!-- markdown separator -->__v__ strikes a stationary sphere. \(b\) In the center of momentum frame, the two spheres approach each other symmetrically at ±__v__. After elastic collision, the two spheres rebound from each other with equal and opposite velocities ±__u__. Energy conservation requires that \|__u__\| = \|__v__\|. \(c\) Reverting to the stationary frame, the rebound velocities are __v__ ± __u__. The dot product \(__v__ + __u__\) ⋅ \(__v__ − __u__\) = __v__<sup>2</sup> − __u__<sup>2</sup> = 0, indicating that the vectors are orthogonal.<sup>[\[13\]](#^ref-13)</sup><sup>:&hairsp;26–27&hairsp;</sup>
+Fig. 6-2 provides a demonstration of the result, familiar to billiard players, that if a stationary ball is struck elastically by another one of the same mass \(assuming no sidespin, or "English"\), then after collision, the diverging paths of the two balls will subtend a right angle. \(a\) In the stationary frame, an incident sphere traveling at 2<!-- markdown separator -->__v__ strikes a stationary sphere. \(b\) In the center of momentum frame, the two spheres approach each other symmetrically at ±<!-- markdown separator -->__v__. After elastic collision, the two spheres rebound from each other with equal and opposite velocities ±<!-- markdown separator -->__u__. Energy conservation requires that \|__u__\| = \|__v__\|. \(c\) Reverting to the stationary frame, the rebound velocities are __v__ ± __u__. The dot product \(__v__ + __u__\) ⋅ \(__v__ − __u__\) = __v__<sup>2</sup> − __u__<sup>2</sup> = 0, indicating that the vectors are orthogonal.<sup>[\[13\]](#^ref-13)</sup><sup>:&hairsp;26–27&hairsp;</sup>
 
 #### relativistic analysis
 
@@ -667,7 +667,7 @@ For the symmetrical case in which $\phi =\theta$ and ⁠$\beta _{2}=\beta _{3}$�
 
 Lorentz transformations relate coordinates of events in one reference frame to those of another frame. Relativistic composition of velocities is used to add two velocities together. The formulas to perform the latter computations are nonlinear, making them more complex than the corresponding Galilean formulas.
 
-This nonlinearity is an artifact of our choice of parameters.<sup>[\[10\]](#^ref-10)</sup><sup>:&hairsp;47–59&hairsp;</sup> We have previously noted that in an _x_–_ct_ spacetime diagram, the points at some constant spacetime interval from the origin form an invariant hyperbola. We have also noted that the coordinate systems of two spacetime reference frames in standard configuration are hyperbolically rotated with respect to each other.
+This nonlinearity is an artifact of our choice of parameters.<sup>[\[10\]](#^ref-10)</sup><sup>:&hairsp;47–59&hairsp;</sup> We have previously noted that in an _x_<!-- markdown separator -->–<!-- markdown separator -->_ct_ spacetime diagram, the points at some constant spacetime interval from the origin form an invariant hyperbola. We have also noted that the coordinate systems of two spacetime reference frames in standard configuration are hyperbolically rotated with respect to each other.
 
 The natural functions for expressing these relationships are the [hyperbolic analogs of the trigonometric functions](hyperbolic%20functions.md). Fig. 7-1a shows a [unit circle](unit%20circle.md) with sin\(_a_\) and cos\(_a_\), the only difference between this diagram and the familiar unit circle of elementary trigonometry being that _a_ is interpreted, not as the angle between the ray and the _x_-axis, but as twice the area of the sector swept out by the ray from the _x_-axis. Numerically, the angle and 2 × area measures for the unit circle are identical. Fig. 7-1b shows a [unit hyperbola](unit%20hyperbola.md) with sinh\(_a_\) and cosh\(_a_\), where _a_ is likewise interpreted as twice the tinted area.<sup>[\[82\]](#^ref-82)</sup> Fig. 7-2 presents plots of the sinh, cosh, and tanh functions.
 

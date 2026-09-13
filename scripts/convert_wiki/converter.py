@@ -841,7 +841,15 @@ class WikiHtmlConverter:
     def _needs_separator_before(sibling: PageElement | None) -> bool:
         """Whether a separator is needed before the block."""
         if isinstance(sibling, NavigableString):
-            return sibling.rstrip(_cfg._MARKDOWN_SEPARATOR_CHARACTERS) == sibling
+            text = str(sibling)
+            if text.rstrip(_cfg._MARKDOWN_SEPARATOR_CHARACTERS) == text:
+                return True  # Sibling does not end with a separator char.
+            # U+00B1 PLUS-MINUS SIGN does not word-bound for emphasis parsing.
+            # E.g. ``= ±_c_`` must become ``= ±<!-- separator -->_c_`` so the
+            # italic marker is recognized by Markdown parsers.
+            if text.endswith("\u00b1"):
+                return True
+            return False
         if isinstance(sibling, Tag):
             # Descend through spans to the last child that renders: a span's
             # emphasis markers wrap its content without changing what abuts the
@@ -869,7 +877,13 @@ class WikiHtmlConverter:
         renders nothing, so the elements are already adjacent.
         """
         if isinstance(sibling, NavigableString):
-            return sibling.lstrip(_cfg._MARKDOWN_SEPARATOR_CHARACTERS) == sibling
+            text = str(sibling)
+            if text.lstrip(_cfg._MARKDOWN_SEPARATOR_CHARACTERS) == text:
+                return True  # Sibling does not start with a separator char.
+            # U+00B1 PLUS-MINUS SIGN does not word-bound for emphasis parsing.
+            if text.startswith("\u00b1"):
+                return True
+            return False
         if isinstance(sibling, Tag) and WikiHtmlConverter._is_transparent_span(sibling):
             # Descend into the transparent span.  Whitespace-only → gap
             # (separator needed).  Non-whitespace content → rendered content
