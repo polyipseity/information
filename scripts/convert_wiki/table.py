@@ -33,6 +33,7 @@ from .template_config import (
     _BLOCKQUOTE_PREFIX_RE,
     _CONSECUTIVE_LEADING_WHITESPACES_REGEX,
     _CONSECUTIVE_NEWLINES_REGEX,
+    _NAVBOX_SPEC,
     _SEPARATOR_CELL_RE,
 )
 from .types import _HandlerConfig
@@ -519,10 +520,10 @@ class TableConverter:
         if table is None:
             return False
         classes = set(table.get_attribute_list("class"))
-        if "navbox-inner" not in classes:
+        if not _NAVBOX_SPEC.required_outer_classes & set(classes):
             return False
         trs = tbody.find_all("tr", recursive=False)
-        if len(trs) != 2:
+        if len(trs) != _NAVBOX_SPEC.required_tr_count:
             return False
         # First TR: single header cell.
         tr0_cells = [
@@ -546,7 +547,7 @@ class TableConverter:
                 it_tbody = it.find("tbody", recursive=False)
                 if it_tbody:
                     it_rows = it_tbody.find_all("tr", recursive=False)
-            if len(it_rows) >= 3:
+            if len(it_rows) >= _NAVBOX_SPEC.min_inner_table_rows:
                 return True
         return False
 
@@ -663,11 +664,6 @@ class TableConverter:
                 remaining[0].extract()
         return linear_header, angular_header
 
-    # Linear table: indices in the 9-column rendered row.
-    _NAVBOX_LINEAR_INDICES = (0, 2, 3, 4)
-    # Angular table: indices in the 9-column rendered row.
-    _NAVBOX_ANGULAR_INDICES = (5, 6, 7, 8)
-
     @classmethod
     def _blockquote_wrap_navbox(
         cls,
@@ -721,7 +717,7 @@ class TableConverter:
             if len(cells) >= 3:
                 data_rows.append(cells)
 
-        def _pick(cells: list[str], indices: tuple[int, int, int, int]) -> list[str]:
+        def _pick(cells: list[str], indices: tuple[int, ...]) -> list[str]:
             """Select columns by index, returning empty string for missing."""
             return [cells[i] if i < len(cells) else "" for i in indices]
 
@@ -729,28 +725,28 @@ class TableConverter:
             """Format a list of cell values as a pipe-table row."""
             return f"> | {' | '.join(c if c else ' ' for c in cells)} |"
 
-        # Build linear table (columns at _NAVBOX_LINEAR_INDICES).
+        # Build linear table (columns at _NAVBOX_SPEC.linear_indices).
         if header_row:
-            lin_cols = _pick(header_row, cls._NAVBOX_LINEAR_INDICES)
+            lin_cols = _pick(header_row, _NAVBOX_SPEC.linear_indices)
             sep_cells = [_format_separator_cell(3, ":-:") for _ in lin_cols]
             lines.append(_fmt(lin_cols))
             lines.append(f"> | {' | '.join(sep_cells)} |")
         for row_cells in data_rows:
-            lines.append(_fmt(_pick(row_cells, cls._NAVBOX_LINEAR_INDICES)))
+            lines.append(_fmt(_pick(row_cells, _NAVBOX_SPEC.linear_indices)))
 
         if angular_header:
             lines.append(">")
             lines.append(f"> __{angular_header}__")
             lines.append(">")
 
-        # Build angular table (columns at _NAVBOX_ANGULAR_INDICES).
+        # Build angular table (columns at _NAVBOX_SPEC.angular_indices).
         if header_row:
-            ang_cols = _pick(header_row, cls._NAVBOX_ANGULAR_INDICES)
+            ang_cols = _pick(header_row, _NAVBOX_SPEC.angular_indices)
             sep_cells = [_format_separator_cell(3, ":-:") for _ in ang_cols]
             lines.append(_fmt(ang_cols))
             lines.append(f"> | {' | '.join(sep_cells)} |")
         for row_cells in data_rows:
-            lines.append(_fmt(_pick(row_cells, cls._NAVBOX_ANGULAR_INDICES)))
+            lines.append(_fmt(_pick(row_cells, _NAVBOX_SPEC.angular_indices)))
 
         return "\n".join(lines)
 
