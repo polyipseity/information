@@ -146,6 +146,8 @@ Tags that render a glyph or a line break with no child content.
 text: they are rendered tokens in their own right.
 """
 _ATOMIC_TAGS = frozenset({"br", "hr", "img"})
+"""Heading tag names (``h1`` through ``h6``)."""
+_HEADING_TAGS = frozenset({"h1", "h2", "h3", "h4", "h5", "h6"})
 """
 Classes whose entire subtree ``convert`` discards before dispatch.
 
@@ -1430,26 +1432,6 @@ class WikiHtmlConverter:
         return False
 
     @staticmethod
-    def _in_inline_context(ele: Tag) -> bool:
-        """Check if element is inside a handler that provides block spacing.
-
-        Returns True when the image/audio appears inside an element whose
-        handler already injects its own block-level spacing (``\n`` or
-        ``\n\n``), so the image/audio should NOT add its own ``\n\n``.
-
-        Excludes ``<p>`` because the ``<p>`` handler's ``\n\n`` suffix
-        goes *after* the entire element, not between its children.
-        Excludes ``<div>`` and ``<figure>`` for similar block-level
-        separation reasons.
-        """
-        for p in ele.parents:
-            if not isinstance(p, Tag):
-                continue
-            if p.name in {"li", "td", "th", "div", "figure"}:
-                return p.name != "div" and p.name != "figure"
-        return False
-
-    @staticmethod
     def _in_navbox(ele: Tag) -> bool:
         """Check if element is inside a navbox table."""
         return any(
@@ -1481,12 +1463,6 @@ class WikiHtmlConverter:
         """Return True if *ele*'s next content sibling is a display-math-only <dl>."""
         nxt = WikiHtmlConverter._content_sibling(ele, following=True)
         return nxt is not None and _is_display_math_only_dl(nxt)
-
-    @staticmethod
-    def _prev_is_display_math(ele: Tag) -> bool:
-        """Return True if *ele*'s previous content sibling is a display-math-only <p>."""
-        prev = WikiHtmlConverter._content_sibling(ele, following=False)
-        return prev is not None and _is_display_math_only(prev)
 
     def _handle_block_level(self, ele: Tag, classes: frozenset[str]) -> _HandlerConfig:
         """Handle block-level elements with spacing suffix."""
@@ -1596,7 +1572,7 @@ class WikiHtmlConverter:
                     # Headings may be wrapped in div.mw-heading.
                     nxt = self._content_sibling(ele, following=True)
                     is_heading = isinstance(nxt, Tag) and (
-                        nxt.name in {"h1", "h2", "h3", "h4", "h5", "h6"}
+                        nxt.name in _HEADING_TAGS
                         or (
                             nxt.name == "div"
                             and "mw-heading"
@@ -1653,7 +1629,7 @@ class WikiHtmlConverter:
             ):
                 nxt_of_dl = self._content_sibling(prev, following=True)
                 is_heading = isinstance(nxt_of_dl, Tag) and (
-                    nxt_of_dl.name in {"h1", "h2", "h3", "h4", "h5", "h6"}
+                    nxt_of_dl.name in _HEADING_TAGS
                     or (
                         nxt_of_dl.name == "div"
                         and "mw-heading"

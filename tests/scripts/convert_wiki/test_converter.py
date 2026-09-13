@@ -12,6 +12,7 @@ from anyio import Path as AnyioPath
 from bs4 import BeautifulSoup, NavigableString, Tag
 
 from scripts.convert_wiki.converter import WikiHtmlConverter, _discards_subtree
+from scripts.convert_wiki.inline_context import _in_inline_context
 from scripts.convert_wiki.latex import LatexConverter
 from scripts.convert_wiki.pipeline import _preprocess_html
 from scripts.convert_wiki.types import _RedirectInfo
@@ -2330,7 +2331,7 @@ class TestStaticUtilities:
         soup = BeautifulSoup("<li><span>item</span></li>", "html.parser")
         span = soup.find("span")
         assert span is not None
-        assert WikiHtmlConverter._in_inline_context(span)
+        assert _in_inline_context(span)
 
     def test_not_in_inline_context_paragraph(
         self, converter: WikiHtmlConverter
@@ -2339,7 +2340,7 @@ class TestStaticUtilities:
         soup = BeautifulSoup("<p><span>text</span></p>", "html.parser")
         span = soup.find("span")
         assert span is not None
-        assert not WikiHtmlConverter._in_inline_context(span)
+        assert not _in_inline_context(span)
 
     def test_in_navbox(self, converter: WikiHtmlConverter) -> None:
         """Element inside a navbox table should be detected."""
