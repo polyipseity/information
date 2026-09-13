@@ -42,7 +42,7 @@ $${\frac {\mathrm {d} {\boldsymbol {q} } }{\mathrm {d} t} }={\frac {\partial {\m
 >
 > |                                                                                                                                                                        |                               |
 > | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------: |
-> | $${\mathcal {L} }({\boldsymbol {q} },{\dot {\boldsymbol {q} } })+{\mathcal {H} }({\boldsymbol {p} },{\boldsymbol {q} })={\boldsymbol {p} }{\dot {\boldsymbol {q} } }$$ | <a id="math_1"></a> __\(1\)__ |
+> | $${\mathcal {L} }({\boldsymbol {q} },{\dot {\boldsymbol {q} } })+{\mathcal {H} }({\boldsymbol {p} },{\boldsymbol {q} })={\boldsymbol {p} }{\dot {\boldsymbol {q} } }$$ | <a id="math 1"></a> __\(1\)__ |
 >
 > where ${\boldsymbol {p} }=\partial {\mathcal {L} }/\partial {\dot {\boldsymbol {q} } }$.
 >
@@ -105,11 +105,11 @@ The Lagrangian and Hamiltonian approaches provide the groundwork for deeper resu
 ## properties of the Hamiltonian
 
 - The value of the Hamiltonian ${\mathcal {H} }$ is the total energy of the system if and only if the energy function $E_{\mathcal {L} }$ has the same property. \(See definition of ⁠${\mathcal {H} }$⁠\).<sup>\[_[clarification needed](https://en.wikipedia.org/wiki/Wikipedia:Please%20clarify)_\]</sup>
-- ${\frac {d{\mathcal {H} } }{dt} }={\frac {\partial {\mathcal {H} } }{\partial t} }$ when ⁠$\mathbf {p} (t)$⁠, ⁠$\mathbf {q} (t)$⁠ form a solution of Hamilton's equations.  Indeed, ${\frac {d{\mathcal {H} } }{dt} }={\frac {\partial {\mathcal {H} } }{\partial {\boldsymbol {p} } } }\cdot {\dot {\boldsymbol {p} } }+{\frac {\partial {\mathcal {H} } }{\partial {\boldsymbol {q} } } }\cdot {\dot {\boldsymbol {q} } }+{\frac {\partial {\mathcal {H} } }{\partial t} }$, and everything but the final term cancels out.
+- ${\frac {d{\mathcal {H} } }{dt} }={\frac {\partial {\mathcal {H} } }{\partial t} }$ when ⁠$\mathbf {p} (t)$⁠, ⁠$\mathbf {q} (t)$⁠ form a solution of Hamilton's equations. Indeed, ${\frac {d{\mathcal {H} } }{dt} }={\frac {\partial {\mathcal {H} } }{\partial {\boldsymbol {p} } } }\cdot {\dot {\boldsymbol {p} } }+{\frac {\partial {\mathcal {H} } }{\partial {\boldsymbol {q} } } }\cdot {\dot {\boldsymbol {q} } }+{\frac {\partial {\mathcal {H} } }{\partial t} }$, and everything but the final term cancels out.
 - ${\mathcal {H} }$ does not change under _point transformations_, i.e. smooth changes ${\boldsymbol {q} }\leftrightarrow {\boldsymbol {q'} }$ of space coordinates. \(Follows from the invariance of the energy function $E_{\mathcal {L} }$ under point transformations. The invariance of $E_{\mathcal {L} }$ can be established directly\).
 - ${\frac {\partial {\mathcal {H} } }{\partial t} }=-{\frac {\partial {\mathcal {L} } }{\partial t} }$. \(See _[§ Deriving Hamilton's equations](#deriving%20Hamilton's%20equations)_\).
 - ⁠$-{\frac {\partial {\mathcal {H} } }{\partial q^{i} } }={\dot {p} }_{i}={\frac {\partial {\mathcal {L} } }{\partial q^{i} } }$⁠. \(Compare Hamilton's and Euler–Lagrange equations or see _[§ Deriving Hamilton's equations](#deriving%20Hamilton's%20equations)_\).
-- ${\frac {\partial {\mathcal {H} } }{\partial q^{i} } }=0$ if and only if ⁠${\frac {\partial {\mathcal {L} } }{\partial q^{i} } }=0$⁠.  A coordinate for which the last equation holds is called _cyclic_ \(or _ignorable_\). Every cyclic coordinate $q^{i}$ reduces the number of degrees of freedom by ⁠$1$⁠, causes the corresponding momentum $p_{i}$ to be conserved, and makes Hamilton's equations [easier](Routhian%20mechanics.md) to solve.
+- ${\frac {\partial {\mathcal {H} } }{\partial q^{i} } }=0$ if and only if ⁠${\frac {\partial {\mathcal {L} } }{\partial q^{i} } }=0$⁠. A coordinate for which the last equation holds is called _cyclic_ \(or _ignorable_\). Every cyclic coordinate $q^{i}$ reduces the number of degrees of freedom by ⁠$1$⁠, causes the corresponding momentum $p_{i}$ to be conserved, and makes Hamilton's equations [easier](Routhian%20mechanics.md) to solve.
 
 ## Hamiltonian as the total system energy
 

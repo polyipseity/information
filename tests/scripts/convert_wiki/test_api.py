@@ -265,61 +265,46 @@ class TestApiRequest:
 
         anyio.run(run, backend="asyncio")
 
-    def test_retries_on_429(self) -> None:
-        """Should retry after 429 and eventually succeed."""
+    def test_raises_on_429(self) -> None:
+        """Should raise ValueError on HTTP 429 (retry handled by RetryClient)."""
 
         async def run() -> None:
             """Run the async test body."""
-            call_count = 0
 
             class MockResponse:
-                """Mock aiohttp response with configurable status."""
+                """Mock aiohttp response with error status."""
 
-                def __init__(self, status, retry_after=None):
-                    """Store status and optional retry-after."""
-                    self.status = status
-                    self._retry_after = retry_after
-
-                @property
-                def headers(self):
-                    """Return retry-after header if set."""
-                    if self._retry_after:
-                        return {"Retry-After": self._retry_after}
-                    return {}
+                status = 429
 
                 async def json(self):
-                    """Return fixed JSON data."""
-                    return {"key": "value"}
+                    """Should not be called."""
+                    raise AssertionError("should not be called")
 
                 async def __aenter__(self):
                     """Return self as context manager."""
                     return self
 
                 async def __aexit__(self, *args):
-                    """Increment call count on exit."""
-                    nonlocal call_count
-                    call_count += 1
+                    """No-op cleanup."""
+                    pass
 
             class MockGet:
                 """Mock aiohttp get callable."""
 
                 def __call__(self, url):
-                    """Return 429 for first calls, then 200."""
-                    if call_count < 2:
-                        return MockResponse(429)
-                    return MockResponse(200)
+                    """Return a 429 response."""
+                    return MockResponse()
 
             class MockSession:
                 """Mock aiohttp ClientSession."""
 
                 get = MockGet()
 
-            result = await _mod._api_request(  # noqa: SLF001
-                cast(ClientSession, MockSession()),
-                {"action": "query"},
-            )
-            assert result == {"key": "value"}
-            assert call_count >= 3  # first two attempts fail, third succeeds
+            with pytest.raises(ValueError, match="HTTP 429"):
+                await _mod._api_request(  # noqa: SLF001
+                    cast(ClientSession, MockSession()),
+                    {"action": "query"},
+                )
 
         anyio.run(run, backend="asyncio")
 

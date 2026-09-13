@@ -70,11 +70,7 @@ which shows that $g_{ab}=g_{\mu \nu }e^{\mu }{}_{a}e^{\nu }{}_{b}$.
 
 The manipulation with tetrad coefficients shows that abstract index formulas can, in principle, be obtained from tensor formulas with respect to a coordinate tetrad by "replacing greek by latin indices". However care must be taken that a coordinate tetrad formula defines a genuine tensor when differentiation is involved. Since the coordinate vector fields have vanishing [Lie bracket](Lie%20bracket%20of%20vector%20fields.md) \(i.e. commute: $\partial _{\mu }\partial _{\nu }=\partial _{\nu }\partial _{\mu }$\), naive substitutions of formulas that correctly compute tensor coefficients with respect to a coordinate tetrad may not correctly define a tensor with respect to a general tetrad because the Lie bracket is non-vanishing: $[e_{a},e_{b}]\neq 0$. Thus, it is sometimes said that tetrad coordinates provide a [non-holonomic basis](holonomic%20basis.md).
 
-For example, the [Riemann curvature tensor](Riemann%20curvature%20tensor.md) is defined for general vector fields $X,Y$ by
-
-$$R(X,Y)=\left(\nabla _{X}\nabla _{Y}-\nabla _{Y}\nabla _{X}-\nabla _{[X,Y]}\right)\,.$$
-
-In a coordinate tetrad this gives tensor coefficients
+For example, the [Riemann curvature tensor](Riemann%20curvature%20tensor.md) is defined for general vector fields $X,Y$ by <p> &nbsp;&nbsp;&nbsp;&nbsp; $$R(X,Y)=\left(\nabla _{X}\nabla _{Y}-\nabla _{Y}\nabla _{X}-\nabla _{[X,Y]}\right)\,.$$ <p> In a coordinate tetrad this gives tensor coefficients
 
 $$R_{\ \nu \sigma \tau }^{\mu }=dx^{\mu }\left((\nabla _{\sigma }\nabla _{\tau }-\nabla _{\tau }\nabla _{\sigma })\partial _{\nu }\right).$$
 

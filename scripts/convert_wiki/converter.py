@@ -2,11 +2,41 @@
 
 Contains ``WikiHtmlConverter``, the main class that walks a BeautifulSoup
 HTML tree and emits Markdown text via tag-specific handler methods.
+
+Architecture
+------------
+
+The converter follows a **handler protocol**: each HTML tag name maps to a
+``_handle_<tag>`` method that returns a ``_HandlerConfig`` (prefix, suffix,
+joiner, process_strings).  The ``convert`` method walks the tree, calls
+``_dispatch`` to find the right handler, and assembles the result from the
+handler's config.
+
+Dispatch is split into three tiers:
+
+1. **Class-gated** (checked first): selflink, bold-italic, audio, image —
+   these depend on CSS classes, not tag names.
+2. **Parameterized** (need extra args): header (``seen_heading_texts``),
+   ol/ul/li (``list_stack``), anchor (async).
+3. **Simple tag registry** (``_SIMPLE_TAG_HANDLERS``): 21 tags mapped to
+   handler method names via a class-level dict lookup.
+
+The converter must not mutate the HTML tree — all mutations belong in
+``pipeline._preprocess_html``.  The converter only reads the tree and
+produces text.
+
+Related modules
+---------------
+
+- ``inline_context``: pure functions for inline/display-math context
+  queries (``_in_inline_context``, ``_is_display_math_only``, etc.).
+- ``table``: ``TableConverter`` classmethods for table conversion, plus
+  table formatting functions (column padding, blockquote alignment).
+- ``pipeline``: orchestration (preprocess → convert → postprocess).
 """
 
 import re
 from collections.abc import Iterable, Mapping, MutableSet
-from copy import copy
 from os import PathLike
 from urllib.parse import quote, unquote
 
@@ -18,12 +48,23 @@ from country_converter import convert
 from yarl import URL
 
 from . import config as _cfg
+from .inline_context import (
+    _dl_follows_p,
+    _in_inline_context,
+    _is_display_math_only,
+    _is_display_math_only_dl,
+)
 from .latex import LatexConverter
-from .table import _TD_OR_TH, _TEXT_ALIGN_REGEX, TableConverter
+from .table import (
+    _TD_OR_TH,
+    TableConverter,
+    _find_box_title,
+    _rewrite_table_equation_cells,
+)
 from .types import _HandlerConfig, _RedirectInfo
 from .utils import (
     _balance_brackets,
-    _create_redirect_symlinks,
+    _encode_fragment,
     _fix_filename,
     _fix_name_maybe,
     _get_image_filename,
@@ -68,6 +109,7 @@ _BOXED_CLASSES = frozenset(
         "math_proof",
         "math_theorem",
         "portalbox",
+        "quotebox",
         "tmulti",
         "unsolved",
     }
@@ -113,6 +155,8 @@ Tags that render a glyph or a line break with no child content.
 text: they are rendered tokens in their own right.
 """
 _ATOMIC_TAGS = frozenset({"br", "hr", "img"})
+"""Heading tag names (``h1`` through ``h6``)."""
+_HEADING_TAGS = frozenset({"h1", "h2", "h3", "h4", "h5", "h6"})
 """
 Classes whose entire subtree ``convert`` discards before dispatch.
 
@@ -190,11 +234,6 @@ _BLOCK_TAGS = frozenset(
     }
 )
 """Inline tags that can form an equation-box title."""
-_EQUATION_BOX_TITLE_TAGS = frozenset({"b", "strong", "i", "em", "span"})
-"""Block-level tags that separate an equation-box title from its body."""
-_EQUATION_BOX_BODY_BLOCK_TAGS = frozenset(
-    {"p", "div", "table", "ul", "ol", "dl", "blockquote", "pre", "figure"}
-)
 """LaTeX environments whose trailing punct belongs on the last row."""
 _DISPLAY_MATH_ENVIRONMENTS: tuple[str, ...] = (
     "aligned",
@@ -214,6 +253,11 @@ _DISPLAY_MATH_ENVIRONMENTS: tuple[str, ...] = (
 )
 
 
+def _escape_markdown(text: str) -> str:
+    """Escape Markdown special characters in text."""
+    return _cfg._MARKDOWN_ESCAPE_REGEX.sub(lambda match: Rf"\{match[0]}", text)
+
+
 def _wrap_bare_url(text: str) -> str:
     """Wrap a bare URL in autolink brackets (e.g. ``www.example.com`` → ``<www.example.com>``)."""
     if _BARE_URL_REGEX.fullmatch(text):
@@ -225,30 +269,6 @@ def _collapse_whitespace(text: str) -> str:
     """Collapse whitespace runs, preserving hair spaces (U+200A)."""
     text = text.strip(" \t\n\r\x0b\x0c")
     return " ".join(_WHITESPACE_EXCEPT_HAIR_RE.split(text))
-
-
-def _set_text_align(cell: Tag, align: str) -> None:
-    """Append ``text-align`` to *cell*'s style unless it already declares one."""
-    style = str(cell.get("style", ""))
-    if _TEXT_ALIGN_REGEX.search(style):
-        return
-    cell["style"] = f"{style}text-align: {align};"
-
-
-def _strip_cell_bold(cell: Tag) -> None:
-    """Remove ``font-weight: bold`` from *cell*'s style.
-
-    Wikipedia equation-number cells are bolded at the cell level *and* on the
-    inner reference span; the cell-level bold is redundant and would otherwise
-    double-wrap the number as ``____N____``. Drop it so only the span's bold
-    survives. The style attribute is removed entirely when emptied.
-    """
-    style = str(cell.get("style", ""))
-    stripped = _BOLD_FONT_STYLE_REGEX.sub("", style).strip().rstrip(";").strip()
-    if stripped:
-        cell["style"] = stripped
-    else:
-        cell.attrs.pop("style", None)
 
 
 class WikiHtmlConverter:
@@ -263,6 +283,36 @@ class WikiHtmlConverter:
         Language-specific subdirectory for converted notes.
     """
 
+    """Tag handler registry: maps simple tag names to handler method names.
+
+    Tags in this dict require no extra parameters (no ``list_stack``,
+    ``seen_heading_texts``, or async).  The ``_dispatch`` method uses
+    this dict as a fast lookup before falling back to ``None``.
+    """
+    _SIMPLE_TAG_HANDLERS: dict[str, str] = {
+        "big": "_handle_big",
+        "br": "_handle_br",
+        "cite": "_handle_cite",
+        "code": "_handle_code",
+        "div": "_handle_div",
+        "dl": "_handle_dl",
+        "figcaption": "_handle_figcaption",
+        "math": "_handle_math",
+        "p": "_handle_p",
+        "s": "_handle_s",
+        "span": "_handle_span",
+        "sub": "_handle_sub",
+        "sup": "_handle_sup",
+        "table": "_handle_table",
+        "tbody": "_handle_tbody",
+        "td": "_handle_td",
+        "th": "_handle_th",
+        "thead": "_handle_thead",
+        "tr": "_handle_tr",
+        "u": "_handle_u",
+        "video": "_handle_video",
+    }
+
     def __init__(
         self,
         *,
@@ -273,6 +323,7 @@ class WikiHtmlConverter:
         image_metadata: Mapping[str, str] | None = None,
         names_map: Mapping[str, str] | None = None,
         soup: BeautifulSoup | None = None,
+        page_name: str | None = None,
     ) -> None:
         """Initialize converter with directory paths and name map."""
         self._converted_wiki_dir = Path(converted_wiki_dir)
@@ -282,6 +333,86 @@ class WikiHtmlConverter:
         self._soup: BeautifulSoup = (
             soup if soup is not None else BeautifulSoup("", "html.parser")
         )
+        self._page_name = page_name
+        self._pending_redirects: list[tuple[str, str]] = []
+
+    def _convert_text_node(
+        self,
+        ele: NavigableString,
+        *,
+        escape: bool,
+        refs: bool,
+    ) -> str:
+        """Convert a NavigableString text node to Markdown.
+
+        Applies the formatting-agnostic principle: interior formatting
+        whitespace is normalized to a single space.  Structural whitespace
+        (from ``<br>``, ``<p>``, etc.) is injected by tag handler configs.
+
+        Returns the rendered text, or an empty string for whitespace-only
+        nodes that carry no separation value.
+        """
+        if isinstance(ele, PreformattedString) or isinstance(ele.parent, BeautifulSoup):
+            return ""
+        text = str(ele)
+        # See the formatting-agnostic principle documented above.
+        text = text.translate(str.maketrans({c: " " for c in "\t\n\r\x0b\x0c"}))
+        text = _COLLAPSE_SPACES_REGEX.sub(" ", text)
+        core = text.strip(" ")
+        if not core:
+            # Preserve a single space between two adjacent inline
+            # tokens that would otherwise merge: two emphasis elements
+            # (``<b>M</b> <b>L</b>`` → ``__M__ __L__``), two links
+            # (``[a](x) [b](y)`` → ``[a](x)[b](y)`` if dropped), or two
+            # plain-text runs (``Physics<span> </span>portal`` → the
+            # space is the only separation).  The space separates two
+            # distinct tokens and must survive whitespace collapsing.
+            # Whether two neighbours run together is decided from the
+            # character at each rendered edge, not from which tags happen
+            # to sit either side.  Math fragments wrapped in a ``texhtml``
+            # span (e.g. ``<i>m</i> <i>x</i>``) are an exception:
+            # adjacent variables are conventionally tight.
+            #
+            # The decision uses *rendered* adjacency, not raw siblings:
+            # ``_handle_span`` flattens transparent spans, so a
+            # whitespace run at a span edge has no direct sibling yet
+            # still separates two rendered tokens.  Markup that renders
+            # nothing — an empty ``<span>``, or the ``<link>`` elements
+            # Parsoid leaves between citations — is stepped over rather
+            # than mistaken for the neighbour.
+            if self._whitespace_run_renders(
+                ele, following=False, refs=refs
+            ) and self._whitespace_run_renders(ele, following=True, refs=refs):
+                return " "
+            if (
+                self._in_texhtml(ele)
+                and isinstance(raw_prev := ele.previous_sibling, Tag)
+                and isinstance(raw_nxt := ele.next_sibling, Tag)
+                and self._is_inline_emphasis(raw_prev)
+                and self._is_inline_emphasis(raw_nxt)
+            ):
+                return _cfg._MARKDOWN_SEPARATOR
+            return ""
+        # A run glued to the text is dropped only at a block boundary,
+        # because the block supplies its own newline.  Between two inline
+        # tokens the run is the separation they need, and it survives even
+        # when the neighbour also ends in whitespace: the two runs are
+        # resolved together, so dropping both would merge the tokens
+        # (``<span>kg </span> m`` must not become ``kgm``).
+        prefix = (
+            " "
+            if text.startswith(" ")
+            and not self._meets_block_boundary(ele, following=False, refs=refs)
+            else ""
+        )
+        suffix = (
+            " "
+            if text.endswith(" ")
+            and not self._meets_block_boundary(ele, following=True, refs=refs)
+            else ""
+        )
+        rendered = f"{prefix}{core}{suffix}"
+        return _escape_markdown(rendered) if escape else rendered
 
     async def convert(
         self,
@@ -312,86 +443,9 @@ class WikiHtmlConverter:
         # process_strings callbacks downstream only react to structural
         # newlines guarantees this property.
 
-        def escape_markdown(text: str) -> str:
-            """Escape Markdown special characters in text."""
-            return _cfg._MARKDOWN_ESCAPE_REGEX.sub(lambda match: Rf"\{match[0]}", text)
-
-        # Strip <style> tags — CSS is never content in any conversion context.
-        if isinstance(ele, Tag):
-            for style_tag in ele.find_all("style"):
-                style_tag.decompose()
-            # Drop CS1-maintenance citation-comment spans — these are
-            # citation-metadata noise (e.g. "CS1 maint: multiple names"),
-            # not article content, and their literal "link" text fails
-            # descriptive-link-text linting.
-            for cs1_maint in ele.find_all("span", class_="cs1-maint"):
-                cs1_maint.decompose()
-
         if not isinstance(ele, Tag):
-            if (
-                isinstance(ele, NavigableString)
-                and not isinstance(ele, PreformattedString)
-                and not isinstance(ele.parent, BeautifulSoup)
-            ):
-                text = str(ele)
-                # See the formatting-agnostic principle documented above.
-                text = text.translate(str.maketrans({c: " " for c in "\t\n\r\x0b\x0c"}))
-                text = _COLLAPSE_SPACES_REGEX.sub(" ", text)
-                core = text.strip(" ")
-                if not core:
-                    # Preserve a single space between two adjacent inline
-                    # tokens that would otherwise merge: two emphasis elements
-                    # (``<b>M</b> <b>L</b>`` → ``__M__ __L__``), two links
-                    # (``[a](x) [b](y)`` → ``[a](x)[b](y)`` if dropped), or two
-                    # plain-text runs (``Physics<span> </span>portal`` → the
-                    # space is the only separation).  The space separates two
-                    # distinct tokens and must survive whitespace collapsing.
-                    # Whether two neighbours run together is decided from the
-                    # character at each rendered edge, not from which tags happen
-                    # to sit either side.  Math fragments wrapped in a ``texhtml``
-                    # span (e.g. ``<i>m</i> <i>x</i>``) are an exception:
-                    # adjacent variables are conventionally tight.
-                    #
-                    # The decision uses *rendered* adjacency, not raw siblings:
-                    # ``_handle_span`` flattens transparent spans, so a
-                    # whitespace run at a span edge has no direct sibling yet
-                    # still separates two rendered tokens.  Markup that renders
-                    # nothing — an empty ``<span>``, or the ``<link>`` elements
-                    # Parsoid leaves between citations — is stepped over rather
-                    # than mistaken for the neighbour.
-                    if self._whitespace_run_renders(
-                        ele, following=False, refs=refs
-                    ) and self._whitespace_run_renders(ele, following=True, refs=refs):
-                        return " "
-                    if (
-                        self._in_texhtml(ele)
-                        and isinstance(raw_prev := ele.previous_sibling, Tag)
-                        and isinstance(raw_nxt := ele.next_sibling, Tag)
-                        and self._is_inline_emphasis(raw_prev)
-                        and self._is_inline_emphasis(raw_nxt)
-                    ):
-                        return _cfg._MARKDOWN_SEPARATOR
-                    return ""
-                # A run glued to the text is dropped only at a block boundary,
-                # because the block supplies its own newline.  Between two inline
-                # tokens the run is the separation they need, and it survives even
-                # when the neighbour also ends in whitespace: the two runs are
-                # resolved together, so dropping both would merge the tokens
-                # (``<span>kg </span> m`` must not become ``kgm``).
-                prefix = (
-                    " "
-                    if text.startswith(" ")
-                    and not self._meets_block_boundary(ele, following=False, refs=refs)
-                    else ""
-                )
-                suffix = (
-                    " "
-                    if text.endswith(" ")
-                    and not self._meets_block_boundary(ele, following=True, refs=refs)
-                    else ""
-                )
-                rendered = f"{prefix}{core}{suffix}"
-                return escape_markdown(rendered) if escape else rendered
+            if isinstance(ele, NavigableString):
+                return self._convert_text_node(ele, escape=escape, refs=refs)
             return ""
 
         classes = frozenset(ele.get_attribute_list("class"))
@@ -408,22 +462,9 @@ class WikiHtmlConverter:
                 else:
                     fragment = f"^ref-{ref_content}"
                 return (
-                    f"<sup>[{escape_markdown(f'[{ref_content}]')}]"
+                    f"<sup>[{_escape_markdown(f'[{ref_content}]')}]"
                     f"({_markdown_fragment(fragment)})</sup>"
                 )
-
-        if (
-            isinstance(ele, Tag)
-            and ele.name == "div"
-            and "mw:Transclusion" in str(ele.get("typeof", ""))
-        ):
-            if "annotated image" in str(ele.get("data-mw", "")):
-                for ann_div in ele.find_all(
-                    "div", id=lambda v: v and v.startswith("annotation_")
-                ):
-                    ann_div.decompose()
-                for noviewer in ele.find_all("span", class_="noviewer"):
-                    noviewer.decompose()
 
         self._out_to_archive = out_to_archive
         self._redirect_map = redirect_map
@@ -458,10 +499,12 @@ class WikiHtmlConverter:
 
         if "hatnote" in classes:
             config.prefix = f"- {config.prefix.removesuffix('_')}"
-            # Find the next non-empty sibling, skipping whitespace and empty spans.
+            # Find the next non-empty sibling, skipping whitespace, empty
+            # spans, and <link>/<style> elements.
             nxt = ele.find_next_sibling()
-            while isinstance(nxt, Tag) and "mw-empty-elt" in frozenset(
-                nxt.get_attribute_list("class")
+            while isinstance(nxt, Tag) and (
+                "mw-empty-elt" in frozenset(nxt.get_attribute_list("class"))
+                or nxt.name in {"link", "style"}
             ):
                 nxt = nxt.find_next_sibling()
             if isinstance(nxt, Tag) and (
@@ -507,7 +550,7 @@ class WikiHtmlConverter:
             and ele.find("div", class_="thumbcaption") is not None
         )
         has_box_title = _BLOCKQUOTE_CLASSES & classes and bool(
-            self._find_box_title(ele, has_numblk=False)
+            _find_box_title(ele, has_numblk=False)
         )
         if "sistersitebox" in classes:
             original_process = process_strings
@@ -555,9 +598,6 @@ class WikiHtmlConverter:
             config.suffix = "\n\n"
             process_strings = process_strings_blockquote
 
-        if ele.name in _DISPLAY_MATH_CONTAINERS or ele.name == "p":
-            self._normalize_external_math_punctuation(ele)
-
         soon_values, list_stack = await self._convert_children(
             ele,
             list_stack=list_stack,
@@ -568,6 +608,30 @@ class WikiHtmlConverter:
             seen_heading_texts=seen_heading_texts,
         )
         strings = joiner.join(sv.value for sv in soon_values)
+        # When a list (<ul>/<ol>) is followed by a display-math-only <p>,
+        # strip the trailing \n from the list output AND reduce the suffix
+        # from "\n\n" to "\n" so the <p> prefix (space) can join the
+        # equation to the last list item on the same line.  The <li> items
+        # each end with \n (their suffix), so even after stripping one \n
+        # from strings, the list suffix must also be reduced to avoid
+        # re-creating the blank line.
+        if ele.name in _LIST_TAGS and config.suffix == "\n\n":
+            nxt = self._effective_sibling_skipping(
+                ele, following=True, skip_whitespace=True, refs=refs
+            )
+            if isinstance(nxt, Tag) and nxt.name == "p" and _is_display_math_only(nxt):
+                strings = strings.rstrip("\n")
+                config.suffix = ""
+        # When a <p> is followed by a display-math-only <dl>, strip the
+        # trailing \n\n from the <p> output so the <dl> content (with its
+        # " <p> " prefix) joins inline on the same line.
+        if ele.name == "p" and config.suffix == "\n\n":
+            nxt = self._effective_sibling_skipping(
+                ele, following=True, skip_whitespace=True, refs=refs
+            )
+            if isinstance(nxt, Tag) and _is_display_math_only_dl(nxt):
+                strings = strings.rstrip("\n")
+                config.suffix = ""
         if config.full_result:
             return process_strings(strings) or ""
         strings = process_strings(strings)
@@ -602,7 +666,7 @@ class WikiHtmlConverter:
                 ele, classes, level=1, seen_heading_texts=seen_heading_texts
             )
 
-        if ele.name == "a" and "mw-selflink" in classes:
+        if any(c.startswith("mw-selflink") for c in classes):
             return self._handle_selflink(ele, classes)
 
         if "hatnote" not in classes and self._renders_emphasis(ele):
@@ -633,12 +697,10 @@ class WikiHtmlConverter:
         if ele.name == "li":
             return self._handle_li(ele, classes, list_stack)
 
-        if ele.name == "video":
-            return self._handle_video(ele, classes)
-
-        handler = getattr(self, f"_handle_{ele.name}", None)
-        if handler is not None:
-            return handler(ele, classes)
+        # Simple tag dispatch via registry (no extra params, no class gates).
+        handler_name = self._SIMPLE_TAG_HANDLERS.get(ele.name)
+        if handler_name is not None:
+            return getattr(self, handler_name)(ele, classes)
 
         return None
 
@@ -718,21 +780,52 @@ class WikiHtmlConverter:
             title = unquote(href[len(wiki_prefix) :].split("#")[0]).replace("_", " ")
         elif href.startswith("/wiki/"):
             title = unquote(href[6:].split("#")[0]).replace("_", " ")
+        elif href.startswith("./"):
+            # Relative self-link: extract page name from href.
+            title = unquote(href[2:].split("#")[0]).replace("_", " ")
         else:
             title = ele.get_text(strip=True)
         info = self._redirect_map.get(title, _RedirectInfo(to=title))
         to = info.to
+        # Extract fragment from href for relative links (e.g. ./Page#math_3).
+        # info.tofragment is empty for self-links, so we must parse it from
+        # the href to normalize the fragment (underscores -> spaces) and keep
+        # it in sync with the anchor produced by _equation_reference_anchor.
+        if "#" in href:
+            to_fragment = href.split("#", 1)[1]
+        else:
+            to_fragment = info.tofragment
         to_filename = _fix_name_maybe(
             to, replace_underscores=True, names_map=self._names_map
         )
-        target = _markdown_link_target(
-            to_filename,
+        norm_frag = (
             _fix_name_maybe(
-                info.tofragment,
+                to_fragment, replace_underscores=True, names_map=self._names_map
+            )
+            if to_fragment
+            else ""
+        )
+
+        # Same-page detection: use fragment-only.
+        normalized_page = (
+            _fix_name_maybe(
+                self._page_name,
                 replace_underscores=True,
                 names_map=self._names_map,
-            ),
+            )
+            if self._page_name
+            else None
         )
+        if normalized_page and _fix_filename(to_filename) == _fix_filename(
+            normalized_page
+        ):
+            target = (
+                f"#{_encode_fragment(norm_frag)}"
+                if norm_frag
+                else _markdown_link_target(to_filename)
+            )
+        else:
+            target = _markdown_link_target(to_filename, norm_frag)
 
         def process(strings: str) -> str:
             """Strip and flatten self-link display text."""
@@ -748,7 +841,15 @@ class WikiHtmlConverter:
     def _needs_separator_before(sibling: PageElement | None) -> bool:
         """Whether a separator is needed before the block."""
         if isinstance(sibling, NavigableString):
-            return sibling.rstrip(_cfg._MARKDOWN_SEPARATOR_CHARACTERS) == sibling
+            text = str(sibling)
+            if text.rstrip(_cfg._MARKDOWN_SEPARATOR_CHARACTERS) == text:
+                return True  # Sibling does not end with a separator char.
+            # U+00B1 PLUS-MINUS SIGN does not word-bound for emphasis parsing.
+            # E.g. ``= ±_c_`` must become ``= ±<!-- separator -->_c_`` so the
+            # italic marker is recognized by Markdown parsers.
+            if text.endswith("\u00b1"):
+                return True
+            return False
         if isinstance(sibling, Tag):
             # Descend through spans to the last child that renders: a span's
             # emphasis markers wrap its content without changing what abuts the
@@ -776,7 +877,13 @@ class WikiHtmlConverter:
         renders nothing, so the elements are already adjacent.
         """
         if isinstance(sibling, NavigableString):
-            return sibling.lstrip(_cfg._MARKDOWN_SEPARATOR_CHARACTERS) == sibling
+            text = str(sibling)
+            if text.lstrip(_cfg._MARKDOWN_SEPARATOR_CHARACTERS) == text:
+                return True  # Sibling does not start with a separator char.
+            # U+00B1 PLUS-MINUS SIGN does not word-bound for emphasis parsing.
+            if text.startswith("\u00b1"):
+                return True
+            return False
         if isinstance(sibling, Tag) and WikiHtmlConverter._is_transparent_span(sibling):
             # Descend into the transparent span.  Whitespace-only → gap
             # (separator needed).  Non-whitespace content → rendered content
@@ -1187,6 +1294,25 @@ class WikiHtmlConverter:
             for item in list_ele.find_all("li", recursive=False):
                 TableConverter._wrap_children(item, self._soup, "b")
 
+    def _apply_equation_reference_fixes(
+        self,
+        ele: Tag,
+        prefix: str,
+    ) -> str:
+        """Apply equation-reference anchor and parentheses to numblk spans.
+
+        Equation-reference numbers (the ``math_N`` / ``math_Eq.N`` spans
+        inside numblk tables) need two fixes: (1) an ``<a id>`` anchor so
+        prose links to the equation resolve, and (2) parentheses around
+        bare-integer numbers, which Wikipedia renders via CSS pseudo-elements.
+
+        Returns the updated prefix string.
+        """
+        if self._is_equation_reference(ele):
+            prefix = f"{self._equation_reference_anchor(ele)}{prefix}"
+            self._wrap_bare_integer_number(ele)
+        return prefix
+
     def _handle_bold_italic(self, ele: Tag, classes: frozenset[str]) -> _HandlerConfig:
         """Render bold/italic text with Markdown emphasis markers.
 
@@ -1233,9 +1359,7 @@ class WikiHtmlConverter:
         # Wikipedia renders via CSS pseudo-elements. Both paths (numblk in a
         # ``div.equation-box`` and standalone numblk tables) route the number
         # span through here, so this is the single unified fix point.
-        if self._is_equation_reference(ele):
-            prefix = f"{self._equation_reference_anchor(ele)}{prefix}"
-            self._wrap_bare_integer_number(ele)
+        prefix = self._apply_equation_reference_fixes(ele, prefix)
 
         config = _HandlerConfig(prefix=prefix, suffix=suffix, full_result=False)
 
@@ -1282,19 +1406,15 @@ class WikiHtmlConverter:
     def _equation_reference_anchor(self, ele: Tag) -> str:
         """Build the Markdown ``<a id>`` anchor for an equation reference.
 
-        The anchor id must match the fragment used by prose links. A bare
-        ``math_1`` is referenced raw (``#math_1``), while a dotted
-        ``math_Eq.1`` is referenced via the normalized Wikipedia fragment
-        (``#math%20Eq.1``), so the id is normalized the same way
-        (underscores -> spaces) to keep the two in sync.
+        The anchor id must match the fragment used by prose links. Both bare
+        ``math_1`` and dotted ``math_Eq.1`` ids are normalized via
+        ``_fix_name_maybe`` (underscores -> spaces) so the anchor matches
+        the normalized Wikipedia fragment (``#math%201``, ``#math%20Eq.1``).
         """
         ele_id = str(ele["id"])
-        if "." in ele_id:
-            anchor_id = _fix_name_maybe(
-                ele_id, replace_underscores=True, names_map=self._names_map
-            )
-        else:
-            anchor_id = ele_id
+        anchor_id = _fix_name_maybe(
+            ele_id, replace_underscores=True, names_map=self._names_map
+        )
         return f'<a id="{anchor_id}"></a> '
 
     @staticmethod
@@ -1333,13 +1453,8 @@ class WikiHtmlConverter:
         return _HandlerConfig(prefix=prefix, suffix=suffix)
 
     def _handle_span(self, ele: Tag, classes: frozenset[str]) -> _HandlerConfig | None:
-        """Handle <span> elements: replace sfrac sub-trees with <math>."""
-        self._replace_sfrac_with_math(ele)
+        """Handle <span> elements: transparent spans render nothing of their own."""
         return None
-
-    def _replace_sfrac_with_math(self, ele: Tag) -> None:
-        """Replace sfrac elements with inline <math> elements."""
-        LatexConverter.replace_sfrac_with_math(ele, self._soup)
 
     @staticmethod
     def _in_list_item(ele: Tag) -> bool:
@@ -1380,32 +1495,37 @@ class WikiHtmlConverter:
         return False
 
     @staticmethod
-    def _in_inline_context(ele: Tag) -> bool:
-        """Check if element is inside a handler that provides block spacing.
-
-        Returns True when the image/audio appears inside an element whose
-        handler already injects its own block-level spacing (``\n`` or
-        ``\n\n``), so the image/audio should NOT add its own ``\n\n``.
-
-        Excludes ``<p>`` because the ``<p>`` handler's ``\n\n`` suffix
-        goes *after* the entire element, not between its children.
-        Excludes ``<div>`` and ``<figure>`` for similar block-level
-        separation reasons.
-        """
-        for p in ele.parents:
-            if not isinstance(p, Tag):
-                continue
-            if p.name in {"li", "td", "th", "div", "figure"}:
-                return p.name != "div" and p.name != "figure"
-        return False
-
-    @staticmethod
     def _in_navbox(ele: Tag) -> bool:
         """Check if element is inside a navbox table."""
         return any(
             isinstance(p, Tag) and "navbox" in (p.get("class") or [])
             for p in ele.parents
         )
+
+    @staticmethod
+    def _content_sibling(ele: Tag, *, following: bool) -> Tag | None:
+        """Return the first content sibling, skipping ``<link>``/``<style>``.
+
+        When *following* is True, walks forward (``find_next_sibling``);
+        otherwise walks backward (``find_previous_sibling``).  Returns the
+        first ``Tag`` that is not a ``<link>`` or ``<style>`` element, or
+        ``None`` if no such sibling exists.
+        """
+        if following:
+            nxt = ele.find_next_sibling()
+            while isinstance(nxt, Tag) and nxt.name in {"link", "style"}:
+                nxt = nxt.find_next_sibling()
+            return nxt if isinstance(nxt, Tag) else None
+        prev = ele.find_previous_sibling()
+        while isinstance(prev, Tag) and prev.name in {"link", "style"}:
+            prev = prev.find_previous_sibling()
+        return prev if isinstance(prev, Tag) else None
+
+    @staticmethod
+    def _next_is_display_math_dl(ele: Tag) -> bool:
+        """Return True if *ele*'s next content sibling is a display-math-only <dl>."""
+        nxt = WikiHtmlConverter._content_sibling(ele, following=True)
+        return nxt is not None and _is_display_math_only_dl(nxt)
 
     def _handle_block_level(self, ele: Tag, classes: frozenset[str]) -> _HandlerConfig:
         """Handle block-level elements with spacing suffix."""
@@ -1420,7 +1540,15 @@ class WikiHtmlConverter:
             # Figure captions are block-level content: give them their own
             # ``> `` line (blank ``> `` separation from following siblings),
             # e.g. multi-image ``tmulti`` thumbnails with per-image captions.
-            return _HandlerConfig(suffix="\n\n")
+            # Collapse <br/> line breaks to spaces so the caption stays on
+            # one blockquote line.
+            def process_strings_thumbcaption(strings: str) -> str:
+                """Collapse newlines in thumbcaption to spaces."""
+                return _collapse_whitespace(strings.replace("\n", " "))
+
+            return _HandlerConfig(
+                suffix="\n\n", process_strings=process_strings_thumbcaption
+            )
         if (
             "sidebar-caption" in classes or "infobox-caption" in classes
         ) and self._in_table_cell(ele):
@@ -1429,142 +1557,29 @@ class WikiHtmlConverter:
             # marker (the cell-internal separator convention) rather than a
             # block break.
             return _HandlerConfig(prefix=" <p> ")
+        if "portal-bar" in classes:
+            # Portal-bar divs (e.g. the "Portals" section at the bottom of
+            # Wikipedia articles) should render as a blockquote so each line
+            # is visually distinct from surrounding content.
+            def _blockquote_wrap(strings: str) -> str:
+                """Wrap each non-empty line in '> ' for blockquote output."""
+                lines = strings.strip().split("\n")
+                result: list[str] = []
+                for line in lines:
+                    stripped = line.strip()
+                    result.append(f"> {stripped}" if stripped else ">")
+                return "\n".join(result)
+
+            return _HandlerConfig(suffix="\n\n", process_strings=_blockquote_wrap)
         if "equation-box" not in classes:
             return self._handle_block_level(ele, classes)
 
-        # Find the numblk table.
-        numblk = ele.find("table", class_="numblk")
-        title = self._equation_box_title(ele, has_numblk=numblk is not None)
-
-        # No title and no numbering: nothing to table-ify -> plain block.
-        if not title and numblk is None:
-            return self._handle_block_level(ele, classes)
-
-        # The box's declared alignment, inherited by all its cells.
-        align = ""
-        if m := _TEXT_ALIGN_REGEX.search(str(ele.get("style", ""))):
-            align = m[1]
-
-        # Remove spacer columns (width=0px <td>) from numblk rows.
-        if numblk is not None:
-            for tdh in tuple(numblk.find_all(_TD_OR_TH)):
-                style = str(tdh.get("style", ""))
-                if re.search(r"width\s*:\s*0", style, re.IGNORECASE):
-                    tdh.decompose()
-
-        # Build a new table whose cells carry the box's alignment; the
-        # TableConverter derives alignment markers from these cells.
-        new_table = self._soup.new_tag("table")
-        tbody = self._soup.new_tag("tbody")
-        new_table.append(tbody)
-
-        # Header row: title in <th>; equation-number <th> only when a
-        # numblk table (numbering) is present.
-        header_row = self._soup.new_tag("tr")
-        th1 = self._soup.new_tag("th")
-        if align:
-            _set_text_align(th1, align)
-        # ``title`` is the list of leading inline nodes (e.g. ``<b>`` plus a
-        # trailing parenthetical text run).  Append each so inline formatting
-        # and the parenthetical are preserved in the header cell.
-        for _title_node in title:
-            th1.append(_title_node)
-        header_row.append(th1)
-        if numblk is not None:
-            th2 = self._soup.new_tag("th")
-            if align:
-                _set_text_align(th2, align)
-            header_row.append(th2)
-        tbody.append(header_row)
-
-        if numblk is not None:
-            # Append cleaned numblk rows, propagating the box's alignment
-            # onto cells that do not declare their own.
-            for tr in numblk.find_all("tr"):
-                new_tr = copy(tr)
-                if align:
-                    for cell in new_tr.find_all(_TD_OR_TH):
-                        _set_text_align(cell, align)
-                # The equation-number cell is the last cell. Wikipedia bolds
-                # it *and* its inner reference span; drop the redundant
-                # cell-level bold so the number renders as a single
-                # ``__N__`` rather than ``____N____``.
-                if cells := tuple(new_tr.find_all(_TD_OR_TH)):
-                    _strip_cell_bold(cells[-1])
-                tbody.append(new_tr)
-        else:
-            # No numblk table: place the remaining content in a single
-            # body cell (no empty equation-number column).
-            body_row = self._soup.new_tag("tr")
-            body_cell = self._soup.new_tag("td")
-            if align:
-                _set_text_align(body_cell, align)
-            for child in list(ele.children):
-                body_cell.append(copy(child))
-            body_row.append(body_cell)
-            tbody.append(body_row)
-
-        # Replace div children with the new table.
-        ele.clear()
-        ele.append(new_table)
-
-        return None
+        # Delegate equation-box rendering to TableConverter.
+        return TableConverter.handle_equation_box(ele, self._soup, self._names_map)
 
     def _handle_figcaption(self, ele: Tag, classes: frozenset[str]) -> _HandlerConfig:
         """Render ``<figcaption>`` as block-level caption content."""
         return _HandlerConfig(suffix="" if self._in_table_cell(ele) else "\n\n")
-
-    @staticmethod
-    def _find_box_title(
-        ele: Tag, *, has_numblk: bool
-    ) -> list[Tag | NavigableString] | None:
-        """Detect the leading title of a box div without extracting it.
-
-        The title is the run of leading inline nodes (bare text and inline
-        tags such as ``<b>``/``<strong>``) before the first block-level
-        body element (e.g. ``<p>``) or numblk table.  This captures a title
-        followed by a trailing parenthetical text run, e.g.
-        ``<b>Routhian</b> (n + s degrees of freedom)``, so the whole run can
-        be merged into the header cell.  Returns None when the box has no
-        distinct title (e.g. pure equation content).
-        """
-        title_nodes: list[Tag | NavigableString] = []
-        for child in list(ele.children):
-            if isinstance(child, NavigableString):
-                if not child.strip():
-                    continue
-                if not has_numblk and not any(
-                    isinstance(sib, Tag) and sib.name in _EQUATION_BOX_BODY_BLOCK_TAGS
-                    for sib in ele.children
-                ):
-                    return None
-                title_nodes.append(child)
-                continue
-            if isinstance(child, Tag) and child.name in _EQUATION_BOX_TITLE_TAGS:
-                title_nodes.append(child)
-                continue
-            return title_nodes if title_nodes else None
-        return title_nodes if title_nodes else None
-
-    @staticmethod
-    def _equation_box_title(
-        ele: Tag, *, has_numblk: bool
-    ) -> list[Tag | NavigableString]:
-        """Extract the leading title of an equation-box div.
-
-        The title is the run of leading inline nodes (bare text and inline
-        tags such as ``<b>``/``<strong>``) before the first block-level
-        body element or numblk table.  The title nodes are removed from
-        *ele* so the remaining children form the body.  Returns an empty
-        list when the box has no distinct title (e.g. pure equation
-        content).
-        """
-        title = WikiHtmlConverter._find_box_title(ele, has_numblk=has_numblk)
-        if title is None:
-            return []
-        for node in title:
-            node.extract()
-        return title
 
     _handle_dd = _handle_block_level
     _handle_dt = _handle_block_level
@@ -1578,7 +1593,10 @@ class WikiHtmlConverter:
         # output).  Keep the current no-joiner behavior inside table cells.
         in_table = self._in_table_cell(ele)
         in_list = self._in_list_item(ele)
-        joiner = "" if in_table else "\n"
+        # Inside a list item, join <dd> children inline with <p> separator
+        # so the list item stays on one line.  Outside a list, use newlines.
+        joiner = "" if in_table else (" <p> " if in_list else "\n")
+        prefix = ""
         if joiner:
             for child in tuple(ele.children):
                 if isinstance(child, NavigableString) and not child.strip():
@@ -1605,9 +1623,44 @@ class WikiHtmlConverter:
                 suffix = " <p>"
             else:
                 suffix = " <p> "
+            # When a display-math-only <dl> is inside a list item, indent the
+            # formula with ``<p> &nbsp;&nbsp;&nbsp;&nbsp;`` so it visually
+            # joins the preceding text on the same line.
+            if _is_display_math_only_dl(ele):
+                prefix = " <p> &nbsp;&nbsp;&nbsp;&nbsp;"
         else:
             suffix = "\n\n"
-        return _HandlerConfig(joiner=joiner, suffix=suffix)
+            # When a <dl> follows a </li> or </ul>/</ol>, the preceding content
+            # was inline inside a list item.  Join this <dl> inline with <p>
+            # separator instead of creating a block break.
+            prev = self._content_sibling(ele, following=False)
+            if prev is not None and prev.name in {"li", "ul", "ol"}:
+                joiner = " <p> "
+                prefix = " <p> "
+                suffix = " "
+            # When a display-math-only <dl> follows a <p>, join inline
+            # with <p> separator instead of creating a block break.
+            elif _is_display_math_only_dl(ele):
+                prev = self._content_sibling(ele, following=False)
+                if prev is not None and prev.name == "p":
+                    prefix = " <p> &nbsp;&nbsp;&nbsp;&nbsp; "
+                    # Check if next sibling is a heading — headings should
+                    # be on separate lines, not joined with <p>.
+                    # Headings may be wrapped in div.mw-heading.
+                    nxt = self._content_sibling(ele, following=True)
+                    is_heading = isinstance(nxt, Tag) and (
+                        nxt.name in _HEADING_TAGS
+                        or (
+                            nxt.name == "div"
+                            and "mw-heading"
+                            in frozenset(nxt.get_attribute_list("class"))
+                        )
+                    )
+                    if is_heading:
+                        suffix = "\n\n"
+                    else:
+                        suffix = " <p> "
+        return _HandlerConfig(joiner=joiner, prefix=prefix, suffix=suffix)
 
     def _handle_p(self, ele: Tag, classes: frozenset[str]) -> _HandlerConfig:
         """Render a <p> paragraph with appropriate spacing."""
@@ -1627,6 +1680,47 @@ class WikiHtmlConverter:
         # between comment and content) for markdownlint to apply the suppression.
         if not in_table and self._sole_bold_child(ele) is not None:
             prefix = "\n<!-- markdownlint-disable-next-line MD036 -->\n"
+
+        # Display math after a list: when a <p> containing only display math
+        # follows a </ul>, join it to the last list item on the same line
+        # instead of creating a separate paragraph.
+        if not in_table and _is_display_math_only(ele):
+            prev = ele.find_previous_sibling()
+            while isinstance(prev, Tag) and prev.name in {"ul", "ol"}:
+                prefix = " "
+                suffix = ""
+                break
+            else:
+                prev = None
+            if prev is None:
+                pass  # no list sibling found, keep default prefix
+
+        # When a <p> follows a display-math-only <dl> (which uses " <p> " as
+        # its suffix), strip the prefix newline so the content joins inline.
+        if not in_table and prefix == "\n":
+            prev = self._content_sibling(ele, following=False)
+            if (
+                prev is not None
+                and _is_display_math_only_dl(prev)
+                and _dl_follows_p(prev)
+            ):
+                nxt_of_dl = self._content_sibling(prev, following=True)
+                is_heading = isinstance(nxt_of_dl, Tag) and (
+                    nxt_of_dl.name in _HEADING_TAGS
+                    or (
+                        nxt_of_dl.name == "div"
+                        and "mw-heading"
+                        in frozenset(nxt_of_dl.get_attribute_list("class"))
+                    )
+                )
+                if not is_heading:
+                    prefix = ""
+
+        # When a <p> is followed by a display-math-only <dl>, suppress the
+        # blank line so the <dl> joins inline with <p> separator.
+        if not in_table and suffix == "\n\n":
+            if self._next_is_display_math_dl(ele):
+                suffix = ""
 
         return _HandlerConfig(prefix=prefix, suffix=suffix, process_strings=process)
 
@@ -1753,6 +1847,9 @@ class WikiHtmlConverter:
             )
         ):
             return False
+        # Merged multi-part math retains the inline classification.
+        if outer_span is not None and outer_span.get("data-merged-inline") is not None:
+            return True
         return WikiHtmlConverter._substantive_child_count(container) > 1
 
     @staticmethod
@@ -1782,7 +1879,8 @@ class WikiHtmlConverter:
             alt_text = alt_text.rstrip()
         return alt_text
 
-    def _normalize_external_math_punctuation(self, container: Tag) -> None:
+    @staticmethod
+    def _normalize_external_math_punctuation(container: Tag) -> None:
         """Absorb external punct into ``alttext`` before concurrent child conversion."""
         for child in list(container.children):
             if not isinstance(child, Tag):
@@ -1797,16 +1895,18 @@ class WikiHtmlConverter:
             raw_alttext = math.get("alttext")
             if not raw_alttext:
                 continue
-            alt_text = self._prepare_math_alttext(str(raw_alttext))
-            if not self._qualifies_for_external_punct_absorption(
+            alt_text = WikiHtmlConverter._prepare_math_alttext(str(raw_alttext))
+            if not WikiHtmlConverter._qualifies_for_external_punct_absorption(
                 container, outer_span, alt_text
             ):
                 continue
-            punct = self._following_punctuation_sibling(outer_span)
+            punct = WikiHtmlConverter._following_punctuation_sibling(outer_span)
             if not punct:
                 continue
-            math["alttext"] = self._inject_external_punctuation(alt_text, punct)
-            self._decompose_punctuation_sibling(outer_span)
+            math["alttext"] = WikiHtmlConverter._inject_external_punctuation(
+                alt_text, punct
+            )
+            WikiHtmlConverter._decompose_punctuation_sibling(outer_span)
 
     @staticmethod
     def _escape_flashcard_delimiters(text: str) -> str:
@@ -1848,9 +1948,23 @@ class WikiHtmlConverter:
             if inline:
                 alt_text, punct = self._strip_trailing_punctuation(alt_text)
                 suffix += punct
+                # Prevent trailing \ from escaping closing $ delimiter.
+                # After _strip_trailing_punctuation + rstrip, a trailing
+                # LaTeX space command (e.g. \ .) becomes bare \. The space
+                # restores \  so $ closes the math instead of becoming \$.
+                if alt_text.endswith("\\"):
+                    alt_text += " "
 
             ele.clear()
             ele.append(alt_text)
+            # Bypass NavigableString processing which would strip the trailing
+            # space needed to prevent \\ from escaping the closing $ delimiter.
+            _alt = alt_text
+            return _HandlerConfig(
+                prefix=prefix,
+                suffix=suffix,
+                process_strings=lambda s, _a=_alt: _a,
+            )
 
         return _HandlerConfig(prefix=prefix, suffix=suffix)
 
@@ -1898,6 +2012,20 @@ class WikiHtmlConverter:
             else:
                 prefix = "\n\n"
             suffix = "\n\n"
+        # When a list follows a display-math-only <p> (which was joined to
+        # the previous list), reduce the prefix from "\n\n" to "\n" so
+        # there is no blank line between the equation and the next list.
+        if prefix == "\n\n" and not self._in_table_cell(ele):
+            prev = self._content_sibling(ele, following=False)
+            if prev is not None and _is_display_math_only(prev):
+                prefix = "\n"
+            # When a list follows a <dl> that was joined inline with the
+            # preceding list (the <dl> is between two lists), reduce the
+            # prefix to avoid an extra blank line.
+            elif prev is not None and prev.name == "dl":
+                dl_prev = self._content_sibling(prev, following=False)
+                if dl_prev is not None and dl_prev.name in {"ul", "ol"}:
+                    prefix = "\n"
         return prefix, suffix
 
     def _handle_ol(
@@ -2020,10 +2148,23 @@ class WikiHtmlConverter:
                 process_strings=process,
             )
         else:
+            # Check if this <li> has nested lists — if so, don't flatten
+            has_nested_list = ele.find("ul") is not None or ele.find("ol") is not None
 
-            def process(strings: str) -> str:
-                """Remove leading/trailing formatting spaces."""
-                return strings.strip(" \t\n\r\x0b\x0c")
+            def process(strings: str, _nested: bool = has_nested_list) -> str:
+                """For leaf list items, flatten multiline content to one line:
+                paragraph separators (\n\n) become <p>, remaining newlines
+                become spaces.  Nested lists are left untouched."""
+                if _nested:
+                    return strings.strip(" \t\n\r\x0b\x0c")
+                s = strings.strip(" \t\n\r\x0b\x0c")
+                # Paragraph separators (\n\n blocks) become <p>
+                s = re.sub(r"\n\s*\n+", " <p> ", s)
+                # Remaining single newlines become spaces
+                s = re.sub(r"\n+", " ", s)
+                # Collapse runs of spaces
+                s = re.sub(r" {2,}", " ", s)
+                return s.strip()
 
             return _HandlerConfig(
                 prefix=f"{_cfg._LIST_INDENT * (len(list_stack) - 1)}- ",
@@ -2055,48 +2196,17 @@ class WikiHtmlConverter:
         """Handle <table> elements, integrating caption as a header row.
 
         A standalone ``numblk`` table (a sibling of an equation-box div, not
-        a descendant) is rendered as a two-column equation table: an empty
-        header row plus an alignment marker row, so its equation/number body
-        row aligns like a numblk nested inside an equation-box div.  This
-        mirrors the header+alignment layout that ``_handle_div`` builds for
-        the nested case.
+        a descendant) is rendered as a two-column equation table via
+        ``TableConverter.handle_standalone_numblk``.
         """
         if "numblk" in classes and not WikiHtmlConverter._is_in_equation_box(ele):
-            align = ""
-            box = ele.find_previous("div", class_="equation-box")
-            if isinstance(box, Tag) and (
-                m := _TEXT_ALIGN_REGEX.search(str(box.get("style", "")))
-            ):
-                align = m[1]
+            return TableConverter.handle_standalone_numblk(
+                ele, self._soup, self._names_map
+            )
 
-            # Drop empty spacer cells (no text and no explicit width:0px style).
-            for tdh in tuple(ele.find_all(_TD_OR_TH)):
-                if not tdh.get_text(strip=True) and not re.search(
-                    r"width\s*:\s*0", str(tdh.get("style", "")), re.IGNORECASE
-                ):
-                    tdh.decompose()
-
-            tbody = ele.find("tbody") or ele
-            header_row = self._soup.new_tag("tr")
-            th1 = self._soup.new_tag("th")
-            th2 = self._soup.new_tag("th")
-            if align:
-                _set_text_align(th1, align)
-                _set_text_align(th2, align)
-            header_row.append(th1)
-            header_row.append(th2)
-            tbody.insert(0, header_row)
-
-            if align:
-                for tr in tbody.find_all("tr"):
-                    if tr is header_row:
-                        continue
-                    for cell in tr.find_all(_TD_OR_TH):
-                        _set_text_align(cell, align)
-                    if cells := tuple(tr.find_all(_TD_OR_TH)):
-                        _strip_cell_bold(cells[-1])
-
-            return TableConverter.handle_table(ele, classes, self._soup)
+        # Rewrite equation-number cells (e.g. velocity table) before
+        # conversion so they produce __\([N](#math%20N)\)__.
+        _rewrite_table_equation_cells(ele)
 
         return TableConverter.handle_table(ele, classes, self._soup)
 
@@ -2185,7 +2295,7 @@ class WikiHtmlConverter:
         src_url_str = self._process_archive_url(str(src))
         link = f"{'!' if embed else ''}[{text}]({src_url_str})"
         return _HandlerConfig(
-            suffix="" if self._in_inline_context(ele) else "\n\n",
+            suffix="" if _in_inline_context(ele) else "\n\n",
             process_strings=lambda _strings: link,
         )
 
@@ -2236,10 +2346,138 @@ class WikiHtmlConverter:
             return desc
         return file_title
 
+    def _resolve_link_from_title(
+        self,
+        title: str,
+        to_fragment: str,
+        classes: frozenset[str],
+    ) -> _HandlerConfig | None:
+        """Resolve a link from its title attribute.
+
+        Returns a ``_HandlerConfig`` for the resolved link, or ``None``
+        if the title should be ignored (e.g. redlinks to non-existent pages).
+        """
+        info = self._redirect_map.get(title, _RedirectInfo(to=title))
+        to = info.to
+        if not to_fragment:
+            to_fragment = info.tofragment
+
+        def _process_link_text(s: str) -> str:
+            """Strip and flatten link display text."""
+            return s.strip().replace("\n", " <br/> ")
+
+        if any(to.startswith(prefix) for prefix in _cfg._IGNORED_NAME_PREFIXES):
+            return None
+        if url_format := next(
+            (
+                (format, to[len(prefix) :])
+                for prefix, format in _cfg._PRESERVED_PAGE_PREFIXES.items()
+                if to.startswith(prefix)
+            ),
+            None,
+        ):
+            return _HandlerConfig(
+                prefix="[",
+                suffix=(
+                    f"]"
+                    f"({url_format[0].format(f'{quote(url_format[1])}{to_fragment and "#"}{quote(to_fragment, safe="")}')})"
+                ),
+                process_strings=_process_link_text,
+            )
+        if "extiw" in classes:
+            lang_code, extiw_page = to.split(":", 1)
+            lang_code = str(convert(lang_code, to="ISO3")).casefold()
+            from_filename = _fix_name_maybe(
+                extiw_page,
+                replace_underscores=True,
+                names_map=self._names_map,
+            )
+            return _HandlerConfig(
+                prefix="[",
+                suffix=(
+                    f"]"
+                    f"(../{lang_code}/{_markdown_link_target(from_filename, _fix_name_maybe(to_fragment, replace_underscores=True, names_map=self._names_map))})"
+                ),
+                process_strings=_process_link_text,
+            )
+        from_filename, to_filename = (
+            _fix_name_maybe(
+                title,
+                replace_underscores=True,
+                names_map=self._names_map,
+            ),
+            _fix_name_maybe(
+                to,
+                replace_underscores=True,
+                names_map=self._names_map,
+            ),
+        )
+        config = _HandlerConfig(
+            prefix="[",
+            suffix=(
+                f"]"
+                f"({_markdown_link_target(from_filename, _fix_name_maybe(to_fragment, replace_underscores=True, names_map=self._names_map))})"
+            ),
+            process_strings=_process_link_text,
+        )
+        from_filename, to_filename = (
+            _fix_filename(from_filename),
+            _fix_filename(to_filename),
+        )
+        if from_filename != to_filename:
+            self._pending_redirects.append((from_filename, to_filename))
+        return config
+
+    def _resolve_relative_link(self, href: str) -> str:
+        """Resolve a relative ``./Page#fragment`` link to a Markdown target.
+
+        Normalizes the stem to a proper filename and the fragment to
+        match the anchor produced by ``_equation_reference_anchor``.
+        Returns the resolved href string.
+        """
+        stem, _, frag = href.partition("#")
+        stem_name = _fix_name_maybe(
+            stem.removeprefix("./"),
+            replace_underscores=True,
+            names_map=self._names_map,
+        )
+        new_frag = (
+            _fix_name_maybe(frag, replace_underscores=True, names_map=self._names_map)
+            if frag
+            else ""
+        )
+        # Same-page link: use fragment-only.
+        normalized_page = (
+            _fix_name_maybe(
+                self._page_name,
+                replace_underscores=True,
+                names_map=self._names_map,
+            )
+            if self._page_name
+            else None
+        )
+        if normalized_page and _fix_filename(stem_name) == _fix_filename(
+            normalized_page
+        ):
+            return f"#{_encode_fragment(new_frag)}" if new_frag else ""
+        return (
+            _markdown_link_target(stem_name, new_frag)
+            if new_frag
+            else _markdown_link_target(stem_name)
+        )
+
     async def _handle_anchor(
         self, ele: Tag, classes: frozenset[str]
     ) -> _HandlerConfig | None:
         """Handle ``<a>`` link elements."""
+        # Bare anchors (<a id="math 7"></a>) with no href/title are
+        # equation-reference anchors emitted by _rewrite_equation_number_cell.
+        # Preserve them as raw HTML so they survive conversion.
+        if not ele.get("href") and not ele.get("title") and ele.get("id"):
+            return _HandlerConfig(
+                full_result=True,
+                process_strings=lambda _: str(ele),
+            )
         if (title := ele.get("title")) and title not in _cfg._BAD_TITLES:
             title = str(title)
             if "new" in classes:
@@ -2247,83 +2485,8 @@ class WikiHtmlConverter:
             href = str(ele.get("href", ""))
             to_fragment = href.split("#", 1)[-1] if "#" in href else ""
 
-            info = self._redirect_map.get(title, _RedirectInfo(to=title))
-            to = info.to
-            if not to_fragment:
-                to_fragment = info.tofragment
-
-            def _process_link_text(s: str) -> str:
-                """Strip and flatten link display text."""
-                return s.strip().replace("\n", " <br/> ")
-
-            if any(to.startswith(prefix) for prefix in _cfg._IGNORED_NAME_PREFIXES):
-                pass
-            elif url_format := next(
-                (
-                    (format, to[len(prefix) :])
-                    for prefix, format in _cfg._PRESERVED_PAGE_PREFIXES.items()
-                    if to.startswith(prefix)
-                ),
-                None,
-            ):
-                return _HandlerConfig(
-                    prefix="[",
-                    suffix=(
-                        f"]"
-                        f"({url_format[0].format(f'{quote(url_format[1])}{to_fragment and "#"}{quote(to_fragment, safe="")}')})"
-                    ),
-                    process_strings=_process_link_text,
-                )
-            elif "extiw" in classes:
-                lang_code, extiw_page = to.split(":", 1)
-                lang_code = str(convert(lang_code, to="ISO3")).casefold()
-                from_filename = _fix_name_maybe(
-                    extiw_page,
-                    replace_underscores=True,
-                    names_map=self._names_map,
-                )
-
-                return _HandlerConfig(
-                    prefix="[",
-                    suffix=(
-                        f"]"
-                        f"(../{lang_code}/{_markdown_link_target(from_filename, _fix_name_maybe(to_fragment, replace_underscores=True, names_map=self._names_map))})"
-                    ),
-                    process_strings=_process_link_text,
-                )
-            else:
-                from_filename, to_filename = (
-                    _fix_name_maybe(
-                        title,
-                        replace_underscores=True,
-                        names_map=self._names_map,
-                    ),
-                    _fix_name_maybe(
-                        to,
-                        replace_underscores=True,
-                        names_map=self._names_map,
-                    ),
-                )
-
-                config = _HandlerConfig(
-                    prefix="[",
-                    suffix=(
-                        f"]"
-                        f"({_markdown_link_target(from_filename, _fix_name_maybe(to_fragment, replace_underscores=True, names_map=self._names_map))})"
-                    ),
-                    process_strings=_process_link_text,
-                )
-                from_filename, to_filename = (
-                    _fix_filename(from_filename),
-                    _fix_filename(to_filename),
-                )
-                if from_filename != to_filename:
-                    await _create_redirect_symlinks(
-                        self._converted_wiki_dir,
-                        self._converted_wiki_lang_dir,
-                        from_filename,
-                        to_filename,
-                    )
+            config = self._resolve_link_from_title(title, to_fragment, classes)
+            if config is not None:
                 return config
         elif ele_href := ele.get("href"):
             href = str(ele_href)
@@ -2343,6 +2506,17 @@ class WikiHtmlConverter:
                         names_map=self._names_map,
                     )
                 )
+            elif href.startswith("./") and "#" in href:
+                # Relative link with fragment (e.g. ./Special_relativity#math_3).
+                href = self._resolve_relative_link(href)
+            elif href.startswith("./"):
+                # Relative link without fragment (e.g. ./Special_relativity).
+                stem_name = _fix_name_maybe(
+                    href.removeprefix("./"),
+                    replace_underscores=True,
+                    names_map=self._names_map,
+                )
+                href = _markdown_link_target(stem_name)
 
             def process(strings: str) -> str:
                 """Collapse whitespace in anchor text."""

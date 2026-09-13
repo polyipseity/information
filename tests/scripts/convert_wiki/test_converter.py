@@ -12,7 +12,9 @@ from anyio import Path as AnyioPath
 from bs4 import BeautifulSoup, NavigableString, Tag
 
 from scripts.convert_wiki.converter import WikiHtmlConverter, _discards_subtree
+from scripts.convert_wiki.inline_context import _in_inline_context
 from scripts.convert_wiki.latex import LatexConverter
+from scripts.convert_wiki.pipeline import _preprocess_html
 from scripts.convert_wiki.types import _RedirectInfo
 from tests.scripts.test_convert_wiki import _assert_markdownlint_clean
 
@@ -70,6 +72,7 @@ async def _convert(
 ) -> str:
     """Shorthand to convert HTML fragment through the converter."""
     soup = BeautifulSoup(html, "html.parser")
+    _preprocess_html(soup)
     return await converter.convert(
         soup,
         out_to_archive=set(),
@@ -1666,6 +1669,28 @@ class TestAudioHandling:
         )
         assert "[A short tone.]" in result
 
+    @pytest.mark.anyio
+    async def test_inline_math_trailing_backslash_space_period(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Inline math ending with ``\\ .`` should produce ``\\ $`` not ``\\$``.
+
+        After _strip_trailing_punctuation removes the period and rstrip()
+        removes the space, the trailing \\ would escape the closing $
+        delimiter.  The fix appends a space to restore \\  so $ closes
+        the math correctly.
+        """
+        # Use a container that qualifies for inline math (e.g. <li>)
+        # Real Wikipedia alttexts use single backslashes: {\displaystyle ...}
+        result = await _convert(
+            converter,
+            f"<li>text {_inline_math_span('{\\displaystyle a \\ .}')}</li>",
+        )
+        # Should NOT contain \$ (escaped dollar = literal $ in KaTeX)
+        assert "\\$" not in result
+        # Should contain \ $ (backslash-space before closing $)
+        assert "\\ $" in result
+
 
 # ---------------------------------------------------------------------------
 
@@ -1775,7 +1800,7 @@ class TestDivHandling:
             "> E = mc<sup>2</sup>\n"
             "> | | |\n"
             "> | :-: | :-: |\n"
-            '> | E = mc<sup>2</sup> | <a id="math_1"></a> __\\(1\\)__ |\n\n'
+            '> | E = mc<sup>2</sup> | <a id="math 1"></a> __\\(1\\)__ |\n\n'
         )
 
     @pytest.mark.anyio
@@ -1820,15 +1845,15 @@ class TestDivHandling:
         """Equation-reference spans must emit a Markdown ``<a id>`` anchor.
 
         The anchor id matches the fragment used by prose links: a bare
-        ``math_1`` stays raw, while a dotted ``math_Eq.1`` is normalized the
-        same way Wikipedia link fragments are (underscores -> spaces).
+        Both bare ``math_1`` and dotted ``math_Eq.1`` are normalized
+        (underscores -> spaces) to match the normalized Wikipedia fragment.
         """
         raw = await _convert(
             converter,
             '<span id="math_1" class="reference nourlexpansion" '
             'style="font-weight: bold">1</span>',
         )
-        assert '<a id="math_1"></a>' in raw
+        assert '<a id="math 1"></a>' in raw
         dotted = await _convert(
             converter,
             '<span id="math_Eq.1" class="reference nourlexpansion" '
@@ -2306,7 +2331,7 @@ class TestStaticUtilities:
         soup = BeautifulSoup("<li><span>item</span></li>", "html.parser")
         span = soup.find("span")
         assert span is not None
-        assert WikiHtmlConverter._in_inline_context(span)
+        assert _in_inline_context(span)
 
     def test_not_in_inline_context_paragraph(
         self, converter: WikiHtmlConverter
@@ -2315,7 +2340,7 @@ class TestStaticUtilities:
         soup = BeautifulSoup("<p><span>text</span></p>", "html.parser")
         span = soup.find("span")
         assert span is not None
-        assert not WikiHtmlConverter._in_inline_context(span)
+        assert not _in_inline_context(span)
 
     def test_in_navbox(self, converter: WikiHtmlConverter) -> None:
         """Element inside a navbox table should be detected."""

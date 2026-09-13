@@ -187,22 +187,6 @@ class TestNewApiConstants:
         """_CACHE_TTL should be a timedelta of 1 day."""
         assert _mod._CACHE_TTL.days == 1  # noqa: SLF001
 
-    def test_api_max_retries(self) -> None:
-        """_API_MAX_RETRIES should be 3."""
-        assert _mod._API_MAX_RETRIES == 3  # noqa: SLF001
-
-    def test_api_initial_backoff(self) -> None:
-        """_API_INITIAL_BACKOFF should be 1.0."""
-        assert _mod._API_INITIAL_BACKOFF == 1.0  # noqa: SLF001
-
-    def test_api_backoff_multiplier(self) -> None:
-        """_API_BACKOFF_MULTIPLIER should be 2.0."""
-        assert _mod._API_BACKOFF_MULTIPLIER == 2.0  # noqa: SLF001
-
-    def test_api_max_backoff(self) -> None:
-        """_API_MAX_BACKOFF should be 30.0."""
-        assert _mod._API_MAX_BACKOFF == 30.0  # noqa: SLF001
-
 
 class TestNewRegexConstants:
     """Tests for regex constants moved to module level."""
