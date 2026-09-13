@@ -709,18 +709,30 @@ def _merge_dl_after_thumb_into_list(soup: BeautifulSoup | Tag) -> None:
             continue
         last_li = li_items[-1]
 
-        # Move <dd> children from <dl> into a new <dl> inside the
-        # last <li>.  Creating a new <dl> preserves the original <dl>'s
+        # Move <dd> children from <dl> into <p> elements inside the
+        # last <li>.  Using <p> instead of <dl> avoids two issues:
+        # (1) the <dl> joiner doesn't add a space before the first <dd>,
+        # (2) the <dl> suffix always adds a trailing `` <p> ``.
+        # Creating a new <dl> preserves the original <dl>'s
         # display-math-only semantics (which trigger the `` <p> \xa0\xa0\xa0\xa0``
         # prefix in the converter).
         dd_children = [c for c in dl.children if isinstance(c, Tag) and c.name == "dd"]
         if not dd_children:
             continue
-        # Create a new <dl> and append it after the last child of the <li>.
-        new_dl = soup.new_tag("dl")
         for dd in dd_children:
-            new_dl.append(dd.extract())
-        last_li.append(new_dl)
+            p = soup.new_tag("p")
+            for child in list(dd.children):
+                p.append(child.extract())
+            last_li.append(p)
+
+        # Remove whitespace NavigableString between the preceding <dl>
+        # and our new <p>.  This ensures the preceding <dl> gets the
+        # `` <p> `` suffix (with trailing space) instead of `` <p>``
+        # (without), which affects the space after the `` <p> `` separator.
+        last_appended = list(last_li.children)[-1]
+        prev_sibling = last_appended.previous_sibling
+        if isinstance(prev_sibling, NavigableString) and not prev_sibling.strip():
+            prev_sibling.extract()
 
         # Remove the empty <dl> from the tree.
         dl.decompose()
