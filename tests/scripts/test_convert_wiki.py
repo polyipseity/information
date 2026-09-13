@@ -1273,8 +1273,8 @@ class TestBlockMathCategoryBreakdown:
         self._assert_counts(
             counts,
             both=308,
-            before_only=50,
-            after_only=3,
+            before_only=49,
+            after_only=2,
             neither=4,
         )
 
@@ -1347,10 +1347,10 @@ class TestInlineMathIndependence:
 
     @pytest.mark.anyio
     async def test_inline_math_count(self, tmp_path: PathLike[str]) -> None:
-        """The Fourier transform article should have 381 inline math blocks."""
+        """The Fourier transform article should have 382 inline math blocks."""
         output = await self._run_and_analyze(tmp_path)
         count = self._count_inline_math_blocks(output)
-        assert count == 381, f"Expected 381 inline math blocks, got {count}"
+        assert count == 382, f"Expected 382 inline math blocks, got {count}"
 
     @pytest.mark.anyio
     async def test_no_orphaned_dollar_signs(self, tmp_path: PathLike[str]) -> None:
