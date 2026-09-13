@@ -20,7 +20,7 @@ from bs4 import BeautifulSoup, Tag
 from scripts.convert_wiki import config
 from scripts.convert_wiki.api import _collect_image_filenames, _collect_link_titles
 from scripts.convert_wiki.converter import WikiHtmlConverter
-from scripts.convert_wiki.pipeline import run_pipeline
+from scripts.convert_wiki.pipeline import _preprocess_html, run_pipeline
 from scripts.convert_wiki.table import TableConverter
 from scripts.convert_wiki.types import _RedirectInfo
 from scripts.convert_wiki.utils import (
@@ -1561,6 +1561,8 @@ class TestTexHtmlToLatexRadical:
             "</span></p>"
         )
         html = BeautifulSoup(html_content, "html.parser")
+        # sfrac replacement happens in _preprocess_html, not in the converter.
+        _preprocess_html(html)
         result = await converter.convert(
             html, out_to_archive=set(), redirect_map={}, refs=True
         )
