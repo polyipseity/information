@@ -218,17 +218,6 @@ In signal and spectrum work, this appears whenever a complex quantity is availab
 
 The easiest recall cue is argument order plus picture: say "`y`, then `x`" while visualizing rise and run on the complex plane.  If a result from plain $\arctan(y/x)$ disagrees with the expected quadrant from signs, $\operatorname{atan2}$ is the correction mechanism that restores the physically meaningful phase.
 
----
-
-Flashcards for this section are as follows:
-
-- What is the definition of $\operatorname{atan2}(y,x)$ and what range does it usually return? ::@:: $\operatorname{atan2}(y,x)$ returns the principal argument of the point $(x,y)$ or complex number $x+jy$, usually in $(-\pi,\pi]$.
-- What does $\operatorname{atan2}(y,x)$ do that $\arctan(y/x)$ cannot do reliably? ::@:: It uses the signs of both $x$ and $y$ to select the correct quadrant and still works when $x=0$, whereas $\arctan(y/x)$ only sees a ratio and loses quadrant information.
-- How is $\operatorname{atan2}$ interpreted geometrically in complex-number language? ::@:: It is the directed angle from the positive real axis to the vector ending at $(x,y)$, i.e., the phase of $x+jy$.
-- For a Fourier transform written as $F(\omega)=R(\omega)+jX(\omega)$, what is the robust phase-extraction formula? ::@:: $\phi(\omega)=\operatorname{atan2}(X(\omega),R(\omega))=\operatorname{atan2}(\Im\{F(\omega)\},\Re\{F(\omega)\})$.
-- What intuitive recall cue helps avoid argument-order mistakes in $\operatorname{atan2}$? ::@:: Remember "`y` first, `x` second" and picture vertical over horizontal coordinates in the complex plane.
-- Worked example (method: quadrant-aware phase calculation): For $z=-1+j\sqrt{3}$, why is $\arg z$ correctly found by $\operatorname{atan2}(\sqrt{3},-1)$ rather than plain $\arctan(-\sqrt{3})$? ::@:: The signs ($x<0$, $y>0$) place $z$ in quadrant II. <br/> Plain $\arctan(y/x)$ gives only a reference angle and cannot preserve the quadrant by itself. <br/> $\operatorname{atan2}(\sqrt{3},-1)$ returns the correct principal angle in quadrant II.
-
 The same lecture also uses decomposition as an organizing idea. A periodic signal may be written as the sum of a DC part and an AC part. If $x(t)=x_{\mathrm{DC}}+x_{\mathrm{AC}}(t)$, where $x_{\mathrm{DC}}$ is the average over one period and $x_{\mathrm{AC}}$ has zero mean, then the average power splits into a DC part plus an AC part. The cross term vanishes because the AC component has zero average, so the DC and AC parts are orthogonal under the averaging integral.
 
 An analogous split holds for even and odd parts. Every signal can be written as $x(t)=x_e(t)+x_o(t)$ with $x_e(t)=\frac{x(t)+x(-t)}{2}$ and $x_o(t)=\frac{x(t)-x(-t)}{2}$. Over a symmetric interval, the cross term in the power integral vanishes because the product of an even function and an odd function is odd. This is the symmetry-based analogue of the DC-AC decomposition.
@@ -241,6 +230,12 @@ Worked examples make the pattern concrete. If $x(t)=1+\sin t$, then the DC part 
 
 Flashcards for this section are as follows:
 
+- What is the definition of $\operatorname{atan2}(y,x)$ and what range does it usually return? ::@:: $\operatorname{atan2}(y,x)$ returns the principal argument of the point $(x,y)$ or complex number $x+jy$, usually in $(-\pi,\pi]$.
+- What does $\operatorname{atan2}(y,x)$ do that $\arctan(y/x)$ cannot do reliably? ::@:: It uses the signs of both $x$ and $y$ to select the correct quadrant and still works when $x=0$, whereas $\arctan(y/x)$ only sees a ratio and loses quadrant information.
+- How is $\operatorname{atan2}$ interpreted geometrically in complex-number language? ::@:: It is the directed angle from the positive real axis to the vector ending at $(x,y)$, i.e., the phase of $x+jy$.
+- For a Fourier transform written as $F(\omega)=R(\omega)+jX(\omega)$, what is the robust phase-extraction formula? ::@:: $\phi(\omega)=\operatorname{atan2}(X(\omega),R(\omega))=\operatorname{atan2}(\Im\{F(\omega)\},\Re\{F(\omega)\})$.
+- What intuitive recall cue helps avoid argument-order mistakes in $\operatorname{atan2}$? ::@:: Remember "`y` first, `x` second" and picture vertical over horizontal coordinates in the complex plane.
+- Worked example (method: quadrant-aware phase calculation): For $z=-1+j\sqrt{3}$, why is $\arg z$ correctly found by $\operatorname{atan2}(\sqrt{3},-1)$ rather than plain $\arctan(-\sqrt{3})$? ::@:: The signs ($x<0$, $y>0$) place $z$ in quadrant II. <br/> Plain $\arctan(y/x)$ gives only a reference angle and cannot preserve the quadrant by itself. <br/> $\operatorname{atan2}(\sqrt{3},-1)$ returns the correct principal angle in quadrant II.
 - How may a complex number be written in rectangular and polar forms? ::@:: It may be written as $z=x+jy$ in rectangular form or $z=re^{j\theta}$ in polar form.
 - In the polar form $z=re^{j\theta}$, what do $r$ and $\theta$ represent? ::@:: $r=|z|$ is the magnitude and $\theta=\arg z$ is the phase.
 - What is Euler's relation? ::@:: It is $e^{j\theta}=\cos\theta+j\sin\theta$.

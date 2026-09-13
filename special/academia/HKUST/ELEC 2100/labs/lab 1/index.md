@@ -41,7 +41,6 @@ __<span style="color: #03893d;">Lab files for download only :</span>__ [Please c
 
 ## attachments
 
-<!-- - [Lab_Instruction.pdf](attachments/Lab_Instruction.pdf) -->
 - [Lab1a.7z](attachments/Lab1a.7z)
 
 ## submission

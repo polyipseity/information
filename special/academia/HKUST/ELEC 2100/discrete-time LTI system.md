@@ -195,7 +195,7 @@ Flashcards for this section are as follows:
 
 ## causality, stability, and interconnection case studies
 
-The summary slides include two useful discrete-time examples that sharpen the general criteria.
+Two useful discrete-time examples sharpen the general criteria.
 
 The first is the accumulator $y[n]=\sum_{k=-\infty}^{n}x[k]$. Feeding in the unit impulse gives $h[n]=\sum_{k=-\infty}^{n}\delta[k]=u[n]$. This immediately shows the system is causal, because $u[n]=0$ for $n<0$. It is not stable, because $\sum_{n=-\infty}^{\infty}|u[n]|$ diverges. The example is important because it shows that a system may be perfectly causal and still fail BIBO stability if its memory keeps accumulating forever without sufficient decay.
 

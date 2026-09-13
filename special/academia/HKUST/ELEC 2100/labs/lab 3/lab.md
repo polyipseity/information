@@ -20,13 +20,15 @@ For the shared Fourier-series coefficient and filter theory, see [Fourier series
 
 ## thresholded spectral lines and reliable phase reading
 
-The assignment works with the sampled audio file `sample3a.wav` and computes Fourier-series-style coefficients on the sample record itself.  The archived MATLAB solution uses
+The lab works with one sampled audio record and computes Fourier-series-style coefficients on the sample record itself.  A clean MATLAB workflow can store the audio path in `input_audio_path` and then use
 
 ```matlab
-sample3a_f = fft(sample3a) ./ N;
-sample3a_f = sample3a_f .* (abs(sample3a_f) > 0.001);
+[audio_in, fs] = audioread(input_audio_path);
+N = numel(audio_in);
+audio_f = fft(audio_in) ./ N;
+audio_f = audio_f .* (abs(audio_f) > 0.001);
 f_idx = ((0:N-1) - floor(N/2)) .* fs ./ N;
-plot(f_idx, fftshift(angle(sample3a_f)))
+plot(f_idx, fftshift(angle(audio_f)))
 ```
 
 The division by `N` puts the FFT output on the coefficient scale used throughout the course for one-period Fourier reading.  The extra magnitude threshold is a lab-specific plotting habit: a phase angle is only worth interpreting when the corresponding spectral line is materially present.  For bins whose magnitude is effectively zero, the angle can jump wildly because numerical noise rotates tiny complex numbers by large apparent phases.
@@ -43,7 +45,7 @@ Flashcards for this section are as follows:
 
 ## fundamental frequency from the common divisor of visible tones
 
-After the shifted magnitude spectrum is plotted, the visible positive-frequency lines occur at about $400\,\text{Hz}$, $5000\,\text{Hz}$, and $16000\,\text{Hz}$.  The archived submission then identifies the fundamental frequency as the greatest common divisor of those line frequencies: $400 = 2 \cdot 200$, $5000 = 25 \cdot 200$, and $16000 = 80 \cdot 200$.
+After the shifted magnitude spectrum is plotted, the visible positive-frequency lines occur at about $400\,\text{Hz}$, $5000\,\text{Hz}$, and $16000\,\text{Hz}$.  The fundamental frequency is then identified as the greatest common divisor of those line frequencies: $400 = 2 \cdot 200$, $5000 = 25 \cdot 200$, and $16000 = 80 \cdot 200$.
 
 So the waveform is periodic with fundamental frequency $f_0 = 200\,\text{Hz}$ even though the $200\,\text{Hz}$ line itself is absent.  This is the useful lab habit: the fundamental does not have to appear as the lowest nonzero plotted tone.  It can instead be inferred from the harmonic spacing of the tones that are present.
 
@@ -59,17 +61,17 @@ Flashcards for this section are as follows:
 
 ## real-cosine reconstruction from positive-frequency coefficients
 
-The archived submission records the positive-frequency coefficients as $|X_2| = 0.1$ with $\angle X_2 = -\pi/2$, $|X_{25}| = 0.15$ with $\angle X_{25} = -\pi/4$, and $|X_{80}| = 0.2$ with $\angle X_{80} = 0$.
+The positive-frequency coefficients are $|X_2| = 0.1$ with $\angle X_2 = -\pi/2$, $|X_{25}| = 0.15$ with $\angle X_{25} = -\pi/4$, and $|X_{80}| = 0.2$ with $\angle X_{80} = 0$.
 
 For a real signal, every positive-frequency coefficient has a conjugate partner at the corresponding negative frequency.  So one positive-frequency line with magnitude $|X_k|$ and phase $\phi_k$ contributes the real cosine term $2|X_k|\cos(2\pi f_k t + \phi_k)$.  Applying that rule to the three reported lines gives $\mathrm{sample3a}(t) = 0.2\cos(800\pi t - \pi/2) + 0.3\cos(10000\pi t - \pi/4) + 0.4\cos(32000\pi t)$.
 
-The archived MATLAB comparison starts from the original sample grid, using `[sample3a, fs] = audioread("sample3a.wav")`, `N = numel(sample3a)`, and `t_idx = (0:N-1) ./ fs`, then reconstructs those three tones directly on that same grid and plots the first $800$ points against the recorded waveform:
+The MATLAB comparison starts from the original sample grid, using `[audio_in, fs] = audioread(input_audio_path)`, `N = numel(audio_in)`, and `t_idx = (0:N-1) ./ fs`, then reconstructs those three tones directly on that same grid and plots the first $800$ points against the recorded waveform:
 
 ```matlab
-sample3a_math = 0.2*cos(800*pi*t_idx - pi/2) ...
-             + 0.3*cos(10000*pi*t_idx - pi/4) ...
-             + 0.4*cos(32000*pi*t_idx);
-plot(t_idx(1:800), sample3a_math(1:800))
+audio_model = 0.2*cos(800*pi*t_idx - pi/2) ...
+          + 0.3*cos(10000*pi*t_idx - pi/4) ...
+          + 0.4*cos(32000*pi*t_idx);
+plot(t_idx(1:800), audio_model(1:800))
 ```
 
 That check is not just cosmetic.  It verifies that the peak magnitudes, phases, and harmonic labels have been translated back into a time-domain expression consistently.
@@ -86,7 +88,7 @@ Flashcards for this section are as follows:
 <!-- check: ignore-next-line[header_style]: Butterworth is a proper noun -->
 ## Butterworth band-pass cutoffs chosen from the spectrum
 
-Part II asks for a Butterworth band-pass filter that completely removes the lowest and highest visible tones while preserving the middle one.  Since the three detected spectral lines are at $400\,\text{Hz}$, $5000\,\text{Hz}$, and $16000\,\text{Hz}$, the archived submission chooses $f_{\mathrm{low}} = 2700\,\text{Hz}$ and $f_{\mathrm{high}} = 10500\,\text{Hz}$, which puts $400\,\text{Hz}$ well below the passband, $16000\,\text{Hz}$ well above it, and $5000\,\text{Hz}$ inside it.
+Part II asks for a Butterworth band-pass filter that completely removes the lowest and highest visible tones while preserving the middle one.  Since the three detected spectral lines are at $400\,\text{Hz}$, $5000\,\text{Hz}$, and $16000\,\text{Hz}$, one reasonable choice is $f_{\mathrm{low}} = 2700\,\text{Hz}$ and $f_{\mathrm{high}} = 10500\,\text{Hz}$, which puts $400\,\text{Hz}$ well below the passband, $16000\,\text{Hz}$ well above it, and $5000\,\text{Hz}$ inside it.
 
 The corresponding MATLAB realization is
 
@@ -107,7 +109,7 @@ Flashcards for this section are as follows:
 
 ## datatips as point evaluations of the frequency response
 
-The assignment does not stop at plotting the Butterworth response qualitatively.  It explicitly asks for datatips at the three audio-tone frequencies, and the archived submission implements that by locating the corresponding response-grid indices first:
+The assignment does not stop at plotting the Butterworth response qualitatively.  It explicitly asks for datatips at the three audio-tone frequencies, and a direct MATLAB implementation is to locate the corresponding response-grid indices first:
 
 ```matlab
 resp_idx1 = find(w == 400);
@@ -134,11 +136,11 @@ Flashcards for this section are as follows:
 
 ## butterworth output versus the ideal-filter picture
 
-After filtering, the archived solution writes the output approximately as one surviving cosine: $y(t) \approx 0.3\cos\!\left(10000\pi t - \pi/4 + 0.506822\right)$.
+After filtering, the output can be written approximately as one surviving cosine: $y(t) \approx 0.3\cos\!\left(10000\pi t - \pi/4 + 0.506822\right)$.
 
 That expression is consistent with the spectral reading: the $5000\,\text{Hz}$ component is the only one kept by the chosen passband, and its original cosine amplitude $0.3$ is preserved to first approximation.  The extra phase term comes from the filter's phase response at that in-band frequency.
 
-The archived submission also states the key comparison with an ideal band-pass filter.  A Butterworth filter suppresses out-of-band tones strongly but not with mathematically perfect zero gain, and it introduces phase distortion in the passband.  An ideal band-pass picture, by contrast, would remove the rejected tones exactly and would preserve the surviving tone without adding a phase shift.
+The key comparison with an ideal band-pass filter is that a Butterworth filter suppresses out-of-band tones strongly but not with mathematically perfect zero gain, and it introduces phase distortion in the passband.  An ideal band-pass picture, by contrast, would remove the rejected tones exactly and would preserve the surviving tone without adding a phase shift.
 
 ---
 

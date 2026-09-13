@@ -37,25 +37,25 @@ Flashcards for this section are as follows:
 
 ## system meaning and communication context
 
-The lecture begins with a broad viewpoint: a system is an integrated entity composed of interacting components that together perform a stable function. In the notation used on the slides, $e(t)$ denotes excitation and $r(t)$ denotes response. The central question is what the system does to the input signal: whether it amplifies, filters, delays, distorts, or otherwise transforms it.
+The broad viewpoint is that a system is an integrated entity composed of interacting components that together perform a stable function. In the notation used in this note, $e(t)$ denotes excitation and $r(t)$ denotes response. The central question is what the system does to the input signal: whether it amplifies, filters, delays, distorts, or otherwise transforms it.
 
 This viewpoint is motivated by communication and signal-processing examples. A communication chain contains devices such as transmitters, channels, and receivers, each of which acts as a system on the signal it receives. The key idea is that useful information is carried by signals and shaped by systems at every stage of the chain.
 
-The lecture makes that viewpoint concrete with historical and modern communication systems. Samuel Morse's 1844 telegraph transmission _What hath God wrought!_ and Alexander Graham Bell's 1876 telephone transmission _Mr. Watson, come here, I want to see you._ are used as reminders that systems are real engineered mechanisms for encoding, carrying, and recovering messages, not just anonymous boxes in a diagram. The later survey of fiber-optic links, digital microwave links, satellite communication, cable systems, and mobile communication makes the same point on a larger technological scale.
+This viewpoint becomes concrete through historical and modern communication systems. Samuel Morse's 1844 telegraph transmission _What hath God wrought!_ and Alexander Graham Bell's 1876 telephone transmission _Mr. Watson, come here, I want to see you._ are reminders that systems are real engineered mechanisms for encoding, carrying, and recovering messages, not just anonymous boxes in a diagram. The later survey of fiber-optic links, digital microwave links, satellite communication, cable systems, and mobile communication makes the same point on a larger technological scale.
 
-The mobile-generation timeline is also part of the systems motivation rather than a detached history note. The slides move from 1G analog systems in the 1980s through 2G and 2.5G systems in the 1990s, 3G systems around 2000, 4G systems around 2010, and 5G systems from about 2019 onward, with 6G named as the next horizon. The engineering targets attached to the modern systems survey are high speed, wide bandwidth, high reliability, and low latency, which explains why better signal models and better system-analysis tools matter in practice.
+The mobile-generation timeline is also part of the systems motivation rather than a detached history note. The progression runs from 1G analog systems in the 1980s through 2G and 2.5G systems in the 1990s, 3G systems around 2000, 4G systems around 2010, and 5G systems from about 2019 onward, with 6G named as the next horizon. The engineering targets attached to the modern systems survey are high speed, wide bandwidth, high reliability, and low latency, which explains why better signal models and better system-analysis tools matter in practice.
 
-The lecture also distinguishes signal theory from system theory. Signal theory studies the signals themselves; system theory studies how systems act on them. Likewise, system analysis asks for the output produced by a given system, whereas system synthesis asks how to design a system that achieves a desired behavior.
+It is also useful to distinguish signal theory from system theory. Signal theory studies the signals themselves; system theory studies how systems act on them. Likewise, system analysis asks for the output produced by a given system, whereas system synthesis asks how to design a system that achieves a desired behavior.
 
 ---
 
 Flashcards for this section are as follows:
 
-- What does the lecture mean by a system as an integrated entity? ::@:: It means a collection of interacting components that together perform a stable function.
-- What do $e(t)$ and $r(t)$ denote in the lecture notation? ::@:: $e(t)$ denotes excitation or input, while $r(t)$ denotes response or output.
+- What does it mean to describe a system as an integrated entity? ::@:: It means a collection of interacting components that together perform a stable function.
+- What do $e(t)$ and $r(t)$ denote in this systems notation? ::@:: $e(t)$ denotes excitation or input, while $r(t)$ denotes response or output.
 - What is the central systems question in this topic? ::@:: It is how the system transforms the input signal into the output signal.
 - Why do communication examples belong in this systems topic? ::@:: They show that useful information is carried by signals and shaped by systems at every stage of a transmission chain.
-- What historical examples are used to make the communication-systems viewpoint concrete? ::@:: The lecture highlights Morse's 1844 telegraph transmission and Bell's 1876 telephone transmission as early engineered systems for carrying messages over distance.
+- What historical examples make the communication-systems viewpoint concrete? ::@:: Morse's 1844 telegraph transmission and Bell's 1876 telephone transmission are standard reminders that engineered systems carry messages over distance by transforming signals in controlled ways.
 - Why are the telegraph, telephone, and later communication-technology examples more than decorative history? ::@:: They show that systems theory is motivated by real engineered mechanisms whose performance depends on how signals are encoded, transmitted, filtered, and recovered.
 - What broad mobile-generation sequence is used in the introductory systems survey? ::@:: The survey moves from 1G analog systems to 2G and 2.5G, then to 3G, 4G, and 5G, with 6G identified as the next horizon.
 - What modern engineering targets are emphasized in the communication-systems survey? ::@:: High speed, wide bandwidth, high reliability, and low latency are emphasized as key modern communication-system targets.

@@ -77,7 +77,7 @@ Flashcards for this section are as follows:
 
 ## physical interpretation of convolution
 
-The lecture's physical-interpretation slides assign a clear role to each symbol in the convolution integral. The variable $\tau$ is the time at which a small piece of the input occurs. The value $e(\tau)$ is the strength of the input at that source time. The variable $t$ is the time at which we observe the output. The factor $h(t-\tau)$ is the amount of response visible at time $t$ due to a unit impulse applied earlier at time $\tau$.
+A clear physical interpretation assigns a direct role to each symbol in the convolution integral. The variable $\tau$ is the time at which a small piece of the input occurs. The value $e(\tau)$ is the strength of the input at that source time. The variable $t$ is the time at which we observe the output. The factor $h(t-\tau)$ is the amount of response visible at time $t$ due to a unit impulse applied earlier at time $\tau$.
 
 This interpretation explains why convolution mixes a source time and an observation time. For each candidate source time $\tau$, the system tells us how much of that earlier event still contributes when we later observe the output at time $t$. The integral adds those surviving contributions over all possible source times.
 
@@ -247,9 +247,9 @@ Flashcards for this section are as follows:
 
 The graphical method is designed for cases where the formulas are awkward but the supports are easy to draw. The lecture's procedure is: write the convolution in the variable $\tau$; keep one signal as $f_1(\tau)$; time-reverse the other signal to get $f_2(-\tau)$; shift it to $f_2(t-\tau)$; multiply the overlapping region; and integrate that overlap area as $t$ varies. This turns convolution into a geometry problem on the $\tau$ axis.
 
-The method is especially helpful for piecewise-constant signals. In the lecture's rectangular example, take $f_1(t)=2$ for $-1\le t\le 1$ and $0$ otherwise, and take $f_2(t)=1$ for $0\le t\le 3$ and $0$ otherwise. As the shifted reversed rectangle slides across the fixed rectangle, the overlap area first grows linearly, then stays constant while one rectangle lies fully inside the other, and then shrinks linearly. The output is therefore the piecewise function $g(t)=0$ for $t\le -1$, $g(t)=2t+2$ for $-1\le t\le 1$, $g(t)=4$ for $1\le t\le 2$, $g(t)=-2t+8$ for $2\le t\le 4$, and $g(t)=0$ for $t\ge 4$.
+The method is especially helpful for piecewise-constant signals. In a standard rectangular example, take $f_1(t)=2$ for $-1\le t\le 1$ and $0$ otherwise, and take $f_2(t)=1$ for $0\le t\le 3$ and $0$ otherwise. As the shifted reversed rectangle slides across the fixed rectangle, the overlap area first grows linearly, then stays constant while one rectangle lies fully inside the other, and then shrinks linearly. The output is therefore the piecewise function $g(t)=0$ for $t\le -1$, $g(t)=2t+2$ for $-1\le t\le 1$, $g(t)=4$ for $1\le t\le 2$, $g(t)=-2t+8$ for $2\le t\le 4$, and $g(t)=0$ for $t\ge 4$.
 
-The lecture also extracts a general support rule. If $f_1$ is supported on $[A,B]$ and $f_2$ is supported on $[C,D]$, then the convolution support runs from $A+C$ to $B+D$. Equivalently, the width of the convolution output is the sum of the widths of the two signals. This is one of the fastest ways to sanity-check a graphical or analytical convolution result.
+The same geometry also gives a general support rule. If $f_1$ is supported on $[A,B]$ and $f_2$ is supported on $[C,D]$, then the convolution support runs from $A+C$ to $B+D$. Equivalently, the width of the convolution output is the sum of the widths of the two signals. This is one of the fastest ways to sanity-check a graphical or analytical convolution result.
 
 The interval arithmetic behind this rule is short and worth remembering. A contribution to $(f_1*f_2)(t)$ requires $A\le \tau\le B$ and $C\le t-\tau\le D$. The second inequality is equivalent to $t-D\le \tau\le t-C$. So overlap exists exactly when the intervals $[A,B]$ and $[t-D,t-C]$ intersect. That happens if and only if $A\le t-C$ and $t-D\le B$, which simplifies to $A+C\le t\le B+D$.
 
@@ -322,7 +322,7 @@ Flashcards for this section are as follows:
 
 ## computing discrete convolution
 
-The lecture lists several ways to compute discrete convolution: direct analytical summation, graphical inversion-and-shift, use of algebraic properties, and direct sum of pairwise products. The common process is sequence inversion, shift, multiplication, and summation. In other words, discrete convolution is the sample-by-sample version of the same overlap logic used in graphical continuous-time convolution.
+Several standard ways to compute discrete convolution are direct analytical summation, graphical inversion-and-shift, use of algebraic properties, and direct sum of pairwise products. The common process is sequence inversion, shift, multiplication, and summation. In other words, discrete convolution is the sample-by-sample version of the same overlap logic used in graphical continuous-time convolution.
 
 The geometric-series step-response example shows the analytical method clearly. If $h[n]=\alpha^n u[n]$ with $0<\alpha<1$ and the input is $u[n]$, then the step response is $y[n]=u[n]*h[n]=\sum_{m=0}^{n}\alpha^m=\frac{1-\alpha^{n+1}}{1-\alpha}u[n]$. The overlap limits are determined by the one-sided supports: both $u[m]$ and $u[n-m]$ must be nonzero, so only $0\le m\le n$ contributes.
 
@@ -334,7 +334,7 @@ These examples highlight the two main intuitions of discrete convolution. For on
 
 Flashcards for this section are as follows:
 
-- What are the main ways listed in the lecture for computing discrete convolution? ::@:: The lecture lists direct analytical summation, graphical inversion-and-shift, use of algebraic properties, and direct sum of pairwise products.
+- What are the main standard ways to compute discrete convolution? ::@:: Direct analytical summation, graphical inversion-and-shift, use of algebraic properties, and direct sum of pairwise products.
 - What is the core step-by-step process behind graphical discrete convolution? ::@:: Sequence inversion, shift, multiplication, and summation.
 - Worked example: Given $h[n]=\alpha^n u[n]$ with $0<\alpha<1$ and input $u[n]$, what is the unit-step response $y[n]=u[n]*h[n]$? ::@:: Step 1: write $y[n]=\sum_m u[m]\alpha^m u[n-m]$. <br/> Step 2: the one-sided supports require $0\le m\le n$. <br/> Step 3: therefore $y[n]=\sum_{m=0}^{n}\alpha^m$. <br/> Step 4: evaluate the geometric sum to get $y[n]=\frac{1-\alpha^{n+1}}{1-\alpha}u[n]$.
 - Worked example: Given $h[n]=\alpha^n u[n]$ with $0<\alpha<1$ and input $u[n]$, why does the convolution sum run only from $m=0$ to $m=n$? ::@:: Because both one-sided factors must be nonzero, so the overlap requires $m\ge 0$ and $n-m\ge 0$, which together give $0\le m\le n$.
@@ -343,7 +343,7 @@ Flashcards for this section are as follows:
 
 ## convolution case studies and intuition
 
-The summary deck adds two especially useful recognition patterns. The first is a weighted impulse train passing through a rectangular kernel. Let $h(t)=u(t)-u(t-T_s)$, so the impulse response is a unit-height rectangle of width $T_s$, and let the input be $f_s(t)=0.5\delta(t)+\delta(t-T_s)+1.5\delta(t-2T_s)+2\delta(t-3T_s)$. By convolution with shifted impulses, the output is $f(t)=0.5h(t)+h(t-T_s)+1.5h(t-2T_s)+2h(t-3T_s)$. Expanding the shifted rectangles gives $f(t)=0.5\bigl(u(t)-u(t-T_s)\bigr)+\bigl(u(t-T_s)-u(t-2T_s)\bigr)+1.5\bigl(u(t-2T_s)-u(t-3T_s)\bigr)+2\bigl(u(t-3T_s)-u(t-4T_s)\bigr)$. This means the output is a staircase signal: level $0.5$ on $[0,T_s)$, level $1$ on $[T_s,2T_s)$, level $1.5$ on $[2T_s,3T_s)$, level $2$ on $[3T_s,4T_s)$, and zero elsewhere. The example is a good reminder that convolving an impulse train with a rectangular kernel paints one rectangular segment per impulse weight.
+Two especially useful recognition patterns are worth keeping in view. The first is a weighted impulse train passing through a rectangular kernel. Let $h(t)=u(t)-u(t-T_s)$, so the impulse response is a unit-height rectangle of width $T_s$, and let the input be $f_s(t)=0.5\delta(t)+\delta(t-T_s)+1.5\delta(t-2T_s)+2\delta(t-3T_s)$. By convolution with shifted impulses, the output is $f(t)=0.5h(t)+h(t-T_s)+1.5h(t-2T_s)+2h(t-3T_s)$. Expanding the shifted rectangles gives $f(t)=0.5\bigl(u(t)-u(t-T_s)\bigr)+\bigl(u(t-T_s)-u(t-2T_s)\bigr)+1.5\bigl(u(t-2T_s)-u(t-3T_s)\bigr)+2\bigl(u(t-3T_s)-u(t-4T_s)\bigr)$. This means the output is a staircase signal: level $0.5$ on $[0,T_s)$, level $1$ on $[T_s,2T_s)$, level $1.5$ on $[2T_s,3T_s)$, level $2$ on $[3T_s,4T_s)$, and zero elsewhere. The example is a good reminder that convolving an impulse train with a rectangular kernel paints one rectangular segment per impulse weight.
 
 The second pattern is the self-convolution of a unit-width pulse. If $f(t)=u(t)-u(t-1)$, then $s(t)=f(t)*f(t)$ is the triangular waveform obtained by overlap length. The overlap formula is especially compact: $s(t)=\int_{\max(0,t-1)}^{\min(1,t)}1\,d\tau=\min(1,t)-\max(0,t-1)$ whenever the overlap interval is nonempty. This gives the piecewise result $s(t)=0$ for $t<0$, $s(t)=t$ for $0<t<1$, $s(t)=2-t$ for $1<t<2$, and $s(t)=0$ for $t>2$. The output reaches its maximum at $t=1$ because that is the instant of full overlap between the two unit-width pulses. This is one of the most important convolution-shape intuitions in the note: identical pulses convolved with themselves often produce a tent-like output whose height tracks overlap length.
 
