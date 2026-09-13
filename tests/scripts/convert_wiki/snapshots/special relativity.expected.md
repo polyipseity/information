@@ -747,17 +747,14 @@ The last three components of a 4–vector must be a standard vector in three-dim
 #### properties of 4-vectors
 
 - __Closure under linear combination:__ If _A_ and _B_ are 4-vectors, then ⁠$C=aA+aB$⁠ is also a 4-vector.
-- __Inner-product invariance:__ If _A_ and _B_ are 4-vectors, then their inner product \(scalar product\) is invariant, i.e. their inner product is independent of the frame in which it is calculated. Note how the calculation of inner product differs from the calculation of the inner product of a 3-vector. In the following, ${\vec {A} }$ and ${\vec {B} }$ are 3-vectors:$A\cdot B\equiv A_{0}B_{0}-A_{1}B_{1}-A_{2}B_{2}-A_{3}B_{3}\equiv A_{0}B_{0}-{\vec {A} }\cdot {\vec {B} }$ <p>
-
-In addition to being invariant under Lorentz transformation, the above inner product is also invariant under rotation in 3-space.
-Two vectors are said to be _orthogonal_ if ⁠$A\cdot B=0$⁠. Unlike the case with 3-vectors, orthogonal 4-vectors are not necessarily at right angles to each other. The rule is that two 4-vectors are orthogonal if they are offset by equal and opposite angles from the 45° line, which is the world line of a light ray. This implies that a lightlike 4-vector is orthogonal to _itself_.
+- __Inner-product invariance:__ If _A_ and _B_ are 4-vectors, then their inner product \(scalar product\) is invariant, i.e. their inner product is independent of the frame in which it is calculated. Note how the calculation of inner product differs from the calculation of the inner product of a 3-vector. In the following, ${\vec {A} }$ and ${\vec {B} }$ are 3-vectors: <p> &nbsp;&nbsp;&nbsp;&nbsp;$A\cdot B\equiv A_{0}B_{0}-A_{1}B_{1}-A_{2}B_{2}-A_{3}B_{3}\equiv A_{0}B_{0}-{\vec {A} }\cdot {\vec {B} }$ <p> In addition to being invariant under Lorentz transformation, the above inner product is also invariant under rotation in 3-space. <p> Two vectors are said to be _orthogonal_ if ⁠$A\cdot B=0$⁠. Unlike the case with 3-vectors, orthogonal 4-vectors are not necessarily at right angles to each other. The rule is that two 4-vectors are orthogonal if they are offset by equal and opposite angles from the 45° line, which is the world line of a light ray. This implies that a lightlike 4-vector is orthogonal to _itself_.
 
 - __Invariance of the magnitude of a vector:__ The magnitude of a vector is the inner product of a 4-vector with itself, and is a frame-independent property. As with intervals, the magnitude may be positive, negative or zero, so that the vectors are referred to as timelike, spacelike or null \(lightlike\). Note that a null vector is not the same as a zero vector. A null vector is one for which ⁠$A\cdot A=0$⁠, while a zero vector is one whose components are all zero. Special cases illustrating the invariance of the norm include the invariant interval $c^{2}t^{2}-x^{2}$ and the invariant length of the relativistic momentum vector ⁠$E^{2}-p^{2}c^{2}$⁠.<sup>[\[27\]](#^ref-27)</sup><sup>:&hairsp;639&hairsp;</sup><sup>[\[90\]](#^ref-90)</sup><sup>:&hairsp;36–59&hairsp;</sup>
 
 #### examples of 4-vectors
 
 - __Displacement 4-vector:__ Otherwise known as the _spacetime separation_, this is \(_Δt, Δx, Δy, Δz_\), or for infinitesimal separations, \(_dt_, _dx_, _dy_, _dz_\). $$dS\equiv (dt,dx,dy,dz)$$ <p>
-- __Velocity 4-vector:__ This results when the displacement 4-vector is divided by $d\tau$, where $d\tau$ is the proper time between the two events that yield _dt_, _dx_, _dy_, and _dz_.$V\equiv {\frac {dS}{d\tau } }={\frac {(dt,dx,dy,dz)}{dt/\gamma } }= \gamma \left(1,{\frac {dx}{dt} },{\frac {dy}{dt} },{\frac {dz}{dt} }\right)= (\gamma ,\gamma {\vec {v} })$ <p>
+- __Velocity 4-vector:__ This results when the displacement 4-vector is divided by $d\tau$, where $d\tau$ is the proper time between the two events that yield _dt_, _dx_, _dy_, and _dz_. <p> &nbsp;&nbsp;&nbsp;&nbsp;$V\equiv {\frac {dS}{d\tau } }={\frac {(dt,dx,dy,dz)}{dt/\gamma } }= \gamma \left(1,{\frac {dx}{dt} },{\frac {dy}{dt} },{\frac {dz}{dt} }\right)= (\gamma ,\gamma {\vec {v} })$ <p>
 
 > ![Momentarily Comoving Reference Frame](../../archives/Wikimedia%20Commons/Momentarily%20Comoving%20Reference%20Frame.gif)
 >
@@ -771,12 +768,10 @@ The 4-velocity is tangent to the world line of a particle, and has a length equa
 An accelerated particle does not have an inertial frame in which it is always at rest. However, an inertial frame can always be found that is momentarily comoving with the particle. This frame, the _momentarily comoving reference frame_ \(MCRF\), enables application of special relativity to the analysis of accelerated particles.
 Since photons move on null lines, $d\tau =0$ for a photon, and a 4-velocity cannot be defined. There is no frame in which a photon is at rest, and no MCRF can be established along a photon's path.
 
-- __Energy–momentum 4-vector:__ $$P\equiv (E/c,{\vec {p} })=(E/c,p_{x},p_{y},p_{z})$$ <p>
+- __Energy–momentum 4-vector:__ $$P\equiv (E/c,{\vec {p} })=(E/c,p_{x},p_{y},p_{z})$$ <p> As indicated before, there are varying treatments for the energy–momentum 4-vector so that one may also see it expressed as $(E,{\vec {p} })$ or ⁠$(E,{\vec {p} }c)$⁠. The first component is the total energy \(including mass\) of the particle \(or system of particles\) in a given frame, while the remaining components are its spatial momentum. The energy–momentum 4-vector is a conserved quantity.
 
-As indicated before, there are varying treatments for the energy–momentum 4-vector so that one may also see it expressed as $(E,{\vec {p} })$ or ⁠$(E,{\vec {p} }c)$⁠. The first component is the total energy \(including mass\) of the particle \(or system of particles\) in a given frame, while the remaining components are its spatial momentum. The energy–momentum 4-vector is a conserved quantity.
-
-- __Acceleration 4-vector:__ This results from taking the derivative of the velocity 4-vector with respect to ⁠$\tau$⁠.$A\equiv {\frac {dV}{d\tau } }= {\frac {d}{d\tau } }(\gamma ,\gamma {\vec {v} })= \gamma \left({\frac {d\gamma }{dt} },{\frac {d(\gamma {\vec {v} })}{dt} }\right)$ <p>
-- __Force 4-vector:__ This is the derivative of the momentum 4-vector with respect to $\tau$.$F\equiv {\frac {dP}{d\tau } }= \gamma \left({\frac {dE}{dt} },{\frac {d{\vec {p} } }{dt} }\right)= \gamma \left({\frac {dE}{dt} },{\vec {f} }\right)$ <p>
+- __Acceleration 4-vector:__ This results from taking the derivative of the velocity 4-vector with respect to ⁠$\tau$⁠. <p> &nbsp;&nbsp;&nbsp;&nbsp;$A\equiv {\frac {dV}{d\tau } }= {\frac {d}{d\tau } }(\gamma ,\gamma {\vec {v} })= \gamma \left({\frac {d\gamma }{dt} },{\frac {d(\gamma {\vec {v} })}{dt} }\right)$ <p>
+- __Force 4-vector:__ This is the derivative of the momentum 4-vector with respect to $\tau$. <p> &nbsp;&nbsp;&nbsp;&nbsp;$F\equiv {\frac {dP}{d\tau } }= \gamma \left({\frac {dE}{dt} },{\frac {d{\vec {p} } }{dt} }\right)= \gamma \left({\frac {dE}{dt} },{\vec {f} }\right)$ <p>
 
 As expected, the final components of the above 4-vectors are all standard 3-vectors corresponding to spatial 3-momentum, 3-force etc.<sup>[\[90\]](#^ref-90)</sup><sup>:&hairsp;36–59&hairsp;</sup>
 
