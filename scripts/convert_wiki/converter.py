@@ -1543,6 +1543,20 @@ class WikiHtmlConverter:
             # marker (the cell-internal separator convention) rather than a
             # block break.
             return _HandlerConfig(prefix=" <p> ")
+        if "portal-bar" in classes:
+            # Portal-bar divs (e.g. the "Portals" section at the bottom of
+            # Wikipedia articles) should render as a blockquote so each line
+            # is visually distinct from surrounding content.
+            def _blockquote_wrap(strings: str) -> str:
+                """Wrap each non-empty line in '> ' for blockquote output."""
+                lines = strings.strip().split("\n")
+                result: list[str] = []
+                for line in lines:
+                    stripped = line.strip()
+                    result.append(f"> {stripped}" if stripped else ">")
+                return "\n".join(result)
+
+            return _HandlerConfig(suffix="\n\n", process_strings=_blockquote_wrap)
         if "equation-box" not in classes:
             return self._handle_block_level(ele, classes)
 
