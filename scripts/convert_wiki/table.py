@@ -35,6 +35,7 @@ from .template_config import (
     _CONSECUTIVE_NEWLINES_REGEX,
     _NAVBOX_SPEC,
     _SEPARATOR_CELL_RE,
+    _SIDEBAR_SPEC,
 )
 from .types import _HandlerConfig
 from .utils import _ZERO_WIDTH_CHARS_RE, _fix_name_maybe
@@ -1182,7 +1183,7 @@ class TableConverter:
         table_classes = (
             set(table.get_attribute_list("class")) if isinstance(table, Tag) else set()
         )
-        if not table_classes & {"sidebar", "cm-sidebar"}:
+        if not table_classes & _SIDEBAR_SPEC.trigger_classes:
             return
 
         for cell in ele.find_all(_TD_OR_TH):
@@ -1195,21 +1196,19 @@ class TableConverter:
                     bold = soup.new_tag("b")
                     big.insert_after(bold)
                     bold.append(big.extract())
-            elif "sidebar-heading" in cell_classes:
-                for li in cell.find_all("li"):
-                    cls._wrap_children(li, soup, "b")
-            elif "sidebar-below" in cell_classes:
-                for li in cell.find_all("li"):
-                    cls._wrap_children(li, soup, "b")
-
-        # Section labels (Branches, Fundamentals, …) live in <div> elements
-        # nested inside <td class="sidebar-content">, not in <th>/<td> cells.
-        for title_div in ele.find_all("div", class_="sidebar-list-title-c"):
-            cls._wrap_children(title_div, soup, "b")
+            else:
+                for rule in _SIDEBAR_SPEC.wrap_rules:
+                    if rule.css_class in cell_classes:
+                        if rule.scope == "li":
+                            for li in cell.find_all("li"):
+                                cls._wrap_children(li, soup, rule.wrap_tag)
+                        elif rule.scope == "children":
+                            cls._wrap_children(cell, soup, rule.wrap_tag)
+                        break
 
         if isinstance(table, Tag):
-            for caption in table.find_all("div", class_="sidebar-caption"):
-                cls._wrap_children(caption, soup, "i")
+            for caption in table.find_all("div", class_=_SIDEBAR_SPEC.caption_class):
+                cls._wrap_children(caption, soup, _SIDEBAR_SPEC.caption_tag)
 
     @staticmethod
     def _wrap_children(target: Tag, soup: Tag, tag_name: str) -> None:
