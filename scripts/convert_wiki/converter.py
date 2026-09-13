@@ -320,17 +320,6 @@ class WikiHtmlConverter:
             """Escape Markdown special characters in text."""
             return _cfg._MARKDOWN_ESCAPE_REGEX.sub(lambda match: Rf"\{match[0]}", text)
 
-        # Strip <style> tags — CSS is never content in any conversion context.
-        if isinstance(ele, Tag):
-            for style_tag in ele.find_all("style"):
-                style_tag.decompose()
-            # Drop CS1-maintenance citation-comment spans — these are
-            # citation-metadata noise (e.g. "CS1 maint: multiple names"),
-            # not article content, and their literal "link" text fails
-            # descriptive-link-text linting.
-            for cs1_maint in ele.find_all("span", class_="cs1-maint"):
-                cs1_maint.decompose()
-
         if not isinstance(ele, Tag):
             if (
                 isinstance(ele, NavigableString)
@@ -415,19 +404,6 @@ class WikiHtmlConverter:
                     f"<sup>[{escape_markdown(f'[{ref_content}]')}]"
                     f"({_markdown_fragment(fragment)})</sup>"
                 )
-
-        if (
-            isinstance(ele, Tag)
-            and ele.name == "div"
-            and "mw:Transclusion" in str(ele.get("typeof", ""))
-        ):
-            if "annotated image" in str(ele.get("data-mw", "")):
-                for ann_div in ele.find_all(
-                    "div", id=lambda v: v and v.startswith("annotation_")
-                ):
-                    ann_div.decompose()
-                for noviewer in ele.find_all("span", class_="noviewer"):
-                    noviewer.decompose()
 
         self._out_to_archive = out_to_archive
         self._redirect_map = redirect_map
@@ -560,11 +536,6 @@ class WikiHtmlConverter:
 
             config.suffix = "\n\n"
             process_strings = process_strings_blockquote
-
-        if ele.name in _DISPLAY_MATH_CONTAINERS or ele.name == "p":
-            if ele.name == "dd":
-                self._merge_adjacent_math_dd(ele)
-            self._normalize_external_math_punctuation(ele)
 
         soon_values, list_stack = await self._convert_children(
             ele,
@@ -1478,13 +1449,8 @@ class WikiHtmlConverter:
         return _HandlerConfig(prefix=prefix, suffix=suffix)
 
     def _handle_span(self, ele: Tag, classes: frozenset[str]) -> _HandlerConfig | None:
-        """Handle <span> elements: replace sfrac sub-trees with <math>."""
-        self._replace_sfrac_with_math(ele)
+        """Handle <span> elements: transparent spans render nothing of their own."""
         return None
-
-    def _replace_sfrac_with_math(self, ele: Tag) -> None:
-        """Replace sfrac elements with inline <math> elements."""
-        LatexConverter.replace_sfrac_with_math(ele, self._soup)
 
     @staticmethod
     def _in_list_item(ele: Tag) -> bool:
@@ -2214,7 +2180,8 @@ class WikiHtmlConverter:
             if not merged_any:
                 break
 
-    def _normalize_external_math_punctuation(self, container: Tag) -> None:
+    @staticmethod
+    def _normalize_external_math_punctuation(container: Tag) -> None:
         """Absorb external punct into ``alttext`` before concurrent child conversion."""
         for child in list(container.children):
             if not isinstance(child, Tag):
@@ -2229,16 +2196,18 @@ class WikiHtmlConverter:
             raw_alttext = math.get("alttext")
             if not raw_alttext:
                 continue
-            alt_text = self._prepare_math_alttext(str(raw_alttext))
-            if not self._qualifies_for_external_punct_absorption(
+            alt_text = WikiHtmlConverter._prepare_math_alttext(str(raw_alttext))
+            if not WikiHtmlConverter._qualifies_for_external_punct_absorption(
                 container, outer_span, alt_text
             ):
                 continue
-            punct = self._following_punctuation_sibling(outer_span)
+            punct = WikiHtmlConverter._following_punctuation_sibling(outer_span)
             if not punct:
                 continue
-            math["alttext"] = self._inject_external_punctuation(alt_text, punct)
-            self._decompose_punctuation_sibling(outer_span)
+            math["alttext"] = WikiHtmlConverter._inject_external_punctuation(
+                alt_text, punct
+            )
+            WikiHtmlConverter._decompose_punctuation_sibling(outer_span)
 
     @staticmethod
     def _escape_flashcard_delimiters(text: str) -> str:

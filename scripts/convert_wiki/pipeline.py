@@ -30,6 +30,7 @@ from .ast_utils import (
     _walk_tokens,
 )
 from .converter import WikiHtmlConverter
+from .latex import LatexConverter
 from .types import _RedirectInfo
 from .utils import _ZERO_WIDTH_CHARS_RE, _reformat_table
 
@@ -538,6 +539,56 @@ def _separate_block_math(text: str) -> str:
     return _scan_and_apply(text, info)
 
 
+def _preprocess_html(soup: BeautifulSoup | Tag) -> None:
+    """Mutate the HTML tree before conversion.
+
+    All tree mutations belong here: style/CS1 cleanup, numblk table
+    merging, adjacent math merging, external math punctuation
+    normalization, sfrac replacement, and annotated-image cleanup.
+
+    The converter receives a clean tree and must not perform any
+    mutations during its walk.
+    """
+    if not isinstance(soup, (BeautifulSoup, Tag)):
+        return
+
+    # 1. Strip <style> tags — CSS is never content.
+    for style_tag in soup.find_all("style"):
+        style_tag.decompose()
+
+    # 2. Drop CS1-maintenance citation-comment spans.
+    for cs1_maint in soup.find_all("span", class_="cs1-maint"):
+        cs1_maint.decompose()
+
+    # 3. Merge adjacent numblk tables into one multi-row table.
+    _merge_adjacent_numblk_tables(soup)
+
+    # 4. Merge consecutive inline math spans in <dd>/<dt> elements.
+    for dd in soup.find_all(["dd", "dt"]):
+        WikiHtmlConverter._merge_adjacent_math_dd(dd)
+
+    # 5. Normalize external math punctuation: absorb trailing
+    #    punctuation from sibling text into math alttext.
+    _DISPLAY_MATH_CONTAINERS = frozenset({"dd", "dt"})
+    for container in soup.find_all(list(_DISPLAY_MATH_CONTAINERS | {"p"})):
+        WikiHtmlConverter._normalize_external_math_punctuation(container)
+
+    # 6. Replace sfrac spans with <math> elements.
+    for span in soup.find_all("span"):
+        LatexConverter.replace_sfrac_with_math(span, soup)  # ty: ignore[invalid-argument-type] — Tag.new_tag works identically
+
+    # 7. Clean up annotated-image divs: remove annotation divs
+    #    and noviewer spans so the converter sees clean content.
+    for div in soup.find_all("div", typeof=lambda v: v and "mw:Transclusion" in str(v)):
+        if "annotated image" in str(div.get("data-mw", "")):
+            for ann_div in div.find_all(
+                "div", id=lambda v: v and v.startswith("annotation_")
+            ):
+                ann_div.decompose()
+            for noviewer in div.find_all("span", class_="noviewer"):
+                noviewer.decompose()
+
+
 def _merge_adjacent_numblk_tables(ele: PageElement) -> None:
     """Merge chains of adjacent <table class="numblk"> siblings into one table.
 
@@ -598,10 +649,9 @@ async def wiki_html_to_plaintext(
     image_metadata:
         Pre-fetched image description metadata (``File:XXX`` → description).
     """
-    # Merge adjacent numblk tables before conversion so they render as a
-    # single multi-row table instead of separate tables.
+    # Preprocess: mutate HTML tree before conversion.
     if isinstance(ele, (BeautifulSoup, Tag)):
-        _merge_adjacent_numblk_tables(ele)
+        _preprocess_html(ele)
     if converter is None:
         soup = ele if isinstance(ele, BeautifulSoup) else None
         converter = WikiHtmlConverter(image_metadata=image_metadata, soup=soup)

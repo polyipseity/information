@@ -13,6 +13,7 @@ from bs4 import BeautifulSoup, NavigableString, Tag
 
 from scripts.convert_wiki.converter import WikiHtmlConverter, _discards_subtree
 from scripts.convert_wiki.latex import LatexConverter
+from scripts.convert_wiki.pipeline import _preprocess_html
 from scripts.convert_wiki.types import _RedirectInfo
 from tests.scripts.test_convert_wiki import _assert_markdownlint_clean
 
@@ -70,6 +71,7 @@ async def _convert(
 ) -> str:
     """Shorthand to convert HTML fragment through the converter."""
     soup = BeautifulSoup(html, "html.parser")
+    _preprocess_html(soup)
     return await converter.convert(
         soup,
         out_to_archive=set(),
