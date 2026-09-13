@@ -2318,6 +2318,126 @@ class WikiHtmlConverter:
             return desc
         return file_title
 
+    def _resolve_link_from_title(
+        self,
+        title: str,
+        to_fragment: str,
+        classes: frozenset[str],
+    ) -> _HandlerConfig | None:
+        """Resolve a link from its title attribute.
+
+        Returns a ``_HandlerConfig`` for the resolved link, or ``None``
+        if the title should be ignored (e.g. redlinks to non-existent pages).
+        """
+        info = self._redirect_map.get(title, _RedirectInfo(to=title))
+        to = info.to
+        if not to_fragment:
+            to_fragment = info.tofragment
+
+        def _process_link_text(s: str) -> str:
+            """Strip and flatten link display text."""
+            return s.strip().replace("\n", " <br/> ")
+
+        if any(to.startswith(prefix) for prefix in _cfg._IGNORED_NAME_PREFIXES):
+            return None
+        if url_format := next(
+            (
+                (format, to[len(prefix) :])
+                for prefix, format in _cfg._PRESERVED_PAGE_PREFIXES.items()
+                if to.startswith(prefix)
+            ),
+            None,
+        ):
+            return _HandlerConfig(
+                prefix="[",
+                suffix=(
+                    f"]"
+                    f"({url_format[0].format(f'{quote(url_format[1])}{to_fragment and "#"}{quote(to_fragment, safe="")}')})"
+                ),
+                process_strings=_process_link_text,
+            )
+        if "extiw" in classes:
+            lang_code, extiw_page = to.split(":", 1)
+            lang_code = str(convert(lang_code, to="ISO3")).casefold()
+            from_filename = _fix_name_maybe(
+                extiw_page,
+                replace_underscores=True,
+                names_map=self._names_map,
+            )
+            return _HandlerConfig(
+                prefix="[",
+                suffix=(
+                    f"]"
+                    f"(../{lang_code}/{_markdown_link_target(from_filename, _fix_name_maybe(to_fragment, replace_underscores=True, names_map=self._names_map))})"
+                ),
+                process_strings=_process_link_text,
+            )
+        from_filename, to_filename = (
+            _fix_name_maybe(
+                title,
+                replace_underscores=True,
+                names_map=self._names_map,
+            ),
+            _fix_name_maybe(
+                to,
+                replace_underscores=True,
+                names_map=self._names_map,
+            ),
+        )
+        config = _HandlerConfig(
+            prefix="[",
+            suffix=(
+                f"]"
+                f"({_markdown_link_target(from_filename, _fix_name_maybe(to_fragment, replace_underscores=True, names_map=self._names_map))})"
+            ),
+            process_strings=_process_link_text,
+        )
+        from_filename, to_filename = (
+            _fix_filename(from_filename),
+            _fix_filename(to_filename),
+        )
+        if from_filename != to_filename:
+            self._pending_redirects.append((from_filename, to_filename))
+        return config
+
+    def _resolve_relative_link(self, href: str) -> str:
+        """Resolve a relative ``./Page#fragment`` link to a Markdown target.
+
+        Normalizes the stem to a proper filename and the fragment to
+        match the anchor produced by ``_equation_reference_anchor``.
+        Returns the resolved href string.
+        """
+        stem, _, frag = href.partition("#")
+        stem_name = _fix_name_maybe(
+            stem.removeprefix("./"),
+            replace_underscores=True,
+            names_map=self._names_map,
+        )
+        new_frag = (
+            _fix_name_maybe(frag, replace_underscores=True, names_map=self._names_map)
+            if frag
+            else ""
+        )
+        # Same-page link: use fragment-only.
+        normalized_page = (
+            _fix_name_maybe(
+                self._page_name,
+                replace_underscores=True,
+                names_map=self._names_map,
+            )
+            if self._page_name
+            else None
+        )
+        if normalized_page and _fix_filename(stem_name) == _fix_filename(
+            normalized_page
+        ):
+            return f"#{_encode_fragment(new_frag)}" if new_frag else ""
+        return (
+            _markdown_link_target(stem_name, new_frag)
+            if new_frag
+            else _markdown_link_target(stem_name)
+        )
+
     async def _handle_anchor(
         self, ele: Tag, classes: frozenset[str]
     ) -> _HandlerConfig | None:
@@ -2337,78 +2457,8 @@ class WikiHtmlConverter:
             href = str(ele.get("href", ""))
             to_fragment = href.split("#", 1)[-1] if "#" in href else ""
 
-            info = self._redirect_map.get(title, _RedirectInfo(to=title))
-            to = info.to
-            if not to_fragment:
-                to_fragment = info.tofragment
-
-            def _process_link_text(s: str) -> str:
-                """Strip and flatten link display text."""
-                return s.strip().replace("\n", " <br/> ")
-
-            if any(to.startswith(prefix) for prefix in _cfg._IGNORED_NAME_PREFIXES):
-                pass
-            elif url_format := next(
-                (
-                    (format, to[len(prefix) :])
-                    for prefix, format in _cfg._PRESERVED_PAGE_PREFIXES.items()
-                    if to.startswith(prefix)
-                ),
-                None,
-            ):
-                return _HandlerConfig(
-                    prefix="[",
-                    suffix=(
-                        f"]"
-                        f"({url_format[0].format(f'{quote(url_format[1])}{to_fragment and "#"}{quote(to_fragment, safe="")}')})"
-                    ),
-                    process_strings=_process_link_text,
-                )
-            elif "extiw" in classes:
-                lang_code, extiw_page = to.split(":", 1)
-                lang_code = str(convert(lang_code, to="ISO3")).casefold()
-                from_filename = _fix_name_maybe(
-                    extiw_page,
-                    replace_underscores=True,
-                    names_map=self._names_map,
-                )
-
-                return _HandlerConfig(
-                    prefix="[",
-                    suffix=(
-                        f"]"
-                        f"(../{lang_code}/{_markdown_link_target(from_filename, _fix_name_maybe(to_fragment, replace_underscores=True, names_map=self._names_map))})"
-                    ),
-                    process_strings=_process_link_text,
-                )
-            else:
-                from_filename, to_filename = (
-                    _fix_name_maybe(
-                        title,
-                        replace_underscores=True,
-                        names_map=self._names_map,
-                    ),
-                    _fix_name_maybe(
-                        to,
-                        replace_underscores=True,
-                        names_map=self._names_map,
-                    ),
-                )
-
-                config = _HandlerConfig(
-                    prefix="[",
-                    suffix=(
-                        f"]"
-                        f"({_markdown_link_target(from_filename, _fix_name_maybe(to_fragment, replace_underscores=True, names_map=self._names_map))})"
-                    ),
-                    process_strings=_process_link_text,
-                )
-                from_filename, to_filename = (
-                    _fix_filename(from_filename),
-                    _fix_filename(to_filename),
-                )
-                if from_filename != to_filename:
-                    self._pending_redirects.append((from_filename, to_filename))
+            config = self._resolve_link_from_title(title, to_fragment, classes)
+            if config is not None:
                 return config
         elif ele_href := ele.get("href"):
             href = str(ele_href)
@@ -2430,41 +2480,7 @@ class WikiHtmlConverter:
                 )
             elif href.startswith("./") and "#" in href:
                 # Relative link with fragment (e.g. ./Special_relativity#math_3).
-                # Normalize the stem to a proper filename and the fragment to
-                # match the anchor produced by _equation_reference_anchor.
-                stem, _, frag = href.partition("#")
-                stem_name = _fix_name_maybe(
-                    stem.removeprefix("./"),
-                    replace_underscores=True,
-                    names_map=self._names_map,
-                )
-                new_frag = (
-                    _fix_name_maybe(
-                        frag, replace_underscores=True, names_map=self._names_map
-                    )
-                    if frag
-                    else ""
-                )
-                # Same-page link: use fragment-only.
-                normalized_page = (
-                    _fix_name_maybe(
-                        self._page_name,
-                        replace_underscores=True,
-                        names_map=self._names_map,
-                    )
-                    if self._page_name
-                    else None
-                )
-                if normalized_page and _fix_filename(stem_name) == _fix_filename(
-                    normalized_page
-                ):
-                    href = f"#{_encode_fragment(new_frag)}" if new_frag else ""
-                else:
-                    href = (
-                        _markdown_link_target(stem_name, new_frag)
-                        if new_frag
-                        else _markdown_link_target(stem_name)
-                    )
+                href = self._resolve_relative_link(href)
             elif href.startswith("./"):
                 # Relative link without fragment (e.g. ./Special_relativity).
                 stem_name = _fix_name_maybe(
