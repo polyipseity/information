@@ -17,6 +17,12 @@ from country_converter import convert
 from yarl import URL
 
 from . import config as _cfg
+from .inline_context import (
+    _dl_follows_p,
+    _in_inline_context,
+    _is_display_math_only,
+    _is_display_math_only_dl,
+)
 from .latex import LatexConverter
 from .table import (
     _TD_OR_TH,
@@ -533,11 +539,7 @@ class WikiHtmlConverter:
             nxt = self._effective_sibling_skipping(
                 ele, following=True, skip_whitespace=True, refs=refs
             )
-            if (
-                isinstance(nxt, Tag)
-                and nxt.name == "p"
-                and self._is_display_math_only(nxt)
-            ):
+            if isinstance(nxt, Tag) and nxt.name == "p" and _is_display_math_only(nxt):
                 strings = strings.rstrip("\n")
                 config.suffix = ""
         # When a <p> is followed by a display-math-only <dl>, strip the
@@ -547,7 +549,7 @@ class WikiHtmlConverter:
             nxt = self._effective_sibling_skipping(
                 ele, following=True, skip_whitespace=True, refs=refs
             )
-            if isinstance(nxt, Tag) and self._is_display_math_only_dl(nxt):
+            if isinstance(nxt, Tag) and _is_display_math_only_dl(nxt):
                 strings = strings.rstrip("\n")
                 config.suffix = ""
         if config.full_result:
@@ -1496,7 +1498,7 @@ class WikiHtmlConverter:
             # When a display-math-only <dl> is inside a list item, indent the
             # formula with ``<p> &nbsp;&nbsp;&nbsp;&nbsp;`` so it visually
             # joins the preceding text on the same line.
-            if self._is_display_math_only_dl(ele):
+            if _is_display_math_only_dl(ele):
                 prefix = " <p> &nbsp;&nbsp;&nbsp;&nbsp;"
         else:
             suffix = "\n\n"
@@ -1512,7 +1514,7 @@ class WikiHtmlConverter:
                 suffix = " "
             # When a display-math-only <dl> follows a <p>, join inline
             # with <p> separator instead of creating a block break.
-            elif self._is_display_math_only_dl(ele):
+            elif _is_display_math_only_dl(ele):
                 prev = ele.find_previous_sibling()
                 while isinstance(prev, Tag) and prev.name in {"link", "style"}:
                     prev = prev.find_previous_sibling()
@@ -1560,7 +1562,7 @@ class WikiHtmlConverter:
         # Display math after a list: when a <p> containing only display math
         # follows a </ul>, join it to the last list item on the same line
         # instead of creating a separate paragraph.
-        if not in_table and self._is_display_math_only(ele):
+        if not in_table and _is_display_math_only(ele):
             prev = ele.find_previous_sibling()
             while isinstance(prev, Tag) and prev.name in {"ul", "ol"}:
                 prefix = " "
@@ -1579,8 +1581,8 @@ class WikiHtmlConverter:
                 prev = prev.find_previous_sibling()
             if (
                 isinstance(prev, Tag)
-                and self._is_display_math_only_dl(prev)
-                and self._dl_follows_p(prev)
+                and _is_display_math_only_dl(prev)
+                and _dl_follows_p(prev)
             ):
                 nxt_of_dl = prev.find_next_sibling()
                 while isinstance(nxt_of_dl, Tag) and nxt_of_dl.name in {
@@ -1605,86 +1607,10 @@ class WikiHtmlConverter:
             nxt = ele.find_next_sibling()
             while isinstance(nxt, Tag) and nxt.name in {"link", "style"}:
                 nxt = nxt.find_next_sibling()
-            if isinstance(nxt, Tag) and self._is_display_math_only_dl(nxt):
+            if isinstance(nxt, Tag) and _is_display_math_only_dl(nxt):
                 suffix = ""
 
         return _HandlerConfig(prefix=prefix, suffix=suffix, process_strings=process)
-
-    @staticmethod
-    def _is_display_math_only(ele: Tag) -> bool:
-        """Return True if *ele* is a <p> whose sole child is display math."""
-        if ele.name != "p":
-            return False
-        children = [
-            c
-            for c in ele.children
-            if not (isinstance(c, NavigableString) and not c.strip())
-        ]
-        if len(children) != 1:
-            return False
-        child = children[0]
-        if not isinstance(child, Tag):
-            return False
-        class_str = " ".join(child.get_attribute_list("class"))
-        return "mwe-math-element" in class_str and "mwe-math-element-block" in class_str
-
-    @staticmethod
-    def _is_display_math_only_dl(ele: Tag) -> bool:
-        """Return True if *ele* is a <dl> whose content is display math
-        followed by trailing text (e.g. "for events satisfying ...").
-
-        Matches a <dl> with a single <dd> child whose first rendered
-        element is display math and whose last rendered element is a
-        non-math span or text node (the trailing description).
-        """
-        if ele.name != "dl":
-            return False
-        children = [
-            c
-            for c in ele.children
-            if not (isinstance(c, NavigableString) and not c.strip())
-        ]
-        if (
-            len(children) != 1
-            or not isinstance(children[0], Tag)
-            or children[0].name != "dd"
-        ):
-            return False
-        dd = children[0]
-        dd_children = [
-            c
-            for c in dd.children
-            if not (isinstance(c, NavigableString) and not c.strip())
-        ]
-        if not dd_children:
-            return False
-        # The first child must be a math element (block or inline)
-        first = dd_children[0]
-        if not isinstance(first, Tag):
-            return False
-        class_str = " ".join(first.get_attribute_list("class"))
-        if "mwe-math-element" not in class_str:
-            return False
-        # A single merged multi-part math span qualifies — it was
-        # assembled from adjacent inline math spans and should be
-        # joined inline like the original multi-part form.
-        if len(dd_children) == 1 and first.get("data-merged-inline") is not None:
-            return True
-        # Match as long as the first child is math and there are
-        # ≥2 children (ensuring trailing content exists).  The last
-        # child may be math (e.g. “$\Delta x=0\ $” at the end of
-        # “for events satisfying …”).
-        if len(dd_children) < 2:
-            return False
-        return True
-
-    @staticmethod
-    def _dl_follows_p(ele: Tag) -> bool:
-        """Return True if *ele* is a <dl> whose previous sibling is a <p>."""
-        prev = ele.find_previous_sibling()
-        while isinstance(prev, Tag) and prev.name in {"link", "style"}:
-            prev = prev.find_previous_sibling()
-        return isinstance(prev, Tag) and prev.name == "p"
 
     def _handle_code(self, ele: Tag, classes: frozenset[str]) -> _HandlerConfig:
         """Render inline <code> with backtick markers."""
@@ -2082,7 +2008,7 @@ class WikiHtmlConverter:
             prev = ele.find_previous_sibling()
             while isinstance(prev, Tag) and prev.name in {"link", "style"}:
                 prev = prev.find_previous_sibling()
-            if isinstance(prev, Tag) and self._is_display_math_only(prev):
+            if isinstance(prev, Tag) and _is_display_math_only(prev):
                 prefix = "\n"
             # When a list follows a <dl> that was joined inline with the
             # preceding list (the <dl> is between two lists), reduce the
@@ -2365,7 +2291,7 @@ class WikiHtmlConverter:
         src_url_str = self._process_archive_url(str(src))
         link = f"{'!' if embed else ''}[{text}]({src_url_str})"
         return _HandlerConfig(
-            suffix="" if self._in_inline_context(ele) else "\n\n",
+            suffix="" if _in_inline_context(ele) else "\n\n",
             process_strings=lambda _strings: link,
         )
 
