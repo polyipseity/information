@@ -636,6 +636,10 @@ async def wiki_html_to_plaintext(
     result = _separate_block_quotes(result)
     # Collapse excessive blank lines.
     result = re.sub(r"\n{3,}", r"\n\n", result)
+    # Deduplicate doubled <p> separators from overlapping suffix/prefix
+    # when a <dl> inside a <li> ends with `` <p>`` and a following <dl>
+    # (after </ul>) starts with `` <p> ``.
+    result = re.sub(r"(<p>?)\s*<p>", r"\1", result)
     result = result.strip()
     return result + "\n" if result else result
 
