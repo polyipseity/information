@@ -50,6 +50,7 @@ from .ast_utils import (
     _walk_tokens,
 )
 from .converter import WikiHtmlConverter
+from .inline_context import _is_display_math_only_dl
 from .latex import LatexConverter
 from .table import _reformat_table
 from .types import _RedirectInfo
@@ -659,6 +660,72 @@ def _separate_block_math(text: str) -> str:
     return _scan_and_apply(text, info)
 
 
+def _merge_dl_after_thumb_into_list(soup: BeautifulSoup | Tag) -> None:
+    """Merge <dl> paragraphs into preceding list when separated by a thumbnail.
+
+    When a <dl> follows a <div class="thumb"> that follows a <ul>/<ol>,
+    the <dd> children belong to the last <li> of that list (they are
+    continuations of the list item content).  This restructuring moves
+    the <dd> elements into the last <li> and removes the empty <dl>.
+
+    Display-math-only <dl> elements are skipped — they have different
+    semantics (equation references, not prose continuations).
+    """
+    if not isinstance(soup, (BeautifulSoup, Tag)):
+        return
+
+    def _content_sibling(ele: Tag, *, following: bool) -> Tag | None:
+        """Return the first content sibling, skipping <link>/<style>."""
+        if following:
+            nxt = ele.find_next_sibling()
+            while isinstance(nxt, Tag) and nxt.name in {"link", "style"}:
+                nxt = nxt.find_next_sibling()
+            return nxt if isinstance(nxt, Tag) else None
+        prev = ele.find_previous_sibling()
+        while isinstance(prev, Tag) and prev.name in {"link", "style"}:
+            prev = prev.find_previous_sibling()
+        return prev if isinstance(prev, Tag) else None
+
+    for dl in list(soup.find_all("dl")):
+        # Skip display-math-only <dl> — different semantics.
+        if _is_display_math_only_dl(dl):
+            continue
+
+        # Check if previous sibling is a thumbnail.
+        prev = _content_sibling(dl, following=False)
+        if prev is None or prev.name != "div":
+            continue
+        if "thumb" not in frozenset(prev.get_attribute_list("class")):
+            continue
+
+        # Check if the thumbnail's previous sibling is a list.
+        list_ele = _content_sibling(prev, following=False)
+        if list_ele is None or list_ele.name not in {"ul", "ol"}:
+            continue
+
+        # Get the last <li> of the list.
+        li_items = list_ele.find_all("li", recursive=False)
+        if not li_items:
+            continue
+        last_li = li_items[-1]
+
+        # Move <dd> children from <dl> into a new <dl> inside the
+        # last <li>.  Creating a new <dl> preserves the original <dl>'s
+        # display-math-only semantics (which trigger the `` <p> \xa0\xa0\xa0\xa0``
+        # prefix in the converter).
+        dd_children = [c for c in dl.children if isinstance(c, Tag) and c.name == "dd"]
+        if not dd_children:
+            continue
+        # Create a new <dl> and append it after the last child of the <li>.
+        new_dl = soup.new_tag("dl")
+        for dd in dd_children:
+            new_dl.append(dd.extract())
+        last_li.append(new_dl)
+
+        # Remove the empty <dl> from the tree.
+        dl.decompose()
+
+
 def _preprocess_html(soup: BeautifulSoup | Tag) -> None:
     """Mutate the HTML tree before conversion.
 
@@ -707,6 +774,12 @@ def _preprocess_html(soup: BeautifulSoup | Tag) -> None:
                 ann_div.decompose()
             for noviewer in div.find_all("span", class_="noviewer"):
                 noviewer.decompose()
+
+    # 8. Merge <dl> paragraphs into preceding list when separated by a
+    #    thumbnail.  When a <dl> follows a <div class="thumb"> that
+    #    follows a <ul>/<ol>, the <dd> children belong to the last <li>
+    #    of that list (they are continuations of the list item content).
+    _merge_dl_after_thumb_into_list(soup)
 
 
 def _merge_adjacent_numblk_tables(ele: PageElement) -> None:
