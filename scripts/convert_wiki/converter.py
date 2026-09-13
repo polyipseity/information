@@ -1733,7 +1733,9 @@ class WikiHtmlConverter:
         # output).  Keep the current no-joiner behavior inside table cells.
         in_table = self._in_table_cell(ele)
         in_list = self._in_list_item(ele)
-        joiner = "" if in_table else "\n"
+        # Inside a list item, join <dd> children inline with <p> separator
+        # so the list item stays on one line.  Outside a list, use newlines.
+        joiner = "" if in_table else (" <p> " if in_list else "\n")
         prefix = ""
         if joiner:
             for child in tuple(ele.children):
@@ -1761,11 +1763,26 @@ class WikiHtmlConverter:
                 suffix = " <p>"
             else:
                 suffix = " <p> "
+            # When a display-math-only <dl> is inside a list item, indent the
+            # formula with ``<p> &nbsp;&nbsp;&nbsp;&nbsp;`` so it visually
+            # joins the preceding text on the same line.
+            if self._is_display_math_only_dl(ele):
+                prefix = " <p> &nbsp;&nbsp;&nbsp;&nbsp;"
         else:
             suffix = "\n\n"
+            # When a <dl> follows a </li> or </ul>/</ol>, the preceding content
+            # was inline inside a list item.  Join this <dl> inline with <p>
+            # separator instead of creating a block break.
+            prev = ele.find_previous_sibling()
+            while isinstance(prev, Tag) and prev.name in {"link", "style"}:
+                prev = prev.find_previous_sibling()
+            if isinstance(prev, Tag) and prev.name in {"li", "ul", "ol"}:
+                joiner = " <p> "
+                prefix = " <p> "
+                suffix = " "
             # When a display-math-only <dl> follows a <p>, join inline
             # with <p> separator instead of creating a block break.
-            if self._is_display_math_only_dl(ele):
+            elif self._is_display_math_only_dl(ele):
                 prev = ele.find_previous_sibling()
                 while isinstance(prev, Tag) and prev.name in {"link", "style"}:
                     prev = prev.find_previous_sibling()
@@ -2447,10 +2464,23 @@ class WikiHtmlConverter:
                 process_strings=process,
             )
         else:
+            # Check if this <li> has nested lists — if so, don't flatten
+            has_nested_list = ele.find("ul") is not None or ele.find("ol") is not None
 
-            def process(strings: str) -> str:
-                """Remove leading/trailing formatting spaces."""
-                return strings.strip(" \t\n\r\x0b\x0c")
+            def process(strings: str, _nested: bool = has_nested_list) -> str:
+                """For leaf list items, flatten multiline content to one line:
+                paragraph separators (\n\n) become <p>, remaining newlines
+                become spaces.  Nested lists are left untouched."""
+                if _nested:
+                    return strings.strip(" \t\n\r\x0b\x0c")
+                s = strings.strip(" \t\n\r\x0b\x0c")
+                # Paragraph separators (\n\n blocks) become <p>
+                s = re.sub(r"\n\s*\n+", " <p> ", s)
+                # Remaining single newlines become spaces
+                s = re.sub(r"\n+", " ", s)
+                # Collapse runs of spaces
+                s = re.sub(r" {2,}", " ", s)
+                return s.strip()
 
             return _HandlerConfig(
                 prefix=f"{_cfg._LIST_INDENT * (len(list_stack) - 1)}- ",
