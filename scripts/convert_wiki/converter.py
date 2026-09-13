@@ -27,7 +27,6 @@ from .table import (
 from .types import _HandlerConfig, _RedirectInfo
 from .utils import (
     _balance_brackets,
-    _create_redirect_symlinks,
     _encode_fragment,
     _fix_filename,
     _fix_name_maybe,
@@ -261,6 +260,7 @@ class WikiHtmlConverter:
             soup if soup is not None else BeautifulSoup("", "html.parser")
         )
         self._page_name = page_name
+        self._pending_redirects: list[tuple[str, str]] = []
 
     async def convert(
         self,
@@ -2506,12 +2506,7 @@ class WikiHtmlConverter:
                     _fix_filename(to_filename),
                 )
                 if from_filename != to_filename:
-                    await _create_redirect_symlinks(
-                        self._converted_wiki_dir,
-                        self._converted_wiki_lang_dir,
-                        from_filename,
-                        to_filename,
-                    )
+                    self._pending_redirects.append((from_filename, to_filename))
                 return config
         elif ele_href := ele.get("href"):
             href = str(ele_href)

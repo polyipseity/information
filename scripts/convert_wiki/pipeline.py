@@ -32,7 +32,7 @@ from .ast_utils import (
 from .converter import WikiHtmlConverter
 from .latex import LatexConverter
 from .types import _RedirectInfo
-from .utils import _ZERO_WIDTH_CHARS_RE, _reformat_table
+from .utils import _ZERO_WIDTH_CHARS_RE, _create_redirect_symlinks, _reformat_table
 
 """Exported names from this module."""
 __all__ = ()
@@ -663,6 +663,14 @@ async def wiki_html_to_plaintext(
         refs=refs,
         redirect_map=redirect_map,
     )
+    # Create redirect symlinks collected during conversion.
+    for from_name, to_name in converter._pending_redirects:
+        await _create_redirect_symlinks(
+            converter._converted_wiki_dir,
+            converter._converted_wiki_lang_dir,
+            from_name,
+            to_name,
+        )
     # Replace non-breaking spaces with regular spaces (residues from
     # citation spans, HTML &nbsp; in list items, etc.). Replace \n\xa0
     # (newline followed by non-breaking space) first to remove leading
