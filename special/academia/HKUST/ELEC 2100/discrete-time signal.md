@@ -25,7 +25,7 @@ tags:
 
 ---
 
-Discrete-time signals are signals indexed by integers rather than by a continuous independent variable. In ELEC 2100 they arise both as sampled versions of continuous-time signals and as native sequences in their own right, so the course treats their representation methods, common signal families, and periodicity rules as a durable toolkit rather than as one-off examples.
+Discrete-time signals are signals indexed by integers rather than by a continuous independent variable. In ELEC 2100 they arise both as sampled versions of continuous-time signals and as native sequences, so the course covers their representation methods, common signal families, and periodicity rules.
 
 This note is the dedicated sequence toolkit of the signal family. The broader comparison language for messages, representations, and high-level signal classifications stays in [signal](signal.md), while [singular signal](singular%20signal.md) keeps the continuous-time step/impulse/generalized-function machinery that supports later convolution and transform derivations.
 
@@ -34,14 +34,14 @@ This note is the dedicated sequence toolkit of the signal family. The broader co
 Flashcards for this section are as follows:
 
 - What is a discrete-time signal? ::@:: It is a signal indexed by integers, so it is written as a sequence such as $x[n]$ rather than as a continuous-time function $x(t)$.
-- Why are discrete-time signals important in ELEC 2100? ::@:: They arise both from sampling continuous-time signals and from native sequence models, so they need their own representation methods, common signal families, and periodicity rules.
-- How should `discrete-time signal.md` be used relative to `signal.md` and `singular signal.md`? ::@:: Use this note for the sequence toolkit: sequence notation, unit sample and step sequences, discrete-time periodicity, reshaping, and sequence energy/power. Use `signal.md` for the broader signal vocabulary and `singular signal.md` for the continuous-time generalized-signal toolkit.
+- Why are discrete-time signals important in ELEC 2100? ::@:: They arise from sampling continuous-time signals and as native sequences, so they need their own representation methods and periodicity rules.
+- How should `discrete-time signal.md` be used relative to `signal.md` and `singular signal.md`? ::@:: Use this note for the sequence toolkit. Use `signal.md` for broader signal vocabulary and `singular signal.md` for continuous-time generalized functions.
 
 ## representation methods
 
 A discrete-time signal can be represented in several equivalent ways. One may list its values as a sequence, one may write an explicit formula for $x[n]$, and one may draw a waveform or stem plot in which the horizontal axis is the integer index $n$ and the length of each vertical line segment represents the magnitude of the corresponding sample value. The upward arrow in sequence notation marks the sample at $n=0$.
 
-If the samples come from uniform sampling of a continuous-time signal $x_s(t)$ at interval $T_s$, then the sequence is written as $x[n]=x_s(nT_s)$. This is why discrete-time sequences are often described as evenly spaced samples of a continuous-time waveform. The independent variable has changed from physical time $t$ to the integer sample index $n$.
+If the samples come from uniform sampling of a continuous-time signal $x_s(t)$ at interval $T_s$, then the sequence is written as $x[n]=x_s(nT_s)$. Discrete-time sequences are evenly spaced samples of a continuous-time waveform. The independent variable has changed from physical time $t$ to the integer sample index $n$.
 
 The lecture's example $x[n]=2^n$ for $n\ge 0$ and $x[n]=0$ for $n<0$ shows how sequence form, formula form, and waveform form fit together. In list form one writes $\{\ldots,0,0,0,1,2,4,8,\ldots\}$ with the arrow under the value at $n=0$. In formula form one writes the piecewise definition. In waveform form one draws one stem at each integer $n$, with heights $1,2,4,8,\ldots$ for $n=0,1,2,3,\ldots$ and zero stems for negative indices.
 
@@ -104,7 +104,7 @@ The unit step and unit sample are closely related. Their difference satisfies $\
 
 A rectangular sequence or rectangular window of length $N$ is defined by $R_N[n]=1$ for $0\le n\le N-1$ and $R_N[n]=0$ otherwise. The endpoint convention matters: the left endpoint $n=0$ is included, while the first excluded index is $n=N$. Equivalently, the support is exactly the set $\{0,1,\ldots,N-1\}$. It can be written in step form as $R_N[n]=u[n]-u[n-N]$, and it can also be written as a finite sum of shifted unit samples: $R_N[n]=\sum_{k=0}^{N-1}\delta[n-k]$.
 
-These formulas show three useful viewpoints at once: the step view emphasizes switching on and off, the impulse-sum view emphasizes finite support, and the graph view emphasizes that the sequence is a flat run of ones over a fixed index interval.
+These formulas give three viewpoints: the step view (switching on/off), the impulse-sum view (finite support), and the graph view (flat run of ones over a fixed index interval).
 
 ---
 
@@ -117,22 +117,20 @@ Flashcards for this section are as follows:
 - How can the rectangular sequence be written using unit steps? ::@:: It can be written as $R_N[n]=u[n]-u[n-N]$.
 - How can the rectangular sequence be written using unit samples? ::@:: It can be written as $R_N[n]=\sum_{k=0}^{N-1}\delta[n-k]$.
 - Why is the endpoint convention of $R_N[n]=u[n]-u[n-N]$ easy to misread? ::@:: Because the step form shows switch-on at $n=0$ and switch-off starting at $n=N$, so the support includes $0$ through $N-1$ but excludes $N$.
-- What three viewpoints are useful for understanding the rectangular sequence? ::@:: The step view emphasizes switching on and off, the impulse-sum view emphasizes finite support, and the graph view emphasizes a flat run of ones over a fixed index interval.
 
 ## ramp and one-sided exponential sequences
 
-The discrete-time ramp sequence is $x[n]=nu[n]$. It is zero for negative indices and then grows linearly with slope $1$ sample by sample for $n\ge 0$. It is the direct discrete-time analogue of a one-sided ramp, with the important difference that only integer sample values are present.
+The discrete-time ramp sequence is $x[n]=nu[n]$. It is zero for negative indices and then grows linearly with slope $1$ sample by sample for $n\ge 0$. It is the direct discrete-time analogue of a one-sided ramp, except only integer sample values are present.
 
 A one-sided exponential sequence has the form $x[n]=a^n u[n]$. Its behavior depends strongly on the value of $a$. If $0<a<1$, the sequence is positive and decays toward zero. If $a>1$, it grows without bound. If $-1<a<0$, the samples alternate sign while their magnitude decays. If $a<-1$, the samples alternate sign while their magnitude grows.
 
-This comparison is worth making explicitly because students often focus only on the magnitude behavior and forget the sign alternation caused by a negative base. A negative value of $a$ does not merely "flip the graph once"; it flips the sign at every successive sample.
+Students often focus only on magnitude and forget the sign alternation from a negative base. A negative $a$ flips the sign at every sample, not just once.
 
 ---
 
 Flashcards for this section are as follows:
 
 - What is the discrete-time ramp sequence? ::@:: It is $x[n]=nu[n]$, so it is zero for negative indices and then grows linearly with index for $n\ge 0$.
-- How does the discrete-time ramp differ visually from the continuous-time ramp? ::@:: It has values only at integer indices, so it appears as stems rather than a continuous line.
 - What is a one-sided exponential sequence? ::@:: It is a sequence of the form $x[n]=a^n u[n]$.
 - How does $x[n]=a^n u[n]$ behave when $0<a<1$? ::@:: It stays positive and decays toward zero.
 - How does $x[n]=a^n u[n]$ behave when $a>1$? ::@:: It stays positive and grows without bound.
@@ -146,17 +144,17 @@ A discrete-time sinusoidal sequence is written as $x[n]=\sin(\omega n)$ or more 
 
 The periodicity rule for discrete-time sinusoids is stricter than in continuous time. A sinusoidal sequence is periodic only if there exists a positive integer $N$ such that $x[n+N]=x[n]$ for all $n$. This requires $\omega N=2\pi m$ for some integer $m$, equivalently $\omega/(2\pi)$ must be rational. The rational-versus-irrational split is the real deciding factor. If $\omega/(2\pi)$ is rational, then some positive integer period exists. If $\omega/(2\pi)$ is irrational, then no positive integer $N$ can ever make the samples line up exactly again, so the sequence is aperiodic even if the plotted stems may look oscillatory.
 
-When $\omega/(2\pi)=m/N_0$ is written in lowest terms, $N_0$ is the fundamental period in samples. The sequence's fundamental digital frequency is then $2\pi/N_0$, and the sinusoid itself is the harmonic with index $m$ on that fundamental grid. This is why $x[n]=\sin((4\pi/11)n)$ repeats every $11$ samples even though its phase advances by $4\pi/11$ radians per sample: the sequence's fundamental period is $11$, and the sinusoid is the second harmonic relative to the fundamental digital frequency $2\pi/11$.
+When $\omega/(2\pi)=m/N_0$ is written in lowest terms, $N_0$ is the fundamental period in samples. The sequence's fundamental digital frequency is then $2\pi/N_0$, and the sinusoid itself is the harmonic with index $m$ on that fundamental grid. $x[n]=\sin((4\pi/11)n)$ repeats every $11$ samples even though its phase advances by $4\pi/11$ radians per sample: the sequence's fundamental period is $11$, and the sinusoid is the second harmonic relative to the fundamental digital frequency $2\pi/11$.
 
-It is important not to confuse the written angular parameter in the cosine or sine with the sequence's fundamental digital frequency. Digital frequency is defined modulo $2\pi$, and for real sinusoidal sequences one often also folds to the principal range $0\le \omega\le \pi$. Two counterintuitive examples make this clear. The sequence $x[n]=2\cos\!\left(\frac{n}{6}\right)$ has no fundamental period at all, because periodicity would require the phase advance after $N$ samples to satisfy $\frac{N}{6}=2\pi m$ for integers $N,m$, and that would force $\frac{1}{12\pi}$ to be rational. By contrast, $x[n]=2\cos\!\left(\frac{11\pi n}{4}\right)$ is periodic, but $\frac{11\pi}{4}$ is not the sequence's fundamental digital frequency. A clear way to see this is to regroup the phase as $\frac{11\pi n}{4}=2\pi n+\frac{3\pi n}{4}$, so the only nontrivial phase accumulation is really $\frac{3\pi n}{4}$. Then one asks for the first positive integer $N$ such that $\frac{3\pi N}{4}$ reaches an integer multiple of $2\pi$, equivalently $\frac{3N}{4}=2m$. The smallest solution is $N=8$, so the fundamental period is $8$ samples. Its fundamental digital frequency is therefore $\frac{2\pi}{8}=\frac{\pi}{4}$, and the displayed cosine is the third harmonic rather than the fundamental itself.
+Do not confuse the written angular parameter with the sequence's fundamental digital frequency. Digital frequency is defined modulo $2\pi$, and for real sinusoidal sequences one often also folds to the principal range $0\le \omega\le \pi$. Two counterintuitive examples make this clear. The sequence $x[n]=2\cos\!\left(\frac{n}{6}\right)$ has no fundamental period at all, because periodicity would require the phase advance after $N$ samples to satisfy $\frac{N}{6}=2\pi m$ for integers $N,m$, and that would force $\frac{1}{12\pi}$ to be rational. By contrast, $x[n]=2\cos\!\left(\frac{11\pi n}{4}\right)$ is periodic, but $\frac{11\pi}{4}$ is not the sequence's fundamental digital frequency. A clear way to see this is to regroup the phase as $\frac{11\pi n}{4}=2\pi n+\frac{3\pi n}{4}$, so the only nontrivial phase accumulation is really $\frac{3\pi n}{4}$. Then one asks for the first positive integer $N$ such that $\frac{3\pi N}{4}$ reaches an integer multiple of $2\pi$, equivalently $\frac{3N}{4}=2m$. The smallest solution is $N=8$, so the fundamental period is $8$ samples. Its fundamental digital frequency is therefore $\frac{2\pi}{8}=\frac{\pi}{4}$, and the displayed cosine is the third harmonic rather than the fundamental itself.
 
 When one identifies a full period from a finite stem plot or from a listed sequence segment, the clean convention is to begin at the smallest valid displayed signal index and count $N_0$ consecutive samples. Any other full-period block is just a shifted copy of the same repeating pattern.
 
-The lecture's examples illustrate the three main cases. If $x[n]=\sin(0.2\pi n)$, then $\omega=0.2\pi$ and $N=10$ works, so the sequence has period $10$ and completes one full cycle every $10$ samples. If $x[n]=\sin((4\pi/11)n)$, then one may take $m=2$ and $N=11$, so the sequence has period $11$ and completes two full cycles in that period. If $x[n]=\sin(0.4n)$, then $0.4/(2\pi)$ is irrational, so the sequence is aperiodic. The crucial lesson is that irrationality destroys exact sample-by-sample repetition, not just the existence of a simple-looking period.
+The lecture's examples illustrate the three main cases. If $x[n]=\sin(0.2\pi n)$, then $\omega=0.2\pi$ and $N=10$ works, so the sequence has period $10$ and completes one full cycle every $10$ samples. If $x[n]=\sin((4\pi/11)n)$, then one may take $m=2$ and $N=11$, so the sequence has period $11$ and completes two full cycles in that period. If $x[n]=\sin(0.4n)$, then $0.4/(2\pi)$ is irrational, so the sequence is aperiodic. The key point: irrationality destroys exact sample-by-sample repetition.
 
 The complex exponential sequence is $x[n]=e^{j\omega n}=\cos(\omega n)+j\sin(\omega n)$. In polar form its magnitude is $|x[n]|=1$, and its phase is $\arg x[n]=\omega n$. Its periodicity obeys exactly the same rationality rule as the real sinusoid: it is periodic if and only if $\omega/(2\pi)$ is rational. If that ratio is irrational, then the phasor never returns to exactly the same complex value after an integer number of samples, so the sequence is aperiodic.
 
-The comparison between the real sinusoid and the complex exponential is important. The sinusoid gives one real oscillatory coordinate, while the complex exponential packages cosine and sine together into one rotating complex sequence. This is why complex exponentials become the algebraically convenient building blocks in later Fourier analysis. It also explains why irrationality has the same effect in both settings: if the sampled rotation angle is incommensurate with $2\pi$, neither the real projection nor the full complex phasor can repeat exactly after a finite integer shift.
+The sinusoid gives one real oscillatory coordinate, while the complex exponential packages cosine and sine into one rotating sequence. Complex exponentials become the algebraically convenient building blocks in later Fourier analysis. It also explains why irrationality has the same effect in both settings: if the sampled rotation angle is incommensurate with $2\pi$, neither the real projection nor the full complex phasor can repeat exactly after a finite integer shift.
 
 ---
 
@@ -165,12 +163,10 @@ Flashcards for this section are as follows:
 - What is a discrete-time sinusoidal sequence? ::@:: It is a sequence such as $x[n]=\sin(\omega n)$ or more generally $x[n]=A\sin(\omega n+\phi)$.
 - How does sampling a continuous-time sinusoid produce a discrete-time sinusoid? ::@:: Sampling $x(t)=A\sin(\omega_0 t+\phi)$ at interval $T_s$ gives $x[n]=A\sin(\omega_0 T_s n+\phi)=A\sin(\omega n+\phi)$.
 - What is the digital angular frequency $\omega$? ::@:: It is the discrete-time angular frequency in radians per sample, with $\omega=\omega_0 T_s=2\pi f_0/f_s$ for a sampled sinusoid.
-- When is a discrete-time sinusoidal sequence periodic? ::@:: It is periodic only if there exists a positive integer $N$ such that $\omega N=2\pi m$ for some integer $m$, equivalently if $\omega/(2\pi)$ is rational.
 - If $\omega/(2\pi)=m/N_0$ is in lowest terms, what are the sequence's fundamental period and fundamental digital frequency? ::@:: The fundamental period is $N_0$ samples, and the fundamental digital frequency is $2\pi/N_0$ radians per sample; the sinusoid itself is the harmonic with index $m$.
 - Why should the written angular parameter in a discrete-time cosine not be confused automatically with the sequence's fundamental digital frequency? ::@:: Because digital frequency is defined modulo $2\pi$, and the displayed cosine may be a higher harmonic on the sequence's fundamental grid rather than the fundamental itself.
 - Why can a discrete-time sinusoid be aperiodic even though a continuous-time sinusoid is always periodic? ::@:: Because discrete time requires an integer period in samples, so periodicity depends on whether $\omega/(2\pi)$ is rational or irrational.
 - How should one select one full period from a finite displayed periodic sequence? ::@:: Start at the smallest valid displayed signal index and count one block of $N_0$ consecutive samples, where $N_0$ is the fundamental period.
-- What is the effect of irrationality on the periodicity of a discrete-time sinusoid? ::@:: If $\omega/(2\pi)$ is irrational, then no positive integer sample shift can make the sequence repeat exactly, so the sequence is aperiodic.
 - Worked example: Why does $x[n]=2\cos\!\left(\frac{n}{6}\right)$ have no fundamental digital frequency? ::@:: Step 1: after $N$ samples the phase advance would be $\frac{N}{6}$. <br/> Step 2: periodicity would require this to equal an integer multiple of $2\pi$, so $\frac{N}{6}=2\pi m$ for integers $N,m$. <br/> Step 3: equivalently, $\frac{1}{12\pi}=\frac{m}{N}$ would have to be rational. <br/> Step 4: because $\pi$ is irrational, that cannot happen. <br/> Step 5: therefore no positive integer period exists, so the sequence has no fundamental period or fundamental digital frequency.
 - Worked example: Why is the sequence $x[n]=2\cos\!\left(\frac{11\pi n}{4}\right)$ periodic with fundamental digital frequency $\frac{\pi}{4}$ rather than $\frac{11\pi}{4}$? ::@:: Step 1: regroup the phase as $\frac{11\pi n}{4}=2\pi n+\frac{3\pi n}{4}$. <br/> Step 2: the $2\pi n$ part contributes whole turns only, so the effective phase step is $\frac{3\pi}{4}$ per sample. <br/> Step 3: look for the first positive integer $N$ such that the accumulated phase $\frac{3\pi N}{4}$ is an integer multiple of $2\pi$. <br/> Step 4: this requires $\frac{3N}{4}=2m$, and the smallest solution is $N=8$. <br/> Step 5: therefore the fundamental period is $8$ and the fundamental digital frequency is $\frac{2\pi}{8}=\frac{\pi}{4}$. <br/> Step 6: so the displayed cosine is the third harmonic on that fundamental grid, not the fundamental itself.
 - Worked example: Given $x[n]=\sin(0.2\pi n)$, what is its period? ::@:: Step 1: require $\omega N=2\pi m$ with $\omega=0.2\pi$. <br/> Step 2: choose the smallest positive integer $N$ so that $0.2\pi N=2\pi$. <br/> Step 3: this gives $N=10$, so the period is $10$.
@@ -179,19 +175,18 @@ Flashcards for this section are as follows:
 - What is the discrete-time complex exponential sequence? ::@:: It is $x[n]=e^{j\omega n}=\cos(\omega n)+j\sin(\omega n)$.
 - What are the magnitude and phase of $e^{j\omega n}$? ::@:: Its magnitude is $1$, and its phase is $\omega n$.
 - When is a discrete-time complex exponential sequence periodic? ::@:: It is periodic if and only if $\omega/(2\pi)$ is rational.
-- What is the effect of irrationality on the periodicity of $e^{j\omega n}$? ::@:: If $\omega/(2\pi)$ is irrational, the phasor never returns exactly to the same complex value after any positive integer number of samples, so the sequence is aperiodic.
 
 ## pointwise operations and index transformations
 
-The simplest operations on discrete-time signals are pointwise operations. If two sequences are defined on the same index axis, then summation forms $z[n]=x[n]+y[n]$, multiplication forms $z[n]=x[n]y[n]$, and scaling by a constant forms $z[n]=ax[n]$. These operations are applied sample by sample at the same index. In practice this means that one must align the sample indices first before combining values.
+The simplest operations on discrete-time signals are pointwise operations. If two sequences are defined on the same index axis, then summation forms $z[n]=x[n]+y[n]$, multiplication forms $z[n]=x[n]y[n]$, and scaling by a constant forms $z[n]=ax[n]$. These operations are applied sample by sample at the same index. Sample indices must be aligned before combining values.
 
-The distinction between pointwise operations and index transformations is important. In $z[n]=2x[n]$, the factor $2$ changes the sample values but does not move any sample positions. By contrast, in $z[n]=x[n-m]$ or $z[n]=x[n+m]$, the sequence values are preserved but their positions on the index axis are moved.
+Pointwise operations and index transformations behave differently. In $z[n]=2x[n]$, the factor $2$ changes the sample values but does not move any sample positions. By contrast, in $z[n]=x[n-m]$ or $z[n]=x[n+m]$, the sequence values are preserved but their positions on the index axis are moved.
 
 Shifting follows the same right-versus-left rule as in continuous time, but now the shift amount is an integer number of samples. For $m>0$, $x[n-m]$ is a right shift by $m$ samples and $x[n+m]$ is a left shift by $m$ samples. Time reversal gives $z[n]=x[-n]$, which reflects the sequence about the origin of the index axis.
 
-It is worth comparing shifting and reversal carefully. Shifting changes the location of every sample without changing their order, while reversal flips the order around the origin. In discrete time this can be checked directly by following where the sample originally at index $n_0$ ends up: under reversal it appears at $-n_0$, whereas under a right shift by $m$ it appears at $n_0+m$.
+Shifting changes the location of every sample without changing their order, while reversal flips the order around the origin. In discrete time this can be checked directly by following where the sample originally at index $n_0$ ends up: under reversal it appears at $-n_0$, whereas under a right shift by $m$ it appears at $n_0+m$.
 
-As a simple arithmetic example, if $x[n]=\{1,2,3,4\}$ and $y[n]=\{1,1,1,0\}$, then $x[n]+y[n]=\{2,3,4,4\}$ and $x[n]y[n]=\{1,2,3,0\}$. The same example also shows scaling: $2x[n]=\{2,4,6,8\}$.
+For example, if $x[n]=\{1,2,3,4\}$ and $y[n]=\{1,1,1,0\}$, then $x[n]+y[n]=\{2,3,4,4\}$ and $x[n]y[n]=\{1,2,3,0\}$. The same example also shows scaling: $2x[n]=\{2,4,6,8\}$.
 
 ---
 
@@ -210,9 +205,7 @@ Flashcards for this section are as follows:
 
 ## difference and running sum
 
-Discrete differentiation is expressed by differences. The forward difference is $\Delta x[n]=x[n+1]-x[n]$, and the backward difference is $\nabla x[n]=x[n]-x[n-1]$. Both measure sample-to-sample change, but they anchor that change at slightly different indices.
-
-The distinction is important. The forward difference compares the current sample with the next one, so it is naturally associated with a look-ahead viewpoint. The backward difference compares the current sample with the previous one, so it is the more common causal-looking difference formula when one wants to work from past to present.
+Discrete differentiation is expressed by differences. The forward difference is $\Delta x[n]=x[n+1]-x[n]$, and the backward difference is $\nabla x[n]=x[n]-x[n-1]$. Both measure sample-to-sample change at different anchor points. The forward difference compares the current sample with the next one, so it is naturally associated with a look-ahead viewpoint. The backward difference compares the current sample with the previous one, so it is the more common causal-looking difference formula when one wants to work from past to present.
 
 The running sum is the discrete-time analogue of integration. It is defined by $y[n]=\sum_{k=-\infty}^{n}x[k]$, so each new value of $y[n]$ accumulates all samples of $x[k]$ up to the current index. This makes the running sum a cumulative-memory operation rather than a pointwise one.
 
@@ -235,9 +228,9 @@ Reshaping operations change the sampling density of a sequence. Decimation keeps
 
 Interpolation, in the elementary zero-stuffing sense used in the lecture, inserts additional index locations between existing samples. A standard idealized description is to place the original sample values at indices that are multiples of $N$ and fill the newly created intermediate indices with zeros. The resulting sequence has the same original values, but spread out over a denser index grid.
 
-The lecture warns that one may have to remove points or insert zeros depending on the reshaping task. This makes decimation and interpolation conceptually different from simple scaling or shifting: they alter the sampling pattern itself rather than just the values or positions of existing samples.
+Decimation and interpolation alter the sampling pattern itself, unlike scaling or shifting which only change values or positions.
 
-For example, if one forms $x[2n]$, the result keeps only the even-indexed samples of the original sequence. In zero-insertion interpolation by a factor of $2$, the original samples remain at even indices of the new sequence, while odd indices are filled with zeros.
+For example, $x[2n]$ keeps only even-indexed samples. In zero-insertion interpolation by factor $2$, original samples stay at even indices and odd indices are filled with zeros.
 
 ---
 
@@ -246,7 +239,7 @@ Flashcards for this section are as follows:
 - What is decimation of a discrete-time sequence? ::@:: For a positive integer $N$, decimation keeps the samples whose original indices are multiples of $N$, producing the sequence $x[Nn]$.
 - What does decimation by a factor of $2$ do? ::@:: It keeps only the even-indexed samples of the original sequence.
 - What is interpolation in the zero-insertion sense? ::@:: Zero-insertion (zero-stuffing) by factor $L$ maps the original sequence $x[n]$ to a new sequence $x_L[m]$ defined by: $x_L[m]=x[m/L]$ if $m$ is a multiple of $L$, and $x_L[m]=0$ otherwise. <br/> Effect in time domain: the original sample $x[n]$ appears at position $m=nL$; between any two original samples, $L-1$ zeros are inserted. <br/> Effect in frequency domain: the DTFT of $x_L[m]$ is $X_L(e^{j\Omega})=X(e^{jL\Omega})$, i.e. the spectrum of the original sequence is compressed by factor $L$ along the $\Omega$-axis (equivalently, $L$ copies of the spectrum appear in $[0,2\pi)$). <br/> Purpose: zero-insertion "spreads out" the original signal in time to create room for future filtering; for ideal interpolation, one would then apply a lowpass filter to remove the spectral images and restore a smooth interpolated signal.
-- Why are decimation and interpolation different from ordinary shifting or scaling? ::@:: They alter the sampling pattern itself rather than merely changing sample values or moving already existing sample positions.
+- Why are decimation and interpolation different from ordinary shifting or scaling? ::@:: They alter the sampling pattern itself, not just sample values or positions.
 - In zero-insertion interpolation by factor $2$, where do the original samples go? ::@:: The original sample $x[n]$ is placed at even index $2n$ in the new sequence; every odd index $(2n+1)$ is filled with $0$. <br/> Example: if $x=[1,2,3,4]$ (at indices $0,1,2,3$), then $x_2=[1,0,2,0,3,0,4,0]$ (at indices $0,1,2,3,4,5,6,7$). <br/> Memory: even slots hold originals, odd slots hold zeros.
 - Zero-insertion interpolation vs. zero-padding — key comparison ::@:: __Zero-insertion__ (upsampling by $L$): operate in the __time domain__ — insert $L-1$ zeros between consecutive samples; result is a stretched time-domain sequence; in frequency: spectrum is compressed, $L$ images appear in $[0,2\pi)$. <br/> __Zero-padding__ (DFT/DTFT): operate in the __frequency domain__ — append zeros to the tail of a finite record before taking the DFT; result is finer frequency-grid sampling on the existing DTFT (dense grid, no new spectral information); in time: the longer DFT implicitly wraps a longer period. <br/> __Relationship__: zero-insertion in time causes spectral compression; zero-padding in frequency is used in DFT to display the DTFT on a finer grid, not to create new spectral content. <br/> Where to pad: Location of padding depends on frequency rearrangement convention—append zeros typically at the end (highest Fourier-index locations) before DFT when using standard indexing; if using `fftshift` or other frequency rearrangement, adjust padding location accordingly to maintain correct frequency correspondence.
 - Four application cases — zero-padding vs. zero-insertion in time/frequency domains ::@:: (1) __Zero-insertion in time (upsampling)__: insert $L-1$ zeros between samples; $L$ spectral images appear in $[0,2\pi)$; use before lowpass filter for multirate interpolation. <br/> (2) __Zero-padding in time (before DFT)__: append zeros to get finer frequency grid (interpolate DTFT samples); no new spectral info, just finer display. <br/> (3) __Zero-insertion in frequency (spectrum compression)__: not a standard operation, but conceptually would correspond to stretching the time-domain sequence; results in a compressed and repeated spectrum; not commonly used in practice. <br/> (4) __Zero-padding in frequency (before IDFT)__: append zeros to the DFT to get a longer time-domain sequence; effectively creates a longer periodic extension of the original sequence; used for interpolation in time domain via IDFT.
@@ -259,9 +252,9 @@ The energy of a discrete-time sequence over a finite symmetric interval $-K\le n
 
 Average power is the long-run average squared magnitude. For an aperiodic sequence it is defined by $P=\lim_{K\to\infty}\frac{1}{2K+1}\sum_{n=-K}^{K}|x[n]|^2$. For a periodic sequence with period $N$, one may average over one full period: $P=\frac{1}{N}\sum_{n=0}^{N-1}|x[n]|^2$.
 
-The same energy-versus-power distinction from continuous time appears again here. A finite-length sequence is typically an energy sequence because the total squared magnitude is finite and the long-run average power is zero. A nonzero periodic sequence is typically a power sequence because its average over one period is finite but its total energy diverges when repeated forever.
+The energy-versus-power distinction carries over from continuous time. A finite-length sequence is typically an energy sequence because the total squared magnitude is finite and the long-run average power is zero. A nonzero periodic sequence is typically a power sequence because its average over one period is finite but its total energy diverges when repeated forever.
 
-The lecture's sample energy calculation uses a sequence with nonzero values $1,2,3,4$. Its energy is $1^2+2^2+3^2+4^2=30$. This example is simple, but it makes the sum-of-squares viewpoint explicit.
+The lecture's sample energy calculation uses a sequence with nonzero values $1,2,3,4$. Its energy is $1^2+2^2+3^2+4^2=30$. This makes the sum-of-squares viewpoint concrete.
 
 ---
 

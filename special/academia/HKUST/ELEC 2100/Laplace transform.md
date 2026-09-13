@@ -24,7 +24,7 @@ tags:
 
 Laplace analysis is the continuous-time complex-frequency toolkit used in ELEC 2100 after Fourier analysis and DTFT/DFT.  It extends transform methods from steady-state spectral analysis to transient, causal, and differential-equation problems: derivatives and integrals become algebraic factors in $s$, unilateral Laplace keeps track of initial conditions, and poles/transfer functions become easy to analyze.
 
-Historically, the method is named after Pierre-Simon Laplace (1749–1827), who introduced transform methods for solving differential equations in 1779.  In engineering practice it became especially influential after Oliver Heaviside (1850–1925) developed operational-calculus methods in the late 19th century that effectively matched Laplace-transform techniques and made them useful for circuits and transmission lines.
+Historically, the method is named after Pierre-Simon Laplace (1749–1827), who introduced transform methods for solving differential equations in 1779.  Oliver Heaviside (1850–1925) later developed operational-calculus methods in the late 19th century that made the same ideas practical for circuits and transmission lines.
 
 Main advantages in this course are:
 
@@ -43,12 +43,11 @@ Practically, the Laplace unit in this course uses Laplace transform for four rec
 
 Flashcards for this section are as follows:
 
-- Why does ELEC 2100 introduce Laplace transform after time-domain and Fourier tools? ::@:: Because Laplace extends transform methods from steady-state spectral analysis to transient and causal problems: differential/integral operations become algebraic operations in $s$, dynamic-system and circuit analysis become easier, and unilateral Laplace retains initial-condition information. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - What is the role of Laplace transform in the course roadmap? ::@:: It is the complex-frequency-domain bridge from time-domain differential-equation models to transfer functions, pole-zero analysis, stability tests, block-diagram interconnection, and dynamic-circuit response.
-- What short historical picture should you remember for the Laplace transform? ::@:: Pierre-Simon Laplace introduced the transform method for differential equations in 1779, and Oliver Heaviside later developed operational-calculus methods in the late 19th century that made the same ideas powerful in engineering practice.
-- What are the main practical advantages of Laplace transform in ELEC 2100? ::@:: It turns differential/integral equations into algebraic equations in $s$, automatically incorporates initial conditions in unilateral form, and makes transfer functions, poles, convolution, and block-diagram analysis easier.
+- What short historical picture should you remember for the Laplace transform? ::@:: Pierre-Simon Laplace introduced the transform method for differential equations in 1779, and Oliver Heaviside later developed operational-calculus methods in the late 19th century that made the ideas practical for engineering.
+- What are the main advantages of Laplace transform in ELEC 2100? ::@:: It turns differential/integral equations into algebraic equations in $s$, automatically incorporates initial conditions in unilateral form, and makes transfer functions, poles, convolution, and block-diagram analysis easier.
 - What is the main disadvantage/caveat of Laplace transform compared with Fourier transform? ::@:: Its physical interpretation is less immediate than Fourier frequency analysis, and it requires explicit ROC bookkeeping because the same algebraic expression can represent different time-domain signals.
-- What are the main practical uses of Laplace transform in the Laplace unit of ELEC 2100? ::@:: Direct transforms, inverse transforms, solving differential equations and dynamic circuits, and forming system functions for pole-zero, stability, and block-diagram analysis.
+- What are the main uses of Laplace transform in the Laplace unit of ELEC 2100? ::@:: Direct transforms, inverse transforms, solving differential equations and dynamic circuits, and forming system functions for pole-zero, stability, and block-diagram analysis.
 
 ## definition and ROC
 
@@ -63,13 +62,13 @@ Write $s=\sigma+j\omega$.  The factor $e^{-j\omega t}$ changes only phase, not m
 - for $t>0$, moving right in the $s$-plane (larger $\sigma$) adds stronger decay $e^{-\sigma t}$ and helps a right-sided tail converge;
 - for $t<0$, moving right makes $e^{-\sigma t}=e^{+\sigma|t|}$ grow faster, so moving left helps a left-sided tail converge.
 
-This is the actual meaning of being to the left or right of a pole.  For the right-sided exponential $e^{pt}u(t)$, the transform is $\frac{1}{s-p}$ with ROC $\Re(s)>\Re(p)$; for the left-sided signal $-e^{pt}u(-t)$, the transform is again $\frac{1}{s-p}$ but the ROC is $\Re(s)<\Re(p)$.  The same algebraic factor can therefore represent different time-domain signals; the ROC records which side of the pole makes the weighted integral decay.  So ROC depends not only on the algebraic expression but also on the restriction placed on the signal class: right-sided, left-sided, two-sided, or finite-duration.
+This is what it means to be to the left or right of a pole.  For the right-sided exponential $e^{pt}u(t)$, the transform is $\frac{1}{s-p}$ with ROC $\Re(s)>\Re(p)$; for the left-sided signal $-e^{pt}u(-t)$, the transform is again $\frac{1}{s-p}$ but the ROC is $\Re(s)<\Re(p)$.  The same algebraic factor can therefore represent different time-domain signals; the ROC records which side of the pole makes the weighted integral decay.  So ROC depends not only on the algebraic expression but also on the restriction placed on the signal class: right-sided, left-sided, two-sided, or finite-duration.
 
-A compact existence criterion is __exponential order__.  If there exist real numbers $a_+$ and $a_-$ and positive constants $M_+$, $M_-$ such that $|f(t)|\le M_+e^{a_+ t}$ for sufficiently large positive $t$ and $|f(t)|\le M_-e^{a_- t}$ for sufficiently large negative $t$, then the bilateral Laplace transform converges at least in the strip $a_+<\Re(s)<a_-$, provided the strip is nonempty.  For unilateral/right-sided analysis, only the positive-time tail matters: if $|f(t)|\le Me^{a t}$ for sufficiently large $t>0$, then $\mathcal{L}_u\{f(t)\}$ converges for $\Re(s)>a$.
+An existence criterion is __exponential order__.  If there exist real numbers $a_+$ and $a_-$ and positive constants $M_+$, $M_-$ such that $|f(t)|\le M_+e^{a_+ t}$ for sufficiently large positive $t$ and $|f(t)|\le M_-e^{a_- t}$ for sufficiently large negative $t$, then the bilateral Laplace transform converges at least in the strip $a_+<\Re(s)<a_-$, provided the strip is nonempty.  For unilateral/right-sided analysis, only the positive-time tail matters: if $|f(t)|\le Me^{a t}$ for sufficiently large $t>0$, then $\mathcal{L}_u\{f(t)\}$ converges for $\Re(s)>a$.
 
-This makes several common engineering rules of thumb precise:
+These rules become precise:
 
-- the common shortcut "bounded aperiodic signals always have a Laplace transform" is rigorously safest in the unilateral/right-sided setting, where boundedness implies exponential order $a=0$ and hence ROC $\Re(s)>0$;
+- the common shortcut "bounded aperiodic signals always have a Laplace transform" is safest in the unilateral/right-sided setting, where boundedness implies exponential order $a=0$ and hence ROC $\Re(s)>0$;
 - polynomials grow more slowly than exponentials, so right-sided power functions such as $t^n u(t)$ still have ROC $\Re(s)>0$;
 - unilateral exponentials satisfy $\mathcal{L}_u\{e^{\alpha t}u(t)\}=\frac{1}{s-\alpha}$ with ROC $\Re(s)>\alpha$;
 - super-exponential signals such as $e^{t^2}u(t)$ have no Laplace transform for any finite $s$, because $e^{t^2-\sigma t}\to\infty$ as $t\to\infty$ for every fixed $\sigma$.
@@ -145,7 +144,7 @@ Brief derivation skeletons for these pairs:
 
 Fourier comparison for these common pairs should be kept in mind.  The pair $\delta(t)\leftrightarrow 1$ matches Fourier exactly.  For $e^{-\alpha t}u(t)$ with $\alpha>0$, evaluating the Laplace transform on the imaginary axis gives the ordinary Fourier transform $\frac{1}{\alpha+j\omega}$ because the ROC includes $j\omega$.  By contrast, $u(t)$, $t^n u(t)$, and the causal sinusoids $\sin(\omega_0 t)u(t)$ and $\cos(\omega_0 t)u(t)$ sit on or beyond the Fourier boundary and therefore require generalized-function treatment in Fourier analysis.  Non-causal sinusoids have the familiar Fourier impulse lines at $\pm\omega_0$, whereas causal sinusoids become rational Laplace expressions with ROC $\Re(s)>0$.
 
-Core properties repeatedly used in this note and in standard transform work, each with a compact derivation idea:
+Core properties used in this note and in standard transform work, each with a short derivation idea:
 
 - __Linearity__: pull constants through the integral and split sums termwise.
 - __Time shift (bilateral)__: $\mathcal{L}_b\{f(t-t_0)\}=e^{-st_0}F_b(s)$, obtained by substituting $\tau=t-t_0$ in an integral over the whole real line.
@@ -239,13 +238,13 @@ In particular, twice integration gives $\mathcal{L}_u\{g_2(t)\}=\frac{F(s)+s g_2
 This gives the bilateral-vs-unilateral/Fourier comparison used repeatedly in ELEC 2100:
 
 - Syntactic rule form is mostly the same as Fourier after replacing $j\omega$ by $s$.
-- The minor but crucial differences are ROC constraints, endpoint/boundary terms, and unilateral initial-condition terms.
+- The differences are ROC constraints, endpoint/boundary terms, and unilateral initial-condition terms.
 
-The concise exact statements are
+The exact statements are
 
 $f(0^+)=\lim_{s\to\infty}sF(s),\qquad f(\infty)=\lim_{s\to0}sF(s)$.
 
-More rigorous kernel intuition comes from
+The kernel intuition comes from
 
 $sF(s)=\int_{0}^{\infty} f(t)\,s e^{-st}\,dt$.
 
@@ -259,7 +258,7 @@ For the final value theorem, use the same identity and let $s\to0^+$:
 
 $sF(s)=\int_{0}^{\infty} f\!\left(\frac{u}{s}\right)e^{-u}\,du\to f(\infty)\int_{0}^{\infty}e^{-u}\,du=f(\infty)$,
 
-provided the time limit exists and all poles of $sF(s)$ lie strictly in the open left half-plane.  This exact pole condition is the rigorous version of the usual "stable poles only" warning.
+provided the time limit exists and all poles of $sF(s)$ lie strictly in the open left half-plane.  This pole condition is the precise version of the "stable poles only" warning.
 
 If these conditions are violated, the limit formulas fail for understandable reasons:
 
@@ -276,7 +275,7 @@ where $F_1(s)$ is proper and $P(s)=k_m s^m+\cdots+k_1 s+k_0$ is the polynomial p
 
 $P(s)\longleftrightarrow k_m\delta^{(m)}(t)+\cdots+k_1\delta'(t)+k_0\delta(t)$.
 
-These impulse terms are supported only at $t=0$: for every ordinary time $t>0$ they contribute nothing, which is the practical meaning of saying that the polynomial part does not determine the ordinary right-hand initial value.  But their contribution to $\lim_{s\to\infty}sF(s)$ is disastrous, because $sP(s)$ diverges.  Therefore the ordinary initial value must be read from the proper remainder only:
+These impulse terms are supported only at $t=0$: for every ordinary time $t>0$ they contribute nothing, which is the meaning of saying that the polynomial part does not determine the ordinary right-hand initial value.  But their contribution to $\lim_{s\to\infty}sF(s)$ is disastrous, because $sP(s)$ diverges.  Therefore the ordinary initial value must be read from the proper remainder only:
 
 $f(0^+)=\lim_{s\to\infty}sF_1(s)$,
 
@@ -297,27 +296,26 @@ Flashcards for this section are as follows:
 - Compare bilateral and unilateral time shifts for both delay and advance, and explain why direction matters in the unilateral case. ::@:: Bilateral delay: $\mathcal{L}_b\{f(t-t_0)\}=e^{-st_0}F_b(s)$; bilateral advance: $\mathcal{L}_b\{f(t+t_0)\}=e^{st_0}F_b(s)$, assuming the bilateral transform exists. <br/> Unilateral delay: $\mathcal{L}_u\{f(t-t_0)u(t-t_0)\}=e^{-st_0}F_u(s)$ because the step delays the causal start together with the waveform. <br/> Unilateral advance is not a pure factor: $\mathcal{L}_u\{f(t+t_0)u(t)\}=e^{st_0}\!\left[F_u(s)-\int_{0^-}^{t_0^-}f(\tau)e^{-s\tau}d\tau\right]$. <br/> Direction matters because unilateral analysis always starts sampling at $t=0^-$.
 - How is the $s$-domain shift rule $e^{-\alpha t}f(t)\leftrightarrow F(s+\alpha)$ derived? ::@:: Combine exponentials in the kernel: $e^{-\alpha t}e^{-st}=e^{-(s+\alpha)t}$, so the transform is $F$ evaluated at $s+\alpha$.
 - How is the scaling rule $f(at)\leftrightarrow\frac{1}{a}F(s/a)$ (for $a>0$) derived? ::@:: Use substitution $\tau=at$ in $\int f(at)e^{-st}dt$; then $dt=d\tau/a$ and $e^{-st}=e^{-(s/a)\tau}$.
-- Compare the Laplace convolution theorem with the Fourier convolution theorem, and state the practical Laplace difference. ::@:: Syntactically they match after $j\omega\to s$: time-domain convolution maps to multiplication of transforms. <br/> For Laplace, the practical extra issue is ROC bookkeeping: the derivation is first valid on the intersection of the participating ROCs, and only after simplification can pole-zero cancellation enlarge the final ROC.
+- Compare the Laplace convolution theorem with the Fourier convolution theorem, and state the Laplace difference. ::@:: Syntactically they match after $j\omega\to s$: time-domain convolution maps to multiplication of transforms. <br/> For Laplace, the extra issue is ROC bookkeeping: the derivation is first valid on the intersection of the participating ROCs, and only after simplification can pole-zero cancellation enlarge the final ROC.
 - State the bilateral Laplace multiplication theorem, and explain why it is less convenient in practice than the convolution theorem. ::@:: $\mathcal{L}_b\{f(t)g(t)\}(s)=\frac{1}{2\pi j}\int_{\gamma-j\infty}^{\gamma+j\infty}F(\sigma)G(s-\sigma)\,d\sigma$. <br/> Unlike Fourier's ordinary frequency-axis convolution, Laplace uses a complex vertical-contour convolution whose contour must stay inside valid ROCs. <br/> That ROC/contour bookkeeping makes the theorem much less convenient in practice than $f_1*f_2\leftrightarrow F_1F_2$.
 - How should unilateral time-domain multiplication be understood in ELEC 2100 Laplace work? ::@:: Treat unilateral multiplication as bilateral multiplication of the windowed causal signals $f(t)u(t)$ and $g(t)u(t)$. <br/> There is no simpler course-default unilateral product rule routinely used, so the multiplication theorem is mainly a conceptual companion to the convolution theorem.
 - Compare the bilateral and unilateral first-differentiation rules, and explain the unilateral correction term explicitly. ::@:: Bilateral: $\mathcal{L}_b\{f'(t)\}=sF_b(s)$, the same syntax as Fourier after $j\omega\to s$, provided boundary terms vanish. <br/> Unilateral: let $x(t)=f(t)u(t)$. Then $x'(t)=f'(t)u(t)+f(0^-)\delta(t)$, so $sF_u(s)=\mathcal{L}_u\{f'(t)\}+f(0^-)$ and therefore $\mathcal{L}_u\{f'(t)\}=sF_u(s)-f(0^-)$. <br/> The extra term comes from differentiating the causal window at $t=0$.
 - State the bilateral and unilateral formulas for second differentiation and general repeated differentiation. ::@:: Bilateral: $\mathcal{L}_b\{f''(t)\}=s^2F_b(s)$ and, more generally, $\mathcal{L}_b\{f^{(n)}(t)\}=s^nF_b(s)$, assuming the required weighted boundary terms vanish. <br/> Unilateral: $\mathcal{L}_u\{f''(t)\}=s^2F_u(s)-sf(0^-)-f'(0^-)$ and, in general, $\mathcal{L}_u\{f^{(n)}(t)\}=s^nF_u(s)-\sum_{k=0}^{n-1}s^{n-1-k}f^{(k)}(0^-)$.
 - Compare the bilateral and unilateral first-integration rules, and state the unilateral boundary-term correction. ::@:: Bilateral: if $g'(t)=f(t)$ and the primitive is chosen so weighted boundary terms vanish, then $\mathcal{L}_b\{g(t)\}=F_b(s)/s$, matching Fourier syntax after $j\omega\to s$. <br/> Unilateral: if $g'(t)=f(t)$, then $G_u(s)=\frac{F_u(s)+g(0^-)}{s}$. <br/> The common formula $F_u(s)/s$ is the special case $g(0^-)=0$, for example when $g(t)=\int_{0^-}^{t}f(\tau)d\tau$.
 - State the bilateral and unilateral formulas for twice integration and general repeated integration, including unilateral boundary terms. ::@:: Bilateral keeps the same pattern $F_b(s)/s^n$, subject to boundary/primitive choices. <br/> Unilateral repeated integration satisfies $F_u(s)=s^nG_u(s)-\sum_{k=0}^{n-1}s^{n-1-k}g^{(k)}(0^-)$, so $G_u(s)=\frac{F_u(s)+\sum_{k=0}^{n-1}s^{n-1-k}g^{(k)}(0^-)}{s^n}$. <br/> For zero initial primitive terms this reduces to $F_u(s)/s^n$, and twice integration reduces to $F_u(s)/s^2$.
-- State the concise exact initial and final value theorems with their exact conditions. ::@:: Initial value theorem: $f(0^+)=\lim_{s\to\infty}sF(s)$, valid when $f$ has no impulse at $t=0$; for rational transforms, strict properness of $F(s)$ is a convenient sufficient check. <br/> Final value theorem: $\lim_{t\to\infty}f(t)=\lim_{s\to0}sF(s)$, valid when the time limit exists and all poles of $sF(s)$ lie strictly in the open left half-plane.
-- What rigorous kernel intuition explains the conditions behind the initial and final value theorems, and what happens if those conditions are violated? ::@:: The identity $sF(s)=\int_{0}^{\infty} f\!\left(\frac{u}{s}\right)e^{-u}\,du$ shows that as $s\to\infty$, the kernel concentrates near $t=0^+$, while as $s\to0^+$ it samples farther into the long-time tail. <br/> If IVT conditions fail, impulses at $t=0$ dominate and the limit no longer gives an ordinary startup value. <br/> If FVT conditions fail, then RHP poles cause growth, imaginary-axis poles cause non-settling oscillation, and repeated poles at the origin cause ramp-like divergence.
-- Why must you split an improper rational $F(s)$ into a polynomial part plus a proper remainder before applying the ordinary IVT? ::@:: Because the polynomial part corresponds to impulsive terms at $t=0$ such as $\delta(t),\delta'(t),\ldots$, while the ordinary initial value theorem is meant for the nonsingular causal remainder. <br/> So write $F(s)=P(s)+F_1(s)$ and read the ordinary initial value from $f(0^+)=\lim_{s\to\infty}sF_1(s)$.
-- What does the polynomial part $P(s)=k_m s^m+\cdots+k_1 s+k_0$ represent in time domain, and why does it spoil a naive IVT calculation? ::@:: It represents $k_m\delta^{(m)}(t)+\cdots+k_1\delta'(t)+k_0\delta(t)$, which is concentrated at $t=0$. <br/> These terms do not define an ordinary finite right-hand value for $t>0$, but $sP(s)$ diverges as $s\to\infty$, so a naive limit on the full improper transform gives the wrong conclusion.
+- State the concise exact initial and final value theorems with their conditions. ::@:: Initial value theorem: $f(0^+)=\lim_{s\to\infty}sF(s)$, valid when $f$ has no impulse at $t=0$; for rational transforms, strict properness of $F(s)$ is a sufficient check. <br/> Final value theorem: $\lim_{t\to\infty}f(t)=\lim_{s\to0}sF(s)$, valid when the time limit exists and all poles of $sF(s)$ lie strictly in the open left half-plane.
+- What kernel intuition explains the conditions behind the initial and final value theorems, and what happens if those conditions are violated? ::@:: The identity $sF(s)=\int_{0}^{\infty} f\!\left(\frac{u}{s}\right)e^{-u}\,du$ shows that as $s\to\infty$, the kernel concentrates near $t=0^+$, while as $s\to0^+$ it samples farther into the long-time tail. <br/> If IVT conditions fail, impulses at $t=0$ dominate and the limit no longer gives an ordinary startup value. <br/> If FVT conditions fail, RHP poles cause growth, imaginary-axis poles cause non-settling oscillation, and repeated poles at the origin cause ramp-like divergence.
+- Why must you split an improper rational $F(s)$ into a polynomial part plus a proper remainder before applying the ordinary IVT? ::@:: Because the polynomial part corresponds to impulsive terms at $t=0$ such as $\delta(t),\delta'(t),\ldots$, while the ordinary initial value theorem is meant for the nonsingular causal remainder. <br/> Write $F(s)=P(s)+F_1(s)$ and read the ordinary initial value from $f(0^+)=\lim_{s\to\infty}sF_1(s)$.
 
 ## inverse Laplace transform by partial fractions
 
 ELEC 2100 uses three inverse-Laplace routes, with different practical roles.
 
-1. __Complex contour inversion via the Bromwich integral__: this is the definition-level method.  It uses contour integration and the residue theorem to recover $f(t)$ from $F(s)$ directly.
-2. __Partial fraction expansion + table lookup__: this is the key hand-computation technique for proper rational transforms.  It decomposes $F(s)$ into standard first-order or repeated-pole terms, then matches each term to a known time-domain pair.
-3. __Computer-aided inversion__: tools such as MATLAB can symbolically or numerically invert transforms, and are useful for checking algebra or handling higher-order expressions, but they do not replace pole/ROC reasoning.
+1. __Contour inversion via the Bromwich integral__: the definition-level method.  It uses contour integration and the residue theorem to recover $f(t)$ from $F(s)$ directly.
+2. __Partial fraction expansion + table lookup__: the main hand-computation technique for proper rational transforms.  It decomposes $F(s)$ into standard first-order or repeated-pole terms, then matches each term to a known time-domain pair.
+3. __Computer-aided inversion__: tools such as MATLAB can symbolically or numerically invert transforms, useful for checking algebra or handling higher-order expressions, but they do not replace pole/ROC reasoning.
 
-In this course, method 2 is the default computational shortcut for proper rational functions, method 1 supplies the rigorous contour justification behind residue-based inversion, and method 3 is mainly a verification or automation aid.
+In this course, method 2 is the default computational shortcut for proper rational functions, method 1 supplies the contour justification behind residue-based inversion, and method 3 is mainly a verification aid.
 
 Partial-fraction expansion applies when $F(s)$ is a __rational function__ $F(s)=\frac{N(s)}{D(s)}$.  The main prerequisite is __properness__: $\deg N<\deg D$.  If $F(s)$ is improper, first do polynomial long division:
 
@@ -363,7 +361,7 @@ $A_k=(s-p_k)F(s)\big|_{s=p_k}$.
 
 $A_r=(s-p)^rF(s)\big|_{s=p}$,
 
-and lower-order coefficients are obtained by differentiating $(s-p)^rF(s)$ and then evaluating at $s=p$.  More precisely, if the repeated-pole ladder is $\frac{A_1}{s-p}+\frac{A_2}{(s-p)^2}+\cdots+\frac{A_r}{(s-p)^r}$, then $A_{r-k}=\frac{1}{k!}\frac{d^k}{ds^k}\!\left[(s-p)^rF(s)\right]\big|_{s=p}$ for $k=0,1,\ldots,r-1$.  The case $k=0$ gives the highest-order coefficient $A_r$, one derivative gives $A_{r-1}$, and so on.  This is the practical repeated-pole version of the higher-order residue formula.
+and lower-order coefficients are obtained by differentiating $(s-p)^rF(s)$ and then evaluating at $s=p$.  Specifically, if the repeated-pole ladder is $\frac{A_1}{s-p}+\frac{A_2}{(s-p)^2}+\cdots+\frac{A_r}{(s-p)^r}$, then $A_{r-k}=\frac{1}{k!}\frac{d^k}{ds^k}\!\left[(s-p)^rF(s)\right]\big|_{s=p}$ for $k=0,1,\ldots,r-1$.  The case $k=0$ gives the highest-order coefficient $A_r$, one derivative gives $A_{r-1}$, and so on.  This is the repeated-pole version of the higher-order residue formula.
 
 The inverse-transform table then turns pole structure into time-domain modes:
 
@@ -462,7 +460,7 @@ The recurring application chain in ELEC 2100 is
 
 physical model $\to$ initial conditions and constitutive laws $\to$ $s$-domain equivalent model or transformed differential equation $\to$ algebraic solve in $s$ $\to$ response transform or transfer function $\to$ pole/stability interpretation $\to$ inverse Laplace transform.
 
-A standard pair of examples is a series RLC circuit and a coupled electromechanical DC motor.  In both cases, Laplace transform is valuable because it replaces coupled differential equations by algebraic relations while preserving the same input-output physics.
+A standard pair of examples is a series RLC circuit and a coupled electromechanical DC motor.  In both cases, Laplace transform is useful because it replaces coupled differential equations by algebraic relations while preserving the same input-output physics.
 
 ---
 
@@ -479,7 +477,7 @@ There are two mathematically equivalent starting points for dynamic-circuit anal
 1. Write the time-domain differential/integral equation first, then apply Laplace-transform properties.
 2. Draw the $s$-domain equivalent circuit directly, then write KVL/KCL there.
 
-In this course, the second route is the main practical method because it keeps the circuit structure visible.
+In this course, the second route is the main method because it keeps the circuit structure visible.
 
 To draw the $s$-domain model of a dynamic circuit, keep the same electrical topology, switch position for the $t>0$ configuration, and the same reference directions for voltage and current as in the original circuit.  Then relabel every signal by its Laplace transform and replace each source and element law by its $s$-domain counterpart.  So the $s$-domain model is not a different circuit topology; it is the same circuit skeleton, but its branches are labeled by $V(s)$, $I(s)$, and element transfer relations in $s$.
 
@@ -495,7 +493,7 @@ These formulas tell you how to draw the equivalent model.
 - An inductor becomes an impedance $Ls$ together with an explicit source term carrying the stored-current information $L i_L(0^-)$.
 - A capacitor becomes an impedance $\frac{1}{sC}$ together with an explicit source term carrying the stored-voltage information $\frac{v_C(0^-)}{s}$.
 
-If the initial state is zero, those extra source terms vanish, so the $s$-domain model becomes especially simple: the same circuit with source transforms and impedances $R$, $Ls$, and $\frac{1}{sC}$.
+If the initial state is zero, those extra source terms vanish, so the $s$-domain model simplifies: the same circuit with source transforms and impedances $R$, $Ls$, and $\frac{1}{sC}$.
 
 At the network level, the standard linear circuit theorems keep the same form:
 
@@ -504,7 +502,7 @@ At the network level, the standard linear circuit theorems keep the same form:
 
 So once the equivalent model is drawn, ordinary linear-circuit methods still work; only the quantities have moved from time-domain waveforms to algebraic functions of $s$.
 
-The practical solution workflow is therefore:
+The solution workflow is therefore:
 
 1. determine the pre-switch initial values $i_L(0^-)$ and $v_C(0^-)$ from the $t=0^-$ circuit;
 2. draw the $t>0$ $s$-domain equivalent circuit;
@@ -535,7 +533,7 @@ The damping classes are then read from the pole locations.
 - __Critically damped__: $\alpha=\omega_0$, so the poles coincide.
 - __Overdamped__: $\alpha>\omega_0$, so the poles are distinct real negatives.
 
-It is often clearer to rewrite the same denominator in the standard second-order form
+Rewriting the same denominator in the standard second-order form
 
 $s^2+2\zeta\omega_0 s+\omega_0^2$,
 
@@ -546,7 +544,7 @@ where $\zeta=\frac{\alpha}{\omega_0}$ is the damping ratio.  In that notation:
 - $\zeta=1$ gives the repeated real pole $-\omega_0$;
 - $\zeta>1$ gives two distinct real poles $-\zeta\omega_0\pm \omega_0\sqrt{\zeta^2-1}$.
 
-The important notation warning is that $\omega_d$ is __not__ the same thing as $\omega_0$.  The underdamped oscillation frequency is
+Note that $\omega_d$ is __not__ the same thing as $\omega_0$.  The underdamped oscillation frequency is
 
 $\omega_d=\omega_0\sqrt{1-\zeta^2}=\sqrt{\omega_0^2-\alpha^2}$,
 
@@ -570,7 +568,7 @@ $i(t)=\frac{E}{L(p_1-p_2)}\left(e^{p_1 t}-e^{p_2 t}\right)u(t)$.
 
 $i(t)=\frac{E}{L\omega_0}\sin(\omega_0 t)u(t)$.
 
-This is the core dynamic-circuit message of Laplace-domain circuit analysis: unilateral Laplace transform preserves initial conditions, converts the dynamic circuit into an algebraic $s$-domain circuit, and lets the pole pattern classify the response immediately.
+Unilateral Laplace transform preserves initial conditions, converts the dynamic circuit into an algebraic $s$-domain circuit, and lets the pole pattern classify the response.
 
 ---
 
@@ -580,7 +578,7 @@ Flashcards for this section are as follows:
 - How should you draw the $s$-domain model of a dynamic circuit? ::@:: Keep the same topology, the same $t>0$ switch position, and the same reference directions as the original circuit. <br/> Replace time-domain variables by $V(s), I(s)$, replace sources by their Laplace transforms, and replace each element by its $s$-domain model with any initial-condition source terms included.
 - What are the unilateral $s$-domain element models for ideal $R$, $L$, and $C$ (with initial states for reactive elements)? ::@:: $V_R(s)=RI_R(s)$, $V_L(s)=LsI_L(s)-Li_L(0^-)$, and $V_C(s)=\frac{1}{sC}I_C(s)+\frac{v_C(0^-)}{s}$.
 - Why do KCL and KVL still work in the $s$-domain? ::@:: Because Laplace transform converts linear differential and integral element laws into algebraic relations without changing the circuit topology, so the network laws keep the same form: $\sum I(s)=0$ and $\sum V(s)=0$.
-- What is the practical ELEC 2100 workflow for solving a dynamic-circuit response by Laplace transform? ::@:: Determine $i_L(0^-)$ and $v_C(0^-)$ from the $t=0^-$ circuit $\to$ draw the $t>0$ $s$-domain equivalent circuit $\to$ write algebraic KVL/KCL equations $\to$ solve for $I(s)$ or $V(s)$ $\to$ inverse-transform and interpret the pole pattern.
+- What is the ELEC 2100 workflow for solving a dynamic-circuit response by Laplace transform? ::@:: Determine $i_L(0^-)$ and $v_C(0^-)$ from the $t=0^-$ circuit $\to$ draw the $t>0$ $s$-domain equivalent circuit $\to$ write algebraic KVL/KCL equations $\to$ solve for $I(s)$ or $V(s)$ $\to$ inverse-transform and interpret the pole pattern.
 - For a zero-state series RLC driven by $E u(t)$, what is the $s$-domain KVL equation and the resulting current transform? ::@:: KVL is $\frac{E}{s}=\left(R+Ls+\frac{1}{sC}\right)I(s)$. <br/> Hence $I(s)=\frac{E}{Ls^2+Rs+\frac{1}{C}}=\frac{E/L}{s^2+\frac{R}{L}s+\frac{1}{LC}}$.
 - For the series-RLC denominator, what are $\alpha$, $\omega_0$, and poles $p_{1,2}$? ::@:: $\alpha=\frac{R}{2L}$, $\omega_0=\frac{1}{\sqrt{LC}}$, and $p_{1,2}=-\alpha\pm\sqrt{\alpha^2-\omega_0^2}$.
 - How are the four damping cases described using the damping ratio $\zeta$ in the standard denominator $s^2+2\zeta\omega_0 s+\omega_0^2$? ::@:: $\zeta=0$: undamped, poles $\pm j\omega_0$. <br/> $0<\zeta<1$: underdamped, poles $-\zeta\omega_0\pm j\omega_d$ with $\omega_d=\omega_0\sqrt{1-\zeta^2}$. <br/> $\zeta=1$: critically damped, repeated pole $-\omega_0$. <br/> $\zeta>1$: overdamped, two distinct real poles $-\zeta\omega_0\pm \omega_0\sqrt{\zeta^2-1}$.
@@ -671,7 +669,7 @@ The same mechanism gives the shifted simple-pole rule.  If the principal part of
 
 Repeated boundary poles sharpen the singular part.  If the principal part near $s=j\omega_0$ is $\sum_{m=1}^{M}\frac{a_m}{(s-j\omega_0)^m}$, then each order-$m$ term contributes $\frac{a_m}{(\sigma+j(\omega-\omega_0))^m}\to \operatorname{PV}\!\left(\frac{a_m}{[j(\omega-\omega_0)]^m}\right)+\frac{\pi a_m}{(m-1)!(-j)^{m-1}}\,\delta^{(m-1)}(\omega-\omega_0)$.  In particular, $\frac{1}{(s-j\omega_0)^2}$ produces $\operatorname{PV}\!\left(\frac{1}{[j(\omega-\omega_0)]^2}\right)+j\pi\delta'(\omega-\omega_0)$.  The derivative order rises because higher-order poles correspond in time to factors such as $t^{m-1}e^{j\omega_0 t}u(t)$, and multiplication by powers of $t$ becomes differentiation with respect to frequency, so the impulse term is differentiated too.
 
-Therefore the practical recovery rule is: first locate the imaginary axis relative to the ROC; next separate any boundary-pole principal parts; finally write the generalized Fourier transform as the ordinary $F(j\omega)$ contribution away from boundary poles, plus the principal-value limits, plus the impulse or impulse-derivative corrections generated by the imaginary-axis poles.
+Therefore the recovery rule is: first locate the imaginary axis relative to the ROC; next separate any boundary-pole principal parts; finally write the generalized Fourier transform as the ordinary $F(j\omega)$ contribution away from boundary poles, plus the principal-value limits, plus the impulse or impulse-derivative corrections generated by the imaginary-axis poles.
 
 ---
 
@@ -714,7 +712,7 @@ Residue calculation itself should also be done step by step.
 
 This makes Bromwich inversion a theorem-based version of the same pole collection used in partial fractions: contour integration sums modal contributions from the poles, while partial fractions lists those same modal terms directly.
 
-A concrete example is $F(s)=\frac{1}{s(s+1)}$, with ROC $\Re(s)>0$.  Then the Bromwich integral is $f(t)=\frac{1}{2\pi j}\int_{\sigma-j\infty}^{\sigma+j\infty}\frac{e^{st}}{s(s+1)}\,ds$, where $\sigma>0$.
+A concrete example is $F(s)=\frac{1}{s(s+1)}$, with ROC $\Re(s)>0$.  The Bromwich integral is $f(t)=\frac{1}{2\pi j}\int_{\sigma-j\infty}^{\sigma+j\infty}\frac{e^{st}}{s(s+1)}\,ds$, where $\sigma>0$.
 
 For $t>0$, close the contour to the left and let $R\to\infty$, so the arc contribution vanishes and only residues remain.  The enclosed poles are at $s=0$ and $s=-1$, both simple.
 
