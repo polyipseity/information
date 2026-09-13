@@ -176,13 +176,13 @@ Writing the Lorentz transformation and its inverse in terms of coordinate differ
 
 we get
 
-- <a id="math 3"></a> __Eq. 3:__    $\Delta x'=\gamma \ (\Delta x-v\,\Delta t)\ ,\ \ {}$ $\Delta t'=\gamma \ \left(\Delta t-v\ \Delta x/c^{2}\right)\ $.
-- <a id="math 4"></a> __Eq. 4:__    $\Delta x=\gamma \ (\Delta x'+v\,\Delta t')\ ,\ {}$ $\Delta t=\gamma \ \left(\Delta t'+v\ \Delta x'/c^{2}\right)\ $.
+- <a id="math 3"></a> __Eq. 3:__ $\Delta x'=\gamma \ (\Delta x-v\,\Delta t)\ ,\ \ {} \Delta t'=\gamma \ \left(\Delta t-v\ \Delta x/c^{2}\right)\ $.
+- <a id="math 4"></a> __Eq. 4:__ $\Delta x=\gamma \ (\Delta x'+v\,\Delta t')\ ,\ {} \Delta t=\gamma \ \left(\Delta t'+v\ \Delta x'/c^{2}\right)\ $.
 
 If we take differentials instead of taking differences, we get
 
-- <a id="math 5"></a> __Eq. 5:__    $dx'=\gamma \ (dx-v\,dt)\ ,\ \ {}$ $dt'=\gamma \ \left(dt-v\ dx/c^{2}\right)\ $.
-- <a id="math 6"></a> __Eq. 6:__    $dx=\gamma \ (dx'+v\,dt')\ ,\ {}$ $dt=\gamma \ \left(dt'+v\ dx'/c^{2}\right)\ $.
+- <a id="math 5"></a> __Eq. 5:__ $dx'=\gamma \ (dx-v\,dt)\ ,\ \ {} dt'=\gamma \ \left(dt-v\ dx/c^{2}\right)\ $.
+- <a id="math 6"></a> __Eq. 6:__ $dx=\gamma \ (dx'+v\,dt')\ ,\ {} dt=\gamma \ \left(dt'+v\ dx'/c^{2}\right)\ $.
 
 ### graphical representation of the Lorentz transformation
 
@@ -276,7 +276,7 @@ A light-clock is imagined to be a box of perfectly reflecting walls wherein a li
 
 Consider the scenario illustrated in Fig. 4-3A. Observer A holds a light-clock of length $L$ as well as an electronic timer with which she measures how long it takes a pulse to make a round trip up and down along the light-clock. Although observer A is traveling rapidly along a train, from her point of view the emission and receipt of the pulse occur at the same place, and she measures the interval using a single clock located at the precise position of these two events. For the interval between these two events, observer A finds ⁠$t_{\text{A} }=2L/c$⁠. A time interval measured using a single clock that is motionless in a particular reference frame is called a _[proper time interval](proper%20time%20interval.md)_.<sup>[\[44\]](#^ref-44)</sup>
 
-Fig. 4-3B illustrates these same two events from the standpoint of observer B, who is parked by the tracks as the train goes by at a speed of ⁠$v$⁠. Instead of making straight up-and-down motions, observer B sees the pulses moving along a zig-zag line. However, because of the postulate of the constancy of the speed of light, the speed of the pulses along these diagonal lines is the same $c$ that observer A saw for her up-and-down pulses. B measures the speed of the vertical component of these pulses as $\pm {\sqrt {c^{2}-v^{2} } }$, so that the total round-trip time of the pulses is $t_{\text{B} }=2L{\big /}{\sqrt {c^{2}-v^{2} } }={}$⁠$\textstyle t_{\text{A} }{\big /}{\sqrt {1-v^{2}/c^{2} } }$⁠. Note that for observer B, the emission and receipt of the light pulse occurred at different places, and he measured the interval using two stationary and synchronized clocks located at two different positions in his reference frame. The interval that B measured was therefore _not_ a proper time interval because he did not measure it with a single resting clock.<sup>[\[44\]](#^ref-44)</sup>
+Fig. 4-3B illustrates these same two events from the standpoint of observer B, who is parked by the tracks as the train goes by at a speed of ⁠$v$⁠. Instead of making straight up-and-down motions, observer B sees the pulses moving along a zig-zag line. However, because of the postulate of the constancy of the speed of light, the speed of the pulses along these diagonal lines is the same $c$ that observer A saw for her up-and-down pulses. B measures the speed of the vertical component of these pulses as $\pm {\sqrt {c^{2}-v^{2} } }$, so that the total round-trip time of the pulses is $t_{\text{B} }=2L{\big /}{\sqrt {c^{2}-v^{2} } }={} \textstyle t_{\text{A} }{\big /}{\sqrt {1-v^{2}/c^{2} } }$⁠⁠. Note that for observer B, the emission and receipt of the light pulse occurred at different places, and he measured the interval using two stationary and synchronized clocks located at two different positions in his reference frame. The interval that B measured was therefore _not_ a proper time interval because he did not measure it with a single resting clock.<sup>[\[44\]](#^ref-44)</sup>
 
 #### reciprocal time dilation
 
@@ -832,8 +832,8 @@ The shape of the invariant hyperbola corresponds to a path of constant proper ac
 
 1. We remember that ⁠$\beta =ct/x$⁠.
 2. Since ⁠$c^{2}t^{2}-x^{2}=s^{2}$⁠, we conclude that ⁠$\beta (ct)=ct/{\sqrt {c^{2}t^{2}-s^{2} } }$⁠.
-3. $\gamma =1/{\sqrt {1-\beta ^{2} } }=$ ${\sqrt {c^{2}t^{2}-s^{2} } }/s$
-4. From the relativistic force law, $F=dp/dt=$⁠$dpc/d(ct)=d(\beta \gamma mc^{2})/d(ct)$⁠.
+3. $\gamma =1/{\sqrt {1-\beta ^{2} } }= {\sqrt {c^{2}t^{2}-s^{2} } }/s$
+4. From the relativistic force law, $F=dp/dt= dpc/d(ct)=d(\beta \gamma mc^{2})/d(ct)$⁠⁠.
 5. Substituting $\beta (ct)$ from step 2 and the expression for $\gamma$ from step 3 yields ⁠$F=mc^{2}/s$⁠, which is a constant expression.<sup>[\[96\]](#^ref-96)</sup><sup>:&hairsp;110–113&hairsp;</sup>
 
 Fig. 7-6 illustrates a specific calculated scenario. Terence \(A\) and Stella \(B\) initially stand together 100 light hours from the origin. Stella lifts off at time 0, her spacecraft accelerating at 0.01 _c_ per hour. Every twenty hours, Terence radios updates to Stella about the situation at home \(solid green lines\). Stella receives these regular transmissions, but the increasing distance \(offset in part by time dilation\) causes her to receive Terence's communications later and later as measured on her clock, and she _never_ receives any communications from Terence after 100 hours on his clock \(dashed green lines\).<sup>[\[96\]](#^ref-96)</sup><sup>:&hairsp;110–113&hairsp;</sup>

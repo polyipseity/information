@@ -60,6 +60,38 @@ from .utils import _ZERO_WIDTH_CHARS_RE, _create_redirect_symlinks
 __all__ = ()
 
 
+def _is_transparent_wrapper_span(tag: Tag) -> bool:
+    """Return True if *tag* is a span that wraps content without rendering."""
+    if tag.name != "span":
+        return False
+    classes = frozenset(tag.get_attribute_list("class"))
+    return bool(
+        classes <= {"nowrap", "mwe-math-element-inline", "mwe-math-mathml-inline"}
+    )
+
+
+def _unwrap_inline_math_span(tag: Tag) -> Tag | None:
+    """If *tag* is a transparent span wrapping a single mwe-math-element,
+    return the inner mwe-math-element span.  Otherwise return *tag* itself.
+    """
+    if not _is_transparent_wrapper_span(tag):
+        return tag
+    # Filter out whitespace and zero-width joiners (U+2060, U+FEFF, etc.).
+    children = [
+        c
+        for c in tag.children
+        if not isinstance(c, NavigableString)
+        or c.strip().replace("\u2060", "").replace("\ufeff", "")
+    ]
+    if (
+        len(children) == 1
+        and isinstance(children[0], Tag)
+        and "mwe-math-element" in " ".join(children[0].get_attribute_list("class"))
+    ):
+        return children[0]  # type: ignore[return-value]
+    return tag
+
+
 def _merge_adjacent_math_dd(dd: Tag) -> None:
     """Merge consecutive inline math spans in a ``<dd>`` element.
 
@@ -92,12 +124,15 @@ def _merge_adjacent_math_dd(dd: Tag) -> None:
                         break  # non-whitespace text ends run
                     j += 1
                     continue
-                if isinstance(nxt, Tag) and "mwe-math-element" in " ".join(
-                    nxt.get_attribute_list("class")
-                ):
-                    run.append(nxt)
-                    j += 1
-                    continue
+                if isinstance(nxt, Tag):
+                    # Unwrap transparent spans to find the inner math element.
+                    unwrapped = _unwrap_inline_math_span(nxt)
+                    if unwrapped is not nxt and unwrapped is not None:
+                        nxt = unwrapped
+                    if "mwe-math-element" in " ".join(nxt.get_attribute_list("class")):
+                        run.append(nxt)
+                        j += 1
+                        continue
                 break
             if len(run) < 2:
                 i = j
@@ -795,8 +830,8 @@ def _preprocess_html(soup: BeautifulSoup | Tag) -> None:
     # 3. Merge adjacent numblk tables into one multi-row table.
     _merge_adjacent_numblk_tables(soup)
 
-    # 4. Merge consecutive inline math spans in <dd>/<dt> elements.
-    for dd in soup.find_all(["dd", "dt"]):
+    # 4. Merge consecutive inline math spans in <dd>/<dt>/<p>/<li> elements.
+    for dd in soup.find_all(["dd", "dt", "p", "li"]):
         _merge_adjacent_math_dd(dd)
 
     # 5. Normalize external math punctuation: absorb trailing
