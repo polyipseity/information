@@ -31,6 +31,164 @@ _BOLD_FONT_STYLE_REGEX = re.compile(r"\bfont-weight\s*:\s*bold\b", re.IGNORECASE
 _CONSECUTIVE_NEWLINES_REGEX = re.compile(r"\n\n+")
 """Replace leading whitespace with non-breaking spaces."""
 _CONSECUTIVE_LEADING_WHITESPACES_REGEX = re.compile(r"(?:^|\n)([ \t]+)", re.MULTILINE)
+"""Tags that can form an equation-box title."""
+_EQUATION_BOX_TITLE_TAGS = frozenset({"b", "strong", "i", "em", "span"})
+"""Block-level tags that separate an equation-box title from its body."""
+_EQUATION_BOX_BODY_BLOCK_TAGS = frozenset(
+    {"p", "div", "table", "ul", "ol", "dl", "blockquote", "pre", "figure"}
+)
+
+
+def _set_text_align(cell: Tag, align: str) -> None:
+    """Append ``text-align`` to *cell*'s style unless it already declares one."""
+    style = str(cell.get("style", ""))
+    if _TEXT_ALIGN_REGEX.search(style):
+        return
+    cell["style"] = f"{style}text-align: {align};"
+
+
+def _strip_cell_bold(cell: Tag) -> None:
+    """Remove ``font-weight: bold`` from *cell*'s style.
+
+    Wikipedia equation-number cells are bolded at the cell level *and* on the
+    inner reference span; the cell-level bold is redundant and would otherwise
+    double-wrap the number as ``____N____``. Drop it so only the span's bold
+    survives. The style attribute is removed entirely when emptied.
+    """
+    style = str(cell.get("style", ""))
+    stripped = _BOLD_FONT_STYLE_REGEX.sub("", style).strip().rstrip(";").strip()
+    if stripped:
+        cell["style"] = stripped
+    else:
+        cell.attrs.pop("style", None)
+
+
+def _rewrite_equation_number_cell(cell: Tag, *, anchor_id: str | None = None) -> None:
+    """Rewrite an equation-number cell to produce ``__\\([N](#math%20N)\\)__``.
+
+    The cell contains a self-link ``<a href=./Page#math_N>N</a>``.
+    This method rewrites it to a bold, fragment-only link wrapped in
+    escaped parentheses, matching the expected Wikipedia equation
+    reference format.
+
+    When *anchor_id* is provided, an ``<a id="...">`` tag is
+    prepended inside the cell so prose links to the equation resolve.
+    """
+    link = cell.find("a", href=True)
+    if not isinstance(link, Tag):
+        return
+    href = str(link.get("href", ""))
+    if "#" not in href:
+        return
+    frag = href.split("#", 1)[1]
+    if not re.fullmatch(r"math[_.].+", frag):
+        return
+    # Normalize: math_7 -> math%207
+    norm_frag = frag.replace("_", "%20")
+    text = link.get_text(strip=True)
+    # Clear the cell and rebuild: __\([text](#norm_frag)\)__
+    cell.clear()
+    if anchor_id:
+        anchor = cell.new_tag("a", attrs={"id": anchor_id})
+        cell.append(anchor)
+        cell.append(NavigableString("\xa0"))
+    bold = cell.new_tag("b")
+    open_paren = cell.new_string("(")
+    new_link = cell.new_tag("a", href=f"#{norm_frag}")
+    new_link.string = text
+    close_paren = cell.new_string(")")
+    bold.append(open_paren)
+    bold.append(new_link)
+    bold.append(close_paren)
+    cell.append(bold)
+
+
+def _rewrite_table_equation_cells(table: Tag) -> None:
+    """Rewrite equation-number cells in any table to ``__\\([N](#math%20N)\\)__``.
+
+    Scans all ``<td>`` elements for a single self-link to an equation
+    anchor and rewrites it to bold, fragment-only link with escaped
+    parentheses.
+    """
+    for td in table.find_all("td"):
+        children = [
+            c
+            for c in td.children
+            if not isinstance(c, NavigableString) or str(c).strip()
+        ]
+        if len(children) != 1 or not isinstance(children[0], Tag):
+            continue
+        link = children[0]
+        if link.name != "a" or "mw-selflink-fragment" not in (link.get("class") or []):
+            continue
+        href = str(link.get("href", ""))
+        if "#" not in href:
+            continue
+        frag = href.split("#", 1)[1]
+        if not re.fullmatch(r"math[_.].+", frag):
+            continue
+        norm_frag = frag.replace("_", "%20")
+        text = link.get_text(strip=True)
+        td.clear()
+        bold = td.new_tag("b")
+        open_paren = td.new_string("(")
+        new_link = td.new_tag("a", href=f"#{norm_frag}")
+        new_link.string = text
+        close_paren = td.new_string(")")
+        bold.append(open_paren)
+        bold.append(new_link)
+        bold.append(close_paren)
+        td.append(bold)
+
+
+def _find_box_title(
+    ele: Tag, *, has_numblk: bool
+) -> list[Tag | NavigableString] | None:
+    """Detect the leading title of a box div without extracting it.
+
+    The title is the run of leading inline nodes (bare text and inline
+    tags such as ``<b>``/``<strong>``) before the first block-level
+    body element (e.g. ``<p>``) or numblk table.  This captures a title
+    followed by a trailing parenthetical text run, e.g.
+    ``<b>Routhian</b> (n + s degrees of freedom)``, so the whole run can
+    be merged into the header cell.  Returns None when the box has no
+    distinct title (e.g. pure equation content).
+    """
+    title_nodes: list[Tag | NavigableString] = []
+    for child in list(ele.children):
+        if isinstance(child, NavigableString):
+            if not child.strip():
+                continue
+            if not has_numblk and not any(
+                isinstance(sib, Tag) and sib.name in _EQUATION_BOX_BODY_BLOCK_TAGS
+                for sib in ele.children
+            ):
+                return None
+            title_nodes.append(child)
+            continue
+        if isinstance(child, Tag) and child.name in _EQUATION_BOX_TITLE_TAGS:
+            title_nodes.append(child)
+            continue
+        return title_nodes if title_nodes else None
+    return title_nodes if title_nodes else None
+
+
+def _equation_box_title(ele: Tag, *, has_numblk: bool) -> list[Tag | NavigableString]:
+    """Extract the leading title of an equation-box div.
+
+    The title is the run of leading inline nodes (bare text and inline
+    tags such as ``<b>``/``<strong>``) before the first block-level
+    body element or numblk table.  The title nodes are removed from
+    *ele* so the remaining children form the body.  Returns an empty
+    list when the box has no distinct title (e.g. pure equation
+    content).
+    """
+    title = _find_box_title(ele, has_numblk=has_numblk)
+    if title is None:
+        return []
+    for node in title:
+        node.extract()
+    return title
 
 
 class TableConverter:
@@ -1143,6 +1301,166 @@ class TableConverter:
         if leading_break:
             strings = f" <br/> {strings}" if strings else "<br/>"
         return strings
+
+    # -- Equation-box handling --
+
+    @classmethod
+    def handle_equation_box(
+        cls,
+        ele: Tag,
+        soup: Tag,
+        names_map: Mapping[str, str] | None = None,
+    ) -> _HandlerConfig | None:
+        """Handle a ``div.equation-box`` by converting it to a table.
+
+        Extracts the title, integrates the numblk table (if present),
+        and replaces the div's children with a new ``<table>`` that the
+        converter renders as a Markdown table.
+
+        Returns ``None`` after mutating *ele* in place (the converter
+        dispatches the replacement table normally).
+        """
+        numblk = ele.find("table", class_="numblk")
+        title = _equation_box_title(ele, has_numblk=numblk is not None)
+
+        # No title and no numbering: nothing to table-ify -> plain block.
+        if not title and numblk is None:
+            return _HandlerConfig()
+
+        # The box's declared alignment, inherited by all its cells.
+        align = ""
+        if m := _TEXT_ALIGN_REGEX.search(str(ele.get("style", ""))):
+            align = m[1]
+
+        # Remove spacer columns (width=0px <td>) from numblk rows.
+        if numblk is not None:
+            for tdh in tuple(numblk.find_all(_TD_OR_TH)):
+                style = str(tdh.get("style", ""))
+                if re.search(r"width\s*:\s*0", style, re.IGNORECASE):
+                    tdh.decompose()
+
+        # Build a new table whose cells carry the box's alignment; the
+        # TableConverter derives alignment markers from these cells.
+        new_table = soup.new_tag("table")
+        tbody = soup.new_tag("tbody")
+        new_table.append(tbody)
+
+        # Header row: title in <th>; equation-number <th> only when a
+        # numblk table (numbering) is present.
+        header_row = soup.new_tag("tr")
+        th1 = soup.new_tag("th")
+        if align:
+            _set_text_align(th1, align)
+        # ``title`` is the list of leading inline nodes (e.g. ``<b>`` plus a
+        # trailing parenthetical text run).  Append each so inline formatting
+        # and the parenthetical are preserved in the header cell.
+        for _title_node in title:
+            th1.append(_title_node)
+        header_row.append(th1)
+        if numblk is not None:
+            th2 = soup.new_tag("th")
+            if align:
+                _set_text_align(th2, align)
+            header_row.append(th2)
+        tbody.append(header_row)
+
+        if numblk is not None:
+            # Append cleaned numblk rows, propagating the box's alignment
+            # onto cells that do not declare their own.
+            for tr in numblk.find_all("tr"):
+                new_tr = copy(tr)
+                if align:
+                    for cell in new_tr.find_all(_TD_OR_TH):
+                        _set_text_align(cell, align)
+                # The equation-number cell is the last cell. Wikipedia bolds
+                # it *and* its inner reference span; drop the redundant
+                # cell-level bold so the number renders as a single
+                # ``__N__`` rather than ``____N____``.
+                if cells := tuple(new_tr.find_all(_TD_OR_TH)):
+                    _strip_cell_bold(cells[-1])
+                    # Rewrite the equation-number cell to produce
+                    # ``__\([N](#math%20N)\)__``: bold, fragment-only link,
+                    # wrapped in escaped parentheses.
+                    _rewrite_equation_number_cell(cells[-1])
+                tbody.append(new_tr)
+        else:
+            # No numblk table: place the remaining content in a single
+            # body cell (no empty equation-number column).
+            body_row = soup.new_tag("tr")
+            body_cell = soup.new_tag("td")
+            if align:
+                _set_text_align(body_cell, align)
+            for child in list(ele.children):
+                body_cell.append(copy(child))
+            body_row.append(body_cell)
+            tbody.append(body_row)
+
+        # Replace div children with the new table.
+        ele.clear()
+        ele.append(new_table)
+
+        return None
+
+    @classmethod
+    def handle_standalone_numblk(
+        cls,
+        ele: Tag,
+        soup: Tag,
+        names_map: Mapping[str, str] | None = None,
+    ) -> _HandlerConfig | None:
+        """Handle a standalone ``<table class="numblk">`` outside an equation-box.
+
+        Builds a two-column equation table: an empty header row plus an
+        alignment marker row, so its equation/number body row aligns like
+        a numblk nested inside an equation-box div.
+        """
+        align = ""
+        box = ele.find_previous("div", class_="equation-box")
+        if isinstance(box, Tag) and (
+            m := _TEXT_ALIGN_REGEX.search(str(box.get("style", "")))
+        ):
+            align = m[1]
+
+        # Drop empty spacer cells (no text and no explicit width:0px style).
+        for tdh in tuple(ele.find_all(_TD_OR_TH)):
+            if not tdh.get_text(strip=True) and not re.search(
+                r"width\s*:\s*0", str(tdh.get("style", "")), re.IGNORECASE
+            ):
+                tdh.decompose()
+
+        tbody = ele.find("tbody") or ele
+        header_row = soup.new_tag("tr")
+        th1 = soup.new_tag("th")
+        th2 = soup.new_tag("th")
+        if align:
+            _set_text_align(th1, align)
+            _set_text_align(th2, align)
+        header_row.append(th1)
+        header_row.append(th2)
+        tbody.insert(0, header_row)
+
+        if align:
+            for tr in tbody.find_all("tr"):
+                if tr is header_row:
+                    continue
+                for cell in tr.find_all(_TD_OR_TH):
+                    _set_text_align(cell, align)
+                if cells := tuple(tr.find_all(_TD_OR_TH)):
+                    _strip_cell_bold(cells[-1])
+        # Rewrite equation-number cells regardless of alignment,
+        # prepending an <a id> anchor derived from the originating
+        # table id so prose links like #math%20N resolve correctly.
+        default_origin = str(ele.get("id", "")) if ele.get("id") else None
+        for tr in tbody.find_all("tr"):
+            if tr is header_row:
+                continue
+            if cells := tuple(tr.find_all(_TD_OR_TH)):
+                raw = tr.get("data-origin-id")
+                origin = str(raw) if raw else default_origin
+                anchor = origin.replace("_", " ") if origin else None
+                _rewrite_equation_number_cell(cells[-1], anchor_id=anchor)
+
+        return cls.handle_table(ele, frozenset(), soup)
 
 
 """Exported names from this module."""
