@@ -245,6 +245,30 @@ class WikiHtmlConverter:
         Language-specific subdirectory for converted notes.
     """
 
+    _SIMPLE_TAG_HANDLERS: dict[str, str] = {
+        "big": "_handle_big",
+        "br": "_handle_br",
+        "cite": "_handle_cite",
+        "code": "_handle_code",
+        "div": "_handle_div",
+        "dl": "_handle_dl",
+        "figcaption": "_handle_figcaption",
+        "math": "_handle_math",
+        "p": "_handle_p",
+        "s": "_handle_s",
+        "span": "_handle_span",
+        "sub": "_handle_sub",
+        "sup": "_handle_sup",
+        "table": "_handle_table",
+        "tbody": "_handle_tbody",
+        "td": "_handle_td",
+        "th": "_handle_th",
+        "thead": "_handle_thead",
+        "tr": "_handle_tr",
+        "u": "_handle_u",
+        "video": "_handle_video",
+    }
+
     def __init__(
         self,
         *,
@@ -617,12 +641,10 @@ class WikiHtmlConverter:
         if ele.name == "li":
             return self._handle_li(ele, classes, list_stack)
 
-        if ele.name == "video":
-            return self._handle_video(ele, classes)
-
-        handler = getattr(self, f"_handle_{ele.name}", None)
-        if handler is not None:
-            return handler(ele, classes)
+        # Simple tag dispatch via registry (no extra params, no class gates).
+        handler_name = self._SIMPLE_TAG_HANDLERS.get(ele.name)
+        if handler_name is not None:
+            return getattr(self, handler_name)(ele, classes)
 
         return None
 
