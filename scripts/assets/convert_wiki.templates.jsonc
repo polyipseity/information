@@ -1,13 +1,24 @@
 {
   // Box-like classes whose content renders specially.
   "boxed_classes": [
-    "catlinks", "equation-box", "math_proof", "math_theorem",
-    "portalbox", "quotebox", "tmulti", "unsolved"
+    "catlinks",
+    "equation-box",
+    "math_proof",
+    "math_theorem",
+    "portalbox",
+    "quotebox",
+    "tmulti",
+    "unsolved",
   ],
   // Span classes whose handler emits markers, media, or block spacing.
   "opaque_span_classes_extra": [
-    "hatnote", "mw-tmh-play", "navbar", "oo-ui-buttonElement-button",
-    "sidebar-navbar", "sistersitebox", "thumb"
+    "hatnote",
+    "mw-tmh-play",
+    "navbar",
+    "oo-ui-buttonElement-button",
+    "sidebar-navbar",
+    "sistersitebox",
+    "thumb",
   ],
   // Tags whose handler emits a media link or embed instead of text.
   "media_tags": ["audio", "video"],
@@ -15,21 +26,72 @@
   "atomic_tags": ["br", "hr", "img"],
   // Block-level tags whose edges separate blocks.
   "block_tags": [
-    "address", "article", "aside", "blockquote", "br", "caption",
-    "colgroup", "dd", "details", "dialog", "div", "dl", "dt",
-    "fieldset", "figcaption", "figure", "footer", "form", "h1",
-    "h2", "h3", "h4", "h5", "h6", "header", "hgroup", "hr", "li",
-    "main", "menu", "nav", "ol", "optgroup", "option", "p", "pre",
-    "search", "section", "summary", "table", "tbody", "td", "tfoot",
-    "th", "thead", "tr", "ul"
+    "address",
+    "article",
+    "aside",
+    "blockquote",
+    "br",
+    "caption",
+    "colgroup",
+    "dd",
+    "details",
+    "dialog",
+    "div",
+    "dl",
+    "dt",
+    "fieldset",
+    "figcaption",
+    "figure",
+    "footer",
+    "form",
+    "h1",
+    "h2",
+    "h3",
+    "h4",
+    "h5",
+    "h6",
+    "header",
+    "hgroup",
+    "hr",
+    "li",
+    "main",
+    "menu",
+    "nav",
+    "ol",
+    "optgroup",
+    "option",
+    "p",
+    "pre",
+    "search",
+    "section",
+    "summary",
+    "table",
+    "tbody",
+    "td",
+    "tfoot",
+    "th",
+    "thead",
+    "tr",
+    "ul",
   ],
   // Display math containers (shared between converter and pipeline).
   "display_math_containers": ["dd", "dt"],
   // LaTeX display math environments whose trailing punct belongs on the last row.
   "display_math_environments": [
-    "aligned", "align", "align*", "gather", "gather*",
-    "multline", "split", "cases", "array", "matrix",
-    "pmatrix", "bmatrix", "vmatrix", "Bmatrix"
+    "aligned",
+    "align",
+    "align*",
+    "gather",
+    "gather*",
+    "multline",
+    "split",
+    "cases",
+    "array",
+    "matrix",
+    "pmatrix",
+    "bmatrix",
+    "vmatrix",
+    "Bmatrix",
   ],
   // CSS classes that trigger inline-list rendering (list items joined on one line).
   "inline_list_classes": ["portalbox"],
@@ -37,27 +99,27 @@
   "navbox": {
     "column_layout": {
       "linear_indices": [0, 2, 3, 4],
-      "angular_indices": [5, 6, 7, 8]
+      "angular_indices": [5, 6, 7, 8],
     },
     "title_style_pattern": "font-size:114%",
     "min_inner_table_rows": 3,
     "required_outer_classes": ["navbox-inner"],
-    "required_tr_count": 2
+    "required_tr_count": 2,
   },
   // Sidebar wrap rules and caption classes.
   "sidebar": {
     "trigger_classes": ["sidebar", "cm-sidebar"],
     "wrap_rules": [
-      {"class": "sidebar-heading", "tag": "b", "scope": "li"},
-      {"class": "sidebar-below", "tag": "b", "scope": "li"},
-      {"class": "sidebar-list-title-c", "tag": "b", "scope": "children"}
+      { "class": "sidebar-heading", "tag": "b", "scope": "li" },
+      { "class": "sidebar-below", "tag": "b", "scope": "li" },
+      { "class": "sidebar-list-title-c", "tag": "b", "scope": "children" },
     ],
     "caption_class": "sidebar-caption",
-    "caption_tag": "i"
+    "caption_tag": "i",
   },
   // Infobox caption row transformation rules.
   "infobox_captions": [
-    {"cell_tag": "th", "cell_class": "infobox-above", "wrap_tag": "b"},
-    {"cell_tag": "td", "cell_class": "infobox-image", "wrap_tag": null}
-  ]
+    { "cell_tag": "th", "cell_class": "infobox-above", "wrap_tag": "b" },
+    { "cell_tag": "td", "cell_class": "infobox-image", "wrap_tag": null },
+  ],
 }
