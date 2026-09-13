@@ -244,6 +244,11 @@ _DISPLAY_MATH_ENVIRONMENTS: tuple[str, ...] = (
 )
 
 
+def _escape_markdown(text: str) -> str:
+    """Escape Markdown special characters in text."""
+    return _cfg._MARKDOWN_ESCAPE_REGEX.sub(lambda match: Rf"\{match[0]}", text)
+
+
 def _wrap_bare_url(text: str) -> str:
     """Wrap a bare URL in autolink brackets (e.g. ``www.example.com`` → ``<www.example.com>``)."""
     if _BARE_URL_REGEX.fullmatch(text):
@@ -316,6 +321,84 @@ class WikiHtmlConverter:
         self._page_name = page_name
         self._pending_redirects: list[tuple[str, str]] = []
 
+    def _convert_text_node(
+        self,
+        ele: NavigableString,
+        *,
+        escape: bool,
+        refs: bool,
+    ) -> str:
+        """Convert a NavigableString text node to Markdown.
+
+        Applies the formatting-agnostic principle: interior formatting
+        whitespace is normalized to a single space.  Structural whitespace
+        (from ``<br>``, ``<p>``, etc.) is injected by tag handler configs.
+
+        Returns the rendered text, or an empty string for whitespace-only
+        nodes that carry no separation value.
+        """
+        if isinstance(ele, PreformattedString) or isinstance(ele.parent, BeautifulSoup):
+            return ""
+        text = str(ele)
+        # See the formatting-agnostic principle documented above.
+        text = text.translate(str.maketrans({c: " " for c in "\t\n\r\x0b\x0c"}))
+        text = _COLLAPSE_SPACES_REGEX.sub(" ", text)
+        core = text.strip(" ")
+        if not core:
+            # Preserve a single space between two adjacent inline
+            # tokens that would otherwise merge: two emphasis elements
+            # (``<b>M</b> <b>L</b>`` → ``__M__ __L__``), two links
+            # (``[a](x) [b](y)`` → ``[a](x)[b](y)`` if dropped), or two
+            # plain-text runs (``Physics<span> </span>portal`` → the
+            # space is the only separation).  The space separates two
+            # distinct tokens and must survive whitespace collapsing.
+            # Whether two neighbours run together is decided from the
+            # character at each rendered edge, not from which tags happen
+            # to sit either side.  Math fragments wrapped in a ``texhtml``
+            # span (e.g. ``<i>m</i> <i>x</i>``) are an exception:
+            # adjacent variables are conventionally tight.
+            #
+            # The decision uses *rendered* adjacency, not raw siblings:
+            # ``_handle_span`` flattens transparent spans, so a
+            # whitespace run at a span edge has no direct sibling yet
+            # still separates two rendered tokens.  Markup that renders
+            # nothing — an empty ``<span>``, or the ``<link>`` elements
+            # Parsoid leaves between citations — is stepped over rather
+            # than mistaken for the neighbour.
+            if self._whitespace_run_renders(
+                ele, following=False, refs=refs
+            ) and self._whitespace_run_renders(ele, following=True, refs=refs):
+                return " "
+            if (
+                self._in_texhtml(ele)
+                and isinstance(raw_prev := ele.previous_sibling, Tag)
+                and isinstance(raw_nxt := ele.next_sibling, Tag)
+                and self._is_inline_emphasis(raw_prev)
+                and self._is_inline_emphasis(raw_nxt)
+            ):
+                return _cfg._MARKDOWN_SEPARATOR
+            return ""
+        # A run glued to the text is dropped only at a block boundary,
+        # because the block supplies its own newline.  Between two inline
+        # tokens the run is the separation they need, and it survives even
+        # when the neighbour also ends in whitespace: the two runs are
+        # resolved together, so dropping both would merge the tokens
+        # (``<span>kg </span> m`` must not become ``kgm``).
+        prefix = (
+            " "
+            if text.startswith(" ")
+            and not self._meets_block_boundary(ele, following=False, refs=refs)
+            else ""
+        )
+        suffix = (
+            " "
+            if text.endswith(" ")
+            and not self._meets_block_boundary(ele, following=True, refs=refs)
+            else ""
+        )
+        rendered = f"{prefix}{core}{suffix}"
+        return _escape_markdown(rendered) if escape else rendered
+
     async def convert(
         self,
         ele: PageElement,
@@ -345,75 +428,9 @@ class WikiHtmlConverter:
         # process_strings callbacks downstream only react to structural
         # newlines guarantees this property.
 
-        def escape_markdown(text: str) -> str:
-            """Escape Markdown special characters in text."""
-            return _cfg._MARKDOWN_ESCAPE_REGEX.sub(lambda match: Rf"\{match[0]}", text)
-
         if not isinstance(ele, Tag):
-            if (
-                isinstance(ele, NavigableString)
-                and not isinstance(ele, PreformattedString)
-                and not isinstance(ele.parent, BeautifulSoup)
-            ):
-                text = str(ele)
-                # See the formatting-agnostic principle documented above.
-                text = text.translate(str.maketrans({c: " " for c in "\t\n\r\x0b\x0c"}))
-                text = _COLLAPSE_SPACES_REGEX.sub(" ", text)
-                core = text.strip(" ")
-                if not core:
-                    # Preserve a single space between two adjacent inline
-                    # tokens that would otherwise merge: two emphasis elements
-                    # (``<b>M</b> <b>L</b>`` → ``__M__ __L__``), two links
-                    # (``[a](x) [b](y)`` → ``[a](x)[b](y)`` if dropped), or two
-                    # plain-text runs (``Physics<span> </span>portal`` → the
-                    # space is the only separation).  The space separates two
-                    # distinct tokens and must survive whitespace collapsing.
-                    # Whether two neighbours run together is decided from the
-                    # character at each rendered edge, not from which tags happen
-                    # to sit either side.  Math fragments wrapped in a ``texhtml``
-                    # span (e.g. ``<i>m</i> <i>x</i>``) are an exception:
-                    # adjacent variables are conventionally tight.
-                    #
-                    # The decision uses *rendered* adjacency, not raw siblings:
-                    # ``_handle_span`` flattens transparent spans, so a
-                    # whitespace run at a span edge has no direct sibling yet
-                    # still separates two rendered tokens.  Markup that renders
-                    # nothing — an empty ``<span>``, or the ``<link>`` elements
-                    # Parsoid leaves between citations — is stepped over rather
-                    # than mistaken for the neighbour.
-                    if self._whitespace_run_renders(
-                        ele, following=False, refs=refs
-                    ) and self._whitespace_run_renders(ele, following=True, refs=refs):
-                        return " "
-                    if (
-                        self._in_texhtml(ele)
-                        and isinstance(raw_prev := ele.previous_sibling, Tag)
-                        and isinstance(raw_nxt := ele.next_sibling, Tag)
-                        and self._is_inline_emphasis(raw_prev)
-                        and self._is_inline_emphasis(raw_nxt)
-                    ):
-                        return _cfg._MARKDOWN_SEPARATOR
-                    return ""
-                # A run glued to the text is dropped only at a block boundary,
-                # because the block supplies its own newline.  Between two inline
-                # tokens the run is the separation they need, and it survives even
-                # when the neighbour also ends in whitespace: the two runs are
-                # resolved together, so dropping both would merge the tokens
-                # (``<span>kg </span> m`` must not become ``kgm``).
-                prefix = (
-                    " "
-                    if text.startswith(" ")
-                    and not self._meets_block_boundary(ele, following=False, refs=refs)
-                    else ""
-                )
-                suffix = (
-                    " "
-                    if text.endswith(" ")
-                    and not self._meets_block_boundary(ele, following=True, refs=refs)
-                    else ""
-                )
-                rendered = f"{prefix}{core}{suffix}"
-                return escape_markdown(rendered) if escape else rendered
+            if isinstance(ele, NavigableString):
+                return self._convert_text_node(ele, escape=escape, refs=refs)
             return ""
 
         classes = frozenset(ele.get_attribute_list("class"))
@@ -430,7 +447,7 @@ class WikiHtmlConverter:
                 else:
                     fragment = f"^ref-{ref_content}"
                 return (
-                    f"<sup>[{escape_markdown(f'[{ref_content}]')}]"
+                    f"<sup>[{_escape_markdown(f'[{ref_content}]')}]"
                     f"({_markdown_fragment(fragment)})</sup>"
                 )
 
