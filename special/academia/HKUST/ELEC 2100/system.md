@@ -23,9 +23,9 @@ tags:
 
 ---
 
-A system maps an input signal to an output signal. In ELEC 2100, this input-output viewpoint connects raw signal descriptions to later transform-based analysis of linear time-invariant systems.
+A system maps an input signal to an output signal. This input-output viewpoint connects raw signal descriptions to later transform-based analysis of linear time-invariant systems.
 
-This note collects the general systems vocabulary: what a system is, how it is modeled, what the main properties mean, and how engineers classify systems before committing to one solution method. The response mechanics live in companion notes: `continuous-time LTI system.md` for continuous-time response analysis, `discrete-time LTI system.md` for the sample-by-sample analogue, and `convolution.md` for the zero-state response machinery.
+This note covers general systems vocabulary: what a system is, how it is modeled, what properties mean, and how engineers classify systems before choosing a solution method. The response mechanics live in companion notes: `continuous-time LTI system.md` for continuous-time response analysis, `discrete-time LTI system.md` for the sample-by-sample analogue, and `convolution.md` for zero-state response machinery.
 
 ---
 
@@ -36,33 +36,33 @@ Flashcards for this section are as follows:
 
 ## system meaning and communication context
 
-A system is an integrated entity whose interacting components perform a stable function together. In this note, $e(t)$ denotes excitation and $r(t)$ denotes response. The central question is what the system does to the input signal: whether it amplifies, filters, delays, distorts, or otherwise transforms it.
+A system is an integrated entity whose interacting components perform a stable function together. In this note, $e(t)$ denotes excitation and $r(t)$ denotes response. The central question is what the system does to the input signal: whether it amplifies, filters, delays, distorts, or transforms it.
 
-This viewpoint comes from communication and signal-processing examples. A communication chain contains devices such as transmitters, channels, and receivers, each acting as a system on the signal it receives. Useful information is carried by signals and shaped by systems at every stage of the chain.
+This viewpoint comes from communication and signal-processing examples. A communication chain contains devices such as transmitters, channels, and receivers, each acting as a system on the signal it receives. Information is carried by signals and shaped by systems at every stage.
 
-Concrete examples drive the point home. Samuel Morse's 1844 telegraph transmission _What hath God wrought!_ and Alexander Graham Bell's 1876 telephone transmission _Mr. Watson, come here, I want to see you._ show that systems are real engineered mechanisms for encoding, carrying, and recovering messages. The later survey of fiber-optic links, digital microwave links, satellite communication, cable systems, and mobile communication makes the same point at larger scale.
+Concrete examples drive the point home. Samuel Morse's 1844 telegraph transmission _What hath God wrought!_ and Alexander Graham Bell's 1876 telephone transmission _Mr. Watson, come here, I want to see you._ show that systems are engineered mechanisms for encoding, carrying, and recovering messages. Fiber-optic links, digital microwave links, satellite communication, cable systems, and mobile communication make the same point at larger scale.
 
-The mobile-generation timeline also motivates the systems perspective. The progression runs from 1G analog systems in the 1980s through 2G and 2.5G systems in the 1990s, 3G systems around 2000, 4G systems around 2010, and 5G systems from about 2019 onward, with 6G named as the next horizon. The engineering targets for modern systems are high speed, wide bandwidth, high reliability, and low latency, which explains why better signal models and better system-analysis tools matter in practice.
+The mobile-generation timeline also motivates the systems perspective. The progression runs from 1G analog systems in the 1980s through 2G and 2.5G systems in the 1990s, 3G systems around 2000, 4G systems around 2010, and 5G systems from about 2019 onward, with 6G as the next horizon. Modern systems target high speed, wide bandwidth, high reliability, and low latency, which explains why better signal models and system-analysis tools matter in practice.
 
-It is useful to distinguish signal theory from system theory. Signal theory studies the signals themselves; system theory studies how systems act on them. System analysis asks for the output produced by a given system, whereas system synthesis asks how to design a system that achieves a desired behavior.
+Signal theory studies the signals themselves; system theory studies how systems act on them. System analysis asks for the output produced by a given system, whereas system synthesis designs a system to achieve a desired behavior.
 
 ---
 
 Flashcards for this section are as follows:
 
-- What do $e(t)$ and $r(t)$ denote in this systems notation? ::@:: $e(t)$ denotes excitation or input, and $r(t)$ denotes response or output.
-- Why do communication examples belong in a systems topic? ::@:: They show that information is carried by signals and shaped by systems at every stage of a transmission chain.
+- What do $e(t)$ and $r(t)$ denote? ::@:: $e(t)$ denotes excitation (input), and $r(t)$ denotes response (output).
+- Why do communication examples belong in a systems topic? ::@:: They show information is carried by signals and shaped by systems at every stage of a transmission chain.
 - What historical examples make the communication-systems viewpoint concrete? ::@:: Morse's 1844 telegraph transmission and Bell's 1876 telephone transmission show that systems are engineered mechanisms for carrying messages.
-- What is the difference between signal theory and system theory? ::@:: Signal theory studies the signals themselves; system theory studies how systems act on signals.
+- What is the difference between signal theory and system theory? ::@:: Signal theory studies signals themselves; system theory studies how systems act on signals.
 - What is the difference between system analysis and system synthesis? ::@:: System analysis asks for the output of a given system; system synthesis designs a system to achieve desired behavior.
 
 ## continuous-time, discrete-time, and mathematical models
 
 A continuous-time system acts on signals such as $x(t)$ and produces outputs such as $r(t)=H[e(t)]$. A discrete-time system acts on sequences such as $x[n]$ and produces outputs such as $y[n]=H[x[n]]$. In both cases the system is an operator acting on a signal, not just a formula in one variable.
 
-The lecture emphasizes several common mathematical descriptions. Continuous-time systems are often modeled by differential equations. Discrete-time systems are often modeled by difference equations. Block diagrams and signal-flow diagrams provide another representation by showing how elementary operations are interconnected.
+Continuous-time systems are often modeled by differential equations. Discrete-time systems are often modeled by difference equations. Block diagrams and signal-flow diagrams show how elementary operations are interconnected.
 
-These descriptions are the first step toward analysis. Once a mathematical model is written, one can ask how to compute the response under given excitation and initial conditions, and later how to interpret that response physically.
+Once a mathematical model is written, one can compute the response under given excitation and initial conditions, and later interpret that response physically.
 
 ---
 
@@ -70,15 +70,14 @@ Flashcards for this section are as follows:
 
 - What is a continuous-time system in operator form? ::@:: A system acting on signals such as $e(t)$, giving outputs such as $r(t)=H[e(t)]$.
 - What is a discrete-time system in operator form? ::@:: A system acting on sequences such as $x[n]$, giving outputs such as $y[n]=H[x[n]]$.
-- What is the standard mathematical model for many continuous-time systems? ::@:: A differential equation.
-- What is the standard mathematical model for many discrete-time systems? ::@:: A difference equation.
+- What are the standard mathematical models for continuous-time and discrete-time systems? ::@:: Differential equations for continuous-time, difference equations for discrete-time.
 - What do block diagrams contribute beyond equations? ::@:: They show the structural interconnection of elementary operations inside the system.
 
 ## memoryless, dynamic, lumped, and distributed systems
 
-A useful first classification separates two questions that beginners often mix together. Memoryless versus dynamic asks whether the output at one instant depends only on the input at that same instant or also on values from other times. Lumped versus distributed asks whether the model depends only on time or on both time and space.
+The first classification separates two questions that beginners often mix together. Memoryless versus dynamic asks whether the output at one instant depends only on the input at that same instant or also on values from other times. Lumped versus distributed asks whether the model depends only on time or on both time and space.
 
-Test properties one at a time rather than by a vague overall impression. The checklist: Does the rule use only the present value? Does it ask for future input? Does it preserve superposition? Does a shift at the input become the same shift at the output? Does bounded input stay bounded? Can the input be uniquely recovered?
+Test properties one at a time. The checklist: Does the rule use only the present value? Does it ask for future input? Does it preserve superposition? Does a shift at the input become the same shift at the output? Does bounded input stay bounded? Can the input be uniquely recovered?
 
 ---
 
@@ -88,11 +87,11 @@ Flashcards for this section are as follows:
 
 ### memorylessness
 
-A system is memoryless if the output at time $t_0$ depends only on the input value at that same time $t_0$. Memorylessness excludes both past-input dependence and future-input dependence: neither earlier nor later samples may influence the present output. A dynamic system is any counterexample: its output at $t_0$ also depends on input values from other times. In a general linear kernel description $y(t)=\int_{-\infty}^{\infty} h(t,\tau)x(\tau)\,d\tau$, memorylessness means the kernel is concentrated on the diagonal $\tau=t$, so it has the form $h(t,\tau)=a(t)\delta(t-\tau)$. In the LTI special case this collapses further to $h(t)=K\delta(t)$, because only zero delay is allowed.
+A system is memoryless if the output at time $t_0$ depends only on the input at $t_0$. Memorylessness excludes both past and future dependence. A dynamic system is any counterexample: its output at $t_0$ also depends on input values from other times. In a general linear kernel $y(t)=\int_{-\infty}^{\infty} h(t,\tau)x(\tau)\,d\tau$, memorylessness means $h(t,\tau)=a(t)\delta(t-\tau)$. In the LTI case this becomes $h(t)=K\delta(t)$.
 
-A clean memoryless example is $y(t)=3x(t)$. The input-output equation says the system simply scales the present input. The impulse-response form is $h(t)=3\delta(t)$, so $y=x*h$. Because the impulse response is concentrated entirely at zero delay, one input instant affects only the same output instant.
+A clean memoryless example is $y(t)=3x(t)$. The system simply scales the present input. The impulse-response form is $h(t)=3\delta(t)$, so $y=x*h$. Because the impulse response is concentrated entirely at zero delay, one input instant affects only the same output instant.
 
-A clean counterexample is the causal averaging-type system $y(t)=\int_{-\infty}^{t} e^{-(t-\tau)}x(\tau)\,d\tau$. Its impulse response is $h(t)=e^{-t}u(t)$. One impulse at time $0$ creates an exponentially decaying tail for all later times, so a past input value continues to influence the present output. That spreading over time is exactly what memory means.
+A clean counterexample is the causal averaging system $y(t)=\int_{-\infty}^{t} e^{-(t-\tau)}x(\tau)\,d\tau$. Its impulse response is $h(t)=e^{-t}u(t)$. One impulse at time $0$ creates an exponentially decaying tail for all later times, so past input values keep influencing the present output. That spreading over time is exactly what memory means.
 
 Memoryless systems look only at the present sample; dynamic systems smear one input event across a time interval. A resistor is the basic memoryless intuition, while capacitors, inductors, and low-pass filters are the basic dynamic intuition.
 
@@ -103,23 +102,23 @@ Representative rules make the distinction concrete. The affine-delay rule $y(t)=
 Flashcards for this section are as follows:
 
 - What does memorylessness mean? ::@:: The output at time $t_0$ depends only on the input at time $t_0$; any system whose output also depends on other times is dynamic.
-- What is the kernel test for memorylessness? ::@:: In a linear kernel form $y(t)=\int h(t,\tau)x(\tau)\,d\tau$, memorylessness means $h(t,\tau)=a(t)\delta(t-\tau)$, and in the LTI case this becomes $h(t)=K\delta(t)$.
-- What is the memoryless example $y(t)=3x(t)$ in impulse-response form? ::@:: $h(t)=3\delta(t)$, so the response is concentrated at zero delay and the output uses only the present input.
-- What is the dynamic counterexample $y(t)=\int_{-\infty}^{t} e^{-(t-\tau)}x(\tau)\,d\tau$ in impulse-response form? ::@:: $h(t)=e^{-t}u(t)$, so one input impulse creates a decaying tail and past input values keep affecting the present output.
-- Which example systems are not memoryless because they use other indices or times? ::@:: $y(t)=2x(t-1)+1$ uses a past sample, $\tfrac12(x(t)+x(-t))$ uses a reflected future sample, $\max\{x[n],x[n-1]\}$ compares with a past sample, and $n\,x[2n]$ uses a different index altogether.
-- Why is $y(t)=\cos(x(t))$ still memoryless? ::@:: It applies a pointwise map to the present sample only, even though the cosine operation is nonlinear.
+- What is the kernel test for memorylessness? ::@:: In a linear kernel form $y(t)=\int h(t,\tau)x(\tau)\,d\tau$, memorylessness means $h(t,\tau)=a(t)\delta(t-\tau)$, and in the LTI case $h(t)=K\delta(t)$.
+- What is the memoryless example? ::@:: $y(t)=3x(t)$ with $h(t)=3\delta(t)$; the response is concentrated at zero delay.
+- What is the dynamic counterexample? ::@:: $y(t)=\int_{-\infty}^{t} e^{-(t-\tau)}x(\tau)\,d\tau$ with $h(t)=e^{-t}u(t)$; past input values keep affecting the present output.
+- Which examples are non-memoryless? ::@:: $y(t)=2x(t-1)+1$ uses a past sample, $\tfrac12(x(t)+x(-t))$ uses a reflected future sample, $\max\{x[n],x[n-1]\}$ compares with a past sample, and $n\,x[2n]$ uses a different index.
+- Why is $y(t)=\cos(x(t))$ still memoryless? ::@:: It applies a pointwise map to the present sample only, even though the operation is nonlinear.
 
 ### lumped and distributed viewpoints
 
-The lecture also distinguishes lumped-parameter and distributed-parameter systems. A lumped-parameter system depends only on time and is typically modeled by ordinary differential equations; low-frequency RLC circuits are the standard example. A distributed-parameter system depends on time and space variables and is modeled by partial differential equations; transmission lines and waveguides are typical examples.
+The lecture also distinguishes lumped-parameter and distributed-parameter systems. A lumped system depends only on time and is typically modeled by ordinary differential equations; low-frequency RLC circuits are the standard example. A distributed system depends on time and space and is modeled by partial differential equations; transmission lines and waveguides are typical examples.
 
-This classification is independent of memorylessness. A system can be lumped yet dynamic, because ordinary differential equations still describe time evolution with memory. The point of the lumped/distributed split is whether the state is concentrated into time-dependent variables or spread across both time and space.
+This classification is independent of memorylessness. A system can be lumped yet dynamic, because ordinary differential equations still describe time evolution with memory. The lumped/distributed split asks whether the state is concentrated into time-dependent variables or spread across both time and space.
 
 ---
 
 Flashcards for this section are as follows:
 
-- What is the lumped-versus-distributed distinction? ::@:: Lumped systems depend only on time and are usually modeled by ordinary differential equations; distributed systems depend on both time and space and are usually modeled by partial differential equations.
+- What is the lumped-versus-distributed distinction? ::@:: Lumped systems depend only on time and use ordinary differential equations; distributed systems depend on both time and space and use partial differential equations.
 - What are standard examples of lumped and distributed systems? ::@:: A low-frequency RLC circuit is lumped; a transmission line or waveguide is distributed.
 
 ## invertibility, linearity, and time invariance
@@ -136,48 +135,48 @@ Flashcards for this section are as follows:
 
 A system is invertible if different inputs produce different outputs, so an inverse system can recover the original input from the response. A system is non-invertible if different inputs collapse to the same output, making unique recovery impossible.
 
-A representative comparison set shows several distinct failure modes. The affine-delay rule $y(t)=2x(t-1)+1$ is invertible because one can recover $x(t)=\frac{y(t+1)-1}{2}$. By contrast, $y(t)=\cos(x(t))$ is not invertible because many different inputs share the same cosine value, the even-part operator is not invertible because it discards the odd component, the comparator $\max\{x[n],x[n-1]\}$ is not invertible because different sequences can share the same maxima, and $y[n]=n\,x[2n]$ is not invertible because odd-index samples are discarded and the factor $n$ destroys information at $n=0$.
+The comparison examples show several distinct failure modes. The affine-delay rule $y(t)=2x(t-1)+1$ is invertible because one can recover $x(t)=\frac{y(t+1)-1}{2}$. By contrast, $y(t)=\cos(x(t))$ is not invertible because many different inputs share the same cosine value, the even-part operator is not invertible because it discards the odd component, the comparator $\max\{x[n],x[n-1]\}$ is not invertible because different sequences can share the same maxima, and $y[n]=n\,x[2n]$ is not invertible because odd-index samples are discarded and the factor $n$ destroys information at $n=0$.
 
 ---
 
 Flashcards for this section are as follows:
 
-- What is invertibility and what does non-invertible mean? ::@:: A system is invertible if different inputs produce different outputs, so an inverse system can recover the input; it is non-invertible when different inputs collapse to the same output.
-- Which example systems are invertible or non-invertible? ::@:: $y(t)=2x(t-1)+1$ is invertible via $x(t)=\frac{y(t+1)-1}{2}$; $\cos(x(t))$, the even-part operator, $\max\{x[n],x[n-1]\}$, and $n\,x[2n]$ are non-invertible because they merge distinct inputs.
+- What is invertibility? ::@:: A system is invertible if different inputs produce different outputs, so an inverse system can recover the input; it is non-invertible when different inputs collapse to the same output.
+- Which examples are invertible or non-invertible? ::@:: $y(t)=2x(t-1)+1$ is invertible via $x(t)=\frac{y(t+1)-1}{2}$; $\cos(x(t))$, the even-part operator, $\max\{x[n],x[n-1]\}$, and $n\,x[2n]$ are non-invertible.
 
 ### linearity
 
-Linearity is characterized by homogeneity and superposition. If $x_1$ produces $y_1$ and $x_2$ produces $y_2$, then a linear system must send $c_1x_1+c_2x_2$ to $c_1y_1+c_2y_2$. In operator form, the judgment condition is $H[c_1x_1(t)+c_2x_2(t)]=c_1H[x_1(t)]+c_2H[x_2(t)]$. The practical test is "combine first, then pass through the system" versus "pass through the system first, then combine the outputs".
+Linearity requires homogeneity and superposition. If $x_1$ produces $y_1$ and $x_2$ produces $y_2$, then a linear system must send $c_1x_1+c_2x_2$ to $c_1y_1+c_2y_2$. In operator form, $H[c_1x_1(t)+c_2x_2(t)]=c_1H[x_1(t)]+c_2H[x_2(t)]$. The practical test is "combine first, then pass through the system" versus "pass through the system first, then combine the outputs".
 
-A clean linear example is $y(t)=2x(t)-x(t-1)$. In impulse-response form this is $h(t)=2\delta(t)-\delta(t-1)$, so $y=x*h$. The same fixed weighting of present and delayed inputs applies no matter what amplitudes or signal combinations are used, so superposition holds automatically.
+A clean linear example is $y(t)=2x(t)-x(t-1)$. In impulse-response form this is $h(t)=2\delta(t)-\delta(t-1)$, so $y=x*h$. The same fixed weighting of present and delayed inputs applies regardless of amplitudes or signal combinations, so superposition holds automatically.
 
-A standard counterexample is $y(t)=x^2(t)$. The input-output equation already shows that squaring is nonlinear. There is also no single first-order impulse-response representation $y(t)=\int h(t,\tau)x(\tau)\,d\tau$, because every such representation is linear in $x$. The closest kernel viewpoint is higher-order: $y(t)=\iint \delta(t-\tau_1)\delta(t-\tau_2)x(\tau_1)x(\tau_2)\,d\tau_1d\tau_2$. The square creates cross terms, so the response to a sum is not the sum of the responses.
+A standard counterexample is $y(t)=x^2(t)$. Squaring is nonlinear. There is no single first-order impulse-response representation $y(t)=\int h(t,\tau)x(\tau)\,d\tau$, because every such representation is linear in $x$. The closest kernel viewpoint is higher-order: $y(t)=\iint \delta(t-\tau_1)\delta(t-\tau_2)x(\tau_1)x(\tau_2)\,d\tau_1d\tau_2$. The square creates cross terms, so the response to a sum is not the sum of the responses.
 
-The intuition is that linear systems preserve add-and-scale structure. If you double the input, the output doubles; if you add two inputs, the output is the sum of the two outputs. Nonlinear systems distort that bookkeeping, usually by creating mixing terms, clipping, saturation, or amplitude-dependent gain.
+The intuition is that linear systems preserve add-and-scale structure. Double the input, the output doubles; add two inputs, the output is the sum. Nonlinear systems distort that bookkeeping, usually by creating mixing terms, clipping, saturation, or amplitude-dependent gain.
 
-The same comparison set is useful because it separates structure from surface appearance. The affine-delay rule $y(t)=2x(t-1)+1$ is not linear because the constant offset breaks homogeneity. The pointwise cosine rule and the max rule are nonlinear because they do not preserve superposition. By contrast, the even-part operator and the scaled-index rule $y[n]=n\,x[2n]$ are linear: averaging, fixed scaling, and reindexing still preserve add-and-scale behavior even though other properties may fail.
+The comparison examples separate structure from surface appearance. The affine-delay rule $y(t)=2x(t-1)+1$ is not linear because the constant offset breaks homogeneity. The pointwise cosine rule and the max rule are nonlinear because they do not preserve superposition. By contrast, the even-part operator and the scaled-index rule $y[n]=n\,x[2n]$ are linear: averaging, fixed scaling, and reindexing preserve add-and-scale behavior even though other properties may fail.
 
 ---
 
 Flashcards for this section are as follows:
 
 - What is linearity? ::@:: A system is linear if $H[c_1x_1+c_2x_2]=c_1H[x_1]+c_2H[x_2]$ for arbitrary signals and constants.
-- What is the linear example and its impulse-response form? ::@:: $y(t)=2x(t)-x(t-1)$, with $h(t)=2\delta(t)-\delta(t-1)$, so the output is a fixed weighted sum of present and delayed inputs and superposition holds.
-- What is the nonlinear counterexample? ::@:: $y(t)=x^2(t)$. There is no single first-order impulse response $h$ with $y(t)=\int h(t,\tau)x(\tau)\,d\tau$, because any such representation would already be linear; a nonlinear kernel needs higher-order products.
-- Which example systems fail superposition or homogeneity? ::@:: $y(t)=2x(t-1)+1$ fails homogeneity due to the constant offset, $y(t)=\cos(x(t))$ fails superposition due to pointwise nonlinearity, and $y[n]=\max\{x[n],x[n-1]\}$ fails superposition because maximum of sums does not equal sum of maxima.
-- Which example systems are linear despite other failures? ::@:: $y(t)=\tfrac12(x(t)+x(-t))$ (even-part operator) and $y[n]=n\,x[2n]$ (scaled-index rule) are linear because averaging, fixed scaling, and reindexing preserve superposition.
+- What is the linear example? ::@:: $y(t)=2x(t)-x(t-1)$ with $h(t)=2\delta(t)-\delta(t-1)$; superposition holds.
+- What is the nonlinear counterexample? ::@:: $y(t)=x^2(t)$. No single first-order impulse response exists because any such representation is already linear.
+- Which examples fail superposition or homogeneity? ::@:: $y(t)=2x(t-1)+1$ fails homogeneity due to the constant offset, $y(t)=\cos(x(t))$ fails superposition due to pointwise nonlinearity, and $\max\{x[n],x[n-1]\}$ fails because maximum of sums does not equal sum of maxima.
+- Which examples are linear despite other failures? ::@:: $\tfrac12(x(t)+x(-t))$ (even-part operator) and $n\,x[2n]$ (scaled-index rule) preserve superposition.
 
 ### time invariance
 
-A system is time invariant if, under the same initial-condition convention, its output is independent of the absolute time at which the input is applied. Equivalently, delaying the input merely delays the output by the same amount. In operator form, if $H[x(t)]=y(t)$, then time invariance requires $H[x(t-t_0)]=y(t-t_0)$. For a general linear kernel this means the kernel depends only on the time difference: $h(t,\tau)=h(t-\tau)$.
+A system is time invariant if its output is independent of the absolute time at which the input is applied. Equivalently, delaying the input merely delays the output by the same amount. In operator form, if $H[x(t)]=y(t)$, then time invariance requires $H[x(t-t_0)]=y(t-t_0)$. For a general linear kernel this means $h(t,\tau)=h(t-\tau)$.
 
 A standard time-invariant example is $y(t)=x(t)-x(t-1)$. Its impulse response is $h(t)=\delta(t)-\delta(t-1)$. The system always forms the same present-minus-one-second-ago combination, no matter when the signal arrives, so shifting the input simply shifts the output.
 
-A standard time-varying counterexample is $y(t)=\cos(\omega_0 t)x(t)$. In kernel form this is $h(t,\tau)=\cos(\omega_0 t)\delta(t-\tau)$. The explicit factor $\cos(\omega_0 t)$ depends on absolute time, so the system law itself changes with the clock. Shifting the input first gives $\cos(\omega_0 t)x(t-t_0)$, while shifting the original output gives $\cos(\omega_0(t-t_0))x(t-t_0)$, and these are not equal in general.
+A standard time-varying counterexample is $y(t)=\cos(\omega_0 t)x(t)$. In kernel form this is $h(t,\tau)=\cos(\omega_0 t)\delta(t-\tau)$. The factor $\cos(\omega_0 t)$ depends on absolute time, so the system law itself changes with the clock. Shifting the input first gives $\cos(\omega_0 t)x(t-t_0)$, while shifting the original output gives $\cos(\omega_0(t-t_0))x(t-t_0)$, and these are not equal in general.
 
-The intuition is that a time-invariant system has no hidden calendar or clock. The same waveform meeting the same system tomorrow should produce the same output shape, just shifted. A time-varying system behaves as if its coefficients or operating mode change with time.
+The intuition is that a time-invariant system has no hidden calendar or clock. The same waveform meeting the same system tomorrow should produce the same output shape, just shifted. A time-varying system behaves as if its coefficients change with time.
 
-Again, the same comparison set produces contrasts. The affine-delay rule, the pointwise cosine rule, and the max rule are time invariant because shifting the input shifts exactly the same algebraic rule. The even-part operator is not time invariant because reflection is pinned to the origin, and $y[n]=n\,x[2n]$ is not time invariant because both the explicit factor $n$ and the index scaling refer to absolute sample location.
+The comparison examples produce contrasts. The affine-delay rule, the pointwise cosine rule, and the max rule are time invariant because shifting the input shifts exactly the same algebraic rule. The even-part operator is not time invariant because reflection is pinned to the origin, and $y[n]=n\,x[2n]$ is not time invariant because both the explicit factor $n$ and the index scaling refer to absolute sample location.
 
 ---
 
@@ -185,10 +184,10 @@ Flashcards for this section are as follows:
 
 - What is time invariance? ::@:: If $H[x(t)]=y(t)$, then time invariance requires $H[x(t-t_0)]=y(t-t_0)$, so delaying the input merely delays the output by the same amount.
 - What is the kernel test for time invariance? ::@:: In a linear kernel description, time invariance means the kernel depends only on the difference $t-\tau$, so it can be written as $h(t-\tau)$.
-- What is the time-invariant example? ::@:: $y(t)=x(t)-x(t-1)$, with $h(t)=\delta(t)-\delta(t-1)$. The same rule applies at every absolute time, so shifting the input just shifts the output.
-- What is the time-varying counterexample? ::@:: $y(t)=\cos(\omega_0 t)x(t)$, with $h(t,\tau)=\cos(\omega_0 t)\delta(t-\tau)$. Because the coefficient depends on absolute time, the shift test fails.
-- Which example systems are time invariant? ::@:: $y(t)=2x(t-1)+1$ (affine delay), $y(t)=\cos(x(t))$ (pointwise cosine), and $y[n]=\max\{x[n],x[n-1]\}$ (windowed maximum) because the same rule applies at every absolute time.
-- Which example systems are time varying? ::@:: The even-part operator $\tfrac12(x(t)+x(-t))$ because reflection is pinned to the origin, and $y[n]=n\,x[2n]$ because the factor $n$ and index scaling $2n$ refer to absolute sample location.
+- What is the time-invariant example? ::@:: $y(t)=x(t)-x(t-1)$ with $h(t)=\delta(t)-\delta(t-1)$; shifting the input just shifts the output.
+- What is the time-varying counterexample? ::@:: $y(t)=\cos(\omega_0 t)x(t)$ with $h(t,\tau)=\cos(\omega_0 t)\delta(t-\tau)$; the coefficient depends on absolute time, so the shift test fails.
+- Which examples are time invariant? ::@:: $y(t)=2x(t-1)+1$ (affine delay), $y(t)=\cos(x(t))$ (pointwise cosine), and $\max\{x[n],x[n-1]\}$ (windowed maximum).
+- Which examples are time varying? ::@:: The even-part operator $\tfrac12(x(t)+x(-t))$ because reflection is pinned to the origin, and $n\,x[2n]$ because the factor $n$ and index scaling refer to absolute sample location.
 
 ## causality and stability
 
@@ -202,15 +201,15 @@ Flashcards for this section are as follows:
 
 ### causality
 
-A causal system does not depend on future input values. This matters because a physically realizable real-time system cannot react before its input arrives. In a general linear kernel form $y(t)=\int h(t,\tau)x(\tau)\,d\tau$, causality means $h(t,\tau)=0$ whenever $\tau>t$. In the LTI special case, that becomes the familiar support condition $h(t)=0$ for $t<0$.
+A causal system does not depend on future input values. This matters because a physically realizable real-time system cannot react before its input arrives. In a general linear kernel $y(t)=\int h(t,\tau)x(\tau)\,d\tau$, causality means $h(t,\tau)=0$ whenever $\tau>t$. In the LTI case, that becomes $h(t)=0$ for $t<0$.
 
 A standard causal example is $y(t)=x(t)+x(t-2)$. Its impulse response is $h(t)=\delta(t)+\delta(t-2)$. The system uses the present value and a past value only, so it can be implemented in real time.
 
-A standard noncausal counterexample is $y(t)=x(t+2)$. Its impulse response is $h(t)=\delta(t+2)$. The support at negative time means the output at time $t$ depends on an input value two seconds in the future, so the system violates real-time causality.
+A standard noncausal counterexample is $y(t)=x(t+2)$. Its impulse response is $h(t)=\delta(t+2)$. The support at negative time means the output at time $t$ depends on an input value two seconds in the future, violating real-time causality.
 
-The recall picture is support geometry. If the impulse response reaches only zero delay and positive delays, the system is causal. If any part reaches into negative delay, the system is asking for future information. Noncausal systems can still be useful offline, because stored data make the "future" available after the fact.
+The key idea is support geometry. If the impulse response reaches only zero delay and positive delays, the system is causal. If any part reaches into negative delay, the system asks for future information. Noncausal systems can still be useful offline, because stored data make the "future" available after the fact.
 
-The same comparison examples are useful here as well. The affine-delay rule, the pointwise cosine rule, and the max rule are causal because they use only present or past samples. The even-part operator is noncausal because $x(-t_0)$ can lie in the future relative to $t_0$, and $y[n]=n\,x[2n]$ is generally noncausal because for positive $n$ it asks for a future sample at index $2n$.
+The comparison examples are useful here as well. The affine-delay rule, the pointwise cosine rule, and the max rule are causal because they use only present or past samples. The even-part operator is noncausal because $x(-t_0)$ can lie in the future relative to $t_0$, and $y[n]=n\,x[2n]$ is generally noncausal because for positive $n$ it asks for a future sample at index $2n$.
 
 ---
 
@@ -218,10 +217,10 @@ Flashcards for this section are as follows:
 
 - What is causality? ::@:: A system is causal if the output at time $t$ depends only on input values at times $\tau\le t$ and never on future values.
 - What is the impulse-response test for causality? ::@:: In a linear kernel description, causality means $h(t,\tau)=0$ for $\tau>t$; for an LTI system this becomes $h(t)=0$ for negative time.
-- What is the causal example? ::@:: $y(t)=x(t)+x(t-2)$, with $h(t)=\delta(t)+\delta(t-2)$. The system uses only present and past input values.
-- What is the noncausal counterexample? ::@:: $y(t)=x(t+2)$, with $h(t)=\delta(t+2)$. The negative-time support means the output depends on future input.
-- Which example systems are causal? ::@:: $y(t)=2x(t-1)+1$ (affine delay), $y(t)=\cos(x(t))$ (pointwise cosine), and $y[n]=\max\{x[n],x[n-1]\}$ (windowed maximum) because they use only present or past samples.
-- Which example systems are noncausal? ::@:: The even-part operator $\tfrac12(x(t)+x(-t))$ because $x(-t_0)$ can lie in the future relative to positive $t_0$, and $y[n]=n\,x[2n]$ because for positive $n$ it asks for a future sample at index $2n$.
+- What is the causal example? ::@:: $y(t)=x(t)+x(t-2)$ with $h(t)=\delta(t)+\delta(t-2)$; uses only present and past input values.
+- What is the noncausal counterexample? ::@:: $y(t)=x(t+2)$ with $h(t)=\delta(t+2)$; negative-time support means the output depends on future input.
+- Which examples are causal? ::@:: $y(t)=2x(t-1)+1$ (affine delay), $y(t)=\cos(x(t))$ (pointwise cosine), and $\max\{x[n],x[n-1]\}$ (windowed maximum).
+- Which examples are noncausal? ::@:: The even-part operator $\tfrac12(x(t)+x(-t))$ because $x(-t_0)$ can lie in the future, and $n\,x[2n]$ because for positive $n$ it asks for a future sample.
 
 ### boundedness (BIBO stability)
 
@@ -233,7 +232,7 @@ A standard unstable counterexample is the integrator $y(t)=\int_{-\infty}^{t}x(\
 
 The intuition is that boundedness asks whether the system maps every finite-amplitude box of admissible inputs into some finite-amplitude box of outputs. The output bound does not need to equal the input bound, but it must exist. For LTI systems this becomes a total-memory-weight question: a decaying impulse response forgets enough of the past to keep the output under control, whereas an integrator never lets go of past input.
 
-The same comparison examples add several quick recognition patterns, including non-LTI ones. The affine-delay rule, the pointwise cosine rule, the even-part operator, and the max rule are all BIBO stable because bounded inputs stay bounded under those operations. The nonlinear memoryless rule $y[n]=e^{x[n]}$ is also BIBO stable: if $|x[n]|\le M$, then $-M\le x[n]\le M$, so $e^{-M}\le y[n]\le e^{M}$. By contrast, the time-varying rule $y[n]=(n+1)x[n]$ is not BIBO stable, because the bounded input $x[n]\equiv 1$ produces the unbounded sequence $y[n]=n+1$. The integrator is likewise not BIBO stable for the same accumulation reason.
+The comparison examples add several quick recognition patterns, including non-LTI ones. The affine-delay rule, the pointwise cosine rule, the even-part operator, and the max rule are all BIBO stable because bounded inputs stay bounded under those operations. The nonlinear memoryless rule $y[n]=e^{x[n]}$ is also BIBO stable: if $|x[n]|\le M$, then $-M\le x[n]\le M$, so $e^{-M}\le y[n]\le e^{M}$. By contrast, the time-varying rule $y[n]=(n+1)x[n]$ is not BIBO stable, because the bounded input $x[n]\equiv 1$ produces the unbounded sequence $y[n]=n+1$. The integrator is likewise not BIBO stable for the same accumulation reason.
 
 ---
 
@@ -241,10 +240,10 @@ Flashcards for this section are as follows:
 
 - What is BIBO stability? ::@:: A system is BIBO stable if every bounded input produces a bounded output: whenever $|x(t)|\le M_x$ for all $t$ or $|x[n]|\le M_x$ for all $n$, there exists a finite $M_y$ with $|y(t)|\le M_y$ or $|y[n]|\le M_y$.
 - What is the LTI impulse-response test for BIBO stability? ::@:: Absolute integrability: if $\int_{-\infty}^{\infty}|h(t)|\,dt<\infty$, then bounded inputs stay bounded.
-- What is the stable example? ::@:: $y(t)=\int_{-\infty}^{t} e^{-(t-\tau)}x(\tau)\,d\tau$ with $h(t)=e^{-t}u(t)$. Its total impulse-response area is finite, so bounded inputs give bounded outputs.
-- What is the unstable counterexample? ::@:: The integrator $y(t)=\int_{-\infty}^{t}x(\tau)\,d\tau$ with $h(t)=u(t)$. The bounded input $x(t)=u(t)$ produces the unbounded ramp $y(t)=tu(t)$.
+- What is the stable example? ::@:: $y(t)=\int_{-\infty}^{t} e^{-(t-\tau)}x(\tau)\,d\tau$ with $h(t)=e^{-t}u(t)$; its total impulse-response area is finite.
+- What is the unstable counterexample? ::@:: The integrator $y(t)=\int_{-\infty}^{t}x(\tau)\,d\tau$ with $h(t)=u(t)$; the bounded input $x(t)=u(t)$ produces the unbounded ramp $y(t)=tu(t)$.
 - What is the intuition behind BIBO stability? ::@:: Every finite-amplitude input box maps into some finite-amplitude output box; the output bound may change with the input but must remain finite.
-- What is the nonlinear stable example? ::@:: $y[n]=e^{x[n]}$ is BIBO stable because $|x[n]|\le M$ implies $-M\le x[n]\le M$, hence $e^{-M}\le y[n]\le e^{M}$.
+- What is the nonlinear stable example? ::@:: $y[n]=e^{x[n]}$ is BIBO stable because $|x[n]|\le M$ implies $e^{-M}\le y[n]\le e^{M}$.
 - What is the time-varying unstable example? ::@:: $y[n]=(n+1)x[n]$ is not BIBO stable because the bounded input $x[n]\equiv 1$ gives $y[n]=n+1$, which is unbounded.
 
 ## linear time-invariant systems and response transfer
@@ -268,7 +267,7 @@ The continuous-time circuit example is an RLC network driven by an excitation $e
 
 Using the stated reference directions, the network equations become the KVL relation $e(t)=L\frac{di_L(t)}{dt}+v_C(t)$ and the node equation $i_L(t)=\frac{v_C(t)}{R}+C\frac{dv_C(t)}{dt}$. A two-step elimination problem organizes the derivation. First rewrite the model as two coupled first-order equations: $\frac{di_L(t)}{dt}=\frac{e(t)-v_C(t)}{L}$ and $\frac{dv_C(t)}{dt}=\frac{i_L(t)}{C}-\frac{v_C(t)}{RC}$. Then eliminate the internal current $i_L(t)$ by differentiating the second equation and substituting into the first. This yields $LC\frac{d^2v_C(t)}{dt^2}+\frac{L}{R}\frac{dv_C(t)}{dt}+v_C(t)=e(t)$, or equivalently $\frac{d^2v_C(t)}{dt^2}+\frac{1}{RC}\frac{dv_C(t)}{dt}+\frac{1}{LC}v_C(t)=\frac{1}{LC}e(t)$.
 
-The final equation can be interpreted directly. It is linear because no nonlinear products of state variables or inputs appear. It is time invariant because all coefficients are constants. It is second order because the highest derivative is second order.
+The final equation is linear (no nonlinear products of state variables or inputs appear), time invariant (all coefficients are constants), and second order (the highest derivative is second order).
 
 Block diagrams provide a second continuous-time representation. The main elementary blocks are adders, multipliers, scalar multipliers, differentiators, integrators, and time-delay elements. In this course, many single-input single-output operations are drawn with the same rectangular-block style and are distinguished by the label inside the block. An adder is usually drawn as a summing node such as a small circle or a block marked with $\Sigma$; incoming branches may be marked with plus or minus signs to show whether a signal is added or subtracted, and the explicit algebra is $r(t)=e_1(t)+e_2(t)$ or $r(t)=e_1(t)-e_2(t)$. A multiplier is usually drawn as a block or node marked by $\times$ or another product label, and its explicit algebra is $r(t)=e_1(t)e_2(t)$, which is why it is generally nonlinear.
 
