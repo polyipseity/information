@@ -24,6 +24,7 @@ from scripts.convert_wiki.pipeline import run_pipeline
 from scripts.convert_wiki.table import TableConverter
 from scripts.convert_wiki.types import _RedirectInfo
 from scripts.convert_wiki.utils import (
+    _create_redirect_symlinks,
     _fix_filename,
     _fix_name_maybe,
     _get_image_filename,
@@ -76,6 +77,11 @@ class TestSymlinkCreation:
             redirect_map=redirect_map,
             refs=True,
         )
+
+        # Symlinks are now created in the pipeline, not the converter.
+        # Simulate the pipeline step by flushing pending redirects.
+        for from_name, to_name in converter._pending_redirects:
+            await _create_redirect_symlinks(top_dir, lang_dir, from_name, to_name)
 
         from_symlink = lang_dir / "From Page.md"
         top_symlink = top_dir / "From Page.md"
@@ -148,6 +154,10 @@ class TestSymlinkCreation:
             refs=True,
         )
 
+        # Simulate the pipeline step by flushing pending redirects.
+        for from_name, to_name in converter._pending_redirects:
+            await _create_redirect_symlinks(top_dir, lang_dir, from_name, to_name)
+
         # FROM file should remain a regular file (never replaced)
         assert await (lang_dir / "From Page.md").is_file()
         assert not await (lang_dir / "From Page.md").is_symlink()
@@ -190,6 +200,10 @@ class TestSymlinkCreation:
             redirect_map=redirect_map,
             refs=True,
         )
+
+        # Simulate the pipeline step by flushing pending redirects.
+        for from_name, to_name in converter._pending_redirects:
+            await _create_redirect_symlinks(top_dir, lang_dir, from_name, to_name)
 
         # Broken symlink should be retargeted
         from_symlink = lang_dir / "From Page.md"
