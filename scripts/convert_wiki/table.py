@@ -623,7 +623,7 @@ class TableConverter:
                     replace_underscores=True,
                     names_map=names_map,
                 )
-                encoded = urllib.parse.quote(resolved)
+                encoded = urllib.parse.quote(resolved, safe="").replace("_", "%5F")
                 title_parts.append(f"[{display}]({encoded}.md)")
         title_md = " ".join(title_parts)
         return title_md, link_comment

@@ -220,7 +220,7 @@ def _markdown_fragment(fragment: str) -> str:
 
 def _markdown_link_target(page: str, fragment: str = "") -> str:
     """Build a relative Markdown link target for a given page name and fragment."""
-    return f"{_fix_filename(page).replace(' ', '%20')}.md{_markdown_fragment(fragment)}"
+    return f"{_fix_filename(page).replace(' ', '%20').replace('_', '%5F')}.md{_markdown_fragment(fragment)}"
 
 
 def _tag_affixes(name: str) -> tuple[str, str]:
