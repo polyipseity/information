@@ -1203,6 +1203,14 @@ class TableConverter:
                             cls._wrap_children(cell, soup, rule.wrap_tag)
                         break
 
+        # Section labels (Branches, Fundamentals, …) live in <div> elements
+        # nested inside <td class="sidebar-content">, not in <th>/<td> cells.
+        # Handle wrap rules whose scope targets descendants rather than cells.
+        for rule in _SIDEBAR_SPEC.wrap_rules:
+            if rule.scope == "children":
+                for div in ele.find_all("div", class_=rule.css_class):
+                    cls._wrap_children(div, soup, rule.wrap_tag)
+
         if isinstance(table, Tag):
             for caption in table.find_all("div", class_=_SIDEBAR_SPEC.caption_class):
                 cls._wrap_children(caption, soup, _SIDEBAR_SPEC.caption_tag)
