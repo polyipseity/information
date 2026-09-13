@@ -33,6 +33,7 @@ from .template_config import (
     _BLOCKQUOTE_PREFIX_RE,
     _CONSECUTIVE_LEADING_WHITESPACES_REGEX,
     _CONSECUTIVE_NEWLINES_REGEX,
+    _INFOBOX_CAPTION_RULES,
     _NAVBOX_SPEC,
     _SEPARATOR_CELL_RE,
     _SIDEBAR_SPEC,
@@ -1012,32 +1013,28 @@ class TableConverter:
             cell = cells[0]
             cell_classes = cell.get_attribute_list("class")
 
-            if cell.name == "th" and "infobox-above" in cell_classes:
-                new_tr = soup.new_tag("tr")
-                col1 = soup.new_tag("td")
-                col1.string = "\u200b"
-                col2 = soup.new_tag("td")
-                bold = soup.new_tag("b")
-                for child in tuple(cell.children):
-                    bold.append(child.extract())
-                col2.append(bold)
-                col2.append(" ")
-                new_tr.append(col1)
-                new_tr.append(col2)
-                new_tr["data-caption-row"] = "true"
-                new_tr["data-caption-title"] = "true"
-                tr.replace_with(new_tr)
-            elif cell.name == "td" and "infobox-image" in cell_classes:
-                new_tr = soup.new_tag("tr")
-                col1 = soup.new_tag("td")
-                col1.string = "\u200b"
-                col2 = soup.new_tag("td")
-                for child in tuple(cell.children):
-                    col2.append(child.extract())
-                new_tr.append(col1)
-                new_tr.append(col2)
-                new_tr["data-caption-row"] = "true"
-                tr.replace_with(new_tr)
+            for rule in _INFOBOX_CAPTION_RULES:
+                if cell.name == rule.cell_tag and rule.cell_class in cell_classes:
+                    new_tr = soup.new_tag("tr")
+                    col1 = soup.new_tag("td")
+                    col1.string = "\u200b"
+                    col2 = soup.new_tag("td")
+                    if rule.wrap_tag is not None:
+                        wrapper = soup.new_tag(rule.wrap_tag)
+                        for child in tuple(cell.children):
+                            wrapper.append(child.extract())
+                        col2.append(wrapper)
+                        col2.append(" ")
+                    else:
+                        for child in tuple(cell.children):
+                            col2.append(child.extract())
+                    new_tr.append(col1)
+                    new_tr.append(col2)
+                    new_tr["data-caption-row"] = "true"
+                    if rule.cell_class == "infobox-above":
+                        new_tr["data-caption-title"] = "true"
+                    tr.replace_with(new_tr)
+                    break
 
     @classmethod
     def _normalize_table_cells(cls, ele: Tag, soup: Tag) -> None:
