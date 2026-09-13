@@ -53,6 +53,7 @@ from .converter import WikiHtmlConverter
 from .inline_context import _is_display_math_only_dl
 from .latex import LatexConverter
 from .table import _reformat_table
+from .template_config import _DISPLAY_MATH_CONTAINERS
 from .types import _RedirectInfo
 from .utils import _ZERO_WIDTH_CHARS_RE, _create_redirect_symlinks
 
@@ -836,7 +837,6 @@ def _preprocess_html(soup: BeautifulSoup | Tag) -> None:
 
     # 5. Normalize external math punctuation: absorb trailing
     #    punctuation from sibling text into math alttext.
-    _DISPLAY_MATH_CONTAINERS = frozenset({"dd", "dt"})
     for container in soup.find_all(list(_DISPLAY_MATH_CONTAINERS | {"p"})):
         WikiHtmlConverter._normalize_external_math_punctuation(container)
 

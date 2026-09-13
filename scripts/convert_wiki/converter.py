@@ -61,6 +61,16 @@ from .table import (
     _find_box_title,
     _rewrite_table_equation_cells,
 )
+from .template_config import (
+    _ATOMIC_TAGS,
+    _BLOCK_TAGS,
+    _BLOCKQUOTE_CLASSES,
+    _BOXED_CLASSES,
+    _DISPLAY_MATH_CONTAINERS,
+    _DISPLAY_MATH_ENVIRONMENTS,
+    _MEDIA_TAGS,
+    _OPAQUE_SPAN_CLASSES,
+)
 from .types import _HandlerConfig, _RedirectInfo
 from .utils import (
     _balance_brackets,
@@ -99,62 +109,6 @@ _PROCESS_STRINGS_BI_REGEX = re.compile(r"^( *)(.*?)([\n ]*)$", re.DOTALL)
 _BARE_URL_REGEX = re.compile(r"(?:https?://|www\.)[^\s<>]+")
 """Whitespace and separator chars for sidebar tight wrapping."""
 _SIDEBAR_TIGHT_WRAPPING_RE = re.compile(r"[ \t]+", re.MULTILINE)
-"""Containers where sole formula rows are display math."""
-_DISPLAY_MATH_CONTAINERS = frozenset({"dd", "dt"})
-"""Box-like classes whose content renders specially."""
-_BOXED_CLASSES = frozenset(
-    {
-        "catlinks",
-        "equation-box",
-        "math_proof",
-        "math_theorem",
-        "portalbox",
-        "quotebox",
-        "tmulti",
-        "unsolved",
-    }
-)
-"""Box-like classes whose content renders as a blockquote."""
-_BLOCKQUOTE_CLASSES = frozenset(_BOXED_CLASSES - {"equation-box"})
-"""
-Span classes whose handler emits markers, media, or block spacing.
-
-``_handle_span`` returns ``None``, so a span is normally flattened and
-contributes nothing of its own.  These classes are the exception: ``hatnote``
-prefixes a list marker, ``sidebar-navbar``/``navbar`` may wrap their text in an
-HTML comment, ``mw-tmh-play``/``oo-ui-buttonElement-button`` become an audio
-embed, ``sistersitebox`` and ``thumb`` add block spacing, and the boxed classes
-render as blockquotes.  The set is deliberately inclusive where a class only
-sometimes renders (``navbar`` without a navbar ancestor, ``thumb`` without a
-caption): calling such a span opaque stops a rendered-adjacency walk early,
-which keeps the previous behaviour rather than inventing an adjacency.
-"""
-_OPAQUE_SPAN_CLASSES = _BOXED_CLASSES | frozenset(
-    {
-        "hatnote",
-        "mw-tmh-play",
-        "navbar",
-        "oo-ui-buttonElement-button",
-        "sidebar-navbar",
-        "sistersitebox",
-        "thumb",
-    }
-)
-"""
-Tags whose handler emits a media link or embed instead of text.
-
-``_renders_nothing`` must not call these empty just because they carry no text:
-``<video>`` and ``<audio>`` name their source in attributes and child
-``<source>`` elements.
-"""
-_MEDIA_TAGS = frozenset({"audio", "video"})
-"""
-Tags that render a glyph or a line break with no child content.
-
-``_renders_nothing`` must not treat these as empty just because they have no
-text: they are rendered tokens in their own right.
-"""
-_ATOMIC_TAGS = frozenset({"br", "hr", "img"})
 """Heading tag names (``h1`` through ``h6``)."""
 _HEADING_TAGS = frozenset({"h1", "h2", "h3", "h4", "h5", "h6"})
 """
@@ -182,75 +136,7 @@ Block-level tags whose edges separate blocks rather than joining words.
 ``_nearest_edge_is_word`` stops its descent here: a whitespace run that touches
 one of these separates block elements, so it carries no inline separation.
 """
-_BLOCK_TAGS = frozenset(
-    {
-        "address",
-        "article",
-        "aside",
-        "blockquote",
-        "br",
-        "caption",
-        "colgroup",
-        "dd",
-        "details",
-        "dialog",
-        "div",
-        "dl",
-        "dt",
-        "fieldset",
-        "figcaption",
-        "figure",
-        "footer",
-        "form",
-        "h1",
-        "h2",
-        "h3",
-        "h4",
-        "h5",
-        "h6",
-        "header",
-        "hgroup",
-        "hr",
-        "li",
-        "main",
-        "menu",
-        "nav",
-        "ol",
-        "optgroup",
-        "option",
-        "p",
-        "pre",
-        "search",
-        "section",
-        "summary",
-        "table",
-        "tbody",
-        "td",
-        "tfoot",
-        "th",
-        "thead",
-        "tr",
-        "ul",
-    }
-)
 """Inline tags that can form an equation-box title."""
-"""LaTeX environments whose trailing punct belongs on the last row."""
-_DISPLAY_MATH_ENVIRONMENTS: tuple[str, ...] = (
-    "aligned",
-    "align",
-    "align*",
-    "gather",
-    "gather*",
-    "multline",
-    "split",
-    "cases",
-    "array",
-    "matrix",
-    "pmatrix",
-    "bmatrix",
-    "vmatrix",
-    "Bmatrix",
-)
 
 
 def _escape_markdown(text: str) -> str:

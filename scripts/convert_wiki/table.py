@@ -18,7 +18,6 @@ import re
 import urllib.parse
 from collections.abc import Mapping
 from copy import copy
-from re import Pattern
 
 from bs4 import NavigableString, PageElement, Tag
 
@@ -29,6 +28,12 @@ from .ast_utils import (
     _find_table_blocks,
     _is_in_span,
     _replace_pipes_outside_math,
+)
+from .template_config import (
+    _BLOCKQUOTE_PREFIX_RE,
+    _CONSECUTIVE_LEADING_WHITESPACES_REGEX,
+    _CONSECUTIVE_NEWLINES_REGEX,
+    _SEPARATOR_CELL_RE,
 )
 from .types import _HandlerConfig
 from .utils import _ZERO_WIDTH_CHARS_RE, _fix_name_maybe
@@ -41,32 +46,12 @@ _TEXT_ALIGN_REGEX = re.compile(
 )
 """Bold font-weight style detector (needed for _handle_tr)."""
 _BOLD_FONT_STYLE_REGEX = re.compile(r"\bfont-weight\s*:\s*bold\b", re.IGNORECASE)
-"""GFM separator cell pattern."""
-_SEPARATOR_CELL_RE: Pattern[str] = re.compile(r":?-+:?")
-"""Matches a leading blockquote prefix (one or more ``>`` markers, each followed by whitespace).
-
-Used to align pipe tables that live inside blockquotes, which mistune's AST parser does not
-surface as ``table`` tokens (so the main mistune-based pass skips them).
-"""
-_BLOCKQUOTE_PREFIX_RE = re.compile(r"^(>\s+)+")
-"""Collapse consecutive newlines into at most two."""
-_CONSECUTIVE_NEWLINES_REGEX = re.compile(r"\n\n+")
-"""Replace leading whitespace with non-breaking spaces."""
-_CONSECUTIVE_LEADING_WHITESPACES_REGEX = re.compile(r"(?:^|\n)([ \t]+)", re.MULTILINE)
 """Tags that can form an equation-box title."""
 _EQUATION_BOX_TITLE_TAGS = frozenset({"b", "strong", "i", "em", "span"})
 """Block-level tags that separate an equation-box title from its body."""
 _EQUATION_BOX_BODY_BLOCK_TAGS = frozenset(
     {"p", "div", "table", "ul", "ol", "dl", "blockquote", "pre", "figure"}
 )
-"""GFM separator cell pattern."""
-_SEPARATOR_CELL_RE: Pattern[str] = re.compile(r":?-+:?")
-"""Matches a leading blockquote prefix (one or more ``>`` markers, each followed by whitespace).
-
-Used to align pipe tables that live inside blockquotes, which mistune's AST parser does not
-surface as ``table`` tokens (so the main mistune-based pass skips them).
-"""
-_BLOCKQUOTE_PREFIX_RE = re.compile(r"^(>\s+)+")
 
 
 def _is_separator_cell(cell: str) -> bool:
