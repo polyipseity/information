@@ -12,12 +12,20 @@ import re
 import urllib.parse
 from collections.abc import Mapping
 from copy import copy
+from re import Pattern
 
 from bs4 import NavigableString, PageElement, Tag
 
-from .ast_utils import _replace_pipes_outside_math
+from . import config as _cfg
+from .ast_utils import (
+    _all_code_span_ranges,
+    _all_math_ranges,
+    _find_table_blocks,
+    _is_in_span,
+    _replace_pipes_outside_math,
+)
 from .types import _HandlerConfig
-from .utils import _fix_name_maybe, _format_separator_cell, _smart_split_row
+from .utils import _ZERO_WIDTH_CHARS_RE, _fix_name_maybe
 
 """Table cell tag names."""
 _TD_OR_TH = frozenset({"td", "th"})
@@ -27,6 +35,14 @@ _TEXT_ALIGN_REGEX = re.compile(
 )
 """Bold font-weight style detector (needed for _handle_tr)."""
 _BOLD_FONT_STYLE_REGEX = re.compile(r"\bfont-weight\s*:\s*bold\b", re.IGNORECASE)
+"""GFM separator cell pattern."""
+_SEPARATOR_CELL_RE: Pattern[str] = re.compile(r":?-+:?")
+"""Matches a leading blockquote prefix (one or more ``>`` markers, each followed by whitespace).
+
+Used to align pipe tables that live inside blockquotes, which mistune's AST parser does not
+surface as ``table`` tokens (so the main mistune-based pass skips them).
+"""
+_BLOCKQUOTE_PREFIX_RE = re.compile(r"^(>\s+)+")
 """Collapse consecutive newlines into at most two."""
 _CONSECUTIVE_NEWLINES_REGEX = re.compile(r"\n\n+")
 """Replace leading whitespace with non-breaking spaces."""
@@ -37,6 +53,217 @@ _EQUATION_BOX_TITLE_TAGS = frozenset({"b", "strong", "i", "em", "span"})
 _EQUATION_BOX_BODY_BLOCK_TAGS = frozenset(
     {"p", "div", "table", "ul", "ol", "dl", "blockquote", "pre", "figure"}
 )
+"""GFM separator cell pattern."""
+_SEPARATOR_CELL_RE: Pattern[str] = re.compile(r":?-+:?")
+"""Matches a leading blockquote prefix (one or more ``>`` markers, each followed by whitespace).
+
+Used to align pipe tables that live inside blockquotes, which mistune's AST parser does not
+surface as ``table`` tokens (so the main mistune-based pass skips them).
+"""
+_BLOCKQUOTE_PREFIX_RE = re.compile(r"^(>\s+)+")
+
+
+def _is_separator_cell(cell: str) -> bool:
+    """Check if a table cell is a GFM separator (e.g. ---, :--, --:, :-:)."""
+    return bool(_SEPARATOR_CELL_RE.fullmatch(cell)) and len(cell) >= 3
+
+
+def _get_separator_alignment(cell: str) -> str:
+    """Extract the GFM alignment marker from a separator cell."""
+    if cell.startswith(":") and cell.endswith(":"):
+        return ":-:"
+    if cell.endswith(":"):
+        return "--:"
+    if cell.startswith(":"):
+        return ":--"
+    return "---"
+
+
+def _format_separator_cell(width: int, alignment: str) -> str:
+    """Build a separator cell padded to the given column width."""
+    width = max(width, 3)
+    if alignment == "---":
+        return "-" * width
+    if alignment == ":--":
+        return ":" + "-" * (width - 1)
+    if alignment == "--:":
+        return "-" * (width - 1) + ":"
+    # :-:
+    return ":" + "-" * (width - 2) + ":"
+
+
+def _smart_split_row(line: str) -> list[str] | None:
+    """Split a pipe-table row into cells.
+
+    Uses ``_all_math_ranges`` and ``_all_code_span_ranges`` to identify
+    pipe characters inside math or code spans so they are not treated as
+    cell boundaries.  Also respects backslash-escaped pipes (``\\|``).
+
+    Returns ``None`` if the line is not a valid pipe-table row (must start
+    and end with ``|``).
+    """
+    line = line.rstrip("\n")
+    if not (line.startswith("|") and line.endswith("|")):
+        return None
+    inner = line[1:-1]
+    math_ranges = _all_math_ranges(inner)
+    code_ranges = _all_code_span_ranges(inner)
+    pipes: list[int] = []
+    i = 0
+    while i < len(inner):
+        c = inner[i]
+        if c == "\\" and i + 1 < len(inner) and inner[i + 1] == "|":
+            i += 2
+            continue
+        if (
+            c == "|"
+            and not _is_in_span(i, math_ranges)
+            and not _is_in_span(i, code_ranges)
+        ):
+            pipes.append(i)
+        i += 1
+    cells: list[str] = []
+    start = 0
+    for p in pipes:
+        cells.append(_ZERO_WIDTH_CHARS_RE.sub("", inner[start:p].strip()))
+        start = p + 1
+    cells.append(_ZERO_WIDTH_CHARS_RE.sub("", inner[start:].strip()))
+    return cells
+
+
+def _reformat_table_block(block: list[str]) -> list[str]:
+    """Reformat a single pipe-table block with columns padded to the widest cell per column."""
+    if len(block) < 2:
+        return block
+    parsed: list[list[str]] = []
+    sep_indices: list[int] = []
+    for i, line in enumerate(block):
+        cells = _smart_split_row(line)
+        if cells is None:
+            return block
+        parsed.append(cells)
+        if len(cells) > 0 and all(_is_separator_cell(c) for c in cells):
+            sep_indices.append(i)
+    if not sep_indices:
+        return block
+    ncols = max(len(cells) for cells in parsed)
+    alignments: list[str] = []
+    for j in range(ncols):
+        sep_row_idx = sep_indices[0]
+        sep_cell = parsed[sep_row_idx][j] if j < len(parsed[sep_row_idx]) else ""
+        alignments.append(_get_separator_alignment(sep_cell))
+    col_widths = [0] * ncols
+    for i, cells in enumerate(parsed):
+        if i in sep_indices:
+            continue
+        for j in range(len(cells)):
+            col_widths[j] = max(col_widths[j], len(cells[j]))
+    col_widths = [max(w, 3) for w in col_widths]
+    result: list[str] = []
+    for i, cells in enumerate(parsed):
+        padded = list(cells)
+        while len(padded) < ncols:
+            padded.append("")
+        if i in sep_indices:
+            sep_cells = [
+                _format_separator_cell(col_widths[j], alignments[j])
+                for j in range(ncols)
+            ]
+            result.append("| " + " | ".join(sep_cells) + " |")
+        else:
+            data_cells = [
+                _cfg._JUSTIFY_MAP[alignments[j]](padded[j], col_widths[j])
+                for j in range(ncols)
+            ]
+            result.append("| " + " | ".join(data_cells) + " |")
+    return result
+
+
+def _reformat_blockquoted_tables(text: str) -> str:
+    """Align pipe tables nested inside blockquotes."""
+    lines = text.split("\n")
+    out: list[str] = []
+    i = 0
+    while i < len(lines):
+        line = lines[i]
+        m = _BLOCKQUOTE_PREFIX_RE.match(line)
+        if m and line[m.end() :].startswith("|"):
+            prefix = m.group(0)
+            j = i
+            run: list[str] = []
+            while j < len(lines):
+                cur = lines[j]
+                cm = _BLOCKQUOTE_PREFIX_RE.match(cur)
+                if cm and cm.group(0) == prefix and cur[cm.end() :].startswith("|"):
+                    run.append(cur[cm.end() :])
+                    j += 1
+                else:
+                    break
+            reformatted = _reformat_table_block(run)
+            out.extend(prefix + r for r in reformatted)
+            i = j
+        else:
+            out.append(line)
+            i += 1
+    return "\n".join(out)
+
+
+def _reformat_table(text: str) -> str:
+    """Reformat all pipe-table blocks in _text_ with columns padded to the widest cell per column."""
+    text = _reformat_blockquoted_tables(text)
+    table_blocks = _find_table_blocks(text)
+    if not table_blocks:
+        return text
+    aligned: list[tuple[int, int]] = []
+    for start, end in sorted(table_blocks):
+        newline = text.find("\n", end)
+        aligned.append((start, len(text) if newline < 0 else newline + 1))
+    table_blocks = []
+    for start, end in aligned:
+        if table_blocks and start <= table_blocks[-1][1]:
+            table_blocks[-1] = (table_blocks[-1][0], max(table_blocks[-1][1], end))
+        else:
+            table_blocks.append((start, end))
+    parts: list[str] = []
+    prev_end = 0
+    for start, end in table_blocks:
+        if start < prev_end:
+            continue
+        parts.append(text[prev_end:start])
+        block_text = text[start:end]
+        lines = block_text.split("\n")
+        first = 0
+        while first < len(lines) and not lines[first].startswith("|"):
+            first += 1
+        last = len(lines) - 1
+        while last >= first and not lines[last].startswith("|"):
+            last -= 1
+        if first <= last:
+            if first > 0:
+                parts.append("\n".join(lines[:first]) + "\n")
+            table_slice = lines[first : last + 1]
+            reformatted: list[str] = []
+            i = 0
+            while i < len(table_slice):
+                if table_slice[i].startswith("|"):
+                    j = i
+                    while j < len(table_slice) and table_slice[j].startswith("|"):
+                        j += 1
+                    sub_block = _reformat_table_block(table_slice[i:j])
+                    reformatted.extend(sub_block)
+                    i = j
+                else:
+                    reformatted.append(table_slice[i])
+                    i += 1
+            parts.append("\n".join(reformatted))
+            trailing = lines[last + 1 :]
+            if trailing:
+                parts.append("\n" + "\n".join(trailing))
+        else:
+            parts.append(block_text)
+        prev_end = end
+    parts.append(text[prev_end:])
+    return "".join(parts)
 
 
 def _set_text_align(cell: Tag, align: str) -> None:

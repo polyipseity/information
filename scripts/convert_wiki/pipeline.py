@@ -31,8 +31,9 @@ from .ast_utils import (
 )
 from .converter import WikiHtmlConverter
 from .latex import LatexConverter
+from .table import _reformat_table
 from .types import _RedirectInfo
-from .utils import _ZERO_WIDTH_CHARS_RE, _create_redirect_symlinks, _reformat_table
+from .utils import _ZERO_WIDTH_CHARS_RE, _create_redirect_symlinks
 
 """Exported names from this module."""
 __all__ = ()
