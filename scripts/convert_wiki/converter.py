@@ -1265,6 +1265,25 @@ class WikiHtmlConverter:
             for item in list_ele.find_all("li", recursive=False):
                 TableConverter._wrap_children(item, self._soup, "b")
 
+    def _apply_equation_reference_fixes(
+        self,
+        ele: Tag,
+        prefix: str,
+    ) -> str:
+        """Apply equation-reference anchor and parentheses to numblk spans.
+
+        Equation-reference numbers (the ``math_N`` / ``math_Eq.N`` spans
+        inside numblk tables) need two fixes: (1) an ``<a id>`` anchor so
+        prose links to the equation resolve, and (2) parentheses around
+        bare-integer numbers, which Wikipedia renders via CSS pseudo-elements.
+
+        Returns the updated prefix string.
+        """
+        if self._is_equation_reference(ele):
+            prefix = f"{self._equation_reference_anchor(ele)}{prefix}"
+            self._wrap_bare_integer_number(ele)
+        return prefix
+
     def _handle_bold_italic(self, ele: Tag, classes: frozenset[str]) -> _HandlerConfig:
         """Render bold/italic text with Markdown emphasis markers.
 
@@ -1311,9 +1330,7 @@ class WikiHtmlConverter:
         # Wikipedia renders via CSS pseudo-elements. Both paths (numblk in a
         # ``div.equation-box`` and standalone numblk tables) route the number
         # span through here, so this is the single unified fix point.
-        if self._is_equation_reference(ele):
-            prefix = f"{self._equation_reference_anchor(ele)}{prefix}"
-            self._wrap_bare_integer_number(ele)
+        prefix = self._apply_equation_reference_fixes(ele, prefix)
 
         config = _HandlerConfig(prefix=prefix, suffix=suffix, full_result=False)
 
