@@ -142,7 +142,7 @@ The process begins with {@{the leaf nodes containing the probabilities of the sy
 
 Since {@{efficient priority queue data structures require O\(log _n_\) time per insertion}@}, and {@{a tree with _n_ leaves has 2<!-- markdown separator -->_n_<!-- markdown separator -->−1 nodes}@}, this algorithm operates in {@{O\(_n_ log _n_\) time, where _n_ is the number of symbols}@}.
 
-If {@{the symbols are sorted by probability}@}, there is {@{a [linear-time](time%20complexity.md#linear%20time) \(O\(_n_\)\) method to create a Huffman tree using two [queues](queue%20(abstract%20data%20type).md)}@}, the first one {@{containing the initial weights \(along with pointers to the associated leaves\), and combined weights \(along with pointers to the trees\) being put in the back of the second queue}@}. This assures that {@{the lowest weight is always kept at the front of one of the two queues}@}:
+If {@{the symbols are sorted by probability}@}, there is {@{a [linear-time](time%20complexity.md#linear%20time) \(O\(_n_\)\) method to create a Huffman tree using two [queues](queue%20(abstract%20data%20type).md)}@}, the first one containing {@{the initial weights \(along with pointers to the associated leaves\)}@}, and {@{combined weights \(along with pointers to the trees\) being put in the back}@} of the second queue. This assures that {@{the lowest weight is always kept at the front of one of the two queues}@}:
 
 1. Start with {@{as many leaves as there are symbols}@}.
 2. Enqueue {@{all leaf nodes into the first queue}@} \(by {@{probability in increasing order}@} so that {@{the least likely item is in the head of the queue}@}\).
