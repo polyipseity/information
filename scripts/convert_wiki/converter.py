@@ -24,6 +24,15 @@ Dispatch is split into three tiers:
 The converter must not mutate the HTML tree — all mutations belong in
 ``pipeline._preprocess_html``.  The converter only reads the tree and
 produces text.
+
+Related modules
+---------------
+
+- ``inline_context``: pure functions for inline/display-math context
+  queries (``_in_inline_context``, ``_is_display_math_only``, etc.).
+- ``table``: ``TableConverter`` classmethods for table conversion, plus
+  table formatting functions (column padding, blockquote alignment).
+- ``pipeline``: orchestration (preprocess → convert → postprocess).
 """
 
 import re
@@ -274,6 +283,12 @@ class WikiHtmlConverter:
         Language-specific subdirectory for converted notes.
     """
 
+    """Tag handler registry: maps simple tag names to handler method names.
+
+    Tags in this dict require no extra parameters (no ``list_stack``,
+    ``seen_heading_texts``, or async).  The ``_dispatch`` method uses
+    this dict as a fast lookup before falling back to ``None``.
+    """
     _SIMPLE_TAG_HANDLERS: dict[str, str] = {
         "big": "_handle_big",
         "br": "_handle_br",
