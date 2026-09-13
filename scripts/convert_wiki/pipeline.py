@@ -738,6 +738,39 @@ def _merge_dl_after_thumb_into_list(soup: BeautifulSoup | Tag) -> None:
         dl.decompose()
 
 
+# Block-level tags that prevent a <div> from being "inline-only".
+_BLOCK_TAGS = frozenset(
+    {"p", "ul", "ol", "dl", "table", "blockquote", "pre", "hr"}
+    | {f"h{i}" for i in range(1, 7)}
+)
+
+
+def _unwrap_navbox_inline_divs(soup: BeautifulSoup | Tag) -> None:
+    """Unwrap inline-only <div> wrappers inside navbox-abovebelow cells.
+
+    A ``<td class="navbox-abovebelow">`` that lacks the ``hlist`` class
+    often wraps inline content (an image + a link) in a ``<div>``.  The
+    ``<div>`` block-level handler adds a ``\n\n`` suffix which then
+    becomes ``<br/> <br/>`` in table-cell postprocessing — an unwanted
+    separator between the icon and the link text.
+
+    This function unwraps such ``<div>`` elements (replacing them with
+    their children) so the content stays on one line.
+    """
+    for td in soup.find_all("td", class_=lambda c: c and "navbox-abovebelow" in c):
+        classes = frozenset(td.get_attribute_list("class"))
+        if "hlist" in classes:
+            continue
+        for div in td.find_all("div", recursive=False):
+            # Only unwrap if every child is inline/transparent (no block tags).
+            if any(
+                isinstance(child, Tag) and child.name in _BLOCK_TAGS
+                for child in div.children
+            ):
+                continue
+            div.unwrap()
+
+
 def _preprocess_html(soup: BeautifulSoup | Tag) -> None:
     """Mutate the HTML tree before conversion.
 
@@ -792,6 +825,11 @@ def _preprocess_html(soup: BeautifulSoup | Tag) -> None:
     #    follows a <ul>/<ol>, the <dd> children belong to the last <li>
     #    of that list (they are continuations of the list item content).
     _merge_dl_after_thumb_into_list(soup)
+
+    # 9. Unwrap inline-only <div> wrappers inside navbox-abovebelow cells
+    #    without hlist.  These <div> elements add a block-level suffix
+    #    that becomes a spurious <br/> <br/> separator in the output.
+    _unwrap_navbox_inline_divs(soup)
 
 
 def _merge_adjacent_numblk_tables(ele: PageElement) -> None:
