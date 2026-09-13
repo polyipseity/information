@@ -1,11 +1,17 @@
-"""Table-to-Markdown conversion for Wikipedia HTML tables.
+"""Table handling and formatting for Wikipedia HTML.
 
-Contains ``TableConverter``, a stateless class whose classmethods and
-staticmethods implement the table handling logic extracted from
-``WikiHtmlConverter``.  Each method mirrors the corresponding
-``_handle_*`` method from the converter, modified to accept its
-dependencies (e.g. a BeautifulSoup object for tree manipulation) as
-explicit parameters.
+This module has two responsibilities:
+
+1. **TableConverter**: stateless class whose classmethods/staticmethods
+   handle HTML table conversion to Markdown (``handle_equation_box``,
+   ``handle_standalone_numblk``, ``handle_table``, ``handle_tbody``,
+   etc.).  Extracted from ``WikiHtmlConverter``.
+
+2. **Table formatting** (module-level functions): post-processing of
+   Markdown pipe tables — column padding (``_reformat_table``),
+   blockquoted table alignment (``_reformat_blockquoted_tables``),
+   separator cell parsing (``_is_separator_cell``, ``_smart_split_row``).
+   These were consolidated from ``utils.py``.
 """
 
 import re

@@ -2,6 +2,28 @@
 
 Contains ``WikiHtmlConverter``, the main class that walks a BeautifulSoup
 HTML tree and emits Markdown text via tag-specific handler methods.
+
+Architecture
+------------
+
+The converter follows a **handler protocol**: each HTML tag name maps to a
+``_handle_<tag>`` method that returns a ``_HandlerConfig`` (prefix, suffix,
+joiner, process_strings).  The ``convert`` method walks the tree, calls
+``_dispatch`` to find the right handler, and assembles the result from the
+handler's config.
+
+Dispatch is split into three tiers:
+
+1. **Class-gated** (checked first): selflink, bold-italic, audio, image —
+   these depend on CSS classes, not tag names.
+2. **Parameterized** (need extra args): header (``seen_heading_texts``),
+   ol/ul/li (``list_stack``), anchor (async).
+3. **Simple tag registry** (``_SIMPLE_TAG_HANDLERS``): 21 tags mapped to
+   handler method names via a class-level dict lookup.
+
+The converter must not mutate the HTML tree — all mutations belong in
+``pipeline._preprocess_html``.  The converter only reads the tree and
+produces text.
 """
 
 import re

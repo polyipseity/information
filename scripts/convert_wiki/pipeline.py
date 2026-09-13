@@ -1,8 +1,28 @@
-"""Conversion pipeline orchestration.
+"""Conversion pipeline: preprocess → convert → postprocess.
 
-Contains ``wiki_html_to_plaintext`` (post-processing after the converter)
-and ``run_pipeline`` (the top-level entry point that coordinates redirect
-resolution, image metadata fetching, and conversion).
+This module orchestrates the full Wikipedia HTML-to-Markdown pipeline.
+The pipeline has three logical phases:
+
+1. **Preprocess** (``_preprocess_html``): mutate the HTML tree before
+   conversion — style/CS1 cleanup, numblk table merging, adjacent math
+   merging, external math punctuation normalization, sfrac replacement,
+   annotated-image cleanup.
+
+2. **Convert** (``WikiHtmlConverter.convert``): walk the (now-clean) HTML
+   tree and emit Markdown text.  The converter must not perform tree
+   mutations; it only reads the tree and produces text.
+
+3. **Postprocess** (``wiki_html_to_plaintext``): fix Markdown text —
+   math spacing, table column padding, blockquote MD028 separation,
+   blank-line collapsing.
+
+Key functions:
+
+- ``run_pipeline``: top-level entry point; handles redirect resolution,
+  image metadata fetching, and delegates to ``wiki_html_to_plaintext``.
+- ``wiki_html_to_plaintext``: converts a parsed HTML tree to Markdown,
+  applying preprocessing, conversion, and postprocessing.
+- ``_preprocess_html``: all HTML tree mutations before conversion.
 """
 
 import re
