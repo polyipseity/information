@@ -11,7 +11,7 @@ tags:
 
 __Temperature__ is {@{a [physical quantity](physical%20quantity.md) describing hotness and coldness}@}. <!--SR:!2032-03-01,2288,290-->
 
-Elementarily, temperature can be thought of as {@{the average [kinetic energy](kinetic%20energy.md) of [particles](particle.md)}@}. <!--SR:!2026-10-25,969,330-->
+Elementarily, temperature can be thought of as {@{the average [kinetic energy](kinetic%20energy.md) of [particles](particle.md)}@}. <!--SR:!fsrs,2036-09-16T00:00:00.000Z,3614,3614.17647662,1,2,11,0,0,2026-10-25T00:00:00.000Z-->
 
 ## references
 

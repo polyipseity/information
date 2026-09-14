@@ -36,7 +36,7 @@ tags:
 > {@{__Si(x), si(x)__}@}
 >
 > - {@{$\operatorname{Si}(x)=\int _0 ^x \! \frac {\sin t} t \,\mathrm{d}t$}@}
-> - {@{$\operatorname{si}(x)=\int _\infty ^x \!\frac{\sin{t} }t\,\mathrm{d}t=\operatorname{Si}(x)-\frac\pi2$}@} <!--SR:!2029-05-16,1470,330!2027-02-08,329,270!2026-10-25,350,170-->
+> - {@{$\operatorname{si}(x)=\int _\infty ^x \!\frac{\sin{t} }t\,\mathrm{d}t=\operatorname{Si}(x)-\frac\pi2$}@} <!--SR:!2029-05-16,1470,330!2027-02-08,329,270!fsrs,2028-04-05T00:00:00.000Z,528,528.01245234,8.48672837,2,9,0,0,2026-10-25T00:00:00.000Z-->
 
 ## cosine integral
 

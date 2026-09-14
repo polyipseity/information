@@ -156,7 +156,7 @@ return await memorize_map(
 
 <!--pytextgen generate section="ab2d"--><!-- The following content is generated at 2024-07-10T23:14:22.112551+08:00. Any edits will be overridden! -->
 
-- sine:@:$$\sin(2\theta)=2\sin\theta\cos\theta=(\sin\theta+\cos\theta)^2-1=\frac{2\tan\theta}{1+\tan^2\theta}$$ <!--SR:!2026-10-25,779,250-->
+- sine:@:$$\sin(2\theta)=2\sin\theta\cos\theta=(\sin\theta+\cos\theta)^2-1=\frac{2\tan\theta}{1+\tan^2\theta}$$ <!--SR:!fsrs,2031-01-13T00:00:00.000Z,1541,1541.02096575,5.48972837,2,11,0,0,2026-10-25T00:00:00.000Z-->
 - cosine:@:$$\cos(2\theta)=\cos^2\theta-\sin^2\theta=2\cos^2\theta-1=1-2\sin^2\theta=\frac{1-\tan^2\theta}{1+\tan^2\theta}$$ <!--SR:!2026-11-26,847,270-->
 - tangent:@:$$\tan(2\theta)=\frac{2\tan\theta}{1-\tan^2\theta}$$ <!--SR:!2028-07-08,1183,250-->
 

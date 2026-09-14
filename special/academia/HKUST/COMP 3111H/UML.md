@@ -87,7 +87,7 @@ An association is drawn by {@{a line connecting the class to itself \(unary\)}@}
 
 ### association degree
 
-{@{The _degree_}@} of an association is {@{the number of _distinct_ classes the association relates to}@}. {@{A single class}@} is {@{_unary_}@}. {@{Two classes}@} are {@{_binary_}@}. {@{Three classes}@} are {@{_ternary_}@}. There are {@{other words for higher degrees}@}. <!--SR:!2026-10-25,294,342!2027-03-15,410,370!2026-11-08,308,342!2026-11-03,303,342!2027-02-12,390,361!2027-02-12,390,361!2027-03-13,408,370!2027-03-10,405,370!2026-11-17,307,342-->
+{@{The _degree_}@} of an association is {@{the number of _distinct_ classes the association relates to}@}. {@{A single class}@} is {@{_unary_}@}. {@{Two classes}@} are {@{_binary_}@}. {@{Three classes}@} are {@{_ternary_}@}. There are {@{other words for higher degrees}@}. <!--SR:!fsrs,2030-06-13T00:00:00.000Z,1327,1326.54889029,1,2,9,0,0,2026-10-25T00:00:00.000Z!2027-03-15,410,370!2026-11-08,308,342!2026-11-03,303,342!2027-02-12,390,361!2027-02-12,390,361!2027-03-13,408,370!2027-03-10,405,370!2026-11-17,307,342-->
 
 In practice, most associations are {@{binary}@}. A few are {@{unary}@}, and even fewer are {@{ternary or higher degree}@}. Often, {@{a ternary or higher degree association}@} can be {@{replaced by multiple binary associations}@}, but {@{not always}@}. <!--SR:!2027-03-16,411,370!2026-11-24,314,342!fsrs,2030-06-03T00:00:00.000Z,1319,1318.70869553,1,2,9,0,0,2026-10-23T00:00:00.000Z!2027-01-24,374,361!2027-03-10,405,370!2027-02-14,392,361-->
 
@@ -108,7 +108,7 @@ In practice, there are {@{"multiplicities" that are _soft_ constraints}@}. We {@
 
 ### association roles
 
-{@{A _role_}@} of an association is {@{one _end_ of an association}@}. It describes {@{the _semantics_ of a class participating in the association}@}. It is written on {@{the side of the _current_ class}@}. It is usually {@{_optional_ for binary associations}@}, and always {@{_required_ for unary associations}@}. <!--SR:!fsrs,2030-05-19T00:00:00.000Z,1307,1306.9359048,1,2,9,0,0,2026-10-20T00:00:00.000Z!2026-11-04,304,342!2026-11-10,310,342!2027-03-01,396,361!2026-11-24,314,342!2026-10-25,294,342-->
+{@{A _role_}@} of an association is {@{one _end_ of an association}@}. It describes {@{the _semantics_ of a class participating in the association}@}. It is written on {@{the side of the _current_ class}@}. It is usually {@{_optional_ for binary associations}@}, and always {@{_required_ for unary associations}@}. <!--SR:!fsrs,2030-05-19T00:00:00.000Z,1307,1306.9359048,1,2,9,0,0,2026-10-20T00:00:00.000Z!2026-11-04,304,342!2026-11-10,310,342!2027-03-01,396,361!2026-11-24,314,342!fsrs,2030-06-13T00:00:00.000Z,1327,1326.54889029,1,2,9,0,0,2026-10-25T00:00:00.000Z-->
 
 {@{The _name_}@} of a role should be {@{_unique_ in an association}@}. <!--SR:!2026-11-08,308,342!2027-03-13,408,370-->
 
@@ -158,7 +158,7 @@ This allows us to {@{_simplify_ diagrams for _clarity_}@}, because {@{common att
 
 {@{Most programming languages}@} support {@{_single inheritance_}@}, in which {@{a class can only have at most one _direct_ superclass}@}. {@{A few programming languages}@} support {@{_multiple inheritance_}@}, in which {@{a class can have multiple _direct_ superclasses}@}. <!--SR:!2026-11-29,319,342!2026-11-21,311,342!2026-11-16,316,342!2026-11-06,306,342!2026-11-26,316,342!2026-12-04,324,342-->
 
-\(__this course__: We only consider {@{_single inheritance_ but not _multiple inheritance_}@}.\) <!--SR:!2026-10-25,294,342-->
+\(__this course__: We only consider {@{_single inheritance_ but not _multiple inheritance_}@}.\) <!--SR:!fsrs,2030-06-13T00:00:00.000Z,1327,1326.54889029,1,2,9,0,0,2026-10-25T00:00:00.000Z-->
 
 #### generalization properties
 

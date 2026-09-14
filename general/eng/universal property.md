@@ -114,7 +114,7 @@ It is {@{the pair $(A,u)$ which is essentially unique in this fashion}@}. {@{The
 
 ### equivalent formulations
 
-{@{The definition of a universal morphism}@} can be {@{rephrased in a variety of ways}@}. Let {@{$F:{\mathcal {C} }\to {\mathcal {D} }$ be a functor and let $X$ be an object of ${\mathcal {D} }$}@}. Then the following statements are equivalent: (annotation: they are respectively related to {@{universal morphism, comma category, representable functor}@}) <!--SR:!2029-04-26,1222,350!2028-04-14,899,330!2029-07-29,1293,350!2026-10-25,482,310-->
+{@{The definition of a universal morphism}@} can be {@{rephrased in a variety of ways}@}. Let {@{$F:{\mathcal {C} }\to {\mathcal {D} }$ be a functor and let $X$ be an object of ${\mathcal {D} }$}@}. Then the following statements are equivalent: (annotation: they are respectively related to {@{universal morphism, comma category, representable functor}@}) <!--SR:!2029-04-26,1222,350!2028-04-14,899,330!2029-07-29,1293,350!fsrs,2031-10-30T00:00:00.000Z,1831,1830.68219177,1,2,10,0,0,2026-10-25T00:00:00.000Z-->
 
 - (annotation: universal morphism) ::@:: $(A,u)$ is a universal morphism from $X$ to $F$ <!--SR:!2028-04-26,908,330!2029-07-20,1284,350-->
 - (annotation: comma category) ::@:: $(A,u)$ is an [initial object](initial%20object.md) of the [comma category](comma%20category.md) $(X\downarrow F)$ <!--SR:!2028-08-11,941,330!2029-09-02,1325,350-->

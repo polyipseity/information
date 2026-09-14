@@ -56,7 +56,7 @@ tags:
 
 ### merge sort
 
-{@{The classic divide-and-conquer approach}@} to sorting, {@{_merge sort_}@} is expressed {@{succinctly in Scala}@}: <!--SR:!2026-10-31,287,330!fsrs,2029-10-24T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-09-24T00:00:00.000Z!2026-10-25,282,330-->
+{@{The classic divide-and-conquer approach}@} to sorting, {@{_merge sort_}@} is expressed {@{succinctly in Scala}@}: <!--SR:!2026-10-31,287,330!fsrs,2029-10-24T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-09-24T00:00:00.000Z!fsrs,2030-03-07T00:00:00.000Z,1229,1229.25786194,1,2,9,0,0,2026-10-25T00:00:00.000Z-->
 
 > [!example] __merge sort__
 >

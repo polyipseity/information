@@ -396,7 +396,7 @@ The content is in teaching order. Extra information and corrections are included
 ## week 4 lecture 2
 
 - datetime: 2024-07-11T10:00:00+08:00/2024-07-11T12:30:00+08:00
-- [Issac Newton](../../../../general/Issac%20Newton.md) (1642–1727) ::@:: He is famous for his three laws of motions, law of universal gravitation, invention of calculus, optics, reflecting telescopes, etc. <!--SR:!2026-10-25,598,354!2026-11-01,550,332-->
+- [Issac Newton](../../../../general/Issac%20Newton.md) (1642–1727) ::@:: He is famous for his three laws of motions, law of universal gravitation, invention of calculus, optics, reflecting telescopes, etc. <!--SR:!fsrs,2033-10-23T00:00:00.000Z,2555,2555.32301918,1,2,10,0,0,2026-10-25T00:00:00.000Z!2026-11-01,550,332-->
     - Newton's laws of motion + law of universal gravitation ::@:: They can account for (almost; see Einstein's theories) everything about astronomical-scale objects. <!--SR:!2033-02-25,2556,414!2032-04-10,2288,412-->
 - [Newton's laws of motion](../../../../general/Newton's%20laws%20of%20motion.md)
     - [Newton's laws of motion § first law](../../../../general/Newton's%20laws%20of%20motion.md#first%20law) ::@:: An object either remains at rest or in motion at constant velocity unless a net force acts on it to change its speed and/or direction of motion. <!--SR:!2032-03-05,2266,414!2033-01-09,2512,412-->
@@ -733,7 +733,7 @@ The content is in teaching order. Extra information and corrections are included
     - Messier 42 :@: [(Great) Orion Nebula](../../../../general/Orion%20Nebula.md), constellation Orion; emission nebula <!--SR:!2030-03-16,1585,365-->
     - [IC 2118](../../../../general/IC%202118.md) ::@:: Witch Head Nebula, constellation Orion <!--SR:!2029-07-22,1377,344!2029-04-18,1308,345-->
     - Barnard 33 ::@:: [Horsehead Nebula](../../../../general/Horsehead%20Nebula.md), constellation Orion <!--SR:!2031-06-08,1930,364!2027-05-26,756,325-->
-    - Messier 16 ::@:: [Eagle Nebula](../../../../general/Eagle%20Nebula.md), constellation Serpens; containing the _Pillars of Creation_ <!--SR:!2029-03-27,1289,344!2026-10-25,585,344-->
+    - Messier 16 ::@:: [Eagle Nebula](../../../../general/Eagle%20Nebula.md), constellation Serpens; containing the _Pillars of Creation_ <!--SR:!2029-03-27,1289,344!fsrs,2033-06-20T00:00:00.000Z,2430,2430.17814064,1,2,10,0,0,2026-10-25T00:00:00.000Z-->
     - Messier 8 ::@:: [Lagoon Nebula](../../../../general/Lagoon%20Nebula.md), constellation Sagittarius <!--SR:!2030-06-13,1675,384!fsrs,2031-10-26T00:00:00.000Z,1905,1904.92419092,1,2,10,0,0,2026-08-08T00:00:00.000Z-->
     - [nebula](../../../../general/nebula.md) / Why can we see nebulae? ::@:: They are not stars powered by nuclear fusion. There are 3 main mechanisms: light emission following absorption from nearby stars (stimulated emission; emission nebula), reflection of light from nearby stars (scattering; reflection nebula), and blocking light from behind (absorption; dark nebula). <!--SR:!fsrs,2033-12-23T00:00:00.000Z,2696,2695.84326405,1,2,10,0,0,2026-08-06T00:00:00.000Z!2026-10-30,630,404-->
     - [nebula](../../../../general/nebula.md) / main types ::@:: dark nebula, emission nebula, reflection nebula <!--SR:!fsrs,2033-04-09T10:39:33.707Z,2500,2500.08119484,1,2,10,0,0,2026-06-05T10:39:33.707Z!2027-02-01,703,404-->

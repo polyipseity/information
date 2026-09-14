@@ -182,7 +182,7 @@ Thus {@{the `Monad` type class}@} captures the semantics of both {@{constructing
 
 ## other languages
 
-{@{Higher‑kinded polymorphism}@} is not common {@{outside of Scala and Haskell}@}. The following snippets illustrate {@{the two main patterns used in other mainstream languages}@}. <!--SR:!2026-10-25,206,310!2026-12-12,256,330!2026-11-10,241,330-->
+{@{Higher‑kinded polymorphism}@} is not common {@{outside of Scala and Haskell}@}. The following snippets illustrate {@{the two main patterns used in other mainstream languages}@}. <!--SR:!fsrs,2029-03-14T00:00:00.000Z,871,871.41762991,1,2,9,0,0,2026-10-25T00:00:00.000Z!2026-12-12,256,330!2026-11-10,241,330-->
 
 {@{In _Haskell_}@} a {@{_type class_}@} is declared with {@{`class`}@}. {@{The standard monad abstraction}@} is: <!--SR:!2026-11-01,233,330!2026-11-10,241,330!2027-01-03,279,330!2026-11-18,247,330-->
 

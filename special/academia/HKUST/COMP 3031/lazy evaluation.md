@@ -413,6 +413,6 @@ However, to obtain {@{true laziness in OCaml}@} one must explicitly {@{wrap the 
 > ```Ocaml
 > let rec guesses = Stream.cons (fun () -> (1, Stream.map improve guesses))
 > ```
-<!--SR:!2026-12-02,303,345!2027-01-04,329,345!2026-12-01,302,345!2026-12-13,310,345!2026-10-25,269,345-->
+<!--SR:!2026-12-02,303,345!2027-01-04,329,345!2026-12-01,302,345!2026-12-13,310,345!fsrs,2030-03-18T00:00:00.000Z,1240,1240.10942973,1,2,9,0,0,2026-10-25T00:00:00.000Z-->
 
 Thus, while Haskell relies on {@{implicit laziness for all lists}@}, OCaml requires {@{explicit constructs to defer computation}@}. {@{Scala's `LazyList`}@} is {@{similar in spirit to Haskell lists}@} but requires {@{explicit construction like OCaml}@}. <!--SR:!2026-12-16,314,345!2026-12-17,315,345!2026-12-29,325,345!2026-12-29,325,345!2026-11-27,299,345-->
