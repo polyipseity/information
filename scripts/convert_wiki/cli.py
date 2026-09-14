@@ -265,6 +265,7 @@ async def _run_redirect_maintenance(*, dry_run: bool) -> None:
             "Accept-Encoding": "gzip",
             "User-Agent": _cfg.USER_AGENT,
         },
+        trust_env=True,
     ) as raw_session:
         session = RetryClient(
             client_session=raw_session,

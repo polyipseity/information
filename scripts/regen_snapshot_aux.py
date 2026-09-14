@@ -154,6 +154,7 @@ async def main(argv: Sequence[str] | None = None) -> None:
     async with ClientSession(
         connector=TCPConnector(limit_per_host=_cfg._MAX_CONCURRENT_REQUESTS_PER_HOST),
         headers={"Accept-Encoding": "gzip", "User-Agent": _cfg.USER_AGENT},
+        trust_env=True,
     ) as session:
         for name in names:
             aux_path = _SNAPSHOT_DIRECTORY / f"{name}.aux.json"

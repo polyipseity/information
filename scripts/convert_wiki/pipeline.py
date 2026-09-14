@@ -256,6 +256,7 @@ async def _create_session_and_run(
             "Accept-Encoding": "gzip",
             "User-Agent": _cfg.USER_AGENT,
         },
+        trust_env=True,
     ) as raw_session:
         session = RetryClient(
             client_session=raw_session,
