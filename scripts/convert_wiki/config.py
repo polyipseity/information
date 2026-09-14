@@ -200,10 +200,6 @@ _API_MAX_TITLES_PER_REQUEST = 50
 "TTL for the redirect cache."
 _CACHE_TTL = timedelta(days=1)
 
-
-# Regex patterns
-"Regex for filesystem-unsafe characters in filenames."
-_BAD_CHARACTERS: Pattern[str] = compile(r"[/:\\]")
 "Regex for escaping special Markdown characters."
 _MARKDOWN_ESCAPE_REGEX: Pattern[str] = compile(r"[#$()*<>\\[\\\]_`|]")
 "Wikimedia media hosts serving uploads and thumbnails."

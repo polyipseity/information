@@ -8,6 +8,7 @@ from collections.abc import Mapping
 from os import PathLike
 from urllib.parse import unquote
 
+import pathvalidate
 from anyio import Path
 from bs4 import Tag
 from yarl import URL
@@ -166,7 +167,9 @@ async def _remove_redirect_symlinks(
 
 def _fix_filename(name: str) -> str:
     """Replace filesystem-unsafe characters with underscores."""
-    return _cfg._BAD_CHARACTERS.sub("_", name)
+    return pathvalidate.sanitize_filename(
+        name, platform="windows", replacement_text="_"
+    )
 
 
 def _strip_url_query(url: URL) -> URL:

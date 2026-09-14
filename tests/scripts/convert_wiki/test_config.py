@@ -191,10 +191,6 @@ class TestNewApiConstants:
 class TestNewRegexConstants:
     """Tests for regex constants moved to module level."""
 
-    def test_bad_characters_compiled(self) -> None:
-        """_BAD_CHARACTERS should be a compiled regex."""
-        assert hasattr(_mod._BAD_CHARACTERS, "search")  # noqa: SLF001
-
     def test_header_regex(self) -> None:
         """_HEADER_REGEX should match h1-h6 (converter's stricter pattern)."""
 

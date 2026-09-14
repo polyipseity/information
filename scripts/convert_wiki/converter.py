@@ -40,6 +40,7 @@ from collections.abc import Iterable, Mapping, MutableSet
 from os import PathLike
 from urllib.parse import quote, unquote
 
+import pathvalidate
 from anyio import Path
 from asyncer import SoonValue, create_task_group
 from bs4 import BeautifulSoup, NavigableString, PageElement, Tag
@@ -2130,6 +2131,9 @@ class WikiHtmlConverter:
             if not (match := regex.search(src_url.human_repr())):
                 continue
             to_archive = unquote(match[1])
+            to_archive = pathvalidate.sanitize_filename(
+                to_archive, platform="windows", replacement_text="_"
+            )
             self._out_to_archive.add(formats[0].format(to_archive))
             src_url_str = quote(formats[1].format(to_archive.replace("_", " ")))
         return src_url_str
