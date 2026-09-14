@@ -77,7 +77,7 @@ The Fourier transform of the sampling train is $P_T(\omega)=\frac{2\pi}{T}\sum_{
 
 Ideal sampling replicates the original spectrum every $\omega_s$, with each copy scaled by $1/T$. If the original spectrum is narrow enough, copies stay separate. If they overlap, different continuous-time frequencies become indistinguishable.
 
-The geometry is worth emphasizing. A larger sampling frequency pushes the spectral replicas farther apart; a smaller one pulls them closer. So the theorem is really about spacing between copies versus the width of each copy.
+The geometry here is key. A larger sampling frequency pushes the spectral replicas farther apart; a smaller one pulls them closer. So the theorem is really about spacing between copies versus the width of each copy.
 
 ---
 

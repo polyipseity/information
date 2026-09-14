@@ -219,16 +219,12 @@ Worked examples: $x(t)=1+\sin t$: DC part $1$, AC part $\sin t$, average power $
 
 Flashcards for this section are as follows:
 
-- What is $\operatorname{atan2}(y,x)$? ::@:: It returns the principal argument of $x+jy$, usually in $(-\pi,\pi]$. Use it instead of $\arctan(y/x)$ because it preserves quadrant and handles $x=0$.
-- What does $\operatorname{atan2}(y,x)$ do that $\arctan(y/x)$ cannot do reliably? ::@:: It uses the signs of both $x$ and $y$ to select the correct quadrant and still works when $x=0$, whereas $\arctan(y/x)$ only sees a ratio and loses quadrant information.
+- What is $\operatorname{atan2}(y,x)$ and why prefer it over $\arctan(y/x)$? ::@:: It returns the principal argument of $x+jy$ in $(-\pi,\pi]$ by using the signs of both $x$ and $y$ to pick the correct quadrant, and it still works when $x=0$. $\arctan(y/x)$ only sees a ratio and loses quadrant information.
 - How is $\operatorname{atan2}$ interpreted geometrically in complex-number language? ::@:: It is the directed angle from the positive real axis to the vector ending at $(x,y)$, i.e., the phase of $x+jy$.
 - What is the robust Fourier phase formula? ::@:: $\phi(\omega)=\operatorname{atan2}(\Im\{F(\omega)\},\Re\{F(\omega)\})$.
 - What are the rectangular and polar forms of a complex number? ::@:: $z=x+jy$ (rectangular) or $z=re^{j\theta}$ (polar), with $r=|z|$, $\theta=\arg z$.
 - What is Euler's relation? ::@:: $e^{j\theta}=\cos\theta+j\sin\theta$.
-- What is the relationship between the vector dot product and a signal inner product? ::@:: The dot product is the finite-dimensional vector measure of alignment, while the inner product is its signal-space generalization, usually built from an integral or a sum.
-- What does orthogonality mean in signal language? ::@:: It means the relevant inner product of the two signals is zero, just as perpendicular vectors have zero dot product.
-- How can $\cos(\omega t)$ and $\sin(\omega t)$ be written with complex exponentials? ::@:: $\cos(\omega t)=\frac{e^{j\omega t}+e^{-j\omega t}}{2}$, $\sin(\omega t)=\frac{e^{j\omega t}-e^{-j\omega t}}{2j}$.
-- What is orthogonality in signal language? ::@:: The inner product of two signals is zero, like perpendicular vectors having zero dot product.
+- What does orthogonality mean in signal language? ::@:: The inner product of two signals is zero, like perpendicular vectors having zero dot product.
 - How can a periodic signal be split into DC and AC? ::@:: $x(t)=x_{\mathrm{DC}}+x_{\mathrm{AC}}(t)$, where $x_{\mathrm{DC}}$ is the period average and $x_{\mathrm{AC}}$ has zero mean. Power splits additively.
 - For a periodic signal, how is the DC component obtained? ::@:: It is the average of the signal over one period.
 - Why does the DC-AC cross term vanish in the power split? ::@:: The AC component has zero average over one period, so the mixed term integrates to zero.
