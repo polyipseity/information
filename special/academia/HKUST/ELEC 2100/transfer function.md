@@ -89,6 +89,7 @@ Flashcards for this section are as follows:
 - What are the zero-state Laplace impedances and admittances of $R$, $L$, $C$? ::@:: $Z_R=R$, $Z_L=sL$, $Z_C=\frac{1}{sC}$; $Y_R=\frac{1}{R}$, $Y_L=\frac{1}{sL}$, $Y_C=sC$.
 - Why does impedance suit series and admittance suit parallel? ::@:: Series: shared current, voltages add. Parallel: shared voltage, currents add.
 - For a series RLC with output across the capacitor, what is $Z(s)$ and the transfer ratio? ::@:: $Z(s)=R+sL+\frac{1}{sC}$. $\frac{V_C(s)}{V_{\text{in}}(s)}=\frac{1}{LCs^2+RCs+1}$.
+- When does a dynamic circuit become a transfer-function object in the Laplace domain? ::@:: After removing initial-condition source terms and working in the zero-state Laplace domain. The remaining algebra describes the intrinsic input-output law of the network rather than one particular total response.
 
 ## two-port descriptions and parameter matrices
 
@@ -113,6 +114,8 @@ Flashcards for this section are as follows:
 - Why use a two-port matrix instead of a scalar transfer ratio? ::@:: It keeps all four port variables visible, so loading, port choices, and interconnections can be handled without redefining the network.
 - What are the mnemonics for $z$, $y$, $h$, $g$, and $ABCD$? ::@:: $z$: voltages from currents. $y$: currents from voltages. $h$: mixed variables. $g$: dual of $h$. $ABCD$: chain parameters for cascades.
 - Why are $ABCD$ parameters useful for cascades? ::@:: Cascaded two-ports multiply as matrices in cascade order.
+- What are the defining equations of the $z$-parameter and $y$-parameter descriptions? ::@:: $z$: $\begin{bmatrix}V_1\\V_2\end{bmatrix}=\begin{bmatrix}z_{11}&z_{12}\\z_{21}&z_{22}\end{bmatrix}\begin{bmatrix}I_1\\I_2\end{bmatrix}$. $y$: $\begin{bmatrix}I_1\\I_2\end{bmatrix}=\begin{bmatrix}y_{11}&y_{12}\\y_{21}&y_{22}\end{bmatrix}\begin{bmatrix}V_1\\V_2\end{bmatrix}$.
+- What are the defining equations of the $ABCD$, $h$, and $g$ parameter descriptions? ::@:: $ABCD$: $\begin{bmatrix}V_1\\I_1\end{bmatrix}=\begin{bmatrix}A&B\\C&D\end{bmatrix}\begin{bmatrix}V_2\\-I_2\end{bmatrix}$. $h$: $\begin{bmatrix}V_1\\I_2\end{bmatrix}=\begin{bmatrix}h_{11}&h_{12}\\h_{21}&h_{22}\end{bmatrix}\begin{bmatrix}I_1\\V_2\end{bmatrix}$. $g$: $\begin{bmatrix}I_1\\V_2\end{bmatrix}=\begin{bmatrix}g_{11}&g_{12}\\g_{21}&g_{22}\end{bmatrix}\begin{bmatrix}V_1\\I_2\end{bmatrix}$.
 
 ## obtaining transfer functions from circuit and differential-equation models
 
@@ -150,6 +153,8 @@ Flashcards for this section are as follows:
 - Why is the transfer function usually rational in $s$? ::@:: Derivatives become powers of $s$ in the Laplace domain.
 - Why must initial conditions be excluded from $H(s)$? ::@:: $H(s)$ is the zero-state input-output law; initial conditions belong to the total response.
 - For $r''+5r'+6r=e'+2e$, what is $H(s)$ and $h(t)$? ::@:: $H(s)=\frac{1}{s+3}$, $h(t)=e^{-3t}u(t)$.
+- What is the basic workflow for obtaining $H(s)=\frac{R(s)}{E(s)}$ from a circuit diagram? ::@:: Choose excitation and response variables, draw the zero-state $s$-domain equivalent circuit, solve the algebraic equations, then form $H(s)=\frac{R(s)}{E(s)}$.
+- In the example $H(s)=\frac{s+2}{(s+2)(s+3)}$, why is $s=-2$ not a true pole or zero? ::@:: Because the factor $s+2$ cancels in the reduced form, so it is a removable common factor rather than a true pole or zero of the transfer function.
 
 ## poles, zeros, and pole-zero plots
 

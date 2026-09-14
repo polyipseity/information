@@ -89,6 +89,7 @@ Flashcards for this section are as follows:
 - derivation / Fourier series convolution ::@:: Step 1: write $f=\sum_m F_m e^{jm\omega_0 t}$, $g=\sum_n G_n e^{jn\omega_0 t}$. <br/> Step 2: substitute into $h(t)=\int_{t_0}^{t_0+T_0}f(\tau)g(t-\tau)d\tau$ and use orthogonality. <br/> Step 3: only $m=n$ terms survive with weight $T_0$, so $H_k=T_0F_kG_k$.
 - derivation / Fourier series multiplication ::@:: Step 1: $h=fg=\sum_m\sum_n F_mG_n e^{j(m+n)\omega_0 t}$. <br/> Step 2: regroup by $k=m+n$ → $H_k=\sum_m F_mG_{k-m}$.
 - derivation / Fourier series Parseval ::@:: Step 1: $|f|^2=\sum_k\sum_m F_k\overline{F_m}e^{j(k-m)\omega_0 t}$. <br/> Step 2: average over one period, orthogonality kills $k\neq m$. <br/> Step 3: $\frac{1}{T_0}\int|f|^2dt=\sum_k |F_k|^2$.
+- why is an energy Parseval formula not generally applicable in the Fourier-series corner? ::@:: Because any nonzero periodic signal has infinite total energy, so average power rather than total energy is the natural norm in Fourier series.
 
 ## time discretization of Fourier transform gives DTFT
 
@@ -116,6 +117,7 @@ Flashcards for this section are as follows:
 - derivation / DTFT convolution ::@:: Step 1: $Y(e^{j\Omega})=\sum_n(\sum_m x[m]h[n-m])e^{-j\Omega n}$. <br/> Step 2: interchange sums, let $r=n-m$: inner sum becomes $e^{-j\Omega m}H(e^{j\Omega})$. <br/> Step 3: $Y(e^{j\Omega})=X(e^{j\Omega})H(e^{j\Omega})$.
 - derivation / DTFT multiplication ::@:: Step 1: substitute inverse DTFT of $x[n]$ into $Y(e^{j\Omega})=\sum_n x[n]h[n]e^{-j\Omega n}$. <br/> Step 2: interchange sum and integral → $Y(e^{j\Omega})=\frac{1}{2\pi}\int X(e^{j\theta})H(e^{j(\Omega-\theta)})d\theta$.
 - derivation / DTFT Parseval ::@:: Step 1: $E=\sum_n x[n]\overline{x[n]}$. <br/> Step 2: substitute $\overline{x[n]}=\frac{1}{2\pi}\int \overline{X(e^{j\Omega})}e^{-j\Omega n}d\Omega$. <br/> Step 3: interchange sum and integral → $E=\frac{1}{2\pi}\int |X(e^{j\Omega})|^2d\Omega$.
+- why is a general power Parseval formula not the natural object in the ordinary DTFT corner? ::@:: Because power sequences such as periodic sequences are more naturally represented by line spectra and are therefore better handled by DTFS/DFS rather than by the ordinary finite-energy DTFT pair.
 
 ## the Fourier-series branch reaches DFT by discretizing time again
 
@@ -141,6 +143,7 @@ Flashcards for this section are as follows:
 - derivation / DFT convolution ::@:: Step 1: substitute inverse DFT into circular convolution. <br/> Step 2: finite-grid orthogonality → only equal bin indices survive. <br/> Step 3: $Y[k]=X[k]H[k]$.
 - derivation / DFT multiplication ::@:: Step 1: substitute inverse DFT expansions of $x[n]$ and $h[n]$ into $y[n]=x[n]h[n]$. <br/> Step 2: regroup by bin difference modulo $N$ → $Y[k]=\frac{1}{N}(X\circledast H)[k]$.
 - derivation / DFT Parseval ::@:: Step 1: substitute inverse DFT into $\sum|x[n]|^2$. <br/> Step 2: orthogonality kills cross terms → $\sum|x[n]|^2=\frac{1}{N}\sum|X[k]|^2$.
+- what is the corresponding average-power formula for the implicit periodic extension of a DFT record? ::@:: The average power per period is $\frac{1}{N}\sum_{n=0}^{N-1}|x[n]|^2=\frac{1}{N^2}\sum_{k=0}^{N-1}|X[k]|^2$.
 
 ## the DTFT branch reaches the same DFT by discretizing frequency again
 

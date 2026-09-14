@@ -30,6 +30,8 @@ Flashcards for this section are as follows:
 
 - What is modulation? ::@:: It shifts a baseband signal to a carrier band for transmission and channel separation.
 - What is demodulation? ::@:: It reverses that carrier translation to recover the original signal at baseband.
+- What broad mobile-generation sequence uses modulation? ::@:: 1G through 6G each rely on different modulation schemes to achieve higher data rates and spectral efficiency.
+- What modern engineering targets drive modulation design? ::@:: High speed, wide bandwidth, reliability, and low latency.
 
 ## communication setting and channel constraints
 

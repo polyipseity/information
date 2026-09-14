@@ -38,6 +38,8 @@ Flashcards for this section are as follows:
 - What does the DFT do? ::@:: It converts $N$ samples into $N$ frequency-bin coefficients at $\Omega_k=2\pi k/N$.
 - Why is the DFT not just the DTFT at fewer points? ::@:: Because the DFT treats a finite record as one period of a periodic extension, so circular shift and circular convolution are built into the model.
 - Where does this note sit among the Fourier notes? ::@:: DFT: finite-grid computational transform for discrete data. DTFT: continuous digital-frequency variable for general sequences. Fourier series/transform: continuous-time periodic/aperiodic counterparts.
+- What core problem does the DFT note solve in ELEC 2100? ::@:: It converts a finite record of samples into a finite set of frequency-bin coefficients so discrete data can be analyzed, computed, and reconstructed on an $N$-point grid.
+- How should you compare the DTFT note and the DFT note quickly? ::@:: The DTFT note covers discrete-time spectral analysis for general and periodic sequences using the continuous digital-frequency variable $\Omega=\omega T$, while the DFT note covers the finite-data computational transform obtained by sampling that digital frequency on an $N$-point grid.
 
 ## definition and inverse transform
 
@@ -61,6 +63,7 @@ Flashcards for this section are as follows:
 - What do the indices $n$ and $k$ represent in the DFT? ::@:: $n$ labels time-domain sample positions inside the finite record, while $k$ labels discrete frequency bins.
 - Why can the inverse DFT recover the record exactly from the $N$ coefficients? ::@:: Because the complex exponential basis vectors are orthogonal over the length-$N$ grid, so the transform coefficients give a complete coordinate description of the finite record.
 - What conjugate-symmetry rule holds for real sequences? ::@:: $X[N-k]=X^*[k]$, so bins come in conjugate pairs with equal magnitude and opposite phase. Self-partner bins ($k=0$, and $k=N/2$ when $N$ even) are purely real.
+- Why are $k=0$ and $k=N/2$ special in DFT conjugate symmetry? ::@:: They are their own negative-frequency partners modulo $N$. The DC bin has no distinct partner, and the Nyquist bin has none when $N$ is even, so each must equal its own conjugate and hence be real.
 - Worked case: Why does $x[n]=\{1,1,1,1\}$ produce only a DC DFT? ::@:: $X[0]=4$. For $k=1,2,3$, the phasors complete full cycles and cancel, so $X[1]=X[2]=X[3]=0$.
 - Worked case: Why does $x[n]=\{1,0,0,0\}$ give $X[k]=1$ for every bin? ::@:: Only the $n=0$ term is nonzero, and $e^0=1$, so every bin gets the same contribution.
 
@@ -116,6 +119,7 @@ Flashcards for this section are as follows:
 - What is the course-material distinction between DTFS/DFS and DFT? ::@:: DTFS/DFS: explicitly periodic sequences. DFT: finite records with implicit periodic extension.
 - How are DTFS/DFS and DFT related algebraically? ::@:: $X[k]=N\tilde X[k]$. Same basis functions, same modulo-$N$ indexing.
 - What is the memory rule for $1/N$ placement? ::@:: DTFS: average-first ($1/N$ in analysis). DFT: sum-first ($1/N$ in the inverse).
+- Why is DTFS/DFS mainly grouped with the DFT note rather than the DTFT note? ::@:: Because DTFS/DFS and DFT both use one finite harmonic coefficient cycle for period-$N$ data, whereas the general DTFT uses the continuous digital-frequency variable $\Omega=\omega T$ and represents periodic sequences by a line spectrum.
 
 ## periodic sequences and discrete-time Fourier series
 

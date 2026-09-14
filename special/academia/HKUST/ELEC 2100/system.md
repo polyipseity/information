@@ -32,6 +32,8 @@ This note covers general systems vocabulary: what a system is, how it is modeled
 Flashcards for this section are as follows:
 
 - What is a system in ELEC 2100? ::@:: A rule or device that maps an input signal to an output signal.
+- What is the central systems question in this topic? ::@:: It is how the system transforms the input signal into the output signal: whether it amplifies, filters, delays, distorts, or transforms it.
+- Why is the systems viewpoint central in ELEC 2100? ::@:: It connects signal descriptions to later transform-based analysis of linear time-invariant systems.
 - How does this note relate to the companion LTI notes? ::@:: This note covers core vocabulary and classification; `continuous-time LTI system.md`, `discrete-time LTI system.md`, and `convolution.md` cover the detailed response mechanics.
 
 ## system meaning and communication context
@@ -53,6 +55,8 @@ Flashcards for this section are as follows:
 - What do $e(t)$ and $r(t)$ denote? ::@:: $e(t)$ denotes excitation (input), and $r(t)$ denotes response (output).
 - Why do communication examples belong in a systems topic? ::@:: They show information is carried by signals and shaped by systems at every stage of a transmission chain.
 - What historical examples make the communication-systems viewpoint concrete? ::@:: Morse's 1844 telegraph transmission and Bell's 1876 telephone transmission show that systems are engineered mechanisms for carrying messages.
+- What broad mobile-generation sequence is used in the introductory systems survey? ::@:: The survey moves from 1G analog systems in the 1980s through 2G, 2.5G, 3G, 4G, and 5G from about 2019 onward, with 6G as the next horizon.
+- What modern engineering targets are emphasized in the communication-systems survey? ::@:: High speed, wide bandwidth, high reliability, and low latency are key modern communication-system targets.
 - What is the difference between signal theory and system theory? ::@:: Signal theory studies signals themselves; system theory studies how systems act on signals.
 - What is the difference between system analysis and system synthesis? ::@:: System analysis asks for the output of a given system; system synthesis designs a system to achieve desired behavior.
 
@@ -71,6 +75,7 @@ Flashcards for this section are as follows:
 - What is a continuous-time system in operator form? ::@:: A system acting on signals such as $e(t)$, giving outputs such as $r(t)=H[e(t)]$.
 - What is a discrete-time system in operator form? ::@:: A system acting on sequences such as $x[n]$, giving outputs such as $y[n]=H[x[n]]$.
 - What are the standard mathematical models for continuous-time and discrete-time systems? ::@:: Differential equations for continuous-time, difference equations for discrete-time.
+- Why are mathematical models central to system analysis? ::@:: They let us compute responses under given excitation and initial conditions, and then interpret those responses physically.
 - What do block diagrams contribute beyond equations? ::@:: They show the structural interconnection of elementary operations inside the system.
 
 ## memoryless, dynamic, lumped, and distributed systems
@@ -84,6 +89,7 @@ Test properties one at a time. The checklist: Does the rule use only the present
 Flashcards for this section are as follows:
 
 - What are the two different classification axes introduced here? ::@:: Memoryless versus dynamic asks whether other times matter to the output, and lumped versus distributed asks whether the model depends only on time or also on spatial coordinates.
+- What checklist makes system-property testing safer? ::@:: Test one property question at a time: present-only dependence for memorylessness, future-input dependence for causality, superposition for linearity, shift-commutation for time invariance, bounded-input behavior for stability, and one-to-one recovery for invertibility.
 
 ### memorylessness
 
@@ -142,6 +148,7 @@ The comparison examples show several distinct failure modes. The affine-delay ru
 Flashcards for this section are as follows:
 
 - What is invertibility? ::@:: A system is invertible if different inputs produce different outputs, so an inverse system can recover the input; it is non-invertible when different inputs collapse to the same output.
+- What does non-invertible mean? ::@:: A system is non-invertible when different inputs collapse to the same output, so unique recovery is impossible.
 - Which examples are invertible or non-invertible? ::@:: $y(t)=2x(t-1)+1$ is invertible via $x(t)=\frac{y(t+1)-1}{2}$; $\cos(x(t))$, the even-part operator, $\max\{x[n],x[n-1]\}$, and $n\,x[2n]$ are non-invertible.
 
 ### linearity
@@ -217,6 +224,12 @@ The comparison examples are useful here as well. The affine-delay rule, the poin
 Flashcards for this section are as follows:
 
 - What is causality? ::@:: A system is causal if the output at time $t$ depends only on input values at times $\tau\le t$ and never on future values.
+- What is the intuition behind causality? ::@:: Causal means the system can react only after information arrives; noncausal means some part of the rule reaches into the future.
+- What is the impulse-response test for causality? ::@:: In a linear kernel description, causality means $h(t,\tau)=0$ for $\tau>t$; for an LTI system this becomes $h(t)=0$ for negative time.
+- What is the causal example? ::@:: $y(t)=x(t)+x(t-2)$ with $h(t)=\delta(t)+\delta(t-2)$; uses only present and past input values.
+- What is the noncausal counterexample? ::@:: $y(t)=x(t+2)$ with $h(t)=\delta(t+2)$; negative-time support means the output depends on future input.
+- Which examples are causal? ::@:: $y(t)=2x(t-1)+1$ (affine delay), $y(t)=\cos(x(t))$ (pointwise cosine), and $\max\{x[n],x[n-1]\}$ (windowed maximum) are causal because they use only present or past samples.
+- Which examples are noncausal? ::@:: The even-part operator $\tfrac12(x(t)+x(-t))$ because $x(-t_0)$ can lie in the future, and $n\,x[2n]$ because for positive $n$ it asks for a future sample.
 - What is the intuition behind causality? ::@:: Causal means the system can react only after information arrives; noncausal means some part of the rule reaches into the future.
 - What is the impulse-response test for causality? ::@:: In a linear kernel description, causality means $h(t,\tau)=0$ for $\tau>t$; for an LTI system this becomes $h(t)=0$ for negative time.
 - What is the causal example? ::@:: $y(t)=x(t)+x(t-2)$ with $h(t)=\delta(t)+\delta(t-2)$; uses only present and past input values.

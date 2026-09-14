@@ -134,7 +134,9 @@ Flashcards for this section are as follows:
 - Why does the interpolation pass exactly through sample values? ::@:: Each shifted kernel equals $1$ at its own sample and $0$ at all others.
 - Why is $\sigma=T$ required in $h_{\sigma}(t)=\operatorname{Sa}(\pi t/\sigma)$? ::@:: Zero crossings must land at the other sampling instants spaced by $T$.
 - How does changing $\sigma$ affect the kernel and frequency selector? ::@:: Larger $\sigma$ gives a wider time kernel and narrower frequency selector; smaller $\sigma$ gives the opposite.
+- Why does this section use $\sigma$ instead of $\tau$ for interpolation-kernel scale? ::@:: To avoid notation collision with $\tau$ commonly used as rectangular-pulse width in transform-pair formulas. Here $\sigma$ is reserved for interpolation-kernel scaling.
 - Why is convolution with a sinc kernel the right reconstruction operation? ::@:: Because the reconstruction filter $H_r(\omega)$ is rectangular in frequency, so its impulse response is sinc in time. Convolution with this kernel selects the central spectral replica.
+- Why is Sa / $\operatorname{sinc}_{\pi}$ called the ideal interpolation kernel for uniform sampling? ::@:: It is the exact reconstruction kernel from the ideal rectangular low-pass filter. Each shifted kernel equals $1$ at its own sampling instant and $0$ at all others, so neighboring samples do not interfere.
 - How do you derive the sinc interpolation formula from the reconstruction filter? ::@:: Convolve the sampled impulse train $x_s(t)=\sum_n x(nT)\delta(t-nT)$ with $h_r(t)=\operatorname{Sa}(\pi t/T)$. Each shifted impulse produces $x(nT)h_r(t-nT)$; summing gives the interpolation formula.
 
 ## practical reconstruction filters
@@ -179,6 +181,9 @@ This appears in many settings: digital telephony removes content above $4\text{ 
 Flashcards for this section are as follows:
 
 - What is aliasing? ::@:: Undersampling causes spectral copies to overlap, mixing different continuous-time frequencies.
+- Why does aliasing destroy unique reconstruction? ::@:: Once spectral copies overlap, several different original continuous-time spectra can produce the same sampled sequence.
+- What is an anti-aliasing filter? ::@:: A low-pass filter placed before the sampler to remove frequency components above half the sampling frequency so spectral replicas will not overlap.
+- What is the key intuition behind aliasing? ::@:: Sampling remembers only normalized digital frequency, so different analog frequencies that differ by multiples of the sampling rate can collapse onto the same discrete-time oscillation.
 - Why is anti-aliasing done before sampling? ::@:: Once aliasing folds frequencies together, the distinction cannot be recovered.
 - If $x(t)=\cos(10t)$ is sampled at $\omega_s=14$, what alias appears? ::@:: The $10\text{ rad/s}$ cosine aliases to $4\text{ rad/s}$, since $\omega_s-10=4$.
 - What does the anti-aliasing block diagram look like? ::@:: $x(t) \to$ LPF $\to$ sampler $\to x_d[n]$.

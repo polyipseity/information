@@ -52,9 +52,13 @@ Signal shape does not guarantee meaning. The same waveform can represent differe
 Flashcards for this section are as follows:
 
 - What is the difference between a message and a signal? ::@:: A message is the content to be conveyed; a signal is the representation that carries it.
+- What are common examples of messages? ::@:: Voice, text, images, and data.
 - What are common representation methods? ::@:: Waveform (graphical), formula (analytical), or table of values (numerical).
+- How can the same message appear as different signals? ::@:: A spoken sentence may be an acoustic pressure wave, then a microphone voltage, then a digital bitstream.
 - Why does the same waveform not always have the same meaning? ::@:: Meaning depends on the encoding rule, so different systems can interpret the same shape differently.
 - Why process a signal? ::@:: To make useful structure easier to detect, measure, transmit, or interpret, not to change the message itself.
+- How does noise reduction motivate signal processing? ::@:: Filtering suppresses unwanted noise so the useful signal becomes easier to hear or analyze.
+- Why is noise still treated as a signal in ELEC 2100? ::@:: Because it is an unwanted random component carried by the same mathematical signal framework.
 
 ## signal classifications
 
@@ -73,12 +77,18 @@ These labels are parallel, not mutually exclusive. For example, $\cos t$ is dete
 Flashcards for this section are as follows:
 
 - What are the five signal-classification axes? ::@:: Deterministic vs random, continuous-time vs discrete-time, periodic vs aperiodic, energy vs power, one-dimensional vs multidimensional.
-- What is a deterministic signal? One that is specified exactly.
-- What is a random signal? One described statistically, not predictable pointwise.
+- What is a deterministic signal? ::@:: One that is specified exactly, so its value is fixed once the formula or waveform is known.
+- What is a random signal? ::@:: One described statistically, not predictable pointwise.
+- How does noise fit into the deterministic-vs-random classification? ::@:: Noise is usually modeled as random, while a prescribed waveform such as a test tone is deterministic.
 - What is a continuous-time signal? ::@:: $x(t)$, defined for every relevant value of a continuous variable.
 - What is a discrete-time signal? ::@:: $x[n]$, defined only at integer indices.
 - What is a digital signal? ::@:: Discrete in time _and_ quantized in amplitude.
+- What is the difference between a one-dimensional and a multidimensional signal? ::@:: A one-dimensional signal depends on one independent variable; a multidimensional signal depends on several (e.g. time and space).
+- Why is the Wi-Fi visualization example multidimensional? ::@:: Signal strength is observed over a spatial arrangement rather than along one scalar axis.
+- Why are signal classifications called parallel rather than hierarchical? ::@:: Labels such as deterministic, continuous-time, periodic, and one-dimensional answer different questions and may all apply simultaneously.
 - How is $\cos t$ classified? ::@:: Deterministic, continuous-time, periodic, one-dimensional, power signal.
+- How is a finite pulse typically classified? ::@:: Deterministic, continuous-time, aperiodic, one-dimensional, energy signal.
+- How may a sampled noise sequence be classified? ::@:: Random, discrete-time, and aperiodic at the same time.
 
 ## periodicity, energy, and power
 
@@ -102,7 +112,8 @@ Flashcards for this section are as follows:
 
 - Is there a highest distinct continuous-time fundamental frequency? ::@:: No. Continuous-time frequencies are not identified modulo $2\pi$, so there is no aliasing-based maximum distinct fundamental frequency.
 - When is a continuous-time signal periodic? ::@:: When there exists $T>0$ such that $x(t+T)=x(t)$ for all $t$. The smallest such $T$ is the fundamental period.
-- Given fundamental period $T_0$, what are the fundamental frequencies? ::@:: $\omega_0=2\pi/T_0$ (angular) and $f_0=1/T_0$ (ordinary).
+- Given fundamental period $T_0$, what are the fundamental frequencies? ::@:: $\omega_0=2\pi/T_0$ (angular) and $f_0=1/T_0$ (ordinary), both positive.
+- For a continuous-time periodic signal with fundamental period $T_0$, what sign convention is used? ::@:: The fundamental angular frequency and ordinary frequency are taken as positive values.
 - Given $A\cos(\omega t+\phi)$ with $\omega\neq 0$, what is its period? ::@:: $T=2\pi/|\omega|$.
 - When is a sum of sinusoids periodic? ::@:: When the component periods are commensurate, i.e. the angular frequencies have rational ratios.
 - Worked example: What is the fundamental period of $\cos 10t+\cos 30t$? ::@:: Component periods are $\pi/5$ and $\pi/15$. Since $\pi/5=3(\pi/15)$, the fundamental period is $\pi/5$.
@@ -110,6 +121,7 @@ Flashcards for this section are as follows:
 - Worked example: What is the fundamental period of $\cos\!\bigl((2\pi/4)t\bigr)+\sin\!\bigl((2\pi/3)t\bigr)$? ::@:: Component periods are $4$ and $3$, so the fundamental period is $12$.
 - Why is $\cos\!\bigl((2\pi/4)t\bigr)+\sin\!\bigl((2/3)t\bigr)$ aperiodic? ::@:: Component periods are $4$ and $3\pi$; $4/(3\pi)$ is irrational, so no finite common period exists.
 - Why is a triangular wave still a periodic signal even though it is not sinusoidal? ::@:: Because its full piecewise-linear shape repeats after a fixed interval, so periodicity is about exact repetition of the waveform, not about being sinusoidal.
+- How can the fundamental oscillation of a commensurate sum be found from periods or frequencies? ::@:: Take the LCM of component periods, or equivalently the GCD of component ordinary frequencies.
 - What is the energy formula? ::@:: $E=\int_{-\infty}^{\infty}|x(t)|^2\,dt$.
 - What is the average-power formula? ::@:: $P=\lim_{T\to\infty}\frac{1}{2T}\int_{-T}^{T}|x(t)|^2\,dt$.
 - What is the difference between energy and power? ::@:: Energy is total squared magnitude over all time; power is the long-term average rate.
@@ -145,7 +157,9 @@ Flashcards for this section are as follows:
 - Given a sinusoid with angular frequency $\omega>0$, how are its ordinary frequency and period related to $\omega$? ::@:: They satisfy $f=\omega/(2\pi)$ and $T=2\pi/\omega$.
 - What does a damped sinusoid combine? ::@:: It combines oscillation with exponential decay, so its envelope shrinks while it continues to oscillate.
 - What are standard physical examples of damped sinusoidal signals? ::@:: A mass-spring-damper response and an electromagnetic wave attenuating in a conductor are standard examples, because both keep oscillating while their envelopes decay.
+- Given $Ke^{st}$ with $s=\sigma+j\omega$, what kind of object is it? ::@:: A complex exponential with complex frequency $s$.
 - What do $\sigma$ and $\omega$ control in $Ke^{(\sigma+j\omega)t}$? ::@:: $\sigma$: growth/decay rate; $\omega$: oscillation frequency.
+- What are the main qualitative properties of $\operatorname{Sa}(t)$? ::@:: It is even, has zeros at $\pm n\pi$ for integers $n\ge 1$, and decays toward $0$ as $|t|\to\infty$.
 - How is the sampling signal defined? ::@:: $\operatorname{Sa}(t)=\sin t/t$ for $t\neq 0$, with $\operatorname{Sa}(0)=1$.
 - What is the normalized sinc function? ::@:: $\operatorname{sinc}(t)=\sin(\pi t)/(\pi t)$.
 - How are $\operatorname{Sa}(t)$ and $\operatorname{sinc}(t)$ related? ::@:: $\operatorname{Sa}(t)=\operatorname{sinc}(t/\pi)$ and $\operatorname{sinc}(t)=\operatorname{Sa}(\pi t)$.

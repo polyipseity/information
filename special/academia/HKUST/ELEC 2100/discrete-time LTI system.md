@@ -68,6 +68,8 @@ Flashcards for this section are as follows:
 - What are the two main solution approaches for difference equations? ::@:: The iterative method computes sample by sample (good for computers, no closed form). The classical method splits into homogeneous and particular parts, matching the continuous-time approach.
 - What is the standard linear difference-equation form? ::@:: $a_0y[n]+a_1y[n-1]+\cdots+a_Ny[n-N]=b_0x[n]+b_1x[n-1]+\cdots+b_Mx[n-M]$.
 - Why is a difference equation naturally suited to iterative solution? ::@:: Because it is already a recursion: once enough initial data are known, one can compute the output sample by sample.
+- What is the main limitation of the iterative method? ::@:: It may produce output values without yielding a clean analytical expression for the full sequence.
+- How does the classical time-domain method for difference equations parallel the continuous-time method? ::@:: It splits the response into homogeneous and particular parts, solves the homogeneous recursion from the characteristic equation, picks a particular form compatible with the input, and determines constants from initial conditions.
 
 ## mapping the response labels to difference-equation solutions
 
@@ -94,6 +96,8 @@ Flashcards for this section are as follows:
 - How is zero-state response mapped to difference-equation solution pieces? ::@:: Solve the forced difference equation with zero initial samples; the result is the response caused only by the external input.
 - How are natural response and forced response mapped in discrete time? ::@:: Natural response is homogeneous-mode content, whereas forced response is the content tied to the forcing pattern.
 - How do transient and steady-state parts relate to the difference-equation pieces when the recursion is stable? ::@:: The transient part is tied to homogeneous-mode content that decays, while the steady-state part is tied to the long-time part of the particular solution. This is an asymptotic description, not exact at every index.
+- What is the standard correction formula relating zero-state response to a particular solution? ::@:: $y_{\mathrm{zs}}[n]=y_p[n]+y_{h,\mathrm{corr}}[n]$, where $y_{h,\mathrm{corr}}$ is chosen so that the total response satisfies the required zero initial samples.
+- Why are the decompositions $y=y_h+y_p$ and $y=y_{\mathrm{zi}}+y_{\mathrm{zs}}$ not contradictory? ::@:: They answer different questions: $y_h+y_p$ is the algebraic solving split, while $y_{\mathrm{zi}}+y_{\mathrm{zs}}$ is the physical split into stored-state and input-caused parts.
 
 ## iterative method and recursion intuition
 
@@ -148,6 +152,7 @@ Flashcards for this section are as follows:
 - How does the discrete-time derivation compare to continuous time? ::@:: The impulse creates an initial condition, then the homogeneous recursion/ODE gives geometric/exponential decay. The factor $0.8$ corresponds to $e^{-aT_s}$ after sampling.
 - How does direct iteration confirm $h[n]=(0.8)^n u[n]$? ::@:: Starting from $h[0]=1$ and applying $h[n]=0.8h[n-1]$, one gets $h[1]=0.8$, $h[2]=0.8^2$, and in general $h[n]=0.8^n$ for $n\ge 0$.
 - What is the analogous continuous-time first-order impulse-response problem? ::@:: A causal ODE such as $h'(t)+ah(t)=\delta(t)$, where the impulse creates a jump condition and leaves a homogeneous equation for later times.
+- What is the precise decay analogy between the recursion factor $0.8$ and a continuous-time exponential? ::@:: Sampling $e^{-at}$ at interval $T_s$ gives $(e^{-aT_s})^n$, so the discrete decay factor $0.8$ plays the same per-sample role as $e^{-aT_s}$ in continuous time.
 
 ## causality and stability from discrete-time impulse response
 
@@ -164,6 +169,9 @@ Flashcards for this section are as follows:
 
 - What conditions make a discrete-time LTI system causal and BIBO stable? ::@:: Causal: $h[n]=0$ for $n<0$. BIBO stable: $\sum|h[n]|<\infty$.
 - When is $h[n]=a^n u[n]$ stable? ::@:: When $|a|<1$, since $\sum_{n=0}^{\infty}|a|^n=1/(1-|a|)$.
+- Why does absolute summability of $h[n]$ guarantee BIBO stability? ::@:: Because the total absolute weight of all shifted impulse contributions is finite, so bounded inputs cannot accumulate into an unbounded output.
+- What convolution-sum inequality proves that absolute summability implies BIBO stability? ::@:: If $|x[m]|\le B$, then $|y[n]|=\left|\sum_m x[m]h[n-m]\right|\le B\sum_k |h[k]|$, so the output is uniformly bounded whenever the absolute sum of $h$ is finite.
+- For $h[n]=a^n u[n]$, why is the system automatically causal? ::@:: Because the factor $u[n]$ makes the impulse response one-sided, so it vanishes for all negative indices.
 
 ## causality, stability, and interconnection case studies
 
