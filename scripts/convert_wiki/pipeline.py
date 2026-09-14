@@ -131,6 +131,22 @@ def _merge_adjacent_math_dd(dd: Tag) -> None:
                     if unwrapped is not nxt and unwrapped is not None:
                         nxt = unwrapped
                     if "mwe-math-element" in " ".join(nxt.get_attribute_list("class")):
+                        # Break the run if the previous span's alttext does
+                        # not end with '=' — a trailing '=' signals the
+                        # equation continues into the next span.
+                        # Only apply for <p>/<li> to avoid disrupting
+                        # existing <dd>/<dt> merges.
+                        if dd.name in ("p", "li") and run:
+                            prev_math = run[-1].find("math")
+                            if isinstance(prev_math, Tag):
+                                raw = prev_math.get("alttext", "")
+                                if raw:
+                                    prev_alt = WikiHtmlConverter._prepare_math_alttext(
+                                        str(raw)
+                                    ).rstrip()
+                                    # Strip trailing braces then check for '='.
+                                    if not prev_alt.rstrip("}{{").endswith("="):
+                                        break
                         run.append(nxt)
                         j += 1
                         continue
@@ -838,8 +854,8 @@ def _preprocess_html(soup: BeautifulSoup | Tag) -> None:
     # 3. Merge adjacent numblk tables into one multi-row table.
     _merge_adjacent_numblk_tables(soup)
 
-    # 4. Merge consecutive inline math spans in <dd>/<dt> elements.
-    for dd in soup.find_all(["dd", "dt"]):
+    # 4. Merge consecutive inline math spans in <dd>/<dt>/<p>/<li> elements.
+    for dd in soup.find_all(["dd", "dt", "p", "li"]):
         _merge_adjacent_math_dd(dd)
 
     # 5. Normalize external math punctuation: absorb trailing
