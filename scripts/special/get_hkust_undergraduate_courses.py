@@ -114,6 +114,7 @@ async def main() -> None:
         ClientSession(
             connector=TCPConnector(limit_per_host=_MAX_CONCURRENT_REQUESTS_PER_HOST),
             headers={"Accept-Encoding": "gzip"},
+            trust_env=True,
         ) as session,
     ):
         dest_readable = dest_file.wrapped.readable()

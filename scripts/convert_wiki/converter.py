@@ -1424,6 +1424,13 @@ class WikiHtmlConverter:
         """Handle <div> elements, with special handling for equation-box divs."""
         if "shortdescription" in classes:
             return _HandlerConfig(suffix="\n\n")
+        if "theader" in classes:
+            # Multi-image template headers (e.g. "Classical waves interfere.")
+            # are block-level content that should be separated from the
+            # following images by a paragraph break.  The template CSS
+            # applies ``font-weight: bold`` to ``.theader``, so wrap with
+            # Markdown bold markers.
+            return _HandlerConfig(prefix="__", suffix="__\n\n")
         if "thumbcaption" in classes and not self._in_table_cell(ele):
             # Figure captions are block-level content: give them their own
             # ``> `` line (blank ``> `` separation from following siblings),
@@ -1441,10 +1448,9 @@ class WikiHtmlConverter:
             "sidebar-caption" in classes or "infobox-caption" in classes
         ) and self._in_table_cell(ele):
             # Inside an infobox/sidebar cell, the caption follows the image
-            # or math on the same cell line; separate it with a ``<p>``
-            # marker (the cell-internal separator convention) rather than a
-            # block break.
-            return _HandlerConfig(prefix=" <p> ")
+            # or math on the same cell line; separate it with a ``<br/>``
+            # line break (both elements are inline siblings in the same cell).
+            return _HandlerConfig(prefix=" <br/> ")
         if "portal-bar" in classes:
             # Portal-bar divs (e.g. the "Portals" section at the bottom of
             # Wikipedia articles) should render as a blockquote so each line

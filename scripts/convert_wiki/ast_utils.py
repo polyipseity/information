@@ -562,7 +562,50 @@ def _find_table_blocks(text: str) -> list[tuple[int, int]]:
 
         result.append((prev_end, next_start))
 
-    return result
+    # Extend each detected block to include all contiguous pipe-table rows.
+    # When _reconstruct_token_raw returns text that doesn't match the source,
+    # the byte-range detection can be too narrow, leaving trailing rows outside
+    # the block.  Scan outward from each block's boundaries to capture them.
+    extended: list[tuple[int, int]] = []
+    for start, end in result:
+        # Find the first pipe-line at or before `start`.
+        line_start = text.rfind("\n", 0, start)
+        if line_start < 0:
+            line_start = 0
+        else:
+            line_start += 1  # skip the newline, point to line content
+        if text[line_start : line_start + 1] == "|":
+            start = line_start
+
+        # Extend forward: include following contiguous pipe-lines.
+        while end < len(text):
+            # Find the next line start.
+            nl = text.find("\n", end)
+            if nl < 0:
+                # We're at the last line; check if it's a pipe-line.
+                if text[end : end + 1] == "|":
+                    end = len(text)
+                break
+            next_line = nl + 1
+            if next_line >= len(text) or text[next_line] != "|":
+                break
+            # This is a pipe-line; extend end past it.
+            end = text.find("\n", next_line)
+            if end < 0:
+                end = len(text)
+
+        extended.append((start, end))
+
+    # Merge overlapping or adjacent ranges.
+    if not extended:
+        return extended
+    merged: list[tuple[int, int]] = [extended[0]]
+    for s, e in extended[1:]:
+        if s <= merged[-1][1]:
+            merged[-1] = (merged[-1][0], max(merged[-1][1], e))
+        else:
+            merged.append((s, e))
+    return merged
 
 
 def _parse_inline_link_destination(text: str, start: int) -> tuple[str, int] | None:
