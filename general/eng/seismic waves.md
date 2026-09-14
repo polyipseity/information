@@ -1,0 +1,1 @@
+seismic wave.md
