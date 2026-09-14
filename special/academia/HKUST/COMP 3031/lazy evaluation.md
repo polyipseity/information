@@ -143,7 +143,7 @@ Here {@{`filter`}@} is {@{lazily evaluated}@}; when {@{the second element is acc
 > val lazyX = LazyList.cons(1, LazyList.empty)
 > val lazyY = 2 #:: lazyX   // still a LazyList
 > ```
-<!--SR:!2026-10-24,268,345!2026-11-05,280,345-->
+<!--SR:!fsrs,2030-03-13T00:00:00.000Z,1236,1236.10950743,1,2,9,0,0,2026-10-24T00:00:00.000Z!2026-11-05,280,345-->
 
 ### lazy list implementation
 

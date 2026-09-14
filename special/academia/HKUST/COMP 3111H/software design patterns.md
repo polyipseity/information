@@ -266,7 +266,7 @@ For example, {@{overusing the _decorator_ pattern}@} for {@{trivial configuratio
 - _Spaghetti Code_ ::@:: – tangled, unstructured logic with no clear hierarchy. <!--SR:!2026-12-13,262,341!2027-03-06,347,361-->
 - _Stovepipe System_ ::@;: – siloed subsystems that cannot communicate.  
 - _Analysis Paralysis_ ::@:: – excessive deliberation that stalls progress. <!--SR:!2027-02-06,321,342!2027-01-25,311,342-->
-- _Design by Committee_ ::@:: – conflicting requirements from too many stakeholders. <!--SR:!2027-04-16,380,361!2026-10-24,233,330-->
+- _Design by Committee_ ::@:: – conflicting requirements from too many stakeholders. <!--SR:!2027-04-16,380,361!fsrs,2029-08-30T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-10-24T00:00:00.000Z-->
 - _God Class_ ::@:: – a single class that knows or does too much. <!--SR:!2027-01-17,305,342!2027-03-25,363,361-->
 - _Mythical Man-Month_ ::@:: – underestimating effort and over‑optimistic schedules. <!--SR:!2027-01-15,302,342!2027-01-14,301,342-->
 - _Death March Project_ ::@:: – projects with unrealistic deadlines and high risk of failure. <!--SR:!2027-01-10,299,342!2027-04-01,368,361-->

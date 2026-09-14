@@ -115,7 +115,7 @@ Thus {@{the `Monad` type class}@} captures the semantics of both {@{constructing
 > ```
 <!--SR:!2026-12-08,258,330!2026-11-19,248,330!2026-11-25,253,330-->
 
-{@{Example uses of `sequence`}@} assuming {@{a `Monad[Option]` instance}@}: <!--SR:!2026-10-24,205,310!2026-11-24,252,330-->
+{@{Example uses of `sequence`}@} assuming {@{a `Monad[Option]` instance}@}: <!--SR:!fsrs,2029-03-10T00:00:00.000Z,868,867.73563853,1,2,9,0,0,2026-10-24T00:00:00.000Z!2026-11-24,252,330-->
 
 > [!example] __`sequence` examples__
 >

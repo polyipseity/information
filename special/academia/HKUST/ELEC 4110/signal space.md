@@ -60,7 +60,7 @@ For {@{continuous-time signals}@}: {@{$$\langle u,v\rangle = \int_{0}^{T}u(t)v^*
 
 ### energy
 
-{@{Signal energy}@}: {@{$$E=\langle s,s\rangle \,.$$}@} Equivalently, {@{$\int|s(t)|^2 \, dt = \int |S(f)|^2 \,df$}@}; in {@{geometric space with an _orthonormal_ basis}@} it equals {@{the _squared_ Euclidean norm of the coordinate vector}@}. <!--SR:!2026-12-23,290,345!2026-10-24,238,330!2027-02-18,336,345!2027-01-30,320,345!2027-02-18,335,345-->
+{@{Signal energy}@}: {@{$$E=\langle s,s\rangle \,.$$}@} Equivalently, {@{$\int|s(t)|^2 \, dt = \int |S(f)|^2 \,df$}@}; in {@{geometric space with an _orthonormal_ basis}@} it equals {@{the _squared_ Euclidean norm of the coordinate vector}@}. <!--SR:!2026-12-23,290,345!fsrs,2029-09-19T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-10-24T00:00:00.000Z!2027-02-18,336,345!2027-01-30,320,345!2027-02-18,335,345-->
 
 ### coordinates
 

@@ -41,7 +41,7 @@ Indeed, any domain that {@{supplies these methods}@}—{@{booleans, strings, tup
 > ```
 <!--SR:!2026-10-31,287,330!2026-10-25,281,330-->
 
-{@{Concrete generators}@} can be created by {@{extending the trait `Generator`}@}.  For example, {@{an integer generator}@} that draws {@{from a `java.util.Random` instance}@} looks like <!--SR:!fsrs,2029-12-28T00:00:00.000Z,1176,1176.0199518,1,2,9,0,0,2026-10-09T00:00:00.000Z!fsrs,2030-01-31T00:00:00.000Z,1203,1202.68030072,1,2,9,0,0,2026-10-16T00:00:00.000Z!2026-10-24,280,330!2026-10-25,281,330-->
+{@{Concrete generators}@} can be created by {@{extending the trait `Generator`}@}.  For example, {@{an integer generator}@} that draws {@{from a `java.util.Random` instance}@} looks like <!--SR:!fsrs,2029-12-28T00:00:00.000Z,1176,1176.0199518,1,2,9,0,0,2026-10-09T00:00:00.000Z!fsrs,2030-01-31T00:00:00.000Z,1203,1202.68030072,1,2,9,0,0,2026-10-16T00:00:00.000Z!fsrs,2030-02-27T00:00:00.000Z,1222,1221.67255456,1,2,9,0,0,2026-10-24T00:00:00.000Z!2026-10-25,281,330-->
 
 > [!example] __integer generator__
 >
@@ -114,7 +114,7 @@ With {@{these in place}@}, {@{the boolean generator}@} can be written {@{succinc
 > ```Scala
 > val booleans = integers.map(x => x > 0)
 > ```
-<!--SR:!fsrs,2029-12-23T00:00:00.000Z,1172,1172.20432607,1,2,9,0,0,2026-10-08T00:00:00.000Z!2026-10-24,280,330!fsrs,2030-01-16T00:00:00.000Z,1191,1191.26470738,1,2,9,0,0,2026-10-13T00:00:00.000Z-->
+<!--SR:!fsrs,2029-12-23T00:00:00.000Z,1172,1172.20432607,1,2,9,0,0,2026-10-08T00:00:00.000Z!fsrs,2030-02-27T00:00:00.000Z,1222,1221.67255456,1,2,9,0,0,2026-10-24T00:00:00.000Z!fsrs,2030-01-16T00:00:00.000Z,1191,1191.26470738,1,2,9,0,0,2026-10-13T00:00:00.000Z-->
 
 and {@{a generic pair generator}@} becomes, using {@{`flatMap`}@}: <!--SR:!fsrs,2029-06-23T00:00:00.000Z,1026,1025.83973773,1,2,9,0,0,2026-09-01T00:00:00.000Z!fsrs,2028-08-12T00:00:00.000Z,695,694.99996464,2.49272837,2,9,0,0,2026-09-17T00:00:00.000Z-->
 
@@ -152,7 +152,7 @@ The compiler rewrites {@{these _for_ expressions}@} in the same way {@{it does f
 > ```
 <!--SR:!fsrs,2029-12-04T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-10-04T00:00:00.000Z!2026-10-29,285,330!fsrs,2029-06-28T00:00:00.000Z,1030,1029.72783972,1,2,9,0,0,2026-09-02T00:00:00.000Z-->
 
-{@{A more sophisticated example}@} is {@{a random tree generator}@}. Defining {@{the tree shape}@} as {@{an `enum`}@}: <!--SR:!fsrs,2030-02-04T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-10-17T00:00:00.000Z!2026-10-24,280,330!fsrs,2029-11-11T00:00:00.000Z,1138,1137.78464757,1,2,9,0,0,2026-09-30T00:00:00.000Z!2026-10-28,284,330-->
+{@{A more sophisticated example}@} is {@{a random tree generator}@}. Defining {@{the tree shape}@} as {@{an `enum`}@}: <!--SR:!fsrs,2030-02-04T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-10-17T00:00:00.000Z!fsrs,2030-02-27T00:00:00.000Z,1222,1221.67255456,1,2,9,0,0,2026-10-24T00:00:00.000Z!fsrs,2029-11-11T00:00:00.000Z,1138,1137.78464757,1,2,9,0,0,2026-09-30T00:00:00.000Z!2026-10-28,284,330-->
 
 > [!example] __`Tree` definition__
 >
@@ -225,7 +225,7 @@ The same idea is {@{used in the _ScalaCheck_ library}@}.  {@{A property expresse
 >   (l1 ++ l2).size == l1.size + l2.size
 > }
 > ```
-<!--SR:!fsrs,2029-06-23T00:00:00.000Z,1026,1025.83973773,1,2,9,0,0,2026-09-01T00:00:00.000Z!2026-11-02,289,330!2026-10-24,280,330-->
+<!--SR:!fsrs,2029-06-23T00:00:00.000Z,1026,1025.83973773,1,2,9,0,0,2026-09-01T00:00:00.000Z!2026-11-02,289,330!fsrs,2030-02-27T00:00:00.000Z,1222,1221.67255456,1,2,9,0,0,2026-10-24T00:00:00.000Z-->
 
 ScalaCheck integrates {@{with ScalaTest or can run stand-alone}@}, providing a systematic way to {@{validate program behaviour without hand-crafted test data}@}. <!--SR:!fsrs,2030-01-21T00:00:00.000Z,1195,1195.07164214,1,2,9,0,0,2026-10-14T00:00:00.000Z!fsrs,2028-07-20T00:00:00.000Z,745,744.93144381,1,2,8,0,0,2026-07-06T00:00:00.000Z-->
 
@@ -247,7 +247,7 @@ ScalaCheck integrates {@{with ScalaTest or can run stand-alone}@}, providing a s
 
 {@{`flatMap`}@} chains {@{computations that may produce values wrapped in the monad}@}, while {@{`unit`}@} injects {@{a plain value into the monadic context}@}. Additionally, these operations must {@{respect the monad laws}@}. <!--SR:!fsrs,2030-01-26T00:00:00.000Z,1199,1198.87680538,1,2,9,0,0,2026-10-15T00:00:00.000Z!fsrs,2030-02-04T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-10-17T00:00:00.000Z!fsrs,2029-10-13T00:00:00.000Z,1115,1114.75652523,1,2,9,0,0,2026-09-24T00:00:00.000Z!2026-10-28,284,330!2026-11-01,288,330-->
 
-In Scala, {@{`flatMap`}@} is typically {@{implemented as a method of the type itself or an extension method}@}; {@{`unit`}@} can be provided as {@{a constructor of the type}@}. <!--SR:!2026-10-24,280,330!2026-10-29,285,330!fsrs,2029-10-22T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-09-26T00:00:00.000Z!2026-10-29,285,330-->
+In Scala, {@{`flatMap`}@} is typically {@{implemented as a method of the type itself or an extension method}@}; {@{`unit`}@} can be provided as {@{a constructor of the type}@}. <!--SR:!fsrs,2030-02-27T00:00:00.000Z,1222,1221.67255456,1,2,9,0,0,2026-10-24T00:00:00.000Z!2026-10-29,285,330!fsrs,2029-10-22T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-09-26T00:00:00.000Z!2026-10-29,285,330-->
 
 ### monad laws
 
@@ -305,7 +305,7 @@ Because {@{every monad supports this construction}@}, it is often convenient to 
 > ```
 <!--SR:!2026-10-29,285,330!fsrs,2029-11-06T00:00:00.000Z,1134,1133.95119242,1,2,9,0,0,2026-09-29T00:00:00.000Z!2027-04-15,415,390-->
 
-{@{The right-unit law}@} implies that {@{a single generator without further bindings}@} is {@{equivalent to the monad itself}@} ({@{`for { x <- m } yield x == m`}@}). {@{The left-unit law ensures}@} that {@{a binding from `unit(x)` followed by another function}@} simply yields {@{that function applied to `x`}@} ({@{`for { y <- unit(x); r <- f(y) } yield r == f(x)`}@}). <!--SR:!fsrs,2029-12-28T00:00:00.000Z,1176,1176.0199518,1,2,9,0,0,2026-10-09T00:00:00.000Z!2026-10-24,280,330!2026-11-05,291,330!2026-10-29,285,330!fsrs,2029-11-01T00:00:00.000Z,1130,1130.11601442,1,2,9,0,0,2026-09-28T00:00:00.000Z!2026-10-26,282,330!2026-11-01,288,330!fsrs,2028-08-26T00:00:00.000Z,705,705.09333259,2.49272837,2,9,0,0,2026-09-21T00:00:00.000Z-->
+{@{The right-unit law}@} implies that {@{a single generator without further bindings}@} is {@{equivalent to the monad itself}@} ({@{`for { x <- m } yield x == m`}@}). {@{The left-unit law ensures}@} that {@{a binding from `unit(x)` followed by another function}@} simply yields {@{that function applied to `x`}@} ({@{`for { y <- unit(x); r <- f(y) } yield r == f(x)`}@}). <!--SR:!fsrs,2029-12-28T00:00:00.000Z,1176,1176.0199518,1,2,9,0,0,2026-10-09T00:00:00.000Z!fsrs,2030-02-27T00:00:00.000Z,1222,1221.67255456,1,2,9,0,0,2026-10-24T00:00:00.000Z!2026-11-05,291,330!2026-10-29,285,330!fsrs,2029-11-01T00:00:00.000Z,1130,1130.11601442,1,2,9,0,0,2026-09-28T00:00:00.000Z!2026-10-26,282,330!2026-11-01,288,330!fsrs,2028-08-26T00:00:00.000Z,705,705.09333259,2.49272837,2,9,0,0,2026-09-21T00:00:00.000Z-->
 
 ## `Option`
 
@@ -345,7 +345,7 @@ Because of {@{these issues}@}, it is sometimes preferable to treat {@{failures a
 > case class Success[+T](x: T) extends Try[T]
 > case class Failure(ex: Exception) extends Try[Nothing]
 > ```
-<!--SR:!2026-10-24,280,330!fsrs,2030-01-21T00:00:00.000Z,1195,1195.07164214,1,2,9,0,0,2026-10-14T00:00:00.000Z!fsrs,2030-01-11T00:00:00.000Z,1187,1187.45608877,1,2,9,0,0,2026-10-12T00:00:00.000Z-->
+<!--SR:!fsrs,2030-02-27T00:00:00.000Z,1222,1221.67255456,1,2,9,0,0,2026-10-24T00:00:00.000Z!fsrs,2030-01-21T00:00:00.000Z,1195,1195.07164214,1,2,9,0,0,2026-10-14T00:00:00.000Z!fsrs,2030-01-11T00:00:00.000Z,1187,1187.45608877,1,2,9,0,0,2026-10-12T00:00:00.000Z-->
 
 {@{A convenient factory for `Try`}@} wraps {@{arbitrary computations}@}: <!--SR:!fsrs,2030-02-04T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-10-17T00:00:00.000Z!fsrs,2029-11-29T00:00:00.000Z,1153,1153.10014712,1,2,9,0,0,2026-10-03T00:00:00.000Z-->
 
@@ -384,6 +384,6 @@ Because of {@{these issues}@}, it is sometimes preferable to treat {@{failures a
 
 Thus {@{`t.map(f)`}@} equals {@{`t.flatMap(x => Try(f(x)))`}@}, mirroring {@{the general monadic definition of `map`}@}. <!--SR:!2026-11-02,289,330!fsrs,2030-01-21T00:00:00.000Z,1195,1195.07164214,1,2,9,0,0,2026-10-14T00:00:00.000Z!2026-11-02,289,330-->
 
-One might ask whether {@{`Try` satisfies the monad laws with `unit = Try.apply`}@}. {@{The left-unit law}@} fails: {@{`Try(expr).flatMap(f)`}@} will {@{never throw a non-fatal exception}@}, whereas {@{`f(expr)` may}@}. Consequently, `Try` trades {@{the left identity law}@} for {@{a useful property}@}—{@{any composition of `Try`, `map`, and `flatMap`}@} guarantees that {@{no non-fatal exception propagates outward}@} ({@{the "bullet-proof" principle}@}\). <!--SR:!fsrs,2028-11-28T00:00:00.000Z,773,772.81357058,2.49272837,2,9,0,0,2026-10-17T00:00:00.000Z!2026-10-25,281,330!2026-10-29,285,330!fsrs,2030-02-04T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-10-17T00:00:00.000Z!2026-10-30,286,330!2026-10-24,280,330!fsrs,2029-07-17T00:00:00.000Z,1045,1045.2595081,1,2,9,0,0,2026-09-06T00:00:00.000Z!2026-10-24,280,330!2026-11-03,290,330!2026-11-07,293,330-->
+One might ask whether {@{`Try` satisfies the monad laws with `unit = Try.apply`}@}. {@{The left-unit law}@} fails: {@{`Try(expr).flatMap(f)`}@} will {@{never throw a non-fatal exception}@}, whereas {@{`f(expr)` may}@}. Consequently, `Try` trades {@{the left identity law}@} for {@{a useful property}@}—{@{any composition of `Try`, `map`, and `flatMap`}@} guarantees that {@{no non-fatal exception propagates outward}@} ({@{the "bullet-proof" principle}@}\). <!--SR:!fsrs,2028-11-28T00:00:00.000Z,773,772.81357058,2.49272837,2,9,0,0,2026-10-17T00:00:00.000Z!2026-10-25,281,330!2026-10-29,285,330!fsrs,2030-02-04T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-10-17T00:00:00.000Z!2026-10-30,286,330!fsrs,2030-02-27T00:00:00.000Z,1222,1221.67255456,1,2,9,0,0,2026-10-24T00:00:00.000Z!fsrs,2029-07-17T00:00:00.000Z,1045,1045.2595081,1,2,9,0,0,2026-09-06T00:00:00.000Z!fsrs,2030-02-27T00:00:00.000Z,1222,1221.67255456,1,2,9,0,0,2026-10-24T00:00:00.000Z!2026-11-03,290,330!2026-11-07,293,330-->
 
 In {@{general practice}@}, {@{monad-like type \(which are not true monads\)}@} aims to capture {@{some computation _effect_}@} and treating it as {@{_data_ and hence part of the _type_}@}. When {@{this effect is a _side effect_ \(e.g. throwing exceptions\)}@}, then {@{the left identity law may not hold}@} as {@{the side effect is captured and represented by monad-like type data instead}@}. <!--SR:!2027-01-09,345,350!2026-12-07,319,350!2027-01-03,339,350!2026-12-11,321,350!2026-12-18,328,350!2027-01-14,350,350!fsrs,2029-10-17T00:00:00.000Z,1107,1107.06552019,1,2,9,0,0,2026-10-06T00:00:00.000Z-->

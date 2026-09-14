@@ -77,7 +77,7 @@ The algorithm first splits {@{the list in half using `splitAt`}@}, recursively {
 
 #### merge sort splitting
 
-{@{The split operation `List.splitAt`}@} yields {@{a tuple `(List[A], List[A])` \(a pair of lists\)}@}. {@{The returned pair}@} is commonly used in {@{pattern matching}@}: <!--SR:!2026-10-24,281,330!fsrs,2028-08-23T00:00:00.000Z,705,705.09333259,2.49272837,2,9,0,0,2026-09-18T00:00:00.000Z!fsrs,2029-08-10T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-09-03T00:00:00.000Z!fsrs,2030-01-16T00:00:00.000Z,1191,1191.26470738,1,2,9,0,0,2026-10-13T00:00:00.000Z-->
+{@{The split operation `List.splitAt`}@} yields {@{a tuple `(List[A], List[A])` \(a pair of lists\)}@}. {@{The returned pair}@} is commonly used in {@{pattern matching}@}: <!--SR:!fsrs,2030-03-02T00:00:00.000Z,1225,1225.46601476,1,2,9,0,0,2026-10-24T00:00:00.000Z!fsrs,2028-08-23T00:00:00.000Z,705,705.09333259,2.49272837,2,9,0,0,2026-09-18T00:00:00.000Z!fsrs,2029-08-10T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-09-03T00:00:00.000Z!fsrs,2030-01-16T00:00:00.000Z,1191,1191.26470738,1,2,9,0,0,2026-10-13T00:00:00.000Z-->
 
 > [!example] __merge sort splitting__
 >
@@ -122,7 +122,7 @@ One could {@{re-implement `splitAt`}@} as {@{an extension method}@}: <!--SR:!fsr
 > ```
 <!--SR:!2026-11-08,294,330!fsrs,2029-07-17T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-08-29T00:00:00.000Z-->
 
-The compiler guarantees that {@{all possible shapes of the input lists}@} are handled; {@{any omission}@} results in {@{a warning \(not error\)}@}. <!--SR:!2026-11-01,288,330!fsrs,2029-07-07T00:00:00.000Z,1045,1045.2595081,1,2,9,0,0,2026-08-27T00:00:00.000Z!2026-10-24,281,330-->
+The compiler guarantees that {@{all possible shapes of the input lists}@} are handled; {@{any omission}@} results in {@{a warning \(not error\)}@}. <!--SR:!2026-11-01,288,330!fsrs,2029-07-07T00:00:00.000Z,1045,1045.2595081,1,2,9,0,0,2026-08-27T00:00:00.000Z!fsrs,2030-03-02T00:00:00.000Z,1225,1225.46601476,1,2,9,0,0,2026-10-24T00:00:00.000Z-->
 
 ### sorting arbitrary types
 
@@ -166,6 +166,6 @@ To sort lists whose {@{elements are not necessarily `Int`}@}, {@{the comparison 
 > // Type inference allows a shorter form
 > msort(xs)( (x, y) => x < y )
 > ```
-<!--SR:!fsrs,2028-09-10T00:00:00.000Z,718,717.68728078,2.49272837,2,9,0,0,2026-09-23T00:00:00.000Z!fsrs,2029-07-22T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-08-30T00:00:00.000Z!2026-11-04,290,330!2026-11-07,293,330!2026-10-24,281,330-->
+<!--SR:!fsrs,2028-09-10T00:00:00.000Z,718,717.68728078,2.49272837,2,9,0,0,2026-09-23T00:00:00.000Z!fsrs,2029-07-22T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-08-30T00:00:00.000Z!2026-11-04,290,330!2026-11-07,293,330!fsrs,2030-03-02T00:00:00.000Z,1225,1225.46601476,1,2,9,0,0,2026-10-24T00:00:00.000Z-->
 
 These examples demonstrate how Scala's {@{type inference and higher-order functions}@} enable {@{concise yet powerful generic algorithms}@}. <!--SR:!fsrs,2028-09-06T00:00:00.000Z,715,715.17050691,2.49272837,2,9,0,0,2026-09-22T00:00:00.000Z!fsrs,2030-02-04T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-10-17T00:00:00.000Z-->

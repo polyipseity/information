@@ -1031,7 +1031,7 @@ Here is a list of common IPA letters and their pronunciations:
 - [voiced palatal lateral approximant](voiced%20palatal%20lateral%20approximant.md):@:[English](English%20language.md) _mi**lli**on_ \[ˈmɪʎən\] <!--SR:!fsrs,2027-05-05T00:00:00.000Z,214,214.34750854,9.23597837,2,8,0,0,2026-10-03T00:00:00.000Z-->
 - [voiced labial–palatal approximant](voiced%20labial–palatal%20approximant.md):@:[French](French%20language.md) _n**u**ire_ \[nɥiʁ\] "to harm" <!--SR:!fsrs,2026-12-02T00:00:00.000Z,41,41.22048199,9.95165256,2,10,0,0,2026-10-22T00:00:00.000Z-->
 - [voiced alveolar fricative](voiced%20alveolar%20fricative.md):@:[English](English%20language.md) _**z**oo_ \[z̪ʏˑy̯\] <!--SR:!2027-09-16,548,190-->
-- [voiced postalveolar fricative](voiced%20postalveolar%20fricative.md):@:[English](English%20language.md) _vi**si**on_ \[ˈvɪʒən\] <!--SR:!2026-10-24,173,190-->
+- [voiced postalveolar fricative](voiced%20postalveolar%20fricative.md):@:[English](English%20language.md) _vi**si**on_ \[ˈvɪʒən\] <!--SR:!fsrs,2027-08-22T00:00:00.000Z,302,301.9013867,7.73747837,2,8,0,0,2026-10-24T00:00:00.000Z-->
 - [voiced alveolo–palatal fricative](voiced%20alveolo–palatal%20fricative.md):@:[Japanese](Japanese%20language.md) 火事/_ka**j**i_ \[kaʑi\] "fire" <!--SR:!fsrs,2026-11-27T00:00:00.000Z,49,48.69616435,9.92312258,2,9,0,0,2026-10-09T00:00:00.000Z-->
 - [voiced retroflex fricative](voiced%20retroflex%20fricative.md):@:[Russian](Russian%20language.md) _**ж**ена_ \[ʐɨ̞ˈna\] "wife" <!--SR:!fsrs,2026-11-08T00:00:00.000Z,39,38.54595174,9.93359325,2,10,0,0,2026-09-30T00:00:00.000Z-->
 - [voiceless dental fricative](voiceless%20dental%20fricative.md):@:[English](English%20language.md) _**th**in_ \[θɪn\] <!--SR:!2028-02-13,900,250-->

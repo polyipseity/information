@@ -23,7 +23,7 @@ Explore the user interface yourself.
 See <https://www.greenfoot.org/files/javadoc/greenfoot/Actor.html>.
 
 - `Actor` :@: `Actor()`: Remember to add to the world using `World#addObject`. See <https://www.greenfoot.org/files/javadoc/greenfoot/Actor.html#%3Cinit%3E()>. <!--SR:!2028-07-13,1261,350-->
-- `getObjectsInRange` :@: `<A> List<A> getObjectsInRange(int radius, Class<A> cls)`: `radius` in cells. See <https://www.greenfoot.org/files/javadoc/greenfoot/Actor.html#getObjectsInRange(int,java.lang.Class)>. <!--SR:!2026-10-24,754,330-->
+- `getObjectsInRange` :@: `<A> List<A> getObjectsInRange(int radius, Class<A> cls)`: `radius` in cells. See <https://www.greenfoot.org/files/javadoc/greenfoot/Actor.html#getObjectsInRange(int,java.lang.Class)>. <!--SR:!fsrs,2034-10-03T00:00:00.000Z,2901,2900.56918297,1,2,11,0,0,2026-10-24T00:00:00.000Z-->
 - `getRotation` :@: `int getRotation()`: [0, 359]. 0 is east. Increase is clockwise. See <https://www.greenfoot.org/files/javadoc/greenfoot/Actor.html#getRotation()>. <!--SR:!2028-12-09,1383,350-->
 - `getX` :@: `int getX()`: See <https://www.greenfoot.org/files/javadoc/greenfoot/Actor.html#getX()>. <!--SR:!2028-11-11,1359,350-->
 - `getY` :@: `int getY()`: See <https://www.greenfoot.org/files/javadoc/greenfoot/Actor.html#getY()>. <!--SR:!2028-08-05,1280,350-->

@@ -12,7 +12,7 @@ tags:
 
 - see: [general/_M_-ary transmission](../../../../general/M-ary%20transmission.md)
 
-{@{___M_-ary transmission__}@} is {@{a digital modulation method}@} where {@{each transmitted _symbol_ carries $\log_2 M$ _bits_}@} by selecting {@{one waveform from $M$ signal shapes}@}. Increasing {@{the _modulation order_ $M$}@} yields {@{higher spectral efficiency}@}, but {@{the signal becomes more sensitive to noise}@} and detection {@{grows more complex}@}. <!--SR:!2026-10-24,215,329!2026-11-06,238,330!2026-11-17,249,330!2027-04-22,381,370!2026-11-26,255,330!2027-03-05,342,361!2026-11-23,252,330!2026-11-25,254,330-->
+{@{___M_-ary transmission__}@} is {@{a digital modulation method}@} where {@{each transmitted _symbol_ carries $\log_2 M$ _bits_}@} by selecting {@{one waveform from $M$ signal shapes}@}. Increasing {@{the _modulation order_ $M$}@} yields {@{higher spectral efficiency}@}, but {@{the signal becomes more sensitive to noise}@} and detection {@{grows more complex}@}. <!--SR:!fsrs,2029-06-18T00:00:00.000Z,968,967.84549846,1,2,9,0,0,2026-10-24T00:00:00.000Z!2026-11-06,238,330!2026-11-17,249,330!2027-04-22,381,370!2026-11-26,255,330!2027-03-05,342,361!2026-11-23,252,330!2026-11-25,254,330-->
 
 Unlike {@{[binary modulation](binary%20modulation.md)}@} where {@{a _bit_ and a _symbol_ are the same}@}, here {@{a _symbol_ represents more than one _bit_}@}. <!--SR:!2027-01-08,293,349!2027-01-21,304,349!2026-11-09,241,330-->
 
