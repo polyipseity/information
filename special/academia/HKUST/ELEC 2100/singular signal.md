@@ -116,6 +116,7 @@ Flashcards for this section are as follows:
 - Why do test functions need smoothness and compact support? ::@:: Smoothness makes derivative rules valid; compact support removes boundary terms in integration by parts.
 - How does a narrowing unit-area pulse lead to the sampling rule? ::@:: Inside a narrow pulse, $f(t)\approx f(0)$, so $\int \delta_\varepsilon(t)f(t)dt\approx f(0)\int \delta_\varepsilon(t)dt=f(0)$. As $\varepsilon\to 0$ the approximation becomes exact.
 - How should impulse graphs be interpreted? ::@:: $\delta(t-t_0)$ is an arrow at $t_0$ with area $1$; $A\delta(t-t_0)$ has weight $A$. Neither is a literal pulse.
+- How should the graph of $A\delta(t-t_0)$ be interpreted? ::@:: It is a symbolic arrow at $t=t_0$ labeled by weight $A$.
 - Why does the ideal impulse have infinite energy? ::@:: $E_\varepsilon=1/\varepsilon\to\infty$ for the rectangular approximation.
 
 ## impulse properties and graphing
