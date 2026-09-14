@@ -17,6 +17,9 @@ from scripts.convert_wiki.template_config import (
     _SIDEBAR_SPEC,
 )
 
+"""Public symbols exported by this module (none)."""
+__all__ = ()
+
 
 class TestDisplayMathContainers:
     def test_contains_dd_dt(self) -> None:

@@ -10,6 +10,9 @@ from __future__ import annotations
 
 from bs4 import NavigableString, Tag
 
+"""Exported names from this module."""
+__all__ = ()
+
 
 def _in_inline_context(ele: Tag) -> bool:
     """Check if element is inside a handler that provides block spacing.
