@@ -1368,6 +1368,35 @@ def test_cloze_wrong_token_rule():
     assert not cloze_wrong_token(good)
 
 
+def test_cloze_wrong_token_dollar_typos():
+    """$‑infused misspelt cloze delimiters should be detected."""
+
+    base = "---\ntags: [flashcard/active/special/academia/test]\n---\nText {} here.\n"
+
+    for token, expected_correct in (
+        ("{@${", "'{@{'"),
+        ("{$@{", "'{@{'"),
+        ("{$@${", "'{@{'"),
+        ("}$@}", "'}@}'"),
+        ("}@$}", "'}@}'"),
+        ("}$@$}", "'}@}'"),
+    ):
+        bad = make_ctx(base.format(token))
+        msgs = cloze_wrong_token(bad)
+        assert msgs, f"expected error for {token!r}"
+        assert msgs[0].rule_id == "cloze_wrong_token"
+        assert token in msgs[0].msg, f"message should mention {token!r}"
+        assert expected_correct in msgs[0].msg, (
+            f"message should advise {expected_correct}"
+        )
+
+    # Valid cloze with $ inside body must not be flagged
+    good = make_ctx(
+        "---\ntags: [flashcard/active/special/academia/test]\n---\nText {@{$x$}@} here.\n"
+    )
+    assert not cloze_wrong_token(good)
+
+
 def test_cloze_insufficient_coverage_rule():
     """Cloze coverage should be flagged when below 80%."""
 

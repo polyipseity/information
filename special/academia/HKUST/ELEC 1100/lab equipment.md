@@ -11,42 +11,42 @@ tags:
 
 # lab equipment
 
-Lab sessions in ELEC 1100 use a breadboard to build circuits without soldering. Core instruments include a DC power supply, digital multimeter (DMM), function generator, and digital storage oscilloscope (DSO). This note summarises breadboard layout and safe use of equipment so you can complete Lab 1 and later labs confidently.
+Lab sessions in ELEC 1100 use a breadboard to build circuits without soldering. Core instruments include a DC power supply, digital multimeter (DMM), function generator, and digital storage oscilloscope (DSO). This note summarises breadboard layout and safe use of equipment so you can complete Lab 1 and later labs.
 
 ---
 
 Flashcards for this section are as follows:
 
-- breadboard and lab equipment purpose ::@:: In ELEC 1100 labs you build circuits on a breadboard and use a DC supply, DMM, function generator, and DSO as the main instruments. <!--SR:!fsrs,2027-05-12T08:38:15.346Z,333,332.56124433,1,2,7,0,0,2026-06-13T08:38:15.346Z!fsrs,2027-04-06T01:15:36.625Z,304,303.62086325,1,2,7,0,0,2026-06-06T01:15:36.625Z-->
-- lab 1 relevance ::@:: Lab 1 focuses on setup and component check; breadboard structure and equipment usage are covered in this topic and in [electronic component](electronic%20component.md). <!--SR:!fsrs,2027-04-06T01:21:18.740Z,304,304.04690879,1,2,7,0,0,2026-06-06T01:21:18.740Z!fsrs,2027-04-01T01:21:11.511Z,299,298.72647102,1,2,7,0,0,2026-06-06T01:21:11.511Z-->
+- lab equipment overview ::@:: In ELEC 1100 labs you build circuits on a breadboard using a DC supply, DMM, function generator, and DSO. <!--SR:!fsrs,2027-05-12T08:38:15.346Z,333,332.56124433,1,2,7,0,0,2026-06-13T08:38:15.346Z!fsrs,2027-04-06T01:15:36.625Z,304,303.62086325,1,2,7,0,0,2026-06-06T01:15:36.625Z-->
+- lab 1 relevance ::@:: Lab 1 covers setup and component check; see also [electronic component](electronic%20component.md). <!--SR:!fsrs,2027-04-06T01:21:18.740Z,304,304.04690879,1,2,7,0,0,2026-06-06T01:21:18.740Z!fsrs,2027-04-01T01:21:11.511Z,299,298.72647102,1,2,7,0,0,2026-06-06T01:21:11.511Z-->
 
 ## equipment overview
 
-The standard lab bench provides a __DC power supply__ (one or two channels) for constant voltage to power the breadboard rails; you set the output voltage and often a current limit—never short the supply outputs. A __function generator__ produces AC waveforms (sine, square, triangle) with adjustable amplitude (e.g. peak-to-peak voltage) and frequency (e.g. Hz or kHz); you use it in later labs for diode and rectifier circuits and view the waveform on the DSO. In lab you normally press the function generator's reset or _default setup_ key at the start of an experiment to clear any hidden user settings, and you connect the probe or BNC cable to the __FUNCTION__ output (not the TTL or sync output). A __digital multimeter__ (DMM) measures voltage, current, or resistance depending on mode and connection. A __digital storage oscilloscope__ (DSO) displays voltage versus time and can show amplitude, period, and frequency of signals. The breadboard is the platform on which you plug components and jumper wires to form circuits. For regulated $5\text{ V}$ (and $12\text{ V}$ motor) rails in the project see [voltage regulator](voltage%20regulator.md).
+A __DC power supply__ (one or two channels) provides constant voltage to the breadboard rails; set output voltage and current limit, never short the outputs. A __function generator__ produces AC waveforms (sine, square, triangle) with adjustable amplitude and frequency; used in later labs, viewed on the DSO. Reset the function generator at the start of each experiment and connect the probe to the __FUNCTION__ output (not TTL or sync). A __DMM__ measures voltage, current, or resistance. A __DSO__ displays voltage versus time, showing amplitude, period, and frequency. The breadboard is where components and jumper wires form circuits. For regulated $5\text{ V}$ (and $12\text{ V}$ motor) rails see [voltage regulator](voltage%20regulator.md).
 
 ---
 
 Flashcards for this section are as follows:
 
-- lab equipment list ::@:: DC power supply, digital multimeter (DMM), function generator, and digital storage oscilloscope (DSO) are the core lab instruments; the breadboard is where you build the circuit. <!--SR:!fsrs,2027-02-14T01:15:38.677Z,253,253.31932065,1.98030797,2,6,0,0,2026-06-06T01:15:38.677Z!fsrs,2027-05-09T08:38:31.252Z,330,329.54847456,1,2,7,0,0,2026-06-13T08:38:31.252Z-->
-- DC power supply role ::@:: The DC power supply provides constant voltage (one or two channels) to power the breadboard rails; set voltage and current limit and never short the outputs. <!--SR:!fsrs,2027-04-09T01:15:40.014Z,307,307.08504834,1,2,7,0,0,2026-06-06T01:15:40.014Z!fsrs,2027-04-06T01:21:02.612Z,304,303.62086325,1,2,7,0,0,2026-06-06T01:21:02.612Z-->
-- function generator role ::@:: The function generator produces AC waveforms (sine, square, triangle) with adjustable amplitude and frequency; used in later labs for diode/rectifier circuits and viewed on the DSO. <!--SR:!fsrs,2027-04-07T01:21:06.993Z,305,305.20736891,1,2,7,0,0,2026-06-06T01:21:06.993Z!fsrs,2027-05-10T08:38:15.865Z,331,331.0632816,1,2,7,0,0,2026-06-13T08:38:15.865Z-->
-- function generator lab setup ::@:: At the start of a lab you normally reset the function generator (e.g. _default setup_) to clear old settings and connect the probe or BNC lead to the FUNCTION output, not the TTL or sync output. <!--SR:!fsrs,2027-04-09T01:21:01.028Z,307,307.08504834,1,2,7,0,0,2026-06-06T01:21:01.028Z!fsrs,2027-05-09T08:38:49.756Z,330,329.54847456,1,2,7,0,0,2026-06-13T08:38:49.756Z-->
-- digital multimeter (DMM) role ::@:: The digital multimeter measures voltage, current, or resistance depending on mode and connection. <!--SR:!fsrs,2027-04-16T08:11:59.290Z,313,312.84164192,1,2,7,0,0,2026-06-07T08:11:59.290Z!fsrs,2027-05-09T08:38:47.649Z,330,329.54847456,1,2,7,0,0,2026-06-13T08:38:47.649Z-->
-- digital storage oscilloscope (DSO) role ::@:: The digital storage oscilloscope displays voltage versus time and can show amplitude, period, and frequency of signals. <!--SR:!fsrs,2027-05-10T08:38:11.482Z,331,331.0632816,1,2,7,0,0,2026-06-13T08:38:11.482Z!fsrs,2027-05-07T08:38:12.394Z,328,328.01615794,1,2,7,0,0,2026-06-13T08:38:12.394Z-->
+- core instruments ::@:: DC power supply, DMM, function generator, and DSO; the breadboard is where you build circuits. <!--SR:!fsrs,2027-02-14T01:15:38.677Z,253,253.31932065,1.98030797,2,6,0,0,2026-06-06T01:15:38.677Z!fsrs,2027-05-09T08:38:31.252Z,330,329.54847456,1,2,7,0,0,2026-06-13T08:38:31.252Z-->
+- DC power supply ::@:: Provides constant voltage (one or two channels) to power the breadboard rails; set voltage and current limit, never short the outputs. <!--SR:!fsrs,2027-04-09T01:15:40.014Z,307,307.08504834,1,2,7,0,0,2026-06-06T01:15:40.014Z!fsrs,2027-04-06T01:21:02.612Z,304,303.62086325,1,2,7,0,0,2026-06-06T01:21:02.612Z-->
+- function generator ::@:: Produces AC waveforms (sine, square, triangle) with adjustable amplitude and frequency; used in later labs, viewed on the DSO. <!--SR:!fsrs,2027-04-07T01:21:06.993Z,305,305.20736891,1,2,7,0,0,2026-06-06T01:21:06.993Z!fsrs,2027-05-10T08:38:15.865Z,331,331.0632816,1,2,7,0,0,2026-06-13T08:38:15.865Z-->
+- function generator setup ::@:: Reset the function generator at the start of each experiment (e.g. _default setup_) and connect the probe or BNC lead to the FUNCTION output, not TTL or sync. <!--SR:!fsrs,2027-04-09T01:21:01.028Z,307,307.08504834,1,2,7,0,0,2026-06-06T01:21:01.028Z!fsrs,2027-05-09T08:38:49.756Z,330,329.54847456,1,2,7,0,0,2026-06-13T08:38:49.756Z-->
+- DMM ::@:: Measures voltage, current, or resistance depending on mode and connection. <!--SR:!fsrs,2027-04-16T08:11:59.290Z,313,312.84164192,1,2,7,0,0,2026-06-07T08:11:59.290Z!fsrs,2027-05-09T08:38:47.649Z,330,329.54847456,1,2,7,0,0,2026-06-13T08:38:47.649Z-->
+- DSO ::@:: Displays voltage versus time; shows amplitude, period, and frequency of signals. <!--SR:!fsrs,2027-05-10T08:38:11.482Z,331,331.0632816,1,2,7,0,0,2026-06-13T08:38:11.482Z!fsrs,2027-05-07T08:38:12.394Z,328,328.01615794,1,2,7,0,0,2026-06-13T08:38:12.394Z-->
 
 ## breadboard structure and connections
 
-Historically, experimenters used literal wooden bread boards and nailed components to them; modern breadboards use a plastic (insulating) body with internal metal strips that act as conductors. Row holes are grouped in sets of five that are connected internally; long power-rail columns run along the edges and are connected along their length. Adjacent columns are not connected, so you must use jumper wires to connect different rows or columns. Knowing which holes share a connection is essential to avoid short circuits and to build circuits correctly.
+Breadboards use a plastic body with internal metal strips as conductors. Row holes are grouped in sets of five, connected internally; long power-rail columns along the edges are connected along their length. Adjacent columns are not connected; use jumper wires to bridge between rows or columns.
 
 ---
 
 Flashcards for this section are as follows:
 
-- breadboard materials ::@:: Modern breadboards use plastic (insulator) and internal metal strips (conductor); historically wooden boards were used. <!--SR:!fsrs,2027-04-16T08:12:01.150Z,313,312.84164192,1,2,7,0,0,2026-06-07T08:12:01.150Z!fsrs,2027-04-01T01:15:33.888Z,299,298.72647102,1,2,7,0,0,2026-06-06T01:15:33.888Z-->
-- breadboard row connections ::@:: Groups of five holes in a row are internally connected; components or wires in the same row share a node. <!--SR:!fsrs,2027-05-10T08:41:12.056Z,331,331.0632816,1,2,7,0,0,2026-06-13T08:41:12.056Z!fsrs,2027-05-10T08:41:12.800Z,331,331.0632816,1,2,7,0,0,2026-06-13T08:41:12.800Z-->
-- breadboard power rails ::@:: Long columns along the edges are power rails; all holes in one column are connected along its length. <!--SR:!fsrs,2027-04-07T01:18:28.929Z,305,305.20736891,1,2,7,0,0,2026-06-06T01:18:28.929Z!fsrs,2027-04-06T01:21:07.686Z,304,304.04690879,1,2,7,0,0,2026-06-06T01:21:07.686Z-->
-- breadboard adjacent columns ::@:: Adjacent columns are not connected; use jumper wires to connect between rows or columns. <!--SR:!fsrs,2027-04-02T01:21:13.131Z,300,300.38138884,1,2,7,0,0,2026-06-06T01:21:13.131Z!fsrs,2027-04-01T01:15:35.985Z,299,298.72647102,1,2,7,0,0,2026-06-06T01:15:35.985Z-->
+- breadboard construction ::@:: Plastic body with internal metal strips; historically wooden boards with nailed components. <!--SR:!fsrs,2027-04-16T08:12:01.150Z,313,312.84164192,1,2,7,0,0,2026-06-07T08:12:01.150Z!fsrs,2027-04-01T01:15:33.888Z,299,298.72647102,1,2,7,0,0,2026-06-06T01:15:33.888Z-->
+- row connections ::@:: Groups of five holes in a row are internally connected; components in the same row share a node. <!--SR:!fsrs,2027-05-10T08:41:12.056Z,331,331.0632816,1,2,7,0,0,2026-06-13T08:41:12.056Z!fsrs,2027-05-10T08:41:12.800Z,331,331.0632816,1,2,7,0,0,2026-06-13T08:41:12.800Z-->
+- power rails ::@:: Long columns along the edges; all holes in one column are connected. <!--SR:!fsrs,2027-04-07T01:18:28.929Z,305,305.20736891,1,2,7,0,0,2026-06-06T01:18:28.929Z!fsrs,2027-04-06T01:21:07.686Z,304,304.04690879,1,2,7,0,0,2026-06-06T01:21:07.686Z-->
+- adjacent columns ::@:: Not connected; use jumper wires to bridge between rows or columns. <!--SR:!fsrs,2027-04-02T01:21:13.131Z,300,300.38138884,1,2,7,0,0,2026-06-06T01:21:13.131Z!fsrs,2027-04-01T01:15:35.985Z,299,298.72647102,1,2,7,0,0,2026-06-06T01:15:35.985Z-->
 
 ## component symbols and power rails
 
@@ -56,8 +56,8 @@ Schematic symbols on lab handouts indicate power rails ($+5\text{ V}$, GND), vol
 
 Flashcards for this section are as follows:
 
-- power rails on breadboard ($+5\text{ V}$, GND) ::@:: One rail is tied to the positive supply (e.g. $+5\text{ V}$) and another to ground (GND); all holes on that rail share the same voltage. <!--SR:!fsrs,2027-04-04T01:21:03.369Z,302,302.01253197,1,2,7,0,0,2026-06-06T01:21:03.369Z!fsrs,2027-05-07T08:38:50.887Z,328,328.01615794,1,2,7,0,0,2026-06-13T08:38:50.887Z-->
-- schematic symbols in lab ::@:: Handouts use symbols for voltage sources, resistors, capacitors, LEDs, and connections; see the electronic component topic for definitions. <!--SR:!fsrs,2027-05-12T08:38:48.325Z,333,332.56124433,1,2,7,0,0,2026-06-13T08:38:48.325Z!fsrs,2027-05-12T08:40:14.127Z,333,332.56124433,1,2,7,0,0,2026-06-13T08:40:14.127Z-->
+- power rail assignment ::@:: One rail to positive supply (e.g. $+5\text{ V}$), another to ground; all holes on that rail share the same voltage. <!--SR:!fsrs,2027-04-04T01:21:03.369Z,302,302.01253197,1,2,7,0,0,2026-06-06T01:21:03.369Z!fsrs,2027-05-07T08:38:50.887Z,328,328.01615794,1,2,7,0,0,2026-06-13T08:38:50.887Z-->
+- schematic symbols ::@:: Handouts use symbols for voltage sources, resistors, capacitors, LEDs, and connections; see [electronic component](electronic%20component.md). <!--SR:!fsrs,2027-05-12T08:38:48.325Z,333,332.56124433,1,2,7,0,0,2026-06-13T08:38:48.325Z!fsrs,2027-05-12T08:40:14.127Z,333,332.56124433,1,2,7,0,0,2026-06-13T08:40:14.127Z-->
 
 ## resistor colour code
 
@@ -119,13 +119,13 @@ The digital storage oscilloscope (DSO) displays __voltage on the vertical axis__
 
 Flashcards for this section are as follows:
 
-- DSO vertical axis (volts/div, V/mV, $V_{\text{pp}}$) ::@:: Voltage; each division = volts (or mV) per division; check on-screen scale (V/mV) before reading amplitude or $V_{\text{pp}}$. <!--SR:!fsrs,2027-04-16T08:12:00.621Z,313,312.84164192,1,2,7,0,0,2026-06-07T08:12:00.621Z!fsrs,2027-05-07T08:38:49.155Z,328,328.01615794,1,2,7,0,0,2026-06-13T08:38:49.155Z-->
-- DSO horizontal axis (time/div, s/ms/μs, period $T$) ::@:: Time; each division = time per division (s/ms/μs); use it to read period $T$ of one cycle. <!--SR:!fsrs,2027-04-09T01:21:05.260Z,307,307.08504834,1,2,7,0,0,2026-06-06T01:21:05.260Z!fsrs,2027-04-06T01:18:29.703Z,304,304.04690879,1,2,7,0,0,2026-06-06T01:18:29.703Z-->
-- DSO peak-to-peak ($V_{\text{pp}}$): how to read? ::@:: Count vertical divisions from waveform minimum to maximum and multiply by volts-per-division; units V or mV. <!--SR:!fsrs,2027-04-08T01:15:37.248Z,306,305.57546247,1,2,7,0,0,2026-06-06T01:15:37.248Z!fsrs,2027-04-06T01:15:40.926Z,304,304.04690879,1,2,7,0,0,2026-06-06T01:15:40.926Z-->
-- DSO period and frequency ($T$, $f=1/T$, units) ::@:: Period $T$ = horizontal divisions for one cycle $\times$ time-per-division; frequency $f=1/T$ (Hz or kHz); check time scale units (s/ms/μs). <!--SR:!fsrs,2027-04-02T01:15:39.354Z,300,300.38138884,1,2,7,0,0,2026-06-06T01:15:39.354Z!fsrs,2027-04-01T01:21:10.870Z,299,298.72647102,1,2,7,0,0,2026-06-06T01:21:10.870Z-->
-- DSO trigger purpose ::@:: Trigger stabilises the display so a repeating waveform appears stationary; set source, level, and slope as in the tutorial. <!--SR:!fsrs,2027-04-08T01:15:35.363Z,306,305.57546247,1,2,7,0,0,2026-06-06T01:15:35.363Z!fsrs,2027-05-12T08:38:05.985Z,333,332.56124433,1,2,7,0,0,2026-06-13T08:38:05.985Z-->
-- DSO units reminder (vertical V/mV, horizontal s/ms/μs, Hz/kHz; $V_{\text{pp}}$, period, frequency) ::@:: Always check on-screen units for vertical (V/mV) and horizontal (s/ms/μs, Hz/kHz) when reading $V_{\text{pp}}$, period, or frequency. <!--SR:!fsrs,2027-04-07T01:15:38.012Z,305,305.20736891,1,2,7,0,0,2026-06-06T01:15:38.012Z!fsrs,2027-04-11T01:18:30.384Z,309,308.57643926,1,2,7,0,0,2026-06-06T01:18:30.384Z-->
-- DSO probe connection and ground ::@:: In ELEC 1100 labs, connect the DSO probe clip (negative) to the circuit reference node marked GND in the diagram and touch the probe tip to the bottom of component leads rather than jamming it into breadboard holes to avoid damaging contacts. <!--SR:!fsrs,2027-04-02T01:21:21.192Z,300,300.38138884,1,2,7,0,0,2026-06-06T01:21:21.192Z!fsrs,2027-04-04T01:21:16.741Z,302,302.01253197,1,2,7,0,0,2026-06-06T01:21:16.741Z-->
+- DSO vertical axis ::@:: Voltage; each division = volts (or mV) per division; check on-screen scale before reading. <!--SR:!fsrs,2027-04-16T08:12:00.621Z,313,312.84164192,1,2,7,0,0,2026-06-07T08:12:00.621Z!fsrs,2027-05-07T08:38:49.155Z,328,328.01615794,1,2,7,0,0,2026-06-13T08:38:49.155Z-->
+- DSO horizontal axis ::@:: Time; each division = time per division (s/ms/μs); use to read period $T$. <!--SR:!fsrs,2027-04-09T01:21:05.260Z,307,307.08504834,1,2,7,0,0,2026-06-06T01:21:05.260Z!fsrs,2027-04-06T01:18:29.703Z,304,304.04690879,1,2,7,0,0,2026-06-06T01:18:29.703Z-->
+- DSO peak-to-peak ($V_{\text{pp}}$) ::@:: Count vertical divisions from minimum to maximum, multiply by volts-per-division. <!--SR:!fsrs,2027-04-08T01:15:37.248Z,306,305.57546247,1,2,7,0,0,2026-06-06T01:15:37.248Z!fsrs,2027-04-06T01:15:40.926Z,304,304.04690879,1,2,7,0,0,2026-06-06T01:15:40.926Z-->
+- DSO period and frequency ::@:: $T$ = horizontal divisions for one cycle × time-per-division; $f=1/T$ (Hz or kHz). <!--SR:!fsrs,2027-04-02T01:15:39.354Z,300,300.38138884,1,2,7,0,0,2026-06-06T01:15:39.354Z!fsrs,2027-04-01T01:21:10.870Z,299,298.72647102,1,2,7,0,0,2026-06-06T01:21:10.870Z-->
+- DSO trigger ::@:: Stabilises the display so a repeating waveform appears stationary; set source, level, and slope. <!--SR:!fsrs,2027-04-08T01:15:35.363Z,306,305.57546247,1,2,7,0,0,2026-06-06T01:15:35.363Z!fsrs,2027-05-12T08:38:05.985Z,333,332.56124433,1,2,7,0,0,2026-06-13T08:38:05.985Z-->
+- DSO units reminder ::@:: Check on-screen units for vertical (V/mV) and horizontal (s/ms/μs) before reading $V_{\text{pp}}$, period, or frequency. <!--SR:!fsrs,2027-04-07T01:15:38.012Z,305,305.20736891,1,2,7,0,0,2026-06-06T01:15:38.012Z!fsrs,2027-04-11T01:18:30.384Z,309,308.57643926,1,2,7,0,0,2026-06-06T01:18:30.384Z-->
+- DSO probe connection ::@:: Connect probe clip (negative) to GND in the schematic; touch probe tip to component lead bottoms, not breadboard holes. <!--SR:!fsrs,2027-04-02T01:21:21.192Z,300,300.38138884,1,2,7,0,0,2026-06-06T01:21:21.192Z!fsrs,2027-04-04T01:21:16.741Z,302,302.01253197,1,2,7,0,0,2026-06-06T01:21:16.741Z-->
 
 ## LED <!-- check: ignore-line[header_style]: proper noun -->
 
@@ -135,17 +135,17 @@ An LED must be used with a series resistor (typically about $1\text{ k}\Omega$ a
 
 Flashcards for this section are as follows:
 
-- LED series resistor (e.g. $1\text{ k}\Omega$ at $5\text{ V}$) ::@:: Always use a series resistor (e.g. $1\text{ k}\Omega$ at $5\text{ V}$) with an LED to limit current and prevent damage. <!--SR:!fsrs,2027-04-11T01:20:58.907Z,309,308.57643926,1,2,7,0,0,2026-06-06T01:20:58.907Z!fsrs,2027-05-12T08:38:05.041Z,333,332.56124433,1,2,7,0,0,2026-06-13T08:38:05.041Z-->
-- resistor colour code example 5-band (e.g. 2–3–7–1% → $R=237\,\Omega$) ::@:: 5-band: bands 2–3–7–1% (red–orange–violet–black–brown) give $R=237\,\Omega$ $\pm1\%$. <!--SR:!fsrs,2027-05-10T08:38:52.018Z,331,331.0632816,1,2,7,0,0,2026-06-13T08:38:52.018Z!fsrs,2027-04-07T01:21:12.321Z,305,305.20736891,1,2,7,0,0,2026-06-06T01:21:12.321Z-->
-- DSO scales ::@:: On the DSO, vertical divisions are voltage and horizontal divisions are time; check on-screen units (V/mV, s/ms, Hz/kHz) when reading values. <!--SR:!fsrs,2027-04-16T08:12:01.734Z,313,312.84164192,1,2,7,0,0,2026-06-07T08:12:01.734Z!fsrs,2027-04-01T01:21:03.944Z,299,298.72647102,1,2,7,0,0,2026-06-06T01:21:03.944Z-->
+- LED series resistor ::@:: Always use a series resistor (e.g. $1\text{ k}\Omega$ at $5\text{ V}$) with an LED to limit current.
+- 5-band colour code example ::@:: Red–orange–violet–black–brown: digits 2–3–7, multiplier ×1, tolerance ±1% → $R=237\,\Omega$ $\pm1\%$.
+- DSO scales ::@:: Vertical divisions are voltage, horizontal divisions are time; check units before reading.
 
 ## lab safety
 
-Never short the power rails or reverse power and ground. When you finish a measurement or are about to rewire a circuit, turn off the DC power supply or disable its output and use the current-limit knob as described in lab to protect your circuit from accidental overcurrent. In ELEC 1100 experiments you normally ignore the bench supply's GND binding post: treat the negative terminal in the circuit diagram as the reference node (GND) and connect the negative leads of the DMM, DSO probes, and function generator there instead of to the supply's chassis ground. If readings look wrong or you smell burning, turn off the supply immediately and ask a TA.
+Never short the power rails or reverse power and ground. Before rewiring, turn off or disable the DC supply and use the current-limit knob. Ignore the bench supply's GND binding post; treat the circuit's negative terminal as the reference node (GND) for DMM, DSO, and function generator leads. If readings look wrong or you smell burning, turn off immediately and ask a TA.
 
 ---
 
 Flashcards for this section are as follows:
 
-- lab safety rules ::@:: Do not short the rails or reverse power and ground; turn off the supply and ask a TA if something smells or readings are wrong. <!--SR:!fsrs,2027-04-06T01:18:28.146Z,304,303.62086325,1,2,7,0,0,2026-06-06T01:18:28.146Z!fsrs,2027-04-04T01:15:31.363Z,302,302.01253197,1,2,7,0,0,2026-06-06T01:15:31.363Z-->
-- DC supply and reference node safety ::@:: After measurements or before rewiring, turn off or disable the DC supply output and rely on the current limit to protect circuits; in ELEC 1100 labs use the circuit's GND node as the common reference for negative leads rather than the bench supply's chassis GND terminal. <!--SR:!fsrs,2027-04-09T01:21:06.278Z,307,307.08504834,1,2,7,0,0,2026-06-06T01:21:06.278Z!fsrs,2027-04-11T01:21:09.611Z,309,308.57643926,1,2,7,0,0,2026-06-06T01:21:09.611Z-->
+- lab safety rules ::@:: Do not short rails or reverse power/ground; turn off the supply and ask a TA if readings look wrong or you smell burning. <!--SR:!fsrs,2027-04-06T01:18:28.146Z,304,303.62086325,1,2,7,0,0,2026-06-06T01:18:28.146Z!fsrs,2027-04-04T01:15:31.363Z,302,302.01253197,1,2,7,0,0,2026-06-06T01:15:31.363Z-->
+- DC supply safety ::@:: Turn off or disable output before rewiring; use the current limit to protect circuits; use the circuit's GND node as reference, not the bench supply chassis GND. <!--SR:!fsrs,2027-04-09T01:21:06.278Z,307,307.08504834,1,2,7,0,0,2026-06-06T01:21:06.278Z!fsrs,2027-04-11T01:21:09.611Z,309,308.57643926,1,2,7,0,0,2026-06-06T01:21:09.611Z-->

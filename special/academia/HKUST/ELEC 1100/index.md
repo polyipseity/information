@@ -50,9 +50,11 @@ The content is in teaching order.
 
 ## children
 
+- [assignments/](assignments/index.md)
 - [attachments/](attachments/)
 - [labs/](labs/index.md)
 - [questions/](questions/index.md)
+- [tutorials/](tutorials/index.md)
 - [AGENTS](AGENTS.md)
 - [Arduino](Arduino.md)
 - [Boolean algebra](Boolean%20algebra.md)
@@ -148,6 +150,7 @@ During the first lecture the instructor went over {@{the course logistics}@}.  Y
 - datetime: 2026-02-09T14:30:00+08:00/2026-02-09T15:20:00+08:00, PT50M
 - venue: CYT-G001
 - topic: prepare for lab 1
+- quiz: [tutorial 1](tutorials/tutorial%201/index.md) (ungraded test questions)
 - ELEC 1100
     - ELEC 1100 / [lab equipment](lab%20equipment.md)
         - [§ equipment overview](lab%20equipment.md#equipment%20overview)
@@ -249,6 +252,7 @@ During the first lecture the instructor went over {@{the course logistics}@}.  Y
 - datetime: 2026-02-23T14:30:00+08:00/2026-02-23T15:20:00+08:00, PT50M
 - venue: CYT-G001
 - topic: prepare for lab 2
+- quiz: [tutorial 2](tutorials/tutorial%202/index.md)
 - ELEC 1100
     - ELEC 1100 / [Kirchhoff's circuit laws](Kirchhoff%27s%20circuit%20laws.md)
         - [§ background](Kirchhoff%27s%20circuit%20laws.md#background)
@@ -340,6 +344,7 @@ During the first lecture the instructor went over {@{the course logistics}@}.  Y
 - datetime: 2026-03-02T14:30:00+08:00/2026-03-02T15:20:00+08:00, PT50M
 - venue: CYT-G001
 - topic: prepare for lab 3
+- quiz: [tutorial 3](tutorials/tutorial%203/index.md)
 - ELEC 1100
     - ELEC 1100 / [diode](diode.md)
         - [§ pn junction and biasing](diode.md#pn%20junction%20and%20biasing)
@@ -570,12 +575,35 @@ During the first lecture the instructor went over {@{the course logistics}@}.  Y
 - datetime: 2026-03-30T10:30:00+08:00/2026-03-30T13:20:00+08:00, PT2H50M
 - venue: Room 2133 & 2134, Academic Building
 - topic: lab exam
+- ELEC 1100 / [lab examination](#lab%20examination)
+
+---
+
+> __Reminder: Your Lab Exam (March 30, Mon)__
+>
+> __ELEC1100 (LA3) Lab Exam__
+>
+> This is a __close-book__ and __close-note__ exam. Any unauthorized paper is _NOT_ allowed. <br/>
+> __Calculators are allowed to use.__ Other electronic devices with word/graphical display facilities and communication capability (such as databank watches or electronic dictionaries) are not allowed.
+>
+> __March 30 (Mon), the 1st half session: 10:30 - 11:45; the 2nd half session: 12:00 - 13:15__
+>
+> Go to the below page to check on your own exam start time.
+>
+> - Lab Exam Sessions (Single-person exam, 75min each)
+>
+> Bring your __student ID card__ & your own __calculator__, about the Formulae and Calculators, go to the below page.
+>
+> - Formulae and Calculators
+>
+> You will need to __write in the exam paper__, get your __exam stationery__ ready (i.e. ballpoint pen, pencil, ruler).
 
 ## week 9 tutorial 1
 
 - datetime: 2026-03-30T14:30:00+08:00/2026-03-30T15:20:00+08:00, PT50M
 - venue: CYT-G001
 - topic: prepare for lab 5
+- quiz: [tutorial 6](tutorials/tutorial%206/index.md)
 - ELEC 1100
     - ELEC 1100 / [pulse-width modulation](pulse-width%20modulation.md#pwm%20in%20motor%20control)
     - ELEC 1100 / [pulse-width modulation](pulse-width%20modulation.md#pwm%20generation%20methods)
@@ -647,6 +675,7 @@ During the first lecture the instructor went over {@{the course logistics}@}.  Y
 - datetime: 2026-04-13T14:30:00+08:00/2026-04-13T15:20:00+08:00, PT50M
 - venue: CYT-G001
 - topic: prepare for lab 6
+- quiz: [tutorial 7](tutorials/tutorial%207/index.md)
 - ELEC 1100
     - ELEC 1100 / [sensor](sensor.md#sensor%20patterns%20for%20line%20following)
     - ELEC 1100 / [final project](final%20project.md#line-tracking%20logic%20and%20memory)
@@ -687,6 +716,16 @@ During the first lecture the instructor went over {@{the course logistics}@}.  Y
     - ELEC 1100 / [final project](final%20project.md#route-stages-and-scoring-logic)
     - ELEC 1100 / [questions / written exam review](questions/written%20exam%20review.md)
 
+---
+
+> __Project Period and Early Demo__
+>
+> Notice: Your project period has officially begun! You can now visit the Home page to access the project guidelines (or use the link below).
+>
+> Important Notice: __Rooms 2133 and 2134 will be closed (no further lab classes) until the Early Demo.__
+>
+> Early Demo: 5min each group
+
 ## week 12 lecture 1
 
 - datetime: 2026-04-20T16:00:00+08:00/2026-04-20T16:50:00+08:00, PT50M
@@ -698,6 +737,27 @@ During the first lecture the instructor went over {@{the course logistics}@}.  Y
 - datetime: 2026-04-24T11:30:00+08:00/2026-04-24T12:20:00+08:00, PT50M
 - venue: CYT-LTL
 - status: no class
+- ELEC 1100
+    - ELEC 1100 / [early demo code](assignments/early%20demo%20code/index.md)
+
+---
+
+> __MONDAY: Early Demo (Submission Deadline: 10:30AM)__
+>
+> ELEC1100 Early Demo (LA3, Monday)
+>
+> April 27 (Mon), 10:30-11:30 <br/>
+> Bring your robot car to Rm2133 at the assigned slot. Early Demo: 5min each group
+>
+> __Canvas Submission Deadline (April 27, Monday, 10:30AM)__<br/>
+> Submit your demo code (.ino file) to your Canvas LA3 "Assignments" before the deadline. <br/>
+> This is a group assignment (1 code allowed), only needs one member in a group to do the submission. <br/>
+> __Late submissions will NOT be accepted.__
+>
+> Notice: If you've missed the submission deadline, you cannot have any demo trials at the early session. <br/>
+> You will need to wait until the final demo for grading your work.
+
+<!-- markdownlint MD028 -->
 
 ## week 13 lab 1
 
@@ -735,6 +795,22 @@ During the first lecture the instructor went over {@{the course logistics}@}.  Y
     - ELEC 1100 / [final project](final%20project.md#route-stages-and-scoring-logic)
     - ELEC 1100 / [final project](final%20project.md#code-demo-and-report-expectations)
 
+---
+
+> __Project Demo Results__
+>
+> Dear __ELEC1100 (L1)__ students,
+>
+> You can now check your __Project Demo__ results on your Canvas __ELEC1100 (L1) “Grades”__ page.
+>
+> Here are the details for your information:
+>
+> __Project Demo (Full Mark: 20)__
+>
+> - Maximum Score: 20 (66)
+> - Mean: 14.02
+> - Standard Deviation (SD): 5.86
+
 ## week 14 tutorial 1
 
 - datetime: 2026-05-04T14:30:00+08:00/2026-05-04T15:20:00+08:00, PT50M
@@ -747,34 +823,248 @@ During the first lecture the instructor went over {@{the course logistics}@}.  Y
 - venue: CYT-LTL
 - status: no class
 
+<!-- check: ignore-next-line[session_next_lecture_remark]: verbatim Canvas announcement -->
 ## week 14 lecture 2
 
 - datetime: 2026-05-08T11:30:00+08:00/2026-05-08T12:20:00+08:00, PT50M
 - venue: CYT-LTL
 - status: no class
+- ELEC 1100
+    - ELEC 1100 / [project report](assignments/project%20report/index.md)
+
+---
+
+> __Final Demo Code and Report Submission__
+>
+> If you've received the full mark of 20 points today, it's no need for you to come at the final demo next week. <br/>
+> You can now submit to your Canvas ELEC1100 (L1) assignment __"Project Report"__. <br/>
+> Follow the instructions in the document: Report Format and Writing Guidelines_2026s.pdf
+>
+> For joining the __Final Demo on May 04 (Monday)__, you will need to submit before the Canvas deadline (10:30AM on May 04, Monday). <br/>
+> Final Demo: 5min each group. <br/>
+> __Late submissions will NOT be accepted.__ <br/>
+> Students who did not complete Stage 1 in the Early Demo (score ≤ 7) must begin the Final Demo from Task 1.
+
+<!-- markdownlint MD028 -->
+
+> __Project Report Submission__
+>
+> You can now submit to the __"Project Report"__ assignment on Canvas ELEC1100 (L1) page. <br/>
+> Please follow the instructions provided in the document: Report Format and Writing Guidelines_2026s.pdf
+>
+> __Submission deadline: 10:00 AM on Friday, May 8.__ Late submissions will NOT be accepted.
+
+<!-- markdownlint MD028 -->
+
+> __Project Report Results__
+>
+> Dear __ELEC1100 (L1)__ students,
+>
+> Your __Project Report__ results are now available on the Canvas __ELEC1100 (L1) “Grades”__ page.
+>
+> - If marks were deducted, please refer to the comments to your submitted file for details.
+>
+> __Summary:__
+>
+> - __Project Report (Full Mark: 3)__
+> - Maximum Score: 3
+> - Mean: 2.65
+> - Standard Deviation (SD): 0.87
 
 ## lab examination
 
 - datetime: 2026-03-30T10:30:00+08:00/2026-03-30T13:20:00+08:00, PT2H50M
 - venue: Room 2133 & 2134, Academic Building
+- scope: all prior content
 - format:
+    - calculator: allowed
     - cheatsheet: no
     - open book: no
+    - open notes: no
     - questions: lab‑style and theory
+- grade: 20/20
+- statistics:
+    - LA3:
+        - timestamp: 2026-03-31T19:15:00+08:00
+        - count: \(none\)
+        - high: (provided: 20)
+        - mean: (provided: 11.66)
+        - standard deviation: (provided: 4.96)
+        - low: \(none\)
+        - lower quartile: \(none\)
+        - median: \(none\)
+        - upper quartile: \(none\)
+        - distribution: \(none\)
+        - data: \(none\)
+        - note: 16 students achieved the maximum score of 20
+- breakdown: questions ×4
+- note: \(none\)
+- report:
+    - \(none\)
+
+---
+
+> __Lab Exam Results and Paper Review__
+>
+> Dear __ELEC1100 (L1)__ students,
+>
+> You can now check your __Lab Exam__ results on your Canvas __ELEC1100 (L1) “Grades”__ page.
+>
+> Here are the details for your information:
+>
+> __Lab Exam (Full Mark: 20)__
+>
+> - Maximum Score: 20 (16)
+> - Mean: 11.66
+> - Standard Deviation (SD): 4.96
+>
+> To review your exam paper, please attend the below session on tomorrow (April 01):
+>
+> - __Paper Review:__ April 01 (Wednesday), __09:50-10:30 AM__, at Room 2515
+>
+> Please note that __taking photos is NOT allowed__ during the paper review session.
 
 ## final examination
 
 - datetime: 2026-05-20T12:45:00+08:00/2026-05-20T14:15:00+08:00, PT1H30M
 - venue: LTA
-- venue: Spring Term Final Examinations, arranged by ARO
+- scope: all prior content
 - format:
+    - calculator: allowed (basic math functions only)
     - cheatsheet: no
     - open book: no
-    - questions: lab‑style and theory
+    - open notes: no
+    - questions: multiple choice questions
+- grade: 24/25 → 25/25
+- statistics:
+    - L1:
+        - timestamp: 2026-05-21T11:02:00+08:00 → 2026-05-22T16:09:00+08:00
+        - count: \(none\) → \(none\)
+        - high: (provided: 25) → (provided: 25)
+        - mean: (provided: 19.02) → (provided: 19.61)
+        - standard deviation: (provided: 4.59) → (provided: 4.72)
+        - low: \(none\) → \(none\)
+        - lower quartile: \(none\) → \(none\)
+        - median: \(none\) → \(none\)
+        - upper quartile: \(none\) → \(none\)
+        - distribution: \(none\) → \(none\)
+        - data: \(none\) → \(none\)
+        - note: 30 students achieved the maximum score of 25 (updated from 7 after re-mark)
+- breakdown: multiple choice questions ×25
+- note: \(none\)
+- report:
+    - \(none\)
+
+---
+
+> __Final Exam Reminder: Date, Venue & Instructions__
+>
+> Dear __ELEC1100 (L1)__ Students,
+>
+> Please download the __updated LTA seating plan__ from the link: LTA_For Final Exam Only_ELEC1100_May 20.pdf
+>
+> - The seating plan will also be posted outside the LTA on the day of the exam.
+> - Students __must__ sit only in their assigned seats at the LTA.
+>
+> Your Final Exam __Seat No. (1–176)__ is now available on the Canvas ELEC1100 (L1) __Grades__ page.
+>
+> __Final Exam Details:__
+>
+> - __Date:__ Wednesday, May 20, 2026
+> - __Time:__ 12:45–14:15 (90 minutes)
+> - __Venue:__ LTA (Lecture Theater A)
+>
+> __Exam Arrangements (see Lecture 17 notes):__
+>
+> - __Written Exam (25)__
+> - Closed-book, closed-note. No extra paper allowed. Use exam paper for scratch work (not graded).
+> - __25 Multiple-Choice (MC) Questions (25 points).__
+> - Bring:
+>     - HB pencil for the MC answer sheet
+>     - Student ID card
+>     - Your own calculator (basic math functions only)
+> - No electronic devices with communication functions allowed.
+
+<!-- markdownlint MD028 -->
+
+> __Final Exam Results and Paper Review__
+>
+> Dear __ELEC1100 (L1)__ students,
+>
+> You can now check your __Final Exam__ results on your Canvas __ELEC1100 (L1) “Grades”__ page.
+>
+> Here are the details for your information:
+>
+> __Final Exam (Full Mark: 25)__
+>
+> - Maximum Score: 25 (7)
+> - Mean: 19.02
+> - Standard Deviation (SD): 4.59
+>
+> To review your MC sheets, please attend the below session on tomorrow (May 22):
+>
+> - __Paper Review:__ May 22 (Friday), __12:30–13:30__, at Room 2515
+>
+> Notice that:
+>
+> - Solutions for each exam question will be provided for your reference.
+> - Taking photos is __not allowed__ during the paper review session.
+
+<!-- markdownlint MD028 -->
+
+> __Update on Final Exam Results (Arduino Question)__
+>
+> Dear __ELEC1100 (L1)__ students,
+>
+> Please note that __an update has been made__ to the marking of your __Final Exam__ due to the __Arduino coding question__.
+>
+> You can now check your updated results on the __“Grades”__ page.
+>
+> Please refer to the document below for detailed explanations:
+>
+> Arduino Question 1 – Explanation and Updated Marking.pdf
+>
+> __Updated Exam Statistics (Final Exam, Full Mark: 25)__
+>
+> - __Maximum Score:__ 25 (achieved by 30)
+> - __Mean:__ 19.61
+> - __Standard Deviation (SD):__ 4.72
 
 ## aftermath
 
 ### total
 
-- grades: 100/100
-    - statistics: ?
+- grade: 100/100
+    - letter grade: A+
+- statistics:
+    - L1:
+        - timestamp: 2026-05-22T18:04:00+08:00
+        - count: \(none\)
+        - mean: \(none\)
+        - standard deviation: \(none\)
+        - low: \(none\)
+        - lower quartile: \(none\)
+        - median: \(none\)
+        - upper quartile: \(none\)
+        - high: \(none\)
+        - distribution: \(none\)
+        - data: \(none\)
+
+---
+
+> __Overall Course Results and Grade Review__
+>
+> Dear __ELEC1100 (L1)__ students,
+>
+> Congratulations on completing all assessments for ELEC1100!
+>
+> You can now view your overall course results (out of 100) on the “__Grades__” page.
+>
+> Please review your marks carefully. If you have any questions, kindly contact the IA by __Tuesday, 26 May 2026__.
+>
+> Please note that for previous assignments, only __administrative issues__ (such as possible grading errors) can be reviewed. Requests related to late submissions cannot be reconsidered.
+>
+> __No changes to marks will be made after 26 May 2026.__
+>
+> Thank you, and well done on completing the course. <br/>
+> ELEC1100 Teaching Team

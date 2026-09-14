@@ -1,0 +1,26 @@
+assignment:
+  comments: {}
+  content: No additional details were added for this assignment.
+  grade:
+    entered: 20
+    graded anonymously: false
+    possible: 20
+  id: 431756
+  properties:
+    available:
+      end: 2026-04-27 10:30:00+08:00
+      start: null
+    due: 2026-04-27 10:30:00+08:00
+    file types:
+      - ino
+    points: 20
+    submitting:
+      - a file upload
+  submissions:
+    - datetime: 2026-04-27 10:28:00+08:00
+      id: -1
+  title: Early Demo Code_Mat 2
+course:
+  id: 70004
+  name: ELEC1100 (LA3)
+type: submission/Canvas/canvas.ust.hk

@@ -23,8 +23,8 @@ Homework-related pages live here.
 
 ## children
 
-- [homework 1](homework%201/index.md): 2026-03-07
-- [homework 2](homework%202/index.md): 2026-04-11
+- [homework 1](homework%201/index.md)
+- [homework 2](homework%202/index.md)
 - [homework 3](homework%203/index.md)
 
 ## notes

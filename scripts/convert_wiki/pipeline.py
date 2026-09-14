@@ -1,8 +1,28 @@
-"""Conversion pipeline orchestration.
+"""Conversion pipeline: preprocess → convert → postprocess.
 
-Contains ``wiki_html_to_plaintext`` (post-processing after the converter)
-and ``run_pipeline`` (the top-level entry point that coordinates redirect
-resolution, image metadata fetching, and conversion).
+This module orchestrates the full Wikipedia HTML-to-Markdown pipeline.
+The pipeline has three logical phases:
+
+1. **Preprocess** (``_preprocess_html``): mutate the HTML tree before
+   conversion — style/CS1 cleanup, numblk table merging, adjacent math
+   merging, external math punctuation normalization, sfrac replacement,
+   annotated-image cleanup.
+
+2. **Convert** (``WikiHtmlConverter.convert``): walk the (now-clean) HTML
+   tree and emit Markdown text.  The converter must not perform tree
+   mutations; it only reads the tree and produces text.
+
+3. **Postprocess** (``wiki_html_to_plaintext``): fix Markdown text —
+   math spacing, table column padding, blockquote MD028 separation,
+   blank-line collapsing.
+
+Key functions:
+
+- ``run_pipeline``: top-level entry point; handles redirect resolution,
+  image metadata fetching, and delegates to ``wiki_html_to_plaintext``.
+- ``wiki_html_to_plaintext``: converts a parsed HTML tree to Markdown,
+  applying preprocessing, conversion, and postprocessing.
+- ``_preprocess_html``: all HTML tree mutations before conversion.
 """
 
 import re
@@ -12,7 +32,9 @@ from pathlib import PurePath
 from typing import Any
 
 from aiohttp import ClientSession, TCPConnector
-from bs4 import BeautifulSoup, PageElement
+from aiohttp_retry import RetryClient
+from aiohttp_retry.types import ClientType
+from bs4 import BeautifulSoup, NavigableString, PageElement, Tag
 
 from . import config as _cfg
 from .api import (
@@ -28,11 +50,172 @@ from .ast_utils import (
     _walk_tokens,
 )
 from .converter import WikiHtmlConverter
+from .inline_context import _is_display_math_only_dl
+from .latex import LatexConverter
+from .table import _reformat_table
+from .template_config import _DISPLAY_MATH_CONTAINERS
 from .types import _RedirectInfo
-from .utils import _ZERO_WIDTH_CHARS_RE, _reformat_table
+from .utils import _ZERO_WIDTH_CHARS_RE, _create_redirect_symlinks
 
 """Exported names from this module."""
 __all__ = ()
+
+
+def _is_transparent_wrapper_span(tag: Tag) -> bool:
+    """Return True if *tag* is a span that wraps content without rendering."""
+    if tag.name != "span":
+        return False
+    classes = frozenset(tag.get_attribute_list("class"))
+    return bool(
+        classes <= {"nowrap", "mwe-math-element-inline", "mwe-math-mathml-inline"}
+    )
+
+
+def _unwrap_inline_math_span(tag: Tag) -> Tag | None:
+    """If *tag* is a transparent span wrapping a single mwe-math-element,
+    return the inner mwe-math-element span.  Otherwise return *tag* itself.
+    """
+    if not _is_transparent_wrapper_span(tag):
+        return tag
+    # Filter out whitespace and zero-width joiners (U+2060, U+FEFF, etc.).
+    children = [
+        c
+        for c in tag.children
+        if not isinstance(c, NavigableString)
+        or c.strip().replace("\u2060", "").replace("\ufeff", "")
+    ]
+    if (
+        len(children) == 1
+        and isinstance(children[0], Tag)
+        and "mwe-math-element" in " ".join(children[0].get_attribute_list("class"))
+    ):
+        return children[0]  # type: ignore[return-value]
+    return tag
+
+
+def _merge_adjacent_math_dd(dd: Tag) -> None:
+    """Merge consecutive inline math spans in a ``<dd>`` element.
+
+    Wikipedia HTML often splits multi-part equations into separate
+    ``<span class="mwe-math-element mwe-math-element-inline">``
+    children separated only by whitespace. This method detects runs
+    of ≥2 such spans (with only whitespace NavigableStrings between)
+    and replaces each run with a single merged span whose alttext is
+    the space-joined LaTeX of all parts.
+    """
+    # Repeat until no more merges are possible.
+    while True:
+        children = list(dd.children)
+        merged_any = False
+        i = 0
+        while i < len(children):
+            child = children[i]
+            if not isinstance(child, Tag) or "mwe-math-element" not in " ".join(
+                child.get_attribute_list("class")
+            ):
+                i += 1
+                continue
+            # Start of a potential run.
+            run = [child]
+            j = i + 1
+            while j < len(children):
+                nxt = children[j]
+                if isinstance(nxt, NavigableString):
+                    if nxt.strip():
+                        break  # non-whitespace text ends run
+                    j += 1
+                    continue
+                if isinstance(nxt, Tag):
+                    # Unwrap transparent spans to find the inner math element.
+                    unwrapped = _unwrap_inline_math_span(nxt)
+                    if unwrapped is not nxt and unwrapped is not None:
+                        nxt = unwrapped
+                    if "mwe-math-element" in " ".join(nxt.get_attribute_list("class")):
+                        # Break the run if the previous span's alttext does
+                        # not end with '=' — a trailing '=' signals the
+                        # equation continues into the next span.
+                        # Only apply for <p>/<li> to avoid disrupting
+                        # existing <dd>/<dt> merges.
+                        if dd.name in ("p", "li") and run:
+                            prev_math = run[-1].find("math")
+                            if isinstance(prev_math, Tag):
+                                raw = prev_math.get("alttext", "")
+                                if raw:
+                                    prev_alt = WikiHtmlConverter._prepare_math_alttext(
+                                        str(raw)
+                                    ).rstrip()
+                                    # Strip trailing braces then check for '='.
+                                    if not prev_alt.rstrip("}{{").endswith("="):
+                                        break
+                        run.append(nxt)
+                        j += 1
+                        continue
+                break
+            if len(run) < 2:
+                i = j
+                continue
+            # Skip if any span in the run is block math — don't merge $$ into $.
+            if any(
+                "mwe-math-element-block" in " ".join(span.get_attribute_list("class"))
+                for span in run
+            ):
+                i = j
+                continue
+            # Merge the run into a single span.
+            parts: list[str] = []
+            for span in run:
+                math = span.find("math")
+                if isinstance(math, Tag):
+                    raw = math.get("alttext", "")
+                    if raw:
+                        parts.append(WikiHtmlConverter._prepare_math_alttext(str(raw)))
+            merged_alt = " ".join(parts)
+            # Build replacement element.
+            new_span = dd.new_tag(
+                "span",
+                attrs={"class": "mwe-math-element mwe-math-element-inline"},
+            )
+            new_mathml_span = dd.new_tag(
+                "span",
+                attrs={"class": "mwe-math-mathml-inline"},
+            )
+            new_math = dd.new_tag(
+                "math",
+                attrs={
+                    "alttext": merged_alt,
+                    "xmlns": "http://www.w3.org/1998/Math/MathML",
+                },
+            )
+            new_annotation = dd.new_tag(
+                "annotation",
+                attrs={"encoding": "application/x-tex"},
+            )
+            new_annotation.string = merged_alt
+            new_math.append(new_annotation)
+            new_mathml_span.append(new_math)
+            new_span.append(new_mathml_span)
+            # Replace first span; remove rest and surrounding whitespace.
+            run[0].replace_with(new_span)
+            for span in run[1:]:
+                span.extract()
+            # Clean up adjacent whitespace NS.
+            prev = new_span.previous_sibling
+            while isinstance(prev, NavigableString) and not prev.strip():
+                to_remove = prev
+                prev = to_remove.previous_sibling
+                to_remove.extract()
+            nxt = new_span.next_sibling
+            while isinstance(nxt, NavigableString) and not nxt.strip():
+                to_remove = nxt
+                nxt = to_remove.next_sibling
+                to_remove.extract()
+            # Mark the merged span so _is_inline_math knows it was
+            # assembled from multiple inline math spans.
+            new_span["data-merged-inline"] = ""
+            merged_any = True
+            break  # restart scan from beginning
+        if not merged_any:
+            break
 
 
 def _make_converter(
@@ -41,6 +224,7 @@ def _make_converter(
     image_metadata: Mapping[str, str] | None = None,
     names_map: Mapping[str, str] | None = None,
     soup: BeautifulSoup | None = None,
+    page_name: str | None = None,
 ) -> WikiHtmlConverter:
     """Create a WikiHtmlConverter with default path fallbacks."""
     return WikiHtmlConverter(
@@ -50,6 +234,7 @@ def _make_converter(
         image_metadata=image_metadata or {},
         names_map=names_map,
         soup=soup,
+        page_name=page_name,
     )
 
 
@@ -71,18 +256,32 @@ async def _create_session_and_run(
             "Accept-Encoding": "gzip",
             "User-Agent": _cfg.USER_AGENT,
         },
-    ) as session:
-        return await run_pipeline(
-            html,
-            session=session,
-            redirect_map=redirect_map,
-            image_metadata=image_metadata,
-            cache_path=cache_path,
-            names_map=names_map,
-            wiki_dir=wiki_dir,
-            wiki_lang_dir=wiki_lang_dir,
-            refs=refs,
+        trust_env=True,
+    ) as raw_session:
+        session = RetryClient(
+            client_session=raw_session,
+            retry_options=_cfg._WikimediaRetry(
+                attempts=3,
+                start_timeout=1.0,
+                max_timeout=30.0,
+                statuses={429},
+            ),
+            raise_for_status=False,
         )
+        try:
+            return await run_pipeline(
+                html,
+                session=session,
+                redirect_map=redirect_map,
+                image_metadata=image_metadata,
+                cache_path=cache_path,
+                names_map=names_map,
+                wiki_dir=wiki_dir,
+                wiki_lang_dir=wiki_lang_dir,
+                refs=refs,
+            )
+        finally:
+            await session.close()
 
 
 def _determine_needs_before(
@@ -521,6 +720,216 @@ def _separate_block_math(text: str) -> str:
     return _scan_and_apply(text, info)
 
 
+def _merge_dl_after_thumb_into_list(soup: BeautifulSoup | Tag) -> None:
+    """Merge <dl> paragraphs into preceding list when separated by a thumbnail.
+
+    When a <dl> follows a <div class="thumb"> that follows a <ul>/<ol>,
+    the <dd> children belong to the last <li> of that list (they are
+    continuations of the list item content).  This restructuring moves
+    the <dd> elements into the last <li> and removes the empty <dl>.
+
+    Display-math-only <dl> elements are skipped — they have different
+    semantics (equation references, not prose continuations).
+    """
+    if not isinstance(soup, (BeautifulSoup, Tag)):
+        return
+
+    def _content_sibling(ele: Tag, *, following: bool) -> Tag | None:
+        """Return the first content sibling, skipping <link>/<style>."""
+        if following:
+            nxt = ele.find_next_sibling()
+            while isinstance(nxt, Tag) and nxt.name in {"link", "style"}:
+                nxt = nxt.find_next_sibling()
+            return nxt if isinstance(nxt, Tag) else None
+        prev = ele.find_previous_sibling()
+        while isinstance(prev, Tag) and prev.name in {"link", "style"}:
+            prev = prev.find_previous_sibling()
+        return prev if isinstance(prev, Tag) else None
+
+    for dl in list(soup.find_all("dl")):
+        # Skip display-math-only <dl> — different semantics.
+        if _is_display_math_only_dl(dl):
+            continue
+
+        # Check if previous sibling is a thumbnail.
+        prev = _content_sibling(dl, following=False)
+        if prev is None or prev.name != "div":
+            continue
+        if "thumb" not in frozenset(prev.get_attribute_list("class")):
+            continue
+
+        # Check if the thumbnail's previous sibling is a list.
+        list_ele = _content_sibling(prev, following=False)
+        if list_ele is None or list_ele.name not in {"ul", "ol"}:
+            continue
+
+        # Get the last <li> of the list.
+        li_items = list_ele.find_all("li", recursive=False)
+        if not li_items:
+            continue
+        last_li = li_items[-1]
+
+        # Move <dd> children from <dl> into <p> elements inside the
+        # last <li>.  Using <p> instead of <dl> avoids two issues:
+        # (1) the <dl> joiner doesn't add a space before the first <dd>,
+        # (2) the <dl> suffix always adds a trailing `` <p> ``.
+        # Creating a new <dl> preserves the original <dl>'s
+        # display-math-only semantics (which trigger the `` <p> \xa0\xa0\xa0\xa0``
+        # prefix in the converter).
+        dd_children = [c for c in dl.children if isinstance(c, Tag) and c.name == "dd"]
+        if not dd_children:
+            continue
+        for dd in dd_children:
+            p = soup.new_tag("p")
+            for child in list(dd.children):
+                p.append(child.extract())
+            last_li.append(p)
+
+        # Remove whitespace NavigableString between the preceding <dl>
+        # and our new <p>.  This ensures the preceding <dl> gets the
+        # `` <p> `` suffix (with trailing space) instead of `` <p>``
+        # (without), which affects the space after the `` <p> `` separator.
+        last_appended = list(last_li.children)[-1]
+        prev_sibling = last_appended.previous_sibling
+        if isinstance(prev_sibling, NavigableString) and not prev_sibling.strip():
+            prev_sibling.extract()
+
+        # Remove the empty <dl> from the tree.
+        dl.decompose()
+
+
+# Block-level tags that prevent a <div> from being "inline-only".
+_BLOCK_TAGS = frozenset(
+    {"p", "ul", "ol", "dl", "table", "blockquote", "pre", "hr"}
+    | {f"h{i}" for i in range(1, 7)}
+)
+
+
+def _unwrap_navbox_inline_divs(soup: BeautifulSoup | Tag) -> None:
+    """Unwrap inline-only <div> wrappers inside navbox-abovebelow cells.
+
+    A ``<td class="navbox-abovebelow">`` that lacks the ``hlist`` class
+    often wraps inline content (an image + a link) in a ``<div>``.  The
+    ``<div>`` block-level handler adds a ``\n\n`` suffix which then
+    becomes ``<br/> <br/>`` in table-cell postprocessing — an unwanted
+    separator between the icon and the link text.
+
+    This function unwraps such ``<div>`` elements (replacing them with
+    their children) so the content stays on one line.
+    """
+    for td in soup.find_all("td", class_=lambda c: c and "navbox-abovebelow" in c):
+        classes = frozenset(td.get_attribute_list("class"))
+        if "hlist" in classes:
+            continue
+        for div in td.find_all("div", recursive=False):
+            # Only unwrap if every child is inline/transparent (no block tags).
+            if any(
+                isinstance(child, Tag) and child.name in _BLOCK_TAGS
+                for child in div.children
+            ):
+                continue
+            div.unwrap()
+
+
+def _preprocess_html(soup: BeautifulSoup | Tag) -> None:
+    """Mutate the HTML tree before conversion.
+
+    All tree mutations belong here: style/CS1 cleanup, numblk table
+    merging, adjacent math merging, external math punctuation
+    normalization, sfrac replacement, and annotated-image cleanup.
+
+    The converter receives a clean tree and must not perform any
+    mutations during its walk.
+    """
+    if not isinstance(soup, (BeautifulSoup, Tag)):
+        return
+
+    # 1. Strip <style> tags — CSS is never content.
+    for style_tag in soup.find_all("style"):
+        style_tag.decompose()
+
+    # 2. Drop CS1-maintenance citation-comment spans.
+    for cs1_maint in soup.find_all("span", class_="cs1-maint"):
+        cs1_maint.decompose()
+
+    # 3. Merge adjacent numblk tables into one multi-row table.
+    _merge_adjacent_numblk_tables(soup)
+
+    # 4. Merge consecutive inline math spans in <dd>/<dt>/<p>/<li> elements.
+    for dd in soup.find_all(["dd", "dt", "p", "li"]):
+        _merge_adjacent_math_dd(dd)
+
+    # 5. Normalize external math punctuation: absorb trailing
+    #    punctuation from sibling text into math alttext.
+    for container in soup.find_all(list(_DISPLAY_MATH_CONTAINERS | {"p"})):
+        WikiHtmlConverter._normalize_external_math_punctuation(container)
+
+    # 6. Replace sfrac spans with <math> elements.
+    for span in soup.find_all("span"):
+        LatexConverter.replace_sfrac_with_math(span, soup)  # ty: ignore[invalid-argument-type] — Tag.new_tag works identically
+
+    # 7. Clean up annotated-image divs: remove annotation divs
+    #    and noviewer spans so the converter sees clean content.
+    for div in soup.find_all("div", typeof=lambda v: v and "mw:Transclusion" in str(v)):
+        if "annotated image" in str(div.get("data-mw", "")):
+            for ann_div in div.find_all(
+                "div", id=lambda v: v and v.startswith("annotation_")
+            ):
+                ann_div.decompose()
+            for noviewer in div.find_all("span", class_="noviewer"):
+                noviewer.decompose()
+
+    # 8. Merge <dl> paragraphs into preceding list when separated by a
+    #    thumbnail.  When a <dl> follows a <div class="thumb"> that
+    #    follows a <ul>/<ol>, the <dd> children belong to the last <li>
+    #    of that list (they are continuations of the list item content).
+    _merge_dl_after_thumb_into_list(soup)
+
+    # 9. Unwrap inline-only <div> wrappers inside navbox-abovebelow cells
+    #    without hlist.  These <div> elements add a block-level suffix
+    #    that becomes a spurious <br/> <br/> separator in the output.
+    _unwrap_navbox_inline_divs(soup)
+
+
+def _merge_adjacent_numblk_tables(ele: PageElement) -> None:
+    """Merge chains of adjacent <table class="numblk"> siblings into one table.
+
+    Adjacent numblk tables share the same parent and have only whitespace
+    or non-content siblings (``<link>``, ``<style>``) between them.  This
+    function moves ``<tr>`` elements from each subsequent numblk table
+    into the first table's ``<tbody>``, then decomposes the subsequent
+    table.  The inner while-loop handles chains of 3+ tables.
+    """
+    if not isinstance(ele, Tag):
+        return
+    for table in list(ele.find_all("table", class_="numblk")):
+        while True:
+            nxt = table.find_next_sibling()
+            while isinstance(nxt, Tag) and nxt.name in {"link", "style"}:
+                nxt = nxt.find_next_sibling()
+            if not isinstance(nxt, Tag) or nxt.name != "table":
+                break
+            if "numblk" not in frozenset(nxt.get_attribute_list("class")):
+                break
+            # Both are numblk tables and adjacent — merge rows.
+            # Tag each row with its originating table id so anchors
+            # can be placed inside the correct equation-number cell.
+            src_id = nxt.get("id")
+            for tr in (nxt.find("tbody") or nxt).find_all("tr"):
+                if src_id and not tr.get("data-origin-id"):
+                    tr["data-origin-id"] = src_id
+            dst_id = table.get("id")
+            if dst_id:
+                for tr in (table.find("tbody") or table).find_all("tr"):
+                    if not tr.get("data-origin-id"):
+                        tr["data-origin-id"] = dst_id
+            src_tbody = nxt.find("tbody") or nxt
+            dst_tbody = table.find("tbody") or table
+            for tr in src_tbody.find_all("tr"):
+                dst_tbody.append(tr.extract())
+            nxt.decompose()
+
+
 async def wiki_html_to_plaintext(
     ele: PageElement,
     *,
@@ -542,6 +951,9 @@ async def wiki_html_to_plaintext(
     image_metadata:
         Pre-fetched image description metadata (``File:XXX`` → description).
     """
+    # Preprocess: mutate HTML tree before conversion.
+    if isinstance(ele, (BeautifulSoup, Tag)):
+        _preprocess_html(ele)
     if converter is None:
         soup = ele if isinstance(ele, BeautifulSoup) else None
         converter = WikiHtmlConverter(image_metadata=image_metadata, soup=soup)
@@ -553,6 +965,14 @@ async def wiki_html_to_plaintext(
         refs=refs,
         redirect_map=redirect_map,
     )
+    # Create redirect symlinks collected during conversion.
+    for from_name, to_name in converter._pending_redirects:
+        await _create_redirect_symlinks(
+            converter._converted_wiki_dir,
+            converter._converted_wiki_lang_dir,
+            from_name,
+            to_name,
+        )
     # Replace non-breaking spaces with regular spaces (residues from
     # citation spans, HTML &nbsp; in list items, etc.). Replace \n\xa0
     # (newline followed by non-breaking space) first to remove leading
@@ -576,6 +996,10 @@ async def wiki_html_to_plaintext(
     result = _separate_block_quotes(result)
     # Collapse excessive blank lines.
     result = re.sub(r"\n{3,}", r"\n\n", result)
+    # Deduplicate doubled <p> separators from overlapping suffix/prefix
+    # when a <dl> inside a <li> ends with `` <p>`` and a following <dl>
+    # (after </ul>) starts with `` <p> ``.
+    result = re.sub(r"(<p>?)\s*<p>", r"\1", result)
     result = result.strip()
     return result + "\n" if result else result
 
@@ -583,7 +1007,7 @@ async def wiki_html_to_plaintext(
 async def run_pipeline(
     html: BeautifulSoup,
     *,
-    session: ClientSession | None = None,
+    session: ClientType | None = None,
     redirect_map: MutableMapping[str, _RedirectInfo] | None = None,
     image_metadata: Mapping[str, str] | None = None,
     cache_path: PurePath | None = None,
@@ -591,6 +1015,7 @@ async def run_pipeline(
     wiki_dir: PathLike[str] | None = None,
     wiki_lang_dir: PathLike[str] | None = None,
     refs: bool = True,
+    page_name: str | None = None,
 ) -> tuple[str, set[str]]:
     """Run the full conversion pipeline on parsed Wikipedia HTML.
 
@@ -641,7 +1066,12 @@ async def run_pipeline(
             redirect_map=redirect_map,
             refs=refs,
             converter=_make_converter(
-                wiki_dir, wiki_lang_dir, image_metadata, names_map, soup=html
+                wiki_dir,
+                wiki_lang_dir,
+                image_metadata,
+                names_map,
+                soup=html,
+                page_name=page_name,
             ),
         )
         return output, out_to_archive
@@ -681,6 +1111,8 @@ async def run_pipeline(
         out_to_archive=out_to_archive,
         redirect_map=redirect_map,
         refs=refs,
-        converter=_make_converter(wiki_dir, wiki_lang_dir, image_metadata, names_map),
+        converter=_make_converter(
+            wiki_dir, wiki_lang_dir, image_metadata, names_map, page_name=page_name
+        ),
     )
     return output, out_to_archive

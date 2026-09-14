@@ -23,7 +23,7 @@ _ATX_HEADING_RE = re.compile(r"^(#{1,6})\s+(?P<inner>\S.*?)(?:\s*#+\s*)?$")
 
 def _encode_stem(stem: str) -> str:
     """Encode a filename stem for a markdown link target."""
-    return _fix_filename(stem).replace(" ", "%20")
+    return _fix_filename(stem).replace(" ", "%20").replace("_", "%5F")
 
 
 def _decode_link_stem(target: str) -> tuple[str, str]:

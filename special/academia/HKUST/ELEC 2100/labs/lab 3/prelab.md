@@ -21,7 +21,7 @@ For the broader Fourier and system theory, see [Fourier series](../../Fourier%20
 Before any FFT plot is meaningful, the sampled record has to be placed on a clear time grid.  The usual setup is to read the waveform, count the samples, and convert sample positions into seconds:
 
 ```matlab
-[x, fs] = audioread("sample3a.wav");
+[x, fs] = audioread(input_audio_path);
 N = numel(x);
 t = (0:N-1) / fs;
 plot(t, x)
@@ -33,7 +33,7 @@ That habit matters because later comparisons among waveform plots, filtered outp
 
 Flashcards for this section are as follows:
 
-- In the Lab 3 MATLAB setup `[x, fs] = audioread("sample3a.wav"); N = numel(x); t = (0:N-1) / fs;`, why is the time vector `t` built immediately instead of waiting until later plots? ::@:: Because the sampled record is much easier to interpret when every later time-domain plot uses the same physical axis in seconds rather than a mix of raw sample indices and elapsed time. <!--SR:!fsrs,2027-08-24T00:00:00.000Z,390,389.91479691,1,2,7,0,0,2026-07-30T00:00:00.000Z!fsrs,2027-08-29T00:00:00.000Z,394,394.37099029,1,2,7,0,0,2026-07-31T00:00:00.000Z-->
+- In the Lab 3 MATLAB setup `[x, fs] = audioread(input_audio_path); N = numel(x); t = (0:N-1) / fs;`, why is the time vector `t` built immediately instead of waiting until later plots? ::@:: Because the sampled record is much easier to interpret when every later time-domain plot uses the same physical axis in seconds rather than a mix of raw sample indices and elapsed time. <!--SR:!fsrs,2027-08-24T00:00:00.000Z,390,389.91479691,1,2,7,0,0,2026-07-30T00:00:00.000Z!fsrs,2027-08-29T00:00:00.000Z,394,394.37099029,1,2,7,0,0,2026-07-31T00:00:00.000Z-->
 - In the Lab 3 MATLAB definition `t = (0:N-1) / fs`, what do the numerator and denominator each contribute to the physical interpretation? ::@:: The numerator lists the sample positions in order, and dividing by `fs` converts those positions from sample counts into elapsed time values in seconds. <!--SR:!fsrs,2027-08-29T00:00:00.000Z,394,394.37099029,1,2,7,0,0,2026-07-31T00:00:00.000Z!fsrs,2027-08-29T00:00:00.000Z,394,394.37099029,1,2,7,0,0,2026-07-31T00:00:00.000Z-->
 
 ## fft scaling and coefficient meaning

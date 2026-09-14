@@ -271,6 +271,30 @@ Flashcards for this section are as follows:
 - What convolution inequality proves that absolute integrability of $h(t)$ implies BIBO stability? ::@:: If $|e(t)|\le M$, then $|r_{\mathrm{zs}}(t)|\le M\int_{-\infty}^{\infty}|h(\lambda)|\,d\lambda$, so the output is uniformly bounded whenever the integral is finite. <!--SR:!fsrs,2027-08-26T00:00:00.000Z,396,396.49212694,1,2,7,0,0,2026-07-26T00:00:00.000Z!fsrs,2027-09-07T00:00:00.000Z,406,405.65740649,1,2,7,0,0,2026-07-28T00:00:00.000Z-->
 - Why are the causality and stability tests from $h(t)$ so important? ::@:: They let you infer major system properties directly from one signal instead of repeatedly testing many different inputs. <!--SR:!fsrs,2027-09-09T00:00:00.000Z,406,405.65740649,1,2,7,0,0,2026-07-30T00:00:00.000Z!fsrs,2027-08-17T00:00:00.000Z,387,387.29485933,1,2,7,0,0,2026-07-26T00:00:00.000Z-->
 
+## second-order response patterns from characteristic roots
+
+Before the full Laplace-transform chapter, the same second-order behavior can already be read from the time-domain characteristic equation of an RLC-type model, $s^2+\frac{R}{L}s+\frac{1}{LC}=0$. Define the damping coefficient $\alpha=\frac{R}{2L}$ and the natural frequency $\omega_0=\frac{1}{\sqrt{LC}}$; the characteristic roots are $p_{1,2}=-\alpha\pm\sqrt{\alpha^2-\omega_0^2}$. For physical components with $R,L,C>0$, $\alpha>0$ and the real part of every root is at most $-\alpha<0$: in the underdamped case the square root is purely imaginary so the real part equals exactly $-\alpha$; in the critically damped case the repeated root is $-\alpha$; in the overdamped case $\sqrt{\alpha^2-\omega_0^2}<\alpha$ (because $\omega_0>0$) so both real roots are still negative. The only exception is the ideal undamped limit $R=0$, where $\alpha=0$ and roots fall on the imaginary axis.
+
+This gives the same four response classes used repeatedly in worked examples:
+
+- __Underdamped__: $\alpha<\omega_0$ gives complex-conjugate roots with negative real part, so oscillation with exponential decay.
+- __Critically damped__: $\alpha=\omega_0$ gives a repeated real root at $p=-\alpha<0$, the boundary between oscillatory and non-oscillatory response.
+- __Overdamped__: $\alpha>\omega_0$ gives two distinct real negative roots, non-oscillatory decay with two time scales.
+- __Undamped ideal LC__: $R=0\Rightarrow\alpha=0$, roots on the imaginary axis and sustained oscillation.
+
+This mapping is worth learning in the time-domain chapter itself because it prevents sign and symbol confusion later when the same roots are read from poles in the $s$-domain.
+
+---
+
+Flashcards for this section are as follows:
+
+- For the RLC-type second-order characteristic equation $s^2+\frac{R}{L}s+\frac{1}{LC}=0$, how are the damping coefficient $\alpha$ and natural frequency $\omega_0$ defined, and what do they represent physically? ::@:: $\alpha=\frac{R}{2L}$ is the damping coefficient (governs exponential decay rate) and $\omega_0=\frac{1}{\sqrt{LC}}$ is the natural frequency of the lossless LC part. <br/> For physical components with $R,L,C>0$, both are positive, which means the real part of every characteristic root is $-\alpha<0$ whenever $R>0$.
+- For the second-order characteristic equation $s^2+\frac{R}{L}s+\frac{1}{LC}=0$ with $\alpha=\frac{R}{2L}$ (damping coefficient) and $\omega_0=\frac{1}{\sqrt{LC}}$ (natural frequency), what is the root formula, and why does it guarantee negative real parts for physical components ($R,L,C>0$)? ::@:: $p_{1,2}=-\alpha\pm\sqrt{\alpha^2-\omega_0^2}$. <br/> Underdamped ($\alpha<\omega_0$): square root is imaginary, so real part equals exactly $-\alpha<0$. <br/> Critically damped ($\alpha=\omega_0$): repeated root at $-\alpha<0$. <br/> Overdamped ($\alpha>\omega_0$): real correction satisfies $\sqrt{\alpha^2-\omega_0^2}<\alpha$ (since $\omega_0>0$), so both roots remain negative.
+- What response type corresponds to $\alpha<\omega_0$ in a second-order system? ::@:: Underdamped response with decaying oscillation (complex-conjugate roots with negative real part).
+- What response type corresponds to $\alpha=\omega_0$ in a second-order system? ::@:: Critically damped response: a repeated real root at $-\alpha<0$, marking the boundary between oscillatory (underdamped) and non-oscillatory (overdamped) decay.
+- What response type corresponds to $\alpha>\omega_0$ in a second-order system? ::@:: Overdamped response (two distinct real negative roots).
+- What special case gives sustained oscillation in the ideal second-order model? ::@:: The undamped case $R=0$ gives $\alpha=0$ and imaginary-axis roots.
+
 ## impulse-response case studies
 
 The summary examples reinforce that impulse response should be interpreted structurally, not just computed formally. In the first example, the input splits into two branches before the integrator: one branch goes directly into the positive summer input, and the other goes through a delay $T$ into the negative summer input. If the excitation is $\delta(t)$, then the signal entering the integrator is $\delta(t)-\delta(t-T)$. Integrating this gives $h(t)=u(t)-u(t-T)$, which is a unit-height rectangular pulse on $0\le t<T$. The picture is intuitive: the impulse turns the integrator on at $t=0$, and the delayed negative impulse turns it off again at $t=T$.

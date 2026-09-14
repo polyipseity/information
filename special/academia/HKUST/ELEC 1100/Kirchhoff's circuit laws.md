@@ -8,7 +8,7 @@ tags:
 
 # Kirchhoff's circuit laws
 
-Kirchhoff's circuit laws are two fundamental principles used in the analysis of electrical networks. When a network cannot be reduced by simple series or parallel combination of components, these laws provide a systematic way to obtain the relationships among currents and voltages. The laws are attributed to Gustav Kirchhoff (1824–1887) and are direct consequences of the conservation of charge and energy.
+Kirchhoff's circuit laws are two principles for analysing electrical networks that cannot be reduced by series or parallel combination. They are attributed to Gustav Kirchhoff (1824–1887) and follow from conservation of charge and energy.
 
 ## background
 
@@ -24,29 +24,29 @@ Many networks consist of interconnections that are neither purely series nor pur
 
 Flashcards for this section are as follows:
 
-- origin of laws ::@:: Gustav Kirchhoff (1824–1887) formulated the current and voltage laws now bearing his name. <!--SR:!2027-01-26,237,330!2027-01-30,241,330-->
-- purpose of laws ::@:: Provide a systematic way to relate currents and voltages when a network cannot be reduced by simple series or parallel combinations. <!--SR:!fsrs,2027-05-08T16:01:04.350Z,330,329.81882824,1,2,7,0,0,2026-06-12T16:01:04.350Z!fsrs,2027-05-05T16:01:11.732Z,327,326.83582061,1,2,7,0,0,2026-06-12T16:01:11.732Z-->
-- series resistance formula <p> ![resistors in series](attachments/series.svg) ::@:: For resistors in series, $R_{\text{eq}} = R_1 + R_2 + \cdots$ because the same current flows through each element. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2027-04-11T01:46:35.733Z,309,308.57643926,1,2,7,0,0,2026-06-06T01:46:35.733Z!2027-02-11,253,330-->
-- parallel resistance formula <p> ![resistors in parallel](attachments/parallel.svg) ::@:: For resistors in parallel, $1/R_{\text{eq}} = 1/R_1 + 1/R_2 + \cdots$ since each branch has the same voltage and conductances sum. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2027-04-11T01:46:35.251Z,309,308.57643926,1,2,7,0,0,2026-06-06T01:46:35.251Z!fsrs,2027-05-04T16:01:00.110Z,326,326.46566883,1,2,7,0,0,2026-06-12T16:01:00.110Z-->
-- complex network definition ::@:: A circuit whose interconnections are neither purely series nor purely parallel, requiring general analysis using Kirchhoff's laws. <!--SR:!2027-02-07,249,330!2027-01-29,240,330-->
-- applicability domain ::@:: Kirchhoff's laws apply to any network by writing equations for nodes (junctions) and closed loops. <!--SR:!2027-02-01,243,330!2027-02-12,254,330-->
+- origin ::@:: Gustav Kirchhoff (1824–1887) formulated the current and voltage laws. <!--SR:!2027-01-26,237,330!2027-01-30,241,330-->
+- purpose ::@:: Relate currents and voltages when a network cannot be reduced by series or parallel combinations. <!--SR:!fsrs,2027-05-08T16:01:04.350Z,330,329.81882824,1,2,7,0,0,2026-06-12T16:01:04.350Z!fsrs,2027-05-05T16:01:11.732Z,327,326.83582061,1,2,7,0,0,2026-06-12T16:01:11.732Z-->
+- series resistance formula <p> ![resistors in series](attachments/series.svg) ::@:: $R_{\text{eq}} = R_1 + R_2 + \cdots$; the same current flows through each element. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2027-04-11T01:46:35.733Z,309,308.57643926,1,2,7,0,0,2026-06-06T01:46:35.733Z!2027-02-11,253,330-->
+- parallel resistance formula <p> ![resistors in parallel](attachments/parallel.svg) ::@:: $1/R_{\text{eq}} = 1/R_1 + 1/R_2 + \cdots$; each branch has the same voltage and conductances sum. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2027-04-11T01:46:35.251Z,309,308.57643926,1,2,7,0,0,2026-06-06T01:46:35.251Z!fsrs,2027-05-04T16:01:00.110Z,326,326.46566883,1,2,7,0,0,2026-06-12T16:01:00.110Z-->
+- complex network ::@:: A circuit with interconnections that are neither purely series nor purely parallel. <!--SR:!2027-02-07,249,330!2027-01-29,240,330-->
+- applicability ::@:: Kirchhoff's laws apply to any network by writing equations for nodes and closed loops. <!--SR:!2027-02-01,243,330!2027-02-12,254,330-->
 
 ## Kirchhoff's current law <!-- check: ignore-line[header_style]: proper noun -->
 
 Also known as the _junction rule_, Kirchhoff's current law (KCL) states that at any node in a circuit the algebraic sum of currents is zero. <p> ![KCL](attachments/kcl.svg)
 
-Equivalently, the sum of currents entering a junction equals the sum leaving it, reflecting that charge does not accumulate at a point. For a node with currents drawn in and out one may write $\sum I_{\text{in}} = \sum I_{\text{out}}$; putting all terms on one side gives relations such as $I_1+I_2-I_3-I_4=0$. The law is a discrete analogue of the continuity equation and follows from charge conservation.
+Equivalently, the sum of currents entering a junction equals the sum leaving it, because charge does not accumulate at a point. For a node with currents drawn in and out one may write $\sum I_{\text{in}} = \sum I_{\text{out}}$; putting all terms on one side gives relations such as $I_1+I_2-I_3-I_4=0$. The law is a discrete analogue of the continuity equation and follows from charge conservation.
 
 ---
 
 Flashcards for this section are as follows:
 
-- KCL alternative name ::@:: Kirchhoff's current law is also called the junction rule. <!--SR:!2026-12-05,185,310!2027-01-29,240,330-->
+- KCL name ::@:: Also called the junction rule. <!--SR:!2026-12-05,185,310!2027-01-29,240,330-->
 - KCL statement ::@:: At any node, the algebraic sum of currents is zero. <p> ![KCL](attachments/kcl.svg) <!--SR:!fsrs,2027-05-05T16:01:06.081Z,327,326.83582061,1,2,7,0,0,2026-06-12T16:01:06.081Z!fsrs,2027-05-08T16:01:11.232Z,330,329.81882824,1,2,7,0,0,2026-06-12T16:01:11.232Z-->
-- KCL entering vs leaving ::@:: The sum of currents entering a junction equals the sum leaving. <!--SR:!fsrs,2027-05-04T16:00:58.295Z,326,326.46566883,1,2,7,0,0,2026-06-12T16:00:58.295Z!fsrs,2027-05-06T16:01:15.189Z,328,328.33560331,1,2,7,0,0,2026-06-12T16:01:15.189Z-->
-- KCL algebraic form ::@:: $\sum I_{\text{in}} = \sum I_{\text{out}}$; bringing all to one side gives equations like $I_1+I_2-I_3-I_4=0$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2027-05-04T16:01:03.656Z,326,326.46566883,1,2,7,0,0,2026-06-12T16:01:03.656Z!fsrs,2027-04-05T10:01:28.548Z,304,304.30256839,1,2,7,0,0,2026-06-05T10:01:28.548Z-->
-- KCL sign convention ::@:: Currents assumed leaving may be taken as negative so a single summation suffices. <!--SR:!2027-02-02,244,330!fsrs,2027-05-08T16:01:10.688Z,330,329.81882824,1,2,7,0,0,2026-06-12T16:01:10.688Z-->
-- KCL rationale ::@:: It follows from conservation of charge; no net charge accumulates at a point, discrete analogue of the continuity equation. <!--SR:!2027-02-21,262,330!2027-02-14,256,330-->
+- KCL entering vs leaving ::@:: Currents entering a junction equal currents leaving. <!--SR:!fsrs,2027-05-04T16:00:58.295Z,326,326.46566883,1,2,7,0,0,2026-06-12T16:00:58.295Z!fsrs,2027-05-06T16:01:15.189Z,328,328.33560331,1,2,7,0,0,2026-06-12T16:01:15.189Z-->
+- KCL algebraic form ::@:: $\sum I_{\text{in}} = \sum I_{\text{out}}$; all terms on one side: $I_1+I_2-I_3-I_4=0$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2027-05-04T16:01:03.656Z,326,326.46566883,1,2,7,0,0,2026-06-12T16:01:03.656Z!fsrs,2027-04-05T10:01:28.548Z,304,304.30256839,1,2,7,0,0,2026-06-05T10:01:28.548Z-->
+- KCL sign convention ::@:: Leaving currents may be taken as negative so one summation suffices. <!--SR:!2027-02-02,244,330!fsrs,2027-05-08T16:01:10.688Z,330,329.81882824,1,2,7,0,0,2026-06-12T16:01:10.688Z-->
+- KCL rationale ::@:: Follows from charge conservation; no net charge accumulates at a point. <!--SR:!2027-02-21,262,330!2027-02-14,256,330-->
 
 ## Kirchhoff's voltage law <!-- check: ignore-line[header_style]: proper noun -->
 
@@ -58,11 +58,11 @@ Traversing a loop in a chosen direction, voltage drops (positive when taken in t
 
 Flashcards for this section are as follows:
 
-- KVL alternative name ::@:: Kirchhoff's voltage law is also known as the loop rule. <!--SR:!fsrs,2027-04-05T10:01:47.415Z,304,304.30256839,1,2,7,0,0,2026-06-05T10:01:47.415Z!2027-02-18,259,330-->
+- KVL name ::@:: Also called the loop rule. <!--SR:!fsrs,2027-04-05T10:01:47.415Z,304,304.30256839,1,2,7,0,0,2026-06-05T10:01:47.415Z!2027-02-18,259,330-->
 - KVL statement ::@:: Around any closed path, the algebraic sum of potential differences is zero. <p> ![KVL](attachments/kvl.svg) <!--SR:!2027-02-04,246,330!2027-01-25,236,330-->
-- KVL traversal rule ::@:: When traversing a loop, add voltage drops (positive in direction of current) and subtract rises; orientation of sources matters. <!--SR:!fsrs,2027-05-06T16:01:10.048Z,328,328.33560331,1,2,7,0,0,2026-06-12T16:01:10.048Z!2027-02-03,245,330-->
-- KVL example equation ::@:: For a loop with a source and two resistors: $-v + v_1 + v_2 = 0$, giving $v = v_1 + v_2$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2027-01-25,236,330!fsrs,2027-05-05T16:01:02.079Z,327,326.83582061,1,2,7,0,0,2026-06-12T16:01:02.079Z-->
-- KVL justification ::@:: Because electrostatic fields are conservative, no net work is done completing a closed circuit. <!--SR:!fsrs,2027-05-06T16:01:02.719Z,328,328.33560331,1,2,7,0,0,2026-06-12T16:01:02.719Z!2027-02-20,261,330-->
+- KVL traversal rule ::@:: Add voltage drops (positive in current direction) and subtract rises; source orientation matters. <!--SR:!fsrs,2027-05-06T16:01:10.048Z,328,328.33560331,1,2,7,0,0,2026-06-12T16:01:10.048Z!2027-02-03,245,330-->
+- KVL example equation ::@:: Loop with source and two resistors: $-v + v_1 + v_2 = 0$, so $v = v_1 + v_2$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2027-01-25,236,330!fsrs,2027-05-05T16:01:02.079Z,327,326.83582061,1,2,7,0,0,2026-06-12T16:01:02.079Z-->
+- KVL justification ::@:: Electrostatic fields are conservative; no net work is done completing a closed circuit. <!--SR:!fsrs,2027-05-06T16:01:02.719Z,328,328.33560331,1,2,7,0,0,2026-06-12T16:01:02.719Z!2027-02-20,261,330-->
 
 ## circuit analysis using Kirchhoff's laws
 
@@ -74,19 +74,19 @@ A typical procedure for analysing a circuit combines KCL and KVL in a systematic
 4. __Write KVL equations__ around each independent loop, summing voltage drops and rises in the traversal direction and equating the total to zero.
 5. __Solve the resulting linear system__ for the unknowns (currents, voltages, or resistances).
 
-The current-direction freedom is important: any choice leads to a correct system, with negative solutions signalling reversal. Both KCL and KVL may be used interchangeably; a given problem may be easier to handle with one method or the other depending on the circuit topology.
+Any current-direction choice leads to a correct system; negative solutions signal reversal. KCL and KVL are interchangeable; the easier method depends on circuit topology.
 
 ---
 
 Flashcards for this section are as follows:
 
-- analysis overview ::@:: Circuit analysis combines KCL and KVL systematically. <!--SR:!fsrs,2027-05-05T16:01:09.489Z,327,326.83582061,1,2,7,0,0,2026-06-12T16:01:09.489Z!fsrs,2027-04-11T01:46:33.878Z,309,308.57643926,1,2,7,0,0,2026-06-06T01:46:33.878Z-->
-- step 1 choose nodes/loops ::@:: Select a reference node (ground) and identify independent loops covering the network without redundancy. <!--SR:!fsrs,2027-04-05T10:01:46.148Z,304,304.30256839,1,2,7,0,0,2026-06-05T10:01:46.148Z!fsrs,2027-05-05T16:01:07.333Z,327,326.83582061,1,2,7,0,0,2026-06-12T16:01:07.333Z-->
-- step 2 assign directions ::@:: Arbitrary current arrows are drawn; negative solutions indicate actual flow is opposite. <!--SR:!2027-01-31,242,330!fsrs,2027-05-08T16:01:12.185Z,330,329.81882824,1,2,7,0,0,2026-06-12T16:01:12.185Z-->
-- step 3 write KCL ::@:: Form equations at nodes with chosen sign conventions, set algebraic sum to zero. <!--SR:!2027-01-30,241,330!2027-02-05,247,330-->
-- step 4 write KVL ::@:: Form loop equations by summing drops and rises in traversal direction, set to zero. <!--SR:!2027-02-22,263,330!fsrs,2027-05-05T16:01:14.220Z,327,326.83582061,1,2,7,0,0,2026-06-12T16:01:14.220Z-->
-- step 5 solve system ::@:: Solve the resulting linear equations for unknown currents, voltages, or resistances. <!--SR:!fsrs,2027-04-11T01:46:36.366Z,309,308.57643926,1,2,7,0,0,2026-06-06T01:46:36.366Z!fsrs,2027-05-06T16:01:06.763Z,328,328.33560331,1,2,7,0,0,2026-06-12T16:01:06.763Z-->
-- method flexibility ::@:: Either KCL or KVL may be used preferentially depending on topology; the choice of current directions is immaterial. <!--SR:!2027-02-13,255,330!2027-02-09,251,330-->
+- analysis overview ::@:: Combine KCL and KVL systematically. <!--SR:!fsrs,2027-05-05T16:01:09.489Z,327,326.83582061,1,2,7,0,0,2026-06-12T16:01:09.489Z!fsrs,2027-04-11T01:46:33.878Z,309,308.57643926,1,2,7,0,0,2026-06-06T01:46:33.878Z-->
+- step 1 ::@:: Select a reference node (ground) and independent loops covering the network. <!--SR:!fsrs,2027-04-05T10:01:46.148Z,304,304.30256839,1,2,7,0,0,2026-06-05T10:01:46.148Z!fsrs,2027-05-05T16:01:07.333Z,327,326.83582061,1,2,7,0,0,2026-06-12T16:01:07.333Z-->
+- step 2 ::@:: Draw arbitrary current arrows; negative solutions mean actual flow is opposite. <!--SR:!2027-01-31,242,330!fsrs,2027-05-08T16:01:12.185Z,330,329.81882824,1,2,7,0,0,2026-06-12T16:01:12.185Z-->
+- step 3 ::@:: Write KCL equations at nodes, set algebraic sum to zero. <!--SR:!2027-01-30,241,330!2027-02-05,247,330-->
+- step 4 ::@:: Write KVL equations around loops, sum drops and rises, set to zero. <!--SR:!2027-02-22,263,330!fsrs,2027-05-05T16:01:14.220Z,327,326.83582061,1,2,7,0,0,2026-06-12T16:01:14.220Z-->
+- step 5 ::@:: Solve the linear system for unknowns. <!--SR:!fsrs,2027-04-11T01:46:36.366Z,309,308.57643926,1,2,7,0,0,2026-06-06T01:46:36.366Z!fsrs,2027-05-06T16:01:06.763Z,328,328.33560331,1,2,7,0,0,2026-06-12T16:01:06.763Z-->
+- method flexibility ::@:: Either KCL or KVL may be preferred depending on topology; current direction choice is immaterial. <!--SR:!2027-02-13,255,330!2027-02-09,251,330-->
 
 ## integrated numerical calculations
 
@@ -112,12 +112,12 @@ Flashcards for this section are as follows:
 
 ## equivalence and application
 
-Each application of KCL or KVL produces a linear equation relating unknowns (voltages, currents, or resistances). A sufficient number of independent equations allows the circuit to be solved uniquely. For networks where series and parallel simplification fail—such as bridges—a test source $V$ may be attached across the terminals, the laws applied to determine the total current $I$, and the equivalent resistance computed as $R_{\text{eq}} = V/I$.
+Each application of KCL or KVL produces a linear equation relating unknowns (voltages, currents, or resistances). A sufficient number of independent equations allows the circuit to be solved uniquely. For networks where series and parallel simplification fail, such as bridges, a test source $V$ may be attached across the terminals, the laws applied to determine the total current $I$, and the equivalent resistance computed as $R_{\text{eq}} = V/I$.
 
 ---
 
 Flashcards for this section are as follows:
 
-- independence principle ::@:: A sufficient number of independent KCL/KVL equations uniquely determines circuit unknowns. <!--SR:!fsrs,2027-05-06T16:01:01.307Z,328,328.33560331,1,2,7,0,0,2026-06-12T16:01:01.307Z!fsrs,2027-05-08T16:01:12.720Z,330,329.81882824,1,2,7,0,0,2026-06-12T16:01:12.720Z-->
-- when to apply ::@:: Use Kirchhoff's laws when series/parallel simplification fails, as in bridge circuits. <!--SR:!fsrs,2027-05-08T16:01:08.861Z,330,329.81882824,1,2,7,0,0,2026-06-12T16:01:08.861Z!fsrs,2027-05-04T16:00:59.078Z,326,326.46566883,1,2,7,0,0,2026-06-12T16:00:59.078Z-->
-- equivalent resistance technique ::@:: Attach a test voltage source $V$, compute total current $I$ by KCL/KVL, then $R_{\text{eq}} = V/I$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2027-05-03T16:01:05.109Z,325,325.31885236,1,2,7,0,0,2026-06-12T16:01:05.109Z!fsrs,2027-05-06T16:01:08.175Z,328,328.33560331,1,2,7,0,0,2026-06-12T16:01:08.175Z-->
+- independence principle ::@:: Enough independent KCL/KVL equations uniquely determine circuit unknowns. <!--SR:!fsrs,2027-05-06T16:01:01.307Z,328,328.33560331,1,2,7,0,0,2026-06-12T16:01:01.307Z!fsrs,2027-05-08T16:01:12.720Z,330,329.81882824,1,2,7,0,0,2026-06-12T16:01:12.720Z-->
+- when to apply ::@:: When series/parallel simplification fails, as in bridge circuits. <!--SR:!fsrs,2027-05-08T16:01:08.861Z,330,329.81882824,1,2,7,0,0,2026-06-12T16:01:08.861Z!fsrs,2027-05-04T16:00:59.078Z,326,326.46566883,1,2,7,0,0,2026-06-12T16:00:59.078Z-->
+- equivalent resistance technique ::@:: Attach a test source $V$, compute total current $I$ by KCL/KVL, then $R_{\text{eq}} = V/I$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2027-05-03T16:01:05.109Z,325,325.31885236,1,2,7,0,0,2026-06-12T16:01:05.109Z!fsrs,2027-05-06T16:01:08.175Z,328,328.33560331,1,2,7,0,0,2026-06-12T16:01:08.175Z-->

@@ -11,6 +11,7 @@ license = { file = "LICENSE.txt" }
 readme = "README.md"
 dependencies = [
   "aiohttp>=3.14.3",
+  "aiohttp-retry>=2.9.1",
   "anyio>=4.14.1",
   "asyncer>=0.0.18",
   "asyncstdlib>=3.10.0",
@@ -24,6 +25,7 @@ dependencies = [
   "numpy>=2.5.0",
   "pycountry>=24.6.1",
   "pyperclip>=1.9.0",
+  "pathvalidate>=3.0.0",
   "pyarchivist>=4.0.0",
   "pydantic>=2.13.4",
   "pydantic-yaml>=1.7.0",

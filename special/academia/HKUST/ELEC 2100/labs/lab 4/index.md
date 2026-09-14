@@ -24,7 +24,6 @@ tags:
 
 ## attachments
 
-<!-- - [Lab_Instruction.pdf](attachments/Lab_Instruction.pdf) -->
 - [Lab4a.7z](attachments/Lab4a.7z)
 
 ## submission

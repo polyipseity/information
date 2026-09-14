@@ -31,6 +31,8 @@ The DFT is best understood through two viewpoints at once. First, it samples the
 
 This note is also the main home for the discrete-time Fourier series viewpoint, written in the course material as DTFS or DFS. That is deliberate. DTFS/DFS and DFT both describe one period with a finite harmonic coefficient list indexed by $k=0,1,\dots,N-1$, whereas the general DTFT uses the continuous digital-frequency variable $\Omega=\omega T$ and represents periodic sequences by a line spectrum. So if the question is about period-$N$ sequences, discrete harmonics, orthogonality over one period, circular operations, or the normalization difference between DTFS/DFS and DFT, this is the right note.
 
+This note is the finite-grid computational member of the Fourier family. For the continuous digital-frequency viewpoint of a general sequence, see [discrete-time Fourier transform](discrete-time%20Fourier%20transform.md). For the continuous-time side of the story, use [Fourier series](Fourier%20series.md) for periodic signals and [Fourier transform](Fourier%20transform.md) for aperiodic ones.
+
 ---
 
 Flashcards for this section are as follows:
@@ -38,13 +40,6 @@ Flashcards for this section are as follows:
 - What core problem does the DFT note solve in ELEC 2100? ::@:: It converts a finite record of samples into a finite set of frequency-bin coefficients so discrete data can be analyzed, computed, and reconstructed on an $N$-point grid. <!--SR:!fsrs,2027-06-20T00:00:00.000Z,321,321.346657,1,2,7,0,0,2026-08-03T00:00:00.000Z!fsrs,2027-11-02T00:00:00.000Z,439,438.97887429,1,2,7,0,0,2026-08-20T00:00:00.000Z-->
 - Why is the DFT not simply the DTFT with fewer plotted points? ::@:: Because the DFT treats a finite record as one period of a length-$N$ periodic extension, so circular shift and circular convolution are built into the transform model. <!--SR:!fsrs,2027-09-12T00:00:00.000Z,394,394.37099029,1,2,7,0,0,2026-08-14T00:00:00.000Z!fsrs,2027-05-30T00:00:00.000Z,304,304.30256839,1,2,7,0,0,2026-07-30T00:00:00.000Z-->
 - Why is DTFS/DFS mainly grouped with the DFT note rather than the DTFT note? ::@:: Because DTFS/DFS and DFT both use one finite harmonic coefficient cycle for period-$N$ data, whereas the general DTFT uses the continuous digital-frequency variable $\Omega=\omega T$ and represents periodic sequences by a line spectrum. <!--SR:!fsrs,2027-11-02T00:00:00.000Z,439,438.97887429,1,2,7,0,0,2026-08-20T00:00:00.000Z!fsrs,2027-09-12T00:00:00.000Z,394,394.37099029,1,2,7,0,0,2026-08-14T00:00:00.000Z-->
-
-This note is the finite-grid computational member of the Fourier family. For the continuous digital-frequency viewpoint of a general sequence, see [discrete-time Fourier transform](discrete-time%20Fourier%20transform.md). For the continuous-time side of the story, use [Fourier series](Fourier%20series.md) for periodic signals and [Fourier transform](Fourier%20transform.md) for aperiodic ones.
-
----
-
-Flashcards for this section are as follows:
-
 - How should this note be positioned among the main Fourier notes in ELEC 2100? ::@:: This note is the finite-grid computational transform for discrete data. The DTFT keeps a continuous digital-frequency variable for general sequences, while Fourier series and Fourier transform are the continuous-time periodic and aperiodic counterparts. <!--SR:!fsrs,2027-09-12T00:00:00.000Z,394,394.37099029,1,2,7,0,0,2026-08-14T00:00:00.000Z!fsrs,2027-06-07T00:00:00.000Z,313,312.79509453,1,2,7,0,0,2026-07-29T00:00:00.000Z-->
 
 ## definition and inverse transform

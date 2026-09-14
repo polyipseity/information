@@ -36,6 +36,7 @@ This page is a logistics-first scaffold for the chosen sections L1, T2, and LA3.
 - [AGENTS](AGENTS.md)
 - [Fourier series](Fourier%20series.md)
 - [Fourier transform](Fourier%20transform.md)
+- [Laplace transform](Laplace%20transform.md)
 - [continuous-time LTI system](continuous-time%20LTI%20system.md)
 - [convolution](convolution.md)
 - [discrete Fourier transform](discrete%20Fourier%20transform.md)
@@ -48,6 +49,7 @@ This page is a logistics-first scaffold for the chosen sections L1, T2, and LA3.
 - [signal](signal.md)
 - [singular signal](singular%20signal.md)
 - [system](system.md)
+- [transfer function](transfer%20function.md)
 - [unified Fourier representations](unified%20Fourier%20representations.md)
 
 ## logistics
@@ -112,6 +114,8 @@ The four Fourier notes are organized by two axes: continuous time versus discret
 
 - frequency-domain system behavior and filtering
     - [frequency response](frequency%20response.md)
+- complex-frequency-domain continuous-time analysis
+    - [Laplace transform](Laplace%20transform.md)
 - communication applications
     - [modulation](modulation.md)
     - [sampling theorem](sampling%20theorem.md)
@@ -128,7 +132,7 @@ The four Fourier notes are organized by two axes: continuous time versus discret
     - ELEC 2100 / curricular role ::@:: ELEC 2100 is positioned as a foundation for later study in automatic control, digital signal processing, and artificial intelligence. <!--SR:!fsrs,2027-06-08T00:00:00.000Z,321,321.346657,1,2,7,0,0,2026-07-22T00:00:00.000Z!fsrs,2027-05-24T00:00:00.000Z,309,308.57643926,1,2,7,0,0,2026-07-19T00:00:00.000Z-->
     - ELEC 2100 / transform-domain motivation ::@:: Transform methods are introduced because they turn difficult signal-and-system operations into more structured algebraic or frequency-domain problems. <!--SR:!fsrs,2027-04-14T00:00:00.000Z,278,278.46760619,1,2,7,0,0,2026-07-10T00:00:00.000Z!fsrs,2027-04-09T00:00:00.000Z,274,274.1280869,1,2,7,0,0,2026-07-09T00:00:00.000Z-->
     - ELEC 2100 / intended learning outcomes ::@:: Students should describe continuous-time and discrete-time signals, analyze LTI systems, and later apply the theory to sampling, differential/difference-equation models, and engineering communication problems. <!--SR:!fsrs,2027-05-07T00:00:00.000Z,296,295.72812302,1,2,7,0,0,2026-07-15T00:00:00.000Z!fsrs,2027-04-25T00:00:00.000Z,287,287.11697064,1,2,7,0,0,2026-07-12T00:00:00.000Z-->
-    - ELEC 2100 / assessment structure ::@:: The introductory deck gives the main weights as homework 18%, labs 12%, online quizzes 5%, midterm 25%, and final 40%. <!--SR:!fsrs,2027-04-20T00:00:00.000Z,283,282.79716409,1,2,7,0,0,2026-07-11T00:00:00.000Z!fsrs,2027-05-28T00:00:00.000Z,313,312.84164192,1,2,7,0,0,2026-07-19T00:00:00.000Z-->
+    - ELEC 2100 / assessment structure ::@:: The course introduction gives the main weights as homework 18%, labs 12%, online quizzes 5%, midterm 25%, and final 40%. <!--SR:!fsrs,2027-04-20T00:00:00.000Z,283,282.79716409,1,2,7,0,0,2026-07-11T00:00:00.000Z!fsrs,2027-05-28T00:00:00.000Z,313,312.84164192,1,2,7,0,0,2026-07-19T00:00:00.000Z-->
 - [signal](signal.md)
     - [§ signal meaning and representation](signal.md#signal%20meaning%20and%20representation)
     - [§ signal classifications](signal.md#signal%20classifications)
@@ -140,7 +144,7 @@ The four Fourier notes are organized by two axes: continuous time versus discret
 
 ---
 
-The introduction deck is mainly a roadmap lecture rather than a derivation-heavy lecture.  It positions ELEC 2100 as a foundation for later control, DSP, and AI courses, previews the full map from signal description to transform-domain analysis, and highlights the practical toolchain of impulse response, convolution, frequency characteristics, and MATLAB-based analysis.
+The course introduction is mainly a roadmap lecture rather than a derivation-heavy lecture.  It positions ELEC 2100 as a foundation for later control, DSP, and AI courses, previews the full map from signal description to transform-domain analysis, and highlights the practical toolchain of impulse response, convolution, frequency characteristics, and MATLAB-based analysis.
 
 It also motivates the subject through concrete communication and signal-processing examples: historical telegraph and telephone milestones, the evolution toward fiber-optic, satellite, cable, and mobile systems, signal-processing tasks such as noise reduction, and explicit study advice about relating mathematical analysis back to physical meaning.
 
@@ -647,7 +651,7 @@ The transform note now also stresses the exact line weight and plotting conventi
 
 ---
 
-The Fourier-series application deck uses musical audio as the intuitive payoff for the periodic-spectrum viewpoint.  A note can be read as a fundamental plus harmonics, and changing those harmonic amplitudes changes timbre while leaving pitch anchored by the fundamental.
+The Fourier-series application discussion uses musical audio as the intuitive payoff for the periodic-spectrum viewpoint.  A note can be read as a fundamental plus harmonics, and changing those harmonic amplitudes changes timbre while leaving pitch anchored by the fundamental.
 
 This application lecture is also a reminder that Fourier analysis runs in both directions: one may analyze a waveform into harmonics, or synthesize a waveform from a chosen harmonic recipe.  The same bidirectional idea also underlies the periodic-summation and transform-sampling bridge between Fourier series and Fourier transform.
 
@@ -814,7 +818,7 @@ No T2 tutorial was scheduled in this slot according to the provided timetable.
 
 ---
 
-This is the selected LA3 graded lab-3 slot.  The archived submission has now been distilled into the companion lab note, which records the lab-specific reasoning for peak identification, cosine reconstruction, Butterworth cutoff selection, datatip reading, and the difference between the Butterworth output and the ideal-filter picture.
+This is the selected LA3 graded lab-3 slot.  The companion lab note records the lab-specific reasoning for peak identification, cosine reconstruction, Butterworth cutoff selection, datatip reading, and the difference between the Butterworth output and the ideal-filter picture.
 
 ## week 10 lecture 2
 
@@ -877,6 +881,37 @@ The timetable reserves this T2 tutorial slot, but no archived tutorial material 
 
 This is the selected LA3 prelab slot for lab 4.  The schedule metadata for the modulation/demodulation/sampling lab is archived, but the detailed prelab content has not yet been ingested.
 
+## week 11 lecture 2
+
+- datetime: 2026-04-16T12:00:00+08:00/2026-04-16T13:20:00+08:00, PT1H20M
+- venue: Lecture Theater D
+- topic: chapter-4 worked examples; DFT/DTFT synthesis; circular-versus-linear reasoning; frequency-domain LTI interpretation
+- [discrete Fourier transform](discrete%20Fourier%20transform.md)
+    - [§ relation between DTFS and DFT](discrete%20Fourier%20transform.md#relation%20between%20DTFS%20and%20DFT)
+    - [§ relation to DTFT and periodic extension](discrete%20Fourier%20transform.md#relation%20to%20DTFT%20and%20periodic%20extension)
+    - [§ circular convolution and its relation to linear convolution](discrete%20Fourier%20transform.md#circular%20convolution%20and%20its%20relation%20to%20linear%20convolution)
+- [discrete-time Fourier transform](discrete-time%20Fourier%20transform.md)
+    - [§ sampled-spectrum interpretation of the DTFT](discrete-time%20Fourier%20transform.md#sampled-spectrum%20interpretation%20of%20the%20DTFT)
+- [frequency response](frequency%20response.md)
+    - [§ complex exponentials as LTI eigenfunctions](frequency%20response.md#complex%20exponentials%20as%20lti%20eigenfunctions)
+
+---
+
+This lecture closes the Chapter 4 block with worked examples that force students to move across all three discrete-frequency viewpoints: periodic-sequence harmonics, DTFT as a continuous digital-frequency description, and finite-record DFT computation.  The key correction habit is to decide first whether a question is about linear convolution, circular convolution, or sampled spectrum.
+
+## week 12 lecture
+
+- datetime: 2026-04-21T12:00:00+08:00/2026-04-21T13:20:00+08:00, PT1H20M
+- venue: Lecture Theater D
+- topic: Laplace-transform motivation and definition; bilateral/unilateral forms; region of convergence; common transform pairs; core transform properties
+- [Laplace transform](Laplace%20transform.md)
+    - [§ definition and ROC](Laplace%20transform.md#definition%20and%20ROC)
+    - [§ common transform pairs and core properties](Laplace%20transform.md#common%20transform%20pairs%20and%20core%20properties)
+
+---
+
+This lecture begins the complex-frequency segment.  The practical point is that Laplace analysis allows the same system to be studied as algebra in $s$ rather than repeated calculus in $t$, while ROC keeps track of where the transform is valid.
+
 ## week 12 tutorial
 
 - datetime: 2026-04-22T11:00:00+08:00/2026-04-22T11:50:00+08:00, PT50M
@@ -898,6 +933,41 @@ The timetable reserves this T2 tutorial slot, but no archived tutorial material 
 
 This is the selected LA3 graded lab-4 slot.  As with the corresponding prelab, the official timing is archived but the assignment content has not yet been ingested into a dedicated note page.
 
+## week 12 lecture 2
+
+- datetime: 2026-04-23T12:00:00+08:00/2026-04-23T13:20:00+08:00, PT1H20M
+- venue: Lecture Theater D
+- topic: inverse Laplace by partial fractions; dynamic RLC circuit analysis in s-domain; initial/final value theorems
+- [Laplace transform](Laplace%20transform.md)
+    - [§ inverse Laplace transform by partial fractions](Laplace%20transform.md#inverse%20Laplace%20transform%20by%20partial%20fractions)
+    - [§ applications of Laplace transform](Laplace%20transform.md#applications%20of%20Laplace%20transform)
+    - [§ analysis of dynamic circuits in Laplace domain](Laplace%20transform.md#analysis%20of%20dynamic%20circuits%20in%20Laplace%20domain)
+    - [§ common transform pairs and core properties](Laplace%20transform.md#common%20transform%20pairs%20and%20core%20properties)
+
+---
+
+This lecture shifts from definition to response computation.  The standard workflow is: map circuit elements into unilateral $s$-domain models with initial terms, solve algebraic equations, and return to time domain through inverse Laplace.
+
+## week 13 lecture
+
+- datetime: 2026-04-28T12:00:00+08:00/2026-04-28T13:20:00+08:00, PT1H20M
+- venue: Lecture Theater D
+- topic: system function; pole-zero plot interpretation; interconnection in s-domain; causal stability from poles and ROC; Laplace-versus-Fourier relation
+- [Laplace transform](Laplace%20transform.md)
+    - [§ applications of Laplace transform](Laplace%20transform.md#applications%20of%20Laplace%20transform)
+    - [§ transfer-function viewpoint and routes](Laplace%20transform.md#transfer-function-viewpoint-and-routes)
+    - [§ relation between Laplace transform and Fourier transform](Laplace%20transform.md#relation%20between%20Laplace%20transform%20and%20Fourier%20transform)
+    - [§ analysis of dynamic circuits in Laplace domain](Laplace%20transform.md#analysis%20of%20dynamic%20circuits%20in%20Laplace%20domain)
+- [transfer function](transfer%20function.md)
+    - [§ definition of system and transfer functions](transfer%20function.md#definition%20of%20system%20and%20transfer%20functions)
+    - [§ poles, zeros, and pole-zero plots](transfer%20function.md#poles-zeros-and-pole-zero-plots)
+    - [§ interconnection of continuous-time systems](transfer%20function.md#interconnection%20of%20continuous-time%20systems)
+    - [§ stability of continuous-time systems](transfer%20function.md#stability%20of%20continuous-time%20systems)
+
+---
+
+This lecture unifies the Laplace-and-transfer-function storyline around $H(s)$: once the transfer function is known, block interconnections and pole locations give rapid qualitative predictions for causality, stability, and long-time behavior.  The same lecture also sharpens the Laplace-versus-Fourier bridge by testing whether the imaginary axis lies inside the ROC, outside it, or on a boundary pole where principal-value and impulse corrections are required.
+
 ## week 13 tutorial
 
 - datetime: 2026-04-29T11:00:00+08:00/2026-04-29T11:50:00+08:00, PT50M
@@ -918,6 +988,42 @@ The timetable reserves this T2 tutorial slot, but no archived tutorial material 
 
 The selected LA3 lab program has already completed by this point in the archived schedule, so no further lab meeting is recorded for week 13.
 
+## week 13 lecture 2
+
+- datetime: 2026-04-30T12:00:00+08:00/2026-04-30T13:20:00+08:00, PT1H20M
+- venue: Lecture Theater D
+- topic: Laplace-transform applications and clarification examples; second-order RLC pole cases (underdamped/critical/overdamped)
+- [Laplace transform](Laplace%20transform.md)
+    - [§ applications of Laplace transform](Laplace%20transform.md#applications%20of%20Laplace%20transform)
+    - [§ analysis of dynamic circuits in Laplace domain](Laplace%20transform.md#analysis%20of%20dynamic%20circuits%20in%20Laplace%20domain)
+    - [§ transfer-function viewpoint and routes](Laplace%20transform.md#transfer-function-viewpoint-and-routes)
+- [transfer function](transfer%20function.md)
+    - [§ stability of continuous-time systems](transfer%20function.md#stability%20of%20continuous-time%20systems)
+
+---
+
+The clarification examples emphasize one frequent source of mistakes: students often mix up the role of $\alpha=\frac{R}{2L}$ and $\omega_0=\frac{1}{\sqrt{LC}}$ when interpreting pole locations.  The damping class must be read from the discriminant $\alpha^2-\omega_0^2$, not from symbol names alone.
+
+## week 14 lecture
+
+- datetime: 2026-05-05T12:00:00+08:00/2026-05-05T13:20:00+08:00, PT1H20M
+- venue: Lecture Theater D
+- topic: Laplace-transform consolidation; ROC-based Fourier recovery; transfer-function reading; closed-loop interpretation; course wrap-up before final stage
+- [Laplace transform](Laplace%20transform.md)
+    - [§ definition and ROC](Laplace%20transform.md#definition%20and%20ROC)
+    - [§ common transform pairs and core properties](Laplace%20transform.md#common%20transform%20pairs%20and%20core%20properties)
+    - [§ inverse Laplace transform by partial fractions](Laplace%20transform.md#inverse%20Laplace%20transform%20by%20partial%20fractions)
+    - [§ applications of Laplace transform](Laplace%20transform.md#applications%20of%20Laplace%20transform)
+    - [§ relation between Laplace transform and Fourier transform](Laplace%20transform.md#relation%20between%20Laplace%20transform%20and%20Fourier%20transform)
+- [transfer function](transfer%20function.md)
+    - [§ definition of system and transfer functions](transfer%20function.md#definition%20of%20system%20and%20transfer%20functions)
+    - [§ interconnection of continuous-time systems](transfer%20function.md#interconnection%20of%20continuous-time%20systems)
+    - [§ stability of continuous-time systems](transfer%20function.md#stability%20of%20continuous-time%20systems)
+
+---
+
+This lecture is the Laplace-transform consolidation pass: definition-level details, procedural inverse-Laplace mechanics, ROC-based Fourier recovery, and stability interpretation are reviewed as one connected workflow.
+
 ## week 14 tutorial
 
 - datetime: 2026-05-06T11:00:00+08:00/2026-05-06T11:50:00+08:00, PT50M
@@ -937,6 +1043,18 @@ The timetable reserves this T2 tutorial slot, but no archived tutorial material 
 ---
 
 The archived Spring 2026 LA3 lab schedule ends before this week, so the course root records the empty lab slot explicitly for chronology completeness.
+
+## week 14 lecture 2
+
+- datetime: 2026-05-07T12:00:00+08:00/2026-05-07T13:20:00+08:00, PT1H20M
+- venue: Lecture Theater D
+- topic: final revision lecture and online-quiz period near term end
+- [Laplace transform](Laplace%20transform.md)
+    - [§ relation between Laplace transform and Fourier transform](Laplace%20transform.md#relation%20between%20Laplace%20transform%20and%20Fourier%20transform)
+
+---
+
+The end-of-term slot is preserved in the timeline for schedule coherence with the archived timetable and quiz cadence.
 
 ## midterm examination
 

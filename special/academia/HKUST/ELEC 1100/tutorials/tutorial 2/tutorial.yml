@@ -1,0 +1,19 @@
+assignment:
+  comments: {}
+  content: No additional details were added for this assignment.
+  grade:
+    entered: 2
+    graded anonymously: false
+    possible: 2
+  id: 426633
+  properties:
+    due: No Due Date
+    points: 2
+  submissions:
+    - datetime: ""
+      id: -1
+  title: Quiz 01 (in Tutorial 02)
+course:
+  id: 70000
+  name: ELEC1100 (T2)
+type: submission/Canvas/canvas.ust.hk

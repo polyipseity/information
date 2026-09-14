@@ -29,6 +29,104 @@ When the in-class component exists, the `index.md` links to `lab.md`/`tutorial.m
 | Lecture             | `submission.yml`   | `lecture.yml`      | `lecture.md`       |
 | Assignment          | `submission.yml`   | N/A                | N/A                |
 
+### Component YAML format
+
+`lab.yml`, `tutorial.yml`, and `lecture.yml` are produced by `convert_canvas_submission.py`. Their format is entirely defined by that script — do not invent custom schemas. Run the script to generate the YAML:
+
+```bash
+echo "/path/to/Canvas HTML.html" | uv run -m scripts.special.convert_canvas_submission 2> tutorial.yml
+```
+
+For in-class components, redirect stderr to `tutorial.yml`/`lab.yml`/`lecture.yml`. For out-of-class components, redirect to `submission.yml`.
+
+If no Canvas page exists (e.g., ungraded PRS-only session), do not create a component YAML file.
+
+### In-class-only submissions
+
+When a tutorial/lab/lecture has only an in-class component (no pre-lab, no take-home, no Canvas assignment outside the session):
+
+- Create `tutorial.yml`/`lab.yml`/`lecture.yml` only — do NOT create `submission.yml`
+- `index.md` contains only `## submission` and `## children` — no metadata section, no `## attachments`
+- `tutorial.md`/`lab.md`/`lecture.md` contains the Canvas metadata block (when a Canvas page exists) followed by `## attachments` (if any) and the content
+
+```markdown
+# index.md (in-class only)
+
+---
+aliases:
+  - ...
+tags:
+  - ...
+---
+
+# index
+
+- <INSTITUTION> <COURSE>
+
+## submission
+
+- in-class submission
+    - metadata: [`<type>.yml`](<type>.yml)
+
+## children
+
+- [<type>](<type>.md)
+```
+
+```markdown
+# <type>.md (in-class only, with Canvas page)
+
+---
+aliases:
+  - ...
+tags:
+  - ...
+---
+
+# <type>
+
+- <INSTITUTION> <COURSE> <type> <N>
+- parent: [<type> <N>](index.md)
+
+---
+
+- title: <Canvas assignment title>
+- points: <N>
+- grade: <entered>/<possible>
+- submitting: <submission type>
+
+---
+
+<Canvas description>
+
+## attachments
+
+- [`filename.ext`](attachments/filename.ext)
+
+## quiz
+
+> question...
+```
+
+### Cloze flashcards in question blocks
+
+All question quote blocks must include cloze flashcards (`{@{ }@}`) on the `- solution:` and `- explanation:` lines. Do NOT cloze the question text or answer choices.
+
+- __Solution lines:__ ideally one cloze per solution — cloze the core result, formula, or decisive step. Only for very long solutions (multi-step derivations, lengthy prose) may multiple clozes appear, one per logical step.
+- __Explanation lines:__ prefer multiple clozes whenever possible — break the explanation into individual claims, conditions, and reasoning steps, each wrapped in its own cloze.
+- Closing delimiter is `}@}` (3 chars: `}` `@` `}`)
+- Delegate cloze creation to a dedicated subagent using the `create-flashcards` skill when adding flashcards to multiple questions
+
+### No-submission case (no Canvas at all)
+
+When a tutorial/lab/lecture has neither in-class nor out-of-class Canvas components (e.g., an ungraded practice session):
+
+- Do NOT create `tutorial.yml`/`lab.yml`/`lecture.yml`
+- `index.md` contains only `## children` — no `## submission`
+- `tutorial.md`/`lab.md`/`lecture.md` contains only the content — no Canvas metadata block, no attachments section (unless raw files are referenced)
+
+Detect this when: the source is PRS/iClicker HTML with only ungraded test questions, or the user confirms there are no Canvas pages for the session.
+
 ## Partial-info workflow
 
 Submissions arrive in stages. Each stage fills in what's available without requiring all information upfront.
@@ -46,6 +144,24 @@ Input: Canvas assignment HTML page + prompt files.
 3. Create `index.md` with metadata and description
 4. Copy prompt PDFs and data files to `attachments/`
 5. Apply display-vs-link convention for versioned PDFs
+
+### What goes in `attachments/`
+
+- Prompt PDFs, assignment sheets → `attachments/`
+- Data files (CSV, JSON, datasets) → `attachments/`
+- Code files (.ino, .py, .java) referenced by the submission → `attachments/`
+- Images (circuit diagrams, screenshots, pinout diagrams) → `attachments/`
+- Quiz images extracted from PRS/Clicker HTML (circuit diagrams, sensor figures) → `attachments/`
+
+When adding images to `attachments/`:
+
+- Preserve the original filename when available. If the source has no filename (e.g., bare base64 data URI), generate a descriptive name reflecting the content.
+- Preserve the original alt text from the HTML `<img>` tag when present. If alt text is missing or empty, generate a concise, humanized description of what the image shows. Do not use LaTeX math notation in alt text — use plain language descriptions instead.
+
+Do NOT put in `attachments/`:
+
+- HTML source files (Canvas pages, PRS pages) — these are extraction sources, not referenced raw files. Extract the content into `.md`/`.yml` and discard the HTML.
+- Transcripted text — if the content can be represented as markdown, it belongs in a `.md` file, not as a raw file in `attachments/`.
 
 ### Stage 2: Submission file(s)
 
@@ -85,6 +201,18 @@ Redact author names in the resulting YAML:
 ```bash
 sed -i '' "s/author: .*/author: '[redacted]'/" submission.yml
 ```
+
+### Grade extraction
+
+When the Canvas HTML is a submission detail page (contains "Grade:" and "pts possible"), extract the grade into the component YAML:
+
+```yaml
+grade:
+  entered: 2    # from "Grade: 2"
+  possible: 2   # from "(2 pts possible)"
+```
+
+Also extract `canvas_assignment_id` from the URL comment or page content for cross-referencing. Add both fields to `tutorial.yml`/`lab.yml`/`lecture.yml`.
 
 ### Stage 4: Solution
 
@@ -293,6 +421,7 @@ Use `\[missing\]` for absent fields — for example, `points: \[missing\]` when 
 - Update announcements: verbatim with color and bold
 - Canvas system messages (e.g., "This assignment was locked...", "No additional details were added for this assignment.") appearing in or near the description body are part of the description and must be preserved verbatim
 - Normalize metadata fields only, not prose body
+- `canvas_assignment_id`: numeric ID from the Canvas assignment URL or submission detail page. Used for cross-referencing between PRS content and Canvas grade records.
 
 ## submission.pdf.yml (PDF rendering metadata)
 

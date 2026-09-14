@@ -50,6 +50,8 @@ tags:
 
 ## CRUD operations
 
+> __Note:__ This skill defines the directory listing index (e.g., `tutorials/index.md`). Individual submission pages (e.g., `tutorials/tutorial 1/index.md`) follow the format in `academic-crud-submission`, not this format.
+
 ## Missing data
 
 Use `\[missing\]` for fields with absent values in index pages. See [special.instructions.md](../../instructions/special.instructions.md#missing-data).

@@ -23,20 +23,15 @@ The discrete-time Fourier transform (DTFT) is the frequency-domain representatio
 
 This note keeps the main focus on the general-sequence DTFT viewpoint. DTFS/DFS discussion is housed mainly in [discrete Fourier transform](discrete%20Fourier%20transform.md), especially [§ relation between DTFS and DFT](discrete%20Fourier%20transform.md#relation%20between%20DTFS%20and%20DFT), [§ periodic sequences and discrete-time Fourier series](discrete%20Fourier%20transform.md#periodic%20sequences%20and%20discrete-time%20Fourier%20series), and [§ normalization map between DTFS and DFT](discrete%20Fourier%20transform.md#normalization%20map%20between%20DTFS%20and%20DFT), because DTFS/DFS and DFT both use finite harmonic coefficient lists for period-$N$ data. Here we still keep enough periodic-sequence discussion to show how a periodic sequence appears inside the DTFT as a line spectrum and to link the two notes cleanly.
 
----
-
-Flashcards for this section are as follows:
-
-- What core problem does the DTFT note solve in ELEC 2100? ::@:: It describes a discrete-time sequence by a continuous periodic digital-frequency spectrum so the sequence’s frequency content can be analyzed before any finite-grid sampling. <!--SR:!fsrs,2027-11-08T00:00:00.000Z,457,457.33908222,1,2,7,0,0,2026-08-08T00:00:00.000Z!fsrs,2027-11-09T00:00:00.000Z,457,457.33908222,1,2,7,0,0,2026-08-09T00:00:00.000Z-->
-- Why is the DTFT naturally linked to sampling theory? ::@:: Because it is derived from the Fourier transform of the sampled impulse train $\sum_n x[n]\delta(t-nT)$ rather than being introduced as an isolated new formula. <!--SR:!fsrs,2027-11-09T00:00:00.000Z,457,457.33908222,1,2,7,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-11-18T00:00:00.000Z,453,452.66868886,1,2,7,0,0,2026-08-22T00:00:00.000Z-->
-- Why is most DTFS/DFS discussion grouped with the DFT note rather than the DTFT note? ::@:: Because DTFS/DFS and DFT both use one finite harmonic coefficient cycle for period-$N$ data, whereas the general DTFT uses the continuous digital-frequency variable $\Omega=\omega T$ and represents periodic sequences by a line spectrum. <!--SR:!fsrs,2027-11-09T00:00:00.000Z,457,457.33908222,1,2,7,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-11-25T00:00:00.000Z,457,457.33908222,1,2,7,0,0,2026-08-25T00:00:00.000Z-->
-
 This note is the general discrete-time spectral note. For continuous-time periodic and aperiodic signals, see [Fourier series](Fourier%20series.md) and [Fourier transform](Fourier%20transform.md). For finite-grid computation or explicit period-$N$ coefficient work, move next to [discrete Fourier transform](discrete%20Fourier%20transform.md).
 
 ---
 
 Flashcards for this section are as follows:
 
+- What core problem does the DTFT note solve in ELEC 2100? ::@:: It describes a discrete-time sequence by a continuous periodic digital-frequency spectrum so the sequence's frequency content can be analyzed before any finite-grid sampling.
+- Why is the DTFT naturally linked to sampling theory? ::@:: Because it is derived from the Fourier transform of the sampled impulse train $\sum_n x[n]\delta(t-nT)$ rather than being introduced as an isolated new formula.
+- Why is most DTFS/DFS discussion grouped with the DFT note rather than the DTFT note? ::@:: Because DTFS/DFS and DFT both use one finite harmonic coefficient cycle for period-$N$ data, whereas the general DTFT uses the continuous digital-frequency variable $\Omega=\omega T$ and represents periodic sequences by a line spectrum.
 - How should this note be positioned among the main Fourier notes in ELEC 2100? ::@:: This note is the general discrete-time spectral description on a continuous digital-frequency axis. Fourier series and Fourier transform are the continuous-time periodic and aperiodic notes, while the DFT note is the finite-grid computational note for period-$N$ or finite-record discrete data. <!--SR:!fsrs,2027-08-27T00:00:00.000Z,377,377.17020207,1,2,7,0,0,2026-08-15T00:00:00.000Z!fsrs,2027-08-27T00:00:00.000Z,377,377.17020207,1,2,7,0,0,2026-08-15T00:00:00.000Z-->
 
 ## deriving the DTFT from a sampled signal

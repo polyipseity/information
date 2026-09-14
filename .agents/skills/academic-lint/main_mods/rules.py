@@ -3199,6 +3199,51 @@ def _scan_wrong_cloze_tokens(
             i += 1
             continue
 
+        # Check for $-involved misspelt cloze delimiters before math tracking,
+        # since the $ in these tokens would falsely toggle math mode.
+        # {@${  (4 chars: { @ $ {)
+        if i + 4 <= n and text[i : i + 4] == "{@${":
+            wrong_tokens.append(
+                (i, i + 4, "misspelt cloze delimiter '{@${'; use '{@{' instead")
+            )
+            i += 4
+            continue
+        # {$@{  (4 chars: { $ @ {)
+        if i + 4 <= n and text[i : i + 4] == "{$@{":
+            wrong_tokens.append(
+                (i, i + 4, "misspelt cloze delimiter '{$@{'; use '{@{' instead")
+            )
+            i += 4
+            continue
+        # {$@${  (5 chars: { $ @ $ {)
+        if i + 5 <= n and text[i : i + 5] == "{$@${":
+            wrong_tokens.append(
+                (i, i + 5, "misspelt cloze delimiter '{$@${'; use '{@{' instead")
+            )
+            i += 5
+            continue
+        # }$@}  (4 chars: } $ @ })
+        if i + 4 <= n and text[i : i + 4] == "}$@}":
+            wrong_tokens.append(
+                (i, i + 4, "misspelt cloze delimiter '}$@}'; use '}@}' instead")
+            )
+            i += 4
+            continue
+        # }@$}  (4 chars: } @ $ })
+        if i + 4 <= n and text[i : i + 4] == "}@$}":
+            wrong_tokens.append(
+                (i, i + 4, "misspelt cloze delimiter '}@$}'; use '}@}' instead")
+            )
+            i += 4
+            continue
+        # }$@$}  (5 chars: } $ @ $ })
+        if i + 5 <= n and text[i : i + 5] == "}$@$}":
+            wrong_tokens.append(
+                (i, i + 5, "misspelt cloze delimiter '}$@$}'; use '}@}' instead")
+            )
+            i += 5
+            continue
+
         # Track math mode
         if text[i] == "$" and (i == 0 or text[i - 1] != "\\"):
             if i + 1 < n and text[i + 1] == "$":
@@ -3763,8 +3808,11 @@ def no_soft_wrap_paragraph(ctx: ValidationContext) -> list[ValidationMessage]:
                 ValidationMessage(
                     rule_id="no_soft_wrap_paragraph",
                     msg=(
-                        "soft-wrapped paragraph detected — this is unacceptable; "
-                        "remove the stray newline or insert a blank line/explicit break"
+                        "soft-wrapped paragraph detected — evaluate whether the line "
+                        "break is intentional: if so, add `<br/>` or `\\` to make "
+                        "it explicit; otherwise remove the stray newline or insert a "
+                        "blank line to start a new paragraph (prefer avoiding line "
+                        "breaks unless necessary or verbatim-translating source material)"
                     ),
                     line=line_no,
                     col=col,
@@ -3834,7 +3882,13 @@ def no_soft_wrap_list(ctx: ValidationContext) -> list[ValidationMessage]:
         errors.append(
             ValidationMessage(
                 rule_id="no_soft_wrap_list",
-                msg="soft-wrapped list item detected; collapse it or use <br/>/<p> (sloppy formatting not permitted)",
+                msg=(
+                    "soft-wrapped list item detected — evaluate whether the line "
+                    "break is intentional: if so, use `<br/>` or `<p>` to make "
+                    "it explicit; otherwise collapse the lines into one (prefer "
+                    "avoiding line breaks unless necessary or verbatim-translating "
+                    "source material)"
+                ),
                 line=line_no,
                 col=col,
                 col_end=col_end,

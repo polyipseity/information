@@ -1,11 +1,17 @@
-"""Table-to-Markdown conversion for Wikipedia HTML tables.
+"""Table handling and formatting for Wikipedia HTML.
 
-Contains ``TableConverter``, a stateless class whose classmethods and
-staticmethods implement the table handling logic extracted from
-``WikiHtmlConverter``.  Each method mirrors the corresponding
-``_handle_*`` method from the converter, modified to accept its
-dependencies (e.g. a BeautifulSoup object for tree manipulation) as
-explicit parameters.
+This module has two responsibilities:
+
+1. **TableConverter**: stateless class whose classmethods/staticmethods
+   handle HTML table conversion to Markdown (``handle_equation_box``,
+   ``handle_standalone_numblk``, ``handle_table``, ``handle_tbody``,
+   etc.).  Extracted from ``WikiHtmlConverter``.
+
+2. **Table formatting** (module-level functions): post-processing of
+   Markdown pipe tables — column padding (``_reformat_table``),
+   blockquoted table alignment (``_reformat_blockquoted_tables``),
+   separator cell parsing (``_is_separator_cell``, ``_smart_split_row``).
+   These were consolidated from ``utils.py``.
 """
 
 import re
@@ -15,9 +21,25 @@ from copy import copy
 
 from bs4 import NavigableString, PageElement, Tag
 
-from .ast_utils import _replace_pipes_outside_math
+from . import config as _cfg
+from .ast_utils import (
+    _all_code_span_ranges,
+    _all_math_ranges,
+    _find_table_blocks,
+    _is_in_span,
+    _replace_pipes_outside_math,
+)
+from .template_config import (
+    _BLOCKQUOTE_PREFIX_RE,
+    _CONSECUTIVE_LEADING_WHITESPACES_REGEX,
+    _CONSECUTIVE_NEWLINES_REGEX,
+    _INFOBOX_CAPTION_RULES,
+    _NAVBOX_SPEC,
+    _SEPARATOR_CELL_RE,
+    _SIDEBAR_SPEC,
+)
 from .types import _HandlerConfig
-from .utils import _fix_name_maybe, _format_separator_cell, _smart_split_row
+from .utils import _ZERO_WIDTH_CHARS_RE, _fix_name_maybe
 
 """Table cell tag names."""
 _TD_OR_TH = frozenset({"td", "th"})
@@ -27,10 +49,367 @@ _TEXT_ALIGN_REGEX = re.compile(
 )
 """Bold font-weight style detector (needed for _handle_tr)."""
 _BOLD_FONT_STYLE_REGEX = re.compile(r"\bfont-weight\s*:\s*bold\b", re.IGNORECASE)
-"""Collapse consecutive newlines into at most two."""
-_CONSECUTIVE_NEWLINES_REGEX = re.compile(r"\n\n+")
-"""Replace leading whitespace with non-breaking spaces."""
-_CONSECUTIVE_LEADING_WHITESPACES_REGEX = re.compile(r"(?:^|\n)([ \t]+)", re.MULTILINE)
+"""Tags that can form an equation-box title."""
+_EQUATION_BOX_TITLE_TAGS = frozenset({"b", "strong", "i", "em", "span"})
+"""Block-level tags that separate an equation-box title from its body."""
+_EQUATION_BOX_BODY_BLOCK_TAGS = frozenset(
+    {"p", "div", "table", "ul", "ol", "dl", "blockquote", "pre", "figure"}
+)
+
+
+def _is_separator_cell(cell: str) -> bool:
+    """Check if a table cell is a GFM separator (e.g. ---, :--, --:, :-:)."""
+    return bool(_SEPARATOR_CELL_RE.fullmatch(cell)) and len(cell) >= 3
+
+
+def _get_separator_alignment(cell: str) -> str:
+    """Extract the GFM alignment marker from a separator cell."""
+    if cell.startswith(":") and cell.endswith(":"):
+        return ":-:"
+    if cell.endswith(":"):
+        return "--:"
+    if cell.startswith(":"):
+        return ":--"
+    return "---"
+
+
+def _format_separator_cell(width: int, alignment: str) -> str:
+    """Build a separator cell padded to the given column width."""
+    width = max(width, 3)
+    if alignment == "---":
+        return "-" * width
+    if alignment == ":--":
+        return ":" + "-" * (width - 1)
+    if alignment == "--:":
+        return "-" * (width - 1) + ":"
+    # :-:
+    return ":" + "-" * (width - 2) + ":"
+
+
+def _smart_split_row(line: str) -> list[str] | None:
+    """Split a pipe-table row into cells.
+
+    Uses ``_all_math_ranges`` and ``_all_code_span_ranges`` to identify
+    pipe characters inside math or code spans so they are not treated as
+    cell boundaries.  Also respects backslash-escaped pipes (``\\|``).
+
+    Returns ``None`` if the line is not a valid pipe-table row (must start
+    and end with ``|``).
+    """
+    line = line.rstrip("\n")
+    if not (line.startswith("|") and line.endswith("|")):
+        return None
+    inner = line[1:-1]
+    math_ranges = _all_math_ranges(inner)
+    code_ranges = _all_code_span_ranges(inner)
+    pipes: list[int] = []
+    i = 0
+    while i < len(inner):
+        c = inner[i]
+        if c == "\\" and i + 1 < len(inner) and inner[i + 1] == "|":
+            i += 2
+            continue
+        if (
+            c == "|"
+            and not _is_in_span(i, math_ranges)
+            and not _is_in_span(i, code_ranges)
+        ):
+            pipes.append(i)
+        i += 1
+    cells: list[str] = []
+    start = 0
+    for p in pipes:
+        cells.append(_ZERO_WIDTH_CHARS_RE.sub("", inner[start:p].strip()))
+        start = p + 1
+    cells.append(_ZERO_WIDTH_CHARS_RE.sub("", inner[start:].strip()))
+    return cells
+
+
+def _reformat_table_block(block: list[str]) -> list[str]:
+    """Reformat a single pipe-table block with columns padded to the widest cell per column."""
+    if len(block) < 2:
+        return block
+    parsed: list[list[str]] = []
+    sep_indices: list[int] = []
+    for i, line in enumerate(block):
+        cells = _smart_split_row(line)
+        if cells is None:
+            return block
+        parsed.append(cells)
+        if len(cells) > 0 and all(_is_separator_cell(c) for c in cells):
+            sep_indices.append(i)
+    if not sep_indices:
+        return block
+    ncols = max(len(cells) for cells in parsed)
+    alignments: list[str] = []
+    for j in range(ncols):
+        sep_row_idx = sep_indices[0]
+        sep_cell = parsed[sep_row_idx][j] if j < len(parsed[sep_row_idx]) else ""
+        alignments.append(_get_separator_alignment(sep_cell))
+    col_widths = [0] * ncols
+    for i, cells in enumerate(parsed):
+        if i in sep_indices:
+            continue
+        for j in range(len(cells)):
+            col_widths[j] = max(col_widths[j], len(cells[j]))
+    col_widths = [max(w, 3) for w in col_widths]
+    result: list[str] = []
+    for i, cells in enumerate(parsed):
+        padded = list(cells)
+        while len(padded) < ncols:
+            padded.append("")
+        if i in sep_indices:
+            sep_cells = [
+                _format_separator_cell(col_widths[j], alignments[j])
+                for j in range(ncols)
+            ]
+            result.append("| " + " | ".join(sep_cells) + " |")
+        else:
+            data_cells = [
+                _cfg._JUSTIFY_MAP[alignments[j]](padded[j], col_widths[j])
+                for j in range(ncols)
+            ]
+            result.append("| " + " | ".join(data_cells) + " |")
+    return result
+
+
+def _reformat_blockquoted_tables(text: str) -> str:
+    """Align pipe tables nested inside blockquotes."""
+    lines = text.split("\n")
+    out: list[str] = []
+    i = 0
+    while i < len(lines):
+        line = lines[i]
+        m = _BLOCKQUOTE_PREFIX_RE.match(line)
+        if m and line[m.end() :].startswith("|"):
+            prefix = m.group(0)
+            j = i
+            run: list[str] = []
+            while j < len(lines):
+                cur = lines[j]
+                cm = _BLOCKQUOTE_PREFIX_RE.match(cur)
+                if cm and cm.group(0) == prefix and cur[cm.end() :].startswith("|"):
+                    run.append(cur[cm.end() :])
+                    j += 1
+                else:
+                    break
+            reformatted = _reformat_table_block(run)
+            out.extend(prefix + r for r in reformatted)
+            i = j
+        else:
+            out.append(line)
+            i += 1
+    return "\n".join(out)
+
+
+def _reformat_table(text: str) -> str:
+    """Reformat all pipe-table blocks in _text_ with columns padded to the widest cell per column."""
+    text = _reformat_blockquoted_tables(text)
+    table_blocks = _find_table_blocks(text)
+    if not table_blocks:
+        return text
+    aligned: list[tuple[int, int]] = []
+    for start, end in sorted(table_blocks):
+        newline = text.find("\n", end)
+        aligned.append((start, len(text) if newline < 0 else newline + 1))
+    table_blocks = []
+    for start, end in aligned:
+        if table_blocks and start <= table_blocks[-1][1]:
+            table_blocks[-1] = (table_blocks[-1][0], max(table_blocks[-1][1], end))
+        else:
+            table_blocks.append((start, end))
+    parts: list[str] = []
+    prev_end = 0
+    for start, end in table_blocks:
+        if start < prev_end:
+            continue
+        parts.append(text[prev_end:start])
+        block_text = text[start:end]
+        lines = block_text.split("\n")
+        first = 0
+        while first < len(lines) and not lines[first].startswith("|"):
+            first += 1
+        last = len(lines) - 1
+        while last >= first and not lines[last].startswith("|"):
+            last -= 1
+        if first <= last:
+            if first > 0:
+                parts.append("\n".join(lines[:first]) + "\n")
+            table_slice = lines[first : last + 1]
+            reformatted: list[str] = []
+            i = 0
+            while i < len(table_slice):
+                if table_slice[i].startswith("|"):
+                    j = i
+                    while j < len(table_slice) and table_slice[j].startswith("|"):
+                        j += 1
+                    sub_block = _reformat_table_block(table_slice[i:j])
+                    reformatted.extend(sub_block)
+                    i = j
+                else:
+                    reformatted.append(table_slice[i])
+                    i += 1
+            parts.append("\n".join(reformatted))
+            trailing = lines[last + 1 :]
+            if trailing:
+                parts.append("\n" + "\n".join(trailing))
+        else:
+            parts.append(block_text)
+        prev_end = end
+    parts.append(text[prev_end:])
+    return "".join(parts)
+
+
+def _set_text_align(cell: Tag, align: str) -> None:
+    """Append ``text-align`` to *cell*'s style unless it already declares one."""
+    style = str(cell.get("style", ""))
+    if _TEXT_ALIGN_REGEX.search(style):
+        return
+    cell["style"] = f"{style}text-align: {align};"
+
+
+def _strip_cell_bold(cell: Tag) -> None:
+    """Remove ``font-weight: bold`` from *cell*'s style.
+
+    Wikipedia equation-number cells are bolded at the cell level *and* on the
+    inner reference span; the cell-level bold is redundant and would otherwise
+    double-wrap the number as ``____N____``. Drop it so only the span's bold
+    survives. The style attribute is removed entirely when emptied.
+    """
+    style = str(cell.get("style", ""))
+    stripped = _BOLD_FONT_STYLE_REGEX.sub("", style).strip().rstrip(";").strip()
+    if stripped:
+        cell["style"] = stripped
+    else:
+        cell.attrs.pop("style", None)
+
+
+def _rewrite_equation_number_cell(cell: Tag, *, anchor_id: str | None = None) -> None:
+    """Rewrite an equation-number cell to produce ``__\\([N](#math%20N)\\)__``.
+
+    The cell contains a self-link ``<a href=./Page#math_N>N</a>``.
+    This method rewrites it to a bold, fragment-only link wrapped in
+    escaped parentheses, matching the expected Wikipedia equation
+    reference format.
+
+    When *anchor_id* is provided, an ``<a id="...">`` tag is
+    prepended inside the cell so prose links to the equation resolve.
+    """
+    link = cell.find("a", href=True)
+    if not isinstance(link, Tag):
+        return
+    href = str(link.get("href", ""))
+    if "#" not in href:
+        return
+    frag = href.split("#", 1)[1]
+    if not re.fullmatch(r"math[_.].+", frag):
+        return
+    # Normalize: math_7 -> math%207
+    norm_frag = frag.replace("_", "%20")
+    text = link.get_text(strip=True)
+    # Clear the cell and rebuild: __\([text](#norm_frag)\)__
+    cell.clear()
+    if anchor_id:
+        anchor = cell.new_tag("a", attrs={"id": anchor_id})
+        cell.append(anchor)
+        cell.append(NavigableString("\xa0"))
+    bold = cell.new_tag("b")
+    open_paren = cell.new_string("(")
+    new_link = cell.new_tag("a", href=f"#{norm_frag}")
+    new_link.string = text
+    close_paren = cell.new_string(")")
+    bold.append(open_paren)
+    bold.append(new_link)
+    bold.append(close_paren)
+    cell.append(bold)
+
+
+def _rewrite_table_equation_cells(table: Tag) -> None:
+    """Rewrite equation-number cells in any table to ``__\\([N](#math%20N)\\)__``.
+
+    Scans all ``<td>`` elements for a single self-link to an equation
+    anchor and rewrites it to bold, fragment-only link with escaped
+    parentheses.
+    """
+    for td in table.find_all("td"):
+        children = [
+            c
+            for c in td.children
+            if not isinstance(c, NavigableString) or str(c).strip()
+        ]
+        if len(children) != 1 or not isinstance(children[0], Tag):
+            continue
+        link = children[0]
+        if link.name != "a" or "mw-selflink-fragment" not in (link.get("class") or []):
+            continue
+        href = str(link.get("href", ""))
+        if "#" not in href:
+            continue
+        frag = href.split("#", 1)[1]
+        if not re.fullmatch(r"math[_.].+", frag):
+            continue
+        norm_frag = frag.replace("_", "%20")
+        text = link.get_text(strip=True)
+        td.clear()
+        bold = td.new_tag("b")
+        open_paren = td.new_string("(")
+        new_link = td.new_tag("a", href=f"#{norm_frag}")
+        new_link.string = text
+        close_paren = td.new_string(")")
+        bold.append(open_paren)
+        bold.append(new_link)
+        bold.append(close_paren)
+        td.append(bold)
+
+
+def _find_box_title(
+    ele: Tag, *, has_numblk: bool
+) -> list[Tag | NavigableString] | None:
+    """Detect the leading title of a box div without extracting it.
+
+    The title is the run of leading inline nodes (bare text and inline
+    tags such as ``<b>``/``<strong>``) before the first block-level
+    body element (e.g. ``<p>``) or numblk table.  This captures a title
+    followed by a trailing parenthetical text run, e.g.
+    ``<b>Routhian</b> (n + s degrees of freedom)``, so the whole run can
+    be merged into the header cell.  Returns None when the box has no
+    distinct title (e.g. pure equation content).
+    """
+    title_nodes: list[Tag | NavigableString] = []
+    for child in list(ele.children):
+        if isinstance(child, NavigableString):
+            if not child.strip():
+                continue
+            if not has_numblk and not any(
+                isinstance(sib, Tag) and sib.name in _EQUATION_BOX_BODY_BLOCK_TAGS
+                for sib in ele.children
+            ):
+                return None
+            title_nodes.append(child)
+            continue
+        if isinstance(child, Tag) and child.name in _EQUATION_BOX_TITLE_TAGS:
+            title_nodes.append(child)
+            continue
+        return title_nodes if title_nodes else None
+    return title_nodes if title_nodes else None
+
+
+def _equation_box_title(ele: Tag, *, has_numblk: bool) -> list[Tag | NavigableString]:
+    """Extract the leading title of an equation-box div.
+
+    The title is the run of leading inline nodes (bare text and inline
+    tags such as ``<b>``/``<strong>``) before the first block-level
+    body element or numblk table.  The title nodes are removed from
+    *ele* so the remaining children form the body.  Returns an empty
+    list when the box has no distinct title (e.g. pure equation
+    content).
+    """
+    title = _find_box_title(ele, has_numblk=has_numblk)
+    if title is None:
+        return []
+    for node in title:
+        node.extract()
+    return title
 
 
 class TableConverter:
@@ -143,10 +522,10 @@ class TableConverter:
         if table is None:
             return False
         classes = set(table.get_attribute_list("class"))
-        if "navbox-inner" not in classes:
+        if not _NAVBOX_SPEC.required_outer_classes & set(classes):
             return False
         trs = tbody.find_all("tr", recursive=False)
-        if len(trs) != 2:
+        if len(trs) != _NAVBOX_SPEC.required_tr_count:
             return False
         # First TR: single header cell.
         tr0_cells = [
@@ -170,7 +549,7 @@ class TableConverter:
                 it_tbody = it.find("tbody", recursive=False)
                 if it_tbody:
                     it_rows = it_tbody.find_all("tr", recursive=False)
-            if len(it_rows) >= 3:
+            if len(it_rows) >= _NAVBOX_SPEC.min_inner_table_rows:
                 return True
         return False
 
@@ -232,7 +611,7 @@ class TableConverter:
                     replace_underscores=True,
                     names_map=names_map,
                 )
-                encoded = urllib.parse.quote(resolved)
+                encoded = urllib.parse.quote(resolved, safe="").replace("_", "%5F")
                 title_parts.append(f"[{display}]({encoded}.md)")
         title_md = " ".join(title_parts)
         return title_md, link_comment
@@ -287,11 +666,6 @@ class TableConverter:
                 remaining[0].extract()
         return linear_header, angular_header
 
-    # Linear table: indices in the 9-column rendered row.
-    _NAVBOX_LINEAR_INDICES = (0, 2, 3, 4)
-    # Angular table: indices in the 9-column rendered row.
-    _NAVBOX_ANGULAR_INDICES = (5, 6, 7, 8)
-
     @classmethod
     def _blockquote_wrap_navbox(
         cls,
@@ -345,7 +719,7 @@ class TableConverter:
             if len(cells) >= 3:
                 data_rows.append(cells)
 
-        def _pick(cells: list[str], indices: tuple[int, int, int, int]) -> list[str]:
+        def _pick(cells: list[str], indices: tuple[int, ...]) -> list[str]:
             """Select columns by index, returning empty string for missing."""
             return [cells[i] if i < len(cells) else "" for i in indices]
 
@@ -353,28 +727,28 @@ class TableConverter:
             """Format a list of cell values as a pipe-table row."""
             return f"> | {' | '.join(c if c else ' ' for c in cells)} |"
 
-        # Build linear table (columns at _NAVBOX_LINEAR_INDICES).
+        # Build linear table (columns at _NAVBOX_SPEC.linear_indices).
         if header_row:
-            lin_cols = _pick(header_row, cls._NAVBOX_LINEAR_INDICES)
+            lin_cols = _pick(header_row, _NAVBOX_SPEC.linear_indices)
             sep_cells = [_format_separator_cell(3, ":-:") for _ in lin_cols]
             lines.append(_fmt(lin_cols))
             lines.append(f"> | {' | '.join(sep_cells)} |")
         for row_cells in data_rows:
-            lines.append(_fmt(_pick(row_cells, cls._NAVBOX_LINEAR_INDICES)))
+            lines.append(_fmt(_pick(row_cells, _NAVBOX_SPEC.linear_indices)))
 
         if angular_header:
             lines.append(">")
             lines.append(f"> __{angular_header}__")
             lines.append(">")
 
-        # Build angular table (columns at _NAVBOX_ANGULAR_INDICES).
+        # Build angular table (columns at _NAVBOX_SPEC.angular_indices).
         if header_row:
-            ang_cols = _pick(header_row, cls._NAVBOX_ANGULAR_INDICES)
+            ang_cols = _pick(header_row, _NAVBOX_SPEC.angular_indices)
             sep_cells = [_format_separator_cell(3, ":-:") for _ in ang_cols]
             lines.append(_fmt(ang_cols))
             lines.append(f"> | {' | '.join(sep_cells)} |")
         for row_cells in data_rows:
-            lines.append(_fmt(_pick(row_cells, cls._NAVBOX_ANGULAR_INDICES)))
+            lines.append(_fmt(_pick(row_cells, _NAVBOX_SPEC.angular_indices)))
 
         return "\n".join(lines)
 
@@ -639,32 +1013,28 @@ class TableConverter:
             cell = cells[0]
             cell_classes = cell.get_attribute_list("class")
 
-            if cell.name == "th" and "infobox-above" in cell_classes:
-                new_tr = soup.new_tag("tr")
-                col1 = soup.new_tag("td")
-                col1.string = "\u200b"
-                col2 = soup.new_tag("td")
-                bold = soup.new_tag("b")
-                for child in tuple(cell.children):
-                    bold.append(child.extract())
-                col2.append(bold)
-                col2.append(" ")
-                new_tr.append(col1)
-                new_tr.append(col2)
-                new_tr["data-caption-row"] = "true"
-                new_tr["data-caption-title"] = "true"
-                tr.replace_with(new_tr)
-            elif cell.name == "td" and "infobox-image" in cell_classes:
-                new_tr = soup.new_tag("tr")
-                col1 = soup.new_tag("td")
-                col1.string = "\u200b"
-                col2 = soup.new_tag("td")
-                for child in tuple(cell.children):
-                    col2.append(child.extract())
-                new_tr.append(col1)
-                new_tr.append(col2)
-                new_tr["data-caption-row"] = "true"
-                tr.replace_with(new_tr)
+            for rule in _INFOBOX_CAPTION_RULES:
+                if cell.name == rule.cell_tag and rule.cell_class in cell_classes:
+                    new_tr = soup.new_tag("tr")
+                    col1 = soup.new_tag("td")
+                    col1.string = "\u200b"
+                    col2 = soup.new_tag("td")
+                    if rule.wrap_tag is not None:
+                        wrapper = soup.new_tag(rule.wrap_tag)
+                        for child in tuple(cell.children):
+                            wrapper.append(child.extract())
+                        col2.append(wrapper)
+                        col2.append(" ")
+                    else:
+                        for child in tuple(cell.children):
+                            col2.append(child.extract())
+                    new_tr.append(col1)
+                    new_tr.append(col2)
+                    new_tr["data-caption-row"] = "true"
+                    if rule.cell_class == "infobox-above":
+                        new_tr["data-caption-title"] = "true"
+                    tr.replace_with(new_tr)
+                    break
 
     @classmethod
     def _normalize_table_cells(cls, ele: Tag, soup: Tag) -> None:
@@ -810,7 +1180,7 @@ class TableConverter:
         table_classes = (
             set(table.get_attribute_list("class")) if isinstance(table, Tag) else set()
         )
-        if not table_classes & {"sidebar", "cm-sidebar"}:
+        if not table_classes & _SIDEBAR_SPEC.trigger_classes:
             return
 
         for cell in ele.find_all(_TD_OR_TH):
@@ -823,21 +1193,27 @@ class TableConverter:
                     bold = soup.new_tag("b")
                     big.insert_after(bold)
                     bold.append(big.extract())
-            elif "sidebar-heading" in cell_classes:
-                for li in cell.find_all("li"):
-                    cls._wrap_children(li, soup, "b")
-            elif "sidebar-below" in cell_classes:
-                for li in cell.find_all("li"):
-                    cls._wrap_children(li, soup, "b")
+            else:
+                for rule in _SIDEBAR_SPEC.wrap_rules:
+                    if rule.css_class in cell_classes:
+                        if rule.scope == "li":
+                            for li in cell.find_all("li"):
+                                cls._wrap_children(li, soup, rule.wrap_tag)
+                        elif rule.scope == "children":
+                            cls._wrap_children(cell, soup, rule.wrap_tag)
+                        break
 
         # Section labels (Branches, Fundamentals, …) live in <div> elements
         # nested inside <td class="sidebar-content">, not in <th>/<td> cells.
-        for title_div in ele.find_all("div", class_="sidebar-list-title-c"):
-            cls._wrap_children(title_div, soup, "b")
+        # Handle wrap rules whose scope targets descendants rather than cells.
+        for rule in _SIDEBAR_SPEC.wrap_rules:
+            if rule.scope == "children":
+                for div in ele.find_all("div", class_=rule.css_class):
+                    cls._wrap_children(div, soup, rule.wrap_tag)
 
         if isinstance(table, Tag):
-            for caption in table.find_all("div", class_="sidebar-caption"):
-                cls._wrap_children(caption, soup, "i")
+            for caption in table.find_all("div", class_=_SIDEBAR_SPEC.caption_class):
+                cls._wrap_children(caption, soup, _SIDEBAR_SPEC.caption_tag)
 
     @staticmethod
     def _wrap_children(target: Tag, soup: Tag, tag_name: str) -> None:
@@ -1143,6 +1519,166 @@ class TableConverter:
         if leading_break:
             strings = f" <br/> {strings}" if strings else "<br/>"
         return strings
+
+    # -- Equation-box handling --
+
+    @classmethod
+    def handle_equation_box(
+        cls,
+        ele: Tag,
+        soup: Tag,
+        names_map: Mapping[str, str] | None = None,
+    ) -> _HandlerConfig | None:
+        """Handle a ``div.equation-box`` by converting it to a table.
+
+        Extracts the title, integrates the numblk table (if present),
+        and replaces the div's children with a new ``<table>`` that the
+        converter renders as a Markdown table.
+
+        Returns ``None`` after mutating *ele* in place (the converter
+        dispatches the replacement table normally).
+        """
+        numblk = ele.find("table", class_="numblk")
+        title = _equation_box_title(ele, has_numblk=numblk is not None)
+
+        # No title and no numbering: nothing to table-ify -> plain block.
+        if not title and numblk is None:
+            return _HandlerConfig()
+
+        # The box's declared alignment, inherited by all its cells.
+        align = ""
+        if m := _TEXT_ALIGN_REGEX.search(str(ele.get("style", ""))):
+            align = m[1]
+
+        # Remove spacer columns (width=0px <td>) from numblk rows.
+        if numblk is not None:
+            for tdh in tuple(numblk.find_all(_TD_OR_TH)):
+                style = str(tdh.get("style", ""))
+                if re.search(r"width\s*:\s*0", style, re.IGNORECASE):
+                    tdh.decompose()
+
+        # Build a new table whose cells carry the box's alignment; the
+        # TableConverter derives alignment markers from these cells.
+        new_table = soup.new_tag("table")
+        tbody = soup.new_tag("tbody")
+        new_table.append(tbody)
+
+        # Header row: title in <th>; equation-number <th> only when a
+        # numblk table (numbering) is present.
+        header_row = soup.new_tag("tr")
+        th1 = soup.new_tag("th")
+        if align:
+            _set_text_align(th1, align)
+        # ``title`` is the list of leading inline nodes (e.g. ``<b>`` plus a
+        # trailing parenthetical text run).  Append each so inline formatting
+        # and the parenthetical are preserved in the header cell.
+        for _title_node in title:
+            th1.append(_title_node)
+        header_row.append(th1)
+        if numblk is not None:
+            th2 = soup.new_tag("th")
+            if align:
+                _set_text_align(th2, align)
+            header_row.append(th2)
+        tbody.append(header_row)
+
+        if numblk is not None:
+            # Append cleaned numblk rows, propagating the box's alignment
+            # onto cells that do not declare their own.
+            for tr in numblk.find_all("tr"):
+                new_tr = copy(tr)
+                if align:
+                    for cell in new_tr.find_all(_TD_OR_TH):
+                        _set_text_align(cell, align)
+                # The equation-number cell is the last cell. Wikipedia bolds
+                # it *and* its inner reference span; drop the redundant
+                # cell-level bold so the number renders as a single
+                # ``__N__`` rather than ``____N____``.
+                if cells := tuple(new_tr.find_all(_TD_OR_TH)):
+                    _strip_cell_bold(cells[-1])
+                    # Rewrite the equation-number cell to produce
+                    # ``__\([N](#math%20N)\)__``: bold, fragment-only link,
+                    # wrapped in escaped parentheses.
+                    _rewrite_equation_number_cell(cells[-1])
+                tbody.append(new_tr)
+        else:
+            # No numblk table: place the remaining content in a single
+            # body cell (no empty equation-number column).
+            body_row = soup.new_tag("tr")
+            body_cell = soup.new_tag("td")
+            if align:
+                _set_text_align(body_cell, align)
+            for child in list(ele.children):
+                body_cell.append(copy(child))
+            body_row.append(body_cell)
+            tbody.append(body_row)
+
+        # Replace div children with the new table.
+        ele.clear()
+        ele.append(new_table)
+
+        return None
+
+    @classmethod
+    def handle_standalone_numblk(
+        cls,
+        ele: Tag,
+        soup: Tag,
+        names_map: Mapping[str, str] | None = None,
+    ) -> _HandlerConfig | None:
+        """Handle a standalone ``<table class="numblk">`` outside an equation-box.
+
+        Builds a two-column equation table: an empty header row plus an
+        alignment marker row, so its equation/number body row aligns like
+        a numblk nested inside an equation-box div.
+        """
+        align = ""
+        box = ele.find_previous("div", class_="equation-box")
+        if isinstance(box, Tag) and (
+            m := _TEXT_ALIGN_REGEX.search(str(box.get("style", "")))
+        ):
+            align = m[1]
+
+        # Drop empty spacer cells (no text and no explicit width:0px style).
+        for tdh in tuple(ele.find_all(_TD_OR_TH)):
+            if not tdh.get_text(strip=True) and not re.search(
+                r"width\s*:\s*0", str(tdh.get("style", "")), re.IGNORECASE
+            ):
+                tdh.decompose()
+
+        tbody = ele.find("tbody") or ele
+        header_row = soup.new_tag("tr")
+        th1 = soup.new_tag("th")
+        th2 = soup.new_tag("th")
+        if align:
+            _set_text_align(th1, align)
+            _set_text_align(th2, align)
+        header_row.append(th1)
+        header_row.append(th2)
+        tbody.insert(0, header_row)
+
+        if align:
+            for tr in tbody.find_all("tr"):
+                if tr is header_row:
+                    continue
+                for cell in tr.find_all(_TD_OR_TH):
+                    _set_text_align(cell, align)
+                if cells := tuple(tr.find_all(_TD_OR_TH)):
+                    _strip_cell_bold(cells[-1])
+        # Rewrite equation-number cells regardless of alignment,
+        # prepending an <a id> anchor derived from the originating
+        # table id so prose links like #math%20N resolve correctly.
+        default_origin = str(ele.get("id", "")) if ele.get("id") else None
+        for tr in tbody.find_all("tr"):
+            if tr is header_row:
+                continue
+            if cells := tuple(tr.find_all(_TD_OR_TH)):
+                raw = tr.get("data-origin-id")
+                origin = str(raw) if raw else default_origin
+                anchor = origin.replace("_", " ") if origin else None
+                _rewrite_equation_number_cell(cells[-1], anchor_id=anchor)
+
+        return cls.handle_table(ele, frozenset(), soup)
 
 
 """Exported names from this module."""

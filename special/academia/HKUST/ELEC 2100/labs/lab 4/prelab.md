@@ -14,11 +14,11 @@ tags:
 
 ---
 
-No official lab-4 prelab material has been ingested into the public notes yet, so this page remains a placeholder for future preparation-stage knowledge once the archived source is available.
+No official lab-4 prelab material has been ingested into the public notes yet, so this page remains a placeholder for future preparation-stage knowledge once the source material is available.
 
 ## current status
 
-The public tree currently preserves the lab-4 scaffold and archived submission slots, but it does not yet preserve durable prelab knowledge content.
+The public tree currently preserves the lab-4 scaffold, but it does not yet preserve durable prelab knowledge content.
 
 ---
 
