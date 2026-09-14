@@ -138,6 +138,13 @@ def _merge_adjacent_math_dd(dd: Tag) -> None:
             if len(run) < 2:
                 i = j
                 continue
+            # Skip if any span in the run is block math — don't merge $$ into $.
+            if any(
+                "mwe-math-element-block" in " ".join(span.get_attribute_list("class"))
+                for span in run
+            ):
+                i = j
+                continue
             # Merge the run into a single span.
             parts: list[str] = []
             for span in run:
