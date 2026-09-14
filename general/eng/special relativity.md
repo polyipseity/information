@@ -182,13 +182,13 @@ Writing {@{the Lorentz transformation and its inverse}@} in terms of {@{coordina
 
 we get
 
-- <a id="math 3"></a> __Eq. 3:__ {@{$\Delta x'=\gamma \ (\Delta x-v\,\Delta t)\ ,\ \ {} \Delta t'=\gamma \ \left(\Delta t-v\ \Delta x/c^{2}\right)\ $}@}.
-- <a id="math 4"></a> __Eq. 4:__ {@{$\Delta x=\gamma \ (\Delta x'+v\,\Delta t')\ ,\ {} \Delta t=\gamma \ \left(\Delta t'+v\ \Delta x'/c^{2}\right)\ $}@}.
+- <a id="math 3"></a> __Eq. 3:__    {@{$\Delta x'=\gamma \ (\Delta x-v\,\Delta t)\ ,\ \ {}$ $\Delta t'=\gamma \ \left(\Delta t-v\ \Delta x/c^{2}\right)\ $}@}.
+- <a id="math 4"></a> __Eq. 4:__    {@{$\Delta x=\gamma \ (\Delta x'+v\,\Delta t')\ ,\ {}$ $\Delta t=\gamma \ \left(\Delta t'+v\ \Delta x'/c^{2}\right)\ $}@}.
 
 If we take differentials instead of taking differences, we get
 
-- <a id="math 5"></a> __Eq. 5:__    {@{$dx'=\gamma \ (dx-v\,dt)\ ,\ \ {} dt'=\gamma \ \left(dt-v\ dx/c^{2}\right)\ $}@}.
-- <a id="math 6"></a> __Eq. 6:__    {@{$dx=\gamma \ (dx'+v\,dt')\ ,\ {} dt=\gamma \ \left(dt'+v\ dx'/c^{2}\right)\ $}@}.
+- <a id="math 5"></a> __Eq. 5:__    {@{$dx'=\gamma \ (dx-v\,dt)\ ,\ \ {}$ $dt'=\gamma \ \left(dt-v\ dx/c^{2}\right)\ $}@}.
+- <a id="math 6"></a> __Eq. 6:__    {@{$dx=\gamma \ (dx'+v\,dt')\ ,\ {}$ $dt=\gamma \ \left(dt'+v\ dx'/c^{2}\right)\ $}@}.
 
 ### graphical representation of the Lorentz transformation
 

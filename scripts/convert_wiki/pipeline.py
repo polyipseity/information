@@ -838,8 +838,8 @@ def _preprocess_html(soup: BeautifulSoup | Tag) -> None:
     # 3. Merge adjacent numblk tables into one multi-row table.
     _merge_adjacent_numblk_tables(soup)
 
-    # 4. Merge consecutive inline math spans in <dd>/<dt>/<p>/<li> elements.
-    for dd in soup.find_all(["dd", "dt", "p", "li"]):
+    # 4. Merge consecutive inline math spans in <dd>/<dt> elements.
+    for dd in soup.find_all(["dd", "dt"]):
         _merge_adjacent_math_dd(dd)
 
     # 5. Normalize external math punctuation: absorb trailing
