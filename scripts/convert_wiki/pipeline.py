@@ -799,6 +799,7 @@ def _merge_dl_after_thumb_into_list(soup: BeautifulSoup | Tag) -> None:
 
 
 # Block-level tags that prevent a <div> from being "inline-only".
+"""Block-level HTML tags that prevent a <div> from being inline-only."""
 _BLOCK_TAGS = frozenset(
     {"p", "ul", "ol", "dl", "table", "blockquote", "pre", "hr"}
     | {f"h{i}" for i in range(1, 7)}

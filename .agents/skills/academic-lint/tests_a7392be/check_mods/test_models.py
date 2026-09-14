@@ -23,6 +23,7 @@ __all__ = ()
 # ``StrList`` validates through a custom pydantic core schema rather than by
 # inheriting ``BaseModel``, so it must be asserted as the model bound that the
 # YAML helper requires.
+"""Type alias for StrList cast to BaseModel for YAML parse testing."""
 _StrListModel = cast("type[BaseModel]", StrList)
 
 
