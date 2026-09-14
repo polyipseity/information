@@ -33,6 +33,7 @@ Flashcards for this section are as follows:
 - How is convolution derived from decomposing a signal into shifted impulses? ::@:: By decomposing the input into shifted impulses, transferring each through the system, and summing the shifted impulse responses.
 - What does a 2D convolution kernel do when it slides across an image patch? ::@:: It weights nearby values and forms each output as a weighted local sum.
 - What are the mechanical steps of 2D convolution? ::@:: Flip the kernel, shift it to the output location, multiply pointwise over the overlap, and sum.
+- How does 2D convolution generalize the 1D slide-weight-sum procedure from time signals to images? ::@:: It is the same convolution logic generalized from one time axis to two spatial coordinates: slide the kernel, weight nearby values, and sum the local contributions.
 
 ## impulse-decomposition viewpoint
 
@@ -45,6 +46,8 @@ This viewpoint explains why convolution is natural for LTI systems. Once a signa
 Flashcards for this section are as follows:
 
 - What identity writes a signal as an integral of weighted shifted impulses? ::@:: $e(t)=\int_{-\infty}^{\infty} e(\tau)\,\delta(t-\tau)\,d\tau$.
+- What does $e(\tau)$ represent as the weight of the source-time impulse in the decomposition integral? ::@:: It is the weight assigned to the impulse located at source time $\tau$.
+- What does $\delta(t-\tau)$ represent in the impulse decomposition integral? ::@:: It represents a unit impulse placed at source time $\tau$ and observed at time $t$.
 - Why does decomposing an input into shifted impulses make LTI zero-state analysis straightforward? ::@:: Time invariance tells us how each shifted impulse is transferred, and linearity lets us sum all the partial outputs.
 
 ## zero-state response via convolution
@@ -67,6 +70,7 @@ Flashcards for this section are as follows:
 - If the impulse at time $\tau$ has weight $e(\tau)\,d\tau$, what output contribution does linearity predict? ::@:: The contribution is $e(\tau)h(t-\tau)\,d\tau$.
 - What is the continuous-time convolution integral for zero-state response? ::@:: $r_{\mathrm{zs}}(t)=\int_{-\infty}^{\infty} e(\tau)h(t-\tau)\,d\tau=(e*h)(t)$.
 - How is the convolution integral derived from the operator viewpoint? ::@:: Write $e(t)=\int e(\tau)\delta(t-\tau)\,d\tau$, apply $H$, and use linearity plus time invariance to get $H[e](t)=\int e(\tau)h(t-\tau)\,d\tau$.
+- Why is convolution the natural tool for zero-state response of an LTI system? ::@:: Because it is the formal sum of all shifted-impulse responses produced by decomposing the input into weighted impulses.
 - What do the two factors in the integrand $e(\tau)h(t-\tau)$ mean? ::@:: $e(\tau)$ gives the input weight from source time $\tau$, while $h(t-\tau)$ gives how the system carries that impulse to observation time $t$.
 
 ## physical interpretation of convolution
@@ -88,6 +92,8 @@ Flashcards for this section are as follows:
 - In the convolution integral, what does $\tau$ represent? ::@:: The source time at which a piece of input occurs.
 - In the convolution integral, what does $t$ represent? ::@:: The observation time at which the output is evaluated.
 - In the convolution integral, what does $h(t-\tau)$ represent physically? ::@:: The response visible at observation time $t$ due to a unit impulse applied at source time $\tau$.
+- Why does convolution mix source time $\tau$ and observation time $t$? ::@:: Because it tracks how each earlier input event contributes later when the output is observed at time $t$.
+- Why is convolution more than just multiplication inside an integral? ::@:: Because it represents accumulation of delayed system memories, not merely local pointwise interaction.
 - What is the overlapping impulse-response copies intuition for convolution? ::@:: Each input slice launches a shifted copy of the impulse response, and the output at time $t$ is the total overlap of all those weighted copies at that instant.
 
 ## algebraic properties and system interconnections
@@ -116,6 +122,7 @@ Flashcards for this section are as follows:
 - How does distributivity model parallel LTI systems? ::@:: Feeding the same input into both subsystems and adding outputs gives overall impulse response $h=h_1+h_2$.
 - What is the associative property? ::@:: $(f*h_1)*h_2=f*(h_1*h_2)$.
 - How does associativity model cascade connection? ::@:: The input passes through subsystems with impulse responses $h_1$ and $h_2$, giving overall $h=h_1*h_2$.
+- How does convolution commutativity let you swap the roles of input and impulse response in response analysis? ::@:: It means one may view the input as being spread by the impulse response or the impulse response as being weighted by the input, and the same output results.
 - Which block-diagram operation corresponds to adding impulse responses, and which to convolving them? ::@:: Parallel connection adds impulse responses; cascade connection convolves them.
 
 ## time shift and special kernels
@@ -145,6 +152,7 @@ Flashcards for this section are as follows:
 - Why is treating a delay as a shifted impulse useful in convolution? ::@:: It lets delay be handled as an ordinary convolution factor, so the same swap and regroup logic applies.
 - Why does $\delta(t)$ model an ideal conductor and $\delta(t-t_0)$ model an ideal delay line? ::@:: Convolving with $\delta(t)$ leaves the signal unchanged, which is exactly what a through-connection does; convolving with $\delta(t-t_0)$ reproduce the same waveform later in time without changing its shape, which is exactly what a pure delay does.
 - What delay identity does convolution satisfy? ::@:: If $g(t)=f_1(t)*f_2(t)$, then delaying either factor by $t_0$ delays the output: $f_1(t-t_0)*f_2(t)=g(t-t_0)$ and $f_1(t)*f_2(t-t_0)=g(t-t_0)$.
+- Why does delaying one convolution factor simply delay the output of an LTI system? ::@:: Because delaying the excitation before the system should simply delay the response, and convolution preserves exactly that behaviour.
 - How does the overlap picture explain why a delayed factor shifts the convolution output? ::@:: A pure delay slides one factor horizontally without changing its shape, so the overlap picture at time $t$ is the old overlap picture at time $t-t_0$; the output graph shifts rigidly by the same amount.
 - How does writing a delay as convolution with $\delta(t-t_0)$ prove the time-shift property? ::@:: Since $f(t-t_0)=f*\delta(t-t_0)$, associativity gives $(f_1*\delta(t-t_0))*f_2=(f_1*f_2)*\delta(t-t_0)=g(t-t_0)$.
 - What does convolution with $\delta(t)$ do? ::@:: It leaves the signal unchanged: $f(t)*\delta(t)=f(t)$.
