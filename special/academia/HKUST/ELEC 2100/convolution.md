@@ -143,14 +143,17 @@ The three special kernels: $\delta$ gives identity, $\delta'$ gives differentiat
 Flashcards for this section are as follows:
 
 - Why is treating a delay as a shifted impulse useful in convolution? ::@:: It lets delay be handled as an ordinary convolution factor, so the same swap and regroup logic applies.
+- Why does $\delta(t)$ model an ideal conductor and $\delta(t-t_0)$ model an ideal delay line? ::@:: Convolving with $\delta(t)$ leaves the signal unchanged, which is exactly what a through-connection does; convolving with $\delta(t-t_0)$ reproduce the same waveform later in time without changing its shape, which is exactly what a pure delay does.
 - What delay identity does convolution satisfy? ::@:: If $g(t)=f_1(t)*f_2(t)$, then delaying either factor by $t_0$ delays the output: $f_1(t-t_0)*f_2(t)=g(t-t_0)$ and $f_1(t)*f_2(t-t_0)=g(t-t_0)$.
 - How does the overlap picture explain why a delayed factor shifts the convolution output? ::@:: A pure delay slides one factor horizontally without changing its shape, so the overlap picture at time $t$ is the old overlap picture at time $t-t_0$; the output graph shifts rigidly by the same amount.
 - How does writing a delay as convolution with $\delta(t-t_0)$ prove the time-shift property? ::@:: Since $f(t-t_0)=f*\delta(t-t_0)$, associativity gives $(f_1*\delta(t-t_0))*f_2=(f_1*f_2)*\delta(t-t_0)=g(t-t_0)$.
 - What does convolution with $\delta(t)$ do? ::@:: It leaves the signal unchanged: $f(t)*\delta(t)=f(t)$.
 - What does convolution with $\delta(t-t_0)$ do? ::@:: It delays the signal by $t_0$: $f(t-t_0)$.
+- How does the integral produce $f(t-t_0)$ when the kernel is $\delta(t-t_0)$? ::@:: The impulse samples the input at $\tau=t-t_0$, so $(f*\delta(t-t_0))(t)=\int f(\tau)\delta(t-\tau-t_0)\,d\tau=f(t-t_0)$.
 - Why does $\delta(t-t_1)*\delta(t-t_2)=\delta(t-(t_1+t_2))$ mean pure delays add? ::@:: Because delaying by $t_1$ then $t_2$ gives total delay $t_1+t_2$.
 - What is the result of convolving with $\delta'(t)$? ::@:: It differentiates: $f(t)*\delta'(t)=f'(t)$.
-- What is the result of convolving with $u(t)$? ::@:: It accumulates: $f(t)*u(t)=\int_{-\infty}^{t} f(\lambda)\,d\lambda$.
+- How does the accumulation identity $f(t)*u(t)=\int_{-\infty}^{t}f(\lambda)\,d\lambda$ derive from the support of $u(t-\tau)$? ::@:: Since $u(t-\tau)=1$ only when $\tau\le t$, the convolution integral reduces from $\int_{-\infty}^{\infty}f(\tau)u(t-\tau)\,d\tau$ to $\int_{-\infty}^{t}f(\tau)\,d\tau$.
+- Why does $f*\delta^{(k)}=f^{(k)}$ mean $\delta^{(k)}$ acts like a differentiation kernel? ::@:: Because convolving with $\delta^{(k)}$ applies a $k$th derivative to the signal, so inserting $\delta^{(k)}$ into a convolution is the same as differentiating $k$ times.
 
 ## differentiation and integration properties
 
@@ -169,11 +172,14 @@ The main intuition: convolution is built from shifting, weighting, and adding, w
 Flashcards for this section are as follows:
 
 - What derivative-transfer rule does convolution satisfy? ::@:: $g'(t)=f'(t)*h(t)=f(t)*h'(t)$.
+- Which basic kernel types keep reappearing in the note? ::@:: The unit impulse (identity), the shifted impulse (delay), the impulse derivative (differentiation), and the unit step (integration).
 - How do you derive $g'=f*h'$? ::@:: Differentiate under the integral: $g'(t)=\frac{d}{dt}\int f(\tau)h(t-\tau)\,d\tau=\int f(\tau)h'(t-\tau)\,d\tau=(f*h')(t)$.
 - What is the $k$th-order derivative-transfer rule? ::@:: $g^{(k)}(t)=f^{(k)}(t)*h(t)=f(t)*h^{(k)}(t)$.
 - Why does $f*\delta^{(k)}=f^{(k)}$? ::@:: Because $\delta^{(k)}$ acts as a differentiation kernel inside convolution.
 - How can integration be viewed as convolving with an antiderivative? ::@:: Integrating the output equals convolving one factor with the integrated form of the other: $\int_{-\infty}^{t} g(\lambda)\,d\lambda = F*h = f*H$.
 - Why do differentiation and integration commute with convolution? ::@:: Because convolution is built from shifting, weighting, and addition, and differentiation and integration commute with those constructions.
+- Why is it useful to move the derivative onto whichever factor is simpler? ::@:: Because it avoids differentiating the full convolution integral; you can differentiate the simpler factor instead.
+- How can $f*h$ be rewritten using antiderivatives? ::@:: When zero-state antiderivatives exist, $f*h=f^{(-1)}*h'=f'*h^{(-1)}$, letting you move derivatives between factors.
 
 ## impulse-pair shortcut for a gate kernel
 

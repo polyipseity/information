@@ -43,6 +43,8 @@ A multiplier translates spectra, a BPF picks one channel, and an LPF recovers ba
 
 Flashcards for this section are as follows:
 
+- Why does modulation not change information content? ::@:: Its purpose is spectral relocation for transmission, not message alteration.
+- What blocks appear in a practical mod/demod chain? ::@:: Transmitter: local oscillator, mixer, filters, amplifier. Receiver: BPF, mixer, local oscillator, LPF, gain/decision stage.
 - What is the baseband signal? ::@:: The original information-bearing waveform before carrier translation.
 - What is the carrier? ::@:: A higher-frequency reference, typically $\cos(\omega_0 t)$, that moves the baseband spectrum to a new band.
 - Why are BPF and LPF already needed before seeing formulas? ::@:: Because modulation is spectrum placement and selection, so channel and recovery filters are inherent to the idea.
@@ -61,6 +63,7 @@ Flashcards for this section are as follows:
 
 - Why is modulation needed? ::@:: The channel may not support the baseband spectrum, and multiple users must share the medium without interference.
 - What are the three reasons for modulation? ::@:: Adapt the signal to the channel, separate users spectrally, and make receiver-side recovery practical.
+- Why do closely packed channels increase filtering importance? ::@:: Poor filtering causes one channel's energy to spill into a neighboring channel's band.
 
 ## common modulation methods: ASK, FSK, and PSK
 
@@ -80,6 +83,9 @@ Flashcards for this section are as follows:
 
 - What are ASK, FSK, and PSK? ::@:: ASK: $s_i=A_i\cos(\omega_c t)$, information in amplitude. FSK: $s_i=A\cos(\omega_i t)$, information in frequency. PSK: $s_i=A\cos(\omega_c t+\phi_i)$, information in phase.
 - How does analog AM differ from ASK? ::@:: AM varies amplitude continuously; ASK uses discrete levels chosen by symbols.
+- What does ASK transmit physically? ::@:: Carrier with same frequency/phase but varying amplitude. Envelope height carries information.
+- What does FSK transmit physically? ::@:: Carrier with same amplitude but varying frequency. Zero-crossing spacing carries information.
+- What does PSK transmit physically? ::@:: Carrier with same amplitude/frequency but varying phase. Phase offsets or flips carry information.
 
 ## trigonometric identities behind modulation
 
@@ -100,6 +106,7 @@ Flashcards for this section are as follows:
 - What are the key Euler formulas? ::@:: $\cos a=\frac12(e^{ja}+e^{-ja})$ and $\sin a=\frac{1}{2j}(e^{ja}-e^{-ja})$.
 - What identities does sinusoid multiplication produce? ::@:: $\cos a\cos b=\frac12[\cos(a+b)+\cos(a-b)]$ and $\sin a\cos b=\frac12[\sin(a+b)+\sin(a-b)]$.
 - Why does $\cos^2 a=\frac12[1+\cos(2a)]$? ::@:: Set $b=a$ in the cosine product identity.
+- Why do modulation identities create sum and difference frequencies? ::@:: Exponentials add exponents when multiplied, so one product generates an inner difference-frequency and outer sum-frequency term.
 
 ## suppressed-carrier amplitude modulation
 
@@ -118,6 +125,7 @@ Flashcards for this section are as follows:
 - What is AM-SC? ::@:: $f(t)=g(t)\cos(\omega_0 t)$. The baseband spectrum copies to $\pm\omega_0$, each scaled by $\frac12$.
 - What does a single-tone AM-SC signal look like? ::@:: Two sidebands: $\frac{A}{2}\cos((\omega_0+\omega_m)t)+\frac{A}{2}\cos((\omega_0-\omega_m)t)$, each at amplitude $A/2$.
 - Why is each sideband scaled by $\frac12$? ::@:: Because $\cos(\omega_0 t)=\frac12 e^{j\omega_0 t}+\frac12 e^{-j\omega_0 t}$ splits the message into two half-weight copies.
+- How do transmitters compensate for the $\frac12$ scaling? ::@:: Gain stages, active mixers with conversion gain, or larger local-oscillator amplitude restore the desired passband level.
 
 ## coherent demodulation and low-pass recovery
 
@@ -144,6 +152,7 @@ Flashcards for this section are as follows:
 - What is the recovery condition? ::@:: $\omega_0>\omega_m$ and LPF cutoff $\omega_m<\omega_c<2\omega_0-\omega_m$.
 - What does "coherent" mean here? ::@:: The receiver carrier must match the transmitter carrier in frequency and phase.
 - Worked example: $g(t)=\cos(200t)$, carrier $\cos(1000t)$, what LPF cutoff works? ::@:: Any $200<\omega_c<1800$ passes the message and rejects the nearest images at $\pm 1800$, $\pm 2200$.
+- What is the spectrum trace result? ::@:: $F_E(\omega)=\frac12 F(\omega)$, so $y(t)=\frac12 f(t)$. Gain-$2$ restores $y(t)=f(t)$.
 
 ## multiplexing and channel filters
 
@@ -167,6 +176,9 @@ Flashcards for this section are as follows:
 - How is one FDM channel recovered? ::@:: BPF centered at $\omega_k$, multiply by $\cos(\omega_k t)$, LPF to baseband.
 - What is TDM? ::@:: Users occupy different time slots of a repeating frame. A clocked switch interleaves at the transmitter; synchronized switching separates at the receiver.
 - FDM vs. TDM? ::@:: FDM separates by frequency (BPFs, carrier placement). TDM separates by timing (synchronization, reconstruction filters).
+- What is the ideal BPF formula for a channel at $\omega_0$ with half-bandwidth $\omega_c$? ::@:: $H_{\mathrm{BP}}(\omega)=1$ for $\omega_0-\omega_c<|\omega|<\omega_0+\omega_c$, impulse response $h_{\mathrm{BP}}(t)=\frac{\sin((\omega_0+\omega_c)t)-\sin((\omega_0-\omega_c)t)}{\pi t}$.
+- How do you draw an FDM transmitter? ::@:: One message path per channel, each with its own modulator and local oscillator, then a BPF, then an adder combining all outputs.
+- How do you draw FDM demultiplexing? ::@:: Composite signal → BPF isolating one channel → product detector with matching carrier → LPF → recovered message.
 
 ## other multiplexing methods
 

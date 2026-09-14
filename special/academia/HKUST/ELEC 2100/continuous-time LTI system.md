@@ -118,9 +118,15 @@ Flashcards for this section are as follows:
 
 - What are the two main complete-response decompositions? ::@:: $r(t)=r_h(t)+r_p(t)$ (classical ODE method) or $r(t)=r_{\mathrm{zi}}(t)+r_{\mathrm{zs}}(t)$ (source-based engineering split).
 - How are zero-input, zero-state, natural, and forced responses mapped to ODE pieces? ::@:: Zero-input: homogeneous ODE with actual initial conditions. Zero-state: full forced ODE with zero initial conditions. Natural: homogeneous-solution terms. Forced: particular solution.
+- How is zero-input response mapped to ODE pieces? ::@:: Solve the homogeneous ODE with the actual initial conditions and input set to zero. Always a homogeneous-solution object.
+- How is zero-state response mapped to ODE pieces? ::@:: Solve the full forced ODE with zero initial conditions. Response caused only by the external excitation.
+- How are natural and forced responses mapped to ODE pieces? ::@:: Natural response is built from homogeneous-solution terms (the system's natural modes). Forced response is represented by a particular solution tied to the forcing pattern.
 - Why is zero-state response generally not equal to $r_p$? ::@:: A particular solution usually does not satisfy zero initial conditions, so a homogeneous correction is often needed.
 - What is the correction formula for zero-state response? ::@:: $r_{\mathrm{zs}}(t)=r_p(t)+r_{h,\mathrm{corr}}(t)$, where $r_{h,\mathrm{corr}}$ enforces $r_{\mathrm{zs}}(0^-)=r'_{\mathrm{zs}}(0^-)=\cdots=r^{(n-1)}_{\mathrm{zs}}(0^-)=0$.
+- What initial-condition equations must the homogeneous correction satisfy? ::@:: $r_{\mathrm{zs}}(0^-)=r'_{\mathrm{zs}}(0^-)=\cdots=r^{(n-1)}_{\mathrm{zs}}(0^-)=0$.
 - Why are $r=r_h+r_p$ and $r=r_{\mathrm{zi}}+r_{\mathrm{zs}}$ not contradictory? ::@:: They answer different questions: mathematical ODE-solving vs physical source-based split.
+- How do transient and steady-state relate to ODE pieces when the system is stable? ::@:: The transient is often made of homogeneous-mode terms that die out; the steady-state is often the long-time part of $r_p$. But this is asymptotic, not an identity at every time.
+- What is the motivation for keeping all these labels? ::@:: They answer different questions: how to solve the ODE, what caused the response, what modal content is present, and what dies out vs persists.
 
 ## zero-input and zero-state solution logic
 
@@ -142,6 +148,8 @@ Flashcards for this section are as follows:
 - What is the role of the homogeneous correction in zero-state response? ::@:: It ensures $r_p+r_{h,\mathrm{corr}}$ satisfies the required zero initial conditions.
 - What is the physical motivation for zero-input response? ::@:: It shows the motion produced only by stored energy, with no external forcing.
 - What is the physical motivation for zero-state response? ::@:: It isolates the response caused only by the external excitation under zero stored energy.
+- Why does the lecture emphasize zero-state response for engineering systems? ::@:: In many systems engineers care about how external signals are processed, not stored energy.
+- Why does convolution become the practical tool for zero-state response? ::@:: It computes the zero-state output directly from the input and impulse response without solving the full differential equation each time.
 
 ## state continuity and jump discontinuities
 

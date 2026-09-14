@@ -61,6 +61,8 @@ Flashcards for this section are as follows:
 - What is the system function under zero-state conditions? ::@:: $H(s)=\frac{R(s)}{E(s)}=\mathcal{L}\{h(t)\}$, where $E(s)$ is the input transform, $R(s)$ is the zero-state output transform, and $h(t)$ is the impulse response.
 - What are the two equivalent readings of $H(s)$? ::@:: The zero-state input-output ratio in the Laplace domain, and the Laplace transform of the impulse response.
 - How do driving-point and transfer functions differ? ::@:: Driving-point uses same port for excitation and response; transfer uses different ports.
+- For a single-port network, what are the two standard driving-point functions? ::@:: Driving-point impedance $\frac{V_1(s)}{I_1(s)}$ and driving-point admittance $\frac{I_1(s)}{V_1(s)}$.
+- For a two-port network, what are the four standard transfer-function types? ::@:: Transfer impedance $\frac{V_2(s)}{I_1(s)}$, transfer admittance $\frac{I_2(s)}{V_1(s)}$, voltage transfer ratio $\frac{V_2(s)}{V_1(s)}$, and current transfer ratio $\frac{I_2(s)}{I_1(s)}$.
 - In a series resistor divider with input $V(s)$ and output $V_2(s)$ across $R_2$, what are the driving-point admittance and voltage transfer ratio? ::@:: $\frac{I(s)}{V(s)}=\frac{1}{R_1+R_2}$ and $\frac{V_2(s)}{V(s)}=\frac{R_2}{R_1+R_2}$.
 
 ## dynamic circuits and one-port network functions
@@ -177,6 +179,7 @@ Flashcards for this section are as follows:
 
 - In the $s$-plane, how are poles and zeros drawn? ::@:: $\times$ for poles, $\circ$ for zeros, $\Re(s)$ horizontal, $j\omega$ vertical. Multiplicity shown by order label.
 - For $H_1(s)=\frac{s+1}{(s+2)^2}$, what are the poles, zeros, and infinity behavior? ::@:: Zero at $s=-1$ (order 1), pole at $s=-2$ (order 2), one zero at infinity.
+- For $H_2(s)=\frac{(s+1)^3}{s+2}$, what are the poles, zeros, and infinity behavior? ::@:: Zero at $s=-1$ (order 3), pole at $s=-2$ (order 1), two poles at infinity.
 - How does degree counting give poles/zeros at infinity? ::@:: $\deg D>\deg N$ by $q$ $\Rightarrow$ $q$ zeros at $\infty$. $\deg N>\deg D$ by $q$ $\Rightarrow$ $q$ poles at $\infty$. Equal $\Rightarrow$ neither.
 - How many poles and zeros total? ::@:: Exactly $\max(\deg N,\deg D)$ of each, counting multiplicity and infinity.
 
@@ -213,6 +216,8 @@ Flashcards for this section are as follows:
 - What is the parallel, cascade, and feedback transfer function? ::@:: Parallel: $H=H_1+H_2$. Cascade: $H=H_1H_2$. Negative feedback: $H=\frac{H_1}{1+H_1H_2}$.
 - For one-port series and parallel, what are the equivalents? ::@:: Series: $Z_{\text{eq}}=Z_1+Z_2$. Parallel: $Y_{\text{eq}}=Y_1+Y_2$.
 - What changes between negative and positive feedback? ::@:: The denominator sign: $1+H_1H_2$ for negative, $1-H_1H_2$ for positive.
+- Derive the negative-feedback closed-loop transfer function. ::@:: With $X_1=E-X_2$, $R=H_1X_1$, $X_2=H_2R$: substitute to get $R=H_1(E-H_2R)$, so $R[1+H_1H_2]=H_1E$, giving $H=\frac{H_1}{1+H_1H_2}$.
+- Why is the feedback formula important? ::@:: It turns a closed-loop block diagram into one algebraic transfer function whose poles can be studied for stability and response.
 
 ## stability of continuous-time systems
 
@@ -250,3 +255,5 @@ Flashcards for this section are as follows:
 - Why is $\frac{1}{(s+\alpha)^2}$ stable but $\frac{1}{s^2}$ unstable? ::@:: LHP: exponential dominates polynomial, $te^{-\alpha t}$ decays. Imaginary axis: no decay, $tu(t)$ grows.
 - Stable, unstable, and marginally stable classification? ::@:: Stable: all poles in LHP. Unstable: RHP pole or repeated imaginary-axis pole. Marginally stable: only simple imaginary-axis poles.
 - If $G(s)=\frac{1}{(s-1)(s+2)}$ in negative feedback with gain $k$, what is $H(s)$ and the stability condition? ::@:: $H(s)=\frac{1}{s^2+s+k-2}$, stable when $k>2$.
+- Why must nonzero initial conditions be excluded when defining $H(s)$? ::@:: $H(s)$ is defined from the zero-state input-output law of the system; initial conditions belong to the particular total response, not to the intrinsic system description.
+- Why must $H(s)$ be in reduced form before pole-zero classification? ::@:: Pole and zero classification is defined only after removable common factors are cancelled; otherwise a cancelled factor would be mistaken for a true pole or zero.

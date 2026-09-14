@@ -100,6 +100,7 @@ Worked examples: $x(t)=1$ for $0\le t\le 2$, zero otherwise: $E=2$, $P=0$ (energ
 
 Flashcards for this section are as follows:
 
+- Is there a highest distinct continuous-time fundamental frequency? ::@:: No. Continuous-time frequencies are not identified modulo $2\pi$, so there is no aliasing-based maximum distinct fundamental frequency.
 - When is a continuous-time signal periodic? ::@:: When there exists $T>0$ such that $x(t+T)=x(t)$ for all $t$. The smallest such $T$ is the fundamental period.
 - Given fundamental period $T_0$, what are the fundamental frequencies? ::@:: $\omega_0=2\pi/T_0$ (angular) and $f_0=1/T_0$ (ordinary).
 - Given $A\cos(\omega t+\phi)$ with $\omega\neq 0$, what is its period? ::@:: $T=2\pi/|\omega|$.
@@ -108,6 +109,7 @@ Flashcards for this section are as follows:
 - What is the difference between a period and the fundamental period? ::@:: A period is any positive shift that reproduces the signal; the fundamental period is the smallest such shift.
 - Worked example: What is the fundamental period of $\cos\!\bigl((2\pi/4)t\bigr)+\sin\!\bigl((2\pi/3)t\bigr)$? ::@:: Component periods are $4$ and $3$, so the fundamental period is $12$.
 - Why is $\cos\!\bigl((2\pi/4)t\bigr)+\sin\!\bigl((2/3)t\bigr)$ aperiodic? ::@:: Component periods are $4$ and $3\pi$; $4/(3\pi)$ is irrational, so no finite common period exists.
+- Why is a triangular wave still a periodic signal even though it is not sinusoidal? ::@:: Because its full piecewise-linear shape repeats after a fixed interval, so periodicity is about exact repetition of the waveform, not about being sinusoidal.
 - What is the energy formula? ::@:: $E=\int_{-\infty}^{\infty}|x(t)|^2\,dt$.
 - What is the average-power formula? ::@:: $P=\lim_{T\to\infty}\frac{1}{2T}\int_{-T}^{T}|x(t)|^2\,dt$.
 - What is the difference between energy and power? ::@:: Energy is total squared magnitude over all time; power is the long-term average rate.
@@ -140,10 +142,15 @@ Flashcards for this section are as follows:
 - Given $x(t)=Ae^{\alpha t}$, how does $\alpha$ affect behavior? ::@:: $\alpha<0$: decay; $\alpha>0$: growth; $\alpha=0$: constant.
 - In $Ke^{-t/\tau}u(t)$, what does $\tau$ control? ::@:: The decay rate; $x(\tau)=K/e$.
 - What characterizes a sinusoid $A\sin(\omega t+\theta)$? ::@:: Amplitude, angular frequency, and initial phase.
+- Given a sinusoid with angular frequency $\omega>0$, how are its ordinary frequency and period related to $\omega$? ::@:: They satisfy $f=\omega/(2\pi)$ and $T=2\pi/\omega$.
+- What does a damped sinusoid combine? ::@:: It combines oscillation with exponential decay, so its envelope shrinks while it continues to oscillate.
+- What are standard physical examples of damped sinusoidal signals? ::@:: A mass-spring-damper response and an electromagnetic wave attenuating in a conductor are standard examples, because both keep oscillating while their envelopes decay.
 - What do $\sigma$ and $\omega$ control in $Ke^{(\sigma+j\omega)t}$? ::@:: $\sigma$: growth/decay rate; $\omega$: oscillation frequency.
 - How is the sampling signal defined? ::@:: $\operatorname{Sa}(t)=\sin t/t$ for $t\neq 0$, with $\operatorname{Sa}(0)=1$.
 - What is the normalized sinc function? ::@:: $\operatorname{sinc}(t)=\sin(\pi t)/(\pi t)$.
 - How are $\operatorname{Sa}(t)$ and $\operatorname{sinc}(t)$ related? ::@:: $\operatorname{Sa}(t)=\operatorname{sinc}(t/\pi)$ and $\operatorname{sinc}(t)=\operatorname{Sa}(\pi t)$.
+- Why can the sampling signal be assigned the finite value $\operatorname{Sa}(0)=1$ at the origin? ::@:: Because $\lim_{t\to0}\sin t/t=1$, so the apparent $0/0$ form is a removable singularity rather than a real divergence.
+- Why is the sampling signal a natural interpolation kernel? ::@:: Its shifted copies can be large at one sampling location while vanishing at neighboring ideal zero locations.
 - What does $E\exp(-(t/\tau)^2)$ look like? ::@:: A smooth localized pulse, peak $E$ at $t=0$, width set by $\tau$.
 - Worked example: For $x(t)=e^{(-2+j3)t}$, what are the envelope and oscillation? ::@:: Envelope decays like $e^{-2t}$; oscillation frequency is $\omega=3$ rad/s.
 
@@ -174,6 +181,7 @@ Flashcards for this section are as follows:
 - Worked example: How should $x(-2t+4)$ be interpreted? ::@:: $-2t+4=-2(t-2)$: reverse and compress by $2$, shift right by $2$.
 - Worked example: If $x(t)$ has support $[0,3]$, what is the support of $x(-2t+2)$? ::@:: $0\le -2t+2\le 3$ gives $-1/2\le t\le 1$.
 - What is the difference between $x(t)+2$ and $x(t+2)$? ::@:: $x(t)+2$ shifts up; $x(t+2)$ shifts left.
+- What do differentiation and integration do to a signal conceptually? ::@:: Differentiation emphasizes rapid change, whereas integration accumulates area over time.
 
 ## complex numbers and orthogonal decompositions
 
@@ -198,17 +206,26 @@ Worked examples: $x(t)=1+\sin t$: DC part $1$, AC part $\sin t$, average power $
 Flashcards for this section are as follows:
 
 - What is $\operatorname{atan2}(y,x)$? ::@:: It returns the principal argument of $x+jy$, usually in $(-\pi,\pi]$. Use it instead of $\arctan(y/x)$ because it preserves quadrant and handles $x=0$.
+- What does $\operatorname{atan2}(y,x)$ do that $\arctan(y/x)$ cannot do reliably? ::@:: It uses the signs of both $x$ and $y$ to select the correct quadrant and still works when $x=0$, whereas $\arctan(y/x)$ only sees a ratio and loses quadrant information.
+- How is $\operatorname{atan2}$ interpreted geometrically in complex-number language? ::@:: It is the directed angle from the positive real axis to the vector ending at $(x,y)$, i.e., the phase of $x+jy$.
 - What is the robust Fourier phase formula? ::@:: $\phi(\omega)=\operatorname{atan2}(\Im\{F(\omega)\},\Re\{F(\omega)\})$.
 - What are the rectangular and polar forms of a complex number? ::@:: $z=x+jy$ (rectangular) or $z=re^{j\theta}$ (polar), with $r=|z|$, $\theta=\arg z$.
 - What is Euler's relation? ::@:: $e^{j\theta}=\cos\theta+j\sin\theta$.
+- What is the relationship between the vector dot product and a signal inner product? ::@:: The dot product is the finite-dimensional vector measure of alignment, while the inner product is its signal-space generalization, usually built from an integral or a sum.
+- What does orthogonality mean in signal language? ::@:: It means the relevant inner product of the two signals is zero, just as perpendicular vectors have zero dot product.
 - How can $\cos(\omega t)$ and $\sin(\omega t)$ be written with complex exponentials? ::@:: $\cos(\omega t)=\frac{e^{j\omega t}+e^{-j\omega t}}{2}$, $\sin(\omega t)=\frac{e^{j\omega t}-e^{-j\omega t}}{2j}$.
 - What is orthogonality in signal language? ::@:: The inner product of two signals is zero, like perpendicular vectors having zero dot product.
 - How can a periodic signal be split into DC and AC? ::@:: $x(t)=x_{\mathrm{DC}}+x_{\mathrm{AC}}(t)$, where $x_{\mathrm{DC}}$ is the period average and $x_{\mathrm{AC}}$ has zero mean. Power splits additively.
+- For a periodic signal, how is the DC component obtained? ::@:: It is the average of the signal over one period.
+- Why does the DC-AC cross term vanish in the power split? ::@:: The AC component has zero average over one period, so the mixed term integrates to zero.
 - What are the even and odd parts? ::@:: $x_e(t)=\frac{x(t)+x(-t)}{2}$, $x_o(t)=\frac{x(t)-x(-t)}{2}$.
+- Why does the even-odd cross term vanish in the power split? ::@:: Over a symmetric interval, the product of an even function and an odd function is odd, so its integral is zero.
 - What are the real and imaginary parts? ::@:: $x_R(t)=\frac{x(t)+x^*(t)}{2}$, $x_I(t)=\frac{x(t)-x^*(t)}{2j}$.
+- Why does the power split additively into real and imaginary parts? ::@:: Because $|x(t)|^2=x_R^2(t)+x_I^2(t)$, so the real and imaginary parts contribute on orthogonal axes.
 - Worked example: For $x(t)=1+\sin t$, what is the average power? ::@:: DC part $1$, AC part $\sin t$, power $1+1/2=3/2$.
 - Worked example: For $x(t)=\cos t+j\sin t$, what is the total power? ::@:: Real-part power $1/2$, imaginary-part power $1/2$, total $1$.
 - Worked example: For $x(t)=2e^{j2\pi t}$, what are the magnitude and phase? ::@:: Magnitude $2$, phase $2\pi t$ mod $2\pi$.
+- Worked example: If $x(t)=2e^{j2\pi t}$, what changes and what stays the same in the conjugate signal $x^*(t)$? ::@:: Conjugation gives $x^*(t)=2e^{-j2\pi t}$. The magnitude stays $2$. The phase changes sign from $2\pi t$ to $-2\pi t$ modulo $2\pi$. The real part stays $2\cos(2\pi t)$, while the imaginary part flips from $2\sin(2\pi t)$ to $-2\sin(2\pi t)$.
 
 ## discrete-time sequences and periodicity
 

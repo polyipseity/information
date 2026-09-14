@@ -75,7 +75,7 @@ Flashcards for this section are as follows:
 
 ## unit sample sequence
 
-The unit sample sequence (Kronecker delta) is $\delta[n]=1$ for $n=0$ and $\delta[n]=0$ for $n\neq 0$. Unlike the continuous-time impulse, this is an ordinary sequence, not a generalized function.
+The unit sample sequence (Kronecker delta) is $\delta[n]=1$ for $n=0$ and $\delta[n]=0$ for $n\neq 0$. Unlike the continuous-time impulse, this is an ordinary sequence, not a generalized function. Its graph is a single stem of height $1$ at the origin.
 
 Shifting gives $\delta[n-j]$, placing the unit sample at index $n=j$. Scaling gives $c\,\delta[n-j]$, setting the sample value at that index to $c$. The sampling property is $f[n]\delta[n]=f[0]\delta[n]$: multiplication by $\delta[n]$ kills all indices except the origin.
 
@@ -88,7 +88,9 @@ For example, $x[-1]=-1.5$, $x[1]=1$, $x[3]=3$ (zeros elsewhere) becomes $x[n]=-1
 Flashcards for this section are as follows:
 
 - What is the unit sample sequence? ::@:: $\delta[n]=1$ at $n=0$ and $0$ elsewhere; an ordinary sequence, not a generalized function.
+- Why is the discrete-time impulse different from the continuous-time impulse? ::@:: The discrete-time impulse is an ordinary sequence (value $1$ at one index), whereas the continuous-time impulse is a generalized function defined by unit area under integration.
 - What does $\delta[n-j]$ represent? ::@:: A shifted unit sample at index $n=j$.
+- What does $c\,\delta[n-j]$ represent? ::@:: A shifted unit sample at index $n=j$ with value $c$ instead of $1$.
 - What is the sampling property? ::@:: $f[n]\delta[n]=f[0]\delta[n]$: only the value at the origin survives.
 - How can any sequence be written using unit samples? ::@:: $x[n]=\sum_{m=-\infty}^{\infty}x[m]\delta[n-m]$.
 - Worked example: How is $x[-1]=-1.5$, $x[1]=1$, $x[3]=3$ written with unit samples? ::@:: $x[n]=-1.5\delta[n+1]+\delta[n-1]+3\delta[n-3]$, one term per nonzero sample.
@@ -113,7 +115,7 @@ Flashcards for this section are as follows:
 - What is a rectangular sequence of length $N$? ::@:: $R_N[n]=1$ for $0\le n\le N-1$ and $0$ otherwise ($n=0$ included, $n=N$ excluded).
 - How is the rectangular sequence written with steps? ::@:: $R_N[n]=u[n]-u[n-N]$.
 - How is the rectangular sequence written with unit samples? ::@:: $R_N[n]=\sum_{k=0}^{N-1}\delta[n-k]$.
-- Why is the endpoint convention of $R_N[n]=u[n]-u[n-N]$ easy to misread? ::@:: The step form shows switch-on at $n=0$ and switch-off at $n=N$, so support includes $0$ through $N-1$ only.
+- What three viewpoints are useful for understanding the rectangular sequence? ::@:: The step view emphasizes switching on and off, the impulse-sum view emphasizes finite support, and the graph view emphasizes a flat run of ones over a fixed index interval.
 
 ## ramp and one-sided exponential sequences
 
@@ -171,6 +173,9 @@ Flashcards for this section are as follows:
 - What is the fundamental period when $\omega/(2\pi)=m/N_0$ (lowest terms)? ::@:: Period is $N_0$ samples; fundamental digital frequency is $2\pi/N_0$; the sinusoid is the $m$-th harmonic.
 - Why can a discrete-time sinusoid be aperiodic? ::@:: Because $\omega/(2\pi)$ is irrational, so no integer period exists.
 - Why is the written angular parameter not always the fundamental digital frequency? ::@:: Digital frequency is modulo $2\pi$; the written angle may be a higher harmonic.
+- When is a discrete-time sinusoidal sequence periodic? ::@:: Only if $\omega/(2\pi)$ is rational. If rational, some integer period exists. If irrational, no integer period can make the samples repeat exactly.
+- How should one select one full period from a finite displayed periodic sequence? ::@:: Start at the smallest valid displayed signal index and count one block of $N_0$ consecutive samples, where $N_0$ is the fundamental period.
+- What is the effect of irrationality on the periodicity of a discrete-time sinusoid? ::@:: If $\omega/(2\pi)$ is irrational, then no positive integer sample shift can make the sequence repeat exactly, so the sequence is aperiodic.
 - Worked example: $x[n]=2\cos(n/6)$ — is it periodic? ::@:: No. Periodicity requires $1/(12\pi)$ to be rational, which is false.
 - Worked example: $x[n]=2\cos(11\pi n/4)$ — what is its fundamental frequency? ::@:: Regroup as $2\pi n+3\pi n/4$; effective step is $3\pi/4$; $N=8$; fundamental digital frequency is $\pi/4$.
 - Worked example: $x[n]=\sin(0.4n)$ — periodic? ::@:: No, $0.4/(2\pi)$ is irrational.
@@ -191,13 +196,16 @@ For example, if $x[n]=\{1,2,3,4\}$ and $y[n]=\{1,1,1,0\}$, then $x[n]+y[n]=\{2,3
 
 Flashcards for this section are as follows:
 
-- What are pointwise operations? ::@:: Operations that act sample by sample: $x[n]+y[n]$, $x[n]y[n]$, or $ax[n]$.
+- What is pointwise summation of two sequences? ::@:: It forms $z[n]=x[n]+y[n]$ by adding samples at the same index.
+- What is pointwise multiplication of two sequences? ::@:: It forms $z[n]=x[n]y[n]$ by multiplying samples at the same index.
+- What is scaling of a discrete-time sequence? ::@:: It forms $z[n]=ax[n]$, multiplying every sample value by the same constant $a$.
 - Why must indices be aligned first? ::@:: Because operations combine values at the same index, not adjacent positions.
 - How does scaling differ from shifting? ::@:: Scaling changes values without moving positions; shifting moves positions without changing values.
-- What does $x[n-m]$ do ($m>0$)? ::@:: Shifts the sequence right by $m$ samples.
+- For $m>0$, what do $x[n-m]$ and $x[n+m]$ do? ::@:: $x[n-m]$ shifts right by $m$ samples; $x[n+m]$ shifts left by $m$ samples.
 - What does time reversal do? ::@:: $z[n]=x[-n]$: reflects the sequence about the origin, flipping sample order.
 - What is the difference between shifting and reversal? ::@:: Shifting preserves order; reversal flips it.
 - Worked example: If $x[n]=\{1,2,3,4\}$ and $y[n]=\{1,1,1,0\}$, what are $x+y$ and $xy$? ::@:: $x[n]+y[n]=\{2,3,4,4\}$, $x[n]y[n]=\{1,2,3,0\}$.
+- Worked example: If $x[n]=\{1,2,3,4\}$, what is $2x[n]$? ::@:: $2x[n]=\{2,4,6,8\}$.
 
 ## difference and running sum
 

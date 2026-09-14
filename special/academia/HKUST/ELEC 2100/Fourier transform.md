@@ -135,6 +135,9 @@ Flashcards for this section are as follows:
 - For $F(\omega)=E\tau\operatorname{Sa}(\omega\tau/2)$, what two fast consistency checks should you do? ::@:: Check dc value: $F(0)=E\tau$.  Check symmetry: real-even $f(t)$ means real-even $F(\omega)$.
 - For $F(\omega)=E\tau\operatorname{Sa}(\omega\tau/2)$, what are the first nonzero zeros and first-null bandwidth? ::@:: Zeros at $\omega=\pm2\pi/\tau$.  One-sided first-null bandwidth is $2\pi/\tau$.
 - For the even real rectangular pulse and transform $F(\omega)=E\tau\operatorname{Sa}(\omega\tau/2)$, how should amplitude and phase spectra be interpreted? ::@:: Amplitude is $E\tau|\operatorname{Sa}(\omega\tau/2)|$.  Phase is $0$ where $F(\omega)>0$, $\pi$ where $F(\omega)<0$, undefined at zeros.
+- For $F(\omega)=\frac{E}{\alpha+j\omega}$, what explicit real-imaginary decomposition is useful for symmetry and phase checks? ::@:: Rationalize to get $F(\omega)=\frac{E(\alpha-j\omega)}{\alpha^2+\omega^2}$. <br/> Thus $\Re\{F\}=\frac{E\alpha}{\alpha^2+\omega^2}$ (even) and $\Im\{F\}=-\frac{E\omega}{\alpha^2+\omega^2}$ (odd).
+- For the one-sided exponential magnitude $|F(\omega)|=\frac{E}{\sqrt{\alpha^2+\omega^2}}$, what three checkpoints summarize its low-pass behavior? ::@:: $|F(0)|=E/\alpha$, $|F(\alpha)|=E/(\sqrt{2}\alpha)$, and $|F(\omega)|\to0$ as $|\omega|\to\infty$. <br/> So low frequencies dominate.
+- For the one-sided exponential phase $\phi(\omega)=-\operatorname{atan2}(\omega,\alpha)$, what limiting behavior helps you sketch the phase quickly? ::@:: The phase is $0$ at $\omega=0$, tends to $-\pi/2$ as $\omega\to+\infty$, and tends to $+\pi/2$ as $\omega\to-\infty$. <br/> This sign change matches the odd imaginary part of the transform.
 - What time-width versus frequency-width rule does the rectangular-pulse transform illustrate? ::@:: A wider pulse gives a narrower main lobe, and vice versa.
 
 ### one-sided exponential signal
@@ -217,6 +220,8 @@ Across all six examples, the pattern is: direct integral when possible, regulari
 Flashcards for this section are as follows:
 
 - For the doublet $\delta'(t)$, what derivation gives its transform? ::@:: $F(\omega)=\int_{-\infty}^{\infty}\delta'(t)e^{-j\omega t}dt=-\left.\frac{d}{dt}e^{-j\omega t}\right|_{t=0}=j\omega$, so $\delta'(t)\longleftrightarrow j\omega$.
+- For $\delta'(t)\longleftrightarrow j\omega$, what symmetry pattern should appear and why is it a useful error check? ::@:: Since $\delta'(t)$ is real and odd, $F(\omega)$ should be purely imaginary and odd.  A non-odd real part signals an algebra error.
+- For the doublet impulse transform $j\omega$, what amplitude and phase picture should you remember? ::@:: Magnitude $\propto|\omega|$ (higher frequencies emphasized).  Phase: $+\pi/2$ for $\omega>0$, $-\pi/2$ for $\omega<0$.
 - For $\delta'(t)\longleftrightarrow j\omega$, what symmetry pattern should appear and why is it a useful error check? ::@:: Since $\delta'(t)$ is real and odd, $F(\omega)$ should be purely imaginary and odd.  A non-odd real part signals an algebra error.
 - For the doublet impulse transform $j\omega$, what amplitude and phase picture should you remember? ::@:: Magnitude $\propto|\omega|$ (higher frequencies emphasized).  Phase: $+\pi/2$ for $\omega>0$, $-\pi/2$ for $\omega<0$.
 - Across the six examples, what template helps preserve derivations? ::@:: (1) Determine existence: direct integral if absolutely integrable; otherwise regularization or duality. (2) Execute algebra. (3) Check symmetry.  The six cases: rectangular pulse, one-sided exponential, DC, signum, impulse, doublet.

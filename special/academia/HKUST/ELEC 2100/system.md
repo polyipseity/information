@@ -164,11 +164,11 @@ Flashcards for this section are as follows:
 - What is the linear example? ::@:: $y(t)=2x(t)-x(t-1)$ with $h(t)=2\delta(t)-\delta(t-1)$; superposition holds.
 - What is the nonlinear counterexample? ::@:: $y(t)=x^2(t)$. No single first-order impulse response exists because any such representation is already linear.
 - Which examples fail superposition or homogeneity? ::@:: $y(t)=2x(t-1)+1$ fails homogeneity due to the constant offset, $y(t)=\cos(x(t))$ fails superposition due to pointwise nonlinearity, and $\max\{x[n],x[n-1]\}$ fails because maximum of sums does not equal sum of maxima.
-- Which examples are linear despite other failures? ::@:: $\tfrac12(x(t)+x(-t))$ (even-part operator) and $n\,x[2n]$ (scaled-index rule) preserve superposition.
+- Which examples are linear despite other failures? ::@:: $\tfrac12(x(t)+x(-t))$ (even-part operator) and $n\,x[2n]$ (scaled-index rule) are linear because averaging, fixed scaling, and reindexing still preserve superposition even though other system properties fail.
 
 ### time invariance
 
-A system is time invariant if its output is independent of the absolute time at which the input is applied. Equivalently, delaying the input merely delays the output by the same amount. In operator form, if $H[x(t)]=y(t)$, then time invariance requires $H[x(t-t_0)]=y(t-t_0)$. For a general linear kernel this means $h(t,\tau)=h(t-\tau)$.
+A system is time invariant if, under the same initial-condition convention, its output is independent of the absolute time at which the input is applied. Equivalently, delaying the input merely delays the output by the same amount. In operator form, if $H[x(t)]=y(t)$, then time invariance requires $H[x(t-t_0)]=y(t-t_0)$. For a general linear kernel this means $h(t,\tau)=h(t-\tau)$.
 
 A standard time-invariant example is $y(t)=x(t)-x(t-1)$. Its impulse response is $h(t)=\delta(t)-\delta(t-1)$. The system always forms the same present-minus-one-second-ago combination, no matter when the signal arrives, so shifting the input simply shifts the output.
 
@@ -183,6 +183,7 @@ The comparison examples produce contrasts. The affine-delay rule, the pointwise 
 Flashcards for this section are as follows:
 
 - What is time invariance? ::@:: If $H[x(t)]=y(t)$, then time invariance requires $H[x(t-t_0)]=y(t-t_0)$, so delaying the input merely delays the output by the same amount.
+- What is the intuition behind time invariance? ::@:: Time invariant means "same rule at every clock time"; time varying means the system itself changes while the signal is passing through it.
 - What is the kernel test for time invariance? ::@:: In a linear kernel description, time invariance means the kernel depends only on the difference $t-\tau$, so it can be written as $h(t-\tau)$.
 - What is the time-invariant example? ::@:: $y(t)=x(t)-x(t-1)$ with $h(t)=\delta(t)-\delta(t-1)$; shifting the input just shifts the output.
 - What is the time-varying counterexample? ::@:: $y(t)=\cos(\omega_0 t)x(t)$ with $h(t,\tau)=\cos(\omega_0 t)\delta(t-\tau)$; the coefficient depends on absolute time, so the shift test fails.
@@ -216,10 +217,11 @@ The comparison examples are useful here as well. The affine-delay rule, the poin
 Flashcards for this section are as follows:
 
 - What is causality? ::@:: A system is causal if the output at time $t$ depends only on input values at times $\tau\le t$ and never on future values.
+- What is the intuition behind causality? ::@:: Causal means the system can react only after information arrives; noncausal means some part of the rule reaches into the future.
 - What is the impulse-response test for causality? ::@:: In a linear kernel description, causality means $h(t,\tau)=0$ for $\tau>t$; for an LTI system this becomes $h(t)=0$ for negative time.
 - What is the causal example? ::@:: $y(t)=x(t)+x(t-2)$ with $h(t)=\delta(t)+\delta(t-2)$; uses only present and past input values.
 - What is the noncausal counterexample? ::@:: $y(t)=x(t+2)$ with $h(t)=\delta(t+2)$; negative-time support means the output depends on future input.
-- Which examples are causal? ::@:: $y(t)=2x(t-1)+1$ (affine delay), $y(t)=\cos(x(t))$ (pointwise cosine), and $\max\{x[n],x[n-1]\}$ (windowed maximum).
+- Which examples are causal? ::@:: $y(t)=2x(t-1)+1$ (affine delay), $y(t)=\cos(x(t))$ (pointwise cosine), and $\max\{x[n],x[n-1]\}$ (windowed maximum) are causal because they use only present or past samples.
 - Which examples are noncausal? ::@:: The even-part operator $\tfrac12(x(t)+x(-t))$ because $x(-t_0)$ can lie in the future, and $n\,x[2n]$ because for positive $n$ it asks for a future sample.
 
 ### boundedness (BIBO stability)
@@ -258,16 +260,18 @@ Flashcards for this section are as follows:
 
 - Why are LTI systems central in the course? ::@:: Because known responses can be transferred systematically to shifted and linearly combined inputs.
 - What is the response-transfer principle? ::@:: If an LTI system maps $x_1$ to $y_1$, then shifted and linearly combined versions of $x_1$ map to the corresponding shifted and linearly combined versions of $y_1$.
+- What broad operator behaviors make LTI systems especially tractable? ::@:: Linearity and time invariance let known responses be shifted and recombined systematically, and under zero-state assumptions they also let differentiation, integration, convolution, and transform methods interact cleanly with the system.
+- Where should the detailed worked response-transfer examples for LTIs be studied? ::@:: Use `continuous-time LTI system.md` and `convolution.md` for the detailed examples; this note keeps only the high-level transfer principle.
 
 ## representation methods for linear time-invariant systems
 
 This part asks a practical question: how does one obtain the response of a signal passing through an LTI system? Several representations are useful rather than one universal method. For continuous-time systems, one may use differential equations derived from physical laws, system functions obtained through Laplace transformation, unit impulse responses, or structural descriptions such as block diagrams. These are different views of the same underlying system.
 
-The continuous-time circuit example is an RLC network driven by an excitation $e(t)$, with the capacitor voltage $v_C(t)$ taken as the output and the inductor current $i_L(t)$ treated as an internal variable. The constitutive relations encode physical storage behavior. For the capacitor, $i_C(t)=C\frac{dv_C(t)}{dt}$ says that current is proportional to how fast the capacitor voltage changes, so a capacitor resists sudden voltage changes. For the inductor, $v_L(t)=L\frac{di_L(t)}{dt}$ says that voltage is proportional to how fast the inductor current changes, so an inductor resists sudden current changes.
+The continuous-time circuit example is an RLC network driven by an excitation $e(t)$, with the capacitor voltage $v_C(t)$ taken as the output and the inductor current $i_L(t)$ treated as an internal variable. This setup matters because it cleanly separates the quantity we want to observe from the internal quantity that we later eliminate. The constitutive relations are not just formulas to memorize; they encode physical storage behavior. For the capacitor, $i_C(t)=C\frac{dv_C(t)}{dt}$ says that current is proportional to how fast the capacitor voltage changes, so a capacitor resists sudden voltage changes. For the inductor, $v_L(t)=L\frac{di_L(t)}{dt}$ says that voltage is proportional to how fast the inductor current changes, so an inductor resists sudden current changes.
 
 Using the stated reference directions, the network equations become the KVL relation $e(t)=L\frac{di_L(t)}{dt}+v_C(t)$ and the node equation $i_L(t)=\frac{v_C(t)}{R}+C\frac{dv_C(t)}{dt}$. A two-step elimination problem organizes the derivation. First rewrite the model as two coupled first-order equations: $\frac{di_L(t)}{dt}=\frac{e(t)-v_C(t)}{L}$ and $\frac{dv_C(t)}{dt}=\frac{i_L(t)}{C}-\frac{v_C(t)}{RC}$. Then eliminate the internal current $i_L(t)$ by differentiating the second equation and substituting into the first. This yields $LC\frac{d^2v_C(t)}{dt^2}+\frac{L}{R}\frac{dv_C(t)}{dt}+v_C(t)=e(t)$, or equivalently $\frac{d^2v_C(t)}{dt^2}+\frac{1}{RC}\frac{dv_C(t)}{dt}+\frac{1}{LC}v_C(t)=\frac{1}{LC}e(t)$.
 
-The final equation is linear (no nonlinear products of state variables or inputs appear), time invariant (all coefficients are constants), and second order (the highest derivative is second order).
+The final equation should then be interpreted, not merely written down. It is linear because no nonlinear products of state variables or inputs appear. It is time invariant because all coefficients are constants. It is second order because the highest derivative is second order. This is why the example is useful pedagogically: it shows how physical laws, topology, elimination, and structural interpretation all connect.
 
 Block diagrams provide a second continuous-time representation. The main elementary blocks are adders, multipliers, scalar multipliers, differentiators, integrators, and time-delay elements. In this course, many single-input single-output operations are drawn with the same rectangular-block style and are distinguished by the label inside the block. An adder is usually drawn as a summing node such as a small circle or a block marked with $\Sigma$; incoming branches may be marked with plus or minus signs to show whether a signal is added or subtracted, and the explicit algebra is $r(t)=e_1(t)+e_2(t)$ or $r(t)=e_1(t)-e_2(t)$. A multiplier is usually drawn as a block or node marked by $\times$ or another product label, and its explicit algebra is $r(t)=e_1(t)e_2(t)$, which is why it is generally nonlinear.
 
@@ -298,6 +302,7 @@ Flashcards for this section are as follows:
 - What equation results after eliminating $i_L(t)$ from the RLC equations, and what does it tell you structurally? ::@:: $LC\frac{d^2v_C(t)}{dt^2}+\frac{L}{R}\frac{dv_C(t)}{dt}+v_C(t)=e(t)$, equivalently $\frac{d^2v_C(t)}{dt^2}+\frac{1}{RC}\frac{dv_C(t)}{dt}+\frac{1}{LC}v_C(t)=\frac{1}{LC}e(t)$; the system is linear, time invariant, and second order.
 - How are the main continuous-time block-diagram elements drawn, and what do gain block, branch coefficient, and triangle-style gain symbol mean? ::@:: An adder is a summing node or $\Sigma$ block for $r(t)=e_1(t)\pm e_2(t)$; a multiplier is a $\times$ block for $r(t)=e_1(t)e_2(t)$; a scalar multiplier is $r(t)=ae(t)$ and may be drawn as a gain block, a branch coefficient, or a triangle; a differentiator is $r(t)=\frac{d}{dt}e(t)$, an integrator is $r(t)=\int_{-\infty}^{t}e(\tau)\,d\tau$, and a delay is $r(t)=e(t-\tau)$.
 - How are discrete-time block-diagram elements drawn, and why is the delay labeled $z^{-1}$? ::@:: A discrete-time scalar multiplier is $y[n]=ax[n]$; the delay is $y[n]=x[n-1]$ and is labeled $z^{-1}$ because one-sample delay corresponds to multiplication by $z^{-1}$ in the z-transform domain.
+- In this course, how are unary system operations usually drawn compared with common pointwise combination operations? ::@:: Many unary operations such as gain, delay, differentiation, and integration are drawn as labeled rectangular blocks, whereas common pointwise combination operations such as addition, subtraction, and multiplication are usually drawn as small circular nodes with the relevant symbol inside.
 - What labels should definitely appear on a block diagram? ::@:: External input and output arrows should be labeled explicitly (e.g., $x[n]$ and $y[n]$); internal branch labels are optional when the structure is clear.
 - How is the feedforward example $y[n]=\frac{1}{2}x[n]+\frac{1}{2}x[n-1]$ drawn? ::@:: Split the input into two branches, send one directly to an adder, send the other through a delay and scalar multiplier, then add the branches; it is feedforward because the output depends only on present and delayed inputs.
 - How are $y[n]=x[n]+ay[n-1]$ and $y[n+1]=x[n+1]+ay[n]$ related? ::@:: They are the same recursion written one time step apart; replacing $n$ by $n+1$ in the backward form gives the forward form.
@@ -321,7 +326,9 @@ Flashcards for this section are as follows:
 
 - What are the two high-level tasks in system analysis? ::@:: Build a mathematical model of the system and then analyze the output response under a given input.
 - What is the input-output description viewpoint? ::@:: It focuses only on the relationship between excitation and response and ignores internal system variables.
+- Why is the input-output viewpoint natural for SISO systems? ::@:: Because one nth-order differential or difference equation can often relate the single input and single output directly.
 - What is the state-variable viewpoint? ::@:: It tracks both the overall response and internal variables such as capacitor voltages or inductor currents.
+- Why is the state-variable viewpoint useful for MIMO systems? ::@:: Because it naturally represents multiple interacting inputs, outputs, and internal variables through coupled first-order equations.
 - What do SISO and MIMO mean? ::@:: SISO means single-input single-output; MIMO means multiple-input multiple-output.
 - What belongs to time-domain analysis? ::@:: Direct solution of differential equations, difference equations, and convolution integrals or sums.
 - Why are transform-domain methods introduced? ::@:: They convert many system calculations into simpler algebraic forms.
@@ -349,6 +356,7 @@ The durable organization of the course is therefore:
 Flashcards for this section are as follows:
 
 - What is the difference between the input-output and state-variable viewpoints? ::@:: The input-output viewpoint writes one higher-order differential or difference equation relating excitation and response directly, whereas the state-variable viewpoint writes several coupled first-order equations that also track internal variables.
+- Why does the time-domain roadmap begin with input-output description? ::@:: Because it is the most direct route to classical response calculation before the course moves to richer state-variable and transform-domain viewpoints.
 - Why does the lecture still emphasize direct time-domain solution even though transform methods are often faster? ::@:: Because direct solution keeps initial conditions visible, offers clearer physical interpretation, and provides the conceptual basis for later transform-domain methods.
 - Why are homogeneous/particular and zero-input/zero-state not competing decompositions? ::@:: Because homogeneous/particular is the solving-method split, whereas zero-input/zero-state is the physical source-of-response split.
 - What part of the response is the natural target of convolution? ::@:: The zero-state part, because it isolates the externally driven response under zero stored initial state.

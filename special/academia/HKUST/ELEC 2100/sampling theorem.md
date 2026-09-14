@@ -22,7 +22,7 @@ tags:
 
 ---
 
-The sampling theorem explains when a continuous-time signal can be converted into a discrete sequence and reconstructed without information loss. Sampling creates repeated spectral copies, and exact recovery is possible when those copies do not overlap.
+The sampling theorem explains when a continuous-time signal can be converted into a discrete sequence and reconstructed without information loss. Its core message is geometric rather than mysterious: sampling creates repeated spectral copies, and exact recovery is possible exactly when those copies do not overlap.
 
 In time, ideal sampling multiplies the signal by an impulse train. In frequency, that multiplication becomes convolution with a comb, replicating the original spectrum periodically. Reconstruction is a filtering problem, and aliasing is an overlap problem.
 
@@ -49,6 +49,8 @@ Flashcards for this section are as follows:
 - What is the sampled signal in impulse-train form? ::@:: $x_s(t)=x(t)p_T(t)=\sum_{n=-\infty}^{\infty}x(nT)\delta(t-nT)$.
 - Why is the impulse-train model useful? ::@:: It turns sampling into time multiplication, which becomes spectral convolution with replicated spectra.
 
+- What impulse weights in $x_s(t)=\sum_n x(nT)\delta(t-nT)$ represent physically? ::@:: The weight of the impulse at $t=nT$ is exactly the sample value taken from the original waveform at that sampling instant.
+
 ## choosing the sampling frequency
 
 The sampling frequency should match the signal's frequency content. A fast-changing signal needs a high rate; a slowly changing one needs only a low rate.
@@ -65,7 +67,9 @@ Flashcards for this section are as follows:
 
 - What principle determines the sampling frequency? ::@:: Match it to the phenomenon's frequency content and the observation purpose.
 - Why is excessive sampling rate undesirable? ::@:: It produces redundant data, increasing storage and processing cost without adding information.
+- Why can too low a sampling frequency be harmful? ::@:: It misses important signal changes and creates distortion such as flicker, judder, or aliasing.
 - How does motion-picture playback illustrate rate selection? ::@:: $24$ fps matches what human persistence of vision perceives as smooth motion for ordinary scenes.
+- Why does a mosquito wingbeat need high-speed recording while stellar rotation uses time-lapse? ::@:: The wingbeat has high frequency content; stellar rotation has very low frequency content. The sampling rate should match the phenomenon's speed.
 
 ## spectrum of a sampled signal
 
@@ -73,7 +77,7 @@ The Fourier transform of the sampling train is $P_T(\omega)=\frac{2\pi}{T}\sum_{
 
 Ideal sampling replicates the original spectrum every $\omega_s$, with each copy scaled by $1/T$. If the original spectrum is narrow enough, copies stay separate. If they overlap, different continuous-time frequencies become indistinguishable.
 
-A larger $f_s$ pushes replicas farther apart; a smaller one pulls them closer.
+The geometry is worth emphasizing. A larger sampling frequency pushes the spectral replicas farther apart; a smaller one pulls them closer. So the theorem is really about spacing between copies versus the width of each copy.
 
 ---
 
@@ -83,6 +87,7 @@ Flashcards for this section are as follows:
 - What is $X_s(\omega)$? ::@:: $X_s(\omega)=\frac{1}{T}\sum_{k=-\infty}^{\infty}X(\omega-k\omega_s)$.
 - What does this formula mean geometrically? ::@:: The original spectrum is copied and shifted every $\omega_s$.
 - Why is spectral overlap the key issue? ::@:: Overlapping copies mix different original frequencies, making unique reconstruction impossible.
+- Why does increasing $f_s$ make exact recovery easier? ::@:: It increases the copy spacing $\omega_s=2\pi/T$, pushing replicas farther apart so they are less likely to overlap.
 
 ## sampling theorem and Nyquist limit
 
@@ -97,6 +102,8 @@ At the Nyquist limit copies just touch. In practice one samples above the bare m
 Flashcards for this section are as follows:
 
 - What is the Nyquist condition for $|\omega|<\omega_m$? ::@:: $\omega_s\ge2\omega_m$, equivalently $f_s\ge2f_m$ or $T\le1/(2f_m)$.
+- What is the Nyquist frequency? ::@:: The minimum sampling rate $2f_m$ for a signal bandlimited to $|f|<f_m$.
+- What is the Nyquist interval? ::@:: The maximum sampling interval $T_{\max}=1/(2f_m)$ for exact recovery.
 - Why does $2$ appear in the Nyquist condition? ::@:: The baseband spans both positive and negative frequencies, so replicas need spacing of at least twice the highest frequency.
 - If voice is bandlimited to $3.4\text{ kHz}$, what Nyquist rate follows? ::@:: $f_s\ge6.8\text{ kHz}$; an $8\text{ kHz}$ telephone rate safely exceeds this.
 - Why sample above the exact Nyquist limit? ::@:: Practical spectra are not perfectly sharp and filters are not ideal, so extra margin reduces aliasing risk.
@@ -107,13 +114,15 @@ When the Nyquist condition holds, an ideal reconstruction filter isolates the ce
 
 The ideal selector is rectangular in frequency, so its impulse response is sinc in time. Using $\operatorname{Sa}(x)=\sin x/x$ and $\operatorname{sinc}_{\pi}(u)=\sin(\pi u)/(\pi u)$: $H_r(\omega)=T\operatorname{rect}(\omega/(2\pi/T))$ corresponds to $h_r(t)=\operatorname{Sa}(\pi t/T)=\operatorname{sinc}_{\pi}(t/T)$.
 
+This is why one reconstructs by convolving with a sinc kernel. If $x_r(t)=x_s(t)*h_r(t)$, the convolution theorem gives $X_r(\omega)=X_s(\omega)H_r(\omega)$. Choosing $h_r(t)$ is really choosing a frequency-domain selector that keeps one spectral copy and rejects the rest. The ideal selector is rectangular in frequency, so its impulse response is sinc in time.
+
 Convolving the sampled impulse train with this kernel gives:
 
 $$x(t)=\sum_{n=-\infty}^{\infty}x(nT)\operatorname{Sa}(\pi (t-nT)/T)=\sum_{n=-\infty}^{\infty}x(nT)\operatorname{sinc}_{\pi}((t-nT)/T)$$
 
-This works because each kernel equals $1$ at its own sample location and $0$ at every other: $\operatorname{Sa}(0)=1$, $\operatorname{Sa}(m\pi)=0$ for nonzero integer $m$.
+This works because each kernel equals $1$ at its own sample location and $0$ at every other: $\operatorname{Sa}(0)=1$, $\operatorname{Sa}(m\pi)=0$ for nonzero integer $m$. So each sample reproduces itself exactly and does not disturb the others.
 
-The kernel parameter matters. With $h_{\sigma}(t)=\operatorname{Sa}(\pi t/\sigma)$ and fixed sample spacing $T$, exact interpolation requires zero crossings at the other sampling instants, so $\sigma=T$. Larger $\sigma$ gives a wider kernel (zero crossings farther apart) and a narrower frequency selector; smaller $\sigma$ gives the opposite. If $\sigma>T$ or $\sigma<T$, neighboring samples do not cancel properly at each other's locations.
+The kernel parameter matters. With $h_{\sigma}(t)=\operatorname{Sa}(\pi t/\sigma)$ and fixed sample spacing $T$, exact interpolation requires zero crossings at the other sampling instants, so $\sigma=T$. Larger $\sigma$ gives a wider time kernel (zero crossings farther apart) and a narrower frequency selector; smaller $\sigma$ gives the opposite. If $\sigma>T$, the kernel is too wide and neighboring samples do not cancel properly. If $\sigma<T$, the kernel is too narrow and the zero crossings come too quickly.
 
 ---
 
@@ -124,14 +133,17 @@ Flashcards for this section are as follows:
 - What is the ideal interpolation formula? ::@:: $x(t)=\sum_{n=-\infty}^{\infty}x(nT)\operatorname{Sa}(\pi (t-nT)/T)$.
 - Why does the interpolation pass exactly through sample values? ::@:: Each shifted kernel equals $1$ at its own sample and $0$ at all others.
 - Why is $\sigma=T$ required in $h_{\sigma}(t)=\operatorname{Sa}(\pi t/\sigma)$? ::@:: Zero crossings must land at the other sampling instants spaced by $T$.
+- How does changing $\sigma$ affect the kernel and frequency selector? ::@:: Larger $\sigma$ gives a wider time kernel and narrower frequency selector; smaller $\sigma$ gives the opposite.
+- Why is convolution with a sinc kernel the right reconstruction operation? ::@:: Because the reconstruction filter $H_r(\omega)$ is rectangular in frequency, so its impulse response is sinc in time. Convolution with this kernel selects the central spectral replica.
+- How do you derive the sinc interpolation formula from the reconstruction filter? ::@:: Convolve the sampled impulse train $x_s(t)=\sum_n x(nT)\delta(t-nT)$ with $h_r(t)=\operatorname{Sa}(\pi t/T)$. Each shifted impulse produces $x(nT)h_r(t-nT)$; summing gives the interpolation formula.
 
 ## practical reconstruction filters
 
 Ideal sinc reconstruction is exact but infinitely long in both time directions. Practical systems use simpler hold circuits.
 
-The zero-order hold (ZOH) keeps each sample constant until the next arrives: $h_{\mathrm{ZOH}}(t)=u(t)-u(t-T)$, a rectangular pulse of width $T$. In frequency, $H_{\mathrm{ZOH}}(\omega)=T e^{-j\omega T/2}\operatorname{Sa}(\omega T/2)$.
+The zero-order hold (ZOH) keeps each sample constant until the next arrives: $h_{\mathrm{ZOH}}(t)=u(t)-u(t-T)$, a rectangular pulse of width $T$. In frequency, $H_{\mathrm{ZOH}}(\omega)=T e^{-j\omega T/2}\operatorname{Sa}(\omega T/2)$. Each sample value drives a hold circuit (commonly modeled as a switch-plus-capacitor or DAC output stage), and the output stays flat until the next sampling instant.
 
-The first-order hold (FOH) connects adjacent samples with straight lines: $h_{\mathrm{FOH}}(t)=\Lambda((t-T)/T)$, a delayed triangular pulse of width $2T$. In frequency, $H_{\mathrm{FOH}}(\omega)=T e^{-j\omega T}\operatorname{Sa}^{2}(\omega T/2)$.
+The first-order hold (FOH) connects adjacent samples with straight lines: $h_{\mathrm{FOH}}(t)=\Lambda((t-T)/T)$, a delayed triangular pulse of width $2T$. In frequency, $H_{\mathrm{FOH}}(\omega)=T e^{-j\omega T}\operatorname{Sa}^{2}(\omega T/2)$. The implementation is a linear ramp generator or linear interpolator.
 
 Both are approximate. ZOH is easy to implement but gives staircase output and high-frequency droop. FOH is smoother but still not ideal. Finite, causal circuits are easier to build than an infinite two-sided sinc filter.
 
@@ -142,6 +154,9 @@ Flashcards for this section are as follows:
 - What is ZOH's impulse response and output shape? ::@:: $h_{\mathrm{ZOH}}(t)=u(t)-u(t-T)$; it produces a staircase waveform holding each sample constant.
 - What is FOH's impulse response and output shape? ::@:: $h_{\mathrm{FOH}}(t)=\Lambda((t-T)/T)$; it produces piecewise linear segments between samples.
 - How do ZOH and FOH compare with ideal sinc reconstruction? ::@:: Ideal sinc is exact but infinite. ZOH is simpler but staircase. FOH is smoother but still approximate.
+- How do you draw the ZOH block diagram? ::@:: $x[n] \to$ ideal impulse DAC $\to h_{\mathrm{ZOH}}(t)$; output is a staircase holding each sample constant.
+- How do you draw the FOH block diagram? ::@:: $x[n] \to$ ideal impulse DAC $\to h_{\mathrm{FOH}}(t)$; output is piecewise linear between samples.
+- Why are ZOH and FOH used in practice? ::@:: They are finite, causal, and easy to implement, whereas ideal sinc reconstruction has an infinite two-sided impulse response.
 
 ## aliasing and anti-aliasing
 
@@ -153,7 +168,7 @@ The remedy is anti-aliasing: a low-pass filter before the sampler removes conten
 
 A direct example: $x(t)=\cos(10t)$ sampled at $\omega_s=14\text{ rad/s}$ (below the Nyquist $20\text{ rad/s}$) gives $x[n]=\cos(10\pi n/7)=\cos(4\pi n/7)$. The samples are indistinguishable from a $4\text{ rad/s}$ cosine. The alias at $\omega_s-10=4$ is baked into the samples.
 
-The practical point: inputs are rarely strictly bandlimited. Without a prefilter, high-frequency content folds into false low-frequency components. With a prefilter, only the removed high-frequency content is lost.
+The practical point: inputs are rarely strictly bandlimited. Without a prefilter, high-frequency content folds into false low-frequency components, which is worse than simply losing the high-frequency content. With a prefilter, only the removed high-frequency content is lost, but no spurious low-frequency content is added.
 
 The block diagram: $x(t) \to$ anti-aliasing LPF $\to$ sampler $\to x_d[n]$.
 
@@ -167,6 +182,7 @@ Flashcards for this section are as follows:
 - Why is anti-aliasing done before sampling? ::@:: Once aliasing folds frequencies together, the distinction cannot be recovered.
 - If $x(t)=\cos(10t)$ is sampled at $\omega_s=14$, what alias appears? ::@:: The $10\text{ rad/s}$ cosine aliases to $4\text{ rad/s}$, since $\omega_s-10=4$.
 - What does the anti-aliasing block diagram look like? ::@:: $x(t) \to$ LPF $\to$ sampler $\to x_d[n]$.
+- With an anti-aliasing filter, what error remains? ::@:: Only the removed high-frequency content is lost. Without the filter, those components also fold into false low-frequency components, which is worse.
 
 ## reading maximum sampling interval from a spectrum
 
