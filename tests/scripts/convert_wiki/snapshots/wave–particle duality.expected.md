@@ -41,7 +41,7 @@ Before proceeding further, it is critical to introduce some definitions of waves
 
 Classical particles obey [classical mechanics](classical%20mechanics.md); they have some [center of mass](center%20of%20mass.md) and extent; they follow [trajectories](trajectories.md) characterized by [positions](position%20(geometry).md) and [velocities](velocities.md) that vary over time; in the absence of [forces](forces.md) their trajectories are straight lines. [Stars](stars.md), [planets](planets.md), [spacecraft](spacecraft.md), [tennis balls](tennis%20balls.md), [bullets](bullets.md), [sand grains](sand%20grain.md): particle models work across a huge scale. Unlike waves, particles do not exhibit interference.
 
-> Classical waves interfere. Particles follow trajectories.
+> __Classical waves interfere. Particles follow trajectories.__
 >
 > ![Wave interference in water due to two sources marked as red points on the left](../../archives/Wikimedia%20Commons/Rippletanksource1plus2superpositionBnW.png)
 >

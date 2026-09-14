@@ -1427,8 +1427,10 @@ class WikiHtmlConverter:
         if "theader" in classes:
             # Multi-image template headers (e.g. "Classical waves interfere.")
             # are block-level content that should be separated from the
-            # following images by a paragraph break.
-            return _HandlerConfig(suffix="\n\n")
+            # following images by a paragraph break.  The template CSS
+            # applies ``font-weight: bold`` to ``.theader``, so wrap with
+            # Markdown bold markers.
+            return _HandlerConfig(prefix="__", suffix="__\n\n")
         if "thumbcaption" in classes and not self._in_table_cell(ele):
             # Figure captions are block-level content: give them their own
             # ``> `` line (blank ``> `` separation from following siblings),
