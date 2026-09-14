@@ -97,11 +97,9 @@ Flashcards for this section are as follows:
 - What is exponential order, and what does it imply for ROC? ::@:: If $|f(t)|\le Me^{at}$ for large $t>0$, then $\mathcal{L}_u\{f(t)\}$ converges for $\Re(s)>a$.  For bilateral transforms, both tails matter: convergence holds in the strip $a_+<\Re(s)<a_-$ if nonempty.
 - Why do right-sided power functions such as $t^n u(t)$ have a Laplace transform? ::@:: Polynomials grow more slowly than exponentials, so $e^{-\sigma t}$ dominates $t^n$ for every $\sigma>0$.  Therefore $t^n u(t)$ has ROC $\Re(s)>0$.
 - What is the ROC of $e^{\alpha t}u(t)$? ::@:: $\mathcal{L}_u\{e^{\alpha t}u(t)\}=\frac{1}{s-\alpha}$ with ROC $\Re(s)>\alpha$.
-- Why does $e^{t^2}u(t)$ have no Laplace transform? ::@:: For every fixed $\sigma$, $e^{t^2-\sigma t}\to\infty$ as $t\to\infty$, so no finite $\Re(s)$ forces convergence.
-- What does "intersection of ROCs" mean when components are combined? ::@:: Choose $s$ values where every constituent integral converges simultaneously.  E.g., $\Re(s)>1$ intersected with $\Re(s)>3$ gives $\Re(s)>3$.  Pole-zero cancellation can enlarge the final ROC.
-- For right-sided, left-sided, two-sided, and finite-duration signals, what are the ROC shapes? ::@:: Right-sided: $\Re(s)>\sigma_{\max}$.  Left-sided: $\Re(s)<\sigma_{\min}$.  Two-sided: $\sigma_{\min}<\Re(s)<\sigma_{\max}$.  Finite-duration: entire $s$-plane.
-- For a rational Laplace transform, what is the relation between poles and the ROC? ::@:: The ROC is an open connected region containing no poles.  Poles lie on the boundary or outside it.
-- Why is the inverse Laplace transform unique only after the ROC is specified? ::@:: The same algebraic form can represent different time-domain signals; the pair (algebraic form + ROC) determines the inverse uniquely.
+- Why do $e^{\alpha t}u(t)$ and $e^{t^2}u(t)$ differ in transformability? ::@:: $e^{\alpha t}u(t)$ converges for $\Re(s)>\alpha$, but $e^{t^2}u(t)$ grows faster than any exponential so no finite $\Re(s)$ forces convergence.
+- What are the four ROC shapes and what determines which one applies? ::@:: Right-sided: $\Re(s)>\sigma_{\max}$.  Left-sided: $\Re(s)<\sigma_{\min}$.  Two-sided: $\sigma_{\min}<\Re(s)<\sigma_{\max}$.  Finite-duration: entire $s$-plane.  The signal support class selects which candidate is valid.
+- When components are combined, how does the ROC change? ::@:: The ROC is the intersection of individual ROCs.  After simplification, pole-zero cancellation can enlarge the final ROC.
 - When does the Laplace transform reduce to the Fourier transform? ::@:: When the ROC includes the imaginary axis $\Re(s)=0$, evaluation at $s=j\omega$ yields the Fourier transform.
 - What does the lower limit $0^-$ denote in $\int_{0^-}^{\infty}f(t)e^{-st}\,dt$? ::@:: The left-hand limit approaching zero: the integration path begins infinitesimally before $t=0$, including $t=0$ in the domain.
 - Why does $0^-$ vs $0^+$ matter for signals with a Dirac delta at the origin? ::@:: $\int_{0^-}^{\infty}\delta(t)e^{-st}\,dt=1$ (impulse included) while $\int_{0^+}^{\infty}\delta(t)e^{-st}\,dt=0$ (impulse excluded).  Engineering Laplace uses $0^-$ to capture impulses at $t=0$ and initial conditions at $t=0^-$.
@@ -191,30 +189,20 @@ The proper-fraction caveat: if $F(s)$ is not proper, first do polynomial long di
 
 Flashcards for this section are as follows:
 
-- For the pair $u(t)\leftrightarrow\frac{1}{s}$, derive the transform briefly and state ROC. ::@:: $\mathcal{L}_u\{u(t)\}=\int_{0^-}^{\infty}e^{-st}dt=\frac{1}{s}$.  ROC: $\Re(s)>0$.
-- For the pair $e^{-\alpha t}u(t)\leftrightarrow\frac{1}{s+\alpha}$, derive the transform briefly and state ROC. ::@:: $\mathcal{L}_u\{e^{-\alpha t}u(t)\}=\int_{0^-}^{\infty}e^{-(s+\alpha)t}dt=\frac{1}{s+\alpha}$.  ROC: $\Re(s)>-\alpha$.
-- For the pair $\delta(t)\leftrightarrow 1$, derive the transform and explain the role of $0^-$. ::@:: $\mathcal{L}_u\{\delta(t)\}=\int_{0^-}^{\infty}\delta(t)e^{-st}dt=e^{-s\cdot0}=1$ by sifting.  The $0^-$ lower limit includes the impulse mass at $t=0$.
-- For the pair $t^n u(t)\leftrightarrow\frac{n!}{s^{n+1}}$, state the derivation methods and ROC. ::@:: Method 1: repeated integration by parts on $\int_0^{\infty}t^n e^{-st}dt$.  Method 2: start from $u(t)\leftrightarrow\frac{1}{s}$ and repeatedly apply $\mathcal{L}\{t f(t)\}=-\frac{dF}{ds}$.  ROC: $\Re(s)>0$.
-- For the pair $\sin(\omega_0 t)u(t)\leftrightarrow\frac{\omega_0}{s^2+\omega_0^2}$, state the derivation cue and ROC. ::@:: Write $\sin(\omega_0 t)=\frac{e^{j\omega_0 t}-e^{-j\omega_0 t}}{2j}$ and combine the two exponential transforms.  ROC: $\Re(s)>0$.
-- For the pair $\cos(\omega_0 t)u(t)\leftrightarrow\frac{s}{s^2+\omega_0^2}$, state the derivation cue and ROC. ::@:: Write $\cos(\omega_0 t)=\frac{e^{j\omega_0 t}+e^{-j\omega_0 t}}{2}$ and combine.  ROC: $\Re(s)>0$.
+- State the six common unilateral Laplace pairs and their ROCs. ::@:: $u(t)\leftrightarrow\frac{1}{s}$ ($\Re(s)>0$); $e^{-\alpha t}u(t)\leftrightarrow\frac{1}{s+\alpha}$ ($\Re(s)>-\alpha$); $\delta(t)\leftrightarrow 1$; $t^n u(t)\leftrightarrow\frac{n!}{s^{n+1}}$ ($\Re(s)>0$); $\sin(\omega_0 t)u(t)\leftrightarrow\frac{\omega_0}{s^2+\omega_0^2}$ ($\Re(s)>0$); $\cos(\omega_0 t)u(t)\leftrightarrow\frac{s}{s^2+\omega_0^2}$ ($\Re(s)>0$).
+- How are the sinusoidal pairs derived from the exponential form? ::@:: Write $\sin(\omega_0 t)=\frac{e^{j\omega_0 t}-e^{-j\omega_0 t}}{2j}$ (or cosine with $+$), transform the two exponentials, and combine.
 - Which common Laplace pairs also match Fourier directly, and which require Fourier boundary treatment? ::@:: $\delta(t)\leftrightarrow1$ matches directly, and $e^{-\alpha t}u(t)$ with $\alpha>0$ reduces to $\frac{1}{\alpha+j\omega}$ on the imaginary axis.  $u(t)$, $t^n u(t)$, and causal sinusoids require generalized-function treatment in Fourier.
 - What is the one-line derivation idea for Laplace linearity? ::@:: Start from $\mathcal{L}\{a f+b g\}=\int (a f+b g)e^{-st}dt$ and split the integral termwise.
-- Compare bilateral and unilateral time shifts for delay and advance. ::@:: Bilateral delay: $\mathcal{L}_b\{f(t-t_0)\}=e^{-st_0}F_b(s)$; advance: $\mathcal{L}_b\{f(t+t_0)\}=e^{st_0}F_b(s)$.  Unilateral delay: $\mathcal{L}_u\{f(t-t_0)u(t-t_0)\}=e^{-st_0}F_u(s)$.  Unilateral advance is not a pure factor: $\mathcal{L}_u\{f(t+t_0)u(t)\}=e^{st_0}[F_u(s)-\int_{0^-}^{t_0^-}f(\tau)e^{-s\tau}d\tau]$.
+- How do bilateral and unilateral time shifts differ? ::@:: Bilateral delay/advance are pure factors: $e^{\mp st_0}F_b(s)$.  Unilateral delay by $t_0>0$ is also a pure factor $e^{-st_0}F_u(s)$, but unilateral advance adds a correction term: $\mathcal{L}_u\{f(t+t_0)u(t)\}=e^{st_0}[F_u(s)-\int_{0^-}^{t_0^-}f(\tau)e^{-s\tau}d\tau]$.
 - How is the $s$-domain shift rule derived? ::@:: Combine exponentials: $e^{-\alpha t}e^{-st}=e^{-(s+\alpha)t}$, so the transform is $F$ evaluated at $s+\alpha$.
 - How is the scaling rule derived? ::@:: Substitute $\tau=at$ in $\int f(at)e^{-st}dt$; then $dt=d\tau/a$ and $e^{-st}=e^{-(s/a)\tau}$.
 - Compare the Laplace and Fourier convolution theorems. ::@:: Syntactically they match after $j\omega\to s$.  For Laplace, the extra issue is ROC bookkeeping: valid on the intersection of participating ROCs.
-- Compare bilateral and unilateral first-differentiation rules. ::@:: Bilateral: $\mathcal{L}_b\{f'(t)\}=sF_b(s)$, same as Fourier after $j\omega\to s$, provided boundary terms vanish.  Unilateral: $\mathcal{L}_u\{f'(t)\}=sF_u(s)-f(0^-)$.  The extra term comes from differentiating the causal window at $t=0$.
-- State the unilateral repeated-differentiation formula. ::@:: $\mathcal{L}_u\{f^{(n)}(t)\}=s^nF(s)-\sum_{k=0}^{n-1}s^{n-1-k}f^{(k)}(0^-)$.
-- Compare bilateral and unilateral first-integration rules. ::@:: Bilateral: $\mathcal{L}_b\{g(t)\}=F_b(s)/s$ (with zero boundary terms).  Unilateral: $G(s)=\frac{F(s)+g(0^-)}{s}$.  The common formula $F(s)/s$ is the special case $g(0^-)=0$.
+- Compare bilateral and unilateral differentiation rules. ::@:: Bilateral: $\mathcal{L}_b\{f'(t)\}=sF_b(s)$ (boundary terms vanish).  Unilateral first: $\mathcal{L}_u\{f'(t)\}=sF(s)-f(0^-)$.  Unilateral $n$th: $\mathcal{L}_u\{f^{(n)}(t)\}=s^nF(s)-\sum_{k=0}^{n-1}s^{n-1-k}f^{(k)}(0^-)$.
+- Compare bilateral and unilateral integration rules. ::@:: Bilateral: $\mathcal{L}_b\{g(t)\}=F_b(s)/s$.  Unilateral: $G(s)=\frac{F(s)+g(0^-)}{s}$.  The common formula $F(s)/s$ is the special case $g(0^-)=0$.
 - State the concise initial and final value theorems with conditions. ::@:: IVT: $f(0^+)=\lim_{s\to\infty}sF(s)$, valid when $f$ has no impulse at $t=0$; for rational transforms, strict properness suffices.  FVT: $\lim_{t\to\infty}f(t)=\lim_{s\to0}sF(s)$, valid when the time limit exists and all poles of $sF(s)$ lie strictly in the open left half-plane.
-- What kernel intuition explains the IVT and FVT conditions? ::@:: $sF(s)=\int_{0}^{\infty} f(\frac{u}{s})e^{-u}\,du$: as $s\to\infty$, the kernel concentrates near $t=0^+$; as $s\to0^+$, it samples the long-time tail.  If IVT conditions fail, impulses at $t=0$ dominate.  If FVT conditions fail, RHP poles cause growth, imaginary-axis poles cause oscillation, and repeated poles at the origin cause divergence.
-- Why must you split an improper rational $F(s)$ before applying IVT? ::@:: The polynomial part corresponds to impulses at $t=0$, while the ordinary IVT is meant for the proper remainder.  Write $F(s)=P(s)+F_1(s)$ and read $f(0^+)=\lim_{s\to\infty}sF_1(s)$.
+- What kernel intuition explains the IVT and FVT conditions? ::@:: $sF(s)=\int_{0}^{\infty} f(\frac{u}{s})e^{-u}\,du$: as $s\to\infty$, the kernel concentrates near $t=0^+$; as $s\to0^+$, it samples the long-time tail.  RHP poles cause growth, imaginary-axis poles cause oscillation, and repeated origin poles cause divergence.
 
-- Why is the common shortcut about bounded aperiodic signals safest in the unilateral/right-sided setting? ::@:: A bounded right-sided signal has exponential order $a=0$, so $\mathcal{L}_u\{f(t)\}$ converges for $\Re(s)>0$.  For bilateral transforms, opposite tails can demand incompatible signs of $\Re(s)$, so boundedness alone does not guarantee a common ROC strip.
-- Why does ROC depend on the signal restriction rather than on the algebraic expression alone? ::@:: The algebraic form determines candidate pole boundaries, but the support class (right-sided, left-sided, two-sided) chooses which candidate is valid.  The same $F(s)$ can represent different time-domain signals depending on which ROC is selected.
-- Why does ROC matter beyond existence? ::@:: Different time-domain signals can share the same algebraic $F(s)$ but differ by ROC, and stability/Fourier-existence conclusions depend on ROC placement.
-- What does the polynomial part $P(s)=k_m s^m+\cdots+k_1 s+k_0$ represent in time domain, and why does it spoil a naive IVT calculation? ::@:: It represents $k_m\delta^{(m)}(t)+\cdots+k_1\delta'(t)+k_0\delta(t)$, concentrated at $t=0$.  These impulsive terms do not define an ordinary finite right-hand value, but $sP(s)$ diverges as $s\to\infty$, so a naive limit gives the wrong conclusion.
-- What makes partial-fraction expansion the default hand method for proper rational $F(s)$ in ELEC 2100? ::@:: Once the denominator is factored, a proper rational transform decomposes into simple-pole, repeated-pole, or conjugate-pole building blocks that map directly to standard inverse-Laplace table entries.
+- Why must an improper rational $F(s)$ be split before applying IVT? ::@:: The polynomial part corresponds to impulses at $t=0$; $sP(s)$ diverges as $s\to\infty$, so a naive limit gives the wrong result.  Write $F(s)=P(s)+F_1(s)$ and apply IVT only to the proper remainder.
 - Why are complex-conjugate poles handled as a pair during inverse Laplace? ::@:: To produce real damped sinusoid expressions directly and avoid unnecessary complex-arithmetic detours.
 - State the bilateral Laplace multiplication theorem, and explain why it is less convenient than convolution. ::@:: $\mathcal{L}_b\{f(t)g(t)\}(s)=\frac{1}{2\pi j}\int_{\gamma-j\infty}^{\gamma+j\infty}F(\sigma)G(s-\sigma)\,d\sigma$.  Unlike Fourier's ordinary frequency-axis convolution, Laplace uses a complex vertical-contour convolution whose contour must stay inside valid ROCs.  That ROC/contour bookkeeping makes it much less convenient than $f_1*f_2\leftrightarrow F_1F_2$.
 
@@ -342,7 +330,6 @@ Flashcards for this section are as follows:
 - For a repeated pole $p$ of order $r$, how are coefficients extracted? ::@:: Highest: $A_r=(s-p)^rF(s)|_{s=p}$.  General: $A_{r-k}=\frac{1}{k!}\frac{d^k}{ds^k}[(s-p)^rF(s)]|_{s=p}$ for $k=0,\ldots,r-1$.
 - For $F(s)=\frac{s+2}{(s+1)^2+4}$, why rewrite the numerator as $(s+1)+1$? ::@:: To expose the standard cosine/sine numerators: $F(s)=\frac{s+1}{(s+1)^2+4}+\frac{1}{(s+1)^2+4}$, giving $f(t)=e^{-t}\cos(2t)u(t)+\frac{1}{2}e^{-t}\sin(2t)u(t)$.
 - For $F(s)=\frac{2s+3}{(s+1)^2(s+2)}$, what is the partial-fraction form and inverse Laplace? ::@:: $\frac{A}{s+2}+\frac{B}{s+1}+\frac{C}{(s+1)^2}$ with $A=-1$, $B=1$, $C=1$, giving $f(t)=(-e^{-2t}+e^{-t}+te^{-t})u(t)$.
-- What is the intuitive meaning of partial-fraction expansion? ::@:: It decomposes a proper rational transform into modal blocks: simple poles become exponentials, repeated poles become polynomial-times-exponential terms, and conjugate pairs become damped sinusoids.
 
 ## applications of Laplace transform
 
@@ -359,8 +346,6 @@ Standard examples are a series RLC circuit and a coupled electromechanical DC mo
 Flashcards for this section are as follows:
 
 - What is the recurring Laplace-transform application chain? ::@:: Physical model $\to$ initial conditions/constitutive laws $\to$ $s$-domain model $\to$ algebraic solve $\to$ response transform/transfer function $\to$ pole/stability interpretation $\to$ inverse Laplace.
-- Why is Laplace transform effective for application problems? ::@:: It converts differential and integral relations into algebraic relations in $s$, so the same framework handles response calculation, transfer-function construction, pole interpretation, and inverse recovery.
-- What two major application families are emphasized? ::@:: Dynamic-circuit analysis in the Laplace domain and zero-state system-function/transfer-function analysis for networks, interconnections, and stability.
 
 ### analysis of dynamic circuits in Laplace domain
 
@@ -458,7 +443,7 @@ Flashcards for this section are as follows:
 - What are $\alpha$, $\omega_0$, and poles for the series-RLC denominator? ::@:: $\alpha=\frac{R}{2L}$, $\omega_0=\frac{1}{\sqrt{LC}}$, $p_{1,2}=-\alpha\pm\sqrt{\alpha^2-\omega_0^2}$.
 - How are the four damping cases described using $\zeta$? ::@:: $\zeta=0$: undamped ($\pm j\omega_0$).  $0<\zeta<1$: underdamped ($-\zeta\omega_0\pm j\omega_d$).  $\zeta=1$: critically damped ($-\omega_0$).  $\zeta>1$: overdamped.
 - What notation pitfall must be avoided? ::@:: The oscillation frequency is $\omega_d=\omega_0\sqrt{1-\zeta^2}$, not $\omega_0$ itself.
-- What are the time-domain current forms for the four damping cases? ::@:: Underdamped: $\frac{E}{L\omega_d}e^{-\alpha t}\sin(\omega_d t)u(t)$.  Critically damped: $\frac{E}{L}t e^{-\alpha t}u(t)$.  Overdamped: $\frac{E}{L(p_1-p_2)}(e^{p_1 t}-e^{p_2 t})u(t)$.  Undamped: $\frac{E}{L\omega_0}\sin(\omega_0 t)u(t)$.
+- What are the current forms for the four damping cases? ::@:: Underdamped: $\frac{E}{L\omega_d}e^{-\alpha t}\sin(\omega_d t)u(t)$.  Critically damped: $\frac{E}{L}te^{-\alpha t}u(t)$.  Overdamped: $\frac{E}{L(p_1-p_2)}(e^{p_1 t}-e^{p_2 t})u(t)$.  Undamped: $\frac{E}{L\omega_0}\sin(\omega_0 t)u(t)$.
 
 ### transfer-function viewpoint and routes
 
@@ -495,7 +480,7 @@ The quick stability rule: for a causal rational system, all poles strictly in th
 Flashcards for this section are as follows:
 
 - What does $H(s)=\frac{R(s)}{E(s)}=\mathcal{L}\{h(t)\}$ mean? ::@:: The zero-state input-output ratio equals the Laplace transform of the impulse response, so the same framework describes both a single response and the system itself.
-- How does the DC motor example show the application chain? ::@:: The motor equations become two algebraic equations in $s$, combined into $G_\omega(s)=\frac{K_t}{(Ls+R)(Js+b)+K_tK_b}$ and $G_\theta(s)=\frac{K_t}{s[(Ls+R)(Js+b)+K_tK_b]}$.
+- What transfer functions does the DC motor example produce? ::@:: Speed: $G_\omega(s)=\frac{K_t}{(Ls+R)(Js+b)+K_tK_b}$.  Position: $G_\theta(s)=\frac{K_t}{s[(Ls+R)(Js+b)+K_tK_b]}$.
 - Where should the full transfer-function material be studied? ::@:: In [transfer function](transfer%20function.md).  This note keeps the application bridge.
 - What is the quick causal-rational stability rule? ::@:: All poles strictly in the left half-plane imply asymptotic BIBO stability; simple poles on the imaginary axis give marginal behavior; any RHP pole or repeated imaginary-axis pole gives instability.
 
@@ -585,4 +570,3 @@ Flashcards for this section are as follows:
 - How are residues computed for simple, repeated, and conjugate poles? ::@:: Simple: multiply by $(s-p)$, evaluate at $p$.  Repeated order $m$: multiply by $(s-p)^m$, differentiate $m-1$ times, divide by $(m-1)!$, evaluate at $p$.  Conjugate: compute one, combine with partner.
 - Evaluate $F(s)=\frac{1}{s(s+1)}$ by Bromwich inversion. ::@:: Residues at $s=0$ and $s=-1$: $1$ and $-e^{-t}$.  Hence $f(t)=(1-e^{-t})u(t)$.
 - Evaluate $F(s)=\frac{1}{(s+1)^3}$ by Bromwich inversion. ::@:: Triple pole at $s=-1$: residue $=\frac{1}{2}t^2e^{-t}$.  Hence $f(t)=\frac{t^2}{2}e^{-t}u(t)$.
-- Why does Bromwich inversion match partial fractions? ::@:: Both sum the same pole contributions: Bromwich via residues, partial fractions via explicit modal terms.
