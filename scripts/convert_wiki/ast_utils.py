@@ -596,16 +596,7 @@ def _find_table_blocks(text: str) -> list[tuple[int, int]]:
 
         extended.append((start, end))
 
-    # Merge overlapping or adjacent ranges.
-    if not extended:
-        return extended
-    merged: list[tuple[int, int]] = [extended[0]]
-    for s, e in extended[1:]:
-        if s <= merged[-1][1]:
-            merged[-1] = (merged[-1][0], max(merged[-1][1], e))
-        else:
-            merged.append((s, e))
-    return merged
+    return extended
 
 
 def _parse_inline_link_destination(text: str, start: int) -> tuple[str, int] | None:
