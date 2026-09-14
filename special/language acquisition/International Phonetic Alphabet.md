@@ -631,7 +631,7 @@ Here is a list of common IPA letters and their pronunciations:
 - \[r\]:@:[voiced alveolar trill](voiced%20alveolar%20trill.md) <!--SR:!2027-11-30,1181,371-->
 - \[ɾ\]:@:[voiced dental and alveolar taps and flaps](voiced%20dental%20and%20alveolar%20taps%20and%20flaps.md) <!--SR:!fsrs,2032-01-01T00:00:00.000Z,1966,1965.93015805,1.66855337,2,11,0,0,2026-08-14T00:00:00.000Z-->
 - \[ʀ\]:@:[voiced uvular trill](voiced%20uvular%20trill.md) <!--SR:!2028-11-19,1169,314-->
-- \[ɽ\]:@:[voiced retroflex flap](voiced%20retroflex%20flap.md) <!--SR:!2026-10-23,261,331-->
+- \[ɽ\]:@:[voiced retroflex flap](voiced%20retroflex%20flap.md) <!--SR:!fsrs,2028-10-29T00:00:00.000Z,737,737.36974518,2.45526587,2,9,0,0,2026-10-23T00:00:00.000Z-->
 - \[ɹ\]:@:[voiced alveolar approximant](voiced%20alveolar%20approximant.md) <!--SR:!2026-12-25,847,320-->
 - \[ɻ\]:@:[voiced retroflex approximant](voiced%20retroflex%20approximant.md) <!--SR:!2026-12-09,514,280-->
 - \[ʁ\]:@:[voiced uvular fricative](voiced%20uvular%20fricative.md) <!--SR:!2027-02-24,846,354-->
@@ -955,7 +955,7 @@ Here is a list of common IPA letters and their pronunciations:
 - [nasalized open-mid front unrounded vowel](nasal%20vowel.md):@:[French](French%20language.md) _m**ain**_ \[mɛ̃\] "hand" <!--SR:!fsrs,2026-10-28T00:00:00.000Z,43,43.39688869,9.93288623,2,8,0,0,2026-09-15T00:00:00.000Z-->
 - [open-mid central unrounded vowel](open-mid%20central%20unrounded%20vowel.md):@:[English](English%20language.md) _b**ir**d_ \[bɜːd\] <!--SR:!2028-02-25,1039,278-->
 - [r-colored open-mid central unrounded vowel](r-colored%20vowel.md):@:[English](English%20language.md) _b**ir**d_ \[bɝːd\] <!--SR:!2027-06-10,581,297-->
-- [voiceless labiodental fricative](voiceless%20labiodental%20fricative.md):@:[English](English%20language.md) _**f**ill_ \[fɪɫ\] <!--SR:!2026-10-23,533,237-->
+- [voiceless labiodental fricative](voiceless%20labiodental%20fricative.md):@:[English](English%20language.md) _**f**ill_ \[fɪɫ\] <!--SR:!fsrs,2029-02-07T00:00:00.000Z,838,837.54588684,7.32154389,2,10,0,0,2026-10-23T00:00:00.000Z-->
 - [voiced velar plosive](voiced%20velar%20plosive.md):@:[English](English%20language.md) _**g**a**gg**le_ \[ˈɡæɡɫ̩\] <!--SR:!2027-01-05,389,177-->
 - [voiced velar implosive](voiced%20velar%20implosive.md):@:[Zulu](Zulu%20language.md) _u**k**uza_ \[uˈɠuːza\] "come" <!--SR:!fsrs,2027-03-04T00:00:00.000Z,249,249.3555891,9.63501311,2,8,0,0,2026-06-28T00:00:00.000Z-->
 - [voiced uvular plosive](voiced%20uvular%20plosive.md):@:[English](English%20language.md) _**g**audy_ \[ˈɡ̠oːɾi\] <!--SR:!fsrs,2027-09-02T00:00:00.000Z,317,316.63483386,6.72599087,2,8,0,0,2026-10-20T00:00:00.000Z-->
@@ -989,7 +989,7 @@ Here is a list of common IPA letters and their pronunciations:
 - [close-mid back rounded vowel](close-mid%20back%20rounded%20vowel.md):@:[English](English%20language.md) _y**aw**n_ \[joːn\] <!--SR:!fsrs,2027-02-04T00:00:00.000Z,147,146.58336466,9.98522837,2,8,0,0,2026-09-10T00:00:00.000Z-->
 - [open-mid back rounded vowel](open-mid%20back%20rounded%20vowel.md):@:[English](English%20language.md) _n**o**t_ \[nɔt\] <!--SR:!2027-01-27,552,211-->
 - [nasalized open-mid back rounded vowel](nasal%20vowel.md):@:[French](French%20language.md) _s**on**_ \[sɔ̃\] "sound" <!--SR:!fsrs,2026-11-02T00:00:00.000Z,59,59.1244232,9.95572941,2,8,0,0,2026-09-04T00:00:00.000Z-->
-- [close-mid front rounded vowel](close-mid%20front%20rounded%20vowel.md):@:[French](French%20language.md) _p**eu**_ \[pø\] "few" <!--SR:!fsrs,2026-10-23T00:00:00.000Z,43,43.45992343,9.95583949,2,8,0,0,2026-09-10T00:00:00.000Z-->
+- [close-mid front rounded vowel](close-mid%20front%20rounded%20vowel.md):@:[French](French%20language.md) _p**eu**_ \[pø\] "few" <!--SR:!fsrs,2026-12-18T00:00:00.000Z,56,56.40316197,9.94111202,2,9,0,0,2026-10-23T00:00:00.000Z-->
 - [close-mid central rounded vowel](close-mid%20central%20rounded%20vowel.md):@:[English](English%20language.md) _f**oo**t_ \[fɵʔt\] <!--SR:!2026-12-20,222,170-->
 - [open-mid front rounded vowel](open-mid%20front%20rounded%20vowel.md):@:[French](French%20language.md) _j**eu**ne_ \[ʒœn\] "young" <!--SR:!fsrs,2026-11-20T00:00:00.000Z,84,84.44363724,9.97542228,2,8,0,0,2026-08-28T00:00:00.000Z-->
 - [nasalized open-mid front rounded vowel](nasal%20vowel.md):@:[French](French%20language.md) _br**un**_ \[bʁœ̃\] "brown" <!--SR:!fsrs,2026-11-04T00:00:00.000Z,75,74.90122184,9.97047151,2,8,0,0,2026-08-21T00:00:00.000Z-->

@@ -158,7 +158,7 @@ Additionally, for negative damping ratios:
 >
 > where
 >
-> - {@{$\lambda$}@} is {@{the decay rate of an [oscillator](oscillation.md)}@} with {@{natural frequency $\omega_n$ and damping ratio $\zeta$}@} <!--SR:!2026-10-23,717,323!2026-11-08,727,323!2027-09-16,541,404!2027-09-17,542,404!fsrs,2028-06-06T00:00:00.000Z,683,682.95260147,1,2,8,0,0,2026-07-24T00:00:00.000Z-->
+> - {@{$\lambda$}@} is {@{the decay rate of an [oscillator](oscillation.md)}@} with {@{natural frequency $\omega_n$ and damping ratio $\zeta$}@} <!--SR:!fsrs,2034-03-27T00:00:00.000Z,2712,2711.94530258,1,2,10,0,0,2026-10-23T00:00:00.000Z!2026-11-08,727,323!2027-09-16,541,404!2027-09-17,542,404!fsrs,2028-06-06T00:00:00.000Z,683,682.95260147,1,2,8,0,0,2026-07-24T00:00:00.000Z-->
 
 ## references
 

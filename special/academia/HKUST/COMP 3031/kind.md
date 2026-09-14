@@ -63,7 +63,7 @@ Intuitively, {@{a type function}@} is like {@{an ordinary function}@}, but accep
 
 - _left unit_: ::@:: `M.unit(x).flatMap(f) == f(x)` <!--SR:!2026-12-06,256,330!2026-11-16,246,330-->
 - _right unit_: ::@:: `m.flatMap(M.unit) == m` <!--SR:!2026-11-02,234,330!2026-11-10,241,330-->
-- _essential-associativity_: ::@:: `m.flatMap(f).flatMap(g) == m.flatMap(x => f(x).flatMap(g))` <!--SR:!fsrs,2027-09-27T00:00:00.000Z,379,378.55589827,5.50426382,2,9,0,0,2026-09-13T00:00:00.000Z!2026-10-23,204,310-->
+- _essential-associativity_: ::@:: `m.flatMap(f).flatMap(g) == m.flatMap(x => f(x).flatMap(g))` <!--SR:!fsrs,2027-09-27T00:00:00.000Z,379,378.55589827,5.50426382,2,9,0,0,2026-09-13T00:00:00.000Z!fsrs,2029-03-05T00:00:00.000Z,864,864.05150394,1,2,9,0,0,2026-10-23T00:00:00.000Z-->
 
 {@{These laws}@} guarantee that the generic `reduce` {@{behaves consistently when instantiated with a monoid}@}. Because {@{a monad}@} is {@{a property of a _type constructor_ (`F[_]`) rather than a plain type}@}, it is expressed as {@{a higher‑kinded type class}@}: <!--SR:!2027-01-11,285,330!2026-10-30,231,330!2026-12-14,263,330!2027-01-07,282,330!2026-12-25,272,330-->
 
@@ -197,7 +197,7 @@ Thus {@{the `Monad` type class}@} captures the semantics of both {@{constructing
 > ```
 <!--SR:!2026-12-30,276,330!2026-12-14,263,330!2027-01-04,280,330!2026-12-30,276,330-->
 
-{@{`m`}@} is {@{a type constructor of kind `* → *`}@}; {@{the two methods}@} capture {@{the same laws that Scala’s `Monad[F[_]]` encodes}@}. <!--SR:!2026-10-23,204,310!2026-10-29,230,330!2027-01-27,294,330!2027-01-15,289,330-->
+{@{`m`}@} is {@{a type constructor of kind `* → *`}@}; {@{the two methods}@} capture {@{the same laws that Scala’s `Monad[F[_]]` encodes}@}. <!--SR:!fsrs,2029-03-05T00:00:00.000Z,864,864.05150394,1,2,9,0,0,2026-10-23T00:00:00.000Z!2026-10-29,230,330!2027-01-27,294,330!2027-01-15,289,330-->
 
 {@{In _OCaml_}@} there are {@{no first‑class type classes}@}, but {@{the same idea can be encoded with modules}@}: <!--SR:!2027-01-26,293,330!2027-01-16,290,330!2026-12-17,265,330-->
 

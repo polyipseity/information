@@ -78,7 +78,7 @@ While {@{the _graph traversal_ in Fleury's algorithm is linear in the number of 
 
 ### Hierholzer's algorithm
 
-{@{[Hierholzer](Carl%20Hierholzer.md)'s 1873 paper}@} provides {@{a different method for finding Euler cycles that is more efficient than Fleury's algorithm}@}:  (annotation: 3 items: {@{choose any starting vertex, start trails from any traveled vertex with untraveled edges, repeat until all edges are exhausted}@}) <!--SR:!2029-04-08,1252,362!2031-03-31,1849,382!2026-10-23,148,422-->
+{@{[Hierholzer](Carl%20Hierholzer.md)'s 1873 paper}@} provides {@{a different method for finding Euler cycles that is more efficient than Fleury's algorithm}@}:  (annotation: 3 items: {@{choose any starting vertex, start trails from any traveled vertex with untraveled edges, repeat until all edges are exhausted}@}) <!--SR:!2029-04-08,1252,362!2031-03-31,1849,382!fsrs,2029-01-01T00:00:00.000Z,801,800.67662099,1,2,8,0,0,2026-10-23T00:00:00.000Z-->
 
 - Choose {@{any starting vertex _v_}@}, and {@{follow a trail of edges from that vertex until returning to _v_}@}. It is not {@{possible to get stuck at any vertex other than _v_}@}, because {@{the even degree of all vertices ensures that, when the trail enters another vertex _w_ there must be an unused edge leaving _w_}@}. {@{The tour formed in this way}@} is {@{a closed tour, but may not cover all the vertices and edges of the initial graph}@}.
 - As long as there exists {@{a vertex _u_ that belongs to the current tour but that has adjacent edges not part of the tour}@}, start {@{another trail from _u_, following unused edges until returning to _u_}@}, and join {@{the tour formed in this way to the previous tour}@}.

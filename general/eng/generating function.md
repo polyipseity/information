@@ -453,7 +453,7 @@ Generating function transformations can come into play when we seek to express a
 There are also {@{integral formulas for converting between a sequence's OGF, _F_(_z_), and its exponential generating function, or EGF, _F̂_(_z_), and vice versa}@} given by <!--SR:!fsrs,2032-09-14T00:00:00.000Z,2180,2179.87582164,1,2,10,0,0,2026-09-26T00:00:00.000Z-->
 
 - exponential generating function to ordinary generating function ::@:: $$F(z)=\int _{0}^{\infty }{\hat {F} }(tz)e^{-t}\,dt\,,$$ <!--SR:!fsrs,2026-11-25T00:00:00.000Z,148,147.73377144,8.48672837,2,8,0,0,2026-06-30T00:00:00.000Z!2027-01-01,514,270-->
-- ordinary generating function to exponential generating function ::@:: $${\hat {F} }(z)={\frac {1}{2\pi } }\int _{-\pi }^{\pi }F\left(ze^{-i\vartheta }\right)e^{e^{i\vartheta } }\,d\vartheta \,,$$ <!--SR:!2026-10-23,380,230!2027-01-25,475,230-->
+- ordinary generating function to exponential generating function ::@:: $${\hat {F} }(z)={\frac {1}{2\pi } }\int _{-\pi }^{\pi }F\left(ze^{-i\vartheta }\right)e^{e^{i\vartheta } }\,d\vartheta \,,$$ <!--SR:!fsrs,2028-11-03T00:00:00.000Z,742,742.15922894,6.23897837,2,10,0,0,2026-10-23T00:00:00.000Z!2027-01-25,475,230-->
 
 provided that {@{these integrals converge for appropriate values of _z_}@}. <!--SR:!2029-09-17,1400,350-->
 

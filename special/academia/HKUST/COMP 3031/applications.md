@@ -82,7 +82,7 @@ With {@{`charCode` available}@}, {@{any word}@} can be turned {@{into the numeri
 
 #### `Coder.wordsForNum`
 
-{@{The dictionary}@} is then {@{indexed by these digit strings}@} so that {@{a lookup of "7225"}@} immediately yields {@{all words whose encoding equals that sequence}@}. {@{The `withDefaultValue`}@} ensures {@{missing keys return an empty list rather than throwing}@}: <!--SR:!2026-11-08,294,330!fsrs,2028-08-27T00:00:00.000Z,708,707.6141386,2.49272837,2,9,0,0,2026-09-19T00:00:00.000Z!fsrs,2028-08-30T00:00:00.000Z,710,710.13394084,2.49272837,2,9,0,0,2026-09-20T00:00:00.000Z!2026-10-23,279,330!2026-10-25,281,330!2026-11-01,288,330-->
+{@{The dictionary}@} is then {@{indexed by these digit strings}@} so that {@{a lookup of "7225"}@} immediately yields {@{all words whose encoding equals that sequence}@}. {@{The `withDefaultValue`}@} ensures {@{missing keys return an empty list rather than throwing}@}: <!--SR:!2026-11-08,294,330!fsrs,2028-08-27T00:00:00.000Z,708,707.6141386,2.49272837,2,9,0,0,2026-09-19T00:00:00.000Z!fsrs,2028-08-30T00:00:00.000Z,710,710.13394084,2.49272837,2,9,0,0,2026-09-20T00:00:00.000Z!fsrs,2030-02-22T00:00:00.000Z,1218,1217.87747351,1,2,9,0,0,2026-10-23T00:00:00.000Z!2026-10-25,281,330!2026-11-01,288,330-->
 
 > [!example] __`Coder.wordsForNum`__
 >
@@ -140,11 +140,11 @@ Thus the implementation finds {@{all valid mnemonic phrases in a handful of line
 {@{The concise implementation}@} hinges on {@{several features of Scala's collection library}@}: \(annotation: 4 items: {@{concise, fast, safe, universal}@}\) <!--SR:!fsrs,2030-02-07T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-10-20T00:00:00.000Z!fsrs,2028-09-03T00:00:00.000Z,713,712.65274453,2.49272837,2,9,0,0,2026-09-21T00:00:00.000Z!2026-10-29,285,330-->
 
 - _concise_ ::@:: A single for-comprehension or higher-order function replaces multiple nested loops. As a result, few steps are needed. <!--SR:!fsrs,2030-01-06T00:00:00.000Z,1184,1183.64577796,1,2,9,0,0,2026-10-10T00:00:00.000Z!fsrs,2030-02-12T00:00:00.000Z,1210,1210.28222352,1,2,9,0,0,2026-10-21T00:00:00.000Z-->
-- _fast_ ::@:: Operations on collections may be optimized and parallelized. <!--SR:!2026-10-23,279,330!fsrs,2030-01-25T00:00:00.000Z,1199,1198.87680538,1,2,9,0,0,2026-10-14T00:00:00.000Z-->
+- _fast_ ::@:: Operations on collections may be optimized and parallelized. <!--SR:!fsrs,2030-02-22T00:00:00.000Z,1218,1217.87747351,1,2,9,0,0,2026-10-23T00:00:00.000Z!fsrs,2030-01-25T00:00:00.000Z,1199,1198.87680538,1,2,9,0,0,2026-10-14T00:00:00.000Z-->
 - _safe_ ::@:: The type checker guarantees that collections are manipulated in a valid way. <!--SR:!fsrs,2030-01-01T00:00:00.000Z,1180,1179.83367202,1,2,9,0,0,2026-10-09T00:00:00.000Z!fsrs,2029-08-12T00:00:00.000Z,1068,1068.495917,1,2,9,0,0,2026-09-09T00:00:00.000Z-->
 - _universal_ ::@:: The API interfaces exposed by lists, vectors, sets, maps, etc. are almost the same. <!--SR:!fsrs,2030-02-17T00:00:00.000Z,1214,1214.08066657,1,2,9,0,0,2026-10-22T00:00:00.000Z!fsrs,2030-02-03T00:00:00.000Z,1203,1202.68030072,1,2,9,0,0,2026-10-19T00:00:00.000Z-->
 
-These qualities illustrate why {@{immutable Scala collections}@} are considered {@{a powerful tool for modern software development}@}. <!--SR:!2026-10-23,279,330!fsrs,2030-01-15T00:00:00.000Z,1191,1191.26470738,1,2,9,0,0,2026-10-12T00:00:00.000Z-->
+These qualities illustrate why {@{immutable Scala collections}@} are considered {@{a powerful tool for modern software development}@}. <!--SR:!fsrs,2030-02-22T00:00:00.000Z,1218,1217.87747351,1,2,9,0,0,2026-10-23T00:00:00.000Z!fsrs,2030-01-15T00:00:00.000Z,1191,1191.26470738,1,2,9,0,0,2026-10-12T00:00:00.000Z-->
 
 ## database
 

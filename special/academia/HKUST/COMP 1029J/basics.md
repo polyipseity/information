@@ -108,7 +108,7 @@ return chain.from_iterable([r.value for r in results])
 
 ### conversion
 
-One cannot usually assign a value of a type to a variable {@{declared with a different type}@}: <!--SR:!2026-10-23,745,330-->
+One cannot usually assign a value of a type to a variable {@{declared with a different type}@}: <!--SR:!fsrs,2034-09-01T00:00:00.000Z,2870,2870.21862705,1,2,11,0,0,2026-10-23T00:00:00.000Z-->
 
 ```Java
 int anInteger = 3.14; // compilation error

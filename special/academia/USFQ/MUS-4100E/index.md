@@ -362,7 +362,7 @@ The content is in teaching order.
     - swing music / singers ::@:: When big bands went on tours, they often had singers. Sometimes one. Sometimes many. Includes both men and women. <!--SR:!2026-11-11,498,402!2027-08-08,728,422-->
         - swing music / singers / examples (popular) ::@:: Billie Holiday, Cab Calloway, Ella Fitzgerald, Frank Sinatra <!--SR:!2027-02-08,544,402!2027-06-08,675,422-->
 - [scat singing](../../../../general/scat%20singing.md) ::@:: vocal improvisation with wordless vocables, nonsense syllables or without words at all <!--SR:!2026-12-15,520,402!2027-06-23,690,422-->
-    - scat singing / made popular by ::@:: "Heebie Jeebies" (1926) — Louis Armstrong; the legend was he dropped the sheet music while recording <!--SR:!2027-08-02,723,422!2026-10-23,481,402-->
+    - scat singing / made popular by ::@:: "Heebie Jeebies" (1926) — Louis Armstrong; the legend was he dropped the sheet music while recording <!--SR:!2027-08-02,723,422!fsrs,2030-09-01T00:00:00.000Z,1409,1408.56208782,1,2,10,0,0,2026-10-23T00:00:00.000Z-->
 - [Ella Fitzgerald](../../../../general/Ella%20Fitzgerald.md) (1917–1996) ::@:: "First Lady of Song"; _possibly_ most famous female jazz singer; known for her powerful voice, quick vibrato, original style of "scat" singing <!--SR:!2030-02-27,1453,402!2027-06-28,694,422-->
     - Ella Fitzgerald / claim to fame ::@:: She was working for the mafia (running numbers). She then won a talent show at the Apollo Theater that started her career. Then she was a singer in Chick Webb's band, which she took over after Chick's untimely death. <!--SR:!2026-12-14,519,402!2030-04-02,1480,402-->
     - Ella Fitzgerald / works ::@:: "How High The Moon" (1966) — Ella Fitzgerald <!--SR:!2030-12-28,1703,402!2027-07-28,718,422-->

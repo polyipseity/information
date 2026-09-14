@@ -413,7 +413,7 @@ tags:
 > 4. neither
 >
 > - solution: {@{2}@}
-> - explanation: {@{This shows how net positive value \(NPV\) is a direct application of the valuation principle.}@} <!--SR:!2026-10-23,476,399!2026-10-25,477,399-->
+> - explanation: {@{This shows how net positive value \(NPV\) is a direct application of the valuation principle.}@} <!--SR:!fsrs,2032-10-29T00:00:00.000Z,2198,2198.19462525,1,2,10,0,0,2026-10-23T00:00:00.000Z!2026-10-25,477,399-->
 
 <!-- markdownlint MD028 -->
 

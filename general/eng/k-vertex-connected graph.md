@@ -52,7 +52,7 @@ Let {@{_k≥2_}@}. \(annotation: 2 properties: {@{existence of a cycle of length
 
 ## _k_-linked graph
 
-{@{A graph with at least $2k$ vertices}@} is called ___k_-linked__ if {@{there are $k$ (vertex-)disjoint paths connecting $a_i$ to $b_i$ for any sequences $a_{1},\dots ,a_{k}$ and $b_{1},\dots ,b_{k}$ of $2k$ distinct vertices}@}. {@{Every _k_-linked graph}@} is {@{$(2k-1)$-connected graph, but not necessarily $2k$-connected}@}. <sup>[\[7\]](#^ref-7)</sup> <!--SR:!2027-06-23,686,330!2026-10-23,481,310!2029-02-15,1169,350!2026-11-11,495,310-->
+{@{A graph with at least $2k$ vertices}@} is called ___k_-linked__ if {@{there are $k$ (vertex-)disjoint paths connecting $a_i$ to $b_i$ for any sequences $a_{1},\dots ,a_{k}$ and $b_{1},\dots ,b_{k}$ of $2k$ distinct vertices}@}. {@{Every _k_-linked graph}@} is {@{$(2k-1)$-connected graph, but not necessarily $2k$-connected}@}. <sup>[\[7\]](#^ref-7)</sup> <!--SR:!2027-06-23,686,330!fsrs,2031-10-24T00:00:00.000Z,1827,1827.35405156,1,2,10,0,0,2026-10-23T00:00:00.000Z!2029-02-15,1169,350!2026-11-11,495,310-->
 
 If {@{a graph is $2k$-connected and has average degree of at least $16k$}@}, then {@{it is $k$-linked}@}. <sup>[\[8\]](#^ref-8)</sup> <!--SR:!fsrs,2027-03-04T00:00:00.000Z,210,209.70268582,6.23897837,2,8,0,0,2026-08-06T00:00:00.000Z!2027-08-01,713,330-->
 
