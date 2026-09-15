@@ -19,11 +19,14 @@ __all__ = ()
 class TestConstants:
     """Tests for module-level constants."""
 
-    def test_name_map_loaded(self) -> None:
+    def test_name_map_loaded(self, tmp_path: PathLike[str]) -> None:
         """_load_names_map should return a non-empty dict from JSONC only."""
-        result = _mod._load_names_map()  # noqa: SLF001
+        small_map = {"Test key": "test value"}
+        map_path = PathlibPath(os.fspath(tmp_path)) / "small.name_map.jsonc"
+        map_path.write_text(json.dumps(small_map), encoding="UTF-8")
+        result = _mod._load_names_map(map_path)  # noqa: SLF001
         assert isinstance(result, dict)
-        assert len(result) > 0
+        assert result == small_map
 
     def test_load_names_map_from_custom_path(self, tmp_path: PathLike[str]) -> None:
         """_load_names_map should load only from the given JSONC path."""
