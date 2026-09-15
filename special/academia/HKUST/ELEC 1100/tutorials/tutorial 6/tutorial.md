@@ -39,7 +39,7 @@ No additional details were added for this assignment.
 > 3. $12\text{ V}$ and $0\text{ V}$
 > 4. $12\text{ V}$ and $5\text{ V}$
 >
-> - solution: {@{$12\text{ V}$ (pin 8, VS) and $5\text{ V}$ (pin 16, VCC)$}@}
+> - solution: {@{$12\text{ V}$ (pin 8, VS) and $5\text{ V}$ (pin 16, VCC)}@}
 > - explanation: {@{Pin 8 (VS)}@} is {@{the motor supply $12\text{ V}$}@}, {@{pin 16 (VCC)}@} is {@{the logic supply $5\text{ V}$}@}.
 
 <!-- markdownlint MD028 -->
@@ -52,4 +52,4 @@ No additional details were added for this assignment.
 > 4. $16$
 >
 > - solution: {@{$8$}@}
-> - explanation: {@{A truth table with $n$ inputs}@} has {@{$2^n$ combinations}!}. For {@{$n=3$}@}, {@{$2^3 = 8$}@}.
+> - explanation: {@{A truth table with $n$ inputs}@} has {@{$2^n$ combinations}@}. For {@{$n=3$}@}, {@{$2^3 = 8$}@}.

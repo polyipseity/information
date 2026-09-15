@@ -87,7 +87,7 @@ Having observed {@{wave behavior}@}, now change {@{the experiment, lowering the 
 
 > {@{![Electron diffraction pattern](../../archives/Wikimedia%20Commons/Roger%20Bach%20et%20al%202013%20New%20J.%20Phys.%2015%20033018%20Figure%203%20cropped%20to%20top%20frame.jpg)}@}
 >
-> {@{![Dots slowly filling an interference pattern.](../../archives/Wikimedia%20Commons/Electron%20buildup%20movie%20from%20%22Controlled%20double-slit%20electron%20diffraction%22%20Roger%20Bach%20et%20al%202013%20New%20J.%20Phys.%2015%20033018.gif)}@}
+> {@{![Dots slowly filling an interference pattern.](../../archives/Wikimedia%20Commons/Electron%20buildup%20movie%20from%20%5FControlled%20double-slit%20electron%20diffraction%5F%20Roger%20Bach%20et%20al%202013%20New%20J.%20Phys.%2015%20033018.gif)}@}
 >
 > Experimental {@{electron double slit diffraction pattern}@}.<sup>[\[23\]](#^ref-23)</sup> Across {@{the middle of the image at the top}@} {@{the intensity alternates from high to low}@} showing {@{interference in the signal from the two slits}@}. Bottom: movie of {@{the pattern build up dot by dot}@}. __Click on the thumbnail to enlarge the movie.__
 
