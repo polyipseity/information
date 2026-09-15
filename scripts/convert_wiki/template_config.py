@@ -18,6 +18,7 @@ import json5
 """Exported names from this module."""
 __all__ = ()
 
+"""Path to the JSONC template configuration file."""
 _TEMPLATE_CONFIG_PATH = (
     PathlibPath(__file__).resolve(strict=True).parent.parent
     / "assets"
@@ -28,19 +29,23 @@ _TEMPLATE_CONFIG_PATH = (
 def _load_template_config(
     path: PathlibPath | None = None,
 ) -> dict[str, Any]:
+    """Load and return the template configuration from JSONC."""
     resolved = path or _TEMPLATE_CONFIG_PATH
     with open(resolved, "rt", encoding="UTF-8") as f:
         return json5.load(f)
 
 
+"""Parsed template configuration loaded from JSONC."""
 _config: dict[str, Any] = _load_template_config()
 
 # --- Display math containers (previously in converter.py and pipeline.py) ---
 
+"""HTML tags whose children may contain display math."""
 _DISPLAY_MATH_CONTAINERS: frozenset[str] = frozenset(_config["display_math_containers"])
 
 # --- Table formatting regexes (previously duplicated in table.py) ---
 
+"""Regex matching Markdown table separator cells."""
 _SEPARATOR_CELL_RE: Pattern[str] = re.compile(r":?-+:?")
 """Matches a leading blockquote prefix (one or more ``>`` markers, each followed by whitespace)."""
 _BLOCKQUOTE_PREFIX_RE: Pattern[str] = re.compile(r"^(>\s+)+")
@@ -53,26 +58,33 @@ _CONSECUTIVE_LEADING_WHITESPACES_REGEX: Pattern[str] = re.compile(
 
 # --- Template class sets (previously in converter.py) ---
 
+"""CSS classes that render as boxed/bordered blocks."""
 _BOXED_CLASSES: frozenset[str] = frozenset(_config["boxed_classes"])
 """Box-like classes whose content renders as a blockquote (excludes equation-box)."""
 _BLOCKQUOTE_CLASSES: frozenset[str] = frozenset(
     c for c in _config["boxed_classes"] if c != "equation-box"
 )
+"""CSS classes whose content should not be reformatted."""
 _OPAQUE_SPAN_CLASSES: frozenset[str] = _BOXED_CLASSES | frozenset(
     _config["opaque_span_classes_extra"]
 )
+"""HTML tags for embedded media (audio, video)."""
 _MEDIA_TAGS: frozenset[str] = frozenset(_config["media_tags"])
+"""Self-closing HTML tags that have no children."""
 _ATOMIC_TAGS: frozenset[str] = frozenset(_config["atomic_tags"])
+"""Block-level HTML tags that prevent inline-only classification."""
 _BLOCK_TAGS: frozenset[str] = frozenset(_config["block_tags"])
 
 # --- Display math environments (previously in converter.py) ---
 
+"""LaTeX environment names that render as display math."""
 _DISPLAY_MATH_ENVIRONMENTS: tuple[str, ...] = tuple(
     _config["display_math_environments"]
 )
 
 # --- Inline list classes (previously hardcoded "portalbox") ---
 
+"""CSS classes that produce inline list rendering."""
 _INLINE_LIST_CLASSES: frozenset[str] = frozenset(
     _config.get("inline_list_classes", ["portalbox"])
 )
@@ -83,6 +95,8 @@ _INLINE_LIST_CLASSES: frozenset[str] = frozenset(
 
 @dataclass(frozen=True)
 class NavboxSpec:
+    """Dataclass defining navbox table column layout and constraints."""
+
     linear_indices: tuple[int, ...]
     angular_indices: tuple[int, ...]
     title_style_pattern: str
@@ -92,6 +106,7 @@ class NavboxSpec:
 
 
 def _load_navbox_spec(config: dict[str, Any]) -> NavboxSpec:
+    """Parse navbox configuration and return a NavboxSpec."""
     nb: dict[str, Any] = config.get("navbox", {})
     layout: dict[str, Any] = nb.get("column_layout", {})
     return NavboxSpec(
@@ -106,6 +121,7 @@ def _load_navbox_spec(config: dict[str, Any]) -> NavboxSpec:
     )
 
 
+"""Specification for Wikimedia navbox table layout."""
 _NAVBOX_SPEC: NavboxSpec = _load_navbox_spec(_config)
 
 
@@ -114,6 +130,8 @@ _NAVBOX_SPEC: NavboxSpec = _load_navbox_spec(_config)
 
 @dataclass(frozen=True)
 class SidebarWrapRule:
+    """Rule for wrapping sidebar list items in a specific tag."""
+
     css_class: str
     wrap_tag: str
     scope: str  # "li" or "children"
@@ -121,6 +139,8 @@ class SidebarWrapRule:
 
 @dataclass(frozen=True)
 class SidebarSpec:
+    """Specification for sidebar table trigger classes and wrap rules."""
+
     trigger_classes: frozenset[str]
     wrap_rules: tuple[SidebarWrapRule, ...]
     caption_class: str
@@ -128,6 +148,7 @@ class SidebarSpec:
 
 
 def _load_sidebar_spec(config: dict[str, Any]) -> SidebarSpec:
+    """Parse sidebar configuration and return a SidebarSpec."""
     sb: dict[str, Any] = config.get("sidebar", {})
     return SidebarSpec(
         trigger_classes=frozenset(sb.get("trigger_classes", ["sidebar", "cm-sidebar"])),
@@ -144,6 +165,7 @@ def _load_sidebar_spec(config: dict[str, Any]) -> SidebarSpec:
     )
 
 
+"""Specification for Wikipedia sidebar table layout."""
 _SIDEBAR_SPEC: SidebarSpec = _load_sidebar_spec(_config)
 
 
@@ -152,6 +174,8 @@ _SIDEBAR_SPEC: SidebarSpec = _load_sidebar_spec(_config)
 
 @dataclass(frozen=True)
 class InfoboxCaptionRule:
+    """Rule for transforming a single infobox caption cell."""
+
     cell_tag: str
     cell_class: str
     wrap_tag: str | None
@@ -160,6 +184,7 @@ class InfoboxCaptionRule:
 def _load_infobox_captions(
     config: dict[str, Any],
 ) -> tuple[InfoboxCaptionRule, ...]:
+    """Parse infobox caption rules from configuration."""
     return tuple(
         InfoboxCaptionRule(
             cell_tag=r["cell_tag"],
@@ -170,4 +195,5 @@ def _load_infobox_captions(
     )
 
 
+"""Rules for transforming infobox caption rows."""
 _INFOBOX_CAPTION_RULES: tuple[InfoboxCaptionRule, ...] = _load_infobox_captions(_config)

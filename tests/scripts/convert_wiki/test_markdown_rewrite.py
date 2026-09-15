@@ -1,5 +1,6 @@
 """Tests for scripts.convert_wiki.markdown_rewrite."""
 
+from scripts.convert_wiki.config import _NAMES_MAP
 from scripts.convert_wiki.markdown_rewrite import (
     _align_plain_to_raw,
     _resolve_plain_rewrite,
@@ -8,9 +9,60 @@ from scripts.convert_wiki.markdown_rewrite import (
     _rewrite_markdown_links,
     _rewrite_plain_span,
 )
+from scripts.convert_wiki.utils import _fix_name_maybe
 
 """Public API of this test module (empty: no symbols are exported)."""
 __all__ = ()
+
+
+class TestFixNameMaybe:
+    """Tests for the _fix_name_maybe function."""
+
+    def test_normalize_non_breaking_space(self) -> None:
+        """Should replace non-breaking spaces with regular spaces."""
+        result = _fix_name_maybe("Hello\u00a0World")  # noqa: SLF001
+        assert result == "Hello World"
+
+    def test_mapped_name(self) -> None:
+        """Should return the mapped name if it exists in _NAMES_MAP."""
+        for key, expected in _NAMES_MAP.items():  # noqa: SLF001
+            result = _fix_name_maybe(key)  # noqa: SLF001
+            assert result == expected
+            break
+        else:
+            assert isinstance(_fix_name_maybe("test"), str)  # noqa: SLF001
+
+    def test_replace_underscores(self) -> None:
+        """Should replace underscores with spaces when requested."""
+        result = _fix_name_maybe(  # noqa: SLF001
+            "Hello_World", replace_underscores=True
+        )
+        assert "_" not in result
+        assert "Hello World" in result or result.islower()
+
+    def test_single_char_name(self) -> None:
+        """Should handle single character names without crashing."""
+        result = _fix_name_maybe("A")  # noqa: SLF001
+        assert isinstance(result, str)
+
+    def test_short_name_lowercase_second_char(self) -> None:
+        """Should lowercase first char when second char is already lowercase."""
+        result = _fix_name_maybe("aBC")  # noqa: SLF001
+        assert result == "aBC"
+
+    def test_lowercase_first_char_relooks_up_names_map(self) -> None:
+        """Lowercase-first-char fallback should consult names_map on lowered key."""
+        names_map = {"lie bracket of vector fields": "Lie bracket of vector fields"}
+        result = _fix_name_maybe(  # noqa: SLF001
+            "Lie bracket of vector fields",
+            names_map=names_map,
+        )
+        assert result == "Lie bracket of vector fields"
+
+    def test_unmapped_title_still_lowercases_first_char(self) -> None:
+        """Unmapped titles should keep the lowercase-first-char heuristic."""
+        result = _fix_name_maybe("Fourier transform", names_map={})  # noqa: SLF001
+        assert result == "fourier transform"
 
 
 class TestResolvePlainRewrite:

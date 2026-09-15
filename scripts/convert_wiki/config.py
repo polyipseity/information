@@ -231,6 +231,7 @@ class _WikimediaRetry(JitterRetry):
 
     @override
     def get_timeout(self, attempt: int, response=None) -> float:
+        """Return the retry timeout, respecting Retry-After headers on 429."""
         if response is not None and response.status == 429:
             retry_after = response.headers.get("Retry-After")
             if retry_after is not None:

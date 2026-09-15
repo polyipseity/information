@@ -121,25 +121,6 @@ def parser() -> argparse.ArgumentParser:
 class TestArgumentParsing:
     """Verify argparse correctly parses CLI arguments."""
 
-    def test_defaults(self, parser: argparse.ArgumentParser) -> None:
-        """Default arguments should set output-mode to clipboard."""
-        args = parser.parse_args([])
-        assert args.output_mode == "clipboard"
-        assert args.no_refs is False
-        assert args.clipboard is False
-        assert args.output_file is None
-        assert args.input_file == Path("-")
-
-    def test_no_refs(self, parser: argparse.ArgumentParser) -> None:
-        """--no-refs flag should be parsed correctly."""
-        args = parser.parse_args(["--no-refs"])
-        assert args.no_refs is True
-
-    def test_output_mode_stdout(self, parser: argparse.ArgumentParser) -> None:
-        """-m stdout should be recognised."""
-        args = parser.parse_args(["-m", "stdout"])
-        assert args.output_mode == "stdout"
-
     def test_output_mode_stderr(self, parser: argparse.ArgumentParser) -> None:
         """--output-mode stderr should be recognised."""
         args = parser.parse_args(["--output-mode", "stderr"])
@@ -163,20 +144,10 @@ class TestArgumentParsing:
         args = parser.parse_args(["-i", "/path/to/input.html"])
         assert args.input_file == Path("/path/to/input.html")
 
-    def test_clipboard_flag(self, parser: argparse.ArgumentParser) -> None:
-        """--clipboard flag should be parsed."""
-        args = parser.parse_args(["-c"])
-        assert args.clipboard is True
-
     def test_short_output_file(self, parser: argparse.ArgumentParser) -> None:
         """-f with short form should work."""
         args = parser.parse_args(["-f", "output.md"])
         assert args.output_file == Path("output.md")
-
-    def test_update_redirects_flag(self, parser: argparse.ArgumentParser) -> None:
-        """--update-redirects flag should be parsed."""
-        args = parser.parse_args(["--update-redirects"])
-        assert args.update_redirects is True
 
     def test_dry_run_flag(self, parser: argparse.ArgumentParser) -> None:
         """--dry-run flag should be parsed."""

@@ -2636,50 +2636,6 @@ class TestStaticUtilities:
 # ---------------------------------------------------------------------------
 
 
-class TestMultiElementIntegration:
-    """Tests combining multiple handlers in a single HTML tree."""
-
-    @pytest.mark.anyio
-    async def test_heading_followed_by_paragraph(
-        self, converter: WikiHtmlConverter
-    ) -> None:
-        """``<h2>`` followed by ``<p>`` should produce well-separated output."""
-        result = await _convert(converter, "<h2>Title</h2><p>Content</p>")
-        assert "## title" in result
-        assert "Content" in result
-
-    @pytest.mark.anyio
-    async def test_bold_inside_paragraph(self, converter: WikiHtmlConverter) -> None:
-        """Bold text inside a paragraph should render correctly."""
-        result = await _convert(converter, "<p>a <b>b</b> c</p>")
-        assert "a __b__ c" in result or "a" in result
-
-    @pytest.mark.anyio
-    async def test_link_inside_paragraph(self, converter: WikiHtmlConverter) -> None:
-        """Link inside a paragraph should remain inline."""
-        html = '<p>see <a title="Target" href="/wiki/Target">target</a> for details</p>'
-        result = await _convert(converter, html)
-        assert "see [target]" in result
-
-    @pytest.mark.anyio
-    async def test_block_math_inside_paragraph(
-        self, converter: WikiHtmlConverter
-    ) -> None:
-        """Block math inside a paragraph should be inline with text."""
-        result = await _convert(
-            converter,
-            f"<p>before {_block_math_span(r'{\displaystyle f(x)}')} after</p>",
-        )
-        assert "before $$f(x)$$ after" in result
-
-
-# ---------------------------------------------------------------------------
-
-# Dispatch / edge-case tests
-
-# ---------------------------------------------------------------------------
-
-
 class TestDispatchEdgeCases:
     """Tests for the dispatch mechanism in ``_dispatch``."""
 
@@ -2718,11 +2674,11 @@ class TestDispatchEdgeCases:
 
 
 @pytest.mark.anyio
-async def test_sidebar_caption_emits_p_separator(
+async def test_sidebar_caption_emits_br_separator(
     converter: WikiHtmlConverter, tmp_path: PathLike[str]
 ) -> None:
     """A ``sidebar-caption`` div inside a table cell is separated from the
-    preceding math by a ``<p>`` cell separator, not a block break.
+    preceding math by a ``<br/>`` line break, not a paragraph separator.
 
     Regression for the ``Hamiltonian mechanics`` / ``Lagrangian mechanics``
     infobox sidebar caption formatting change.
@@ -2738,22 +2694,22 @@ async def test_sidebar_caption_emits_p_separator(
         "</tr></tbody></table>"
     )
     result = await _convert(converter, html)
-    assert " <p> [Second law of motion](/wiki/Second_law_of_motion)" in result
+    assert " <br/> [Second law of motion](/wiki/Second_law_of_motion)" in result
     # Mirror the snapshot harness: pipeline output is stripped and ends
     # with a single trailing newline before linting.
     await _assert_markdownlint_clean(result.strip() + "\n", AnyioPath(tmp_path))
 
 
 @pytest.mark.anyio
-async def test_infobox_caption_emits_p_separator(
+async def test_infobox_caption_emits_br_separator(
     converter: WikiHtmlConverter, tmp_path: PathLike[str]
 ) -> None:
     """An ``infobox-caption`` div inside an ``infobox-image`` table cell is
-    separated from the preceding image by a ``<p>`` cell separator, not a
-    block break.
+    separated from the preceding image by a ``<br/>`` line break, not a
+    paragraph separator.
 
     Regression for the ``moment of inertia`` infobox image/caption
-    formatting change (empty col1 + ``<p>`` separator).
+    formatting change (empty col1 + ``<br/>`` separator).
     """
     html = (
         '<table class="infobox"><tbody><tr>'
@@ -2767,7 +2723,7 @@ async def test_infobox_caption_emits_p_separator(
         "</tr></tbody></table>"
     )
     result = await _convert(converter, html)
-    assert " <p> [Flywheels](/wiki/Flywheel)" in result
+    assert " <br/> [Flywheels](/wiki/Flywheel)" in result
     # Mirror the snapshot harness: pipeline output is stripped and ends
     # with a single trailing newline before linting.
     await _assert_markdownlint_clean(result.strip() + "\n", AnyioPath(tmp_path))

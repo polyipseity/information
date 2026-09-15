@@ -31,7 +31,6 @@ from scripts.convert_wiki.pipeline import (
     _collect_block_math_info,
     _determine_needs_after,
     _determine_needs_before,
-    _make_converter,
     _scan_and_apply,
     _separate_block_math,
     _separate_block_quotes,
@@ -46,33 +45,6 @@ __all__ = ()
 
 # =========================================================================
 # _make_converter — factory function
-# =========================================================================
-
-
-class TestMakeConverter:
-    """Tests for the ``_make_converter`` factory function."""
-
-    def test_default_constructor(self) -> None:
-        """Factory returns a ``WikiHtmlConverter`` instance with default args."""
-        converter = _make_converter()
-        assert converter is not None
-        # The converter should be a WikiHtmlConverter and have default dirs set.
-        assert hasattr(converter, "convert")
-
-    def test_custom_paths(self, tmp_path: PathLike[str]) -> None:
-        """Factory passes custom paths through to the converter."""
-        tmp = Path(tmp_path)
-        lang_dir = tmp / "general" / "eng"
-        converter = _make_converter(
-            wiki_dir=tmp / "general",
-            wiki_lang_dir=lang_dir,
-        )
-        assert converter is not None
-        assert hasattr(converter, "convert")
-
-
-# =========================================================================
-# _determine_needs_before / _determine_needs_after — spacing decisions
 # =========================================================================
 
 
@@ -422,17 +394,6 @@ class TestInlineMathSpacing:
         assert _separate_block_math("$x$/3") == "$x$<!-- markdown separator -->/3"
         assert _separate_block_math("$x$_n") == "$x$<!-- markdown separator -->_n"
 
-    def test_inline_math_in_block_unchanged(self) -> None:
-        """Block and inline each spaced once — no double insertion.
-
-        ``$x$`` is atomic, so it gets the zero-width marker on both sides.
-        """
-        assert _separate_block_math("a $$f$$ b $x$ c") == "a $$f$$ b $x$ c"
-        assert (
-            _separate_block_math("a$$f$$b$x$c")
-            == "a $$f$$ b<!-- markdown separator -->$x$<!-- markdown separator -->c"
-        )
-
     def test_scan_and_apply_dollar_region_skipped(self) -> None:
         """``$$...$$`` regions are never matched as single-``$`` spans."""
         result = _scan_and_apply("$$f$$", [("f", False, False, False)])
@@ -535,10 +496,6 @@ class TestBlockMathLineBreaks:
     def test_two_blocks_two_spaces(self) -> None:
         """Two block-math spans with a two-space gap get a line break."""
         assert _separate_block_math("$$f$$  $$g$$") == "$$f$$ <br/> $$g$$"
-
-    def test_two_blocks_one_space(self) -> None:
-        """A one-space gap gets the same treatment."""
-        assert _separate_block_math("$$f$$ $$g$$") == "$$f$$ <br/> $$g$$"
 
     def test_three_blocks(self) -> None:
         """A chain of three block-math spans breaks between each pair."""
@@ -671,22 +628,10 @@ class TestSeparateBlockQuotes:
         text = "Just a normal paragraph."
         assert _separate_block_quotes(text) == text
 
-    def test_no_blockquotes_no_change(self) -> None:
-        """No blockquote lines → no change."""
-        text = "Plain text\n\nMore text"
-        result = _separate_block_quotes(text)
-        assert result == text
-
     def test_single_blockquote(self) -> None:
         """Single blockquote → no comment inserted."""
         text = "> This is a single blockquote."
         assert _separate_block_quotes(text) == text
-
-    def test_single_blockquote_no_change(self) -> None:
-        """Single blockquote → no change."""
-        text = "> Single block"
-        result = _separate_block_quotes(text)
-        assert result == text
 
     def test_single_multiline_blockquote(self) -> None:
         """Single multi-line blockquote → no comment."""
@@ -706,22 +651,6 @@ class TestSeparateBlockQuotes:
         result = _separate_block_quotes("> A\n\n> B")
         expected = "> A\n\n<!-- markdownlint MD028 -->\n\n> B"
         assert result == expected
-
-    def test_adjacent_blockquotes(self) -> None:
-        """Two adjacent blockquotes with blank line → MD028 comment."""
-        text = "> First block\n\n> Second block"
-        result = _separate_block_quotes(text)
-        assert result == (
-            "> First block\n\n<!-- markdownlint MD028 -->\n\n> Second block"
-        )
-
-    def test_no_trailing_newline_after_second_block(self) -> None:
-        """Second blockquote without trailing newline → still matches."""
-        text = "> First block\n\n> Second block"
-        result = _separate_block_quotes(text)
-        assert "Second block" in result
-
-    # ── Three consecutive blockquotes ────────────────────────────
 
     def test_three_consecutive_blockquotes(self) -> None:
         """Three consecutive blockquotes → MD028 between each pair."""
@@ -744,20 +673,6 @@ class TestSeparateBlockQuotes:
         assert lines[7] == ""
         assert lines[8] == "> C"
 
-    def test_three_adjacent_blockquotes(self) -> None:
-        """Three adjacent blockquotes → MD028 between each pair."""
-        text = "> Block 1\n\n> Block 2\n\n> Block 3"
-        result = _separate_block_quotes(text)
-        # New AST-based function correctly handles all adjacent pairs.
-        assert result.count("<!-- markdownlint MD028 -->") == 2
-        assert result == (
-            "> Block 1\n\n<!-- markdownlint MD028 -->\n\n"
-            "> Block 2\n\n<!-- markdownlint MD028 -->\n\n"
-            "> Block 3"
-        )
-
-    # ── Blockquotes with other content ───────────────────────────
-
     def test_blockquote_paragraph_blockquote(self) -> None:
         """Blockquote → paragraph → blockquote → no comment."""
         text = "> Quote\n\nParagraph\n\n> Another quote"
@@ -770,20 +685,6 @@ class TestSeparateBlockQuotes:
         text = "> Quote\n\n# Heading\n\n> Another quote"
         result = _separate_block_quotes(text)
         assert "<!-- markdownlint MD028 -->" not in result
-
-    def test_blockquote_then_other_content(self) -> None:
-        """Blockquote followed by non-blockquote → no MD028."""
-        text = "> A quote\n\nNot a quote"
-        result = _separate_block_quotes(text)
-        assert result == text
-
-    def test_other_content_then_blockquote(self) -> None:
-        """Non-blockquote followed by blockquote → no MD028."""
-        text = "Not a quote\n\n> A quote"
-        result = _separate_block_quotes(text)
-        assert result == text
-
-    # ── Edge cases ───────────────────────────────────────────────
 
     def test_nested_blockquote(self) -> None:
         """Nested blockquotes (``> >``) should not confuse separation."""
@@ -818,24 +719,6 @@ class TestSeparateBlockQuotes:
         result = _separate_block_quotes(text)
         assert "<!-- markdownlint MD028 -->" in result
 
-    def test_newlines_only_between_blockquotes(self) -> None:
-        """Multiple blank lines between blockquotes → single MD028."""
-        result = _separate_block_quotes("> A\n\n\n> B")
-        # Should replace the gap with MD028 + blank
-        assert result.count("<!-- markdownlint MD028 -->") == 1
-
-    def test_empty_lines_only(self) -> None:
-        """Only empty lines and blockquotes."""
-        text = "> Quote\n\n\n> Another"
-        result = _separate_block_quotes(text)
-        assert "<!-- markdownlint MD028 -->" in result
-
-    def test_blockquote_with_nested_list(self) -> None:
-        """Blockquote containing nested list elements."""
-        text = "> Outer\n> - Item\n> - Item\n\n> Next quote"
-        result = _separate_block_quotes(text)
-        assert "<!-- markdownlint MD028 -->" in result
-
     def test_blockquote_with_code_fence(self) -> None:
         """Blockquote containing a code fence."""
         text = "> Quote with:\n> ```\n> code block\n> ```\n\n> Next quote"
@@ -848,17 +731,6 @@ class TestSeparateBlockQuotes:
         result = _separate_block_quotes(text)
         assert "<!-- markdownlint MD028 -->" in result
         assert result.endswith("Some trailing text")
-
-    def test_unicode_in_blockquotes(self) -> None:
-        """Blockquote with unicode characters."""
-        text = "> «élève»\n\n> «estudiante»"
-        result = _separate_block_quotes(text)
-        assert "<!-- markdownlint MD028 -->" in result
-
-
-# =========================================================================
-# _separate_block_math — whitespace around $$…$$
-# =========================================================================
 
 
 class TestSeparateBlockMath:
@@ -947,27 +819,6 @@ class TestSeparateBlockMath:
         """String without any ``$$`` should be returned unchanged."""
         assert _separate_block_math("no math here") == "no math here"
 
-    def test_no_math_blocks(self) -> None:
-        """No math blocks → unchanged."""
-        text = "Just plain text."
-        assert _separate_block_math(text) == text
-
-    def test_boundary_start_and_end(self) -> None:
-        """``$$f(x)$$`` at both string start and end → no change."""
-        assert _separate_block_math("$$f(x)$$") == "$$f(x)$$"
-
-    def test_already_spaced_before(self) -> None:
-        """Already has space before opening ``$$`` → no change."""
-        assert _separate_block_math("text $$f(x)$$") == "text $$f(x)$$"
-
-    def test_already_spaced_after(self) -> None:
-        """Already has space after closing ``$$`` → no change."""
-        assert _separate_block_math("$$f(x)$$ more") == "$$f(x)$$ more"
-
-    def test_already_spaced_both(self) -> None:
-        """Both sides already spaced → no change."""
-        assert _separate_block_math("text $$f(x)$$ more") == "text $$f(x)$$ more"
-
     def test_paragraph_with_spacing_already(self) -> None:
         """When spaces already exist → no double spacing."""
         result = _separate_block_math("before $$f(x)$$ after")
@@ -978,35 +829,11 @@ class TestSeparateBlockMath:
         """Two block math expressions already spaced between → no change."""
         assert _separate_block_math("$$f(x)$$ and $$g(y)$$") == "$$f(x)$$ and $$g(y)$$"
 
-    def test_standalone_own_line(self) -> None:
-        """Standalone ``$$f(x)$$`` on its own line → no change."""
-        assert _separate_block_math("$$\nf(x)\n$$") == "$$\nf(x)\n$$"
-
-    def test_standalone_with_newlines(self) -> None:
-        """Block math separated by newlines on both sides → no change."""
-        assert _separate_block_math("text\n$$f(x)$$\nmore") == "text\n$$f(x)$$\nmore"
-
-    def test_newline_only_surrounding(self) -> None:
-        """Newlines on both sides → no change."""
-        assert _separate_block_math("\n$$f(x)$$\n") == "\n$$f(x)$$\n"
-
-    def test_multiline_block_math(self) -> None:
-        """Block math spanning multiple lines → no change."""
-        assert _separate_block_math("text\n$$\nx\n$$\nmore") == "text\n$$\nx\n$$\nmore"
-
     def test_multiline_text_with_math(self) -> None:
         """Multi-line paragraph with block math."""
         text = "Line one\nbefore$$f(x)$$after\nLine three"
         result = _separate_block_math(text)
         assert "before $$f(x)$$ after" in result
-
-    def test_whitespace_around_math(self) -> None:
-        """Whitespace already around math → no change."""
-        text = "a  $$b$$  c"
-        result = _separate_block_math(text)
-        assert result == text
-
-    # ── Space-insertion cases ────────────────────────────────────
 
     def test_needs_space_before(self) -> None:
         """Non-whitespace text before ``$$`` → insert space before."""

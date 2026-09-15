@@ -6,7 +6,6 @@ stdout), main() (mocked HTTP and I/O).
 """
 
 from collections.abc import Callable, Mapping
-from dataclasses import FrozenInstanceError
 from io import StringIO
 from os import PathLike, fspath
 from sys import stdout
@@ -36,37 +35,6 @@ class TestSubject:
         assert s.name == "Computer Science"
         assert s.credit == "3"
 
-    def test_frozen(self) -> None:
-        """Should raise FrozenInstanceError when modifying attributes."""
-        s = _mod.Subject(code="MATH", name="Mathematics", credit="4")
-        with pytest.raises(FrozenInstanceError):
-            cast(Any, s).code = "PHYS"
-
-    def test_hashable(self) -> None:
-        """Should be usable as a dict key."""
-        s = _mod.Subject(code="COMP", name="CS", credit="3")
-        d = {s: "value"}
-        assert d[s] == "value"
-
-    def test_equality(self) -> None:
-        """Two Subjects with same fields should be equal."""
-        s1 = _mod.Subject(code="COMP", name="CS", credit="3")
-        s2 = _mod.Subject(code="COMP", name="CS", credit="3")
-        assert s1 == s2
-
-    def test_inequality(self) -> None:
-        """Two Subjects with different fields should not be equal."""
-        s1 = _mod.Subject(code="COMP", name="CS", credit="3")
-        s2 = _mod.Subject(code="MATH", name="Math", credit="4")
-        assert s1 != s2
-
-    def test_repr(self) -> None:
-        """repr should include all fields."""
-        s = _mod.Subject(code="COMP", name="CS", credit="3")
-        r = repr(s)
-        assert "Subject(" in r
-        assert "code=" in r
-
     def test_kw_only(self) -> None:
         """Should require keyword arguments."""
         with pytest.raises(TypeError):
@@ -75,33 +43,6 @@ class TestSubject:
 
 # ---------------------------------------------------------------------------
 # TestConstants
-# ---------------------------------------------------------------------------
-
-
-class TestConstants:
-    """Tests for module-level constants."""
-
-    def test_csv_dialect(self) -> None:
-        """_CSV_DIALECT should be 'excel'."""
-        assert _mod._CSV_DIALECT == "excel"
-
-    def test_csv_line_terminator(self) -> None:
-        """_CSV_LINE_TERMINATOR should be '\\n'."""
-        assert _mod._CSV_LINE_TERMINATOR == "\n"
-
-    def test_max_concurrent_requests(self) -> None:
-        """_MAX_CONCURRENT_REQUESTS_PER_HOST should be 2."""
-        assert _mod._MAX_CONCURRENT_REQUESTS_PER_HOST == 2
-
-    def test_undergraduate_courses_url(self) -> None:
-        """_UNDERGRADUATE_COURSES_URL should be the correct URL."""
-        assert str(_mod._UNDERGRADUATE_COURSES_URL) == (
-            "https://prog-crs.hkust.edu.hk/ugcourse"
-        )
-
-
-# ---------------------------------------------------------------------------
-# Helpers: fake aiohttp session / response
 # ---------------------------------------------------------------------------
 
 

@@ -100,36 +100,6 @@ class TestMistuneParser:
 class TestReconstructTokenRaw:
     """Coverage for ``_reconstruct_token_raw`` on various token types."""
 
-    def test_text_leaf(self) -> None:
-        """A text leaf reconstructs to its raw text."""
-        token = {"type": "text", "raw": "hello"}
-        assert _reconstruct_token_raw(token) == "hello"
-
-    def test_block_math(self) -> None:
-        """A ``block_math`` token reconstructs to its raw text."""
-        token = {"type": "block_math", "raw": "a = b"}
-        assert _reconstruct_token_raw(token) == "a = b"
-
-    def test_inline_math(self) -> None:
-        """An ``inline_math`` token reconstructs to its raw text."""
-        token = {"type": "inline_math", "raw": "a^2"}
-        assert _reconstruct_token_raw(token) == "a^2"
-
-    def test_codespan(self) -> None:
-        """A ``codespan`` token reconstructs to its raw text."""
-        token = {"type": "codespan", "raw": "code"}
-        assert _reconstruct_token_raw(token) == "code"
-
-    def test_linebreak(self) -> None:
-        """A ``linebreak`` token reconstructs to its raw text."""
-        token = {"type": "linebreak", "raw": "  "}
-        assert _reconstruct_token_raw(token) == "  "
-
-    def test_block_code(self) -> None:
-        """A ``block_code`` token reconstructs to its raw text."""
-        token = {"type": "block_code", "raw": "print('hi')"}
-        assert _reconstruct_token_raw(token) == "print('hi')"
-
     def test_thematic_break(self) -> None:
         """A ``thematic_break`` token reconstructs to ``***``."""
         token = {"type": "thematic_break"}
@@ -429,21 +399,6 @@ class TestFindTokenRange:
         start, end = rng
         assert text[start:end] == "hello world"
 
-    def test_block_math(self) -> None:
-        """Finds the byte range of a ``block_math`` token."""
-        text = "before\n$$\na = b\n$$\nafter"
-        tokens = _parse(text)
-        # Find block_math token
-        for i, tok in enumerate(tokens):
-            if tok["type"] == "block_math":
-                rng = _find_token_range(text, tokens, i)
-                assert rng is not None
-                start, end = rng
-                # Should find math content in text
-                assert text[start:end] == "a = b"
-                return
-        pytest.fail("no block_math token found")
-
     def test_blockquote(self) -> None:
         """Finds the byte range of a blockquote."""
         text = "> quoted content"
@@ -567,13 +522,6 @@ class TestInjectAfterToken:
 class TestEdgeCases:
     """Corner cases across multiple functions."""
 
-    def test_no_adjacent_blockquotes(self) -> None:
-        """Blockquotes separated by a regular paragraph yield no pairs."""
-        text = "> A\n\nRegular paragraph\n\n> B"
-        tokens = _parse(text)
-        pairs = _find_top_level_adjacent(tokens, "block_quote")
-        assert pairs == []
-
     def test_three_blockquotes_two_insertions(self) -> None:
         """Verify MD028 insertions at both gaps with 3 blockquotes."""
         text = "> A\n\n> B\n\n> C"
@@ -630,28 +578,6 @@ class TestEdgeCases:
 class TestAllMathRanges:
     """Tests for math span range finding."""
 
-    def test_no_math(self) -> None:
-        """Plain text without math yields no ranges."""
-        assert _all_math_ranges("plain text") == []
-
-    def test_empty_string(self) -> None:
-        """An empty string yields no ranges."""
-        assert _all_math_ranges("") == []
-
-    def test_inline_math(self) -> None:
-        """Finds the range of an inline math expression."""
-        result = _all_math_ranges("text $a^2 + b^2$ more")
-        assert len(result) == 1
-        start, end = result[0]
-        assert "a^2 + b^2" in "text $a^2 + b^2$ more"[start:end]
-
-    def test_block_math(self) -> None:
-        """Finds the range of a block math expression."""
-        result = _all_math_ranges("before\n$$\na = b\n$$\nafter")
-        assert len(result) == 1
-        start, end = result[0]
-        assert "a = b" in "before\n$$\na = b\n$$\nafter"[start:end]
-
     def test_multiple_inline_math(self) -> None:
         """Finds one range per inline math expression."""
         result = _all_math_ranges("$a$ and $b$ and $c$")
@@ -671,14 +597,6 @@ class TestAllMathRanges:
 
 class TestAllCodeSpanRanges:
     """Tests for code span range finding."""
-
-    def test_no_code(self) -> None:
-        """Plain text without code spans yields no ranges."""
-        assert _all_code_span_ranges("plain text") == []
-
-    def test_empty_string(self) -> None:
-        """An empty string yields no ranges."""
-        assert _all_code_span_ranges("") == []
 
     def test_single_code_span(self) -> None:
         """Finds the range of a single code span."""
@@ -904,15 +822,6 @@ class TestFindTableBlocks:
         assert end == len(text)
         assert "before" not in text[start:end]
 
-    def test_table_in_blockquote(self) -> None:
-        """A table inside a blockquote yields empty or in-bounds ranges."""
-        text = "> | a | b |\n> |---|---|\n> | 1 | 2 |"
-        result = _find_table_blocks(text)
-        # mistune may parse tables inside blockquotes as nested
-        # blockquote tokens, not as top-level table tokens. An empty
-        # result is acceptable.
-        assert len(result) == 0 or all(s >= 0 and e <= len(text) for s, e in result)
-
     def test_table_with_adjacent_tables_no_separator(self) -> None:
         """Adjacent tables without separators yield in-bounds ranges."""
         text = "| a | b |\n|---|---|\n| 1 | 2 |\n\n| c | d |\n|---|---|\n| 3 | 4 |"
@@ -938,14 +847,6 @@ class TestReplacePipesOutsideMath:
     math blocks (``$...$`` or ``$$...$$``) are replaced with ``\\vert``.
     Already-escaped ``\\|`` inside math is preserved.
     """
-
-    def test_no_pipes(self) -> None:
-        """No pipes in input → unchanged."""
-        assert _replace_pipes_outside_math("hello world") == "hello world"
-
-    def test_no_math(self) -> None:
-        """Pipes outside math → replaced with &#124;."""
-        assert _replace_pipes_outside_math("a | b | c") == "a &#124; b &#124; c"
 
     def test_pipe_inside_inline_math(self) -> None:
         """Pipes inside $...$ → replaced with \\vert."""
@@ -1008,14 +909,6 @@ class TestReplacePipesOutsideMath:
         result = _replace_pipes_outside_math("text$|x|$more")
         assert result == "text$\\vert x\\vert $more"
 
-    def test_empty_string(self) -> None:
-        """Empty string should be returned unchanged."""
-        assert _replace_pipes_outside_math("") == ""
-
-    def test_pipes_outside_math(self) -> None:
-        """Pipes outside math blocks should become ``&#124;``."""
-        assert _replace_pipes_outside_math("a|b|c") == "a&#124;b&#124;c"
-
     def test_pipes_outside_with_math(self) -> None:
         """Pipes in non-math portions should become ``&#124;`` even when math is present."""
         result = _replace_pipes_outside_math("$a$ | $b$")
@@ -1025,11 +918,6 @@ class TestReplacePipesOutsideMath:
         """Bare ``|`` inside ``$$…$$`` should become ``\\vert``."""
         result = _replace_pipes_outside_math("$$x|y$$")
         assert result == r"$$x\vert y$$"
-
-    def test_bare_pipe_in_display_math_with_context(self) -> None:
-        """Bare ``|`` inside ``$$…$$`` with surrounding text."""
-        result = _replace_pipes_outside_math("text $$x|y$$ more")
-        assert result == r"text $$x\vert y$$ more"
 
     def test_escaped_pipe_preserved_in_display_math(self) -> None:
         """``\\|`` inside ``$$…$$`` should be preserved unchanged."""

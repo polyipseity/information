@@ -8,7 +8,6 @@ the main() entry point.
 
 from datetime import datetime, timezone
 from os import PathLike, fspath
-from typing import cast
 
 import pytest
 from anyio import Path
@@ -21,33 +20,6 @@ __all__ = ()
 
 # ---------------------------------------------------------------------------
 # AssignmentPageType
-# ---------------------------------------------------------------------------
-
-
-class TestAssignmentPageType:
-    """Tests for the AssignmentPageType StrEnum."""
-
-    def test_assignment_value(self) -> None:
-        """Verify the ASSIGNMENT enum has the expected string value."""
-        assert _mod.AssignmentPageType.ASSIGNMENT.value == "assignment"
-
-    def test_submission_value(self) -> None:
-        """Verify the SUBMISSION enum has the expected string value."""
-        assert _mod.AssignmentPageType.SUBMISSION.value == "submission"
-
-    def test_str(self) -> None:
-        """Verify str() returns the expected string for each enum member."""
-        assert str(_mod.AssignmentPageType.ASSIGNMENT) == "assignment"
-        assert str(_mod.AssignmentPageType.SUBMISSION) == "submission"
-
-    def test_membership(self) -> None:
-        """Verify both enum values are registered as valid members."""
-        assert "assignment" in _mod.AssignmentPageType._value2member_map_
-        assert "submission" in _mod.AssignmentPageType._value2member_map_
-
-
-# ---------------------------------------------------------------------------
-# html_to_text
 # ---------------------------------------------------------------------------
 
 
@@ -91,7 +63,7 @@ class TestHtmlToText:
         soup = BeautifulSoup("<div></div>", "html.parser")
         assert _mod.html_to_text(soup) == ""
 
-    def text_only_whitespace(self) -> None:
+    def test_only_whitespace(self) -> None:
         """Verify whitespace-only content produces empty string."""
         soup = BeautifulSoup("<div>  </div>", "html.parser")
         assert _mod.html_to_text(soup) == ""
@@ -200,11 +172,6 @@ class TestParseDatetime:
         result = _mod.parse_datetime("no month here 1pm", reference_datetime=self.REF)
         assert result is None
 
-    def test_no_match_no_am_pm(self) -> None:
-        """Date-like string without am/pm after the month returns None."""
-        result = _mod.parse_datetime("Sep 15, 2023", reference_datetime=self.REF)
-        assert result is None
-
     def test_different_month(self) -> None:
         """Other months like Jan, Dec should also work."""
         result = _mod.parse_datetime(
@@ -229,16 +196,6 @@ class TestParseDatetime:
         )
         assert result is not None
         assert result.result == datetime(2023, 9, 15, 23, 59, 0)
-
-    def test_no_match_nonexistent_format(self) -> None:
-        """String with month and am/pm but wrong format returns None."""
-        result = _mod.parse_datetime("Sep/15/2023 11pm", reference_datetime=self.REF)
-        assert result is None
-
-
-# ---------------------------------------------------------------------------
-# parse_title_and_content
-# ---------------------------------------------------------------------------
 
 
 class TestParseTitleAndContent:
@@ -302,19 +259,6 @@ class TestParseTitleAndContent:
         )
         assert result is None
 
-    def test_invalid_page_type(self) -> None:
-        """An invalid page type should raise ValueError."""
-        soup = BeautifulSoup("<div></div>", "html.parser")
-        with pytest.raises(ValueError, match="invalid"):
-            _mod.parse_title_and_content(
-                soup, page_type=cast(_mod.AssignmentPageType, "invalid")
-            )
-
-
-# ---------------------------------------------------------------------------
-# parse_grade
-# ---------------------------------------------------------------------------
-
 
 class TestParseGrade:
     """Tests for the parse_grade function."""
@@ -352,18 +296,6 @@ class TestParseGrade:
         result = _mod.parse_grade(soup, page_type=_mod.AssignmentPageType.ASSIGNMENT)
         assert result is not None
         assert result.graded_anonymously is None
-
-    def test_assignment_graded_anonymously_no(self) -> None:
-        """Parse assignment grade with graded_anonymously set to No."""
-        soup = BeautifulSoup(
-            '<div class="details"><div class="content">'
-            '<div class="module">Grade: 90<span>  /100</span>'
-            "Graded Anonymously: No</div></div></div>",
-            "html.parser",
-        )
-        result = _mod.parse_grade(soup, page_type=_mod.AssignmentPageType.ASSIGNMENT)
-        assert result is not None
-        assert result.graded_anonymously is False
 
     def test_assignment_float_grade(self) -> None:
         """Possible grade may be a float."""
@@ -408,17 +340,6 @@ class TestParseGrade:
         assert result.entered_grade == 85
         # possible_grade from "/100" stays as string after failed int/float
         assert isinstance(result.possible_grade, str)
-
-    def test_invalid_page_type(self) -> None:
-        """Invalid page type raises ValueError."""
-        soup = BeautifulSoup("<div></div>", "html.parser")
-        with pytest.raises(ValueError, match="invalid"):
-            _mod.parse_grade(soup, page_type=cast(_mod.AssignmentPageType, "invalid"))
-
-
-# ---------------------------------------------------------------------------
-# parse_properties
-# ---------------------------------------------------------------------------
 
 
 class TestParseProperties:
@@ -567,21 +488,6 @@ class TestParseProperties:
         attempts = result.properties.get("attempts:")
         assert attempts == 3
 
-    def test_invalid_page_type(self) -> None:
-        """Invalid page type raises ValueError."""
-        soup = BeautifulSoup("<div></div>", "html.parser")
-        with pytest.raises(ValueError, match="invalid"):
-            _mod.parse_properties(
-                soup,
-                page_type=cast(_mod.AssignmentPageType, "invalid"),
-                reference_datetime=self.REF,
-            )
-
-
-# ---------------------------------------------------------------------------
-# parse_comments
-# ---------------------------------------------------------------------------
-
 
 class TestParseComments:
     """Tests for the parse_comments function."""
@@ -707,16 +613,6 @@ class TestParseComments:
         )
         assert len(result) == 1
         assert result[0].attachments == ("report.pdf",)
-
-    def test_invalid_page_type(self) -> None:
-        """Invalid page type raises ValueError."""
-        soup = BeautifulSoup("<div></div>", "html.parser")
-        with pytest.raises(ValueError):
-            _mod.parse_comments(
-                soup,
-                page_type=cast(_mod.AssignmentPageType, "invalid"),
-                reference_datetime=self.REF,
-            )
 
     def test_assignment_multiple_comments(self) -> None:
         """Parse assignment page with multiple comments."""

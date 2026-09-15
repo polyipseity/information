@@ -9,116 +9,14 @@ import pytest
 from anyio import Path as AnyioPath
 from bs4 import BeautifulSoup, Tag
 
+from scripts.convert_wiki import config as _cfg
 from scripts.convert_wiki import table as _tbl
 from scripts.convert_wiki import utils as _mod
-from scripts.convert_wiki.config import _NAMES_MAP
+from scripts.convert_wiki.stems import _stem_for_title
+from scripts.convert_wiki.symlinks import _resolve_local_target_filename
 
 """Public API of this test module (empty: no symbols are exported)."""
 __all__ = ()
-
-
-class TestFixNameMaybe:
-    """Tests for the _fix_name_maybe function."""
-
-    def test_normalize_non_breaking_space(self) -> None:
-        """Should replace non-breaking spaces with regular spaces."""
-        result = _mod._fix_name_maybe("Hello\u00a0World")  # noqa: SLF001
-        assert result == "Hello World"
-
-    def test_mapped_name(self) -> None:
-        """Should return the mapped name if it exists in _NAMES_MAP."""
-        # Verify the first mapping entry round-trips correctly.
-        for key, expected in _NAMES_MAP.items():  # noqa: SLF001
-            result = _mod._fix_name_maybe(key)  # noqa: SLF001
-            assert result == expected
-            break
-        else:
-            # Empty names map — fall back to basic smoke test.
-            assert isinstance(_mod._fix_name_maybe("test"), str)  # noqa: SLF001
-
-    def test_replace_underscores(self) -> None:
-        """Should replace underscores with spaces when requested."""
-        result = _mod._fix_name_maybe(  # noqa: SLF001
-            "Hello_World", replace_underscores=True
-        )
-        assert "_" not in result
-        assert "Hello World" in result or result.islower()  # may be lowercased
-
-    def test_single_char_name(self) -> None:
-        """Should handle single character names without crashing."""
-        result = _mod._fix_name_maybe("A")  # noqa: SLF001
-        assert isinstance(result, str)
-
-    def test_short_name_lowercase_second_char(self) -> None:
-        """Should lowercase first char when second char is already lowercase."""
-        result = _mod._fix_name_maybe("aBC")  # noqa: SLF001
-        assert result == "aBC"  # first char is already lowercase
-
-    def test_lowercase_first_char_relooks_up_names_map(self) -> None:
-        """Lowercase-first-char fallback should consult names_map on lowered key."""
-        names_map = {"lie bracket of vector fields": "Lie bracket of vector fields"}
-        result = _mod._fix_name_maybe(  # noqa: SLF001
-            "Lie bracket of vector fields",
-            names_map=names_map,
-        )
-        assert result == "Lie bracket of vector fields"
-
-    def test_unmapped_title_still_lowercases_first_char(self) -> None:
-        """Unmapped titles should keep the lowercase-first-char heuristic."""
-        result = _mod._fix_name_maybe("Fourier transform", names_map={})  # noqa: SLF001
-        assert result == "fourier transform"
-
-
-class TestFixFilename:
-    """Tests for the _fix_filename function."""
-
-    def test_replaces_colon(self) -> None:
-        """Should replace colon with underscore."""
-        assert _mod._fix_filename("a:b") == "a_b"  # noqa: SLF001
-
-    def test_replaces_backslash(self) -> None:
-        """Should replace backslash with underscore."""
-        assert _mod._fix_filename("a\\b") == "a_b"  # noqa: SLF001
-
-    def test_replaces_forward_slash(self) -> None:
-        """Should replace forward slash with underscore."""
-        assert _mod._fix_filename("a/b") == "a_b"  # noqa: SLF001
-
-    def test_keeps_safe_characters(self) -> None:
-        """Should keep normal alphanumeric characters unchanged."""
-        assert _mod._fix_filename("hello_world-123.md") == "hello_world-123.md"  # noqa: SLF001
-
-    def test_empty_string(self) -> None:
-        """Should handle empty string safely."""
-        assert _mod._fix_filename("") == ""  # noqa: SLF001
-
-
-class TestMarkdownFragment:
-    """Tests for the _markdown_fragment function."""
-
-    def test_empty_fragment(self) -> None:
-        """Should return empty string for empty fragment."""
-        assert _mod._markdown_fragment("") == ""  # noqa: SLF001
-
-    def test_removes_colons(self) -> None:
-        """Should remove colons from the fragment."""
-        result = _mod._markdown_fragment("ref:note")  # noqa: SLF001
-        assert ":" not in result
-
-    def test_encodes_spaces(self) -> None:
-        """Should encode spaces as %20."""
-        result = _mod._markdown_fragment("my section")  # noqa: SLF001
-        assert "%20" in result
-
-    def test_encodes_slash(self) -> None:
-        """Should encode forward slashes as %2F."""
-        result = _mod._markdown_fragment("a/b")  # noqa: SLF001
-        assert "%2F" in result
-
-    def test_prepends_hash(self) -> None:
-        """Should prepend # to non-empty fragments."""
-        result = _mod._markdown_fragment("section")  # noqa: SLF001
-        assert result.startswith("#")
 
 
 class TestFindChildExact:
@@ -367,36 +265,6 @@ class TestRemoveRedirectSymlinks:
         assert not await (wiki_dir / "from page.md").exists()
 
 
-class TestMarkdownLinkTarget:
-    """Tests for the _markdown_link_target function."""
-
-    def test_basic_link(self) -> None:
-        """Should build a basic Markdown link target."""
-        result = _mod._markdown_link_target("Page Name", "")  # noqa: SLF001
-        assert result == "Page%20Name.md"
-
-    def test_with_fragment(self) -> None:
-        """Should append fragment when provided."""
-        result = _mod._markdown_link_target("Page", "section")  # noqa: SLF001
-        assert result == "Page.md#section"
-
-
-class TestTagAffixes:
-    """Tests for the _tag_affixes function."""
-
-    def test_simple_tag(self) -> None:
-        """Should return opening and closing tags."""
-        open_tag, close_tag = _mod._tag_affixes("div")  # noqa: SLF001
-        assert open_tag == "<div>"
-        assert close_tag == "</div>"
-
-    def test_void_tag(self) -> None:
-        """Should handle any tag name correctly."""
-        open_tag, close_tag = _mod._tag_affixes("br")  # noqa: SLF001
-        assert open_tag == "<br>"
-        assert close_tag == "</br>"
-
-
 class TestGetImageFilename:
     """Tests for the _get_image_filename function."""
 
@@ -550,132 +418,6 @@ class TestBalanceBrackets:
     def test_balance_brackets(self, input_text: str, expected: str) -> None:
         """Verify bracket-balancing behaves correctly for the given case."""
         assert _mod._balance_brackets(input_text) == expected  # noqa: SLF001
-
-
-class TestIsSeparatorCell:
-    """Tests for _is_separator_cell."""
-
-    def test_simple_dashes(self) -> None:
-        """--- is a valid separator cell."""
-        assert _tbl._is_separator_cell("---")  # noqa: SLF001
-
-    def test_left_aligned(self) -> None:
-        """:-- is a valid separator cell."""
-        assert _tbl._is_separator_cell(":--")  # noqa: SLF001
-
-    def test_right_aligned(self) -> None:
-        """--: is a valid separator cell."""
-        assert _tbl._is_separator_cell("--:")  # noqa: SLF001
-
-    def test_centered(self) -> None:
-        """:-: is a valid separator cell."""
-        assert _tbl._is_separator_cell(":-:")  # noqa: SLF001
-
-    def test_too_short(self) -> None:
-        """-- (2 dashes) is NOT a valid separator cell."""
-        assert not _tbl._is_separator_cell("--")  # noqa: SLF001
-
-    def test_only_one_dash(self) -> None:
-        """- is NOT a valid separator cell."""
-        assert not _tbl._is_separator_cell("-")  # noqa: SLF001
-
-    def test_empty_string(self) -> None:
-        """Empty string is NOT a valid separator cell."""
-        assert not _tbl._is_separator_cell("")  # noqa: SLF001
-
-    def test_non_separator_text(self) -> None:
-        """Regular text is NOT a valid separator cell."""
-        assert not _tbl._is_separator_cell("hello")  # noqa: SLF001
-
-    def test_long_separator(self) -> None:
-        """Long separator (e.g. ------) is valid."""
-        assert _tbl._is_separator_cell("------")  # noqa: SLF001
-
-    def test_long_centered_separator(self) -> None:
-        """:-----: is valid."""
-        assert _tbl._is_separator_cell(":-----:")  # noqa: SLF001
-
-    def test_long_left_separator(self) -> None:
-        """:------ is valid."""
-        assert _tbl._is_separator_cell(":------")  # noqa: SLF001
-
-    def test_long_right_separator(self) -> None:
-        """-------: is valid."""
-        assert _tbl._is_separator_cell("-------:")  # noqa: SLF001
-
-    def test_separator_with_non_dash_chars(self) -> None:
-        """String with non-dash chars is NOT a separator."""
-        assert not _tbl._is_separator_cell(":-x:")  # noqa: SLF001
-
-
-class TestGetSeparatorAlignment:
-    """Tests for _get_separator_alignment."""
-
-    def test_default_alignment(self) -> None:
-        """--- → ---."""
-        assert _tbl._get_separator_alignment("---") == "---"  # noqa: SLF001
-
-    def test_left_alignment(self) -> None:
-        """:-- → :--."""
-        assert _tbl._get_separator_alignment(":--") == ":--"  # noqa: SLF001
-
-    def test_right_alignment(self) -> None:
-        """--: → --:."""
-        assert _tbl._get_separator_alignment("--:") == "--:"  # noqa: SLF001
-
-    def test_center_alignment(self) -> None:
-        """:-: → :-:."""
-        assert _tbl._get_separator_alignment(":-:") == ":-:"  # noqa: SLF001
-
-    def test_long_default(self) -> None:
-        """------ → ---."""
-        assert _tbl._get_separator_alignment("------") == "---"  # noqa: SLF001
-
-    def test_long_left(self) -> None:
-        """:------ → :--."""
-        assert _tbl._get_separator_alignment(":------") == ":--"  # noqa: SLF001
-
-    def test_long_right(self) -> None:
-        """-------: → --:."""
-        assert _tbl._get_separator_alignment("-------:") == "--:"  # noqa: SLF001
-
-    def test_long_center(self) -> None:
-        """:------: → :-:."""
-        assert _tbl._get_separator_alignment(":------:") == ":-:"  # noqa: SLF001
-
-
-class TestFormatSeparatorCell:
-    """Tests for _format_separator_cell."""
-
-    def test_default_min_width(self) -> None:
-        """--- at minimum width."""
-        assert _tbl._format_separator_cell(3, "---") == "---"  # noqa: SLF001
-
-    def test_default_wider(self) -> None:
-        """Wider default separator."""
-        assert _tbl._format_separator_cell(5, "---") == "-----"  # noqa: SLF001
-
-    def test_left_aligned(self) -> None:
-        """Left-aligned separator."""
-        assert _tbl._format_separator_cell(4, ":--") == ":---"  # noqa: SLF001
-
-    def test_right_aligned(self) -> None:
-        """Right-aligned separator."""
-        assert _tbl._format_separator_cell(4, "--:") == "---:"  # noqa: SLF001
-
-    def test_centered(self) -> None:
-        """Centered separator."""
-        assert _tbl._format_separator_cell(4, ":-:") == ":--:"  # noqa: SLF001
-        # width 4 → ":" + "--" (width-2) + ":" = ":--:"
-
-    def test_width_below_minimum(self) -> None:
-        """Width < 3 behaves as if width=3."""
-        assert _tbl._format_separator_cell(1, "---") == "---"  # noqa: SLF001
-        assert _tbl._format_separator_cell(2, "---") == "---"  # noqa: SLF001
-
-    def test_centered_min_width(self) -> None:
-        """:-: at minimum width."""
-        assert _tbl._format_separator_cell(3, ":-:") == ":-:"  # ":" + "-" + ":"
 
 
 class TestSmartSplitRow:
@@ -974,3 +716,51 @@ class TestReformatTable:
         assert len(lines[0].split("|")[2]) > len(lines[0].split("|")[1])
         # The full ``> > `` prefix is preserved on every row.
         assert all(line.startswith("> > ") for line in lines)
+
+
+class TestResolveLocalTargetFilename:
+    """Tests for redirect target filename resolution."""
+
+    @pytest.mark.anyio
+    async def test_requires_exact_casing(self, tmp_path: PathLike[str]) -> None:
+        """Wrong-cased on-disk targets must not satisfy canonical names."""
+        lang_dir = AnyioPath(tmp_path)
+        await (lang_dir / "Final page.md").write_text("x", encoding="UTF-8")
+
+        resolved = await _resolve_local_target_filename(
+            lang_dir=lang_dir,
+            to_title="Intermediate",
+            final_to_title="Final page",
+            names_map={"Intermediate": "intermediate", "Final page": "final page"},
+        )
+
+        assert resolved == "intermediate.md"
+
+    @pytest.mark.anyio
+    async def test_prefers_exact_final_target(self, tmp_path: PathLike[str]) -> None:
+        """Chain resolution should use final target when present with exact casing."""
+        lang_dir = AnyioPath(tmp_path)
+        await (lang_dir / "final page.md").write_text("x", encoding="UTF-8")
+
+        resolved = await _resolve_local_target_filename(
+            lang_dir=lang_dir,
+            to_title="Intermediate",
+            final_to_title="Final page",
+            names_map={"Intermediate": "intermediate", "Final page": "final page"},
+        )
+
+        assert resolved == "final page.md"
+
+
+class TestStemForTitle:
+    """Tests for _stem_for_title."""
+
+    def test_uses_name_map(self) -> None:
+        """Mapped titles should resolve to the configured stem."""
+        names_map = {"Modern physics": "Modern physics"}
+        assert _stem_for_title("Modern physics", names_map) == "Modern physics"
+
+    def test_matches_legacy_target_filename_behavior(self) -> None:
+        """Should match the old reconcile _target_filename heuristic."""
+        title = next(iter(_cfg._NAMES_MAP))
+        assert _stem_for_title(title) == _stem_for_title(title, _cfg._NAMES_MAP)

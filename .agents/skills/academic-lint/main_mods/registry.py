@@ -17,6 +17,7 @@ from .models import ValidationContext, ValidationMessage
 __all__ = ("RuleFunction", "RuleRegistry", "RuleResult")
 
 
+"""Return type of a rule: messages, or an awaitable of them for async rules."""
 RuleResult = Sequence[ValidationMessage] | Awaitable[Sequence[ValidationMessage]]
 """Return type of a rule: messages, or an awaitable of them for async rules."""
 
