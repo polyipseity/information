@@ -9,9 +9,12 @@ import pytest
 from anyio import Path as AnyioPath
 from bs4 import BeautifulSoup, Tag
 
+from scripts.convert_wiki import config as _cfg
 from scripts.convert_wiki import table as _tbl
 from scripts.convert_wiki import utils as _mod
 from scripts.convert_wiki.config import _NAMES_MAP
+from scripts.convert_wiki.stems import _stem_for_title
+from scripts.convert_wiki.symlinks import _resolve_local_target_filename
 
 """Public API of this test module (empty: no symbols are exported)."""
 __all__ = ()
@@ -974,3 +977,51 @@ class TestReformatTable:
         assert len(lines[0].split("|")[2]) > len(lines[0].split("|")[1])
         # The full ``> > `` prefix is preserved on every row.
         assert all(line.startswith("> > ") for line in lines)
+
+
+class TestResolveLocalTargetFilename:
+    """Tests for redirect target filename resolution."""
+
+    @pytest.mark.anyio
+    async def test_requires_exact_casing(self, tmp_path: PathLike[str]) -> None:
+        """Wrong-cased on-disk targets must not satisfy canonical names."""
+        lang_dir = AnyioPath(tmp_path)
+        await (lang_dir / "Final page.md").write_text("x", encoding="UTF-8")
+
+        resolved = await _resolve_local_target_filename(
+            lang_dir=lang_dir,
+            to_title="Intermediate",
+            final_to_title="Final page",
+            names_map={"Intermediate": "intermediate", "Final page": "final page"},
+        )
+
+        assert resolved == "intermediate.md"
+
+    @pytest.mark.anyio
+    async def test_prefers_exact_final_target(self, tmp_path: PathLike[str]) -> None:
+        """Chain resolution should use final target when present with exact casing."""
+        lang_dir = AnyioPath(tmp_path)
+        await (lang_dir / "final page.md").write_text("x", encoding="UTF-8")
+
+        resolved = await _resolve_local_target_filename(
+            lang_dir=lang_dir,
+            to_title="Intermediate",
+            final_to_title="Final page",
+            names_map={"Intermediate": "intermediate", "Final page": "final page"},
+        )
+
+        assert resolved == "final page.md"
+
+
+class TestStemForTitle:
+    """Tests for _stem_for_title."""
+
+    def test_uses_name_map(self) -> None:
+        """Mapped titles should resolve to the configured stem."""
+        names_map = {"Modern physics": "Modern physics"}
+        assert _stem_for_title("Modern physics", names_map) == "Modern physics"
+
+    def test_matches_legacy_target_filename_behavior(self) -> None:
+        """Should match the old reconcile _target_filename heuristic."""
+        title = next(iter(_cfg._NAMES_MAP))
+        assert _stem_for_title(title) == _stem_for_title(title, _cfg._NAMES_MAP)
