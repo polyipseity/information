@@ -4,6 +4,7 @@ These tests cover the pure functions and module-level constants that are
 testable without HTTP requests or clipboard access.
 """
 
+import functools
 import json
 import os
 import re
@@ -51,6 +52,7 @@ def _discover_snapshot_cases() -> list[str]:
     )
 
 
+@functools.lru_cache(maxsize=1)
 def _load_snapshot_names_map() -> dict[str, str]:
     """Load the shared snapshot name map (symlink to production JSONC)."""
     path = _SNAPSHOT_DIR / "name_map.jsonc"
@@ -147,6 +149,11 @@ async def _assert_redirect_symlinks(
     assert set(mirrors) == set(expected)
     for name, target in mirrors.items():
         assert target == f"eng/{name}"
+
+
+# Fourier transform snapshot name used by TestBlockMathCategoryBreakdown
+# and TestInlineMathIndependence to read expected output directly.
+_FOURIER_SNAPSHOT_NAME = "Fourier transform"
 
 
 class TestWikiHtmlToPlaintextSnapshot:
@@ -905,45 +912,17 @@ class TestBlockMathCategoryBreakdown:
     _SNAPSHOT_NAME = "Fourier transform"
 
     @staticmethod
-    async def _run_and_categorize(tmp_path: PathLike[str]) -> dict[str, int]:
-        """Run the Fourier transform pipeline and categorize block math output.
+    def _get_expected_output() -> str:
+        """Read the Fourier transform expected output (no pipeline needed)."""
+        expected_path = _SNAPSHOT_DIR / f"{_FOURIER_SNAPSHOT_NAME}.expected.md"
+        return expected_path.read_text(encoding="UTF-8").lstrip()
 
-        Mirrors the snapshot test setup (aux.json, name_map.jsonc, etc.)
-        but returns category counts instead of comparing to expected output.
-        """
-        tmp = Path(tmp_path)
-        isolated_lang = tmp / "general" / "eng"
-        await isolated_lang.mkdir(parents=True)
-
-        shared_name_map = _load_snapshot_names_map()
-        aux_path = (
-            _SNAPSHOT_DIR / f"{TestBlockMathCategoryBreakdown._SNAPSHOT_NAME}.aux.json"
+    @staticmethod
+    def _run_and_categorize() -> dict[str, int]:
+        """Categorize block math in the Fourier transform expected output."""
+        return _categorize_block_math_blocks(
+            TestBlockMathCategoryBreakdown._get_expected_output()
         )
-        aux = json.loads(aux_path.read_text(encoding="UTF-8"))
-
-        input_path = (
-            _SNAPSHOT_DIR
-            / f"{TestBlockMathCategoryBreakdown._SNAPSHOT_NAME}.input.html"
-        )
-        html_text = input_path.read_text(encoding="UTF-8")
-        html = BeautifulSoup(html_text, "html.parser")
-
-        redirect_map = {
-            k: _RedirectInfo(to=v["to"], tofragment=v.get("tofragment", ""))
-            for k, v in aux["redirect_cache"].items()
-        }
-        names_map = shared_name_map | aux["name_map_overrides"]
-
-        output, _ = await run_pipeline(
-            html,
-            redirect_map=redirect_map,
-            image_metadata=aux["image_metadata"],
-            names_map=names_map,
-            wiki_dir=tmp / "general",
-            wiki_lang_dir=isolated_lang,
-            refs=True,
-        )
-        return _categorize_block_math_blocks(output)
 
     @staticmethod
     def _assert_counts(counts: dict[str, int], **expected: int) -> None:
@@ -954,10 +933,9 @@ class TestBlockMathCategoryBreakdown:
                 f"Category {category!r}: expected {expected_value}, got {actual}"
             )
 
-    @pytest.mark.anyio
-    async def test_category_counts(self, tmp_path: PathLike[str]) -> None:
+    def test_category_counts(self) -> None:
         """All four categories should have nonzero counts."""
-        counts = await self._run_and_categorize(tmp_path)
+        counts = self._run_and_categorize()
         for category in ("both", "before_only", "after_only", "neither"):
             assert counts.get(category, 0) > 0, (
                 f"Category {category!r}: expected > 0, got {counts.get(category, 0)}"
@@ -995,52 +973,20 @@ class TestInlineMathIndependence:
         return "$" in cleaned
 
     @staticmethod
-    async def _run_and_analyze(tmp_path: PathLike[str]) -> str:
-        """Run the Fourier transform pipeline and return the output."""
-        tmp = Path(tmp_path)
-        isolated_lang = tmp / "general" / "eng"
-        await isolated_lang.mkdir(parents=True)
+    def _get_expected_output() -> str:
+        """Read the Fourier transform expected output (no pipeline needed)."""
+        expected_path = _SNAPSHOT_DIR / f"{_FOURIER_SNAPSHOT_NAME}.expected.md"
+        return expected_path.read_text(encoding="UTF-8").lstrip()
 
-        shared_name_map = _load_snapshot_names_map()
-        aux_path = (
-            _SNAPSHOT_DIR / f"{TestInlineMathIndependence._SNAPSHOT_NAME}.aux.json"
-        )
-        aux = json.loads(aux_path.read_text(encoding="UTF-8"))
-
-        input_path = (
-            _SNAPSHOT_DIR / f"{TestInlineMathIndependence._SNAPSHOT_NAME}.input.html"
-        )
-        html_text = input_path.read_text(encoding="UTF-8")
-        html = BeautifulSoup(html_text, "html.parser")
-
-        redirect_map = {
-            k: _RedirectInfo(to=v["to"], tofragment=v.get("tofragment", ""))
-            for k, v in aux["redirect_cache"].items()
-        }
-        names_map = shared_name_map | aux["name_map_overrides"]
-
-        output, _ = await run_pipeline(
-            html,
-            redirect_map=redirect_map,
-            image_metadata=aux["image_metadata"],
-            names_map=names_map,
-            wiki_dir=tmp / "general",
-            wiki_lang_dir=isolated_lang,
-            refs=True,
-        )
-        return output
-
-    @pytest.mark.anyio
-    async def test_inline_math_count(self, tmp_path: PathLike[str]) -> None:
+    def test_inline_math_count(self) -> None:
         """The Fourier transform article should have nonzero inline math blocks."""
-        output = await self._run_and_analyze(tmp_path)
+        output = self._get_expected_output()
         count = self._count_inline_math_blocks(output)
         assert count > 0, f"Expected > 0 inline math blocks, got {count}"
 
-    @pytest.mark.anyio
-    async def test_no_orphaned_dollar_signs(self, tmp_path: PathLike[str]) -> None:
+    def test_no_orphaned_dollar_signs(self) -> None:
         """Every ``$`` in the output should be part of a valid math delimiter pair."""
-        output = await self._run_and_analyze(tmp_path)
+        output = self._get_expected_output()
         assert not self._has_orphaned_dollar_signs(output), (
             "Output contains $ signs not paired as $$...$$ or $...$"
         )
