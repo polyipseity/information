@@ -90,11 +90,11 @@ Flashcards for this section are as follows:
 
 Flashcards for this section are as follows:
 
-- `pinMode()` ::@:: Configures a pin as INPUT or OUTPUT.
-- `digitalRead()` ::@:: Returns HIGH or LOW from an input pin.
-- `digitalWrite()` ::@:: Drives an output pin to HIGH or LOW.
-- Arduino true/false ::@:: `HIGH`/`1`/`true` are equivalent; `LOW`/`0`/`false` are equivalent; any non-zero integer is true.
-- `=` vs `==` ::@:: `=` assigns, `==` compares.
+- `pinMode()` ::@:: Configures a pin as INPUT or OUTPUT. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- `digitalRead()` ::@:: Returns HIGH or LOW from an input pin. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- `digitalWrite()` ::@:: Drives an output pin to HIGH or LOW. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Arduino true/false ::@:: `HIGH`/`1`/`true` are equivalent; `LOW`/`0`/`false` are equivalent; any non-zero integer is true. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- `=` vs `==` ::@:: `=` assigns, `==` compares. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
 
 ### analog input and output limits
 

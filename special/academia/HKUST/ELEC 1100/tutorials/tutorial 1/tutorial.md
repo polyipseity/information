@@ -21,7 +21,7 @@ tags:
 > 2. No
 > 3. It depends on the procedure
 >
-> - solution: {@{1/2/3}@}
+> - solution: {@{1/2/3}@} <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -33,4 +33,4 @@ tags:
 > 4. Childcare
 > 5. Customer service
 >
-> - solution: {@{1/2/3/4/5}@}
+> - solution: {@{1/2/3/4/5}@} <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->

@@ -40,7 +40,7 @@ No additional details were added for this assignment.
 > 4. $12\text{ V}$ and $5\text{ V}$
 >
 > - solution: {@{$12\text{ V}$ (pin 8, VS) and $5\text{ V}$ (pin 16, VCC)$}@}
-> - explanation: {@{Pin 8 (VS)}@} is {@{the motor supply $12\text{ V}$}@}, {@{pin 16 (VCC)}@} is {@{the logic supply $5\text{ V}$}@}.
+> - explanation: {@{Pin 8 (VS)}@} is {@{the motor supply $12\text{ V}$}@}, {@{pin 16 (VCC)}@} is {@{the logic supply $5\text{ V}$}@}. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -52,4 +52,4 @@ No additional details were added for this assignment.
 > 4. $16$
 >
 > - solution: {@{$8$}@}
-> - explanation: {@{A truth table with $n$ inputs}@} has {@{$2^n$ combinations}!}. For {@{$n=3$}@}, {@{$2^3 = 8$}@}.
+> - explanation: {@{A truth table with $n$ inputs}@} has {@{$2^n$ combinations}!}. For {@{$n=3$}@}, {@{$2^3 = 8$}@}. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->

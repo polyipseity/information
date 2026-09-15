@@ -81,11 +81,11 @@ XOR reports inequality: it is 1 when two inputs differ. XNOR reports equality: i
 
 Flashcards for this section are as follows:
 
-- XOR ::@:: Outputs 1 when inputs differ. $X\oplus Y=X'Y+XY'$. <!-- check: ignore-line[two_sided_calc_warning]: formula flashcard -->
-- XNOR ::@:: Outputs 1 when inputs match. $X\odot Y=XY+X'Y'=(X\oplus Y)'$. <!-- check: ignore-line[two_sided_calc_warning]: formula flashcard -->
-- XOR/XNOR usefulness ::@:: Express difference or equality directly, cleaner than expanding long expressions.
-- simplification example ::@:: $(A'B'+A'B)'$ reduces to $A$.
-- simplification goal ::@:: Same logic behavior with fewer gates or cleaner structure.
+- XOR ::@:: Outputs 1 when inputs differ. $X\oplus Y=X'Y+XY'$. <!-- check: ignore-line[two_sided_calc_warning]: formula flashcard --> <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- XNOR ::@:: Outputs 1 when inputs match. $X\odot Y=XY+X'Y'=(X\oplus Y)'$. <!-- check: ignore-line[two_sided_calc_warning]: formula flashcard --> <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- XOR/XNOR usefulness ::@:: Express difference or equality directly, cleaner than expanding long expressions. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- simplification example ::@:: $(A'B'+A'B)'$ reduces to $A$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- simplification goal ::@:: Same logic behavior with fewer gates or cleaner structure. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
 
 ## from robot specification to expression
 

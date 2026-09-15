@@ -135,9 +135,9 @@ An LED must be used with a series resistor (typically about $1\text{ k}\Omega$ a
 
 Flashcards for this section are as follows:
 
-- LED series resistor ::@:: Always use a series resistor (e.g. $1\text{ k}\Omega$ at $5\text{ V}$) with an LED to limit current.
-- 5-band colour code example ::@:: Red–orange–violet–black–brown: digits 2–3–7, multiplier ×1, tolerance ±1% → $R=237\,\Omega$ $\pm1\%$.
-- DSO scales ::@:: Vertical divisions are voltage, horizontal divisions are time; check units before reading.
+- LED series resistor ::@:: Always use a series resistor (e.g. $1\text{ k}\Omega$ at $5\text{ V}$) with an LED to limit current. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- 5-band colour code example ::@:: Red–orange–violet–black–brown: digits 2–3–7, multiplier ×1, tolerance ±1% → $R=237\,\Omega$ $\pm1\%$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- DSO scales ::@:: Vertical divisions are voltage, horizontal divisions are time; check units before reading. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
 
 ## lab safety
 

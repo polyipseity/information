@@ -31,13 +31,13 @@ Common schematic symbols used throughout the notes: <p> ![resistor symbol](attac
 
 Flashcards for this section are as follows:
 
-- electronic component ::@:: Elements used in electronic circuits that influence current and voltage behaviour.
-- passive vs active ::@:: Passive: resistors, capacitors. Active: diodes, transistors.
-- course scope ::@:: ELEC 1100 also covers basic electrical concepts and power sources (batteries, supplies).
-- resistor symbol <p> ![resistor symbol](attachments/symbol_resistor.svg) ::@:: Limits current and creates voltage drops.
-- capacitor symbol <p> ![capacitor symbol](attachments/symbol_capacitor.svg) ::@:: Stores charge/energy in an electric field.
-- voltage source symbol <p> ![voltage source symbol](attachments/symbol_voltage_source.svg) ::@:: Maintains a fixed potential difference.
-- ground symbol <p> ![ground symbol](attachments/symbol_ground.svg) ::@:: $0\text{ V}$ reference; the circuit's common return.
+- electronic component ::@:: Elements used in electronic circuits that influence current and voltage behaviour. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- passive vs active ::@:: Passive: resistors, capacitors. Active: diodes, transistors. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- course scope ::@:: ELEC 1100 also covers basic electrical concepts and power sources (batteries, supplies). <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- resistor symbol <p> ![resistor symbol](attachments/symbol_resistor.svg) ::@:: Limits current and creates voltage drops. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- capacitor symbol <p> ![capacitor symbol](attachments/symbol_capacitor.svg) ::@:: Stores charge/energy in an electric field. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- voltage source symbol <p> ![voltage source symbol](attachments/symbol_voltage_source.svg) ::@:: Maintains a fixed potential difference. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- ground symbol <p> ![ground symbol](attachments/symbol_ground.svg) ::@:: $0\text{ V}$ reference; the circuit's common return. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
 
 ## electrical fundamentals
 
@@ -73,9 +73,9 @@ Metals are _conductors_ (outer electrons move freely); glass and plastic are _in
 
 Flashcards for this section are as follows:
 
-- material classification ::@:: Conductors: charges move easily. Insulators: charges are restricted.
-- conductor ::@:: Charge flows readily because outer electrons require little energy to remove.
-- insulator ::@:: Charge does not move easily due to tightly bound electrons.
+- material classification ::@:: Conductors: charges move easily. Insulators: charges are restricted. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- conductor ::@:: Charge flows readily because outer electrons require little energy to remove. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- insulator ::@:: Charge does not move easily due to tightly bound electrons. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
 
 ### current
 
@@ -111,17 +111,17 @@ Resistance describes how strongly a material opposes current. For a uniform cond
 
 Flashcards for this section are as follows:
 
-- resistance ::@:: Difficulty passing current through a substance. Unit: ohm ($\Omega$). <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- resistivity formula ::@:: $R = \rho\frac{L}{A}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- resistivity ::@:: Depends on material; different materials have different values.
-- ideal wire ::@:: Perfect conductor, zero resistance.
-- ideal insulator ::@:: Infinite resistance.
-- resistor ::@:: Limits or regulates current; colour bands encode resistance value.
-- resistor usage ::@:: Controls current and creates voltage drops; all loads and wires have resistance.
-- Ohm's law ::@:: $V = IR$; I–V plot is a straight line with slope $1/R$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- Ohm's law example ::@:: $V = 5\,\textrm{V}$, $R = 200\,\Omega$ → $I = 25\,\textrm{mA}$.
-- multimeter ::@:: Measures resistance, voltage, or current.
-- metric prefixes ::@:: kilo ($k=10^3$), milli ($m=10^{-3}$). E.g. $10\,\text{k}\Omega = 10000\,\Omega$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- resistance ::@:: Difficulty passing current through a substance. Unit: ohm ($\Omega$). <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- resistivity formula ::@:: $R = \rho\frac{L}{A}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- resistivity ::@:: Depends on material; different materials have different values. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- ideal wire ::@:: Perfect conductor, zero resistance. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- ideal insulator ::@:: Infinite resistance. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- resistor ::@:: Limits or regulates current; colour bands encode resistance value. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- resistor usage ::@:: Controls current and creates voltage drops; all loads and wires have resistance. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Ohm's law ::@:: $V = IR$; I–V plot is a straight line with slope $1/R$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Ohm's law example ::@:: $V = 5\,\textrm{V}$, $R = 200\,\Omega$ → $I = 25\,\textrm{mA}$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- multimeter ::@:: Measures resistance, voltage, or current. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- metric prefixes ::@:: kilo ($k=10^3$), milli ($m=10^{-3}$). E.g. $10\,\text{k}\Omega = 10000\,\Omega$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
 
 ## capacitors
 
@@ -131,11 +131,11 @@ A capacitor stores electrical energy on two conductive plates separated by an in
 
 Flashcards for this section are as follows:
 
-- capacitor ::@:: Passive device that stores electrical energy when connected to a voltage source.
-- capacitor structure ::@:: Two conductive plates separated by an insulating material.
-- capacitor energy storage ::@:: Opposite charges accumulate on plates when voltage is applied.
-- capacitor action ::@:: Charges when connected, discharges when disconnected, temporarily powering loads.
-- capacitor analog ::@:: Like a water tank storing fluid under pressure.
+- capacitor ::@:: Passive device that stores electrical energy when connected to a voltage source. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- capacitor structure ::@:: Two conductive plates separated by an insulating material. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- capacitor energy storage ::@:: Opposite charges accumulate on plates when voltage is applied. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- capacitor action ::@:: Charges when connected, discharges when disconnected, temporarily powering loads. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- capacitor analog ::@:: Like a water tank storing fluid under pressure. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
 
 ### capacitor actions
 
@@ -167,12 +167,12 @@ Sources deliver DC (constant voltage/current, e.g. batteries) or AC (sinusoidal,
 
 Flashcards for this section are as follows:
 
-- energy definition ::@:: Ability to do work; takes mechanical, thermal, electrical, chemical forms; conserved during conversion.
-- battery role ::@:: Supplies electrical energy via electrochemical reactions; DC power with long storage.
-- DC vs AC ::@:: DC: constant polarity. AC: oscillates and reverses periodically.
-- household AC frequency ::@:: 50 Hz (Hong Kong) or 60 Hz (other countries). <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- energy formula ::@:: $E = qV$; $q$ in coulombs. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- power definition ::@:: $P = E/\Delta t = IV$; for resistors $P = I^2R = V^2/R$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- energy definition ::@:: Ability to do work; takes mechanical, thermal, electrical, chemical forms; conserved during conversion. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- battery role ::@:: Supplies electrical energy via electrochemical reactions; DC power with long storage. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- DC vs AC ::@:: DC: constant polarity. AC: oscillates and reverses periodically. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- household AC frequency ::@:: 50 Hz (Hong Kong) or 60 Hz (other countries). <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- energy formula ::@:: $E = qV$; $q$ in coulombs. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- power definition ::@:: $P = E/\Delta t = IV$; for resistors $P = I^2R = V^2/R$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
 
 ### energy sources in lab
 
@@ -221,14 +221,14 @@ A short circuit bypasses a component (R→0), causing very high current that can
 
 Flashcards for this section are as follows:
 
-- series resistors ::@:: $R_{\text{eq}} = R_1 + R_2 + \cdots$; same current through each. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- voltage divider ::@:: Two series resistors; voltage at node N: $V\cdot\frac{R_L}{R_S + R_L}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- divider assumptions ::@:: Ideal wire (zero resistance) and ground ($0\,\text{V}$) reference. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- parallel resistors ::@:: $1/R_{\text{eq}} = 1/R_1 + 1/R_2 + \cdots$; conductance $G = 1/R$, unit siemens. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- infinite ladder concept ::@:: Replace the infinite tail with $R_{\text{eq}}$ and solve the equation.
-- ELEC 1100 ladder example ::@:: $R_{\text{eq}} = 2R + (1.5R\parallel R_{\text{eq}})$ → $R_{\text{eq}} = 3R$.
-- network example ::@:: 5 V → 30 Ω + (40 Ω ∥ 60 Ω) → $R_{\text{eq}}=54\,\Omega$, $I\approx0.093\,\textrm{A}$.
-- short circuit ::@:: Near-zero-resistance path causing very high current; can damage components.
+- series resistors ::@:: $R_{\text{eq}} = R_1 + R_2 + \cdots$; same current through each. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- voltage divider ::@:: Two series resistors; voltage at node N: $V\cdot\frac{R_L}{R_S + R_L}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- divider assumptions ::@:: Ideal wire (zero resistance) and ground ($0\,\text{V}$) reference. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- parallel resistors ::@:: $1/R_{\text{eq}} = 1/R_1 + 1/R_2 + \cdots$; conductance $G = 1/R$, unit siemens. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- infinite ladder concept ::@:: Replace the infinite tail with $R_{\text{eq}}$ and solve the equation. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- ELEC 1100 ladder example ::@:: $R_{\text{eq}} = 2R + (1.5R\parallel R_{\text{eq}})$ → $R_{\text{eq}} = 3R$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- network example ::@:: 5 V → 30 Ω + (40 Ω ∥ 60 Ω) → $R_{\text{eq}}=54\,\Omega$, $I\approx0.093\,\textrm{A}$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- short circuit ::@:: Near-zero-resistance path causing very high current; can damage components. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
 
 ### worked calculations
 
