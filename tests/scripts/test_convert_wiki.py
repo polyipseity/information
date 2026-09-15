@@ -137,8 +137,8 @@ async def _assert_redirect_symlinks(
         assert target == f"eng/{name}"
 
 
-# Fourier transform snapshot name used by TestBlockMathCategoryBreakdown
-# and TestInlineMathIndependence to read expected output directly.
+"""Fourier transform snapshot name used by TestBlockMathCategoryBreakdown
+and TestInlineMathIndependence to read expected output directly."""
 _FOURIER_SNAPSHOT_NAME = "Fourier transform"
 
 
