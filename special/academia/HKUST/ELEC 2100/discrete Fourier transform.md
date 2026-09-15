@@ -25,34 +25,33 @@ tags:
 
 ---
 
-The discrete Fourier transform (DFT) converts a finite record of $N$ samples into $N$ discrete spectral coefficients. It is the computational form of discrete-time Fourier analysis: instead of a continuous digital-frequency variable, one keeps only the $N$ equally spaced frequencies $\Omega_k=2\pi k/N$.
+The discrete Fourier transform (DFT) converts $N$ samples into $N$ frequency-bin coefficients at $\Omega_k=2\pi k/N$. Two viewpoints are valid: the DFT samples the DTFT of a length-$N$ record on a uniform grid, and it treats the record as one period of a periodic extension, which is why circular shift and circular convolution appear automatically.
 
-The DFT is best understood through two viewpoints at once. First, it samples the DTFT of a length-$N$ record on a uniform frequency grid. Second, it treats that record as one period of a length-$N$ periodic extension, which is why circular shift and circular convolution appear automatically. The two viewpoints are the same mathematics seen from different sides.
+This note also covers the discrete-time Fourier series (DTFS/DFS). Both use a finite harmonic list indexed by $k=0,1,\dots,N-1$. The general DTFT uses continuous $\Omega=\omega T$ and represents periodic sequences by a line spectrum.
 
-This note is also the main home for the discrete-time Fourier series viewpoint, written in the course material as DTFS or DFS. That is deliberate. DTFS/DFS and DFT both describe one period with a finite harmonic coefficient list indexed by $k=0,1,\dots,N-1$, whereas the general DTFT uses the continuous digital-frequency variable $\Omega=\omega T$ and represents periodic sequences by a line spectrum. So if the question is about period-$N$ sequences, discrete harmonics, orthogonality over one period, circular operations, or the normalization difference between DTFS/DFS and DFT, this is the right note.
-
-This note is the finite-grid computational member of the Fourier family. For the continuous digital-frequency viewpoint of a general sequence, see [discrete-time Fourier transform](discrete-time%20Fourier%20transform.md). For the continuous-time side of the story, use [Fourier series](Fourier%20series.md) for periodic signals and [Fourier transform](Fourier%20transform.md) for aperiodic ones.
+For the continuous digital-frequency viewpoint of a general sequence, see [discrete-time Fourier transform](discrete-time%20Fourier%20transform.md). For continuous-time, use [Fourier series](Fourier%20series.md) (periodic) or [Fourier transform](Fourier%20transform.md) (aperiodic).
 
 ---
 
 Flashcards for this section are as follows:
 
+- What does the DFT do? ::@:: It converts $N$ samples into $N$ frequency-bin coefficients at $\Omega_k=2\pi k/N$.
+- Why is the DFT not just the DTFT at fewer points? ::@:: Because the DFT treats a finite record as one period of a periodic extension, so circular shift and circular convolution are built into the model.
+- Where does this note sit among the Fourier notes? ::@:: DFT: finite-grid computational transform for discrete data. DTFT: continuous digital-frequency variable for general sequences. Fourier series/transform: continuous-time periodic/aperiodic counterparts.
 - What core problem does the DFT note solve in ELEC 2100? ::@:: It converts a finite record of samples into a finite set of frequency-bin coefficients so discrete data can be analyzed, computed, and reconstructed on an $N$-point grid.
-- Why is the DFT not simply the DTFT with fewer plotted points? ::@:: Because the DFT treats a finite record as one period of a length-$N$ periodic extension, so circular shift and circular convolution are built into the transform model.
-- Why is DTFS/DFS mainly grouped with the DFT note rather than the DTFT note? ::@:: Because DTFS/DFS and DFT both use one finite harmonic coefficient cycle for period-$N$ data, whereas the general DTFT uses the continuous digital-frequency variable $\Omega=\omega T$ and represents periodic sequences by a line spectrum.
-- How should this note be positioned among the main Fourier notes in ELEC 2100? ::@:: This note is the finite-grid computational transform for discrete data. The DTFT keeps a continuous digital-frequency variable for general sequences, while Fourier series and Fourier transform are the continuous-time periodic and aperiodic counterparts.
+- How should you compare the DTFT note and the DFT note quickly? ::@:: The DTFT note covers discrete-time spectral analysis for general and periodic sequences using the continuous digital-frequency variable $\Omega=\omega T$, while the DFT note covers the finite-data computational transform obtained by sampling that digital frequency on an $N$-point grid.
 
 ## definition and inverse transform
 
 For a length-$N$ sequence $x[n]$ indexed by $n=0,1,\dots,N-1$, the DFT is $X[k]=\sum_{n=0}^{N-1}x[n]e^{-j2\pi kn/N}$ for $k=0,1,\dots,N-1$, and the inverse DFT is $x[n]=\frac{1}{N}\sum_{k=0}^{N-1}X[k]e^{j2\pi kn/N}$ for $n=0,1,\dots,N-1$. If we define the twiddle factor $W_N=e^{-j2\pi/N}$, the forward transform can also be written as $X[k]=\sum_{n=0}^{N-1}x[n]W_N^{kn}$.
 
-The indices have different roles. The time index $n$ labels sample positions inside the finite record, while the frequency index $k$ labels bins on the discrete frequency grid. So the DFT maps one $N$-dimensional vector to another $N$-dimensional vector using complex exponential basis functions. Those basis functions are orthogonal over the finite grid, which is why the inverse transform can recover the original record exactly.
+The DFT maps an $N$-dimensional vector to another using complex exponential basis functions that are orthogonal over the finite grid, so the inverse transform recovers the original record exactly.
 
-For real sequences, the DFT has the finite-length conjugate-symmetry rule $X[N-k]=X^*[k]$. This comes from $X[N-k]=\sum_{n=0}^{N-1}x[n]e^{-j2\pi (N-k)n/N}=\sum_{n=0}^{N-1}x[n]e^{j2\pi kn/N}=X^*[k]$, because $x[n]$ is real and $e^{-j2\pi n}=1$. So nonzero-frequency bins usually come in conjugate pairs: the bin at $k$ and the bin at $N-k$ carry the same magnitude and opposite phase.
+For real sequences, $X[N-k]=X^*[k]$. Nonzero-frequency bins come in conjugate pairs: $k$ and $N-k$ have equal magnitude and opposite phase.
 
-The self-partner exceptions are worth spelling out carefully. A bin is its own partner when $N-k\equiv k\pmod N$, equivalently $2k\equiv0\pmod N$. Therefore $k=0$ is always a self-partner, and when $N$ is even there is one more self-partner at $k=N/2$. Those bins have no distinct negative-frequency partner, so they must equal their own complex conjugates and therefore be purely real. Intuitively, $k=0$ is the DC bin, while $k=N/2$ is the Nyquist bin whose phasor alternates between $+1$ and $-1$ rather than rotating through a nontrivial conjugate pair.
+Self-partner bins solve $N-k\equiv k\pmod N$, equivalently $2k\equiv0\pmod N$. So $k=0$ is always self-partner, and when $N$ is even, $k=N/2$ is also self-partner. These bins are purely real: $k=0$ is DC, $k=N/2$ is the Nyquist bin.
 
-Two short anchor examples make the transform pair easier to remember. For the four-point constant sequence $x[n]=\{1,1,1,1\}$, the DC bin is $X[0]=1+1+1+1=4$, while the nonzero bins cancel because one full cycle of evenly spaced phasors sums to $0$. For the four-point impulse $x[n]=\{1,0,0,0\}$, only the $n=0$ term survives, so every bin equals $1$. So the constant record concentrates at DC, whereas the impulse spreads uniformly across all bins.
+Two short examples help. For $x[n]=\{1,1,1,1\}$, $X[0]=4$ and $X[1]=X[2]=X[3]=0$ (the phasors cancel). For $x[n]=\{1,0,0,0\}$, every bin equals $1$. A constant record concentrates at DC; an impulse spreads uniformly.
 
 ---
 
@@ -63,20 +62,18 @@ Flashcards for this section are as follows:
 - What does the symbol $W_N$ mean in DFT notation? ::@:: It means $W_N=e^{-j2\pi/N}$, so the forward transform can be written compactly as $X[k]=\sum_{n=0}^{N-1}x[n]W_N^{kn}$.
 - What do the indices $n$ and $k$ represent in the DFT? ::@:: $n$ labels time-domain sample positions inside the finite record, while $k$ labels discrete frequency bins.
 - Why can the inverse DFT recover the record exactly from the $N$ coefficients? ::@:: Because the complex exponential basis vectors are orthogonal over the length-$N$ grid, so the transform coefficients give a complete coordinate description of the finite record.
-- What conjugate-symmetry rule should you expect when the sequence is real valued? ::@:: The DFT satisfies $X[N-k]=X^*[k]$, so bins usually appear in conjugate pairs $k$ and $N-k$ with equal magnitude and opposite phase. The self-partner bins solve $N-k\equiv k\pmod N$, equivalently $2k\equiv0\pmod N$, so $k=0$ is always self-partner and $k=N/2$ is also self-partner when $N$ is even. Those bins must therefore be purely real.
-- Why are $k=0$ and, when $N$ is even, $k=N/2$ special in DFT conjugate symmetry? ::@:: Because they are their own negative-frequency partners modulo $N$. The DC bin $k=0$ has no distinct partner, and the Nyquist bin $k=N/2$ also has none when $N$ is even, so each must equal its own conjugate and hence be real.
-- Worked case: Why does the four-point constant sequence $x[n]=\{1,1,1,1\}$ produce only a DC DFT component? ::@:: The DC bin is $X[0]=1+1+1+1=4$. For $k=1,2,3$, the basis phasors complete one full cycle around the unit circle and cancel, so $X[1]=X[2]=X[3]=0$. Thus the DFT is $\{4,0,0,0\}$.
-- Worked case: Why does the four-point impulse $x[n]=\{1,0,0,0\}$ give $X[k]=1$ for every bin? ::@:: In $X[k]=\sum_{n=0}^{3}x[n]e^{-j2\pi kn/4}$, only the $n=0$ term is nonzero. Since $e^0=1$, every bin gets the same contribution and therefore $X[k]=1$ for all $k$.
+- What conjugate-symmetry rule holds for real sequences? ::@:: $X[N-k]=X^*[k]$, so bins come in conjugate pairs with equal magnitude and opposite phase. Self-partner bins ($k=0$, and $k=N/2$ when $N$ even) are purely real.
+- Why are $k=0$ and $k=N/2$ special in DFT conjugate symmetry? ::@:: They are their own negative-frequency partners modulo $N$. The DC bin has no distinct partner, and the Nyquist bin has none when $N$ is even, so each must equal its own conjugate and hence be real.
+- Worked case: Why does $x[n]=\{1,1,1,1\}$ produce only a DC DFT? ::@:: $X[0]=4$. For $k=1,2,3$, the phasors complete full cycles and cancel, so $X[1]=X[2]=X[3]=0$.
+- Worked case: Why does $x[n]=\{1,0,0,0\}$ give $X[k]=1$ for every bin? ::@:: Only the $n=0$ term is nonzero, and $e^0=1$, so every bin gets the same contribution.
 
 ## matrix viewpoint of the DFT
 
-The DFT is also a matrix multiplication. Let $\mathbf{x}=[x[0],x[1],\dots,x[N-1]]^T$ and $\mathbf{X}=[X[0],X[1],\dots,X[N-1]]^T$. Define the DFT matrix $F_N$ by $[F_N]_{k,n}=W_N^{kn}=e^{-j2\pi kn/N}$ for $k,n=0,1,\dots,N-1$. Then the forward transform is $\mathbf{X}=F_N\mathbf{x}$.
+The DFT can also be written as a matrix multiplication. Let $\mathbf{x}=[x[0],x[1],\dots,x[N-1]]^T$ and $\mathbf{X}=[X[0],X[1],\dots,X[N-1]]^T$. Define the DFT matrix $F_N$ by $[F_N]_{k,n}=W_N^{kn}=e^{-j2\pi kn/N}$. Then $\mathbf{X}=F_N\mathbf{x}$.
 
-The inverse matrix is built from the conjugate exponentials. Since the sampled complex exponentials are orthogonal, one gets $F_N^H F_N=N I$, where $F_N^H$ is the conjugate transpose. Therefore $F_N^{-1}=\frac{1}{N}F_N^H$, so the inverse DFT is $\mathbf{x}=\frac{1}{N}F_N^H\mathbf{X}$. This is the matrix version of the transform pair and also explains why the inverse keeps the same exponential family but flips the sign and adds the factor $1/N$.
+The inverse matrix comes from orthogonality: $F_N^H F_N=N I$, so $F_N^{-1}=\frac{1}{N}F_N^H$. Each row of $F_N$ is a sampled complex exponential, so each DFT coefficient is a projection of the data onto one basis row.
 
-This matrix view is useful for interpretation. Each row of $F_N$ is one sampled complex exponential basis vector, so each DFT coefficient is an inner-product-like correlation between the data vector and one basis row. Each column shows how one time sample contributes to all bins simultaneously. So the DFT can be read as a change of coordinates from the sample basis to the exponential basis.
-
-For $N=4$, $W_4=e^{-j2\pi/4}=-j$, so the DFT matrix is $F_4=\begin{bmatrix}1&1&1&1\\1&-j&-1&j\\1&-1&1&-1\\1&j&-1&-j\end{bmatrix}$. If $\mathbf{h}=[1,2,-1,3]^T$, then $\mathbf{H}=F_4\mathbf{h}=\begin{bmatrix}1&1&1&1\\1&-j&-1&j\\1&-1&1&-1\\1&j&-1&-j\end{bmatrix}\begin{bmatrix}1\\2\\-1\\3\end{bmatrix}=\begin{bmatrix}5\\2+j\\-5\\2-j\end{bmatrix}$. So the matrix form is not a different theory; it is the same DFT written in linear-algebra language.
+For $N=4$, $W_4=-j$, so $F_4=\begin{bmatrix}1&1&1&1\\1&-j&-1&j\\1&-1&1&-1\\1&j&-1&-j\end{bmatrix}$. If $\mathbf{h}=[1,2,-1,3]^T$, then $\mathbf{H}=F_4\mathbf{h}=\begin{bmatrix}5\\2+j\\-5\\2-j\end{bmatrix}$. The matrix form is the same DFT in linear-algebra language.
 
 ---
 
@@ -85,79 +82,62 @@ Flashcards for this section are as follows:
 - How do you write the DFT as a matrix multiplication? ::@:: Let $\mathbf{x}=[x[0],x[1],\dots,x[N-1]]^T$ and define $[F_N]_{k,n}=W_N^{kn}=e^{-j2\pi kn/N}$. Then the DFT is $\mathbf{X}=F_N\mathbf{x}$.
 - Why does the inverse DFT matrix equal $\frac{1}{N}F_N^H$? ::@:: Because the sampled complex exponentials are orthogonal, so $F_N^H F_N=N I$. Therefore $F_N^{-1}=\frac{1}{N}F_N^H$, which is the matrix form of the inverse DFT.
 - What is the best interpretation of the DFT matrix rows? ::@:: Each row is one sampled complex exponential basis vector, so each DFT coefficient is a correlation or projection of the data onto one discrete harmonic.
-- What is the $4$-point DFT matrix? ::@:: Since $W_4=e^{-j2\pi/4}=-j$, $F_4=\begin{bmatrix}1&1&1&1\\1&-j&-1&j\\1&-1&1&-1\\1&j&-1&-j\end{bmatrix}$.
+- What is the $4$-point DFT matrix? ::@:: $F_4=\begin{bmatrix}1&1&1&1\\1&-j&-1&j\\1&-1&1&-1\\1&j&-1&-j\end{bmatrix}$, since $W_4=-j$.
 - Matrix-form worked example: If $\mathbf{h}=[1,2,-1,3]^T$, what is its $4$-point DFT? ::@:: Using $\mathbf{H}=F_4\mathbf{h}$ with $F_4=\begin{bmatrix}1&1&1&1\\1&-j&-1&j\\1&-1&1&-1\\1&j&-1&-j\end{bmatrix}$ gives $\mathbf{H}=\begin{bmatrix}5\\2+j\\-5\\2-j\end{bmatrix}$.
 
 ## relation to DTFT and periodic extension
 
-The DFT can be derived from the DTFT by truncating the sequence to $N$ samples and then sampling the DTFT at the grid $\Omega_k=2\pi k/N$. If $x[n]$ is treated as zero outside $0\le n\le N-1$, then its DTFT is $X(e^{j\Omega})=\sum_{n=0}^{N-1}x[n]e^{-j\Omega n}$. Evaluating this at $\Omega=\Omega_k=2\pi k/N$ gives $X(e^{j\Omega_k})=\sum_{n=0}^{N-1}x[n]e^{-j2\pi kn/N}=X[k]$. So the DFT is literally a sampled DTFT of the finite record.
+Truncating the sequence to $N$ samples and evaluating the DTFT at $\Omega_k=2\pi k/N$ gives the DFT directly.
 
-There is also a periodic-sequence viewpoint. If the length-$N$ sample block is extended periodically, then the DFT coefficients are proportional to the DTFS coefficients of that periodic extension. With the normalization used here, $X[k]=N\tilde X[k]$. This is the reason circular phenomena appear naturally: a finite record is interpreted as one principal interval of a period-$N$ sequence.
+From the periodic-extension viewpoint, if the length-$N$ block is repeated periodically, $X[k]=N\tilde X[k]$ where $\tilde X[k]$ are the DTFS coefficients. Circular phenomena arise because a finite record is one period of a periodic sequence.
 
-This is also why the DFT is algebraically closer to DTFS than to the general DTFT. DTFS and DFT both use a finite coefficient index $k=0,1,\dots,N-1$, both work modulo $N$, and both describe one period of a length-$N$ periodic object without explicit Dirac impulses in frequency. The general DTFT, by contrast, uses the continuous digital-frequency variable $\Omega=\omega T$ and represents periodic sequences by a line spectrum in that variable.
-
-The fastest comparison is therefore: the DTFT keeps a continuous digital-frequency axis, whereas the DFT keeps only one sampled frequency grid and therefore becomes the transform used directly in numerical computation.
+DTFS and DFT both use finite $k=0,1,\dots,N-1$ and work modulo $N$ without Dirac impulses. The general DTFT uses continuous $\Omega=\omega T$ and represents periodic sequences by a line spectrum.
 
 ---
 
 Flashcards for this section are as follows:
 
-- How is the DFT obtained from the DTFT conceptually? ::@:: Restrict the sequence to a finite record of length $N$ and sample the DTFT at the digital frequencies $\Omega_k=2\pi k/N$, so $X[k]=X(e^{j\Omega_k})$. <br/> Here digital angular frequency is defined by $\Omega=\omega T$, so $\Omega_k/(2\pi)=k/N$ cycles per sample, interpreted modulo $2\pi$ and often recentered on the principal interval $[-\pi,\pi]$.
-- What frequencies are sampled in an $N$-point DFT? ::@:: The sampled digital frequencies are $\Omega_k=2\pi k/N$ for $k=0,1,\dots,N-1$. <br/> Since $\Omega=\omega T$, these are the grid values of digital angular frequency, equivalently $k/N$ cycles per sample, with distinct frequencies interpreted modulo $2\pi$ and often recentered on $[-\pi,\pi]$.
-- Why does the DFT inherit circular behavior from the periodic-sequence viewpoint? ::@:: Because the finite data block is interpreted as one period of a periodic extension, so shifts and convolutions wrap modulo $N$.
-- How are the DFT coefficients related to the DTFS coefficients of the periodic extension? ::@:: With the normalization used here, the DFT coefficients satisfy $X[k]=N\tilde X[k]$, so the DFT is the unnormalized harmonic coefficient list of the length-$N$ periodic extension.
-- Why is the DFT more closely related to DTFS than to the general DTFT? ::@:: Because DFT and DTFS both use a finite harmonic index $k=0,1,\dots,N-1$, both work modulo $N$, and both describe one period without explicit Dirac impulses in frequency. The general DTFT instead uses the continuous digital-frequency variable $\Omega=\omega T$. <br/> Here $\Omega/(2\pi)$ is cycles per sample, and distinct digital frequencies are interpreted modulo $2\pi$, usually recentered on $[-\pi,\pi]$.
-- How should you compare the DTFT note and the DFT note quickly? ::@:: The DTFT note covers discrete-time spectral analysis for general and periodic sequences using the continuous digital-frequency variable $\Omega=\omega T$, while the DFT note covers the finite-data computational transform obtained by sampling that digital frequency on an $N$-point grid. <br/> So $\Omega/(2\pi)$ is cycles per sample, with distinct digital frequencies understood modulo $2\pi$ and usually read on $[-\pi,\pi]$.
+- How is the DFT obtained from the DTFT? ::@:: Restrict the sequence to length $N$ and sample the DTFT at $\Omega_k=2\pi k/N$.
+- What frequencies are sampled in an $N$-point DFT? ::@:: $\Omega_k=2\pi k/N$ for $k=0,1,\dots,N-1$.
+- Why does the DFT inherit circular behavior? ::@:: Because the finite data block is interpreted as one period of a periodic extension, so shifts and convolutions wrap modulo $N$.
+- How are DFT and DTFS coefficients related? ::@:: $X[k]=N\tilde X[k]$ with the normalization used here.
 
 ## relation between DTFS and DFT
 
 For a period-$N$ sequence $\tilde x[n+N]=\tilde x[n]$, the DTFS/DFS pair used in this course is $\tilde X[k]=\frac{1}{N}\sum_{n=0}^{N-1}\tilde x[n]e^{-j2\pi kn/N}$ and $\tilde x[n]=\sum_{k=0}^{N-1}\tilde X[k]e^{j2\pi kn/N}$. For an $N$-point record, the DFT pair is $X[k]=\sum_{n=0}^{N-1}x[n]e^{-j2\pi kn/N}$ and $x[n]=\frac{1}{N}\sum_{k=0}^{N-1}X[k]e^{j2\pi kn/N}$.
 
-So the course-material distinction is interpretive. DTFS/DFS is used for an explicitly periodic sequence, while DFT is used for a finite record with an implicit periodic extension. That difference matters in exams and assignments, because the question may ask whether the data are being treated as a truly periodic sequence or as a finite block being transformed computationally.
+The course-material distinction is interpretive: DTFS/DFS is for explicitly periodic sequences, DFT for finite records with implicit periodic extension.
 
-In actual algebra, however, the two are literally the same harmonic decomposition once one period is identified. If the finite record $x[n]$ is taken as one period of the periodic sequence $\tilde x[n]$, then $x[n]=\tilde x[n]$ for $0\le n\le N-1$ and $X[k]=N\tilde X[k]$. The basis functions, the harmonic grid, the modulo-$N$ indexing, and the orthogonality identity are the same. The only systematic difference is where the factor $1/N$ is placed.
+Algebraically, the two are the same harmonic decomposition: $X[k]=N\tilde X[k]$. The basis functions, modulo-$N$ indexing, and orthogonality are identical. The only difference is where $1/N$ is placed.
 
-This gives a clean memory rule. DTFS/DFS is the _average-first_ convention: divide by $N$ during analysis, then synthesize directly. DFT is the _sum-first_ convention: keep the forward transform as a raw correlation sum, then divide by $N$ during reconstruction. So the two formalisms are not competing theories; they are the same finite-harmonic picture written with different normalization choices and slightly different problem statements.
+DTFS/DFS: average-first ($1/N$ in analysis, synthesize directly). DFT: sum-first (raw forward sum, $1/N$ in the inverse).
 
 ---
 
 Flashcards for this section are as follows:
 
-- What is the course-material distinction between DTFS/DFS and DFT? ::@:: DTFS/DFS is used for an explicitly periodic sequence, while DFT is used for a finite record with an implicit periodic extension. So for exams and assignments, remember the interpretive distinction even though the formulas are very closely related.
-- In actual algebra, how are DTFS/DFS and DFT related? ::@:: Once one period is identified, they are the same harmonic decomposition with the same basis functions and modulo-$N$ indexing. The coefficient lists differ only by normalization: $X[k]=N\tilde X[k]$.
-- What is the easiest memory rule for the $1/N$ placement in DTFS/DFS versus DFT? ::@:: DTFS/DFS is the average-first convention: put $1/N$ in the forward coefficient formula and synthesize directly. DFT is the sum-first convention: keep the forward transform unnormalized and divide by $N$ in the inverse transform.
+- What is the course-material distinction between DTFS/DFS and DFT? ::@:: DTFS/DFS: explicitly periodic sequences. DFT: finite records with implicit periodic extension.
+- How are DTFS/DFS and DFT related algebraically? ::@:: $X[k]=N\tilde X[k]$. Same basis functions, same modulo-$N$ indexing.
+- What is the memory rule for $1/N$ placement? ::@:: DTFS: average-first ($1/N$ in analysis). DFT: sum-first ($1/N$ in the inverse).
+- Why is DTFS/DFS mainly grouped with the DFT note rather than the DTFT note? ::@:: Because DTFS/DFS and DFT both use one finite harmonic coefficient cycle for period-$N$ data, whereas the general DTFT uses the continuous digital-frequency variable $\Omega=\omega T$ and represents periodic sequences by a line spectrum.
 
 ## periodic sequences and discrete-time Fourier series
 
-If a sequence is periodic with period $N$, then the discrete-time spectrum can be described with a finite harmonic set instead of a continuous digital-frequency variable. Since digital angular frequency is defined by $\Omega=\omega T$, the fundamental digital angular frequency is $\Omega_0=2\pi/N$, which is also $1/N$ cycles per sample. The discrete-time Fourier series synthesis formula is $\tilde x[n]=\sum_{k=0}^{N-1}\tilde X[k]e^{jk\Omega_0 n}=\sum_{k=0}^{N-1}\tilde X[k]e^{j2\pi kn/N}$. The coefficients $\tilde X[k]$ are the harmonic weights of the periodic sequence.
+For a sequence periodic with period $N$, the fundamental digital angular frequency is $\Omega_0=2\pi/N$. The DTFS synthesis formula is $\tilde x[n]=\sum_{k=0}^{N-1}\tilde X[k]e^{j2\pi kn/N}$.
 
-This finite description is natural because both time and frequency already wrap in discrete periodic problems. A period-$N$ sequence has only $N$ distinct sample positions per period, and its harmonics repeat after $N$ index steps in the frequency label as well. So one cycle of $N$ coefficients contains the full spectral description.
+The point of deriving the DTFT of a periodic sequence is to connect two descriptions: the finite DTFS coefficient list $\tilde X[k]$ and the line spectrum in continuous $\Omega$.
 
-Why derive the DTFT of a periodic sequence from the DTFS synthesis formula at all? The motivation is not to create a second way of solving the same periodic problem. It is to connect two descriptions of the same object. DTFS stores the harmonic information as a finite coefficient list $\tilde X[k]$, while the DTFT describes the same periodic sequence by a line spectrum in the continuous digital-frequency variable $\Omega$. The derivation shows exactly how the finite coefficient list becomes a periodic impulse train in frequency.
+The notation: $\tilde x[n]$ is the period-$N$ sequence, $\tilde X[k]$ are its DTFS coefficients, $\Omega_0=2\pi/N$, and $X_{\mathrm{DTFT}}(e^{j\Omega})$ is the DTFT.
 
-The notation can be confusing if the roles are not stated explicitly. Here $\tilde x[n]$ is the period-$N$ sequence in time, $\tilde X[k]$ are its DTFS coefficients, $\Omega_0=2\pi/N$ is the fundamental digital angular frequency, and $X_{\mathrm{DTFT}}(e^{j\Omega})$ means the DTFT of that periodic sequence as a function of the continuous variable $\Omega$. So the index $k$ labels harmonic numbers, while $\Omega$ remains a continuous digital-frequency variable measured in radians per sample.
+Now isolate one harmonic. Suppose $\tilde x_{k_0}[n]=\tilde X[k_0]e^{jk_0\Omega_0 n}$. Its DTFT is $X_{k_0}(e^{j\Omega})=\tilde X[k_0]\sum_{n=-\infty}^{\infty}e^{-j(\Omega-k_0\Omega_0)n}$.
 
-Now first isolate one harmonic. Suppose only the DTFS term with harmonic index $k_0$ is present, so $\tilde x_{k_0}[n]=\tilde X[k_0]e^{jk_0\Omega_0 n}$. Its DTFT is $X_{k_0}(e^{j\Omega})=\sum_{n=-\infty}^{\infty}\tilde X[k_0]e^{jk_0\Omega_0 n}e^{-j\Omega n}=\tilde X[k_0]\sum_{n=-\infty}^{\infty}e^{-j(\Omega-k_0\Omega_0)n}$. So one time-domain harmonic becomes one infinite exponential sum centered at the digital frequency $\Omega=k_0\Omega_0$.
-
-That inner sum is not an ordinary convergent function, so it must be interpreted as a generalized function. A useful bridge is the symmetric partial sum $S_M(\alpha)=\sum_{n=-M}^{M}e^{-j\alpha n}=\frac{\sin((2M+1)\alpha/2)}{\sin(\alpha/2)}$. As $M$ grows, $S_M(\alpha)$ develops sharper peaks near $\alpha=2\pi m$. The line weight comes from the area over one period: $\int_{-\pi}^{\pi}S_M(\alpha)\,d\alpha=\sum_{n=-M}^{M}\int_{-\pi}^{\pi}e^{-j\alpha n}\,d\alpha=2\pi$, since only the $n=0$ term survives. So each symmetric partial sum already carries total area $2\pi$ over one $2\pi$-period, and in the limit that area concentrates at $\alpha=2\pi m$. Thus the Dirichlet kernels tend distributionally to an impulse train with line weight $2\pi$: $\sum_{n=-\infty}^{\infty}e^{-j\alpha n}=2\pi\sum_{m=-\infty}^{\infty}\delta(\alpha-2\pi m)$.
-
-The factor $2\pi$ is not arbitrary bookkeeping; it is exactly the weight needed by the inverse DTFT. If one spectral line is written as $2\pi A\,\delta(\Omega-\Omega_c)$, then $\frac{1}{2\pi}\int_{-\pi}^{\pi}2\pi A\,\delta(\Omega-\Omega_c)e^{j\Omega n}\,d\Omega=Ae^{j\Omega_c n}$. So a line of area $2\pi A$ reconstructs a harmonic of amplitude $A$. That is why one harmonic in the DTFS synthesis formula becomes a $2\pi$-weighted Dirac line family in the DTFT.
-
-Applying the generalized-function identity with $\alpha=\Omega-k_0\Omega_0$ gives $X_{k_0}(e^{j\Omega})=2\pi\tilde X[k_0]\sum_{m=-\infty}^{\infty}\delta(\Omega-k_0\Omega_0-2\pi m)$. So one DTFS harmonic does not become one ordinary curve in the DTFT. It becomes one periodic family of spectral lines, repeated every $2\pi$ because the DTFT is $2\pi$-periodic in $\Omega$.
-
-Now sum all harmonics. Start from the full DTFS synthesis formula $\tilde x[n]=\sum_{k=0}^{N-1}\tilde X[k]e^{jk\Omega_0 n}$. Substituting into the DTFT definition gives $X_{\mathrm{DTFT}}(e^{j\Omega})=\sum_{n=-\infty}^{\infty}\tilde x[n]e^{-j\Omega n}=\sum_{n=-\infty}^{\infty}\sum_{k=0}^{N-1}\tilde X[k]e^{jk\Omega_0 n}e^{-j\Omega n}=\sum_{k=0}^{N-1}\tilde X[k]\sum_{n=-\infty}^{\infty}e^{-j(\Omega-k\Omega_0)n}$.
-
-Now replace each inner exponential sum by its generalized-function form: $\sum_{n=-\infty}^{\infty}e^{-j(\Omega-k\Omega_0)n}=2\pi\sum_{m=-\infty}^{\infty}\delta(\Omega-k\Omega_0-2\pi m)$. Therefore $X_{\mathrm{DTFT}}(e^{j\Omega})=2\pi\sum_{k=0}^{N-1}\tilde X[k]\sum_{m=-\infty}^{\infty}\delta(\Omega-k\Omega_0-2\pi m)$.
-
-So the DTFT of a periodic sequence is a periodic line spectrum, not an ordinary smooth function. The discrete harmonic index $k$ tells where the lines sit within one fundamental period, the continuous variable $\Omega$ tells where those lines live on the digital-frequency axis, and the extra index $m$ accounts for repetition every $2\pi$. In the principal interval $[-\pi,\pi]$, one sees exactly one representative copy of those spectral lines.
-
-This also makes the differences explicit. DTFT describes the periodic sequence by impulses in the continuous variable $\Omega$. DTFS records only the finite list of line weights $\tilde X[k]$. That is why DTFS is the cleaner language for periodic sequences: it stores the harmonic amplitudes directly instead of wrapping them inside a generalized-function spectrum.
+The factor $2\pi$ is not arbitrary; it is exactly the weight needed by the inverse DTFT. If one spectral line is $2\pi A\,\delta(\Omega-\Omega_c)$, then $\frac{1}{2\pi}\int_{-\pi}^{\pi}2\pi A\,\delta(\Omega-\Omega_c)e^{j\Omega n}\,d\Omega=Ae^{j\Omega_c n}$. So a line of area $2\pi A$ reconstructs a harmonic of amplitude $A$. That is why one harmonic in the DTFS synthesis formula becomes a $2\pi$-weighted Dirac line family in the DTFT.
 
 ---
 
 Flashcards for this section are as follows:
 
-- If a discrete-time sequence is periodic with period $N$, what is its fundamental digital angular frequency? ::@:: It is $\Omega_0=2\pi/N$. <br/> Since digital angular frequency is defined by $\Omega=\omega T$, this means $\Omega_0$ is $1/N$ cycles per sample, and distinct digital frequencies are usually interpreted on the principal interval $[-\pi,\pi]$.
+- What is the fundamental digital angular frequency of a period-$N$ sequence? ::@:: It is $\Omega_0=2\pi/N$. <br/> Since digital angular frequency is defined by $\Omega=\omega T$, this means $\Omega_0$ is $1/N$ cycles per sample, and distinct digital frequencies are usually interpreted on the principal interval $[-\pi,\pi]$.
 - What is the DTFS synthesis formula for a period-$N$ sequence? ::@:: It is $\tilde x[n]=\sum_{k=0}^{N-1}\tilde X[k]e^{jk\Omega_0 n}=\sum_{k=0}^{N-1}\tilde X[k]e^{j2\pi kn/N}$. <br/> Here $\Omega_0=2\pi/N$ comes from $\Omega=\omega T$, so it is the fundamental digital angular frequency in radians per sample, equivalently $1/N$ cycles per sample.
 - Why does a period-$N$ sequence need only $N$ distinct DTFS coefficients? ::@:: Because both the periodic sequence and the discrete-frequency description repeat modulo $N$, so one full coefficient cycle already contains all distinct information. <br/> In digital-frequency language, the harmonics are spaced by $\Omega_0=2\pi/N$, with distinct frequencies interpreted modulo $2\pi$ and usually read on $[-\pi,\pi]$.
 - How should you compare DTFT and DTFS conceptually? ::@:: DTFT uses the continuous digital-frequency variable $\Omega=\omega T$, interpreted as normalized frequency or $\Omega/(2\pi)$ cycles per sample and usually read on $[-\pi,\pi]$, whereas DTFS uses a finite harmonic coefficient cycle for periodic sequences.
@@ -173,17 +153,9 @@ Flashcards for this section are as follows:
 
 The DTFS coefficient formula comes from orthogonality of discrete complex exponentials over one period, so it is worth making the proof explicit rather than memorizing the answer only. Define $S_{k,r}=\sum_{n=0}^{N-1}e^{j2\pi (k-r)n/N}$.
 
-If $k=r\pmod N$, then $e^{j2\pi (k-r)n/N}=1$ for every $n$, so $S_{k,r}=\sum_{n=0}^{N-1}1=N$. If $k\neq r\pmod N$, define $q=e^{j2\pi (k-r)/N}$. Then $q\neq1$, so the sum is geometric: $S_{k,r}=1+q+q^2+\cdots+q^{N-1}=\frac{1-q^N}{1-q}$. But $q^N=e^{j2\pi(k-r)}=1$, so $S_{k,r}=0$. Therefore $\sum_{n=0}^{N-1}e^{j2\pi (k-r)n/N}=\begin{cases}N,&k=r\pmod N,\\0,&k\neq r\pmod N.\end{cases}$.
+If $k=r\pmod N$, then $e^{j2\pi (k-r)n/N}=1$ for every $n$, so $S_{k,r}=\sum_{n=0}^{N-1}1=N$. If $k\neq r\pmod N$, define $q=e^{j2\pi (k-r)/N}$. Then $q\neq1$, so the sum is geometric: $S_{k,r}=1+q+q^2+\cdots+q^{N-1}=\frac{1-q^N}{1-q}$. But $q^N=e^{j2\pi(k-r)}=1$, so $S_{k,r}=0$. Therefore $\sum_{n=0}^{N-1}e^{j2\pi (k-r)n/N}=\begin{cases}N,&k=r\pmod N,\\0,&k\neq r\pmod N.\end{cases}$
 
 The intuition is the same as in ordinary Fourier orthogonality. When $k=r$, the phasors do not rotate, so every term points in the same direction and adds coherently. When $k\neq r$, the phasors wrap around the unit circle in evenly spaced steps and close into a polygon, so the vector sum is zero.
-
-Now derive the DTFS analysis formula step by step. Start with the synthesis formula $\tilde x[n]=\sum_{k=0}^{N-1}\tilde X[k]e^{j2\pi kn/N}$. Choose one target harmonic index $r$. Multiply both sides by $e^{-j2\pi rn/N}$ to get $\tilde x[n]e^{-j2\pi rn/N}=\sum_{k=0}^{N-1}\tilde X[k]e^{j2\pi kn/N}e^{-j2\pi rn/N}=\sum_{k=0}^{N-1}\tilde X[k]e^{j2\pi (k-r)n/N}$.
-
-Now sum over one full period $n=0,1,\dots,N-1$: $\sum_{n=0}^{N-1}\tilde x[n]e^{-j2\pi rn/N}=\sum_{n=0}^{N-1}\sum_{k=0}^{N-1}\tilde X[k]e^{j2\pi (k-r)n/N}$. Interchange the order of summation: $\sum_{n=0}^{N-1}\tilde x[n]e^{-j2\pi rn/N}=\sum_{k=0}^{N-1}\tilde X[k]\sum_{n=0}^{N-1}e^{j2\pi (k-r)n/N}$.
-
-Now orthogonality does the coefficient extraction. Every $k\neq r$ term vanishes, while the $k=r$ term contributes $N$. So $\sum_{n=0}^{N-1}\tilde x[n]e^{-j2\pi rn/N}=N\tilde X[r]$. Finally divide by $N$ to obtain $\tilde X[r]=\frac{1}{N}\sum_{n=0}^{N-1}\tilde x[n]e^{-j2\pi rn/N}$.
-
-This also explains why the factor $1/N$ belongs in the DTFS analysis formula. The basis vectors are orthogonal but not unit-length; their inner product with themselves is $N$, not $1$. So coefficient extraction must divide by $N$ after the projection step. Geometrically, $\tilde X[r]$ is the normalized projection of the period-$N$ sequence onto the discrete complex exponential basis vector for harmonic index $r$.
 
 ---
 
@@ -250,17 +222,16 @@ Flashcards for this section are as follows:
 
 The DFT is linear: $\operatorname{DFT}\{ax_1[n]+bx_2[n]\}=aX_1[k]+bX_2[k]$. In practice, however, both sequences must be represented at the same transform length. If one record is shorter, it must be zero-padded before combining or comparing transforms so that both transforms refer to the same bin spacing and the same modulo-$N$ interpretation.
 
-To describe zero padding precisely, suppose the original finite record has length $L$ and is stored on $0\le n\le L-1$. The $N$-point zero-padded sequence with $N\ge L$ is $x_N[n]=\begin{cases}x[n],&0\le n\le L-1,\\0,&L\le n\le N-1.\end{cases}$.
+To describe zero padding precisely, suppose the original finite record has length $L$ and is stored on $0\le n\le L-1$. The $N$-point zero-padded sequence with $N\ge L$ is $x_N[n]=\begin{cases}x[n],&0\le n\le L-1,\\0,&L\le n\le N-1.\end{cases}$
 
 Its $N$-point DFT is $X_N[k]=\sum_{n=0}^{N-1}x_N[n]e^{-j2\pi kn/N}=\sum_{n=0}^{L-1}x[n]e^{-j2\pi kn/N}=X\!\left(e^{j2\pi k/N}\right)$,
-
 where $X(e^{j\Omega})=\sum_{n=0}^{L-1}x[n]e^{-j\Omega n}$ is the DTFT of the original finite record. This formula is the key interpretation: zero padding does not create a new spectrum; it samples the same underlying DTFT on a finer grid. If one increases the transform length from $M$ to $N$, then the digital-frequency spacing shrinks from $2\pi/M$ to $2\pi/N$. So the plotted spectrum looks smoother because more grid points lie on the same DTFT curve, not because the data contain more physical information.
 
 This is why zero padding improves interpolation of the plotted spectrum but does not improve the true frequency resolution set by the observation length. The record length $L$ determines the underlying DTFT features such as main-lobe width and the ability to distinguish nearby tones, whereas the chosen DFT length $N$ only determines how densely that same DTFT is sampled.
 
 It is also important to pad in the right place. If the record is naturally indexed from $0$ to $L-1$, the standard choice is to append zeros at the tail so the original sample locations stay fixed. More generally, zeros should be inserted only outside the actual support while preserving the original index origin and relative sample positions. Padding in the middle changes the sequence itself unless one is deliberately redefining the indexing.
 
-In convolution problems zero padding has a second role: it provides extra room so circular wrap-around does not contaminate the desired linear result. If $x[n]$ has length $N_x$ and $h[n]$ has length $N_h$, then the linear convolution has length $N_x+N_h-1$. So choose a DFT length $N\ge N_x+N_h-1$ and define $x_N[n]=\begin{cases}x[n],&0\le n\le N_x-1,\\0,&N_x\le n\le N-1,\end{cases}\qquad h_N[n]=\begin{cases}h[n],&0\le n\le N_h-1,\\0,&N_h\le n\le N-1.\end{cases}$.
+In convolution problems zero padding has a second role: it provides extra room so circular wrap-around does not contaminate the desired linear result. If $x[n]$ has length $N_x$ and $h[n]$ has length $N_h$, then the linear convolution has length $N_x+N_h-1$. So choose a DFT length $N\ge N_x+N_h-1$ and define $x_N[n]=\begin{cases}x[n],&0\le n\le N_x-1,\\0,&N_x\le n\le N-1,\end{cases}\qquad h_N[n]=\begin{cases}h[n],&0\le n\le N_h-1,\\0,&N_h\le n\le N-1.\end{cases}$
 
 Then the $N$-point circular convolution of $x_N[n]$ and $h_N[n]$ agrees with the ordinary linear convolution, because the output support fits entirely inside one length-$N$ period and therefore no tail wraps back to the front. Intuitively, zero padding creates a guard interval that absorbs what would otherwise fold around the circular boundary.
 
@@ -297,10 +268,7 @@ Flashcards for this section are as follows:
 - What does the identity $x[n]=x_p[n]u[n]-x_p[n-N]u[n-N]$ mean? ::@:: It is an algebraic rewriting of the same windowing idea, because $x_p[n-N]=x_p[n]$ by periodicity and therefore $x[n]=x_p[n](u[n]-u[n-N])=x_p[n]G_N[n]$. So it is still just principal interval extraction.
 - How does principal value interval extraction explain circular shift? ::@:: If the periodic extension is shifted by $m$ samples, then the extracted stored block is $x_c[n]=x_p[n-m]G_N[n]$. So a circular shift means: shift on a ring, then keep one principal interval.
 
-## circular shift
-
 Define the circularly shifted sequence by $x_c[n]=x[(n-m)_N]$, where $(\cdot)_N$ means reduction modulo $N$. To derive its DFT, write $X_c[k]=\sum_{n=0}^{N-1}x[(n-m)_N]e^{-j2\pi kn/N}$. Re-index with $r=(n-m)_N$, so $n=(r+m)_N$ and the finite sum still runs over one complete set of residues. This gives $X_c[k]=\sum_{r=0}^{N-1}x[r]e^{-j2\pi k(r+m)/N}=e^{-j2\pi km/N}\sum_{r=0}^{N-1}x[r]e^{-j2\pi kr/N}=e^{-j2\pi km/N}X[k]$.
-
 So a circular time shift produces a linear phase factor, just as an ordinary delay does in other Fourier settings. The key difference from linear shift is geometric. A linear delay moves a sequence along an open index axis and may enlarge the visible support interval. A circular shift instead moves samples around a closed loop of $N$ positions, so samples leaving one edge re-enter from the other edge.
 
 Circular shift of the frequency bins has the dual effect: it corresponds to multiplying the time-domain sequence by a complex exponential. This is the finite-length analogue of discrete-time frequency shifting.
