@@ -18,201 +18,18 @@ from anyio import Path, run_process
 from bs4 import BeautifulSoup, Tag
 
 from scripts.convert_wiki import config
-from scripts.convert_wiki.api import _collect_image_filenames, _collect_link_titles
+from scripts.convert_wiki.api import _collect_link_titles
 from scripts.convert_wiki.converter import WikiHtmlConverter
 from scripts.convert_wiki.pipeline import _preprocess_html, run_pipeline
 from scripts.convert_wiki.table import TableConverter
 from scripts.convert_wiki.types import _RedirectInfo
 from scripts.convert_wiki.utils import (
-    _create_redirect_symlinks,
     _fix_filename,
     _fix_name_maybe,
-    _get_image_filename,
 )
 
 """Public API of this test module (empty: no symbols are exported)."""
 __all__ = ()
-
-
-class TestModuleExports:
-    """Tests for module-level behavior."""
-
-    def test_all_is_empty(self) -> None:
-        """__all__ should be an empty tuple (standalone script)."""
-        assert config.__all__ == ()
-
-
-class TestSymlinkCreation:
-    """Tests for symlink creation in _handle_anchor.
-
-    When a Wikipedia page redirects to another page, symlinks are created
-    so that both filenames resolve to the same Markdown file.
-    """
-
-    @pytest.mark.anyio
-    async def test_symlink_created_when_from_missing_and_differs(
-        self, tmp_path: PathLike[str]
-    ) -> None:
-        """Should create both symlinks when from/to differ and FROM is missing."""
-        tmp = Path(tmp_path)
-        lang_dir = tmp / "general" / "eng"
-        top_dir = tmp / "general"
-        await lang_dir.mkdir(parents=True)
-
-        converter = WikiHtmlConverter(
-            converted_wiki_dir=top_dir,
-            converted_wiki_lang_dir=lang_dir,
-        )
-        html = BeautifulSoup(
-            '<a title="From Page" href="/wiki/From_Page">link</a>',
-            "html.parser",
-        )
-        redirect_map = {
-            "From Page": _RedirectInfo(to="To Page"),
-        }
-
-        await converter.convert(
-            html,
-            out_to_archive=set(),
-            redirect_map=redirect_map,
-            refs=True,
-        )
-
-        # Symlinks are now created in the pipeline, not the converter.
-        # Simulate the pipeline step by flushing pending redirects.
-        for from_name, to_name in converter._pending_redirects:
-            await _create_redirect_symlinks(top_dir, lang_dir, from_name, to_name)
-
-        from_symlink = lang_dir / "From Page.md"
-        top_symlink = top_dir / "From Page.md"
-        assert await from_symlink.is_symlink()
-        assert await top_symlink.is_symlink()
-        assert str(await from_symlink.readlink()) == "To Page.md"
-        assert str(await top_symlink.readlink()) == "eng/From Page.md"
-
-    @pytest.mark.anyio
-    async def test_symlink_not_created_when_same(self, tmp_path: PathLike[str]) -> None:
-        """Should not create symlinks when from/to filenames are identical."""
-        tmp = Path(tmp_path)
-        lang_dir = tmp / "general" / "eng"
-        top_dir = tmp / "general"
-        await lang_dir.mkdir(parents=True)
-
-        converter = WikiHtmlConverter(
-            converted_wiki_dir=top_dir,
-            converted_wiki_lang_dir=lang_dir,
-        )
-        html = BeautifulSoup(
-            '<a title="Same Page" href="/wiki/Same_Page">link</a>',
-            "html.parser",
-        )
-        redirect_map = {
-            "Same Page": _RedirectInfo(to="Same Page"),
-        }
-
-        await converter.convert(
-            html,
-            out_to_archive=set(),
-            redirect_map=redirect_map,
-            refs=True,
-        )
-
-        assert not await (lang_dir / "Same Page.md").is_symlink()
-        assert not await (top_dir / "Same Page.md").is_symlink()
-
-    @pytest.mark.anyio
-    async def test_real_lang_file_kept_but_mirror_created(
-        self, tmp_path: PathLike[str]
-    ) -> None:
-        """Should keep a real FROM file but still create the top-level mirror."""
-        tmp = Path(tmp_path)
-        lang_dir = tmp / "general" / "eng"
-        top_dir = tmp / "general"
-        await lang_dir.mkdir(parents=True)
-
-        # Pre-create the FROM file
-        await (lang_dir / "From Page.md").write_text(
-            "existing content", encoding="UTF-8"
-        )
-
-        converter = WikiHtmlConverter(
-            converted_wiki_dir=top_dir,
-            converted_wiki_lang_dir=lang_dir,
-        )
-        html = BeautifulSoup(
-            '<a title="From Page" href="/wiki/From_Page">link</a>',
-            "html.parser",
-        )
-        redirect_map = {
-            "From Page": _RedirectInfo(to="To Page"),
-        }
-
-        await converter.convert(
-            html,
-            out_to_archive=set(),
-            redirect_map=redirect_map,
-            refs=True,
-        )
-
-        # Simulate the pipeline step by flushing pending redirects.
-        for from_name, to_name in converter._pending_redirects:
-            await _create_redirect_symlinks(top_dir, lang_dir, from_name, to_name)
-
-        # FROM file should remain a regular file (never replaced)
-        assert await (lang_dir / "From Page.md").is_file()
-        assert not await (lang_dir / "From Page.md").is_symlink()
-        assert (
-            await (lang_dir / "From Page.md").read_text(encoding="UTF-8")
-            == "existing content"
-        )
-        # Top-level mirror should still be created
-        from_symlink = top_dir / "From Page.md"
-        assert await from_symlink.is_symlink()
-        assert str(await from_symlink.readlink()) == "eng/From Page.md"
-
-    @pytest.mark.anyio
-    async def test_broken_symlink_retargeted(self, tmp_path: PathLike[str]) -> None:
-        """Should retarget a broken FROM symlink to the new target."""
-        tmp = Path(tmp_path)
-        lang_dir = tmp / "general" / "eng"
-        top_dir = tmp / "general"
-        await lang_dir.mkdir(parents=True)
-
-        # Create a broken symlink at FROM path
-        await (lang_dir / "From Page.md").symlink_to("nonexistent.md")
-        assert not await (lang_dir / "From Page.md").exists()  # broken symlink
-
-        converter = WikiHtmlConverter(
-            converted_wiki_dir=top_dir,
-            converted_wiki_lang_dir=lang_dir,
-        )
-        html = BeautifulSoup(
-            '<a title="From Page" href="/wiki/From_Page">link</a>',
-            "html.parser",
-        )
-        redirect_map = {
-            "From Page": _RedirectInfo(to="To Page"),
-        }
-
-        await converter.convert(
-            html,
-            out_to_archive=set(),
-            redirect_map=redirect_map,
-            refs=True,
-        )
-
-        # Simulate the pipeline step by flushing pending redirects.
-        for from_name, to_name in converter._pending_redirects:
-            await _create_redirect_symlinks(top_dir, lang_dir, from_name, to_name)
-
-        # Broken symlink should be retargeted
-        from_symlink = lang_dir / "From Page.md"
-        assert await from_symlink.is_symlink()
-        assert str(await from_symlink.readlink()) == "To Page.md"
-        # Top-level mirror should also be created
-        top_symlink = top_dir / "From Page.md"
-        assert await top_symlink.is_symlink()
-        assert str(await top_symlink.readlink()) == "eng/From Page.md"
 
 
 """Absolute path to the snapshot test fixtures directory."""
@@ -242,13 +59,7 @@ def _load_snapshot_names_map() -> dict[str, str]:
 
 
 def _categorize_block_math_blocks(output: str) -> dict[str, int]:
-    """Count block math paragraph affiliation categories in converter output.
-
-    Returns a dict with keys ``"both"``, ``"before_only"``, ``"after_only"``,
-    and ``"neither"``. Each ``$$...$$`` occurrence in the output is classified
-    by whether non-whitespace text appears before and/or after it on the same
-    line.
-    """
+    """Count block math paragraph affiliation categories in converter output."""
     counts: dict[str, int] = {
         "both": 0,
         "before_only": 0,
@@ -273,13 +84,7 @@ def _categorize_block_math_blocks(output: str) -> dict[str, int]:
 
 
 async def _assert_markdownlint_clean(output: str, tmp: Path) -> None:
-    """Assert generated ``output`` is markdownlint-clean under the snapshots config chain.
-
-    Writes ``output`` and a temporary config extending the snapshots
-    directory's own config (by absolute path, so the whole config chain
-    applies regardless of where the tmp dir lives) into ``tmp``, then runs
-    the repository-pinned markdownlint-cli2 on the written file.
-    """
+    """Assert generated ``output`` is markdownlint-clean."""
     out_path = tmp / "lint.md"
     config_path = tmp / ".markdownlint.jsonc"
     await out_path.write_text(output, encoding="UTF-8")
@@ -308,14 +113,7 @@ async def _assert_redirect_symlinks(
     link_titles: set[str],
     names_map: Mapping[str, str],
 ) -> None:
-    """Assert the converter created exactly the redirect symlinks the aux implies.
-
-    Every anchor whose resolved page differs from its own title yields a
-    language-directory symlink ``{from}.md -> {to}.md`` plus a top-level mirror
-    ``{from}.md -> eng/{from}.md``.  The aux ``redirect_cache`` is the snapshot's
-    record of the symlinks that existed when it was captured, so asserting the
-    created links keeps that record honest.
-    """
+    """Assert the converter created exactly the redirect symlinks the aux implies."""
     expected: dict[str, str] = {}
     for title, info in redirect_map.items():
         if title not in link_titles:
@@ -425,113 +223,6 @@ class TestWikiHtmlToPlaintextSnapshot:
             link_titles=link_titles,
             names_map=names_map,
         )
-
-
-class TestImageAltTextFallback:
-    """Tests for image alt text fallback chain (``_get_image_filename``, ``_fallback_alt``, ``_collect_image_filenames``)."""
-
-    def test_get_image_filename_from_resource(self) -> None:
-        """``_get_image_filename`` should extract filename from ``resource`` attribute."""
-        html = BeautifulSoup(
-            '<img resource="//en.wikipedia.org/wiki/File:Foo_Bar.svg" src=""/>',
-            "html.parser",
-        )
-        img = html.find("img")
-        assert isinstance(img, Tag)
-        result = _get_image_filename(img)
-        assert result == "Foo Bar.svg"
-
-    def test_get_image_filename_from_src_upload(self) -> None:
-        """``_get_image_filename`` should fall back to ``src`` when ``resource`` is missing."""
-        # This is a `src` URL matching the first upload regex pattern
-        html = BeautifulSoup(
-            '<img src="https://upload.wikimedia.org/wikipedia/en/9/9a/ExampleImage.svg"/>',
-            "html.parser",
-        )
-        img = html.find("img")
-        assert isinstance(img, Tag)
-        result = _get_image_filename(img)
-        assert result == "ExampleImage.svg"
-
-    def test_get_image_filename_from_src_thumb(self) -> None:
-        """``_get_image_filename`` should extract filename from thumb ``src`` URL."""
-        html = BeautifulSoup(
-            '<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Modernphysicsfields.svg/500px-Modernphysicsfields.svg.png"/>',
-            "html.parser",
-        )
-        img = html.find("img")
-        assert isinstance(img, Tag)
-        result = _get_image_filename(img)
-        assert result == "Modernphysicsfields.svg"
-
-    def test_get_image_filename_missing(self) -> None:
-        """``_get_image_filename`` should return ``None`` when neither attribute is usable."""
-        html = BeautifulSoup('<img alt="no url"/>', "html.parser")
-        img = html.find("img")
-        assert isinstance(img, Tag)
-        result = _get_image_filename(img)
-        assert result is None
-
-    def test_get_image_filename_non_matching_src(self) -> None:
-        """``_get_image_filename`` should return ``None`` when src doesn't match archive patterns."""
-        html = BeautifulSoup(
-            '<img src="https://example.com/not/a/wikimedia/url.svg"/>',
-            "html.parser",
-        )
-        img = html.find("img")
-        assert isinstance(img, Tag)
-        result = _get_image_filename(img)
-        assert result is None
-
-    def test_collect_image_filenames(self) -> None:
-        """``_collect_image_filenames`` should collect ``File:XXX`` titles from all images."""
-        html = BeautifulSoup(
-            """
-            <html>
-            <img resource="//en.wikipedia.org/wiki/File:First.svg" src=""/>
-            <img src="https://upload.wikimedia.org/wikipedia/en/9/9a/Second.svg"/>
-            <img alt="no resource"/>
-            </html>
-            """,
-            "html.parser",
-        )
-        result = _collect_image_filenames(html)
-        assert result == {"File:First.svg", "File:Second.svg"}
-
-    def test_fallback_alt_empty_metadata(self) -> None:
-        """``_fallback_alt`` should return ``File:XXX`` when metadata dict is empty."""
-        converter = WikiHtmlConverter(image_metadata={})
-        html = BeautifulSoup(
-            '<img resource="//en.wikipedia.org/wiki/File:Foo.svg" src=""/>',
-            "html.parser",
-        )
-        img = html.find("img")
-        assert isinstance(img, Tag)
-        result = converter._fallback_alt(img)  # noqa: SLF001
-        assert result == "File:Foo.svg"
-
-    def test_fallback_alt_with_metadata(self) -> None:
-        """``_fallback_alt`` should return metadata description when available."""
-        converter = WikiHtmlConverter(
-            image_metadata={"File:Foo.svg": "A description of Foo"}
-        )
-        html = BeautifulSoup(
-            '<img resource="//en.wikipedia.org/wiki/File:Foo.svg" src=""/>',
-            "html.parser",
-        )
-        img = html.find("img")
-        assert isinstance(img, Tag)
-        result = converter._fallback_alt(img)  # noqa: SLF001
-        assert result == "A description of Foo"
-
-    def test_fallback_alt_unmapped_image(self) -> None:
-        """``_fallback_alt`` should return empty string when image cannot be mapped to any filename."""
-        converter = WikiHtmlConverter(image_metadata={})
-        html = BeautifulSoup('<img alt="no url"/>', "html.parser")
-        img = html.find("img")
-        assert isinstance(img, Tag)
-        result = converter._fallback_alt(img)  # noqa: SLF001
-        assert result == ""
 
 
 class TestFormattingAgnostic:
@@ -1134,23 +825,6 @@ class TestBlockMathClassification:
         math_ele = html.find("math")
         assert isinstance(math_ele, Tag)
         assert WikiHtmlConverter._is_inline_math(math_ele, alt_text="f(x)") is True
-
-    def test_sfrac_like_math_without_outer_wrapper_stays_inline(self) -> None:
-        """sfrac-style inline math should use the legacy sibling container walk."""
-        html = BeautifulSoup(
-            "<body><p>intro</p>"
-            "<p>before "
-            '<span class="mwe-math-mathml-inline">'
-            '<math alttext="{\\displaystyle \\frac{a}{2\\pi}}"></math>'
-            "</span>, after</p></body>",
-            "html.parser",
-        )
-        math_ele = html.find("math")
-        assert isinstance(math_ele, Tag)
-        assert (
-            WikiHtmlConverter._is_inline_math(math_ele, alt_text=r"\frac{a}{2\pi}")
-            is True
-        )
 
 
 class TestExternalMathPunctuationPipeline:

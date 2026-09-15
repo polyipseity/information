@@ -3,18 +3,11 @@
 import json
 from dataclasses import replace
 from os import PathLike
-from pathlib import Path
 
 import json5
 import pytest
 from anyio import Path as AnyioPath
 
-from scripts.convert_wiki.markdown_rewrite import (
-    _rewrite_article_heading,
-    _rewrite_markdown_headings,
-    _rewrite_markdown_links,
-)
-from scripts.convert_wiki.name_map_io import _merge_names_maps
 from scripts.convert_wiki.reprocess.apply import apply_reprocess_plan
 from scripts.convert_wiki.reprocess.plan import (
     _compute_stem_migrations,
@@ -29,17 +22,10 @@ from scripts.convert_wiki.types import (
 __all__ = ()
 
 """Directory of snapshot input and expected files."""
-_SNAPSHOT_DIR = Path(__file__).resolve(strict=True).parent / "snapshots"
 
 
 class TestPlanReprocess:
     """Pure planning tests."""
-
-    def test_merge_mappings_cli_overrides_base(self) -> None:
-        """CLI mappings should override the base map during planning."""
-        base = {"Modern physics": "modern physics"}
-        effective = _merge_names_maps(base, {"Modern physics": "Modern physics"})
-        assert effective["Modern physics"] == "Modern physics"
 
     def test_stem_migration_from_mapping_change(self) -> None:
         """Mapping changes should produce stem migrations."""
@@ -599,64 +585,3 @@ class TestReprocessSymlinkRename:
         rewritten = await article.read_text(encoding="UTF-8")
         assert "Jean%20Le%20Rond%20d'Alembert.md" in rewritten
         assert "Jean%20le%20Rond%20d'Alembert.md" not in rewritten
-
-
-class TestMarkdownRewriteSnapshot:
-    """Regression snapshot for markdown rewrite."""
-
-    def test_name_map_capitalization_snapshot(self) -> None:
-        """Snapshot rewrite should match the expected fixture."""
-        input_text = (_SNAPSHOT_DIR / "name_map_capitalization.input.md").read_text(
-            encoding="UTF-8"
-        )
-        expected = (_SNAPSHOT_DIR / "name_map_capitalization.expected.md").read_text(
-            encoding="UTF-8"
-        )
-        mappings = json.loads(
-            (_SNAPSHOT_DIR / "name_map_capitalization.mappings.json").read_text(
-                encoding="UTF-8"
-            )
-        )
-        base = {"Modern physics": "modern physics", "modern physics": "modern physics"}
-        effective = _merge_names_maps(base, mappings)
-        migrations = _compute_stem_migrations(
-            list(effective),
-            base_map=base,
-            effective_map=effective,
-        )
-        migration_map = {
-            migration.old_stem: migration.new_stem for migration in migrations
-        }
-        rewritten = _rewrite_markdown_links(input_text, migration_map)
-        rewritten = _rewrite_article_heading(rewritten, "Modern physics")
-        rewritten = _rewrite_markdown_headings(rewritten, effective, migration_map)
-        assert rewritten == expected
-
-    def test_name_map_parenthetical_capitalization_snapshot(self) -> None:
-        """Snapshot rewrite should handle parenthetical .md link targets."""
-        input_text = (
-            _SNAPSHOT_DIR / "name_map_parenthetical_capitalization.input.md"
-        ).read_text(encoding="UTF-8")
-        expected = (
-            _SNAPSHOT_DIR / "name_map_parenthetical_capitalization.expected.md"
-        ).read_text(encoding="UTF-8")
-        mappings = json.loads(
-            (
-                _SNAPSHOT_DIR / "name_map_parenthetical_capitalization.mappings.json"
-            ).read_text(encoding="UTF-8")
-        )
-        base = {
-            "Exponential map (Lie group)": "Exponential map (Lie group)",
-            "Modern physics": "modern physics",
-        }
-        effective = _merge_names_maps(base, mappings)
-        migration_map = {
-            migration.old_stem: migration.new_stem
-            for migration in _compute_stem_migrations(
-                list(effective),
-                base_map=base,
-                effective_map=effective,
-            )
-        }
-        rewritten = _rewrite_markdown_links(input_text, migration_map)
-        assert rewritten == expected

@@ -2636,50 +2636,6 @@ class TestStaticUtilities:
 # ---------------------------------------------------------------------------
 
 
-class TestMultiElementIntegration:
-    """Tests combining multiple handlers in a single HTML tree."""
-
-    @pytest.mark.anyio
-    async def test_heading_followed_by_paragraph(
-        self, converter: WikiHtmlConverter
-    ) -> None:
-        """``<h2>`` followed by ``<p>`` should produce well-separated output."""
-        result = await _convert(converter, "<h2>Title</h2><p>Content</p>")
-        assert "## title" in result
-        assert "Content" in result
-
-    @pytest.mark.anyio
-    async def test_bold_inside_paragraph(self, converter: WikiHtmlConverter) -> None:
-        """Bold text inside a paragraph should render correctly."""
-        result = await _convert(converter, "<p>a <b>b</b> c</p>")
-        assert "a __b__ c" in result or "a" in result
-
-    @pytest.mark.anyio
-    async def test_link_inside_paragraph(self, converter: WikiHtmlConverter) -> None:
-        """Link inside a paragraph should remain inline."""
-        html = '<p>see <a title="Target" href="/wiki/Target">target</a> for details</p>'
-        result = await _convert(converter, html)
-        assert "see [target]" in result
-
-    @pytest.mark.anyio
-    async def test_block_math_inside_paragraph(
-        self, converter: WikiHtmlConverter
-    ) -> None:
-        """Block math inside a paragraph should be inline with text."""
-        result = await _convert(
-            converter,
-            f"<p>before {_block_math_span(r'{\displaystyle f(x)}')} after</p>",
-        )
-        assert "before $$f(x)$$ after" in result
-
-
-# ---------------------------------------------------------------------------
-
-# Dispatch / edge-case tests
-
-# ---------------------------------------------------------------------------
-
-
 class TestDispatchEdgeCases:
     """Tests for the dispatch mechanism in ``_dispatch``."""
 

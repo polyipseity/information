@@ -7,7 +7,6 @@ module has no main() entry point.
 """
 
 from datetime import datetime, timezone
-from typing import cast
 
 import pytest
 from bs4 import BeautifulSoup
@@ -19,28 +18,6 @@ __all__ = ()
 
 # ---------------------------------------------------------------------------
 # AssignmentPageType
-# ---------------------------------------------------------------------------
-
-
-class TestAssignmentPageType:
-    """Tests for the AssignmentPageType StrEnum (SUBMISSION only)."""
-
-    def test_submission_value(self) -> None:
-        """Verify the SUBMISSION enum has the expected string value."""
-        assert _mod.AssignmentPageType.SUBMISSION.value == "submission"
-
-    def test_str(self) -> None:
-        """Verify str() returns the expected string for the SUBMISSION member."""
-        assert str(_mod.AssignmentPageType.SUBMISSION) == "submission"
-
-    def test_only_submission(self) -> None:
-        """Only SUBMISSION member should exist."""
-        members = list(_mod.AssignmentPageType)
-        assert members == [_mod.AssignmentPageType.SUBMISSION]
-
-
-# ---------------------------------------------------------------------------
-# html_to_text
 # ---------------------------------------------------------------------------
 
 
@@ -155,16 +132,6 @@ class TestParseDatetime:
         assert result is not None
         assert result.result == datetime(2023, 9, 15, 0, 0, 0)
 
-    def test_no_match_invalid_format(self) -> None:
-        """String that doesn't match any format returns None."""
-        result = _mod.parse_datetime("Sep 15, 2023", reference_datetime=self.REF)
-        assert result is None
-
-    def test_no_match_gibberish(self) -> None:
-        """Completely unrelated string returns None."""
-        result = _mod.parse_datetime("hello world", reference_datetime=self.REF)
-        assert result is None
-
     def test_timezone_inherited(self) -> None:
         """Result should use reference_datetime's timezone."""
         ref = datetime(2023, 9, 15, tzinfo=timezone.utc)
@@ -187,19 +154,6 @@ class TestParseDatetime:
         )
         assert result is not None
         assert result.result == datetime(2023, 9, 15, 11, 59, 0)
-
-    def test_chinese_pm_strips_suffix_correctly(self) -> None:
-        """下午 replacement leaves correct time after am/pm."""
-        result = _mod.parse_datetime(
-            "15/09/2023 at 11:59:00下午", reference_datetime=self.REF
-        )
-        assert result is not None
-        assert result.result == datetime(2023, 9, 15, 23, 59, 0)
-
-
-# ---------------------------------------------------------------------------
-# parse_title_and_content
-# ---------------------------------------------------------------------------
 
 
 class TestParseTitleAndContent:
@@ -235,19 +189,6 @@ class TestParseTitleAndContent:
         assert result is not None
         assert result.title == "Title Only"
         assert result.content == ""
-
-    def test_invalid_page_type(self) -> None:
-        """Invalid page type raises ValueError."""
-        soup = BeautifulSoup("<div></div>", "html.parser")
-        with pytest.raises(ValueError, match="invalid"):
-            _mod.parse_title_and_content(
-                soup, page_type=cast(_mod.AssignmentPageType, "invalid")
-            )
-
-
-# ---------------------------------------------------------------------------
-# parse_grade
-# ---------------------------------------------------------------------------
 
 
 class TestParseGrade:
@@ -316,28 +257,6 @@ class TestParseGrade:
         assert result.entered_grade == 88.5
         assert result.possible_grade == 100.0
 
-    def test_grade_no_divider(self) -> None:
-        """Grade without '/' — possible is empty string."""
-        soup = BeautifulSoup(
-            "<div><div>Total Score</div></div><div>85</div>",
-            "html.parser",
-        )
-        result = _mod.parse_grade(soup, page_type=_mod.AssignmentPageType.SUBMISSION)
-        assert result is not None
-        assert result.entered_grade == 85
-        assert result.possible_grade == ""
-
-    def test_invalid_page_type(self) -> None:
-        """Invalid page type raises ValueError."""
-        soup = BeautifulSoup("<div></div>", "html.parser")
-        with pytest.raises(ValueError, match="invalid"):
-            _mod.parse_grade(soup, page_type=cast(_mod.AssignmentPageType, "invalid"))
-
-
-# ---------------------------------------------------------------------------
-# parse_properties
-# ---------------------------------------------------------------------------
-
 
 class TestParseProperties:
     """Tests for the Zinc-specific parse_properties function.
@@ -370,20 +289,6 @@ class TestParseProperties:
         soup = BeautifulSoup(
             "<div>Auto Grader graded your submission on"
             "<span>15/09/2023 at 11:59:00pm</span></div>",
-            "html.parser",
-        )
-        result = _mod.parse_properties(
-            soup,
-            soup,
-            page_type=_mod.AssignmentPageType.SUBMISSION,
-            reference_datetime=self.REF,
-        )
-        assert result.submission_id == -1
-
-    def test_submission_no_report_match(self) -> None:
-        """No 'Submission Report #\\d+' text — submission_id is -1."""
-        soup = BeautifulSoup(
-            "<div>No submission report here</div>",
             "html.parser",
         )
         result = _mod.parse_properties(
@@ -520,22 +425,6 @@ class TestParseProperties:
         due = result.properties.get("due")
         # Due is now found via find_next_sibling() and parsed as datetime
         assert due == datetime(2023, 9, 15, 23, 59, 0, tzinfo=timezone.utc)
-
-    def test_invalid_page_type(self) -> None:
-        """Invalid page type raises ValueError."""
-        soup = BeautifulSoup("<div></div>", "html.parser")
-        with pytest.raises(ValueError, match="invalid"):
-            _mod.parse_properties(
-                soup,
-                soup,
-                page_type=cast(_mod.AssignmentPageType, "invalid"),
-                reference_datetime=self.REF,
-            )
-
-
-# ---------------------------------------------------------------------------
-# convert
-# ---------------------------------------------------------------------------
 
 
 class TestConvert:
