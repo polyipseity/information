@@ -254,44 +254,6 @@ class TestReprocessSymlinkRename:
     """Capitalization migrations should rename existing redirect symlinks."""
 
     @pytest.mark.anyio
-    async def test_plan_symlink_rename_on_capitalization(
-        self, tmp_path: PathLike[str]
-    ) -> None:
-        """Existing capitalized redirect symlinks should plan RENAME actions."""
-        wiki_dir = AnyioPath(tmp_path)
-        lang_dir = wiki_dir / "eng"
-        await lang_dir.mkdir()
-        symlink = lang_dir / "Exponential map (Lie group).md"
-        await symlink.symlink_to(
-            "Exponential map (Lie theory).md", target_is_directory=False
-        )
-        map_path = wiki_dir / "map.jsonc"
-        await map_path.write_text("{}\n", encoding="UTF-8")
-
-        plan = await plan_reprocess(
-            _ReprocessRequest(
-                mappings={
-                    "Exponential map (Lie group)": "exponential map (Lie group)",
-                    "Exponential map (Lie theory)": "exponential map (Lie theory)",
-                },
-                articles=(),
-                update_links=False,
-                dry_run=True,
-                wiki_dir=wiki_dir,
-                cache_path=wiki_dir / "cache.json",
-                name_map_path=map_path,
-            ),
-            base_map={},
-        )
-        rename_actions = [
-            action
-            for action in plan.symlink_actions
-            if action.from_stem == "Exponential map (Lie group)"
-            and action.to_stem == "exponential map (Lie group)"
-        ]
-        assert rename_actions
-
-    @pytest.mark.anyio
     async def test_apply_symlink_rename_and_retarget(
         self, tmp_path: PathLike[str]
     ) -> None:
@@ -364,38 +326,6 @@ class TestReprocessSymlinkRename:
         assert not await (wiki_dir / "Exponential map (Lie group).md").exists()
 
     @pytest.mark.anyio
-    async def test_apply_article_rename_from_stem_migration(
-        self, tmp_path: PathLike[str]
-    ) -> None:
-        """Listed articles should rename via stem migrations, not only map keys."""
-        wiki_dir = AnyioPath(tmp_path)
-        lang_dir = wiki_dir / "eng"
-        await lang_dir.mkdir()
-        article = lang_dir / "modern physics.md"
-        await article.write_text("# modern physics\n", encoding="UTF-8")
-        map_path = wiki_dir / "map.jsonc"
-        await map_path.write_text("{}\n", encoding="UTF-8")
-
-        request = _ReprocessRequest(
-            mappings={"Modern physics": "Modern physics"},
-            articles=("modern physics",),
-            update_links=False,
-            dry_run=False,
-            wiki_dir=wiki_dir,
-            cache_path=wiki_dir / "cache.json",
-            name_map_path=map_path,
-        )
-        plan = await plan_reprocess(
-            request,
-            base_map={"Modern physics": "modern physics"},
-        )
-        await apply_reprocess_plan(plan, dry_run=False)
-
-        renamed = lang_dir / "Modern physics.md"
-        assert await renamed.is_file()
-        assert not await renamed.is_symlink()
-
-    @pytest.mark.anyio
     async def test_apply_rewrites_parenthetical_link_in_article(
         self, tmp_path: PathLike[str]
     ) -> None:
@@ -464,6 +394,7 @@ class TestReprocessSymlinkRename:
 
         renamed = lang_dir / "Modern physics.md"
         assert await renamed.is_file()
+        assert not await renamed.is_symlink()
         rewritten = await renamed.read_text(encoding="UTF-8")
         assert rewritten == (
             "# Modern physics\n\n## Modern physics\n\n### Modern physics\n\n"
@@ -517,10 +448,10 @@ class TestReprocessSymlinkRename:
         assert dry_report == replace(apply_report, dry_run=True)
 
     @pytest.mark.anyio
-    async def test_dry_run_reports_actual_changes(
+    async def test_dry_run_no_writes_and_reports_actual_changes(
         self, tmp_path: PathLike[str]
     ) -> None:
-        """Dry-run should count only articles whose text actually changes."""
+        """Dry-run should not mutate files and should count only articles whose text changes."""
         wiki_dir = AnyioPath(tmp_path)
         lang_dir = wiki_dir / "eng"
         await lang_dir.mkdir()
@@ -547,9 +478,14 @@ class TestReprocessSymlinkRename:
         )
         report = await apply_reprocess_plan(plan, dry_run=True)
 
+        assert report.dry_run is True
         assert report.files_renamed == 1
         assert report.articles_rewritten == 0
         assert report.links_updated_corpus == 0
+        # Verify no files were mutated
+        assert await article.read_text(encoding="UTF-8") == (
+            "# Modern physics\n\nNo links to migrate here.\n"
+        )
 
     @pytest.mark.anyio
     async def test_apply_rewrites_apostrophe_link(
