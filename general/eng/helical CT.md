@@ -1,0 +1,1 @@
+operation of computed tomography.md
