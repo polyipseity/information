@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 """Extract text and page images from document-like formats (PDF, DOCX, PPTX).
 
 Dual extraction always runs: text for flashcards/search/Markdown, page images
