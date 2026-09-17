@@ -145,14 +145,14 @@ Flashcards for this section are as follows:
    - Read the course `index.md` (`special/academia/<INSTITUTION>/<COURSE>/index.md`)
    - Add the topic note to `## children` in alphabetical position among topic notes (after `assignments/`, `questions/`, `AGENTS`, and other non-topic entries)
    - Determine which session heading the topic belongs to (e.g., `## week 3 lecture`). Use the session mapping rules below. If the session is unclear from the input, __ask the user__ which session(s) the topic should be linked under.
-   - Under the matched session heading, add a link to the topic note with section anchors for each `##` section:
+   - Under the matched session heading, add a link to the topic note with section anchors for each `##` section that this session's material created or expanded. A file link alone is never enough:
 
      ```markdown
      - [topic name](topic%20name.md)
          - topic name / [§ section heading](topic%20name.md#section%20heading)
      ```
 
-   - If the topic spans multiple sessions, add links under each relevant session
+   - If the topic spans multiple sessions, add links under each relevant session, listing under each only the sections that session's material covered
 
 4. __Validate:__ run `academic-lint` on the created file.
 
@@ -266,6 +266,8 @@ Under the session heading, after the existing content, add:
     - topic name / [§ section heading 1](topic%20name.md#section%20heading%201)
     - topic name / [§ section heading 2](topic%20name.md#section%20heading%202)
 ```
+
+List every section that session's material created or expanded, not the whole note; a file link alone is never enough. Anchors are the heading lowercased with `%20` for spaces and colons removed (`## Main memory` → `#main%20memory`), never dash-slugs.
 
 Omit the indented section links if the topic has no `##` sections (single-section notes).
 

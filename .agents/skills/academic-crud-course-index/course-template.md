@@ -77,6 +77,8 @@ Keep detailed policy, edge cases, and advanced note-writing rules in `SKILL.md`.
   then `## logistics`, then `## overview`; keep sessions and exams after those.
 - Prefer one `## overview` section for compact orientation material such as
   official scope bullets, topic-to-file mapping, and short root-level notes.
+- Never record current status or progress (what has been ingested so far, what
+  still remains); prefer less content whenever possible.
 - When turning lecture PDFs into topic notes, preserve the concrete teaching
   detail: explicit classifications, key formulas, named signal or system
   families, and representative examples or counterexamples from the source.
@@ -90,6 +92,9 @@ Keep detailed policy, edge cases, and advanced note-writing rules in `SKILL.md`.
 - If the official materials define a recurring weekly stream, scaffold that
   stream continuously across the term and mark skipped meetings with `status:`
   metadata rather than omitting the week.
+- Link each note a session covers with the sections that session's material
+  created or expanded: `- [note](note.md)` followed by indented
+  `- [§ heading](note.md#heading)`. A file link alone is never enough.
 - Use underscore emphasis (`_italic_`, `__bold__`).
 - Keep units inside math delimiters, for example `$5\text{ V}$`.
 

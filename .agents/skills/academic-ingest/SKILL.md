@@ -35,6 +35,8 @@ __When in doubt, create less.__ Scaffolding for future content (labs, assignment
 
 A course homepage that mentions "labs" as a grading component does NOT warrant creating a `labs/` directory.
 
+__Never write current status or provenance.__ What has been ingested so far, what still remains, and how a derived value was established all go stale on the next ingest. Omit them; prefer less content whenever possible.
+
 ## Source file preservation
 
 __Hard rule: ingestion never deletes, moves, renames, or truncates a source file.__
