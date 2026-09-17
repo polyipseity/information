@@ -55,6 +55,8 @@ __all__ = (
     # markdown link helpers
     "InlineLink",
     "iter_inline_links",
+    "MalformedLink",
+    "iter_malformed_links",
     "parse_list_link",
 )
 
@@ -150,26 +152,20 @@ class InlineLink:
     destination_start: int
 
 
-def _scan_inline_link(text: str, start: int) -> InlineLink | None:
-    """Parse the inline link beginning at ``text[start] == '['``.
+def _walk_destination(text: str, index: int) -> int | None:
+    """Return the index of the ``)`` closing the link destination at *index*.
 
-    Returns ``None`` when *start* does not begin a well-formed inline link.
-    The destination is read with a parenthesis-depth counter, so paths that
-    contain balanced parentheses (``cache%20(computing).md``) survive intact.
+    *index* points just past the destination's opening ``(``.  The destination
+    is read with a parenthesis-depth counter, so paths that contain balanced
+    parentheses (``cache%20(computing).md``) survive intact.  Returns ``None``
+    when the destination is unterminated: a raw line break or the end of the
+    text arrives before the parentheses balance, which is the case for a
+    truncated link such as ``[x](path.md_``.  Stopping at the line break keeps
+    such a link from swallowing the rest of the file.
     """
-    if start >= len(text) or text[start] != "[":
-        return None
-    close = text.find("]", start + 1)
-    if close < 0 or close + 1 >= len(text) or text[close + 1] != "(":
-        return None
     depth = 1
-    index = close + 2
     while index < len(text):
         char = text[index]
-        # A link destination cannot contain a raw line break.  Stopping here
-        # keeps a malformed link such as ``[x](path.md_`` (no closing
-        # parenthesis) from swallowing the rest of the file while the depth
-        # counter waits for parentheses to balance.
         if char == "\n":
             return None
         if char == "\\":
@@ -180,16 +176,32 @@ def _scan_inline_link(text: str, start: int) -> InlineLink | None:
         elif char == ")":
             depth -= 1
             if depth == 0:
-                return InlineLink(
-                    start=start,
-                    end=index + 1,
-                    text=text[start + 1 : close],
-                    text_start=start + 1,
-                    destination=text[close + 2 : index],
-                    destination_start=close + 2,
-                )
+                return index
         index += 1
     return None
+
+
+def _scan_inline_link(text: str, start: int) -> InlineLink | None:
+    """Parse the inline link beginning at ``text[start] == '['``.
+
+    Returns ``None`` when *start* does not begin a well-formed inline link.
+    """
+    if start >= len(text) or text[start] != "[":
+        return None
+    close = text.find("]", start + 1)
+    if close < 0 or close + 1 >= len(text) or text[close + 1] != "(":
+        return None
+    end = _walk_destination(text, close + 2)
+    if end is None:
+        return None
+    return InlineLink(
+        start=start,
+        end=end + 1,
+        text=text[start + 1 : close],
+        text_start=start + 1,
+        destination=text[close + 2 : end],
+        destination_start=close + 2,
+    )
 
 
 def iter_inline_links(text: str) -> Iterator[InlineLink]:
@@ -212,6 +224,45 @@ def iter_inline_links(text: str) -> Iterator[InlineLink]:
             continue
         yield link
         index = link.end
+
+
+@dataclass(frozen=True)
+class MalformedLink:
+    """An inline link whose destination is never closed by ``)``.
+
+    All offsets are byte positions into the text that was scanned.  ``start``
+    is the opening ``[`` and ``end`` is where the scan stopped: the raw line
+    break or end of text that interrupted the destination.
+    """
+
+    start: int
+    end: int
+
+
+def iter_malformed_links(text: str) -> Iterator[MalformedLink]:
+    """Yield every inline link whose destination is never closed by ``)``.
+
+    :func:`iter_inline_links` silently skips a destination that reaches a raw
+    line break, so a truncated link such as ``[x](path.md_`` resolves to
+    nothing and no rule can see it.  This scanner reports those links so they
+    can be flagged instead of ignored.  Scanning resumes after the truncation
+    point, so a single broken link yields one result.
+    """
+    index = 0
+    while True:
+        start = text.find("[", index)
+        if start < 0:
+            return
+        index = start + 1
+        close = text.find("]", start + 1)
+        if close < 0 or close + 1 >= len(text) or text[close + 1] != "(":
+            continue
+        if _walk_destination(text, close + 2) is not None:
+            continue
+        newline = text.find("\n", close + 2)
+        end = len(text) if newline < 0 else newline
+        yield MalformedLink(start=start, end=end)
+        index = end + 1
 
 
 def parse_list_link(line: str) -> InlineLink | None:

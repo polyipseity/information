@@ -55,6 +55,7 @@ from main_mods.rules import (
     latex_spacing_after,
     latex_spacing_before,
     link_anchor_slug,
+    link_malformed,
     link_unencoded_space,
     md028_bad_format,
     md028_missing,
@@ -91,6 +92,7 @@ from main_mods.utils import (
     FRONT_RE,
     html_cpt,
     iter_inline_links,
+    iter_malformed_links,
     parse_frontmatter,
     parse_list_link,
     parse_session_headers,
@@ -541,6 +543,59 @@ async def test_folder_link_trailing_slash_survives_truncated_link(
     ctx = make_ctx(txt, path=index_path)
     msgs = await folder_link_trailing_slash(ctx)
     assert msgs and "trailing slash" in msgs[0].msg
+
+
+def test_iter_malformed_links_reports_truncated_destination():
+    """A link whose destination hits a line break is reported as malformed."""
+    text = (
+        "    - [rules of inference](../rules%20of%20inference.md_\n    - [ok](ok.md)\n"
+    )
+    malformed = list(iter_malformed_links(text))
+    assert len(malformed) == 1
+    assert text[malformed[0].start : malformed[0].start + 2] == "[r"
+    assert text[malformed[0].end] == "\n"
+
+    # a well-formed link (with balanced parentheses) is not reported
+    well_formed = "- [cache (computing)](cache%20(computing).md)\n"
+    assert not list(iter_malformed_links(well_formed))
+
+    # an unterminated destination at end of text is reported once
+    truncated = "- [a](a.md"
+    malformed = list(iter_malformed_links(truncated))
+    assert len(malformed) == 1
+    assert malformed[0].end == len(truncated)
+
+    # brackets without a destination are not links at all
+    assert not list(iter_malformed_links("- [label] text\n"))
+
+
+def test_link_malformed_detects_and_skips_non_links():
+    """The rule flags truncated links but ignores math, fences, and code spans."""
+    txt = "- [rules of inference](../rules%20of%20inference.md_\n- [ok](ok.md)\n"
+    msgs = link_malformed(make_ctx(txt))
+    assert len(msgs) == 1
+    assert msgs[0].rule_id == "link_malformed"
+    assert msgs[0].severity == Severity.ERROR
+    assert msgs[0].line == 1
+    assert "missing closing parenthesis" in msgs[0].msg
+
+    # valid links, including balanced parentheses, are clean
+    assert not link_malformed(
+        make_ctx("- [a](a.md)\n- [cache (computing)](cache%20(computing).md)\n")
+    )
+
+    # math that contains `](` is not a link
+    math = "$$ \\right]&\\equiv [x^{m}](x^{\\lceil m/2\\rceil} x) $$\n"
+    assert not link_malformed(make_ctx(math))
+
+    # fenced code and inline code are not links either
+    assert not link_malformed(make_ctx("```\n[broken](broken.md_\n```\n"))
+    assert not link_malformed(make_ctx("use `[broken](broken.md_` in prose\n"))
+
+    # frontmatter is never scanned
+    assert not link_malformed(
+        make_ctx("---\naliases: [x](y\n---\n# index\n\n- [a](a.md)\n")
+    )
 
 
 def test_parse_list_link_shapes():

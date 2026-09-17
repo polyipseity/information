@@ -38,6 +38,7 @@ from .utils import (
     html_cpt,
     iter_ast,
     iter_inline_links,
+    iter_malformed_links,
     locate,
     locate_range,
     parse_list_link,
@@ -145,6 +146,33 @@ def _is_inside_code_block(pos: int, text: str, ast: list[AstNode] | None) -> boo
         if start <= pos < end:
             return True
     return False
+
+
+def _build_inline_code_ranges(
+    text: str, ast: list[AstNode] | None
+) -> list[tuple[int, int]]:
+    """Return ``(start, end)`` ranges of inline code spans in *text*.
+
+    Each AST ``codespan`` node is located by searching for its backtick-wrapped
+    raw text with an advancing cursor (the same technique
+    :func:`_find_math_spans_ast` uses for math).  Returns an empty list when the
+    AST is unavailable, and misses multi-backtick spans, which is acceptable
+    for rules that only need to skip code-ish text.
+    """
+    ranges: list[tuple[int, int]] = []
+    if not ast:
+        return ranges
+    cursor = 0
+    for node in filter_ast(ast, "codespan"):
+        raw = node.get("raw", "")
+        if not raw:
+            continue
+        search = f"`{raw}`"
+        idx = text.find(search, cursor)
+        if idx >= 0:
+            ranges.append((idx, idx + len(search)))
+            cursor = idx + len(search)
+    return ranges
 
 
 def _get_section_end(
@@ -2508,6 +2536,48 @@ def latex_spacing_after(ctx: ValidationContext) -> list[ValidationMessage]:
                         col_end=col_end,
                     )
                 )
+    return errors
+
+
+@RULE_REGISTRY.register()
+def link_malformed(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Detect inline links whose destination is never closed by ``)``.
+
+    A destination that reaches a raw line break is not a link, so
+    :func:`iter_inline_links` skips it: a truncated link such as
+    ``[x](path.md_`` silently resolves to nothing.  This rule reports those
+    truncations instead.  Positions inside math spans, fenced code, and inline
+    code are ignored because they contain no real links, and frontmatter is
+    skipped so YAML can never produce a finding.
+    """
+    errors: list[ValidationMessage] = []
+    text = ctx.text
+    ast = ctx.ast
+    body_offset = len(text) - len(ctx.body)
+    math_spans = find_math_spans(text, ast)
+    inline_code = _build_inline_code_ranges(text, ast)
+    for link in iter_malformed_links(text):
+        if link.start < body_offset:
+            continue
+        if _is_inside_code_block(link.start, text, ast):
+            continue
+        if any(start <= link.start < end for start, end in math_spans):
+            continue
+        if any(start <= link.start < end for start, end in inline_code):
+            continue
+        line, col, col_end = locate_range(text, link.start, link.end - link.start)
+        errors.append(
+            ValidationMessage(
+                rule_id="link_malformed",
+                msg=(
+                    "link destination is not terminated by ')'; "
+                    "restore the missing closing parenthesis"
+                ),
+                line=line,
+                col=col,
+                col_end=col_end,
+            )
+        )
     return errors
 
 
