@@ -84,7 +84,7 @@ The content is in teaching order.
 - topic: predicate logic, Peano's axioms
 - [propositional calculus](../../../../general/propositional%20calculus.md)
     - [§ list of classically valid argument forms](../../../../general/propositional%20calculus.md#list%20of%20classically%20valid%20argument%20forms)
-    - [rules of inference](../../../../general/rules%20of%20inference.md_
+    - [rules of inference](../../../../general/rules%20of%20inference.md)
         - _modus ponens_
         - hypothetical syllogism
         - _modus tollens_
