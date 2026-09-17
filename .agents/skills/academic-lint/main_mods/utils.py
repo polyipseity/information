@@ -7,6 +7,7 @@ functions shared between the validator and tests.
 
 import re
 from collections.abc import Iterator
+from dataclasses import dataclass
 from typing import TypedDict
 
 import mistune
@@ -51,6 +52,10 @@ __all__ = (
     "parse_session_headers",
     # string helpers
     "html_cpt",
+    # markdown link helpers
+    "InlineLink",
+    "iter_inline_links",
+    "parse_list_link",
 )
 
 # shared mistune parser (AST output) used by validator and tests
@@ -124,6 +129,110 @@ def locate_range(text: str, start: int, length: int) -> tuple[int, int, int]:
     else:
         col_end = col + max(0, length - 1)
     return line, col, col_end
+
+
+# markdown link helpers ------------------------------------------------------
+
+
+@dataclass(frozen=True)
+class InlineLink:
+    """A parsed inline Markdown link ``[text](destination)``.
+
+    All offsets are byte positions into the text that was scanned.  ``start``
+    is the opening ``[`` and ``end`` is one past the closing ``)``.
+    """
+
+    start: int
+    end: int
+    text: str
+    text_start: int
+    destination: str
+    destination_start: int
+
+
+def _scan_inline_link(text: str, start: int) -> InlineLink | None:
+    """Parse the inline link beginning at ``text[start] == '['``.
+
+    Returns ``None`` when *start* does not begin a well-formed inline link.
+    The destination is read with a parenthesis-depth counter, so paths that
+    contain balanced parentheses (``cache%20(computing).md``) survive intact.
+    """
+    if start >= len(text) or text[start] != "[":
+        return None
+    close = text.find("]", start + 1)
+    if close < 0 or close + 1 >= len(text) or text[close + 1] != "(":
+        return None
+    depth = 1
+    index = close + 2
+    while index < len(text):
+        char = text[index]
+        # A link destination cannot contain a raw line break.  Stopping here
+        # keeps a malformed link such as ``[x](path.md_`` (no closing
+        # parenthesis) from swallowing the rest of the file while the depth
+        # counter waits for parentheses to balance.
+        if char == "\n":
+            return None
+        if char == "\\":
+            index += 2
+            continue
+        if char == "(":
+            depth += 1
+        elif char == ")":
+            depth -= 1
+            if depth == 0:
+                return InlineLink(
+                    start=start,
+                    end=index + 1,
+                    text=text[start + 1 : close],
+                    text_start=start + 1,
+                    destination=text[close + 2 : index],
+                    destination_start=close + 2,
+                )
+        index += 1
+    return None
+
+
+def iter_inline_links(text: str) -> Iterator[InlineLink]:
+    """Yield every inline Markdown link in *text*.
+
+    The naive ``[^)]+`` destination pattern stops at the first ``)``, so a
+    link to a path containing parentheses is either rejected outright or
+    silently skipped by rules that match on it.  This scanner tracks
+    parenthesis depth and backslash escapes instead.  A destination that
+    reaches a line break is not a link and is skipped.
+    """
+    index = 0
+    while True:
+        start = text.find("[", index)
+        if start < 0:
+            return
+        link = _scan_inline_link(text, start)
+        if link is None:
+            index = start + 1
+            continue
+        yield link
+        index = link.end
+
+
+def parse_list_link(line: str) -> InlineLink | None:
+    """Return the link when *line* is exactly ``- [text](destination)``.
+
+    The bullet may be ``-`` or ``*``, leading whitespace is ignored, and
+    nothing may follow the closing parenthesis.  A line with any other shape
+    returns ``None``.  Offsets in the result refer to *line* as passed in.
+    """
+    stripped = line.strip()
+    if not stripped or stripped[0] not in "-*":
+        return None
+    rest = stripped[1:].lstrip()
+    if not rest.startswith("["):
+        return None
+    link = _scan_inline_link(stripped, len(stripped) - len(rest))
+    if link is None or not link.text.strip():
+        return None
+    if stripped[link.end :].strip():
+        return None
+    return link
 
 
 # frontmatter helpers --------------------------------------------------------

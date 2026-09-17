@@ -37,8 +37,10 @@ from .utils import (
     has_flash_tag,
     html_cpt,
     iter_ast,
+    iter_inline_links,
     locate,
     locate_range,
+    parse_list_link,
 )
 
 """Public symbols exported by this module."""
@@ -610,11 +612,11 @@ async def index_children_agents_link(ctx: ValidationContext) -> list[ValidationM
         stripped = line.strip()
         if not stripped or stripped.startswith("<!--"):
             continue
-        m = re.match(r"^[-*]\s*\[([^\]]+)\]\(([^\)]+)\)\s*$", stripped)
-        if not m:
+        link = parse_list_link(stripped)
+        if link is None:
             continue
-        display = m.group(1).strip()
-        href = m.group(2).strip()
+        display = link.text.strip()
+        href = link.destination.strip()
         href_clean = re.split(r"[#?]", href, maxsplit=1)[0]
         if href_clean.casefold() == "agents.md":
             entries.append((line_no, display, href_clean))
@@ -813,7 +815,7 @@ def index_children_format(ctx: ValidationContext) -> list[ValidationMessage]:
             )
             continue
         # Must be a simple markdown link list item (- [text](href))
-        if not re.match(r"^[-*]\s*\[[^\]]+\]\([^\)]+\)\s*$", stripped):
+        if parse_list_link(stripped) is None:
             errors.append(
                 ValidationMessage(
                     "index_children_format",
@@ -847,11 +849,11 @@ async def index_children_order(ctx: ValidationContext) -> list[ValidationMessage
         stripped = line.strip()
         if not stripped or stripped.startswith("<!--"):
             continue
-        m = re.match(r"^[-*]\s*\[([^\]]+)\]\(([^\)]+)\)\s*$", stripped)
-        if not m:
+        link = parse_list_link(stripped)
+        if link is None:
             # ignore formatting errors; those are handled by other rules
             continue
-        href = m.group(2).strip()
+        href = link.destination.strip()
         # Skip entries where the path doesn't exist
         if not await _path_exists(href, base_dir):
             continue
@@ -966,11 +968,11 @@ async def index_children_missing(
         stripped = line.strip()
         if not stripped or stripped.startswith("<!--"):
             continue
-        m = re.match(r"^[-*]\s*\[([^\]]+)\]\(([^\)]+)\)\s*$", stripped)
-        if not m:
+        link = parse_list_link(stripped)
+        if link is None:
             # ignore formatting errors; those are handled by other rules
             continue
-        href = m.group(2).strip()
+        href = link.destination.strip()
         # Skip this if it's a folder-without-index case (handled by another rule)
         if await _is_folder_without_index_md(href, base_dir):
             continue
@@ -1012,10 +1014,10 @@ async def index_children_missing_index(
         stripped = line.strip()
         if not stripped or stripped.startswith("<!--"):
             continue
-        m = re.match(r"^[-*]\s*\[([^\]]+)\]\(([^\)]+)\)\s*$", stripped)
-        if not m:
+        link = parse_list_link(stripped)
+        if link is None:
             continue
-        href = m.group(2).strip()
+        href = link.destination.strip()
         # Check if this is a folder-without-index case
         if await _is_folder_without_index_md(href, base_dir):
             errors.append(
@@ -1044,16 +1046,18 @@ async def folder_link_trailing_slash(
     errors: list[ValidationMessage] = []
     base_dir = ctx.path.parent
 
-    for m in re.finditer(r"\[([^\]]+)\]\(([^\)]+)\)", ctx.text):
-        display = m.group(1).strip()
-        href = m.group(2).strip()
+    for link in iter_inline_links(ctx.text):
+        display = link.text.strip()
+        href = link.destination.strip()
         if not href or href.startswith("#"):
             continue
         if re.match(r"^[a-zA-Z]+://", href):
             continue
         if await _is_folder_link(href, base_dir, allow_index_as_folder=False):
             if not href.endswith("/"):
-                line_no, col, col_end = locate_range(ctx.text, m.start(2), len(href))
+                line_no, col, col_end = locate_range(
+                    ctx.text, link.destination_start, len(link.destination)
+                )
                 errors.append(
                     ValidationMessage(
                         "folder_link_trailing_slash",
@@ -1064,7 +1068,9 @@ async def folder_link_trailing_slash(
                     )
                 )
             elif not display.endswith("/"):
-                line_no, col, col_end = locate_range(ctx.text, m.start(1), len(display))
+                line_no, col, col_end = locate_range(
+                    ctx.text, link.text_start, len(link.text)
+                )
                 errors.append(
                     ValidationMessage(
                         "folder_link_trailing_slash",
@@ -2516,11 +2522,12 @@ def link_unencoded_space(ctx: ValidationContext) -> list[ValidationMessage]:
     errors: list[ValidationMessage] = []
     text = ctx.text
     ast = ctx.ast
-    for m in re.finditer(r"\[[^\]]+\]\([^\) ]+ [^\)]+\)", text):
-        if _is_inside_code_block(m.start(), text, ast):
+    for link in iter_inline_links(text):
+        if _is_inside_code_block(link.start, text, ast):
             continue
-        length = len(m.group(0))
-        line, col, col_end = locate_range(text, m.start(), length)
+        if " " not in link.destination:
+            continue
+        line, col, col_end = locate_range(text, link.start, link.end - link.start)
         errors.append(
             ValidationMessage(
                 rule_id="link_unencoded_space",
@@ -2558,10 +2565,10 @@ def link_anchor_slug(ctx: ValidationContext) -> list[ValidationMessage]:
             anchor = h["text"].casefold().replace(" ", "%20").replace(":", "")
             _expected.add(f"#{anchor}")
 
-    for m in re.finditer(r"\[[^\]]+\]\(([^\)]+)\)", text):
-        if _is_inside_code_block(m.start(), text, ast):
+    for link in iter_inline_links(text):
+        if _is_inside_code_block(link.start, text, ast):
             continue
-        target = m.group(1)
+        target = link.destination
         # Skip external URLs.
         if "://" in target:
             continue
@@ -2585,8 +2592,8 @@ def link_anchor_slug(ctx: ValidationContext) -> list[ValidationMessage]:
             if "-" in frag and frag == frag.lower() and "%20" not in frag:
                 flagged = True
         if flagged:
-            length = len(m.group(0))
-            line, col, col_end = locate_range(text, m.start(), length)
+            length = link.end - link.start
+            line, col, col_end = locate_range(text, link.start, length)
             errors.append(
                 ValidationMessage(
                     rule_id="link_anchor_slug",

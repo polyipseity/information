@@ -55,6 +55,7 @@ from main_mods.rules import (
     latex_spacing_after,
     latex_spacing_before,
     link_anchor_slug,
+    link_unencoded_space,
     md028_bad_format,
     md028_missing,
     metadata_aliases_present,
@@ -89,7 +90,9 @@ from main_mods.rules import (
 from main_mods.utils import (
     FRONT_RE,
     html_cpt,
+    iter_inline_links,
     parse_frontmatter,
+    parse_list_link,
     parse_session_headers,
 )
 from main_mods.validator import _MD, check_markdown_file
@@ -367,6 +370,191 @@ async def test_index_children_format_and_order_rules(tmp_path):
     ctx = make_ctx(txt, path=index_path)
     msgs = await index_children_order(ctx)
     assert msgs and "alphabetical" in msgs[0].msg
+
+
+@pytest.mark.anyio
+async def test_children_rules_accept_parenthesised_paths(tmp_path: PathLike[str]):
+    """A children link may point at a path containing parentheses.
+
+    Regression test: the destination pattern used to be ``[^\\)]+``, which
+    stopped at the first ``)``.  Every children rule therefore skipped such a
+    line, so a note named ``cache (computing).md`` was neither validated,
+    ordered, nor checked for existence.
+    """
+    root = Path(tmp_path)
+    await (root / "cache (computing).md").touch()
+    await (root / "cache coherence.md").touch()
+    index_path = Path(root / "index.md")
+
+    txt = (
+        "# index\n\n## children\n"
+        "- [cache (computing)](cache%20(computing).md)\n"
+        "- [cache coherence](cache%20coherence.md)\n"
+    )
+    ctx = make_ctx(txt, path=index_path)
+    assert not index_children_format(ctx)
+    assert not await index_children_order(ctx)
+    assert not await index_children_missing(ctx)
+
+    # Nested balanced parentheses are handled as well.
+    await (root / "a(b(c)).md").touch()
+    ctx = make_ctx("# index\n\n## children\n- [deep](a(b(c)).md)\n", path=index_path)
+    assert not index_children_format(ctx)
+    assert not await index_children_missing(ctx)
+
+    # The percent-encoded spelling of the same path is equivalent.
+    ctx = make_ctx(
+        "# index\n\n## children\n- [cache (computing)](cache%20%28computing%29.md)\n",
+        path=index_path,
+    )
+    assert not index_children_format(ctx)
+
+
+@pytest.mark.anyio
+async def test_children_rules_apply_to_parenthesised_entries(tmp_path: PathLike[str]):
+    """Parenthesised entries are ordered and existence-checked, not skipped."""
+    root = Path(tmp_path)
+    await (root / "b.md").touch()
+    await (root / "cache (computing).md").touch()
+    index_path = Path(root / "index.md")
+
+    # Out of alphabetical order: 'cache (computing).md' sorts after 'b.md'.
+    txt = (
+        "# index\n\n## children\n"
+        "- [cache (computing)](cache%20(computing).md)\n"
+        "- [b](b.md)\n"
+    )
+    ctx = make_ctx(txt, path=index_path)
+    msgs = await index_children_order(ctx)
+    assert msgs and "alphabetical" in msgs[0].msg
+
+    # A missing parenthesised target is reported rather than ignored.
+    txt = "# index\n\n## children\n- [gone](gone%20(away).md)\n"
+    ctx = make_ctx(txt, path=index_path)
+    msgs = await index_children_missing(ctx)
+    assert msgs and "gone" in msgs[0].msg
+    assert msgs[0].severity == Severity.WARNING
+
+
+@pytest.mark.anyio
+async def test_children_format_rejects_unbalanced_or_trailing_content(
+    tmp_path: PathLike[str],
+):
+    """Malformed destinations still fail the format rule."""
+    root = Path(tmp_path)
+    await (root / "a.md").touch()
+    index_path = Path(root / "index.md")
+
+    ctx = make_ctx("# index\n\n## children\n- [a](a(b.md)\n", path=index_path)
+    assert index_children_format(ctx)
+
+    ctx = make_ctx("# index\n\n## children\n- [a](a.md) trailing\n", path=index_path)
+    assert index_children_format(ctx)
+
+
+@pytest.mark.anyio
+async def test_folder_link_trailing_slash_sees_parenthesised_paths(
+    tmp_path: PathLike[str],
+):
+    """Folder links are checked even when the destination has parentheses."""
+    root = Path(tmp_path)
+    await (root / "my folder (draft)").mkdir()
+    index_path = Path(root / "index.md")
+
+    txt = "# index\n\n## children\n- [my folder (draft)](my%20folder%20(draft))\n"
+    ctx = make_ctx(txt, path=index_path)
+    msgs = await folder_link_trailing_slash(ctx)
+    assert msgs and "trailing slash" in msgs[0].msg
+
+    txt = "# index\n\n## children\n- [my folder (draft)/](my%20folder%20(draft)/)\n"
+    ctx = make_ctx(txt, path=index_path)
+    assert not await folder_link_trailing_slash(ctx)
+
+
+def test_link_unencoded_space_sees_parenthesised_paths():
+    """A raw space inside a parenthesised destination is still reported."""
+    ctx = make_ctx("See [cache (computing)](cache (computing).md) for details.\n")
+    msgs = link_unencoded_space(ctx)
+    assert msgs and msgs[0].rule_id == "link_unencoded_space"
+
+    ctx = make_ctx("See [cache (computing)](cache%20(computing).md) for details.\n")
+    assert not link_unencoded_space(ctx)
+
+
+def test_link_anchor_slug_sees_parenthesised_paths():
+    """A dash-slug anchor on a parenthesised destination is still reported."""
+    ctx = make_ctx(
+        "See [cache (computing)](cache%20(computing).md#direct-mapped) here.\n"
+    )
+    msgs = link_anchor_slug(ctx)
+    assert msgs and msgs[0].rule_id == "link_anchor_slug"
+
+    ctx = make_ctx(
+        "See [cache (computing)](cache%20(computing).md#direct%20mapped) here.\n"
+    )
+    assert not link_anchor_slug(ctx)
+
+
+def test_iter_inline_links_handles_balanced_parentheses():
+    """The scanner reads a destination up to its matching parenthesis."""
+    text = "a [one (two)](one%20(two).md) b [three](three.md)"
+    links = list(iter_inline_links(text))
+    assert [link.destination for link in links] == [
+        "one%20(two).md",
+        "three.md",
+    ]
+    assert [link.text for link in links] == ["one (two)", "three"]
+
+
+def test_iter_inline_links_stops_at_line_break():
+    """A truncated link must not swallow the rest of the file.
+
+    Regression test: `COMP 2711H/index.md` contains a link whose closing
+    parenthesis is missing.  The depth counter used to keep scanning until
+    parentheses balanced much later in the file, producing a multi-line
+    destination that made `folder_link_trailing_slash` raise
+    ``OSError: [Errno 63] File name too long``.
+    """
+    text = (
+        "    - [rules of inference](../rules%20of%20inference.md_\n"
+        "        - rules of inference / conjunction ::@:: $q \\land p$\n"
+        "    - [proof format](proof%20format.md)\n"
+    )
+    links = list(iter_inline_links(text))
+    assert [link.destination for link in links] == ["proof%20format.md"]
+
+
+@pytest.mark.anyio
+async def test_folder_link_trailing_slash_survives_truncated_link(
+    tmp_path: PathLike[str],
+):
+    """A malformed multi-line link must not crash the folder rule."""
+    root = Path(tmp_path)
+    await (root / "sub").mkdir()
+    index_path = Path(root / "index.md")
+
+    txt = (
+        "    - [sub](sub_\n"
+        "        - filler (with a parenthesis and more filler text here\n"
+        "    - [sub](sub)\n"
+    )
+    ctx = make_ctx(txt, path=index_path)
+    msgs = await folder_link_trailing_slash(ctx)
+    assert msgs and "trailing slash" in msgs[0].msg
+
+
+def test_parse_list_link_shapes():
+    """Only a bare single-link bullet is recognised."""
+    link = parse_list_link("- [cache (computing)](cache%20(computing).md)  ")
+    assert link is not None
+    assert link.text == "cache (computing)"
+    assert link.destination == "cache%20(computing).md"
+
+    assert parse_list_link("* [a](a.md)") is not None
+    assert parse_list_link("- plain text") is None
+    assert parse_list_link("- [a](a.md) trailing") is None
+    assert parse_list_link("- [a](a(b.md") is None
+    assert parse_list_link("- [](a.md)") is None
 
 
 @pytest.mark.anyio
