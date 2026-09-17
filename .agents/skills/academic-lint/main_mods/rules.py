@@ -1122,7 +1122,9 @@ def index_semester_order(ctx: ValidationContext) -> list[ValidationMessage]:
     if ctx.path.name.lower() != "index.md":
         return errors
     semesters: list[tuple[int, int, str]] = []
-    term_map = {"winter": 1, "spring": 2, "summer": 3, "fall": 4}
+    # Within one semester year the terms run spring, summer, fall, then winter,
+    # so `### 2023 winter` follows `### 2023 fall` rather than preceding it.
+    term_map = {"spring": 1, "summer": 2, "fall": 3, "winter": 4}
     for line in ctx.text.splitlines():
         m = re.match(r"###\s+(\d{4})\s+([A-Za-z]+)", line)
         if m:

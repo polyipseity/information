@@ -237,6 +237,19 @@ def test_index_rules():
     assert msgs and "chronological" in msgs[0].msg
 
 
+def test_index_semester_order_places_winter_after_fall():
+    """Within one semester year the terms run spring, summer, fall, winter."""
+    ordered = (
+        "# index\n\n### 2024 spring\n### 2024 summer\n### 2024 fall\n"
+        "### 2024 winter\n### 2025 spring\n"
+    )
+    assert not index_semester_order(make_ctx(ordered, path=Path("/tmp/index.md")))
+
+    reversed_year = "# index\n\n### 2023 winter\n### 2023 fall\n"
+    msgs = index_semester_order(make_ctx(reversed_year, path=Path("/tmp/index.md")))
+    assert msgs and "chronological" in msgs[0].msg
+
+
 def test_index_canvas_metadata_iso_datetime_rule():
     """Canvas-derived leaf indexes should store time metadata in ISO form."""
 
