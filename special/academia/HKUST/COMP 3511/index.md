@@ -46,9 +46,12 @@ The content is in teaching order.
 
 - [cache (computing)](cache%20(computing).md)
 - [cloud computing](cloud%20computing.md)
+- [computer multitasking](computer%20multitasking.md)
+- [computing environments](computing%20environments.md)
 - [memory hierarchy](memory%20hierarchy.md)
 - [multiprocessing](multiprocessing.md)
 - [operating system](operating%20system.md)
+- [units of information](units%20of%20information.md)
 - [virtualization](virtualization.md)
 - [von Neumann architecture](von%20Neumann%20architecture.md)
 
@@ -111,15 +114,19 @@ The content is in teaching order.
     - week 12: no lab; buffer week
     - week 13, 23, 24, and 26 Nov: lab 9, virtual memory management continued, mass-storage systems, and file systems
 - topic-to-file mapping
-    - overview and system architecture
+    - operating system foundations
+        - [computer multitasking](computer%20multitasking.md)
+        - [computing environments](computing%20environments.md)
         - [operating system](operating%20system.md)
-        - [von Neumann architecture](von%20Neumann%20architecture.md)
-    - memory and storage
+    - machine organization
         - [cache (computing)](cache%20(computing).md)
         - [memory hierarchy](memory%20hierarchy.md)
-    - architecture and services
-        - [cloud computing](cloud%20computing.md)
+        - [units of information](units%20of%20information.md)
+        - [von Neumann architecture](von%20Neumann%20architecture.md)
+    - parallelism
         - [multiprocessing](multiprocessing.md)
+    - virtualized infrastructure
+        - [cloud computing](cloud%20computing.md)
         - [virtualization](virtualization.md)
 - notes
     - There are 9 labs in total, and the schedule given above is tentative and subject to lecture progress.
@@ -130,23 +137,29 @@ The content is in teaching order.
 - venue: Rm 4619, Lift 31-32
 - topic: basic operating system concepts; computer-system organization
 - [operating system](operating%20system.md)
-    - [§ what an operating system does](operating%20system.md#what%20an%20operating%20system%20does)
+    - [§ roles and goals](operating%20system.md#roles%20and%20goals)
     - [§ kernel and system programs](operating%20system.md#kernel%20and%20system%20programs)
-    - [§ operating system environments](operating%20system.md#operating%20system%20environments)
-    - [§ multiprogramming and time sharing](operating%20system.md#multiprogramming%20and%20time%20sharing)
+- [computer multitasking](computer%20multitasking.md)
+    - [§ multiprogramming](computer%20multitasking.md#multiprogramming)
+    - [§ time sharing](computer%20multitasking.md#time%20sharing)
 - [von Neumann architecture](von%20Neumann%20architecture.md)
     - [§ computer system organization](von%20Neumann%20architecture.md#computer%20system%20organization)
     - [§ instruction execution cycle](von%20Neumann%20architecture.md#instruction%20execution%20cycle)
+        - [§ processor registers](von%20Neumann%20architecture.md#processor%20registers)
+        - [§ interrupts](von%20Neumann%20architecture.md#interrupts)
     - [§ input and output subsystem](von%20Neumann%20architecture.md#input%20and%20output%20subsystem)
-    - [§ storage units and notation](von%20Neumann%20architecture.md#storage%20units%20and%20notation)
+        - [§ device drivers and kernel services](von%20Neumann%20architecture.md#device%20drivers%20and%20kernel%20services)
+        - [§ programmed I/O and direct memory access](von%20Neumann%20architecture.md#programmed%20i/o%20and%20direct%20memory%20access)
 - [memory hierarchy](memory%20hierarchy.md)
-    - [§ hierarchy of storage](memory%20hierarchy.md#hierarchy%20of%20storage)
+    - [§ primary, secondary, and tertiary storage](memory%20hierarchy.md#primary,%20secondary,%20and%20tertiary%20storage)
     - [§ main memory](memory%20hierarchy.md#main%20memory)
     - [§ secondary storage](memory%20hierarchy.md#secondary%20storage)
     - [§ storage characteristics and access times](memory%20hierarchy.md#storage%20characteristics%20and%20access%20times)
 - [cache (computing)](cache%20(computing).md)
-    - [§ caching](cache%20(computing).md#caching)
+    - [§ cache management and performance](cache%20(computing).md#cache%20management%20and%20performance)
     - [§ locality of reference](cache%20(computing).md#locality%20of%20reference)
+- [units of information](units%20of%20information.md)
+    - [§ binary and decimal prefixes](units%20of%20information.md#binary%20and%20decimal%20prefixes)
 
 ## week 1 lecture 2
 
@@ -156,6 +169,7 @@ The content is in teaching order.
 - [multiprocessing](multiprocessing.md)
     - [§ single-processor systems](multiprocessing.md#single-processor%20systems)
     - [§ multiprocessor systems](multiprocessing.md#multiprocessor%20systems)
+    - [§ asymmetric multiprocessing](multiprocessing.md#asymmetric%20multiprocessing)
     - [§ symmetric multiprocessing](multiprocessing.md#symmetric%20multiprocessing)
     - [§ multicore systems](multiprocessing.md#multicore%20systems)
     - [§ non-uniform memory access](multiprocessing.md#non-uniform%20memory%20access)
@@ -163,11 +177,14 @@ The content is in teaching order.
 - [virtualization](virtualization.md)
     - [§ virtual machines and the hypervisor](virtualization.md#virtual%20machines%20and%20the%20hypervisor)
     - [§ system models](virtualization.md#system%20models)
+        - [§ without virtualization](virtualization.md#without%20virtualization)
+        - [§ with virtualization](virtualization.md#with%20virtualization)
     - [§ motivations for virtualization](virtualization.md#motivations%20for%20virtualization)
     - [§ history and adoption](virtualization.md#history%20and%20adoption)
 - [cloud computing](cloud%20computing.md)
     - [§ deployment models](cloud%20computing.md#deployment%20models)
     - [§ service models](cloud%20computing.md#service%20models)
+- [computing environments](computing%20environments.md)
 
 ## midterm examination
 
