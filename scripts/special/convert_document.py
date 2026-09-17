@@ -1,13 +1,3 @@
-#!/usr/bin/env python
-# /// script
-# dependencies = [
-#     "pymupdf>=1.25.0",
-#     "python-docx>=1.1.0",
-#     "python-pptx>=1.0.0",
-#     "pillow>=12.0.0",
-# ]
-# requires-python = ">=3.13.0"
-# /// script
 """Extract text and page images from document-like formats (PDF, DOCX, PPTX).
 
 Dual extraction always runs: text for flashcards/search/Markdown, page images
@@ -15,8 +5,6 @@ for visual content (diagrams, formulas, handwritten notes). Outputs are
 persisted in a .extracted/ folder near the source document with a manifest
 for cache validation.
 """
-
-from __future__ import annotations
 
 import argparse
 import hashlib
@@ -32,9 +20,14 @@ import pymupdf
 from docx import Document
 from pptx import Presentation
 
+"""Exported names from this module (none: standalone script, not importable as a library)."""
+__all__ = ()
+
 
 @dataclass(frozen=True)
 class DocumentResult:
+    """Result of document extraction."""
+
     text: str
     images: list[Path]
     format: str
@@ -166,13 +159,6 @@ def process_document(
     If output_dir already contains a valid extraction (matching manifest),
     returns the cached result without re-extracting. Pass force=True to
     override.
-
-    Returns dict with keys:
-      - "text": extracted markdown text
-      - "images": list of page image Paths (may be empty)
-      - "format": detected format string ("pdf", "docx", "pptx")
-      - "page_count": number of pages/slides rendered as images
-      - "cached": True if reused existing extraction
     """
     suffix = path.suffix.lower()
     if suffix not in EXTENSION_MAP:
@@ -230,7 +216,6 @@ def process_document(
 
 def main(argv: Sequence[str] | None = None) -> None:
     """CLI entry point: convert_document.py [--force] <input> <output_dir>"""
-
     parser = argparse.ArgumentParser(
         description="Extract text and page images from documents",
     )
@@ -257,6 +242,7 @@ def main(argv: Sequence[str] | None = None) -> None:
 
 
 def __main__() -> None:
+    """Entry point for running the script directly."""
     main()
 
 

@@ -1,6 +1,8 @@
-"""Tests for convert_document.py — PDF/DOCX/PPTX dual extraction."""
+"""Tests for scripts/special/convert_document.py.
 
-from __future__ import annotations
+Covers the public API: process_document function, manifest creation,
+cache hit/miss behavior, and force re-extraction.
+"""
 
 import json
 import os
@@ -10,6 +12,9 @@ import pymupdf
 import pytest
 
 from scripts.special.convert_document import process_document
+
+"""Public API of this test module (empty: no symbols are exported)."""
+__all__ = ()
 
 
 def test_process_document_rejects_unknown_format(
