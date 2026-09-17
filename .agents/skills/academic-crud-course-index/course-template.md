@@ -17,6 +17,13 @@ Keep detailed policy, edge cases, and advanced note-writing rules in `SKILL.md`.
 - Put human guidance __outside__ the fenced block.
 - For course indexes, include spaced and unspaced course-code aliases plus
   institution-prefixed variants, sorted alphabetically.
+- __Scope__: only scaffold what the source material provides. A course homepage
+  produces the course `index.md` with logistics and overview. Do NOT create
+  `labs/`, `assignments/`, `tutorials/`, or session entries from a homepage
+  alone — those require per-item source material (Canvas pages, PDFs, quizzes).
+- __Missing data__: always use `\[missing\]` for unknown values. Never invent
+  placeholders like "TBA", "none", "?", or empty strings. The only exception
+  is exam statistics sub-blocks which use `\(none\)`.
 - Use underscore-normalized path fragments in flashcard tags, for example
   `flashcard/active/special/academia/HKUST/COMP_3031` or
   `flashcard/active/special/academia/Pusan_National_University/IT3000504`.
@@ -74,9 +81,12 @@ Keep detailed policy, edge cases, and advanced note-writing rules in `SKILL.md`.
   detail: explicit classifications, key formulas, named signal or system
   families, and representative examples or counterexamples from the source.
 - Place `assignments/` immediately after `children` and before session entries.
-- Keep sessions in strict chronological order and use headings of the form
-  `## week N lecture`, `## week N lecture 2`, `## week N lab`, and
-  `## week N tutorial`.
+- Keep sessions in strict chronological order. Each session type (lecture,
+  lab, tutorial) repeats every week with the same count. If week 1 has 2
+  lectures + 1 lab, every week has the same set. Use `## week N lecture`,
+  `## week N lecture 2`, `## week N lab`, `## week N tutorial`. Never mix
+  types across weeks (e.g. `week 1 lecture` then `week 2 lecture` then
+  `week 3 lab` is wrong — week 1's lab is missing).
 - If the official materials define a recurring weekly stream, scaffold that
   stream continuously across the term and mark skipped meetings with `status:`
   metadata rather than omitting the week.

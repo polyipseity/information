@@ -9,6 +9,32 @@ Single entry point for all academic material ingestion. Accepts files (PDF, HTML
 
 Apply the classification to __each material independently__. A single invocation may produce multiple independent classifications, each dispatched to its own skill.
 
+## Scope guardrails
+
+__Hard rule: create only what the source material warrants.__ The classification decision tree determines the target __type__, but the source content determines __how much__ to create. A generic HTML course homepage is course-level metadata — it produces only the course `index.md`. It does NOT produce lab directories, homework folders, session entries, or any other scaffolding unless the source explicitly provides that content.
+
+| Source type | Creates | Does NOT create |
+| --- | --- | --- |
+| Course homepage (generic HTML) | Course `index.md` only | Subdirectories, sessions, assignments |
+| Canvas assignment page | Submission leaf (`index.md` + YAML) | Course-level sessions, other submissions |
+| PRS/iClicker quiz HTML | In-class content file (`<type>.md`) | Course-level metadata, submission YAML |
+| Canvas announcement | Blockquote in matching session | New sessions, new files |
+
+__Lectures, labs, and tutorials are separate.__ A course homepage lists lecture sections, lab sections, and tutorial sections independently under `## logistics`. They are distinct session types with different section keys:
+
+- `lecture` sections: keys `L1`, `L2`, `L3` (2-3 per week typical)
+- `lab` sections: keys `LA1`, `LA2`, `LA3` (1 per week typical)
+- `tutorial` sections: keys `T1`, `T2`, `T3` (1 per week typical)
+
+Never conflate them into a single type, create joint session entries, or mix types within a week heading. Each week in `## logistics` lists ALL section types that meet that week — for example, a course with 2 lectures + 1 lab + 1 tutorial per week has 4 section entries per week.
+
+__When in doubt, create less.__ Scaffolding for future content (labs, assignments, tutorials) should only appear when:
+
+1. The source material explicitly enumerates items (e.g., "Lab 1, Lab 2, Lab 3"), OR
+2. The user explicitly requests it.
+
+A course homepage that mentions "labs" as a grading component does NOT warrant creating a `labs/` directory.
+
 ## Input handling
 
 Accept any combination of:
@@ -185,7 +211,15 @@ After determining the target type for a material, apply these steps before dispa
 
 ### Missing data
 
-Use `\[missing\]` when a field is present but its value is unknown or unavailable during partial-info ingestion. Do not invent or generate placeholder content for missing values. See [special.instructions.md](../../instructions/special.instructions.md#missing-data).
+__Hard rule: always use `\[missing\]`.__ When a field is present but its value is unknown or unavailable during partial-info ingestion, write `\[missing\]` as the value. This is the ONLY acceptable placeholder. Never use:
+
+- bare `none`, `N/A`, `TBD`, `?`, or empty strings
+- `\(none\)` for non-statistics fields (that format is reserved for exam statistics)
+- invented values ("TBA", "upcoming", "not yet available")
+
+The `\[missing\]` format is escaped so it does not create a wiki link in Obsidian. The brackets indicate "field exists, value absent" — distinguish this from omitting the field entirely (which means "field not applicable").
+
+See [special.instructions.md](../../instructions/special.instructions.md#missing-data) for the full convention.
 
 ### 1. Existing-match check
 

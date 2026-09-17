@@ -2116,6 +2116,8 @@ def latex_disallowed_delimiters(ctx: ValidationContext) -> list[ValidationMessag
     r"""Disallow alternative LaTeX delimiters \[ \] or \( \) in favour of $.
 
     Search the text for the deprecated delimiters and flag their locations.
+    Excludes repo data-convention patterns ``\[missing\]`` and ``\(none\)``
+    which use the same escape sequences but are not LaTeX.
     """
     errors: list[ValidationMessage] = []
     # match the four deprecated delimiter sequences: \[, \], \(, or \)
@@ -2123,9 +2125,30 @@ def latex_disallowed_delimiters(ctx: ValidationContext) -> list[ValidationMessag
     # is common in TeX macros (\Omega, line breaks, etc.) and produced
     # spurious warnings.  Restricting the pattern to the exact four sequences
     # resolves those false positives.
-    m = re.search(r"(?<!\\)(?:\\\[|\\\]|\\\(|\\\))", ctx.text)
-    if m:
-        length = len(m.group(0))
+    #
+    # Exclusion: \[missing\] and \(none\) are repo data-convention tokens
+    # (see special.instructions.md § missing-data), not LaTeX.  Skip any
+    _EXCLUDED_TOKENS = (r"\[missing\]", r"\(none\)")
+    excluded: list[tuple[int, int]] = []
+    for tok in _EXCLUDED_TOKENS:
+        pos = 0
+        while True:
+            idx = ctx.text.find(tok, pos)
+            if idx == -1:
+                break
+            excluded.append((idx, idx + len(tok)))
+            pos = idx + 1
+
+    def _in_excluded(start: int, end: int) -> bool:
+        for ex_s, ex_e in excluded:
+            if start >= ex_s and end <= ex_e:
+                return True
+        return False
+
+    for m in re.finditer(r"(?<!\\)(?:\\\[|\\\]|\\\(|\\\))", ctx.text):
+        if _in_excluded(m.start(), m.end()):
+            continue
+        length = m.end() - m.start()
         line, col, col_end = locate_range(ctx.text, m.start(), length)
         errors.append(
             ValidationMessage(

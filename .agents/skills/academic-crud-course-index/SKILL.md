@@ -87,12 +87,75 @@ Modify children ordering, logistics, session metadata, overview. Add/update exam
 
 Remove entire course directory (with confirmation). Remove from institution `index.md`.
 
+## Scope: course index only
+
+When creating from a course homepage or syllabus, only populate sections that the source material actually provides. A generic course homepage typically provides: description, prerequisites, textbook, grading scheme, section schedules (lectures and labs), and possibly announcements. It does NOT provide week-by-week session content, individual assignment details, or child file scaffolding.
+
+Do NOT create subdirectories (`labs/`, `assignments/`, `tutorials/`) or session entries (`## week N lecture`) from a course homepage alone. These require specific per-item source material (Canvas pages, PRS quizzes, assignment PDFs).
+
+## Session types: lecture, lab, tutorial
+
+Lectures, labs, and tutorials are distinct session types under `## logistics`. Each type has its own section keys, schedule, and session headings. Never merge them into a single type.
+
+```yaml
+- sections:
+    - lecture                    # ← section type: lecture
+        - L1: venue; time       # ← section key: L1, L2, L3
+        - L2: venue; time
+    - lab                        # ← section type: lab (NOT "labs")
+        - LA1: venue; time      # ← section key: LA1, LA2, LA3
+        - LA2: venue; time
+    - tutorial                   # ← section type: tutorial
+        - T1: venue; time       # ← section key: T1, T2, T3
+        - T2: venue; time
+```
+
+- Section keys follow the convention: `L` for lectures, `LA` for labs, `T` for tutorials
+- Session headings use the matching type: `## week N lecture`, `## week N lab`, `## week N tutorial`
+
+## Session ordering: types repeat every week
+
+Each session type occurs on a fixed weekly pattern. If a course has 3 lectures per week, EVERY week gets `## week N lecture`, `## week N lecture 2`, `## week N lecture 3`. If it has 1 lab per week, EVERY week gets `## week N lab`. The same applies to tutorials.
+
+__Rules:__
+
+1. _Consistent types across weeks._ If week 1 has 2 lectures + 1 lab + 1 tutorial, every subsequent week has the same set of session types (unless marked `status: no class`).
+2. _Numbered suffixes for multiple sessions of the same type._ When there are N sessions of the same type in a week, use `## week N lecture`, `## week N lecture 2`, ..., `## week N lecture N`.
+3. _Chronological order within each week._ Within a single week, list sessions in day/time order: lecture first (earliest), then tutorial, then lab (or whatever the actual chronological order is).
+4. _Strict chronological order across weeks._ Week 2 sessions come after week 1 sessions. Never interleave weeks (e.g., `## week 1 lecture` → `## week 2 lecture` → `## week 3 lab` is WRONG if week 1 also has a lab).
+5. _Gap sessions._ If a session type does not meet in a particular week, mark it with `status: no class` or `status: public holiday: <name>` rather than omitting the heading.
+
+__Example for a course with 2 lectures + 1 lab per week:__
+
+```markdown
+## week 1 lecture
+- datetime: ...
+## week 1 lecture 2
+- datetime: ...
+## week 1 lab
+- datetime: ...
+## week 2 lecture
+- datetime: ...
+## week 2 lecture 2
+- datetime: ...
+## week 2 lab
+- datetime: ...
+```
+
+__Wrong — do NOT do this:__
+
+```markdown
+## week 1 lecture
+## week 2 lecture
+## week 3 lab    ← week 1's lab is missing, types are mixed across weeks
+```
+
 ## Course-root layout rules
 
 - After course list (`institution`, `name`, `credits`), insert `---` before description
 - Put `## children` first, then `## logistics`, then `## overview`
 - Children order: AGENTS → assignments → questions → topics (chronological)
-- Session headings: `## week N lecture`, `## week N tutorial`, `## week N lab`
+- Session headings: see "Session ordering" above — each type repeats every week
 - Session metadata: `datetime:`, `topic:`, `status:`, `assignment:`, `quiz:`
     - `quiz:` links to the tutorial quiz page when a quiz was administered:
       `[tutorial <N>](tutorials/tutorial%20<N>/index.md)`
@@ -307,7 +370,30 @@ Run `academic-lint` after every edit. If you know which files changed, pass thos
 
 ## Missing data
 
-Use `\[missing\]` when a field or value is absent. See [special.instructions.md](../../instructions/special.instructions.md#missing-data).
+__Always use `\[missing\]`.__ Every field that exists but has no value gets `\[missing\]` as its value. Never invent placeholder text ("TBA", "upcoming", "none", "?"). The only exception is exam statistics fields, which use `\(none\)` — this format is specific to the statistics sub-block and must not be used elsewhere.
+
+Example for an exam section where details are not yet known:
+
+```yaml
+## midterm examination
+
+- datetime: 2026-10-29T19:00:00+08:00/2026-10-29T21:00:00+08:00
+- venue: \[missing\]
+- scope: \[missing\]
+- format:
+    - calculator: \[missing\]
+    - cheatsheet: \[missing\]
+    - open book: \[missing\]
+    - open notes: \[missing\]
+    - questions: \[missing\]
+- grade: \[missing\]
+- statistics: \[missing\]
+- breakdown: \[missing\]
+- note: \[missing\]
+- report: \[missing\]
+```
+
+See [special.instructions.md](../../instructions/special.instructions.md#missing-data) for the full convention.
 
 ## References
 
