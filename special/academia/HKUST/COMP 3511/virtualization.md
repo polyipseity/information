@@ -46,7 +46,27 @@ Flashcards for this section are as follows:
 
 ## system models
 
-Two models matter here: a computer with no virtualization, and the same computer virtualized. In the plain model the hardware supports one __kernel__, which exposes a __programming interface__ to the processes above it, and those processes reach the machine only through it. In the virtualized model the virtual machine manager sits on the hardware, and above it each virtual machine holds its own kernel, exposing the same kind of programming interface to its processes.
+Two models matter here: a computer with no virtualization, and the same computer virtualized.
+
+---
+
+Flashcards for this section are as follows:
+
+- what the two models share ::@:: The programming interface above a kernel, so processes in both models use the machine through the same kind of interface.
+
+### without virtualization
+
+In the plain model the hardware supports one __kernel__, which exposes a __programming interface__ to the processes above it, and those processes reach the machine only through it.
+
+---
+
+Flashcards for this section are as follows:
+
+- model without virtualization ::@:: The hardware supports a single kernel, which exposes a programming interface to the processes above it.
+
+### with virtualization
+
+In the virtualized model the virtual machine manager sits on the hardware, and above it each virtual machine holds its own kernel, exposing the same kind of programming interface to its processes.
 
 The virtualized model stacks the same picture several times over one physical machine rather than giving programs a new interface: what the processes see above their kernel is unchanged, and the layers below it are duplicated. The layer that owns the machine is the virtual machine manager, not a kernel, and each virtual machine gives the kernel above it a virtual copy of the host. The manager runs directly on the hardware, with the virtual machines and their kernels above it.
 
@@ -54,9 +74,7 @@ The virtualized model stacks the same picture several times over one physical ma
 
 Flashcards for this section are as follows:
 
-- model without virtualization ::@:: The hardware supports a single kernel, which exposes a programming interface to the processes above it.
 - virtualized model ::@:: The virtual machine manager sits on the hardware, and above it each virtual machine contains its own kernel, exposing a programming interface to its own processes.
-- what the two models share ::@:: The programming interface above a kernel, so processes in both models use the machine through the same kind of interface.
 - where the virtual machine manager sits ::@:: In this model the virtual machine manager runs directly on the hardware, with the virtual machines and their kernels layered above it.
 - number of kernels ::@:: A system without virtualization has one kernel on the hardware, whereas a virtualized system has one kernel inside each virtual machine.
 
