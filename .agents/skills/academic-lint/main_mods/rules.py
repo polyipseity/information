@@ -2302,6 +2302,7 @@ def latex_disallowed_delimiters(ctx: ValidationContext) -> list[ValidationMessag
             pos = idx + 1
 
     def _in_excluded(start: int, end: int) -> bool:
+        """Return True if the ``[start, end)`` span is inside an excluded token."""
         for ex_s, ex_e in excluded:
             if start >= ex_s and end <= ex_e:
                 return True

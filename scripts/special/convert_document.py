@@ -127,6 +127,11 @@ def extract_pages_pptx(path: Path, output_dir: Path) -> list[Path]:
     return []
 
 
+"""Supported source extensions mapped to their kind and extractor functions.
+
+Each value is ``(kind, text extractor, page extractor)``; the page extractor is
+``None`` for formats that have no page images.
+"""
 EXTENSION_MAP = {
     ".pdf": ("pdf", extract_text_pdf, extract_pages_pdf),
     ".docx": ("docx", extract_text_docx, None),
