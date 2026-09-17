@@ -98,9 +98,9 @@ File and section boundaries come from the concepts, never from the shape of the 
 
 Decide nesting explicitly while planning the note. Do not inherit the source's depth, and do not default to flat.
 
-- __Nest__ (`###`) when a section carries two or more independently meaningful sub-concepts: a classification with co-equal variants, per-case breakdowns (modes, models, layers), separate derivations or worked examples, or sub-topics a reader would link to on their own.
+- __Nest__ (`###`) when a section carries two or more independently meaningful sub-concepts: a classification whose variants each own a block, per-case breakdowns (modes, models, layers), separate derivations or worked examples, or sub-topics a reader would link to on their own.
 - __Do not nest__ when the sub-topics read better as prose or a short list, when it would produce exactly one `###` (fold it back), or when the only reason is the source's layout.
-- __Tiebreaker__: nest when each variant needs its own explanation and its own flashcards; stay flat when each variant is a line or two and they share the section's single flashcard block. Three or more co-equal variants that each carry recallable facts normally nest.
+- __Tiebreaker__: count flashcards per variant. A variant earns its own block when it carries two or more flashcards, or more than a sentence or two of explanation. A variant captured by a single card stays flat however many variants the section has, because the section's single block already covers them: three one-card variants are still flat.
 - __Depth__: `###` freely. `####` when it names a distinct sub-sub-concept of a `###` and splitting the note instead would fragment one concept, justified inline with `<!-- check: ignore-line[header_deep_nesting]: <reason> -->`. `#####` and deeper are unsanctioned — they mean the file boundary is wrong, so split the note instead.
 - Every `###` and deeper carries its own `---` separator and its own `Flashcards for this section are as follows:` block, recursively.
 - Flat is a valid outcome for a concept with no sub-concepts — as a decision, never as a default.
