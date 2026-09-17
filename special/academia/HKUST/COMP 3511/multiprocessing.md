@@ -46,7 +46,7 @@ They offer three advantages. Throughput rises with the extra computing capabilit
 
 Adding processors does not scale proportionally: the speed-up with $N$ processors is less than $N$, because of overhead such as contention for the system bus or for memory. Multiprocessor systems are also more complex in hardware design and in software, for example in parallel programming.
 
-Two types are distinguished. In asymmetric multiprocessing, often a master-slave arrangement, the master assigns tasks to the slaves and handles input/output itself. In symmetric multiprocessing all processors are equal, so every one performs all tasks, including operating-system functions and user processes, and any processor can handle input/output.
+Two kinds of multiprocessor system are distinguished, asymmetric multiprocessing and symmetric multiprocessing.
 
 ---
 
@@ -55,14 +55,23 @@ Flashcards for this section are as follows:
 - multiprocessor system ::@:: A system with two or more processors, traditionally each with a single-core CPU; now the norm from mobile devices to servers.
 - advantages of multiprocessor systems ::@:: Increased throughput through more computing capability, economy of scale from sharing devices such as input/output, power supplies, housings, and peripherals, and increased reliability through graceful degradation or fault tolerance.
 - scaling with $N$ processors ::@:: The speed-up with $N$ processors is less than $N$ because of overhead such as contention for shared resources, namely the system bus or memory.
-- asymmetric multiprocessing ::@:: A master processor assigns specific tasks to slave processors, an arrangement often described as master-slave, and the master handles input/output.
 - complexity of multiprocessor systems ::@:: They are far more complex than single-processor systems in both hardware design and software, for example in parallel programming.
+
+## asymmetric multiprocessing
+
+In __asymmetric multiprocessing__, often a master-slave arrangement, the master processor assigns specific tasks to the slave processors and handles input/output itself, so the processors are not equal.
+
+---
+
+Flashcards for this section are as follows:
+
+- asymmetric multiprocessing ::@:: A master processor assigns specific tasks to slave processors, an arrangement often described as master-slave, and the master handles input/output.
 
 ## symmetric multiprocessing
 
 Symmetric multiprocessing, or SMP, treats all processors equally. Each CPU has its own registers and a private, or local, cache, but all processors share physical memory through the system bus. Every processor performs all tasks, including operating-system functions and user processes, and any of them can handle input/output, so none is reserved as a master.
 
-That is what separates it from asymmetric multiprocessing, where one master CPU distributes tasks among the slave CPUs and usually handles input/output alone.
+That is what separates it from asymmetric multiprocessing.
 
 ---
 
