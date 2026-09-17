@@ -102,16 +102,17 @@ Lectures, labs, and tutorials are distinct session types under `## logistics`. E
     - lecture                    # ← section type: lecture
         - L1: venue; time       # ← section key: L1, L2, L3
         - L2: venue; time
-    - lab                        # ← section type: lab (NOT "labs")
-        - LA1: venue; time      # ← section key: LA1, LA2, LA3
-        - LA2: venue; time
-    - tutorial                   # ← section type: tutorial
+    - tutorials                  # ← section type: tutorials (plural)
         - T1: venue; time       # ← section key: T1, T2, T3
         - T2: venue; time
+    - labs                       # ← section type: labs (plural)
+        - LA1: venue; time      # ← section key: LA1, LA2, LA3
+        - LA2: venue; time
 ```
 
-- Section keys follow the convention: `L` for lectures, `LA` for labs, `T` for tutorials
-- Session headings use the matching type: `## week N lecture`, `## week N lab`, `## week N tutorial`
+- Section-type names match `course-template.md`: `lecture` (singular), `tutorials` and `labs` (plural); the chosen section is written after the colon, e.g. `- labs: LA3`
+- Section keys follow the convention: `L` for lectures, `T` for tutorials, `LA` for labs
+- Session headings use the singular type: `## week N lecture`, `## week N tutorial`, `## week N lab`
 
 ## Session ordering: types repeat every week
 
