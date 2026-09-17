@@ -71,7 +71,7 @@ Do not copy HTML source files into `attachments/`.
 
 ## 7. Update
 
-Add child links to parent indexes (`tutorials/index.md`, course `index.md`).
+Add child links to parent indexes (`tutorials/index.md`, course `index.md`). Children-list format and order come from the `academic-crud-index` skill: folders first, then files, Python string order within each group.
 
 ## 8. Validate
 

@@ -20,13 +20,13 @@ __Hard rule: create only what the source material warrants.__ The classification
 | PRS/iClicker quiz HTML | In-class content file (`<type>.md`) | Course-level metadata, submission YAML |
 | Canvas announcement | Blockquote in matching session | New sessions, new files |
 
-__Lectures, labs, and tutorials are separate.__ A course homepage lists lecture sections, lab sections, and tutorial sections independently under `## logistics`. They are distinct session types with different section keys:
+__Lectures, labs, and tutorials are separate.__ A course homepage lists lecture sections, lab sections, and tutorial sections independently under `## logistics`. They are distinct session types with different section-type names and section keys:
 
 - `lecture` sections: keys `L1`, `L2`, `L3` (2-3 per week typical)
-- `lab` sections: keys `LA1`, `LA2`, `LA3` (1 per week typical)
-- `tutorial` sections: keys `T1`, `T2`, `T3` (1 per week typical)
+- `labs` sections: keys `LA1`, `LA2`, `LA3` (1 per week typical)
+- `tutorials` sections: keys `T1`, `T2`, `T3` (1 per week typical)
 
-Never conflate them into a single type, create joint session entries, or mix types within a week heading. Each week in `## logistics` lists ALL section types that meet that week — for example, a course with 2 lectures + 1 lab + 1 tutorial per week has 4 section entries per week.
+Never conflate them into a single type, create joint session entries, or mix types within a week heading. `## logistics` lists the enrolled sections with their venues and times; every session that actually meets gets its own `## week N <type>` heading in the course `index.md`. A course with 2 lectures + 1 lab + 1 tutorial per week therefore has 4 session headings per week, not 4 entries in `## logistics` — see "Session ordering" in `academic-crud-course-index`.
 
 __When in doubt, create less.__ Scaffolding for future content (labs, assignments, tutorials) should only appear when:
 
