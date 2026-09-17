@@ -2182,6 +2182,9 @@ def numeric_text_not_latex(ctx: ValidationContext) -> list[ValidationMessage]:
         re.VERBOSE,
     )
     var_eq_re = re.compile(r"\b[IiRrVv]\d+\s*=\s*\d")
+    # Course codes such as `COMP 1029V`, `EMIA 2010A`, and `LANG 1403A` read as
+    # a number followed by a unit to `unit_re`, but they are identifiers.
+    course_code_re = re.compile(r"\b[A-Z]{2,5}\s?\d{3,4}[A-Z]\b")
 
     def _mask_match(match: re.Match[str]) -> str:
         """Replace a matched span with spaces to preserve column positions."""
@@ -2209,6 +2212,7 @@ def numeric_text_not_latex(ctx: ValidationContext) -> list[ValidationMessage]:
         masked = re.sub(r"<!--.*?-->", _mask_match, stripped)
         masked = re.sub(r"`[^`]*`", _mask_match, masked)
         masked = re.sub(r"\[[^\]]*\]\(([^)]+)\)", _mask_link_target, masked)
+        masked = course_code_re.sub(_mask_match, masked)
 
         if unit_re.search(masked) or var_eq_re.search(masked):
             m = unit_re.search(masked) or var_eq_re.search(masked)

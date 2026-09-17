@@ -1249,6 +1249,16 @@ def test_numeric_text_not_latex():
     txt_room = "- venue: Room 4225C\n"
     assert not numeric_text_not_latex(make_ctx(txt_room))
 
+    # course codes like COMP 1029V and EMIA 2010A are identifiers too, both
+    # bare and inside a link label
+    for txt_course in (
+        "- [COMP 1029V](COMP%201029V/index.md): Excel VBA Programming\n",
+        "- [EMIA 2010A](EMIA%202010A/index.md): Cross-disciplinary Seminar\n",
+        "- [LANG 1403A](LANG%201403A/index.md): Academic English\n",
+        "The course is COMP 1029V.\n",
+    ):
+        assert not numeric_text_not_latex(make_ctx(txt_course))
+
     # percent-encoded markdown link targets should be ignored
     txt_link = (
         "- sigma-algebra / [§ consequences: empty set, intersections, finite operations]"
