@@ -29,7 +29,7 @@ Use `transcludes/` when a course references Wikipedia articles that should be av
 1. Use `find_wikipedia.py` to discover the canonical Wikipedia title:
 
    ```bash
-   uv run .agents/skills/academic-crud-topic-note/find_wikipedia.py --limit 5
+   uv run python .agents/skills/academic-crud-topic-note/find_wikipedia.py --limit 5
    ```
 
 2. Ingest the Wikipedia article using the `ingest-wikipedia` skill.

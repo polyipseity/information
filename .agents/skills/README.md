@@ -59,9 +59,12 @@ The `academic-lint/` folder contains the validator (`main.py`, `main_mods/`) and
 
 Some skill folders contain a `pyproject.toml` for tool configuration (e.g., `ty` type-checker settings). Running `uv run`, `uv sync`, or any `uv` command __inside__ a skill folder will cause `uv` to create a `.venv/` directory and `uv.lock` file there, cluttering the folder and duplicating the project's actual environment.
 
-__Never run `uv` commands from inside a skill folder.__ Always run from the workspace root and reference skill paths as arguments. Examples:
+__Never run `uv` commands from inside a skill folder.__ Always run from the workspace root and reference skill paths as arguments.
+
+Running from the workspace root is not sufficient on its own: `uv run <script>` resolves the project from the __script's__ directory, so a skill script picks up that skill's dependency-free `pyproject.toml`, builds a per-skill environment, and fails on third-party imports. Invoke skill scripts through the workspace interpreter — `uv run python <script> ...` — so the environment comes from the workspace root. Examples:
 
 - Tests: `uv run pytest .agents/skills/academic-lint/tests_a7392be/`
-- Validator: `uv run .agents/skills/academic-lint/main.py "special/academia/..."`
+- Validator: `uv run python .agents/skills/academic-lint/main.py "special/academia/..."`
+- Wikipedia titles: `uv run python .agents/skills/academic-crud-topic-note/find_wikipedia.py "<query>"`
 
 This applies regardless of whether the command is run implicitly by an agent or explicitly by a human. If you accidentally create `.venv` or `uv.lock` inside a skill folder, delete them immediately (`rm -rf .agents/skills/*/.venv .agents/skills/*/uv.lock`).

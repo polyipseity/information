@@ -289,7 +289,7 @@ After determining the target type for a material, apply these steps before dispa
 Fix the name before creating or renaming any `<topic>.md`. This is required, not stylistic — see "Topic note naming" in `academic-crud-topic-note` for the full rules.
 
 ```bash
-uv run .agents/skills/academic-crud-topic-note/find_wikipedia.py "<concept>"
+uv run python .agents/skills/academic-crud-topic-note/find_wikipedia.py "<concept>"
 ```
 
 The filename stem and the H1 title are the same sentence-case string: `operating system`, never `Operating System`. No lint rule inspects the H1 title or the filename, so a title-case name passes validation silently.

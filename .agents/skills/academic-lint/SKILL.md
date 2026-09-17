@@ -18,7 +18,7 @@ Run this skill after every edit to academic notes under `special/academia/`. Do 
 When you know which files were edited, lint those files only:
 
 ```bash
-uv run .agents/skills/academic-lint/main.py <file1> <file2> ...
+uv run python .agents/skills/academic-lint/main.py <file1> <file2> ...
 ```
 
 ### Whole-course (default)
@@ -26,7 +26,7 @@ uv run .agents/skills/academic-lint/main.py <file1> <file2> ...
 When the full course folder was modified (e.g., scaffolding a new course, batch updates), lint the entire course:
 
 ```bash
-uv run .agents/skills/academic-lint/main.py "special/academia/<INSTITUTION>/<COURSE>/"
+uv run python .agents/skills/academic-lint/main.py "special/academia/<INSTITUTION>/<COURSE>/"
 ```
 
 ## Exit codes

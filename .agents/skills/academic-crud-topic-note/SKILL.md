@@ -46,11 +46,11 @@ __Why this needs its own step:__ the `header_style` lint rule starts at heading 
 ### Discovering the canonical title
 
 ```bash
-# Search for articles matching a query (default: 5 results)
-uv run .agents/skills/academic-crud-topic-note/find_wikipedia.py "Fourier transform"
+# Search for articles matching a query (default: 3 results)
+uv run python .agents/skills/academic-crud-topic-note/find_wikipedia.py "Fourier transform"
 
 # Limit results
-uv run .agents/skills/academic-crud-topic-note/find_wikipedia.py --limit 3 "Bayes theorem"
+uv run python .agents/skills/academic-crud-topic-note/find_wikipedia.py --limit 3 "Bayes theorem"
 ```
 
 `find_wikipedia.py` searches Wikipedia and returns canonical titles, URLs, and short descriptions. It finds the exact article title (avoiding redirects and disambiguation pages), gives the canonical spelling of a technical term, and surfaces related articles you may not have considered.

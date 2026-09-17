@@ -29,8 +29,12 @@ The CLI supports a few options:
 
 Usage::
 
-    uv run .agents/skills/academic-crud-topic-note/find_wikipedia.py [--limit N]
+    uv run python .agents/skills/academic-crud-topic-note/find_wikipedia.py [--limit N]
         [--pretty] [--human] [--full] QUERY
+
+Skill scripts must be invoked through the workspace interpreter (``uv run
+python <script>``): ``uv run <script>`` resolves the environment from the
+script's own directory, which here has no dependencies.
 
 The JSON structure remains the same: ``title``, ``url``, ``filename``,
 ``friendly_filename``, ``general_path``, ``extract`` and ``extract_full``.

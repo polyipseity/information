@@ -59,13 +59,13 @@ Accept incomplete inputs gracefully. The `academic-crud-submission` skill handle
 After every file edit, run:
 
 ```bash
-uv run .agents/skills/academic-lint/main.py <file1> <file2> ...
+uv run python .agents/skills/academic-lint/main.py <file1> <file2> ...
 ```
 
 Or for whole-course validation:
 
 ```bash
-uv run .agents/skills/academic-lint/main.py "special/academia/<INSTITUTION>/<COURSE>/"
+uv run python .agents/skills/academic-lint/main.py "special/academia/<INSTITUTION>/<COURSE>/"
 ```
 
 Do not proceed to commit until errors (exit code 2) are resolved. Warnings (exit code 1) are advisory.
