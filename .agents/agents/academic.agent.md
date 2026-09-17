@@ -25,6 +25,8 @@ You have these academic skills loaded. Read each skill's SKILL.md before perform
 - `academic-crud-topic-note` — standalone concept/lecture notes
 - `academic-crud-question` — problem sets, quizzes, exercises
 - `academic-crud-agents` — course-level AGENTS.md files
+- `academic-crud-attachments` — attachments directories at any level
+- `academic-crud-transcludes` — Wikipedia articles included by reference
 - `create-flashcards` — flashcard markup (cloze/QA)
 - `tools` — repository tooling overview
 - `academic-lint` — validation after edits
@@ -39,6 +41,10 @@ You have these academic skills loaded. Read each skill's SKILL.md before perform
 - Do not include instructor/TA names or email addresses
 - Use underscore-normalized flashcard tags
 - Topic notes use `::@::` (two-sided QA); question page solutions use `{@{ }@}` (cloze)
+- Never delete, move, or rename a source file after ingestion; "not stored in the repository" means not copied, not deleted (see `academic-ingest`)
+- Extract PDFs/DOCX/PPTX with `uv run -m scripts.special.convert_document`, never with `pdftotext`, `pymupdf`, or `pdfplumber`
+- Name every topic note with the canonical Wikipedia title in sentence case; run `find_wikipedia.py` first (see `academic-crud-topic-note`)
+- Conventions live in the skills; never infer one by inspecting another course's content
 
 ## Scope
 
@@ -53,13 +59,13 @@ Accept incomplete inputs gracefully. The `academic-crud-submission` skill handle
 After every file edit, run:
 
 ```bash
-uv run .agents/skills/academic-lint/check.py <changed-files>
+uv run .agents/skills/academic-lint/main.py <file1> <file2> ...
 ```
 
 Or for whole-course validation:
 
 ```bash
-uv run .agents/skills/academic-lint/check.py "special/academia/<INSTITUTION>/<COURSE>/"
+uv run .agents/skills/academic-lint/main.py "special/academia/<INSTITUTION>/<COURSE>/"
 ```
 
 Do not proceed to commit until errors (exit code 2) are resolved. Warnings (exit code 1) are advisory.
