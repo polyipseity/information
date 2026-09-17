@@ -3,7 +3,7 @@ aliases:
   - HKUST index
   - Hong Kong University of Science and Technology index
 tags:
-  - flashcard/active/special/academia/HKUST
+  - flashcard/active/special/academia/HKUST/index
   - function/index
   - language/in/English
 ---
@@ -12,9 +12,66 @@ tags:
 
 - Hong Kong University of Science and Technology
 
-<!-- list separator -->
+## children
 
-- [reviews](reviews.md)
+- [ACCT 2010](ACCT%202010/index.md)
+- [ACCT 2200](ACCT%202200/index.md)
+- [ACCT 3010](ACCT%203010/index.md)
+- [ACCT 3020](ACCT%203020/index.md)
+- [BIEN 3300](BIEN%203300/index.md)
+- [CIVL 1100](CIVL%201100/index.md)
+- [COMP 1029C](COMP%201029C/index.md)
+- [COMP 1029J](COMP%201029J/index.md)
+- [COMP 1029P](COMP%201029P/index.md)
+- [COMP 1029V](COMP%201029V/index.md)
+- [COMP 1942](COMP%201942/index.md)
+- [COMP 2011](COMP%202011/index.md)
+- [COMP 2012](COMP%202012/index.md)
+- [COMP 2211](COMP%202211/index.md)
+- [COMP 2611](COMP%202611/index.md)
+- [COMP 2633](COMP%202633/index.md)
+- [COMP 2711H](COMP%202711H/index.md)
+- [COMP 3021](COMP%203021/index.md)
+- [COMP 3031](COMP%203031/index.md)
+- [COMP 3111H](COMP%203111H/index.md)
+- [COMP 3211](COMP%203211/index.md)
+- [COMP 3511](COMP%203511/index.md)
+- [COMP 3633](COMP%203633/index.md)
+- [COMP 4211](COMP%204211/index.md)
+- [COMP 4321](COMP%204321/index.md)
+- [COMP 4900](COMP%204900/index.md)
+- [DASC 2210](DASC%202210/index.md)
+- [ECON 2103](ECON%202103/index.md)
+- [ELEC 1100](ELEC%201100/index.md)
+- [ELEC 1200](ELEC%201200/index.md)
+- [ELEC 2100](ELEC%202100/index.md)
+- [ELEC 4110](ELEC%204110/index.md)
+- [ENGG 1400](ENGG%201400/index.md)
+- [ENGG 2010](ENGG%202010/index.md)
+- [ESST](ESST/index.md)
+- [FINA 2303](FINA%202303/index.md)
+- [FINA 3103](FINA%203103/index.md)
+- [FINA 3203](FINA%203203/index.md)
+- [FINA 3810](FINA%203810/index.md)
+- [GNED 2510](GNED%202510/index.md)
+- [HUMA 3810](HUMA%203810/index.md)
+- [ISDN 0003](ISDN%200003/index.md)
+- [ISOM 2020](ISOM%202020/index.md)
+- [ISOM 2600](ISOM%202600/index.md)
+- [ISOM 2700](ISOM%202700/index.md)
+- [LANG 1403A](LANG%201403A/index.md)
+- [MATH 1013](MATH%201013/index.md)
+- [MATH 1014](MATH%201014/index.md)
+- [MATH 2023](MATH%202023/index.md)
+- [MATH 2411](MATH%202411/index.md)
+- [MATH 2431](MATH%202431/index.md)
+- [PHYS 1002](PHYS%201002/index.md)
+- [PHYS 1112](PHYS%201112/index.md)
+- [PHYS 1314](PHYS%201314/index.md)
+- [Robotics Team](Robotics%20Team/index.md)
+- [TEMG 1010](TEMG%201010/index.md)
+- [TEMG 3950](TEMG%203950/index.md)
+- [reviews.md](reviews.md)
 
 ## courses
 
@@ -64,7 +121,7 @@ tags:
 - [COMP 2711H](COMP%202711H/index.md): Honors Discrete Mathematical Tools for Computer Science (4 credits)
 - [COMP 3021](COMP%203021/index.md): Java Programming (3 credits)
 - [COMP 4633](COMP%204633/index.md): Competitive Programming in Cybersecurity III (2 credits)
-- [COMP 4900](COMP%204900/index.md) \(recurrent\): Academic and Professional Development \(0 credits\)
+- [COMP 4900](COMP%204900/index.md) (recurrent): Academic and Professional Development (0 credits)
 - [ECON 2103](ECON%202103/index.md): Principles of Microeconomics (3 credits)
 - [EMIA 2010A](EMIA%202010A/index.md): Cross-disciplinary Seminar (0 credits)
 - [ENGG 1400](ENGG%201400/index.md): Designing Your Life for Engineering Students (1 credit)
@@ -75,39 +132,37 @@ tags:
 
 ### 2025 spring
 
-- [COMP 4900](COMP%204900/index.md) \(recurrent\): Academic and Professional Development \(0 credits\)
+- [COMP 4900](COMP%204900/index.md) (recurrent): Academic and Professional Development (0 credits)
 
 ### 2025 summer
 
-- [ELEC 1200](ELEC%201200/index.md): A System View of Communications: from Signals to Packets \(4 credits\)
-- ISOM 2010: Introduction to Information Systems \(3 credits\)
+- [ELEC 1200](ELEC%201200/index.md): A System View of Communications: from Signals to Packets (4 credits)
+- ISOM 2010: Introduction to Information Systems (3 credits)
     - transferred: [Korea University](../Korea%20University/index.md): [ISC213](../Korea%20University/ISC213/index.md): Introduction to Management Information Systems
 
 ### 2025 fall
 
-- [ACCT 3010](ACCT%203010/index.md): Financial Accounting I \(3 credits\)
-- [BIEN 3300](BIEN%203300/index.md): Data Science for Molecular Engineering \(3 credits\)
-- [COMP 3031](COMP%203031/index.md): Principles of Programming Languages \(3 credits\)
-- [COMP 3111H](COMP%203111H/index.md): Honors Software Engineering \(4 credits\)
-- [COMP 4900](COMP%204900/index.md) \(recurrent\): Academic and Professional Development \(0 credits\)
-- [FINA 3103](FINA%203103/index.md): Intermediate Investments \(3 credits\)
-- [FINA 3203](FINA%203203/index.md): Derivative Securities \(3 credits\)
-- [FINA 3810](FINA%203810/index.md): Bloomberg Market Concepts Certification \(0 credits\)
+- [ACCT 3010](ACCT%203010/index.md): Financial Accounting I (3 credits)
+- [BIEN 3300](BIEN%203300/index.md): Data Science for Molecular Engineering (3 credits)
+- [COMP 3031](COMP%203031/index.md): Principles of Programming Languages (3 credits)
+- [COMP 3111H](COMP%203111H/index.md): Honors Software Engineering (4 credits)
+- [COMP 4900](COMP%204900/index.md) (recurrent): Academic and Professional Development (0 credits)
+- [FINA 3103](FINA%203103/index.md): Intermediate Investments (3 credits)
+- [FINA 3203](FINA%203203/index.md): Derivative Securities (3 credits)
+- [FINA 3810](FINA%203810/index.md): Bloomberg Market Concepts Certification (0 credits)
 
 ### 2026 spring
 
-- [ACCT 3020](ACCT%203020/index.md): Financial Accounting II \(3 credits\)
-- [COMP 4211](COMP%204211/index.md): Machine Learning \(3 credits\)
-- [ELEC 1100](ELEC%201100/index.md): Introduction to Electro-Robot Design \(4 credits\)
-- [ELEC 2100](ELEC%202100/index.md): Signals and Systems \(4 credits\)
-- [HUMA 3810](HUMA%203810/index.md): Taoism and the Chinese Tradition \(3 credits\)
-- [MATH 2431](MATH%202431/index.md): Honors Probability \(4 credits\)
+- [ACCT 3020](ACCT%203020/index.md): Financial Accounting II (3 credits)
+- [COMP 4211](COMP%204211/index.md): Machine Learning (3 credits)
+- [ELEC 1100](ELEC%201100/index.md): Introduction to Electro-Robot Design (4 credits)
+- [ELEC 2100](ELEC%202100/index.md): Signals and Systems (4 credits)
+- [HUMA 3810](HUMA%203810/index.md): Taoism and the Chinese Tradition (3 credits)
+- [MATH 2431](MATH%202431/index.md): Honors Probability (4 credits)
 
 ### 2026 fall
 
 - [COMP 3511](COMP%203511/index.md): Operating Systems (3 credits)
-
-<!-- future term sections should be inserted above this comment in strict chronological order -->
 
 ## groups
 
