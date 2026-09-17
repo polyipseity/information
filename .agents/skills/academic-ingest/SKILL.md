@@ -103,7 +103,7 @@ Document-like formats are NOT opaque. For every document input, run dual extract
    - __Attachment document__: The document ACCOMPANIES course material (prompt PDF, reference data, supplementary reading). Disposition: original → `attachments/`; page images → `attachments/pages/` only when visual content needs inline reference; extracted text → used during agent processing but not persisted as a separate `.md` (the original is canonical).
    - __When ambiguous__: Ask the user — "Is this document the course content itself, or a file that accompanies the content?"
 
-5. __Ensure `.gitignore`__: When creating an `.extracted/` folder for the first time in a directory, create or update a `.gitignore` in that directory to ignore `.extracted/`. Check for existing pattern before appending.
+5. __Ensure `.gitignore`__: When creating an `.extracted/` folder, create a `.gitignore` inside it containing `*` to ignore all cached contents. This prevents extraction outputs from being committed.
 
 ### Directory ingestion
 

@@ -62,9 +62,9 @@ attachments/
 └── ...
 ```
 
-`.extracted/` is a derived artifact — not tracked in `index.md` `## children`, not linked from content files. The agent checks `manifest.json` (source hash) before re-extracting. A `.gitignore` containing `.extracted/` must exist in the parent directory to prevent caching artifacts from being committed.
+`.extracted/` is a derived artifact — not tracked in `index.md` `## children`, not linked from content files. The agent checks `manifest.json` (source hash) before re-extracting. A `.gitignore` inside `.extracted/` containing `*` prevents cached contents from being committed.
 
-When creating `.extracted/` in `attachments/` for the first time, ensure `attachments/.gitignore` exists with `.extracted/` entry. This prevents extraction caches from being committed.
+When creating `.extracted/`, create `.extracted/.gitignore` with content `*` to ignore all cached outputs.
 
 #### Linking
 
