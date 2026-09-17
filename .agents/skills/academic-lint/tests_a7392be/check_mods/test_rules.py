@@ -30,9 +30,11 @@ from main_mods.rules import (
     find_math_spans,
     flashcard_tag_unique,
     folder_link_trailing_slash,
+    header_deep_nesting,
     header_flashcard_presence,
     header_flashcard_sections_duplicate,
     header_flashcard_separator,
+    header_source_layout,
     header_style,
     html_br_mid_line,
     index_canvas_metadata_iso_datetime,
@@ -2781,3 +2783,102 @@ def test_html_br_mid_line_skips_code():
     txt2 = "Use `" + "<br/>" + "` in HTML\n"
     ctx2 = make_ctx(txt2)
     assert not html_br_mid_line(ctx2)
+
+
+def test_header_source_layout_flags_source_units():
+    """Source-structural headings must be flagged; concept headings must not."""
+
+    flagged = (
+        "## part 2\n\n"
+        "## chapter 3\n\n"
+        "## slide 12\n\n"
+        "## week 2\n\n"
+        "## summary\n\n"
+        "## misc\n"
+    )
+    msgs = header_source_layout(make_ctx(flagged, path=Path("/tmp/course/topic.md")))
+    assert [m.rule_id for m in msgs] == ["header_source_layout"] * 6
+    assert all(m.severity == Severity.WARNING for m in msgs)
+    assert "sub-concept" in msgs[0].msg
+
+    clean = (
+        "## history and adoption\n\n"
+        "## deployment models\n\n"
+        "## storage units and notation\n\n"
+        "## non-uniform memory access\n\n"
+        "## definitions\n\n"
+        "## references\n\n"
+        "## 1\n"
+    )
+    assert not header_source_layout(make_ctx(clean, path=Path("/tmp/course/topic.md")))
+
+
+def test_header_source_layout_exempt_files():
+    """Index, AGENTS, session, and question files keep source-shaped headings."""
+
+    txt = "## overview\n\n## week 1 lecture\n\n### 2026 fall\n\n## summary\n"
+    assert not header_source_layout(make_ctx(txt, path=Path("/tmp/course/index.md")))
+    assert not header_source_layout(make_ctx(txt, path=Path("/tmp/course/AGENTS.md")))
+    assert not header_source_layout(
+        make_ctx(txt, path=Path("/tmp/course/lab 1/lab.md"))
+    )
+    assert not header_source_layout(
+        make_ctx(txt, path=Path("/tmp/course/questions.md"))
+    )
+    assert not header_source_layout(
+        make_ctx("## summary\n", path=Path("/tmp/course/questions/quiz.md"))
+    )
+
+
+def test_header_deep_nesting_flags_fourth_level():
+    """Four or more heading levels need justification; three levels do not."""
+
+    file = Path("/tmp/course/topic.md")
+    msgs = header_deep_nesting(make_ctx("#### sub\n", path=file))
+    assert msgs and msgs[0].rule_id == "header_deep_nesting"
+    assert msgs[0].severity == Severity.WARNING
+    assert "header_deep_nesting" in msgs[0].msg
+
+    assert not header_deep_nesting(make_ctx("## section\n\n### sub\n", path=file))
+    assert not header_deep_nesting(
+        make_ctx("#### sub\n", path=Path("/tmp/course/index.md"))
+    )
+
+
+@pytest.mark.anyio
+async def test_header_deep_nesting_justification_suppresses(tmp_path: PathLike[str]):
+    """The documented suppression comment justifies a four-level heading."""
+
+    front = (
+        "---\naliases: [a]\ntags: [language/in/English, "
+        "flashcard/active/special/academia/test]\n---\n"
+    )
+    justified = (
+        front
+        + "#### sub "
+        + html_cpt("check: ignore-line[header_deep_nesting]: one concept")
+    )
+    file = Path(tmp_path) / "justified.md"
+    await file.write_text(justified + "\n")
+    assert not any(
+        m.rule_id == "header_deep_nesting" for m in await check_markdown_file(file)
+    )
+
+    unjustified = front + "#### sub\n"
+    file2 = Path(tmp_path) / "unjustified.md"
+    await file2.write_text(unjustified)
+    assert any(
+        m.rule_id == "header_deep_nesting" for m in await check_markdown_file(file2)
+    )
+
+    # The preceding line justifies the heading through ignore-next-line.
+    next_line = (
+        front
+        + html_cpt("check: ignore-next-line[header_deep_nesting]: one concept")
+        + "\n#### sub\n"
+    )
+    file3 = Path(tmp_path) / "next-line.md"
+    await file3.write_text(next_line)
+    assert not any(
+        m.rule_id == "header_deep_nesting" for m in await check_markdown_file(file3)
+    )

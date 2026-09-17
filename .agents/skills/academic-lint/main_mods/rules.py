@@ -1690,6 +1690,128 @@ def header_flashcard_sections_duplicate(
     return errors
 
 
+# source-layout heading detection -----------------------------------------------
+
+"""Match numbered source units such as ``part 2``, ``chapter 3:``, or ``slide 12``.
+A source unit is a delivery format, not a concept, so it must not name a section."""
+_SOURCE_UNIT_HEADING_RE = re.compile(
+    r"^(?:part|chapter|section|unit|slide|slides|page|pages|lecture|tutorial|lab|week)\s*\d",
+    re.IGNORECASE,
+)
+
+"""Standalone headings that carry no concept of their own.
+
+Conservative by design: only pure lecture scaffolding and bare catch-all labels
+are listed. Nouns such as ``definitions``, ``references``, or ``introduction``
+are legitimate section names in concept notes (essays, definition notes), so a
+warning there would be noise. Prose guidance is stricter than this rule.
+"""
+_BARE_SOURCE_LABELS = frozenset(
+    {
+        "summary",
+        "recap",
+        "objectives",
+        "outline",
+        "appendix",
+        "misc",
+        "miscellaneous",
+        "other",
+        "other topics",
+    }
+)
+
+
+def _source_layout_exempt(ctx: ValidationContext) -> bool:
+    """Return whether a file legitimately groups its content by source structure.
+
+    Index pages, AGENTS files, session files (``lab``/``tutorial``/``lecture``),
+    ``questions.md``, and question directories mirror or quote their source, so
+    source-shaped headings are allowed there. Concept files are not exempt.
+    """
+    name = ctx.path.name.lower()
+    parent_parts = [part.casefold() for part in ctx.path.parts[:-1]]
+    return (
+        name
+        in {
+            "index.md",
+            "agents.md",
+            "lab.md",
+            "tutorial.md",
+            "lecture.md",
+            "questions.md",
+        }
+        or "questions" in parent_parts
+    )
+
+
+@RULE_REGISTRY.register()
+def header_source_layout(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Warn when a heading names a source unit instead of a sub-concept.
+
+    Notes are grouped by concept: a chapter, lecture, slide, or page number is a
+    delivery format, not a section. Headings must name the sub-concept they carry,
+    and lecture apparatus (objectives, recaps, summaries) belongs to the course
+    index instead.
+    """
+    errors: list[ValidationMessage] = []
+    if _source_layout_exempt(ctx):
+        return errors
+    for m in _iter_regex_headings_filtered_by_ast(ctx.text, ctx.ast, min_level=2):
+        raw_text = m.group(2).strip()
+        label = _normalize_heading_text(raw_text).rstrip(".:-–— ").strip()
+        if not (_SOURCE_UNIT_HEADING_RE.match(label) or label in _BARE_SOURCE_LABELS):
+            continue
+        line, col, col_end = locate_range(ctx.text, m.start(), len(m.group(0)))
+        errors.append(
+            ValidationMessage(
+                rule_id="header_source_layout",
+                msg=(
+                    f"heading {raw_text!r} names a source unit, not a sub-concept; "
+                    "name the section after the concept it carries, and move lecture "
+                    "apparatus (objectives, recaps, summaries) to the "
+                    "course index — see 'Grouping: concepts, not source layout' in "
+                    "academic-crud-topic-note"
+                ),
+                severity=Severity.WARNING,
+                line=line,
+                col=col,
+                col_end=col_end,
+            )
+        )
+    return errors
+
+
+@RULE_REGISTRY.register()
+def header_deep_nesting(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Warn when a heading nests four or more levels deep without justification.
+
+    Deep nesting usually means the file boundary is wrong: split the note into
+    separate topic notes instead of nesting further. A justified exception is
+    declared with a ``check: ignore-line[header_deep_nesting]`` suppression
+    comment, which the validator applies centrally.
+    """
+    errors: list[ValidationMessage] = []
+    if _source_layout_exempt(ctx):
+        return errors
+    for m in _iter_regex_headings_filtered_by_ast(ctx.text, ctx.ast, min_level=4):
+        line, col, col_end = locate_range(ctx.text, m.start(), len(m.group(0)))
+        errors.append(
+            ValidationMessage(
+                rule_id="header_deep_nesting",
+                msg=(
+                    f"heading {m.group(2).strip()!r} is nested four or more levels deep; "
+                    "split the note into separate topic notes, or justify the depth with "
+                    + html_cpt("check: ignore-line[header_deep_nesting]: <reason>")
+                ),
+                severity=Severity.WARNING,
+                line=line,
+                col=col,
+                col_end=col_end,
+            )
+        )
+    return errors
+
+
 # flashcard calculation sanity -------------------------------------------------
 
 
