@@ -103,7 +103,7 @@ Before {@{the scattering event}@}, the electron is {@{treated as sufficiently cl
 
 | (annotation: {@{the first expression}@} for {@{the magnitude of the momentum of the scattered electron}@}) |                               |
 | ---------------------------------------------------------------------------------------------------------- | ----------------------------- |
-| {@{$$p_{ {\text{e} }'}^{\,2}c^{2}=(hf-hf'+m_{\text{e} }c^{2})^{2}-m_{\text{e} }^{2}c^{4}.$$}@}             | __<a id="math 1"></a> \(1\)__ |
+| {@{$$p_{ {\text{e} }'}^{\,2}c^{2}=(hf-hf'+m_{\text{e} }c^{2})^{2}-m_{\text{e} }^{2}c^{4}.$$}@}             | <a id="math 1"></a> __\(1\)__ |
 
 Note that this {@{magnitude of the momentum gained by the electron \(formerly zero\)}@} exceeds {@{the energy/<!-- markdown separator -->_c_ lost by the photon}@}, {@{$${\frac {1}{c} }{\sqrt {(hf-hf'+m_{\text{e} }c^{2})^{2}-m_{\text{e} }^{2}c^{4} } }>{\frac {hf-hf'}{c} }~.$$}@} Equation \(1\) relates {@{the various energies associated with the collision}@}. {@{The electron's momentum change}@} involves {@{a relativistic change in the energy of the electron}@}, so it is not {@{simply related to the change in energy occurring in classical physics}@}. {@{The change of the magnitude of the momentum of the photon}@} is not {@{just related to the change of its energy}@}; it also involves {@{a change in direction}@}.
 
@@ -111,19 +111,19 @@ Solving {@{the conservation of momentum expression}@} for {@{the scattered elect
 
 | (annotation: {@{the second expression}@} for {@{the magnitude of the momentum of the scattered electron}@}) |                               |
 | ----------------------------------------------------------------------------------------------------------- | ----------------------------- |
-| {@{$$p_{e'}^{\,2}c^{2}=(hf)^{2}+(hf')^{2}-2(hf)(hf')\cos {\theta }~.$$}@}                                   | __<a id="math 2"></a> \(2\)__ |
+| {@{$$p_{e'}^{\,2}c^{2}=(hf)^{2}+(hf')^{2}-2(hf)(hf')\cos {\theta }~.$$}@}                                   | <a id="math 2"></a> __\(2\)__ |
 
 Equating {@{the alternate expressions for this momentum (annotation: of the scattered electron)}@} gives {@{$$(hf-hf'+m_{\text{e} }c^{2})^{2}-m_{\text{e} }^{\,2}c^{4}=\left(hf\right)^{2}+\left(hf'\right)^{2}-2h^{2}ff'\cos {\theta },$$}@} which, after evaluating {@{the square and canceling and rearranging terms}@}, further yields {@{$$2hfm_{\text{e} }c^{2}-2hf'm_{\text{e} }c^{2}=2h^{2}ff'\left(1-\cos \theta \right).$$}@} Dividing {@{both sides by 2<!-- markdown separator -->_hff_′<!-- markdown separator -->_m_<sub>e</sub>_c_}@} yields {@{$${\frac {c}{f'} }-{\frac {c}{f} }={\frac {h}{m_{\text{e} }c} }\left(1-\cos \theta \right).$$}@} Finally, since {@{_fλ_ = _f_′<!-- markdown separator -->_λ_′ = _c_}@},
 
 | (annotation: {@{the Compton scattering formula}@})                            |                               |
 | ----------------------------------------------------------------------------- | ----------------------------- |
-| {@{$$\lambda '-\lambda ={\frac {h}{m_{\text{e} }c} }(1-\cos {\theta })~.$$}@} | __<a id="math 3"></a> \(3\)__ |
+| {@{$$\lambda '-\lambda ={\frac {h}{m_{\text{e} }c} }(1-\cos {\theta })~.$$}@} | <a id="math 3"></a> __\(3\)__ |
 
 It can further be seen that {@{the angle _φ_ of the outgoing electron}@} with {@{the direction of the incoming photon}@} is specified by
 
 | (annotation: {@{the angle _φ_ of the outgoing electron}@} with {@{the direction of the incoming photon}@})                                                                                                                             |                               |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------- |
-| {@{$$\cot \varphi =\left(1+{\frac {hf}{m_{\text{e} }c^{2} } }\right)\tan(\theta /2)~.$$}@} (annotation: derive directly from {@{the Compton scattering formula}@} by first considering {@{conservation of momentum and then energy}@}) | __<a id="math 4"></a> \(4\)__ |
+| {@{$$\cot \varphi =\left(1+{\frac {hf}{m_{\text{e} }c^{2} } }\right)\tan(\theta /2)~.$$}@} (annotation: derive directly from {@{the Compton scattering formula}@} by first considering {@{conservation of momentum and then energy}@}) | <a id="math 4"></a> __\(4\)__ |
 
 ## applications
 

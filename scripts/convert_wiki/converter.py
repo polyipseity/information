@@ -1120,7 +1120,7 @@ class WikiHtmlConverter:
                 ancestor.get_attribute_list("class")
             ):
                 continue
-            if bold and cls._is_list_only(ancestor):
+            if bold and (cls._is_list_only(ancestor) or cls._has_list_child(ancestor)):
                 continue
             style = str(ancestor.get("style", ""))
             if bold:
@@ -1176,6 +1176,21 @@ class WikiHtmlConverter:
             for child in children
         )
 
+    @classmethod
+    def _has_list_child(cls, ele: Tag) -> bool:
+        """Return whether *ele* contains at least one direct list child.
+
+        Used alongside ``_is_list_only`` for emphasis propagation: when a
+        bold container has both list and non-list children (e.g. a portal-bar
+        with a header ``<span>`` + ``<ul>``), emphasis must be pushed inward
+        to individual list items and non-list children rather than wrapping
+        the whole block.
+        """
+        return any(
+            isinstance(child, Tag) and child.name in _LIST_TAGS
+            for child in ele.children
+        )
+
     def _bold_list_items(self, ele: Tag) -> None:
         """Wrap every list item's content in ``<b>`` so bold survives."""
         for list_ele in ele.find_all(list(_LIST_TAGS)):
@@ -1223,6 +1238,35 @@ class WikiHtmlConverter:
             # the whole list (which would leave ``- `` markers inside ``__``).
             self._bold_list_items(ele)
             bold = False
+        if bold and self._has_list_child(ele):
+            # Emphasis propagation past Markdown constraints: a bold container
+            # with both list and non-list children (e.g. portal-bar with a
+            # header ``<span>`` + ``<ul>``) cannot wrap the whole block in
+            # ``__...__`` because that would leave ``- `` markers inside the
+            # emphasis span.  Push bold inward: bold each list item's content
+            # and wrap non-list direct children (e.g. the header) in ``<b>``.
+            self._bold_list_items(ele)
+            for child in list(ele.children):
+                if isinstance(child, Tag) and child.name not in _LIST_TAGS:
+                    TableConverter._wrap_children(child, self._soup, "b")
+            bold = False
+            # Apply blockquote wrapping: emphasis is already at content level,
+            # blockquote wraps outside.  ``process_strings`` runs on inner
+            # content BEFORE prefix/suffix, so ``> `` wraps the inner content
+            # and the (empty) prefix stays outside.
+            config = _HandlerConfig(prefix="", suffix="\n\n")
+
+            def _portal_blockquote_process(strings: str) -> str:
+                """Wrap portal-bar content lines in blockquote prefix."""
+                lines = strings.strip().split("\n")
+                result: list[str] = []
+                for line in lines:
+                    stripped = line.strip()
+                    result.append(f"> {stripped}" if stripped else ">")
+                return "\n".join(result)
+
+            config.process_strings = _portal_blockquote_process
+            return config
         if bold and self._has_emphasis_ancestor(ele, bold=True):
             bold = False
         if italic and self._has_emphasis_ancestor(ele, bold=False):
