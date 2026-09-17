@@ -68,6 +68,42 @@ aliases:
   - DFT
 ```
 
+## Grouping: concepts, not source layout
+
+File and section boundaries come from the concepts, never from the shape of the ingested material. A deck, a chapter, a page range, and a lecture are delivery formats, not concepts: they determine what content exists, never how it is grouped or named.
+
+### Files are concepts
+
+- The unit of a note is a concept with a canonical title and a body that stands on its own — never a source unit.
+- Never name or bound a file after its source: no `lecture 3`, `chapter 1`, `part 2`, `slides 20-37`, `introduction`, `definitions`, `misc`, `other topics`, or `summary`.
+- __Merge test__ — one note when the parts share a single canonical title, when neither can be explained without the other, or when they are one concept seen from two angles (a mechanism and its motivation or failure modes).
+- __Split test__ — separate notes when they answer different canonical-title questions, when their prerequisites differ, or when their sections would not cohere under a single concept. Independent linkability is supporting evidence, never the deciding test.
+- __When the tests conflict, the canonical-title test decides.__ One canonical title means one note: that another note might link to a section does not by itself justify a file, or every section would become one.
+- Regrouping moves boundaries; it never drops facts. Every source fact lands in exactly one note, with its flashcards.
+- The file set has no order. Teaching order lives only in the course `index.md` — the `## overview` topic-to-file mapping and the session entries.
+- New material about an existing concept routes to Update (see Create below). A source never produces a file named after itself, and a five-concept source produces five notes, not one lecture summary.
+
+### Sections are sub-concepts
+
+- A `##` heading names a sub-concept of the note's own concept, in sentence case — never a source unit, slide title, page number, or source-structural label.
+- Rename every source heading to the sub-concept it carries: `Why Does Caching Work? - Locality` → `locality of reference`, `a bit history` → `history and adoption`.
+- A section must not restate the note's own concept: `## caching` inside `cache (computing)` and `## hierarchy of storage` inside `memory hierarchy` repeat the H1. Give the section a genuine sub-aspect the title does not already claim, or drop the heading and keep the material as the note's unheaded intro prose with its flashcard block.
+- Section boundaries may cross source boundaries in both directions: merge material that answers one question, split material that answers several.
+- Lecture apparatus is never a section: objectives, outline, recap or summary, announcements, references, and question lists belong to the course `index.md`, not to a concept note.
+- The sections must partition the concept — each answers one question, along parallel axes, with no leftover other section.
+- Order sections by the concept's own logic: definition, then mechanism, then variants, limits, and examples. Coinciding with the source's order is fine; the source's order is never the justification.
+
+### Nesting is always decided
+
+Decide nesting explicitly while planning the note. Do not inherit the source's depth, and do not default to flat.
+
+- __Nest__ (`###`) when a section carries two or more independently meaningful sub-concepts: a classification with co-equal variants, per-case breakdowns (modes, models, layers), separate derivations or worked examples, or sub-topics a reader would link to on their own.
+- __Do not nest__ when the sub-topics read better as prose or a short list, when it would produce exactly one `###` (fold it back), or when the only reason is the source's layout.
+- __Tiebreaker__: nest when each variant needs its own explanation and its own flashcards; stay flat when each variant is a line or two and they share the section's single flashcard block. Three or more co-equal variants that each carry recallable facts normally nest.
+- __Depth__: `###` freely. `####` when it names a distinct sub-sub-concept of a `###` and splitting the note instead would fragment one concept, justified inline with `<!-- check: ignore-line[header_deep_nesting]: <reason> -->`. `#####` and deeper are unsanctioned — they mean the file boundary is wrong, so split the note instead.
+- Every `###` and deeper carries its own `---` separator and its own `Flashcards for this section are as follows:` block, recursively.
+- Flat is a valid outcome for a concept with no sub-concepts — as a decision, never as a default.
+
 ## CRUD operations
 
 ### Create
@@ -84,6 +120,8 @@ aliases:
    - Examples, counterexamples, worked problems
    - Teaching caveats, distinctions, classifications
    - Mathematical spine: formula + derivation + intuition + worked example
+   - Decide the file boundary: one concept, per the merge and split tests in "Grouping: concepts, not source layout"
+   - Decide the sections and their nesting — never mirror the source's headings or depth
 
 4. __Scaffold note file:__
 
@@ -119,12 +157,23 @@ Flashcards for this section are as follows:
 
 - <concept> / <specific aspect> ::@:: <self-contained answer>
 - ...
+
+### <sub-concept heading>
+
+<Nested explanatory prose — only where the nesting criteria apply>
+
+---
+
+Flashcards for this section are as follows:
+
+- <concept> / <sub-concept aspect> ::@:: <self-contained answer>
+- ...
 ```
 
 1. __Flashcard generation:__
    - Use `::@::` (two-sided QA) format — NOT cloze `{@{ }@}`
    - Exception: accounting journal-entry worked examples may use cloze
-   - Each section AND subsection gets its own flashcard block
+   - Every `##`, `###`, and deeper heading gets its own `---` separator and its own flashcard block — never one block shared by a parent and its sub-sections
    - Group related cards with inline bold labels (e.g., `**superposition.**`)
    - Cards must be self-contained (restate givens, hypotheses, notation)
    - Overview card as first card in each section

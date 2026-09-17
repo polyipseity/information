@@ -11,6 +11,8 @@ Create, read, update, and delete submission-bound pages. Applies to `labs/`, `tu
 
 `<subdirectory>/<name>/index.md` + `attachments/` + `submission/` + `solution/`
 
+The `##` sections inside `lab.md`/`tutorial.md`/`lecture.md` group the session's content by sub-concept, not by the source's headings; the file names themselves stay session-bound. See "Grouping: concepts, not source layout" in `academic-crud-topic-note`.
+
 ## Dual-component model
 
 Labs, tutorials, and lectures can have __two__ Canvas submission components:

@@ -13,6 +13,8 @@ Create, read, update, and delete question pages. These are problems and exercise
 
 For multi-page question sets: `questions/<name>/index.md` with child pages.
 
+The `##` sections inside a question page group questions by concept or question type, not by the source's layout or ordering — see "Grouping: concepts, not source layout" in `academic-crud-topic-note`.
+
 ## CRUD operations
 
 ### Create

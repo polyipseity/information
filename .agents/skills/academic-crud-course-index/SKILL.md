@@ -173,12 +173,14 @@ A session entry records what that session taught. After the metadata, list each 
 - [operating system](operating%20system.md)
     - [§ what an operating system does](operating%20system.md#what%20an%20operating%20system%20does)
     - [§ kernel and system programs](operating%20system.md#kernel%20and%20system%20programs)
+        - [§ microkernel and monolithic kernel](operating%20system.md#microkernel%20and%20monolithic%20kernel)
 - [memory hierarchy](memory%20hierarchy.md)
     - [§ hierarchy of storage](memory%20hierarchy.md#hierarchy%20of%20storage)
 ```
 
 - __A file link alone is never enough.__ Link the sections as well.
 - __List only the sections the session's material created or expanded.__ A note spanning several sessions is linked under each of them, and each entry lists only its own sections — never the whole note.
+- __Link the deepest heading the session's material created or expanded.__ A `###` the session created nests one level (8 spaces) under its `##` bullet; link the `##` alone only when the session created the whole section.
 - __Anchor format__: the heading lowercased, spaces as `%20`, colons removed (`## Main memory` → `#main%20memory`). Never dash-slugs (`#main-memory`); the `link_anchor_slug` validator rule rejects them.
 - __Filename format__: spaces as `%20`, every other character literal (`cache%20(computing).md`).
 - Omit the section links only when the note has no `##` sections.
@@ -187,6 +189,7 @@ A session entry records what that session taught. After the metadata, list each 
 
 - After course list (`institution`, `name`, `credits`), insert `---` before description
 - Put `## children` first, then `## logistics`, then `## overview`
+- The `## overview` topic-to-file mapping maps concepts to notes, not source units or source order
 - Children order: AGENTS → assignments → questions → topics (chronological)
 - Session headings: see "Session ordering" above — each type repeats every week
 - Session body: list the note sections the session's material created or expanded (see "Session outline content: sections, not files")

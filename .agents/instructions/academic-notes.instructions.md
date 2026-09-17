@@ -39,6 +39,7 @@ For all academic material ingestion, start with the `academic-ingest` dispatcher
 - Prefer QA cards for topic notes; cloze only inside embedded accounting journal-entry worked examples.
 - Questions-page solutions use cloze `{@{ }@}`, not QA cards.
 - When changing a topic note, update its prose, flashcards, and every affected `index.md` section link in the same task.
+- Group notes and their sections by concept, never by the ingested material's layout: no note named after a lecture, chapter, or part, and no section named after a slide title. Decide nesting for every section (`###`, then `####` with justification) — see `../skills/academic-crud-topic-note/SKILL.md`.
 
 ## Reference
 

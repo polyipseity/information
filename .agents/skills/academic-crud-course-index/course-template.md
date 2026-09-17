@@ -79,6 +79,12 @@ Keep detailed policy, edge cases, and advanced note-writing rules in `SKILL.md`.
   official scope bullets, topic-to-file mapping, and short root-level notes.
 - Never record current status or progress (what has been ingested so far, what
   still remains); prefer less content whenever possible.
+- Name and bound every note by its concept, never by the source unit (no
+  `lecture 3`, `chapter 1`, `part 2`); decide file boundaries with the merge and
+  split tests in `academic-crud-topic-note`.
+- Name every section after its sub-concept, not after the source's heading or
+  slide title, and decide nesting (`###`, then `####` with justification) for
+  every section.
 - When turning lecture PDFs into topic notes, preserve the concrete teaching
   detail: explicit classifications, key formulas, named signal or system
   families, and representative examples or counterexamples from the source.

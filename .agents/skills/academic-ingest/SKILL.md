@@ -37,6 +37,8 @@ A course homepage that mentions "labs" as a grading component does NOT warrant c
 
 __Never write current status or provenance.__ What has been ingested so far, what still remains, and how a derived value was established all go stale on the next ingest. Omit them; prefer less content whenever possible.
 
+__Structure comes from the content, not the source.__ A source's layout never decides which notes or sections exist. Extracted text is raw material: its concepts define the file boundaries and the section boundaries, and its own headings are renamed to the sub-concepts they carry. A lecture deck must not produce a note about a lecture — see the merge and split tests in `academic-crud-topic-note`.
+
 ## Source file preservation
 
 __Hard rule: ingestion never deletes, moves, renames, or truncates a source file.__
