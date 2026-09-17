@@ -35,7 +35,44 @@ __When in doubt, create less.__ Scaffolding for future content (labs, assignment
 
 A course homepage that mentions "labs" as a grading component does NOT warrant creating a `labs/` directory.
 
-## Extraction output persistence
+## Source file preservation
+
+__Hard rule: ingestion never deletes, moves, renames, or truncates a source file.__
+
+The rule is about the __file__, not the folder. Sources arrive wherever the user put them — an ad-hoc ingest directory, a downloads folder, an attachments directory, a path passed on the command line, or a location outside the repository entirely. No location is privileged, special-cased, or exempt.
+
+- Leave every source byte-identical at its original path after ingestion completes.
+- Do not delete a source because its content was "not stored in the repository". "Not stored" means __not copied into the tracked content tree__ (`special/academia/...`). It never authorises deleting the original.
+- Do not move, rename, or truncate a source to tidy up, deduplicate, or mark it as processed.
+- `.extracted/` outputs are additions beside a source, never replacements for it. Never remove a source to "clean up" after extraction.
+- Disposing of ingested sources is the user's decision. If cleanup looks desirable, ask — do not act.
+
+## Convention authority
+
+Every ingestion convention lives in these skills and instructions. Do not infer a convention by inspecting another course's content — a sibling course may be wrong, stale, or atypical, and copying it propagates the error.
+
+When a convention is missing or ambiguous, say so and report it as a skill defect. Do not fill the gap by imitating content you found elsewhere in the repository, and do not invent a format.
+
+## Document extraction (mandatory)
+
+__Hard rule: run this before classifying anything.__ A document is not "read" until it has been extracted with the repository extractor:
+
+```bash
+uv run -m scripts.special.convert_document <input> <output_dir>
+```
+
+`<output_dir>` is the `.extracted/` folder described below. Extraction happens __in place, next to the source__, whether or not the source lives inside the repository.
+
+__Never substitute an ad-hoc extractor.__ `pdftotext`, a direct `pymupdf` call, `pdfplumber`, or any similar tool returns text only — no page images, no manifest, nothing to cache-check. These are not acceptable substitutes for `convert_document.py`, and using one is a skill violation even when the text looks correct.
+
+__Post-conditions__ — do not proceed to classification until all hold:
+
+- `text.md` exists and is nonempty
+- `pages/` holds one image per page/slide
+- `manifest.json` records the source SHA-256, format, page count, and timestamp
+- The recorded page count matches the source document
+
+__Full coverage__: every page must be accounted for. Page text ends up in the note or its attachments; page images carrying figures the prose depends on are referenced from the note. A note that silently drops pages is an incomplete extraction, not a summary. If a source has no extractable text (scanned images only), say so explicitly and work from the page images.
 
 Document-like formats (PDF, DOCX, PPTX) produce extraction outputs that are persisted near the source:
 
@@ -50,7 +87,7 @@ Each `.extracted/` folder contains:
 
 __Cache check__: Before running `convert_document.py`, check if `.extracted/` exists with a valid `manifest.json` matching the source file's SHA-256 hash. If valid, reuse the cached extraction. Use `--force` to re-extract.
 
-`.extracted/` is a derived artifact — not tracked in `index.md` `## children`, not linked from content files. Safe to delete and re-extract.
+`.extracted/` is a derived artifact — not tracked in `index.md` `## children`, not linked from content files. Safe to delete and re-extract. This applies to `.extracted/` alone, never to the source document — see "Source file preservation".
 
 ## Input handling
 
@@ -67,7 +104,7 @@ Preprocess each input:
    - HTML: parse and extract readable text (see Source identification above)
    - Markdown: passthrough
    - Images: pass to vision model if vision-aware, otherwise describe limitations
-   - Documents (PDF, DOCX, PPTX): check `.extracted/` cache, run dual extraction via `convert_document.py` if needed, then classify role (content vs attachment) per "Document format handling"
+   - Documents (PDF, DOCX, PPTX): extract per "Document extraction (mandatory)", then classify role (content vs attachment) per "Document format handling"
 2. Extract metadata (Canvas URLs, dates, course codes from content)
 3. Normalize (strip HTML styling, extract plain text from PDFs)
 
@@ -82,32 +119,24 @@ Identify HTML source type before extraction:
 
 ### Document format handling (PDF, DOCX, PPTX)
 
-Document-like formats are NOT opaque. For every document input, run dual extraction before classification:
+Document-like formats are NOT opaque. Extraction is mandatory and runs before classification — see "Document extraction (mandatory)" for the command, the cache check, and the post-conditions. After extraction, classify the document:
 
-1. __Check for existing extraction__: Look for `<stem>.extracted/` (single file) or `.extracted/` (directory input). If `manifest.json` exists and matches the source hash, reuse cached output. Otherwise:
-
-2. __Dual extraction__ (always runs):
-
-   ```bash
-   uv run -m scripts.special.convert_document <input> <output_dir>
-   ```
-
-   Produces `<output_dir>/text.md` (extracted text) + `<output_dir>/pages/*.png` (page/slide images at 150 DPI) + `<output_dir>/manifest.json` (cache metadata).
-
-3. __Vision-awareness check__: Before processing, determine if the current model accepts image inputs. Check `PI_MODEL` and `PI_PROVIDER` environment variables.
+1. __Vision-awareness check__: Before processing, determine if the current model accepts image inputs. Check `PI_MODEL` and `PI_PROVIDER` environment variables.
    - __If vision-aware__: The agent can directly read page images to understand visual content (diagrams, formulas, handwritten annotations, layout). Use both text and images during classification and content extraction.
    - __If NOT vision-aware__: Rely on extracted text only. Page images are persisted in `.extracted/pages/` for future reference or manual review, but the agent cannot interpret them during ingestion.
 
-4. __Role classification__ (after extraction, before dispatch): Determine whether the document is __content__ or an __attachment__:
-   - __Content document__: The document IS the course material (lecture slides, topic notes, exam paper). Disposition: extracted text → `.md` file; page images → `attachments/pages/`; original file → not stored (the `.md` + images are canonical).
+2. __Role classification__ (after extraction, before dispatch): Determine whether the document is __content__ or an __attachment__:
+   - __Content document__: The document IS the course material (lecture slides, topic notes, exam paper). Disposition: extracted text → `.md` file; page images → `attachments/pages/`; original file → left in place at its original path, not copied into the repository (the `.md` + images are canonical).
    - __Attachment document__: The document ACCOMPANIES course material (prompt PDF, reference data, supplementary reading). Disposition: original → `attachments/`; page images → `attachments/pages/` only when visual content needs inline reference; extracted text → used during agent processing but not persisted as a separate `.md` (the original is canonical).
    - __When ambiguous__: Ask the user — "Is this document the course content itself, or a file that accompanies the content?"
 
-5. __Ensure `.gitignore`__: When creating an `.extracted/` folder, create a `.gitignore` inside it containing `*` to ignore all cached contents. This prevents extraction outputs from being committed.
+3. __Ensure `.gitignore`__: When creating an `.extracted/` folder, create a `.gitignore` inside it containing `*` to ignore all cached contents. This prevents extraction outputs from being committed.
 
 ### Directory ingestion
 
 When the input is a directory (or glob resolving to directories), scan recursively for supported file types. Group files by immediate parent directory — each subdirectory is a potential batch of related materials.
+
+For a multi-group input, follow `.agents/prompts/academic-ingest-batch.prompt.md` rather than working through files one at a time. That prompt is the single source of truth for the batch steps — do not restate them here.
 
 1. List all files recursively, filtering to supported extensions.
 2. Group by immediate parent directory.
@@ -115,7 +144,7 @@ When the input is a directory (or glob resolving to directories), scan recursive
 4. Report the detected groupings before proceeding:
 
 ```text
-Detected 5 groups in .pi/academic-ingest/:
+Detected 5 groups in <ingest directory>/:
   - "ELEC 1100 - quiz 0 (tutorial 1)" → 2 HTML files
   - "ELEC 1100 - quiz 1 (tutorial 2)" → 2 HTML files
   ...
@@ -255,6 +284,16 @@ Show at most __3 candidates__ per phase, each with a one-line description of why
 
 After determining the target type for a material, apply these steps before dispatch.
 
+### Topic note naming (mandatory when the target is a topic note)
+
+Fix the name before creating or renaming any `<topic>.md`. This is required, not stylistic — see "Topic note naming" in `academic-crud-topic-note` for the full rules.
+
+```bash
+uv run .agents/skills/academic-crud-topic-note/find_wikipedia.py "<concept>"
+```
+
+The filename stem and the H1 title are the same sentence-case string: `operating system`, never `Operating System`. No lint rule inspects the H1 title or the filename, so a title-case name passes validation silently.
+
 ### Missing data
 
 __Hard rule: always use `\[missing\]`.__ When a field is present but its value is unknown or unavailable during partial-info ingestion, write `\[missing\]` as the value. This is the ONLY acceptable placeholder. Never use:
@@ -310,17 +349,17 @@ When the target is a submission (lab, tutorial, lecture), look up the matching s
 
 ### Source file disposition
 
-After extracting content from HTML source files:
+After extracting content from a source file, the extracted material lands as follows. Nothing in this list authorises deleting or moving the source — see "Source file preservation".
 
 - Quiz questions → `tutorial.md` / `lab.md` / `lecture.md`
 - Grade metadata → `tutorial.yml` / `lab.yml` / `lecture.yml`
 - Canvas submission metadata → `submission.yml`
 - Canvas announcement body → course `index.md` session entry (blockquote)
 - Prompt PDFs, data files, images → `attachments/` (only actual media/data)
-- Original HTML files → not stored in the repository
+- Original HTML files → left in place at their original path; not copied into the repository
 - Original document files (PDF, DOCX, PPTX) — see role classification:
-    - Content documents: NOT stored (`.md` + page images are canonical); store original only if user requests provenance
-    - Attachment documents: `attachments/` (raw file for provenance and re-extraction)
+    - Content documents: original left in place; the `.md` and `attachments/pages/` images are the canonical copy; never deleted
+    - Attachment documents: copied into `attachments/` (raw file for provenance and re-extraction); source left in place
 - Extracted page images — `attachments/pages/<stem>/` (referenced from content when visual content matters)
 - Extracted text — content documents: `.md` file; attachment documents: ephemeral reference (original is canonical)
 - `.extracted/` folders — derived cache artifacts, not tracked in `index.md`
@@ -332,7 +371,7 @@ Do not copy extracted-content HTML into `attachments/`. The `attachments/` direc
 When extracting content from PRS/iClicker HTML, check for embedded base64 images (circuit diagrams, pinout diagrams, sensor illustrations). These are quiz-relevant assets and must be extracted:
 
 1. Scan the HTML for `data:image/...;base64,...` URIs.
-2. Discard tiny images (< 1 KB) — these are UI icons, not content.
+2. Skip tiny images (< 1 KB) — these are UI icons, not content.
 3. Keep substantial images (> 1 KB) — these are likely circuit diagrams or figures referenced by quiz questions.
 4. Use the original filename if available. If the image is a bare data URI with no filename, generate a descriptive filename reflecting the content (e.g., `req_circuit.jpg`, `l293_pinout.jpg`).
 5. Preserve original alt text from the `<img>` tag if present. If alt text is missing or empty, generate a concise, humanized description of what the image shows (e.g., "Resistor network with 6, 12, 3, and 2 ohm resistors"). Do not use LaTeX math notation in alt text — use plain language descriptions instead.

@@ -9,16 +9,24 @@ alwaysApply: false
 
 When ingesting multiple files from a directory, follow this workflow instead of processing files one-by-one.
 
+## 0. Preserve sources
+
+__Never delete, move, rename, or truncate a source file.__ Extraction reads a source; it never consumes it. "Not stored in the repo" means not copied into the tracked content tree — it is not permission to delete anything. Disposal is the user's decision.
+
+Document inputs (PDF, DOCX, PPTX) must be extracted with `uv run -m scripts.special.convert_document` per the `academic-ingest` skill. Do not substitute `pdftotext`, a direct `pymupdf` call, or `pdfplumber`.
+
 ## 1. Scan
 
 List all files recursively, group by immediate parent directory. Each subdirectory is a batch targeting one destination.
 
 ```text
-Detected 5 groups in .pi/academic-ingest/:
+Detected 5 groups in <ingest directory>/:
   - "ELEC 1100 - quiz 0 (tutorial 1)" → 2 HTML files
   - "ELEC 1100 - quiz 1 (tutorial 2)" → 2 HTML files
   ...
 ```
+
+The ingest directory is wherever the user placed the files. It is not fixed, and no location is privileged or exempt from the preservation rule above.
 
 ## 2. Identify
 
@@ -47,7 +55,7 @@ When multiple source types target the same directory, assign contributions:
 - PRS HTML → quiz content → `<type>.md`
 - Canvas HTML → grade metadata → `<type>.yml` (via `convert_canvas_submission`)
 - PDF prompt files → `attachments/` (only actual media/data)
-- Source HTML files → __discarded after extraction__ (not stored in repo)
+- Source HTML files → __left in place at their original path__ (not copied into the repo)
 
 ## 6. Create
 
