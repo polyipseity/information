@@ -103,6 +103,10 @@ tags:
 - [HUMA 3810](HUMA%203810/index.md): Taoism and the Chinese Tradition \(3 credits\)
 - [MATH 2431](MATH%202431/index.md): Honors Probability \(4 credits\)
 
+### 2026 fall
+
+- [COMP 3511](COMP%203511/index.md): Operating Systems (3 credits)
+
 <!-- future term sections should be inserted above this comment in strict chronological order -->
 
 ## groups
