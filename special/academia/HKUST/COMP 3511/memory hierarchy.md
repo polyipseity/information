@@ -12,6 +12,10 @@ tags:
 
 No single storage technology is fast, large, and cheap at once, so a computer carries several at once and organizes them into a hierarchy. Levels near the CPU are fast but small and expensive per unit; levels further down are slower, larger, and cheaper.
 
+The levels of the hierarchy differ in speed, cost per unit, capacity (size), and volatility. From top to bottom they are registers, cache, main memory, nonvolatile memory, hard-disk drives, optical disk, and magnetic tapes. Registers, cache, and main memory form primary storage; nonvolatile memory and hard-disk drives form secondary storage; optical disk and magnetic tapes form tertiary storage. Primary storage is volatile; everything below the main-memory boundary is non-volatile.
+
+The hierarchy is a trade-off: a level nearer the CPU is smaller and more expensive but much faster, while a level further down holds more data more cheaply and takes longer to reach. Each level holds only a fraction of the level below it, so the same bytes can sit at several levels at once; the copying that exploits this, and the access patterns that make it pay, are covered in [cache (computing)](cache%20(computing).md).
+
 ---
 
 Flashcards for this section are as follows:
@@ -21,22 +25,20 @@ Flashcards for this section are as follows:
 - top of the hierarchy ::@:: The levels closest to the CPU are more expensive and smaller, but much faster.
 - bottom of the hierarchy ::@:: Moving down the hierarchy, cost per unit decreases while access time and capacity increase.
 - volatility as a characteristic ::@:: The levels also differ in volatility, the contrast being non-volatile disk against volatile memory.
+- levels of the storage hierarchy ::@:: Registers, cache, main memory, nonvolatile memory, hard-disk drives, optical disk, and magnetic tapes, from closest to the CPU outwards.
+- why storage is organized in a hierarchy ::@:: No single storage technology is fast, large, and cheap at once, so a faster, smaller, more expensive level sits close to the CPU and a slower, larger, cheaper level holds the bulk of the data.
+- volatility across the levels ::@:: Registers, cache, and main memory are volatile storage, while nonvolatile memory, hard-disk drives, optical disks, and magnetic tapes are non-volatile.
+- subset relationship between levels ::@:: A higher level holds only a fraction of the content of the level below it, so the fast level serves the current working set while the slower level retains everything else.
 
-## hierarchy of storage
+## primary, secondary, and tertiary storage
 
-The levels of the hierarchy differ in speed, cost per unit, capacity (size), and volatility. From top to bottom they are registers, cache, main memory, nonvolatile memory, hard-disk drives, optical disk, and magnetic tapes. Registers, cache, and main memory form primary storage; nonvolatile memory and hard-disk drives form secondary storage; optical disk and magnetic tapes form tertiary storage. Primary storage is volatile; everything below the main-memory boundary is non-volatile.
-
-The hierarchy is a trade-off: a level nearer the CPU is smaller and more expensive but much faster, while a level further down holds more data more cheaply and takes longer to reach. Each level holds only a fraction of the level below it, so the same bytes can sit at several levels at once; the copying that exploits this, and the access patterns that make it pay, are covered in [cache (computing)](cache%20(computing).md).
+Registers, cache, and main memory form __primary storage__; nonvolatile memory and hard-disk drives form __secondary storage__; optical disk and magnetic tapes form __tertiary storage__. Primary storage is volatile; everything below the main-memory boundary is non-volatile.
 
 ---
 
 Flashcards for this section are as follows:
 
-- levels of the storage hierarchy ::@:: Registers, cache, main memory, nonvolatile memory, hard-disk drives, optical disk, and magnetic tapes, from closest to the CPU outwards.
-- why storage is organized in a hierarchy ::@:: No single storage technology is fast, large, and cheap at once, so a faster, smaller, more expensive level sits close to the CPU and a slower, larger, cheaper level holds the bulk of the data.
 - primary, secondary, and tertiary storage ::@:: Registers, cache, and main memory are primary storage; nonvolatile memory and hard-disk drives are secondary storage; optical disk and magnetic tapes are tertiary storage.
-- volatility across the levels ::@:: Registers, cache, and main memory are volatile storage, while nonvolatile memory, hard-disk drives, optical disks, and magnetic tapes are non-volatile.
-- subset relationship between levels ::@:: A higher level holds only a fraction of the content of the level below it, so the fast level serves the current working set while the slower level retains everything else.
 
 ## main memory
 
