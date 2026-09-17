@@ -31,6 +31,7 @@ Naming is a mandatory step, not a stylistic afterthought. It runs before scaffol
 - Hyphenation follows Wikipedia: `pulse-width modulation`.
 - When Wikipedia has no article for the concept, invent a sentence-case descriptive title and record it as an alias.
 - Aliases: the canonical title first, then synonyms and abbreviations.
+- The path-derived flashcard tag mirrors the filename: spaces and quote characters become `_` and every other character stays literal, parentheses included. `cache (computing).md` in `COMP 3511` needs the tag `flashcard/active/special/academia/HKUST/COMP_3511/cache_(computing)` — never normalize or strip the parentheses.
 
 | Correct | Wrong |
 | --- | --- |
@@ -39,7 +40,7 @@ Naming is a mandatory step, not a stylistic afterthought. It runs before scaffol
 | `pulse-width modulation` | `Pulse Width Modulation` |
 | `Kirchhoff's circuit laws` | `Kirchhoffs Circuit Laws` |
 
-Filenames on disk contain literal spaces (`operating system.md`); links encode them as `%20`.
+Filenames on disk contain literal spaces (`operating system.md`); links encode those spaces as `%20` and keep every other character literal: `- [cache (computing)](cache%20(computing).md)`.
 
 __Why this needs its own step:__ the `header_style` lint rule starts at heading level 2, so an H1 title is never checked, and no lint rule inspects filenames. A title-case name passes validation silently and can only be caught here.
 
@@ -179,7 +180,8 @@ Flashcards for this section are as follows:
    - Overview card as first card in each section
    - Preserve derivation/proof spine in cards
    - Split packed cards into focused units
-   - Lint suppression: `<!-- check: ignore-line[two_sided_calc_warning]: conceptual -->` on math cards
+   - Calculation cards must name every quantity they combine on the prompt side (e.g. `$\text{hit ratio}$`, `$\text{hit time}$`), so the card is answerable in isolation. Rewrite a two-sided card this way before reaching for a suppression (`two_sided_calc_warning`)
+   - Lint suppression: `<!-- check: ignore-line[two_sided_calc_warning]: conceptual -->` on math cards, only when the card is genuinely conceptual rather than computational
    - `<p>` for paragraph breaks in single-line source
    - No `<b>`/`</b>` — use `__` for bold
 
@@ -192,7 +194,7 @@ Flashcards for this section are as follows:
 
 3. __Update course index:__
    - Read the course `index.md` (`special/academia/<INSTITUTION>/<COURSE>/index.md`)
-   - Add the topic note to `## children` in alphabetical position among topic notes (after `assignments/`, `questions/`, `AGENTS`, and other non-topic entries)
+   - Add the topic note to `## children` in its sorted position: folders first, then files, Python string order within each group — see "Children format" in `academic-crud-index`
    - Determine which session heading the topic belongs to (e.g., `## week 3 lecture`). Use the session mapping rules below. If the session is unclear from the input, __ask the user__ which session(s) the topic should be linked under.
    - Under the matched session heading, add a link to the topic note with section anchors for each `##` section that this session's material created or expanded. A file link alone is never enough:
 
@@ -237,8 +239,9 @@ Use `\[missing\]` for absent values — for example, when a topic has no cross-r
 ## Style conventions
 
 - Lowercase headings except proper nouns (use `<!-- check: ignore-next-line[header_style]: proper noun -->`)
+- A `##` heading must not repeat the note's own H1 title (MD024). Merge that section's prose and flashcards into the unheaded intro under the H1 instead of renaming the heading.
 - `_italic_` and `__bold__` (not `*`/`**`)
-- KaTeX `$...$` (inline) and `$$...$$` (block) intact, on one source line
+- KaTeX `$...$` (inline) and `$$...$$` (block) intact, on one source line. A `$$...$$` block must share that line with the surrounding prose — never leave a display equation alone on its own line (`latex_not_standalone`)
 - Ordinals: `$k$-th` not `$k$th` (LaTeX renders without hyphen literally)
 - Distribution names: `\operatorname{Bin}`, `\operatorname{Exp}`, `\operatorname{Poi}`, etc.
 - Indicator functions: `\mathbf 1_A(x)` or `\mathbb 1_A(x)`

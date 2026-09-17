@@ -45,8 +45,19 @@ tags:
 
 - One bullet per child, linking to the child's `index.md` (for submission pages) or directly to the file (for question pages)
 - Submission leaf indexes may also link to in-class content files (`lab.md`, `tutorial.md`, `lecture.md`) as children when the in-class component exists
-- Use `%20` encoding for spaces in links
-- Order: chronological for sessions/assignments, alphabetical for topics
+- __Order__: folders first, then files. Within each group, sort by Python string order of the destination path — never chronological and never teaching order. The `index_children_order` rule enforces this; `AGENTS.md` sorts before `Arduino.md` because uppercase sorts first.
+- __Folder entries__: write both the link and the display text with a trailing slash (`- [assignments/](assignments/index.md)`, `- [attachments/](attachments/)`).
+- __Encoding__: encode spaces as `%20` and keep every other character literal, parentheses included. A note named `cache (computing).md` is linked as `- [cache (computing)](cache%20(computing).md)`.
+
+```markdown
+## children
+
+- [assignments/](assignments/index.md)
+- [questions/](questions/index.md)
+- [AGENTS](AGENTS.md)
+- [cache (computing)](cache%20(computing).md)
+- [cloud computing](cloud%20computing.md)
+```
 
 ## CRUD operations
 
@@ -74,9 +85,9 @@ Add, remove, or reorder child links.
 
 1. Read the current `index.md`.
 2. Apply changes:
-   - __Add:__ insert a new bullet in the correct position (chronological or alphabetical).
+   - __Add:__ insert a new bullet in the correct position — folders first, then files, Python string order within each group.
    - __Remove:__ delete the bullet and verify the child file still exists (or remove it too).
-   - __Reorder:__ reorder bullets to match the desired order.
+   - __Reorder:__ reorder bullets to match that order.
 3. Preserve frontmatter exactly. Only modify the `## children` section.
 
 ### Delete

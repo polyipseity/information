@@ -44,9 +44,9 @@ tags:
 
 ## children
 
+- [assignments/](assignments/index.md)
+- [questions/](questions/index.md)
 - [AGENTS](AGENTS.md)
-- [assignments](assignments/index.md)
-- [questions](questions/index.md)
 - [<topic 1>](<topic%201>.md)
 - ...
 
@@ -131,7 +131,7 @@ __Rules:__
 
 1. _Consistent types across weeks._ If week 1 has 2 lectures + 1 lab + 1 tutorial, every subsequent week has the same set of session types (unless marked `status: no class`).
 2. _Numbered suffixes for multiple sessions of the same type._ When there are N sessions of the same type in a week, use `## week N lecture`, `## week N lecture 2`, ..., `## week N lecture N`.
-3. _Chronological order within each week._ Within a single week, list sessions in day/time order: lecture first (earliest), then tutorial, then lab (or whatever the actual chronological order is).
+3. _Strictly increasing `datetime:` in file order._ Read top to bottom, each session heading's `datetime:` must be later than the previous one; the `session_datetime_order` rule enforces exactly that. Within a week this means day/time order — whichever session meets earliest comes first, regardless of its type.
 4. _Strict chronological order across weeks._ Week 2 sessions come after week 1 sessions. Never interleave weeks (e.g., `## week 1 lecture` → `## week 2 lecture` → `## week 3 lab` is WRONG if week 1 also has a lab).
 5. _Gap sessions._ If a session type does not meet in a particular week, mark it with `status: no class` or `status: public holiday: <name>` rather than omitting the heading.
 
@@ -190,7 +190,7 @@ A session entry records what that session taught. After the metadata, list each 
 - After course list (`institution`, `name`, `credits`), insert `---` before description
 - Put `## children` first, then `## logistics`, then `## overview`
 - The `## overview` topic-to-file mapping maps concepts to notes, not source units or source order
-- Children order: AGENTS → assignments → questions → topics (chronological)
+- Children order: folders first, then files, Python string order within each group — see "Children format" in `academic-crud-index`
 - Session headings: see "Session ordering" above — each type repeats every week
 - Session body: list the note sections the session's material created or expanded (see "Session outline content: sections, not files")
 - Session metadata: `datetime:`, `topic:`, `status:`, `assignment:`, `quiz:`
