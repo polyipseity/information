@@ -1243,10 +1243,12 @@ class WikiHtmlConverter:
             # with both list and non-list children (e.g. portal-bar with a
             # header ``<span>`` + ``<ul>``) cannot wrap the whole block in
             # ``__...__`` because that would leave ``- `` markers inside the
-            # emphasis span.  Push bold inward: bold each list item's content.
-            # Non-list children (e.g. the header) are left unbolded — the
-            # blockquote wrapper provides sufficient visual distinction.
+            # emphasis span.  Push bold inward: bold each list item's content
+            # and wrap non-list direct children (e.g. the header) in ``<b>``.
             self._bold_list_items(ele)
+            for child in list(ele.children):
+                if isinstance(child, Tag) and child.name not in _LIST_TAGS:
+                    TableConverter._wrap_children(child, self._soup, "b")
             bold = False
             # Apply blockquote wrapping: emphasis is already at content level,
             # blockquote wraps outside.  ``process_strings`` runs on inner
