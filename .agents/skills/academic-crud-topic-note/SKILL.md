@@ -11,22 +11,81 @@ Create, read, update, and delete standalone topic notes. These are concept-focus
 
 `special/academia/<INSTITUTION>/<COURSE>/<topic>.md`
 
+## Topic note naming
+
+The filename stem and the H1 title are the __same string__, and both are the canonical Wikipedia article title for the concept, written in __sentence case__ — capitalize only the first word plus genuine proper nouns, eponyms, and acronyms.
+
+Naming is a mandatory step, not a stylistic afterthought. It runs before scaffolding, because renaming a note afterwards also means fixing every link to it in the course `index.md`.
+
+### When to use
+
+- Creating __any__ topic note — always, to fix the filename and the H1 title. Not only for Wikipedia-sourced notes.
+- Creating a `transcludes/` entry for full Wikipedia content (see `academic-crud-transcludes`).
+- Verifying the canonical title or spelling of a concept before adding aliases.
+
+### Naming rules
+
+- Sentence case, not title case: `operating system`, not `Operating System`.
+- Prefer the Wikipedia form and number: `operating system`, not `Operating Systems` or `operating systems`.
+- Keep the casing of proper nouns, eponyms, acronyms, and product names: `Boolean algebra`, `Kirchhoff's circuit laws`, `Lisp`, `Scala 3`, `H-bridge`.
+- Hyphenation follows Wikipedia: `pulse-width modulation`.
+- When Wikipedia has no article for the concept, invent a sentence-case descriptive title and record it as an alias.
+- Aliases: the canonical title first, then synonyms and abbreviations.
+
+| Correct | Wrong |
+| --- | --- |
+| `operating system` | `Operating System` |
+| `introduction to operating systems` | `Introduction and OS Structures` |
+| `pulse-width modulation` | `Pulse Width Modulation` |
+| `Kirchhoff's circuit laws` | `Kirchhoffs Circuit Laws` |
+
+Filenames on disk contain literal spaces (`operating system.md`); links encode them as `%20`.
+
+__Why this needs its own step:__ the `header_style` lint rule starts at heading level 2, so an H1 title is never checked, and no lint rule inspects filenames. A title-case name passes validation silently and can only be caught here.
+
+### Discovering the canonical title
+
+```bash
+# Search for articles matching a query (default: 5 results)
+uv run .agents/skills/academic-crud-topic-note/find_wikipedia.py "Fourier transform"
+
+# Limit results
+uv run .agents/skills/academic-crud-topic-note/find_wikipedia.py --limit 3 "Bayes theorem"
+```
+
+`find_wikipedia.py` searches Wikipedia and returns canonical titles, URLs, and short descriptions. It finds the exact article title (avoiding redirects and disambiguation pages), gives the canonical spelling of a technical term, and surfaces related articles you may not have considered.
+
+Use the returned canonical title verbatim as both the filename stem (`<topic>.md`) and the H1 title (`# <topic>`).
+
+### Mapping output to frontmatter
+
+The canonical title is the primary alias, followed by synonyms and abbreviations:
+
+```yaml
+aliases:
+  - Fourier transform
+  - Fourier analysis
+  - DFT
+```
+
 ## CRUD operations
 
 ### Create
 
-1. __Classify incoming content:__
+1. __Determine the canonical title:__ run `find_wikipedia.py` and take the canonical article title verbatim as the filename stem and the H1 title — see "Topic note naming" above. Do this first; renaming later means fixing links in the course `index.md` too.
+
+2. __Classify incoming content:__
    - Duplicate of existing note → do not create; route to Update
    - Enhancement of existing note → route to Update
    - New concept → create new note
 
-2. __Extract content structure:__
+3. __Extract content structure:__
    - Key concepts, definitions, formulas, derivations
    - Examples, counterexamples, worked problems
    - Teaching caveats, distinctions, classifications
    - Mathematical spine: formula + derivation + intuition + worked example
 
-3. __Scaffold note file:__
+4. __Scaffold note file:__
 
 ```markdown
 ---
@@ -75,7 +134,14 @@ Flashcards for this section are as follows:
    - `<p>` for paragraph breaks in single-line source
    - No `<b>`/`</b>` — use `__` for bold
 
-2. __Update course index:__
+2. __Figures and diagrams:__
+   - When the source carries figures the prose depends on (slide diagrams, schematics, plots), extract page images per "Document extraction (mandatory)" in `academic-ingest`.
+   - Copy only the pages that matter into `attachments/pages/<stem>/`; do not copy the whole deck.
+   - Reference each from the section that uses it: `![<alt text>](attachments/pages/<stem>/page_007.png)`.
+   - Alt text is plain language describing what the figure shows — never LaTeX.
+   - Leave `.extracted/` alone; it is a cache, not an attachment source.
+
+3. __Update course index:__
    - Read the course `index.md` (`special/academia/<INSTITUTION>/<COURSE>/index.md`)
    - Add the topic note to `## children` in alphabetical position among topic notes (after `assignments/`, `questions/`, `AGENTS`, and other non-topic entries)
    - Determine which session heading the topic belongs to (e.g., `## week 3 lecture`). Use the session mapping rules below. If the session is unclear from the input, __ask the user__ which session(s) the topic should be linked under.
@@ -88,7 +154,7 @@ Flashcards for this section are as follows:
 
    - If the topic spans multiple sessions, add links under each relevant session
 
-3. __Validate:__ run `academic-lint` on the created file.
+4. __Validate:__ run `academic-lint` on the created file.
 
 ### Read
 
@@ -202,47 +268,6 @@ Under the session heading, after the existing content, add:
 ```
 
 Omit the indented section links if the topic has no `##` sections (single-section notes).
-
-## Wikipedia title discovery with `find_wikipedia.py`
-
-When creating topic notes from Wikipedia content, use `find_wikipedia.py` to discover canonical article titles. This ensures consistent naming and proper linking.
-
-### What it does
-
-`find_wikipedia.py` searches Wikipedia for articles matching a query and returns canonical titles, URLs, and short descriptions. It helps you:
-
-- Find the exact Wikipedia article title (avoiding redirects and disambiguation pages)
-- Discover related articles you may not have considered
-- Get the canonical spelling of technical terms
-
-### When to use
-
-- Creating a topic note that summarizes a Wikipedia article
-- Creating a `transcludes/` entry for full Wikipedia content (see `academic-crud-transcludes`)
-- Verifying the canonical title of a concept before creating aliases
-
-### How to use
-
-```bash
-# Search for articles matching a query (default: 5 results)
-uv run .agents/skills/academic-crud-topic-note/find_wikipedia.py "Fourier transform"
-
-# Limit results
-uv run .agents/skills/academic-crud-topic-note/find_wikipedia.py --limit 3 "Bayes theorem"
-```
-
-### Mapping output to frontmatter
-
-The canonical title from `find_wikipedia.py` should appear in your topic note's `aliases` list:
-
-```yaml
-aliases:
-  - Fourier transform
-  - Fourier analysis
-  - DFT
-```
-
-Use the canonical title as the primary alias. Add synonyms and abbreviations as secondary aliases.
 
 ## References
 
