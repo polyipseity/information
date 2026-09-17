@@ -142,8 +142,15 @@ Input: Canvas assignment HTML page + prompt files.
    - Update announcements (verbatim)
    - Assignment ID from URL comment
 3. Create `index.md` with metadata and description
-4. Copy prompt PDFs and data files to `attachments/`
-5. Apply display-vs-link convention for versioned PDFs
+4. Copy prompt PDFs, DOCX, PPTX, and data files to `attachments/`
+5. If the document is PDF/DOCX/PPTX, check for existing extraction in `attachments/<stem>.extracted/`. If no valid cache exists, run dual extraction:
+
+   ```bash
+   uv run -m scripts.special.convert_document <file> attachments/<stem>.extracted/
+   ```
+
+   Use extracted text to understand the prompt during classification. The original in `attachments/` is canonical. Store page images in `attachments/<stem>.extracted/pages/` — reference them from content files only when visual content (diagrams, figures) needs inline display.
+6. Apply display-vs-link convention for versioned PDFs
 
 ### What goes in `attachments/`
 
@@ -152,6 +159,8 @@ Input: Canvas assignment HTML page + prompt files.
 - Code files (.ino, .py, .java) referenced by the submission → `attachments/`
 - Images (circuit diagrams, screenshots, pinout diagrams) → `attachments/`
 - Quiz images extracted from PRS/Clicker HTML (circuit diagrams, sensor figures) → `attachments/`
+- Documents (PDF, DOCX, PPTX) — prompt files, assignment sheets, reference documents (attachment-role)
+- `<stem>.extracted/` — extraction cache for documents (text.md, pages/, manifest.json)
 
 When adding images to `attachments/`:
 

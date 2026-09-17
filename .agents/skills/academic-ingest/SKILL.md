@@ -35,6 +35,23 @@ __When in doubt, create less.__ Scaffolding for future content (labs, assignment
 
 A course homepage that mentions "labs" as a grading component does NOT warrant creating a `labs/` directory.
 
+## Extraction output persistence
+
+Document-like formats (PDF, DOCX, PPTX) produce extraction outputs that are persisted near the source:
+
+- __Single file input__: `<stem>.extracted/` sibling folder (e.g., `lecture.pdf` → `lecture.extracted/`)
+- __Directory input__: `.extracted/` subfolder inside the directory (e.g., `materials/` → `materials/.extracted/`)
+
+Each `.extracted/` folder contains:
+
+- `text.md` — extracted markdown text
+- `pages/` — page/slide PNG images at 150 DPI
+- `manifest.json` — source file hash, format, page count, timestamp
+
+__Cache check__: Before running `convert_document.py`, check if `.extracted/` exists with a valid `manifest.json` matching the source file's SHA-256 hash. If valid, reuse the cached extraction. Use `--force` to re-extract.
+
+`.extracted/` is a derived artifact — not tracked in `index.md` `## children`, not linked from content files. Safe to delete and re-extract.
+
 ## Input handling
 
 Accept any combination of:
@@ -46,7 +63,11 @@ Accept any combination of:
 
 Preprocess each input:
 
-1. Read file content (PDF text extraction, HTML parsing, Markdown passthrough)
+1. Read file content:
+   - HTML: parse and extract readable text (see Source identification above)
+   - Markdown: passthrough
+   - Images: pass to vision model if vision-aware, otherwise describe limitations
+   - Documents (PDF, DOCX, PPTX): check `.extracted/` cache, run dual extraction via `convert_document.py` if needed, then classify role (content vs attachment) per "Document format handling"
 2. Extract metadata (Canvas URLs, dates, course codes from content)
 3. Normalize (strip HTML styling, extract plain text from PDFs)
 
@@ -58,6 +79,31 @@ Identify HTML source type before extraction:
 - __Canvas announcement__: URL contains `canvas.ust.hk` and page type is "Topic" (discussion/announcement). Has a title and body text but no grade/submission metadata. Extract title and body verbatim (omit author name and platform chrome like "This topic is closed for comments").
 - __PRS/iClicker HTML__: URL contains `prsmob.ust.hk/ars/`; has question text and numbered answer choices. Extract quiz content directly — do not run `convert_canvas_submission`.
 - __Generic HTML__: neither pattern. Extract readable text.
+
+### Document format handling (PDF, DOCX, PPTX)
+
+Document-like formats are NOT opaque. For every document input, run dual extraction before classification:
+
+1. __Check for existing extraction__: Look for `<stem>.extracted/` (single file) or `.extracted/` (directory input). If `manifest.json` exists and matches the source hash, reuse cached output. Otherwise:
+
+2. __Dual extraction__ (always runs):
+
+   ```bash
+   uv run -m scripts.special.convert_document <input> <output_dir>
+   ```
+
+   Produces `<output_dir>/text.md` (extracted text) + `<output_dir>/pages/*.png` (page/slide images at 150 DPI) + `<output_dir>/manifest.json` (cache metadata).
+
+3. __Vision-awareness check__: Before processing, determine if the current model accepts image inputs. Check `PI_MODEL` and `PI_PROVIDER` environment variables.
+   - __If vision-aware__: The agent can directly read page images to understand visual content (diagrams, formulas, handwritten annotations, layout). Use both text and images during classification and content extraction.
+   - __If NOT vision-aware__: Rely on extracted text only. Page images are persisted in `.extracted/pages/` for future reference or manual review, but the agent cannot interpret them during ingestion.
+
+4. __Role classification__ (after extraction, before dispatch): Determine whether the document is __content__ or an __attachment__:
+   - __Content document__: The document IS the course material (lecture slides, topic notes, exam paper). Disposition: extracted text → `.md` file; page images → `attachments/pages/`; original file → not stored (the `.md` + images are canonical).
+   - __Attachment document__: The document ACCOMPANIES course material (prompt PDF, reference data, supplementary reading). Disposition: original → `attachments/`; page images → `attachments/pages/` only when visual content needs inline reference; extracted text → used during agent processing but not persisted as a separate `.md` (the original is canonical).
+   - __When ambiguous__: Ask the user — "Is this document the course content itself, or a file that accompanies the content?"
+
+5. __Ensure `.gitignore`__: When creating an `.extracted/` folder for the first time in a directory, create or update a `.gitignore` in that directory to ignore `.extracted/`. Check for existing pattern before appending.
 
 ### Directory ingestion
 
@@ -272,6 +318,12 @@ After extracting content from HTML source files:
 - Canvas announcement body → course `index.md` session entry (blockquote)
 - Prompt PDFs, data files, images → `attachments/` (only actual media/data)
 - Original HTML files → not stored in the repository
+- Original document files (PDF, DOCX, PPTX) — see role classification:
+    - Content documents: NOT stored (`.md` + page images are canonical); store original only if user requests provenance
+    - Attachment documents: `attachments/` (raw file for provenance and re-extraction)
+- Extracted page images — `attachments/pages/<stem>/` (referenced from content when visual content matters)
+- Extracted text — content documents: `.md` file; attachment documents: ephemeral reference (original is canonical)
+- `.extracted/` folders — derived cache artifacts, not tracked in `index.md`
 
 Do not copy extracted-content HTML into `attachments/`. The `attachments/` directory is for raw referenced files (PDFs, images, data, scripts), not for source documents whose content has been transcripted into markdown.
 
@@ -403,9 +455,12 @@ Route to the correct `academic-crud-*` skill with preprocessed context:
 {
   rawContent: <extracted text>,
   metadata: <Canvas metadata, dates, course codes>,
-  sourceType: <pdf|html|markdown|text|image>,
+  sourceType: <pdf|html|markdown|text|image|document>,
   filePath: <original file path>,
-  targetHint: <classification result>
+  targetHint: <classification result>,
+  documentRole: <content|attachment>,
+  pageImages: <list of page image paths, if available>,
+  extractionDir: <path to .extracted/ folder>
 }
 ```
 
