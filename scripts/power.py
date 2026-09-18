@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 """Interactive helper for modular exponentiation experiments.
 
 Exposes three modes (``a``, ``b``, and a generic default) that prompt

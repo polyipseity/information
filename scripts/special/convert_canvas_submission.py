@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 """Convert Canvas LMS HTML submission pages to YAML/Markdown."""
 
 from collections.abc import Callable, Mapping, Sequence, Set

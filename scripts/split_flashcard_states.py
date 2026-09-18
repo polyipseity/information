@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 """Split a combined flashcard state annotation string into individual per-card annotations."""
 
 """Exported names from this module (none: standalone script, not importable as a library)."""

@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 """Retract (remove) specified file paths from the public git repository by replaying history without them."""
 
 from argparse import ZERO_OR_MORE, ArgumentParser, Namespace
