@@ -199,6 +199,7 @@ The form of the examples above is complemented by a set of practical heuristics,
 ### General editing principles
 
 - Preserve the source verbatim except for cloze markup; do not paraphrase or reflow text.
+- Never name the material in a card or in the surrounding prose: no `the lecture`, `the slides`, `the deck`, or `the course`. State the content itself.
 - Equations stay whole: wrap an entire `$...$` or `$$...$$` block in a single cloze; never split math.
 - Anchor context: leave visible words around each deletion to give a hint; avoid blanking a sentence entirely unless context is crystal clear.
 - Mirror the user’s style when they supply examples or corrections.

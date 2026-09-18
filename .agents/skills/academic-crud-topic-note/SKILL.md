@@ -176,7 +176,7 @@ Flashcards for this section are as follows:
    - Exception: accounting journal-entry worked examples may use cloze
    - Every `##`, `###`, and deeper heading gets its own `---` separator and its own flashcard block — never one block shared by a parent and its sub-sections
    - Group related cards with inline bold labels (e.g., `**superposition.**`)
-   - Cards must be self-contained (restate givens, hypotheses, notation)
+   - Cards must be self-contained (restate givens, hypotheses, notation) and never name their source — write the example, not `the lecture's example`
    - Overview card as first card in each section
    - Preserve derivation/proof spine in cards
    - Split packed cards into focused units, and split an enumeration of six or more items into sibling cards sliced at a boundary the items themselves show (era, date range, divergence versus curl), each naming its slice on the prompt side — see "Enumeration cards" in `create-flashcards`
@@ -255,7 +255,7 @@ Use `\[missing\]` for absent values — for example, when a topic has no cross-r
 - "Distributed as": `\sim` (e.g., `$X\sim N(0,1)$`)
 - Binomial coefficients: `\binom{n}{k}`
 - No source numbering (theorem numbers, definition numbers, chapter numbers). Use topic names
-- No "in this lecture" or "the tutorial sheet shows". Use topic-level references
+- Never narrate the source: no `the deck`, `the slides`, `the lecture`, or `the course` as the subject of a sentence, and no reporting what a source shows, asks, or stresses. State the fact, the example, or the question itself — see "Write the content, not the material" in `academic-ingest`
 
 ## Subject-specific guidance
 

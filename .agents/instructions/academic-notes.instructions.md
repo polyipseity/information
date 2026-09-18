@@ -36,6 +36,7 @@ For all academic material ingestion, start with the `academic-ingest` dispatcher
 - Do not put instructor or TA names or email addresses in course notes.
 - Course-local `AGENTS.md` files must use heading `# <course code> agent instructions` and must not contain flashcard markup.
 - Do not use chapter numbers as durable references in prose, flashcards, routes, or agent guidance. Use topic names and in-repo section links instead.
+- Never narrate the source in a note: no `the deck`, `the slides`, `the lecture`, or `the course` as the subject of a sentence, and no reporting what a source shows or asks. State the fact, example, or question itself; provenance belongs to the course `index.md` session entries.
 - Prefer QA cards for topic notes; cloze only inside embedded accounting journal-entry worked examples.
 - Questions-page solutions use cloze `{@{ }@}`, not QA cards.
 - When changing a topic note, update its prose, flashcards, and every affected `index.md` section link in the same task.

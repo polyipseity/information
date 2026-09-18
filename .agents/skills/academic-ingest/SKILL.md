@@ -39,6 +39,18 @@ __Never write current status or provenance.__ What has been ingested so far, wha
 
 __Structure comes from the content, not the source.__ A source's layout never decides which notes or sections exist. Extracted text is raw material: its concepts define the file boundaries and the section boundaries, and its own headings are renamed to the sub-concepts they carry. A lecture deck must not produce a note about a lecture — see the merge and split tests in `academic-crud-topic-note`.
 
+__Write the content, not the material.__ A note states knowledge; it never narrates where the knowledge came from. Do not make the deck, the slides, the lecture, the handout, or the course the subject of a sentence, and do not report what a source does:
+
+| Instead of | Write |
+| --- | --- |
+| The deck summarises the types of financial asset: bonds, stocks, ... | The types of financial asset are bonds, stocks, ... |
+| The slide asks which exchange is more liquid. | Which exchange is more liquid? |
+| The lecture's minibus example shows that ... | A minibus-arrival example shows that ... |
+| The slides stress three characteristics. | Three characteristics matter. |
+| The deck's chart counts 13 exchanges. | An earlier venue breakdown counts 13 exchanges. |
+
+An open question is written as the question itself, and a worked example as the example itself. Citations of real-world sources — an author, a paper, a data vendor — stay as they are; the teaching material they arrived in is not a source. Provenance lives in the course `index.md` session entries, which already link the note, and that index is the one place the course itself may be named, because describing it is the index's subject.
+
 ## Source file preservation
 
 __Hard rule: ingestion never deletes, moves, renames, or truncates a source file.__
