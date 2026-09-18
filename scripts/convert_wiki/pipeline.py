@@ -865,11 +865,29 @@ def _preprocess_html(soup: BeautifulSoup | Tag) -> None:
     for container in soup.find_all(list(_DISPLAY_MATH_CONTAINERS | {"p"})):
         WikiHtmlConverter._normalize_external_math_punctuation(container)
 
-    # 6. Replace sfrac spans with <math> elements.
+    # 6. Strip duplicate LaTeX text that Wikipedia emits after the
+    #    MathML <math> element inside math a11y spans (e.g. the tail
+    #    ``;\quad ...}`` of a long equation).  The <math> alttext already
+    #    carries the full equation, so the trailing text would otherwise
+    #    render as escaped literal LaTeX.
+    for a11y_span in soup.find_all("span", class_="mwe-math-mathml-a11y"):
+        if a11y_span.find("math") is None:
+            continue
+        for a11y_child in list(a11y_span.children):
+            if isinstance(a11y_child, NavigableString):
+                if a11y_child.strip():
+                    a11y_child.extract()
+            elif isinstance(a11y_child, Tag) and a11y_child.name not in {
+                "math",
+                "img",
+            }:
+                a11y_child.decompose()
+
+    # 7. Replace sfrac spans with <math> elements.
     for span in soup.find_all("span"):
         LatexConverter.replace_sfrac_with_math(span, soup)  # ty: ignore[invalid-argument-type] — Tag.new_tag works identically
 
-    # 7. Clean up annotated-image divs: remove annotation divs
+    # 8. Clean up annotated-image divs: remove annotation divs
     #    and noviewer spans so the converter sees clean content.
     for div in soup.find_all("div", typeof=lambda v: v and "mw:Transclusion" in str(v)):
         if "annotated image" in str(div.get("data-mw", "")):
@@ -880,13 +898,13 @@ def _preprocess_html(soup: BeautifulSoup | Tag) -> None:
             for noviewer in div.find_all("span", class_="noviewer"):
                 noviewer.decompose()
 
-    # 8. Merge <dl> paragraphs into preceding list when separated by a
+    # 9. Merge <dl> paragraphs into preceding list when separated by a
     #    thumbnail.  When a <dl> follows a <div class="thumb"> that
     #    follows a <ul>/<ol>, the <dd> children belong to the last <li>
     #    of that list (they are continuations of the list item content).
     _merge_dl_after_thumb_into_list(soup)
 
-    # 9. Unwrap inline-only <div> wrappers inside navbox-abovebelow cells
+    # 10. Unwrap inline-only <div> wrappers inside navbox-abovebelow cells
     #    without hlist.  These <div> elements add a block-level suffix
     #    that becomes a spurious <br/> <br/> separator in the output.
     _unwrap_navbox_inline_divs(soup)
