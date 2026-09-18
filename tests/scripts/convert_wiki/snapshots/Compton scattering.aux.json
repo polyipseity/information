@@ -1,1285 +1,186 @@
 {
+  "api_titles": [
+    "X-ray fluorescence holography",
+    "Coherence (physics)",
+    "Bibcode (identifier)",
+    "Extended X-ray absorption fine structure",
+    "Arthur Holly Compton",
+    "Resonant inelastic X-ray scattering",
+    "Conservation of momentum",
+    "ISSN (identifier)",
+    "Energy",
+    "Classical electromagnetism",
+    "Density functional theory",
+    "BKS theory",
+    "Galaxy cluster",
+    "Panoramic radiograph",
+    "Path integral formulation",
+    "X-ray radiography",
+    "Scalar product",
+    "Schwinger limit",
+    "Soft x-ray microscopy",
+    "Conservation of energy",
+    "Scanning transmission X-ray microscopy",
+    "Møller scattering",
+    "Moseley's law",
+    "Electron",
+    "X-ray astronomy",
+    "K-edge",
+    "Backscatter X-ray",
+    "Quantum electrodynamics",
+    "Special relativity",
+    "Klein–Nishina formula",
+    "Prentice Hall",
+    "Albert Einstein",
+    "Characteristic X-ray",
+    "Auger effect",
+    "S2CID (identifier)",
+    "Radiobiology",
+    "Virtual particle",
+    "Absorption edge",
+    "Doi (identifier)",
+    "Momentum",
+    "Breit–Wheeler process",
+    "Compton Gamma Ray Observatory",
+    "Synchrotron radiation",
+    "PMID (identifier)",
+    "Bhabha scattering",
+    "Compton suppression",
+    "QED vacuum",
+    "Radiation therapy",
+    "Non-linear inverse Compton scattering",
+    "Compton wavelength",
+    "Helical CT",
+    "Pair production",
+    "Furry's theorem",
+    "Electron mass",
+    "Timeline of cosmic microwave background astronomy",
+    "Anomalous magnetic dipole moment",
+    "Synchrotron",
+    "Rayleigh scattering",
+    "Coherent diffraction imaging",
+    "Three-dimensional X-ray diffraction",
+    "Nobel Prize in Physics",
+    "X-ray reflectivity",
+    "Energy-dispersive X-ray spectroscopy",
+    "Radiation pressure",
+    "Visible light",
+    "Accretion disk",
+    "Sunyaev–Zel'dovich effect",
+    "Physical Review",
+    "OUP Oxford",
+    "X-ray diffraction",
+    "Dual photon",
+    "Inelastic collision",
+    "Faddeev–Popov ghost",
+    "X-Ray Fluorescence Imaging",
+    "CT scan",
+    "Positronium",
+    "Betatron",
+    "Angle-resolved photoemission spectroscopy",
+    "Wayback Machine",
+    "Lamb shift",
+    "Bremsstrahlung",
+    "Two-photon physics",
+    "Vacuum polarization",
+    "X-ray telescope",
+    "Photodisintegration",
+    "Phase-contrast X-ray imaging",
+    "Fluctuation X-ray scattering",
+    "Dark-field X-ray microscopy",
+    "Wide-angle X-ray scattering",
+    "Photofission",
+    "Nuclear reaction",
+    "Inelastic scattering",
+    "X-ray tube",
+    "Electromagnetic wave",
+    "Ward–Takahashi identity",
+    "Dual-energy X-ray absorptiometry",
+    "X-ray scattering techniques",
+    "History of X-ray astronomy",
+    "X-ray fluorescence",
+    "Valence electron",
+    "ArXiv (identifier)",
+    "X-ray absorption near edge structure",
+    "Speed of light",
+    "Metal L-edge",
+    "Ptychography",
+    "Auger electron spectroscopy",
+    "Wavelength",
+    "Photoelectric effect",
+    "High-energy X-rays",
+    "Wave",
+    "Diffraction tomography",
+    "Schwinger effect",
+    "Alpha particle",
+    "Relativistic reflection",
+    "Delbrück scattering",
+    "Cross section (physics)",
+    "X-ray photoelectron spectroscopy",
+    "Washington University in St. Louis",
+    "Water window",
+    "Charged particle",
+    "Thomson scattering",
+    "Graphite",
+    "Small-angle X-ray scattering",
+    "Tomosynthesis",
+    "Feynman diagrams",
+    "X-ray Raman scattering",
+    "Peter Debye",
+    "Hans Geiger",
+    "X-ray",
+    "X-ray absorption spectroscopy",
+    "American Physical Society",
+    "Positron",
+    "Cosmic microwave background radiation",
+    "Radiation damage",
+    "Anomalous X-ray scattering",
+    "Walther Bothe",
+    "X-ray diffraction computed tomography",
+    "Stellar corona",
+    "X-ray crystallography",
+    "Astrophysics",
+    "X-ray lithography",
+    "Bragg scattering",
+    "SQUID",
+    "Photon",
+    "Landau pole",
+    "Siegbahn notation",
+    "Nuclear electromagnetic pulse",
+    "Wu Youxun",
+    "Elastic collision",
+    "Feynman diagram",
+    "Self-energy",
+    "Euler–Heisenberg Lagrangian",
+    "Energy-dispersive X-ray diffraction",
+    "Vertex function",
+    "Energy–momentum relation",
+    "Grazing-incidence small-angle scattering",
+    "Black hole",
+    "Arthur Compton",
+    "Synchrotron light source",
+    "Compton edge",
+    "Scattering",
+    "ISBN (identifier)",
+    "Gamma spectroscopy",
+    "Quantum mechanics",
+    "Photoionization",
+    "Recoil",
+    "Free-electron laser",
+    "Uehling potential",
+    "Planck constant",
+    "Gupta–Bleuler formalism",
+    "Laser",
+    "Physical Review Letters"
+  ],
   "api_responses": [
     {
-      "batchcomplete": "",
+      "batchcomplete": true,
       "query": {
         "redirects": [
           {
-            "from": "Electromagnetic wave",
-            "to": "Electromagnetic radiation"
-          },
-          {
-            "from": "Helical CT",
-            "to": "Operation of computed tomography",
-            "tofragment": "Spiral"
-          },
-          {
-            "from": "OUP Oxford",
-            "to": "Oxford University Press"
-          },
-          {
-            "from": "ISBN (identifier)",
-            "to": "ISBN"
-          },
-          {
-            "from": "ArXiv (identifier)",
-            "to": "ArXiv"
-          },
-          {
-            "from": "Doi (identifier)",
-            "to": "Digital object identifier"
-          }
-        ],
-        "pages": {
-          "21787470": {
-            "pageid": 21787470,
-            "ns": 0,
-            "title": "Alpha particle",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-12T02:03:11Z",
-            "lastrevid": 1371889998,
-            "length": 34323
-          },
-          "222368": {
-            "pageid": 222368,
-            "ns": 0,
-            "title": "American Physical Society",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-12T02:20:40Z",
-            "lastrevid": 1362018366,
-            "length": 25716
-          },
-          "36835": {
-            "pageid": 36835,
-            "ns": 0,
-            "title": "Auger electron spectroscopy",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-16T18:07:30Z",
-            "lastrevid": 1373371278,
-            "length": 31949
-          },
-          "16711283": {
-            "pageid": 16711283,
-            "ns": 0,
-            "title": "BKS theory",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-16T18:11:54Z",
-            "lastrevid": 1375067447,
-            "length": 19825
-          },
-          "1203072": {
-            "pageid": 1203072,
-            "ns": 0,
-            "title": "Backscatter X-ray",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-15T01:15:34Z",
-            "lastrevid": 1368419830,
-            "length": 54933
-          },
-          "5669330": {
-            "pageid": 5669330,
-            "ns": 0,
-            "title": "Bhabha scattering",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-12T01:02:51Z",
-            "lastrevid": 1322005037,
-            "length": 15872
-          },
-          "18928713": {
-            "pageid": 18928713,
-            "ns": 0,
-            "title": "Characteristic X-ray",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-15T11:50:01Z",
-            "lastrevid": 1340595052,
-            "length": 7246
-          },
-          "9476": {
-            "pageid": 9476,
-            "ns": 0,
-            "title": "Electron",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-16T19:58:40Z",
-            "lastrevid": 1374111188,
-            "length": 157063
-          },
-          "21144218": {
-            "pageid": 21144218,
-            "ns": 0,
-            "title": "Electron mass",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-02T17:39:25Z",
-            "lastrevid": 1361023177,
-            "length": 10227
-          },
-          "682642": {
-            "pageid": 682642,
-            "ns": 0,
-            "title": "Energy-dispersive X-ray spectroscopy",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-12T00:46:07Z",
-            "lastrevid": 1356734731,
-            "length": 11356
-          },
-          "11617": {
-            "pageid": 11617,
-            "ns": 0,
-            "title": "Feynman diagram",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-15T01:14:22Z",
-            "lastrevid": 1371495738,
-            "length": 94641
-          },
-          "4055891": {
-            "pageid": 4055891,
-            "ns": 0,
-            "title": "High-energy X-rays",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-12T00:57:23Z",
-            "lastrevid": 1336817456,
-            "length": 9356
-          },
-          "13768214": {
-            "pageid": 13768214,
-            "ns": 0,
-            "title": "K-edge",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-12T01:39:44Z",
-            "lastrevid": 1320259450,
-            "length": 10383
-          },
-          "884142": {
-            "pageid": 884142,
-            "ns": 0,
-            "title": "Klein–Nishina formula",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-12T00:46:52Z",
-            "lastrevid": 1326723632,
-            "length": 9464
-          },
-          "17556": {
-            "pageid": 17556,
-            "ns": 0,
-            "title": "Laser",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-16T10:53:10Z",
-            "lastrevid": 1374832954,
-            "length": 135456
-          },
-          "52497": {
-            "pageid": 52497,
-            "ns": 0,
-            "title": "Nobel Prize in Physics",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-16T18:07:31Z",
-            "lastrevid": 1371692312,
-            "length": 24766
-          },
-          "67944697": {
-            "pageid": 67944697,
-            "ns": 0,
-            "title": "Non-linear inverse Compton scattering",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-02T22:29:39Z",
-            "lastrevid": 1372906374,
-            "length": 41435
-          },
-          "41097": {
-            "pageid": 41097,
-            "ns": 0,
-            "title": "Nuclear electromagnetic pulse",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-15T19:45:29Z",
-            "lastrevid": 1368686382,
-            "length": 79120
-          },
-          "140858": {
-            "pageid": 140858,
-            "ns": 0,
-            "title": "Pair production",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-12T00:42:55Z",
-            "lastrevid": 1367079884,
-            "length": 10983
-          },
-          "30250243": {
-            "pageid": 30250243,
-            "ns": 0,
-            "title": "Panoramic radiograph",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-15T01:20:37Z",
-            "lastrevid": 1370056949,
-            "length": 27229
-          },
-          "37067": {
-            "pageid": 37067,
-            "ns": 0,
-            "title": "Peter Debye",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-16T18:07:30Z",
-            "lastrevid": 1371983501,
-            "length": 39251
-          },
-          "26732647": {
-            "pageid": 26732647,
-            "ns": 0,
-            "title": "Photofission",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-16T16:39:05Z",
-            "lastrevid": 1375238913,
-            "length": 4833
-          },
-          "5421050": {
-            "pageid": 5421050,
-            "ns": 0,
-            "title": "Prentice Hall",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-12T00:48:21Z",
-            "lastrevid": 1370547019,
-            "length": 12407
-          },
-          "25268": {
-            "pageid": 25268,
-            "ns": 0,
-            "title": "Quantum electrodynamics",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-13T19:10:20Z",
-            "lastrevid": 1367730653,
-            "length": 51983
-          },
-          "43709": {
-            "pageid": 43709,
-            "ns": 0,
-            "title": "Radiation pressure",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-12T00:41:18Z",
-            "lastrevid": 1370125229,
-            "length": 46410
-          },
-          "26350": {
-            "pageid": 26350,
-            "ns": 0,
-            "title": "Radiation therapy",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-15T01:14:23Z",
-            "lastrevid": 1371846532,
-            "length": 125779
-          },
-          "26176": {
-            "pageid": 26176,
-            "ns": 0,
-            "title": "Rayleigh scattering",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-16T19:57:35Z",
-            "lastrevid": 1372319937,
-            "length": 24578
-          },
-          "46178": {
-            "pageid": 46178,
-            "ns": 0,
-            "title": "SQUID",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-16T10:53:12Z",
-            "lastrevid": 1371000463,
-            "length": 27697
-          },
-          "164483": {
-            "pageid": 164483,
-            "ns": 0,
-            "title": "Scattering",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-15T01:14:37Z",
-            "lastrevid": 1360472098,
-            "length": 30659
-          },
-          "36225667": {
-            "pageid": 36225667,
-            "ns": 0,
-            "title": "Schwinger limit",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-16T03:06:42Z",
-            "lastrevid": 1362213294,
-            "length": 9838
-          },
-          "1983173": {
-            "pageid": 1983173,
-            "ns": 0,
-            "title": "Siegbahn notation",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-12T00:51:07Z",
-            "lastrevid": 1306973448,
-            "length": 4426
-          },
-          "7839": {
-            "pageid": 7839,
-            "ns": 0,
-            "title": "Stellar corona",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-16T19:58:36Z",
-            "lastrevid": 1369734451,
-            "length": 3712
-          },
-          "52670479": {
-            "pageid": 52670479,
-            "ns": 0,
-            "title": "Uehling potential",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-12T02:56:58Z",
-            "lastrevid": 1344402682,
-            "length": 9090
-          },
-          "568674": {
-            "pageid": 568674,
-            "ns": 0,
-            "title": "Valence electron",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-12T00:45:32Z",
-            "lastrevid": 1374066320,
-            "length": 24123
-          },
-          "1394454": {
-            "pageid": 1394454,
-            "ns": 0,
-            "title": "Vertex function",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-12T00:49:01Z",
-            "lastrevid": 1370498201,
-            "length": 4269
-          },
-          "358425": {
-            "pageid": 358425,
-            "ns": 0,
-            "title": "Walther Bothe",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-16T18:07:46Z",
-            "lastrevid": 1372006928,
-            "length": 34773
-          },
-          "30863437": {
-            "pageid": 30863437,
-            "ns": 0,
-            "title": "Ward–Takahashi identity",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-13T22:58:20Z",
-            "lastrevid": 1374751657,
-            "length": 10761
-          },
-          "58920": {
-            "pageid": 58920,
-            "ns": 0,
-            "title": "Washington University in St. Louis",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-16T10:53:12Z",
-            "lastrevid": 1374469421,
-            "length": 178420
-          },
-          "27806268": {
-            "pageid": 27806268,
-            "ns": 0,
-            "title": "Water window",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-12T02:13:35Z",
-            "lastrevid": 1137520135,
-            "length": 2823
-          },
-          "18383939": {
-            "pageid": 18383939,
-            "ns": 0,
-            "title": "X-ray Raman scattering",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-08-24T19:07:16Z",
-            "lastrevid": 1357269579,
-            "length": 5627
-          },
-          "4842312": {
-            "pageid": 4842312,
-            "ns": 0,
-            "title": "X-ray absorption near edge structure",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-12T00:59:25Z",
-            "lastrevid": 1359407286,
-            "length": 15544
-          },
-          "34151": {
-            "pageid": 34151,
-            "ns": 0,
-            "title": "X-ray crystallography",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-15T19:45:29Z",
-            "lastrevid": 1372443742,
-            "length": 117693
-          },
-          "74714251": {
-            "pageid": 74714251,
-            "ns": 0,
-            "title": "X-ray diffraction computed tomography",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-03T01:00:11Z",
-            "lastrevid": 1319557227,
-            "length": 15758
-          },
-          "3801543": {
-            "pageid": 3801543,
-            "ns": 0,
-            "title": "X-ray telescope",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-12T00:56:45Z",
-            "lastrevid": 1367783372,
-            "length": 30512
-          },
-          "38751": {
-            "pageid": 38751,
-            "ns": 0,
-            "title": "ArXiv",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-15T05:31:01Z",
-            "lastrevid": 1374941807,
-            "length": 32027
-          },
-          "422994": {
-            "pageid": 422994,
-            "ns": 0,
-            "title": "Digital object identifier",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-15T19:45:30Z",
-            "lastrevid": 1372580666,
-            "length": 40911
-          },
-          "9426": {
-            "pageid": 9426,
-            "ns": 0,
-            "title": "Electromagnetic radiation",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-15T01:14:21Z",
-            "lastrevid": 1371926361,
-            "length": 88702
-          },
-          "14919": {
-            "pageid": 14919,
-            "ns": 0,
-            "title": "ISBN",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-16T18:07:27Z",
-            "lastrevid": 1374549706,
-            "length": 63649
-          },
-          "53857907": {
-            "pageid": 53857907,
-            "ns": 0,
-            "title": "Operation of computed tomography",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-12T01:27:28Z",
-            "lastrevid": 1369642280,
-            "length": 24328
-          },
-          "48518": {
-            "pageid": 48518,
-            "ns": 0,
-            "title": "Oxford University Press",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-15T01:14:25Z",
-            "lastrevid": 1369033942,
-            "length": 46216
-          }
-        }
-      }
-    },
-    {
-      "batchcomplete": "",
-      "query": {
-        "redirects": [
-          {
-            "from": "Timeline of cosmic microwave background astronomy",
-            "to": "Cosmic microwave background",
-            "tofragment": "Timeline of prediction, discovery and interpretation"
-          },
-          {
-            "from": "Feynman diagrams",
-            "to": "Feynman diagram"
-          },
-          {
-            "from": "Bragg scattering",
-            "to": "Bragg's law"
-          },
-          {
-            "from": "X-ray radiography",
-            "to": "Radiography"
-          },
-          {
-            "from": "PMID (identifier)",
-            "to": "PubMed",
-            "tofragment": "PubMed identifier"
-          },
-          {
-            "from": "Bibcode (identifier)",
-            "to": "Bibcode"
-          },
-          {
-            "from": "Path integral formulation",
-            "to": "Path-integral formulation"
-          }
-        ],
-        "pages": {
-          "736": {
-            "pageid": 736,
-            "ns": 0,
-            "title": "Albert Einstein",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-16T18:07:26Z",
-            "lastrevid": 1375023600,
-            "length": 238762
-          },
-          "7078310": {
-            "pageid": 7078310,
-            "ns": 0,
-            "title": "Angle-resolved photoemission spectroscopy",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-12T01:11:59Z",
-            "lastrevid": 1364260216,
-            "length": 48421
-          },
-          "15152001": {
-            "pageid": 15152001,
-            "ns": 0,
-            "title": "Anomalous X-ray scattering",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-12T01:43:52Z",
-            "lastrevid": 1309116641,
-            "length": 4397
-          },
-          "2728068": {
-            "pageid": 2728068,
-            "ns": 0,
-            "title": "Anomalous magnetic dipole moment",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-15T01:16:18Z",
-            "lastrevid": 1355520625,
-            "length": 16437
-          },
-          "361897": {
-            "pageid": 361897,
-            "ns": 0,
-            "title": "Astrophysics",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-16T18:07:46Z",
-            "lastrevid": 1370483070,
-            "length": 37885
-          },
-          "4650": {
-            "pageid": 4650,
-            "ns": 0,
-            "title": "Black hole",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-16T18:07:27Z",
-            "lastrevid": 1374228345,
-            "length": 202929
-          },
-          "240011": {
-            "pageid": 240011,
-            "ns": 0,
-            "title": "Coherence (physics)",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-16T18:07:40Z",
-            "lastrevid": 1336361913,
-            "length": 33099
-          },
-          "7480": {
-            "pageid": 7480,
-            "ns": 0,
-            "title": "Cross section (physics)",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-16T10:53:10Z",
-            "lastrevid": 1371724917,
-            "length": 38470
-          },
-          "24422329": {
-            "pageid": 24422329,
-            "ns": 0,
-            "title": "Diffraction tomography",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-12T02:08:06Z",
-            "lastrevid": 1360648702,
-            "length": 1804
-          },
-          "9649": {
-            "pageid": 9649,
-            "ns": 0,
-            "title": "Energy",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-16T19:58:40Z",
-            "lastrevid": 1373135799,
-            "length": 95324
-          },
-          "38308976": {
-            "pageid": 38308976,
-            "ns": 0,
-            "title": "Energy-dispersive X-ray diffraction",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-12T02:32:58Z",
-            "lastrevid": 1306718605,
-            "length": 5425
-          },
-          "2875647": {
-            "pageid": 2875647,
-            "ns": 0,
-            "title": "Energy–momentum relation",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-09T14:15:48Z",
-            "lastrevid": 1367868888,
-            "length": 25989
-          },
-          "945656": {
-            "pageid": 945656,
-            "ns": 0,
-            "title": "Free-electron laser",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-12T00:47:11Z",
-            "lastrevid": 1373933010,
-            "length": 48106
-          },
-          "58950": {
-            "pageid": 58950,
-            "ns": 0,
-            "title": "Galaxy cluster",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-15T23:16:08Z",
-            "lastrevid": 1375115093,
-            "length": 25689
-          },
-          "1454093": {
-            "pageid": 1454093,
-            "ns": 0,
-            "title": "Gupta–Bleuler formalism",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-16T10:53:30Z",
-            "lastrevid": 1328217411,
-            "length": 4797
-          },
-          "65908": {
-            "pageid": 65908,
-            "ns": 0,
-            "title": "Inelastic collision",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-12T00:41:33Z",
-            "lastrevid": 1332934847,
-            "length": 8461
-          },
-          "1252256": {
-            "pageid": 1252256,
-            "ns": 0,
-            "title": "Inelastic scattering",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-09T14:14:30Z",
-            "lastrevid": 1309650974,
-            "length": 5289
-          },
-          "1074997": {
-            "pageid": 1074997,
-            "ns": 0,
-            "title": "Lamb shift",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-12T00:47:44Z",
-            "lastrevid": 1365847424,
-            "length": 20882
-          },
-          "24280199": {
-            "pageid": 24280199,
-            "ns": 0,
-            "title": "Metal L-edge",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-02T17:47:32Z",
-            "lastrevid": 1356062819,
-            "length": 8511
-          },
-          "20431": {
-            "pageid": 20431,
-            "ns": 0,
-            "title": "Momentum",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-16T18:07:28Z",
-            "lastrevid": 1375083960,
-            "length": 75097
-          },
-          "1983277": {
-            "pageid": 1983277,
-            "ns": 0,
-            "title": "Moseley's law",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-12T00:51:07Z",
-            "lastrevid": 1362360702,
-            "length": 8359
-          },
-          "4249038": {
-            "pageid": 4249038,
-            "ns": 0,
-            "title": "Møller scattering",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-12T00:57:54Z",
-            "lastrevid": 1342735795,
-            "length": 13605
-          },
-          "460322": {
-            "pageid": 460322,
-            "ns": 0,
-            "title": "Nuclear reaction",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-16T12:44:19Z",
-            "lastrevid": 1361479487,
-            "length": 20664
-          },
-          "35154335": {
-            "pageid": 35154335,
-            "ns": 0,
-            "title": "Phase-contrast X-ray imaging",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-12T02:25:58Z",
-            "lastrevid": 1372051644,
-            "length": 115240
-          },
-          "23579": {
-            "pageid": 23579,
-            "ns": 0,
-            "title": "Photoelectric effect",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-15T01:14:23Z",
-            "lastrevid": 1373790328,
-            "length": 62727
-          },
-          "23535": {
-            "pageid": 23535,
-            "ns": 0,
-            "title": "Photon",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-16T19:58:42Z",
-            "lastrevid": 1372540032,
-            "length": 107817
-          },
-          "419663": {
-            "pageid": 419663,
-            "ns": 0,
-            "title": "Physical Review",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-12T00:44:41Z",
-            "lastrevid": 1371245160,
-            "length": 29699
-          },
-          "649723": {
-            "pageid": 649723,
-            "ns": 0,
-            "title": "Physical Review Letters",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-12T00:44:25Z",
-            "lastrevid": 1361829195,
-            "length": 9605
-          },
-          "34317494": {
-            "pageid": 34317494,
-            "ns": 0,
-            "title": "QED vacuum",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-12T02:24:29Z",
-            "lastrevid": 1351865335,
-            "length": 24905
-          },
-          "25202": {
-            "pageid": 25202,
-            "ns": 0,
-            "title": "Quantum mechanics",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-16T07:37:51Z",
-            "lastrevid": 1374832693,
-            "length": 101512
-          },
-          "25472865": {
-            "pageid": 25472865,
-            "ns": 0,
-            "title": "Resonant inelastic X-ray scattering",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-12T02:09:48Z",
-            "lastrevid": 1369013627,
-            "length": 70640
-          },
-          "12235089": {
-            "pageid": 12235089,
-            "ns": 0,
-            "title": "Small-angle X-ray scattering",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-12T01:34:14Z",
-            "lastrevid": 1356237230,
-            "length": 26725
-          },
-          "26962": {
-            "pageid": 26962,
-            "ns": 0,
-            "title": "Special relativity",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-15T01:14:23Z",
-            "lastrevid": 1374826447,
-            "length": 174360
-          },
-          "599215": {
-            "pageid": 599215,
-            "ns": 0,
-            "title": "Synchrotron",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-15T01:15:01Z",
-            "lastrevid": 1371073217,
-            "length": 28517
-          },
-          "379507": {
-            "pageid": 379507,
-            "ns": 0,
-            "title": "Synchrotron light source",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-15T19:45:30Z",
-            "lastrevid": 1355341442,
-            "length": 31536
-          },
-          "192316": {
-            "pageid": 192316,
-            "ns": 0,
-            "title": "Virtual particle",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-12T00:43:23Z",
-            "lastrevid": 1350798237,
-            "length": 23306
-          },
-          "97193": {
-            "pageid": 97193,
-            "ns": 0,
-            "title": "Wide-angle X-ray scattering",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-12T00:41:57Z",
-            "lastrevid": 1332260703,
-            "length": 3601
-          },
-          "44062": {
-            "pageid": 44062,
-            "ns": 0,
-            "title": "X-ray astronomy",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-15T01:14:25Z",
-            "lastrevid": 1370792160,
-            "length": 67984
-          },
-          "9917583": {
-            "pageid": 9917583,
-            "ns": 0,
-            "title": "X-ray diffraction",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-15T19:45:33Z",
-            "lastrevid": 1374867018,
-            "length": 33231
-          },
-          "72048": {
-            "pageid": 72048,
-            "ns": 0,
-            "title": "X-ray fluorescence",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-16T18:07:32Z",
-            "lastrevid": 1361269241,
-            "length": 47954
-          },
-          "2125793": {
-            "pageid": 2125793,
-            "ns": 0,
-            "title": "X-ray fluorescence holography",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-12T04:45:13Z",
-            "lastrevid": 1314923468,
-            "length": 2645
-          },
-          "26418605": {
-            "pageid": 26418605,
-            "ns": 0,
-            "title": "X-ray lithography",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-12T02:11:24Z",
-            "lastrevid": 1335953444,
-            "length": 12230
-          },
-          "907899": {
-            "pageid": 907899,
-            "ns": 0,
-            "title": "X-ray tube",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-15T01:15:16Z",
-            "lastrevid": 1354055378,
-            "length": 22185
-          },
-          "14092434": {
-            "pageid": 14092434,
-            "ns": 0,
-            "title": "Bibcode",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-02T17:19:18Z",
-            "lastrevid": 1370653199,
-            "length": 7378
-          },
-          "421940": {
-            "pageid": 421940,
-            "ns": 0,
-            "title": "Bragg's law",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-12T00:44:42Z",
-            "lastrevid": 1361393274,
-            "length": 23416
-          },
-          "7376": {
-            "pageid": 7376,
-            "ns": 0,
-            "title": "Cosmic microwave background",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-16T18:07:27Z",
-            "lastrevid": 1373604086,
-            "length": 112886
-          },
-          "11617": {
-            "pageid": 11617,
-            "ns": 0,
-            "title": "Feynman diagram",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-15T01:14:22Z",
-            "lastrevid": 1371495738,
-            "length": 94641
-          },
-          "438476": {
-            "pageid": 438476,
-            "ns": 0,
-            "title": "Path-integral formulation",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-16T10:53:20Z",
-            "lastrevid": 1371620849,
-            "length": 92164
-          },
-          "503009": {
-            "pageid": 503009,
-            "ns": 0,
-            "title": "PubMed",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-15T01:14:55Z",
-            "lastrevid": 1368613143,
-            "length": 39871
-          },
-          "95807": {
-            "pageid": 95807,
-            "ns": 0,
-            "title": "Radiography",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-16T19:58:46Z",
-            "lastrevid": 1368670264,
-            "length": 39949
-          }
-        }
-      }
-    },
-    {
-      "batchcomplete": "",
-      "query": {
-        "redirects": [
-          {
-            "from": "Visible light",
-            "to": "Light"
+            "from": "Scalar product",
+            "to": "Dot product"
           },
           {
             "from": "Conservation of momentum",
@@ -1296,13 +197,17 @@
             "tofragment": "Compton suppression"
           },
           {
-            "from": "ISSN (identifier)",
-            "to": "ISSN"
+            "from": "X-ray radiography",
+            "to": "Radiography"
           },
           {
-            "from": "X-Ray Fluorescence Imaging",
-            "to": "Confocal microscopy",
-            "tofragment": "Techniques used for horizontal scanning"
+            "from": "PMID (identifier)",
+            "to": "PubMed",
+            "tofragment": "PubMed identifier"
+          },
+          {
+            "from": "ISSN (identifier)",
+            "to": "ISSN"
           },
           {
             "from": "S2CID (identifier)",
@@ -1310,1419 +215,1282 @@
             "tofragment": "S2CID"
           },
           {
+            "from": "Doi (identifier)",
+            "to": "Digital object identifier"
+          },
+          {
+            "from": "Bibcode (identifier)",
+            "to": "Bibcode"
+          },
+          {
             "from": "Soft x-ray microscopy",
             "to": "Soft X-ray microscopy"
+          },
+          {
+            "from": "Path integral formulation",
+            "to": "Path-integral formulation"
           }
         ],
-        "pages": {
-          "18482489": {
-            "pageid": 18482489,
+        "pages": [
+          {
+            "pageid": 736,
             "ns": 0,
-            "title": "Absorption edge",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-12T01:53:54Z",
-            "lastrevid": 1301311489,
-            "length": 2760
+            "title": "Albert Einstein"
           },
-          "48400112": {
-            "pageid": 48400112,
-            "ns": 0,
-            "title": "Accretion disk",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-15T01:22:24Z",
-            "lastrevid": 1372879199,
-            "length": 35600
-          },
-          "432000": {
-            "pageid": 432000,
-            "ns": 0,
-            "title": "Arthur Compton",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-16T16:12:24Z",
-            "lastrevid": 1375235161,
-            "length": 46852
-          },
-          "2389": {
+          {
             "pageid": 2389,
             "ns": 0,
-            "title": "Auger effect",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-12T00:40:48Z",
-            "lastrevid": 1332971839,
-            "length": 6091
+            "title": "Auger effect"
           },
-          "1235271": {
-            "pageid": 1235271,
+          {
+            "pageid": 9476,
             "ns": 0,
-            "title": "Betatron",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-15T19:45:31Z",
-            "lastrevid": 1354868140,
-            "length": 12617
+            "title": "Electron"
           },
-          "42801222": {
-            "pageid": 42801222,
+          {
+            "pageid": 9649,
             "ns": 0,
-            "title": "Breit–Wheeler process",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-12T02:41:03Z",
-            "lastrevid": 1373726460,
-            "length": 19585
+            "title": "Energy"
           },
-          "54147": {
-            "pageid": 54147,
-            "ns": 0,
-            "title": "Bremsstrahlung",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-16T18:07:31Z",
-            "lastrevid": 1371601249,
-            "length": 52783
-          },
-          "426219": {
-            "pageid": 426219,
-            "ns": 0,
-            "title": "Classical electromagnetism",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-12T00:44:44Z",
-            "lastrevid": 1361185145,
-            "length": 13602
-          },
-          "543428": {
-            "pageid": 543428,
-            "ns": 0,
-            "title": "Compton Gamma Ray Observatory",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-15T01:14:57Z",
-            "lastrevid": 1373236638,
-            "length": 21784
-          },
-          "1474467": {
-            "pageid": 1474467,
-            "ns": 0,
-            "title": "Compton wavelength",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-02T16:34:54Z",
-            "lastrevid": 1362314248,
-            "length": 8896
-          },
-          "67088": {
-            "pageid": 67088,
-            "ns": 0,
-            "title": "Conservation of energy",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-16T18:07:32Z",
-            "lastrevid": 1370455457,
-            "length": 48829
-          },
-          "73438573": {
-            "pageid": 73438573,
-            "ns": 0,
-            "title": "Dark-field X-ray microscopy",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-15T01:23:40Z",
-            "lastrevid": 1369612982,
-            "length": 37803
-          },
-          "9463516": {
-            "pageid": 9463516,
-            "ns": 0,
-            "title": "Delbrück scattering",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-16T18:10:30Z",
-            "lastrevid": 1356233698,
-            "length": 16208
-          },
-          "54507206": {
-            "pageid": 54507206,
-            "ns": 0,
-            "title": "Dual photon",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-16T18:17:50Z",
-            "lastrevid": 1355473436,
-            "length": 11361
-          },
-          "65907": {
-            "pageid": 65907,
-            "ns": 0,
-            "title": "Elastic collision",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-16T10:53:13Z",
-            "lastrevid": 1351860510,
-            "length": 27231
-          },
-          "671768": {
-            "pageid": 671768,
-            "ns": 0,
-            "title": "Faddeev–Popov ghost",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-12T00:46:05Z",
-            "lastrevid": 1289428807,
-            "length": 9393
-          },
-          "66294087": {
-            "pageid": 66294087,
-            "ns": 0,
-            "title": "Furry's theorem",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-12T03:11:49Z",
-            "lastrevid": 1313930151,
-            "length": 9740
-          },
-          "1744922": {
-            "pageid": 1744922,
-            "ns": 0,
-            "title": "Gamma spectroscopy",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-12T00:50:15Z",
-            "lastrevid": 1370886012,
-            "length": 27696
-          },
-          "19606838": {
-            "pageid": 19606838,
-            "ns": 0,
-            "title": "Grazing-incidence small-angle scattering",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-12T01:57:31Z",
-            "lastrevid": 1354996370,
-            "length": 17395
-          },
-          "78738": {
-            "pageid": 78738,
-            "ns": 0,
-            "title": "Hans Geiger",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-16T18:07:33Z",
-            "lastrevid": 1372002909,
-            "length": 12257
-          },
-          "25119101": {
-            "pageid": 25119101,
-            "ns": 0,
-            "title": "History of X-ray astronomy",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-14T19:36:12Z",
-            "lastrevid": 1318179987,
-            "length": 53978
-          },
-          "698711": {
-            "pageid": 698711,
-            "ns": 0,
-            "title": "Landau pole",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-12T00:44:28Z",
-            "lastrevid": 1368600217,
-            "length": 20764
-          },
-          "11145154": {
-            "pageid": 11145154,
-            "ns": 0,
-            "title": "Photodisintegration",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-12T01:30:30Z",
-            "lastrevid": 1372961024,
-            "length": 9513
-          },
-          "1231776": {
-            "pageid": 1231776,
-            "ns": 0,
-            "title": "Photoionization",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-12T00:48:26Z",
-            "lastrevid": 1371696652,
-            "length": 7395
-          },
-          "24731": {
-            "pageid": 24731,
-            "ns": 0,
-            "title": "Positron",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-15T01:14:23Z",
-            "lastrevid": 1374830978,
-            "length": 36214
-          },
-          "9934503": {
-            "pageid": 9934503,
-            "ns": 0,
-            "title": "Radiation damage",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-15T01:17:45Z",
-            "lastrevid": 1345045075,
-            "length": 39346
-          },
-          "210960": {
-            "pageid": 210960,
-            "ns": 0,
-            "title": "Recoil",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-12T00:43:31Z",
-            "lastrevid": 1366933542,
-            "length": 32123
-          },
-          "83531730": {
-            "pageid": 83531730,
-            "ns": 0,
-            "title": "Relativistic reflection",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-02T19:28:07Z",
-            "lastrevid": 1371684690,
-            "length": 12762
-          },
-          "1931736": {
-            "pageid": 1931736,
-            "ns": 0,
-            "title": "Self-energy",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-12T00:50:57Z",
-            "lastrevid": 1371652259,
-            "length": 6227
-          },
-          "28736": {
-            "pageid": 28736,
-            "ns": 0,
-            "title": "Speed of light",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-16T18:07:29Z",
-            "lastrevid": 1375004944,
-            "length": 146781
-          },
-          "170808": {
-            "pageid": 170808,
-            "ns": 0,
-            "title": "Synchrotron radiation",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-16T18:07:37Z",
-            "lastrevid": 1370789764,
-            "length": 24428
-          },
-          "624714": {
-            "pageid": 624714,
-            "ns": 0,
-            "title": "Thomson scattering",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-12T00:45:49Z",
-            "lastrevid": 1348001870,
-            "length": 11852
-          },
-          "53764217": {
-            "pageid": 53764217,
-            "ns": 0,
-            "title": "Three-dimensional X-ray diffraction",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-02T18:45:32Z",
-            "lastrevid": 1369622047,
-            "length": 11913
-          },
-          "15354886": {
-            "pageid": 15354886,
-            "ns": 0,
-            "title": "Tomosynthesis",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-12T01:44:31Z",
-            "lastrevid": 1365858145,
-            "length": 16116
-          },
-          "1962960": {
-            "pageid": 1962960,
-            "ns": 0,
-            "title": "Two-photon physics",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-02T16:37:07Z",
-            "lastrevid": 1320647449,
-            "length": 13388
-          },
-          "1942246": {
-            "pageid": 1942246,
-            "ns": 0,
-            "title": "Vacuum polarization",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-16T10:53:33Z",
-            "lastrevid": 1368061381,
-            "length": 12927
-          },
-          "33125": {
-            "pageid": 33125,
-            "ns": 0,
-            "title": "Wavelength",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-15T01:14:24Z",
-            "lastrevid": 1373048908,
-            "length": 35972
-          },
-          "23538754": {
-            "pageid": 23538754,
-            "ns": 0,
-            "title": "Wayback Machine",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-16T18:13:06Z",
-            "lastrevid": 1375062360,
-            "length": 82754
-          },
-          "1178383": {
-            "pageid": 1178383,
-            "ns": 0,
-            "title": "Wu Youxun",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-16T19:58:58Z",
-            "lastrevid": 1372847233,
-            "length": 3909
-          },
-          "34197": {
-            "pageid": 34197,
-            "ns": 0,
-            "title": "X-ray",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-16T18:07:29Z",
-            "lastrevid": 1369977424,
-            "length": 120645
-          },
-          "2745361": {
-            "pageid": 2745361,
-            "ns": 0,
-            "title": "X-ray absorption spectroscopy",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-12T00:46:40Z",
-            "lastrevid": 1360601442,
-            "length": 9560
-          },
-          "156962": {
-            "pageid": 156962,
-            "ns": 0,
-            "title": "X-ray scattering techniques",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-15T01:14:36Z",
-            "lastrevid": 1346238121,
-            "length": 4898
-          },
-          "1186904": {
-            "pageid": 1186904,
-            "ns": 0,
-            "title": "Confocal microscopy",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-15T01:15:33Z",
-            "lastrevid": 1372678622,
-            "length": 47452
-          },
-          "5302681": {
-            "pageid": 5302681,
-            "ns": 0,
-            "title": "Electronic anticoincidence",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-02T16:49:28Z",
-            "lastrevid": 1237707316,
-            "length": 6878
-          },
-          "234930": {
-            "pageid": 234930,
-            "ns": 0,
-            "title": "ISSN",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-15T01:14:41Z",
-            "lastrevid": 1372580803,
-            "length": 22535
-          },
-          "17939": {
-            "pageid": 17939,
-            "ns": 0,
-            "title": "Light",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-12T00:40:58Z",
-            "lastrevid": 1374369149,
-            "length": 56152
-          },
-          "20431": {
+          {
             "pageid": 20431,
             "ns": 0,
-            "title": "Momentum",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-16T18:07:28Z",
-            "lastrevid": 1375083960,
-            "length": 75097
+            "title": "Momentum"
           },
-          "48455863": {
-            "pageid": 48455863,
+          {
+            "pageid": 25268,
             "ns": 0,
-            "title": "Semantic Scholar",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-16T18:16:59Z",
-            "lastrevid": 1373081340,
-            "length": 16528
+            "title": "Quantum electrodynamics"
           },
-          "4747255": {
+          {
+            "pageid": 26350,
+            "ns": 0,
+            "title": "Radiation therapy"
+          },
+          {
+            "pageid": 26962,
+            "ns": 0,
+            "title": "Special relativity"
+          },
+          {
+            "pageid": 44062,
+            "ns": 0,
+            "title": "X-ray astronomy"
+          },
+          {
+            "pageid": 58950,
+            "ns": 0,
+            "title": "Galaxy cluster"
+          },
+          {
+            "pageid": 67088,
+            "ns": 0,
+            "title": "Conservation of energy"
+          },
+          {
+            "pageid": 95807,
+            "ns": 0,
+            "title": "Radiography"
+          },
+          {
+            "pageid": 157093,
+            "ns": 0,
+            "title": "Dot product"
+          },
+          {
+            "pageid": 170808,
+            "ns": 0,
+            "title": "Synchrotron radiation"
+          },
+          {
+            "pageid": 192316,
+            "ns": 0,
+            "title": "Virtual particle"
+          },
+          {
+            "pageid": 209874,
+            "ns": 0,
+            "title": "Density functional theory"
+          },
+          {
+            "pageid": 234930,
+            "ns": 0,
+            "title": "ISSN"
+          },
+          {
+            "pageid": 240011,
+            "ns": 0,
+            "title": "Coherence (physics)"
+          },
+          {
+            "pageid": 422994,
+            "ns": 0,
+            "title": "Digital object identifier"
+          },
+          {
+            "pageid": 426219,
+            "ns": 0,
+            "title": "Classical electromagnetism"
+          },
+          {
+            "pageid": 432000,
+            "ns": 0,
+            "title": "Arthur Compton"
+          },
+          {
+            "pageid": 438476,
+            "ns": 0,
+            "title": "Path-integral formulation"
+          },
+          {
+            "pageid": 503009,
+            "ns": 0,
+            "title": "PubMed"
+          },
+          {
+            "pageid": 543428,
+            "ns": 0,
+            "title": "Compton Gamma Ray Observatory"
+          },
+          {
+            "pageid": 884142,
+            "ns": 0,
+            "title": "Klein–Nishina formula"
+          },
+          {
+            "pageid": 1203072,
+            "ns": 0,
+            "title": "Backscatter X-ray"
+          },
+          {
+            "pageid": 1206859,
+            "ns": 0,
+            "title": "Extended X-ray absorption fine structure"
+          },
+          {
+            "pageid": 1474467,
+            "ns": 0,
+            "title": "Compton wavelength"
+          },
+          {
+            "pageid": 1983277,
+            "ns": 0,
+            "title": "Moseley's law"
+          },
+          {
+            "pageid": 2125793,
+            "ns": 0,
+            "title": "X-ray fluorescence holography"
+          },
+          {
+            "pageid": 4249038,
+            "ns": 0,
+            "title": "Møller scattering"
+          },
+          {
             "pageid": 4747255,
             "ns": 0,
-            "title": "Soft X-ray microscopy",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-12T00:59:13Z",
-            "lastrevid": 1251681527,
-            "length": 7104
+            "title": "Soft X-ray microscopy"
+          },
+          {
+            "pageid": 5302681,
+            "ns": 0,
+            "title": "Electronic anticoincidence"
+          },
+          {
+            "pageid": 5421050,
+            "ns": 0,
+            "title": "Prentice Hall"
+          },
+          {
+            "pageid": 5669330,
+            "ns": 0,
+            "title": "Bhabha scattering"
+          },
+          {
+            "pageid": 13347268,
+            "ns": 0,
+            "title": "Radiobiology"
+          },
+          {
+            "pageid": 13768214,
+            "ns": 0,
+            "title": "K-edge"
+          },
+          {
+            "pageid": 14092434,
+            "ns": 0,
+            "title": "Bibcode"
+          },
+          {
+            "pageid": 16711283,
+            "ns": 0,
+            "title": "BKS theory"
+          },
+          {
+            "pageid": 18482489,
+            "ns": 0,
+            "title": "Absorption edge"
+          },
+          {
+            "pageid": 18928713,
+            "ns": 0,
+            "title": "Characteristic X-ray"
+          },
+          {
+            "pageid": 25472865,
+            "ns": 0,
+            "title": "Resonant inelastic X-ray scattering"
+          },
+          {
+            "pageid": 30250243,
+            "ns": 0,
+            "title": "Panoramic radiograph"
+          },
+          {
+            "pageid": 34317494,
+            "ns": 0,
+            "title": "QED vacuum"
+          },
+          {
+            "pageid": 36225667,
+            "ns": 0,
+            "title": "Schwinger limit"
+          },
+          {
+            "pageid": 42801222,
+            "ns": 0,
+            "title": "Breit–Wheeler process"
+          },
+          {
+            "pageid": 44592731,
+            "ns": 0,
+            "title": "Scanning transmission X-ray microscopy"
+          },
+          {
+            "pageid": 48455863,
+            "ns": 0,
+            "title": "Semantic Scholar"
+          },
+          {
+            "pageid": 67944697,
+            "ns": 0,
+            "title": "Non-linear inverse Compton scattering"
           }
-        }
+        ]
       }
     },
     {
-      "batchcomplete": "",
+      "batchcomplete": true,
       "query": {
         "redirects": [
           {
-            "from": "Scalar product",
-            "to": "Dot product"
+            "from": "Visible light",
+            "to": "Light"
+          },
+          {
+            "from": "Electromagnetic wave",
+            "to": "Electromagnetic radiation"
+          },
+          {
+            "from": "Timeline of cosmic microwave background astronomy",
+            "to": "Cosmic microwave background",
+            "tofragment": "Timeline of prediction, discovery and interpretation"
+          },
+          {
+            "from": "Helical CT",
+            "to": "Operation of computed tomography",
+            "tofragment": "Spiral"
+          },
+          {
+            "from": "OUP Oxford",
+            "to": "Oxford University Press"
+          },
+          {
+            "from": "Sunyaev–Zel'dovich effect",
+            "to": "Sunyaev–Zeldovich effect"
+          },
+          {
+            "from": "X-Ray Fluorescence Imaging",
+            "to": "Confocal microscopy",
+            "tofragment": "Techniques used for horizontal scanning"
+          }
+        ],
+        "pages": [
+          {
+            "pageid": 7376,
+            "ns": 0,
+            "title": "Cosmic microwave background"
+          },
+          {
+            "pageid": 9426,
+            "ns": 0,
+            "title": "Electromagnetic radiation"
+          },
+          {
+            "pageid": 17939,
+            "ns": 0,
+            "title": "Light"
+          },
+          {
+            "pageid": 26176,
+            "ns": 0,
+            "title": "Rayleigh scattering"
+          },
+          {
+            "pageid": 43709,
+            "ns": 0,
+            "title": "Radiation pressure"
+          },
+          {
+            "pageid": 44596,
+            "ns": 0,
+            "title": "Positronium"
+          },
+          {
+            "pageid": 48518,
+            "ns": 0,
+            "title": "Oxford University Press"
+          },
+          {
+            "pageid": 50982,
+            "ns": 0,
+            "title": "CT scan"
+          },
+          {
+            "pageid": 52497,
+            "ns": 0,
+            "title": "Nobel Prize in Physics"
+          },
+          {
+            "pageid": 54147,
+            "ns": 0,
+            "title": "Bremsstrahlung"
+          },
+          {
+            "pageid": 65908,
+            "ns": 0,
+            "title": "Inelastic collision"
+          },
+          {
+            "pageid": 72048,
+            "ns": 0,
+            "title": "X-ray fluorescence"
+          },
+          {
+            "pageid": 97193,
+            "ns": 0,
+            "title": "Wide-angle X-ray scattering"
+          },
+          {
+            "pageid": 140858,
+            "ns": 0,
+            "title": "Pair production"
+          },
+          {
+            "pageid": 156962,
+            "ns": 0,
+            "title": "X-ray scattering techniques"
+          },
+          {
+            "pageid": 377691,
+            "ns": 0,
+            "title": "Dual-energy X-ray absorptiometry"
+          },
+          {
+            "pageid": 419663,
+            "ns": 0,
+            "title": "Physical Review"
+          },
+          {
+            "pageid": 431369,
+            "ns": 0,
+            "title": "Sunyaev–Zeldovich effect"
+          },
+          {
+            "pageid": 460322,
+            "ns": 0,
+            "title": "Nuclear reaction"
+          },
+          {
+            "pageid": 568674,
+            "ns": 0,
+            "title": "Valence electron"
+          },
+          {
+            "pageid": 599215,
+            "ns": 0,
+            "title": "Synchrotron"
+          },
+          {
+            "pageid": 671768,
+            "ns": 0,
+            "title": "Faddeev–Popov ghost"
+          },
+          {
+            "pageid": 682642,
+            "ns": 0,
+            "title": "Energy-dispersive X-ray spectroscopy"
+          },
+          {
+            "pageid": 907899,
+            "ns": 0,
+            "title": "X-ray tube"
+          },
+          {
+            "pageid": 1074997,
+            "ns": 0,
+            "title": "Lamb shift"
+          },
+          {
+            "pageid": 1186904,
+            "ns": 0,
+            "title": "Confocal microscopy"
+          },
+          {
+            "pageid": 1235271,
+            "ns": 0,
+            "title": "Betatron"
+          },
+          {
+            "pageid": 1252256,
+            "ns": 0,
+            "title": "Inelastic scattering"
+          },
+          {
+            "pageid": 1942246,
+            "ns": 0,
+            "title": "Vacuum polarization"
+          },
+          {
+            "pageid": 1962960,
+            "ns": 0,
+            "title": "Two-photon physics"
+          },
+          {
+            "pageid": 2728068,
+            "ns": 0,
+            "title": "Anomalous magnetic dipole moment"
+          },
+          {
+            "pageid": 3553124,
+            "ns": 0,
+            "title": "X-ray reflectivity"
+          },
+          {
+            "pageid": 3801543,
+            "ns": 0,
+            "title": "X-ray telescope"
+          },
+          {
+            "pageid": 7078310,
+            "ns": 0,
+            "title": "Angle-resolved photoemission spectroscopy"
+          },
+          {
+            "pageid": 9917583,
+            "ns": 0,
+            "title": "X-ray diffraction"
+          },
+          {
+            "pageid": 11145154,
+            "ns": 0,
+            "title": "Photodisintegration"
+          },
+          {
+            "pageid": 13751165,
+            "ns": 0,
+            "title": "Coherent diffraction imaging"
+          },
+          {
+            "pageid": 21144218,
+            "ns": 0,
+            "title": "Electron mass"
+          },
+          {
+            "pageid": 23538754,
+            "ns": 0,
+            "title": "Wayback Machine"
+          },
+          {
+            "pageid": 25119101,
+            "ns": 0,
+            "title": "History of X-ray astronomy"
+          },
+          {
+            "pageid": 26732647,
+            "ns": 0,
+            "title": "Photofission"
+          },
+          {
+            "pageid": 30863437,
+            "ns": 0,
+            "title": "Ward–Takahashi identity"
+          },
+          {
+            "pageid": 35154335,
+            "ns": 0,
+            "title": "Phase-contrast X-ray imaging"
+          },
+          {
+            "pageid": 47510943,
+            "ns": 0,
+            "title": "Fluctuation X-ray scattering"
+          },
+          {
+            "pageid": 48400112,
+            "ns": 0,
+            "title": "Accretion disk"
+          },
+          {
+            "pageid": 53764217,
+            "ns": 0,
+            "title": "Three-dimensional X-ray diffraction"
+          },
+          {
+            "pageid": 53857907,
+            "ns": 0,
+            "title": "Operation of computed tomography"
+          },
+          {
+            "pageid": 54507206,
+            "ns": 0,
+            "title": "Dual photon"
+          },
+          {
+            "pageid": 66294087,
+            "ns": 0,
+            "title": "Furry's theorem"
+          },
+          {
+            "pageid": 73438573,
+            "ns": 0,
+            "title": "Dark-field X-ray microscopy"
+          }
+        ]
+      }
+    },
+    {
+      "batchcomplete": true,
+      "query": {
+        "redirects": [
+          {
+            "from": "Feynman diagrams",
+            "to": "Feynman diagram"
+          },
+          {
+            "from": "Bragg scattering",
+            "to": "Bragg's law"
           },
           {
             "from": "Cosmic microwave background radiation",
             "to": "Cosmic microwave background"
           },
           {
-            "from": "Sunyaev–Zel'dovich effect",
-            "to": "Sunyaev–Zeldovich effect"
+            "from": "ArXiv (identifier)",
+            "to": "ArXiv"
           }
         ],
-        "pages": {
-          "50982": {
-            "pageid": 50982,
-            "ns": 0,
-            "title": "CT scan",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-16T18:07:31Z",
-            "lastrevid": 1374879112,
-            "length": 162260
-          },
-          "352541": {
-            "pageid": 352541,
-            "ns": 0,
-            "title": "Charged particle",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-02T16:29:17Z",
-            "lastrevid": 1248338598,
-            "length": 3225
-          },
-          "13751165": {
-            "pageid": 13751165,
-            "ns": 0,
-            "title": "Coherent diffraction imaging",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-12T01:39:41Z",
-            "lastrevid": 1369637368,
-            "length": 33698
-          },
-          "8093356": {
-            "pageid": 8093356,
-            "ns": 0,
-            "title": "Compton edge",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-02T16:59:57Z",
-            "lastrevid": 1357860549,
-            "length": 4269
-          },
-          "209874": {
-            "pageid": 209874,
-            "ns": 0,
-            "title": "Density functional theory",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-16T10:53:16Z",
-            "lastrevid": 1368998818,
-            "length": 78136
-          },
-          "377691": {
-            "pageid": 377691,
-            "ns": 0,
-            "title": "Dual-energy X-ray absorptiometry",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-15T01:14:50Z",
-            "lastrevid": 1373543006,
-            "length": 47287
-          },
-          "32891045": {
-            "pageid": 32891045,
-            "ns": 0,
-            "title": "Euler–Heisenberg Lagrangian",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-12T02:22:07Z",
-            "lastrevid": 1370519189,
-            "length": 10931
-          },
-          "1206859": {
-            "pageid": 1206859,
-            "ns": 0,
-            "title": "Extended X-ray absorption fine structure",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-15T01:15:34Z",
-            "lastrevid": 1366766650,
-            "length": 18517
-          },
-          "47510943": {
-            "pageid": 47510943,
-            "ns": 0,
-            "title": "Fluctuation X-ray scattering",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-16T20:26:47Z",
-            "lastrevid": 1360959950,
-            "length": 12249
-          },
-          "12366": {
-            "pageid": 12366,
-            "ns": 0,
-            "title": "Graphite",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-15T01:14:22Z",
-            "lastrevid": 1374090478,
-            "length": 77771
-          },
-          "19594213": {
-            "pageid": 19594213,
-            "ns": 0,
-            "title": "Planck constant",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-16T18:42:32Z",
-            "lastrevid": 1371503877,
-            "length": 46191
-          },
-          "44596": {
-            "pageid": 44596,
-            "ns": 0,
-            "title": "Positronium",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-12T00:41:18Z",
-            "lastrevid": 1373772514,
-            "length": 24307
-          },
-          "19397346": {
-            "pageid": 19397346,
-            "ns": 0,
-            "title": "Ptychography",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-16T18:12:25Z",
-            "lastrevid": 1374205555,
-            "length": 76299
-          },
-          "13347268": {
-            "pageid": 13347268,
-            "ns": 0,
-            "title": "Radiobiology",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-16T10:53:56Z",
-            "lastrevid": 1360731129,
-            "length": 32235
-          },
-          "44592731": {
-            "pageid": 44592731,
-            "ns": 0,
-            "title": "Scanning transmission X-ray microscopy",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-08-12T10:10:47Z",
-            "lastrevid": 1299553551,
-            "length": 6835
-          },
-          "3736887": {
-            "pageid": 3736887,
-            "ns": 0,
-            "title": "Schwinger effect",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-12T00:56:33Z",
-            "lastrevid": 1361457899,
-            "length": 13242
-          },
-          "33516": {
-            "pageid": 33516,
-            "ns": 0,
-            "title": "Wave",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-16T10:53:11Z",
-            "lastrevid": 1370558993,
-            "length": 68742
-          },
-          "70847": {
-            "pageid": 70847,
-            "ns": 0,
-            "title": "X-ray photoelectron spectroscopy",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-12T00:41:36Z",
-            "lastrevid": 1366153084,
-            "length": 46995
-          },
-          "3553124": {
-            "pageid": 3553124,
-            "ns": 0,
-            "title": "X-ray reflectivity",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-12T00:56:02Z",
-            "lastrevid": 1361335943,
-            "length": 17287
-          },
-          "7376": {
+        "pages": [
+          {
             "pageid": 7376,
             "ns": 0,
-            "title": "Cosmic microwave background",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-16T18:07:27Z",
-            "lastrevid": 1373604086,
-            "length": 112886
+            "title": "Cosmic microwave background"
           },
-          "157093": {
-            "pageid": 157093,
+          {
+            "pageid": 7480,
             "ns": 0,
-            "title": "Dot product",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-15T01:14:36Z",
-            "lastrevid": 1369650304,
-            "length": 29130
+            "title": "Cross section (physics)"
           },
-          "431369": {
-            "pageid": 431369,
+          {
+            "pageid": 7839,
             "ns": 0,
-            "title": "Sunyaev–Zeldovich effect",
-            "contentmodel": "wikitext",
-            "pagelanguage": "en",
-            "pagelanguagehtmlcode": "en",
-            "pagelanguagedir": "ltr",
-            "touched": "2026-09-12T01:02:22Z",
-            "lastrevid": 1369270101,
-            "length": 20995
+            "title": "Stellar corona"
+          },
+          {
+            "pageid": 11617,
+            "ns": 0,
+            "title": "Feynman diagram"
+          },
+          {
+            "pageid": 12366,
+            "ns": 0,
+            "title": "Graphite"
+          },
+          {
+            "pageid": 23535,
+            "ns": 0,
+            "title": "Photon"
+          },
+          {
+            "pageid": 23579,
+            "ns": 0,
+            "title": "Photoelectric effect"
+          },
+          {
+            "pageid": 24731,
+            "ns": 0,
+            "title": "Positron"
+          },
+          {
+            "pageid": 28736,
+            "ns": 0,
+            "title": "Speed of light"
+          },
+          {
+            "pageid": 33125,
+            "ns": 0,
+            "title": "Wavelength"
+          },
+          {
+            "pageid": 33516,
+            "ns": 0,
+            "title": "Wave"
+          },
+          {
+            "pageid": 34151,
+            "ns": 0,
+            "title": "X-ray crystallography"
+          },
+          {
+            "pageid": 34197,
+            "ns": 0,
+            "title": "X-ray"
+          },
+          {
+            "pageid": 36835,
+            "ns": 0,
+            "title": "Auger electron spectroscopy"
+          },
+          {
+            "pageid": 37067,
+            "ns": 0,
+            "title": "Peter Debye"
+          },
+          {
+            "pageid": 38751,
+            "ns": 0,
+            "title": "ArXiv"
+          },
+          {
+            "pageid": 41097,
+            "ns": 0,
+            "title": "Nuclear electromagnetic pulse"
+          },
+          {
+            "pageid": 46178,
+            "ns": 0,
+            "title": "SQUID"
+          },
+          {
+            "pageid": 58920,
+            "ns": 0,
+            "title": "Washington University in St. Louis"
+          },
+          {
+            "pageid": 65907,
+            "ns": 0,
+            "title": "Elastic collision"
+          },
+          {
+            "pageid": 70847,
+            "ns": 0,
+            "title": "X-ray photoelectron spectroscopy"
+          },
+          {
+            "pageid": 78738,
+            "ns": 0,
+            "title": "Hans Geiger"
+          },
+          {
+            "pageid": 222368,
+            "ns": 0,
+            "title": "American Physical Society"
+          },
+          {
+            "pageid": 352541,
+            "ns": 0,
+            "title": "Charged particle"
+          },
+          {
+            "pageid": 358425,
+            "ns": 0,
+            "title": "Walther Bothe"
+          },
+          {
+            "pageid": 361897,
+            "ns": 0,
+            "title": "Astrophysics"
+          },
+          {
+            "pageid": 421940,
+            "ns": 0,
+            "title": "Bragg's law"
+          },
+          {
+            "pageid": 624714,
+            "ns": 0,
+            "title": "Thomson scattering"
+          },
+          {
+            "pageid": 698711,
+            "ns": 0,
+            "title": "Landau pole"
+          },
+          {
+            "pageid": 1178383,
+            "ns": 0,
+            "title": "Wu Youxun"
+          },
+          {
+            "pageid": 1983173,
+            "ns": 0,
+            "title": "Siegbahn notation"
+          },
+          {
+            "pageid": 2745361,
+            "ns": 0,
+            "title": "X-ray absorption spectroscopy"
+          },
+          {
+            "pageid": 3736887,
+            "ns": 0,
+            "title": "Schwinger effect"
+          },
+          {
+            "pageid": 4055891,
+            "ns": 0,
+            "title": "High-energy X-rays"
+          },
+          {
+            "pageid": 4842312,
+            "ns": 0,
+            "title": "X-ray absorption near edge structure"
+          },
+          {
+            "pageid": 9463516,
+            "ns": 0,
+            "title": "Delbrück scattering"
+          },
+          {
+            "pageid": 9934503,
+            "ns": 0,
+            "title": "Radiation damage"
+          },
+          {
+            "pageid": 12235089,
+            "ns": 0,
+            "title": "Small-angle X-ray scattering"
+          },
+          {
+            "pageid": 15152001,
+            "ns": 0,
+            "title": "Anomalous X-ray scattering"
+          },
+          {
+            "pageid": 15354886,
+            "ns": 0,
+            "title": "Tomosynthesis"
+          },
+          {
+            "pageid": 18383939,
+            "ns": 0,
+            "title": "X-ray Raman scattering"
+          },
+          {
+            "pageid": 19397346,
+            "ns": 0,
+            "title": "Ptychography"
+          },
+          {
+            "pageid": 21787470,
+            "ns": 0,
+            "title": "Alpha particle"
+          },
+          {
+            "pageid": 24280199,
+            "ns": 0,
+            "title": "Metal L-edge"
+          },
+          {
+            "pageid": 24422329,
+            "ns": 0,
+            "title": "Diffraction tomography"
+          },
+          {
+            "pageid": 26418605,
+            "ns": 0,
+            "title": "X-ray lithography"
+          },
+          {
+            "pageid": 27806268,
+            "ns": 0,
+            "title": "Water window"
+          },
+          {
+            "pageid": 74714251,
+            "ns": 0,
+            "title": "X-ray diffraction computed tomography"
+          },
+          {
+            "pageid": 83531730,
+            "ns": 0,
+            "title": "Relativistic reflection"
           }
-        }
+        ]
+      }
+    },
+    {
+      "batchcomplete": true,
+      "query": {
+        "redirects": [
+          {
+            "from": "ISBN (identifier)",
+            "to": "ISBN"
+          }
+        ],
+        "pages": [
+          {
+            "pageid": 4650,
+            "ns": 0,
+            "title": "Black hole"
+          },
+          {
+            "pageid": 14919,
+            "ns": 0,
+            "title": "ISBN"
+          },
+          {
+            "pageid": 17556,
+            "ns": 0,
+            "title": "Laser"
+          },
+          {
+            "pageid": 25202,
+            "ns": 0,
+            "title": "Quantum mechanics"
+          },
+          {
+            "pageid": 164483,
+            "ns": 0,
+            "title": "Scattering"
+          },
+          {
+            "pageid": 210960,
+            "ns": 0,
+            "title": "Recoil"
+          },
+          {
+            "pageid": 379507,
+            "ns": 0,
+            "title": "Synchrotron light source"
+          },
+          {
+            "pageid": 432000,
+            "ns": 0,
+            "title": "Arthur Compton"
+          },
+          {
+            "pageid": 649723,
+            "ns": 0,
+            "title": "Physical Review Letters"
+          },
+          {
+            "pageid": 945656,
+            "ns": 0,
+            "title": "Free-electron laser"
+          },
+          {
+            "pageid": 1231776,
+            "ns": 0,
+            "title": "Photoionization"
+          },
+          {
+            "pageid": 1394454,
+            "ns": 0,
+            "title": "Vertex function"
+          },
+          {
+            "pageid": 1454093,
+            "ns": 0,
+            "title": "Gupta–Bleuler formalism"
+          },
+          {
+            "pageid": 1744922,
+            "ns": 0,
+            "title": "Gamma spectroscopy"
+          },
+          {
+            "pageid": 1931736,
+            "ns": 0,
+            "title": "Self-energy"
+          },
+          {
+            "pageid": 2875647,
+            "ns": 0,
+            "title": "Energy–momentum relation"
+          },
+          {
+            "pageid": 8093356,
+            "ns": 0,
+            "title": "Compton edge"
+          },
+          {
+            "pageid": 19594213,
+            "ns": 0,
+            "title": "Planck constant"
+          },
+          {
+            "pageid": 19606838,
+            "ns": 0,
+            "title": "Grazing-incidence small-angle scattering"
+          },
+          {
+            "pageid": 32891045,
+            "ns": 0,
+            "title": "Euler–Heisenberg Lagrangian"
+          },
+          {
+            "pageid": 38308976,
+            "ns": 0,
+            "title": "Energy-dispersive X-ray diffraction"
+          },
+          {
+            "pageid": 52670479,
+            "ns": 0,
+            "title": "Uehling potential"
+          }
+        ]
       }
     }
   ],
   "redirect_cache": {
-    "Alpha particle": {
-      "to": "Alpha particle",
+    "Scalar product": {
+      "to": "Dot product",
       "tofragment": ""
     },
-    "American Physical Society": {
-      "to": "American Physical Society",
+    "Conservation of momentum": {
+      "to": "Momentum",
+      "tofragment": "Conservation"
+    },
+    "Arthur Holly Compton": {
+      "to": "Arthur Compton",
       "tofragment": ""
     },
-    "Auger electron spectroscopy": {
-      "to": "Auger electron spectroscopy",
+    "Compton suppression": {
+      "to": "Electronic anticoincidence",
+      "tofragment": "Compton suppression"
+    },
+    "X-ray radiography": {
+      "to": "Radiography",
       "tofragment": ""
     },
-    "BKS theory": {
-      "to": "BKS theory",
+    "PMID (identifier)": {
+      "to": "PubMed",
+      "tofragment": "PubMed identifier"
+    },
+    "ISSN (identifier)": {
+      "to": "ISSN",
       "tofragment": ""
     },
-    "Backscatter X-ray": {
-      "to": "Backscatter X-ray",
-      "tofragment": ""
+    "S2CID (identifier)": {
+      "to": "Semantic Scholar",
+      "tofragment": "S2CID"
     },
-    "Bhabha scattering": {
-      "to": "Bhabha scattering",
-      "tofragment": ""
-    },
-    "Characteristic X-ray": {
-      "to": "Characteristic X-ray",
-      "tofragment": ""
-    },
-    "Electron": {
-      "to": "Electron",
-      "tofragment": ""
-    },
-    "Electron mass": {
-      "to": "Electron mass",
-      "tofragment": ""
-    },
-    "Energy-dispersive X-ray spectroscopy": {
-      "to": "Energy-dispersive X-ray spectroscopy",
-      "tofragment": ""
-    },
-    "Feynman diagram": {
-      "to": "Feynman diagram",
-      "tofragment": ""
-    },
-    "High-energy X-rays": {
-      "to": "High-energy X-rays",
-      "tofragment": ""
-    },
-    "K-edge": {
-      "to": "K-edge",
-      "tofragment": ""
-    },
-    "Klein–Nishina formula": {
-      "to": "Klein–Nishina formula",
-      "tofragment": ""
-    },
-    "Laser": {
-      "to": "Laser",
-      "tofragment": ""
-    },
-    "Nobel Prize in Physics": {
-      "to": "Nobel Prize in Physics",
-      "tofragment": ""
-    },
-    "Non-linear inverse Compton scattering": {
-      "to": "Non-linear inverse Compton scattering",
-      "tofragment": ""
-    },
-    "Nuclear electromagnetic pulse": {
-      "to": "Nuclear electromagnetic pulse",
-      "tofragment": ""
-    },
-    "Pair production": {
-      "to": "Pair production",
-      "tofragment": ""
-    },
-    "Panoramic radiograph": {
-      "to": "Panoramic radiograph",
-      "tofragment": ""
-    },
-    "Peter Debye": {
-      "to": "Peter Debye",
-      "tofragment": ""
-    },
-    "Photofission": {
-      "to": "Photofission",
-      "tofragment": ""
-    },
-    "Prentice Hall": {
-      "to": "Prentice Hall",
-      "tofragment": ""
-    },
-    "Quantum electrodynamics": {
-      "to": "Quantum electrodynamics",
-      "tofragment": ""
-    },
-    "Radiation pressure": {
-      "to": "Radiation pressure",
-      "tofragment": ""
-    },
-    "Radiation therapy": {
-      "to": "Radiation therapy",
-      "tofragment": ""
-    },
-    "Rayleigh scattering": {
-      "to": "Rayleigh scattering",
-      "tofragment": ""
-    },
-    "SQUID": {
-      "to": "SQUID",
-      "tofragment": ""
-    },
-    "Scattering": {
-      "to": "Scattering",
-      "tofragment": ""
-    },
-    "Schwinger limit": {
-      "to": "Schwinger limit",
-      "tofragment": ""
-    },
-    "Siegbahn notation": {
-      "to": "Siegbahn notation",
-      "tofragment": ""
-    },
-    "Stellar corona": {
-      "to": "Stellar corona",
-      "tofragment": ""
-    },
-    "Uehling potential": {
-      "to": "Uehling potential",
-      "tofragment": ""
-    },
-    "Valence electron": {
-      "to": "Valence electron",
-      "tofragment": ""
-    },
-    "Vertex function": {
-      "to": "Vertex function",
-      "tofragment": ""
-    },
-    "Walther Bothe": {
-      "to": "Walther Bothe",
-      "tofragment": ""
-    },
-    "Ward–Takahashi identity": {
-      "to": "Ward–Takahashi identity",
-      "tofragment": ""
-    },
-    "Washington University in St. Louis": {
-      "to": "Washington University in St. Louis",
-      "tofragment": ""
-    },
-    "Water window": {
-      "to": "Water window",
-      "tofragment": ""
-    },
-    "X-ray Raman scattering": {
-      "to": "X-ray Raman scattering",
-      "tofragment": ""
-    },
-    "X-ray absorption near edge structure": {
-      "to": "X-ray absorption near edge structure",
-      "tofragment": ""
-    },
-    "X-ray crystallography": {
-      "to": "X-ray crystallography",
-      "tofragment": ""
-    },
-    "X-ray diffraction computed tomography": {
-      "to": "X-ray diffraction computed tomography",
-      "tofragment": ""
-    },
-    "X-ray telescope": {
-      "to": "X-ray telescope",
-      "tofragment": ""
-    },
-    "ArXiv": {
-      "to": "ArXiv",
-      "tofragment": ""
-    },
-    "Digital object identifier": {
+    "Doi (identifier)": {
       "to": "Digital object identifier",
       "tofragment": ""
     },
-    "Electromagnetic radiation": {
-      "to": "Electromagnetic radiation",
+    "Bibcode (identifier)": {
+      "to": "Bibcode",
       "tofragment": ""
     },
-    "ISBN": {
-      "to": "ISBN",
+    "Soft x-ray microscopy": {
+      "to": "Soft X-ray microscopy",
       "tofragment": ""
     },
-    "Operation of computed tomography": {
-      "to": "Operation of computed tomography",
-      "tofragment": ""
-    },
-    "Oxford University Press": {
-      "to": "Oxford University Press",
-      "tofragment": ""
-    },
-    "Albert Einstein": {
-      "to": "Albert Einstein",
-      "tofragment": ""
-    },
-    "Angle-resolved photoemission spectroscopy": {
-      "to": "Angle-resolved photoemission spectroscopy",
-      "tofragment": ""
-    },
-    "Anomalous X-ray scattering": {
-      "to": "Anomalous X-ray scattering",
-      "tofragment": ""
-    },
-    "Anomalous magnetic dipole moment": {
-      "to": "Anomalous magnetic dipole moment",
-      "tofragment": ""
-    },
-    "Astrophysics": {
-      "to": "Astrophysics",
-      "tofragment": ""
-    },
-    "Black hole": {
-      "to": "Black hole",
-      "tofragment": ""
-    },
-    "Coherence (physics)": {
-      "to": "Coherence (physics)",
-      "tofragment": ""
-    },
-    "Cross section (physics)": {
-      "to": "Cross section (physics)",
-      "tofragment": ""
-    },
-    "Diffraction tomography": {
-      "to": "Diffraction tomography",
-      "tofragment": ""
-    },
-    "Energy": {
-      "to": "Energy",
-      "tofragment": ""
-    },
-    "Energy-dispersive X-ray diffraction": {
-      "to": "Energy-dispersive X-ray diffraction",
-      "tofragment": ""
-    },
-    "Energy–momentum relation": {
-      "to": "Energy–momentum relation",
-      "tofragment": ""
-    },
-    "Free-electron laser": {
-      "to": "Free-electron laser",
-      "tofragment": ""
-    },
-    "Galaxy cluster": {
-      "to": "Galaxy cluster",
-      "tofragment": ""
-    },
-    "Gupta–Bleuler formalism": {
-      "to": "Gupta–Bleuler formalism",
-      "tofragment": ""
-    },
-    "Inelastic collision": {
-      "to": "Inelastic collision",
-      "tofragment": ""
-    },
-    "Inelastic scattering": {
-      "to": "Inelastic scattering",
-      "tofragment": ""
-    },
-    "Lamb shift": {
-      "to": "Lamb shift",
-      "tofragment": ""
-    },
-    "Metal L-edge": {
-      "to": "Metal L-edge",
-      "tofragment": ""
-    },
-    "Momentum": {
-      "to": "Momentum",
-      "tofragment": ""
-    },
-    "Moseley's law": {
-      "to": "Moseley's law",
-      "tofragment": ""
-    },
-    "Møller scattering": {
-      "to": "Møller scattering",
-      "tofragment": ""
-    },
-    "Nuclear reaction": {
-      "to": "Nuclear reaction",
-      "tofragment": ""
-    },
-    "Phase-contrast X-ray imaging": {
-      "to": "Phase-contrast X-ray imaging",
-      "tofragment": ""
-    },
-    "Photoelectric effect": {
-      "to": "Photoelectric effect",
-      "tofragment": ""
-    },
-    "Photon": {
-      "to": "Photon",
-      "tofragment": ""
-    },
-    "Physical Review": {
-      "to": "Physical Review",
-      "tofragment": ""
-    },
-    "Physical Review Letters": {
-      "to": "Physical Review Letters",
-      "tofragment": ""
-    },
-    "QED vacuum": {
-      "to": "QED vacuum",
-      "tofragment": ""
-    },
-    "Quantum mechanics": {
-      "to": "Quantum mechanics",
-      "tofragment": ""
-    },
-    "Resonant inelastic X-ray scattering": {
-      "to": "Resonant inelastic X-ray scattering",
-      "tofragment": ""
-    },
-    "Small-angle X-ray scattering": {
-      "to": "Small-angle X-ray scattering",
-      "tofragment": ""
-    },
-    "Special relativity": {
-      "to": "Special relativity",
-      "tofragment": ""
-    },
-    "Synchrotron": {
-      "to": "Synchrotron",
-      "tofragment": ""
-    },
-    "Synchrotron light source": {
-      "to": "Synchrotron light source",
-      "tofragment": ""
-    },
-    "Virtual particle": {
-      "to": "Virtual particle",
-      "tofragment": ""
-    },
-    "Wide-angle X-ray scattering": {
-      "to": "Wide-angle X-ray scattering",
-      "tofragment": ""
-    },
-    "X-ray astronomy": {
-      "to": "X-ray astronomy",
-      "tofragment": ""
-    },
-    "X-ray diffraction": {
-      "to": "X-ray diffraction",
-      "tofragment": ""
-    },
-    "X-ray fluorescence": {
-      "to": "X-ray fluorescence",
+    "Path integral formulation": {
+      "to": "Path-integral formulation",
       "tofragment": ""
     },
     "X-ray fluorescence holography": {
       "to": "X-ray fluorescence holography",
       "tofragment": ""
     },
-    "X-ray lithography": {
-      "to": "X-ray lithography",
+    "Coherence (physics)": {
+      "to": "Coherence (physics)",
       "tofragment": ""
     },
-    "X-ray tube": {
-      "to": "X-ray tube",
+    "Extended X-ray absorption fine structure": {
+      "to": "Extended X-ray absorption fine structure",
       "tofragment": ""
     },
-    "Bibcode": {
-      "to": "Bibcode",
+    "Resonant inelastic X-ray scattering": {
+      "to": "Resonant inelastic X-ray scattering",
       "tofragment": ""
     },
-    "Bragg's law": {
-      "to": "Bragg's law",
-      "tofragment": ""
-    },
-    "Cosmic microwave background": {
-      "to": "Cosmic microwave background",
-      "tofragment": ""
-    },
-    "Path-integral formulation": {
-      "to": "Path-integral formulation",
-      "tofragment": ""
-    },
-    "PubMed": {
-      "to": "PubMed",
-      "tofragment": ""
-    },
-    "Radiography": {
-      "to": "Radiography",
-      "tofragment": ""
-    },
-    "Absorption edge": {
-      "to": "Absorption edge",
-      "tofragment": ""
-    },
-    "Accretion disk": {
-      "to": "Accretion disk",
-      "tofragment": ""
-    },
-    "Arthur Compton": {
-      "to": "Arthur Compton",
-      "tofragment": ""
-    },
-    "Auger effect": {
-      "to": "Auger effect",
-      "tofragment": ""
-    },
-    "Betatron": {
-      "to": "Betatron",
-      "tofragment": ""
-    },
-    "Breit–Wheeler process": {
-      "to": "Breit–Wheeler process",
-      "tofragment": ""
-    },
-    "Bremsstrahlung": {
-      "to": "Bremsstrahlung",
+    "Energy": {
+      "to": "Energy",
       "tofragment": ""
     },
     "Classical electromagnetism": {
       "to": "Classical electromagnetism",
       "tofragment": ""
     },
-    "Compton Gamma Ray Observatory": {
-      "to": "Compton Gamma Ray Observatory",
+    "Density functional theory": {
+      "to": "Density functional theory",
       "tofragment": ""
     },
-    "Compton wavelength": {
-      "to": "Compton wavelength",
+    "BKS theory": {
+      "to": "BKS theory",
+      "tofragment": ""
+    },
+    "Galaxy cluster": {
+      "to": "Galaxy cluster",
+      "tofragment": ""
+    },
+    "Panoramic radiograph": {
+      "to": "Panoramic radiograph",
+      "tofragment": ""
+    },
+    "Schwinger limit": {
+      "to": "Schwinger limit",
       "tofragment": ""
     },
     "Conservation of energy": {
       "to": "Conservation of energy",
       "tofragment": ""
     },
-    "Dark-field X-ray microscopy": {
-      "to": "Dark-field X-ray microscopy",
+    "Scanning transmission X-ray microscopy": {
+      "to": "Scanning transmission X-ray microscopy",
       "tofragment": ""
     },
-    "Delbrück scattering": {
-      "to": "Delbrück scattering",
+    "Møller scattering": {
+      "to": "Møller scattering",
       "tofragment": ""
     },
-    "Dual photon": {
-      "to": "Dual photon",
+    "Moseley's law": {
+      "to": "Moseley's law",
       "tofragment": ""
     },
-    "Elastic collision": {
-      "to": "Elastic collision",
+    "Electron": {
+      "to": "Electron",
       "tofragment": ""
     },
-    "Faddeev–Popov ghost": {
-      "to": "Faddeev–Popov ghost",
+    "X-ray astronomy": {
+      "to": "X-ray astronomy",
       "tofragment": ""
     },
-    "Furry's theorem": {
-      "to": "Furry's theorem",
+    "K-edge": {
+      "to": "K-edge",
       "tofragment": ""
     },
-    "Gamma spectroscopy": {
-      "to": "Gamma spectroscopy",
+    "Backscatter X-ray": {
+      "to": "Backscatter X-ray",
       "tofragment": ""
     },
-    "Grazing-incidence small-angle scattering": {
-      "to": "Grazing-incidence small-angle scattering",
+    "Quantum electrodynamics": {
+      "to": "Quantum electrodynamics",
       "tofragment": ""
     },
-    "Hans Geiger": {
-      "to": "Hans Geiger",
+    "Special relativity": {
+      "to": "Special relativity",
       "tofragment": ""
     },
-    "History of X-ray astronomy": {
-      "to": "History of X-ray astronomy",
+    "Klein–Nishina formula": {
+      "to": "Klein–Nishina formula",
       "tofragment": ""
     },
-    "Landau pole": {
-      "to": "Landau pole",
+    "Prentice Hall": {
+      "to": "Prentice Hall",
       "tofragment": ""
     },
-    "Photodisintegration": {
-      "to": "Photodisintegration",
+    "Albert Einstein": {
+      "to": "Albert Einstein",
       "tofragment": ""
     },
-    "Photoionization": {
-      "to": "Photoionization",
+    "Characteristic X-ray": {
+      "to": "Characteristic X-ray",
       "tofragment": ""
     },
-    "Positron": {
-      "to": "Positron",
+    "Auger effect": {
+      "to": "Auger effect",
       "tofragment": ""
     },
-    "Radiation damage": {
-      "to": "Radiation damage",
+    "Radiobiology": {
+      "to": "Radiobiology",
       "tofragment": ""
     },
-    "Recoil": {
-      "to": "Recoil",
+    "Virtual particle": {
+      "to": "Virtual particle",
       "tofragment": ""
     },
-    "Relativistic reflection": {
-      "to": "Relativistic reflection",
+    "Absorption edge": {
+      "to": "Absorption edge",
       "tofragment": ""
     },
-    "Self-energy": {
-      "to": "Self-energy",
+    "Momentum": {
+      "to": "Momentum",
       "tofragment": ""
     },
-    "Speed of light": {
-      "to": "Speed of light",
+    "Breit–Wheeler process": {
+      "to": "Breit–Wheeler process",
+      "tofragment": ""
+    },
+    "Compton Gamma Ray Observatory": {
+      "to": "Compton Gamma Ray Observatory",
       "tofragment": ""
     },
     "Synchrotron radiation": {
       "to": "Synchrotron radiation",
       "tofragment": ""
     },
-    "Thomson scattering": {
-      "to": "Thomson scattering",
+    "Bhabha scattering": {
+      "to": "Bhabha scattering",
+      "tofragment": ""
+    },
+    "QED vacuum": {
+      "to": "QED vacuum",
+      "tofragment": ""
+    },
+    "Radiation therapy": {
+      "to": "Radiation therapy",
+      "tofragment": ""
+    },
+    "Non-linear inverse Compton scattering": {
+      "to": "Non-linear inverse Compton scattering",
+      "tofragment": ""
+    },
+    "Compton wavelength": {
+      "to": "Compton wavelength",
+      "tofragment": ""
+    },
+    "Visible light": {
+      "to": "Light",
+      "tofragment": ""
+    },
+    "Electromagnetic wave": {
+      "to": "Electromagnetic radiation",
+      "tofragment": ""
+    },
+    "Timeline of cosmic microwave background astronomy": {
+      "to": "Cosmic microwave background",
+      "tofragment": "Timeline of prediction, discovery and interpretation"
+    },
+    "Helical CT": {
+      "to": "Operation of computed tomography",
+      "tofragment": "Spiral"
+    },
+    "OUP Oxford": {
+      "to": "Oxford University Press",
+      "tofragment": ""
+    },
+    "Sunyaev–Zel'dovich effect": {
+      "to": "Sunyaev–Zeldovich effect",
+      "tofragment": ""
+    },
+    "X-Ray Fluorescence Imaging": {
+      "to": "Confocal microscopy",
+      "tofragment": "Techniques used for horizontal scanning"
+    },
+    "Pair production": {
+      "to": "Pair production",
+      "tofragment": ""
+    },
+    "Furry's theorem": {
+      "to": "Furry's theorem",
+      "tofragment": ""
+    },
+    "Electron mass": {
+      "to": "Electron mass",
+      "tofragment": ""
+    },
+    "Anomalous magnetic dipole moment": {
+      "to": "Anomalous magnetic dipole moment",
+      "tofragment": ""
+    },
+    "Synchrotron": {
+      "to": "Synchrotron",
+      "tofragment": ""
+    },
+    "Rayleigh scattering": {
+      "to": "Rayleigh scattering",
+      "tofragment": ""
+    },
+    "Coherent diffraction imaging": {
+      "to": "Coherent diffraction imaging",
       "tofragment": ""
     },
     "Three-dimensional X-ray diffraction": {
       "to": "Three-dimensional X-ray diffraction",
       "tofragment": ""
     },
-    "Tomosynthesis": {
-      "to": "Tomosynthesis",
+    "Nobel Prize in Physics": {
+      "to": "Nobel Prize in Physics",
+      "tofragment": ""
+    },
+    "X-ray reflectivity": {
+      "to": "X-ray reflectivity",
+      "tofragment": ""
+    },
+    "Energy-dispersive X-ray spectroscopy": {
+      "to": "Energy-dispersive X-ray spectroscopy",
+      "tofragment": ""
+    },
+    "Radiation pressure": {
+      "to": "Radiation pressure",
+      "tofragment": ""
+    },
+    "Accretion disk": {
+      "to": "Accretion disk",
+      "tofragment": ""
+    },
+    "Physical Review": {
+      "to": "Physical Review",
+      "tofragment": ""
+    },
+    "X-ray diffraction": {
+      "to": "X-ray diffraction",
+      "tofragment": ""
+    },
+    "Dual photon": {
+      "to": "Dual photon",
+      "tofragment": ""
+    },
+    "Inelastic collision": {
+      "to": "Inelastic collision",
+      "tofragment": ""
+    },
+    "Faddeev–Popov ghost": {
+      "to": "Faddeev–Popov ghost",
+      "tofragment": ""
+    },
+    "CT scan": {
+      "to": "CT scan",
+      "tofragment": ""
+    },
+    "Positronium": {
+      "to": "Positronium",
+      "tofragment": ""
+    },
+    "Betatron": {
+      "to": "Betatron",
+      "tofragment": ""
+    },
+    "Angle-resolved photoemission spectroscopy": {
+      "to": "Angle-resolved photoemission spectroscopy",
+      "tofragment": ""
+    },
+    "Wayback Machine": {
+      "to": "Wayback Machine",
+      "tofragment": ""
+    },
+    "Lamb shift": {
+      "to": "Lamb shift",
+      "tofragment": ""
+    },
+    "Bremsstrahlung": {
+      "to": "Bremsstrahlung",
       "tofragment": ""
     },
     "Two-photon physics": {
@@ -2733,16 +1501,188 @@
       "to": "Vacuum polarization",
       "tofragment": ""
     },
+    "X-ray telescope": {
+      "to": "X-ray telescope",
+      "tofragment": ""
+    },
+    "Photodisintegration": {
+      "to": "Photodisintegration",
+      "tofragment": ""
+    },
+    "Phase-contrast X-ray imaging": {
+      "to": "Phase-contrast X-ray imaging",
+      "tofragment": ""
+    },
+    "Fluctuation X-ray scattering": {
+      "to": "Fluctuation X-ray scattering",
+      "tofragment": ""
+    },
+    "Dark-field X-ray microscopy": {
+      "to": "Dark-field X-ray microscopy",
+      "tofragment": ""
+    },
+    "Wide-angle X-ray scattering": {
+      "to": "Wide-angle X-ray scattering",
+      "tofragment": ""
+    },
+    "Photofission": {
+      "to": "Photofission",
+      "tofragment": ""
+    },
+    "Nuclear reaction": {
+      "to": "Nuclear reaction",
+      "tofragment": ""
+    },
+    "Inelastic scattering": {
+      "to": "Inelastic scattering",
+      "tofragment": ""
+    },
+    "X-ray tube": {
+      "to": "X-ray tube",
+      "tofragment": ""
+    },
+    "Ward–Takahashi identity": {
+      "to": "Ward–Takahashi identity",
+      "tofragment": ""
+    },
+    "Dual-energy X-ray absorptiometry": {
+      "to": "Dual-energy X-ray absorptiometry",
+      "tofragment": ""
+    },
+    "X-ray scattering techniques": {
+      "to": "X-ray scattering techniques",
+      "tofragment": ""
+    },
+    "History of X-ray astronomy": {
+      "to": "History of X-ray astronomy",
+      "tofragment": ""
+    },
+    "X-ray fluorescence": {
+      "to": "X-ray fluorescence",
+      "tofragment": ""
+    },
+    "Valence electron": {
+      "to": "Valence electron",
+      "tofragment": ""
+    },
+    "Feynman diagrams": {
+      "to": "Feynman diagram",
+      "tofragment": ""
+    },
+    "Bragg scattering": {
+      "to": "Bragg's law",
+      "tofragment": ""
+    },
+    "Cosmic microwave background radiation": {
+      "to": "Cosmic microwave background",
+      "tofragment": ""
+    },
+    "ArXiv (identifier)": {
+      "to": "ArXiv",
+      "tofragment": ""
+    },
+    "X-ray absorption near edge structure": {
+      "to": "X-ray absorption near edge structure",
+      "tofragment": ""
+    },
+    "Speed of light": {
+      "to": "Speed of light",
+      "tofragment": ""
+    },
+    "Metal L-edge": {
+      "to": "Metal L-edge",
+      "tofragment": ""
+    },
+    "Ptychography": {
+      "to": "Ptychography",
+      "tofragment": ""
+    },
+    "Auger electron spectroscopy": {
+      "to": "Auger electron spectroscopy",
+      "tofragment": ""
+    },
     "Wavelength": {
       "to": "Wavelength",
       "tofragment": ""
     },
-    "Wayback Machine": {
-      "to": "Wayback Machine",
+    "Photoelectric effect": {
+      "to": "Photoelectric effect",
       "tofragment": ""
     },
-    "Wu Youxun": {
-      "to": "Wu Youxun",
+    "High-energy X-rays": {
+      "to": "High-energy X-rays",
+      "tofragment": ""
+    },
+    "Wave": {
+      "to": "Wave",
+      "tofragment": ""
+    },
+    "Diffraction tomography": {
+      "to": "Diffraction tomography",
+      "tofragment": ""
+    },
+    "Schwinger effect": {
+      "to": "Schwinger effect",
+      "tofragment": ""
+    },
+    "Alpha particle": {
+      "to": "Alpha particle",
+      "tofragment": ""
+    },
+    "Relativistic reflection": {
+      "to": "Relativistic reflection",
+      "tofragment": ""
+    },
+    "Delbrück scattering": {
+      "to": "Delbrück scattering",
+      "tofragment": ""
+    },
+    "Cross section (physics)": {
+      "to": "Cross section (physics)",
+      "tofragment": ""
+    },
+    "X-ray photoelectron spectroscopy": {
+      "to": "X-ray photoelectron spectroscopy",
+      "tofragment": ""
+    },
+    "Washington University in St. Louis": {
+      "to": "Washington University in St. Louis",
+      "tofragment": ""
+    },
+    "Water window": {
+      "to": "Water window",
+      "tofragment": ""
+    },
+    "Charged particle": {
+      "to": "Charged particle",
+      "tofragment": ""
+    },
+    "Thomson scattering": {
+      "to": "Thomson scattering",
+      "tofragment": ""
+    },
+    "Graphite": {
+      "to": "Graphite",
+      "tofragment": ""
+    },
+    "Small-angle X-ray scattering": {
+      "to": "Small-angle X-ray scattering",
+      "tofragment": ""
+    },
+    "Tomosynthesis": {
+      "to": "Tomosynthesis",
+      "tofragment": ""
+    },
+    "X-ray Raman scattering": {
+      "to": "X-ray Raman scattering",
+      "tofragment": ""
+    },
+    "Peter Debye": {
+      "to": "Peter Debye",
+      "tofragment": ""
+    },
+    "Hans Geiger": {
+      "to": "Hans Geiger",
       "tofragment": ""
     },
     "X-ray": {
@@ -2753,116 +1693,164 @@
       "to": "X-ray absorption spectroscopy",
       "tofragment": ""
     },
-    "X-ray scattering techniques": {
-      "to": "X-ray scattering techniques",
+    "American Physical Society": {
+      "to": "American Physical Society",
       "tofragment": ""
     },
-    "Confocal microscopy": {
-      "to": "Confocal microscopy",
+    "Positron": {
+      "to": "Positron",
       "tofragment": ""
     },
-    "Electronic anticoincidence": {
-      "to": "Electronic anticoincidence",
+    "Radiation damage": {
+      "to": "Radiation damage",
       "tofragment": ""
     },
-    "ISSN": {
-      "to": "ISSN",
+    "Anomalous X-ray scattering": {
+      "to": "Anomalous X-ray scattering",
       "tofragment": ""
     },
-    "Light": {
-      "to": "Light",
+    "Walther Bothe": {
+      "to": "Walther Bothe",
       "tofragment": ""
     },
-    "Semantic Scholar": {
-      "to": "Semantic Scholar",
+    "X-ray diffraction computed tomography": {
+      "to": "X-ray diffraction computed tomography",
       "tofragment": ""
     },
-    "Soft X-ray microscopy": {
-      "to": "Soft X-ray microscopy",
+    "Stellar corona": {
+      "to": "Stellar corona",
       "tofragment": ""
     },
-    "CT scan": {
-      "to": "CT scan",
+    "X-ray crystallography": {
+      "to": "X-ray crystallography",
       "tofragment": ""
     },
-    "Charged particle": {
-      "to": "Charged particle",
+    "Astrophysics": {
+      "to": "Astrophysics",
       "tofragment": ""
     },
-    "Coherent diffraction imaging": {
-      "to": "Coherent diffraction imaging",
+    "X-ray lithography": {
+      "to": "X-ray lithography",
       "tofragment": ""
     },
-    "Compton edge": {
-      "to": "Compton edge",
+    "SQUID": {
+      "to": "SQUID",
       "tofragment": ""
     },
-    "Density functional theory": {
-      "to": "Density functional theory",
+    "Photon": {
+      "to": "Photon",
       "tofragment": ""
     },
-    "Dual-energy X-ray absorptiometry": {
-      "to": "Dual-energy X-ray absorptiometry",
+    "Landau pole": {
+      "to": "Landau pole",
+      "tofragment": ""
+    },
+    "Siegbahn notation": {
+      "to": "Siegbahn notation",
+      "tofragment": ""
+    },
+    "Nuclear electromagnetic pulse": {
+      "to": "Nuclear electromagnetic pulse",
+      "tofragment": ""
+    },
+    "Wu Youxun": {
+      "to": "Wu Youxun",
+      "tofragment": ""
+    },
+    "Elastic collision": {
+      "to": "Elastic collision",
+      "tofragment": ""
+    },
+    "Feynman diagram": {
+      "to": "Feynman diagram",
+      "tofragment": ""
+    },
+    "ISBN (identifier)": {
+      "to": "ISBN",
+      "tofragment": ""
+    },
+    "Self-energy": {
+      "to": "Self-energy",
       "tofragment": ""
     },
     "Euler–Heisenberg Lagrangian": {
       "to": "Euler–Heisenberg Lagrangian",
       "tofragment": ""
     },
-    "Extended X-ray absorption fine structure": {
-      "to": "Extended X-ray absorption fine structure",
+    "Energy-dispersive X-ray diffraction": {
+      "to": "Energy-dispersive X-ray diffraction",
       "tofragment": ""
     },
-    "Fluctuation X-ray scattering": {
-      "to": "Fluctuation X-ray scattering",
+    "Vertex function": {
+      "to": "Vertex function",
       "tofragment": ""
     },
-    "Graphite": {
-      "to": "Graphite",
+    "Energy–momentum relation": {
+      "to": "Energy–momentum relation",
+      "tofragment": ""
+    },
+    "Grazing-incidence small-angle scattering": {
+      "to": "Grazing-incidence small-angle scattering",
+      "tofragment": ""
+    },
+    "Black hole": {
+      "to": "Black hole",
+      "tofragment": ""
+    },
+    "Arthur Compton": {
+      "to": "Arthur Compton",
+      "tofragment": ""
+    },
+    "Synchrotron light source": {
+      "to": "Synchrotron light source",
+      "tofragment": ""
+    },
+    "Compton edge": {
+      "to": "Compton edge",
+      "tofragment": ""
+    },
+    "Scattering": {
+      "to": "Scattering",
+      "tofragment": ""
+    },
+    "Gamma spectroscopy": {
+      "to": "Gamma spectroscopy",
+      "tofragment": ""
+    },
+    "Quantum mechanics": {
+      "to": "Quantum mechanics",
+      "tofragment": ""
+    },
+    "Photoionization": {
+      "to": "Photoionization",
+      "tofragment": ""
+    },
+    "Recoil": {
+      "to": "Recoil",
+      "tofragment": ""
+    },
+    "Free-electron laser": {
+      "to": "Free-electron laser",
+      "tofragment": ""
+    },
+    "Uehling potential": {
+      "to": "Uehling potential",
       "tofragment": ""
     },
     "Planck constant": {
       "to": "Planck constant",
       "tofragment": ""
     },
-    "Positronium": {
-      "to": "Positronium",
+    "Gupta–Bleuler formalism": {
+      "to": "Gupta–Bleuler formalism",
       "tofragment": ""
     },
-    "Ptychography": {
-      "to": "Ptychography",
+    "Laser": {
+      "to": "Laser",
       "tofragment": ""
     },
-    "Radiobiology": {
-      "to": "Radiobiology",
-      "tofragment": ""
-    },
-    "Scanning transmission X-ray microscopy": {
-      "to": "Scanning transmission X-ray microscopy",
-      "tofragment": ""
-    },
-    "Schwinger effect": {
-      "to": "Schwinger effect",
-      "tofragment": ""
-    },
-    "Wave": {
-      "to": "Wave",
-      "tofragment": ""
-    },
-    "X-ray photoelectron spectroscopy": {
-      "to": "X-ray photoelectron spectroscopy",
-      "tofragment": ""
-    },
-    "X-ray reflectivity": {
-      "to": "X-ray reflectivity",
-      "tofragment": ""
-    },
-    "Dot product": {
-      "to": "Dot product",
-      "tofragment": ""
-    },
-    "Sunyaev–Zeldovich effect": {
-      "to": "Sunyaev–Zeldovich effect",
+    "Physical Review Letters": {
+      "to": "Physical Review Letters",
       "tofragment": ""
     }
   },

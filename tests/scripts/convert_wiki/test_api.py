@@ -596,10 +596,11 @@ class TestResolveRedirectsWithRealResponses:
 
             get = MockGet()
 
-        # Collect titles the same way the snapshot test does.
-        html_path = _SNAPSHOT_DIR / f"{name}.input.html"
-        html = BeautifulSoup(html_path.read_text(encoding="UTF-8"), "html.parser")
-        titles = _mod._collect_link_titles(html)  # noqa: SLF001
+        # Replay the titles the fixture recorded as queried. Fixtures written
+        # before ``api_titles`` existed were recorded with a cold cache, so
+        # their cache keys are exactly that set.
+        api_titles = aux.get("api_titles")
+        titles = set(aux["redirect_cache"] if api_titles is None else api_titles)
 
         result = await _mod._resolve_redirects(  # noqa: SLF001
             cast(ClientSession, MockSession()),
@@ -624,6 +625,33 @@ class TestResolveRedirectsWithRealResponses:
 
         # All batches should have been consumed.
         assert call_index == total_calls
+
+
+class TestSnapshotAuxFixtures:
+    """Integrity checks for the snapshot aux fixtures.
+
+    An aux fixture only stays meaningful while it describes its own
+    ``input.html``: every collected link title must be cached, and the
+    recorded batches must be able to carry every queried title.
+    """
+
+    @pytest.mark.parametrize("name", _snapshot_aux_names())
+    def test_fixture_matches_input_html(self, name: str) -> None:
+        """The aux fixture must cover exactly the input HTML's link titles."""
+        aux = json.loads((_SNAPSHOT_DIR / f"{name}.aux.json").read_text("UTF-8"))
+        html = BeautifulSoup(
+            (_SNAPSHOT_DIR / f"{name}.input.html").read_text(encoding="UTF-8"),
+            "html.parser",
+        )
+        titles = _mod._collect_link_titles(html)  # noqa: SLF001
+
+        assert set(aux["redirect_cache"]) == set(titles)
+        api_titles = aux.get("api_titles")
+        if api_titles is not None:
+            assert set(api_titles) == set(titles)
+
+        per_request = config._API_MAX_TITLES_PER_REQUEST  # noqa: SLF001
+        assert len(aux["api_responses"]) == -(-len(titles) // per_request)
 
 
 class TestFetchRedirectStatus:

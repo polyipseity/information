@@ -2768,3 +2768,59 @@ async def test_sistersitebox_renders_single_blockquote_line(
     # Mirror the snapshot harness: pipeline output is stripped and ends
     # with a single trailing newline before linting.
     await _assert_markdownlint_clean(result.strip() + "\n", AnyioPath(tmp_path))
+
+
+@pytest.mark.anyio
+async def test_italic_sidebar_caption_keeps_br_and_emphasis(
+    converter: WikiHtmlConverter, tmp_path: PathLike[str]
+) -> None:
+    """An italic ``sidebar-caption`` keeps its emphasis and gets a ``<br/>``.
+
+    Regression: an inline italic style routes the div to the emphasis
+    handler, which previously bypassed the caption's ``<br/>`` separator.
+    """
+    html = (
+        '<table class="infobox"><tbody><tr>'
+        '<td class="sidebar-image">'
+        + _inline_math_span(r"\mathbf{F} = \frac{d\mathbf{p}}{dt}")
+        + '<div class="sidebar-caption" style="font-style: italic">'
+        '<a href="/wiki/Second_law_of_motion">Second law of motion</a>'
+        "</div>"
+        "</td>"
+        "</tr></tbody></table>"
+    )
+    result = await _convert(converter, html)
+    assert " <br/> _[Second law of motion](/wiki/Second_law_of_motion)_" in result
+    await _assert_markdownlint_clean(result.strip() + "\n", AnyioPath(tmp_path))
+
+
+@pytest.mark.anyio
+async def test_templatequote_joins_attribution_into_blockquote(
+    converter: WikiHtmlConverter, tmp_path: PathLike[str]
+) -> None:
+    """A ``blockquote.templatequote`` renders as a blockquote whose following
+    ``templatequotecite`` attribution joins the same block."""
+    html = (
+        '<blockquote class="templatequote"><p>Quoted text.</p></blockquote>'
+        '<div class="templatequotecite">— Author</div>'
+    )
+    result = await _convert(converter, html)
+    assert result.strip() == "> Quoted text.\n>\n> — Author"
+    await _assert_markdownlint_clean(result.strip() + "\n", AnyioPath(tmp_path))
+
+
+@pytest.mark.anyio
+async def test_selflink_fragment_without_page_name(
+    converter: WikiHtmlConverter,
+) -> None:
+    """``mw-selflink-fragment`` renders fragment-only without ``page_name``.
+
+    Regression: clipboard conversions pass no ``page_name``, so the class
+    itself must identify the anchor as the current page.
+    """
+    html = (
+        '<p><a rel="mw:WikiLink" href="/wiki/Current_Page#Properties" '
+        'class="mw-selflink-fragment">linearity</a></p>'
+    )
+    result = await _convert(converter, html)
+    assert "[linearity](#properties)" in result

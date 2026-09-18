@@ -413,6 +413,16 @@ class WikiHtmlConverter:
 
             process_strings = _hatnote_process
 
+        if (
+            "sidebar-caption" in classes or "infobox-caption" in classes
+        ) and self._in_table_cell(ele):
+            # Inside an infobox/sidebar cell, the caption follows the image
+            # or math on the same cell line; separate it with a ``<br/>``
+            # line break.  Applied after dispatch so it composes with the
+            # emphasis handler when the caption has an inline italic/bold
+            # style (which otherwise suppresses the div handler).
+            config.prefix = f" <br/> {config.prefix}" if config.prefix else " <br/> "
+
         if {"sidebar-navbar", "navbar"} & classes:
             parent = ele.parent
             while parent is not None:
@@ -704,9 +714,14 @@ class WikiHtmlConverter:
             if self._page_name
             else None
         )
-        if normalized_page and _fix_filename(to_filename) == _fix_filename(
+        # ``mw-selflink-fragment`` already identifies the anchor as the
+        # current page, so it renders as a fragment even when the caller
+        # did not supply ``page_name`` (e.g. clipboard conversion).
+        same_page = "mw-selflink-fragment" in classes or bool(
             normalized_page
-        ):
+            and _fix_filename(to_filename) == _fix_filename(normalized_page)
+        )
+        if same_page:
             target = (
                 f"#{_encode_fragment(norm_frag)}"
                 if norm_frag
@@ -1488,13 +1503,6 @@ class WikiHtmlConverter:
             return _HandlerConfig(
                 suffix="\n\n", process_strings=process_strings_thumbcaption
             )
-        if (
-            "sidebar-caption" in classes or "infobox-caption" in classes
-        ) and self._in_table_cell(ele):
-            # Inside an infobox/sidebar cell, the caption follows the image
-            # or math on the same cell line; separate it with a ``<br/>``
-            # line break (both elements are inline siblings in the same cell).
-            return _HandlerConfig(prefix=" <br/> ")
         if "portal-bar" in classes:
             # Portal-bar divs (e.g. the "Portals" section at the bottom of
             # Wikipedia articles) should render as a blockquote so each line
