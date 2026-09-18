@@ -56,17 +56,20 @@ def _iter_glob_patterns(spec: str) -> Iterable[tuple[str, bool]]:
         yield pattern, is_exclude
 
 
-async def _get_candidate_files() -> AsyncIterator[Path]:
+async def _get_candidate_files(spec: str = _GLOB_SPEC) -> AsyncIterator[Path]:
     """Yield files that should be executable, from gitignore-style globs.
 
-    The patterns are read from ``_GLOB_SPEC`` using :func:`_iter_glob_patterns`.
-    A path is considered a candidate if it matches at least one positive
-    pattern and is not later removed by an exclusion (``!``) pattern. The
-    yielded order preserves the first-match ordering from the include
-    patterns.
+    The patterns are read from ``spec`` using :func:`_iter_glob_patterns`.
+    A path is a candidate if it matches at least one positive pattern and no
+    exclusion (``!``) pattern.  The include patterns are collected first, so
+    the yielded order preserves their first-match ordering, and every
+    exclusion is then subtracted regardless of where it appears in the
+    specification.
     """
     root = Path(__file__).parent.parent  # repo root
-    yielded: set[Path] = set()
+    included: list[Path] = []
+    excluded: set[Path] = set()
+    seen: set[Path] = set()
 
     async def _iter_files(pattern: str) -> AsyncIterator[Path]:
         """Yield all files matching the given glob pattern, relative to the repo root."""
@@ -74,16 +77,17 @@ async def _get_candidate_files() -> AsyncIterator[Path]:
             if await p.is_file():
                 yield p
 
-    for pattern, is_exclude in _iter_glob_patterns(_GLOB_SPEC):
-        if is_exclude:
-            async for p in root.glob(pattern):
-                # Remove any file that has already been yielded.
-                yielded.discard(p)
-        else:
-            async for p in _iter_files(pattern):
-                if p not in yielded:
-                    yielded.add(p)
-                    yield p
+    for pattern, is_exclude in _iter_glob_patterns(spec):
+        async for p in _iter_files(pattern):
+            if is_exclude:
+                excluded.add(p)
+            elif p not in seen:
+                seen.add(p)
+                included.append(p)
+
+    for entry in included:
+        if entry not in excluded:
+            yield entry
 
 
 async def git_mode(path: Path) -> str | None:
@@ -194,3 +198,22 @@ async def test_git_mode_untracked(tmp_path: PathLike[str]) -> None:
             await unique_dir.rmdir()
         except Exception:
             pass
+
+
+def test_iter_glob_patterns_exclusions() -> None:
+    """Verify that include and exclusion patterns are parsed in order."""
+    spec = "# comment\n\nscripts/*.py\n!scripts/__init__.py\n"
+    assert list(_iter_glob_patterns(spec)) == [
+        ("scripts/*.py", False),
+        ("scripts/__init__.py", True),
+    ]
+
+
+@pytest.mark.anyio
+async def test_candidate_files_honour_exclusions() -> None:
+    """Verify that an exclusion removes a file from the candidate list."""
+    root = Path(__file__).parent.parent  # repo root
+    spec = "scripts/*.py\n!scripts/__init__.py"
+    candidates = {await entry.resolve() async for entry in _get_candidate_files(spec)}
+    assert (await (root / "scripts" / "pack.py").resolve()) in candidates
+    assert (await (root / "scripts" / "__init__.py").resolve()) not in candidates
