@@ -205,7 +205,7 @@ Flashcards for this section are as follows:
 
    - If the topic spans multiple sessions, add links under each relevant session, listing under each only the sections that session's material covered
 
-4. __Humanizer pass:__ cut the filler from the prose and the flashcards before validating — see "Humanizer pass" in `academic-ingest`.
+4. __Humanizer pass:__ sweep the prose and the flashcards separately before validating — the H1 intro and each section's prose first, then every card prompt and answer. See "Humanizer pass" in `academic-ingest`.
 
 5. __Validate:__ run `academic-lint` on the created file.
 

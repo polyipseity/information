@@ -144,6 +144,7 @@ Every line inside a blockquote must begin with `>` — including blank lines.
 - `{@{ }@}` must never appear inside `$…$` or `$$…$$` — wrap from outside
 - Place `}`@}` before trailing punctuation
 - Progressive difficulty: simple case first, then extend
+- __Verbosity pass:__ run it over the solution and explanation prose after inserting clozes. Keep the hint words that make each deletion answerable and drop the filler around them; text quoted from the official question stays verbatim (see "Humanizer pass" in `academic-ingest`).
 
 ## References
 

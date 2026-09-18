@@ -526,7 +526,7 @@ After creating a submission page, add child link to the parent `index.md` via `a
 
 ## Validation
 
-Run the humanizer pass over new or changed prose and flashcards (see "Humanizer pass" in `academic-ingest`), then `academic-lint` after every edit. If you know which files changed, pass those files specifically. Otherwise lint the whole course folder.
+Run the humanizer pass over new or changed prose and flashcards, focusing on your own solution prose and card answers — the question statement and anything else quoted from the paper stays verbatim (see "Humanizer pass" in `academic-ingest`), then `academic-lint` after every edit. If you know which files changed, pass those files specifically. Otherwise lint the whole course folder.
 
 ## References
 

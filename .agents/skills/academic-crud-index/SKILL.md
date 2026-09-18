@@ -110,7 +110,7 @@ The calling skill provides: target path, child name, child link path. This skill
 
 ## Validation
 
-Run the humanizer pass over new or changed prose and flashcards (see "Humanizer pass" in `academic-ingest`), then `academic-lint` after every edit. If you know which files changed, pass those files specifically. Otherwise lint the whole course folder.
+Run the humanizer pass over new or changed prose and flashcards, focusing on the description paragraph and any prose above `## children` — the rest of an index is links and metadata (see "Humanizer pass" in `academic-ingest`), then `academic-lint` after every edit. If you know which files changed, pass those files specifically. Otherwise lint the whole course folder.
 
 ## References
 

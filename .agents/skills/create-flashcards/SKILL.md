@@ -61,7 +61,7 @@ Invoke the skill when the user asks to “add flashcards”, “cloze this”, �
    - Preserve Markdown, KaTeX, links, and line ordering.  Lists are handled item‑by‑item unless an example demonstrates a combined deletion.
 5. __Apply the edits directly__ in the file and return the modified text.
    Provide alternate versions or explanations only if the user asks.
-6. __Run the verbosity pass__ over the new prose and cards: cut prompts that repeat their answer, answers that repeat their prompt, filler and trailing justification clauses, keeping every fact, the cloze/QA markup and LaTeX intact — see "Humanizer pass" in `academic-ingest`.
+6. __Run the verbosity pass__ over the new cards and the prose they came from: cut prompts that repeat their answer, answers that repeat their prompt, filler and trailing justification clauses; for clozes, keep the hint words that make the deletion answerable. Preserve every fact, the cloze/QA markup and LaTeX — see "Humanizer pass" in `academic-ingest`.
 
 ## Continuous improvement
 

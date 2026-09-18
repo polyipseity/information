@@ -404,7 +404,7 @@ __Placement rule__: Match the announcement to the session where the related cont
 
 ## Validation
 
-Run the humanizer pass over new or changed prose and flashcards (see "Humanizer pass" in `academic-ingest`), then `academic-lint` after every edit. If you know which files changed, pass those files specifically. Otherwise lint the whole course folder.
+Run the humanizer pass over new or changed prose and flashcards, focusing on the course description, the `## overview` bullets and the session `topic:` lines — an index is a reference, not a summary (see "Humanizer pass" in `academic-ingest`), then `academic-lint` after every edit. If you know which files changed, pass those files specifically. Otherwise lint the whole course folder.
 
 ## Missing data
 

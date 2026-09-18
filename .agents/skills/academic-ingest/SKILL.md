@@ -517,23 +517,41 @@ After the dispatched skill completes:
 4. Report what was created/updated with file paths
 5. Suggest next steps (e.g., "Add flashcards", "Update index")
 
+> __Legacy patterns:__ If you encounter deprecated content structures (flat `questions.md`, flat assignment directories, `transcripts/`), consult the `academic-deprecated` skill for migration guidance. Deprecated pattern detection is not part of ingestion classification — it is a separate maintenance concern.
+
 ### Humanizer pass
 
-Every note this skill dispatches to gets a verbosity-reduction pass over __both the prose and the flashcards__, using the `humanizer` skill. Run it once the content is written and before `academic-lint`.
+Every note this skill dispatches to gets a verbosity-reduction pass over __both the prose and the flashcards__, using the `humanizer` skill. Run it once the content is written and before `academic-lint`. Prose and cards fail differently, so make a separate sweep for each.
 
-Cut, in order of payoff:
+#### Flashcard focus
 
-- openers that only announce the structure ("Three objects have to be kept apart", "There are two ways to obtain it")
-- trailing justification clauses ("which is why…", "so that…", "which makes… possible")
-- hedging, and appositives that restate their subject
-- card prompts that repeat their own answer, and answers that repeat their prompt
-- lists padded to three items
+- __Prompts that give away the answer__ or that a reader cannot answer at all. Rewrite the pair rather than trimming either half.
+- __Answers that restate their prompt__ before saying anything, or that end in a justification clause ("…, which holds because the copies are independent").
+- __Missing symbols.__ If cutting the prompt drops the givens or notation the answer uses, the card is broken, not shorter. Calculation cards must name every quantity they combine.
+- __Labels longer than the concept.__ A prompt is a question, not a sentence.
+- __Two ideas in one card.__ Split it; do not trim both halves to fit.
 
-Keep every fact. Do not touch heading text (session entries link to `#section%20anchors`), flashcard markup (`{@{ }@}`, `::@::`, `:@:`), LaTeX, pytextgen fences, or anything quoted verbatim from the source.
+Keep the givens the answer needs. A card should read as a short prompt carrying its symbols plus an answer of one or two clauses.
 
-The result should read as a short card prompt carrying the symbols needed to answer it with an answer of one or two clauses, and prose with one idea per sentence rather than a sentence announcing what comes next.
+#### Prose focus
 
-> __Legacy patterns:__ If you encounter deprecated content structures (flat `questions.md`, flat assignment directories, `transcripts/`), consult the `academic-deprecated` skill for migration guidance. Deprecated pattern detection is not part of ingestion classification — it is a separate maintenance concern.
+- __Openers that announce the structure__ instead of starting the content ("Three objects have to be kept apart", "There are two ways to obtain it").
+- __Clauses explaining why the previous clause is useful__ ("which is why…", "so that…", "which makes… possible").
+- __Facts already carried__ by the section's cards or by an earlier paragraph.
+- __Hedging, and appositives that restate their subject__ ("$X$, whose distribution is not fully specified" when the sentence already said so).
+- __Subordinate chains__ that a full stop would divide.
+
+Leave the source's own emphasis alone: an instructor's "rare, difficult or even impossible" is content, not padding. Aim for one idea per sentence and no sentence announcing what comes next.
+
+#### Repo patterns to watch
+
+From the `humanizer` catalogue, these are the ones academic notes attract: rule-of-three lists padded to three items, "not only… but also", copula avoidance ("serves as" / "represents" where "is" works), em dashes, bolded `**Term:** description` bullets, and over-bolded inline labels.
+
+#### After the pass
+
+1. __Recheck suppressions.__ Cutting a prompt can strand a `two_sided_calc_warning` suppression with nothing to suppress (`academic-lint` errors on it), and restoring a symbol can create a warning that now needs one.
+2. __Report the card count.__ Merging duplicate cards is encouraged, but the count feeds the `Flashcards-now` commit trailer.
+3. __Re-read the file once.__ Heading text (session entries link to `#section%20anchors`), flashcard markup (`{@{ }@}`, `::@::`, `:@:`), LaTeX, links, pytextgen fences and anything quoted verbatim from the source must be untouched.
 
 ## Skills dispatched to
 
