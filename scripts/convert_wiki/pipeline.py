@@ -909,6 +909,16 @@ def _preprocess_html(soup: BeautifulSoup | Tag) -> None:
     #    that becomes a spurious <br/> <br/> separator in the output.
     _unwrap_navbox_inline_divs(soup)
 
+    # 11. Move a ``templatequotecite`` attribution into the preceding
+    #     ``templatequote`` blockquote so the quote and its source render
+    #     as one Markdown blockquote block.
+    for quote in soup.find_all("blockquote", class_="templatequote"):
+        cite = quote.find_next_sibling()
+        if isinstance(cite, Tag) and "templatequotecite" in cite.get_attribute_list(
+            "class"
+        ):
+            quote.append(cite.extract())
+
 
 def _merge_adjacent_numblk_tables(ele: PageElement) -> None:
     """Merge chains of adjacent <table class="numblk"> siblings into one table.
