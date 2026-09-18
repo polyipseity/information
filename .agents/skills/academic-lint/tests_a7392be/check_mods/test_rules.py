@@ -44,6 +44,7 @@ from main_mods.rules import (
     index_children_missing,
     index_children_missing_index,
     index_children_order,
+    index_courses_missing,
     index_heading,
     index_non_suppression_html_comments,
     index_semester_order,
@@ -3148,3 +3149,51 @@ async def test_header_deep_nesting_justification_suppresses(tmp_path: PathLike[s
     assert not any(
         m.rule_id == "header_deep_nesting" for m in await check_markdown_file(file3)
     )
+
+
+@pytest.mark.anyio
+async def test_index_courses_missing_rule(tmp_path: PathLike[str]) -> None:
+    """Course entries must point at a course directory that exists.
+
+    Fragment-only, mail, and external links are ignored, `## children` links
+    stay the children rules' responsibility, and only index.md files are
+    checked.
+    """
+    root = Path(tmp_path)
+    await (root / "COMP 3511").mkdir()
+    await (root / "COMP 3511" / "index.md").write_text("# index\n")
+    index_path = root / "index.md"
+
+    txt = (
+        "# index\n"
+        "\n"
+        "## children\n"
+        "\n"
+        "- [COMP 3511](COMP%203511/index.md)\n"
+        "\n"
+        "## courses\n"
+        "\n"
+        "### 2026 fall\n"
+        "\n"
+        "- [COMP 3511](COMP%203511/index.md): Operating Systems (3 credits)\n"
+        "- [COMP 4633](COMP%204633/index.md): Competitive Programming III (2 credits)\n"
+        "    - transferred: [Korea University](../Korea%20University/index.md): [ISC117](../Korea%20University/ISC117/index.md): Korean Studies\n"
+        "- external: [COMP 4633](https://example.com/COMP%204633)\n"
+        "- fragment: [courses](#courses)\n"
+        "- mail: [contact](mailto:nobody@example.com)\n"
+    )
+    msgs = await index_courses_missing(make_ctx(txt, path=index_path))
+    assert len(msgs) == 3, [m.msg for m in msgs]
+    assert all(m.severity is Severity.WARNING for m in msgs)
+    assert all("linked course directory not found" in m.msg for m in msgs)
+    assert not any("COMP%203511" in m.msg for m in msgs)
+    assert any("COMP%204633" in m.msg for m in msgs)
+    assert any("ISC117" in m.msg for m in msgs)
+    assert any(rid == "index_courses_missing" for rid, _ in RULE_REGISTRY.items())
+
+    # `## children` entries stay the children rules' responsibility
+    children_only = "# index\n\n## children\n\n- [gone](gone/index.md)\n"
+    assert not await index_courses_missing(make_ctx(children_only, path=index_path))
+
+    # only index.md files are checked
+    assert not await index_courses_missing(make_ctx(txt, path=root / "note.md"))

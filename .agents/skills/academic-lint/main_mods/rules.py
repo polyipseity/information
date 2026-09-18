@@ -1063,6 +1063,46 @@ async def index_children_missing_index(
 
 
 @RULE_REGISTRY.register()
+async def index_courses_missing(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Check for missing directories in the `## courses` section of an index.md.
+
+    Course entries link to a course directory only while that directory
+    exists, so a link whose target is gone (or was never created) is reported
+    to be either unlinked or completed by ingesting the course.  Only
+    ``index.md`` files are checked, and fragment-only, mail, and external
+    links are ignored.  Links inside `## children` stay the children rules'
+    responsibility, so nothing is reported twice.
+    """
+    errors: list[ValidationMessage] = []
+    if ctx.path.name.lower() != "index.md":
+        return errors
+
+    section = _extract_named_h2_section(ctx.text, "courses")
+    if not section:
+        return errors
+
+    base_dir = ctx.path.parent
+    for line_no, line in section:
+        if line.strip().startswith("<!--"):
+            continue
+        for link in iter_inline_links(line):
+            href = link.destination.strip()
+            if not href or href.startswith(("#", "mailto:")) or "://" in href:
+                continue
+            if not await _path_exists(href, base_dir):
+                errors.append(
+                    ValidationMessage(
+                        "index_courses_missing",
+                        f"linked course directory not found: '{href}'; either remove the link if not wanted or create the directory if desired",
+                        line=line_no,
+                        col=1,
+                        severity=Severity.WARNING,
+                    )
+                )
+    return errors
+
+
+@RULE_REGISTRY.register()
 async def folder_link_trailing_slash(
     ctx: ValidationContext,
 ) -> list[ValidationMessage]:
