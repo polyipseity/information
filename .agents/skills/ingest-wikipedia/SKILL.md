@@ -405,11 +405,25 @@ The snapshot test uses `tests/scripts/convert_wiki/snapshots/<name>.aux.json` to
 
 ```json
 {
+  "api_titles": ["Wikipedia title"],
+  "api_responses": [{ "batchcomplete": true, "query": {} }],
   "redirect_cache": { "Wikipedia title": {"to": "...", "tofragment": ""} },
   "name_map_overrides": { "Fourier transform": "Fourier transform" },
   "image_metadata": {}
 }
 ```
+
+`api_titles` and `api_responses` are the redirect queries and their raw API bodies; `test_api.py` replays them so the parser stays verified against real Wikipedia response shapes. They must be recorded with a __cold__ redirect cache (a fresh `cache_path`), which makes `len(api_responses) == ceil(len(api_titles) / _API_MAX_TITLES_PER_REQUEST)` and makes `redirect_cache` cover every link title of the input HTML. `TestSnapshotAuxFixtures` enforces both invariants. `api_titles` is newer than most fixtures; where it is absent the query set falls back to `redirect_cache`.
+
+Regenerate fixtures with the built-in recorder instead of hand-assembling them:
+
+```bash
+uv run -m scripts.convert_wiki.record_snapshot_aux record "<name>"    # queries the live API
+bun x prettier --write "tests/scripts/convert_wiki/snapshots/<name>.aux.json"
+uv run -m scripts.convert_wiki.record_snapshot_aux expected "<name>"  # regenerates expected.md
+```
+
+__Never__ hand-write `api_responses`: a fixture whose responses do not match its `input.html` silently corrupts `expected.md` and every note ingested from it.
 
 ### Key gotchas
 
