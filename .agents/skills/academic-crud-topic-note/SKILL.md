@@ -179,7 +179,7 @@ Flashcards for this section are as follows:
    - Cards must be self-contained (restate givens, hypotheses, notation)
    - Overview card as first card in each section
    - Preserve derivation/proof spine in cards
-   - Split packed cards into focused units
+   - Split packed cards into focused units, and split an enumeration of six or more items into sibling cards sliced at a boundary the items themselves show (era, date range, divergence versus curl), each naming its slice on the prompt side — see "Enumeration cards" in `create-flashcards`
    - Calculation cards must name every quantity they combine on the prompt side (e.g. `$\text{hit ratio}$`, `$\text{hit time}$`), so the card is answerable in isolation. Rewrite a two-sided card this way before reaching for a suppression (`two_sided_calc_warning`)
    - Lint suppression: `<!-- check: ignore-line[two_sided_calc_warning]: conceptual -->` on math cards, only when the card is genuinely conceptual rather than computational
    - `<p>` for paragraph breaks in single-line source

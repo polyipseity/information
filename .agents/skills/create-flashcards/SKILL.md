@@ -28,6 +28,8 @@ For academic topic notes, do not limit cards to isolated definitions. Prefer a b
 
 For mathematically technical academic notes, preserve the derivation or proof spine in the flashcards instead of testing only the final formula. A strong default is to add at least one card for the governing equation or setup, one card for the decisive derivation step or inequality, and one card for the final result or interpretation when the source material supports that structure.
 
+For enumeration cards, the answer carries one slice of a source list rather than the whole list. Cut each slice at a boundary the items themselves show — a birth year or era (`the five born before 1790`, `before 1850`) or a shared mathematical property (`the divergence equations`, `the curl equations`) — and name that boundary on the prompt side, so each slice stands alone without reference to its siblings. Keep the dates and years on the card; they are the boundary the prompt names. A list of six or more items always gets split, and a list of four items gets split whenever its members group by such a property.
+
 When a course note is organized by topic pages and lecture weeks rather than stored chapter pages, avoid chapter-number-only prompts such as `Chapter 2 / ...`. Use self-contained concept wording or the actual topic-note context instead.
 
 For conceptual math-law cards in academic notes, a descriptive prompt is often better than forcing the formula itself onto the left-hand side. When such a card is genuinely conceptual rather than computational, prefer the descriptive prompt and, if needed, attach a targeted inline suppression comment on the same line instead of warping the card into a fake calculation prompt.

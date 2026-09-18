@@ -530,6 +530,7 @@ Every note this skill dispatches to gets a verbosity-reduction pass over __both 
 - __Missing symbols.__ If cutting the prompt drops the givens or notation the answer uses, the card is broken, not shorter. Calculation cards must name every quantity they combine.
 - __Labels longer than the concept.__ A prompt is a question, not a sentence.
 - __Two ideas in one card.__ Split it; do not trim both halves to fit.
+- __Enumeration answers.__ A card whose answer lists many items names its slice on the prompt side (`the five born before 1790`, `before 1850`, `the curl equations`) and leaves the rest to sibling cards — see "Enumeration cards" in `create-flashcards`.
 
 Keep the givens the answer needs. A card should read as a short prompt carrying its symbols plus an answer of one or two clauses.
 
