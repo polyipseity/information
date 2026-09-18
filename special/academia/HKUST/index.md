@@ -70,6 +70,7 @@ tags:
 - [PHYS 1002](PHYS%201002/index.md)
 - [PHYS 1112](PHYS%201112/index.md)
 - [PHYS 1314](PHYS%201314/index.md)
+- [PHYS 2022](PHYS%202022/index.md)
 - [Robotics Team](Robotics%20Team/index.md)
 - [TEMG 1010](TEMG%201010/index.md)
 - [TEMG 3950](TEMG%203950/index.md)
@@ -166,6 +167,7 @@ tags:
 
 - [COMP 3511](COMP%203511/index.md): Operating Systems (3 credits)
 - [MATH 3423](MATH%203423/index.md): Statistical Inference (3 credits)
+- [PHYS 2022](PHYS%202022/index.md): Modern Physics (3 credits)
 
 ## groups
 
