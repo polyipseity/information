@@ -526,11 +526,12 @@ After creating a submission page, add child link to the parent `index.md` via `a
 
 ## Validation
 
-Run `academic-lint` after every edit. If you know which files changed, pass those files specifically. Otherwise lint the whole course folder.
+Run the humanizer pass over new or changed prose and flashcards (see "Humanizer pass" in `academic-ingest`), then `academic-lint` after every edit. If you know which files changed, pass those files specifically. Otherwise lint the whole course folder.
 
 ## References
 
 - `convert_canvas_submission.py` Canvas HTML to `submission.yml` / `lab.yml` / `tutorial.yml` / `lecture.yml`
 - `academic-crud-index` parent index updates
 - `academic-crud-attachments` submission-level attachments
+- `humanizer` verbosity pass over new prose and flashcards (see "Humanizer pass" in `academic-ingest`)
 - `academic-lint` validation

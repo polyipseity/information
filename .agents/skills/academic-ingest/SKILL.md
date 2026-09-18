@@ -157,7 +157,7 @@ Proceeding with ingestion for each group.
 
 ## Course resolution
 
-1. __Extract from input:__ Canvas URL (course ID in path), file path (under `special/academia/<INST>/<CRS>/`), frontmatter tags
+1. __Extract from input:__ Canvas URL (course ID in path, used only to resolve the course — never record platform links in the target notes), file path (under `special/academia/<INST>/<CRS>/`), frontmatter tags
 2. __Directory name parsing:__ When ingesting from a directory, parse the directory name for structural hints:
     - Pattern: `<COURSE> - <type> <N> (<binding> <M>)`
     - Example: `ELEC 1100 - quiz 1 (tutorial 2)` → course=ELEC 1100, type=quiz, number=1, binding=tutorial, target=2
@@ -511,10 +511,27 @@ Route to the correct `academic-crud-*` skill with preprocessed context:
 
 After the dispatched skill completes:
 
-1. Run validation on the created/modified file
-2. Add a link to the assignment in the last lecture entry on or before its due date in the course `index.md`
-3. Report what was created/updated with file paths
-4. Suggest next steps (e.g., "Add flashcards", "Update index")
+1. __Humanizer pass.__ Rewrite the new prose and flashcards for verbosity before validating — see "Humanizer pass" below.
+2. Run validation on the created/modified file
+3. Add a link to the assignment in the last lecture entry on or before its due date in the course `index.md`
+4. Report what was created/updated with file paths
+5. Suggest next steps (e.g., "Add flashcards", "Update index")
+
+### Humanizer pass
+
+Every note this skill dispatches to gets a verbosity-reduction pass over __both the prose and the flashcards__, using the `humanizer` skill. Run it once the content is written and before `academic-lint`.
+
+Cut, in order of payoff:
+
+- openers that only announce the structure ("Three objects have to be kept apart", "There are two ways to obtain it")
+- trailing justification clauses ("which is why…", "so that…", "which makes… possible")
+- hedging, and appositives that restate their subject
+- card prompts that repeat their own answer, and answers that repeat their prompt
+- lists padded to three items
+
+Keep every fact. Do not touch heading text (session entries link to `#section%20anchors`), flashcard markup (`{@{ }@}`, `::@::`, `:@:`), LaTeX, pytextgen fences, or anything quoted verbatim from the source.
+
+The result should read as a short card prompt carrying the symbols needed to answer it with an answer of one or two clauses, and prose with one idea per sentence rather than a sentence announcing what comes next.
 
 > __Legacy patterns:__ If you encounter deprecated content structures (flat `questions.md`, flat assignment directories, `transcripts/`), consult the `academic-deprecated` skill for migration guidance. Deprecated pattern detection is not part of ingestion classification — it is a separate maintenance concern.
 

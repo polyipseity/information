@@ -99,6 +99,7 @@ Prefer less content. Record what the source states and what sessions covered, an
 
 - __Never write current status or progress__: what has been ingested so far, what is still missing, or what a section will contain later. It is stale as soon as the next source arrives, so omit it instead of recording it.
 - __Never write provenance__: how a date, figure, or number was established is not index content.
+- __Never record platform links__: Canvas or other LMS course URLs are not course facts and go stale; omit them from the course index.
 - The `- note:` lines under `## logistics` and the `- notes` list under `## overview` carry source facts and caveats only — a conflicting source, a tentative schedule, a policy.
 - A value that exists but is unknown is marked `\[missing\]` — it is never described in prose. See [Missing data](#missing-data).
 
@@ -403,7 +404,7 @@ __Placement rule__: Match the announcement to the session where the related cont
 
 ## Validation
 
-Run `academic-lint` after every edit. If you know which files changed, pass those files specifically. Otherwise lint the whole course folder.
+Run the humanizer pass over new or changed prose and flashcards (see "Humanizer pass" in `academic-ingest`), then `academic-lint` after every edit. If you know which files changed, pass those files specifically. Otherwise lint the whole course folder.
 
 ## Missing data
 
@@ -435,6 +436,7 @@ See [special.instructions.md](../../instructions/special.instructions.md#missing
 ## References
 
 - `academic-crud-course-index/course-template.md` scaffold template
+- `humanizer` verbosity pass over new prose and flashcards (see "Humanizer pass" in `academic-ingest`)
 - `academic-lint` validation
 - `academic-crud-index` subdirectory index format
 - `academic-crud-attachments` attachments directories at any level

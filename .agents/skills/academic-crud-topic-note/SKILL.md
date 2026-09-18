@@ -205,7 +205,9 @@ Flashcards for this section are as follows:
 
    - If the topic spans multiple sessions, add links under each relevant session, listing under each only the sections that session's material covered
 
-4. __Validate:__ run `academic-lint` on the created file.
+4. __Humanizer pass:__ cut the filler from the prose and the flashcards before validating — see "Humanizer pass" in `academic-ingest`.
+
+5. __Validate:__ run `academic-lint` on the created file.
 
 ### Read
 
@@ -326,6 +328,7 @@ Omit the indented section links if the topic has no `##` sections (single-sectio
 ## References
 
 - `create-flashcards` flashcard markup patterns
+- `humanizer` verbosity pass over new prose and flashcards (see "Humanizer pass" in `academic-ingest`)
 - `academic-lint` validation
 - `academic-crud-transcludes` full Wikipedia article inclusion
 - `academic-crud-topic-note/find_wikipedia.py` canonical title discovery script

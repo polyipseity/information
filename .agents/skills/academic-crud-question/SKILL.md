@@ -148,6 +148,7 @@ Every line inside a blockquote must begin with `>` — including blank lines.
 ## References
 
 - `create-flashcards` cloze methodology and patterns
+- `humanizer` verbosity pass over new prose and flashcards (see "Humanizer pass" in `academic-ingest`)
 - `academic-crud-index` parent index updates
 - `academic-crud-attachments` questions-level attachments
 - `academic-lint` validation
