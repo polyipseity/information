@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 """Scripts package for information knowledge base.
 
 This package contains utility scripts for content management,

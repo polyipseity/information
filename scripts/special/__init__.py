@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 """Special scripts package for academic content conversion.
 
 Contains tools for converting academic content from various LMS platforms
