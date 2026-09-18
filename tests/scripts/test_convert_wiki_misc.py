@@ -1078,6 +1078,51 @@ class TestTexHtmlToLatexRadical:
         )
 
 
+class TestPreprocessMathA11y:
+    """Tests for the ``_preprocess_html`` math a11y-span cleanup.
+
+    Wikipedia emits the tail of some long equations as plain text after
+    the MathML ``<math>`` element inside the a11y wrapper; the alttext
+    already carries the full equation, so the tail must be dropped.
+    """
+
+    def test_drops_duplicate_latex_text(self) -> None:
+        """Trailing LaTeX text and ``DisplaySpace`` are removed, math kept."""
+        html = BeautifulSoup(
+            '<p><span class="mwe-math-element mwe-math-element-display">'
+            '<span class="mwe-math-mathml-display mwe-math-mathml-a11y">'
+            '<math alttext="a=b"><semantics><mrow></mrow></semantics></math>'
+            '<img class="mwe-math-fallback-image-display"/>'
+            '<span typeof="mw:DisplaySpace">\u00a0</span>;\\quad x}</span>'
+            "</span></p>",
+            "html.parser",
+        )
+        _preprocess_html(html)
+        a11y = html.find("span", class_="mwe-math-mathml-a11y")
+        assert a11y is not None
+        assert a11y.find("math") is not None
+        assert a11y.find("img") is not None
+        assert a11y.find("span", attrs={"typeof": "mw:DisplaySpace"}) is None
+        assert "\\quad" not in a11y.get_text()
+
+
+class TestPreprocessTemplateQuote:
+    """Tests for the ``_preprocess_html`` templatequote attribution merge."""
+
+    def test_moves_cite_inside_blockquote(self) -> None:
+        """A following ``templatequotecite`` joins the preceding quote."""
+        html = BeautifulSoup(
+            '<blockquote class="templatequote"><p>Quoted text.</p></blockquote>'
+            '<div class="templatequotecite">— Author</div>',
+            "html.parser",
+        )
+        _preprocess_html(html)
+        quote = html.find("blockquote")
+        assert quote is not None
+        assert quote.find("div", class_="templatequotecite") is not None
+        assert quote.find_next_sibling() is None
+
+
 class TestFilterTableCells:
     """Unit tests for ``TableConverter._filter_table_cells``.
 
