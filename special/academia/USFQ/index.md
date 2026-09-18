@@ -1,5 +1,6 @@
 ---
 aliases:
+  - USFQ
   - USFQ index
   - Universidad San Francisco de Quito index
 tags:

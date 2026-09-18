@@ -1,5 +1,6 @@
 ---
 aliases:
+  - KU
   - Korea University
   - Korea University index
 tags:

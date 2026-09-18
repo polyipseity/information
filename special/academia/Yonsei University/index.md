@@ -1,5 +1,6 @@
 ---
 aliases:
+  - YU
   - Yonsei University index
 tags:
   - flashcard/active/special/academia/Yonsei_University/index

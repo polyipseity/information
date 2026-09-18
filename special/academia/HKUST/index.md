@@ -1,5 +1,6 @@
 ---
 aliases:
+  - HKUST
   - HKUST index
   - Hong Kong University of Science and Technology index
 tags:

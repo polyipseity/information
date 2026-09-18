@@ -1,5 +1,6 @@
 ---
 aliases:
+  - PNU
   - Pusan National University
   - Pusan National University index
 tags:
