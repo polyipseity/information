@@ -2193,208 +2193,24 @@
     }
   ],
   "redirect_cache": {
+    "Absorption edge": {
+      "to": "Absorption edge",
+      "tofragment": ""
+    },
+    "Accretion disk": {
+      "to": "Accretion disk",
+      "tofragment": ""
+    },
+    "Albert Einstein": {
+      "to": "Albert Einstein",
+      "tofragment": ""
+    },
     "Alpha particle": {
       "to": "Alpha particle",
       "tofragment": ""
     },
     "American Physical Society": {
       "to": "American Physical Society",
-      "tofragment": ""
-    },
-    "Auger electron spectroscopy": {
-      "to": "Auger electron spectroscopy",
-      "tofragment": ""
-    },
-    "BKS theory": {
-      "to": "BKS theory",
-      "tofragment": ""
-    },
-    "Backscatter X-ray": {
-      "to": "Backscatter X-ray",
-      "tofragment": ""
-    },
-    "Bhabha scattering": {
-      "to": "Bhabha scattering",
-      "tofragment": ""
-    },
-    "Characteristic X-ray": {
-      "to": "Characteristic X-ray",
-      "tofragment": ""
-    },
-    "Electron": {
-      "to": "Electron",
-      "tofragment": ""
-    },
-    "Electron mass": {
-      "to": "Electron mass",
-      "tofragment": ""
-    },
-    "Energy-dispersive X-ray spectroscopy": {
-      "to": "Energy-dispersive X-ray spectroscopy",
-      "tofragment": ""
-    },
-    "Feynman diagram": {
-      "to": "Feynman diagram",
-      "tofragment": ""
-    },
-    "High-energy X-rays": {
-      "to": "High-energy X-rays",
-      "tofragment": ""
-    },
-    "K-edge": {
-      "to": "K-edge",
-      "tofragment": ""
-    },
-    "Klein–Nishina formula": {
-      "to": "Klein–Nishina formula",
-      "tofragment": ""
-    },
-    "Laser": {
-      "to": "Laser",
-      "tofragment": ""
-    },
-    "Nobel Prize in Physics": {
-      "to": "Nobel Prize in Physics",
-      "tofragment": ""
-    },
-    "Non-linear inverse Compton scattering": {
-      "to": "Non-linear inverse Compton scattering",
-      "tofragment": ""
-    },
-    "Nuclear electromagnetic pulse": {
-      "to": "Nuclear electromagnetic pulse",
-      "tofragment": ""
-    },
-    "Pair production": {
-      "to": "Pair production",
-      "tofragment": ""
-    },
-    "Panoramic radiograph": {
-      "to": "Panoramic radiograph",
-      "tofragment": ""
-    },
-    "Peter Debye": {
-      "to": "Peter Debye",
-      "tofragment": ""
-    },
-    "Photofission": {
-      "to": "Photofission",
-      "tofragment": ""
-    },
-    "Prentice Hall": {
-      "to": "Prentice Hall",
-      "tofragment": ""
-    },
-    "Quantum electrodynamics": {
-      "to": "Quantum electrodynamics",
-      "tofragment": ""
-    },
-    "Radiation pressure": {
-      "to": "Radiation pressure",
-      "tofragment": ""
-    },
-    "Radiation therapy": {
-      "to": "Radiation therapy",
-      "tofragment": ""
-    },
-    "Rayleigh scattering": {
-      "to": "Rayleigh scattering",
-      "tofragment": ""
-    },
-    "SQUID": {
-      "to": "SQUID",
-      "tofragment": ""
-    },
-    "Scattering": {
-      "to": "Scattering",
-      "tofragment": ""
-    },
-    "Schwinger limit": {
-      "to": "Schwinger limit",
-      "tofragment": ""
-    },
-    "Siegbahn notation": {
-      "to": "Siegbahn notation",
-      "tofragment": ""
-    },
-    "Stellar corona": {
-      "to": "Stellar corona",
-      "tofragment": ""
-    },
-    "Uehling potential": {
-      "to": "Uehling potential",
-      "tofragment": ""
-    },
-    "Valence electron": {
-      "to": "Valence electron",
-      "tofragment": ""
-    },
-    "Vertex function": {
-      "to": "Vertex function",
-      "tofragment": ""
-    },
-    "Walther Bothe": {
-      "to": "Walther Bothe",
-      "tofragment": ""
-    },
-    "Ward–Takahashi identity": {
-      "to": "Ward–Takahashi identity",
-      "tofragment": ""
-    },
-    "Washington University in St. Louis": {
-      "to": "Washington University in St. Louis",
-      "tofragment": ""
-    },
-    "Water window": {
-      "to": "Water window",
-      "tofragment": ""
-    },
-    "X-ray Raman scattering": {
-      "to": "X-ray Raman scattering",
-      "tofragment": ""
-    },
-    "X-ray absorption near edge structure": {
-      "to": "X-ray absorption near edge structure",
-      "tofragment": ""
-    },
-    "X-ray crystallography": {
-      "to": "X-ray crystallography",
-      "tofragment": ""
-    },
-    "X-ray diffraction computed tomography": {
-      "to": "X-ray diffraction computed tomography",
-      "tofragment": ""
-    },
-    "X-ray telescope": {
-      "to": "X-ray telescope",
-      "tofragment": ""
-    },
-    "ArXiv": {
-      "to": "ArXiv",
-      "tofragment": ""
-    },
-    "Digital object identifier": {
-      "to": "Digital object identifier",
-      "tofragment": ""
-    },
-    "Electromagnetic radiation": {
-      "to": "Electromagnetic radiation",
-      "tofragment": ""
-    },
-    "ISBN": {
-      "to": "ISBN",
-      "tofragment": ""
-    },
-    "Operation of computed tomography": {
-      "to": "Operation of computed tomography",
-      "tofragment": ""
-    },
-    "Oxford University Press": {
-      "to": "Oxford University Press",
-      "tofragment": ""
-    },
-    "Albert Einstein": {
-      "to": "Albert Einstein",
       "tofragment": ""
     },
     "Angle-resolved photoemission spectroscopy": {
@@ -2409,24 +2225,164 @@
       "to": "Anomalous magnetic dipole moment",
       "tofragment": ""
     },
+    "ArXiv (identifier)": {
+      "to": "ArXiv",
+      "tofragment": ""
+    },
+    "Arthur Compton": {
+      "to": "Arthur Compton",
+      "tofragment": ""
+    },
+    "Arthur Holly Compton": {
+      "to": "Arthur Compton",
+      "tofragment": ""
+    },
     "Astrophysics": {
       "to": "Astrophysics",
+      "tofragment": ""
+    },
+    "Auger effect": {
+      "to": "Auger effect",
+      "tofragment": ""
+    },
+    "Auger electron spectroscopy": {
+      "to": "Auger electron spectroscopy",
+      "tofragment": ""
+    },
+    "BKS theory": {
+      "to": "BKS theory",
+      "tofragment": ""
+    },
+    "Backscatter X-ray": {
+      "to": "Backscatter X-ray",
+      "tofragment": ""
+    },
+    "Betatron": {
+      "to": "Betatron",
+      "tofragment": ""
+    },
+    "Bhabha scattering": {
+      "to": "Bhabha scattering",
+      "tofragment": ""
+    },
+    "Bibcode (identifier)": {
+      "to": "Bibcode",
       "tofragment": ""
     },
     "Black hole": {
       "to": "Black hole",
       "tofragment": ""
     },
+    "Bragg scattering": {
+      "to": "Bragg's law",
+      "tofragment": ""
+    },
+    "Breit–Wheeler process": {
+      "to": "Breit–Wheeler process",
+      "tofragment": ""
+    },
+    "Bremsstrahlung": {
+      "to": "Bremsstrahlung",
+      "tofragment": ""
+    },
+    "CT scan": {
+      "to": "CT scan",
+      "tofragment": ""
+    },
+    "Characteristic X-ray": {
+      "to": "Characteristic X-ray",
+      "tofragment": ""
+    },
+    "Charged particle": {
+      "to": "Charged particle",
+      "tofragment": ""
+    },
+    "Classical electromagnetism": {
+      "to": "Classical electromagnetism",
+      "tofragment": ""
+    },
     "Coherence (physics)": {
       "to": "Coherence (physics)",
+      "tofragment": ""
+    },
+    "Coherent diffraction imaging": {
+      "to": "Coherent diffraction imaging",
+      "tofragment": ""
+    },
+    "Compton Gamma Ray Observatory": {
+      "to": "Compton Gamma Ray Observatory",
+      "tofragment": ""
+    },
+    "Compton edge": {
+      "to": "Compton edge",
+      "tofragment": ""
+    },
+    "Compton suppression": {
+      "to": "Electronic anticoincidence",
+      "tofragment": "Compton suppression"
+    },
+    "Compton wavelength": {
+      "to": "Compton wavelength",
+      "tofragment": ""
+    },
+    "Conservation of energy": {
+      "to": "Conservation of energy",
+      "tofragment": ""
+    },
+    "Conservation of momentum": {
+      "to": "Momentum",
+      "tofragment": "Conservation"
+    },
+    "Cosmic microwave background radiation": {
+      "to": "Cosmic microwave background",
       "tofragment": ""
     },
     "Cross section (physics)": {
       "to": "Cross section (physics)",
       "tofragment": ""
     },
+    "Dark-field X-ray microscopy": {
+      "to": "Dark-field X-ray microscopy",
+      "tofragment": ""
+    },
+    "Delbrück scattering": {
+      "to": "Delbrück scattering",
+      "tofragment": ""
+    },
+    "Density functional theory": {
+      "to": "Density functional theory",
+      "tofragment": ""
+    },
     "Diffraction tomography": {
       "to": "Diffraction tomography",
+      "tofragment": ""
+    },
+    "Doi (identifier)": {
+      "to": "Digital object identifier",
+      "tofragment": ""
+    },
+    "Dual photon": {
+      "to": "Dual photon",
+      "tofragment": ""
+    },
+    "Dual-energy X-ray absorptiometry": {
+      "to": "Dual-energy X-ray absorptiometry",
+      "tofragment": ""
+    },
+    "Elastic collision": {
+      "to": "Elastic collision",
+      "tofragment": ""
+    },
+    "Electromagnetic wave": {
+      "to": "Electromagnetic radiation",
+      "tofragment": ""
+    },
+    "Electron": {
+      "to": "Electron",
+      "tofragment": ""
+    },
+    "Electron mass": {
+      "to": "Electron mass",
       "tofragment": ""
     },
     "Energy": {
@@ -2437,20 +2393,88 @@
       "to": "Energy-dispersive X-ray diffraction",
       "tofragment": ""
     },
+    "Energy-dispersive X-ray spectroscopy": {
+      "to": "Energy-dispersive X-ray spectroscopy",
+      "tofragment": ""
+    },
     "Energy–momentum relation": {
       "to": "Energy–momentum relation",
+      "tofragment": ""
+    },
+    "Euler–Heisenberg Lagrangian": {
+      "to": "Euler–Heisenberg Lagrangian",
+      "tofragment": ""
+    },
+    "Extended X-ray absorption fine structure": {
+      "to": "Extended X-ray absorption fine structure",
+      "tofragment": ""
+    },
+    "Faddeev–Popov ghost": {
+      "to": "Faddeev–Popov ghost",
+      "tofragment": ""
+    },
+    "Feynman diagram": {
+      "to": "Feynman diagram",
+      "tofragment": ""
+    },
+    "Feynman diagrams": {
+      "to": "Feynman diagram",
+      "tofragment": ""
+    },
+    "Fluctuation X-ray scattering": {
+      "to": "Fluctuation X-ray scattering",
       "tofragment": ""
     },
     "Free-electron laser": {
       "to": "Free-electron laser",
       "tofragment": ""
     },
+    "Furry's theorem": {
+      "to": "Furry's theorem",
+      "tofragment": ""
+    },
     "Galaxy cluster": {
       "to": "Galaxy cluster",
       "tofragment": ""
     },
+    "Gamma spectroscopy": {
+      "to": "Gamma spectroscopy",
+      "tofragment": ""
+    },
+    "Graphite": {
+      "to": "Graphite",
+      "tofragment": ""
+    },
+    "Grazing-incidence small-angle scattering": {
+      "to": "Grazing-incidence small-angle scattering",
+      "tofragment": ""
+    },
     "Gupta–Bleuler formalism": {
       "to": "Gupta–Bleuler formalism",
+      "tofragment": ""
+    },
+    "Hans Geiger": {
+      "to": "Hans Geiger",
+      "tofragment": ""
+    },
+    "Helical CT": {
+      "to": "Operation of computed tomography",
+      "tofragment": "Spiral"
+    },
+    "High-energy X-rays": {
+      "to": "High-energy X-rays",
+      "tofragment": ""
+    },
+    "History of X-ray astronomy": {
+      "to": "History of X-ray astronomy",
+      "tofragment": ""
+    },
+    "ISBN (identifier)": {
+      "to": "ISBN",
+      "tofragment": ""
+    },
+    "ISSN (identifier)": {
+      "to": "ISSN",
       "tofragment": ""
     },
     "Inelastic collision": {
@@ -2461,8 +2485,24 @@
       "to": "Inelastic scattering",
       "tofragment": ""
     },
+    "K-edge": {
+      "to": "K-edge",
+      "tofragment": ""
+    },
+    "Klein–Nishina formula": {
+      "to": "Klein–Nishina formula",
+      "tofragment": ""
+    },
     "Lamb shift": {
       "to": "Lamb shift",
+      "tofragment": ""
+    },
+    "Landau pole": {
+      "to": "Landau pole",
+      "tofragment": ""
+    },
+    "Laser": {
+      "to": "Laser",
       "tofragment": ""
     },
     "Metal L-edge": {
@@ -2481,16 +2521,64 @@
       "to": "Møller scattering",
       "tofragment": ""
     },
+    "Nobel Prize in Physics": {
+      "to": "Nobel Prize in Physics",
+      "tofragment": ""
+    },
+    "Non-linear inverse Compton scattering": {
+      "to": "Non-linear inverse Compton scattering",
+      "tofragment": ""
+    },
+    "Nuclear electromagnetic pulse": {
+      "to": "Nuclear electromagnetic pulse",
+      "tofragment": ""
+    },
     "Nuclear reaction": {
       "to": "Nuclear reaction",
+      "tofragment": ""
+    },
+    "OUP Oxford": {
+      "to": "Oxford University Press",
+      "tofragment": ""
+    },
+    "PMID (identifier)": {
+      "to": "PubMed",
+      "tofragment": "PubMed identifier"
+    },
+    "Pair production": {
+      "to": "Pair production",
+      "tofragment": ""
+    },
+    "Panoramic radiograph": {
+      "to": "Panoramic radiograph",
+      "tofragment": ""
+    },
+    "Path integral formulation": {
+      "to": "Path-integral formulation",
+      "tofragment": ""
+    },
+    "Peter Debye": {
+      "to": "Peter Debye",
       "tofragment": ""
     },
     "Phase-contrast X-ray imaging": {
       "to": "Phase-contrast X-ray imaging",
       "tofragment": ""
     },
+    "Photodisintegration": {
+      "to": "Photodisintegration",
+      "tofragment": ""
+    },
     "Photoelectric effect": {
       "to": "Photoelectric effect",
+      "tofragment": ""
+    },
+    "Photofission": {
+      "to": "Photofission",
+      "tofragment": ""
+    },
+    "Photoionization": {
+      "to": "Photoionization",
       "tofragment": ""
     },
     "Photon": {
@@ -2505,192 +2593,56 @@
       "to": "Physical Review Letters",
       "tofragment": ""
     },
-    "QED vacuum": {
-      "to": "QED vacuum",
-      "tofragment": ""
-    },
-    "Quantum mechanics": {
-      "to": "Quantum mechanics",
-      "tofragment": ""
-    },
-    "Resonant inelastic X-ray scattering": {
-      "to": "Resonant inelastic X-ray scattering",
-      "tofragment": ""
-    },
-    "Small-angle X-ray scattering": {
-      "to": "Small-angle X-ray scattering",
-      "tofragment": ""
-    },
-    "Special relativity": {
-      "to": "Special relativity",
-      "tofragment": ""
-    },
-    "Synchrotron": {
-      "to": "Synchrotron",
-      "tofragment": ""
-    },
-    "Synchrotron light source": {
-      "to": "Synchrotron light source",
-      "tofragment": ""
-    },
-    "Virtual particle": {
-      "to": "Virtual particle",
-      "tofragment": ""
-    },
-    "Wide-angle X-ray scattering": {
-      "to": "Wide-angle X-ray scattering",
-      "tofragment": ""
-    },
-    "X-ray astronomy": {
-      "to": "X-ray astronomy",
-      "tofragment": ""
-    },
-    "X-ray diffraction": {
-      "to": "X-ray diffraction",
-      "tofragment": ""
-    },
-    "X-ray fluorescence": {
-      "to": "X-ray fluorescence",
-      "tofragment": ""
-    },
-    "X-ray fluorescence holography": {
-      "to": "X-ray fluorescence holography",
-      "tofragment": ""
-    },
-    "X-ray lithography": {
-      "to": "X-ray lithography",
-      "tofragment": ""
-    },
-    "X-ray tube": {
-      "to": "X-ray tube",
-      "tofragment": ""
-    },
-    "Bibcode": {
-      "to": "Bibcode",
-      "tofragment": ""
-    },
-    "Bragg's law": {
-      "to": "Bragg's law",
-      "tofragment": ""
-    },
-    "Cosmic microwave background": {
-      "to": "Cosmic microwave background",
-      "tofragment": ""
-    },
-    "Path-integral formulation": {
-      "to": "Path-integral formulation",
-      "tofragment": ""
-    },
-    "PubMed": {
-      "to": "PubMed",
-      "tofragment": ""
-    },
-    "Radiography": {
-      "to": "Radiography",
-      "tofragment": ""
-    },
-    "Absorption edge": {
-      "to": "Absorption edge",
-      "tofragment": ""
-    },
-    "Accretion disk": {
-      "to": "Accretion disk",
-      "tofragment": ""
-    },
-    "Arthur Compton": {
-      "to": "Arthur Compton",
-      "tofragment": ""
-    },
-    "Auger effect": {
-      "to": "Auger effect",
-      "tofragment": ""
-    },
-    "Betatron": {
-      "to": "Betatron",
-      "tofragment": ""
-    },
-    "Breit–Wheeler process": {
-      "to": "Breit–Wheeler process",
-      "tofragment": ""
-    },
-    "Bremsstrahlung": {
-      "to": "Bremsstrahlung",
-      "tofragment": ""
-    },
-    "Classical electromagnetism": {
-      "to": "Classical electromagnetism",
-      "tofragment": ""
-    },
-    "Compton Gamma Ray Observatory": {
-      "to": "Compton Gamma Ray Observatory",
-      "tofragment": ""
-    },
-    "Compton wavelength": {
-      "to": "Compton wavelength",
-      "tofragment": ""
-    },
-    "Conservation of energy": {
-      "to": "Conservation of energy",
-      "tofragment": ""
-    },
-    "Dark-field X-ray microscopy": {
-      "to": "Dark-field X-ray microscopy",
-      "tofragment": ""
-    },
-    "Delbrück scattering": {
-      "to": "Delbrück scattering",
-      "tofragment": ""
-    },
-    "Dual photon": {
-      "to": "Dual photon",
-      "tofragment": ""
-    },
-    "Elastic collision": {
-      "to": "Elastic collision",
-      "tofragment": ""
-    },
-    "Faddeev–Popov ghost": {
-      "to": "Faddeev–Popov ghost",
-      "tofragment": ""
-    },
-    "Furry's theorem": {
-      "to": "Furry's theorem",
-      "tofragment": ""
-    },
-    "Gamma spectroscopy": {
-      "to": "Gamma spectroscopy",
-      "tofragment": ""
-    },
-    "Grazing-incidence small-angle scattering": {
-      "to": "Grazing-incidence small-angle scattering",
-      "tofragment": ""
-    },
-    "Hans Geiger": {
-      "to": "Hans Geiger",
-      "tofragment": ""
-    },
-    "History of X-ray astronomy": {
-      "to": "History of X-ray astronomy",
-      "tofragment": ""
-    },
-    "Landau pole": {
-      "to": "Landau pole",
-      "tofragment": ""
-    },
-    "Photodisintegration": {
-      "to": "Photodisintegration",
-      "tofragment": ""
-    },
-    "Photoionization": {
-      "to": "Photoionization",
+    "Planck constant": {
+      "to": "Planck constant",
       "tofragment": ""
     },
     "Positron": {
       "to": "Positron",
       "tofragment": ""
     },
+    "Positronium": {
+      "to": "Positronium",
+      "tofragment": ""
+    },
+    "Prentice Hall": {
+      "to": "Prentice Hall",
+      "tofragment": ""
+    },
+    "Ptychography": {
+      "to": "Ptychography",
+      "tofragment": ""
+    },
+    "QED vacuum": {
+      "to": "QED vacuum",
+      "tofragment": ""
+    },
+    "Quantum electrodynamics": {
+      "to": "Quantum electrodynamics",
+      "tofragment": ""
+    },
+    "Quantum mechanics": {
+      "to": "Quantum mechanics",
+      "tofragment": ""
+    },
     "Radiation damage": {
       "to": "Radiation damage",
+      "tofragment": ""
+    },
+    "Radiation pressure": {
+      "to": "Radiation pressure",
+      "tofragment": ""
+    },
+    "Radiation therapy": {
+      "to": "Radiation therapy",
+      "tofragment": ""
+    },
+    "Radiobiology": {
+      "to": "Radiobiology",
+      "tofragment": ""
+    },
+    "Rayleigh scattering": {
+      "to": "Rayleigh scattering",
       "tofragment": ""
     },
     "Recoil": {
@@ -2701,12 +2653,76 @@
       "to": "Relativistic reflection",
       "tofragment": ""
     },
+    "Resonant inelastic X-ray scattering": {
+      "to": "Resonant inelastic X-ray scattering",
+      "tofragment": ""
+    },
+    "S2CID (identifier)": {
+      "to": "Semantic Scholar",
+      "tofragment": "S2CID"
+    },
+    "SQUID": {
+      "to": "SQUID",
+      "tofragment": ""
+    },
+    "Scalar product": {
+      "to": "Dot product",
+      "tofragment": ""
+    },
+    "Scanning transmission X-ray microscopy": {
+      "to": "Scanning transmission X-ray microscopy",
+      "tofragment": ""
+    },
+    "Scattering": {
+      "to": "Scattering",
+      "tofragment": ""
+    },
+    "Schwinger effect": {
+      "to": "Schwinger effect",
+      "tofragment": ""
+    },
+    "Schwinger limit": {
+      "to": "Schwinger limit",
+      "tofragment": ""
+    },
     "Self-energy": {
       "to": "Self-energy",
       "tofragment": ""
     },
+    "Siegbahn notation": {
+      "to": "Siegbahn notation",
+      "tofragment": ""
+    },
+    "Small-angle X-ray scattering": {
+      "to": "Small-angle X-ray scattering",
+      "tofragment": ""
+    },
+    "Soft x-ray microscopy": {
+      "to": "Soft X-ray microscopy",
+      "tofragment": ""
+    },
+    "Special relativity": {
+      "to": "Special relativity",
+      "tofragment": ""
+    },
     "Speed of light": {
       "to": "Speed of light",
+      "tofragment": ""
+    },
+    "Stellar corona": {
+      "to": "Stellar corona",
+      "tofragment": ""
+    },
+    "Sunyaev–Zel'dovich effect": {
+      "to": "Sunyaev–Zeldovich effect",
+      "tofragment": ""
+    },
+    "Synchrotron": {
+      "to": "Synchrotron",
+      "tofragment": ""
+    },
+    "Synchrotron light source": {
+      "to": "Synchrotron light source",
       "tofragment": ""
     },
     "Synchrotron radiation": {
@@ -2721,6 +2737,10 @@
       "to": "Three-dimensional X-ray diffraction",
       "tofragment": ""
     },
+    "Timeline of cosmic microwave background astronomy": {
+      "to": "Cosmic microwave background",
+      "tofragment": "Timeline of prediction, discovery and interpretation"
+    },
     "Tomosynthesis": {
       "to": "Tomosynthesis",
       "tofragment": ""
@@ -2729,8 +2749,48 @@
       "to": "Two-photon physics",
       "tofragment": ""
     },
+    "Uehling potential": {
+      "to": "Uehling potential",
+      "tofragment": ""
+    },
     "Vacuum polarization": {
       "to": "Vacuum polarization",
+      "tofragment": ""
+    },
+    "Valence electron": {
+      "to": "Valence electron",
+      "tofragment": ""
+    },
+    "Vertex function": {
+      "to": "Vertex function",
+      "tofragment": ""
+    },
+    "Virtual particle": {
+      "to": "Virtual particle",
+      "tofragment": ""
+    },
+    "Visible light": {
+      "to": "Light",
+      "tofragment": ""
+    },
+    "Walther Bothe": {
+      "to": "Walther Bothe",
+      "tofragment": ""
+    },
+    "Ward–Takahashi identity": {
+      "to": "Ward–Takahashi identity",
+      "tofragment": ""
+    },
+    "Washington University in St. Louis": {
+      "to": "Washington University in St. Louis",
+      "tofragment": ""
+    },
+    "Water window": {
+      "to": "Water window",
+      "tofragment": ""
+    },
+    "Wave": {
+      "to": "Wave",
       "tofragment": ""
     },
     "Wavelength": {
@@ -2741,128 +2801,84 @@
       "to": "Wayback Machine",
       "tofragment": ""
     },
+    "Wide-angle X-ray scattering": {
+      "to": "Wide-angle X-ray scattering",
+      "tofragment": ""
+    },
     "Wu Youxun": {
       "to": "Wu Youxun",
       "tofragment": ""
     },
+    "X-Ray Fluorescence Imaging": {
+      "to": "Confocal microscopy",
+      "tofragment": "Techniques used for horizontal scanning"
+    },
     "X-ray": {
       "to": "X-ray",
+      "tofragment": ""
+    },
+    "X-ray Raman scattering": {
+      "to": "X-ray Raman scattering",
+      "tofragment": ""
+    },
+    "X-ray absorption near edge structure": {
+      "to": "X-ray absorption near edge structure",
       "tofragment": ""
     },
     "X-ray absorption spectroscopy": {
       "to": "X-ray absorption spectroscopy",
       "tofragment": ""
     },
-    "X-ray scattering techniques": {
-      "to": "X-ray scattering techniques",
+    "X-ray astronomy": {
+      "to": "X-ray astronomy",
       "tofragment": ""
     },
-    "Confocal microscopy": {
-      "to": "Confocal microscopy",
+    "X-ray crystallography": {
+      "to": "X-ray crystallography",
       "tofragment": ""
     },
-    "Electronic anticoincidence": {
-      "to": "Electronic anticoincidence",
+    "X-ray diffraction": {
+      "to": "X-ray diffraction",
       "tofragment": ""
     },
-    "ISSN": {
-      "to": "ISSN",
+    "X-ray diffraction computed tomography": {
+      "to": "X-ray diffraction computed tomography",
       "tofragment": ""
     },
-    "Light": {
-      "to": "Light",
+    "X-ray fluorescence": {
+      "to": "X-ray fluorescence",
       "tofragment": ""
     },
-    "Semantic Scholar": {
-      "to": "Semantic Scholar",
+    "X-ray fluorescence holography": {
+      "to": "X-ray fluorescence holography",
       "tofragment": ""
     },
-    "Soft X-ray microscopy": {
-      "to": "Soft X-ray microscopy",
-      "tofragment": ""
-    },
-    "CT scan": {
-      "to": "CT scan",
-      "tofragment": ""
-    },
-    "Charged particle": {
-      "to": "Charged particle",
-      "tofragment": ""
-    },
-    "Coherent diffraction imaging": {
-      "to": "Coherent diffraction imaging",
-      "tofragment": ""
-    },
-    "Compton edge": {
-      "to": "Compton edge",
-      "tofragment": ""
-    },
-    "Density functional theory": {
-      "to": "Density functional theory",
-      "tofragment": ""
-    },
-    "Dual-energy X-ray absorptiometry": {
-      "to": "Dual-energy X-ray absorptiometry",
-      "tofragment": ""
-    },
-    "Euler–Heisenberg Lagrangian": {
-      "to": "Euler–Heisenberg Lagrangian",
-      "tofragment": ""
-    },
-    "Extended X-ray absorption fine structure": {
-      "to": "Extended X-ray absorption fine structure",
-      "tofragment": ""
-    },
-    "Fluctuation X-ray scattering": {
-      "to": "Fluctuation X-ray scattering",
-      "tofragment": ""
-    },
-    "Graphite": {
-      "to": "Graphite",
-      "tofragment": ""
-    },
-    "Planck constant": {
-      "to": "Planck constant",
-      "tofragment": ""
-    },
-    "Positronium": {
-      "to": "Positronium",
-      "tofragment": ""
-    },
-    "Ptychography": {
-      "to": "Ptychography",
-      "tofragment": ""
-    },
-    "Radiobiology": {
-      "to": "Radiobiology",
-      "tofragment": ""
-    },
-    "Scanning transmission X-ray microscopy": {
-      "to": "Scanning transmission X-ray microscopy",
-      "tofragment": ""
-    },
-    "Schwinger effect": {
-      "to": "Schwinger effect",
-      "tofragment": ""
-    },
-    "Wave": {
-      "to": "Wave",
+    "X-ray lithography": {
+      "to": "X-ray lithography",
       "tofragment": ""
     },
     "X-ray photoelectron spectroscopy": {
       "to": "X-ray photoelectron spectroscopy",
       "tofragment": ""
     },
+    "X-ray radiography": {
+      "to": "Radiography",
+      "tofragment": ""
+    },
     "X-ray reflectivity": {
       "to": "X-ray reflectivity",
       "tofragment": ""
     },
-    "Dot product": {
-      "to": "Dot product",
+    "X-ray scattering techniques": {
+      "to": "X-ray scattering techniques",
       "tofragment": ""
     },
-    "Sunyaev–Zeldovich effect": {
-      "to": "Sunyaev–Zeldovich effect",
+    "X-ray telescope": {
+      "to": "X-ray telescope",
+      "tofragment": ""
+    },
+    "X-ray tube": {
+      "to": "X-ray tube",
       "tofragment": ""
     }
   },
