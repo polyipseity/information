@@ -413,6 +413,16 @@ class WikiHtmlConverter:
 
             process_strings = _hatnote_process
 
+        if (
+            "sidebar-caption" in classes or "infobox-caption" in classes
+        ) and self._in_table_cell(ele):
+            # Inside an infobox/sidebar cell, the caption follows the image
+            # or math on the same cell line; separate it with a ``<br/>``
+            # line break.  Applied after dispatch so it composes with the
+            # emphasis handler when the caption has an inline italic/bold
+            # style (which otherwise suppresses the div handler).
+            config.prefix = f" <br/> {config.prefix}" if config.prefix else " <br/> "
+
         if {"sidebar-navbar", "navbar"} & classes:
             parent = ele.parent
             while parent is not None:
@@ -1488,13 +1498,6 @@ class WikiHtmlConverter:
             return _HandlerConfig(
                 suffix="\n\n", process_strings=process_strings_thumbcaption
             )
-        if (
-            "sidebar-caption" in classes or "infobox-caption" in classes
-        ) and self._in_table_cell(ele):
-            # Inside an infobox/sidebar cell, the caption follows the image
-            # or math on the same cell line; separate it with a ``<br/>``
-            # line break (both elements are inline siblings in the same cell).
-            return _HandlerConfig(prefix=" <br/> ")
         if "portal-bar" in classes:
             # Portal-bar divs (e.g. the "Portals" section at the bottom of
             # Wikipedia articles) should render as a blockquote so each line
