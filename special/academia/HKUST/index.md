@@ -66,6 +66,7 @@ tags:
 - [MATH 2023](MATH%202023/index.md)
 - [MATH 2411](MATH%202411/index.md)
 - [MATH 2431](MATH%202431/index.md)
+- [MATH 3423](MATH%203423/index.md)
 - [PHYS 1002](PHYS%201002/index.md)
 - [PHYS 1112](PHYS%201112/index.md)
 - [PHYS 1314](PHYS%201314/index.md)
@@ -164,6 +165,7 @@ tags:
 ### 2026 fall
 
 - [COMP 3511](COMP%203511/index.md): Operating Systems (3 credits)
+- [MATH 3423](MATH%203423/index.md): Statistical Inference (3 credits)
 
 ## groups
 
