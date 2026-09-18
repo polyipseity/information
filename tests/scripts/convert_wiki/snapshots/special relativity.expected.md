@@ -149,7 +149,7 @@ From the principle of relativity alone without assuming the constancy of the spe
 
 Einstein combined the two postulates – of relativity – and of the invariance of the speed of light, into a single postulate, the Lorentz transformation:
 
-The insight fundamental for the special theory of relativity is this: The assumptions relativity and light speed invariance are compatible if relations of a new type \("Lorentz transformation"\) are postulated for the conversion of coordinates and times of events ... The universal principle of the special theory of relativity is contained in the postulate: The laws of physics are invariant with respect to Lorentz transformations \(for the transition from one inertial system to any other arbitrarily chosen inertial system\). This is a restricting principle for natural laws ...<sup>[\[p 2\]](#^p-2)</sup>
+> The insight fundamental for the special theory of relativity is this: The assumptions relativity and light speed invariance are compatible if relations of a new type \("Lorentz transformation"\) are postulated for the conversion of coordinates and times of events ... The universal principle of the special theory of relativity is contained in the postulate: The laws of physics are invariant with respect to Lorentz transformations \(for the transition from one inertial system to any other arbitrarily chosen inertial system\). This is a restricting principle for natural laws ...<sup>[\[p 2\]](#^p-2)</sup>
 
 Following Einstein's original presentation of special relativity in 1905, many different sets of postulates have been proposed in various alternative derivations,<sup>[\[28\]](#^ref-28)</sup> but Einstein stuck to his approach throughout work.<sup>[\[p 5\]](#^p-5)</sup>
 
