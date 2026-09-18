@@ -186,10 +186,13 @@ Flashcards for this section are as follows:
    - No `<b>`/`</b>` — use `__` for bold
 
 2. __Figures and diagrams:__
-   - When the source carries figures the prose depends on (slide diagrams, schematics, plots), extract page images per "Document extraction (mandatory)" in `academic-ingest`.
-   - Copy only the pages that matter into `attachments/pages/<stem>/`; do not copy the whole deck.
-   - Reference each from the section that uses it: `![<alt text>](attachments/pages/<stem>/page_007.png)`.
+   - When the source carries figures the prose depends on (slide diagrams, schematics, plots), extract the document per "Document extraction (mandatory)" in `academic-ingest`.
+   - Read a figure from `.extracted/images/`, not from the 150 DPI page render in `.extracted/pages/`; the render is downscaled and hides the labels. Crop and upscale when the figure is still unclear.
+   - Default to text: transcribe a figure's labels, values, and steps into the prose, or into a Markdown table when the figure is tabular. Describe it for the point it makes in the section rather than listing what the picture contains.
+   - Attach a graphic only when the picture itself is the material, and never attach a page render. Copy the embedded image into `attachments/` under a descriptive name — `attachments/lob_depth_diagram.png`, not `attachments/pages/.../page_007.png`.
+   - Reference each attached graphic from the section that uses it: `![<alt text>](attachments/zener_circuit_q1.jpg)`.
    - Alt text is plain language describing what the figure shows — never LaTeX.
+   - Follow "Page image handling" in `academic-ingest` for what may and may not be asserted about an image.
    - Leave `.extracted/` alone; it is a cache, not an attachment source.
 
 3. __Update course index:__

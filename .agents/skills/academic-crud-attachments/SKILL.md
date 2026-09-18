@@ -21,19 +21,20 @@ Attachments can appear at multiple levels:
 - `attachments/` should NOT have `index.md` (per validator rule `index_children_missing_index`)
 - Link from parent `## children` as `[attachments/](attachments/)` or as individual file links
 - Contents are raw files (PDF, PNG, SVG, CSV, Python, Java, etc.), not Markdown notes
+- Images are attachments only when the picture itself is the material. Page renders from `.extracted/pages/` are never attachments — a 150 DPI picture of a slide is not the slide's graphics. See "Page image handling" in `academic-ingest`
 - Use `%20` encoding for spaces in filenames when linking
 - Missing-data indicator `\[missing\]` rarely applies here — files either exist or don't. See [special.instructions.md](../../instructions/special.instructions.md#missing-data)
 
 ### Document-like formats (PDF, DOCX, PPTX)
 
-Documents are NOT opaque blobs. Dual extraction (text + page images) always runs when a document is ingested, with outputs persisted in `.extracted/` near the source. Disposition depends on the document's role:
+Documents are NOT opaque blobs. Extraction of text, page renders, and embedded images always runs when a document is ingested, with outputs persisted in `.extracted/` near the source. Disposition depends on the document's role:
 
 #### Content documents (the document IS the course material)
 
-The `.md` file + page images are the canonical form. The original document is NOT stored in `attachments/` unless the user explicitly requests provenance.
+The `.md` file is the canonical form. The original document is NOT stored in `attachments/` unless the user explicitly requests provenance.
 
 - Extracted text → the `.md` content file itself
-- Page images → `attachments/pages/` (referenced from the `.md` for visual content)
+- Images → left in `.extracted/images/`; an embedded image is copied into `attachments/` under a descriptive name only when the picture itself is the material. Page renders are never attachments — see "Page image handling" in `academic-ingest`
 - `.extracted/` → persists as cache near the source; if source is not stored, `.extracted/` may also be omitted
 
 #### Attachment documents (the document ACCOMPANIES course material)
@@ -42,7 +43,7 @@ The original file is the canonical form, stored in `attachments/`.
 
 - Original file → `attachments/` (for provenance and re-extraction)
 - Extracted text → ephemeral reference: agent reads it during classification, but the `.md` content comes from elsewhere
-- Page images → `attachments/pages/` only when visual content needs inline reference; otherwise just cached in `.extracted/`
+- Images → cached in `.extracted/images/`; copied into `attachments/` only when the note has to show one
 - `.extracted/` → persists as cache near the original in `attachments/`
 
 #### `.extracted/` folder convention
@@ -56,6 +57,9 @@ attachments/
 │   ├── text.md
 │   ├── pages/
 │   │   ├── page_001.png
+│   │   └── ...
+│   ├── images/
+│   │   ├── page_007_img_1.png
 │   │   └── ...
 │   └── manifest.json
 ├── data.csv
@@ -72,7 +76,7 @@ Link from parent `index.md` as usual:
 
 - Directory link: `- [attachments/](attachments/)`
 - Individual file: `- [\`filename.pdf\`](attachments/filename.pdf)`
-- Page images: `- [attachments/pages/](attachments/pages/)` or per-image links
+- Images: individual links to the graphics actually kept, e.g. `- [\`lob_depth_diagram.png\`](attachments/lob_depth_diagram.png)`
 
 ## Creating or updating attachments
 
@@ -88,6 +92,8 @@ Link from parent `index.md` as usual:
 1. Create the `attachments/` directory.
 2. Place files inside it.
 3. Add a child link in the parent `index.md` `## children` section.
+
+When the directory becomes empty — every file removed, or replaced by text transcribed into the notes — delete the directory and its child link. An `attachments/` directory that only duplicates prose is worse than none.
 
 ## Linking to attachments
 

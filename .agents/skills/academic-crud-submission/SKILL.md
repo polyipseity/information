@@ -145,13 +145,13 @@ Input: Canvas assignment HTML page + prompt files.
    - Assignment ID from URL comment
 3. Create `index.md` with metadata and description
 4. Copy prompt PDFs, DOCX, PPTX, and data files to `attachments/`
-5. If the document is PDF/DOCX/PPTX, check for existing extraction in `attachments/<stem>.extracted/`. If no valid cache exists, run dual extraction:
+5. If the document is PDF/DOCX/PPTX, check for existing extraction in `attachments/<stem>.extracted/`. If no valid cache exists, run extraction:
 
    ```bash
    uv run -m scripts.special.convert_document <file> attachments/<stem>.extracted/
    ```
 
-   Use extracted text to understand the prompt during classification. The original in `attachments/` is canonical. Store page images in `attachments/<stem>.extracted/pages/` — reference them from content files only when visual content (diagrams, figures) needs inline display.
+   Use extracted text to understand the prompt during classification. The original in `attachments/` is canonical. Leave the images in `attachments/<stem>.extracted/pages/` and `images/`; reference an embedded image from a content file only when the picture itself is the material (see "Page image handling" in `academic-ingest`).
 6. Apply display-vs-link convention for versioned PDFs
 
 ### What goes in `attachments/`

@@ -76,7 +76,7 @@ __Post-conditions__ — do not proceed to classification until all hold:
 - `manifest.json` records the source SHA-256, format, page count, and timestamp
 - The recorded page count matches the source document
 
-__Full coverage__: every page must be accounted for. Page text ends up in the note or its attachments; page images carrying figures the prose depends on are referenced from the note. A note that silently drops pages is an incomplete extraction, not a summary. If a source has no extractable text (scanned images only), say so explicitly and work from the page images.
+__Full coverage__: every page must be accounted for. Page text ends up in the note; a figure the prose depends on is transcribed into it, and attached only when the picture itself is the material. A note that silently drops pages is an incomplete extraction, not a summary. If a source has no extractable text (scanned images only), say so explicitly and work from its images — see "Page image handling" below.
 
 Document-like formats (PDF, DOCX, PPTX) produce extraction outputs that are persisted near the source:
 
@@ -86,12 +86,43 @@ Document-like formats (PDF, DOCX, PPTX) produce extraction outputs that are pers
 Each `.extracted/` folder contains:
 
 - `text.md` — extracted markdown text
-- `pages/` — page/slide PNG images at 150 DPI
-- `manifest.json` — source file hash, format, page count, timestamp
+- `pages/` — page/slide PNG renders at 150 DPI, for reading layout and slide text
+- `images/` — the document's own embedded images at their true resolution, named for the page or slide holding them
+- `manifest.json` — source file hash, format, page count, embedded image count, timestamp
 
 __Cache check__: Before running `convert_document.py`, check if `.extracted/` exists with a valid `manifest.json` matching the source file's SHA-256 hash. If valid, reuse the cached extraction. Use `--force` to re-extract.
 
 `.extracted/` is a derived artifact — not tracked in `index.md` `## children`, not linked from content files. Safe to delete and re-extract. This applies to `.extracted/` alone, never to the source document — see "Source file preservation".
+
+### Page image handling
+
+`.extracted/` holds two image sets, used for different things:
+
+- `pages/page_NNN.png` — the 150 DPI render of the whole page or slide. For finding where content sits, and for reading slide text and layout.
+- `images/` — the document's own embedded images, at their true resolution and named for the page or slide holding them. For reading a figure itself: the render is downscaled, so small labels, numbers, and lettering that are unreadable in `pages/` are often clear here.
+
+__Read the embedded image, not the render, when the figure matters.__ A page whose extracted text is thin or empty usually still holds content. Open its embedded image, and if detail is still unclear crop and upscale before giving up:
+
+```bash
+magick images/page_035_img_1.png -crop 200x70+320+235 +repage -resize 500% /tmp/zoom.png
+```
+
+Then classify what the image holds, because each kind is handled differently:
+
+- __Text-bearing figure__ — diagram, plot, table, labelled schematic, or screenshot of a document. Transcribe its labels, values, and steps into the note, as prose or a Markdown table. The transcription is the record, not the picture.
+- __Purely pictorial image__ — photograph, engraving, illustration. Describe it for the point it is there to make, per the rule below.
+
+__Describe for learning, not for its own sake.__ Work out what the image is doing in its slide or section — a before/after pair showing a change in market structure, a diagram showing the steps of a mechanism, a chart supporting a claim — and write the description that carries that point. Include the detail that serves it and leave the rest out; do not inventory the picture. A photograph illustrating "trading floors then and now" needs the crowd, the medium, and the contrast, not every object in frame.
+
+__Never assert what the image does not show.__ An image is evidence of what it depicts, not of context or intent:
+
+- Do not name a venue, institution, person, or document that neither the slide nor the image names.
+- Do not claim that two images show the same place, or that an image shows a particular company or exchange, because that reading is plausible.
+- Do not read a signboard, heading, or caption that is illegible at the available resolution. Record that it is illegible.
+- Do not read a chart's shape as a quantity it never states. The mode of a distribution is not its mean, and a line's movement is not a price change the slide never claims.
+- Keep observation apart from the deck's commentary. "Men with arms raised and papers in hand" is observed; "bidding by open outcry" is the deck's framing of a trading floor, and one sentence must not present the second as if the image showed it.
+
+__Attach a graphic only when the picture itself is the material.__ Page renders are never attachments: a 150 DPI picture of a slide is not the slide's graphics. An embedded image normally stays in `.extracted/` too, because text can carry what it shows; copy one into `attachments/` under a descriptive name only when the reader has to see the picture itself — geometry that carries the meaning, a chart whose shape is the point, a cheatsheet — and expect that to be rare.
 
 ## Input handling
 
@@ -126,12 +157,12 @@ Identify HTML source type before extraction:
 Document-like formats are NOT opaque. Extraction is mandatory and runs before classification — see "Document extraction (mandatory)" for the command, the cache check, and the post-conditions. After extraction, classify the document:
 
 1. __Vision-awareness check__: Before processing, determine if the current model accepts image inputs. Check `PI_MODEL` and `PI_PROVIDER` environment variables.
-   - __If vision-aware__: The agent can directly read page images to understand visual content (diagrams, formulas, handwritten annotations, layout). Use both text and images during classification and content extraction.
-   - __If NOT vision-aware__: Rely on extracted text only. Page images are persisted in `.extracted/pages/` for future reference or manual review, but the agent cannot interpret them during ingestion.
+   - __If vision-aware__: The agent can read both the page renders and the embedded images to understand visual content (diagrams, formulas, handwritten annotations, layout). Use text and images together during classification and content extraction.
+   - __If NOT vision-aware__: Rely on extracted text only. Both image sets persist in the `.extracted/` folder for future reference or manual review, but the agent cannot interpret them during ingestion.
 
 2. __Role classification__ (after extraction, before dispatch): Determine whether the document is __content__ or an __attachment__:
-   - __Content document__: The document IS the course material (lecture slides, topic notes, exam paper). Disposition: extracted text → `.md` file; page images → `attachments/pages/`; original file → left in place at its original path, not copied into the repository (the `.md` + images are canonical).
-   - __Attachment document__: The document ACCOMPANIES course material (prompt PDF, reference data, supplementary reading). Disposition: original → `attachments/`; page images → `attachments/pages/` only when visual content needs inline reference; extracted text → used during agent processing but not persisted as a separate `.md` (the original is canonical).
+   - __Content document__: The document IS the course material (lecture slides, topic notes, exam paper). Disposition: extracted text → `.md` file; figures → transcribed into the `.md`, with an embedded image attached only when the picture itself is the material (see "Page image handling"); original file → left in place at its original path, not copied into the repository (the `.md` is canonical).
+   - __Attachment document__: The document ACCOMPANIES course material (prompt PDF, reference data, supplementary reading). Disposition: original → `attachments/`; extracted text → used during agent processing but not persisted as a separate `.md` (the original is canonical); images → left in `.extracted/` unless the note has to show one.
    - __When ambiguous__: Ask the user — "Is this document the course content itself, or a file that accompanies the content?"
 
 3. __Ensure `.gitignore`__: When creating an `.extracted/` folder, create a `.gitignore` inside it containing `*` to ignore all cached contents. This prevents extraction outputs from being committed.
@@ -362,15 +393,15 @@ After extracting content from a source file, the extracted material lands as fol
 - Prompt PDFs, data files, images → `attachments/` (only actual media/data)
 - Original HTML files → left in place at their original path; not copied into the repository
 - Original document files (PDF, DOCX, PPTX) — see role classification:
-    - Content documents: original left in place; the `.md` and `attachments/pages/` images are the canonical copy; never deleted
+    - Content documents: original left in place; the `.md` is the canonical copy; never deleted
     - Attachment documents: copied into `attachments/` (raw file for provenance and re-extraction); source left in place
-- Extracted page images — `attachments/pages/<stem>/` (referenced from content when visual content matters)
+- Figures — transcribed into the note; an embedded image is copied to `attachments/` under a descriptive name only when the picture itself is the material
 - Extracted text — content documents: `.md` file; attachment documents: ephemeral reference (original is canonical)
 - `.extracted/` folders — derived cache artifacts, not tracked in `index.md`
 
 Do not copy extracted-content HTML into `attachments/`. The `attachments/` directory is for raw referenced files (PDFs, images, data, scripts), not for source documents whose content has been transcripted into markdown.
 
-### Embedded image extraction
+### Embedded image extraction (HTML sources)
 
 When extracting content from PRS/iClicker HTML, check for embedded base64 images (circuit diagrams, pinout diagrams, sensor illustrations). These are quiz-relevant assets and must be extracted:
 
@@ -502,7 +533,8 @@ Route to the correct `academic-crud-*` skill with preprocessed context:
   filePath: <original file path>,
   targetHint: <classification result>,
   documentRole: <content|attachment>,
-  pageImages: <list of page image paths, if available>,
+  pageImages: <list of page-render paths, if available>,
+  embeddedImages: <list of embedded image paths, if available>,
   extractionDir: <path to .extracted/ folder>
 }
 ```
