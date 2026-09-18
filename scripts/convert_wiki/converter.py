@@ -714,9 +714,14 @@ class WikiHtmlConverter:
             if self._page_name
             else None
         )
-        if normalized_page and _fix_filename(to_filename) == _fix_filename(
+        # ``mw-selflink-fragment`` already identifies the anchor as the
+        # current page, so it renders as a fragment even when the caller
+        # did not supply ``page_name`` (e.g. clipboard conversion).
+        same_page = "mw-selflink-fragment" in classes or bool(
             normalized_page
-        ):
+            and _fix_filename(to_filename) == _fix_filename(normalized_page)
+        )
+        if same_page:
             target = (
                 f"#{_encode_fragment(norm_frag)}"
                 if norm_frag
