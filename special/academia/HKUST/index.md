@@ -74,6 +74,7 @@ tags:
 - [PHYS 1314](PHYS%201314/index.md)
 - [PHYS 2022](PHYS%202022/index.md)
 - [Robotics Team](Robotics%20Team/index.md)
+- [SOSC 1960](SOSC%201960/index.md)
 - [TEMG 1010](TEMG%201010/index.md)
 - [TEMG 3950](TEMG%203950/index.md)
 - [reviews.md](reviews.md)
@@ -172,6 +173,7 @@ tags:
 - [MATH 3423](MATH%203423/index.md): Statistical Inference (3 credits)
 - [PHYS 2022](PHYS%202022/index.md): Modern Physics (3 credits)
 - [ELEC 2400](ELEC%202400/index.md): Electronic Circuits (4 credits)
+- [SOSC 1960](SOSC%201960/index.md): Introduction to Psychology
 
 ## groups
 
