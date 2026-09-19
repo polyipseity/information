@@ -1238,7 +1238,9 @@ class TableConverter:
 
         Mirrors ``handle_standalone_numblk``, which prepends an empty
         ``<th>`` header row so the equation/number body row aligns like a
-        numblk table.
+        numblk table.  The empty row is inserted into *ele* (the container
+        being converted) so it is never added to a sibling container whose
+        rows have already been dispatched.
         """
         table = ele.find_parent("table")
         if not isinstance(table, Tag):
@@ -1253,7 +1255,7 @@ class TableConverter:
         first = next(
             (
                 row
-                for row in rows
+                for row in ele.find_all("tr", recursive=False)
                 if any(isinstance(c, Tag) and c.name in _TD_OR_TH for c in row.children)
             ),
             None,
