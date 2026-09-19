@@ -747,6 +747,54 @@ class TestBlockMathClassification:
         assert isinstance(math_ele, Tag)
         assert WikiHtmlConverter._is_inline_math(math_ele) is True
 
+    def test_new_parsoid_inline_marker_on_outer_span_returns_true(self) -> None:
+        """Newer Parsoid markup marks inline math on the outer wrapper span.
+
+        The ``<math>`` parent span is a bare ``mwe-math-mathml-a11y``; only
+        the outer ``mwe-math-element-inline`` carries the inline marker, so
+        the classification must consult the wrapper as well.
+        """
+        html = BeautifulSoup(
+            "<p>text "
+            '<span class="mwe-math-element mwe-math-element-inline">'
+            '<span class="mwe-math-mathml-a11y">'
+            "<math></math></span></span></p>",
+            "html.parser",
+        )
+        math_ele = html.find("math")
+        assert isinstance(math_ele, Tag)
+        assert WikiHtmlConverter._is_inline_math(math_ele) is True
+
+    def test_new_parsoid_block_marker_on_outer_span_returns_false(self) -> None:
+        """Newer Parsoid markup marks block math on the outer wrapper span."""
+        html = BeautifulSoup(
+            "<p>text "
+            '<span class="mwe-math-element mwe-math-element-block">'
+            '<span class="mwe-math-mathml-a11y">'
+            '<math display="block"></math></span></span></p>',
+            "html.parser",
+        )
+        math_ele = html.find("math")
+        assert isinstance(math_ele, Tag)
+        assert WikiHtmlConverter._is_inline_math(math_ele) is False
+
+    def test_bare_outer_span_keeps_inner_inline_marker(self) -> None:
+        """A bare ``mwe-math-element`` wrapper must not demote inline math.
+
+        Some Parsoid revisions omit the inline/block modifier on the outer
+        span while keeping ``mwe-math-mathml-inline`` on the parent span.
+        """
+        html = BeautifulSoup(
+            "<p>text "
+            '<span class="mwe-math-element">'
+            '<span class="mwe-math-mathml-inline mwe-math-mathml-a11y">'
+            "<math></math></span></span></p>",
+            "html.parser",
+        )
+        math_ele = html.find("math")
+        assert isinstance(math_ele, Tag)
+        assert WikiHtmlConverter._is_inline_math(math_ele) is True
+
     def test_inline_math_sibling_guard_fails_returns_false(self) -> None:
         """Inline math with single-child ancestor (guard fails) should return False."""
         html = BeautifulSoup(

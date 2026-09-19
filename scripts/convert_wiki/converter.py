@@ -1778,11 +1778,31 @@ class WikiHtmlConverter:
 
     @staticmethod
     def _is_inline_math(ele: Tag, *, alt_text: str = "") -> bool:
-        """Determine if a <math> element should use inline $ delimiters."""
+        """Determine if a <math> element should use inline $ delimiters.
+
+        Wikipedia has moved the inline/display marker between HTML revisions:
+        older markup tags the ``<math>`` parent span
+        (``mwe-math-mathml-inline`` / ``mwe-math-mathml-display``), while
+        newer Parsoid markup tags the outer ``mwe-math-element`` wrapper
+        (``mwe-math-element-inline`` / ``mwe-math-element-block``) and leaves
+        the parent span as ``mwe-math-mathml-a11y``.  Consult both, treating
+        an explicit outer block marker as decisive.
+        """
         parent = ele.parent
-        if not parent or "inline" not in str(parent.get("class", "")):
-            return False
         outer_span = WikiHtmlConverter._math_outer_span(ele)
+        outer_classes = (
+            frozenset(outer_span.get_attribute_list("class"))
+            if isinstance(outer_span, Tag)
+            else frozenset()
+        )
+        if "mwe-math-element-block" in outer_classes:
+            return False
+        parent_classes = str(parent.get("class", "")) if parent is not None else ""
+        inline_marked = (
+            "inline" in parent_classes or "mwe-math-element-inline" in outer_classes
+        )
+        if not inline_marked:
+            return False
         container = WikiHtmlConverter._math_sibling_container(ele)
         if not isinstance(container, Tag):
             return False

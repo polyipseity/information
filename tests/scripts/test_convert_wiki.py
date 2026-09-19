@@ -29,7 +29,6 @@ from scripts.convert_wiki.utils import (
 """Public API of this test module (empty: no symbols are exported)."""
 __all__ = ()
 
-
 """Absolute path to the snapshot test fixtures directory."""
 _SNAPSHOT_DIR = (
     PathlibPath(__file__).resolve(strict=True).with_name("convert_wiki") / "snapshots"
@@ -157,6 +156,7 @@ def _discover_snapshot_cases() -> list[str]:
         "wave\u2013particle duality",
         "Routhian mechanics",
         "Schrödinger equation",
+        "particle in a box",
     }
     return [c for c in all_cases if c in slow]
 

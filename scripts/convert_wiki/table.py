@@ -1663,16 +1663,19 @@ class TableConverter:
                     continue
                 for cell in tr.find_all(_TD_OR_TH):
                     _set_text_align(cell, align)
-                if cells := tuple(tr.find_all(_TD_OR_TH)):
-                    _strip_cell_bold(cells[-1])
         # Rewrite equation-number cells regardless of alignment,
         # prepending an <a id> anchor derived from the originating
         # table id so prose links like #math%20N resolve correctly.
+        # The cell-level bold is dropped unconditionally here too: the anchor
+        # is prepended ahead of the number, and an inherited
+        # ``font-weight: bold`` would otherwise wrap the anchor in the emitted
+        # ``__...__`` (mirrors the equation-box path).
         default_origin = str(ele.get("id", "")) if ele.get("id") else None
         for tr in tbody.find_all("tr"):
             if tr is header_row:
                 continue
             if cells := tuple(tr.find_all(_TD_OR_TH)):
+                _strip_cell_bold(cells[-1])
                 raw = tr.get("data-origin-id")
                 origin = str(raw) if raw else default_origin
                 anchor = origin.replace("_", " ") if origin else None
