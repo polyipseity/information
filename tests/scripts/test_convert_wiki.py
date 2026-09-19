@@ -233,6 +233,9 @@ class TestWikiHtmlToPlaintextSnapshot:
         )
 
         assert output == expected
+        # The linter harness reflows tables; pipeline output must already be a
+        # fixed point so that reflow cannot silently repair a malformed table.
+        assert _reformat_table(output) == output
         await _assert_markdownlint_clean(output, tmp)
         await _assert_redirect_symlinks(
             tmp=tmp,
