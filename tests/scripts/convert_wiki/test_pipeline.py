@@ -1210,9 +1210,10 @@ class TestRunPipeline:
             wiki_lang_dir=lang_dir,
             refs=True,
         )
-        # The table should have columns
-        lines = [line for line in result.split("\n") if line.startswith("|")]
-        assert len(lines) >= 1
-        # Second column should accommodate "verylongcontent"
-        # The dash separator row should match column widths
-        assert "verylongcontent" in result
+        # The table has an empty header row, a separator, and one data row;
+        # the pipeline pads each column to its widest cell.
+        assert result == (
+            "|       |                 |\n"
+            "| ----- | --------------- |\n"
+            "| short | verylongcontent |\n"
+        )

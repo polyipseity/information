@@ -21,7 +21,7 @@ from scripts.convert_wiki import config
 from scripts.convert_wiki.api import _collect_link_titles
 from scripts.convert_wiki.converter import WikiHtmlConverter
 from scripts.convert_wiki.pipeline import _preprocess_html, run_pipeline
-from scripts.convert_wiki.table import TableConverter
+from scripts.convert_wiki.table import TableConverter, _reformat_table
 from scripts.convert_wiki.types import _RedirectInfo
 from scripts.convert_wiki.utils import (
     _fix_filename,
@@ -228,6 +228,9 @@ class TestWikiHtmlToPlaintextSnapshot:
         )
 
         assert output == expected
+        # The linter harness reflows tables; pipeline output must already be a
+        # fixed point so that reflow cannot silently repair a malformed table.
+        assert _reformat_table(output) == output
         await _assert_markdownlint_clean(output, tmp)
         await _assert_redirect_symlinks(
             tmp=tmp,

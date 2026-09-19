@@ -2163,12 +2163,19 @@ class WikiHtmlConverter:
 
         A standalone ``numblk`` table (a sibling of an equation-box div, not
         a descendant) is rendered as a two-column equation table via
-        ``TableConverter.handle_standalone_numblk``.
+        ``TableConverter.handle_standalone_numblk``.  A table with no
+        ``<tbody>`` never reaches ``handle_tbody``, so it gets the same cell
+        normalization and ``<th>``-less header treatment here.
         """
         if "numblk" in classes and not WikiHtmlConverter._is_in_equation_box(ele):
             return TableConverter.handle_standalone_numblk(
                 ele, self._soup, self._names_map
             )
+
+        if "numblk" not in classes and ele.find("tbody", recursive=False) is None:
+            TableConverter._flatten_nested_tables(ele, self._soup)
+            TableConverter._normalize_table_cells(ele, self._soup)
+            TableConverter._ensure_th_less_header_row(ele, self._soup)
 
         # Rewrite equation-number cells (e.g. velocity table) before
         # conversion so they produce __\([N](#math%20N)\)__.
