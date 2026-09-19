@@ -94,6 +94,14 @@ File and section boundaries come from the concepts, never from the shape of the 
 - The sections must partition the concept — each answers one question, along parallel axes, with no leftover other section.
 - Order sections by the concept's own logic: definition, then mechanism, then variants, limits, and examples. Coinciding with the source's order is fine; the source's order is never the justification.
 
+### Prose and cards are organized by the note
+
+The principle reaches inside a section. Paragraph order, the grouping of list items, and the slicing of cards belong to the note, not to the material: a source's sequence and the boundaries it happens to draw are inputs, never a structure to reproduce.
+
+- Regroup a flat list by whatever property actually separates its members, and move a fact to the paragraph where it belongs, even when the source presented it elsewhere.
+- Slice enumerated answers at a boundary the note names on the prompt side, not necessarily one the material shows — see "Enumeration cards" in `create-flashcards`.
+- Reorganizing only moves boundaries: every fact stays in the note, and no statement may claim a grouping the material contradicts.
+
 ### Nesting is always decided
 
 Decide nesting explicitly while planning the note. Do not inherit the source's depth, and do not default to flat.

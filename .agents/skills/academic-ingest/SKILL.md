@@ -37,7 +37,7 @@ A course homepage that mentions "labs" as a grading component does NOT warrant c
 
 __Never write current status or provenance.__ What has been ingested so far, what still remains, and how a derived value was established all go stale on the next ingest. Omit them; prefer less content whenever possible.
 
-__Structure comes from the content, not the source.__ A source's layout never decides which notes or sections exist. Extracted text is raw material: its concepts define the file boundaries and the section boundaries, and its own headings are renamed to the sub-concepts they carry. A lecture deck must not produce a note about a lecture — see the merge and split tests in `academic-crud-topic-note`.
+__Structure comes from the content, not the source.__ A source's layout never decides which notes or sections exist. Extracted text is raw material: its concepts define the file boundaries and the section boundaries, and its own headings are renamed to the sub-concepts they carry. A lecture deck must not produce a note about a lecture — see the merge and split tests in `academic-crud-topic-note`. The same holds inside a section: paragraph order, the grouping of list items, and the slicing of cards follow the note's own logic, so the material's sequence and its enumerations are inputs rather than a structure to reproduce.
 
 __Write the content, not the material.__ A note states knowledge; it never narrates where the knowledge came from. Do not make the deck, the slides, the lecture, the handout, or the course the subject of a sentence, and do not report what a source does:
 
