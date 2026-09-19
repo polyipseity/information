@@ -5,7 +5,7 @@ description: Create, read, update, and delete question and problem-set pages und
 
 # Academic CRUD: Question pages
 
-Create, read, update, and delete question pages. These are problems and exercises from any source (lectures, labs, tutorials, materials, quizzes) that do not require formal submission.
+Question pages hold problems and exercises from any source (lectures, labs, tutorials, materials, quizzes) that do not require formal submission.
 
 ## Target
 
@@ -13,18 +13,17 @@ Create, read, update, and delete question pages. These are problems and exercise
 
 For multi-page question sets: `questions/<name>/index.md` with child pages.
 
-The `##` sections inside a question page group questions by concept or question type, not by the source's layout or ordering — see "Grouping: concepts, not source layout" in `academic-crud-topic-note`.
+The `##` sections inside a question page group questions by concept or question type, not by the source's layout or ordering (see "Grouping: concepts, not source layout" in `academic-crud-topic-note`).
 
 ## CRUD operations
 
 ### Create
 
-1. __Extract questions__ from input (PDF text extraction, Canvas quiz HTML, manual):
+1. __Extract questions__ from the input (PDF text extraction, Canvas quiz HTML, manual):
    - Identify official problem statements vs self-authored content
    - Extract solutions if available
-   - Identify source (tutorial sheet, problem set, practice exam, etc.)
-
-2. __Structure page:__
+   - Identify the source (tutorial sheet, problem set, practice exam)
+2. __Write the page__ in this structure:
 
 ```markdown
 ---
@@ -59,15 +58,14 @@ tags:
 > <solution>
 ```
 
-1. __Flashcards (cloze):__
-   - Use `{@{ }@}` (cloze) format for solutions — NOT QA format
-   - __Solution lines:__ ideally one cloze per solution — cloze the core result, formula, or decisive step. Only for very long solutions (multi-step derivations, lengthy prose) may multiple clozes appear, one per logical step.
-   - __Explanation lines:__ prefer multiple clozes whenever possible — break the explanation into individual claims, conditions, and reasoning steps, each wrapped in its own cloze.
-   - Split prose + equation into separate clozes: `{@{prose}@} is {@{$equation$}@}`
+1. __Add cloze flashcards__ to the solutions:
+   - Use `{@{ }@}` (cloze), not QA format
+   - __Solution lines:__ one cloze per solution, on the core result, formula, or decisive step. Very long solutions (multi-step derivations, lengthy prose) may carry several clozes, one per logical step.
+   - __Explanation lines:__ prefer several clozes, breaking the explanation into individual claims, conditions, and reasoning steps.
+   - Split prose and equation into separate clozes: `{@{prose}@} is {@{$equation$}@}`
    - Cloze technique names: `{@{Swap sum order}@}`, `{@{completing the square}@}`
-   - Reference `create-flashcards` skill for cloze methodology
-
-2. __Create `questions/index.md`__ via `academic-crud-index` if first question page.
+   - See `create-flashcards` for the cloze methodology.
+2. __Create `questions/index.md`__ via `academic-crud-index` if this is the first question page.
 
 ### Read
 
@@ -75,17 +73,17 @@ List question pages; search by topic; show flashcard coverage.
 
 ### Update
 
-- Add questions, enhance solutions
-- Ensure each solution has a cloze and each explanation has multiple clozes
-- Cross-reference with topic notes: `(from Problem N)`
+- Add questions and enhance solutions.
+- Ensure each solution has a cloze and each explanation has several.
+- Cross-reference with topic notes: `(from Problem N)`.
 
 ### Delete
 
-Remove question page. Update `questions/index.md`.
+Remove the question page and update `questions/index.md`.
 
 ## Missing data
 
-Use `\[missing\]` for absent values — for example, when a problem has no solution yet or a quiz has no timestamp. See [special.instructions.md](../../instructions/special.instructions.md#missing-data).
+Use `\[missing\]` for absent values, such as a problem with no solution yet or a quiz with no timestamp (see [special.instructions.md](../../instructions/special.instructions.md#missing-data)).
 
 ## Blockquote formatting
 
@@ -100,56 +98,54 @@ Use `\[missing\]` for absent values — for example, when a problem has no solut
 > The CDF is obtained by integrating.
 ```
 
-Every line inside a blockquote must begin with `>` — including blank lines.
+Every line inside a blockquote must begin with `>`, blank lines included.
 
 ## Solution conventions
 
 - Decompose → apply bound/theorem → evaluate → conclude
 - Show intermediate steps (antiderivative, geometric-series closed form, factorial-ratio simplification)
 - Cross-reference: `(from Problem 2(b))`
-- True/false: __False.__ with counterexample; __True.__ with theorem reference
-- Alternative solutions: __Alternative (method name):__ bold header
+- True/false: `__False.__` with a counterexample; `__True.__` with a theorem reference
+- Alternative solutions: `__Alternative (method name):__` bold header
 - Cloze as logical implication: visible premise → hidden conclusion
-- Display math merged onto blockquote line: `> The form simplifies to $$...$$`
+- Display math merged onto the blockquote line: `> The form simplifies to $$...$$`
 
 ## Canvas quiz handling
 
 ### Public/private paired layout
 
-- Public: `questions/quiz N.md` with active flashcard tag and `## hints`
-- Private: mirrored private path with archive tag and `## content`
+- Public: `questions/quiz N.md` with an active flashcard tag and `## hints`
+- Private: mirrored private path with an archive tag and `## content`
 - Keep basenames aligned on both sides
 
 ### Public quiz page
 
-- Transform official quiz into review material
-- Recognition rules, conceptual hints, compact worked reminders
-- Active-recall prompts in same order as archived question order
-- Do NOT copy full official question set verbatim when private page exists
+- Transform the official quiz into review material.
+- Recognition rules, conceptual hints, compact worked reminders.
+- Active-recall prompts in the same order as the archived question order.
+- Do not copy the full official question set verbatim when a private page exists.
 
 ### Private quiz page
 
-- Preserve official prompt text in blockquotes
-- Label answers as `- archived selection:` or `- selected answer:` (not `- solution:` unless confirmed)
-- Preserve quiz metadata: datetime, points, time limit, attempts
-- Image extraction: extract figures from Canvas HTML into `attachments/`
-- Keep `Explanation:` with cloze coverage even for image-based questions
+- Preserve the official prompt text in blockquotes.
+- Label answers `- archived selection:` or `- selected answer:`, not `- solution:` unless confirmed.
+- Preserve quiz metadata: datetime, points, time limit, attempts.
+- Extract figures from Canvas HTML into `attachments/`.
+- Keep `Explanation:` with cloze coverage even for image-based questions.
 
 ## Flashcard conventions for question pages
 
-- Cloze `{@{ }@}` format (NOT QA)
-- __Solution lines:__ ideally one cloze per solution — cloze the core result, formula, or decisive step. Only for very long solutions may multiple clozes appear, one per logical step.
-- __Explanation lines:__ prefer multiple clozes whenever possible — one cloze per claim, condition, or reasoning step.
+- Cloze `{@{ }@}` format, not QA
 - Cloze both technique names and final results
-- `{@{ }@}` must never appear inside `$…$` or `$$…$$` — wrap from outside
-- Place `}`@}` before trailing punctuation
+- `{@{ }@}` must never appear inside `$…$` or `$$…$$`; wrap from outside
+- Place `}@}` before trailing punctuation
 - Progressive difficulty: simple case first, then extend
 - __Verbosity pass:__ run it over the solution and explanation prose after inserting clozes. Keep the hint words that make each deletion answerable and drop the filler around them; text quoted from the official question stays verbatim (see "Humanizer pass" in `academic-ingest`).
 
 ## References
 
-- `create-flashcards` cloze methodology and patterns
-- `humanizer` verbosity pass over new prose and flashcards (see "Humanizer pass" in `academic-ingest`)
-- `academic-crud-index` parent index updates
-- `academic-crud-attachments` questions-level attachments
-- `academic-lint` validation
+- `create-flashcards` for cloze methodology and patterns
+- `humanizer` for the verbosity pass over new prose and flashcards (see "Humanizer pass" in `academic-ingest`)
+- `academic-crud-index` for parent index updates
+- `academic-crud-attachments` for questions-level attachments
+- `academic-lint` for validation
