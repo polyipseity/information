@@ -20,6 +20,7 @@ from bs4 import BeautifulSoup
 from scripts.convert_wiki import config
 from scripts.convert_wiki.api import _collect_link_titles
 from scripts.convert_wiki.pipeline import run_pipeline
+from scripts.convert_wiki.table import _reformat_table
 from scripts.convert_wiki.types import _RedirectInfo
 from scripts.convert_wiki.utils import (
     _fix_filename,
@@ -71,10 +72,15 @@ def _categorize_block_math_blocks(output: str) -> dict[str, int]:
 
 
 async def _assert_markdownlint_clean(output: str, tmp: Path) -> None:
-    """Assert generated ``output`` is markdownlint-clean."""
+    """Assert generated ``output`` is markdownlint-clean.
+
+    Applies the pipeline's table reflow first so callers may pass raw
+    converter output; production output is already reflowed, making this a
+    no-op for it.
+    """
     out_path = tmp / "lint.md"
     config_path = tmp / ".markdownlint.jsonc"
-    await out_path.write_text(output, encoding="UTF-8")
+    await out_path.write_text(_reformat_table(output), encoding="UTF-8")
     await config_path.write_text(
         json.dumps({"extends": os.fspath(_SNAPSHOT_DIR / ".markdownlint.jsonc")}),
         encoding="UTF-8",

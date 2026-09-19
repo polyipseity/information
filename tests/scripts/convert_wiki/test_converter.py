@@ -1827,6 +1827,26 @@ class TestDivHandling:
         assert "__<a id=" not in result
 
     @pytest.mark.anyio
+    async def test_th_less_table_gets_empty_header_row(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A table with no ``<th>`` at all must still render as a Markdown table.
+
+        Regression for the ``particle in a box`` maintenance box: its
+        ``ambox`` table has only ``<td>`` cells, so without a synthesized
+        empty ``<th>`` header row the output was a bare ``| … | … |`` line
+        that is not a table at all.  This mirrors the equation-box/numblk
+        path, which prepends an empty ``<th>`` header row.
+        """
+        result = await _convert(
+            converter,
+            "<table><tbody><tr>"
+            '<td style="text-align: center">icon</td>'
+            "<td>text</td></tr></tbody></table>",
+        )
+        assert result == "\n|  |  |\n| :-: | --- |\n| icon | text |\n\n\n"
+
+    @pytest.mark.anyio
     async def test_equation_box_numblk_number_cell_single_bold(
         self, converter: WikiHtmlConverter
     ) -> None:
