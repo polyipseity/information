@@ -5,35 +5,30 @@ description: Manage transcludes/ directories containing Wikipedia articles inclu
 
 # Academic CRUD: Transcludes
 
-Manage `transcludes/` directories containing Wikipedia articles included by reference. These are full Wikipedia articles stored as Markdown files with cloze markup, used as reference material for courses.
+`transcludes/` directories hold full Wikipedia articles as Markdown files with cloze markup, for use as course reference material. Use one when a course references Wikipedia articles that should be available as study material with flashcards; the articles are Wikipedia content, not authored topic notes.
 
 ## Target
 
 `special/academia/<INSTITUTION>/<COURSE>/transcludes/<article>.md`
 
-## When to use
-
-Use `transcludes/` when a course references Wikipedia articles that should be available as study material with flashcards. The articles are Wikipedia content, not authored topic notes.
-
 ## Key rules
 
-- Articles are Wikipedia content, not original topic notes
-- Stored as `.md` files with full frontmatter and cloze markup
+- Store articles as `.md` files with full frontmatter and cloze markup
 - Use `find_wikipedia.py` from `academic-crud-topic-note` for canonical title discovery
-- Flashcard tag path includes `transcludes/` segment (e.g., `flashcard/active/special/academia/HKUST/ELEC 4110/transcludes/Fourier transform`)
-- Linked from course `## children` as topic notes
-- Use `\[missing\]` for absent fields. See [special.instructions.md](../../instructions/special.instructions.md#missing-data)
+- The flashcard tag path includes a `transcludes/` segment (e.g., `flashcard/active/special/academia/HKUST/ELEC 4110/transcludes/Fourier transform`)
+- Link from the course `## children` as topic notes
+- Use `\[missing\]` for absent fields (see [special.instructions.md](../../instructions/special.instructions.md#missing-data))
 
 ## Creating a transclude
 
-1. Use `find_wikipedia.py` to discover the canonical Wikipedia title:
+1. Discover the canonical Wikipedia title:
 
    ```bash
    uv run python .agents/skills/academic-crud-topic-note/find_wikipedia.py --limit 5
    ```
 
-2. Ingest the Wikipedia article using the `ingest-wikipedia` skill.
-3. Place the resulting `.md` file in the `transcludes/` directory.
+2. Ingest the article using the `ingest-wikipedia` skill.
+3. Place the resulting `.md` file in `transcludes/`.
 4. Add cloze markup (`{@{ }@}`) for key concepts.
 5. Add a child link in the course `index.md` `## children` section.
 
@@ -74,11 +69,11 @@ Use `transcludes/` when a course references Wikipedia articles that should be av
 
 ## Validation
 
-Run `academic-lint` after every edit. If you know which files changed, pass those files specifically. Otherwise lint the whole course folder.
+Run `academic-lint` after every edit. Pass the changed files when known; otherwise lint the whole course folder.
 
 ## References
 
-- `academic-crud-topic-note` — `find_wikipedia.py` for canonical title discovery
-- `ingest-wikipedia` — Wikipedia article ingestion workflow
-- `academic-crud-course-index` — course structure and `## children` linkage
-- `academic-lint` — validation
+- `academic-crud-topic-note` for `find_wikipedia.py` canonical title discovery
+- `ingest-wikipedia` for the Wikipedia article ingestion workflow
+- `academic-crud-course-index` for course structure and `## children` linkage
+- `academic-lint` for validation
