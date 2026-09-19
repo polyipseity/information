@@ -46,6 +46,7 @@ tags:
 - [ELEC 1100](ELEC%201100/index.md)
 - [ELEC 1200](ELEC%201200/index.md)
 - [ELEC 2100](ELEC%202100/index.md)
+- [ELEC 2400](ELEC%202400/index.md)
 - [ELEC 4110](ELEC%204110/index.md)
 - [ENGG 1400](ENGG%201400/index.md)
 - [ENGG 2010](ENGG%202010/index.md)
@@ -170,6 +171,7 @@ tags:
 - [COMP 3511](COMP%203511/index.md): Operating Systems (3 credits)
 - [MATH 3423](MATH%203423/index.md): Statistical Inference (3 credits)
 - [PHYS 2022](PHYS%202022/index.md): Modern Physics (3 credits)
+- [ELEC 2400](ELEC%202400/index.md): Electronic Circuits (4 credits)
 
 ## groups
 
