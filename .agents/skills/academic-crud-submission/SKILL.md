@@ -219,6 +219,14 @@ Input: solution file(s).
 1. Add them to `solution/`.
 2. Update the `index.md` solution section.
 
+### Stage 5: Topic-note reconciliation
+
+Every submission carries concepts the course's topic notes may already own. After the stages above, run "Topic-note reconciliation (mandatory)" in `academic-ingest`: extend the owning note with any fact, distinction, example, or card it lacks, prune what the material supersedes, create a topic note when none owns a durable concept, or record that the concept is already covered.
+
+`lab.md`, `tutorial.md`, and `lecture.md` are the session's pages, not the home of its concepts; a concept that reaches only a session file is an unfinished ingestion. The session file keeps the material's own wording, while the topic note states the concept.
+
+Reconcile before the humanizer pass, so the changed notes are humanized and validated together with the submission.
+
 ## CRUD operations
 
 ### Create
@@ -237,6 +245,7 @@ Fill in the next available stage. Check completion:
 - Stage 2: files in `submission/`
 - Stage 3: `submission.yml` (out-of-class) and, if applicable, `lab.yml`/`tutorial.yml`/`lecture.yml` (in-class)
 - Stage 4: files in `solution/`
+- Stage 5: the course's topic notes reconciled — each concept extended, pruned, created, or recorded as already covered
 
 Add what is missing without disturbing existing content.
 
@@ -472,7 +481,8 @@ When creating multiple submissions at once:
 2. Extract all Canvas metadata upfront.
 3. Create all `index.md` files.
 4. Update all parent indexes.
-5. Batch-validate.
+5. Reconcile the course's topic notes with the material (see "Topic-note reconciliation (mandatory)" in `academic-ingest`).
+6. Batch-validate.
 
 ## Parent index updates
 

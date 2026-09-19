@@ -66,6 +66,7 @@ tags:
    - Cloze technique names: `{@{Swap sum order}@}`, `{@{completing the square}@}`
    - See `create-flashcards` for the cloze methodology.
 2. __Create `questions/index.md`__ via `academic-crud-index` if this is the first question page.
+3. __Reconcile the topic notes.__ The problems carry concepts the course's notes may already own; extend, prune, or create them, or record that they are covered (see "Topic-note reconciliation (mandatory)" in `academic-ingest`). A question page is not the home of a durable concept.
 
 ### Read
 

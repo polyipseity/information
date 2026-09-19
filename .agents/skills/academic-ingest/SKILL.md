@@ -479,6 +479,23 @@ __Cloze syntax:__
 
 Separate consecutive blockquote questions with `<!-- markdownlint MD028 -->`. Strip PRS UI chrome (navigation, error messages, "Pull down to refresh", "Your response is submitted") and keep only the question text and answer choices. Preserve LaTeX math notation.
 
+## Topic-note reconciliation (mandatory)
+
+Every ingestion is compared against the course's existing topic notes, whatever the material is: a lecture deck, a lab manual, a tutorial handout, a problem set, a Canvas page, or a single figure. Session files (`lab.md`, `tutorial.md`, `lecture.md`, quiz pages, `questions/`) hold the material as it arrived; the course's durable concepts belong to the topic notes. Material whose concepts reach only a session file is an unfinished ingestion.
+
+Run this after the dispatched CRUD skill has written its files and before the humanizer pass:
+
+1. __List the concepts.__ Take every concept the material carries, including ones that look already covered.
+2. __Find the owning note and section.__ Match by canonical title and by section meaning, never by wording; a course note may cover the concept under a different name.
+3. __Apply exactly one outcome per concept, and record it:__
+    - __extend__: the material adds a fact, distinction, example, or card the note lacks — write it into the owning section in the note's own words;
+    - __prune__: the material contradicts, supersedes, or duplicates what the note says — remove or correct the stale part within the note's scope;
+    - __create__: no note owns the concept and it is durable knowledge independent of the session — create a topic note per `academic-crud-topic-note` and link it from the course `index.md`;
+    - __leave__: the note already covers the concept — name the section that covers it.
+4. __Report the outcomes__, one line per note, the `leave` decisions included.
+
+The session file and the topic note do different jobs: the session file keeps the material's own questions and framing, while the topic note states the concept. Reconciliation is never finished by copying the material's wording into a note, and never skipped because the material is only a lab, a tutorial, or a single handout.
+
 ## Dispatch
 
 Route to the correct `academic-crud-*` skill with preprocessed context:
@@ -501,11 +518,12 @@ Route to the correct `academic-crud-*` skill with preprocessed context:
 
 After the dispatched skill completes:
 
-1. __Humanizer pass.__ Load the `humanizer` skill and apply it to the new prose and flashcards before validating; see "Humanizer pass" below.
-2. Run validation on the created or modified file.
-3. Add a link to the assignment in the last lecture entry on or before its due date in the course `index.md`.
-4. Report what was created or updated, with file paths.
-5. Suggest next steps (add flashcards, update the index).
+1. __Reconcile the topic notes.__ Run "Topic-note reconciliation (mandatory)" above for every material in this ingestion, whatever its source.
+2. __Humanizer pass.__ Load the `humanizer` skill and apply it to the new and changed prose and flashcards, the reconciled topic notes included, before validating; see "Humanizer pass" below.
+3. Run validation on the created or modified files.
+4. Add a link to the assignment in the last lecture entry on or before its due date in the course `index.md`.
+5. Report what was created or updated, with file paths, and give the reconciliation outcome for each topic note.
+6. Suggest next steps (add flashcards, update the index).
 
 > __Legacy patterns:__ For deprecated content structures (flat `questions.md`, flat assignment directories, `transcripts/`), consult the `academic-deprecated` skill for migration guidance. Deprecated pattern detection is not part of ingestion classification; it is a separate maintenance concern.
 

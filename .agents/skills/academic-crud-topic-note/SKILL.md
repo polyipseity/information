@@ -210,14 +210,15 @@ List topic notes for a course; search by keyword; show structure and flashcard c
 
 ### Update
 
-1. Detect overlap with existing content.
-2. Enhance the prose with new distinctions, examples, and counterexamples.
-3. Add or modify flashcards, adding new cards rather than overstuffing existing ones.
-4. Refresh the course `index.md`:
+1. __Reconcile ingested material.__ New material from any session (a lecture deck, lab manual, tutorial handout, or problem set) is compared against this note for the concepts it carries: extend it, prune what the material supersedes, or record that the concept is already covered. See "Topic-note reconciliation (mandatory)" in `academic-ingest`.
+2. Detect overlap with existing content.
+3. Enhance the prose with new distinctions, examples, and counterexamples.
+4. Add or modify flashcards, adding new cards rather than overstuffing existing ones.
+5. Refresh the course `index.md`:
    - Update `## children` if the topic was renamed.
    - Update session topic links if sections were added, removed, or renamed.
    - Re-verify the session mapping if the topic's scope changed.
-5. Validate after changes.
+6. Validate after changes.
 
 ### Delete
 

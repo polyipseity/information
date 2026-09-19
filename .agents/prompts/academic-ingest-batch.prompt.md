@@ -73,11 +73,15 @@ Do not copy HTML source files into `attachments/`.
 
 Add child links to parent indexes (`tutorials/index.md`, course `index.md`). Children-list format and order come from the `academic-crud-index` skill: folders first, then files, Python string order within each group.
 
-## 8. Validate
+## 8. Reconcile topic notes
+
+Whatever the group's type — lecture, lab, or tutorial — compare the material against the course's existing topic notes and extend, prune, or leave each concept, or create the note that is missing. A `<type>.md` file is not the final home of a durable concept. See "Topic-note reconciliation (mandatory)" in the `academic-ingest` skill, and list the outcome for each note in the report.
+
+## 9. Validate
 
 Run `academic-lint` on all created/modified files.
 
-## 9. Report
+## 10. Report
 
 Summarize what was created, with file paths and any issues.
 
@@ -89,4 +93,8 @@ Created 5 tutorial submissions:
   - tutorials/tutorial 6/ (2 quiz questions, grade: 2/2)
   - tutorials/tutorial 7/ (2 quiz questions, grade: 1/2)
 Updated course index.md with tutorials/ link and quiz references.
+Reconciled topic notes:
+  - voltage.md: extended (measuring voltage; ground reference)
+  - Ohm's law.md: extended (resistor)
+  - electric power.md: no change (already covered)
 ```
