@@ -1240,9 +1240,10 @@ class TableConverter:
         ``<th>`` header row so the equation/number body row aligns like a
         numblk table.  The empty row is inserted into *ele* (the container
         being converted) so it is never added to a sibling container whose
-        rows have already been dispatched.
+        rows have already been dispatched, and short rows are padded to the
+        widest row so the synthesized table is never ragged.
         """
-        table = ele.find_parent("table")
+        table = ele if ele.name == "table" else ele.find_parent("table")
         if not isinstance(table, Tag):
             return
         rows = cls._table_rows(table)
@@ -1252,23 +1253,27 @@ class TableConverter:
             for cell in row.children
         ):
             return
-        first = next(
-            (
-                row
-                for row in ele.find_all("tr", recursive=False)
-                if any(isinstance(c, Tag) and c.name in _TD_OR_TH for c in row.children)
-            ),
-            None,
-        )
-        if first is None:
-            return
-        cells = [
-            c for c in first.children if isinstance(c, Tag) and c.name in _TD_OR_TH
+        data_rows = [
+            row
+            for row in ele.find_all("tr", recursive=False)
+            if any(isinstance(c, Tag) and c.name in _TD_OR_TH for c in row.children)
         ]
+        if not data_rows:
+            return
+        widths = [
+            sum(1 for c in row.children if isinstance(c, Tag) and c.name in _TD_OR_TH)
+            for row in data_rows
+        ]
+        ncols = max(widths)
+        for row, width in zip(data_rows, widths, strict=True):
+            for _ in range(ncols - width):
+                filler = soup.new_tag("td", attrs={"data-filler-cell": "true"})
+                filler.string = "\u200b"
+                row.append(filler)
         header_row = soup.new_tag("tr")
-        for _ in cells:
+        for _ in range(ncols):
             header_row.append(soup.new_tag("th"))
-        first.insert_before(header_row)
+        data_rows[0].insert_before(header_row)
 
     @classmethod
     def _insert_mixed_alignment_rows(cls, ele: Tag, soup: Tag) -> None:
