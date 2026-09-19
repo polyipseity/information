@@ -480,12 +480,12 @@ After creating a submission page, add the child link to the parent `index.md` vi
 
 ## Validation
 
-Run the humanizer pass over new or changed prose and flashcards, focusing on your own solution prose and card answers; the question statement and anything else quoted from the paper stays verbatim (see "Humanizer pass" in `academic-ingest`). Then run `academic-lint`, passing the changed files when known and otherwise the whole course folder.
+Run the humanizer pass after loading the `humanizer` skill, over new or changed prose and flashcards, focusing on your own solution prose and card answers; the question statement and anything else quoted from the paper stays verbatim (see "Humanizer pass" in `academic-ingest`). Then run `academic-lint`, passing the changed files when known and otherwise the whole course folder.
 
 ## References
 
 - `convert_canvas_submission.py` for Canvas HTML to `submission.yml` / `lab.yml` / `tutorial.yml` / `lecture.yml`
 - `academic-crud-index` for parent index updates
 - `academic-crud-attachments` for submission-level attachments
-- `humanizer` for the verbosity pass over new prose and flashcards (see "Humanizer pass" in `academic-ingest`)
+- `humanizer` for the AI-writing patterns the humanizer pass removes (see "Humanizer pass" in `academic-ingest`)
 - `academic-lint` for validation

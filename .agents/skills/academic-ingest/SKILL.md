@@ -501,7 +501,7 @@ Route to the correct `academic-crud-*` skill with preprocessed context:
 
 After the dispatched skill completes:
 
-1. __Humanizer pass.__ Rewrite the new prose and flashcards for verbosity before validating; see "Humanizer pass" below.
+1. __Humanizer pass.__ Load the `humanizer` skill and apply it to the new prose and flashcards before validating; see "Humanizer pass" below.
 2. Run validation on the created or modified file.
 3. Add a link to the assignment in the last lecture entry on or before its due date in the course `index.md`.
 4. Report what was created or updated, with file paths.
@@ -511,7 +511,11 @@ After the dispatched skill completes:
 
 ### Humanizer pass
 
-Every note this skill dispatches to gets a verbosity pass over __both the prose and the flashcards__, using the `humanizer` skill. Run it after the content is written and before `academic-lint`. Prose and cards fail differently, so sweep them separately.
+Every note this skill dispatches to gets a humanizer pass over __both the prose and the flashcards__, run after the content is written and before `academic-lint`. Prose and cards fail differently, so sweep them separately.
+
+__"Humanize", "humanizer pass", and "reduce verbosity" all mean one thing: load the `humanizer` skill and apply it.__ The skill is the authority on what changes; cutting verbosity is only the usual __focus__ of a pass, never a substitute for it. Do not run a pass from memory of these rules.
+
+__Agents and subagents must load the skill.__ Read the `humanizer` skill's `SKILL.md` (user scope: `~/.agents/skills/humanizer/SKILL.md`) before editing. When the pass is delegated, the brief must name the `humanizer` skill, give that `SKILL.md` path, require the child to read it before editing, and require it to report the patterns it applied; pass `humanizer` in the subagent's skills as well. A rewrite reported without those patterns did not run the pass.
 
 #### Flashcard focus
 
@@ -537,6 +541,10 @@ Leave the source's own emphasis alone: an instructor's "rare, difficult or even 
 #### Repo patterns to watch
 
 Academic notes attract these patterns from the `humanizer` catalogue: rule-of-three lists padded to three items, "not only… but also", copula avoidance ("serves as" or "represents" where "is" works), em dashes, bolded `**Term:** description` bullets, and over-bolded inline labels.
+
+The target is a triad __padded__ to three items, not an enumeration of three real things: a list of three device types is content and stays.
+
+Three catalogue patterns never apply here: headings are already sentence case, notes carry no emoji, and __heading text is frozen__ — session entries link to `#section%20anchors`, so a heading is never a humanizer target. Accuracy beats style in every conflict: a card that loses a given to read more naturally is broken.
 
 #### After the pass
 
@@ -564,4 +572,5 @@ Attachment setup uses `academic-crud-attachments` as a post-classification helpe
 - `academic-crud-attachments` for attachment directory setup
 - `academic-deprecated` for legacy pattern migration
 - `create-flashcards` for flashcard markup guidance
+- `humanizer` for the AI-writing patterns the humanizer pass removes
 - `academic-lint` for validation
