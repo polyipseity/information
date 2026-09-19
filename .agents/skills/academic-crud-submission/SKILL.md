@@ -5,51 +5,49 @@ description: Create, read, update, and delete submission-bound pages (labs, tuto
 
 # Academic CRUD: Submission pages
 
-Create, read, update, and delete submission-bound pages. Applies to `labs/`, `tutorials/`, `lectures/`, and `assignments/`. All share the same folder hierarchy and page format.
+Create, read, update, and delete submission-bound pages for `labs/`, `tutorials/`, `lectures/`, and `assignments/`, which share one folder hierarchy and page format.
 
 ## Target
 
 `<subdirectory>/<name>/index.md` + `attachments/` + `submission/` + `solution/`
 
-The `##` sections inside `lab.md`/`tutorial.md`/`lecture.md` group the session's content by sub-concept, not by the source's headings; the file names themselves stay session-bound. See "Grouping: concepts, not source layout" in `academic-crud-topic-note`.
+The `##` sections inside `lab.md`/`tutorial.md`/`lecture.md` group the session's content by sub-concept, not by the source's headings; the file names themselves stay session-bound (see "Grouping: concepts, not source layout" in `academic-crud-topic-note`).
 
 ## Dual-component model
 
-Labs, tutorials, and lectures can have __two__ Canvas submission components:
+Labs, tutorials, and lectures can have two Canvas submission components:
 
-- __Out-of-class__ (pre-lab, post-lab, take-home): work completed outside the session, submitted on Canvas. Can happen before, after, or both relative to the session. Metadata: `submission.yml`.
-- __In-class__ (lab, tutorial, lecture): work done live during the session, also submitted on Canvas. Metadata: `lab.yml`/`tutorial.yml`/`lecture.yml`.
+- __Out-of-class__ (pre-lab, post-lab, take-home): work completed outside the session and submitted on Canvas, before, after, or both. Metadata: `submission.yml`.
+- __In-class__ (lab, tutorial, lecture): work done live during the session and submitted on Canvas. Metadata: `lab.yml`/`tutorial.yml`/`lecture.yml`.
 
-Assignments have a single component → `submission.yml`.
+Assignments have a single component: `submission.yml`.
 
 When the in-class component exists, the `index.md` links to `lab.md`/`tutorial.md`/`lecture.md` as children. The Canvas HTML for the in-class component is converted to the component-specific YAML via `convert_canvas_submission.py`.
 
-| Submission type     | Out-of-class YAML  | In-class YAML      | In-class content   |
-| ------------------- | ------------------ | ------------------ | ------------------ |
-| Lab                 | `submission.yml`   | `lab.yml`          | `lab.md`           |
-| Tutorial            | `submission.yml`   | `tutorial.yml`     | `tutorial.md`      |
-| Lecture             | `submission.yml`   | `lecture.yml`      | `lecture.md`       |
-| Assignment          | `submission.yml`   | N/A                | N/A                |
+| Submission type | Out-of-class YAML | In-class YAML | In-class content |
+| --------------- | ----------------- | ------------- | ---------------- |
+| Lab | `submission.yml` | `lab.yml` | `lab.md` |
+| Tutorial | `submission.yml` | `tutorial.yml` | `tutorial.md` |
+| Lecture | `submission.yml` | `lecture.yml` | `lecture.md` |
+| Assignment | `submission.yml` | N/A | N/A |
 
 ### Component YAML format
 
-`lab.yml`, `tutorial.yml`, and `lecture.yml` are produced by `convert_canvas_submission.py`. Their format is entirely defined by that script — do not invent custom schemas. Run the script to generate the YAML:
+`lab.yml`, `tutorial.yml`, and `lecture.yml` are produced by `convert_canvas_submission.py`, and their format is entirely defined by that script; do not invent custom schemas. Run the script to generate the YAML:
 
 ```bash
 echo "/path/to/Canvas HTML.html" | uv run -m scripts.special.convert_canvas_submission 2> tutorial.yml
 ```
 
-For in-class components, redirect stderr to `tutorial.yml`/`lab.yml`/`lecture.yml`. For out-of-class components, redirect to `submission.yml`.
-
-If no Canvas page exists (e.g., ungraded PRS-only session), do not create a component YAML file.
+Redirect stderr to `tutorial.yml`/`lab.yml`/`lecture.yml` for in-class components and to `submission.yml` for out-of-class ones. When no Canvas page exists (e.g., an ungraded PRS-only session), do not create a component YAML file.
 
 ### In-class-only submissions
 
 When a tutorial/lab/lecture has only an in-class component (no pre-lab, no take-home, no Canvas assignment outside the session):
 
-- Create `tutorial.yml`/`lab.yml`/`lecture.yml` only — do NOT create `submission.yml`
-- `index.md` contains only `## submission` and `## children` — no metadata section, no `## attachments`
-- `tutorial.md`/`lab.md`/`lecture.md` contains the Canvas metadata block (when a Canvas page exists) followed by `## attachments` (if any) and the content
+- Create `tutorial.yml`/`lab.yml`/`lecture.yml` only; do not create `submission.yml`.
+- `index.md` contains only `## submission` and `## children`, with no metadata section and no `## attachments`.
+- `tutorial.md`/`lab.md`/`lecture.md` contains the Canvas metadata block (when a Canvas page exists), then `## attachments` (if any), then the content.
 
 ```markdown
 # index.md (in-class only)
@@ -112,84 +110,75 @@ tags:
 
 ### Cloze flashcards in question blocks
 
-All question quote blocks must include cloze flashcards (`{@{ }@}`) on the `- solution:` and `- explanation:` lines. Do NOT cloze the question text or answer choices.
-
-- __Solution lines:__ ideally one cloze per solution — cloze the core result, formula, or decisive step. Only for very long solutions (multi-step derivations, lengthy prose) may multiple clozes appear, one per logical step.
-- __Explanation lines:__ prefer multiple clozes whenever possible — break the explanation into individual claims, conditions, and reasoning steps, each wrapped in its own cloze.
-- Closing delimiter is `}@}` (3 chars: `}` `@` `}`)
-- Delegate cloze creation to a dedicated subagent using the `create-flashcards` skill when adding flashcards to multiple questions
+Every question quote block needs cloze flashcards (`{@{ }@}`) on its `- solution:` and `- explanation:` lines, never on the question text or answer choices. Use one cloze per solution (more only for very long multi-step solutions, one per logical step), and prefer several clozes per explanation, breaking it into individual claims, conditions, and reasoning steps. The closing delimiter is `}@}`. For multiple questions, delegate cloze creation to a subagent using the `create-flashcards` skill. See "Cloze flashcards in question blocks" in `academic-ingest` for the full form.
 
 ### No-submission case (no Canvas at all)
 
-When a tutorial/lab/lecture has neither in-class nor out-of-class Canvas components (e.g., an ungraded practice session):
+When a tutorial/lab/lecture has neither in-class nor out-of-class Canvas components (an ungraded practice session):
 
-- Do NOT create `tutorial.yml`/`lab.yml`/`lecture.yml`
-- `index.md` contains only `## children` — no `## submission`
-- `tutorial.md`/`lab.md`/`lecture.md` contains only the content — no Canvas metadata block, no attachments section (unless raw files are referenced)
+- Do not create `tutorial.yml`/`lab.yml`/`lecture.yml`.
+- `index.md` contains only `## children`, with no `## submission`.
+- `tutorial.md`/`lab.md`/`lecture.md` contains only the content, with no Canvas metadata block and no attachments section unless raw files are referenced.
 
-Detect this when: the source is PRS/iClicker HTML with only ungraded test questions, or the user confirms there are no Canvas pages for the session.
+Detect this when the source is PRS/iClicker HTML with only ungraded test questions, or the user confirms there are no Canvas pages for the session.
 
 ## Partial-info workflow
 
-Submissions arrive in stages. Each stage fills in what's available without requiring all information upfront.
+Submissions arrive in stages. Each stage fills in what is available without requiring everything upfront.
 
 ### Stage 1: Canvas HTML + attachments
 
-Input: Canvas assignment HTML page + prompt files.
+Input: a Canvas assignment HTML page plus prompt files.
 
-1. Create directory: `<subdir>/<name>/` with `attachments/`, `submission/`, `solution/`
-2. Extract Canvas metadata from HTML:
-   - Title, due date (ISO 8601 with timezone), points, submission type
-   - Description text (verbatim with `<span style>` for color)
-   - Update announcements (verbatim)
-   - Assignment ID from URL comment
-3. Create `index.md` with metadata and description
-4. Copy prompt PDFs, DOCX, PPTX, and data files to `attachments/`
-5. If the document is PDF/DOCX/PPTX, check for existing extraction in `attachments/<stem>.extracted/`. If no valid cache exists, run extraction:
+1. Create `<subdir>/<name>/` with `attachments/`, `submission/`, and `solution/`.
+2. Extract Canvas metadata from the HTML: title, due date (ISO 8601 with timezone), points, submission type, description text (verbatim, keeping `<span style>` for color), update announcements (verbatim), and the assignment ID from the URL comment.
+3. Create `index.md` with the metadata and description.
+4. Copy prompt PDFs, DOCX, PPTX, and data files to `attachments/`.
+5. For a PDF/DOCX/PPTX, check for an existing extraction in `attachments/<stem>.extracted/` and, when no valid cache exists, run:
 
    ```bash
    uv run -m scripts.special.convert_document <file> attachments/<stem>.extracted/
    ```
 
-   Use extracted text to understand the prompt during classification. The original in `attachments/` is canonical. Leave the images in `attachments/<stem>.extracted/pages/` and `images/`; reference an embedded image from a content file only when the picture itself is the material (see "Page image handling" in `academic-ingest`).
-6. Apply display-vs-link convention for versioned PDFs
+   Use the extracted text to understand the prompt during classification. The original in `attachments/` is canonical. Leave the images in `attachments/<stem>.extracted/pages/` and `images/`; reference an embedded image from a content file only when the picture itself is the material (see "Page image handling" in `academic-ingest`).
+6. Apply the display-vs-link convention for versioned PDFs.
 
 ### What goes in `attachments/`
 
-- Prompt PDFs, assignment sheets → `attachments/`
-- Data files (CSV, JSON, datasets) → `attachments/`
-- Code files (.ino, .py, .java) referenced by the submission → `attachments/`
-- Images (circuit diagrams, screenshots, pinout diagrams) → `attachments/`
-- Quiz images extracted from PRS/Clicker HTML (circuit diagrams, sensor figures) → `attachments/`
-- Documents (PDF, DOCX, PPTX) — prompt files, assignment sheets, reference documents (attachment-role)
-- `<stem>.extracted/` — extraction cache for documents (text.md, pages/, manifest.json)
+- Prompt PDFs and assignment sheets
+- Data files (CSV, JSON, datasets)
+- Code files (.ino, .py, .java) referenced by the submission
+- Images (circuit diagrams, screenshots, pinout diagrams)
+- Quiz images extracted from PRS/iClicker HTML
+- Documents (PDF, DOCX, PPTX) that are prompt files, assignment sheets, or reference documents (attachment role)
+- `<stem>.extracted/` caches for those documents (`text.md`, `pages/`, `images/`, `manifest.json`)
 
-When adding images to `attachments/`:
+When adding images:
 
-- Preserve the original filename when available. If the source has no filename (e.g., bare base64 data URI), generate a descriptive name reflecting the content.
-- Preserve the original alt text from the HTML `<img>` tag when present. If alt text is missing or empty, generate a concise, humanized description of what the image shows. Do not use LaTeX math notation in alt text — use plain language descriptions instead.
+- Preserve the original filename when available; for a bare base64 data URI, generate a descriptive name.
+- Preserve the original alt text from the HTML `<img>` tag; when it is missing or empty, write a concise plain-language description. Never use LaTeX in alt text.
 
-Do NOT put in `attachments/`:
+Do not put in `attachments/`:
 
-- HTML source files (Canvas pages, PRS pages) — these are extraction sources, not referenced raw files. Extract the content into `.md`/`.yml` and discard the HTML.
-- Transcripted text — if the content can be represented as markdown, it belongs in a `.md` file, not as a raw file in `attachments/`.
+- HTML source files (Canvas pages, PRS pages): these are extraction sources, not referenced raw files. Extract the content into `.md`/`.yml` and discard the HTML.
+- Transcripted text: content that can be represented as markdown belongs in a `.md` file.
 
 ### Stage 2: Submission file(s)
 
-Input: the artifact uploaded to Canvas — a document, a rendered PDF, an archive, source code, or a link — plus, when that artifact was generated from a local file, the local file it came from.
+Input: the artifact uploaded to Canvas (a document, rendered PDF, archive, source code, or link) plus, when it was generated from a local file, that local file.
 
-1. Add files to `submission/`
-2. Update the `index.md` submission section: the uploaded artifact is the entry itself; a local file it was generated from becomes a `source:` child (see "Submission entry model")
+1. Add files to `submission/`.
+2. Update the `index.md` submission section: the uploaded artifact is the entry itself, and a local file it was generated from becomes a `source:` child (see "Submission entry model").
 3. For Apple Notes markdown:
    - Detect UUID attachment paths: `(Attachments|../attachments)/<UUID>.<ext>`
    - Rewrite paths to `../attachments/`
-   - Add file-level suppression comments at top
+   - Add file-level suppression comments at the top
    - Copy referenced UUID-named images to `attachments/`
-4. For regular markdown: copy as-is
+4. For regular markdown, copy as-is.
 
 ### Stage 3: submission.yml
 
-Input: Canvas HTML (for metadata extraction).
+Input: Canvas HTML for metadata extraction.
 
 __Out-of-class component__ (default):
 
@@ -203,9 +192,7 @@ __In-class component__ (labs, tutorials, lectures):
 uv run -m scripts.special.convert_canvas_submission <<< "/path/to/Canvas HTML.html" 2> lab.yml
 ```
 
-Use `lab.yml` for labs, `tutorial.yml` for tutorials, `lecture.yml` for lectures. Overwrite the existing file if present.
-
-__Assignments__: run the convert script to produce `submission.yml`, overwriting if needed.
+Use `lab.yml` for labs, `tutorial.yml` for tutorials, and `lecture.yml` for lectures, overwriting the existing file when present. Assignments use `submission.yml`.
 
 Redact author names in the resulting YAML:
 
@@ -215,7 +202,7 @@ sed -i '' "s/author: .*/author: '[redacted]'/" submission.yml
 
 ### Grade extraction
 
-When the Canvas HTML is a submission detail page (contains "Grade:" and "pts possible"), extract the grade into the component YAML:
+When the Canvas HTML is a submission detail page (containing "Grade:" and "pts possible"), extract the grade into the component YAML:
 
 ```yaml
 grade:
@@ -223,14 +210,14 @@ grade:
   possible: 2   # from "(2 pts possible)"
 ```
 
-Also extract `canvas_assignment_id` from the URL comment or page content for cross-referencing. Add both fields to `tutorial.yml`/`lab.yml`/`lecture.yml`.
+Also extract `canvas_assignment_id` from the URL comment or page content for cross-referencing, and add both fields to `tutorial.yml`/`lab.yml`/`lecture.yml`.
 
 ### Stage 4: Solution
 
 Input: solution file(s).
 
-1. Add to `solution/`
-2. Update `index.md` solution section
+1. Add them to `solution/`.
+2. Update the `index.md` solution section.
 
 ## CRUD operations
 
@@ -246,20 +233,20 @@ List submissions in a directory; show details (due date, points, completion stag
 
 Fill in the next available stage. Check completion:
 
-- Stage 1 done? → check for `index.md` + `attachments/`
-- Stage 2 done? → check for files in `submission/`
-- Stage 3 done? → check for `submission.yml` (out-of-class) and, if applicable, `lab.yml`/`tutorial.yml`/`lecture.yml` (in-class)
-- Stage 4 done? → check for files in `solution/`
+- Stage 1: `index.md` + `attachments/`
+- Stage 2: files in `submission/`
+- Stage 3: `submission.yml` (out-of-class) and, if applicable, `lab.yml`/`tutorial.yml`/`lecture.yml` (in-class)
+- Stage 4: files in `solution/`
 
-Add what's missing without disturbing existing content.
+Add what is missing without disturbing existing content.
 
 ### Delete
 
-Remove the submission directory and files. Remove from parent `index.md`.
+Remove the submission directory and files, then remove it from the parent `index.md`.
 
 ## Index page format
 
-### Out-of-class only (assignments, or labs/tutorials/lectures without in-class component)
+### Out-of-class only (assignments, or labs/tutorials/lectures without an in-class component)
 
 ```markdown
 ---
@@ -307,20 +294,20 @@ tags:
 
 The submission entry names the artifact actually uploaded to Canvas. Choose the label that matches its form:
 
-| Label          | Use when                                        |
-| -------------- | ----------------------------------------------- |
-| `- file:`      | a single uploaded file (document, PDF, archive) |
-| `- folder:`    | an uploaded directory tree                      |
-| `- URL:`       | a link was submitted instead of a file          |
-| `- submission` | the submission type is not yet known (no link)  |
+| Label | Use when |
+| ----- | -------- |
+| `- file:` | a single uploaded file (document, PDF, archive) |
+| `- folder:` | an uploaded directory tree |
+| `- URL:` | a link was submitted instead of a file |
+| `- submission` | the submission type is not yet known (no link) |
 
 These child keys nest under the entry:
 
-- `metadata:` — the component YAML (`submission.yml`, `lab.yml`, `tutorial.yml`, `lecture.yml`) or rendering config such as `submission.pdf.yml`
-- `filename:` — the uploaded filename, when it differs from the canonical on-disk name
-- `source:` — the local artifact the uploaded file was generated from
+- `metadata:`: the component YAML (`submission.yml`, `lab.yml`, `tutorial.yml`, `lecture.yml`) or rendering config such as `submission.pdf.yml`
+- `filename:`: the uploaded filename, when it differs from the canonical on-disk name
+- `source:`: the local artifact the uploaded file was generated from
 
-`source:` never names the uploaded artifact; it records what that artifact was produced from, such as a `.md` or `.docx` rendered to the submitted PDF, or a directory packed into the submitted archive. A file authored directly as the submission — a filled-in summary sheet, an assignment's own source file — has no `source:` child.
+`source:` never names the uploaded artifact; it records what that artifact was produced from, such as a `.md` or `.docx` rendered to the submitted PDF, or a directory packed into the submitted archive. A file authored directly as the submission (a filled-in summary sheet, an assignment's own source file) has no `source:` child.
 
 ```markdown
 - file: [`submission.pdf`](submission/submission.pdf)
@@ -334,7 +321,7 @@ These child keys nest under the entry:
 
 ### With in-class component (labs, tutorials, lectures)
 
-When an in-class component exists, list both YAML metadata files in `## submission` using type-based labels, and add a `## children` section as the very last section:
+When an in-class component exists, list both YAML metadata files in `## submission` using type-based labels, and add `## children` as the very last section:
 
 ```markdown
 ---
@@ -422,23 +409,21 @@ A content file that is not Canvas-sourced keeps the ordinary note format instead
 
 ## Missing data
 
-Use `\[missing\]` for absent fields — for example, `points: \[missing\]` when ungraded, or `venue: \[missing\]` when not yet assigned. Do not invent or generate placeholder content for missing values. See [special.instructions.md](../../instructions/special.instructions.md#missing-data).
+Use `\[missing\]` for absent fields, such as `points: \[missing\]` when ungraded or `venue: \[missing\]` when not yet assigned. Do not invent or generate placeholder content. See [special.instructions.md](../../instructions/special.instructions.md#missing-data).
 
 ## Canvas metadata rules
 
 - Due date → ISO 8601 with timezone (seconds `:00` for start, `:59` for end)
 - Availability windows: ISO datetime range + `, <ISO duration>`
-- Description: verbatim Canvas wording, preserve `<span style>` for color
+- Description: verbatim Canvas wording, preserving `<span style>` for color
 - Update announcements: verbatim with color and bold
-- Canvas system messages (e.g., "This assignment was locked...", "No additional details were added for this assignment.") appearing in or near the description body are part of the description and must be preserved verbatim
-- Normalize metadata fields only, not prose body
-- `canvas_assignment_id`: numeric ID from the Canvas assignment URL or submission detail page. Used for cross-referencing between PRS content and Canvas grade records.
+- Canvas system messages (e.g., "This assignment was locked...", "No additional details were added for this assignment.") in or near the description body are part of the description and must be preserved verbatim
+- Normalize metadata fields only, not the prose body
+- `canvas_assignment_id`: numeric ID from the Canvas assignment URL or submission detail page, used to cross-reference PRS content and Canvas grade records
 
 ## submission.pdf.yml (PDF rendering metadata)
 
-Some submissions include a `submission.pdf.yml` file alongside `submission.yml`. This file controls PDF rendering and display configuration, separate from the Canvas submission metadata.
-
-### Format
+Some submissions include a `submission.pdf.yml` alongside `submission.yml`. That file controls PDF rendering and display configuration, separate from the Canvas submission metadata.
 
 ```yaml
 landscape: false
@@ -451,46 +436,15 @@ page size: A4
 scale: 1.0
 ```
 
-### Fields
+Fields: `landscape` (page orientation), `margin` (page margins with units: in, cm, mm), `page size` (paper size: A4, letter, etc.), and `scale` (zoom factor, 1.0 = 100%).
 
-- `landscape`: `true` or `false` — page orientation
-- `margin`: page margins with units (in, cm, mm)
-- `page size`: paper size (A4, letter, etc.)
-- `scale`: zoom factor (1.0 = 100%)
+Create `submission.pdf.yml` when a PDF needs non-default rendering (landscape, custom margins), when the submission is a cheatsheet or reference card with a specific layout, or when the PDF is displayed inline rather than linked.
 
-### When to create
-
-Create `submission.pdf.yml` when:
-
-- A PDF needs non-default rendering (landscape, custom margins)
-- The submission is a cheatsheet or reference card with specific layout
-- The PDF is displayed inline rather than linked
-
-### Relationship to submission.yml
-
-- `submission.yml` = Canvas submission metadata (assignment ID, grade, course ID, author)
-- `submission.pdf.yml` = PDF rendering/display configuration
-
-They are independent files. A submission can have either or both.
-
-### Examples
-
-ACCT 2010 final examination cheatsheet:
-
-```yaml
-landscape: false
-margin:
-  top: 0.5in
-  right: 0.5in
-  bottom: 0.5in
-  left: 0.5in
-page size: A4
-scale: 1.0
-```
+`submission.yml` holds Canvas submission metadata (assignment ID, grade, course ID, author); `submission.pdf.yml` holds PDF rendering and display configuration. The two files are independent, and a submission can have either or both.
 
 ## Display-vs-link convention
 
-On-disk filename may differ from Canvas display name (e.g., `PS7-3.pdf` displayed as `PS7.pdf`):
+The on-disk filename may differ from the Canvas display name (e.g., `PS7-3.pdf` displayed as `PS7.pdf`):
 
 ```markdown
 [PS7.pdf](attachments/PS7-3.pdf)
@@ -514,24 +468,24 @@ The same applies to a submission, where the uploaded name goes in a `filename:` 
 
 When creating multiple submissions at once:
 
-1. Populate artifacts from source files first
-2. Extract all Canvas metadata upfront
-3. Create all index.md files
-4. Update all parent indexes
-5. Batch-validate
+1. Populate artifacts from source files first.
+2. Extract all Canvas metadata upfront.
+3. Create all `index.md` files.
+4. Update all parent indexes.
+5. Batch-validate.
 
 ## Parent index updates
 
-After creating a submission page, add child link to the parent `index.md` via `academic-crud-index`.
+After creating a submission page, add the child link to the parent `index.md` via `academic-crud-index`.
 
 ## Validation
 
-Run the humanizer pass over new or changed prose and flashcards, focusing on your own solution prose and card answers — the question statement and anything else quoted from the paper stays verbatim (see "Humanizer pass" in `academic-ingest`), then `academic-lint` after every edit. If you know which files changed, pass those files specifically. Otherwise lint the whole course folder.
+Run the humanizer pass over new or changed prose and flashcards, focusing on your own solution prose and card answers; the question statement and anything else quoted from the paper stays verbatim (see "Humanizer pass" in `academic-ingest`). Then run `academic-lint`, passing the changed files when known and otherwise the whole course folder.
 
 ## References
 
-- `convert_canvas_submission.py` Canvas HTML to `submission.yml` / `lab.yml` / `tutorial.yml` / `lecture.yml`
-- `academic-crud-index` parent index updates
-- `academic-crud-attachments` submission-level attachments
-- `humanizer` verbosity pass over new prose and flashcards (see "Humanizer pass" in `academic-ingest`)
-- `academic-lint` validation
+- `convert_canvas_submission.py` for Canvas HTML to `submission.yml` / `lab.yml` / `tutorial.yml` / `lecture.yml`
+- `academic-crud-index` for parent index updates
+- `academic-crud-attachments` for submission-level attachments
+- `humanizer` for the verbosity pass over new prose and flashcards (see "Humanizer pass" in `academic-ingest`)
+- `academic-lint` for validation
