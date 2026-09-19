@@ -379,15 +379,7 @@ When several announcements target the same session, list them as separate blockq
 - Canvas single-student view: mean, median, high, low, quartiles
 - `statistics.timestamp` from the Canvas announcement posting datetime
 - `statistics.data: \(none\)` (no external LMS links)
-- Per-question breakdown from a PDF via PyMuPDF:
-
-  ```python
-  import fitz
-  doc = fitz.open(path)
-  for page in doc:
-      text = page.get_text("text")
-  ```
-
+- Per-question breakdown from a PDF: run `convert_document` first (see "Document extraction (mandatory)" in `academic-ingest`), then read the per-question marks from `text.md` or the page renders
 - Grades notation: `X/N`, or `base+bonus/max+max bonus` when bonus marks are documented
 
 ## Validation
