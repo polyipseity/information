@@ -3,7 +3,8 @@ name: academic-deprecated
 description: >
   Documents deprecated academic material patterns that still exist in legacy
   content. DO NOT use these patterns for new content. This skill is
-  documentation-only; active skills should not reference it.
+  documentation-only: active skills may cite it only to warn against a
+  deprecated pattern or to point to the fix.
 ---
 
 # Academic Deprecated Patterns
@@ -47,7 +48,7 @@ Migrate only content that is being actively updated; do not migrate solely for c
 ## Rules
 
 - Do not create new content with these patterns
-- Do not reference this skill from active skills; it is documentation-only
+- Reference this skill from active skills only to warn against a deprecated pattern or to point to the fix, never as an active convention
 - Do not add new deprecated patterns without explicit user approval
 - When migrating, preserve all existing content and flashcards
 
