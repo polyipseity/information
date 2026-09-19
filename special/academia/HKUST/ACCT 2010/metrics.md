@@ -49,5 +49,5 @@ The list is not exhaustive.
 - [dividend yield](../../../../general/dividend%20yield.md) ::@:: $$\frac {\text{dividends per share} } {\text{market price per share} } \times 100\%$$ <!--SR:!2030-01-28,1411,322!2027-01-02,565,322-->
 - [price/earnings ratio](../../../../general/price–earnings%20ratio.md) ::@:: $$\frac {\text{market price per share} } {\text{earnings per share} }$$ <!--SR:!2030-01-31,1475,362!2030-02-26,1496,362-->
 - quality of income ratio ::@:: $$\frac {\text{cash flow from operating activities} } {\text{net income} }$$ <!--SR:!2027-08-25,589,282!2028-09-08,1041,342-->
-- capital acquisitions ratio ::@:: $$\frac {\text{cash flow from operating activities} } {\text{cash paid for PPE} }$$ <!--SR:!2026-10-26,363,302!2027-05-09,665,342-->
+- capital acquisitions ratio ::@:: $$\frac {\text{cash flow from operating activities} } {\text{cash paid for PPE} }$$ <!--SR:!fsrs,2030-08-13T00:00:00.000Z,1387,1387.11670833,1.37993894,2,10,0,0,2026-10-26T00:00:00.000Z!2027-05-09,665,342-->
 - [free cash flow](../../../../general/free%20cash%20flow.md) ::@:: $$\text{cash flow from operating activities} - \text{dividends} - \text{capital expenditures}$$ <!--SR:!2030-04-23,1541,362!2027-06-11,698,342-->

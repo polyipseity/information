@@ -166,7 +166,7 @@ Here {@{`filter`}@} is {@{lazily evaluated}@}; when {@{the second element is acc
 > ```
 <!--SR:!2027-01-10,334,345!2026-11-25,297,345!2026-11-26,298,345!2026-12-12,309,345!2027-01-04,329,345!2026-11-03,278,345!2026-12-03,303,345!2026-10-27,271,345!2026-12-17,314,345-->
 
-Using {@{this naive construction}@}, {@{`lazyRange(1, 10).take(3)`}@} would trigger {@{the creation of `tail` two times (or three times depending on the `take` implementation)}@}—once for {@{each element taken except for the first element}@}—leading to {@{unnecessary work and potential performance degradation if repeatedly called}@}. This issue is resolved by {@{memoising the first evaluation of the tail}@} so that {@{subsequent calls reuse the stored result}@}—{@{an optimisation justified in pure functional languages}@} where {@{expressions are deterministic}@}. This approach exemplifies {@{_lazy evaluation_}@} (as opposed to {@{plain _by-name_ evaluation}@}, which {@{recomputes on every call}@}, or {@{strict evaluation}@} used for {@{ordinary parameters and `val`s}@}). <!--SR:!2026-12-01,303,345!2026-11-06,281,330!2026-12-06,306,345!2026-12-29,325,345!2027-01-20,342,345!2026-11-01,276,330!2026-11-20,292,345!2026-10-28,272,345!2026-11-11,286,345!2026-10-26,270,345!2026-10-30,274,345!2026-11-10,285,345!2026-11-18,290,345!2027-01-11,334,345-->
+Using {@{this naive construction}@}, {@{`lazyRange(1, 10).take(3)`}@} would trigger {@{the creation of `tail` two times (or three times depending on the `take` implementation)}@}—once for {@{each element taken except for the first element}@}—leading to {@{unnecessary work and potential performance degradation if repeatedly called}@}. This issue is resolved by {@{memoising the first evaluation of the tail}@} so that {@{subsequent calls reuse the stored result}@}—{@{an optimisation justified in pure functional languages}@} where {@{expressions are deterministic}@}. This approach exemplifies {@{_lazy evaluation_}@} (as opposed to {@{plain _by-name_ evaluation}@}, which {@{recomputes on every call}@}, or {@{strict evaluation}@} used for {@{ordinary parameters and `val`s}@}). <!--SR:!2026-12-01,303,345!2026-11-06,281,330!2026-12-06,306,345!2026-12-29,325,345!2027-01-20,342,345!2026-11-01,276,330!2026-11-20,292,345!2026-10-28,272,345!2026-11-11,286,345!fsrs,2030-03-23T00:00:00.000Z,1244,1244.10763092,1,2,9,0,0,2026-10-26T00:00:00.000Z!2026-10-30,274,345!2026-11-10,285,345!2026-11-18,290,345!2027-01-11,334,345-->
 
 {@{The above simplified `LazyList`}@} was {@{only lazy in its tail}@}, leaving {@{`head` and `isEmpty` strict}@}; {@{the production-grade implementation}@} fixes this by making {@{every part of the list lazily evaluated}@}.  It does so by storing {@{a single `state` field}@} that is {@{computed on first use}@}: <!--SR:!2027-03-18,392,371!2027-03-26,399,371!2027-04-08,409,371!2027-03-14,389,371!2027-04-04,406,371!2027-03-16,390,371!2027-03-17,391,371-->
 
@@ -356,7 +356,7 @@ Under {@{the class `Pouring`}@}, {@{all glasses and possible moves}@} are {@{gen
 >     current #:: from(more, explored ++ more.map(_.endState))
 >   }
 > ```
-<!--SR:!2026-10-26,270,345!2026-11-22,294,345!2027-01-03,328,345-->
+<!--SR:!fsrs,2030-03-23T00:00:00.000Z,1244,1244.10763092,1,2,9,0,0,2026-10-26T00:00:00.000Z!2026-11-22,294,345!2027-01-03,328,345-->
 
 {@{A sequence of solution paths}@} is obtained by {@{filtering paths that reach the target amount}@}: <!--SR:!2027-01-18,340,345!2026-12-23,320,345-->
 

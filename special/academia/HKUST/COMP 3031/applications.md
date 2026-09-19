@@ -30,7 +30,7 @@ tags:
 > ```Scala
 > val mnemonics = Map('2' -> "ABC", '3' -> "DEF", /* ... */ '9' -> "WXYZ")
 > ```
-<!--SR:!2026-11-04,290,330!fsrs,2030-01-20T00:00:00.000Z,1195,1195.07164214,1,2,9,0,0,2026-10-13T00:00:00.000Z!fsrs,2030-01-06T00:00:00.000Z,1184,1183.64577796,1,2,9,0,0,2026-10-10T00:00:00.000Z!fsrs,2030-01-20T00:00:00.000Z,1195,1195.07164214,1,2,9,0,0,2026-10-13T00:00:00.000Z!fsrs,2028-11-27T00:00:00.000Z,773,772.81357058,2.49272837,2,9,0,0,2026-10-16T00:00:00.000Z!2026-10-26,282,330-->
+<!--SR:!2026-11-04,290,330!fsrs,2030-01-20T00:00:00.000Z,1195,1195.07164214,1,2,9,0,0,2026-10-13T00:00:00.000Z!fsrs,2030-01-06T00:00:00.000Z,1184,1183.64577796,1,2,9,0,0,2026-10-10T00:00:00.000Z!fsrs,2030-01-20T00:00:00.000Z,1195,1195.07164214,1,2,9,0,0,2026-10-13T00:00:00.000Z!fsrs,2028-11-27T00:00:00.000Z,773,772.81357058,2.49272837,2,9,0,0,2026-10-16T00:00:00.000Z!fsrs,2030-03-08T00:00:00.000Z,1229,1229.25786194,1,2,9,0,0,2026-10-26T00:00:00.000Z-->
 
 The goal is to implement {@{a method `encode(phoneNumber)`}@} that returns {@{every sequence of dictionary words}@} whose {@{concatenated numeric encodings match the input number}@}. For example, {@{the phone number `"7225247386"`}@} can be expressed as the single mnemonic phrase {@{`"Scala is fun"`}@}. <!--SR:!fsrs,2028-08-20T00:00:00.000Z,703,702.57151752,2.49272837,2,9,0,0,2026-09-17T00:00:00.000Z!fsrs,2030-02-27T00:00:00.000Z,1222,1221.67255456,1,2,9,0,0,2026-10-24T00:00:00.000Z!fsrs,2030-02-03T00:00:00.000Z,1203,1202.68030072,1,2,9,0,0,2026-10-19T00:00:00.000Z!fsrs,2030-02-03T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-10-16T00:00:00.000Z!fsrs,2030-01-20T00:00:00.000Z,1195,1195.07164214,1,2,9,0,0,2026-10-13T00:00:00.000Z-->
 
@@ -241,7 +241,7 @@ Running {@{this against the sample list}@} returns {@{each qualifying author twi
 
 ### translating queries to higher-order functions
 
-{@{The query}@} that extracts {@{titles of books}@} with an author whose {@{name starts with "Bird"}@} can be expressed using higher-order functions as: <!--SR:!2026-10-26,282,330!2026-11-03,290,330!fsrs,2028-11-27T00:00:00.000Z,773,772.81357058,2.49272837,2,9,0,0,2026-10-16T00:00:00.000Z-->
+{@{The query}@} that extracts {@{titles of books}@} with an author whose {@{name starts with "Bird"}@} can be expressed using higher-order functions as: <!--SR:!fsrs,2030-03-08T00:00:00.000Z,1229,1229.25786194,1,2,9,0,0,2026-10-26T00:00:00.000Z!2026-11-03,290,330!fsrs,2028-11-27T00:00:00.000Z,773,772.81357058,2.49272837,2,9,0,0,2026-10-16T00:00:00.000Z-->
 
 > [!example] __simple database query filtering by author__
 >

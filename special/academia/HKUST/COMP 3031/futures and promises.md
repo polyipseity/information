@@ -203,7 +203,7 @@ When {@{the next step itself returns a `Future`}@}, {@{`flatMap`}@} chains {@{th
 >   grindBeans().zip(grindBeans())
 > ```
 >
-> {@{The two coffees}@} may be {@{prepared concurrently}@}; {@{the result is available only}@} when {@{both futures finish successfully}@}. <!--SR:!2027-01-06,279,330!2026-11-14,244,330!2027-01-22,292,330!2026-11-06,237,330!2026-11-14,244,330!2026-12-28,272,330!2027-01-24,294,330!2027-01-01,275,330!2026-11-13,243,330!2026-10-26,227,330-->
+> {@{The two coffees}@} may be {@{prepared concurrently}@}; {@{the result is available only}@} when {@{both futures finish successfully}@}. <!--SR:!2027-01-06,279,330!2026-11-14,244,330!2027-01-22,292,330!2026-11-06,237,330!2026-11-14,244,330!2026-12-28,272,330!2027-01-24,294,330!2027-01-01,275,330!2026-11-13,243,330!fsrs,2029-08-09T00:00:00.000Z,1018,1018.05728725,1,2,9,0,0,2026-10-26T00:00:00.000Z-->
 
 {@{`recover`}@} turns {@{a failed future into a successful one by supplying an alternative value}@}. {@{`recoverWith`}@} allows supplying {@{another asynchronous computation as the recovery path}@}, which is essentially {@{the flat version of `recover`}@}. <!--SR:!2026-12-17,263,330!2027-01-18,289,330!2026-11-07,238,330!2026-11-10,241,330!2026-12-20,265,330-->
 
@@ -256,7 +256,7 @@ In {@{a dataflow graph}@}, a node may have {@{several inputs}@}; in code this is
 >
 > {@{The `for`‑comprehension}@} expands to {@{`beans.flatMap { ... }.zip(water).map{…}`}@}, which is {@{a concise dataflow representation}@}. When {@{either `beans` or `water` fails}@}, {@{the whole pipeline fails immediately}@}; if {@{both succeed}@}, `brew` starts only {@{after the two inputs arrive}@}. <!--SR:!2026-12-10,257,330!2027-01-01,275,330!2026-11-23,251,330!2026-11-27,255,330!2027-01-16,286,330!2026-12-21,266,330!2026-12-17,263,330!2027-01-22,292,330!2026-10-29,230,330-->
 
-{@{A `Promise`}@} can be used when {@{an external event must feed into the graph}@}. The producer {@{completes the promise}@}, which triggers {@{all dependent futures}@}: <!--SR:!2026-12-26,271,330!2026-10-26,227,330!2026-11-17,246,330!2027-01-24,294,330-->
+{@{A `Promise`}@} can be used when {@{an external event must feed into the graph}@}. The producer {@{completes the promise}@}, which triggers {@{all dependent futures}@}: <!--SR:!2026-12-26,271,330!fsrs,2029-08-09T00:00:00.000Z,1018,1018.05728725,1,2,9,0,0,2026-10-26T00:00:00.000Z!2026-11-17,246,330!2027-01-24,294,330-->
 
 > [!example] __using a `Promise` as a data‑sink__
 >

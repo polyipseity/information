@@ -467,7 +467,7 @@ Here is a list of common IPA letters and their pronunciations:
 - [voiced velar plosive](voiced%20velar%20plosive.md):@:\[ɡ\] <!--SR:!2030-09-27,1696,313-->
 - [voiced velar implosive](voiced%20velar%20implosive.md):@:\[ɠ\] <!--SR:!2028-09-14,1363,358-->
 - [voiced uvular plosive](voiced%20uvular%20plosive.md):@:\[ɢ\] <!--SR:!2031-06-27,1958,311-->
-- [voiceless glottal fricative](voiceless%20glottal%20fricative.md):@:\[h\] <!--SR:!2026-10-26,318,351-->
+- [voiceless glottal fricative](voiceless%20glottal%20fricative.md):@:\[h\] <!--SR:!fsrs,2030-10-27T00:00:00.000Z,1462,1461.69221592,1,2,9,0,0,2026-10-26T00:00:00.000Z-->
 - [voiced glottal fricative](voiced%20glottal%20fricative.md):@:\[ɦ\] <!--SR:!2030-05-12,1802,357-->
 - [aspirated consonant](aspirated%20consonant.md):@:\[ʰ\] <!--SR:!2027-11-17,1026,312-->
 - [voiceless pharyngeal fricative](voiceless%20pharyngeal%20fricative.md):@:\[ħ\] <!--SR:!2029-05-09,1369,311-->

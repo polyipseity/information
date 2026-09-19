@@ -106,8 +106,8 @@ Recall: multiplication in time $\to$ splitting in frequency. One product creates
 Flashcards for this section are as follows:
 
 - What are the key Euler formulas? ::@:: $\cos a=\frac12(e^{ja}+e^{-ja})$ and $\sin a=\frac{1}{2j}(e^{ja}-e^{-ja})$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
-- What identities does sinusoid multiplication produce? ::@:: $\cos a\cos b=\frac12[\cos(a+b)+\cos(a-b)]$ and $\sin a\cos b=\frac12[\sin(a+b)+\sin(a-b)]$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-10-25T00:10:00.000Z,0,2.3065,2.11810397,1,1,0,1,2026-10-25T00:00:00.000Z-->
-- Why does $\cos^2 a=\frac12[1+\cos(2a)]$? ::@:: Set $b=a$ in the cosine product identity. <!--SR:!fsrs,2026-10-25T00:10:00.000Z,0,2.3065,2.11810397,1,1,0,1,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What identities does sinusoid multiplication produce? ::@:: $\cos a\cos b=\frac12[\cos(a+b)+\cos(a-b)]$ and $\sin a\cos b=\frac12[\sin(a+b)+\sin(a-b)]$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-07T00:00:00.000Z,12,11.6874828,1,2,2,0,0,2026-10-26T00:00:00.000Z-->
+- Why does $\cos^2 a=\frac12[1+\cos(2a)]$? ::@:: Set $b=a$ in the cosine product identity. <!--SR:!fsrs,2026-11-07T00:00:00.000Z,12,11.6874828,1,2,2,0,0,2026-10-26T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
 - Why do modulation identities create sum and difference frequencies? ::@:: Exponentials add exponents when multiplied, so one product generates an inner difference-frequency and outer sum-frequency term. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
 
 ## suppressed-carrier amplitude modulation

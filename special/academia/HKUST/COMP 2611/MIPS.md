@@ -376,7 +376,7 @@ It can be separated into {@{5 segments}@}: {@{\(in increasing address\) reserved
 
 The text segment {@{holds your code}@}, corresponding to {@{the `.text` segment in your assembly file}@}. <!--SR:!fsrs,2032-06-09T00:00:00.000Z,2061,2061.23375242,1,2,10,0,0,2026-10-18T00:00:00.000Z!2026-11-20,475,401-->
 
-The static data segment {@{holds global variables}@}, corresponding to {@{the `.data` segment in your assembly file}@}. <!--SR:!2026-11-21,476,401!2026-10-26,450,401-->
+The static data segment {@{holds global variables}@}, corresponding to {@{the `.data` segment in your assembly file}@}. <!--SR:!2026-11-21,476,401!fsrs,2032-07-20T00:00:00.000Z,2094,2093.57484669,1,2,10,0,0,2026-10-26T00:00:00.000Z-->
 
 The dynamic data segment is {@{the heap, and is allocated using `malloc` in C \(e.g. C++, Java: `new`\)}@}. It does not {@{correspond to any segment in your assembly file}@}. <!--SR:!2026-12-11,493,401!2027-01-09,518,401-->
 

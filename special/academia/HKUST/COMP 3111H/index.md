@@ -245,7 +245,7 @@ The content is in teaching order.
             - software / types / uses / embedded ::@:: - copies in use: high \(there are _many_ embedded devices...\) <br/> - development effort: low \(due to knowing all requirements already and less functionalities\) <br/> - source of user requirements: client needs, hardware needs <!--SR:!2026-12-09,326,378!2027-06-13,495,398-->
         - software / types / timeliness ::@:: data processing, real-time processing <!--SR:!2027-06-12,494,398!2027-07-10,518,398-->
             - software / types / timeliness / data processing ::@:: organize and store _business data_, which may not be _real time_ <!--SR:!2027-06-19,501,398!2027-07-05,514,398-->
-            - software / types / timeliness / real-time processing ::@::  control devices or processes in _real time_ <!--SR:!2027-04-06,435,383!2026-10-26,284,363-->
+            - software / types / timeliness / real-time processing ::@::  control devices or processes in _real time_ <!--SR:!2027-04-06,435,383!fsrs,2030-08-02T00:00:00.000Z,1376,1375.55822919,1,2,9,0,0,2026-10-26T00:00:00.000Z-->
         - software / types / social aspects ::@:: technical, social-technical <!--SR:!2027-05-13,464,383!fsrs,2029-01-28T00:00:00.000Z,860,860.48655363,1,2,9,0,0,2026-09-21T00:00:00.000Z-->
             - software types / social aspects / technical ::@:: does not include _knowledge_ of _work procedures and processes_ <p> This is the main focus of software engineering. <!--SR:!2027-06-15,497,398!2027-06-17,498,398-->
             - software types / social aspects / social-technical ::@:: includes _knowledge_ of _work procedures and processes_ <p> This is less _emphasized_ by software engineering. <!--SR:!2027-06-18,500,398!2026-11-14,303,378-->

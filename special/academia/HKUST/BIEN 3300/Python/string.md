@@ -19,7 +19,7 @@ There are {@{4 main ways}@} to {@{format a string with values}@} in Python: {@{C
 
 ### string concatenation
 
-String concatenation uses {@{`+`}@} to {@{concat strings and values converted to strings}@}. This is the {@{most cumbersome way}@} and usually is {@{the least efficient}@} as well. <!--SR:!fsrs,2029-12-01T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-10-01T00:00:00.000Z!2026-10-31,294,330!fsrs,2030-02-10T00:00:00.000Z,1214,1214.08066657,1,2,9,0,0,2026-10-15T00:00:00.000Z!2026-10-26,289,330-->
+String concatenation uses {@{`+`}@} to {@{concat strings and values converted to strings}@}. This is the {@{most cumbersome way}@} and usually is {@{the least efficient}@} as well. <!--SR:!fsrs,2029-12-01T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-10-01T00:00:00.000Z!2026-10-31,294,330!fsrs,2030-02-10T00:00:00.000Z,1214,1214.08066657,1,2,9,0,0,2026-10-15T00:00:00.000Z!fsrs,2030-04-04T00:00:00.000Z,1256,1255.75476993,1,2,9,0,0,2026-10-26T00:00:00.000Z-->
 
 ### `str.format`
 
@@ -28,7 +28,7 @@ String concatenation uses {@{`+`}@} to {@{concat strings and values converted to
 ## functions
 
 - `<str>.count(<substr>)` ::@:: Count the number of _non-overlapping_ occurrences of `<substr>` in `<str>`. <!--SR:!fsrs,2030-01-31T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-10-13T00:00:00.000Z!fsrs,2030-01-27T00:00:00.000Z,1203,1202.68030072,1,2,9,0,0,2026-10-12T00:00:00.000Z-->
-- `<str>.find(<substr>)` ::@:: Get the index of the _first_ occurrence of `<substr>` in `<str>`, or raise `ValueError` if not found. <!--SR:!2026-10-26,289,330!2026-10-30,293,330-->
+- `<str>.find(<substr>)` ::@:: Get the index of the _first_ occurrence of `<substr>` in `<str>`, or raise `ValueError` if not found. <!--SR:!fsrs,2030-04-04T00:00:00.000Z,1256,1255.75476993,1,2,9,0,0,2026-10-26T00:00:00.000Z!2026-10-30,293,330-->
 - `<str>.lower()` ::@:: Converts all characters of `<str>` to lowercase. <!--SR:!fsrs,2029-11-07T00:00:00.000Z,1138,1137.78464757,1,2,9,0,0,2026-09-26T00:00:00.000Z!fsrs,2030-02-24T00:00:00.000Z,1225,1225.46601476,1,2,9,0,0,2026-10-18T00:00:00.000Z-->
 - `<str>.replace(<substr>, <replacement>)` ::@:: Replace _all non-overlapping_ occurrences of `<substr>` in `<str>` with `<replacement>`. <!--SR:!fsrs,2030-03-06T00:00:00.000Z,1233,1233.04800529,1,2,9,0,0,2026-10-20T00:00:00.000Z!fsrs,2029-11-12T00:00:00.000Z,1142,1141.61620684,1,2,9,0,0,2026-09-27T00:00:00.000Z-->
 - `<str>.rfind(<substr>)` ::@:: Get the index of the _last_ occurrence of `<substr>` in `<str>`, or raise `ValueError` if not found. <!--SR:!fsrs,2030-03-01T00:00:00.000Z,1229,1229.25786194,1,2,9,0,0,2026-10-19T00:00:00.000Z!fsrs,2030-02-15T00:00:00.000Z,1218,1217.87747351,1,2,9,0,0,2026-10-16T00:00:00.000Z-->

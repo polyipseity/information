@@ -47,7 +47,7 @@ Although {@{originally controversial}@}, the axiom of choice is {@{now used with
 In {@{this article and other discussions of the Axiom of Choice}@} {@{the following abbreviations are common}@}: <!--SR:!2026-12-13,370,364!2026-12-14,371,364-->
 
 - AC – ::@:: the Axiom of Choice. More rarely, AoC is used.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!fsrs,2029-07-05T00:00:00.000Z,1084,1083.94697941,1,2,9,0,0,2026-07-17T00:00:00.000Z!fsrs,2030-08-12T00:00:00.000Z,1410,1410.21782865,1,2,9,0,0,2026-10-02T00:00:00.000Z-->
-- ZF – ::@:: [Zermelo–Fraenkel set theory](Zermelo–Fraenkel%20set%20theory.md) omitting the Axiom of Choice. <!--SR:!2026-12-22,376,364!2026-10-26,327,347-->
+- ZF – ::@:: [Zermelo–Fraenkel set theory](Zermelo–Fraenkel%20set%20theory.md) omitting the Axiom of Choice. <!--SR:!2026-12-22,376,364!fsrs,2030-11-13T00:00:00.000Z,1479,1478.62817385,1,2,9,0,0,2026-10-26T00:00:00.000Z-->
 - ZFC – ::@:: Zermelo–Fraenkel set theory, extended to include the Axiom of Choice. <!--SR:!2026-11-13,344,364!2027-01-10,392,364-->
 
 ### variants

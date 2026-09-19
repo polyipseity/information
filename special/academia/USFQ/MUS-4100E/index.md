@@ -269,7 +269,7 @@ The content is in teaching order.
 - [swing dancing](../../../../general/swing%20(dance).md) (1920s–1940s) ::@:: multiple forms of dancing that became popular during the swing era; because dancing was incredibly popular and demand for dance bands was high <!--SR:!2031-04-13,1794,398!2026-10-27,498,398-->
     - swing dancing / popular forms ::@:: Charleston, Foxtrot, Jitterbug, Lindi-Hop <!--SR:!2031-04-10,1791,398!2026-11-12,514,398-->
 - [Lindi-Hop](../../../../general/Lindy%20Hop.md)
-    - Lindi-Hop / name ::@:: named after Charles Lindberg <!--SR:!2031-04-15,1795,398!2026-10-26,497,398-->
+    - Lindi-Hop / name ::@:: named after Charles Lindberg <!--SR:!2031-04-15,1795,398!fsrs,2033-01-24T00:00:00.000Z,2282,2282.17391221,1,2,10,0,0,2026-10-26T00:00:00.000Z-->
 - [jazz](../../../../general/jazz.md)
     - jazz / 1920s–1930s ::@:: transitioned from novelty/silly to national craze <!--SR:!fsrs,2030-07-01T00:00:00.000Z,1382,1382.49131002,1,2,10,0,0,2026-09-18T00:00:00.000Z!fsrs,2032-11-15T00:00:00.000Z,2234,2234.24126267,1,2,10,0,0,2026-10-04T00:00:00.000Z-->
 - [big band](../../../../general/big%20band.md) ::@:: a type of musical ensemble of jazz music that usually consists of ten or more musicians with four sections: saxophones, trumpets, trombones, and a rhythm section <!--SR:!fsrs,2032-12-30T00:00:00.000Z,2262,2262.21980759,1,2,10,0,0,2026-10-21T00:00:00.000Z!fsrs,2031-04-14T00:00:00.000Z,1719,1718.82780688,1,2,10,0,0,2026-07-30T00:00:00.000Z-->

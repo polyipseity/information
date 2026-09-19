@@ -32,4 +32,4 @@ tags:
 4. system testing vs. acceptance testing
     - system testing / nature ::@:: black-box, run by independent test group <!--SR:!2026-12-15,281,330!fsrs,2028-08-24T00:00:00.000Z,672,672.22887022,2.49272837,2,9,0,0,2026-10-22T00:00:00.000Z-->
     - acceptance testing / nature ::@:: black-box, run by client or user <!--SR:!2026-11-25,264,330!2026-12-19,284,330-->
-5. behavioral testing ::@:: It tests the system from the outside, making it a form of _black-box testing_. <!--SR:!2026-10-26,239,330!2026-11-10,252,330-->
+5. behavioral testing ::@:: It tests the system from the outside, making it a form of _black-box testing_. <!--SR:!fsrs,2029-09-25T00:00:00.000Z,1065,1064.62815785,1,2,9,0,0,2026-10-26T00:00:00.000Z!2026-11-10,252,330-->

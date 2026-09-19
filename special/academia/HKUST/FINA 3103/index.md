@@ -141,7 +141,7 @@ The content is in teaching order.
     - financial asset / examples ::@:: bank deposits, bonds, cash or cash equivalent, certificate of deposit \(CD\), derivatives, loans, receivables, stocks, etc. <!--SR:!2027-05-06,464,387!2027-03-15,425,390-->
 - [financial system](../../../../general/financial%20system.md) ::@:: It is a system that allows the exchange of funds between financial market participants such as lenders, investors, and borrowers. Financial systems operate at national and global levels. <!--SR:!2027-04-21,454,390!2027-05-24,480,390-->
     - financial system / examples ::@:: banks, financial institutions, financial markets <!--SR:!2027-04-21,454,390!2027-04-29,462,390-->
-- [financial regulatory authority](../../../../general/financial%20regulatory%20authority.md) ::@:: It is a public authority whose role is to ensure the proper implementation of financial regulation within its scope of responsibility. <!--SR:!2026-10-26,295,370!2027-03-27,434,390-->
+- [financial regulatory authority](../../../../general/financial%20regulatory%20authority.md) ::@:: It is a public authority whose role is to ensure the proper implementation of financial regulation within its scope of responsibility. <!--SR:!fsrs,2030-10-17T00:00:00.000Z,1452,1451.94584468,1,2,9,0,0,2026-10-26T00:00:00.000Z!2027-03-27,434,390-->
     - financial regulatory authority / examples ::@:: China: CBIRC <br/> Hong Kong: HKMA, HKSFC <br/> United States: CFTC, SEC <!--SR:!2027-05-22,478,390!2027-03-16,426,390-->
 - financial asset
     - financial asset / classification ::@:: marketable \(tradeable\), non-marketable <!--SR:!2027-03-04,416,390!2027-04-06,439,390-->

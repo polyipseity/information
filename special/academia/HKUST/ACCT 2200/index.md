@@ -253,7 +253,7 @@ The content is in teaching order.
 
 - datetime: 2025-03-03T12:00:00+08:00/2025-03-03T13:20:00+08:00
 - topic: cost behavior
-- cost behavior ::@:: It describes how total cost changes when activity changes. <!--SR:!2026-10-26,486,406!2027-01-03,539,406-->
+- cost behavior ::@:: It describes how total cost changes when activity changes. <!--SR:!fsrs,2032-12-11T00:00:00.000Z,2238,2238.24127719,1,2,10,0,0,2026-10-26T00:00:00.000Z!2027-01-03,539,406-->
     - cost behavior / assumptions ::@:: We assume _unit variable costs_ and _total fixed costs_ both remain _unchanged_. The range of activity for which these holds is called the _relevant range_. There can be multiple relevant ranges. <!--SR:!2026-12-28,533,406!2026-11-18,504,406-->
 - variable cost
     - variable cost / cost behavior ::@:: Assume we are within the _relevant range_. Total cost of this type is proportional to activity. Per unit cost of this type is constant with regards to activity. <!--SR:!2027-01-01,537,406!2027-01-04,540,406-->
@@ -295,7 +295,7 @@ The content is in teaching order.
     - variable costing / manufacturing overhead ::@:: incurred in the period that a product is produced <!--SR:!2026-11-03,492,406!2026-12-30,535,406-->
     - variable costing / formula ::@:: (net) sales, less: variable costs, (subtotal:) _contribution margin_, less: fixed costs, (total:) net operating income <!--SR:!fsrs,2032-10-31T00:00:00.000Z,2206,2206.21232104,1,2,10,0,0,2026-10-17T00:00:00.000Z!2027-08-10,694,366-->
 - [total absorption costing](../../../../general/total%20absorption%20costing.md) ::@:: Under an absorption cost method, management can push forward costs to the next period when products are sold. This artificially inflates profits in the period of production by incurring less cost than would be incurred under a variable costing system. <p> Variable costing is generally not used for external reporting purposes. Under the Tax Reform Act of 1986, income statements must use absorption costing to comply with GAAP. <!--SR:!fsrs,2032-12-01T00:00:00.000Z,2230,2230.24019752,1,2,10,0,0,2026-10-24T00:00:00.000Z!fsrs,2031-04-23T00:00:00.000Z,1758,1758.37829393,1,2,10,0,0,2026-06-30T00:00:00.000Z-->
-    - total absorption costing / purpose ::@:: cost accounting for external financial reporting (GAAP) <!--SR:!2026-12-26,531,406!2026-10-26,486,406-->
+    - total absorption costing / purpose ::@:: cost accounting for external financial reporting (GAAP) <!--SR:!2026-12-26,531,406!fsrs,2032-12-11T00:00:00.000Z,2238,2238.24127719,1,2,10,0,0,2026-10-26T00:00:00.000Z-->
 
 ## week 6 lecture 2
 

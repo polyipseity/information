@@ -12,7 +12,7 @@ tags:
 
 - see: [general/multiple frequency-shift keying](../../../../general/multiple%20frequency-shift%20keying.md)
 
-{@{_Frequency shift keying_ (M-FSK)}@} assigns {@{$\log_2M$ bits to one of $M$ orthogonal carrier frequencies}@}. {@{Each symbol}@} is {@{a single tone at a distinct frequency}@}, making FSK {@{robust against amplitude fading and nonlinearities}@}—useful in {@{power-limited or distorted channels}@}. {@{Bandwidth grows linearly with $M$}@} because {@{each frequency needs its own spectral allocation}@}. <!--SR:!2026-12-22,278,330!2027-01-06,291,330!2026-11-10,245,330!2026-10-26,232,330!2026-12-29,285,330!2026-11-21,254,330!2027-01-04,290,330!2026-11-10,245,330-->
+{@{_Frequency shift keying_ (M-FSK)}@} assigns {@{$\log_2M$ bits to one of $M$ orthogonal carrier frequencies}@}. {@{Each symbol}@} is {@{a single tone at a distinct frequency}@}, making FSK {@{robust against amplitude fading and nonlinearities}@}—useful in {@{power-limited or distorted channels}@}. {@{Bandwidth grows linearly with $M$}@} because {@{each frequency needs its own spectral allocation}@}. <!--SR:!2026-12-22,278,330!2027-01-06,291,330!2026-11-10,245,330!fsrs,2029-08-28T00:00:00.000Z,1037,1037.49777357,1,2,9,0,0,2026-10-26T00:00:00.000Z!2026-12-29,285,330!2026-11-21,254,330!2027-01-04,290,330!2026-11-10,245,330-->
 
 ## waveforms
 

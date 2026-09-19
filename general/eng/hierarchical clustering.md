@@ -107,7 +107,7 @@ return chain.from_iterable([r.value for r in results])
 - maximum linkage clustering:@:[complete-linkage clustering](complete-linkage%20clustering.md) <!--SR:!2028-08-20,1241,355-->
 - WPGMC, weighted centroid clustering:@:median linkage clustering <!--SR:!2028-06-29,1108,295-->
 - minimum linkage clustering, nearest neighbor technique:@:[single-linkage clustering](single-linkage%20clustering.md) <!--SR:!2028-07-26,1223,355-->
-- [UPGMA](UPGMA.md), group average linkage clustering:@:unweighted average linkage clustering <!--SR:!2026-10-26,631,295-->
+- [UPGMA](UPGMA.md), group average linkage clustering:@:unweighted average linkage clustering <!--SR:!fsrs,2032-10-30T00:00:00.000Z,2196,2196.04608179,1.73015421,2,10,0,0,2026-10-26T00:00:00.000Z-->
 - McQuitty's Method, [WPGMA](WPGMA.md):@:weighted average linkage clustering <!--SR:!2028-05-17,1098,315-->
 
 <!--/pytextgen-->

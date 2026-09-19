@@ -452,7 +452,7 @@ tags:
 > 3. compute crossover point \(or incremental IRR\) and use IRR rule
 > 4. compute equivalent annual annuity \(EAA\)
 >
-> - solution: {@{4}@} <!--SR:!2026-10-26,479,399-->
+> - solution: {@{4}@} <!--SR:!fsrs,2032-11-13T00:00:00.000Z,2210,2210.21956418,1,2,10,0,0,2026-10-26T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
