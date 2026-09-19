@@ -169,7 +169,7 @@ $$f(ax)\ \ {\stackrel {\mathcal {F} }{\Longleftrightarrow } }\ \ {\frac {1}{|a|}
 
 #### symmetry
 
-When the real and imaginary parts of a complex function are decomposed into their [even and odd parts](even%20and%20odd%20functions.md#Even%E2%80%93odd%20decomposition), there are four components, denoted below by the subscripts RE, RO, IE, and IO. And there is a one-to-one mapping between the four components of a complex time function and the four components of its complex frequency transform:<sup>[\[16\]](#^ref-16)</sup>
+When the real and imaginary parts of a complex function are decomposed into their [even and odd parts](even%20and%20odd%20functions.md#even–odd%20decomposition), there are four components, denoted below by the subscripts RE, RO, IE, and IO. And there is a one-to-one mapping between the four components of a complex time function and the four components of its complex frequency transform:<sup>[\[16\]](#^ref-16)</sup>
 
 $${\begin{array}{rlcccccccc}{\mathsf {Time\ domain} }&f&=&f_{_{\text{RE} } }&+&f_{_{\text{RO} } }&+&i\ f_{_{\text{IE} } }&+&\underbrace {i\ f_{_{\text{IO} } } } \\&{\Bigg \Updownarrow }{\mathcal {F} }&&{\Bigg \Updownarrow }{\mathcal {F} }&&\ \ {\Bigg \Updownarrow }{\mathcal {F} }&&\ \ {\Bigg \Updownarrow }{\mathcal {F} }&&\ \ {\Bigg \Updownarrow }{\mathcal {F} }\\{\mathsf {Frequency\ domain} }&{\widehat {f} }&=&{\widehat {f} }\mkern-3mu_{_{\text{RE} } }&+&\overbrace {i\ {\widehat {f} }\mkern-3mu_{_{\text{IO} } } } &+&i\ {\widehat {f} }\mkern-3mu_{_{\text{IE} } }&+&{\widehat {f} }\mkern-3mu_{_{\text{RO} } }\end{array} }$$
 
@@ -645,7 +645,7 @@ In mathematics and various applied sciences, it is often necessary to distinguis
 
 Notice, that the last example is only correct under the assumption that the transformed function is a function of _x_, not of _x_<sub>0</sub>.
 
-As discussed above, the [characteristic function](characteristic%20function%20(probability%20theory).md) of a random variable is the same as the [Fourier–Stieltjes transform](#Fourier%E2%80%93Stieltjes%20transform) of its distribution measure, but in this context it is typical to take a different convention for the constants. Typically characteristic function is defined $$E\left(e^{it\cdot X}\right)=\int e^{it\cdot x}\,d\mu _{X}(x).$$
+As discussed above, the [characteristic function](characteristic%20function%20(probability%20theory).md) of a random variable is the same as the [Fourier–Stieltjes transform](#Fourier–Stieltjes%20transform) of its distribution measure, but in this context it is typical to take a different convention for the constants. Typically characteristic function is defined $$E\left(e^{it\cdot X}\right)=\int e^{it\cdot x}\,d\mu _{X}(x).$$
 
 As in the case of the "non-unitary angular frequency" convention above, the factor of 2<!-- markdown separator -->_π_ appears in neither the normalizing constant nor the exponent. Unlike any of the conventions appearing above, this convention takes the opposite sign in the exponent.
 
@@ -677,7 +677,7 @@ The following tables record some closed-form Fourier transforms. For functions _
 
 ### functional relationships, one-dimensional
 
-The Fourier transforms in this table may be found in [Erdélyi \(1954\)](#CITEREFErd%C3%A9lyi1954) or [Kammler \(2000](#CITEREFKammler2000), appendix\).
+The Fourier transforms in this table may be found in [Erdélyi \(1954\)](#CITEREFErdélyi1954) or [Kammler \(2000](#CITEREFKammler2000), appendix\).
 
 |       | Function                              | Fourier transform <br/> unitary, ordinary frequency                                                                                                 | Fourier transform <br/> unitary, angular frequency                                                                                                                                  | Fourier transform <br/> non-unitary, angular frequency                                                                                                  | Remarks                                                                                                                                                                                                                                     |
 | ----- | ------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -700,7 +700,7 @@ The Fourier transforms in this table may be found in [Erdélyi \(1954\)](#CITERE
 
 ### square-integrable functions, one-dimensional
 
-The Fourier transforms in this table may be found in [Campbell & Foster \(1948\)](#CITEREFCampbellFoster1948), [Erdélyi \(1954\)](#CITEREFErd%C3%A9lyi1954), or [Kammler \(2000](#CITEREFKammler2000), appendix\).
+The Fourier transforms in this table may be found in [Campbell & Foster \(1948\)](#CITEREFCampbellFoster1948), [Erdélyi \(1954\)](#CITEREFErdélyi1954), or [Kammler \(2000](#CITEREFKammler2000), appendix\).
 
 |     | Function                                     | Fourier transform <br/> unitary, ordinary frequency                                                                                                 | Fourier transform <br/> unitary, angular frequency                                                                                                                                  | Fourier transform <br/> non-unitary, angular frequency                                                                                                  | Remarks                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | --- | -------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -717,7 +717,7 @@ The Fourier transforms in this table may be found in [Campbell & Foster \(1948\)
 
 ### distributions, one-dimensional
 
-The Fourier transforms in this table may be found in [Erdélyi \(1954\)](#CITEREFErd%C3%A9lyi1954) or [Kammler \(2000](#CITEREFKammler2000), appendix\).
+The Fourier transforms in this table may be found in [Erdélyi \(1954\)](#CITEREFErdélyi1954) or [Kammler \(2000](#CITEREFKammler2000), appendix\).
 
 |     | Function                                                                                                                                | Fourier transform <br/> unitary, ordinary frequency                                                                                                 | Fourier transform <br/> unitary, angular frequency                                                                                                                                  | Fourier transform <br/> non-unitary, angular frequency                                                                                                  | Remarks                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | --- | --------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -862,7 +862,7 @@ The Fourier transforms in this table may be found in [Erdélyi \(1954\)](#CITERE
 44. [Stein & Shakarchi 2003](#CITEREFSteinShakarchi2003), chpt. 5.4 The Heisenberg uncertainty principle <a id="^ref-44"></a>^ref-44
 45. [Chatfield 2004](#CITEREFChatfield2004), p. 113 <a id="^ref-45"></a>^ref-45
 46. [Fourier 1822](#CITEREFFourier1822), p. 441 <a id="^ref-46"></a>^ref-46
-47. [Poincaré 1895](#CITEREFPoincar%C3%A91895), p. 102 <a id="^ref-47"></a>^ref-47
+47. [Poincaré 1895](#CITEREFPoincaré1895), p. 102 <a id="^ref-47"></a>^ref-47
 48. [Whittaker & Watson 1927](#CITEREFWhittakerWatson1927), p. 188 <a id="^ref-48"></a>^ref-48
 49. [Grafakos 2004](#CITEREFGrafakos2004) <a id="^ref-49"></a>^ref-49
 50. [Grafakos & Teschl 2013](#CITEREFGrafakosTeschl2013) <a id="^ref-50"></a>^ref-50
@@ -885,7 +885,7 @@ The Fourier transforms in this table may be found in [Erdélyi \(1954\)](#CITERE
 67. [Edwards 1982](#CITEREFEdwards1982), p. 53 <a id="^ref-67"></a>^ref-67
 68. [Hewitt & Ross 1970](#CITEREFHewittRoss1970), Chapter 8 <a id="^ref-68"></a>^ref-68
 69. [Knapp 2001](#CITEREFKnapp2001) <a id="^ref-69"></a>^ref-69
-70. [Correia, Justo & Angélico 2024](#CITEREFCorreiaJustoAng%C3%A9lico2024) <a id="^ref-70"></a>^ref-70
+70. [Correia, Justo & Angélico 2024](#CITEREFCorreiaJustoAngélico2024) <a id="^ref-70"></a>^ref-70
 71. [Ablowitz et al. 1974](#CITEREFAblowitzKaupNewellSegur1974), pp. 249–315 <a id="^ref-71"></a>^ref-71
 72. [Lax 1968](#CITEREFLax1968), pp. 467–490 <a id="^ref-72"></a>^ref-72
 73. [Yousefi & Kschischang 2014](#CITEREFYousefiKschischang2014), pp. 4312–4328 <a id="^ref-73"></a>^ref-73

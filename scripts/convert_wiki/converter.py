@@ -82,6 +82,7 @@ from .utils import (
     _get_image_filename,
     _markdown_fragment,
     _markdown_link_target,
+    _plain_fragment,
     _strip_url_query,
     _tag_affixes,
 )
@@ -690,7 +691,7 @@ class WikiHtmlConverter:
         # the href to normalize the fragment (underscores -> spaces) and keep
         # it in sync with the anchor produced by _equation_reference_anchor.
         if "#" in href:
-            to_fragment = href.split("#", 1)[1]
+            to_fragment = _plain_fragment(href.split("#", 1)[1])
         else:
             to_fragment = info.tofragment
         to_filename = _fix_name_maybe(
@@ -2411,7 +2412,8 @@ class WikiHtmlConverter:
         match the anchor produced by ``_equation_reference_anchor``.
         Returns the resolved href string.
         """
-        stem, _, frag = href.partition("#")
+        stem, _, raw_frag = href.partition("#")
+        frag = _plain_fragment(raw_frag)
         stem_name = _fix_name_maybe(
             stem.removeprefix("./"),
             replace_underscores=True,
@@ -2459,7 +2461,7 @@ class WikiHtmlConverter:
             if "new" in classes:
                 title = title.removesuffix(_cfg._PAGE_DOES_NOT_EXIST_SUFFIX)
             href = str(ele.get("href", ""))
-            to_fragment = href.split("#", 1)[-1] if "#" in href else ""
+            to_fragment = _plain_fragment(href.split("#", 1)[-1]) if "#" in href else ""
 
             config = self._resolve_link_from_title(title, to_fragment, classes)
             if config is not None:
@@ -2469,7 +2471,7 @@ class WikiHtmlConverter:
             if href.startswith(f"{_cfg._WIKI_HOST_URL}/wiki/") and "#" in href:
                 href = _markdown_fragment(
                     _fix_name_maybe(
-                        href[href.index("#") + 1 :],
+                        _plain_fragment(href[href.index("#") + 1 :]),
                         replace_underscores=True,
                         names_map=self._names_map,
                     )
@@ -2477,7 +2479,7 @@ class WikiHtmlConverter:
             elif href.startswith("#") and len(href) > 1:
                 href = _markdown_fragment(
                     _fix_name_maybe(
-                        href[1:],
+                        _plain_fragment(href[1:]),
                         replace_underscores=True,
                         names_map=self._names_map,
                     )

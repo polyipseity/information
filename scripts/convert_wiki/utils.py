@@ -211,6 +211,20 @@ def _get_image_filename(ele: Tag) -> str | None:
     return None
 
 
+def _plain_fragment(fragment: str) -> str:
+    """Decode a percent-encoded URL fragment from an HTML ``href``.
+
+    Fragments reach the converter percent-encoded, but the name map, the
+    ``_fix_name_maybe`` casing heuristic, and ``_encode_fragment`` all operate
+    on plain text.  Decoding once at the ``href`` boundary keeps ingestion in
+    step with ``_rewrite_link_target``, which unquotes the fragment it reads
+    back from the written Markdown; without it a fragment such as
+    ``Schr%C3%B6dinger_equation`` keeps its encoding (and its uppercase hex
+    digits suppress the lowercase-first-char fallback).
+    """
+    return unquote(fragment)
+
+
 def _encode_fragment(fragment: str) -> str:
     """Encode a plain-text fragment for a link target (no ``#`` prefix)."""
     return fragment.replace(":", "").replace(" ", "%20").replace("/", "%2F")
