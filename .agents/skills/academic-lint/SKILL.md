@@ -5,11 +5,11 @@ description: 'Validate academic course notes after edits. Wraps main.py validato
 
 # Academic Lint
 
-Validate academic course notes after every edit. This skill wraps the `main.py` validator and defines when and how to run it.
+Wraps the `main.py` validator and defines when and how to run it.
 
 ## When to run
 
-Run this skill after every edit to academic notes under `special/academia/`. Do not skip validation before committing.
+Run it after every edit to academic notes under `special/academia/`. Do not skip validation before committing.
 
 ## Invocation modes
 
@@ -23,7 +23,7 @@ uv run python .agents/skills/academic-lint/main.py <file1> <file2> ...
 
 ### Whole-course (default)
 
-When the full course folder was modified (e.g., scaffolding a new course, batch updates), lint the entire course:
+When the whole course folder changed (scaffolding a new course, batch updates), lint the entire course:
 
 ```bash
 uv run python .agents/skills/academic-lint/main.py "special/academia/<INSTITUTION>/<COURSE>/"
@@ -31,17 +31,14 @@ uv run python .agents/skills/academic-lint/main.py "special/academia/<INSTITUTIO
 
 ## Exit codes
 
-- `0` — no issues
-- `1` — warnings only (advisory; fix when practical)
-- `2` — errors found (must fix before commit)
+- `0`: no issues
+- `1`: warnings only, advisory, fix when practical
+- `2`: errors found, must fix before commit
 
-## Behavior
+## Options
 
-- Report errors clearly with file paths and line numbers
-- Do not proceed to commit until errors are resolved
-- Warnings are advisory; fix when practical but do not block
-- Use `--json` for machine-readable output when needed
-- Use `--max-per-rule N` to limit per-rule output (default 5, 0 for unlimited)
+- `--json`: machine-readable output
+- `--max-per-rule N`: limit per-rule output (default 5, 0 for unlimited)
 
 ## Sibling tools
 
