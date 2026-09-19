@@ -33,9 +33,9 @@ This note parallels `continuous-time LTI system.md`: derivatives become differen
 
 Flashcards for this section are as follows:
 
-- What are the main tools in discrete-time response analysis? ::@:: Difference equations, impulse response $h[n]$, and direct causality/stability tests on $h[n]$.
-- Do zero-input and zero-state viewpoints still apply to difference equations? ::@:: Yes; zero-input still comes from stored initial samples, and zero-state still comes from the external input with zero initial state.
-- What later transform-domain method is previewed for discrete-time response? ::@:: The z-transform method, followed by inverse transform to recover $y[n]$.
+- What are the main tools in discrete-time response analysis? ::@:: Difference equations, impulse response $h[n]$, and direct causality/stability tests on $h[n]$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Do zero-input and zero-state viewpoints still apply to difference equations? ::@:: Yes; zero-input still comes from stored initial samples, and zero-state still comes from the external input with zero initial state. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What later transform-domain method is previewed for discrete-time response? ::@:: The z-transform method, followed by inverse transform to recover $y[n]$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
 
 ## continuous-time and discrete-time parallels
 
@@ -49,9 +49,9 @@ First-order systems show the structural match: the exponential $e^{-at}u(t)$ cor
 
 Flashcards for this section are as follows:
 
-- How do the two LTI frameworks compare structurally? ::@:: Continuous time uses differential equations and convolution integrals; discrete time uses difference equations and convolution sums. Causality and stability tests follow the same pattern with sums replacing integrals.
-- What is the first-order impulse-response analogy between continuous and discrete time? ::@:: The exponential $e^{-at}u(t)$ corresponds to the geometric sequence $a^n u[n]$.
-- Why does ELEC 2100 keep separate continuous-time and discrete-time LTI notes? ::@:: Because the algebra, support language, and computational workflow are different enough that each medium deserves its own treatment, even though the conceptual map is shared.
+- How do the two LTI frameworks compare structurally? ::@:: Continuous time uses differential equations and convolution integrals; discrete time uses difference equations and convolution sums. Causality and stability tests follow the same pattern with sums replacing integrals. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What is the first-order impulse-response analogy between continuous and discrete time? ::@:: The exponential $e^{-at}u(t)$ corresponds to the geometric sequence $a^n u[n]$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Why does ELEC 2100 keep separate continuous-time and discrete-time LTI notes? ::@:: Because the algebra, support language, and computational workflow are different enough that each medium deserves its own treatment, even though the conceptual map is shared. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
 
 ## difference-equation solution viewpoints
 
@@ -65,11 +65,11 @@ The __classical time-domain method__ splits the response into homogeneous and pa
 
 Flashcards for this section are as follows:
 
-- What are the two main solution approaches for difference equations? ::@:: The iterative method computes sample by sample (good for computers, no closed form). The classical method splits into homogeneous and particular parts, matching the continuous-time approach.
-- What is the standard linear difference-equation form? ::@:: $a_0y[n]+a_1y[n-1]+\cdots+a_Ny[n-N]=b_0x[n]+b_1x[n-1]+\cdots+b_Mx[n-M]$.
-- Why is a difference equation naturally suited to iterative solution? ::@:: Because it is already a recursion: once enough initial data are known, one can compute the output sample by sample.
-- What is the main limitation of the iterative method? ::@:: It may produce output values without yielding a clean analytical expression for the full sequence.
-- How does the classical time-domain method for difference equations parallel the continuous-time method? ::@:: It splits the response into homogeneous and particular parts, solves the homogeneous recursion from the characteristic equation, picks a particular form compatible with the input, and determines constants from initial conditions.
+- What are the two main solution approaches for difference equations? ::@:: The iterative method computes sample by sample (good for computers, no closed form). The classical method splits into homogeneous and particular parts, matching the continuous-time approach. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What is the standard linear difference-equation form? ::@:: $a_0y[n]+a_1y[n-1]+\cdots+a_Ny[n-N]=b_0x[n]+b_1x[n-1]+\cdots+b_Mx[n-M]$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Why is a difference equation naturally suited to iterative solution? ::@:: Because it is already a recursion: once enough initial data are known, one can compute the output sample by sample. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What is the main limitation of the iterative method? ::@:: It may produce output values without yielding a clean analytical expression for the full sequence. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- How does the classical time-domain method for difference equations parallel the continuous-time method? ::@:: It splits the response into homogeneous and particular parts, solves the homogeneous recursion from the characteristic equation, picks a particular form compatible with the input, and determines constants from initial conditions. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
 
 ## mapping the response labels to difference-equation solutions
 
@@ -90,14 +90,14 @@ When the recursion is stable, the transient part (homogeneous terms) decays, lea
 
 Flashcards for this section are as follows:
 
-- What are the two complete-response decompositions? ::@:: The solving-method split $y=y_h+y_p$ and the source-based split $y=y_{\mathrm{zi}}+y_{\mathrm{zs}}$.
-- Why is $y_{\mathrm{zs}}[n]$ generally not just $y_p[n]$? ::@:: Because a particular solution may not satisfy zero initial conditions, so a homogeneous correction $y_{h,\mathrm{corr}}$ is needed: $y_{\mathrm{zs}}=y_p+y_{h,\mathrm{corr}}$.
-- How is zero-input response mapped to difference-equation solution pieces? ::@:: Solve the homogeneous difference equation with the actual initial samples and set the input to zero; the result is a homogeneous-solution object.
-- How is zero-state response mapped to difference-equation solution pieces? ::@:: Solve the forced difference equation with zero initial samples; the result is the response caused only by the external input.
-- How are natural response and forced response mapped in discrete time? ::@:: Natural response is homogeneous-mode content, whereas forced response is the content tied to the forcing pattern.
-- How do transient and steady-state parts relate to the difference-equation pieces when the recursion is stable? ::@:: The transient part is tied to homogeneous-mode content that decays, while the steady-state part is tied to the long-time part of the particular solution. This is an asymptotic description, not exact at every index.
-- What is the standard correction formula relating zero-state response to a particular solution? ::@:: $y_{\mathrm{zs}}[n]=y_p[n]+y_{h,\mathrm{corr}}[n]$, where $y_{h,\mathrm{corr}}$ is chosen so that the total response satisfies the required zero initial samples.
-- Why are the decompositions $y=y_h+y_p$ and $y=y_{\mathrm{zi}}+y_{\mathrm{zs}}$ not contradictory? ::@:: They answer different questions: $y_h+y_p$ is the algebraic solving split, while $y_{\mathrm{zi}}+y_{\mathrm{zs}}$ is the physical split into stored-state and input-caused parts.
+- What are the two complete-response decompositions? ::@:: The solving-method split $y=y_h+y_p$ and the source-based split $y=y_{\mathrm{zi}}+y_{\mathrm{zs}}$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Why is $y_{\mathrm{zs}}[n]$ generally not just $y_p[n]$? ::@:: Because a particular solution may not satisfy zero initial conditions, so a homogeneous correction $y_{h,\mathrm{corr}}$ is needed: $y_{\mathrm{zs}}=y_p+y_{h,\mathrm{corr}}$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- How is zero-input response mapped to difference-equation solution pieces? ::@:: Solve the homogeneous difference equation with the actual initial samples and set the input to zero; the result is a homogeneous-solution object. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- How is zero-state response mapped to difference-equation solution pieces? ::@:: Solve the forced difference equation with zero initial samples; the result is the response caused only by the external input. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- How are natural response and forced response mapped in discrete time? ::@:: Natural response is homogeneous-mode content, whereas forced response is the content tied to the forcing pattern. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- How do transient and steady-state parts relate to the difference-equation pieces when the recursion is stable? ::@:: The transient part is tied to homogeneous-mode content that decays, while the steady-state part is tied to the long-time part of the particular solution. This is an asymptotic description, not exact at every index. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What is the standard correction formula relating zero-state response to a particular solution? ::@:: $y_{\mathrm{zs}}[n]=y_p[n]+y_{h,\mathrm{corr}}[n]$, where $y_{h,\mathrm{corr}}$ is chosen so that the total response satisfies the required zero initial samples. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-10-25T00:10:00.000Z,0,2.3065,2.11810397,1,1,0,1,2026-10-25T00:00:00.000Z-->
+- Why are the decompositions $y=y_h+y_p$ and $y=y_{\mathrm{zi}}+y_{\mathrm{zs}}$ not contradictory? ::@:: They answer different questions: $y_h+y_p$ is the algebraic solving split, while $y_{\mathrm{zi}}+y_{\mathrm{zs}}$ is the physical split into stored-state and input-caused parts. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
 
 ## iterative method and recursion intuition
 
@@ -111,11 +111,11 @@ The iterative method makes the memory mechanism visible even without a closed-fo
 
 Flashcards for this section are as follows:
 
-- Worked example: Given $y[n]=0.9y[n-1]+u[n]$ with $y[-1]=0$, what are the first four output samples? ::@:: $y[0]=1$, $y[1]=1.9$, $y[2]=2.71$, $y[3]=3.439$.
-- What does the factor $0.9$ mean in $y[n]=0.9y[n-1]+u[n]$? ::@:: The system retains $90\%$ of the previous output; past information fades gradually.
-- What is the steady-state value of $y[n]=0.9y[n-1]+u[n]$? ::@:: $y_{\infty}=10$, from the fixed-point equation $y_{\infty}=0.9y_{\infty}+1$.
-- In the recursion $y[n]=0.9y[n-1]+u[n]$, why does the sequence build upward sample by sample? ::@:: Because each step keeps most of the previous output and adds a new forcing contribution of $1$ from the unit-step input.
-- Why is the iterative method useful even before a closed-form solution is known? ::@:: It makes the memory mechanism of the recursion visible and lets you compute the actual output sequence directly.
+- Worked example: Given $y[n]=0.9y[n-1]+u[n]$ with $y[-1]=0$, what are the first four output samples? ::@:: $y[0]=1$, $y[1]=1.9$, $y[2]=2.71$, $y[3]=3.439$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What does the factor $0.9$ mean in $y[n]=0.9y[n-1]+u[n]$? ::@:: The system retains $90\%$ of the previous output; past information fades gradually. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What is the steady-state value of $y[n]=0.9y[n-1]+u[n]$? ::@:: $y_{\infty}=10$, from the fixed-point equation $y_{\infty}=0.9y_{\infty}+1$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- In the recursion $y[n]=0.9y[n-1]+u[n]$, why does the sequence build upward sample by sample? ::@:: Because each step keeps most of the previous output and adds a new forcing contribution of $1$ from the unit-step input. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Why is the iterative method useful even before a closed-form solution is known? ::@:: It makes the memory mechanism of the recursion visible and lets you compute the actual output sequence directly. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
 
 ## discrete-time impulse response
 
@@ -141,18 +141,18 @@ The decay factor $0.8$ is the sampled version of $e^{-aT_s}$: sampling $e^{-at}$
 
 Flashcards for this section are as follows:
 
-- What is the discrete-time unit impulse response $h[n]$? ::@:: The zero-state response to input $\delta[n]$.
-- Why is discrete-time impulse response structurally important? ::@:: Once $h[n]$ is known, zero-state outputs can be built later through convolution sums.
-- Worked example: For $y[n]=x[n]+\frac{1}{2}x[n-1]$, what is $h[n]$? ::@:: $h[n]=\delta[n]+\frac{1}{2}\delta[n-1]$.
-- Why does the impulse response of $y[n]=x[n]+\frac{1}{2}x[n-1]$ have two shifted impulses? ::@:: Because the unit sample travels through a direct branch and a one-sample-delayed branch with gain $1/2$.
-- Worked example: For $y[n]-0.8y[n-1]=x[n]$, find $h[n]$. ::@:: $h[n]-0.8h[n-1]=\delta[n]$. At $n=0$: $h[0]=1$. For $n>0$: $h[n]=0.8h[n-1]$. Thus $h[n]=(0.8)^n u[n]$.
-- Why is the trial form $h_h[n]=r^n$ natural for the homogeneous recursion? ::@:: A one-sample shift sends $r^n$ to $r^{n-1}$, which is the same shape multiplied by a constant. Geometric sequences reproduce themselves under shifts, just as exponentials reproduce themselves under derivatives.
-- Why does the equation $h[n]-0.8h[n-1]=\delta[n]$ become homogeneous for $n>0$? ::@:: Because the impulse is nonzero only at $n=0$, so for later indices the forcing term vanishes.
-- In the first-order recursion example, what does the impulse $\delta[n]$ do conceptually? ::@:: It acts only at the single sample $n=0$, creating the initial sample of the impulse response; after that, the later samples evolve under the homogeneous recursion alone.
-- How does the discrete-time derivation compare to continuous time? ::@:: The impulse creates an initial condition, then the homogeneous recursion/ODE gives geometric/exponential decay. The factor $0.8$ corresponds to $e^{-aT_s}$ after sampling.
-- How does direct iteration confirm $h[n]=(0.8)^n u[n]$? ::@:: Starting from $h[0]=1$ and applying $h[n]=0.8h[n-1]$, one gets $h[1]=0.8$, $h[2]=0.8^2$, and in general $h[n]=0.8^n$ for $n\ge 0$.
-- What is the analogous continuous-time first-order impulse-response problem? ::@:: A causal ODE such as $h'(t)+ah(t)=\delta(t)$, where the impulse creates a jump condition and leaves a homogeneous equation for later times.
-- What is the precise decay analogy between the recursion factor $0.8$ and a continuous-time exponential? ::@:: Sampling $e^{-at}$ at interval $T_s$ gives $(e^{-aT_s})^n$, so the discrete decay factor $0.8$ plays the same per-sample role as $e^{-aT_s}$ in continuous time.
+- What is the discrete-time unit impulse response $h[n]$? ::@:: The zero-state response to input $\delta[n]$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Why is discrete-time impulse response structurally important? ::@:: Once $h[n]$ is known, zero-state outputs can be built later through convolution sums. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Worked example: For $y[n]=x[n]+\frac{1}{2}x[n-1]$, what is $h[n]$? ::@:: $h[n]=\delta[n]+\frac{1}{2}\delta[n-1]$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Why does the impulse response of $y[n]=x[n]+\frac{1}{2}x[n-1]$ have two shifted impulses? ::@:: Because the unit sample travels through a direct branch and a one-sample-delayed branch with gain $1/2$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Worked example: For $y[n]-0.8y[n-1]=x[n]$, find $h[n]$. ::@:: $h[n]-0.8h[n-1]=\delta[n]$. At $n=0$: $h[0]=1$. For $n>0$: $h[n]=0.8h[n-1]$. Thus $h[n]=(0.8)^n u[n]$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Why is the trial form $h_h[n]=r^n$ natural for the homogeneous recursion? ::@:: A one-sample shift sends $r^n$ to $r^{n-1}$, which is the same shape multiplied by a constant. Geometric sequences reproduce themselves under shifts, just as exponentials reproduce themselves under derivatives. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Why does the equation $h[n]-0.8h[n-1]=\delta[n]$ become homogeneous for $n>0$? ::@:: Because the impulse is nonzero only at $n=0$, so for later indices the forcing term vanishes. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- In the first-order recursion example, what does the impulse $\delta[n]$ do conceptually? ::@:: It acts only at the single sample $n=0$, creating the initial sample of the impulse response; after that, the later samples evolve under the homogeneous recursion alone. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- How does the discrete-time derivation compare to continuous time? ::@:: The impulse creates an initial condition, then the homogeneous recursion/ODE gives geometric/exponential decay. The factor $0.8$ corresponds to $e^{-aT_s}$ after sampling. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- How does direct iteration confirm $h[n]=(0.8)^n u[n]$? ::@:: Starting from $h[0]=1$ and applying $h[n]=0.8h[n-1]$, one gets $h[1]=0.8$, $h[2]=0.8^2$, and in general $h[n]=0.8^n$ for $n\ge 0$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What is the analogous continuous-time first-order impulse-response problem? ::@:: A causal ODE such as $h'(t)+ah(t)=\delta(t)$, where the impulse creates a jump condition and leaves a homogeneous equation for later times. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What is the precise decay analogy between the recursion factor $0.8$ and a continuous-time exponential? ::@:: Sampling $e^{-at}$ at interval $T_s$ gives $(e^{-aT_s})^n$, so the discrete decay factor $0.8$ plays the same per-sample role as $e^{-aT_s}$ in continuous time. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
 
 ## causality and stability from discrete-time impulse response
 
@@ -167,11 +167,11 @@ Example: $h[n]=a^n u[n]$ is causal (one-sided). It is stable when $|a|<1$, since
 
 Flashcards for this section are as follows:
 
-- What conditions make a discrete-time LTI system causal and BIBO stable? ::@:: Causal: $h[n]=0$ for $n<0$. BIBO stable: $\sum|h[n]|<\infty$.
-- When is $h[n]=a^n u[n]$ stable? ::@:: When $|a|<1$, since $\sum_{n=0}^{\infty}|a|^n=1/(1-|a|)$.
-- Why does absolute summability of $h[n]$ guarantee BIBO stability? ::@:: Because the total absolute weight of all shifted impulse contributions is finite, so bounded inputs cannot accumulate into an unbounded output.
-- What convolution-sum inequality proves that absolute summability implies BIBO stability? ::@:: If $|x[m]|\le B$, then $|y[n]|=\left|\sum_m x[m]h[n-m]\right|\le B\sum_k |h[k]|$, so the output is uniformly bounded whenever the absolute sum of $h$ is finite.
-- For $h[n]=a^n u[n]$, why is the system automatically causal? ::@:: Because the factor $u[n]$ makes the impulse response one-sided, so it vanishes for all negative indices.
+- What conditions make a discrete-time LTI system causal and BIBO stable? ::@:: Causal: $h[n]=0$ for $n<0$. BIBO stable: $\sum|h[n]|<\infty$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- When is $h[n]=a^n u[n]$ stable? ::@:: When $|a|<1$, since $\sum_{n=0}^{\infty}|a|^n=1/(1-|a|)$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Why does absolute summability of $h[n]$ guarantee BIBO stability? ::@:: Because the total absolute weight of all shifted impulse contributions is finite, so bounded inputs cannot accumulate into an unbounded output. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What convolution-sum inequality proves that absolute summability implies BIBO stability? ::@:: If $|x[m]|\le B$, then $|y[n]|=\left|\sum_m x[m]h[n-m]\right|\le B\sum_k |h[k]|$, so the output is uniformly bounded whenever the absolute sum of $h$ is finite. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- For $h[n]=a^n u[n]$, why is the system automatically causal? ::@:: Because the factor $u[n]$ makes the impulse response one-sided, so it vanishes for all negative indices. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
 
 ## causality, stability, and interconnection case studies
 
@@ -185,5 +185,5 @@ This combines series, parallel, and convolution—simplify block structure befor
 
 Flashcards for this section are as follows:
 
-- What is the accumulator's impulse response and stability? ::@:: $h[n]=u[n]$: causal but not BIBO stable (sum diverges).
-- Worked example: For the interconnected system with $h_1[n]=(1/2)^n u[n+2]$, $h_2[n]=\delta[n]$, $h_3[n]=u[n-1]$, find $h[n]$. ::@:: $h[n]=h_1[n]+(h_1*u[n-1])[n]$. For $n\ge -1$: $h[n]=8-2^{-n}$. At $n=-2$: $h[-2]=4$. Otherwise: $h[n]=0$.
+- What is the accumulator's impulse response and stability? ::@:: $h[n]=u[n]$: causal but not BIBO stable (sum diverges). <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Worked example: For the interconnected system with $h_1[n]=(1/2)^n u[n+2]$, $h_2[n]=\delta[n]$, $h_3[n]=u[n-1]$, find $h[n]$. ::@:: $h[n]=h_1[n]+(h_1*u[n-1])[n]$. For $n\ge -1$: $h[n]=8-2^{-n}$. At $n=-2$: $h[-2]=4$. Otherwise: $h[n]=0$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->

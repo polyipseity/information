@@ -32,7 +32,7 @@ Continuous-time response analysis asks how a linear time-invariant (LTI) system 
 
 Flashcards for this section are as follows:
 
-- What is the main question of this note? ::@:: How a continuous-time LTI system reacts to excitation in the time domain, before transform methods.
+- What is the main question of this note? ::@:: How a continuous-time LTI system reacts to excitation in the time domain, before transform methods. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
 
 ## time-domain analysis roadmap
 
@@ -117,7 +117,7 @@ Summary of label purposes:
 Flashcards for this section are as follows:
 
 - What are the two main complete-response decompositions? ::@:: $r(t)=r_h(t)+r_p(t)$ (classical ODE method) or $r(t)=r_{\mathrm{zi}}(t)+r_{\mathrm{zs}}(t)$ (source-based engineering split). <!--SR:!fsrs,2027-04-10T00:00:00.000Z,278,278.46760619,1,2,7,0,0,2026-07-06T00:00:00.000Z!fsrs,2027-09-12T00:00:00.000Z,410,410.22837316,1,2,7,0,0,2026-07-29T00:00:00.000Z-->
-- How are zero-input, zero-state, natural, and forced responses mapped to ODE pieces? ::@:: Zero-input: homogeneous ODE with actual initial conditions. Zero-state: full forced ODE with zero initial conditions. Natural: homogeneous-solution terms. Forced: particular solution.
+- How are zero-input, zero-state, natural, and forced responses mapped to ODE pieces? ::@:: Zero-input: homogeneous ODE with actual initial conditions. Zero-state: full forced ODE with zero initial conditions. Natural: homogeneous-solution terms. Forced: particular solution. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
 - How is zero-input response mapped to ODE pieces? ::@:: Solve the homogeneous ODE with the actual initial conditions and input set to zero. Always a homogeneous-solution object. <!--SR:!fsrs,2027-07-27T00:00:00.000Z,369,368.83580909,1,2,7,0,0,2026-07-23T00:00:00.000Z!fsrs,2027-08-06T00:00:00.000Z,378,377.84950691,1,2,7,0,0,2026-07-24T00:00:00.000Z-->
 - How is zero-state response mapped to ODE pieces? ::@:: Solve the full forced ODE with zero initial conditions. Response caused only by the external excitation. <!--SR:!fsrs,2027-09-14T00:00:00.000Z,410,410.22837316,1,2,7,0,0,2026-07-31T00:00:00.000Z!fsrs,2027-09-08T00:00:00.000Z,406,405.65740649,1,2,7,0,0,2026-07-29T00:00:00.000Z-->
 - How are natural and forced responses mapped to ODE pieces? ::@:: Natural response is built from homogeneous-solution terms (the system's natural modes). Forced response is represented by a particular solution tied to the forcing pattern. <!--SR:!fsrs,2027-04-16T00:00:00.000Z,283,282.79716409,1,2,7,0,0,2026-07-07T00:00:00.000Z!fsrs,2027-08-26T00:00:00.000Z,396,396.49212694,1,2,7,0,0,2026-07-26T00:00:00.000Z-->
@@ -140,16 +140,16 @@ Zero-state analysis is the practical default because in many systems engineers c
 
 Flashcards for this section are as follows:
 
-- How is zero-input response solved? ::@:: Set the input to zero, solve the homogeneous equation, determine coefficients from initial conditions.
-- Why does zero-input solution contain only the homogeneous part? ::@:: No forcing term remains when the excitation is removed.
-- Under ordinary excitation, what continuity conditions hold at the initial instant? ::@:: Capacitor voltage and inductor current are continuous.
-- How is zero-state response solved before convolution? ::@:: Set initial conditions to zero, keep the forced equation, solve for the response satisfying those constraints.
-- Why can zero-state solution contain a homogeneous-looking term? ::@:: A transient piece is needed so the total forced response satisfies zero initial conditions.
-- What is the role of the homogeneous correction in zero-state response? ::@:: It ensures $r_p+r_{h,\mathrm{corr}}$ satisfies the required zero initial conditions.
-- What is the physical motivation for zero-input response? ::@:: It shows the motion produced only by stored energy, with no external forcing.
-- What is the physical motivation for zero-state response? ::@:: It isolates the response caused only by the external excitation under zero stored energy.
-- Why does the lecture emphasize zero-state response for engineering systems? ::@:: In many systems engineers care about how external signals are processed, not stored energy.
-- Why does convolution become the practical tool for zero-state response? ::@:: It computes the zero-state output directly from the input and impulse response without solving the full differential equation each time.
+- How is zero-input response solved? ::@:: Set the input to zero, solve the homogeneous equation, determine coefficients from initial conditions. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Why does zero-input solution contain only the homogeneous part? ::@:: No forcing term remains when the excitation is removed. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Under ordinary excitation, what continuity conditions hold at the initial instant? ::@:: Capacitor voltage and inductor current are continuous. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- How is zero-state response solved before convolution? ::@:: Set initial conditions to zero, keep the forced equation, solve for the response satisfying those constraints. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Why can zero-state solution contain a homogeneous-looking term? ::@:: A transient piece is needed so the total forced response satisfies zero initial conditions. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What is the role of the homogeneous correction in zero-state response? ::@:: It ensures $r_p+r_{h,\mathrm{corr}}$ satisfies the required zero initial conditions. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What is the physical motivation for zero-input response? ::@:: It shows the motion produced only by stored energy, with no external forcing. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What is the physical motivation for zero-state response? ::@:: It isolates the response caused only by the external excitation under zero stored energy. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Why does the lecture emphasize zero-state response for engineering systems? ::@:: In many systems engineers care about how external signals are processed, not stored energy. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Why does convolution become the practical tool for zero-state response? ::@:: It computes the zero-state output directly from the input and impulse response without solving the full differential equation each time. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
 
 ## state continuity and jump discontinuities
 
@@ -205,13 +205,13 @@ Impulse response measures reaction to a concentrated instant of excitation. Step
 
 Flashcards for this section are as follows:
 
-- What is the unit impulse response $h(t)$? ::@:: The zero-state response to $\delta(t)$.
-- What is the unit step response $g(t)$? ::@:: The zero-state response to $u(t)$.
-- What is the relation between step and impulse? ::@:: $u(t)=\int_{-\infty}^{t}\delta(\tau)\,d\tau$, so $g(t)=\int_{-\infty}^{t}h(\tau)\,d\tau$ and $h(t)=\frac{d}{dt}g(t)$.
-- Why does $h(t)=\frac{d}{dt}g(t)$ for constant-coefficient LTI? ::@:: Because $\delta(t)=\frac{d}{dt}u(t)$ and the LTI operator commutes with differentiation.
-- How is $g(t)=\int_{-\infty}^{t}h(\tau)\,d\tau$ derived from convolution? ::@:: From $g=u*h$, reduce to $\tau\ge 0$, substitute $\lambda=t-\tau$.
-- For causal systems, how does the step-response integral simplify? ::@:: $g(t)=\int_{0}^{t}h(\lambda)\,d\lambda$ for $t\ge 0$.
-- What equations do $h(t)$ and $g(t)$ satisfy? ::@:: $L[h]=M[\delta]$ and $L[g]=M[u]$, both with zero initial conditions.
+- What is the unit impulse response $h(t)$? ::@:: The zero-state response to $\delta(t)$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What is the unit step response $g(t)$? ::@:: The zero-state response to $u(t)$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What is the relation between step and impulse? ::@:: $u(t)=\int_{-\infty}^{t}\delta(\tau)\,d\tau$, so $g(t)=\int_{-\infty}^{t}h(\tau)\,d\tau$ and $h(t)=\frac{d}{dt}g(t)$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Why does $h(t)=\frac{d}{dt}g(t)$ for constant-coefficient LTI? ::@:: Because $\delta(t)=\frac{d}{dt}u(t)$ and the LTI operator commutes with differentiation. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- How is $g(t)=\int_{-\infty}^{t}h(\tau)\,d\tau$ derived from convolution? ::@:: From $g=u*h$, reduce to $\tau\ge 0$, substitute $\lambda=t-\tau$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- For causal systems, how does the step-response integral simplify? ::@:: $g(t)=\int_{0}^{t}h(\lambda)\,d\lambda$ for $t\ge 0$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What equations do $h(t)$ and $g(t)$ satisfy? ::@:: $L[h]=M[\delta]$ and $L[g]=M[u]$, both with zero initial conditions. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
 
 ## typical impulse responses and what they mean
 
@@ -275,11 +275,11 @@ Learn this mapping now — it prevents confusion when the same roots appear as p
 
 Flashcards for this section are as follows:
 
-- For $s^2+\frac{R}{L}s+\frac{1}{LC}=0$, define $\alpha$, $\omega_0$, and the roots. ::@:: $\alpha=\frac{R}{2L}$ (damping), $\omega_0=\frac{1}{\sqrt{LC}}$ (natural frequency), $p_{1,2}=-\alpha\pm\sqrt{\alpha^2-\omega_0^2}$. For $R,L,C>0$, all roots have negative real part.
-- $\alpha<\omega_0$: ? ::@:: Underdamped — decaying oscillation.
-- $\alpha=\omega_0$: ? ::@:: Critically damped — repeated root at $-\alpha$, boundary case.
-- $\alpha>\omega_0$: ? ::@:: Overdamped — two distinct real negative roots.
-- What gives sustained oscillation? ::@:: Undamped case $R=0$, $\alpha=0$, roots on the imaginary axis.
+- For $s^2+\frac{R}{L}s+\frac{1}{LC}=0$, define $\alpha$, $\omega_0$, and the roots. ::@:: $\alpha=\frac{R}{2L}$ (damping), $\omega_0=\frac{1}{\sqrt{LC}}$ (natural frequency), $p_{1,2}=-\alpha\pm\sqrt{\alpha^2-\omega_0^2}$. For $R,L,C>0$, all roots have negative real part. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- $\alpha<\omega_0$: ? ::@:: Underdamped — decaying oscillation. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- $\alpha=\omega_0$: ? ::@:: Critically damped — repeated root at $-\alpha$, boundary case. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- $\alpha>\omega_0$: ? ::@:: Overdamped — two distinct real negative roots. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What gives sustained oscillation? ::@:: Undamped case $R=0$, $\alpha=0$, roots on the imaginary axis. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
 
 ## impulse-response case studies
 
@@ -293,8 +293,8 @@ Second example: $h(t)=e^{-2t}u(t)$. Causality: $u(t)$ makes $h(t)=0$ for $t<0$. 
 
 Flashcards for this section are as follows:
 
-- Worked example: Input splits into direct and delayed-by-$T$ branches before an integrator. With input $\delta(t)$, what is $h(t)$? ::@:: The integrator receives $\delta(t)-\delta(t-T)$, so $h(t)=u(t)-u(t-T)$.
-- Why does $h(t)=u(t)-u(t-T)$ make sense? ::@:: The impulse at $t=0$ turns the integrator on; the delayed negative impulse at $t=T$ turns it off, giving a rectangular pulse of width $T$.
-- Worked example: $h(t)=e^{-2t}u(t)$ — is it causal? ::@:: Yes: $u(t)$ makes $h(t)=0$ for $t<0$.
-- Worked example: $h(t)=e^{-2t}u(t)$ — is it stable? ::@:: Yes: $\int_{0}^{\infty}e^{-2t}\,dt=1/2<\infty$.
-- What do these examples teach? ::@:: Read impulse response structurally: branch delays and signs shape the waveform; causality and stability are checked from support and total area.
+- Worked example: Input splits into direct and delayed-by-$T$ branches before an integrator. With input $\delta(t)$, what is $h(t)$? ::@:: The integrator receives $\delta(t)-\delta(t-T)$, so $h(t)=u(t)-u(t-T)$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Why does $h(t)=u(t)-u(t-T)$ make sense? ::@:: The impulse at $t=0$ turns the integrator on; the delayed negative impulse at $t=T$ turns it off, giving a rectangular pulse of width $T$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Worked example: $h(t)=e^{-2t}u(t)$ — is it causal? ::@:: Yes: $u(t)$ makes $h(t)=0$ for $t<0$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Worked example: $h(t)=e^{-2t}u(t)$ — is it stable? ::@:: Yes: $\int_{0}^{\infty}e^{-2t}\,dt=1/2<\infty$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What do these examples teach? ::@:: Read impulse response structurally: branch delays and signs shape the waveform; causality and stability are checked from support and total area. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->

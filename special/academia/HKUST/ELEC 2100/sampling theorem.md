@@ -43,13 +43,13 @@ Read this literally: sampling keeps only the values at sampling instants, stored
 
 Flashcards for this section are as follows:
 
-- What is the sampled sequence for signal $x(t)$ with interval $T$? ::@:: $x[n]=x(nT)$.
-- What are $f_s$ and $\omega_s$ in terms of $T$? ::@:: $f_s=1/T$ and $\omega_s=2\pi/T$.
-- What impulse train models ideal sampling? ::@:: $p_T(t)=\sum_{n=-\infty}^{\infty}\delta(t-nT)$.
-- What is the sampled signal in impulse-train form? ::@:: $x_s(t)=x(t)p_T(t)=\sum_{n=-\infty}^{\infty}x(nT)\delta(t-nT)$.
-- Why is the impulse-train model useful? ::@:: It turns sampling into time multiplication, which becomes spectral convolution with replicated spectra.
+- What is the sampled sequence for signal $x(t)$ with interval $T$? ::@:: $x[n]=x(nT)$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What are $f_s$ and $\omega_s$ in terms of $T$? ::@:: $f_s=1/T$ and $\omega_s=2\pi/T$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What impulse train models ideal sampling? ::@:: $p_T(t)=\sum_{n=-\infty}^{\infty}\delta(t-nT)$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-10-25T00:10:00.000Z,0,2.3065,2.11810397,1,1,0,1,2026-10-25T00:00:00.000Z-->
+- What is the sampled signal in impulse-train form? ::@:: $x_s(t)=x(t)p_T(t)=\sum_{n=-\infty}^{\infty}x(nT)\delta(t-nT)$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Why is the impulse-train model useful? ::@:: It turns sampling into time multiplication, which becomes spectral convolution with replicated spectra. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
 
-- What impulse weights in $x_s(t)=\sum_n x(nT)\delta(t-nT)$ represent physically? ::@:: The weight of the impulse at $t=nT$ is exactly the sample value taken from the original waveform at that sampling instant.
+- What impulse weights in $x_s(t)=\sum_n x(nT)\delta(t-nT)$ represent physically? ::@:: The weight of the impulse at $t=nT$ is exactly the sample value taken from the original waveform at that sampling instant. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
 
 ## choosing the sampling frequency
 
@@ -83,11 +83,11 @@ The geometry here is key. A larger sampling frequency pushes the spectral replic
 
 Flashcards for this section are as follows:
 
-- What is the Fourier transform of $p_T(t)=\sum_n\delta(t-nT)$? ::@:: $P_T(\omega)=\frac{2\pi}{T}\sum_{k=-\infty}^{\infty}\delta(\omega-k\omega_s)$.
-- What is $X_s(\omega)$? ::@:: $X_s(\omega)=\frac{1}{T}\sum_{k=-\infty}^{\infty}X(\omega-k\omega_s)$.
-- What does this formula mean geometrically? ::@:: The original spectrum is copied and shifted every $\omega_s$.
-- Why is spectral overlap the key issue? ::@:: Overlapping copies mix different original frequencies, making unique reconstruction impossible.
-- Why does increasing $f_s$ make exact recovery easier? ::@:: It increases the copy spacing $\omega_s=2\pi/T$, pushing replicas farther apart so they are less likely to overlap.
+- What is the Fourier transform of $p_T(t)=\sum_n\delta(t-nT)$? ::@:: $P_T(\omega)=\frac{2\pi}{T}\sum_{k=-\infty}^{\infty}\delta(\omega-k\omega_s)$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What is $X_s(\omega)$? ::@:: $X_s(\omega)=\frac{1}{T}\sum_{k=-\infty}^{\infty}X(\omega-k\omega_s)$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What does this formula mean geometrically? ::@:: The original spectrum is copied and shifted every $\omega_s$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Why is spectral overlap the key issue? ::@:: Overlapping copies mix different original frequencies, making unique reconstruction impossible. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Why does increasing $f_s$ make exact recovery easier? ::@:: It increases the copy spacing $\omega_s=2\pi/T$, pushing replicas farther apart so they are less likely to overlap. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
 
 ## sampling theorem and Nyquist limit
 
@@ -128,16 +128,16 @@ The kernel parameter matters. With $h_{\sigma}(t)=\operatorname{Sa}(\pi t/\sigma
 
 Flashcards for this section are as follows:
 
-- How is perfect reconstruction achieved in frequency? ::@:: Use an ideal LPF to keep the central spectral replica and reject the others.
-- Why must the reconstruction LPF have gain $T$? ::@:: The sampled spectrum copies are scaled by $1/T$, so the filter must multiply by $T$ to restore original amplitude.
-- What is the ideal interpolation formula? ::@:: $x(t)=\sum_{n=-\infty}^{\infty}x(nT)\operatorname{Sa}(\pi (t-nT)/T)$.
-- Why does the interpolation pass exactly through sample values? ::@:: Each shifted kernel equals $1$ at its own sample and $0$ at all others.
-- Why is $\sigma=T$ required in $h_{\sigma}(t)=\operatorname{Sa}(\pi t/\sigma)$? ::@:: Zero crossings must land at the other sampling instants spaced by $T$.
-- How does changing $\sigma$ affect the kernel and frequency selector? ::@:: Larger $\sigma$ gives a wider time kernel and narrower frequency selector; smaller $\sigma$ gives the opposite.
-- Why does this section use $\sigma$ instead of $\tau$ for interpolation-kernel scale? ::@:: To avoid notation collision with $\tau$ commonly used as rectangular-pulse width in transform-pair formulas. Here $\sigma$ is reserved for interpolation-kernel scaling.
-- Why is convolution with a sinc kernel the right reconstruction operation? ::@:: Because the reconstruction filter $H_r(\omega)$ is rectangular in frequency, so its impulse response is sinc in time. Convolution with this kernel selects the central spectral replica.
-- Why is Sa / $\operatorname{sinc}_{\pi}$ called the ideal interpolation kernel for uniform sampling? ::@:: It is the exact reconstruction kernel from the ideal rectangular low-pass filter. Each shifted kernel equals $1$ at its own sampling instant and $0$ at all others, so neighboring samples do not interfere.
-- How do you derive the sinc interpolation formula from the reconstruction filter? ::@:: Convolve the sampled impulse train $x_s(t)=\sum_n x(nT)\delta(t-nT)$ with $h_r(t)=\operatorname{Sa}(\pi t/T)$. Each shifted impulse produces $x(nT)h_r(t-nT)$; summing gives the interpolation formula.
+- How is perfect reconstruction achieved in frequency? ::@:: Use an ideal LPF to keep the central spectral replica and reject the others. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Why must the reconstruction LPF have gain $T$? ::@:: The sampled spectrum copies are scaled by $1/T$, so the filter must multiply by $T$ to restore original amplitude. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What is the ideal interpolation formula? ::@:: $x(t)=\sum_{n=-\infty}^{\infty}x(nT)\operatorname{Sa}(\pi (t-nT)/T)$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Why does the interpolation pass exactly through sample values? ::@:: Each shifted kernel equals $1$ at its own sample and $0$ at all others. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Why is $\sigma=T$ required in $h_{\sigma}(t)=\operatorname{Sa}(\pi t/\sigma)$? ::@:: Zero crossings must land at the other sampling instants spaced by $T$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- How does changing $\sigma$ affect the kernel and frequency selector? ::@:: Larger $\sigma$ gives a wider time kernel and narrower frequency selector; smaller $\sigma$ gives the opposite. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Why does this section use $\sigma$ instead of $\tau$ for interpolation-kernel scale? ::@:: To avoid notation collision with $\tau$ commonly used as rectangular-pulse width in transform-pair formulas. Here $\sigma$ is reserved for interpolation-kernel scaling. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Why is convolution with a sinc kernel the right reconstruction operation? ::@:: Because the reconstruction filter $H_r(\omega)$ is rectangular in frequency, so its impulse response is sinc in time. Convolution with this kernel selects the central spectral replica. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Why is Sa / $\operatorname{sinc}_{\pi}$ called the ideal interpolation kernel for uniform sampling? ::@:: It is the exact reconstruction kernel from the ideal rectangular low-pass filter. Each shifted kernel equals $1$ at its own sampling instant and $0$ at all others, so neighboring samples do not interfere. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- How do you derive the sinc interpolation formula from the reconstruction filter? ::@:: Convolve the sampled impulse train $x_s(t)=\sum_n x(nT)\delta(t-nT)$ with $h_r(t)=\operatorname{Sa}(\pi t/T)$. Each shifted impulse produces $x(nT)h_r(t-nT)$; summing gives the interpolation formula. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
 
 ## practical reconstruction filters
 
@@ -153,12 +153,12 @@ Both are approximate. ZOH is easy to implement but gives staircase output and hi
 
 Flashcards for this section are as follows:
 
-- What is ZOH's impulse response and output shape? ::@:: $h_{\mathrm{ZOH}}(t)=u(t)-u(t-T)$; it produces a staircase waveform holding each sample constant.
-- What is FOH's impulse response and output shape? ::@:: $h_{\mathrm{FOH}}(t)=\Lambda((t-T)/T)$; it produces piecewise linear segments between samples.
-- How do ZOH and FOH compare with ideal sinc reconstruction? ::@:: Ideal sinc is exact but infinite. ZOH is simpler but staircase. FOH is smoother but still approximate.
-- How do you draw the ZOH block diagram? ::@:: $x[n] \to$ ideal impulse DAC $\to h_{\mathrm{ZOH}}(t)$; output is a staircase holding each sample constant.
-- How do you draw the FOH block diagram? ::@:: $x[n] \to$ ideal impulse DAC $\to h_{\mathrm{FOH}}(t)$; output is piecewise linear between samples.
-- Why are ZOH and FOH used in practice? ::@:: They are finite, causal, and easy to implement, whereas ideal sinc reconstruction has an infinite two-sided impulse response.
+- What is ZOH's impulse response and output shape? ::@:: $h_{\mathrm{ZOH}}(t)=u(t)-u(t-T)$; it produces a staircase waveform holding each sample constant. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What is FOH's impulse response and output shape? ::@:: $h_{\mathrm{FOH}}(t)=\Lambda((t-T)/T)$; it produces piecewise linear segments between samples. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- How do ZOH and FOH compare with ideal sinc reconstruction? ::@:: Ideal sinc is exact but infinite. ZOH is simpler but staircase. FOH is smoother but still approximate. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- How do you draw the ZOH block diagram? ::@:: $x[n] \to$ ideal impulse DAC $\to h_{\mathrm{ZOH}}(t)$; output is a staircase holding each sample constant. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- How do you draw the FOH block diagram? ::@:: $x[n] \to$ ideal impulse DAC $\to h_{\mathrm{FOH}}(t)$; output is piecewise linear between samples. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Why are ZOH and FOH used in practice? ::@:: They are finite, causal, and easy to implement, whereas ideal sinc reconstruction has an infinite two-sided impulse response. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
 
 ## aliasing and anti-aliasing
 
@@ -180,14 +180,14 @@ This appears in many settings: digital telephony removes content above $4\text{ 
 
 Flashcards for this section are as follows:
 
-- What is aliasing? ::@:: Undersampling causes spectral copies to overlap, mixing different continuous-time frequencies.
-- Why does aliasing destroy unique reconstruction? ::@:: Once spectral copies overlap, several different original continuous-time spectra can produce the same sampled sequence.
-- What is an anti-aliasing filter? ::@:: A low-pass filter placed before the sampler to remove frequency components above half the sampling frequency so spectral replicas will not overlap.
-- What is the key intuition behind aliasing? ::@:: Sampling remembers only normalized digital frequency, so different analog frequencies that differ by multiples of the sampling rate can collapse onto the same discrete-time oscillation.
-- Why is anti-aliasing done before sampling? ::@:: Once aliasing folds frequencies together, the distinction cannot be recovered.
-- If $x(t)=\cos(10t)$ is sampled at $\omega_s=14$, what alias appears? ::@:: The $10\text{ rad/s}$ cosine aliases to $4\text{ rad/s}$, since $\omega_s-10=4$.
-- What does the anti-aliasing block diagram look like? ::@:: $x(t) \to$ LPF $\to$ sampler $\to x_d[n]$.
-- With an anti-aliasing filter, what error remains? ::@:: Only the removed high-frequency content is lost. Without the filter, those components also fold into false low-frequency components, which is worse.
+- What is aliasing? ::@:: Undersampling causes spectral copies to overlap, mixing different continuous-time frequencies. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Why does aliasing destroy unique reconstruction? ::@:: Once spectral copies overlap, several different original continuous-time spectra can produce the same sampled sequence. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What is an anti-aliasing filter? ::@:: A low-pass filter placed before the sampler to remove frequency components above half the sampling frequency so spectral replicas will not overlap. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What is the key intuition behind aliasing? ::@:: Sampling remembers only normalized digital frequency, so different analog frequencies that differ by multiples of the sampling rate can collapse onto the same discrete-time oscillation. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Why is anti-aliasing done before sampling? ::@:: Once aliasing folds frequencies together, the distinction cannot be recovered. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- If $x(t)=\cos(10t)$ is sampled at $\omega_s=14$, what alias appears? ::@:: The $10\text{ rad/s}$ cosine aliases to $4\text{ rad/s}$, since $\omega_s-10=4$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What does the anti-aliasing block diagram look like? ::@:: $x(t) \to$ LPF $\to$ sampler $\to x_d[n]$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- With an anti-aliasing filter, what error remains? ::@:: Only the removed high-frequency content is lost. Without the filter, those components also fold into false low-frequency components, which is worse. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
 
 ## reading maximum sampling interval from a spectrum
 
@@ -201,6 +201,6 @@ This workflow applies to the actual signal entering the sampler, not an earlier 
 
 Flashcards for this section are as follows:
 
-- What three-step workflow finds $T_{\max}$ and sketches the sampled spectrum? ::@:: (1) Read $\omega_m$. (2) Compute $T_{\max}=\pi/\omega_m$. (3) Sketch copies every $\omega_s=2\pi/T$.
-- If $F(\omega)$ is nonzero for $|\omega|\le\omega_m$, what is $T_{\max}$ and the sampled spectrum? ::@:: $T_{\max}=\pi/\omega_m$; $F_s(\omega)=\frac{1}{T_{\max}}\sum_k F(\omega-2k\omega_m)$ with replicas just touching at $\omega=\pm\omega_m$.
-- Why must the Nyquist condition use the bandwidth at the sampler input? ::@:: Spectral overlap depends on the actual highest frequency present when sampling occurs.
+- What three-step workflow finds $T_{\max}$ and sketches the sampled spectrum? ::@:: (1) Read $\omega_m$. (2) Compute $T_{\max}=\pi/\omega_m$. (3) Sketch copies every $\omega_s=2\pi/T$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- If $F(\omega)$ is nonzero for $|\omega|\le\omega_m$, what is $T_{\max}$ and the sampled spectrum? ::@:: $T_{\max}=\pi/\omega_m$; $F_s(\omega)=\frac{1}{T_{\max}}\sum_k F(\omega-2k\omega_m)$ with replicas just touching at $\omega=\pm\omega_m$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Why must the Nyquist condition use the bandwidth at the sampler input? ::@:: Spectral overlap depends on the actual highest frequency present when sampling occurs. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->

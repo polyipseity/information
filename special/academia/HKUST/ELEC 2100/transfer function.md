@@ -27,8 +27,8 @@ This builds on the Laplace-transform application story. Laplace transform turns 
 
 Flashcards for this section are as follows:
 
-- What does the transfer-function viewpoint do? ::@:: It compresses an LTI system into $H(s)$ so poles, zeros, and block-diagram algebra replace re-solving the ODE for every input.
-- What is the path from a physical model to system interpretation? ::@:: Circuit or ODE $\to$ zero-state Laplace $\to$ $H(s)$ or network parameters $\to$ poles/zeros and interconnection $\to$ stability and response.
+- What does the transfer-function viewpoint do? ::@:: It compresses an LTI system into $H(s)$ so poles, zeros, and block-diagram algebra replace re-solving the ODE for every input. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What is the path from a physical model to system interpretation? ::@:: Circuit or ODE $\to$ zero-state Laplace $\to$ $H(s)$ or network parameters $\to$ poles/zeros and interconnection $\to$ stability and response. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
 
 ## definition of system and transfer functions
 
@@ -86,10 +86,10 @@ One-port functions and transfer ratios are not competing ideas. One-port functio
 
 Flashcards for this section are as follows:
 
-- What are the zero-state Laplace impedances and admittances of $R$, $L$, $C$? ::@:: $Z_R=R$, $Z_L=sL$, $Z_C=\frac{1}{sC}$; $Y_R=\frac{1}{R}$, $Y_L=\frac{1}{sL}$, $Y_C=sC$.
-- Why does impedance suit series and admittance suit parallel? ::@:: Series: shared current, voltages add. Parallel: shared voltage, currents add.
-- For a series RLC with output across the capacitor, what is $Z(s)$ and the transfer ratio? ::@:: $Z(s)=R+sL+\frac{1}{sC}$. $\frac{V_C(s)}{V_{\text{in}}(s)}=\frac{1}{LCs^2+RCs+1}$.
-- When does a dynamic circuit become a transfer-function object in the Laplace domain? ::@:: After removing initial-condition source terms and working in the zero-state Laplace domain. The remaining algebra describes the intrinsic input-output law of the network rather than one particular total response.
+- What are the zero-state Laplace impedances and admittances of $R$, $L$, $C$? ::@:: $Z_R=R$, $Z_L=sL$, $Z_C=\frac{1}{sC}$; $Y_R=\frac{1}{R}$, $Y_L=\frac{1}{sL}$, $Y_C=sC$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Why does impedance suit series and admittance suit parallel? ::@:: Series: shared current, voltages add. Parallel: shared voltage, currents add. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- For a series RLC with output across the capacitor, what is $Z(s)$ and the transfer ratio? ::@:: $Z(s)=R+sL+\frac{1}{sC}$. $\frac{V_C(s)}{V_{\text{in}}(s)}=\frac{1}{LCs^2+RCs+1}$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- When does a dynamic circuit become a transfer-function object in the Laplace domain? ::@:: After removing initial-condition source terms and working in the zero-state Laplace domain. The remaining algebra describes the intrinsic input-output law of the network rather than one particular total response. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
 
 ## two-port descriptions and parameter matrices
 
@@ -111,11 +111,11 @@ All describe the same physical network under the same sign convention. Choose th
 
 Flashcards for this section are as follows:
 
-- Why use a two-port matrix instead of a scalar transfer ratio? ::@:: It keeps all four port variables visible, so loading, port choices, and interconnections can be handled without redefining the network.
-- What are the mnemonics for $z$, $y$, $h$, $g$, and $ABCD$? ::@:: $z$: voltages from currents. $y$: currents from voltages. $h$: mixed variables. $g$: dual of $h$. $ABCD$: chain parameters for cascades.
-- Why are $ABCD$ parameters useful for cascades? ::@:: Cascaded two-ports multiply as matrices in cascade order.
-- What are the defining equations of the $z$-parameter and $y$-parameter descriptions? ::@:: $z$: $\begin{bmatrix}V_1\\V_2\end{bmatrix}=\begin{bmatrix}z_{11}&z_{12}\\z_{21}&z_{22}\end{bmatrix}\begin{bmatrix}I_1\\I_2\end{bmatrix}$. $y$: $\begin{bmatrix}I_1\\I_2\end{bmatrix}=\begin{bmatrix}y_{11}&y_{12}\\y_{21}&y_{22}\end{bmatrix}\begin{bmatrix}V_1\\V_2\end{bmatrix}$.
-- What are the defining equations of the $ABCD$, $h$, and $g$ parameter descriptions? ::@:: $ABCD$: $\begin{bmatrix}V_1\\I_1\end{bmatrix}=\begin{bmatrix}A&B\\C&D\end{bmatrix}\begin{bmatrix}V_2\\-I_2\end{bmatrix}$. $h$: $\begin{bmatrix}V_1\\I_2\end{bmatrix}=\begin{bmatrix}h_{11}&h_{12}\\h_{21}&h_{22}\end{bmatrix}\begin{bmatrix}I_1\\V_2\end{bmatrix}$. $g$: $\begin{bmatrix}I_1\\V_2\end{bmatrix}=\begin{bmatrix}g_{11}&g_{12}\\g_{21}&g_{22}\end{bmatrix}\begin{bmatrix}V_1\\I_2\end{bmatrix}$.
+- Why use a two-port matrix instead of a scalar transfer ratio? ::@:: It keeps all four port variables visible, so loading, port choices, and interconnections can be handled without redefining the network. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What are the mnemonics for $z$, $y$, $h$, $g$, and $ABCD$? ::@:: $z$: voltages from currents. $y$: currents from voltages. $h$: mixed variables. $g$: dual of $h$. $ABCD$: chain parameters for cascades. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Why are $ABCD$ parameters useful for cascades? ::@:: Cascaded two-ports multiply as matrices in cascade order. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What are the defining equations of the $z$-parameter and $y$-parameter descriptions? ::@:: $z$: $\begin{bmatrix}V_1\\V_2\end{bmatrix}=\begin{bmatrix}z_{11}&z_{12}\\z_{21}&z_{22}\end{bmatrix}\begin{bmatrix}I_1\\I_2\end{bmatrix}$. $y$: $\begin{bmatrix}I_1\\I_2\end{bmatrix}=\begin{bmatrix}y_{11}&y_{12}\\y_{21}&y_{22}\end{bmatrix}\begin{bmatrix}V_1\\V_2\end{bmatrix}$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What are the defining equations of the $ABCD$, $h$, and $g$ parameter descriptions? ::@:: $ABCD$: $\begin{bmatrix}V_1\\I_1\end{bmatrix}=\begin{bmatrix}A&B\\C&D\end{bmatrix}\begin{bmatrix}V_2\\-I_2\end{bmatrix}$. $h$: $\begin{bmatrix}V_1\\I_2\end{bmatrix}=\begin{bmatrix}h_{11}&h_{12}\\h_{21}&h_{22}\end{bmatrix}\begin{bmatrix}I_1\\V_2\end{bmatrix}$. $g$: $\begin{bmatrix}I_1\\V_2\end{bmatrix}=\begin{bmatrix}g_{11}&g_{12}\\g_{21}&g_{22}\end{bmatrix}\begin{bmatrix}V_1\\I_2\end{bmatrix}$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
 
 ## obtaining transfer functions from circuit and differential-equation models
 
@@ -148,13 +148,13 @@ Example: $\frac{d^2 r}{dt^2}+5\frac{dr}{dt}+6r=\frac{de}{dt}+2e$. With zero init
 
 Flashcards for this section are as follows:
 
-- What are the three bridges $H(s)$ connects? ::@:: Circuit $\to$ $s$-domain model, ODE $\to$ polynomial ratio, blocks $\to$ combination rules.
-- For the LCCDE $\sum a_k r^{(k)}=\sum b_j e^{(j)}$, what is $H(s)$? ::@:: $H(s)=\frac{\sum b_j s^j}{\sum a_k s^k}$.
-- Why is the transfer function usually rational in $s$? ::@:: Derivatives become powers of $s$ in the Laplace domain.
-- Why must initial conditions be excluded from $H(s)$? ::@:: $H(s)$ is the zero-state input-output law; initial conditions belong to the total response.
-- For $r''+5r'+6r=e'+2e$, what is $H(s)$ and $h(t)$? ::@:: $H(s)=\frac{1}{s+3}$, $h(t)=e^{-3t}u(t)$.
-- What is the basic workflow for obtaining $H(s)=\frac{R(s)}{E(s)}$ from a circuit diagram? ::@:: Choose excitation and response variables, draw the zero-state $s$-domain equivalent circuit, solve the algebraic equations, then form $H(s)=\frac{R(s)}{E(s)}$.
-- In the example $H(s)=\frac{s+2}{(s+2)(s+3)}$, why is $s=-2$ not a true pole or zero? ::@:: Because the factor $s+2$ cancels in the reduced form, so it is a removable common factor rather than a true pole or zero of the transfer function.
+- What are the three bridges $H(s)$ connects? ::@:: Circuit $\to$ $s$-domain model, ODE $\to$ polynomial ratio, blocks $\to$ combination rules. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- For the LCCDE $\sum a_k r^{(k)}=\sum b_j e^{(j)}$, what is $H(s)$? ::@:: $H(s)=\frac{\sum b_j s^j}{\sum a_k s^k}$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Why is the transfer function usually rational in $s$? ::@:: Derivatives become powers of $s$ in the Laplace domain. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Why must initial conditions be excluded from $H(s)$? ::@:: $H(s)$ is the zero-state input-output law; initial conditions belong to the total response. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- For $r''+5r'+6r=e'+2e$, what is $H(s)$ and $h(t)$? ::@:: $H(s)=\frac{1}{s+3}$, $h(t)=e^{-3t}u(t)$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What is the basic workflow for obtaining $H(s)=\frac{R(s)}{E(s)}$ from a circuit diagram? ::@:: Choose excitation and response variables, draw the zero-state $s$-domain equivalent circuit, solve the algebraic equations, then form $H(s)=\frac{R(s)}{E(s)}$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- In the example $H(s)=\frac{s+2}{(s+2)(s+3)}$, why is $s=-2$ not a true pole or zero? ::@:: Because the factor $s+2$ cancels in the reduced form, so it is a removable common factor rather than a true pole or zero of the transfer function. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
 
 ## poles, zeros, and pole-zero plots
 
@@ -182,11 +182,11 @@ Total: exactly $\max(n,m)$ poles and $\max(n,m)$ zeros (including multiplicity a
 
 Flashcards for this section are as follows:
 
-- In the $s$-plane, how are poles and zeros drawn? ::@:: $\times$ for poles, $\circ$ for zeros, $\Re(s)$ horizontal, $j\omega$ vertical. Multiplicity shown by order label.
-- For $H_1(s)=\frac{s+1}{(s+2)^2}$, what are the poles, zeros, and infinity behavior? ::@:: Zero at $s=-1$ (order 1), pole at $s=-2$ (order 2), one zero at infinity.
-- For $H_2(s)=\frac{(s+1)^3}{s+2}$, what are the poles, zeros, and infinity behavior? ::@:: Zero at $s=-1$ (order 3), pole at $s=-2$ (order 1), two poles at infinity.
-- How does degree counting give poles/zeros at infinity? ::@:: $\deg D>\deg N$ by $q$ $\Rightarrow$ $q$ zeros at $\infty$. $\deg N>\deg D$ by $q$ $\Rightarrow$ $q$ poles at $\infty$. Equal $\Rightarrow$ neither.
-- How many poles and zeros total? ::@:: Exactly $\max(\deg N,\deg D)$ of each, counting multiplicity and infinity.
+- In the $s$-plane, how are poles and zeros drawn? ::@:: $\times$ for poles, $\circ$ for zeros, $\Re(s)$ horizontal, $j\omega$ vertical. Multiplicity shown by order label. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- For $H_1(s)=\frac{s+1}{(s+2)^2}$, what are the poles, zeros, and infinity behavior? ::@:: Zero at $s=-1$ (order 1), pole at $s=-2$ (order 2), one zero at infinity. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- For $H_2(s)=\frac{(s+1)^3}{s+2}$, what are the poles, zeros, and infinity behavior? ::@:: Zero at $s=-1$ (order 3), pole at $s=-2$ (order 1), two poles at infinity. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- How does degree counting give poles/zeros at infinity? ::@:: $\deg D>\deg N$ by $q$ $\Rightarrow$ $q$ zeros at $\infty$. $\deg N>\deg D$ by $q$ $\Rightarrow$ $q$ poles at $\infty$. Equal $\Rightarrow$ neither. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- How many poles and zeros total? ::@:: Exactly $\max(\deg N,\deg D)$ of each, counting multiplicity and infinity. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
 
 ## interconnection of continuous-time systems
 
@@ -218,11 +218,11 @@ These formulas turn closed-loop block diagrams into one transfer function and ma
 
 Flashcards for this section are as follows:
 
-- What is the parallel, cascade, and feedback transfer function? ::@:: Parallel: $H=H_1+H_2$. Cascade: $H=H_1H_2$. Negative feedback: $H=\frac{H_1}{1+H_1H_2}$.
-- For one-port series and parallel, what are the equivalents? ::@:: Series: $Z_{\text{eq}}=Z_1+Z_2$. Parallel: $Y_{\text{eq}}=Y_1+Y_2$.
-- What changes between negative and positive feedback? ::@:: The denominator sign: $1+H_1H_2$ for negative, $1-H_1H_2$ for positive.
-- Derive the negative-feedback closed-loop transfer function. ::@:: With $X_1=E-X_2$, $R=H_1X_1$, $X_2=H_2R$: substitute to get $R=H_1(E-H_2R)$, so $R[1+H_1H_2]=H_1E$, giving $H=\frac{H_1}{1+H_1H_2}$.
-- Why is the feedback formula important? ::@:: It turns a closed-loop block diagram into one algebraic transfer function whose poles can be studied for stability and response.
+- What is the parallel, cascade, and feedback transfer function? ::@:: Parallel: $H=H_1+H_2$. Cascade: $H=H_1H_2$. Negative feedback: $H=\frac{H_1}{1+H_1H_2}$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- For one-port series and parallel, what are the equivalents? ::@:: Series: $Z_{\text{eq}}=Z_1+Z_2$. Parallel: $Y_{\text{eq}}=Y_1+Y_2$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What changes between negative and positive feedback? ::@:: The denominator sign: $1+H_1H_2$ for negative, $1-H_1H_2$ for positive. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Derive the negative-feedback closed-loop transfer function. ::@:: With $X_1=E-X_2$, $R=H_1X_1$, $X_2=H_2R$: substitute to get $R=H_1(E-H_2R)$, so $R[1+H_1H_2]=H_1E$, giving $H=\frac{H_1}{1+H_1H_2}$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Why is the feedback formula important? ::@:: It turns a closed-loop block diagram into one algebraic transfer function whose poles can be studied for stability and response. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
 
 ## stability of continuous-time systems
 
@@ -253,12 +253,12 @@ Feedback stabilization example: $G(s)=\frac{1}{(s-1)(s+2)}$ (unstable, RHP pole 
 
 Flashcards for this section are as follows:
 
-- What is the time-domain BIBO criterion? ::@:: $\int_{-\infty}^{\infty}|h(t)|dt\le M$ for some finite $M$.
-- What is the $s$-domain stability criterion? ::@:: The ROC includes the imaginary axis.
-- For causal rational systems, what pole test gives BIBO stability? ::@:: All poles strictly in the LHP.
-- How do simple vs. repeated imaginary-axis poles differ? ::@:: Simple: marginally stable. Repeated: unstable.
-- Why is $\frac{1}{(s+\alpha)^2}$ stable but $\frac{1}{s^2}$ unstable? ::@:: LHP: exponential dominates polynomial, $te^{-\alpha t}$ decays. Imaginary axis: no decay, $tu(t)$ grows.
-- Stable, unstable, and marginally stable classification? ::@:: Stable: all poles in LHP. Unstable: RHP pole or repeated imaginary-axis pole. Marginally stable: only simple imaginary-axis poles.
-- If $G(s)=\frac{1}{(s-1)(s+2)}$ in negative feedback with gain $k$, what is $H(s)$ and the stability condition? ::@:: $H(s)=\frac{1}{s^2+s+k-2}$, stable when $k>2$.
-- Why must nonzero initial conditions be excluded when defining $H(s)$? ::@:: $H(s)$ is defined from the zero-state input-output law of the system; initial conditions belong to the particular total response, not to the intrinsic system description.
-- Why must $H(s)$ be in reduced form before pole-zero classification? ::@:: Pole and zero classification is defined only after removable common factors are cancelled; otherwise a cancelled factor would be mistaken for a true pole or zero.
+- What is the time-domain BIBO criterion? ::@:: $\int_{-\infty}^{\infty}|h(t)|dt\le M$ for some finite $M$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What is the $s$-domain stability criterion? ::@:: The ROC includes the imaginary axis. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- For causal rational systems, what pole test gives BIBO stability? ::@:: All poles strictly in the LHP. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- How do simple vs. repeated imaginary-axis poles differ? ::@:: Simple: marginally stable. Repeated: unstable. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Why is $\frac{1}{(s+\alpha)^2}$ stable but $\frac{1}{s^2}$ unstable? ::@:: LHP: exponential dominates polynomial, $te^{-\alpha t}$ decays. Imaginary axis: no decay, $tu(t)$ grows. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Stable, unstable, and marginally stable classification? ::@:: Stable: all poles in LHP. Unstable: RHP pole or repeated imaginary-axis pole. Marginally stable: only simple imaginary-axis poles. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- If $G(s)=\frac{1}{(s-1)(s+2)}$ in negative feedback with gain $k$, what is $H(s)$ and the stability condition? ::@:: $H(s)=\frac{1}{s^2+s+k-2}$, stable when $k>2$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Why must nonzero initial conditions be excluded when defining $H(s)$? ::@:: $H(s)$ is defined from the zero-state input-output law of the system; initial conditions belong to the particular total response, not to the intrinsic system description. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Why must $H(s)$ be in reduced form before pole-zero classification? ::@:: Pole and zero classification is defined only after removable common factors are cancelled; otherwise a cancelled factor would be mistaken for a true pole or zero. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->

@@ -51,14 +51,14 @@ Signal shape does not guarantee meaning. The same waveform can represent differe
 
 Flashcards for this section are as follows:
 
-- What is the difference between a message and a signal? ::@:: A message is the content to be conveyed; a signal is the representation that carries it.
-- What are common examples of messages? ::@:: Voice, text, images, and data.
-- What are common representation methods? ::@:: Waveform (graphical), formula (analytical), or table of values (numerical).
-- How can the same message appear as different signals? ::@:: A spoken sentence may be an acoustic pressure wave, then a microphone voltage, then a digital bitstream.
-- Why does the same waveform not always have the same meaning? ::@:: Meaning depends on the encoding rule, so different systems can interpret the same shape differently.
-- Why process a signal? ::@:: To make useful structure easier to detect, measure, transmit, or interpret, not to change the message itself.
-- How does noise reduction motivate signal processing? ::@:: Filtering suppresses unwanted noise so the useful signal becomes easier to hear or analyze.
-- Why is noise still treated as a signal in ELEC 2100? ::@:: Because it is an unwanted random component carried by the same mathematical signal framework.
+- What is the difference between a message and a signal? ::@:: A message is the content to be conveyed; a signal is the representation that carries it. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What are common examples of messages? ::@:: Voice, text, images, and data. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What are common representation methods? ::@:: Waveform (graphical), formula (analytical), or table of values (numerical). <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- How can the same message appear as different signals? ::@:: A spoken sentence may be an acoustic pressure wave, then a microphone voltage, then a digital bitstream. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Why does the same waveform not always have the same meaning? ::@:: Meaning depends on the encoding rule, so different systems can interpret the same shape differently. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Why process a signal? ::@:: To make useful structure easier to detect, measure, transmit, or interpret, not to change the message itself. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- How does noise reduction motivate signal processing? ::@:: Filtering suppresses unwanted noise so the useful signal becomes easier to hear or analyze. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Why is noise still treated as a signal in ELEC 2100? ::@:: Because it is an unwanted random component carried by the same mathematical signal framework. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
 
 ## signal classifications
 
@@ -110,25 +110,25 @@ Worked examples: $x(t)=1$ for $0\le t\le 2$, zero otherwise: $E=2$, $P=0$ (energ
 
 Flashcards for this section are as follows:
 
-- Is there a highest distinct continuous-time fundamental frequency? ::@:: No. Continuous-time frequencies are not identified modulo $2\pi$, so there is no aliasing-based maximum distinct fundamental frequency.
-- When is a continuous-time signal periodic? ::@:: When there exists $T>0$ such that $x(t+T)=x(t)$ for all $t$. The smallest such $T$ is the fundamental period.
-- Given fundamental period $T_0$, what are the fundamental frequencies? ::@:: $\omega_0=2\pi/T_0$ (angular) and $f_0=1/T_0$ (ordinary), both positive.
-- For a continuous-time periodic signal with fundamental period $T_0$, what sign convention is used? ::@:: The fundamental angular frequency and ordinary frequency are taken as positive values.
-- Given $A\cos(\omega t+\phi)$ with $\omega\neq 0$, what is its period? ::@:: $T=2\pi/|\omega|$.
-- When is a sum of sinusoids periodic? ::@:: When the component periods are commensurate, i.e. the angular frequencies have rational ratios.
-- Worked example: What is the fundamental period of $\cos 10t+\cos 30t$? ::@:: Component periods are $\pi/5$ and $\pi/15$. Since $\pi/5=3(\pi/15)$, the fundamental period is $\pi/5$.
-- What is the difference between a period and the fundamental period? ::@:: A period is any positive shift that reproduces the signal; the fundamental period is the smallest such shift.
-- Worked example: What is the fundamental period of $\cos\!\bigl((2\pi/4)t\bigr)+\sin\!\bigl((2\pi/3)t\bigr)$? ::@:: Component periods are $4$ and $3$, so the fundamental period is $12$.
-- Why is $\cos\!\bigl((2\pi/4)t\bigr)+\sin\!\bigl((2/3)t\bigr)$ aperiodic? ::@:: Component periods are $4$ and $3\pi$; $4/(3\pi)$ is irrational, so no finite common period exists.
-- Why is a triangular wave still a periodic signal even though it is not sinusoidal? ::@:: Because its full piecewise-linear shape repeats after a fixed interval, so periodicity is about exact repetition of the waveform, not about being sinusoidal.
-- How can the fundamental oscillation of a commensurate sum be found from periods or frequencies? ::@:: Take the LCM of component periods, or equivalently the GCD of component ordinary frequencies.
-- What is the energy formula? ::@:: $E=\int_{-\infty}^{\infty}|x(t)|^2\,dt$.
-- What is the average-power formula? ::@:: $P=\lim_{T\to\infty}\frac{1}{2T}\int_{-T}^{T}|x(t)|^2\,dt$.
-- What is the difference between energy and power? ::@:: Energy is total squared magnitude over all time; power is the long-term average rate.
-- Why is a finite-duration pulse usually an energy signal? ::@:: Finite total energy, but average power goes to zero over an infinite window.
-- Why is a nonzero periodic signal usually a power signal? ::@:: Infinite total energy (keeps oscillating) but finite average power.
-- Worked example: For $x(t)=1$ on $[0,2]$, zero otherwise, what are $E$ and $P$? ::@:: $E=\int_0^2 1\,dt=2$, $P=\lim_{T\to\infty}2/(2T)=0$. Energy signal.
-- Worked example: For $x(t)=\cos t$, what is $P$? ::@:: Average of $\cos^2 t$ over one period is $1/2$, so $P=1/2$. Power signal.
+- Is there a highest distinct continuous-time fundamental frequency? ::@:: No. Continuous-time frequencies are not identified modulo $2\pi$, so there is no aliasing-based maximum distinct fundamental frequency. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- When is a continuous-time signal periodic? ::@:: When there exists $T>0$ such that $x(t+T)=x(t)$ for all $t$. The smallest such $T$ is the fundamental period. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Given fundamental period $T_0$, what are the fundamental frequencies? ::@:: $\omega_0=2\pi/T_0$ (angular) and $f_0=1/T_0$ (ordinary), both positive. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- For a continuous-time periodic signal with fundamental period $T_0$, what sign convention is used? ::@:: The fundamental angular frequency and ordinary frequency are taken as positive values. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Given $A\cos(\omega t+\phi)$ with $\omega\neq 0$, what is its period? ::@:: $T=2\pi/|\omega|$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- When is a sum of sinusoids periodic? ::@:: When the component periods are commensurate, i.e. the angular frequencies have rational ratios. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Worked example: What is the fundamental period of $\cos 10t+\cos 30t$? ::@:: Component periods are $\pi/5$ and $\pi/15$. Since $\pi/5=3(\pi/15)$, the fundamental period is $\pi/5$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What is the difference between a period and the fundamental period? ::@:: A period is any positive shift that reproduces the signal; the fundamental period is the smallest such shift. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Worked example: What is the fundamental period of $\cos\!\bigl((2\pi/4)t\bigr)+\sin\!\bigl((2\pi/3)t\bigr)$? ::@:: Component periods are $4$ and $3$, so the fundamental period is $12$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Why is $\cos\!\bigl((2\pi/4)t\bigr)+\sin\!\bigl((2/3)t\bigr)$ aperiodic? ::@:: Component periods are $4$ and $3\pi$; $4/(3\pi)$ is irrational, so no finite common period exists. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Why is a triangular wave still a periodic signal even though it is not sinusoidal? ::@:: Because its full piecewise-linear shape repeats after a fixed interval, so periodicity is about exact repetition of the waveform, not about being sinusoidal. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- How can the fundamental oscillation of a commensurate sum be found from periods or frequencies? ::@:: Take the LCM of component periods, or equivalently the GCD of component ordinary frequencies. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What is the energy formula? ::@:: $E=\int_{-\infty}^{\infty}|x(t)|^2\,dt$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What is the average-power formula? ::@:: $P=\lim_{T\to\infty}\frac{1}{2T}\int_{-T}^{T}|x(t)|^2\,dt$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What is the difference between energy and power? ::@:: Energy is total squared magnitude over all time; power is the long-term average rate. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Why is a finite-duration pulse usually an energy signal? ::@:: Finite total energy, but average power goes to zero over an infinite window. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Why is a nonzero periodic signal usually a power signal? ::@:: Infinite total energy (keeps oscillating) but finite average power. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Worked example: For $x(t)=1$ on $[0,2]$, zero otherwise, what are $E$ and $P$? ::@:: $E=\int_0^2 1\,dt=2$, $P=\lim_{T\to\infty}2/(2T)=0$. Energy signal. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Worked example: For $x(t)=\cos t$, what is $P$? ::@:: Average of $\cos^2 t$ over one period is $1/2$, so $P=1/2$. Power signal. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
 
 ## standard continuous-time signal families
 
@@ -150,23 +150,23 @@ Comparison: real exponential changes amplitude without oscillating; sinusoid osc
 
 Flashcards for this section are as follows:
 
-- Which standard signal families are highlighted? ::@:: Exponentials, sinusoids, complex exponentials, sampling signals, and Gaussian pulses.
-- Given $x(t)=Ae^{\alpha t}$, how does $\alpha$ affect behavior? ::@:: $\alpha<0$: decay; $\alpha>0$: growth; $\alpha=0$: constant.
-- In $Ke^{-t/\tau}u(t)$, what does $\tau$ control? ::@:: The decay rate; $x(\tau)=K/e$.
-- What characterizes a sinusoid $A\sin(\omega t+\theta)$? ::@:: Amplitude, angular frequency, and initial phase.
-- Given a sinusoid with angular frequency $\omega>0$, how are its ordinary frequency and period related to $\omega$? ::@:: They satisfy $f=\omega/(2\pi)$ and $T=2\pi/\omega$.
-- What does a damped sinusoid combine? ::@:: It combines oscillation with exponential decay, so its envelope shrinks while it continues to oscillate.
-- What are standard physical examples of damped sinusoidal signals? ::@:: A mass-spring-damper response and an electromagnetic wave attenuating in a conductor are standard examples, because both keep oscillating while their envelopes decay.
-- Given $Ke^{st}$ with $s=\sigma+j\omega$, what kind of object is it? ::@:: A complex exponential with complex frequency $s$.
-- What do $\sigma$ and $\omega$ control in $Ke^{(\sigma+j\omega)t}$? ::@:: $\sigma$: growth/decay rate; $\omega$: oscillation frequency.
-- What are the main qualitative properties of $\operatorname{Sa}(t)$? ::@:: It is even, has zeros at $\pm n\pi$ for integers $n\ge 1$, and decays toward $0$ as $|t|\to\infty$.
-- How is the sampling signal defined? ::@:: $\operatorname{Sa}(t)=\sin t/t$ for $t\neq 0$, with $\operatorname{Sa}(0)=1$.
-- What is the normalized sinc function? ::@:: $\operatorname{sinc}(t)=\sin(\pi t)/(\pi t)$.
-- How are $\operatorname{Sa}(t)$ and $\operatorname{sinc}(t)$ related? ::@:: $\operatorname{Sa}(t)=\operatorname{sinc}(t/\pi)$ and $\operatorname{sinc}(t)=\operatorname{Sa}(\pi t)$.
-- Why can the sampling signal be assigned the finite value $\operatorname{Sa}(0)=1$ at the origin? ::@:: Because $\lim_{t\to0}\sin t/t=1$, so the apparent $0/0$ form is a removable singularity rather than a real divergence.
-- Why is the sampling signal a natural interpolation kernel? ::@:: Its shifted copies can be large at one sampling location while vanishing at neighboring ideal zero locations.
-- What does $E\exp(-(t/\tau)^2)$ look like? ::@:: A smooth localized pulse, peak $E$ at $t=0$, width set by $\tau$.
-- Worked example: For $x(t)=e^{(-2+j3)t}$, what are the envelope and oscillation? ::@:: Envelope decays like $e^{-2t}$; oscillation frequency is $\omega=3$ rad/s.
+- Which standard signal families are highlighted? ::@:: Exponentials, sinusoids, complex exponentials, sampling signals, and Gaussian pulses. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Given $x(t)=Ae^{\alpha t}$, how does $\alpha$ affect behavior? ::@:: $\alpha<0$: decay; $\alpha>0$: growth; $\alpha=0$: constant. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- In $Ke^{-t/\tau}u(t)$, what does $\tau$ control? ::@:: The decay rate; $x(\tau)=K/e$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What characterizes a sinusoid $A\sin(\omega t+\theta)$? ::@:: Amplitude, angular frequency, and initial phase. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Given a sinusoid with angular frequency $\omega>0$, how are its ordinary frequency and period related to $\omega$? ::@:: They satisfy $f=\omega/(2\pi)$ and $T=2\pi/\omega$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What does a damped sinusoid combine? ::@:: It combines oscillation with exponential decay, so its envelope shrinks while it continues to oscillate. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What are standard physical examples of damped sinusoidal signals? ::@:: A mass-spring-damper response and an electromagnetic wave attenuating in a conductor are standard examples, because both keep oscillating while their envelopes decay. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Given $Ke^{st}$ with $s=\sigma+j\omega$, what kind of object is it? ::@:: A complex exponential with complex frequency $s$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What do $\sigma$ and $\omega$ control in $Ke^{(\sigma+j\omega)t}$? ::@:: $\sigma$: growth/decay rate; $\omega$: oscillation frequency. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What are the main qualitative properties of $\operatorname{Sa}(t)$? ::@:: It is even, has zeros at $\pm n\pi$ for integers $n\ge 1$, and decays toward $0$ as $|t|\to\infty$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- How is the sampling signal defined? ::@:: $\operatorname{Sa}(t)=\sin t/t$ for $t\neq 0$, with $\operatorname{Sa}(0)=1$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What is the normalized sinc function? ::@:: $\operatorname{sinc}(t)=\sin(\pi t)/(\pi t)$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- How are $\operatorname{Sa}(t)$ and $\operatorname{sinc}(t)$ related? ::@:: $\operatorname{Sa}(t)=\operatorname{sinc}(t/\pi)$ and $\operatorname{sinc}(t)=\operatorname{Sa}(\pi t)$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Why can the sampling signal be assigned the finite value $\operatorname{Sa}(0)=1$ at the origin? ::@:: Because $\lim_{t\to0}\sin t/t=1$, so the apparent $0/0$ form is a removable singularity rather than a real divergence. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Why is the sampling signal a natural interpolation kernel? ::@:: Its shifted copies can be large at one sampling location while vanishing at neighboring ideal zero locations. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What does $E\exp(-(t/\tau)^2)$ look like? ::@:: A smooth localized pulse, peak $E$ at $t=0$, width set by $\tau$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Worked example: For $x(t)=e^{(-2+j3)t}$, what are the envelope and oscillation? ::@:: Envelope decays like $e^{-2t}$; oscillation frequency is $\omega=3$ rad/s. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
 
 ## time transformations and basic operations
 
@@ -186,16 +186,16 @@ Do not confuse inside and outside operations: $x(t)+2$ is a vertical shift up, w
 
 Flashcards for this section are as follows:
 
-- What is the difference between dependent-variable and independent-variable operations? ::@:: Outside operations act on signal values; inside operations act on the argument (time axis).
-- What do $x(t-t_0)$ and $x(t+t_0)$ do? ::@:: Shift right (delay) and shift left (advance), respectively.
-- What does $x(-t)$ do? ::@:: Reflects the waveform across the vertical axis.
-- How does $x(at)$ work? ::@:: $|a|>1$: compress; $0<|a|<1$: expand; $a<0$: also reverse.
-- If a feature of $x(t)$ is at $t=t_1$, where is it in $x(at+b)$? ::@:: At $t=(t_1-b)/a$.
-- Worked example: How should $x(3t+5)$ be interpreted? ::@:: $3t+5=3(t+5/3)$: compress by $3$, shift left by $5/3$.
-- Worked example: How should $x(-2t+4)$ be interpreted? ::@:: $-2t+4=-2(t-2)$: reverse and compress by $2$, shift right by $2$.
-- Worked example: If $x(t)$ has support $[0,3]$, what is the support of $x(-2t+2)$? ::@:: $0\le -2t+2\le 3$ gives $-1/2\le t\le 1$.
-- What is the difference between $x(t)+2$ and $x(t+2)$? ::@:: $x(t)+2$ shifts up; $x(t+2)$ shifts left.
-- What do differentiation and integration do to a signal conceptually? ::@:: Differentiation emphasizes rapid change, whereas integration accumulates area over time.
+- What is the difference between dependent-variable and independent-variable operations? ::@:: Outside operations act on signal values; inside operations act on the argument (time axis). <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What do $x(t-t_0)$ and $x(t+t_0)$ do? ::@:: Shift right (delay) and shift left (advance), respectively. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What does $x(-t)$ do? ::@:: Reflects the waveform across the vertical axis. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- How does $x(at)$ work? ::@:: $|a|>1$: compress; $0<|a|<1$: expand; $a<0$: also reverse. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- If a feature of $x(t)$ is at $t=t_1$, where is it in $x(at+b)$? ::@:: At $t=(t_1-b)/a$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Worked example: How should $x(3t+5)$ be interpreted? ::@:: $3t+5=3(t+5/3)$: compress by $3$, shift left by $5/3$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Worked example: How should $x(-2t+4)$ be interpreted? ::@:: $-2t+4=-2(t-2)$: reverse and compress by $2$, shift right by $2$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Worked example: If $x(t)$ has support $[0,3]$, what is the support of $x(-2t+2)$? ::@:: $0\le -2t+2\le 3$ gives $-1/2\le t\le 1$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What is the difference between $x(t)+2$ and $x(t+2)$? ::@:: $x(t)+2$ shifts up; $x(t+2)$ shifts left. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What do differentiation and integration do to a signal conceptually? ::@:: Differentiation emphasizes rapid change, whereas integration accumulates area over time. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
 
 ## complex numbers and orthogonal decompositions
 
@@ -219,23 +219,23 @@ Worked examples: $x(t)=1+\sin t$: DC part $1$, AC part $\sin t$, average power $
 
 Flashcards for this section are as follows:
 
-- What is $\operatorname{atan2}(y,x)$ and why prefer it over $\arctan(y/x)$? ::@:: It returns the principal argument of $x+jy$ in $(-\pi,\pi]$ by using the signs of both $x$ and $y$ to pick the correct quadrant, and it still works when $x=0$. $\arctan(y/x)$ only sees a ratio and loses quadrant information.
-- How is $\operatorname{atan2}$ interpreted geometrically in complex-number language? ::@:: It is the directed angle from the positive real axis to the vector ending at $(x,y)$, i.e., the phase of $x+jy$.
-- What is the robust Fourier phase formula? ::@:: $\phi(\omega)=\operatorname{atan2}(\Im\{F(\omega)\},\Re\{F(\omega)\})$.
-- What are the rectangular and polar forms of a complex number? ::@:: $z=x+jy$ (rectangular) or $z=re^{j\theta}$ (polar), with $r=|z|$, $\theta=\arg z$.
-- What is Euler's relation? ::@:: $e^{j\theta}=\cos\theta+j\sin\theta$.
-- What does orthogonality mean in signal language? ::@:: The inner product of two signals is zero, like perpendicular vectors having zero dot product.
-- How can a periodic signal be split into DC and AC? ::@:: $x(t)=x_{\mathrm{DC}}+x_{\mathrm{AC}}(t)$, where $x_{\mathrm{DC}}$ is the period average and $x_{\mathrm{AC}}$ has zero mean. Power splits additively.
-- For a periodic signal, how is the DC component obtained? ::@:: It is the average of the signal over one period.
-- Why does the DC-AC cross term vanish in the power split? ::@:: The AC component has zero average over one period, so the mixed term integrates to zero.
-- What are the even and odd parts? ::@:: $x_e(t)=\frac{x(t)+x(-t)}{2}$, $x_o(t)=\frac{x(t)-x(-t)}{2}$.
-- Why does the even-odd cross term vanish in the power split? ::@:: Over a symmetric interval, the product of an even function and an odd function is odd, so its integral is zero.
-- What are the real and imaginary parts? ::@:: $x_R(t)=\frac{x(t)+x^*(t)}{2}$, $x_I(t)=\frac{x(t)-x^*(t)}{2j}$.
-- Why does the power split additively into real and imaginary parts? ::@:: Because $|x(t)|^2=x_R^2(t)+x_I^2(t)$, so the real and imaginary parts contribute on orthogonal axes.
-- Worked example: For $x(t)=1+\sin t$, what is the average power? ::@:: DC part $1$, AC part $\sin t$, power $1+1/2=3/2$.
-- Worked example: For $x(t)=\cos t+j\sin t$, what is the total power? ::@:: Real-part power $1/2$, imaginary-part power $1/2$, total $1$.
-- Worked example: For $x(t)=2e^{j2\pi t}$, what are the magnitude and phase? ::@:: Magnitude $2$, phase $2\pi t$ mod $2\pi$.
-- Worked example: If $x(t)=2e^{j2\pi t}$, what changes and what stays the same in the conjugate signal $x^*(t)$? ::@:: Conjugation gives $x^*(t)=2e^{-j2\pi t}$. The magnitude stays $2$. The phase changes sign from $2\pi t$ to $-2\pi t$ modulo $2\pi$. The real part stays $2\cos(2\pi t)$, while the imaginary part flips from $2\sin(2\pi t)$ to $-2\sin(2\pi t)$.
+- What is $\operatorname{atan2}(y,x)$ and why prefer it over $\arctan(y/x)$? ::@:: It returns the principal argument of $x+jy$ in $(-\pi,\pi]$ by using the signs of both $x$ and $y$ to pick the correct quadrant, and it still works when $x=0$. $\arctan(y/x)$ only sees a ratio and loses quadrant information. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- How is $\operatorname{atan2}$ interpreted geometrically in complex-number language? ::@:: It is the directed angle from the positive real axis to the vector ending at $(x,y)$, i.e., the phase of $x+jy$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What is the robust Fourier phase formula? ::@:: $\phi(\omega)=\operatorname{atan2}(\Im\{F(\omega)\},\Re\{F(\omega)\})$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What are the rectangular and polar forms of a complex number? ::@:: $z=x+jy$ (rectangular) or $z=re^{j\theta}$ (polar), with $r=|z|$, $\theta=\arg z$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What is Euler's relation? ::@:: $e^{j\theta}=\cos\theta+j\sin\theta$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What does orthogonality mean in signal language? ::@:: The inner product of two signals is zero, like perpendicular vectors having zero dot product. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- How can a periodic signal be split into DC and AC? ::@:: $x(t)=x_{\mathrm{DC}}+x_{\mathrm{AC}}(t)$, where $x_{\mathrm{DC}}$ is the period average and $x_{\mathrm{AC}}$ has zero mean. Power splits additively. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- For a periodic signal, how is the DC component obtained? ::@:: It is the average of the signal over one period. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Why does the DC-AC cross term vanish in the power split? ::@:: The AC component has zero average over one period, so the mixed term integrates to zero. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What are the even and odd parts? ::@:: $x_e(t)=\frac{x(t)+x(-t)}{2}$, $x_o(t)=\frac{x(t)-x(-t)}{2}$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Why does the even-odd cross term vanish in the power split? ::@:: Over a symmetric interval, the product of an even function and an odd function is odd, so its integral is zero. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What are the real and imaginary parts? ::@:: $x_R(t)=\frac{x(t)+x^*(t)}{2}$, $x_I(t)=\frac{x(t)-x^*(t)}{2j}$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Why does the power split additively into real and imaginary parts? ::@:: Because $|x(t)|^2=x_R^2(t)+x_I^2(t)$, so the real and imaginary parts contribute on orthogonal axes. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Worked example: For $x(t)=1+\sin t$, what is the average power? ::@:: DC part $1$, AC part $\sin t$, power $1+1/2=3/2$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Worked example: For $x(t)=\cos t+j\sin t$, what is the total power? ::@:: Real-part power $1/2$, imaginary-part power $1/2$, total $1$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Worked example: For $x(t)=2e^{j2\pi t}$, what are the magnitude and phase? ::@:: Magnitude $2$, phase $2\pi t$ mod $2\pi$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Worked example: If $x(t)=2e^{j2\pi t}$, what changes and what stays the same in the conjugate signal $x^*(t)$? ::@:: Conjugation gives $x^*(t)=2e^{-j2\pi t}$. The magnitude stays $2$. The phase changes sign from $2\pi t$ to $-2\pi t$ modulo $2\pi$. The real part stays $2\cos(2\pi t)$, while the imaginary part flips from $2\sin(2\pi t)$ to $-2\sin(2\pi t)$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
 
 ## discrete-time sequences and periodicity
 
@@ -251,9 +251,9 @@ The detailed treatment of discrete-time representations, standard families, and 
 
 Flashcards for this section are as follows:
 
-- What takes continuous time to discrete time? ::@:: Sampling. Interpolation or reconstruction reverses the process.
-- Why is discrete-time periodicity stricter? ::@:: The period must be a positive integer shift in the sample index.
-- What is the fundamental period of a sequence? ::@:: The smallest positive integer sample-index shift that reproduces the sequence.
-- Why is discrete-time frequency periodic mod $2\pi$? ::@:: Because $e^{j(\omega+2\pi k)n}=e^{j\omega n}$ for every integer $k$.
-- What is the largest distinct real discrete-time frequency? ::@:: $\pi$ rad/sample (or $1/2$ cycle/sample).
-- How should one read one cycle from a stem plot? ::@:: Start at the smallest valid index and count $N_0$ consecutive samples.
+- What takes continuous time to discrete time? ::@:: Sampling. Interpolation or reconstruction reverses the process. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Why is discrete-time periodicity stricter? ::@:: The period must be a positive integer shift in the sample index. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What is the fundamental period of a sequence? ::@:: The smallest positive integer sample-index shift that reproduces the sequence. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Why is discrete-time frequency periodic mod $2\pi$? ::@:: Because $e^{j(\omega+2\pi k)n}=e^{j\omega n}$ for every integer $k$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What is the largest distinct real discrete-time frequency? ::@:: $\pi$ rad/sample (or $1/2$ cycle/sample). <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- How should one read one cycle from a stem plot? ::@:: Start at the smallest valid index and count $N_0$ consecutive samples. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->

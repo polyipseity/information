@@ -29,11 +29,11 @@ The same idea extends to two dimensions (e.g., images). A 2D convolution kernel 
 
 Flashcards for this section are as follows:
 
-- What role does convolution play in computing the zero-state response of an LTI system? ::@:: It is the time-domain formula for zero-state response of LTI systems.
-- How is convolution derived from decomposing a signal into shifted impulses? ::@:: By decomposing the input into shifted impulses, transferring each through the system, and summing the shifted impulse responses.
-- What does a 2D convolution kernel do when it slides across an image patch? ::@:: It weights nearby values and forms each output as a weighted local sum.
-- What are the mechanical steps of 2D convolution? ::@:: Flip the kernel, shift it to the output location, multiply pointwise over the overlap, and sum.
-- How does 2D convolution generalize the 1D slide-weight-sum procedure from time signals to images? ::@:: It is the same convolution logic generalized from one time axis to two spatial coordinates: slide the kernel, weight nearby values, and sum the local contributions.
+- What role does convolution play in computing the zero-state response of an LTI system? ::@:: It is the time-domain formula for zero-state response of LTI systems. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- How is convolution derived from decomposing a signal into shifted impulses? ::@:: By decomposing the input into shifted impulses, transferring each through the system, and summing the shifted impulse responses. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What does a 2D convolution kernel do when it slides across an image patch? ::@:: It weights nearby values and forms each output as a weighted local sum. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What are the mechanical steps of 2D convolution? ::@:: Flip the kernel, shift it to the output location, multiply pointwise over the overlap, and sum. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- How does 2D convolution generalize the 1D slide-weight-sum procedure from time signals to images? ::@:: It is the same convolution logic generalized from one time axis to two spatial coordinates: slide the kernel, weight nearby values, and sum the local contributions. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
 
 ## impulse-decomposition viewpoint
 
@@ -45,10 +45,10 @@ This viewpoint explains why convolution is natural for LTI systems. Once a signa
 
 Flashcards for this section are as follows:
 
-- What identity writes a signal as an integral of weighted shifted impulses? ::@:: $e(t)=\int_{-\infty}^{\infty} e(\tau)\,\delta(t-\tau)\,d\tau$.
-- What does $e(\tau)$ represent as the weight of the source-time impulse in the decomposition integral? ::@:: It is the weight assigned to the impulse located at source time $\tau$.
-- What does $\delta(t-\tau)$ represent in the impulse decomposition integral? ::@:: It represents a unit impulse placed at source time $\tau$ and observed at time $t$.
-- Why does decomposing an input into shifted impulses make LTI zero-state analysis straightforward? ::@:: Time invariance tells us how each shifted impulse is transferred, and linearity lets us sum all the partial outputs.
+- What identity writes a signal as an integral of weighted shifted impulses? ::@:: $e(t)=\int_{-\infty}^{\infty} e(\tau)\,\delta(t-\tau)\,d\tau$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What does $e(\tau)$ represent as the weight of the source-time impulse in the decomposition integral? ::@:: It is the weight assigned to the impulse located at source time $\tau$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What does $\delta(t-\tau)$ represent in the impulse decomposition integral? ::@:: It represents a unit impulse placed at source time $\tau$ and observed at time $t$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Why does decomposing an input into shifted impulses make LTI zero-state analysis straightforward? ::@:: Time invariance tells us how each shifted impulse is transferred, and linearity lets us sum all the partial outputs. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
 
 ## zero-state response via convolution
 
@@ -66,12 +66,12 @@ This is why the note treats convolution as the formula for zero-state response r
 
 Flashcards for this section are as follows:
 
-- How does time invariance turn a unit impulse at time $\tau$ into an output signal? ::@:: It turns the impulse at time $\tau$ into the shifted impulse response $h(t-\tau)$.
-- If the impulse at time $\tau$ has weight $e(\tau)\,d\tau$, what output contribution does linearity predict? ::@:: The contribution is $e(\tau)h(t-\tau)\,d\tau$.
-- What is the continuous-time convolution integral for zero-state response? ::@:: $r_{\mathrm{zs}}(t)=\int_{-\infty}^{\infty} e(\tau)h(t-\tau)\,d\tau=(e*h)(t)$.
-- How is the convolution integral derived from the operator viewpoint? ::@:: Write $e(t)=\int e(\tau)\delta(t-\tau)\,d\tau$, apply $H$, and use linearity plus time invariance to get $H[e](t)=\int e(\tau)h(t-\tau)\,d\tau$.
-- Why is convolution the natural tool for zero-state response of an LTI system? ::@:: Because it is the formal sum of all shifted-impulse responses produced by decomposing the input into weighted impulses.
-- What do the two factors in the integrand $e(\tau)h(t-\tau)$ mean? ::@:: $e(\tau)$ gives the input weight from source time $\tau$, while $h(t-\tau)$ gives how the system carries that impulse to observation time $t$.
+- How does time invariance turn a unit impulse at time $\tau$ into an output signal? ::@:: It turns the impulse at time $\tau$ into the shifted impulse response $h(t-\tau)$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- If the impulse at time $\tau$ has weight $e(\tau)\,d\tau$, what output contribution does linearity predict? ::@:: The contribution is $e(\tau)h(t-\tau)\,d\tau$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What is the continuous-time convolution integral for zero-state response? ::@:: $r_{\mathrm{zs}}(t)=\int_{-\infty}^{\infty} e(\tau)h(t-\tau)\,d\tau=(e*h)(t)$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- How is the convolution integral derived from the operator viewpoint? ::@:: Write $e(t)=\int e(\tau)\delta(t-\tau)\,d\tau$, apply $H$, and use linearity plus time invariance to get $H[e](t)=\int e(\tau)h(t-\tau)\,d\tau$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Why is convolution the natural tool for zero-state response of an LTI system? ::@:: Because it is the formal sum of all shifted-impulse responses produced by decomposing the input into weighted impulses. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What do the two factors in the integrand $e(\tau)h(t-\tau)$ mean? ::@:: $e(\tau)$ gives the input weight from source time $\tau$, while $h(t-\tau)$ gives how the system carries that impulse to observation time $t$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
 
 ## physical interpretation of convolution
 
@@ -89,12 +89,12 @@ The same analogy separates three meanings that often get blurred in the algebra.
 
 Flashcards for this section are as follows:
 
-- In the convolution integral, what does $\tau$ represent? ::@:: The source time at which a piece of input occurs.
-- In the convolution integral, what does $t$ represent? ::@:: The observation time at which the output is evaluated.
-- In the convolution integral, what does $h(t-\tau)$ represent physically? ::@:: The response visible at observation time $t$ due to a unit impulse applied at source time $\tau$.
-- Why does convolution mix source time $\tau$ and observation time $t$? ::@:: Because it tracks how each earlier input event contributes later when the output is observed at time $t$.
-- Why is convolution more than just multiplication inside an integral? ::@:: Because it represents accumulation of delayed system memories, not merely local pointwise interaction.
-- What is the overlapping impulse-response copies intuition for convolution? ::@:: Each input slice launches a shifted copy of the impulse response, and the output at time $t$ is the total overlap of all those weighted copies at that instant.
+- In the convolution integral, what does $\tau$ represent? ::@:: The source time at which a piece of input occurs. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- In the convolution integral, what does $t$ represent? ::@:: The observation time at which the output is evaluated. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- In the convolution integral, what does $h(t-\tau)$ represent physically? ::@:: The response visible at observation time $t$ due to a unit impulse applied at source time $\tau$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Why does convolution mix source time $\tau$ and observation time $t$? ::@:: Because it tracks how each earlier input event contributes later when the output is observed at time $t$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Why is convolution more than just multiplication inside an integral? ::@:: Because it represents accumulation of delayed system memories, not merely local pointwise interaction. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What is the overlapping impulse-response copies intuition for convolution? ::@:: Each input slice launches a shifted copy of the impulse response, and the output at time $t$ is the total overlap of all those weighted copies at that instant. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
 
 ## algebraic properties and system interconnections
 
@@ -116,14 +116,14 @@ These properties turn block-diagram structure into signal algebra: parallel mean
 
 Flashcards for this section are as follows:
 
-- What is the commutative property of convolution? ::@:: $f_1*f_2=f_2*f_1$.
-- Which change of variables proves commutativity? ::@:: Use $\lambda=t-\tau$ in $(f_1*f_2)(t)=\int f_1(\tau)f_2(t-\tau)\,d\tau$ to get $(f_2*f_1)(t)$.
-- What is the distributive property? ::@:: $f*(h_1+h_2)=f*h_1+f*h_2$.
-- How does distributivity model parallel LTI systems? ::@:: Feeding the same input into both subsystems and adding outputs gives overall impulse response $h=h_1+h_2$.
-- What is the associative property? ::@:: $(f*h_1)*h_2=f*(h_1*h_2)$.
-- How does associativity model cascade connection? ::@:: The input passes through subsystems with impulse responses $h_1$ and $h_2$, giving overall $h=h_1*h_2$.
-- How does convolution commutativity let you swap the roles of input and impulse response in response analysis? ::@:: It means one may view the input as being spread by the impulse response or the impulse response as being weighted by the input, and the same output results.
-- Which block-diagram operation corresponds to adding impulse responses, and which to convolving them? ::@:: Parallel connection adds impulse responses; cascade connection convolves them.
+- What is the commutative property of convolution? ::@:: $f_1*f_2=f_2*f_1$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Which change of variables proves commutativity? ::@:: Use $\lambda=t-\tau$ in $(f_1*f_2)(t)=\int f_1(\tau)f_2(t-\tau)\,d\tau$ to get $(f_2*f_1)(t)$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What is the distributive property? ::@:: $f*(h_1+h_2)=f*h_1+f*h_2$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- How does distributivity model parallel LTI systems? ::@:: Feeding the same input into both subsystems and adding outputs gives overall impulse response $h=h_1+h_2$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What is the associative property? ::@:: $(f*h_1)*h_2=f*(h_1*h_2)$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- How does associativity model cascade connection? ::@:: The input passes through subsystems with impulse responses $h_1$ and $h_2$, giving overall $h=h_1*h_2$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- How does convolution commutativity let you swap the roles of input and impulse response in response analysis? ::@:: It means one may view the input as being spread by the impulse response or the impulse response as being weighted by the input, and the same output results. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Which block-diagram operation corresponds to adding impulse responses, and which to convolving them? ::@:: Parallel connection adds impulse responses; cascade connection convolves them. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
 
 ## time shift and special kernels
 
@@ -149,19 +149,19 @@ The three special kernels: $\delta$ gives identity, $\delta'$ gives differentiat
 
 Flashcards for this section are as follows:
 
-- Why is treating a delay as a shifted impulse useful in convolution? ::@:: It lets delay be handled as an ordinary convolution factor, so the same swap and regroup logic applies.
-- Why does $\delta(t)$ model an ideal conductor and $\delta(t-t_0)$ model an ideal delay line? ::@:: Convolving with $\delta(t)$ leaves the signal unchanged, which is exactly what a through-connection does; convolving with $\delta(t-t_0)$ reproduce the same waveform later in time without changing its shape, which is exactly what a pure delay does.
-- What delay identity does convolution satisfy? ::@:: If $g(t)=f_1(t)*f_2(t)$, then delaying either factor by $t_0$ delays the output: $f_1(t-t_0)*f_2(t)=g(t-t_0)$ and $f_1(t)*f_2(t-t_0)=g(t-t_0)$.
-- Why does delaying one convolution factor simply delay the output of an LTI system? ::@:: Because delaying the excitation before the system should simply delay the response, and convolution preserves exactly that behaviour.
-- How does the overlap picture explain why a delayed factor shifts the convolution output? ::@:: A pure delay slides one factor horizontally without changing its shape, so the overlap picture at time $t$ is the old overlap picture at time $t-t_0$; the output graph shifts rigidly by the same amount.
-- How does writing a delay as convolution with $\delta(t-t_0)$ prove the time-shift property? ::@:: Since $f(t-t_0)=f*\delta(t-t_0)$, associativity gives $(f_1*\delta(t-t_0))*f_2=(f_1*f_2)*\delta(t-t_0)=g(t-t_0)$.
-- What does convolution with $\delta(t)$ do? ::@:: It leaves the signal unchanged: $f(t)*\delta(t)=f(t)$.
-- What does convolution with $\delta(t-t_0)$ do? ::@:: It delays the signal by $t_0$: $f(t-t_0)$.
-- How does the integral produce $f(t-t_0)$ when the kernel is $\delta(t-t_0)$? ::@:: The impulse samples the input at $\tau=t-t_0$, so $(f*\delta(t-t_0))(t)=\int f(\tau)\delta(t-\tau-t_0)\,d\tau=f(t-t_0)$.
-- Why does $\delta(t-t_1)*\delta(t-t_2)=\delta(t-(t_1+t_2))$ mean pure delays add? ::@:: Because delaying by $t_1$ then $t_2$ gives total delay $t_1+t_2$.
-- What is the result of convolving with $\delta'(t)$? ::@:: It differentiates: $f(t)*\delta'(t)=f'(t)$.
-- How does the accumulation identity $f(t)*u(t)=\int_{-\infty}^{t}f(\lambda)\,d\lambda$ derive from the support of $u(t-\tau)$? ::@:: Since $u(t-\tau)=1$ only when $\tau\le t$, the convolution integral reduces from $\int_{-\infty}^{\infty}f(\tau)u(t-\tau)\,d\tau$ to $\int_{-\infty}^{t}f(\tau)\,d\tau$.
-- Why does $f*\delta^{(k)}=f^{(k)}$ mean $\delta^{(k)}$ acts like a differentiation kernel? ::@:: Because convolving with $\delta^{(k)}$ applies a $k$th derivative to the signal, so inserting $\delta^{(k)}$ into a convolution is the same as differentiating $k$ times.
+- Why is treating a delay as a shifted impulse useful in convolution? ::@:: It lets delay be handled as an ordinary convolution factor, so the same swap and regroup logic applies. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Why does $\delta(t)$ model an ideal conductor and $\delta(t-t_0)$ model an ideal delay line? ::@:: Convolving with $\delta(t)$ leaves the signal unchanged, which is exactly what a through-connection does; convolving with $\delta(t-t_0)$ reproduce the same waveform later in time without changing its shape, which is exactly what a pure delay does. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What delay identity does convolution satisfy? ::@:: If $g(t)=f_1(t)*f_2(t)$, then delaying either factor by $t_0$ delays the output: $f_1(t-t_0)*f_2(t)=g(t-t_0)$ and $f_1(t)*f_2(t-t_0)=g(t-t_0)$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Why does delaying one convolution factor simply delay the output of an LTI system? ::@:: Because delaying the excitation before the system should simply delay the response, and convolution preserves exactly that behaviour. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- How does the overlap picture explain why a delayed factor shifts the convolution output? ::@:: A pure delay slides one factor horizontally without changing its shape, so the overlap picture at time $t$ is the old overlap picture at time $t-t_0$; the output graph shifts rigidly by the same amount. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- How does writing a delay as convolution with $\delta(t-t_0)$ prove the time-shift property? ::@:: Since $f(t-t_0)=f*\delta(t-t_0)$, associativity gives $(f_1*\delta(t-t_0))*f_2=(f_1*f_2)*\delta(t-t_0)=g(t-t_0)$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What does convolution with $\delta(t)$ do? ::@:: It leaves the signal unchanged: $f(t)*\delta(t)=f(t)$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What does convolution with $\delta(t-t_0)$ do? ::@:: It delays the signal by $t_0$: $f(t-t_0)$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- How does the integral produce $f(t-t_0)$ when the kernel is $\delta(t-t_0)$? ::@:: The impulse samples the input at $\tau=t-t_0$, so $(f*\delta(t-t_0))(t)=\int f(\tau)\delta(t-\tau-t_0)\,d\tau=f(t-t_0)$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Why does $\delta(t-t_1)*\delta(t-t_2)=\delta(t-(t_1+t_2))$ mean pure delays add? ::@:: Because delaying by $t_1$ then $t_2$ gives total delay $t_1+t_2$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What is the result of convolving with $\delta'(t)$? ::@:: It differentiates: $f(t)*\delta'(t)=f'(t)$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- How does the accumulation identity $f(t)*u(t)=\int_{-\infty}^{t}f(\lambda)\,d\lambda$ derive from the support of $u(t-\tau)$? ::@:: Since $u(t-\tau)=1$ only when $\tau\le t$, the convolution integral reduces from $\int_{-\infty}^{\infty}f(\tau)u(t-\tau)\,d\tau$ to $\int_{-\infty}^{t}f(\tau)\,d\tau$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Why does $f*\delta^{(k)}=f^{(k)}$ mean $\delta^{(k)}$ acts like a differentiation kernel? ::@:: Because convolving with $\delta^{(k)}$ applies a $k$th derivative to the signal, so inserting $\delta^{(k)}$ into a convolution is the same as differentiating $k$ times. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
 
 ## differentiation and integration properties
 
@@ -179,15 +179,15 @@ The main intuition: convolution is built from shifting, weighting, and adding, w
 
 Flashcards for this section are as follows:
 
-- What derivative-transfer rule does convolution satisfy? ::@:: $g'(t)=f'(t)*h(t)=f(t)*h'(t)$.
-- Which basic kernel types keep reappearing in the note? ::@:: The unit impulse (identity), the shifted impulse (delay), the impulse derivative (differentiation), and the unit step (integration).
-- How do you derive $g'=f*h'$? ::@:: Differentiate under the integral: $g'(t)=\frac{d}{dt}\int f(\tau)h(t-\tau)\,d\tau=\int f(\tau)h'(t-\tau)\,d\tau=(f*h')(t)$.
-- What is the $k$th-order derivative-transfer rule? ::@:: $g^{(k)}(t)=f^{(k)}(t)*h(t)=f(t)*h^{(k)}(t)$.
-- Why does $f*\delta^{(k)}=f^{(k)}$? ::@:: Because $\delta^{(k)}$ acts as a differentiation kernel inside convolution.
-- How can integration be viewed as convolving with an antiderivative? ::@:: Integrating the output equals convolving one factor with the integrated form of the other: $\int_{-\infty}^{t} g(\lambda)\,d\lambda = F*h = f*H$.
-- Why do differentiation and integration commute with convolution? ::@:: Because convolution is built from shifting, weighting, and addition, and differentiation and integration commute with those constructions.
-- Why is it useful to move the derivative onto whichever factor is simpler? ::@:: Because it avoids differentiating the full convolution integral; you can differentiate the simpler factor instead.
-- How can $f*h$ be rewritten using antiderivatives? ::@:: When zero-state antiderivatives exist, $f*h=f^{(-1)}*h'=f'*h^{(-1)}$, letting you move derivatives between factors.
+- What derivative-transfer rule does convolution satisfy? ::@:: $g'(t)=f'(t)*h(t)=f(t)*h'(t)$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Which basic kernel types keep reappearing in the note? ::@:: The unit impulse (identity), the shifted impulse (delay), the impulse derivative (differentiation), and the unit step (integration). <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- How do you derive $g'=f*h'$? ::@:: Differentiate under the integral: $g'(t)=\frac{d}{dt}\int f(\tau)h(t-\tau)\,d\tau=\int f(\tau)h'(t-\tau)\,d\tau=(f*h')(t)$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What is the $k$th-order derivative-transfer rule? ::@:: $g^{(k)}(t)=f^{(k)}(t)*h(t)=f(t)*h^{(k)}(t)$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Why does $f*\delta^{(k)}=f^{(k)}$? ::@:: Because $\delta^{(k)}$ acts as a differentiation kernel inside convolution. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- How can integration be viewed as convolving with an antiderivative? ::@:: Integrating the output equals convolving one factor with the integrated form of the other: $\int_{-\infty}^{t} g(\lambda)\,d\lambda = F*h = f*H$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Why do differentiation and integration commute with convolution? ::@:: Because convolution is built from shifting, weighting, and addition, and differentiation and integration commute with those constructions. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Why is it useful to move the derivative onto whichever factor is simpler? ::@:: Because it avoids differentiating the full convolution integral; you can differentiate the simpler factor instead. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- How can $f*h$ be rewritten using antiderivatives? ::@:: When zero-state antiderivatives exist, $f*h=f^{(-1)}*h'=f'*h^{(-1)}$, letting you move derivatives between factors. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
 
 ## impulse-pair shortcut for a gate kernel
 
@@ -274,13 +274,13 @@ The conceptual importance is the same as before: once the response to one shifte
 
 Flashcards for this section are as follows:
 
-- How is an arbitrary discrete-time sequence decomposed into shifted unit samples? ::@:: It is written as $x[n]=\sum_{m=-\infty}^{\infty}x[m]\delta[n-m]$.
-- If the impulse response is $h[n]$, what response is produced by the shifted unit sample $\delta[n-m]$? ::@:: By time invariance it produces the shifted impulse response $h[n-m]$.
-- How can discrete-time convolution be viewed as continuous-time convolution of impulse trains? ::@:: Embed the sequences as $x_\delta(t)=\sum_n x[n]\delta(t-n)$ and $h_\delta(t)=\sum_n h[n]\delta(t-n)$; then the coefficient of $\delta(t-k)$ in $x_\delta*h_\delta$ is $(x*h)[k]$.
-- What is the discrete convolution sum for zero-state response? ::@:: $y[n]=\sum_{m=-\infty}^{\infty}x[m]h[n-m]=(x*h)[n]$.
-- What do the indices $m$ and $n$ mean in the sum? ::@:: $m$ is the source index from which input contributions originate, while $n$ is the observation index at which the output is evaluated.
-- What are the main differences between $\delta[n]$ and $\delta(t)$? ::@:: $\delta[n]$ is an ordinary sequence ($1$ at $n=0$, $0$ elsewhere), while $\delta(t)$ is a generalized function defined by unit area; the former is a stem, the latter a symbolic arrow.
-- Why is the discrete convolution sum the natural zero-state formula? ::@:: Because each shifted unit sample produces a shifted copy of $h[n]$, and linearity says the total output is the sum of all those weighted copies.
+- How is an arbitrary discrete-time sequence decomposed into shifted unit samples? ::@:: It is written as $x[n]=\sum_{m=-\infty}^{\infty}x[m]\delta[n-m]$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- If the impulse response is $h[n]$, what response is produced by the shifted unit sample $\delta[n-m]$? ::@:: By time invariance it produces the shifted impulse response $h[n-m]$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- How can discrete-time convolution be viewed as continuous-time convolution of impulse trains? ::@:: Embed the sequences as $x_\delta(t)=\sum_n x[n]\delta(t-n)$ and $h_\delta(t)=\sum_n h[n]\delta(t-n)$; then the coefficient of $\delta(t-k)$ in $x_\delta*h_\delta$ is $(x*h)[k]$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What is the discrete convolution sum for zero-state response? ::@:: $y[n]=\sum_{m=-\infty}^{\infty}x[m]h[n-m]=(x*h)[n]$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What do the indices $m$ and $n$ mean in the sum? ::@:: $m$ is the source index from which input contributions originate, while $n$ is the observation index at which the output is evaluated. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What are the main differences between $\delta[n]$ and $\delta(t)$? ::@:: $\delta[n]$ is an ordinary sequence ($1$ at $n=0$, $0$ elsewhere), while $\delta(t)$ is a generalized function defined by unit area; the former is a stem, the latter a symbolic arrow. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Why is the discrete convolution sum the natural zero-state formula? ::@:: Because each shifted unit sample produces a shifted copy of $h[n]$, and linearity says the total output is the sum of all those weighted copies. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
 
 ## discrete-time properties and support range
 

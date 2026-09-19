@@ -35,11 +35,11 @@ For the continuous digital-frequency viewpoint of a general sequence, see [discr
 
 Flashcards for this section are as follows:
 
-- What does the DFT do? ::@:: It converts $N$ samples into $N$ frequency-bin coefficients at $\Omega_k=2\pi k/N$.
-- Why is the DFT not just the DTFT at fewer points? ::@:: Because the DFT treats a finite record as one period of a periodic extension, so circular shift and circular convolution are built into the model.
-- Where does this note sit among the Fourier notes? ::@:: DFT: finite-grid computational transform for discrete data. DTFT: continuous digital-frequency variable for general sequences. Fourier series/transform: continuous-time periodic/aperiodic counterparts.
-- What core problem does the DFT note solve in ELEC 2100? ::@:: It converts a finite record of samples into a finite set of frequency-bin coefficients so discrete data can be analyzed, computed, and reconstructed on an $N$-point grid.
-- How should you compare the DTFT note and the DFT note quickly? ::@:: The DTFT note covers discrete-time spectral analysis for general and periodic sequences using the continuous digital-frequency variable $\Omega=\omega T$, while the DFT note covers the finite-data computational transform obtained by sampling that digital frequency on an $N$-point grid.
+- What does the DFT do? ::@:: It converts $N$ samples into $N$ frequency-bin coefficients at $\Omega_k=2\pi k/N$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Why is the DFT not just the DTFT at fewer points? ::@:: Because the DFT treats a finite record as one period of a periodic extension, so circular shift and circular convolution are built into the model. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Where does this note sit among the Fourier notes? ::@:: DFT: finite-grid computational transform for discrete data. DTFT: continuous digital-frequency variable for general sequences. Fourier series/transform: continuous-time periodic/aperiodic counterparts. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What core problem does the DFT note solve in ELEC 2100? ::@:: It converts a finite record of samples into a finite set of frequency-bin coefficients so discrete data can be analyzed, computed, and reconstructed on an $N$-point grid. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- How should you compare the DTFT note and the DFT note quickly? ::@:: The DTFT note covers discrete-time spectral analysis for general and periodic sequences using the continuous digital-frequency variable $\Omega=\omega T$, while the DFT note covers the finite-data computational transform obtained by sampling that digital frequency on an $N$-point grid. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
 
 ## definition and inverse transform
 
@@ -97,10 +97,10 @@ DTFS and DFT both use finite $k=0,1,\dots,N-1$ and work modulo $N$ without Dirac
 
 Flashcards for this section are as follows:
 
-- How is the DFT obtained from the DTFT? ::@:: Restrict the sequence to length $N$ and sample the DTFT at $\Omega_k=2\pi k/N$.
-- What frequencies are sampled in an $N$-point DFT? ::@:: $\Omega_k=2\pi k/N$ for $k=0,1,\dots,N-1$.
-- Why does the DFT inherit circular behavior? ::@:: Because the finite data block is interpreted as one period of a periodic extension, so shifts and convolutions wrap modulo $N$.
-- How are DFT and DTFS coefficients related? ::@:: $X[k]=N\tilde X[k]$ with the normalization used here.
+- How is the DFT obtained from the DTFT? ::@:: Restrict the sequence to length $N$ and sample the DTFT at $\Omega_k=2\pi k/N$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What frequencies are sampled in an $N$-point DFT? ::@:: $\Omega_k=2\pi k/N$ for $k=0,1,\dots,N-1$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Why does the DFT inherit circular behavior? ::@:: Because the finite data block is interpreted as one period of a periodic extension, so shifts and convolutions wrap modulo $N$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- How are DFT and DTFS coefficients related? ::@:: $X[k]=N\tilde X[k]$ with the normalization used here. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
 
 ## relation between DTFS and DFT
 
@@ -116,10 +116,10 @@ DTFS/DFS: average-first ($1/N$ in analysis, synthesize directly). DFT: sum-first
 
 Flashcards for this section are as follows:
 
-- What is the course-material distinction between DTFS/DFS and DFT? ::@:: DTFS/DFS: explicitly periodic sequences. DFT: finite records with implicit periodic extension.
-- How are DTFS/DFS and DFT related algebraically? ::@:: $X[k]=N\tilde X[k]$. Same basis functions, same modulo-$N$ indexing.
-- What is the memory rule for $1/N$ placement? ::@:: DTFS: average-first ($1/N$ in analysis). DFT: sum-first ($1/N$ in the inverse).
-- Why is DTFS/DFS mainly grouped with the DFT note rather than the DTFT note? ::@:: Because DTFS/DFS and DFT both use one finite harmonic coefficient cycle for period-$N$ data, whereas the general DTFT uses the continuous digital-frequency variable $\Omega=\omega T$ and represents periodic sequences by a line spectrum.
+- What is the course-material distinction between DTFS/DFS and DFT? ::@:: DTFS/DFS: explicitly periodic sequences. DFT: finite records with implicit periodic extension. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- How are DTFS/DFS and DFT related algebraically? ::@:: $X[k]=N\tilde X[k]$. Same basis functions, same modulo-$N$ indexing. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What is the memory rule for $1/N$ placement? ::@:: DTFS: average-first ($1/N$ in analysis). DFT: sum-first ($1/N$ in the inverse). <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Why is DTFS/DFS mainly grouped with the DFT note rather than the DTFT note? ::@:: Because DTFS/DFS and DFT both use one finite harmonic coefficient cycle for period-$N$ data, whereas the general DTFT uses the continuous digital-frequency variable $\Omega=\omega T$ and represents periodic sequences by a line spectrum. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
 
 ## periodic sequences and discrete-time Fourier series
 

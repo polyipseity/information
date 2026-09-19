@@ -87,13 +87,13 @@ For example, $x[-1]=-1.5$, $x[1]=1$, $x[3]=3$ (zeros elsewhere) becomes $x[n]=-1
 
 Flashcards for this section are as follows:
 
-- What is the unit sample sequence? ::@:: $\delta[n]=1$ at $n=0$ and $0$ elsewhere; an ordinary sequence, not a generalized function.
-- Why is the discrete-time impulse different from the continuous-time impulse? ::@:: The discrete-time impulse is an ordinary sequence (value $1$ at one index), whereas the continuous-time impulse is a generalized function defined by unit area under integration.
-- What does $\delta[n-j]$ represent? ::@:: A shifted unit sample at index $n=j$.
-- What does $c\,\delta[n-j]$ represent? ::@:: A shifted unit sample at index $n=j$ with value $c$ instead of $1$.
-- What is the sampling property? ::@:: $f[n]\delta[n]=f[0]\delta[n]$: only the value at the origin survives.
-- How can any sequence be written using unit samples? ::@:: $x[n]=\sum_{m=-\infty}^{\infty}x[m]\delta[n-m]$.
-- Worked example: How is $x[-1]=-1.5$, $x[1]=1$, $x[3]=3$ written with unit samples? ::@:: $x[n]=-1.5\delta[n+1]+\delta[n-1]+3\delta[n-3]$, one term per nonzero sample.
+- What is the unit sample sequence? ::@:: $\delta[n]=1$ at $n=0$ and $0$ elsewhere; an ordinary sequence, not a generalized function. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Why is the discrete-time impulse different from the continuous-time impulse? ::@:: The discrete-time impulse is an ordinary sequence (value $1$ at one index), whereas the continuous-time impulse is a generalized function defined by unit area under integration. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What does $\delta[n-j]$ represent? ::@:: A shifted unit sample at index $n=j$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What does $c\,\delta[n-j]$ represent? ::@:: A shifted unit sample at index $n=j$ with value $c$ instead of $1$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What is the sampling property? ::@:: $f[n]\delta[n]=f[0]\delta[n]$: only the value at the origin survives. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- How can any sequence be written using unit samples? ::@:: $x[n]=\sum_{m=-\infty}^{\infty}x[m]\delta[n-m]$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Worked example: How is $x[-1]=-1.5$, $x[1]=1$, $x[3]=3$ written with unit samples? ::@:: $x[n]=-1.5\delta[n+1]+\delta[n-1]+3\delta[n-3]$, one term per nonzero sample. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
 
 ## unit step and rectangular sequence
 
@@ -109,13 +109,13 @@ Three viewpoints: step view (switching on/off), impulse-sum view (finite support
 
 Flashcards for this section are as follows:
 
-- What is the discrete-time unit step? ::@:: $u[n]=1$ for $n\ge 0$, $u[n]=0$ for $n<0$.
-- How can the unit step be written as a sum of unit samples? ::@:: $u[n]=\sum_{k=0}^{\infty}\delta[n-k]$.
-- What is the relation between unit sample and unit step? ::@:: $\delta[n]=u[n]-u[n-1]$.
-- What is a rectangular sequence of length $N$? ::@:: $R_N[n]=1$ for $0\le n\le N-1$ and $0$ otherwise ($n=0$ included, $n=N$ excluded).
-- How is the rectangular sequence written with steps? ::@:: $R_N[n]=u[n]-u[n-N]$.
-- How is the rectangular sequence written with unit samples? ::@:: $R_N[n]=\sum_{k=0}^{N-1}\delta[n-k]$.
-- What three viewpoints are useful for understanding the rectangular sequence? ::@:: The step view emphasizes switching on and off, the impulse-sum view emphasizes finite support, and the graph view emphasizes a flat run of ones over a fixed index interval.
+- What is the discrete-time unit step? ::@:: $u[n]=1$ for $n\ge 0$, $u[n]=0$ for $n<0$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- How can the unit step be written as a sum of unit samples? ::@:: $u[n]=\sum_{k=0}^{\infty}\delta[n-k]$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What is the relation between unit sample and unit step? ::@:: $\delta[n]=u[n]-u[n-1]$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What is a rectangular sequence of length $N$? ::@:: $R_N[n]=1$ for $0\le n\le N-1$ and $0$ otherwise ($n=0$ included, $n=N$ excluded). <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- How is the rectangular sequence written with steps? ::@:: $R_N[n]=u[n]-u[n-N]$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- How is the rectangular sequence written with unit samples? ::@:: $R_N[n]=\sum_{k=0}^{N-1}\delta[n-k]$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What three viewpoints are useful for understanding the rectangular sequence? ::@:: The step view emphasizes switching on and off, the impulse-sum view emphasizes finite support, and the graph view emphasizes a flat run of ones over a fixed index interval. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
 
 ## ramp and one-sided exponential sequences
 
@@ -134,9 +134,9 @@ A negative $a$ flips the sign at every sample, not just once.
 
 Flashcards for this section are as follows:
 
-- What is the discrete-time ramp? ::@:: $x[n]=nu[n]$: zero for $n<0$, grows linearly for $n\ge 0$.
-- What is a one-sided exponential? ::@:: $x[n]=a^n u[n]$.
-- How does $a^n u[n]$ behave? ::@:: $|a|<1$ decays, $|a|>1$ grows. $a>0$ is monotone; $a<0$ alternates sign every sample. <br/> Examples: $a=0.5$ → $1,0.5,0.25,\ldots$; $a=-0.5$ → $1,-0.5,0.25,-0.125,\ldots$; $a=-1.5$ → $1,-1.5,2.25,-3.375,\ldots$.
+- What is the discrete-time ramp? ::@:: $x[n]=nu[n]$: zero for $n<0$, grows linearly for $n\ge 0$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What is a one-sided exponential? ::@:: $x[n]=a^n u[n]$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- How does $a^n u[n]$ behave? ::@:: $|a|<1$ decays, $|a|>1$ grows. $a>0$ is monotone; $a<0$ alternates sign every sample. <br/> Examples: $a=0.5$ → $1,0.5,0.25,\ldots$; $a=-0.5$ → $1,-0.5,0.25,-0.125,\ldots$; $a=-1.5$ → $1,-1.5,2.25,-3.375,\ldots$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
 
 ## sinusoidal and complex exponential sequences
 
@@ -168,19 +168,19 @@ The real sinusoid gives one coordinate; the complex exponential packages cosine 
 
 Flashcards for this section are as follows:
 
-- What is a discrete-time sinusoid? ::@:: $x[n]=\sin(\omega n)$ or $x[n]=A\sin(\omega n+\phi)$, with $\omega$ in radians per sample.
-- How is it obtained from sampling a continuous sinusoid? ::@:: $\omega=\omega_0 T_s=2\pi f_0/f_s$.
-- What is the fundamental period when $\omega/(2\pi)=m/N_0$ (lowest terms)? ::@:: Period is $N_0$ samples; fundamental digital frequency is $2\pi/N_0$; the sinusoid is the $m$-th harmonic.
-- Why can a discrete-time sinusoid be aperiodic? ::@:: Because $\omega/(2\pi)$ is irrational, so no integer period exists.
-- Why is the written angular parameter not always the fundamental digital frequency? ::@:: Digital frequency is modulo $2\pi$; the written angle may be a higher harmonic.
-- When is a discrete-time sinusoidal sequence periodic? ::@:: Only if $\omega/(2\pi)$ is rational. If rational, some integer period exists. If irrational, no integer period can make the samples repeat exactly.
-- How should one select one full period from a finite displayed periodic sequence? ::@:: Start at the smallest valid displayed signal index and count one block of $N_0$ consecutive samples, where $N_0$ is the fundamental period.
-- What is the effect of irrationality on the periodicity of a discrete-time sinusoid? ::@:: If $\omega/(2\pi)$ is irrational, then no positive integer sample shift can make the sequence repeat exactly, so the sequence is aperiodic.
-- Worked example: $x[n]=2\cos(n/6)$ — is it periodic? ::@:: No. Periodicity requires $1/(12\pi)$ to be rational, which is false.
-- Worked example: $x[n]=2\cos(11\pi n/4)$ — what is its fundamental frequency? ::@:: Regroup as $2\pi n+3\pi n/4$; effective step is $3\pi/4$; $N=8$; fundamental digital frequency is $\pi/4$.
-- Worked example: $x[n]=\sin(0.4n)$ — periodic? ::@:: No, $0.4/(2\pi)$ is irrational.
-- What is the discrete-time complex exponential? ::@:: $x[n]=e^{j\omega n}=\cos(\omega n)+j\sin(\omega n)$, magnitude $1$, phase $\omega n$.
-- When is $e^{j\omega n}$ periodic? ::@:: If and only if $\omega/(2\pi)$ is rational.
+- What is a discrete-time sinusoid? ::@:: $x[n]=\sin(\omega n)$ or $x[n]=A\sin(\omega n+\phi)$, with $\omega$ in radians per sample. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- How is it obtained from sampling a continuous sinusoid? ::@:: $\omega=\omega_0 T_s=2\pi f_0/f_s$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What is the fundamental period when $\omega/(2\pi)=m/N_0$ (lowest terms)? ::@:: Period is $N_0$ samples; fundamental digital frequency is $2\pi/N_0$; the sinusoid is the $m$-th harmonic. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Why can a discrete-time sinusoid be aperiodic? ::@:: Because $\omega/(2\pi)$ is irrational, so no integer period exists. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Why is the written angular parameter not always the fundamental digital frequency? ::@:: Digital frequency is modulo $2\pi$; the written angle may be a higher harmonic. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- When is a discrete-time sinusoidal sequence periodic? ::@:: Only if $\omega/(2\pi)$ is rational. If rational, some integer period exists. If irrational, no integer period can make the samples repeat exactly. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- How should one select one full period from a finite displayed periodic sequence? ::@:: Start at the smallest valid displayed signal index and count one block of $N_0$ consecutive samples, where $N_0$ is the fundamental period. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What is the effect of irrationality on the periodicity of a discrete-time sinusoid? ::@:: If $\omega/(2\pi)$ is irrational, then no positive integer sample shift can make the sequence repeat exactly, so the sequence is aperiodic. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Worked example: $x[n]=2\cos(n/6)$ — is it periodic? ::@:: No. Periodicity requires $1/(12\pi)$ to be rational, which is false. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Worked example: $x[n]=2\cos(11\pi n/4)$ — what is its fundamental frequency? ::@:: Regroup as $2\pi n+3\pi n/4$; effective step is $3\pi/4$; $N=8$; fundamental digital frequency is $\pi/4$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Worked example: $x[n]=\sin(0.4n)$ — periodic? ::@:: No, $0.4/(2\pi)$ is irrational. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What is the discrete-time complex exponential? ::@:: $x[n]=e^{j\omega n}=\cos(\omega n)+j\sin(\omega n)$, magnitude $1$, phase $\omega n$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- When is $e^{j\omega n}$ periodic? ::@:: If and only if $\omega/(2\pi)$ is rational. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
 
 ## pointwise operations and index transformations
 
@@ -219,11 +219,11 @@ Example: $x[0]=1$, $x[1]=2$, $x[2]=3$, $x[3]=4$ (zeros elsewhere) gives $y[0]=1$
 
 Flashcards for this section are as follows:
 
-- What is the forward difference? ::@:: $\Delta x[n]=x[n+1]-x[n]$ (compares current with next).
-- What is the backward difference? ::@:: $\nabla x[n]=x[n]-x[n-1]$ (compares current with previous).
-- What is the running sum? ::@:: $y[n]=\sum_{k=-\infty}^{n}x[k]$: accumulates all samples up to index $n$.
-- Why is the running sum not pointwise? ::@:: Each output depends on all past samples, not just the sample at that index.
-- Worked example: $x[0]=1$, $x[1]=2$, $x[2]=3$, $x[3]=4$ (zeros elsewhere) — what are the first four running-sum values? ::@:: $y[0]=1$, $y[1]=3$, $y[2]=6$, $y[3]=10$.
+- What is the forward difference? ::@:: $\Delta x[n]=x[n+1]-x[n]$ (compares current with next). <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What is the backward difference? ::@:: $\nabla x[n]=x[n]-x[n-1]$ (compares current with previous). <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What is the running sum? ::@:: $y[n]=\sum_{k=-\infty}^{n}x[k]$: accumulates all samples up to index $n$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Why is the running sum not pointwise? ::@:: Each output depends on all past samples, not just the sample at that index. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Worked example: $x[0]=1$, $x[1]=2$, $x[2]=3$, $x[3]=4$ (zeros elsewhere) — what are the first four running-sum values? ::@:: $y[0]=1$, $y[1]=3$, $y[2]=6$, $y[3]=10$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
 
 ## decimation and interpolation
 
@@ -239,13 +239,13 @@ Example: $x[2n]$ keeps only even-indexed samples. In zero-insertion by $2$, orig
 
 Flashcards for this section are as follows:
 
-- What is decimation? ::@:: For integer $N>0$, $x[Nn]$ keeps samples at multiples of $N$.
-- What is zero-insertion interpolation? ::@:: By factor $L$: original $x[n]$ maps to position $m=nL$; $L-1$ zeros inserted between samples. In frequency: $X_L(e^{j\Omega})=X(e^{jL\Omega})$, compressing the spectrum by $L$.
-- Why do decimation and interpolation differ from shifting/scaling? ::@:: They change the sampling pattern itself, not just values or positions.
-- What is the time-domain effect of zero-insertion by $2$? ::@:: $x=[1,2,3,4]$ becomes $x_2=[1,0,2,0,3,0,4,0]$.
-- Zero-insertion vs. zero-padding? ::@:: __Zero-insertion__ (time domain): insert zeros between samples; compresses spectrum, creates images. __Zero-padding__ (before DFT): append zeros to get finer frequency grid; no new spectral info.
-- Worked example: Zero-insertion by $2$ on $x[n]=\{1,3,2\}$? ::@:: $x_2[m]=\{1,0,3,0,2,0\}$. In frequency: $X_2(e^{j\Omega})=X(e^{j2\Omega})$ — two compressed copies on $[-\pi,\pi]$; a half-band LPF removes the upper image.
-- Worked example: 8-point DFT via zero-padding on $x[n]=\{1,3,2\}$? ::@:: Pad to $\{1,3,2,0,0,0,0,0\}$. The 8-point DFT gives 8 samples of the DTFT at $\Omega_k=2\pi k/8$ — finer grid, no new spectral info. Rule: pad to the smallest power of 2 $\ge$ desired grid size.
+- What is decimation? ::@:: For integer $N>0$, $x[Nn]$ keeps samples at multiples of $N$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What is zero-insertion interpolation? ::@:: By factor $L$: original $x[n]$ maps to position $m=nL$; $L-1$ zeros inserted between samples. In frequency: $X_L(e^{j\Omega})=X(e^{jL\Omega})$, compressing the spectrum by $L$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Why do decimation and interpolation differ from shifting/scaling? ::@:: They change the sampling pattern itself, not just values or positions. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What is the time-domain effect of zero-insertion by $2$? ::@:: $x=[1,2,3,4]$ becomes $x_2=[1,0,2,0,3,0,4,0]$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Zero-insertion vs. zero-padding? ::@:: __Zero-insertion__ (time domain): insert zeros between samples; compresses spectrum, creates images. __Zero-padding__ (before DFT): append zeros to get finer frequency grid; no new spectral info. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Worked example: Zero-insertion by $2$ on $x[n]=\{1,3,2\}$? ::@:: $x_2[m]=\{1,0,3,0,2,0\}$. In frequency: $X_2(e^{j\Omega})=X(e^{j2\Omega})$ — two compressed copies on $[-\pi,\pi]$; a half-band LPF removes the upper image. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Worked example: 8-point DFT via zero-padding on $x[n]=\{1,3,2\}$? ::@:: Pad to $\{1,3,2,0,0,0,0,0\}$. The 8-point DFT gives 8 samples of the DTFT at $\Omega_k=2\pi k/8$ — finer grid, no new spectral info. Rule: pad to the smallest power of 2 $\ge$ desired grid size. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
 
 ## energy and power of sequences
 

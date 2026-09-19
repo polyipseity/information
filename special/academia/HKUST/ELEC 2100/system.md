@@ -32,7 +32,7 @@ This note covers general systems vocabulary: what a system is, how it is modeled
 Flashcards for this section are as follows:
 
 - What is a system in ELEC 2100? ::@:: A rule or device that maps an input signal to an output signal. <!--SR:!fsrs,2027-04-23T00:00:00.000Z,287,287.11697064,1,2,7,0,0,2026-07-10T00:00:00.000Z!fsrs,2027-05-15T00:00:00.000Z,304,304.30256839,1,2,7,0,0,2026-07-15T00:00:00.000Z-->
-- What is the central systems question in this topic? ::@:: It is how the system transforms the input signal into the output signal: whether it amplifies, filters, delays, distorts, or transforms it.
+- What is the central systems question in this topic? ::@:: It is how the system transforms the input signal into the output signal: whether it amplifies, filters, delays, distorts, or transforms it. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
 - Why is the systems viewpoint central in ELEC 2100? ::@:: It connects signal descriptions to later transform-based analysis of linear time-invariant systems. <!--SR:!fsrs,2027-01-26T00:00:00.000Z,194,193.65488775,3.24197837,2,7,0,0,2026-07-16T00:00:00.000Z!fsrs,2027-04-18T00:00:00.000Z,283,282.79716409,1,2,7,0,0,2026-07-09T00:00:00.000Z-->
 - How does this note relate to the companion LTI notes? ::@:: This note covers core vocabulary and classification; `continuous-time LTI system.md`, `discrete-time LTI system.md`, and `convolution.md` cover the detailed response mechanics. <!--SR:!fsrs,2027-04-23T00:00:00.000Z,287,287.11697064,1,2,7,0,0,2026-07-10T00:00:00.000Z!fsrs,2027-04-28T00:00:00.000Z,291,291.42724554,1,2,7,0,0,2026-07-11T00:00:00.000Z-->
 
@@ -52,13 +52,13 @@ Signal theory studies the signals themselves; system theory studies how systems 
 
 Flashcards for this section are as follows:
 
-- What do $e(t)$ and $r(t)$ denote? ::@:: $e(t)$ denotes excitation (input), and $r(t)$ denotes response (output).
-- Why do communication examples belong in a systems topic? ::@:: They show information is carried by signals and shaped by systems at every stage of a transmission chain.
-- What historical examples make the communication-systems viewpoint concrete? ::@:: Morse's 1844 telegraph transmission and Bell's 1876 telephone transmission show that systems are engineered mechanisms for carrying messages.
-- What broad mobile-generation sequence is used in the introductory systems survey? ::@:: The survey moves from 1G analog systems in the 1980s through 2G, 2.5G, 3G, 4G, and 5G from about 2019 onward, with 6G as the next horizon.
-- What modern engineering targets are emphasized in the communication-systems survey? ::@:: High speed, wide bandwidth, high reliability, and low latency are key modern communication-system targets.
-- What is the difference between signal theory and system theory? ::@:: Signal theory studies signals themselves; system theory studies how systems act on signals.
-- What is the difference between system analysis and system synthesis? ::@:: System analysis asks for the output of a given system; system synthesis designs a system to achieve desired behavior.
+- What do $e(t)$ and $r(t)$ denote? ::@:: $e(t)$ denotes excitation (input), and $r(t)$ denotes response (output). <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Why do communication examples belong in a systems topic? ::@:: They show information is carried by signals and shaped by systems at every stage of a transmission chain. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What historical examples make the communication-systems viewpoint concrete? ::@:: Morse's 1844 telegraph transmission and Bell's 1876 telephone transmission show that systems are engineered mechanisms for carrying messages. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What broad mobile-generation sequence is used in the introductory systems survey? ::@:: The survey moves from 1G analog systems in the 1980s through 2G, 2.5G, 3G, 4G, and 5G from about 2019 onward, with 6G as the next horizon. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What modern engineering targets are emphasized in the communication-systems survey? ::@:: High speed, wide bandwidth, high reliability, and low latency are key modern communication-system targets. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What is the difference between signal theory and system theory? ::@:: Signal theory studies signals themselves; system theory studies how systems act on signals. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What is the difference between system analysis and system synthesis? ::@:: System analysis asks for the output of a given system; system synthesis designs a system to achieve desired behavior. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
 
 ## continuous-time, discrete-time, and mathematical models
 
@@ -72,11 +72,11 @@ Once a mathematical model is written, one can compute the response under given e
 
 Flashcards for this section are as follows:
 
-- What is a continuous-time system in operator form? ::@:: A system acting on signals such as $e(t)$, giving outputs such as $r(t)=H[e(t)]$.
-- What is a discrete-time system in operator form? ::@:: A system acting on sequences such as $x[n]$, giving outputs such as $y[n]=H[x[n]]$.
-- What are the standard mathematical models for continuous-time and discrete-time systems? ::@:: Differential equations for continuous-time, difference equations for discrete-time.
-- Why are mathematical models central to system analysis? ::@:: They let us compute responses under given excitation and initial conditions, and then interpret those responses physically.
-- What do block diagrams contribute beyond equations? ::@:: They show the structural interconnection of elementary operations inside the system.
+- What is a continuous-time system in operator form? ::@:: A system acting on signals such as $e(t)$, giving outputs such as $r(t)=H[e(t)]$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What is a discrete-time system in operator form? ::@:: A system acting on sequences such as $x[n]$, giving outputs such as $y[n]=H[x[n]]$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What are the standard mathematical models for continuous-time and discrete-time systems? ::@:: Differential equations for continuous-time, difference equations for discrete-time. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Why are mathematical models central to system analysis? ::@:: They let us compute responses under given excitation and initial conditions, and then interpret those responses physically. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What do block diagrams contribute beyond equations? ::@:: They show the structural interconnection of elementary operations inside the system. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
 
 ## memoryless, dynamic, lumped, and distributed systems
 
@@ -107,12 +107,12 @@ Representative rules make the distinction concrete. The affine-delay rule $y(t)=
 
 Flashcards for this section are as follows:
 
-- What does memorylessness mean? ::@:: The output at time $t_0$ depends only on the input at time $t_0$; any system whose output also depends on other times is dynamic.
-- What is the kernel test for memorylessness? ::@:: In a linear kernel form $y(t)=\int h(t,\tau)x(\tau)\,d\tau$, memorylessness means $h(t,\tau)=a(t)\delta(t-\tau)$, and in the LTI case $h(t)=K\delta(t)$.
-- What is the memoryless example? ::@:: $y(t)=3x(t)$ with $h(t)=3\delta(t)$; the response is concentrated at zero delay.
-- What is the dynamic counterexample? ::@:: $y(t)=\int_{-\infty}^{t} e^{-(t-\tau)}x(\tau)\,d\tau$ with $h(t)=e^{-t}u(t)$; past input values keep affecting the present output.
-- Which examples are non-memoryless? ::@:: $y(t)=2x(t-1)+1$ uses a past sample, $\tfrac12(x(t)+x(-t))$ uses a reflected future sample, $\max\{x[n],x[n-1]\}$ compares with a past sample, and $n\,x[2n]$ uses a different index.
-- Why is $y(t)=\cos(x(t))$ still memoryless? ::@:: It applies a pointwise map to the present sample only, even though the operation is nonlinear.
+- What does memorylessness mean? ::@:: The output at time $t_0$ depends only on the input at time $t_0$; any system whose output also depends on other times is dynamic. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What is the kernel test for memorylessness? ::@:: In a linear kernel form $y(t)=\int h(t,\tau)x(\tau)\,d\tau$, memorylessness means $h(t,\tau)=a(t)\delta(t-\tau)$, and in the LTI case $h(t)=K\delta(t)$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What is the memoryless example? ::@:: $y(t)=3x(t)$ with $h(t)=3\delta(t)$; the response is concentrated at zero delay. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What is the dynamic counterexample? ::@:: $y(t)=\int_{-\infty}^{t} e^{-(t-\tau)}x(\tau)\,d\tau$ with $h(t)=e^{-t}u(t)$; past input values keep affecting the present output. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Which examples are non-memoryless? ::@:: $y(t)=2x(t-1)+1$ uses a past sample, $\tfrac12(x(t)+x(-t))$ uses a reflected future sample, $\max\{x[n],x[n-1]\}$ compares with a past sample, and $n\,x[2n]$ uses a different index. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Why is $y(t)=\cos(x(t))$ still memoryless? ::@:: It applies a pointwise map to the present sample only, even though the operation is nonlinear. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
 
 ### lumped and distributed viewpoints
 
@@ -124,8 +124,8 @@ This classification is independent of memorylessness. A system can be lumped yet
 
 Flashcards for this section are as follows:
 
-- What is the lumped-versus-distributed distinction? ::@:: Lumped systems depend only on time and use ordinary differential equations; distributed systems depend on both time and space and use partial differential equations.
-- What are standard examples of lumped and distributed systems? ::@:: A low-frequency RLC circuit is lumped; a transmission line or waveguide is distributed.
+- What is the lumped-versus-distributed distinction? ::@:: Lumped systems depend only on time and use ordinary differential equations; distributed systems depend on both time and space and use partial differential equations. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What are standard examples of lumped and distributed systems? ::@:: A low-frequency RLC circuit is lumped; a transmission line or waveguide is distributed. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
 
 ## invertibility, linearity, and time invariance
 
@@ -167,11 +167,11 @@ The comparison examples separate structure from surface appearance. The affine-d
 
 Flashcards for this section are as follows:
 
-- What is linearity? ::@:: A system is linear if $H[c_1x_1+c_2x_2]=c_1H[x_1]+c_2H[x_2]$ for arbitrary signals and constants.
-- What is the linear example? ::@:: $y(t)=2x(t)-x(t-1)$ with $h(t)=2\delta(t)-\delta(t-1)$; superposition holds.
-- What is the nonlinear counterexample? ::@:: $y(t)=x^2(t)$. No single first-order impulse response exists because any such representation is already linear.
-- Which examples fail superposition or homogeneity? ::@:: $y(t)=2x(t-1)+1$ fails homogeneity due to the constant offset, $y(t)=\cos(x(t))$ fails superposition due to pointwise nonlinearity, and $\max\{x[n],x[n-1]\}$ fails because maximum of sums does not equal sum of maxima.
-- Which examples are linear despite other failures? ::@:: $\tfrac12(x(t)+x(-t))$ (even-part operator) and $n\,x[2n]$ (scaled-index rule) are linear because averaging, fixed scaling, and reindexing still preserve superposition even though other system properties fail.
+- What is linearity? ::@:: A system is linear if $H[c_1x_1+c_2x_2]=c_1H[x_1]+c_2H[x_2]$ for arbitrary signals and constants. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What is the linear example? ::@:: $y(t)=2x(t)-x(t-1)$ with $h(t)=2\delta(t)-\delta(t-1)$; superposition holds. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What is the nonlinear counterexample? ::@:: $y(t)=x^2(t)$. No single first-order impulse response exists because any such representation is already linear. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Which examples fail superposition or homogeneity? ::@:: $y(t)=2x(t-1)+1$ fails homogeneity due to the constant offset, $y(t)=\cos(x(t))$ fails superposition due to pointwise nonlinearity, and $\max\{x[n],x[n-1]\}$ fails because maximum of sums does not equal sum of maxima. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Which examples are linear despite other failures? ::@:: $\tfrac12(x(t)+x(-t))$ (even-part operator) and $n\,x[2n]$ (scaled-index rule) are linear because averaging, fixed scaling, and reindexing still preserve superposition even though other system properties fail. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
 
 ### time invariance
 
@@ -189,13 +189,13 @@ The comparison examples produce contrasts. The affine-delay rule, the pointwise 
 
 Flashcards for this section are as follows:
 
-- What is time invariance? ::@:: If $H[x(t)]=y(t)$, then time invariance requires $H[x(t-t_0)]=y(t-t_0)$, so delaying the input merely delays the output by the same amount.
-- What is the intuition behind time invariance? ::@:: Time invariant means "same rule at every clock time"; time varying means the system itself changes while the signal is passing through it.
-- What is the kernel test for time invariance? ::@:: In a linear kernel description, time invariance means the kernel depends only on the difference $t-\tau$, so it can be written as $h(t-\tau)$.
-- What is the time-invariant example? ::@:: $y(t)=x(t)-x(t-1)$ with $h(t)=\delta(t)-\delta(t-1)$; shifting the input just shifts the output.
-- What is the time-varying counterexample? ::@:: $y(t)=\cos(\omega_0 t)x(t)$ with $h(t,\tau)=\cos(\omega_0 t)\delta(t-\tau)$; the coefficient depends on absolute time, so the shift test fails.
-- Which examples are time invariant? ::@:: $y(t)=2x(t-1)+1$ (affine delay), $y(t)=\cos(x(t))$ (pointwise cosine), and $\max\{x[n],x[n-1]\}$ (windowed maximum).
-- Which examples are time varying? ::@:: The even-part operator $\tfrac12(x(t)+x(-t))$ because reflection is pinned to the origin, and $n\,x[2n]$ because the factor $n$ and index scaling refer to absolute sample location.
+- What is time invariance? ::@:: If $H[x(t)]=y(t)$, then time invariance requires $H[x(t-t_0)]=y(t-t_0)$, so delaying the input merely delays the output by the same amount. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What is the intuition behind time invariance? ::@:: Time invariant means "same rule at every clock time"; time varying means the system itself changes while the signal is passing through it. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What is the kernel test for time invariance? ::@:: In a linear kernel description, time invariance means the kernel depends only on the difference $t-\tau$, so it can be written as $h(t-\tau)$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What is the time-invariant example? ::@:: $y(t)=x(t)-x(t-1)$ with $h(t)=\delta(t)-\delta(t-1)$; shifting the input just shifts the output. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What is the time-varying counterexample? ::@:: $y(t)=\cos(\omega_0 t)x(t)$ with $h(t,\tau)=\cos(\omega_0 t)\delta(t-\tau)$; the coefficient depends on absolute time, so the shift test fails. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Which examples are time invariant? ::@:: $y(t)=2x(t-1)+1$ (affine delay), $y(t)=\cos(x(t))$ (pointwise cosine), and $\max\{x[n],x[n-1]\}$ (windowed maximum). <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Which examples are time varying? ::@:: The even-part operator $\tfrac12(x(t)+x(-t))$ because reflection is pinned to the origin, and $n\,x[2n]$ because the factor $n$ and index scaling refer to absolute sample location. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
 
 ## causality and stability
 
@@ -223,13 +223,13 @@ The comparison examples are useful here as well. The affine-delay rule, the poin
 
 Flashcards for this section are as follows:
 
-- What is causality? ::@:: A system is causal if the output at time $t$ depends only on input values at times $\tau\le t$ and never on future values.
-- What is the intuition behind causality? ::@:: Causal means the system can react only after information arrives; noncausal means some part of the rule reaches into the future.
-- What is the impulse-response test for causality? ::@:: In a linear kernel description, causality means $h(t,\tau)=0$ for $\tau>t$; for an LTI system this becomes $h(t)=0$ for negative time.
-- What is the causal example? ::@:: $y(t)=x(t)+x(t-2)$ with $h(t)=\delta(t)+\delta(t-2)$; uses only present and past input values.
-- What is the noncausal counterexample? ::@:: $y(t)=x(t+2)$ with $h(t)=\delta(t+2)$; negative-time support means the output depends on future input.
-- Which examples are causal? ::@:: $y(t)=2x(t-1)+1$ (affine delay), $y(t)=\cos(x(t))$ (pointwise cosine), and $\max\{x[n],x[n-1]\}$ (windowed maximum) are causal because they use only present or past samples.
-- Which examples are noncausal? ::@:: The even-part operator $\tfrac12(x(t)+x(-t))$ because $x(-t_0)$ can lie in the future, and $n\,x[2n]$ because for positive $n$ it asks for a future sample.
+- What is causality? ::@:: A system is causal if the output at time $t$ depends only on input values at times $\tau\le t$ and never on future values. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What is the intuition behind causality? ::@:: Causal means the system can react only after information arrives; noncausal means some part of the rule reaches into the future. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What is the impulse-response test for causality? ::@:: In a linear kernel description, causality means $h(t,\tau)=0$ for $\tau>t$; for an LTI system this becomes $h(t)=0$ for negative time. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What is the causal example? ::@:: $y(t)=x(t)+x(t-2)$ with $h(t)=\delta(t)+\delta(t-2)$; uses only present and past input values. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What is the noncausal counterexample? ::@:: $y(t)=x(t+2)$ with $h(t)=\delta(t+2)$; negative-time support means the output depends on future input. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Which examples are causal? ::@:: $y(t)=2x(t-1)+1$ (affine delay), $y(t)=\cos(x(t))$ (pointwise cosine), and $\max\{x[n],x[n-1]\}$ (windowed maximum) are causal because they use only present or past samples. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Which examples are noncausal? ::@:: The even-part operator $\tfrac12(x(t)+x(-t))$ because $x(-t_0)$ can lie in the future, and $n\,x[2n]$ because for positive $n$ it asks for a future sample. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
 
 ### boundedness (BIBO stability)
 
@@ -247,13 +247,13 @@ The comparison examples add several quick recognition patterns, including non-LT
 
 Flashcards for this section are as follows:
 
-- What is BIBO stability? ::@:: A system is BIBO stable if every bounded input produces a bounded output: whenever $|x(t)|\le M_x$ for all $t$ or $|x[n]|\le M_x$ for all $n$, there exists a finite $M_y$ with $|y(t)|\le M_y$ or $|y[n]|\le M_y$.
-- What is the LTI impulse-response test for BIBO stability? ::@:: Absolute integrability: if $\int_{-\infty}^{\infty}|h(t)|\,dt<\infty$, then bounded inputs stay bounded.
-- What is the stable example? ::@:: $y(t)=\int_{-\infty}^{t} e^{-(t-\tau)}x(\tau)\,d\tau$ with $h(t)=e^{-t}u(t)$; its total impulse-response area is finite.
-- What is the unstable counterexample? ::@:: The integrator $y(t)=\int_{-\infty}^{t}x(\tau)\,d\tau$ with $h(t)=u(t)$; the bounded input $x(t)=u(t)$ produces the unbounded ramp $y(t)=tu(t)$.
-- What is the intuition behind BIBO stability? ::@:: Every finite-amplitude input box maps into some finite-amplitude output box; the output bound may change with the input but must remain finite.
-- What is the nonlinear stable example? ::@:: $y[n]=e^{x[n]}$ is BIBO stable because $|x[n]|\le M$ implies $e^{-M}\le y[n]\le e^{M}$.
-- What is the time-varying unstable example? ::@:: $y[n]=(n+1)x[n]$ is not BIBO stable because the bounded input $x[n]\equiv 1$ gives $y[n]=n+1$, which is unbounded.
+- What is BIBO stability? ::@:: A system is BIBO stable if every bounded input produces a bounded output: whenever $|x(t)|\le M_x$ for all $t$ or $|x[n]|\le M_x$ for all $n$, there exists a finite $M_y$ with $|y(t)|\le M_y$ or $|y[n]|\le M_y$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What is the LTI impulse-response test for BIBO stability? ::@:: Absolute integrability: if $\int_{-\infty}^{\infty}|h(t)|\,dt<\infty$, then bounded inputs stay bounded. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What is the stable example? ::@:: $y(t)=\int_{-\infty}^{t} e^{-(t-\tau)}x(\tau)\,d\tau$ with $h(t)=e^{-t}u(t)$; its total impulse-response area is finite. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What is the unstable counterexample? ::@:: The integrator $y(t)=\int_{-\infty}^{t}x(\tau)\,d\tau$ with $h(t)=u(t)$; the bounded input $x(t)=u(t)$ produces the unbounded ramp $y(t)=tu(t)$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What is the intuition behind BIBO stability? ::@:: Every finite-amplitude input box maps into some finite-amplitude output box; the output bound may change with the input but must remain finite. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What is the nonlinear stable example? ::@:: $y[n]=e^{x[n]}$ is BIBO stable because $|x[n]|\le M$ implies $e^{-M}\le y[n]\le e^{M}$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What is the time-varying unstable example? ::@:: $y[n]=(n+1)x[n]$ is not BIBO stable because the bounded input $x[n]\equiv 1$ gives $y[n]=n+1$, which is unbounded. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
 
 ## linear time-invariant systems and response transfer
 
@@ -304,18 +304,18 @@ The order of the difference equation is the difference between the highest and l
 
 Flashcards for this section are as follows:
 
-- What are the main ways to represent an LTI system? ::@:: Differential equations, system functions via Laplace transformation, unit impulse responses, and block diagrams.
-- In an RLC circuit where the source $e(t)$ feeds an inductor $L$ in series, the output is the capacitor voltage $v_C(t)$, and a resistor $R$ and capacitor $C$ are in parallel from that node to reference, what do the constitutive relations encode and what are the topology equations? ::@:: $i_C(t)=C\frac{dv_C(t)}{dt}$ means the capacitor resists sudden voltage change; $v_L(t)=L\frac{di_L(t)}{dt}$ means the inductor resists sudden current change; the topology equations are $e(t)=L\frac{di_L(t)}{dt}+v_C(t)$ and $i_L(t)=\frac{v_C(t)}{R}+C\frac{dv_C(t)}{dt}$.
-- What equation results after eliminating $i_L(t)$ from the RLC equations, and what does it tell you structurally? ::@:: $LC\frac{d^2v_C(t)}{dt^2}+\frac{L}{R}\frac{dv_C(t)}{dt}+v_C(t)=e(t)$, equivalently $\frac{d^2v_C(t)}{dt^2}+\frac{1}{RC}\frac{dv_C(t)}{dt}+\frac{1}{LC}v_C(t)=\frac{1}{LC}e(t)$; the system is linear, time invariant, and second order.
-- How are continuous-time block-diagram elements drawn? ::@:: An adder is a summing node ($r=e_1\pm e_2$); a multiplier is a $\times$ block ($r=e_1 e_2$); a scalar multiplier ($r=ae$) may be drawn as a gain block, branch coefficient, or triangle; differentiator ($r=\frac{d}{dt}e$), integrator ($r=\int_{-\infty}^{t}e(\tau)d\tau$), and delay ($r=e(t-\tau)$) are labeled blocks.
-- How are discrete-time block-diagram elements drawn? ::@:: A scalar multiplier is $y[n]=ax[n]$; the delay $y[n]=x[n-1]$ is labeled $z^{-1}$ because one-sample delay corresponds to $z^{-1}$ in the z-transform domain.
-- How are unary operations drawn compared with pointwise combination operations? ::@:: Unary operations (gain, delay, differentiation, integration) use labeled rectangular blocks; pointwise operations (addition, subtraction, multiplication) use small circular nodes.
-- What labels should definitely appear on a block diagram? ::@:: External input and output arrows should be labeled explicitly (e.g., $x[n]$ and $y[n]$); internal branch labels are optional when the structure is clear.
-- How is the feedforward example $y[n]=\frac{1}{2}x[n]+\frac{1}{2}x[n-1]$ drawn? ::@:: Split the input into two branches, send one directly to an adder, send the other through a delay and scalar multiplier, then add the branches; it is feedforward because the output depends only on present and delayed inputs.
-- How are $y[n]=x[n]+ay[n-1]$ and $y[n+1]=x[n+1]+ay[n]$ related? ::@:: They are the same recursion written one time step apart; replacing $n$ by $n+1$ in the backward form gives the forward form.
-- Why is the backward form preferred for implementation? ::@:: It computes the present output directly from the present input and the previously stored output, so it is already in causal real-time form.
-- What does the second-order example teach about realization and order? ::@:: Multiple equivalent diagrams are possible, but at least two delay elements are required; more generally, the order of $\sum_{k=0}^{N}a_k y[n-k]=\sum_{r=0}^{M}b_r x[n-r]$ is determined by the spread of delayed output indices.
-- If several block diagrams implement the same equation, which is best? ::@:: The simpler one, because it is easier to read and often uses fewer memory elements or arithmetic operations.
+- What are the main ways to represent an LTI system? ::@:: Differential equations, system functions via Laplace transformation, unit impulse responses, and block diagrams. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- In an RLC circuit where the source $e(t)$ feeds an inductor $L$ in series, the output is the capacitor voltage $v_C(t)$, and a resistor $R$ and capacitor $C$ are in parallel from that node to reference, what do the constitutive relations encode and what are the topology equations? ::@:: $i_C(t)=C\frac{dv_C(t)}{dt}$ means the capacitor resists sudden voltage change; $v_L(t)=L\frac{di_L(t)}{dt}$ means the inductor resists sudden current change; the topology equations are $e(t)=L\frac{di_L(t)}{dt}+v_C(t)$ and $i_L(t)=\frac{v_C(t)}{R}+C\frac{dv_C(t)}{dt}$. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What equation results after eliminating $i_L(t)$ from the RLC equations, and what does it tell you structurally? ::@:: $LC\frac{d^2v_C(t)}{dt^2}+\frac{L}{R}\frac{dv_C(t)}{dt}+v_C(t)=e(t)$, equivalently $\frac{d^2v_C(t)}{dt^2}+\frac{1}{RC}\frac{dv_C(t)}{dt}+\frac{1}{LC}v_C(t)=\frac{1}{LC}e(t)$; the system is linear, time invariant, and second order. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- How are continuous-time block-diagram elements drawn? ::@:: An adder is a summing node ($r=e_1\pm e_2$); a multiplier is a $\times$ block ($r=e_1 e_2$); a scalar multiplier ($r=ae$) may be drawn as a gain block, branch coefficient, or triangle; differentiator ($r=\frac{d}{dt}e$), integrator ($r=\int_{-\infty}^{t}e(\tau)d\tau$), and delay ($r=e(t-\tau)$) are labeled blocks. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- How are discrete-time block-diagram elements drawn? ::@:: A scalar multiplier is $y[n]=ax[n]$; the delay $y[n]=x[n-1]$ is labeled $z^{-1}$ because one-sample delay corresponds to $z^{-1}$ in the z-transform domain. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- How are unary operations drawn compared with pointwise combination operations? ::@:: Unary operations (gain, delay, differentiation, integration) use labeled rectangular blocks; pointwise operations (addition, subtraction, multiplication) use small circular nodes. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What labels should definitely appear on a block diagram? ::@:: External input and output arrows should be labeled explicitly (e.g., $x[n]$ and $y[n]$); internal branch labels are optional when the structure is clear. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- How is the feedforward example $y[n]=\frac{1}{2}x[n]+\frac{1}{2}x[n-1]$ drawn? ::@:: Split the input into two branches, send one directly to an adder, send the other through a delay and scalar multiplier, then add the branches; it is feedforward because the output depends only on present and delayed inputs. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- How are $y[n]=x[n]+ay[n-1]$ and $y[n+1]=x[n+1]+ay[n]$ related? ::@:: They are the same recursion written one time step apart; replacing $n$ by $n+1$ in the backward form gives the forward form. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Why is the backward form preferred for implementation? ::@:: It computes the present output directly from the present input and the previously stored output, so it is already in causal real-time form. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What does the second-order example teach about realization and order? ::@:: Multiple equivalent diagrams are possible, but at least two delay elements are required; more generally, the order of $\sum_{k=0}^{N}a_k y[n-k]=\sum_{r=0}^{M}b_r x[n-r]$ is determined by the spread of delayed output indices. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- If several block diagrams implement the same equation, which is best? ::@:: The simpler one, because it is easier to read and often uses fewer memory elements or arithmetic operations. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
 
 ## system analysis viewpoints
 
@@ -331,17 +331,17 @@ The overall trajectory of the course follows these transitions repeatedly: from 
 
 Flashcards for this section are as follows:
 
-- What are the two high-level tasks in system analysis? ::@:: Build a mathematical model of the system and then analyze the output response under a given input.
-- What is the input-output description viewpoint? ::@:: It focuses only on the relationship between excitation and response and ignores internal system variables.
-- Why is the input-output viewpoint natural for SISO systems? ::@:: Because one nth-order differential or difference equation can often relate the single input and single output directly.
-- What is the state-variable viewpoint? ::@:: It tracks both the overall response and internal variables such as capacitor voltages or inductor currents.
-- Why is the state-variable viewpoint useful for MIMO systems? ::@:: Because it naturally represents multiple interacting inputs, outputs, and internal variables through coupled first-order equations.
-- What do SISO and MIMO mean? ::@:: SISO means single-input single-output; MIMO means multiple-input multiple-output.
-- What belongs to time-domain analysis? ::@:: Direct solution of differential equations, difference equations, and convolution integrals or sums.
-- Why are transform-domain methods introduced? ::@:: They convert many system calculations into simpler algebraic forms.
-- What transforms are highlighted? ::@:: Fourier, Laplace, and z-transform.
-- What overall transitions organize the course? ::@:: Input-output to state-variable description, time-domain to transform-domain analysis, and continuous systems to discrete systems.
-- What combination of system properties is preferred? ::@:: Linear, time-invariant, causal, and stable.
+- What are the two high-level tasks in system analysis? ::@:: Build a mathematical model of the system and then analyze the output response under a given input. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What is the input-output description viewpoint? ::@:: It focuses only on the relationship between excitation and response and ignores internal system variables. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Why is the input-output viewpoint natural for SISO systems? ::@:: Because one nth-order differential or difference equation can often relate the single input and single output directly. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What is the state-variable viewpoint? ::@:: It tracks both the overall response and internal variables such as capacitor voltages or inductor currents. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Why is the state-variable viewpoint useful for MIMO systems? ::@:: Because it naturally represents multiple interacting inputs, outputs, and internal variables through coupled first-order equations. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What do SISO and MIMO mean? ::@:: SISO means single-input single-output; MIMO means multiple-input multiple-output. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What belongs to time-domain analysis? ::@:: Direct solution of differential equations, difference equations, and convolution integrals or sums. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- Why are transform-domain methods introduced? ::@:: They convert many system calculations into simpler algebraic forms. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What transforms are highlighted? ::@:: Fourier, Laplace, and z-transform. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What overall transitions organize the course? ::@:: Input-output to state-variable description, time-domain to transform-domain analysis, and continuous systems to discrete systems. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
+- What combination of system properties is preferred? ::@:: Linear, time-invariant, causal, and stable. <!--SR:!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z!fsrs,2026-11-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-25T00:00:00.000Z-->
 
 ## time-domain analysis methods and differential-equation viewpoint
 
