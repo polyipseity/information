@@ -14,6 +14,7 @@ from bs4 import BeautifulSoup, NavigableString, Tag
 from scripts.convert_wiki.converter import WikiHtmlConverter, _discards_subtree
 from scripts.convert_wiki.inline_context import _in_inline_context
 from scripts.convert_wiki.latex import LatexConverter
+from scripts.convert_wiki.markdown_rewrite import _rewrite_link_target
 from scripts.convert_wiki.pipeline import _preprocess_html
 from scripts.convert_wiki.types import _RedirectInfo
 from tests.scripts.test_convert_wiki import _assert_markdownlint_clean
@@ -471,6 +472,90 @@ class TestLinkHandling:
         assert "#section" in result.lower() or "Section" in result
 
     @pytest.mark.anyio
+    async def test_link_fragment_decodes_percent_encoding(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Percent-encoded href fragments must be decoded before name-map casing.
+
+        Regression: the fragment used to reach ``_fix_name_maybe`` still
+        percent-encoded, which both suppressed the lowercase-first-char
+        fallback (``%C3%B6`` contains uppercase hex digits) and leaked the
+        encoding into the written link.
+        """
+        html = (
+            '<a title="Hydrogen-like atom"'
+            ' href="/wiki/Hydrogen-like_atom#Schr%C3%B6dinger_equation_in_a_spherically_symmetric_potential">text</a>'
+        )
+        result = await _convert(converter, html)
+        assert (
+            "(hydrogen-like%20atom.md"
+            "#schr\u00f6dinger%20equation%20in%20a%20spherically%20symmetric%20potential)"
+        ) in result
+        assert "%C3" not in result
+
+    @pytest.mark.anyio
+    async def test_self_fragment_decodes_percent_encoding(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A bare ``#fragment`` href must decode percent-encoding too."""
+        html = (
+            '<a href="#Schr%C3%B6dinger_equation_in_a_spherically_symmetric_potential">'
+            "text</a>"
+        )
+        result = await _convert(converter, html)
+        assert (
+            "(#schr\u00f6dinger%20equation%20in%20a%20spherically%20symmetric%20potential)"
+        ) in result
+        assert "%C3" not in result
+
+    @pytest.mark.anyio
+    async def test_relative_fragment_decodes_percent_encoding(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A ``./Page#fragment`` href must decode its fragment."""
+        html = (
+            '<a href="./Special_relativity'
+            '#Schr%C3%B6dinger_equation_in_a_spherically_symmetric_potential">t</a>'
+        )
+        result = await _convert(converter, html)
+        assert (
+            "(special%20relativity.md"
+            "#schr\u00f6dinger%20equation%20in%20a%20spherically%20symmetric%20potential)"
+        ) in result
+        assert "%C3" not in result
+
+    @pytest.mark.anyio
+    async def test_preserved_page_fragment_encoded_once(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A preserved-page fragment must be percent-encoded exactly once."""
+        html = (
+            '<a title="Special:Search"'
+            ' href="https://en.wikipedia.org/wiki/Special:Search#Foo%20Bar">t</a>'
+        )
+        result = await _convert(converter, html)
+        assert "#Foo%20Bar" in result
+        assert "%25" not in result
+
+    @pytest.mark.anyio
+    async def test_link_fragment_matches_reprocess_output(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """An ingested fragment must already be in reprocess-normal form.
+
+        ``_rewrite_link_target`` unquotes the fragment it reads back from the
+        written Markdown; ingestion must therefore emit the same form so a
+        ``--reprocess`` run is a no-op.
+        """
+        html = (
+            '<a title="Hydrogen-like atom"'
+            ' href="/wiki/Hydrogen-like_atom#Schr%C3%B6dinger_equation_in_a_spherically_symmetric_potential">text</a>'
+        )
+        result = await _convert(converter, html)
+        target = result[result.index("](") + 2 : result.index(")")]
+        assert _rewrite_link_target(target, {}, names_map={}) == target
+
+    @pytest.mark.anyio
     async def test_external_link(self, converter: WikiHtmlConverter) -> None:
         """External link (``extiw`` class) should produce cross-language link."""
         html = '<a class="extiw" title="en:Target" href="https://en.wikipedia.org/wiki/Target">text</a>'
@@ -483,6 +568,26 @@ class TestLinkHandling:
         html = '<a class="mw-selflink" href="/wiki/Current_Page">current</a>'
         result = await _convert(converter, html)
         assert "[current](" in result
+
+    @pytest.mark.anyio
+    async def test_selflink_fragment_decodes_percent_encoding(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """``mw-selflink-fragment`` hrefs must decode their fragment too.
+
+        ``_handle_selflink`` already unquotes its page stem, so leaving the
+        fragment encoded made the two halves of the same href disagree.
+        """
+        html = (
+            '<a class="mw-selflink-fragment"'
+            ' href="/wiki/Current_Page'
+            '#Schr%C3%B6dinger_equation_in_a_spherically_symmetric_potential">t</a>'
+        )
+        result = await _convert(converter, html)
+        assert (
+            "(#schr\u00f6dinger%20equation%20in%20a%20spherically%20symmetric%20potential)"
+        ) in result
+        assert "%C3" not in result
 
     @pytest.mark.anyio
     async def test_skips_parsoid_link_metadata(
