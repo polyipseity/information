@@ -54,6 +54,7 @@ tags:
 - [FINA 3103](FINA%203103/index.md)
 - [FINA 3203](FINA%203203/index.md)
 - [FINA 3810](FINA%203810/index.md)
+- [FINA 4103](FINA%204103/index.md)
 - [GNED 2510](GNED%202510/index.md)
 - [HUMA 3810](HUMA%203810/index.md)
 - [ISDN 0003](ISDN%200003/index.md)
@@ -165,6 +166,7 @@ tags:
 
 ### 2026 fall
 
+- [FINA 4103](FINA%204103/index.md): Financial Markets Trading and Structure (3 credits)
 - [COMP 3511](COMP%203511/index.md): Operating Systems (3 credits)
 - [MATH 3423](MATH%203423/index.md): Statistical Inference (3 credits)
 - [PHYS 2022](PHYS%202022/index.md): Modern Physics (3 credits)
