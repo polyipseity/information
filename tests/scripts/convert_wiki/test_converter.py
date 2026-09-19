@@ -1847,6 +1847,49 @@ class TestDivHandling:
         assert result == "\n|  |  |\n| :-: | --- |\n| icon | text |\n\n\n"
 
     @pytest.mark.anyio
+    async def test_tbody_less_table_gets_empty_header_row(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A ``<tbody>``-less table must get the same empty header row.
+
+        Such tables never reach ``handle_tbody``, so ``_handle_table``
+        normalizes and converts them itself.
+        """
+        result = await _convert(
+            converter,
+            "<table><tr><td>a</td><td>b</td></tr><tr><td>c</td><td>d</td></tr></table>",
+        )
+        assert result == "|  |  |\n| --- | --- |\n| a | b |\n| c | d |\n"
+
+    @pytest.mark.anyio
+    async def test_tbody_less_rowspan_keeps_column_positions(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Padding a ``<tbody>``-less table must preserve spanning columns.
+
+        The rows are normalized before padding so the filler cell lands
+        under the first column, not at the end of the row.
+        """
+        result = await _convert(
+            converter,
+            '<table><tr><td rowspan="2">a</td><td>b</td></tr>'
+            "<tr><td>c</td></tr></table>",
+        )
+        assert result == ("|  |  |\n| --- | --- |\n| a | b |\n| \u200b | c |\n")
+
+    @pytest.mark.anyio
+    async def test_ragged_th_less_rows_are_padded(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Short rows in a ``<th>``-less table are padded to the widest row."""
+        result = await _convert(
+            converter,
+            "<table><tbody><tr><td>a</td></tr>"
+            "<tr><td>b</td><td>c</td></tr></tbody></table>",
+        )
+        assert result == ("\n|  |  |\n| --- | --- |\n| a | \u200b |\n| b | c |\n\n\n")
+
+    @pytest.mark.anyio
     async def test_equation_box_numblk_number_cell_single_bold(
         self, converter: WikiHtmlConverter
     ) -> None:
