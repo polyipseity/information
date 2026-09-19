@@ -1804,6 +1804,29 @@ class TestDivHandling:
         )
 
     @pytest.mark.anyio
+    async def test_unaligned_standalone_numblk_anchor_outside_bold(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A standalone ``numblk`` with no aligned ``equation-box`` sibling
+        must still drop the cell-level bold.
+
+        The anchor is prepended ahead of the number, so an inherited
+        ``font-weight: bold`` would wrap the emitted ``__...__`` around the
+        anchor instead of leaving it outside.
+        """
+        result = await _convert(
+            converter,
+            '<table class="numblk" id="math_1"><tbody><tr>'
+            '<td class="nowrap">E = mc<sup>2</sup></td>'
+            "<td></td>"
+            '<td class="nowrap" style="font-weight: bold;">'
+            '<a class="mw-selflink-fragment" href="#math_1">1</a></td>'
+            "</tr></tbody></table>",
+        )
+        assert '<a id="math 1"></a> __\\([1](#math%201)\\)__' in result
+        assert "__<a id=" not in result
+
+    @pytest.mark.anyio
     async def test_equation_box_numblk_number_cell_single_bold(
         self, converter: WikiHtmlConverter
     ) -> None:
