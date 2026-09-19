@@ -8,7 +8,7 @@ applyTo: "**/*.md"
 
 ## General editing rules
 
-- __Frontmatter__: Keep YAML (`aliases`, `tags`, `language/in/English`) intact. Avoid adding unauthorized fields; add new fields only with user approval.
+- __Frontmatter__: Keep YAML (`aliases`, `tags`, `language/in/English`) intact. Avoid adding unauthorized fields; add new fields only with user approval. Aliases are a search aid and nothing else: notes link to each other by relative path, never by `[[wikilink]]`, so two notes sharing an alias is normal and must not be "fixed".
 
 - __Cloze & flashcard markup__: Preserve the three patterns exactly and understand what they do:
     - `{@{ hidden text }@}` – cloze deletion; the inner text is hidden when the card is shown and must be recalled. (Most common.) __Closing delimiter:__ place `}@}` __before__ any trailing punctuation so punctuation sits outside the cloze (e.g. `{@{text}@}.` not `{@{text.}@}`).

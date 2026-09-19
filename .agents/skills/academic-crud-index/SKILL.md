@@ -39,7 +39,7 @@ tags:
 
 - `aliases`: cover institution + course + type combinations (both short and long forms)
 - `tags`: include `flashcard/active/...` path (underscore-normalized), `function/index`, and `language/in/<lang>`
-- Keep aliases exhaustive. Cover `HKUST COMP 3031 assignment`, `HKUST COMP3031 assignments`, `COMP 3031 assignment`, etc.
+- Keep aliases exhaustive. Cover `HKUST COMP 3031 assignment`, `HKUST COMP3031 assignments`, `COMP 3031 assignment`, etc. Exhaustive coverage means generic aliases repeat across notes, which is normal: notes link to each other by relative path, never by `[[wikilink]]`, so a duplicate alias elsewhere is not a defect to repair.
 
 ### Children format
 

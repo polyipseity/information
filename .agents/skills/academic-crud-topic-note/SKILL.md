@@ -69,6 +69,8 @@ aliases:
   - DFT
 ```
 
+Aliases exist for search, not for linking. Notes always link to each other by relative path, so a duplicate alias across notes is normal and never a defect to repair.
+
 ## Grouping: concepts, not source layout
 
 File and section boundaries come from the concepts, never from the shape of the ingested material. A deck, a chapter, a page range, and a lecture are delivery formats, not concepts: they determine what content exists, never how it is grouped or named.
