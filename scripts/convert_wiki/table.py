@@ -840,6 +840,7 @@ class TableConverter:
         cls._flatten_nested_tables(ele, soup)
         cls._transform_infobox_caption_rows(ele, soup)
         cls._normalize_table_cells(ele, soup)
+        cls._ensure_th_less_header_row(ele, soup)
         cls._merge_header_rows(ele, soup)
         cls._transform_sidebar_rows(ele, soup)
         cls._insert_mixed_alignment_rows(ele, soup)
@@ -1223,6 +1224,49 @@ class TableConverter:
         for child in children:
             wrapper.append(child.extract())
         target.append(wrapper)
+
+    @classmethod
+    def _ensure_th_less_header_row(cls, ele: Tag, soup: Tag) -> None:
+        """Give a ``<th>``-less table an empty ``<th>`` header row.
+
+        A Markdown table needs a header row: ``handle_tr`` emits the GFM
+        separator only for an all-``<th>`` row, and
+        ``_insert_mixed_alignment_rows`` only adds a marker row to tables
+        that contain at least one ``<th>``.  Wikipedia maintenance boxes
+        (``ambox``) are ``<td>``-only tables, so without this they render as
+        a bare ``| … | … |`` line that is not a table at all.
+
+        Mirrors ``handle_standalone_numblk``, which prepends an empty
+        ``<th>`` header row so the equation/number body row aligns like a
+        numblk table.
+        """
+        table = ele.find_parent("table")
+        if not isinstance(table, Tag):
+            return
+        rows = cls._table_rows(table)
+        if any(
+            isinstance(cell, Tag) and cell.name == "th"
+            for row in rows
+            for cell in row.children
+        ):
+            return
+        first = next(
+            (
+                row
+                for row in rows
+                if any(isinstance(c, Tag) and c.name in _TD_OR_TH for c in row.children)
+            ),
+            None,
+        )
+        if first is None:
+            return
+        cells = [
+            c for c in first.children if isinstance(c, Tag) and c.name in _TD_OR_TH
+        ]
+        header_row = soup.new_tag("tr")
+        for _ in cells:
+            header_row.append(soup.new_tag("th"))
+        first.insert_before(header_row)
 
     @classmethod
     def _insert_mixed_alignment_rows(cls, ele: Tag, soup: Tag) -> None:
