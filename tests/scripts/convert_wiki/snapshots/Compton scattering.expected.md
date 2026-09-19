@@ -116,7 +116,7 @@ This expression can be used to find the magnitude of the momentum of the scatter
 
 |                                                                                          |                               |
 | ---------------------------------------------------------------------------------------- | ----------------------------- |
-| $$p_{ {\text{e} }'}^{\,2}c^{2}=(hf-hf'+m_{\text{e} }c^{2})^{2}-m_{\text{e} }^{2}c^{4}.$$ | __<a id="math 1"></a> \(1\)__ |
+| $$p_{ {\text{e} }'}^{\,2}c^{2}=(hf-hf'+m_{\text{e} }c^{2})^{2}-m_{\text{e} }^{2}c^{4}.$$ | <a id="math 1"></a> __\(1\)__ |
 
 Note that this magnitude of the momentum gained by the electron \(formerly zero\) exceeds the energy/<!-- markdown separator -->_c_ lost by the photon,
 
@@ -140,7 +140,7 @@ After replacing the photon momentum terms with _hf_<!-- markdown separator -->/<
 
 |                                                                     |                               |
 | ------------------------------------------------------------------- | ----------------------------- |
-| $$p_{e'}^{\,2}c^{2}=(hf)^{2}+(hf')^{2}-2(hf)(hf')\cos {\theta }~.$$ | __<a id="math 2"></a> \(2\)__ |
+| $$p_{e'}^{\,2}c^{2}=(hf)^{2}+(hf')^{2}-2(hf)(hf')\cos {\theta }~.$$ | <a id="math 2"></a> __\(2\)__ |
 
 Equating the alternate expressions for this momentum gives
 
@@ -158,13 +158,13 @@ Finally, since _fλ_ = _f_′<!-- markdown separator -->_λ_′ = _c_,
 
 |                                                                         |                               |
 | ----------------------------------------------------------------------- | ----------------------------- |
-| $$\lambda '-\lambda ={\frac {h}{m_{\text{e} }c} }(1-\cos {\theta })~.$$ | __<a id="math 3"></a> \(3\)__ |
+| $$\lambda '-\lambda ={\frac {h}{m_{\text{e} }c} }(1-\cos {\theta })~.$$ | <a id="math 3"></a> __\(3\)__ |
 
 It can further be seen that the angle _φ_ of the outgoing electron with the direction of the incoming photon is specified by
 
 |                                                                                      |                               |
 | ------------------------------------------------------------------------------------ | ----------------------------- |
-| $$\cot \varphi =\left(1+{\frac {hf}{m_{\text{e} }c^{2} } }\right)\tan(\theta /2)~.$$ | __<a id="math 4"></a> \(4\)__ |
+| $$\cot \varphi =\left(1+{\frac {hf}{m_{\text{e} }c^{2} } }\right)\tan(\theta /2)~.$$ | <a id="math 4"></a> __\(4\)__ |
 
 ## applications
 
