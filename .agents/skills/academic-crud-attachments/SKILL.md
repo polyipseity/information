@@ -103,6 +103,8 @@ Questions-level attachments (COMP 2711H):
 
 Run `academic-lint` after every edit. Pass the changed files when known; otherwise lint the whole course folder.
 
+Alt text and any description of an attachment are prose: give them the humanizer pass before validating (see "Humanizer pass" in `academic-ingest`).
+
 ## References
 
 - `academic-crud-course-index` for course-root attachments in `## children`

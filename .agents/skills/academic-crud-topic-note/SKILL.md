@@ -102,14 +102,14 @@ The principle reaches inside a section. Paragraph order, the grouping of list it
 
 ### Nesting is always decided
 
-Decide nesting explicitly while planning the note. Do not inherit the source's depth or default to flat.
+Decide nesting explicitly while planning the note. Do not inherit the source's depth. Nesting is the default and flat is the outcome that needs a reason: a heading is what makes a sub-concept linkable, card-bearing, and skippable on a second reading.
 
-- __Nest__ (`###`) when a section carries two or more independently meaningful sub-concepts: a classification whose variants each own a block, per-case breakdowns (modes, models, layers), separate derivations or worked examples, or sub-topics a reader would link to on their own.
-- __Do not nest__ when the sub-topics read better as prose or a short list, when it would produce exactly one `###` (fold it back), or when the only reason is the source's layout.
-- __Tiebreaker__: count flashcards per variant. A variant earns its own block when it carries two or more flashcards, or more than a sentence or two of explanation. A variant captured by a single card stays flat however many variants the section has; three one-card variants are still flat.
-- __Depth__: `###` freely. `####` when it names a distinct sub-sub-concept of a `###` and splitting the note instead would fragment one concept, justified inline with `<!-- check: ignore-line[header_deep_nesting]: <reason> -->`. `#####` and deeper are unsanctioned: they mean the file boundary is wrong, so split the note instead.
-- Every `###` and deeper carries its own `---` separator and its own `Flashcards for this section are as follows:` block, recursively.
-- Flat is a valid outcome for a concept with no sub-concepts, as a decision rather than a default.
+- __Nest__ (`###`) as soon as a section carries two or more nameable sub-concepts: classification members, per-case breakdowns (modes, models, layers), separate derivations or worked examples, or sub-topics a reader would link to on their own. Prefer the split even when each sub-concept is short.
+- __Tiebreaker: count what the sub-concept owns, not how long it is.__ One card plus a sentence of its own prose earns a `###`, and so does a named member of a classification. Keep it inside the parent only when it owns neither: a clause inside another sub-concept's sentence, an example told within it, or a card with no prose of its own to head. Three one-card variants that each explain themselves are three headings, not one flat list.
+- __Stay flat__ when the section carries no sub-concepts at all, when nothing inside it earns a heading under the tiebreaker, or when everything that does is a parallel one-sentence row of a single mapping, enumeration, or table — those rows are card slices, not headings. A lone `###` is fine while the parent keeps substance of its own beside it, and folds back when it is the parent's whole content. "The material presented them together" is never the reason.
+- __Depth__: `###` freely. A `###` that carries its own two or more sub-concepts — the members of its classification, the cases of its rule, the steps of its derivation — nests to `####` rather than flattening or splitting, justified inline with `<!-- check: ignore-line[header_deep_nesting]: <reason> -->`. Splitting the note is for material that answers a different canonical-title question, not for material that is merely one level deeper.
+- `#####` and deeper are unsanctioned: they mean the file boundary is wrong, so split the note instead.
+- Every `###` and deeper carries its own `---` separator and its own `Flashcards for this section are as follows:` block, recursively: the validator requires a card block under every heading a non-index note carries, which is the other half of the tiebreaker.
 
 ## CRUD operations
 
@@ -124,7 +124,7 @@ Decide nesting explicitly while planning the note. Do not inherit the source's d
    - Mathematical spine: formula + derivation + intuition + worked example
    - The drawings the concept is defined by (a symbol, a convention, a construction) — attached as SVGs and embedded per `academic-crud-attachments`
    - The file boundary: one concept, per the merge and split tests in "Grouping: concepts, not source layout"
-   - The sections and their nesting, never mirroring the source's headings or depth
+   - The sections and their nesting — `###` for each sub-concept that owns a card and a sentence of its own, `####` where a `###` carries sub-concepts of its own (see "Nesting is always decided") — never mirroring the source's headings or depth
 4. __Scaffold the note file:__
 
     ```markdown

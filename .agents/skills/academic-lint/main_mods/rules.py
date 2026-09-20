@@ -2011,10 +2011,12 @@ def header_source_layout(ctx: ValidationContext) -> list[ValidationMessage]:
 def header_deep_nesting(ctx: ValidationContext) -> list[ValidationMessage]:
     """Warn when a heading nests four or more levels deep without justification.
 
-    Deep nesting usually means the file boundary is wrong: split the note into
-    separate topic notes instead of nesting further. A justified exception is
-    declared with a ``check: ignore-line[header_deep_nesting]`` suppression
-    comment, which the validator applies centrally.
+    A fourth level is expected whenever a ``###`` carries sub-concepts of its
+    own, and is preferred over splitting one concept across files, but the depth
+    still states its reason: a justified level uses a
+    ``check: ignore-line[header_deep_nesting]`` suppression comment, which the
+    validator applies centrally. Unjustified depth usually means the file
+    boundary is wrong, so split the note instead.
     """
     errors: list[ValidationMessage] = []
     if _source_layout_exempt(ctx):
@@ -2026,8 +2028,9 @@ def header_deep_nesting(ctx: ValidationContext) -> list[ValidationMessage]:
                 rule_id="header_deep_nesting",
                 msg=(
                     f"heading {m.group(2).strip()!r} is nested four or more levels deep; "
-                    "split the note into separate topic notes, or justify the depth with "
+                    "keep the depth if the sub-concepts belong to this note and justify it with "
                     + html_cpt("check: ignore-line[header_deep_nesting]: <reason>")
+                    + ", or split the note if they answer a question of their own"
                 ),
                 severity=Severity.WARNING,
                 line=line,

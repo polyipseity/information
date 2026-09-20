@@ -11,6 +11,8 @@ Wraps the `main.py` validator and defines when and how to run it.
 
 Run it after every edit to academic notes under `special/academia/`. Do not skip validation before committing.
 
+Validation is the __last__ step of an edit: the humanizer pass runs first (see "Humanizer pass" in `academic-ingest`), because rewriting a card can strand a suppression with nothing to suppress or create a warning that now needs one, and only the validator can show that.
+
 ## Invocation modes
 
 ### Specific files (preferred when known)

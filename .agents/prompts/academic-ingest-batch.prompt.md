@@ -82,11 +82,15 @@ Add child links to parent indexes (`tutorials/index.md`, course `index.md`). Chi
 
 Whatever the group's type — lecture, lab, or tutorial — compare the material against the course's existing topic notes and extend, prune, or leave each concept, or create the note that is missing. A `<type>.md` file is not the final home of a durable concept. See "Topic-note reconciliation (mandatory)" in the `academic-ingest` skill, and list the outcome for each note in the report. A drawing the material defines is one of those concepts, so the owning note carries the drawing itself rather than prose that describes it.
 
-## 9. Validate
+## 9. Humanizer pass
+
+Load the `humanizer` skill and sweep the new and changed prose and flashcards, the reconciled topic notes included, before validating. This is a content step, not an optional polish: a group whose prose or cards were never passed is unfinished. Prose and cards fail differently, so sweep them separately. See "Humanizer pass" in the `academic-ingest` skill.
+
+## 10. Validate
 
 Run `academic-lint` on all created/modified files.
 
-## 10. Report
+## 11. Report
 
 Summarize what was created, with file paths and any issues.
 

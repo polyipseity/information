@@ -55,7 +55,7 @@ For a picture the notes attach:
 
 - it shows the whole thing the note or question refers to, with no neighbouring content cut into it;
 - it is the material's own image or a crop of it — never a page render, never a screenshot of a slide (see `academic-crud-attachments`);
-- the alt text matches what the image actually shows.
+- the alt text matches what the image actually shows, and reads as a plain sentence: alt text and any prose you write about the image get the humanizer pass like anything else you write (see "Humanizer pass" in `academic-ingest`).
 
 ## When the model cannot see images
 

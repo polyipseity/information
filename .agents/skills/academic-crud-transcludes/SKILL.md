@@ -71,6 +71,8 @@ description: Manage transcludes/ directories containing Wikipedia articles inclu
 
 Run `academic-lint` after every edit. Pass the changed files when known; otherwise lint the whole course folder.
 
+The article body is verbatim, so the humanizer pass leaves it untouched; anything you write around it, such as a description in the course `index.md`, is yours to humanize (see "Humanizer pass" in `academic-ingest`).
+
 ## References
 
 - `academic-crud-topic-note` for `find_wikipedia.py` canonical title discovery

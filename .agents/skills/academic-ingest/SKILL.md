@@ -538,7 +538,7 @@ Route to the correct `academic-crud-*` skill with preprocessed context:
 After the dispatched skill completes:
 
 1. __Reconcile the topic notes.__ Run "Topic-note reconciliation (mandatory)" above for every material in this ingestion, whatever its source.
-2. __Humanizer pass.__ Load the `humanizer` skill and apply it to the new and changed prose and flashcards, the reconciled topic notes included, before validating; see "Humanizer pass" below.
+2. __Humanizer pass.__ Load the `humanizer` skill and apply it to the new and changed prose and flashcards, the reconciled topic notes included, before validating. Every later edit gets the same pass, whether or not an ingestion is running; see "Humanizer pass" below.
 3. Run validation on the created or modified files.
 4. Add a link to the assignment in the last lecture entry on or before its due date in the course `index.md`.
 5. Report what was created or updated, with file paths, and give the reconciliation outcome for each topic note.
@@ -548,7 +548,11 @@ After the dispatched skill completes:
 
 ### Humanizer pass
 
-Every note this skill dispatches to gets a humanizer pass over __both the prose and the flashcards__, run after the content is written and before `academic-lint`. Prose and cards fail differently, so sweep them separately.
+__Every edit to academic prose or flashcards triggers the pass, not only an ingestion.__ A note created from a deck, a reconciliation, a card rewritten on request, a heading renamed, a one-line correction: whatever changed the prose or the cards gets the pass over the text that changed, run after the edit and before `academic-lint`. Run it as you edit, or batch it at the end of the run when several edits accumulate — the timing is a choice, skipping it is not. Work that reaches the user with unpassed prose or cards is unfinished.
+
+Every note this skill dispatches to gets the pass over __both the prose and the flashcards__. Prose and cards fail differently, so sweep them separately.
+
+__Verbatim text is out of scope.__ Anything reproduced exactly as it arrived — a question statement from an official paper, the body of a Wikipedia transclude, an instructor's own phrasing — stays as it is, and so does heading text that session entries link to. The pass covers the prose and the cards you write.
 
 __"Humanize", "humanizer pass", and "reduce verbosity" all mean one thing: load the `humanizer` skill and apply it.__ The skill is the authority on what changes; cutting verbosity is only the usual __focus__ of a pass, never a substitute for it. Do not run a pass from memory of these rules.
 

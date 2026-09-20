@@ -57,6 +57,8 @@ Show a course's current agent instructions.
 
 Run `academic-lint` after every edit. Pass the changed files when known; otherwise lint the whole course folder.
 
+Give the rules you write the humanizer pass before validating: they are prose, and the AI patterns in the catalogue read as noise in a course's own instruction file (see "Humanizer pass" in `academic-ingest`).
+
 ## References
 
 - `academic-crud-course-index` for course structure and index linkage
