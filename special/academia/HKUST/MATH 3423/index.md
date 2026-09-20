@@ -28,10 +28,14 @@ MATH 3423 is an undergraduate course in statistical inference at HKUST covering 
 
 ## children
 
+- [Student's t-distribution](Student's%20t-distribution.md)
+- [chi-squared distribution](chi-squared%20distribution.md)
 - [estimator](estimator.md)
+- [multivariate normal distribution](multivariate%20normal%20distribution.md)
 - [parametric model](parametric%20model.md)
 - [random sample](random%20sample.md)
 - [sample mean](sample%20mean.md)
+- [sample variance](sample%20variance.md)
 - [statistic](statistic.md)
 - [statistical inference](statistical%20inference.md)
 
@@ -102,3 +106,42 @@ MATH 3423 is an undergraduate course in statistical inference at HKUST covering 
     - [§ sampling distribution](estimator.md#sampling%20distribution)
 - [sample mean](sample%20mean.md)
     - [§ distribution of the sample mean](sample%20mean.md#distribution%20of%20the%20sample%20mean)
+
+## week 1 lecture 2
+
+- datetime: 2026-09-03T10:30:00+08:00/2026-09-03T11:50:00+08:00
+- venue: G010, CYT Bldg
+- topic: multivariate normal distribution; chi-squared distribution; t distribution; distribution of the sample mean and sample variance
+- [multivariate normal distribution](multivariate%20normal%20distribution.md)
+    - [§ probability density function](multivariate%20normal%20distribution.md#probability%20density%20function)
+    - [§ linear transformations](multivariate%20normal%20distribution.md#linear%20transformations)
+    - [§ independence of the components](multivariate%20normal%20distribution.md#independence%20of%20the%20components)
+- [chi-squared distribution](chi-squared%20distribution.md)
+    - [§ squared standard normal](chi-squared%20distribution.md#squared%20standard%20normal)
+    - [§ additivity](chi-squared%20distribution.md#additivity)
+- [Student's t-distribution](Student's%20t-distribution.md)
+    - [§ probability density function](Student's%20t-distribution.md#probability%20density%20function)
+    - [§ convergence to the standard normal](Student's%20t-distribution.md#convergence%20to%20the%20standard%20normal)
+- [sample mean](sample%20mean.md)
+    - [§ distribution of the sample mean](sample%20mean.md#distribution%20of%20the%20sample%20mean)
+- [sample variance](sample%20variance.md)
+    - [§ distribution of the sample variance](sample%20variance.md#distribution%20of%20the%20sample%20variance)
+    - [§ independence from the sample mean](sample%20variance.md#independence%20from%20the%20sample%20mean)
+
+## week 1 tutorial
+
+- datetime: 2026-09-03T18:00:00+08:00/2026-09-03T18:50:00+08:00
+- venue: Rm 1011, LSK Bldg
+- status: no class
+
+---
+
+> __No tutorial class in Week 1__
+>
+> Hi there,
+>
+> Please note that there will be no tutorial class in Week 1.
+>
+> Regards,
+>
+> \[redacted\]

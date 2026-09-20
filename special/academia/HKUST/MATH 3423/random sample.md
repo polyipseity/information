@@ -12,7 +12,7 @@ tags:
 
 # random sample
 
-A _random sample_ is a collection of independent and identically distributed copies of a random variable $X$. Unless stated otherwise, the course assumes that $X_1, \ldots, X_n$ has this structure, which makes the joint distribution of the sample, and the behaviour of any statistic built from it, tractable.
+A _random sample_ is a collection of independent and identically distributed copies of a random variable $X$. Unless stated otherwise, $X_1, \ldots, X_n$ has this structure.
 
 ---
 
@@ -24,7 +24,7 @@ Flashcards for this section are as follows:
 
 ## the i.i.d. assumption
 
-Independence says no copy of $X$ carries information about any other, so probabilities for the sample multiply and variances of sums add: $\operatorname{Var}(X_1 + \cdots + X_n) = \operatorname{Var}(X_1) + \cdots + \operatorname{Var}(X_n)$. Identical distribution says every copy follows the same distribution as $X$, so one parameter $\theta$ serves the whole sample. Together the two are abbreviated i.i.d.
+Independence says no copy of $X$ carries information about any other, so probabilities for the sample multiply and variances of sums add: $\operatorname{Var}(X_1 + \cdots + X_n) = \operatorname{Var}(X_1) + \cdots + \operatorname{Var}(X_n)$. Identical distribution says every copy follows the same distribution as $X$, so one parameter $\theta$ is shared by the whole sample. Together the two are abbreviated i.i.d.
 
 ---
 
@@ -42,6 +42,6 @@ Under random sampling the joint distribution is determined by the common distrib
 
 Flashcards for this section are as follows:
 
-- joint pdf of a random sample: $f(x_1, \ldots, x_n \mid \theta)$ ::@:: $\prod_{i=1}^{n} f_X(x_i \mid \theta)$, a product because the copies are independent.
-- joint pmf of a random sample: for $i = 1, \ldots, n$ ::@:: $\prod_{i=1}^{n} p_X(x_i \mid \theta)$, the discrete analogue of the joint pdf.
-- parameter shared by a random sample: $\theta$ in the factorization ::@:: One parameter serves every copy, because the copies are identically distributed.
+- joint pdf of a random sample: $f(x_1, \ldots, x_n \mid \theta)$ for independent copies ::@:: $\prod_{i=1}^{n} f_X(x_i \mid \theta)$.
+- joint pmf of a random sample: for independent copies, $i = 1, \ldots, n$ ::@:: $\prod_{i=1}^{n} p_X(x_i \mid \theta)$, the discrete analogue of the joint pdf.
+- how many parameters a random sample carries: $\theta$ in the joint factorization ::@:: One, shared by every copy.

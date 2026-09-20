@@ -21,7 +21,7 @@ Flashcards for this section are as follows:
 
 ## data
 
-Data are the actual values of the target random variable $X$, whose distribution is not fully specified. Writing $x_1, \ldots, x_n$ for the $n$ observations, also called realizations, each $x_i$ is a known number once the sample is drawn, while the copies $X_1, \ldots, X_n$ that produced it are random. Data carry information about the unknown parameter, which is why they are used to estimate it.
+Data are the actual values of the target random variable $X$, whose distribution is not fully specified. Writing $x_1, \ldots, x_n$ for the $n$ observations, also called realizations, each $x_i$ is a known number once the sample is drawn, while the copies $X_1, \ldots, X_n$ that produced it are random. Data carry information about the unknown parameter.
 
 ---
 
@@ -34,12 +34,13 @@ Flashcards for this section are as follows:
 
 ## modes of inference
 
-From a parametric model, inference has three modes. Point estimation gives a single value for $\theta$: the sample mean or sample variance for an unknown population mean or variance, otherwise the method of moments or maximum likelihood. Interval estimation gives an interval, a confidence interval, instead of a point. Hypothesis testing tests hypotheses about the value of $\theta$. Interval estimation and hypothesis testing both need the exact or approximate distribution of the estimator.
+Point estimation gives a single value for $\theta$: the sample mean or sample variance for an unknown population mean or variance, otherwise the method of moments or maximum likelihood. Interval estimation gives an interval, a confidence interval, instead of a point. Hypothesis testing tests hypotheses about the value of $\theta$. Interval estimation and hypothesis testing both need the exact or approximate distribution of the estimator.
 
 ---
 
 Flashcards for this section are as follows:
 
+- modes of inference: from a parametric model ::@:: Point estimation, interval estimation, and hypothesis testing.
 - point estimation: as a guess for $\theta$ ::@:: A single value; the sample mean or sample variance for an unknown population mean or variance.
 - general point-estimation methods: when $\theta$ is neither the population mean nor the population variance ::@:: The method of moments and maximum likelihood estimation.
 - interval estimation: as a guess for $\theta$ ::@:: An interval-valued guess, a confidence interval, rather than a point.
