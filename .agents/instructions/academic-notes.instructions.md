@@ -34,7 +34,7 @@ For all academic material ingestion, start with the `academic-ingest` dispatcher
 
 - Use underscore-normalized flashcard tags: `flashcard/active/special/academia/HKUST/COMP_3031`.
   Spaces → underscores; keep consistent with institution/course code formatting.
-- Do not put instructor or TA names or email addresses in course notes.
+- Do not put instructor or TA names or email addresses in course notes. Content quoted verbatim is the one case that keeps a visible mark: an instructor or TA name inside it is redacted as `\[redacted\]`, while anywhere else the name is omitted (see `../skills/academic-crud-course-index/SKILL.md`).
 - Course-local `AGENTS.md` files must use heading `# <course code> agent instructions` and must not contain flashcard markup.
 - Do not use chapter numbers as durable references in prose, flashcards, routes, or agent guidance. Use topic names and in-repo section links instead.
 - Never narrate the source in a note: no `the deck`, `the slides`, `the lecture`, or `the course` as the subject of a sentence, and no reporting what a source shows or asks. State the fact, example, or question itself; provenance belongs to the course `index.md` session entries.

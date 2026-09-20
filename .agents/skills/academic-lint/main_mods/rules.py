@@ -2468,8 +2468,9 @@ def latex_disallowed_delimiters(ctx: ValidationContext) -> list[ValidationMessag
     r"""Disallow alternative LaTeX delimiters \[ \] or \( \) in favour of $.
 
     Search the text for the deprecated delimiters and flag their locations.
-    Excludes repo data-convention patterns ``\[missing\]`` and ``\(none\)``
-    which use the same escape sequences but are not LaTeX.
+    Excludes repo data-convention patterns ``\[missing\]``, ``\(none\)``,
+    and ``\[redacted\]`` which use the same escape sequences but are not
+    LaTeX.
     """
     errors: list[ValidationMessage] = []
     # match the four deprecated delimiter sequences: \[, \], \(, or \)
@@ -2478,9 +2479,11 @@ def latex_disallowed_delimiters(ctx: ValidationContext) -> list[ValidationMessag
     # spurious warnings.  Restricting the pattern to the exact four sequences
     # resolves those false positives.
     #
-    # Exclusion: \[missing\] and \(none\) are repo data-convention tokens
-    # (see special.instructions.md § missing-data), not LaTeX.  Skip any
-    _EXCLUDED_TOKENS = (r"\[missing\]", r"\(none\)")
+    # Exclusion: \[missing\], \(none\) (see special.instructions.md
+    # § missing-data) and \[redacted\] (the redaction of an announcement
+    # signature, see the announcement convention in academic-crud-course-index)
+    # are repo data-convention tokens, not LaTeX.  Skip any
+    _EXCLUDED_TOKENS = (r"\[missing\]", r"\(none\)", r"\[redacted\]")
     excluded: list[tuple[int, int]] = []
     for tok in _EXCLUDED_TOKENS:
         pos = 0

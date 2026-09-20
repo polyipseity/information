@@ -167,7 +167,7 @@ Preprocess each input:
 Identify the HTML source type before extraction:
 
 - __Canvas HTML__: URL contains `canvas.ust.hk`; has assignment metadata (title, due date, points, grade). Extract via `convert_canvas_submission`.
-- __Canvas announcement__: URL contains `canvas.ust.hk` and the page type is "Topic". Has a title and body but no grade or submission metadata. Extract the title and body verbatim, omitting the author name and platform chrome ("This topic is closed for comments").
+- __Canvas announcement__: URL contains `canvas.ust.hk` and the page type is "Topic". Has a title and body but no grade or submission metadata. Extract the title and body verbatim, dropping the platform chrome ("This topic is closed for comments") and redacting an instructor or TA name the body itself contains as `\[redacted\]`; see "Announcement preservation" in `academic-crud-course-index`.
 - __PRS/iClicker HTML__: URL contains `prsmob.ust.hk/ars/`; has question text and numbered answer choices. Extract the quiz content directly; do not run `convert_canvas_submission`.
 - __Generic HTML__: neither pattern. Extract readable text.
 
@@ -399,7 +399,7 @@ PRS/iClicker HTML can embed base64 images (circuit diagrams, pinouts, sensor ill
 
 ### Canvas announcement extraction
 
-Extract the title and body verbatim, strip the author name, timestamp, and platform chrome, then place them as a bolded blockquote in the matching session entry (see "Announcement preservation" in `academic-crud-course-index`). Match assignment-related announcements to the lecture entry that links the assignment, and activity-related ones to the lab or tutorial entry. Announcement pages carry no grade or submission metadata, so never run `convert_canvas_submission` on them.
+Extract the title and body verbatim, strip the timestamp and platform chrome, redact an instructor or TA name the body contains as `\[redacted\]`, then place them as a bolded blockquote in the matching session entry (see "Announcement preservation" in `academic-crud-course-index`). Match assignment-related announcements to the lecture entry that links the assignment, and activity-related ones to the lab or tutorial entry. Announcement pages carry no grade or submission metadata, so never run `convert_canvas_submission` on them.
 
 ### In-class component detection
 

@@ -2093,6 +2093,13 @@ def test_latex_disallowed_delimiters():
     msgs = latex_disallowed_delimiters(ctx)
     assert msgs, r"\[ ... \] should still be flagged"
 
+    # \[redacted\] is the repo redaction token for an announcement signature,
+    # not LaTeX, so it is excluded alongside \[missing\] and \(none\).
+    txt = "> Regards,\n>\n> \\[redacted\\]\n"
+    ctx = make_ctx(txt)
+    msgs = latex_disallowed_delimiters(ctx)
+    assert not msgs, r"\[redacted\] should not trigger the rule"
+
 
 def test_latex_environment_unwrapped():
     """An unwrapped \begin{align*} block should trigger a warning."""

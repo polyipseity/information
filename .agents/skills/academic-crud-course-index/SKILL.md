@@ -371,8 +371,9 @@ Canvas announcements (discussion/topic pages) are placed as blockquotes in the s
 
 Add an announcement when a Canvas HTML source is a discussion/topic page (title starting with "Topic:", or page type discussion): extract the title and body and place them in the chronologically matching session entry.
 
-Format each announcement as a blockquote with the title bolded, omitting the author name and platform chrome ("This topic is closed for comments", navigation elements). Preserve the original wording, paragraph structure, and inline formatting.
+Format each announcement as a blockquote with the title bolded, preserving the original wording, paragraph structure, and inline formatting. Drop the platform chrome: the author/teacher metadata line, the posting timestamp, "This topic is closed for comments", and navigation elements.
 
+- __Names inside the body__: an instructor or TA name the quoted body itself carries, in a greeting or a signature, becomes `\[redacted\]` rather than disappearing. The body is preserved verbatim, so the name leaves a visible mark where it stood. A name outside a quoted announcement is simply omitted.
 - __Paragraphs__: each logical paragraph becomes a separate `>` line group separated by `>` blank lines.
 - __Non-paragraph line breaks__: use `<br/>` for line breaks within a paragraph (list items in one visual block, forced breaks in the original HTML). Do not collapse multiple lines into one.
 - __Inline formatting__: preserve bold (`__bold__`), italics (`_italic_`), code (`` `code` ``), underline (`<u>text</u>`), and emphasis. Map HTML `<b>`/`<strong>` to `__`, `<i>`/`<em>` to `_`, `<code>` to backticks, and `<u>` to `<u>` tags.
@@ -403,6 +404,10 @@ Format each announcement as a blockquote with the title bolded, omitting the aut
 > - Standard Deviation (SD): W
 >
 > Please note that __taking photos is NOT allowed__ during the paper review session.
+>
+> Regards,
+>
+> \[redacted\]
 ```
 
 The number in parentheses after Maximum Score (`Maximum Score: 20 (66)`) is the count of students who reached that score, not the total number of students.
