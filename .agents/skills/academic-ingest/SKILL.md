@@ -106,6 +106,8 @@ __Cache check__: before running `convert_document.py`, check if `.extracted/` ex
 - `pages/page_NNN.png`: a 150 DPI render of the whole page or slide, for locating content and reading slide text and layout.
 - `images/`: the document's embedded images at true resolution, named for their page or slide. Read a figure here; the render is downscaled, so small labels and lettering that are unreadable in `pages/` are often clear.
 
+__Look at every page and figure the material carries.__ When the model accepts images, open the page renders and the embedded images before classifying the material and before writing any prose about them; the `academic-vision` skill fixes the method, the legibility rules, and the checklist an image must pass. A figure described without having been looked at is a fabrication, not a summary.
+
 __Read the embedded image, not the render, when the figure matters.__ A page whose extracted text is thin or empty usually still holds content. Open its embedded image, and crop and upscale if detail is unclear:
 
 ```bash
@@ -114,7 +116,8 @@ magick images/page_035_img_1.png -crop 200x70+320+235 +repage -resize 500% /tmp/
 
 Classify what the image holds, because each kind is handled differently:
 
-- __Text-bearing figure__ (diagram, plot, table, labelled schematic, document screenshot): transcribe its labels, values, and steps into the note as prose or a Markdown table. The transcription is the record.
+- __Definitional drawing__ (a symbol, a schematic convention, a reference direction, a construction the material states by showing how it is drawn): the drawing is the definition, so attach it — see "Definitional drawings" below. No prose transcription replaces it.
+- __Text-bearing figure__ (plot, table, document screenshot, annotated diagram that defines nothing): transcribe its labels, values, and steps into the note as prose or a Markdown table. The transcription is the record.
 - __Purely pictorial image__ (photograph, engraving, illustration): describe it for the point it makes, per the rule below.
 
 __Describe for learning, not for its own sake.__ Work out what the image does in its slide or section (a before/after pair showing a change in market structure, a diagram of a mechanism's steps, a chart supporting a claim) and write the description that carries that point. Include the detail that serves it and leave the rest out; do not inventory the picture. A photograph illustrating "trading floors then and now" needs the crowd, the medium, and the contrast, not every object in frame.
@@ -127,7 +130,18 @@ __Never assert what the image does not show.__ An image is evidence of what it d
 - Do not read a chart's shape as a quantity it never states. The mode of a distribution is not its mean, and a line's movement is not a price change the slide never claims.
 - Keep observation apart from the deck's commentary. "Men with arms raised and papers in hand" is observed; "bidding by open outcry" is the deck's framing of a trading floor, and one sentence must not present the second as if the image showed it.
 
-__Attach a graphic only when the picture itself is the material.__ Page renders are never attachments, and an embedded image normally stays in `.extracted/` because text can carry what it shows. Copy one into `attachments/` under a descriptive name only when the reader must see the picture itself (geometry that carries the meaning, a chart whose shape is the point, a cheatsheet); expect that to be rare.
+__Attach a graphic only when the picture itself is the material.__ Page renders are never attachments, and an embedded image normally stays in `.extracted/` because text can carry what it shows. Copy one into `attachments/` under a descriptive name only when the reader must see the picture itself (geometry that carries the meaning, a chart whose shape is the point, a cheatsheet); expect that to be rare. A definitional drawing is the standing exception, and it is redrawn rather than copied — see below.
+
+#### Definitional drawings
+
+A drawing is part of a definition when the note cannot state the thing without showing it: a circuit symbol, a reference direction drawn on an element, a measurement setup, a construction. Such a drawing belongs beside the prose that defines it, and the prose alone never replaces it.
+
+- Redraw it as an SVG in the owning directory's `attachments/`, produced by a generator script kept beside the drawings (`generate_circuit_diagrams.py`), so the set stays reproducible and editable; see `academic-crud-attachments`.
+- Name it for what it draws (`symbol_<thing>.svg`, `<thing>_<convention>.svg`), never for the slide or page it came from. A form that differs is its own file, and the Markdown places the set side by side.
+- Hand placement to the library: chain the elements, attach labels to the element they belong to, hang leads on named anchors, and pass no coordinate or nudge. See `academic-crud-attachments` for the full rule, and `academic-vision` for the render-and-compare check the drawing must pass.
+- Embed it inline where the prose defines the thing, joined to the sentence by `<p>`: `text. <p> ![plain-language alt text](attachments/<name>.svg)`. Write the alt text in plain words, with no LaTeX.
+- Card it in both directions: recognition with the drawing on the prompt side, recall with the drawing on the answer side, and both sides for a transformation — see `create-flashcards`.
+- A picture specific to one question or worked example is not a definition: keep it as a crop of the extracted image in `attachments/`.
 
 ## Input handling
 
@@ -366,7 +380,7 @@ After extraction, the material lands as follows. Nothing here authorises deletin
 - Prompt PDFs, data files, images → `attachments/` (only actual media/data)
 - Original HTML files → left at their original path; not copied into the repository
 - Original document files (PDF, DOCX, PPTX): content documents are left in place with the `.md` as the canonical copy; attachment documents are copied into `attachments/` and the source is left in place
-- Figures → transcribed into the note; an embedded image is copied to `attachments/` under a descriptive name only when the picture itself is the material
+- Figures → transcribed into the note; a definitional drawing is attached as a redrawn SVG (see "Definitional drawings"), and an embedded image is copied to `attachments/` under a descriptive name only when the picture itself is the material
 - Extracted text → the `.md` file for content documents; ephemeral reference for attachment documents (the original is canonical)
 - `.extracted/` folders → derived cache artifacts, not tracked in `index.md`
 
@@ -379,7 +393,7 @@ PRS/iClicker HTML can embed base64 images (circuit diagrams, pinouts, sensor ill
 1. Scan for `data:image/...;base64,...` URIs.
 2. Skip tiny images (< 1 KB); they are UI icons.
 3. Use the original filename when available; otherwise generate a descriptive one (`req_circuit.jpg`, `l293_pinout.jpg`).
-4. Preserve the original alt text from the `<img>` tag. If it is missing or empty, write a concise plain-language description of what the image shows ("Resistor network with 6, 12, 3, and 2 ohm resistors"); never use LaTeX in alt text.
+4. Preserve the original alt text from the `<img>` tag. If it is missing or empty, look at the image and write a concise plain-language description of what it shows ("Resistor network with 6, 12, 3, and 2 ohm resistors"); never use LaTeX in alt text, and never describe an image you have not opened — see `academic-vision`.
 5. Reference the image in the quiz markdown as `![<alt text>](attachments/<name>.jpg)` inside the blockquote question.
 6. List it in the `## attachments` section of both `<type>.md` and `index.md` (an in-class-only `index.md` omits `## attachments`).
 
@@ -403,6 +417,8 @@ Attachment directory placement follows the target:
 - Course-level → `attachments/` at the course root
 
 Skip this step when no raw files accompany the material.
+
+A definitional drawing is an attachment even without a source file: redraw it as an SVG beside a generator script in the target's `attachments/` and embed it in the note that defines the thing (see "Definitional drawings" and `academic-crud-attachments`).
 
 ## Non-Canvas content templates
 
@@ -484,14 +500,14 @@ Separate consecutive blockquote questions with `<!-- markdownlint MD028 -->`. St
 
 ## Topic-note reconciliation (mandatory)
 
-Every ingestion is compared against the course's existing topic notes, whatever the material is: a lecture deck, a lab manual, a tutorial handout, a problem set, a Canvas page, or a single figure. Session files (`lab.md`, `tutorial.md`, `lecture.md`, quiz pages, `questions/`) hold the material as it arrived; the course's durable concepts belong to the topic notes. Material whose concepts reach only a session file is an unfinished ingestion.
+Every ingestion is compared against the course's existing topic notes, whatever the material is: a lecture deck, a lab manual, a tutorial handout, a problem set, a Canvas page, or a single figure. Session files (`lab.md`, `tutorial.md`, `lecture.md`, quiz pages, `questions/`) hold the material as it arrived; the course's durable concepts belong to the topic notes. Material whose concepts reach only a session file is an unfinished ingestion. The drawings count as concepts: when the material defines a symbol or a convention by drawing it, the owning note carries the drawing itself (see "Definitional drawings").
 
 Run this after the dispatched CRUD skill has written its files and before the humanizer pass:
 
 1. __List the concepts.__ Take every concept the material carries, including ones that look already covered.
 2. __Find the owning note and section.__ Match by canonical title and by section meaning, never by wording; a course note may cover the concept under a different name.
 3. __Apply exactly one outcome per concept, and record it:__
-    - __extend__: the material adds a fact, distinction, example, or card the note lacks — write it into the owning section in the note's own words;
+    - __extend__: the material adds a fact, distinction, example, drawing, or card the note lacks — write it into the owning section in the note's own words;
     - __prune__: the material contradicts, supersedes, or duplicates what the note says — remove or correct the stale part within the note's scope;
     - __create__: no note owns the concept and it is durable knowledge independent of the session — create a topic note per `academic-crud-topic-note` and link it from the course `index.md`;
     - __leave__: the note already covers the concept — name the section that covers it.
@@ -587,10 +603,13 @@ Three catalogue patterns never apply here: headings are already sentence case, n
 
 Attachment setup uses `academic-crud-attachments` as a post-classification helper for any target that includes raw files.
 
+Reading, judging, and verifying images uses `academic-vision` as a helper wherever the material carries pictures: page renders, embedded figures, attached crops, and the drawings the notes generate.
+
 ## References
 
 - All `academic-crud-*` skills for dispatch targets
 - `academic-crud-attachments` for attachment directory setup
+- `academic-vision` for looking at, classifying, and verifying images, including the generated drawings
 - `academic-deprecated` for legacy pattern migration
 - `create-flashcards` for flashcard markup guidance
 - `humanizer` for the AI-writing patterns the humanizer pass removes

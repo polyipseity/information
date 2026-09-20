@@ -37,6 +37,8 @@ Classify each file's source type:
 - __PDF/image__: prompt files, data → `attachments/`
 - __Generic HTML__: readable text
 
+Every group is also __looked at__, not only read. Before classifying, open the page renders and the embedded figures, decide what each figure is (definitional drawing, text-bearing figure, or purely pictorial), and use the images for anything the text extraction drops or mangles: labels inside a diagram, a formula rendered as a picture, a table's layout, handwriting added to a slide. A group whose figures were never opened is not ingested. Method, legibility rules, and the checklist live in `academic-vision`.
+
 ## 3. Parse
 
 Extract course, session number, and binding from directory names:
@@ -57,6 +59,7 @@ When multiple source types target the same directory, assign contributions:
 - PRS HTML → quiz content → `<type>.md`
 - Canvas HTML → grade metadata → `<type>.yml` (via `convert_canvas_submission`)
 - PDF prompt files → `attachments/` (only actual media/data)
+- Definitional drawings from any source → redrawn SVG in the target's `attachments/`, embedded in the note that defines the thing, and verified against the source by looking at the render (see "Definitional drawings" in `academic-ingest` and `academic-vision`)
 - Source HTML files → __left in place at their original path__ (not copied into the repo)
 
 ## 6. Create
@@ -67,7 +70,7 @@ For each target directory, in dependency order:
 2. Write component YAML first (`<type>.yml`, `submission.yml`)
 3. Write content file (`<type>.md`) with extracted quiz questions
 4. Write `index.md` with submission and children only (no metadata section)
-5. Copy only actual media/data to `attachments/` (PDFs, images, data files)
+5. Copy only actual media/data to `attachments/` (PDFs, images, data files), and redraw each definitional drawing as an SVG beside its generator script. Look at every drawing you produce, side by side with its source, before it reaches a note — see `academic-vision`.
 
 Do not copy HTML source files into `attachments/`.
 
@@ -77,7 +80,7 @@ Add child links to parent indexes (`tutorials/index.md`, course `index.md`). Chi
 
 ## 8. Reconcile topic notes
 
-Whatever the group's type — lecture, lab, or tutorial — compare the material against the course's existing topic notes and extend, prune, or leave each concept, or create the note that is missing. A `<type>.md` file is not the final home of a durable concept. See "Topic-note reconciliation (mandatory)" in the `academic-ingest` skill, and list the outcome for each note in the report.
+Whatever the group's type — lecture, lab, or tutorial — compare the material against the course's existing topic notes and extend, prune, or leave each concept, or create the note that is missing. A `<type>.md` file is not the final home of a durable concept. See "Topic-note reconciliation (mandatory)" in the `academic-ingest` skill, and list the outcome for each note in the report. A drawing the material defines is one of those concepts, so the owning note carries the drawing itself rather than prose that describes it.
 
 ## 9. Validate
 

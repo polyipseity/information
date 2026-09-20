@@ -37,6 +37,7 @@ The `academic-*` skills handle all academic material ingestion:
 | Skill | Purpose |
 | --- | --- |
 | `academic-ingest` | Dispatcher — classify input, resolve course, route to CRUD skill |
+| `academic-vision` | Look at images the material carries: classify a figure, read what only the picture shows, verify a drawing or crop before it reaches a note |
 | `academic-lint` | Validate academic notes after edits (wraps main.py) |
 | `academic-crud-course-index` | Top-level `index.md`, exams, logistics |
 | `academic-crud-index` | Sub-directory `index.md` (shared utility) |

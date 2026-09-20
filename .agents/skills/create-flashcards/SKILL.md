@@ -22,6 +22,16 @@ __Academic content:__ when editing `special/academia` material, also consult `ac
 
 The closing cloze delimiter `}@}` comes before any trailing punctuation, which sits after the delimiter: `{@{text}@}.`, not `{@{text.}@}`.
 
+## Diagrams in cards
+
+A card may carry a diagram on the prompt side, the answer side, or both. A drawing a note defines has to come back as a drawing, so the cards carry it, not only the prose.
+
+- __Recognition__: drawing on the prompt side, name or reading on the answer side — `- ground symbol: ![ground symbol: stacked horizontal strokes at a node](attachments/symbol_ground.svg) ::@:: The reference node whose potential is taken as $0\text{ V}$.`
+- __Recall__: question on the prompt side, drawing on the answer side — `- draw the ground symbol: how is the node taken as $0\text{ V}$ marked on a circuit diagram? ::@:: Horizontal strokes stacked at the node. <p> ![ground symbol: stacked horizontal strokes at a node](attachments/symbol_ground.svg)`. Every drawing a note defines needs at least one recall card, since the picture is what has to be produced.
+- __Both__: each side carries a drawing when the card is a comparison or a transformation, the starting drawing on one side and the result on the other.
+
+Paths are relative to the note (`attachments/<name>.svg`), and alt text is a plain-language description with no LaTeX. Several drawings that belong together (the forms one symbol can take, or the two directions of a convention) go side by side on the same line, each with its own alt text. Keep the card on one Markdown line and separate the image from the surrounding text with `<p>`. An answer that is a drawing is complete on its own; add a short description beside it when the card also has to read in the reverse direction. Look at the drawing in both directions before carding it, and write the alt text while looking — see `academic-vision`.
+
 ## Academic conventions
 
 __Private quiz archives__ (the user has confirmed a checked option is correct): prefer a short `- explanation:` bullet with clozes over a bare answer-only card. Cloze the decisive method, condition, contrast, or reason; do not merely hide the same final option twice. When the question or answer depends on an embedded figure, still add the cloze-rich explanation rather than treating the image as review support. If the `Solution:` line contains the image, keep at least one cloze on that line too, so the chosen option or structural descriptor is directly quizzable.

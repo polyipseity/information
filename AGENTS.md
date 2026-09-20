@@ -109,6 +109,7 @@ __Skills metadata__: Each skill is self-described in its `SKILL.md` frontmatter 
 ### Academic material ingestion
 
 - __[academic-ingest](.agents/skills/academic-ingest/SKILL.md)__ — Single entry point: classify input, resolve course, dispatch to CRUD skill
+- __[academic-vision](.agents/skills/academic-vision/SKILL.md)__ — Look at the images a material carries: classify figures, read what only a picture shows, verify drawings and crops before they reach a note
 - __[academic-lint](.agents/skills/academic-lint/SKILL.md)__ — Validate academic notes after edits (wraps main.py)
 - __[academic-crud-course-index](.agents/skills/academic-crud-course-index/SKILL.md)__ — Top-level `index.md`, exams, logistics, course scaffolding
 - __[academic-crud-index](.agents/skills/academic-crud-index/SKILL.md)__ — Sub-directory `index.md` (shared utility)
@@ -121,7 +122,7 @@ __Skills metadata__: Each skill is self-described in its `SKILL.md` frontmatter 
 - __[academic-deprecated](.agents/skills/academic-deprecated/SKILL.md)__ — Deprecated patterns (documentation-only)
 - __[create-flashcards](.agents/skills/create-flashcards/SKILL.md)__ — Flashcard markup (referenced by academic skills)
 
-__Skill flow__: Start with `academic-ingest` for all ingestion. It dispatches to the appropriate CRUD skill. Run `academic-lint` after every edit. Most workflows use multiple skills in sequence; see individual skill files for cross-references and integration guidance.
+__Skill flow__: Start with `academic-ingest` for all ingestion. It dispatches to the appropriate CRUD skill, and `academic-vision` covers every step that depends on what an image shows. Run `academic-lint` after every edit. Most workflows use multiple skills in sequence; see individual skill files for cross-references and integration guidance.
 
 ## Recent updates
 

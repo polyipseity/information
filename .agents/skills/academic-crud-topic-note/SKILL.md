@@ -122,6 +122,7 @@ Decide nesting explicitly while planning the note. Do not inherit the source's d
    - Examples, counterexamples, worked problems
    - Teaching caveats, distinctions, classifications
    - Mathematical spine: formula + derivation + intuition + worked example
+   - The drawings the concept is defined by (a symbol, a convention, a construction) — attached as SVGs and embedded per `academic-crud-attachments`
    - The file boundary: one concept, per the merge and split tests in "Grouping: concepts, not source layout"
    - The sections and their nesting, never mirroring the source's headings or depth
 4. __Scaffold the note file:__
@@ -277,7 +278,7 @@ Use `\[missing\]` for absent values, such as a topic with no cross-references or
 
 - Define jargon near first use ($V_{CC}$, $V_{CE}$, "low-side switch").
 - Give circuit topology, polarity, and loop direction in cards.
-- Add diagram-recall flashcards for key symbols.
+- Embed the drawing itself for each symbol and convention (`attachments/`, see `academic-crud-attachments`), then card it both ways: recognition (drawing shown) and recall (drawing asked for), per `create-flashcards`.
 - For signal processing, explain the chain stage by stage.
 
 ### Accounting notes

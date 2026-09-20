@@ -131,7 +131,7 @@ Every line inside a blockquote must begin with `>`, blank lines included.
 - Preserve the official prompt text in blockquotes.
 - Label answers `- archived selection:` or `- selected answer:`, not `- solution:` unless confirmed.
 - Preserve quiz metadata: datetime, points, time limit, attempts.
-- Extract figures from Canvas HTML into `attachments/`.
+- Extract figures from Canvas HTML into `attachments/` (`academic-vision` covers looking at each one and writing its alt text).
 - Keep `Explanation:` with cloze coverage even for image-based questions.
 
 ## Flashcard conventions for question pages
