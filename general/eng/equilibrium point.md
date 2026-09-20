@@ -1,0 +1,1 @@
+equilibrium point (mathematics).md
