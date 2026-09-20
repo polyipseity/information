@@ -25,7 +25,7 @@ Flashcards for this section are as follows:
 
 ## ideal voltage source
 
-An ideal voltage source, also called an independent voltage source, maintains the constant voltage $V_s$ across its terminals independently of the load and of the current it carries. Circuit diagrams mark it with a circle holding a $+$ mark and a $-$ mark, or with the battery symbol of two parallel lines of unequal length whose longer line is the positive terminal.
+An ideal voltage source, also called an independent voltage source, maintains the constant voltage $V_s$ across its terminals independently of the load and of the current it carries. Circuit diagrams mark it with a circle holding a $+$ mark and a $-$ mark, with a rectangle holding the same two marks, or with the battery symbol of two parallel lines of unequal length whose longer line is the positive terminal.
 
 Because the voltage is fixed, the element has no single operating current: its current plotted against its voltage is the single vertical line at $V_s$, so a current of any size in either direction pairs with the same terminal voltage.
 
@@ -34,7 +34,7 @@ Because the voltage is fixed, the element has no single operating current: its c
 Flashcards for this section are as follows:
 
 - overview ::@:: An ideal voltage source, also named an independent voltage source, maintains the constant voltage $V_s$ across its terminals independently of the load and of the current through it. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- circuit symbol: which two drawings stand for an ideal voltage source of voltage $V_s$ in a circuit diagram? ::@:: A circle carrying a $+$ mark and a $-$ mark inside it, or the battery symbol of two parallel lines of unequal length with the longer line at the positive terminal.
+- circuit symbol: which drawings stand for an ideal voltage source of voltage $V_s$ in a circuit diagram? ::@:: A circle carrying a $+$ mark and a $-$ mark inside it, a rectangle carrying the same two marks, or the battery symbol of two parallel lines of unequal length with the longer line at the positive terminal.
 - physical realisation: which physical device is the standard realisation of a voltage source? ::@:: The battery.
 - I-V characteristic: what does the current-against-voltage plot of an ideal voltage source of voltage $V_s$ look like? ::@:: The current $I_s$ plotted against the voltage is the vertical line at $V_s$. With the voltage plotted against the current, the same relation is the horizontal line at $V_s$.
 - which quantity follows the load: which terminal quantity of an ideal voltage source of voltage $V_s$ follows the load, and which stays fixed? ::@:: The current follows the load, while the terminal voltage stays at $V_s$.

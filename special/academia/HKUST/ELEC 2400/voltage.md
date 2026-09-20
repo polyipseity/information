@@ -79,12 +79,16 @@ Flashcards for this section are as follows:
 
 Potential values are fixed only up to a common offset, so a reference point must be chosen before a single potential can be quoted. Assigning the ground potential $0\text{ V}$ and letting $B$ be ground turns the difference into the value at the other point, since $V_{AB} = V_A - V_B = V_A - 0 = V_A$. A circuit can then quote a potential at one node without naming the second point.
 
+Every quoted potential shifts with the reference, while the differences do not. In a $10\text{ V}$ source feeding a $1\ \Omega$ resistor, with $A$ at the source's positive terminal and $B$ at its negative terminal, grounding $B$ gives $V_A = 10\text{ V}$ and $V_B = 0\text{ V}$. Grounding $A$ instead gives $V_A = 0\text{ V}$ and $V_B = -10\text{ V}$: both values shift by $-10\text{ V}$, and the $10\text{ V}$ across the source stays as it was.
+
 ---
 
 Flashcards for this section are as follows:
 
 - ground reference / zero of potential: what value is ground assigned, and what does $V_{AB} = V_A - V_B$ reduce to when $B$ is ground? ::@:: $0\text{ V}$, so $V_{AB} = V_A - 0 = V_A$.
 - ground reference / implicit reference: a circuit quotes the potential at a point $A$ as $V_A$ with no second point named; what reference is understood? ::@:: The ground potential, $0\text{ V}$, so $V_A$ means $V_{AB}$ with $B$ at ground.
+- ground reference / worked example with $B$ grounded: a $10\text{ V}$ source feeds a $1\ \Omega$ resistor, with $A$ at the source's positive terminal and $B$ at its negative terminal and $B$ grounded; what are $V_A$ and $V_B$? ::@:: $V_B = 0\text{ V}$ and $V_A = 10\text{ V}$.
+- ground reference / moving the ground to the other node: the same circuit is grounded at $A$ instead; what are $V_A$ and $V_B$, and what becomes of their difference? ::@:: $V_A = 0\text{ V}$ and $V_B = -10\text{ V}$: both values move by $-10\text{ V}$ while $V_A - V_B = 10\text{ V}$ stays fixed.
 
 ### swapping the two points
 
@@ -115,10 +119,11 @@ Flashcards for this section are as follows:
 - equivalent labels: an element between $A$ and $B$ carries an arrow from $B$ to $A$ labelled $3\text{ V}$, an arrow from $A$ to $B$ labelled $-3\text{ V}$, a $-$ mark at $A$ with a $+$ mark at $B$ labelled $-3\text{ V}$, and a $+$ mark at $A$ with a $-$ mark at $B$ labelled $3\text{ V}$; are these the same? ::@:: Yes, all four state $V_A - V_B = 3\text{ V}$.
 - simpler pair of labels: an element between $A$ and $B$ carries an arrow pointing from $B$ towards $A$ and labelled $1\text{ V}$, and the same element carries $1\text{ V}$ beside a $+$ mark at $A$ and a $-$ mark at $B$; are these the same? ::@:: Yes, both read $V_A - V_B = 1\text{ V}$, and the marked form is the preferred one.
 - sign reversal: a diagram labels an element $3\text{ V}$ with the plus mark at $A$ and the minus mark at $B$; what does the label become once the two marks are exchanged, and what does the exchanged label still state? ::@:: It becomes $-3\text{ V}$; negating it gives $3\text{ V}$, so the diagram still states $V_A - V_B = 3\text{ V}$.
+- marks without a value: an element between $A$ and $B$ carries a $+$ mark at one terminal and a $-$ mark at the other, with no value written; what does that settle about $V_A$ and $V_B$? ::@:: Only the reference, that is, which terminal counts as positive: the ordering of the two potentials and their values against zero stay undecided.
 
 ## measuring voltage
 
-A voltmeter reads the potential difference between whatever its two probes touch. An analog or digital voltmeter measures the voltage across an element such as a battery when the red probe touches the positive terminal and the black probe touches the negative terminal. For a $1.5\text{ V}$ AA battery that reading is $1.5\text{ V}$. Exchanging the two probes keeps the magnitude and flips the sign of the reading.
+A voltmeter reads the potential difference between whatever its two probes touch, with the red probe positive, so the reading is $V_{\text{red}} - V_{\text{black}}$. An analog or digital voltmeter measures the voltage across an element such as a battery when the red probe touches the positive terminal and the black probe touches the negative terminal. For a $1.5\text{ V}$ AA battery that reading is $1.5\text{ V}$. Exchanging the two probes keeps the magnitude and flips the sign of the reading.
 
 A defined reading also needs a complete circuit. When a terminal floats unconnected, the display shows an undefined value or fluctuates.
 
@@ -127,6 +132,7 @@ A defined reading also needs a complete circuit. When a terminal floats unconnec
 Flashcards for this section are as follows:
 
 - overview ::@:: Connect the red probe to the positive terminal and the black probe to the negative terminal of an element, and an analog or digital voltmeter then reads the potential difference across it.
+- reading rule: the red probe rests at a point of potential $V_{\text{red}}$ and the black probe at a point of potential $V_{\text{black}}$; what does the meter read? ::@:: $V_{\text{red}} - V_{\text{black}}$.
 - correct probes: a $1.5\text{ V}$ AA battery is measured with the red probe on its positive terminal and the black probe on its negative terminal; what does the voltmeter read? ::@:: $1.5\text{ V}$, the potential difference across the battery.
 - reversed probes: a $1.5\text{ V}$ AA battery is measured after exchanging the red and black probes; what does the voltmeter read? ::@:: $-1.5\text{ V}$: the same magnitude with the opposite sign.
 - incomplete circuit: a $1.5\text{ V}$ AA battery has one terminal left floating and unconnected while a voltmeter spans its two terminals; what does the meter read? ::@:: No defined value: the display is undefined or fluctuates.

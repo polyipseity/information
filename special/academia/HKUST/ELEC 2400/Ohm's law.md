@@ -51,7 +51,7 @@ Flashcards for this section are as follows:
 
 A resistor is a device made to have a precise resistance and placed in a circuit to control the current. Its resistance comes from how the device is built rather than from the material at hand. The current a given voltage drives is known in advance.
 
-On a diagram a resistor is a zigzag line labelled $R$, with the terminal at the higher potential marked $+$ and the terminal at the lower potential marked $-$. The current arrow runs from $+$ to $-$, the direction in which positive charge moves.
+On a diagram a resistor is a zigzag line labelled $R$, with one terminal marked $+$ and the other $-$. The marks and the current arrow are reference directions chosen for the analysis, not readings off the circuit: the arrow is normally drawn from the $+$ mark to the $-$ mark, and the resistor then obeys $V = +IR$. Reversing the arrow reverses the sign of the current quoted under it, and the relation becomes $V = -IR$.
 
 Water running downhill is the picture for a resistor. Water moves from a higher elevation to a lower elevation. The volume passing each second, in cubic meters per second, measures that flow. In a hose, a pressure difference does the same job. The voltage difference across the resistor is the counterpart of the elevation or pressure difference. The current is the counterpart of the volume of water per second: the positive charge passing a point per second, in coulombs per second, that is, amperes. The resistance is the restriction the path imposes.
 
@@ -61,7 +61,10 @@ Flashcards for this section are as follows:
 
 - overview ::@:: A resistor is a device made to have a precise resistance, used in a circuit to control the flow of current.
 - precision: what does the precise resistance of a resistor give a circuit designer? ::@:: A resistance fixed by the device, so the current a given voltage drives can be chosen.
-- symbol and polarity: the terminals of a resistor are marked $+$ and $-$ and a current arrow is drawn; which terminal does the arrow enter, and which way does positive charge move? ::@:: It enters the terminal marked $+$, at the higher potential, and leaves at the terminal marked $-$, the direction of positive charge flow.
+- symbol and reference direction: a resistor is drawn with one terminal marked $+$, one marked $-$, and a current arrow between them; what do the marks and the arrow fix? ::@:: Reference directions chosen for the analysis: the marks fix the sign of the voltage $V$ and the arrow the sign of the current $I$.
+- arrow from $+$ to $-$: a $4\ \Omega$ resistor carries $I_1 = 2\text{ A}$ along an arrow running from its $+$ mark to its $-$ mark; what is $V$ under those marks? ::@:: $V = +I_1 R = (2\text{ A})(4\ \Omega) = 8\text{ V}$.
+- reversed arrow: the arrow on that resistor is reversed while the marks stay, and carries $I_2 = -2\text{ A}$; what is $V$? ::@:: $V = -I_2 R = -(-2\text{ A})(4\ \Omega) = 8\text{ V}$.
+- sign of the current: a resistor carries a current arrow $I_1$ with no value written beside it; does the drawing decide whether $I_1$ is positive or negative? ::@:: No: the arrow is a reference direction, so the sign comes from the charge flow it measures.
 - analogy by elevation: in the water picture of a resistor, which mechanical quantity plays the part of the voltage difference? ::@:: A difference in elevation: water flows from the higher elevation to the lower one.
 - analogy by pressure: in the water picture, which mechanical quantity takes the place of the elevation difference when water is forced through a hose? ::@:: A difference in pressure, driving the water out of the higher-pressure end.
 - analogy by flow rate: in the water picture, what corresponds to the electric current, and in which units is each measured? ::@:: The volume of water per second, in cubic meters per second, corresponds to the current, the positive charge per second in coulombs per second, that is amperes.

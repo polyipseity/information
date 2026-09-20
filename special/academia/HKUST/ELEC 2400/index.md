@@ -28,6 +28,7 @@ ELEC 2400 is an undergraduate course in electronic circuits at HKUST covering fu
 
 ## children
 
+- [tutorials/](tutorials/index.md)
 - [Ohm's law](Ohm%27s%20law.md)
 - [current source](current%20source.md)
 - [dependent source](dependent%20source.md)
@@ -174,6 +175,25 @@ ELEC 2400 is an undergraduate course in electronic circuits at HKUST covering fu
         - [§ current-controlled current source](dependent%20source.md#current-controlled%20current%20source)
         - [§ voltage-controlled current source](dependent%20source.md#voltage-controlled%20current%20source)
         - [§ current-controlled voltage source](dependent%20source.md#current-controlled%20voltage%20source)
+
+## week 1 tutorial
+
+- datetime: 2026-09-02T15:00:00+08:00/2026-09-02T15:50:00+08:00, PT50M
+- venue: Rm 2304, Lift 17-18
+- topic: measuring voltage; potential reference; reference directions for voltage and current
+- [tutorial](tutorials/tutorial%201/tutorial.md)
+    - [§ measuring voltage](tutorials/tutorial%201/tutorial.md#measuring%20voltage)
+    - [§ reference point](tutorials/tutorial%201/tutorial.md#reference%20point)
+    - [§ reference directions](tutorials/tutorial%201/tutorial.md#reference%20directions)
+- [Ohm's law](Ohm%27s%20law.md)
+    - [§ resistor](Ohm%27s%20law.md#resistor)
+- [voltage](voltage.md)
+    - [§ labelling a voltage](voltage.md#labelling%20a%20voltage)
+    - [§ measuring voltage](voltage.md#measuring%20voltage)
+    - [§ potential difference](voltage.md#potential%20difference)
+        - [§ ground reference](voltage.md#ground%20reference)
+- [voltage source](voltage%20source.md)
+    - [§ ideal voltage source](voltage%20source.md#ideal%20voltage%20source)
 
 ## midterm examination
 
