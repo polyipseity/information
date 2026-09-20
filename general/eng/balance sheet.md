@@ -144,7 +144,7 @@ Balance sheet substantiation is {@{a key control process in the [SOX 404 top-dow
 
 The following balance sheet is a very brief example prepared in accordance with [IFRS](International%20Financial%20Reporting%20Standards.md). It does not show all possible kinds of assets, liabilities and equity, but it shows the most usual ones. Because {@{it shows [goodwill](goodwill%20(accounting).md)}@}, it could be {@{a [consolidated](consolidated%20financial%20statement.md) balance sheet}@}. Monetary values are not shown, summary (subtotal) rows are missing as well.
 
-{@{Under IFRS}@} items are {@{always shown based on liquidity from the least liquid assets at the top, usually land and buildings to the most liquid, i.e. cash}@}. Then liabilities and equity {@{continue from the least immediate liability to be paid i.e. long-term debt such as mortgages to the most \(usual account payable\) and owner's equity at the very bottom}@}.<sup>[\[20\]](#^ref-20)</sup>
+{@{Under IFRS}@} items are always {@{shown based on liquidity from the least liquid assets at the top, usually land and buildings to the most liquid, i.e. cash}@}. Then {@{liabilities and equity}@} continue from {@{the least immediate liability to be paid i.e. long-term debt such as mortgages}@} to {@{the most \(usual account payable\) and owner's equity at the very bottom}@}.<sup>[\[20\]](#^ref-20)</sup>
 
 <pre>
 <b>Consolidated Statement of Finance Position of XYZ, Ltd.</b>
