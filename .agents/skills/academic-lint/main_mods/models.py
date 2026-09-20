@@ -10,7 +10,7 @@ from collections.abc import Iterable
 from dataclasses import dataclass
 from enum import StrEnum
 from os import fspath
-from typing import TypedDict, cast
+from typing import NamedTuple, TypedDict, cast
 
 from anyio import Path
 from pydantic import BaseModel, ConfigDict, Field, GetCoreSchemaHandler, ValidationInfo
@@ -21,6 +21,7 @@ __all__ = (
     "StrList",
     "Frontmatter",
     "AstNode",
+    "SessionHeader",
     "ValidationContext",
     "Severity",
     "ValidationMessage",
@@ -140,6 +141,23 @@ class AstNode(TypedDict, total=False):
     children: list["AstNode"]
 
 
+class SessionHeader(NamedTuple):
+    """One parsed session heading.
+
+    ``semester`` is the ``YYYY term`` prefix carried by a recurrent course's
+    session heading (``2026 fall``) and is empty for a one-off course.
+    ``week`` is the decimal week number as written, ``type`` the lowercased
+    session type with any repeat suffix (``lecture 2``), ``heading`` the raw
+    heading line, and ``pos`` the byte offset of the heading in the file.
+    """
+
+    semester: str
+    week: str
+    type: str
+    heading: str
+    pos: int
+
+
 @dataclass
 class ValidationContext:
     """Execution context passed to each validation rule.
@@ -148,8 +166,8 @@ class ValidationContext:
     ``path`` is the file path; ``text`` is the full file contents; ``front``
     is the raw YAML frontmatter string; ``data`` holds the parsed
     ``Frontmatter`` model; ``body`` contains the text after frontmatter; and
-    ``session_headers`` is a list of tuples describing any ``## week N``
-    headings found (used by session-related rules).
+    ``session_headers`` holds the parsed ``## week N`` / ``### YYYY term week N``
+    headings (used by session-related rules).
     """
 
     path: Path
@@ -157,7 +175,7 @@ class ValidationContext:
     front: str
     data: Frontmatter
     body: str
-    session_headers: list[tuple[str, str, str, int]]
+    session_headers: list[SessionHeader]
     ast: list[AstNode] | None = None
 
 

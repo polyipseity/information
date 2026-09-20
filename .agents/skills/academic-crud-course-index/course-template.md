@@ -98,6 +98,13 @@ Keep detailed policy, edge cases, and advanced note-writing rules in `SKILL.md`.
 - If the official materials define a recurring weekly stream, scaffold that
   stream continuously across the term and mark skipped meetings with `status:`
   metadata rather than omitting the week.
+- A __recurrent course__ (`- status: recurrent`, running every term) groups its
+  sessions by semester under `## <YYYY term>` and adds one level to each session
+  heading: `### <YYYY term> week N tutorial`. The semester is repeated in the
+  heading because `markdownlint` MD024 rejects the same week/type pair in two
+  semesters. Give every session `- status: optional` — a recurrent course's
+  lectures, labs, and tutorials are not assumed to be attended. See "Recurring
+  courses" in `SKILL.md`.
 - Link each note a session covers with the sections that session's material
   created or expanded: `- [note](note.md)` followed by indented
   `- [§ heading](note.md#heading)`. A file link alone is never enough.
@@ -228,6 +235,29 @@ Administrative exam notes may be written here as ordinary prose.
   - cheatsheet: allowed
   - open book: no
   - questions: long question ×3
+```
+
+### Example: recurrent course sessions
+
+A course that runs every term records each term's meetings under its own
+semester header:
+
+```markdown
+## 2026 fall
+
+### 2026 fall week 1 tutorial
+
+- datetime: 2026-09-02T18:00:00+08:00/2026-09-02T21:00:00+08:00, PT3H
+- venue: LTA
+- topic: CSE program orientation talk and dinner
+- status: optional
+
+### 2026 fall week 3 tutorial
+
+- datetime: 2026-09-16T18:00:00+08:00/2026-09-16T19:00:00+08:00, PT1H
+- venue: LTA
+- topic: video taking and processing training module
+- status: optional
 ```
 
 ### Example: lab leaf index with dual components

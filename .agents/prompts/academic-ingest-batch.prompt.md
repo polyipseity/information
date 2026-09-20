@@ -44,6 +44,8 @@ Extract course, session number, and binding from directory names:
 - Pattern: `<COURSE> - <type> <N> (<binding> <M>)`
 - Example: `ELEC 1100 - quiz 1 (tutorial 2)` → course=ELEC 1100, target=tutorials/tutorial 2/
 
+If the resolved course is recurrent (`- status: recurrent`), its sessions are grouped by semester and every lecture, lab, and tutorial is optional; follow "Recurring courses" in `academic-crud-course-index` when touching its `index.md`.
+
 ## 4. Cross-reference
 
 Look up each session in the course `index.md` for reference only. Do NOT copy schedule metadata into submission files.

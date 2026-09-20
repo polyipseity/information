@@ -192,7 +192,7 @@ Decide nesting explicitly while planning the note. Do not inherit the source's d
 7. __Update the course index:__
    - Read `special/academia/<INSTITUTION>/<COURSE>/index.md`.
    - Add the topic note to `## children` in its sorted position: folders first, then files, Python string order within each group (see "Children format" in `academic-crud-index`).
-   - Determine which session heading the topic belongs to (e.g., `## week 3 lecture`) using the session mapping rules below, and __ask the user__ when it is unclear.
+   - Determine which session heading the topic belongs to (e.g., `## week 3 lecture`, or `### 2026 fall week 3 tutorial` in a recurrent course) using the session mapping rules below, and __ask the user__ when it is unclear.
    - Under the matched session heading, add a link to the topic note with section anchors for each `##` section this session's material created or expanded; a file link alone is never enough:
 
      ```markdown
@@ -290,7 +290,7 @@ Use `\[missing\]` for absent values, such as a topic with no cross-references or
 
 ## Session mapping
 
-When updating the course `index.md`, link topic notes under the correct session heading (`## week N lecture`, `## week N tutorial`, or `## week N lab`).
+When updating the course `index.md`, link topic notes under the correct session heading (`## week N lecture`, `## week N tutorial`, or `## week N lab`; a recurrent course prefixes the semester and adds one level, `### <YYYY term> week N <type>`).
 
 ### Determining the correct session
 

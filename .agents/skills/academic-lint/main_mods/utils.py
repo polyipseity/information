@@ -24,7 +24,7 @@ from mistune.plugins.math import (
 )
 from mistune.plugins.table import table as _mistune_table
 
-from .models import AstNode, PreviewEntry, ValidationMessage
+from .models import AstNode, PreviewEntry, SessionHeader, ValidationMessage
 
 """Public symbols exported by this module."""
 __all__ = (
@@ -47,8 +47,11 @@ __all__ = (
     "AstSection",
     # session/AST shared helpers
     "_MD",
+    "SEMESTER_HEADER_RE",
+    "SEMESTER_RE",
     "SESSION_HEADING_RE",
     "extract_ast_heading_positions",
+    "is_recurrent_index",
     "parse_session_headers",
     # string helpers
     "html_cpt",
@@ -85,11 +88,40 @@ FRONT_RE = re.compile(r"\A\s*---\s*\r?\n(.*?)\r?\n---\s*(\r?\n|$)", re.DOTALL)
 FLASH_TAG_RE = re.compile(r"flashcard/active/special/academia/", re.IGNORECASE)
 
 # Regex for ## week N lecture|lab|tutorial [number] headings, used by session rules.
-"""Regex matching session headings: ``## week N type [number]``."""
+"""Regex matching the ``YYYY term`` prefix of a recurrent course's session headings."""
+SEMESTER_RE = r"\d{4}\s+(?:spring|summer|fall|winter)"
+
+"""Regex matching session headings: ``## week N type [number]``, or ``### YYYY term week N type [number]`` in a recurrent course."""
 SESSION_HEADING_RE = re.compile(
-    r"^##\s+week\s+(\d+)\s+((?:lecture|lab|tutorial)(?:\s+\d+)?)\s*$",
+    r"^(?P<level>#{2,3})\s+"
+    r"(?:(?P<semester>" + SEMESTER_RE + r")\s+)?"
+    r"week\s+(?P<week>\d+)\s+(?P<type>(?:lecture|lab|tutorial)(?:\s+\d+)?)\s*$",
     re.IGNORECASE | re.MULTILINE,
 )
+
+"""Regex matching a level-2 semester header, ``## YYYY term``, used by recurrent-course rules."""
+SEMESTER_HEADER_RE = re.compile(
+    r"^##\s+(\d{4})\s+(spring|summer|fall|winter)\s*$",
+    re.IGNORECASE | re.MULTILINE,
+)
+
+"""Regex matching the ``- status: recurrent`` line that marks a course index recurrent."""
+_RECURRENT_STATUS_RE = re.compile(
+    r"^[ \t]*- status:\s*recurrent\b", re.IGNORECASE | re.MULTILINE
+)
+
+
+def is_recurrent_index(text: str) -> bool:
+    """Report whether *text* declares ``- status: recurrent`` in its identity block.
+
+    The identity block runs from the ``# index`` heading to the first level-2
+    heading, so a ``status:`` line belonging to a session entry never counts.
+    """
+    match = FRONT_RE.match(text)
+    body = text[match.end() :] if match else text
+    first_section = re.search(r"^##\s", body, re.MULTILINE)
+    header = body[: first_section.start()] if first_section else body
+    return bool(_RECURRENT_STATUS_RE.search(header))
 
 
 # location helpers -----------------------------------------------------------
@@ -480,20 +512,21 @@ def extract_ast_heading_positions(ast: list[AstNode] | None, text: str) -> set[i
 
 def parse_session_headers(
     text: str, ast: list[AstNode] | None = None
-) -> list[tuple[str, str, str, int]]:
+) -> list[SessionHeader]:
     """Extract session heading metadata from *text*.
 
-    Looks for ``## week N lecture|lab|tutorial [number]`` headings.  When
-    *ast* is provided, results are filtered to only include positions that
-    correspond to real AST headings (excluding false positives from code
-    blocks or comments).
+    Matches ``## week N lecture|lab|tutorial [number]`` and, for a recurrent
+    course, ``### YYYY term week N lecture|lab|tutorial [number]``.  When
+    *ast* is provided, results are filtered to positions that correspond to
+    real AST headings (excluding false positives from code blocks or
+    comments).
 
-    Returns a list of ``(week, type, raw_heading, byte_pos)`` tuples.
+    Returns one :class:`SessionHeader` per heading found.
     """
     ast_positions = (
         extract_ast_heading_positions(ast, text) if ast is not None else None
     )
-    headers: list[tuple[str, str, str, int]] = []
+    headers: list[SessionHeader] = []
     for m in SESSION_HEADING_RE.finditer(text):
         # Skip matches that don't correspond to real AST headings.
         # Only filter when we actually found AST positions: an empty
@@ -501,7 +534,13 @@ def parse_session_headers(
         if ast_positions and m.start() not in ast_positions:
             continue
         headers.append(
-            (m.group(1), m.group(2).strip().lower(), m.group(0).strip(), m.start())
+            SessionHeader(
+                semester=" ".join((m.group("semester") or "").split()).lower(),
+                week=m.group("week"),
+                type=" ".join(m.group("type").split()).lower(),
+                heading=m.group(0).strip(),
+                pos=m.start(),
+            )
         )
     return headers
 

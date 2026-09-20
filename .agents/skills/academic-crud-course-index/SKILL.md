@@ -120,7 +120,7 @@ Lectures, labs, and tutorials are distinct session types under `## logistics`, e
 
 - Section-type names match `course-template.md`: `lecture` (singular), `tutorials` and `labs` (plural). The chosen section is written after the colon, e.g. `- labs: LA3`.
 - Section keys: `L` for lectures, `T` for tutorials, `LA` for labs.
-- Session headings use the singular type: `## week N lecture`, `## week N tutorial`, `## week N lab`.
+- Session headings use the singular type: `## week N lecture`, `## week N tutorial`, `## week N lab`. A recurrent course adds one level and repeats the semester, `### <YYYY term> week N tutorial` (see "Recurring courses").
 
 ## Session ordering: types repeat every week
 
@@ -159,6 +159,40 @@ __Wrong:__
 ## week 3 lab    ← week 1's lab is missing, types are mixed across weeks
 ```
 
+## Recurring courses
+
+A recurrent course runs every term instead of once. It carries `- status: recurrent` in the course header block, groups its sessions by semester, and puts each session heading one level deeper.
+
+```markdown
+## 2025 fall
+
+### 2025 fall week 3 tutorial
+
+- datetime: 2025-09-17T18:00:00+08:00/2025-09-17T18:50:00+08:00, PT50M
+- venue: \[missing\]
+- topic: Sun Hung Kai Properties (SHKP)
+- status: optional
+
+## 2026 fall
+
+### 2026 fall week 1 tutorial
+
+- datetime: 2026-09-02T18:00:00+08:00/2026-09-02T21:00:00+08:00, PT3H
+- venue: LTA
+- topic: CSE program orientation talk and dinner
+- status: optional
+```
+
+- __Semester header__: `## <YYYY term>`, using the institution `index.md` term spelling (`## 2026 fall`), placed after `## overview` and in chronological order.
+- __Session heading__: `### <YYYY term> week N <type>` — one level deeper than a one-off course, with the semester repeated.
+- __The repeat is required.__ Without it the same week/type pair recurs in every semester and `markdownlint` MD024 rejects the duplicate headings; `.markdownlint*` is never edited and `index.md` admits no disable directive, so the heading text itself has to differ.
+- __Week numbers__ count from the term's first teaching week, so week 1 begins on that term's week-1 Monday.
+- __Every session is optional.__ A recurrent course's lectures, labs, and tutorials all carry `- status: optional`, and none is assumed to be attended. Keep `datetime:`, `venue:`, and `topic:`, because the term's schedule is still what the entry records.
+- __A session entry normally carries no note or section links__, since an unattended session covered nothing. Add them only for a session that was actually attended and written up.
+- __Only attested sessions.__ Record the sessions a source names. Never invent `status: no class` or `status: unscheduled` weeks to complete a weekly pattern for a past term whose full schedule is unknown.
+- __The linter enforces the shape.__ `academic-lint` reads `- status: recurrent` from the identity block, then requires the level-3 semester-carrying headings (`session_heading_format`), a matching `## <YYYY term>` header above each session (`session_semester_match`), `status: optional` or a gap marker on each session (`session_optional_status`), chronological semester headers (`index_semester_order`), and week counting that restarts each term (`week_monotonic`, `session_duplicate_heading`).
+- Everything else in "Session ordering" applies unchanged: `datetime:` strictly increasing in file order (which keeps the semesters chronological), one heading per meeting, numbered suffixes for repeats inside a week, and `lecture`/`lab`/`tutorial` as the only types. A seminar series or training stream is recorded under whichever of those three it matches, never as a fourth type.
+
 ## Session outline content: sections, not files
 
 A session entry records what the session taught. After the metadata, list each note the session created or expanded, then the note sections its material covers:
@@ -190,12 +224,13 @@ A session entry records what the session taught. After the metadata, list each n
 - Order: `## children`, then `## logistics`, then `## overview`.
 - The `## overview` topic-to-file mapping maps concepts to notes, not source units or source order.
 - Children order: folders first, then files, Python string order within each group (see "Children format" in `academic-crud-index`).
-- Session headings: each type repeats every week (see "Session ordering" above).
+- Session headings: each type repeats every week (see "Session ordering" above), or every week of a semester in a recurrent course (see "Recurring courses").
 - Session body: list the note sections the session's material created or expanded.
 - Session metadata: `datetime:`, `topic:`, `status:`, `assignment:`, `quiz:`.
     - `quiz:` links to the tutorial quiz page when a quiz was administered: `[tutorial <N>](tutorials/tutorial%20<N>/index.md)`, with the grade appended if known (`(grade: 2/2)`).
     - Assignment links go in the last lecture entry on or before the due date, as an `ELEC 1100` child (e.g. `- ELEC 1100 / [assignment name](assignments/<name>/index.md)`).
 - Gap sessions: `status: no class` or `status: public holiday: <name>`.
+- Optional sessions: `status: optional`, used by every session of a recurrent course (see "Recurring courses").
 - Exam sessions: continuous week heading, `status: unscheduled; <exam name>`.
 - Session free text: optional content after the `---` separator following the metadata, used for verbatim Canvas announcements as blockquotes (see "Announcement preservation").
 

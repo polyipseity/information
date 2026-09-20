@@ -81,6 +81,8 @@ from main_mods.rules import (
     session_duplicate_heading,
     session_heading_format,
     session_missing_topic,
+    session_optional_status,
+    session_semester_match,
     session_unscheduled_with_topic,
     tag_index_function,
     tag_language,
@@ -88,10 +90,12 @@ from main_mods.rules import (
     topic_note_redundant_filename_prefix,
     two_sided_calc_warning,
     unit_outside_math,
+    week_monotonic,
 )
 from main_mods.utils import (
     FRONT_RE,
     html_cpt,
+    is_recurrent_index,
     iter_inline_links,
     iter_malformed_links,
     parse_frontmatter,
@@ -1201,6 +1205,157 @@ def test_session_topic_rules():
         assert not session_missing_topic(ctx_nc), (
             "no-class / public holiday sessions may omit topic"
         )
+
+
+def test_parse_session_headers_recurrent():
+    """Session parsing captures the semester prefix of a recurrent heading."""
+
+    headers = parse_session_headers(
+        "- status: recurrent\n\n### 2026 fall week 3 tutorial 2\n"
+    )
+    assert len(headers) == 1, "exactly one recurrent session heading"
+    header = headers[0]
+    assert (header.semester, header.week, header.type) == (
+        "2026 fall",
+        "3",
+        "tutorial 2",
+    )
+    assert header.heading == "### 2026 fall week 3 tutorial 2"
+
+    plain = parse_session_headers("## week 3 lecture\n")
+    assert plain[0].semester == "" and plain[0].type == "lecture"
+
+    # recurrence is declared in the identity block, above the first section
+    assert is_recurrent_index("- status: recurrent\n\n## 2026 fall\n")
+    assert not is_recurrent_index("## 2024 fall\n\n- status: recurrent\n")
+
+
+def test_session_heading_format_recurrent():
+    """A recurrent course keeps its sessions one level deeper and names the term."""
+
+    header = "- status: recurrent\n\n## 2026 fall\n\n"
+    valid = header + "### 2026 fall week 1 tutorial\n- status: optional\n"
+    assert not session_heading_format(make_ctx(valid))
+
+    # wrong level, missing semester, unknown type, and missing type all fail
+    for invalid in (
+        "## 2026 fall week 1 tutorial\n",
+        "### week 1 tutorial\n",
+        "### 2026 fall week 1 seminar\n",
+        "### 2026 fall week 1\n",
+    ):
+        msgs = session_heading_format(make_ctx(header + invalid))
+        assert msgs and msgs[0].rule_id == "session_heading_format", (
+            f"expected session_heading_format error for {invalid!r}"
+        )
+
+    # the recurrent shape is rejected when the course is not marked recurrent
+    one_off = "## 2026 fall\n\n### 2026 fall week 1 tutorial\n"
+    assert session_heading_format(make_ctx(one_off))
+
+
+def test_session_semester_match():
+    """A recurrent session must sit under a semester header naming its own term."""
+
+    ok = (
+        "- status: recurrent\n\n## 2026 fall\n\n"
+        "### 2026 fall week 1 tutorial\n- status: optional\n"
+    )
+    assert not session_semester_match(make_ctx(ok))
+
+    mismatched = (
+        "- status: recurrent\n\n## 2026 fall\n\n"
+        "### 2025 fall week 1 tutorial\n- status: optional\n"
+    )
+    msgs = session_semester_match(make_ctx(mismatched))
+    assert msgs and msgs[0].rule_id == "session_semester_match"
+
+    orphan = (
+        "- status: recurrent\n\n### 2026 fall week 1 tutorial\n- status: optional\n"
+    )
+    assert session_semester_match(make_ctx(orphan))
+
+    # a one-off course has no semester headers and is never checked
+    assert not session_semester_match(make_ctx("### week 1 tutorial\n"))
+
+
+def test_session_optional_status():
+    """Every session of a recurrent course is optional or a gap marker."""
+
+    prefix = "- status: recurrent\n\n## 2026 fall\n\n### 2026 fall week 1 tutorial\n"
+    assert not session_optional_status(make_ctx(prefix + "- status: optional\n"))
+    for gap_marker in (
+        "no class",
+        "canceled",
+        "unscheduled",
+        "public holiday: Labour Day",
+    ):
+        assert not session_optional_status(
+            make_ctx(prefix + f"- status: {gap_marker}\n")
+        ), f"gap marker {gap_marker!r} should be accepted"
+
+    for bad in (prefix, prefix + "- status: scheduled\n"):
+        msgs = session_optional_status(make_ctx(bad))
+        assert msgs and msgs[0].rule_id == "session_optional_status", (
+            f"expected session_optional_status error for {bad!r}"
+        )
+
+    # a one-off course may carry any status
+    assert not session_optional_status(
+        make_ctx("## week 1 lecture\n- status: scheduled\n")
+    )
+
+
+def test_week_monotonic_recurrent():
+    """A new semester restarts the week count; a dip inside one does not."""
+
+    across = (
+        "- status: recurrent\n\n## 2024 fall\n\n"
+        "### 2024 fall week 10 tutorial\n- status: optional\n\n"
+        "## 2025 spring\n\n"
+        "### 2025 spring week 4 tutorial\n- status: optional\n"
+    )
+    assert not week_monotonic(make_ctx(across))
+
+    within = (
+        "- status: recurrent\n\n## 2025 spring\n\n"
+        "### 2025 spring week 4 tutorial\n- status: optional\n\n"
+        "### 2025 spring week 3 tutorial\n- status: optional\n"
+    )
+    msgs = week_monotonic(make_ctx(within))
+    assert msgs and msgs[0].rule_id == "week_monotonic"
+
+
+def test_session_duplicate_heading_recurrent():
+    """Week numbers may repeat across semesters but not inside one."""
+
+    across = (
+        "- status: recurrent\n\n## 2024 fall\n\n"
+        "### 2024 fall week 1 tutorial\n- status: optional\n\n"
+        "## 2025 spring\n\n"
+        "### 2025 spring week 1 tutorial\n- status: optional\n"
+    )
+    assert not session_duplicate_heading(make_ctx(across))
+
+    within = (
+        "- status: recurrent\n\n## 2024 fall\n\n"
+        "### 2024 fall week 1 tutorial\n- status: optional\n\n"
+        "### 2024 fall week 1 tutorial\n- status: optional\n"
+    )
+    msgs = session_duplicate_heading(make_ctx(within))
+    assert msgs and msgs[0].rule_id == "session_duplicate_heading"
+
+
+def test_index_semester_order_recurrent():
+    """A recurrent course orders its level-2 semester headers."""
+
+    path = Path("/tmp/recurrent/index.md")
+    ordered = "- status: recurrent\n\n## 2024 fall\n\n## 2025 spring\n\n## 2026 fall\n"
+    assert not index_semester_order(make_ctx(ordered, path=path))
+
+    reversed_txt = "- status: recurrent\n\n## 2026 fall\n\n## 2024 fall\n"
+    msgs = index_semester_order(make_ctx(reversed_txt, path=path))
+    assert msgs and msgs[0].rule_id == "index_semester_order"
 
 
 def test_unit_outside_math_behavior():

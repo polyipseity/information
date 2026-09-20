@@ -27,15 +27,25 @@ from urllib.parse import unquote
 
 from anyio import Path
 
-from .models import AstNode, Severity, ValidationContext, ValidationMessage
+from .models import (
+    AstNode,
+    SessionHeader,
+    Severity,
+    ValidationContext,
+    ValidationMessage,
+)
 from .registry import RuleRegistry
 from .utils import (
     FRONT_RE,
+    SEMESTER_HEADER_RE,
+    SEMESTER_RE,
+    SESSION_HEADING_RE,
     _segment_paragraphs,
     ast_headings,
     filter_ast,
     has_flash_tag,
     html_cpt,
+    is_recurrent_index,
     iter_ast,
     iter_inline_links,
     iter_malformed_links,
@@ -180,18 +190,48 @@ def _get_section_end(
 ) -> int:
     """Find the end of a section beginning at *start_offset*.
 
-    Scans forward from ``start_offset + len(hdr_text)`` for the next
-    AST-validated heading. Returns the position of the next heading (or
-    ``len(text)`` if none is found).  Uses ``_is_inside_code_block`` to
-    skip headings that appear inside fenced code blocks.
+    Scans forward from ``start_offset + len(hdr_text)`` for the next heading
+    at the same level or higher: a level-2 section ends at the next ``##``,
+    and a level-3 session ends at the next ``##`` or ``###``, so a recurrent
+    course's session never swallows its siblings. Returns the position of
+    that heading (or ``len(text)`` if none is found).  Uses
+    ``_is_inside_code_block`` to skip headings that appear inside fenced
+    code blocks.
     """
+    level = max(2, len(hdr_text) - len(hdr_text.lstrip("#")))
     end = len(text)
-    for m in re.finditer(r"^##\s+", text[start_offset + len(hdr_text) :], re.MULTILINE):
+    for m in re.finditer(
+        rf"^#{{2,{level}}}\s+", text[start_offset + len(hdr_text) :], re.MULTILINE
+    ):
         abs_pos = start_offset + len(hdr_text) + m.start()
         if not _is_inside_code_block(abs_pos, text, ast):
             end = abs_pos
             break
     return end
+
+
+def _iter_semester_headers(
+    text: str, ast: list[AstNode] | None
+) -> Iterator[tuple[str, int]]:
+    """Yield ``(YYYY term, byte offset)`` for each level-2 semester header.
+
+    Term casing is lowered, so ``## 2026 Fall`` yields ``2026 fall``.  Matches
+    inside fenced code blocks are skipped.
+    """
+    for m in SEMESTER_HEADER_RE.finditer(text):
+        if _is_inside_code_block(m.start(), text, ast):
+            continue
+        yield f"{m.group(1)} {m.group(2).lower()}", m.start()
+
+
+def _session_label(header: SessionHeader) -> str:
+    """Return a human-readable ``<semester> week N type`` label for *header*."""
+    week_type = f"{header.week} {header.type}"
+    return (
+        f"{header.semester} week {week_type}"
+        if header.semester
+        else f"week {week_type}"
+    )
 
 
 # metadata checks ------------------------------------------------------------
@@ -1165,8 +1205,12 @@ def index_semester_order(ctx: ValidationContext) -> list[ValidationMessage]:
     # Within one semester year the terms run spring, summer, fall, then winter,
     # so `### 2023 winter` follows `### 2023 fall` rather than preceding it.
     term_map = {"spring": 1, "summer": 2, "fall": 3, "winter": 4}
+    # A recurrent course puts the semester in a level-2 header and repeats it in
+    # every session heading; a one-off course has no semester headers at all.
+    level = "##" if is_recurrent_index(ctx.text) else "###"
+    pattern = re.compile(rf"^{level}\s+(\d{{4}})\s+([A-Za-z]+)")
     for line in ctx.text.splitlines():
-        m = re.match(r"###\s+(\d{4})\s+([A-Za-z]+)", line)
+        m = pattern.match(line)
         if m:
             year = int(m.group(1))
             term = m.group(2).lower()
@@ -1191,57 +1235,62 @@ def index_semester_order(ctx: ValidationContext) -> list[ValidationMessage]:
 
 # session-related -----------------------------------------------------------
 
-"""Compile a regex pattern for validating session headings of the form
-'## week N type [number]'.
+"""Expected session-heading shape for a one-off course."""
+_SESSION_HEADING_EXPECTED = (
+    "## week N type [number] (e.g. week 1 lecture, week 1 lecture 2)"
+)
 
-Allowed types are lecture, lab, or tutorial, optionally followed by a
-number (e.g. 'lecture 2'). The pattern is case-insensitive and ignores
-leading/trailing whitespace. Status information (e.g. 'status: no class')
-should not appear in the heading and is not relevant to validation; it
-belongs in the metadata section of the session entry."""
-_SESSION_HEADING_VALID = re.compile(
-    r"^##\s+week\s+\d+\s+((?:lecture|lab|tutorial)(?:\s+\d+)?)\s*$",
-    re.IGNORECASE,
+"""Expected session-heading shape for a recurrent course."""
+_RECURRENT_HEADING_EXPECTED = (
+    "### YYYY term week N type [number] (e.g. ### 2026 fall week 1 tutorial)"
+)
+
+"""Regex matching any heading that looks like a session heading, valid or not.
+
+Requires the heading to start with ``week N`` once an optional ``YYYY term``
+prefix is stripped, so an unrelated heading that merely mentions a week
+(e.g. ``## revision week 2 plan``) is never mistaken for a session heading.
+"""
+_SESSION_HEADING_CANDIDATE = re.compile(
+    r"^#{2,3}\s+(?:(?:" + SEMESTER_RE + r")\s+)?week\s+\d+.*$",
+    re.IGNORECASE | re.MULTILINE,
 )
 
 
 @RULE_REGISTRY.register()
 def session_heading_format(ctx: ValidationContext) -> list[ValidationMessage]:
-    """Require session headings to use only week N type [number].
+    """Require session headings to match the course's session-heading format.
 
-    Allowed: ## week 1 lecture, ## week 1 lecture 2, ## week 2 lab 1. Type = lecture|lab|tutorial only.
-    Invalid: ## week 3 no class, ## week 3 (Lunar New Year), ## week 3 (no type). Status belongs in metadata only.
-    Uses the mistune AST to skip false-positive matches inside code blocks.
+    A one-off course uses ``## week N type [number]``; a recurrent course
+    (``- status: recurrent``) uses ``### YYYY term week N type [number]``,
+    one level deeper and carrying the semester.  Allowed types are lecture,
+    lab, and tutorial, optionally followed by a repeat number.
+
+    Invalid: ``## week 3 no class``, ``## week 3 (Lunar New Year)``, ``## week 3``
+    (no type), and either shape used at the wrong level, with a semester the
+    course does not use, or without the semester it does.  Status belongs in
+    the metadata only.  Uses the mistune AST to skip matches inside code blocks.
     """
     errors: list[ValidationMessage] = []
     text = ctx.text
     ast = ctx.ast
-    for m in re.finditer(r"^##\s+week\s+\d+\s*.+$", text, re.IGNORECASE | re.MULTILINE):
+    recurrent = is_recurrent_index(text)
+    expected = _RECURRENT_HEADING_EXPECTED if recurrent else _SESSION_HEADING_EXPECTED
+    for m in _SESSION_HEADING_CANDIDATE.finditer(text):
         if _is_inside_code_block(m.start(), text, ast):
             continue
         line = m.group(0).rstrip()
-        if not _SESSION_HEADING_VALID.match(line):
-            line_no, col, col_end = locate_range(text, m.start(), len(line))
-            errors.append(
-                ValidationMessage(
-                    "session_heading_format",
-                    "invalid session heading; use week N type [number] "
-                    "(e.g. week 1 lecture, week 1 lecture 2); status has no bearing on heading",
-                    line=line_no,
-                    col=col,
-                    col_end=col_end,
-                )
-            )
-    # Also flag ## week N with no type at all (nothing after the number)
-    for m in re.finditer(r"^##\s+week\s+(\d+)\s*$", text, re.IGNORECASE | re.MULTILINE):
-        if _is_inside_code_block(m.start(), text, ast):
-            continue
-        line = m.group(0)
+        shape = SESSION_HEADING_RE.fullmatch(line)
+        if shape is not None:
+            level_ok = shape.group("level") == ("###" if recurrent else "##")
+            semester_ok = bool(shape.group("semester")) == recurrent
+            if level_ok and semester_ok:
+                continue
         line_no, col, col_end = locate_range(text, m.start(), len(line))
         errors.append(
             ValidationMessage(
                 "session_heading_format",
-                "session heading must include type (e.g. lecture, lecture 2)",
+                f"invalid session heading; use {expected}; status has no bearing on heading",
                 line=line_no,
                 col=col,
                 col_end=col_end,
@@ -1251,28 +1300,75 @@ def session_heading_format(ctx: ValidationContext) -> list[ValidationMessage]:
 
 
 @RULE_REGISTRY.register()
-def session_duplicate_heading(ctx: ValidationContext) -> list[ValidationMessage]:
-    """Detect duplicate week/type session headings within a file.
+def session_semester_match(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Require a recurrent course's sessions to sit under their own semester header.
 
-    If the same (week, type) pair appears more than once, emit an error
-    pointing at the repeated header.
+    Each ``### YYYY term week N type`` heading must follow a ``## YYYY term``
+    header naming the same semester.  A session heading that omits its semester
+    is left to ``session_heading_format``, which already reports it.
     """
     errors: list[ValidationMessage] = []
-    seen_pairs: dict[tuple[str, str], int] = {}
-    for week, typ, hdr, idx in ctx.session_headers:
-        pair = (week, typ)
+    text = ctx.text
+    if not is_recurrent_index(text):
+        return errors
+    semesters = list(_iter_semester_headers(text, ctx.ast))
+    cursor = 0
+    current: str | None = None
+    for header in ctx.session_headers:
+        while cursor < len(semesters) and semesters[cursor][1] < header.pos:
+            current = semesters[cursor][0]
+            cursor += 1
+        if not header.semester:
+            continue
+        if current is None:
+            msg = (
+                f"session {header.heading!r} is not under a '## <YYYY term>' "
+                "semester header"
+            )
+        elif current != header.semester:
+            msg = (
+                f"session {header.heading!r} names {header.semester!r} but sits "
+                f"under '## {current}'"
+            )
+        else:
+            continue
+        line, col, col_end = locate_range(ctx.text, header.pos, len(header.heading))
+        errors.append(
+            ValidationMessage(
+                "session_semester_match",
+                msg,
+                line=line,
+                col=col,
+                col_end=col_end,
+            )
+        )
+    return errors
+
+
+@RULE_REGISTRY.register()
+def session_duplicate_heading(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Detect duplicate session headings within a file.
+
+    If the same (semester, week, type) combination appears more than once,
+    emit an error pointing at the repeated header.  The semester is part of the
+    key, so a recurrent course may reuse week numbers across its terms.
+    """
+    errors: list[ValidationMessage] = []
+    seen_pairs: dict[tuple[str, str, str], int] = {}
+    for header in ctx.session_headers:
+        pair = (header.semester, header.week, header.type)
         if pair in seen_pairs:
-            line, col, col_end = locate_range(ctx.text, idx, len(hdr))
+            line, col, col_end = locate_range(ctx.text, header.pos, len(header.heading))
             errors.append(
                 ValidationMessage(
                     "session_duplicate_heading",
-                    f"duplicate session heading {hdr!r} (week {week} {typ})",
+                    f"duplicate session heading {header.heading!r} ({_session_label(header)})",
                     line=line,
                     col=col,
                     col_end=col_end,
                 )
             )
-        seen_pairs[pair] = idx
+        seen_pairs[pair] = header.pos
     return errors
 
 
@@ -1287,18 +1383,20 @@ def session_datetime_order(ctx: ValidationContext) -> list[ValidationMessage]:
     last_datetime = None
     text = ctx.text
     ast = ctx.ast
-    for _week, _typ, hdr, idx in ctx.session_headers:
-        end = _get_section_end(text, idx, hdr, ast)
-        section = text[idx:end]
+    for header in ctx.session_headers:
+        end = _get_section_end(text, header.pos, header.heading, ast)
+        section = text[header.pos : end]
         mdt = re.search(r"^\s*-\s*datetime:\s*(\S+)", section, re.MULTILINE)
         if mdt:
             dt = mdt.group(1)
             if last_datetime and dt < last_datetime:
-                line, col, col_end = locate_range(ctx.text, idx, len(hdr))
+                line, col, col_end = locate_range(
+                    ctx.text, header.pos, len(header.heading)
+                )
                 errors.append(
                     ValidationMessage(
                         "session_datetime_order",
-                        f"session {hdr!r} has datetime {dt} not after previous session",
+                        f"session {header.heading!r} has datetime {dt} not after previous session",
                         line=line,
                         col=col,
                         col_end=col_end,
@@ -1322,9 +1420,9 @@ def session_missing_topic(ctx: ValidationContext) -> list[ValidationMessage]:
     errors: list[ValidationMessage] = []
     text = ctx.text
     ast = ctx.ast
-    for _week, _typ, hdr, idx in ctx.session_headers:
-        end = _get_section_end(text, idx, hdr, ast)
-        section = text[idx:end]
+    for header in ctx.session_headers:
+        end = _get_section_end(text, header.pos, header.heading, ast)
+        section = text[header.pos : end]
         if re.search(r"^\s*-\s*datetime:", section, re.MULTILINE):
             # skip unscheduled sessions
             if "status:" in section and re.search(
@@ -1338,11 +1436,13 @@ def session_missing_topic(ctx: ValidationContext) -> list[ValidationMessage]:
             ):
                 continue
             if "topic:" not in section:
-                line, col, col_end = locate_range(ctx.text, idx, len(hdr))
+                line, col, col_end = locate_range(
+                    ctx.text, header.pos, len(header.heading)
+                )
                 errors.append(
                     ValidationMessage(
                         "session_missing_topic",
-                        f"session {hdr!r} has a datetime but no topic field",
+                        f"session {header.heading!r} has a datetime but no topic field",
                         line=line,
                         col=col,
                         col_end=col_end,
@@ -1362,19 +1462,21 @@ def session_unscheduled_with_topic(ctx: ValidationContext) -> list[ValidationMes
     errors: list[ValidationMessage] = []
     text = ctx.text
     ast = ctx.ast
-    for _week, _typ, hdr, idx in ctx.session_headers:
-        end = _get_section_end(text, idx, hdr, ast)
-        section = text[idx:end]
+    for header in ctx.session_headers:
+        end = _get_section_end(text, header.pos, header.heading, ast)
+        section = text[header.pos : end]
         if re.search(r"^\s*-\s*datetime:", section, re.MULTILINE):
             if "status:" in section and re.search(
                 r"status:\s*unscheduled", section, re.IGNORECASE
             ):
                 if "topic:" in section:
-                    line, col, col_end = locate_range(ctx.text, idx, len(hdr))
+                    line, col, col_end = locate_range(
+                        ctx.text, header.pos, len(header.heading)
+                    )
                     errors.append(
                         ValidationMessage(
                             "session_unscheduled_with_topic",
-                            f"session {hdr!r} has status unscheduled but also a topic",
+                            f"session {header.heading!r} has status unscheduled but also a topic",
                             line=line,
                             col=col,
                             col_end=col_end,
@@ -1392,23 +1494,71 @@ def session_venue_presence(ctx: ValidationContext) -> list[ValidationMessage]:
     errors: list[ValidationMessage] = []
     text = ctx.text
     ast = ctx.ast
-    for _week, _typ, hdr, idx in ctx.session_headers:
-        end = _get_section_end(text, idx, hdr, ast)
-        section = text[idx:end]
+    for header in ctx.session_headers:
+        end = _get_section_end(text, header.pos, header.heading, ast)
+        section = text[header.pos : end]
         if (
             re.search(r"^\s*-\s*datetime:", section, re.MULTILINE)
             and "venue:" not in section
         ):
-            line, col, col_end = locate_range(ctx.text, idx, len(hdr))
+            line, col, col_end = locate_range(ctx.text, header.pos, len(header.heading))
             errors.append(
                 ValidationMessage(
                     "session_venue_presence",
-                    f"session {hdr!r} has a datetime but no venue",
+                    f"session {header.heading!r} has a datetime but no venue",
                     line=line,
                     col=col,
                     col_end=col_end,
                 )
             )
+    return errors
+
+
+"""Regex matching the statuses a session of a recurrent course may carry.
+
+Every session of a recurrent course is optional; a meeting that did not take
+place keeps a gap marker instead.
+"""
+_OPTIONAL_STATUS_RE = re.compile(
+    r"optional|unscheduled|no\s+class|public\s+holiday|canceled", re.IGNORECASE
+)
+
+
+@RULE_REGISTRY.register()
+def session_optional_status(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Require a recurrent course's sessions to be marked optional.
+
+    Every lecture, lab, and tutorial of a recurrent course is optional and none
+    is assumed to be attended, so its ``status:`` must read ``optional``.  A
+    meeting that did not take place keeps its gap marker instead: unscheduled,
+    no class, public holiday, or canceled.
+    """
+    errors: list[ValidationMessage] = []
+    text = ctx.text
+    if not is_recurrent_index(text):
+        return errors
+    for header in ctx.session_headers:
+        end = _get_section_end(text, header.pos, header.heading, ctx.ast)
+        section = text[header.pos : end]
+        m = re.search(r"^\s*-\s*status:\s*(.+?)\s*$", section, re.MULTILINE)
+        if m is None:
+            msg = (
+                f"session {header.heading!r} has no status; a recurrent "
+                "course's sessions are optional"
+            )
+        elif not _OPTIONAL_STATUS_RE.search(m.group(1)):
+            msg = (
+                f"session {header.heading!r} has status {m.group(1)!r}; a "
+                "recurrent course's sessions are optional (or use a gap marker)"
+            )
+        else:
+            continue
+        line, col, col_end = locate_range(text, header.pos, len(header.heading))
+        errors.append(
+            ValidationMessage(
+                "session_optional_status", msg, line=line, col=col, col_end=col_end
+            )
+        )
     return errors
 
 
@@ -1421,15 +1571,15 @@ def session_next_lecture_remark(ctx: ValidationContext) -> list[ValidationMessag
     errors: list[ValidationMessage] = []
     text = ctx.text
     ast = ctx.ast
-    for _week, _typ, hdr, idx in ctx.session_headers:
-        end = _get_section_end(text, idx, hdr, ast)
-        section = text[idx:end]
+    for header in ctx.session_headers:
+        end = _get_section_end(text, header.pos, header.heading, ast)
+        section = text[header.pos : end]
         if re.search(r"next\s+(lecture|week|class)", section, re.IGNORECASE):
-            line, col, col_end = locate_range(ctx.text, idx, len(hdr))
+            line, col, col_end = locate_range(ctx.text, header.pos, len(header.heading))
             errors.append(
                 ValidationMessage(
                     "session_next_lecture_remark",
-                    f"session {hdr!r} contains a 'next lecture/next week' remark; remove unless major grading event",
+                    f"session {header.heading!r} contains a 'next lecture/next week' remark; remove unless major grading event",
                     line=line,
                     col=col,
                     col_end=col_end,
@@ -1458,9 +1608,9 @@ def session_exam_order(ctx: ValidationContext) -> list[ValidationMessage]:
         exam_idx = m.start()
         break
     if exam_idx is not None:
-        for _, _, _hdr, idx in ctx.session_headers:
-            if idx > exam_idx:
-                line, col = locate(ctx.text, idx)
+        for header in ctx.session_headers:
+            if header.pos > exam_idx:
+                line, col = locate(ctx.text, header.pos)
                 errors.append(
                     ValidationMessage(
                         rule_id="session_exam_order",
@@ -4175,10 +4325,16 @@ def week_monotonic(ctx: ValidationContext) -> list[ValidationMessage]:
     """
     errors: list[ValidationMessage] = []
     prev_week = None
-    for week, _, hdr, idx in ctx.session_headers:
-        num = int(week)
+    prev_semester = None
+    for header in ctx.session_headers:
+        num = int(header.week)
+        # A new semester restarts the week count, so a recurrent course may
+        # begin a term at any week number.
+        if header.semester != prev_semester:
+            prev_semester = header.semester
+            prev_week = None
         if prev_week is not None and num < prev_week and num != 1:
-            line, col, col_end = locate_range(ctx.text, idx, len(hdr))
+            line, col, col_end = locate_range(ctx.text, header.pos, len(header.heading))
             errors.append(
                 ValidationMessage(
                     rule_id="week_monotonic",

@@ -26,6 +26,8 @@ __Lectures, labs, and tutorials are separate types__, each with its own section 
 
 Never conflate them into one type, create joint session entries, or mix types within a week heading. `## logistics` lists the enrolled sections, venues, and times; each session that meets gets its own `## week N <type>` heading, so a course with 2 lectures + 1 lab + 1 tutorial per week has 4 session headings, not 4 logistics entries. See "Session ordering" in `academic-crud-course-index`.
 
+__A recurrent course groups its sessions by semester.__ It carries `- status: recurrent`, runs every term, and puts each session one level deeper under a `## <YYYY term>` header: `### 2026 fall week 3 tutorial`. Repeat the semester in the heading — without it the same week/type pair recurs every semester and `markdownlint` MD024 rejects the duplicate. Every session of a recurrent course is optional and is not assumed to be attended, so each carries `- status: optional` while keeping its `datetime:`, `venue:`, and `topic:`. A seminar series or training stream is recorded under whichever of `lecture`/`lab`/`tutorial` it matches, never as a new type. See "Recurring courses" in `academic-crud-course-index`.
+
 __When in doubt, create less.__ Add scaffolding for future content only when the source enumerates items ("Lab 1, Lab 2, Lab 3") or the user asks for it. A homepage that mentions labs as a grading component does not warrant a `labs/` directory.
 
 __Never write current status or provenance.__ What has been ingested, what remains, and how a derived value was established all go stale on the next ingest.
@@ -183,6 +185,7 @@ When the input is a directory (or a glob resolving to directories), follow `.age
     - This parsing is a hint, not a certainty; confirm with the user when the pattern is ambiguous.
 3. __If ambiguous:__ list matching courses (name, institution, note count, last modified) and prompt the user to pick one.
 4. __If no match:__ ask the user for the institution and course code, or confirm creation of a new course.
+5. __If the course is recurrent__ (`- status: recurrent` in its `index.md`), read "Recurring courses" in `academic-crud-course-index` before writing any session entry: sessions are grouped by semester, each session heading repeats the semester and sits one level deeper, and every lecture, lab, and tutorial is optional.
 
 ## Splitting mixed-type materials
 

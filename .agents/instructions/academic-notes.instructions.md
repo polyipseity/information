@@ -41,6 +41,7 @@ For all academic material ingestion, start with the `academic-ingest` dispatcher
 - Questions-page solutions use cloze `{@{ }@}`, not QA cards.
 - When changing a topic note, update its prose, flashcards, and every affected `index.md` section link in the same task.
 - Every ingestion reconciles the course's existing topic notes with the material, whatever its source (lecture, lab, tutorial, question set): extend, prune, create, or record each concept as already covered before validating. A session file is never the only home of a durable concept — see `../skills/academic-ingest/SKILL.md`.
+- A recurrent course (`- status: recurrent`, running every term) groups sessions by semester: a `## <YYYY term>` header, `### <YYYY term> week N <type>` session headings, and `- status: optional` on every session, since none is assumed to be attended. See `../skills/academic-crud-course-index/SKILL.md`.
 - Group notes and their sections by concept, never by the ingested material's layout: no note named after a lecture, chapter, or part, and no section named after a slide title. Decide nesting for every section (`###`, then `####` with justification) — see `../skills/academic-crud-topic-note/SKILL.md`.
 
 ## Reference
