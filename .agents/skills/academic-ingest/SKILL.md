@@ -538,11 +538,12 @@ Route to the correct `academic-crud-*` skill with preprocessed context:
 After the dispatched skill completes:
 
 1. __Reconcile the topic notes.__ Run "Topic-note reconciliation (mandatory)" above for every material in this ingestion, whatever its source.
-2. __Humanizer pass.__ Load the `humanizer` skill and apply it to the new and changed prose and flashcards, the reconciled topic notes included, before validating. Every later edit gets the same pass, whether or not an ingestion is running; see "Humanizer pass" below.
-3. Run validation on the created or modified files.
-4. Add a link to the assignment in the last lecture entry on or before its due date in the course `index.md`.
-5. Report what was created or updated, with file paths, and give the reconciliation outcome for each topic note.
-6. Suggest next steps (add flashcards, update the index).
+2. __Section levelling pass.__ Re-review every note this ingestion wrote or touched, section by section, and re-level it: promote a sub-concept that earned its own heading, fold a section that restates the note's H1 or a lone `###` that is its parent's whole content, move material to the note that owns its concept, and re-link every session entry whose anchor a renamed, moved, or removed heading invalidated. Run it before the humanizer pass, which treats heading text as frozen; see "Section levelling pass" in `academic-crud-topic-note`.
+3. __Humanizer pass.__ Load the `humanizer` skill and apply it to the new and changed prose and flashcards, the reconciled topic notes included, before validating. Every later edit gets the same pass, whether or not an ingestion is running; see "Humanizer pass" below.
+4. Run validation on the created or modified files.
+5. Add a link to the assignment in the last lecture entry on or before its due date in the course `index.md`.
+6. Report what was created or updated, with file paths, and give the reconciliation outcome for each topic note.
+7. Suggest next steps (add flashcards, update the index).
 
 > __Legacy patterns:__ For deprecated content structures (flat `questions.md`, flat assignment directories, `transcripts/`), consult the `academic-deprecated` skill for migration guidance. Deprecated pattern detection is not part of ingestion classification; it is a separate maintenance concern.
 
@@ -585,7 +586,7 @@ Academic notes attract these patterns from the `humanizer` catalogue: rule-of-th
 
 The target is a triad __padded__ to three items, not an enumeration of three real things: a list of three device types is content and stays.
 
-Three catalogue patterns never apply here: headings are already sentence case, notes carry no emoji, and __heading text is frozen__ — session entries link to `#section%20anchors`, so a heading is never a humanizer target. Accuracy beats style in every conflict: a card that loses a given to read more naturally is broken.
+Three catalogue patterns never apply here: headings are already sentence case, notes carry no emoji, and __heading text is frozen__ — session entries link to `#section%20anchors`, so a heading is never a humanizer target. Renaming, moving, or folding a heading belongs to the __section levelling pass__, which runs first and re-links the session entries it invalidates (see "Section levelling pass" in `academic-crud-topic-note`). Accuracy beats style in every conflict: a card that loses a given to read more naturally is broken.
 
 #### After the pass
 

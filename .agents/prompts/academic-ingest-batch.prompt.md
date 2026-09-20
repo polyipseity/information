@@ -82,9 +82,11 @@ Add child links to parent indexes (`tutorials/index.md`, course `index.md`). Chi
 
 Whatever the group's type — lecture, lab, or tutorial — compare the material against the course's existing topic notes and extend, prune, or leave each concept, or create the note that is missing. A `<type>.md` file is not the final home of a durable concept. See "Topic-note reconciliation (mandatory)" in the `academic-ingest` skill, and list the outcome for each note in the report. A drawing the material defines is one of those concepts, so the owning note carries the drawing itself rather than prose that describes it.
 
-## 9. Humanizer pass
+## 9. Section levelling, then humanizer
 
-Load the `humanizer` skill and sweep the new and changed prose and flashcards, the reconciled topic notes included, before validating. This is a content step, not an optional polish: a group whose prose or cards were never passed is unfinished. Prose and cards fail differently, so sweep them separately. See "Humanizer pass" in the `academic-ingest` skill.
+Re-level every note the group created or touched before the humanizer pass: promote a sub-concept that earned its own heading, fold a section that restates the note's H1 or a lone `###` that is its parent's whole content, move material to the note that owns its concept, and re-link the session entries whose anchors a renamed heading invalidated. See "Section levelling pass" in `academic-crud-topic-note`. Settle the headings first, because the humanizer pass never touches heading text.
+
+Then load the `humanizer` skill and sweep the new and changed prose and flashcards, the reconciled topic notes included, before validating. This is a content step, not an optional polish: a group whose prose or cards were never passed is unfinished. Prose and cards fail differently, so sweep them separately. See "Humanizer pass" in the `academic-ingest` skill.
 
 ## 10. Validate
 

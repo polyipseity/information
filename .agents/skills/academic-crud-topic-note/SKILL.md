@@ -111,6 +111,18 @@ Decide nesting explicitly while planning the note. Do not inherit the source's d
 - `#####` and deeper are unsanctioned: they mean the file boundary is wrong, so split the note instead.
 - Every `###` and deeper carries its own `---` separator and its own `Flashcards for this section are as follows:` block, recursively: the validator requires a card block under every heading a non-index note carries, which is the other half of the tiebreaker.
 
+### Section levelling pass
+
+Nesting is planned before the note is written and reviewed after it. The pass runs over every section the ingestion created or touched, and it is the only place a heading may change: the humanizer pass treats heading text as frozen, because session entries link to its anchor.
+
+- __Promote.__ Give a sub-concept its own `###` when it earned one under the tiebreaker, including a second nameable sub-concept sitting inside a section that also carries another.
+- __Fold.__ Drop a section that restates the note's own H1, a lone `###` that is its parent's whole content, and a section the note's concept does not contain. Material whose owning concept lives in another note is moved to that note.
+- __Re-level.__ Move a heading up or down rather than leaving it at the level the source showed; depth follows the concept's own structure, never the source's.
+- __Re-home the prose with the heading.__ A heading that moves takes its prose and its card block, and a heading that folds merges them into the parent's: the validator requires a card block under every heading, so no block is ever left without one or split across two.
+- __Refresh the links.__ Renaming, moving, or removing a heading invalidates every session-entry and appendix anchor that pointed at it. Fix them in the same task (see "Session outline content: sections, not files" in `academic-crud-course-index`).
+
+The pass moves boundaries and headings; it never drops a fact or a card. Report the card count before and after, because the count feeds the `Flashcards-now` commit trailer.
+
 ## CRUD operations
 
 ### Create
@@ -190,7 +202,8 @@ Decide nesting explicitly while planning the note. Do not inherit the source's d
    - Attach a graphic only when the picture itself is the material, and never attach a page render. Copy the embedded image into `attachments/` under a descriptive name (`attachments/lob_depth_diagram.png`, not `attachments/pages/.../page_007.png`).
    - Reference each attached graphic from the section that uses it: `![<alt text>](attachments/zener_circuit_q1.jpg)`. Alt text is plain language describing what the figure shows, never LaTeX.
    - Follow "Page image handling" in `academic-ingest` for what may and may not be asserted about an image. Leave `.extracted/` alone; it is a cache, not an attachment source.
-7. __Update the course index:__
+7. __Section levelling pass:__ re-review the written sections against "Nesting is always decided" and re-level them, then fix the anchors the review invalidated (see "Section levelling pass" above).
+8. __Update the course index:__
    - Read `special/academia/<INSTITUTION>/<COURSE>/index.md`.
    - Add the topic note to `## children` in its sorted position: folders first, then files, Python string order within each group (see "Children format" in `academic-crud-index`).
    - Determine which session heading the topic belongs to (e.g., `## week 3 lecture`, or `### 2026 fall week 3 tutorial` in a recurrent course) using the session mapping rules below, and __ask the user__ when it is unclear.
@@ -202,8 +215,8 @@ Decide nesting explicitly while planning the note. Do not inherit the source's d
      ```
 
    - If the topic spans several sessions, add links under each, listing only the sections that session's material covered.
-8. __Humanizer pass:__ load the `humanizer` skill, then sweep the prose and the flashcards separately before validating: the H1 intro and each section's prose first, then every card prompt and answer (see "Humanizer pass" in `academic-ingest`).
-9. __Validate:__ run `academic-lint` on the created file.
+9. __Humanizer pass:__ load the `humanizer` skill, then sweep the prose and the flashcards separately before validating: the H1 intro and each section's prose first, then every card prompt and answer (see "Humanizer pass" in `academic-ingest`).
+10. __Validate:__ run `academic-lint` on the created file.
 
 ### Read
 
@@ -215,11 +228,13 @@ List topic notes for a course; search by keyword; show structure and flashcard c
 2. Detect overlap with existing content.
 3. Enhance the prose with new distinctions, examples, and counterexamples.
 4. Add or modify flashcards, adding new cards rather than overstuffing existing ones.
-5. Refresh the course `index.md`:
+5. Section levelling pass over the sections this update touched (see "Section levelling pass").
+6. Humanizer pass over the prose and the cards that changed (see "Humanizer pass" in `academic-ingest`).
+7. Refresh the course `index.md`:
    - Update `## children` if the topic was renamed.
    - Update session topic links if sections were added, removed, or renamed.
    - Re-verify the session mapping if the topic's scope changed.
-6. Validate after changes.
+8. Validate after changes.
 
 ### Delete
 

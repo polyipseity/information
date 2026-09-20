@@ -215,6 +215,7 @@ A session entry records what the session taught. After the metadata, list each n
 - __List only the sections the session's material created or expanded.__ A note spanning several sessions is linked under each of them, and each entry lists only its own sections.
 - __Link the deepest heading the session's material created or expanded.__ A `###` the session created nests one level (8 spaces) under its `##` bullet; link the `##` alone only when the session created the whole section.
 - __Anchor format__: the heading lowercased, spaces as `%20`, colons removed (`## Main memory` → `#main%20memory`). Never dash-slugs (`#main-memory`); the `link_anchor_slug` rule rejects them.
+- __A re-levelled section must be re-linked in the same task.__ When the section levelling pass renames, moves, or folds a heading, every session entry and appendix link pointing at its old anchor is updated with it; a stale anchor is a broken link, not a cosmetic one (see "Section levelling pass" in `academic-crud-topic-note`).
 - __Filename format__: spaces as `%20`, every other character literal (`cache%20(computing).md`).
 - Omit the section links only when the note has no `##` sections.
 
