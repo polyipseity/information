@@ -168,11 +168,12 @@ tags:
 
 ### 2026 fall
 
-- [FINA 4103](FINA%204103/index.md): Financial Markets Trading and Structure (3 credits)
 - [COMP 3511](COMP%203511/index.md): Operating Systems (3 credits)
+- [COMP 4900](COMP%204900/index.md) (recurrent): Academic and Professional Development (0 credits)
+- [ELEC 2400](ELEC%202400/index.md): Electronic Circuits (4 credits)
+- [FINA 4103](FINA%204103/index.md): Financial Markets Trading and Structure (3 credits)
 - [MATH 3423](MATH%203423/index.md): Statistical Inference (3 credits)
 - [PHYS 2022](PHYS%202022/index.md): Modern Physics (3 credits)
-- [ELEC 2400](ELEC%202400/index.md): Electronic Circuits (4 credits)
 - [SOSC 1960](SOSC%201960/index.md): Introduction to Psychology
 
 ## groups
