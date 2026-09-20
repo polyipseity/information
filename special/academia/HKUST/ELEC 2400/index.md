@@ -28,6 +28,7 @@ ELEC 2400 is an undergraduate course in electronic circuits at HKUST covering fu
 
 ## children
 
+- [attachments/](attachments/)
 - [tutorials/](tutorials/index.md)
 - [Ohm's law](Ohm%27s%20law.md)
 - [current source](current%20source.md)

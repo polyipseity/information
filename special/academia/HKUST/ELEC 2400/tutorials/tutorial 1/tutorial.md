@@ -18,7 +18,7 @@ Every voltage is a difference between two points. A potential quoted at a single
 
 ## measuring voltage
 
-A voltmeter reads the potential difference between the two points its probes touch. The red probe is the positive terminal of the meter and the black probe the negative one, so the reading is $V_{\text{red}} - V_{\text{black}}$.
+A voltmeter reads the potential difference between the two points its probes touch. The red probe is the positive terminal of the meter and the black probe the negative one, so the reading is $V_{\text{red}} - V_{\text{black}}$. <p> ![voltmeter drawn as a box with a red plus terminal marked A and a black minus terminal marked B](../../attachments/symbol_voltmeter.svg)
 
 On a $1.5\text{ V}$ AA cell, the red probe touching the positive terminal and the black probe touching the negative one gives $1.5\text{ V}$. Exchanging the probes keeps the magnitude and reverses the sign, to $-1.5\text{ V}$: $V_{BA} = V_B - V_A = -(V_A - V_B) = -V_{AB}$.
 
@@ -41,9 +41,9 @@ A potential quoted at a single point is a difference from a chosen reference, so
 
 Taking the point $0$ as the reference gives $V_{CB} = V_C - V_B = V_{C0} - V_{B0}$, and any other reference $A$ gives $V_{CB} = V_{CA} - V_{BA} = (V_C - V_A) - (V_B - V_A) = V_C - V_B$: the reference cancels.
 
-In a $10\text{ V}$ source feeding a $1\ \Omega$ resistor, with $A$ at the source's positive terminal and $B$ at its negative terminal, grounding $B$ puts $V_B$ at $0\text{ V}$ and $V_A$ at $10\text{ V}$. Grounding $A$ instead puts $V_A$ at $0\text{ V}$ and $V_B$ at $-10\text{ V}$. Both grounding choices leave the $10\text{ V}$ across the source unchanged.
+In a $10\text{ V}$ source feeding a $1\ \Omega$ resistor, with $A$ at the source's positive terminal and $B$ at its negative terminal, grounding $B$ puts $V_B$ at $0\text{ V}$ and $V_A$ at $10\text{ V}$. Grounding $A$ instead puts $V_A$ at $0\text{ V}$ and $V_B$ at $-10\text{ V}$. Both grounding choices leave the $10\text{ V}$ across the source unchanged. <p> ![ground symbol: stacked horizontal strokes at a node](../../attachments/symbol_ground.svg)
 
-Reference marks carry no value of their own: an element between $A$ and $B$ marked only with a positive and a negative terminal leaves both the ordering of the two potentials and their values against zero undecided.
+Reference marks carry no value of their own: an element between $A$ and $B$ marked only with a positive and a negative terminal leaves both the ordering of the two potentials and their values against zero undecided. <p> ![an element marked with a plus and a minus terminal and no value written](../../attachments/reference_marks.svg)
 
 ---
 
@@ -59,7 +59,7 @@ Flashcards for this section are as follows:
 
 ## reference directions
 
-The sign in Ohm's law follows the reference direction drawn on the current. With the current arrow running from the plus mark to the minus mark of the resistor voltage, $V = +IR$. With the arrow the other way, $V = -IR$.
+The sign in Ohm's law follows the reference direction drawn on the current. With the current arrow running from the plus mark to the minus mark of the resistor voltage, $V = +IR$. With the arrow the other way, $V = -IR$. <p> ![a resistor marked plus at one end and minus at the other, with a current arrow below it running from the plus mark to the minus mark](../../attachments/reference_direction_with.svg) ![the same resistor with the current arrow below it running from the minus mark to the plus mark](../../attachments/reference_direction_against.svg)
 
 A $4\ \Omega$ resistor with $I_1 = 2\text{ A}$ along an arrow running from its plus mark to its minus mark gives $V_1 = +I_1 R = (2\text{ A})(4\ \Omega) = 8\text{ V}$. Reversing the current reference and taking $I_2 = -2\text{ A}$ gives the same $8\text{ V}$: $V_1 = -I_2 R = -(-2\text{ A})(4\ \Omega) = 8\text{ V}$.
 
@@ -70,6 +70,7 @@ The arrow fixes a reference direction, not the sign of the current: only the rel
 Flashcards for this section are as follows:
 
 - overview: a resistor carries a current reference arrow $I$ and a voltage marked with a plus and a minus mark; how does the sign of the voltage follow the arrow? ::@:: $V = +IR$ when the arrow runs from the plus mark to the minus mark, and $V = -IR$ when the arrow runs the other way.
+- draw the reference direction: ![resistor symbol: a zigzag line labelled R](../../attachments/symbol_resistor.svg) the resistor carries the voltage $V_1$ and the current arrow $I_1$ runs from the plus mark to the minus mark; what does the finished drawing look like, and what relation holds? ::@:: ![a resistor marked plus at one end and minus at the other, with a current arrow below it running from the plus mark to the minus mark](../../attachments/reference_direction_with.svg) ![the same resistor with the current arrow below it running from the minus mark to the plus mark](../../attachments/reference_direction_against.svg) $V_1 = +I_1 R$; with the arrow the other way, $V_1 = -I_2 R$.
 - matching arrow: a $4\ \Omega$ resistor has $I_1 = 2\text{ A}$ along the arrow that runs from its plus mark to its minus mark; what is $V_1$? ::@:: $V_1 = +I_1 R = (2\text{ A})(4\ \Omega) = 8\text{ V}$.
 - reversed arrow: a $4\ \Omega$ resistor has its voltage marked plus at one end and minus at the other, with the current arrow $I_2 = -2\text{ A}$ running from the minus mark to the plus mark; what is $V_1$? ::@:: $V_1 = -I_2 R = -(-2\text{ A})(4\ \Omega) = 8\text{ V}$.
 - sign of the current: a current reference arrow $I_1$ is drawn through a resistor with no value given; does the direction fix whether $I_1$ is positive or negative? ::@:: No: the arrow is a reference direction, so $I_1$ may take either sign.
