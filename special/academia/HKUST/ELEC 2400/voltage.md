@@ -79,7 +79,7 @@ Flashcards for this section are as follows:
 
 Potential values are fixed only up to a common offset, so a reference point must be chosen before a single potential can be quoted. Assigning the ground potential $0\text{ V}$ and letting $B$ be ground turns the difference into the value at the other point, since $V_{AB} = V_A - V_B = V_A - 0 = V_A$. A circuit can then quote a potential at one node without naming the second point.
 
-Every quoted potential shifts with the reference, while the differences do not. In a $10\text{ V}$ source feeding a $1\ \Omega$ resistor, with $A$ at the source's positive terminal and $B$ at its negative terminal, grounding $B$ gives $V_A = 10\text{ V}$ and $V_B = 0\text{ V}$. Grounding $A$ instead gives $V_A = 0\text{ V}$ and $V_B = -10\text{ V}$: both values shift by $-10\text{ V}$, and the $10\text{ V}$ across the source stays as it was.
+Every quoted potential shifts with the reference, while the differences do not. In a $10\text{ V}$ source feeding a $1\ \Omega$ resistor, with $A$ at the source's positive terminal and $B$ at its negative terminal, grounding $B$ gives $V_A = 10\text{ V}$ and $V_B = 0\text{ V}$. Grounding $A$ instead gives $V_A = 0\text{ V}$ and $V_B = -10\text{ V}$: both values shift by $-10\text{ V}$, and the $10\text{ V}$ across the source is unchanged.
 
 ---
 
@@ -104,7 +104,7 @@ Flashcards for this section are as follows:
 
 ## labelling a voltage
 
-A voltage written on a diagram fixes nothing until the diagram also shows the direction its sign runs. One form places the value beside a plus mark at one point and a minus mark at the other. The other form places it beside an arrow.
+A voltage written on a diagram fixes nothing until the diagram also shows which way its sign runs. One form places the value beside a plus mark at one point and a minus mark at the other. The other form places it beside an arrow.
 
 In the marked form the value is the potential at the plus mark minus the potential at the minus mark. In the arrow form the value is read along the arrow, as the potential at the head minus the potential at the tail. Reversing the marks or the arrow negates the value, and several labels describe the same situation.
 
@@ -124,7 +124,7 @@ Flashcards for this section are as follows:
 
 ## measuring voltage
 
-A voltmeter reads the potential difference between whatever its two probes touch, with the red probe positive, so the reading is $V_{\text{red}} - V_{\text{black}}$. An analog or digital voltmeter measures the voltage across an element such as a battery when the red probe touches the positive terminal and the black probe touches the negative terminal. For a $1.5\text{ V}$ AA battery that reading is $1.5\text{ V}$. Exchanging the two probes keeps the magnitude and flips the sign of the reading. <p> ![voltmeter drawn as a box with a red plus terminal marked A and a black minus terminal marked B](attachments/symbol_voltmeter.svg)
+A voltmeter reads the potential difference between whatever its two probes touch, with the red probe positive, so the reading is $V_{\text{red}} - V_{\text{black}}$. An analog or digital voltmeter measures the voltage across an element such as a battery when the red probe touches the positive terminal and the black probe the negative terminal. On a $1.5\text{ V}$ AA battery the reading is $1.5\text{ V}$. Exchanging the probes reverses the sign and keeps the magnitude. <p> ![voltmeter drawn as a box with a red plus terminal marked A and a black minus terminal marked B](attachments/symbol_voltmeter.svg)
 
 A defined reading also needs a complete circuit. When a terminal floats unconnected, the display shows an undefined value or fluctuates.
 
@@ -132,9 +132,9 @@ A defined reading also needs a complete circuit. When a terminal floats unconnec
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Connect the red probe to the positive terminal and the black probe to the negative terminal of an element, and an analog or digital voltmeter then reads the potential difference across it.
+- overview ::@:: Connect the red probe to the positive terminal and the black probe to the negative terminal of an element, and the voltmeter reads the potential difference across it.
 - reading rule: the red probe rests at a point of potential $V_{\text{red}}$ and the black probe at a point of potential $V_{\text{black}}$; what does the meter read? <p> ![voltmeter drawn as a box with a red plus terminal marked A and a black minus terminal marked B](attachments/symbol_voltmeter.svg) ::@:: $V_{\text{red}} - V_{\text{black}}$.
-- draw the meter: a circuit diagram needs a voltmeter across the points $A$ and $B$; what is drawn, and which probe reaches which point? ::@:: A box marked Voltmeter with a red $+$ probe and a black $-$ probe, the red probe reaching $A$. <p> ![voltmeter drawn as a box with a red plus terminal marked A and a black minus terminal marked B](attachments/symbol_voltmeter.svg)
+- draw the meter: a circuit diagram needs a voltmeter across the points $A$ and $B$; what is drawn, and which probe reaches which point? ::@:: A box marked Voltmeter, with a red $+$ terminal at $A$ and a black $-$ terminal at $B$. <p> ![voltmeter drawn as a box with a red plus terminal marked A and a black minus terminal marked B](attachments/symbol_voltmeter.svg)
 - correct probes: a $1.5\text{ V}$ AA battery is measured with the red probe on its positive terminal and the black probe on its negative terminal; what does the voltmeter read? ::@:: $1.5\text{ V}$, the potential difference across the battery.
 - reversed probes: a $1.5\text{ V}$ AA battery is measured after exchanging the red and black probes; what does the voltmeter read? ::@:: $-1.5\text{ V}$: the same magnitude with the opposite sign.
 - incomplete circuit: a $1.5\text{ V}$ AA battery has one terminal left floating and unconnected while a voltmeter spans its two terminals; what does the meter read? ::@:: No defined value: the display is undefined or fluctuates.

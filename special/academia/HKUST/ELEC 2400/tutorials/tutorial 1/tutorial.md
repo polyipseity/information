@@ -20,9 +20,9 @@ Every voltage is a difference between two points. A potential quoted at a single
 
 A voltmeter reads the potential difference between the two points its probes touch. The red probe is the positive terminal of the meter and the black probe the negative one, so the reading is $V_{\text{red}} - V_{\text{black}}$. <p> ![voltmeter drawn as a box with a red plus terminal marked A and a black minus terminal marked B](../../attachments/symbol_voltmeter.svg)
 
-On a $1.5\text{ V}$ AA cell, the red probe touching the positive terminal and the black probe touching the negative one gives $1.5\text{ V}$. Exchanging the probes keeps the magnitude and reverses the sign, to $-1.5\text{ V}$: $V_{BA} = V_B - V_A = -(V_A - V_B) = -V_{AB}$.
+With the red probe on the positive terminal of a $1.5\text{ V}$ AA cell and the black probe on the negative terminal, the meter reads $1.5\text{ V}$. Exchanging the probes reverses the sign and keeps the magnitude, so the reading is $-1.5\text{ V}$: $V_{BA} = V_B - V_A = -(V_A - V_B) = -V_{AB}$.
 
-A voltage written on a diagram is read the same way: the value is the potential at the plus mark minus the potential at the minus mark. An element between $A$ and $B$ labelled $V_1$ beside a minus mark at $A$ and a plus mark at $B$ therefore has $V_1 = V_B - V_A = V_{BA} = -V_{AB}$.
+A voltage written on a diagram is read the same way: the value is the potential at the plus mark minus the potential at the minus mark. an element between $A$ and $B$ labelled $V_1$ beside a minus mark at $A$ and a plus mark at $B$ therefore has $V_1 = V_B - V_A = -V_{AB}$.
 
 ---
 
@@ -63,7 +63,7 @@ The sign in Ohm's law follows the reference direction drawn on the current. With
 
 A $4\ \Omega$ resistor with $I_1 = 2\text{ A}$ along an arrow running from its plus mark to its minus mark gives $V_1 = +I_1 R = (2\text{ A})(4\ \Omega) = 8\text{ V}$. Reversing the current reference and taking $I_2 = -2\text{ A}$ gives the same $8\text{ V}$: $V_1 = -I_2 R = -(-2\text{ A})(4\ \Omega) = 8\text{ V}$.
 
-The arrow fixes a reference direction, not the sign of the current: only the relation $V_1 = +I_1 R$ is known, and $V_2 = -I_2 R$ once the arrow is reversed.
+The arrow fixes a reference direction, not the sign of the current, so reversing it turns $V_1 = +I_1 R$ into $V_2 = -I_2 R$.
 
 ---
 
