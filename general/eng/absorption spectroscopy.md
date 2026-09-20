@@ -12,7 +12,7 @@ tags:
 
 ## absorption spectrum
 
-A material's absorption spectrum is {@{the fraction of incident radiation absorbed by the material over a range of [frequencies](frequency.md) of [electromagnetic radiation](electromagnetic%20radiation.md) due to [electrons](electron.md) making a [transition](atomic%20electron%20transition.md) from a lower [energy level](energy%20level.md) to a higher energy level}@}. <!--SR:!2026-10-27,521,270-->
+A material's absorption spectrum is {@{the fraction of incident radiation absorbed by the material over a range of [frequencies](frequency.md) of [electromagnetic radiation](electromagnetic%20radiation.md) due to [electrons](electron.md) making a [transition](atomic%20electron%20transition.md) from a lower [energy level](energy%20level.md) to a higher energy level}@}. <!--SR:!fsrs,2031-06-04T00:00:00.000Z,1681,1681.3820321,2.98092302,2,10,0,0,2026-10-27T00:00:00.000Z-->
 
 ### relation to emission spectrum
 

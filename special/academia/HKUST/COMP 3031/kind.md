@@ -100,7 +100,7 @@ Thus {@{the `Monad` type class}@} captures the semantics of both {@{constructing
 
 ### monad example motivation
 
-{@{The advantage of monad being a type class}@} is that we can define {@{very abstract and generic operations that work for all monadic structures}@}. For example, we can define {@{`sequence`}@}, a function that converts {@{a `List[F[A]]` into `F[List[A]]`}@} for some {@{monad type constructor  `F[_]`}@}: <!--SR:!2026-12-12,261,330!2026-10-27,228,330!2026-12-20,268,330!2026-11-05,237,330!2026-12-09,259,330-->
+{@{The advantage of monad being a type class}@} is that we can define {@{very abstract and generic operations that work for all monadic structures}@}. For example, we can define {@{`sequence`}@}, a function that converts {@{a `List[F[A]]` into `F[List[A]]`}@} for some {@{monad type constructor  `F[_]`}@}: <!--SR:!2026-12-12,261,330!fsrs,2029-08-14T00:00:00.000Z,1022,1021.94953015,1,2,9,0,0,2026-10-27T00:00:00.000Z!2026-12-20,268,330!2026-11-05,237,330!2026-12-09,259,330-->
 
 > [!example] __`sequence`__
 >

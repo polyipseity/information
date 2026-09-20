@@ -104,7 +104,7 @@ One could {@{re-implement `splitAt`}@} as {@{an extension method}@}: <!--SR:!fsr
 
 ### merge sort merging
 
-{@{A safe and exhaustive definition}@} of the merge step uses {@{pattern matching on both input lists}@}: <!--SR:!2026-10-27,284,330!2026-11-03,290,330-->
+{@{A safe and exhaustive definition}@} of the merge step uses {@{pattern matching on both input lists}@}: <!--SR:!fsrs,2030-03-17T00:00:00.000Z,1237,1236.83645167,1,2,9,0,0,2026-10-27T00:00:00.000Z!2026-11-03,290,330-->
 
 > [!example] __merge sort merging__
 >

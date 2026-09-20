@@ -109,7 +109,7 @@ Actors process {@{each message _sequentially_}@}, so {@{no explicit locks are ne
 
 {@{An _actor_}@} is an object that {@{possesses identity, a behavior, and communicates only by sending messages asynchronously}@}. It does not {@{expose its internal state to other actors}@}; instead, it receives {@{messages via an `ActorRef`}@} and reacts {@{according to its own logic}@}. The model was formalised by {@{Hewitt et al. in 1973 as a universal modular framework for artificial intelligence}@}. <!--SR:!2026-12-25,271,330!2026-12-20,267,330!2026-12-18,265,330!2026-11-27,255,330!2027-01-03,278,330!2027-01-17,287,330-->
 
-{@{The core of Scala’s actor implementation}@} is {@{the trait `Actor`}@}. Its {@{single abstract member `receive`}@} defines how it {@{handles incoming messages}@}: <!--SR:!2027-01-02,277,330!2026-10-27,228,330!2026-12-12,258,330!2026-11-11,241,330-->
+{@{The core of Scala’s actor implementation}@} is {@{the trait `Actor`}@}. Its {@{single abstract member `receive`}@} defines how it {@{handles incoming messages}@}: <!--SR:!2027-01-02,277,330!fsrs,2029-08-14T00:00:00.000Z,1022,1021.94953015,1,2,9,0,0,2026-10-27T00:00:00.000Z!2026-12-12,258,330!2026-11-11,241,330-->
 
 > [!example] __Scala `Actor` trait__
 >

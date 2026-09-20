@@ -574,7 +574,7 @@ Here is a list of common IPA letters and their pronunciations:
 - \[d\]:@:[voiced alveolar plosive](voiced%20alveolar%20plosive.md) <!--SR:!2030-01-13,1823,392-->
 - \[ɗ\]:@:[voiced alveolar implosive](voiced%20alveolar%20implosive.md) <!--SR:!2027-08-20,1021,351-->
 - \[ɖ\]:@:[voiced retroflex plosive](voiced%20retroflex%20plosive.md) <!--SR:!2027-10-04,1081,341-->
-- \[ð\]:@:[voiced dental fricative](voiced%20dental%20fricative.md) <!--SR:!2026-10-27,319,351-->
+- \[ð\]:@:[voiced dental fricative](voiced%20dental%20fricative.md) <!--SR:!fsrs,2029-05-15T00:00:00.000Z,931,931.24874438,1.70601587,2,9,0,0,2026-10-27T00:00:00.000Z-->
 - \[dz\]:@:[voiced alveolar affricate](voiced%20alveolar%20affricate.md) <!--SR:!2028-11-17,1349,374-->
 - \[dʒ\]:@:[voiced postalveolar affricate](voiced%20postalveolar%20affricate.md) <!--SR:!2030-06-11,1651,297-->
 - \[dʑ\]:@:[voiced alveolo-palatal affricate](voiced%20alveolo-palatal%20affricate.md) <!--SR:!2027-03-12,957,351-->
@@ -907,7 +907,7 @@ Here is a list of common IPA letters and their pronunciations:
 - ![voiced alveolar fricative](../../archives/Wikimedia%20Commons/Voiced%20alveolar%20sibilant.ogg):@:[voiced alveolar fricative](voiced%20alveolar%20fricative.md) <!--SR:!2026-12-10,644,275-->
 - ![voiced postalveolar fricative](../../archives/Wikimedia%20Commons/Voiced%20palato-alveolar%20sibilant.ogg):@:[voiced postalveolar fricative](voiced%20postalveolar%20fricative.md) <!--SR:!fsrs,2026-12-02T00:00:00.000Z,54,54.34469625,9.96240929,2,8,0,0,2026-10-09T00:00:00.000Z-->
 - ![voiced alveolo–palatal fricative](../../archives/Wikimedia%20Commons/Voiced%20alveolo-palatal%20sibilant.ogg):@:[voiced alveolo–palatal fricative](voiced%20alveolo–palatal%20fricative.md) <!--SR:!fsrs,2026-10-29T00:00:00.000Z,36,35.94723812,9.95159973,2,9,0,0,2026-09-23T00:00:00.000Z-->
-- ![voiced retroflex fricative](../../archives/Wikimedia%20Commons/Voiced%20retroflex%20sibilant.ogg):@:[voiced retroflex fricative](voiced%20retroflex%20fricative.md) <!--SR:!fsrs,2026-10-27T00:00:00.000Z,130,129.61380588,4.70301587,2,7,0,0,2026-06-19T00:00:00.000Z-->
+- ![voiced retroflex fricative](../../archives/Wikimedia%20Commons/Voiced%20retroflex%20sibilant.ogg):@:[voiced retroflex fricative](voiced%20retroflex%20fricative.md) <!--SR:!fsrs,2027-07-01T00:00:00.000Z,247,247.45619278,6.46884346,2,8,0,0,2026-10-27T00:00:00.000Z-->
 - ![voiceless dental fricative](../../archives/Wikimedia%20Commons/Voiceless%20dental%20fricative.ogg):@:[voiceless dental fricative](voiceless%20dental%20fricative.md) <!--SR:!fsrs,2027-04-20T06:00:17.397Z,309,308.53986267,4.74047837,2,8,0,0,2026-06-15T06:00:17.397Z-->
 - ![voiceless bilabial fricative](../../archives/Wikimedia%20Commons/Voiceless%20bilabial%20fricative.ogg):@:[voiceless bilabial fricative](voiceless%20bilabial%20fricative.md) <!--SR:!2027-05-20,369,310-->
 - ![glottal stop](../../archives/Wikimedia%20Commons/Glottal%20stop.ogg):@:[glottal stop](glottal%20stop.md) <!--SR:!fsrs,2027-01-18T00:00:00.000Z,184,184.28045271,5.48972837,2,7,0,0,2026-07-18T00:00:00.000Z-->

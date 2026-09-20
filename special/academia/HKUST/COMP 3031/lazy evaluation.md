@@ -34,7 +34,7 @@ In Scala {@{a _lazy list_}@} ({@{`scala.collection.immutable.LazyList`}@}, forme
 {@{A lazy list}@} is defined by {@{two core fields}@}: {@{`LazyList.head` and `LazyList.tail`}@}. <!--SR:!2027-01-07,331,345!2026-11-07,282,345!2026-11-22,294,345-->
 
 - `LazyList.head` ::@:: The first element, which may be computed lazily. <!--SR:!2026-12-01,301,345!2026-12-16,314,345-->
-- `LazyList.tail` ::@:: A _by-name_ parameter that represents the rest of the list; it is evaluated only when needed and its result is memoised so that subsequent accesses reuse the same value. <!--SR:!2026-10-27,271,345!2026-12-01,303,345-->
+- `LazyList.tail` ::@:: A _by-name_ parameter that represents the rest of the list; it is evaluated only when needed and its result is memoised so that subsequent accesses reuse the same value. <!--SR:!fsrs,2030-03-28T00:00:00.000Z,1248,1248.10391817,1,2,9,0,0,2026-10-27T00:00:00.000Z!2026-12-01,303,345-->
 
 {@{The standard implementation}@} in Scala keeps {@{a lazy `state` field}@} that holds either {@{an empty state or a cons cell with head and tail}@}.  {@{This state}@} is computed {@{on first access, cached, and never recomputed}@}. <!--SR:!2026-12-22,319,345!2027-01-08,332,345!2026-12-29,325,345!2027-01-03,328,345!2026-12-12,311,345-->
 
@@ -164,7 +164,7 @@ Here {@{`filter`}@} is {@{lazily evaluated}@}; when {@{the second element is acc
 >   val empty = ???                  // omitted
 > }
 > ```
-<!--SR:!2027-01-10,334,345!2026-11-25,297,345!2026-11-26,298,345!2026-12-12,309,345!2027-01-04,329,345!2026-11-03,278,345!2026-12-03,303,345!2026-10-27,271,345!2026-12-17,314,345-->
+<!--SR:!2027-01-10,334,345!2026-11-25,297,345!2026-11-26,298,345!2026-12-12,309,345!2027-01-04,329,345!2026-11-03,278,345!2026-12-03,303,345!fsrs,2030-03-28T00:00:00.000Z,1248,1248.10391817,1,2,9,0,0,2026-10-27T00:00:00.000Z!2026-12-17,314,345-->
 
 Using {@{this naive construction}@}, {@{`lazyRange(1, 10).take(3)`}@} would trigger {@{the creation of `tail` two times (or three times depending on the `take` implementation)}@}—once for {@{each element taken except for the first element}@}—leading to {@{unnecessary work and potential performance degradation if repeatedly called}@}. This issue is resolved by {@{memoising the first evaluation of the tail}@} so that {@{subsequent calls reuse the stored result}@}—{@{an optimisation justified in pure functional languages}@} where {@{expressions are deterministic}@}. This approach exemplifies {@{_lazy evaluation_}@} (as opposed to {@{plain _by-name_ evaluation}@}, which {@{recomputes on every call}@}, or {@{strict evaluation}@} used for {@{ordinary parameters and `val`s}@}). <!--SR:!2026-12-01,303,345!2026-11-06,281,330!2026-12-06,306,345!2026-12-29,325,345!2027-01-20,342,345!2026-11-01,276,330!2026-11-20,292,345!2026-10-28,272,345!2026-11-11,286,345!fsrs,2030-03-23T00:00:00.000Z,1244,1244.10763092,1,2,9,0,0,2026-10-26T00:00:00.000Z!2026-10-30,274,345!2026-11-10,285,345!2026-11-18,290,345!2027-01-11,334,345-->
 

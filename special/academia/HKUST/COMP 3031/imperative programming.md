@@ -22,7 +22,7 @@ Scala lets programmers write code that {@{looks like traditional _imperative_ la
 
 ## loops
 
-{@{Imperative programs}@} rely on {@{loops for repeated computation}@}. In Scala, {@{the built‑in `while` loop}@} is written as <!--SR:!2026-10-27,228,330!2027-01-16,290,330!2027-01-05,281,330-->
+{@{Imperative programs}@} rely on {@{loops for repeated computation}@}. In Scala, {@{the built‑in `while` loop}@} is written as <!--SR:!fsrs,2029-08-14T00:00:00.000Z,1022,1021.94953015,1,2,9,0,0,2026-10-27T00:00:00.000Z!2027-01-16,290,330!2027-01-05,281,330-->
 
 > [!example] __Scala `while` loop__
 >

@@ -179,7 +179,7 @@ Using {@{a `Future`}@} also gives {@{built‑in failure handling via `Try[T]`}@}
 >
 > {@{The `b` in the lambda}@} is supplied only after {@{the first future completes _successfully_}@}, and {@{any exception from `grindBeans` is automatically forwarded}@}. <!--SR:!2027-01-08,281,330!2026-11-15,245,330!2026-12-16,263,330!2027-01-17,287,330!2027-01-01,276,330!2027-01-20,291,330!2027-01-12,284,330-->
 
-When {@{the next step itself returns a `Future`}@}, {@{`flatMap`}@} chains {@{them without nesting callbacks}@}. It keeps {@{the overall result type flat: `Future[B]`}@}. {@{Failure}@} still propagates {@{through every stage of the chain}@}. <!--SR:!2027-01-01,276,330!2027-01-23,294,330!2026-11-13,243,330!2026-12-13,259,330!2026-12-30,273,330!2026-10-27,228,330-->
+When {@{the next step itself returns a `Future`}@}, {@{`flatMap`}@} chains {@{them without nesting callbacks}@}. It keeps {@{the overall result type flat: `Future[B]`}@}. {@{Failure}@} still propagates {@{through every stage of the chain}@}. <!--SR:!2027-01-01,276,330!2027-01-23,294,330!2026-11-13,243,330!2026-12-13,259,330!2026-12-30,273,330!fsrs,2029-08-14T00:00:00.000Z,1022,1021.94953015,1,2,9,0,0,2026-10-27T00:00:00.000Z-->
 
 > [!example] __`Future.flatMap`__
 >

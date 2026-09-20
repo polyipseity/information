@@ -52,7 +52,7 @@ Command names can be {@{truncated at the end to produce an abbreviation if the a
 
 ### `pwndbg`
 
-- `pwndbg>` color (may differ depending on your configuration) ::@:: cyan: program is running; red: program is not running <!--SR:!2028-05-06,1045,350!2026-10-27,537,310-->
+- `pwndbg>` color (may differ depending on your configuration) ::@:: cyan: program is running; red: program is not running <!--SR:!2028-05-06,1045,350!fsrs,2032-05-01T00:00:00.000Z,2013,2012.54684823,1,2,10,0,0,2026-10-27T00:00:00.000Z-->
 - `checksec` ::@:: print the binary security settings <!--SR:!2031-01-17,1832,385!2029-09-16,1410,365-->
 - `down` ::@:: move down the backtrace or call stack <!--SR:!2027-03-26,702,330!2028-08-29,1133,350-->
 - `up` ::@:: move up the backtrace or call stack <!--SR:!2027-05-21,743,330!2027-07-29,795,330-->

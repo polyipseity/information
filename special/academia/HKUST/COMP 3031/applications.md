@@ -51,7 +51,7 @@ The goal is to implement {@{a method `encode(phoneNumber)`}@} that returns {@{ev
 
 #### `Coder.charCode`
 
-{@{The first helper, `charCode`}@}, maps {@{any alphabetic character to its corresponding digit}@}. Using {@{a for-comprehension}@} we {@{invert the `mnemonics` map}@}: <!--SR:!2026-10-27,283,330!fsrs,2028-08-16T00:00:00.000Z,700,700.04868809,2.49272837,2,9,0,0,2026-09-16T00:00:00.000Z!fsrs,2028-08-20T00:00:00.000Z,703,702.57151752,2.49272837,2,9,0,0,2026-09-17T00:00:00.000Z!fsrs,2030-01-10T00:00:00.000Z,1187,1187.45608877,1,2,9,0,0,2026-10-11T00:00:00.000Z-->
+{@{The first helper, `charCode`}@}, maps {@{any alphabetic character to its corresponding digit}@}. Using {@{a for-comprehension}@} we {@{invert the `mnemonics` map}@}: <!--SR:!fsrs,2030-03-13T00:00:00.000Z,1233,1233.04800529,1,2,9,0,0,2026-10-27T00:00:00.000Z!fsrs,2028-08-16T00:00:00.000Z,700,700.04868809,2.49272837,2,9,0,0,2026-09-16T00:00:00.000Z!fsrs,2028-08-20T00:00:00.000Z,703,702.57151752,2.49272837,2,9,0,0,2026-09-17T00:00:00.000Z!fsrs,2030-01-10T00:00:00.000Z,1187,1187.45608877,1,2,9,0,0,2026-10-11T00:00:00.000Z-->
 
 > [!example] __`Coder.charCode`__
 >
@@ -96,7 +96,7 @@ With {@{`charCode` available}@}, {@{any word}@} can be turned {@{into the numeri
 
 ### `Coder.encode`
 
-{@{The core algorithm}@} is {@{a classic recursive split}@}.  If {@{the input number is empty}@}, {@{the only encoding}@} is {@{the empty list}@}; otherwise we try {@{every possible prefix length}@} and combine {@{the results of the suffix recursively}@}: <!--SR:!fsrs,2028-02-09T00:00:00.000Z,514,513.71227157,5.00637887,2,9,0,0,2026-09-13T00:00:00.000Z!fsrs,2029-12-20T00:00:00.000Z,1172,1172.20432607,1,2,9,0,0,2026-10-05T00:00:00.000Z!fsrs,2030-02-12T00:00:00.000Z,1210,1210.28222352,1,2,9,0,0,2026-10-21T00:00:00.000Z!2026-10-27,283,330!fsrs,2028-11-27T00:00:00.000Z,773,772.81357058,2.49272837,2,9,0,0,2026-10-16T00:00:00.000Z!fsrs,2030-01-10T00:00:00.000Z,1187,1187.45608877,1,2,9,0,0,2026-10-11T00:00:00.000Z!2026-11-02,289,330-->
+{@{The core algorithm}@} is {@{a classic recursive split}@}.  If {@{the input number is empty}@}, {@{the only encoding}@} is {@{the empty list}@}; otherwise we try {@{every possible prefix length}@} and combine {@{the results of the suffix recursively}@}: <!--SR:!fsrs,2028-02-09T00:00:00.000Z,514,513.71227157,5.00637887,2,9,0,0,2026-09-13T00:00:00.000Z!fsrs,2029-12-20T00:00:00.000Z,1172,1172.20432607,1,2,9,0,0,2026-10-05T00:00:00.000Z!fsrs,2030-02-12T00:00:00.000Z,1210,1210.28222352,1,2,9,0,0,2026-10-21T00:00:00.000Z!fsrs,2030-03-13T00:00:00.000Z,1233,1233.04800529,1,2,9,0,0,2026-10-27T00:00:00.000Z!fsrs,2028-11-27T00:00:00.000Z,773,772.81357058,2.49272837,2,9,0,0,2026-10-16T00:00:00.000Z!fsrs,2030-01-10T00:00:00.000Z,1187,1187.45608877,1,2,9,0,0,2026-10-11T00:00:00.000Z!2026-11-02,289,330-->
 
 > [!example] __`Coder.encode`__
 >

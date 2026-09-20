@@ -352,7 +352,7 @@ If {@{$f:X\to Y$ is a function}@}, {@{_A_ and _B_ are subsets of _X_, and _C_ an
 - (annotation: monotonicity, codomain) ::@:: $$C\subseteq D\Longrightarrow f^{-1}(C)\subseteq f^{-1}(D)$$ <!--SR:!fsrs,2031-08-29T00:00:00.000Z,1882,1882.44486003,1,2,10,0,0,2026-07-04T00:00:00.000Z!2030-04-01,1483,370-->
 - (annotation: domain expansion) ::@:: $$A\subseteq f^{-1}(f(A))$$ <!--SR:!fsrs,2031-08-19T00:00:00.000Z,1874,1874.37468451,1,2,10,0,0,2026-07-02T00:00:00.000Z!2031-08-03,1889,387-->
 - (annotation: codomain contraction) ::@:: $$C\supseteq f(f^{-1}(C))$$ <!--SR:!2027-02-25,521,310!2028-12-15,1093,350-->
-- (annotation: idempotency, image of domain) ::@:: $$f(f^{-1}(f(A)))=f(A)$$ <!--SR:!2026-10-27,467,325!2029-10-15,1330,350-->
+- (annotation: idempotency, image of domain) ::@:: $$f(f^{-1}(f(A)))=f(A)$$ <!--SR:!fsrs,2031-12-16T00:00:00.000Z,1876,1876.02106023,1,2,10,0,0,2026-10-27T00:00:00.000Z!2029-10-15,1330,350-->
 - (annotation: idempotency, pre-image of codomain) ::@:: $$f^{-1}(f(f^{-1}(C)))=f^{-1}(C)$$ <!--SR:!fsrs,2031-08-16T00:00:00.000Z,1869,1869.37261436,1,2,10,0,0,2026-07-04T00:00:00.000Z!2030-10-12,1627,370-->
 
 {@{The preimage by _f_ of an element _y_ of the codomain}@} is sometimes called, in some contexts, {@{the [fiber](fiber%20(mathematics).md) of _y_ under __f__}@}. <!--SR:!2028-04-14,900,350!2030-08-16,1577,370-->

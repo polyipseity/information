@@ -41,7 +41,7 @@ Compare with [nonmetal § properties](nonmetal.md#properties).
 >     - [density](density.md) / metalloid :@: - between metals and nonmetals <!--SR:!2027-01-25,294,330-->
 >     - [density](density.md) / nonmetal :@: - mostly low <!--SR:!2027-01-13,284,330-->
 > - [electrical conductivity](electrical%20conductivity.md)
->     - [electrical conductivity](electrical%20conductivity.md) / metal :@: - good to high <!--SR:!2026-10-27,204,310-->
+>     - [electrical conductivity](electrical%20conductivity.md) / metal :@: - good to high <!--SR:!fsrs,2029-03-09T00:00:00.000Z,864,864.05150394,1,2,9,0,0,2026-10-27T00:00:00.000Z-->
 >     - [electrical conductivity](electrical%20conductivity.md) / metalloid :@: - intermediate to good <!--SR:!2027-01-13,284,330-->
 >     - [electrical conductivity](electrical%20conductivity.md) / nonmetal :@: - poor to good <!--SR:!2027-01-25,294,330-->
 > - form
