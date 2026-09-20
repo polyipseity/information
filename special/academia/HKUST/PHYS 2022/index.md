@@ -32,8 +32,14 @@ PHYS 2022 is an undergraduate course in modern physics at HKUST covering relativ
 - [`Project sample.pdf`](attachments/Project%20sample.pdf)
 - [classical physics](classical%20physics.md)
 - [conservation law](conservation%20law.md)
+- [electromagnetic radiation](electromagnetic%20radiation.md)
 - [fundamental interaction](fundamental%20interaction.md)
+- [history of atomic theory](history%20of%20atomic%20theory.md)
+- [kinetic theory of gases](kinetic%20theory%20of%20gases.md)
+- [light](light.md)
+- [modern physics](modern%20physics.md)
 - [physics](physics.md)
+- [wave](wave.md)
 
 ## logistics
 
@@ -81,6 +87,13 @@ PHYS 2022 is an undergraduate course in modern physics at HKUST covering relativ
     - pre-1900 physics
         - [classical physics](classical%20physics.md)
         - [fundamental interaction](fundamental%20interaction.md)
+        - [wave](wave.md)
+        - [light](light.md)
+        - [electromagnetic radiation](electromagnetic%20radiation.md)
+        - [history of atomic theory](history%20of%20atomic%20theory.md)
+        - [kinetic theory of gases](kinetic%20theory%20of%20gases.md)
+    - modern physics
+        - [modern physics](modern%20physics.md)
 - intended learning outcomes
     - describe the experimental evidence for quantum physics, including the photoelectric effect, atomic spectra, and electron diffraction
     - explain wave–particle duality, the Bohr atomic model, the uncertainty principle, and solutions to the one-dimensional Schrödinger equation
@@ -99,11 +112,16 @@ PHYS 2022 is an undergraduate course in modern physics at HKUST covering relativ
 - [physics](physics.md)
     - physics / [§ the physicist's job](physics.md#the%20physicist%27s%20job)
     - physics / [§ physical properties](physics.md#physical%20properties)
+        - physics / [§ volume and temperature](physics.md#volume%20and%20temperature)
     - physics / [§ methodology of physics](physics.md#methodology%20of%20physics)
 - [classical physics](classical%20physics.md)
     - classical physics / [§ mechanics](classical%20physics.md#mechanics)
+        - classical physics / [§ the laws of motion](classical%20physics.md#the%20laws%20of%20motion)
+        - classical physics / [§ gravitation](classical%20physics.md#gravitation)
     - classical physics / [§ electromagnetism](classical%20physics.md#electromagnetism)
+        - classical physics / [§ Maxwell's equations](classical%20physics.md#maxwell%27s%20equations)
     - classical physics / [§ thermodynamics](classical%20physics.md#thermodynamics)
+        - classical physics / [§ the first and second laws](classical%20physics.md#the%20first%20and%20second%20laws)
     - classical physics / [§ technology of the period](classical%20physics.md#technology%20of%20the%20period)
 - [conservation law](conservation%20law.md)
     - conservation law / [§ invariances behind the laws](conservation%20law.md#invariances%20behind%20the%20laws)
@@ -112,3 +130,43 @@ PHYS 2022 is an undergraduate course in modern physics at HKUST covering relativ
     - fundamental interaction / [§ gravitational force](fundamental%20interaction.md#gravitational%20force)
     - fundamental interaction / [§ electromagnetic force](fundamental%20interaction.md#electromagnetic%20force)
     - fundamental interaction / [§ Coulomb's experiment](fundamental%20interaction.md#coulomb%27s%20experiment)
+
+## week 1 lecture 2
+
+- datetime: 2026-09-03T13:30:00+08:00/2026-09-03T14:50:00+08:00, PT1H20M
+- venue: Lecture Theater G
+- topic: waves and particles as ways of transporting energy; the wave and particle views of light and the double-slit experiment; Maxwell's electromagnetic wave, the spectrum, and the ether; the atomic theory of matter and its opposition; the kinetic theory of gases and the failure of classical heat capacity; the unresolved questions of 1895
+- [wave](wave.md)
+    - wave / [§ wave and particle models](wave.md#wave%20and%20particle%20models)
+        - wave / [§ the particle model](wave.md#the%20particle%20model)
+        - wave / [§ the wave model](wave.md#the%20wave%20model)
+- [light](light.md)
+    - light / [§ wave and particle views](light.md#wave%20and%20particle%20views)
+        - light / [§ the wave view](light.md#the%20wave%20view)
+        - light / [§ the particle view](light.md#the%20particle%20view)
+    - light / [§ Young's double-slit experiment](light.md#young%27s%20double-slit%20experiment)
+- [electromagnetic radiation](electromagnetic%20radiation.md)
+    - electromagnetic radiation / [§ the electromagnetic spectrum](electromagnetic%20radiation.md#the%20electromagnetic%20spectrum)
+        - electromagnetic radiation / [§ visible light](electromagnetic%20radiation.md#visible%20light)
+    - electromagnetic radiation / [§ the medium and the aether](electromagnetic%20radiation.md#the%20medium%20and%20the%20aether)
+    - electromagnetic radiation / [§ detection of electromagnetic waves](electromagnetic%20radiation.md#detection%20of%20electromagnetic%20waves)
+    - electromagnetic radiation / [§ wireless communication](electromagnetic%20radiation.md#wireless%20communication)
+- [history of atomic theory](history%20of%20atomic%20theory.md)
+    - history of atomic theory / [§ atomic models](history%20of%20atomic%20theory.md#atomic%20models)
+    - history of atomic theory / [§ evidence for atoms](history%20of%20atomic%20theory.md#evidence%20for%20atoms)
+        - history of atomic theory / [§ imaging atoms directly](history%20of%20atomic%20theory.md#imaging%20atoms%20directly)
+    - history of atomic theory / [§ opposition to atomism](history%20of%20atomic%20theory.md#opposition%20to%20atomism)
+- [kinetic theory of gases](kinetic%20theory%20of%20gases.md)
+    - kinetic theory of gases / [§ ideal gas law](kinetic%20theory%20of%20gases.md#ideal%20gas%20law)
+    - kinetic theory of gases / [§ equipartition of energy](kinetic%20theory%20of%20gases.md#equipartition%20of%20energy)
+    - kinetic theory of gases / [§ molar heat capacity](kinetic%20theory%20of%20gases.md#molar%20heat%20capacity)
+        - kinetic theory of gases / [§ gases](kinetic%20theory%20of%20gases.md#gases)
+        - kinetic theory of gases / [§ large molecules](kinetic%20theory%20of%20gases.md#large%20molecules)
+    - kinetic theory of gases / [§ limits of the classical model](kinetic%20theory%20of%20gases.md#limits%20of%20the%20classical%20model)
+        - kinetic theory of gases / [§ the constant-volume plateaus](kinetic%20theory%20of%20gases.md#the%20constant-volume%20plateaus)
+        - kinetic theory of gases / [§ the constant-pressure levels](kinetic%20theory%20of%20gases.md#the%20constant-pressure%20levels)
+- [modern physics](modern%20physics.md)
+    - modern physics / [§ unresolved questions of 1895](modern%20physics.md#unresolved%20questions%20of%201895)
+    - modern physics / [§ discoveries of 1895 to 1898](modern%20physics.md#discoveries%20of%201895%20to%201898)
+    - modern physics / [§ revision of the classical foundations](modern%20physics.md#revision%20of%20the%20classical%20foundations)
+    - modern physics / [§ open problems](modern%20physics.md#open%20problems)

@@ -33,16 +33,23 @@ Flashcards for this section are as follows:
 
 A balloon can be described physically by properties such as its color, volume, shape, mass, smoothness, temperature, density, pressure, conductivity, chemical composition, reactivity, reflectivity, and hardness. Physicists do three things with such a list: find the relationships between different properties, describe those relationships quantitatively using mathematical equations, and explain the underlying physics of the equations.
 
-The course's worked example is the relationship between volume and temperature. A balloon shrinks when it is cooled. The temperature $T$ and the corresponding volume $V$ are then measured systematically at a fixed pressure $P_1$, and the measurements are repeated at other pressures $P_2, P_3, \ldots$ and at different gas quantities $N$. The data are summarized by the equation $PV = Nk_BT$, where $k_B$ is the Boltzmann constant, and the model behind it is the gas simulation at <https://phet.colorado.edu/sims/html/gases-intro/latest/gases-intro_all.html>.
-
 ---
 
 Flashcards for this section are as follows:
 
 - physical properties used to describe a balloon: examples ::@:: Color, volume, shape, mass, smoothness, temperature, density, pressure, conductivity, chemical composition, reactivity, reflectivity, and hardness.
 - the three things physicists do with physical properties ::@:: Find the relationships between them, describe those relationships quantitatively using equations, and explain the underlying physics of the equations.
-- the observation that starts the volume–temperature example ::@:: A balloon shrinks when it is cooled.
-- the experiment establishing the volume–temperature relationship: varying $T$ at a fixed pressure $P_1$ ::@:: Measure the corresponding volume $V$ at each $T$, then repeat at other pressures $P_2, P_3, \ldots$ and at different gas quantities $N$.
+
+### volume and temperature
+
+A balloon shrinks when it is cooled. The temperature $T$ and the corresponding volume $V$ are then measured systematically at a fixed pressure $P_1$, and the measurements are repeated at other pressures $P_2, P_3, \ldots$ and at different gas quantities $N$. The data are summarized by the equation $PV = Nk_BT$, where $k_B$ is the Boltzmann constant, and the model behind it is the gas simulation at <https://phet.colorado.edu/sims/html/gases-intro/latest/gases-intro_all.html>.
+
+---
+
+Flashcards for this section are as follows:
+
+- volume and temperature: the observation the relationship starts from ::@:: A balloon shrinks when it is cooled.
+- volume and temperature: the experiment, varying $T$ at a fixed pressure $P_1$ ::@:: Measure the corresponding volume $V$ at each $T$, then repeat at other pressures $P_2, P_3, \ldots$ and at different gas quantities $N$.
 - the equation relating $P$, $V$, $N$, and $T$ for the gas measurements ::@:: $PV = Nk_BT$, where $k_B$ is the Boltzmann constant.
 
 ## methodology of physics

@@ -46,7 +46,7 @@ Flashcards for this section are as follows:
 <!-- check: ignore-next-line[header_style]: Coulomb is a proper noun -->
 ## Coulomb's experiment
 
-The electrostatic force was established by Coulomb's 1785 report, which concluded $F_e \propto \frac{q_1 q_2}{d^2}$ from only three data points. The report's Fig. 3 plots the angle on the micrometer against the angle between the pith balls and lays the three points over the curves $1/r$, $1/r^2$, and $1/r^3$; a better fit to those same points is $1/r^{1.957}$, so the data alone do not single out the inverse-square form. The $1/r^2$ form was adopted anyway, because scientists do not believe that nature behaves so "ugly", and the remaining question of where $1/r^2$ comes from is left to theory.
+The electrostatic force was established by Coulomb's 1785 report, which concluded $F_e \propto \frac{q_1 q_2}{d^2}$ from only three data points. The report's Fig. 3 plots the angle on the micrometer against the angle between the pith balls and lays the three points over the curves $1/r$, $1/r^2$, and $1/r^3$; a better fit to those same points is $1/r^{1.957}$, so the data alone do not single out the inverse-square form. The $1/r^2$ form was adopted anyway, nature not being expected to behave so "ugly", and the remaining question of where $1/r^2$ comes from is left to theory.
 
 ---
 
@@ -56,4 +56,4 @@ Flashcards for this section are as follows:
 - Coulomb's data: the number of points and the fitted exponent $p$ in $1/r^{p}$ ::@:: Three data points, with a fit of $1/r^{1.957}$.
 - the two quantities on the axes of the report's Fig. 3 ::@:: The angle on the micrometer on the vertical axis and the angle between the pith balls on the horizontal axis.
 - the three curves the data are plotted against in Fig. 3: as powers of $r$ ::@:: $1/r$, $1/r^2$, and $1/r^3$.
-- why the $1/r^2$ form was adopted over the closer $1/r^{1.957}$ fit ::@:: Scientists do not believe that nature behaves so "ugly", so the question of where $1/r^2$ comes from is left to theory.
+- why the $1/r^2$ form was adopted over the closer $1/r^{1.957}$ fit ::@:: Nature was not expected to behave so "ugly", so the question of where $1/r^2$ comes from is left to theory.

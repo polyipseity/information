@@ -21,19 +21,49 @@ Flashcards for this section are as follows:
 
 ## mechanics
 
-Mechanics was given its experimental foundations by Galileo (1564–1642) and its laws by Isaac Newton (1642–1727). Newton's three laws of motion describe how forces change motion, with $F = ma$ for the second law. His law of gravitation $F_1 = F_2 = G\frac{m_1 m_2}{r^2}$ gives the attraction between two masses $m_1$ and $m_2$ separated by a distance $r$.
+Mechanics was given its experimental foundations by Galileo (1564–1642) and its laws by Isaac Newton (1642–1727).
 
 ---
 
 Flashcards for this section are as follows:
 
 - the founders of mechanics ::@:: Galileo established its experimental foundations, and Newton supplied its laws of motion and gravitation.
+
+### the laws of motion
+
+Newton's three laws of motion describe how forces change motion, with $F = ma$ for the second law.
+
+---
+
+Flashcards for this section are as follows:
+
 - Newton's second law: the equation for $F$, $m$, and $a$ ::@:: $F = ma$.
+
+### gravitation
+
+Newton's law of gravitation $F_1 = F_2 = G\frac{m_1 m_2}{r^2}$ gives the attraction between two masses $m_1$ and $m_2$ separated by a distance $r$.
+
+---
+
+Flashcards for this section are as follows:
+
 - Newton's law of gravitation: the force between masses $m_1$ and $m_2$ at separation $r$ ::@:: $F_1 = F_2 = G\frac{m_1 m_2}{r^2}$.
 
 ## electromagnetism
 
-Electromagnetism was built up by Coulomb (1736–1806), Ørsted (1777–1851), Gauss (1777–1855), Young (1773–1829), Ampère (1775–1836), Faraday (1791–1867), Henry (1797–1878), Maxwell (1831–1879), and Hertz (1857–1894). Maxwell's equations state the theory: $\nabla\cdot D = \rho_v$, $\nabla\cdot B = 0$, $\nabla\times E = -\frac{\partial B}{\partial t}$, and $\nabla\times H = \frac{\partial D}{\partial t} + J$.
+Electromagnetism was built up by Coulomb (1736–1806), Ørsted (1777–1851), Gauss (1777–1855), Young (1773–1829), Ampère (1775–1836), Faraday (1791–1867), Henry (1797–1878), Maxwell (1831–1879), and Hertz (1857–1894).
+
+---
+
+Flashcards for this section are as follows:
+
+- the people behind electromagnetism: the five born before 1790 ::@:: Coulomb (1736–1806), Young (1773–1829), Ampère (1775–1836), Ørsted (1777–1851), and Gauss (1777–1855).
+- the people behind electromagnetism: the four born after 1790 ::@:: Faraday (1791–1867), Henry (1797–1878), Maxwell (1831–1879), and Hertz (1857–1894).
+
+<!-- check: ignore-next-line[header_style]: Maxwell is a proper noun -->
+### Maxwell's equations
+
+Maxwell's equations state the theory: $\nabla\cdot D = \rho_v$, $\nabla\cdot B = 0$, $\nabla\times E = -\frac{\partial B}{\partial t}$, and $\nabla\times H = \frac{\partial D}{\partial t} + J$.
 
 ---
 
@@ -41,20 +71,27 @@ Flashcards for this section are as follows:
 
 - Maxwell's equations giving the divergence of $D$ and $B$ ::@:: $\nabla\cdot D = \rho_v$ and $\nabla\cdot B = 0$.
 - Maxwell's equations giving the curl of $E$ and $H$ ::@:: $\nabla\times E = -\frac{\partial B}{\partial t}$ and $\nabla\times H = \frac{\partial D}{\partial t} + J$.
-- the people behind electromagnetism: the five born before 1790 ::@:: Coulomb (1736–1806), Young (1773–1829), Ampère (1775–1836), Ørsted (1777–1851), and Gauss (1777–1855).
-- the people behind electromagnetism: the four born after 1790 ::@:: Faraday (1791–1867), Henry (1797–1878), Maxwell (1831–1879), and Hertz (1857–1894).
 
 ## thermodynamics
 
-Thermodynamics was developed by Benjamin Thompson (1753–1814), Carnot (1796–1832), Joule (1818–1889), Clausius (1822–1888), William Thomson, later Lord Kelvin (1824–1907), Avogadro (1776–1856), Boltzmann (1844–1906), and Maxwell (1831–1879). Its two fundamental laws are the first law $\frac{dE}{dt} = 0$ and the second law $\frac{dS}{dt} \geq 0$.
+Thermodynamics was developed by Benjamin Thompson (1753–1814), Carnot (1796–1832), Joule (1818–1889), Clausius (1822–1888), William Thomson, later Lord Kelvin (1824–1907), Avogadro (1776–1856), Boltzmann (1844–1906), and Maxwell (1831–1879).
+
+---
+
+Flashcards for this section are as follows:
+
+- the people behind thermodynamics: the four born before 1820 ::@:: Benjamin Thompson (1753–1814), Avogadro (1776–1856), Carnot (1796–1832), and Joule (1818–1889).
+- the people behind thermodynamics: the four born after 1820 ::@:: Clausius (1822–1888), William Thomson, later Lord Kelvin (1824–1907), Maxwell (1831–1879), and Boltzmann (1844–1906).
+
+### the first and second laws
+
+Thermodynamics rests on two fundamental laws, the first $\frac{dE}{dt} = 0$ and the second $\frac{dS}{dt} \geq 0$.
 
 ---
 
 Flashcards for this section are as follows:
 
 - the two laws of thermodynamics: the equations for $\frac{dE}{dt}$ and $\frac{dS}{dt}$ ::@:: The first law $\frac{dE}{dt} = 0$ and the second law $\frac{dS}{dt} \geq 0$.
-- the people behind thermodynamics: the four born before 1820 ::@:: Benjamin Thompson (1753–1814), Avogadro (1776–1856), Carnot (1796–1832), and Joule (1818–1889).
-- the people behind thermodynamics: the four born after 1820 ::@:: Clausius (1822–1888), William Thomson, later Lord Kelvin (1824–1907), Maxwell (1831–1879), and Boltzmann (1844–1906).
 
 ## technology of the period
 
