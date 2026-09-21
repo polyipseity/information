@@ -1135,24 +1135,25 @@ async def test_misplaced_suppression_comment_integration(tmp_path: PathLike[str]
 def test_session_rules():
     """Session-related rules around duplicates and datetime ordering."""
 
-    txt = "## week 1 lecture\n## week 1 lecture\n"
+    txt = "## week 1 lecture 1\n## week 1 lecture 1\n"
     ctx = make_ctx(txt)
     msgs = session_duplicate_heading(ctx)
     assert msgs and "duplicate session heading" in msgs[0].msg
 
-    # "lecture" and "lecture 2" are distinct types (allowed format: week N type [number])
-    txt_distinct = "## week 1 lecture\n- datetime: 2023-01-01\n## week 1 lecture 2\n- datetime: 2023-01-02\n"
+    # "lecture 1" and "lecture 2" are distinct types (allowed format: week N type number)
+    txt_distinct = "## week 1 lecture 1\n- datetime: 2023-01-01\n## week 1 lecture 2\n- datetime: 2023-01-02\n"
     ctx_distinct = make_ctx(txt_distinct)
     assert not session_duplicate_heading(ctx_distinct), (
-        "week 1 lecture and week 1 lecture 2 should not be treated as duplicates"
+        "week 1 lecture 1 and week 1 lecture 2 should not be treated as duplicates"
     )
 
-    # Invalid session heading format is flagged (only week N type [number]; no "no class")
+    # Invalid session heading format is flagged (only week N type number; no "no class")
     for invalid in (
         "## week 3 (Lunar New Year)\n",
         "## week 3\n",
         "## week 5 midterm\n",
         "## week 3 no class\n",
+        "## week 1 lecture\n",
     ):
         ctx_invalid = make_ctx(invalid)
         msgs_fmt = session_heading_format(ctx_invalid)
@@ -1160,12 +1161,12 @@ def test_session_rules():
             f"expected session_heading_format error for {invalid!r}"
         )
     assert not session_heading_format(
-        make_ctx("## week 1 lecture\n## week 1 lecture 2\n")
+        make_ctx("## week 1 lecture 1\n## week 1 lecture 2\n")
     )
 
     txt = (
-        "## week 1 lecture\n- datetime: 2023-01-02T10:00\n"
-        "## week 2 lecture\n- datetime: 2023-01-01T09:00\n"
+        "## week 1 lecture 1\n- datetime: 2023-01-02T10:00\n"
+        "## week 2 lecture 1\n- datetime: 2023-01-01T09:00\n"
     )
     ctx = make_ctx(txt)
     msgs = session_datetime_order(ctx)
@@ -1176,14 +1177,14 @@ def test_session_topic_rules():
     """Verify the new topic-related rules fire independently."""
 
     # missing-topic when a datetime is present and no status/unscheduled tag
-    txt = "## week 1 lecture\n- datetime: 2023-01-01T10:00\n"
+    txt = "## week 1 lecture 1\n- datetime: 2023-01-01T10:00\n"
     ctx = make_ctx(txt)
     msgs = session_missing_topic(ctx)
     assert msgs and msgs[0].rule_id == "session_missing_topic"
 
     # unscheduled with topic should trigger its own rule
     txt2 = (
-        "## week 1 lecture\n"
+        "## week 1 lecture 1\n"
         "- datetime: 2023-01-01T10:00\n"
         "- status: unscheduled\n"
         "- topic: TBD\n"
@@ -1196,10 +1197,10 @@ def test_session_topic_rules():
     assert not session_missing_topic(ctx2)  # because status is unscheduled
     assert not session_unscheduled_with_topic(make_ctx("## w\n- datetime: 2023-01-01"))
 
-    # no-class days omit topic; should not trigger session_missing_topic (heading is week N lecture etc.; status in metadata)
+    # no-class days omit topic; should not trigger session_missing_topic (heading is week N type number etc.; status in metadata)
     for no_class_txt in (
-        "## week 3 lecture\n- datetime: 2026-02-18T16:30:00+08:00/2026-02-18T17:50:00+08:00\n- status: no class\n- venue: LSK Room 1014\n",
-        "## week 3 lecture\n- datetime: 2026-02-18T16:30:00+08:00/2026-02-18T17:50:00+08:00\n- status: public holiday: Lunar New Year\n- venue: LSK Room 1014\n",
+        "## week 3 lecture 1\n- datetime: 2026-02-18T16:30:00+08:00/2026-02-18T17:50:00+08:00\n- status: no class\n- venue: LSK Room 1014\n",
+        "## week 3 lecture 1\n- datetime: 2026-02-18T16:30:00+08:00/2026-02-18T17:50:00+08:00\n- status: public holiday: Lunar New Year\n- venue: LSK Room 1014\n",
     ):
         ctx_nc = make_ctx(no_class_txt)
         assert not session_missing_topic(ctx_nc), (
@@ -1222,8 +1223,8 @@ def test_parse_session_headers_recurrent():
     )
     assert header.heading == "### 2026 fall week 3 tutorial 2"
 
-    plain = parse_session_headers("## week 3 lecture\n")
-    assert plain[0].semester == "" and plain[0].type == "lecture"
+    plain = parse_session_headers("## week 3 lecture 1\n")
+    assert plain[0].semester == "" and plain[0].type == "lecture 1"
 
     # recurrence is declared in the identity block, above the first section
     assert is_recurrent_index("- status: recurrent\n\n## 2026 fall\n")
@@ -1234,15 +1235,17 @@ def test_session_heading_format_recurrent():
     """A recurrent course keeps its sessions one level deeper and names the term."""
 
     header = "- status: recurrent\n\n## 2026 fall\n\n"
-    valid = header + "### 2026 fall week 1 tutorial\n- status: optional\n"
+    valid = header + "### 2026 fall week 1 tutorial 1\n- status: optional\n"
     assert not session_heading_format(make_ctx(valid))
 
-    # wrong level, missing semester, unknown type, and missing type all fail
+    # wrong level, missing semester, unknown type, missing type, and a missing
+    # ordinal all fail
     for invalid in (
-        "## 2026 fall week 1 tutorial\n",
-        "### week 1 tutorial\n",
+        "## 2026 fall week 1 tutorial 1\n",
+        "### week 1 tutorial 1\n",
         "### 2026 fall week 1 seminar\n",
         "### 2026 fall week 1\n",
+        "### 2026 fall week 1 tutorial\n",
     ):
         msgs = session_heading_format(make_ctx(header + invalid))
         assert msgs and msgs[0].rule_id == "session_heading_format", (
@@ -1250,7 +1253,7 @@ def test_session_heading_format_recurrent():
         )
 
     # the recurrent shape is rejected when the course is not marked recurrent
-    one_off = "## 2026 fall\n\n### 2026 fall week 1 tutorial\n"
+    one_off = "## 2026 fall\n\n### 2026 fall week 1 tutorial 1\n"
     assert session_heading_format(make_ctx(one_off))
 
 
@@ -1259,30 +1262,30 @@ def test_session_semester_match():
 
     ok = (
         "- status: recurrent\n\n## 2026 fall\n\n"
-        "### 2026 fall week 1 tutorial\n- status: optional\n"
+        "### 2026 fall week 1 tutorial 1\n- status: optional\n"
     )
     assert not session_semester_match(make_ctx(ok))
 
     mismatched = (
         "- status: recurrent\n\n## 2026 fall\n\n"
-        "### 2025 fall week 1 tutorial\n- status: optional\n"
+        "### 2025 fall week 1 tutorial 1\n- status: optional\n"
     )
     msgs = session_semester_match(make_ctx(mismatched))
     assert msgs and msgs[0].rule_id == "session_semester_match"
 
     orphan = (
-        "- status: recurrent\n\n### 2026 fall week 1 tutorial\n- status: optional\n"
+        "- status: recurrent\n\n### 2026 fall week 1 tutorial 1\n- status: optional\n"
     )
     assert session_semester_match(make_ctx(orphan))
 
     # a one-off course has no semester headers and is never checked
-    assert not session_semester_match(make_ctx("### week 1 tutorial\n"))
+    assert not session_semester_match(make_ctx("### week 1 tutorial 1\n"))
 
 
 def test_session_optional_status():
     """Every session of a recurrent course is optional or a gap marker."""
 
-    prefix = "- status: recurrent\n\n## 2026 fall\n\n### 2026 fall week 1 tutorial\n"
+    prefix = "- status: recurrent\n\n## 2026 fall\n\n### 2026 fall week 1 tutorial 1\n"
     assert not session_optional_status(make_ctx(prefix + "- status: optional\n"))
     for gap_marker in (
         "no class",
@@ -1302,7 +1305,7 @@ def test_session_optional_status():
 
     # a one-off course may carry any status
     assert not session_optional_status(
-        make_ctx("## week 1 lecture\n- status: scheduled\n")
+        make_ctx("## week 1 lecture 1\n- status: scheduled\n")
     )
 
 
@@ -1311,16 +1314,16 @@ def test_week_monotonic_recurrent():
 
     across = (
         "- status: recurrent\n\n## 2024 fall\n\n"
-        "### 2024 fall week 10 tutorial\n- status: optional\n\n"
+        "### 2024 fall week 10 tutorial 1\n- status: optional\n\n"
         "## 2025 spring\n\n"
-        "### 2025 spring week 4 tutorial\n- status: optional\n"
+        "### 2025 spring week 4 tutorial 1\n- status: optional\n"
     )
     assert not week_monotonic(make_ctx(across))
 
     within = (
         "- status: recurrent\n\n## 2025 spring\n\n"
-        "### 2025 spring week 4 tutorial\n- status: optional\n\n"
-        "### 2025 spring week 3 tutorial\n- status: optional\n"
+        "### 2025 spring week 4 tutorial 1\n- status: optional\n\n"
+        "### 2025 spring week 3 tutorial 1\n- status: optional\n"
     )
     msgs = week_monotonic(make_ctx(within))
     assert msgs and msgs[0].rule_id == "week_monotonic"
@@ -1331,16 +1334,16 @@ def test_session_duplicate_heading_recurrent():
 
     across = (
         "- status: recurrent\n\n## 2024 fall\n\n"
-        "### 2024 fall week 1 tutorial\n- status: optional\n\n"
+        "### 2024 fall week 1 tutorial 1\n- status: optional\n\n"
         "## 2025 spring\n\n"
-        "### 2025 spring week 1 tutorial\n- status: optional\n"
+        "### 2025 spring week 1 tutorial 1\n- status: optional\n"
     )
     assert not session_duplicate_heading(make_ctx(across))
 
     within = (
         "- status: recurrent\n\n## 2024 fall\n\n"
-        "### 2024 fall week 1 tutorial\n- status: optional\n\n"
-        "### 2024 fall week 1 tutorial\n- status: optional\n"
+        "### 2024 fall week 1 tutorial 1\n- status: optional\n\n"
+        "### 2024 fall week 1 tutorial 1\n- status: optional\n"
     )
     msgs = session_duplicate_heading(make_ctx(within))
     assert msgs and msgs[0].rule_id == "session_duplicate_heading"

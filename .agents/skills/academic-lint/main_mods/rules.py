@@ -1237,12 +1237,12 @@ def index_semester_order(ctx: ValidationContext) -> list[ValidationMessage]:
 
 """Expected session-heading shape for a one-off course."""
 _SESSION_HEADING_EXPECTED = (
-    "## week N type [number] (e.g. week 1 lecture, week 1 lecture 2)"
+    "## week N type number (e.g. week 1 lecture 1, week 1 lecture 2)"
 )
 
 """Expected session-heading shape for a recurrent course."""
 _RECURRENT_HEADING_EXPECTED = (
-    "### YYYY term week N type [number] (e.g. ### 2026 fall week 1 tutorial)"
+    "### YYYY term week N type number (e.g. ### 2026 fall week 1 tutorial 1)"
 )
 
 """Regex matching any heading that looks like a session heading, valid or not.
@@ -1261,15 +1261,18 @@ _SESSION_HEADING_CANDIDATE = re.compile(
 def session_heading_format(ctx: ValidationContext) -> list[ValidationMessage]:
     """Require session headings to match the course's session-heading format.
 
-    A one-off course uses ``## week N type [number]``; a recurrent course
-    (``- status: recurrent``) uses ``### YYYY term week N type [number]``,
+    A one-off course uses ``## week N type number``; a recurrent course
+    (``- status: recurrent``) uses ``### YYYY term week N type number``,
     one level deeper and carrying the semester.  Allowed types are lecture,
-    lab, and tutorial, optionally followed by a repeat number.
+    lab, and tutorial, each always followed by its ordinal inside the week,
+    so the first session of a week carries ``1`` rather than being left
+    unnumbered.
 
     Invalid: ``## week 3 no class``, ``## week 3 (Lunar New Year)``, ``## week 3``
-    (no type), and either shape used at the wrong level, with a semester the
-    course does not use, or without the semester it does.  Status belongs in
-    the metadata only.  Uses the mistune AST to skip matches inside code blocks.
+    (no type), ``## week 1 lecture`` (no ordinal), and either shape used at
+    the wrong level, with a semester the course does not use, or without the
+    semester it does.  Status belongs in the metadata only.  Uses the mistune
+    AST to skip matches inside code blocks.
     """
     errors: list[ValidationMessage] = []
     text = ctx.text

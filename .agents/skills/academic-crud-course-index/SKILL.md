@@ -89,7 +89,7 @@ Remove the entire course directory (with confirmation) and its entry in the inst
 
 ## Scope: course index only
 
-Populate only the sections the source provides. A generic course homepage typically supplies description, prerequisites, textbook, grading scheme, section schedules, and announcements; it does not supply week-by-week session content, assignment details, or child file scaffolding. Do not create subdirectories (`labs/`, `assignments/`, `tutorials/`) or session entries (`## week N lecture`) from a homepage alone; those require per-item source material (Canvas pages, PRS quizzes, assignment PDFs).
+Populate only the sections the source provides. A generic course homepage typically supplies description, prerequisites, textbook, grading scheme, section schedules, and announcements; it does not supply week-by-week session content, assignment details, or child file scaffolding. Do not create subdirectories (`labs/`, `assignments/`, `tutorials/`) or session entries (`## week N lecture 1`) from a homepage alone; those require per-item source material (Canvas pages, PRS quizzes, assignment PDFs).
 
 ## Keep the index minimal
 
@@ -120,43 +120,43 @@ Lectures, labs, and tutorials are distinct session types under `## logistics`, e
 
 - Section-type names match `course-template.md`: `lecture` (singular), `tutorials` and `labs` (plural). The chosen section is written after the colon, e.g. `- labs: LA3`.
 - Section keys: `L` for lectures, `T` for tutorials, `LA` for labs.
-- Session headings use the singular type: `## week N lecture`, `## week N tutorial`, `## week N lab`. A recurrent course adds one level and repeats the semester, `### <YYYY term> week N tutorial` (see "Recurring courses").
+- Session headings use the singular type and always carry the session's ordinal in the week: `## week N lecture 1`, `## week N tutorial 1`, `## week N lab 1`. A recurrent course adds one level and repeats the semester, `### <YYYY term> week N tutorial 1` (see "Recurring courses").
 
 ## Session ordering: types repeat every week
 
-Each session type occurs on a fixed weekly pattern: with 3 lectures per week, every week gets `## week N lecture`, `## week N lecture 2`, and `## week N lecture 3`, and 1 lab per week gives every week a `## week N lab`. The same holds for tutorials.
+Each session type occurs on a fixed weekly pattern: with 3 lectures per week, every week gets `## week N lecture 1`, `## week N lecture 2`, and `## week N lecture 3`, and 1 lab per week gives every week a `## week N lab 1`. The same holds for tutorials.
 
 __Rules:__
 
 1. _Consistent types across weeks._ If week 1 has 2 lectures + 1 lab + 1 tutorial, every later week has the same set (unless marked `status: no class`).
-2. _Numbered suffixes for multiple sessions of the same type._ With N sessions of one type in a week, use `## week N lecture`, `## week N lecture 2`, ..., `## week N lecture N`.
+2. _An ordinal on every session._ With N sessions of one type in a week, use `## week N lecture 1`, `## week N lecture 2`, ..., `## week N lecture N`. The first session of a week carries `1`; it is never left unnumbered.
 3. _Strictly increasing `datetime:` in file order._ Read top to bottom, each session heading's `datetime:` must be later than the previous one; the `session_datetime_order` rule enforces this. Within a week that means day/time order, so the earliest session comes first regardless of type.
-4. _Strict chronological order across weeks._ Week 2 sessions come after week 1 sessions. Never interleave weeks; `## week 1 lecture` → `## week 2 lecture` → `## week 3 lab` is wrong if week 1 also has a lab.
+4. _Strict chronological order across weeks._ Week 2 sessions come after week 1 sessions. Never interleave weeks; `## week 1 lecture 1` → `## week 2 lecture 1` → `## week 3 lab 1` is wrong if week 1 also has a lab.
 5. _Gap sessions._ If a type does not meet in a week, mark it `status: no class` or `status: public holiday: <name>` instead of omitting the heading.
 
 __Example for a course with 2 lectures + 1 lab per week:__
 
 ```markdown
-## week 1 lecture
+## week 1 lecture 1
 - datetime: ...
 ## week 1 lecture 2
 - datetime: ...
-## week 1 lab
+## week 1 lab 1
 - datetime: ...
-## week 2 lecture
+## week 2 lecture 1
 - datetime: ...
 ## week 2 lecture 2
 - datetime: ...
-## week 2 lab
+## week 2 lab 1
 - datetime: ...
 ```
 
 __Wrong:__
 
 ```markdown
-## week 1 lecture
-## week 2 lecture
-## week 3 lab    ← week 1's lab is missing, types are mixed across weeks
+## week 1 lecture 1
+## week 2 lecture 1
+## week 3 lab 1    ← week 1's lab is missing, types are mixed across weeks
 ```
 
 ## Recurring courses
@@ -166,7 +166,7 @@ A recurrent course runs every term instead of once. It carries `- status: recurr
 ```markdown
 ## 2025 fall
 
-### 2025 fall week 3 tutorial
+### 2025 fall week 3 tutorial 1
 
 - datetime: 2025-09-17T18:00:00+08:00/2025-09-17T18:50:00+08:00, PT50M
 - venue: \[missing\]
@@ -175,7 +175,7 @@ A recurrent course runs every term instead of once. It carries `- status: recurr
 
 ## 2026 fall
 
-### 2026 fall week 1 tutorial
+### 2026 fall week 1 tutorial 1
 
 - datetime: 2026-09-02T18:00:00+08:00/2026-09-02T21:00:00+08:00, PT3H
 - venue: LTA
@@ -184,21 +184,21 @@ A recurrent course runs every term instead of once. It carries `- status: recurr
 ```
 
 - __Semester header__: `## <YYYY term>`, using the institution `index.md` term spelling (`## 2026 fall`), placed after `## overview` and in chronological order.
-- __Session heading__: `### <YYYY term> week N <type>` — one level deeper than a one-off course, with the semester repeated.
+- __Session heading__: `### <YYYY term> week N <type> <number>` — one level deeper than a one-off course, with the semester repeated and the session's ordinal in the week.
 - __The repeat is required.__ Without it the same week/type pair recurs in every semester and `markdownlint` MD024 rejects the duplicate headings; `.markdownlint*` is never edited and `index.md` admits no disable directive, so the heading text itself has to differ.
 - __Week numbers__ count from the term's first teaching week, so week 1 begins on that term's week-1 Monday.
 - __Every session is optional.__ A recurrent course's lectures, labs, and tutorials all carry `- status: optional`, and none is assumed to be attended. Keep `datetime:`, `venue:`, and `topic:`, because the term's schedule is still what the entry records.
 - __A session entry normally carries no note or section links__, since an unattended session covered nothing. Add them only for a session that was actually attended and written up.
 - __Only attested sessions.__ Record the sessions a source names. Never invent `status: no class` or `status: unscheduled` weeks to complete a weekly pattern for a past term whose full schedule is unknown.
 - __The linter enforces the shape.__ `academic-lint` reads `- status: recurrent` from the identity block, then requires the level-3 semester-carrying headings (`session_heading_format`), a matching `## <YYYY term>` header above each session (`session_semester_match`), `status: optional` or a gap marker on each session (`session_optional_status`), chronological semester headers (`index_semester_order`), and week counting that restarts each term (`week_monotonic`, `session_duplicate_heading`).
-- Everything else in "Session ordering" applies unchanged: `datetime:` strictly increasing in file order (which keeps the semesters chronological), one heading per meeting, numbered suffixes for repeats inside a week, and `lecture`/`lab`/`tutorial` as the only types. A seminar series or training stream is recorded under whichever of those three it matches, never as a fourth type.
+- Everything else in "Session ordering" applies unchanged: `datetime:` strictly increasing in file order (which keeps the semesters chronological), one heading per meeting, an ordinal on every session inside a week, and `lecture`/`lab`/`tutorial` as the only types. A seminar series or training stream is recorded under whichever of those three it matches, never as a fourth type.
 
 ## Session outline content: sections, not files
 
 A session entry records what the session taught. After the metadata, list each note the session created or expanded, then the note sections its material covers:
 
 ```markdown
-## week 1 lecture
+## week 1 lecture 1
 
 - datetime: 2026-09-01T09:00:00+08:00/2026-09-01T10:20:00+08:00
 - venue: Rm 4619, Lift 31-32
@@ -244,7 +244,7 @@ Exams live in the top-level `index.md`, not in separate files.
 When a regular slot is used for an exam:
 
 ```markdown
-## week N lecture
+## week N lecture 1
 
 - datetime: 2026-04-15T09:00:00+08:00/2026-04-15T11:00:00+08:00
 - venue: Hall A
@@ -361,7 +361,7 @@ An optional section after sessions and exams, before `## aftermath`, holding sup
 ## appendix
 
 - [topic name](topic%20name.md)
-    - topic name / [§ section heading](topic%20name.md#section%20heading)
+    - [§ section heading](topic%20name.md#section%20heading)
 ```
 
 Use `## appendix` for Wikipedia transcludes (see `academic-crud-transcludes`), supplementary reference material, and topics that do not fit the main session flow. Not every course has one; add it only when supplementary content warrants separation from `## children`.

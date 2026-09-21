@@ -206,12 +206,12 @@ The pass moves boundaries and headings; it never drops a fact or a card. Report 
 8. __Update the course index:__
    - Read `special/academia/<INSTITUTION>/<COURSE>/index.md`.
    - Add the topic note to `## children` in its sorted position: folders first, then files, Python string order within each group (see "Children format" in `academic-crud-index`).
-   - Determine which session heading the topic belongs to (e.g., `## week 3 lecture`, or `### 2026 fall week 3 tutorial` in a recurrent course) using the session mapping rules below, and __ask the user__ when it is unclear.
+   - Determine which session heading the topic belongs to (e.g., `## week 3 lecture 1`, or `### 2026 fall week 3 tutorial 1` in a recurrent course) using the session mapping rules below, and __ask the user__ when it is unclear.
    - Under the matched session heading, add a link to the topic note with section anchors for each `##` section this session's material created or expanded; a file link alone is never enough:
 
      ```markdown
      - [topic name](topic%20name.md)
-         - topic name / [§ section heading](topic%20name.md#section%20heading)
+         - [§ section heading](topic%20name.md#section%20heading)
      ```
 
    - If the topic spans several sessions, add links under each, listing only the sections that session's material covered.
@@ -306,7 +306,7 @@ Use `\[missing\]` for absent values, such as a topic with no cross-references or
 
 ## Session mapping
 
-When updating the course `index.md`, link topic notes under the correct session heading (`## week N lecture`, `## week N tutorial`, or `## week N lab`; a recurrent course prefixes the semester and adds one level, `### <YYYY term> week N <type>`).
+When updating the course `index.md`, link topic notes under the correct session heading (`## week N lecture 1`, `## week N tutorial 1`, or `## week N lab 1`; a recurrent course prefixes the semester and adds one level, `### <YYYY term> week N <type> <number>`).
 
 ### Determining the correct session
 
@@ -316,8 +316,8 @@ When updating the course `index.md`, link topic notes under the correct session 
 
    ```text
    This topic could belong to:
-   1. week 3 lecture (topic: logistic regression; cross entropy)
-   2. week 4 lecture (topic: softmax; performance metrics)
+   1. week 3 lecture 1 (topic: logistic regression; cross entropy)
+   2. week 4 lecture 1 (topic: softmax; performance metrics)
    Which session should it link under? [1/2/both]
    ```
 
@@ -327,8 +327,8 @@ Add the link under the session heading, after the existing content:
 
 ```markdown
 - [topic name](topic%20name.md)
-    - topic name / [§ section heading 1](topic%20name.md#section%20heading%201)
-    - topic name / [§ section heading 2](topic%20name.md#section%20heading%202)
+    - [§ section heading 1](topic%20name.md#section%20heading%201)
+    - [§ section heading 2](topic%20name.md#section%20heading%202)
 ```
 
 List every section that session's material created or expanded, not the whole note; a file link alone is never enough. Anchors are the heading lowercased, with `%20` for spaces and colons removed (`## Main memory` → `#main%20memory`), never dash-slugs.

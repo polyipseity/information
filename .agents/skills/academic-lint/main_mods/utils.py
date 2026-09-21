@@ -87,15 +87,15 @@ FRONT_RE = re.compile(r"\A\s*---\s*\r?\n(.*?)\r?\n---\s*(\r?\n|$)", re.DOTALL)
 """Regex matching the flashcard activation tag prefix in frontmatter tags."""
 FLASH_TAG_RE = re.compile(r"flashcard/active/special/academia/", re.IGNORECASE)
 
-# Regex for ## week N lecture|lab|tutorial [number] headings, used by session rules.
+# Regex for ## week N lecture|lab|tutorial number headings, used by session rules.
 """Regex matching the ``YYYY term`` prefix of a recurrent course's session headings."""
 SEMESTER_RE = r"\d{4}\s+(?:spring|summer|fall|winter)"
 
-"""Regex matching session headings: ``## week N type [number]``, or ``### YYYY term week N type [number]`` in a recurrent course."""
+"""Regex matching session headings: ``## week N type number``, or ``### YYYY term week N type number`` in a recurrent course."""
 SESSION_HEADING_RE = re.compile(
     r"^(?P<level>#{2,3})\s+"
     r"(?:(?P<semester>" + SEMESTER_RE + r")\s+)?"
-    r"week\s+(?P<week>\d+)\s+(?P<type>(?:lecture|lab|tutorial)(?:\s+\d+)?)\s*$",
+    r"week\s+(?P<week>\d+)\s+(?P<type>(?:lecture|lab|tutorial)\s+\d+)\s*$",
     re.IGNORECASE | re.MULTILINE,
 )
 
@@ -515,8 +515,8 @@ def parse_session_headers(
 ) -> list[SessionHeader]:
     """Extract session heading metadata from *text*.
 
-    Matches ``## week N lecture|lab|tutorial [number]`` and, for a recurrent
-    course, ``### YYYY term week N lecture|lab|tutorial [number]``.  When
+    Matches ``## week N lecture|lab|tutorial number`` and, for a recurrent
+    course, ``### YYYY term week N lecture|lab|tutorial number``.  When
     *ast* is provided, results are filtered to positions that correspond to
     real AST headings (excluding false positives from code blocks or
     comments).

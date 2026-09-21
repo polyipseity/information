@@ -91,16 +91,16 @@ Keep detailed policy, edge cases, and advanced note-writing rules in `SKILL.md`.
 - Place `assignments/` immediately after `children` and before session entries.
 - Keep sessions in strict chronological order. Each session type (lecture,
   lab, tutorial) repeats every week with the same count. If week 1 has 2
-  lectures + 1 lab, every week has the same set. Use `## week N lecture`,
-  `## week N lecture 2`, `## week N lab`, `## week N tutorial`. Never mix
-  types across weeks (e.g. `week 1 lecture` then `week 2 lecture` then
-  `week 3 lab` is wrong — week 1's lab is missing).
+  lectures + 1 lab, every week has the same set. Use `## week N lecture 1`,
+  `## week N lecture 2`, `## week N lab 1`, `## week N tutorial 1`. Never mix
+  types across weeks (e.g. `week 1 lecture 1` then `week 2 lecture 1` then
+  `week 3 lab 1` is wrong — week 1's lab is missing).
 - If the official materials define a recurring weekly stream, scaffold that
   stream continuously across the term and mark skipped meetings with `status:`
   metadata rather than omitting the week.
 - A __recurrent course__ (`- status: recurrent`, running every term) groups its
   sessions by semester under `## <YYYY term>` and adds one level to each session
-  heading: `### <YYYY term> week N tutorial`. The semester is repeated in the
+  heading: `### <YYYY term> week N tutorial 1`. The semester is repeated in the
   heading because `markdownlint` MD024 rejects the same week/type pair in two
   semesters. Give every session `- status: optional` — a recurrent course's
   lectures, labs, and tutorials are not assumed to be attended. See "Recurring
@@ -192,7 +192,7 @@ The content is in teaching order.
   - points: 100
   - link: [assignment 2](assignments/assignment%202/index.md)
 
-## week 1 lecture
+## week 1 lecture 1
 
 - datetime: 2025-09-16T12:00:00+08:00/2025-09-16T13:20:00+08:00, PT1H20M
 - status: scheduled
@@ -200,7 +200,7 @@ The content is in teaching order.
 - <COURSE CODE>
   - <COURSE CODE> / logistics ::@:: Course logistics, recommended books, evaluation.
 
-## week 1 tutorial
+## week 1 tutorial 1
 
 - datetime: 2025-09-16T15:00:00+08:00/2025-09-16T16:20:00+08:00, PT1H20M
 - topic: functional programming exercises
@@ -245,14 +245,14 @@ semester header:
 ```markdown
 ## 2026 fall
 
-### 2026 fall week 1 tutorial
+### 2026 fall week 1 tutorial 1
 
 - datetime: 2026-09-02T18:00:00+08:00/2026-09-02T21:00:00+08:00, PT3H
 - venue: LTA
 - topic: CSE program orientation talk and dinner
 - status: optional
 
-### 2026 fall week 3 tutorial
+### 2026 fall week 3 tutorial 1
 
 - datetime: 2026-09-16T18:00:00+08:00/2026-09-16T19:00:00+08:00, PT1H
 - venue: LTA
