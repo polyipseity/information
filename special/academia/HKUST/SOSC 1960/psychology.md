@@ -174,8 +174,6 @@ Flashcards for this section are as follows:
 
 Applied science is the application of scientific knowledge to practical problems or situations. Psychological science produces interventions that help people live better lives. A growing body of research determines which therapies work and which do not: cognitive behavioral therapy has been shown to be effective for depression and anxiety disorders, while some other types of therapy turn out to be harmful on average. In organizational psychology, several interventions have been found to raise productivity and satisfaction in the workplace. Human factors engineers have increased the safety and utility of products, as when the psychologist Alphonse Chapanis and other researchers redesigned the cockpit controls of aircraft so that they were less confusing and easier to respond to, which cut pilot errors and crashes. Forensic science has made courtroom decisions more valid: Elizabeth Loftus demonstrated the limits and unreliability of eyewitness testimony and memory, alongside the DNA exonerations that freed wrongly imprisoned people. The field has had enough success to show that it works, though a great deal remains to be learned.
 
-Educational psychology applies psychological findings to learning and teaching. The other-race effect is the more accurate recognition of faces of one's own race than of other races, and it bears on eyewitness testimony, on interventions that improve relationships between groups, and on face recognition technology.
-
 ---
 
 Flashcards for this section are as follows:
@@ -189,13 +187,40 @@ Flashcards for this section are as follows:
 - what Elizabeth Loftus demonstrated ::@:: The limits and unreliability of eyewitness testimony and memory.
 - how much psychological science has shown ::@:: Enough success to demonstrate that it works, though a great deal remains to be learned.
 - what applied science is ::@:: The application of scientific knowledge to practical problems or situations.
+
+### educational psychology
+
+Educational psychology applies psychological findings to learning and teaching. Its cognitive side works on how information is encoded, stored, and retrieved, and it supports spaced retrieval practice over rereading: testing yourself after ten minutes, a day, and a week restamps each memory and flattens the forgetting curve, while a metacognitive checkpoint lets a learner notice what is not yet understood. Expectancy–value theory holds that people engage when they expect to succeed and find the task worthwhile. The behavioral side works on what is observable, so praise, badges, or gentle corrections reinforce or extinguish a behavior; unpredictable praise keeps effort high, while overrewarding can backfire. Neither side suffices alone, and readiness constrains the order of teaching: the prefrontal cortex does not support heavy abstraction until the mid-teens, so third graders build concrete models before tackling algebra. Watching a classmate work a problem adds a social route: peer modelling builds confidence and shows a concrete way to the answer.
+
+---
+
+Flashcards for this section are as follows:
+
 - what educational psychology applies psychological findings to ::@:: Learning and teaching.
+- how retrieval practice compares with rereading ::@:: Testing yourself after ten minutes, a day, and a week restamps each memory and flattens the forgetting curve.
+- what a metacognitive checkpoint does ::@:: Lets a learner notice what they have not yet understood.
+- what expectancy–value theory says about engagement ::@:: People engage when they expect to succeed and find the task worthwhile.
+- what the behavioral side of educational psychology works on ::@:: Observable behavior, where praise, badges, or gentle corrections reinforce or extinguish it.
+- what unpredictable praise achieves ::@:: Sustained high effort.
+- what overrewarding can do ::@:: Backfire.
+- how readiness constrains the order of teaching ::@:: The prefrontal cortex does not support heavy abstraction until the mid-teens, so concrete models come before algebra.
+- what peer modelling adds to learning ::@:: Watching a classmate work a problem builds confidence and supplies a concrete route to the answer.
+
+### the other-race effect
+
+The other-race effect is the more accurate recognition of faces of one's own race than of other races. Perceptual expertise explains it as a skill built by experience: frequent exposure to own-race faces sharpens the reading of their emotional expressions, and the effect is better documented than explained, since no single model accounts for every part of it. It bears on eyewitness testimony, on interventions that improve relationships between groups, and on face recognition technology.
+
+---
+
+Flashcards for this section are as follows:
+
 - what the other-race effect is ::@:: More accurate recognition of faces of one's own race than of faces of other races.
+- how perceptual expertise explains the other-race effect ::@:: Frequent exposure to own-race faces sharpens the reading of their emotional expressions.
 - what the other-race effect has been applied to ::@:: Eyewitness testimony, interventions that improve relationships between groups, and face recognition technology.
 
 ## studying psychology
 
-People study psychology for several reasons: to understand themselves; to understand other people and groups; to influence others more effectively, as in socializing children or motivating employees; to help others and improve the world, as through effective psychotherapy; to gain a skill that leads to a profession such as social work or teaching; to evaluate research claims they hear or read about; and because the subject is interesting, challenging, and fun in its own right. The field also meets a practical need: much of what society has to solve turns on the mind and behavior. An aging population raises the question of how aging affects the mind and whether healthy aging can be promoted; learning in a technological world raises the question of how technology can support learning, including for students with special educational needs; and early identification and treatment of mental health problems is a growing concern, with an urgent need for psychology and mental health professionals.
+People study psychology for several reasons: to understand themselves; to understand other people and groups; to influence others more effectively, as in socializing children or motivating employees; to help others and improve the world, as through effective psychotherapy; to gain a skill that leads to a profession such as social work or teaching; to evaluate research claims they hear or read about; and because the subject is interesting, challenging, and fun in its own right. The field also meets a practical need: much of what society has to solve turns on the mind and behavior.
 
 Graduates go into education institutions, community, social, and personal services, commerce and industry, and the civil service, both in the private and the public sector. Their training carries both technical and soft skills, so the roles they take include training consultant, human resources officer, sales manager, marketing manager, research assistant, rehabilitation coordinator, public relations executive, behavioral therapist, education and teaching roles, advertising account executive, graduate trainee, administrative executive, activity officer, private banking analyst, special educational needs instructor, business development analyst, community organizer, civil servant, and talent management officer.
 
@@ -209,14 +234,50 @@ Flashcards for this section are as follows:
 - which reasons to study psychology are about applying it ::@:: To influence others more effectively, as in socializing children or motivating employees; to help others and improve the world, as through effective psychotherapy; to gain a skill that leads to a profession such as social work or teaching; and to evaluate research claims heard or read about.
 - the intrinsic reason to study psychology ::@:: The subject is interesting, challenging, and fun in its own right.
 - three societal problems that require psychology ::@:: An aging population, learning in a technological world, and mental health.
-- what an aging population asks of psychology ::@:: How aging affects the mind and behavior, and whether healthy aging can be promoted.
-- what learning in a technological world asks of psychology ::@:: How to use technology to support learning, including for students with special educational needs.
-- what mental health care asks of psychology ::@:: How to identify mental health issues early, and how mental health disorders affect cognition.
 - the four sectors that employ psychology graduates ::@:: Education institutions; community, social, and personal services; commerce and industry; and the civil service.
 - what psychology graduates are trained in ::@:: Both technical and soft skills.
 - how the share of psychology PhDs awarded to men changed between 1975 and 2008 ::@:: It fell from nearly 70 percent to less than 30 percent.
 - women's share of new psychology doctorates and of early-career psychologists ::@:: 76 percent and 74 percent.
 - women's share of the psychology workforce ::@:: 53 percent.
+
+### aging and dementia
+
+An aging population raises the question of how aging affects the mind and whether healthy aging can be promoted. Dementia takes away memory, abilities, and personality, and its early signs are easy to miss: memory loss that disrupts daily life, such as repeatedly forgetting important events or asking a question again; difficulty making decisions, or withdrawal from activities once enjoyed; trouble managing money; neglected appearance; and obvious mood changes, which the person may try to cover up. An evaluation is worth encouraging, because early detection can make someone eligible for treatments that relieve symptoms and preserve independence for longer.
+
+---
+
+Flashcards for this section are as follows:
+
+- what an aging population asks of psychology ::@:: How aging affects the mind and behavior, and whether healthy aging can be promoted.
+- the memory loss that warns of dementia ::@:: Forgetfulness that disrupts daily life, such as repeatedly forgetting important events or asking a question again.
+- dementia warning signs other than memory loss ::@:: Difficulty making decisions, withdrawal from activities once enjoyed, trouble managing money, neglected appearance, and obvious mood changes.
+- why early detection of dementia matters ::@:: It can make someone eligible for treatments that relieve symptoms and preserve independence for longer.
+
+### technology and learning
+
+Learning in a technological world raises the question of how technology can help, including for students with special educational needs.
+
+---
+
+Flashcards for this section are as follows:
+
+- what learning in a technological world asks of psychology ::@:: How to use technology to support learning, including for students with special educational needs.
+
+### mental health
+
+Mental health is a growing concern: more than 45 percent of teenagers have a mental disorder, one in five has a severe one, and suicide is the second leading cause of death among people aged 10 to 24. Mental illness is a disorder of brain function arising from complex interactions between a person's genes and their environment, and it occurs at similar rates in every culture and socio-economic group. A depressed mood is sometimes normal, as after the loss of a loved one, but it calls for professional care when it persists and gets in the way of daily functioning; early identification and effective treatment prevent future disability, and there is an urgent need in psychology and mental health professions.
+
+---
+
+Flashcards for this section are as follows:
+
+- how many teenagers have a mental disorder ::@:: More than 45 percent.
+- how many teenagers have a severe mental illness ::@:: One in five.
+- what suicide is for people aged 10 to 24 ::@:: The second leading cause of death.
+- what mental illness is ::@:: A disorder of brain function arising from complex interactions between a person's genes and their environment.
+- how mental illness varies across cultures and socio-economic groups ::@:: It occurs at similar rates in every culture and socio-economic group.
+- when a depressed mood calls for professional care ::@:: When it persists and gets in the way of daily functioning.
+- what mental health care asks of psychology ::@:: How to identify mental health issues early, and how mental health disorders affect cognition.
 
 <!-- check: ignore-next-line[header_flashcard_presence]: reference list carries no flashcards -->
 ## references
@@ -225,3 +286,14 @@ This note incorporates content from the Noba module [Why science?](https://noba.
 
 - Diener, E. (2026). Why science? In R. Biswas-Diener & E. Diener (Eds.), _Noba textbook series: Psychology_. Champaign, IL: DEF Publishers. <https://noba.to/qu4abpzy>
     - Source of the material on psychology as a science, the usefulness of psychological science, and the reasons to study psychology.
+
+This note also incorporates content from the videos below.
+
+- KPRC 2 Click2Houston (2020). [How to spot secret signs of dementia](https://www.youtube.com/watch?v=k7bDnabH1t8) [Video]. YouTube.
+    - Source of the material on dementia warning signs and early detection.
+- Penn State PRO Wellness (2018). [Teen Health: Mental Health](https://www.youtube.com/watch?v=1i9OktVsTWo) [Video]. YouTube.
+    - Source of the material on mental illness prevalence, causes, and early identification.
+- Quizlet (2025). [Educational Psychology Explained | How Teachers Apply Psychology in Class](https://www.youtube.com/watch?v=YJsZQS2tQLw) [Video]. YouTube.
+    - Source of the material on cognitive, behavioral, developmental, and social findings applied to teaching.
+- THE FACT FACTORY (2026). [The Cross-Race Effect: Everything You Need to Know](https://www.youtube.com/watch?v=pyoBK0wqXiU) [Video]. YouTube.
+    - Source of the material on perceptual expertise as an explanation of the other-race effect.

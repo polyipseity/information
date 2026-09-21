@@ -29,9 +29,11 @@ SOSC 1960 is an undergraduate course in psychology at HKUST on the scientific st
 ## children
 
 - [AGENTS](AGENTS.md)
+- [gender role](gender%20role.md)
 - [psychology](psychology.md)
 - [research ethics](research%20ethics.md)
 - [science](science.md)
+- [sleep and emotions](sleep%20and%20emotions.md)
 
 ## logistics
 
@@ -126,6 +128,8 @@ SOSC 1960 is an undergraduate course in psychology at HKUST on the scientific st
 - datetime: 2026-09-02T12:00:00+08:00/2026-09-02T13:20:00+08:00, PT1H20M
 - venue: Rm 2464, Lift 25-26
 - topic: introduction; what psychology is; psychology as a science
+- [gender role](gender%20role.md)
+    - [§ stereotyped behaviour](gender%20role.md#stereotyped%20behaviour)
 - [psychology](psychology.md)
     - [§ psychology as a science](psychology.md#psychology%20as%20a%20science)
     - [§ subfields of psychology](psychology.md#subfields%20of%20psychology)
@@ -138,6 +142,9 @@ SOSC 1960 is an undergraduate course in psychology at HKUST on the scientific st
 - [science](science.md)
     - [§ what science is](science.md#what%20science%20is)
     - [§ scientific progress](science.md#scientific%20progress)
+- [sleep and emotions](sleep%20and%20emotions.md)
+    - [§ emotional reactivity under sleep loss](sleep%20and%20emotions.md#emotional%20reactivity%20under%20sleep%20loss)
+    - [§ emotional memory during sleep](sleep%20and%20emotions.md#emotional%20memory%20during%20sleep)
 
 ---
 
