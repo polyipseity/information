@@ -12,7 +12,10 @@ from anyio import Path as AnyioPath
 from bs4 import BeautifulSoup, NavigableString, Tag
 
 from scripts.convert_wiki.converter import WikiHtmlConverter, _discards_subtree
-from scripts.convert_wiki.inline_context import _in_inline_context
+from scripts.convert_wiki.inline_context import (
+    _in_inline_context,
+    _is_display_math_only_dl,
+)
 from scripts.convert_wiki.latex import LatexConverter
 from scripts.convert_wiki.markdown_rewrite import _rewrite_link_target
 from scripts.convert_wiki.pipeline import _preprocess_html
@@ -407,6 +410,57 @@ class TestMathHandling:
         result_spaced = await _convert(converter, spaced)
         assert result_compact == result_spaced
         assert "$$f(x)$$\n$$g(x)$$" in result_compact
+
+    @pytest.mark.anyio
+    async def test_multi_dd_math_rows_after_p_join_with_breaks(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Rows after a ``<p>`` join on one line, separated by ``<br/>``."""
+        html = (
+            "<p>by</p>"
+            "<dl>"
+            f"<dd>{_block_math_span(r'{\displaystyle f(x)}')}</dd>"
+            f"<dd>{_block_math_span(r'{\displaystyle g(x)}')}</dd>"
+            "</dl>"
+            "<p>for</p>"
+        )
+        result = await _convert(converter, html)
+        assert (
+            "\nby <p> &nbsp;&nbsp;&nbsp;&nbsp; $$f(x)$$"
+            " <br/> &nbsp;&nbsp;&nbsp;&nbsp; $$g(x)$$ <p> for\n\n" in result
+        )
+
+    @pytest.mark.anyio
+    async def test_multi_dd_math_rows_without_p_sibling_stay_block(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Without a ``<p>`` sibling the rows keep their block form."""
+        html = (
+            "<dl>"
+            f"<dd>{_block_math_span(r'{\displaystyle f(x)}')}</dd>"
+            f"<dd>{_block_math_span(r'{\displaystyle g(x)}')}</dd>"
+            "</dl>"
+        )
+        result = await _convert(converter, html)
+        assert "$$f(x)$$\n$$g(x)$$\n\n" in result
+        assert "<br/>" not in result
+
+    @pytest.mark.anyio
+    async def test_multi_dd_math_rows_inside_list_item_indented(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Rows inside a list item join the item and keep the ``<p>`` form."""
+        html = (
+            "<ul><li>text"
+            "<dl>"
+            f"<dd>{_block_math_span(r'{\displaystyle f(x)}')}</dd>"
+            f"<dd>{_block_math_span(r'{\displaystyle g(x)}')}</dd>"
+            "</dl>"
+            "</li></ul>"
+        )
+        result = await _convert(converter, html)
+        assert "- text <p> &nbsp;&nbsp;&nbsp;&nbsp;$$f(x)$$ <p> $$g(x)$$" in result
+        assert "<br/>" not in result
 
     @pytest.mark.anyio
     async def test_mixed_dt_dd_rows_each_on_own_line(
@@ -2532,6 +2586,40 @@ class TestStaticUtilities:
         span = soup.find("span")
         assert span is not None
         assert not _in_inline_context(span)
+
+    def test_is_display_math_only_dl_multiple_rows(self) -> None:
+        """A multi-row display-math ``<dl>`` is display-math-only."""
+        soup = BeautifulSoup(
+            "<dl>"
+            f"<dd>{_block_math_span(r'{\displaystyle f(x)}')}</dd>"
+            f"<dd>{_block_math_span(r'{\displaystyle g(x)}')}</dd>"
+            "</dl>",
+            "html.parser",
+        )
+        dl = soup.find("dl")
+        assert dl is not None
+        assert _is_display_math_only_dl(dl)
+
+    def test_is_display_math_only_dl_rejects_term_row(self) -> None:
+        """A ``<dt>`` row means the ``<dl>`` is not display-math-only."""
+        soup = BeautifulSoup(
+            f"<dl><dt>term</dt><dd>{_block_math_span(r'{\displaystyle a}')}</dd></dl>",
+            "html.parser",
+        )
+        dl = soup.find("dl")
+        assert dl is not None
+        assert not _is_display_math_only_dl(dl)
+
+    def test_is_display_math_only_dl_rejects_prose_first_row(self) -> None:
+        """A prose-first row is not display math, even with math rows after."""
+        soup = BeautifulSoup(
+            f"<dl><dd>therefore {_inline_math_span(r'{\displaystyle f(x)}')}.</dd>"
+            f"<dd>{_block_math_span(r'{\displaystyle F(x)}')}</dd></dl>",
+            "html.parser",
+        )
+        dl = soup.find("dl")
+        assert dl is not None
+        assert not _is_display_math_only_dl(dl)
 
     def test_in_navbox(self, converter: WikiHtmlConverter) -> None:
         """Element inside a navbox table should be detected."""

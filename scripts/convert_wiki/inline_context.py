@@ -53,12 +53,13 @@ def _is_display_math_only(ele: Tag) -> bool:
 
 
 def _is_display_math_only_dl(ele: Tag) -> bool:
-    """Return True if *ele* is a <dl> whose content is display math
-    followed by trailing text (e.g. "for events satisfying ...").
+    """Return True if *ele* is a <dl> whose content is display math.
 
-    Matches a <dl> with a single <dd> child whose first rendered
-    element is display math and whose last rendered element is a
-    non-math span or text node (the trailing description).
+    Matches a <dl> whose children are all <dd> rows and whose first row
+    starts with display math (block or inline).  Multi-row <dl>s are
+    equation blocks whose rows are joined on one line.  A single-row
+    <dl> must additionally carry trailing text (e.g. "for events
+    satisfying ...") or be a merged multi-part math span.
     """
     if ele.name != "dl":
         return False
@@ -67,25 +68,31 @@ def _is_display_math_only_dl(ele: Tag) -> bool:
         for c in ele.children
         if not (isinstance(c, NavigableString) and not c.strip())
     ]
-    if (
-        len(children) != 1
-        or not isinstance(children[0], Tag)
-        or children[0].name != "dd"
-    ):
+    if not children:
         return False
-    dd = children[0]
+    first_row = children[0]
+    if not isinstance(first_row, Tag) or first_row.name != "dd":
+        return False
+    if not all(isinstance(c, Tag) and c.name == "dd" for c in children):
+        return False
     dd_children = [
-        c for c in dd.children if not (isinstance(c, NavigableString) and not c.strip())
+        c
+        for c in first_row.children
+        if not (isinstance(c, NavigableString) and not c.strip())
     ]
     if not dd_children:
         return False
-    # The first child must be a math element (block or inline)
+    # The first row must start with a math element (block or inline)
     first = dd_children[0]
     if not isinstance(first, Tag):
         return False
     class_str = " ".join(first.get_attribute_list("class"))
     if "mwe-math-element" not in class_str:
         return False
+    # Multiple rows: their math is the whole content, so no row needs
+    # trailing content of its own.
+    if len(children) > 1:
+        return True
     # A single merged multi-part math span qualifies — it was
     # assembled from adjacent inline math spans and should be
     # joined inline like the original multi-part form.
@@ -95,9 +102,7 @@ def _is_display_math_only_dl(ele: Tag) -> bool:
     # ≥2 children (ensuring trailing content exists).  The last
     # child may be math (e.g. "$\\Delta x=0\\ $" at the end of
     # "for events satisfying …").
-    if len(dd_children) < 2:
-        return False
-    return True
+    return len(dd_children) >= 2
 
 
 def _dl_follows_p(ele: Tag) -> bool:

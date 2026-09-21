@@ -114,6 +114,10 @@ _BARE_URL_REGEX = re.compile(r"(?:https?://|www\.)[^\s<>]+")
 _SIDEBAR_TIGHT_WRAPPING_RE = re.compile(r"[ \t]+", re.MULTILINE)
 """Heading tag names (``h1`` through ``h6``)."""
 _HEADING_TAGS = frozenset({"h1", "h2", "h3", "h4", "h5", "h6"})
+"""Non-breaking-space indent applied to display-math ``<dl>`` rows."""
+_MATH_DL_INDENT = "&nbsp;&nbsp;&nbsp;&nbsp;"
+"""Separator joining the rows of a display-math ``<dl>`` onto one line."""
+_MATH_DL_ROW_SEPARATOR = f" <br/> {_MATH_DL_INDENT} "
 """
 Classes whose entire subtree ``convert`` discards before dispatch.
 
@@ -1574,7 +1578,7 @@ class WikiHtmlConverter:
             # formula with ``<p> &nbsp;&nbsp;&nbsp;&nbsp;`` so it visually
             # joins the preceding text on the same line.
             if _is_display_math_only_dl(ele):
-                prefix = " <p> &nbsp;&nbsp;&nbsp;&nbsp;"
+                prefix = f" <p> {_MATH_DL_INDENT}"
         else:
             suffix = "\n\n"
             # When a <dl> follows a </li> or </ul>/</ol>, the preceding content
@@ -1590,7 +1594,12 @@ class WikiHtmlConverter:
             elif _is_display_math_only_dl(ele):
                 prev = self._content_sibling(ele, following=False)
                 if prev is not None and prev.name == "p":
-                    prefix = " <p> &nbsp;&nbsp;&nbsp;&nbsp; "
+                    prefix = f" <p> {_MATH_DL_INDENT} "
+                    # Each <dd> row of a multi-row <dl> is its own equation,
+                    # so keep them on separate lines rather than letting the
+                    # "\n" joiner collapse them into one soft-wrapped line.
+                    if len(ele.find_all("dd", recursive=False)) > 1:
+                        joiner = _MATH_DL_ROW_SEPARATOR
                     # Check if next sibling is a heading — headings should
                     # be on separate lines, not joined with <p>.
                     # Headings may be wrapped in div.mw-heading.
