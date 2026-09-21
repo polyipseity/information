@@ -121,7 +121,7 @@ SOSC 1960 is an undergraduate course in psychology at HKUST on the scientific st
     - the group project presentation is a video recording of at most 5 minutes, assessed on addressing the task (10%), understanding, analysis, synthesis, and application of knowledge (20%), argumentation (20%), structure and organization (20%), delivery (20%), and presentation mechanics (10%); members are expected to contribute equally and evaluate one another by November 25, and presentation marks may be adjusted by those ratings
     - the essay is written in English, single spaced in 12-point Times New Roman with at least 1-inch margins, cites references in APA style, and notes the word count at the end of each section; text beyond the word limit is not graded
 
-## week 1 lecture
+## week 1 lecture 1
 
 - datetime: 2026-09-02T12:00:00+08:00/2026-09-02T13:20:00+08:00, PT1H20M
 - venue: Rm 2464, Lift 25-26
@@ -168,6 +168,19 @@ SOSC 1960 is an undergraduate course in psychology at HKUST on the scientific st
 > Best regards,
 >
 > TAs
+
+## week 2 lecture 1
+
+- datetime: 2026-09-07T12:00:00+08:00/2026-09-07T13:20:00+08:00, PT1H20M
+- venue: Rm 2464, Lift 25-26
+- topic: why science; what science is; psychological science; why learn about psychology
+- [psychology](psychology.md)
+    - [§ history of psychology](psychology.md#history%20of%20psychology)
+    - [§ levels of organization](psychology.md#levels%20of%20organization)
+    - [§ measurement and modeling tools](psychology.md#measurement%20and%20modeling%20tools)
+    - [§ research process](psychology.md#research%20process)
+    - [§ applications of psychological science](psychology.md#applications%20of%20psychological%20science)
+    - [§ studying psychology](psychology.md#studying%20psychology)
 
 ## week 4 lecture 2
 
