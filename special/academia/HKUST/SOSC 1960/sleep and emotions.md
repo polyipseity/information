@@ -45,10 +45,8 @@ Flashcards for this section are as follows:
 - what rapid eye movement sleep offers ::@:: A form of emotional first aid, taking the sharp edges off difficult experiences from the day.
 - when difficult emotional experiences are reprocessed ::@:: During sleep at night, so that they can be coped with the next day.
 
-<!-- check: ignore-next-line[header_flashcard_presence]: reference list carries no flashcards -->
 ## references
 
-This note incorporates content from the TED talk [How sleep affects your emotions](https://www.youtube.com/watch?v=6F8wFkScnME), part of the Sleeping with Science series, by Matt Walker.
-
-- Walker, M. (2020). How sleep affects your emotions [Video]. TED. <https://www.youtube.com/watch?v=6F8wFkScnME>
+- Walker, M. (2020). [How sleep affects your emotions](https://www.youtube.com/watch?v=6F8wFkScnME) [Video]. TED.
     - Source of the material on emotional reactivity under sleep loss and on emotional memory during sleep.
+    - Part of the _Sleeping with Science_ series.

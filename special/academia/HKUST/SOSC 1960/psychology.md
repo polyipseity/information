@@ -279,16 +279,11 @@ Flashcards for this section are as follows:
 - when a depressed mood calls for professional care ::@:: When it persists and gets in the way of daily functioning.
 - what mental health care asks of psychology ::@:: How to identify mental health issues early, and how mental health disorders affect cognition.
 
-<!-- check: ignore-next-line[header_flashcard_presence]: reference list carries no flashcards -->
 ## references
-
-This note incorporates content from the Noba module [Why science?](https://noba.to/qu4abpzy) by Edward Diener, available under the [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.
 
 - Diener, E. (2026). Why science? In R. Biswas-Diener & E. Diener (Eds.), _Noba textbook series: Psychology_. Champaign, IL: DEF Publishers. <https://noba.to/qu4abpzy>
     - Source of the material on psychology as a science, the usefulness of psychological science, and the reasons to study psychology.
-
-This note also incorporates content from the videos below.
-
+    - Available under the [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.
 - KPRC 2 Click2Houston (2020). [How to spot secret signs of dementia](https://www.youtube.com/watch?v=k7bDnabH1t8) [Video]. YouTube.
     - Source of the material on dementia warning signs and early detection.
 - Penn State PRO Wellness (2018). [Teen Health: Mental Health](https://www.youtube.com/watch?v=1i9OktVsTWo) [Video]. YouTube.

@@ -38,10 +38,8 @@ Flashcards for this section are as follows:
 - why researchers deceive participants ::@:: To hide the true nature of the study, typically so that participants do not modify their behavior in unnatural ways.
 - what researchers must do after deceiving participants ::@:: Debrief them, educating them about the study's true nature.
 
-<!-- check: ignore-next-line[header_flashcard_presence]: reference list carries no flashcards -->
 ## references
-
-This note incorporates content from the Noba module [Why science?](https://noba.to/qu4abpzy) by Edward Diener, available under the [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.
 
 - Diener, E. (2026). Why science? In R. Biswas-Diener & E. Diener (Eds.), _Noba textbook series: Psychology_. Champaign, IL: DEF Publishers. <https://noba.to/qu4abpzy>
     - Source of the material on the ethical guidelines that govern psychological research.
+    - Available under the [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.

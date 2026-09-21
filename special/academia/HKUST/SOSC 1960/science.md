@@ -75,10 +75,8 @@ Flashcards for this section are as follows:
 - how hunger and malnutrition changed over the past century ::@:: The share of hungry and malnourished people fell substantially.
 - why average IQ levels rose over the past century ::@:: Better nutrition and schooling.
 
-<!-- check: ignore-next-line[header_flashcard_presence]: reference list carries no flashcards -->
 ## references
-
-This note incorporates content from the Noba module [Why science?](https://noba.to/qu4abpzy) by Edward Diener, available under the [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.
 
 - Diener, E. (2026). Why science? In R. Biswas-Diener & E. Diener (Eds.), _Noba textbook series: Psychology_. Champaign, IL: DEF Publishers. <https://noba.to/qu4abpzy>
     - Source of the material on what science is and on scientific progress.
+    - Available under the [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.

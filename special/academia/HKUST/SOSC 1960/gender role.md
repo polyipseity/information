@@ -34,10 +34,7 @@ Flashcards for this section are as follows:
 - how the stereotype contrasts shopping ::@:: Men walk straight to the item they came for, while women work through every aisle.
 - what the stereotype says both sexes want in a partner ::@:: Someone standing on a pedestal surrounded by cooking, cleaning, laundry, and childcare.
 
-<!-- check: ignore-next-line[header_flashcard_presence]: reference list carries no flashcards -->
 ## references
-
-This note incorporates content from the animated short [Femminile e maschile](https://www.youtube.com/watch?v=CCz08Bw9wEQ) (Female and male) by Bruno Bozzetto, made for Il Progetto FORWARD.
 
 - Bozzetto, B. (\[missing\]). [Femminile e maschile](https://www.youtube.com/watch?v=CCz08Bw9wEQ) [Female and male] [Video]. Il Progetto FORWARD.
     - Source of the material on stereotyped behaviour.
