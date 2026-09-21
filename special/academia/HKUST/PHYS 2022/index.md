@@ -170,3 +170,9 @@ PHYS 2022 is an undergraduate course in modern physics at HKUST covering relativ
     - modern physics / [§ discoveries of 1895 to 1898](modern%20physics.md#discoveries%20of%201895%20to%201898)
     - modern physics / [§ revision of the classical foundations](modern%20physics.md#revision%20of%20the%20classical%20foundations)
     - modern physics / [§ open problems](modern%20physics.md#open%20problems)
+
+## week 1 tutorial 1
+
+- datetime: 2026-09-04T11:30:00+08:00/2026-09-04T12:20:00+08:00, PT50M
+- venue: G009B, CYT Bldg
+- status: unscheduled
