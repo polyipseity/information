@@ -93,12 +93,7 @@ $$\mathbf {p} _{\gamma }=\mathbf {p} _{\gamma '}+\mathbf {p} _{ {\text{e} }'},$$
 
 in which __p__<sub>e</sub> is omitted as being negligible.
 
-The photon energies are related to the frequencies by
-
-$$E_{\gamma }=hf$$
-$$E_{\gamma '}=hf'$$
-
-where _h_ is the [Planck constant](Planck%20constant.md).
+The photon energies are related to the frequencies by <p> &nbsp;&nbsp;&nbsp;&nbsp; $$E_{\gamma }=hf$$ <br/> &nbsp;&nbsp;&nbsp;&nbsp; $$E_{\gamma '}=hf'$$ <p> where _h_ is the [Planck constant](Planck%20constant.md).
 
 Before the scattering event, the electron is treated as sufficiently close to being at rest that its total energy consists entirely of the mass–energy equivalence of its rest mass _m_<sub>e</sub>,
 

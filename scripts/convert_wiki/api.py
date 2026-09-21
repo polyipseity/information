@@ -39,6 +39,8 @@ def _collect_link_titles(html: Tag) -> set[str]:
         if "new" in classes:
             continue
         title = str(a["title"])
+        if not title:
+            continue
         if title in _cfg._BAD_TITLES:
             continue
         if title in _cfg._CITATION_UI_TITLES:

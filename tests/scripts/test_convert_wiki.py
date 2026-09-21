@@ -163,6 +163,7 @@ def _discover_snapshot_cases() -> list[str]:
         "Routhian mechanics",
         "Schrödinger equation",
         "particle in a box",
+        "quantum harmonic oscillator",
     }
     return [c for c in all_cases if c in slow]
 
