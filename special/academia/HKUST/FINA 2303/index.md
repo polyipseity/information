@@ -463,7 +463,7 @@ The content is in teaching order.
         - investing activities / inflows ::@:: sale or disposal of property, plant and equipment <br/> sale or maturity of investments in securities <br/> investment related interest income <!--SR:!fsrs,2032-09-03T00:00:00.000Z,2146,2145.97655349,1,2,10,0,0,2026-10-19T00:00:00.000Z!fsrs,2031-02-21T00:00:00.000Z,1709,1708.57763615,1,2,9,0,0,2026-06-18T00:00:00.000Z-->
         - investing activities / outflows ::@:: purchase of property, plant and equipment <br/> purchase of investments in securities <!--SR:!2027-09-05,731,423!2026-11-07,478,403-->
     - financing activities ::@:: Cash inflows and outflows related to external sources of financing (owners and creditors) for the enterprise. <!--SR:!2027-10-01,752,423!2026-12-10,505,403-->
-        - financing activities / inflows ::@:: borrowings on notes, mortgages, bonds, etc. from creditors <br/> issuing stock to owners <!--SR:!2027-10-16,765,423!2026-10-28,468,403-->
+        - financing activities / inflows ::@:: borrowings on notes, mortgages, bonds, etc. from creditors <br/> issuing stock to owners <!--SR:!2027-10-16,765,423!fsrs,2032-10-02T00:00:00.000Z,2166,2166.08190138,1,2,10,0,0,2026-10-28T00:00:00.000Z-->
         - financing activities / outflows ::@:: repayment of principal to creditors <br/> repurchasing stock from owners <br/> dividends to owners <br/> financing related interest expense <!--SR:!2027-09-10,735,423!2027-08-10,710,423-->
     - operating activities
         - operating activities / methods ::@:: direct method, indirect method (almost all companies use the latter) <!--SR:!2027-08-01,703,423!2027-08-16,716,423-->

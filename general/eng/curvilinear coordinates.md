@@ -196,7 +196,7 @@ From {@{a more general and abstract perspective}@}, {@{a curvilinear coordinate 
 
 ### the metric tensor in orthogonal curvilinear coordinates
 
-- Main article: ::@:: [Metric tensor](metric%20tensor.md) <!--SR:!2026-10-28,287,347!2026-12-14,332,356-->
+- Main article: ::@:: [Metric tensor](metric%20tensor.md) <!--SR:!fsrs,2030-06-09T00:00:00.000Z,1320,1320.28169604,1,2,9,0,0,2026-10-28T00:00:00.000Z!2026-12-14,332,356-->
 
 At {@{each point}@}, one can construct {@{a small line element d<!-- markdown separator -->__x__}@}, so {@{the square of the length of the line element}@} is {@{the scalar product d<!-- markdown separator -->__x__ • d<!-- markdown separator -->__x__}@} and is called {@{the [metric](metric%20(mathematics).md) of the [space](space.md)}@}, given by: {@{$$d\mathbf {x} \cdot d\mathbf {x} ={\cfrac {\partial x_{i} }{\partial q^{j} } }{\cfrac {\partial x_{i} }{\partial q^{k} } }dq^{j}dq^{k} \,.$$}@} <!--SR:!fsrs,2029-09-15T00:00:00.000Z,1115,1114.75652523,1,2,9,0,0,2026-08-27T00:00:00.000Z!fsrs,2029-08-22T00:00:00.000Z,1096,1095.51488793,1,2,9,0,0,2026-08-22T00:00:00.000Z!2026-12-05,323,356!2026-12-04,322,356!2026-11-25,317,356!2027-06-23,459,310-->
 

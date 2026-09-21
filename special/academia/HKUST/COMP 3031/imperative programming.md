@@ -129,7 +129,7 @@ Scala can be used to {@{build a simple digital‑circuit simulator}@} that demon
 > def andGate(a: Wire, b: Wire, out: Wire): Unit = ...
 > def orGate(a: Wire, b: Wire, out: Wire): Unit = ...
 > ```
-<!--SR:!2026-11-28,251,330!2026-11-01,232,330!2026-10-28,229,330!2026-12-11,261,330-->
+<!--SR:!2026-11-28,251,330!2026-11-01,232,330!fsrs,2029-08-19T00:00:00.000Z,1026,1025.83973773,1,2,9,0,0,2026-10-28T00:00:00.000Z!2026-12-11,261,330-->
 
 {@{Wires}@} are {@{first‑class values}@}. They expose {@{three operations: `getSignal`, `setSignal`, and `addAction`}@}. {@{`getSignal` and `setSignal`}@} respectively {@{gets and sets the wire's current state}@}. {@{`addAction`}@} adds an action to {@{run whenever the wire state changes}@}. {@{A function}@} can assemble {@{gates into larger components}@}: <!--SR:!2026-11-27,255,330!2026-12-22,270,330!2026-11-27,255,330!2026-12-02,254,330!2026-11-11,241,330!2026-12-07,258,330!2026-11-13,243,330!2026-12-16,265,330!2027-01-03,280,330-->
 

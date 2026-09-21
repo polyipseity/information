@@ -14,7 +14,7 @@ tags:
 # import ../scripts/utility.py.md
 ```
 
-It is similar to a {@{[customer journey map](customer%20journey%20map.md)}@}. <!--SR:!2026-10-28,687,330-->
+It is similar to a {@{[customer journey map](customer%20journey%20map.md)}@}. <!--SR:!fsrs,2034-02-22T00:00:00.000Z,2674,2673.56801605,1,2,10,0,0,2026-10-28T00:00:00.000Z-->
 
 ## 6 stages of buyer experience cycle
 

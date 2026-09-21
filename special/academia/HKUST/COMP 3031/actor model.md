@@ -467,7 +467,7 @@ When {@{several messages are sent to the same recipient}@} they keep {@{the orde
 >     context.parent ! Done
 >     context.stop(self)
 > ```
-<!--SR:!2026-12-09,258,330!2026-12-29,272,330!2026-10-28,229,330!2027-01-09,283,330!2026-11-03,235,330!2026-11-30,251,330!2026-12-19,266,330-->
+<!--SR:!2026-12-09,258,330!2026-12-29,272,330!fsrs,2029-08-19T00:00:00.000Z,1026,1025.83973773,1,2,9,0,0,2026-10-28T00:00:00.000Z!2027-01-09,283,330!2026-11-03,235,330!2026-11-30,251,330!2026-12-19,266,330-->
 
 {@{The `Controller`}@} keeps {@{a cache of already visited URLs}@} and {@{a set of running getters}@}. When {@{all children finish}@}, it reports {@{the collected links back to its parent}@}. <!--SR:!2027-01-19,289,330!2026-11-29,250,330!2026-12-12,260,330!2026-12-13,261,330!2026-11-24,252,330-->
 

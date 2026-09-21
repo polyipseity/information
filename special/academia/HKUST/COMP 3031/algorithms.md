@@ -52,7 +52,7 @@ tags:
 > ```
 <!--SR:!fsrs,2028-08-20T00:00:00.000Z,703,702.57151752,2.49272837,2,9,0,0,2026-09-17T00:00:00.000Z!fsrs,2029-08-27T00:00:00.000Z,1080,1080.08717202,1,2,9,0,0,2026-09-12T00:00:00.000Z!fsrs,2028-07-08T02:18:54.951Z,755,754.80663527,1,2,8,0,0,2026-06-14T02:18:54.951Z-->
 
-{@{The worst-case time complexity}@} of insertion sort on {@{a list of length _N_}@} is {@{quadratic, i.e., proportional to $N \times N$}@}, because {@{each new element}@} may need to be {@{compared with every preceding element in the sorted sub-list}@}. <!--SR:!fsrs,2030-03-12T00:00:00.000Z,1233,1233.04800529,1,2,9,0,0,2026-10-26T00:00:00.000Z!2026-11-02,289,330!2026-11-06,292,330!2026-10-28,285,330!fsrs,2028-02-09T00:00:00.000Z,514,513.71227157,5.00637887,2,9,0,0,2026-09-13T00:00:00.000Z-->
+{@{The worst-case time complexity}@} of insertion sort on {@{a list of length _N_}@} is {@{quadratic, i.e., proportional to $N \times N$}@}, because {@{each new element}@} may need to be {@{compared with every preceding element in the sorted sub-list}@}. <!--SR:!fsrs,2030-03-12T00:00:00.000Z,1233,1233.04800529,1,2,9,0,0,2026-10-26T00:00:00.000Z!2026-11-02,289,330!2026-11-06,292,330!fsrs,2030-03-22T00:00:00.000Z,1241,1240.62340626,1,2,9,0,0,2026-10-28T00:00:00.000Z!fsrs,2028-02-09T00:00:00.000Z,514,513.71227157,5.00637887,2,9,0,0,2026-09-13T00:00:00.000Z-->
 
 ### merge sort
 

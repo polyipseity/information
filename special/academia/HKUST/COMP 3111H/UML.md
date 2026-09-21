@@ -33,7 +33,7 @@ A class is drawn by {@{a rectangle box with 3 sections \(from top to bottom\)}@}
 
 ### why classes
 
-There are {@{many objects in the application domain}@}. Classes allow us to {@{_abstract_ a collection of objects}@} that {@{_share semantics_}@}. This reduce {@{development _complexity_}@} by allowing {@{better understanding and specification}@}. It is {@{an important _design decision_}@} that helps {@{promote _modular development_}@}. Note as {@{a design decision}@}, there is not {@{the single "correct" way to model a system}@}. <!--SR:!2026-12-08,328,342!2026-11-21,311,342!2027-02-05,384,361!2026-10-28,297,342!2026-11-19,309,342!2026-11-05,305,342!2026-11-10,310,342!2026-11-21,311,342!2027-01-25,375,361-->
+There are {@{many objects in the application domain}@}. Classes allow us to {@{_abstract_ a collection of objects}@} that {@{_share semantics_}@}. This reduce {@{development _complexity_}@} by allowing {@{better understanding and specification}@}. It is {@{an important _design decision_}@} that helps {@{promote _modular development_}@}. Note as {@{a design decision}@}, there is not {@{the single "correct" way to model a system}@}. <!--SR:!2026-12-08,328,342!2026-11-21,311,342!2027-02-05,384,361!fsrs,2030-06-27T00:00:00.000Z,1338,1338.29693509,1,2,9,0,0,2026-10-28T00:00:00.000Z!2026-11-19,309,342!2026-11-05,305,342!2026-11-10,310,342!2026-11-21,311,342!2027-01-25,375,361-->
 
 {@{Better _understanding_}@} comes from {@{reduced complexity}@}, as {@{collections of many objects}@} become {@{a few classes}@}. We only need to understand {@{the class instead of the collection of objects \(instances\)}@}. <!--SR:!fsrs,2029-08-29T00:00:00.000Z,1099,1099.36699517,1,2,9,0,0,2026-08-26T00:00:00.000Z!2026-11-02,302,342!2027-03-15,410,370!2026-11-02,302,342!2027-02-26,393,361-->
 
@@ -120,9 +120,9 @@ However, there are {@{some additional semantics common enough}@} to {@{warrant s
 
 ### association aggregations
 
-{@{_Aggregation_}@} represents {@{a _possible_ "part-of" relationship}@}. {@{The component object \(child\)}@} {@{_may_ belong to an aggregate object \(parent\)}@}, and {@{_can_ exist _independently_ of the aggregate object}@}. <!--SR:!2026-10-28,297,342!2026-11-06,306,342!2027-03-21,416,370!2027-02-14,392,361!2027-02-22,400,370-->
+{@{_Aggregation_}@} represents {@{a _possible_ "part-of" relationship}@}. {@{The component object \(child\)}@} {@{_may_ belong to an aggregate object \(parent\)}@}, and {@{_can_ exist _independently_ of the aggregate object}@}. <!--SR:!fsrs,2030-06-27T00:00:00.000Z,1338,1338.29693509,1,2,9,0,0,2026-10-28T00:00:00.000Z!2026-11-06,306,342!2027-03-21,416,370!2027-02-14,392,361!2027-02-22,400,370-->
 
-Often, the association name is {@{"Has", but can be other names as appropriate for the application domain}@}. We can {@{omit the name as well}@}. Conversely, however, {@{an association with the name "Has"}@} {@{does not imply composition}@}. Aggregation or composition should have {@{intrinsic _asymmetry_ to the association}@}. <!--SR:!2027-03-13,408,370!2026-10-29,298,342!2027-02-23,401,370!2026-10-28,297,342!2027-03-26,421,373-->
+Often, the association name is {@{"Has", but can be other names as appropriate for the application domain}@}. We can {@{omit the name as well}@}. Conversely, however, {@{an association with the name "Has"}@} {@{does not imply composition}@}. Aggregation or composition should have {@{intrinsic _asymmetry_ to the association}@}. <!--SR:!2027-03-13,408,370!2026-10-29,298,342!2027-02-23,401,370!fsrs,2030-06-27T00:00:00.000Z,1338,1338.29693509,1,2,9,0,0,2026-10-28T00:00:00.000Z!2027-03-26,421,373-->
 
 In many cases, {@{whether an aggregation \(or composition\)}@} should be used is {@{unclear, and is mostly a matter of taste \(design decision\)}@}. When {@{in doubt}@}, use {@{a pure association}@}. <!--SR:!2027-03-25,420,373!2027-03-22,417,373!2027-03-23,418,373!2027-03-27,422,373-->
 
@@ -174,7 +174,7 @@ This allows us to {@{_simplify_ diagrams for _clarity_}@}, because {@{common att
 
 {@{Most attributes}@} clearly {@{belongs to a class}@}. However, there are attributes that {@{do not clearly belong to a class}@}, but {@{rather to associations}@}. It is often needed in {@{many-to-many associations}@}. <!--SR:!2026-11-02,302,342!2026-11-19,309,342!2027-01-26,376,361!2027-02-03,382,361!2027-01-16,367,361-->
 
-There are {@{4 major solutions}@}: {@{many attributes in a class, multi-valued attributes in a class, association class, or separate class}@}. The {@{first 2 solutions}@} {@{do not work \(1st solution: unknown number of attributes; 2nd solution: unknown mapping to links\)}@}, and {@{should not be used}@}. {@{The latter 2 solutions}@} are {@{fine depending on the _application domain_}@}. The 4th solution is {@{applicable to more situations than the 3rd solution}@} since {@{there cannot be multiple links of the same association between the same two objects}@}. <!--SR:!2027-02-17,384,361!2026-10-28,297,342!2026-11-09,309,342!fsrs,2030-06-22T00:00:00.000Z,1334,1334.38257947,1,2,9,0,0,2026-10-27T00:00:00.000Z!2027-03-17,412,370!2027-01-25,373,361!2027-03-15,410,370!2026-11-13,313,342!2027-02-08,387,361-->
+There are {@{4 major solutions}@}: {@{many attributes in a class, multi-valued attributes in a class, association class, or separate class}@}. The {@{first 2 solutions}@} {@{do not work \(1st solution: unknown number of attributes; 2nd solution: unknown mapping to links\)}@}, and {@{should not be used}@}. {@{The latter 2 solutions}@} are {@{fine depending on the _application domain_}@}. The 4th solution is {@{applicable to more situations than the 3rd solution}@} since {@{there cannot be multiple links of the same association between the same two objects}@}. <!--SR:!2027-02-17,384,361!fsrs,2030-06-27T00:00:00.000Z,1338,1338.29693509,1,2,9,0,0,2026-10-28T00:00:00.000Z!2026-11-09,309,342!fsrs,2030-06-22T00:00:00.000Z,1334,1334.38257947,1,2,9,0,0,2026-10-27T00:00:00.000Z!2027-03-17,412,370!2027-01-25,373,361!2027-03-15,410,370!2026-11-13,313,342!2027-02-08,387,361-->
 
 {@{An _association class_}@} is {@{a class used to represent an association}@}. To represent it, you need to use {@{dashed line to connect the association with the association class}@}. <!--SR:!2027-02-21,388,361!2027-01-27,377,361!2026-11-23,313,342-->
 
@@ -184,7 +184,7 @@ There are {@{4 major solutions}@}: {@{many attributes in a class, multi-valued a
 
 {@{An _abstract class_}@} is {@{a class with no _direct_ instances}@}. {@{Its name}@} is {@{_italicized_}@}. A special type of abstract class is {@{an _interface_}@}, which is {@{an _abstract class_ with _operations_ only}@}. <!--SR:!fsrs,2030-06-17T00:00:00.000Z,1330,1330.46653099,1,2,9,0,0,2026-10-26T00:00:00.000Z!2027-02-14,392,361!2027-02-01,380,361!2026-11-29,319,342!2027-02-13,391,361!2026-12-02,322,342-->
 
-{@{An _abstract operation_}@} is {@{an operation with no _direct_ method \(_direct_ implementation\)}@}. {@{Its name}@} is {@{_italicized_}@}. <!--SR:!2027-03-12,407,370!2026-10-28,297,342!2027-03-08,403,370!2026-11-30,320,342-->
+{@{An _abstract operation_}@} is {@{an operation with no _direct_ method \(_direct_ implementation\)}@}. {@{Its name}@} is {@{_italicized_}@}. <!--SR:!2027-03-12,407,370!fsrs,2030-06-27T00:00:00.000Z,1338,1338.29693509,1,2,9,0,0,2026-10-28T00:00:00.000Z!2027-03-08,403,370!2026-11-30,320,342-->
 
 ## constraints
 
