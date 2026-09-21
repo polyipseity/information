@@ -149,4 +149,5 @@ Every line inside a blockquote must begin with `>`, blank lines included.
 - `humanizer` for the AI-writing patterns the humanizer pass removes (see "Humanizer pass" in `academic-ingest`)
 - `academic-crud-index` for parent index updates
 - `academic-crud-attachments` for questions-level attachments
+- `academic-video` for the content of a video the question material links
 - `academic-lint` for validation

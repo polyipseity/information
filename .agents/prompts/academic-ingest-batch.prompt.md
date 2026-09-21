@@ -39,6 +39,8 @@ Classify each file's source type:
 
 Every group is also __looked at__, not only read. Before classifying, open the page renders and the embedded figures, decide what each figure is (definitional drawing, text-bearing figure, or purely pictorial), and use the images for anything the text extraction drops or mangles: labels inside a diagram, a formula rendered as a picture, a table's layout, handwriting added to a slide. A group whose figures were never opened is not ingested. Method, legibility rules, and the checklist live in `academic-vision`.
 
+__Video links are material too.__ Collect every video link a group carries — YouTube, Vimeo, Canvas/Kaltura, Panopto, or a media file — and read it from its subtitles before classifying. A video with no usable English track is deferred: write nothing about it, and batch every deferred video into the single request made to the user at the end, before the report. See `academic-video`.
+
 ## 3. Parse
 
 Extract course, session number, and binding from directory names:
@@ -95,6 +97,8 @@ Run `academic-lint` on all created/modified files.
 ## 11. Report
 
 Summarize what was created, with file paths and any issues.
+
+Before the report, batch every video that could not be read into one request to the user and ask them to have it watched through Gemini for a YouTube URL, or a file-upload tool or a local Whisper transcript otherwise (see "Asking the user to watch them" in `academic-video`). List each deferred video with the concepts it left uncovered.
 
 ```text
 Created 5 tutorial submissions:

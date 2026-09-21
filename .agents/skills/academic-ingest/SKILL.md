@@ -143,6 +143,16 @@ A drawing is part of a definition when the note cannot state the thing without s
 - Card it in both directions: recognition with the drawing on the prompt side, recall with the drawing on the answer side, and both sides for a transformation — see `create-flashcards`.
 - A picture specific to one question or worked example is not a definition: keep it as a crop of the extracted image in `attachments/`.
 
+## Video links (mandatory)
+
+__A video link in the material is course material.__ Slides, PDFs, handouts, and Canvas pages regularly link a talk, a news clip, or a lecture recording that the surrounding text sets up, and extraction keeps the URL while dropping the video. Look for them before classifying: YouTube and `youtu.be` URLs, Vimeo, Canvas/Kaltura and Panopto players, `<iframe>` and `<video>` tags, and links ending in a media extension.
+
+__Read the video from its subtitles, or defer it.__ The transcript is the video's content, read with `yt-dlp` into a temp directory — never into the repository, and never into `attachments/`. A video with no usable English track is deferred: nothing is written about it, and nothing is guessed from its title. A deferral is run state, never note content.
+
+__One request, at the end.__ Before returning to the user, present every deferred video in a single request and ask them to have it watched — Gemini for a YouTube URL, a file-upload tool or a local Whisper transcript for anything else — so the content can be incorporated on the next pass.
+
+`academic-video` is the authority on the link forms, the extraction commands, the deferral rule, and the wording of that request.
+
 ## Input handling
 
 Accept any combination of:
@@ -381,6 +391,7 @@ After extraction, the material lands as follows. Nothing here authorises deletin
 - Original HTML files → left at their original path; not copied into the repository
 - Original document files (PDF, DOCX, PPTX): content documents are left in place with the `.md` as the canonical copy; attachment documents are copied into `attachments/` and the source is left in place
 - Figures → transcribed into the note; a definitional drawing is attached as a redrawn SVG (see "Definitional drawings"), and an embedded image is copied to `attachments/` under a descriptive name only when the picture itself is the material
+- Linked videos → read from their subtitles with `academic-video`; the transcript is transient reference, never stored, and a video with no usable subtitles is deferred rather than guessed
 - Extracted text → the `.md` file for content documents; ephemeral reference for attachment documents (the original is canonical)
 - `.extracted/` folders → derived cache artifacts, not tracked in `index.md`
 
@@ -542,8 +553,9 @@ After the dispatched skill completes:
 3. __Humanizer pass.__ Load the `humanizer` skill and apply it to the new and changed prose and flashcards, the reconciled topic notes included, before validating. Every later edit gets the same pass, whether or not an ingestion is running; see "Humanizer pass" below.
 4. Run validation on the created or modified files.
 5. Add a link to the assignment in the last lecture entry on or before its due date in the course `index.md`.
-6. Report what was created or updated, with file paths, and give the reconciliation outcome for each topic note.
-7. Suggest next steps (add flashcards, update the index).
+6. __Request the deferred videos.__ Batch every video that could not be read into the one request made to the user (see "Asking the user to watch them" in `academic-video`), and do it before the report, since the report has to name the concepts left uncovered.
+7. Report what was created or updated, with file paths, with the reconciliation outcome for each topic note and the reason for each deferred video.
+8. Suggest next steps (add flashcards, update the index, bring back the deferred videos).
 
 > __Legacy patterns:__ For deprecated content structures (flat `questions.md`, flat assignment directories, `transcripts/`), consult the `academic-deprecated` skill for migration guidance. Deprecated pattern detection is not part of ingestion classification; it is a separate maintenance concern.
 
@@ -610,11 +622,14 @@ Attachment setup uses `academic-crud-attachments` as a post-classification helpe
 
 Reading, judging, and verifying images uses `academic-vision` as a helper wherever the material carries pictures: page renders, embedded figures, attached crops, and the drawings the notes generate.
 
+Reading a linked video's content, deferring the ones without usable subtitles, and batching the request that gets them watched uses `academic-video` as a helper wherever the material carries a video link.
+
 ## References
 
 - All `academic-crud-*` skills for dispatch targets
 - `academic-crud-attachments` for attachment directory setup
 - `academic-vision` for looking at, classifying, and verifying images, including the generated drawings
+- `academic-video` for reading a linked video's content from its subtitles, deferring the ones without them, and asking the user to have those watched
 - `academic-deprecated` for legacy pattern migration
 - `create-flashcards` for flashcard markup guidance
 - `humanizer` for the AI-writing patterns the humanizer pass removes
