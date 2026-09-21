@@ -8,6 +8,7 @@ Covers all exported functions:
 * ``_scan_and_apply`` — text replacement for block math spacing
 * ``_separate_block_quotes`` — MD028 suppression between adjacent blockquotes
 * ``_separate_block_math`` — whitespace around ``$$…$$`` blocks
+* ``_merge_dl_after_thumb_into_list`` — thumbnail/list merging for ``<dl>`` captions
 * ``wiki_html_to_plaintext`` — post-processing after the converter
 * ``run_pipeline`` — top-level orchestrator
 """
@@ -31,6 +32,7 @@ from scripts.convert_wiki.pipeline import (
     _collect_block_math_info,
     _determine_needs_after,
     _determine_needs_before,
+    _merge_dl_after_thumb_into_list,
     _scan_and_apply,
     _separate_block_math,
     _separate_block_quotes,
@@ -910,6 +912,34 @@ class TestSeparateBlockMath:
         assert "$$\nf$$" not in result  # sanity
 
 
+class TestMergeDlAfterThumbIntoList:
+    """Tests for ``_merge_dl_after_thumb_into_list``."""
+
+    def test_prose_dd_merges_into_last_list_item(self) -> None:
+        """A prose ``<dl>`` caption after a thumbnail joins the list."""
+        soup = BeautifulSoup(
+            '<ul><li>item</li></ul><div class="thumb"><img/></div>'
+            "<dl><dd>caption</dd></dl>",
+            "html.parser",
+        )
+        _merge_dl_after_thumb_into_list(soup)
+        assert soup.find("dl") is None
+        li = soup.find("li")
+        assert li is not None
+        assert "caption" in li.get_text()
+
+    def test_multi_row_display_math_dl_is_not_merged(self) -> None:
+        """A multi-row display-math ``<dl>`` is an equation block, not prose."""
+        math = '<span class="mwe-math-element mwe-math-element-block"></span>'
+        soup = BeautifulSoup(
+            '<ul><li>item</li></ul><div class="thumb"><img/></div>'
+            f"<dl><dd>{math}</dd><dd>{math}</dd></dl>",
+            "html.parser",
+        )
+        _merge_dl_after_thumb_into_list(soup)
+        assert soup.find("dl") is not None
+
+
 # =========================================================================
 # wiki_html_to_plaintext — post-processing integration
 # =========================================================================
@@ -1210,9 +1240,10 @@ class TestRunPipeline:
             wiki_lang_dir=lang_dir,
             refs=True,
         )
-        # The table should have columns
-        lines = [line for line in result.split("\n") if line.startswith("|")]
-        assert len(lines) >= 1
-        # Second column should accommodate "verylongcontent"
-        # The dash separator row should match column widths
-        assert "verylongcontent" in result
+        # The table has an empty header row, a separator, and one data row;
+        # the pipeline pads each column to its widest cell.
+        assert result == (
+            "|       |                 |\n"
+            "| ----- | --------------- |\n"
+            "| short | verylongcontent |\n"
+        )

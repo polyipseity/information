@@ -1,0 +1,1874 @@
+{
+  "api_titles": [
+    "X-ray fluorescence holography",
+    "Coherence (physics)",
+    "Bibcode (identifier)",
+    "Extended X-ray absorption fine structure",
+    "Arthur Holly Compton",
+    "Resonant inelastic X-ray scattering",
+    "Conservation of momentum",
+    "ISSN (identifier)",
+    "Energy",
+    "Classical electromagnetism",
+    "Density functional theory",
+    "BKS theory",
+    "Galaxy cluster",
+    "Panoramic radiograph",
+    "Path integral formulation",
+    "X-ray radiography",
+    "Scalar product",
+    "Schwinger limit",
+    "Soft x-ray microscopy",
+    "Conservation of energy",
+    "Scanning transmission X-ray microscopy",
+    "Møller scattering",
+    "Moseley's law",
+    "Electron",
+    "X-ray astronomy",
+    "K-edge",
+    "Backscatter X-ray",
+    "Quantum electrodynamics",
+    "Special relativity",
+    "Klein–Nishina formula",
+    "Prentice Hall",
+    "Albert Einstein",
+    "Characteristic X-ray",
+    "Auger effect",
+    "S2CID (identifier)",
+    "Radiobiology",
+    "Virtual particle",
+    "Absorption edge",
+    "Doi (identifier)",
+    "Momentum",
+    "Breit–Wheeler process",
+    "Compton Gamma Ray Observatory",
+    "Synchrotron radiation",
+    "PMID (identifier)",
+    "Bhabha scattering",
+    "Compton suppression",
+    "QED vacuum",
+    "Radiation therapy",
+    "Non-linear inverse Compton scattering",
+    "Compton wavelength",
+    "Helical CT",
+    "Pair production",
+    "Furry's theorem",
+    "Electron mass",
+    "Timeline of cosmic microwave background astronomy",
+    "Anomalous magnetic dipole moment",
+    "Synchrotron",
+    "Rayleigh scattering",
+    "Coherent diffraction imaging",
+    "Three-dimensional X-ray diffraction",
+    "Nobel Prize in Physics",
+    "X-ray reflectivity",
+    "Energy-dispersive X-ray spectroscopy",
+    "Radiation pressure",
+    "Visible light",
+    "Accretion disk",
+    "Sunyaev–Zel'dovich effect",
+    "Physical Review",
+    "OUP Oxford",
+    "X-ray diffraction",
+    "Dual photon",
+    "Inelastic collision",
+    "Faddeev–Popov ghost",
+    "X-Ray Fluorescence Imaging",
+    "CT scan",
+    "Positronium",
+    "Betatron",
+    "Angle-resolved photoemission spectroscopy",
+    "Wayback Machine",
+    "Lamb shift",
+    "Bremsstrahlung",
+    "Two-photon physics",
+    "Vacuum polarization",
+    "X-ray telescope",
+    "Photodisintegration",
+    "Phase-contrast X-ray imaging",
+    "Fluctuation X-ray scattering",
+    "Dark-field X-ray microscopy",
+    "Wide-angle X-ray scattering",
+    "Photofission",
+    "Nuclear reaction",
+    "Inelastic scattering",
+    "X-ray tube",
+    "Electromagnetic wave",
+    "Ward–Takahashi identity",
+    "Dual-energy X-ray absorptiometry",
+    "X-ray scattering techniques",
+    "History of X-ray astronomy",
+    "X-ray fluorescence",
+    "Valence electron",
+    "ArXiv (identifier)",
+    "X-ray absorption near edge structure",
+    "Speed of light",
+    "Metal L-edge",
+    "Ptychography",
+    "Auger electron spectroscopy",
+    "Wavelength",
+    "Photoelectric effect",
+    "High-energy X-rays",
+    "Wave",
+    "Diffraction tomography",
+    "Schwinger effect",
+    "Alpha particle",
+    "Relativistic reflection",
+    "Delbrück scattering",
+    "Cross section (physics)",
+    "X-ray photoelectron spectroscopy",
+    "Washington University in St. Louis",
+    "Water window",
+    "Charged particle",
+    "Thomson scattering",
+    "Graphite",
+    "Small-angle X-ray scattering",
+    "Tomosynthesis",
+    "Feynman diagrams",
+    "X-ray Raman scattering",
+    "Peter Debye",
+    "Hans Geiger",
+    "X-ray",
+    "X-ray absorption spectroscopy",
+    "American Physical Society",
+    "Positron",
+    "Cosmic microwave background radiation",
+    "Radiation damage",
+    "Anomalous X-ray scattering",
+    "Walther Bothe",
+    "X-ray diffraction computed tomography",
+    "Stellar corona",
+    "X-ray crystallography",
+    "Astrophysics",
+    "X-ray lithography",
+    "Bragg scattering",
+    "SQUID",
+    "Photon",
+    "Landau pole",
+    "Siegbahn notation",
+    "Nuclear electromagnetic pulse",
+    "Wu Youxun",
+    "Elastic collision",
+    "Feynman diagram",
+    "Self-energy",
+    "Euler–Heisenberg Lagrangian",
+    "Energy-dispersive X-ray diffraction",
+    "Vertex function",
+    "Energy–momentum relation",
+    "Grazing-incidence small-angle scattering",
+    "Black hole",
+    "Arthur Compton",
+    "Synchrotron light source",
+    "Compton edge",
+    "Scattering",
+    "ISBN (identifier)",
+    "Gamma spectroscopy",
+    "Quantum mechanics",
+    "Photoionization",
+    "Recoil",
+    "Free-electron laser",
+    "Uehling potential",
+    "Planck constant",
+    "Gupta–Bleuler formalism",
+    "Laser",
+    "Physical Review Letters"
+  ],
+  "api_responses": [
+    {
+      "batchcomplete": true,
+      "query": {
+        "redirects": [
+          {
+            "from": "Scalar product",
+            "to": "Dot product"
+          },
+          {
+            "from": "Conservation of momentum",
+            "to": "Momentum",
+            "tofragment": "Conservation"
+          },
+          {
+            "from": "Arthur Holly Compton",
+            "to": "Arthur Compton"
+          },
+          {
+            "from": "Compton suppression",
+            "to": "Electronic anticoincidence",
+            "tofragment": "Compton suppression"
+          },
+          {
+            "from": "X-ray radiography",
+            "to": "Radiography"
+          },
+          {
+            "from": "PMID (identifier)",
+            "to": "PubMed",
+            "tofragment": "PubMed identifier"
+          },
+          {
+            "from": "ISSN (identifier)",
+            "to": "ISSN"
+          },
+          {
+            "from": "S2CID (identifier)",
+            "to": "Semantic Scholar",
+            "tofragment": "S2CID"
+          },
+          {
+            "from": "Doi (identifier)",
+            "to": "Digital object identifier"
+          },
+          {
+            "from": "Bibcode (identifier)",
+            "to": "Bibcode"
+          },
+          {
+            "from": "Soft x-ray microscopy",
+            "to": "Soft X-ray microscopy"
+          },
+          {
+            "from": "Path integral formulation",
+            "to": "Path-integral formulation"
+          }
+        ],
+        "pages": [
+          {
+            "pageid": 736,
+            "ns": 0,
+            "title": "Albert Einstein"
+          },
+          {
+            "pageid": 2389,
+            "ns": 0,
+            "title": "Auger effect"
+          },
+          {
+            "pageid": 9476,
+            "ns": 0,
+            "title": "Electron"
+          },
+          {
+            "pageid": 9649,
+            "ns": 0,
+            "title": "Energy"
+          },
+          {
+            "pageid": 20431,
+            "ns": 0,
+            "title": "Momentum"
+          },
+          {
+            "pageid": 25268,
+            "ns": 0,
+            "title": "Quantum electrodynamics"
+          },
+          {
+            "pageid": 26350,
+            "ns": 0,
+            "title": "Radiation therapy"
+          },
+          {
+            "pageid": 26962,
+            "ns": 0,
+            "title": "Special relativity"
+          },
+          {
+            "pageid": 44062,
+            "ns": 0,
+            "title": "X-ray astronomy"
+          },
+          {
+            "pageid": 58950,
+            "ns": 0,
+            "title": "Galaxy cluster"
+          },
+          {
+            "pageid": 67088,
+            "ns": 0,
+            "title": "Conservation of energy"
+          },
+          {
+            "pageid": 95807,
+            "ns": 0,
+            "title": "Radiography"
+          },
+          {
+            "pageid": 157093,
+            "ns": 0,
+            "title": "Dot product"
+          },
+          {
+            "pageid": 170808,
+            "ns": 0,
+            "title": "Synchrotron radiation"
+          },
+          {
+            "pageid": 192316,
+            "ns": 0,
+            "title": "Virtual particle"
+          },
+          {
+            "pageid": 209874,
+            "ns": 0,
+            "title": "Density functional theory"
+          },
+          {
+            "pageid": 234930,
+            "ns": 0,
+            "title": "ISSN"
+          },
+          {
+            "pageid": 240011,
+            "ns": 0,
+            "title": "Coherence (physics)"
+          },
+          {
+            "pageid": 422994,
+            "ns": 0,
+            "title": "Digital object identifier"
+          },
+          {
+            "pageid": 426219,
+            "ns": 0,
+            "title": "Classical electromagnetism"
+          },
+          {
+            "pageid": 432000,
+            "ns": 0,
+            "title": "Arthur Compton"
+          },
+          {
+            "pageid": 438476,
+            "ns": 0,
+            "title": "Path-integral formulation"
+          },
+          {
+            "pageid": 503009,
+            "ns": 0,
+            "title": "PubMed"
+          },
+          {
+            "pageid": 543428,
+            "ns": 0,
+            "title": "Compton Gamma Ray Observatory"
+          },
+          {
+            "pageid": 884142,
+            "ns": 0,
+            "title": "Klein–Nishina formula"
+          },
+          {
+            "pageid": 1203072,
+            "ns": 0,
+            "title": "Backscatter X-ray"
+          },
+          {
+            "pageid": 1206859,
+            "ns": 0,
+            "title": "Extended X-ray absorption fine structure"
+          },
+          {
+            "pageid": 1474467,
+            "ns": 0,
+            "title": "Compton wavelength"
+          },
+          {
+            "pageid": 1983277,
+            "ns": 0,
+            "title": "Moseley's law"
+          },
+          {
+            "pageid": 2125793,
+            "ns": 0,
+            "title": "X-ray fluorescence holography"
+          },
+          {
+            "pageid": 4249038,
+            "ns": 0,
+            "title": "Møller scattering"
+          },
+          {
+            "pageid": 4747255,
+            "ns": 0,
+            "title": "Soft X-ray microscopy"
+          },
+          {
+            "pageid": 5302681,
+            "ns": 0,
+            "title": "Electronic anticoincidence"
+          },
+          {
+            "pageid": 5421050,
+            "ns": 0,
+            "title": "Prentice Hall"
+          },
+          {
+            "pageid": 5669330,
+            "ns": 0,
+            "title": "Bhabha scattering"
+          },
+          {
+            "pageid": 13347268,
+            "ns": 0,
+            "title": "Radiobiology"
+          },
+          {
+            "pageid": 13768214,
+            "ns": 0,
+            "title": "K-edge"
+          },
+          {
+            "pageid": 14092434,
+            "ns": 0,
+            "title": "Bibcode"
+          },
+          {
+            "pageid": 16711283,
+            "ns": 0,
+            "title": "BKS theory"
+          },
+          {
+            "pageid": 18482489,
+            "ns": 0,
+            "title": "Absorption edge"
+          },
+          {
+            "pageid": 18928713,
+            "ns": 0,
+            "title": "Characteristic X-ray"
+          },
+          {
+            "pageid": 25472865,
+            "ns": 0,
+            "title": "Resonant inelastic X-ray scattering"
+          },
+          {
+            "pageid": 30250243,
+            "ns": 0,
+            "title": "Panoramic radiograph"
+          },
+          {
+            "pageid": 34317494,
+            "ns": 0,
+            "title": "QED vacuum"
+          },
+          {
+            "pageid": 36225667,
+            "ns": 0,
+            "title": "Schwinger limit"
+          },
+          {
+            "pageid": 42801222,
+            "ns": 0,
+            "title": "Breit–Wheeler process"
+          },
+          {
+            "pageid": 44592731,
+            "ns": 0,
+            "title": "Scanning transmission X-ray microscopy"
+          },
+          {
+            "pageid": 48455863,
+            "ns": 0,
+            "title": "Semantic Scholar"
+          },
+          {
+            "pageid": 67944697,
+            "ns": 0,
+            "title": "Non-linear inverse Compton scattering"
+          }
+        ]
+      }
+    },
+    {
+      "batchcomplete": true,
+      "query": {
+        "redirects": [
+          {
+            "from": "Visible light",
+            "to": "Light"
+          },
+          {
+            "from": "Electromagnetic wave",
+            "to": "Electromagnetic radiation"
+          },
+          {
+            "from": "Timeline of cosmic microwave background astronomy",
+            "to": "Cosmic microwave background",
+            "tofragment": "Timeline of prediction, discovery and interpretation"
+          },
+          {
+            "from": "Helical CT",
+            "to": "Operation of computed tomography",
+            "tofragment": "Spiral"
+          },
+          {
+            "from": "OUP Oxford",
+            "to": "Oxford University Press"
+          },
+          {
+            "from": "Sunyaev–Zel'dovich effect",
+            "to": "Sunyaev–Zeldovich effect"
+          },
+          {
+            "from": "X-Ray Fluorescence Imaging",
+            "to": "Confocal microscopy",
+            "tofragment": "Techniques used for horizontal scanning"
+          }
+        ],
+        "pages": [
+          {
+            "pageid": 7376,
+            "ns": 0,
+            "title": "Cosmic microwave background"
+          },
+          {
+            "pageid": 9426,
+            "ns": 0,
+            "title": "Electromagnetic radiation"
+          },
+          {
+            "pageid": 17939,
+            "ns": 0,
+            "title": "Light"
+          },
+          {
+            "pageid": 26176,
+            "ns": 0,
+            "title": "Rayleigh scattering"
+          },
+          {
+            "pageid": 43709,
+            "ns": 0,
+            "title": "Radiation pressure"
+          },
+          {
+            "pageid": 44596,
+            "ns": 0,
+            "title": "Positronium"
+          },
+          {
+            "pageid": 48518,
+            "ns": 0,
+            "title": "Oxford University Press"
+          },
+          {
+            "pageid": 50982,
+            "ns": 0,
+            "title": "CT scan"
+          },
+          {
+            "pageid": 52497,
+            "ns": 0,
+            "title": "Nobel Prize in Physics"
+          },
+          {
+            "pageid": 54147,
+            "ns": 0,
+            "title": "Bremsstrahlung"
+          },
+          {
+            "pageid": 65908,
+            "ns": 0,
+            "title": "Inelastic collision"
+          },
+          {
+            "pageid": 72048,
+            "ns": 0,
+            "title": "X-ray fluorescence"
+          },
+          {
+            "pageid": 97193,
+            "ns": 0,
+            "title": "Wide-angle X-ray scattering"
+          },
+          {
+            "pageid": 140858,
+            "ns": 0,
+            "title": "Pair production"
+          },
+          {
+            "pageid": 156962,
+            "ns": 0,
+            "title": "X-ray scattering techniques"
+          },
+          {
+            "pageid": 377691,
+            "ns": 0,
+            "title": "Dual-energy X-ray absorptiometry"
+          },
+          {
+            "pageid": 419663,
+            "ns": 0,
+            "title": "Physical Review"
+          },
+          {
+            "pageid": 431369,
+            "ns": 0,
+            "title": "Sunyaev–Zeldovich effect"
+          },
+          {
+            "pageid": 460322,
+            "ns": 0,
+            "title": "Nuclear reaction"
+          },
+          {
+            "pageid": 568674,
+            "ns": 0,
+            "title": "Valence electron"
+          },
+          {
+            "pageid": 599215,
+            "ns": 0,
+            "title": "Synchrotron"
+          },
+          {
+            "pageid": 671768,
+            "ns": 0,
+            "title": "Faddeev–Popov ghost"
+          },
+          {
+            "pageid": 682642,
+            "ns": 0,
+            "title": "Energy-dispersive X-ray spectroscopy"
+          },
+          {
+            "pageid": 907899,
+            "ns": 0,
+            "title": "X-ray tube"
+          },
+          {
+            "pageid": 1074997,
+            "ns": 0,
+            "title": "Lamb shift"
+          },
+          {
+            "pageid": 1186904,
+            "ns": 0,
+            "title": "Confocal microscopy"
+          },
+          {
+            "pageid": 1235271,
+            "ns": 0,
+            "title": "Betatron"
+          },
+          {
+            "pageid": 1252256,
+            "ns": 0,
+            "title": "Inelastic scattering"
+          },
+          {
+            "pageid": 1942246,
+            "ns": 0,
+            "title": "Vacuum polarization"
+          },
+          {
+            "pageid": 1962960,
+            "ns": 0,
+            "title": "Two-photon physics"
+          },
+          {
+            "pageid": 2728068,
+            "ns": 0,
+            "title": "Anomalous magnetic dipole moment"
+          },
+          {
+            "pageid": 3553124,
+            "ns": 0,
+            "title": "X-ray reflectivity"
+          },
+          {
+            "pageid": 3801543,
+            "ns": 0,
+            "title": "X-ray telescope"
+          },
+          {
+            "pageid": 7078310,
+            "ns": 0,
+            "title": "Angle-resolved photoemission spectroscopy"
+          },
+          {
+            "pageid": 9917583,
+            "ns": 0,
+            "title": "X-ray diffraction"
+          },
+          {
+            "pageid": 11145154,
+            "ns": 0,
+            "title": "Photodisintegration"
+          },
+          {
+            "pageid": 13751165,
+            "ns": 0,
+            "title": "Coherent diffraction imaging"
+          },
+          {
+            "pageid": 21144218,
+            "ns": 0,
+            "title": "Electron mass"
+          },
+          {
+            "pageid": 23538754,
+            "ns": 0,
+            "title": "Wayback Machine"
+          },
+          {
+            "pageid": 25119101,
+            "ns": 0,
+            "title": "History of X-ray astronomy"
+          },
+          {
+            "pageid": 26732647,
+            "ns": 0,
+            "title": "Photofission"
+          },
+          {
+            "pageid": 30863437,
+            "ns": 0,
+            "title": "Ward–Takahashi identity"
+          },
+          {
+            "pageid": 35154335,
+            "ns": 0,
+            "title": "Phase-contrast X-ray imaging"
+          },
+          {
+            "pageid": 47510943,
+            "ns": 0,
+            "title": "Fluctuation X-ray scattering"
+          },
+          {
+            "pageid": 48400112,
+            "ns": 0,
+            "title": "Accretion disk"
+          },
+          {
+            "pageid": 53764217,
+            "ns": 0,
+            "title": "Three-dimensional X-ray diffraction"
+          },
+          {
+            "pageid": 53857907,
+            "ns": 0,
+            "title": "Operation of computed tomography"
+          },
+          {
+            "pageid": 54507206,
+            "ns": 0,
+            "title": "Dual photon"
+          },
+          {
+            "pageid": 66294087,
+            "ns": 0,
+            "title": "Furry's theorem"
+          },
+          {
+            "pageid": 73438573,
+            "ns": 0,
+            "title": "Dark-field X-ray microscopy"
+          }
+        ]
+      }
+    },
+    {
+      "batchcomplete": true,
+      "query": {
+        "redirects": [
+          {
+            "from": "Feynman diagrams",
+            "to": "Feynman diagram"
+          },
+          {
+            "from": "Bragg scattering",
+            "to": "Bragg's law"
+          },
+          {
+            "from": "Cosmic microwave background radiation",
+            "to": "Cosmic microwave background"
+          },
+          {
+            "from": "ArXiv (identifier)",
+            "to": "ArXiv"
+          }
+        ],
+        "pages": [
+          {
+            "pageid": 7376,
+            "ns": 0,
+            "title": "Cosmic microwave background"
+          },
+          {
+            "pageid": 7480,
+            "ns": 0,
+            "title": "Cross section (physics)"
+          },
+          {
+            "pageid": 7839,
+            "ns": 0,
+            "title": "Stellar corona"
+          },
+          {
+            "pageid": 11617,
+            "ns": 0,
+            "title": "Feynman diagram"
+          },
+          {
+            "pageid": 12366,
+            "ns": 0,
+            "title": "Graphite"
+          },
+          {
+            "pageid": 23535,
+            "ns": 0,
+            "title": "Photon"
+          },
+          {
+            "pageid": 23579,
+            "ns": 0,
+            "title": "Photoelectric effect"
+          },
+          {
+            "pageid": 24731,
+            "ns": 0,
+            "title": "Positron"
+          },
+          {
+            "pageid": 28736,
+            "ns": 0,
+            "title": "Speed of light"
+          },
+          {
+            "pageid": 33125,
+            "ns": 0,
+            "title": "Wavelength"
+          },
+          {
+            "pageid": 33516,
+            "ns": 0,
+            "title": "Wave"
+          },
+          {
+            "pageid": 34151,
+            "ns": 0,
+            "title": "X-ray crystallography"
+          },
+          {
+            "pageid": 34197,
+            "ns": 0,
+            "title": "X-ray"
+          },
+          {
+            "pageid": 36835,
+            "ns": 0,
+            "title": "Auger electron spectroscopy"
+          },
+          {
+            "pageid": 37067,
+            "ns": 0,
+            "title": "Peter Debye"
+          },
+          {
+            "pageid": 38751,
+            "ns": 0,
+            "title": "ArXiv"
+          },
+          {
+            "pageid": 41097,
+            "ns": 0,
+            "title": "Nuclear electromagnetic pulse"
+          },
+          {
+            "pageid": 46178,
+            "ns": 0,
+            "title": "SQUID"
+          },
+          {
+            "pageid": 58920,
+            "ns": 0,
+            "title": "Washington University in St. Louis"
+          },
+          {
+            "pageid": 65907,
+            "ns": 0,
+            "title": "Elastic collision"
+          },
+          {
+            "pageid": 70847,
+            "ns": 0,
+            "title": "X-ray photoelectron spectroscopy"
+          },
+          {
+            "pageid": 78738,
+            "ns": 0,
+            "title": "Hans Geiger"
+          },
+          {
+            "pageid": 222368,
+            "ns": 0,
+            "title": "American Physical Society"
+          },
+          {
+            "pageid": 352541,
+            "ns": 0,
+            "title": "Charged particle"
+          },
+          {
+            "pageid": 358425,
+            "ns": 0,
+            "title": "Walther Bothe"
+          },
+          {
+            "pageid": 361897,
+            "ns": 0,
+            "title": "Astrophysics"
+          },
+          {
+            "pageid": 421940,
+            "ns": 0,
+            "title": "Bragg's law"
+          },
+          {
+            "pageid": 624714,
+            "ns": 0,
+            "title": "Thomson scattering"
+          },
+          {
+            "pageid": 698711,
+            "ns": 0,
+            "title": "Landau pole"
+          },
+          {
+            "pageid": 1178383,
+            "ns": 0,
+            "title": "Wu Youxun"
+          },
+          {
+            "pageid": 1983173,
+            "ns": 0,
+            "title": "Siegbahn notation"
+          },
+          {
+            "pageid": 2745361,
+            "ns": 0,
+            "title": "X-ray absorption spectroscopy"
+          },
+          {
+            "pageid": 3736887,
+            "ns": 0,
+            "title": "Schwinger effect"
+          },
+          {
+            "pageid": 4055891,
+            "ns": 0,
+            "title": "High-energy X-rays"
+          },
+          {
+            "pageid": 4842312,
+            "ns": 0,
+            "title": "X-ray absorption near edge structure"
+          },
+          {
+            "pageid": 9463516,
+            "ns": 0,
+            "title": "Delbrück scattering"
+          },
+          {
+            "pageid": 9934503,
+            "ns": 0,
+            "title": "Radiation damage"
+          },
+          {
+            "pageid": 12235089,
+            "ns": 0,
+            "title": "Small-angle X-ray scattering"
+          },
+          {
+            "pageid": 15152001,
+            "ns": 0,
+            "title": "Anomalous X-ray scattering"
+          },
+          {
+            "pageid": 15354886,
+            "ns": 0,
+            "title": "Tomosynthesis"
+          },
+          {
+            "pageid": 18383939,
+            "ns": 0,
+            "title": "X-ray Raman scattering"
+          },
+          {
+            "pageid": 19397346,
+            "ns": 0,
+            "title": "Ptychography"
+          },
+          {
+            "pageid": 21787470,
+            "ns": 0,
+            "title": "Alpha particle"
+          },
+          {
+            "pageid": 24280199,
+            "ns": 0,
+            "title": "Metal L-edge"
+          },
+          {
+            "pageid": 24422329,
+            "ns": 0,
+            "title": "Diffraction tomography"
+          },
+          {
+            "pageid": 26418605,
+            "ns": 0,
+            "title": "X-ray lithography"
+          },
+          {
+            "pageid": 27806268,
+            "ns": 0,
+            "title": "Water window"
+          },
+          {
+            "pageid": 74714251,
+            "ns": 0,
+            "title": "X-ray diffraction computed tomography"
+          },
+          {
+            "pageid": 83531730,
+            "ns": 0,
+            "title": "Relativistic reflection"
+          }
+        ]
+      }
+    },
+    {
+      "batchcomplete": true,
+      "query": {
+        "redirects": [
+          {
+            "from": "ISBN (identifier)",
+            "to": "ISBN"
+          }
+        ],
+        "pages": [
+          {
+            "pageid": 4650,
+            "ns": 0,
+            "title": "Black hole"
+          },
+          {
+            "pageid": 14919,
+            "ns": 0,
+            "title": "ISBN"
+          },
+          {
+            "pageid": 17556,
+            "ns": 0,
+            "title": "Laser"
+          },
+          {
+            "pageid": 25202,
+            "ns": 0,
+            "title": "Quantum mechanics"
+          },
+          {
+            "pageid": 164483,
+            "ns": 0,
+            "title": "Scattering"
+          },
+          {
+            "pageid": 210960,
+            "ns": 0,
+            "title": "Recoil"
+          },
+          {
+            "pageid": 379507,
+            "ns": 0,
+            "title": "Synchrotron light source"
+          },
+          {
+            "pageid": 432000,
+            "ns": 0,
+            "title": "Arthur Compton"
+          },
+          {
+            "pageid": 649723,
+            "ns": 0,
+            "title": "Physical Review Letters"
+          },
+          {
+            "pageid": 945656,
+            "ns": 0,
+            "title": "Free-electron laser"
+          },
+          {
+            "pageid": 1231776,
+            "ns": 0,
+            "title": "Photoionization"
+          },
+          {
+            "pageid": 1394454,
+            "ns": 0,
+            "title": "Vertex function"
+          },
+          {
+            "pageid": 1454093,
+            "ns": 0,
+            "title": "Gupta–Bleuler formalism"
+          },
+          {
+            "pageid": 1744922,
+            "ns": 0,
+            "title": "Gamma spectroscopy"
+          },
+          {
+            "pageid": 1931736,
+            "ns": 0,
+            "title": "Self-energy"
+          },
+          {
+            "pageid": 2875647,
+            "ns": 0,
+            "title": "Energy–momentum relation"
+          },
+          {
+            "pageid": 8093356,
+            "ns": 0,
+            "title": "Compton edge"
+          },
+          {
+            "pageid": 19594213,
+            "ns": 0,
+            "title": "Planck constant"
+          },
+          {
+            "pageid": 19606838,
+            "ns": 0,
+            "title": "Grazing-incidence small-angle scattering"
+          },
+          {
+            "pageid": 32891045,
+            "ns": 0,
+            "title": "Euler–Heisenberg Lagrangian"
+          },
+          {
+            "pageid": 38308976,
+            "ns": 0,
+            "title": "Energy-dispersive X-ray diffraction"
+          },
+          {
+            "pageid": 52670479,
+            "ns": 0,
+            "title": "Uehling potential"
+          }
+        ]
+      }
+    }
+  ],
+  "redirect_cache": {
+    "Scalar product": {
+      "to": "Dot product",
+      "tofragment": ""
+    },
+    "Conservation of momentum": {
+      "to": "Momentum",
+      "tofragment": "Conservation"
+    },
+    "Arthur Holly Compton": {
+      "to": "Arthur Compton",
+      "tofragment": ""
+    },
+    "Compton suppression": {
+      "to": "Electronic anticoincidence",
+      "tofragment": "Compton suppression"
+    },
+    "X-ray radiography": {
+      "to": "Radiography",
+      "tofragment": ""
+    },
+    "PMID (identifier)": {
+      "to": "PubMed",
+      "tofragment": "PubMed identifier"
+    },
+    "ISSN (identifier)": {
+      "to": "ISSN",
+      "tofragment": ""
+    },
+    "S2CID (identifier)": {
+      "to": "Semantic Scholar",
+      "tofragment": "S2CID"
+    },
+    "Doi (identifier)": {
+      "to": "Digital object identifier",
+      "tofragment": ""
+    },
+    "Bibcode (identifier)": {
+      "to": "Bibcode",
+      "tofragment": ""
+    },
+    "Soft x-ray microscopy": {
+      "to": "Soft X-ray microscopy",
+      "tofragment": ""
+    },
+    "Path integral formulation": {
+      "to": "Path-integral formulation",
+      "tofragment": ""
+    },
+    "X-ray fluorescence holography": {
+      "to": "X-ray fluorescence holography",
+      "tofragment": ""
+    },
+    "Coherence (physics)": {
+      "to": "Coherence (physics)",
+      "tofragment": ""
+    },
+    "Extended X-ray absorption fine structure": {
+      "to": "Extended X-ray absorption fine structure",
+      "tofragment": ""
+    },
+    "Resonant inelastic X-ray scattering": {
+      "to": "Resonant inelastic X-ray scattering",
+      "tofragment": ""
+    },
+    "Energy": {
+      "to": "Energy",
+      "tofragment": ""
+    },
+    "Classical electromagnetism": {
+      "to": "Classical electromagnetism",
+      "tofragment": ""
+    },
+    "Density functional theory": {
+      "to": "Density functional theory",
+      "tofragment": ""
+    },
+    "BKS theory": {
+      "to": "BKS theory",
+      "tofragment": ""
+    },
+    "Galaxy cluster": {
+      "to": "Galaxy cluster",
+      "tofragment": ""
+    },
+    "Panoramic radiograph": {
+      "to": "Panoramic radiograph",
+      "tofragment": ""
+    },
+    "Schwinger limit": {
+      "to": "Schwinger limit",
+      "tofragment": ""
+    },
+    "Conservation of energy": {
+      "to": "Conservation of energy",
+      "tofragment": ""
+    },
+    "Scanning transmission X-ray microscopy": {
+      "to": "Scanning transmission X-ray microscopy",
+      "tofragment": ""
+    },
+    "Møller scattering": {
+      "to": "Møller scattering",
+      "tofragment": ""
+    },
+    "Moseley's law": {
+      "to": "Moseley's law",
+      "tofragment": ""
+    },
+    "Electron": {
+      "to": "Electron",
+      "tofragment": ""
+    },
+    "X-ray astronomy": {
+      "to": "X-ray astronomy",
+      "tofragment": ""
+    },
+    "K-edge": {
+      "to": "K-edge",
+      "tofragment": ""
+    },
+    "Backscatter X-ray": {
+      "to": "Backscatter X-ray",
+      "tofragment": ""
+    },
+    "Quantum electrodynamics": {
+      "to": "Quantum electrodynamics",
+      "tofragment": ""
+    },
+    "Special relativity": {
+      "to": "Special relativity",
+      "tofragment": ""
+    },
+    "Klein–Nishina formula": {
+      "to": "Klein–Nishina formula",
+      "tofragment": ""
+    },
+    "Prentice Hall": {
+      "to": "Prentice Hall",
+      "tofragment": ""
+    },
+    "Albert Einstein": {
+      "to": "Albert Einstein",
+      "tofragment": ""
+    },
+    "Characteristic X-ray": {
+      "to": "Characteristic X-ray",
+      "tofragment": ""
+    },
+    "Auger effect": {
+      "to": "Auger effect",
+      "tofragment": ""
+    },
+    "Radiobiology": {
+      "to": "Radiobiology",
+      "tofragment": ""
+    },
+    "Virtual particle": {
+      "to": "Virtual particle",
+      "tofragment": ""
+    },
+    "Absorption edge": {
+      "to": "Absorption edge",
+      "tofragment": ""
+    },
+    "Momentum": {
+      "to": "Momentum",
+      "tofragment": ""
+    },
+    "Breit–Wheeler process": {
+      "to": "Breit–Wheeler process",
+      "tofragment": ""
+    },
+    "Compton Gamma Ray Observatory": {
+      "to": "Compton Gamma Ray Observatory",
+      "tofragment": ""
+    },
+    "Synchrotron radiation": {
+      "to": "Synchrotron radiation",
+      "tofragment": ""
+    },
+    "Bhabha scattering": {
+      "to": "Bhabha scattering",
+      "tofragment": ""
+    },
+    "QED vacuum": {
+      "to": "QED vacuum",
+      "tofragment": ""
+    },
+    "Radiation therapy": {
+      "to": "Radiation therapy",
+      "tofragment": ""
+    },
+    "Non-linear inverse Compton scattering": {
+      "to": "Non-linear inverse Compton scattering",
+      "tofragment": ""
+    },
+    "Compton wavelength": {
+      "to": "Compton wavelength",
+      "tofragment": ""
+    },
+    "Visible light": {
+      "to": "Light",
+      "tofragment": ""
+    },
+    "Electromagnetic wave": {
+      "to": "Electromagnetic radiation",
+      "tofragment": ""
+    },
+    "Timeline of cosmic microwave background astronomy": {
+      "to": "Cosmic microwave background",
+      "tofragment": "Timeline of prediction, discovery and interpretation"
+    },
+    "Helical CT": {
+      "to": "Operation of computed tomography",
+      "tofragment": "Spiral"
+    },
+    "OUP Oxford": {
+      "to": "Oxford University Press",
+      "tofragment": ""
+    },
+    "Sunyaev–Zel'dovich effect": {
+      "to": "Sunyaev–Zeldovich effect",
+      "tofragment": ""
+    },
+    "X-Ray Fluorescence Imaging": {
+      "to": "Confocal microscopy",
+      "tofragment": "Techniques used for horizontal scanning"
+    },
+    "Pair production": {
+      "to": "Pair production",
+      "tofragment": ""
+    },
+    "Furry's theorem": {
+      "to": "Furry's theorem",
+      "tofragment": ""
+    },
+    "Electron mass": {
+      "to": "Electron mass",
+      "tofragment": ""
+    },
+    "Anomalous magnetic dipole moment": {
+      "to": "Anomalous magnetic dipole moment",
+      "tofragment": ""
+    },
+    "Synchrotron": {
+      "to": "Synchrotron",
+      "tofragment": ""
+    },
+    "Rayleigh scattering": {
+      "to": "Rayleigh scattering",
+      "tofragment": ""
+    },
+    "Coherent diffraction imaging": {
+      "to": "Coherent diffraction imaging",
+      "tofragment": ""
+    },
+    "Three-dimensional X-ray diffraction": {
+      "to": "Three-dimensional X-ray diffraction",
+      "tofragment": ""
+    },
+    "Nobel Prize in Physics": {
+      "to": "Nobel Prize in Physics",
+      "tofragment": ""
+    },
+    "X-ray reflectivity": {
+      "to": "X-ray reflectivity",
+      "tofragment": ""
+    },
+    "Energy-dispersive X-ray spectroscopy": {
+      "to": "Energy-dispersive X-ray spectroscopy",
+      "tofragment": ""
+    },
+    "Radiation pressure": {
+      "to": "Radiation pressure",
+      "tofragment": ""
+    },
+    "Accretion disk": {
+      "to": "Accretion disk",
+      "tofragment": ""
+    },
+    "Physical Review": {
+      "to": "Physical Review",
+      "tofragment": ""
+    },
+    "X-ray diffraction": {
+      "to": "X-ray diffraction",
+      "tofragment": ""
+    },
+    "Dual photon": {
+      "to": "Dual photon",
+      "tofragment": ""
+    },
+    "Inelastic collision": {
+      "to": "Inelastic collision",
+      "tofragment": ""
+    },
+    "Faddeev–Popov ghost": {
+      "to": "Faddeev–Popov ghost",
+      "tofragment": ""
+    },
+    "CT scan": {
+      "to": "CT scan",
+      "tofragment": ""
+    },
+    "Positronium": {
+      "to": "Positronium",
+      "tofragment": ""
+    },
+    "Betatron": {
+      "to": "Betatron",
+      "tofragment": ""
+    },
+    "Angle-resolved photoemission spectroscopy": {
+      "to": "Angle-resolved photoemission spectroscopy",
+      "tofragment": ""
+    },
+    "Wayback Machine": {
+      "to": "Wayback Machine",
+      "tofragment": ""
+    },
+    "Lamb shift": {
+      "to": "Lamb shift",
+      "tofragment": ""
+    },
+    "Bremsstrahlung": {
+      "to": "Bremsstrahlung",
+      "tofragment": ""
+    },
+    "Two-photon physics": {
+      "to": "Two-photon physics",
+      "tofragment": ""
+    },
+    "Vacuum polarization": {
+      "to": "Vacuum polarization",
+      "tofragment": ""
+    },
+    "X-ray telescope": {
+      "to": "X-ray telescope",
+      "tofragment": ""
+    },
+    "Photodisintegration": {
+      "to": "Photodisintegration",
+      "tofragment": ""
+    },
+    "Phase-contrast X-ray imaging": {
+      "to": "Phase-contrast X-ray imaging",
+      "tofragment": ""
+    },
+    "Fluctuation X-ray scattering": {
+      "to": "Fluctuation X-ray scattering",
+      "tofragment": ""
+    },
+    "Dark-field X-ray microscopy": {
+      "to": "Dark-field X-ray microscopy",
+      "tofragment": ""
+    },
+    "Wide-angle X-ray scattering": {
+      "to": "Wide-angle X-ray scattering",
+      "tofragment": ""
+    },
+    "Photofission": {
+      "to": "Photofission",
+      "tofragment": ""
+    },
+    "Nuclear reaction": {
+      "to": "Nuclear reaction",
+      "tofragment": ""
+    },
+    "Inelastic scattering": {
+      "to": "Inelastic scattering",
+      "tofragment": ""
+    },
+    "X-ray tube": {
+      "to": "X-ray tube",
+      "tofragment": ""
+    },
+    "Ward–Takahashi identity": {
+      "to": "Ward–Takahashi identity",
+      "tofragment": ""
+    },
+    "Dual-energy X-ray absorptiometry": {
+      "to": "Dual-energy X-ray absorptiometry",
+      "tofragment": ""
+    },
+    "X-ray scattering techniques": {
+      "to": "X-ray scattering techniques",
+      "tofragment": ""
+    },
+    "History of X-ray astronomy": {
+      "to": "History of X-ray astronomy",
+      "tofragment": ""
+    },
+    "X-ray fluorescence": {
+      "to": "X-ray fluorescence",
+      "tofragment": ""
+    },
+    "Valence electron": {
+      "to": "Valence electron",
+      "tofragment": ""
+    },
+    "Feynman diagrams": {
+      "to": "Feynman diagram",
+      "tofragment": ""
+    },
+    "Bragg scattering": {
+      "to": "Bragg's law",
+      "tofragment": ""
+    },
+    "Cosmic microwave background radiation": {
+      "to": "Cosmic microwave background",
+      "tofragment": ""
+    },
+    "ArXiv (identifier)": {
+      "to": "ArXiv",
+      "tofragment": ""
+    },
+    "X-ray absorption near edge structure": {
+      "to": "X-ray absorption near edge structure",
+      "tofragment": ""
+    },
+    "Speed of light": {
+      "to": "Speed of light",
+      "tofragment": ""
+    },
+    "Metal L-edge": {
+      "to": "Metal L-edge",
+      "tofragment": ""
+    },
+    "Ptychography": {
+      "to": "Ptychography",
+      "tofragment": ""
+    },
+    "Auger electron spectroscopy": {
+      "to": "Auger electron spectroscopy",
+      "tofragment": ""
+    },
+    "Wavelength": {
+      "to": "Wavelength",
+      "tofragment": ""
+    },
+    "Photoelectric effect": {
+      "to": "Photoelectric effect",
+      "tofragment": ""
+    },
+    "High-energy X-rays": {
+      "to": "High-energy X-rays",
+      "tofragment": ""
+    },
+    "Wave": {
+      "to": "Wave",
+      "tofragment": ""
+    },
+    "Diffraction tomography": {
+      "to": "Diffraction tomography",
+      "tofragment": ""
+    },
+    "Schwinger effect": {
+      "to": "Schwinger effect",
+      "tofragment": ""
+    },
+    "Alpha particle": {
+      "to": "Alpha particle",
+      "tofragment": ""
+    },
+    "Relativistic reflection": {
+      "to": "Relativistic reflection",
+      "tofragment": ""
+    },
+    "Delbrück scattering": {
+      "to": "Delbrück scattering",
+      "tofragment": ""
+    },
+    "Cross section (physics)": {
+      "to": "Cross section (physics)",
+      "tofragment": ""
+    },
+    "X-ray photoelectron spectroscopy": {
+      "to": "X-ray photoelectron spectroscopy",
+      "tofragment": ""
+    },
+    "Washington University in St. Louis": {
+      "to": "Washington University in St. Louis",
+      "tofragment": ""
+    },
+    "Water window": {
+      "to": "Water window",
+      "tofragment": ""
+    },
+    "Charged particle": {
+      "to": "Charged particle",
+      "tofragment": ""
+    },
+    "Thomson scattering": {
+      "to": "Thomson scattering",
+      "tofragment": ""
+    },
+    "Graphite": {
+      "to": "Graphite",
+      "tofragment": ""
+    },
+    "Small-angle X-ray scattering": {
+      "to": "Small-angle X-ray scattering",
+      "tofragment": ""
+    },
+    "Tomosynthesis": {
+      "to": "Tomosynthesis",
+      "tofragment": ""
+    },
+    "X-ray Raman scattering": {
+      "to": "X-ray Raman scattering",
+      "tofragment": ""
+    },
+    "Peter Debye": {
+      "to": "Peter Debye",
+      "tofragment": ""
+    },
+    "Hans Geiger": {
+      "to": "Hans Geiger",
+      "tofragment": ""
+    },
+    "X-ray": {
+      "to": "X-ray",
+      "tofragment": ""
+    },
+    "X-ray absorption spectroscopy": {
+      "to": "X-ray absorption spectroscopy",
+      "tofragment": ""
+    },
+    "American Physical Society": {
+      "to": "American Physical Society",
+      "tofragment": ""
+    },
+    "Positron": {
+      "to": "Positron",
+      "tofragment": ""
+    },
+    "Radiation damage": {
+      "to": "Radiation damage",
+      "tofragment": ""
+    },
+    "Anomalous X-ray scattering": {
+      "to": "Anomalous X-ray scattering",
+      "tofragment": ""
+    },
+    "Walther Bothe": {
+      "to": "Walther Bothe",
+      "tofragment": ""
+    },
+    "X-ray diffraction computed tomography": {
+      "to": "X-ray diffraction computed tomography",
+      "tofragment": ""
+    },
+    "Stellar corona": {
+      "to": "Stellar corona",
+      "tofragment": ""
+    },
+    "X-ray crystallography": {
+      "to": "X-ray crystallography",
+      "tofragment": ""
+    },
+    "Astrophysics": {
+      "to": "Astrophysics",
+      "tofragment": ""
+    },
+    "X-ray lithography": {
+      "to": "X-ray lithography",
+      "tofragment": ""
+    },
+    "SQUID": {
+      "to": "SQUID",
+      "tofragment": ""
+    },
+    "Photon": {
+      "to": "Photon",
+      "tofragment": ""
+    },
+    "Landau pole": {
+      "to": "Landau pole",
+      "tofragment": ""
+    },
+    "Siegbahn notation": {
+      "to": "Siegbahn notation",
+      "tofragment": ""
+    },
+    "Nuclear electromagnetic pulse": {
+      "to": "Nuclear electromagnetic pulse",
+      "tofragment": ""
+    },
+    "Wu Youxun": {
+      "to": "Wu Youxun",
+      "tofragment": ""
+    },
+    "Elastic collision": {
+      "to": "Elastic collision",
+      "tofragment": ""
+    },
+    "Feynman diagram": {
+      "to": "Feynman diagram",
+      "tofragment": ""
+    },
+    "ISBN (identifier)": {
+      "to": "ISBN",
+      "tofragment": ""
+    },
+    "Self-energy": {
+      "to": "Self-energy",
+      "tofragment": ""
+    },
+    "Euler–Heisenberg Lagrangian": {
+      "to": "Euler–Heisenberg Lagrangian",
+      "tofragment": ""
+    },
+    "Energy-dispersive X-ray diffraction": {
+      "to": "Energy-dispersive X-ray diffraction",
+      "tofragment": ""
+    },
+    "Vertex function": {
+      "to": "Vertex function",
+      "tofragment": ""
+    },
+    "Energy–momentum relation": {
+      "to": "Energy–momentum relation",
+      "tofragment": ""
+    },
+    "Grazing-incidence small-angle scattering": {
+      "to": "Grazing-incidence small-angle scattering",
+      "tofragment": ""
+    },
+    "Black hole": {
+      "to": "Black hole",
+      "tofragment": ""
+    },
+    "Arthur Compton": {
+      "to": "Arthur Compton",
+      "tofragment": ""
+    },
+    "Synchrotron light source": {
+      "to": "Synchrotron light source",
+      "tofragment": ""
+    },
+    "Compton edge": {
+      "to": "Compton edge",
+      "tofragment": ""
+    },
+    "Scattering": {
+      "to": "Scattering",
+      "tofragment": ""
+    },
+    "Gamma spectroscopy": {
+      "to": "Gamma spectroscopy",
+      "tofragment": ""
+    },
+    "Quantum mechanics": {
+      "to": "Quantum mechanics",
+      "tofragment": ""
+    },
+    "Photoionization": {
+      "to": "Photoionization",
+      "tofragment": ""
+    },
+    "Recoil": {
+      "to": "Recoil",
+      "tofragment": ""
+    },
+    "Free-electron laser": {
+      "to": "Free-electron laser",
+      "tofragment": ""
+    },
+    "Uehling potential": {
+      "to": "Uehling potential",
+      "tofragment": ""
+    },
+    "Planck constant": {
+      "to": "Planck constant",
+      "tofragment": ""
+    },
+    "Gupta–Bleuler formalism": {
+      "to": "Gupta–Bleuler formalism",
+      "tofragment": ""
+    },
+    "Laser": {
+      "to": "Laser",
+      "tofragment": ""
+    },
+    "Physical Review Letters": {
+      "to": "Physical Review Letters",
+      "tofragment": ""
+    }
+  },
+  "image_metadata": {
+    "File:Compton-en.svg": "コンプトンの実験図",
+    "File:Compton-scattering.svg": "A diagram of a photon hitting a target and bouncing off.",
+    "File:ComptonEnergy-en.svg": "Energies of a photon at 500 keV and an electron after Compton scattering.",
+    "File:ComptonScattering-s.svg": "Aen:Feynman diagramof as-channelen:Compton scatteringprocess.",
+    "File:ComptonScattering-u.svg": "Aen:Feynman diagramof au-channelen:Compton scatteringprocess.",
+    "File:Crab Nebula.jpg": "This is a mosaic image, one of the largest ever taken by NASA's Hubble Space Telescope, of theCrab Nebula, a six-light-year-wide expanding remnant of a star's supernova explosion. Japanese and Chinese astronomers recorded this violent event in 1054 CE.The orange filaments are the tattered remains of the star and consist mostly of hydrogen. The rapidly spinning neutron star embedded in the center of the nebula is the dynamo powering the nebula's eerie interior bluish glow. The blue light comes from electrons whirling at nearly the speed of light around magnetic field lines from the neutron star. The neutron star, like a lighthouse, ejects twin beams of radiation that appear to pulse 30 times a second due to the neutron star's rotation. A neutron star is the crushed ultra-dense core of the exploded star.The Crab Nebula derived its name from its appearance in a drawing made by Irish astronomer Lord Rosse in 1844, using a 36-inch telescope. When viewed by Hubble, as well as by large ground-based telescopes such as the European Southern Observatory's Very Large Telescope, the Crab Nebula takes on a more detailed appearance that yields clues into the spectacular demise of a star, 6,500 light-years away.The newly composed image was assembled from 24 individual Wide Field and Planetary Camera 2 exposures taken in October 1999, January 2000, and December 2000. The colors in the image indicate the different elements that were expelled during the explosion. Blue in the filaments in the outer part of the nebula represents neutral oxygen, green is singly-ionized sulfur, and red indicates doubly-ionized oxygen.",
+    "File:Dominant Photon-Matter Interaction.svg": "Plot showing the relative importance of the photoelectric effect, Compton scattering and pair production with different Z and mean photon energy. Data taken from theNIST XCOM database. For any given element (atomic number Z) a star is added at the energy where the cross section value for the process on the right becomes larger than the cross section value for the process on the left. For calcium (Z=20), Compton scattering starts to dominate athυ=0.08 MeV and ceases at 12 MeV.",
+    "File:Earth-moon.jpg": "This view of the rising Earth greeted the Apollo 8 astronauts as they came from behind the Moon after the fourth nearside orbit. Earth is about five degrees above the horizon in the photo. The unnamed surface features in the foreground are near the eastern limb of the Moon as viewed from Earth. The lunar horizon is approximately 780 kilometers from the spacecraft. Width of the photographed area at the horizon is about 175 kilometers. On the Earth 240,000 miles away, the sunset terminator bisects Africa.",
+    "File:He1523a.jpg": "Artist's impression of \"the oldest star of our Galaxy\":HE 1523-0901About 13.2 billion years oldApproximately 7500 light years far from EarthPublished as part ofHamburg/ESO Surveyin the May 10 2007 issue of The Astrophysical Journal",
+    "File:Light-matter interaction - schematic.svg": "Light-matter interaction diagrams.",
+    "File:RocketSunIcon.svg": "SVG replacement forFile:Spaceship and the Sun.jpg. A stylized illustration of a spaceship and the sun, based on the description of the emblem of the fictional Galactic Empire in Isaac Asimov'sFoundationseries (\"The golden globe with its conventionalized rays, and the oblique cigar shape that was a space vessel\"). This image could be used as a icon for science-fiction related articles.",
+    "File:Solar system.jpg": "This is  a montage of planetary images taken by spacecraft managed by the Jet Propulsion Laboratory in Pasadena, CA. Included are (from top to bottom) images of Mercury, Venus, Earth (and Moon), Mars, Jupiter, Saturn, Uranus and Neptune. The spacecraft responsible for these images are as follows:the Mercury image was taken by Mariner 10,the Venus image by Magellan,the Earth and Moon images by Galileo,the Mars image by Mars Global Surveyor,the Jupiter image by Cassini, andthe Saturn, Uranus and Neptune images by Voyager.Pluto is not shown as it is no longer a planet, and no spacecraft has yet visited it when this montage was taken. The inner planets (Mercury, Venus, Earth, Moon, and Mars) are roughly to scale to each other; the outer planets (Jupiter, Saturn, Uranus, and Neptune) are roughly to scale to each other. PIA 00545 is the same montage with Neptune shown larger in the foreground. Actual diameters are given below:Sun(tophotosphere) 1,392,684 kmMercury4,879.4 kmVenus12,103.7 kmEarth12,756.28 kmMoon3,476.2 kmMars6,804.9 kmJupiter142,984 kmSaturn120,536 kmUranus51,118 kmNeptune49,528 km",
+    "File:Stylised atom with three Bohr model orbits and stylised nucleus.svg": "Stylised atom. Blue dots are electrons, red dots are protons and black dots are neutrons.",
+    "File:Symbol template class pink.svg": "The pink version ofSymbol template class.svg, from English Wikipedia. To be used as an alternative to the above file."
+  },
+  "name_map_overrides": {}
+}

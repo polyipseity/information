@@ -1,0 +1,1026 @@
+{
+  "api_titles": [
+    "Nat (unit)",
+    "Probability amplitude",
+    "Expectation value",
+    "Excited state",
+    "Particle in a ring",
+    "Energy eigenstate",
+    "Imaginary unit",
+    "Heisenberg uncertainty principle",
+    "Semiconductors",
+    "Quantization (physics)",
+    "Even and odd functions",
+    "Mass",
+    "Quantum mechanics",
+    "PMC (identifier)",
+    "Quantum well",
+    "Kronig–Penney model",
+    "Emission spectrum",
+    "Standard deviation",
+    "Angular frequency",
+    "Quantum well laser",
+    "Finite potential well",
+    "Optoelectronics",
+    "Degenerate energy level",
+    "Electron",
+    "Reduced Planck constant",
+    "Wave packet",
+    "Delta function potential",
+    "Euler-Mascheroni constant",
+    "Wavefunction",
+    "Schrödinger equation",
+    "Quantum well infrared photodetector",
+    "Free particle",
+    "Energy level",
+    "Quantum confinement",
+    "Electron hole",
+    "S2CID (identifier)",
+    "History of quantum mechanics",
+    "Svetlana Kotochigova",
+    "Solar cells",
+    "Classical mechanics",
+    "Complex number",
+    "ISBN (identifier)",
+    "Β-carotene",
+    "Uncertainty principle",
+    "Double bond",
+    "Wavevector",
+    "Kinetic energy",
+    "Gas in a box",
+    "Bibcode (identifier)",
+    "Bloch's theorem",
+    "Integer",
+    "Absolute value",
+    "Speed of light",
+    "Band gap",
+    "Entropy (information)",
+    "Quantum harmonic oscillator",
+    "Force",
+    "Classical physics",
+    "Potential energy",
+    "LED",
+    "Wavenumber",
+    "Newton's laws",
+    "Dynamical billiards",
+    "Valence and conduction bands",
+    "Relativistic wave equations",
+    "Sinc function",
+    "Semicircle potential well",
+    "Transistor",
+    "Electric potential",
+    "Amplitude",
+    "Quantum-confined Stark effect",
+    "Hdl (identifier)",
+    "PMID (identifier)",
+    "Planck constant",
+    "Conjugated system",
+    "Quantum dot",
+    "Doi (identifier)",
+    "Dispersion relation",
+    "Helmholtz equation",
+    "Rectangular potential barrier",
+    "Carbon",
+    "ISSN (identifier)",
+    "Quantum chaos",
+    "Particle in a spherically symmetric potential",
+    "Zero-point energy",
+    "Fourier transform",
+    "Wave function",
+    "Configuration integral",
+    "Matter wave"
+  ],
+  "api_responses": [
+    {
+      "batchcomplete": true,
+      "query": {
+        "redirects": [
+          {
+            "from": "Semiconductors",
+            "to": "Semiconductor"
+          },
+          {
+            "from": "Heisenberg uncertainty principle",
+            "to": "Uncertainty principle"
+          },
+          {
+            "from": "Reduced Planck constant",
+            "to": "Planck constant",
+            "tofragment": "Reduced Planck constant"
+          },
+          {
+            "from": "Expectation value",
+            "to": "Expected value"
+          },
+          {
+            "from": "Solar cells",
+            "to": "Solar cell"
+          },
+          {
+            "from": "Quantum confinement",
+            "to": "Potential well"
+          },
+          {
+            "from": "Wavevector",
+            "to": "Wave vector"
+          },
+          {
+            "from": "Delta function potential",
+            "to": "Delta potential"
+          },
+          {
+            "from": "Wavefunction",
+            "to": "Wave function"
+          },
+          {
+            "from": "Energy eigenstate",
+            "to": "Stationary state"
+          },
+          {
+            "from": "Euler-Mascheroni constant",
+            "to": "Euler's constant"
+          },
+          {
+            "from": "Β-carotene",
+            "to": "Β-Carotene"
+          },
+          {
+            "from": "Kronig–Penney model",
+            "to": "Particle in a one-dimensional lattice",
+            "tofragment": "Kronig–Penney model"
+          },
+          {
+            "from": "Degenerate energy level",
+            "to": "Degenerate energy levels"
+          },
+          {
+            "from": "ISBN (identifier)",
+            "to": "ISBN"
+          },
+          {
+            "from": "S2CID (identifier)",
+            "to": "Semantic Scholar",
+            "tofragment": "S2CID"
+          },
+          {
+            "from": "PMC (identifier)",
+            "to": "PubMed Central",
+            "tofragment": "PMCID"
+          },
+          {
+            "from": "Bibcode (identifier)",
+            "to": "Bibcode"
+          }
+        ],
+        "pages": [
+          {
+            "pageid": 5826,
+            "ns": 0,
+            "title": "Complex number"
+          },
+          {
+            "pageid": 9476,
+            "ns": 0,
+            "title": "Electron"
+          },
+          {
+            "pageid": 9653,
+            "ns": 0,
+            "title": "Expected value"
+          },
+          {
+            "pageid": 14919,
+            "ns": 0,
+            "title": "ISBN"
+          },
+          {
+            "pageid": 17327,
+            "ns": 0,
+            "title": "Kinetic energy"
+          },
+          {
+            "pageid": 19048,
+            "ns": 0,
+            "title": "Mass"
+          },
+          {
+            "pageid": 25182,
+            "ns": 0,
+            "title": "Quantization (physics)"
+          },
+          {
+            "pageid": 25202,
+            "ns": 0,
+            "title": "Quantum mechanics"
+          },
+          {
+            "pageid": 27590,
+            "ns": 0,
+            "title": "Standard deviation"
+          },
+          {
+            "pageid": 27709,
+            "ns": 0,
+            "title": "Semiconductor"
+          },
+          {
+            "pageid": 31883,
+            "ns": 0,
+            "title": "Uncertainty principle"
+          },
+          {
+            "pageid": 52358,
+            "ns": 0,
+            "title": "Imaginary unit"
+          },
+          {
+            "pageid": 59444,
+            "ns": 0,
+            "title": "Energy level"
+          },
+          {
+            "pageid": 59874,
+            "ns": 0,
+            "title": "Schrödinger equation"
+          },
+          {
+            "pageid": 132883,
+            "ns": 0,
+            "title": "Optoelectronics"
+          },
+          {
+            "pageid": 142534,
+            "ns": 0,
+            "title": "Electron hole"
+          },
+          {
+            "pageid": 145343,
+            "ns": 0,
+            "title": "Wave function"
+          },
+          {
+            "pageid": 148594,
+            "ns": 0,
+            "title": "Euler's constant"
+          },
+          {
+            "pageid": 199829,
+            "ns": 0,
+            "title": "Angular frequency"
+          },
+          {
+            "pageid": 254127,
+            "ns": 0,
+            "title": "Double bond"
+          },
+          {
+            "pageid": 292420,
+            "ns": 0,
+            "title": "Emission spectrum"
+          },
+          {
+            "pageid": 357657,
+            "ns": 0,
+            "title": "Bloch's theorem"
+          },
+          {
+            "pageid": 429425,
+            "ns": 0,
+            "title": "Probability amplitude"
+          },
+          {
+            "pageid": 452667,
+            "ns": 0,
+            "title": "Wave packet"
+          },
+          {
+            "pageid": 462138,
+            "ns": 0,
+            "title": "Particle in a one-dimensional lattice"
+          },
+          {
+            "pageid": 474781,
+            "ns": 0,
+            "title": "Particle in a ring"
+          },
+          {
+            "pageid": 516680,
+            "ns": 0,
+            "title": "Excited state"
+          },
+          {
+            "pageid": 579219,
+            "ns": 0,
+            "title": "Β-Carotene"
+          },
+          {
+            "pageid": 592151,
+            "ns": 0,
+            "title": "Even and odd functions"
+          },
+          {
+            "pageid": 612057,
+            "ns": 0,
+            "title": "Potential well"
+          },
+          {
+            "pageid": 642886,
+            "ns": 0,
+            "title": "Quantum well"
+          },
+          {
+            "pageid": 686036,
+            "ns": 0,
+            "title": "Wave vector"
+          },
+          {
+            "pageid": 1297539,
+            "ns": 0,
+            "title": "Free particle"
+          },
+          {
+            "pageid": 1389316,
+            "ns": 0,
+            "title": "Gas in a box"
+          },
+          {
+            "pageid": 2292483,
+            "ns": 0,
+            "title": "Degenerate energy levels"
+          },
+          {
+            "pageid": 2352910,
+            "ns": 0,
+            "title": "Solar cell"
+          },
+          {
+            "pageid": 2775325,
+            "ns": 0,
+            "title": "PubMed Central"
+          },
+          {
+            "pageid": 3024615,
+            "ns": 0,
+            "title": "Finite potential well"
+          },
+          {
+            "pageid": 3070481,
+            "ns": 0,
+            "title": "Nat (unit)"
+          },
+          {
+            "pageid": 4930033,
+            "ns": 0,
+            "title": "Stationary state"
+          },
+          {
+            "pageid": 6308405,
+            "ns": 0,
+            "title": "Delta potential"
+          },
+          {
+            "pageid": 9067941,
+            "ns": 0,
+            "title": "History of quantum mechanics"
+          },
+          {
+            "pageid": 14092434,
+            "ns": 0,
+            "title": "Bibcode"
+          },
+          {
+            "pageid": 15867941,
+            "ns": 0,
+            "title": "Quantum well laser"
+          },
+          {
+            "pageid": 19555586,
+            "ns": 0,
+            "title": "Classical mechanics"
+          },
+          {
+            "pageid": 19594213,
+            "ns": 0,
+            "title": "Planck constant"
+          },
+          {
+            "pageid": 25596231,
+            "ns": 0,
+            "title": "Quantum well infrared photodetector"
+          },
+          {
+            "pageid": 48455863,
+            "ns": 0,
+            "title": "Semantic Scholar"
+          },
+          {
+            "pageid": 72789620,
+            "ns": 0,
+            "title": "Svetlana Kotochigova"
+          }
+        ]
+      }
+    },
+    {
+      "batchcomplete": true,
+      "query": {
+        "redirects": [
+          {
+            "from": "Newton's laws",
+            "to": "Newton's laws of motion"
+          },
+          {
+            "from": "Entropy (information)",
+            "to": "Entropy (information theory)"
+          },
+          {
+            "from": "Semicircle potential well",
+            "to": "Semicircular potential well"
+          },
+          {
+            "from": "Configuration integral",
+            "to": "Partition function (statistical mechanics)"
+          },
+          {
+            "from": "LED",
+            "to": "Light-emitting diode"
+          },
+          {
+            "from": "PMID (identifier)",
+            "to": "PubMed",
+            "tofragment": "PubMed identifier"
+          },
+          {
+            "from": "ISSN (identifier)",
+            "to": "ISSN"
+          },
+          {
+            "from": "Doi (identifier)",
+            "to": "Digital object identifier"
+          },
+          {
+            "from": "Hdl (identifier)",
+            "to": "Handle System"
+          }
+        ],
+        "pages": [
+          {
+            "pageid": 991,
+            "ns": 0,
+            "title": "Absolute value"
+          },
+          {
+            "pageid": 5299,
+            "ns": 0,
+            "title": "Carbon"
+          },
+          {
+            "pageid": 10902,
+            "ns": 0,
+            "title": "Force"
+          },
+          {
+            "pageid": 14563,
+            "ns": 0,
+            "title": "Integer"
+          },
+          {
+            "pageid": 15445,
+            "ns": 0,
+            "title": "Entropy (information theory)"
+          },
+          {
+            "pageid": 18290,
+            "ns": 0,
+            "title": "Light-emitting diode"
+          },
+          {
+            "pageid": 23703,
+            "ns": 0,
+            "title": "Potential energy"
+          },
+          {
+            "pageid": 28736,
+            "ns": 0,
+            "title": "Speed of light"
+          },
+          {
+            "pageid": 30011,
+            "ns": 0,
+            "title": "Transistor"
+          },
+          {
+            "pageid": 37649,
+            "ns": 0,
+            "title": "Amplitude"
+          },
+          {
+            "pageid": 50719,
+            "ns": 0,
+            "title": "Quantum harmonic oscillator"
+          },
+          {
+            "pageid": 52247,
+            "ns": 0,
+            "title": "Fourier transform"
+          },
+          {
+            "pageid": 55212,
+            "ns": 0,
+            "title": "Newton's laws of motion"
+          },
+          {
+            "pageid": 59615,
+            "ns": 0,
+            "title": "Electric potential"
+          },
+          {
+            "pageid": 84400,
+            "ns": 0,
+            "title": "Zero-point energy"
+          },
+          {
+            "pageid": 118396,
+            "ns": 0,
+            "title": "Band gap"
+          },
+          {
+            "pageid": 145343,
+            "ns": 0,
+            "title": "Wave function"
+          },
+          {
+            "pageid": 151066,
+            "ns": 0,
+            "title": "Classical physics"
+          },
+          {
+            "pageid": 164570,
+            "ns": 0,
+            "title": "Wavenumber"
+          },
+          {
+            "pageid": 229104,
+            "ns": 0,
+            "title": "Matter wave"
+          },
+          {
+            "pageid": 234930,
+            "ns": 0,
+            "title": "ISSN"
+          },
+          {
+            "pageid": 237636,
+            "ns": 0,
+            "title": "Conjugated system"
+          },
+          {
+            "pageid": 312252,
+            "ns": 0,
+            "title": "Partition function (statistical mechanics)"
+          },
+          {
+            "pageid": 313779,
+            "ns": 0,
+            "title": "Quantum chaos"
+          },
+          {
+            "pageid": 422994,
+            "ns": 0,
+            "title": "Digital object identifier"
+          },
+          {
+            "pageid": 442505,
+            "ns": 0,
+            "title": "Particle in a spherically symmetric potential"
+          },
+          {
+            "pageid": 503009,
+            "ns": 0,
+            "title": "PubMed"
+          },
+          {
+            "pageid": 511547,
+            "ns": 0,
+            "title": "Quantum dot"
+          },
+          {
+            "pageid": 577162,
+            "ns": 0,
+            "title": "Relativistic wave equations"
+          },
+          {
+            "pageid": 610583,
+            "ns": 0,
+            "title": "Sinc function"
+          },
+          {
+            "pageid": 853778,
+            "ns": 0,
+            "title": "Dispersion relation"
+          },
+          {
+            "pageid": 1156215,
+            "ns": 0,
+            "title": "Helmholtz equation"
+          },
+          {
+            "pageid": 2160429,
+            "ns": 0,
+            "title": "Dynamical billiards"
+          },
+          {
+            "pageid": 6194406,
+            "ns": 0,
+            "title": "Rectangular potential barrier"
+          },
+          {
+            "pageid": 14187697,
+            "ns": 0,
+            "title": "Semicircular potential well"
+          },
+          {
+            "pageid": 19594213,
+            "ns": 0,
+            "title": "Planck constant"
+          },
+          {
+            "pageid": 22048289,
+            "ns": 0,
+            "title": "Handle System"
+          },
+          {
+            "pageid": 22236319,
+            "ns": 0,
+            "title": "Quantum-confined Stark effect"
+          },
+          {
+            "pageid": 46870556,
+            "ns": 0,
+            "title": "Valence and conduction bands"
+          }
+        ]
+      }
+    }
+  ],
+  "redirect_cache": {
+    "Semiconductors": {
+      "to": "Semiconductor",
+      "tofragment": ""
+    },
+    "Heisenberg uncertainty principle": {
+      "to": "Uncertainty principle",
+      "tofragment": ""
+    },
+    "Reduced Planck constant": {
+      "to": "Planck constant",
+      "tofragment": "Reduced Planck constant"
+    },
+    "Expectation value": {
+      "to": "Expected value",
+      "tofragment": ""
+    },
+    "Solar cells": {
+      "to": "Solar cell",
+      "tofragment": ""
+    },
+    "Quantum confinement": {
+      "to": "Potential well",
+      "tofragment": ""
+    },
+    "Wavevector": {
+      "to": "Wave vector",
+      "tofragment": ""
+    },
+    "Delta function potential": {
+      "to": "Delta potential",
+      "tofragment": ""
+    },
+    "Wavefunction": {
+      "to": "Wave function",
+      "tofragment": ""
+    },
+    "Energy eigenstate": {
+      "to": "Stationary state",
+      "tofragment": ""
+    },
+    "Euler-Mascheroni constant": {
+      "to": "Euler's constant",
+      "tofragment": ""
+    },
+    "Β-carotene": {
+      "to": "Β-Carotene",
+      "tofragment": ""
+    },
+    "Kronig–Penney model": {
+      "to": "Particle in a one-dimensional lattice",
+      "tofragment": "Kronig–Penney model"
+    },
+    "Degenerate energy level": {
+      "to": "Degenerate energy levels",
+      "tofragment": ""
+    },
+    "ISBN (identifier)": {
+      "to": "ISBN",
+      "tofragment": ""
+    },
+    "S2CID (identifier)": {
+      "to": "Semantic Scholar",
+      "tofragment": "S2CID"
+    },
+    "PMC (identifier)": {
+      "to": "PubMed Central",
+      "tofragment": "PMCID"
+    },
+    "Bibcode (identifier)": {
+      "to": "Bibcode",
+      "tofragment": ""
+    },
+    "Nat (unit)": {
+      "to": "Nat (unit)",
+      "tofragment": ""
+    },
+    "Probability amplitude": {
+      "to": "Probability amplitude",
+      "tofragment": ""
+    },
+    "Excited state": {
+      "to": "Excited state",
+      "tofragment": ""
+    },
+    "Particle in a ring": {
+      "to": "Particle in a ring",
+      "tofragment": ""
+    },
+    "Imaginary unit": {
+      "to": "Imaginary unit",
+      "tofragment": ""
+    },
+    "Quantization (physics)": {
+      "to": "Quantization (physics)",
+      "tofragment": ""
+    },
+    "Even and odd functions": {
+      "to": "Even and odd functions",
+      "tofragment": ""
+    },
+    "Mass": {
+      "to": "Mass",
+      "tofragment": ""
+    },
+    "Quantum mechanics": {
+      "to": "Quantum mechanics",
+      "tofragment": ""
+    },
+    "Quantum well": {
+      "to": "Quantum well",
+      "tofragment": ""
+    },
+    "Emission spectrum": {
+      "to": "Emission spectrum",
+      "tofragment": ""
+    },
+    "Standard deviation": {
+      "to": "Standard deviation",
+      "tofragment": ""
+    },
+    "Angular frequency": {
+      "to": "Angular frequency",
+      "tofragment": ""
+    },
+    "Quantum well laser": {
+      "to": "Quantum well laser",
+      "tofragment": ""
+    },
+    "Finite potential well": {
+      "to": "Finite potential well",
+      "tofragment": ""
+    },
+    "Optoelectronics": {
+      "to": "Optoelectronics",
+      "tofragment": ""
+    },
+    "Electron": {
+      "to": "Electron",
+      "tofragment": ""
+    },
+    "Wave packet": {
+      "to": "Wave packet",
+      "tofragment": ""
+    },
+    "Schrödinger equation": {
+      "to": "Schrödinger equation",
+      "tofragment": ""
+    },
+    "Quantum well infrared photodetector": {
+      "to": "Quantum well infrared photodetector",
+      "tofragment": ""
+    },
+    "Free particle": {
+      "to": "Free particle",
+      "tofragment": ""
+    },
+    "Energy level": {
+      "to": "Energy level",
+      "tofragment": ""
+    },
+    "Electron hole": {
+      "to": "Electron hole",
+      "tofragment": ""
+    },
+    "History of quantum mechanics": {
+      "to": "History of quantum mechanics",
+      "tofragment": ""
+    },
+    "Svetlana Kotochigova": {
+      "to": "Svetlana Kotochigova",
+      "tofragment": ""
+    },
+    "Classical mechanics": {
+      "to": "Classical mechanics",
+      "tofragment": ""
+    },
+    "Complex number": {
+      "to": "Complex number",
+      "tofragment": ""
+    },
+    "Uncertainty principle": {
+      "to": "Uncertainty principle",
+      "tofragment": ""
+    },
+    "Double bond": {
+      "to": "Double bond",
+      "tofragment": ""
+    },
+    "Kinetic energy": {
+      "to": "Kinetic energy",
+      "tofragment": ""
+    },
+    "Gas in a box": {
+      "to": "Gas in a box",
+      "tofragment": ""
+    },
+    "Bloch's theorem": {
+      "to": "Bloch's theorem",
+      "tofragment": ""
+    },
+    "Newton's laws": {
+      "to": "Newton's laws of motion",
+      "tofragment": ""
+    },
+    "Entropy (information)": {
+      "to": "Entropy (information theory)",
+      "tofragment": ""
+    },
+    "Semicircle potential well": {
+      "to": "Semicircular potential well",
+      "tofragment": ""
+    },
+    "Configuration integral": {
+      "to": "Partition function (statistical mechanics)",
+      "tofragment": ""
+    },
+    "LED": {
+      "to": "Light-emitting diode",
+      "tofragment": ""
+    },
+    "PMID (identifier)": {
+      "to": "PubMed",
+      "tofragment": "PubMed identifier"
+    },
+    "ISSN (identifier)": {
+      "to": "ISSN",
+      "tofragment": ""
+    },
+    "Doi (identifier)": {
+      "to": "Digital object identifier",
+      "tofragment": ""
+    },
+    "Hdl (identifier)": {
+      "to": "Handle System",
+      "tofragment": ""
+    },
+    "Integer": {
+      "to": "Integer",
+      "tofragment": ""
+    },
+    "Absolute value": {
+      "to": "Absolute value",
+      "tofragment": ""
+    },
+    "Speed of light": {
+      "to": "Speed of light",
+      "tofragment": ""
+    },
+    "Band gap": {
+      "to": "Band gap",
+      "tofragment": ""
+    },
+    "Quantum harmonic oscillator": {
+      "to": "Quantum harmonic oscillator",
+      "tofragment": ""
+    },
+    "Force": {
+      "to": "Force",
+      "tofragment": ""
+    },
+    "Classical physics": {
+      "to": "Classical physics",
+      "tofragment": ""
+    },
+    "Potential energy": {
+      "to": "Potential energy",
+      "tofragment": ""
+    },
+    "Wavenumber": {
+      "to": "Wavenumber",
+      "tofragment": ""
+    },
+    "Dynamical billiards": {
+      "to": "Dynamical billiards",
+      "tofragment": ""
+    },
+    "Valence and conduction bands": {
+      "to": "Valence and conduction bands",
+      "tofragment": ""
+    },
+    "Relativistic wave equations": {
+      "to": "Relativistic wave equations",
+      "tofragment": ""
+    },
+    "Sinc function": {
+      "to": "Sinc function",
+      "tofragment": ""
+    },
+    "Transistor": {
+      "to": "Transistor",
+      "tofragment": ""
+    },
+    "Electric potential": {
+      "to": "Electric potential",
+      "tofragment": ""
+    },
+    "Amplitude": {
+      "to": "Amplitude",
+      "tofragment": ""
+    },
+    "Quantum-confined Stark effect": {
+      "to": "Quantum-confined Stark effect",
+      "tofragment": ""
+    },
+    "Planck constant": {
+      "to": "Planck constant",
+      "tofragment": ""
+    },
+    "Conjugated system": {
+      "to": "Conjugated system",
+      "tofragment": ""
+    },
+    "Quantum dot": {
+      "to": "Quantum dot",
+      "tofragment": ""
+    },
+    "Dispersion relation": {
+      "to": "Dispersion relation",
+      "tofragment": ""
+    },
+    "Helmholtz equation": {
+      "to": "Helmholtz equation",
+      "tofragment": ""
+    },
+    "Rectangular potential barrier": {
+      "to": "Rectangular potential barrier",
+      "tofragment": ""
+    },
+    "Carbon": {
+      "to": "Carbon",
+      "tofragment": ""
+    },
+    "Quantum chaos": {
+      "to": "Quantum chaos",
+      "tofragment": ""
+    },
+    "Particle in a spherically symmetric potential": {
+      "to": "Particle in a spherically symmetric potential",
+      "tofragment": ""
+    },
+    "Zero-point energy": {
+      "to": "Zero-point energy",
+      "tofragment": ""
+    },
+    "Fourier transform": {
+      "to": "Fourier transform",
+      "tofragment": ""
+    },
+    "Wave function": {
+      "to": "Wave function",
+      "tofragment": ""
+    },
+    "Matter wave": {
+      "to": "Matter wave",
+      "tofragment": ""
+    }
+  },
+  "image_metadata": {},
+  "name_map_overrides": {}
+}

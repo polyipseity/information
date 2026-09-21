@@ -149,7 +149,7 @@ From the principle of relativity alone without assuming the constancy of the spe
 
 Einstein combined the two postulates – of relativity – and of the invariance of the speed of light, into a single postulate, the Lorentz transformation:
 
-The insight fundamental for the special theory of relativity is this: The assumptions relativity and light speed invariance are compatible if relations of a new type \("Lorentz transformation"\) are postulated for the conversion of coordinates and times of events ... The universal principle of the special theory of relativity is contained in the postulate: The laws of physics are invariant with respect to Lorentz transformations \(for the transition from one inertial system to any other arbitrarily chosen inertial system\). This is a restricting principle for natural laws ...<sup>[\[p 2\]](#^p-2)</sup>
+> The insight fundamental for the special theory of relativity is this: The assumptions relativity and light speed invariance are compatible if relations of a new type \("Lorentz transformation"\) are postulated for the conversion of coordinates and times of events ... The universal principle of the special theory of relativity is contained in the postulate: The laws of physics are invariant with respect to Lorentz transformations \(for the transition from one inertial system to any other arbitrarily chosen inertial system\). This is a restricting principle for natural laws ...<sup>[\[p 2\]](#^p-2)</sup>
 
 Following Einstein's original presentation of special relativity in 1905, many different sets of postulates have been proposed in various alternative derivations,<sup>[\[28\]](#^ref-28)</sup> but Einstein stuck to his approach throughout work.<sup>[\[p 5\]](#^p-5)</sup>
 
@@ -689,12 +689,7 @@ $$\tanh \phi ={\frac {\sinh \phi }{\cosh \phi } }={\frac {e^{\phi }-e^{-\phi } }
 
 The rapidity defined above is very useful in special relativity because many expressions take on a considerably simpler form when expressed in terms of it. For example, rapidity is simply additive in the collinear velocity-addition formula;<sup>[\[27\]](#^ref-27)</sup><sup>:&hairsp;544&hairsp;</sup> <p> &nbsp;&nbsp;&nbsp;&nbsp; $\beta ={\frac {\beta _{1}+\beta _{2} }{1+\beta _{1}\beta _{2} } }= {\frac {\tanh \phi _{1}+\tanh \phi _{2} }{1+\tanh \phi _{1}\tanh \phi _{2} } }= \tanh(\phi _{1}+\phi _{2})$, <p> or in other words, ⁠$\phi =\phi _{1}+\phi _{2}$⁠.
 
-The Lorentz transformations take a simple form when expressed in terms of rapidity. The _γ_ factor can be written as
-
-$\gamma ={\frac {1}{\sqrt {1-\beta ^{2} } } }={\frac {1}{\sqrt {1-\tanh ^{2}\phi } } } =\cosh \phi$,
-$\gamma \beta ={\frac {\beta }{\sqrt {1-\beta ^{2} } } }={\frac {\tanh \phi }{\sqrt {1-\tanh ^{2}\phi } } } =\sinh \phi$.
-
-Transformations describing relative motion with uniform velocity and without rotation of the space coordinate axes are called _boosts_.
+The Lorentz transformations take a simple form when expressed in terms of rapidity. The _γ_ factor can be written as <p> &nbsp;&nbsp;&nbsp;&nbsp; $\gamma ={\frac {1}{\sqrt {1-\beta ^{2} } } }={\frac {1}{\sqrt {1-\tanh ^{2}\phi } } } =\cosh \phi$, <br/> &nbsp;&nbsp;&nbsp;&nbsp; $\gamma \beta ={\frac {\beta }{\sqrt {1-\beta ^{2} } } }={\frac {\tanh \phi }{\sqrt {1-\tanh ^{2}\phi } } } =\sinh \phi$. <p> Transformations describing relative motion with uniform velocity and without rotation of the space coordinate axes are called _boosts_.
 
 Substituting _γ_ and _γβ_ into the transformations as previously presented and rewriting in matrix form, the Lorentz boost in the _x_-direction may be written as
 

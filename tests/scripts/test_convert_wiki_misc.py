@@ -21,7 +21,7 @@ from scripts.convert_wiki import config
 from scripts.convert_wiki.api import _collect_link_titles
 from scripts.convert_wiki.converter import WikiHtmlConverter
 from scripts.convert_wiki.pipeline import _preprocess_html, run_pipeline
-from scripts.convert_wiki.table import TableConverter
+from scripts.convert_wiki.table import TableConverter, _reformat_table
 from scripts.convert_wiki.types import _RedirectInfo
 from scripts.convert_wiki.utils import (
     _fix_filename,
@@ -139,8 +139,8 @@ async def _assert_redirect_symlinks(
         assert target == f"eng/{name}"
 
 
-# Fourier transform snapshot name used by TestBlockMathCategoryBreakdown
-# and TestInlineMathIndependence to read expected output directly.
+"""Fourier transform snapshot name used by TestBlockMathCategoryBreakdown
+and TestInlineMathIndependence to read expected output directly."""
 _FOURIER_SNAPSHOT_NAME = "Fourier transform"
 
 
@@ -228,6 +228,9 @@ class TestWikiHtmlToPlaintextSnapshot:
         )
 
         assert output == expected
+        # The linter harness reflows tables; pipeline output must already be a
+        # fixed point so that reflow cannot silently repair a malformed table.
+        assert _reformat_table(output) == output
         await _assert_markdownlint_clean(output, tmp)
         await _assert_redirect_symlinks(
             tmp=tmp,
@@ -747,6 +750,54 @@ class TestBlockMathClassification:
         assert isinstance(math_ele, Tag)
         assert WikiHtmlConverter._is_inline_math(math_ele) is True
 
+    def test_new_parsoid_inline_marker_on_outer_span_returns_true(self) -> None:
+        """Newer Parsoid markup marks inline math on the outer wrapper span.
+
+        The ``<math>`` parent span is a bare ``mwe-math-mathml-a11y``; only
+        the outer ``mwe-math-element-inline`` carries the inline marker, so
+        the classification must consult the wrapper as well.
+        """
+        html = BeautifulSoup(
+            "<p>text "
+            '<span class="mwe-math-element mwe-math-element-inline">'
+            '<span class="mwe-math-mathml-a11y">'
+            "<math></math></span></span></p>",
+            "html.parser",
+        )
+        math_ele = html.find("math")
+        assert isinstance(math_ele, Tag)
+        assert WikiHtmlConverter._is_inline_math(math_ele) is True
+
+    def test_new_parsoid_block_marker_on_outer_span_returns_false(self) -> None:
+        """Newer Parsoid markup marks block math on the outer wrapper span."""
+        html = BeautifulSoup(
+            "<p>text "
+            '<span class="mwe-math-element mwe-math-element-block">'
+            '<span class="mwe-math-mathml-a11y">'
+            '<math display="block"></math></span></span></p>',
+            "html.parser",
+        )
+        math_ele = html.find("math")
+        assert isinstance(math_ele, Tag)
+        assert WikiHtmlConverter._is_inline_math(math_ele) is False
+
+    def test_bare_outer_span_keeps_inner_inline_marker(self) -> None:
+        """A bare ``mwe-math-element`` wrapper must not demote inline math.
+
+        Some Parsoid revisions omit the inline/block modifier on the outer
+        span while keeping ``mwe-math-mathml-inline`` on the parent span.
+        """
+        html = BeautifulSoup(
+            "<p>text "
+            '<span class="mwe-math-element">'
+            '<span class="mwe-math-mathml-inline mwe-math-mathml-a11y">'
+            "<math></math></span></span></p>",
+            "html.parser",
+        )
+        math_ele = html.find("math")
+        assert isinstance(math_ele, Tag)
+        assert WikiHtmlConverter._is_inline_math(math_ele) is True
+
     def test_inline_math_sibling_guard_fails_returns_false(self) -> None:
         """Inline math with single-child ancestor (guard fails) should return False."""
         html = BeautifulSoup(
@@ -1076,6 +1127,51 @@ class TestTexHtmlToLatexRadical:
         assert r"\frac{\sqrt[4]{2} }{\sqrt{ {\sigma} } }" in result, (
             f"Expected \\frac in output, got: {result!r}"
         )
+
+
+class TestPreprocessMathA11y:
+    """Tests for the ``_preprocess_html`` math a11y-span cleanup.
+
+    Wikipedia emits the tail of some long equations as plain text after
+    the MathML ``<math>`` element inside the a11y wrapper; the alttext
+    already carries the full equation, so the tail must be dropped.
+    """
+
+    def test_drops_duplicate_latex_text(self) -> None:
+        """Trailing LaTeX text and ``DisplaySpace`` are removed, math kept."""
+        html = BeautifulSoup(
+            '<p><span class="mwe-math-element mwe-math-element-display">'
+            '<span class="mwe-math-mathml-display mwe-math-mathml-a11y">'
+            '<math alttext="a=b"><semantics><mrow></mrow></semantics></math>'
+            '<img class="mwe-math-fallback-image-display"/>'
+            '<span typeof="mw:DisplaySpace">\u00a0</span>;\\quad x}</span>'
+            "</span></p>",
+            "html.parser",
+        )
+        _preprocess_html(html)
+        a11y = html.find("span", class_="mwe-math-mathml-a11y")
+        assert a11y is not None
+        assert a11y.find("math") is not None
+        assert a11y.find("img") is not None
+        assert a11y.find("span", attrs={"typeof": "mw:DisplaySpace"}) is None
+        assert "\\quad" not in a11y.get_text()
+
+
+class TestPreprocessTemplateQuote:
+    """Tests for the ``_preprocess_html`` templatequote attribution merge."""
+
+    def test_moves_cite_inside_blockquote(self) -> None:
+        """A following ``templatequotecite`` joins the preceding quote."""
+        html = BeautifulSoup(
+            '<blockquote class="templatequote"><p>Quoted text.</p></blockquote>'
+            '<div class="templatequotecite">— Author</div>',
+            "html.parser",
+        )
+        _preprocess_html(html)
+        quote = html.find("blockquote")
+        assert quote is not None
+        assert quote.find("div", class_="templatequotecite") is not None
+        assert quote.find_next_sibling() is None
 
 
 class TestFilterTableCells:

@@ -2,6 +2,9 @@
 
 import pytest
 
+"""Public API of this conftest (empty: no symbols are exported)."""
+__all__ = ()
+
 
 @pytest.fixture(autouse=True)
 def _patch_reload_names_map(monkeypatch: pytest.MonkeyPatch) -> None:

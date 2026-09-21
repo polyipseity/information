@@ -45,6 +45,7 @@ class TestRetractMain:
         )
 
         async def mock_which2(cmd: str) -> str:
+            """Mock _which2 returning /usr/bin/git."""
             return "/usr/bin/git"
 
         monkeypatch.setattr("scripts.retract._which2", mock_which2)
@@ -62,13 +63,18 @@ class TestRetractMain:
         await (fake_tmp / ".git" / "filter-branch" / "commit-map").write_text("")
 
         class FakeTemporaryDirectory:
+            """Fake TemporaryDirectory that points to a fixed path."""
+
             def __init__(self, **kw: object) -> None:
+                """Store the fake tmp directory path."""
                 self.name = fspath(fake_tmp)
 
             def __enter__(self) -> str:
+                """Return the fake directory path."""
                 return self.name
 
             def __exit__(self, *args: object) -> None:
+                """No-op cleanup."""
                 pass
 
         monkeypatch.setattr(
@@ -90,6 +96,7 @@ class TestRetractMain:
         exec_index = [0]
 
         async def mock_exec(*a: object, **kw: object) -> tuple[str, str]:
+            """Mock _exec returning predetermined results by call index."""
             idx = exec_index[0]
             exec_index[0] += 1
             if idx >= len(exec_results):
@@ -131,6 +138,7 @@ class TestRetractMain:
         )
 
         async def mock_which2(cmd: str) -> str:
+            """Mock _which2 returning /usr/bin/git."""
             return "/usr/bin/git"
 
         monkeypatch.setattr("scripts.retract._which2", mock_which2)
@@ -162,6 +170,7 @@ class TestRetractMain:
         )
 
         async def mock_which2(cmd: str) -> str:
+            """Mock _which2 returning /usr/bin/git."""
             return "/usr/bin/git"
 
         monkeypatch.setattr("scripts.retract._which2", mock_which2)
@@ -179,13 +188,18 @@ class TestRetractMain:
         await (fake_tmp / ".git" / "filter-branch" / "commit-map").write_text("")
 
         class FakeTemporaryDirectory2:
+            """Fake TemporaryDirectory that points to a fixed path."""
+
             def __init__(self, **kw: object) -> None:
+                """Store the fake tmp directory path."""
                 self.name = fspath(fake_tmp)
 
             def __enter__(self) -> str:
+                """Return the fake directory path."""
                 return self.name
 
             def __exit__(self, *args: object) -> None:
+                """No-op cleanup."""
                 pass
 
         monkeypatch.setattr(
@@ -207,6 +221,7 @@ class TestRetractMain:
         exec_index = [0]
 
         async def mock_exec(*a: object, **kw: object) -> tuple[str, str]:
+            """Mock _exec returning predetermined results by call index."""
             idx = exec_index[0]
             exec_index[0] += 1
             if idx >= len(exec_results):
@@ -253,6 +268,7 @@ class TestPublishMain:
         )
 
         async def mock_which2(cmd: str) -> str:
+            """Mock _which2 returning /usr/bin/git."""
             return "/usr/bin/git"
 
         monkeypatch.setattr("scripts.publish._which2", mock_which2)
@@ -269,6 +285,7 @@ class TestPublishMain:
         exec_index = [0]
 
         async def mock_exec(*a: object, **kw: object) -> tuple[str, str]:
+            """Mock _exec returning predetermined results by call index."""
             idx = exec_index[0]
             exec_index[0] += 1
             if idx >= len(exec_results):
@@ -288,13 +305,18 @@ class TestPublishMain:
         ).write_text("")
 
         class FakeTemporaryDirectory:
+            """Fake TemporaryDirectory that points to a fixed path."""
+
             def __init__(self, **kw: object) -> None:
+                """Store the fake tmp directory path."""
                 self.name = fspath(fake_tmp)
 
             def __enter__(self) -> str:
+                """Return the fake directory path."""
                 return self.name
 
             def __exit__(self, *args: object) -> None:
+                """No-op cleanup."""
                 pass
 
         monkeypatch.setattr(
@@ -335,6 +357,7 @@ class TestPublishMain:
         )
 
         async def mock_which2(cmd: str) -> str:
+            """Mock _which2 returning /usr/bin/git."""
             return "/usr/bin/git"
 
         monkeypatch.setattr("scripts.publish._which2", mock_which2)
@@ -370,6 +393,7 @@ class TestPublishMain:
         )
 
         async def mock_which2(cmd: str) -> str:
+            """Mock _which2 returning /usr/bin/git."""
             return "/usr/bin/git"
 
         monkeypatch.setattr("scripts.publish._which2", mock_which2)
@@ -386,6 +410,7 @@ class TestPublishMain:
         exec_index = [0]
 
         async def mock_exec(*a: object, **kw: object) -> tuple[str, str]:
+            """Mock _exec returning predetermined results by call index."""
             idx = exec_index[0]
             exec_index[0] += 1
             if idx >= len(exec_results):
@@ -405,13 +430,18 @@ class TestPublishMain:
         ).write_text("")
 
         class FakeTemporaryDirectory2:
+            """Fake TemporaryDirectory that points to a fixed path."""
+
             def __init__(self, **kw: object) -> None:
+                """Store the fake tmp directory path."""
                 self.name = fspath(fake_tmp)
 
             def __enter__(self) -> str:
+                """Return the fake directory path."""
                 return self.name
 
             def __exit__(self, *args: object) -> None:
+                """No-op cleanup."""
                 pass
 
         monkeypatch.setattr(

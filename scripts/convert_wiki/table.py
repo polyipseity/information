@@ -840,6 +840,7 @@ class TableConverter:
         cls._flatten_nested_tables(ele, soup)
         cls._transform_infobox_caption_rows(ele, soup)
         cls._normalize_table_cells(ele, soup)
+        cls._ensure_th_less_header_row(ele, soup)
         cls._merge_header_rows(ele, soup)
         cls._transform_sidebar_rows(ele, soup)
         cls._insert_mixed_alignment_rows(ele, soup)
@@ -1223,6 +1224,56 @@ class TableConverter:
         for child in children:
             wrapper.append(child.extract())
         target.append(wrapper)
+
+    @classmethod
+    def _ensure_th_less_header_row(cls, ele: Tag, soup: Tag) -> None:
+        """Give a ``<th>``-less table an empty ``<th>`` header row.
+
+        A Markdown table needs a header row: ``handle_tr`` emits the GFM
+        separator only for an all-``<th>`` row, and
+        ``_insert_mixed_alignment_rows`` only adds a marker row to tables
+        that contain at least one ``<th>``.  Wikipedia maintenance boxes
+        (``ambox``) are ``<td>``-only tables, so without this they render as
+        a bare ``| … | … |`` line that is not a table at all.
+
+        Mirrors ``handle_standalone_numblk``, which prepends an empty
+        ``<th>`` header row so the equation/number body row aligns like a
+        numblk table.  The empty row is inserted into *ele* (the container
+        being converted) so it is never added to a sibling container whose
+        rows have already been dispatched, and short rows are padded to the
+        widest row so the synthesized table is never ragged.
+        """
+        table = ele if ele.name == "table" else ele.find_parent("table")
+        if not isinstance(table, Tag):
+            return
+        rows = cls._table_rows(table)
+        if any(
+            isinstance(cell, Tag) and cell.name == "th"
+            for row in rows
+            for cell in row.children
+        ):
+            return
+        data_rows = [
+            row
+            for row in ele.find_all("tr", recursive=False)
+            if any(isinstance(c, Tag) and c.name in _TD_OR_TH for c in row.children)
+        ]
+        if not data_rows:
+            return
+        widths = [
+            sum(1 for c in row.children if isinstance(c, Tag) and c.name in _TD_OR_TH)
+            for row in data_rows
+        ]
+        ncols = max(widths)
+        for row, width in zip(data_rows, widths, strict=True):
+            for _ in range(ncols - width):
+                filler = soup.new_tag("td", attrs={"data-filler-cell": "true"})
+                filler.string = "\u200b"
+                row.append(filler)
+        header_row = soup.new_tag("tr")
+        for _ in range(ncols):
+            header_row.append(soup.new_tag("th"))
+        data_rows[0].insert_before(header_row)
 
     @classmethod
     def _insert_mixed_alignment_rows(cls, ele: Tag, soup: Tag) -> None:
@@ -1663,16 +1714,19 @@ class TableConverter:
                     continue
                 for cell in tr.find_all(_TD_OR_TH):
                     _set_text_align(cell, align)
-                if cells := tuple(tr.find_all(_TD_OR_TH)):
-                    _strip_cell_bold(cells[-1])
         # Rewrite equation-number cells regardless of alignment,
         # prepending an <a id> anchor derived from the originating
         # table id so prose links like #math%20N resolve correctly.
+        # The cell-level bold is dropped unconditionally here too: the anchor
+        # is prepended ahead of the number, and an inherited
+        # ``font-weight: bold`` would otherwise wrap the anchor in the emitted
+        # ``__...__`` (mirrors the equation-box path).
         default_origin = str(ele.get("id", "")) if ele.get("id") else None
         for tr in tbody.find_all("tr"):
             if tr is header_row:
                 continue
             if cells := tuple(tr.find_all(_TD_OR_TH)):
+                _strip_cell_bold(cells[-1])
                 raw = tr.get("data-origin-id")
                 origin = str(raw) if raw else default_origin
                 anchor = origin.replace("_", " ") if origin else None

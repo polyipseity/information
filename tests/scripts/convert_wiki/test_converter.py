@@ -12,8 +12,12 @@ from anyio import Path as AnyioPath
 from bs4 import BeautifulSoup, NavigableString, Tag
 
 from scripts.convert_wiki.converter import WikiHtmlConverter, _discards_subtree
-from scripts.convert_wiki.inline_context import _in_inline_context
+from scripts.convert_wiki.inline_context import (
+    _in_inline_context,
+    _is_display_math_only_dl,
+)
 from scripts.convert_wiki.latex import LatexConverter
+from scripts.convert_wiki.markdown_rewrite import _rewrite_link_target
 from scripts.convert_wiki.pipeline import _preprocess_html
 from scripts.convert_wiki.types import _RedirectInfo
 from tests.scripts.test_convert_wiki import _assert_markdownlint_clean
@@ -408,6 +412,57 @@ class TestMathHandling:
         assert "$$f(x)$$\n$$g(x)$$" in result_compact
 
     @pytest.mark.anyio
+    async def test_multi_dd_math_rows_after_p_join_with_breaks(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Rows after a ``<p>`` join on one line, separated by ``<br/>``."""
+        html = (
+            "<p>by</p>"
+            "<dl>"
+            f"<dd>{_block_math_span(r'{\displaystyle f(x)}')}</dd>"
+            f"<dd>{_block_math_span(r'{\displaystyle g(x)}')}</dd>"
+            "</dl>"
+            "<p>for</p>"
+        )
+        result = await _convert(converter, html)
+        assert (
+            "\nby <p> &nbsp;&nbsp;&nbsp;&nbsp; $$f(x)$$"
+            " <br/> &nbsp;&nbsp;&nbsp;&nbsp; $$g(x)$$ <p> for\n\n" in result
+        )
+
+    @pytest.mark.anyio
+    async def test_multi_dd_math_rows_without_p_sibling_stay_block(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Without a ``<p>`` sibling the rows keep their block form."""
+        html = (
+            "<dl>"
+            f"<dd>{_block_math_span(r'{\displaystyle f(x)}')}</dd>"
+            f"<dd>{_block_math_span(r'{\displaystyle g(x)}')}</dd>"
+            "</dl>"
+        )
+        result = await _convert(converter, html)
+        assert "$$f(x)$$\n$$g(x)$$\n\n" in result
+        assert "<br/>" not in result
+
+    @pytest.mark.anyio
+    async def test_multi_dd_math_rows_inside_list_item_indented(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Rows inside a list item join the item and keep the ``<p>`` form."""
+        html = (
+            "<ul><li>text"
+            "<dl>"
+            f"<dd>{_block_math_span(r'{\displaystyle f(x)}')}</dd>"
+            f"<dd>{_block_math_span(r'{\displaystyle g(x)}')}</dd>"
+            "</dl>"
+            "</li></ul>"
+        )
+        result = await _convert(converter, html)
+        assert "- text <p> &nbsp;&nbsp;&nbsp;&nbsp;$$f(x)$$ <p> $$g(x)$$" in result
+        assert "<br/>" not in result
+
+    @pytest.mark.anyio
     async def test_mixed_dt_dd_rows_each_on_own_line(
         self, converter: WikiHtmlConverter
     ) -> None:
@@ -471,6 +526,90 @@ class TestLinkHandling:
         assert "#section" in result.lower() or "Section" in result
 
     @pytest.mark.anyio
+    async def test_link_fragment_decodes_percent_encoding(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Percent-encoded href fragments must be decoded before name-map casing.
+
+        Regression: the fragment used to reach ``_fix_name_maybe`` still
+        percent-encoded, which both suppressed the lowercase-first-char
+        fallback (``%C3%B6`` contains uppercase hex digits) and leaked the
+        encoding into the written link.
+        """
+        html = (
+            '<a title="Hydrogen-like atom"'
+            ' href="/wiki/Hydrogen-like_atom#Schr%C3%B6dinger_equation_in_a_spherically_symmetric_potential">text</a>'
+        )
+        result = await _convert(converter, html)
+        assert (
+            "(hydrogen-like%20atom.md"
+            "#schr\u00f6dinger%20equation%20in%20a%20spherically%20symmetric%20potential)"
+        ) in result
+        assert "%C3" not in result
+
+    @pytest.mark.anyio
+    async def test_self_fragment_decodes_percent_encoding(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A bare ``#fragment`` href must decode percent-encoding too."""
+        html = (
+            '<a href="#Schr%C3%B6dinger_equation_in_a_spherically_symmetric_potential">'
+            "text</a>"
+        )
+        result = await _convert(converter, html)
+        assert (
+            "(#schr\u00f6dinger%20equation%20in%20a%20spherically%20symmetric%20potential)"
+        ) in result
+        assert "%C3" not in result
+
+    @pytest.mark.anyio
+    async def test_relative_fragment_decodes_percent_encoding(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A ``./Page#fragment`` href must decode its fragment."""
+        html = (
+            '<a href="./Special_relativity'
+            '#Schr%C3%B6dinger_equation_in_a_spherically_symmetric_potential">t</a>'
+        )
+        result = await _convert(converter, html)
+        assert (
+            "(special%20relativity.md"
+            "#schr\u00f6dinger%20equation%20in%20a%20spherically%20symmetric%20potential)"
+        ) in result
+        assert "%C3" not in result
+
+    @pytest.mark.anyio
+    async def test_preserved_page_fragment_encoded_once(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A preserved-page fragment must be percent-encoded exactly once."""
+        html = (
+            '<a title="Special:Search"'
+            ' href="https://en.wikipedia.org/wiki/Special:Search#Foo%20Bar">t</a>'
+        )
+        result = await _convert(converter, html)
+        assert "#Foo%20Bar" in result
+        assert "%25" not in result
+
+    @pytest.mark.anyio
+    async def test_link_fragment_matches_reprocess_output(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """An ingested fragment must already be in reprocess-normal form.
+
+        ``_rewrite_link_target`` unquotes the fragment it reads back from the
+        written Markdown; ingestion must therefore emit the same form so a
+        ``--reprocess`` run is a no-op.
+        """
+        html = (
+            '<a title="Hydrogen-like atom"'
+            ' href="/wiki/Hydrogen-like_atom#Schr%C3%B6dinger_equation_in_a_spherically_symmetric_potential">text</a>'
+        )
+        result = await _convert(converter, html)
+        target = result[result.index("](") + 2 : result.index(")")]
+        assert _rewrite_link_target(target, {}, names_map={}) == target
+
+    @pytest.mark.anyio
     async def test_external_link(self, converter: WikiHtmlConverter) -> None:
         """External link (``extiw`` class) should produce cross-language link."""
         html = '<a class="extiw" title="en:Target" href="https://en.wikipedia.org/wiki/Target">text</a>'
@@ -483,6 +622,26 @@ class TestLinkHandling:
         html = '<a class="mw-selflink" href="/wiki/Current_Page">current</a>'
         result = await _convert(converter, html)
         assert "[current](" in result
+
+    @pytest.mark.anyio
+    async def test_selflink_fragment_decodes_percent_encoding(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """``mw-selflink-fragment`` hrefs must decode their fragment too.
+
+        ``_handle_selflink`` already unquotes its page stem, so leaving the
+        fragment encoded made the two halves of the same href disagree.
+        """
+        html = (
+            '<a class="mw-selflink-fragment"'
+            ' href="/wiki/Current_Page'
+            '#Schr%C3%B6dinger_equation_in_a_spherically_symmetric_potential">t</a>'
+        )
+        result = await _convert(converter, html)
+        assert (
+            "(#schr\u00f6dinger%20equation%20in%20a%20spherically%20symmetric%20potential)"
+        ) in result
+        assert "%C3" not in result
 
     @pytest.mark.anyio
     async def test_skips_parsoid_link_metadata(
@@ -1804,6 +1963,92 @@ class TestDivHandling:
         )
 
     @pytest.mark.anyio
+    async def test_unaligned_standalone_numblk_anchor_outside_bold(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A standalone ``numblk`` with no aligned ``equation-box`` sibling
+        must still drop the cell-level bold.
+
+        The anchor is prepended ahead of the number, so an inherited
+        ``font-weight: bold`` would wrap the emitted ``__...__`` around the
+        anchor instead of leaving it outside.
+        """
+        result = await _convert(
+            converter,
+            '<table class="numblk" id="math_1"><tbody><tr>'
+            '<td class="nowrap">E = mc<sup>2</sup></td>'
+            "<td></td>"
+            '<td class="nowrap" style="font-weight: bold;">'
+            '<a class="mw-selflink-fragment" href="#math_1">1</a></td>'
+            "</tr></tbody></table>",
+        )
+        assert '<a id="math 1"></a> __\\([1](#math%201)\\)__' in result
+        assert "__<a id=" not in result
+
+    @pytest.mark.anyio
+    async def test_th_less_table_gets_empty_header_row(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A table with no ``<th>`` at all must still render as a Markdown table.
+
+        Regression for the ``particle in a box`` maintenance box: its
+        ``ambox`` table has only ``<td>`` cells, so without a synthesized
+        empty ``<th>`` header row the output was a bare ``| … | … |`` line
+        that is not a table at all.  This mirrors the equation-box/numblk
+        path, which prepends an empty ``<th>`` header row.
+        """
+        result = await _convert(
+            converter,
+            "<table><tbody><tr>"
+            '<td style="text-align: center">icon</td>'
+            "<td>text</td></tr></tbody></table>",
+        )
+        assert result == "\n|  |  |\n| :-: | --- |\n| icon | text |\n\n\n"
+
+    @pytest.mark.anyio
+    async def test_tbody_less_table_gets_empty_header_row(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A ``<tbody>``-less table must get the same empty header row.
+
+        Such tables never reach ``handle_tbody``, so ``_handle_table``
+        normalizes and converts them itself.
+        """
+        result = await _convert(
+            converter,
+            "<table><tr><td>a</td><td>b</td></tr><tr><td>c</td><td>d</td></tr></table>",
+        )
+        assert result == "|  |  |\n| --- | --- |\n| a | b |\n| c | d |\n"
+
+    @pytest.mark.anyio
+    async def test_tbody_less_rowspan_keeps_column_positions(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Padding a ``<tbody>``-less table must preserve spanning columns.
+
+        The rows are normalized before padding so the filler cell lands
+        under the first column, not at the end of the row.
+        """
+        result = await _convert(
+            converter,
+            '<table><tr><td rowspan="2">a</td><td>b</td></tr>'
+            "<tr><td>c</td></tr></table>",
+        )
+        assert result == ("|  |  |\n| --- | --- |\n| a | b |\n| \u200b | c |\n")
+
+    @pytest.mark.anyio
+    async def test_ragged_th_less_rows_are_padded(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Short rows in a ``<th>``-less table are padded to the widest row."""
+        result = await _convert(
+            converter,
+            "<table><tbody><tr><td>a</td></tr>"
+            "<tr><td>b</td><td>c</td></tr></tbody></table>",
+        )
+        assert result == ("\n|  |  |\n| --- | --- |\n| a | \u200b |\n| b | c |\n\n\n")
+
+    @pytest.mark.anyio
     async def test_equation_box_numblk_number_cell_single_bold(
         self, converter: WikiHtmlConverter
     ) -> None:
@@ -2342,6 +2587,40 @@ class TestStaticUtilities:
         assert span is not None
         assert not _in_inline_context(span)
 
+    def test_is_display_math_only_dl_multiple_rows(self) -> None:
+        """A multi-row display-math ``<dl>`` is display-math-only."""
+        soup = BeautifulSoup(
+            "<dl>"
+            f"<dd>{_block_math_span(r'{\displaystyle f(x)}')}</dd>"
+            f"<dd>{_block_math_span(r'{\displaystyle g(x)}')}</dd>"
+            "</dl>",
+            "html.parser",
+        )
+        dl = soup.find("dl")
+        assert dl is not None
+        assert _is_display_math_only_dl(dl)
+
+    def test_is_display_math_only_dl_rejects_term_row(self) -> None:
+        """A ``<dt>`` row means the ``<dl>`` is not display-math-only."""
+        soup = BeautifulSoup(
+            f"<dl><dt>term</dt><dd>{_block_math_span(r'{\displaystyle a}')}</dd></dl>",
+            "html.parser",
+        )
+        dl = soup.find("dl")
+        assert dl is not None
+        assert not _is_display_math_only_dl(dl)
+
+    def test_is_display_math_only_dl_rejects_prose_first_row(self) -> None:
+        """A prose-first row is not display math, even with math rows after."""
+        soup = BeautifulSoup(
+            f"<dl><dd>therefore {_inline_math_span(r'{\displaystyle f(x)}')}.</dd>"
+            f"<dd>{_block_math_span(r'{\displaystyle F(x)}')}</dd></dl>",
+            "html.parser",
+        )
+        dl = soup.find("dl")
+        assert dl is not None
+        assert not _is_display_math_only_dl(dl)
+
     def test_in_navbox(self, converter: WikiHtmlConverter) -> None:
         """Element inside a navbox table should be detected."""
         soup = BeautifulSoup(
@@ -2768,3 +3047,59 @@ async def test_sistersitebox_renders_single_blockquote_line(
     # Mirror the snapshot harness: pipeline output is stripped and ends
     # with a single trailing newline before linting.
     await _assert_markdownlint_clean(result.strip() + "\n", AnyioPath(tmp_path))
+
+
+@pytest.mark.anyio
+async def test_italic_sidebar_caption_keeps_br_and_emphasis(
+    converter: WikiHtmlConverter, tmp_path: PathLike[str]
+) -> None:
+    """An italic ``sidebar-caption`` keeps its emphasis and gets a ``<br/>``.
+
+    Regression: an inline italic style routes the div to the emphasis
+    handler, which previously bypassed the caption's ``<br/>`` separator.
+    """
+    html = (
+        '<table class="infobox"><tbody><tr>'
+        '<td class="sidebar-image">'
+        + _inline_math_span(r"\mathbf{F} = \frac{d\mathbf{p}}{dt}")
+        + '<div class="sidebar-caption" style="font-style: italic">'
+        '<a href="/wiki/Second_law_of_motion">Second law of motion</a>'
+        "</div>"
+        "</td>"
+        "</tr></tbody></table>"
+    )
+    result = await _convert(converter, html)
+    assert " <br/> _[Second law of motion](/wiki/Second_law_of_motion)_" in result
+    await _assert_markdownlint_clean(result.strip() + "\n", AnyioPath(tmp_path))
+
+
+@pytest.mark.anyio
+async def test_templatequote_joins_attribution_into_blockquote(
+    converter: WikiHtmlConverter, tmp_path: PathLike[str]
+) -> None:
+    """A ``blockquote.templatequote`` renders as a blockquote whose following
+    ``templatequotecite`` attribution joins the same block."""
+    html = (
+        '<blockquote class="templatequote"><p>Quoted text.</p></blockquote>'
+        '<div class="templatequotecite">— Author</div>'
+    )
+    result = await _convert(converter, html)
+    assert result.strip() == "> Quoted text.\n>\n> — Author"
+    await _assert_markdownlint_clean(result.strip() + "\n", AnyioPath(tmp_path))
+
+
+@pytest.mark.anyio
+async def test_selflink_fragment_without_page_name(
+    converter: WikiHtmlConverter,
+) -> None:
+    """``mw-selflink-fragment`` renders fragment-only without ``page_name``.
+
+    Regression: clipboard conversions pass no ``page_name``, so the class
+    itself must identify the anchor as the current page.
+    """
+    html = (
+        '<p><a rel="mw:WikiLink" href="/wiki/Current_Page#Properties" '
+        'class="mw-selflink-fragment">linearity</a></p>'
+    )
+    result = await _convert(converter, html)
+    assert "[linearity](#properties)" in result

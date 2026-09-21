@@ -20,6 +20,7 @@ from bs4 import BeautifulSoup
 from scripts.convert_wiki import config
 from scripts.convert_wiki.api import _collect_link_titles
 from scripts.convert_wiki.pipeline import run_pipeline
+from scripts.convert_wiki.table import _reformat_table
 from scripts.convert_wiki.types import _RedirectInfo
 from scripts.convert_wiki.utils import (
     _fix_filename,
@@ -28,7 +29,6 @@ from scripts.convert_wiki.utils import (
 
 """Public API of this test module (empty: no symbols are exported)."""
 __all__ = ()
-
 
 """Absolute path to the snapshot test fixtures directory."""
 _SNAPSHOT_DIR = (
@@ -72,10 +72,15 @@ def _categorize_block_math_blocks(output: str) -> dict[str, int]:
 
 
 async def _assert_markdownlint_clean(output: str, tmp: Path) -> None:
-    """Assert generated ``output`` is markdownlint-clean."""
+    """Assert generated ``output`` is markdownlint-clean.
+
+    Applies the pipeline's table reflow first so callers may pass raw
+    converter output; production output is already reflowed, making this a
+    no-op for it.
+    """
     out_path = tmp / "lint.md"
     config_path = tmp / ".markdownlint.jsonc"
-    await out_path.write_text(output, encoding="UTF-8")
+    await out_path.write_text(_reformat_table(output), encoding="UTF-8")
     await config_path.write_text(
         json.dumps({"extends": os.fspath(_SNAPSHOT_DIR / ".markdownlint.jsonc")}),
         encoding="UTF-8",
@@ -137,8 +142,8 @@ async def _assert_redirect_symlinks(
         assert target == f"eng/{name}"
 
 
-# Fourier transform snapshot name used by TestBlockMathCategoryBreakdown
-# and TestInlineMathIndependence to read expected output directly.
+"""Fourier transform snapshot name used by TestBlockMathCategoryBreakdown
+and TestInlineMathIndependence to read expected output directly."""
 _FOURIER_SNAPSHOT_NAME = "Fourier transform"
 
 
@@ -156,6 +161,9 @@ def _discover_snapshot_cases() -> list[str]:
         "moment of inertia",
         "wave\u2013particle duality",
         "Routhian mechanics",
+        "Schrödinger equation",
+        "particle in a box",
+        "quantum harmonic oscillator",
     }
     return [c for c in all_cases if c in slow]
 
@@ -226,6 +234,9 @@ class TestWikiHtmlToPlaintextSnapshot:
         )
 
         assert output == expected
+        # The linter harness reflows tables; pipeline output must already be a
+        # fixed point so that reflow cannot silently repair a malformed table.
+        assert _reformat_table(output) == output
         await _assert_markdownlint_clean(output, tmp)
         await _assert_redirect_symlinks(
             tmp=tmp,

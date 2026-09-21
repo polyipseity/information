@@ -300,12 +300,7 @@ $$L(\theta ,{\dot {\theta } },{\dot {\psi } },{\dot {\phi } })={\frac {I_{1} }{2
 
 where _ψ_, _φ_, _θ_ are the [Euler angles](Euler%20angles.md), _θ_ is the angle between the vertical _z_-axis and the top's _z_<!-- markdown separator -->′-axis, _ψ_ is the rotation of the top about its own _z_<!-- markdown separator -->′-axis, and _φ_ the azimuthal of the top's _z_<!-- markdown separator -->′-axis around the vertical _z_-axis. The principal [moments of inertia](moments%20of%20inertia.md) are _I_<sub>1</sub> about the top's own _x_<!-- markdown separator -->′ axis, _I_<sub>2</sub> about the top's own _y_<!-- markdown separator -->′ axes, and _I_<sub>3</sub> about the top's own _z_<!-- markdown separator -->′-axis. Since the top is symmetric about its _z_<!-- markdown separator -->′-axis, _I_<sub>1</sub> = _I_<sub>2</sub>. Here the simple relation for local [gravitational potential energy](gravitational%20potential%20energy.md) _V_ = _Mgl_<!-- markdown separator -->cos<!-- markdown separator -->_θ_ is used where _g_ is the acceleration due to gravity, and the centre of mass of the top is a distance _l_ from its tip along its _z_<!-- markdown separator -->′-axis.
 
-The angles _ψ_, _φ_ are cyclic. The constant momenta are the angular momenta of the top about its axis and its precession about the vertical, respectively:
-
-$$p_{\psi }={\frac {\partial L}{\partial {\dot {\psi } } } }=I_{3}{\dot {\psi } }+I_{3}{\dot {\phi } }\cos \theta$$
-$$p_{\phi }={\frac {\partial L}{\partial {\dot {\phi } } } }={\dot {\phi } }(I_{1}\sin ^{2}\theta +I_{3}\cos ^{2}\theta )+I_{3}{\dot {\psi } }\cos \theta$$
-
-From these, eliminating _dψ_<!-- markdown separator -->/<!-- markdown separator -->_dt_:
+The angles _ψ_, _φ_ are cyclic. The constant momenta are the angular momenta of the top about its axis and its precession about the vertical, respectively: <p> &nbsp;&nbsp;&nbsp;&nbsp; $$p_{\psi }={\frac {\partial L}{\partial {\dot {\psi } } } }=I_{3}{\dot {\psi } }+I_{3}{\dot {\phi } }\cos \theta$$ <br/> &nbsp;&nbsp;&nbsp;&nbsp; $$p_{\phi }={\frac {\partial L}{\partial {\dot {\phi } } } }={\dot {\phi } }(I_{1}\sin ^{2}\theta +I_{3}\cos ^{2}\theta )+I_{3}{\dot {\psi } }\cos \theta$$ <p> From these, eliminating _dψ_<!-- markdown separator -->/<!-- markdown separator -->_dt_:
 
 $$p_{\phi }-p_{\psi }\cos \theta =I_{1}{\dot {\phi } }\sin ^{2}\theta$$
 
@@ -377,12 +372,7 @@ Consider a classical [charged particle](charged%20particle.md) of mass _m_ and [
 
 $$L={\frac {m}{2} }{\dot {\mathbf {r} } }^{2}-q\phi +q{\dot {\mathbf {r} } }\cdot \mathbf {A} \,,$$
 
-It is convenient to use [cylindrical coordinates](cylindrical%20coordinates.md) \(_r_, _θ_, _z_\), so that
-
-$${\dot {\mathbf {r} } }=\mathbf {v} =(v_{r},v_{\theta },v_{z})=({\dot {r} },r{\dot {\theta } },{\dot {z} })\,,$$
-$$\mathbf {B} =(B_{r},B_{\theta },B_{z})=(0,0,B)\,.$$
-
-In this case of no [electric field](electric%20field.md), the electric potential is zero, $\phi =0$, and we can choose the axial gauge for the magnetic potential
+It is convenient to use [cylindrical coordinates](cylindrical%20coordinates.md) \(_r_, _θ_, _z_\), so that <p> &nbsp;&nbsp;&nbsp;&nbsp; $${\dot {\mathbf {r} } }=\mathbf {v} =(v_{r},v_{\theta },v_{z})=({\dot {r} },r{\dot {\theta } },{\dot {z} })\,,$$ <br/> &nbsp;&nbsp;&nbsp;&nbsp; $$\mathbf {B} =(B_{r},B_{\theta },B_{z})=(0,0,B)\,.$$ <p> In this case of no [electric field](electric%20field.md), the electric potential is zero, $\phi =0$, and we can choose the axial gauge for the magnetic potential
 
 $$\mathbf {A} ={\frac {1}{2} }\mathbf {B} \times \mathbf {r} \quad \Rightarrow \quad \mathbf {A} =(A_{r},A_{\theta },A_{z})=(0,Br/2,0)\,,$$
 

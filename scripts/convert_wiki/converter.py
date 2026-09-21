@@ -82,6 +82,7 @@ from .utils import (
     _get_image_filename,
     _markdown_fragment,
     _markdown_link_target,
+    _plain_fragment,
     _strip_url_query,
     _tag_affixes,
 )
@@ -113,6 +114,10 @@ _BARE_URL_REGEX = re.compile(r"(?:https?://|www\.)[^\s<>]+")
 _SIDEBAR_TIGHT_WRAPPING_RE = re.compile(r"[ \t]+", re.MULTILINE)
 """Heading tag names (``h1`` through ``h6``)."""
 _HEADING_TAGS = frozenset({"h1", "h2", "h3", "h4", "h5", "h6"})
+"""Non-breaking-space indent applied to display-math ``<dl>`` rows."""
+_MATH_DL_INDENT = "&nbsp;&nbsp;&nbsp;&nbsp;"
+"""Separator joining the rows of a display-math ``<dl>`` onto one line."""
+_MATH_DL_ROW_SEPARATOR = f" <br/> {_MATH_DL_INDENT} "
 """
 Classes whose entire subtree ``convert`` discards before dispatch.
 
@@ -413,6 +418,16 @@ class WikiHtmlConverter:
 
             process_strings = _hatnote_process
 
+        if (
+            "sidebar-caption" in classes or "infobox-caption" in classes
+        ) and self._in_table_cell(ele):
+            # Inside an infobox/sidebar cell, the caption follows the image
+            # or math on the same cell line; separate it with a ``<br/>``
+            # line break.  Applied after dispatch so it composes with the
+            # emphasis handler when the caption has an inline italic/bold
+            # style (which otherwise suppresses the div handler).
+            config.prefix = f" <br/> {config.prefix}" if config.prefix else " <br/> "
+
         if {"sidebar-navbar", "navbar"} & classes:
             parent = ele.parent
             while parent is not None:
@@ -680,7 +695,7 @@ class WikiHtmlConverter:
         # the href to normalize the fragment (underscores -> spaces) and keep
         # it in sync with the anchor produced by _equation_reference_anchor.
         if "#" in href:
-            to_fragment = href.split("#", 1)[1]
+            to_fragment = _plain_fragment(href.split("#", 1)[1])
         else:
             to_fragment = info.tofragment
         to_filename = _fix_name_maybe(
@@ -704,9 +719,14 @@ class WikiHtmlConverter:
             if self._page_name
             else None
         )
-        if normalized_page and _fix_filename(to_filename) == _fix_filename(
+        # ``mw-selflink-fragment`` already identifies the anchor as the
+        # current page, so it renders as a fragment even when the caller
+        # did not supply ``page_name`` (e.g. clipboard conversion).
+        same_page = "mw-selflink-fragment" in classes or bool(
             normalized_page
-        ):
+            and _fix_filename(to_filename) == _fix_filename(normalized_page)
+        )
+        if same_page:
             target = (
                 f"#{_encode_fragment(norm_frag)}"
                 if norm_frag
@@ -1120,7 +1140,7 @@ class WikiHtmlConverter:
                 ancestor.get_attribute_list("class")
             ):
                 continue
-            if bold and cls._is_list_only(ancestor):
+            if bold and (cls._is_list_only(ancestor) or cls._has_list_child(ancestor)):
                 continue
             style = str(ancestor.get("style", ""))
             if bold:
@@ -1176,6 +1196,21 @@ class WikiHtmlConverter:
             for child in children
         )
 
+    @classmethod
+    def _has_list_child(cls, ele: Tag) -> bool:
+        """Return whether *ele* contains at least one direct list child.
+
+        Used alongside ``_is_list_only`` for emphasis propagation: when a
+        bold container has both list and non-list children (e.g. a portal-bar
+        with a header ``<span>`` + ``<ul>``), emphasis must be pushed inward
+        to individual list items and non-list children rather than wrapping
+        the whole block.
+        """
+        return any(
+            isinstance(child, Tag) and child.name in _LIST_TAGS
+            for child in ele.children
+        )
+
     def _bold_list_items(self, ele: Tag) -> None:
         """Wrap every list item's content in ``<b>`` so bold survives."""
         for list_ele in ele.find_all(list(_LIST_TAGS)):
@@ -1223,6 +1258,35 @@ class WikiHtmlConverter:
             # the whole list (which would leave ``- `` markers inside ``__``).
             self._bold_list_items(ele)
             bold = False
+        if bold and self._has_list_child(ele):
+            # Emphasis propagation past Markdown constraints: a bold container
+            # with both list and non-list children (e.g. portal-bar with a
+            # header ``<span>`` + ``<ul>``) cannot wrap the whole block in
+            # ``__...__`` because that would leave ``- `` markers inside the
+            # emphasis span.  Push bold inward: bold each list item's content
+            # and wrap non-list direct children (e.g. the header) in ``<b>``.
+            self._bold_list_items(ele)
+            for child in list(ele.children):
+                if isinstance(child, Tag) and child.name not in _LIST_TAGS:
+                    TableConverter._wrap_children(child, self._soup, "b")
+            bold = False
+            # Apply blockquote wrapping: emphasis is already at content level,
+            # blockquote wraps outside.  ``process_strings`` runs on inner
+            # content BEFORE prefix/suffix, so ``> `` wraps the inner content
+            # and the (empty) prefix stays outside.
+            config = _HandlerConfig(prefix="", suffix="\n\n")
+
+            def _portal_blockquote_process(strings: str) -> str:
+                """Wrap portal-bar content lines in blockquote prefix."""
+                lines = strings.strip().split("\n")
+                result: list[str] = []
+                for line in lines:
+                    stripped = line.strip()
+                    result.append(f"> {stripped}" if stripped else ">")
+                return "\n".join(result)
+
+            config.process_strings = _portal_blockquote_process
+            return config
         if bold and self._has_emphasis_ancestor(ele, bold=True):
             bold = False
         if italic and self._has_emphasis_ancestor(ele, bold=False):
@@ -1444,13 +1508,6 @@ class WikiHtmlConverter:
             return _HandlerConfig(
                 suffix="\n\n", process_strings=process_strings_thumbcaption
             )
-        if (
-            "sidebar-caption" in classes or "infobox-caption" in classes
-        ) and self._in_table_cell(ele):
-            # Inside an infobox/sidebar cell, the caption follows the image
-            # or math on the same cell line; separate it with a ``<br/>``
-            # line break (both elements are inline siblings in the same cell).
-            return _HandlerConfig(prefix=" <br/> ")
         if "portal-bar" in classes:
             # Portal-bar divs (e.g. the "Portals" section at the bottom of
             # Wikipedia articles) should render as a blockquote so each line
@@ -1521,7 +1578,7 @@ class WikiHtmlConverter:
             # formula with ``<p> &nbsp;&nbsp;&nbsp;&nbsp;`` so it visually
             # joins the preceding text on the same line.
             if _is_display_math_only_dl(ele):
-                prefix = " <p> &nbsp;&nbsp;&nbsp;&nbsp;"
+                prefix = f" <p> {_MATH_DL_INDENT}"
         else:
             suffix = "\n\n"
             # When a <dl> follows a </li> or </ul>/</ol>, the preceding content
@@ -1537,7 +1594,12 @@ class WikiHtmlConverter:
             elif _is_display_math_only_dl(ele):
                 prev = self._content_sibling(ele, following=False)
                 if prev is not None and prev.name == "p":
-                    prefix = " <p> &nbsp;&nbsp;&nbsp;&nbsp; "
+                    prefix = f" <p> {_MATH_DL_INDENT} "
+                    # Each <dd> row of a multi-row <dl> is its own equation,
+                    # so keep them on separate lines rather than letting the
+                    # "\n" joiner collapse them into one soft-wrapped line.
+                    if len(ele.find_all("dd", recursive=False)) > 1:
+                        joiner = _MATH_DL_ROW_SEPARATOR
                     # Check if next sibling is a heading — headings should
                     # be on separate lines, not joined with <p>.
                     # Headings may be wrapped in div.mw-heading.
@@ -1726,11 +1788,31 @@ class WikiHtmlConverter:
 
     @staticmethod
     def _is_inline_math(ele: Tag, *, alt_text: str = "") -> bool:
-        """Determine if a <math> element should use inline $ delimiters."""
+        """Determine if a <math> element should use inline $ delimiters.
+
+        Wikipedia has moved the inline/display marker between HTML revisions:
+        older markup tags the ``<math>`` parent span
+        (``mwe-math-mathml-inline`` / ``mwe-math-mathml-display``), while
+        newer Parsoid markup tags the outer ``mwe-math-element`` wrapper
+        (``mwe-math-element-inline`` / ``mwe-math-element-block``) and leaves
+        the parent span as ``mwe-math-mathml-a11y``.  Consult both, treating
+        an explicit outer block marker as decisive.
+        """
         parent = ele.parent
-        if not parent or "inline" not in str(parent.get("class", "")):
-            return False
         outer_span = WikiHtmlConverter._math_outer_span(ele)
+        outer_classes = (
+            frozenset(outer_span.get_attribute_list("class"))
+            if isinstance(outer_span, Tag)
+            else frozenset()
+        )
+        if "mwe-math-element-block" in outer_classes:
+            return False
+        parent_classes = str(parent.get("class", "")) if parent is not None else ""
+        inline_marked = (
+            "inline" in parent_classes or "mwe-math-element-inline" in outer_classes
+        )
+        if not inline_marked:
+            return False
         container = WikiHtmlConverter._math_sibling_container(ele)
         if not isinstance(container, Tag):
             return False
@@ -2091,12 +2173,19 @@ class WikiHtmlConverter:
 
         A standalone ``numblk`` table (a sibling of an equation-box div, not
         a descendant) is rendered as a two-column equation table via
-        ``TableConverter.handle_standalone_numblk``.
+        ``TableConverter.handle_standalone_numblk``.  A table with no
+        ``<tbody>`` never reaches ``handle_tbody``, so it gets the same cell
+        normalization and ``<th>``-less header treatment here.
         """
         if "numblk" in classes and not WikiHtmlConverter._is_in_equation_box(ele):
             return TableConverter.handle_standalone_numblk(
                 ele, self._soup, self._names_map
             )
+
+        if "numblk" not in classes and ele.find("tbody", recursive=False) is None:
+            TableConverter._flatten_nested_tables(ele, self._soup)
+            TableConverter._normalize_table_cells(ele, self._soup)
+            TableConverter._ensure_th_less_header_row(ele, self._soup)
 
         # Rewrite equation-number cells (e.g. velocity table) before
         # conversion so they produce __\([N](#math%20N)\)__.
@@ -2332,7 +2421,8 @@ class WikiHtmlConverter:
         match the anchor produced by ``_equation_reference_anchor``.
         Returns the resolved href string.
         """
-        stem, _, frag = href.partition("#")
+        stem, _, raw_frag = href.partition("#")
+        frag = _plain_fragment(raw_frag)
         stem_name = _fix_name_maybe(
             stem.removeprefix("./"),
             replace_underscores=True,
@@ -2380,7 +2470,7 @@ class WikiHtmlConverter:
             if "new" in classes:
                 title = title.removesuffix(_cfg._PAGE_DOES_NOT_EXIST_SUFFIX)
             href = str(ele.get("href", ""))
-            to_fragment = href.split("#", 1)[-1] if "#" in href else ""
+            to_fragment = _plain_fragment(href.split("#", 1)[-1]) if "#" in href else ""
 
             config = self._resolve_link_from_title(title, to_fragment, classes)
             if config is not None:
@@ -2390,7 +2480,7 @@ class WikiHtmlConverter:
             if href.startswith(f"{_cfg._WIKI_HOST_URL}/wiki/") and "#" in href:
                 href = _markdown_fragment(
                     _fix_name_maybe(
-                        href[href.index("#") + 1 :],
+                        _plain_fragment(href[href.index("#") + 1 :]),
                         replace_underscores=True,
                         names_map=self._names_map,
                     )
@@ -2398,7 +2488,7 @@ class WikiHtmlConverter:
             elif href.startswith("#") and len(href) > 1:
                 href = _markdown_fragment(
                     _fix_name_maybe(
-                        href[1:],
+                        _plain_fragment(href[1:]),
                         replace_underscores=True,
                         names_map=self._names_map,
                     )

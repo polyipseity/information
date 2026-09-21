@@ -1,0 +1,1918 @@
+{
+  "api_titles": [
+    "Phase space formulation",
+    "Reduced mass",
+    "Phase-space formulation",
+    "Wavefunction",
+    "Hermitian adjoint",
+    "David Griffiths (physicist)",
+    "Quantum entanglement",
+    "Elitzur–Vaidman bomb tester",
+    "Schrödinger picture",
+    "Liboff, Richard L.",
+    "Quantum number",
+    "Wave function collapse",
+    "Ladder operator",
+    "Propagator",
+    "Objective-collapse theory",
+    "Double-slit experiment",
+    "Hidden-variable theory",
+    "Ground state",
+    "Particle in a spherically symmetric potential",
+    "Quantum machine learning",
+    "PDF",
+    "Canonical quantization",
+    "Observable",
+    "History of quantum mechanics",
+    "Dirac equation",
+    "Newton's laws",
+    "Quantum pendulum",
+    "Hamiltonian (quantum mechanics)",
+    "Heisenberg picture",
+    "Segal–Bargmann space",
+    "ISBN (identifier)",
+    "Barton Zwiebach",
+    "Wigner–Weyl transform",
+    "Quantum information science",
+    "Harmonic oscillator",
+    "List of quantum-mechanical systems with analytical solutions",
+    "Quantum tunnelling",
+    "Eigenstate",
+    "Hermitian operator",
+    "Copenhagen interpretation",
+    "Quantum statistical mechanics",
+    "Quantum computing",
+    "Phonon",
+    "Spherical harmonics",
+    "ArXiv (identifier)",
+    "Uncertainty principle",
+    "Energy eigenstate",
+    "Hooke's atom",
+    "Coherent state",
+    "Mathematical formulation of quantum mechanics",
+    "Quantum machine",
+    "Gas in a harmonic trap",
+    "Wolfgang Pauli",
+    "Hooke's law",
+    "QHO (airport)",
+    "Generator (mathematics)",
+    "Rutherford scattering experiments",
+    "Wave interference",
+    "Stern–Gerlach experiment",
+    "Interpretations of quantum mechanics",
+    "ISSN (identifier)",
+    "Hermite polynomials",
+    "Commutator",
+    "Second quantization",
+    "Many-worlds interpretation",
+    "Mach–Zehnder interferometer",
+    "Quantum decoherence",
+    "Potential energy",
+    "Pauli equation",
+    "Bell test",
+    "Coherent states",
+    "Schrödinger equation",
+    "Classical mechanics",
+    "Creation and annihilation operators",
+    "Complementarity (physics)",
+    "Quantum chaos",
+    "Wave function",
+    "Laguerre polynomials",
+    "Paul Dirac",
+    "Density matrix",
+    "Landau quantization",
+    "Discrete Fourier transform",
+    "Continuum limit",
+    "Wave packet",
+    "Overcompleteness",
+    "Husimi Q representation",
+    "Quantum field theory",
+    "Momentum",
+    "Zero-point energy",
+    "Spectral method",
+    "Normal modes",
+    "Diatomic molecule",
+    "Energy level",
+    "Canonical commutation relations",
+    "PMID (identifier)",
+    "Poisson distribution",
+    "Davisson–Germer experiment",
+    "Photon",
+    "Airy function",
+    "Munir Ahmad Rashid",
+    "Einstein–Podolsky–Rosen paradox",
+    "Mathematica",
+    "Consistent histories",
+    "Path integral formulation",
+    "Quantum logic",
+    "Energy",
+    "PMC (identifier)",
+    "Interaction picture",
+    "WKB approximation",
+    "Mehler kernel",
+    "Wavevector",
+    "Equilibrium point",
+    "Hydrogen-like atom",
+    "Correspondence principle",
+    "Bibcode (identifier)",
+    "Bertrand's theorem",
+    "Microsoft PowerPoint",
+    "Consciousness causes collapse",
+    "Angular frequency",
+    "Scattering theory",
+    "Superdeterminism",
+    "Measurement in quantum mechanics",
+    "Helium",
+    "Heisenberg uncertainty principle",
+    "Position operator",
+    "Rydberg formula",
+    "Expectation value (quantum mechanics)",
+    "Electromagnetic field",
+    "Particle in a box",
+    "Relativistic quantum mechanics",
+    "Gaussian function",
+    "Quantum nonlocality",
+    "Symmetry in quantum mechanics",
+    "Fourier space",
+    "Wavelength",
+    "Greg Gbur",
+    "Molecular vibration",
+    "Glossary of elementary quantum mechanics",
+    "Fundamental solution",
+    "Bohr model",
+    "Separation of variables",
+    "Planck constant",
+    "National University of Sciences and Technology, Pakistan",
+    "De Broglie–Bohm theory",
+    "Displacement operator",
+    "Eigenvalue",
+    "Franck–Hertz experiment",
+    "Quantum mechanics",
+    "Edward Condon",
+    "Quantum Bayesianism",
+    "Wavenumber",
+    "Doi (identifier)",
+    "Harald J.W. Müller-Kirsten",
+    "Bra–ket notation",
+    "Wigner quasiprobability distribution",
+    "Coordinate system",
+    "National Center for Physics",
+    "Quantum superposition",
+    "Ensemble interpretation",
+    "Transactional interpretation",
+    "Wayback Machine",
+    "Nondimensionalization",
+    "Momentum operator",
+    "Unitary operator",
+    "Morse potential",
+    "Old quantum theory",
+    "Quantum state",
+    "Canonical commutation relation",
+    "Quasiprobability distribution",
+    "Albert Messiah",
+    "Delayed-choice quantum eraser",
+    "Klein–Gordon equation",
+    "Relational quantum mechanics",
+    "Matrix mechanics"
+  ],
+  "api_responses": [
+    {
+      "batchcomplete": true,
+      "query": {
+        "redirects": [
+          {
+            "from": "Eigenstate",
+            "to": "Quantum state",
+            "tofragment": "Pure state"
+          },
+          {
+            "from": "Hermitian operator",
+            "to": "Self-adjoint operator"
+          },
+          {
+            "from": "Newton's laws",
+            "to": "Newton's laws of motion"
+          },
+          {
+            "from": "Liboff, Richard L.",
+            "to": "Richard Liboff"
+          },
+          {
+            "from": "Wavefunction",
+            "to": "Wave function"
+          },
+          {
+            "from": "Energy eigenstate",
+            "to": "Stationary state"
+          },
+          {
+            "from": "David Griffiths (physicist)",
+            "to": "David J. Griffiths"
+          },
+          {
+            "from": "ISBN (identifier)",
+            "to": "ISBN"
+          },
+          {
+            "from": "Phase space formulation",
+            "to": "Phase-space formulation"
+          },
+          {
+            "from": "ArXiv (identifier)",
+            "to": "ArXiv"
+          }
+        ],
+        "pages": [
+          {
+            "pageid": 5863,
+            "ns": 0,
+            "title": "Copenhagen interpretation"
+          },
+          {
+            "pageid": 8667,
+            "ns": 0,
+            "title": "Double-slit experiment"
+          },
+          {
+            "pageid": 13899,
+            "ns": 0,
+            "title": "Harmonic oscillator"
+          },
+          {
+            "pageid": 14381,
+            "ns": 0,
+            "title": "Hamiltonian (quantum mechanics)"
+          },
+          {
+            "pageid": 14919,
+            "ns": 0,
+            "title": "ISBN"
+          },
+          {
+            "pageid": 20728,
+            "ns": 0,
+            "title": "Mathematical formulation of quantum mechanics"
+          },
+          {
+            "pageid": 24077,
+            "ns": 0,
+            "title": "PDF"
+          },
+          {
+            "pageid": 25220,
+            "ns": 0,
+            "title": "Quantum computing"
+          },
+          {
+            "pageid": 25336,
+            "ns": 0,
+            "title": "Quantum entanglement"
+          },
+          {
+            "pageid": 31883,
+            "ns": 0,
+            "title": "Uncertainty principle"
+          },
+          {
+            "pageid": 38751,
+            "ns": 0,
+            "title": "ArXiv"
+          },
+          {
+            "pageid": 39407,
+            "ns": 0,
+            "title": "Dirac equation"
+          },
+          {
+            "pageid": 55212,
+            "ns": 0,
+            "title": "Newton's laws of motion"
+          },
+          {
+            "pageid": 71138,
+            "ns": 0,
+            "title": "Wave function collapse"
+          },
+          {
+            "pageid": 85747,
+            "ns": 0,
+            "title": "Reduced mass"
+          },
+          {
+            "pageid": 85754,
+            "ns": 0,
+            "title": "Phonon"
+          },
+          {
+            "pageid": 145343,
+            "ns": 0,
+            "title": "Wave function"
+          },
+          {
+            "pageid": 187408,
+            "ns": 0,
+            "title": "Self-adjoint operator"
+          },
+          {
+            "pageid": 203056,
+            "ns": 0,
+            "title": "Spherical harmonics"
+          },
+          {
+            "pageid": 211602,
+            "ns": 0,
+            "title": "Hidden-variable theory"
+          },
+          {
+            "pageid": 225982,
+            "ns": 0,
+            "title": "Ground state"
+          },
+          {
+            "pageid": 277213,
+            "ns": 0,
+            "title": "Coherent state"
+          },
+          {
+            "pageid": 294248,
+            "ns": 0,
+            "title": "Observable"
+          },
+          {
+            "pageid": 306706,
+            "ns": 0,
+            "title": "Heisenberg picture"
+          },
+          {
+            "pageid": 419200,
+            "ns": 0,
+            "title": "Schrödinger picture"
+          },
+          {
+            "pageid": 442505,
+            "ns": 0,
+            "title": "Particle in a spherically symmetric potential"
+          },
+          {
+            "pageid": 498470,
+            "ns": 0,
+            "title": "David J. Griffiths"
+          },
+          {
+            "pageid": 532405,
+            "ns": 0,
+            "title": "Quantum number"
+          },
+          {
+            "pageid": 643769,
+            "ns": 0,
+            "title": "Quantum tunnelling"
+          },
+          {
+            "pageid": 659094,
+            "ns": 0,
+            "title": "Quantum information science"
+          },
+          {
+            "pageid": 667175,
+            "ns": 0,
+            "title": "Hermitian adjoint"
+          },
+          {
+            "pageid": 698759,
+            "ns": 0,
+            "title": "Propagator"
+          },
+          {
+            "pageid": 712450,
+            "ns": 0,
+            "title": "Quantum statistical mechanics"
+          },
+          {
+            "pageid": 869590,
+            "ns": 0,
+            "title": "Canonical quantization"
+          },
+          {
+            "pageid": 1247296,
+            "ns": 0,
+            "title": "Barton Zwiebach"
+          },
+          {
+            "pageid": 3339367,
+            "ns": 0,
+            "title": "Elitzur–Vaidman bomb tester"
+          },
+          {
+            "pageid": 4277086,
+            "ns": 0,
+            "title": "Wigner–Weyl transform"
+          },
+          {
+            "pageid": 4930033,
+            "ns": 0,
+            "title": "Stationary state"
+          },
+          {
+            "pageid": 7742792,
+            "ns": 0,
+            "title": "Richard Liboff"
+          },
+          {
+            "pageid": 9067941,
+            "ns": 0,
+            "title": "History of quantum mechanics"
+          },
+          {
+            "pageid": 9396720,
+            "ns": 0,
+            "title": "Objective-collapse theory"
+          },
+          {
+            "pageid": 9505941,
+            "ns": 0,
+            "title": "List of quantum-mechanical systems with analytical solutions"
+          },
+          {
+            "pageid": 18649261,
+            "ns": 0,
+            "title": "Hooke's atom"
+          },
+          {
+            "pageid": 23280931,
+            "ns": 0,
+            "title": "Ladder operator"
+          },
+          {
+            "pageid": 30876419,
+            "ns": 0,
+            "title": "Quantum state"
+          },
+          {
+            "pageid": 32341352,
+            "ns": 0,
+            "title": "Quantum pendulum"
+          },
+          {
+            "pageid": 36053570,
+            "ns": 0,
+            "title": "Phase-space formulation"
+          },
+          {
+            "pageid": 40731477,
+            "ns": 0,
+            "title": "Segal–Bargmann space"
+          },
+          {
+            "pageid": 44108758,
+            "ns": 0,
+            "title": "Quantum machine learning"
+          }
+        ]
+      }
+    },
+    {
+      "batchcomplete": true,
+      "query": {
+        "redirects": [
+          {
+            "from": "Normal modes",
+            "to": "Normal mode"
+          },
+          {
+            "from": "Canonical commutation relations",
+            "to": "Canonical commutation relation"
+          },
+          {
+            "from": "Landau quantization",
+            "to": "Landau levels"
+          },
+          {
+            "from": "Munir Ahmad Rashid",
+            "to": "Muneer Ahmad Rashid"
+          },
+          {
+            "from": "PMID (identifier)",
+            "to": "PubMed",
+            "tofragment": "PubMed identifier"
+          },
+          {
+            "from": "ISSN (identifier)",
+            "to": "ISSN"
+          },
+          {
+            "from": "Coherent states",
+            "to": "Coherent state"
+          },
+          {
+            "from": "QHO (airport)",
+            "to": "Transportation in Houston",
+            "tofragment": "Airports"
+          }
+        ],
+        "pages": [
+          {
+            "pageid": 7193,
+            "ns": 0,
+            "title": "Commutator"
+          },
+          {
+            "pageid": 7938,
+            "ns": 0,
+            "title": "Diatomic molecule"
+          },
+          {
+            "pageid": 8811,
+            "ns": 0,
+            "title": "Discrete Fourier transform"
+          },
+          {
+            "pageid": 9604,
+            "ns": 0,
+            "title": "Many-worlds interpretation"
+          },
+          {
+            "pageid": 15112,
+            "ns": 0,
+            "title": "Wave interference"
+          },
+          {
+            "pageid": 20431,
+            "ns": 0,
+            "title": "Momentum"
+          },
+          {
+            "pageid": 23535,
+            "ns": 0,
+            "title": "Photon"
+          },
+          {
+            "pageid": 23703,
+            "ns": 0,
+            "title": "Potential energy"
+          },
+          {
+            "pageid": 24742,
+            "ns": 0,
+            "title": "Paul Dirac"
+          },
+          {
+            "pageid": 25267,
+            "ns": 0,
+            "title": "Quantum field theory"
+          },
+          {
+            "pageid": 33972,
+            "ns": 0,
+            "title": "Wolfgang Pauli"
+          },
+          {
+            "pageid": 54738,
+            "ns": 0,
+            "title": "Interpretations of quantum mechanics"
+          },
+          {
+            "pageid": 59444,
+            "ns": 0,
+            "title": "Energy level"
+          },
+          {
+            "pageid": 59874,
+            "ns": 0,
+            "title": "Schrödinger equation"
+          },
+          {
+            "pageid": 62844,
+            "ns": 0,
+            "title": "Density matrix"
+          },
+          {
+            "pageid": 84400,
+            "ns": 0,
+            "title": "Zero-point energy"
+          },
+          {
+            "pageid": 145343,
+            "ns": 0,
+            "title": "Wave function"
+          },
+          {
+            "pageid": 185732,
+            "ns": 0,
+            "title": "Quantum decoherence"
+          },
+          {
+            "pageid": 195984,
+            "ns": 0,
+            "title": "Hermite polynomials"
+          },
+          {
+            "pageid": 229553,
+            "ns": 0,
+            "title": "Hooke's law"
+          },
+          {
+            "pageid": 234930,
+            "ns": 0,
+            "title": "ISSN"
+          },
+          {
+            "pageid": 243110,
+            "ns": 0,
+            "title": "Spectral method"
+          },
+          {
+            "pageid": 277213,
+            "ns": 0,
+            "title": "Coherent state"
+          },
+          {
+            "pageid": 313779,
+            "ns": 0,
+            "title": "Quantum chaos"
+          },
+          {
+            "pageid": 319834,
+            "ns": 0,
+            "title": "Rutherford scattering experiments"
+          },
+          {
+            "pageid": 406896,
+            "ns": 0,
+            "title": "Airy function"
+          },
+          {
+            "pageid": 418156,
+            "ns": 0,
+            "title": "Second quantization"
+          },
+          {
+            "pageid": 452667,
+            "ns": 0,
+            "title": "Wave packet"
+          },
+          {
+            "pageid": 478195,
+            "ns": 0,
+            "title": "Normal mode"
+          },
+          {
+            "pageid": 503009,
+            "ns": 0,
+            "title": "PubMed"
+          },
+          {
+            "pageid": 579755,
+            "ns": 0,
+            "title": "Mach–Zehnder interferometer"
+          },
+          {
+            "pageid": 701991,
+            "ns": 0,
+            "title": "Creation and annihilation operators"
+          },
+          {
+            "pageid": 706295,
+            "ns": 0,
+            "title": "Canonical commutation relation"
+          },
+          {
+            "pageid": 886766,
+            "ns": 0,
+            "title": "Bell test"
+          },
+          {
+            "pageid": 943917,
+            "ns": 0,
+            "title": "Laguerre polynomials"
+          },
+          {
+            "pageid": 962171,
+            "ns": 0,
+            "title": "Stern–Gerlach experiment"
+          },
+          {
+            "pageid": 1389320,
+            "ns": 0,
+            "title": "Gas in a harmonic trap"
+          },
+          {
+            "pageid": 1530689,
+            "ns": 0,
+            "title": "Complementarity (physics)"
+          },
+          {
+            "pageid": 1828131,
+            "ns": 0,
+            "title": "Davisson–Germer experiment"
+          },
+          {
+            "pageid": 1918292,
+            "ns": 0,
+            "title": "Continuum limit"
+          },
+          {
+            "pageid": 3171371,
+            "ns": 0,
+            "title": "Generator (mathematics)"
+          },
+          {
+            "pageid": 5928663,
+            "ns": 0,
+            "title": "Transportation in Houston"
+          },
+          {
+            "pageid": 6252231,
+            "ns": 0,
+            "title": "Landau levels"
+          },
+          {
+            "pageid": 9383513,
+            "ns": 0,
+            "title": "Pauli equation"
+          },
+          {
+            "pageid": 16071200,
+            "ns": 0,
+            "title": "Husimi Q representation"
+          },
+          {
+            "pageid": 19555586,
+            "ns": 0,
+            "title": "Classical mechanics"
+          },
+          {
+            "pageid": 23009144,
+            "ns": 0,
+            "title": "Poisson distribution"
+          },
+          {
+            "pageid": 25125936,
+            "ns": 0,
+            "title": "Overcompleteness"
+          },
+          {
+            "pageid": 28910978,
+            "ns": 0,
+            "title": "Muneer Ahmad Rashid"
+          },
+          {
+            "pageid": 30115086,
+            "ns": 0,
+            "title": "Quantum machine"
+          }
+        ]
+      }
+    },
+    {
+      "batchcomplete": true,
+      "query": {
+        "redirects": [
+          {
+            "from": "Eigenvalue",
+            "to": "Eigenvalues and eigenvectors"
+          },
+          {
+            "from": "Heisenberg uncertainty principle",
+            "to": "Uncertainty principle"
+          },
+          {
+            "from": "Wavevector",
+            "to": "Wave vector"
+          },
+          {
+            "from": "Scattering theory",
+            "to": "Scattering",
+            "tofragment": "Theory"
+          },
+          {
+            "from": "Fourier space",
+            "to": "Frequency domain"
+          },
+          {
+            "from": "National University of Sciences and Technology, Pakistan",
+            "to": "National University of Sciences and Technology (Pakistan)"
+          },
+          {
+            "from": "Mathematica",
+            "to": "Wolfram Mathematica"
+          },
+          {
+            "from": "PMC (identifier)",
+            "to": "PubMed Central",
+            "tofragment": "PMCID"
+          },
+          {
+            "from": "Bibcode (identifier)",
+            "to": "Bibcode"
+          },
+          {
+            "from": "Equilibrium point",
+            "to": "Equilibrium point (mathematics)"
+          },
+          {
+            "from": "Quantum Bayesianism",
+            "to": "QBism"
+          },
+          {
+            "from": "Path integral formulation",
+            "to": "Path-integral formulation"
+          }
+        ],
+        "pages": [
+          {
+            "pageid": 4831,
+            "ns": 0,
+            "title": "Bohr model"
+          },
+          {
+            "pageid": 9649,
+            "ns": 0,
+            "title": "Energy"
+          },
+          {
+            "pageid": 9735,
+            "ns": 0,
+            "title": "Electromagnetic field"
+          },
+          {
+            "pageid": 10296,
+            "ns": 0,
+            "title": "Einstein–Podolsky–Rosen paradox"
+          },
+          {
+            "pageid": 13256,
+            "ns": 0,
+            "title": "Helium"
+          },
+          {
+            "pageid": 24048,
+            "ns": 0,
+            "title": "Particle in a box"
+          },
+          {
+            "pageid": 25202,
+            "ns": 0,
+            "title": "Quantum mechanics"
+          },
+          {
+            "pageid": 31883,
+            "ns": 0,
+            "title": "Uncertainty principle"
+          },
+          {
+            "pageid": 33125,
+            "ns": 0,
+            "title": "Wavelength"
+          },
+          {
+            "pageid": 49024,
+            "ns": 0,
+            "title": "Wolfram Mathematica"
+          },
+          {
+            "pageid": 54717,
+            "ns": 0,
+            "title": "De Broglie–Bohm theory"
+          },
+          {
+            "pageid": 59863,
+            "ns": 0,
+            "title": "Correspondence principle"
+          },
+          {
+            "pageid": 77229,
+            "ns": 0,
+            "title": "Microsoft PowerPoint"
+          },
+          {
+            "pageid": 164483,
+            "ns": 0,
+            "title": "Scattering"
+          },
+          {
+            "pageid": 199829,
+            "ns": 0,
+            "title": "Angular frequency"
+          },
+          {
+            "pageid": 237708,
+            "ns": 0,
+            "title": "Rydberg formula"
+          },
+          {
+            "pageid": 245552,
+            "ns": 0,
+            "title": "Gaussian function"
+          },
+          {
+            "pageid": 370346,
+            "ns": 0,
+            "title": "Frequency domain"
+          },
+          {
+            "pageid": 381805,
+            "ns": 0,
+            "title": "Franck–Hertz experiment"
+          },
+          {
+            "pageid": 387750,
+            "ns": 0,
+            "title": "Separation of variables"
+          },
+          {
+            "pageid": 438476,
+            "ns": 0,
+            "title": "Path-integral formulation"
+          },
+          {
+            "pageid": 573875,
+            "ns": 0,
+            "title": "Measurement in quantum mechanics"
+          },
+          {
+            "pageid": 663426,
+            "ns": 0,
+            "title": "Quantum logic"
+          },
+          {
+            "pageid": 686036,
+            "ns": 0,
+            "title": "Wave vector"
+          },
+          {
+            "pageid": 700154,
+            "ns": 0,
+            "title": "WKB approximation"
+          },
+          {
+            "pageid": 796928,
+            "ns": 0,
+            "title": "Consistent histories"
+          },
+          {
+            "pageid": 901382,
+            "ns": 0,
+            "title": "Interaction picture"
+          },
+          {
+            "pageid": 989013,
+            "ns": 0,
+            "title": "National University of Sciences and Technology (Pakistan)"
+          },
+          {
+            "pageid": 1441435,
+            "ns": 0,
+            "title": "Equilibrium point (mathematics)"
+          },
+          {
+            "pageid": 1820858,
+            "ns": 0,
+            "title": "Fundamental solution"
+          },
+          {
+            "pageid": 1907745,
+            "ns": 0,
+            "title": "Edward Condon"
+          },
+          {
+            "pageid": 2161429,
+            "ns": 0,
+            "title": "Eigenvalues and eigenvectors"
+          },
+          {
+            "pageid": 2775325,
+            "ns": 0,
+            "title": "PubMed Central"
+          },
+          {
+            "pageid": 4838571,
+            "ns": 0,
+            "title": "Position operator"
+          },
+          {
+            "pageid": 5122241,
+            "ns": 0,
+            "title": "Displacement operator"
+          },
+          {
+            "pageid": 5284206,
+            "ns": 0,
+            "title": "Bertrand's theorem"
+          },
+          {
+            "pageid": 8864159,
+            "ns": 0,
+            "title": "Molecular vibration"
+          },
+          {
+            "pageid": 8978774,
+            "ns": 0,
+            "title": "Quantum nonlocality"
+          },
+          {
+            "pageid": 10215842,
+            "ns": 0,
+            "title": "Superdeterminism"
+          },
+          {
+            "pageid": 11371560,
+            "ns": 0,
+            "title": "Expectation value (quantum mechanics)"
+          },
+          {
+            "pageid": 11724245,
+            "ns": 0,
+            "title": "Hydrogen-like atom"
+          },
+          {
+            "pageid": 14092434,
+            "ns": 0,
+            "title": "Bibcode"
+          },
+          {
+            "pageid": 19389837,
+            "ns": 0,
+            "title": "Relativistic quantum mechanics"
+          },
+          {
+            "pageid": 19594213,
+            "ns": 0,
+            "title": "Planck constant"
+          },
+          {
+            "pageid": 31393808,
+            "ns": 0,
+            "title": "Mehler kernel"
+          },
+          {
+            "pageid": 31831357,
+            "ns": 0,
+            "title": "Glossary of elementary quantum mechanics"
+          },
+          {
+            "pageid": 35611432,
+            "ns": 0,
+            "title": "QBism"
+          },
+          {
+            "pageid": 39580830,
+            "ns": 0,
+            "title": "Symmetry in quantum mechanics"
+          },
+          {
+            "pageid": 41681462,
+            "ns": 0,
+            "title": "Consciousness causes collapse"
+          },
+          {
+            "pageid": 61837215,
+            "ns": 0,
+            "title": "Greg Gbur"
+          }
+        ]
+      }
+    },
+    {
+      "batchcomplete": true,
+      "query": {
+        "redirects": [
+          {
+            "from": "National Center for Physics",
+            "to": "National Centre for Physics"
+          },
+          {
+            "from": "Harald J.W. Müller-Kirsten",
+            "to": "Harald J. W. Mueller-Kirsten"
+          },
+          {
+            "from": "Doi (identifier)",
+            "to": "Digital object identifier"
+          }
+        ],
+        "pages": [
+          {
+            "pageid": 4542,
+            "ns": 0,
+            "title": "Bra–ket notation"
+          },
+          {
+            "pageid": 81931,
+            "ns": 0,
+            "title": "Coordinate system"
+          },
+          {
+            "pageid": 82728,
+            "ns": 0,
+            "title": "Quantum superposition"
+          },
+          {
+            "pageid": 164570,
+            "ns": 0,
+            "title": "Wavenumber"
+          },
+          {
+            "pageid": 209627,
+            "ns": 0,
+            "title": "Klein–Gordon equation"
+          },
+          {
+            "pageid": 225999,
+            "ns": 0,
+            "title": "Unitary operator"
+          },
+          {
+            "pageid": 396320,
+            "ns": 0,
+            "title": "Matrix mechanics"
+          },
+          {
+            "pageid": 422994,
+            "ns": 0,
+            "title": "Digital object identifier"
+          },
+          {
+            "pageid": 467685,
+            "ns": 0,
+            "title": "Transactional interpretation"
+          },
+          {
+            "pageid": 706295,
+            "ns": 0,
+            "title": "Canonical commutation relation"
+          },
+          {
+            "pageid": 762970,
+            "ns": 0,
+            "title": "Morse potential"
+          },
+          {
+            "pageid": 1188104,
+            "ns": 0,
+            "title": "Old quantum theory"
+          },
+          {
+            "pageid": 1683270,
+            "ns": 0,
+            "title": "Nondimensionalization"
+          },
+          {
+            "pageid": 1884336,
+            "ns": 0,
+            "title": "Wigner quasiprobability distribution"
+          },
+          {
+            "pageid": 2288549,
+            "ns": 0,
+            "title": "Momentum operator"
+          },
+          {
+            "pageid": 3474700,
+            "ns": 0,
+            "title": "Delayed-choice quantum eraser"
+          },
+          {
+            "pageid": 4518807,
+            "ns": 0,
+            "title": "Quasiprobability distribution"
+          },
+          {
+            "pageid": 5974662,
+            "ns": 0,
+            "title": "Relational quantum mechanics"
+          },
+          {
+            "pageid": 7392872,
+            "ns": 0,
+            "title": "Ensemble interpretation"
+          },
+          {
+            "pageid": 23538754,
+            "ns": 0,
+            "title": "Wayback Machine"
+          },
+          {
+            "pageid": 23541193,
+            "ns": 0,
+            "title": "National Centre for Physics"
+          },
+          {
+            "pageid": 24442942,
+            "ns": 0,
+            "title": "Albert Messiah"
+          },
+          {
+            "pageid": 30876419,
+            "ns": 0,
+            "title": "Quantum state"
+          },
+          {
+            "pageid": 53187954,
+            "ns": 0,
+            "title": "Harald J. W. Mueller-Kirsten"
+          }
+        ]
+      }
+    }
+  ],
+  "redirect_cache": {
+    "Eigenstate": {
+      "to": "Quantum state",
+      "tofragment": "Pure state"
+    },
+    "Hermitian operator": {
+      "to": "Self-adjoint operator",
+      "tofragment": ""
+    },
+    "Newton's laws": {
+      "to": "Newton's laws of motion",
+      "tofragment": ""
+    },
+    "Liboff, Richard L.": {
+      "to": "Richard Liboff",
+      "tofragment": ""
+    },
+    "Wavefunction": {
+      "to": "Wave function",
+      "tofragment": ""
+    },
+    "Energy eigenstate": {
+      "to": "Stationary state",
+      "tofragment": ""
+    },
+    "David Griffiths (physicist)": {
+      "to": "David J. Griffiths",
+      "tofragment": ""
+    },
+    "ISBN (identifier)": {
+      "to": "ISBN",
+      "tofragment": ""
+    },
+    "Phase space formulation": {
+      "to": "Phase-space formulation",
+      "tofragment": ""
+    },
+    "ArXiv (identifier)": {
+      "to": "ArXiv",
+      "tofragment": ""
+    },
+    "Reduced mass": {
+      "to": "Reduced mass",
+      "tofragment": ""
+    },
+    "Phase-space formulation": {
+      "to": "Phase-space formulation",
+      "tofragment": ""
+    },
+    "Hermitian adjoint": {
+      "to": "Hermitian adjoint",
+      "tofragment": ""
+    },
+    "Quantum entanglement": {
+      "to": "Quantum entanglement",
+      "tofragment": ""
+    },
+    "Elitzur–Vaidman bomb tester": {
+      "to": "Elitzur–Vaidman bomb tester",
+      "tofragment": ""
+    },
+    "Schrödinger picture": {
+      "to": "Schrödinger picture",
+      "tofragment": ""
+    },
+    "Quantum number": {
+      "to": "Quantum number",
+      "tofragment": ""
+    },
+    "Wave function collapse": {
+      "to": "Wave function collapse",
+      "tofragment": ""
+    },
+    "Ladder operator": {
+      "to": "Ladder operator",
+      "tofragment": ""
+    },
+    "Propagator": {
+      "to": "Propagator",
+      "tofragment": ""
+    },
+    "Objective-collapse theory": {
+      "to": "Objective-collapse theory",
+      "tofragment": ""
+    },
+    "Double-slit experiment": {
+      "to": "Double-slit experiment",
+      "tofragment": ""
+    },
+    "Hidden-variable theory": {
+      "to": "Hidden-variable theory",
+      "tofragment": ""
+    },
+    "Ground state": {
+      "to": "Ground state",
+      "tofragment": ""
+    },
+    "Particle in a spherically symmetric potential": {
+      "to": "Particle in a spherically symmetric potential",
+      "tofragment": ""
+    },
+    "Quantum machine learning": {
+      "to": "Quantum machine learning",
+      "tofragment": ""
+    },
+    "PDF": {
+      "to": "PDF",
+      "tofragment": ""
+    },
+    "Canonical quantization": {
+      "to": "Canonical quantization",
+      "tofragment": ""
+    },
+    "Observable": {
+      "to": "Observable",
+      "tofragment": ""
+    },
+    "History of quantum mechanics": {
+      "to": "History of quantum mechanics",
+      "tofragment": ""
+    },
+    "Dirac equation": {
+      "to": "Dirac equation",
+      "tofragment": ""
+    },
+    "Quantum pendulum": {
+      "to": "Quantum pendulum",
+      "tofragment": ""
+    },
+    "Hamiltonian (quantum mechanics)": {
+      "to": "Hamiltonian (quantum mechanics)",
+      "tofragment": ""
+    },
+    "Heisenberg picture": {
+      "to": "Heisenberg picture",
+      "tofragment": ""
+    },
+    "Segal–Bargmann space": {
+      "to": "Segal–Bargmann space",
+      "tofragment": ""
+    },
+    "Barton Zwiebach": {
+      "to": "Barton Zwiebach",
+      "tofragment": ""
+    },
+    "Wigner–Weyl transform": {
+      "to": "Wigner–Weyl transform",
+      "tofragment": ""
+    },
+    "Quantum information science": {
+      "to": "Quantum information science",
+      "tofragment": ""
+    },
+    "Harmonic oscillator": {
+      "to": "Harmonic oscillator",
+      "tofragment": ""
+    },
+    "List of quantum-mechanical systems with analytical solutions": {
+      "to": "List of quantum-mechanical systems with analytical solutions",
+      "tofragment": ""
+    },
+    "Quantum tunnelling": {
+      "to": "Quantum tunnelling",
+      "tofragment": ""
+    },
+    "Copenhagen interpretation": {
+      "to": "Copenhagen interpretation",
+      "tofragment": ""
+    },
+    "Quantum statistical mechanics": {
+      "to": "Quantum statistical mechanics",
+      "tofragment": ""
+    },
+    "Quantum computing": {
+      "to": "Quantum computing",
+      "tofragment": ""
+    },
+    "Phonon": {
+      "to": "Phonon",
+      "tofragment": ""
+    },
+    "Spherical harmonics": {
+      "to": "Spherical harmonics",
+      "tofragment": ""
+    },
+    "Uncertainty principle": {
+      "to": "Uncertainty principle",
+      "tofragment": ""
+    },
+    "Hooke's atom": {
+      "to": "Hooke's atom",
+      "tofragment": ""
+    },
+    "Coherent state": {
+      "to": "Coherent state",
+      "tofragment": ""
+    },
+    "Mathematical formulation of quantum mechanics": {
+      "to": "Mathematical formulation of quantum mechanics",
+      "tofragment": ""
+    },
+    "Normal modes": {
+      "to": "Normal mode",
+      "tofragment": ""
+    },
+    "Canonical commutation relations": {
+      "to": "Canonical commutation relation",
+      "tofragment": ""
+    },
+    "Landau quantization": {
+      "to": "Landau levels",
+      "tofragment": ""
+    },
+    "Munir Ahmad Rashid": {
+      "to": "Muneer Ahmad Rashid",
+      "tofragment": ""
+    },
+    "PMID (identifier)": {
+      "to": "PubMed",
+      "tofragment": "PubMed identifier"
+    },
+    "ISSN (identifier)": {
+      "to": "ISSN",
+      "tofragment": ""
+    },
+    "Coherent states": {
+      "to": "Coherent state",
+      "tofragment": ""
+    },
+    "QHO (airport)": {
+      "to": "Transportation in Houston",
+      "tofragment": "Airports"
+    },
+    "Quantum machine": {
+      "to": "Quantum machine",
+      "tofragment": ""
+    },
+    "Gas in a harmonic trap": {
+      "to": "Gas in a harmonic trap",
+      "tofragment": ""
+    },
+    "Wolfgang Pauli": {
+      "to": "Wolfgang Pauli",
+      "tofragment": ""
+    },
+    "Hooke's law": {
+      "to": "Hooke's law",
+      "tofragment": ""
+    },
+    "Generator (mathematics)": {
+      "to": "Generator (mathematics)",
+      "tofragment": ""
+    },
+    "Rutherford scattering experiments": {
+      "to": "Rutherford scattering experiments",
+      "tofragment": ""
+    },
+    "Wave interference": {
+      "to": "Wave interference",
+      "tofragment": ""
+    },
+    "Stern–Gerlach experiment": {
+      "to": "Stern–Gerlach experiment",
+      "tofragment": ""
+    },
+    "Interpretations of quantum mechanics": {
+      "to": "Interpretations of quantum mechanics",
+      "tofragment": ""
+    },
+    "Hermite polynomials": {
+      "to": "Hermite polynomials",
+      "tofragment": ""
+    },
+    "Commutator": {
+      "to": "Commutator",
+      "tofragment": ""
+    },
+    "Second quantization": {
+      "to": "Second quantization",
+      "tofragment": ""
+    },
+    "Many-worlds interpretation": {
+      "to": "Many-worlds interpretation",
+      "tofragment": ""
+    },
+    "Mach–Zehnder interferometer": {
+      "to": "Mach–Zehnder interferometer",
+      "tofragment": ""
+    },
+    "Quantum decoherence": {
+      "to": "Quantum decoherence",
+      "tofragment": ""
+    },
+    "Potential energy": {
+      "to": "Potential energy",
+      "tofragment": ""
+    },
+    "Pauli equation": {
+      "to": "Pauli equation",
+      "tofragment": ""
+    },
+    "Bell test": {
+      "to": "Bell test",
+      "tofragment": ""
+    },
+    "Schrödinger equation": {
+      "to": "Schrödinger equation",
+      "tofragment": ""
+    },
+    "Classical mechanics": {
+      "to": "Classical mechanics",
+      "tofragment": ""
+    },
+    "Creation and annihilation operators": {
+      "to": "Creation and annihilation operators",
+      "tofragment": ""
+    },
+    "Complementarity (physics)": {
+      "to": "Complementarity (physics)",
+      "tofragment": ""
+    },
+    "Quantum chaos": {
+      "to": "Quantum chaos",
+      "tofragment": ""
+    },
+    "Wave function": {
+      "to": "Wave function",
+      "tofragment": ""
+    },
+    "Laguerre polynomials": {
+      "to": "Laguerre polynomials",
+      "tofragment": ""
+    },
+    "Paul Dirac": {
+      "to": "Paul Dirac",
+      "tofragment": ""
+    },
+    "Density matrix": {
+      "to": "Density matrix",
+      "tofragment": ""
+    },
+    "Discrete Fourier transform": {
+      "to": "Discrete Fourier transform",
+      "tofragment": ""
+    },
+    "Continuum limit": {
+      "to": "Continuum limit",
+      "tofragment": ""
+    },
+    "Wave packet": {
+      "to": "Wave packet",
+      "tofragment": ""
+    },
+    "Overcompleteness": {
+      "to": "Overcompleteness",
+      "tofragment": ""
+    },
+    "Husimi Q representation": {
+      "to": "Husimi Q representation",
+      "tofragment": ""
+    },
+    "Quantum field theory": {
+      "to": "Quantum field theory",
+      "tofragment": ""
+    },
+    "Momentum": {
+      "to": "Momentum",
+      "tofragment": ""
+    },
+    "Zero-point energy": {
+      "to": "Zero-point energy",
+      "tofragment": ""
+    },
+    "Spectral method": {
+      "to": "Spectral method",
+      "tofragment": ""
+    },
+    "Diatomic molecule": {
+      "to": "Diatomic molecule",
+      "tofragment": ""
+    },
+    "Energy level": {
+      "to": "Energy level",
+      "tofragment": ""
+    },
+    "Poisson distribution": {
+      "to": "Poisson distribution",
+      "tofragment": ""
+    },
+    "Davisson–Germer experiment": {
+      "to": "Davisson–Germer experiment",
+      "tofragment": ""
+    },
+    "Photon": {
+      "to": "Photon",
+      "tofragment": ""
+    },
+    "Airy function": {
+      "to": "Airy function",
+      "tofragment": ""
+    },
+    "Eigenvalue": {
+      "to": "Eigenvalues and eigenvectors",
+      "tofragment": ""
+    },
+    "Heisenberg uncertainty principle": {
+      "to": "Uncertainty principle",
+      "tofragment": ""
+    },
+    "Wavevector": {
+      "to": "Wave vector",
+      "tofragment": ""
+    },
+    "Scattering theory": {
+      "to": "Scattering",
+      "tofragment": "Theory"
+    },
+    "Fourier space": {
+      "to": "Frequency domain",
+      "tofragment": ""
+    },
+    "National University of Sciences and Technology, Pakistan": {
+      "to": "National University of Sciences and Technology (Pakistan)",
+      "tofragment": ""
+    },
+    "Mathematica": {
+      "to": "Wolfram Mathematica",
+      "tofragment": ""
+    },
+    "PMC (identifier)": {
+      "to": "PubMed Central",
+      "tofragment": "PMCID"
+    },
+    "Bibcode (identifier)": {
+      "to": "Bibcode",
+      "tofragment": ""
+    },
+    "Equilibrium point": {
+      "to": "Equilibrium point (mathematics)",
+      "tofragment": ""
+    },
+    "Quantum Bayesianism": {
+      "to": "QBism",
+      "tofragment": ""
+    },
+    "Path integral formulation": {
+      "to": "Path-integral formulation",
+      "tofragment": ""
+    },
+    "Einstein–Podolsky–Rosen paradox": {
+      "to": "Einstein–Podolsky–Rosen paradox",
+      "tofragment": ""
+    },
+    "Consistent histories": {
+      "to": "Consistent histories",
+      "tofragment": ""
+    },
+    "Quantum logic": {
+      "to": "Quantum logic",
+      "tofragment": ""
+    },
+    "Energy": {
+      "to": "Energy",
+      "tofragment": ""
+    },
+    "Interaction picture": {
+      "to": "Interaction picture",
+      "tofragment": ""
+    },
+    "WKB approximation": {
+      "to": "WKB approximation",
+      "tofragment": ""
+    },
+    "Mehler kernel": {
+      "to": "Mehler kernel",
+      "tofragment": ""
+    },
+    "Hydrogen-like atom": {
+      "to": "Hydrogen-like atom",
+      "tofragment": ""
+    },
+    "Correspondence principle": {
+      "to": "Correspondence principle",
+      "tofragment": ""
+    },
+    "Bertrand's theorem": {
+      "to": "Bertrand's theorem",
+      "tofragment": ""
+    },
+    "Microsoft PowerPoint": {
+      "to": "Microsoft PowerPoint",
+      "tofragment": ""
+    },
+    "Consciousness causes collapse": {
+      "to": "Consciousness causes collapse",
+      "tofragment": ""
+    },
+    "Angular frequency": {
+      "to": "Angular frequency",
+      "tofragment": ""
+    },
+    "Superdeterminism": {
+      "to": "Superdeterminism",
+      "tofragment": ""
+    },
+    "Measurement in quantum mechanics": {
+      "to": "Measurement in quantum mechanics",
+      "tofragment": ""
+    },
+    "Helium": {
+      "to": "Helium",
+      "tofragment": ""
+    },
+    "Position operator": {
+      "to": "Position operator",
+      "tofragment": ""
+    },
+    "Rydberg formula": {
+      "to": "Rydberg formula",
+      "tofragment": ""
+    },
+    "Expectation value (quantum mechanics)": {
+      "to": "Expectation value (quantum mechanics)",
+      "tofragment": ""
+    },
+    "Electromagnetic field": {
+      "to": "Electromagnetic field",
+      "tofragment": ""
+    },
+    "Particle in a box": {
+      "to": "Particle in a box",
+      "tofragment": ""
+    },
+    "Relativistic quantum mechanics": {
+      "to": "Relativistic quantum mechanics",
+      "tofragment": ""
+    },
+    "Gaussian function": {
+      "to": "Gaussian function",
+      "tofragment": ""
+    },
+    "Quantum nonlocality": {
+      "to": "Quantum nonlocality",
+      "tofragment": ""
+    },
+    "Symmetry in quantum mechanics": {
+      "to": "Symmetry in quantum mechanics",
+      "tofragment": ""
+    },
+    "Wavelength": {
+      "to": "Wavelength",
+      "tofragment": ""
+    },
+    "Greg Gbur": {
+      "to": "Greg Gbur",
+      "tofragment": ""
+    },
+    "Molecular vibration": {
+      "to": "Molecular vibration",
+      "tofragment": ""
+    },
+    "Glossary of elementary quantum mechanics": {
+      "to": "Glossary of elementary quantum mechanics",
+      "tofragment": ""
+    },
+    "Fundamental solution": {
+      "to": "Fundamental solution",
+      "tofragment": ""
+    },
+    "Bohr model": {
+      "to": "Bohr model",
+      "tofragment": ""
+    },
+    "Separation of variables": {
+      "to": "Separation of variables",
+      "tofragment": ""
+    },
+    "Planck constant": {
+      "to": "Planck constant",
+      "tofragment": ""
+    },
+    "De Broglie–Bohm theory": {
+      "to": "De Broglie–Bohm theory",
+      "tofragment": ""
+    },
+    "Displacement operator": {
+      "to": "Displacement operator",
+      "tofragment": ""
+    },
+    "Franck–Hertz experiment": {
+      "to": "Franck–Hertz experiment",
+      "tofragment": ""
+    },
+    "Quantum mechanics": {
+      "to": "Quantum mechanics",
+      "tofragment": ""
+    },
+    "Edward Condon": {
+      "to": "Edward Condon",
+      "tofragment": ""
+    },
+    "National Center for Physics": {
+      "to": "National Centre for Physics",
+      "tofragment": ""
+    },
+    "Harald J.W. Müller-Kirsten": {
+      "to": "Harald J. W. Mueller-Kirsten",
+      "tofragment": ""
+    },
+    "Doi (identifier)": {
+      "to": "Digital object identifier",
+      "tofragment": ""
+    },
+    "Wavenumber": {
+      "to": "Wavenumber",
+      "tofragment": ""
+    },
+    "Bra–ket notation": {
+      "to": "Bra–ket notation",
+      "tofragment": ""
+    },
+    "Wigner quasiprobability distribution": {
+      "to": "Wigner quasiprobability distribution",
+      "tofragment": ""
+    },
+    "Coordinate system": {
+      "to": "Coordinate system",
+      "tofragment": ""
+    },
+    "Quantum superposition": {
+      "to": "Quantum superposition",
+      "tofragment": ""
+    },
+    "Ensemble interpretation": {
+      "to": "Ensemble interpretation",
+      "tofragment": ""
+    },
+    "Transactional interpretation": {
+      "to": "Transactional interpretation",
+      "tofragment": ""
+    },
+    "Wayback Machine": {
+      "to": "Wayback Machine",
+      "tofragment": ""
+    },
+    "Nondimensionalization": {
+      "to": "Nondimensionalization",
+      "tofragment": ""
+    },
+    "Momentum operator": {
+      "to": "Momentum operator",
+      "tofragment": ""
+    },
+    "Unitary operator": {
+      "to": "Unitary operator",
+      "tofragment": ""
+    },
+    "Morse potential": {
+      "to": "Morse potential",
+      "tofragment": ""
+    },
+    "Old quantum theory": {
+      "to": "Old quantum theory",
+      "tofragment": ""
+    },
+    "Quantum state": {
+      "to": "Quantum state",
+      "tofragment": ""
+    },
+    "Canonical commutation relation": {
+      "to": "Canonical commutation relation",
+      "tofragment": ""
+    },
+    "Quasiprobability distribution": {
+      "to": "Quasiprobability distribution",
+      "tofragment": ""
+    },
+    "Albert Messiah": {
+      "to": "Albert Messiah",
+      "tofragment": ""
+    },
+    "Delayed-choice quantum eraser": {
+      "to": "Delayed-choice quantum eraser",
+      "tofragment": ""
+    },
+    "Klein–Gordon equation": {
+      "to": "Klein–Gordon equation",
+      "tofragment": ""
+    },
+    "Relational quantum mechanics": {
+      "to": "Relational quantum mechanics",
+      "tofragment": ""
+    },
+    "Matrix mechanics": {
+      "to": "Matrix mechanics",
+      "tofragment": ""
+    }
+  },
+  "image_metadata": {},
+  "name_map_overrides": {}
+}

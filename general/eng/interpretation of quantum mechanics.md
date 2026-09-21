@@ -1,0 +1,1 @@
+interpretations of quantum mechanics.md

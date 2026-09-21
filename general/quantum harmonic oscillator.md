@@ -1,0 +1,1 @@
+eng/quantum harmonic oscillator.md
