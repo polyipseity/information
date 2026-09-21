@@ -49,7 +49,7 @@ The content is in teaching order.
 - [formats](formats.md)
 - [questions](questions.md)
 
-## week 1 lecture
+## week 1 lecture 1
 
 - datetime: 2025-02-03T12:00:00+08:00/2025-02-03T13:20:00+08:00
 - topic: introduction to managerial accounting
@@ -113,7 +113,7 @@ The content is in teaching order.
         - job cost / manufacturing overhead (MOH) / rationale & handling ::@:: Such costs may be impossible or difficult to trace to particular jobs, consists of many different items, and may not be known until the end of a period. <p> So what we do is identify the cost driver (e.g. direct labor costs, direct labor hours, direct materials costs) and use it as an allocation base. Then use estimates to find the predetermined overhead rate (POHR). This rate is "predetermined" because it is determined before a period begins.
         - job cost / manufacturing overhead (MOH) / underapplied & overapplied ::@:: The _applied_ manufacturing overhead found using POHR is only an _estimate_. At the end of a period, we can find the _actual_ manufacturing overhead. If applied MOH > actual MOH then it is overapplied, and vice versa. If applied MOH < actual MOH then it is underapplied. <p> This discrepancy is accounted for by adjusting the cost of goods sold (COGS), which will be discussed below.
 
-## week 2 lecture
+## week 2 lecture 1
 
 - datetime: 2025-02-10T12:00:00+08:00/2025-02-10T13:20:00+08:00
 - topic: job order costing
@@ -170,7 +170,7 @@ The content is in teaching order.
             - process costing / weighted average cost / prepare production reports / formatting ::@:: Add dollar signs if needed to the first and last currency number in the same column. Underline total costs in section 3.
             - processing costing / weighted average cost / prepare production reports / format: [formats § process costing \(weighted average\)](formats.md#process%20costing%20(weighted%20average))
 
-## week 3 lecture
+## week 3 lecture 1
 
 - datetime: 2025-02-17T12:00:00+08:00/2025-02-17T13:20:00+08:00
 - topic: process costing
@@ -211,7 +211,7 @@ The content is in teaching order.
     - volume-based costing / manufacturing cost per unit ::@:: Simply add the direct materials per unit, direct labor per unit, and (applied) MOH per unit.
     - volume-based costing / gross profit margin ::@:: Find the gross profit per unit by subtracting manufacturing cost per unit from unit selling price. Then divide it by unit selling price and multiply by 100% to get \(_this_\).
 
-## week 4 lecture
+## week 4 lecture 1
 
 - datetime: 2025-02-24T12:00:00+08:00/2025-02-24T13:20:00+08:00
 - topic: activity-based costing (ABC)
@@ -249,7 +249,7 @@ The content is in teaching order.
 - [target costing](../../../../general/target%20costing.md) ::@:: It is an approach to determine a product's _life-cycle cost_ which should be sufficient to develop specified functionality and quality, while _ensuring_ its desired profit. <p> It differs from markup in that we use the market price (target price) and target profit to set the cost instead of the other way around. This way, market _supply and demand_ is considered.
     - target costing / equation ::@:: The target profit % (margin) is used to calculate the target profit from the target price. Then use the following equation: <p> target price – target profit = target cost <p> And then the target cost is the maximum amount spendable for lifecycle cost while ensuring a XX% profit/return.
 
-## week 5 lecture
+## week 5 lecture 1
 
 - datetime: 2025-03-03T12:00:00+08:00/2025-03-03T13:20:00+08:00
 - topic: cost behavior
@@ -285,7 +285,7 @@ The content is in teaching order.
     - contribution margin / ratio ::@:: contribution margin per unit / selling price per unit <p> \(__this course__: contribution margin / sales revenue\)
     - contribution margin / increased ::@:: It can also be used to account for increased sales. <p> You may use a _table_: <p> increased sales <br/> less: increased variable costs <br/> \(subtotal:\) increased contribution margin <br/> less: increased fixed costs <br/> \(total:\) increased net operating income
 
-## week 6 lecture
+## week 6 lecture 1
 
 - datetime: 2025-03-10T12:00:00+08:00/2025-03-10T13:20:00+08:00
 - topic: cost behavior
@@ -353,7 +353,7 @@ The content is in teaching order.
 > Best regards, <br/>
 > \[redacted\]
 
-## week 7 lecture
+## week 7 lecture 1
 
 - datetime: 2025-03-17T12:00:00+08:00/2025-03-17T13:20:00+08:00
 - topic: cost behavior
@@ -400,7 +400,7 @@ The content is in teaching order.
     - operating leverage / degree of operating leverage \(DOL\) ::@:: It can be computed as Total [Contribution Margin](../../../../general/contribution%20margin.md) over [Operating Income](../../../../general/operating%20income.md): $${\text{DOL} }={\frac {\text{Total Contribution} }{\text{Operating Income} } }={\frac {\text{Total Contribution} }{ {\text{Total Contribution} }-{\text{Fixed Costs} } } }={\frac {({\text{P} }-{\text{V} })\cdot {\text{X} } }{({\text{P} }-{\text{V} })\cdot {\text{X} }-{\text{FC} } } } \,.$$
         - operating leverage / degree of operating leverage / interpretation ::@:: It measures how much fixed costs are used to operate a business. In general, higher fixed costs means the business is more leveraged. This means a percentange change in sales translate to a higher percentage change in operating income: $${\text{DOL} }={\frac {\%{\text{ change in Operating Income} } }{\%{\text{ change in Sales} } } } \,.$$
 
-## week 8 lecture
+## week 8 lecture 1
 
 - datetime: 2025-03-24T12:00:00+08:00/2025-03-24T13:20:00+08:00, PT1H20M
 - topic: cost–volume–profit \(CVP\) analysis, incremental analysis for short-term decision making
@@ -456,7 +456,7 @@ The content is in teaching order.
         - contribution margin / constrained optimization / method ::@:: Assuming there is only 1 bottleneck and there is sufficient demand \(i.e. not demand constrained\). <p> Identify the demands and _bottleneck_. Divide the contribution margin of each product or service by the bottleneck capacity or resource required. This gives _contribution margin per bottleneck capacity or resource_. Finally, allocate resources to products with the highest contribution margins per bottleneck capacity or resource, until either its demand is fully satisfied or the resource has run out.
         - contribution margin / constrained optimization / format: [formats § constrained optimization using contribution margin](formats.md#constrained%20optimization%20using%20contribution%20margin)
 
-## week 9 lecture
+## week 9 lecture 1
 
 - datetime: 2025-03-31T12:00:00+08:00/2025-03-31T13:20:00+08:00, PT1H20M
 - status: unscheduled, midterm break
@@ -476,7 +476,7 @@ The content is in teaching order.
 - datetime: 2025-04-02T12:00:00+08:00/2025-04-02T13:20:00+08:00, PT1H20M
 - status: unscheduled, midterm break
 
-## week 10 lecture
+## week 10 lecture 1
 
 - datetime: 2025-04-07T12:00:00+08:00/2025-04-07T13:20:00+08:00, PT1H20M
 - topic: incremental analysis for short-term decision making
@@ -518,7 +518,7 @@ The content is in teaching order.
     - budget / budgeted balance sheet ::@:: \(example\) <p> 1. cash + accounts receivable + direct materials inventory + work-in-progress inventory + finished goods inventory + property, plant, and equipment = total assets <br/> 2. accounts payable + long-term liabilities = total liabilities <br/> 3. stockholders' equity <br/> 4. total liabilities + stockholders' equity = total liabilities and stockholders' equity
         - budget / budgeted balance sheet ::@:: It looks similar to a real balance sheet. List and sum assets on the left. List and sum liabilities on the right. List stockholder's equity on the right. <p> At the end of both sides, sum total assets and total liabilities and stockholders' equity, which should equal each other.
 
-## week 11 lecture
+## week 11 lecture 1
 
 - datetime: 2025-04-14T12:00:00+08:00/2025-04-14T13:20:00+08:00, PT1H20M
 - status: canceled
@@ -604,7 +604,7 @@ The content is in teaching order.
         - variance analysis / favorability / causes ::@:: It should be obvious what is _favorable_, e.g. paying lower prices/wages, producing more using less resources, using less materials, using less time, etc. The opposite is _unfavorable_.
 - assignment: [budgetary planning](assignments/budgetary%20planning/index.md)
 
-## week 12 lecture
+## week 12 lecture 1
 
 - datetime: 2025-04-21T12:00:00+08:00/2025-04-21T13:20:00+08:00, PT1H20M
 - status: unscheduled, public holiday: Easter Monday
@@ -723,7 +723,7 @@ The content is in teaching order.
 >
 > \[redacted\]
 
-## week 13 lecture
+## week 13 lecture 1
 
 - datetime: 2025-04-28T12:00:00+08:00/2025-04-28T13:20:00+08:00, PT1H20M
 - status: canceled, sick
@@ -810,7 +810,7 @@ The content is in teaching order.
 >
 > \[redacted\]
 
-## week 14 lecture
+## week 14 lecture 1
 
 - datetime: 2025-05-05T12:00:00+08:00/2025-05-05T13:20:00+08:00, PT1H20M
 - status: unscheduled, public holiday: Buddha's Birthday

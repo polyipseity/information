@@ -131,7 +131,7 @@ The content is in teaching order.
 - notes
     - There are 9 labs in total, and the schedule given above is tentative and subject to lecture progress.
 
-## week 1 lecture
+## week 1 lecture 1
 
 - datetime: 2026-09-01T09:00:00+08:00/2026-09-01T10:20:00+08:00
 - venue: Rm 4619, Lift 31-32

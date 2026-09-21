@@ -77,7 +77,7 @@ The content is in teaching order.
 
 - [questions](questions.md)
 
-## week 1 lecture
+## week 1 lecture 1
 
 - datetime: 2024-09-04T13:30:00+08:00/2024-09-04T14:50:00+08:00
 - course logistics
@@ -93,7 +93,7 @@ The content is in teaching order.
         - neural network ::@:: an _algorithm_ in _machine learning_ to solve problems
         - deep learning ::@:: (considered within _neural network_) a subfield of _machine learning_ that uses _neural networks_ to analyze different factors with a structure similar to the human neural system
 
-## week 1 lab
+## week 1 lab 1
 
 - datetime: 2024-09-05T16:30:00+08:00/2024-09-05T18:20:00+08:00
 - status: unscheduled, no lab
@@ -146,7 +146,7 @@ The content is in teaching order.
         - advanced Python / `type(value)` ::@:: Returns the type of `value`. When the type is printed, it produces, for example, `<class 'int'>`.
         - advanced Python / list comprehension ::@:: `[<expression> for <element> in <iterable> if <condition>]` <p> `if <condition>` is optional. It produces a `list` consisting of elements after evaluating `<expression>` on each `<element>` in `<iterable>`. If `<condition>` is present and returns false for an `<element>`, `<expression>` is not evaluated and not added to the `list`.
 
-## week 2 lecture
+## week 2 lecture 1
 
 - datetime: 2024-09-11T13:30:00+08:00/2024-09-11T14:50:00+08:00
 - Python
@@ -212,7 +212,7 @@ Area: 31415.926535897932
 Circumference: 628.3185307179587
 ```
 
-## week 2 lab
+## week 2 lab 1
 
 - datetime: 2024-09-12T16:30:00+08:00/2024-09-12T18:20:00+08:00
 - status: unscheduled, no lab
@@ -475,12 +475,12 @@ ID: 23456789
     - [NumPy § `numpy.newaxis`](../../../NumPy/API%20reference/constants.md#numpy.newaxis), `None` ::@:: A convenient alias for `None`, useful for indexing arrays: `numpy.newaxis is None`. Note that this is considered _simple indexing_, and as thus returns a view if there are no other _advanced indices_. <p> Each `numpy.newaxis` object in the selection tuple serves to expand the dimensions of the resulting selection by one unit-length dimension. The added dimension is the position of the `numpy.newaxis` object in the selection tuple.
     - [NumPy § `numpy.expand_dims`](../../../NumPy/API%20reference/generated/numpy.expand_dims.md) ::@:: `numpy.expand_dims(a, axis)` <p> A view is returned. `np.expand_dims` is also available as an array instance method, which _additionally_ allows passing a `tuple` of `axis` as separate arguments. <p> `axis` is an `int` or a `tuple` of `int`s specifying the position in the expanded axes where the new axis (or axes) is placed. (annotation: The new axis is inserted after the specified position, similar to `list.insert`.)
 
-## week 3 lecture
+## week 3 lecture 1
 
 - datetime: 2024-09-18T13:30:00+08:00/2024-09-18T14:50:00+08:00
 - status: unscheduled, public holiday: Day after Mid-Autumn Festival
 
-## week 3 lab
+## week 3 lab 1
 
 - datetime: 2024-09-19T16:30:00+08:00/2024-09-19T18:20:00+08:00
 - [assignments/lab 1](assignments/lab%201/)
@@ -513,7 +513,7 @@ ID: 23456789
 - [Bayes' theorem](../../../../general/Bayes'%20theorem.md#statement%20of%20the%20theorem) ::@:: __Bayes' theorem__ relates _P_(_A_|_B_) to _P_(_B_|_A_). It states $$P(A \mid B) = \frac {P(B \mid A) P(A)} {P(B)} \qquad P(B) \ne 0 \,.$$ Sometimes the theorem is stated in the form where the denominator is replaced using the _law of total probability_.
     - Bayes' theorem / names ::@:: `B`: belief/class, `E`: evidence/feature <p> posterior `P(B|E)` = likelihood `P(E|B)` × prior `P(B)` ÷ marginal probability `P(E)`
 
-## week 4 lecture
+## week 4 lecture 1
 
 - datetime: 2024-09-25T13:30:00+08:00/2024-09-25T14:50:00+08:00
 - [Bayes' theorem](../../../../general/Bayes'%20theorem.md#statement%20of%20the%20theorem)
@@ -525,7 +525,7 @@ ID: 23456789
     - naive Bayes classifier / [additive smoothing](../../../../general/additive%20smoothing.md) ::@:: __Additive smoothing__ is also called __(_α_-)Laplace smoothing__ or __(_α_-)Lidstone smoothing__. In the context of naive Bayes classifier, this is $$P(e = v_e | B = v_b) = \frac {\alpha + \text{count of }e = v_e\text{ and }B = v_b} {N \alpha + \text{count of }B = v_0}\,, $$ where _α_ is a real number called the __pseudocount__, and _N_ is the number of possible values for the evidence _e_. The pseudocount is usually 1. <p> This eliminates problems with zero probabilities wiping any chance of a belief being selected if a combination of individual evidence and belief has never been seen in the training data set (__zero frequency problem__). <p> An interpretation of the _pseudocount_ is that even if we have no data, we assume that we have seen a belief and a evidence for each possible values of an evidence together for _pseudocount_ number of times.
     - naive Bayes classifier / scikit-learn ::@:: `sklearn.naive_bayes.CategoricalNB(alpha=<additive smoothing parameter>)` → `fit(training_x, training_y)` → `predict(new_x)` or `predict_proba(new_x)`
 
-## week 4 lab
+## week 4 lab 1
 
 - datetime: 2024-09-26T16:30:00+08:00/2024-09-26T18:20:00+08:00
 - [assignments/lab 2](assignments/lab%202/)
@@ -551,7 +551,7 @@ ID: 23456789
     - naive Bayes classifier / advantages ::@:: computationally efficient, easy to implement, natural language processing (text classification), supports multiple categories, works well on a _large data set_
     - naive Bayes classifier / disadvantages ::@:: very biased _predicted probabilities_ (rather than simply asking to classify), hardly true assumption of feature independence, low _precision_ on a _small data set_, zero frequency problem (mitigated by additive smoothening)
 
-## week 5 lecture
+## week 5 lecture 1
 
 - datetime: 2024-10-02T13:30:00+08:00/2024-10-02T14:50:00+08:00
 - [_k_-nearest neighbors algorithm](../../../../general/k-nearest%20neighbors%20algorithm.md) ::@:: ___k_-nearest neighbors algorithm__ is a _lazy_ (generalization of the training data is delayed until a query to the algorithm) learning algorithm. It is also _non-parametric_ as it does not make any assumptions on the data being studied (e.g. the distribution of the data). Note that _k_ is a _hyperparameter_, not a _parameter_.
@@ -564,7 +564,7 @@ ID: 23456789
 - [_k_-nearest neighbors algorithm](../../../../general/k-nearest%20neighbors%20algorithm.md)
     - _k_-nearest neighbors algorithm / distance functions ::@:: Euclidean distance (the distance we are most familiar with), Hamming distance, Manhattan distance (city block distance, taxicab distance), cosine distance
 
-## week 5 lab
+## week 5 lab 1
 
 - datetime: 2024-10-03T16:30:00+08:00/2024-10-03T18:20:00+08:00
 - [assignments/lab 3](assignments/lab%203/)
@@ -616,7 +616,7 @@ ID: 23456789
         - [Matthews correlation coefficient](../../../../general/phi%20coefficient.md) (MCC) ::@:: $$\frac {\text{TP} \times \text{TN} - \text{FP} \times \text{FN} } {\sqrt{(\text{TP} + \text{FP}) (\text{TP} + \text{FN}) (\text{TN} + \text{FP}) (\text{TN} + \text{FN})} }$$
             - Matthews correlation coefficient / interpretation ::@:: It is a _best single-value classification metric_ which helps to _summarize_ a confusion matrix or error matrix. <p> It ranges between +1 and -1 as, where +1 is the best agreement between the predicted and actual values; 0 is no agreement, meaning that prediction is random according to the actual values; and -1 means the predicted values are always opposite of the actual values.
 
-## week 6 lecture
+## week 6 lecture 1
 
 - datetime: 2024-10-09T13:30:00+08:00/2024-10-09T14:50:00+08:00
 - [cluster analysis](../../../../general/cluster%20analysis.md) ::@:: __Cluster analysis__ or __clustering__ is the task of grouping a set of objects in such a way that objects in the same group (called a __cluster__) are more similar (in some specific sense defined by the analyst) to each other than to those in other groups (clusters).
@@ -627,7 +627,7 @@ ID: 23456789
     - _k_-means clustering / algorithm ::@:: Choose _k_ initial centroids. They are usually data points in the training dataset. <p> Find distances (using a distance function) of training data to the centroids. Assign each data point to the closest centroid (a tie-breaking method may be required). Re-compute the centroids using the centroid memberships (_k_-means use the mean, _k_-medians use the median, _k_-modes use the mode, _k_-medoids use an actual training point). If a _stopping criterion_ is not met, repeat the above steps again.
     - _k_-means clustering / scikit-learn ::@:: `sklearn.cluster.KMeans(n_clusters=<number of clusters>, init=<initial centroids>, n_init=<number of times to initialize centroids>, max_iter=<maximum number of iterations>)` → `fit(training_data)` → `cluster_centers_`, `predict(new_data)`
 
-## week 6 lab
+## week 6 lab 1
 
 - datetime: 2024-10-10T16:30:00+08:00/2024-10-10T18:20:00+08:00
 - [assignments/lab 4](assignments/lab%204/)
@@ -639,7 +639,7 @@ ID: 23456789
 - datetime: 2024-10-11T13:30:00+08:00/2024-10-11T14:50:00+08:00
 - status: unscheduled, public holiday: Chung Yeung Festival
 
-## week 7 lecture
+## week 7 lecture 1
 
 - datetime: 2024-10-16T13:30:00+08:00/2024-10-16T14:50:00+08:00
 - [_k_-means clustering](../../../../general/k-means%20clustering.md)
@@ -693,7 +693,7 @@ ID: 23456789
     - [artificial neuron § rectifier](../../../../general/artificial%20neuron.md#rectifier) ::@:: $$y = u^+ = \max(0, u) = \frac {u + \lvert u \rvert} 2 = \begin{cases} u & \text{if }u > 0 \\ 0 & \text{otherwise} \end{cases}$$
     - [artificial neuron § sigmoid](../../../../general/artificial%20neuron.md#sigmoid) ::@:: [logistic function](../../../../general/logistic%20function.md) with _L_ = 1, _k = 1_, and _x_<sub>0</sub> = 0: $$y = \frac L {1 + e^{-k(u - x_0)} } = \frac 1 {1 + e^{-u} }$$ <p> [hyperbolic tangent](../../../../general/hyperbolic%20functions.md) ($\tanh$): $$y = \frac {\sinh u} {\cosh u} = \frac {e^u - e^{-u} } {e^u + e^{-u} } = \frac {e^{2u} - 1} {e^{2u} + 1}$$
 
-## week 7 lab
+## week 7 lab 1
 
 - datetime: 2024-10-17T16:30:00+08:00/2024-10-17T18:20:00+08:00
 - [assignments/lab 5](assignments/lab%205/)
@@ -722,7 +722,7 @@ ID: 23456789
         - gradient descent / specific algorithm for dummies / update weights and biases ::@:: After computing the gradient, update the weights (and biases, by treating them as "neurons" that always output 1) according to a real number called the _learning rate_ $\eta$. <p> For a weight $w_{x \rightarrow y}$ from neuron _x_ (for biases, the "input neuron" always output 1) to neuron _y_ with the total input gradient $\delta w_y = \frac {\partial E} {h_y}$, update the weight as follows: $$w_{x \rightarrow y} \gets w_{x \rightarrow y} - \eta O_x \delta w_y \,,$$ where _O<sub>x</sub>_ is the output (after activation function) of _x_. Remember to update the biases as well. <p> The multiplication by $O_x$ is explained by $$\frac {\partial E} {\partial w_{x \to y} } = \frac {\partial h_y} {\partial w_{x \to y} } \frac {\partial E} {\partial h_y} = O_x \delta w_y \,.$$
     - [delta rule](../../../../general/delta%20rule.md)
 
-## week 8 lecture
+## week 8 lecture 1
 
 - datetime: 2024-10-23T13:30:00+08:00/2024-10-23T14:50:00+08:00
 - [gradient descent](../../../../general/gradient%20descent.md)
@@ -734,7 +734,7 @@ ID: 23456789
     - gradient descent / activation function
         - gradient descent / activation function / requirements ::@:: Since gradient descent finds the local derivative of the error function, the activation function should be continuous and differentiable almost everywhere (not differentiable in only some points). <p> For example, sigmoid is differentiable everywhere. ReLU is differentiable almost everywhere (not differentiable at _x_ = 0), so we often assign a fixed value (e.g. 0, 0.5, 1, ...) to be its "derivative" if _x_ happens to be 0 during calculation.
 
-## week 8 lab
+## week 8 lab 1
 
 - datetime: 2024-10-24T16:30:00+08:00/2024-10-24T18:20:00+08:00
 - [assignments/lab 6](assignments/lab%206/)
@@ -759,7 +759,7 @@ ID: 23456789
 - [MNIST database](../../../../general/MNIST%20database.md) ::@:: The __MNIST database__ \(_Modified [National Institute of Standards and Technology](National%20Institute%20of%20Standards%20and%20Technology.md) database_\) is a large [database](database.md) of handwritten digits that is commonly used for [training](training,%20validation,%20and%20test%20data%20sets.md) various [image processing](digital%20image%20processing.md) systems. The database is also widely used for training and testing in the field of [machine learning](machine%20learning.md).
     - MINST database / dimensionality ::@:: The MNIST database contains 60&nbsp;000 training images and 10&nbsp;000 testing images. The images are 28×28 in pixel size.
 
-## week 9 lecture
+## week 9 lecture 1
 
 - datetime: 2024-10-30T13:30:00+08:00/2024-10-30T14:50:00+08:00
 - Keras
@@ -781,7 +781,7 @@ ID: 23456789
         - Keras / procedures / use the model ::@:: Use the model using `predictions = model.predict([x_test])`. <p>  In this example, it returns a `(10000, 10)` NumPy array. Each row in this array is a probability distribution (sums up to 1 due to `softmax`). Choose the label with the highest probability as the prediction using `prediction_results = np.argmax(predictions, axis=1)`.
         - Keras / procedures / plot the confusion matrix ::@:: The confusion matrix shows what numbers are recognized well by the model and what numbers the model usually confuses to recognize correctly. <p> For example, use `cm = tensorflow.math.confusion_matrix(y_test, prediction_results)` and `sn.heatmap(cm, annot=True, linewidths=.5, fmt="d", square=True, ax=plt.subplots(figsize=(9, 9))[1])`, etc.
 
-## week 9 lab
+## week 9 lab 1
 
 - datetime: 2024-10-31T16:30:00+08:00/2024-10-31T18:20:00+08:00
 
@@ -883,7 +883,7 @@ ID: 23456789
     - [backpropagation](../../../../general/backpropagation.md)
         - [backpropagation](../../../../general/backpropagation.md) / mathematics ::@:: The gradient computed for a weight parameter $w$ above can be obtained by evaluating $\frac {\partial E} {\partial w}$, the partial derivative of the error/loss function with respect to the weight. <p> Take biases as "nodes" that always output 1.
 
-## week 10 lecture
+## week 10 lecture 1
 
 - datetime: 2024-11-06T13:30:00+08:00/2024-11-06T14:50:00+08:00
 - [convolutional neural network](../../../../general/convolutional%20neural%20network.md) ::@:: It is a regularized type of feed-forward neural network that learns features by itself via filter (or kernel) optimization. This type of deep learning network has been applied to process and make predictions from _many different types of data including text, images and audio_. <p> Research has demonstrated that preprocessing images before feeding them to CNN would _significantly improve the classification/recognition accuracy_.
@@ -905,7 +905,7 @@ ID: 23456789
     - color to grayscale / use ::@:: In certain problem, you will find it useful to _lose unnecessary information_ from your images to _reduce space and computational complexity_. <p> Converting colored images to grayscale images is an example. This is done, as color is not necessary to recognize and interpret an image. <p> Color images can add unnecessary complexity and take up more space in memory.
     - `cv2.cvtColor(image, code)` ::@:: __`image`__: Image to be processed in n-dimensional array <p> __`code`__: Conversion code for colorspace. For converting RGB to grayscale, we use `cv2.COLOR_RGB2GRAY`. <br/> Return value: Converted image.
 
-## week 10 lab
+## week 10 lab 1
 
 - datetime: 2024-11-07T16:30:00+08:00/2024-11-07T18:20:00+08:00
 - [assignments/lab 7](assignments/lab%207/)
@@ -950,7 +950,7 @@ ID: 23456789
             - histogram equalization / algorithm ::@:: Consider the image intensities $i \in [0, L - 1]$ of an image $x$ as a discrete probability distribution. Find its CDF $\operatorname{cdf}_x(i)$. Then the CDF itself is the transformation $T(x)$ such that $y = T(x)$ has an equalized histogram. <p> Remember to remap the values back to $[0, L - 1]$ using $y' = y \cdot (L - 1)$. If $y$ is required to consist of integers, then $y' = \operatorname{ceil}(L \cdot y) - 1$. (Note: If $y = 0$, then $y' = -1$. But $y = 0$ does not happen because this means there are no pixels with said value by the nature of the CDF.) <p> For colored images, it can be applied separately on the color channels (may significantly affect color balance), or on an image that is converted to another color space.
                 - histogram equalization / algorithm / in practice ::@:: In theory, the resulting histogram of the resulting image is a horizontal line. In practice, this is not the case due to pixel values being integers. The resulting histogram is more like the original histogram stretched out to cover the entire graph.
 
-## week 11 lecture
+## week 11 lecture 1
 
 - datetime: 2024-11-13T13:30:00+08:00/2024-11-13T14:50:00+08:00
 - image operations
@@ -977,7 +977,7 @@ ID: 23456789
         - kernel / edge handling / mirror ::@:: Reflect the values across edge pixels of an image. It is slightly different from _reflect_. <p> For example: `...3212345432|12345|4321234543...`. Notice that the mirrors are pixels (thick mirror) and is placed on the edge pixels.
     - [convolution](../../../../general/convolution.md)
 
-## week 11 lab
+## week 11 lab 1
 
 - datetime: 2024-11-14T16:30:00+08:00/2024-11-14T18:20:00+08:00
 - [assignments/lab 8](assignments/lab%208/)
@@ -1060,7 +1060,7 @@ ID: 23456789
     - one-hot encoding / Keras ::@:: For example, `y_train = keras.utils.to_categorical(y_train, num_classes)`. <p> The resulting labels are to be used with `categorical_crossentropy` as a loss function to compute the loss against the multiple neurons. <p> (Or you can skip one-hot encoding, because `sparse_categorical_crossentropy` automatically does that for you before computing the loss against the multiple neurons.)
     - one-hot encoding / motivation ::@:: Categorical data can be either [nominal](../../../../general/nominal%20number.md) or [ordinal](../../../../general/ordinal%20number.md). <p> _Ordinal_ data has a ranked order for its values and can therefore be converted to numerical data through ordinal encoding. An example of ordinal data would be the ratings on a test ranging from A to F, which could be ranked using numbers from 6 to 1. <p> Since there is no quantitative relationship between _nominal_ variables' individual values, using ordinal encoding can potentially create a fictional ordinal relationship in the data. Therefore, one-hot encoding is often applied to nominal variables, in order to improve the performance of the algorithm. <p> Benefits include that the training data is more usable and expressive, and can be rescaled easily.
 
-## week 12 lecture
+## week 12 lecture 1
 
 - datetime: 2024-11-20T13:30:00+08:00/2024-11-20T14:50:00+08:00
 - [convolutional neural network](../../../../general/convolutional%20neural%20network.md)
@@ -1091,7 +1091,7 @@ ID: 23456789
     - minimax / zero-sum game ::@:: The original version requires zero-sum. In two-player zero-sum games, others minimizing my payoff is the same as maximizing others' own payoff. In a non-zero-sum game, this is not necessarily the case. <p> More information: "Maximin" is a term commonly used for non-zero-sum games to describe the strategy which maximizes one's own minimum payoff. In non-zero-sum games, this is _not generally the same_ as minimizing the opponent's maximum gain, nor the same as the Nash equilibrium strategy. <p> (There are extensions to more complex games, but ignore this for exams...)
     - minimax / number of states ::@:: If the game is deterministic, has perfect information, and is zero-sum, then we can apply minimax to it _theoretically_. But in _practice_, games with too many states are also not suitable (even with alpha–beta pruning). <p> (There are variants that cuts off the decision tree to a practical size, but ignore this for exams...)
 
-## week 12 lab
+## week 12 lab 1
 
 - datetime: 2024-11-21T16:30:00+08:00/2024-11-21T18:20:00+08:00
 - [assignments/lab 9](assignments/lab%209/)
@@ -1105,7 +1105,7 @@ ID: 23456789
     - minimax / visual execution ::@:: Setup the tree as above. <p> Explore the state tree in in depth-first traversal. In DFS, backtracking is needed. Whenever a backtracking occurs, update the utility of non-terminal nodes according to the MAX or MIN between the value of the current node (the node we have just backtracked to) and the just-explored child (the node we have just backtracked from). Repeat until the entire tree is explored. <p> Finally, make the decision either using the MAX (this is the usual case) or the MIN (evaluating the optimal decision for other players) rule.
     - minimax / non-optimal play ::@:: The definition of optimal play for MAX assumes MIN plays optimally, i.e., maximizes the worst-case outcome for MAX. If _MIN does not play optimally_, MAX, if _playing optimally_, will do the same or even better, i.e. has a equal or higher payoff than that given by the minimax algorithm.
 
-## week 13 lecture
+## week 13 lecture 1
 
 - datetime: 2024-11-27T13:30:00+08:00/2024-11-27T14:50:00+08:00
 - minimax
@@ -1123,7 +1123,7 @@ ID: 23456789
 - [minimax](../../../../general/minimax.md)
     - [negamax](../../../../general/negamax.md) ::@:: It is a variant form of minimax search that relies on the zero-sum property of a two-player game.
 
-## week 13 lab
+## week 13 lab 1
 
 - datetime: 2024-11-28T16:30:00+08:00/2024-11-28T18:20:00+08:00
 

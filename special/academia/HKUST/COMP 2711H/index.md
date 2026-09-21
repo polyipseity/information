@@ -39,7 +39,7 @@ The content is in teaching order.
 - [homework 3](assignments/homework%203/submission.md): 9/10
 - [homework 4](assignments/homework%204/submission.md): 8/10 → 10/10
 
-## week 1 lecture
+## week 1 lecture 1
 
 - datetime: 2024-09-02T09:00:00+08:00/2024-09-02T10:20:00+08:00
 - topic: propositional logic
@@ -78,7 +78,7 @@ The content is in teaching order.
     - Grimaldi/Chapter 2: Fundamentals of Logic
     - [video: proofs](https://youtu.be/L3LMbpZIKhQ)
 
-## week 1 tutorial
+## week 1 tutorial 1
 
 - datetime: 2024-09-02T18:00:00+08:00/2024-09-02T18:50:00+08:00
 - topic: predicate logic, Peano's axioms
@@ -146,7 +146,7 @@ The content is in teaching order.
     - [video: 2+2=4](https://youtu.be/TQpHVtlXuyc)
     - [Mathematical Induction](https://www.sydney.edu.au/content/dam/students/documents/mathematics-learning-centre/mathematical-induction.pdf)
 
-## week 2 lecture
+## week 2 lecture 1
 
 - datetime: 2024-09-09T09:00:00+08:00/2024-09-09T10:20:00+08:00
 - topic: induction problems, strong induction
@@ -167,7 +167,7 @@ The content is in teaching order.
         - It is really important that you give \*\*every\*\* problem an honest and serious attempt before reading its solution. You must reach mastery in using mathematical induction and its equivalent forms. All of the future modules in this course depend on such mastery.
     - Engel/Chapter 8: The Induction Principle
 
-## week 2 tutorial
+## week 2 tutorial 1
 
 - datetime: 2024-09-09T18:00:00+08:00/2024-09-09T18:50:00+08:00
 - topic: solving more induction problems
@@ -201,7 +201,7 @@ The content is in teaching order.
         - It is crucial that you solve \*\*every\*\* exercise at the end of these chapters.
     - [fun to read: Which Rectangular Chessboards Have a Knight's Tour?](https://www.jstor.org/stable/2690649)
 
-## week 3 lecture
+## week 3 lecture 1
 
 - datetime: 2024-09-16T09:00:00+08:00/2024-09-16T10:20:00+08:00
 - topic: solving counting problems
@@ -213,7 +213,7 @@ The content is in teaching order.
     - Chen and Koh/Chapter 1: Permutations and Combinations (very important)
     - Andreescu and Feng: solve problem 1 to problem 24
 
-## week 3 tutorial
+## week 3 tutorial 1
 
 - datetime: 2024-09-16T18:00:00+08:00/2024-09-16T18:50:00+08:00
 - topic: more counting
@@ -240,7 +240,7 @@ The content is in teaching order.
 - materials
     - [lecture video](https://youtu.be/wbck_JlX9C4)
 
-## week 4 lecture
+## week 4 lecture 1
 
 - datetime: 2024-09-23T09:00:00+08:00/2024-09-23T10:20:00+08:00
 - topic: principle of inclusion and exclusion
@@ -256,7 +256,7 @@ The content is in teaching order.
     - [video: 3-set PIE](https://youtu.be/VQmWJXeevfM)
     - [video: counting using PIE](https://youtu.be/rBLuvLDutdY)
 
-## week 4 tutorial
+## week 4 tutorial 1
 
 - datetime: 2024-09-23T18:00:00+08:00/2024-09-23T18:50:00+08:00
 - topic: generalized principle of inclusion and exclusion
@@ -304,7 +304,7 @@ The content is in teaching order.
 - materials
     - [lecture video](https://youtu.be/7VN1ZCUpKKk)
 
-## week 5 lecture
+## week 5 lecture 1
 
 - datetime: 2024-09-30T09:00:00+08:00/2024-09-30T10:20:00+08:00
 - topic: graphs, trees, paths, walks
@@ -345,7 +345,7 @@ The content is in teaching order.
     - [video playlist: introduction to graph theory](https://youtu.be/C7YrMRdLkqo?list=PLHXZ9OQGMqxersk8fUxiUMSIx0DBqsKZS)
     - [video playlist: watch lectures 1 to 4](https://youtube.com/playlist?list=PLoAxxVQYIwM73zRO5gZL0exCw70O8ZlvJ)
 
-## week 5 tutorial
+## week 5 tutorial 1
 
 - datetime: 2024-09-30T18:00:00+08:00/2024-09-30T18:50:00+08:00
 - topic: more theorems on graphs and trees
@@ -416,7 +416,7 @@ The content is in teaching order.
     - [lecture video](https://youtu.be/VDPaNbb3KVo)
     - [video: recurrence for number of partitions](https://youtu.be/F4zYDx-EfZI)
 
-## week 6 lecture
+## week 6 lecture 1
 
 - datetime: 2024-10-07T09:00:00+08:00/2024-10-07T10:20:00+08:00
 - topic: minimum spanning trees, directed graphs, DAGs
@@ -457,7 +457,7 @@ The content is in teaching order.
     - West/Chapter 2: Trees and Distance
     - Andreescu and Feng: solve advanced problem 31 to advanced problem 40
 
-## week 6 tutorial
+## week 6 tutorial 1
 
 - datetime: 2024-10-07T18:00:00+08:00/2024-10-07T18:50:00+08:00
 - topic: tree-based algorithms, Huffmman coding
@@ -519,7 +519,7 @@ The content is in teaching order.
 - materials
     - [lecture video](https://youtu.be/jIsRmWzacfI)
 
-## week 7 lecture
+## week 7 lecture 1
 
 - datetime: 2024-10-14T09:00:00+08:00/2024-10-14T10:20:00+08:00
 - topic: matchings, vertex covers, edge covers, independent sets
@@ -542,7 +542,7 @@ The content is in teaching order.
     - [lecture video](https://youtu.be/ZIeLPZmvAU4)
     - West/Section 3.1: Matchings and Covers
 
-## week 7 tutorial
+## week 7 tutorial 1
 
 - datetime: 2024-10-14T18:00:00+08:00/2024-10-14T18:50:00+08:00
 - topics: network flow, Ford-Fulkerson Algorithm
@@ -645,7 +645,7 @@ The content is in teaching order.
 >
 > Please write an email to Amir if you would like to submit a reasonable appeal. Be patient after sending the email. There are hundreds of messages in the queue, mostly because people submit unreasonable appeals that get rejected!
 
-## week 8 lecture
+## week 8 lecture 1
 
 - datetime: 2024-10-21T09:00:00+08:00/2024-10-21T10:20:00+08:00
 - topic: divisibility, greatest common divisor
@@ -679,7 +679,7 @@ The content is in teaching order.
     - [video: number theory I](https://youtu.be/NuY7szYSXSw)
     - [playlist: introduction to number theory (watch lectures 3 and 4)](https://youtu.be/EzE6it9kAsI?list=PL8yHsr3EFj53L8sMbzIhhXSAOpuZ1Fov8)
 
-## week 8 tutorial
+## week 8 tutorial 1
 
 - datetime: 2024-10-21T18:00:00+08:00/2024-10-21T18:50:00+08:00
 - topic: prime factorizations, fundamental theorem of arithmetic
@@ -751,7 +751,7 @@ The content is in teaching order.
 - materials
     - [lecture video](https://youtu.be/UXYUmObELF0)
 
-## week 9 lecture
+## week 9 lecture 1
 
 - datetime: 2024-10-28T09:00:00+08:00/2024-10-28T10:20:00+08:00
 - topic: Fermat's little theorem, Euler's Theorem, Wilson's Theorem
@@ -780,7 +780,7 @@ The content is in teaching order.
     - Burton/Chapter 5: Fermat's Theorem
     - Burton/Chapter 7: Euler's Generalization of Fermat's Theorem
 
-## week 9 tutorial
+## week 9 tutorial 1
 
 - datetime: 2024-10-28T18:00:00+08:00/2024-10-28T18:50:00+08:00
 - topic: Diffie–Hellman–Merkle key exchange, ElGamal encryption
@@ -838,7 +838,7 @@ The content is in teaching order.
     - [lecture video](https://youtu.be/4NMJ6GqW_T0)
     - [lecture video: addendum on problem 3](https://youtu.be/13j1nr9UgxA)
 
-## week 10 lecture
+## week 10 lecture 1
 
 - datetime: 2024-11-04T09:00:00+08:00/2024-11-04T10:20:00+08:00
 - topic: Russell's paradox, Zermelo–Fraenkel set theory
@@ -860,7 +860,7 @@ The content is in teaching order.
 - materials
     - [video playlist: intro to set theory (watch the first 10 lectures)](https://youtu.be/f_MrWycJRZ8?list=PLjJhPCaCziSQyON7NLc8Ac8ibdm6_iDQf)
 
-## week 10 tutorial
+## week 10 tutorial 1
 
 - datetime: 2024-11-04T18:00:00+08:00/2024-11-04T18:50:00+08:00
 - topic: axiom of infinity, bijections
@@ -915,7 +915,7 @@ The content is in teaching order.
 - materials
     - [lecture video](https://youtu.be/DuKFaBTdHt0)
 
-## week 11 lecture
+## week 11 lecture 1
 
 - datetime: 2024-11-11T09:00:00+08:00/2024-11-11T10:20:00+08:00
 - topic: set of real numbers
@@ -938,7 +938,7 @@ The content is in teaching order.
     - [video: real numbers](https://youtu.be/N4I0Ay4RvjU?list=PLjJhPCaCziSQyON7NLc8Ac8ibdm6_iDQf&index=19)
     - [video: equinumerosity](https://youtu.be/avXuA-yDQwc?list=PLjJhPCaCziSQyON7NLc8Ac8ibdm6_iDQf&index=20)
 
-## week 11 tutorial
+## week 11 tutorial 1
 
 - datetime: 2024-11-11T18:00:00+08:00/2024-11-11T18:50:00+08:00
 - topic: $\lvert \mathbb R \rvert = \lvert P(\mathbb N) \rvert$, axiom of choice
@@ -1005,7 +1005,7 @@ The content is in teaching order.
 - materials
     - [lecture video](https://youtu.be/NKTfCcjnF-Q)
 
-## week 12 lecture
+## week 12 lecture 1
 
 - datetime: 2024-11-18T09:00:00+08:00/2024-11-18T10:20:00+08:00
 - topic: conditional probability, independence, expectation
@@ -1073,7 +1073,7 @@ The content is in teaching order.
     - [video: Bayes theorem](https://youtu.be/HZGCoVF3YvM)
     - [video: the Bayesian trap](https://youtu.be/R13BD8qKeTg)
 
-## week 12 tutorial
+## week 12 tutorial 1
 
 - datetime: 2024-11-18T18:00:00+08:00/2024-11-18T18:50:00+08:00
 - topic: solving problems using linearity of expectation
@@ -1118,7 +1118,7 @@ The content is in teaching order.
 <!-- - [week 10 problem set](questions/week%2010%20problem%20set.md) -->
 <!-- - materials -->
 
-## week 13 lecture
+## week 13 lecture 1
 
 - datetime: 2024-11-25T09:00:00+08:00/2024-11-25T10:20:00+08:00
 - topic: Nim, Sprague–Grundy theorem
@@ -1136,7 +1136,7 @@ The content is in teaching order.
     - [lecture video](https://youtu.be/xo_c4mpYC2A)
     - [reading: Ferguson's lecture notes \(chapters 1-4\)](https://www.cs.cmu.edu/afs/cs/academic/class/15859-s05/www/ferguson/comb.pdf)
 
-## week 13 tutorial
+## week 13 tutorial 1
 
 - datetime: 2024-11-25T18:00:00+08:00/2024-11-25T18:50:00+08:00
 - topic: one-shot games, Nash equilibria

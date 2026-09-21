@@ -54,57 +54,57 @@ The content is in teaching order.
 - [assignments](assignments/index.md)
 - [questions](questions.md)
 
-## week 8 lecture
+## week 8 lecture 1
 
 - datetime: 2025-03-25T10:30:00+08:00/2025-03-25T12:20:00+08:00, PT1H50M
 - topic:
 - status: attendance
 - course logistics
 
-## week 8 lab
+## week 8 lab 1
 
 - datetime: 2025-03-25T17:00:00+08:00/2025-03-25T17:50:00+08:00, PT50M
 - status: unscheduled
 
-## week 9 lecture
+## week 9 lecture 1
 
 - datetime: 2025-04-01T10:30:00+08:00/2025-04-01T12:20:00+08:00, PT1H50M
 - status: unscheduled, midterm break
 
-## week 9 lab
+## week 9 lab 1
 
 - datetime: 2025-04-01T17:00:00+08:00/2025-04-01T17:50:00+08:00, PT50M
 - status: unscheduled, midterm break
 
-## week 10 lecture
+## week 10 lecture 1
 
 - datetime: 2025-04-08T10:30:00+08:00/2025-04-08T12:20:00+08:00, PT1H50M
 - topic:
 - status: attendance
 
-## week 10 lab
+## week 10 lab 1
 
 - datetime: 2025-04-08T17:00:00+08:00/2025-04-08T17:50:00+08:00, PT50M
 - topic:
 
-## week 11 lecture
+## week 11 lecture 1
 
 - datetime: 2025-04-15T10:30:00+08:00/2025-04-15T12:20:00+08:00, PT1H50M
 - topic:
 - status: attendance
 
-## week 11 lab
+## week 11 lab 1
 
 - datetime: 2025-04-15T17:00:00+08:00/2025-04-15T17:50:00+08:00, PT50M
 - topic:
 
-## week 12 lecture
+## week 12 lecture 1
 
 - datetime: 2025-04-22T10:30:00+08:00/2025-04-22T12:20:00+08:00, PT1H50M
 - topic:
 - status: attendance
 
-## week 12 lab
+## week 12 lab 1
 
 - datetime: 2025-04-22T17:00:00+08:00/2025-04-22T17:50:00+08:00, PT50M
 - topic:
@@ -130,25 +130,25 @@ The content is in teaching order.
 >
 > \[redacted\]
 
-## week 13 lecture
+## week 13 lecture 1
 
 - datetime: 2025-04-29T10:30:00+08:00/2025-04-29T12:20:00+08:00, PT1H50M
 - topic:
 - status: attendance
 
-## week 13 lab
+## week 13 lab 1
 
 - datetime: 2025-04-29T17:00:00+08:00/2025-04-29T17:50:00+08:00, PT50M
 - topic:
 
-## week 14 lecture
+## week 14 lecture 1
 
 - datetime: 2025-05-06T10:30:00+08:00/2025-05-06T12:20:00+08:00, PT1H50M
 - topic:
 - status: attendance
 - [§ final examination](#final%20examination)
 
-## week 14 lab
+## week 14 lab 1
 
 - datetime: 2025-05-06T17:00:00+08:00/2025-05-06T17:50:00+08:00, PT50M
 - topic:

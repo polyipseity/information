@@ -35,7 +35,7 @@ The content is in teaching order.
 - [assignments](assignments/index.md)
 - [questions](questions.md)
 
-## week 1 lecture
+## week 1 lecture 1
 
 - datetime: 2025-09-01T10:30:00+08:00/2025-09-01T11:50:00+08:00, PT1H20M
 - topic: logistics; introduction to derivatives
@@ -121,7 +121,7 @@ The content is in teaching order.
     - compound interest / continuous compounding ::@:: When the number of compounding periods per year increases without limit, continuous compounding occurs, in which case the effective annual rate approaches an upper limit of _e_<sup>_r_</sup> − 1. Continuous compounding can be regarded as letting the compounding period become infinitesimally small, achieved by taking the [limit](../../../../general/limit%20(mathematics).md) as _n_ goes to [infinity](../../../../general/infinity.md).
         - compound interest / continuous compounding / formula ::@:: The amount after _t_ periods of continuous compounding can be expressed in terms of the initial amount _P_<sub>0</sub> as: $$P(t)=P_{0}e^{rt}.$$ Or, finding the interest rate $r$: $$r = \frac 1 t \ln \left(\frac {P_t} {P_0}\right) \,.$$
 
-## week 2 lecture
+## week 2 lecture 1
 
 - datetime: 2025-09-08T10:30:00+08:00/2025-09-08T11:50:00+08:00, PT1H20M
 - status: canceled; bad weather
@@ -181,7 +181,7 @@ The content is in teaching order.
             - futures contract / mark-to-market / example / compute margin call trigger ::@:: - Assuming futures price always equal spot, _loss_ on the _long_ position when spot falls to $X$ is $$L = N_{\text{contracts} }\times(\text{contract size})\times(S_0-X) = N_0 (S_0 - X)$$ <br/>  - The margin account after realizing this loss becomes $$M_{\Delta t} - L$$ <br/> - Set this equal to the maintenance level and solve for X: $$\begin{aligned} M_{\Delta t} - N_0\,(S_0-X) & = \text{Maintenance} \\ X & = S_0 - \frac{M_{\Delta t}-\text{Maintenance} }{N_0} \,. \end{aligned}$$
             - futures contract / mark-to-market / example / interpret results ::@:: - If the market moves such that the futures price falls below the calculated $X$, the trader's margin balance would dip under maintenance and a margin call is issued. <br/> - Conversely, if the price stays above $X$, no call occurs and the position can remain open. <br/> - If the price is exactly $X$ \(very unlikely\), it depends on the exchange.
 
-## week 3 lecture
+## week 3 lecture 1
 
 - datetime: 2025-09-15T10:30:00+08:00/2025-09-15T11:50:00+08:00, PT1H20M
 - topic: commodity forwards; forward curve; contango; backwardation; cost of carry; convenience yield
@@ -239,7 +239,7 @@ The content is in teaching order.
 - forward contract
     - forward contract / risk components ::@:: Spot-price volatility can be hedged effectively using short-term forwards or futures rolled over time. <p> In contrast, the convenience yield is a key, often unobservable, factor that shapes commodity forward prices; its variability introduces risk tied to the _shape_ of the forward curve (contango/backwardation). The uncertainty in the convenience yield \(and thus the slope of the curve\) is harder to hedge and can cause persistent losses if not managed properly. <p> This ties to the above intuition that MG hedging debacle and slope trading replaces the spot-price volatility risk by the uncertainty risk in the forward curve slope.
 
-## week 4 lecture
+## week 4 lecture 1
 
 - datetime: 2025-09-22T10:30:00+08:00/2025-09-22T11:50:00+08:00, PT1H20M
 - topic: currency; exchange rate; foreign exchange spot; currency future; forward exchange rate
@@ -298,7 +298,7 @@ The content is in teaching order.
         - carry / Chinese copper carry trade / constraints & regulations ::@:: While the schemes exploit capital-control loopholes, they remain subject to scrutiny by Chinese regulators \(e.g., foreign exchange authorities\). <p> The scale of trades is limited by paperwork turnaround times, warehouse capacity, and the risk that regulators may clamp down on perceived arbitrage exploitation.
         - carry / Chinese copper carry trade / effects ::@:: Reports suggest that a single tonne of bonded copper could be used in dozens of LC-based carry trades within a year. <p> The "multiple-trip" commodity trades were extensive: Shenzhen—particularly its Futian and Shatoujiao bonded areas—was the hub of these operations. In 2013, exports to those zones grew sharply, accounting for 10–16% of all Chinese exports, and rising year-on-year at triple-digit rates. The data also highlight the sheer dollar volume involved: Hong Kong imported about US&nbsp;\$50&nbsp;billion from China in 2013, up from a normal US&nbsp;\$30&nbsp;billion. It underscores that these bonded-warehouse arbitrage trades were not occasional tricks but large-scale, high-value operations centered around Shenzhen's bonded trade areas.
 
-## week 5 lecture
+## week 5 lecture 1
 
 - datetime: 2025-09-29T10:30:00+08:00/2025-09-29T11:50:00+08:00, PT1H20M
 - topic:
@@ -341,7 +341,7 @@ The content is in teaching order.
 - datetime: 2025-10-01T10:30:00+08:00/2025-10-01T11:50:00+08:00, PT1H20M
 - status: unscheduled; public holiday: National Day
 
-## week 6 lecture
+## week 6 lecture 1
 
 - datetime: 2025-10-06T10:30:00+08:00/2025-10-06T11:50:00+08:00, PT1H20M
 - topic:
@@ -380,7 +380,7 @@ The content is in teaching order.
         - [§ valuation](option.md#valuation)  
         - [§ no-arbitrage bounds](option.md#no-arbitrage%20bounds)  
 
-## week 7 lecture
+## week 7 lecture 1
 
 - datetime: 2025-10-13T10:30:00+08:00/2025-10-13T11:50:00+08:00, PT1H20M
 - topic:
@@ -413,7 +413,7 @@ The content is in teaching order.
 - topic:
 - assignment: [homework 2](assignments/homework%202/index.md)
 
-## week 8 lecture
+## week 8 lecture 1
 
 - datetime: 2025-10-20T10:30:00+08:00/2025-10-20T11:50:00+08:00, PT1H20M
 - topic:

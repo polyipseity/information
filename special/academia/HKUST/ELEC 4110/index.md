@@ -51,7 +51,7 @@ The content is in teaching order.
 - [questions](questions.md)
 - [transcludes/Fourier transform](transcludes/Fourier%20transform.md)
 
-## week 1 lecture
+## week 1 lecture 1
 
 - datetime: 2025-09-02T09:00:00+08:00/2025-09-02T10:20:00+08:00, PT1H20M
 - topic: logistics; overview of digital communications; signal; analog signal
@@ -211,7 +211,7 @@ The content is in teaching order.
         - spectral density / one-sided vs. two-sided / one-sided ::@:: If the building blocks of a signal are _chosen_ to be real sinusoids, the spectrum is naturally one-sided—only the positive side needs to be plotted.
         - spectral density / one-sided vs. two-sided / two-sided ::@:: _Choosing_ a compressed sinusoid (a complex exponential) to represent a signal forces the signal to be represented as two symmetric halves: a positive-frequency part and its conjugate negative-frequency counterpart.
 
-## week 1 tutorial
+## week 1 tutorial 1
 
 - datetime: 2025-09-05T15:30:00+08:00/2025-09-05T16:20:00+08:00, PT50M
 - status: unscheduled
@@ -228,7 +228,7 @@ The content is in teaching order.
 >
 > \[redacted\]
 
-## week 2 lecture
+## week 2 lecture 1
 
 - datetime: 2025-09-09T09:00:00+08:00/2025-09-09T10:20:00+08:00, PT1H20M
 - topic: time domain; frequency domain; spectrums; real sinusoid; complex sinusoid; Fourier transform; Parseval's theorem; Plancherel theorem; bandwidth; Nyquist–Shannon sampling theorem; wireless; analog transmission; digital transmission
@@ -393,7 +393,7 @@ The content is in teaching order.
 - [Chebyshev's inequality](../../../../general/Chebyshev's%20inequality.md) ::@:: The probability that a random variable deviates from its mean by at least $k\sigma$ is at most $1/k^{2}$, where $k$ is any positive constant and $\sigma$, required to be finite non-zero (also implies finite expected value $\mu$), is the standard deviation (the square root of the variance): $$P(\lvert X - \mu \rvert \ge k \sigma) \le \frac 1 {k^2} \,.$$
     - Chebyshev's inequality / proof for continuous random variable ::@:: This a proof for continuous random variable, but a similar one applies for discrete random variable: $$\begin{aligned} P(\lvert X - \mu \rvert \ge k \sigma) & = \int_{\lvert x - \mu \rvert \ge k \sigma} \! f(x) \,\mathrm{d}x \\ & \le \int_{\lvert x - \mu \rvert \ge k \sigma} \! \frac {(x - \mu)^2} {k^2 \sigma^2} f(x) \,\mathrm{d}x \\ & = \frac 1 {k^2 \sigma^2} \operatorname{Var}(X) \\ & = \frac 1 {k^2} \,. \end{aligned}$$
 
-## week 2 tutorial
+## week 2 tutorial 1
 
 - datetime: 2025-09-12T15:30:00+08:00/2025-09-12T16:20:00+08:00, PT50M
 - topic: probability theory
@@ -439,7 +439,7 @@ The content is in teaching order.
         - stationary process / strict-sense stationary / implications ::@:: For a strictly stationary process, its statistical properties (e.g., moments) are time-invariant.
     - stationary process / weak-sense stationary
 
-## week 3 lecture
+## week 3 lecture 1
 
 - datetime: 2025-09-16T09:00:00+08:00/2025-09-16T10:20:00+08:00, PT1H20M
 - topic: random variable; stochastic process; white noise; additive white Gaussian noise; bit error rate; Q-function
@@ -485,12 +485,12 @@ The content is in teaching order.
         - [§ filter optimization](binary%20modulation.md#filter%20optimization)
         - [§ response of LTI system to WSS random signal](binary%20modulation.md#response%20of%20LTI%20system%20to%20WSS%20random%20signal)
 
-## week 3 tutorial
+## week 3 tutorial 1
 
 - datetime: 2025-09-19T15:30:00+08:00/2025-09-19T16:20:00+08:00, PT50M
 - topic: Fourier transform; transfer function; frequency response; impulse response
-- [§ week 1 lecture](#week%201%20lecture)
-- [§ week 2 lecture](#week%202%20lecture)
+- [§ week 1 lecture 1](#week%201%20lecture%201)
+- [§ week 2 lecture 1](#week%202%20lecture%201)
 - [transfer function](../../../../general/transfer%20function.md) ::@:: A mathematical function that models a system's output for each possible input. Widely used in electronic engineering tools like circuit simulators and control systems.
     - transfer function / continuous-time LTI systems ::@:: For [continuous-time](../../../../general/continuous-time.md#continuous%20time) input signal $x(t)$ and output $y(t)$, dividing the Laplace transform of the output, $Y(s)={\mathcal {L} }\left\{y(t)\right\}$, by the Laplace transform of the input, $X(s)={\mathcal {L} }\left\{x(t)\right\}$, yields the system's transfer function $H(s)$: $$H(s)={\frac {Y(s)}{X(s)} }={\frac { {\mathcal {L} }\left\{y(t)\right\} }{ {\mathcal {L} }\left\{x(t)\right\} } }$$ which can be rearranged as: $$Y(s)=H(s)\;X(s)\,.$$
 - [frequency response](../../../../general/frequency%20response.md) ::@:: It of a system is the quantitative measure of the magnitude and phase of the output as a function of input frequency. The frequency response is widely used in the design and analysis of systems, such as audio equipment and control systems, where they simplify mathematical analysis by converting governing differential equations into algebraic equations.
@@ -498,7 +498,7 @@ The content is in teaching order.
 - [impulse response](../../../../general/impulse%20response.md) ::@:: It of a [dynamic system](../../../../general/dynamic%20system.md) is its output when presented with a brief input signal, called an [impulse](../../../../general/Dirac%20delta%20function.md) \(δ\(_t_\)\). More generally, an impulse response is the reaction of any dynamic system in response to some external change.
     - impulse response / transfer function ::@:: Usually easier to analyze systems using [transfer functions](../../../../general/transfer%20function.md) than impulse responses. The transfer function is the [Laplace transform](../../../../general/Laplace%20transform.md) of the impulse response. The Laplace transform of a system's output may be determined by multiplying the transfer function with the input's Laplace transform in the [complex plane](../../../../general/complex%20plane.md), also known as the [frequency domain](../../../../general/frequency%20domain.md). An [inverse Laplace transform](../../../../general/inverse%20Laplace%20transform.md) of this result yields the output in the [time domain](../../../../general/time%20domain.md).
 
-## week 4 lecture
+## week 4 lecture 1
 
 - datetime: 2025-09-23T09:00:00+08:00/2025-09-23T10:20:00+08:00, PT1H20M
 - topic: matched filter; correlator
@@ -576,18 +576,18 @@ __<big><big>Arrangement on Tue lecture (23/9)</big></big>__
         - [§ constellation diagram](signal%20space.md#constellation%20diagram)
         - [§ Gram–Schmidt process](signal%20space.md#Gram–Schmidt%20process)
 
-## week 4 tutorial
+## week 4 tutorial 1
 
 - datetime: 2025-09-26T15:30:00+08:00/2025-09-26T16:20:00+08:00, PT50M
 - topic: binary modulation
 - [§ week 2 lecture 2](#week%202%20lecture%202)
-- [§ week 3 lecture](#week%203%20lecture)
+- [§ week 3 lecture 1](#week%203%20lecture%201)
 - [§ week 3 lecture 2](#week%203%20lecture%202)
-- [§ week 4 lecture](#week%204%20lecture)
+- [§ week 4 lecture 1](#week%204%20lecture%201)
 - ELEC 4110
     - ELEC 4110 / [binary modulation](binary%20modulation.md)
 
-## week 5 lecture
+## week 5 lecture 1
 
 - datetime: 2025-09-30T09:00:00+08:00/2025-09-30T10:20:00+08:00, PT1H20M
 - topic: signal space algebraic properties; inner product; vector space; Gram–Schmidt process; signal space examples; binary modulation; binary channel; binary receiver; bit error rate
@@ -640,16 +640,16 @@ __<big><big>Arrangement on Tue lecture (23/9)</big></big>__
         - [§ noise vector](M-ary%20transmission.md#noise%20vector)
         - [§ minimum distance](M-ary%20transmission.md#minimum%20distance)
 
-## week 5 tutorial
+## week 5 tutorial 1
 
 - datetime: 2025-10-03T15:30:00+08:00/2025-10-03T16:20:00+08:00, PT50M
 - topic: signal space
 - [§ week 4 lecture 2](#week%204%20lecture%202)
-- [§ week 5 lecture](#week%205%20lecture)
+- [§ week 5 lecture 1](#week%205%20lecture%201)
 - ELEC 4110
     - ELEC 4110 / [signal space](signal%20space.md)
 
-## week 6 lecture
+## week 6 lecture 1
 
 - datetime: 2025-10-07T09:00:00+08:00/2025-10-07T10:20:00+08:00, PT1H20M
 - status: unscheduled; public holiday: Day after Mid-Autumn Festival
@@ -680,18 +680,18 @@ __<big><big>Arrangement on Tue lecture (23/9)</big></big>__
     - dBm / vs. dBW ::@:: dBW is a similar unit measured relative to one watt (1000 mW) rather than a milliwatt.
     - dBm / formulas ::@:: To express an arbitrary power _P_ in mW as _x_ in dBm, the following expression may be used: $${\begin{aligned}x&=10\log _{10}{\frac {P}{1~{\text{mW} } } }\end{aligned} }$$ Conversely, to express an arbitrary power level _x_ in dBm, as _P_ in mW: $${\begin{aligned}P&=1~{\text{mW} }\cdot 10^{ {x}/{10} }\end{aligned} }$$
 
-## week 6 tutorial
+## week 6 tutorial 1
 
 - datetime: 2025-10-10T15:30:00+08:00/2025-10-10T16:20:00+08:00, PT50M
 - topic: signal space; M-ary transmission
 - [§ week 5 lecture 2](#week%205%20lecture%202)
-- [§ week 6 lecture](#week%206%20lecture)
+- [§ week 6 lecture 1](#week%206%20lecture%201)
 - [§ week 6 lecture 2](#week%206%20lecture%202)
 - ELEC 4110
     - ELEC 4110 / [signal space](signal%20space.md)
     - ELEC 4110 / [_M_-ary transmission](M-ary%20transmission.md)
 
-## week 7 lecture
+## week 7 lecture 1
 
 - datetime: 2025-10-14T09:00:00+08:00/2025-10-14T10:20:00+08:00, PT1H20M
 - status: canceled; sickness
@@ -719,13 +719,13 @@ __<big><big>Arrangement on Tue lecture (23/9)</big></big>__
         - [§ decision regions](M-ary%20transmission.md#decision%20regions)
         - [§ maximum likelihood](M-ary%20transmission.md#maximum%20likelihood)
 
-## week 7 tutorial
+## week 7 tutorial 1
 
 - datetime: 2025-10-17T15:30:00+08:00/2025-10-17T16:20:00+08:00, PT50M
 - topic: M-ary transmission; M-FSK; M-PSK; M-QAM
-- [§ week 7 lecture](#week%207%20lecture)
+- [§ week 7 lecture 1](#week%207%20lecture%201)
 - [§ week 7 lecture 2](#week%207%20lecture%202)
-- [§ week 8 lecture](#week%208%20lecture)
+- [§ week 8 lecture 1](#week%208%20lecture%201)
 - [§ week 8 lecture 2](#week%208%20lecture%202)
 - ELEC 4110
     - ELEC 4110 / [M-ary transmission](M-ary%20transmission.md)
@@ -733,7 +733,7 @@ __<big><big>Arrangement on Tue lecture (23/9)</big></big>__
     - ELEC 4110 / [M-PSK](M-PSK.md)
     - ELEC 4110 / [M-QAM](M-QAM.md)
 
-## week 8 lecture
+## week 8 lecture 1
 
 - datetime: 2025-10-21T09:00:00+08:00/2025-10-21T10:20:00+08:00, PT1H20M
 - topic: minimum distance decision rule; maximum likelihood decision rule; M-ary transmission error analysis; M-FSK; M-FSK error analysis
@@ -776,13 +776,13 @@ __<big><big>Arrangement on Tue lecture (23/9)</big></big>__
         - [§ bit error probability](M-QAM.md#bit%20error%20probability)
         - [§ comparison with M-PSK](M-QAM.md#comparison%20with%20M-PSK)
 
-## week 8 tutorial
+## week 8 tutorial 1
 
 - datetime: 2025-10-24T15:30:00+08:00/2025-10-24T16:20:00+08:00, PT50M
 - topic: channel capacity; noisy-channel coding theorem; Shannon limit; multipath propagation; M-ary transmission; M-FSK; M-PSK; M-QAM
-- [§ week 8 lecture](#week%208%20lecture)
+- [§ week 8 lecture 1](#week%208%20lecture%201)
 - [§ week 8 lecture 2](#week%208%20lecture%202)
-- [§ week 9 lecture](#week%209%20lecture)
+- [§ week 9 lecture 1](#week%209%20lecture%201)
 - [§ week 9 lecture 2](#week%209%20lecture%202)
 - [channel capacity](../../../../general/channel%20capacity.md)
 - [Shannon–Hartley theorem](../../../../general/Shannon–Hartley%20theorem.md)
@@ -794,7 +794,7 @@ __<big><big>Arrangement on Tue lecture (23/9)</big></big>__
     - ELEC 4110 / [M-PSK](M-PSK.md)
     - ELEC 4110 / [M-QAM](M-QAM.md)
 
-## week 9 lecture
+## week 9 lecture 1
 
 - datetime: 2025-10-28T09:00:00+08:00/2025-10-28T10:20:00+08:00, PT1H20M
 - topic: channel capacity; noisy-channel coding theorem; Shannon limit; path loss; multipath propagation; multipath fading
@@ -838,11 +838,11 @@ __<big><big>Arrangement on Tue lecture (23/9)</big></big>__
         - [§ Rayleigh fading model](multipath%20propagation.md#Rayleigh%20fading%20model)
 - assignment: [homework 2](homework%202/index.md)
 
-## week 9 tutorial
+## week 9 tutorial 1
 
 - datetime: 2025-10-31T15:30:00+08:00/2025-10-31T16:20:00+08:00, PT50M
 - topic: channel capacity; noisy-channel coding theorem; Shannon limit; multipath propagation
-- [§ week 9 lecture](#week%209%20lecture)
+- [§ week 9 lecture 1](#week%209%20lecture%201)
 - [§ week 9 lecture 2](#week%209%20lecture%202)
 - [channel capacity](../../../../general/channel%20capacity.md)
 - [Shannon–Hartley theorem](../../../../general/Shannon–Hartley%20theorem.md)
@@ -850,7 +850,7 @@ __<big><big>Arrangement on Tue lecture (23/9)</big></big>__
 - ELEC 4110
     - ELEC 4110 / [multipath propagation](multipath%20propagation.md)
 
-## week 10 lecture
+## week 10 lecture 1
 
 - datetime: 2025-11-04T09:00:00+08:00/2025-11-04T10:20:00+08:00, PT1H20M
 - topic: multipath fading; Doppler spread; Doppler shift; coherence time; fast fading; slow fading; Doppler power spectral density; fading types; fading mitigations; Rayleigh fading error analysis
@@ -888,17 +888,17 @@ __<big><big>Arrangement on Tue lecture (23/9)</big></big>__
         - [§ receiver-antenna diversity](diversity%20scheme.md#receiver-antenna%20diversity)
         - [§ transmit-antenna diversity](diversity%20scheme.md#transmit-antenna%20diversity)
 
-## week 10 tutorial
+## week 10 tutorial 1
 
 - datetime: 2025-11-07T15:30:00+08:00/2025-11-07T16:20:00+08:00, PT50M
 - topic: multipath propagation; diversity scheme
-- [§ week 10 lecture](#week%2010%20lecture)
+- [§ week 10 lecture 1](#week%2010%20lecture%201)
 - [§ week 10 lecture 2](#week%2010%20lecture%202)
 - ELEC 4110
     - ELEC 4110 / [multipath propagation](multipath%20propagation.md)
     - ELEC 4110 / [diversity scheme](diversity%20scheme.md)
 
-## week 11 lecture
+## week 11 lecture 1
 
 - datetime: 2025-11-11T09:00:00+08:00/2025-11-11T10:20:00+08:00, PT1H20M
 - topic: spatial diversity; space–time block code; diversity combining; selection combining; equal-gain combining; maximal-ratio combining
@@ -934,7 +934,7 @@ __<big><big>Arrangement on Tue lecture (23/9)</big></big>__
         - [§ advantages](DSSS.md#advantages)
         - [§ DS-CDMA](DSSS.md#DS-CDMA)
 
-## week 11 tutorial
+## week 11 tutorial 1
 
 - datetime: 2025-11-14T15:30:00+08:00/2025-11-14T16:20:00+08:00, PT50M
 - topic: homework 2
@@ -961,7 +961,7 @@ __<big><big>Arrangement on Tue lecture (23/9)</big></big>__
 > Warm regards, <br/>
 > TA
 
-## week 12 lecture
+## week 12 lecture 1
 
 - datetime: 2025-11-18T09:00:00+08:00/2025-11-18T10:20:00+08:00, PT1H20M
 - status: unscheduled; midterm examination
@@ -1075,7 +1075,7 @@ __<big><big>Arrangement on Tue lecture (23/9)</big></big>__
         - [§ orthogonal resource partitioning](channel%20access%20method.md#orthogonal%20resource%20partitioning)
         - [§ FDMA vs. TDMA](channel%20access%20method.md#FDMA%20vs.%20TDMA)
 
-## week 12 tutorial
+## week 12 tutorial 1
 
 - datetime: 2025-11-21T15:30:00+08:0/2025-11-21T16:20:00+08:00, PT50M
 - topic: homework 3
@@ -1092,7 +1092,7 @@ __<big><big>Arrangement on Tue lecture (23/9)</big></big>__
 > Warm regards, <br/>
 > TA
 
-## week 13 lecture
+## week 13 lecture 1
 
 - datetime: 2025-11-25T09:00:00+08:00/2025-11-25T10:20:00+08:00, PT1H20M
 - topic: time division multiple access; frequency division multiple access; code division multiple access; deterministic CDMA; random CDMA; random access; cellular network; path loss in cellular network
@@ -1134,7 +1134,7 @@ __<big><big>Arrangement on Tue lecture (23/9)</big></big>__
 - assignment: [homework 3](homework%203/index.md)
 - assignment: [project](project/index.md)
 
-## week 13 tutorial
+## week 13 tutorial 1
 
 - datetime: 2025-11-28T15:30:00+08:00/2025-11-28T16:20:00+08:00, PT50M
 - topic: midterm examination

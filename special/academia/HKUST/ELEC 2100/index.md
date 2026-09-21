@@ -122,7 +122,7 @@ The four Fourier notes are organized by two axes: continuous time versus discret
 - Detailed homework and lab schedules live in the child index pages; quiz pages live under [questions](questions/index.md).
 - Topic notes should be added only after the corresponding official materials are archived.
 
-## week 1 lecture
+## week 1 lecture 1
 
 - datetime: 2026-02-03T12:00:00+08:00/2026-02-03T13:20:00+08:00, PT1H20M
 - venue: Lecture Theater D
@@ -150,7 +150,7 @@ It also motivates the subject through concrete communication and signal-processi
 
 The lecture front-loads the administrative structure of the course as well: prerequisites, intended learning outcomes, assessment weights, and the broad quiz/exam format.  The detailed technical development begins only after this roadmap, when the course turns to the actual language of signals and their classifications.
 
-## week 1 tutorial
+## week 1 tutorial 1
 
 - datetime: 2026-02-04T11:00:00+08:00/2026-02-04T11:50:00+08:00, PT50M
 - venue: Room 2464
@@ -160,7 +160,7 @@ The lecture front-loads the administrative structure of the course as well: prer
 
 The selected T2 tutorial stream does not have an archived tutorial sheet for the first teaching week, and the first recorded tutorial round in the provided timetable begins in week 2.
 
-## week 1 lab
+## week 1 lab 1
 
 - datetime: 2026-02-05T10:30:00+08:00/2026-02-05T11:20:00+08:00, PT50M
 - venue: Room 4225C
@@ -188,7 +188,7 @@ The chosen LA3 lab stream does not yet begin in the first teaching week; the fir
 
 This lecture now has durable note coverage for the foundational singular-signal toolkit rather than only headline definitions. The topic note covers how to draw ramp, step, gate, signum, and impulse graphs, how ordinary piecewise signals differ from generalized functions, and how delta-sequence families preserve unit area while concentrating at one point.
 
-## week 2 lecture
+## week 2 lecture 1
 
 - datetime: 2026-02-10T12:00:00+08:00/2026-02-10T13:20:00+08:00, PT1H20M
 - venue: Lecture Theater D
@@ -223,7 +223,7 @@ This lecture now has durable note coverage for the foundational singular-signal 
 
 This lecture is now the main home for the discrete-time toolkit and the first pass over system characteristics. It gathers the canonical discrete-time sequence families, their elementary operations, sequence energy and power, and the main classification language for systems, together with the first representation and analysis viewpoints for linear time-invariant systems.
 
-## week 2 tutorial
+## week 2 tutorial 1
 
 - datetime: 2026-02-11T11:00:00+08:00/2026-02-11T11:50:00+08:00, PT50M
 - venue: Room 2464
@@ -249,7 +249,7 @@ This lecture is now the main home for the discrete-time toolkit and the first pa
 
 This tutorial consolidates the opening signal vocabulary: what classification labels answer, how graph-transformation questions differ from singular-signal calculus questions, and how waveform, algebraic, and complex-number viewpoints should be kept distinct while revising.
 
-## week 2 lab
+## week 2 lab 1
 
 - datetime: 2026-02-12T10:30:00+08:00/2026-02-12T11:20:00+08:00, PT50M
 - venue: Room 4225C
@@ -292,7 +292,7 @@ No selected LA3 lab activity is archived for this week; the lab program begins l
 
 The worked-example lecture now connects directly to the richer topic notes: periodicity tests for continuous-time and discrete-time signals, graph-reading for transformed signals, singular-signal derivatives at switching edges, and generalized-function calculations involving impulse sampling or doublet differentiation.
 
-## week 3 lecture
+## week 3 lecture 1
 
 - datetime: 2026-02-17T12:00:00+08:00/2026-02-17T13:20:00+08:00, PT1H20M
 - venue: Lecture Theater D
@@ -302,7 +302,7 @@ The worked-example lecture now connects directly to the richer topic notes: peri
 
 No lecture was held in this slot because it fell on Lunar New Year's Day.
 
-## week 3 tutorial
+## week 3 tutorial 1
 
 - datetime: 2026-02-18T11:00:00+08:00/2026-02-18T11:50:00+08:00, PT50M
 - venue: Room 2464
@@ -312,7 +312,7 @@ No lecture was held in this slot because it fell on Lunar New Year's Day.
 
 No T2 tutorial was scheduled in this week according to the provided timetable; the next recorded T2 tutorial round is on 2026-02-25.
 
-## week 3 lab
+## week 3 lab 1
 
 - datetime: 2026-02-19T10:30:00+08:00/2026-02-19T11:20:00+08:00, PT50M
 - venue: Room 4225C
@@ -332,7 +332,7 @@ No lab was held in this slot because it fell on the Lunar New Year Holiday.
 
 No lecture was held in this slot because it fell on the Lunar New Year Holiday.
 
-## week 4 lecture
+## week 4 lecture 1
 
 - datetime: 2026-02-24T12:00:00+08:00/2026-02-24T13:20:00+08:00, PT1H20M
 - venue: Lecture Theater D
@@ -358,7 +358,7 @@ This lecture starts the continuous-time LTI-system sequence by reframing system 
 
 The lecture then makes the impulse response central. Zero-input response is tied to stored initial energy, zero-state response to external excitation, and the impulse and step responses become the canonical test signals. The final move is the introduction of convolution through impulse decomposition, showing how an arbitrary input can be assembled from weighted shifted impulses and therefore how its zero-state response can be assembled from weighted shifted copies of $h(t)$.
 
-## week 4 tutorial
+## week 4 tutorial 1
 
 - datetime: 2026-02-25T11:00:00+08:00/2026-02-25T11:50:00+08:00, PT50M
 - venue: Room 2464
@@ -388,7 +388,7 @@ The lecture then makes the impulse response central. Zero-input response is tied
 
 This tutorial is the discrete-time companion to the first signal tutorial. The most useful revision habit is to keep the sequence toolkit and the system-property toolkit separate, and then test one system property at a time instead of mixing several property questions into one vague judgment.
 
-## week 4 lab
+## week 4 lab 1
 
 - datetime: 2026-02-26T10:30:00+08:00/2026-02-26T11:20:00+08:00, PT50M
 - venue: Room 4225C
@@ -418,7 +418,7 @@ This lecture develops convolution from a definition into a working toolkit. It s
 
 The second half of the lecture is computational. First, the analytical method stresses that correct overlap limits matter more than blindly integrating from $-\infty$ to $\infty$. Then the graphical method turns convolution into a moving-overlap problem, making support intervals, trapezoidal overlap shapes, and width-addition rules visible at a glance.
 
-## week 5 lecture
+## week 5 lecture 1
 
 - datetime: 2026-03-03T12:00:00+08:00/2026-03-03T13:20:00+08:00, PT1H20M
 - venue: Lecture Theater D
@@ -439,7 +439,7 @@ This lecture mirrors the continuous-time LTI-system story in discrete form. Diff
 
 The lecture then shifts to the discrete-time impulse response and the convolution sum. The key message is that a discrete-time LTI system can be analyzed by the same structural ideas as a continuous-time one, but with shifted unit samples and sums instead of shifted impulses and integrals.
 
-## week 5 tutorial
+## week 5 tutorial 1
 
 - datetime: 2026-03-04T11:00:00+08:00/2026-03-04T11:50:00+08:00, PT50M
 - venue: Room 2464
@@ -465,7 +465,7 @@ The lecture then shifts to the discrete-time impulse response and the convolutio
 
 This is the first fully systems-focused tutorial. The revision chain to keep visible is: step response integrates impulse response, convolution superposes shifted impulse responses, and causality or stability can often be read directly from the support and total weight of $h(t)$.
 
-## week 5 lab
+## week 5 lab 1
 
 - datetime: 2026-03-05T10:30:00+08:00/2026-03-05T11:20:00+08:00, PT50M
 - venue: Room 4225C
@@ -495,7 +495,7 @@ The examples lecture consolidates the time-domain LTI-system toolkit by turning 
 
 The final discrete-time interconnection example is especially valuable because it mixes cascade, parallel addition, impulse-response algebra, and geometric-series summation in one problem. It ties together the lecture's main message that LTI analysis becomes systematic once one can move confidently between structure, impulse response, and convolution.
 
-## week 6 lecture
+## week 6 lecture 1
 
 - datetime: 2026-03-10T12:00:00+08:00/2026-03-10T13:20:00+08:00, PT1H20M
 - venue: Lecture Theater D
@@ -513,7 +513,7 @@ This lecture opens the frequency-domain part of the course by explaining why a w
 
 The mathematical bridge is orthogonal decomposition.  Signals are projected onto orthogonal basis functions just as vectors are projected onto perpendicular directions, and Parseval's theorem gives the corresponding power bookkeeping law once the basis is complete.
 
-## week 6 tutorial
+## week 6 tutorial 1
 
 - datetime: 2026-03-11T11:00:00+08:00/2026-03-11T11:50:00+08:00, PT50M
 - venue: Room 2464
@@ -538,7 +538,7 @@ The mathematical bridge is orthogonal decomposition.  Signals are projected onto
 
 This tutorial mirrors the continuous-time systems sheet in discrete form and then pivots into the frequency-domain geometry that prepares the Fourier-series block. A good revision split is to use recursion and convolution for sample-domain problems, but switch to inner-product language when the problem asks how a waveform is decomposed into orthogonal frequency components.
 
-## week 6 lab
+## week 6 lab 1
 
 - datetime: 2026-03-12T10:30:00+08:00/2026-03-12T11:20:00+08:00, PT50M
 - venue: Room 4225C
@@ -569,7 +569,7 @@ The lecture also connects the theory to recognizable engineering patterns: Gibbs
 
 The note now also makes the periodic line-spectrum convention more explicit: an exponential Fourier-series coefficient $F_k$ corresponds in the Fourier-transform picture to the weighted impulse $2\pi F_k\,\delta(\omega-k\omega_0)$ with $\omega_0=2\pi/T$, and engineering magnitude/phase sketches are usually drawn in that transform-style impulse-spectrum convention rather than as a raw coefficient table.
 
-## week 7 lecture
+## week 7 lecture 1
 
 - datetime: 2026-03-17T12:00:00+08:00/2026-03-17T13:20:00+08:00, PT1H20M
 - venue: Lecture Theater D
@@ -585,7 +585,7 @@ The course now leaves discrete line spectra and moves to continuous spectra.  Th
 
 The lecture then builds transform intuition through standard pairs rather than properties alone: pulses, one-sided exponentials, constants, signum, impulse, and doublet-type signals each show how time-domain localization, decay, or singularity reappears in frequency.
 
-## week 7 tutorial
+## week 7 tutorial 1
 
 - datetime: 2026-03-18T11:00:00+08:00/2026-03-18T11:50:00+08:00, PT50M
 - venue: Room 2464
@@ -601,7 +601,7 @@ The lecture then builds transform intuition through standard pairs rather than p
 
 This tutorial is the main consolidation point for continuous-time periodic Fourier analysis. The highest-payoff workflow is: identify period and symmetry first, choose the most efficient coefficient form second, and only then compute or convert coefficients.
 
-## week 7 lab
+## week 7 lab 1
 
 - datetime: 2026-03-19T10:30:00+08:00/2026-03-19T11:20:00+08:00, PT50M
 - venue: Room 4225C
@@ -633,7 +633,7 @@ It also resolves the relationship between the transform and periodic signals: a 
 
 The transform note now also stresses the exact line weight and plotting convention: each Fourier-series coefficient $F_k$ contributes the Fourier-transform line $2\pi F_k\,\delta(\omega-k\omega_0)$, so periodic magnitude/phase diagrams are typically drawn as Fourier-transform impulse spectra with the factor $2\pi$ included in the line magnitude.
 
-## week 8 lecture
+## week 8 lecture 1
 
 - datetime: 2026-03-24T12:00:00+08:00/2026-03-24T13:20:00+08:00, PT1H20M
 - venue: Lecture Theater D
@@ -655,7 +655,7 @@ The Fourier-series application discussion uses musical audio as the intuitive pa
 
 This application lecture is also a reminder that Fourier analysis runs in both directions: one may analyze a waveform into harmonics, or synthesize a waveform from a chosen harmonic recipe.  The same bidirectional idea also underlies the periodic-summation and transform-sampling bridge between Fourier series and Fourier transform.
 
-## week 8 tutorial
+## week 8 tutorial 1
 
 - datetime: 2026-03-25T11:00:00+08:00/2026-03-25T11:50:00+08:00, PT50M
 - venue: Room 2464
@@ -679,7 +679,7 @@ This application lecture is also a reminder that Fourier analysis runs in both d
 
 This tutorial is the bridge from periodic Fourier analysis to full transform-domain signal and system analysis. For revision, use `Fourier transform.md` for signal-side derivations and `frequency response.md` for system-side interpretation so that transform-pair memorization, property use, and filter meaning stay connected.
 
-## week 8 lab
+## week 8 lab 1
 
 - datetime: 2026-03-26T10:30:00+08:00/2026-03-26T11:20:00+08:00, PT50M
 - venue: Room 4225C
@@ -711,7 +711,7 @@ The lecture then turns that abstract statement into engineering patterns: magnit
 
 The note now also includes the standard lecture-style ideal-filter example workflow: read the plotted magnitude and phase of an ideal high-pass filter, rewrite the response as the complement of an ideal low-pass filter, and then recover the impulse response directly; the low-pass and band-pass analogues are kept beside it so the three ideal kernels can be compared in one place.
 
-## week 9 lecture
+## week 9 lecture 1
 
 - datetime: 2026-03-31T12:00:00+08:00/2026-03-31T13:20:00+08:00, PT1H20M
 - venue: Lecture Theater D
@@ -734,7 +734,7 @@ The lecture then turns that motivation into engineering workflow.  The note now 
 
 It now also includes the standard point-by-point spectrum-tracing example for a modulation / BPF / coherent-demodulation / LPF chain, so the reader can track the spectra at successive nodes and see explicitly why the normalized recovered output is $y(t)=\frac12 f(t)$ before any gain compensation.
 
-## week 9 tutorial
+## week 9 tutorial 1
 
 - datetime: 2026-04-01T11:00:00+08:00/2026-04-01T11:50:00+08:00, PT50M
 - venue: Room 2464
@@ -745,7 +745,7 @@ It now also includes the standard point-by-point spectrum-tracing example for a 
 
 The provided timetable records this as an updated extra tutorial round for the selected T2 stream, but no archived tutorial sheet or routing material has been provided yet.
 
-## week 9 lab
+## week 9 lab 1
 
 - datetime: 2026-04-02T10:30:00+08:00/2026-04-02T11:20:00+08:00, PT50M
 - venue: Room 4225C
@@ -780,7 +780,7 @@ The reconstruction discussion now makes the scaling and filter logic explicit: t
 
 The note now also spells out the standard maximum-sampling-interval example: read $\omega_m$ from the spectrum, compute $T_{\max}=\pi/\omega_m$, and sketch the sampled spectrum at the Nyquist limit where adjacent replicas just touch.
 
-## week 10 lecture
+## week 10 lecture 1
 
 - datetime: 2026-04-07T12:00:00+08:00/2026-04-07T13:20:00+08:00, PT1H20M
 - venue: Lecture Theater D
@@ -798,7 +798,7 @@ This lecture moves the course fully into discrete-time frequency analysis.  The 
 
 That viewpoint makes the most important qualitative property immediate: DTFT is periodic with period $2\pi$.  So one period already contains the full frequency description of a sequence, and the principal interval $[-\pi,\pi]$ becomes the discrete-time analogue of the Nyquist frequency range.  The note also now makes the notation map explicit among the original analog spectrum $X(\omega)$, the sampled-spectrum $X_s(\omega)$, and the normalized-frequency form $X(e^{j\Omega})$, ties DTFT periodicity directly to sampling-induced spectrum replication, explains the engineering impulse-decomposition route via the time-shift property, and makes explicit the course-convention link that views the DTFT pair as a complex Fourier-series pair in the variable $\Omega$.
 
-## week 10 tutorial
+## week 10 tutorial 1
 
 - datetime: 2026-04-08T11:00:00+08:00/2026-04-08T11:50:00+08:00, PT50M
 - venue: Room 2464
@@ -808,7 +808,7 @@ That viewpoint makes the most important qualitative property immediate: DTFT is 
 
 No T2 tutorial was scheduled in this slot according to the provided timetable.
 
-## week 10 lab
+## week 10 lab 1
 
 - datetime: 2026-04-09T10:30:00+08:00/2026-04-09T11:20:00+08:00, PT50M
 - venue: Room 4225C
@@ -840,7 +840,7 @@ The payoff is that all the familiar Fourier ideas reappear in discrete periodic 
 
 The note now also makes the line-spectrum bridge more explicit: it explains why one would derive the DTFT of a periodic sequence from DTFS at all, carefully separates the discrete harmonic index $k$ from the continuous digital-frequency variable $\Omega$, derives how one harmonic becomes one repeated spectral-line family, explains why the infinite exponential sum becomes a $2\pi$-weighted Dirac line train, and walks through the orthogonality, coefficient-extraction, conjugation, and reversal properties with more explicit algebra.
 
-## week 11 lecture
+## week 11 lecture 1
 
 - datetime: 2026-04-14T12:00:00+08:00/2026-04-14T13:20:00+08:00, PT1H20M
 - venue: Lecture Theater D
@@ -860,7 +860,7 @@ This lecture turns discrete-time Fourier analysis into a practical computational
 
 The most important engineering distinction here is circular versus linear thinking.  Direct DFT multiplication computes circular convolution, and zero padding is the deliberate device used to recover ordinary linear convolution when finite records are being processed numerically.  The topic note now also adds the matrix form $\mathbf{X}=F_N\mathbf{x}$ with a $4$-point worked example, emphasizes that zero padding densifies the sampled DTFT grid without creating new spectral information, explains principal value interval extraction as repeating a record periodically and then windowing back one chosen period, and uses explicit modulo-index and alias-sum calculations to contrast circular and linear convolution.
 
-## week 11 tutorial
+## week 11 tutorial 1
 
 - datetime: 2026-04-15T11:00:00+08:00/2026-04-15T11:50:00+08:00, PT50M
 - venue: Room 2464
@@ -870,7 +870,7 @@ The most important engineering distinction here is circular versus linear thinki
 
 The timetable reserves this T2 tutorial slot, but no archived tutorial material has been ingested yet.
 
-## week 11 lab
+## week 11 lab 1
 
 - datetime: 2026-04-16T10:30:00+08:00/2026-04-16T11:20:00+08:00, PT50M
 - venue: Room 4225C
@@ -899,7 +899,7 @@ This is the selected LA3 prelab slot for lab 4.  The schedule metadata for the m
 
 This lecture closes the Chapter 4 block with worked examples that force students to move across all three discrete-frequency viewpoints: periodic-sequence harmonics, DTFT as a continuous digital-frequency description, and finite-record DFT computation.  The key correction habit is to decide first whether a question is about linear convolution, circular convolution, or sampled spectrum.
 
-## week 12 lecture
+## week 12 lecture 1
 
 - datetime: 2026-04-21T12:00:00+08:00/2026-04-21T13:20:00+08:00, PT1H20M
 - venue: Lecture Theater D
@@ -912,7 +912,7 @@ This lecture closes the Chapter 4 block with worked examples that force students
 
 This lecture begins the complex-frequency segment.  The practical point is that Laplace analysis allows the same system to be studied as algebra in $s$ rather than repeated calculus in $t$, while ROC keeps track of where the transform is valid.
 
-## week 12 tutorial
+## week 12 tutorial 1
 
 - datetime: 2026-04-22T11:00:00+08:00/2026-04-22T11:50:00+08:00, PT50M
 - venue: Room 2464
@@ -922,7 +922,7 @@ This lecture begins the complex-frequency segment.  The practical point is that 
 
 The timetable reserves this T2 tutorial slot, but no archived tutorial material has been ingested yet.
 
-## week 12 lab
+## week 12 lab 1
 
 - datetime: 2026-04-23T10:30:00+08:00/2026-04-23T11:20:00+08:00, PT50M
 - venue: Room 4225C
@@ -948,7 +948,7 @@ This is the selected LA3 graded lab-4 slot.  As with the corresponding prelab, t
 
 This lecture shifts from definition to response computation.  The standard workflow is: map circuit elements into unilateral $s$-domain models with initial terms, solve algebraic equations, and return to time domain through inverse Laplace.
 
-## week 13 lecture
+## week 13 lecture 1
 
 - datetime: 2026-04-28T12:00:00+08:00/2026-04-28T13:20:00+08:00, PT1H20M
 - venue: Lecture Theater D
@@ -968,7 +968,7 @@ This lecture shifts from definition to response computation.  The standard workf
 
 This lecture unifies the Laplace-and-transfer-function storyline around $H(s)$: once the transfer function is known, block interconnections and pole locations give rapid qualitative predictions for causality, stability, and long-time behavior.  The same lecture also sharpens the Laplace-versus-Fourier bridge by testing whether the imaginary axis lies inside the ROC, outside it, or on a boundary pole where principal-value and impulse corrections are required.
 
-## week 13 tutorial
+## week 13 tutorial 1
 
 - datetime: 2026-04-29T11:00:00+08:00/2026-04-29T11:50:00+08:00, PT50M
 - venue: Room 2464
@@ -978,7 +978,7 @@ This lecture unifies the Laplace-and-transfer-function storyline around $H(s)$: 
 
 The timetable reserves this T2 tutorial slot, but no archived tutorial material has been ingested yet.
 
-## week 13 lab
+## week 13 lab 1
 
 - datetime: 2026-04-30T10:30:00+08:00/2026-04-30T11:20:00+08:00, PT50M
 - venue: Room 4225C
@@ -1004,7 +1004,7 @@ The selected LA3 lab program has already completed by this point in the archived
 
 The clarification examples emphasize one frequent source of mistakes: students often mix up the role of $\alpha=\frac{R}{2L}$ and $\omega_0=\frac{1}{\sqrt{LC}}$ when interpreting pole locations.  The damping class must be read from the discriminant $\alpha^2-\omega_0^2$, not from symbol names alone.
 
-## week 14 lecture
+## week 14 lecture 1
 
 - datetime: 2026-05-05T12:00:00+08:00/2026-05-05T13:20:00+08:00, PT1H20M
 - venue: Lecture Theater D
@@ -1024,7 +1024,7 @@ The clarification examples emphasize one frequent source of mistakes: students o
 
 This lecture is the Laplace-transform consolidation pass: definition-level details, procedural inverse-Laplace mechanics, ROC-based Fourier recovery, and stability interpretation are reviewed as one connected workflow.
 
-## week 14 tutorial
+## week 14 tutorial 1
 
 - datetime: 2026-05-06T11:00:00+08:00/2026-05-06T11:50:00+08:00, PT50M
 - venue: Room 2464
@@ -1034,7 +1034,7 @@ This lecture is the Laplace-transform consolidation pass: definition-level detai
 
 The timetable reserves this T2 tutorial slot, but no archived tutorial material has been ingested yet.
 
-## week 14 lab
+## week 14 lab 1
 
 - datetime: 2026-05-07T10:30:00+08:00/2026-05-07T11:20:00+08:00, PT50M
 - venue: Room 4225C

@@ -31,7 +31,7 @@ The content is in teaching order.
 - [assignments](assignments/index.md)
 - [questions](questions/index.md)
 
-## week 1 lecture
+## week 1 lecture 1
 
 - datetime: 2025-06-30T09:00:00+09:00/2025-06-30T10:40:00+09:00, PT1H40M
     - local: 2025-06-30T08:00:00+08:00/2025-06-30T09:40:00+08:00, PT1H40M
@@ -580,7 +580,7 @@ The content is in teaching order.
     - balanced scorecard / first generation ::@:: The first generation of balanced scorecard designs used a "four perspective" approach to identify what measures to use to track the implementation of strategy. The original four "perspectives" proposed were: \(results\) _financial_ ← _customer_ ← _internal business processes_ ← _learning and growth_ \(causes\).
 - assignment: [quiz 11–12](questions/quiz%2011–12.md)
 
-## week 5 lecture
+## week 5 lecture 1
 
 - datetime: 2025-07-28T09:00:00+09:00/2025-07-28T10:40:00+09:00, PT1H40M
     - local: 2025-07-28T08:00:00+08:00/2025-07-28T09:40:00+08:00, PT1H40M
@@ -762,7 +762,7 @@ The content is in teaching order.
     - e-commerce / mobile payment services ::@:: 3 major types: QR code, near-field communication \(NFC\), peer-to-peer \(P2P\) <p> QR code: Dunkin Donuts, Starbucks, Target, Walmart, etc. <br/> near-field communication \(NFC\): Apply Pay, Google Pay, etc. <br/> peer-to-peer \(P2P\): Venmo, Zelle, etc.
 - assignment: [quiz 9–10](questions/quiz%209–10.md)
 
-## week 6 lecture
+## week 6 lecture 1
 
 - datetime: 2025-08-04T09:00:00+09:00/2025-08-04T10:40:00+09:00, PT1H40M
     - local: 2025-08-04T08:00:00+08:00/2025-08-04T09:40:00+08:00, PT1H40M

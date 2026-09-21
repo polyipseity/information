@@ -149,7 +149,7 @@ The content is in teaching order.
     - linear regression / [§ ridge versus LASSO contour intuition](linear%20regression.md#ridge%20versus%20LASSO%20contour%20intuition)
     - linear regression / [§ regularization behavior across $\lambda$](linear%20regression.md#regularization-behavior-across-lambda)
 
-## week 1 tutorial
+## week 1 tutorial 1
 
 - datetime: 2026-02-05T18:00:00+08:00/2026-02-05T18:50:00+08:00, PT50M
 - venue: Room 2306, Academic Building (near Lifts 17–18)
@@ -205,7 +205,7 @@ The content is in teaching order.
     - classification / [§ multiclass precision, recall, and F1](classification.md#multiclass-precision-recall-and-f1)
     - classification / [§ worked metric computations](classification.md#worked-metric-computations)
 
-## week 2 tutorial
+## week 2 tutorial 1
 
 - datetime: 2026-02-12T18:00:00+08:00/2026-02-12T18:50:00+08:00, PT50M
 - venue: Room 2306, Academic Building (near Lifts 17–18)
@@ -223,7 +223,7 @@ The content is in teaching order.
 - venue: G002, CYT Building
 - status: public holiday: Chinese New Year
 
-## week 3 tutorial
+## week 3 tutorial 1
 
 - datetime: 2026-02-19T18:00:00+08:00/2026-02-19T18:50:00+08:00, PT50M
 - venue: Room 2306, Academic Building (near Lifts 17–18)
@@ -280,7 +280,7 @@ The content is in teaching order.
     - bias-variance decomposition / [§ bagging as variance reduction](bias-variance%20decomposition.md#bagging-as-variance-reduction)
     - bias-variance decomposition / [§ boosting as bias reduction](bias-variance%20decomposition.md#boosting-as-bias-reduction)
 
-## week 4 tutorial
+## week 4 tutorial 1
 
 - datetime: 2026-02-26T18:00:00+08:00/2026-02-26T18:50:00+08:00, PT50M
 - venue: Room 2306, Academic Building (near Lifts 17–18)
@@ -335,7 +335,7 @@ The content is in teaching order.
     - feedforward neural network / [§ hidden-layer derivatives](feedforward%20neural%20network.md#hidden-layer-derivatives)
     - feedforward neural network / [§ algorithm and implementation notes](feedforward%20neural%20network.md#algorithm-and-implementation-notes)
 
-## week 5 tutorial
+## week 5 tutorial 1
 
 - datetime: 2026-03-05T18:00:00+08:00/2026-03-05T18:50:00+08:00, PT50M
 - venue: Room 2306, Academic Building (near Lifts 17–18)
@@ -370,7 +370,7 @@ The content is in teaching order.
 - topic: convolutional neural networks
 - convolutional neural network note not yet published
 
-## week 6 tutorial
+## week 6 tutorial 1
 
 - datetime: 2026-03-12T18:00:00+08:00/2026-03-12T18:50:00+08:00, PT50M
 - venue: Room 2306, Academic Building (near Lifts 17–18)
@@ -389,7 +389,7 @@ The content is in teaching order.
 - venue: G002, CYT Building
 - topic: recurrent neural networks
 
-## week 7 tutorial
+## week 7 tutorial 1
 
 - datetime: 2026-03-19T18:00:00+08:00/2026-03-19T18:50:00+08:00, PT50M
 - venue: Room 2306, Academic Building (near Lifts 17–18)
@@ -407,7 +407,7 @@ The content is in teaching order.
 - venue: G002, CYT Building
 - status: no class
 
-## week 8 tutorial
+## week 8 tutorial 1
 
 - datetime: 2026-03-26T18:00:00+08:00/2026-03-26T18:50:00+08:00, PT50M
 - venue: Room 2306, Academic Building (near Lifts 17–18)
@@ -425,7 +425,7 @@ The content is in teaching order.
 - venue: G002, CYT Building
 - topic: transformer models
 
-## week 9 tutorial
+## week 9 tutorial 1
 
 - datetime: 2026-04-02T18:00:00+08:00/2026-04-02T18:50:00+08:00, PT50M
 - venue: Room 2306, Academic Building (near Lifts 17–18)
@@ -443,7 +443,7 @@ The content is in teaching order.
 - venue: G002, CYT Building
 - status: unscheduled
 
-## week 10 tutorial
+## week 10 tutorial 1
 
 - datetime: 2026-04-16T18:00:00+08:00/2026-04-16T18:50:00+08:00, PT50M
 - venue: Room 2306, Academic Building (near Lifts 17–18)
@@ -461,7 +461,7 @@ The content is in teaching order.
 - venue: G002, CYT Building
 - status: unscheduled
 
-## week 11 tutorial
+## week 11 tutorial 1
 
 - datetime: 2026-04-23T18:00:00+08:00/2026-04-23T18:50:00+08:00, PT50M
 - venue: Room 2306, Academic Building (near Lifts 17–18)
@@ -479,7 +479,7 @@ The content is in teaching order.
 - venue: G002, CYT Building
 - status: unscheduled
 
-## week 12 tutorial
+## week 12 tutorial 1
 
 - datetime: 2026-04-30T18:00:00+08:00/2026-04-30T18:50:00+08:00, PT50M
 - venue: Room 2306, Academic Building (near Lifts 17–18)
@@ -497,7 +497,7 @@ The content is in teaching order.
 - venue: G002, CYT Building
 - status: unscheduled
 
-## week 13 tutorial
+## week 13 tutorial 1
 
 - datetime: 2026-05-07T18:00:00+08:00/2026-05-07T18:50:00+08:00, PT50M
 - venue: Room 2306, Academic Building (near Lifts 17–18)

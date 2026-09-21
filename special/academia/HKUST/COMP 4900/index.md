@@ -63,7 +63,7 @@ COMP 4900 is a zero-credit academic and professional development course required
 
 ## 2024 fall
 
-### 2024 fall week 1 tutorial
+### 2024 fall week 1 tutorial 1
 
 - datetime: 2024-09-04T18:00:00+08:00/2024-09-04T19:00:00+08:00, PT1H
 - venue: \[missing\]
@@ -77,7 +77,7 @@ COMP 4900 is a zero-credit academic and professional development course required
 - topic: COMP orientation dinner
 - status: optional
 
-### 2024 fall week 10 tutorial
+### 2024 fall week 10 tutorial 1
 
 - datetime: 2024-11-04T18:00:00+08:00/2024-11-04T19:20:00+08:00, PT1H20M
 - venue: \[missing\]
@@ -87,14 +87,14 @@ COMP 4900 is a zero-credit academic and professional development course required
 
 ## 2025 spring
 
-### 2025 spring week 4 tutorial
+### 2025 spring week 4 tutorial 1
 
 - datetime: 2025-02-26T18:00:00+08:00/2025-02-26T18:50:00+08:00, PT50M
 - venue: \[missing\]
 - topic: COMP 1991 (Industrial Experience) and COMP 4910 (Co-op Program) information seminar
 - status: optional
 
-### 2025 spring week 8 tutorial
+### 2025 spring week 8 tutorial 1
 
 - datetime: 2025-03-24T18:00:00+08:00/2025-03-24T19:20:00+08:00, PT1H20M
 - venue: \[missing\]
@@ -102,7 +102,7 @@ COMP 4900 is a zero-credit academic and professional development course required
 - status: optional
 - ENGG 2010 / [§ 2025 spring](../ENGG%202010/index.md#2025%20spring)
 
-### 2025 spring week 14 tutorial
+### 2025 spring week 14 tutorial 1
 
 - datetime: 2025-05-10T14:00:00+08:00/2025-05-10T14:30:00+08:00, PT30M
 - venue: \[missing\]
@@ -111,7 +111,7 @@ COMP 4900 is a zero-credit academic and professional development course required
 
 ## 2025 fall
 
-### 2025 fall week 3 tutorial
+### 2025 fall week 3 tutorial 1
 
 - datetime: 2025-09-17T18:00:00+08:00/2025-09-17T18:50:00+08:00, PT50M
 - venue: \[missing\]
@@ -121,90 +121,90 @@ COMP 4900 is a zero-credit academic and professional development course required
 
 ## 2026 fall
 
-### 2026 fall week 1 tutorial
+### 2026 fall week 1 tutorial 1
 
 - datetime: 2026-09-02T18:00:00+08:00/2026-09-02T21:00:00+08:00, PT3H
 - venue: LTA
 - topic: CSE program orientation talk and dinner
 - status: optional
 
-### 2026 fall week 2 tutorial
+### 2026 fall week 2 tutorial 1
 
 - datetime: 2026-09-09T18:00:00+08:00/2026-09-09T19:00:00+08:00, PT1H
 - venue: LTA
 - status: no class
 
-### 2026 fall week 3 tutorial
+### 2026 fall week 3 tutorial 1
 
 - datetime: 2026-09-16T18:00:00+08:00/2026-09-16T19:00:00+08:00, PT1H
 - venue: LTA
 - topic: video taking and processing training module
 - status: optional
 
-### 2026 fall week 4 tutorial
+### 2026 fall week 4 tutorial 1
 
 - datetime: 2026-09-23T18:00:00+08:00/2026-09-23T19:00:00+08:00, PT1H
 - venue: LTA
 - topic: job search and CV writing
 - status: optional
 
-### 2026 fall week 5 tutorial
+### 2026 fall week 5 tutorial 1
 
 - datetime: 2026-09-30T18:00:00+08:00/2026-09-30T19:00:00+08:00, PT1H
 - venue: LTA
 - topic: HKEX
 - status: optional
 
-### 2026 fall week 6 tutorial
+### 2026 fall week 6 tutorial 1
 
 - datetime: 2026-10-07T18:00:00+08:00/2026-10-07T19:00:00+08:00, PT1H
 - venue: Rm2303
 - topic: developing interpersonal skills: empathetic listening and effective questioning
 - status: optional
 
-### 2026 fall week 7 tutorial
+### 2026 fall week 7 tutorial 1
 
 - datetime: 2026-10-14T18:00:00+08:00/2026-10-14T19:00:00+08:00, PT1H
 - venue: LTA
 - topic: FDM
 - status: optional
 
-### 2026 fall week 8 tutorial
+### 2026 fall week 8 tutorial 1
 
 - datetime: 2026-10-21T18:00:00+08:00/2026-10-21T19:00:00+08:00, PT1H
 - venue: LTA
 - topic: exploring the COMP curriculum and planning ahead
 - status: optional
 
-### 2026 fall week 9 tutorial
+### 2026 fall week 9 tutorial 1
 
 - datetime: 2026-10-28T18:00:00+08:00/2026-10-28T19:00:00+08:00, PT1H
 - venue: LTA
 - topic: generating HTML/CSS and a personal website with AI
 - status: optional
 
-### 2026 fall week 10 tutorial
+### 2026 fall week 10 tutorial 1
 
 - datetime: 2026-11-04T18:00:00+08:00/2026-11-04T19:00:00+08:00, PT1H
 - venue: LTA
 - topic: using the terminal, command line, and shell script
 - status: optional
 
-### 2026 fall week 11 tutorial
+### 2026 fall week 11 tutorial 1
 
 - datetime: 2026-11-11T18:00:00+08:00/2026-11-11T19:00:00+08:00, PT1H
 - venue: LTA
 - topic: entrepreneurship journey at the HKUST Entrepreneurship Centre
 - status: optional
 
-### 2026 fall week 12 tutorial
+### 2026 fall week 12 tutorial 1
 
 - datetime: 2026-11-18T18:00:00+08:00/2026-11-18T19:00:00+08:00, PT1H
 - venue: \[missing\]
 - topic: group discussion interview practicum with feedback
 - status: optional
 
-### 2026 fall week 13 tutorial
+### 2026 fall week 13 tutorial 1
 
 - datetime: 2026-11-25T18:00:00+08:00/2026-11-25T19:00:00+08:00, PT1H
 - venue: LTA

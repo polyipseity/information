@@ -30,7 +30,7 @@ The content is in teaching order.
 
 - [questions](questions/index.md)
 
-## week 1 lecture
+## week 1 lecture 1
 
 - datetime: 2025-09-02T10:30:00+09:00/2025-09-02T11:45:00+09:00, PT1H15M
     - local: 2025-09-02T09:30:00+08:00/2025-09-02T10:45:00+08:00, PT1H15M

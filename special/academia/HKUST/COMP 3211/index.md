@@ -45,12 +45,12 @@ The content is in teaching order.
 - [assignments](assignments/index.md)
 <!-- - [questions](questions.md) -->
 
-## week 1 tutorial
+## week 1 tutorial 1
 
 - datetime: 2025-02-04T12:30:00+08:00/2025-02-04T13:20:00+08:00
 - status: unscheduled, no tutorial
 
-## week 1 lecture
+## week 1 lecture 1
 
 - datetime: 2025-02-05T13:30:00+08:00/2025-02-04T14:50:00+08:00
 - topic: introduction, reactive agents
@@ -101,12 +101,12 @@ The content is in teaching order.
 > Best regards,
 > \[redacted\]
 
-## week 2 tutorial
+## week 2 tutorial 1
 
 - datetime: 2025-02-11T12:30:00+08:00/2025-02-11T13:20:00+08:00
 - status: canceled
 
-## week 2 lecture
+## week 2 lecture 1
 
 - datetime: 2025-02-12T13:30:00+08:00/2025-02-12T14:50:00+08:00
 - topic: reactive agents
@@ -165,7 +165,7 @@ The content is in teaching order.
         - genetic programming / reproduction / mutate ::@:: From the copied _parents_, select 1 program. Replace a randomly selected subtree by a new randomly generated subtree. <p> A typical percentage of the new generation mutated is 1% \(i.e. rarely occurs\).
     - genetic programming / performance ::@:: It depends on the initial generation size, copy/crossover/mutate rates, and tournament selection parameters. <p> The wall-following example in the slides generates a perfect tree after 10 generations.
 
-## week 3 tutorial
+## week 3 tutorial 1
 
 - datetime: 2025-02-18T12:30:00+08:00/2025-02-18T13:20:00+08:00
 - topic: TLU basics
@@ -196,7 +196,7 @@ The content is in teaching order.
     - Anaconda / installation
     - Anaconda / usage
 
-## week 3 lecture
+## week 3 lecture 1
 
 - datetime: 2025-02-19T13:30:00+08:00/2025-02-19T14:50:00+08:00
 - topic: reactive agents, search
@@ -265,7 +265,7 @@ The content is in teaching order.
         - search algorithm / heuristic / heuristic function ::@:: Given the current path and search tree, it usually measures how far the inputted state and path is from a goal state.
             - search algorithm / heuristic / heuristic function / examples ::@:: 8 puzzle: number of tiles out of place, current path length + number of tiles out of place, etc.
 
-## week 4 tutorial
+## week 4 tutorial 1
 
 - datetime: 2025-02-25T12:30:00+08:00/2025-02-25T13:20:00+08:00
 - topic: simple agents
@@ -285,7 +285,7 @@ The content is in teaching order.
     - genetic programming / optimization ::@:: It can be considered as a zeroth-order optimization method (evolution). That is, the fitness/loss function is used directly, and its derivatives are not used.
         - genetic programming / optimization / gradient descent, Newton's method ::@:: They are respectively one of the first-order and second-order optimization methods. <p> The first uses first derivatives (gradient). The second uses both first and second derivatives (Hessian matrix). <p> Usually, the higher the order of the derivatives used, the more efficient and also computationally expensive the method is. <p> The first is commonly used in deep learning and machine learning. The second is good for convex problems.
 
-## week 4 lecture
+## week 4 lecture 1
 
 - datetime: 2025-02-26T13:30:00+08:00/2025-02-26T14:50:00+08:00
 - topic: search
@@ -356,7 +356,7 @@ The content is in teaching order.
         - DPLL algorithm / algorithm / lecture slides ::@:: \(__this course__: In the lecture slides, the checking steps are in a different order: check empty, check has empty clause, then check for a pure literal, then check for a unit clause, then finally select a variable \(assigning "true" before assigning "false"\). If a check passes, either yes, no, or the algorithm is recursively called after replacing a literal with "true", so no `while` appears in the lecture slides. <p> The intermediate steps and CNFs are different. While the algorithm returns the same result \(satisfiability\) as the original, the instructors may prefer us to show the steps in the above order instead.\)
     - DPLL algorithm / completeness ::@:: It is complete \(_constructive_ method\). <p> Notice that the algorithm without the pure literal rule is _almost_ simply trying all 2<sup>_n_</sup> possible inputs for the _n_ variables \(the unit propagation rule eliminates unit clauses in the _initial_ CNF formula, hence "almost"\). This is _backtracking_. Then, the pure literal rule is simply a _sound_ rule to _prune_ more of the search space.
 
-## week 5 tutorial
+## week 5 tutorial 1
 
 - datetime: 2025-03-04T12:30:00+08:00/2025-03-04T13:20:00+08:00
 - topic: search
@@ -371,7 +371,7 @@ The content is in teaching order.
     - search algorithm / greedy search ::@:: The strategy is expanding nodes with the lowest _estimated_ cost to a goal state first. It can be implemented using a priority queue that puts nodes with lower estimated cost earlier in the queue. <p> It differs from BFS and UCS in that it uses the _estimated_ cost to a goal state rather than the cumulative cost from the initial state.
     - search algorithm / A\* search algorithm ::@:: The strategy is expanding nodes with the lowest _sum_ of cumulative cost and _estimated_ cost to a goal state first. It can be implemented using a priority queue \(tie-breaking with the deepest node, i.e. LIFO\). <p> It can be seen as a hybrid of _uniform cost search_ \(cumulative cost\) and _greedy search_ \(estimated cost to a goal state\).
 
-## week 5 lecture
+## week 5 lecture 1
 
 - datetime: 2025-03-05T13:30:00+08:00/2025-03-05T14:50:00+08:00
 - topic: constraint satisfaction problem \(CSP\)
@@ -436,7 +436,7 @@ The content is in teaching order.
     - minimax / partial ::@:: As mentioned above, games with too many states are impractical to evaluate using the original minimax algorithm. A variant that sacrifice perfect decision \(i.e. _imperfect decision_\) for performance is presented below. <p> The game tree is now _partial_. One way to make a _partial_ tree is to limit by depth bound \(number of edges\). Also, the utility/payoff function is extended to a _heuristic evaluation function_. The function agrees with the original utility/payoff function for terminal game states, and additionally _approximates_ the utility/payoff for non-terminal game states. Its computation should also be _efficient_. Otherwise, everything remains the same.
         - minimax / partial / heuristic ::@:: A common way to construct such a function is using a _weighted linear function_, with features in a game state as inputs. Another way is to _learn_ such a function automatically from past experience using other techniques. <p> For example, the heuristic for tic-tac-toe for non-terminal game states can be the number of available winning positions \(columns, diagonals, rows\) for MAX subtracted by that for MIN.
 
-## week 6 tutorial
+## week 6 tutorial 1
 
 - datetime: 2025-03-11T12:30:00+08:00/2025-03-11T13:20:00+08:00
 - topic: constraint satisfaction problem \(CSP\)
@@ -458,7 +458,7 @@ The content is in teaching order.
     - Boolean satisfiability problem / conjunctive normal form \(CNF\)
     - Boolean satisfiability problem / search problem ::@:: A CNF formula is given. The states are partial \(including empty and full\) assignments of variables. The initial state is the empty assignment. The goal state is an assignment that satisfies the CNF formula. The actions are assigning a Boolean to an unassigned variable. The path cost is 1 per action. <p> Setting the path cost to 1 per action means we try to find a solution that has the least number of assigned variables. The remaining unassigned variables can be assigned arbitrarily.
 
-## week 6 lecture
+## week 6 lecture 1
 
 - datetime: 2025-03-12T13:30:00+08:00/2025-03-12T14:50:00+08:00
 - topic: game tree search
@@ -511,7 +511,7 @@ The content is in teaching order.
     - Markov decision process / optimization objective ::@:: The reward of a run is easily calculated. The formula is simply the expression in the expected value operator below. Note that the first reward obtained is not discounted, i.e. multiplied by $\gamma^0 = 1$. <p> But there are many possible runs for a typical MDP. The objective is to choose a policy $\pi$ that will maximize some cumulative function of the random rewards, typically the expected discounted sum over a potentially infinite horizon <p> &emsp; $E\left[\sum _{t=0}^{\infty }{\gamma ^{t}R_{a_{t} }(s_{t},s_{t+1})}\right]$ \(where we choose $a_{t}=\pi (s_{t})$, i.e. actions given by the policy\). And the expectation is taken over $s_{t+1}\sim P_{a_{t} }(s_{t},s_{t+1})$ <p> where $\ \gamma \ {}$ is the discount factor satisfying $0\leq \ \gamma \ \leq \ 1$.
     - Markov decision process / discount factor ::@:: $\ \gamma \ {}$ a discount factor satisfying $0\leq \ \gamma \ \leq \ 1$, which is usually close to $1$ \(for example, $\gamma =1/(1+r)$ for some discount rate $r$\). A lower discount factor motivates the decision maker to favor taking actions early, rather than postpone them indefinitely.
 
-## week 7 tutorial
+## week 7 tutorial 1
 
 - datetime: 2025-03-18T12:30:00+08:00/2025-03-18T13:20:00+08:00
 - topic: minimax, alpha–beta pruning
@@ -533,7 +533,7 @@ The content is in teaching order.
     - alpha–beta pruning / recursive execution
     - alpha–beta pruning / search order
 
-## week 7 lecture
+## week 7 lecture 1
 
 - datetime: 2025-03-19T13:30:00+08:00/2025-03-19T14:50:00+08:00
 - topic: Markov decision process \(MDP\)
@@ -566,13 +566,13 @@ The content is in teaching order.
     - reinforcement learning / ε-greedy ::@:: $0<\varepsilon <1$ is a parameter controlling the amount of exploration vs. exploitation. With probability $1-\varepsilon$, exploitation is chosen, and the agent chooses the action that it believes has the best long-term effect \(ties between actions are broken uniformly at random\). Alternatively, with probability $\varepsilon$, exploration is chosen, and the action is chosen uniformly at random. $\varepsilon$ is usually a fixed parameter but can be adjusted either according to a schedule \(making the agent explore progressively less\), or adaptively based on heuristics. <p> mnemonics: $\varepsilon$ is the probability of exploration because $\varepsilon$ usually stands for a small number and the probability of exploration should be small.
         - reinforcement learning / ε-greedy / Q-value ::@:: In terms of Q-value, this can be expressed as: $$\pi(s) = \begin{cases} \operatorname{argmax}_{a \in \operatorname{action}(s)} \hat Q(s, a) & \text{with probability }1 - \varepsilon \\ \text{random }a \in \operatorname{action}(s) & \text{with probability }\varepsilon \,, \end{cases}$$ where $\hat Q(s, a)$ is the current _estimated_ Q-value.
 
-## week 8 tutorial
+## week 8 tutorial 1
 
 - datetime: 2025-03-25T12:30:00+08:00/2025-03-25T13:20:00+08:00, PT50M
 - topic: midterm Q&A
 - [§ midterm examination](#midterm%20examination)
 
-## week 8 lecture
+## week 8 lecture 1
 
 - datetime: 2025-03-26T13:30:00+08:00/2025-03-26T14:50:00+08:00, PT1H20M
 - topic: reinforcement learning
@@ -668,12 +668,12 @@ The content is in teaching order.
 - coordination game
     - coordination game / Nash equilibrium ::@:: Both players doing the same thing, for which there are two profiles, are the two Nash equilibra.
 
-## week 9 tutorial
+## week 9 tutorial 1
 
 - datetime: 2025-04-01T12:30:00+08:00/2025-04-01T13:20:00+08:00, PT50M
 - status: unscheduled, midterm break
 
-## week 9 lecture
+## week 9 lecture 1
 
 - datetime: 2025-04-02T13:30:00+08:00/2025-04-02T14:50:00+08:00, PT1H20M
 - status: unscheduled, midterm break
@@ -683,7 +683,7 @@ The content is in teaching order.
 - datetime: 2025-04-04T13:30:00+08:00/2025-04-04T14:50:00+08:00, PT1H20M
 - status: unscheduled, midterm break
 
-## week 10 tutorial
+## week 10 tutorial 1
 
 - datetime: 2025-04-08T12:30:00+08:00/2025-04-08T13:20:00+08:00, PT50M
 - topic: Markov decision process
@@ -700,7 +700,7 @@ The content is in teaching order.
     - Markov decision process / policy iteration
         - Markov decision process / policy iteration / vs. value iteration
 
-## week 10 lecture
+## week 10 lecture 1
 
 - datetime: 2025-04-09T13:30:00+08:00/2025-04-09T14:50:00+08:00, PT1H20M
 - topic: game theory, auctions
@@ -748,7 +748,7 @@ The content is in teaching order.
     - Bayesian game / motivation ::@:: In real world, not all information is available. So use probabilities to model them. <p> For example, we do not know others' value of an item in an auction.
     - Bayesian game / sealed-bid auction ::@:: To model a sealed-bid auction as a game, we define: <p> - a set of $n$ agents $N$ <br/> - a set of possible _private_ values for each agent $v_i \in V_i := [0, 1]$ <br/> - a set of possible bids for each agent $b_i \in B_i := [0, 1]$ <br/> - a prior probability distribution function for private agent values $p: V^n \to [0, 1]$, which is common to all agents <br/> - a payment function for each agent $\sigma_i : V^n \to \Sigma := [0, 1]$ <br/> - a winner selection function $\tau : V^n \to N$
 
-## week 11 tutorial
+## week 11 tutorial 1
 
 - datetime: 2025-04-15T12:30:00+08:00/2025-04-15T13:20:00+08:00, PT50M
 - topic: game theory
@@ -770,7 +770,7 @@ The content is in teaching order.
 - coordination game
     - coordination game / mixed Nash equilibrium ::@:: Both players choosing both actions half of the time. Note that its expected utility is less than that of the pure Nash equilibria.
 
-## week 11 lecture
+## week 11 lecture 1
 
 - datetime: 2025-04-16T13:30:00+08:00/2025-04-16T14:50:00+08:00, PT1H20M
 - topic: auctions, propositional logic
@@ -806,7 +806,7 @@ The content is in teaching order.
 - datetime: 2025-04-18T13:30:00+08:00/2025-04-18T14:50:00+08:00, PT1H20M
 - status: unscheduled, public holiday: Good Friday
 
-## week 12 tutorial
+## week 12 tutorial 1
 
 - datetime: 2025-04-22T12:30:00+08:00/2025-04-22T13:20:00+08:00, PT50M
 - topic: auctions
@@ -820,7 +820,7 @@ The content is in teaching order.
 - revenue equivalence
     - revenue equivalence / derivation ::@:: You can construct the CDF for the revenue first \(FPSBA: $\max\left\{\frac {n - 1} n a, \frac {n - 1} n b, \ldots \right\}$, SPSBA: $\max\set{a, b, \ldots}$\), and then differentiate it to find its PDF, and finally find its expected value \(integrated over the possible revenue range with nonzero probability\).
 
-## week 12 lecture
+## week 12 lecture 1
 
 - datetime: 2025-04-23T13:30:00+08:00/2025-04-23T14:50:00+08:00, PT1H20M
 - topic: propositional logic
@@ -872,7 +872,7 @@ The content is in teaching order.
 - propositional calculus
     - propositional calculus / limitations ::@:: If you have many propositions, then some rules relating many of those propositions will encode to many clauses. <p> First-order logic \(FOL\) can help reduce complexity. More strictly, FOL is more _concise_ and _expressive_.
 
-## week 13 tutorial
+## week 13 tutorial 1
 
 - datetime: 2025-04-29T12:30:00+08:00/2025-04-29T13:20:00+08:00, PT50M
 - topic: propositional logic
@@ -885,7 +885,7 @@ The content is in teaching order.
     - Z3 Theorem Prover / solving ::@:: Create a solver using `Solver()`. Add constraints using `solver.add(constraints...)`. Finally, check if the model is satisfiable using `solver.check()`, and if yes, get the model using `solver.model()`.
     - Z3 Theorem Prover / beyond propositional calculus ::@:: It also supports first-order logic, quantifier-free logic, etc. They are much more expressive and requires defining less variables. \(__this course__: Do not use these in examinations for propositional calculus!\)
 
-## week 13 lecture
+## week 13 lecture 1
 
 - datetime: 2025-04-30T13:30:00+08:00/2025-04-30T14:50:00+08:00, PT1H20M
 - topic: first-order logic
@@ -958,14 +958,14 @@ The content is in teaching order.
 > Best regards, <br/>
 > \[redacted\]
 
-## week 14 tutorial
+## week 14 tutorial 1
 
 - datetime: 2025-05-06T12:30:00+08:00/2025-05-06T13:20:00+08:00, PT50M
 - topic: first-order logic
 - first-order logic
     - first-order logic / examples
 
-## week 14 lecture
+## week 14 lecture 1
 
 - datetime: 2025-05-07T13:30:00+08:00/2025-05-07T14:50:00+08:00, PT1H20M
 - topic: reasoning under uncertainty

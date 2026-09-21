@@ -17,7 +17,7 @@ tags:
 
 - HKUST ACCT 3010
 
-## week 1 lecture
+## week 1 lecture 1
 
 > Why do you think accounting is important?
 >
@@ -57,7 +57,7 @@ tags:
 >
 > - solution: {@{1/2/3/4/5}@}
 
-## week 2 lecture
+## week 2 lecture 1
 
 \(none\)
 
@@ -74,7 +74,7 @@ tags:
 >
 > - solution: {@{1, 2, 3, 4}@}
 
-## week 3 lecture
+## week 3 lecture 1
 
 > Key data from Tesla's 2020 annual report \(form 10-K\):
 >
@@ -102,7 +102,7 @@ tags:
 >
 > - solution: {@{2, 4}@}
 
-## week 4 lecture
+## week 4 lecture 1
 
 > Do you think the U.S. Government will be solvent in 10 years?
 >
@@ -120,19 +120,19 @@ tags:
 >
 > - solution: {@{Yes. Tesla uses the indirect method to produce its SCF. The key is using identical data sources; any discrepancy usually comes from different interpretations of adjustments.}@}
 
-## week 5 lecture
+## week 5 lecture 1
 
 ## week 5 lecture 2
 
-## week 6 lecture
+## week 6 lecture 1
 
 ## week 6 lecture 2
 
-## week 7 lecture
+## week 7 lecture 1
 
 ## week 7 lecture 2
 
-## week 8 lecture
+## week 8 lecture 1
 
 \(none\)
 
@@ -140,7 +140,7 @@ tags:
 
 \(none\)
 
-## week 9 lecture
+## week 9 lecture 1
 
 \(none\)
 

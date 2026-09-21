@@ -65,7 +65,7 @@ The content is in teaching order.
     - [TAPPS](assignments/TAPPS/index.md)
 - [questions](questions.md)
 
-## week 1 lecture
+## week 1 lecture 1
 
 - datetime: 2025-02-05T16:30:00+08:00/2025-02-05T17:50:00+08:00, PT1H20M
 - topic: introduction
@@ -107,11 +107,11 @@ The content is in teaching order.
         - corporate finance / financial institutions / hedge funds ::@:: source: wealthy individuals and endowments; use: invest in any investment to try to maximize returns
         - corporate finance / financial institutions / venture capital funds ::@:: source: wealthy individuals and endowments; use: invest in entrepreneurial firms and startups
         - corporate finance / financial institutions / private equity funds ::@:: source: wealthy individuals and endowments; use: purchase whole companies with little equity and much debt (borrowing)
-- [questions § week 1 lecture](questions.md#week%201%20lecture)
+- [questions § week 1 lecture 1](questions.md#week%201%20lecture%201)
 - [TAPPS/week 1 lecture](assignments/TAPPS/week%201%20lecture.md)
 - readings: chapter 1 (exclude section 1.2), chapter 3
 
-## week 1 tutorial
+## week 1 tutorial 1
 
 - datetime: 2025-02-07T10:30:00+08:00/2025-02-07T11:20:00+08:00, PT50M
 - status: unscheduled, unannounced
@@ -145,7 +145,7 @@ The content is in teaching order.
 - [TAPPS/week 1 lecture 2](assignments/TAPPS/week%201%20lecture%202.md)
 - readings: chapter 3
 
-## week 2 lecture
+## week 2 lecture 1
 
 - datetime: 2025-02-12T16:30:00+08:00/2025-02-12T17:50:00+08:00, PT1H20M
 - topic: time value of money (TVM)
@@ -167,17 +167,17 @@ The content is in teaching order.
     - time value of money / finding number of periods ::@:: $N = \frac {\ln(FV / PV)} {\ln(1 + r)} = \frac {\ln FV - \ln PV} {\ln(1 + r)}$, which has units of period (usually year)
     - time value of money / finding interest rate ::@:: $r = (FV / PV)^{1 / N} - 1$
 - [rule of 72](../../../../general/rule%20of%2072.md) (or 70 or 69.3) ::@:: How long does it take to double your investment? This rule gives a rough approximation. <p> The rule states, to double your investment, the interest rate per period in _percentage_ multiplied by the number of periods should be approximately 72.
-- [questions § week 2 lecture](questions.md#week%202%20lecture)
+- [questions § week 2 lecture 1](questions.md#week%202%20lecture%201)
 - [TAPPS/week 2 lecture](assignments/TAPPS/week%202%20lecture.md)
 - readings: chapter 4
 
-## week 2 tutorial
+## week 2 tutorial 1
 
 - datetime: 2025-02-14T10:30:00+08:00/2025-02-14T11:20:00+08:00, PT50M
 - status: hybrid \(online, physical\), optional
-- [§ week 1 lecture](#week%201%20lecture)
+- [§ week 1 lecture 1](#week%201%20lecture%201)
 - [§ week 1 lecture 2](#week%201%20lecture%202)
-- [§ week 2 lecture](#week%202%20lecture)
+- [§ week 2 lecture 1](#week%202%20lecture%201)
 - [§ week 2 lecture 2](#week%202%20lecture%202)
 
 ## week 2 lecture 2
@@ -202,7 +202,7 @@ The content is in teaching order.
 - [TAPPS/week 2 lecture 2](assignments/TAPPS/week%202%20lecture%202.md)
 - readings: chapter 4
 
-## week 3 lecture
+## week 3 lecture 1
 
 - datetime: 2025-02-19T16:30:00+08:00/2025-02-19T17:50:00+08:00, PT1H20M
 - topic: time value of money: valuing cash flow streams
@@ -230,15 +230,15 @@ The content is in teaching order.
         - annuity / finding interest rate / trial-and-error ::@:: Using intuition, guess an interest rate. Calculate the value for another variable assuming that interest rate. Observe the error between the actual value of that other variable. Using intuition, guess if the interest rate needs to be higher or lower, and by how much. Repeat until you get a good enough answer. <p> (The instructor told us that we will not need to calculate the exact value... But we still need to know how to guess.)
     - annuity / finding number of periods ::@:: Given present value (money you have now) $PV$, future value (money to save) $FV$, interest rate $r$, and _ordinary_ annuity payment $C$, we can derive the equation for number of periods $t$: $$\begin{aligned} FV & = PV (1 + r)^t + \frac C r \left((1 + r)^t - 1 \right) \\ (1 + r)^t & = \frac {FV + \frac C r} {PV + \frac C r} = \frac {r \cdot FV + C} {r \cdot PV + C} \\ t & = \frac {\ln(r \cdot FV + C) - \ln(r \cdot PV + C)} {\ln(1 + r)} \,. \end{aligned}$$ So the equation is the last expression, for those without a financial calculator.
         - annuity / finding number of periods / intuition ::@:: Observe the equation: $$t = \frac {\ln(r \cdot FV + C) - \ln(r \cdot PV + C)} {\ln(1 + r)} \,.$$ You can see $r \cdot FV + C$ would have been the next payment after the annuity ends if the annuity had not ended. $r \cdot PV + C$ is the first payment. This is interesting... it seems like it somehow relates to the growth...
-- [questions § week 3 lecture](questions.md#week%203%20lecture)
+- [questions § week 3 lecture 1](questions.md#week%203%20lecture%201)
 - [TAPPS/week 3 lecture](assignments/TAPPS/week%203%20lecture.md)
 - readings: chapter 5 (skip 5.3)
 
-## week 3 tutorial
+## week 3 tutorial 1
 
 - datetime: 2025-02-21T10:30:00+08:00/2025-02-21T11:20:00+08:00, PT50M
 - status: hybrid \(online, physical\), optional
-- [§ week 3 lecture](#week%203%20lecture)
+- [§ week 3 lecture 1](#week%203%20lecture%201)
 - [§ week 3 lecture 2](#week%203%20lecture%202)
 
 ## week 3 lecture 2
@@ -260,7 +260,7 @@ The content is in teaching order.
 - [TAPPS/week 3 lecture 2](assignments/TAPPS/week%203%20lecture%202.md)
 - readings: chapter 5 (skip 5.3)
 
-## week 4 lecture
+## week 4 lecture 1
 
 - datetime: 2025-02-26T16:30:00+08:00/2025-02-26T17:50:00+08:00, PT1H20M
 - topic: interest rates
@@ -277,15 +277,15 @@ The content is in teaching order.
         - amortizing loan / outstanding balance / formula ::@:: Assuming EMI. The outstanding principal at time _t_ is: $$P_t = P_0 \frac {1 - \frac 1 {(1 + r)^{T - t} } } {1 - \frac 1 {(1 + r)^T } } \,,$$ where _P_<sub>0</sub> is the \(original\) principal, _r_ is the interest rate, and _T_ is the total number of payments (paid _and_ remaining).
 - [cost of capital](../../../../general/cost%20of%20capital.md) ::@:: It is the cost of a company's funds (both debt and equity), or from an investor's point of view is "the required rate of return on a portfolio company's existing securities". <p> It is the best available expected return offered in the market on an investment of _comparable risk and term_ to the cash flows being discounted.
     - cost of capital / risk-free return ::@:: Many investors consider US Treasury bonds as "risk-free". Thus for any borrowing that is not considered "risk-free", investors require a higher rate of return.
-- [questions § week 4 lecture](questions.md#week%204%20lecture)
+- [questions § week 4 lecture 1](questions.md#week%204%20lecture%201)
 - [TAPPS/week 4 lecture](assignments/TAPPS/week%204%20lecture.md)
 - readings: chapter 8 \(skip MIRR and 8.6\)
 
-## week 4 tutorial
+## week 4 tutorial 1
 
 - datetime: 2025-02-28T10:30:00+08:00/2025-02-28T11:20:00+08:00, PT50M
 - status: hybrid \(online, physical\), optional
-- [§ week 4 lecture](#week%204%20lecture)
+- [§ week 4 lecture 1](#week%204%20lecture%201)
 - [§ week 4 lecture 2](#week%204%20lecture%202)
 
 ## week 4 lecture 2
@@ -335,7 +335,7 @@ The content is in teaching order.
 - [TAPPS/week 4 lecture 2](assignments/TAPPS/week%204%20lecture%202.md)
 - readings: chapter 8 \(skip 8.6\)
 
-## week 5 lecture
+## week 5 lecture 1
 
 - datetime: 2025-03-05T16:30:00+08:00/2025-03-05T17:50:00+08:00, PT1H20M
 - topic: investment decision rules
@@ -359,15 +359,15 @@ The content is in teaching order.
     - equivalent annual cost / calculation ::@:: It is calculated by dividing the negative [NPV](../../../../general/net%20present%20value.md) of a project by the "present value of [annuity](../../../../general/annuity%20(finance%20theory).md) factor": $$\mathrm {EAC} =-{\frac {\mathrm {NPV} }{A_{t,r} } } \,,$$ where $${A_{t,r} }={\frac {1-{\frac {1}{(1+r)^{t} } } }{r} }$$ where _r_ is the annual interest rate and _t_ is the number of years. <p> Alternatively, EAC can be obtained by multiplying the NPV of the project by the "loan repayment factor".
     - equivalent annual cost / equivalent annual annuity \(EAA\) ::@:: This different naming \(used by the course and the book\) is to reflect that this can be used for more than costs. <p> Note that in this case, the resulting sign is inverted, since we are considering an "annuity" instead of "cost" now.
     - equivalent annual cost / additional considerations ::@:: Consider all available options and possible scenarios beyond replacement cost and required life, e.g. flexibility, risk, etc.
-- [questions § week 5 lecture](questions.md#week%204%20lecture)
+- [questions § week 5 lecture 1](questions.md#week%204%20lecture%201)
 - [TAPPS/week 5 lecture](assignments/TAPPS/week%205%20lecture.md)
 - readings: chapter 2 \(skip 2.5, 2.6, 2.7\)
 
-## week 5 tutorial
+## week 5 tutorial 1
 
 - datetime: 2025-03-07T10:30:00+08:00/2025-03-07T11:20:00+08:00, PT50M
 - status: hybrid \(online, physical\), optional
-- [§ week 5 lecture](#week%205%20lecture)
+- [§ week 5 lecture 1](#week%205%20lecture%201)
 - [§ week 5 lecture 2](#week%205%20lecture%202)
 
 ## week 5 lecture 2
@@ -433,7 +433,7 @@ The content is in teaching order.
 - [TAPPS/week 5 lecture 2](assignments/TAPPS/week%205%20lecture%202.md)
 - readings: chapter 2 \(skip 2.5, 2.6, 2.7\)
 
-## week 6 lecture
+## week 6 lecture 1
 
 - datetime: 2025-03-12T16:30:00+08:00/2025-03-12T17:50:00+08:00, PT1H20M
 - topic: measuring cash flows
@@ -474,15 +474,15 @@ The content is in teaching order.
     - financing activities
         - financing activities / methods ::@:: direct method, indirect method (both are essentially the same for financing activities)
         - financing activities / calculation ::@:: borrow short-term loans for _cash_: inflow (+) <br/> repay short-term loans in _cash_: outflow (−) <br> issue bonds for _cash_: inflow (+) <br/> repay bonds in _cash_: outflow (−) <br/> issue stock in _cash_: inflow (+) <br/> repurchase stock for _cash_: outflow (−) <br/> pay _cash_ dividends: outflow (−)
-- [questions § week 6 lecture](questions.md#week%206%20lecture)
+- [questions § week 6 lecture 1](questions.md#week%206%20lecture%201)
 - [TAPPS/week 6 lecture](assignments/TAPPS/week%206%20lecture.md)
 - readings: chapter 9 \(skip MACRS, 9.5, 9.6\)
 
-## week 6 tutorial
+## week 6 tutorial 1
 
 - datetime: 2025-03-14T10:30:00+08:00/2025-03-14T11:20:00+08:00, PT50M
 - status: hybrid \(online, physical\), optional
-- [§ week 6 lecture](#week%206%20lecture)
+- [§ week 6 lecture 1](#week%206%20lecture%201)
 - [§ week 6 lecture 2](#week%206%20lecture%202)
 - [P/B ratio](../../../../general/P_B%20ratio.md), market-to-book ratio ::@:: It is a [financial ratio](../../../../general/financial%20ratio.md) used to compare a company's current market value to its [book value](../../../../general/book%20value.md) \(where _book value_ is the value of all assets minus liabilities owned by a company\).
 
@@ -506,7 +506,7 @@ The content is in teaching order.
 - [TAPPS/week 6 lecture 2](assignments/TAPPS/week%206%20lecture%202.md)
 - readings: chapter 9 \(skip MACRS in 9.4, 9.5, 9.6\)
 
-## week 7 lecture
+## week 7 lecture 1
 
 - datetime: 2025-03-19T16:30:00+08:00/2025-03-19T17:50:00+08:00, PT1H20M
 - topic: fundamentals of capital budgeting
@@ -523,15 +523,15 @@ The content is in teaching order.
         - free cash flow / changes in working capital / trade credit ::@:: receivables − payables <p> It can be interpreted as the net capital held up in credit transactions.
         - free cash flow / changes in working capital / recovery ::@:: Typically at the end of a project, payables are paid off, inventory are sold off, receivables are collected, so NWC equals its beginning balance, i.e. fully recovered. <p> Some NWC may not be recoverable, e.g. bad inventory, bad receivables, etc. However, accounting principles ensure these non-recoverable NWC is written off as expense, so that the total changes in NWC over a project is zero.
     - free cash flow / net present value ::@:: To evaluate a project, find the _incremental_ free cash flows. Find the NPV of these cash flows. Apply decision rules as needed. <p> Note that some decision rules above, applicable \(i.e. consistent with NPV\) in some situation, does not require you to calculate the NPV.
-- [questions § week 7 lecture](questions.md#week%207%20lecture)
+- [questions § week 7 lecture 1](questions.md#week%207%20lecture%201)
 - [TAPPS/week 7 lecture](assignments/TAPPS/week%207%20lecture.md)
 - readings: chapter 9 \(skip MACRS in 9.4, 9.5, 9.6\)
 
-## week 7 tutorial
+## week 7 tutorial 1
 
 - datetime: 2025-03-21T10:30:00+08:00/2025-03-21T11:20:00+08:00, PT50M
 - status: hybrid \(online, physical\), optional
-- [§ week 7 lecture](#week%207%20lecture)
+- [§ week 7 lecture 1](#week%207%20lecture%201)
 - [§ week 7 lecture 2](#week%207%20lecture%202)
 - free cash flow
     - free cash flow / asset replacement ::@:: When calculating free cash flow for replacing an asset, not only you need to consider the cash flows from selling the old asset and buying the new asset, you also need to consider _changes_ \(from old asset and new asset\) in the value of depreciation tax shield.
@@ -568,7 +568,7 @@ The content is in teaching order.
 - [TAPPS/week 7 lecture 2](assignments/TAPPS/week%207%20lecture%202.md)
 - readings: chapter 9 \(skip MACRS in 9.4, 9.5, 9.6\)
 
-## week 8 lecture
+## week 8 lecture 1
 
 - datetime: 2025-03-26T16:30:00+08:00/2025-03-26T17:50:00+08:00, PT1H20M
 - topic: bonds
@@ -622,11 +622,11 @@ The content is in teaching order.
 - bond
     - bond / market price
         - bond / market price / coupon-bearing bonds ::@:: For bonds with multiple bonds, it is: $$P = \text{coupon payment} \times \frac 1 y \left(1 - \frac 1 {(1 + y)^t} \right) + \frac {\text{face value} } {(1 + y)^t} \,,$$ where $y$ is yield to maturity. The above equation assumes "clean" price. <p> If coupon payment equals face value multiplied by YTM, then market price equals face value from the above equation. This is why if coupon rate equals YTM, then a bond is selling at par.
-- [questions § week 8 lecture](questions.md#week%208%20lecture)
+- [questions § week 8 lecture 1](questions.md#week%208%20lecture%201)
 - [TAPPS/week 8 lecture](assignments/TAPPS/week%208%20lecture.md)
 - readings: chapter 6
 
-## week 8 tutorial
+## week 8 tutorial 1
 
 - datetime: 2025-03-28T10:30:00+08:00/2025-03-28T11:20:00+08:00, PT50M
 - status: unscheduled, day off for midterm
@@ -681,12 +681,12 @@ The content is in teaching order.
 >
 > \[redacted\]
 
-## week 9 lecture
+## week 9 lecture 1
 
 - datetime: 2025-04-02T16:30:00+08:00/2025-04-02T17:50:00+08:00, PT1H20M
 - status: unscheduled, midterm break
 
-## week 9 tutorial
+## week 9 tutorial 1
 
 - datetime: 2025-04-04T10:30:00+08:00/2025-04-04T11:20:00+08:00, PT50M
 - status: unscheduled, midterm break, public holiday: Tomb Sweeping Day
@@ -696,7 +696,7 @@ The content is in teaching order.
 - datetime: 2025-04-04T16:30:00+08:00/2025-04-04T17:50:00+08:00, PT1H20M
 - status: unscheduled, midterm break, public holiday: Tomb Sweeping Day
 
-## week 10 lecture
+## week 10 lecture 1
 
 - datetime: 2025-04-09T16:30:00+08:00/2025-04-09T17:50:00+08:00, PT1H20M
 - topic: bonds
@@ -726,15 +726,15 @@ The content is in teaching order.
         - corporate bond / high grade vs. high yield / division ::@::  Bonds rated AAA/Aaa, AA/Aa, A/A, and BBB/Baa are High Grade \(the top 4 ratings\), while bonds rated BB and below are High Yield \(BB/Ba, B/B, CCC/Caa, D/C, ...\).
 - [bond credit rating](../../../../general/bond%20credit%20rating.md) ::@:: It measures the bond issuer's financial ability to pay coupons and par value at maturity.
 - [yield spread](../../../../general/yield%20spread.md) ::@:: It is the difference between the quoted rates of return on two different investments, usually of different credit qualities but similar maturities. It is often an indication of the risk premium for one investment product over another. <p> For bonds, the other investment is usually \(risk-free\) treasury bills/notes/bonds.
-- [questions § week 10 lecture](questions.md#week%2010%20lecture)
+- [questions § week 10 lecture 1](questions.md#week%2010%20lecture%201)
 - [TAPPS/week 10 lecture](assignments/TAPPS/week%2010%20lecture.md)
 - readings: chapter 7
 
-## week 10 tutorial
+## week 10 tutorial 1
 
 - datetime: 2025-04-11T10:30:00+08:00/2025-04-11T11:20:00+08:00, PT50M
 - status: hybrid \(online, physical\), optional
-- [§ week 10 lecture](#week%2010%20lecture)
+- [§ week 10 lecture 1](#week%2010%20lecture%201)
 - [§ week 10 lecture 2](#week%2010%20lecture%202)
 
 ## week 10 lecture 2
@@ -764,7 +764,7 @@ The content is in teaching order.
 - [TAPPS/week 10 lecture 2](assignments/TAPPS/week%2010%20lecture%202.md)
 - readings: chapter 7
 
-## week 11 lecture
+## week 11 lecture 1
 
 - datetime: 2025-04-16T16:30:00+08:00/2025-04-16T17:50:00+08:00, PT1H20M
 - topic: stock evaluation
@@ -776,15 +776,15 @@ The content is in teaching order.
     - dividend discount model / dividend vs. growth ::@:: Earnings can be paid out as dividend \(_dividend payout rate_\) or reinvested to generate growth \(_retention rate_\). <p> Dividend growth cannot come from dividend, only growth of earnings, keeping dividend payout ratio and number of shares outstanding constant. This also means earnings growth rate = dividend growth rate = capital gain rate.
         - dividend discount model / dividend vs. growth / growth rate ::@:: If retention rate is zero, growth rate is zero. If retention rate is 100\%, growth rate equals return on new investment. In between them, it is a simple linear interpolation: $$g = \text{retention rate} \times \text{return on new investment} \,.$$
         - dividend discount model / dividend vs. growth / decision ::@:: Cut dividends to increase investment raise stock price iff the new investments have a positive NPV, or equivalently the return on new investment exceeds the cost of equity. The reverse applies if you cut investment to increase dividends.
-- [questions § week 11 lecture](questions.md#week%2010%20lecture)
+- [questions § week 11 lecture 1](questions.md#week%2010%20lecture%201)
 - [TAPPS/week 11 lecture](assignments/TAPPS/week%2011%20lecture.md)
 - readings: chapter 7, chapter 11
 
-## week 11 tutorial
+## week 11 tutorial 1
 
 - datetime: 2025-04-18T10:30:00+08:00/2025-04-18T11:20:00+08:00, PT50M
 - status: unscheduled, public holiday: Good Friday
-- [§ week 11 lecture](#week%2011%20lecture)
+- [§ week 11 lecture 1](#week%2011%20lecture%201)
 - [§ week 11 lecture 2](#week%2011%20lecture%202)
 
 ## week 11 lecture 2
@@ -792,7 +792,7 @@ The content is in teaching order.
 - datetime: 2025-04-18T16:30:00+08:00/2025-04-18T17:50:00+08:00, PT1H20M
 - status: unscheduled
 
-## week 12 lecture
+## week 12 lecture 1
 
 - datetime: 2025-04-23T16:30:00+08:00/2025-04-23T17:50:00+08:00, PT1H20M
 - topic: stock valuation, risk and return in capital markets
@@ -821,15 +821,15 @@ The content is in teaching order.
     - rate of return / geometric average ::@:: It is used to measure historical performance. <p> If compounding is performed, \(i.e. if gains are reinvested and losses accumulated\), and if all periods are of equal length, then using the [time-weighted method](../../../../general/time-weighted%20return.md), the appropriate average rate of return is the __[geometric mean](../../../../general/geometric%20mean.md)__ of returns, which, over _n_ periods, is: $${\bar {r} }_{\mathrm {geometric} }=\left(\prod _{i=1}^{n}(1+r_{i})\right)^{\frac {1}{n} }-1={\sqrt[{n}]{\prod _{i=1}^{n}(1+r_{i})} }-1$$ The geometric average return is equivalent to the cumulative return over the whole _n_ periods, converted into a rate of return per period.
         - rate of return / geometric average / uses ::@:: Where the individual sub-periods are each equal (say, 1 year), and there is reinvestment of returns, the annualized cumulative return is the geometric average rate of return.
     - rate of return / arithmetic average vs. geometric average ::@:: The larger the volatility of returns, the larger the difference between them.
-- [questions § week 12 lecture](questions.md#week%2012%20lecture)
+- [questions § week 12 lecture 1](questions.md#week%2012%20lecture%201)
 - [TAPPS/week 12 lecture](assignments/TAPPS/week%2012%20lecture.md)
 - readings: chapter 11
 
-## week 12 tutorial
+## week 12 tutorial 1
 
 - datetime: 2025-04-25T10:30:00+08:00/2025-04-25T11:20:00+08:00, PT50M
 - status: hybrid \(online, physical\), optional
-- [§ week 12 lecture](#week%2012%20lecture)
+- [§ week 12 lecture 1](#week%2012%20lecture%201)
 - [§ week 12 lecture 2](#week%2012%20lecture%202)
 - dividend discount model
     - dividend discount model / conditions ::@:: It requires the dividend growth rate to be constant. It requires the growth rate to be less than the required rate of return, as a stock growing faster than the required rate of return forever is _unrealistic_.
@@ -866,7 +866,7 @@ The content is in teaching order.
 - [TAPPS/week 12 lecture 2](assignments/TAPPS/week%2012%20lecture%202.md)
 - readings: chapter 12
 
-## week 13 lecture
+## week 13 lecture 1
 
 - datetime: 2025-04-30T16:30:00+08:00/2025-04-30T17:50:00+08:00, PT1H20M
 - topic: risk and return in capital markets, systematic risk, equity risk premium
@@ -901,15 +901,15 @@ The content is in teaching order.
     - beta / interpretation ::@:: It is the ratio of the expected percentage change in return of a security over that of a market portfolio. <p> It is related to how sensitive a stock's underlying cash flows and revenues are to general economic conditions. Stocks in cyclical industries are likely to be more sensitive to systematic risk, and thus have higher betas.
         - beta / interpretation / numerical ::@:: The market portfolio has a beta of 1, by definition. <p> If beta is 1, the asset has the same systematic risk as the overall market. If less/more than 1, then the asset has less/more systematic risk than the overall market. If 0, the asset has no systematic risk \(if also no unsystematic risk, then risk-free\). <p> If negative, the asset tends to go up when the market goes down. In practice, there are few stocks with negative betas.
     - beta / estimation ::@:: Linear regression using between a stock's return \(y-axis\) and the market's return \(x-axis\) is used to estimate beta. The market portfolio is typically S&P 500. <p> The slope of the best-fitting line is the beta estimate. Deviations from the best-fitting line represent diversifiable risk.
-- [questions § week 13 lecture](questions.md#week%2013%20lecture)
+- [questions § week 13 lecture 1](questions.md#week%2013%20lecture%201)
 - [TAPPS/week 13 lecture](assignments/TAPPS/week%2013%20lecture.md)
 - readings: chapter 12
 
-## week 13 tutorial
+## week 13 tutorial 1
 
 - datetime: 2025-05-02T10:30:00+08:00/2025-05-02T11:20:00+08:00, PT50M
 - status: hybrid \(online, physical\), optional
-- [§ week 13 lecture](#week%2013%20lecture)
+- [§ week 13 lecture 1](#week%2013%20lecture%201)
 - [§ week 13 lecture 2](#week%2013%20lecture%202)
 
 ## week 13 lecture 2
@@ -917,7 +917,7 @@ The content is in teaching order.
 - datetime: 2025-05-02T16:30:00+08:00/2025-05-02T17:50:00+08:00, PT1H20M
 - status: unscheduled
 
-## week 14 lecture
+## week 14 lecture 1
 
 - datetime: 2025-05-07T16:30:00+08:00/2025-05-07T17:50:00+08:00, PT1H20M
 - topic: systematic risk, equity risk premium
@@ -938,15 +938,15 @@ The content is in teaching order.
     - beta / portfolio ::@:: Similar to expected return, portfolio beta is the weighted average of betas of the individual assets. <p> This can be interpreted as systematic risk cannot be reduced by diversification \(adding different securities\).
 - capital asset pricing model
     - capital asset pricing model / use ::@:: CAPM gives us the cost of _equity_. By also considering the cost of _debt_ \(fixed income investors, e.g. bondholders\), we can calculate the _overall_ cost of capital \(for all investors, including stockholders and bondholders\). <p> _Valuation principle_ tells us to use this cost of capital for discounting. It is important for creating value for its investors.
-- [questions § week 14 lecture](questions.md#week%2014%20lecture)
+- [questions § week 14 lecture 1](questions.md#week%2014%20lecture%201)
 - [TAPPS/week 14 lecture](assignments/TAPPS/week%2014%20lecture.md)
 - readings: chapter 13 \(skip 13.6\)
 
-## week 14 tutorial
+## week 14 tutorial 1
 
 - datetime: 2025-05-09T10:30:00+08:00/2025-05-09T11:20:00+08:00, PT50M
 - status: hybrid \(online, physical\), optional
-- [§ week 14 lecture](#week%2014%20lecture)
+- [§ week 14 lecture 1](#week%2014%20lecture%201)
 - [§ week 14 lecture 2](#week%2014%20lecture%202)
 - [portfolio](../../../../general/portfolio%20(finance).md) ::@:: In finance, a \(_this_\) is a collection of investments.
     - portfolio / weights ::@:: The portfolio weights are value-based, i.e. share price multiplied by the number of shares held.

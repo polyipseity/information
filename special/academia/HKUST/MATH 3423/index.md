@@ -83,7 +83,7 @@ MATH 3423 is an undergraduate course in statistical inference at HKUST covering 
 - notes
     - the course is conducted face-to-face
 
-## week 1 lecture
+## week 1 lecture 1
 
 - datetime: 2026-09-01T10:30:00+08:00/2026-09-01T11:50:00+08:00
 - venue: G010, CYT Bldg
@@ -128,7 +128,7 @@ MATH 3423 is an undergraduate course in statistical inference at HKUST covering 
     - [§ distribution of the sample variance](sample%20variance.md#distribution%20of%20the%20sample%20variance)
     - [§ independence from the sample mean](sample%20variance.md#independence%20from%20the%20sample%20mean)
 
-## week 1 tutorial
+## week 1 tutorial 1
 
 - datetime: 2026-09-03T18:00:00+08:00/2026-09-03T18:50:00+08:00
 - venue: Rm 1011, LSK Bldg

@@ -46,7 +46,7 @@ The content is in teaching order.
 - [assignments](assignments/index.md)
 <!-- - [questions](questions.md) -->
 
-## week 1 lecture
+## week 1 lecture 1
 
 - datetime: 2025-02-03T13:30:00+08:00/2025-02-03T14:50:00+08:00
 - topic: course information, introduction
@@ -93,12 +93,12 @@ The content is in teaching order.
     - information age / applications ::@:: artificial intelligence, automobile computers, human genome project, search engines, world wide web
     - information age / trend ::@:: electronics technology continues to evolve due to increased capacity and reduced cost, e.g. vacuum tubes (1950s), transistors (1950, 1960s), integrated circuits (1960s, 1970s), very large scale integrated (VLSI) circuits (since 1980s)
 
-## week 1 lab
+## week 1 lab 1
 
 - datetime: 2025-02-04T15:00:00+08:00/2025-02-04T15:50:00+08:00
 - status: unscheduled, no lab
 
-## week 1 tutorial
+## week 1 tutorial 1
 
 - datetime: 2025-02-04T18:00:00+08:00/2025-02-04T18:50:00+08:00
 - status: unscheduled, no tutorial
@@ -140,7 +140,7 @@ The content is in teaching order.
     - multiplexer / 2<sup>_n_</sup>-to-1 multiplexer ::@:: 2<sup>_n_</sup> data inputs, _n_ selection inputs, and 1 output <p> The _n_ selection inputs have 2<sup>_n_</sup> possible combinations. Each combination selects 1 data input and forwards it to the output.
         - multiplexer / 2<sup>_n_</sup>-to-1 multiplexer / implementation ::@:: Use an AND gate for each data input. Connect the data input to its corresponding AND gate. Then connect the _n_ selection inputs to the AND gates, adding NOT gates as needed, such that each unique combination of _n_ selection inputs makes exactly one AND gate possible to be made output 1 iff its corresponding input is 1. Finally, connect all the AND gates into 1 giant OR gate, and that is the output.
 
-## week 2 lecture
+## week 2 lecture 1
 
 - datetime: 2025-02-10T13:30:00+08:00/2025-02-10T14:50:00+08:00
 - topic: decoder, two-level logic, programmable logic array
@@ -163,12 +163,12 @@ The content is in teaching order.
     - programmable logic array (PLA) / intuition ::@:: The AND plane consisting of 2<sup>N</sup> AND gates produce all possible minterms. The OR plane consisting of M gates produces the required M outputs, assembled from all possible minterms from the AND plane.
     - programmable logic array (PLA) / duality ::@:: Theoretically, product of sums (POS) could be used instead, with an OR plane generating all possible maxterms, connected to an AND plane generating the required outputs. <p> However, negations are needed when you convert a truth table to POS, which is more mentally demanding and less intuitive. So that is why this is not often seen in practice.
 
-## week 2 lab
+## week 2 lab 1
 
 - datetime: 2025-02-11T15:00:00+08:00/2025-02-11T15:50:00+08:00
 - status: unscheduled, no lab
 
-## week 2 tutorial
+## week 2 tutorial 1
 
 - datetime: 2025-02-11T18:00:00+08:00/2025-02-11T18:50:00+08:00
 - status: unscheduled, no tutorial
@@ -207,7 +207,7 @@ The content is in teaching order.
     - Karnaugh map / don't cares ::@:: Those cells are marked with a X. In that case, we can either cover or not cover them, choosing the one that gives the better grouping.
 - [seven-segment display](../../../../general/seven-segment%20display.md) ::@:: It is a form of electronic display device for displaying decimal numerals that is an alternative to the more complex dot matrix displays. <p> Basically a display with a gray 8-shape with sharp corners, which have certain edges of the 8-shape activated (glowing) to show a decimal (0123456789)/hexadecimal (0123456789AbCdEF) digit.
 
-## week 3 lecture
+## week 3 lecture 1
 
 - datetime: 2025-02-17T13:30:00+08:00/2025-02-17T14:50:00+08:00
 - topic: sequential logic, S-R latch, D latch, D flip-flop
@@ -248,7 +248,7 @@ The content is in teaching order.
 - sequential logic
     - sequential logic / synchronous ::@:: In a sequential circuit, it remembers its state (a "snapshot"). When it is _additionally_ clocked, i.e. synchronous sequential circuit, we can treat its state as changing _on and only on_ each clock cycle.
 
-## week 3 lab
+## week 3 lab 1
 
 - datetime: 2025-02-18T15:00:00+08:00/2025-02-18T15:50:00+08:00
 - topic: introduction to Logisim, combinational circuits
@@ -258,7 +258,7 @@ The content is in teaching order.
     - Logisim / usage
     - Logisim / save as library
 
-## week 3 tutorial
+## week 3 tutorial 1
 
 - datetime: 2025-02-18T18:00:00+08:00/2025-02-18T18:50:00+08:00
 - topic: combinational logic circuit
@@ -299,7 +299,7 @@ The content is in teaching order.
 - [integer overflow](../../../../general/integer%20overflow.md) ::@:: It occurs when an arithmetic operation on integers attempts to create a numeric value that is outside of the range that can be represented with a given number of digits – either higher than the maximum or lower than the minimum representable value. <p> \(__this course__: __important__: We also use "integer underflow", see below.\)
     - integer overflow / integer underflow ::@:: The above definition of "integer overflow" refers to the ideal result being outside the representable range. <p> An alternative definition uses "integer overflow" to refer to the ideal result being _higher_ than the maximum representable integer, while using "integer underflow" to refer to the ideal result being _lower_ than the minimum representable integer. <p> \(__this course__: __important__: We use the latter definition.\)
 
-## week 4 lecture
+## week 4 lecture 1
 
 - datetime: 2025-02-24T13:30:00+08:00/2025-02-24T14:50:00+08:00
 - topic: signed/unsigned number, floating point, IEEE754 examples
@@ -330,7 +330,7 @@ The content is in teaching order.
     - IEEE 754 / history (brief) ::@:: It was developed in response to divergence of representations, which can cause portability issues for scientific code. Now it is almost universally adopted.
     - IEEE 754 / representations ::@:: single precision (32-bit), double precision (64-bit), ... (there are much more not covered in this course)
 
-## week 4 lab
+## week 4 lab 1
 
 - datetime: 2025-02-25T15:00:00+08:00/2025-02-25T15:50:00+08:00
 - topic: building sequential logics with Logisim
@@ -348,7 +348,7 @@ The content is in teaching order.
     - flip-flop / gated D latch
         - flip-flop / gated D latch / register
 
-## week 4 tutorial
+## week 4 tutorial 1
 
 - datetime: 2025-02-25T18:00:00+08:00/2025-02-25T18:50:00+08:00
 - topic: sequential logic circuit
@@ -410,7 +410,7 @@ The content is in teaching order.
     - ASCII / patterns ::@:: Some notable patterns: <br/> Alphabets (A to Z, a to z) and numbers (0 to 9) are in order. <br/> groups: NUL (null) → control characters → punctuations → numbers → punctuations → big alphabets → punctuations → small alphabets → punctuations → DEL (a control character)
     - ASCII / note ::@:: How can 128 code points store all characters? This is why we have _Unicode_, but Unicode is much more complicated and involves a variable number of bytes to encode a character. It will not be covered here.
 
-## week 5 lecture
+## week 5 lecture 1
 
 - datetime: 2025-03-03T13:30:00+08:00/2025-03-03T14:50:00+08:00
 - topic: basic instructions, register, memory operand
@@ -439,7 +439,7 @@ The content is in teaching order.
         - [§ operands](MIPS.md#operands)
         - [§ bitwise instructions](MIPS.md#bitwise%20instructions): `and`, `or`, `nor`, `andi`, `ori`, `sll`, `srl`
 
-## week 5 lab
+## week 5 lab 1
 
 - datetime: 2025-03-04T15:00:00+08:00/2025-03-04T15:50:00+08:00
 - topic: building registers
@@ -451,7 +451,7 @@ The content is in teaching order.
     - register file / implementation ::@:: The idea is that we have several registers, and a register file has an input to select which register to use. <p> Have several registers. Connect the same clock signal to all registers. Add an input that selects a register for both writing and reading. Add a decoder that uses the register selection to write-enable _exactly one_ of the registers. Add a muxer that uses the register selection to select the output of _exactly one_ of the registers.
         - register file / implementation / extensions ::@:: We could separate the register selection for writing and reading. We could also add a write-enable input.
 
-## week 5 tutorial
+## week 5 tutorial 1
 
 - datetime: 2025-03-04T18:00:00+08:00/2025-03-04T18:50:00+08:00
 - topic: base conversion, integer representation
@@ -496,7 +496,7 @@ The content is in teaching order.
         - [§ control flow](MIPS.md#control%20flow)
         - [§ jump instructions](MIPS.md#jump%20instructions): `beq`, `bne`, `j`
 
-## week 6 lecture
+## week 6 lecture 1
 
 - datetime: 2025-03-10T13:30:00+08:00/2025-03-10T14:50:00+08:00
 - topic: `slt`, `jr`
@@ -506,7 +506,7 @@ The content is in teaching order.
         - [§ comparison instructions](MIPS.md#comparison%20instructions): `slt`, `slti`
         - [§ jump instructions](MIPS.md#jump%20instructions): `jr`
 
-## week 6 lab
+## week 6 lab 1
 
 - datetime: 2025-03-11T15:00:00+08:00/2025-03-11T15:50:00+08:00
 - topic: introduction to MARS, MIPS syscall services
@@ -530,7 +530,7 @@ The content is in teaching order.
     - [MIPS](MIPS.md)
         - [§ pseudo-instructions](MIPS.md#pseudo-instructions): `la`, `li`
 
-## week 6 tutorial
+## week 6 tutorial 1
 
 - datetime: 2025-03-11T18:00:00+08:00/2025-03-11T18:50:00+08:00
 - topic: floating point number representation, character
@@ -552,7 +552,7 @@ The content is in teaching order.
 - [stored-program computer](../../../../general/stored-program%20computer.md) ::@:: It is a computer that stores program instructions in electronically, electromagnetically, or optically accessible memory. This contrasts with systems that stored the program instructions with plugboards or similar mechanisms. <p> The definition is often extended with the requirement that the treatment of programs and data in memory be interchangeable or uniform.
     - stored-program computer / examples ::@:: Instructions and data are both represented by binary. They can be both stored in memory. Programs can operate on programs. Binary compatibility \(e.g. ISA\) allows programs to work on different computers.
 
-## week 7 lecture
+## week 7 lecture 1
 
 - datetime: 2025-03-17T13:30:00+08:00/2025-03-17T14:50:00+08:00
 - topic: procedure, nested procedures with stack
@@ -572,7 +572,7 @@ The content is in teaching order.
     - [MIPS](MIPS.md)
         - [§ data instructions](MIPS.md#data%20instructions): `lb`, `sb`, `lbu`
 
-## week 7 lab
+## week 7 lab 1
 
 - datetime: 2025-03-18T15:00:00+08:00/2025-03-18T15:50:00+08:00
 - topic: MIPS programming
@@ -580,7 +580,7 @@ The content is in teaching order.
     - [MARS](MARS.md)
     - MARS / exercises ::@:: number guessing game \(and enhancing it\), number multiplier, etc.
 
-## week 7 tutorial
+## week 7 tutorial 1
 
 - datetime: 2025-03-18T18:00:00+08:00/2025-03-18T18:50:00+08:00
 - topic: introduction to MIPS assembly
@@ -622,7 +622,7 @@ The content is in teaching order.
         - complex instruction set computer / characteristics / memory ::@:: Due to complex hardware, less registers and smaller CPU caches can be equipped.
         - complex instruction set computer / characteristics / use ::@:: Assembly language is easier to write. Compilers are easier to write as well.
 
-## week 8 lecture
+## week 8 lecture 1
 
 - datetime: 2025-03-24T13:30:00+08:00/2025-03-24T14:50:00+08:00, PT1H20M
 - topic: MIPS recursion, computer arithmetic, addition, subtraction, overflow
@@ -680,7 +680,7 @@ The content is in teaching order.
     - report
         - MIPS programming \(+5\) ::@:: I think the TA gave up looking at the very messy organization of the code...
 
-## week 8 lab
+## week 8 lab 1
 
 - datetime: 2025-03-25T15:00:00+08:00/2025-03-25T15:50:00+08:00, PT50M
 - topic: MIPS procedures
@@ -692,7 +692,7 @@ The content is in teaching order.
         - [§ calling conventions](MIPS.md#calling%20conventions)
         - [§ O32 calling convention](MIPS.md#O32%20calling%20convention): passing more than 4 arguments
 
-## week 8 tutorial
+## week 8 tutorial 1
 
 - datetime: 2025-03-25T18:00:00+08:00/2025-03-25T18:50:00+08:00, PT50M
 - topic: MIPS branches, jump instructions
@@ -745,7 +745,7 @@ The content is in teaching order.
         - adder / carry-lookahead adder / carry bits ::@:: The _n_-th \(0-based\) carry bit is: $$C_n = G_{n - 1} + G_{n - 2} P_{n - 1} + \cdots + G_0 P_1 \cdots P_{n - 1} + C_0 P_0 \cdots P_{n - 1} \,,$$ where $C_0$ is the LSB carry bit. <p> The above can be intutively understood: A carry bit is generated or propagated from any of the previous/lower carry bits.
         - adder / carry-lookahead adder / characteristics ::@:: Now we can add the two numbers and then the carry bits in parallel without rippling. <p> This is possible because electronic chips are becoming cheaper and denser.
 
-## week 9 lecture
+## week 9 lecture 1
 
 - datetime: 2025-03-31T13:30:00+08:00/2025-03-31T14:50:00+08:00, PT1H20M
 - topic: multiplication
@@ -764,12 +764,12 @@ The content is in teaching order.
         - [§ instructions](MIPS.md#data%20instructions): two's complement is used to represent signed integers
         - [§ arithmetic instructions](MIPS.md#arithmetic%20instructions): `mult`, `multu`
 
-## week 9 lab
+## week 9 lab 1
 
 - datetime: 2025-04-01T15:00:00+08:00/2025-04-01T15:50:00+08:00, PT50M
 - status: unscheduled, midterm break
 
-## week 9 tutorial
+## week 9 tutorial 1
 
 - datetime: 2025-04-01T18:00:00+08:00/2025-04-01T18:50:00+08:00, PT50M
 - status: unscheduled, midterm break
@@ -819,7 +819,7 @@ The content is in teaching order.
 - datetime: 2025-04-04T09:00:00+08:00/2025-04-04T10:20:00+08:00, PT1H20M
 - status: unscheduled, midterm break
 
-## week 10 lecture
+## week 10 lecture 1
 
 - datetime: 2025-04-07T13:30:00+08:00/2025-04-07T14:50:00+08:00, PT1H20M
 - topic: floating-point arithmetic
@@ -840,7 +840,7 @@ The content is in teaching order.
         - floating-point arithmetic / addition / intermediate ::@:: For binary addition or subtraction using careful implementation techniques only a _guard_ bit, a _rounding_ bit and one extra _sticky_ bit need to be carried beyond the precision of the operands.
     - floating-point arithmetic / rounding modes ::@:: Rounding is used when the exact result of a floating-point operation \(or a conversion to floating-point format\) would need more digits than there are digits in the significand. IEEE 754 requires _correct rounding_: that is, the rounded result is as if infinitely precise arithmetic was used to compute the value and then rounded \(although in implementation only three extra bits are needed to ensure this\). There are several different [rounding](../../../../general/rounding.md) schemes \(or _rounding modes_\).
 
-## week 10 lab
+## week 10 lab 1
 
 - datetime: 2025-04-08T15:00:00+08:00/2025-04-08T15:50:00+08:00, PT50M
 - topic: MIPS recursion
@@ -852,7 +852,7 @@ The content is in teaching order.
         - [§ O32 calling convention](MIPS.md#O32%20calling%20convention): `$ra`
         - [§ memory layout](MIPS.md#memory%20layout): stack
 
-## week 10 tutorial
+## week 10 tutorial 1
 
 - datetime: 2025-04-08T18:00:00+08:00/2025-04-08T18:50:00+08:00, PT50M
 - topic: MIPS machine code, procedures
@@ -889,7 +889,7 @@ The content is in teaching order.
         - classical RISC pipeline / register write back / hazard ::@:: Note that two different stages are accessing the register file at the same time—the decode stage is reading two source registers, at the same time that the writeback stage is writing a previous instruction's destination register. On real silicon, this can be a hazard \(see below for more on hazards\). That is because one of the source registers being read in decode might be the same as the destination register being written in writeback. When that happens, then the same memory cells in the register file are being both read and written the same time. On silicon, many implementations of memory cells will not operate correctly when read and written at the same time.
         - classical RISC pipeline / register write back / MIPS ::@:: Simplified. A multiplexer controlled by _MemToReg_ is fed the output of ALU for arithmetic and the data memory output. _RegWrite_ controls the register file if the multiplexer output writes back to the destination register. <p> relevant control signals: __MemToReg__, __RegWrite__
 
-## week 11 lecture
+## week 11 lecture 1
 
 - datetime: 2025-04-14T13:30:00+08:00/2025-04-14T14:50:00+08:00, PT1H20M
 - topic: single-cycle control
@@ -913,7 +913,7 @@ The content is in teaching order.
     - single-cycle processor / disadvantages ::@:: It cannot run very fast. The instruction with the greatest latency \(e.g. load word `lw`, excluding multi-cycle instructions\), known as the _critical_ path, determines the minimum clock period. We cannot vary the period for different instructions. It violates the design principle "fast common cases". <p> _Pipelining_ mitigates this.
 - single-cycle processor
 
-## week 11 lab
+## week 11 lab 1
 
 - datetime: 2025-04-15T15:00:00+08:00/2025-04-15T15:50:00+08:00, PT50M
 - topic: MARS debugging
@@ -924,7 +924,7 @@ The content is in teaching order.
         - MARS / debugging / undo ::@:: You can undo one instruction and then pause each time you click the button. However, system calls generally cannot be undone.
         - MARS / debugging / register ::@:: When the program is paused, you can view and modify register values.
 
-## week 11 tutorial
+## week 11 tutorial 1
 
 - datetime: 2025-04-15T18:00:00+08:00/2025-04-15T18:50:00+08:00, PT50M
 - topic: nested procedures, arithmetic logic unit
@@ -943,12 +943,12 @@ The content is in teaching order.
 - datetime: 2025-04-18T09:00:00+08:00/2025-04-18T10:20:00+08:00, PT1H20M
 - status: unscheduled, public holiday: Good Friday
 
-## week 12 lecture
+## week 12 lecture 1
 
 - datetime: 2025-04-21T13:30:00+08:00/2025-04-21T14:50:00+08:00, PT1H20M
 - status: unscheduled, public holiday: Easter Monday
 
-## week 12 lab
+## week 12 lab 1
 
 - datetime: 2025-04-22T15:00:00+08:00/2025-04-22T15:50:00+08:00, PT50M
 - topic: building a 4-bit arithmetic logic unit with Logisim
@@ -957,7 +957,7 @@ The content is in teaching order.
 - Logisim
     - Logisim / arithmetic logic unit ::@:: Essentially follow the lecture slides. Reuse circuits by saving them and using them as libraries.
 
-## week 12 tutorial
+## week 12 tutorial 1
 
 - datetime: 2025-04-22T18:00:00+08:00/2025-04-22T18:50:00+08:00, PT50M
 - topic: computer arithmetic
@@ -1048,7 +1048,7 @@ The content is in teaching order.
 > Best regards, <br/>
 > \[redacted\] and \[redacted\]
 
-## week 13 lecture
+## week 13 lecture 1
 
 - datetime: 2025-04-28T13:30:00+08:00/2025-04-28T14:50:00+08:00, PT1H20M
 - topic: pipeline control, pipeline hazards
@@ -1107,7 +1107,7 @@ The content is in teaching order.
 > Best regards, <br/>
 > \[redacted\] and \[redacted\]
 
-## week 13 lab
+## week 13 lab 1
 
 - datetime: 2025-04-29T15:00:00+08:00/2025-04-29T15:50:00+08:00, PT50M
 - topic: building a computer with Logisim
@@ -1118,7 +1118,7 @@ The content is in teaching order.
 - Logisim
     - Logisim / computer ::@:: Essentially simply follow the lecture slides. Use the RAM component in Logisim to store data and instructions. Reuse circuits by saving them and using them as libraries.
 
-## week 13 tutorial
+## week 13 tutorial 1
 
 - datetime: 2025-04-29T18:00:00+08:00/2025-04-29T18:50:00+08:00, PT50M
 - topic: single-cycle datapath, single-cycle control
@@ -1180,7 +1180,7 @@ The content is in teaching order.
     - cache hierarchy / average access time \(AAT\) ::@:: average memory latency = hit time + miss rate \* miss penalty <br/> For multilevel caches, the miss penalty of a cache level equals the average memory latency of the next cache level. So you can chain this equation.
     - cache hierarchy / tradeoffs ::@:: In general, more levels make the average memory latency approach the ideal case \(always cache hit in the first level\), with diminishing returns. It also makes the hardware more complicated and expensive.
 
-## week 14 lecture
+## week 14 lecture 1
 
 - datetime: 2025-05-05T13:30:00+08:00/2025-05-05T14:50:00+08:00, PT1H20M
 - topic: direct mapped cache, block placement, block identification
@@ -1239,12 +1239,12 @@ The content is in teaching order.
             - cache / write policies / write-miss / write allocate ::@:: Data at the missed-write location is loaded to cache, followed by a write-hit operation. In this approach, write misses are similar to read misses.
             - cache / write policies / write-miss / no-write allocate ::@:: Data at the missed-write location is not loaded to cache, and is written directly to the backing store. In this approach, data is loaded into the cache on read misses only.
 
-## week 14 lab
+## week 14 lab 1
 
 - datetime: 2025-05-06T15:00:00+08:00/2025-05-06T15:50:00+08:00, PT50M
 - status: unscheduled
 
-## week 14 tutorial
+## week 14 tutorial 1
 
 - datetime: 2025-05-06T18:00:00+08:00/2025-05-06T18:50:00+08:00, PT50M
 - topic: pipeline

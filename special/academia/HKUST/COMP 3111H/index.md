@@ -93,7 +93,7 @@ The content is in teaching order.
         - software engineering / activities / rationale management ::@:: As acquired knowledge, solutions \(new technologies\), user requirements _change_, we need to _revisit_ decisions and their rationale.
 - quiz: [quiz 1](questions/quiz%201.md)
 
-## week 1 lecture
+## week 1 lecture 1
 
 - datetime: 2025-09-03T12:30:00+08:00/2025-09-03T14:20:00+08:00, PT1H50M
 - topic: logistics; introduction
@@ -109,9 +109,9 @@ The content is in teaching order.
     - COMP 3111H / rules
     - COMP 3111H / project ::@:: specification \(from system requirements\) → implementation and testing
 - [§ week 1 pre-lecture](#week%201%20pre-lecture)
-- [questions § week 1 lecture](questions/index.md#week%201%20lecture)
+- [questions § week 1 lecture 1](questions/index.md#week%201%20lecture%201)
 
-## week 1 lab
+## week 1 lab 1
 
 - datetime: 2025-09-04T18:00:00+08:00/2025-09-04T19:50:00+08:00, PT1H50M
 - status: unscheduled
@@ -187,7 +187,7 @@ The content is in teaching order.
 - quiz: [quiz 3](questions/quiz%203.md)
 - [questions § week 2 pre-lecture](questions/index.md#week%202%20pre-lecture)
 
-## week 2 lecture
+## week 2 lecture 1
 
 - datetime: 2025-09-10T12:30:00+08:00/2025-09-10T14:20:00+08:00, PT1H50M
 - topic: modeling; unified modeling language; class diagram; association; aggregation; association class; generalization; UML summary
@@ -206,9 +206,9 @@ The content is in teaching order.
     - [§ common mistakes: real world knowledge](UML.md#common%20mistakes%20real%20world%20knowledge)
     - [§ common mistakes: misusing modeling elements](UML.md#common%20mistakes%20misusing%20modeling%20elements)
 - [§ week 2 pre-lecture](#week%202%20pre-lecture)
-- [questions § week 2 lecture](questions/index.md#week%202%20lecture)
+- [questions § week 2 lecture 1](questions/index.md#week%202%20lecture%201)
 
-## week 2 lab
+## week 2 lab 1
 
 - datetime: 2025-09-11T18:00:00+08:00/2025-09-11T19:50:00+08:00, PT1H50M
 - topic: IntelliJ IDEA; Git; GitHub
@@ -403,7 +403,7 @@ The content is in teaching order.
 - quiz: [quiz 5](questions/quiz%205.md)
 - [questions § week 3 pre-lecture](questions/index.md#week%203%20pre-lecture)
 
-## week 3 lecture
+## week 3 lecture 1
 
 - datetime: 2025-09-17T12:30:00+08:00/2025-09-17T14:20:00+08:00, PT1H50M
 - topic: modeling; unified modeling language; class diagram; association; aggregation; association class; generalization; UML summary
@@ -416,9 +416,9 @@ The content is in teaching order.
     - [§ common mistakes: missing association constraints](UML.md#common%20mistakes%20missing%20association%20constraints)
     - [§ common mistakes: not using specialized associations](UML.md#common%20mistakes%20not%20using%20specialized%20associations)
 - [§ week 2 pre-lecture](#week%202%20pre-lecture)
-- [questions § week 3 lecture](questions/index.md#week%203%20lecture)
+- [questions § week 3 lecture 1](questions/index.md#week%203%20lecture%201)
 
-## week 3 lab
+## week 3 lab 1
 
 - datetime: 2025-09-18T18:00:00+08:00/2025-09-18T19:50:00+08:00, PT1H50M
 - topic: Java basics; object; class; attribute; constructor; method; access modifier; inheritance; interface
@@ -507,12 +507,12 @@ The content is in teaching order.
 - quiz: [quiz 7](questions/quiz%207.md)
 - [questions § week 4 pre-lecture](questions/index.md#week%204%20pre-lecture)
 
-## week 4 lecture
+## week 4 lecture 1
 
 - datetime: 2025-09-24T12:30:00+08:00/2025-09-24T14:20:00+08:00, PT1H50M
 - status: canceled
 - [§ week 4 pre-lecture](#week%204%20pre-lecture)
-- [questions § week 4 lecture](questions/index.md#week%204%20lecture)
+- [questions § week 4 lecture 1](questions/index.md#week%204%20lecture%201)
 
 ---
 
@@ -532,7 +532,7 @@ The content is in teaching order.
 >
 > \[redacted\]
 
-## week 4 lab
+## week 4 lab 1
 
 - datetime: 2025-09-25T18:00:00+08:00/2025-09-25T19:50:00+08:00, PT1H50M
 - topic: JavaFX; scene builder
@@ -594,12 +594,12 @@ The content is in teaching order.
 - quiz: [quiz 9](questions/quiz%209.md)
 - [questions § week 5 pre-lecture](questions/index.md#week%205%20pre-lecture)
 
-## week 5 lecture
+## week 5 lecture 1
 
 - datetime: 2025-10-01T12:30:00+08:00/2025-10-01T14:20:00+08:00, PT1H50M
 - status: unscheduled; public holiday: National Day
 - [§ week 5 pre-lecture](#week%205%20pre-lecture)
-- [questions § week 5 lecture](questions/index.md#week%205%20lecture)
+- [questions § week 5 lecture 1](questions/index.md#week%205%20lecture%201)
 
 ---
 
@@ -611,7 +611,7 @@ The content is in teaching order.
 >
 > \[redacted\]
 
-## week 5 lab
+## week 5 lab 1
 
 - datetime: 2025-10-02T18:00:00+08:00/2025-10-02T19:50:00+08:00, PT1H50M
 - topic: UML modeling; draw.io; project demonstration
@@ -773,7 +773,7 @@ The content is in teaching order.
 - quiz: [quiz 11](questions/quiz%2011.md)
 - [questions § week 6 pre-lecture](questions/index.md#week%206%20pre-lecture)
 
-## week 6 lecture
+## week 6 lecture 1
 
 - datetime: 2025-10-08T12:30:00+08:00/2025-10-08T14:20:00+08:00, PT1H50M
 - topic: software development; project risks; project planning; software development process; agile; unified process; requirements capture; domain model; modeling classes; modeling associations; modeling attributes; use case model; actor; use case diagram
@@ -783,9 +783,9 @@ The content is in teaching order.
     - [§ common mistakes: misusing use case generalization](UML.md#common%20mistakes%20misusing%20use%20case%20generalization)
 - [§ week 3 pre-lecture](#week%203%20pre-lecture)
 - [§ week 4 pre-lecture](#week%204%20pre-lecture)
-- [questions § week 6 lecture](questions/index.md#week%206%20lecture)
+- [questions § week 6 lecture 1](questions/index.md#week%206%20lecture%201)
 
-## week 6 lab
+## week 6 lab 1
 
 - datetime: 2025-10-09T18:00:00+08:00/2025-10-09T19:50:00+08:00, PT1H50M
 - topic: Git; GitHub
@@ -876,7 +876,7 @@ The content is in teaching order.
 - quiz: [quiz 12](questions/quiz%2012.md)
 - [questions § week 7 pre-lecture](questions/index.md#week%207%20pre-lecture)
 
-## week 7 lecture
+## week 7 lecture 1
 
 - datetime: 2025-10-15T12:30:00+08:00/2025-10-15T14:20:00+08:00, PT1H50M
 - topic: use case diagram; use case specification; basic flow; extension point; alternative flow; subflow
@@ -886,9 +886,9 @@ The content is in teaching order.
     - [§ common mistakes: IO as actors](UML.md#common%20mistakes%20IO%20as%20actors)
     - [§ common mistakes: nonfunctional requirements as use case](UML.md#common%20mistakes%20nonfunctional%20requirements%20as%20use%20case)
 - [§ week 5 pre-lecture](#week%205%20pre-lecture)
-- [questions § week 7 lecture](questions/index.md#week%207%20lecture)
+- [questions § week 7 lecture 1](questions/index.md#week%207%20lecture%201)
 
-## week 7 lab
+## week 7 lab 1
 
 - datetime: 2025-10-16T18:00:00+08:00/2025-10-16T19:50:00+08:00, PT1H50M
 - topic: debugging in IntelliJ IDEA
@@ -906,7 +906,7 @@ The content is in teaching order.
 - status: unscheduled
 - [questions § week 8 pre-lecture](questions/index.md#week%208%20pre-lecture)
 
-## week 8 lecture
+## week 8 lecture 1
 
 - datetime: 2025-10-22T12:30:00+08:00/2025-10-22T14:20:00+08:00, PT1H50M
 - topic: use case diagram; non-functional requirement; validation; implementation; defensive programming; code review; refactoring; debugging; configuration management; midterm examination review
@@ -927,7 +927,7 @@ The content is in teaching order.
 - [§ week 6 pre-lecture](#week%206%20pre-lecture)
 - [§ week 7 pre-lecture](#week%207%20pre-lecture)
 - [§ midterm examination](#midterm%20examination)
-- [questions § week 8 lecture](questions/index.md#week%208%20lecture)
+- [questions § week 8 lecture 1](questions/index.md#week%208%20lecture%201)
 - assignment: [activity 1](assignments/activity%201/index.md)
 
 ---
@@ -958,7 +958,7 @@ The content is in teaching order.
 - Understand non-functional and functional!
 - No need to remember a lot of the words, just think in general; expected finish time is 45 mins
 
-## week 8 lab
+## week 8 lab 1
 
 - datetime: 2025-10-23T18:00:00+08:00/2025-10-23T19:50:00+08:00, PT1H50M
 - topic: unit testing; JUnit 5
@@ -1082,12 +1082,12 @@ The content is in teaching order.
 - quiz: [quiz 14](questions/quiz%2014.md)
 - [questions § week 9 pre-lecture](questions/index.md#week%209%20pre-lecture)
 
-## week 9 lecture
+## week 9 lecture 1
 
 - datetime: 2025-10-29T12:30:00+08:00/2025-10-22T14:20:00+08:00, PT1H50M
 - status: unscheduled; public holiday: Chung Yeung Festival
 - [§ week 9 pre-lecture](#week%209%20pre-lecture)
-- [questions § week 9 lecture](questions/index.md#week%209%20lecture)
+- [questions § week 9 lecture 1](questions/index.md#week%209%20lecture%201)
 
 ---
 
@@ -1192,7 +1192,7 @@ Q1 (Max:15) = 14 ; Q2 (Max: 25) = 24 ; Q3 (Max: 10) = 8 ; Q4 (Max: 35) = 34 ; Q5
 
 Q1 (Max:15) = 14 ; Q2 (Max: 25) = 24 ; Q3 (Max: 10) = 8 ; Q4 (Max: 35) = 35 ; Q5 (Max: 15) = 15 ; Total (Max: 100) = 96 ;
 
-## week 9 lab
+## week 9 lab 1
 
 - datetime: 2025-10-30T18:00:00+08:00/2025-10-30T19:50:00+08:00, PT1H50M
 - status: rescheduled
@@ -1298,14 +1298,14 @@ Q1 (Max:15) = 14 ; Q2 (Max: 25) = 24 ; Q3 (Max: 10) = 8 ; Q4 (Max: 35) = 35 ; Q5
 - quiz: [quiz 16](questions/quiz%2016.md)
 - [questions § week 10 pre-lecture](questions/index.md#week%2010%20pre-lecture)
 
-## week 10 lecture
+## week 10 lecture 1
 
 - datetime: 2025-11-05T12:30:00+08:00/2025-11-05T14:20:00+08:00, PT1H50M
 - topic: white-box testing; black-box testing; regression testing; testing; unit testing; software testing; integration testing; system testing; acceptance testing
 - [§ week 9 pre-lecture](#week%209%20pre-lecture)
-- [questions § week 10 lecture](questions/index.md#week%2010%20lecture)
+- [questions § week 10 lecture 1](questions/index.md#week%2010%20lecture%201)
 
-## week 10 lab
+## week 10 lab 1
 
 - datetime: 2025-11-06T18:00:00+08:00/2025-11-06T19:50:00+08:00, PT1H50M
 - status: unscheduled
@@ -1337,14 +1337,14 @@ Q1 (Max:15) = 14 ; Q2 (Max: 25) = 24 ; Q3 (Max: 10) = 8 ; Q4 (Max: 35) = 35 ; Q5
 - quiz: [quiz 18](questions/quiz%2018.md)
 - [questions § week 11 pre-lecture](questions/index.md#week%2011%20pre-lecture)
 
-## week 11 lecture
+## week 11 lecture 1
 
 - datetime: 2025-11-12T12:30:00+08:00/2025-11-12T14:20:00+08:00, PT1H50M
 - topic: systems design; systems analysis; use case analysis; analysis class; design class; cohesion; coupling; SOLID principles; state machine diagram
 - [§ week 10 pre-lecture](#week%2010%20pre-lecture)
-- [questions § week 11 lecture](questions/index.md#week%2011%20lecture)
+- [questions § week 11 lecture 1](questions/index.md#week%2011%20lecture%201)
 
-## week 11 lab
+## week 11 lab 1
 
 - datetime: 2025-11-13T18:00:00+08:00/2025-11-13T19:50:00+08:00, PT1H50M
 - status: unscheduled
@@ -1397,16 +1397,16 @@ Q1 (Max:15) = 14 ; Q2 (Max: 25) = 24 ; Q3 (Max: 10) = 8 ; Q4 (Max: 35) = 35 ; Q5
 - quiz: [quiz 20](questions/quiz%2020.md)
 - [questions § week 12 pre-lecture](questions/index.md#week%2012%20pre-lecture)
 
-## week 12 lecture
+## week 12 lecture 1
 
 - datetime: 2025-11-19T12:30:00+08:00/2025-11-19T14:20:00+08:00, PT1H50M
 - topic: software design pattern; strategy pattern; observer pattern; mediator pattern; proxy pattern; bridge pattern; singleton pattern; factory pattern; anti-pattern; spaghetti code; god class
 - [§ week 11 pre-lecture](#week%2011%20pre-lecture)
-- [questions § week 12 lecture](questions/index.md#week%2012%20lecture)
+- [questions § week 12 lecture 1](questions/index.md#week%2012%20lecture%201)
 - assignment: [activity 2 - documentation](assignments/activity%202%20-%20documentation/index.md)
 - assignment: [activity 2 - source code](assignments/activity%202%20-%20source%20code/index.md)
 
-## week 12 lab
+## week 12 lab 1
 
 - datetime: 2025-11-20T18:00:00+08:00/2025-11-20T19:50:00+08:00, PT1H50M
 - status: unscheduled
@@ -1416,13 +1416,13 @@ Q1 (Max:15) = 14 ; Q2 (Max: 25) = 24 ; Q3 (Max: 10) = 8 ; Q4 (Max: 35) = 35 ; Q5
 - topic: \(none\)
 - [questions § week 13 pre-lecture](questions/index.md#week%2013%20pre-lecture)
 
-## week 13 lecture
+## week 13 lecture 1
 
 - datetime: 2025-11-26T12:30:00+08:00/2025-11-26T14:20:00+08:00, PT1H50M
 - topic: final examination review
 - [§ week 12 pre-lecture](#week%2012%20pre-lecture)
 - [§ final examination](#final%20examination)
-- [questions § week 13 lecture](questions/index.md#week%2013%20lecture)
+- [questions § week 13 lecture 1](questions/index.md#week%2013%20lecture%201)
 
 ---
 
@@ -1434,7 +1434,7 @@ Q1 (Max:15) = 14 ; Q2 (Max: 25) = 24 ; Q3 (Max: 10) = 8 ; Q4 (Max: 35) = 35 ; Q5
 - design patterns: design principles (10%)
 - black-box testing (10%)
 
-## week 13 lab
+## week 13 lab 1
 
 - datetime: 2025-11-27T18:00:00+08:00/2025-11-27T19:50:00+08:00, PT1H50M
 - status: unscheduled

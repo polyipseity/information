@@ -17,6 +17,6 @@ tags:
 
 - HKUST ACCT 3020
 
-## week 1 lecture
+## week 1 lecture 1
 
 (Questions and solutions to be added when materials are provided.)

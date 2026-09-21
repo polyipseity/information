@@ -37,7 +37,7 @@ The content is in teaching order.
 - [assignments](assignments/index.md)
 - [questions](questions.md)
 
-## week 1 tutorial
+## week 1 tutorial 1
 
 - datetime: 2025-09-01T18:30:00+08:00/2025-09-01T19:20:00+08:00, PT50M
 - status: unscheduled
@@ -54,7 +54,7 @@ The content is in teaching order.
 >
 > \[redacted\]
 
-## week 1 lecture
+## week 1 lecture 1
 
 - datetime: 2025-09-02T16:30:00+08:00/2025-09-02T17:50:00+08:00, PT1H20M
 - topic: logistics; real-world applications of data science in physical, chemical, and life sciences
@@ -126,12 +126,12 @@ The content is in teaching order.
         - [§ branching](Python/control%20flow.md#branching)
 - quiz: [pre-quiz](questions/pre-quiz.md)
 
-## week 2 tutorial
+## week 2 tutorial 1
 
 - datetime: 2025-09-08T18:30:00+08:00/2025-09-08T19:20:00+08:00, PT50M
 - status: unscheduled
 
-## week 3 tutorial
+## week 3 tutorial 1
 
 - datetime: 2025-09-17T19:00:00+08:00/2025-09-17T19:50:00+08:00, PT50M
 - status: unscheduled

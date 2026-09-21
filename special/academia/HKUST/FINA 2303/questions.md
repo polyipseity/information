@@ -22,7 +22,7 @@ tags:
 - [quiz 1 derivative](quiz%201%20derivative.md)
 - [quiz 2 derivative](quiz%202%20derivative.md)
 
-## week 1 lecture
+## week 1 lecture 1
 
 > Q1. Have you used PRS in classes before?
 >
@@ -141,7 +141,7 @@ tags:
 >
 > - solution: {@{1}@}
 
-## week 2 lecture
+## week 2 lecture 1
 
 > Q1. Suppose instead of receiving \$100 at the beginning of year 2014, you are given the following four choices.  Assuming that risk free interest rate is 10%, which is the most attractive?
 >
@@ -225,7 +225,7 @@ tags:
 > - solution: {@{2}@}
 > - explanation: {@{$PV(B) = \frac {50\,000} {10\%} \left(1 - \frac 1 {(1 + 10\%)^6} \right) \approx 217763.035 \,,$ which is less than $PV(C) = 220\,000$.}@}
 
-## week 3 lecture
+## week 3 lecture 1
 
 > Q1. You want to set up a growing perpetuity which will increase its perpetual payments by 4% annually. Your required rate of return is 6%. What rate does the principal of this perpetuity have to grow to generate the growing perpetual payments?
 >
@@ -329,7 +329,7 @@ tags:
 > - solution: {@{3}@}
 > - explanation: {@{The APR should be slightly lower than the EAR since compounding happens more frequently than annually.}@}
 
-## week 4 lecture
+## week 4 lecture 1
 
 > Q1. An online bank is offering to pay 1.4% interest per month on deposits. Your local bank offers to pay 4.2% interest quarterly (every 3 months).
 >
@@ -394,7 +394,7 @@ tags:
 >
 > - solution: {@{1}@}
 
-## week 5 lecture
+## week 5 lecture 1
 
 > Q1.
 >
@@ -537,7 +537,7 @@ tags:
 >
 > - solution: {@{1/2/3/4}@}
 
-## week 6 lecture
+## week 6 lecture 1
 
 > Q1. Suppose a company reported an additional 100 million dollars depreciation expense.  Will the amount of net income decrease by 100 million dollars?
 >
@@ -624,7 +624,7 @@ tags:
 >
 > - solution: {@{4}@}
 
-## week 7 lecture
+## week 7 lecture 1
 
 > Q1. Which is the correct method to account for depreciation expenses in computing incremental cash flow?
 >
@@ -750,7 +750,7 @@ tags:
 >
 > - solution: {@{2}@}
 
-## week 8 lecture
+## week 8 lecture 1
 
 > Q1. What is the expected rate of return if you it at the market price?
 >
@@ -783,7 +783,7 @@ tags:
 >
 > - solution: {@{1/2/3/4}@}
 
-## week 10 lecture
+## week 10 lecture 1
 
 > Q1. When a bond trades at a discount, what is its yield compared to its coupon rate?
 >
@@ -907,7 +907,7 @@ tags:
 >
 > - solution: {@{2}@}
 
-## week 11 lecture
+## week 11 lecture 1
 
 > Q1. A stock recently paid a \$5.00 dividend. The dividend is expected to grow at 10% per year indefinitely.  The equity cost of capital of the stock is 15%.
 >
@@ -946,7 +946,7 @@ tags:
 >
 > - solution: {@{3}@}
 
-## week 12 lecture
+## week 12 lecture 1
 
 > Q1. A fast growing company is expected to increase its dividends by 30% for three years. Afterwards, the long term growth rate will be 6%. It has just paid a dividend of $2 per share this year. Assume investors' required rate of return on comparable investments is 13%.
 >
@@ -1106,7 +1106,7 @@ tags:
 >
 > - solution: {@{1}@}
 
-## week 13 lecture
+## week 13 lecture 1
 
 > Q1. What is the risk premium of S Firm?
 >
@@ -1241,7 +1241,7 @@ tags:
 >
 > - solution: {@{2}@}
 
-## week 14 lecture
+## week 14 lecture 1
 
 > Q1. What is the beta of the market portfolio?
 >

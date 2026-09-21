@@ -104,7 +104,7 @@ PHYS 2022 is an undergraduate course in modern physics at HKUST covering relativ
 - notes
     - the instructor's study advice: self-study the textbook chapter before class to work out what you do and do not understand; in class, ask and answer questions, discuss with classmates, and do exercises instead of just listening; build a physics mindset by linking abstract concepts and formulas to real-world phenomena through virtual experiments
 
-## week 1 lecture
+## week 1 lecture 1
 
 - datetime: 2026-09-01T13:30:00+08:00/2026-09-01T14:50:00+08:00, PT1H20M
 - venue: Lecture Theater G

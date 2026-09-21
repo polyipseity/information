@@ -37,12 +37,12 @@ The content is in teaching order.
     - passing mark: 0.6
 - [assignments](assignments/)
 
-## week 1 tutorial
+## week 1 tutorial 1
 
 - datetime: 2024-09-05T10:30:00+08:00/2024-09-05T12:20:00+08:00
 - status: unscheduled
 
-## week 2 tutorial
+## week 2 tutorial 1
 
 - datetime: 2024-09-12T10:30:00+08:00/2024-09-12T12:20:00+08:00
 - course logistics
@@ -59,7 +59,7 @@ The content is in teaching order.
 - activity 2: workview sharing, activity 3: worldview sharing
     - workview & worldview sharing / debrief ::@:: How is what you are currently doing coherent with your workview and worldview?
 
-## week 3 tutorial
+## week 3 tutorial 1
 
 - datetime: 2024-09-19T10:30:00+08:00/2024-09-19T12:20:00+08:00
 - work motivations ::@:: autonomy, mastery, purpose
@@ -76,7 +76,7 @@ The content is in teaching order.
     - life wheel / debrief ::@:: Evaluate your life in 10 categories from 1 to 10. Think of 3 categories to improve and imagine it. Finally, think of 1 action that you can do now to balance the wheel.
 - psychometric assessments ::@:: EQ-i<sup>2.0</sup>, STRONG
 
-## week 4 tutorial
+## week 4 tutorial 1
 
 - datetime: 2024-09-26T10:30:00+08:00/2024-09-26T12:20:00+08:00
 - assignments: [PERMA assessment and reflection](assignments/PERMA%20assessment%20and%20reflection/submission.md)
@@ -93,7 +93,7 @@ The content is in teaching order.
 - activity 2: STRONG debriefing
     - STRONG debriefing / debrief ::@:: STRONG assess your job interests, NOT your job skills!
 
-## week 5 tutorial
+## week 5 tutorial 1
 
 - datetime: 2024-10-03T10:30:00+08:00/2024-10-03T12:20:00+08:00
 - activity 1: practice ideation through 3 things ::@:: Person A names a category, and then person B names 3 things that fit into the category. Afterwards, everyone shouts "Three things!". Repeat this to practice ideation and avoid filtering ideas.
@@ -119,7 +119,7 @@ The content is in teaching order.
     - information interview / culture ::@:: Be aware of cultural differences. Ask and observe.
     - information interview / takeaways ::@:: People will help (refer) you if you ask. You will help (refer) someone back eventually...
 
-## week 6 tutorial
+## week 6 tutorial 1
 
 - datetime: 2024-10-10T10:30:00+08:00/2024-10-10T12:20:00+08:00
 - network practicum
@@ -129,7 +129,7 @@ The content is in teaching order.
     - 2 guests: \[redacted\], \[redacted\]
     - network practicum / takeaways ::@:: Learn from others' stories (collect data), and be inspired in your life planning!
 
-## week 7 tutorial
+## week 7 tutorial 1
 
 - datetime: 2024-10-17T10:30:00+08:00/2024-10-17T12:20:00+08:00
 - design thinking
@@ -149,7 +149,7 @@ The content is in teaching order.
         - ways of thinking / blocks / intellectual ::@:: expert belief, inflexible style, wrong information
         - ways of thinking / blocks / perceptual ::@:: choosing too tight a view, difficulty isolating, stereotyping
 
-## week 8 tutorial
+## week 8 tutorial 1
 
 - datetime: 2024-10-24T10:30:00+08:00/2024-10-24T12:20:00+08:00
 - activity 1: how many uses ::@:: Think of as many uses for a paperclip in 3 minutes. Play intense music.
@@ -165,7 +165,7 @@ The content is in teaching order.
     - activity 4: design a wallet for your partner / takeaways ::@:: If you are the interviewee, you should walk people through your ideal wallet. <p> If you are the interviewer, take notes, listen to stories, and ask why 5 times (5 times is a guideline). <p> Finally, when brainstorming ideas, build on the ideas of others, defer judgement, encourage wild ideas, and go for volume!
 - point of view statement ::@:: (user) needs a way to (verb) because (surprising insight).
 
-## week 9 tutorial
+## week 9 tutorial 1
 
 - datetime: 2024-10-31T10:30:00+08:00/2024-10-31T12:20:00+08:00
 - wild ideas
@@ -192,7 +192,7 @@ The content is in teaching order.
     - decision making / let go & move on ::@:: After making a choice, treat it as irreversible. Try to enter a "cycle of non-regret". <p> It turns out your brain will "synthesize" happiness for an irreversible choice, kinda like "wanting what you get", not "getting what you want". Keeping your choice open inhibits the above, and may make you worse since you will have lower happiness and poorer performance.
         - decision making / let go & move on / quotes ::@:: Quality of the decision does not equal quality of the outcome. (You cannot fully control the outcome for most things.) <p> Consequences of choices cannot influence choice itself. (Try to _really_ understand this seemingly-wrong sentence again...)
 
-## week 10 tutorial
+## week 10 tutorial 1
 
 - datetime: 2024-11-07T10:30:00+08:00/2024-11-07T12:20:00+08:00
 - assignments: [odyssey planning – 3 versions of my life](assignments/odyssey%20planning%20–%203%20versions%20of%20my%20life/submission.md)
@@ -210,7 +210,7 @@ The content is in teaching order.
 - activity 3: odyssey planning – 3 versions of my life ::@:: Design 3 versions of "me": First is the story you tell today. Second is what if the story you tell today was no longer an option? Last is wild ideas: No more constraints!
     - activity 3: odyssey planning – 3 versions of my life / components ::@:: __Timeline__: It shows major milestones, with at least one per year. Use whatever you want to describe it. It could be drawings, pictures, words, etc. <br/> __Dashboard__: It shows how you rate your plan. <br/> __Title__: A 3 to 6-word descriptive title. <br/> __Questions__: What questions does this plan raise?
 
-## week 11 tutorial
+## week 11 tutorial 1
 
 - datetime: 2024-11-14T10:30:00+08:00/2024-11-14T12:20:00+08:00
 - status: canceled: typhoon signal 8
@@ -219,7 +219,7 @@ The content is in teaching order.
 >
 > Hi everyone, I have received few inquiries from you all about the class. Due to the typhoon, there will be no class today.  See you all next week!
 
-## week 12 tutorial
+## week 12 tutorial 1
 
 - datetime: 2024-11-21T10:30:00+08:00/2024-11-21T12:20:00+08:00
 - assignments: [letter to future self](assignments/letter%20to%20future%20self/submission.md), [final presentation](assignments/final%20presentation/submission.md)
@@ -235,7 +235,7 @@ The content is in teaching order.
 - storytelling ::@:: Tell stories.
     - storytelling / why ::@:: appeal to human emotion to motivate change, connect the dots for yourself for meaning and purpose, connect with others, create new opportunities
 
-## week 13 tutorial
+## week 13 tutorial 1
 
 - datetime: 2024-11-28T10:30:00+08:00/2024-11-28T12:20:00+08:00
 - [final presentation](assignments/final%20presentation/submission.md)

@@ -100,7 +100,7 @@ The content is in teaching order.
     - due: 2026-05-08
     - purpose: submit the final 3,000-word essay
 
-## week 1 lecture
+## week 1 lecture 1
 
 - datetime: 2026-02-03T16:30:00+08:00/2026-02-03T17:50:00+08:00, PT1H20M
 - venue: Rm 4620 (Lift 31-32), Academic Building
@@ -124,7 +124,7 @@ The content is in teaching order.
 - notes: second definition of philosophy (rational reflection on fundamental questions); Chinese philosophy's emphasis on life vs. Western emphasis on nature; three reasons to study ancient Chinese philosophy; Karl Jaspers' Axial Age
 - [道家概論 § 中國哲學的特色](道家概論.md#中國哲學的特色重視生命), [§ 為何研習古代中國哲學](道家概論.md#為何研習古代中國哲學)
 
-## week 2 lecture
+## week 2 lecture 1
 
 - datetime: 2026-02-10T16:30:00+08:00/2026-02-10T17:50:00+08:00, PT1H20M
 - venue: Rm 4620 (Lift 31-32), Academic Building
@@ -140,7 +140,7 @@ The content is in teaching order.
 - notes: origins of the Hundred Schools — four scholarly positions (traditional 王官 view, Feng Youlan's modification, Hu Shi's opposition, Mou Zongsan's supplement on 周文疲弊); Daoism's special root in southern Chu culture (楚地) vs. northern 詩經 culture
 - [道家概論 § 諸子百家思想的產生背景](道家概論.md#諸子百家思想的產生背景)
 
-## week 3 lecture
+## week 3 lecture 1
 
 - datetime: 2026-02-17T16:30:00+08:00/2026-02-17T17:50:00+08:00, PT1H20M
 - venue: Rm 4620 (Lift 31-32), Academic Building
@@ -152,7 +152,7 @@ The content is in teaching order.
 - venue: Rm 4620 (Lift 31-32), Academic Building
 - status: public holiday: 農曆新年（正月初三）
 
-## week 4 lecture
+## week 4 lecture 1
 
 - datetime: 2026-02-24T16:30:00+08:00/2026-02-24T17:50:00+08:00, PT1H20M
 - venue: Rm 4620 (Lift 31-32), Academic Building
@@ -168,7 +168,7 @@ The content is in teaching order.
 - notes: 老子姓李名耳字聃，周守藏室之史；名/字/號制度；孔子問禮四教（其人骨朽、君子得時、良賈深藏若虛、去驕多欲）；龍比喻；紫氣東來、尹喜留書五千言。
 - [老子](老子.md#老子其人)
 
-## week 5 lecture
+## week 5 lecture 1
 
 - datetime: 2026-03-03T16:30:00+08:00/2026-03-03T17:50:00+08:00, PT1H20M
 - venue: Rm 4620 (Lift 31-32), Academic Building
@@ -185,7 +185,7 @@ The content is in teaching order.
 - notes: 帛書（馬王堆1973）、竹簡（荊門1993，最早）、北大竹簡（2009）；建議讀通行本81章5200字；道德經名稱源流；第一章初步：道不可說，凡可說者非永恆道。
 - [老子 § 《老子》其書](老子.md#老子其書), [§ 第一章](老子.md#第一章道體論)
 
-## week 6 lecture
+## week 6 lecture 1
 
 - datetime: 2026-03-10T16:30:00+08:00/2026-03-10T17:50:00+08:00, PT1H20M
 - venue: Rm 4620 (Lift 31-32), Academic Building
@@ -201,7 +201,7 @@ The content is in teaching order.
 - notes: 教師因當日下午外出開會，課上未點名；課程實際進行，續講第一章（道可道／無名有名／常無欲常有欲等）並銜接第二章核心問題（相對而生、無為脈絡）。
 - [老子 § 第一章](老子.md#第一章道體論), [§ 第二章](老子.md#第二章人生論)
 
-## week 7 lecture
+## week 7 lecture 1
 
 - datetime: 2026-03-17T16:30:00+08:00/2026-03-17T17:50:00+08:00, PT1H20M
 - venue: Rm 4620 (Lift 31-32), Academic Building
@@ -217,7 +217,7 @@ The content is in teaching order.
 - notes: 無為精神諸句：不言之教/不為始（拔苗助長）/生而不有（少年日記）/為而不恃/功成而不居/夫唯弗居是以不去；美而不執著美才是真美（東施效顰）；第三章字面：不尚賢/不貴難得之貨/不見可欲/虛其心實其腹弱其志強其骨——表面荒謬，乃正言若反，深義下節續。
 - [老子 § 第二章](老子.md#第二章人生論), [§ 第三章](老子.md#第三章政治論)
 
-## week 8 lecture
+## week 8 lecture 1
 
 - datetime: 2026-03-24T16:30:00+08:00/2026-03-24T17:50:00+08:00, PT1H20M
 - venue: Rm 4620 (Lift 31-32), Academic Building
@@ -233,7 +233,7 @@ The content is in teaching order.
 - notes: 和光同塵淺層=楊修之死（明哲保身）；深層=功夫電視劇蛇坑（超越人蛇對立，自我保護意識消失）；英雄打敗敵人（相對），聖人沒有敵人（超越相對）；第五章：芻狗/大人不仁/給飯給麵例；第六章起：谷神不死三觀念/玄牡/道家陰柔風格/細水長流/莊子山木篇。
 - [老子 § 第四章](老子.md#第四章道沖), [§ 第五章](老子.md#第五章天地之間), [§ 第六章](老子.md#第六章玄牡之門)
 
-## week 9 lecture
+## week 9 lecture 1
 
 - datetime: 2026-03-31T16:30:00+08:00/2026-03-31T17:50:00+08:00, PT1H20M
 - venue: Rm 4620 (Lift 31-32), Academic Building
@@ -249,7 +249,7 @@ The content is in teaching order.
 - notes: 天地不自生=無私→天地長生（Sustainability）；後其身而身先（走廊讓路例）；外其身而身存（無私友人例）；非以其無私耶故能成其私；第八章：水三特性=有為（善利萬物）/超越相對（不爭，Be like water—李小龍）/無為（處眾人之所惡）；幾於道而非等同；居善地心善淵…等七句；進度：快轉莊子。
 - [老子 § 第七章](老子.md#第七章天長地久), [§ 第八章](老子.md#第八章上善若水)
 
-## week 10 lecture
+## week 10 lecture 1
 
 - datetime: 2026-04-07T16:30:00+08:00/2026-04-07T17:50:00+08:00, PT1H20M
 - venue: Rm 4620 (Lift 31-32), Academic Building
@@ -264,7 +264,7 @@ The content is in teaching order.
 - notes: 養生主題解（養護精神而非身體）；「主」 = 生命主宰 = 精神；超知非反知（有知識但不執著框架）；為善無近名 = 有心為善雖善不善；為惡無近刑 = 無心為惡雖惡不惡；緣督以為經 = 中道；庖丁解牛三階段（初學只見全牛 → 目無全牛 → 以神遇而不以目視）、由技入道、游刃有餘。
 - [莊子 § 〈養生主〉](莊子.md#養生主)
 
-## week 11 lecture
+## week 11 lecture 1
 
 - datetime: 2026-04-14T16:30:00+08:00/2026-04-14T17:50:00+08:00, PT1H20M
 - venue: Rm 4620 (Lift 31-32), Academic Building
@@ -280,7 +280,7 @@ The content is in teaching order.
 - notes: 老子哲學四方面：道體論（道不可說）、人生論（無為 = 有為而不執著）、政治論（多元開放社會不尚賢）、功夫論（第十章六問）；辯證思維正反合：有為（正）→執著有為困境→無為（反）→無為而無不為（合）；核心一句：無為 = 有為而不執著有為；老子建本體架構（縱），莊子展生命境界（橫）。
 - [老子 § 老子哲學總結](老子.md#老子哲學總結)
 
-## week 12 lecture
+## week 12 lecture 1
 
 - datetime: 2026-04-21T16:30:00+08:00/2026-04-21T17:50:00+08:00, PT1H20M
 - venue: Rm 4620 (Lift 31-32), Academic Building
@@ -296,7 +296,7 @@ The content is in teaching order.
 - notes: 由逍遙義（自由自在、無拘無束）入手，進入〈逍遙遊〉正文開篇（北冥有魚、鯤鵬意象）與全篇主旨；本講重點不在許由洗耳細節。
 - [莊子 § 〈逍遙遊〉](莊子.md#逍遙遊)
 
-## week 13 lecture
+## week 13 lecture 1
 
 - datetime: 2026-04-28T16:30:00+08:00/2026-04-28T17:50:00+08:00, PT1H20M
 - venue: Rm 4620 (Lift 31-32), Academic Building
@@ -312,7 +312,7 @@ The content is in teaching order.
 - notes: 惠子大樹（大而無用）——莊子以山貓死於機關（靈活者反死）、斄牛不能捉鼠（大者不能小用）反駁；何不種樹於「無何有之鄉，廣莫之野」，逍遙自在、不受斧斤——「無所可用，安所困苦哉？」無用之用：有用之用局限且有待；無用之用突破功用框架，讓人自在存在——至人無己（不執著自我邊界和功能定義）的具體展現。
 - [莊子 § 〈逍遙遊〉](莊子.md#逍遙遊)
 
-## week 14 lecture
+## week 14 lecture 1
 
 - datetime: 2026-05-05T16:30:00+08:00/2026-05-05T17:50:00+08:00, PT1H20M
 - venue: Rm 4620 (Lift 31-32), Academic Building

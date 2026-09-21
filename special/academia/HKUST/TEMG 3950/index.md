@@ -23,7 +23,7 @@ tags:
 
 The content is in teaching order.
 
-## week 2 lecture
+## week 2 lecture 1
 
 - datetime: 2024-02-06T18:00:00+08:00/2024-02-06T20:00:00+08:00
 - [information § context](information.md#context)
@@ -40,12 +40,12 @@ The content is in teaching order.
 - reading assignment: [IBM prioritization grid](../../../IBM%20prioritization%20grid.md), [market segmentation](../../../market%20segmentation.md)
 - [assignment W2](assignment%20W2/assignment%20W2.md)
 
-## week 3 lecture
+## week 3 lecture 1
 
 - datetime: 2024-02-13T18:00:00+08:00/2024-02-13T20:00:00+08:00
 - status: unscheduled, public holiday: Fourth Day of Lunar New Year
 
-## week 4 lecture
+## week 4 lecture 1
 
 - datetime: 2024-02-20T18:00:00+08:00/2024-02-20T20:30:00+08:00
 - [competitor analysis § outline](../../../../general/competitor%20analysis.md#outline)
@@ -76,7 +76,7 @@ The content is in teaching order.
 - reading assignment: [d.school design thinking bootleg § process modules](../../../d.school%20design%20thinking%20bootleg.md#process%20modules), [d.school design thinking bootleg § methods and tools](../../../d.school%20design%20thinking%20bootleg.md#methods%20and%20tools)
 - [assignment W4](assignment%20W4/assignment%20W4.md)
 
-## week 5 lecture
+## week 5 lecture 1
 
 - datetime: 2024-02-27T18:00:00+08:00/2024-02-27T20:30:00+08:00
 - How to build a user-centric product? ::@:: idea generation → customer segmentation → [design thinking](../../../../general/design%20thinking.md) → customer profile → value proposition canvas → business model canvas
@@ -95,7 +95,7 @@ The content is in teaching order.
 - reading assignment: [value proposition canvas](../../../value%20proposition%20canvas.md)
 - [assignment W5](assignment%20W5/assignment%20W5.md)
 
-## week 6 lecture
+## week 6 lecture 1
 
 - datetime: 2024-03-05T18:00:00+08:00/2024-03-05T20:30:00+08:00
 - product innovation success first step ::@:: Identification of the _real_ problem: If your project does not work, you have not found the real needs of your customers.
@@ -121,7 +121,7 @@ The content is in teaching order.
 - reading assignment: [business model canvas](../../../business%20model%20canvas.md)
 - [assignment W6](assignment%20W6/assignment%20W6.md)
 
-## week 7 lecture
+## week 7 lecture 1
 
 - datetime: 2024-03-12T18:00:00+08:00/2024-03-12T20:30:00+08:00
 - exam for part 1: product innovation
@@ -146,14 +146,14 @@ The content is in teaching order.
     - executive summary for startup investment ::@:: company name, one-line pitch, problem, solution and product, market and market size, marketing strategy, business model, competition and advantage, team
 - [assignment W7](assignment%20W7/assignment%20W7.md)
 
-## week 8 lecture
+## week 8 lecture 1
 
 - datetime: 2024-03-19T18:00:00+08:00/2024-03-19T20:30:00+08:00
 - 15-minute group presentation
     - questions and answers
 - [assignment W8](assignment%20W8/assignment%20W8.md)
 
-## week 9 lecture
+## week 9 lecture 1
 
 - datetime: 2024-03-26T18:00:00+08:00/2024-03-26T20:30:00+08:00
 - [information § context](information.md#context)
@@ -200,12 +200,12 @@ The content is in teaching order.
     - [marketing mix § McCarthy's 4 Ps](../../../../general/marketing%20mix.md#McCarthy's%204%20Ps)
 - [assignment W9](assignment%20W9/assignment%20W9.md): MECE for Situation Analysis
 
-## week 10 lecture
+## week 10 lecture 1
 
 - datetime: 2024-04-02T18:00:00+08:00/2024-04-02T20:30:00+08:00
 - status: midterm break
 
-## week 11 lecture
+## week 11 lecture 1
 
 - datetime: 2024-04-09T18:00:00+08:00/2024-04-09T20:30:00+08:00
 - critical thinking pop quiz takeaways ::@:: cannot blindly trust given premises, case analysis needs to consider human behaviors, possess general knowledge
@@ -238,7 +238,7 @@ The content is in teaching order.
     - interview note § facts ::@:: do not be afraid to ask probing questions, probe for the real question, quantify, summarize, verify
 - [assignment W11](assignment%20W11/assignment%20W11.md): Root Cause Analysis (Starbucks)
 
-## week 12 lecture
+## week 12 lecture 1
 
 - datetime: 2024-04-16T18:00:00+08:00/2024-04-16T20:30:00+08:00
 - [assignment W11](assignment%20W11/assignment%20W11.md) takeaways
@@ -252,7 +252,7 @@ The content is in teaching order.
 - drawbridge drama ::@:: an analogy to an office drama
 - [assignment W12](assignment%20W12/assignment%20W12.md): Organizational Analysis (DRW Technologies)
 
-## week 13 lecture
+## week 13 lecture 1
 
 - datetime: 2024-04-23T18:00:00+08:00/2024-04-23T20:30:00+08:00
 - To be successful in business, you need to eat/kill the competition. Right? ::@:: Or you could make the competition irrelevant instead by creating uncontested market space...
@@ -266,7 +266,7 @@ The content is in teaching order.
     - [§ create "gap"](../../../blue%20ocean%20strategy.md#create%20"gap")
 - [assignment W13](assignment%20W13/assignment%20W13.md): Blue Ocean Analysis (PetWellClinic)
 
-## week 14 lecture
+## week 14 lecture 1
 
 - datetime: 2024-04-30T18:00:00+08:00/2024-04-30T20:00:00+08:00
 - [profitability framework](../../../profitability%20framework.md)
@@ -281,7 +281,7 @@ The content is in teaching order.
 - interview note-taking technique using 1 sheet of A4 paper
 - exam for part 2 review
 
-## week 15 lecture
+## week 15 lecture 1
 
 - datetime: 2024-05-07T18:00:00+08:00/2024-05-07T20:00:00+08:00
 - exam for part 2: case analysis

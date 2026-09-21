@@ -84,7 +84,7 @@ The content is in teaching order.
 - [assignments](assignments/index.md)
 - [questions](questions/index.md)
 
-## week 1 lecture
+## week 1 lecture 1
 
 - datetime: 2025-01-13T08:30:00-05:00/2025-01-13T09:50:00-05:00, PT1H20M
     - local: 2025-01-13T21:30:00+08:00/2025-01-13T22:50:00+08:00, PT1H20M
@@ -140,7 +140,7 @@ The content is in teaching order.
 - [Creoles of color](../../../../general/Creoles%20of%20color.md) ::@:: They are mixed race people living in New Orleans. Racial segregation meant musicians had to play with the black community. They brought their virtuosity to black bands.
 - assignment: read "African Music in Early Jazz"
 
-## week 2 lecture
+## week 2 lecture 1
 
 - datetime: 2025-01-20T08:30:00-05:00/2025-01-20T09:50:00-05:00, PT1H20M
     - local: 2025-01-20T21:30:00+08:00/2025-01-20T22:50:00+08:00, PT1H20M
@@ -194,7 +194,7 @@ The content is in teaching order.
 - [Livery Stable Blues](../../../../general/Livery%20Stable%20Blues.md) ::@:: first ever jazz recording by the Original Dixieland Jass Band (all white musicians) in 1917, composed by Nick LaRocca
 - assignment \(attendance\): [Sydney Bechet](questions/index.md#Sydney%20Bechet)
 
-## week 3 lecture
+## week 3 lecture 1
 
 - datetime: 2025-01-27T08:30:00-05:00/2025-01-27T09:50:00-05:00, PT1H20M
     - local: 2025-01-27T21:30:00+08:00/2025-01-27T22:50:00+08:00, PT1H20M
@@ -227,7 +227,7 @@ The content is in teaching order.
 - quiz: [quiz 1](questions/quiz%201.md)
 - assignment: read "The Great Migration"
 
-## week 4 lecture
+## week 4 lecture 1
 
 - datetime: 2025-02-03T08:30:00-05:00/2025-02-03T09:50:00-05:00, PT1H20M
     - local: 2025-02-03T21:30:00+08:00/2025-02-03T22:50:00+08:00, PT1H20M
@@ -279,7 +279,7 @@ The content is in teaching order.
     - swing music / vs. New Orleans jazz
 - assignment: (none)
 
-## week 5 lecture
+## week 5 lecture 1
 
 - datetime: 2025-02-10T08:30:00-05:00/2025-02-10T09:50:00-05:00, PT1H20M
     - local: 2025-02-10T21:30:00+08:00/2025-02-10T22:50:00+08:00, PT1H20M
@@ -336,7 +336,7 @@ The content is in teaching order.
     - swing era / famous big bands: Artie Shaw, Chick Webb, Harry James, Tommy Dorsey, Woody Herman
 - assignment: (none)
 
-## week 6 lecture
+## week 6 lecture 1
 
 - datetime: 2025-02-17T08:30:00-05:00/2025-02-17T09:50:00-05:00, PT1H20M
     - local: 2025-02-17T21:30:00+08:00/2025-02-17T22:50:00+08:00, PT1H20M
@@ -381,7 +381,7 @@ The content is in teaching order.
         - swing music / singers / examples: Anita O'day, Carmen McCrae, Jon Hendricks, Mel Torme, Nina Simone, Peggy Lee, Sarah Vaughan
 - assignment: (none)
 
-## week 7 lecture
+## week 7 lecture 1
 
 - datetime: 2025-02-24T08:30:00-05:00/2025-02-24T09:50:00-05:00, PT1H20M
     - local: 2025-02-24T21:30:00+08:00/2025-02-24T22:50:00+08:00, PT1H20M
@@ -406,7 +406,7 @@ The content is in teaching order.
 - quiz: [listening test 1](questions/listening%20test%201.md)
 - assignment: [concert 1](assignments/concert%201/index.md)
 
-## week 8 lecture
+## week 8 lecture 1
 
 - datetime: 2025-03-03T08:30:00-05:00/2025-03-03T09:50:00-05:00, PT1H20M
     - local: 2025-03-03T21:30:00+08:00/2025-03-03T22:50:00+08:00, PT1H20M
@@ -418,7 +418,7 @@ The content is in teaching order.
     - local: 2025-03-05T21:30:00+08:00/2025-03-05T22:50:00+08:00, PT1H20M
 - status: unscheduled, holiday
 
-## week 9 lecture
+## week 9 lecture 1
 
 - datetime: 2025-03-10T08:30:00-05:00/2025-03-10T09:00:00-05:00
     - local: 2025-03-10T21:30:00+08:00/2025-03-10T22:00:00+08:00
@@ -459,7 +459,7 @@ The content is in teaching order.
 - assignment: read "When Bebop was Born"
 - assignment \(attendance\): [Birth of Bebop](questions/index.md#Birth%20of%20Bebop)
 
-## week 10 lecture
+## week 10 lecture 1
 
 - datetime: 2025-03-17T08:30:00-05:00/2025-03-17T09:00:00-05:00
     - local: 2025-03-17T21:30:00+08:00/2025-03-17T22:00:00+08:00
@@ -498,7 +498,7 @@ The content is in teaching order.
     - Kenny Clarke / effects ::@:: He changed the beat to use ride cymbals from bass drums, which became the new jazz standard and continued to this day. This also influenced other music styles.
 - assignment: \(none\)
 
-## week 11 lecture
+## week 11 lecture 1
 
 - datetime: 2025-03-24T08:30:00-05:00/2025-03-24T09:00:00-05:00
     - local: 2025-03-24T21:30:00+08:00/2025-03-24T22:00:00+08:00
@@ -538,7 +538,7 @@ The content is in teaching order.
     - Sérgio Mendes / works ::@:: "Mas que nada" \(1963\) — Brasil '66
 - assignment: \(none\)
 
-## week 12 lecture
+## week 12 lecture 1
 
 - datetime: 2025-03-31T08:30:00-05:00/2025-03-31T09:00:00-05:00
     - local: 2025-03-31T21:30:00+08:00/2025-03-31T22:00:00+08:00
@@ -597,7 +597,7 @@ The content is in teaching order.
     - watch "1959 The Year that Changed Jazz" \(<https://youtu.be/dou3aSZmEg0>\)
     - quiz \(assignment\): [1959](questions/index.md#1959)
 
-## week 13 lecture
+## week 13 lecture 1
 
 - datetime: 2025-04-07T08:30:00-05:00/2025-04-07T09:00:00-05:00
     - local: 2025-04-07T21:30:00+08:00/2025-04-07T22:00:00+08:00
@@ -644,7 +644,7 @@ The content is in teaching order.
     - John Coltrane / later life ::@:: He died at 40 from liver failure.
 - assignment: \(none\)
 
-## week 14 lecture
+## week 14 lecture 1
 
 - datetime: 2025-04-14T08:30:00-05:00/2025-04-14T09:50:00-05:00, PT1H20M
     - local: 2025-04-14T21:30:00+08:00/2025-04-14T22:50:00+08:00, PT1H20M
@@ -684,7 +684,7 @@ The content is in teaching order.
     - Mahavishnu Orchestra / works ::@:: "Birds of Fire" \(1973\) — Mahavishnu Orchestra
 - assignment: \(none\)
 
-## week 15 lecture
+## week 15 lecture 1
 
 - datetime: 2025-04-21T08:30:00-05:00/2025-04-21T09:50:00-05:00, PT1H20M
     - local: 2025-04-21T21:30:00+08:00/2025-04-21T22:50:00+08:00, PT1H20M
@@ -741,7 +741,7 @@ The content is in teaching order.
     - neo-bop / players ::@:: Brian Blade \(drums\) <br/> Christian McBride <br/> Joshua Redman \(saxophone\) <br/> Pete Bernstein \(guitar\) <br/> Wynton Marsalis
 - assignment: \(none\)
 
-## week 16 lecture
+## week 16 lecture 1
 
 - datetime: 2025-04-28T08:30:00-05:00/2025-04-28T09:50:00-05:00, PT1H20M
     - local: 2025-04-28T21:30:00+08:00/2025-04-28T22:50:00+08:00, PT1H20M

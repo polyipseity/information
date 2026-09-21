@@ -106,13 +106,13 @@ ELEC 2400 is an undergraduate course in electronic circuits at HKUST covering fu
 - notes
     - tests and examinations are based mainly on the lecture and tutorial notes
 
-## week 1 lab
+## week 1 lab 1
 
 - datetime: 2026-09-01T17:00:00+08:00/2026-09-01T19:50:00+08:00, PT2H50M
 - venue: Rm 2133, Lift 19, 21, 22
 - status: unscheduled
 
-## week 1 lecture
+## week 1 lecture 1
 
 - datetime: 2026-09-02T09:00:00+08:00/2026-09-02T10:20:00+08:00
 - venue: Rm 5403, Lift 17-18
@@ -177,7 +177,7 @@ ELEC 2400 is an undergraduate course in electronic circuits at HKUST covering fu
         - [§ voltage-controlled current source](dependent%20source.md#voltage-controlled%20current%20source)
         - [§ current-controlled voltage source](dependent%20source.md#current-controlled%20voltage%20source)
 
-## week 1 tutorial
+## week 1 tutorial 1
 
 - datetime: 2026-09-02T15:00:00+08:00/2026-09-02T15:50:00+08:00, PT50M
 - venue: Rm 2304, Lift 17-18

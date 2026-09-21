@@ -40,7 +40,7 @@ tags:
 - [quiz 19](quiz%2019.md)
 - [quiz 20](quiz%2020.md)
 
-## week 1 lecture
+## week 1 lecture 1
 
 \(none\)
 
@@ -94,7 +94,7 @@ tags:
 > - solution: {@{1. overlapping, incomplete <br/> 2. disjoint, incomplete <br/> 3. disjoint, complete <br/> 4. overlapping, complete <br/> 5. disjoint, complete}@}
 > - annotation: {@{There are other possible answers according to the _application domain_.}@}
 
-## week 2 lecture
+## week 2 lecture 1
 
 > Can association names be the same?
 >
@@ -146,7 +146,7 @@ tags:
 
 \(none\)
 
-## week 3 lecture
+## week 3 lecture 1
 
 > When should you ignore classes or associations stated in the requirements?
 >
@@ -190,7 +190,7 @@ tags:
 
 \(none\)
 
-## week 4 lecture
+## week 4 lecture 1
 
 \(none\)
 
@@ -198,7 +198,7 @@ tags:
 
 \(none\)
 
-## week 5 lecture
+## week 5 lecture 1
 
 \(none\)
 
@@ -206,7 +206,7 @@ tags:
 
 \(none\)
 
-## week 6 lecture
+## week 6 lecture 1
 
 \(none\)
 
@@ -214,7 +214,7 @@ tags:
 
 \(none\)
 
-## week 7 lecture
+## week 7 lecture 1
 
 \(none\)
 
@@ -222,7 +222,7 @@ tags:
 
 \(none\)
 
-## week 8 lecture
+## week 8 lecture 1
 
 \(none\)
 
@@ -230,7 +230,7 @@ tags:
 
 \(none\)
 
-## week 9 lecture
+## week 9 lecture 1
 
 \(none\)
 
@@ -238,7 +238,7 @@ tags:
 
 \(none\)
 
-## week 10 lecture
+## week 10 lecture 1
 
 \(none\)
 
@@ -246,7 +246,7 @@ tags:
 
 \(none\)
 
-## week 11 lecture
+## week 11 lecture 1
 
 \(none\)
 
@@ -254,7 +254,7 @@ tags:
 
 \(none\)
 
-## week 12 lecture
+## week 12 lecture 1
 
 \(none\)
 
@@ -262,6 +262,6 @@ tags:
 
 \(none\)
 
-## week 13 lecture
+## week 13 lecture 1
 
 \(none\)

@@ -95,7 +95,7 @@ FINA 4103 is an undergraduate course in financial markets trading and structure 
     - a background in statistics (random variables, expectation, variance, covariance, sample versus population data, linear regression) and in algebra, calculus, and optimization (economic models of financial markets, first-order derivatives) is expected
     - the published class schedule is tentative and subject to change
 
-## week 1 lecture
+## week 1 lecture 1
 
 - datetime: 2026-09-01T15:00:00+08:00/2026-09-01T16:20:00+08:00, PT1H20M
 - venue: Rm 2406, Lift 17-18
