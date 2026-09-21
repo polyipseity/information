@@ -5,6 +5,7 @@ from scripts.convert_wiki.markdown_rewrite import (
     _align_plain_to_raw,
     _resolve_plain_rewrite,
     _rewrite_article_heading,
+    _rewrite_link_target,
     _rewrite_markdown_headings,
     _rewrite_markdown_links,
     _rewrite_plain_span,
@@ -497,3 +498,39 @@ class TestRewriteMarkdownHeadings:
         names_map = {"modern physics and more": "Modern physics and more"}
         rewritten = _rewrite_markdown_headings(text, names_map)
         assert rewritten == "## Modern physics _and more_\n"
+
+
+class TestRewriteLinkTargetLegacyFragments:
+    """Tests for ``_rewrite_link_target`` with legacy dot-escaped fragments."""
+
+    def test_legacy_fragment_decoded_and_cased(self) -> None:
+        """Legacy escape should be decoded and name-map cased on read-back."""
+        target = (
+            "Segal%E2%80%93Bargmann%20space.md#The%20Segal.E2.80.93Bargmann%20transform"
+        )
+        names_map = {
+            "Segal\u2013Bargmann space": "segal\u2013bargmann space",
+            "The Segal\u2013Bargmann transform": "the Segal\u2013Bargmann transform",
+        }
+        result = _rewrite_link_target(target, {}, names_map=names_map)
+        assert ".E2" not in result
+        assert "#the%20Segal\u2013Bargmann%20transform" in result
+
+    def test_percent_only_fragments_unchanged(self) -> None:
+        """A fragment with no legacy escapes must stay the same."""
+        target = "page.md#Section%20Name"
+        result = _rewrite_link_target(target, {}, names_map={})
+        assert result == target
+
+    def test_idempotent_for_decoded_fragment(self) -> None:
+        """Applying _rewrite_link_target twice must produce the same output."""
+        target = (
+            "segal%E2%80%93bargmann%20space.md#the%20Segal%E2%80%93Bargmann%20transform"
+        )
+        names_map = {
+            "Segal\u2013Bargmann space": "segal\u2013bargmann space",
+            "The Segal\u2013Bargmann transform": "the Segal\u2013Bargmann transform",
+        }
+        first = _rewrite_link_target(target, {}, names_map=names_map)
+        second = _rewrite_link_target(first, {}, names_map=names_map)
+        assert first == second

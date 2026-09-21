@@ -709,6 +709,55 @@ class TestLinkHandling:
         result = await _convert(converter, html)
         assert "[1]" in result
 
+    @pytest.mark.anyio
+    async def test_legacy_fragment_decoded_via_name_map(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Legacy dot-escaped fragment should be decoded and name-map cased.
+
+        Regression: ``.E2.80.93`` in a href fragment used to leak into the
+        written link instead of being decoded to the plain en-dash.
+        """
+        html = (
+            '<a title="Segal\u2013Bargmann space"'
+            ' href="/wiki/Segal%E2%80%93Bargmann_space'
+            '#The%20Segal.E2.80.93Bargmann%20transform">text</a>'
+        )
+        result = await _convert(converter, html)
+        assert "#the%20Segal\u2013Bargmann%20transform)" in result
+        assert ".E2" not in result
+
+    @pytest.mark.anyio
+    async def test_literal_hh_in_document_id_preserved(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A literal ``.28`` in a document id must not be decoded.
+
+        When the same page has ``id="Section.28"`` and a self-link
+        references it, the dot-plus-digits must stay verbatim because
+        the literal-set guard recognises it as unreachable text.
+        """
+        html = (
+            '<p><span id="Section.28">text</span></p>'
+            '<a class="mw-selflink-fragment"'
+            ' href="/wiki/Current_Page#Section.28">link</a>'
+        )
+        result = await _convert(converter, html)
+        assert "#section.28)" in result.lower()
+
+    @pytest.mark.anyio
+    async def test_external_url_fragment_untouched(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """An external URL fragment with dot-escapes must stay verbatim."""
+        html = (
+            '<a href="https://en.wikipedia.org/wiki/Wikipedia:Content%20forks'
+            '#Article%20spinoffs%3A%20.22Summary%20style.22">link</a>'
+        )
+        result = await _convert(converter, html)
+        assert ".22" in result
+        assert "Summary" in result
+
 
 # ---------------------------------------------------------------------------
 

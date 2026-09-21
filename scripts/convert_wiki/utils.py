@@ -4,7 +4,7 @@ Pure helper functions with no class dependencies.
 """
 
 import re
-from collections.abc import Mapping
+from collections.abc import Mapping, Set
 from os import PathLike
 from urllib.parse import unquote
 
@@ -211,18 +211,109 @@ def _get_image_filename(ele: Tag) -> str | None:
     return None
 
 
-def _plain_fragment(fragment: str) -> str:
-    """Decode a percent-encoded URL fragment from an HTML ``href``.
+"""Bytes that ``Sanitizer::escapeIdInternal``'s ``legacy`` mode never escapes.
 
-    Fragments reach the converter percent-encoded, but the name map, the
-    ``_fix_name_maybe`` casing heuristic, and ``_encode_fragment`` all operate
-    on plain text.  Decoding once at the ``href`` boundary keeps ingestion in
-    step with ``_rewrite_link_target``, which unquotes the fragment it reads
-    back from the written Markdown; without it a fragment such as
+MediaWiki encodes legacy fragments with
+``strtr(urlencode(str_replace(' ', '_', $id)), ['%3A' => ':', '%' => '.'])``,
+so ``urlencode`` leaves ``A-Za-z0-9-_.`` alone and ``strtr`` restores ``:``.
+A ``.HH`` run whose bytes fall in that set therefore cannot be an escape.
+"""
+_LEGACY_LITERAL_BYTES = frozenset(
+    b"-._:0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
+)
+
+"""Matches one run of MediaWiki legacy (``.HH``) or percent (``%HH``) escapes."""
+_FRAGMENT_ESCAPE_RUN_REGEX = re.compile(r"(?:\.[0-9A-Fa-f]{2})+|(?:%[0-9A-Fa-f]{2})+")
+
+
+def _decode_legacy_escape_run(run: str) -> str:
+    """Decode one ``.HH`` run, or return it verbatim when it is literal text.
+
+    A run whose bytes include a literal byte of the legacy encoding, and a run
+    that is not valid UTF-8, cannot have been produced by MediaWiki, so both
+    stay verbatim rather than becoming replacement characters.
+    """
+    values = bytes(
+        int(run[index + 1 : index + 3], 16) for index in range(0, len(run), 3)
+    )
+    if any(value in _LEGACY_LITERAL_BYTES for value in values):
+        return run
+    try:
+        return values.decode("UTF-8")
+    except UnicodeDecodeError:
+        return run
+
+
+def _decode_legacy_fragment(fragment: str) -> str:
+    """Decode MediaWiki legacy (``.HH``) and percent (``%HH``) escapes once.
+
+    Every escape run in the *source* fragment is decoded exactly once and
+    emitted output is never re-scanned, so a decoded percent sign (``.25``)
+    cannot become a percent escape and an escaped percent sign (``%25``) cannot
+    become a legacy escape.
+    """
+    parts: list[str] = []
+    position = 0
+    for match in _FRAGMENT_ESCAPE_RUN_REGEX.finditer(fragment):
+        parts.append(fragment[position : match.start()])
+        run = match.group()
+        parts.append(
+            _decode_legacy_escape_run(run) if run.startswith(".") else unquote(run)
+        )
+        position = match.end()
+    parts.append(fragment[position:])
+    return "".join(parts)
+
+
+def _is_known_fragment(
+    candidate: str,
+    known_fragments: Set[str],
+    names_map: Mapping[str, str] | None,
+) -> bool:
+    """Return whether *candidate* names a canonical anchor.
+
+    Underscores collide with spaces in both fragment modes, so both spellings
+    are checked against the caller-supplied anchors and the name map.
+    """
+    variants = (
+        (candidate, candidate.replace("_", " ")) if "_" in candidate else (candidate,)
+    )
+    if any(variant in known_fragments for variant in variants):
+        return True
+    return names_map is not None and any(variant in names_map for variant in variants)
+
+
+def _plain_fragment(
+    fragment: str,
+    *,
+    known_fragments: Set[str] = frozenset(),
+    names_map: Mapping[str, str] | None = None,
+) -> str:
+    """Decode a URL fragment from an HTML ``href`` into plain text.
+
+    Fragments reach the converter percent-encoded and, because Wikipedia's
+    stored HTML uses the legacy fragment mode, with section anchors dot-escaped
+    (``.E2.80.93`` for ``–``), but the name map, the ``_fix_name_maybe`` casing
+    heuristic, and ``_encode_fragment`` all operate on plain text.  Decoding once
+    at the ``href`` boundary keeps ingestion in step with
+    ``_rewrite_link_target``, which decodes the fragment it reads back from the
+    written Markdown; without it a fragment such as
     ``Schr%C3%B6dinger_equation`` keeps its encoding (and its uppercase hex
     digits suppress the lowercase-first-char fallback).
+
+    Legacy escapes are ambiguous with literal text because MediaWiki never
+    escapes a literal ``.``, so a legacy-decoded candidate is used only when it
+    names a known anchor: one of *known_fragments* (the source document's own
+    anchors, a target note's headings) or a *names_map* key.  Otherwise the
+    percent-decoded fragment is returned unchanged.
     """
-    return unquote(fragment)
+    percent_only = unquote(fragment)
+    candidate = _decode_legacy_fragment(fragment)
+    if candidate == percent_only:
+        return percent_only
+    if _is_known_fragment(candidate, known_fragments, names_map):
+        return candidate
+    return percent_only
 
 
 def _encode_fragment(fragment: str) -> str:
