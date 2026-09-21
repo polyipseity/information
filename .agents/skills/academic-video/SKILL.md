@@ -13,7 +13,7 @@ A material that links a video carries content no extraction captured: a slide, a
 - __The transcript is the video's content.__ Read all of it, then treat its concepts exactly as the material's other concepts: they go through topic-note reconciliation and into the notes and cards when they are durable knowledge.
 - __Never write the video into a note.__ The deferral, the fact that a video was watched, and a summary of what it shows are run state, not note content (see "Never write current status or provenance" in `academic-ingest`).
 - __A claim is not a finding.__ When the material introduces a video as a myth, a stereotype, an illustration of what mass media says, or a claim to be evaluated, the video is evidence that the claim circulates, not evidence that it is true. Never state its claims as established knowledge: record the claim as a claim, or leave it out and let whatever evaluates it in the material decide.
-- The video's own authorship — a talk, a named speaker, a publisher — is a real-world source, and it may be named in `## references` when the note incorporates its content. The deck or page that linked it is not a source.
+- The video's own authorship — a talk, a named speaker, a publisher — is a real-world source, and it may be named in `## references` when the note incorporates its content, as a list entry like any other source (see "Style conventions" in `academic-crud-topic-note`). The deck or page that linked it is not a source.
 - A video that only illustrates a point the surrounding text already states adds nothing: read it, and leave the note alone if it already carries the concept.
 
 ## Reading the video

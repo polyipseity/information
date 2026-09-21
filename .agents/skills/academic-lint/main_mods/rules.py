@@ -1768,7 +1768,8 @@ def agents_no_flashcard_markup(ctx: ValidationContext) -> list[ValidationMessage
 @RULE_REGISTRY.register()
 def header_flashcard_presence(ctx: ValidationContext) -> list[ValidationMessage]:
     """Require that each non-index, non-questions header contains flashcard markers.
-    Index and questions pages are exempt.
+    Index and questions pages are exempt, and so is a level-2 references header,
+    which cites sources instead of stating cards.
     """
     errors: list[ValidationMessage] = []
     name = ctx.path.name.lower()
@@ -1783,6 +1784,8 @@ def header_flashcard_presence(ctx: ValidationContext) -> list[ValidationMessage]
         return errors
     headers = _build_filtered_header_positions(ctx.text, ctx.ast)
     for i, (hdr_pos, lvl, h) in enumerate(headers):
+        if lvl == 2 and _normalize_heading_text(h.group(2)) == "references":
+            continue
         hdr_end = h.end()
         # Find the next header at the same or higher (lower number) level.
         next_pos: int | None = None

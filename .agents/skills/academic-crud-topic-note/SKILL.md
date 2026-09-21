@@ -263,6 +263,15 @@ Use `\[missing\]` for absent values, such as a topic with no cross-references or
 - Binomial coefficients: `\binom{n}{k}`.
 - No source numbering (theorem, definition, or chapter numbers); use topic names.
 - Never narrate the source: no `the deck`, `the slides`, `the lecture`, or `the course` as a subject, and no reporting what a source shows, asks, or stresses. State the fact, example, or question itself (see "Write the content, not the material" in `academic-ingest`).
+- `## references` lists its sources as list items, never as prose paragraphs. Licence, attribution, and any other source detail are nested bullets under the entry they qualify.
+
+    ```markdown
+    ## references
+
+    - Walker, M. (2020). [How sleep affects your emotions](https://www.youtube.com/watch?v=6F8wFkScnME) [Video]. TED.
+        - Source of the material on emotional reactivity under sleep loss.
+        - Part of the _Sleeping with Science_ series.
+    ```
 
 ## Subject-specific guidance
 

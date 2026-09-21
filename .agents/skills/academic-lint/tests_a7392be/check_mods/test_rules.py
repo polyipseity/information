@@ -783,6 +783,29 @@ def test_header_flashcard_rules_exempt_agents():
     assert not header_flashcard_separator(ctx)
 
 
+def test_header_flashcard_presence_exempts_level_two_references():
+    """A level-2 references heading cites sources instead of stating cards."""
+
+    txt = (
+        "# Topic\n\nTerm ::@:: Definition\n\n"
+        "## references\n\n- Author, A. (2026). Title. Publisher.\n"
+    )
+    ctx = make_ctx(txt, path=Path("/tmp/course/topic.md"))
+    assert not header_flashcard_presence(ctx)
+
+    # Only the level-2 heading is exempt; a deeper references heading still needs cards.
+    txt2 = (
+        "# Topic\n\nTerm ::@:: Definition\n\n"
+        "## section\n\nProse.\n\n---\n\nFlashcards for this section are as follows:\n\n"
+        "- card ::@:: answer\n\n"
+        "### references\n\n- Author, A. (2026). Title. Publisher.\n"
+    )
+    ctx2 = make_ctx(txt2, path=Path("/tmp/course/topic.md"))
+    msgs = header_flashcard_presence(ctx2)
+    assert len(msgs) == 1
+    assert "references" in msgs[0].msg
+
+
 def test_header_flashcard_sections_duplicate_rule():
     """A header block must not contain two or more flashcard section markers."""
 
