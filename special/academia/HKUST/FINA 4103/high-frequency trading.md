@@ -19,7 +19,7 @@ Flashcards for this section are as follows:
 
 ## speed and latency
 
-High-frequency traders operate at speeds of microseconds, millionths of a second, down to nanoseconds, billionths of a second. For scale, light travelling in a vacuum covers the distance from New York to Chicago in about 5 milliseconds. Fragmentation across venues, together with electronic trading, is what makes speed pay: an order that arrives at one venue can be acted on at another only until other traders react.
+High-frequency traders operate at speeds of microseconds, millionths of a second, down to nanoseconds, billionths of a second. For scale, light travelling in a vacuum covers the distance from New York to Chicago in about 5 milliseconds. Fragmentation across venues, together with electronic trading, is what makes speed pay. A stock is quoted at many venues at once, so a quote that has gone stale at one venue can still be picked off at another until the rest of the market reacts, and the fastest firm gets there first.
 
 ---
 
@@ -27,7 +27,7 @@ Flashcards for this section are as follows:
 
 - range of speeds at which high-frequency traders operate ::@:: From microseconds, millionths of a second, down to nanoseconds, billionths of a second.
 - time light travelling in a vacuum takes from New York to Chicago ::@:: About 5 milliseconds.
-- why speed is worth paying for ::@:: Venues are fragmented while trading is electronic, so an order seen at one venue can be acted on at another only until other traders react.
+- why speed is worth paying for ::@:: A stock is quoted at many venues at once while trading is electronic, so a stale quote at one venue can still be picked off at another until the rest of the market reacts.
 
 ## arms race and overinvestment
 

@@ -24,7 +24,7 @@ Flashcards for this section are as follows:
 
 ## what over-the-counter markets trade
 
-Over-the-counter markets trade non-standard securities that few investors want to hold, which makes each one illiquid: mortgages on housing, tranches of collateralized debt obligations, and synthetic derivative securities. The same arrangement lets a contract be custom-tailored, and it also carries assets as ordinary as foreign exchange and government and corporate bonds. A breakdown of inter-dealer broker revenue for 2019 puts currencies and rates at 43%, securities and security derivatives at 32%, commodities at 21%, and non-IDB online retail foreign-exchange brokerage at 4%.
+Over-the-counter markets trade non-standard securities that few investors want to hold, which makes each one illiquid: mortgages on housing, tranches of collateralized debt obligations, and synthetic derivative securities. The same arrangement lets a contract be custom-tailored, and it also carries assets as ordinary as foreign exchange and government and corporate bonds. Tradition, an inter-dealer broker, reported 2019 revenue by product group as currencies and rates at 43%, securities and security derivatives at 32%, commodities at 21%, and non-IDB online retail foreign-exchange brokerage at 4%.
 
 ---
 
@@ -33,7 +33,7 @@ Flashcards for this section are as follows:
 - assets an over-the-counter market typically trades ::@:: Non-standard securities that few investors want to hold: mortgages on housing, tranches of collateralized debt obligations, and synthetic derivative securities.
 - two properties of an over-the-counter asset ::@:: Low liquidity, because few investors want to trade it, and high flexibility, because the contract can be custom-tailored.
 - ordinary assets that also trade over the counter ::@:: Foreign exchange and government and corporate bonds.
-- inter-dealer broker revenue shares for 2019, by product group ::@:: Currencies and rates 43%, securities and security derivatives 32%, commodities 21%, and non-IDB online retail foreign-exchange brokerage 4%.
+- how an inter-dealer broker's 2019 revenue splits by product group ::@:: Tradition: currencies and rates 43%, securities and security derivatives 32%, commodities 21%, and non-IDB online retail foreign-exchange brokerage 4%.
 
 ## dealer-customer markets
 
@@ -63,7 +63,7 @@ Flashcards for this section are as follows:
 
 ## electronic communication networks
 
-An electronic communication network connects multiple market participants directly: each participant can post and observe quotes like a limit-order book, place and execute orders, and stay anonymous. Foreign exchange shows what the network changes. Before the 2000s the market was plain-vanilla over the counter; it now runs through two major electronic brokers for inter-dealer spot trading, Reuters, later Refinitiv, and Electronic Broking Services, which organize limit-order books that dealers use to submit quotes, to trade, and to take reference prices. Customer access is wider and more opaque: more than 30 secondary electronic communication networks, more than 20 dealers running a single-dealer proprietary platform, principal trading firms, and a few dark pools, where order information is not revealed to other participants.
+An electronic communication network connects multiple market participants directly: each participant can post and observe quotes like a limit-order book, place and execute orders, and stay anonymous. Foreign exchange shows what the network changes. Before the 2000s the market was plain-vanilla over the counter; it now runs through two major electronic brokers for inter-dealer spot trading, Reuters, later Refinitiv, and Electronic Broking Services, which organize limit-order books that dealers use to submit quotes, to trade, and to take reference prices. Customer access is wider and more opaque: the venue count runs to roughly 30 secondary electronic communication networks, 22 dealers running a single-dealer proprietary platform, 12 principal trading firms, and 2 or 3 dark pools, where order information is not revealed to other participants.
 
 ---
 
@@ -73,7 +73,7 @@ Flashcards for this section are as follows:
 - how foreign exchange traded before the 2000s ::@:: As plain-vanilla over-the-counter trading.
 - two major electronic brokers for inter-dealer spot foreign exchange ::@:: Reuters, later Refinitiv, and Electronic Broking Services.
 - what those two brokers organize ::@:: Limit-order books on which dealers submit quotes, trade, and take reference prices.
-- venue types serving foreign-exchange customers ::@:: More than 30 secondary electronic communication networks, more than 20 single-dealer proprietary platforms, and principal trading firms.
+- venue types serving foreign-exchange customers, and roughly how many of each ::@:: Roughly 30 secondary electronic communication networks, 22 single-dealer proprietary platforms, 12 principal trading firms, and 2 or 3 dark pools.
 - what a dark pool is ::@:: A venue where order information is not revealed to other participants.
 
 ## risks and costs

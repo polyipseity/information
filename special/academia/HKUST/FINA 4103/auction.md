@@ -23,15 +23,15 @@ Flashcards for this section are as follows:
 
 ## single-sided auctions
 
-In a single-sided auction, demand or supply is solicited at each price while the other side of the market is fixed. The standard variants are the first-price auction, also called a Dutch auction, the second-price auction, also called an English auction, and the all-pay auction. The revenue equivalence theorem links what these variants raise. The leading example is the primary market for United States Treasury securities, which runs as a first-price one-sided auction and turns over trillions of dollars a quarter.
+In a single-sided auction, demand or supply is solicited at each price while the other side of the market is fixed. The standard variants are the first-price auction, which in its Dutch form runs as a descending clock, the second-price auction, which in its English form runs as an ascending outcry, and the all-pay auction. A Dutch auction is strategically equivalent to the sealed-bid first-price auction and an English auction to the sealed-bid second-price auction, under independent private values. The revenue equivalence theorem links what these variants raise. The leading example is the primary market for United States Treasury securities, which runs as a first-price one-sided auction and turns over trillions of dollars a quarter.
 
 ---
 
 Flashcards for this section are as follows:
 
 - single-sided auction ::@:: One side of the market is fixed, and demand or supply is solicited at each price.
-- another name for a first-price auction ::@:: A Dutch auction.
-- another name for a second-price auction ::@:: An English auction.
+- Dutch auction ::@:: The descending-clock form of a first-price auction, strategically equivalent to its sealed-bid version under independent private values.
+- English auction ::@:: The ascending-outcry form of a second-price auction, strategically equivalent to its sealed-bid version under independent private values.
 - third variant of a single-sided auction ::@:: The all-pay auction.
 - revenue equivalence theorem ::@:: A theorem relating what the forms of a single-sided auction raise.
 - leading example of a single-sided auction ::@:: The primary market for United States Treasury securities, a first-price one-sided auction turning over trillions of dollars a quarter.
@@ -107,7 +107,7 @@ Flashcards for this section are as follows:
 
 Publishing real-time indicative information lets traders game a close auction. The London Stock Exchange publishes that information during its closing auctions, and for less liquid securities the end time is known, so a trader can post and cancel orders to flush out other traders before the end time at no penalty. The result was volatile closings and price inefficiency, and in 2003 a random end time was introduced in response.
 
-Sniping at the close shows up in the data. Huge sell orders arrived at 4:09:57 in the afternoon, and the indicative closing price plunged from 37 dollars to 33 dollars (Park et al., 2022, JFM).
+Sniping at the close shows up in the data. On the Hong Kong Stock Exchange, whose standard closing call auction ran from 2008 until it was suspended ten months later over suspected manipulation, huge sell orders arrived at 4:09:57 in the afternoon, in the auction's final seconds, and the indicative closing price plunged from 37 dollars to 33 dollars (Park, Suen, and Wan, 2022, Journal of Financial Markets). The attacks clustered around derivative expirations, which supplied the incentive, and prices tended to revert the following day.
 
 ---
 
@@ -117,4 +117,6 @@ Flashcards for this section are as follows:
 - how a trader flushes out other traders in a close auction ::@:: By posting and cancelling orders before the end time, which carries no penalty.
 - what that gaming produced ::@:: Volatile closings and price inefficiency.
 - change introduced by the London Stock Exchange in 2003 ::@:: A random end time for the close auction.
-- what sniping at the close looks like in the data ::@:: Huge sell orders arrived at 4:09:57 in the afternoon and the indicative closing price plunged from 37 dollars to 33 dollars (Park et al., 2022, Journal of Financial Markets).
+- what sniping at the close looks like in the data ::@:: On the Hong Kong Stock Exchange, huge sell orders arrived at 4:09:57 in the afternoon, in the closing call auction's final seconds, and the indicative closing price plunged from 37 dollars to 33 dollars (Park, Suen, and Wan, 2022, Journal of Financial Markets).
+- when the sniping attacks occurred, and what followed ::@:: They clustered around derivative expirations, which supplied the incentive, and prices tended to revert the following day.
+- what happened to the standard closing call auction behind this data ::@:: The Hong Kong Stock Exchange ran it from 2008 and suspended it ten months later over suspected manipulation.

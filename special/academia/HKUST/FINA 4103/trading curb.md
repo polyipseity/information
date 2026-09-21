@@ -34,13 +34,18 @@ Flashcards for this section are as follows:
 
 Whether a halt helps is contested. Chen et al. (2024, Journal of Finance), "The Dark Side of Circuit Breakers", finds that a trading halt makes the market more volatile and more fragile.
 
-Through the call auction that runs during a halt on the London Stock Exchange, trades per share per minute fall to nearly zero for high-frequency and other algorithmic traders. Hybrid brokers, whose trading had spiked to about 90 before the halt, spike past 130 just after it, and high-frequency trading returns at about 32. Volatility, plotted on a logarithmic scale, is near zero through the call auction and then spikes to about 0.0044 on the London Stock Exchange and 0.0031 on multilateral trading facilities, before decaying.
+Trading collapses during the halt and rebounds past its usual level immediately afterwards. Average trades per share per minute on the London Stock Exchange fall to nearly zero for hybrid investment banks, high-frequency traders, and other algorithmic firms alike while the halt's call auction runs, and every group then spikes above its pre-halt peak: hybrid investment banks from about 85 to about 133, high-frequency traders from about 29 to about 34, and other algorithmic firms from about 4 to about 13. Hybrid investment banks trade more than the high-frequency traders, who trade more than the other algorithmic firms, at every point around the halt, and each series decays back towards its baseline over the following hour.
+
+Volatility behaves the same way. Plotted on a logarithmic scale it climbs into the halt, collapses to near zero through the call auction, and then spikes to about 0.0053 on the London Stock Exchange and 0.0031 on multilateral trading facilities before decaying.
 
 ---
 
 Flashcards for this section are as follows:
 
 - finding of Chen et al. (2024, Journal of Finance), "The Dark Side of Circuit Breakers" ::@:: A trading halt makes the market more volatile and more fragile.
-- what trades per share per minute do during the call auction of a halt ::@:: They fall to nearly zero for high-frequency and other algorithmic traders.
-- what hybrid brokers do around a halt ::@:: Their trading spikes to about 90 trades per share per minute before the halt and past 130 just after it, while high-frequency trading returns at about 32.
-- what volatility does around a halt ::@:: It is near zero through the call auction, then spikes to about 0.0044 on the London Stock Exchange and 0.0031 on multilateral trading facilities before decaying.
+- what happens to trading while a halt's call auction runs ::@:: Average trades per share per minute fall to nearly zero for hybrid investment banks, high-frequency traders, and other algorithmic firms alike.
+- hybrid investment bank trading around a halt ::@:: About 85 trades per share per minute before the halt, nearly zero through the call auction, and about 133 just after it.
+- high-frequency trading around a halt ::@:: About 29 trades per share per minute before the halt, nearly zero through the call auction, and about 34 just after it.
+- other algorithmic trading around a halt ::@:: About 4 trades per share per minute before the halt, nearly zero through the call auction, and about 13 just after it.
+- ranking of the three groups by trades per share per minute ::@:: Hybrid investment banks first, high-frequency traders second, other algorithmic firms last, at every point around the halt.
+- what volatility does around a halt ::@:: It climbs into the halt, collapses to near zero through the call auction, spikes to about 0.0053 on the London Stock Exchange and 0.0031 on multilateral trading facilities just after it, then decays.

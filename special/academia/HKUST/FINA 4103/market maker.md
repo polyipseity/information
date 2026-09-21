@@ -34,7 +34,7 @@ Flashcards for this section are as follows:
 
 ## designated market maker
 
-A designated market maker is assigned a specific stock and holds the double auctions for it as a market maker. The role is not a profit centre: a designated market maker does not buy and sell for profit and is prohibited from outbidding or offering against floor traders for profit. New York Stock Exchange Rule 12a charges it with maintaining a fair and orderly market, and it receives orders from traders, executes them as an auctioneer, and intervenes by actively buying and selling when the market faces a disturbance.
+A designated market maker is assigned a specific stock and holds the double auctions for it as a market maker. The role is not a profit centre: a designated market maker does not buy and sell for profit and is prohibited from outbidding or offering against floor traders for profit. New York Stock Exchange Rule 104 charges it with trading for its own account to help maintain a fair and orderly market (the lecture slides give the citation as "code 12a", which does not match the current rule number), and it receives orders from traders, executes them as an auctioneer, and intervenes by actively buying and selling when the market faces a disturbance.
 
 Floor traders stand between part of the order flow and the book. Regular traders, brokers, and dealers either place orders directly into the limit-order book or place them with a floor trader, and a floor trader can internalize an order or pass it to the book. The designated market maker interacts with the floor traders and feeds the same book.
 
@@ -44,7 +44,7 @@ Flashcards for this section are as follows:
 
 - what a designated market maker is assigned ::@:: A specific stock.
 - how a designated market maker may trade for its own account ::@:: It does not buy and sell for profit, and it is prohibited from outbidding or offering against floor traders for profit.
-- duty of a designated market maker, and where it is written ::@:: To maintain a fair and orderly market, under New York Stock Exchange Rule 12a.
+- duty of a designated market maker, and where it is written ::@:: To trade for its own account to help maintain a fair and orderly market, under New York Stock Exchange Rule 104 (the lecture slides give "code 12a").
 - what a designated market maker does when the market faces a disturbance ::@:: It intervenes by actively buying and selling.
 - how a designated market maker handles orders ::@:: It receives orders from traders and executes them as an auctioneer.
 - two routes an ordinary order takes in a specialist market ::@:: Directly into the limit-order book, or through a floor trader.
