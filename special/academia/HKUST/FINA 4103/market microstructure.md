@@ -16,6 +16,18 @@ Flashcards for this section are as follows:
 
 - overview ::@:: The branch of finance that analyses how different market structures affect market quality.
 
+## dealership and auction markets
+
+The term _microstructure_ was coined by Mark Garman in 1976, in the _Journal of Financial Economics_, in a paper that treats market orders as a Poisson process and sets out to describe the moment-to-moment trading activity in asset markets. The paper puts forward two basic models of a market, dealership markets and auction markets, together with their variants.
+
+---
+
+Flashcards for this section are as follows:
+
+- who coined the term "microstructure", and when ::@:: Mark Garman, in 1976, in the Journal of Financial Economics.
+- what Garman's model treats market orders as ::@:: A Poisson process.
+- the two basic models of a market the paper puts forward ::@:: Dealership markets and auction markets, with their variants.
+
 ## market quality
 
 Market quality is what a structure is judged by, and it rests on two pillars. The first is _liquidity_, the ability to trade without paying much or moving the price. The second is _price discovery_, also called price efficiency, the speed with which the price incorporates information.

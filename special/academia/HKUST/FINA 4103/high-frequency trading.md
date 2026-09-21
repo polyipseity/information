@@ -31,7 +31,7 @@ Flashcards for this section are as follows:
 
 ## arms race and overinvestment
 
-Because speed decides who wins, firms invest enormous sums in special-purpose technology and ever-faster connections, a scale of spending large enough to be called overinvestment. Whether faster trading and execution is good for the market at all is an open question.
+Because speed decides who wins, firms invest enormous sums in special-purpose technology and ever-faster connections, a scale of spending large enough to be called overinvestment. The race also leaves behind _phantom liquidity_: quotes that appear in the book and are gone before anyone can trade against them. Whether faster trading and execution is good for the market at all is an open question.
 
 The race is visible in the route between Chicago and New York, where each generation of the link bought a fraction of a millisecond. The original cable, buried in the mid 1980s along the rail lines, ran about 1,000 miles and took 14.5 milliseconds. Spread Networks' buried fiber of August 2010 took a new right of way over 825 miles for 13.1 milliseconds. McKay Brothers and Tradeworx then left fiber for microwave, which is faster than photons in fiber, reaching 744 miles in 9 milliseconds in July 2012 and 731 miles in 8.5 milliseconds in the winter of 2012. For comparison, a photon needs roughly 5 milliseconds in a vacuum to cover the same ground.
 
@@ -41,6 +41,7 @@ Flashcards for this section are as follows:
 
 - name for the heavy spending on speed ::@:: Overinvestment.
 - what firms invest in to win the speed race ::@:: Special-purpose technology and ever-faster connections.
+- phantom liquidity ::@:: Quotes that appear in the book and disappear before anyone can trade against them, produced by the race for speed.
 - unresolved question about faster execution ::@:: Whether faster trading and execution is good for the market at all.
 - what each generation of the Chicago to New York link bought ::@:: A fraction of a millisecond: 14.5 milliseconds by cable in the mid 1980s, 13.1 by fiber in 2010, then 9 and 8.5 by microwave in 2012.
 - why microwave replaced fiber in the speed race ::@:: Microwaves travel faster than photons in fiber, so the signal arrives sooner.

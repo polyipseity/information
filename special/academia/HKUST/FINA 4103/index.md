@@ -28,13 +28,18 @@ FINA 4103 is an undergraduate course in financial markets trading and structure 
 
 ## children
 
+- [auction](auction.md)
+- [continuous trading](continuous%20trading.md)
 - [finance](finance.md)
 - [financial system](financial%20system.md)
 - [high-frequency trading](high-frequency%20trading.md)
 - [market liquidity](market%20liquidity.md)
+- [market maker](market%20maker.md)
 - [market microstructure](market%20microstructure.md)
 - [market structure (finance)](market%20structure%20(finance).md)
+- [over-the-counter (finance)](over-the-counter%20(finance).md)
 - [price discovery](price%20discovery.md)
+- [trading curb](trading%20curb.md)
 
 ## logistics
 
@@ -85,6 +90,7 @@ FINA 4103 is an undergraduate course in financial markets trading and structure 
     - understand the impact of recent developments in financial technologies
     - analyse market quality under different market structures, trading rules, and market policies
 - notes
+    - the course focuses on continuous markets: periodic auctions and over-the-counter markets are often illiquid and too heterogeneous to capture, and trading outside trading hours is not analysed
     - the first half, before the midterm, covers institutional details of various markets, and the second half covers theoretical frameworks that describe and measure key market features and evaluate market regulations and policies
     - a background in statistics (random variables, expectation, variance, covariance, sample versus population data, linear regression) and in algebra, calculus, and optimization (economic models of financial markets, first-order derivatives) is expected
     - the published class schedule is tentative and subject to change
@@ -122,6 +128,44 @@ FINA 4103 is an undergraduate course in financial markets trading and structure 
     - [§ speed and latency](high-frequency%20trading.md#speed%20and%20latency)
     - [§ arms race and overinvestment](high-frequency%20trading.md#arms%20race%20and%20overinvestment)
     - [§ market manipulation](high-frequency%20trading.md#market%20manipulation)
+
+## week 1 lecture 2
+
+- datetime: 2026-09-03T15:00:00+08:00/2026-09-03T16:20:00+08:00, PT1H20M
+- venue: Rm 2406, Lift 17-18
+- topic: types of market; over-the-counter markets and central clearing; auctions and fixing; circuit breakers; dealer and specialist markets; continuous trading
+- [market microstructure](market%20microstructure.md)
+    - [§ dealership and auction markets](market%20microstructure.md#dealership%20and%20auction%20markets)
+- [market structure (finance)](market%20structure%20(finance).md)
+    - [§ types of market](market%20structure%20(finance).md#types%20of%20market)
+- [over-the-counter (finance)](over-the-counter%20(finance).md)
+    - [§ what over-the-counter markets trade](over-the-counter%20(finance).md#what%20over-the-counter%20markets%20trade)
+    - [§ dealer-customer markets](over-the-counter%20(finance).md#dealer-customer%20markets)
+    - [§ inter-dealer markets](over-the-counter%20(finance).md#inter-dealer%20markets)
+    - [§ electronic communication networks](over-the-counter%20(finance).md#electronic%20communication%20networks)
+    - [§ risks and costs](over-the-counter%20(finance).md#risks%20and%20costs)
+    - [§ central clearing](over-the-counter%20(finance).md#central%20clearing)
+    - [§ fragmentation of the venues](over-the-counter%20(finance).md#fragmentation%20of%20the%20venues)
+- [auction](auction.md)
+    - [§ single-sided auctions](auction.md#single-sided%20auctions)
+    - [§ double auctions](auction.md#double%20auctions)
+    - [§ fixing](auction.md#fixing)
+    - [§ opening and closing auctions](auction.md#opening%20and%20closing%20auctions)
+    - [§ gaming an auction](auction.md#gaming%20an%20auction)
+- [trading curb](trading%20curb.md)
+    - [§ halting and reopening](trading%20curb.md#halting%20and%20reopening)
+    - [§ effects of halts](trading%20curb.md#effects%20of%20halts)
+- [market maker](market%20maker.md)
+    - [§ dealer and specialist markets](market%20maker.md#dealer%20and%20specialist%20markets)
+    - [§ designated market maker](market%20maker.md#designated%20market%20maker)
+    - [§ registered market maker](market%20maker.md#registered%20market%20maker)
+- [continuous trading](continuous%20trading.md)
+    - [§ price-time priority](continuous%20trading.md#price-time%20priority)
+    - [§ discrete trading](continuous%20trading.md#discrete%20trading)
+    - [§ frequent batch auction](continuous%20trading.md#frequent%20batch%20auction)
+    - [§ advantages and drawbacks](continuous%20trading.md#advantages%20and%20drawbacks)
+- [high-frequency trading](high-frequency%20trading.md)
+    - [§ arms race and overinvestment](high-frequency%20trading.md#arms%20race%20and%20overinvestment)
 
 ## week 3 lecture 2
 

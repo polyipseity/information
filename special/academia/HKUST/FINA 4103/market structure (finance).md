@@ -18,6 +18,21 @@ Flashcards for this section are as follows:
 - overview ::@:: The trading architecture of a market: its rules, available order types, execution method, and transparency.
 - what market structure decides ::@:: How a trade happens, and therefore what a given trade costs.
 
+## types of market
+
+Markets differ in timing, which is speed, in order matching and handling, in flexibility and fungibility, in liquidity, and in pricing. Broadly they fall into three types: over-the-counter markets, fixing and auctions, and continuous trading with a central limit-order book. A pre-IPO stock is not publicly listed, is held by management, founders, and private investors, and changes hands by bilateral negotiation, which raises the question of how to compare its price efficiency with that of a listed stock. A bond is auctioned in the primary market when it is first issued and then traded over the counter in the secondary market. Whether the auction achieves higher market quality than a centralized limit-order book, and how over-the-counter trading compares, are open questions. A single stock can trade at venues that use different protocols, such as a dealer market and a double auction.
+
+---
+
+Flashcards for this section are as follows:
+
+- axes along which markets differ ::@:: Timing, that is speed; order matching and handling; flexibility; fungibility; liquidity; and pricing.
+- the three broad types of market ::@:: Over-the-counter markets, fixing and auctions, and continuous trading with a central limit-order book.
+- how a pre-IPO stock is held and traded ::@:: It is not publicly listed, is held by management, founders, and private investors, and changes hands by bilateral negotiation.
+- how a bond is traded at each stage ::@:: Auctioned in the primary market when it is first issued, and traded over the counter in the secondary market afterwards.
+- question raised by comparing an auction with a centralized limit-order book ::@:: Whether the auction achieves higher market quality, and how over-the-counter trading compares.
+- how one stock can face different trading protocols ::@:: Different venues can use different methods, such as a dealer market and a double auction.
+
 ## centralized markets
 
 In a centralized market, trading happens on an exchange and participants place orders into a limit-order book, which matches them much like a double-sided auction. Search frictions are absent or very small and the process is highly transparent. The trading structure of major stocks is centralized.
