@@ -623,14 +623,3 @@ Attachment setup uses `academic-crud-attachments` as a post-classification helpe
 Reading, judging, and verifying images uses `academic-vision` as a helper wherever the material carries pictures: page renders, embedded figures, attached crops, and the drawings the notes generate.
 
 Reading a linked video's content, deferring the ones without usable subtitles, and batching the request that gets them watched uses `academic-video` as a helper wherever the material carries a video link.
-
-## References
-
-- All `academic-crud-*` skills for dispatch targets
-- `academic-crud-attachments` for attachment directory setup
-- `academic-vision` for looking at, classifying, and verifying images, including the generated drawings
-- `academic-video` for reading a linked video's content from its subtitles, deferring the ones without them, and asking the user to have those watched
-- `academic-deprecated` for legacy pattern migration
-- `create-flashcards` for flashcard markup guidance
-- `humanizer` for the AI-writing patterns the humanizer pass removes
-- `academic-lint` for validation
