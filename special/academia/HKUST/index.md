@@ -58,6 +58,7 @@ tags:
 - [FINA 3810](FINA%203810/index.md)
 - [FINA 4103](FINA%204103/index.md)
 - [GNED 2510](GNED%202510/index.md)
+- [MGMT 2010](MGMT%202010/index.md)
 - [HUMA 3810](HUMA%203810/index.md)
 - [ISDN 0003](ISDN%200003/index.md)
 - [ISOM 2020](ISOM%202020/index.md)
@@ -174,6 +175,7 @@ tags:
 - [ELEC 2400](ELEC%202400/index.md): Electronic Circuits (4 credits)
 - [ELEC 3120](ELEC%203120/index.md): Computer Communication Networks (3 credits)
 - [FINA 4103](FINA%204103/index.md): Financial Markets Trading and Structure (3 credits)
+- [MGMT 2010](MGMT%202010/index.md): Business Ethics and the Individual (2 credits)
 - [MATH 3423](MATH%203423/index.md): Statistical Inference (3 credits)
 - [PHYS 2022](PHYS%202022/index.md): Modern Physics (3 credits)
 - [SOSC 1960](SOSC%201960/index.md): Introduction to Psychology
