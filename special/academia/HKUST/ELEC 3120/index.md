@@ -29,6 +29,7 @@ ELEC 3120 is an introductory course in computer networks, emphasizing the perfor
 ## children
 
 - [assignments/](assignments/index.md)
+- [HTTP](HTTP.md)
 - [Mathis equation](Mathis%20equation.md)
 - [TCP congestion control](TCP%20congestion%20control.md)
 - [TCP loss recovery](TCP%20loss%20recovery.md)
@@ -36,6 +37,7 @@ ELEC 3120 is an introductory course in computer networks, emphasizing the perfor
 - [bandwidth (computing)](bandwidth%20(computing).md)
 - [computer network](computer%20network.md)
 - [flow control (data)](flow%20control%20(data).md)
+- [head-of-line blocking](head-of-line%20blocking.md)
 - [network delay](network%20delay.md)
 - [packet loss](packet%20loss.md)
 - [sliding window protocol](sliding%20window%20protocol.md)
@@ -150,6 +152,17 @@ ELEC 3120 is an introductory course in computer networks, emphasizing the perfor
 - datetime: 2026-09-07T13:30:00+08:00/2026-09-07T14:50:00+08:00, PT1H20M
 - venue: LTL, CYT Bldg
 - topic: the Web
+- [HTTP](HTTP.md)
+    - [§ client-server model](HTTP.md#client-server%20model)
+    - [§ request and response messages](HTTP.md#request%20and%20response%20messages)
+    - [§ persistent connections](HTTP.md#persistent%20connections)
+    - [§ pipelining](HTTP.md#pipelining)
+    - [§ HTTP/2](HTTP.md#http2)
+    - [§ HTTP/3](HTTP.md#http3)
+- [head-of-line blocking](head-of-line%20blocking.md)
+    - [§ application-layer HOL blocking in HTTP](head-of-line%20blocking.md#application-layer%20hol%20blocking%20in%20http)
+    - [§ transport-layer HOL blocking in TCP](head-of-line%20blocking.md#transport-layer%20hol%20blocking%20in%20tcp)
+    - [§ fixes across protocol generations](head-of-line%20blocking.md#fixes%20across%20protocol%20generations)
 
 ## week 2 lecture 2
 
