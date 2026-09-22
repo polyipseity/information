@@ -215,7 +215,7 @@ The pass moves boundaries and headings; it never drops a fact or a card. Report 
      ```
 
    - If the topic spans several sessions, add links under each, listing only the sections that session's material covered.
-9. __Humanizer pass:__ load the `humanizer` skill, then sweep the prose and the flashcards separately before validating: the H1 intro and each section's prose first, then every card prompt and answer (see "Humanizer pass" in `academic-ingest`).
+9. __Humanizer pass:__ sweep the prose and flashcards separately before validating: H1 intro and section prose first, then card prompts and answers (see "Humanizer pass" in `academic-ingest`).
 10. __Validate:__ run `academic-lint` on the created file.
 
 ### Read
@@ -347,7 +347,7 @@ Omit the indented section links when the topic has no `##` sections.
 ## References
 
 - `create-flashcards` flashcard markup patterns
-- `humanizer` for the AI-writing patterns the humanizer pass removes (see "Humanizer pass" in `academic-ingest`)
+- `humanizer` for the AI-writing patterns it removes (see "Humanizer pass" in `academic-ingest`)
 - `academic-lint` validation
 - `academic-crud-transcludes` full Wikipedia article inclusion
 - `academic-crud-topic-note/find_wikipedia.py` canonical title discovery script

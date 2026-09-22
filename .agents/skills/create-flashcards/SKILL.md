@@ -69,7 +69,7 @@ Inline comments such as `<!-- check: ignore-line[...]: equation on left -->` are
    - Suggest inline clozes by default; rewrite to `::@::` or `:@:` only when the user requests QA style or an example clearly uses that format.
    - Preserve Markdown, KaTeX, links, and line ordering. Handle lists item by item unless an example shows a combined deletion.
 5. __Apply the edits directly__ in the file and return the modified text. Provide alternate versions or explanations only when asked.
-6. __Run the humanizer pass__ after loading the `humanizer` skill, over the new cards and the prose they came from: cut prompts that repeat their answer, answers that repeat their prompt, filler, and trailing justification clauses. For clozes, keep the hint words that make the deletion answerable. Preserve every fact, the cloze/QA markup, and LaTeX (see "Humanizer pass" in `academic-ingest`).
+6. __Run the humanizer pass__ over the new cards and the prose they came from: cut prompts that repeat their answer, answers that repeat their prompt, filler, and trailing justification clauses; keep the hint words that make each cloze answerable. Preserve facts, cloze/QA markup, and LaTeX (see "Humanizer pass" in `academic-ingest`).
 
 ## Cloze creation methodology
 

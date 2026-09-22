@@ -141,12 +141,12 @@ Every line inside a blockquote must begin with `>`, blank lines included.
 - `{@{ }@}` must never appear inside `$…$` or `$$…$$`; wrap from outside
 - Place `}@}` before trailing punctuation
 - Progressive difficulty: simple case first, then extend
-- __Humanizer pass:__ load the `humanizer` skill, then run it over the solution and explanation prose after inserting clozes. Keep the hint words that make each deletion answerable and drop the filler around them; text quoted from the official question stays verbatim (see "Humanizer pass" in `academic-ingest`).
+- __Humanizer pass:__ run the humanizer pass over solution and explanation prose after inserting clozes, keeping hint words that make each deletion answerable; quoted question text stays verbatim (see "Humanizer pass" in `academic-ingest`).
 
 ## References
 
 - `create-flashcards` for cloze methodology and patterns
-- `humanizer` for the AI-writing patterns the humanizer pass removes (see "Humanizer pass" in `academic-ingest`)
+- `humanizer` for the AI-writing patterns it removes (see "Humanizer pass" in `academic-ingest`)
 - `academic-crud-index` for parent index updates
 - `academic-crud-attachments` for questions-level attachments
 - `academic-video` for the content of a video the question material links

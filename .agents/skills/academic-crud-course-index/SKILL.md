@@ -425,7 +425,7 @@ When several announcements target the same session, list them as separate blockq
 
 ## Validation
 
-Run the humanizer pass after loading the `humanizer` skill, over new or changed prose and flashcards, focusing on the course description, the `## overview` bullets, and the session `topic:` lines; an index is a reference, not a summary (see "Humanizer pass" in `academic-ingest`). Then run `academic-lint`, passing the changed files when known and otherwise the whole course folder.
+Run the humanizer pass over new or changed prose and flashcards, focusing on the course description, `## overview` bullets, and session `topic:` lines (see "Humanizer pass" in `academic-ingest`). Then run `academic-lint`, passing the changed files when known.
 
 ## Missing data
 
@@ -457,7 +457,7 @@ See [special.instructions.md](../../instructions/special.instructions.md#missing
 ## References
 
 - `academic-crud-course-index/course-template.md` scaffold template
-- `humanizer` for the AI-writing patterns the humanizer pass removes (see "Humanizer pass" in `academic-ingest`)
+- `humanizer` for the AI-writing patterns it removes (see "Humanizer pass" in `academic-ingest`)
 - `academic-lint` validation
 - `academic-crud-index` subdirectory index format
 - `academic-crud-attachments` attachments directories at any level

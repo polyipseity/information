@@ -103,7 +103,7 @@ The calling skill supplies the target path, child name, and child link path; thi
 
 ## Validation
 
-Run the humanizer pass after loading the `humanizer` skill, over new or changed prose and flashcards, focusing on the description paragraph and any prose above `## children`; the rest of an index is links and metadata (see "Humanizer pass" in `academic-ingest`). Then run `academic-lint`. Pass the changed files when known; otherwise lint the whole course folder.
+Run the humanizer pass over new or changed prose and flashcards, focusing on the description paragraph and prose above `## children` (see "Humanizer pass" in `academic-ingest`). Then run `academic-lint`, passing changed files when known.
 
 ## References
 
@@ -111,5 +111,5 @@ Run the humanizer pass after loading the `humanizer` skill, over new or changed 
 - `academic-crud-course-index` for subdirectory and index creation
 - `academic-crud-submission` for adding submission pages to indexes
 - `academic-crud-question` for adding question pages to indexes
-- `humanizer` for the AI-writing patterns the humanizer pass removes (see "Humanizer pass" in `academic-ingest`)
+- `humanizer` for the AI-writing patterns it removes (see "Humanizer pass" in `academic-ingest`)
 - `academic-lint` for validation
