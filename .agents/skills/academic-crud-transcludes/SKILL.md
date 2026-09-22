@@ -36,7 +36,6 @@ description: Manage transcludes/ directories containing Wikipedia articles inclu
 
 1. Edit the `.md` file directly.
 2. Preserve the Wikipedia source structure and cloze markup.
-3. Run `academic-lint` after editing.
 
 ## Deleting a transclude
 
@@ -69,7 +68,7 @@ description: Manage transcludes/ directories containing Wikipedia articles inclu
 
 ## Validation
 
-Run `academic-lint` after every edit. Pass the changed files when known; otherwise lint the whole course folder.
+Run `academic-lint` after every edit, passing changed files when known.
 
 The article body is verbatim, so the humanizer pass leaves it untouched; anything you write around it, such as a description in the course `index.md`, is yours to humanize (see "Humanizer pass" in `academic-ingest`).
 

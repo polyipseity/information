@@ -460,6 +460,6 @@ See [special.instructions.md](../../instructions/special.instructions.md#missing
 - `humanizer` for the AI-writing patterns it removes (see "Humanizer pass" in `academic-ingest`)
 - `academic-lint` validation
 - `academic-crud-index` subdirectory index format
-- `academic-crud-attachments` attachments directories at any level
-- `academic-crud-transcludes` Wikipedia articles included by reference
-- `create-flashcards` exam error report flashcards
+- `academic-crud-attachments` attachment directories
+- `academic-crud-transcludes` Wikipedia article inclusion
+- `create-flashcards` exam flashcards

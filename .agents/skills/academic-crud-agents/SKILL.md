@@ -55,7 +55,7 @@ Show a course's current agent instructions.
 
 ## Validation
 
-Run `academic-lint` after every edit. Pass the changed files when known; otherwise lint the whole course folder.
+Run `academic-lint` after every edit, passing changed files when known.
 
 Give the rules you write the humanizer pass before validating: they are prose, and the AI patterns in the catalogue read as noise in a course's own instruction file (see "Humanizer pass" in `academic-ingest`).
 

@@ -101,7 +101,7 @@ Questions-level attachments (COMP 2711H):
 
 ## Validation
 
-Run `academic-lint` after every edit. Pass the changed files when known; otherwise lint the whole course folder.
+Run `academic-lint` after every edit, passing changed files when known.
 
 Alt text and any description of an attachment are prose: give them the humanizer pass before validating (see "Humanizer pass" in `academic-ingest`).
 
@@ -110,5 +110,5 @@ Alt text and any description of an attachment are prose: give them the humanizer
 - `academic-crud-course-index` for course-root attachments in `## children`
 - `academic-crud-submission` for submission-level attachments
 - `academic-crud-question` for questions-level attachments
-- `academic-lint` for validation (rule `index_children_missing_index` forbids `index.md` in `attachments/`)
-- `academic-vision` for looking at a drawing, a figure, or a crop before it reaches a note, and for the checklist it has to pass
+- `academic-lint` for validation
+- `academic-vision` for the visual checklist an image must pass

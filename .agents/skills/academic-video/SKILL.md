@@ -102,7 +102,7 @@ A video whose content the user cannot supply stays uncovered, and the report say
 
 ## References
 
-- `academic-ingest` for where video handling sits in the ingestion pipeline and how the request is batched
-- `academic-crud-topic-note` for reconciling the concepts a transcript carries
-- `create-flashcards` for carding them
+- `academic-ingest` for video handling in the ingestion pipeline
+- `academic-crud-topic-note` for concept reconciliation
+- `create-flashcards` for carding
 - `academic-lint` for validation

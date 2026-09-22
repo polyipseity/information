@@ -495,9 +495,9 @@ Run the humanizer pass over new or changed prose and flashcards, focusing on you
 
 ## References
 
-- `convert_canvas_submission.py` for Canvas HTML to `submission.yml` / `lab.yml` / `tutorial.yml` / `lecture.yml`
+- `convert_canvas_submission.py` for Canvas HTML extraction
 - `academic-crud-index` for parent index updates
 - `academic-crud-attachments` for submission-level attachments
-- `academic-video` for the content of a video the material links
+- `academic-video` for video content
 - `humanizer` for the AI-writing patterns it removes (see "Humanizer pass" in `academic-ingest`)
 - `academic-lint` for validation

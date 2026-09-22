@@ -83,7 +83,7 @@ Report what the image shows, what the defect is, and where it was seen (path, an
 
 ## References
 
-- `academic-ingest` for where images enter the flow ("Page image handling", "Definitional drawings", "Embedded image extraction")
-- `academic-crud-attachments` for the drawing's home, generator script, naming, and embedding rules
+- `academic-ingest` for image handling ("Page image handling", "Definitional drawings", "Embedded image extraction")
+- `academic-crud-attachments` for attachment setup and naming
 - `create-flashcards` for diagram cards in both directions
-- `academic-lint` for the deterministic checks that follow the visual ones
+- `academic-lint` for validation
