@@ -104,7 +104,7 @@ Flashcards for this section are as follows:
 
 ## terminals and ports
 
-A circuit element has at least two external connections, called terminals. A $1.5\text{ V}$ AA battery is the simplest case, with a positive terminal and a negative terminal. Two terminals of a circuit constitute a port, either an input port or an output port. A one-port element uses the same pair of terminals as its input port and its output port.
+A circuit element has at least two external connections, called terminals. A $1.5\text{ V}$ AA battery is the simplest case, with a positive terminal and a negative terminal. Two terminals of a circuit constitute a port, either an input port or an output port. A one-port element uses the same pair of terminals as its input port and its output port. Which terminals are joined to which, and through which elements, is the circuit's [topology](circuit%20topology%20(electrical).md), read off as its nodes, branches, paths, loops, and meshes.
 
 ---
 

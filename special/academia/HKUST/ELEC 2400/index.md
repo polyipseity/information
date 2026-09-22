@@ -30,13 +30,25 @@ ELEC 2400 is an undergraduate course in electronic circuits at HKUST covering fu
 
 - [attachments/](attachments/)
 - [tutorials/](tutorials/index.md)
+- [Kirchhoff's circuit laws](Kirchhoff%27s%20circuit%20laws.md)
+- [Norton's theorem](Norton%27s%20theorem.md)
 - [Ohm's law](Ohm%27s%20law.md)
+- [Thévenin's theorem](Th%C3%A9venin%27s%20theorem.md)
+- [circuit topology (electrical)](circuit%20topology%20(electrical).md)
+- [current divider](current%20divider.md)
 - [current source](current%20source.md)
 - [dependent source](dependent%20source.md)
 - [electric charge](electric%20charge.md)
 - [electric current](electric%20current.md)
 - [electric power](electric%20power.md)
 - [electrical network](electrical%20network.md)
+- [maximum power transfer theorem](maximum%20power%20transfer%20theorem.md)
+- [mesh analysis](mesh%20analysis.md)
+- [nodal analysis](nodal%20analysis.md)
+- [series and parallel circuits](series%20and%20parallel%20circuits.md)
+- [source transformation](source%20transformation.md)
+- [superposition principle](superposition%20principle.md)
+- [voltage divider](voltage%20divider.md)
 - [voltage source](voltage%20source.md)
 - [voltage](voltage.md)
 
@@ -96,6 +108,19 @@ ELEC 2400 is an undergraduate course in electronic circuits at HKUST covering fu
         - [electrical network](electrical%20network.md)
         - [voltage source](voltage%20source.md)
         - [voltage](voltage.md)
+    - DC analysis
+        - [Kirchhoff's circuit laws](Kirchhoff%27s%20circuit%20laws.md)
+        - [Norton's theorem](Norton%27s%20theorem.md)
+        - [Thévenin's theorem](Th%C3%A9venin%27s%20theorem.md)
+        - [circuit topology (electrical)](circuit%20topology%20(electrical).md)
+        - [current divider](current%20divider.md)
+        - [maximum power transfer theorem](maximum%20power%20transfer%20theorem.md)
+        - [mesh analysis](mesh%20analysis.md)
+        - [nodal analysis](nodal%20analysis.md)
+        - [series and parallel circuits](series%20and%20parallel%20circuits.md)
+        - [source transformation](source%20transformation.md)
+        - [superposition principle](superposition%20principle.md)
+        - [voltage divider](voltage%20divider.md)
 - intended learning outcomes
     - apply the fundamental circuit concepts to compute the output of basic electronic circuits in response to a DC input signal
     - recognize sinusoidal steady state characteristics with phasors and compute the output of basic electronic circuits in response to an AC input
@@ -201,6 +226,103 @@ ELEC 2400 is an undergraduate course in electronic circuits at HKUST covering fu
         - [§ current-controlled current source](dependent%20source.md#current-controlled%20current%20source)
         - [§ voltage-controlled current source](dependent%20source.md#voltage-controlled%20current%20source)
         - [§ current-controlled voltage source](dependent%20source.md#current-controlled%20voltage%20source)
+
+## week 2 lecture 2
+
+- datetime: 2026-09-09T09:00:00+08:00/2026-09-09T10:20:00+08:00
+- venue: Rm 5403, Lift 17-18
+- topic: circuit terminology
+- [circuit topology (electrical)](circuit%20topology%20(electrical).md)
+    - [§ circuit diagram](circuit%20topology%20(electrical).md#circuit%20diagram)
+    - [§ node](circuit%20topology%20(electrical).md#node)
+    - [§ branch](circuit%20topology%20(electrical).md#branch)
+    - [§ path](circuit%20topology%20(electrical).md#path)
+    - [§ loop and mesh](circuit%20topology%20(electrical).md#loop%20and%20mesh)
+
+## week 3 lecture 1
+
+- datetime: 2026-09-14T09:00:00+08:00/2026-09-14T10:20:00+08:00
+- venue: Rm 5403, Lift 17-18
+- topic: circuit laws
+- [Kirchhoff's circuit laws](Kirchhoff%27s%20circuit%20laws.md)
+    - [§ Kirchhoff's current law](Kirchhoff%27s%20circuit%20laws.md#Kirchhoff's%20current%20law)
+    - [§ Kirchhoff's voltage law](Kirchhoff%27s%20circuit%20laws.md#Kirchhoff's%20voltage%20law)
+    - [§ ground reference](Kirchhoff%27s%20circuit%20laws.md#ground%20reference)
+    - [§ external ground and supply connections](Kirchhoff%27s%20circuit%20laws.md#external%20ground%20and%20supply%20connections)
+
+## week 3 lecture 2
+
+- datetime: 2026-09-16T09:00:00+08:00/2026-09-16T10:20:00+08:00
+- venue: Rm 5403, Lift 17-18
+- topic: resistive network
+- [series and parallel circuits](series%20and%20parallel%20circuits.md)
+    - [§ series connection](series%20and%20parallel%20circuits.md#series%20connection)
+    - [§ parallel connection](series%20and%20parallel%20circuits.md#parallel%20connection)
+    - [§ equivalent conductance](series%20and%20parallel%20circuits.md#equivalent%20conductance)
+    - [§ reduction of a ladder network](series%20and%20parallel%20circuits.md#reduction%20of%20a%20ladder%20network)
+- [voltage divider](voltage%20divider.md)
+    - [§ division ratio](voltage%20divider.md#division%20ratio)
+    - [§ loading a divider](voltage%20divider.md#loading%20a%20divider)
+- [current divider](current%20divider.md)
+    - [§ dual of the voltage divider](current%20divider.md#dual%20of%20the%20voltage%20divider)
+    - [§ division ratio](current%20divider.md#division%20ratio)
+    - [§ which branch takes more current](current%20divider.md#which%20branch%20takes%20more%20current)
+
+## week 4 lecture 1
+
+- datetime: 2026-09-21T09:00:00+08:00/2026-09-21T10:20:00+08:00
+- venue: Rm 5403, Lift 17-18
+- topic: nodal analysis; mesh analysis
+- [nodal analysis](nodal%20analysis.md)
+    - [§ procedure](nodal%20analysis.md#procedure)
+    - [§ reference node](nodal%20analysis.md#reference%20node)
+    - [§ voltage sources in the nodal method](nodal%20analysis.md#voltage%20sources%20in%20the%20nodal%20method)
+    - [§ supernode](nodal%20analysis.md#supernode)
+    - [§ dependent sources](nodal%20analysis.md#dependent%20sources)
+    - [§ counting the equations](nodal%20analysis.md#counting%20the%20equations)
+    - [§ nodal analysis in circuit simulation](nodal%20analysis.md#nodal%20analysis%20in%20circuit%20simulation)
+- [mesh analysis](mesh%20analysis.md)
+    - [§ planar circuits](mesh%20analysis.md#planar%20circuits)
+    - [§ procedure](mesh%20analysis.md#procedure)
+    - [§ shared elements](mesh%20analysis.md#shared%20elements)
+    - [§ supermesh](mesh%20analysis.md#supermesh)
+    - [§ against nodal analysis](mesh%20analysis.md#against%20nodal%20analysis)
+
+## week 4 lecture 2
+
+- datetime: 2026-09-23T09:00:00+08:00/2026-09-23T10:20:00+08:00
+- venue: Rm 5403, Lift 17-18
+- topic: superposition; maximum power transfer
+- [superposition principle](superposition%20principle.md)
+    - [§ linearity](superposition%20principle.md#linearity)
+    - [§ applying superposition](superposition%20principle.md#applying%20superposition)
+    - [§ combining contributions](superposition%20principle.md#combining%20contributions)
+    - [§ power is not linear](superposition%20principle.md#power%20is%20not%20linear)
+- [maximum power transfer theorem](maximum%20power%20transfer%20theorem.md)
+    - [§ power delivered to the load](maximum%20power%20transfer%20theorem.md#power%20delivered%20to%20the%20load)
+    - [§ matched load](maximum%20power%20transfer%20theorem.md#matched%20load)
+    - [§ high-voltage transmission](maximum%20power%20transfer%20theorem.md#high-voltage%20transmission)
+
+## week 5 lecture 1
+
+- datetime: 2026-09-28T09:00:00+08:00/2026-09-28T10:20:00+08:00
+- venue: Rm 5403, Lift 17-18
+- topic: equivalence and source transformation
+- [Thévenin's theorem](Th%C3%A9venin%27s%20theorem.md)
+    - [§ one-port equivalence](Th%C3%A9venin%27s%20theorem.md#one-port%20equivalence)
+    - [§ the equivalent circuit](Th%C3%A9venin%27s%20theorem.md#the%20equivalent%20circuit)
+    - [§ computing the equivalent](Th%C3%A9venin%27s%20theorem.md#computing%20the%20equivalent)
+    - [§ shortcuts](Th%C3%A9venin%27s%20theorem.md#shortcuts)
+    - [§ dependent sources](Th%C3%A9venin%27s%20theorem.md#dependent%20sources)
+    - [§ general proof](Th%C3%A9venin%27s%20theorem.md#general%20proof)
+- [Norton's theorem](Norton%27s%20theorem.md)
+    - [§ the equivalent circuit](Norton%27s%20theorem.md#the%20equivalent%20circuit)
+    - [§ computing the equivalent](Norton%27s%20theorem.md#computing%20the%20equivalent)
+    - [§ series and parallel shortcuts](Norton%27s%20theorem.md#series%20and%20parallel%20shortcuts)
+- [source transformation](source%20transformation.md)
+    - [§ the two forms](source%20transformation.md#the%20two%20forms)
+    - [§ external quantities only](source%20transformation.md#external%20quantities%20only)
+    - [§ reducing a circuit by transformation](source%20transformation.md#reducing%20a%20circuit%20by%20transformation)
 
 ## midterm examination
 

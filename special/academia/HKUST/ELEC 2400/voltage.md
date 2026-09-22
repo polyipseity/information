@@ -33,7 +33,7 @@ An electric field stores electric potential energy in space, and a charge acquir
 
 Per unit charge, that stored energy is the electric potential at the point, a value defined at every point of space. In the mechanical case, dividing by the mass gives the gravitational potential.
 
-The unit of voltage is the volt, fixed by $1\text{ volt} = 1\text{ joule}/1\text{ coulomb}$, that is $1\text{ V} = 1\text{ J}/\text{C}$. Raising the potential of $1\text{ C}$ of charge by $1\text{ V}$ takes $1\text{ J}$ of energy. Field lines of $\vec{\mathcal{E}}$ together with equipotential lines picture a field. Each equipotential line joins points of equal potential.
+The unit of voltage is the volt, named after Alessandro Volta (1745-1827), fixed by $1\text{ volt} = 1\text{ joule}/1\text{ coulomb}$, that is $1\text{ V} = 1\text{ J}/\text{C}$. Raising the potential of $1\text{ C}$ of charge by $1\text{ V}$ takes $1\text{ J}$ of energy. Field lines of $\vec{\mathcal{E}}$ together with equipotential lines picture a field. Each equipotential line joins points of equal potential.
 
 ---
 
@@ -42,6 +42,7 @@ Flashcards for this section are as follows:
 - overview ::@:: The electric potential $V$ is the electric potential energy per unit charge stored by a field in space, so a charge $q$ at a point holds $qV$ there. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - electric potential energy / origin: what stores electric potential energy, and how does a charge come to have some? ::@:: It is stored electrical energy set up by an electric field in space, and a charge acquires it from its location in the field.
 - volt definition: express the volt in joules and coulombs, and say how much energy raises the potential of $1\text{ C}$ of charge by $1\text{ V}$. ::@:: $1\text{ volt} = 1\text{ joule}/1\text{ coulomb}$, which is $1\text{ V} = 1\text{ J}/\text{C}$, so raising the potential of $1\text{ C}$ of charge by $1\text{ V}$ takes $1\text{ J}$.
+- namesake ::@:: Alessandro Volta, who lived from 1745 to 1827.
 - equipotential lines: field lines are lines of $\vec{\mathcal{E}}$; what do all points of an equipotential line share? ::@:: They share the potential $V$.
 
 ### gravitational analogy
