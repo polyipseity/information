@@ -186,6 +186,22 @@ The content is in teaching order.
     - [§ service models](cloud%20computing.md#service%20models)
 - [computing environments](computing%20environments.md)
 
+## week 2 lab 1
+
+- datetime: 2026-09-10T18:00:00+08:00/2026-09-10T19:50:00+08:00
+- venue: Lecture Theater B
+- status: no class
+
+---
+
+> __No Labs on Week 1__
+>
+> We don't have labs on week 1 (i.e., 01-04 Sep 2026).
+>
+> We don't have labs on week 2 (i.e., 07-11 Sep 2026).
+>
+> Lab1+2 will be combined on week 3 (i.e., 14,15,17 Sep 2026) after the add/drop period.
+
 ## midterm examination
 
 - datetime: 2026-10-29T19:00:00+08:00/2026-10-29T21:00:00+08:00
@@ -205,11 +221,19 @@ The content is in teaching order.
 
 ---
 
-> __Announcements__
+> __Updated Midterm Exam Schedule__
 >
-> __Midterm Exam Schedule (07-Sep-2026).__ Date: __29-Oct-2026 (Thu)__, Time: __07:00PM - 09:00PM__, Venues: TBA. Please mark the schedule on your calendar. Please inform the course instructor ASAP if you have time conflict with other midterm exams.
+> The midterm exam schedule:
 >
-> __Classroom Changes (16-Sep-2026, effective 21-Sep-2026).__ COMP3511 L2: LTB => CYTG002. COMP3511 LA1: LTB => Room 2407.
+> - Date: __29-Oct-2026 (Thu)__
+> - Time: __08:00PM - 10:00PM__
+>     - _Note: The university cannot find suitable venues for 7pm-9pm_
+> - Venues:
+>     - L1 students: LTD
+>     - L2 students: LSKG012
+>     - L3 students: LTB
+>
+> Please mark the schedule on your calendar. Please inform the course instructor ASAP if you have time conflict with other midterm exams.
 
 ## final examination
 
