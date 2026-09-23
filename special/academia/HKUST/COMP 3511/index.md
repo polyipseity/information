@@ -48,9 +48,13 @@ The content is in teaching order.
 - [cloud computing](cloud%20computing.md)
 - [computer multitasking](computer%20multitasking.md)
 - [computing environments](computing%20environments.md)
+- [loadable kernel module](loadable%20kernel%20module.md)
 - [memory hierarchy](memory%20hierarchy.md)
+- [microkernel](microkernel.md)
+- [monolithic kernel](monolithic%20kernel.md)
 - [multiprocessing](multiprocessing.md)
 - [operating system](operating%20system.md)
+- [system call](system%20call.md)
 - [units of information](units%20of%20information.md)
 - [virtualization](virtualization.md)
 - [von Neumann architecture](von%20Neumann%20architecture.md)
@@ -185,6 +189,43 @@ The content is in teaching order.
     - [§ deployment models](cloud%20computing.md#deployment%20models)
     - [§ service models](cloud%20computing.md#service%20models)
 - [computing environments](computing%20environments.md)
+
+## week 2 lecture 3
+
+- datetime: 2026-09-08T09:00:00+08:00/2026-09-08T10:20:00+08:00
+- venue: Rm 4619, Lift 31-32
+- topic: operating system services; user interfaces; system calls; system programs; linkers and loaders
+- [operating system](operating%20system.md)
+    - [§ services](operating%20system.md#services)
+    - [§ user interfaces](operating%20system.md#user%20interfaces)
+    - [§ system programs](operating%20system.md#system%20programs)
+    - [§ linkers and loaders](operating%20system.md#linkers%20and%20loaders)
+- [system call](system%20call.md)
+    - [§ API (Application Program Interface)](system%20call.md#api%20(application%20program%20interface))
+    - [§ implementation](system%20call.md#implementation)
+    - [§ parameter passing](system%20call.md#parameter%20passing)
+    - [§ types](system%20call.md#types)
+
+## week 2 lecture 4
+
+- datetime: 2026-09-10T09:00:00+08:00/2026-09-10T10:20:00+08:00
+- venue: Rm 4619, Lift 31-32
+- topic: OS design and implementation; operating system structures
+- [operating system](operating%20system.md)
+    - [§ design and implementation](operating%20system.md#design%20and%20implementation)
+    - [§ structure](operating%20system.md#structure)
+- [monolithic kernel](monolithic%20kernel.md)
+    - [§ original UNIX structure](monolithic%20kernel.md#original%20unix%20structure)
+    - [§ Linux system structure](monolithic%20kernel.md#linux%20system%20structure)
+- [microkernel](microkernel.md)
+    - [§ inter-process communication](microkernel.md#inter-process%20communication)
+    - [§ advantages](microkernel.md#advantages)
+    - [§ drawbacks](microkernel.md#drawbacks)
+    - [§ Mach and Darwin](microkernel.md#mach%20and%20darwin)
+- [loadable kernel module](loadable%20kernel%20module.md)
+    - [§ design](loadable%20kernel%20module.md#design)
+    - [§ Linux and LKMs](loadable%20kernel%20module.md#linux%20and%20lkms)
+    - [§ Linux and LKMs](loadable%20kernel%20module.md#linux%20and%20lkms)
 
 ## week 2 lab 1
 
