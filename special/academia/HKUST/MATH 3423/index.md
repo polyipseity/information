@@ -30,6 +30,7 @@ MATH 3423 is an undergraduate course in statistical inference at HKUST covering 
 
 - [Student's t-distribution](Student's%20t-distribution.md)
 - [chi-squared distribution](chi-squared%20distribution.md)
+- [confidence interval](confidence%20interval.md)
 - [estimator](estimator.md)
 - [multivariate normal distribution](multivariate%20normal%20distribution.md)
 - [parametric model](parametric%20model.md)
@@ -145,3 +146,14 @@ MATH 3423 is an undergraduate course in statistical inference at HKUST covering 
 > Regards,
 >
 > \[redacted\]
+
+## week 2 lecture 1
+
+- datetime: 2026-09-08T10:30:00+08:00/2026-09-08T11:50:00+08:00
+- venue: G010, CYT Bldg
+- topic: distribution of the sample mean via the multivariate normal; confidence interval for the population mean
+- [sample mean](sample%20mean.md)
+    - [§ distribution of the sample mean](sample%20mean.md#distribution%20of%20the%20sample%20mean)
+- [confidence interval](confidence%20interval.md)
+    - [§ pivotal quantity](confidence%20interval.md#pivotal%20quantity)
+    - [§ confidence interval for the mean](confidence%20interval.md#confidence%20interval%20for%20the%20mean)
