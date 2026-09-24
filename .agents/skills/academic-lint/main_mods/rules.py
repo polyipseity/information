@@ -22,7 +22,9 @@ its decorator.  The functions are pure: they accept a
 import re
 import unicodedata
 from collections.abc import Iterator
+from pathlib import PurePosixPath
 from string import punctuation
+from typing import cast
 from urllib.parse import unquote
 
 from anyio import Path
@@ -36,6 +38,7 @@ from .models import (
 )
 from .registry import RuleRegistry
 from .utils import (
+    _MD,
     FRONT_RE,
     SEMESTER_HEADER_RE,
     SEMESTER_RE,
@@ -1869,6 +1872,65 @@ def header_flashcard_separator(ctx: ValidationContext) -> list[ValidationMessage
 
 
 @RULE_REGISTRY.register()
+def header_flashcard_style_mixed(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Disallow mixing prose flashcards with question blocks in one section.
+
+    A section carries one flashcard style. It either presents its material as
+    prose with cards (``::@::`` / ``:@:``, or a ``Flashcards for this section are
+    as follows:`` block) or as question blocks whose ``- solution:`` /
+    ``- explanation:`` lines carry clozes. Mixing the two in one section is what
+    happens when a prompt that is not a question is written as a solution line;
+    see "Flashcard style per section" in `academic-ingest`.
+    """
+    errors: list[ValidationMessage] = []
+    name = ctx.path.name.lower()
+    parent_parts = [part.casefold() for part in ctx.path.parts[:-1]]
+    if (
+        name == "index.md"
+        or name == "questions.md"
+        or name == "agents.md"
+        or "questions" in parent_parts
+    ):
+        return errors
+
+    prose_re = re.compile(
+        r"::@::|(?<!:):@:(?!:)|^\s*Flashcards for this section are as follows:\s*$",
+        re.IGNORECASE | re.MULTILINE,
+    )
+    headers = _build_filtered_header_positions(ctx.text, ctx.ast)
+    for i, (hdr_pos, _lvl, h) in enumerate(headers):
+        hdr_end = h.end()
+        # Use the immediate next header (any level) so each section is judged on
+        # its own text: sibling subsections may each use a different style.
+        next_pos = headers[i + 1][0] if i + 1 < len(headers) else len(ctx.text)
+        section = ctx.text[hdr_end:next_pos]
+        if not _BLOCKQUOTED_SOLUTION_RE.search(section):
+            continue
+        prose = prose_re.search(section)
+        if not prose:
+            continue
+        start = hdr_end + prose.start()
+        line, col, col_end = locate_range(ctx.text, start, len(prose.group(0)))
+        errors.append(
+            ValidationMessage(
+                rule_id="header_flashcard_style_mixed",
+                msg=(
+                    f"section {h.group(0).strip()!r} mixes flashcard styles: it has both "
+                    "prose flashcards (::@:: / :@:, or a 'Flashcards for this section "
+                    "are as follows:' block) and question blocks with '- solution:'/"
+                    "'- explanation:' lines. A section uses one style: keep the section "
+                    "prose with its own cards, or make every prompt in it a question "
+                    "block with cloze solution lines."
+                ),
+                line=line,
+                col=col,
+                col_end=col_end,
+            )
+        )
+    return errors
+
+
+@RULE_REGISTRY.register()
 def header_flashcard_sections_duplicate(
     ctx: ValidationContext,
 ) -> list[ValidationMessage]:
@@ -2820,29 +2882,130 @@ def link_unencoded_space(ctx: ValidationContext) -> list[ValidationMessage]:
     return errors
 
 
-@RULE_REGISTRY.register()
-def link_anchor_slug(ctx: ValidationContext) -> list[ValidationMessage]:
-    """Detect markdown links whose anchor fragment uses dash-slug format.
+def _anchor_key(text: str) -> str:
+    """Return the key that lets an anchor fragment and a heading be compared.
 
-    The project convention requires ``%20`` encoding for spaces in anchor
-    fragments (e.g. ``#section%20name``), but AI frequently generates
-    dash-slugified anchors (e.g. ``#section-name``).  This rule catches
-    that pattern.  For same-file links, the fragment is validated against
-    the file's actual AST headings.  For cross-file links, a lightweight
-    heuristic is used: the fragment must contain at least one dash, be
-    entirely lowercase, and contain no ``%20`` encoding.
+    A heading becomes an anchor by lowercasing its text and encoding spaces as
+    ``%20``, so the key decodes percent escapes, drops the characters that only
+    mark inline formatting (``:`*_~``) and casefolds.  A dash is left alone: it
+    is a real character of the heading, never an encoded space, which is what
+    separates a dash-slug from an anchor.
+    """
+    return re.sub(r"[`:*_~]", "", unquote(text)).casefold()
+
+
+def _heading_anchors(ast: list[AstNode] | None) -> set[str]:
+    """Return the key of every heading anchor in *ast*.
+
+    An HTML comment is dropped, since a heading's suppression comment is not
+    part of its text and so cannot appear in an anchor.
+    """
+    return {
+        _anchor_key(re.sub(r"<!--.*?-->", "", h["text"]).strip())
+        for h in ast_headings(ast or [])
+    }
+
+
+def _html_id_anchors(text: str) -> set[str]:
+    """Return the key of every HTML ``id`` anchor in *text*.
+
+    A fragment may point at an element other than a heading: a Wikipedia
+    citation ref or an equation label is written as an ``id`` attribute, and
+    those anchors resolve the same way.
+    """
+    return {_anchor_key(m) for m in re.findall(r'id="([^"]*)"', text)}
+
+
+async def _cross_file_anchors(base: Path, file_part: str) -> set[str] | None:
+    """Return the anchor keys of the markdown file *file_part* links to.
+
+    The keys cover the target's headings and its HTML ``id`` anchors.  The
+    destination is decoded and resolved against *base*, and a folder resolves to
+    its ``index.md``.  ``None`` means the destination is not a readable markdown
+    file, so no anchor of it can be resolved.
+    """
+    decoded = unquote(file_part)
+    decoded = re.split(r"[#?]", decoded, maxsplit=1)[0]
+    if not decoded:
+        return None
+
+    candidate = base / decoded
+    if not await candidate.is_file():
+        index = candidate / "index.md"
+        if not await index.is_file():
+            return None
+        candidate = index
+    try:
+        body = await candidate.read_text(encoding="utf-8")
+    except (OSError, UnicodeDecodeError):
+        return None
+    # Mistune returns untyped node dicts whose runtime shape is AstNode.
+    headings = _heading_anchors(cast("list[AstNode]", _MD(body)))
+    return headings | _html_id_anchors(body)
+
+
+def _is_markdown_target(file_part: str) -> bool:
+    """Return whether *file_part* names a file whose fragment is an anchor.
+
+    A destination without an extension (a folder resolves to its ``index.md``)
+    or ending in ``.md`` carries heading anchors; a paper, an image, or another
+    attachment does not, so its fragment is left alone.
+    """
+    decoded = unquote(re.split(r"[#?]", file_part, maxsplit=1)[0])
+    suffix = PurePosixPath(decoded).suffix
+    return not suffix or suffix.casefold() == ".md"
+
+
+def _looks_like_dash_slug(frag: str) -> bool:
+    """Return whether *frag* has the shape of a dash-slugified heading.
+
+    A dash-slug lowercases the heading and replaces spaces with dashes, so it
+    carries a dash, no uppercase letter, and no ``%20``.
+    """
+    return "-" in frag and frag == frag.lower() and "%20" not in frag
+
+
+def _anchor_mismatch_msg(frag: str, file_part: str = "") -> str:
+    """Return the message for a fragment that names no anchor.
+
+    *file_part* names the link target when it is another file.
+    """
+    where = f" in '{file_part}'" if file_part else " in this file"
+    return (
+        f"anchor fragment '#{frag}' names no anchor{where} (heading or HTML id); "
+        "a heading becomes an anchor by lowercasing its text and encoding spaces "
+        "as %20 (e.g., '#section%20name'), never as dashes ('#section-name')"
+    )
+
+
+def _unresolved_target_msg(frag: str, file_part: str) -> str:
+    """Return the message for a fragment whose target cannot be resolved."""
+    return (
+        f"anchor fragment '#{frag}' cannot be resolved: '{file_part}' is not a "
+        "readable markdown file, so it carries no anchor"
+    )
+
+
+@RULE_REGISTRY.register()
+async def link_anchor_slug(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Require every anchor fragment to name a heading of the file it targets.
+
+    Headings become anchors by lowercasing the heading text and encoding spaces
+    as ``%20`` (e.g. ``#section%20name``); the dash-slug form a model reaches for
+    by habit (``#section-name``) names nothing here and is therefore wrong.  A
+    dash the heading itself contains stays in its anchor (``### self-plagiarism``
+    is ``#self-plagiarism``), which is why a cross-file fragment is checked
+    against the target file's headings instead of its shape.  A markdown target
+    that cannot be resolved is reported as well: nothing about its fragment can
+    be checked, and a fragment on a file that does not exist resolves nowhere.
     """
     errors: list[ValidationMessage] = []
     text = ctx.text
     ast = ctx.ast
     filename = ctx.path.name
+    base_dir = ctx.path.parent
 
-    # Build set of expected same-file anchors from AST headings.
-    _expected: set[str] = set()
-    if ast:
-        for h in ast_headings(ast):
-            anchor = h["text"].casefold().replace(" ", "%20").replace(":", "")
-            _expected.add(f"#{anchor}")
+    expected = _heading_anchors(ast) | _html_id_anchors(text)
 
     for link in iter_inline_links(text):
         if _is_inside_code_block(link.start, text, ast):
@@ -2860,33 +3023,37 @@ def link_anchor_slug(ctx: ValidationContext) -> list[ValidationMessage]:
             continue
         file_part = parts[0]
         is_same_file = (not file_part) or (file_part == filename)
-        flagged = False
+        msg = ""
         if is_same_file:
             # Same-file: check against actual heading anchors.
-            if f"#{frag}" not in _expected:
-                flagged = True
+            if _anchor_key(frag) not in expected:
+                msg = _anchor_mismatch_msg(frag)
+        elif not _is_markdown_target(file_part):
+            # A paper or an image defines no heading, so a fragment on it is not
+            # an anchor; the dash-slug form still resolves nowhere.
+            if _looks_like_dash_slug(frag):
+                msg = (
+                    "anchor fragment uses dash-slug format; use %20 encoding "
+                    "for spaces (e.g., '#section%20name' not '#section-name')"
+                )
         else:
-            # Cross-file: heuristic — dash-slug is all-lowercase, has
-            # dashes, and no %20.
-            if "-" in frag and frag == frag.lower() and "%20" not in frag:
-                flagged = True
-        if flagged:
+            anchors = await _cross_file_anchors(base_dir, file_part)
+            if anchors is None:
+                msg = _unresolved_target_msg(frag, file_part)
+            elif _anchor_key(frag) not in anchors:
+                msg = _anchor_mismatch_msg(frag, file_part)
+        if msg:
             length = link.end - link.start
             line, col, col_end = locate_range(text, link.start, length)
             errors.append(
                 ValidationMessage(
                     rule_id="link_anchor_slug",
-                    msg=(
-                        "anchor fragment uses dash-slug format; "
-                        "use %20 encoding for spaces "
-                        "(e.g., '#section%20name' not '#section-name')"
-                    ),
+                    msg=msg,
                     line=line,
                     col=col,
                     col_end=col_end,
                 )
             )
-            break
     return errors
 
 
@@ -3824,6 +3991,67 @@ def _compute_cloze_coverage(paragraph_text: str) -> float | None:
     return cloze_chars / total_visible
 
 
+"""A `- solution:` / `- explanation:` line inside a blockquote belongs to a
+question block: the line states the answer to the question above it.
+"""
+_BLOCKQUOTED_SOLUTION_RE = re.compile(
+    r"^[ \t]*>[ \t]*(?:-[ \t]*)?(?:solution|explanation)[ \t]*:",
+    re.IGNORECASE | re.MULTILINE,
+)
+"""The same marker outside a blockquote has no question to answer."""
+_BARE_SOLUTION_RE = re.compile(
+    r"^[ \t]*(?:-[ \t]*)?(?:solution|explanation)[ \t]*:",
+    re.IGNORECASE | re.MULTILINE,
+)
+
+
+@RULE_REGISTRY.register()
+def cloze_solution_outside_question(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Disallow cloze ``- solution:`` / ``- explanation:`` lines outside a question block.
+
+    Those lines are question-format markup: their cloze hides the answer to the
+    blockquote question above them. Material that is not a question is recorded
+    as prose with its own cards instead, so a cloze solution line with no
+    question block around it is a question-format line in a section that should
+    not use one; see "Flashcard style per section" in `academic-ingest`.
+    """
+    errors: list[ValidationMessage] = []
+    name = ctx.path.name.lower()
+    parent_parts = [part.casefold() for part in ctx.path.parts[:-1]]
+    if (
+        name == "index.md"
+        or name == "questions.md"
+        or name == "agents.md"
+        or "questions" in parent_parts
+    ):
+        return errors
+
+    for m in _BARE_SOLUTION_RE.finditer(ctx.text):
+        line_start = m.start()
+        line_end = ctx.text.find("\n", line_start)
+        if line_end == -1:
+            line_end = len(ctx.text)
+        line = ctx.text[line_start:line_end]
+        if "{@{" not in line:
+            continue
+        line_no, col_no, col_end = locate_range(ctx.text, line_start, len(line))
+        errors.append(
+            ValidationMessage(
+                rule_id="cloze_solution_outside_question",
+                msg=(
+                    "cloze solution/explanation line outside a question block: these "
+                    "lines answer the blockquote question above them, so use "
+                    "'> - solution: ...' inside that blockquote, or record the "
+                    "material as prose with its own cards."
+                ),
+                line=line_no,
+                col=col_no,
+                col_end=col_end,
+            )
+        )
+    return errors
+
+
 @RULE_REGISTRY.register()
 def cloze_insufficient_coverage(ctx: ValidationContext) -> list[ValidationMessage]:
     """Warn when cloze coverage is below 80% in a paragraph."""
@@ -3839,6 +4067,10 @@ def cloze_insufficient_coverage(ctx: ValidationContext) -> list[ValidationMessag
     paragraphs = _segment_paragraphs(body)
 
     for para_text, para_start, para_end in paragraphs:
+        # A question block mixes its visible question text with the clozed answer
+        # lines by design, so its coverage is not measured.
+        if _BLOCKQUOTED_SOLUTION_RE.search(body[para_start:para_end]):
+            continue
         coverage = _compute_cloze_coverage(para_text)
         if coverage is not None and coverage < 0.80:
             # Find the line number for the start of this paragraph
@@ -3870,6 +4102,10 @@ def cloze_excessive_coverage(ctx: ValidationContext) -> list[ValidationMessage]:
     paragraphs = _segment_paragraphs(body)
 
     for para_text, para_start, para_end in paragraphs:
+        # A question block mixes its visible question text with the clozed answer
+        # lines by design, so its coverage is not measured.
+        if _BLOCKQUOTED_SOLUTION_RE.search(body[para_start:para_end]):
+            continue
         coverage = _compute_cloze_coverage(para_text)
         if coverage is not None and coverage > 0.98:
             # Find the line number for the start of this paragraph

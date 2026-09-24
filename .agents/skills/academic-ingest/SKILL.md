@@ -435,6 +435,17 @@ A definitional drawing is an attachment even without a source file: redraw it as
 
 When in-class content is not Canvas-sourced, use these templates instead of the Canvas header block format.
 
+### Flashcard style per section
+
+A content file (`lab.md`, `tutorial.md`, `lecture.md`) may hold several kinds of section, and each section carries one flashcard style:
+
+- __Prose + flashcards.__ Section prose, then `---`, then `Flashcards for this section are as follows:` and `::@::`/`:@:` cards. Use it for material that explains, lists, quotes, or records something.
+- __Question blocks.__ A verbatim question in a blockquote whose `- solution:`/`- explanation:` lines carry the clozes (see "PRS/iClicker quiz" below). Use it only for a question with an answer: a multiple-choice item, an exercise, or a prompt whose answer is a definable result.
+
+Never mix the two within one section. A working prompt that asks what someone uses, remembers, or thinks is prose, not a question: record it as a blockquote and answer it in prose with cards instead of a `- solution:` line. A `- solution:`/`- explanation:` cloze belongs inside the blockquote holding its question, never as a free-standing list item.
+
+`academic-lint` enforces both halves: `header_flashcard_style_mixed` flags a section carrying both styles, and `cloze_solution_outside_question` flags a cloze solution line with no question block around it.
+
 ### PRS/iClicker quiz (`<type>.md`)
 
 Use the blockquote question format, matching existing question files. Applies to labs, tutorials, and lectures with in-class PRS/iClicker quizzes.

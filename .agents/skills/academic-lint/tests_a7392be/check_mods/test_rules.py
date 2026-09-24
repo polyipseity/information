@@ -25,6 +25,7 @@ from main_mods.rules import (
     cloze_no_nested,
     cloze_open_close_matching,
     cloze_single_line,
+    cloze_solution_outside_question,
     cloze_wrong_closing_token,
     cloze_wrong_token,
     find_math_spans,
@@ -34,6 +35,7 @@ from main_mods.rules import (
     header_flashcard_presence,
     header_flashcard_sections_duplicate,
     header_flashcard_separator,
+    header_flashcard_style_mixed,
     header_source_layout,
     header_style,
     html_br_mid_line,
@@ -501,18 +503,107 @@ def test_link_unencoded_space_sees_parenthesised_paths():
     assert not link_unencoded_space(ctx)
 
 
-def test_link_anchor_slug_sees_parenthesised_paths():
+@pytest.mark.anyio
+async def test_link_anchor_slug_sees_parenthesised_paths(tmp_path: PathLike[str]):
     """A dash-slug anchor on a parenthesised destination is still reported."""
-    ctx = make_ctx(
-        "See [cache (computing)](cache%20(computing).md#direct-mapped) here.\n"
+    root = Path(tmp_path)
+    await (root / "cache (computing).md").write_text(
+        "# cache (computing)\n\n## direct mapped\n\nText.\n"
     )
-    msgs = link_anchor_slug(ctx)
+    source = root / "index.md"
+    ctx = make_ctx(
+        "See [cache (computing)](cache%20(computing).md#direct-mapped) here.\n",
+        path=source,
+    )
+    msgs = await link_anchor_slug(ctx)
     assert msgs and msgs[0].rule_id == "link_anchor_slug"
 
     ctx = make_ctx(
-        "See [cache (computing)](cache%20(computing).md#direct%20mapped) here.\n"
+        "See [cache (computing)](cache%20(computing).md#direct%20mapped) here.\n",
+        path=source,
     )
-    assert not link_anchor_slug(ctx)
+    assert not await link_anchor_slug(ctx)
+
+
+@pytest.mark.anyio
+async def test_link_anchor_slug_validates_cross_file_headings(
+    tmp_path: PathLike[str],
+):
+    """A cross-file dash-slug is only reported when the target lacks the anchor."""
+    root = Path(tmp_path)
+    await (root / "topic.md").write_text(
+        "# topic\n\n## self-plagiarism\n\nText.\n\n## direct mapped\n\nText.\n"
+    )
+    source = root / "index.md"
+
+    # A heading that really contains a dash stays linkable.
+    hyphenated = make_ctx(
+        "- [self-plagiarism](topic.md#self-plagiarism)\n", path=source
+    )
+    assert not await link_anchor_slug(hyphenated)
+
+    # A dash-slugified heading is still reported when the target is readable.
+    slugified = make_ctx("See [cache](topic.md#direct-mapped) here.\n", path=source)
+    msgs = await link_anchor_slug(slugified)
+    assert msgs and msgs[0].rule_id == "link_anchor_slug"
+
+    # The encoded form of the same anchor is accepted.
+    encoded = make_ctx("See [cache](topic.md#direct%20mapped) here.\n", path=source)
+    assert not await link_anchor_slug(encoded)
+
+    # A folder link resolves to its index.md.
+    await (root / "sub").mkdir()
+    await (root / "sub" / "index.md").write_text(
+        "# index\n\n## half-open interval\n\nText.\n"
+    )
+    folder_link = make_ctx("- [interval](sub/#half-open%20interval)\n", path=source)
+    assert not await link_anchor_slug(folder_link)
+
+
+@pytest.mark.anyio
+async def test_link_anchor_slug_reports_missing_cross_file_anchor(
+    tmp_path: PathLike[str],
+):
+    """A %20 fragment naming no heading of a readable target is reported."""
+    root = Path(tmp_path)
+    await (root / "topic.md").write_text("# topic\n\n## direct mapped\n\nText.\n")
+    source = root / "index.md"
+
+    missing = make_ctx("See [cache](topic.md#fully%20associative) here.\n", path=source)
+    msgs = await link_anchor_slug(missing)
+    assert msgs and msgs[0].rule_id == "link_anchor_slug"
+    assert "fully%20associative" in msgs[0].msg
+    assert "topic.md" in msgs[0].msg
+
+    # An anchor written with the heading's own case still names that heading.
+    cased = make_ctx("See [cache](topic.md#Direct%20Mapped) here.\n", path=source)
+    assert not await link_anchor_slug(cased)
+
+    # An unresolvable target cannot be checked, so the fragment is reported.
+    unreadable = make_ctx(
+        "See [cache](absent.md#fully%20associative) here.\n", path=source
+    )
+    msgs = await link_anchor_slug(unreadable)
+    assert msgs and "absent.md" in msgs[0].msg
+
+
+@pytest.mark.anyio
+async def test_link_anchor_slug_normalizes_escapes_and_comments(
+    tmp_path: PathLike[str],
+):
+    """An escaped character and a heading's suppression comment keep it linkable."""
+    root = Path(tmp_path)
+    await (root / "topic.md").write_text(
+        "# topic\n\n## physicist's job <!-- check: ignore-line[header_style] -->\n\n"
+        "## Foo: bar\n\nText.\n"
+    )
+    source = root / "index.md"
+
+    escaped = make_ctx("See [job](topic.md#physicist%27s%20job) here.\n", path=source)
+    assert not await link_anchor_slug(escaped)
+
+    colonless = make_ctx("See [foo](topic.md#foo%20bar) here.\n", path=source)
+    assert not await link_anchor_slug(colonless)
 
 
 def test_iter_inline_links_handles_balanced_parentheses():
@@ -1883,6 +1974,27 @@ def test_cloze_insufficient_coverage_rule():
     )
     assert not cloze_insufficient_coverage(no_tag)
 
+    # A question block mixes visible question text with clozed answer lines, so
+    # its coverage is not measured.
+    question = make_ctx(
+        "---\ntags: [flashcard/active/special/academia/test]\n---\n"
+        "> Would you trust the readings and why or why not?\n"
+        ">\n"
+        "> 1. yes\n"
+        "> 2. no\n"
+        "> - solution: {@{1/2/3}@}\n"
+    )
+    assert not cloze_insufficient_coverage(question)
+    assert not cloze_excessive_coverage(question)
+
+    # The same shape written with `Solution:` and no dash.
+    plain_solution = make_ctx(
+        "---\ntags: [flashcard/active/special/academia/test]\n---\n"
+        "> Find the voltage across $R_2$.\n"
+        "> Solution: {@{the series current}@} is {@{$I = 2.5\\text{ mA}$}@}.\n"
+    )
+    assert not cloze_insufficient_coverage(plain_solution)
+
 
 def test_cloze_excessive_coverage_rule():
     """Cloze coverage should be flagged when above 98%."""
@@ -1929,6 +2041,113 @@ def test_cloze_excessive_coverage_rule():
     # No flashcard tag — rule should not fire
     no_tag = make_ctx("---\ntags: []\n---\nText {@ text@} here.\n")
     assert not cloze_wrong_token(no_tag)
+
+
+def test_cloze_solution_outside_question_rule():
+    """A cloze solution line outside a question block is question-format markup."""
+
+    outside = make_ctx(
+        "---\ntags: [flashcard/active/special/academia/test]\n---\n"
+        "# lecture\n\n## literature search\n\n"
+        "Google Scholar came up first in the answers.\n\n"
+        "- solution: {@{Google Scholar and APA PsycInfo}@}.\n",
+        path=Path("/tmp/course/lecture.md"),
+    )
+    msgs = cloze_solution_outside_question(outside)
+    assert msgs and msgs[0].rule_id == "cloze_solution_outside_question"
+
+    # Inside a question block the same line is the question's answer.
+    inside = make_ctx(
+        "---\ntags: [flashcard/active/special/academia/test]\n---\n"
+        "# lecture\n\n## quiz\n\n"
+        "> Which database indexes the psychology literature?\n"
+        ">\n"
+        "> - solution: {@{APA PsycInfo}@}\n",
+        path=Path("/tmp/course/lecture.md"),
+    )
+    assert not cloze_solution_outside_question(inside)
+
+    # A solution line without a cloze is plain prose.
+    plain = make_ctx(
+        "---\ntags: [flashcard/active/special/academia/test]\n---\n"
+        "# cheatsheet\n\n"
+        "- solution: split query vectors by user feedback\n"
+        "    - solution: personalization (keyword vector)\n",
+        path=Path("/tmp/course/cheatsheet.md"),
+    )
+    assert not cloze_solution_outside_question(plain)
+
+    # Index and question pages are exempt, like the other flashcard rules.
+    for exempt_path in (
+        Path("/tmp/course/index.md"),
+        Path("/tmp/course/questions/2026-09-09.md"),
+    ):
+        exempt = make_ctx(
+            "---\ntags: [flashcard/active/special/academia/test]\n---\n"
+            "- solution: {@{the answer}@}\n",
+            path=exempt_path,
+        )
+        assert not cloze_solution_outside_question(exempt)
+
+
+def test_header_flashcard_style_mixed_rule():
+    """One section must not mix prose cards with question blocks."""
+
+    question = (
+        "> Which database indexes the psychology literature?\n"
+        ">\n"
+        "> - solution: {@{APA PsycInfo}@}\n"
+    )
+    card = "- APA PsycInfo ::@:: The database that indexes the psychology literature.\n"
+    front = "---\ntags: [flashcard/active/special/academia/test]\n---\n"
+
+    mixed = make_ctx(
+        f"{front}# lecture\n\n## exercise\n\n{question}\n{card}",
+        path=Path("/tmp/course/lecture.md"),
+    )
+    msgs = header_flashcard_style_mixed(mixed)
+    assert msgs and msgs[0].rule_id == "header_flashcard_style_mixed"
+
+    # A `Flashcards for this section are as follows:` block is prose too.
+    marked = make_ctx(
+        f"{front}# lecture\n\n## exercise\n\n{question}\n"
+        "---\n\nFlashcards for this section are as follows:\n\n"
+        "- APA PsycInfo ::@:: The database that indexes the psychology literature.\n",
+        path=Path("/tmp/course/lecture.md"),
+    )
+    assert header_flashcard_style_mixed(marked)
+
+    # Question blocks alone are one style.
+    questions_only = make_ctx(
+        f"{front}# lecture\n\n## exercise\n\n{question}",
+        path=Path("/tmp/course/lecture.md"),
+    )
+    assert not header_flashcard_style_mixed(questions_only)
+
+    # Prose cards alone are one style.
+    cards_only = make_ctx(
+        f"{front}# lecture\n\n## exercise\n\n{card}",
+        path=Path("/tmp/course/lecture.md"),
+    )
+    assert not header_flashcard_style_mixed(cards_only)
+
+    # Separate sections may carry different styles.
+    split = make_ctx(
+        f"{front}# lecture\n\n## exercise\n\n{question}\n## summary\n\n{card}",
+        path=Path("/tmp/course/lecture.md"),
+    )
+    assert not header_flashcard_style_mixed(split)
+
+    # Index and question pages are exempt, like the other flashcard rules.
+    for exempt_path in (
+        Path("/tmp/course/index.md"),
+        Path("/tmp/course/questions/2026-09-09.md"),
+    ):
+        exempt = make_ctx(
+            f"{front}# page\n\n## exercise\n\n{question}\n{card}",
+            path=exempt_path,
+        )
+        assert not header_flashcard_style_mixed(exempt)
 
 
 def test_cloze_no_hint_words_rule():
@@ -3033,58 +3252,106 @@ def test_md028_bad_format_trailing_whitespace():
 # link_anchor_slug tests ----------------------------------------------------------------
 
 
-def test_link_anchor_slug_catches_slug_pattern():
+@pytest.mark.anyio
+async def test_link_anchor_slug_catches_slug_pattern():
     """Cross-file link with slugified fragment → expects violation."""
     txt = "## Route stages and scoring logic\n\n[text](file.md#route-stages-and-scoring-logic)\n"
     ctx = make_ctx(txt)
-    msgs = link_anchor_slug(ctx)
+    msgs = await link_anchor_slug(ctx)
     assert msgs and msgs[0].rule_id == "link_anchor_slug"
 
 
-def test_link_anchor_slug_allows_percent20():
-    """Fragment with %20 → no violation."""
-    txt = "## Route stages and scoring logic\n\n[text](file.md#route%20stages%20and%20scoring%20logic)\n"
-    ctx = make_ctx(txt)
-    assert not link_anchor_slug(ctx)
+@pytest.mark.anyio
+async def test_link_anchor_slug_reports_unresolved_target(tmp_path: PathLike[str]):
+    """An anchor on a target that cannot be resolved is reported, whatever its form.
+
+    A non-markdown target has no headings, so its fragment is left alone.
+    """
+    root = Path(tmp_path)
+    source = root / "index.md"
+
+    missing = make_ctx(
+        "See [text](absent.md#route%20stages%20and%20scoring%20logic) here.\n",
+        path=source,
+    )
+    msgs = await link_anchor_slug(missing)
+    assert msgs and msgs[0].rule_id == "link_anchor_slug"
+    assert "route%20stages" in msgs[0].msg
+    assert "absent.md" in msgs[0].msg
+
+    # A folder without an index.md resolves to nothing either.
+    await (root / "sub").mkdir()
+    folder = make_ctx("See [text](sub/#half%20open%20interval) here.\n", path=source)
+    assert await link_anchor_slug(folder)
+
+    # A paper or an image carries no heading, so its fragment is not an anchor.
+    await (root / "table.csv").write_text("a,b\n")
+    attachment = make_ctx("See [table](table.csv#direct%20mapped) here.\n", path=source)
+    assert not await link_anchor_slug(attachment)
+
+    # The dash-slug form resolves nowhere there either.
+    slug = make_ctx("See [table](table.csv#direct-mapped) here.\n", path=source)
+    msgs = await link_anchor_slug(slug)
+    assert msgs and "uses dash-slug format" in msgs[0].msg
 
 
-def test_link_anchor_slug_allows_legitimate_dash():
-    """Fragment with dash, lowercase, no %20 → IS flagged (conservative heuristic).
+@pytest.mark.anyio
+async def test_link_anchor_slug_reports_every_offender(tmp_path: PathLike[str]):
+    """Every offending fragment in one file is reported, not just the first."""
+    root = Path(tmp_path)
+    await (root / "topic.md").write_text("# topic\n\n## direct mapped\n\nText.\n")
+    source = root / "index.md"
+    ctx = make_ctx(
+        "See [a](topic.md#fully-associative) and [b](topic.md#direct-associative) "
+        "and [c](topic.md#direct%20mapped).\n",
+        path=source,
+    )
+    msgs = await link_anchor_slug(ctx)
+    assert [m.rule_id for m in msgs] == ["link_anchor_slug"] * 2
+
+
+@pytest.mark.anyio
+async def test_link_anchor_slug_allows_legitimate_dash():
+    """A dash-slug that no heading defines is flagged, readable target or not.
 
     If the heading is 'Softmax regression', the correct anchor is
     '#softmax%20regression', so '#softmax-regression' is wrong.
     """
     txt = "## Softmax regression\n\n[text](file.md#softmax-regression)\n"
     ctx = make_ctx(txt)
-    msgs = link_anchor_slug(ctx)
+    msgs = await link_anchor_slug(ctx)
     assert msgs and msgs[0].rule_id == "link_anchor_slug"
 
 
-def test_link_anchor_slug_same_file_exact_match():
+@pytest.mark.anyio
+async def test_link_anchor_slug_same_file_exact_match():
     """Same-file #fragment that matches an AST heading → no violation."""
     txt = "## Route stages and scoring logic\n\n[text](#route%20stages%20and%20scoring%20logic)\n"
     ctx = make_ctx(txt)
-    assert not link_anchor_slug(ctx)
+    assert not await link_anchor_slug(ctx)
 
 
-def test_link_anchor_slug_same_file_mismatch():
+@pytest.mark.anyio
+async def test_link_anchor_slug_same_file_mismatch():
     """Same-file #fragment that doesn't match any heading → violation."""
     txt = (
         "## Route stages and scoring logic\n\n[text](#route-stages-and-scoring-logic)\n"
     )
     ctx = make_ctx(txt)
-    msgs = link_anchor_slug(ctx)
+    msgs = await link_anchor_slug(ctx)
     assert msgs and msgs[0].rule_id == "link_anchor_slug"
 
 
-def test_link_anchor_slug_skips_code_blocks():
+@pytest.mark.anyio
+async def test_link_anchor_slug_skips_code_blocks():
     """Slug pattern inside a code block → no violation."""
     txt = "```\n[text](file.md#route-stages-and-scoring-logic)\n```\n"
     ctx = make_ctx(txt)
-    assert not link_anchor_slug(ctx)
+    assert not await link_anchor_slug(ctx)
 
 
-def test_link_anchor_slug_skips_bare_fragment():
+@pytest.mark.anyio
+async def test_link_anchor_slug_skips_bare_fragment():
     """#fragment-only (no filename) → no violation."""
     txt = "## Route stages\n\n[text](#route-stages)\n"
     ctx = make_ctx(txt)
@@ -3092,15 +3359,19 @@ def test_link_anchor_slug_skips_bare_fragment():
     # it's still flagged. But 'route-stages' has a dash and is lowercase,
     # so we test that same-file bare fragments ARE validated against headings.
     # If no heading matches, it should fire.
-    msgs = link_anchor_slug(ctx)
+    msgs = await link_anchor_slug(ctx)
     assert msgs and msgs[0].rule_id == "link_anchor_slug"
 
 
-def test_link_anchor_slug_mixed_case_no_flag():
-    """Fragment with uppercase letters → no violation (heuristic requires all-lowercase)."""
-    txt = "## Route stages\n\n[text](file.md#Route-Stages)\n"
-    ctx = make_ctx(txt)
-    assert not link_anchor_slug(ctx)
+@pytest.mark.anyio
+async def test_link_anchor_slug_mixed_case_matches_heading(tmp_path: PathLike[str]):
+    """A fragment written in a different case still names that heading."""
+    root = Path(tmp_path)
+    await (root / "topic.md").write_text("# topic\n\n## route stages\n\nText.\n")
+    ctx = make_ctx(
+        "See [route](topic.md#Route%20Stages) here.\n", path=root / "index.md"
+    )
+    assert not await link_anchor_slug(ctx)
 
 
 # submission content file exclusions -------------------------------------------------

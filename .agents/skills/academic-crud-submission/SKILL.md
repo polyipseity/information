@@ -112,6 +112,10 @@ tags:
 
 Every question quote block needs cloze flashcards (`{@{ }@}`) on its `- solution:` and `- explanation:` lines, never on the question text or answer choices. Use one cloze per solution (more only for very long multi-step solutions, one per logical step), and prefer several clozes per explanation, breaking it into individual claims, conditions, and reasoning steps. The closing delimiter is `}@}`. For multiple questions, delegate cloze creation to a subagent using the `create-flashcards` skill. See "Cloze flashcards in question blocks" in `academic-ingest` for the full form.
 
+### Flashcard style per section
+
+A content file may hold several kinds of section, and each section carries one flashcard style: prose with a `Flashcards for this section are as follows:` block of `::@::`/`:@:` cards, or question blocks whose `- solution:`/`- explanation:` lines carry clozes. Never mix the two within one section, and keep a cloze solution line inside the blockquote holding its question. A prompt that is not a question is prose, recorded with its own cards. See "Flashcard style per section" in `academic-ingest` for the full rule and the `academic-lint` rules that enforce it.
+
 ### No-submission case (no Canvas at all)
 
 When a tutorial/lab/lecture has neither in-class nor out-of-class Canvas components (an ungraded practice session):
