@@ -55,6 +55,18 @@ Flashcards for this section are as follows:
 - why a medium was assumed for the electromagnetic wave of speed $c$ ::@:: A wave propagates in a medium, and $c$ was expressed through the properties of free space, so a space-filling medium, the "ether", was assumed.
 - the status of the ether by 1895 ::@:: Its existence was one of the three unresolved problems of the period.
 
+## generation of electromagnetic waves
+
+Electromagnetic waves are produced by accelerating electric charges. A stationary charge creates a static Coulomb field that falls off as $1/r^2$ and does not radiate. A charge moving at constant velocity produces a steady magnetic field but still no propagating wave. Only when the charge accelerates ($\vec{a} \neq 0$) does the electric field configuration change in a way that detaches from the charge and propagates outward as a wave at speed $c$. The frequency of the emitted wave matches the frequency of the charge's oscillation, and the wavelength is $\lambda = c/f$. A receiving antenna detects the wave because its electric field exerts a force $\vec{F} = -e\vec{E}$ on free electrons, driving a current at the same frequency.
+
+---
+
+Flashcards for this section are as follows:
+
+- electromagnetic waves: what produces them ::@:: Accelerating electric charges; stationary charges and constant-velocity charges do not radiate.
+- the condition for radiation from a charge ::@:: The charge must accelerate ($\vec{a} \neq 0$). <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- how a receiving antenna detects an electromagnetic wave ::@:: The wave's electric field exerts a force $\vec{F} = -e\vec{E}$ on free electrons, driving a current at the same frequency. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+
 ## detection of electromagnetic waves
 
 Heinrich Hertz (1857–1894), a German physicist, detected the electromagnetic waves in 1885 at a distance of $15\ \text{m}$, which confirmed Maxwell's prediction. He saw no practical use in them, saying it was "of no use whatsoever" and answering a question about their applications with "Nothing, I guess."

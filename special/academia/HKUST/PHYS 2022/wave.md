@@ -49,3 +49,16 @@ Flashcards for this section are as follows:
 
 - waves: how energy is transferred ::@:: Over extended regions, by way of vibrations and rotations of the medium.
 - waves: the properties of the model ::@:: A perturbation in a mass distribution, propagating in a medium, spread in space, with a specific speed, superposing.
+
+## wave-particle duality
+
+In classical physics, waves and particles are distinct: a wave spreads through a medium while a particle travels along a definite path. Quantum mechanics reveals that matter and radiation exhibit both aspects. Louis de Broglie proposed in 1924 that any particle with momentum $p$ has an associated wavelength $\lambda = h/p$, where $h$ is the Planck constant. For a particle of mass $m$ and speed $v$, this gives $\lambda = h/mv$. Electrons, neutrons, and even whole atoms produce diffraction patterns when scattered from crystals, confirming that they behave as waves. The double-slit experiment shows this most clearly: when particles are fired one at a time through two slits, they accumulate an interference pattern on the detection screen, each particle interfering with itself. The fringe spacing is $\Delta x \approx \lambda L/d$, where $L$ is the distance from slits to screen and $d$ is the slit separation. Placing a which-way detector at the slits to determine which path the particle takes destroys the interference pattern, because the measurement collapses the superposition.
+
+---
+
+Flashcards for this section are as follows:
+
+- wave-particle duality: the central idea ::@:: Every quantum entity exhibits both wave-like and particle-like behaviour, depending on the experiment.
+- the de Broglie wavelength: its formula ::@:: $\lambda = h/p = h/mv$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- double-slit fringe spacing: the approximate formula ::@:: $\Delta x \approx \lambda L/d$, where $L$ is the slit-to-screen distance and $d$ is the slit separation. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- what placing a which-way detector at the slits does to the interference pattern ::@:: It destroys the interference pattern, because determining the path collapses the superposition.

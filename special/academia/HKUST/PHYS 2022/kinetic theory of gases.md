@@ -11,16 +11,21 @@ tags:
 
 The _kinetic theory of gases_ models a gas as a large number of molecules in constant random motion, each small compared with the distances between them. Their collisions with one another and with the walls of the container explain the macroscopic properties of the gas, and the same model accounts for its heat capacity through the number of degrees of freedom its molecules have.
 
+The theory rests on several assumptions: gas molecules are point masses with negligible volume compared to the container; they undergo perfectly elastic collisions with each other and with the walls (no net kinetic energy is lost); there are no intermolecular attractive or repulsive forces except during brief collisions; and the average kinetic energy of the molecules is directly proportional to the absolute temperature of the gas.
+
 ---
 
 Flashcards for this section are as follows:
 
 - overview: the model and what it explains ::@:: A gas is many molecules in constant random motion, and their collisions explain the macroscopic properties of pressure, volume, and temperature.
 - overview: what the number of degrees of freedom determines ::@:: The heat capacity of the gas.
+- the kinetic theory assumptions: the four key ones ::@:: Molecules are point masses with negligible volume; collisions are perfectly elastic; there are no intermolecular forces except during collisions; and average kinetic energy is proportional to absolute temperature.
 
 ## ideal gas law
 
 The experimental work of Robert Boyle (1627–1691), Jacques Charles (1746–1823), and Joseph Louis Gay-Lussac (1778–1850) culminates in the ideal gas equation for $N$ molecules of a "simple" gas, $PV = Nk_BT = nN_Ak_BT = nRT$. Here $k_B = 1.38 \times 10^{-23}\ \text{J/K}$ is the Boltzmann constant, $N_A = 6.02 \times 10^{23}\ \text{mol}^{-1}$ is Avogadro's number, $n$ is the amount of gas in moles, and $R = 8.31\ \text{J mol}^{-1}\text{K}^{-1}$ is the ideal gas constant.
+
+Four named gas laws are special cases of this equation, each holding one variable constant. Boyle's law states $P_1V_1 = P_2V_2$ at constant $T$ and $n$: decreasing the volume increases the wall collision frequency and thus the pressure. Charles's law states $V_1/T_1 = V_2/T_2$ at constant $P$ and $n$: heating the gas increases the average molecular speed, and the container must expand to keep the pressure constant. Gay-Lussac's law states $P_1/T_1 = P_2/T_2$ at constant $V$ and $n$: heating increases molecular speed and thus the force of wall collisions, raising the pressure. Avogadro's law states $V_1/n_1 = V_2/n_2$ at constant $P$ and $T$: adding more molecules requires the container to expand to keep the pressure constant.
 
 ---
 
@@ -32,6 +37,10 @@ Flashcards for this section are as follows:
 - the value of Avogadro's number $N_A$ ::@:: $6.02 \times 10^{23}\ \text{mol}^{-1}$.
 - the value of the ideal gas constant $R$ ::@:: $8.31\ \text{J mol}^{-1}\text{K}^{-1}$.
 - the people whose work the ideal gas equation culminates: the three named ::@:: Robert Boyle, Jacques Charles, and Joseph Louis Gay-Lussac.
+- Boyle's law: the relationship when $T$ and $n$ are constant ::@:: $P_1V_1 = P_2V_2$: decreasing volume increases pressure.
+- Charles's law: the relationship when $P$ and $n$ are constant ::@:: $V_1/T_1 = V_2/T_2$: heating increases volume.
+- Gay-Lussac's law: the relationship when $V$ and $n$ are constant ::@:: $P_1/T_1 = P_2/T_2$: heating increases pressure.
+- Avogadro's law: the relationship when $P$ and $T$ are constant ::@:: $V_1/n_1 = V_2/n_2$: adding molecules increases volume.
 
 ## equipartition of energy
 
@@ -121,3 +130,16 @@ The same failure shows in the constant-pressure heat capacity, $C_p = C_V + R$, 
 Flashcards for this section are as follows:
 
 - at constant pressure, the level of $f$ each of the named gases approaches over $300\ \text{K}$ to $3500\ \text{K}$ ::@:: $f = 3$ for argon, helium, neon, krypton, xenon, and radon; $f = 5$ for air; $f = 6$ for hydrogen; and $f = 13$ for carbon dioxide.
+
+## effusion and diffusion
+
+Effusion is the escape of gas molecules through a tiny hole into a vacuum, and diffusion is the intermixing of different gases driven by concentration gradients. Graham's law of effusion states that the rate of effusion of a gas is inversely proportional to the square root of its molar mass: $\text{Rate}_1/\text{Rate}_2 = \sqrt{m_2/m_1}$. At the same temperature, lighter molecules have a higher root-mean-square speed, $v_{\text{rms}} = \sqrt{3k_BT/m}$, so they effuse and diffuse faster. Hydrogen, the lightest gas, effuses roughly four times faster than oxygen.
+
+---
+
+Flashcards for this section are as follows:
+
+- effusion: what it is ::@:: The escape of gas molecules through a tiny hole into a vacuum.
+- diffusion: what it is ::@:: The intermixing of different gases driven by concentration gradients.
+- Graham's law: the relationship between effusion rate and molar mass ::@:: $\text{Rate}_1/\text{Rate}_2 = \sqrt{m_2/m_1}$: the rate is inversely proportional to the square root of the molar mass. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- root-mean-square speed: its formula ::@:: $v_{\text{rms}} = \sqrt{3k_BT/m}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->

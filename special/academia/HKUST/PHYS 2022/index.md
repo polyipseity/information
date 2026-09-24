@@ -28,6 +28,8 @@ PHYS 2022 is an undergraduate course in modern physics at HKUST covering relativ
 
 ## children
 
+- [Compton effect](Compton%20effect.md)
+- [X-ray](X-ray.md)
 - [`HW sample.pdf`](attachments/HW%20sample.pdf)
 - [`Project sample.pdf`](attachments/Project%20sample.pdf)
 - [classical physics](classical%20physics.md)
@@ -38,6 +40,7 @@ PHYS 2022 is an undergraduate course in modern physics at HKUST covering relativ
 - [kinetic theory of gases](kinetic%20theory%20of%20gases.md)
 - [light](light.md)
 - [modern physics](modern%20physics.md)
+- [photoelectric effect](photoelectric%20effect.md)
 - [physics](physics.md)
 - [wave](wave.md)
 
@@ -176,3 +179,23 @@ PHYS 2022 is an undergraduate course in modern physics at HKUST covering relativ
 - datetime: 2026-09-04T11:30:00+08:00/2026-09-04T12:20:00+08:00, PT50M
 - venue: G009B, CYT Bldg
 - status: unscheduled
+
+## week 2 lecture 1
+
+- datetime: 2026-09-08T13:30:00+08:00/2026-09-08T14:50:00+08:00, PT1H20M
+- venue: Lecture Theater G
+- topic: cathode ray experiments and the discovery of the electron; the photoelectric effect; X-ray discovery and production; the Compton effect
+- [modern physics](modern%20physics.md)
+    - modern physics / [§ discoveries of 1895 to 1898](modern%20physics.md#discoveries%20of%201895%20to%201898)
+- [photoelectric effect](photoelectric%20effect.md)
+    - photoelectric effect / [§ historical background](photoelectric%20effect.md#historical%20background)
+    - photoelectric effect / [§ experimental results](photoelectric%20effect.md#experimental%20results)
+    - photoelectric effect / [§ Einstein's interpretation](photoelectric%20effect.md#einstein%27s%20interpretation)
+- [X-ray](X-ray.md)
+    - X-ray / [§ discovery](X-ray.md#discovery)
+    - X-ray / [§ bremsstrahlung](X-ray.md#bremsstrahlung)
+    - X-ray / [§ characteristic X-rays](X-ray.md#characteristic%20X-rays)
+- [Compton effect](Compton%20effect.md)
+    - Compton effect / [§ photon momentum and energy](Compton%20effect.md#photon%20momentum%20and%20energy)
+    - Compton effect / [§ Compton wavelength](Compton%20effect.md#compton%20wavelength)
+    - Compton effect / [§ single-photon double-slit experiment](Compton%20effect.md#single-photon%20double-slit%20experiment)
