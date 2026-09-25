@@ -62,7 +62,7 @@ or {@{more conveniently}@} via {@{the factory syntax}@}, in which {@{parameters 
 > ```
 <!--SR:!fsrs,2030-02-26T00:00:00.000Z,1224,1224.09821834,1,2,9,0,0,2026-10-21T00:00:00.000Z!2026-11-05,280,345!2027-01-16,339,345-->
 
-{@{The operator corresponding to `::` for `LazyList`}@} is {@{the `#::` operator}@}, which prepends {@{a head element to a tail}@} that is {@{itself a lazy list}@}: <!--SR:!2026-11-29,301,345!2026-12-18,316,345!2027-01-09,333,345!2026-10-30,274,345-->
+{@{The operator corresponding to `::` for `LazyList`}@} is {@{the `#::` operator}@}, which prepends {@{a head element to a tail}@} that is {@{itself a lazy list}@}: <!--SR:!2026-11-29,301,345!2026-12-18,316,345!2027-01-09,333,345!fsrs,2030-04-12T00:00:00.000Z,1260,1260.08188809,1,2,9,0,0,2026-10-30T00:00:00.000Z-->
 
 > [!example] __`#::`__
 >
@@ -166,7 +166,7 @@ Here {@{`filter`}@} is {@{lazily evaluated}@}; when {@{the second element is acc
 > ```
 <!--SR:!2027-01-10,334,345!2026-11-25,297,345!2026-11-26,298,345!2026-12-12,309,345!2027-01-04,329,345!2026-11-03,278,345!2026-12-03,303,345!fsrs,2030-03-28T00:00:00.000Z,1248,1248.10391817,1,2,9,0,0,2026-10-27T00:00:00.000Z!2026-12-17,314,345-->
 
-Using {@{this naive construction}@}, {@{`lazyRange(1, 10).take(3)`}@} would trigger {@{the creation of `tail` two times (or three times depending on the `take` implementation)}@}—once for {@{each element taken except for the first element}@}—leading to {@{unnecessary work and potential performance degradation if repeatedly called}@}. This issue is resolved by {@{memoising the first evaluation of the tail}@} so that {@{subsequent calls reuse the stored result}@}—{@{an optimisation justified in pure functional languages}@} where {@{expressions are deterministic}@}. This approach exemplifies {@{_lazy evaluation_}@} (as opposed to {@{plain _by-name_ evaluation}@}, which {@{recomputes on every call}@}, or {@{strict evaluation}@} used for {@{ordinary parameters and `val`s}@}). <!--SR:!2026-12-01,303,345!2026-11-06,281,330!2026-12-06,306,345!2026-12-29,325,345!2027-01-20,342,345!2026-11-01,276,330!2026-11-20,292,345!fsrs,2030-04-02T00:00:00.000Z,1252,1252.09840125,1,2,9,0,0,2026-10-28T00:00:00.000Z!2026-11-11,286,345!fsrs,2030-03-23T00:00:00.000Z,1244,1244.10763092,1,2,9,0,0,2026-10-26T00:00:00.000Z!2026-10-30,274,345!2026-11-10,285,345!2026-11-18,290,345!2027-01-11,334,345-->
+Using {@{this naive construction}@}, {@{`lazyRange(1, 10).take(3)`}@} would trigger {@{the creation of `tail` two times (or three times depending on the `take` implementation)}@}—once for {@{each element taken except for the first element}@}—leading to {@{unnecessary work and potential performance degradation if repeatedly called}@}. This issue is resolved by {@{memoising the first evaluation of the tail}@} so that {@{subsequent calls reuse the stored result}@}—{@{an optimisation justified in pure functional languages}@} where {@{expressions are deterministic}@}. This approach exemplifies {@{_lazy evaluation_}@} (as opposed to {@{plain _by-name_ evaluation}@}, which {@{recomputes on every call}@}, or {@{strict evaluation}@} used for {@{ordinary parameters and `val`s}@}). <!--SR:!2026-12-01,303,345!2026-11-06,281,330!2026-12-06,306,345!2026-12-29,325,345!2027-01-20,342,345!2026-11-01,276,330!2026-11-20,292,345!fsrs,2030-04-02T00:00:00.000Z,1252,1252.09840125,1,2,9,0,0,2026-10-28T00:00:00.000Z!2026-11-11,286,345!fsrs,2030-03-23T00:00:00.000Z,1244,1244.10763092,1,2,9,0,0,2026-10-26T00:00:00.000Z!fsrs,2030-04-12T00:00:00.000Z,1260,1260.08188809,1,2,9,0,0,2026-10-30T00:00:00.000Z!2026-11-10,285,345!2026-11-18,290,345!2027-01-11,334,345-->
 
 {@{The above simplified `LazyList`}@} was {@{only lazy in its tail}@}, leaving {@{`head` and `isEmpty` strict}@}; {@{the production-grade implementation}@} fixes this by making {@{every part of the list lazily evaluated}@}.  It does so by storing {@{a single `state` field}@} that is {@{computed on first use}@}: <!--SR:!2027-03-18,392,371!2027-03-26,399,371!2027-04-08,409,371!2027-03-14,389,371!2027-04-04,406,371!2027-03-16,390,371!2027-03-17,391,371-->
 
@@ -290,7 +290,7 @@ Because {@{the tail of a lazy list}@} is {@{lazily evaluated}@}, it can {@{repre
 >
 > {@{The first square root approximation \(element\) that satisfies `isGoodEnough`}@} is {@{the desired square root}@}. <!--SR:!2027-04-08,410,370!2027-03-21,394,370!2027-03-31,402,368!2027-02-25,374,368-->
 
-{@{A combinatorial search problem}@}, such as {@{filling glasses to a target volume}@}, can be encoded with {@{lazy lists of state transitions}@}: <!--SR:!2026-10-30,274,345!2027-01-21,343,345!2026-12-30,325,345-->
+{@{A combinatorial search problem}@}, such as {@{filling glasses to a target volume}@}, can be encoded with {@{lazy lists of state transitions}@}: <!--SR:!fsrs,2030-04-12T00:00:00.000Z,1260,1260.08188809,1,2,9,0,0,2026-10-30T00:00:00.000Z!2027-01-21,343,345!2026-12-30,325,345-->
 
 > [!example] __water pouring problem__
 >
@@ -381,7 +381,7 @@ Under {@{the class `Pouring`}@}, {@{all glasses and possible moves}@} are {@{gen
 
 In {@{many functional languages}@}, {@{laziness}@} is {@{built into the core language}@} rather than {@{added as a library feature}@}. <!--SR:!2027-01-19,341,345!2026-11-29,301,345!2026-12-07,307,345!2026-12-13,312,345-->
 
-{@{Haskell}@} exemplifies {@{this approach}@}: {@{its list type}@} is {@{inherently lazy}@}, so values are {@{computed only when they are needed}@}. {@{A classic illustration}@} is {@{an infinite stream of guesses for a square root}@} defined with {@{the cons operator `::`}@}. <!--SR:!2026-10-31,275,345!2027-01-18,340,345!2026-12-30,325,345!2027-01-19,341,345!2026-11-01,276,330!2026-10-30,274,345!2026-11-04,279,345!2026-12-12,311,345-->
+{@{Haskell}@} exemplifies {@{this approach}@}: {@{its list type}@} is {@{inherently lazy}@}, so values are {@{computed only when they are needed}@}. {@{A classic illustration}@} is {@{an infinite stream of guesses for a square root}@} defined with {@{the cons operator `::`}@}. <!--SR:!2026-10-31,275,345!2027-01-18,340,345!2026-12-30,325,345!2027-01-19,341,345!2026-11-01,276,330!fsrs,2030-04-12T00:00:00.000Z,1260,1260.08188809,1,2,9,0,0,2026-10-30T00:00:00.000Z!2026-11-04,279,345!2026-12-12,311,345-->
 
 > [!example] __Haskell lazy evaluation example__
 >

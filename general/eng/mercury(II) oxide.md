@@ -11,7 +11,7 @@ tags:
 
 # mercury(II) oxide
 
-__Mercury(II) oxide__, also known as {@{__mercuric oxide__ or __mercury oxide__}@}, is {@{a [chemical compound](chemical%20compound.md) with the [chemical formula](chemical%20formula.md) __[Hg](mercury.md)[O](oxygen.md)__}@}. It looks like {@{red or yellow [solid](solid.md)}@}. <!--SR:!2035-07-09,3473,350!2029-01-13,1477,310!2026-10-30,496,190-->
+__Mercury(II) oxide__, also known as {@{__mercuric oxide__ or __mercury oxide__}@}, is {@{a [chemical compound](chemical%20compound.md) with the [chemical formula](chemical%20formula.md) __[Hg](mercury.md)[O](oxygen.md)__}@}. It looks like {@{red or yellow [solid](solid.md)}@}. <!--SR:!2035-07-09,3473,350!2029-01-13,1477,310!fsrs,2029-10-09T00:00:00.000Z,1075,1075.21015937,6.98338322,2,10,0,0,2026-10-30T00:00:00.000Z-->
 
 ## references
 

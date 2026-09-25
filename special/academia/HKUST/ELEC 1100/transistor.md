@@ -138,7 +138,7 @@ The saturation threshold $V_{\text{sat}}$ is found by equating $\beta I_B$ to $I
 
 Flashcards for this section are as follows:
 
-- inverter: how are logical HIGH and LOW defined? ::@:: By comparing $V_C$ and $V_E$: large $V_C - V_E$ is logical HIGH; small difference (about $0.2\text{ V}$) is logical LOW. <!--SR:!2026-10-30,167,310!fsrs,2027-05-11T10:14:48.351Z,331,330.69254451,1,2,7,0,0,2026-06-14T10:14:48.351Z-->
+- inverter: how are logical HIGH and LOW defined? ::@:: By comparing $V_C$ and $V_E$: large $V_C - V_E$ is logical HIGH; small difference (about $0.2\text{ V}$) is logical LOW. <!--SR:!fsrs,2028-10-25T00:00:00.000Z,726,726.08624093,1,2,8,0,0,2026-10-30T00:00:00.000Z!fsrs,2027-05-11T10:14:48.351Z,331,330.69254451,1,2,7,0,0,2026-06-14T10:14:48.351Z-->
 - NPN circuit as inverter: what is the logic behaviour? ::@:: Input LOW (transistor off): $V_C$ high, $V_E$ at ground, so output is logical HIGH. Input HIGH (transistor saturated): $V_C$ only slightly above $V_E$, so output is logical LOW. <!--SR:!fsrs,2027-05-15T10:14:49.135Z,335,335.28290091,1,2,7,0,0,2026-06-14T10:14:49.135Z!2027-01-29,244,330-->
 - saturation voltage $V_{\text{sat}}$: how is it found? ::@:: Set $\beta I_B = I_{C,\max}$. Use $I_B = (V_{\text{sat}} - 0.7\text{ V})/R_B$ and $I_{C,\max} = (V_{CC} - 0.2\text{ V})/R_C$; solve for $V_{\text{sat}}$. <!--SR:!fsrs,2027-04-18T02:05:43.220Z,314,314.10478149,1,2,7,0,0,2026-06-08T02:05:43.220Z!2026-11-03,170,310-->
 - lecture $V_{\text{sat}}$ example: what is $V_{\text{sat}}$? ::@:: $V_{\text{sat}} = 1.18\text{ V}$; for input above that the transistor is saturated and output is low. <!--SR:!2026-11-04,171,310!2027-02-15,257,330-->

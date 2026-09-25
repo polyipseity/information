@@ -172,7 +172,7 @@ Note that while {@{`$zero` or `$0`}@} has {@{the semantics of _constant_ zero}@}
 
 - set on less than ::@:: `slt $d, $s, $t`: `$d = $s < $t;`, signed <!--SR:!2028-09-01,971,355!fsrs,2030-11-19T14:16:25.147Z,1621,1620.54541606,1,2,9,0,0,2026-06-12T14:16:25.147Z-->
 - set on less than immediate ::@:: `slti $t, $s, imm`: `$t = $s < imm;`, signed; `imm` is sign-extended <!--SR:!2030-09-21,1589,375!2030-08-28,1570,375-->
-- set on less than immediate unsigned ::@:: `sltiu $t, $s, imm`: `$t = $s < imm;`, unsigned; `imm` is sign-extended \(_surprise_!\) <!--SR:!2026-10-30,409,310!2030-09-18,1586,375-->
+- set on less than immediate unsigned ::@:: `sltiu $t, $s, imm`: `$t = $s < imm;`, unsigned; `imm` is sign-extended \(_surprise_!\) <!--SR:!fsrs,2031-03-03T00:00:00.000Z,1585,1585.47596738,1,2,10,0,0,2026-10-30T00:00:00.000Z!2030-09-18,1586,375-->
 - set on less than unsigned ::@:: `sltu $d, $s, $t`: `$d = $s < $t;`, unsigned <!--SR:!fsrs,2030-10-19T14:16:27.552Z,1590,1589.66330278,1,2,9,0,0,2026-06-12T14:16:27.552Z!2030-07-26,1538,370-->
 
 ## floating-point instructions
@@ -354,7 +354,7 @@ The benefit of pseudo-instructions is that {@{they simplify your code to make it
 - set on greater than ::@:: `sgt $d, $s, $t`: `$d = $s > $t;`; implemented by `slt $d, $t, $s;` <!--SR:!2026-12-28,504,401!2027-01-31,537,401-->
 - set on greater than or equal to ::@:: `sge $d, $s, $t`: `$d = $s >= $t`; implemented by `slt $at, $s, $t; xori $d, $at, 1;` <!--SR:!fsrs,2031-08-21T00:00:00.000Z,1812,1812.0987331,1,2,10,0,0,2026-09-04T00:00:00.000Z!fsrs,2031-05-25T00:00:00.000Z,1763,1762.51909974,1,2,10,0,0,2026-07-27T00:00:00.000Z-->
 
-Note that some pseudo-instructions have {@{the same name as some of the _real_ instructions}@}. Whether the instruction or the pseudo-instruction is {@{used depends on the operands}@}. For example, {@{the load word `lw` instruction}@} has {@{several related pseudo-instructions of the same name that does the same thing}@} but {@{for operands not following the format `lw $t, $s(offset)`}@}, which are provided for {@{convenience, e.g. loading data addressed by a label (`lw $t, label`), etc.}@}. <!--SR:!fsrs,2032-08-14T00:00:00.000Z,2126,2125.84414965,1,2,10,0,0,2026-10-19T00:00:00.000Z!fsrs,2032-05-29T00:00:00.000Z,2065,2065.28037757,1,2,10,0,0,2026-10-03T00:00:00.000Z!2026-11-04,470,383!2030-07-24,1545,383!fsrs,2032-05-01T00:00:00.000Z,2045,2045.03582523,1,2,10,0,0,2026-09-25T00:00:00.000Z!2026-10-30,465,383-->
+Note that some pseudo-instructions have {@{the same name as some of the _real_ instructions}@}. Whether the instruction or the pseudo-instruction is {@{used depends on the operands}@}. For example, {@{the load word `lw` instruction}@} has {@{several related pseudo-instructions of the same name that does the same thing}@} but {@{for operands not following the format `lw $t, $s(offset)`}@}, which are provided for {@{convenience, e.g. loading data addressed by a label (`lw $t, label`), etc.}@}. <!--SR:!fsrs,2032-08-14T00:00:00.000Z,2126,2125.84414965,1,2,10,0,0,2026-10-19T00:00:00.000Z!fsrs,2032-05-29T00:00:00.000Z,2065,2065.28037757,1,2,10,0,0,2026-10-03T00:00:00.000Z!2026-11-04,470,383!2030-07-24,1545,383!fsrs,2032-05-01T00:00:00.000Z,2045,2045.03582523,1,2,10,0,0,2026-09-25T00:00:00.000Z!fsrs,2032-09-22T00:00:00.000Z,2154,2154.0218629,1,2,10,0,0,2026-10-30T00:00:00.000Z-->
 
 \(__this course__: Some questions may {@{require you to not use any pseudo-instructions}@}.\) <!--SR:!fsrs,2030-12-23T00:00:00.000Z,1648,1648.40853155,1,2,9,0,0,2026-06-19T00:00:00.000Z-->
 

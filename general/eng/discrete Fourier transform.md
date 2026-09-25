@@ -101,7 +101,7 @@ Multiplying {@{$x_{n}$ by a _linear phase_ $e^{ {\frac {i2\pi }{N} }nm}$ for som
 
 > [!tip] tips
 >
-> - interpretation of the shift theorem ::@:: The Fourier shift theorem from the time domain to the frequency domain has an intuitive interpretation. Interpret the argument (angle) of the complex number for each frequency as its time offset. Shifting a signal to the right (with warping) in the time domain increases the time offset for all frequencies. This means the complex number for each frequency is multiplied (rotated) by $e^{-\frac {i 2\pi} N km}$, changing its argument (angle) while keeping its modulus (length) unchanged. This corresponds to shifting its corresponding complex sinusoid in the time domain to the right (with warping). <!--SR:!2027-09-02,802,307!2026-10-30,563,327-->
+> - interpretation of the shift theorem ::@:: The Fourier shift theorem from the time domain to the frequency domain has an intuitive interpretation. Interpret the argument (angle) of the complex number for each frequency as its time offset. Shifting a signal to the right (with warping) in the time domain increases the time offset for all frequencies. This means the complex number for each frequency is multiplied (rotated) by $e^{-\frac {i 2\pi} N km}$, changing its argument (angle) while keeping its modulus (length) unchanged. This corresponds to shifting its corresponding complex sinusoid in the time domain to the right (with warping). <!--SR:!2027-09-02,802,307!fsrs,2032-12-01T00:00:00.000Z,2224,2224.002688,1,2,10,0,0,2026-10-30T00:00:00.000Z-->
 
 ### circular convolution theorem
 

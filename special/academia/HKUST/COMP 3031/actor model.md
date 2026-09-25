@@ -282,7 +282,7 @@ If two messages {@{arrive concurrently}@}, they are {@{queued and executed one a
 
 ## entry point
 
-{@{A minimal program}@} that creates {@{a counter}@}, sends {@{three increment messages}@}, asks for {@{the result, prints it}@}, and then {@{stops itself}@} is written as {@{an actor}@}: <!--SR:!2026-11-22,251,330!2026-11-03,235,330!2027-01-05,280,330!2026-10-30,231,330!2026-11-24,252,330!2027-01-14,287,330-->
+{@{A minimal program}@} that creates {@{a counter}@}, sends {@{three increment messages}@}, asks for {@{the result, prints it}@}, and then {@{stops itself}@} is written as {@{an actor}@}: <!--SR:!2026-11-22,251,330!2026-11-03,235,330!2027-01-05,280,330!fsrs,2029-08-29T00:00:00.000Z,1034,1033.61384781,1,2,9,0,0,2026-10-30T00:00:00.000Z!2026-11-24,252,330!2027-01-14,287,330-->
 
 > [!example] __`Main` actor__
 >

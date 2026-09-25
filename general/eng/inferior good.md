@@ -49,7 +49,7 @@ Others are {@{very inconsistent across geographic regions or cultures}@}. {@{The
 
 ### income effect
 
-The income effect describes {@{the relationship between an increase in real income and demand for a good}@}. Inferior goods {@{experience negative income effect}@}, where {@{its consumption decreases when a consumer's income increases}@}.<sup>[\[10\]](#^ref-10)</sup> {@{The increase in real income}@} means {@{consumers can afford a bundle of goods that give them higher utility}@}. Inferior goods are {@{unlikely to provide the latter, thus why its consumption decreases}@}. <!--SR:!2027-08-23,763,330!2028-11-01,1122,350!fsrs,2032-02-05T00:00:00.000Z,1930,1930.16308357,1,2,10,0,0,2026-10-24T00:00:00.000Z!2027-08-27,767,330!2028-12-16,1156,350!2026-10-30,518,310-->
+The income effect describes {@{the relationship between an increase in real income and demand for a good}@}. Inferior goods {@{experience negative income effect}@}, where {@{its consumption decreases when a consumer's income increases}@}.<sup>[\[10\]](#^ref-10)</sup> {@{The increase in real income}@} means {@{consumers can afford a bundle of goods that give them higher utility}@}. Inferior goods are {@{unlikely to provide the latter, thus why its consumption decreases}@}. <!--SR:!2027-08-23,763,330!2028-11-01,1122,350!fsrs,2032-02-05T00:00:00.000Z,1930,1930.16308357,1,2,10,0,0,2026-10-24T00:00:00.000Z!2027-08-27,767,330!2028-12-16,1156,350!fsrs,2032-03-02T00:00:00.000Z,1950,1949.97677109,1,2,10,0,0,2026-10-30T00:00:00.000Z-->
 
 ### substitution effect
 

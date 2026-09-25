@@ -122,7 +122,7 @@ A word can have {@{many meanings}@}, in a {@{phenomenon known as _polysemy_}@}. 
 - [utilitarianism](https://en.wiktionary.org/wiki/utilitarianism) ::@:: \(u_m\) A system of ethics based on the premise that something's value may be measured by its usefulness. <!--SR:!2028-04-20,807,443!2027-08-19,567,423-->
 - [vacuous](https://en.wiktionary.org/wiki/vacuous) ::@:: \(v\_s\) Empty, void. <!--SR:!2028-04-28,1242,364!2032-04-28,2299,344-->
 - [vacuum](https://en.wiktionary.org/wiki/vacuum) ::@:: \(v\_m\) A region of [space](../../../general/space.md) containing no [matter](../../../general/matter.md). <!--SR:!2028-10-23,1372,364!2028-06-10,1275,364-->
-- [vehicle](https://en.wiktionary.org/wiki/vehicle) ::@:: \(v\_e\) A spacious device for transporting things. <!--SR:!2026-10-30,783,416!2030-03-08,1719,396-->
+- [vehicle](https://en.wiktionary.org/wiki/vehicle) ::@:: \(v\_e\) A spacious device for transporting things. <!--SR:!fsrs,2036-02-09T00:00:00.000Z,3389,3388.97667621,1,2,11,0,0,2026-10-30T00:00:00.000Z!2030-03-08,1719,396-->
 - [viscous](https://en.wiktionary.org/wiki/viscous) ::@:: \(v\_s\) Having a thick and stick consistency between [solid](../../../general/solid.md) and [liquid](../../../general/liquid.md). <!--SR:!2028-03-05,1199,364!2030-12-22,1938,344-->
 - [volatile](https://en.wiktionary.org/wiki//volatile) ::@:: \(v\_e\) [Evaporating](../../../general/evaporation.md) or [vaporizing](../../../general/vaporization.md) readily under normal conditions. <!--SR:!2028-02-20,800,433!2028-02-22,802,433-->
 - [volatility](https://en.wiktionary.org/wiki/volatility) ::@:: \(v\_y\) The state of being volatile. <!--SR:!2028-01-25,778,433!2028-01-24,778,433-->
