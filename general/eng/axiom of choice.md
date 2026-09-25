@@ -16,7 +16,7 @@ tags:
 
 > {@{![Illustration of the axiom of choice, with each set _S_<sub>_i_</sub> represented as a jar and its elements represented as marbles.](../../archives/Wikimedia%20Commons/Axiome%20du%20choix.png)}@}
 >
-> Illustration of {@{the axiom of choice}@}, with {@{each set _S_<sub>_i_</sub> represented as a jar and its elements represented as marbles}@}. {@{Each element _x_<sub>_i_</sub>}@} is represented as {@{a marble on the right}@}. {@{Colors}@} are used to suggest {@{a functional association of marbles after adopting the choice axiom}@}. {@{The existence of such a choice function}@} is {@{in general independent of ZF for collections of infinite cardinality}@}, even if {@{all _S_<sub>_i_</sub> are finite}@}. <!--SR:!2026-11-13,345,364!2026-11-09,342,364!2026-11-09,342,364!fsrs,2030-08-12T00:00:00.000Z,1410,1410.21782865,1,2,9,0,0,2026-10-02T00:00:00.000Z!2027-01-08,390,364!2026-10-29,329,347!2027-01-09,391,364!fsrs,2030-07-26T00:00:00.000Z,1396,1395.81630398,1,2,9,0,0,2026-09-29T00:00:00.000Z!2026-11-12,343,364!2026-11-19,351,364-->
+> Illustration of {@{the axiom of choice}@}, with {@{each set _S_<sub>_i_</sub> represented as a jar and its elements represented as marbles}@}. {@{Each element _x_<sub>_i_</sub>}@} is represented as {@{a marble on the right}@}. {@{Colors}@} are used to suggest {@{a functional association of marbles after adopting the choice axiom}@}. {@{The existence of such a choice function}@} is {@{in general independent of ZF for collections of infinite cardinality}@}, even if {@{all _S_<sub>_i_</sub> are finite}@}. <!--SR:!2026-11-13,345,364!2026-11-09,342,364!2026-11-09,342,364!fsrs,2030-08-12T00:00:00.000Z,1410,1410.21782865,1,2,9,0,0,2026-10-02T00:00:00.000Z!2027-01-08,390,364!fsrs,2030-11-23T00:00:00.000Z,1486,1486.48006205,1,2,9,0,0,2026-10-29T00:00:00.000Z!2027-01-09,391,364!fsrs,2030-07-26T00:00:00.000Z,1396,1395.81630398,1,2,9,0,0,2026-09-29T00:00:00.000Z!2026-11-12,343,364!2026-11-19,351,364-->
 
 <!-- markdownlint MD028 -->
 
@@ -52,7 +52,7 @@ In {@{this article and other discussions of the Axiom of Choice}@} {@{the follow
 
 ### variants
 
-There are {@{many other equivalent statements of the axiom of choice}@}. These are {@{equivalent in the sense}@} that, in {@{the presence of other basic axioms of set theory}@}, they {@{imply the axiom of choice and are implied by it}@}. <!--SR:!2026-12-10,367,364!fsrs,2030-11-11T00:00:00.000Z,1479,1478.62817385,1,2,9,0,0,2026-10-24T00:00:00.000Z!2026-10-29,330,347!fsrs,2030-02-15T00:00:00.000Z,1272,1272.25632328,1,2,9,0,0,2026-08-23T00:00:00.000Z-->
+There are {@{many other equivalent statements of the axiom of choice}@}. These are {@{equivalent in the sense}@} that, in {@{the presence of other basic axioms of set theory}@}, they {@{imply the axiom of choice and are implied by it}@}. <!--SR:!2026-12-10,367,364!fsrs,2030-11-11T00:00:00.000Z,1479,1478.62817385,1,2,9,0,0,2026-10-24T00:00:00.000Z!fsrs,2030-11-27T00:00:00.000Z,1490,1490.40377864,1,2,9,0,0,2026-10-29T00:00:00.000Z!fsrs,2030-02-15T00:00:00.000Z,1272,1272.25632328,1,2,9,0,0,2026-08-23T00:00:00.000Z-->
 
 One variation {@{avoids the use of choice functions}@} by, in effect, {@{replacing each choice function with its range}@}: <!--SR:!fsrs,2029-07-10T00:00:00.000Z,1088,1087.80493378,1,2,9,0,0,2026-07-18T00:00:00.000Z!fsrs,2030-07-26T00:00:00.000Z,1396,1395.81630398,1,2,9,0,0,2026-09-29T00:00:00.000Z-->
 

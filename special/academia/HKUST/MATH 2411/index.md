@@ -131,7 +131,7 @@ The content is in teaching order.
     - sample mean vs sample median ::@:: The former is sensitive to outliers while the latter is not. This motivates trimming the outliers of the observations before calculating the former to reduce its sensitiveness to outliers (while still being more sensitive than the latter). <!--SR:!2027-04-25,732,330!2028-04-02,1014,350-->
         - sample mean vs sample median / details ::@:: The former is used if the distribution is symmetric, unimodal and there are no outliers. Otherwise the latter is usually better. <!--SR:!2028-11-05,1188,350!2027-05-19,742,330-->
         - sample mean vs sample median / trimmed (sample) mean ::@:: It is found by removing a certain percent of both the least and greatest values of the observations before computing its mean. <!--SR:!2028-07-01,1084,350!2029-05-13,1332,350-->
-            - sample mean vs sample median / trimmed (sample) mean / notation (examples) ::@:: For example, $\bar x_{\operatorname{tr}(10)}$, called _10% trimmed mean_, is the mean after trimming the least 10% and greatest 10% of the observations. <!--SR:!2027-11-07,867,330!2026-10-29,575,310-->
+            - sample mean vs sample median / trimmed (sample) mean / notation (examples) ::@:: For example, $\bar x_{\operatorname{tr}(10)}$, called _10% trimmed mean_, is the mean after trimming the least 10% and greatest 10% of the observations. <!--SR:!2027-11-07,867,330!fsrs,2032-09-04T00:00:00.000Z,2137,2136.92969729,1,2,10,0,0,2026-10-29T00:00:00.000Z-->
 
 ## week 1 lecture 2
 

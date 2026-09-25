@@ -24,10 +24,10 @@ Write a sketch, verify or compile it, and upload it through USB. The compiler co
 
 Flashcards for this section are as follows:
 
-- Arduino definition ::@:: An open-source microcontroller-board platform for building interactive digital devices. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
-- why Nano and Uno are similar ::@:: Both use the ATmega328, so the Uno works for simulation while the Nano is used on the physical robot. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
-- Arduino workflow ::@:: Write a sketch, verify/compile in the IDE, upload via USB. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
-- compiler role ::@:: Converts source code into machine language the microcontroller can execute. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- Arduino definition ::@:: An open-source microcontroller-board platform for building interactive digital devices. <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
+- why Nano and Uno are similar ::@:: Both use the ATmega328, so the Uno works for simulation while the Nano is used on the physical robot. <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
+- Arduino workflow ::@:: Write a sketch, verify/compile in the IDE, upload via USB. <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
+- compiler role ::@:: Converts source code into machine language the microcontroller can execute. <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
 
 ## sketch structure, comments, constants, and variables
 
@@ -41,8 +41,8 @@ The `setup()` function runs once after reset or power-up and is used for initial
 
 Flashcards for this section are as follows:
 
-- `setup()` ::@:: Runs once after reset or power-up; used for initialization (e.g. pin configuration). <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
-- `loop()` ::@:: Runs repeatedly; carries the ongoing control behavior. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- `setup()` ::@:: Runs once after reset or power-up; used for initialization (e.g. pin configuration). <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
+- `loop()` ::@:: Runs repeatedly; carries the ongoing control behavior. <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
 
 ### comments, `const`, and `int`
 
@@ -52,10 +52,10 @@ Comments explain intent without affecting execution. `const` marks values that s
 
 Flashcards for this section are as follows:
 
-- named constants ::@:: Keep pin numbers and hardware roles readable instead of hiding them in raw numbers. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
-- comments ::@:: Explain intent and wiring roles without changing execution. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
-- `const` ::@:: Marks a value that should not change during execution (e.g. named pin assignment). <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
-- `int` ::@:: Stores whole-number values such as sensor readings, counters, and delay times. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- named constants ::@:: Keep pin numbers and hardware roles readable instead of hiding them in raw numbers. <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
+- comments ::@:: Explain intent and wiring roles without changing execution. <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
+- `const` ::@:: Marks a value that should not change during execution (e.g. named pin assignment). <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
+- `int` ::@:: Stores whole-number values such as sensor readings, counters, and delay times. <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
 
 ### local variables and stored state
 
@@ -65,7 +65,7 @@ Where a variable is declared determines its lifetime. A variable inside a functi
 
 Flashcards for this section are as follows:
 
-- persistent scope for `countBumper` ::@:: Must be outside the decision block so it is not reinitialized every time `loop()` repeats. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- persistent scope for `countBumper` ::@:: Must be outside the decision block so it is not reinitialized every time `loop()` repeats. <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
 
 ## digital and analog pin naming, input logic, and output limits
 
@@ -79,8 +79,8 @@ Pins labeled `D0` to `D13` are used mainly for digital HIGH/LOW signals. Pins `A
 
 Flashcards for this section are as follows:
 
-- `D` vs `A` pin labels ::@:: `D` pins are for digital HIGH/LOW; `A` pins are tied to ADC hardware but can also be used as named digital inputs. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
-- ADC ::@:: Analog-to-digital conversion: converts a continuously varying signal into a numerical value. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- `D` vs `A` pin labels ::@:: `D` pins are for digital HIGH/LOW; `A` pins are tied to ADC hardware but can also be used as named digital inputs. <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
+- ADC ::@:: Analog-to-digital conversion: converts a continuously varying signal into a numerical value. <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
 
 ### built-in pin functions and logic values
 
@@ -104,8 +104,8 @@ Analog pins read through ADC. On this board, above ~$3.0\text{ V}$ reads HIGH, b
 
 Flashcards for this section are as follows:
 
-- why motors need a driver ::@:: Output pins can drive only small loads; motors require interface circuitry (e.g. L293). <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
-- digital thresholds ::@:: Above ~$3.0\text{ V}$ is HIGH; below ~$1.5\text{ V}$ is LOW. <!-- check: ignore-line[two_sided_calc_warning]: threshold values are conceptual here --> <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- why motors need a driver ::@:: Output pins can drive only small loads; motors require interface circuitry (e.g. L293). <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
+- digital thresholds ::@:: Above ~$3.0\text{ V}$ is HIGH; below ~$1.5\text{ V}$ is LOW. <!-- check: ignore-line[two_sided_calc_warning]: threshold values are conceptual here --> <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
 
 ## control flow, operators, and reusable functions
 
@@ -119,8 +119,8 @@ In regular flow, statements execute in written order. In controlled flow, condit
 
 Flashcards for this section are as follows:
 
-- regular vs controlled flow ::@:: Regular: statements in written order. Controlled: conditions and loops choose different paths. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
-- emphasized control structures ::@:: `if`, `else if`, `for`, and `while`. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- regular vs controlled flow ::@:: Regular: statements in written order. Controlled: conditions and loops choose different paths. <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
+- emphasized control structures ::@:: `if`, `else if`, `for`, and `while`. <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
 
 ### conditionals, comparisons, and Boolean operators
 
@@ -130,8 +130,8 @@ Conditional statements such as `if`, `else if`, and `else` choose actions from s
 
 Flashcards for this section are as follows:
 
-- Boolean operators ::@:: `!` = NOT, `&&` = AND, `||` = OR. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
-- comparison operators ::@:: `!=`, `<`, `<=`, `==`, `>`, `>=`. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- Boolean operators ::@:: `!` = NOT, `&&` = AND, `||` = OR. <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
+- comparison operators ::@:: `!=`, `<`, `<=`, `==`, `>`, `>=`. <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
 
 ### loops and refreshing the tested condition
 
@@ -141,9 +141,9 @@ Repetition can be expressed with `for` loops when the repeat count is known and 
 
 Flashcards for this section are as follows:
 
-- `for` vs `while` ::@:: `for` when the count is known; `while` when it depends on a changing condition. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
-- `while` loop danger ::@:: If the tested condition is not refreshed, the loop acts on stale information forever. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
-- sensor-controlled `while` ::@:: Must re-read the sensor (e.g. `digitalRead()`) so the exit condition can change. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- `for` vs `while` ::@:: `for` when the count is known; `while` when it depends on a changing condition. <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
+- `while` loop danger ::@:: If the tested condition is not refreshed, the loop acts on stale information forever. <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
+- sensor-controlled `while` ::@:: Must re-read the sensor (e.g. `digitalRead()`) so the exit condition can change. <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
 
 ### compound operators and counters
 
@@ -153,8 +153,8 @@ Compound operators (`++`, `+=`, `--`, `-=`) shorten repeated updates. A counter 
 
 Flashcards for this section are as follows:
 
-- compound operators ::@:: `++`, `+=`, `--`, `-=`: shorthand for increment, add, decrement, subtract. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
-- counter usefulness ::@:: Let the robot remember event counts so later decisions depend on past state. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- compound operators ::@:: `++`, `+=`, `--`, `-=`: shorthand for increment, add, decrement, subtract. <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
+- counter usefulness ::@:: Let the robot remember event counts so later decisions depend on past state. <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
 
 ### logic flowcharts and user-defined functions
 
@@ -166,13 +166,13 @@ The built-in functions emphasized in the lectures are `pinMode()`, `digitalRead(
 
 Flashcards for this section are as follows:
 
-- flowchart purpose ::@:: Turns the task into explicit decision, process, and I/O steps before coding. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
-- built-in functions ::@:: `pinMode()`, `digitalRead()`, `digitalWrite()`, `delay()`, `analogWrite()`. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
-- user-defined function contents ::@:: Return type, function name, optional parameters, function body. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
-- function placement ::@:: Declared outside `setup()` and `loop()`. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
-- function usage order ::@:: Define → call → optionally use returned result. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
-- parameter usefulness ::@:: One function reused with different values instead of hard-coding. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
-- `void myBlink(int delayTime, int led)` ::@:: Shows that parameters let the same blink logic work with different delays and LED pins. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- flowchart purpose ::@:: Turns the task into explicit decision, process, and I/O steps before coding. <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
+- built-in functions ::@:: `pinMode()`, `digitalRead()`, `digitalWrite()`, `delay()`, `analogWrite()`. <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
+- user-defined function contents ::@:: Return type, function name, optional parameters, function body. <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
+- function placement ::@:: Declared outside `setup()` and `loop()`. <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
+- function usage order ::@:: Define → call → optionally use returned result. <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
+- parameter usefulness ::@:: One function reused with different values instead of hard-coding. <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
+- `void myBlink(int delayTime, int led)` ::@:: Shows that parameters let the same blink logic work with different delays and LED pins. <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
 
 ## robot pin map
 
@@ -186,8 +186,8 @@ The left and right line sensors connect to `A5` and `A3`, and the bumper sensor 
 
 Flashcards for this section are as follows:
 
-- line sensor pins ::@:: `A5` = left, `A3` = right. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
-- bumper sensor pin ::@:: `A4`. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- line sensor pins ::@:: `A5` = left, `A3` = right. <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
+- bumper sensor pin ::@:: `A4`. <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
 
 ### motor outputs
 
@@ -197,9 +197,9 @@ The left and right PWM commands use `D9` and `D11`, and the left and right direc
 
 Flashcards for this section are as follows:
 
-- PWM pins ::@:: `D9` = `L_PWM`, `D11` = `R_PWM`. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
-- direction pins ::@:: `D10` = `L_DIR`, `D12` = `R_DIR`. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
-- fixed pin map ::@:: Keeps code, driver circuit, and sensor wiring consistent. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- PWM pins ::@:: `D9` = `L_PWM`, `D11` = `R_PWM`. <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
+- direction pins ::@:: `D10` = `L_DIR`, `D12` = `R_DIR`. <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
+- fixed pin map ::@:: Keeps code, driver circuit, and sensor wiring consistent. <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
 
 ## timing, PWM output, and debugging habits
 
@@ -211,10 +211,10 @@ Flashcards for this section are as follows:
 
 Flashcards for this section are as follows:
 
-- `delay()` ::@:: Pauses the program for a chosen number of milliseconds. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
-- `delay()` risk ::@:: Long blocking delays slow the controller's reaction to new input. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
-- `analogWrite(pin, value)` ::@:: Generates PWM on supported output pins for LED fading or motor-speed control. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
-- `analogWrite` misnomer ::@:: Despite the name, it produces a PWM waveform, not a true analog voltage. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- `delay()` ::@:: Pauses the program for a chosen number of milliseconds. <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
+- `delay()` risk ::@:: Long blocking delays slow the controller's reaction to new input. <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
+- `analogWrite(pin, value)` ::@:: Generates PWM on supported output pins for LED fading or motor-speed control. <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
+- `analogWrite` misnomer ::@:: Despite the name, it produces a PWM waveform, not a true analog voltage. <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
 
 ### debugging habits
 
@@ -224,5 +224,5 @@ Debugging checklist: verify pin map, power rails, sensor reads, logic values, an
 
 Flashcards for this section are as follows:
 
-- debugging checks ::@:: Verify pin map, power rails, sensor reads, logic values, and upload path. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
-- Nano removal before upload ::@:: Remove when surrounding socketed hardware interferes with reprogramming. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- debugging checks ::@:: Verify pin map, power rails, sensor reads, logic values, and upload path. <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
+- Nano removal before upload ::@:: Remove when surrounding socketed hardware interferes with reprogramming. <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->

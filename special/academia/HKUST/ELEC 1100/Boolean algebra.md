@@ -19,9 +19,9 @@ A Boolean variable takes only two values, usually written as 0 and 1, LOW and HI
 
 Flashcards for this section are as follows:
 
-- Boolean values ::@:: Two values: 0/1, LOW/HIGH, or false/true. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
-- truth table ::@:: Lists the output for every possible input combination. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
-- truth-table rows for $n$ inputs ::@:: $2^n$ rows. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- Boolean values ::@:: Two values: 0/1, LOW/HIGH, or false/true. <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
+- truth table ::@:: Lists the output for every possible input combination. <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
+- truth-table rows for $n$ inputs ::@:: $2^n$ rows. <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
 
 ## basic gates and laws
 
@@ -39,13 +39,13 @@ These laws simplify logic expressions before building them with gates.
 
 Flashcards for this section are as follows:
 
-- NOT ::@:: Inverts: 0 → 1, 1 → 0. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
-- AND ::@:: Outputs 1 only when all inputs are 1. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
-- OR ::@:: Outputs 1 when at least one input is 1. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
-- commutative laws ::@:: $X+Y=Y+X$ and $X\cdot Y=Y\cdot X$. <!-- check: ignore-line[two_sided_calc_warning]: formula flashcard --> <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
-- identity and complement laws ::@:: $0+X=X$, $1+X=1$, $X'+X=1$, $X\cdot X'=0$. <!-- check: ignore-line[two_sided_calc_warning]: formula flashcard --> <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
-- idempotence and involution ::@:: $X+X=X$, $X\cdot X=X$, $(X')'=X$. <!-- check: ignore-line[two_sided_calc_warning]: formula flashcard --> <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
-- DeMorgan's laws ::@:: Convert complemented AND to OR and complemented OR to AND, useful for simplification and gate substitution. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- NOT ::@:: Inverts: 0 → 1, 1 → 0. <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
+- AND ::@:: Outputs 1 only when all inputs are 1. <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
+- OR ::@:: Outputs 1 when at least one input is 1. <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
+- commutative laws ::@:: $X+Y=Y+X$ and $X\cdot Y=Y\cdot X$. <!-- check: ignore-line[two_sided_calc_warning]: formula flashcard --> <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
+- identity and complement laws ::@:: $0+X=X$, $1+X=1$, $X'+X=1$, $X\cdot X'=0$. <!-- check: ignore-line[two_sided_calc_warning]: formula flashcard --> <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
+- idempotence and involution ::@:: $X+X=X$, $X\cdot X=X$, $(X')'=X$. <!-- check: ignore-line[two_sided_calc_warning]: formula flashcard --> <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
+- DeMorgan's laws ::@:: Convert complemented AND to OR and complemented OR to AND, useful for simplification and gate substitution. <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
 
 <!-- check: ignore-next-line[header_style]: acronym -->
 ## NAND and NOR gates
@@ -56,9 +56,9 @@ NAND and NOR are the complemented versions of AND and OR. Their formulas are $(X
 
 Flashcards for this section are as follows:
 
-- NAND ::@:: $(X\cdot Y)'$. <!-- check: ignore-line[two_sided_calc_warning]: formula flashcard --> <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
-- NOR ::@:: $(X+Y)'$. <!-- check: ignore-line[two_sided_calc_warning]: formula flashcard --> <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
-- NAND/NOR universality ::@:: Each is a universal gate; a complete circuit can use only NAND or only NOR gates. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- NAND ::@:: $(X\cdot Y)'$. <!-- check: ignore-line[two_sided_calc_warning]: formula flashcard --> <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
+- NOR ::@:: $(X+Y)'$. <!-- check: ignore-line[two_sided_calc_warning]: formula flashcard --> <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
+- NAND/NOR universality ::@:: Each is a universal gate; a complete circuit can use only NAND or only NOR gates. <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
 
 ## historical development
 
@@ -68,9 +68,9 @@ George Boole (1815–1864) invented the subject. Claude Shannon's 1937 MIT thesi
 
 Flashcards for this section are as follows:
 
-- George Boole ::@:: Invented Boolean algebra. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
-- Boolean logic significance ::@:: One of the foundations of modern computer science. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
-- Claude Shannon ::@:: Connected Boolean algebra to electronic switching circuits in his 1937 MIT thesis, establishing binary digital electronics. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- George Boole ::@:: Invented Boolean algebra. <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
+- Boolean logic significance ::@:: One of the foundations of modern computer science. <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
+- Claude Shannon ::@:: Connected Boolean algebra to electronic switching circuits in his 1937 MIT thesis, establishing binary digital electronics. <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
 
 <!-- check: ignore-next-line[header_style]: acronym -->
 ## XOR, XNOR, and simplification
@@ -95,6 +95,6 @@ In the robot, `L_Sensor` and `R_Sensor` define input rows; `L_DIR` and `R_DIR` d
 
 Flashcards for this section are as follows:
 
-- Boolean workflow ::@:: Specification → truth table → Boolean expression → simplify → implement with gates. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
-- robot inputs/outputs ::@:: Inputs: `L_Sensor`, `R_Sensor`. Outputs: `L_DIR`, `R_DIR`. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
-- skipping the truth table ::@:: Risk: a neat-looking circuit that does not match the required behavior. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- Boolean workflow ::@:: Specification → truth table → Boolean expression → simplify → implement with gates. <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
+- robot inputs/outputs ::@:: Inputs: `L_Sensor`, `R_Sensor`. Outputs: `L_DIR`, `R_DIR`. <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
+- skipping the truth table ::@:: Risk: a neat-looking circuit that does not match the required behavior. <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->

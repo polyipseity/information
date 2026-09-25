@@ -20,9 +20,9 @@ A rectangular pulse waveform is described by its HIGH duration $H$, LOW duration
 
 Flashcards for this section are as follows:
 
-- PWM waveform quantities: what are $H$, $L$, $T$, $f$, and duty cycle? ::@:: $H$ is HIGH time, $L$ is LOW time, $T=H+L$ is the period, $f=1/T$ is the frequency, and duty cycle is $D=H/T$. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
-- PWM duty cycle meaning: what does a larger duty cycle mean physically? ::@:: The signal spends a larger fraction of each period at the HIGH level, so the load receives more average drive. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
-- DSO PWM reading: what are the first quantities to identify on a pulse waveform? ::@:: The HIGH time, LOW time, period, frequency, and duty cycle. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- PWM waveform quantities: what are $H$, $L$, $T$, $f$, and duty cycle? ::@:: $H$ is HIGH time, $L$ is LOW time, $T=H+L$ is the period, $f=1/T$ is the frequency, and duty cycle is $D=H/T$. <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
+- PWM duty cycle meaning: what does a larger duty cycle mean physically? ::@:: The signal spends a larger fraction of each period at the HIGH level, so the load receives more average drive. <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
+- DSO PWM reading: what are the first quantities to identify on a pulse waveform? ::@:: The HIGH time, LOW time, period, frequency, and duty cycle. <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
 
 ## average voltage and equivalent DC voltage
 
@@ -32,10 +32,10 @@ For a pulse source that switches between $V_H$ and $V_L$, the average voltage ov
 
 Flashcards for this section are as follows:
 
-- PWM average voltage: for levels $V_H$ and $V_L$, what is $V_{\text{ave}}$? ::@:: $V_{\text{ave}}=(HV_H+LV_L)/(H+L)$. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
-- PWM equivalent DC voltage: for a resistive load, what is $V_{\text{eq}}$? ::@:: $V_{\text{eq}}=\sqrt{(HV_H^2+LV_L^2)/(H+L)}$. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
-- PWM with $V_L=0$: what does $V_{\text{eq}}$ reduce to? ::@:: $V_{\text{eq}}=\sqrt{D}\,V_H$ when the LOW level is $0\text{ V}$. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
-- average vs equivalent voltage: why distinguish $V_{\text{ave}}$ from $V_{\text{eq}}$? ::@:: Equal arithmetic mean does not always mean equal delivered power; $V_{\text{eq}}$ is needed when comparing heating or brightness in a resistive load. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- PWM average voltage: for levels $V_H$ and $V_L$, what is $V_{\text{ave}}$? ::@:: $V_{\text{ave}}=(HV_H+LV_L)/(H+L)$. <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
+- PWM equivalent DC voltage: for a resistive load, what is $V_{\text{eq}}$? ::@:: $V_{\text{eq}}=\sqrt{(HV_H^2+LV_L^2)/(H+L)}$. <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
+- PWM with $V_L=0$: what does $V_{\text{eq}}$ reduce to? ::@:: $V_{\text{eq}}=\sqrt{D}\,V_H$ when the LOW level is $0\text{ V}$. <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
+- average vs equivalent voltage: why distinguish $V_{\text{ave}}$ from $V_{\text{eq}}$? ::@:: Equal arithmetic mean does not always mean equal delivered power; $V_{\text{eq}}$ is needed when comparing heating or brightness in a resistive load. <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
 
 <!-- check: ignore-next-line[header_style]: acronym -->
 ## PWM in motor control
@@ -50,12 +50,12 @@ The Arduino `analogWrite(pin, value)` call is the standard PWM interface on this
 
 Flashcards for this section are as follows:
 
-- PWM vs DIR in the robot car: what is the difference? ::@:: DIR selects the current direction through the motor, while PWM controls the average motor drive and therefore the speed. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
-- PWM motor-speed relation: for most motors on this robot platform, how does speed vary with duty cycle at fixed supply? ::@:: Motor speed is approximately linear in duty cycle because the average motor voltage rises with duty cycle. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
-- PWM motor-speed caveat: why is the speed-vs-duty-cycle relation not perfectly linear in practice? ::@:: Real motors can deviate because of friction, driver voltage drop, unequal motors, battery droop, mechanical load, and low-duty-cycle dead-zone effects. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
-- Arduino PWM pins in ELEC 1100: which pins generate left and right PWM? ::@:: `D9` is `L_PWM` and `D11` is `R_PWM`. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
-- Arduino DIR pins in ELEC 1100: which pins control left and right direction? ::@:: `D10` is `L_DIR` and `D12` is `R_DIR`. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
-- Arduino `analogWrite(pin, value)`: what does the `value` range mean? ::@:: The value ranges from 0 to 255, where 0 is always LOW, 255 is always HIGH, and intermediate values set the duty cycle. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- PWM vs DIR in the robot car: what is the difference? ::@:: DIR selects the current direction through the motor, while PWM controls the average motor drive and therefore the speed. <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
+- PWM motor-speed relation: for most motors on this robot platform, how does speed vary with duty cycle at fixed supply? ::@:: Motor speed is approximately linear in duty cycle because the average motor voltage rises with duty cycle. <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
+- PWM motor-speed caveat: why is the speed-vs-duty-cycle relation not perfectly linear in practice? ::@:: Real motors can deviate because of friction, driver voltage drop, unequal motors, battery droop, mechanical load, and low-duty-cycle dead-zone effects. <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
+- Arduino PWM pins in ELEC 1100: which pins generate left and right PWM? ::@:: `D9` is `L_PWM` and `D11` is `R_PWM`. <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
+- Arduino DIR pins in ELEC 1100: which pins control left and right direction? ::@:: `D10` is `L_DIR` and `D12` is `R_DIR`. <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
+- Arduino `analogWrite(pin, value)`: what does the `value` range mean? ::@:: The value ranges from 0 to 255, where 0 is always LOW, 255 is always HIGH, and intermediate values set the duty cycle. <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
 
 <!-- check: ignore-next-line[header_style]: acronym -->
 ## PWM generation methods
@@ -66,9 +66,9 @@ There are two physical ways to generate pulses. A pulse can be generated mechani
 
 Flashcards for this section are as follows:
 
-- PWM generation methods: what are the pulse-generation methods? ::@:: Pulses can be generated mechanically by switching, electrically by an oscillator, or digitally by the Arduino. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
-- oscillator in PWM generation: what is it? ::@:: An oscillator produces a continuous, repeated AC waveform. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
-- why the Arduino is a natural PWM source ::@:: The Arduino is a digital controller, so it can change pulse width in software to produce the required duty cycle. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- PWM generation methods: what are the pulse-generation methods? ::@:: Pulses can be generated mechanically by switching, electrically by an oscillator, or digitally by the Arduino. <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
+- oscillator in PWM generation: what is it? ::@:: An oscillator produces a continuous, repeated AC waveform. <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
+- why the Arduino is a natural PWM source ::@:: The Arduino is a digital controller, so it can change pulse width in software to produce the required duty cycle. <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
 
 ## practical PWM habits
 
@@ -78,6 +78,6 @@ ELEC 1100 treats PWM as both a formula topic and a practical design tool. If two
 
 Flashcards for this section are as follows:
 
-- why PWM is preferred to a variable resistor for motor speed control ::@:: PWM changes the average drive electronically instead of burning a large amount of power in a series resistor. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
-- unequal motors and PWM: why might left and right PWM values differ? ::@:: Real motors and wheels are not perfectly matched, so different PWM values can be used to equalize the robot's motion. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
-- PWM debugging habit: what must you check together? ::@:: Check both the duty cycle and the direction logic because speed and direction are controlled separately. <!--SR:!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-10-21T00:00:00.000Z-->
+- why PWM is preferred to a variable resistor for motor speed control ::@:: PWM changes the average drive electronically instead of burning a large amount of power in a series resistor. <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
+- unequal motors and PWM: why might left and right PWM values differ? ::@:: Real motors and wheels are not perfectly matched, so different PWM values can be used to equalize the robot's motion. <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
+- PWM debugging habit: what must you check together? ::@:: Check both the duty cycle and the direction logic because speed and direction are controlled separately. <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->

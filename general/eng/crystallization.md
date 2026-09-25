@@ -6,7 +6,7 @@ tags:
 
 # crystallization
 
-__Crystallization__ is {@{the process by which a [solid](solid.md) forms with a [highly organized structure](crystal%20structure.md) called a [crystal](crystal.md)}@}. <!--SR:!2026-10-29,860,250-->
+__Crystallization__ is {@{the process by which a [solid](solid.md) forms with a [highly organized structure](crystal%20structure.md) called a [crystal](crystal.md)}@}. <!--SR:!fsrs,2033-06-04T00:00:00.000Z,2410,2409.70035389,3.98153807,2,11,0,0,2026-10-29T00:00:00.000Z-->
 
 It is also {@{a solid–liquid [separation process](separation%20process)}@}. <!--SR:!2029-04-22,1406,290-->
 

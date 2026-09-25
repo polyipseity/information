@@ -254,7 +254,7 @@ In {@{a dataflow graph}@}, a node may have {@{several inputs}@}; in code this is
 > } yield makeCoffee(b, w)                       // node 3 depends on 1 and 2
 > ```
 >
-> {@{The `for`‑comprehension}@} expands to {@{`beans.flatMap { ... }.zip(water).map{…}`}@}, which is {@{a concise dataflow representation}@}. When {@{either `beans` or `water` fails}@}, {@{the whole pipeline fails immediately}@}; if {@{both succeed}@}, `brew` starts only {@{after the two inputs arrive}@}. <!--SR:!2026-12-10,257,330!2027-01-01,275,330!2026-11-23,251,330!2026-11-27,255,330!2027-01-16,286,330!2026-12-21,266,330!2026-12-17,263,330!2027-01-22,292,330!2026-10-29,230,330-->
+> {@{The `for`‑comprehension}@} expands to {@{`beans.flatMap { ... }.zip(water).map{…}`}@}, which is {@{a concise dataflow representation}@}. When {@{either `beans` or `water` fails}@}, {@{the whole pipeline fails immediately}@}; if {@{both succeed}@}, `brew` starts only {@{after the two inputs arrive}@}. <!--SR:!2026-12-10,257,330!2027-01-01,275,330!2026-11-23,251,330!2026-11-27,255,330!2027-01-16,286,330!2026-12-21,266,330!2026-12-17,263,330!2027-01-22,292,330!fsrs,2029-08-24T00:00:00.000Z,1030,1029.72783972,1,2,9,0,0,2026-10-29T00:00:00.000Z-->
 
 {@{A `Promise`}@} can be used when {@{an external event must feed into the graph}@}. The producer {@{completes the promise}@}, which triggers {@{all dependent futures}@}: <!--SR:!2026-12-26,271,330!fsrs,2029-08-09T00:00:00.000Z,1018,1018.05728725,1,2,9,0,0,2026-10-26T00:00:00.000Z!2026-11-17,246,330!2027-01-24,294,330-->
 

@@ -103,7 +103,7 @@ and {@{a corresponding extension}@} to add {@{`flatMap`}@}: <!--SR:!2026-11-06,2
 > def flatMap(f: T => Generator[S]) = new Generator[S]:
 >   def generate() = f(g.generate()).generate()
 > ```
-<!--SR:!fsrs,2030-02-22T00:00:00.000Z,1218,1217.87747351,1,2,9,0,0,2026-10-23T00:00:00.000Z!2026-10-29,285,330-->
+<!--SR:!fsrs,2030-02-22T00:00:00.000Z,1218,1217.87747351,1,2,9,0,0,2026-10-23T00:00:00.000Z!fsrs,2030-03-23T00:00:00.000Z,1241,1240.62340626,1,2,9,0,0,2026-10-29T00:00:00.000Z-->
 
 With {@{these in place}@}, {@{the boolean generator}@} can be written {@{succinctly using `map`}@} as <!--SR:!fsrs,2029-10-22T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-09-26T00:00:00.000Z!fsrs,2029-11-29T00:00:00.000Z,1153,1153.10014712,1,2,9,0,0,2026-10-03T00:00:00.000Z!fsrs,2030-01-16T00:00:00.000Z,1191,1191.26470738,1,2,9,0,0,2026-10-13T00:00:00.000Z-->
 
@@ -150,7 +150,7 @@ The compiler rewrites {@{these _for_ expressions}@} in the same way {@{it does f
 >     tail <- lists
 >   yield head :: tail
 > ```
-<!--SR:!fsrs,2029-12-04T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-10-04T00:00:00.000Z!2026-10-29,285,330!fsrs,2029-06-28T00:00:00.000Z,1030,1029.72783972,1,2,9,0,0,2026-09-02T00:00:00.000Z-->
+<!--SR:!fsrs,2029-12-04T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-10-04T00:00:00.000Z!fsrs,2030-03-23T00:00:00.000Z,1241,1240.62340626,1,2,9,0,0,2026-10-29T00:00:00.000Z!fsrs,2029-06-28T00:00:00.000Z,1030,1029.72783972,1,2,9,0,0,2026-09-02T00:00:00.000Z-->
 
 {@{A more sophisticated example}@} is {@{a random tree generator}@}. Defining {@{the tree shape}@} as {@{an `enum`}@}: <!--SR:!fsrs,2030-02-04T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-10-17T00:00:00.000Z!fsrs,2030-02-27T00:00:00.000Z,1222,1221.67255456,1,2,9,0,0,2026-10-24T00:00:00.000Z!fsrs,2029-11-11T00:00:00.000Z,1138,1137.78464757,1,2,9,0,0,2026-09-30T00:00:00.000Z!fsrs,2030-03-18T00:00:00.000Z,1237,1236.83645167,1,2,9,0,0,2026-10-28T00:00:00.000Z-->
 
@@ -231,7 +231,7 @@ ScalaCheck integrates {@{with ScalaTest or can run stand-alone}@}, providing a s
 
 ## definition
 
-{@{A monad}@} is defined for {@{a parametric type constructor `M[_]`}@}. {@{Two fundamental operations}@} must be supplied: <!--SR:!2026-11-07,293,330!2026-10-29,285,330!fsrs,2029-12-23T00:00:00.000Z,1172,1172.20432607,1,2,9,0,0,2026-10-08T00:00:00.000Z-->
+{@{A monad}@} is defined for {@{a parametric type constructor `M[_]`}@}. {@{Two fundamental operations}@} must be supplied: <!--SR:!2026-11-07,293,330!fsrs,2030-03-23T00:00:00.000Z,1241,1240.62340626,1,2,9,0,0,2026-10-29T00:00:00.000Z!fsrs,2029-12-23T00:00:00.000Z,1172,1172.20432607,1,2,9,0,0,2026-10-08T00:00:00.000Z-->
 
 > [!example] __monad definition__
 >
@@ -247,7 +247,7 @@ ScalaCheck integrates {@{with ScalaTest or can run stand-alone}@}, providing a s
 
 {@{`flatMap`}@} chains {@{computations that may produce values wrapped in the monad}@}, while {@{`unit`}@} injects {@{a plain value into the monadic context}@}. Additionally, these operations must {@{respect the monad laws}@}. <!--SR:!fsrs,2030-01-26T00:00:00.000Z,1199,1198.87680538,1,2,9,0,0,2026-10-15T00:00:00.000Z!fsrs,2030-02-04T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-10-17T00:00:00.000Z!fsrs,2029-10-13T00:00:00.000Z,1115,1114.75652523,1,2,9,0,0,2026-09-24T00:00:00.000Z!fsrs,2030-03-18T00:00:00.000Z,1237,1236.83645167,1,2,9,0,0,2026-10-28T00:00:00.000Z!2026-11-01,288,330-->
 
-In Scala, {@{`flatMap`}@} is typically {@{implemented as a method of the type itself or an extension method}@}; {@{`unit`}@} can be provided as {@{a constructor of the type}@}. <!--SR:!fsrs,2030-02-27T00:00:00.000Z,1222,1221.67255456,1,2,9,0,0,2026-10-24T00:00:00.000Z!2026-10-29,285,330!fsrs,2029-10-22T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-09-26T00:00:00.000Z!2026-10-29,285,330-->
+In Scala, {@{`flatMap`}@} is typically {@{implemented as a method of the type itself or an extension method}@}; {@{`unit`}@} can be provided as {@{a constructor of the type}@}. <!--SR:!fsrs,2030-02-27T00:00:00.000Z,1222,1221.67255456,1,2,9,0,0,2026-10-24T00:00:00.000Z!fsrs,2030-03-23T00:00:00.000Z,1241,1240.62340626,1,2,9,0,0,2026-10-29T00:00:00.000Z!fsrs,2029-10-22T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-09-26T00:00:00.000Z!fsrs,2030-03-23T00:00:00.000Z,1241,1240.62340626,1,2,9,0,0,2026-10-29T00:00:00.000Z-->
 
 ### monad laws
 
@@ -281,14 +281,14 @@ Because {@{every monad supports this construction}@}, it is often convenient to 
 
 - `List`: ::@:: `unit(x) = List(x)` <!--SR:!2026-11-08,294,330!fsrs,2029-10-18T00:00:00.000Z,1119,1118.59914239,1,2,9,0,0,2026-09-25T00:00:00.000Z-->
 - `Set`:  ::@:: `unit(x) = Set(x)` <!--SR:!fsrs,2030-01-31T00:00:00.000Z,1203,1202.68030072,1,2,9,0,0,2026-10-16T00:00:00.000Z!fsrs,2030-01-26T00:00:00.000Z,1199,1198.87680538,1,2,9,0,0,2026-10-15T00:00:00.000Z-->
-- `Option`: ::@:: `unit(x) = Some(x)` <!--SR:!2026-10-29,285,330!fsrs,2029-11-16T00:00:00.000Z,1142,1141.61620684,1,2,9,0,0,2026-10-01T00:00:00.000Z-->
+- `Option`: ::@:: `unit(x) = Some(x)` <!--SR:!fsrs,2030-03-23T00:00:00.000Z,1241,1240.62340626,1,2,9,0,0,2026-10-29T00:00:00.000Z!fsrs,2029-11-16T00:00:00.000Z,1142,1141.61620684,1,2,9,0,0,2026-10-01T00:00:00.000Z-->
 - `Generator`: ::@:: `unit(x) = single(x)` <!--SR:!fsrs,2030-01-31T00:00:00.000Z,1203,1202.68030072,1,2,9,0,0,2026-10-16T00:00:00.000Z!fsrs,2030-03-03T00:00:00.000Z,1225,1225.46601476,1,2,9,0,0,2026-10-25T00:00:00.000Z-->
 
 {@{All of these types}@} provide {@{a natural implementation of `flatMap`}@} that preserves {@{the structure of the container}@}. <!--SR:!fsrs,2029-11-11T00:00:00.000Z,1138,1137.78464757,1,2,9,0,0,2026-09-30T00:00:00.000Z!fsrs,2030-03-03T00:00:00.000Z,1225,1225.46601476,1,2,9,0,0,2026-10-25T00:00:00.000Z!fsrs,2029-12-28T00:00:00.000Z,1176,1176.0199518,1,2,9,0,0,2026-10-09T00:00:00.000Z-->
 
 ## significance for `for`-expressions
 
-{@{Scala's syntactic sugar}@} for {@{monadic composition}@} is {@{the `for`-expression}@}. <!--SR:!fsrs,2029-11-01T00:00:00.000Z,1130,1130.11601442,1,2,9,0,0,2026-09-28T00:00:00.000Z!fsrs,2030-01-26T00:00:00.000Z,1199,1198.87680538,1,2,9,0,0,2026-10-15T00:00:00.000Z!2026-10-29,285,330-->
+{@{Scala's syntactic sugar}@} for {@{monadic composition}@} is {@{the `for`-expression}@}. <!--SR:!fsrs,2029-11-01T00:00:00.000Z,1130,1130.11601442,1,2,9,0,0,2026-09-28T00:00:00.000Z!fsrs,2030-01-26T00:00:00.000Z,1199,1198.87680538,1,2,9,0,0,2026-10-15T00:00:00.000Z!fsrs,2030-03-23T00:00:00.000Z,1241,1240.62340626,1,2,9,0,0,2026-10-29T00:00:00.000Z-->
 
 {@{Associativity}@} guarantee that {@{nested `for`-expressions}@} can {@{always be collapsed into a single `for`-expression}@}: <!--SR:!fsrs,2030-01-16T00:00:00.000Z,1191,1191.26470738,1,2,9,0,0,2026-10-13T00:00:00.000Z!fsrs,2030-02-04T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-10-17T00:00:00.000Z!2027-04-20,419,390-->
 
@@ -303,9 +303,9 @@ Because {@{every monad supports this construction}@}, it is often convenient to 
 > } yield z
 > == for { x <- m; y <- f(x); z <- g(y) } yield z
 > ```
-<!--SR:!2026-10-29,285,330!fsrs,2029-11-06T00:00:00.000Z,1134,1133.95119242,1,2,9,0,0,2026-09-29T00:00:00.000Z!2027-04-15,415,390-->
+<!--SR:!fsrs,2030-03-23T00:00:00.000Z,1241,1240.62340626,1,2,9,0,0,2026-10-29T00:00:00.000Z!fsrs,2029-11-06T00:00:00.000Z,1134,1133.95119242,1,2,9,0,0,2026-09-29T00:00:00.000Z!2027-04-15,415,390-->
 
-{@{The right-unit law}@} implies that {@{a single generator without further bindings}@} is {@{equivalent to the monad itself}@} ({@{`for { x <- m } yield x == m`}@}). {@{The left-unit law ensures}@} that {@{a binding from `unit(x)` followed by another function}@} simply yields {@{that function applied to `x`}@} ({@{`for { y <- unit(x); r <- f(y) } yield r == f(x)`}@}). <!--SR:!fsrs,2029-12-28T00:00:00.000Z,1176,1176.0199518,1,2,9,0,0,2026-10-09T00:00:00.000Z!fsrs,2030-02-27T00:00:00.000Z,1222,1221.67255456,1,2,9,0,0,2026-10-24T00:00:00.000Z!2026-11-05,291,330!2026-10-29,285,330!fsrs,2029-11-01T00:00:00.000Z,1130,1130.11601442,1,2,9,0,0,2026-09-28T00:00:00.000Z!fsrs,2030-03-08T00:00:00.000Z,1229,1229.25786194,1,2,9,0,0,2026-10-26T00:00:00.000Z!2026-11-01,288,330!fsrs,2028-08-26T00:00:00.000Z,705,705.09333259,2.49272837,2,9,0,0,2026-09-21T00:00:00.000Z-->
+{@{The right-unit law}@} implies that {@{a single generator without further bindings}@} is {@{equivalent to the monad itself}@} ({@{`for { x <- m } yield x == m`}@}). {@{The left-unit law ensures}@} that {@{a binding from `unit(x)` followed by another function}@} simply yields {@{that function applied to `x`}@} ({@{`for { y <- unit(x); r <- f(y) } yield r == f(x)`}@}). <!--SR:!fsrs,2029-12-28T00:00:00.000Z,1176,1176.0199518,1,2,9,0,0,2026-10-09T00:00:00.000Z!fsrs,2030-02-27T00:00:00.000Z,1222,1221.67255456,1,2,9,0,0,2026-10-24T00:00:00.000Z!2026-11-05,291,330!fsrs,2030-03-23T00:00:00.000Z,1241,1240.62340626,1,2,9,0,0,2026-10-29T00:00:00.000Z!fsrs,2029-11-01T00:00:00.000Z,1130,1130.11601442,1,2,9,0,0,2026-09-28T00:00:00.000Z!fsrs,2030-03-08T00:00:00.000Z,1229,1229.25786194,1,2,9,0,0,2026-10-26T00:00:00.000Z!2026-11-01,288,330!fsrs,2028-08-26T00:00:00.000Z,705,705.09333259,2.49272837,2,9,0,0,2026-09-21T00:00:00.000Z-->
 
 ## `Option`
 
@@ -384,6 +384,6 @@ Because of {@{these issues}@}, it is sometimes preferable to treat {@{failures a
 
 Thus {@{`t.map(f)`}@} equals {@{`t.flatMap(x => Try(f(x)))`}@}, mirroring {@{the general monadic definition of `map`}@}. <!--SR:!2026-11-02,289,330!fsrs,2030-01-21T00:00:00.000Z,1195,1195.07164214,1,2,9,0,0,2026-10-14T00:00:00.000Z!2026-11-02,289,330-->
 
-One might ask whether {@{`Try` satisfies the monad laws with `unit = Try.apply`}@}. {@{The left-unit law}@} fails: {@{`Try(expr).flatMap(f)`}@} will {@{never throw a non-fatal exception}@}, whereas {@{`f(expr)` may}@}. Consequently, `Try` trades {@{the left identity law}@} for {@{a useful property}@}—{@{any composition of `Try`, `map`, and `flatMap`}@} guarantees that {@{no non-fatal exception propagates outward}@} ({@{the "bullet-proof" principle}@}\). <!--SR:!fsrs,2028-11-28T00:00:00.000Z,773,772.81357058,2.49272837,2,9,0,0,2026-10-17T00:00:00.000Z!fsrs,2030-03-03T00:00:00.000Z,1225,1225.46601476,1,2,9,0,0,2026-10-25T00:00:00.000Z!2026-10-29,285,330!fsrs,2030-02-04T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-10-17T00:00:00.000Z!2026-10-30,286,330!fsrs,2030-02-27T00:00:00.000Z,1222,1221.67255456,1,2,9,0,0,2026-10-24T00:00:00.000Z!fsrs,2029-07-17T00:00:00.000Z,1045,1045.2595081,1,2,9,0,0,2026-09-06T00:00:00.000Z!fsrs,2030-02-27T00:00:00.000Z,1222,1221.67255456,1,2,9,0,0,2026-10-24T00:00:00.000Z!2026-11-03,290,330!2026-11-07,293,330-->
+One might ask whether {@{`Try` satisfies the monad laws with `unit = Try.apply`}@}. {@{The left-unit law}@} fails: {@{`Try(expr).flatMap(f)`}@} will {@{never throw a non-fatal exception}@}, whereas {@{`f(expr)` may}@}. Consequently, `Try` trades {@{the left identity law}@} for {@{a useful property}@}—{@{any composition of `Try`, `map`, and `flatMap`}@} guarantees that {@{no non-fatal exception propagates outward}@} ({@{the "bullet-proof" principle}@}\). <!--SR:!fsrs,2028-11-28T00:00:00.000Z,773,772.81357058,2.49272837,2,9,0,0,2026-10-17T00:00:00.000Z!fsrs,2030-03-03T00:00:00.000Z,1225,1225.46601476,1,2,9,0,0,2026-10-25T00:00:00.000Z!fsrs,2030-03-23T00:00:00.000Z,1241,1240.62340626,1,2,9,0,0,2026-10-29T00:00:00.000Z!fsrs,2030-02-04T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-10-17T00:00:00.000Z!2026-10-30,286,330!fsrs,2030-02-27T00:00:00.000Z,1222,1221.67255456,1,2,9,0,0,2026-10-24T00:00:00.000Z!fsrs,2029-07-17T00:00:00.000Z,1045,1045.2595081,1,2,9,0,0,2026-09-06T00:00:00.000Z!fsrs,2030-02-27T00:00:00.000Z,1222,1221.67255456,1,2,9,0,0,2026-10-24T00:00:00.000Z!2026-11-03,290,330!2026-11-07,293,330-->
 
 In {@{general practice}@}, {@{monad-like type \(which are not true monads\)}@} aims to capture {@{some computation _effect_}@} and treating it as {@{_data_ and hence part of the _type_}@}. When {@{this effect is a _side effect_ \(e.g. throwing exceptions\)}@}, then {@{the left identity law may not hold}@} as {@{the side effect is captured and represented by monad-like type data instead}@}. <!--SR:!2027-01-09,345,350!2026-12-07,319,350!2027-01-03,339,350!2026-12-11,321,350!2026-12-18,328,350!2027-01-14,350,350!fsrs,2029-10-17T00:00:00.000Z,1107,1107.06552019,1,2,9,0,0,2026-10-06T00:00:00.000Z-->

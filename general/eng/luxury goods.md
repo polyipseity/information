@@ -162,7 +162,7 @@ Many luxury brands use flagship boutiques to {@{illustrate their unique vision o
 
 ### seasonal boutiques
 
-Luxury brands use {@{seasonal boutiques to follow their well-heeled clientele}@} as {@{they leave major cities for smaller resort towns in the summer and winter}@}.<sup>[\[52\]](#^ref-52)</sup> Common {@{throughout Europe}@}, seasonal boutiques have {@{short-term leases, like a pop-up shop}@}, which are {@{open only during the resort's high season}@}.<sup>[\[46\]](#^ref-46)</sup> These boutiques offer {@{merchandise relevant to the resort where they are located}@}, like {@{a cruise collection in a beach resort<sup>[\[53\]](#^ref-53)</sup> or skiwear in a mountain resort}@}.<sup>[\[54\]](#^ref-54)</sup> <!--SR:!2027-07-30,747,330!2026-10-29,516,310!2028-10-07,1103,350!2029-03-22,1231,350!2029-01-31,1192,350!2027-06-23,708,330!2028-01-10,823,330-->
+Luxury brands use {@{seasonal boutiques to follow their well-heeled clientele}@} as {@{they leave major cities for smaller resort towns in the summer and winter}@}.<sup>[\[52\]](#^ref-52)</sup> Common {@{throughout Europe}@}, seasonal boutiques have {@{short-term leases, like a pop-up shop}@}, which are {@{open only during the resort's high season}@}.<sup>[\[46\]](#^ref-46)</sup> These boutiques offer {@{merchandise relevant to the resort where they are located}@}, like {@{a cruise collection in a beach resort<sup>[\[53\]](#^ref-53)</sup> or skiwear in a mountain resort}@}.<sup>[\[54\]](#^ref-54)</sup> <!--SR:!2027-07-30,747,330!fsrs,2032-02-23T00:00:00.000Z,1943,1943.37524027,1,2,10,0,0,2026-10-29T00:00:00.000Z!2028-10-07,1103,350!2029-03-22,1231,350!2029-01-31,1192,350!2027-06-23,708,330!2028-01-10,823,330-->
 
 ## luxury department stores
 

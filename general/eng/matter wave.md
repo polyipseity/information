@@ -13,7 +13,7 @@ tags:
 
 ## de Broglie relations
 
-{@{The _de Broglie wavelength_ $\lambda$}@} relates to {@{the [momentum](momentum.md) $p$}@} and {@{the [frequency](frequency.md) $f$}@} relates to {@{the total [energy](energy.md) $E$ of a [free particle](free%20particle.md)}@}: (annotation: 2 items: {@{$\lambda = \frac h p$, $f = \frac E h$}@}) <!--SR:!2028-10-30,1317,290!fsrs,2027-01-31T00:00:00.000Z,142,142.42562933,1,2,2,0,0,2026-09-11T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,47,46.52379836,4.01060897,2,2,0,0,2026-09-12T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,47,46.52379836,4.01060897,2,2,0,0,2026-09-12T00:00:00.000Z!fsrs,2026-10-29T00:00:00.000Z,47,46.52379836,4.01060897,2,2,0,0,2026-09-12T00:00:00.000Z-->
+{@{The _de Broglie wavelength_ $\lambda$}@} relates to {@{the [momentum](momentum.md) $p$}@} and {@{the [frequency](frequency.md) $f$}@} relates to {@{the total [energy](energy.md) $E$ of a [free particle](free%20particle.md)}@}: (annotation: 2 items: {@{$\lambda = \frac h p$, $f = \frac E h$}@}) <!--SR:!2028-10-30,1317,290!fsrs,2027-01-31T00:00:00.000Z,142,142.42562933,1,2,2,0,0,2026-09-11T00:00:00.000Z!fsrs,2027-06-07T00:00:00.000Z,221,220.84508178,1.99446196,2,3,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-06-07T00:00:00.000Z,221,220.84508178,1.99446196,2,3,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-06-07T00:00:00.000Z,221,220.84508178,1.99446196,2,3,0,0,2026-10-29T00:00:00.000Z-->
 
 > {@{The de Broglie equations}@}:
 >

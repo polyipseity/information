@@ -277,7 +277,7 @@ return chain.from_iterable([r.value for r in results])
 - mercury(II) ion::@::Hg<sup>2+</sup> <!--SR:!2037-08-21,4172,350!2034-09-23,3248,313-->
 - cobalt(II) ion::@::Co<sup>2+</sup> <!--SR:!2027-04-28,1527,367!2034-06-29,3347,314-->
 - aluminium ion::@::Al<sup>3+</sup> <!--SR:!2027-07-03,1372,272!2031-11-24,2700,334-->
-- iron(III) ion::@::Fe<sup>3+</sup> <!--SR:!2027-04-21,1525,370!2026-10-29,1391,374-->
+- iron(III) ion::@::Fe<sup>3+</sup> <!--SR:!2027-04-21,1525,370!fsrs,2042-02-23T00:00:00.000Z,5596,5596.18626972,1,2,11,0,0,2026-10-29T00:00:00.000Z-->
 - chromium(III) ion::@::Cr<sup>3+</sup> <!--SR:!2028-01-18,1745,374!2039-06-28,4876,334-->
 - scandium(III) ion::@::Sc<sup>3+</sup> <!--SR:!2030-11-05,2231,402!2031-10-13,2508,402-->
 - titanium(III) ion::@::Ti<sup>3+</sup> <!--SR:!2030-10-02,2204,402!2031-09-24,2493,402-->
@@ -357,7 +357,7 @@ return chain.from_iterable([r.value for r in results])
 
 <!--pytextgen generate section="394a"--><!-- The following content is generated at 2024-01-28T09:35:10.023241+08:00. Any edits will be overridden! -->
 
-- <span style="color: green;">green</span>:@:iron(II) ion, nickel(II) ion, copper(II) ion, chromium(III) ion, vanadium(III) ion <!--SR:!fsrs,2026-10-29T00:00:00.000Z,117,116.72728974,9.98522837,2,8,0,0,2026-07-04T00:00:00.000Z-->
+- <span style="color: green;">green</span>:@:iron(II) ion, nickel(II) ion, copper(II) ion, chromium(III) ion, vanadium(III) ion <!--SR:!fsrs,2027-04-18T00:00:00.000Z,171,170.90083995,9.96552075,2,9,0,0,2026-10-29T00:00:00.000Z-->
 - <span style="color: blue; background-color: white;">blue</span>:@:copper(II) ion <!--SR:!2031-07-10,2164,301-->
 - <span style="color: lightPink;">very pale pink</span>:@:manganese(II) ion <!--SR:!2029-10-02,1647,321-->
 - <span style="color: pink;">pink</span>:@:cobalt(II) ion <!--SR:!2027-10-10,769,241-->

@@ -234,7 +234,7 @@ Furthermore, {@{the density ⁠$\varphi$⁠ of the standard normal distribution}
 - Its {@{first derivative}@} is {@{$\varphi '(x)=-x\varphi (x)$}@}.
 - Its {@{second derivative}@} is {@{$\varphi ''(x)=(x^{2}-1)\varphi (x)$}@}
 - More generally, its {@{_n_<!-- markdown separator -->th derivative}@} is {@{$\varphi ^{(n)}(x)=(-1)^{n}\operatorname {He} _{n}(x)\varphi (x)$}@}, where {@{$\operatorname {He} _{n}(x)$ is the _n_<!-- markdown separator -->th \(probabilist\) [Hermite polynomial](Hermite%20polynomial.md)}@}.<sup>[\[27\]](#^ref-27)</sup>
-- The probability that {@{a normally distributed variable ⁠$X$⁠ with known ⁠$\mu$⁠ and $\sigma ^{2}$}@} is in {@{a particular set, can be calculated}@} given that {@{the fraction $Z=(X-\mu )/\sigma$ has a standard normal distribution}@}. <!--SR:!2027-03-26,311,356!fsrs,2027-08-22T00:17:36.995Z,442,441.98290409,1,2,7,0,0,2026-06-06T00:17:36.995Z!2027-01-13,250,330!2027-06-06,370,363!2027-04-01,307,354!2026-10-29,180,329!fsrs,2027-09-12T16:40:09.783Z,462,461.79530359,1,2,7,0,0,2026-06-07T16:40:09.783Z!2027-02-09,270,330!2027-05-25,358,354!2027-04-29,335,351-->
+- The probability that {@{a normally distributed variable ⁠$X$⁠ with known ⁠$\mu$⁠ and $\sigma ^{2}$}@} is in {@{a particular set, can be calculated}@} given that {@{the fraction $Z=(X-\mu )/\sigma$ has a standard normal distribution}@}. <!--SR:!2027-03-26,311,356!fsrs,2027-08-22T00:17:36.995Z,442,441.98290409,1,2,7,0,0,2026-06-06T00:17:36.995Z!2027-01-13,250,330!2027-06-06,370,363!2027-04-01,307,354!fsrs,2029-02-05T00:00:00.000Z,830,829.64291824,1,2,8,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-09-12T16:40:09.783Z,462,461.79530359,1,2,7,0,0,2026-06-07T16:40:09.783Z!2027-02-09,270,330!2027-05-25,358,354!2027-04-29,335,351-->
 
 ### moments
 

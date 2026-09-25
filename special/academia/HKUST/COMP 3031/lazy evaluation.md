@@ -72,7 +72,7 @@ or {@{more conveniently}@} via {@{the factory syntax}@}, in which {@{parameters 
 > val xs1 = ??? #:: LazyList.empty          // a single-element list (head unspecified)
 > val xs2 = 1 #:: (??? : LazyList[Int])     // head is 1, tail unspecified
 > ```
-<!--SR:!2026-11-27,299,345!2026-11-12,287,330!2027-01-15,338,345!2026-10-29,273,345-->
+<!--SR:!2026-11-27,299,345!2026-11-12,287,330!2027-01-15,338,345!fsrs,2030-04-07T00:00:00.000Z,1256,1256.09108905,1,2,9,0,0,2026-10-29T00:00:00.000Z-->
 
 {@{The companion object}@} also offers {@{a range constructor}@} that is {@{lazy by default}@}: <!--SR:!2026-12-15,312,345!2026-11-24,296,345!2026-10-31,275,345-->
 
@@ -180,9 +180,9 @@ Using {@{this naive construction}@}, {@{`lazyRange(1, 10).take(3)`}@} would trig
 > }
 > ```
 >
-> ... where {@{`State`}@} is {@{an enum of either `Empty` or `Cons(hd, tl)`}@}; {@{the latter's tail (`tl`)}@} is {@{a fully lazy `LazyList`}@}. <!--SR:!2026-11-02,277,345!2026-11-26,298,345!fsrs,2030-03-08T00:00:00.000Z,1232,1232.10755353,1,2,9,0,0,2026-10-23T00:00:00.000Z!2027-01-21,343,345!2026-11-21,293,345!2026-11-23,295,345!2027-01-10,334,345!2026-11-09,284,345!2026-10-29,273,345!2026-12-09,308,345!2027-03-31,403,370-->
+> ... where {@{`State`}@} is {@{an enum of either `Empty` or `Cons(hd, tl)`}@}; {@{the latter's tail (`tl`)}@} is {@{a fully lazy `LazyList`}@}. <!--SR:!2026-11-02,277,345!2026-11-26,298,345!fsrs,2030-03-08T00:00:00.000Z,1232,1232.10755353,1,2,9,0,0,2026-10-23T00:00:00.000Z!2027-01-21,343,345!2026-11-21,293,345!2026-11-23,295,345!2027-01-10,334,345!2026-11-09,284,345!fsrs,2030-04-07T00:00:00.000Z,1256,1256.09108905,1,2,9,0,0,2026-10-29T00:00:00.000Z!2026-12-09,308,345!2027-03-31,403,370-->
 
-... where {@{`State`}@} is {@{an enum of either `Empty` or `Cons(hd, tl)`}@}; {@{the latter's tail (`tl`)}@} is {@{a fully lazy `LazyList`}@}. In {@{Scala 3's standard library}@} this pattern appears as {@{a private `lazyState` function}@} that yields {@{a `State[A]` object containing `head` and `tail`}@}; thus {@{the list's structure (whether it's empty or a cons cell)}@} is {@{computed lazily}@}, but {@{individual `head` elements themselves}@} are {@{not lazy}@}—only {@{the overall shape of the sequence}@} is {@{deferred}@}. <!--SR:!2026-11-29,299,345!2026-10-29,273,345!2027-01-14,337,345!fsrs,2029-12-07T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-10-07T00:00:00.000Z!2026-11-09,284,345!2026-11-25,297,345!fsrs,2028-08-08T00:00:00.000Z,692,692.47401324,2.49272837,2,9,0,0,2026-09-16T00:00:00.000Z!2027-01-04,329,345!2026-12-15,313,345!fsrs,2029-01-25T00:00:00.000Z,904,904.19353564,1,2,9,0,0,2026-08-05T00:00:00.000Z!2026-12-12,311,345!2026-12-10,309,345!2027-03-19,393,370-->
+... where {@{`State`}@} is {@{an enum of either `Empty` or `Cons(hd, tl)`}@}; {@{the latter's tail (`tl`)}@} is {@{a fully lazy `LazyList`}@}. In {@{Scala 3's standard library}@} this pattern appears as {@{a private `lazyState` function}@} that yields {@{a `State[A]` object containing `head` and `tail`}@}; thus {@{the list's structure (whether it's empty or a cons cell)}@} is {@{computed lazily}@}, but {@{individual `head` elements themselves}@} are {@{not lazy}@}—only {@{the overall shape of the sequence}@} is {@{deferred}@}. <!--SR:!2026-11-29,299,345!fsrs,2030-04-07T00:00:00.000Z,1256,1256.09108905,1,2,9,0,0,2026-10-29T00:00:00.000Z!2027-01-14,337,345!fsrs,2029-12-07T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-10-07T00:00:00.000Z!2026-11-09,284,345!2026-11-25,297,345!fsrs,2028-08-08T00:00:00.000Z,692,692.47401324,2.49272837,2,9,0,0,2026-09-16T00:00:00.000Z!2027-01-04,329,345!2026-12-15,313,345!fsrs,2029-01-25T00:00:00.000Z,904,904.19353564,1,2,9,0,0,2026-08-05T00:00:00.000Z!2026-12-12,311,345!2026-12-10,309,345!2027-03-19,393,370-->
 
 ## lazy evaluation
 
@@ -258,7 +258,7 @@ Because {@{the tail of a lazy list}@} is {@{lazily evaluated}@}, it can {@{repre
 > val primes = sieve(from(2))
 > ```
 >
-> {@{`primes.take(N).toList`}@} yields {@{the first `N` prime numbers}@}. {@{Each step of the sieve}@} removes {@{multiples of the current head}@}, and because {@{the list is lazy}@}, only {@{as many sieves \(primes\) as needed}@} are {@{used to eliminate \(`.filter`\) composites}@}. <!--SR:!2027-03-09,384,370!2027-03-08,384,370!2027-03-10,385,370!2027-04-09,411,370!2027-03-21,395,370!2027-04-11,412,370!2027-04-05,407,370!2027-03-01,378,368!2026-10-29,273,348!2027-03-08,385,368-->
+> {@{`primes.take(N).toList`}@} yields {@{the first `N` prime numbers}@}. {@{Each step of the sieve}@} removes {@{multiples of the current head}@}, and because {@{the list is lazy}@}, only {@{as many sieves \(primes\) as needed}@} are {@{used to eliminate \(`.filter`\) composites}@}. <!--SR:!2027-03-09,384,370!2027-03-08,384,370!2027-03-10,385,370!2027-04-09,411,370!2027-03-21,395,370!2027-04-11,412,370!2027-04-05,407,370!2027-03-01,378,368!fsrs,2030-04-19T00:00:00.000Z,1268,1268.29497843,1,2,9,0,0,2026-10-29T00:00:00.000Z!2027-03-08,385,368-->
 
 {@{Lazy lists}@} can also model {@{mathematical convergent sequences}@} without {@{explicit termination conditions}@}: <!--SR:!2026-12-29,325,345!2026-11-26,298,345!fsrs,2029-10-18T00:00:00.000Z,1119,1118.59914239,1,2,9,0,0,2026-09-25T00:00:00.000Z-->
 

@@ -148,7 +148,7 @@ Scala can be used to {@{build a simple digital‑circuit simulator}@} that demon
 
 ### simulation engine
 
-{@{The simulation}@} is driven by {@{an agenda of delayed actions}@}. {@{The abstract `Simulation` trait}@} supplies {@{the core API}@}: <!--SR:!2026-12-24,272,330!2026-12-27,274,330!2026-11-28,251,330!2026-10-29,230,330-->
+{@{The simulation}@} is driven by {@{an agenda of delayed actions}@}. {@{The abstract `Simulation` trait}@} supplies {@{the core API}@}: <!--SR:!2026-12-24,272,330!2026-12-27,274,330!2026-11-28,251,330!fsrs,2029-08-24T00:00:00.000Z,1030,1029.72783972,1,2,9,0,0,2026-10-29T00:00:00.000Z-->
 
 > [!example] __simulation trait skeleton__
 >

@@ -594,7 +594,7 @@ nuclear
 - agricultural→::@::←architectural <!--SR:!2027-02-27,757,357!2029-10-20,1582,392-->
 - architectural→::@::←biomedical <!--SR:!fsrs,2034-06-09T00:00:00.000Z,2836,2836.19926921,1,2,10,0,0,2026-09-03T00:00:00.000Z!2026-11-06,711,360-->
 - biomedical→::@::←ceramic <!--SR:!2031-03-17,1885,340!2033-04-07,2588,377-->
-- ceramic→::@::←chemical <!--SR:!2026-10-29,681,340!2030-11-13,1843,355-->
+- ceramic→::@::←chemical <!--SR:!fsrs,2034-04-30T00:00:00.000Z,2740,2740.12117884,1,2,10,0,0,2026-10-29T00:00:00.000Z!2030-11-13,1843,355-->
 - chemical→::@::←civil <!--SR:!2031-11-11,2112,357!2027-08-02,951,377-->
 - civil→::@::←computer <!--SR:!fsrs,2033-03-22T13:30:27.685Z,2473,2473.21085845,1,2,10,0,0,2026-06-14T13:30:27.685Z!2027-06-17,912,372-->
 - computer→::@::←electrical <!--SR:!fsrs,2033-11-28T00:00:00.000Z,2664,2664.09187646,1,2,10,0,0,2026-08-13T00:00:00.000Z!2031-09-07,1961,335-->
@@ -878,7 +878,7 @@ developing strengthening techniques for damaged structures or structural members
 <!--pytextgen generate section="198b"--><!-- The following content is generated at 2024-05-01T19:22:35.365059+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←choosing suitable materials to resurface a road like asphalt pavement <!--SR:!2029-04-28,1403,355!2029-04-02,1426,390-->
-- choosing suitable materials to resurface a road like asphalt pavement→::@::←designing a concrete mix for a large building <!--SR:!2026-10-29,650,340!fsrs,2033-08-21T00:00:00.000Z,2603,2602.51980223,1,2,10,0,0,2026-07-06T00:00:00.000Z-->
+- choosing suitable materials to resurface a road like asphalt pavement→::@::←designing a concrete mix for a large building <!--SR:!fsrs,2034-01-11T00:00:00.000Z,2631,2630.80080724,1,2,10,0,0,2026-10-29T00:00:00.000Z!fsrs,2033-08-21T00:00:00.000Z,2603,2602.51980223,1,2,10,0,0,2026-07-06T00:00:00.000Z-->
 - designing a concrete mix for a large building→::@::←developing strengthening techniques for damaged structures or structural members like a damaged column <!--SR:!2030-01-06,1601,355!2029-11-25,1408,317-->
 - developing strengthening techniques for damaged structures or structural members like a damaged column→::@::←_(end)_ <!--SR:!2028-03-05,1096,365!2029-06-01,1419,344-->
 
