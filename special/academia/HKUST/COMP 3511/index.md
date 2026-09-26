@@ -190,7 +190,23 @@ The content is in teaching order.
     - [§ service models](cloud%20computing.md#service%20models)
 - [computing environments](computing%20environments.md)
 
-## week 2 lecture 3
+## week 2 lab 1
+
+- datetime: 2026-09-07T18:00:00+08:00/2026-09-07T19:50:00+08:00
+- venue: Lecture Theater E
+- status: no class
+
+---
+
+> __No Labs on Week 1__
+>
+> We don't have labs on week 1 (i.e., 01-04 Sep 2026).
+>
+> We don't have labs on week 2 (i.e., 07-11 Sep 2026).
+>
+> Lab1+2 will be combined on week 3 (i.e., 14,15,17 Sep 2026) after the add/drop period.
+
+## week 2 lecture 1
 
 - datetime: 2026-09-08T09:00:00+08:00/2026-09-08T10:20:00+08:00
 - venue: Rm 4619, Lift 31-32
@@ -206,7 +222,7 @@ The content is in teaching order.
     - [§ parameter passing](system%20call.md#parameter%20passing)
     - [§ types](system%20call.md#types)
 
-## week 2 lecture 4
+## week 2 lecture 2
 
 - datetime: 2026-09-10T09:00:00+08:00/2026-09-10T10:20:00+08:00
 - venue: Rm 4619, Lift 31-32
@@ -226,22 +242,6 @@ The content is in teaching order.
     - [§ design](loadable%20kernel%20module.md#design)
     - [§ Linux and LKMs](loadable%20kernel%20module.md#linux%20and%20lkms)
     - [§ Linux and LKMs](loadable%20kernel%20module.md#linux%20and%20lkms)
-
-## week 2 lab 1
-
-- datetime: 2026-09-10T18:00:00+08:00/2026-09-10T19:50:00+08:00
-- venue: Lecture Theater B
-- status: no class
-
----
-
-> __No Labs on Week 1__
->
-> We don't have labs on week 1 (i.e., 01-04 Sep 2026).
->
-> We don't have labs on week 2 (i.e., 07-11 Sep 2026).
->
-> Lab1+2 will be combined on week 3 (i.e., 14,15,17 Sep 2026) after the add/drop period.
 
 ## midterm examination
 
