@@ -1,15 +1,15 @@
 ---
 aliases:
-    - HKUST MATH 2431 week 4 tutorial
-    - HKUST MATH2431 week 4 tutorial
-    - MATH 2431 week 4 tutorial
-    - MATH2431 week 4 tutorial
+    - HKUST MATH 2431 week 4 tutorial 1
+    - HKUST MATH2431 week 4 tutorial 1
+    - MATH 2431 week 4 tutorial 1
+    - MATH2431 week 4 tutorial 1
 tags:
-    - flashcard/active/special/academia/HKUST/MATH_2431/questions/week_4_tutorial
+    - flashcard/active/special/academia/HKUST/MATH_2431/questions/week_4_tutorial_1
     - language/in/English
 ---
 
-# week 4 tutorial
+# week 4 tutorial 1
 
 - HKUST MATH 2431
 

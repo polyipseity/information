@@ -179,7 +179,7 @@ The content is in teaching order.
     - sigma-algebra / [§ definition of sigma-algebra](sigma-algebra.md#definition%20of%20sigma-algebra)
     - sigma-algebra / [§ consequences: empty set, intersections, finite operations](sigma-algebra.md#consequences%3A%20empty%20set%2C%20intersections%2C%20finite%20operations)
     - sigma-algebra / [§ concrete cases and violations](sigma-algebra.md#concrete%20cases%20and%20violations)
-- [questions / week 2 tutorial](questions/week%202%20tutorial.md)
+- [questions / week 2 tutorial 1](questions/week%202%20tutorial%201.md)
 
 ## week 2 lecture 1
 
@@ -244,7 +244,7 @@ The content is in teaching order.
 - [independence](independence.md)
     - independence / [§ definitions: pairwise and joint independence](independence.md#definitions%3A%20pairwise%20and%20joint%20independence)
     - independence / [§ independence via cards and coins](independence.md#independence-via-cards-and-coins)
-- [questions / week 4 tutorial](questions/week%204%20tutorial.md)
+- [questions / week 4 tutorial 1](questions/week%204%20tutorial%201.md)
 
 ## week 4 lecture 1
 
@@ -291,7 +291,7 @@ The content is in teaching order.
 - [sigma-algebra](sigma-algebra.md)
     - sigma-algebra / [§ generated sigma-algebras](sigma-algebra.md#generated%20sigma-algebras)
     - sigma-algebra / [§ Borel sigma-algebra](sigma-algebra.md#Borel%20sigma-algebra)
-- [questions / week 5 tutorial](questions/week%205%20tutorial.md)
+- [questions / week 5 tutorial 1](questions/week%205%20tutorial%201.md)
 
 ## week 5 lecture 1
 
@@ -342,7 +342,7 @@ The content is in teaching order.
 - [cumulative distribution function](cumulative%20distribution%20function.md)
     - cumulative distribution function / [§ general properties](cumulative%20distribution%20function.md#general%20properties)
     - cumulative distribution function / [§ Lebesgue-Stieltjes measures](cumulative%20distribution%20function.md#Lebesgue-Stieltjes%20measures)
-- [questions / week 6 tutorial](questions/week%206%20tutorial.md)
+- [questions / week 6 tutorial 1](questions/week%206%20tutorial%201.md)
 
 ## week 6 lecture 1
 
@@ -393,7 +393,7 @@ The content is in teaching order.
     - random variable / [§ transformation of random variables](random%20variable.md#transformation%20of%20random%20variables)
 - [continuous distribution](continuous%20distribution.md)
     - continuous distribution / [§ Cauchy distribution](continuous%20distribution.md#Cauchy%20distribution)
-- [questions / week 7 tutorial](questions/week%207%20tutorial.md)
+- [questions / week 7 tutorial 1](questions/week%207%20tutorial%201.md)
 
 ## week 7 lecture 1
 
@@ -422,7 +422,7 @@ The content is in teaching order.
 - [random variable](random%20variable.md)
     - random variable / [§ transformation of random variables](random%20variable.md#transformation%20of%20random%20variables)
     - random variable / [§ equality in distribution](random%20variable.md#equality%20in%20distribution)
-- [questions / week 8 tutorial](questions/week%208%20tutorial.md)
+- [questions / week 8 tutorial 1](questions/week%208%20tutorial%201.md)
 
 ## week 8 lecture 1
 
@@ -457,7 +457,7 @@ The content is in teaching order.
     - expectation and variance / [§ inequalities](expectation%20and%20variance.md#inequalities)
 - [multiple integral](multiple%20integral.md)
     - multiple integral / [§ variable-bound regions and probability calculations](multiple%20integral.md#variable-bound%20regions%20and%20probability%20calculations)
-- [questions / week 9 tutorial](questions/week%209%20tutorial.md)
+- [questions / week 9 tutorial 1](questions/week%209%20tutorial%201.md)
 
 ## week 9 lecture 1
 
@@ -507,7 +507,7 @@ The content is in teaching order.
 - topic: generalized Markov inequality; Chebyshev inequality; geometric probability review
 - [expectation and variance](expectation%20and%20variance.md)
     - expectation and variance / [§ inequalities](expectation%20and%20variance.md#inequalities)
-- [questions / week 11 tutorial](questions/week%2011%20tutorial.md)
+- [questions / week 11 tutorial 1](questions/week%2011%20tutorial%201.md)
 
 ## week 11 lecture 1
 
@@ -543,7 +543,7 @@ The content is in teaching order.
     - joint distribution / [§ marginal distributions and marginal densities](joint%20distribution.md#marginal%20distributions%20and%20marginal%20densities)
     - joint distribution / [§ covariance and correlation](joint%20distribution.md#covariance%20and%20correlation)
     - joint distribution / [§ triangle law and Buffon's needle](joint%20distribution.md#triangle%20law%20and%20Buffon%27s%20needle)
-- [questions / week 12 tutorial](questions/week%2012%20tutorial.md)
+- [questions / week 12 tutorial 1](questions/week%2012%20tutorial%201.md)
 
 ## week 12 lecture 1
 
@@ -579,7 +579,7 @@ The content is in teaching order.
     - joint distribution / [§ multivariate normal distribution](joint%20distribution.md#multivariate%20normal%20distribution)
 - [expectation and variance](expectation%20and%20variance.md)
     - expectation and variance / [§ covariance and correlation](expectation%20and%20variance.md#covariance%20and%20correlation)
-- [questions / week 13 tutorial](questions/week%2013%20tutorial.md)
+- [questions / week 13 tutorial 1](questions/week%2013%20tutorial%201.md)
 
 ## week 13 lecture 1
 
@@ -612,7 +612,7 @@ The content is in teaching order.
     - conditional expectation / [§ posterior expectations via Bayes' formula](conditional%20expectation.md#posterior%20expectations%20via%20bayes%27%20formula)
     - conditional expectation / [§ predictor viewpoint and linear regression](conditional%20expectation.md#predictor%20viewpoint%20and%20linear%20regression)
     - conditional expectation / [§ further applications](conditional%20expectation.md#further%20applications)
-- [questions / week 14 tutorial](questions/week%2014%20tutorial.md)
+- [questions / week 14 tutorial 1](questions/week%2014%20tutorial%201.md)
 
 ## week 14 lecture 1
 
