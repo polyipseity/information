@@ -24,9 +24,9 @@ __Lectures, labs, and tutorials are separate types__, each with its own section 
 - `labs`: `LA1`, `LA2`, `LA3` (1 per week typical)
 - `tutorials`: `T1`, `T2`, `T3` (1 per week typical)
 
-Never conflate them into one type, create joint session entries, or mix types within a week heading. `## logistics` lists the enrolled sections, venues, and times; each session that meets gets its own `## week N <type> <number>` heading, so a course with 2 lectures + 1 lab + 1 tutorial per week has 4 session headings, not 4 logistics entries. See "Session ordering" in `academic-crud-course-index`.
+Never conflate them into one type, create joint session entries, or mix types within a week heading. `## logistics` lists the enrolled sections, venues, and times. Each session that meets gets its own `## week N <type> <number>` heading, so a course with 2 lectures + 1 lab + 1 tutorial per week has 4 session headings, not 4 logistics entries. See "Session ordering" in `academic-crud-course-index`.
 
-__A recurrent course groups its sessions by semester.__ It carries `- status: recurrent`, runs every term, and puts each session one level deeper under a `## <YYYY term>` header: `### 2026 fall week 3 tutorial 1`. Repeat the semester in the heading — without it the same week/type pair recurs every semester and `markdownlint` MD024 rejects the duplicate. Every session of a recurrent course is optional and is not assumed to be attended, so each carries `- status: optional` while keeping its `datetime:`, `venue:`, and `topic:`. A seminar series or training stream is recorded under whichever of `lecture`/`lab`/`tutorial` it matches, never as a new type. See "Recurring courses" in `academic-crud-course-index`.
+__A recurrent course groups its sessions by semester.__ It carries `- status: recurrent` and puts each session one level deeper under a `## <YYYY term>` header: `### 2026 fall week 3 tutorial 1`, with `- status: optional` on every session. Read "Recurring courses" in `academic-crud-course-index` before writing the heading; it owns why the semester repeats, what counts as a seminar series, and how `datetime:` orders across terms.
 
 __When in doubt, create less.__ Add scaffolding for future content only when the source enumerates items ("Lab 1, Lab 2, Lab 3") or the user asks for it. A homepage that mentions labs as a grading component does not warrant a `labs/` directory.
 
@@ -48,7 +48,7 @@ Write an open question as the question itself and a worked example as the exampl
 
 ## Source file preservation
 
-__Hard rule: ingestion never deletes, moves, renames, or truncates a source file.__ The rule covers the file, wherever it lives: an ad-hoc ingest directory, a downloads folder, an attachments directory, a path on the command line, or a location outside the repository.
+__Hard rule: ingestion never destroys a source.__ It never deletes, moves, renames, or truncates one, and the rule holds wherever the file lives: an ad-hoc ingest directory, a downloads folder, an attachments directory, a path on the command line, or a location outside the repository.
 
 - Leave every source byte-identical at its original path.
 - Do not delete a source because its content was "not stored in the repository". "Not stored" means not copied into the tracked content tree (`special/academia/...`); it never authorises deleting the original.
@@ -106,9 +106,9 @@ __Cache check__: before running `convert_document.py`, check if `.extracted/` ex
 - `pages/page_NNN.png`: a 150 DPI render of the whole page or slide, for locating content and reading slide text and layout.
 - `images/`: the document's embedded images at true resolution, named for their page or slide. Read a figure here; the render is downscaled, so small labels and lettering that are unreadable in `pages/` are often clear.
 
-__Look at every page and figure the material carries.__ When the model accepts images, open the page renders and the embedded images before classifying the material and before writing any prose about them; the `academic-vision` skill fixes the method, the legibility rules, and the checklist an image must pass. A figure described without having been looked at is a fabrication, not a summary.
+__Look at every page and figure.__ When the model accepts images, open the page renders and the embedded images before classifying the material and before writing any prose about them. The `academic-vision` skill fixes the method, the legibility rules, and the checklist an image must pass. A figure described without having been looked at is a fabrication, not a summary.
 
-__Read the embedded image, not the render, when the figure matters.__ A page whose extracted text is thin or empty usually still holds content. Open its embedded image, and crop and upscale if detail is unclear:
+__Read the embedded image, not the render.__ A page whose extracted text is thin or empty still holds content. Open its embedded image, and crop and upscale if detail is unclear:
 
 ```bash
 magick images/page_035_img_1.png -crop 200x70+320+235 +repage -resize 500% /tmp/zoom.png
@@ -116,7 +116,7 @@ magick images/page_035_img_1.png -crop 200x70+320+235 +repage -resize 500% /tmp/
 
 Classify what the image holds, because each kind is handled differently:
 
-- __Definitional drawing__ (a symbol, a schematic convention, a reference direction, a construction the material states by showing how it is drawn): the drawing is the definition, so attach it — see "Definitional drawings" below. No prose transcription replaces it.
+- __Definitional drawing__ (a symbol, a schematic convention, a reference direction, a construction the material states by showing how it is drawn): the drawing is the definition, so attach it (see "Definitional drawings" below). No prose transcription replaces it.
 - __Text-bearing figure__ (plot, table, document screenshot, annotated diagram that defines nothing): transcribe its labels, values, and steps into the note as prose or a Markdown table. The transcription is the record.
 - __Purely pictorial image__ (photograph, engraving, illustration): describe it for the point it makes, per the rule below.
 
@@ -130,18 +130,13 @@ __Never assert what the image does not show.__ An image is evidence of what it d
 - Do not read a chart's shape as a quantity it never states. The mode of a distribution is not its mean, and a line's movement is not a price change the slide never claims.
 - Keep observation apart from the deck's commentary. "Men with arms raised and papers in hand" is observed; "bidding by open outcry" is the deck's framing of a trading floor, and one sentence must not present the second as if the image showed it.
 
-__Attach a graphic only when the picture itself is the material.__ Page renders are never attachments, and an embedded image normally stays in `.extracted/` because text can carry what it shows. Copy one into `attachments/` under a descriptive name only when the reader must see the picture itself (geometry that carries the meaning, a chart whose shape is the point, a cheatsheet); expect that to be rare. A definitional drawing is the standing exception, and it is redrawn rather than copied — see below.
+__Attach a graphic only when the picture itself is the material.__ Page renders are never attachments, and an embedded image stays in `.extracted/` because text can carry what it shows. Copy one into `attachments/` under a descriptive name only when the reader must see the picture itself: geometry that carries the meaning, a chart whose shape is the point, a cheatsheet. Expect that to be rare. A definitional drawing is the standing exception, and it is redrawn rather than copied (see "Definitional drawings" below).
 
 #### Definitional drawings
 
-A drawing is part of a definition when the note cannot state the thing without showing it: a circuit symbol, a reference direction drawn on an element, a measurement setup, a construction. Such a drawing belongs beside the prose that defines it, and the prose alone never replaces it.
+A drawing is part of a definition when the note cannot state the thing without showing it: a circuit symbol, a reference direction drawn on an element, a measurement setup, a construction. Such a drawing belongs beside the prose that defines it, and prose alone never replaces it.
 
-- Redraw it as an SVG in the owning directory's `attachments/`, produced by a generator script kept beside the drawings (`generate_circuit_diagrams.py`), so the set stays reproducible and editable; see `academic-crud-attachments`.
-- Name it for what it draws (`symbol_<thing>.svg`, `<thing>_<convention>.svg`), never for the slide or page it came from. A form that differs is its own file, and the Markdown places the set side by side.
-- Hand placement to the library: chain the elements, attach labels to the element they belong to, hang leads on named anchors, and pass no coordinate or nudge. See `academic-crud-attachments` for the full rule, and `academic-vision` for the render-and-compare check the drawing must pass.
-- Embed it inline where the prose defines the thing, joined to the sentence by `<p>`: `text. <p> ![plain-language alt text](attachments/<name>.svg)`. Write the alt text in plain words, with no LaTeX.
-- Card it in both directions: recognition with the drawing on the prompt side, recall with the drawing on the answer side, and both sides for a transformation — see `create-flashcards`.
-- A picture specific to one question or worked example is not a definition: keep it as a crop of the extracted image in `attachments/`.
+Everything about producing one is in `academic-crud-attachments` — the SVG, the generator script beside it, the file naming, the embed syntax, the carding, and the check the drawing has to pass. This skill decides only whether the material defines anything by drawing it.
 
 ## Video links (mandatory)
 
@@ -149,7 +144,7 @@ __A video link in the material is course material.__ Slides, PDFs, handouts, and
 
 __Read the video from its subtitles, or defer it.__ The transcript is the video's content, read with `yt-dlp` into a temp directory — never into the repository, and never into `attachments/`. A video with no usable English track is deferred: nothing is written about it, and nothing is guessed from its title. A deferral is run state, never note content.
 
-__One request, at the end.__ Before returning to the user, present every deferred video in a single request and ask them to have it watched — Gemini for a YouTube URL, a file-upload tool or a local Whisper transcript for anything else — so the content can be incorporated on the next pass.
+__One request, at the end.__ Before returning to the user, present every deferred video in a single request and ask them to have it watched. The content is incorporated on the next pass. Gemini takes a YouTube URL; anything else needs a file-upload tool or a local Whisper transcript.
 
 `academic-video` is the authority on the link forms, the extraction commands, the deferral rule, and the wording of that request.
 
@@ -188,7 +183,7 @@ Document-like formats are not opaque: extraction is mandatory and runs before cl
 1. __Vision-awareness check__: determine whether the current model accepts image inputs by checking the `PI_MODEL` and `PI_PROVIDER` environment variables. A vision-aware agent reads the page renders and embedded images alongside the text during classification and content extraction; otherwise it relies on the extracted text alone. Both image sets persist in `.extracted/` for later review either way.
 
 2. __Role classification__ (after extraction, before dispatch):
-   - __Content document__: the document IS the course material (lecture slides, topic notes, exam paper). Extracted text becomes the `.md` file; figures are transcribed into it, with an embedded image attached only when the picture itself is the material (see "Page image handling"); the original is left in place at its original path and the `.md` is canonical.
+   - __Content document__: the document IS the course material (lecture slides, topic notes, exam paper). Extracted text becomes the `.md` file, and figures are transcribed into it; an embedded image is attached only when the picture itself is the material (see "Page image handling"). The source stays where it is, and the `.md` is canonical.
    - __Attachment document__: the document accompanies course material (prompt PDF, reference data, supplementary reading). The original is copied to `attachments/`; its extracted text is used during processing but not persisted as a separate `.md`; images stay in `.extracted/` unless the note has to show one.
    - __When ambiguous__: ask the user whether the document is the course content or a file that accompanies it.
 
@@ -328,13 +323,11 @@ Apply these steps to each material after its target type is known, before dispat
 
 ### Topic note naming (mandatory when the target is a topic note)
 
-Fix the name before creating or renaming any `<topic>.md`. This is required, not stylistic; see "Topic note naming" in `academic-crud-topic-note` for the full rules.
+Fix the name before creating or renaming any `<topic>.md`, and take it from the canonical article title, not from the material. This is required, not stylistic, and `academic-crud-topic-note` owns the rules: sentence case, the sentence-case filename stem, the H1 that matches it, and the aliases.
 
 ```bash
 uv run python .agents/skills/academic-crud-topic-note/find_wikipedia.py "<concept>"
 ```
-
-The filename stem and the H1 title are the same sentence-case string (`operating system`, never `Operating System`). No lint rule inspects the H1 title or the filename, so a title-case name passes validation silently.
 
 ### Missing data
 
@@ -404,7 +397,7 @@ PRS/iClicker HTML can embed base64 images (circuit diagrams, pinouts, sensor ill
 1. Scan for `data:image/...;base64,...` URIs.
 2. Skip tiny images (< 1 KB); they are UI icons.
 3. Use the original filename when available; otherwise generate a descriptive one (`req_circuit.jpg`, `l293_pinout.jpg`).
-4. Preserve the original alt text from the `<img>` tag. If it is missing or empty, look at the image and write a concise plain-language description of what it shows ("Resistor network with 6, 12, 3, and 2 ohm resistors"); never use LaTeX in alt text, and never describe an image you have not opened — see `academic-vision`.
+4. Preserve the original alt text from the `<img>` tag. If it is missing or empty, look at the image and write a concise plain-language description of what it shows ("Resistor network with 6, 12, 3, and 2 ohm resistors"); never use LaTeX in alt text, and never describe an image you have not opened (see `academic-vision`).
 5. Reference the image in the quiz markdown as `![<alt text>](attachments/<name>.jpg)` inside the blockquote question.
 6. List it in the `## attachments` section of both `<type>.md` and `index.md` (an in-class-only `index.md` omits `## attachments`).
 
@@ -529,10 +522,10 @@ Run this after the dispatched CRUD skill has written its files and before the hu
 1. __List the concepts.__ Take every concept the material carries, including ones that look already covered.
 2. __Find the owning note and section.__ Match by canonical title and by section meaning, never by wording; a course note may cover the concept under a different name.
 3. __Apply exactly one outcome per concept, and record it:__
-    - __extend__: the material adds a fact, distinction, example, drawing, or card the note lacks — write it into the owning section in the note's own words;
-    - __prune__: the material contradicts, supersedes, or duplicates what the note says — remove or correct the stale part within the note's scope;
-    - __create__: no note owns the concept and it is durable knowledge independent of the session — create a topic note per `academic-crud-topic-note` and link it from the course `index.md`;
-    - __leave__: the note already covers the concept — name the section that covers it.
+    - __extend__: the material adds a fact, distinction, example, drawing, or card the note lacks. Write it into the owning section in the note's own words;
+    - __prune__: the material contradicts, supersedes, or duplicates what the note says. Remove or correct the stale part within the note's scope;
+    - __create__: no note owns the concept and it is durable knowledge independent of the session. Create a topic note per `academic-crud-topic-note` and link it from the course `index.md`;
+    - __leave__: the note already covers the concept. Name the section that covers it.
 4. __Report the outcomes__, one line per note, the `leave` decisions included.
 
 The session file and the topic note do different jobs: the session file keeps the material's own questions and framing, while the topic note states the concept. Reconciliation is never finished by copying the material's wording into a note, and never skipped because the material is only a lab, a tutorial, or a single handout.
@@ -560,11 +553,11 @@ Route to the correct `academic-crud-*` skill with preprocessed context:
 After the dispatched skill completes:
 
 1. __Reconcile the topic notes.__ Run "Topic-note reconciliation (mandatory)" above for every material in this ingestion, whatever its source.
-2. __Section levelling pass.__ Re-review every note this ingestion wrote or touched, section by section, and re-level it: promote a sub-concept that earned its own heading, fold a section that restates the note's H1 or a lone `###` that is its parent's whole content, move material to the note that owns its concept, and re-link every session entry whose anchor a renamed, moved, or removed heading invalidated. Run it before the humanizer pass, which treats heading text as frozen; see "Section levelling pass" in `academic-crud-topic-note`.
+2. __Section levelling pass.__ Re-review every note this ingestion wrote or touched, section by section, and re-level it. Promote a sub-concept that earned its own heading. Fold a section that restates the note's H1, or a lone `###` that is its parent's whole content. Move material to the note that owns its concept. Re-link every session entry a renamed, moved, or removed heading invalidated. Run this before the humanizer pass, which treats heading text as frozen (see "Section levelling pass" in `academic-crud-topic-note`).
 3. __Humanizer pass.__ Load the `humanizer` skill and apply it to the new and changed prose and flashcards, the reconciled topic notes included, before validating. Every later edit gets the same pass, whether or not an ingestion is running; see "Humanizer pass" below.
 4. Run validation on the created or modified files.
 5. Add a link to the assignment in the last lecture entry on or before its due date in the course `index.md`.
-6. __Request the deferred videos.__ Batch every video that could not be read into the one request made to the user (see "Asking the user to watch them" in `academic-video`), and do it before the report, since the report has to name the concepts left uncovered.
+6. __Request the deferred videos.__ Batch every video that could not be read into the one request made to the user (see "Asking the user to watch them" in `academic-video`). Do it before the report, which has to name the concepts left uncovered.
 7. Report what was created or updated, with file paths, with the reconciliation outcome for each topic note and the reason for each deferred video.
 8. Suggest next steps (add flashcards, update the index, bring back the deferred videos).
 
@@ -572,44 +565,31 @@ After the dispatched skill completes:
 
 ### Humanizer pass
 
-__Every edit to academic prose or flashcards triggers the pass, not only an ingestion.__ A note created from a deck, a reconciliation, a card rewritten on request, a heading renamed, a one-line correction: whatever changed the prose or the cards gets the pass over the text that changed, run after the edit and before `academic-lint`. Run it as you edit, or batch it at the end of the run when several edits accumulate — the timing is a choice, skipping it is not. Work that reaches the user with unpassed prose or cards is unfinished.
+Every edit to academic prose or flashcards gets the pass, not only an ingestion: a note created from a deck, a reconciliation, a card rewritten on request, a heading renamed, a one-line correction. Sweep the text that changed, after the edit and before `academic-lint`. Running the pass as you edit and batching several edits to the end of the run are both fine; skipping it is not. Work that reaches the user with unpassed prose or cards is unfinished.
 
-Every note this skill dispatches to gets the pass over __both the prose and the flashcards__. Prose and cards fail differently, so sweep them separately.
+Sweep prose and cards separately, because they fail differently. Verbatim text is out of scope and stays as it arrived: a question statement from an official paper, the body of a Wikipedia transclude, an instructor's own phrasing, and heading text that session entries link to. The pass covers what you write.
 
-__Verbatim text is out of scope.__ Anything reproduced exactly as it arrived — a question statement from an official paper, the body of a Wikipedia transclude, an instructor's own phrasing — stays as it is, and so does heading text that session entries link to. The pass covers the prose and the cards you write.
+"Humanize", "humanizer pass", and "reduce verbosity" mean one thing: load the `humanizer` skill and apply it. The skill decides what changes, and cutting verbosity is the usual __focus__ of a pass rather than a substitute for one. Never run a pass from memory of these rules.
 
-__"Humanize", "humanizer pass", and "reduce verbosity" all mean one thing: load the `humanizer` skill and apply it.__ The skill is the authority on what changes; cutting verbosity is only the usual __focus__ of a pass, never a substitute for it. Do not run a pass from memory of these rules.
-
-__Agents and subagents must load the skill.__ Read the `humanizer` skill's `SKILL.md` (user scope: `~/.agents/skills/humanizer/SKILL.md`) before editing. When the pass is delegated, the brief must name the `humanizer` skill, give that `SKILL.md` path, require the child to read it before editing, and require it to report the patterns it applied; pass `humanizer` in the subagent's skills as well. A rewrite reported without those patterns did not run the pass.
+Agents and subagents must read that skill's `SKILL.md` (user scope: `~/.agents/skills/humanizer/SKILL.md`) before editing. A delegated brief names the `humanizer` skill, gives the `SKILL.md` path, requires the child to read it, and requires it to report the patterns it applied; pass `humanizer` in the subagent's skills as well. A rewrite reported without those patterns did not run the pass.
 
 #### Flashcard focus
 
-- __Prompts that give away the answer__ or that a reader cannot answer at all. Rewrite the pair rather than trimming either half.
-- __Answers that restate their prompt__ or end in a justification clause ("…, which holds because the copies are independent").
-- __Missing symbols.__ If cutting the prompt drops the givens or notation the answer uses, the card is broken, not shorter. Calculation cards must name every quantity they combine.
-- __Labels longer than the concept.__ A prompt is a question, not a sentence.
-- __Two ideas in one card.__ Split it rather than trimming both halves.
-- __Enumeration answers.__ A card whose answer lists many items names its slice on the prompt side (`the five born before 1790`, `before 1850`, `the curl equations`) and leaves the rest to sibling cards (see "Enumeration cards" in `create-flashcards`).
+A card fails in a few recurring ways. Its prompt gives the answer away, or a reader cannot answer it at all: rewrite the pair rather than trimming one half. Its answer restates the prompt, or trails a justification clause ("…, which holds because the copies are independent"). Its prompt is a label longer than the concept, where a question would do. It carries two ideas, which belong in two cards. It answers with an enumeration where it should name its slice on the prompt side (`the five born before 1790`, `before 1850`, `the curl equations`) and leave the rest to sibling cards (see "Enumeration cards" in `create-flashcards`).
 
-Keep the givens the answer needs. A card should read as a short prompt carrying its symbols plus an answer of one or two clauses.
+The failure a pass must not create is a missing symbol. Cutting a prompt that drops a given or a piece of notation breaks the card instead of shortening it, and a calculation card names every quantity it combines. What is left should be a short prompt carrying its symbols, plus an answer of one or two clauses.
 
 #### Prose focus
 
-- __Openers that announce the structure__ instead of starting the content ("Three objects have to be kept apart", "There are two ways to obtain it").
-- __Clauses explaining why the previous clause is useful__ ("which is why…", "so that…", "which makes… possible").
-- __Facts already carried__ by the section's cards or by an earlier paragraph.
-- __Hedging, and appositives that restate their subject__ ("$X$, whose distribution is not fully specified" when the sentence already said so).
-- __Subordinate chains__ that a full stop would divide.
+The sentences that go are the ones announcing the shape of what follows ("Three objects have to be kept apart", "There are two ways to obtain it"), the clauses explaining why the previous clause helps ("which is why…", "so that…", "which makes… possible"), the facts the section's cards or an earlier paragraph already carry, the hedging, and the appositive restating its own subject ("$X$, whose distribution is not fully specified", once the sentence has said so). Break subordinate chains where a full stop would do.
 
-Leave the source's own emphasis alone: an instructor's "rare, difficult or even impossible" is content, not padding. Aim for one idea per sentence and no sentence announcing what comes next.
+Leave the source's own emphasis alone: an instructor's "rare, difficult or even impossible" is content, not padding. One idea per sentence, and no sentence that announces what comes next.
 
 #### Repo patterns to watch
 
-Academic notes attract these patterns from the `humanizer` catalogue: rule-of-three lists padded to three items, "not only… but also", copula avoidance ("serves as" or "represents" where "is" works), em dashes, bolded `**Term:** description` bullets, and over-bolded inline labels.
+Academic notes collect a handful of catalogue habits: rule-of-three lists padded to three items, "not only… but also", copula avoidance where "serves as" or "represents" stands in for "is", em dashes, bolded `**Term:** description` bullets, and over-bolded inline labels. Aim at the padded triad; a list of three real device types is content and stays.
 
-The target is a triad __padded__ to three items, not an enumeration of three real things: a list of three device types is content and stays.
-
-Three catalogue patterns never apply here: headings are already sentence case, notes carry no emoji, and __heading text is frozen__ — session entries link to `#section%20anchors`, so a heading is never a humanizer target. Renaming, moving, or folding a heading belongs to the __section levelling pass__, which runs first and re-links the session entries it invalidates (see "Section levelling pass" in `academic-crud-topic-note`). Accuracy beats style in every conflict: a card that loses a given to read more naturally is broken.
+Three catalogue patterns do not apply here. Headings are already sentence case, notes carry no emoji, and heading text is frozen because session entries link to `#section%20anchors`, so a heading is never a humanizer target. Renaming, moving, or folding one belongs to the __section levelling pass__, which runs first and re-links the entries it invalidates (see "Section levelling pass" in `academic-crud-topic-note`). Accuracy beats style in every conflict: a card that loses a given to read more naturally is broken.
 
 #### After the pass
 

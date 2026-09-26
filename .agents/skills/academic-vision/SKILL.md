@@ -1,26 +1,26 @@
 ---
 name: academic-vision
-description: Use when an academic ingestion depends on what an image shows — reading page renders and embedded figures, deciding what a graphic is, and verifying a generated drawing or an attached crop by looking at it before it reaches a note.
+description: Use when an academic ingestion depends on what an image shows — reading page renders and embedded figures, deciding what a graphic is, and verifying a generated drawing or an attached crop before either reaches a note.
 ---
 
 # Academic Vision
 
-Part of the material states its content only in a picture: a slide render, an embedded figure, a photograph, or a drawing whose meaning is the drawing itself. An agent that skims the extracted text ingests the words and silently drops the rest. This skill fixes __when looking is mandatory__, __how to look__, and __what to check before an image reaches a note__.
+Some material states its content only in a picture: a slide render, an embedded figure, a photograph, a drawing that stands for what it shows. Text extraction drops all of it silently, which is what makes looking a step rather than a courtesy.
 
 ## When looking is mandatory
 
-- __Classifying a figure__ — deciding whether it is a definitional drawing, a text-bearing figure, or purely pictorial (see "Page image handling" in `academic-ingest`). The decision is made from the image, not from its filename or the prose around it.
-- __Extracting content that lives in the picture__ — labels inside a diagram, a formula rendered as an image, a table whose layout carries meaning, superscripts and subscripts, Greek letters, unit symbols, or handwriting added to a slide.
-- __Checking a doubtful extraction__ — when `text.md` has a gap, a mangled formula, or a missing row, compare it with the page render before writing anything.
-- __Drawing something__ — building the SVG for a definitional drawing, and every time that drawing changes (see `academic-crud-attachments`).
-- __Attaching a picture__ — before a crop is referenced from a note or a question, and before alt text is written for any image.
-- __Carding a diagram__ — before a drawing goes onto either side of a card (see `create-flashcards`).
+- __Classifying a figure__: deciding whether it is a definitional drawing, a text-bearing figure, or purely pictorial (see "Page image handling" in `academic-ingest`). The decision is made from the image, not from its filename or the prose around it.
+- __Extracting content that lives in the picture__: labels inside a diagram, a formula rendered as an image, a table whose layout carries meaning, superscripts and subscripts, Greek letters, unit symbols, or handwriting added to a slide.
+- __Checking a doubtful extraction__: when `text.md` has a gap, a mangled formula, or a missing row, compare it with the page render before writing anything.
+- __Drawing something__: building the SVG for a definitional drawing, and every time that drawing changes (see `academic-crud-attachments`).
+- __Attaching a picture__: before a crop is referenced from a note or a question, and before alt text is written for any image.
+- __Carding a diagram__: before a drawing goes onto either side of a card (see `create-flashcards`).
 
 __Hard rule: never write about an image you have not looked at.__ Reading its path, its size, a manifest entry, an extraction log, or the generator that produced it is not looking. A description, a crop, an attachment, or a verdict written without looking is a fabrication.
 
 ## How to look
 
-1. __Open the highest-resolution version available.__ Embedded images in `.extracted/images/` beat the page render in `.extracted/pages/`, which is downscaled; a slide's own text is usually legible in the render, its small labels often are not.
+1. __Open the highest-resolution version available.__ Embedded images in `.extracted/images/` beat the page render in `.extracted/pages/`, which is downscaled. A slide's own text is usually legible in the render; its small labels are not.
 2. __Crop and zoom when detail is unclear.__ A full page hides what a region shows:
 
    ```bash
@@ -54,7 +54,7 @@ For a drawing the notes generate:
 For a picture the notes attach:
 
 - it shows the whole thing the note or question refers to, with no neighbouring content cut into it;
-- it is the material's own image or a crop of it — never a page render, never a screenshot of a slide (see `academic-crud-attachments`);
+- it is the material's own image or a crop of it: never a page render, never a screenshot of a slide (see `academic-crud-attachments`);
 - the alt text matches what the image actually shows, and reads as a plain sentence: alt text and any prose you write about the image get the humanizer pass like anything else you write (see "Humanizer pass" in `academic-ingest`).
 
 ## When the model cannot see images
@@ -69,17 +69,17 @@ A figure nobody looked at is an open item, never an empty one.
 
 ## Traps that only the rendered image reveals
 
-Generic, with the `schemdraw` cases that produced them as the worked instance:
+The cases below come out of real `schemdraw` drawings, but nothing in them is specific to that library:
 
-- __A drawing library's element already includes its terminal leads.__ Adding leads on top multiplies the drawing's height and turns a symbol into a bump on a wire — `schemdraw`'s default element length is `3` units, so a battery plus two `Line()` leads is three times taller than it should be.
+- __A drawing library's element already includes its terminal leads.__ Adding leads on top multiplies the drawing's height and turns a symbol into a bump on a wire. `schemdraw`'s default element length is `3` units, so a battery plus two `Line()` leads is three times taller than it should be.
 - __Chaining the next element against the current direction retraces the previous segment__, drawing the wire back through the symbol. Chain every element of one branch in the same direction.
 - __Label positions offered by a library are element-relative, not screen-relative.__ `loc="right"` on an element drawn upwards lands on top of it; on an element drawn downwards the same keyword lands on the left.
-- __A library's own PNG export is not the committed artifact.__ Rasterise the file that was saved (`rsvg-convert -z 2 -o /tmp/look.png attachments/<name>.svg`) and look at that, because that is what the note shows.
+- __A library's own PNG export is not the committed artifact.__ Rasterise the file that was saved (`rsvg-convert -z 2 -o /tmp/look.png attachments/<name>.svg`) and look at that; it is what the note shows.
 - __Defaults that suit one drawing can break another__: a box sized for a long label, a font that fits a wide glyph set, or a default stub shown at 3× may still overlap at the size the note renders.
 
 ## Reporting a defective image
 
-Report what the image shows, what the defect is, and where it was seen (path, and the crop or zoom level that exposed it). Never silently accept an image that fails a check, and never state that an image is verified when it has not been looked at in the same session.
+Report what the image shows, what the defect is, and where it was seen (path and the crop or zoom level that exposed it). Never silently accept an image that fails a check, and never state that an image is verified when it has not been looked at in the same session.
 
 ## References
 

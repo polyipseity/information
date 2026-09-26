@@ -1,17 +1,10 @@
 # .agents/skills — agent skill catalog (README.md)
 
-Purpose
+Each skill is one `SKILL.md`: a name, a description, and instructions an agent can follow. This file is the index — the academic skills in one table, then the rules for adding a new one.
 
-- Single place for human and agent discoverability of repository skills.
-- Skill metadata lives in each `SKILL.md` document's YAML frontmatter.
+## Adding a skill
 
-Files
-
-- `SKILL.md`: human-readable skill instructions, one per skill.
-
-Guidelines for new skills
-
-1. Add a `SKILL.md` with YAML frontmatter. The __only__ supported keys are:
+1. Write `SKILL.md` with YAML frontmatter. The __only__ supported keys are:
    - `name` (required)
    - `description` (required)
    - `argument-hint`
@@ -23,12 +16,8 @@ Guidelines for new skills
 
    > __Note:__ the `applyTo` key is no longer supported in skill frontmatter. Older skills may still include it, but new skills should omit it entirely, or the validator will raise an error. Other keys are ignored and may prevent the skill from loading.
 
-2. Keep the frontmatter to the allowed keys; do not invent fields.
+2. Do not invent fields beyond that list.
 3. Update `AGENTS.md` and `.agents/instructions` where relevant.
-
-Why this exists
-
-- Makes skills discoverable to agents and maintainers, and enables automated CI checks so human docs and metadata do not drift apart.
 
 ## Academic skills
 

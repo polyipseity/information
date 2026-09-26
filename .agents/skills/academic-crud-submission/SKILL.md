@@ -5,7 +5,7 @@ description: Create, read, update, and delete submission-bound pages (labs, tuto
 
 # Academic CRUD: Submission pages
 
-Create, read, update, and delete submission-bound pages for `labs/`, `tutorials/`, `lectures/`, and `assignments/`, which share one folder hierarchy and page format.
+`labs/`, `tutorials/`, `lectures/`, and `assignments/` share one folder hierarchy and one page format, so a single skill covers all four.
 
 ## Target
 
@@ -110,11 +110,11 @@ tags:
 
 ### Cloze flashcards in question blocks
 
-Every question quote block needs cloze flashcards (`{@{ }@}`) on its `- solution:` and `- explanation:` lines, never on the question text or answer choices. Use one cloze per solution (more only for very long multi-step solutions, one per logical step), and prefer several clozes per explanation, breaking it into individual claims, conditions, and reasoning steps. The closing delimiter is `}@}`. For multiple questions, delegate cloze creation to a subagent using the `create-flashcards` skill. See "Cloze flashcards in question blocks" in `academic-ingest` for the full form.
+Every question quote block needs cloze flashcards on its `- solution:` and `- explanation:` lines, never on the question text or the answer choices, and the solution line stays inside the blockquote holding its question. The per-line split, the `}@}` delimiter, the LaTeX and plain-text forms, and the `<!-- markdownlint MD028 -->` separator between consecutive questions are in "Cloze flashcards in question blocks" in `academic-ingest`; the methodology is in `create-flashcards`.
 
 ### Flashcard style per section
 
-A content file may hold several kinds of section, and each section carries one flashcard style: prose with a `Flashcards for this section are as follows:` block of `::@::`/`:@:` cards, or question blocks whose `- solution:`/`- explanation:` lines carry clozes. Never mix the two within one section, and keep a cloze solution line inside the blockquote holding its question. A prompt that is not a question is prose, recorded with its own cards. See "Flashcard style per section" in `academic-ingest` for the full rule and the `academic-lint` rules that enforce it.
+Each section of a content file carries one flashcard style, never both: prose with its own `Flashcards for this section are as follows:` block, or question blocks whose `- solution:`/`- explanation:` lines carry clozes. A prompt that is not a question counts as prose and gets its own cards. The two styles and the `academic-lint` rules that enforce them are in "Flashcard style per section" in `academic-ingest`.
 
 ### No-submission case (no Canvas at all)
 
@@ -226,11 +226,11 @@ Input: solution file(s).
 
 ### Stage 5: Topic-note reconciliation
 
-Every submission carries concepts the course's topic notes may already own. After the stages above, run "Topic-note reconciliation (mandatory)" in `academic-ingest`: extend the owning note with any fact, distinction, example, or card it lacks, prune what the material supersedes, create a topic note when none owns a durable concept, or record that the concept is already covered. A drawing the submission teaches is one of those concepts: the note that defines it carries the drawing as an SVG in `attachments/` (see "Definitional drawings" in `academic-ingest`), while a picture belonging to one question stays a crop in that submission's own `attachments/`.
+Every submission carries concepts the course's topic notes may already own. After the stages above, run "Topic-note reconciliation (mandatory)" in `academic-ingest`: extend the owning note with any fact, distinction, example, or card it lacks, prune what the material supersedes, create a topic note when none owns a durable concept, or record that the concept is already covered. A drawing the submission teaches is one of those concepts. The note that defines it carries the drawing as an SVG in `attachments/` (see "Definitional drawings" in `academic-ingest`); a picture belonging to one question stays a crop in that submission's own `attachments/`.
 
 `lab.md`, `tutorial.md`, and `lecture.md` are the session's pages, not the home of its concepts; a concept that reaches only a session file is an unfinished ingestion. The session file keeps the material's own wording, while the topic note states the concept.
 
-Reconcile before the humanizer pass, so the changed notes are humanized and validated together with the submission.
+Reconcile before the humanizer pass, so the changed notes get humanized and validated together with the submission.
 
 ## CRUD operations
 
@@ -250,7 +250,7 @@ Fill in the next available stage. Check completion:
 - Stage 2: files in `submission/`
 - Stage 3: `submission.yml` (out-of-class) and, if applicable, `lab.yml`/`tutorial.yml`/`lecture.yml` (in-class)
 - Stage 4: files in `solution/`
-- Stage 5: the course's topic notes reconciled — each concept extended, pruned, created, or recorded as already covered
+- Stage 5: the course's topic notes reconciled, each concept extended, pruned, created, or recorded as already covered
 
 Add what is missing without disturbing existing content.
 
@@ -306,7 +306,7 @@ tags:
 
 ### Submission entry model
 
-The submission entry names the artifact actually uploaded to Canvas. Choose the label that matches its form:
+The submission entry names the artifact uploaded to Canvas. Choose the label that matches its form:
 
 | Label | Use when |
 | ----- | -------- |
@@ -335,7 +335,7 @@ These child keys nest under the entry:
 
 ### With in-class component (labs, tutorials, lectures)
 
-When an in-class component exists, list both YAML metadata files in `## submission` using type-based labels, and add `## children` as the very last section:
+When an in-class component exists, list both YAML metadata files in `## submission` using type-based labels, and add `## children` as the last section:
 
 ```markdown
 ---
@@ -421,11 +421,21 @@ Draw the metadata fields from the component YAML (`lab.yml`, `tutorial.yml`, `le
 
 A content file that is not Canvas-sourced keeps the ordinary note format instead.
 
+### Private artifacts and missing files
+
+A submission or solution that lives in `private/` still gets ordinary relative links in the public page, written as if the files were colocated. Do not rewrite those links to point into `private/`, because the published copy has to resolve on its own.
+
+Keep `## solution` in the same plain file-list style as `## attachments`. The nested `file:` plus `metadata:` layout belongs to `## submission`, and only earns its place when the archived filename details matter (see "Submission entry model" above).
+
+And do not invent a link for a file that is genuinely missing from the archive. `\[missing\]` records the absence; a link to a file that was never committed is a broken link wearing the costume of content.
+
 ## Missing data
 
 Use `\[missing\]` for absent fields, such as `points: \[missing\]` when ungraded or `venue: \[missing\]` when not yet assigned. Do not invent or generate placeholder content. See [special.instructions.md](../../instructions/special.instructions.md#missing-data).
 
 ## Canvas metadata rules
+
+Canvas prose is copied and Canvas fields are normalised; never the other way round.
 
 - Due date → ISO 8601 with timezone (seconds `:00` for start, `:59` for end)
 - Availability windows: ISO datetime range + `, <ISO duration>`
@@ -503,5 +513,5 @@ Run the humanizer pass over new or changed prose and flashcards, focusing on you
 - `academic-crud-index` for parent index updates
 - `academic-crud-attachments` for submission-level attachments
 - `academic-video` for video content
-- `humanizer` for the AI-writing patterns it removes (see "Humanizer pass" in `academic-ingest`)
+- `humanizer` for the AI-writing patterns it removes
 - `academic-lint` for validation

@@ -106,10 +106,10 @@ Decide nesting explicitly while planning the note. Do not inherit the source's d
 
 - __Nest__ (`###`) as soon as a section carries two or more nameable sub-concepts: classification members, per-case breakdowns (modes, models, layers), separate derivations or worked examples, or sub-topics a reader would link to on their own. Prefer the split even when each sub-concept is short.
 - __Tiebreaker: count what the sub-concept owns, not how long it is.__ One card plus a sentence of its own prose earns a `###`, and so does a named member of a classification. Keep it inside the parent only when it owns neither: a clause inside another sub-concept's sentence, an example told within it, or a card with no prose of its own to head. Three one-card variants that each explain themselves are three headings, not one flat list.
-- __Stay flat__ when the section carries no sub-concepts at all, when nothing inside it earns a heading under the tiebreaker, or when everything that does is a parallel one-sentence row of a single mapping, enumeration, or table — those rows are card slices, not headings. A lone `###` is fine while the parent keeps substance of its own beside it, and folds back when it is the parent's whole content. "The material presented them together" is never the reason.
-- __Depth__: `###` freely. A `###` that carries its own two or more sub-concepts — the members of its classification, the cases of its rule, the steps of its derivation — nests to `####` rather than flattening or splitting, justified inline with `<!-- check: ignore-line[header_deep_nesting]: <reason> -->`. Splitting the note is for material that answers a different canonical-title question, not for material that is merely one level deeper.
+- __Stay flat__ when the section carries no sub-concepts at all, when nothing inside it earns a heading under the tiebreaker, or when everything that does is a parallel one-sentence row of a single mapping, enumeration, or table. Those rows are card slices, not headings. A lone `###` is fine while the parent keeps substance of its own beside it, and folds back when it is the parent's whole content. "The material presented them together" is never the reason.
+- __Depth__: `###` freely. A `###` that carries its own two or more sub-concepts (the members of its classification, the cases of its rule, the steps of its derivation) nests to `####` rather than flattening or splitting, justified inline with `<!-- check: ignore-line[header_deep_nesting]: <reason> -->`. Splitting the note is for material that answers a different canonical-title question, not for material that is merely one level deeper.
 - `#####` and deeper are unsanctioned: they mean the file boundary is wrong, so split the note instead.
-- Every `###` and deeper carries its own `---` separator and its own `Flashcards for this section are as follows:` block, recursively: the validator requires a card block under every heading a non-index note carries, which is the other half of the tiebreaker.
+- Every `###` and deeper carries its own `---` separator and its own `Flashcards for this section are as follows:` block, recursively. The validator requires a card block under every heading a non-index note carries, the other half of the tiebreaker.
 
 ### Section levelling pass
 
@@ -118,7 +118,7 @@ Nesting is planned before the note is written and reviewed after it. The pass ru
 - __Promote.__ Give a sub-concept its own `###` when it earned one under the tiebreaker, including a second nameable sub-concept sitting inside a section that also carries another.
 - __Fold.__ Drop a section that restates the note's own H1, a lone `###` that is its parent's whole content, and a section the note's concept does not contain. Material whose owning concept lives in another note is moved to that note.
 - __Re-level.__ Move a heading up or down rather than leaving it at the level the source showed; depth follows the concept's own structure, never the source's.
-- __Re-home the prose with the heading.__ A heading that moves takes its prose and its card block, and a heading that folds merges them into the parent's: the validator requires a card block under every heading, so no block is ever left without one or split across two.
+- __Re-home the prose with the heading.__ A heading that moves takes its prose and its card block; a heading that folds merges them into the parent's. The validator requires a card block under every heading, so no block is left without one or split across two.
 - __Refresh the links.__ Renaming, moving, or removing a heading invalidates every session-entry and appendix anchor that pointed at it. Fix them in the same task (see "Session outline content: sections, not files" in `academic-crud-course-index`).
 
 The pass moves boundaries and headings; it never drops a fact or a card. Report the card count before and after, because the count feeds the `Flashcards-now` commit trailer.
@@ -134,9 +134,9 @@ The pass moves boundaries and headings; it never drops a fact or a card. Report 
    - Examples, counterexamples, worked problems
    - Teaching caveats, distinctions, classifications
    - Mathematical spine: formula + derivation + intuition + worked example
-   - The drawings the concept is defined by (a symbol, a convention, a construction) — attached as SVGs and embedded per `academic-crud-attachments`
+   - The drawings the concept is defined by (a symbol, a convention, a construction), attached as SVGs and embedded per `academic-crud-attachments`
    - The file boundary: one concept, per the merge and split tests in "Grouping: concepts, not source layout"
-   - The sections and their nesting — `###` for each sub-concept that owns a card and a sentence of its own, `####` where a `###` carries sub-concepts of its own (see "Nesting is always decided") — never mirroring the source's headings or depth
+   - The sections and their nesting (`###` for each sub-concept that owns a card and a sentence of its own, `####` where a `###` carries sub-concepts of its own, see "Nesting is always decided"), never mirroring the source's headings or depth
 4. __Scaffold the note file:__
 
     ```markdown
@@ -224,25 +224,15 @@ List topic notes for a course; search by keyword; show structure and flashcard c
 
 ### Update
 
-1. __Reconcile ingested material.__ New material from any session (a lecture deck, lab manual, tutorial handout, or problem set) is compared against this note for the concepts it carries: extend it, prune what the material supersedes, or record that the concept is already covered. See "Topic-note reconciliation (mandatory)" in `academic-ingest`.
-2. Detect overlap with existing content.
-3. Enhance the prose with new distinctions, examples, and counterexamples.
-4. Add or modify flashcards, adding new cards rather than overstuffing existing ones.
-5. Section levelling pass over the sections this update touched (see "Section levelling pass").
-6. Humanizer pass over the prose and the cards that changed (see "Humanizer pass" in `academic-ingest`).
-7. Refresh the course `index.md`:
-   - Update `## children` if the topic was renamed.
-   - Update session topic links if sections were added, removed, or renamed.
-   - Re-verify the session mapping if the topic's scope changed.
-8. Validate after changes.
+1. __Reconcile the material against the note.__ Compare what the session carried (a lecture deck, a lab manual, a tutorial handout, a problem set) against the concepts the note already owns, then extend it, prune what the material supersedes, or record the concept as already covered (see "Topic-note reconciliation (mandatory)" in `academic-ingest`). Watch for overlap as you go: a new distinction, example, or counterexample belongs inside the section that owns the idea, and a new card beats an overstuffed old one.
+2. Level the sections this update touched (see "Section levelling pass").
+3. Run the humanizer pass over the prose and the cards that changed (see "Humanizer pass" in `academic-ingest`).
+4. Refresh the course `index.md`: a renamed topic changes `## children`, and added, removed, or renamed sections change the session topic links. Re-verify the session mapping when the topic's scope has moved.
+5. Validate after changes.
 
 ### Delete
 
-1. Remove the topic note file.
-2. Remove it from the course `index.md` `## children`.
-3. Remove topic links from all session headings under which it appeared.
-4. Update cross-references in other notes that linked to this topic.
-5. Validate after changes.
+Remove the note file, drop it from the course `index.md` `## children`, strip its topic links out of every session heading that carried it, and fix the cross-references in the notes that linked to it. Then validate.
 
 ## Missing data
 
@@ -262,7 +252,7 @@ Use `\[missing\]` for absent values, such as a topic with no cross-references or
 - "Distributed as": `\sim` (e.g., `$X\sim N(0,1)$`).
 - Binomial coefficients: `\binom{n}{k}`.
 - No source numbering (theorem, definition, or chapter numbers); use topic names.
-- Never narrate the source: no `the deck`, `the slides`, `the lecture`, or `the course` as a subject, and no reporting what a source shows, asks, or stresses. State the fact, example, or question itself (see "Write the content, not the material" in `academic-ingest`).
+- Never narrate the source: no `the deck`, `the slides`, `the lecture`, or `the course` as a subject, and no reporting what a source shows, asks, or stresses. State the fact, example, or question itself (see "Scope guardrails" in `academic-ingest`, rule __Write the content, not the material__).
 - `## references` lists its sources as list items, never as prose paragraphs. Licence, attribution, and any other source detail are nested bullets under the entry they qualify.
 
     ```markdown
@@ -315,7 +305,7 @@ Use `\[missing\]` for absent values, such as a topic with no cross-references or
 
 ## Session mapping
 
-When updating the course `index.md`, link topic notes under the correct session heading (`## week N lecture 1`, `## week N tutorial 1`, or `## week N lab 1`; a recurrent course prefixes the semester and adds one level, `### <YYYY term> week N <type> <number>`).
+When updating the course `index.md`, link topic notes under the session heading that course already uses: `## week N <type> <N>`, or `### <YYYY term> week N <type> <number>` in a recurrent course.
 
 ### Determining the correct session
 
@@ -340,14 +330,14 @@ Add the link under the session heading, after the existing content:
     - [§ section heading 2](topic%20name.md#section%20heading%202)
 ```
 
-List every section that session's material created or expanded, not the whole note; a file link alone is never enough. Anchors are the heading lowercased, with `%20` for spaces and colons removed (`## Main memory` → `#main%20memory`), never dash-slugs.
+List every section that session's material created or expanded, not the whole note; a file link alone is never enough. The anchor format and the `link_anchor_slug` rule that checks it are in "Session outline content: sections, not files" in `academic-crud-course-index`.
 
 Omit the indented section links when the topic has no `##` sections.
 
 ## References
 
 - `create-flashcards` flashcard markup patterns
-- `humanizer` for the AI-writing patterns it removes (see "Humanizer pass" in `academic-ingest`)
+- `humanizer` for the AI-writing patterns it removes
 - `academic-lint` validation
 - `academic-crud-transcludes` full Wikipedia article inclusion
 - `academic-crud-topic-note/find_wikipedia.py` canonical title discovery script

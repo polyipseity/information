@@ -1,115 +1,64 @@
 # Course note template (institution-agnostic)
 
 Use this file as a scaffold for new course pages under
-`special/academia/<INSTITUTION>/<COURSE CODE>/`.
-
-## What belongs here
-
-- Template-facing reminders that directly affect how to fill the scaffold.
-- Short notes about aliases, tags, ordering, and section layout.
-- Example structure for a course `index.md`.
-
-Keep detailed policy, edge cases, and advanced note-writing rules in `SKILL.md`.
+`special/academia/<INSTITUTION>/<COURSE CODE>/`. It carries the scaffold itself and
+the reminders that change how you fill it in; each rule lives in the skill named
+on its line.
 
 ## Quick reminders
 
-- Keep the fenced `markdown` block machine-readable.
-- Put human guidance __outside__ the fenced block.
-- For course indexes, include spaced and unspaced course-code aliases plus
-  institution-prefixed variants, sorted alphabetically.
-- __Scope__: only scaffold what the source material provides. A course homepage
-  produces the course `index.md` with logistics and overview. Do NOT create
-  `labs/`, `assignments/`, `tutorials/`, or session entries from a homepage
-  alone — those require per-item source material (Canvas pages, PDFs, quizzes).
-- __Missing data__: always use `\[missing\]` for unknown values. Never invent
-  placeholders like "TBA", "none", "?", or empty strings. The only exception
-  is exam statistics sub-blocks which use `\(none\)`.
-- Use underscore-normalized path fragments in flashcard tags, for example
-  `flashcard/active/special/academia/HKUST/COMP_3031` or
-  `flashcard/active/special/academia/Pusan_National_University/IT3000504`.
-- Put course-specific agent instructions in `AGENTS.md` in the same course
-  folder only when needed. If you create that file, keep it concise, use the
-  title `# <course code> agent instructions`, and do not use flashcard markup
-  there (`{@{ }@}`, `:@:`, `::@::`). If you do not create `AGENTS.md`, remove it
-  from the `children` list.
-- If the provided materials already enumerate repeating deliverables or sessions
-  (for example tutorial rounds, lab rounds, quizzes, or homeworks), scaffold
-  minimal child pages for those foreseeable items early and keep them lightweight
-  until official content arrives.
-- Lab, tutorial, and lecture leaf indexes may have in-class content files
-  (`lab.md`, `tutorial.md`, `lecture.md`) as children when the in-class
-  component exists. The `## children` section links to these files, and
-  `## submission` lists both out-of-class (`submission.yml`) and in-class
-  (`lab.yml`/`tutorial.yml`/`lecture.yml`) metadata. A Canvas-sourced content
-  file mirrors the Canvas header block of its `index.md` — frontmatter,
-  `# <type>` heading, identity bullets, the Canvas metadata bullets from the
-  component YAML, and the verbatim Canvas description — instead of being left
-  as a bare stub.
-- Keep `index.md` pages lean: the course root should hold only the high-value
-  overview, folder indexes should summarize just enough to navigate, and leaf
-  indexes should usually contain only minimal logistics until real content is
-  ingested.
-- For Canvas-derived assignment-style leaf indexes (for example lab rounds,
-  homework folders, quiz handouts, or similar deliverables), store the Canvas
-  title header as the first list item `- title: <verbatim title>` in a metadata
-  block delimited by `---` above and below and placed directly after the parent
-  line, then the verbatim Canvas description, then `## attachments`,
-  `## submission`, and `## solution`, with `## children` last when an in-class
-  component exists. Keep the visible Canvas wording verbatim, and point the
-  attachments list at local `attachments/` files. If submission or solution
-  artifacts are intentionally private but the page should still preserve the
-  ordinary repository routes,
-  keep normal relative links in public `## submission` / `## solution`
-  sections as if the files were colocated, and do not rewrite those links to
-  `private/`. Keep `## solution` in the same plain file-list style as
-  `## attachments`, and use the more advanced nested `file:` plus metadata
-  layout only in `## submission` when archived filename details matter. Do not
-  invent links for files that are genuinely missing from the archive. Normalize any Canvas-
-  derived metadata value containing
-  a date, datetime, or duration to ISO 8601: use timezone-aware ISO datetimes
-  for `Due` or `locked at`, use an ISO datetime range plus `, <ISO duration>`
-  when both endpoints are known, and use ISO durations for pure durations.
-  Canvas starts use seconds `:00`; Canvas end timestamps use seconds `:59`.
-  Do not rewrite the ordinary Canvas prose body to ISO form; description
-  sentences such as `This assignment was locked Mar 5 at 1:30pm.` and colored
-  notice text should remain verbatim.
-- In a course-root `index.md`, order the main top-level sections as `## children`,
-  then `## logistics`, then `## overview`; keep sessions and exams after those.
-- Prefer one `## overview` section for compact orientation material such as
-  official scope bullets, topic-to-file mapping, and short root-level notes.
-- Never record current status or progress (what has been ingested so far, what
-  still remains); prefer less content whenever possible.
-- Name and bound every note by its concept, never by the source unit (no
-  `lecture 3`, `chapter 1`, `part 2`); decide file boundaries with the merge and
-  split tests in `academic-crud-topic-note`.
-- Name every section after its sub-concept, not after the source's heading or
-  slide title, and decide nesting (`###`, then `####` with justification) for
-  every section.
-- When turning lecture PDFs into topic notes, preserve the concrete teaching
-  detail: explicit classifications, key formulas, named signal or system
-  families, and representative examples or counterexamples from the source.
-- Place `assignments/` immediately after `children` and before session entries.
-- Keep sessions in strict chronological order. Each session type (lecture,
-  lab, tutorial) repeats every week with the same count. If week 1 has 2
-  lectures + 1 lab, every week has the same set. Use `## week N lecture 1`,
-  `## week N lecture 2`, `## week N lab 1`, `## week N tutorial 1`. Never mix
-  types across weeks (e.g. `week 1 lecture 1` then `week 2 lecture 1` then
-  `week 3 lab 1` is wrong — week 1's lab is missing).
-- If the official materials define a recurring weekly stream, scaffold that
-  stream continuously across the term and mark skipped meetings with `status:`
-  metadata rather than omitting the week.
-- A __recurrent course__ (`- status: recurrent`, running every term) groups its
-  sessions by semester under `## <YYYY term>` and adds one level to each session
-  heading: `### <YYYY term> week N tutorial 1`. The semester is repeated in the
-  heading because `markdownlint` MD024 rejects the same week/type pair in two
-  semesters. Give every session `- status: optional` — a recurrent course's
-  lectures, labs, and tutorials are not assumed to be attended. See "Recurring
-  courses" in `SKILL.md`.
+- Keep the fenced `markdown` block machine-readable and put human guidance
+  __outside__ it.
+- __Scope__: scaffold only what the source material provides. A course homepage
+  produces the course `index.md` with logistics and overview and nothing else;
+  `labs/`, `assignments/`, `tutorials/`, and session entries each need their own
+  per-item source (see "Scope: course index only" in `SKILL.md`).
+- When the materials already enumerate repeating deliverables or sessions
+  (tutorial rounds, lab rounds, quizzes, homeworks), scaffold minimal child pages
+  for them early and keep them lightweight until official content arrives.
+- __Missing data__: `\[missing\]` for an unknown value, never an invented
+  placeholder such as "TBA", "none", or "?". Exam statistics sub-blocks are the
+  one exception and use `\(none\)` (see
+  [special.instructions.md](../../instructions/special.instructions.md#missing-data)).
+- Frontmatter: aliases cover the spaced and unspaced course code plus
+  institution-prefixed variants, sorted alphabetically, and flashcard tags use
+  underscore-normalized path fragments such as
+  `flashcard/active/special/academia/HKUST/COMP_3031` (see "Frontmatter rules"
+  in `academic-crud-index`).
+- Course-specific agent instructions go in `AGENTS.md` beside `index.md`, and
+  only when the course needs them. If you do not create the file, drop it from
+  `children` (see `academic-crud-agents`).
+- Top-level sections run `## children`, `## logistics`, `## overview`, then
+  sessions and exams, with `assignments/` immediately after `children` and
+  before the session entries (see "Course-root layout rules" in `SKILL.md`).
+- Prefer one `## overview` for compact orientation material: the official scope
+  bullets, the topic-to-file mapping, and short root-level notes.
+- Keep the pages lean. The course root holds only the high-value overview,
+  folder indexes summarize just enough to navigate, and leaf indexes carry
+  minimal logistics until real content is ingested (see "Keep the index minimal"
+  in `SKILL.md`).
+- Never record current status or progress, meaning what has been ingested and
+  what still remains. Prefer less content.
+- Name and bound every note by its concept rather than by the source unit, and
+  name every section after its sub-concept. The merge, split, and nesting rules
+  that decide both are in `academic-crud-topic-note`.
 - Link each note a session covers with the sections that session's material
-  created or expanded: `- [note](note.md)` followed by indented
+  created or expanded: `- [note](note.md)`, then an indented
   `- [§ heading](note.md#heading)`. A file link alone is never enough.
-- Use underscore emphasis (`_italic_`, `__bold__`).
-- Keep units inside math delimiters, for example `$5\text{ V}$`.
+- Sessions run in strict chronological order, every type repeating each week with
+  the same count, and types are never mixed across weeks. A recurring weekly
+  stream is scaffolded continuously, with `status:` metadata on the meetings it
+  skips rather than an omitted week (see "Session ordering" in `SKILL.md`).
+- A __recurrent course__ (`- status: recurrent`) groups its sessions under
+  `## <YYYY term>` and adds a level, `### <YYYY term> week N tutorial 1`, with
+  `- status: optional` on every session (see "Recurring courses" in `SKILL.md`).
+- A leaf index for a Canvas-derived assignment follows `academic-crud-submission`,
+  which owns the format down to the `## solution` list style and the rule for
+  links into `private/`.
+- A lab, tutorial, or lecture leaf index may list an in-class content file
+  (`lab.md`, `tutorial.md`, `lecture.md`) as a child, and a Canvas-sourced one
+  mirrors its `index.md`'s Canvas header block rather than staying a bare stub
+  (see `academic-crud-submission`).
 
 ## template content
 

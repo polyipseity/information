@@ -1,19 +1,19 @@
 ---
 name: academic-video
-description: Use when an academic material links to a video — reading the video's content from its subtitles, deferring a video that has none, and asking the user to have the deferred ones watched before the run ends.
+description: Use when academic material links to a video — reading its content from the subtitles, deferring a video that has none, and asking the user to have the deferred ones watched before the run ends.
 ---
 
 # Academic Video
 
-A material that links a video carries content no extraction captured: a slide, a PDF, a handout, or a Canvas page points at a talk, a news clip, or a lecture recording, and the surrounding text sets up the question that video answers. An agent that ingests the words and drops the link loses part of the source silently. This skill fixes __what counts as a video link__, __how to read its content__, __what to do when there is none__, and __how the user is asked to help__.
+A slide, a PDF, a handout, or a Canvas page points at a talk, a news clip, or a lecture recording, and the text around the link sets up the question that video answers. The link is easy to lose: the words get ingested, the URL does not, and nothing in the run reports the gap.
 
 ## The link is course material
 
 - A video link anywhere in the source is course material and is ingested like the rest of the source: slide text, a Canvas page body, a PDF, a Markdown note, an `<iframe>` or `<video>` tag, an embedded player, or a bare URL in a list.
 - __The transcript is the video's content.__ Read all of it, then treat its concepts exactly as the material's other concepts: they go through topic-note reconciliation and into the notes and cards when they are durable knowledge.
-- __Never write the video into a note.__ The deferral, the fact that a video was watched, and a summary of what it shows are run state, not note content (see "Never write current status or provenance" in `academic-ingest`).
+- __Never write the video into a note.__ The deferral, the fact that a video was watched, and a summary of what it shows are run state, not note content (see "Scope guardrails" in `academic-ingest`, rule __Never write current status or provenance__).
 - __A claim is not a finding.__ When the material introduces a video as a myth, a stereotype, an illustration of what mass media says, or a claim to be evaluated, the video is evidence that the claim circulates, not evidence that it is true. Never state its claims as established knowledge: record the claim as a claim, or leave it out and let whatever evaluates it in the material decide.
-- The video's own authorship — a talk, a named speaker, a publisher — is a real-world source, and it may be named in `## references` when the note incorporates its content, as a list entry like any other source (see "Style conventions" in `academic-crud-topic-note`). The deck or page that linked it is not a source.
+- The video's own authorship (a talk, a named speaker, a publisher) is a real-world source, and it may be named in `## references` when the note incorporates its content, as a list entry like any other (see "Style conventions" in `academic-crud-topic-note`). The deck or page that linked it is not a source.
 - A video that only illustrates a point the surrounding text already states adds nothing: read it, and leave the note alone if it already carries the concept.
 
 ## Reading the video
@@ -68,7 +68,7 @@ Subtitles are the content. Prefer the video's own captions, fall back to its aut
 
 6. __A title is not content.__ The `oembed` title, the channel, and the description identify a video; they never substitute for the transcript and never justify prose about what the video shows.
 
-Run every command from the workspace root, never inside a skill folder, and write only into the temp directory. No subtitle file and no video file ever lands in the repository or in `attachments/` — a linked video is a source, not a referenced raw file.
+Run every command from the workspace root, never inside a skill folder, and write only into the temp directory. No subtitle file and no video file ever lands in the repository or in `attachments/`. A linked video is a source, not a referenced raw file.
 
 Non-YouTube sources (Vimeo, Canvas/Kaltura, Panopto, Echo360, Bilibili, Youku, a direct media file) go through the same steps; `yt-dlp` supports many of them. When it cannot read one, defer that video too.
 
@@ -79,7 +79,7 @@ A video with no usable subtitles is __deferred__: its content is not guessed, no
 - Write nothing about the video into any note, card, or index. An empty section is better than a fabricated one.
 - Keep the deferral in the run's own state: the URL, the context that introduces it, and which note would receive the content.
 - Finish the rest of the ingestion normally. Captions that do exist are read now, not deferred.
-- Report each deferred video with its reason — no caption track, a foreign-language original only, a failed extraction — and let the concepts that depend on it stay uncovered rather than invented.
+- Report each deferred video with its reason (no caption track, a foreign-language original only, a failed extraction), and let the concepts that depend on it stay uncovered rather than invented.
 
 ## Asking the user to watch them
 
@@ -87,8 +87,8 @@ __Before returning to the user, and only then, batch every deferred video into o
 
 The request names each video, the concepts waiting on it, and the way to get its content:
 
-- __YouTube__ — ask for Gemini. The Gemini app and Google AI Studio accept a YouTube URL directly and watch the frames and the audio; NotebookLM takes the URL as well and can compare it against an uploaded source.
-- __Anything not on YouTube__ — ask for a tool that takes the file: Gemini with the video uploaded, or a Whisper-based summarizer. `yt-dlp` into a local Whisper transcript works when the user wants to keep it offline.
+- __YouTube__: ask for Gemini. The Gemini app and Google AI Studio accept a YouTube URL directly and watch the frames and the audio; NotebookLM takes the URL as well and can compare it against an uploaded source.
+- __Anything not on YouTube__: ask for a tool that takes the file. Gemini with the video uploaded, or a Whisper-based summarizer. `yt-dlp` into a local Whisper transcript works when the user wants to keep it offline.
 - Ask for the content, not a verdict: the transcript when the user can get it, otherwise the summary with its timestamps. Bring it back through reconciliation, cards, the humanizer pass, and validation like any other source.
 
 ```text

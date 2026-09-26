@@ -24,13 +24,13 @@ The closing cloze delimiter `}@}` comes before any trailing punctuation, which s
 
 ## Diagrams in cards
 
-A card may carry a diagram on the prompt side, the answer side, or both. A drawing a note defines has to come back as a drawing, so the cards carry it, not only the prose.
+A card may carry a diagram on the prompt side, the answer side, or both. A drawing a note defines has to be produced, not just recognised, so the cards carry it and the prose does not.
 
-- __Recognition__: drawing on the prompt side, name or reading on the answer side — `- ground symbol: ![ground symbol: stacked horizontal strokes at a node](attachments/symbol_ground.svg) ::@:: The reference node whose potential is taken as $0\text{ V}$.`
-- __Recall__: question on the prompt side, drawing on the answer side — `- draw the ground symbol: how is the node taken as $0\text{ V}$ marked on a circuit diagram? ::@:: Horizontal strokes stacked at the node. <p> ![ground symbol: stacked horizontal strokes at a node](attachments/symbol_ground.svg)`. Every drawing a note defines needs at least one recall card, since the picture is what has to be produced.
+- __Recognition__: drawing on the prompt side, name or reading on the answer side: `- ground symbol: ![ground symbol: stacked horizontal strokes at a node](attachments/symbol_ground.svg) ::@:: The reference node whose potential is taken as $0\text{ V}$.`
+- __Recall__: question on the prompt side, drawing on the answer side: `- draw the ground symbol: how is the node taken as $0\text{ V}$ marked on a circuit diagram? ::@:: Horizontal strokes stacked at the node. <p> ![ground symbol: stacked horizontal strokes at a node](attachments/symbol_ground.svg)`. Every drawing a note defines needs at least one recall card: the picture is what the reader has to produce.
 - __Both__: each side carries a drawing when the card is a comparison or a transformation, the starting drawing on one side and the result on the other.
 
-Paths are relative to the note (`attachments/<name>.svg`), and alt text is a plain-language description with no LaTeX. Several drawings that belong together (the forms one symbol can take, or the two directions of a convention) go side by side on the same line, each with its own alt text. Keep the card on one Markdown line and separate the image from the surrounding text with `<p>`. An answer that is a drawing is complete on its own; add a short description beside it when the card also has to read in the reverse direction. Look at the drawing in both directions before carding it, and write the alt text while looking — see `academic-vision`.
+Paths are relative to the note (`attachments/<name>.svg`), and alt text is a plain-language description with no LaTeX. Several drawings that belong together (the forms one symbol can take, or the two directions of a convention) go side by side on the same line, each with its own alt text. Keep the card on one Markdown line and separate the image from the surrounding text with `<p>`. An answer that is a drawing is complete on its own; add a short description beside it when the card also has to read in the reverse direction. Look at the drawing in both directions before carding it, and write the alt text while looking (see `academic-vision`).
 
 ## Academic conventions
 
@@ -38,7 +38,7 @@ __Private quiz archives__ (the user has confirmed a checked option is correct): 
 
 __Public quiz hints__ written as `::@::`: keep the hints in the same order as the archived/private question order. To add context, put it on the left-hand prompt: option-family cues, mutated-but-equivalent givens, or the decisive spectral, timing, or topology landmarks, without copying the official choices verbatim.
 
-__Topic notes:__ do not limit cards to isolated definitions. Prefer a balanced mix of comparison, intuition, example, counterexample, and worked-example cards when the material supports them. For a small clarification, enhance the existing card; for a substantial new cluster of distinctions or examples, add new cards instead of overloading an old one. For worked examples, place __all__ required givens, formulas, assumptions, and numeric input data on the left-hand side before `::@::`, so the card is fully answerable in isolation.
+__Topic notes:__ do not limit cards to isolated definitions. Prefer a balanced mix of comparison, intuition, example, counterexample, and worked-example cards when the material supports them. For a small clarification, enhance the existing card; for a substantial new cluster of distinctions or examples, add new cards instead of overloading an old one. For worked examples, place __all__ required givens, formulas, assumptions, and numeric input data on the left-hand side before `::@::`: the card has to be answerable in isolation.
 
 __Mathematically technical notes:__ preserve the derivation or proof spine instead of testing only the final formula. A strong default is one card for the governing equation or setup, one for the decisive derivation step or inequality, and one for the final result or interpretation, when the material supports that structure.
 
@@ -216,7 +216,7 @@ The boundary need not be one the material draws; reorganizing a source list is e
 
 - Keep durable flashcard lessons in this document (and, for course notes under `special/academia`, in `academic-crud-topic-note`) rather than a separate sidecar log that drifts.
 - After suggesting clozes, ask "which deletions are wrong?" or "would you prefer Q/A instead of inline cloze?", and use the corrections to expand the examples or add rules. When the user says "this is my style", treat it as a high-priority rule and encode it here, noting which examples or heuristics changed.
-- Analyse user edits with `git --no-pager diff --word-diff --no-color path/to/file.md`: word diffs reveal boundary shifts and merged or expanded clozes, which make good training examples.
+- Analyse user edits with `git --no-pager diff --word-diff --no-color path/to/file.md`: word diffs reveal boundary shifts and merged or expanded clozes, which are the changes worth turning into examples.
 - Watch for feedback about excessive fragmentation, and merge adjacent tiny deletions in future.
 - When the user modifies or adds contiguous paragraphs, capture the whole block as one example so similar multi-paragraph patterns are recognisable later.
 - Never suggest running an external command during editing; command advice is irrelevant to this skill.

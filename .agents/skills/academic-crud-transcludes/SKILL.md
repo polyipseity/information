@@ -5,7 +5,7 @@ description: Manage transcludes/ directories containing Wikipedia articles inclu
 
 # Academic CRUD: Transcludes
 
-`transcludes/` directories hold full Wikipedia articles as Markdown files with cloze markup, for use as course reference material. Use one when a course references Wikipedia articles that should be available as study material with flashcards; the articles are Wikipedia content, not authored topic notes.
+Full Wikipedia articles kept as Markdown with cloze markup, for a course that points at encyclopedia pages as study material. They are Wikipedia content rather than authored notes.
 
 ## Target
 
@@ -27,21 +27,16 @@ description: Manage transcludes/ directories containing Wikipedia articles inclu
    uv run python .agents/skills/academic-crud-topic-note/find_wikipedia.py --limit 5
    ```
 
-2. Ingest the article using the `ingest-wikipedia` skill.
-3. Place the resulting `.md` file in `transcludes/`.
-4. Add cloze markup (`{@{ }@}`) for key concepts.
-5. Add a child link in the course `index.md` `## children` section.
+2. Ingest the article with the `ingest-wikipedia` skill.
+3. Put the resulting `.md` in `transcludes/`, add cloze markup (`{@{ }@}`) for its key concepts, and link it from the course `index.md` `## children`.
 
 ## Updating a transclude
 
-1. Edit the `.md` file directly.
-2. Preserve the Wikipedia source structure and cloze markup.
+Edit the `.md` directly. The Wikipedia source structure and the cloze markup both stay as they are.
 
 ## Deleting a transclude
 
-1. Confirm with the user.
-2. Remove the `.md` file.
-3. Remove the child link from the course `index.md` `## children` section.
+Confirm with the user, then remove the `.md` and its link in the course `index.md` `## children`.
 
 ## Examples
 
@@ -70,7 +65,7 @@ description: Manage transcludes/ directories containing Wikipedia articles inclu
 
 Run `academic-lint` after every edit, passing changed files when known.
 
-The article body is verbatim, so the humanizer pass leaves it untouched; anything you write around it, such as a description in the course `index.md`, is yours to humanize (see "Humanizer pass" in `academic-ingest`).
+The article body is verbatim, so the humanizer pass leaves it untouched. Anything you write around it, such as a description in the course `index.md`, gets the pass (see "Humanizer pass" in `academic-ingest`).
 
 ## References
 

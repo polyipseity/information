@@ -5,7 +5,7 @@ description: Create, read, update, and delete the top-level course index.md (chi
 
 # Academic CRUD: Course index
 
-Create, read, update, and delete the top-level course `index.md` and course scaffolding. This skill owns the course root, including exam records, which live inline in the top-level index.
+This skill owns the course root: the top-level `index.md`, the exam records that live inline in it, and the scaffolding around them.
 
 ## Target
 
@@ -77,26 +77,26 @@ Each subdirectory gets an `index.md` via `academic-crud-index`.
 
 ### Read
 
-Show course structure, child count, session list, and exam records.
+Show the course structure, the child count, the session list, and the exam records.
 
 ### Update
 
-Modify children ordering, logistics, session metadata, and overview. Add or update exam sections inline.
+Reorder children, correct logistics, fix session metadata, revise the overview, and add or revise exam sections inline.
 
 ### Delete
 
-Remove the entire course directory (with confirmation) and its entry in the institution `index.md`.
+With confirmation, remove the course directory and its entry in the institution `index.md`.
 
 ## Scope: course index only
 
-Populate only the sections the source provides. A generic course homepage typically supplies description, prerequisites, textbook, grading scheme, section schedules, and announcements; it does not supply week-by-week session content, assignment details, or child file scaffolding. Do not create subdirectories (`labs/`, `assignments/`, `tutorials/`) or session entries (`## week N lecture 1`) from a homepage alone; those require per-item source material (Canvas pages, PRS quizzes, assignment PDFs).
+Populate only the sections the source provides. A generic course homepage supplies the description, prerequisites, textbook, grading scheme, section schedules, and announcements, and nothing else: it carries no week-by-week session content, no assignment details, and no child file scaffolding. Do not create subdirectories (`labs/`, `assignments/`, `tutorials/`) or session entries (`## week N lecture 1`) from a homepage alone, because those need per-item source material (Canvas pages, PRS quizzes, assignment PDFs).
 
 ## Keep the index minimal
 
 Prefer less content. Record what the source states and what sessions covered, nothing else.
 
 - __Never write current status or progress__: what has been ingested, what is still missing, or what a section will contain later. It is stale as soon as the next source arrives.
-- __Never write provenance__: how a date, figure, or number was established is not index content.
+- __Never write provenance__: how a date, figure, or number was established belongs in the note, not in the index.
 - __Never record platform links__: Canvas or other LMS course URLs are not course facts and go stale.
 - The `- note:` lines under `## logistics` and the `- notes` list under `## overview` carry source facts and caveats only: a conflicting source, a tentative schedule, a policy.
 - A value that exists but is unknown is marked `\[missing\]`, never described in prose. See [Missing data](#missing-data).
@@ -120,17 +120,17 @@ Lectures, labs, and tutorials are distinct session types under `## logistics`, e
 
 - Section-type names match `course-template.md`: `lecture` (singular), `tutorials` and `labs` (plural). The chosen section is written after the colon, e.g. `- labs: LA3`.
 - Section keys: `L` for lectures, `T` for tutorials, `LA` for labs.
-- Session headings use the singular type and always carry the session's ordinal in the week: `## week N lecture 1`, `## week N tutorial 1`, `## week N lab 1`. A recurrent course adds one level and repeats the semester, `### <YYYY term> week N tutorial 1` (see "Recurring courses").
+- Session headings use the singular type and always carry the session's ordinal in the week: `## week N lecture 1`, `## week N tutorial 1`, `## week N lab 1`. A recurrent course adds one level and repeats the semester, and that is the only difference (see "Recurring courses").
 
 ## Session ordering: types repeat every week
 
-Each session type occurs on a fixed weekly pattern: with 3 lectures per week, every week gets `## week N lecture 1`, `## week N lecture 2`, and `## week N lecture 3`, and 1 lab per week gives every week a `## week N lab 1`. The same holds for tutorials.
+Each session type occurs on a fixed weekly pattern: 3 lectures per week means `## week N lecture 1`, `## week N lecture 2`, and `## week N lecture 3` in every week, and 1 lab per week means a `## week N lab 1` in every week. The same holds for tutorials.
 
 __Rules:__
 
 1. _Consistent types across weeks._ If week 1 has 2 lectures + 1 lab + 1 tutorial, every later week has the same set (unless marked `status: no class`).
 2. _An ordinal on every session._ With N sessions of one type in a week, use `## week N lecture 1`, `## week N lecture 2`, ..., `## week N lecture N`. The first session of a week carries `1`; it is never left unnumbered.
-3. _Strictly increasing `datetime:` in file order._ Read top to bottom, each session heading's `datetime:` must be later than the previous one; the `session_datetime_order` rule enforces this. Within a week that means day/time order, so the earliest session comes first regardless of type.
+3. _Strictly increasing `datetime:` in file order._ Read top to bottom: each session heading's `datetime:` must be later than the previous one, which the `session_datetime_order` rule enforces. Within a week that means day/time order, so the earliest session comes first regardless of type.
 4. _Strict chronological order across weeks._ Week 2 sessions come after week 1 sessions. Never interleave weeks; `## week 1 lecture 1` → `## week 2 lecture 1` → `## week 3 lab 1` is wrong if week 1 also has a lab.
 5. _Gap sessions._ If a type does not meet in a week, mark it `status: no class` or `status: public holiday: <name>` instead of omitting the heading.
 
@@ -184,13 +184,13 @@ A recurrent course runs every term instead of once. It carries `- status: recurr
 ```
 
 - __Semester header__: `## <YYYY term>`, using the institution `index.md` term spelling (`## 2026 fall`), placed after `## overview` and in chronological order.
-- __Session heading__: `### <YYYY term> week N <type> <number>` — one level deeper than a one-off course, with the semester repeated and the session's ordinal in the week.
+- __Session heading__: `### <YYYY term> week N <type> <number>`, one level deeper than a one-off course, with the semester repeated and the session's ordinal in the week.
 - __The repeat is required.__ Without it the same week/type pair recurs in every semester and `markdownlint` MD024 rejects the duplicate headings; `.markdownlint*` is never edited and `index.md` admits no disable directive, so the heading text itself has to differ.
-- __Week numbers__ count from the term's first teaching week, so week 1 begins on that term's week-1 Monday.
+- __Week numbers__ count from the term's first teaching week, so the count starts on that week's Monday.
 - __Every session is optional.__ A recurrent course's lectures, labs, and tutorials all carry `- status: optional`, and none is assumed to be attended. Keep `datetime:`, `venue:`, and `topic:`, because the term's schedule is still what the entry records.
-- __A session entry normally carries no note or section links__, since an unattended session covered nothing. Add them only for a session that was actually attended and written up.
+- __A session entry normally carries no note or section links__: an unattended session covered nothing. Add them only for a session that was actually attended and written up.
 - __Only attested sessions.__ Record the sessions a source names. Never invent `status: no class` or `status: unscheduled` weeks to complete a weekly pattern for a past term whose full schedule is unknown.
-- __The linter enforces the shape.__ `academic-lint` reads `- status: recurrent` from the identity block, then requires the level-3 semester-carrying headings (`session_heading_format`), a matching `## <YYYY term>` header above each session (`session_semester_match`), `status: optional` or a gap marker on each session (`session_optional_status`), chronological semester headers (`index_semester_order`), and week counting that restarts each term (`week_monotonic`, `session_duplicate_heading`).
+- __The linter enforces the shape.__ `academic-lint` reads `- status: recurrent` from the identity block, then requires: the level-3 semester-carrying headings (`session_heading_format`); a matching `## <YYYY term>` header above each session (`session_semester_match`); `status: optional` or a gap marker on each session (`session_optional_status`); chronological semester headers (`index_semester_order`); and week counting that restarts each term (`week_monotonic`, `session_duplicate_heading`).
 - Everything else in "Session ordering" applies unchanged: `datetime:` strictly increasing in file order (which keeps the semesters chronological), one heading per meeting, an ordinal on every session inside a week, and `lecture`/`lab`/`tutorial` as the only types. A seminar series or training stream is recorded under whichever of those three it matches, never as a fourth type.
 
 ## Session outline content: sections, not files
@@ -214,15 +214,16 @@ A session entry records what the session taught. After the metadata, list each n
 - __A file link alone is never enough.__ Link the sections too.
 - __List only the sections the session's material created or expanded.__ A note spanning several sessions is linked under each of them, and each entry lists only its own sections.
 - __Link the deepest heading the session's material created or expanded.__ A `###` the session created nests one level (8 spaces) under its `##` bullet; link the `##` alone only when the session created the whole section.
-- __Anchor format__: the heading lowercased, spaces as `%20`, colons removed (`## Main memory` → `#main%20memory`). A fragment must name an anchor of the file it targets — a heading, or an HTML `id` that file carries — and the `link_anchor_slug` rule enforces it: a dash-slug of a spaced heading is rejected (`#main-memory`), while a dash the heading itself contains stays (`## self-plagiarism` → `#self-plagiarism`). A target the rule cannot read is reported with the fragment it holds.
-- __A re-levelled section must be re-linked in the same task.__ When the section levelling pass renames, moves, or folds a heading, every session entry and appendix link pointing at its old anchor is updated with it; a stale anchor is a broken link, not a cosmetic one (see "Section levelling pass" in `academic-crud-topic-note`).
+- __Anchor format__: the heading lowercased, spaces as `%20`, colons removed (`## Main memory` → `#main%20memory`). A fragment must name an anchor of the file it targets, either a heading or an HTML `id` that file carries, and the `link_anchor_slug` rule enforces it: a dash-slug of a spaced heading is rejected (`#main-memory`), while a dash the heading itself contains stays (`## self-plagiarism` → `#self-plagiarism`). A target the rule cannot read is reported with the fragment it holds.
+- __A re-levelled section must be re-linked in the same task.__ When the section levelling pass renames, moves, or folds a heading, update every session entry and appendix link pointing at its old anchor. A stale anchor is a broken link, not a cosmetic one (see "Section levelling pass" in `academic-crud-topic-note`).
 - __Filename format__: spaces as `%20`, every other character literal (`cache%20(computing).md`).
 - Omit the section links only when the note has no `##` sections.
 
 ## Course-root layout rules
 
+A course `index.md` has a fixed shape, and most of what follows is filling it in. The top-level sections come first and in this order: `## children`, `## logistics`, `## overview`. Sessions and exams follow, in the formats set out above.
+
 - After the course list (`institution`, `name`, `credits`), insert `---` before the description.
-- Order: `## children`, then `## logistics`, then `## overview`.
 - The `## overview` topic-to-file mapping maps concepts to notes, not source units or source order.
 - Children order: folders first, then files, Python string order within each group (see "Children format" in `academic-crud-index`).
 - Session headings: each type repeats every week (see "Session ordering" above), or every week of a semester in a recurrent course (see "Recurring courses").
@@ -230,9 +231,7 @@ A session entry records what the session taught. After the metadata, list each n
 - Session metadata: `datetime:`, `topic:`, `status:`, `assignment:`, `quiz:`.
     - `quiz:` links to the tutorial quiz page when a quiz was administered: `[tutorial <N>](tutorials/tutorial%20<N>/index.md)`, with the grade appended if known (`(grade: 2/2)`).
     - Assignment links go in the last lecture entry on or before the due date, as an `ELEC 1100` child (e.g. `- ELEC 1100 / [assignment name](assignments/<name>/index.md)`).
-- Gap sessions: `status: no class` or `status: public holiday: <name>`.
-- Optional sessions: `status: optional`, used by every session of a recurrent course (see "Recurring courses").
-- Exam sessions: continuous week heading, `status: unscheduled; <exam name>`.
+- A session that did not meet, or that was optional, or that hosted an exam says so in `status:` rather than going missing: `status: no class`, `status: public holiday: <name>`, `status: optional` (every session of a recurrent course), and `status: unscheduled; <exam name>` under a continuous week heading.
 - Session free text: optional content after the `---` separator following the metadata, used for verbatim Canvas announcements as blockquotes (see "Announcement preservation").
 
 ## Exam handling
@@ -271,7 +270,7 @@ The session outline then points to the dedicated section holding the full detail
 
 ### Exam section format
 
-Create a `## <exam name>` section elsewhere in the index, typically after all regular sessions. Field order:
+Create a `## <exam name>` section elsewhere in the index, after all regular sessions. Field order:
 
 ```markdown
 ## midterm examination
@@ -457,7 +456,7 @@ See [special.instructions.md](../../instructions/special.instructions.md#missing
 ## References
 
 - `academic-crud-course-index/course-template.md` scaffold template
-- `humanizer` for the AI-writing patterns it removes (see "Humanizer pass" in `academic-ingest`)
+- `humanizer` for the AI-writing patterns it removes
 - `academic-lint` validation
 - `academic-crud-index` subdirectory index format
 - `academic-crud-attachments` attachment directories
