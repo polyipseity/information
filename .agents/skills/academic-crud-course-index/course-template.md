@@ -46,9 +46,11 @@ on its line.
   created or expanded: `- [note](note.md)`, then an indented
   `- [§ heading](note.md#heading)`. A file link alone is never enough.
 - Sessions run in strict chronological order, every type repeating each week with
-  the same count, and types are never mixed across weeks. A recurring weekly
-  stream is scaffolded continuously, with `status:` metadata on the meetings it
-  skips rather than an omitted week (see "Session ordering" in `SKILL.md`).
+  the same count, each session's ordinal counted within its own week rather than
+  carried over from the week before, and types never mixed across weeks. A
+  recurring weekly stream is scaffolded continuously, with `status:` metadata on
+  the meetings it skips rather than an omitted week (see "Session ordering" in
+  `SKILL.md`).
 - A __recurrent course__ (`- status: recurrent`) groups its sessions under
   `## <YYYY term>` and adds a level, `### <YYYY term> week N tutorial 1`, with
   `- status: optional` on every session (see "Recurring courses" in `SKILL.md`).

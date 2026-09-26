@@ -37,6 +37,12 @@ uv run python .agents/skills/academic-lint/main.py "special/academia/<INSTITUTIO
 - `1`: warnings only, advisory, fix when practical
 - `2`: errors found, must fix before commit
 
+## Blind spots
+
+A clean run is a shape check, not a content check, and a value that is internally consistent but wrong still passes. `session_datetime_order` compares the `datetime:` values as written, so it cannot tell a session carrying another section's weekday, time, or venue; no rule compares a session against the section recorded in `## logistics`, or an ordinal against the sessions around it in its week. A `status: no class` session holding a wrong slot is as invisible to the linter as a correct one. Verifying those is the author's job, against the source, per "Session ordering" and "Validation" in `academic-crud-course-index`.
+
+In a whole-course run the warnings can come from files the task never touched. Re-run on the edited file to tell a pre-existing warning from an introduced one, and report the pre-existing ones instead of fixing them.
+
 ## Options
 
 - `--json`: machine-readable output

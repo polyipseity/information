@@ -81,7 +81,7 @@ Show the course structure, the child count, the session list, and the exam recor
 
 ### Update
 
-Reorder children, correct logistics, fix session metadata, revise the overview, and add or revise exam sections inline.
+Reorder children, correct logistics, fix session metadata, revise the overview, and add or revise exam sections inline. Correcting one session's slot moves it in the file, so a session-metadata fix renumbers its ordinal within its own week, re-derives `datetime:` and `venue:` from the section the note records, and restores chronological order.
 
 ### Delete
 
@@ -121,6 +121,7 @@ Lectures, labs, and tutorials are distinct session types under `## logistics`, e
 - Section-type names match `course-template.md`: `lecture` (singular), `tutorials` and `labs` (plural). The chosen section is written after the colon, e.g. `- labs: LA3`.
 - Section keys: `L` for lectures, `T` for tutorials, `LA` for labs.
 - Session headings use the singular type and always carry the session's ordinal in the week: `## week N lecture 1`, `## week N tutorial 1`, `## week N lab 1`. A recurrent course adds one level and repeats the semester, and that is the only difference (see "Recurring courses").
+- __Each session copies its own section's slot.__ The key written after the colon (`- lecture: L1`, `- labs: LA3`) fixes that type's weekday, time, and venue, and a session entry takes its `datetime:` and `venue:` from that line alone: an `LA3` lab is a Monday evening session in `LA3`'s room even when `LA1` shares the week, and a slot that fits the entry perfectly is still wrong when it came from another section. Where a venue or a time changes mid-term, the change goes in the section's own line with a `- note:` carrying the reason, and in the sessions it affects.
 
 ## Session ordering: types repeat every week
 
@@ -129,8 +130,8 @@ Each session type occurs on a fixed weekly pattern: 3 lectures per week means `#
 __Rules:__
 
 1. _Consistent types across weeks._ If week 1 has 2 lectures + 1 lab + 1 tutorial, every later week has the same set (unless marked `status: no class`).
-2. _An ordinal on every session._ With N sessions of one type in a week, use `## week N lecture 1`, `## week N lecture 2`, ..., `## week N lecture N`. The first session of a week carries `1`; it is never left unnumbered.
-3. _Strictly increasing `datetime:` in file order._ Read top to bottom: each session heading's `datetime:` must be later than the previous one, which the `session_datetime_order` rule enforces. Within a week that means day/time order, so the earliest session comes first regardless of type.
+2. _An ordinal on every session, counted within its own week._ With N sessions of one type in a week, use `## week N lecture 1`, `## week N lecture 2`, ..., `## week N lecture N`. The count restarts every week and is never carried over, so a course with two lectures a week heads its week-2 pair `lecture 1` and `lecture 2`, never `lecture 3` and `lecture 4`. A session is never left unnumbered.
+3. _Strictly increasing `datetime:` in file order._ Read top to bottom: each session heading's `datetime:` must be later than the previous one, which the `session_datetime_order` rule enforces. Within a week that means day/time order, so the earliest session comes first regardless of type. The rule compares the values as written, so a session carrying another section's slot still passes it; the weekday and venue still have to be right on their own account.
 4. _Strict chronological order across weeks._ Week 2 sessions come after week 1 sessions. Never interleave weeks; `## week 1 lecture 1` → `## week 2 lecture 1` → `## week 3 lab 1` is wrong if week 1 also has a lab.
 5. _Gap sessions._ If a type does not meet in a week, mark it `status: no class` or `status: public holiday: <name>` instead of omitting the heading.
 
@@ -157,6 +158,13 @@ __Wrong:__
 ## week 1 lecture 1
 ## week 2 lecture 1
 ## week 3 lab 1    ← week 1's lab is missing, types are mixed across weeks
+```
+
+```markdown
+## week 1 lecture 1
+## week 1 lecture 2
+## week 2 lecture 3    ← the ordinal is a running count, not the position in the week
+## week 2 lecture 4
 ```
 
 ## Recurring courses
@@ -371,6 +379,8 @@ Canvas announcements (discussion/topic pages) are placed as blockquotes in the s
 
 Add an announcement when a Canvas HTML source is a discussion/topic page (title starting with "Topic:", or page type discussion): extract the title and body and place them in the chronologically matching session entry.
 
+An entry keeps its announcements: reordering sessions moves each entry's blockquote with it, since an announcement left behind strands as free text under whichever heading now follows it.
+
 Format each announcement as a blockquote with the title bolded, preserving the original wording, paragraph structure, and inline formatting. Drop the platform chrome: the author/teacher metadata line, the posting timestamp, "This topic is closed for comments", and navigation elements.
 
 - __Names inside the body__: an instructor or TA name the quoted body itself carries, in a greeting or a signature, is redacted as `\[redacted\]`. The body is preserved verbatim, so the name leaves a visible mark where it stood. A name outside a quoted announcement is simply omitted.
@@ -425,6 +435,8 @@ When several announcements target the same session, list them as separate blockq
 ## Validation
 
 Run the humanizer pass over new or changed prose and flashcards, focusing on the course description, `## overview` bullets, and session `topic:` lines (see "Humanizer pass" in `academic-ingest`). Then run `academic-lint`, passing the changed files when known.
+
+`academic-lint` checks the note's internal shape, not its schedule: it reads no `## logistics` line, so a cumulative ordinal, another section's weekday, and another section's venue all pass. Re-read the `## week N <type> <ordinal>` headings with their `datetime:` values in file order and check each against the section the note records before reporting a session fix.
 
 ## Missing data
 

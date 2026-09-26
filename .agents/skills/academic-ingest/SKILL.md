@@ -370,7 +370,7 @@ Merged 2 sources into tutorials/tutorial 2/:
 
 ### Schedule cross-referencing
 
-For a submission (lab, tutorial, lecture), look up the matching session in the course `index.md` for reference. Do not copy schedule metadata into `<type>.yml` or `<type>.md` unless the source explicitly provides it; schedule info belongs in the course `index.md`.
+For a submission (lab, tutorial, lecture), look up the matching session in the course `index.md` for reference. Do not copy schedule metadata into `<type>.yml` or `<type>.md` unless the source explicitly provides it; schedule info belongs in the course `index.md`. The lookup runs one way only: a session entry's `datetime:` and `venue:` come from the section the index records for that type, never from the submission's own metadata or from a sibling section's slot.
 
 ### Source file disposition
 
@@ -568,6 +568,8 @@ After the dispatched skill completes:
 Every edit to academic prose or flashcards gets the pass, not only an ingestion: a note created from a deck, a reconciliation, a card rewritten on request, a heading renamed, a one-line correction. Sweep the text that changed, after the edit and before `academic-lint`. Running the pass as you edit and batching several edits to the end of the run are both fine; skipping it is not. Work that reaches the user with unpassed prose or cards is unfinished.
 
 Sweep prose and cards separately, because they fail differently. Verbatim text is out of scope and stays as it arrived: a question statement from an official paper, the body of a Wikipedia transclude, an instructor's own phrasing, and heading text that session entries link to. The pass covers what you write.
+
+A pass covers text, so an edit that changes no sentence takes none. A session entry's week, type, and ordinal, a corrected `datetime:`, `venue:`, or `status:`, and reordered session entries are schedule metadata, not prose; renumbering a heading is a structural fix, not a rewrite. Prose and cards changed in the same task still take the pass.
 
 "Humanize", "humanizer pass", and "reduce verbosity" mean one thing: load the `humanizer` skill and apply it. The skill decides what changes, and cutting verbosity is the usual __focus__ of a pass rather than a substitute for one. Never run a pass from memory of these rules.
 
