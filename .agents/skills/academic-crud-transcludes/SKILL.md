@@ -56,7 +56,7 @@ Confirm with the user, then remove the `.md` and its link in the course `index.m
 ```markdown
 ## children
 
-- [lab 1/](lab%201/)
+- [assignments/](assignments/index.md)
 - [transcludes/Fresnel equations.md](transcludes/Fresnel%20equations.md)
 - [transcludes/Photon.md](transcludes/Photon.md)
 ```

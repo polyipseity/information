@@ -122,6 +122,7 @@ Lectures, labs, and tutorials are distinct session types under `## logistics`, e
 - Section keys: `L` for lectures, `T` for tutorials, `LA` for labs.
 - Session headings use the singular type and always carry the session's ordinal in the week: `## week N lecture 1`, `## week N tutorial 1`, `## week N lab 1`. A recurrent course adds one level and repeats the semester, and that is the only difference (see "Recurring courses").
 - __Each session copies its own section's slot.__ The key written after the colon (`- lecture: L1`, `- labs: LA3`) fixes that type's weekday, time, and venue, and a session entry takes its `datetime:` and `venue:` from that line alone: an `LA3` lab is a Monday evening session in `LA3`'s room even when `LA1` shares the week, and a slot that fits the entry perfectly is still wrong when it came from another section. Where a venue or a time changes mid-term, the change goes in the section's own line with a `- note:` carrying the reason, and in the sessions it affects.
+- __A session's own content carries the session's name.__ A directory or file holding one session's material is named after its heading, `week N <type> K`, with spaces literal and `%20` only inside links, and the session entry links it. Nothing drops the ordinal, and a bare `<type> K` names a deliverable rather than a session (see `academic-crud-submission`).
 
 ## Session ordering: types repeat every week
 

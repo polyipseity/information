@@ -352,7 +352,7 @@ If a match is found, show the existing note and ask whether to __update__ it, __
 
 When several input files classify to the same target directory, merge them instead of creating duplicate entries.
 
-1. Identify the shared target by matching directory name patterns (e.g., "quiz 1 (tutorial 2)" and "Quiz 01 (in Tutorial 02)" both target `tutorials/tutorial 2/`).
+1. Identify the shared target by matching directory name patterns (e.g., "quiz 1 (tutorial 2)" and "Quiz 01 (in Tutorial 02)" both name the same tutorial).
 2. Determine which source provides what:
     - PRS/iClicker HTML → quiz content (questions, choices)
     - Canvas HTML → metadata (grade, assignment ID, submission record)
@@ -363,7 +363,7 @@ When several input files classify to the same target directory, merge them inste
 4. Report the merge:
 
 ```text
-Merged 2 sources into tutorials/tutorial 2/:
+Merged 2 sources into <target directory>/:
   - PRS HTML → <type>.md (2 quiz questions)
   - Canvas HTML → <type>.yml (grade: 2/2)
 ```

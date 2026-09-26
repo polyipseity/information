@@ -58,7 +58,7 @@ tags:
 - [cloud computing](cloud%20computing.md)
 ```
 
-> __Note:__ This skill defines the directory listing index (e.g., `tutorials/index.md`). Individual submission pages (e.g., `tutorials/tutorial 1/index.md`) follow the format in `academic-crud-submission`.
+> __Note:__ This skill defines the directory listing index (e.g., `tutorials/index.md`). A session's own content follows the session name, `tutorials/week 2 tutorial 1/index.md`, while a submission page follows the deliverable, `labs/lab 1/index.md`; both follow the format in `academic-crud-submission`.
 
 ## Missing data
 
