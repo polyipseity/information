@@ -28,17 +28,27 @@ FINA 4103 is an undergraduate course in financial markets trading and structure 
 
 ## children
 
+- [all-or-nothing order](all-or-nothing%20order.md)
 - [auction](auction.md)
+- [bid-ask spread](bid-ask%20spread.md)
 - [continuous trading](continuous%20trading.md)
+- [dark pool](dark%20pool.md)
 - [finance](finance.md)
 - [financial system](financial%20system.md)
+- [hidden order](hidden%20order.md)
 - [high-frequency trading](high-frequency%20trading.md)
+- [immediate-or-cancel order](immediate-or-cancel%20order.md)
+- [limit order](limit%20order.md)
 - [market liquidity](market%20liquidity.md)
 - [market maker](market%20maker.md)
 - [market microstructure](market%20microstructure.md)
+- [market order](market%20order.md)
 - [market structure (finance)](market%20structure%20(finance).md)
+- [order (exchange)](order%20(exchange).md)
 - [over-the-counter (finance)](over-the-counter%20(finance).md)
+- [pegged order](pegged%20order.md)
 - [price discovery](price%20discovery.md)
+- [stop order](stop%20order.md)
 - [trading curb](trading%20curb.md)
 
 ## logistics
@@ -166,6 +176,49 @@ FINA 4103 is an undergraduate course in financial markets trading and structure 
     - [§ advantages and drawbacks](continuous%20trading.md#advantages%20and%20drawbacks)
 - [high-frequency trading](high-frequency%20trading.md)
     - [§ arms race and overinvestment](high-frequency%20trading.md#arms%20race%20and%20overinvestment)
+
+## week 2 lecture 3
+
+- datetime: 2026-09-08T15:00:00+08:00/2026-09-08T16:20:00+08:00, PT1H20M
+- venue: Rm 2406, Lift 17-18
+- topic: orders and quotes; order instructions and venue differences; limit and market orders; bid-ask spread; stop orders; IOC and hidden orders; pegged orders; dark pools
+- [order (exchange)](order%20(exchange).md)
+    - [§ what an order specifies](order%20(exchange).md#what%20an%20order%20specifies)
+    - [§ classes of instructions](order%20(exchange).md#classes%20of%20instructions)
+    - [§ time in force](order%20(exchange).md#time%20in%20force)
+    - [§ order types across venues](order%20(exchange).md#order%20types%20across%20venues)
+- [limit order](limit%20order.md)
+    - [§ liquidity provision](limit%20order.md#liquidity%20provision)
+    - [§ marketable limit orders](limit%20order.md#marketable%20limit%20orders)
+    - [§ price-time priority](limit%20order.md#price-time%20priority)
+    - [§ execution quality](limit%20order.md#execution%20quality)
+    - [§ execution risk](limit%20order.md#execution%20risk)
+    - [§ execution price](limit%20order.md#execution%20price)
+- [market order](market%20order.md)
+    - [§ liquidity taking](market%20order.md#liquidity%20taking)
+    - [§ execution price](market%20order.md#execution%20price)
+- [bid-ask spread](bid-ask%20spread.md)
+    - [§ best bid and offer](bid-ask%20spread.md#best%20bid%20and%20offer)
+    - [§ mid-point quote](bid-ask%20spread.md#mid-point%20quote)
+    - [§ near side and far side](bid-ask%20spread.md#near%20side%20and%20far%20side)
+    - [§ locked and crossed markets](bid-ask%20spread.md#locked%20and%20crossed%20markets)
+- [stop order](stop%20order.md)
+    - [§ stop-limit and stop-market](stop%20order.md#stop-limit%20and%20stop-market)
+- [immediate-or-cancel order](immediate-or-cancel%20order.md)
+    - [§ IOC and phantom liquidity](immediate-or-cancel%20order.md#IOC%20and%20phantom%20liquidity)
+- [all-or-nothing order](all-or-nothing%20order.md)
+    - [§ fill-or-kill order](all-or-nothing%20order.md#fill-or-kill%20order)
+- [pegged order](pegged%20order.md)
+    - [§ primary peg](pegged%20order.md#primary%20peg)
+    - [§ midpoint peg](pegged%20order.md#midpoint%20peg)
+- [hidden order](hidden%20order.md)
+    - [§ execution priority](hidden%20order.md#execution%20priority)
+    - [§ prevalence and market effects](hidden%20order.md#prevalence%20and%20market%20effects)
+- [dark pool](dark%20pool.md)
+    - [§ dark pools and price efficiency](dark%20pool.md#dark%20pools%20and%20price%20efficiency)
+    - [§ price improvement versus execution risk](dark%20pool.md#price%20improvement%20versus%20execution%20risk)
+- [price discovery](price%20discovery.md)
+    - [§ dark pools and price efficiency](price%20discovery.md#dark%20pools%20and%20price%20efficiency)
 
 ## week 3 lecture 2
 
