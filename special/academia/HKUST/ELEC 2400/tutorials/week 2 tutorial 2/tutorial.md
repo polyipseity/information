@@ -1,18 +1,18 @@
 ---
 aliases:
-  - ELEC 2400 tutorial 2 tutorial
-  - ELEC2400 tutorial 2 tutorial
-  - HKUST ELEC 2400 tutorial 2 tutorial
-  - HKUST ELEC2400 tutorial 2 tutorial
+  - ELEC 2400 week 2 tutorial 2 tutorial
+  - ELEC2400 week 2 tutorial 2 tutorial
+  - HKUST ELEC 2400 week 2 tutorial 2 tutorial
+  - HKUST ELEC2400 week 2 tutorial 2 tutorial
 tags:
-  - flashcard/active/special/academia/HKUST/ELEC_2400/tutorials/tutorial_2/tutorial
+  - flashcard/active/special/academia/HKUST/ELEC_2400/tutorials/week_2_tutorial_2/tutorial
   - language/in/English
 ---
 
 # tutorial
 
-- HKUST ELEC 2400 tutorial 2
-- parent: [tutorial 2](index.md)
+- HKUST ELEC 2400 week 2 tutorial 2
+- parent: [week 2 tutorial 2](index.md)
 
 ## sign of Ohm's law under the reference direction
 

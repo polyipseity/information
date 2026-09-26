@@ -1,18 +1,18 @@
 ---
 aliases:
-  - ELEC 2400 tutorial 1 tutorial
-  - ELEC2400 tutorial 1 tutorial
-  - HKUST ELEC 2400 tutorial 1 tutorial
-  - HKUST ELEC2400 tutorial 1 tutorial
+  - ELEC 2400 week 1 tutorial 1 tutorial
+  - ELEC2400 week 1 tutorial 1 tutorial
+  - HKUST ELEC 2400 week 1 tutorial 1 tutorial
+  - HKUST ELEC2400 week 1 tutorial 1 tutorial
 tags:
-  - flashcard/active/special/academia/HKUST/ELEC_2400/tutorials/tutorial_1/tutorial
+  - flashcard/active/special/academia/HKUST/ELEC_2400/tutorials/week_1_tutorial_1/tutorial
   - language/in/English
 ---
 
 # tutorial
 
-- HKUST ELEC 2400 tutorial 1
-- parent: [tutorial 1](index.md)
+- HKUST ELEC 2400 week 1 tutorial 1
+- parent: [week 1 tutorial 1](index.md)
 
 Every voltage is a difference between two points. A potential quoted at a single point takes a value only once a reference point is fixed; the difference itself is unchanged by that choice.
 

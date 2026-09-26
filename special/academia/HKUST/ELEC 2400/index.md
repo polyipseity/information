@@ -148,10 +148,10 @@ ELEC 2400 is an undergraduate course in electronic circuits at HKUST covering fu
 - datetime: 2026-09-02T15:00:00+08:00/2026-09-02T15:50:00+08:00, PT50M
 - venue: Rm 2304, Lift 17-18
 - topic: measuring voltage; potential reference; reference directions for voltage and current
-- [tutorial](tutorials/tutorial%201/tutorial.md)
-    - [§ measuring voltage](tutorials/tutorial%201/tutorial.md#measuring%20voltage)
-    - [§ reference point](tutorials/tutorial%201/tutorial.md#reference%20point)
-    - [§ reference directions](tutorials/tutorial%201/tutorial.md#reference%20directions)
+- [tutorial](tutorials/week%201%20tutorial%201/tutorial.md)
+    - [§ measuring voltage](tutorials/week%201%20tutorial%201/tutorial.md#measuring%20voltage)
+    - [§ reference point](tutorials/week%201%20tutorial%201/tutorial.md#reference%20point)
+    - [§ reference directions](tutorials/week%201%20tutorial%201/tutorial.md#reference%20directions)
 - [Ohm's law](Ohm%27s%20law.md)
     - [§ resistor](Ohm%27s%20law.md#resistor)
 - [voltage](voltage.md)
@@ -250,16 +250,16 @@ ELEC 2400 is an undergraduate course in electronic circuits at HKUST covering fu
 - datetime: 2026-09-09T17:00:00+08:00/2026-09-09T17:50:00+08:00, PT50M
 - venue: Rm 6555, Lift 29-30
 - topic: sign of Ohm's law under the reference direction; series and parallel connections; current direction around a source; absorbing and delivering power; what an ideal source fixes; sign convention at a node and round a loop
-- [tutorial](tutorials/tutorial%202/tutorial.md)
-    - [§ sign of Ohm's law under the reference direction](tutorials/tutorial%202/tutorial.md#sign%20of%20Ohm's%20law%20under%20the%20reference%20direction)
-    - [§ series and parallel connections](tutorials/tutorial%202/tutorial.md#series%20and%20parallel%20connections)
-    - [§ current direction around a source](tutorials/tutorial%202/tutorial.md#current%20direction%20around%20a%20source)
-    - [§ absorbing and delivering power](tutorials/tutorial%202/tutorial.md#absorbing%20and%20delivering%20power)
-    - [§ what an ideal source fixes](tutorials/tutorial%202/tutorial.md#what%20an%20ideal%20source%20fixes)
-    - [§ sign convention at a node](tutorials/tutorial%202/tutorial.md#sign%20convention%20at%20a%20node)
-    - [§ applying the current law at a node](tutorials/tutorial%202/tutorial.md#applying%20the%20current%20law%20at%20a%20node)
-    - [§ sign convention round a loop](tutorials/tutorial%202/tutorial.md#sign%20convention%20round%20a%20loop)
-    - [§ applying the voltage law round a loop](tutorials/tutorial%202/tutorial.md#applying%20the%20voltage%20law%20round%20a%20loop)
+- [tutorial](tutorials/week%202%20tutorial%202/tutorial.md)
+    - [§ sign of Ohm's law under the reference direction](tutorials/week%202%20tutorial%202/tutorial.md#sign%20of%20Ohm's%20law%20under%20the%20reference%20direction)
+    - [§ series and parallel connections](tutorials/week%202%20tutorial%202/tutorial.md#series%20and%20parallel%20connections)
+    - [§ current direction around a source](tutorials/week%202%20tutorial%202/tutorial.md#current%20direction%20around%20a%20source)
+    - [§ absorbing and delivering power](tutorials/week%202%20tutorial%202/tutorial.md#absorbing%20and%20delivering%20power)
+    - [§ what an ideal source fixes](tutorials/week%202%20tutorial%202/tutorial.md#what%20an%20ideal%20source%20fixes)
+    - [§ sign convention at a node](tutorials/week%202%20tutorial%202/tutorial.md#sign%20convention%20at%20a%20node)
+    - [§ applying the current law at a node](tutorials/week%202%20tutorial%202/tutorial.md#applying%20the%20current%20law%20at%20a%20node)
+    - [§ sign convention round a loop](tutorials/week%202%20tutorial%202/tutorial.md#sign%20convention%20round%20a%20loop)
+    - [§ applying the voltage law round a loop](tutorials/week%202%20tutorial%202/tutorial.md#applying%20the%20voltage%20law%20round%20a%20loop)
 - [series and parallel circuits](series%20and%20parallel%20circuits.md)
     - [§ series connection](series%20and%20parallel%20circuits.md#series%20connection)
     - [§ parallel connection](series%20and%20parallel%20circuits.md#parallel%20connection)
