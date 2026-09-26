@@ -32,9 +32,18 @@ from __future__ import annotations
 
 from pathlib import Path
 
+import matplotlib
 from matplotlib.backends.backend_agg import FigureCanvasAgg
 from matplotlib.figure import Figure
 from matplotlib.patches import Ellipse, FancyArrowPatch, Rectangle
+
+# Reproducible SVG output. matplotlib salts the element ids it generates with a
+# fresh uuid4 per process, so redrawing an unchanged figure still produces a
+# diff; pinning the salt makes a regenerated file byte-identical to the
+# committed one. The date is dropped outright via ``metadata`` below, which this
+# script can do because it calls savefig on the figure itself. Changing the salt
+# rewrites the SVG this script produces.
+matplotlib.rcParams["svg.hashsalt"] = "information.academia-ingest"
 
 PIPE_LENGTH = 4.0
 PIPE_DIAMETER = 1.2
@@ -169,7 +178,9 @@ def main(argv: list[str] | None = None) -> None:
     """Write the pipe drawing beside this script."""
     del argv
     output = Path(__file__).with_name(OUTPUT_NAME)
-    build_figure().savefig(output, format="svg", transparent=True)
+    build_figure().savefig(
+        output, format="svg", transparent=True, metadata={"Date": None}
+    )
     print(output)
 
 

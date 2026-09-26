@@ -52,13 +52,29 @@ import argparse
 from collections.abc import Callable
 from contextlib import contextmanager
 from multiprocessing import Pool
-from os import cpu_count, fspath
+from os import cpu_count, environ, fspath
 
+import matplotlib
 import matplotlib.pyplot as plt
 import schemdraw.elements as elm
 from anyio import Path
 from asyncer import runnify
 from schemdraw import Drawing
+
+# Reproducible SVG output. matplotlib salts the element ids it generates with a
+# fresh uuid4 per process and stamps every file with the current time, so
+# redrawing an unchanged diagram still produces a diff. Pinning the salt and the
+# timestamp makes a regenerated file byte-identical to the committed one.
+#
+# Both settings sit at module level, not inside main(): diagrams are drawn in
+# multiprocessing Pool workers, which re-import this module under macOS spawn.
+#
+# schemdraw's Drawing.save() takes no ``metadata=`` argument, so the date cannot
+# be dropped the way the plain-matplotlib generators drop it; it is pinned
+# instead, leaving these files with a SOURCE_DATE_EPOCH stamp they would not
+# otherwise carry. Changing the salt rewrites every SVG this script produces.
+environ.setdefault("SOURCE_DATE_EPOCH", "0")
+matplotlib.rcParams["svg.hashsalt"] = "information.academia-ingest"
 
 # cap worker count to avoid overloading the machine (matplotlib is process-heavy)
 _MAX_POOL_WORKERS = min(4, cpu_count() or 1)
