@@ -21,4 +21,4 @@ tags:
 ## children
 
 - [week 1 tutorial 1](week%201%20tutorial%201/index.md)
-- [week 2 tutorial 2](week%202%20tutorial%202/index.md)
+- [week 2 tutorial 1](week%202%20tutorial%201/index.md)
