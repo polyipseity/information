@@ -56,7 +56,7 @@ tags:
 
 ### merge sort
 
-{@{The classic divide-and-conquer approach}@} to sorting, {@{_merge sort_}@} is expressed {@{succinctly in Scala}@}: <!--SR:!2026-10-31,287,330!fsrs,2029-10-24T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-09-24T00:00:00.000Z!fsrs,2030-03-07T00:00:00.000Z,1229,1229.25786194,1,2,9,0,0,2026-10-25T00:00:00.000Z-->
+{@{The classic divide-and-conquer approach}@} to sorting, {@{_merge sort_}@} is expressed {@{succinctly in Scala}@}: <!--SR:!fsrs,2030-04-05T00:00:00.000Z,1251,1250.57352479,1,2,9,0,0,2026-11-01T00:00:00.000Z!fsrs,2029-10-24T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-09-24T00:00:00.000Z!fsrs,2030-03-07T00:00:00.000Z,1229,1229.25786194,1,2,9,0,0,2026-10-25T00:00:00.000Z-->
 
 > [!example] __merge sort__
 >
@@ -122,7 +122,7 @@ One could {@{re-implement `splitAt`}@} as {@{an extension method}@}: <!--SR:!fsr
 > ```
 <!--SR:!2026-11-08,294,330!fsrs,2029-07-17T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-08-29T00:00:00.000Z-->
 
-The compiler guarantees that {@{all possible shapes of the input lists}@} are handled; {@{any omission}@} results in {@{a warning \(not error\)}@}. <!--SR:!2026-11-01,288,330!fsrs,2029-07-07T00:00:00.000Z,1045,1045.2595081,1,2,9,0,0,2026-08-27T00:00:00.000Z!fsrs,2030-03-02T00:00:00.000Z,1225,1225.46601476,1,2,9,0,0,2026-10-24T00:00:00.000Z-->
+The compiler guarantees that {@{all possible shapes of the input lists}@} are handled; {@{any omission}@} results in {@{a warning \(not error\)}@}. <!--SR:!fsrs,2030-04-06T00:00:00.000Z,1252,1251.97430334,1,2,9,0,0,2026-11-01T00:00:00.000Z!fsrs,2029-07-07T00:00:00.000Z,1045,1045.2595081,1,2,9,0,0,2026-08-27T00:00:00.000Z!fsrs,2030-03-02T00:00:00.000Z,1225,1225.46601476,1,2,9,0,0,2026-10-24T00:00:00.000Z-->
 
 ### sorting arbitrary types
 

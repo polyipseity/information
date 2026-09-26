@@ -52,7 +52,7 @@ return await memorize_seq(
 - +: attracts local or overseas investment→::@::←+: creates job opportunities <!--SR:!2027-08-09,1121,330!fsrs,2036-06-15T00:00:00.000Z,3568,3567.93130855,1,2,11,0,0,2026-09-08T00:00:00.000Z-->
 - +: creates job opportunities→::@::←+: generates income for the government <!--SR:!2028-08-23,1294,294!fsrs,2033-03-10T00:00:00.000Z,2364,2363.76189546,2.34287837,2,11,0,0,2026-09-19T00:00:00.000Z-->
 - +: generates income for the government→::@::←+: improves infrastructure <!--SR:!2028-09-12,1223,294!2035-03-21,3271,334-->
-- +: improves infrastructure→::@::←-: emits gaseous pollutants <!--SR:!2026-11-01,618,290!2028-03-08,1079,274-->
+- +: improves infrastructure→::@::←-: emits gaseous pollutants <!--SR:!fsrs,2032-08-17T00:00:00.000Z,2116,2116.0384985,1.98030797,2,10,0,0,2026-11-01T00:00:00.000Z!2028-03-08,1079,274-->
 - -: emits gaseous pollutants→::@::←-: generates waste that may be harmful or toxic <!--SR:!2032-04-21,2333,294!2027-10-12,1049,314-->
 - -: generates waste that may be harmful or toxic→::@::←-: pollution control cost is high <!--SR:!2031-03-21,2022,314!2027-09-08,938,254-->
 - -: pollution control cost is high→::@::←-: safety control cost is high <!--SR:!2032-08-16,2404,294!fsrs,2031-08-13T00:00:00.000Z,1793,1793.25447391,4.90680188,2,11,0,0,2026-09-15T00:00:00.000Z-->

@@ -24,7 +24,7 @@ tags:
 
 In {@{modern multicore CPUs}@}, {@{parallelism}@} is achieved by {@{running many tasks simultaneously on distinct cores}@}. {@{Traditional thread‑based approaches}@} force programmers to protect {@{shared mutable data with mutexes or semaphores}@}. Such mechanisms are {@{error‑prone}@}: {@{a missing lock}@} can cause {@{data races}@}; {@{nested locks}@} can {@{lead to deadlocks}@}. Moreover, {@{the overhead of context switching and contention}@} limits {@{scalability}@}. <!--SR:!2026-12-23,267,330!2026-12-25,268,330!2026-12-07,256,330!2026-11-09,240,330!2027-01-11,285,330!2027-01-18,290,330!2026-12-23,269,330!2026-12-31,273,330!2027-01-23,292,330!2026-12-17,264,330!2026-11-29,250,330!2027-01-11,285,330-->
 
-Actors {@{sidestep these issues}@} by enforcing {@{_encapsulation_: an actor never exposes its internal state to other actors}@}. The only interaction is through {@{immutable messages sent asynchronously}@}. This guarantees that {@{two actors cannot interfere with each other’s data}@}, so {@{no lock is required}@}. Because sending {@{a message does not block the sender}@}, the model naturally supports {@{high‑throughput, non‑blocking systems}@}. <!--SR:!2026-11-01,233,330!2026-12-13,261,330!2027-01-17,290,330!2026-11-04,236,330!2027-01-10,284,330!2026-11-24,252,330!fsrs,2029-08-24T00:00:00.000Z,1030,1029.72783972,1,2,9,0,0,2026-10-29T00:00:00.000Z-->
+Actors {@{sidestep these issues}@} by enforcing {@{_encapsulation_: an actor never exposes its internal state to other actors}@}. The only interaction is through {@{immutable messages sent asynchronously}@}. This guarantees that {@{two actors cannot interfere with each other’s data}@}, so {@{no lock is required}@}. Because sending {@{a message does not block the sender}@}, the model naturally supports {@{high‑throughput, non‑blocking systems}@}. <!--SR:!fsrs,2029-09-07T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-11-01T00:00:00.000Z!2026-12-13,261,330!2027-01-17,290,330!2026-11-04,236,330!2027-01-10,284,330!2026-11-24,252,330!fsrs,2029-08-24T00:00:00.000Z,1030,1029.72783972,1,2,9,0,0,2026-10-29T00:00:00.000Z-->
 
 Actors provide {@{a clean abstraction for parallelism}@}: they eliminate {@{shared mutable state}@}, remove {@{lock‑based synchronization, and avoid deadlocks}@} while still allowing {@{many actors to run concurrently}@}. This makes Scala programs easier to {@{write, reason about, and scale on modern multicore hardware}@}. <!--SR:!2026-11-25,253,330!2026-11-27,255,330!2027-01-02,277,330!2027-01-09,283,330!2027-01-13,286,330-->
 
@@ -140,7 +140,7 @@ Actors process {@{each message _sequentially_}@}, so {@{no explicit locks are ne
 
 ### actor creation
 
-Actors are {@{instantiated through the actor system}@}, which supplies {@{a unique reference}@}. {@{A reference (`ActorRef`)}@} is what {@{other actors use to send messages}@}: <!--SR:!2026-11-01,233,330!2026-11-21,250,330!2027-01-17,290,330!2026-12-13,259,330-->
+Actors are {@{instantiated through the actor system}@}, which supplies {@{a unique reference}@}. {@{A reference (`ActorRef`)}@} is what {@{other actors use to send messages}@}: <!--SR:!fsrs,2029-09-07T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-11-01T00:00:00.000Z!2026-11-21,250,330!2027-01-17,290,330!2026-12-13,259,330-->
 
 > [!example] __creating an actor__
 >
@@ -156,7 +156,7 @@ Actors are {@{instantiated through the actor system}@}, which supplies {@{a uniq
 > counter ! "incr"
 > ```
 >
-> Because {@{messages are queued}@}, the sender does not {@{wait for the receiver}@}; {@{this asynchronous, non‑blocking communication}@} is one of {@{the key advantages of the actor model}@}. <!--SR:!2027-01-06,281,330!2026-11-16,246,330!2026-12-05,255,330!2026-10-31,232,330!2026-12-20,264,330!2026-11-19,248,330!2027-01-20,292,330!2026-11-26,254,330!2026-12-02,252,330!2026-12-31,276,330-->
+> Because {@{messages are queued}@}, the sender does not {@{wait for the receiver}@}; {@{this asynchronous, non‑blocking communication}@} is one of {@{the key advantages of the actor model}@}. <!--SR:!2027-01-06,281,330!2026-11-16,246,330!2026-12-05,255,330!fsrs,2029-09-06T00:00:00.000Z,1040,1039.96344033,1,2,9,0,0,2026-11-01T00:00:00.000Z!2026-12-20,264,330!2026-11-19,248,330!2027-01-20,292,330!2026-11-26,254,330!2026-12-02,252,330!2026-12-31,276,330-->
 
 ### message passing
 

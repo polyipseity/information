@@ -132,7 +132,7 @@ tags:
 >
 > ---
 >
-> - solution: {@{No. This helps to simplify the diagram. However, this simplification can only be done when the meaning \(semantics\) of the redundant association is obtainable by composing the meanings of two or more associations.}@} <!--SR:!2026-11-01,301,340-->
+> - solution: {@{No. This helps to simplify the diagram. However, this simplification can only be done when the meaning \(semantics\) of the redundant association is obtainable by composing the meanings of two or more associations.}@} <!--SR:!fsrs,2030-07-08T00:00:00.000Z,1345,1345.11460114,1,2,9,0,0,2026-11-01T00:00:00.000Z-->
 
 ---
 

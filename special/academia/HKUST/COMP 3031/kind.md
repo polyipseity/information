@@ -184,7 +184,7 @@ Thus {@{the `Monad` type class}@} captures the semantics of both {@{constructing
 
 {@{Higher‑kinded polymorphism}@} is not common {@{outside of Scala and Haskell}@}. The following snippets illustrate {@{the two main patterns used in other mainstream languages}@}. <!--SR:!fsrs,2029-03-14T00:00:00.000Z,871,871.41762991,1,2,9,0,0,2026-10-25T00:00:00.000Z!2026-12-12,256,330!2026-11-10,241,330-->
 
-{@{In _Haskell_}@} a {@{_type class_}@} is declared with {@{`class`}@}. {@{The standard monad abstraction}@} is: <!--SR:!2026-11-01,233,330!2026-11-10,241,330!2027-01-03,279,330!2026-11-18,247,330-->
+{@{In _Haskell_}@} a {@{_type class_}@} is declared with {@{`class`}@}. {@{The standard monad abstraction}@} is: <!--SR:!fsrs,2029-09-07T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-11-01T00:00:00.000Z!2026-11-10,241,330!2027-01-03,279,330!2026-11-18,247,330-->
 
 > [!example] __Haskell monad__
 >
@@ -216,4 +216,4 @@ Thus {@{the `Monad` type class}@} captures the semantics of both {@{constructing
 
 {@{The signature}@} is {@{a _module type_}@}; {@{concrete modules}@} can be passed as {@{arguments to functions that need monadic behaviour}@}. <!--SR:!2027-01-05,281,330!2027-01-10,285,330!2026-11-23,251,330!2027-01-19,286,330-->
 
-{@{Other ecosystems}@} (e.g. {@{Rust}@} with {@{the `Monad` trait in libraries}@}, or {@{Kotlin’s}@} {@{`Arrow`}@}) follow {@{similar patterns}@}, but {@{Scala and Haskell}@} remain {@{the most idiomatic for higher‑kinded abstractions}@}. <!--SR:!2026-11-10,241,330!2026-10-31,232,330!2026-12-10,255,330!2027-01-10,285,330!2026-12-09,259,330!fsrs,2029-08-19T00:00:00.000Z,1026,1025.83973773,1,2,9,0,0,2026-10-28T00:00:00.000Z!2026-11-21,250,330!2026-11-16,245,330-->
+{@{Other ecosystems}@} (e.g. {@{Rust}@} with {@{the `Monad` trait in libraries}@}, or {@{Kotlin’s}@} {@{`Arrow`}@}) follow {@{similar patterns}@}, but {@{Scala and Haskell}@} remain {@{the most idiomatic for higher‑kinded abstractions}@}. <!--SR:!2026-11-10,241,330!fsrs,2029-09-06T00:00:00.000Z,1040,1039.96344033,1,2,9,0,0,2026-11-01T00:00:00.000Z!2026-12-10,255,330!2027-01-10,285,330!2026-12-09,259,330!fsrs,2029-08-19T00:00:00.000Z,1026,1025.83973773,1,2,9,0,0,2026-10-28T00:00:00.000Z!2026-11-21,250,330!2026-11-16,245,330-->

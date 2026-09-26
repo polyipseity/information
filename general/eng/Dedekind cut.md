@@ -30,7 +30,7 @@ A Dedekind cut is {@{a partition of the rationals $\mathbb {Q}$ into two subsets
 3. downward closure ::@:: If $x,y\in \mathbb {Q}$, $x<y$, and $y\in A$, then $x\in A$. \($A$ is "closed downwards".\) <!--SR:!2029-06-09,1267,350!2029-07-12,1285,350-->
 4. no greatest element ::@:: If $x\in A$, then there exists a $y\in A$ such that $y>x$. \($A$ does not contain a greatest element.\) <!--SR:!2028-12-21,1136,350!2028-01-01,841,330-->
 
-By {@{omitting the first two requirements (annotation: non-emptyness of both $A$ and $B$)}@}, we {@{formally obtain the [extended real number line](extended%20real%20number%20line.md)}@}. <!--SR:!2029-07-04,1277,350!2026-11-01,507,310-->
+By {@{omitting the first two requirements (annotation: non-emptyness of both $A$ and $B$)}@}, we {@{formally obtain the [extended real number line](extended%20real%20number%20line.md)}@}. <!--SR:!2029-07-04,1277,350!fsrs,2032-01-28T00:00:00.000Z,1914,1913.63098582,1,2,10,0,0,2026-11-01T00:00:00.000Z-->
 
 ## representations
 

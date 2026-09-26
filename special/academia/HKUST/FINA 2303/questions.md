@@ -436,7 +436,7 @@ tags:
 > 4. neither
 >
 > - solution: {@{1}@}
-> - annotation: {@{If you accidentally subtract from the project B \(smaller\) the project A \(larger\), you still get the same incremental IRR. <p> This does not mean you should accept the "alternative" project, project B. It still means you should accept project A. Consider the cash flows you obtained by subtracting in the wrong direction. It becomes a loan/delayed investment, so the IRR decision rule is reversed.}@} <!--SR:!fsrs,2032-10-08T00:00:00.000Z,2182,2182.14685601,1,2,10,0,0,2026-10-18T00:00:00.000Z!2026-10-31,483,399-->
+> - annotation: {@{If you accidentally subtract from the project B \(smaller\) the project A \(larger\), you still get the same incremental IRR. <p> This does not mean you should accept the "alternative" project, project B. It still means you should accept project A. Consider the cash flows you obtained by subtracting in the wrong direction. It becomes a loan/delayed investment, so the IRR decision rule is reversed.}@} <!--SR:!fsrs,2032-10-08T00:00:00.000Z,2182,2182.14685601,1,2,10,0,0,2026-10-18T00:00:00.000Z!fsrs,2032-12-08T00:00:00.000Z,2229,2228.80975737,1,2,10,0,0,2026-11-01T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -515,7 +515,7 @@ tags:
 > 1. yes
 > 2. no
 >
-> - solution: {@{1}@} <!--SR:!2026-11-01,484,399-->
+> - solution: {@{1}@} <!--SR:!fsrs,2032-12-09T00:00:00.000Z,2230,2230.24019752,1,2,10,0,0,2026-11-01T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 

@@ -136,13 +136,13 @@ Given {@{any linearly independent set $\{s_1,\dots,s_M\}$}@}, {@{the _Gram–Sch
 
 For {@{$$s_m'(t) = A\cos\left(2\pi f_ct + \frac {2 \pi (m - 1)} {M} \right)$$}@} with {@{$M \ge 3$ and $f_c$ as above}@}, {@{trigonometric identities}@} give {@{$$s_m'(t) = A\cos\left(\frac {2 \pi (m - 1)} {M} \right) \cos(2\pi f_c t) - A \sin\left(\frac {2 \pi (m - 1)} M \right) \sin(2\pi f_c t) \,.$$}@} {@{Same basis}@} as before. <!--SR:!2027-01-31,321,345!2027-02-03,324,345!2026-12-21,288,345!2026-11-08,251,330!2027-02-10,330,345-->
 
-{@{Sinusoidal signals over $[0, T)$}@} always reduce to {@{a two-dimensional linear combination}@}, so {@{_M_-PSK and _M_-QAM constellations}@} are {@{two-dimensional}@}. {@{The _inphase_ signal $I(t)$}@} is {@{the amplitude of $\cos(2\pi f_c t)$}@}; {@{the _quadrature_ signal $Q(t)$}@} is {@{the amplitude of $-\sin(2\pi f_c t)$}@}. Represented as {@{$Z(t) = I(t) + j Q(t)$}@} or plotted on {@{the constellation plane as $(I(t), Q(t))$}@}. <!--SR:!2026-11-01,245,330!2027-02-23,340,345!2027-02-21,339,345!2027-02-01,322,345!2027-01-03,299,345!2027-01-03,299,345!2027-02-22,339,345!2027-01-01,297,345!2027-01-25,315,345!2026-12-02,272,345-->
+{@{Sinusoidal signals over $[0, T)$}@} always reduce to {@{a two-dimensional linear combination}@}, so {@{_M_-PSK and _M_-QAM constellations}@} are {@{two-dimensional}@}. {@{The _inphase_ signal $I(t)$}@} is {@{the amplitude of $\cos(2\pi f_c t)$}@}; {@{the _quadrature_ signal $Q(t)$}@} is {@{the amplitude of $-\sin(2\pi f_c t)$}@}. Represented as {@{$Z(t) = I(t) + j Q(t)$}@} or plotted on {@{the constellation plane as $(I(t), Q(t))$}@}. <!--SR:!fsrs,2029-10-24T00:00:00.000Z,1088,1087.80493378,1,2,9,0,0,2026-11-01T00:00:00.000Z!2027-02-23,340,345!2027-02-21,339,345!2027-02-01,322,345!2027-01-03,299,345!2027-01-03,299,345!2027-02-22,339,345!2027-01-01,297,345!2027-01-25,315,345!2026-12-02,272,345-->
 
 ## applications
 
 ### receiver optimization
 
-For {@{LTI filters}@}, {@{the matched filter}@} {@{maximises SNR}@}. In {@{signal space}@} this is equivalent to {@{projecting the received vector onto each basis function}@} and picking {@{the symbol whose coordinates}@} are {@{closest in Euclidean distance}@}. <!--SR:!2026-10-31,244,330!2027-02-25,342,345!2027-01-31,321,345!2027-02-06,326,345!2027-02-13,332,345!2027-02-04,325,345!2027-02-18,336,345-->
+For {@{LTI filters}@}, {@{the matched filter}@} {@{maximises SNR}@}. In {@{signal space}@} this is equivalent to {@{projecting the received vector onto each basis function}@} and picking {@{the symbol whose coordinates}@} are {@{closest in Euclidean distance}@}. <!--SR:!fsrs,2029-10-22T00:00:00.000Z,1086,1086.39241182,1,2,9,0,0,2026-11-01T00:00:00.000Z!2027-02-25,342,345!2027-01-31,321,345!2027-02-06,326,345!2027-02-13,332,345!2027-02-04,325,345!2027-02-18,336,345-->
 
 Raising {@{bit rate}@} by {@{adding dimensions}@} requires {@{higher bandwidth or power}@}. {@{The geometric view}@} guides {@{modulation choices}@} such as {@{QAM, PSK, and OFDM}@}. <!--SR:!2027-02-24,341,345!2027-03-26,369,364!2027-01-03,299,345!2026-11-30,270,345!2027-01-02,298,345!2027-02-11,330,345-->
 

@@ -66,7 +66,7 @@ Ideate is {@{generating _radical_ design alternatives, going wild with your imag
 
 ### prototype
 
-Prototype is {@{making your idea physical}@}. In early stages, {@{keep the prototypes inexpensive to reiterate quickly}@}. Ideally, the prototypes are {@{interactive}@}. <!--SR:!2026-11-01,664,290!2029-04-30,1351,310!2028-05-13,1169,350-->
+Prototype is {@{making your idea physical}@}. In early stages, {@{keep the prototypes inexpensive to reiterate quickly}@}. Ideally, the prototypes are {@{interactive}@}. <!--SR:!fsrs,2033-01-02T00:00:00.000Z,2254,2254.27892414,1.98030797,2,10,0,0,2026-11-01T00:00:00.000Z!2029-04-30,1351,310!2028-05-13,1169,350-->
 
 ### test
 
@@ -118,7 +118,7 @@ return await memorize_seq(
 
 - _(begin)_→::@::←(empathize) assume a beginner's mindset <!--SR:!2027-03-03,750,290!2028-10-31,1300,350-->
 - (empathize) assume a beginner's mindset→::@::←(empathize) extreme users: find amplified pains and gains <!--SR:!2026-11-05,641,290!2032-02-03,2153,330-->
-- (empathize) extreme users: find amplified pains and gains→::@::←(empathize) interview for empathy: interview with two <!--SR:!2026-11-01,592,270!2026-11-20,402,230-->
+- (empathize) extreme users: find amplified pains and gains→::@::←(empathize) interview for empathy: interview with two <!--SR:!fsrs,2031-12-28T00:00:00.000Z,1883,1882.53576934,2.98092302,2,10,0,0,2026-11-01T00:00:00.000Z!2026-11-20,402,230-->
 - (empathize) interview for empathy: interview with two→::@::←(empathize) interview preparation: prepare, prioritize, and refine questions <!--SR:!2028-05-02,942,270!2027-11-01,937,330-->
 - (empathize) interview preparation: prepare, prioritize, and refine questions→::@::←(empathize) what, how, why: from the concrete to the abstract <!--SR:!2026-12-29,383,170!2028-12-28,1044,230-->
 - (empathize) what, how, why: from the concrete to the abstract→::@::←(empathize/define) journey map: dissect a user process to gain insights <!--SR:!fsrs,2028-10-17T00:00:00.000Z,724,724.35098696,6.98338322,2,9,0,0,2026-10-24T00:00:00.000Z!fsrs,2028-08-06T00:00:00.000Z,718,718.21531109,6.98338322,2,9,0,0,2026-08-19T00:00:00.000Z-->

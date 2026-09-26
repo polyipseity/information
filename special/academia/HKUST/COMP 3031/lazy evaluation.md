@@ -21,7 +21,7 @@ tags:
 
 ## motivation
 
-In {@{many search problems}@} one only needs {@{a small fragment of a potentially huge or infinite space}@}.  {@{Lazy evaluation}@} enable {@{algorithms such as breadth-first search or prime generation}@} to generate {@{successors on demand}@} without {@{allocating the entire search tree}@}.  This leads to {@{substantial savings in both time and memory}@}, as illustrated by {@{the prime example below}@}: {@{only the first few numbers are inspected}@} until {@{the second prime is found}@}. <!--SR:!2026-11-30,302,345!2027-01-16,339,345!2026-11-21,293,345!2026-11-21,293,345!2026-12-24,321,345!2026-12-30,325,345!2026-11-23,295,345!2026-12-02,302,345!2026-10-31,275,345!2027-01-09,333,345-->
+In {@{many search problems}@} one only needs {@{a small fragment of a potentially huge or infinite space}@}.  {@{Lazy evaluation}@} enable {@{algorithms such as breadth-first search or prime generation}@} to generate {@{successors on demand}@} without {@{allocating the entire search tree}@}.  This leads to {@{substantial savings in both time and memory}@}, as illustrated by {@{the prime example below}@}: {@{only the first few numbers are inspected}@} until {@{the second prime is found}@}. <!--SR:!2026-11-30,302,345!2027-01-16,339,345!2026-11-21,293,345!2026-11-21,293,345!2026-12-24,321,345!2026-12-30,325,345!2026-11-23,295,345!2026-12-02,302,345!fsrs,2030-04-21T00:00:00.000Z,1267,1266.62765366,1,2,9,0,0,2026-11-01T00:00:00.000Z!2027-01-09,333,345-->
 
 ## lazy list
 
@@ -74,7 +74,7 @@ or {@{more conveniently}@} via {@{the factory syntax}@}, in which {@{parameters 
 > ```
 <!--SR:!2026-11-27,299,345!2026-11-12,287,330!2027-01-15,338,345!fsrs,2030-04-07T00:00:00.000Z,1256,1256.09108905,1,2,9,0,0,2026-10-29T00:00:00.000Z-->
 
-{@{The companion object}@} also offers {@{a range constructor}@} that is {@{lazy by default}@}: <!--SR:!2026-12-15,312,345!2026-11-24,296,345!2026-10-31,275,345-->
+{@{The companion object}@} also offers {@{a range constructor}@} that is {@{lazy by default}@}: <!--SR:!2026-12-15,312,345!2026-11-24,296,345!fsrs,2030-04-21T00:00:00.000Z,1267,1266.62765366,1,2,9,0,0,2026-11-01T00:00:00.000Z-->
 
 > [!example] __`LazyList.range`__
 >
@@ -166,7 +166,7 @@ Here {@{`filter`}@} is {@{lazily evaluated}@}; when {@{the second element is acc
 > ```
 <!--SR:!2027-01-10,334,345!2026-11-25,297,345!2026-11-26,298,345!2026-12-12,309,345!2027-01-04,329,345!2026-11-03,278,345!2026-12-03,303,345!fsrs,2030-03-28T00:00:00.000Z,1248,1248.10391817,1,2,9,0,0,2026-10-27T00:00:00.000Z!2026-12-17,314,345-->
 
-Using {@{this naive construction}@}, {@{`lazyRange(1, 10).take(3)`}@} would trigger {@{the creation of `tail` two times (or three times depending on the `take` implementation)}@}—once for {@{each element taken except for the first element}@}—leading to {@{unnecessary work and potential performance degradation if repeatedly called}@}. This issue is resolved by {@{memoising the first evaluation of the tail}@} so that {@{subsequent calls reuse the stored result}@}—{@{an optimisation justified in pure functional languages}@} where {@{expressions are deterministic}@}. This approach exemplifies {@{_lazy evaluation_}@} (as opposed to {@{plain _by-name_ evaluation}@}, which {@{recomputes on every call}@}, or {@{strict evaluation}@} used for {@{ordinary parameters and `val`s}@}). <!--SR:!2026-12-01,303,345!2026-11-06,281,330!2026-12-06,306,345!2026-12-29,325,345!2027-01-20,342,345!2026-11-01,276,330!2026-11-20,292,345!fsrs,2030-04-02T00:00:00.000Z,1252,1252.09840125,1,2,9,0,0,2026-10-28T00:00:00.000Z!2026-11-11,286,345!fsrs,2030-03-23T00:00:00.000Z,1244,1244.10763092,1,2,9,0,0,2026-10-26T00:00:00.000Z!fsrs,2030-04-12T00:00:00.000Z,1260,1260.08188809,1,2,9,0,0,2026-10-30T00:00:00.000Z!2026-11-10,285,345!2026-11-18,290,345!2027-01-11,334,345-->
+Using {@{this naive construction}@}, {@{`lazyRange(1, 10).take(3)`}@} would trigger {@{the creation of `tail` two times (or three times depending on the `take` implementation)}@}—once for {@{each element taken except for the first element}@}—leading to {@{unnecessary work and potential performance degradation if repeatedly called}@}. This issue is resolved by {@{memoising the first evaluation of the tail}@} so that {@{subsequent calls reuse the stored result}@}—{@{an optimisation justified in pure functional languages}@} where {@{expressions are deterministic}@}. This approach exemplifies {@{_lazy evaluation_}@} (as opposed to {@{plain _by-name_ evaluation}@}, which {@{recomputes on every call}@}, or {@{strict evaluation}@} used for {@{ordinary parameters and `val`s}@}). <!--SR:!2026-12-01,303,345!2026-11-06,281,330!2026-12-06,306,345!2026-12-29,325,345!2027-01-20,342,345!fsrs,2030-02-19T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-11-01T00:00:00.000Z!2026-11-20,292,345!fsrs,2030-04-02T00:00:00.000Z,1252,1252.09840125,1,2,9,0,0,2026-10-28T00:00:00.000Z!2026-11-11,286,345!fsrs,2030-03-23T00:00:00.000Z,1244,1244.10763092,1,2,9,0,0,2026-10-26T00:00:00.000Z!fsrs,2030-04-12T00:00:00.000Z,1260,1260.08188809,1,2,9,0,0,2026-10-30T00:00:00.000Z!2026-11-10,285,345!2026-11-18,290,345!2027-01-11,334,345-->
 
 {@{The above simplified `LazyList`}@} was {@{only lazy in its tail}@}, leaving {@{`head` and `isEmpty` strict}@}; {@{the production-grade implementation}@} fixes this by making {@{every part of the list lazily evaluated}@}.  It does so by storing {@{a single `state` field}@} that is {@{computed on first use}@}: <!--SR:!2027-03-18,392,371!2027-03-26,399,371!2027-04-08,409,371!2027-03-14,389,371!2027-04-04,406,371!2027-03-16,390,371!2027-03-17,391,371-->
 
@@ -188,7 +188,7 @@ Using {@{this naive construction}@}, {@{`lazyRange(1, 10).take(3)`}@} would trig
 
 Scala is {@{strict by default}@}. Compare to {@{Haskell}@}, which performs {@{lazy evaluation by default}@}. Scala offers {@{several mechanisms for deferring computation}@}: \(annotation: 2 items: {@{by-name parameters, `lazy val`}@}\) <!--SR:!2026-11-05,280,345!2026-11-11,286,345!2026-11-09,284,345!2026-11-29,301,345!2027-01-21,343,345-->
 
-- __By-name parameters__ (`=> T`) ::@:: – used in `LazyList.cons` to delay evaluation of the tail. <!--SR:!2026-10-31,275,345!2027-01-08,332,345-->
+- __By-name parameters__ (`=> T`) ::@:: – used in `LazyList.cons` to delay evaluation of the tail. <!--SR:!fsrs,2030-04-21T00:00:00.000Z,1267,1266.62765366,1,2,9,0,0,2026-11-01T00:00:00.000Z!2027-01-08,332,345-->
 - __`lazy val`__ ::@:: – a value that is evaluated at most once, on first use. <!--SR:!2026-12-18,316,345!2026-12-14,312,345-->
 
 For {@{an example}@} of {@{`lazy val`}@}: <!--SR:!2026-12-18,316,345!2026-12-13,312,345-->
@@ -209,7 +209,7 @@ When evaluating {@{an expression that mixes `val`, `lazy val`, and `def`}@}, {@{
 
 ## infinite sequences
 
-Because {@{the tail of a lazy list}@} is {@{lazily evaluated}@}, it can {@{represent sequences having infinite elements}@}: <!--SR:!2026-11-01,276,330!2027-01-17,339,345!2026-11-22,294,345-->
+Because {@{the tail of a lazy list}@} is {@{lazily evaluated}@}, it can {@{represent sequences having infinite elements}@}: <!--SR:!fsrs,2030-02-19T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-11-01T00:00:00.000Z!2027-01-17,339,345!2026-11-22,294,345-->
 
 > [!example] __`LazyList` of all natural numbers__
 >
@@ -241,7 +241,7 @@ Because {@{the tail of a lazy list}@} is {@{lazily evaluated}@}, it can {@{repre
 >
 > {@{Both approaches \(`nats.map`, `nats.filter`\)}@} generate {@{each multiple of 4 on demand}@}; however, {@{the `map` version}@} typically {@{produces values faster}@} because it {@{evaluates less elements and avoids the extra filtering step}@}. <!--SR:!2027-03-10,386,371!2027-04-09,410,371!2027-03-15,390,371!2027-03-14,389,371!2027-04-04,407,371!2027-03-17,391,371!2027-03-15,390,371!2027-03-22,395,371-->
 
-{@{Many standard operations}@} {@{terminate only}@} when they {@{encounter a finite amount of data}@}. Evaluating {@{`nats.size` or `nats.toList`}@} requires {@{evaluating all elements}@}, which is {@{infinite}@}, so it {@{diverges–never terminates}@}. Compare to {@{`nats.drop(1).take(10).toList`}@}, which {@{converges, i.e. terminates, and returns `List(1, 2, ..., 10)`}@}. Therefore, only {@{operations that request a finite prefix of the list}@} {@{terminate}@}. <!--SR:!2026-12-30,325,345!2026-12-02,303,345!2026-12-30,325,345!2026-12-07,307,345!2026-11-19,291,345!2026-11-19,294,330!2026-10-31,275,345!2026-12-30,325,345!2026-11-09,284,345!2026-11-13,288,345!2027-01-15,338,345-->
+{@{Many standard operations}@} {@{terminate only}@} when they {@{encounter a finite amount of data}@}. Evaluating {@{`nats.size` or `nats.toList`}@} requires {@{evaluating all elements}@}, which is {@{infinite}@}, so it {@{diverges–never terminates}@}. Compare to {@{`nats.drop(1).take(10).toList`}@}, which {@{converges, i.e. terminates, and returns `List(1, 2, ..., 10)`}@}. Therefore, only {@{operations that request a finite prefix of the list}@} {@{terminate}@}. <!--SR:!2026-12-30,325,345!2026-12-02,303,345!2026-12-30,325,345!2026-12-07,307,345!2026-11-19,291,345!2026-11-19,294,330!fsrs,2030-04-21T00:00:00.000Z,1267,1266.62765366,1,2,9,0,0,2026-11-01T00:00:00.000Z!2026-12-30,325,345!2026-11-09,284,345!2026-11-13,288,345!2027-01-15,338,345-->
 
 ### infinite sequence examples
 
@@ -381,7 +381,7 @@ Under {@{the class `Pouring`}@}, {@{all glasses and possible moves}@} are {@{gen
 
 In {@{many functional languages}@}, {@{laziness}@} is {@{built into the core language}@} rather than {@{added as a library feature}@}. <!--SR:!2027-01-19,341,345!2026-11-29,301,345!2026-12-07,307,345!2026-12-13,312,345-->
 
-{@{Haskell}@} exemplifies {@{this approach}@}: {@{its list type}@} is {@{inherently lazy}@}, so values are {@{computed only when they are needed}@}. {@{A classic illustration}@} is {@{an infinite stream of guesses for a square root}@} defined with {@{the cons operator `::`}@}. <!--SR:!2026-10-31,275,345!2027-01-18,340,345!2026-12-30,325,345!2027-01-19,341,345!2026-11-01,276,330!fsrs,2030-04-12T00:00:00.000Z,1260,1260.08188809,1,2,9,0,0,2026-10-30T00:00:00.000Z!2026-11-04,279,345!2026-12-12,311,345-->
+{@{Haskell}@} exemplifies {@{this approach}@}: {@{its list type}@} is {@{inherently lazy}@}, so values are {@{computed only when they are needed}@}. {@{A classic illustration}@} is {@{an infinite stream of guesses for a square root}@} defined with {@{the cons operator `::`}@}. <!--SR:!fsrs,2030-04-21T00:00:00.000Z,1267,1266.62765366,1,2,9,0,0,2026-11-01T00:00:00.000Z!2027-01-18,340,345!2026-12-30,325,345!2027-01-19,341,345!fsrs,2030-02-19T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-11-01T00:00:00.000Z!fsrs,2030-04-12T00:00:00.000Z,1260,1260.08188809,1,2,9,0,0,2026-10-30T00:00:00.000Z!2026-11-04,279,345!2026-12-12,311,345-->
 
 > [!example] __Haskell lazy evaluation example__
 >
@@ -402,9 +402,9 @@ In {@{many functional languages}@}, {@{laziness}@} is {@{built into the core lan
 > ```Ocaml
 > let rec alternate = 0 :: 1 :: alternate
 > ```
-<!--SR:!fsrs,2028-08-12T00:00:00.000Z,695,694.99996464,2.49272837,2,9,0,0,2026-09-17T00:00:00.000Z!2026-10-31,275,345!2026-11-30,302,345!2026-11-19,294,330!2026-11-01,276,330-->
+<!--SR:!fsrs,2028-08-12T00:00:00.000Z,695,694.99996464,2.49272837,2,9,0,0,2026-09-17T00:00:00.000Z!fsrs,2030-04-21T00:00:00.000Z,1267,1266.62765366,1,2,9,0,0,2026-11-01T00:00:00.000Z!2026-11-30,302,345!2026-11-19,294,330!fsrs,2030-02-19T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-11-01T00:00:00.000Z-->
 
-However, to obtain {@{true laziness in OCaml}@} one must explicitly {@{wrap the deferred parts in functions}@}—known as {@{thunks}@}—using {@{the `Stream` module}@}. {@{An example of a lazy list of guesses in OCaml}@} would be: <!--SR:!2026-12-14,312,345!2026-10-31,275,345!2026-11-14,289,345!2027-01-18,340,345!2026-12-30,325,345-->
+However, to obtain {@{true laziness in OCaml}@} one must explicitly {@{wrap the deferred parts in functions}@}—known as {@{thunks}@}—using {@{the `Stream` module}@}. {@{An example of a lazy list of guesses in OCaml}@} would be: <!--SR:!2026-12-14,312,345!fsrs,2030-04-21T00:00:00.000Z,1267,1266.62765366,1,2,9,0,0,2026-11-01T00:00:00.000Z!2026-11-14,289,345!2027-01-18,340,345!2026-12-30,325,345-->
 
 > [!example] __OCaml lazy evaluation example__
 >

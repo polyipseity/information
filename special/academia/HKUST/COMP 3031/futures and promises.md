@@ -123,9 +123,9 @@ In practice Scala provides {@{the `Future` trait}@}, which extends {@{a function
 >   Future { /* compute */ }
 > ```
 >
-> {@{The `Future.apply` helper}@} hides {@{the CPS details}@}; {@{code written with `Future`}@} looks like {@{ordinary synchronous code but runs asynchronously}@}. <!--SR:!2027-01-24,294,330!2026-12-11,258,330!2026-12-14,260,330!2026-10-31,232,330!2026-11-20,249,330!2026-11-16,246,330!2026-12-24,269,330-->
+> {@{The `Future.apply` helper}@} hides {@{the CPS details}@}; {@{code written with `Future`}@} looks like {@{ordinary synchronous code but runs asynchronously}@}. <!--SR:!2027-01-24,294,330!2026-12-11,258,330!2026-12-14,260,330!fsrs,2029-09-06T00:00:00.000Z,1040,1039.96344033,1,2,9,0,0,2026-11-01T00:00:00.000Z!2026-11-20,249,330!2026-11-16,246,330!2026-12-24,269,330-->
 
-Using {@{a `Future`}@} also gives {@{built‑in failure handling via `Try[T]`}@}, and combinators such as {@{`map`, `flatMap` and `onComplete`}@}. These facilities allow {@{composing several asynchronous steps without nesting callbacks or ugly error handling}@}, turning {@{the callback chain into fluent, readable pipelines}@}. <!--SR:!2026-11-26,254,330!2027-01-22,292,330!2026-11-01,233,330!2026-12-31,274,330!fsrs,2029-08-29T00:00:00.000Z,1034,1033.61384781,1,2,9,0,0,2026-10-30T00:00:00.000Z-->
+Using {@{a `Future`}@} also gives {@{built‑in failure handling via `Try[T]`}@}, and combinators such as {@{`map`, `flatMap` and `onComplete`}@}. These facilities allow {@{composing several asynchronous steps without nesting callbacks or ugly error handling}@}, turning {@{the callback chain into fluent, readable pipelines}@}. <!--SR:!2026-11-26,254,330!2027-01-22,292,330!fsrs,2029-09-07T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-11-01T00:00:00.000Z!2026-12-31,274,330!fsrs,2029-08-29T00:00:00.000Z,1034,1033.61384781,1,2,9,0,0,2026-10-30T00:00:00.000Z-->
 
 ## future
 
@@ -147,7 +147,7 @@ Using {@{a `Future`}@} also gives {@{built‑in failure handling via `Try[T]`}@}
 
 ## promise
 
-{@{A `Promise[T]`}@} is {@{a writable container that can be completed once}@}. {@{The owning code}@} creates {@{a promise}@} and hands {@{its `Future` obtained from `Promise.future` to callers}@}; {@{another part of the program}@} completes {@{the promise, which automatically completes all awaiting futures}@}. This pattern decouples {@{the producer from the consumer}@} and makes it easy to {@{bridge legacy APIs}@}. <!--SR:!2027-01-19,289,330!2027-01-19,289,330!2027-01-20,291,330!2027-01-18,289,330!2026-11-08,239,330!2027-01-05,278,330!2027-01-21,292,330!2027-01-17,287,330!2026-10-31,232,330-->
+{@{A `Promise[T]`}@} is {@{a writable container that can be completed once}@}. {@{The owning code}@} creates {@{a promise}@} and hands {@{its `Future` obtained from `Promise.future` to callers}@}; {@{another part of the program}@} completes {@{the promise, which automatically completes all awaiting futures}@}. This pattern decouples {@{the producer from the consumer}@} and makes it easy to {@{bridge legacy APIs}@}. <!--SR:!2027-01-19,289,330!2027-01-19,289,330!2027-01-20,291,330!2027-01-18,289,330!2026-11-08,239,330!2027-01-05,278,330!2027-01-21,292,330!2027-01-17,287,330!fsrs,2029-09-06T00:00:00.000Z,1040,1039.96344033,1,2,9,0,0,2026-11-01T00:00:00.000Z-->
 
 > [!example] __`Promise` usage__
 >
@@ -192,7 +192,7 @@ When {@{the next step itself returns a `Future`}@}, {@{`flatMap`}@} chains {@{th
 >
 > {@{The call to `brew`}@} is performed only when {@{`grindBeans` succeeds}@}; otherwise {@{the failure is passed on}@}. <!--SR:!2027-01-18,288,330!2027-01-07,280,330!2026-11-07,238,330!2027-01-21,291,330!2027-01-02,276,330!2027-01-22,293,330!2027-01-23,293,330!2026-11-26,254,330!2026-11-12,242,330-->
 
-{@{`zip`}@} combines {@{two independent futures, yielding a future of a tuple}@}. It does _not_ {@{introduce any dependency between them}@} – both run {@{concurrently (and in parallel if the execution context supports parallelism)}@}. If {@{either operand fails}@}, {@{the combined future fails as well}@}. <!--SR:!2027-01-21,292,330!2027-01-19,290,330!2026-11-22,251,330!2027-01-17,288,330!2026-11-01,233,330!2027-01-21,291,330-->
+{@{`zip`}@} combines {@{two independent futures, yielding a future of a tuple}@}. It does _not_ {@{introduce any dependency between them}@} – both run {@{concurrently (and in parallel if the execution context supports parallelism)}@}. If {@{either operand fails}@}, {@{the combined future fails as well}@}. <!--SR:!2027-01-21,292,330!2027-01-19,290,330!2026-11-22,251,330!2027-01-17,288,330!fsrs,2029-09-07T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-11-01T00:00:00.000Z!2027-01-21,291,330-->
 
 > [!example] __`Future.zip`__
 >

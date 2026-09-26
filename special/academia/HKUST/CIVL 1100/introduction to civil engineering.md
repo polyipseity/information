@@ -81,7 +81,7 @@ The content is in teaching order.
         - environmental impact assessment (EIA) ::@:: a systematic identification and evaluation process to assess the potential impacts of a proposed project so that mitigation measures can be developed <!--SR:!2028-12-20,1106,250!2026-12-14,739,352-->
             - [environmental impact components](#environmental%20impact%20components)
             - environmental impact assessment in [Hong Kong](../../../../general/Hong%20Kong.md) ::@:: regulated by the Environmental Impact Assessment (Cap. 499) 1997 <!--SR:!2026-12-04,652,314!2027-06-17,826,352-->
-- transportation engineering ::@:: moving goods and people effectively, efficiently, safely, and sustainably <!--SR:!2028-07-08,1139,332!2026-11-01,696,319-->
+- transportation engineering ::@:: moving goods and people effectively, efficiently, safely, and sustainably <!--SR:!2028-07-08,1139,332!fsrs,2033-12-21T00:00:00.000Z,2607,2606.7496109,1,2,10,0,0,2026-11-01T00:00:00.000Z-->
     - transportation engineering structures ::@:: planning, design, construction, operation, and maintenance of transportational infrastructures <!--SR:!fsrs,2032-09-17T00:00:00.000Z,2159,2158.74354679,1.48000044,2,10,0,0,2026-10-20T00:00:00.000Z!2032-03-31,2363,421-->
         - [transportation engineering structure examples](#transportation%20engineering%20structure%20examples)
 - materials engineering
