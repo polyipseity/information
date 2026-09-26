@@ -1,20 +1,20 @@
 ---
 aliases:
-  - FINA 2303 TAPPS - week 3 lecture
-  - FINA 2303 thinking aloud paired problem solving - week 3 lecture
-  - FINA2303 TAPPS - week 3 lecture
-  - FINA2303 thinking aloud paired problem solving - week 3 lecture
-  - HKUST FINA 2303 TAPPS - week 3 lecture
-  - HKUST FINA 2303 thinking aloud paired problem solving - week 3 lecture
-  - HKUST FINA2303 TAPPS - week 3 lecture
-  - HKUST FINA2303 thinking aloud paired problem solving - week 3 lecture
+  - FINA 2303 TAPPS - week 3 lecture 1
+  - FINA 2303 thinking aloud paired problem solving - week 3 lecture 1
+  - FINA2303 TAPPS - week 3 lecture 1
+  - FINA2303 thinking aloud paired problem solving - week 3 lecture 1
+  - HKUST FINA 2303 TAPPS - week 3 lecture 1
+  - HKUST FINA 2303 thinking aloud paired problem solving - week 3 lecture 1
+  - HKUST FINA2303 TAPPS - week 3 lecture 1
+  - HKUST FINA2303 thinking aloud paired problem solving - week 3 lecture 1
 tags:
   - date/2025/02/19
-  - flashcard/active/special/academia/HKUST/FINA_2303/assignments/TAPPS/week_3_lecture
+  - flashcard/active/special/academia/HKUST/FINA_2303/assignments/TAPPS/week_3_lecture_1
   - language/in/English
 ---
 
-# thinking aloud paired problem solving (TAPPS) - week 3 lecture
+# thinking aloud paired problem solving (TAPPS) - week 3 lecture 1
 
 - HKUST FINA 2303
 - thinking aloud paired problem solving (TAPPS)
