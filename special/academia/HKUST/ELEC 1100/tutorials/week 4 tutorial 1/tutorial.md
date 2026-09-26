@@ -1,17 +1,17 @@
 ---
 aliases:
-  - ELEC 1100 tutorial 2 tutorial
-  - HKUST ELEC 1100 tutorial 2 quiz content
-  - HKUST ELEC 1100 tutorial 2 tutorial
+  - ELEC 1100 week 4 tutorial 1 tutorial
+  - HKUST ELEC 1100 week 4 tutorial 1 quiz content
+  - HKUST ELEC 1100 week 4 tutorial 1 tutorial
 tags:
-  - flashcard/active/special/academia/HKUST/ELEC_1100/tutorials/tutorial_2/tutorial
+  - flashcard/active/special/academia/HKUST/ELEC_1100/tutorials/week_4_tutorial_1/tutorial
   - language/in/English
 ---
 
 # tutorial
 
-- HKUST ELEC 1100 tutorial 2
-- parent: [tutorial 2](index.md)
+- HKUST ELEC 1100 week 4 tutorial 1
+- parent: [week 4 tutorial 1](index.md)
 
 ---
 

@@ -1,12 +1,12 @@
 ---
 aliases:
-  - ELEC 1100 tutorial 6
-  - ELEC 1100 tutorial 6 quiz
-  - HKUST ELEC 1100 tutorial 6
-  - HKUST ELEC 1100 tutorial 6 quiz
+  - ELEC 1100 week 9 tutorial 1
+  - ELEC 1100 week 9 tutorial 1 quiz
+  - HKUST ELEC 1100 week 9 tutorial 1
+  - HKUST ELEC 1100 week 9 tutorial 1 quiz
 tags:
   - date/2026/03/30
-  - flashcard/active/special/academia/HKUST/ELEC_1100/tutorials/tutorial_6/index
+  - flashcard/active/special/academia/HKUST/ELEC_1100/tutorials/week_9_tutorial_1/index
   - function/index
   - language/in/English
 ---
