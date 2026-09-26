@@ -21,3 +21,4 @@ tags:
 ## children
 
 - [tutorial 1](tutorial%201/index.md)
+- [tutorial 2](tutorial%202/index.md)

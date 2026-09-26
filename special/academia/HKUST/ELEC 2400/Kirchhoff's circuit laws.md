@@ -40,6 +40,8 @@ At a node fed by five currents it gives $I_1 - I_2 + I_3 - I_4 + I_5 = 0$ where 
 
 Two nodes joined by a wire are one node, since the wire holds no element, but the current through that wire is not determined by the fact, and the voltage between the two points is zero.
 
+Which direction counts as positive is a free choice. With $i_1$ and $i_2$ drawn into a node and $i_3$ and $i_4$ drawn out, taking _in_ as positive gives $i_1 + i_2 + (-1)i_3 + (-1)i_4 = 0$, while taking _out_ as positive gives $(-1)i_1 + (-1)i_2 + i_3 + i_4 = 0$; the two constrain the node identically. When every branch arrow is drawn into the node the signed form degenerates to the bare sum $i_1 + i_2 + i_3 + i_4 = 0$, which forces some values to be negative: currents that all run inward cannot otherwise sum to zero.
+
 ---
 
 Flashcards for this section are as follows:
@@ -53,6 +55,9 @@ Flashcards for this section are as follows:
 - parallel sources feeding a node: sources of $10\text{ A}$ and $5\text{ A}$ feed one node and a single branch carries what remains; what current does that branch carry? ::@:: $I = 10\text{ A} + 5\text{ A} = 15\text{ A}$.
 - unknown branch current: a node receives $I_1 = 5\text{ A}$ and sends out $I_8 = -2\text{ A}$ along one branch; what is the remaining outgoing current $I_6$? ::@:: $I_1 = I_6 + I_8$ gives $I_6 = I_1 - I_8 = 5\text{ A} - (-2\text{ A}) = 7\text{ A}$.
 - wire between nodes: two nodes are joined by a wire alone; are they one node, what is $V_{AB}$, and is the wire current $I_y$ determined? ::@:: They are one node and the voltage between them is $V_{AB} = 0$, but the wire current cannot be determined from that fact.
+- choosing the positive direction: a node has $i_1$ and $i_2$ drawn in and $i_3$ and $i_4$ drawn out; what do the two signed forms of the law give, and do they constrain the node in the same way? ::@:: Taking _in_ as positive gives $i_1 + i_2 + (-1)i_3 + (-1)i_4 = 0$ and taking _out_ as positive gives $(-1)i_1 + (-1)i_2 + i_3 + i_4 = 0$; they constrain it identically.
+- all arrows drawn inward: four branch currents $i_1$ to $i_4$ all have their arrows drawn into the node, with values $3\text{ A}$, $2\text{ A}$, $-4\text{ A}$, and $-1\text{ A}$; what does the law give? ::@:: $i_1 + i_2 + i_3 + i_4 = 0$, satisfied as $(+3) + (+2) + (-4) + (-1) = 0$ and as $(-3) + (-2) + (+4) + (+1) = 0$.
+- why some values must be negative: four branch currents all have their arrows drawn into one node; why must some of the values come out negative? ::@:: Currents that all run inward can sum to zero only if some of them in fact run outward, against their arrows.
 
 <!-- check: ignore-next-line[header_style]: Kirchhoff is a proper noun -->
 ## Kirchhoff's voltage law
@@ -61,9 +66,11 @@ Kirchhoff's voltage law states that at any instant the algebraic sum of the bran
 
 It holds only when the electric field is conservative, which needs no varying magnetic field through the circuit outside its elements, so that no invisible source arises from induction. Faraday's law gives the voltage round a loop as $\oint E \cdot dl = -\iint \frac{\partial B}{\partial t} \cdot dS$, which vanishes exactly when the flux term does.
 
-Reading a loop means summing the marked voltages in one direction, and the loop need not be a walkable path. In a circuit of two adjacent meshes one loop gives $+V_1 - V_2 - V_5 + V_7 - V_4 = 0$ and the other $+V_1 - V_2 - V_3 - V_4 = 0$. A mesh holding a $5\text{ V}$ source, a $10\text{ V}$ source, and an unknown $V_o$, tracked through the rises, gives $-5\text{ V} - 10\text{ V} + V_o = 0$, so $V_o = 15\text{ V}$; a mesh whose sources of $10\text{ V}$ and $5\text{ V}$ act in parallel gives $10\text{ V} - 5\text{ V} = 5\text{ V} \ne 0$ and so has no solution, which is why unequal voltage sources cannot be connected in parallel.
+Reading a loop means summing the marked voltages in one direction, and the loop need not be a walkable path. A mesh holding a $5\text{ V}$ source, a $10\text{ V}$ source, and an unknown $V_o$, tracked through the rises, gives $-5\text{ V} - 10\text{ V} + V_o = 0$, so $V_o = 15\text{ V}$; a mesh whose sources of $10\text{ V}$ and $5\text{ V}$ act in parallel gives $10\text{ V} - 5\text{ V} = 5\text{ V} \ne 0$ and so has no solution, which is why unequal voltage sources cannot be connected in parallel.
 
 A loop driven by a current source alone shows the discipline in reverse. A $2\text{ A}$ source in series with a $4\text{ V}$ source and a $2\ \Omega$ resistor forces $I_R = 2\text{ A}$, so the marked voltage across the resistor is $V_2 = -I_R \times 2\ \Omega = -4\text{ V}$, its marked polarity opposing the current, and $4\text{ V} + V_1 = -V_2$ gives $V_1 = 0\text{ V}$ across the source. With the $4\text{ V}$ source and the $2\ \Omega$ resistor sharing a node across a $2\text{ A}$ source instead, $I_1 = \frac{4\text{ V}}{2\ \Omega} = 2\text{ A}$, $I_2 = I_1 - 2\text{ A} = 0\text{ A}$, and $V_A = -4\text{ V}$. Grounding the same loop at its far end instead gives $V_D = 4\text{ V}$ and $V_C = V_D + 2\text{ A} \times 4\ \Omega = 12\text{ V}$.
+
+The sign of a term is fixed by the element's marked polarity read against the direction of travel: passing from the $-$ mark to the $+$ mark is a rise and counts positive, passing from $+$ to $-$ a drop and counts negative. Marks facing opposite ways round a loop therefore always carry opposite signs, as with $V_1 + V_2 = 0$ for a source marked $+$ at the top beside a load marked $-$ at the top, and reversing both marks gives $(-1)V_1 + V_2 = 0$ in which $V_1$ negative goes with $V_2$ negative. A longer loop is read the same way, one element at a time, each term taking the sign of its own mark against the direction of travel.
 
 ---
 
@@ -74,7 +81,7 @@ Flashcards for this section are as follows:
 - field assumption: under what condition on the electric field does the voltage law hold? ::@:: Only when the field is conservative, which requires that no varying magnetic field links the circuit outside its elements.
 - induction: Faraday's law gives the voltage round a loop as a closed line integral of $E$; what makes it zero? ::@:: The magnetic flux term $-\iint \frac{\partial B}{\partial t} \cdot dS$ vanishes when no varying magnetic field passes through the circuit.
 - loop walk: a loop visits nodes $A \to B \to C \to D \to E \to A$; must that sequence be a physically walkable path? ::@:: No: it is a reading order for the branch voltages, not a route anyone travels.
-- two adjacent meshes: a circuit of two meshes carries marked branch voltages $V_1$ to $V_7$; what does the outer loop $V_1, V_2, V_5, V_7, V_4$ sum to, and what does the inner mesh sum to? ::@:: Both sum to zero: the outer loop gives $+V_1 - V_2 - V_5 + V_7 - V_4 = 0$ and the inner mesh gives $+V_1 - V_2 - V_3 - V_4 = 0$.
+- reading a loop: in which direction are a loop's marked branch voltages summed, and what fixes each one's sign? ::@:: In one chosen direction, with each voltage taking the sign its own mark gives read against that direction.
 - unknown mesh voltage: a clockwise mesh holds a $5\text{ V}$ source and a $10\text{ V}$ source in the same sense and an unknown $V_o$ opposed to them; what is $V_o$? ::@:: $-5\text{ V} - 10\text{ V} + V_o = 0$, so $V_o = 15\text{ V}$.
 - unequal parallel sources: a mesh has a $10\text{ V}$ source and a $5\text{ V}$ source in parallel; what does the voltage law give, and what follows? ::@:: $10\text{ V} - 5\text{ V} = 5\text{ V} \ne 0$, so no solution exists and the circuit is invalid: unequal voltage sources cannot be connected in parallel.
 - series current source: a $2\text{ A}$ source drives a loop holding a $4\text{ V}$ source and a $2\ \Omega$ resistor whose marked voltage $V_2$ opposes the current; find $I_R$ and $V_2$. ::@:: $I_R = 2\text{ A}$ and $V_2 = -I_R \times 2\ \Omega = -4\text{ V}$, since the marked polarity is opposite to the current.
@@ -82,6 +89,22 @@ Flashcards for this section are as follows:
 - current source against a voltage source: a $4\text{ V}$ source sits between ground and a node shared by a $2\ \Omega$ resistor and a $2\text{ A}$ source; find $I_1$, $I_2$, and $V_A$. ::@:: $I_1 = \frac{4\text{ V}}{2\ \Omega} = 2\text{ A}$, $I_2 = I_1 - 2\text{ A} = 0\text{ A}$, and $V_A = 0 - 4\text{ V} = -4\text{ V}$.
 - node voltages in a loop: a $2\text{ A}$ source drives a $4\ \Omega$ resistor and a $4\text{ V}$ source in series, with $V_A$ between them; find $I_{R1}$, $V_A$, and $V_B$ at the source's far terminal. ::@:: $I_{R1} = 2\text{ A}$, $V_A = 0 - 2\text{ A} \times 4\ \Omega = -8\text{ V}$, and $V_B = V_A - 4\text{ V} = -12\text{ V}$.
 - mirrored loop: the same loop is grounded at its far end instead; find $I_{R2}$, $V_D$, and $V_C$. ::@:: $I_{R2} = 2\text{ A}$, $V_D = 0 + 4\text{ V} = 4\text{ V}$, and $V_C = V_D + 2\text{ A} \times 4\ \Omega = 12\text{ V}$.
+- sign against the marked polarity: a loop is tracked through an element; what sign does passing from its $-$ mark to its $+$ mark take, and what does passing the other way take? ::@:: A rise from $-$ to $+$ counts positive, and a drop from $+$ to $-$ counts negative.
+- marks facing opposite ways: a loop holds a source marked $+$ at the top beside a load marked $-$ at the top; what equation does the law give, and what follows? ::@:: $V_1 + V_2 = 0$, so the two always carry opposite signs.
+- reversing both marks: both elements of that loop have their marks reversed; what equation does the law give, and what follows? ::@:: $(-1)V_1 + V_2 = 0$, in which $V_1$ negative goes with $V_2$ negative and $V_1$ positive with $V_2$ positive. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- a longer loop: does the sign of a term depend on how many elements the loop holds? ::@:: No: each term takes the sign of its own mark read against the direction of travel, whatever the loop's length.
+
+### reversing every mark in a loop
+
+Reversing the marks on every element of a loop negates every term of its equation and leaves the solution unchanged, so the two readings of one loop are the same constraint. A $24\text{ V}$ source, a $6\ \Omega$ resistor, and a $2\ \Omega$ resistor in one loop, with the current $I_1$ running through the $6\ \Omega$ and on down through the $2\ \Omega$, reads as $V_1 + V_2 + V_3 = 0$ and so as $+(24 - 0) + (-I_1)(6) + (-I_1)(2) = 0$, which gives $24 = 8I_1$ and $I_1 = 3\text{ A}$. Reversing the marks on the source and on the $6\ \Omega$ reads as $(-V_1) + (-V_2) + V_3 = 0$ and expands to $+[-(0 - 24)] + [-(I_1)(6)] + (-I_1)(2) = 0$, giving the same $24 = 8I_1$ and the same $I_1 = 3\text{ A}$.
+
+---
+
+Flashcards for this section are as follows:
+
+- overview ::@:: Reversing the marks on every element of a loop negates each term of its equation and leaves the solution unchanged, so both readings state the same constraint.
+- the first reading: a $24\text{ V}$ source, a $6\ \Omega$, and a $2\ \Omega$ in one loop carry $I_1$ through the $6\ \Omega$ and down through the $2\ \Omega$; what does the loop equation give? ::@:: $V_1 + V_2 + V_3 = 0$, that is $+(24 - 0) + (-I_1)(6) + (-I_1)(2) = 0$, so $24 = 8I_1$ and $I_1 = 3\text{ A}$.
+- the reversed reading: the marks on the source and on the $6\ \Omega$ are reversed in that same loop; what does the equation give? ::@:: $(-V_1) + (-V_2) + V_3 = 0$, that is $+[-(0 - 24)] + [-(I_1)(6)] + (-I_1)(2) = 0$, giving the same $I_1 = 3\text{ A}$.
 
 ## ground reference
 

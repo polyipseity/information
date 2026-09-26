@@ -25,8 +25,11 @@ The collection covers the drawings introduced by the tutorials and lectures:
 * the three drawings used for one and the same ideal voltage source, each in
   its own file (battery, circle, rectangle) with its value label;
 * the reference direction of a current through a resistor, drawn both with and
-  against the resistor voltage marks; and
-* the marks alone, with no value written.
+  against the resistor voltage marks;
+* the marks alone, with no value written; and
+* the power reference of an element, drawn with the current arrow leaving and
+  with the current arrow entering the terminal marked ``+``, which is what
+  decides whether the power is written ``-VI`` or ``+VI``.
 
 Every drawing is placed by schemdraw: elements are chained in the drawing
 order, labels sit on the element they belong to, and leads attach to named
@@ -205,6 +208,43 @@ def generate_reference_marks(output: Path) -> None:
         d.save(fspath(output))
 
 
+#: The current arrow runs along the upper lead, so the lead is drawn long enough
+#: that the arrowhead and its label clear the ``+`` mark and the terminal dot,
+#: and no longer than that: at 2.1 the arrowhead already crowds the dot, and at
+#: 1.9 it touches it.
+_POWER_LEAD_LENGTH = 2.3
+
+
+def _generate_power_reference(output: Path, reverse: bool) -> None:
+    """One power-reference drawing: where the current arrow sits against the ``+`` mark.
+
+    The element is drawn upwards so its ``+`` mark sits at the top, and the
+    current arrow is hung on the upper lead, next to that mark. With
+    ``reverse=False`` the arrow runs from the ``+`` mark away from the element,
+    so the current leaves the positive terminal; with ``reverse=True`` it runs
+    back towards the mark, so the current enters the positive terminal. The two
+    files differ only in that one direction, which is the whole of the
+    convention they state.
+    """
+    with drawing_context() as d:
+        d += elm.SourceV().up().label("$V_1$", loc="left")
+        d += elm.Line().up().length(_POWER_LEAD_LENGTH)
+        lead = d.elements[-1]
+        d += elm.CurrentLabel(reverse=reverse).at(lead).label("$I_1$")
+        d += elm.Dot().at(lead.end)
+        d.save(fspath(output))
+
+
+def generate_power_reference_current_out_of_plus(output: Path) -> None:
+    """Current arrow leaving the terminal marked ``+``, so the power is ``-VI``."""
+    _generate_power_reference(output, reverse=False)
+
+
+def generate_power_reference_current_into_plus(output: Path) -> None:
+    """Current arrow entering the terminal marked ``+``, so the power is ``+VI``."""
+    _generate_power_reference(output, reverse=True)
+
+
 def _run_generator(args: tuple[Callable[[Path], None], Path]) -> None:
     """Run a single generator (func, path) for multiprocessing Pool."""
     func, path = args
@@ -250,6 +290,14 @@ async def main() -> None:
             outdir_path / "reference_direction_against.svg",
         ),
         (generate_reference_marks, outdir_path / "reference_marks.svg"),
+        (
+            generate_power_reference_current_out_of_plus,
+            outdir_path / "power_reference_current_out_of_plus.svg",
+        ),
+        (
+            generate_power_reference_current_into_plus,
+            outdir_path / "power_reference_current_into_plus.svg",
+        ),
     ]
 
     with Pool(processes=_MAX_POOL_WORKERS) as pool:

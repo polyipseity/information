@@ -64,6 +64,22 @@ Flashcards for this section are as follows:
 - three-resistor shortcut: does $R_1 \| R_2 \| R_3$ equal $\frac{R_1 R_2 R_3}{R_1 + R_2 + R_3}$? ::@:: No: that expression has the wrong dimensions, and the correct equivalent $\frac{R_1 R_2 R_3}{R_1 R_2 + R_1 R_3 + R_2 R_3}$ comes from applying the two-resistor form twice.
 - worked pair: $R_1 = 50\ \Omega$ and $R_2 = 50\ \Omega$ are in parallel; find $R_{\text{eq}}$. ::@:: $R_{\text{eq}} = 50\ \Omega \| 50\ \Omega = \frac{50 \times 50}{50 + 50}\ \Omega = 25\ \Omega$.
 
+### neither series nor parallel
+
+Sharing one terminal is neither. A third element reaching that terminal lets current branch there, so the two elements are neither in series nor in parallel, and neither combination rule applies to them.
+
+A pair's verdict comes from the nodes its two elements touch, so a worked case has to state those nodes. Three small cases give the three verdicts. $R_1$ and $R_2$ meet at a node that reaches nothing else, their far ends being on $P$ and $S$: in series. $R_3$ and $R_4$ both join $P$ to $Q$: in parallel. $R_5$ and $R_6$ share node $P$, and $R_7$ reaches $P$ as well, so the pair is neither.
+
+---
+
+Flashcards for this section are as follows:
+
+- overview ::@:: Two elements that share only one terminal are neither in series nor in parallel, because a third element at that terminal lets current branch there.
+- verdict read off the nodes: what decides whether a pair of elements is in series, in parallel, or neither? ::@:: The nodes the two elements touch: sharing both terminals with nothing else between makes them series, spanning the same two nodes makes them parallel, and sharing a single terminal that a third element also reaches makes them neither.
+- a series case: $R_1$ and $R_2$ meet at one node that reaches nothing else, their far ends being on $P$ and $S$; which? ::@:: In series, since the same current runs through both.
+- a parallel case: $R_3$ and $R_4$ both join node $P$ to node $Q$; which? ::@:: In parallel, since they span the same two nodes and share the terminal voltage.
+- a neither case: $R_5$ and $R_6$ share node $P$, and $R_7$ reaches $P$ as well; which? ::@:: Neither, since current can branch at $P$ and neither combination rule applies.
+
 ## equivalent conductance
 
 Conductance is the reciprocal of [resistance](Ohm%27s%20law.md#resistance%20and%20conductance), $G = \frac{1}{R}$, measured in siemens where $1\text{ S} = 1\ \Omega^{-1}$. Applying the current law to $n$ parallel branches driven by $V_s$ gives $I = V_s(G_1 + \dots + G_n)$, so parallel conductances add, $G_{\text{eq}} = \sum_k G_k$.

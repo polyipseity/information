@@ -43,6 +43,8 @@ The direction of a current is the direction in which positive charges flow, and 
 
 A drawn arrow is a reference direction, not a measurement: flow along the arrow gives a positive current value, flow against it a negative value, and reversing the arrow flips the sign of the reported current.
 
+The load settles which way the current runs out of a source, once the load is known. With a $10\text{ V}$ source driving a $1\ \Omega$ resistor, the current leaves the source at the terminal marked $+$ and runs along the top of the loop into the resistor. Put a battery charger where the resistor was and the current at the top runs the other way, back into the terminal marked $+$, so the source is being charged. Leave the load unspecified and the direction cannot be determined from the source alone.
+
 ---
 
 Flashcards for this section are as follows:
@@ -51,6 +53,9 @@ Flashcards for this section are as follows:
 - direction of current / positive-charge mental picture ::@:: Although currents in wires are mostly conducted by electrons, thinking of positive charges flowing the other way speeds up reasoning about signs.
 - direction of current / sign rule for an arrow labelled $I_1 = -1\text{ A}$ ::@:: Flow along the drawn arrow gives a positive current value and flow against it a negative one, so the same charge flow on the reversed arrow is $I_2 = 1\text{ A}$.
 - direction of current / worked example: $N = 5\times10^{18}$ electrons of charge $q = -1.6\times10^{-19}\text{ C}$ crossing in $\Delta t = 2\text{ s}$ against the assumed arrow ::@:: $\Delta Q = Nq = 5\times10^{18}\times(-1.6\times10^{-19}\text{ C}) = -0.8\text{ C}$, so $I = \Delta Q/\Delta t = -0.8\text{ C}/2\text{ s} = -0.4\text{ A}$: a current of $0.4\text{ A}$ opposite the arrow.
+- direction of current / what sets the direction at a source: a $10\text{ V}$ source drives a $1\ \Omega$ resistor back to its $-$ terminal, with that $-$ terminal grounded; which way does the current run along the top of the loop? ::@:: Away from the source, out of its $+$ terminal and into the resistor.
+- direction of current / a load that is itself a source: the $1\ \Omega$ resistor is replaced by a battery charger; which way does the current at the top of the $10\text{ V}$ source run? ::@:: Into its $+$ terminal, the opposite way, so the source is being charged.
+- direction of current / an unspecified load: a $10\text{ V}$ source drives a load that has not been stated; which way does the current leave it? ::@:: It cannot be determined: the direction follows from the load, and the load is unknown.
 
 ## average, instantaneous, and constant current
 
