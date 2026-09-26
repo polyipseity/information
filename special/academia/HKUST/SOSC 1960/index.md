@@ -28,8 +28,14 @@ SOSC 1960 is an undergraduate course in psychology at HKUST on the scientific st
 
 ## children
 
+- [lectures/](lectures/index.md)
 - [AGENTS](AGENTS.md)
+- [APA style](APA%20style.md)
+- [academic writing](academic%20writing.md)
 - [gender role](gender%20role.md)
+- [literature review](literature%20review.md)
+- [paraphrase](paraphrase.md)
+- [plagiarism](plagiarism.md)
 - [psychology](psychology.md)
 - [research ethics](research%20ethics.md)
 - [science](science.md)
@@ -188,6 +194,50 @@ SOSC 1960 is an undergraduate course in psychology at HKUST on the scientific st
     - [§ research process](psychology.md#research%20process)
     - [§ applications of psychological science](psychology.md#applications%20of%20psychological%20science)
     - [§ studying psychology](psychology.md#studying%20psychology)
+
+## week 2 lecture 2
+
+- datetime: 2026-09-09T12:00:00+08:00/2026-09-09T13:20:00+08:00, PT1H20M
+- venue: Rm 2464, Lift 25-26
+- topic: writing a psychology essay; literature search; reading research articles; paraphrasing; citation
+- in-class: [week 2 lecture 2](lectures/week%202%20lecture%202/index.md)
+- [APA style](APA%20style.md)
+    - [§ purposes of references](APA%20style.md#purposes%20of%20references)
+    - [§ proper attribution](APA%20style.md#proper%20attribution)
+        - [§ building the reference list](APA%20style.md#building%20the%20reference%20list)
+    - [§ citing artificial intelligence](APA%20style.md#citing%20artificial%20intelligence)
+        - [§ disclosure statement](APA%20style.md#disclosure%20statement)
+- [academic writing](academic%20writing.md)
+    - [§ originality](academic%20writing.md#originality)
+    - [§ integration of ideas](academic%20writing.md#integration%20of%20ideas)
+    - [§ paragraphing](academic%20writing.md#paragraphing)
+    - [§ clarity and simplicity](academic%20writing.md#clarity%20and%20simplicity)
+    - [§ tables and figures](academic%20writing.md#tables%20and%20figures)
+- [literature review](literature%20review.md)
+    - [§ primary and secondary sources](literature%20review.md#primary%20and%20secondary%20sources)
+    - [§ literature databases](literature%20review.md#literature%20databases)
+    - [§ search keywords](literature%20review.md#search%20keywords)
+        - [§ finding keywords](literature%20review.md#finding%20keywords)
+        - [§ refining a search](literature%20review.md#refining%20a%20search)
+    - [§ AI tools for literature search](literature%20review.md#ai%20tools%20for%20literature%20search)
+        - [§ general chatbots and academic tools](literature%20review.md#general%20chatbots%20and%20academic%20tools)
+        - [§ limits of AI search tools](literature%20review.md#limits%20of%20ai%20search%20tools)
+        - [§ how to use an AI tool](literature%20review.md#how%20to%20use%20an%20ai%20tool)
+    - [§ reading a research article](literature%20review.md#reading%20a%20research%20article)
+        - [§ kinds of article](literature%20review.md#kinds%20of%20article)
+        - [§ order of reading](literature%20review.md#order%20of%20reading)
+        - [§ purposes of reading](literature%20review.md#purposes%20of%20reading)
+    - [§ integrating sources](literature%20review.md#integrating%20sources)
+        - [§ common problems](literature%20review.md#common%20problems)
+        - [§ how to integrate](literature%20review.md#how%20to%20integrate)
+- [paraphrase](paraphrase.md)
+    - [§ what paraphrasing is](paraphrase.md#what%20paraphrasing%20is)
+    - [§ how to paraphrase](paraphrase.md#how%20to%20paraphrase)
+    - [§ paraphrase alone is not attribution](paraphrase.md#paraphrase%20alone%20is%20not%20attribution)
+- [plagiarism](plagiarism.md)
+    - [§ forms of plagiarism](plagiarism.md#forms%20of%20plagiarism)
+        - [§ self-plagiarism](plagiarism.md#self-plagiarism)
+    - [§ language models and plagiarism](plagiarism.md#language%20models%20and%20plagiarism)
 
 ## week 4 lecture 2
 

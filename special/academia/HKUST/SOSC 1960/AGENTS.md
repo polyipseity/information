@@ -12,5 +12,4 @@ tags:
 
 - The required readings are Noba Project modules from _Introduction to Psychology_, plus O'Toole and Ludvig (2026) for AI and psychology. The lecture slides are course material, so cite the readings in topic notes and never the slides.
 - End every topic note with a `## references` section that states the attribution, then lists each external reading that contributed to the note: author, year, title, publication, link, and licence when the reading carries one, with a sub-bullet naming the sections that reading contributed to.
-- A reference list carries citations rather than cards, so suppress `header_flashcard_presence` on that heading with an `ignore-next-line` suppression comment on the line directly above it, using the reason that a reference list carries no flashcards.
 - Keep prose and cards source-neutral: attribution belongs in `## references`, so do not name a reading in the body and do not restate its licence wording there.
