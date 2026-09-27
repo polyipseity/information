@@ -24,14 +24,16 @@ tags:
 
 ---
 
-MATH 3423 is an undergraduate course in statistical inference at HKUST covering sampling theory, order statistics, limiting distributions, point estimation, confidence intervals, hypothesis testing, and non-parametric methods. It also treats the different properties of the sample mean and the sample variance, parametric distributions, large-sample results, the central limit theorem, maximum likelihood estimation for regular and irregular data, and likelihood-ratio tests.
+MATH 3423 is an undergraduate course in statistical inference at HKUST.
 
 ## children
 
+- [AGENTS](AGENTS.md)
 - [Student's t-distribution](Student's%20t-distribution.md)
 - [chi-squared distribution](chi-squared%20distribution.md)
 - [confidence interval](confidence%20interval.md)
 - [estimator](estimator.md)
+- [gamma distribution](gamma%20distribution.md)
 - [multivariate normal distribution](multivariate%20normal%20distribution.md)
 - [parametric model](parametric%20model.md)
 - [random sample](random%20sample.md)
@@ -44,6 +46,7 @@ MATH 3423 is an undergraduate course in statistical inference at HKUST covering 
 
 - prerequisites: one of MATH 2421 or MATH 2431
 - cross-campus course equivalence: FTEC 3130
+- delivery mode: face-to-face
 - grading
     - homework: 20%; 3–4 sets; no late submission is accepted
     - final examination: 80%
@@ -63,17 +66,21 @@ MATH 3423 is an undergraduate course in statistical inference at HKUST covering 
         - T1B: Rm 2302, Lift 17-18; MondayT17:30:00/MondayT18:20:00
         - T1C: Rm 1011, LSK Bldg; ThursdayT18:00:00/ThursdayT18:50:00
         - T1D: Rm 2304, Lift 17-18; WednesdayT10:00:00/WednesdayT10:50:00
-- note: The lecture notes give a concise presentation of the course material and are deliberately incomplete, so they are not a substitute for attending lectures.
-- note: Missing the final examination requires an application form for a make-up final examination with official evidence, such as a medical certificate.
+- note: The lecture notes are deliberately incomplete.
+- note: Missing the final examination requires an application form with official evidence, such as a medical certificate.
 
 ## overview
 
 - official course outline
     - introduction to statistical inference
-    - theoretical properties of the sample mean and sample variance
-    - parameter estimation for regular data: point estimation, interval estimation
-    - parameter estimation for irregular data: point estimation, interval estimation
-    - hypothesis testing
+    - sampling theory and order statistics
+    - limiting distributions, the central limit theorem, and large-sample results
+    - parametric distributions
+    - the sample mean and the sample variance
+    - point estimation, including maximum likelihood for regular and irregular data
+    - interval estimation and confidence intervals
+    - hypothesis testing, including likelihood-ratio tests
+    - non-parametric methods
 - intended learning outcomes
     - understand the main concept of doing statistical inference
     - understand different theoretical properties of the sample mean and sample variance
@@ -81,8 +88,6 @@ MATH 3423 is an undergraduate course in statistical inference at HKUST covering 
     - find the maximum likelihood estimator in some statistical problems
     - find different estimates with the special estimation techniques taught in class
     - perform advanced testing of hypotheses such as a likelihood-ratio test
-- notes
-    - the course is conducted face-to-face
 
 ## week 1 lecture 1
 
@@ -93,6 +98,7 @@ MATH 3423 is an undergraduate course in statistical inference at HKUST covering 
     - [§ data](statistical%20inference.md#data)
     - [§ modes of inference](statistical%20inference.md#modes%20of%20inference)
 - [parametric model](parametric%20model.md)
+    - [§ parametric distribution and model](parametric%20model.md#parametric%20distribution%20and%20model)
     - [§ parametric families](parametric%20model.md#parametric%20families)
     - [§ non-parametric models](parametric%20model.md#non-parametric%20models)
 - [random sample](random%20sample.md)
@@ -126,6 +132,7 @@ MATH 3423 is an undergraduate course in statistical inference at HKUST covering 
 - [sample mean](sample%20mean.md)
     - [§ distribution of the sample mean](sample%20mean.md#distribution%20of%20the%20sample%20mean)
 - [sample variance](sample%20variance.md)
+    - [§ the two sample variances](sample%20variance.md#the%20two%20sample%20variances)
     - [§ distribution of the sample variance](sample%20variance.md#distribution%20of%20the%20sample%20variance)
     - [§ independence from the sample mean](sample%20variance.md#independence%20from%20the%20sample%20mean)
 
@@ -157,3 +164,18 @@ MATH 3423 is an undergraduate course in statistical inference at HKUST covering 
 - [confidence interval](confidence%20interval.md)
     - [§ pivotal quantity](confidence%20interval.md#pivotal%20quantity)
     - [§ confidence interval for the mean](confidence%20interval.md#confidence%20interval%20for%20the%20mean)
+
+## week 2 lecture 2
+
+- datetime: 2026-09-10T10:30:00+08:00/2026-09-10T11:50:00+08:00
+- venue: G010, CYT Bldg
+- topic: confidence interval for the mean with unknown variance; independence of the sample mean and the sample variance; the gamma distribution and the chi-squared family
+- [confidence interval](confidence%20interval.md)
+    - [§ when the variance is unknown](confidence%20interval.md#when%20the%20variance%20is%20unknown)
+- [sample variance](sample%20variance.md)
+    - [§ independence from the sample mean](sample%20variance.md#independence%20from%20the%20sample%20mean)
+- [multivariate normal distribution](multivariate%20normal%20distribution.md)
+    - [§ independence of the components](multivariate%20normal%20distribution.md#independence%20of%20the%20components)
+- [gamma distribution](gamma%20distribution.md)
+    - [§ probability density function](gamma%20distribution.md#probability%20density%20function)
+    - [§ chi-squared distribution as a special case](gamma%20distribution.md#chi-squared%20distribution%20as%20a%20special%20case)
