@@ -517,20 +517,22 @@ Separate consecutive blockquote questions with `<!-- markdownlint MD028 -->`. St
 
 ## Topic-note reconciliation (mandatory)
 
-Every ingestion is compared against the course's existing topic notes, whatever the material is: a lecture deck, a lab manual, a tutorial handout, a problem set, a Canvas page, or a single figure. Session files (`lab.md`, `tutorial.md`, `lecture.md`, quiz pages, `questions/`) hold the material as it arrived; the course's durable concepts belong to the topic notes. Material whose concepts reach only a session file is an unfinished ingestion. The drawings count as concepts: when the material defines a symbol or a convention by drawing it, the owning note carries the drawing itself (see "Definitional drawings").
+Every ingestion is compared against the course's existing topic notes, whatever the material is: a lecture deck, a lab manual, a tutorial handout, a problem set, a Canvas page, or a single figure. Session files (`lab.md`, `tutorial.md`, `lecture.md`, quiz pages, `questions/`) hold the material as it arrived; the course's durable concepts belong to the topic notes. The drawings count as concepts: when the material defines a symbol or a convention by drawing it, the owning note carries the drawing itself (see "Definitional drawings").
+
+__Decide what the material develops before listing anything.__ A concept enters reconciliation only when the material works through it: it defines the term, walks an example, or sets it against a neighbouring idea. A concept the material only names has not been developed, and a mention earns no note, no section, and no card. Leave the mention in the session file, where the reader can see it in context, and say in the report that it stayed there. This is a settled outcome, not a gap to close later.
 
 Run this after the dispatched CRUD skill has written its files and before the humanizer pass:
 
-1. __List the concepts.__ Take every concept the material carries, including ones that look already covered.
+1. __List the concepts.__ Take every concept the material develops, including ones that look already covered.
 2. __Find the owning note and section.__ Match by canonical title and by section meaning, never by wording; a course note may cover the concept under a different name.
 3. __Apply exactly one outcome per concept, and record it:__
-    - __extend__: the material adds a fact, distinction, example, drawing, or card the note lacks. Write it into the owning section in the note's own words;
+    - __extend__: the material adds something the note lacks to state the concept it already holds. Write it into the owning section in the note's own words;
     - __prune__: the material contradicts, supersedes, or duplicates what the note says. Remove or correct the stale part within the note's scope;
     - __create__: no note owns the concept and it is durable knowledge independent of the session. Create a topic note per `academic-crud-topic-note` and link it from the course `index.md`;
     - __leave__: the note already covers the concept. Name the section that covers it.
-4. __Report the outcomes__, one line per note, the `leave` decisions included.
+4. __Report the outcomes__, one line per note, the `leave` decisions included. List the passing mentions that stayed in session files on their own line, so the reader can see they were read and set aside.
 
-The session file and the topic note do different jobs: the session file keeps the material's own questions and framing, while the topic note states the concept. Reconciliation is never finished by copying the material's wording into a note, and never skipped because the material is only a lab, a tutorial, or a single handout.
+The session file and the topic note do different jobs: the session file keeps the material's own questions and framing, while the topic note states the concept. Reconciliation is never finished by copying the material's wording into a note, and never skipped because the material is only a lab, a tutorial, or a single handout. `academic-crud-course-index` states the governing preference more briefly: record what the source states and what sessions covered, nothing else.
 
 ## Dispatch
 
