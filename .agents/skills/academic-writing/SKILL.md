@@ -1,21 +1,32 @@
 ---
 name: academic-writing
-description: Rewrite a note's written content so a reader can build the meaning as they go. Fixes order and packing at the scale of the clause, the sentence, and the paragraph, in prose, flashcards, lists, tables, and reference lines. Load it after any edit to a note's prose or cards, and before academic-lint.
+description: Rewrite a note's written content so a reader can build the meaning as they go. Rearranges sections, paragraphs, sentences, and clauses; prefers a full stop to a connective; then hands the result to the humanizer skill for the surface pass. Load it after any edit to a note's prose or cards, and before academic-lint.
 ---
 
 # Academic writing pass
+
+This skill is the first half of a rewrite. It moves material until a reader can follow it. It hands the result to the [humanizer](~/.agents/skills/humanizer/SKILL.md) skill, which removes the surface patterns left behind. Run both, then run `academic-lint`.
+
+The two are not interchangeable, and running only the second is the common failure. Humanizer rewrites the smallest span that fixes a pattern. A sentence doing three jobs stays packed. Do this skill first.
+
+## When to run it, and what to leave alone
+
+Run it after any edit to a note's prose or cards, and before `academic-lint`. A corrected fact, a renamed heading, a rewritten card, a sentence added to a lab write-up: each takes it. A section you have just rearranged takes the pass too. Moving paragraphs usually breaks the order of the cards beside them.
+
+Leave alone quoted source text, the body of a Wikipedia transclude, a verbatim question from a paper, and anything inside a pytextgen fence. Session entries link to `#section%20anchors`. A heading is therefore never a rewrite target, and moving one means repointing every anchor that reaches it.
 
 ## What goes wrong
 
 A paragraph hands the reader a conclusion before the ground it stands on. A sentence hands the reader three facts at once and expects them to sort themselves out. Both ask the reader to hold something they cannot yet make sense of. The cause is the same in each: too many things doing too much work in too small a space.
 
-The work happens at three scales. A pass that fixes only the largest one will shorten the note and leave it just as hard to read.
+The work happens at four scales. A pass that fixes only the largest one will shorten the note and leave it just as hard to read.
 
 | Scale | One unit is | The unit is broken when |
 | --- | --- | --- |
 | Clause | a modifying phrase inside a sentence | the explanation arrives before the thing it explains |
 | Sentence | one statement | it does two of the jobs below |
 | Paragraph | one block of prose | it does three of the jobs, or two blocks do the same one |
+| Section | one run of headings | it sits after the section that needs it, or it argues a point made elsewhere |
 
 The jobs are: gives an example, defines a term, lists things, draws a consequence, adds background, repeats an earlier point.
 
@@ -50,27 +61,31 @@ After:
 
 > Two paragraphs doing the same job become one. A paragraph doing three becomes three. Each example moves ahead of the rule it illustrates. Each term moves after the point that needs it. A paragraph that only repeats an earlier one is cut.
 
-One sentence doing five, and every part carrying the same job. Five parts sharing one job belong in five sentences, not in a chain of clauses joined by "and".
+One sentence doing five, and every part carrying the same job. Five parts sharing one job belong in five sentences. They do not belong in a chain of clauses joined by "and".
 
 No word changed meaning. The reader now gets one instruction per breath.
 
-## When to run it, and what to leave alone
-
-Run it after any edit to a note's prose or cards, and before `academic-lint`. A corrected fact, a renamed heading, a rewritten card, a sentence added to a lab write-up: each takes it. So does a section you have just rearranged, since moving paragraphs usually breaks the order of the cards beside them.
-
-Leave alone quoted source text, the body of a Wikipedia transclude, a verbatim question from a paper, heading text, and anything inside a pytextgen fence. Session entries link to `#section%20anchors`, so a heading is never a rewrite target.
-
 ## The pass
 
-Do not turn this into a checklist. A lettered list of rules makes an editing agent work down the lines and report success while changing nothing a reader would notice. Expect to move a paragraph and take a sentence apart, not to satisfy an item.
+Do not turn this into a checklist. A lettered list of rules makes an editing agent work down the lines and report success. Nothing a reader would notice has changed. Expect to move a section, take a sentence apart, and delete a paragraph, not to satisfy an item.
 
-Work at the smallest scale first, and work outward. A clause fixed inside a sentence is lost the moment that sentence is moved, so settle each unit before you touch the one above it.
+__Cut before you rewrite.__ A paragraph that only repeats an earlier one is not badly written, it is unnecessary, and no rewriting makes it earn its place. Deletion is a move in this pass, and it is usually the one that helps most. Reach for it first, and expect the pass to end with less text than it started with.
 
-Take a sentence apart before you rewrite it. Name each part's job, then write one sentence per job, in the order those labels imply. Choose the words last, once the jobs are separate. Reaching for a better word to describe a sentence that is doing three jobs polishes the packing instead of undoing it. The note comes out shorter and no clearer.
+__Place before you polish.__ Decide the skeleton first: which sections the note needs, in what order, and which paragraphs belong in each. A section sitting after the section that needs it is not a prose problem, and rewriting its sentences will not move it. Splitting one section in two is often the honest answer. Two notes arguing the same point are better merged than both kept. When the skeleton is settled, settle the clause and the sentence inside its final home. A clause polished inside a paragraph that is about to move two sections down is work thrown away.
 
-Do the same outward, and decide the new order from the labels before you write a word of it. Merge two paragraphs doing the same job, and split a paragraph doing three. Move each example ahead of the rule it illustrates, and each term after the point that needs it. Cut a paragraph that only repeats an earlier one.
+__Then take a sentence apart.__ Name each part's job, then write one sentence per job, in the order those labels imply. Choose the words last, once the jobs are separate. Reaching for a better word to describe a sentence that is doing three jobs polishes the packing instead of undoing it. The note comes out shorter and no clearer.
 
-A sentence doing one job usually lands under 25 words. An over-long one is usually doing more than a single job, so count words only to find the sentence worth taking apart. When the words are already plain and the job count is wrong, cutting words changed nothing.
+__End on a full stop.__ A connective is not a shorter full stop. It is a claim that the two halves cannot stand alone, and most of the time they can. Write the two halves as two sentences. Keep "so" only where the result really is a result, and "but" only where the opposition changes what the reader should conclude. Every other connective is a full stop wearing a disguise. A sentence doing one job usually lands under 25 words. An over-long one is usually doing more than a single job. Count words to find the sentence worth taking apart, not to decide it is fine.
+
+__Then hand over.__ Once the order and the packing are right, run the [humanizer](~/.agents/skills/humanizer/SKILL.md) skill over what you changed. Its patterns live in the surface rather than the structure. This pass cannot see them.
+
+## Running humanizer
+
+The [humanizer](~/.agents/skills/humanizer/SKILL.md) skill is still loaded, and it still owns the surface patterns it documents: inflated significance, promotional tone, vague attribution, thesaurus cycling, stacked rules of three, and the rest. Read it and follow its list.
+
+Its instruction to "rewrite the smallest spans needed to fix them" is __superseded here__, for packing as well as for order. In a sentence doing three jobs, the smallest span is often the clause that was already fine.
+
+Order first, then packing, then surface patterns.
 
 ## Lists, tables, cards, and reference lines
 
@@ -80,35 +95,35 @@ None of this has one right answer. Ask which order the reader is being served, t
 
 ### Lists
 
-Can a reader predict the order? Steps run in causal order. Definitions run in the order the prose introduces them. A list of examples puts the clearest first. An order the reader cannot predict is a set they have to hold all at once, which is what a list was supposed to prevent.
+Can a reader predict the order? Steps run in causal order. Definitions run in the order the prose introduces them. A list of examples puts the clearest first. An order the reader cannot predict is a set they have to hold all at once. Preventing that is what a list is for.
 
 A list item that runs to a paragraph has stopped being a list, and the reader loses the scan that made it worth having. Split it across several items, one claim each, or lift it out to stand as a paragraph beside the list. Do not shorten a genuine claim to fit the shape; a list holding half a fact is worse than prose.
 
 ### Tables
 
-Do the rows follow the order the prose discusses them in? A table that reorders its rows against the surrounding text makes the reader build a second index in their head to match a row back to a paragraph. That is the cost the table was meant to remove. When the table is the only place the list exists, put first whatever a reader compares first.
+Do the rows follow the order the prose discusses them in? A table that reorders its rows against the surrounding text makes the reader build a second index in their head. That is the cost the table was meant to remove. When the table is the only place the list exists, put first whatever a reader compares first.
 
 A cell holding a sentence breaks the alignment that made the table readable. Cut it back to the term or short phrase the cell is there for. If a row genuinely needs the reasoning, put it in a note under the table, and let that note take the order rules like any other paragraph.
 
 ### Cards
 
-Cards carry most of the content in this repository, and nothing enforces their length, so this is where a pass finds the most to fix. A card answer has to be recalled in seconds, and a long one is worse than a long paragraph: a reader can re-read a paragraph, a card gives one attempt.
+Cards carry most of the content in this repository, and nothing enforces their length. A pass finds the most to fix here. A card answer has to be recalled in seconds, and a long one is worse than a long paragraph. A reader can re-read a paragraph. A card gives one attempt.
 
 Does the block open on its foundational claim? Matching the prose is the floor, not the ceiling. A block that starts on an incidental detail and saves the claim the section exists to make drills the wrong thing first.
 
-Take a card apart the way you take any sentence apart. A prompt that gives its own answer away is broken rather than long, and trimming will not repair it. A prompt that runs long is a paragraph in disguise, sitting where the reader expected a question. A card doing two claims is two cards, and two cards asking the same thing are one card. Never add a card to reach coverage, because a claim with no card is not a claim the note makes. Where a table row already states a fact, neither prose nor a card restates it.
+Take a card apart the way you take any sentence apart. A prompt that gives its own answer away is broken rather than long, and trimming will not repair it. A prompt that runs long is a paragraph in disguise, sitting where the reader expected a question. A card doing two claims is two cards, and two cards asking the same thing are one card. Never add a card to reach coverage. A claim with no card is not a claim the note makes. Where a table row already states a fact, neither prose nor a card restates it.
 
-A short clear phrase beats a full sentence. Do not bolt a verb onto a noun-phrase fragment to make it grammatical, since that inflates the answer without adding meaning. Never cut a given or a piece of notation from a prompt. That breaks a calculation card rather than shortening it, and the card ends up unanswerable rather than merely long.
+A short clear phrase beats a full sentence. Do not bolt a verb onto a noun-phrase fragment to make it grammatical. That inflates the answer without adding meaning. Never cut a given or a piece of notation from a prompt. That breaks a calculation card rather than shortening it, and the card ends up unanswerable rather than merely long.
 
 ### Reference lines
 
-A reference line is a citation, not prose, and prose is what makes it long. Keep it to author, year, title, and a source, and do not summarise what the source says there. That summary is the note's own claim, and it belongs in the body where the order rules can place it.
+A reference line is a citation, not prose, and prose is what makes it long. Keep it to author, year, title, and a source. Do not summarise what the source says there. That summary is the note's own claim, and it belongs in the body where the order rules can place it.
 
 Can a reader find a name? Alphabetical is the default, and grouping by the argument the sources serve works when the note discusses them in sequence. The order the sources happened to be read in serves nobody.
 
 ## Reference: words and shape
 
-This is a lookup table. The two examples above are the method.
+This is a lookup table. The two examples above are the method, and the [humanizer](~/.agents/skills/humanizer/SKILL.md) skill documents the surface patterns this pass leaves alone.
 
 Use the plainest word that is still accurate, and keep a technical term when the subject genuinely needs it.
 
@@ -134,28 +149,20 @@ Use the plainest word that is still accurate, and keep a technical term when the
 | subsequent | later |
 | approximate | rough |
 
-Cut most of these: "so", "which is why", "therefore", "thus", "hence", "moreover", "furthermore", "at the same time", "in addition", "as a result", "it is worth noting", "in other words", "that said". The default is two short sentences instead of one joined by a connective. Keep a connective when the relation is real and a full stop would not carry it.
-
-A semicolon means the sentence was doing two jobs. Three or more "and"s means it was doing three. Never stack a list inside a list.
+These usually go: "so", "which is why", "therefore", "thus", "hence", "moreover", "furthermore", "at the same time", "in addition", "as a result", "it is worth noting", "in other words", "that said". "So" and "but" are the two worth keeping, and only where the relation is real. Never stack a list inside a list.
 
 ## What the pass must not do
 
 Accuracy beats style in every conflict. Leave a factual claim, a number, a measurement, a term, and a citation exactly as written. If something is factually wrong, report it rather than quietly fixing it.
 
-Do not pad, and do not delete a real fact to hit a length target. Do not narrate a source: "the deck", "the slides", "the lecture" and "the course" never take a sentence as their subject.
+Do not pad, and do not delete a real fact to reach a shorter note. Do not narrate a source: "the deck", "the slides", "the lecture" and "the course" never take a sentence as their subject.
 
 After rewriting, recheck every `two_sided_calc_warning` suppression. Cutting a prompt can strand one, and `academic-lint` errors on a stranded suppression.
 
-## Relation to the humanizer skill
-
-The `humanizer` skill at `~/.agents/skills/humanizer/SKILL.md` is still loaded, and it still owns the surface AI-writing patterns it documents. Its instruction to "rewrite the smallest spans needed to fix them" is __superseded here__, for packing as well as for order. In a sentence doing three jobs, the smallest span is often the clause that was already fine.
-
-Order first, then packing, then surface patterns. An agent working on academic notes runs this skill, then humanizer, then `academic-lint`.
-
 ## Delegation
 
-When this pass goes to a subagent, the brief names this skill and gives its path, and makes the child read the file before editing. It also makes the child report which paragraphs moved, which sentences were taken apart, and which were deleted: a child reporting nothing measurable has most likely done nothing.
+When this pass goes to a subagent, the brief names __both__ skills and gives each path, and makes the child read both before editing. It also makes the child report which sections moved, which paragraphs were deleted, which sentences were taken apart, and which humanizer patterns it applied. A child reporting nothing measurable has most likely done nothing.
 
-Say in the brief that the job is a rewrite and not a touch-up, because a child left to infer that will produce the tidy-up. Name the three scales in the brief, because a child told only about paragraphs will do paragraphs. Ban partial-sentence edits explicitly, and name the banned git commands explicitly, as "not `status`, not `show`, not `diff`, not `rev-parse`". A general ban on git has been ignored, so the named list is the part that has to be written down.
+Say in the brief that the job is a rewrite and not a touch-up. A child left to infer that will produce the tidy-up. Name the four scales in the brief, because a child told only about paragraphs will do paragraphs. Tell it to cut before it rewrites, because a child left to infer that will only reword. Ban partial-sentence edits explicitly, and name the banned git commands explicitly, as "not `status`, not `show`, not `diff`, not `rev-parse`". A general ban on git has been ignored. The named list is the part that has to be written down.
 
 Before/after numbers must be reconstructed from the child's own initial read. Do not pass counts in the brief, and do not accept a delta the child never measured.
