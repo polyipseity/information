@@ -5,7 +5,7 @@ description: Rewrite a note's written content so the information arrives in the 
 
 # Academic writing pass
 
-Start with a paragraph that reads badly. This one comes from a note on trial design.
+Start with a paragraph that reads badly. This one is from a note on trial design.
 
 Before:
 
@@ -15,59 +15,68 @@ After:
 
 > A trial of a new drug gives half the participants a pill that looks real and contains nothing. Blinding hides that from them, so they cannot act on what they have taken. It also hides it from the experimenter, who would otherwise guess which participants got the real pill. That guess is not cheating. An experimenter who hopes a treatment works reads the confident patient as a success and the hesitant one as a failure. Random assignment removes that problem by deciding who gets what at random. It cannot stop a participant from guessing which pill they took. Hiding the treatment from both is what makes a study double-blind.
 
-Nothing was shortened. No sentence was over 30 words, and every one was already active. The paragraph was still hard to read, and the reason was the order. It opened with the term __blinding__, which a reader meeting this note for the first time cannot picture. It used an "It" that had never been given an antecedent, and it named the two problems only after relying on them. The fake pill, the most vivid thing in the paragraph, sat in the last clause of the last sentence. And it asked the reader to hold an abstraction for four sentences before showing them anything.
+Nothing was shortened. No sentence ran past 30 words, and every one was already active. The paragraph was still hard to read, and the order was the reason:
 
-So the pass is not a tidy-up. __You rewrite the text and you put it in a different order.__ Editing a clause inside a badly ordered paragraph leaves a badly ordered paragraph, and it costs the reader exactly as much as it did before. When only part of a sentence is wrong, rewrite the whole paragraph around it rather than patching the clause.
+- It opened with the term __blinding__, which a reader meeting the note for the first time cannot picture.
+- It used an "It" that had never been given an antecedent.
+- It relied on two problems before naming either of them.
+- It put the fake pill, the most vivid thing in the paragraph, in the last clause of the last sentence.
 
-Everything below follows from that example.
+__You rewrite the text and you put it in a different order.__ That is the whole pass, and it is not a tidy-up. Editing a clause inside a badly ordered paragraph leaves a badly ordered paragraph, and it costs the reader what it cost before. When only part of a sentence is wrong, rewrite the paragraph around it rather than patching the clause.
 
-## What the pass covers, and when
+This material has already been swept for sentence length, for filler words, and for abstract wording. Each sweep left notes that were correct and still hard to read. What fixed them was moving things.
+
+## When to run it, and what to leave alone
 
 Run it after any edit to a note's prose or cards, and before `academic-lint`. A corrected fact, a renamed heading, a rewritten card, a sentence added to a lab write-up: each takes it. So does a section you have just rearranged, since moving paragraphs usually breaks the order of the cards beside them.
 
-Leave alone quoted source text, the body of a Wikipedia transclude, a verbatim question from a paper, heading text, and anything inside a pytextgen fence. Session entries link to `#section%20anchors`, so a heading is never a rewrite target. A table cell holding a word or two is doing its job; the pass checks the order of the rows rather than rewriting the cells.
+Leave alone quoted source text, the body of a Wikipedia transclude, a verbatim question from a paper, heading text, and anything inside a pytextgen fence. Session entries link to `#section%20anchors`, so a heading is never a rewrite target. A table cell holding a word or two is doing its job; the pass checks the order of the rows.
 
 ## How to rewrite
 
-Label every paragraph with the job it does, choosing from this fixed vocabulary: gives an example, defines a term, lists things, draws a consequence, adds background, repeats an earlier point. Decide the new order from the labels, and only then write a sentence. On that basis, merge two paragraphs doing the same job, split any paragraph doing three, move every example ahead of the rule it illustrates, move every term after the point that needs it, and cut a paragraph that only repeats an earlier one.
-
 Do not turn this into a checklist. A lettered list of rules makes an editing agent work down the lines and report success while changing nothing a reader would notice. Expect to move a paragraph rather than to satisfy an item.
 
-The rewrite is a rewrite, not a touch-up. Sentence length, filler words, and abstract wording have already been swept out of this material, and each sweep left notes that were correct and still hard to read. What fixed them was moving things.
+Label each paragraph with the job it does, choosing from a fixed vocabulary: gives an example, defines a term, lists things, draws a consequence, adds background, repeats an earlier point.
 
-## The same questions, asked of everything else
+Decide the new order from those labels before you write a sentence. Then merge two paragraphs doing the same job, split any paragraph doing three, move every example ahead of the rule it illustrates, move every term after the point that needs it, and cut a paragraph that only repeats an earlier one.
 
-A reader walks a list, scans a table, drills a card block, and hunts a name in a reference list. Each is a sequence, and the order inside it costs the reader what a bad paragraph order costs. A single cell, and a single reference line, hold no sequence of their own. The order lives one level up, in the list of cells and the list of entries.
+## Lists, tables, cards, and reference lines
 
-Can a reader predict the order of a list? Steps run in causal order. Definitions run in the order the prose introduces them. A list of examples puts the clearest first. A list whose order you cannot predict is a set the reader has to hold all at once, which is what a list was supposed to prevent.
+A reader walks a list, scans a table, drills a card block, and hunts a name in a reference list. Each is a sequence, and the order inside it costs what a bad paragraph order costs. A single cell and a single reference line hold no sequence of their own. The order lives one level up, in the list of cells and the list of entries.
 
-Do a table's rows follow the order the prose discusses them in? When a table reorders its own rows against the surrounding text, the reader builds a second index in their head to match a row back to a paragraph. That is the cost the table was supposed to remove. When the table is the only place the list exists, put first whatever a reader compares first.
+None of this has one right answer. Ask which order the reader is being served, then check that the note actually uses it. A pass that asserts one correct row order for tables is inventing a rule the note never asked for.
 
-Does a card block open on its foundational claim? Matching the prose is the floor, not the ceiling. A block that starts on an incidental detail and saves the claim the section exists to make drills the wrong thing first.
+### Lists
 
-Can a reader find a name in the reference list? Alphabetical is the default, and grouping by the argument the sources serve is a real alternative when the note discusses them in sequence. The order the sources happened to be read in serves nobody.
+Can a reader predict the order? Steps run in causal order. Definitions run in the order the prose introduces them. A list of examples puts the clearest first. An order the reader cannot predict is a set they have to hold all at once, which is what a list was supposed to prevent.
 
-None of these has one right answer, and a pass that asserts a single correct order for tables is inventing a rule the note never asked for. Ask which order the reader is being served, then check that the note actually uses it.
+A list item that runs to a paragraph has stopped being a list, and the reader loses the scan that made it worth having. Split it across several items, one claim each, or lift it out to stand as a paragraph beside the list. Do not shorten a genuine claim to fit the shape; a list holding half a fact is worse than prose.
 
-## Flashcards
+### Tables
 
-Cards carry most of the content in this repository, and nothing enforces their length, so this is where a pass finds the most. A card answer has to be recalled in seconds, and a long one is worse than a long paragraph: a reader can re-read a paragraph, a card gives one attempt.
+Do the rows follow the order the prose discusses them in? A table that reorders its rows against the surrounding text makes the reader build a second index in their head to match a row back to a paragraph, which is the cost the table was meant to remove. When the table is the only place the list exists, put first whatever a reader compares first.
 
-A prompt that gives its own answer away is broken rather than long. The recall it was built for never happens, and trimming will not repair it. A prompt that runs long is a paragraph in disguise, sitting where the reader expected a question. A card carrying two claims is two cards. Two cards asking the same thing are one card, since the second adds nothing to recall. Never add a card to reach coverage: a claim with no card is not a claim the note makes. Where a table row already states a fact, neither prose nor a card restates it.
+A cell holding a sentence breaks the alignment that made the table readable. Cut it back to the term or short phrase the cell is there for. If a row genuinely needs the reasoning, put it in a note under the table, and let that note take the order rules like any other paragraph.
 
-A short clear phrase beats a full sentence. Do not bolt a verb onto a noun-phrase fragment to make it grammatical, because that inflates the answer without adding meaning. Never cut a given or a piece of notation from a prompt. That breaks a calculation card rather than shortening it, and the card ends up unanswerable rather than merely long.
+### Cards
 
-## Lists, tables, and reference lines
+Cards carry most of the content in this repository, and nothing enforces their length, so this is where a pass finds the most to fix. A card answer has to be recalled in seconds, and a long one is worse than a long paragraph: a reader can re-read a paragraph, a card gives one attempt.
 
-A list item that runs to a paragraph has stopped being a list, and the reader loses the scan that made it worth having. Split it across several items, one claim each, or lift it out and let it stand as a paragraph beside the list. Do not shorten a genuine claim to fit the shape; a list holding half a fact is worse than prose.
+Does the block open on its foundational claim? Matching the prose is the floor, not the ceiling. A block that starts on an incidental detail and saves the claim the section exists to make drills the wrong thing first.
 
-A cell holding a sentence breaks the alignment that made the table readable. Cut it back to the term or the short phrase the cell is there for. If a row genuinely needs the reasoning, put it in a note under the table rather than widening the cell, and let the note follow the order rules as any other paragraph.
+A prompt that gives its own answer away is broken rather than long, and trimming will not repair it, because the recall it was built for never happens. A prompt that runs long is a paragraph in disguise, sitting where the reader expected a question. A card carrying two claims is two cards, and two cards asking the same thing are one card, since the second adds nothing to recall. Never add a card to reach coverage, because a claim with no card is not a claim the note makes. Where a table row already states a fact, neither prose nor a card restates it.
 
-A reference line is a citation, not prose, and prose is what makes it long. Keep it to author, year, title, and a source. Do not summarise what the source says there. That summary is the note's own claim, and it belongs in the body where the order rules can place it.
+A short clear phrase beats a full sentence. Do not bolt a verb onto a noun-phrase fragment to make it grammatical, since that inflates the answer without adding meaning. Never cut a given or a piece of notation from a prompt. That breaks a calculation card rather than shortening it, and the card ends up unanswerable rather than merely long.
+
+### Reference lines
+
+A reference line is a citation, not prose, and prose is what makes it long. Keep it to author, year, title, and a source, and do not summarise what the source says there. That summary is the note's own claim, and it belongs in the body where the order rules can place it.
+
+Can a reader find a name? Alphabetical is the default, and grouping by the argument the sources serve works when the note discusses them in sequence. The order the sources happened to be read in serves nobody.
 
 ## Reference: words and shape
 
-This section is a lookup, not the method. The example at the top is the method.
+This is a lookup table. The example at the top is the method.
 
 Use the plainest word that is still accurate, and keep a technical term when the subject genuinely needs it.
 
