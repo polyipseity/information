@@ -5,9 +5,9 @@ description: Rewrite a note's written content so a reader can build the meaning 
 
 # Academic writing pass
 
-This skill is the first half of a rewrite. It moves material until a reader can follow it. It hands the result to the [humanizer](~/.agents/skills/humanizer/SKILL.md) skill, which removes the surface patterns left behind. Run both, then run `academic-lint`.
+This skill moves material until a reader can follow it, then hands the result to the [humanizer](~/.agents/skills/humanizer/SKILL.md) skill for the surface pass. Run both, then run `academic-lint`.
 
-The two are not interchangeable, and running only the second is the common failure. Humanizer rewrites the smallest span that fixes a pattern. A sentence doing three jobs stays packed. Do this skill first.
+Running only the second is the common failure. Humanizer rewrites the smallest span that fixes a pattern, and a sentence doing three jobs stays packed. Do this one first.
 
 ## When to run it, and what to leave alone
 
