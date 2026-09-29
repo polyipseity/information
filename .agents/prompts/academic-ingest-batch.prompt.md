@@ -82,7 +82,7 @@ Add child links to parent indexes (`tutorials/index.md`, course `index.md`). Chi
 
 ## 8. Reconcile topic notes
 
-Whatever the group's type — lecture, lab, or tutorial — compare the material against the course's existing topic notes and extend, prune, or leave each concept, or create the note that is missing. A `<type>.md` file is not the final home of a durable concept. See "Topic-note reconciliation (mandatory)" in the `academic-ingest` skill, and list the outcome for each note in the report. A drawing the material defines is one of those concepts, so the owning note carries the drawing itself rather than prose that describes it.
+Whatever the group's type (lecture, lab, or tutorial), compare the material against the course's existing topic notes and extend, prune, or leave each concept, or create the note that is missing. Work from the concepts the material develops rather than the ones it names, so a passing mention stays in the `<type>.md` file. See "Topic-note reconciliation (mandatory)" in the `academic-ingest` skill, and list the outcome for each note in the report. A drawing the material defines is one of those concepts, so the owning note carries the drawing itself rather than prose that describes it.
 
 ## 9. Section levelling, then humanizer
 
