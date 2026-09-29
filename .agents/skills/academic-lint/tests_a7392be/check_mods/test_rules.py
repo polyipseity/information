@@ -28,6 +28,7 @@ from main_mods.rules import (
     cloze_solution_outside_question,
     cloze_wrong_closing_token,
     cloze_wrong_token,
+    content_sentence_too_long,
     find_math_spans,
     flashcard_tag_unique,
     folder_link_trailing_slash,
@@ -76,7 +77,6 @@ from main_mods.rules import (
     no_soft_wrap_paragraph,
     numeric_text_not_latex,
     one_sided_calc_warning,
-    prose_sentence_too_long,
     qa_hierarchical_path,
     qa_nested_indentation,
     section_example_heading,
@@ -3659,105 +3659,161 @@ async def test_index_courses_missing_rule(tmp_path: PathLike[str]) -> None:
     assert not await index_courses_missing(make_ctx(txt, path=root / "note.md"))
 
 
-# long-sentence prose tests ---------------------------------------------------
+# long-content sentence tests -------------------------------------------------
 
 # 60 words, built from numbered tokens so the count is unambiguous.
 _LONG_SENTENCE = " ".join(f"word{i}" for i in range(60)) + "."
 
+# A minimal frontmatter block: the rules that need a flash tag in the
+# suppression test require one, the rest only need valid YAML.
+_FM = "---\naliases: [a]\ntags: [language/in/English]\n---\n"
 
-def test_prose_sentence_too_long_short_prose():
+
+def test_content_sentence_too_long_short_prose():
     """Ordinary prose stays under the limit and produces no message."""
     txt = (
-        "---\naliases: [a]\ntags: [language/in/English]\n---\n"
-        "## history\n\n"
-        "The first release shipped in 1993. It changed nothing at first.\n"
+        _FM
+        + "## history\n\nThe first release shipped in 1993. It changed nothing at first.\n"
     )
-    assert not prose_sentence_too_long(make_ctx(txt))
+    assert not content_sentence_too_long(make_ctx(txt))
 
 
-def test_prose_sentence_too_long_fires_once_with_correct_line():
+def test_content_sentence_too_long_fires_once_with_correct_line():
     """A 60-word sentence is reported once, on the line it sits on."""
-    txt = (
-        "---\naliases: [a]\ntags: [language/in/English]\n---\n"
-        "## history\n\n"
-        "A short lead-in.\n" + _LONG_SENTENCE + "\n"
-    )
-    msgs = prose_sentence_too_long(make_ctx(txt))
+    txt = _FM + "## history\n\nA short lead-in.\n" + _LONG_SENTENCE + "\n"
+    msgs = content_sentence_too_long(make_ctx(txt))
     assert len(msgs) == 1
     m = msgs[0]
-    assert m.rule_id == "prose_sentence_too_long"
+    assert m.rule_id == "content_sentence_too_long"
     assert m.severity == Severity.WARNING
     assert m.line == 8, "the message belongs to the line holding the sentence"
     assert m.col == 1
     assert "60 words (over 50)" in m.msg
-    assert "check: ignore-line[prose_sentence_too_long]" in m.msg
+    assert "in a paragraph" in m.msg
+    assert "check: ignore-line[content_sentence_too_long]" in m.msg
 
 
-def test_prose_sentence_too_long_ignores_fenced_code():
-    """A long sentence inside a fenced code block is not prose."""
-    txt = "---\naliases: [a]\ntags: [language/in/English]\n---\n```text\n" + (
-        _LONG_SENTENCE + "\n```\n"
-    )
-    assert not prose_sentence_too_long(make_ctx(txt))
+def test_content_sentence_too_long_list_item():
+    """A long list item is measured, and named as a list item."""
+    txt = _FM + "## history\n\n- " + _LONG_SENTENCE + "\n"
+    msgs = content_sentence_too_long(make_ctx(txt))
+    assert len(msgs) == 1
+    assert "in a list item" in msgs[0].msg
 
 
-def test_prose_sentence_too_long_ignores_image_alt_text():
-    """Image alt text is removed whole, so its length never counts."""
+def test_content_sentence_too_long_table_row():
+    """A long table row is measured, and named as a table row."""
     txt = (
-        "---\naliases: [a]\ntags: [language/in/English]\n---\n"
-        "![" + _LONG_SENTENCE + "](../attachments/figures/figure 1.png)\n"
+        _FM
+        + "## history\n\n| term | definition |\n| --- | --- |\n| x | "
+        + _LONG_SENTENCE
+        + " |\n"
     )
-    assert not prose_sentence_too_long(make_ctx(txt))
+    msgs = content_sentence_too_long(make_ctx(txt))
+    assert len(msgs) == 1
+    assert "in a table row" in msgs[0].msg
 
 
-def test_prose_sentence_too_long_ignores_frontmatter():
-    """A long frontmatter value is metadata, not prose."""
+def test_content_sentence_too_long_splits_two_sided_card():
+    """A ``::@::`` card whose halves each fit must not be counted fused.
+
+    This is the case the split exists for: prompt and answer together pass
+    50 words while neither side does, so a rule that measures the line whole
+    reports a sentence the author never wrote.
+    """
+    prompt = " ".join(f"q{i}" for i in range(30)) + "?"
+    answer = " ".join(f"a{i}" for i in range(30)) + "."
+    assert len((prompt + " " + answer).split()) > 50
+    txt = _FM + "## history\n\n" + prompt + " ::@:: " + answer + "\n"
+    assert not content_sentence_too_long(make_ctx(txt))
+
+
+def test_content_sentence_too_long_reports_long_card_answer():
+    """A ``::@::`` answer over the limit is reported once, as an answer."""
+    prompt = "What is a " + " ".join(f"q{i}" for i in range(5)) + "?"
+    txt = _FM + "## history\n\n" + prompt + " ::@:: " + _LONG_SENTENCE + "\n"
+    msgs = content_sentence_too_long(make_ctx(txt))
+    assert len(msgs) == 1
+    assert "in a flashcard answer" in msgs[0].msg
+    assert msgs[0].col > 1, "the answer starts after the prompt, not at column 1"
+
+
+def test_content_sentence_too_long_card_answer_split_by_html_break():
+    """``<br/>`` ends a sentence, so a formatted answer is not one long one."""
+    part = " ".join(f"part{i}" for i in range(20)) + "."
+    txt = _FM + "## history\n\nWhy? ::@:: " + f"{part}<br/>\n{part}<br/>\n{part}\n"
+    assert not content_sentence_too_long(make_ctx(txt))
+
+
+def test_content_sentence_too_long_bulleted_answer_split_by_html_break():
+    """A bulleted answer joined by ``<br/>`` is several short sentences.
+
+    The fused form is 60 words and would be reported; split at the breaks,
+    each bullet is 20 and none is.
+    """
+    bullet = " ".join(f"b{i}" for i in range(20)) + "."
+    fused = " ".join(f"b{i}" for i in range(60)) + "."
+    assert len(fused.split()) > 50
+    txt = _FM + "## history\n\nWhy? ::@:: " + "<br/>".join([bullet] * 3) + "\n"
+    assert not content_sentence_too_long(make_ctx(txt))
+
+
+def test_content_sentence_too_long_ignores_multiline_display_math():
+    """Interior lines of a ``$$ ... $$`` block are math, not prose."""
+    long_line = " & x_{i} = " + _LONG_SENTENCE
+    txt = (
+        _FM
+        + "## history\n\n$$\n\\begin{align}\n"
+        + long_line
+        + "\n\\end{align}\n$$\n\nA short sentence.\n"
+    )
+    assert not content_sentence_too_long(make_ctx(txt))
+
+
+def test_content_sentence_too_long_ignores_image_alt_text():
+    """Image alt text is removed whole, so its length never counts."""
+    alt = " ".join(f"alt{i}" for i in range(200))
+    txt = _FM + "![descending " + alt + "](../attachments/figures/figure 1.png)\n"
+    assert not content_sentence_too_long(make_ctx(txt))
+
+
+def test_content_sentence_too_long_ignores_frontmatter_code_and_numbers():
+    """Frontmatter, fenced code, and a table row of numbers are not prose."""
     txt = (
         "---\naliases: [a]\ntags: [language/in/English]\ndescription: "
         + _LONG_SENTENCE
-        + "\n---\nA short body sentence.\n"
+        + "\n---\n```text\n"
+        + _LONG_SENTENCE
+        + "\n```\n"
+        "| year | count | mean |\n| --- | --- | --- |\n| 1998 | 42 | 13.5 |\n"
     )
-    assert not prose_sentence_too_long(make_ctx(txt))
+    assert not content_sentence_too_long(make_ctx(txt))
 
 
-def test_prose_sentence_too_long_ignores_table_row():
-    """A long table row is tabular data, not prose."""
-    txt = (
-        "---\naliases: [a]\ntags: [language/in/English]\n---\n"
-        "| term | definition |\n| --- | --- |\n| x | " + _LONG_SENTENCE + " |\n"
-    )
-    assert not prose_sentence_too_long(make_ctx(txt))
-
-
-def test_prose_sentence_too_long_ignores_transcludes():
+def test_content_sentence_too_long_ignores_transcludes():
     """Imported Wikipedia text under transcludes/ is not measured."""
-    txt = (
-        "---\naliases: [a]\ntags: [language/in/English]\n---\n" + _LONG_SENTENCE + "\n"
-    )
+    txt = _FM + _LONG_SENTENCE + "\n"
     ctx = make_ctx(txt, path=Path("/tmp/course/transcludes/entropy.md"))
-    assert not prose_sentence_too_long(ctx)
+    assert not content_sentence_too_long(ctx)
     # the same prose in a real note still fires
-    assert prose_sentence_too_long(make_ctx(txt, path=Path("/tmp/course/entropy.md")))
+    assert content_sentence_too_long(make_ctx(txt, path=Path("/tmp/course/entropy.md")))
 
 
-def test_prose_sentence_too_long_ignores_cloze_shards():
+def test_content_sentence_too_long_ignores_cloze_shards():
     """A line dense in cloze markup leaves wordless shards, which are ignored."""
-    txt = (
-        "---\naliases: [a]\ntags: [language/in/English]\n---\n"
-        "{@{[ a first fact ]@}   .  {@{[ ]@}{@{!@}   ?  {@{[ a second ]@}\n"
-    )
-    msgs = prose_sentence_too_long(make_ctx(txt))
+    txt = _FM + "{@[ a first fact ]@}   .  {@{[ ]@}{@{!@}   ?  {@{[ a second ]@}\n"
+    msgs = content_sentence_too_long(make_ctx(txt))
     assert msgs == []
 
 
 @pytest.mark.anyio
-async def test_prose_sentence_too_long_suppressed(tmp_path: PathLike[str]):
+async def test_content_sentence_too_long_suppressed(tmp_path: PathLike[str]):
     """A suppression comment at the end of the line silences the warning."""
     text = (
         "---\naliases: [a]\ntags: [language/in/English, flashcard/active/special/academia/test]\n---\n"
         + _LONG_SENTENCE
         + " "
-        + html_cpt("check: ignore-line[prose_sentence_too_long]: verbatim source")
+        + html_cpt("check: ignore-line[content_sentence_too_long]: verbatim source")
         + "\n"
     )
     file = Path(tmp_path) / "long.md"

@@ -4859,90 +4859,230 @@ def html_br_mid_line(ctx: ValidationContext) -> list[ValidationMessage]:
     return errors
 
 
-# prose sentence length -------------------------------------------------------
+# content sentence length ----------------------------------------------------
 
-"""Word ceiling above which a single prose sentence is reported.  Tunable: see :func:`prose_sentence_too_long` for the measured distribution behind it."""
-PROSE_SENTENCE_WORD_LIMIT = 50
+"""Word ceiling above which a single sentence of authored content is reported.  Tunable: see :func:`content_sentence_too_long` for the measured distribution behind it."""
+CONTENT_SENTENCE_WORD_LIMIT = 50
 
 """Regex matching a fenced code block delimiter line, opening or closing."""
-_PROSE_FENCE_RE = re.compile(r"^\s*(?:```|~~~)")
+_CONTENT_FENCE_RE = re.compile(r"^\s*(?:```|~~~)")
 
 """Regex matching a heading line, from ``#`` through ``######``."""
-_PROSE_HEADING_RE = re.compile(r"^\s*#{1,6}(?:\s|$)")
+_CONTENT_HEADING_RE = re.compile(r"^\s*#{1,6}(?:\s|$)")
 
 """Regex matching a list item at any indent, bullet or ordered."""
-_PROSE_LIST_RE = re.compile(r"^\s*(?:[-*+]|\d+[.)])\s")
+_CONTENT_LIST_RE = re.compile(r"^\s*(?:[-*+]|\d+[.)])\s")
 
-"""Regex matching an HTML comment, removed before any sentence is counted."""
-_PROSE_HTML_COMMENT_RE = re.compile(r"<!--.*?-->")
+"""Regex matching a blockquote prefix, stripped before words are counted."""
+_CONTENT_QUOTE_RE = re.compile(r"^\s*(?:>\s*)+")
 
-"""Regex matching a whole image construct; alt text is removed with it."""
-_PROSE_IMAGE_RE = re.compile(r"!\[[^\]]*\]\([^)]*\)")
+"""Regex matching a ``topic:`` session-metadata line, a list item or bare."""
+_CONTENT_TOPIC_RE = re.compile(r"^\s*(?:[-*+]|\d+[.)]\s*)?\s*topic:")
 
-"""Regex matching an inline code span, removed before any sentence is counted."""
-_PROSE_CODE_SPAN_RE = re.compile(r"`+[^`]*`+")
+"""Regex matching an HTML comment, blanked before any sentence is counted."""
+_CONTENT_HTML_COMMENT_RE = re.compile(r"<!--.*?-->")
 
-"""Regex matching display then inline LaTeX, removed before any sentence is counted."""
-_PROSE_MATH_RE = re.compile(r"\$\$.*?\$\$|\$[^$\n]*\$")
+"""Regex matching a whole image construct; alt text is blanked with it."""
+_CONTENT_IMAGE_RE = re.compile(r"!\[[^\]]*\]\([^)]*\)")
+
+"""Regex matching an inline code span, blanked before any sentence is counted."""
+_CONTENT_CODE_SPAN_RE = re.compile(r"`+[^`]*`+")
+
+"""Regex matching a display-math block across lines, blanked before counting.
+
+The interior lines of a multi-line ``$$`` block are not prose; blanking only
+a single-line ``$...$`` left three of the ninety-two bare-paragraph hits as
+artifacts of this construct.
+"""
+_CONTENT_DISPLAY_MATH_RE = re.compile(r"\$\$.*?\$\$", re.DOTALL)
+
+"""Regex matching inline LaTeX, blanked before any sentence is counted."""
+_CONTENT_INLINE_MATH_RE = re.compile(r"\$[^$\n]*\$")
+
+"""Regex matching an HTML block break, which ends a sentence.
+
+``<br/>``, ``<br>``, ``<p>``, ``</p>``, ``</div>`` and ``</li>`` each end one.
+This repository formats a multi-statement answer with them, so a 155-word
+"sentence" is often five short statements.
+"""
+_CONTENT_HTML_BREAK_RE = re.compile(r"</?(?:br|p|div|li)\s*/?>")
+
+"""Regex matching a table cell delimiter, blanked before words are counted."""
+_CONTENT_PIPE_RE = re.compile(r"\|")
 
 """Regex splitting prose on a sentence-ending mark followed by whitespace."""
-_PROSE_SENTENCE_SPLIT_RE = re.compile(r"(?<=[.!?])\s+")
+_CONTENT_SENTENCE_SPLIT_RE = re.compile(r"(?<=[.!?])\s+")
 
 
-def _is_prose_line(line: str) -> bool:
-    """Return ``True`` when *line* is prose :func:`prose_sentence_too_long` measures.
+def _blank_match(m: re.Match[str]) -> str:
+    """Return spaces matching *m*'s length, keeping the surrounding text intact.
 
-    Excluded here, before any markup is stripped: blank lines, indented lines
-    (the continuation line of a list item), headings, list items, blockquotes,
-    table rows, and flashcard lines.  A line holding a ``|`` counts as a table
-    row, matching the pipe check :func:`no_soft_wrap_paragraph` already makes.
-    Frontmatter, fenced code, and code blocks are excluded by the caller,
-    which is the only place that knows byte offsets.
+    Blanking rather than deleting keeps every offset in the blanked string
+    valid for the original one, so a message can point at the exact span it
+    measured, and leaves the neighbouring words separated rather than fused.
     """
-    if not line.strip() or line[0].isspace():
-        return False
-    if _PROSE_HEADING_RE.match(line) or _PROSE_LIST_RE.match(line):
-        return False
-    if line.startswith(">") or "|" in line:
-        return False
-    # ``:@:`` also covers the two-sided ``::@::``: a flashcard's answer is
-    # written for recall, not for reading as running prose.
-    return ":@:" not in line
+    return " " * len(m.group(0))
+
+
+def _break_as_sentence_end(m: re.Match[str]) -> str:
+    """Return *m*'s HTML break as a full stop plus padding of the same length.
+
+    Same-length output keeps offsets aligned, while the full stop lets the
+    existing sentence-splitting regex see the break as a sentence boundary.
+    """
+    return "." + " " * (len(m.group(0)) - 1)
+
+
+def _blank_display_math(text: str) -> str:
+    """Return *text* with every ``$$ ... $$`` display block blanked.
+
+    Line breaks inside the block are kept, so the blanked text still splits
+    into the same lines at the same offsets as *text*.
+    """
+    return _CONTENT_DISPLAY_MATH_RE.sub(
+        lambda m: "".join(c if c in "\r\n" else " " for c in m.group(0)), text
+    )
+
+
+def _iter_sentence_spans(text: str) -> Iterator[tuple[int, int]]:
+    """Yield the ``(start, end)`` span of every sentence in *text*.
+
+    Spans are the pieces left by splitting on a sentence-ending mark followed
+    by whitespace, and may be empty where the text begins or ends with one.
+    """
+    start = 0
+    for m in _CONTENT_SENTENCE_SPLIT_RE.finditer(text):
+        yield start, m.start()
+        start = m.end()
+    yield start, len(text)
+
+
+def _content_reference_ranges(
+    text: str, ast: list[AstNode] | None
+) -> list[tuple[int, int]]:
+    """Return the ``(start, end)`` byte ranges of every ``## references`` section.
+
+    A section runs from just after its level-2 heading to the next heading of
+    the same or higher level, or to the end of the file.  Reference lines are
+    measured, because a citation carries a real sentence of its own.
+    """
+    ranges: list[tuple[int, int]] = []
+    headers = _build_filtered_header_positions(text, ast)
+    for i, (_pos, level, m) in enumerate(headers):
+        if level != 2 or _normalize_heading_text(m.group(2)) != "references":
+            continue
+        end = len(text)
+        for next_pos, next_level, _ in headers[i + 1 :]:
+            if next_level <= level:
+                end = next_pos
+                break
+        ranges.append((m.end(), end))
+    return ranges
+
+
+def _content_units(line: str, in_references: bool) -> list[tuple[str, int, int]]:
+    """Return the ``(kind, start, end)`` units of *line* to measure.
+
+    Most lines are one unit.  A two-sided ``::@::`` card is two, because its
+    prompt and its answer are separate sentences: counted whole, they fuse
+    into one apparent sentence and every long card is double-counted.  A
+    one-sided ``:@:`` card has no prompt side and is measured as written.
+
+    ``None`` is never returned; a line with nothing to measure yields an empty
+    list, which is the signal to skip it.  An indented line that opens no list
+    item and no quote is the continuation of the line above it, and is left to
+    :func:`no_soft_wrap_paragraph`.
+    """
+    if not line.strip() or _CONTENT_HEADING_RE.match(line):
+        return []
+
+    split = line.find("::@::")
+    if split != -1:
+        units = [("flashcard prompt", 0, split)]
+        if line[split + len("::@::") :].strip():
+            units.append(("flashcard answer", split + len("::@::"), len(line)))
+        return units
+    if ":@:" in line:
+        return [("flashcard answer", 0, len(line))]
+
+    if _CONTENT_QUOTE_RE.match(line):
+        return [("quote", 0, len(line))]
+    if "|" in line:
+        return [("table row", 0, len(line))]
+    if in_references:
+        return [("reference line", 0, len(line))]
+    if _CONTENT_TOPIC_RE.match(line):
+        return [("session topic", 0, len(line))]
+    if _CONTENT_LIST_RE.match(line):
+        return [("list item", 0, len(line))]
+    if line[0].isspace():
+        # a soft-wrapped continuation, not a paragraph of its own
+        return []
+    return [("paragraph", 0, len(line))]
 
 
 @RULE_REGISTRY.register()
-def prose_sentence_too_long(ctx: ValidationContext) -> list[ValidationMessage]:
-    """Warn when a prose sentence runs past :data:`PROSE_SENTENCE_WORD_LIMIT` words.
+def content_sentence_too_long(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Warn when a sentence runs past :data:`CONTENT_SENTENCE_WORD_LIMIT` words.
 
     A reader loses the thread somewhere before the end of a sentence this
     long, and the sentence is usually grammatical — the fault is only its
     length.
 
-    The threshold is the tunable constant at the top of this rule, not a
-    guess.  It was measured over the 823 academic notes in this repository,
-    excluding every ``transcludes/`` directory: of 15,113 prose sentences,
-    1,652 exceed 30 words, 527 exceed 40, 201 exceed 50, and 94 exceed 60.
-    A 30-word ceiling would fire on 10.9% of sentences, mostly on correct
-    enumerations and definitions, so it was rejected.  Fifty words fires on
-    1.33%, and those are the genuine run-ons.  Raise or lower the constant
-    with that distribution in hand.
+    Everything an author writes is measured, not just running prose: bare
+    paragraphs, list items, table rows, blockquote lines, flashcard prompts
+    and answers, the lines of a ``## references`` section, and ``topic:``
+    session-metadata lines.  Each is reported with the kind of text that was
+    measured, so the reader knows what the count covered.
 
-    Only prose is measured.  Excluded: frontmatter, heading lines, table
-    rows, list items and their continuation lines, blockquotes, fenced code
-    blocks and their contents, HTML comments, flashcard lines, inline code
-    spans, LaTeX in both ``$...$`` and ``$$...$$``, and a whole
-    ``![alt](url)`` image — alt text in this repository is long and
-    descriptive, and would otherwise dominate the count.  Files under a
-    ``transcludes/`` directory are skipped entirely: they hold imported
-    Wikipedia text, where 27% of sentences exceed 30 words against 5.7% for
-    real notes.
+    Three constructs decide whether a count is real, and each one was fixed
+    against a measured artifact:
 
-    What is left is split into sentences on a sentence-ending mark followed
-    by whitespace, and words are whitespace-separated tokens.  A sentence
-    with no words is ignored, because cloze markup leaves punctuation-only
-    shards behind wherever a line is dense in ``{@{ }@}``.
+    * ``::@::`` cards are split before counting, so the prompt and the answer
+      are measured separately.  Counted whole they fuse into one apparent
+      sentence: 252 hits over 50 words, of which 160 are real and 92 are
+      sentences no author ever wrote.
+    * HTML block breaks end a sentence.  This repository formats
+      multi-statement answers with ``<br/>``, so a 155-word "sentence" is
+      often five short statements.
+    * multi-line ``$$ ... $$`` display math is stripped across lines before
+      anything is counted, so its interior lines are not read as prose.
 
-    A ``check: ignore-line[prose_sentence_too_long]`` comment at the end of
+    Also excluded: files under a ``transcludes/`` directory, which hold
+    imported Wikipedia text; frontmatter; heading lines; fenced code blocks
+    and their contents; inline code spans; LaTeX in both ``$...$`` and
+    ``$$...$$``; HTML comments; and a whole ``![alt](url)`` image, because the
+    long descriptive alt text this repository writes is a feature, not a
+    fault.  A sentence with no words is ignored, because dense ``{@{ }@}``
+    cloze markup leaves punctuation-only shards behind.
+
+    The threshold is measured, not guessed.  Counting ``::@::`` prompts and
+    answers separately and treating ``<br/>`` and ``<p>`` as sentence breaks,
+    over the 821 notes of this repository excluding every ``transcludes/``
+    directory::
+
+        bare_paragraph   n=25,680   >50: 95
+        qa answer        n=42,558   >50: 109
+        qa prompt        n=21,882   >50: 2
+        blockquote       n=18,095   >50: 13
+        list_item        n=18,518   >50: 10
+        table_row        n= 2,528   >50: 5
+        reference_entry  n=   287   >50: 0     max 39 words
+        session_topic    n=   762   >50: 1
+        COMBINED         n=130,310  >50: 235
+
+    A 30-word ceiling was rejected: it fires on 10.9% of sentences, mostly on
+    correct enumerations and IFRS definitions.  Fifty words fires on 0.18%,
+    and those are the genuine run-ons.  Retune the constant against that
+    table, not by feel.
+
+    The qa-answer row is the one to watch when retuning.  It is 109 here but
+    160 when the same measurement does *not* split at HTML breaks, and all 49
+    of the difference are bulleted answers whose bullets are already separate
+    short statements — exactly the case treating ``<br/>`` as a sentence
+    boundary is there to stop flagging.
+
+    A ``check: ignore-line[content_sentence_too_long]`` comment at the end of
     the line suppresses the warning; the validator applies it centrally, and
     :func:`misplaced_suppression_comment` keeps it from drifting.
     """
@@ -4955,52 +5095,72 @@ def prose_sentence_too_long(ctx: ValidationContext) -> list[ValidationMessage]:
     fm = FRONT_RE.match(text)
     body_start = fm.end() if fm else 0
     code_ranges = _build_code_block_ranges(text, ctx.ast)
+    reference_ranges = _content_reference_ranges(text, ctx.ast)
+    # Display math spans lines, so it is blanked once over the whole file and
+    # the line loop below reads the blanked copy, which keeps every offset.
+    blanked = _blank_display_math(text)
 
     in_fence = False
     line_start = 0
-    for raw in text.split("\n"):
+    for raw, masked in zip(text.split("\n"), blanked.split("\n"), strict=True):
         line = raw.rstrip("\r")
+        prose = masked.rstrip("\r")
         offset = line_start
         line_start += len(raw) + 1
 
-        if _PROSE_FENCE_RE.match(line):
+        if _CONTENT_FENCE_RE.match(line):
             in_fence = not in_fence
             continue
         if in_fence or offset < body_start:
             continue
         if any(start <= offset < end for start, end in code_ranges):
             continue
-        if not _is_prose_line(line):
+
+        units = _content_units(
+            line, any(start <= offset < end for start, end in reference_ranges)
+        )
+        if not units:
             continue
 
-        # Strip the markup that is not prose, each removal leaving the single
-        # space that keeps the surrounding words from fusing into one token.
-        prose = _PROSE_HTML_COMMENT_RE.sub(" ", line)
-        prose = _PROSE_IMAGE_RE.sub(" ", prose)
-        prose = _PROSE_CODE_SPAN_RE.sub(" ", prose)
-        prose = _PROSE_MATH_RE.sub(" ", prose)
+        for kind, unit_start, unit_end in units:
+            # Blank the markup that is not prose, and turn an HTML break into
+            # a sentence end.  Both keep the length, so spans below are also
+            # spans of the original line.
+            unit = prose[unit_start:unit_end]
+            unit = _CONTENT_HTML_COMMENT_RE.sub(_blank_match, unit)
+            unit = _CONTENT_IMAGE_RE.sub(_blank_match, unit)
+            unit = _CONTENT_CODE_SPAN_RE.sub(_blank_match, unit)
+            unit = _CONTENT_INLINE_MATH_RE.sub(_blank_match, unit)
+            unit = _CONTENT_QUOTE_RE.sub(_blank_match, unit)
+            unit = _CONTENT_HTML_BREAK_RE.sub(_break_as_sentence_end, unit)
+            unit = _CONTENT_PIPE_RE.sub(_blank_match, unit)
 
-        for sentence in _PROSE_SENTENCE_SPLIT_RE.split(prose):
-            words = len(sentence.split())
-            if words <= PROSE_SENTENCE_WORD_LIMIT:
-                continue
-            line_no, col, col_end = locate_range(text, offset, len(line))
-            errors.append(
-                ValidationMessage(
-                    rule_id="prose_sentence_too_long",
-                    msg=(
-                        f"Prose sentence is {words} words (over {PROSE_SENTENCE_WORD_LIMIT}). "
-                        "A reader loses the thread in a sentence this long. Split it, or move "
-                        "the trailing clause into its own sentence, or turn the list into "
-                        "bullets. Suppress with:\n"
-                        + html_cpt(
-                            "check: ignore-line[prose_sentence_too_long]: reason"
-                        )
-                    ),
-                    severity=Severity.WARNING,
-                    line=line_no,
-                    col=col,
-                    col_end=col_end,
+            for sent_start, sent_end in _iter_sentence_spans(unit):
+                words = len(unit[sent_start:sent_end].split())
+                if not words or words <= CONTENT_SENTENCE_WORD_LIMIT:
+                    continue
+                line_no, col, col_end = locate_range(
+                    text,
+                    offset + unit_start + sent_start,
+                    sent_end - sent_start,
                 )
-            )
+                errors.append(
+                    ValidationMessage(
+                        rule_id="content_sentence_too_long",
+                        msg=(
+                            f"Prose sentence is {words} words "
+                            f"(over {CONTENT_SENTENCE_WORD_LIMIT}) in a {kind}. "
+                            "A reader loses the thread in a sentence this long. "
+                            "Split it, move the trailing clause into its own "
+                            "sentence, or turn the list into bullets. Suppress with:\n"
+                            + html_cpt(
+                                "check: ignore-line[content_sentence_too_long]: reason"
+                            )
+                        ),
+                        severity=Severity.WARNING,
+                        line=line_no,
+                        col=col,
+                        col_end=col_end,
+                    )
+                )
     return errors
