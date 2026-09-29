@@ -81,7 +81,9 @@ __Post-conditions__: do not proceed to classification until all hold.
 - `manifest.json` records the source SHA-256, format, page count, and timestamp
 - The recorded page count matches the source document
 
-__Full coverage__: account for every page. Page text goes into the note; a figure the prose depends on is transcribed into it, and attached only when the picture itself is the material. A note that drops pages is an incomplete extraction, not a summary. If a source has no extractable text (scanned images only), say so and work from its images.
+__Read every page, write what earns its place.__ Reading is total. No page goes unread, and the report says what was left out and why. Writing is not total: a page earns prose when the material works something through on it. Naming a concept on a slide is not working through it. Read that page anyway, then report the omission rather than writing it up.
+
+Transcribe a figure the prose depends on. Attach the picture itself only when the picture is the material. If a source has no extractable text (scanned images only), say so and work from its images.
 
 Document-like formats (PDF, DOCX, PPTX) produce extraction outputs that are persisted near the source:
 
