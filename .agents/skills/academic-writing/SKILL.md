@@ -175,6 +175,6 @@ Say in the brief that the job is a rewrite and not a touch-up. A child left to i
 
 Name the four scales in the brief. A child told only about paragraphs will do paragraphs.
 
-Ban partial-sentence edits explicitly, and name the banned git commands explicitly, as "not `log`, not `show`, not `rev-list`, not `blame`, not `restore`". Say in the brief that `status`, `diff`, and the commit are how the child lands the work and are not covered. A general ban on git has been ignored, and the named list is the part that has to be written down.
+Ban partial-sentence edits explicitly, and name the banned git commands explicitly, using the same list as "Take the material, not the history" above. Say in the brief that `status`, `diff`, and the commit are how the child lands the work and are not covered. A general ban on git has been ignored, and the named list is the part that has to be written down.
 
 Before/after numbers must be reconstructed from the child's own initial read. Do not pass counts in the brief, and do not accept a delta the child never measured.
