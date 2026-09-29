@@ -228,9 +228,9 @@ Input: solution file(s).
 
 ### Stage 5: Topic-note reconciliation
 
-Every submission carries concepts the course's topic notes may already own. After the stages above, run "Topic-note reconciliation (mandatory)" in `academic-ingest`: extend the owning note with any fact, distinction, example, or card it lacks, prune what the material supersedes, create a topic note when none owns a durable concept, or record that the concept is already covered. A drawing the submission teaches is one of those concepts. The note that defines it carries the drawing as an SVG in `attachments/` (see "Definitional drawings" in `academic-ingest`); a picture belonging to one question stays a crop in that submission's own `attachments/`.
+Every submission carries concepts the course's topic notes may already own. After the stages above, run "Topic-note reconciliation (mandatory)" in `academic-ingest`. A concept the submission names without developing stays in the session file, so start from the concepts it develops: extend the owning note where it adds something needed to state a concept the note already holds, prune what the material supersedes, create a topic note when none owns a developed concept, or record that the concept is already covered. A drawing the submission teaches is one of those concepts. The note that defines it carries the drawing as an SVG in `attachments/` (see "Definitional drawings" in `academic-ingest`); a picture belonging to one question stays a crop in that submission's own `attachments/`.
 
-`lab.md`, `tutorial.md`, and `lecture.md` are the session's pages, not the home of its concepts; a concept that reaches only a session file is an unfinished ingestion. The session file keeps the material's own wording, while the topic note states the concept.
+`lab.md`, `tutorial.md`, and `lecture.md` are the session's pages, not the home of its concepts. The session file keeps the material's own wording, while the topic note states the concept.
 
 Reconcile before the humanizer pass, so the changed notes get humanized and validated together with the submission.
 
