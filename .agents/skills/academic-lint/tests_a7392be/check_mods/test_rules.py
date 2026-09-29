@@ -3792,6 +3792,13 @@ def test_content_sentence_too_long_ignores_frontmatter_code_and_numbers():
     assert not content_sentence_too_long(make_ctx(txt))
 
 
+def test_content_sentence_too_long_ignores_blockquotes():
+    """A blockquote is verbatim text, so a warning on it is unactionable."""
+    long_s = " ".join(f"w{i}" for i in range(60))
+    txt = _FM + "> " + long_s + "\n\nprose " + "short.\n"
+    assert content_sentence_too_long(make_ctx(txt)) == []
+
+
 def test_content_sentence_too_long_ignores_transcludes():
     """Imported Wikipedia text under transcludes/ is not measured."""
     txt = _FM + _LONG_SENTENCE + "\n"

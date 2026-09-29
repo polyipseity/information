@@ -5006,7 +5006,10 @@ def _content_units(line: str, in_references: bool) -> list[tuple[str, int, int]]
         return [("flashcard answer", 0, len(line))]
 
     if _CONTENT_QUOTE_RE.match(line):
-        return [("quote", 0, len(line))]
+        # Quoted text is verbatim: the author must not rewrite it, so a
+        # warning here is unactionable and would only ever need a
+        # suppression.  Same reason transcludes/ is skipped.
+        return []
     if "|" in line:
         return [("table row", 0, len(line))]
     if in_references:
@@ -5030,7 +5033,7 @@ def content_sentence_too_long(ctx: ValidationContext) -> list[ValidationMessage]
     length.
 
     Everything an author writes is measured, not just running prose: bare
-    paragraphs, list items, table rows, blockquote lines, flashcard prompts
+    paragraphs, list items, table rows, flashcard prompts
     and answers, the lines of a ``## references`` section, and ``topic:``
     session-metadata lines.  Each is reported with the kind of text that was
     measured, so the reader knows what the count covered.
@@ -5048,7 +5051,9 @@ def content_sentence_too_long(ctx: ValidationContext) -> list[ValidationMessage]
     * multi-line ``$$ ... $$`` display math is stripped across lines before
       anything is counted, so its interior lines are not read as prose.
 
-    Also excluded: files under a ``transcludes/`` directory, which hold
+    Also excluded: blockquote lines, which are verbatim text the author
+    must not rewrite, so a warning there is unactionable; files under a
+    ``transcludes/`` directory, which hold
     imported Wikipedia text; frontmatter; heading lines; fenced code blocks
     and their contents; inline code spans; LaTeX in both ``$...$`` and
     ``$$...$$``; HTML comments; and a whole ``![alt](url)`` image, because the
@@ -5064,12 +5069,11 @@ def content_sentence_too_long(ctx: ValidationContext) -> list[ValidationMessage]
         bare_paragraph   n=25,680   >50: 95
         qa answer        n=42,558   >50: 109
         qa prompt        n=21,882   >50: 2
-        blockquote       n=18,095   >50: 13
         list_item        n=18,518   >50: 10
         table_row        n= 2,528   >50: 5
         reference_entry  n=   287   >50: 0     max 39 words
         session_topic    n=   762   >50: 1
-        COMBINED         n=130,310  >50: 235
+        COMBINED         n=130,310  >50: 222
 
     A 30-word ceiling was rejected: it fires on 10.9% of sentences, mostly on
     correct enumerations and IFRS definitions.  Fifty words fires on 0.18%,
