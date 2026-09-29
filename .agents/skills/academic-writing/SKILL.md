@@ -93,7 +93,7 @@ None of this has one right answer. Ask which order the reader is being served, t
 
 ### Lists
 
-Can a reader predict the order? Steps run in causal order. Definitions run in the order the prose introduces them. A list of examples puts the clearest first. An order the reader cannot predict is a set they have to hold all at once. Preventing that is what a list is for.
+Can a reader predict the order? Steps run in causal order. Definitions run in the order the prose introduces them. A list of examples puts the clearest first. An order the reader cannot predict is a set they have to hold all at once. Preventing that is what a list is for. Never stack a list inside a list.
 
 A list item that runs to a paragraph has stopped being a list, and the reader loses the scan that made it worth having. Split it across several items, one claim each, or lift it out to stand as a paragraph beside the list. Do not shorten a genuine claim to fit the shape; a list holding half a fact is worse than prose.
 
@@ -161,6 +161,10 @@ After rewriting, recheck every `two_sided_calc_warning` suppression. Cutting a p
 
 When this pass goes to a subagent, the brief names __both__ skills and gives each path, and makes the child read both before editing. It also makes the child report which sections moved, which paragraphs were deleted, which sentences were taken apart, and which humanizer patterns it applied. A child reporting nothing measurable has most likely done nothing.
 
-Say in the brief that the job is a rewrite and not a touch-up. A child left to infer that will produce the tidy-up. Name the four scales in the brief, because a child told only about paragraphs will do paragraphs. Tell it to cut before it rewrites, because a child left to infer that will only reword. Ban partial-sentence edits explicitly, and name the banned git commands explicitly, as "not `status`, not `show`, not `diff`, not `rev-parse`". A general ban on git has been ignored. The named list is the part that has to be written down.
+Say in the brief that the job is a rewrite and not a touch-up. A child left to infer that will produce the tidy-up. Tell it to cut before it rewrites, because a child left to infer that will only reword.
+
+Name the four scales in the brief. A child told only about paragraphs will do paragraphs.
+
+Ban partial-sentence edits explicitly, and name the banned git commands explicitly, as "not `status`, not `show`, not `diff`, not `rev-parse`". A general ban on git has been ignored. The named list is the part that has to be written down.
 
 Before/after numbers must be reconstructed from the child's own initial read. Do not pass counts in the brief, and do not accept a delta the child never measured.
