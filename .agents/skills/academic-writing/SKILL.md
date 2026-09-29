@@ -109,7 +109,7 @@ Cards carry most of the content in this repository, and nothing enforces their l
 
 Does the block open on its foundational claim? Matching the prose is the floor, not the ceiling. A block that starts on an incidental detail and saves the claim the section exists to make drills the wrong thing first.
 
-Take a card apart the way you take any sentence apart. A prompt that gives its own answer away is broken rather than long, and trimming will not repair it. A prompt that runs long is a paragraph in disguise, sitting where the reader expected a question. A card doing two claims is two cards, and two cards asking the same thing are one card. Never add a card to reach coverage. A claim with no card is not a claim the note makes. Where a table row already states a fact, neither prose nor a card restates it.
+Take a card apart the way you take any sentence apart. A prompt that gives its own answer away is broken rather than long, and trimming will not repair it. A prompt that runs long is a paragraph in disguise, sitting where the reader expected a question. A card doing two claims is two cards, and two cards asking the same thing are one card. Never add a card to reach coverage. A card carries something a reader is asked to recall, and a note is allowed to state a fact once in prose and stop there. Where a table row already states a fact, neither prose nor a card restates it.
 
 A short clear phrase beats a full sentence. Do not bolt a verb onto a noun-phrase fragment to make it grammatical. That inflates the answer without adding meaning. Never cut a given or a piece of notation from a prompt. That breaks a calculation card rather than shortening it, and the card ends up unanswerable rather than merely long.
 
