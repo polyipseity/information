@@ -14,6 +14,7 @@ Full Wikipedia articles kept as Markdown with cloze markup, for a course that po
 ## Key rules
 
 - Store articles as `.md` files with full frontmatter and cloze markup
+- A transclude makes a topic findable. When the course did not attend the topic, nothing in a note's prose or cards derives from it, and a description in the course `index.md` is the most it gets
 - Use `find_wikipedia.py` from `academic-crud-topic-note` for canonical title discovery
 - The flashcard tag path includes a `transcludes/` segment (e.g., `flashcard/active/special/academia/HKUST/ELEC 4110/transcludes/Fourier transform`)
 - Link from the course `## children` as topic notes

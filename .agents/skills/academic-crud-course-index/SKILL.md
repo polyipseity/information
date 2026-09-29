@@ -204,7 +204,7 @@ A recurrent course runs every term instead of once. It carries `- status: recurr
 
 ## Session outline content: sections, not files
 
-A session entry records what the session taught. After the metadata, list each note the session created or expanded, then the note sections its material covers:
+A session entry records what the session taught. After the metadata, list each note the session created or expanded, then the note sections its material covers. A note the session barely reached is listed with only what it reached, so a short note reads as short by design rather than unfinished:
 
 ```markdown
 ## week 1 lecture 1

@@ -523,7 +523,7 @@ __Decide what the material develops before listing anything.__ A concept enters 
 
 Run this after the dispatched CRUD skill has written its files and before the humanizer pass:
 
-1. __List the concepts.__ Take every concept the material develops, including ones that look already covered.
+1. __List the concepts.__ Take every concept the material develops, including ones that look already covered. Mark the claims the material made and the claims you looked up, because a looked-up claim is background: it earns a definition at most, and it never shares a sentence with one the material made, since a sentence mixing the two hides which half the course said.
 2. __Find the owning note and section.__ Match by canonical title and by section meaning, never by wording; a course note may cover the concept under a different name.
 3. __Apply exactly one outcome per concept, and record it:__
     - __extend__: the material adds something the note lacks to state the concept it already holds. Write it into the owning section in the note's own words;
