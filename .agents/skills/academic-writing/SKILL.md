@@ -87,9 +87,9 @@ Its instruction to "rewrite the smallest spans needed to fix them" is __supersed
 
 ## Lists, tables, cards, and reference lines
 
-A reader walks a list, scans a table, drills a card block, and hunts a name in a reference list. Each is a sequence, and the order inside it costs what a bad paragraph order costs. A single cell and a single reference line hold no sequence of their own. The order lives one level up, in the list of cells and the list of entries.
+A reader walks a list, scans a table, drills a card block, and hunts a name in a reference list. Each is a sequence. Getting the order wrong inside one costs the reader what getting it wrong between paragraphs costs. A single cell and a single reference line hold no sequence of their own. The order lives one level up, in the list of cells and the list of entries.
 
-None of this has one right answer. Ask which order the reader is being served, then check that the note actually uses it. A pass that asserts one correct row order for tables is inventing a rule the note never asked for.
+No structure here has one right order. Ask which order the reader is being served, then check that the note actually uses it. A pass that asserts one correct row order for tables is inventing a rule the note never asked for.
 
 ### Lists
 
@@ -105,7 +105,7 @@ A cell holding a sentence breaks the alignment that made the table readable. Cut
 
 ### Cards
 
-Cards carry most of the content in this repository, and nothing enforces their length. A pass finds the most to fix here. A card answer has to be recalled in seconds, and a long one is worse than a long paragraph. A reader can re-read a paragraph. A card gives one attempt.
+Cards carry most of the content in this repository, and nothing enforces their length. A card answer has to be recalled in seconds, and a long one is worse than a long paragraph. A reader can re-read a paragraph. A card gives one attempt.
 
 Does the block open on its foundational claim? Matching the prose is the floor, not the ceiling. A block that starts on an incidental detail and saves the claim the section exists to make drills the wrong thing first.
 
@@ -121,7 +121,7 @@ Can a reader find a name? Alphabetical is the default, and grouping by the argum
 
 ## Reference: words and shape
 
-This is a lookup table. The two examples above are the method, and the [humanizer](~/.agents/skills/humanizer/SKILL.md) skill documents the surface patterns this pass leaves alone.
+This is a lookup table. The two examples above are the method.
 
 Use the plainest word that is still accurate, and keep a technical term when the subject genuinely needs it.
 
