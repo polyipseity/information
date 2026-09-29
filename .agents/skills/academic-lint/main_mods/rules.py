@@ -5027,45 +5027,47 @@ def _content_units(line: str, in_references: bool) -> list[tuple[str, int, int]]
 
 @RULE_REGISTRY.register()
 def content_sentence_too_long(ctx: ValidationContext) -> list[ValidationMessage]:
-    """Warn when a sentence runs past :data:`CONTENT_SENTENCE_WORD_LIMIT` words.
+    """Warn when one sentence of authored text runs past the word limit.
 
-    A reader loses the thread somewhere before the end of a sentence this
-    long, and the sentence is usually grammatical. The fault is its length
-    and nothing else.
+    A reader loses the thread well before the end of a sentence this long.
+    The sentence is usually grammatical, and that is not the problem: the
+    problem is its length and nothing else.
 
-    Everything an author writes is measured, not just running prose: bare
-    paragraphs, list items, table rows, flashcard prompts
-    and answers, the lines of a ``## references`` section, and ``topic:``
-    session-metadata lines.  Each is reported with the kind of text that was
-    measured, so the reader knows what the count covered.
+    Measured, not just running prose: bare paragraphs, list items, table
+    rows, flashcard prompts and answers, the lines of a ``## references``
+    section, and ``topic:`` session-metadata lines. Every hit names the kind
+    of text it measured, so the reader knows what the count covered.
 
-    Three constructs decide whether a count is real, and each one was fixed
-    against a measured artifact:
+    Two sentences that look identical to a character counter differ here. A
+    flashcard prompt and its answer sit on one line as ``- what is X ::@:: Y``,
+    and the whole line fuses into one apparent sentence. Counted that way, a
+    note full of ordinary cards produces 252 hits over 50 words, of which 92
+    are sentences no author ever wrote. The prompt and the answer are
+    therefore split and measured apart, and the 252 becomes 160. A bulleted
+    answer broken by ``<br/>`` is a second example of the same fault: five
+    short statements written as one 155-word "sentence", so a block break
+    ends a sentence.
 
-    * ``::@::`` cards are split before counting, so the prompt and the answer
-      are measured separately.  Counted whole they fuse into one apparent
-      sentence: 252 hits over 50 words, of which 160 are real and 92 are
-      sentences no author ever wrote.
-    * HTML block breaks end a sentence.  This repository formats
-      multi-statement answers with ``<br/>``, so a 155-word "sentence" is
-      often five short statements.
-    * multi-line ``$$ ... $$`` display math is stripped across lines before
-      anything is counted, so its interior lines are not read as prose.
+    Three more things are stripped or skipped before anything is counted.
+    Display math is blanked across lines first, so the interior of a
+    ``$$ ... $$`` block is not read as prose; without that, a raw
+    Taylor-series line is reported as a 109-word sentence. A sentence with no
+    words is ignored, because dense ``{@{ }@}`` cloze markup leaves
+    punctuation-only shards behind. And a whole ``![alt](url)`` image goes
+    with its alt text, because the long descriptive alt text this repository
+    writes is deliberate.
 
-    Also excluded: blockquote lines, which are verbatim text the author
-    must not rewrite, so a warning there is unactionable; files under a
-    ``transcludes/`` directory, which hold
-    imported Wikipedia text; frontmatter; heading lines; fenced code blocks
-    and their contents; inline code spans; LaTeX in both ``$...$`` and
-    ``$$...$$``; HTML comments; and a whole ``![alt](url)`` image, because the
-    long descriptive alt text this repository writes is a feature, not a
-    fault.  A sentence with no words is ignored, because dense ``{@{ }@}``
-    cloze markup leaves punctuation-only shards behind.
+    Also skipped, each for a reason rather than by habit: blockquote lines,
+    since quoted text is verbatim and the author must not rewrite it, so a
+    warning there is unactionable; files under a ``transcludes/`` directory,
+    which hold imported Wikipedia and run far longer than authored notes;
+    frontmatter and heading lines; fenced code blocks and their contents;
+    inline code spans; LaTeX in both ``$...$`` and ``$$...$$``; and HTML
+    comments.
 
-    The threshold is measured, not guessed.  Counting ``::@::`` prompts and
-    answers separately and treating ``<br/>`` and ``<p>`` as sentence breaks,
-    over the 821 notes of this repository excluding every ``transcludes/``
-    directory::
+    The limit is measured, not guessed. Counting ``::@::`` prompts and answers
+    apart and treating ``<br/>`` and ``<p>`` as sentence breaks, over the 821
+    notes here that sit outside every ``transcludes/`` directory::
 
         bare_paragraph   n=25,680   >50: 95
         qa answer        n=42,558   >50: 109
@@ -5076,19 +5078,18 @@ def content_sentence_too_long(ctx: ValidationContext) -> list[ValidationMessage]
         session_topic    n=   762   >50: 1
         COMBINED         n=130,310  >50: 222
 
-    A 30-word ceiling was rejected: it fires on 10.9% of sentences, mostly on
-    correct enumerations and IFRS definitions.  Fifty words fires on 0.18%,
-    and those are the genuine run-ons.  Retune the constant against that
-    table, not by feel.
+    A 30-word ceiling was rejected. It fires on 10.9% of sentences, mostly on
+    correct enumerations and IFRS definitions, and a rule that cries wolf
+    costs a suppression to maintain at every site it misfires. Fifty words
+    fires on 0.17%, and those are the run-ons.
 
-    The qa-answer row is the one to watch when retuning.  It is 109 here,
-    but 160 when the same measurement does *not* split at HTML breaks, and
-    all 49 of the difference are bulleted answers whose bullets are already
-    separate short statements, which is exactly the case that treating
-    ``<br/>`` as a sentence boundary is there to stop flagging.
+    Retune the constant against that table rather than by feel. The qa-answer
+    row is the one to watch: it reads 109 here and 160 without the ``<br/>``
+    split, and all 49 of the difference are bulleted answers that are already
+    separate short statements.
 
     A ``check: ignore-line[content_sentence_too_long]`` comment at the end of
-    the line suppresses the warning; the validator applies it centrally, and
+    the line suppresses the warning. The validator applies it centrally, and
     :func:`misplaced_suppression_comment` keeps it from drifting.
     """
     errors: list[ValidationMessage] = []
