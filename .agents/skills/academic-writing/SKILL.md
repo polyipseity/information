@@ -61,7 +61,7 @@ After:
 
 > Two paragraphs doing the same job become one. A paragraph doing three becomes three. Each example moves ahead of the rule it illustrates. Each term moves after the point that needs it. A paragraph that only repeats an earlier one is cut.
 
-One sentence doing five, and every part carrying the same job. Five parts sharing one job belong in five sentences. They do not belong in a chain of clauses joined by "and".
+One sentence doing five, and every part carrying the same job. Five parts sharing one job belong in five sentences, not in a chain of clauses joined by "and".
 
 No word changed meaning. The reader now gets one instruction per breath.
 
@@ -81,11 +81,9 @@ __Then hand over.__ Once the order and the packing are right, run the [humanizer
 
 ## Running humanizer
 
-The [humanizer](~/.agents/skills/humanizer/SKILL.md) skill is still loaded, and it still owns the surface patterns it documents: inflated significance, promotional tone, vague attribution, thesaurus cycling, stacked rules of three, and the rest. Read it and follow its list.
+The [humanizer](~/.agents/skills/humanizer/SKILL.md) skill owns the surface patterns this pass leaves behind. Read it and follow its list.
 
 Its instruction to "rewrite the smallest spans needed to fix them" is __superseded here__, for packing as well as for order. In a sentence doing three jobs, the smallest span is often the clause that was already fine.
-
-Order first, then packing, then surface patterns.
 
 ## Lists, tables, cards, and reference lines
 
@@ -149,7 +147,7 @@ Use the plainest word that is still accurate, and keep a technical term when the
 | subsequent | later |
 | approximate | rough |
 
-These usually go: "so", "which is why", "therefore", "thus", "hence", "moreover", "furthermore", "at the same time", "in addition", "as a result", "it is worth noting", "in other words", "that said". "So" and "but" are the two worth keeping, and only where the relation is real. Never stack a list inside a list.
+These usually go: "which is why", "therefore", "thus", "hence", "moreover", "furthermore", "at the same time", "in addition", "as a result", "it is worth noting", "in other words", "that said". "So" and "but" are the two worth keeping, and only where the relation is real.
 
 ## What the pass must not do
 
