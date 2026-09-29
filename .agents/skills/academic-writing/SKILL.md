@@ -79,6 +79,8 @@ __End on a full stop.__ A connective is not a shorter full stop. It is a claim t
 
 __Then hand over.__ Once the order and the packing are right, run the [humanizer](~/.agents/skills/humanizer/SKILL.md) skill over what you changed. It holds the list. This pass holds the structure. Both run, and the sentences this pass rewrote are the ones it has to check.
 
+__Take the material, not the history.__ Git history shows what the note used to say, and an agent that reads it starts restoring old wording instead of rewriting. Not `log`, not `show`, not `rev-list`, not `reflog`, not `blame`, not `checkout`, not `restore`, not `stash`. The named list is the part that holds, because a general ban on git gets ignored. Once the rewrite is done, git is how the work lands, so `status`, `diff`, `add`, and the commit itself follow the repository's commit convention rather than this rule.
+
 ## Running humanizer
 
 The [humanizer](~/.agents/skills/humanizer/SKILL.md) list is the bar. Read it in full, and do not work from a summary of it or from memory of it. Half the patterns on it are ones a reader notices without being able to name them, which is why a remembered list is worse than none at all.
@@ -163,8 +165,6 @@ Do not pad, and do not delete a real fact to reach a shorter note. Do not narrat
 
 Never edit part of a sentence. Replace the whole paragraph, because a partial edit is what produces a result that reports success and changes nothing a reader would notice.
 
-Never run git during the rewrite. Not `status`, not `show`, not `diff`, not `rev-parse`, not `add`, not `log`, not anything. There is no read-only exception.
-
 After rewriting, recheck every `two_sided_calc_warning` suppression. Cutting a prompt can strand one, and `academic-lint` errors on a stranded suppression.
 
 ## Delegation
@@ -175,6 +175,6 @@ Say in the brief that the job is a rewrite and not a touch-up. A child left to i
 
 Name the four scales in the brief. A child told only about paragraphs will do paragraphs.
 
-Ban partial-sentence edits explicitly, and name the banned git commands explicitly, as "not `status`, not `show`, not `diff`, not `rev-parse`". A general ban on git has been ignored. The named list is the part that has to be written down.
+Ban partial-sentence edits explicitly, and name the banned git commands explicitly, as "not `log`, not `show`, not `rev-list`, not `blame`, not `restore`". Say in the brief that `status`, `diff`, and the commit are how the child lands the work and are not covered. A general ban on git has been ignored, and the named list is the part that has to be written down.
 
 Before/after numbers must be reconstructed from the child's own initial read. Do not pass counts in the brief, and do not accept a delta the child never measured.
