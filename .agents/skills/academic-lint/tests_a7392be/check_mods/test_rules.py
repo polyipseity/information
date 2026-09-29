@@ -76,6 +76,7 @@ from main_mods.rules import (
     no_soft_wrap_paragraph,
     numeric_text_not_latex,
     one_sided_calc_warning,
+    prose_sentence_too_long,
     qa_hierarchical_path,
     qa_nested_indentation,
     section_example_heading,
@@ -3656,3 +3657,110 @@ async def test_index_courses_missing_rule(tmp_path: PathLike[str]) -> None:
 
     # only index.md files are checked
     assert not await index_courses_missing(make_ctx(txt, path=root / "note.md"))
+
+
+# long-sentence prose tests ---------------------------------------------------
+
+# 60 words, built from numbered tokens so the count is unambiguous.
+_LONG_SENTENCE = " ".join(f"word{i}" for i in range(60)) + "."
+
+
+def test_prose_sentence_too_long_short_prose():
+    """Ordinary prose stays under the limit and produces no message."""
+    txt = (
+        "---\naliases: [a]\ntags: [language/in/English]\n---\n"
+        "## history\n\n"
+        "The first release shipped in 1993. It changed nothing at first.\n"
+    )
+    assert not prose_sentence_too_long(make_ctx(txt))
+
+
+def test_prose_sentence_too_long_fires_once_with_correct_line():
+    """A 60-word sentence is reported once, on the line it sits on."""
+    txt = (
+        "---\naliases: [a]\ntags: [language/in/English]\n---\n"
+        "## history\n\n"
+        "A short lead-in.\n" + _LONG_SENTENCE + "\n"
+    )
+    msgs = prose_sentence_too_long(make_ctx(txt))
+    assert len(msgs) == 1
+    m = msgs[0]
+    assert m.rule_id == "prose_sentence_too_long"
+    assert m.severity == Severity.WARNING
+    assert m.line == 8, "the message belongs to the line holding the sentence"
+    assert m.col == 1
+    assert "60 words (over 50)" in m.msg
+    assert "check: ignore-line[prose_sentence_too_long]" in m.msg
+
+
+def test_prose_sentence_too_long_ignores_fenced_code():
+    """A long sentence inside a fenced code block is not prose."""
+    txt = "---\naliases: [a]\ntags: [language/in/English]\n---\n```text\n" + (
+        _LONG_SENTENCE + "\n```\n"
+    )
+    assert not prose_sentence_too_long(make_ctx(txt))
+
+
+def test_prose_sentence_too_long_ignores_image_alt_text():
+    """Image alt text is removed whole, so its length never counts."""
+    txt = (
+        "---\naliases: [a]\ntags: [language/in/English]\n---\n"
+        "![" + _LONG_SENTENCE + "](../attachments/figures/figure 1.png)\n"
+    )
+    assert not prose_sentence_too_long(make_ctx(txt))
+
+
+def test_prose_sentence_too_long_ignores_frontmatter():
+    """A long frontmatter value is metadata, not prose."""
+    txt = (
+        "---\naliases: [a]\ntags: [language/in/English]\ndescription: "
+        + _LONG_SENTENCE
+        + "\n---\nA short body sentence.\n"
+    )
+    assert not prose_sentence_too_long(make_ctx(txt))
+
+
+def test_prose_sentence_too_long_ignores_table_row():
+    """A long table row is tabular data, not prose."""
+    txt = (
+        "---\naliases: [a]\ntags: [language/in/English]\n---\n"
+        "| term | definition |\n| --- | --- |\n| x | " + _LONG_SENTENCE + " |\n"
+    )
+    assert not prose_sentence_too_long(make_ctx(txt))
+
+
+def test_prose_sentence_too_long_ignores_transcludes():
+    """Imported Wikipedia text under transcludes/ is not measured."""
+    txt = (
+        "---\naliases: [a]\ntags: [language/in/English]\n---\n" + _LONG_SENTENCE + "\n"
+    )
+    ctx = make_ctx(txt, path=Path("/tmp/course/transcludes/entropy.md"))
+    assert not prose_sentence_too_long(ctx)
+    # the same prose in a real note still fires
+    assert prose_sentence_too_long(make_ctx(txt, path=Path("/tmp/course/entropy.md")))
+
+
+def test_prose_sentence_too_long_ignores_cloze_shards():
+    """A line dense in cloze markup leaves wordless shards, which are ignored."""
+    txt = (
+        "---\naliases: [a]\ntags: [language/in/English]\n---\n"
+        "{@{[ a first fact ]@}   .  {@{[ ]@}{@{!@}   ?  {@{[ a second ]@}\n"
+    )
+    msgs = prose_sentence_too_long(make_ctx(txt))
+    assert msgs == []
+
+
+@pytest.mark.anyio
+async def test_prose_sentence_too_long_suppressed(tmp_path: PathLike[str]):
+    """A suppression comment at the end of the line silences the warning."""
+    text = (
+        "---\naliases: [a]\ntags: [language/in/English, flashcard/active/special/academia/test]\n---\n"
+        + _LONG_SENTENCE
+        + " "
+        + html_cpt("check: ignore-line[prose_sentence_too_long]: verbatim source")
+        + "\n"
+    )
+    file = Path(tmp_path) / "long.md"
+    await file.write_text(text)
+    msgs = list(await check_markdown_file(file))
+    assert not msgs, "the suppression comment should silence the only message"
