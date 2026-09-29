@@ -15,7 +15,9 @@ The pass is out of scope for quoted source text, the body of a Wikipedia transcl
 
 Go through the note and label every paragraph with the job it does, choosing from this fixed vocabulary: gives an example, defines a term, lists things, draws a consequence, adds background, repeats an earlier point.
 
-The diagnostic covers prose and the order of cards, because both are sequences a reader walks through in turn. It does not cover a table row or a reference line: there is no sequence inside either to arrange, and pretending otherwise is a way of doing nothing while reporting a pass. Where those two kinds of content need attention, the subsections below say what to look at instead.
+The diagnostic covers prose and the order of cards, because both are sequences a reader walks through in turn. It reaches a list, a table, and a reference list the same way: the reader is moving through their items in an order, and a bad order costs them the same way a bad paragraph order does.
+
+A single table cell, and a single reference line, hold no sequence of their own. There is nothing to arrange inside one, and pretending otherwise is a way of doing nothing while reporting a pass. The order lives one level up, in the list of cells and the list of entries.
 
 Only then decide the new order, and only then write a sentence. Merge two paragraphs that do the same job. Split any paragraph doing three jobs. Move every example earlier than the rule it illustrates. Move every term later than the point that needs it. Delete a paragraph that only repeats an earlier one.
 
@@ -34,6 +36,20 @@ Where is the point? Put it first instead of building to it and delivering it in 
 Is there a before and an after? Say what happens, then say what it leads to. If the consequence comes first and the mechanism second, the reader has to hold the conclusion while waiting for the reason.
 
 Which of these two paragraphs would a reader want twice? Two paragraphs doing the same job are one paragraph, so merge them. A paragraph that defines a term, then lists things, then draws a consequence is doing three jobs, so split it. __One paragraph, one job__ cuts both ways.
+
+## The same questions, asked of the other structures
+
+A reader walks a list, scans a table, and hunts a name in a reference list. Each of those is a sequence too, and the order inside it is just as capable of costing the reader as a bad paragraph order.
+
+Can a reader predict the order? A list of steps runs in causal order, a list of definitions in the order the prose introduces them, a list of examples with the clearest one first. A list whose order you cannot predict is a set the reader has to hold in their head all at once, which is what a list was supposed to prevent.
+
+Do a table's rows follow the order the prose discusses them in? When the table reorders its own rows against the surrounding text, the reader builds a second index in their head to match a row back to the paragraph. That is the cost the table was supposed to remove. When the table is genuinely the only place the list exists, order it so the table can be scanned: what a reader compares first goes first.
+
+Does a card block start with its foundational claim? Rebuilding card order to match the prose is the floor, not the ceiling. A block that opens with an incidental detail and saves the claim the section exists to make trains the wrong thing first.
+
+Are reference entries in an order a reader can find a name in? Alphabetical is the default, and grouped by the argument the sources serve is a real alternative when the note discusses them in sequence. What a reference list must not be is the order the sources happened to be read in, because nothing in that order is for the reader.
+
+None of these has one right answer, and a pass that asserts a single correct order for tables is inventing a rule the note never asked for. Ask which order the reader is being served, then check that the note actually uses it.
 
 ## A worked example
 
