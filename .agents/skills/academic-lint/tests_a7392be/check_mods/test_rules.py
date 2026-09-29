@@ -3661,11 +3661,14 @@ async def test_index_courses_missing_rule(tmp_path: PathLike[str]) -> None:
 
 # long-content sentence tests -------------------------------------------------
 
-# 60 words, built from numbered tokens so the count is unambiguous.
+"""Sixty words, built from numbered tokens so the count is unambiguous."""
 _LONG_SENTENCE = " ".join(f"word{i}" for i in range(60)) + "."
 
-# A minimal frontmatter block: the rules that need a flash tag in the
-# suppression test require one, the rest only need valid YAML.
+"""A minimal frontmatter block.
+
+The rules that need a flash tag in the suppression test require one,
+the rest only need valid YAML.
+"""
 _FM = "---\naliases: [a]\ntags: [language/in/English]\n---\n"
 
 

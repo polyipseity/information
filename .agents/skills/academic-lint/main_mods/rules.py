@@ -4861,8 +4861,10 @@ def html_br_mid_line(ctx: ValidationContext) -> list[ValidationMessage]:
 
 # content sentence length ----------------------------------------------------
 
-# Word ceiling above which one sentence of authored content is reported. Tunable:
-# see :func:`content_sentence_too_long` for the measured distribution behind it.
+"""Word ceiling above which one sentence of authored content is reported.
+
+Tunable: see :func:`content_sentence_too_long` for the measured distribution behind it.
+"""
 CONTENT_SENTENCE_WORD_LIMIT = 50
 
 """Regex matching a fenced code block delimiter line, opening or closing."""
