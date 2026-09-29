@@ -3735,7 +3735,9 @@ def test_content_sentence_too_long_reports_long_card_answer():
     msgs = content_sentence_too_long(make_ctx(txt))
     assert len(msgs) == 1
     assert "in a flashcard answer" in msgs[0].msg
-    assert msgs[0].col > 1, "the answer starts after the prompt, not at column 1"
+    assert msgs[0].col is not None and msgs[0].col > 1, (
+        "the answer starts after the prompt, not at column 1"
+    )
 
 
 def test_content_sentence_too_long_card_answer_split_by_html_break():
