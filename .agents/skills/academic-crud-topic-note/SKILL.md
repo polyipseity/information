@@ -99,6 +99,9 @@ The principle reaches inside a section. Paragraph order, the grouping of list it
 - Regroup a flat list by whatever property separates its members, and move a fact to the paragraph where it belongs, even when the source presented it elsewhere.
 - Slice enumerated answers at a boundary the note names on the prompt side, not necessarily one the material shows (see "Enumeration cards" in `create-flashcards`).
 - Reorganizing only moves boundaries: every fact stays in the note, and no statement may claim a grouping the material contradicts.
+- __The note states what the material established, and stops.__ Ask what the course worked through and what it took as background the reader already had, then write those. Completeness belongs in the transclude, not here, so a topic the course only named earns a short note instead of an encyclopedia entry about it. This governs what an ingestion writes: a later request to build one of these topics out properly is a different job and is still answered in full.
+
+A lecture that names a topic once, in a list of related methods, leaves that topic's note holding the definition the lecture gave and nothing more. The encyclopedia article behind it may run to sections, and the note stays short, because its job is the course's contribution rather than the subject's completeness. A note grown to cover the article has stopped being a course note.
 
 ### Nesting is always decided
 
