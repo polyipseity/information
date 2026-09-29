@@ -87,7 +87,7 @@ Its instruction to "rewrite the smallest spans needed to fix them" is __supersed
 
 ## Before reporting done
 
-Read every sentence you changed against that list and quote each pattern still standing. An inflated claim, a participle opener, a rule of three, a synonym that exists only because the first one was used, a "not just this but that", an em dash, a bolded fragment: name it and fix it, or say why it stays.
+Read every sentence you changed against that list and quote each pattern still standing: an em dash, a participle opener, a bolded fragment, a synonym that only exists because the first one was used. Name it and fix it, or say why it stays.
 
 A pass that cannot quote a surviving pattern has not checked. Neither "it reads well now" nor a before-and-after word count answers the question, because both grade the edit rather than the sentences. Report the patterns you found and what you did about each.
 
