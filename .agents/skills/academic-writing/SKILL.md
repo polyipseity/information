@@ -1,9 +1,9 @@
 ---
-name: academic-prose
-description: Rewrite academic prose so the information arrives in the order a reader needs it, and the flashcards built from it. Load this after any edit to note prose or cards, before academic-lint.
+name: academic-writing
+description: Pass over all written content in an academic note, prose and flashcards alike, so the information arrives in the order a reader needs it. Covers prose, cards, lists, tables, and reference lines. Load this after any edit to a note's prose or cards, before academic-lint.
 ---
 
-# Academic prose order pass
+# Academic writing pass
 
 ## When this pass runs
 
@@ -14,6 +14,8 @@ The pass is out of scope for quoted source text, the body of a Wikipedia transcl
 ## Diagnose the order before rewriting anything
 
 Go through the note and label every paragraph with the job it does, choosing from this fixed vocabulary: gives an example, defines a term, lists things, draws a consequence, adds background, repeats an earlier point.
+
+The diagnostic covers prose and the order of cards, because both are sequences a reader walks through in turn. It does not cover a table row or a reference line: there is no sequence inside either to arrange, and pretending otherwise is a way of doing nothing while reporting a pass. Where those two kinds of content need attention, the subsections below say what to look at instead.
 
 Only then decide the new order, and only then write a sentence. Merge two paragraphs that do the same job. Split any paragraph doing three jobs. Move every example earlier than the rule it illustrates. Move every term later than the point that needs it. Delete a paragraph that only repeats an earlier one.
 
@@ -87,15 +89,29 @@ The rule that matters most here: __never make an edit that changes only part of 
 
 ## Flashcards
 
-Build cards to match the new prose and the new order. A card must be answerable on its own, with no context from the note. One claim per card, and a card that holds two claims is two cards. Merge two cards that ask the same thing, since the second one adds nothing to recall.
+Cards carry most of the content in this repository, and nothing enforces their length, so this is where a writing pass has the most to find. A card answer has to be recalled in seconds, and a long one is worse than a long paragraph, because a reader can re-read a paragraph but a card gives one attempt.
 
-If a table row already states a fact, neither prose nor a card restates it. A short clear phrase beats a full sentence, so do not bolt a verb onto a noun-phrase fragment just to make it grammatical: that inflates the answer without adding meaning.
+A prompt that gives its own answer away is broken rather than long: the recall it was built for never happens, and no amount of trimming repairs it. A prompt that runs long is a paragraph in disguise, sitting where the reader expected a question. A card that carries two claims is two cards, and two cards that ask the same thing are one card, since the second adds nothing to recall.
 
-Rebuild card order when the prose is reordered, and never add a card in order to reach coverage. A claim with no card in the prose is not a claim the note makes.
+Order follows the prose. When a section is reordered, rebuild the card order with it, so that a card asked second is not the one that carries the section's opening claim. Never add a card in order to reach coverage: a claim with no card is not a claim the note makes. Where a table row already states a fact, neither prose nor a card restates it.
+
+A short clear phrase beats a full sentence, so do not bolt a verb onto a noun-phrase fragment just to make it grammatical, because that inflates the answer without adding meaning. What must never be cut is a given or a piece of notation: removing one from a prompt breaks a calculation card rather than shortening it, and the card is then unanswerable rather than merely long.
+
+## Lists
+
+A list item that runs to a paragraph is a list that has stopped being a list, and the reader loses the scan that made it worth having. Either split the item across several items, one claim each, or lift the whole thing out of the list and let it stand as a paragraph beside it. Do not shorten a genuine claim to fit the shape; a list that only holds half a fact is worse than prose.
+
+## Tables
+
+A cell holding a sentence is a paragraph wearing a table's clothes, and it also breaks the alignment that made the table readable. Cut it back to the term or the short phrase the cell is there to hold. If a row genuinely needs the reasoning, give it a note underneath the table instead of widening the cell, and let the note follow the same order rules as any other paragraph.
+
+## References
+
+A reference line is a citation, not prose, and prose is what makes it long. Keep it to author, year, title, and a source. Do not write a summary of what the source says in the reference line, because that is the note's claim and it belongs in the body, where the order diagnostic can place it.
 
 ## What the pass must not do
 
-Accuracy beats style in every conflict. Do not change a factual claim, a number, a measurement, a term, or a citation. If something is factually wrong, leave it and report it instead of quietly fixing it. Do not cut a given or a piece of notation out of a prompt, because that breaks a calculation card rather than shortening it.
+Accuracy beats style in every conflict. Do not change a factual claim, a number, a measurement, a term, or a citation. If something is factually wrong, leave it and report it instead of quietly fixing it.
 
 Do not pad, and do not delete a real fact to hit a length target. Do not narrate a source: "the deck", "the slides", "the lecture" and "the course" never take a sentence as their subject.
 

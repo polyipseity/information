@@ -88,7 +88,7 @@ Whatever the group's type — lecture, lab, or tutorial — compare the material
 
 Re-level every note the group created or touched before the humanizer pass: promote a sub-concept that earned its own heading, fold a section that restates the note's H1 or a lone `###` that is its parent's whole content, move material to the note that owns its concept, and re-link the session entries whose anchors a renamed heading invalidated. See "Section levelling pass" in `academic-crud-topic-note`. Settle the headings first, because the humanizer pass never touches heading text.
 
-Then load `academic-prose` and the `humanizer` skill, and apply them in that order to sweep the new and changed prose and flashcards, the reconciled topic notes included, before validating. This is a content step, not an optional polish: a group whose prose or cards were never passed is unfinished. Prose and cards fail differently, so sweep them separately. See "Humanizer pass" in the `academic-ingest` skill.
+Then load `academic-writing` and the `humanizer` skill, and apply them in that order to sweep the new and changed prose and flashcards, the reconciled topic notes included, before validating. This is a content step, not an optional polish: a group whose prose or cards were never passed is unfinished. Prose and cards fail differently, so sweep them separately. See "Humanizer pass" in the `academic-ingest` skill.
 
 ## 10. Validate
 
