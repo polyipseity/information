@@ -9,23 +9,19 @@ description: Pass over all written content in an academic note, prose and flashc
 
 Run this pass after any edit to note prose or flashcards, and before `academic-lint`. It is not a fresh-ingestion step. A corrected fact, a renamed heading, a rewritten card, a sentence added to a lab write-up: each one takes it. Sweeping the text that changed is what counts. Running the pass as you edit and batching several edits to the end of a run are both fine. Skipping it is not.
 
-The pass is out of scope for quoted source text, the body of a Wikipedia transclude, a verbatim question from a paper, heading text, table rows, and anything inside a pytextgen fence. Session entries link to `#section%20anchors`, so a heading is never a rewrite target and renaming one costs no prose work here.
+The pass leaves alone quoted source text, the body of a Wikipedia transclude, a verbatim question from a paper, heading text, and anything inside a pytextgen fence. Session entries link to `#section%20anchors`, so a heading is never a rewrite target and renaming one costs no prose work here. A table cell holding a word or two is doing its job; the pass checks the order of the rows rather than rewriting the cells.
 
 ## Diagnose the order before rewriting anything
 
-Go through the note and label every paragraph with the job it does, choosing from this fixed vocabulary: gives an example, defines a term, lists things, draws a consequence, adds background, repeats an earlier point.
+Label every paragraph with the job it does, then decide the new order, and only then write a sentence. The vocabulary is fixed: gives an example, defines a term, lists things, draws a consequence, adds background, repeats an earlier point. On that basis, merge two paragraphs that do the same job, split any paragraph doing three, move every example earlier than the rule it illustrates, move every term later than the point that needs it, and delete a paragraph that only repeats an earlier one.
 
-The diagnostic covers prose and the order of cards, because both are sequences a reader walks through in turn. It reaches a list, a table, and a reference list the same way: the reader is moving through their items in an order, and a bad order costs them the same way a bad paragraph order does.
+__This planning is the work.__ A pass that starts editing on sight reproduces the paragraph it was given. Sentence length, filler words, and abstract wording have each been swept out of this material already, and each sweep left notes that were correct and still hard to read. Ordering is what fixed them.
 
-A single table cell, and a single reference line, hold no sequence of their own. There is nothing to arrange inside one, and pretending otherwise is a way of doing nothing while reporting a pass. The order lives one level up, in the list of cells and the list of entries.
-
-Only then decide the new order, and only then write a sentence. Merge two paragraphs that do the same job. Split any paragraph doing three jobs. Move every example earlier than the rule it illustrates. Move every term later than the point that needs it. Delete a paragraph that only repeats an earlier one.
-
-__This planning is the actual work.__ A pass that starts editing on sight reproduces the paragraph it was given. Three separate passes over one course each fixed something real (sentence length, filler words, abstract wording) and each left notes that were correct and still hard to read. The pass that fixed order is the one that worked.
+The diagnostic reaches a list, a table, and a reference list for the same reason it reaches prose: the reader is moving through the items in an order, and a bad order costs them what a bad paragraph order costs. A single cell, and a single reference line, hold no sequence of their own. There is nothing to arrange inside one, and pretending otherwise is a way of doing nothing while reporting a pass. The order lives one level up, in the list of cells and the list of entries.
 
 ## The order principles, as questions to ask
 
-Do not read these as a checklist. A lettered list turns an editing agent into a ticker, and a ticker reports success while changing nothing a reader would notice. Apply them with judgement, and expect to move a paragraph rather than to satisfy a line.
+Do not read these as a checklist. A lettered list makes an editing agent work down the lines and report success while changing nothing a reader would notice. Apply them with judgement, and expect to move a paragraph rather than to satisfy an item.
 
 Could a reader picture this? Open a section with the example, the situation, or the thing that actually happens, and name the technical term later, where the reader now wants the name. __Concrete before abstract__ is the test: if the first sentence is a word the reader cannot yet picture, the example is somewhere behind it.
 
@@ -35,13 +31,13 @@ Where is the point? Put it first instead of building to it and delivering it in 
 
 Is there a before and an after? Say what happens, then say what it leads to. If the consequence comes first and the mechanism second, the reader has to hold the conclusion while waiting for the reason.
 
-Which of these two paragraphs would a reader want twice? Two paragraphs doing the same job are one paragraph, so merge them. A paragraph that defines a term, then lists things, then draws a consequence is doing three jobs, so split it. __One paragraph, one job__ cuts both ways.
+Would a reader keep both? Two paragraphs doing the same job are one paragraph, so merge them. A paragraph that defines a term, then lists things, then draws a consequence is doing three jobs, so split it. __One paragraph, one job__ cuts both ways.
 
 ## The same questions, asked of the other structures
 
-A reader walks a list, scans a table, and hunts a name in a reference list. Each of those is a sequence too, and the order inside it is just as capable of costing the reader as a bad paragraph order.
+A reader walks a list, scans a table, and hunts a name in a reference list. Each of those is a sequence too, and the order inside it costs the reader what a bad paragraph order costs.
 
-Can a reader predict the order? A list of steps runs in causal order, a list of definitions in the order the prose introduces them, a list of examples with the clearest one first. A list whose order you cannot predict is a set the reader has to hold in their head all at once, which is what a list was supposed to prevent.
+Can a reader predict the order? A list of steps runs in causal order, and a list of definitions runs in the order the prose introduces them. For a list of examples, put the clearest one first. A list whose order you cannot predict is a set the reader has to hold all at once, which is what a list was supposed to prevent.
 
 Do a table's rows follow the order the prose discusses them in? When the table reorders its own rows against the surrounding text, the reader builds a second index in their head to match a row back to the paragraph. That is the cost the table was supposed to remove. When the table is genuinely the only place the list exists, order it so the table can be scanned: what a reader compares first goes first.
 
@@ -105,7 +101,7 @@ The rule that matters most here: __never make an edit that changes only part of 
 
 ## Flashcards
 
-Cards carry most of the content in this repository, and nothing enforces their length, so this is where a writing pass has the most to find. A card answer has to be recalled in seconds, and a long one is worse than a long paragraph, because a reader can re-read a paragraph but a card gives one attempt.
+Cards carry most of the content in this repository, and nothing enforces their length, so this is where a writing pass has the most to find. A card answer has to be recalled in seconds, and a long one is worse than a long paragraph: a reader can re-read a paragraph, a card gives one attempt.
 
 A prompt that gives its own answer away is broken rather than long: the recall it was built for never happens, and no amount of trimming repairs it. A prompt that runs long is a paragraph in disguise, sitting where the reader expected a question. A card that carries two claims is two cards, and two cards that ask the same thing are one card, since the second adds nothing to recall.
 
@@ -119,7 +115,7 @@ A list item that runs to a paragraph is a list that has stopped being a list, an
 
 ## Tables
 
-A cell holding a sentence is a paragraph wearing a table's clothes, and it also breaks the alignment that made the table readable. Cut it back to the term or the short phrase the cell is there to hold. If a row genuinely needs the reasoning, give it a note underneath the table instead of widening the cell, and let the note follow the same order rules as any other paragraph.
+A cell holding a sentence breaks the alignment that made the table readable. Cut it back to the term or the short phrase the cell is there to hold. If a row genuinely needs the reasoning, give it a note underneath the table instead of widening the cell, and let the note follow the same order rules as any other paragraph.
 
 ## References
 
@@ -127,7 +123,7 @@ A reference line is a citation, not prose, and prose is what makes it long. Keep
 
 ## What the pass must not do
 
-Accuracy beats style in every conflict. Do not change a factual claim, a number, a measurement, a term, or a citation. If something is factually wrong, leave it and report it instead of quietly fixing it.
+Accuracy beats style in every conflict. Leave a factual claim, a number, a measurement, a term, and a citation exactly as written. If something is factually wrong, report it rather than quietly fixing it.
 
 Do not pad, and do not delete a real fact to hit a length target. Do not narrate a source: "the deck", "the slides", "the lecture" and "the course" never take a sentence as their subject.
 
@@ -135,14 +131,14 @@ After rewriting, recheck every `two_sided_calc_warning` suppression. Cutting a p
 
 ## Relation to the humanizer skill
 
-The `humanizer` skill at `~/.agents/skills/humanizer/SKILL.md` is still loaded, and it still owns the surface AI-writing patterns it documents. Its instruction to "rewrite the smallest spans needed to fix them" is __superseded for reordering__, and that instruction is precisely what produces a cosmetic result.
+The `humanizer` skill at `~/.agents/skills/humanizer/SKILL.md` is still loaded, and it still owns the surface AI-writing patterns it documents. Its instruction to "rewrite the smallest spans needed to fix them" is __superseded for reordering__, because in a misordered paragraph the smallest span is often the clause that was already fine.
 
 Order first, then surface patterns. An agent working on academic notes runs this skill, then humanizer, then `academic-lint`.
 
 ## Delegation
 
-When this pass is handed to a subagent, the brief must name this skill and give its path, and must require the child to read the file before editing. It must require the child to report which paragraphs moved, merged, split, or were deleted, since a child that reports nothing measurable has most likely done nothing.
+When this pass goes to a subagent, the brief names this skill and gives its path, and makes the child read the file before editing. It also makes the child report which paragraphs moved, merged, split, or were deleted: a child reporting nothing measurable has most likely done nothing.
 
 State the ban on partial-sentence edits explicitly, and name the banned git commands explicitly, as "not `status`, not `show`, not `diff`, not `rev-parse`". A general ban on git has been ignored, so the named list is the part that has to be written down.
 
-Before/after numbers must be reconstructed from the child's own initial read. Do not pass counts in the brief, and do not let the child report a delta it never measured.
+Before/after numbers must be reconstructed from the child's own initial read. Do not pass counts in the brief, and do not accept a delta the child never measured.
