@@ -4861,7 +4861,8 @@ def html_br_mid_line(ctx: ValidationContext) -> list[ValidationMessage]:
 
 # content sentence length ----------------------------------------------------
 
-"""Word ceiling above which a single sentence of authored content is reported.  Tunable: see :func:`content_sentence_too_long` for the measured distribution behind it."""
+# Word ceiling above which one sentence of authored content is reported. Tunable:
+# see :func:`content_sentence_too_long` for the measured distribution behind it.
 CONTENT_SENTENCE_WORD_LIMIT = 50
 
 """Regex matching a fenced code block delimiter line, opening or closing."""
@@ -5029,8 +5030,8 @@ def content_sentence_too_long(ctx: ValidationContext) -> list[ValidationMessage]
     """Warn when a sentence runs past :data:`CONTENT_SENTENCE_WORD_LIMIT` words.
 
     A reader loses the thread somewhere before the end of a sentence this
-    long, and the sentence is usually grammatical — the fault is only its
-    length.
+    long, and the sentence is usually grammatical. The fault is its length
+    and nothing else.
 
     Everything an author writes is measured, not just running prose: bare
     paragraphs, list items, table rows, flashcard prompts
@@ -5080,11 +5081,11 @@ def content_sentence_too_long(ctx: ValidationContext) -> list[ValidationMessage]
     and those are the genuine run-ons.  Retune the constant against that
     table, not by feel.
 
-    The qa-answer row is the one to watch when retuning.  It is 109 here but
-    160 when the same measurement does *not* split at HTML breaks, and all 49
-    of the difference are bulleted answers whose bullets are already separate
-    short statements — exactly the case treating ``<br/>`` as a sentence
-    boundary is there to stop flagging.
+    The qa-answer row is the one to watch when retuning.  It is 109 here,
+    but 160 when the same measurement does *not* split at HTML breaks, and
+    all 49 of the difference are bulleted answers whose bullets are already
+    separate short statements, which is exactly the case that treating
+    ``<br/>`` as a sentence boundary is there to stop flagging.
 
     A ``check: ignore-line[content_sentence_too_long]`` comment at the end of
     the line suppresses the warning; the validator applies it centrally, and
