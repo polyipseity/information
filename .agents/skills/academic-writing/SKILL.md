@@ -1,13 +1,13 @@
 ---
 name: academic-writing
-description: Rewrite a note's written content so a reader can build the meaning as they go. Rearranges sections, paragraphs, sentences, and clauses; prefers a full stop to a connective; then hands the result to the humanizer skill for the surface pass. Load it after any edit to a note's prose or cards, and before academic-lint.
+description: Run this on prose that is not acceptable yet, whatever the defect is, a packed sentence, a hidden point, the wrong order, or padding. It names each part's job, splits the sentences doing several, moves the parts into the order a reader needs, cuts what earns nothing, and ends at the humanizer pattern list. Covers prose and cards. Load it after any edit to a note's prose or cards, and before academic-lint.
 ---
 
 # Academic writing pass
 
-This skill moves material until a reader can follow it, then hands the result to the [humanizer](~/.agents/skills/humanizer/SKILL.md) skill for the surface pass. Run both, then run `academic-lint`.
+This pass moves material until a reader can follow it, then ends at the [humanizer](~/.agents/skills/humanizer/SKILL.md) list, which is the bar for the surface. Run this, then humanizer, then `academic-lint`.
 
-Running only the second is the common failure. Humanizer rewrites the smallest span that fixes a pattern, and a sentence doing three jobs stays packed. Do this one first.
+Two ways to get it wrong. Running only humanizer is one: it rewrites the smallest span that fixes a pattern, so a sentence doing three jobs stays packed. Running only this pass is the other, and it is the commoner of the two. What this pass breaks is surface damage. One packed sentence split into five comes out repetitive. A cut paragraph leaves its survivors pointing at a "this" with nothing antecedent. A moved example leaves a rule borrowing its vocabulary from the example that now comes before its own definition. Whoever breaks it finishes it.
 
 ## When to run it, and what to leave alone
 
@@ -59,15 +59,15 @@ Before:
 
 After:
 
-> Two paragraphs doing the same job become one. A paragraph doing three becomes three. Each example moves ahead of the rule it illustrates. Each term moves after the point that needs it. A paragraph that only repeats an earlier one is cut.
+> Merge two paragraphs doing the same job. Split a paragraph doing three into three. Move each example ahead of the rule it illustrates and each term after the point that needs it. Cut what only repeats a paragraph already there.
 
-One sentence doing five, and every part carrying the same job. Five parts sharing one job belong in five sentences, not in a chain of clauses joined by "and".
-
-No word changed meaning. The reader now gets one instruction per breath.
+One sentence was doing five jobs. They come out as four sentences, because two of the moves share a verb and a reader can hold them together. The rule is one job per breath, not one job per identical sentence. Five sentences in the same shape are the same failure in a smaller size.
 
 ## The pass
 
 Do not turn this into a checklist. A lettered list of rules makes an editing agent work down the lines and report success. Nothing a reader would notice has changed. Expect to move a section, take a sentence apart, and delete a paragraph, not to satisfy an item.
+
+Ask these of each unit, and expect a paragraph to move rather than a line to be satisfied. Could a reader picture this, or does the first sentence use a word they cannot yet picture with the example stranded behind it? Does the first word have an antecedent, since a dangling "It answers..." is the commonest symptom of a paragraph assembled out of order? Where is the point, and would someone who stopped after the first sentence be holding the thing that matters? Is there a before and an after, in that order, or does the conclusion arrive before the mechanism it needs? Which two paragraphs would a reader want only once?
 
 __Cut before you rewrite.__ A paragraph that only repeats an earlier one is not badly written, it is unnecessary, and no rewriting makes it earn its place. Deletion is a move in this pass, and it is usually the one that helps most. Reach for it first, and expect the pass to end with less text than it started with.
 
@@ -77,13 +77,19 @@ __Then take a sentence apart.__ Name each part's job, then write one sentence pe
 
 __End on a full stop.__ A connective is not a shorter full stop. It is a claim that the two halves cannot stand alone, and most of the time they can. Write the two halves as two sentences. Keep "so" only where the result really is a result, and "but" only where the opposition changes what the reader should conclude. Every other connective is a full stop wearing a disguise. A sentence doing one job usually lands under 25 words. An over-long one is usually doing more than a single job. Count words to find the sentence worth taking apart, not to decide it is fine.
 
-__Then hand over.__ Once the order and the packing are right, run the [humanizer](~/.agents/skills/humanizer/SKILL.md) skill over what you changed. Its patterns live in the surface rather than the structure. This pass cannot see them.
+__Then hand over.__ Once the order and the packing are right, run the [humanizer](~/.agents/skills/humanizer/SKILL.md) skill over what you changed. It holds the list. This pass holds the structure. Both run, and the sentences this pass rewrote are the ones it has to check.
 
 ## Running humanizer
 
-The [humanizer](~/.agents/skills/humanizer/SKILL.md) skill owns the surface patterns this pass leaves behind. Read it and follow its list.
+The [humanizer](~/.agents/skills/humanizer/SKILL.md) list is the bar. Read it in full, and do not work from a summary of it or from memory of it. Half the patterns on it are ones a reader notices without being able to name them, which is why a remembered list is worse than none at all.
 
 Its instruction to "rewrite the smallest spans needed to fix them" is __superseded here__, for packing as well as for order. In a sentence doing three jobs, the smallest span is often the clause that was already fine.
+
+## Before reporting done
+
+Read every sentence you changed against that list and quote each pattern still standing. An inflated claim, a participle opener, a rule of three, a synonym that exists only because the first one was used, a "not just this but that", an em dash, a bolded fragment: name it and fix it, or say why it stays.
+
+A pass that cannot quote a surviving pattern has not checked. Neither "it reads well now" nor a before-and-after word count answers the question, because both grade the edit rather than the sentences. Report the patterns you found and what you did about each.
 
 ## Lists, tables, cards, and reference lines
 
@@ -154,6 +160,10 @@ These usually go: "which is why", "therefore", "thus", "hence", "moreover", "fur
 Accuracy beats style in every conflict. Leave a factual claim, a number, a measurement, a term, and a citation exactly as written. If something is factually wrong, report it rather than quietly fixing it.
 
 Do not pad, and do not delete a real fact to reach a shorter note. Do not narrate a source: "the deck", "the slides", "the lecture" and "the course" never take a sentence as their subject.
+
+Never edit part of a sentence. Replace the whole paragraph, because a partial edit is what produces a result that reports success and changes nothing a reader would notice.
+
+Never run git during the rewrite. Not `status`, not `show`, not `diff`, not `rev-parse`, not `add`, not `log`, not anything. There is no read-only exception.
 
 After rewriting, recheck every `two_sided_calc_warning` suppression. Cutting a prompt can strand one, and `academic-lint` errors on a stranded suppression.
 
