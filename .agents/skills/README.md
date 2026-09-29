@@ -29,6 +29,7 @@ The `academic-*` skills handle all academic material ingestion:
 | `academic-vision` | Look at images the material carries: classify a figure, read what only the picture shows, verify a drawing or crop before it reaches a note |
 | `academic-video` | Read a linked video's content from its subtitles, defer the ones without them, and ask the user to have those watched before the run ends |
 | `academic-lint` | Validate academic notes after edits (wraps main.py) |
+| `academic-prose` | Rewrite note prose so the information arrives in the order a reader needs it |
 | `academic-crud-course-index` | Top-level `index.md`, exams, logistics |
 | `academic-crud-index` | Sub-directory `index.md` (shared utility) |
 | `academic-crud-submission` | Labs, tutorials, lectures, assignments |

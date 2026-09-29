@@ -554,7 +554,7 @@ After the dispatched skill completes:
 
 1. __Reconcile the topic notes.__ Run "Topic-note reconciliation (mandatory)" above for every material in this ingestion, whatever its source.
 2. __Section levelling pass.__ Re-review every note this ingestion wrote or touched, section by section, and re-level it. Promote a sub-concept that earned its own heading. Fold a section that restates the note's H1, or a lone `###` that is its parent's whole content. Move material to the note that owns its concept. Re-link every session entry a renamed, moved, or removed heading invalidated. Run this before the humanizer pass, which treats heading text as frozen (see "Section levelling pass" in `academic-crud-topic-note`).
-3. __Humanizer pass.__ Load the `humanizer` skill and apply it to the new and changed prose and flashcards, the reconciled topic notes included, before validating. Every later edit gets the same pass, whether or not an ingestion is running; see "Humanizer pass" below.
+3. __Prose pass.__ Load `academic-prose` and the `humanizer` skill, and apply them in that order to the new and changed prose and flashcards, the reconciled topic notes included, before validating. Every later edit gets the same pass, whether or not an ingestion is running; see "Humanizer pass" below.
 4. Run validation on the created or modified files.
 5. Add a link to the assignment in the last lecture entry on or before its due date in the course `index.md`.
 6. __Request the deferred videos.__ Batch every video that could not be read into the one request made to the user (see "Asking the user to watch them" in `academic-video`). Do it before the report, which has to name the concepts left uncovered.
@@ -567,13 +567,13 @@ After the dispatched skill completes:
 
 Every edit to academic prose or flashcards gets the pass, not only an ingestion: a note created from a deck, a reconciliation, a card rewritten on request, a heading renamed, a one-line correction. Sweep the text that changed, after the edit and before `academic-lint`. Running the pass as you edit and batching several edits to the end of the run are both fine; skipping it is not. Work that reaches the user with unpassed prose or cards is unfinished.
 
+The pass is two skills in sequence: `academic-prose` first, then the `humanizer` skill, then `academic-lint`. Order comes first because it fixes the sequence the information arrives in, which sentence-level editing cannot fix: a paragraph reworded in the wrong order still reads wrong. The `humanizer` skill then does what it owns, the surface AI-writing patterns. Its instruction to rewrite the smallest span needed to fix a pattern is __superseded for reordering__, because in a misordered paragraph the smallest span is often the clause that was already fine. See [academic-prose](../academic-prose/SKILL.md).
+
 Sweep prose and cards separately, because they fail differently. Verbatim text is out of scope and stays as it arrived: a question statement from an official paper, the body of a Wikipedia transclude, an instructor's own phrasing, and heading text that session entries link to. The pass covers what you write.
 
-A pass covers text, so an edit that changes no sentence takes none. A session entry's week, type, and ordinal, a corrected `datetime:`, `venue:`, or `status:`, and reordered session entries are schedule metadata, not prose; renumbering a heading is a structural fix, not a rewrite. Prose and cards changed in the same task still take the pass.
+A pass covers text, so an edit that changes no sentence takes none. A session entry's week, type, and ordinal, a corrected `datetime:`, `venue:`, or `status:`, and reordered session entries are schedule metadata, not prose; renumbering a heading is a structural fix, not a rewrite. Prose and cards changed in the same task still take the pass. "Humanize", "humanizer pass", and "reduce verbosity" all mean the same thing: load both skills and apply them in that order, never from memory of these rules.
 
-"Humanize", "humanizer pass", and "reduce verbosity" mean one thing: load the `humanizer` skill and apply it. The skill decides what changes, and cutting verbosity is the usual __focus__ of a pass rather than a substitute for one. Never run a pass from memory of these rules.
-
-Agents and subagents must read that skill's `SKILL.md` (user scope: `~/.agents/skills/humanizer/SKILL.md`) before editing. A delegated brief names the `humanizer` skill, gives the `SKILL.md` path, requires the child to read it, and requires it to report the patterns it applied; pass `humanizer` in the subagent's skills as well. A rewrite reported without those patterns did not run the pass.
+Agents and subagents must read both `SKILL.md` files before editing (`../academic-prose/SKILL.md`; user scope: `~/.agents/skills/humanizer/SKILL.md`). A delegated brief names __both__ skills, gives each path, requires the child to read both, and requires it to report the patterns it applied and the paragraphs it moved, merged, split, or deleted; pass both in the subagent's skills as well. A rewrite reported without that did not run the pass.
 
 #### Flashcard focus
 

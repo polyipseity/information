@@ -112,6 +112,7 @@ __Skills metadata__: Each skill is self-described in its `SKILL.md` frontmatter 
 - __[academic-vision](.agents/skills/academic-vision/SKILL.md)__ — Look at the images a material carries: classify figures, read what only a picture shows, verify drawings and crops before they reach a note
 - __[academic-video](.agents/skills/academic-video/SKILL.md)__ — Read a linked video's content from its subtitles; a video without usable subtitles is deferred and the user is asked once, at the end, to have it watched
 - __[academic-lint](.agents/skills/academic-lint/SKILL.md)__ — Validate academic notes after edits (wraps main.py)
+- __[academic-prose](.agents/skills/academic-prose/SKILL.md)__ — Rewrite note prose so the information arrives in the order a reader needs it
 - __[academic-crud-course-index](.agents/skills/academic-crud-course-index/SKILL.md)__ — Top-level `index.md`, exams, logistics, course scaffolding
 - __[academic-crud-index](.agents/skills/academic-crud-index/SKILL.md)__ — Sub-directory `index.md` (shared utility)
 - __[academic-crud-submission](.agents/skills/academic-crud-submission/SKILL.md)__ — Labs, tutorials, lectures, assignments (shared hierarchy)
