@@ -32,7 +32,7 @@ tags:
 
 {@{_Classical theory_}@} has {@{at least two distinct meanings in physics}@}. It can include {@{all those areas of physics that do not make use of [quantum mechanics](quantum%20mechanics.md)}@}, which includes {@{[classical mechanics](classical%20mechanics.md)}@} \(using any of {@{the [Newtonian](Newton's%20laws%20of%20motion.md), [Lagrangian](Lagrangian%20mechanics.md), or [Hamiltonian](Hamiltonian%20mechanics.md)}@} formulations\), as well as {@{[classical electrodynamics](classical%20electrodynamics.md) and [relativity](theory%20of%20relativity.md)}@}.<sup>[\[2\]](#^ref-2)</sup><sup>[\[3\]](#^ref-3)</sup> Alternatively, {@{the term}@} can refer to {@{theories that are neither quantum or relativistic}@}.<sup>[\[4\]](#^ref-4)</sup>
 
-Depending on {@{point of view}@}, among {@{the branches of theory}@} sometimes {included in classical physics} are:<sup>[\[5\]](#^ref-5)</sup><sup>:&hairsp;2&hairsp;</sup> (annotation: 3 items: {@{classical mechanics, classical electrodynamics, classical thermodynamics}@})
+Depending on {@{point of view}@}, among {@{the branches of theory}@} sometimes {@{included in classical physics}@} are:<sup>[\[5\]](#^ref-5)</sup><sup>:&hairsp;2&hairsp;</sup> (annotation: 3 items: {@{classical mechanics, classical electrodynamics, classical thermodynamics}@})
 
 - [Classical mechanics](classical%20mechanics.md)
     - [Newton's laws of motion](Newton's%20laws%20of%20motion.md)
