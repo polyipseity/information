@@ -164,6 +164,26 @@ def _collapse_whitespace(text: str) -> str:
     return " ".join(_WHITESPACE_EXCEPT_HAIR_RE.split(text))
 
 
+def _collect_anchor_fragments(ele: PageElement) -> frozenset[str]:
+    """Collect every anchor spelling the source document offers.
+
+    MediaWiki emits a section anchor in the wiki's primary fragment mode and,
+    when legacy mode is also configured, a legacy alias for the same section.
+    Notes anchor sections by heading text, so the legacy-decoded spelling of
+    each id is part of the accepted set as well.
+    """
+    if not isinstance(ele, Tag):
+        return frozenset()
+    fragments: set[str] = set()
+    for tag in ele.find_all(id=True):
+        identifier = str(tag.get("id", "")).strip()
+        if not identifier:
+            continue
+        fragments.add(identifier)
+        fragments.add(identifier.replace("_", " "))
+    return frozenset(fragments)
+
+
 class WikiHtmlConverter:
     """Converts Wikipedia HTML elements to Markdown text.
 
@@ -227,7 +247,16 @@ class WikiHtmlConverter:
             soup if soup is not None else BeautifulSoup("", "html.parser")
         )
         self._page_name = page_name
+        self._known_fragments: frozenset[str] = frozenset()
         self._pending_redirects: list[tuple[str, str]] = []
+
+    def _decode_fragment(self, fragment: str) -> str:
+        """Decode an ``href`` fragment against the document's anchor spellings."""
+        return _plain_fragment(
+            fragment,
+            known_fragments=self._known_fragments,
+            names_map=self._names_map,
+        )
 
     def _convert_text_node(
         self,
@@ -319,10 +348,13 @@ class WikiHtmlConverter:
         seen_heading_texts: set[str] | None = None,
     ) -> str:
         """Convert a Wikipedia HTML element tree to a Markdown string."""
-        # Heading-dedup state is per-document: created once at the external
-        # entry and threaded through the recursion so repeated convert() calls
-        # on the same instance start clean (MD024 formatting-agnostic test).
-        seen_heading_texts = set() if seen_heading_texts is None else seen_heading_texts
+        # Anchor spellings and heading-dedup state are per-document: created
+        # once at the external entry and threaded through the recursion so
+        # repeated convert() calls on the same instance start clean (MD024
+        # formatting-agnostic test).
+        if seen_heading_texts is None:
+            seen_heading_texts = set()
+            self._known_fragments = _collect_anchor_fragments(ele)
 
         # ---- Formatting-agnostic principle ----
         # HTML-to-Markdown conversion must be invariant under formatting
@@ -695,7 +727,7 @@ class WikiHtmlConverter:
         # the href to normalize the fragment (underscores -> spaces) and keep
         # it in sync with the anchor produced by _equation_reference_anchor.
         if "#" in href:
-            to_fragment = _plain_fragment(href.split("#", 1)[1])
+            to_fragment = self._decode_fragment(href.split("#", 1)[1])
         else:
             to_fragment = info.tofragment
         to_filename = _fix_name_maybe(
@@ -2422,7 +2454,7 @@ class WikiHtmlConverter:
         Returns the resolved href string.
         """
         stem, _, raw_frag = href.partition("#")
-        frag = _plain_fragment(raw_frag)
+        frag = self._decode_fragment(raw_frag)
         stem_name = _fix_name_maybe(
             stem.removeprefix("./"),
             replace_underscores=True,
@@ -2470,7 +2502,9 @@ class WikiHtmlConverter:
             if "new" in classes:
                 title = title.removesuffix(_cfg._PAGE_DOES_NOT_EXIST_SUFFIX)
             href = str(ele.get("href", ""))
-            to_fragment = _plain_fragment(href.split("#", 1)[-1]) if "#" in href else ""
+            to_fragment = (
+                self._decode_fragment(href.split("#", 1)[-1]) if "#" in href else ""
+            )
 
             config = self._resolve_link_from_title(title, to_fragment, classes)
             if config is not None:
@@ -2480,7 +2514,7 @@ class WikiHtmlConverter:
             if href.startswith(f"{_cfg._WIKI_HOST_URL}/wiki/") and "#" in href:
                 href = _markdown_fragment(
                     _fix_name_maybe(
-                        _plain_fragment(href[href.index("#") + 1 :]),
+                        self._decode_fragment(href[href.index("#") + 1 :]),
                         replace_underscores=True,
                         names_map=self._names_map,
                     )
@@ -2488,7 +2522,7 @@ class WikiHtmlConverter:
             elif href.startswith("#") and len(href) > 1:
                 href = _markdown_fragment(
                     _fix_name_maybe(
-                        _plain_fragment(href[1:]),
+                        self._decode_fragment(href[1:]),
                         replace_underscores=True,
                         names_map=self._names_map,
                     )

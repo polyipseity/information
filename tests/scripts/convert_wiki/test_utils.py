@@ -764,3 +764,152 @@ class TestStemForTitle:
         """Should match the old reconcile _target_filename heuristic."""
         title = next(iter(_cfg._NAMES_MAP))
         assert _stem_for_title(title) == _stem_for_title(title, _cfg._NAMES_MAP)
+
+
+# ---------------------------------------------------------------------------
+# MediaWiki legacy fragment decoding
+# ---------------------------------------------------------------------------
+
+
+class TestDecodeLegacyFragment:
+    """Tests for the single-pass legacy fragment scanner."""
+
+    def test_unicode_escape(self) -> None:
+        """En-dash (E2 80 93) should be decoded from a .HH run."""
+        assert (
+            _mod._decode_legacy_fragment("The%20Segal.E2.80.93Bargmann")  # noqa: SLF001
+            == "The Segal\u2013Bargmann"
+        )
+
+    def test_ascii_punctuation_escapes(self) -> None:
+        """Standard ASCII punctuation escapes should be decoded."""
+        assert _mod._decode_legacy_fragment("a.22b") == 'a"b'  # noqa: SLF001
+        assert _mod._decode_legacy_fragment("a.27b") == "a'b"  # noqa: SLF001
+        assert _mod._decode_legacy_fragment("a.28b") == "a(b"  # noqa: SLF001
+        assert _mod._decode_legacy_fragment("a.29b") == "a)b"  # noqa: SLF001
+        assert _mod._decode_legacy_fragment("a.2Cb") == "a,b"  # noqa: SLF001
+        assert _mod._decode_legacy_fragment("a.3Db") == "a=b"  # noqa: SLF001
+        assert _mod._decode_legacy_fragment("a.3Fb") == "a?b"  # noqa: SLF001
+
+    def test_literal_set_preserved(self) -> None:
+        """Runs whose bytes are in the literal set stay verbatim."""
+        assert _mod._decode_legacy_fragment("math_Eq.1") == "math_Eq.1"  # noqa: SLF001
+        assert _mod._decode_legacy_fragment("a.2Eb") == "a.2Eb"  # noqa: SLF001
+        assert _mod._decode_legacy_fragment("a.3Ab") == "a.3Ab"  # noqa: SLF001
+        assert _mod._decode_legacy_fragment("a.7Ab") == "a.7Ab"  # noqa: SLF001
+
+    def test_control_char_decoded_by_scanner(self) -> None:
+        """A .19 sequence (control byte 0x19) is decoded by the scanner.
+
+        C0 control characters are spec-reachable (``urlencode`` escapes them),
+        so the scanner decodes them. Preservation happens at the acceptance
+        level (``_plain_fragment``), not at the scanner level.
+        """
+        assert _mod._decode_legacy_fragment("al.1994") == "al\x1994"  # noqa: SLF001
+
+    def test_percent_escape_decoded(self) -> None:
+        """Percent-encoded runs should be decoded."""
+        assert _mod._decode_legacy_fragment("Schr%C3%B6dinger") == "Schr\u00f6dinger"  # noqa: SLF001
+
+    def test_mixed_percent_and_legacy(self) -> None:
+        """Both escape types in one source should each be decoded."""
+        result = _mod._decode_legacy_fragment("A.E2.80.93B%20C")  # noqa: SLF001
+        assert result == "A\u2013B C"
+
+    def test_no_rescan_decoded_percent(self) -> None:
+        """A decoded .25 (literal %) must not be re-scanned as percent."""
+        assert _mod._decode_legacy_fragment("A.25B%20C") == "A%B C"  # noqa: SLF001
+
+    def test_percent25_no_rescan(self) -> None:
+        """%25 (percent-encoded %) followed by hex text must not leak."""
+        assert _mod._decode_legacy_fragment("A%2528B") == "A%28B"  # noqa: SLF001
+
+    def test_invalid_utf8_preserved(self) -> None:
+        """A run that is not valid UTF-8 stays literal."""
+        # 0x80 alone: a continuation byte, invalid as a start byte.
+        assert _mod._decode_legacy_fragment("a.80b") == "a.80b"  # noqa: SLF001
+
+    def test_lowercase_hex_accepted(self) -> None:
+        """Lowercase hex should be accepted defensively."""
+        result = _mod._decode_legacy_fragment("a.e2.80.93b")  # noqa: SLF001
+        assert result == "a\u2013b"
+
+    def test_literal_text_copied(self) -> None:
+        """Non-escape text is copied verbatim."""
+        assert _mod._decode_legacy_fragment("hello world") == "hello world"  # noqa: SLF001
+
+    def test_greek_omega(self) -> None:
+        """CF.89 → ω (omega)."""
+        assert _mod._decode_legacy_fragment(".CF.89") == "\u03c9"  # noqa: SLF001
+
+    def test_empty_string(self) -> None:
+        """An empty fragment returns empty."""
+        assert _mod._decode_legacy_fragment("") == ""  # noqa: SLF001
+
+
+class TestIsKnownFragment:
+    """Tests for _is_known_fragment resolution."""
+
+    def test_exact_match(self) -> None:
+        assert _mod._is_known_fragment("foo", frozenset({"foo"}), None)  # noqa: SLF001
+
+    def test_underscore_variant(self) -> None:
+        assert _mod._is_known_fragment("foo_bar", frozenset({"foo bar"}), None)  # noqa: SLF001
+
+    def test_names_map_hit(self) -> None:
+        assert _mod._is_known_fragment("Foo", frozenset(), {"Foo": "x"})  # noqa: SLF001
+
+    def test_names_map_underscore_variant(self) -> None:
+        assert _mod._is_known_fragment("foo_bar", frozenset(), {"foo bar": "x"})  # noqa: SLF001
+
+    def test_miss(self) -> None:
+        assert not _mod._is_known_fragment("missing", frozenset(), {"other": "x"})  # noqa: SLF001
+
+
+class TestPlainFragmentAcceptance:
+    """Tests for _plain_fragment acceptance logic."""
+
+    def test_legacy_decoded_when_in_names_map(self) -> None:
+        """Candidate in names map should be accepted."""
+        result = _mod._plain_fragment(  # noqa: SLF001
+            "The%20Segal.E2.80.93Bargmann%20transform",
+            names_map={
+                "The Segal\u2013Bargmann transform": "the Segal\u2013Bargmann transform"
+            },
+        )
+        assert result == "The Segal\u2013Bargmann transform"
+
+    def test_legacy_decoded_when_in_known_fragments(self) -> None:
+        """Candidate in known_fragments should be accepted."""
+        result = _mod._plain_fragment(  # noqa: SLF001
+            "x.E2.80.93y",
+            known_fragments=frozenset({"x\u2013y"}),
+        )
+        assert result == "x\u2013y"
+
+    def test_rejected_falls_back_to_percent_only(self) -> None:
+        """Unknown candidate falls back to unquote-only."""
+        result = _mod._plain_fragment(  # noqa: SLF001
+            "The%20Segal.E2.80.93Bargmann%20transform",
+            names_map={},
+        )
+        assert result == "The Segal.E2.80.93Bargmann transform"
+
+    def test_control_char_candidate_rejected(self) -> None:
+        """A candidate containing a control char is rejected (no known anchor)."""
+        result = _mod._plain_fragment(  # noqa: SLF001
+            "al.1994",
+            names_map={},
+        )
+        # .19 decodes to \x19 (control char) which is not a known anchor;
+        # the fallback is percent-only = unquote('al.1994') = 'al.1994'.
+        assert result == "al.1994"
+
+    def test_percent_only_when_no_legacy_escapes(self) -> None:
+        """Percent-only fragments decode via unquote."""
+        result = _mod._plain_fragment("Schr%C3%B6dinger_equation")  # noqa: SLF001
+        assert result == "Schr\u00f6dinger_equation"
+
+    def test_plain_text_unchanged(self) -> None:
+        """Plain text passes through unchanged."""
+        assert _mod._plain_fragment("hello") == "hello"  # noqa: SLF001
