@@ -1,11 +1,11 @@
 ---
 name: academic-crud-index
-description: Create, read, update, and delete sub-directory index.md pages (assignments/index.md, questions/index.md, labs/index.md, etc.). Shared utility used by other academic-crud-* skills.
+description: Create, read, update, and delete sub-directory index.md pages (assignments/index.md, questions/index.md, labs/index.md, etc.). Every academic-crud-* skill that scaffolds a subdirectory needs one of these.
 ---
 
 # Academic CRUD: Index pages
 
-Create, read, update, and delete sub-directory `index.md` files. This is a shared utility. Other `academic-crud-*` skills call it when they need to create or update a sub-directory index.
+A sub-directory with notes in it needs an `index.md`, and every skill that scaffolds such a directory calls this one to write it. This is the shared utility underneath the other `academic-crud-*` skills.
 
 ## Target
 
@@ -37,57 +37,52 @@ tags:
 
 ### Frontmatter rules
 
-- `aliases`: cover institution + course + type combinations (both short and long forms)
-- `tags`: include `flashcard/active/...` path (underscore-normalized), `function/index`, and `language/in/<lang>`
-- Keep aliases exhaustive. Cover `HKUST COMP 3031 assignment`, `HKUST COMP3031 assignments`, `COMP 3031 assignment`, etc.
+- `aliases`: cover institution + course + type combinations, both short and long forms (for HKUST COMP 3031: `HKUST COMP 3031 assignment`, `HKUST COMP3031 assignments`, `COMP 3031 assignment`, and so on). Keep them exhaustive, and accept that generic aliases repeat across notes. Notes link by relative path, never by `[[wikilink]]`, so a duplicate elsewhere is not a defect.
+- `tags`: include the `flashcard/active/...` path (underscore-normalized), `function/index`, and `language/in/<lang>`.
 
 ### Children format
 
-- One bullet per child, linking to the child's `index.md` (for submission pages) or directly to the file (for question pages)
-- Submission leaf indexes may also link to in-class content files (`lab.md`, `tutorial.md`, `lecture.md`) as children when the in-class component exists
-- Use `%20` encoding for spaces in links
-- Order: chronological for sessions/assignments, alphabetical for topics
+- One bullet per child, linking to the child's `index.md` for submission pages or directly to the file for question pages
+- Submission leaf indexes may also list in-class content files (`lab.md`, `tutorial.md`, `lecture.md`) as children
+- __Order__: folders first, then files, each group sorted by Python string order of the destination path, never chronologically or by teaching order. The `index_children_order` rule enforces this; `AGENTS.md` sorts before `Arduino.md` because uppercase sorts first.
+- __Folder entries__: write the link and its display text with a trailing slash (`- [assignments/](assignments/index.md)`, `- [attachments/](attachments/)`).
+- __Encoding__: encode spaces as `%20` and keep every other character literal, parentheses included: `cache (computing).md` is linked as `- [cache (computing)](cache%20(computing).md)`.
 
-## CRUD operations
+```markdown
+## children
 
-> __Note:__ This skill defines the directory listing index (e.g., `tutorials/index.md`). Individual submission pages (e.g., `tutorials/tutorial 1/index.md`) follow the format in `academic-crud-submission`, not this format.
+- [assignments/](assignments/index.md)
+- [questions/](questions/index.md)
+- [AGENTS](AGENTS.md)
+- [cache (computing)](cache%20(computing).md)
+- [cloud computing](cloud%20computing.md)
+```
+
+> __Note:__ This skill defines the directory listing index (e.g., `tutorials/index.md`). A session's own content follows the session name, `tutorials/week 2 tutorial 1/index.md`, while a submission page follows the deliverable, `labs/lab 1/index.md`; both follow the format in `academic-crud-submission`.
 
 ## Missing data
 
-Use `\[missing\]` for fields with absent values in index pages. See [special.instructions.md](../../instructions/special.instructions.md#missing-data).
+Use `\[missing\]` for fields with absent values (see [special.instructions.md](../../instructions/special.instructions.md#missing-data)).
+
+## CRUD operations
 
 ### Create
 
-Scaffold a new sub-directory index.
-
-1. Verify no `index.md` already exists in the target directory.
-2. Write the file using the format above.
-3. The parent course `index.md` should already link to this subdirectory (added by `academic-crud-course-index`).
+Check that the target directory has no `index.md` yet, then write the one described above. The parent course `index.md` links the subdirectory already; `academic-crud-course-index` adds that link while it scaffolds the course.
 
 ### Read
 
-List children of a subdirectory by reading its `index.md`.
+List the subdirectory's children by reading its `index.md`.
 
 ### Update
 
-Add, remove, or reorder child links.
-
-1. Read the current `index.md`.
-2. Apply changes:
-   - __Add:__ insert a new bullet in the correct position (chronological or alphabetical).
-   - __Remove:__ delete the bullet and verify the child file still exists (or remove it too).
-   - __Reorder:__ reorder bullets to match the desired order.
-3. Preserve frontmatter exactly. Only modify the `## children` section.
+Frontmatter stays exactly as it is, and only `## children` changes. To add, insert the bullet in its correct position: folders first, then files, Python string order within each group. To remove, delete the bullet and check the child file is gone too, or remove that as well.
 
 ### Delete
 
-Remove the index and optionally the entire subdirectory.
+Ask whether the subdirectory or only its `index.md` is going. For the index alone, remove `index.md` and leave the children in place; for the whole subdirectory, remove it recursively and drop its link from the course root `index.md`.
 
-1. Confirm with user whether to delete the entire subdirectory or just the index.
-2. If just the index: remove `index.md`, leave child files intact.
-3. If entire subdirectory: remove recursively, and remove the subdirectory link from the course root `index.md`.
-
-## When other skills call this
+## Callers
 
 Other `academic-crud-*` skills create or update index pages as part of their workflows:
 
@@ -95,16 +90,17 @@ Other `academic-crud-*` skills create or update index pages as part of their wor
 - `academic-crud-submission` adds child links when creating submission pages, including in-class content file links (`lab.md`, `tutorial.md`, `lecture.md`)
 - `academic-crud-question` adds child links when creating question pages
 
-The calling skill provides: target path, child name, child link path. This skill provides the format and structure.
+The calling skill supplies the target path, child name, and child link path; this skill supplies the format and structure.
 
 ## Validation
 
-Run `academic-lint` after every edit. If you know which files changed, pass those files specifically. Otherwise lint the whole course folder.
+Run the humanizer pass over new or changed prose and flashcards, focusing on the description paragraph and prose above `## children` (see "Humanizer pass" in `academic-ingest`). Then run `academic-lint`, passing changed files when known.
 
 ## References
 
-- `academic-crud-course-index/course-template.md` scaffold template for new course `index.md` files
-- `academic-crud-course-index` creates subdirectories and their indexes
-- `academic-crud-submission` adds submission pages to indexes
-- `academic-crud-question` adds question pages to indexes
-- `academic-lint` validation
+- `academic-crud-course-index/course-template.md` for the new-course `index.md` scaffold
+- `academic-crud-course-index` for subdirectory and index creation
+- `academic-crud-submission` for adding submission pages to indexes
+- `academic-crud-question` for adding question pages to indexes
+- `humanizer` for the AI-writing patterns it removes
+- `academic-lint` for validation

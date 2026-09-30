@@ -7,6 +7,7 @@ functions shared between the validator and tests.
 
 import re
 from collections.abc import Iterator
+from dataclasses import dataclass
 from typing import TypedDict
 
 import mistune
@@ -23,7 +24,7 @@ from mistune.plugins.math import (
 )
 from mistune.plugins.table import table as _mistune_table
 
-from .models import AstNode, PreviewEntry, ValidationMessage
+from .models import AstNode, PreviewEntry, SessionHeader, ValidationMessage
 
 """Public symbols exported by this module."""
 __all__ = (
@@ -46,11 +47,20 @@ __all__ = (
     "AstSection",
     # session/AST shared helpers
     "_MD",
+    "SEMESTER_HEADER_RE",
+    "SEMESTER_RE",
     "SESSION_HEADING_RE",
     "extract_ast_heading_positions",
+    "is_recurrent_index",
     "parse_session_headers",
     # string helpers
     "html_cpt",
+    # markdown link helpers
+    "InlineLink",
+    "iter_inline_links",
+    "MalformedLink",
+    "iter_malformed_links",
+    "parse_list_link",
 )
 
 # shared mistune parser (AST output) used by validator and tests
@@ -77,12 +87,41 @@ FRONT_RE = re.compile(r"\A\s*---\s*\r?\n(.*?)\r?\n---\s*(\r?\n|$)", re.DOTALL)
 """Regex matching the flashcard activation tag prefix in frontmatter tags."""
 FLASH_TAG_RE = re.compile(r"flashcard/active/special/academia/", re.IGNORECASE)
 
-# Regex for ## week N lecture|lab|tutorial [number] headings, used by session rules.
-"""Regex matching session headings: ``## week N type [number]``."""
+# Regex for ## week N lecture|lab|tutorial number headings, used by session rules.
+"""Regex matching the ``YYYY term`` prefix of a recurrent course's session headings."""
+SEMESTER_RE = r"\d{4}\s+(?:spring|summer|fall|winter)"
+
+"""Regex matching session headings: ``## week N type number``, or ``### YYYY term week N type number`` in a recurrent course."""
 SESSION_HEADING_RE = re.compile(
-    r"^##\s+week\s+(\d+)\s+((?:lecture|lab|tutorial)(?:\s+\d+)?)\s*$",
+    r"^(?P<level>#{2,3})\s+"
+    r"(?:(?P<semester>" + SEMESTER_RE + r")\s+)?"
+    r"week\s+(?P<week>\d+)\s+(?P<type>(?:lecture|lab|tutorial)\s+\d+)\s*$",
     re.IGNORECASE | re.MULTILINE,
 )
+
+"""Regex matching a level-2 semester header, ``## YYYY term``, used by recurrent-course rules."""
+SEMESTER_HEADER_RE = re.compile(
+    r"^##\s+(\d{4})\s+(spring|summer|fall|winter)\s*$",
+    re.IGNORECASE | re.MULTILINE,
+)
+
+"""Regex matching the ``- status: recurrent`` line that marks a course index recurrent."""
+_RECURRENT_STATUS_RE = re.compile(
+    r"^[ \t]*- status:\s*recurrent\b", re.IGNORECASE | re.MULTILINE
+)
+
+
+def is_recurrent_index(text: str) -> bool:
+    """Report whether *text* declares ``- status: recurrent`` in its identity block.
+
+    The identity block runs from the ``# index`` heading to the first level-2
+    heading, so a ``status:`` line belonging to a session entry never counts.
+    """
+    match = FRONT_RE.match(text)
+    body = text[match.end() :] if match else text
+    first_section = re.search(r"^##\s", body, re.MULTILINE)
+    header = body[: first_section.start()] if first_section else body
+    return bool(_RECURRENT_STATUS_RE.search(header))
 
 
 # location helpers -----------------------------------------------------------
@@ -124,6 +163,159 @@ def locate_range(text: str, start: int, length: int) -> tuple[int, int, int]:
     else:
         col_end = col + max(0, length - 1)
     return line, col, col_end
+
+
+# markdown link helpers ------------------------------------------------------
+
+
+@dataclass(frozen=True)
+class InlineLink:
+    """A parsed inline Markdown link ``[text](destination)``.
+
+    All offsets are byte positions into the text that was scanned.  ``start``
+    is the opening ``[`` and ``end`` is one past the closing ``)``.
+    """
+
+    start: int
+    end: int
+    text: str
+    text_start: int
+    destination: str
+    destination_start: int
+
+
+def _walk_destination(text: str, index: int) -> int | None:
+    """Return the index of the ``)`` closing the link destination at *index*.
+
+    *index* points just past the destination's opening ``(``.  The destination
+    is read with a parenthesis-depth counter, so paths that contain balanced
+    parentheses (``cache%20(computing).md``) survive intact.  Returns ``None``
+    when the destination is unterminated: a raw line break or the end of the
+    text arrives before the parentheses balance, which is the case for a
+    truncated link such as ``[x](path.md_``.  Stopping at the line break keeps
+    such a link from swallowing the rest of the file.
+    """
+    depth = 1
+    while index < len(text):
+        char = text[index]
+        if char == "\n":
+            return None
+        if char == "\\":
+            index += 2
+            continue
+        if char == "(":
+            depth += 1
+        elif char == ")":
+            depth -= 1
+            if depth == 0:
+                return index
+        index += 1
+    return None
+
+
+def _scan_inline_link(text: str, start: int) -> InlineLink | None:
+    """Parse the inline link beginning at ``text[start] == '['``.
+
+    Returns ``None`` when *start* does not begin a well-formed inline link.
+    """
+    if start >= len(text) or text[start] != "[":
+        return None
+    close = text.find("]", start + 1)
+    if close < 0 or close + 1 >= len(text) or text[close + 1] != "(":
+        return None
+    end = _walk_destination(text, close + 2)
+    if end is None:
+        return None
+    return InlineLink(
+        start=start,
+        end=end + 1,
+        text=text[start + 1 : close],
+        text_start=start + 1,
+        destination=text[close + 2 : end],
+        destination_start=close + 2,
+    )
+
+
+def iter_inline_links(text: str) -> Iterator[InlineLink]:
+    """Yield every inline Markdown link in *text*.
+
+    The naive ``[^)]+`` destination pattern stops at the first ``)``, so a
+    link to a path containing parentheses is either rejected outright or
+    silently skipped by rules that match on it.  This scanner tracks
+    parenthesis depth and backslash escapes instead.  A destination that
+    reaches a line break is not a link and is skipped.
+    """
+    index = 0
+    while True:
+        start = text.find("[", index)
+        if start < 0:
+            return
+        link = _scan_inline_link(text, start)
+        if link is None:
+            index = start + 1
+            continue
+        yield link
+        index = link.end
+
+
+@dataclass(frozen=True)
+class MalformedLink:
+    """An inline link whose destination is never closed by ``)``.
+
+    All offsets are byte positions into the text that was scanned.  ``start``
+    is the opening ``[`` and ``end`` is where the scan stopped: the raw line
+    break or end of text that interrupted the destination.
+    """
+
+    start: int
+    end: int
+
+
+def iter_malformed_links(text: str) -> Iterator[MalformedLink]:
+    """Yield every inline link whose destination is never closed by ``)``.
+
+    :func:`iter_inline_links` silently skips a destination that reaches a raw
+    line break, so a truncated link such as ``[x](path.md_`` resolves to
+    nothing and no rule can see it.  This scanner reports those links so they
+    can be flagged instead of ignored.  Scanning resumes after the truncation
+    point, so a single broken link yields one result.
+    """
+    index = 0
+    while True:
+        start = text.find("[", index)
+        if start < 0:
+            return
+        index = start + 1
+        close = text.find("]", start + 1)
+        if close < 0 or close + 1 >= len(text) or text[close + 1] != "(":
+            continue
+        if _walk_destination(text, close + 2) is not None:
+            continue
+        newline = text.find("\n", close + 2)
+        end = len(text) if newline < 0 else newline
+        yield MalformedLink(start=start, end=end)
+        index = end + 1
+
+
+def parse_list_link(line: str) -> InlineLink | None:
+    """Return the link when *line* is exactly ``- [text](destination)``.
+
+    The bullet may be ``-`` or ``*``, leading whitespace is ignored, and
+    nothing may follow the closing parenthesis.  A line with any other shape
+    returns ``None``.  Offsets in the result refer to *line* as passed in.
+    """
+    stripped = line.strip()
+    if not stripped or stripped[0] not in "-*":
+        return None
+    rest = stripped[1:].lstrip()
+    if not rest.startswith("["):
+        return None
+    link = _scan_inline_link(stripped, len(stripped) - len(rest))
+    if link is None or not link.text.strip():
+        return None
+    if stripped[link.end :].strip():
+        return None
+    return link
 
 
 # frontmatter helpers --------------------------------------------------------
@@ -320,20 +512,21 @@ def extract_ast_heading_positions(ast: list[AstNode] | None, text: str) -> set[i
 
 def parse_session_headers(
     text: str, ast: list[AstNode] | None = None
-) -> list[tuple[str, str, str, int]]:
+) -> list[SessionHeader]:
     """Extract session heading metadata from *text*.
 
-    Looks for ``## week N lecture|lab|tutorial [number]`` headings.  When
-    *ast* is provided, results are filtered to only include positions that
-    correspond to real AST headings (excluding false positives from code
-    blocks or comments).
+    Matches ``## week N lecture|lab|tutorial number`` and, for a recurrent
+    course, ``### YYYY term week N lecture|lab|tutorial number``.  When
+    *ast* is provided, results are filtered to positions that correspond to
+    real AST headings (excluding false positives from code blocks or
+    comments).
 
-    Returns a list of ``(week, type, raw_heading, byte_pos)`` tuples.
+    Returns one :class:`SessionHeader` per heading found.
     """
     ast_positions = (
         extract_ast_heading_positions(ast, text) if ast is not None else None
     )
-    headers: list[tuple[str, str, str, int]] = []
+    headers: list[SessionHeader] = []
     for m in SESSION_HEADING_RE.finditer(text):
         # Skip matches that don't correspond to real AST headings.
         # Only filter when we actually found AST positions: an empty
@@ -341,7 +534,13 @@ def parse_session_headers(
         if ast_positions and m.start() not in ast_positions:
             continue
         headers.append(
-            (m.group(1), m.group(2).strip().lower(), m.group(0).strip(), m.start())
+            SessionHeader(
+                semester=" ".join((m.group("semester") or "").split()).lower(),
+                week=m.group("week"),
+                type=" ".join(m.group("type").split()).lower(),
+                heading=m.group(0).strip(),
+                pos=m.start(),
+            )
         )
     return headers
 

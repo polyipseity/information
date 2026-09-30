@@ -33,7 +33,7 @@ The content is in teaching order.
 - [Others.java](Others.java.md)
 - [assignments](assignments/)
 
-## week 1 lecture
+## week 1 lecture 1
 
 - datetime: 2024-09-02T10:30:00+08:00/2024-09-02T11:50:00+08:00
 - course logistics

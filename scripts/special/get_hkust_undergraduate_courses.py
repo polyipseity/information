@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 """Fetch the HKUST undergraduate course catalog and write it to a CSV file."""
 
 from collections.abc import AsyncIterator, Mapping

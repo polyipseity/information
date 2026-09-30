@@ -23,15 +23,15 @@ tags:
 
 The content is in teaching order.
 
-## week 1 lab
+## week 1 lab 1
 
 - datetime: 2024-09-06T18:00:00+08:00/2024-09-06T21:50:00+08:00
 
-## week 2 lab
+## week 2 lab 1
 
 - datetime: 2024-09-13T18:00:00+08:00/2024-09-13T21:50:00+08:00
 
-## week 3 lab
+## week 3 lab 1
 
 - datetime: 2024-09-20T18:00:00+08:00/2024-09-20T21:50:00+08:00
 - track A: [reverse 101: world of binaries](reverse%20101_%20world%20of%20binaries.md)
@@ -50,7 +50,7 @@ The content is in teaching order.
     - [§ tools for dynamic analysis](reverse%20101_%20world%20of%20binaries.md#tools%20for%20dynamic%20analysis)
     - [§ tools for patching](reverse%20101_%20world%20of%20binaries.md#tools%20for%20patching)
 
-## week 4 lab
+## week 4 lab 1
 
 - datetime: 2024-09-27T18:00:00+08:00/2024-09-27T21:50:00+08:00
 - track A: [pwn 101: binary and buffer overflow](pwn%20101_%20binary%20and%20buffer%20overflow.md)

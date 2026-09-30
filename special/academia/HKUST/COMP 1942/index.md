@@ -27,7 +27,7 @@ The content is in teaching order.
 
 - [project](project/project.md)
 
-## week 1 lecture
+## week 1 lecture 1
 
 - datetime: 2024-01-31T09:00:00+08:00/2024-01-31T10:30:00+08:00
 - 6 major topics ::@:: association, clustering, classification, data warehouse, dimension reduction, web database
@@ -54,7 +54,7 @@ The content is in teaching order.
 - [association rule learning § naive algorithms](../../../../general/association%20rule%20learning.md#naive%20algorithms)
 - [Apriori algorithm § overview](../../../../general/Apriori%20algorithm.md#overview)
 
-## week 3 lecture
+## week 3 lecture 1
 
 - datetime: 2024-02-14T09:00:00+08:00/2024-02-14T10:30:00+08:00
 - [Apriori algorithm § overview](../../../../general/Apriori%20algorithm.md#overview)
@@ -72,7 +72,7 @@ The content is in teaching order.
 - project phase 1
     - deadline: 2024-02-21T09:00:00+08:00
 
-## week 4 tutorial
+## week 4 tutorial 1
 
 - datetime: 2024-02-19T18:00:00+08:00/2024-02-19T19:00:00+08:00
 - optional
@@ -96,7 +96,7 @@ The content is in teaching order.
 - [_k_-means clustering § variations](../../../../general/k-means%20clustering.md#variations)
     - _k_-means clustering variations ::@:: We only teach original _k_-means, sequential _k_-means and forgetful sequential _k_-means.
 
-## week 5 tutorial
+## week 5 tutorial 1
 
 - datetime: 2024-02-26T18:00:00+08:00/2024-02-26T19:00:00+08:00
 - topic: using XLMiner for association rule mining
@@ -125,7 +125,7 @@ The content is in teaching order.
 - [hierarchial clustering § monothetic clustering](../../../../general/hierarchical%20clustering.md#monothetic%20clustering)
 - [hierarchial clustering § chi-squared monothetic clustering](../../../../general/hierarchical%20clustering.md#chi-squared%20monothetic%20clustering)
 
-## week 6 tutorial
+## week 6 tutorial 1
 
 - datetime: 2024-03-04T18:00:00+08:00/2024-03-04T19:00:00+08:00
 - topic: how to do in-class exercise 2 (FP-tree) and additional exercise (FP-tree)
@@ -162,7 +162,7 @@ The content is in teaching order.
 - [classification and regression tree § algorithm](../../../../general/classification%20and%20regression%20tree.md#algorithm)
 - [decision tree learning § Gini impurity](../../../../general/decision%20tree%20learning.md#Gini%20impurity)
 
-## week 7 tutorial
+## week 7 tutorial 1
 
 - datetime: 2024-03-11T18:00:00+08:00/2024-03-11T19:00:00+08:00
 - topic: using XLMiner for _k_-means and hierarchical clustering
@@ -207,7 +207,7 @@ The content is in teaching order.
 - homework 1
     - deadline: 2024-03-20T09:00:00+08:00
 
-## week 8 tutorial
+## week 8 tutorial 1
 
 - datetime: 2024-03-18T18:00:00+08:00/2024-03-18T19:00:00+08:00
 - topic: fundamental matrix operations
@@ -263,7 +263,7 @@ The content is in teaching order.
     - datetime: 2024-03-25T09:05:00+08:00/2024-03-25T10:15:00+08:00
     - types: 80% long questions, 20% multiple choice questions
 
-## week 9 tutorial
+## week 9 tutorial 1
 
 - datetime: 2024-03-25T18:00:00+08:00/2024-03-25T19:00:00+08:00
 - topic: reducing the number of categories; using XLMiner for classification (decision tree)
@@ -290,7 +290,7 @@ The content is in teaching order.
 - datetime: 2024-04-01T09:00:00+08:00/2024-04-01T10:30:00+08:00
 - status: midterm break, public holiday: Easter Monday
 
-## week 10 tutorial
+## week 10 tutorial 1
 
 - datetime: 2024-04-01T18:00:00+08:00/2024-04-01T19:00:00+08:00
 - status: midterm break, public holiday: Easter Monday
@@ -328,7 +328,7 @@ The content is in teaching order.
 - [multilayer perceptron](../../../../general/multilayer%20perceptron.md)
 - [Analytics Solver usage](../../../Analytic%20Solver%20usage.md): neural network
 
-## week 11 tutorial
+## week 11 tutorial 1
 
 - datetime: 2024-04-08T18:00:00+08:00/2024-04-08T19:00:00+08:00
 - topic: using XLMiner for classification (naive Bayes classifier, nearest neighbor classifier)
@@ -361,7 +361,7 @@ The content is in teaching order.
 - [training, validation, and test data sets](../../../../general/training,%20validation,%20and%20test%20data%20sets.md)
     - new data set ::@:: The data set to be predicted that does not have the actual values of the predicted attributes to compare against. Essentially, the model is being put into practical use.
 
-## week 12 lab
+## week 12 lab 1
 
 - datetime: 2024-04-15T18:00:00+08:00/2024-04-15T19:00:00+08:00
 - topic: using XLMiner for classification (neural network)
@@ -397,7 +397,7 @@ The content is in teaching order.
     - [§ operations](../../../../general/OLAP%20cube.md#operations)
         - data cube > operations ::@:: drill down, rollup
 
-## week 13 tutorial
+## week 13 tutorial 1
 
 - datetime: 2024-04-22T18:00:00+08:00/2024-04-22T19:00:00+08:00
 - optional
@@ -431,7 +431,7 @@ The content is in teaching order.
     - [§ damping factor](../../../../general/PageRank.md#damping%20factor)
         - PageRank damping factor variation ::@:: We use the "wrong" algorithm in the original paper, where the PageRank is added $1 - d$ instead of $\frac {1 - d} N$.
 
-## week 14 lecture
+## week 14 lecture 1
 
 - datetime: 2024-04-29T09:00:00+08:00/2024-04-29T10:30:00+08:00
 - [PageRank § simplified algorithm](../../../../general/PageRank.md#simplified%20algorithm)
@@ -452,7 +452,7 @@ The content is in teaching order.
     - [§ two events](../../../../general/chain%20rule%20(probability).md#two%20events)
     - [§ finitely many events](../../../../general/chain%20rule%20(probability).md#finitely%20many%20events)
 
-## week 14 tutorial
+## week 14 tutorial 1
 
 - datetime: 2024-04-29T18:00:00+08:00/2024-04-29T19:00:00+08:00
 - topic: using XLMiner for PCA
@@ -494,7 +494,7 @@ The content is in teaching order.
 - homework 2
     - deadline: 2024-05-08T09:00:00+08:00
 
-## week 15 tutorial
+## week 15 tutorial 1
 
 - datetime: 2024-05-06T18:00:00+08:00/2024-05-06T19:00:00+08:00
 - topic: how to do in-class exercise 5 (Bayesian classifier)

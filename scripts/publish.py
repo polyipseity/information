@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 """Mirror filtered commit history from the private repository to the public one.
 
 Uses ``git filter-repo`` to rewrite history, stripping commits marked with

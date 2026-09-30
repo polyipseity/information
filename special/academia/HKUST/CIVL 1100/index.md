@@ -25,19 +25,19 @@ The content is in teaching order.
 
 - [data](data.md)
 
-## week 2 lecture
+## week 2 lecture 1
 
 - datetime: 2024-02-05T16:00:00+08:00/2024-02-05T18:00:00+08:00
 - 3 covered fields ::@:: civil and structural engineering, environmental engineering, geo-technical engineering
 - [introduction to civil engineering](introduction%20to%20civil%20engineering.md)
 - [data](data.md)
 
-## week 3 lecture
+## week 3 lecture 1
 
 - datetime: 2024-02-12T16:00:00+08:00/2024-02-12T18:00:00+08:00
 - status: unscheduled, public holiday: Third Day of Lunar New Year
 
-## week 4 lecture
+## week 4 lecture 1
 
 - datetime: 2024-02-19T16:00:00+08:00/2024-02-19T18:00:00+08:00
 - [free body](../../../../general/free%20body.md)
@@ -99,7 +99,7 @@ The content is in teaching order.
 - use "critical thinking" ::@:: more like whether you are good at mathematics and physics
 - [quizzes § week 4 lecture quiz](quizzes.md#week%204%20lecture%20quiz)
 
-## week 5 lecture
+## week 5 lecture 1
 
 - datetime: 2024-02-26T16:00:00+08:00/2024-02-26T18:00:00+08:00
 - [truss](../../../../general/truss.md)
@@ -135,38 +135,38 @@ The content is in teaching order.
     - [§ variation](../../../../general/tube%20(structure).md#variation)
 - core walls with outriggers ::@:: [structural system § outrigger](../../../../general/structural%20system.md#outrigger)
 
-## week 6 lecture
+## week 6 lecture 1
 
 - datetime: 2024-03-04T16:00:00+08:00/2024-03-04T18:00:00+08:00
 - [`I-4.1 History of civil engineering and Infrastructure.pdf`](transcripts/I-4.1%20History%20of%20civil%20engineering%20and%20Infrastructure.pdf.md)
 -
 
-## week 7 lecture
+## week 7 lecture 1
 
 - datetime: 2024-03-11T16:00:00+08:00/2024-03-11T18:00:00+08:00
 - [`II-5 Environmental Engineering and Management_11 Mar 2024.pdf`](transcripts/II-5%20Environmental%20Engineering%20and%20Management_11%20Mar%202024.pdf.md)
 
-## week 8 lecture
+## week 8 lecture 1
 
 - datetime: 2024-03-18T16:00:00+08:00/2024-03-18T18:00:00+08:00
 - [`II-6 Land Decontamination and Solid Waste_18 Mar 2024.pdf`](transcripts/II-6%20Land%20Decontamination%20and%20Solid%20Waste_18%20Mar%202024.pdf.md)
 
-## week 9 lecture
+## week 9 lecture 1
 
-## week 10 lecture
+## week 10 lecture 1
 
 - datetime: 2024-04-01T16:00:00+08:00/2024-04-01T18:00:00+08:00
 - status: unscheduled, public holiday: Easter Monday
 
-## week 11 lecture
+## week 11 lecture 1
 
-## week 12 lecture
+## week 12 lecture 1
 
-## week 13 lecture
+## week 13 lecture 1
 
-## week 14 lecture
+## week 14 lecture 1
 
-## week 15 lecture
+## week 15 lecture 1
 
 ## assessments
 

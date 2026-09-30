@@ -21,6 +21,6 @@ tags:
 - HKUST ISDN 0003
 - name: ENTERPRIZE (RoboMaster)
 
-## contents
+## children
 
-- [software](software/)
+- [software/](software/)

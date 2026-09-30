@@ -1,8 +1,9 @@
 ---
 aliases:
+  - YU
   - Yonsei University index
 tags:
-  - flashcard/active/special/academia/Yonsei_University
+  - flashcard/active/special/academia/Yonsei_University/index
   - function/index
   - language/in/English
 ---
@@ -11,7 +12,7 @@ tags:
 
 - Yonsei University
 
-<!-- list separator -->
+## children
 
 ## courses
 

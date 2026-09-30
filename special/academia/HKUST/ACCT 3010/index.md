@@ -35,7 +35,7 @@ The content is in teaching order.
 - [assignments](assignments/index.md)
 - [questions](questions.md)
 
-## week 1 lecture
+## week 1 lecture 1
 
 - datetime: 2025-09-01T13:30:00+08:00/2025-09-01T14:50:00+08:00, PT1H20M
 - topic: logistics; introduction
@@ -50,7 +50,7 @@ The content is in teaching order.
     - ACCT 3010 / introduction ::@:: artificial intelligence \(AI\), importance of accounting, stories from the instructor, etc.
         - ACCT 3010 / introduction / motivation ::@:: career versatility, language of business \(albeit imperfect\), real-world impact, skill development
         - ACCT 3010 / introduction / artificial intelligence ::@:: It _probably_ changes accounting, but would not replace accountants using AIs... \(or maybe not... who knows?\)
-- [questions § week 1 lecture](questions.md#week%201%20lecture)
+- [questions § week 1 lecture 1](questions.md#week%201%20lecture%201)
 
 ## week 1 lecture 2
 
@@ -81,11 +81,11 @@ The content is in teaching order.
         - International Accounting Standards Board / due process / characteristics ::@:: _collaborative_ efforts <br/> _engagement_ with accountants, business leaders, investors, and regulators <br/> _independent_ standard-setting board <br/> _thorough_ and _systematic_ standard-setting process
 - [questions § week 1 lecture 2](questions.md#week%201%20lecture%202)
 
-## week 2 lecture
+## week 2 lecture 1
 
 - datetime: 2025-09-08T13:30:00+08:00/2025-09-08T14:50:00+08:00, PT1H20M
 - status: canceled
-- [questions § week 2 lecture](questions.md#week%202%20lecture)
+- [questions § week 2 lecture 1](questions.md#week%202%20lecture%201)
 
 ---
 
@@ -177,7 +177,7 @@ The content is in teaching order.
     - financial accounting / challenges ::@:: Emerging challenges include non-financial metrics, forward-looking disclosures, intangible assets, and maintaining timeliness in rapidly changing markets.
 - [questions § week 2 lecture 2](questions.md#week%202%20lecture%202)
 
-## week 3 lecture
+## week 3 lecture 1
 
 - datetime: 2025-09-15T13:30:00+08:00/2025-09-15T14:50:00+08:00, PT1H20M
 - topic: income statement; earnings management; earnings per share
@@ -210,7 +210,7 @@ The content is in teaching order.
             - income statement / components / earnings per share / diluted ::@:: It is a company's earnings per share calculated using fully diluted shares outstanding \(i.e. including the impact of stock option grants and convertible bonds\).
 - [earnings per share](../../../../general/earnings%20per%20share.md) \(EPS\) ::@:: It is the monetary value of earnings per outstanding share of common stock for a company during a defined period of time, often a year. It is a key measure of corporate profitability, focusing on the interests of the company's owners \(shareholders\), and is commonly used to price stocks.
     - earnings per share / formula ::@:: earnings per share = ⁠\(net income − preferred dividends\) / weighted average common shares
-- [questions § week 3 lecture](questions.md#week%203%20lecture)
+- [questions § week 3 lecture 1](questions.md#week%203%20lecture%201)
 
 ## week 3 lecture 2
 
@@ -239,7 +239,7 @@ The content is in teaching order.
     - accumulated other comprehensive income / presentation ::@:: It is a subsection in the equity section of the balance sheet where "other comprehensive income" is accumulated \(summed or "aggregated"\).
 - [questions § week 3 lecture 2](questions.md#week%203%20lecture%202)
 
-## week 4 lecture
+## week 4 lecture 1
 
 - datetime: 2025-09-22T13:30:00+08:00/2025-09-22T14:50:00+08:00, PT1H20M
 - topic: statement of financial position; balance sheet; financial analysis
@@ -326,7 +326,7 @@ The content is in teaching order.
     - DuPoint analysis / equity multiplier ::@:: Also called __leverage__. The component reflects financial leverage; a larger multiplier means the company relies more on debt relative to equity: $$\frac{\text{Average Total Assets} } {\text{Average Shareholders' Equity} } \,.$$
     - DuPoint analysis / use cases ::@:: By examining each component, managers and investors can see whether ROE growth stems from improved profitability, smarter asset deployment, or increased leverage—and conversely identify where inefficiencies lie.
     - DuPoint analysis / interpretation ::@:: The DuPont model also highlights that an attractive ROE may be driven by high debt rather than genuine operational strength, underscoring the importance of balancing all three factors.
-- [questions § week 4 lecture](questions.md#week%204%20lecture)
+- [questions § week 4 lecture 1](questions.md#week%204%20lecture%201)
 
 ## week 4 lecture 2
 
@@ -375,7 +375,7 @@ The content is in teaching order.
     - cash flow statement / comparability ::@:: By standardizing the presentation of cash movements, the SCF enhances comparability across firms, enabling investors and analysts to assess liquidity, operational efficiency, and capital-structure decisions more reliably.
 - [questions § week 4 lecture 2](questions.md#week%204%20lecture%202)
 
-## week 5 lecture
+## week 5 lecture 1
 
 - datetime: 2025-09-29T13:30:00+08:00/2025-09-29T14:50:00+08:00, PT1H20M
 - topic: cash and cash equivalents; accounts receivable; bad debt
@@ -440,7 +440,7 @@ The content is in teaching order.
         - bad debt / allowance method / recovery ::@:: If a previously written-off amount is recovered, the allowance is debited and cash (or bank) credited; essentially, reverse of writeoff plus receiving cash; the recovery is recorded as a _gain_ in income.
         - bad debt / allowance method / aging schedule ::@:: It groups accounts receivable into buckets based on how many days they have been outstanding (e.g., 0-30&nbsp;days, 31-60&nbsp;days, 61-90&nbsp;days, >&nbsp;90&nbsp;days). For each bucket, an entity applies a historically derived allowance percentage—often higher for older or more delinquent accounts—to estimate the dollar amount likely to be uncollectible. <p> The sum of these bucket estimates forms the total allowance for doubtful accounts; this figure is then recorded as bad-debt expense and reduces receivables on the balance sheet, ensuring that the reported carrying value reflects expected realizable cash.
         - bad debt / allowance method / over-allowance ::@:: If in the unlikely case that at year end the allowance account has a credit amount larger than the expected credit loss, simply credit "_Bad Debt Expense_".
-- [questions § week 5 lecture](questions.md#week%205%20lecture)
+- [questions § week 5 lecture 1](questions.md#week%205%20lecture%201)
 
 ## week 5 lecture 2
 
@@ -477,7 +477,7 @@ The content is in teaching order.
         - notes receivable / rate / fairness ::@:: If a note is received in exchange for goods or property at arm's length, the stated rate is presumed fair \(that is, can be used to find the present value of the note coupled with the market rate\) unless: (i) no rate stated, (ii) rate unreasonable, or (iii) face amount materially differs from fair value.
             - notes receivable / rate / fairness / examples ::@:: Oasis Development sells land \($14&nbsp;000 cost, $20&nbsp;000 fair market value\) to Rusty Pelican and receives a 5-year note for $35&nbsp;247 with no stated rate. <p> - The note is recorded at fair market value: debit \$20&nbsp;000 to "Notes Receivable". <br/> - Land cost = $14&nbsp;000, so a gain of $6&nbsp;000 is recognized immediately: credit from "Land" \(\$14&nbsp;000\) and "Gain on Sale of Land" \($6&nbsp;000\).
 
-## week 6 lecture
+## week 6 lecture 1
 
 - datetime: 2025-10-06T13:30:00+08:00/2025-10-06T14:50:00+08:00, PT1H20M
 - topic:
@@ -507,7 +507,7 @@ The content is in teaching order.
     - [receivables turnover ratio](../../../../general/receivables%20turnover%20ratio.md) / interpretation ::@:: It measures how many times average receivables are recorded and collected for the year. <p> A higher ratio benefits the company because it can collect the money earlier for investment. It is related to how generous payment schedules are. A sudden decline in the ratio may mean a company is extending payment deadlines to prop up lagging sales or recording bad sales.
     - receivables turnover ratio / average collection period ::@:: $$\frac {365} {\text{receivables turnover ratio} }$$ <p> It indicates the average time it takes for customer to pay its accounts. The unit is in days. <p> Remember to benchmark this period against the credit period.
     - receivables turnover ratio / factoring ::@:: Factoring \(without guarantee\) reduces the ending balance of _trade_ receivables without affecting other numbers, so this ratio is increased.
-- [questions § week 6 lecture](questions.md#week%206%20lecture)
+- [questions § week 6 lecture 1](questions.md#week%206%20lecture%201)
 
 ## week 6 lecture 2
 
@@ -544,11 +544,11 @@ The content is in teaching order.
             - accounts receivable / returns and allowances / inventory / examples ::@:: Quality Publishing sells textbooks to campus stores expecting a 25% return; it records $75k sales revenue \(with $25k refund liability\) and a $15k inventory-return estimate against the original $60k cost \(COGS increase by $45k only\).
 - [questions § week 6 lecture 2](questions.md#week%206%20lecture%202)
 
-## week 7 lecture
+## week 7 lecture 1
 
 - datetime: 2025-10-13T13:30:00+08:00/2025-10-13T14:50:00+08:00, PT1H20M
 - topic:
-- [questions § week 7 lecture](questions.md#week%207%20lecture)
+- [questions § week 7 lecture 1](questions.md#week%207%20lecture%201)
 
 ## week 7 lecture 2
 
@@ -556,11 +556,11 @@ The content is in teaching order.
 - topic:
 - [questions § week 7 lecture 2](questions.md#week%207%20lecture%202)
 
-## week 8 lecture
+## week 8 lecture 1
 
 - datetime: 2025-10-20T13:30:00+08:00/2025-10-20T14:50:00+08:00, PT1H20M
 - status: canceled; sickness
-- [questions § week 8 lecture](questions.md#week%208%20lecture)
+- [questions § week 8 lecture 1](questions.md#week%208%20lecture%201)
 
 ---
 
@@ -584,11 +584,11 @@ The content is in teaching order.
 - topic: midterm examination review
 - [questions § week 8 lecture 2](questions.md#week%208%20lecture%202)
 
-## week 9 lecture
+## week 9 lecture 1
 
 - datetime: 2025-10-27T13:30:00+08:00/2025-10-27T14:50:00+08:00, PT1H20M
 - status: unscheduled; midterm examination preparation
-- [questions § week 9 lecture](questions.md#week%209%20lecture)
+- [questions § week 9 lecture 1](questions.md#week%209%20lecture%201)
 
 ---
 

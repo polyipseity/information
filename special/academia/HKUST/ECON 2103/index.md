@@ -38,7 +38,7 @@ The content is in teaching order.
 - [assignments](assignments/)
 - [questions](questions.md)
 
-## week 1 lecture
+## week 1 lecture 1
 
 - datetime: 2024-09-02T16:30:00+08:00/2024-09-02T17:50:00+08:00
 - a core question of microeconomics ::@:: What do you WANT?
@@ -52,7 +52,7 @@ The content is in teaching order.
     - discussions / waste charging scheme ::@:: Should the government charge waste generation and how? What problems may arise?
     - discussions / more inductive questions ::@:: high property prices, poverty reduction, education subsidy, China–US trade war, market/free economy vs. planned economy vs. others, etc.
 
-## week 1 tutorial
+## week 1 tutorial 1
 
 - datetime: 2024-09-03T17:00:00+08:00/2024-09-03T17:50:00+08:00
 - status: unscheduled
@@ -62,7 +62,7 @@ The content is in teaching order.
 - datetime: 2024-09-06T12:00:00+08:00/2024-09-06T13:20:00+08:00
 - status: canceled: typhoon signal 8
 
-## week 2 lecture
+## week 2 lecture 1
 
 - datetime: 2024-09-09T16:30:00+08:00/2024-09-09T17:50:00+08:00
 - announcements
@@ -100,7 +100,7 @@ The content is in teaching order.
             - [§ law of diminishing marginal utility](../../../../general/marginalism.md#law%20of%20diminishing%20marginal%20utility)
 - [questions § chapter 1 lecture](questions.md#chapter%201%20lecture)
 
-## week 2 tutorial
+## week 2 tutorial 1
 
 - datetime: 2024-09-10T17:00:00+08:00/2024-09-10T17:50:00+08:00
 - status: unscheduled
@@ -131,7 +131,7 @@ The content is in teaching order.
     - Why do economists disagree with each other? ::@:: Economists can disagree with each other! \*grasp\* This could be a difference of scientific judgement, such as different economics schools of thought. The schools of thought predict different things with different theories, and it is difficult to create natural experiments to test them and see which are better. Another source is value judgement, such as the ultimate goal of studying economics.
 - [questions § chapter 2 lecture](questions.md#chapter%202%20lecture)
 
-## week 3 lecture
+## week 3 lecture 1
 
 - datetime: 2024-09-16T16:30:00+08:00/2024-09-16T17:50:00+08:00
 - announcements
@@ -181,14 +181,14 @@ The content is in teaching order.
     - nonlinear [production–possibility frontier](../../../../general/production–possibility%20frontier.md) ::@:: Note that _nonlinear_ PPFs may make _full_ specialization no longer maximizes the total output.
 - [questions § chapter 3 lecture](questions.md#chapter%203%20lecture)
 
-## week 3 tutorial
+## week 3 tutorial 1
 
 - datetime: 2024-09-17T17:00:00+08:00/2024-09-17T17:50:00+08:00
-- [§ week 1 lecture](#week%201%20lecture)
+- [§ week 1 lecture 1](#week%201%20lecture%201)
 - [§ week 1 lecture 2](#week%201%20lecture%202)
-- [§ week 2 lecture](#week%202%20lecture)
+- [§ week 2 lecture 1](#week%202%20lecture%201)
 - [§ week 2 lecture 2](#week%202%20lecture%202)
-- [§ week 3 lecture](#week%203%20lecture)
+- [§ week 3 lecture 1](#week%203%20lecture%201)
 - [Hong Kong's waste problem: what is the new charging scheme and how can it clean up the issue?](https://sc.mp/y4w9)
 - [questions § waste charging](questions.md#waste%20charging)
 
@@ -215,7 +215,7 @@ The content is in teaching order.
     - [§ property rights](../../../../general/market%20economy.md#property%20rights)
 - [questions § chapter 3 lecture](questions.md#chapter%203%20lecture)
 
-## week 4 lecture
+## week 4 lecture 1
 
 - datetime: 2024-09-23T16:30:00+08:00/2024-09-23T17:50:00+08:00
 - [production–possibility frontier](../../../../general/production–possibility%20frontier.md)
@@ -244,11 +244,11 @@ The content is in teaching order.
     - supply and demand / graph ::@:: Draw an empty _xy_ graph. Let the _x_-axis be the quantity. Let the _y_-axis be the price. Draw the demand curve (usually downward sloping) and the supply curve (usually upward sloping). The curves may or may not touch the _x_-axis or _y_-axis. The point where the demand and supply curves meet is the _equilibrium_ price and quantity. <p> Notations: _P_ is the price, _Q<sup>d</sup>_ is the quantity demanded, _Q<sup>s</sup>_ is the quantity supplied, _P\*_ is the _equilibrium_ price, and _Q\*_ is the _equilibrium_ quantity.
 - [questions § chapter 4 lecture](questions.md#chapter%204%20lecture)
 
-## week 4 tutorial
+## week 4 tutorial 1
 
 - datetime: 2024-09-24T17:00:00+08:00/2024-09-24T17:50:00+08:00
 - [§ week 3 lecture 2](#week%203%20lecture%202)
-- [§ week 4 lecture](#week%204%20lecture)
+- [§ week 4 lecture 1](#week%204%20lecture%201)
 
 ## week 4 lecture 2
 
@@ -285,7 +285,7 @@ The content is in teaching order.
     - price / planned economy ::@:: For comparison, in a planned economy, allocation of scarce resources is done by the government only. For example, China before economic reform (1979) was mainly a planned economy.
 - [questions § chapter 4 lecture](questions.md#chapter%204%20lecture)
 
-## week 5 lecture
+## week 5 lecture 1
 
 - datetime: 2024-09-30T16:30:00+08:00/2024-09-30T17:50:00+08:00
 - [supply and demand](../../../../general/supply%20and%20demand.md)
@@ -340,7 +340,7 @@ The content is in teaching order.
     - price elasticity of demand / formula ::@:: _All other things being equal_, $$E_{(P)} = \frac {\Delta Q / Q} {\Delta P / P} \,,$$ where $P$ is the _initial_ (not _final_ or _average_) price of the good demanded, $\Delta P$ is how much it changed, $Q$ is the _initial_ (not _final_ or _average_) quantity of the good demanded, and $\Delta Q$ is how much it changed. We use the starting point formula for percentage change.
         - price elasticity of demand / formula / other formulas ::@:: There are at least two other common formulas for the price elasticity of demand, but we will ignore them for now. (We use the starting point formula for percentage change.)
 
-## week 5 tutorial
+## week 5 tutorial 1
 
 - datetime: 2024-10-01T17:00:00+08:00/2024-10-01T17:50:00+08:00
 - status: unscheduled, public holiday: National Day
@@ -387,7 +387,7 @@ The content is in teaching order.
         - price elasticity of demand / graph / normal assumptions ::@:: Normally, the supply curve is increasingly sloped. This means the supply curve becomes less elastic as quantity increases. This is often due to capacity limits.
 - [questions § chapter 5 lecture](questions.md#chapter%205%20lecture)
 
-## week 6 lecture
+## week 6 lecture 1
 
 - datetime: 2024-10-07T16:30:00+08:00/2024-10-07T17:50:00+08:00
 - [price elasticity of supply](../../../../general/price%20elasticity%20of%20supply.md)
@@ -430,20 +430,20 @@ The content is in teaching order.
         - [externality](../../../../general/externality.md) ::@:: It is an _indirect cost or benefit_ to an uninvolved third party that arises as an effect of another party's (or parties') activity.
         - [public good](../../../../general/public%20good%20(economics).md) ::@:: It is a good that is both _non-excludable_ and _non-rivalrous_. Use by one person neither prevents access by other people, nor does it reduce availability to others.
 
-## week 6 tutorial
+## week 6 tutorial 1
 
 - datetime: 2024-10-08T17:00:00+08:00/2024-10-08T17:50:00+08:00
 - [§ week 4 lecture 2](#week%204%20lecture%202)
-- [§ week 5 lecture](#week%205%20lecture)
+- [§ week 5 lecture 1](#week%205%20lecture%201)
 - [§ week 5 lecture 2](#week%205%20lecture%202)
-- [§ week 6 lecture](#week%206%20lecture)
+- [§ week 6 lecture 1](#week%206%20lecture%201)
 
 ## week 6 lecture 2
 
 - datetime: 2024-10-11T12:00:00+08:00/2024-10-11T13:20:00+08:00
 - status: unscheduled, public holiday: Chung Yeung Festival
 
-## week 7 lecture
+## week 7 lecture 1
 
 - datetime: 2024-10-14T16:30:00+08:00/2024-10-14T17:50:00+08:00
 - announcements
@@ -487,7 +487,7 @@ The content is in teaching order.
 - [price controls](../../../../general/price%20controls.md)
     - [price controls](../../../../general/price%20controls.md) / summary ::@:: People respond to incentives smartly. Price controls intervene with the price signal in a market. If enforcement is perfect, then it "works". Otherwise, black markets and other allocation methods appear, some of which tends the actual price and quantity to the economic equilibrium, while some others decrease economic surpluses further. <p> Regardless of enforcement, the total surplus decreases (_deadweight loss_). Price controls is only effective for reallocating the total surplus in between consumer surplus and producer surplus. But even then, it may decrease the surplus it intends to increase because the total surplus has decreased by too much.
 
-## week 7 tutorial
+## week 7 tutorial 1
 
 - datetime: 2024-10-15T17:00:00+08:00/2024-10-08T17:50:00+08:00
 - status: unscheduled
@@ -522,7 +522,7 @@ The content is in teaching order.
         - tax incidence / elasticity / application ::@:: 1990: Congress adopted a luxury tax on yachts, private airplanes, furs, expensive cars, etc. to raise revenue from those who could most easily afford to pay—wealthy consumers. But was it true that the wealthy cusomters paid this tax? <p> Compare the _relative elasticities_. Supply is inelastic _in the short run_, while demand is elastic because the goods are luxury. So the supply (the luxury producers) bears more tax burden than the demand (wealthy customers) _in the short run_.
 - [questions § chapter 8 lecture](questions.md#chapter%208%20lecture)
 
-## week 8 lecture
+## week 8 lecture 1
 
 - datetime: 2024-10-21T16:30:00+08:00/2024-10-21T17:50:00+08:00
 - [tax incidence](../../../../general/tax%20incidence.md)
@@ -545,13 +545,13 @@ The content is in teaching order.
             - [Laffer curve](../../../../general/Laffer%20curve.md) ::@:: It illustrates a theoretical relationship between rates of taxation and the resulting levels of the government's tax revenue. It assumes that no tax revenue is raised at the extreme tax rates of 0% and 100%, meaning that there is a tax rate between 0% and 100% that maximizes government tax revenue.
 - [questions § chapter 8 lecture](questions.md#chapter%208%20lecture)
 
-## week 8 tutorial
+## week 8 tutorial 1
 
 - datetime: 2024-10-22T17:00:00+08:00/2024-10-22T17:50:00+08:00
 - [§ week 6 lecture 2](#week%206%20lecture%202)
-- [§ week 7 lecture](#week%207%20lecture)
+- [§ week 7 lecture 1](#week%207%20lecture%201)
 - [§ week 7 lecture 2](#week%207%20lecture%202)
-- [§ week 8 lecture](#week%208%20lecture)
+- [§ week 8 lecture 1](#week%208%20lecture%201)
 
 ## week 8 lecture 2
 
@@ -590,7 +590,7 @@ The content is in teaching order.
     - average cost / equality relation ::@:: $$AFC + AVC = ATC$$ <p> This is evident mathematically...
 - [questions § chapter 13 lecture](questions.md#chapter%2013%20lecture)
 
-## week 9 lecture
+## week 9 lecture 1
 
 - datetime: 2024-10-28T16:30:00+08:00/2024-10-28T17:50:00+08:00
 - [average cost](../../../../general/average%20cost.md)
@@ -611,11 +611,11 @@ The content is in teaching order.
         - cost curves / long run / example ::@:: Say we have 4 factories. We consider using 1 factory, 2 factories, 3 factories, and 4 factories separately. Then each has a different SRATC curve. We want to choose 1 factory usage pattern. <p> Plot the SRATC curves. In the long run, we can vary move labors to an arbitrary factory. So when deciding to output a certain amount, we always choose the factory usage pattern with the lowest SRATC. So the LRATC is the lowest SRATC curve for each output level.
         - cost curves / long run / scale ::@:: The __minimum efficient scale__ is given by the lowest point of the LRATC. Anything before that is __economies of scale__. Anything after that is __diseconomies of scale__.
 
-## week 9 tutorial
+## week 9 tutorial 1
 
 - datetime: 2024-10-29T17:00:00+08:00/2024-10-29T17:50:00+08:00
 - [§ week 8 lecture 2](#week%208%20lecture%202)
-- [§ week 9 lecture](#week%209%20lecture)
+- [§ week 9 lecture 1](#week%209%20lecture%201)
 
 ## week 9 lecture 2
 
@@ -651,16 +651,16 @@ The content is in teaching order.
         - entry & exit / efficiency / conditions ::@:: The above assumes all firms are the _same_ and costs do not change as firms enter or exit the market. If either of this is not true, the LR supply curve can slope upward. <p> This is because lower cost firms will enter first. As price rises, increasingly higher cost firms will enter. The end result is that the marginal firm has zero economic profit while all other lower cost firms have positive economic profit. <p> Alternatively, the upward LR supply curve can be interpreted as that consumers have to pay a higher price to induce more firms to enter the market (to produce). A horizontal curve means consumers do not need to do so.
 - [questions § chapter 14 lecture](questions.md#chapter%2014%20lecture)
 
-## week 10 lecture
+## week 10 lecture 1
 
 - datetime: 2024-11-04T16:30:00+08:00/2024-11-04T17:50:00+08:00
 
-## week 10 tutorial
+## week 10 tutorial 1
 
 - datetime: 2024-11-05T17:00:00+08:00/2024-11-05T17:50:00+08:00
 - status: canceled
 - [§ week 9 lecture 2](#week%209%20lecture%202)
-- [§ week 10 lecture](#week%2010%20lecture)
+- [§ week 10 lecture 1](#week%2010%20lecture%201)
 
 ## week 10 lecture 2
 
@@ -751,7 +751,7 @@ The content is in teaching order.
         - timeslot: 2024-11-22T16:20:00+08:00/2024-11-22T16:30:00+08:00, PT10M
     - venue: Room 5047, LSK Bldg
 
-## week 11 lecture
+## week 11 lecture 1
 
 - datetime: 2024-11-11T16:30:00+08:00/2024-11-11T17:50:00+08:00
 - [monopoly](../../../../general/monopoly.md)
@@ -784,12 +784,12 @@ The content is in teaching order.
     - [strategic dominance](../../../../general/strategic%20dominance.md) ::@:: In [game theory](../../../../general/game%20theory.md), it is a [strategy](../../../../general/strategy%20(game%20theory).md) that is better than any other strategy for a player, no matter how that player's opponent or opponents play. Strategies that are dominated by another strategy can be eliminated from consideration, as they can be strictly improved upon. Some very simple games can be solved using dominance. <p> For example, in prisoners' dilemma, defecting is the dominant strategy. So rational players would both defect.
 - [questions § chapter 17 lecture](questions.md#chapter%2017%20lecture)
 
-## week 11 tutorial
+## week 11 tutorial 1
 
 - datetime: 2024-11-12T17:00:00+08:00/2024-11-12T17:50:00+08:00
 - status: unscheduled
 - [§ week 10 lecture 2](#week%2010%20lecture%202)
-- [§ week 11 lecture](#week%2011%20lecture)
+- [§ week 11 lecture 1](#week%2011%20lecture%201)
 
 ## week 11 lecture 2
 
@@ -800,7 +800,7 @@ The content is in teaching order.
 - [Cournot competition](../../../../general/Cournot%20competition.md) ::@:: It is an economic model used to describe an industry structure in which companies compete on the amount of output they will produce, which they decide on independently of each other and at the same time.
 - [questions § chapter 17 lecture](questions.md#chapter%2017%20lecture)
 
-## week 12 lecture
+## week 12 lecture 1
 
 - datetime: 2024-11-18T16:30:00+08:00/2024-11-18T17:50:00+08:00
 - [Cournot competition](../../../../general/Cournot%20competition.md)
@@ -816,11 +816,11 @@ The content is in teaching order.
     - [tit for tat](../../../../general/tit%20for%20tat.md) ::@:: It is an English saying meaning "equivalent retaliation". <p> In game theory, it means you play the cooperative strategy in the first round (try to reach the cooperative equilibrium). In the following rounds, if the other player cooperates/cheats in the previous round, you cooperate/cheat, copying the other player's strategy in previous round (punishment for cheating).
 - [questions § chapter 17 lecture](questions.md#chapter%2017%20lecture)
 
-## week 12 tutorial
+## week 12 tutorial 1
 
 - datetime: 2024-11-19T17:00:00+08:00/2024-11-19T17:50:00+08:00
 - [§ week 11 lecture 2](#week%2011%20lecture%202)
-- [§ week 12 lecture](#week%2012%20lecture)
+- [§ week 12 lecture 1](#week%2012%20lecture%201)
 
 ## week 12 lecture 2
 
@@ -845,7 +845,7 @@ The content is in teaching order.
     - carbon emission trading / mechanism ::@:: The government sets a target for carbon emission. The government sells permits, which can be traded among firms, to emit according to its target. Then it auctions off the permits to firms. The government can earn more revenue, while using market mechanism to ensure that the permits are in firms who value them the most (highest WTP). This ensures economic efficiency: Activities that still create economic gain if emissions are considered will continue. Or investment on carbon reduction will increase if it is cheaper than buying permits. Changing market conditions and environment, which may change WTP, reallocates the permits through the market. <p> This, of course, assumes enforcement is perfect... And there are also other (not necessarily economic) problems not mentioned here.
 - [questions § chapter 10 lecture](questions.md#chapter%2010%20lecture)
 
-## week 13 lecture
+## week 13 lecture 1
 
 - datetime: 2024-11-25T16:30:00+08:00/2024-11-25T17:50:00+08:00
 - announcements
@@ -884,11 +884,11 @@ The content is in teaching order.
     - common good / summary ::@:: People use these resources without paying, so they tend to overuse them. Therefore, governments try to limit the use of common resources. But also consider this: Instead of "government regulation", according to the Coase Theorem, property right should be better defined (if possible).
 - [questions § chapter 11 lecture](questions.md#chapter%2011%20lecture)
 
-## week 13 tutorial
+## week 13 tutorial 1
 
 - datetime: 2024-11-26T17:00:00+08:00/2024-11-26T17:50:00+08:00
 - [§ week 12 lecture 2](#week%2012%20lecture%202)
-- [§ week 13 lecture](#week%2013%20lecture)
+- [§ week 13 lecture 1](#week%2013%20lecture%201)
 - [§ week 13 lecture 2](#week%2013%20lecture%202)
 
 ## week 13 lecture 2

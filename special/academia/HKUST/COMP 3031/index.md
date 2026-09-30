@@ -52,7 +52,7 @@ The content is in teaching order.
     - source: <https://github.com/polyipseity/hkust-comp-3031-labs.git>
 - [questions](questions.md)
 
-## week 1 lab
+## week 1 lab 1
 
 - datetime: 2025-09-01T15:00:00+08:00/2025-09-01T16:20:00+08:00, PT1H20M
 - status: unscheduled
@@ -71,7 +71,7 @@ The content is in teaching order.
 >
 > — \[redacted\]
 
-## week 1 lecture
+## week 1 lecture 1
 
 - datetime: 2025-09-02T12:00:00+08:00/2025-09-02T13:20:00+08:00, PT1H20M
 - topic: logistics; introduction; elements of programming; termination; evaluation strategy; scoping
@@ -188,7 +188,7 @@ The content is in teaching order.
         - [§ identifiers](Scala%203.md#identifiers): identifier
         - [§ infix notation](Scala%203.md#infix%20notation): infix notation, operator, precedence
 
-## week 2 lab
+## week 2 lab 1
 
 - datetime: 2025-09-08T15:00:00+08:00/2025-09-08T16:20:00+08:00, PT1H20M
 - status: online; typhoon signal 8
@@ -220,7 +220,7 @@ The content is in teaching order.
 > Join our Cloud HD Video Meeting <br/>
 > Zoom is the leader in modern enterprise cloud communications.
 
-## week 2 lecture
+## week 2 lecture 1
 
 - datetime: 2025-09-09T12:00:00+08:00/2025-09-09T13:20:00+08:00, PT1H20M
 - topic: inheritance; objects; entry points; code organization; imports; traits; type system; exceptions; cons; type parameters; polymorphism; pure object-orientation
@@ -291,11 +291,11 @@ The content is in teaching order.
     - pattern matching / imperative languages ::@:: They implement ADTs with tagged unions or discriminated unions: <p> - C: `typedef enum { NUMBER, SUM } ExprKind;` and a struct containing a union of concrete representations. The `eval` function uses a `switch` on the kind tag. <br/> - The pattern is verbose and prone to unsafe bugs (e.g., forgetting a case).
     - pattern matching / popularity ::@:: Many languages now provide pattern matching over sealed class hierarchies, including Kotlin, Swift, and newer Java releases. These languages blend the expressiveness of functional ADTs with object-oriented type systems.
 
-## week 3 lab
+## week 3 lab 1
 
 - datetime: 2025-09-15T15:00:00+08:00/2025-09-15T16:20:00+08:00, PT1H20M
 - topic: tools; lab 0; project structure; sbt; IDE; REPL; worksheet; coding; functional programming
-- [§ week 2 lab](#week%202%20lab)
+- [§ week 2 lab 1](#week%202%20lab%201)
 - COMP 3031
     - COMP 3031 / lab 0
     - COMP 3031 / lab 1
@@ -308,7 +308,7 @@ The content is in teaching order.
             - COMP 3031 / lab 1 / counting change / solution ::@:: The function first deals with base cases: if the target money is negative, return 0; if it equals zero, there is exactly one way (use no coins). If the list of coins is empty while the amount remains positive, return 0. For a non-empty list, let `coin` be the head and `tail` the remainder. The total number of ways is the sum of two recursive calls: one that includes at least one `coin` (`countChange(money - coin, coins)`) and another that excludes it entirely (`countChange(money, tail)`). This recurrence explores all combinations systematically without duplication.
         - COMP 3031 / lab 1 / tips ::@:: - Use the immutable List operations (`isEmpty`, `head`, `tail`) to navigate lists instead of indices. <br/> - Think carefully about degenerate cases (zero amount, empty coin set) to avoid infinite recursion or incorrect counts. <br/> - For tail-recursion, annotate the helper with `@tailrec` to ensure the compiler verifies termination and stack safety.
 
-## week 3 lecture
+## week 3 lecture 1
 
 - datetime: 2025-09-16T12:00:00+08:00/2025-09-16T13:20:00+08:00, PT1H20M
 - topic: polymorphism; type bound; variance; variance of functions; list covariance; list methods
@@ -346,7 +346,7 @@ The content is in teaching order.
         - [§ pack](collections.md#pack): pack, pack example
         - [§ reduce](collections.md#reduce): reduce, `reduceLeft`, `foldLeft`, initial value, `reduceRight`, `foldRight`, reduce example
 
-## week 4 lab
+## week 4 lab 1
 
 - datetime: 2025-09-22T15:00:00+08:00/2025-09-22T16:20:00+08:00, PT1H20M
 - topic: higher-order functions; generic programming
@@ -377,7 +377,7 @@ The content is in teaching order.
             - COMP 3031 / exercise 1 / tree ADT / `sortedList` ::@:: Build a BST by folding over the input list with `add`, then convert to list: `ls.foldLeft[Tree[T]](EmptyTree(leq))((t, e) => t.add(e)).toList`
             - COMP 3031 / exercise 1 / tree ADT / enumeration ::@:: When all behaviour is defined in a single place (no subclass methods), the tree can be expressed using Scala 3's `enum` syntax with pattern-matching inside each case.
 
-## week 4 lecture
+## week 4 lecture 1
 
 - datetime: 2025-09-23T12:00:00+08:00/2025-09-23T13:20:00+08:00, PT1H20M
 - topic: proofs in Scala; list properties; structural induction; referential transparency; vector; collection hierarchy; Java sequences; range; sequence methods; mapping; map methods; option; varargs
@@ -420,7 +420,7 @@ The content is in teaching order.
         - [§ for expression examples](Scala%203.md#for%20expression%20examples): `for` expression examples
         - [§ for expressions in other languages](Scala%203.md#for%20expressions%20in%20other%20languages): `for` expression in other languages, `for` expression in Python, `for` expression in Haskell, `for` expression in F\#
 
-## week 5 lab
+## week 5 lab 1
 
 - datetime: 2025-09-29T15:00:00+08:00/2025-09-29T16:20:00+08:00, PT1H20M
 - topic: higher-order functions; characteristic function
@@ -437,7 +437,7 @@ The content is in teaching order.
         - COMP 3031 / lab 2 / `map` ::@:: The `map` operation constructs a new set by applying a function `f` to each element of the original set. <p> Because we can only query membership via `contains`, the map is defined as: `x => exists(s, y => f(y) == x)`. For any candidate `x`, it checks whether there exists some `y` in the source set whose image under `f` equals `x`.
         - COMP 3031 / lab 2 / remarks ::@:: All functions can be expressed as one-liners; the challenge lies in reasoning about function composition rather than writing boilerplate. <p> Think of a set not as a collection but as a _predicate_ that tells whether a given integer is included.
 
-## week 5 lecture
+## week 5 lecture 1
 
 - datetime: 2025-09-30T12:00:00+08:00/2025-09-30T13:20:00+08:00, PT1H20M
 - topic: case class; enumeration; collection; higher-order function; for expression; word coder; database query; desugaring for expressions; monad; generator monad
@@ -503,7 +503,7 @@ The content is in teaching order.
         - [§ proving set union property](proofs.md#proving%20set%20properties): proving set union property
 - assignment: [assignment 1](assignments/assignment%201/index.md)
 
-## week 6 lab
+## week 6 lab 1
 
 - datetime: 2025-10-06T15:00:00+08:00/2025-10-06T16:20:00+08:00, PT1H20M
 - topic: pattern matching; for expression
@@ -519,7 +519,7 @@ The content is in teaching order.
             - COMP 3031 / exercise 2 / expression simplifier / solution ::@:: Recursively simplify sub-expressions, then apply pattern-based rewrites: <p> - `Sum(a,b)`: If both are numbers → add them. If one operand is `Number(0)` → return the other. If operands equal → collapse to `Prod(Number(2), x)`. <br/> - `Prod(a,b)`: Numeric multiplication if both numbers. Zero handling: any factor `0` → `Number(0)`. Identity handling: factor `1` removed. <br/> - Base cases (`Number`, `Var`) return unchanged.
             - COMP 3031 / exercise 2 / expression simplifier / limitations ::@:: Current rules miss deeper simplifications (e.g., nested sums or products). <p> Suggested improvement: Convert expression to a _normalized form_ such as a sum of product terms, each term being a list of factors. Then perform arithmetic on the normalized representation and reconstruct the final expression from it. <p> It is an open-ended problem, because there is no good definition of the "_most simplified_ form" of an arbitrary expression.
 
-## week 6 lecture
+## week 6 lecture 1
 
 - datetime: 2025-10-07T12:00:00+08:00/2025-10-07T13:20:00+08:00, PT1H20M
 - status: unscheduled; public holiday: Mid-Autumn Festival
@@ -543,7 +543,7 @@ The content is in teaching order.
         - [§ infinite sequence examples](lazy%20evaluation.md#infinite%20sequence%20examples): sieve of Eratosthenes, lazy fixed iteration, water pouring problem
         - [§ lazy evaluation in other languages](lazy%20evaluation.md#lazy%20evaluation%20in%20other%20languages): lazy evaluation in Haskell, lazy evaluation in OCaml
 
-## week 7 lab
+## week 7 lab 1
 
 - datetime: 2025-10-13T15:00:00+08:00/2025-10-13T16:20:00+08:00, PT1H20M
 - topic: Huffman coding; Huffman tree
@@ -573,7 +573,7 @@ The content is in teaching order.
             - COMP 3031 / lab 3 / code table / lookup ::@:: `codeBits(table)(char)` looks up a character's code in the table and returns its bit list; an error is thrown if the character isn't present.
             - COMP 3031 / lab 3 / code table / encode ::@:: `quickEncode(tree)(text)` first converts the tree into a table, then maps each character of `text` to its pre-computed bit list via `codeBits`, flattening the result.
 
-## week 7 lecture
+## week 7 lecture 1
 
 - datetime: 2025-10-14T12:00:00+08:00/2025-10-14T13:20:00+08:00, PT1H20M
 - status: unscheduled; special leave for conference
@@ -583,7 +583,7 @@ The content is in teaching order.
 - datetime: 2025-10-16T12:00:00+08:00/2025-10-16T13:20:00+08:00, PT1H20M
 - status: unscheduled; special leave for conference
 
-## week 8 lab
+## week 8 lab 1
 
 - datetime: 2025-10-20T15:00:00+08:00/2025-10-20T16:20:00+08:00, PT1H20M
 - topic: look-and-say sequence; lazy sequences
@@ -600,7 +600,7 @@ The content is in teaching order.
                 - COMP 3031 / exercise 3 / lazy sequences / `palCodes` / for-comprehension ::@:: Constructs each palindrome explicitly by sandwiching a middle segment (`""`, `"0"`, or `"1"`) between a string and its reverse: <p> `val palCodes = "0" #:: "1" #:: (for (c <- codes; middle  <- "" :: "0" :: "1" :: Nil) yield c + middle + c.reverse)`
             - COMP 3031 / exercise 3 / lazy sequences / interleaving ::@:: Alternates elements from `xs` and `ys`; if one list is exhausted it appends the remainder of the other: <p> Pattern match on both `xs` and `ys` using a tuple: `(xs, ys)`. Then split cases as: `case (x #:: xr, y #:: yr)`, `case (LazyList(), ys)`, `case (xs, LazyList())`. <p> Usage: `interleave(palCodes, otherCodes)`: Merges the palindrome stream with an external source of codes to produce a single lazy list containing both kinds of strings in alternating order.
 
-## week 8 lecture
+## week 8 lecture 1
 
 - datetime: 2025-10-21T12:00:00+08:00/2025-10-21T13:20:00+08:00, PT1H20M
 - status: unscheduled; special leave for conference
@@ -630,7 +630,7 @@ The content is in teaching order.
         - [§ extension methods](context.md#extension%20methods): extension methods
         - [§ type class in other languages](context.md#type%20class%20in%20other%20languages): type class in other languages, type class in Haskell, type class in Rust
 
-## week 9 lab
+## week 9 lab 1
 
 - datetime: 2025-10-27T15:00:00+08:00/2025-10-27T16:20:00+08:00, PT1H20M
 - topic: anagram; word anagram; sentence anagram; recursion
@@ -647,7 +647,7 @@ The content is in teaching order.
         - COMP 3031 / lab 4 / `subtractOccurrences` ::@:: Remove counts of one occurrence list `y` from another `x`; assume `y` is a subset of `x`. Drop zero-count entries and keep result sorted.
         - COMP 3031 / lab 4 / sentence anagrams ::@:: Recursively pick any valid word from subsets of the sentence's occurrence list; subtract its occurrences and continue until empty. Base case returns `List(Nil)`. <p> 1. Compute `allOccurrences = sentenceOccurrences(sentence)`. <br/> 2. For each `combination` in `combinations(allOccurrences)`: For each `possibleWord` in `dictionaryByOccurrences(combination)`, recurse on `subtract(allOccurrences, combination)` to get `otherWords`, and then prepend `possibleWord` to each `otherWords`. <br/> 3. Collect all sentences produced; the empty sentence maps to `List(Nil)`.
 
-## week 9 lecture
+## week 9 lecture 1
 
 - datetime: 2025-10-28T12:00:00+08:00/2025-10-28T13:20:00+08:00, PT1H20M
 - status: unscheduled; midterm examination
@@ -781,13 +781,13 @@ The content is in teaching order.
         - [§ execution contexts](context.md#execution%20contexts)
         - [§ opaque type aliases for safety](context.md#opaque%20type%20aliases%20for%20safety)
 
-## week 10 lab
+## week 10 lab 1
 
 - datetime: 2025-11-03T15:00:00+08:00/2025-11-03T16:20:00+08:00, PT1H20M
 - topic: midterm examination; midterm examination paper checking
 - [§ midterm examination](#midterm%20examination)
 
-## week 10 lecture
+## week 10 lecture 1
 
 - datetime: 2025-11-04T12:00:00+08:00/2025-11-04T13:20:00+08:00, PT1H20M
 - topic: state; substitution model; statefulness; `var`; operational equivalence; loops; digital circuit example
@@ -824,7 +824,7 @@ The content is in teaching order.
         - [§ implicit function types](context.md#implicit%20function%20types)
 - assignment: [assignment 2](assignments/assignment%202/index.md)
 
-## week 11 lab
+## week 11 lab 1
 
 - datetime: 2025-11-10T15:00:00+08:00/2025-11-10T16:20:00+08:00, PT1H20M
 - topic: abstract syntax tree
@@ -839,7 +839,7 @@ The content is in teaching order.
         - COMP 3031 / exercise 4 / implement `foldLeft` ::@:: Accumulate left-to-right using a binary function `f`. <p> Functions are curried; compute `f(acc, x)` as `Call(Call(Name("f"), Name("acc")), Name("x"))`.
         - COMP 3031 / exercise 4 / implement `cas` ::@:: Compare-and-swap returns `1` on success (write performed) or `0` if the current value differs from `old`. <p> In `Expr`: use `Read` to fetch, `Write` to store and then continue with `andThen`. `IfNonzero(minus(Read(idx), old), ...)` effectively tests `mem(idx) != old`. `Write(idx, nw, Constant(1))` performs the write, then evaluates to `1`. <p> In this toy language, execution is sequential; real CAS is atomic in concurrent settings.
 
-## week 11 lecture
+## week 11 lecture 1
 
 - datetime: 2025-11-11T12:00:00+08:00/2025-11-11T13:20:00+08:00, PT1H20M
 - topic: Lisp; Scheme; Lisp program; Lisp data; interpreter; tokenizer; parser; Lisp syntax; Lisp syntactic sugar
@@ -873,7 +873,7 @@ The content is in teaching order.
         - [§ usage](Lisp.md#usage)
         - [§ extensions](Lisp.md#extensions)
 
-## week 12 lab
+## week 12 lab 1
 
 - datetime: 2025-11-17T15:00:00+08:00/2025-11-17T16:20:00+08:00, PT1H20M
 - topic: Bloxorz; lazy evaluation; `LazyList`
@@ -897,7 +897,7 @@ The content is in teaching order.
         - COMP 3031 / lab 5 / laziness ::@:: `LazyList` ensures you only compute as much of the search frontier as needed; BFS guarantees the first goal path discovered is shortest. Avoid recomputation by tracking `explored` blocks; only expand fresh neighbors.
         - COMP 3031 / lab 5 / summary ::@:: Parse terrain → define block & moves → generate legal neighbors → lazy BFS (`from`) with cycle avoidance → filter goal paths → reverse history for final `solution`. <p> This pattern generalizes to other shortest‑path problems on implicit graphs.
 
-## week 12 lecture
+## week 12 lecture 1
 
 - datetime: 2025-11-18T12:00:00+08:00/2025-11-18T13:20:00+08:00, PT1H20M
 - topic: logic programming; Prolog; Prolog basics; deductive information retrieval; Prolog implementation; unification; complexity of unification
@@ -927,13 +927,13 @@ The content is in teaching order.
         - [§ completeness](logic%20programming.md#completeness)
         - [§ problems with negation](logic%20programming.md#problems%20with%20negation)
 
-## week 13 lab
+## week 13 lab 1
 
 - datetime: 2025-11-24T15:00:00+08:00/2025-11-24T16:20:00+08:00, PT1H20M
 - topic: final examination preparation
 - [§ final examination](logic%20programming.md#final%20examination)
 
-## week 13 lecture
+## week 13 lecture 1
 
 - datetime: 2025-11-25T12:00:00+08:00/2025-11-25T13:20:00+08:00, PT1H20M
 - topic: asynchronous programming; continuation-passing style; callback; direct style; future; `Future`; promise; `Promise`; transformation on futures; dataflow programming; future execution

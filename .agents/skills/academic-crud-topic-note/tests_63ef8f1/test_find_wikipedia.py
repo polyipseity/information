@@ -1,4 +1,4 @@
-"""Unit tests for :mod:`academic-notes.find_wikipedia`.
+"""Unit tests for the topic-note ``find_wikipedia.py`` helper.
 
 This module lives in the skill directory and exercises the network
 mocking logic used by the real CLI.  The tests here ensure we avoid

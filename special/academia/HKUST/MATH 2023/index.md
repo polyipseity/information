@@ -36,7 +36,7 @@ The content is in teaching order.
 - [assignments](assignments/index.md)
 - [questions](questions.md)
 
-## week 1 lecture
+## week 1 lecture 1
 
 - datetime: 2025-02-04T13:30:00+08:00/2025-02-04T14:50:00+08:00
 - [function](../../../../general/function%20(mathematics).md) ::@:: image, pre-image, graph of a function, continuity
@@ -67,10 +67,10 @@ The content is in teaching order.
     - [unit vector](../../../../general/unit%20vector.md) ::@:: A vector of magnitude 1. The unit vector associated with an arbitrary vector $\vec v$ is $\vec v / \lvert \vec v \rvert$. The zero vector has no unit vector, as it has no direction. <p> For example, in 3D space, the unit vectors along the coordinate axes (and their notations): $\vec i = \langle 1, 0, 0 \rangle, \vec j = \langle 0, 1, 0 \rangle, \vec k = \langle 0, 0, 1 \rangle$. These 3 unit vectors form is _an_ (not _the_) orthonormal basis of the 3D space.
     - [orthonormal basis](../../../../general/orthonormal%20basis.md) ::@:: The set of unit vectors along the coordinate axes form an orthonormal basis. This means any vector can be _uniquely_ written as a linear combination of the orthonormal basis. <p> For example, in 3D space, each vector $\vec v$ can be written uniquely as $\vec v = x \vec i + y \vec j + z \vec k$, where $x, y, z$ are scalars.
 
-## week 1 tutorial
+## week 1 tutorial 1
 
 - datetime: 2025-02-04T16:00:00+08:00/2025-02-04T16:50:00+08:00
-- [week 1 lecture](#week%201%20lecture)
+- [week 1 lecture 1](#week%201%20lecture%201)
 - [week 1 lecture 2](#week%201%20lecture%202)
 
 ## week 1 lecture 2
@@ -101,7 +101,7 @@ The content is in teaching order.
         - cross product / calculation / element-wise ::@:: $\mathbf a \times \mathbf b = \langle a_2 b_3 - a_3 b_2, a_3 b_1 - a_1 b_3, a_1 b_2 - a_2 b_1 \rangle$
         - cross product / calculation / matrix determinant ::@:: $\mathbf a \times \mathbf b = \begin{vmatrix} \mathbf i & \mathbf j & \mathbf k \\ a_1 & a_2 & a_3 \\ b_1 & b_2 & b_3 \end{vmatrix}$
 
-## week 2 lecture
+## week 2 lecture 1
 
 - datetime: 2025-02-11T13:30:00+08:00/2025-02-11T14:50:00+08:00
 - [cross product](../../../../general/cross%20product.md)
@@ -119,10 +119,10 @@ The content is in teaching order.
     - parametric equation / measure ::@:: Parameterization does not affect the _arc length_ \(or simply _length_\) of a curve, the _surface area_ of a surface, etc.
 - [arc length](../../../../general/arc%20length.md) ::@:: \(_this_\) is the distance between two points along a section of a [curve](../../../../general/curve.md).
 
-## week 2 tutorial
+## week 2 tutorial 1
 
 - datetime: 2025-02-11T16:00:00+08:00/2025-02-11T16:50:00+08:00
-- [week 2 lecture](#week%202%20lecture)
+- [week 2 lecture 1](#week%202%20lecture%201)
 - [week 2 lecture 2](#week%202%20lecture%202)
 
 ## week 2 lecture 2
@@ -146,7 +146,7 @@ The content is in teaching order.
         - Euclidean plane / distance to a point / intuition ::@:: Consider the plane equation $ax + by + cz - d = 0$. In particular, the left hand side without $d$ is the component of $\langle x, y, z \rangle$ in the normal vector direction, scaled by the length of the normal vector. The $d$ represents the _signed_ (positive in the direction of the normal vector) distance of the plane from the origin scaled by the normal vector length. So the entire left hand side is the _signed_ distance from the plane to the point $(x, y, z)$. <p> So clearly, the (_unsigned_) distance to the point $(x, y, z)$ is: $$\text{distance} = \frac {\lvert ax + by + cz - d \rvert} {\sqrt {a^2 + b^2 + c^2} } \,.$$ <p> If you use the Hesse normal form, since the normal vector is normalized, the denominator (length of the normal vector) is 1 and can be omitted.
         - Euclidean plane / distance to a point / derivation ::@:: Consider the plane equation $ax + by + cz - d = 0$. Find its distance to $P_0 = (x_0, y_0, z_0)$. <p> Consider any point on the plane $P_1 = (x_1, y_1, z_1)$. Construct the vector $\overrightarrow{P_1 P_0}$. The distance is the component of the vector in the normal vector $\langle a, b, c \rangle$ direction. So we have $$\text{distance} = \left\lvert \frac {a(x_0 - x_1) + b(y_0 - y_1) + c(z_0 - z_1)} {\sqrt{a^2 + b^2 + c^2} } \right\rvert = \frac {\lvert a x_0 + b y_0 + c z_0 - d \rvert} {\sqrt{a^2 + b^2 + c^2} } \,.$$ <p> The above derivation also applies to higher dimensions for hyperplanes.
 
-## week 3 lecture
+## week 3 lecture 1
 
 - datetime: 2025-02-18T13:30:00+08:00/2025-02-18T14:50:00+08:00
 - parametric equation
@@ -170,10 +170,10 @@ The content is in teaching order.
     - level set / interpretations ::@:: It is the preimage of the function over $c$. It is also the intersection of the graph of the function with the (hyper)plane $y = c$. <p> Further, if $f$ is _differentiable_, then the gradient of $f$ at a point is either zero, or _perpendicular_ to the level set of $f$ at that point.
 - reading: [cycloid](../../../../general/cycloid.md)
 
-## week 3 tutorial
+## week 3 tutorial 1
 
 - datetime: 2025-02-18T16:00:00+08:00/2025-02-18T16:50:00+08:00
-- [week 3 lecture](#week%203%20lecture)
+- [week 3 lecture 1](#week%203%20lecture%201)
 - [week 3 lecture 2](#week%203%20lecture%202)
 
 ## week 3 lecture 2
@@ -194,7 +194,7 @@ The content is in teaching order.
     - squeeze theorem / theorem (multivariate) ::@:: The squeeze theorem can still be used in multivariable calculus but the lower (and upper functions) must be below (and above) the target function not just along a path but around the entire neighborhood of the point of interest and it only works if the function really does have a limit there. It can, therefore, be used to prove that a function has a limit at a point, but it can never be used to prove that a function does not have a limit at a point.
 - [questions § week 3 lecture 2](questions.md#week%203%20lecture%202)
 
-## week 4 lecture
+## week 4 lecture 1
 
 - datetime: 2025-02-25T13:30:00+08:00/2025-02-25T14:50:00+08:00
 - [continuous function](../../../../general/continuous%20function.md) ::@:: a function such that a small variation of the argument induces a small variation of the value of the function; no abrupt changes in value, known as _discontinuities_
@@ -213,10 +213,10 @@ The content is in teaching order.
     - symmetry of second derivatives / Schwarz's theorem ::@:: It states that for a function $f\colon \Omega \to \mathbb {R}$ defined on a set $\Omega \subset \mathbb {R} ^{n}$, if $\mathbf {p} \in \mathbb {R} ^{n}$ is a point such that some [neighborhood](../../../../general/neighbourhood%20(mathematics).md) of $\mathbf {p}$ is contained in $\Omega$ and $f$ has [continuous](../../../../general/continuous%20function.md) second [partial derivatives](../../../../general/partial%20derivatives.md) on that neighborhood of $\mathbf {p}$, then for all _i_ and _j_ in $\{1,2\ldots ,\,n\}$, $${\frac {\partial ^{2} }{\partial x_{i}\,\partial x_{j} } }f(\mathbf {p} )={\frac {\partial ^{2} }{\partial x_{j}\,\partial x_{i} } }f(\mathbf {p} ).$$ The partial derivatives of this function commute at that point.
     - symmetry of second derivatives / usage ::@:: After checking the conditions hold, this may be used to simplify expressions involving mixed derivatives.
 
-## week 4 tutorial
+## week 4 tutorial 1
 
 - datetime: 2025-02-25T16:00:00+08:00/2025-02-25T16:50:00+08:00
-- [week 4 lecture](#week%204%20lecture)
+- [week 4 lecture 1](#week%204%20lecture%201)
 - [week 4 lecture 2](#week%204%20lecture%202)
 
 ## week 4 lecture 2
@@ -240,7 +240,7 @@ The content is in teaching order.
         - function of several real variables / multivariate differentiability / relations ::@:: continuity: Multivariate differentiability implies multivariate continuity. The converse is not true. <p> partial differentiability: Having all partial derivatives (including mixed) up to order $p$ is _not_ sufficient to imply $p$-times multivariate differentiability. Having all _continuous_ partial derivatives (including mixed) up to order $p$ is sufficient, but not necessary: there are multivariate differentiable functions that do not have all _continuous_ partial derivatives (but they do have all partial derivatives). Examples can be constructed using $\sin(1 / x)$.
         - function of several real variables / multivariate differentiability / approximation ::@:: Assuming the function is _differentiable_ at $\mathbf a$ (otherwise the directional derivative may exist but not the gradient, or vice versa). Then the _linear_ approximation is: $$f(\mathbf x) \approx f(\mathbf a) + ((\mathbf x - \mathbf a) \cdot \nabla) f(\mathbf a) = f(\mathbf a) + (\mathbf x - \mathbf a) \cdot (\nabla f(\mathbf a)) \,.$$
 
-## week 5 lecture
+## week 5 lecture 1
 
 - datetime: 2025-03-04T13:30:00+08:00/2025-03-04T14:50:00+08:00
 - [chain rule](../../../../general/chain%20rule.md) ::@:: It is a [formula](../../../../general/formula.md) that expresses the [derivative](../../../../general/derivative.md) of the [composition](../../../../general/function%20composition.md) of two [differentiable functions](../../../../general/differentiable%20function.md) _f_ and _g_ in terms of the derivatives of _f_ and _g_.
@@ -259,10 +259,10 @@ The content is in teaching order.
 - [total derivative](../../../../general/total%20derivative.md) ::@:: It of a function _f_ at a point is the best [linear approximation](../../../../general/linear%20approximation.md) near this point of the function with respect to its arguments. Unlike [partial derivatives](../../../../general/partial%20derivative.md), the total derivative approximates the function with respect to all of its arguments, not just a single one. In many situations, this is the same as considering all partial derivatives simultaneously.
     - total derivative / differential form ::@:: When the function under consideration is real-valued, the total derivative can be recast using [differential forms](../../../../general/differential%20form.md). For example, suppose that $f\colon \mathbb {R} ^{n}\to \mathbb {R}$ is a differentiable function of variables $x_{1},\ldots ,x_{n}$. The total derivative of $f$ at $a$ may be written in terms of its Jacobian matrix, which in this instance is a row matrix: $$Df_{a}={\begin{bmatrix}{\frac {\partial f}{\partial x_{1} } }(a)&\cdots &{\frac {\partial f}{\partial x_{n} } }(a)\end{bmatrix} }.$$ The linear approximation property of the total derivative implies that if $$\Delta x={\begin{bmatrix}\Delta x_{1}&\cdots &\Delta x_{n}\end{bmatrix} }^{\mathsf {T} }$$ is a small vector \(where the ${\mathsf {T} }$ denotes transpose, so that this vector is a column vector\), then $$f(a+\Delta x)-f(a)\approx Df_{a}\cdot \Delta x=\sum _{i=1}^{n}{\frac {\partial f}{\partial x_{i} } }(a)\cdot \Delta x_{i}.$$ Heuristically, this suggests that if $dx_{1},\ldots ,dx_{n}$ are [infinitesimal](infinitesimal.md) increments in the coordinate directions, then $$df_{a}=\sum _{i=1}^{n}{\frac {\partial f}{\partial x_{i} } }(a)\cdot dx_{i}.$$
 
-## week 5 tutorial
+## week 5 tutorial 1
 
 - datetime: 2025-03-04T16:00:00+08:00/2025-03-04T16:50:00+08:00
-- [week 5 lecture](#week%205%20lecture)
+- [week 5 lecture 1](#week%205%20lecture%201)
 - [week 5 lecture 2](#week%205%20lecture%202)
 - [implicit differentiation](../../../../general/implicit%20differentiation.md)
     - implicit differentiation / implicit functions ::@:: If you have a _explicit_ function in the form of $y = f(...)$, you can always write it in terms of $g(..., y) := f(...) - y = 0$. Then calculate its partial derivatives. Then partial derivatives between inputs of the original function $f$ can easily be obtained, by realizing that the inputs \(including $y$\) to the new function $g$ must change in a way such that $g$ remains zero, i.e. the directional derivatives of $g$ are always zero. <p> This method may seem cumbersome, but it would make sense if you consider implicit functions that have no or complicated explicit forms. <p> For example, $y = f(x)$ can be changed into $g(x, y) := f(x) - y = 0$. Then, $\frac {\partial y} {\partial x} = -\frac {\partial g} {\partial x} / \frac {\partial g} {\partial y}$ \(note the negative sign, which shows why you should not be "simplifying" partial derivatives\). This is because $\frac {\partial g} {\partial x} = - \frac {\partial y} {\partial x} \frac {\partial g} {\partial y}$, which is interpreted as: Assuming we only change $x$ and $y$. The rates of change between $x$ and $y$ must be such that the change in $g$ caused by the change in $x$ is neutralized by the change in $g$ caused by the change in $y$, in order to keep $g = 0$.
@@ -285,7 +285,7 @@ The content is in teaching order.
     - critical point / interpretation ::@:: A critical point \(where the function is _differentiable_\) may be either a [local maximum](../../../../general/local%20maximum.md), a [local minimum](../../../../general/local%20minimum.md) or a [saddle point](../../../../general/saddle%20point.md). <p> In univariate calculus, saddle point is a [point](../../../../general/point%20(geometry).md) which is both a [stationary point](../../../../general/stationary%20point.md) and a [point of inflection](../../../../general/inflection%20point.md).
 - [saddle point](../../../../general/saddle%20point.md) ::@:: It is a point on the surface of the graph of a function where the slopes \(derivatives\) in orthogonal directions are all zero \(a _critical point_\), but which is not a local extremum of the function.
 
-## week 6 lecture
+## week 6 lecture 1
 
 - datetime: 2025-03-11T13:30:00+08:00/2025-03-11T14:50:00+08:00
 - [derivative test](../../../../general/derivative%20test.md) ::@:: It uses the derivatives of a function to locate the critical points of a function and determine whether each point is a local maximum, a local minimum, or a saddle point. Derivative tests can also give information about the concavity of a function.
@@ -310,10 +310,10 @@ The content is in teaching order.
 - [extreme value theorem](../../../../general/extreme%20value%20theorem.md) ::@:: It states that if a real-valued [function](../../../../general/function%20(mathematics).md) $f$ is [continuous](../../../../general/continuous%20function.md) on the [closed](../../../../general/bounded%20interval.md#classification%20of%20intervals) and [bounded](../../../../general/bounded%20set.md) interval $[a,b]$, then $f$ must attain a [maximum](../../../../general/maximum.md) and a [minimum](../../../../general/minimum.md), each at least once.
     - extreme value theorem / multivariate ::@:: For Euclidean spaces $\mathbb R^n$, the above readily generalizes to closed and bounded subsets of the space. Here, _bounded_ means every point in the subset is at most some finite distance away from the origin. _Closed_ means the subset contains all of its limit points. A _limit point_ of a subset is a point \(that may not be in the subset\) that has arbitrary small nonzero distance from any point in the subset. <p> For [metric spaces](../../../../general/metric%20spaces.md) and general [topological spaces](../../../../general/topological%20spaces.md), the appropriate generalization of a closed bounded interval is a [compact set](../../../../general/compact%20space.md).
 
-## week 6 tutorial
+## week 6 tutorial 1
 
 - datetime: 2025-03-11T16:00:00+08:00/2025-03-11T16:50:00+08:00
-- [week 6 lecture](#week%206%20lecture)
+- [week 6 lecture 1](#week%206%20lecture%201)
 - [week 6 lecture 2](#week%206%20lecture%202)
 - [square pyramidal number](../../../../general/square%20pyramidal%20number.md) ::@:: It is a natural number that counts the stacked spheres in a pyramid with a square base.
     - square pyramidal number / formula ::@:: The total number $P_{n}$ of spheres can be counted as the sum of the number of spheres in each square, $$P_{n}=\sum _{k=1}^{n}k^{2}=1+4+9+\cdots +n^{2},$$ and this [summation](../../../../general/summation.md) can be solved to give a [cubic polynomial](../../../../general/cubic%20polynomial.md), which can be written in several equivalent ways: $$P_{n}={\frac {n(n+1)(2n+1)}{6} }={\frac {2n^{3}+3n^{2}+n}{6} }={\frac {n^{3} }{3} }+{\frac {n^{2} }{2} }+{\frac {n}{6} }.$$ This equation for a sum of squares is a special case of [Faulhaber's formula](../../../../general/Faulhaber's%20formula.md) for sums of powers, and may be proved by [mathematical induction](../../../../general/mathematical%20induction.md).
@@ -328,15 +328,15 @@ The content is in teaching order.
     - Lagrange multiplier / rationale ::@:: The basic idea is to convert a constrained problem into a form such that the [derivative test](../../../../general/derivative%20test.md) of an unconstrained problem can still be applied. <p> Consider a multivariate function of two variables $f(x, y)$ and a single constraint function $g(x, y) = 0$ \(with _constraint qualification_: its gradient is nonzero\). Then, the constraint is a curve on the graph surface of the multivariate function. A local extremum on the constraint curve must have the curve at that point parallel to the level sets, otherwise, one could "walk" along the constraint curve to get higher or lower values. This also means the constraint curve is perpendicular to the gradient of the multivariate function. And the constraint curve is perpendicular to its own gradient. So the gradient of the multivariate function can be expressed as a linear combination of the gradient of the constraint. Thus we have $$D f(x, y) = \lambda D g(x, y) \,,$$ for some arbitrary constant $\lambda$ subject to $g(x, y)$.
     - Lagrange multiplier / summary ::@:: In the general case, the Lagrangian is defined as $${\mathcal {L} }(x,\lambda )\equiv f(x)+\langle \lambda ,g(x)\rangle$$ for \(annotation: $C^1$, having _continuous first derivatives_\) functions $f,g$; the notation $\langle \cdot ,\cdot \rangle$ denotes an [inner product](../../../../general/inner%20product.md). The value $\lambda$ is called the Lagrange multiplier. <p> In simple cases, where the inner product is defined as the [dot product](../../../../general/dot%20product.md), the Lagrangian is $${\mathcal {L} }(x,\lambda )\equiv f(x)+\lambda \cdot g(x)$$ <p> The method can be summarized as follows: in order to find the maximum or minimum of a function $f$ subject to the equality constraint $g(x)=0$, find the [stationary points](../../../../general/stationary%20point.md) of ${\mathcal {L} }$ considered as a function of $x$ and the Lagrange multiplier $\lambda ~$. This means that all [partial derivatives](../../../../general/partial%20derivative.md) should be zero, including the partial derivative with respect to $\lambda ~$. <p> &emsp; ${\frac {\partial {\mathcal {L} } }{\partial x} }=0$ and ${\frac {\ \partial {\mathcal {L} }\ }{\partial \lambda } }=0\ ;$ <p> or equivalently <p> &emsp; ${\frac {\partial f(x)}{\partial x} }+\lambda \cdot {\frac {\partial g(x)}{\partial x} }=0$ and $g(x)=0~$.
 
-## week 7 lecture
+## week 7 lecture 1
 
 - datetime: 2025-03-18T13:30:00+08:00/2025-03-18T14:50:00+08:00, PT1H20M
 - topic: midterm examination review
 
-## week 7 tutorial
+## week 7 tutorial 1
 
 - datetime: 2025-03-18T16:00:00+08:00/2025-03-18T16:50:00+08:00, PT50M
-- [week 7 lecture](#week%207%20lecture)
+- [week 7 lecture 1](#week%207%20lecture%201)
 - [week 7 lecture 2](#week%207%20lecture%202)
 
 ## week 7 lecture 2
@@ -404,7 +404,7 @@ The content is in teaching order.
 >
 > \[redacted\]
 
-## week 8 lecture
+## week 8 lecture 1
 
 - datetime: 2025-03-25T13:30:00+08:00/2025-03-25T14:50:00+08:00, PT1H20M
 - Lagrange multiplier
@@ -429,10 +429,10 @@ The content is in teaching order.
     - multiple integral / measure ::@:: Integrating over the indicator function of a set \(1 if in the set, otherwise 0\) gives its measure. If 1D, it is length; if 2D, area; if 3D, volume.
     - multiple integral / average value ::@:: The average value is simply the multiple integral divided by the _measure_ of the domain \(considered as a set\).
 
-## week 8 tutorial
+## week 8 tutorial 1
 
 - datetime: 2025-03-25T16:00:00+08:00/2025-03-25T16:50:00+08:00, PT50M
-- [week 8 lecture](#week%208%20lecture)
+- [week 8 lecture 1](#week%208%20lecture%201)
 - [week 8 lecture 2](#week%208%20lecture%202)
 - [improper integral](../../../../general/improper%20integral.md) ::@:: It is an extension of the notion of a definite integral to cases that violate the usual assumptions for that kind of integral. In the context of Riemann integrals \(or, equivalently, Darboux integrals\), this typically involves unboundedness, either of the set over which the integral is taken or of the integrand \(the function being integrated\), or both. It may also involve bounded but not closed sets or bounded but not continuous functions.
     - improper integral / nature ::@:: While an improper integral is typically written symbolically just like a standard definite integral, it actually represents a limit of a definite integral or a sum of such limits; thus improper integrals are said to converge or diverge. If a regular definite integral \(which may retronymically be called a proper integral\) is worked out as if it is improper, the same answer will result.
@@ -446,16 +446,16 @@ The content is in teaching order.
     - multiple integral / inclusion–exclusion principle ::@:: The inclusion–exclusion principle may be used to calculate the multiple integral over a complicated domain. <p> In particular, multiple integral over a domain consisting of two sets with no overlap \(except for their boundaries; more generally, the overlap must have measure zero\) is the sum of two multiple integrals each over each of the two sets.
     - multiple integral / bounded function ::@:: Given a function bounded from above and below within the integration domain $A$: $$L \le f(\mathbf x) \le U \qquad \forall \mathbf x \in A \,,$$ then the integral over the integration domain is in between $L \mu(A)$ and $U \mu(A)$ \(inclusive\), where $\mu(A)$ is the measure \(length, area, volume, ...\) of $A$.
 
-## week 9 lecture
+## week 9 lecture 1
 
 - datetime: 2025-04-01T13:30:00+08:00/2025-04-01T14:50:00+08:00, PT1H20M
 - status: unscheduled, midterm break
 
-## week 9 tutorial
+## week 9 tutorial 1
 
 - datetime: 2025-04-01T16:00:00+08:00/2025-04-01T16:50:00+08:00, PT50M
 - status: unscheduled, midterm break
-- [week 9 lecture](#week%209%20lecture)
+- [week 9 lecture 1](#week%209%20lecture%201)
 - [week 9 lecture 2](#week%209%20lecture%202)
 
 ## week 9 lecture 2
@@ -463,7 +463,7 @@ The content is in teaching order.
 - datetime: 2025-04-03T13:30:00+08:00/2025-04-03T14:50:00+08:00, PT1H20M
 - status: unscheduled, midterm break
 
-## week 10 lecture
+## week 10 lecture 1
 
 - datetime: 2025-04-08T13:30:00+08:00/2025-04-08T14:50:00+08:00, PT1H20M
 - multiple integral
@@ -484,10 +484,10 @@ The content is in teaching order.
     - polar coordinate system / integral calculus ::@:: Using [Cartesian coordinates](../../../../general/Cartesian%20coordinates.md), an infinitesimal area element can be calculated as _dA_ = _dx_ _dy_. The [substitution rule for multiple integrals](../../../../general/integration%20by%20substitution.md#substitution%20for%20multiple%20variables) states that, when using other coordinates, the [Jacobian](../../../../general/Jacobian%20matrix%20and%20determinant.md) determinant of the coordinate conversion formula has to be considered: $$J=\det {\frac {\partial (x,y)}{\partial (r,\varphi )} }={\begin{vmatrix}{\frac {\partial x}{\partial r} }&{\frac {\partial x}{\partial \varphi } }\\[2pt]{\frac {\partial y}{\partial r} }&{\frac {\partial y}{\partial \varphi } }\end{vmatrix} }={\begin{vmatrix}\cos \varphi &-r\sin \varphi \\\sin \varphi &r\cos \varphi \end{vmatrix} }=r\cos ^{2}\varphi +r\sin ^{2}\varphi =r.$$ Hence, an area element in polar coordinates can be written as $$dA=dx\,dy\ =J\,dr\,d\varphi =r\,dr\,d\varphi .$$ Now, a function, that is given in polar coordinates, can be integrated as follows \(annotation: the absolute sign enclosing $r$ is dropped, since $r \ge 0$\): $$\iint _{R}f(x,y)\,dA=\int _{a}^{b}\int _{0}^{r(\varphi )}f(r,\varphi )\,r\,dr\,d\varphi .$$ Here, _R_ is the same region as above, namely, the region enclosed by a curve _r_\(_φ_\) and the rays _φ_ = _a_ and _φ_ = _b_. The formula for the area of _R_ is retrieved by taking _f_ identically equal to 1.
         - polar coordinate system / integral calculus / intuition ::@:: Consider a very very small slice of the infinitesimal area $\mathrm dr \, \mathrm d\theta$. Changing $r$, we see the area is proportional to $r$. Changing $\theta$, we see the area remains the same. So the factor is $r$.
 
-## week 10 tutorial
+## week 10 tutorial 1
 
 - datetime: 2025-04-08T16:00:00+08:00/2025-04-08T16:50:00+08:00, PT50M
-- [week 10 lecture](#week%2010%20lecture)
+- [week 10 lecture 1](#week%2010%20lecture%201)
 - [week 10 lecture 2](#week%2010%20lecture%202)
 - Fubini's theorem
     - Fubini's theorem / note ::@:: When changing integration order, beware of functions in the integration boundaries. It is best to visualize before deciding on the new integration boundaries after changing the integration order.
@@ -515,16 +515,16 @@ The content is in teaching order.
 - [surface integral](../../../../general/surface%20integral.md) ::@:: It is a generalization of multiple integrals to integration over surfaces. It can be thought of as the double integral analogue of the line integral.
     - surface integral / surface area of the graph of a function ::@:: For example, if we want to find the [surface area](../../../../general/surface%20area.md) of the graph of some scalar function, say _z_ = _f_\(_x_, _y_\), we have $$A=\iint _{S}\,\mathrm {d} S=\iint _{T}\left\|{\partial \mathbf {r}  \over \partial x}\times {\partial \mathbf {r}  \over \partial y}\right\|\mathrm {d} x\,\mathrm {d} y$$ where __r__ = \(_x_, _y_, _z_\) = \(_x_, _y_, _f_\(_x_, _y_\)\). So that ${\partial \mathbf {r}  \over \partial x}=(1,0,f_{x}(x,y))$, and ${\partial \mathbf {r}  \over \partial y}=(0,1,f_{y}(x,y))$. So, $${\begin{aligned}A&{}=\iint _{T}\left\|\left(1,0,{\partial f \over \partial x}\right)\times \left(0,1,{\partial f \over \partial y}\right)\right\|\mathrm {d} x\,\mathrm {d} y\\&{}=\iint _{T}\left\|\left(-{\partial f \over \partial x},-{\partial f \over \partial y},1\right)\right\|\mathrm {d} x\,\mathrm {d} y\\&{}=\iint _{T}{\sqrt {\left({\partial f \over \partial x}\right)^{2}+\left({\partial f \over \partial y}\right)^{2}+1} }\,\,\mathrm {d} x\,\mathrm {d} y\end{aligned} }$$ which is the standard formula for the area of a surface described this way. One can recognize the vector in the second-last line above as the [normal vector](../../../../general/surface%20normal.md) to the surface.
 
-## week 11 lecture
+## week 11 lecture 1
 
 - datetime: 2025-04-15T13:30:00+08:00/2025-04-15T14:50:00+08:00, PT1H20M
 - [volume integral](../../../../general/volume%20integral.md) ::@:: It is an integral over a 3-dimensional domain; that is, it is a special case of multiple integrals.
     - volume integral / techniques ::@:: Again, they include change of variables, integration boundaries, integration order, visualization, etc.
 
-## week 11 tutorial
+## week 11 tutorial 1
 
 - datetime: 2025-04-15T16:00:00+08:00/2025-04-15T16:50:00+08:00, PT50M
-- [week 11 lecture](#week%2011%20lecture)
+- [week 11 lecture 1](#week%2011%20lecture%201)
 - [week 11 lecture 2](#week%2011%20lecture%202)
 - Gaussian integral
 - [trigonometric substitution](../../../../general/trigonometric%20substitution.md) ::@:: It replaces a trigonometric function for another expression. In calculus, trigonometric substitutions are a technique for evaluating integrals. In this case, an expression involving a radical function is replaced with a trigonometric one. Trigonometric identities may help simplify the answer.
@@ -545,7 +545,7 @@ The content is in teaching order.
     - spherical coordinate system / Cartesian coordinates ::@:: The spherical coordinates of a point in the ISO convention \(i.e. for physics: radius _r_, inclination _θ_, azimuth _φ_\) can be obtained from its [Cartesian coordinates](../../../../general/Cartesian%20coordinate%20system.md) \(_x_, _y_, _z_\) by the formulae $${\begin{aligned}r&={\sqrt {x^{2}+y^{2}+z^{2} } }\\\theta &=\arccos {\frac {z}{\sqrt {x^{2}+y^{2}+z^{2} } } }=\arccos {\frac {z}{r} } \\\varphi &=\operatorname {sgn}(y)\arccos {\frac {x}{\sqrt {x^{2}+y^{2} } } } \end{aligned} }$$ The [inverse tangent](../../../../general/inverse%20tangent.md) denoted in _φ_ = arctan ⁠_y_<!-- markdown separator -->/<!-- markdown separator -->_x_⁠ must be suitably defined, taking into account the correct quadrant of \(_x_, _y_\), as done in the equations above. See the article on [atan2](../../../../general/atan2.md). <p> Conversely, the Cartesian coordinates may be retrieved from the spherical coordinates \(_radius_ _r_, _inclination_ _θ_, _azimuth_ _φ_\), where _r_ ∈ \[0, ∞\), _θ_ ∈ \[0, _π_\], _φ_ ∈ \[0, 2<!-- markdown separator -->_π_\), by $${\begin{aligned}x&=r\sin \theta \,\cos \varphi ,\\y&=r\sin \theta \,\sin \varphi ,\\z&=r\cos \theta .\end{aligned} }$$
         - spherical coordinate system / Cartesian coordinates / change of variables ::@:: The factor from Cartesian coordinates to spherical coordinates is \($\theta$ is the _polar_ angle\): $$\begin{aligned} \lVert J \rVert & = \left\lVert \frac {\partial(x, y, z)} {\partial(r, \theta, \varphi)} \right\rVert \\ & = \begin{Vmatrix} \cos\varphi \sin\theta & \sin\varphi \sin\theta & \cos\theta \\ r \cos\varphi \cos\theta & r \sin\varphi \cos\theta & r \sin\theta \\ -r \sin\varphi \sin\theta & r \cos\varphi \sin\theta & 0 \end{Vmatrix} \\ & = \left\lvert -r^2 \sin^2 \varphi \sin^3 \theta + r^2 \cos^2 \varphi \sin \theta \cos^2 \theta + r^2 \sin^2 \varphi \sin \theta \cos^2 \theta - r^2 \cos^2 \varphi \sin^3 \theta  \right\rvert \\ & = \lvert -r^2 \sin^3 \theta + r^2 \sin \theta \cos^2 \theta \rvert \\ & = \lvert r^2 \sin \theta \rvert \,. \end{aligned}$$ For the inverse transformation, the factor is the reciprocal: $$\frac 1 {r^2 \sin \theta} = \frac 1 {\sqrt{x^2 + y^2 + z^2} \sqrt {x^2 + y^2} } \,.$$ <p> Consider a very very small slice of the infinitesimal area $\mathrm dr \, \mathrm d\theta \,\mathrm d\varphi$. Changing $r$, we see the area is proportional to $r^2$. Changing $\theta$, we see the area is \(roughly\) proportional to $\sin\theta$. Changing $\varphi$, we see the area remains the same. So the factor is $r^2 \sin\theta$.
 
-## week 12 lecture
+## week 12 lecture 1
 
 - datetime: 2025-04-22T13:30:00+08:00/2025-04-22T14:50:00+08:00, PT1H20M
 - spherical coordinate system
@@ -554,10 +554,10 @@ The content is in teaching order.
 - [conservative vector field](../../../../general/conservative%20field.md) ::@:: It is a vector field that is the gradient of some function.
     - conservative vector field / definition ::@:: A [vector field](../../../../general/vector%20field.md) $\mathbf {v} :U\to \mathbb {R} ^{n}$, where $U$ is an open subset of $\mathbb {R} ^{n}$, is said to be conservative if there exists a $C^{1}$ \([continuously differentiable](../../../../general/smoothness.md#multivariate%20differentiability%20classes)\) [scalar field](../../../../general/scalar%20field.md) $\varphi$ on $U$ such that $$\mathbf {v} =\nabla \varphi .$$ Here, $\nabla \varphi$ denotes the [gradient](../../../../general/gradient.md) of $\varphi$. Since $\varphi$ is continuously differentiable, $\mathbf {v}$ is continuous. When the equation above holds, $\varphi$ is called a [scalar potential](../../../../general/scalar%20potential.md) for $\mathbf {v}$.
 
-## week 12 tutorial
+## week 12 tutorial 1
 
 - datetime: 2025-04-22T16:00:00+08:00/2025-04-22T16:50:00+08:00, PT50M
-- [week 12 lecture](#week%2012%20lecture)
+- [week 12 lecture 1](#week%2012%20lecture%201)
 - [week 12 lecture 2](#week%2012%20lecture%202)
 - conservative vector field
     - conservative vector field / scalar field uniqueness ::@:: The scalar field \(potential field\) is unique up to a constant.
@@ -585,7 +585,7 @@ The content is in teaching order.
         - line integral / over a vector field / 3 dimensions ::@:: We have $$\begin{aligned} & \phantom = \int_C \! \mathbf F(\mathbf r) \cdot \mathrm d\mathbf r \\ & = \int_C \! \mathbf F(\mathbf r(t)) \cdot \mathbf r'(t) \,\mathrm dt \\ & = \int_C \! (P(x(t), y(t), z(t)) x'(t) + Q(x(t), y(t), z(t)) y'(t) + R(x(t), y(t), z(t)) z'(t)) \,\mathrm dt \\ & = \int_C \! (P \,\mathrm dx + Q \,\mathrm dy + R \,\mathrm dz) \,. \end{aligned}$$
         - line integral / over a vector field / examples ::@:: A line integral over the gravitational field \(direction is in the acceleration direction\) from a reference point to any point yields the negative of the gravitational potential at that point. This applies to inverse-square laws in general.
 
-## week 13 lecture
+## week 13 lecture 1
 
 - datetime: 2025-04-29T13:30:00+08:00/2025-04-29T14:50:00+08:00, PT1H20M
 - [gradient theorem](../../../../general/gradient%20theorem.md) ::@:: It says that a [line integral](../../../../general/line%20integral.md) through a [gradient field](../../../../general/conservative%20vector%20field.md) can be evaluated by evaluating the original scalar field at the endpoints of the curve.
@@ -601,10 +601,10 @@ The content is in teaching order.
 - [simply connected space](../../../../general/simply%20connected%20space.md) ::@:: In topology, a topological space is called \(_this_\) (or \(_this_\), or \(_this_\)\) if it is path-connected and every path between two points can be continuously transformed into any other such path while preserving the two endpoints in question. Intuitively, this corresponds to a space that has no disjoint parts and no holes that go completely through it, because two paths going around different sides of such a hole cannot be continuously transformed into each other.
     - simply connected space / Green's theorem ::@:: Green's theorem requires the curve to be _simple closed_. That is, the region bounded by the curve is _simply connected space_.
 
-## week 13 tutorial
+## week 13 tutorial 1
 
 - datetime: 2025-04-29T16:00:00+08:00/2025-04-29T16:50:00+08:00, PT50M
-- [week 13 lecture](#week%2013%20lecture)
+- [week 13 lecture 1](#week%2013%20lecture%201)
 - [week 13 lecture 2](#week%2013%20lecture%202)
 
 ## week 13 lecture 2
@@ -612,7 +612,7 @@ The content is in teaching order.
 - datetime: 2025-05-01T13:30:00+08:00/2025-05-01T14:50:00+08:00, PT1H20M
 - status: unscheduled, public holiday: Labor Day
 
-## week 14 lecture
+## week 14 lecture 1
 
 - datetime: 2025-05-06T13:30:00+08:00/2025-05-06T14:50:00+08:00, PT1H20M
 - [Green's theorem](../../../../general/Green's%20theorem.md) ::@:: In vector calculus, \(_this_\) relates a [line integral](../../../../general/line%20integral.md) around a [simple closed curve](../../../../general/curve.md#definition) _C_ to a [double integral](../../../../general/double%20integral.md) over the [plane](../../../../general/plane%20(geometry).md) region _D_ \(surface in $\mathbb {R} ^{2}$\) bounded by _C_.
@@ -630,10 +630,10 @@ The content is in teaching order.
 - Green's theorem
     - Green's theorem / applications ::@:: We can turn a line integral into a double integral that may be simpler to evaluate. Or vice versa.
 
-## week 14 tutorial
+## week 14 tutorial 1
 
 - datetime: 2025-05-06T16:00:00+08:00/2025-05-06T16:50:00+08:00, PT50M
-- [week 14 lecture](#week%2014%20lecture)
+- [week 14 lecture 1](#week%2014%20lecture%201)
 - [week 14 lecture 2](#week%2014%20lecture%202)
 - [Laplace operator](../../../../general/Laplace%20operatorn.md) ::@:: In [mathematics](../../../../general/mathematics.md), the \(_this_\) or \(_this_\) is a [differential operator](../../../../general/differential%20operator.md) given by the [divergence](../../../../general/divergence.md) of the [gradient](../../../../general/gradient.md) of a [scalar function](../../../../general/scalar%20field.md) on [Euclidean space](../../../../general/Euclidean%20space.md). It is usually denoted by the symbols $\nabla \cdot \nabla$, $\nabla ^{2}$ \(where $\nabla$ is the [nabla operator](../../../../general/del.md)\), or $\Delta$.
     - Laplace operator / Cartesian coordinate system ::@:: In a Cartesian coordinate system, the Laplacian is given by the sum of second partial derivatives of the function with respect to each independent variable. $$\nabla^2 f = f_{xx} + f_{yy} + f_{zz} \,.$$

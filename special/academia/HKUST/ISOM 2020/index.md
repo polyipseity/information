@@ -44,7 +44,7 @@ The content is in teaching order.
         - [basics § arithmetic operators](basics.md#arithmetic%20operators) / note ::@:: They really like testing you on the return type of operators... for a somewhat obvious reason.
     - [§ mathematics](basics.md#mathematics)
     - [§ string](basics.md#string)
-        - [basics § string](basics.md#string) / note ::@:: They taught `'''` but not `"""` for some reason... But it was later taught in the [week 2 lab](#week%202%20lab) (lab 1).
+        - [basics § string](basics.md#string) / note ::@:: They taught `'''` but not `"""` for some reason... But it was later taught in the [week 2 lab 1](#week%202%20lab%201) (lab 1).
     - [§ output](basics.md#output)
         - [basics § output](basics.md#output) / note ::@:: Jupyter notebooks automatically outputting the value of the last statement without using `print` is also considered "output". Note that strings are outputted, escaped with `\` properly (without unnecessary escapes), and preferably wrapped in `'`, and only uses `"` if there is at least 1 `'` in the string but not any `"`.
     - [§ variable](basics.md#variable)
@@ -55,7 +55,7 @@ The content is in teaching order.
     - Can variables be used to save user input? ::@:: Yes, variables can be used to save user input (store in a variable).
     - Can `print(...)` be used to save data? ::@:: No, `print(...)` cannot be used to save data (store in a variable), only display data.
 
-## week 1 lecture
+## week 1 lecture 1
 
 - datetime: 2024-09-06T16:00:00+08:00/2024-09-06T17:50:00+08:00
 - course logistics
@@ -88,7 +88,7 @@ The content is in teaching order.
     - Can a list be sliced? ::@:: Yes! But you cannot use this in exercises or exams.
 - [week 3 lab attendance waiver](assignments/lab%202/lab%202%20waiver%20submission.ipynb): 1/1, graded
 
-## week 2 lab
+## week 2 lab 1
 
 - datetime: 2024-09-10T11:00:00+08:00/2024-09-10T12:50:00+08:00
 - course logistics
@@ -102,7 +102,7 @@ The content is in teaching order.
     - [§ data types](basics.md#data%20types)
 - [week 2 lab tasks](assignments/lab%201/lab%201%20submission.ipynb): 1/1, graded
 
-## week 2 lecture
+## week 2 lecture 1
 
 - datetime: 2024-09-13T16:00:00+08:00/2024-09-13T17:50:00+08:00
 - [§ week 2 pre-lecture](#week%202%20pre-lecture)
@@ -131,7 +131,7 @@ The content is in teaching order.
 - week 3 exercise: 1/1, graded
 - [week 4 lab attendance waiver](assignments/lab%203/lab%203%20waiver%20submission.ipynb): 1/1, graded
 
-## week 3 lab
+## week 3 lab 1
 
 - datetime: 2024-09-17T11:00:00+08:00/2024-09-17T12:50:00+08:00
 - [§ week 2 pre-lecture](#week%202%20pre-lecture)
@@ -149,7 +149,7 @@ The content is in teaching order.
     - [§ aggregate functions](list.md#aggregate%20functions)
 - week 3 lab tasks: ?/1, waived
 
-## week 3 lecture
+## week 3 lecture 1
 
 - datetime: 2024-09-20T16:00:00+08:00/2024-09-20T17:50:00+08:00
 - [§ week 3 pre-lecture](#week%203%20pre-lecture)
@@ -174,7 +174,7 @@ The content is in teaching order.
 - week 4 exercise: 1/1, graded
 - [week 5 lab attendance waiver](assignments/lab%204/lab%204%20waiver%20submission.ipynb): ?/1, ignored due to public holiday
 
-## week 4 lab
+## week 4 lab 1
 
 - datetime: 2024-09-24T11:00:00+08:00/2024-09-24T12:50:00+08:00
 - [§ week 3 pre-lecture](#week%203%20pre-lecture)
@@ -191,7 +191,7 @@ The content is in teaching order.
     - [§ logic operators](basics.md#logic%20operators)
 - week 4 lab tasks: ?/1, waived
 
-## week 4 lecture
+## week 4 lecture 1
 
 - datetime: 2024-09-27T16:00:00+08:00/2024-09-27T17:50:00+08:00
 - [§ week 4 pre-lecture](#week%204%20pre-lecture)
@@ -210,7 +210,7 @@ The content is in teaching order.
     - [§ iteration](control%20flow.md#iteration)
 - week 5 exercise: 1/1, graded
 
-## week 5 lab
+## week 5 lab 1
 
 - datetime: 2024-10-01T11:00:00+08:00/2024-10-01T12:50:00+08:00
 - status: unscheduled, public holiday: National Day
@@ -219,7 +219,7 @@ The content is in teaching order.
     - [§ for-iteration](control%20flow.md#for-iteration)
 - [week 5 lab tasks](assignments/lab%204/lab%204%20submission.ipynb): 1/1, graded
 
-## week 6 lecture
+## week 6 lecture 1
 
 - datetime: 2024-10-04T16:00:00+08:00/2024-10-04T17:50:00+08:00
 - [§ week 5 pre-lecture](#week%205%20pre-lecture)
@@ -232,7 +232,7 @@ The content is in teaching order.
     - What can be a potential pitfall when using the 'while' loop? ::@:: It can lead to infinite loops if the loop termination condition is not met.
     - In a 'while' loop, under what circumstances could an infinite loop occur? ::@:: When the loop condition is always 'True'.
 
-## week 6 lab
+## week 6 lab 1
 
 - datetime: 2024-10-08T11:00:00+08:00/2024-10-08T12:50:00+08:00
 - [§ week 5 pre-lecture](#week%205%20pre-lecture)
@@ -243,7 +243,7 @@ The content is in teaching order.
 - exam dos, don'ts, and tips
 - [week 6 lab tasks](assignments/lab%205/lab%205%20submission.py): 1/1, graded
 
-## week 7 lecture
+## week 7 lecture 1
 
 - datetime: 2024-10-11T16:00:00+08:00/2024-10-11T17:50:00+08:00
 - status: unscheduled, public holiday: Chung Yeung Festival

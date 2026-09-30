@@ -33,7 +33,7 @@ The content is in teaching order.
     - distinction mark: 0.9
 - [assignments](assignments/)
 
-## week 1 tutorial
+## week 1 tutorial 1
 
 - datetime: 2023-09-06T17:00:00+08:00/2023-09-06T18:50:00+08:00
 - topic: Innerview (I): Breaking your Mental Model
@@ -46,7 +46,7 @@ The content is in teaching order.
 - [name tag](../../../name%20tag.md)
     - For easy reading, one’s name badge should be worn... ::@:: ... on the right chest near shoulder.
 
-## week 2 tutorial
+## week 2 tutorial 1
 
 - datetime: 2023-09-13T17:00:00+08:00/2023-09-13T18:50:00+08:00
 - topic: Innerview (II): Together we redefine Success
@@ -54,13 +54,13 @@ The content is in teaching order.
 - powerful self-introduction ::@:: know yourself, know your passion, know your unique selling points (USP)
 - psychometric assessments ::@:: STRONG, DISC maps
 
-## week 3 tutorial
+## week 3 tutorial 1
 
 - datetime: 2023-09-20T17:00:00+08:00/2023-09-20T18:50:00+08:00
 - topic: Innerview (III): DISCMap & STRONG Report Debriefing
 - psychometric assessments
 
-## week 4 tutorial
+## week 4 tutorial 1
 
 - datetime: 2023-09-27T17:00:00+08:00/2023-09-27T18:50:00+08:00
 - topic: Portfolio Building (I)
@@ -79,7 +79,7 @@ The content is in teaching order.
 - assignment 1: job description, curriculum vitae, and cover letter
     - due: 2023-10-11
 
-## week 5 tutorial
+## week 5 tutorial 1
 
 - datetime: 2023-10-04T17:00:00+08:00/2023-10-04T18:50:00+08:00
 - topic: Portfolio Building (II)
@@ -92,7 +92,7 @@ The content is in teaching order.
 - networking
     - thank-you email (after networking)
 
-## week 6 tutorial
+## week 6 tutorial 1
 
 - datetime: 2023-10-11T17:00:00+08:00/2023-10-11T18:50:00+08:00
 - topic: Stress Management and Mindset Shift
@@ -110,7 +110,7 @@ The content is in teaching order.
         - increase relatedness ::@:: create trust by non-verbal communication, firm handshake, discuss personal (but not too personal) things
     - SCARF / fairness ::@:: perception of fair exchanges with people
 
-## week 7 tutorial
+## week 7 tutorial 1
 
 - datetime: 2023-10-18T17:00:00+08:00/2023-10-18T18:50:00+08:00
 - topic: Career and Employability Skills
@@ -136,7 +136,7 @@ The content is in teaching order.
     - job offer crucial information ::@:: company logo, contact information, job title, job details, salary/compensation, benefits, expiration date
     - declining a job offer ::@:: act quick, communicate professionally, express appreciation
 
-## week 8 tutorial
+## week 8 tutorial 1
 
 - datetime: 2023-10-25T17:00:00+08:00/2023-10-25T18:50:00+08:00
 - topic: Networking Practicum
@@ -144,7 +144,7 @@ The content is in teaching order.
 - assignment: networking practicum reflection
     - [networking practicum reflection](assignments/networking%20practicum%20reflection.md)
 
-## week 9 tutorial
+## week 9 tutorial 1
 
 - datetime: 2023-11-01T17:00:00+08:00/2023-11-01T18:50:00+08:00
 - topic: Interview (I): Interview Like a PRO
@@ -157,7 +157,7 @@ The content is in teaching order.
 - assignment 2: video interview recording
     - due: 2023-11-08 → 2023-11-15
 
-## week 10 tutorial
+## week 10 tutorial 1
 
 - datetime: 2023-11-08T17:00:00+08:00/2023-11-08T18:50:00+08:00
 - topic: Interview (II): Group Discussion Skills
@@ -169,7 +169,7 @@ The content is in teaching order.
 - presentation
     - presentation tips ::@:: greeting, no need to repeat the known problem, set reasonable assumptions, T-style presentation (depth not breadth); and most importantly, rehearse!!
 
-## week 11 tutorial
+## week 11 tutorial 1
 
 - datetime: 2023-11-15T17:00:00+08:00/2023-11-15T18:50:00+08:00
 - topic: Interview (III): Final Drilling of Mock Interview
@@ -181,7 +181,7 @@ The content is in teaching order.
     - STAR-r / result ::@:: share the outcome
     - STAR-r / reflection ::@:: what you would have done differently
 
-## week 12 tutorial
+## week 12 tutorial 1
 
 - datetime: 2023-11-22T17:00:00+08:00/2023-11-22T18:50:00+08:00
 - topic: Interview (IV): Mock interview with industry practitioners
@@ -189,7 +189,7 @@ The content is in teaching order.
 - portrait taking @ CMZ studio
 - mock interview @ library learning common rooms
 
-## week 13 tutorial
+## week 13 tutorial 1
 
 - datetime: 2023-11-29T17:00:00+08:00/2023-11-29T18:50:00+08:00
 - topic: Mastering the 1st Day @work

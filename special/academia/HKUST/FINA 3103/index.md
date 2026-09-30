@@ -43,7 +43,7 @@ The content is in teaching order.
 - [option](option.md)
 - [questions](questions.md)
 
-## week 1 lecture
+## week 1 lecture 1
 
 - datetime: 2025-09-02T15:00:00+08:00/2025-09-02T16:20:00+08:00, PT1H20M
 - topic: logistics; introduction
@@ -258,7 +258,7 @@ The content is in teaching order.
         - margin / short selling / margin ::@:: $$\text{margin} = \frac {\text{account equity} } {\text{loan security market value} } \times 100\% \,,$$ where account equity is the market value of the assets \(i.e. cash or securities you have put in as collateral, and cash you have obtained by selling the loan security\) in your account subtracted by the market value of the loan security.
         - margin / short selling / interpretation ::@:: Indeed, when the loan security market value rises, the margin decreases, and vice versa. This is because account equity decreases by the rise and loan security market value increases by the rise.
 
-## week 2 lecture
+## week 2 lecture 1
 
 - datetime: 2025-09-09T15:00:00+08:00/2025-09-09T16:20:00+08:00, PT1H20M
 - topic: interest rate; compound interest; holding period return; expected return; variance; normal distribution
@@ -325,7 +325,7 @@ The content is in teaching order.
 >
 > Please note that there will be __no class on Thursday, September 11__, as I will be attending a conference.
 
-## week 3 lecture
+## week 3 lecture 1
 
 - datetime: 2025-09-16T15:00:00+08:00/2025-09-16T16:20:00+08:00, PT1H20M
 - topic: skewness; kurtosis; two-moment decision model; risk premium; Sharpe ratio; value at risk
@@ -408,7 +408,7 @@ The content is in teaching order.
 - [capital asset pricing model](../../../../general/capital%20asset%20pricing%20model.md) \(CAPM\) ::@:: It is a model used to determine a theoretically appropriate required rate of return of an asset, to make decisions about adding assets to a well-diversified portfolio.
     - capital asset pricing model / equilibrium ::@:: Under CAPM, all traded assets satisfy $$\text{RRR}_i = \frac{\mu_i-r_f}{\sigma_{i,M} / \sigma_M} = \frac{\mu_j-r_f}{\sigma_{j,M} / \sigma_M},\quad \forall i,j = \text{RRR}_j \,,$$ where $\sigma_{i,M}$ is the covariance of asset $i$ with the market. The denominator can be recognized as the _systematic risk_ $\sigma_M \beta_i$ of asset of $i$. <p> This condition forces the market's risk-return ratio to equal that of every individual asset: $$\text{RRR}_M = \frac{\mu_M-r_f}{\sigma_M} = \text{RRR}_i \,.$$ Proof: $$\begin{aligned} \lambda & \equiv \frac {\mu_i - r_f} {\sigma_{i, M} / \sigma_M} \\ \frac \lambda {\sigma_M} \sigma_{i, M} & = \mu_i - r_f \\ \frac \lambda {\sigma_M} \sum_{i = 1}^N w_i \sigma_{i, M} & = \sum_{i = 1}^N w_i(\mu_i - r_f) \\ \frac \lambda {\sigma_M} \operatorname{Cov}\left(\sum_{i = 1}^n w_i r_i, r_M \right) & = \sum_{i = 1}^N w_i \mu_i - r_f \\ \frac \lambda {\sigma_M} \sigma_M^2 & = \mu_M - r_f \\ \lambda & = \frac {\mu_M - r_f} {\sigma_M} \,. \end{aligned}$$
 
-## week 4 lecture
+## week 4 lecture 1
 
 - datetime: 2025-09-23T15:00:00+08:00/2025-09-23T16:20:00+08:00, PT1H20M
 - topic: two-moment decision model; utility function; certainty equivalent; indifference curve; utility maximization; indirect utility
@@ -474,7 +474,7 @@ The content is in teaching order.
         - capital allocation line / borrowing / formula ::@:: When you finance a leveraged position at a borrowing rate $r_B>r_f$, the expected return of the complete portfolio becomes $$\mu_C = y\mu_p - (y - 1) r_B = r_B + y(\mu_p-r_B) \,,$$ while its volatility remains $\sigma_C=y\sigma_p$. <p> Eliminating $y=\sigma_C/\sigma_p$ gives a new slope $(\mu_p-r_B)/\sigma_p$, which is smaller than the original $(\mu_p-r_f)/\sigma_p$; thus the Sharpe ratio—return per unit of risk—drops because borrowing adds cost without reducing variance.
         - capital allocation line / borrowing / example ::@:: A practical example: with \$100 on hand, a risky portfolio yielding 10%, and a bank offering 5% borrowing, borrowing \$600 to buy \$700 worth of risky assets gives 40% \($10\% \times 7 - 5\% \times 6 = 40\%$\) return, illustrating how leverage can amplify gains (but also losses).
 
-## week 5 lecture
+## week 5 lecture 1
 
 - datetime: 2025-09-30T15:00:00+08:00/2025-09-30T16:20:00+08:00, PT1H20M
 - topic: modern portfolio theory; portfolio; portfolio weights; portfolio statistics; Markowitz model; portfolio opportunity set; minimumv-variance portfolio; efficient frontier; tangency portfolio
@@ -554,7 +554,7 @@ The content is in teaching order.
     - Markowitz model / optimize portfolio ::@:: 1. Estimate $\mu_i$, $\sigma_i^2$, and $\sigma_{ij}$. <br/> 2. Solve the minimum-variance problem to trace the efficient frontier. <br/> 3. Identify the tangency point (maximizing Sharpe ratio). There may be multiple if there are multiple rates. <br/> 4. Determine $y^*$ using risk aversion $\gamma$. <br/> 5. Construct the complete portfolio: $C^* = y^*p^* + (1-y^*)r_f = r_f + y^* (p^* - r_f)$.
 - assignment: [homework 1](assignments/homework%201/index.md)
 
-## week 6 lecture
+## week 6 lecture 1
 
 - datetime: 2025-10-07T15:00:00+08:00/2025-10-07T16:20:00+08:00, PT1H20M
 - status: unscheduled; public holiday: Day after Mid-Autumn Festival
@@ -571,7 +571,7 @@ The content is in teaching order.
         - [§ visualizing CAL](efficient%20frontier.md#visualizing%20CAL)
         - [§ visualizing short selling and leverage](efficient%20frontier.md#visualizing%20short%20selling%20and%20leverage)
 
-## week 7 lecture
+## week 7 lecture 1
 
 - datetime: 2025-10-14T15:00:00+08:00/2025-10-14T16:20:00+08:00, PT1H20M
 - topic:
@@ -612,7 +612,7 @@ The content is in teaching order.
         - [§ APT and multiple factors model](arbitrage%20pricing%20theory.md#APT%20and%20multiple%20factors%20model)
         - [§ advantages and disadvantages](arbitrage%20pricing%20theory.md#advantages%20and%20disadvantages)
 
-## week 8 lecture
+## week 8 lecture 1
 
 - datetime: 2025-10-21T15:00:00+08:00/2025-10-21T16:20:00+08:00, PT1H20M
 - status: unscheduled; midterm examination
@@ -625,7 +625,7 @@ The content is in teaching order.
     - FINA 3103 / [capital asset pricing model](capital%20asset%20pricing%20model.md)
     - FINA 3103 / [arbitrage pricing theory](arbitrage%20pricing%20theory.md)
 
-## week 9 lecture
+## week 9 lecture 1
 
 - datetime: 2025-10-28T15:00:00+08:00/2025-10-28T16:20:00+08:00, PT1H20M
 - topic:
@@ -655,7 +655,7 @@ The content is in teaching order.
         - [§ management styles](investment%20fund.md#management%20styles)
         - [§ performance evaluation](investment%20fund.md#performance%20evaluation)
 
-## week 10 lecture
+## week 10 lecture 1
 
 - datetime: 2025-11-04T15:00:00+08:00/2025-11-04T16:20:00+08:00, PT1H20M
 - topic:
@@ -687,7 +687,7 @@ The content is in teaching order.
         - [§ evidence for strong-form efficiency](efficient-market%20hypothesis.md#evidence%20for%20strong-form%20efficiency)
         - [§ implications](efficient-market%20hypothesis.md#implications)
 
-## week 11 lecture
+## week 11 lecture 1
 
 - datetime: 2025-11-11T15:00:00+08:00/2025-11-11T16:20:00+08:00, PT1H20M
 - topic:
@@ -726,7 +726,7 @@ The content is in teaching order.
         - [§ limitations of immunization](fixed%20income.md#limitations%20of%20immunization)
         - [§ portfolio strategies](fixed%20income.md#portfolio%20strategies)
 
-## week 12 lecture
+## week 12 lecture 1
 
 - datetime: 2025-11-18T15:00:00+08:00/2025-11-18T16:20:00+08:00, PT1H20M
 - topic:
@@ -756,7 +756,7 @@ The content is in teaching order.
 - FINA 3103
     - FINA 3103 / [forward and futures](forward%20and%20futures.md)
 
-## week 13 lecture
+## week 13 lecture 1
 
 - datetime: 2025-11-25T15:00:00+08:00/2025-11-25T16:20:00+08:00, PT1H20M
 - topic:

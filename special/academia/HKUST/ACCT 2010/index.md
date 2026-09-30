@@ -41,7 +41,7 @@ The content is in teaching order.
 - [transaction](transcation.md)
 - [trial balance](trial%20balance.md)
 
-## week 1 lecture
+## week 1 lecture 1
 
 - datetime: 2024-09-03T13:30:00+08:00/2024-09-03T14:50:00+08:00
 - course logistics
@@ -72,7 +72,7 @@ The content is in teaching order.
 - [financial accounting](../../../../general/financial%20accounting.md) / prepared for... ::@:: Stewardship-wise, shareholders. For decision making, all other stakeholders, such as creditors, corporate social responsibility (CSR) activists, government agencies, (environment, social, and governance (ESG)) investors, retirement funds, etc.
 - [management accounting](../../../../general/management%20accounting.md) / standards, report format ::@:: Generally Accepted Accounting Principles (GAAP), including financial reporting standards (FRS), company laws, and listing rules
 
-## week 2 lecture
+## week 2 lecture 1
 
 - datetime: 2024-09-10T13:30:00+08:00/2024-09-10T14:50:00+08:00
 - [management accounting](../../../../general/management%20accounting.md)
@@ -120,7 +120,7 @@ The content is in teaching order.
     - accounting evolution / recognition approach ::@:: Now, most leases are required to be recorded. At commencement, the asset "right-of-use" is debited while the liability "lease liability" is credited. At year end, "lease liability" is debited while the asset "cash/bank" is credited.
         - accounting evolution / recognition approach / [income statement](../../../../general/income%20statement.md) ::@:: At year end, the expense "depreciation" is recorded (and debited in the balance sheet) while the asset "accumulated depreciation" is credited in the balance sheet. This depreciates the asset "right-of-use".
 
-## week 3 lecture
+## week 3 lecture 1
 
 - datetime: 2024-09-17T13:30:00+08:00/2024-09-17T14:50:00+08:00
 - [financial transaction](../../../../general/financial%20transaction.md)

@@ -22,23 +22,39 @@ its decorator.  The functions are pure: they accept a
 import re
 import unicodedata
 from collections.abc import Iterator
+from pathlib import PurePosixPath
 from string import punctuation
+from typing import cast
 from urllib.parse import unquote
 
 from anyio import Path
 
-from .models import AstNode, Severity, ValidationContext, ValidationMessage
+from .models import (
+    AstNode,
+    SessionHeader,
+    Severity,
+    ValidationContext,
+    ValidationMessage,
+)
 from .registry import RuleRegistry
 from .utils import (
+    _MD,
     FRONT_RE,
+    SEMESTER_HEADER_RE,
+    SEMESTER_RE,
+    SESSION_HEADING_RE,
     _segment_paragraphs,
     ast_headings,
     filter_ast,
     has_flash_tag,
     html_cpt,
+    is_recurrent_index,
     iter_ast,
+    iter_inline_links,
+    iter_malformed_links,
     locate,
     locate_range,
+    parse_list_link,
 )
 
 """Public symbols exported by this module."""
@@ -145,23 +161,80 @@ def _is_inside_code_block(pos: int, text: str, ast: list[AstNode] | None) -> boo
     return False
 
 
+def _build_inline_code_ranges(
+    text: str, ast: list[AstNode] | None
+) -> list[tuple[int, int]]:
+    """Return ``(start, end)`` ranges of inline code spans in *text*.
+
+    Each AST ``codespan`` node is located by searching for its backtick-wrapped
+    raw text with an advancing cursor (the same technique
+    :func:`_find_math_spans_ast` uses for math).  Returns an empty list when the
+    AST is unavailable, and misses multi-backtick spans, which is acceptable
+    for rules that only need to skip code-ish text.
+    """
+    ranges: list[tuple[int, int]] = []
+    if not ast:
+        return ranges
+    cursor = 0
+    for node in filter_ast(ast, "codespan"):
+        raw = node.get("raw", "")
+        if not raw:
+            continue
+        search = f"`{raw}`"
+        idx = text.find(search, cursor)
+        if idx >= 0:
+            ranges.append((idx, idx + len(search)))
+            cursor = idx + len(search)
+    return ranges
+
+
 def _get_section_end(
     text: str, start_offset: int, hdr_text: str, ast: list[AstNode] | None
 ) -> int:
     """Find the end of a section beginning at *start_offset*.
 
-    Scans forward from ``start_offset + len(hdr_text)`` for the next
-    AST-validated heading. Returns the position of the next heading (or
-    ``len(text)`` if none is found).  Uses ``_is_inside_code_block`` to
-    skip headings that appear inside fenced code blocks.
+    Scans forward from ``start_offset + len(hdr_text)`` for the next heading
+    at the same level or higher: a level-2 section ends at the next ``##``,
+    and a level-3 session ends at the next ``##`` or ``###``, so a recurrent
+    course's session never swallows its siblings. Returns the position of
+    that heading (or ``len(text)`` if none is found).  Uses
+    ``_is_inside_code_block`` to skip headings that appear inside fenced
+    code blocks.
     """
+    level = max(2, len(hdr_text) - len(hdr_text.lstrip("#")))
     end = len(text)
-    for m in re.finditer(r"^##\s+", text[start_offset + len(hdr_text) :], re.MULTILINE):
+    for m in re.finditer(
+        rf"^#{{2,{level}}}\s+", text[start_offset + len(hdr_text) :], re.MULTILINE
+    ):
         abs_pos = start_offset + len(hdr_text) + m.start()
         if not _is_inside_code_block(abs_pos, text, ast):
             end = abs_pos
             break
     return end
+
+
+def _iter_semester_headers(
+    text: str, ast: list[AstNode] | None
+) -> Iterator[tuple[str, int]]:
+    """Yield ``(YYYY term, byte offset)`` for each level-2 semester header.
+
+    Term casing is lowered, so ``## 2026 Fall`` yields ``2026 fall``.  Matches
+    inside fenced code blocks are skipped.
+    """
+    for m in SEMESTER_HEADER_RE.finditer(text):
+        if _is_inside_code_block(m.start(), text, ast):
+            continue
+        yield f"{m.group(1)} {m.group(2).lower()}", m.start()
+
+
+def _session_label(header: SessionHeader) -> str:
+    """Return a human-readable ``<semester> week N type`` label for *header*."""
+    week_type = f"{header.week} {header.type}"
+    return (
+        f"{header.semester} week {week_type}"
+        if header.semester
+        else f"week {week_type}"
+    )
 
 
 # metadata checks ------------------------------------------------------------
@@ -610,11 +683,11 @@ async def index_children_agents_link(ctx: ValidationContext) -> list[ValidationM
         stripped = line.strip()
         if not stripped or stripped.startswith("<!--"):
             continue
-        m = re.match(r"^[-*]\s*\[([^\]]+)\]\(([^\)]+)\)\s*$", stripped)
-        if not m:
+        link = parse_list_link(stripped)
+        if link is None:
             continue
-        display = m.group(1).strip()
-        href = m.group(2).strip()
+        display = link.text.strip()
+        href = link.destination.strip()
         href_clean = re.split(r"[#?]", href, maxsplit=1)[0]
         if href_clean.casefold() == "agents.md":
             entries.append((line_no, display, href_clean))
@@ -813,7 +886,7 @@ def index_children_format(ctx: ValidationContext) -> list[ValidationMessage]:
             )
             continue
         # Must be a simple markdown link list item (- [text](href))
-        if not re.match(r"^[-*]\s*\[[^\]]+\]\([^\)]+\)\s*$", stripped):
+        if parse_list_link(stripped) is None:
             errors.append(
                 ValidationMessage(
                     "index_children_format",
@@ -847,11 +920,11 @@ async def index_children_order(ctx: ValidationContext) -> list[ValidationMessage
         stripped = line.strip()
         if not stripped or stripped.startswith("<!--"):
             continue
-        m = re.match(r"^[-*]\s*\[([^\]]+)\]\(([^\)]+)\)\s*$", stripped)
-        if not m:
+        link = parse_list_link(stripped)
+        if link is None:
             # ignore formatting errors; those are handled by other rules
             continue
-        href = m.group(2).strip()
+        href = link.destination.strip()
         # Skip entries where the path doesn't exist
         if not await _path_exists(href, base_dir):
             continue
@@ -966,11 +1039,11 @@ async def index_children_missing(
         stripped = line.strip()
         if not stripped or stripped.startswith("<!--"):
             continue
-        m = re.match(r"^[-*]\s*\[([^\]]+)\]\(([^\)]+)\)\s*$", stripped)
-        if not m:
+        link = parse_list_link(stripped)
+        if link is None:
             # ignore formatting errors; those are handled by other rules
             continue
-        href = m.group(2).strip()
+        href = link.destination.strip()
         # Skip this if it's a folder-without-index case (handled by another rule)
         if await _is_folder_without_index_md(href, base_dir):
             continue
@@ -1012,10 +1085,10 @@ async def index_children_missing_index(
         stripped = line.strip()
         if not stripped or stripped.startswith("<!--"):
             continue
-        m = re.match(r"^[-*]\s*\[([^\]]+)\]\(([^\)]+)\)\s*$", stripped)
-        if not m:
+        link = parse_list_link(stripped)
+        if link is None:
             continue
-        href = m.group(2).strip()
+        href = link.destination.strip()
         # Check if this is a folder-without-index case
         if await _is_folder_without_index_md(href, base_dir):
             errors.append(
@@ -1033,6 +1106,46 @@ async def index_children_missing_index(
 
 
 @RULE_REGISTRY.register()
+async def index_courses_missing(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Check for missing directories in the `## courses` section of an index.md.
+
+    Course entries link to a course directory only while that directory
+    exists, so a link whose target is gone (or was never created) is reported
+    to be either unlinked or completed by ingesting the course.  Only
+    ``index.md`` files are checked, and fragment-only, mail, and external
+    links are ignored.  Links inside `## children` stay the children rules'
+    responsibility, so nothing is reported twice.
+    """
+    errors: list[ValidationMessage] = []
+    if ctx.path.name.lower() != "index.md":
+        return errors
+
+    section = _extract_named_h2_section(ctx.text, "courses")
+    if not section:
+        return errors
+
+    base_dir = ctx.path.parent
+    for line_no, line in section:
+        if line.strip().startswith("<!--"):
+            continue
+        for link in iter_inline_links(line):
+            href = link.destination.strip()
+            if not href or href.startswith(("#", "mailto:")) or "://" in href:
+                continue
+            if not await _path_exists(href, base_dir):
+                errors.append(
+                    ValidationMessage(
+                        "index_courses_missing",
+                        f"linked course directory not found: '{href}'; either remove the link if not wanted or create the directory if desired",
+                        line=line_no,
+                        col=1,
+                        severity=Severity.WARNING,
+                    )
+                )
+    return errors
+
+
+@RULE_REGISTRY.register()
 async def folder_link_trailing_slash(
     ctx: ValidationContext,
 ) -> list[ValidationMessage]:
@@ -1044,16 +1157,18 @@ async def folder_link_trailing_slash(
     errors: list[ValidationMessage] = []
     base_dir = ctx.path.parent
 
-    for m in re.finditer(r"\[([^\]]+)\]\(([^\)]+)\)", ctx.text):
-        display = m.group(1).strip()
-        href = m.group(2).strip()
+    for link in iter_inline_links(ctx.text):
+        display = link.text.strip()
+        href = link.destination.strip()
         if not href or href.startswith("#"):
             continue
         if re.match(r"^[a-zA-Z]+://", href):
             continue
         if await _is_folder_link(href, base_dir, allow_index_as_folder=False):
             if not href.endswith("/"):
-                line_no, col, col_end = locate_range(ctx.text, m.start(2), len(href))
+                line_no, col, col_end = locate_range(
+                    ctx.text, link.destination_start, len(link.destination)
+                )
                 errors.append(
                     ValidationMessage(
                         "folder_link_trailing_slash",
@@ -1064,7 +1179,9 @@ async def folder_link_trailing_slash(
                     )
                 )
             elif not display.endswith("/"):
-                line_no, col, col_end = locate_range(ctx.text, m.start(1), len(display))
+                line_no, col, col_end = locate_range(
+                    ctx.text, link.text_start, len(link.text)
+                )
                 errors.append(
                     ValidationMessage(
                         "folder_link_trailing_slash",
@@ -1088,9 +1205,15 @@ def index_semester_order(ctx: ValidationContext) -> list[ValidationMessage]:
     if ctx.path.name.lower() != "index.md":
         return errors
     semesters: list[tuple[int, int, str]] = []
-    term_map = {"winter": 1, "spring": 2, "summer": 3, "fall": 4}
+    # Within one semester year the terms run spring, summer, fall, then winter,
+    # so `### 2023 winter` follows `### 2023 fall` rather than preceding it.
+    term_map = {"spring": 1, "summer": 2, "fall": 3, "winter": 4}
+    # A recurrent course puts the semester in a level-2 header and repeats it in
+    # every session heading; a one-off course has no semester headers at all.
+    level = "##" if is_recurrent_index(ctx.text) else "###"
+    pattern = re.compile(rf"^{level}\s+(\d{{4}})\s+([A-Za-z]+)")
     for line in ctx.text.splitlines():
-        m = re.match(r"###\s+(\d{4})\s+([A-Za-z]+)", line)
+        m = pattern.match(line)
         if m:
             year = int(m.group(1))
             term = m.group(2).lower()
@@ -1115,57 +1238,65 @@ def index_semester_order(ctx: ValidationContext) -> list[ValidationMessage]:
 
 # session-related -----------------------------------------------------------
 
-"""Compile a regex pattern for validating session headings of the form
-'## week N type [number]'.
+"""Expected session-heading shape for a one-off course."""
+_SESSION_HEADING_EXPECTED = (
+    "## week N type number (e.g. week 1 lecture 1, week 1 lecture 2)"
+)
 
-Allowed types are lecture, lab, or tutorial, optionally followed by a
-number (e.g. 'lecture 2'). The pattern is case-insensitive and ignores
-leading/trailing whitespace. Status information (e.g. 'status: no class')
-should not appear in the heading and is not relevant to validation; it
-belongs in the metadata section of the session entry."""
-_SESSION_HEADING_VALID = re.compile(
-    r"^##\s+week\s+\d+\s+((?:lecture|lab|tutorial)(?:\s+\d+)?)\s*$",
-    re.IGNORECASE,
+"""Expected session-heading shape for a recurrent course."""
+_RECURRENT_HEADING_EXPECTED = (
+    "### YYYY term week N type number (e.g. ### 2026 fall week 1 tutorial 1)"
+)
+
+"""Regex matching any heading that looks like a session heading, valid or not.
+
+Requires the heading to start with ``week N`` once an optional ``YYYY term``
+prefix is stripped, so an unrelated heading that merely mentions a week
+(e.g. ``## revision week 2 plan``) is never mistaken for a session heading.
+"""
+_SESSION_HEADING_CANDIDATE = re.compile(
+    r"^#{2,3}\s+(?:(?:" + SEMESTER_RE + r")\s+)?week\s+\d+.*$",
+    re.IGNORECASE | re.MULTILINE,
 )
 
 
 @RULE_REGISTRY.register()
 def session_heading_format(ctx: ValidationContext) -> list[ValidationMessage]:
-    """Require session headings to use only week N type [number].
+    """Require session headings to match the course's session-heading format.
 
-    Allowed: ## week 1 lecture, ## week 1 lecture 2, ## week 2 lab 1. Type = lecture|lab|tutorial only.
-    Invalid: ## week 3 no class, ## week 3 (Lunar New Year), ## week 3 (no type). Status belongs in metadata only.
-    Uses the mistune AST to skip false-positive matches inside code blocks.
+    A one-off course uses ``## week N type number``; a recurrent course
+    (``- status: recurrent``) uses ``### YYYY term week N type number``,
+    one level deeper and carrying the semester.  Allowed types are lecture,
+    lab, and tutorial, each always followed by its ordinal inside the week,
+    so the first session of a week carries ``1`` rather than being left
+    unnumbered.
+
+    Invalid: ``## week 3 no class``, ``## week 3 (Lunar New Year)``, ``## week 3``
+    (no type), ``## week 1 lecture`` (no ordinal), and either shape used at
+    the wrong level, with a semester the course does not use, or without the
+    semester it does.  Status belongs in the metadata only.  Uses the mistune
+    AST to skip matches inside code blocks.
     """
     errors: list[ValidationMessage] = []
     text = ctx.text
     ast = ctx.ast
-    for m in re.finditer(r"^##\s+week\s+\d+\s*.+$", text, re.IGNORECASE | re.MULTILINE):
+    recurrent = is_recurrent_index(text)
+    expected = _RECURRENT_HEADING_EXPECTED if recurrent else _SESSION_HEADING_EXPECTED
+    for m in _SESSION_HEADING_CANDIDATE.finditer(text):
         if _is_inside_code_block(m.start(), text, ast):
             continue
         line = m.group(0).rstrip()
-        if not _SESSION_HEADING_VALID.match(line):
-            line_no, col, col_end = locate_range(text, m.start(), len(line))
-            errors.append(
-                ValidationMessage(
-                    "session_heading_format",
-                    "invalid session heading; use week N type [number] "
-                    "(e.g. week 1 lecture, week 1 lecture 2); status has no bearing on heading",
-                    line=line_no,
-                    col=col,
-                    col_end=col_end,
-                )
-            )
-    # Also flag ## week N with no type at all (nothing after the number)
-    for m in re.finditer(r"^##\s+week\s+(\d+)\s*$", text, re.IGNORECASE | re.MULTILINE):
-        if _is_inside_code_block(m.start(), text, ast):
-            continue
-        line = m.group(0)
+        shape = SESSION_HEADING_RE.fullmatch(line)
+        if shape is not None:
+            level_ok = shape.group("level") == ("###" if recurrent else "##")
+            semester_ok = bool(shape.group("semester")) == recurrent
+            if level_ok and semester_ok:
+                continue
         line_no, col, col_end = locate_range(text, m.start(), len(line))
         errors.append(
             ValidationMessage(
                 "session_heading_format",
-                "session heading must include type (e.g. lecture, lecture 2)",
+                f"invalid session heading; use {expected}; status has no bearing on heading",
                 line=line_no,
                 col=col,
                 col_end=col_end,
@@ -1175,28 +1306,75 @@ def session_heading_format(ctx: ValidationContext) -> list[ValidationMessage]:
 
 
 @RULE_REGISTRY.register()
-def session_duplicate_heading(ctx: ValidationContext) -> list[ValidationMessage]:
-    """Detect duplicate week/type session headings within a file.
+def session_semester_match(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Require a recurrent course's sessions to sit under their own semester header.
 
-    If the same (week, type) pair appears more than once, emit an error
-    pointing at the repeated header.
+    Each ``### YYYY term week N type`` heading must follow a ``## YYYY term``
+    header naming the same semester.  A session heading that omits its semester
+    is left to ``session_heading_format``, which already reports it.
     """
     errors: list[ValidationMessage] = []
-    seen_pairs: dict[tuple[str, str], int] = {}
-    for week, typ, hdr, idx in ctx.session_headers:
-        pair = (week, typ)
+    text = ctx.text
+    if not is_recurrent_index(text):
+        return errors
+    semesters = list(_iter_semester_headers(text, ctx.ast))
+    cursor = 0
+    current: str | None = None
+    for header in ctx.session_headers:
+        while cursor < len(semesters) and semesters[cursor][1] < header.pos:
+            current = semesters[cursor][0]
+            cursor += 1
+        if not header.semester:
+            continue
+        if current is None:
+            msg = (
+                f"session {header.heading!r} is not under a '## <YYYY term>' "
+                "semester header"
+            )
+        elif current != header.semester:
+            msg = (
+                f"session {header.heading!r} names {header.semester!r} but sits "
+                f"under '## {current}'"
+            )
+        else:
+            continue
+        line, col, col_end = locate_range(ctx.text, header.pos, len(header.heading))
+        errors.append(
+            ValidationMessage(
+                "session_semester_match",
+                msg,
+                line=line,
+                col=col,
+                col_end=col_end,
+            )
+        )
+    return errors
+
+
+@RULE_REGISTRY.register()
+def session_duplicate_heading(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Detect duplicate session headings within a file.
+
+    If the same (semester, week, type) combination appears more than once,
+    emit an error pointing at the repeated header.  The semester is part of the
+    key, so a recurrent course may reuse week numbers across its terms.
+    """
+    errors: list[ValidationMessage] = []
+    seen_pairs: dict[tuple[str, str, str], int] = {}
+    for header in ctx.session_headers:
+        pair = (header.semester, header.week, header.type)
         if pair in seen_pairs:
-            line, col, col_end = locate_range(ctx.text, idx, len(hdr))
+            line, col, col_end = locate_range(ctx.text, header.pos, len(header.heading))
             errors.append(
                 ValidationMessage(
                     "session_duplicate_heading",
-                    f"duplicate session heading {hdr!r} (week {week} {typ})",
+                    f"duplicate session heading {header.heading!r} ({_session_label(header)})",
                     line=line,
                     col=col,
                     col_end=col_end,
                 )
             )
-        seen_pairs[pair] = idx
+        seen_pairs[pair] = header.pos
     return errors
 
 
@@ -1211,18 +1389,20 @@ def session_datetime_order(ctx: ValidationContext) -> list[ValidationMessage]:
     last_datetime = None
     text = ctx.text
     ast = ctx.ast
-    for _week, _typ, hdr, idx in ctx.session_headers:
-        end = _get_section_end(text, idx, hdr, ast)
-        section = text[idx:end]
+    for header in ctx.session_headers:
+        end = _get_section_end(text, header.pos, header.heading, ast)
+        section = text[header.pos : end]
         mdt = re.search(r"^\s*-\s*datetime:\s*(\S+)", section, re.MULTILINE)
         if mdt:
             dt = mdt.group(1)
             if last_datetime and dt < last_datetime:
-                line, col, col_end = locate_range(ctx.text, idx, len(hdr))
+                line, col, col_end = locate_range(
+                    ctx.text, header.pos, len(header.heading)
+                )
                 errors.append(
                     ValidationMessage(
                         "session_datetime_order",
-                        f"session {hdr!r} has datetime {dt} not after previous session",
+                        f"session {header.heading!r} has datetime {dt} not after previous session",
                         line=line,
                         col=col,
                         col_end=col_end,
@@ -1246,9 +1426,9 @@ def session_missing_topic(ctx: ValidationContext) -> list[ValidationMessage]:
     errors: list[ValidationMessage] = []
     text = ctx.text
     ast = ctx.ast
-    for _week, _typ, hdr, idx in ctx.session_headers:
-        end = _get_section_end(text, idx, hdr, ast)
-        section = text[idx:end]
+    for header in ctx.session_headers:
+        end = _get_section_end(text, header.pos, header.heading, ast)
+        section = text[header.pos : end]
         if re.search(r"^\s*-\s*datetime:", section, re.MULTILINE):
             # skip unscheduled sessions
             if "status:" in section and re.search(
@@ -1262,11 +1442,13 @@ def session_missing_topic(ctx: ValidationContext) -> list[ValidationMessage]:
             ):
                 continue
             if "topic:" not in section:
-                line, col, col_end = locate_range(ctx.text, idx, len(hdr))
+                line, col, col_end = locate_range(
+                    ctx.text, header.pos, len(header.heading)
+                )
                 errors.append(
                     ValidationMessage(
                         "session_missing_topic",
-                        f"session {hdr!r} has a datetime but no topic field",
+                        f"session {header.heading!r} has a datetime but no topic field",
                         line=line,
                         col=col,
                         col_end=col_end,
@@ -1286,19 +1468,21 @@ def session_unscheduled_with_topic(ctx: ValidationContext) -> list[ValidationMes
     errors: list[ValidationMessage] = []
     text = ctx.text
     ast = ctx.ast
-    for _week, _typ, hdr, idx in ctx.session_headers:
-        end = _get_section_end(text, idx, hdr, ast)
-        section = text[idx:end]
+    for header in ctx.session_headers:
+        end = _get_section_end(text, header.pos, header.heading, ast)
+        section = text[header.pos : end]
         if re.search(r"^\s*-\s*datetime:", section, re.MULTILINE):
             if "status:" in section and re.search(
                 r"status:\s*unscheduled", section, re.IGNORECASE
             ):
                 if "topic:" in section:
-                    line, col, col_end = locate_range(ctx.text, idx, len(hdr))
+                    line, col, col_end = locate_range(
+                        ctx.text, header.pos, len(header.heading)
+                    )
                     errors.append(
                         ValidationMessage(
                             "session_unscheduled_with_topic",
-                            f"session {hdr!r} has status unscheduled but also a topic",
+                            f"session {header.heading!r} has status unscheduled but also a topic",
                             line=line,
                             col=col,
                             col_end=col_end,
@@ -1316,23 +1500,71 @@ def session_venue_presence(ctx: ValidationContext) -> list[ValidationMessage]:
     errors: list[ValidationMessage] = []
     text = ctx.text
     ast = ctx.ast
-    for _week, _typ, hdr, idx in ctx.session_headers:
-        end = _get_section_end(text, idx, hdr, ast)
-        section = text[idx:end]
+    for header in ctx.session_headers:
+        end = _get_section_end(text, header.pos, header.heading, ast)
+        section = text[header.pos : end]
         if (
             re.search(r"^\s*-\s*datetime:", section, re.MULTILINE)
             and "venue:" not in section
         ):
-            line, col, col_end = locate_range(ctx.text, idx, len(hdr))
+            line, col, col_end = locate_range(ctx.text, header.pos, len(header.heading))
             errors.append(
                 ValidationMessage(
                     "session_venue_presence",
-                    f"session {hdr!r} has a datetime but no venue",
+                    f"session {header.heading!r} has a datetime but no venue",
                     line=line,
                     col=col,
                     col_end=col_end,
                 )
             )
+    return errors
+
+
+"""Regex matching the statuses a session of a recurrent course may carry.
+
+Every session of a recurrent course is optional; a meeting that did not take
+place keeps a gap marker instead.
+"""
+_OPTIONAL_STATUS_RE = re.compile(
+    r"optional|unscheduled|no\s+class|public\s+holiday|canceled", re.IGNORECASE
+)
+
+
+@RULE_REGISTRY.register()
+def session_optional_status(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Require a recurrent course's sessions to be marked optional.
+
+    Every lecture, lab, and tutorial of a recurrent course is optional and none
+    is assumed to be attended, so its ``status:`` must read ``optional``.  A
+    meeting that did not take place keeps its gap marker instead: unscheduled,
+    no class, public holiday, or canceled.
+    """
+    errors: list[ValidationMessage] = []
+    text = ctx.text
+    if not is_recurrent_index(text):
+        return errors
+    for header in ctx.session_headers:
+        end = _get_section_end(text, header.pos, header.heading, ctx.ast)
+        section = text[header.pos : end]
+        m = re.search(r"^\s*-\s*status:\s*(.+?)\s*$", section, re.MULTILINE)
+        if m is None:
+            msg = (
+                f"session {header.heading!r} has no status; a recurrent "
+                "course's sessions are optional"
+            )
+        elif not _OPTIONAL_STATUS_RE.search(m.group(1)):
+            msg = (
+                f"session {header.heading!r} has status {m.group(1)!r}; a "
+                "recurrent course's sessions are optional (or use a gap marker)"
+            )
+        else:
+            continue
+        line, col, col_end = locate_range(text, header.pos, len(header.heading))
+        errors.append(
+            ValidationMessage(
+                "session_optional_status", msg, line=line, col=col, col_end=col_end
+            )
+        )
     return errors
 
 
@@ -1345,15 +1577,15 @@ def session_next_lecture_remark(ctx: ValidationContext) -> list[ValidationMessag
     errors: list[ValidationMessage] = []
     text = ctx.text
     ast = ctx.ast
-    for _week, _typ, hdr, idx in ctx.session_headers:
-        end = _get_section_end(text, idx, hdr, ast)
-        section = text[idx:end]
+    for header in ctx.session_headers:
+        end = _get_section_end(text, header.pos, header.heading, ast)
+        section = text[header.pos : end]
         if re.search(r"next\s+(lecture|week|class)", section, re.IGNORECASE):
-            line, col, col_end = locate_range(ctx.text, idx, len(hdr))
+            line, col, col_end = locate_range(ctx.text, header.pos, len(header.heading))
             errors.append(
                 ValidationMessage(
                     "session_next_lecture_remark",
-                    f"session {hdr!r} contains a 'next lecture/next week' remark; remove unless major grading event",
+                    f"session {header.heading!r} contains a 'next lecture/next week' remark; remove unless major grading event",
                     line=line,
                     col=col,
                     col_end=col_end,
@@ -1382,9 +1614,9 @@ def session_exam_order(ctx: ValidationContext) -> list[ValidationMessage]:
         exam_idx = m.start()
         break
     if exam_idx is not None:
-        for _, _, _hdr, idx in ctx.session_headers:
-            if idx > exam_idx:
-                line, col = locate(ctx.text, idx)
+        for header in ctx.session_headers:
+            if header.pos > exam_idx:
+                line, col = locate(ctx.text, header.pos)
                 errors.append(
                     ValidationMessage(
                         rule_id="session_exam_order",
@@ -1539,7 +1771,8 @@ def agents_no_flashcard_markup(ctx: ValidationContext) -> list[ValidationMessage
 @RULE_REGISTRY.register()
 def header_flashcard_presence(ctx: ValidationContext) -> list[ValidationMessage]:
     """Require that each non-index, non-questions header contains flashcard markers.
-    Index and questions pages are exempt.
+    Index and questions pages are exempt, and so is a level-2 references header,
+    which cites sources instead of stating cards.
     """
     errors: list[ValidationMessage] = []
     name = ctx.path.name.lower()
@@ -1554,6 +1787,8 @@ def header_flashcard_presence(ctx: ValidationContext) -> list[ValidationMessage]
         return errors
     headers = _build_filtered_header_positions(ctx.text, ctx.ast)
     for i, (hdr_pos, lvl, h) in enumerate(headers):
+        if lvl == 2 and _normalize_heading_text(h.group(2)) == "references":
+            continue
         hdr_end = h.end()
         # Find the next header at the same or higher (lower number) level.
         next_pos: int | None = None
@@ -1637,6 +1872,65 @@ def header_flashcard_separator(ctx: ValidationContext) -> list[ValidationMessage
 
 
 @RULE_REGISTRY.register()
+def header_flashcard_style_mixed(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Disallow mixing prose flashcards with question blocks in one section.
+
+    A section carries one flashcard style. It either presents its material as
+    prose with cards (``::@::`` / ``:@:``, or a ``Flashcards for this section are
+    as follows:`` block) or as question blocks whose ``- solution:`` /
+    ``- explanation:`` lines carry clozes. Mixing the two in one section is what
+    happens when a prompt that is not a question is written as a solution line;
+    see "Flashcard style per section" in `academic-ingest`.
+    """
+    errors: list[ValidationMessage] = []
+    name = ctx.path.name.lower()
+    parent_parts = [part.casefold() for part in ctx.path.parts[:-1]]
+    if (
+        name == "index.md"
+        or name == "questions.md"
+        or name == "agents.md"
+        or "questions" in parent_parts
+    ):
+        return errors
+
+    prose_re = re.compile(
+        r"::@::|(?<!:):@:(?!:)|^\s*Flashcards for this section are as follows:\s*$",
+        re.IGNORECASE | re.MULTILINE,
+    )
+    headers = _build_filtered_header_positions(ctx.text, ctx.ast)
+    for i, (hdr_pos, _lvl, h) in enumerate(headers):
+        hdr_end = h.end()
+        # Use the immediate next header (any level) so each section is judged on
+        # its own text: sibling subsections may each use a different style.
+        next_pos = headers[i + 1][0] if i + 1 < len(headers) else len(ctx.text)
+        section = ctx.text[hdr_end:next_pos]
+        if not _BLOCKQUOTED_SOLUTION_RE.search(section):
+            continue
+        prose = prose_re.search(section)
+        if not prose:
+            continue
+        start = hdr_end + prose.start()
+        line, col, col_end = locate_range(ctx.text, start, len(prose.group(0)))
+        errors.append(
+            ValidationMessage(
+                rule_id="header_flashcard_style_mixed",
+                msg=(
+                    f"section {h.group(0).strip()!r} mixes flashcard styles: it has both "
+                    "prose flashcards (::@:: / :@:, or a 'Flashcards for this section "
+                    "are as follows:' block) and question blocks with '- solution:'/"
+                    "'- explanation:' lines. A section uses one style: keep the section "
+                    "prose with its own cards, or make every prompt in it a question "
+                    "block with cloze solution lines."
+                ),
+                line=line,
+                col=col,
+                col_end=col_end,
+            )
+        )
+    return errors
+
+
+@RULE_REGISTRY.register()
 def header_flashcard_sections_duplicate(
     ctx: ValidationContext,
 ) -> list[ValidationMessage]:
@@ -1687,6 +1981,131 @@ def header_flashcard_sections_duplicate(
                 )
             )
 
+    return errors
+
+
+# source-layout heading detection -----------------------------------------------
+
+"""Match numbered source units such as ``part 2``, ``chapter 3:``, or ``slide 12``.
+A source unit is a delivery format, not a concept, so it must not name a section."""
+_SOURCE_UNIT_HEADING_RE = re.compile(
+    r"^(?:part|chapter|section|unit|slide|slides|page|pages|lecture|tutorial|lab|week)\s*\d",
+    re.IGNORECASE,
+)
+
+"""Standalone headings that carry no concept of their own.
+
+Conservative by design: only pure lecture scaffolding and bare catch-all labels
+are listed. Nouns such as ``definitions``, ``references``, or ``introduction``
+are legitimate section names in concept notes (essays, definition notes), so a
+warning there would be noise. Prose guidance is stricter than this rule.
+"""
+_BARE_SOURCE_LABELS = frozenset(
+    {
+        "summary",
+        "recap",
+        "objectives",
+        "outline",
+        "appendix",
+        "misc",
+        "miscellaneous",
+        "other",
+        "other topics",
+    }
+)
+
+
+def _source_layout_exempt(ctx: ValidationContext) -> bool:
+    """Return whether a file legitimately groups its content by source structure.
+
+    Index pages, AGENTS files, session files (``lab``/``tutorial``/``lecture``),
+    ``questions.md``, and question directories mirror or quote their source, so
+    source-shaped headings are allowed there. Concept files are not exempt.
+    """
+    name = ctx.path.name.lower()
+    parent_parts = [part.casefold() for part in ctx.path.parts[:-1]]
+    return (
+        name
+        in {
+            "index.md",
+            "agents.md",
+            "lab.md",
+            "tutorial.md",
+            "lecture.md",
+            "questions.md",
+        }
+        or "questions" in parent_parts
+    )
+
+
+@RULE_REGISTRY.register()
+def header_source_layout(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Warn when a heading names a source unit instead of a sub-concept.
+
+    Notes are grouped by concept: a chapter, lecture, slide, or page number is a
+    delivery format, not a section. Headings must name the sub-concept they carry,
+    and lecture apparatus (objectives, recaps, summaries) belongs to the course
+    index instead.
+    """
+    errors: list[ValidationMessage] = []
+    if _source_layout_exempt(ctx):
+        return errors
+    for m in _iter_regex_headings_filtered_by_ast(ctx.text, ctx.ast, min_level=2):
+        raw_text = m.group(2).strip()
+        label = _normalize_heading_text(raw_text).rstrip(".:-–— ").strip()
+        if not (_SOURCE_UNIT_HEADING_RE.match(label) or label in _BARE_SOURCE_LABELS):
+            continue
+        line, col, col_end = locate_range(ctx.text, m.start(), len(m.group(0)))
+        errors.append(
+            ValidationMessage(
+                rule_id="header_source_layout",
+                msg=(
+                    f"heading {raw_text!r} names a source unit, not a sub-concept; "
+                    "name the section after the concept it carries, and move lecture "
+                    "apparatus (objectives, recaps, summaries) to the "
+                    "course index — see 'Grouping: concepts, not source layout' in "
+                    "academic-crud-topic-note"
+                ),
+                severity=Severity.WARNING,
+                line=line,
+                col=col,
+                col_end=col_end,
+            )
+        )
+    return errors
+
+
+@RULE_REGISTRY.register()
+def header_deep_nesting(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Warn when a heading nests four or more levels deep without justification.
+
+    A fourth level is expected whenever a ``###`` carries sub-concepts of its
+    own, and is preferred over splitting one concept across files, but the depth
+    still states its reason: a justified level uses a
+    ``check: ignore-line[header_deep_nesting]`` suppression comment, which the
+    validator applies centrally. Unjustified depth usually means the file
+    boundary is wrong, so split the note instead.
+    """
+    errors: list[ValidationMessage] = []
+    if _source_layout_exempt(ctx):
+        return errors
+    for m in _iter_regex_headings_filtered_by_ast(ctx.text, ctx.ast, min_level=4):
+        line, col, col_end = locate_range(ctx.text, m.start(), len(m.group(0)))
+        errors.append(
+            ValidationMessage(
+                rule_id="header_deep_nesting",
+                msg=(
+                    f"heading {m.group(2).strip()!r} is nested four or more levels deep; "
+                    "keep the depth if the sub-concepts belong to this note and justify it with "
+                    + html_cpt("check: ignore-line[header_deep_nesting]: <reason>")
+                    + ", or split the note if they answer a question of their own"
+                ),
+                severity=Severity.WARNING,
+                line=line,
+                col=col,
+                col_end=col_end,
+            )
+        )
     return errors
 
 
@@ -2024,6 +2443,9 @@ def numeric_text_not_latex(ctx: ValidationContext) -> list[ValidationMessage]:
         re.VERBOSE,
     )
     var_eq_re = re.compile(r"\b[IiRrVv]\d+\s*=\s*\d")
+    # Course codes such as `COMP 1029V`, `EMIA 2010A`, and `LANG 1403A` read as
+    # a number followed by a unit to `unit_re`, but they are identifiers.
+    course_code_re = re.compile(r"\b[A-Z]{2,5}\s?\d{3,4}[A-Z]\b")
 
     def _mask_match(match: re.Match[str]) -> str:
         """Replace a matched span with spaces to preserve column positions."""
@@ -2051,6 +2473,7 @@ def numeric_text_not_latex(ctx: ValidationContext) -> list[ValidationMessage]:
         masked = re.sub(r"<!--.*?-->", _mask_match, stripped)
         masked = re.sub(r"`[^`]*`", _mask_match, masked)
         masked = re.sub(r"\[[^\]]*\]\(([^)]+)\)", _mask_link_target, masked)
+        masked = course_code_re.sub(_mask_match, masked)
 
         if unit_re.search(masked) or var_eq_re.search(masked):
             m = unit_re.search(masked) or var_eq_re.search(masked)
@@ -2116,6 +2539,9 @@ def latex_disallowed_delimiters(ctx: ValidationContext) -> list[ValidationMessag
     r"""Disallow alternative LaTeX delimiters \[ \] or \( \) in favour of $.
 
     Search the text for the deprecated delimiters and flag their locations.
+    Excludes repo data-convention patterns ``\[missing\]``, ``\(none\)``,
+    and ``\[redacted\]`` which use the same escape sequences but are not
+    LaTeX.
     """
     errors: list[ValidationMessage] = []
     # match the four deprecated delimiter sequences: \[, \], \(, or \)
@@ -2123,9 +2549,33 @@ def latex_disallowed_delimiters(ctx: ValidationContext) -> list[ValidationMessag
     # is common in TeX macros (\Omega, line breaks, etc.) and produced
     # spurious warnings.  Restricting the pattern to the exact four sequences
     # resolves those false positives.
-    m = re.search(r"(?<!\\)(?:\\\[|\\\]|\\\(|\\\))", ctx.text)
-    if m:
-        length = len(m.group(0))
+    #
+    # Exclusion: \[missing\], \(none\) (see special.instructions.md
+    # § missing-data) and \[redacted\] (the redaction of an announcement
+    # signature, see the announcement convention in academic-crud-course-index)
+    # are repo data-convention tokens, not LaTeX.  Skip any
+    _EXCLUDED_TOKENS = (r"\[missing\]", r"\(none\)", r"\[redacted\]")
+    excluded: list[tuple[int, int]] = []
+    for tok in _EXCLUDED_TOKENS:
+        pos = 0
+        while True:
+            idx = ctx.text.find(tok, pos)
+            if idx == -1:
+                break
+            excluded.append((idx, idx + len(tok)))
+            pos = idx + 1
+
+    def _in_excluded(start: int, end: int) -> bool:
+        """Return True if the ``[start, end)`` span is inside an excluded token."""
+        for ex_s, ex_e in excluded:
+            if start >= ex_s and end <= ex_e:
+                return True
+        return False
+
+    for m in re.finditer(r"(?<!\\)(?:\\\[|\\\]|\\\(|\\\))", ctx.text):
+        if _in_excluded(m.start(), m.end()):
+            continue
+        length = m.end() - m.start()
         line, col, col_end = locate_range(ctx.text, m.start(), length)
         errors.append(
             ValidationMessage(
@@ -2361,6 +2811,48 @@ def latex_spacing_after(ctx: ValidationContext) -> list[ValidationMessage]:
 
 
 @RULE_REGISTRY.register()
+def link_malformed(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Detect inline links whose destination is never closed by ``)``.
+
+    A destination that reaches a raw line break is not a link, so
+    :func:`iter_inline_links` skips it: a truncated link such as
+    ``[x](path.md_`` silently resolves to nothing.  This rule reports those
+    truncations instead.  Positions inside math spans, fenced code, and inline
+    code are ignored because they contain no real links, and frontmatter is
+    skipped so YAML can never produce a finding.
+    """
+    errors: list[ValidationMessage] = []
+    text = ctx.text
+    ast = ctx.ast
+    body_offset = len(text) - len(ctx.body)
+    math_spans = find_math_spans(text, ast)
+    inline_code = _build_inline_code_ranges(text, ast)
+    for link in iter_malformed_links(text):
+        if link.start < body_offset:
+            continue
+        if _is_inside_code_block(link.start, text, ast):
+            continue
+        if any(start <= link.start < end for start, end in math_spans):
+            continue
+        if any(start <= link.start < end for start, end in inline_code):
+            continue
+        line, col, col_end = locate_range(text, link.start, link.end - link.start)
+        errors.append(
+            ValidationMessage(
+                rule_id="link_malformed",
+                msg=(
+                    "link destination is not terminated by ')'; "
+                    "restore the missing closing parenthesis"
+                ),
+                line=line,
+                col=col,
+                col_end=col_end,
+            )
+        )
+    return errors
+
+
+@RULE_REGISTRY.register()
 def link_unencoded_space(ctx: ValidationContext) -> list[ValidationMessage]:
     """Detect markdown links whose target contains a raw space character.
 
@@ -2371,11 +2863,12 @@ def link_unencoded_space(ctx: ValidationContext) -> list[ValidationMessage]:
     errors: list[ValidationMessage] = []
     text = ctx.text
     ast = ctx.ast
-    for m in re.finditer(r"\[[^\]]+\]\([^\) ]+ [^\)]+\)", text):
-        if _is_inside_code_block(m.start(), text, ast):
+    for link in iter_inline_links(text):
+        if _is_inside_code_block(link.start, text, ast):
             continue
-        length = len(m.group(0))
-        line, col, col_end = locate_range(text, m.start(), length)
+        if " " not in link.destination:
+            continue
+        line, col, col_end = locate_range(text, link.start, link.end - link.start)
         errors.append(
             ValidationMessage(
                 rule_id="link_unencoded_space",
@@ -2389,34 +2882,135 @@ def link_unencoded_space(ctx: ValidationContext) -> list[ValidationMessage]:
     return errors
 
 
-@RULE_REGISTRY.register()
-def link_anchor_slug(ctx: ValidationContext) -> list[ValidationMessage]:
-    """Detect markdown links whose anchor fragment uses dash-slug format.
+def _anchor_key(text: str) -> str:
+    """Return the key that lets an anchor fragment and a heading be compared.
 
-    The project convention requires ``%20`` encoding for spaces in anchor
-    fragments (e.g. ``#section%20name``), but AI frequently generates
-    dash-slugified anchors (e.g. ``#section-name``).  This rule catches
-    that pattern.  For same-file links, the fragment is validated against
-    the file's actual AST headings.  For cross-file links, a lightweight
-    heuristic is used: the fragment must contain at least one dash, be
-    entirely lowercase, and contain no ``%20`` encoding.
+    A heading becomes an anchor by lowercasing its text and encoding spaces as
+    ``%20``, so the key decodes percent escapes, drops the characters that only
+    mark inline formatting (``:`*_~``) and casefolds.  A dash is left alone: it
+    is a real character of the heading, never an encoded space, which is what
+    separates a dash-slug from an anchor.
+    """
+    return re.sub(r"[`:*_~]", "", unquote(text)).casefold()
+
+
+def _heading_anchors(ast: list[AstNode] | None) -> set[str]:
+    """Return the key of every heading anchor in *ast*.
+
+    An HTML comment is dropped, since a heading's suppression comment is not
+    part of its text and so cannot appear in an anchor.
+    """
+    return {
+        _anchor_key(re.sub(r"<!--.*?-->", "", h["text"]).strip())
+        for h in ast_headings(ast or [])
+    }
+
+
+def _html_id_anchors(text: str) -> set[str]:
+    """Return the key of every HTML ``id`` anchor in *text*.
+
+    A fragment may point at an element other than a heading: a Wikipedia
+    citation ref or an equation label is written as an ``id`` attribute, and
+    those anchors resolve the same way.
+    """
+    return {_anchor_key(m) for m in re.findall(r'id="([^"]*)"', text)}
+
+
+async def _cross_file_anchors(base: Path, file_part: str) -> set[str] | None:
+    """Return the anchor keys of the markdown file *file_part* links to.
+
+    The keys cover the target's headings and its HTML ``id`` anchors.  The
+    destination is decoded and resolved against *base*, and a folder resolves to
+    its ``index.md``.  ``None`` means the destination is not a readable markdown
+    file, so no anchor of it can be resolved.
+    """
+    decoded = unquote(file_part)
+    decoded = re.split(r"[#?]", decoded, maxsplit=1)[0]
+    if not decoded:
+        return None
+
+    candidate = base / decoded
+    if not await candidate.is_file():
+        index = candidate / "index.md"
+        if not await index.is_file():
+            return None
+        candidate = index
+    try:
+        body = await candidate.read_text(encoding="utf-8")
+    except (OSError, UnicodeDecodeError):
+        return None
+    # Mistune returns untyped node dicts whose runtime shape is AstNode.
+    headings = _heading_anchors(cast("list[AstNode]", _MD(body)))
+    return headings | _html_id_anchors(body)
+
+
+def _is_markdown_target(file_part: str) -> bool:
+    """Return whether *file_part* names a file whose fragment is an anchor.
+
+    A destination without an extension (a folder resolves to its ``index.md``)
+    or ending in ``.md`` carries heading anchors; a paper, an image, or another
+    attachment does not, so its fragment is left alone.
+    """
+    decoded = unquote(re.split(r"[#?]", file_part, maxsplit=1)[0])
+    suffix = PurePosixPath(decoded).suffix
+    return not suffix or suffix.casefold() == ".md"
+
+
+def _looks_like_dash_slug(frag: str) -> bool:
+    """Return whether *frag* has the shape of a dash-slugified heading.
+
+    A dash-slug lowercases the heading and replaces spaces with dashes, so it
+    carries a dash, no uppercase letter, and no ``%20``.
+    """
+    return "-" in frag and frag == frag.lower() and "%20" not in frag
+
+
+def _anchor_mismatch_msg(frag: str, file_part: str = "") -> str:
+    """Return the message for a fragment that names no anchor.
+
+    *file_part* names the link target when it is another file.
+    """
+    where = f" in '{file_part}'" if file_part else " in this file"
+    return (
+        f"anchor fragment '#{frag}' names no anchor{where} (heading or HTML id); "
+        "a heading becomes an anchor by lowercasing its text and encoding spaces "
+        "as %20 (e.g., '#section%20name'), never as dashes ('#section-name')"
+    )
+
+
+def _unresolved_target_msg(frag: str, file_part: str) -> str:
+    """Return the message for a fragment whose target cannot be resolved."""
+    return (
+        f"anchor fragment '#{frag}' cannot be resolved: '{file_part}' is not a "
+        "readable markdown file, so it carries no anchor"
+    )
+
+
+@RULE_REGISTRY.register()
+async def link_anchor_slug(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Require every anchor fragment to name a heading of the file it targets.
+
+    Headings become anchors by lowercasing the heading text and encoding spaces
+    as ``%20`` (e.g. ``#section%20name``); the dash-slug form a model reaches for
+    by habit (``#section-name``) names nothing here and is therefore wrong.  A
+    dash the heading itself contains stays in its anchor (``### self-plagiarism``
+    is ``#self-plagiarism``), which is why a cross-file fragment is checked
+    against the target file's headings instead of its shape.  A markdown target
+    that cannot be resolved is reported as well: nothing about its fragment can
+    be checked, and a fragment on a file that does not exist resolves nowhere.
     """
     errors: list[ValidationMessage] = []
     text = ctx.text
     ast = ctx.ast
     filename = ctx.path.name
+    base_dir = ctx.path.parent
 
-    # Build set of expected same-file anchors from AST headings.
-    _expected: set[str] = set()
-    if ast:
-        for h in ast_headings(ast):
-            anchor = h["text"].casefold().replace(" ", "%20").replace(":", "")
-            _expected.add(f"#{anchor}")
+    expected = _heading_anchors(ast) | _html_id_anchors(text)
 
-    for m in re.finditer(r"\[[^\]]+\]\(([^\)]+)\)", text):
-        if _is_inside_code_block(m.start(), text, ast):
+    for link in iter_inline_links(text):
+        if _is_inside_code_block(link.start, text, ast):
             continue
-        target = m.group(1)
+        target = link.destination
         # Skip external URLs.
         if "://" in target:
             continue
@@ -2429,33 +3023,37 @@ def link_anchor_slug(ctx: ValidationContext) -> list[ValidationMessage]:
             continue
         file_part = parts[0]
         is_same_file = (not file_part) or (file_part == filename)
-        flagged = False
+        msg = ""
         if is_same_file:
             # Same-file: check against actual heading anchors.
-            if f"#{frag}" not in _expected:
-                flagged = True
+            if _anchor_key(frag) not in expected:
+                msg = _anchor_mismatch_msg(frag)
+        elif not _is_markdown_target(file_part):
+            # A paper or an image defines no heading, so a fragment on it is not
+            # an anchor; the dash-slug form still resolves nowhere.
+            if _looks_like_dash_slug(frag):
+                msg = (
+                    "anchor fragment uses dash-slug format; use %20 encoding "
+                    "for spaces (e.g., '#section%20name' not '#section-name')"
+                )
         else:
-            # Cross-file: heuristic — dash-slug is all-lowercase, has
-            # dashes, and no %20.
-            if "-" in frag and frag == frag.lower() and "%20" not in frag:
-                flagged = True
-        if flagged:
-            length = len(m.group(0))
-            line, col, col_end = locate_range(text, m.start(), length)
+            anchors = await _cross_file_anchors(base_dir, file_part)
+            if anchors is None:
+                msg = _unresolved_target_msg(frag, file_part)
+            elif _anchor_key(frag) not in anchors:
+                msg = _anchor_mismatch_msg(frag, file_part)
+        if msg:
+            length = link.end - link.start
+            line, col, col_end = locate_range(text, link.start, length)
             errors.append(
                 ValidationMessage(
                     rule_id="link_anchor_slug",
-                    msg=(
-                        "anchor fragment uses dash-slug format; "
-                        "use %20 encoding for spaces "
-                        "(e.g., '#section%20name' not '#section-name')"
-                    ),
+                    msg=msg,
                     line=line,
                     col=col,
                     col_end=col_end,
                 )
             )
-            break
     return errors
 
 
@@ -3393,6 +3991,67 @@ def _compute_cloze_coverage(paragraph_text: str) -> float | None:
     return cloze_chars / total_visible
 
 
+"""A `- solution:` / `- explanation:` line inside a blockquote belongs to a
+question block: the line states the answer to the question above it.
+"""
+_BLOCKQUOTED_SOLUTION_RE = re.compile(
+    r"^[ \t]*>[ \t]*(?:-[ \t]*)?(?:solution|explanation)[ \t]*:",
+    re.IGNORECASE | re.MULTILINE,
+)
+"""The same marker outside a blockquote has no question to answer."""
+_BARE_SOLUTION_RE = re.compile(
+    r"^[ \t]*(?:-[ \t]*)?(?:solution|explanation)[ \t]*:",
+    re.IGNORECASE | re.MULTILINE,
+)
+
+
+@RULE_REGISTRY.register()
+def cloze_solution_outside_question(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Disallow cloze ``- solution:`` / ``- explanation:`` lines outside a question block.
+
+    Those lines are question-format markup: their cloze hides the answer to the
+    blockquote question above them. Material that is not a question is recorded
+    as prose with its own cards instead, so a cloze solution line with no
+    question block around it is a question-format line in a section that should
+    not use one; see "Flashcard style per section" in `academic-ingest`.
+    """
+    errors: list[ValidationMessage] = []
+    name = ctx.path.name.lower()
+    parent_parts = [part.casefold() for part in ctx.path.parts[:-1]]
+    if (
+        name == "index.md"
+        or name == "questions.md"
+        or name == "agents.md"
+        or "questions" in parent_parts
+    ):
+        return errors
+
+    for m in _BARE_SOLUTION_RE.finditer(ctx.text):
+        line_start = m.start()
+        line_end = ctx.text.find("\n", line_start)
+        if line_end == -1:
+            line_end = len(ctx.text)
+        line = ctx.text[line_start:line_end]
+        if "{@{" not in line:
+            continue
+        line_no, col_no, col_end = locate_range(ctx.text, line_start, len(line))
+        errors.append(
+            ValidationMessage(
+                rule_id="cloze_solution_outside_question",
+                msg=(
+                    "cloze solution/explanation line outside a question block: these "
+                    "lines answer the blockquote question above them, so use "
+                    "'> - solution: ...' inside that blockquote, or record the "
+                    "material as prose with its own cards."
+                ),
+                line=line_no,
+                col=col_no,
+                col_end=col_end,
+            )
+        )
+    return errors
+
+
 @RULE_REGISTRY.register()
 def cloze_insufficient_coverage(ctx: ValidationContext) -> list[ValidationMessage]:
     """Warn when cloze coverage is below 80% in a paragraph."""
@@ -3408,6 +4067,10 @@ def cloze_insufficient_coverage(ctx: ValidationContext) -> list[ValidationMessag
     paragraphs = _segment_paragraphs(body)
 
     for para_text, para_start, para_end in paragraphs:
+        # A question block mixes its visible question text with the clozed answer
+        # lines by design, so its coverage is not measured.
+        if _BLOCKQUOTED_SOLUTION_RE.search(body[para_start:para_end]):
+            continue
         coverage = _compute_cloze_coverage(para_text)
         if coverage is not None and coverage < 0.80:
             # Find the line number for the start of this paragraph
@@ -3439,6 +4102,10 @@ def cloze_excessive_coverage(ctx: ValidationContext) -> list[ValidationMessage]:
     paragraphs = _segment_paragraphs(body)
 
     for para_text, para_start, para_end in paragraphs:
+        # A question block mixes its visible question text with the clozed answer
+        # lines by design, so its coverage is not measured.
+        if _BLOCKQUOTED_SOLUTION_RE.search(body[para_start:para_end]):
+            continue
         coverage = _compute_cloze_coverage(para_text)
         if coverage is not None and coverage > 0.98:
             # Find the line number for the start of this paragraph
@@ -3906,10 +4573,16 @@ def week_monotonic(ctx: ValidationContext) -> list[ValidationMessage]:
     """
     errors: list[ValidationMessage] = []
     prev_week = None
-    for week, _, hdr, idx in ctx.session_headers:
-        num = int(week)
+    prev_semester = None
+    for header in ctx.session_headers:
+        num = int(header.week)
+        # A new semester restarts the week count, so a recurrent course may
+        # begin a term at any week number.
+        if header.semester != prev_semester:
+            prev_semester = header.semester
+            prev_week = None
         if prev_week is not None and num < prev_week and num != 1:
-            line, col, col_end = locate_range(ctx.text, idx, len(hdr))
+            line, col, col_end = locate_range(ctx.text, header.pos, len(header.heading))
             errors.append(
                 ValidationMessage(
                     rule_id="week_monotonic",
@@ -4183,4 +4856,319 @@ def html_br_mid_line(ctx: ValidationContext) -> list[ValidationMessage]:
             )
         )
 
+    return errors
+
+
+# content sentence length ----------------------------------------------------
+
+"""Word ceiling above which one sentence of authored content is reported.
+
+Tunable: see :func:`content_sentence_too_long` for the measured distribution behind it.
+"""
+CONTENT_SENTENCE_WORD_LIMIT = 50
+
+"""Regex matching a fenced code block delimiter line, opening or closing."""
+_CONTENT_FENCE_RE = re.compile(r"^\s*(?:```|~~~)")
+
+"""Regex matching a heading line, from ``#`` through ``######``."""
+_CONTENT_HEADING_RE = re.compile(r"^\s*#{1,6}(?:\s|$)")
+
+"""Regex matching a list item at any indent, bullet or ordered."""
+_CONTENT_LIST_RE = re.compile(r"^\s*(?:[-*+]|\d+[.)])\s")
+
+"""Regex matching a blockquote prefix, stripped before words are counted."""
+_CONTENT_QUOTE_RE = re.compile(r"^\s*(?:>\s*)+")
+
+"""Regex matching a ``topic:`` session-metadata line, a list item or bare."""
+_CONTENT_TOPIC_RE = re.compile(r"^\s*(?:[-*+]|\d+[.)]\s*)?\s*topic:")
+
+"""Regex matching an HTML comment, blanked before any sentence is counted."""
+_CONTENT_HTML_COMMENT_RE = re.compile(r"<!--.*?-->")
+
+"""Regex matching a whole image construct; alt text is blanked with it."""
+_CONTENT_IMAGE_RE = re.compile(r"!\[[^\]]*\]\([^)]*\)")
+
+"""Regex matching an inline code span, blanked before any sentence is counted."""
+_CONTENT_CODE_SPAN_RE = re.compile(r"`+[^`]*`+")
+
+"""Regex matching a display-math block across lines, blanked before counting.
+
+The interior lines of a multi-line ``$$`` block are not prose; blanking only
+a single-line ``$...$`` left three of the ninety-two bare-paragraph hits as
+artifacts of this construct.
+"""
+_CONTENT_DISPLAY_MATH_RE = re.compile(r"\$\$.*?\$\$", re.DOTALL)
+
+"""Regex matching inline LaTeX, blanked before any sentence is counted."""
+_CONTENT_INLINE_MATH_RE = re.compile(r"\$[^$\n]*\$")
+
+"""Regex matching an HTML block break, which ends a sentence.
+
+``<br/>``, ``<br>``, ``<p>``, ``</p>``, ``</div>`` and ``</li>`` each end one.
+This repository formats a multi-statement answer with them, so a 155-word
+"sentence" is often five short statements.
+"""
+_CONTENT_HTML_BREAK_RE = re.compile(r"</?(?:br|p|div|li)\s*/?>")
+
+"""Regex matching a table cell delimiter, blanked before words are counted."""
+_CONTENT_PIPE_RE = re.compile(r"\|")
+
+"""Regex splitting prose on a sentence-ending mark followed by whitespace."""
+_CONTENT_SENTENCE_SPLIT_RE = re.compile(r"(?<=[.!?])\s+")
+
+
+def _blank_match(m: re.Match[str]) -> str:
+    """Return spaces matching *m*'s length, keeping the surrounding text intact.
+
+    Blanking rather than deleting keeps every offset in the blanked string
+    valid for the original one, so a message can point at the exact span it
+    measured, and leaves the neighbouring words separated rather than fused.
+    """
+    return " " * len(m.group(0))
+
+
+def _break_as_sentence_end(m: re.Match[str]) -> str:
+    """Return *m*'s HTML break as a full stop plus padding of the same length.
+
+    Same-length output keeps offsets aligned, while the full stop lets the
+    existing sentence-splitting regex see the break as a sentence boundary.
+    """
+    return "." + " " * (len(m.group(0)) - 1)
+
+
+def _blank_display_math(text: str) -> str:
+    """Return *text* with every ``$$ ... $$`` display block blanked.
+
+    Line breaks inside the block are kept, so the blanked text still splits
+    into the same lines at the same offsets as *text*.
+    """
+    return _CONTENT_DISPLAY_MATH_RE.sub(
+        lambda m: "".join(c if c in "\r\n" else " " for c in m.group(0)), text
+    )
+
+
+def _iter_sentence_spans(text: str) -> Iterator[tuple[int, int]]:
+    """Yield the ``(start, end)`` span of every sentence in *text*.
+
+    Spans are the pieces left by splitting on a sentence-ending mark followed
+    by whitespace, and may be empty where the text begins or ends with one.
+    """
+    start = 0
+    for m in _CONTENT_SENTENCE_SPLIT_RE.finditer(text):
+        yield start, m.start()
+        start = m.end()
+    yield start, len(text)
+
+
+def _content_reference_ranges(
+    text: str, ast: list[AstNode] | None
+) -> list[tuple[int, int]]:
+    """Return the ``(start, end)`` byte ranges of every ``## references`` section.
+
+    A section runs from just after its level-2 heading to the next heading of
+    the same or higher level, or to the end of the file.  Reference lines are
+    measured, because a citation carries a real sentence of its own.
+    """
+    ranges: list[tuple[int, int]] = []
+    headers = _build_filtered_header_positions(text, ast)
+    for i, (_pos, level, m) in enumerate(headers):
+        if level != 2 or _normalize_heading_text(m.group(2)) != "references":
+            continue
+        end = len(text)
+        for next_pos, next_level, _ in headers[i + 1 :]:
+            if next_level <= level:
+                end = next_pos
+                break
+        ranges.append((m.end(), end))
+    return ranges
+
+
+def _content_units(line: str, in_references: bool) -> list[tuple[str, int, int]]:
+    """Return the ``(kind, start, end)`` units of *line* to measure.
+
+    Most lines are one unit.  A two-sided ``::@::`` card is two, because its
+    prompt and its answer are separate sentences: counted whole, they fuse
+    into one apparent sentence and every long card is double-counted.  A
+    one-sided ``:@:`` card has no prompt side and is measured as written.
+
+    ``None`` is never returned; a line with nothing to measure yields an empty
+    list, which is the signal to skip it.  An indented line that opens no list
+    item and no quote is the continuation of the line above it, and is left to
+    :func:`no_soft_wrap_paragraph`.
+    """
+    if not line.strip() or _CONTENT_HEADING_RE.match(line):
+        return []
+
+    split = line.find("::@::")
+    if split != -1:
+        units = [("flashcard prompt", 0, split)]
+        if line[split + len("::@::") :].strip():
+            units.append(("flashcard answer", split + len("::@::"), len(line)))
+        return units
+    if ":@:" in line:
+        return [("flashcard answer", 0, len(line))]
+
+    if _CONTENT_QUOTE_RE.match(line):
+        # Quoted text is verbatim: the author must not rewrite it, so a
+        # warning here is unactionable and would only ever need a
+        # suppression.  Same reason transcludes/ is skipped.
+        return []
+    if "|" in line:
+        return [("table row", 0, len(line))]
+    if in_references:
+        return [("reference line", 0, len(line))]
+    if _CONTENT_TOPIC_RE.match(line):
+        return [("session topic", 0, len(line))]
+    if _CONTENT_LIST_RE.match(line):
+        return [("list item", 0, len(line))]
+    if line[0].isspace():
+        # a soft-wrapped continuation, not a paragraph of its own
+        return []
+    return [("paragraph", 0, len(line))]
+
+
+@RULE_REGISTRY.register()
+def content_sentence_too_long(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Warn when one sentence of authored text runs past the word limit.
+
+    A reader loses the thread well before the end of a sentence this long.
+    The sentence is usually grammatical, and that is not the problem: the
+    problem is its length and nothing else.
+
+    Measured, not just running prose: bare paragraphs, list items, table
+    rows, flashcard prompts and answers, the lines of a ``## references``
+    section, and ``topic:`` session-metadata lines. Every hit names the kind
+    of text it measured, so the reader knows what the count covered.
+
+    Two sentences that look identical to a character counter differ here. A
+    flashcard prompt and its answer sit on one line as ``- what is X ::@:: Y``,
+    and the whole line fuses into one apparent sentence. Counted that way, a
+    note full of ordinary cards produces 252 hits over 50 words, of which 92
+    are sentences no author ever wrote. The prompt and the answer are
+    therefore split and measured apart, and the 252 becomes 160. A bulleted
+    answer broken by ``<br/>`` is a second example of the same fault: five
+    short statements written as one 155-word "sentence", so a block break
+    ends a sentence.
+
+    Three more things are stripped or skipped before anything is counted.
+    Display math is blanked across lines first, so the interior of a
+    ``$$ ... $$`` block is not read as prose; without that, a raw
+    Taylor-series line is reported as a 109-word sentence. A sentence with no
+    words is ignored, because dense ``{@{ }@}`` cloze markup leaves
+    punctuation-only shards behind. And a whole ``![alt](url)`` image goes
+    with its alt text, because the long descriptive alt text this repository
+    writes is deliberate.
+
+    Also skipped, each for a reason rather than by habit: blockquote lines,
+    since quoted text is verbatim and the author must not rewrite it, so a
+    warning there is unactionable; files under a ``transcludes/`` directory,
+    which hold imported Wikipedia and run far longer than authored notes;
+    frontmatter and heading lines; fenced code blocks and their contents;
+    inline code spans; LaTeX in both ``$...$`` and ``$$...$$``; and HTML
+    comments.
+
+    The limit is measured, not guessed. Counting ``::@::`` prompts and answers
+    apart and treating ``<br/>`` and ``<p>`` as sentence breaks, over the 821
+    notes here that sit outside every ``transcludes/`` directory::
+
+        bare_paragraph   n=25,680   >50: 95
+        qa answer        n=42,558   >50: 109
+        qa prompt        n=21,882   >50: 2
+        list_item        n=18,518   >50: 10
+        table_row        n= 2,528   >50: 5
+        reference_entry  n=   287   >50: 0     max 39 words
+        session_topic    n=   762   >50: 1
+        COMBINED         n=130,310  >50: 222
+
+    A 30-word ceiling was rejected. It fires on 10.9% of sentences, mostly on
+    correct enumerations and IFRS definitions, and a rule that cries wolf
+    costs a suppression to maintain at every site it misfires. Fifty words
+    fires on 0.17%, and those are the run-ons.
+
+    Retune the constant against that table rather than by feel. The qa-answer
+    row is the one to watch: it reads 109 here and 160 without the ``<br/>``
+    split, and all 49 of the difference are bulleted answers that are already
+    separate short statements.
+
+    A ``check: ignore-line[content_sentence_too_long]`` comment at the end of
+    the line suppresses the warning. The validator applies it centrally, and
+    :func:`misplaced_suppression_comment` keeps it from drifting.
+    """
+    errors: list[ValidationMessage] = []
+    text = ctx.text
+
+    if any(part.casefold() == "transcludes" for part in ctx.path.parts):
+        return errors
+
+    fm = FRONT_RE.match(text)
+    body_start = fm.end() if fm else 0
+    code_ranges = _build_code_block_ranges(text, ctx.ast)
+    reference_ranges = _content_reference_ranges(text, ctx.ast)
+    # Display math spans lines, so it is blanked once over the whole file and
+    # the line loop below reads the blanked copy, which keeps every offset.
+    blanked = _blank_display_math(text)
+
+    in_fence = False
+    line_start = 0
+    for raw, masked in zip(text.split("\n"), blanked.split("\n"), strict=True):
+        line = raw.rstrip("\r")
+        prose = masked.rstrip("\r")
+        offset = line_start
+        line_start += len(raw) + 1
+
+        if _CONTENT_FENCE_RE.match(line):
+            in_fence = not in_fence
+            continue
+        if in_fence or offset < body_start:
+            continue
+        if any(start <= offset < end for start, end in code_ranges):
+            continue
+
+        units = _content_units(
+            line, any(start <= offset < end for start, end in reference_ranges)
+        )
+        if not units:
+            continue
+
+        for kind, unit_start, unit_end in units:
+            # Blank the markup that is not prose, and turn an HTML break into
+            # a sentence end.  Both keep the length, so spans below are also
+            # spans of the original line.
+            unit = prose[unit_start:unit_end]
+            unit = _CONTENT_HTML_COMMENT_RE.sub(_blank_match, unit)
+            unit = _CONTENT_IMAGE_RE.sub(_blank_match, unit)
+            unit = _CONTENT_CODE_SPAN_RE.sub(_blank_match, unit)
+            unit = _CONTENT_INLINE_MATH_RE.sub(_blank_match, unit)
+            unit = _CONTENT_QUOTE_RE.sub(_blank_match, unit)
+            unit = _CONTENT_HTML_BREAK_RE.sub(_break_as_sentence_end, unit)
+            unit = _CONTENT_PIPE_RE.sub(_blank_match, unit)
+
+            for sent_start, sent_end in _iter_sentence_spans(unit):
+                words = len(unit[sent_start:sent_end].split())
+                if not words or words <= CONTENT_SENTENCE_WORD_LIMIT:
+                    continue
+                line_no, col, col_end = locate_range(
+                    text,
+                    offset + unit_start + sent_start,
+                    sent_end - sent_start,
+                )
+                errors.append(
+                    ValidationMessage(
+                        rule_id="content_sentence_too_long",
+                        msg=(
+                            f"Prose sentence is {words} words "
+                            f"(over {CONTENT_SENTENCE_WORD_LIMIT}) in a {kind}. "
+                            "A reader loses the thread in a sentence this long. "
+                            "Split it, move the trailing clause into its own "
+                            "sentence, or turn the list into bullets. Suppress with:\n"
+                            + html_cpt(
+                                "check: ignore-line[content_sentence_too_long]: reason"
+                            )
+                        ),
+                        severity=Severity.WARNING,
+                        line=line_no,
+                        col=col,
+                        col_end=col_end,
+                    )
+                )
     return errors

@@ -53,7 +53,7 @@ tags:
 >
 > - solution: {@{1/2/3/4/5}@}
 
-## week 7 lecture
+## week 7 lecture 1
 
 > Q1. What is your estimated workload for this semester \(normalize this course to one\)?
 >
@@ -67,7 +67,7 @@ tags:
 >
 > - solution: {@{1/2/3/4/5}@}
 
-## week 10 lecture
+## week 10 lecture 1
 
 > Q1. What is your current plan after undergraduate study?
 >
@@ -82,7 +82,7 @@ tags:
 >
 > - solution: {@{1/2/3/4/5/6}@}
 
-## week 11 lecture
+## week 11 lecture 1
 
 > Q1. What did you mainly work on in the high school?
 >
@@ -95,7 +95,7 @@ tags:
 >
 > - solution: {@{1/2/3/4}@}
 
-## week 13 lecture
+## week 13 lecture 1
 
 > Q1. Which of the following part do you think is the most interesting/useful one in this course?
 >
@@ -110,7 +110,7 @@ tags:
 >
 > - solution: {@{1/2/3/4/5/6}@}
 
-## week 14 lecture
+## week 14 lecture 1
 
 > Q1. Given the following description of Tim, what job do you think he is more likely to do?
 >

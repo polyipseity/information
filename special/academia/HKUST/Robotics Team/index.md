@@ -14,6 +14,6 @@ tags:
 
 - HKUST Robotics Team
 
-## contents
+## children
 
-- [SW 2023](SW%202023/)
+- [SW 2023/](SW%202023/)
