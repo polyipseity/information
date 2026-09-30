@@ -271,7 +271,7 @@ In {@{a dataflow graph}@}, a node may have {@{several inputs}@}; in code this is
 > val answer: Future[Int] = p.future
 > ```
 >
-> {@{The promise’s `future` field}@} is a {@{normal `Future`}@}, so it can be {@{composed with other futures in the same dataflow network}@}. <!--SR:!2026-12-13,260,330!2026-11-24,252,330!2026-12-15,262,330!2026-12-19,265,330!2026-11-02,234,330!2027-01-24,294,330!2027-01-22,293,330-->
+> {@{The promise’s `future` field}@} is a {@{normal `Future`}@}, so it can be {@{composed with other futures in the same dataflow network}@}. <!--SR:!2026-12-13,260,330!2026-11-24,252,330!2026-12-15,262,330!2026-12-19,265,330!fsrs,2029-09-12T00:00:00.000Z,1045,1045.2595081,1,2,9,0,0,2026-11-02T00:00:00.000Z!2027-01-24,294,330!2027-01-22,293,330-->
 
 {@{_Lenient evaluation_}@}, which evaluates {@{an expression as soon as it becomes available but only once}@}, is essentially the same idea as {@{dataflow}@}: each node {@{runs when its inputs are ready}@}. {@{`Futures`}@} provide {@{a convenient runtime for this pattern}@} without {@{explicit scheduling or graph construction}@}; {@{the Scala compiler and the execution context}@} take care of {@{wiring the edges behind the scenes}@}. <!--SR:!2026-12-11,259,330!2027-01-16,286,330!2027-01-20,291,330!2027-01-20,290,330!2026-12-01,251,330!2026-11-05,237,330!2026-12-19,264,330!2026-11-18,247,330!2027-01-21,292,330-->
 

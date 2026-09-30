@@ -274,7 +274,7 @@ The content is in teaching order.
 - 8-to-3 encoder ::@:: 8 inputs, in one-hot encoding. 3 outputs, representing an unsigned integer from 0 to 7. <!--SR:!fsrs,2032-04-18T00:00:00.000Z,2049,2049.0869941,1,2,10,0,0,2026-09-08T00:00:00.000Z!fsrs,2032-11-07T00:00:00.000Z,2214,2214.22574091,1,2,10,0,0,2026-10-16T00:00:00.000Z-->
 - 4-to-1 multiplexer ::@:: 4 inputs, representing the 4 channels to be muxed. 2 control signals, controlling which channel to output. 1 output. <!--SR:!fsrs,2029-05-09T00:00:00.000Z,968,967.87996825,4.01060897,2,10,0,0,2026-09-14T00:00:00.000Z!fsrs,2032-08-25T00:00:00.000Z,2154,2154.0218629,1,2,10,0,0,2026-10-02T00:00:00.000Z-->
 - multiplexer
-    - multiplexer / input bit width ::@:: Its output bit width is the same as its input bit width. <!--SR:!2026-11-02,495,406!fsrs,2033-01-17T00:00:00.000Z,2269,2268.77544407,1,2,10,0,0,2026-11-01T00:00:00.000Z-->
+    - multiplexer / input bit width ::@:: Its output bit width is the same as its input bit width. <!--SR:!fsrs,2033-01-23T00:00:00.000Z,2274,2274.19527604,1,2,10,0,0,2026-11-02T00:00:00.000Z!fsrs,2033-01-17T00:00:00.000Z,2269,2268.77544407,1,2,10,0,0,2026-11-01T00:00:00.000Z-->
     - multiplexer / control bit width ::@:: Given _n_ control bits, the _maximum_ number of inputs is 2<sup>_n_</sup>. <br/> Given _n_ inputs, the _minimum_ number of control bits is ceil\(log<sub>2</sub>\(_n_\)\). <p> (Of course, you can violate these, but then it is not a multiplexer, isn't it?) <!--SR:!2028-10-11,1050,386!2029-12-06,1372,386-->
 
 ## week 3 lecture 2

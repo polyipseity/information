@@ -454,7 +454,7 @@ Unlike {@{`List`}@}, vectors do not {@{support the cons operator (`::`)}@}. Inst
 
 ## range
 
-{@{A `Range`}@} is {@{a lightweight representation of an arithmetic progression}@}. It stores {@{only three fields – lower bound, upper bound and step size}@} – and implements {@{the `Seq[Int]` interface}@}. {@{Three constructor operators}@} are available: <!--SR:!2026-11-02,289,330!fsrs,2030-02-20T00:00:00.000Z,1218,1217.87747351,1,2,9,0,0,2026-10-21T00:00:00.000Z!fsrs,2030-02-05T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-10-18T00:00:00.000Z!fsrs,2029-11-02T00:00:00.000Z,1130,1130.11601442,1,2,9,0,0,2026-09-29T00:00:00.000Z!fsrs,2030-02-05T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-10-18T00:00:00.000Z-->
+{@{A `Range`}@} is {@{a lightweight representation of an arithmetic progression}@}. It stores {@{only three fields – lower bound, upper bound and step size}@} – and implements {@{the `Seq[Int]` interface}@}. {@{Three constructor operators}@} are available: <!--SR:!fsrs,2030-04-11T00:00:00.000Z,1256,1255.75476993,1,2,9,0,0,2026-11-02T00:00:00.000Z!fsrs,2030-02-20T00:00:00.000Z,1218,1217.87747351,1,2,9,0,0,2026-10-21T00:00:00.000Z!fsrs,2030-02-05T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-10-18T00:00:00.000Z!fsrs,2029-11-02T00:00:00.000Z,1130,1130.11601442,1,2,9,0,0,2026-09-29T00:00:00.000Z!fsrs,2030-02-05T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-10-18T00:00:00.000Z-->
 
 > [!example] __`Range` examples__
 >
@@ -482,7 +482,7 @@ The following operations are {@{common to all `Seq`s}@} (and thus to {@{lists, v
 - `sum`, `product` ::@:: Aggregate numeric collections. <!--SR:!fsrs,2029-12-29T00:00:00.000Z,1176,1176.0199518,1,2,9,0,0,2026-10-10T00:00:00.000Z!fsrs,2030-03-08T00:00:00.000Z,1229,1229.25786194,1,2,9,0,0,2026-10-26T00:00:00.000Z-->
 - `max`, `min` ::@:: Return the largest or smallest element (requires an implicit `Ordering`). <!--SR:!fsrs,2028-08-06T00:00:00.000Z,690,689.94707246,2.49272837,2,9,0,0,2026-09-16T00:00:00.000Z!2026-11-04,290,330-->
 
-These operations are typically implemented via {@{recursion or tail-recursion}@} over {@{the underlying list structure}@}. <!--SR:!fsrs,2030-03-13T00:00:00.000Z,1233,1233.04800529,1,2,9,0,0,2026-10-27T00:00:00.000Z!2026-11-02,289,330-->
+These operations are typically implemented via {@{recursion or tail-recursion}@} over {@{the underlying list structure}@}. <!--SR:!fsrs,2030-03-13T00:00:00.000Z,1233,1233.04800529,1,2,9,0,0,2026-10-27T00:00:00.000Z!fsrs,2030-04-11T00:00:00.000Z,1256,1255.75476993,1,2,9,0,0,2026-11-02T00:00:00.000Z-->
 
 > [!example] __combinations__
 >
@@ -517,7 +517,7 @@ These operations are typically implemented via {@{recursion or tail-recursion}@}
 >   (2 to n - 1).forall(d => n % d != 0)
 > ```
 >
-> Although {@{not efficient for large numbers}@}, this expression captures {@{the mathematical definition in a single line}@}. <!--SR:!fsrs,2030-02-15T00:00:00.000Z,1214,1214.08066657,1,2,9,0,0,2026-10-20T00:00:00.000Z!2026-11-02,289,330!2026-11-02,289,330!fsrs,2028-07-30T00:00:00.000Z,685,684.89001444,2.49272837,2,9,0,0,2026-09-14T00:00:00.000Z!fsrs,2029-11-19T00:00:00.000Z,1144,1144.03786294,1,2,9,0,0,2026-10-02T00:00:00.000Z-->
+> Although {@{not efficient for large numbers}@}, this expression captures {@{the mathematical definition in a single line}@}. <!--SR:!fsrs,2030-02-15T00:00:00.000Z,1214,1214.08066657,1,2,9,0,0,2026-10-20T00:00:00.000Z!fsrs,2030-04-11T00:00:00.000Z,1256,1255.75476993,1,2,9,0,0,2026-11-02T00:00:00.000Z!fsrs,2030-04-11T00:00:00.000Z,1256,1255.75476993,1,2,9,0,0,2026-11-02T00:00:00.000Z!fsrs,2028-07-30T00:00:00.000Z,685,684.89001444,2.49272837,2,9,0,0,2026-09-14T00:00:00.000Z!fsrs,2029-11-19T00:00:00.000Z,1144,1144.03786294,1,2,9,0,0,2026-10-02T00:00:00.000Z-->
 
 ## mapping
 
@@ -563,7 +563,7 @@ Attempting to {@{call a map with a missing key}@} throws {@{an `java.util.NoSuch
 
 ### map update
 
-Because {@{maps are immutable}@}, updates {@{produce new maps}@}. {@{The operator `+`}@} adds {@{a single key/value pair}@}; {@{the operator `++`}@} {@{merges two maps}@}: <!--SR:!fsrs,2029-12-15T00:00:00.000Z,1165,1164.5679841,1,2,9,0,0,2026-10-07T00:00:00.000Z!fsrs,2029-06-19T00:00:00.000Z,1022,1021.94953015,1,2,9,0,0,2026-09-01T00:00:00.000Z!fsrs,2029-10-28T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-09-28T00:00:00.000Z!2026-11-02,289,330!fsrs,2029-07-08T00:00:00.000Z,1037,1037.49777357,1,2,9,0,0,2026-09-05T00:00:00.000Z!fsrs,2030-03-01T00:00:00.000Z,1225,1225.46601476,1,2,9,0,0,2026-10-23T00:00:00.000Z-->
+Because {@{maps are immutable}@}, updates {@{produce new maps}@}. {@{The operator `+`}@} adds {@{a single key/value pair}@}; {@{the operator `++`}@} {@{merges two maps}@}: <!--SR:!fsrs,2029-12-15T00:00:00.000Z,1165,1164.5679841,1,2,9,0,0,2026-10-07T00:00:00.000Z!fsrs,2029-06-19T00:00:00.000Z,1022,1021.94953015,1,2,9,0,0,2026-09-01T00:00:00.000Z!fsrs,2029-10-28T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-09-28T00:00:00.000Z!fsrs,2030-04-11T00:00:00.000Z,1256,1255.75476993,1,2,9,0,0,2026-11-02T00:00:00.000Z!fsrs,2029-07-08T00:00:00.000Z,1037,1037.49777357,1,2,9,0,0,2026-09-05T00:00:00.000Z!fsrs,2030-03-01T00:00:00.000Z,1225,1225.46601476,1,2,9,0,0,2026-10-23T00:00:00.000Z-->
 
 > [!example] __`++` and `+` example__
 >
@@ -653,7 +653,7 @@ Because {@{maps are immutable}@}, updates {@{produce new maps}@}. {@{The operato
 >     }
 > }
 > ```
-<!--SR:!2026-11-02,289,330!fsrs,2029-08-07T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-09-11T00:00:00.000Z!fsrs,2030-02-01T00:00:00.000Z,1203,1202.68030072,1,2,9,0,0,2026-10-17T00:00:00.000Z!fsrs,2029-10-14T00:00:00.000Z,1115,1114.75652523,1,2,9,0,0,2026-09-25T00:00:00.000Z-->
+<!--SR:!fsrs,2030-04-11T00:00:00.000Z,1256,1255.75476993,1,2,9,0,0,2026-11-02T00:00:00.000Z!fsrs,2029-08-07T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-09-11T00:00:00.000Z!fsrs,2030-02-01T00:00:00.000Z,1203,1202.68030072,1,2,9,0,0,2026-10-17T00:00:00.000Z!fsrs,2029-10-14T00:00:00.000Z,1115,1114.75652523,1,2,9,0,0,2026-09-25T00:00:00.000Z-->
 
 To avoid {@{the verbosity of `Polynomial(Map(...))`}@}, {@{a _varargs_ constructor}@} is provided: <!--SR:!fsrs,2028-08-24T00:00:00.000Z,703,702.57151752,2.49272837,2,9,0,0,2026-09-21T00:00:00.000Z!fsrs,2028-08-09T00:00:00.000Z,692,692.47401324,2.49272837,2,9,0,0,2026-09-17T00:00:00.000Z-->
 

@@ -71,7 +71,7 @@ Accrued expenses {@{have not yet been paid for, so they are recorded in a payabl
 
 ### estimates
 
-A third classification of adjusting entry occurs {@{where the exact amount of an expense cannot easily be determined}@}. {@{The [depreciation](depreciation.md) of fixed assets}@}, for example, is {@{an expense which has to be estimated}@}. <!--SR:!2026-11-02,591,330!2027-12-11,883,330!2029-01-17,1230,350-->
+A third classification of adjusting entry occurs {@{where the exact amount of an expense cannot easily be determined}@}. {@{The [depreciation](depreciation.md) of fixed assets}@}, for example, is {@{an expense which has to be estimated}@}. <!--SR:!fsrs,2033-04-03T00:00:00.000Z,2344,2343.66112309,1,2,10,0,0,2026-11-02T00:00:00.000Z!2027-12-11,883,330!2029-01-17,1230,350-->
 
 The entry for bad debt expense can also be classified as an estimate.
 

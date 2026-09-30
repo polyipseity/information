@@ -36,7 +36,7 @@ I_W&=\frac1{12}m\left(L^2+H^2\right)\\
 
 ### cylindrical shell, axis through base center
 
-- definition ::@:: a homogeneous [cylindrical](cylinder.md) shell of density $\rho$, height $H$, inner radius $R_I$, and outer radius $R_O$, axis through base center <!--SR:!2029-11-14,1539,327!2026-11-02,699,347-->
+- definition ::@:: a homogeneous [cylindrical](cylinder.md) shell of density $\rho$, height $H$, inner radius $R_I$, and outer radius $R_O$, axis through base center <!--SR:!2029-11-14,1539,327!fsrs,2034-09-07T00:00:00.000Z,2866,2865.56475121,1,2,10,0,0,2026-11-02T00:00:00.000Z-->
 - equation ::@:: $I=\frac12m\left(R_O^2+R_I^2\right)$ <!--SR:!2032-02-11,2284,330!fsrs,2034-09-09T00:00:00.000Z,2879,2879.41523359,1,2,11,0,0,2026-10-22T00:00:00.000Z-->
     - solid cylinder ::@:: $I=\frac12mR_O^2$ <!--SR:!2026-12-15,831,330!2027-07-04,872,338-->
     - thin-walled hollow cylinder ::@:: $I=mR_O^2$ <!--SR:!2031-06-27,2111,330!2026-12-11,720,338-->
@@ -53,7 +53,7 @@ I&=\int_{R_I}^{R_O}\!\int_0^H\!\int_0^{2\pi}\!\rho{}r^3\,\mathrm{d}\theta\,\math
 ### rod, axis through certain distance from one end
 
 - definition ::@:: a homogeneous rod of density $\rho$, length $L$, and radius $R$, axis through distance $Z$ from one end <!--SR:!2027-04-09,853,347!2029-01-12,1311,367-->
-- equation ::@:: $I=\frac13m\left(L^2-3LZ+3Z^2\right)+\frac14mR^2$ <!--SR:!2026-11-02,296,190!2028-08-07,1073,298-->
+- equation ::@:: $I=\frac13m\left(L^2-3LZ+3Z^2\right)+\frac14mR^2$ <!--SR:!fsrs,2028-09-05T00:00:00.000Z,673,673.06629981,6.98338322,2,9,0,0,2026-11-02T00:00:00.000Z!2028-08-07,1073,298-->
     - thin rod correction ::@:: use the same equation and set $R = 0$ <!--SR:!2028-06-14,1330,350!2029-06-19,1531,378-->
     - slender rod, axis through center ::@:: $\frac1{12}mL^2$ <!--SR:!2028-10-04,1262,310!2033-03-06,2487,338-->
     - slender rod, axis through one end ::@:: $\frac13mL^2$ <!--SR:!2028-03-16,1064,290!fsrs,2034-01-10T00:00:00.000Z,2698,2698.23677239,1,2,10,0,0,2026-08-22T00:00:00.000Z-->

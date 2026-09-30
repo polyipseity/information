@@ -38,7 +38,7 @@ Scala lets programmers write code that {@{looks like traditional _imperative_ la
 >
 > In Scala, {@{every expression}@} evaluates {@{to a value}@}. For {@{a `while` loop}@}, it always evaluates to {@{the `Unit` value `()`}@}. <!--SR:!2027-01-04,281,330!2026-11-27,255,330!2026-12-08,259,330!2026-11-28,251,330!2026-12-19,268,330-->
 
-{@{The `while` loop}@} can be implemented as {@{a function that receives the condition and the body, both by name}@}, so they are {@{re‑evaluated each iteration}@}. This function is {@{tail‑recursive and uses constant stack space}@}. <!--SR:!2026-11-02,233,330!2026-12-29,276,330!2026-11-13,243,330!2026-12-20,268,330-->
+{@{The `while` loop}@} can be implemented as {@{a function that receives the condition and the body, both by name}@}, so they are {@{re‑evaluated each iteration}@}. This function is {@{tail‑recursive and uses constant stack space}@}. <!--SR:!fsrs,2029-09-08T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-11-02T00:00:00.000Z!2026-12-29,276,330!2026-11-13,243,330!2026-12-20,268,330-->
 
 > [!example] __`whileDo` implementation__
 >
@@ -53,7 +53,7 @@ Scala lets programmers write code that {@{looks like traditional _imperative_ la
 
 ### repeat loops
 
-{@{The `repeatUntil` command}@} runs {@{at least once}@} and stops when {@{the condition becomes true}@}. <!--SR:!2026-11-28,251,330!2026-11-02,234,330!2026-12-12,262,330-->
+{@{The `repeatUntil` command}@} runs {@{at least once}@} and stops when {@{the condition becomes true}@}. <!--SR:!2026-11-28,251,330!fsrs,2029-09-12T00:00:00.000Z,1045,1045.2595081,1,2,9,0,0,2026-11-02T00:00:00.000Z!2026-12-12,262,330-->
 
 > [!example] __`repeatUntil` function__
 >

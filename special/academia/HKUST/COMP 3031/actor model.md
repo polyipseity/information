@@ -54,7 +54,7 @@ Consider a bank account example where {@{two concurrent deposits update a shared
 > }
 > ```
 >
-> While {@{correct}@}, {@{the locks}@} can {@{serialize access and expose the program to deadlocks}@} when {@{multiple accounts are involved}@}. <!--SR:!2026-12-12,260,330!2027-01-10,284,330!2026-11-02,234,330!2027-01-05,280,330!2026-11-17,246,330!2027-01-11,285,330-->
+> While {@{correct}@}, {@{the locks}@} can {@{serialize access and expose the program to deadlocks}@} when {@{multiple accounts are involved}@}. <!--SR:!2026-12-12,260,330!2027-01-10,284,330!fsrs,2029-09-12T00:00:00.000Z,1045,1045.2595081,1,2,9,0,0,2026-11-02T00:00:00.000Z!2027-01-05,280,330!2026-11-17,246,330!2027-01-11,285,330-->
 
 {@{A classic deadlock}@} occurs when {@{two actors (or threads)}@} {@{lock shared resources in reverse order}@}. <!--SR:!2026-11-22,250,330!2026-12-26,272,330!2026-12-16,263,330-->
 
@@ -531,7 +531,7 @@ Actors can schedule {@{timeouts via the actor system’s scheduler}@}. {@{A cont
 > ```
 <!--SR:!2027-01-17,290,330!2026-12-09,258,330-->
 
-{@{The `Receptionist`}@} {@{serialises incoming requests}@} and limits {@{the number of concurrent crawls}@}. It uses {@{`context.become`}@} to switch between {@{waiting and running states}@} while keeping state {@{local to each behavior}@}. <!--SR:!2026-11-27,255,330!2026-11-30,251,330!2027-01-11,285,330!2027-01-20,292,330!2026-11-02,234,330!2026-12-26,272,330-->
+{@{The `Receptionist`}@} {@{serialises incoming requests}@} and limits {@{the number of concurrent crawls}@}. It uses {@{`context.become`}@} to switch between {@{waiting and running states}@} while keeping state {@{local to each behavior}@}. <!--SR:!2026-11-27,255,330!2026-11-30,251,330!2027-01-11,285,330!2027-01-20,292,330!fsrs,2029-09-12T00:00:00.000Z,1045,1045.2595081,1,2,9,0,0,2026-11-02T00:00:00.000Z!2026-12-26,272,330-->
 
 > [!example] __`Receptionist` actor__
 >

@@ -20,7 +20,7 @@ tags:
 
 In {@{functional programming}@}, {@{many data structures}@} that provide {@{`unit` \(also called `return`\) and `flatMap` \(also called `bind`\) operations}@} fall under {@{a common algebraic abstraction known as a _monad_}@}. <!--SR:!fsrs,2030-03-18T00:00:00.000Z,1237,1236.83645167,1,2,9,0,0,2026-10-28T00:00:00.000Z!fsrs,2030-01-11T00:00:00.000Z,1187,1187.45608877,1,2,9,0,0,2026-10-12T00:00:00.000Z!fsrs,2029-07-22T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-09-07T00:00:00.000Z!fsrs,2030-03-13T00:00:00.000Z,1233,1233.04800529,1,2,9,0,0,2026-10-27T00:00:00.000Z-->
 
-{@{The monad abstraction}@} underpins {@{many Scala types beyond collections}@}, such as {@{generators, options, and tries}@}. When {@{a type implements `flatMap`}@} \(and optionally {@{`withFilter` for _monads with zero_}@}\), it becomes {@{eligible to participate in Scala's `for`-comprehensions}@}. {@{The three monad laws}@} provide designers with {@{powerful guidance}@}: they enforce {@{consistent composition semantics}@} and enable reasoning about {@{program behavior across different contexts}@}. <!--SR:!2026-11-04,290,330!2026-11-05,291,330!fsrs,2028-02-03T00:00:00.000Z,508,507.95545468,5.00637887,2,9,0,0,2026-09-13T00:00:00.000Z!2026-11-07,293,330!fsrs,2030-04-05T00:00:00.000Z,1251,1250.57352479,1,2,9,0,0,2026-11-01T00:00:00.000Z!fsrs,2030-01-07T00:00:00.000Z,1184,1183.64577796,1,2,9,0,0,2026-10-11T00:00:00.000Z!fsrs,2029-12-23T00:00:00.000Z,1172,1172.20432607,1,2,9,0,0,2026-10-08T00:00:00.000Z!fsrs,2028-08-16T00:00:00.000Z,698,697.52483893,2.49272837,2,9,0,0,2026-09-18T00:00:00.000Z!2026-11-02,289,330!fsrs,2029-12-28T00:00:00.000Z,1176,1176.0199518,1,2,9,0,0,2026-10-09T00:00:00.000Z-->
+{@{The monad abstraction}@} underpins {@{many Scala types beyond collections}@}, such as {@{generators, options, and tries}@}. When {@{a type implements `flatMap`}@} \(and optionally {@{`withFilter` for _monads with zero_}@}\), it becomes {@{eligible to participate in Scala's `for`-comprehensions}@}. {@{The three monad laws}@} provide designers with {@{powerful guidance}@}: they enforce {@{consistent composition semantics}@} and enable reasoning about {@{program behavior across different contexts}@}. <!--SR:!2026-11-04,290,330!2026-11-05,291,330!fsrs,2028-02-03T00:00:00.000Z,508,507.95545468,5.00637887,2,9,0,0,2026-09-13T00:00:00.000Z!2026-11-07,293,330!fsrs,2030-04-05T00:00:00.000Z,1251,1250.57352479,1,2,9,0,0,2026-11-01T00:00:00.000Z!fsrs,2030-01-07T00:00:00.000Z,1184,1183.64577796,1,2,9,0,0,2026-10-11T00:00:00.000Z!fsrs,2029-12-23T00:00:00.000Z,1172,1172.20432607,1,2,9,0,0,2026-10-08T00:00:00.000Z!fsrs,2028-08-16T00:00:00.000Z,698,697.52483893,2.49272837,2,9,0,0,2026-09-18T00:00:00.000Z!fsrs,2030-04-11T00:00:00.000Z,1256,1255.75476993,1,2,9,0,0,2026-11-02T00:00:00.000Z!fsrs,2029-12-28T00:00:00.000Z,1176,1176.0199518,1,2,9,0,0,2026-10-09T00:00:00.000Z-->
 
 ## motivation
 
@@ -225,7 +225,7 @@ The same idea is {@{used in the _ScalaCheck_ library}@}.  {@{A property expresse
 >   (l1 ++ l2).size == l1.size + l2.size
 > }
 > ```
-<!--SR:!fsrs,2029-06-23T00:00:00.000Z,1026,1025.83973773,1,2,9,0,0,2026-09-01T00:00:00.000Z!2026-11-02,289,330!fsrs,2030-02-27T00:00:00.000Z,1222,1221.67255456,1,2,9,0,0,2026-10-24T00:00:00.000Z-->
+<!--SR:!fsrs,2029-06-23T00:00:00.000Z,1026,1025.83973773,1,2,9,0,0,2026-09-01T00:00:00.000Z!fsrs,2030-04-11T00:00:00.000Z,1256,1255.75476993,1,2,9,0,0,2026-11-02T00:00:00.000Z!fsrs,2030-02-27T00:00:00.000Z,1222,1221.67255456,1,2,9,0,0,2026-10-24T00:00:00.000Z-->
 
 ScalaCheck integrates {@{with ScalaTest or can run stand-alone}@}, providing a systematic way to {@{validate program behaviour without hand-crafted test data}@}. <!--SR:!fsrs,2030-01-21T00:00:00.000Z,1195,1195.07164214,1,2,9,0,0,2026-10-14T00:00:00.000Z!fsrs,2028-07-20T00:00:00.000Z,745,744.93144381,1,2,8,0,0,2026-07-06T00:00:00.000Z-->
 
@@ -243,7 +243,7 @@ ScalaCheck integrates {@{with ScalaTest or can run stand-alone}@}, providing a s
 > }
 > def unit[T](x: T): M[T]
 > ```
-<!--SR:!2026-11-02,289,330!2026-11-07,293,330!fsrs,2029-07-27T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-09-08T00:00:00.000Z-->
+<!--SR:!fsrs,2030-04-11T00:00:00.000Z,1256,1255.75476993,1,2,9,0,0,2026-11-02T00:00:00.000Z!2026-11-07,293,330!fsrs,2029-07-27T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-09-08T00:00:00.000Z-->
 
 {@{`flatMap`}@} chains {@{computations that may produce values wrapped in the monad}@}, while {@{`unit`}@} injects {@{a plain value into the monadic context}@}. Additionally, these operations must {@{respect the monad laws}@}. <!--SR:!fsrs,2030-01-26T00:00:00.000Z,1199,1198.87680538,1,2,9,0,0,2026-10-15T00:00:00.000Z!fsrs,2030-02-04T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-10-17T00:00:00.000Z!fsrs,2029-10-13T00:00:00.000Z,1115,1114.75652523,1,2,9,0,0,2026-09-24T00:00:00.000Z!fsrs,2030-03-18T00:00:00.000Z,1237,1236.83645167,1,2,9,0,0,2026-10-28T00:00:00.000Z!fsrs,2030-04-06T00:00:00.000Z,1252,1251.97430334,1,2,9,0,0,2026-11-01T00:00:00.000Z-->
 
@@ -382,7 +382,7 @@ Because of {@{these issues}@}, it is sometimes preferable to treat {@{failures a
 > ```
 <!--SR:!fsrs,2029-11-01T00:00:00.000Z,1130,1130.11601442,1,2,9,0,0,2026-09-28T00:00:00.000Z!fsrs,2029-12-23T00:00:00.000Z,1172,1172.20432607,1,2,9,0,0,2026-10-08T00:00:00.000Z!2026-11-08,294,330-->
 
-Thus {@{`t.map(f)`}@} equals {@{`t.flatMap(x => Try(f(x)))`}@}, mirroring {@{the general monadic definition of `map`}@}. <!--SR:!2026-11-02,289,330!fsrs,2030-01-21T00:00:00.000Z,1195,1195.07164214,1,2,9,0,0,2026-10-14T00:00:00.000Z!2026-11-02,289,330-->
+Thus {@{`t.map(f)`}@} equals {@{`t.flatMap(x => Try(f(x)))`}@}, mirroring {@{the general monadic definition of `map`}@}. <!--SR:!fsrs,2030-04-11T00:00:00.000Z,1256,1255.75476993,1,2,9,0,0,2026-11-02T00:00:00.000Z!fsrs,2030-01-21T00:00:00.000Z,1195,1195.07164214,1,2,9,0,0,2026-10-14T00:00:00.000Z!fsrs,2030-04-11T00:00:00.000Z,1256,1255.75476993,1,2,9,0,0,2026-11-02T00:00:00.000Z-->
 
 One might ask whether {@{`Try` satisfies the monad laws with `unit = Try.apply`}@}. {@{The left-unit law}@} fails: {@{`Try(expr).flatMap(f)`}@} will {@{never throw a non-fatal exception}@}, whereas {@{`f(expr)` may}@}. Consequently, `Try` trades {@{the left identity law}@} for {@{a useful property}@}—{@{any composition of `Try`, `map`, and `flatMap`}@} guarantees that {@{no non-fatal exception propagates outward}@} ({@{the "bullet-proof" principle}@}\). <!--SR:!fsrs,2028-11-28T00:00:00.000Z,773,772.81357058,2.49272837,2,9,0,0,2026-10-17T00:00:00.000Z!fsrs,2030-03-03T00:00:00.000Z,1225,1225.46601476,1,2,9,0,0,2026-10-25T00:00:00.000Z!fsrs,2030-03-23T00:00:00.000Z,1241,1240.62340626,1,2,9,0,0,2026-10-29T00:00:00.000Z!fsrs,2030-02-04T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-10-17T00:00:00.000Z!fsrs,2030-03-27T00:00:00.000Z,1244,1244.40857912,1,2,9,0,0,2026-10-30T00:00:00.000Z!fsrs,2030-02-27T00:00:00.000Z,1222,1221.67255456,1,2,9,0,0,2026-10-24T00:00:00.000Z!fsrs,2029-07-17T00:00:00.000Z,1045,1045.2595081,1,2,9,0,0,2026-09-06T00:00:00.000Z!fsrs,2030-02-27T00:00:00.000Z,1222,1221.67255456,1,2,9,0,0,2026-10-24T00:00:00.000Z!2026-11-03,290,330!2026-11-07,293,330-->
 

@@ -15,7 +15,7 @@ tags:
 
 # Big Dipper
 
-The __Big Dipper__ ([US](American%20English.md), [Canada](Canadian%20English.md)) or {@{the __plough__ ([UK](British%20English.md), [Ireland](Hiberno-English.md))}@} is {@{a large [asterism](asterism%20(astronomy).md) consisting of seven bright stars of the [constellation](constellation.md) [Ursa Major](Ursa%20Major.md)}@}. <!--SR:!2027-02-20,726,330!2026-11-02,545,270-->
+The __Big Dipper__ ([US](American%20English.md), [Canada](Canadian%20English.md)) or {@{the __plough__ ([UK](British%20English.md), [Ireland](Hiberno-English.md))}@} is {@{a large [asterism](asterism%20(astronomy).md) consisting of seven bright stars of the [constellation](constellation.md) [Ursa Major](Ursa%20Major.md)}@}. <!--SR:!2027-02-20,726,330!fsrs,2031-08-18T00:00:00.000Z,1750,1749.68945615,2.98092302,2,10,0,0,2026-11-02T00:00:00.000Z-->
 
 ## references
 

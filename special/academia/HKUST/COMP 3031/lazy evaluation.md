@@ -104,7 +104,7 @@ or {@{more conveniently}@} via {@{the factory syntax}@}, in which {@{parameters 
 
 ### lazy list operations
 
-{@{Most standard collection methods}@} are {@{available on lazy lists}@}.  For example, to find {@{the second prime number}@} between {@{1000 and 10&nbsp;000}@} one can write: <!--SR:!2026-11-23,295,345!2026-11-13,288,345!2026-11-02,277,345!2026-12-29,325,345-->
+{@{Most standard collection methods}@} are {@{available on lazy lists}@}.  For example, to find {@{the second prime number}@} between {@{1000 and 10&nbsp;000}@} one can write: <!--SR:!2026-11-23,295,345!2026-11-13,288,345!fsrs,2030-04-27T00:00:00.000Z,1272,1272.04354713,1,2,9,0,0,2026-11-02T00:00:00.000Z!2026-12-29,325,345-->
 
 > [!example] __lazily finding prime numbers__
 >
@@ -180,7 +180,7 @@ Using {@{this naive construction}@}, {@{`lazyRange(1, 10).take(3)`}@} would trig
 > }
 > ```
 >
-> ... where {@{`State`}@} is {@{an enum of either `Empty` or `Cons(hd, tl)`}@}; {@{the latter's tail (`tl`)}@} is {@{a fully lazy `LazyList`}@}. <!--SR:!2026-11-02,277,345!2026-11-26,298,345!fsrs,2030-03-08T00:00:00.000Z,1232,1232.10755353,1,2,9,0,0,2026-10-23T00:00:00.000Z!2027-01-21,343,345!2026-11-21,293,345!2026-11-23,295,345!2027-01-10,334,345!2026-11-09,284,345!fsrs,2030-04-07T00:00:00.000Z,1256,1256.09108905,1,2,9,0,0,2026-10-29T00:00:00.000Z!2026-12-09,308,345!2027-03-31,403,370-->
+> ... where {@{`State`}@} is {@{an enum of either `Empty` or `Cons(hd, tl)`}@}; {@{the latter's tail (`tl`)}@} is {@{a fully lazy `LazyList`}@}. <!--SR:!fsrs,2030-04-27T00:00:00.000Z,1272,1272.04354713,1,2,9,0,0,2026-11-02T00:00:00.000Z!2026-11-26,298,345!fsrs,2030-03-08T00:00:00.000Z,1232,1232.10755353,1,2,9,0,0,2026-10-23T00:00:00.000Z!2027-01-21,343,345!2026-11-21,293,345!2026-11-23,295,345!2027-01-10,334,345!2026-11-09,284,345!fsrs,2030-04-07T00:00:00.000Z,1256,1256.09108905,1,2,9,0,0,2026-10-29T00:00:00.000Z!2026-12-09,308,345!2027-03-31,403,370-->
 
 ... where {@{`State`}@} is {@{an enum of either `Empty` or `Cons(hd, tl)`}@}; {@{the latter's tail (`tl`)}@} is {@{a fully lazy `LazyList`}@}. In {@{Scala 3's standard library}@} this pattern appears as {@{a private `lazyState` function}@} that yields {@{a `State[A]` object containing `head` and `tail`}@}; thus {@{the list's structure (whether it's empty or a cons cell)}@} is {@{computed lazily}@}, but {@{individual `head` elements themselves}@} are {@{not lazy}@}—only {@{the overall shape of the sequence}@} is {@{deferred}@}. <!--SR:!2026-11-29,299,345!fsrs,2030-04-07T00:00:00.000Z,1256,1256.09108905,1,2,9,0,0,2026-10-29T00:00:00.000Z!2027-01-14,337,345!fsrs,2029-12-07T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-10-07T00:00:00.000Z!2026-11-09,284,345!2026-11-25,297,345!fsrs,2028-08-08T00:00:00.000Z,692,692.47401324,2.49272837,2,9,0,0,2026-09-16T00:00:00.000Z!2027-01-04,329,345!2026-12-15,313,345!fsrs,2029-01-25T00:00:00.000Z,904,904.19353564,1,2,9,0,0,2026-08-05T00:00:00.000Z!2026-12-12,311,345!2026-12-10,309,345!2027-03-19,393,370-->
 
@@ -275,7 +275,7 @@ Because {@{the tail of a lazy list}@} is {@{lazily evaluated}@}, it can {@{repre
 > ```
 <!--SR:!2027-01-06,330,345!2026-12-30,325,345!2026-11-10,285,330-->
 
-{@{A predicate}@} can then {@{filter for a sufficiently accurate approximation}@}: <!--SR:!2027-01-12,335,345!2026-11-02,277,345-->
+{@{A predicate}@} can then {@{filter for a sufficiently accurate approximation}@}: <!--SR:!2027-01-12,335,345!fsrs,2030-04-27T00:00:00.000Z,1272,1272.04354713,1,2,9,0,0,2026-11-02T00:00:00.000Z-->
 
 > [!example] __lazy fixed iteration extraction__
 >

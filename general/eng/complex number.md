@@ -9,7 +9,7 @@ tags:
 
 # complex number
 
-In [mathematics](mathematics.md), a __complex number__ is {@{an element of a [number system](number.md#classification) that extends the [real numbers](real%20number.md) with a specific element denoted _i_}@}, called {@{the [imaginary unit](imaginary%20unit.md) and satisfying the [equation](equation.md) $i^2 = -1$}@}; every complex number can be {@{expressed in the form $a + bi$, where _a_ and _b_ are real numbers}@}. <!--SR:!2029-02-27,1306,350!2027-06-21,805,330!2026-11-02,633,330-->
+In [mathematics](mathematics.md), a __complex number__ is {@{an element of a [number system](number.md#classification) that extends the [real numbers](real%20number.md) with a specific element denoted _i_}@}, called {@{the [imaginary unit](imaginary%20unit.md) and satisfying the [equation](equation.md) $i^2 = -1$}@}; every complex number can be {@{expressed in the form $a + bi$, where _a_ and _b_ are real numbers}@}. <!--SR:!2029-02-27,1306,350!2027-06-21,805,330!fsrs,2033-08-26T00:00:00.000Z,2489,2488.71809209,1,2,10,0,0,2026-11-02T00:00:00.000Z-->
 
 ## references
 
