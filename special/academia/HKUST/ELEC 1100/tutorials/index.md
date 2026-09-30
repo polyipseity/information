@@ -19,8 +19,8 @@ tags:
 
 ## children
 
-- [tutorial 1](tutorial%201/index.md)
-- [tutorial 2](tutorial%202/index.md)
-- [tutorial 3](tutorial%203/index.md)
-- [tutorial 6](tutorial%206/index.md)
-- [tutorial 7](tutorial%207/index.md)
+- [week 11 tutorial 1](week%2011%20tutorial%201/index.md)
+- [week 2 tutorial 1](week%202%20tutorial%201/index.md)
+- [week 4 tutorial 1](week%204%20tutorial%201/index.md)
+- [week 5 tutorial 1](week%205%20tutorial%201/index.md)
+- [week 9 tutorial 1](week%209%20tutorial%201/index.md)

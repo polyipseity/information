@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 """Create a PageRank-ordered zip bundle of knowledge-base notes.
 
 Walks the Markdown link graph, computes PageRank to rank files by

@@ -79,7 +79,7 @@ The content is in teaching order.
         - upper quartile: 20
         - high: 20
 
-## week 1 lecture
+## week 1 lecture 1
 
 - datetime: 2024-09-02T10:30:00+08:00/2024-09-02T11:50:00+08:00
 - course logistics
@@ -175,7 +175,7 @@ The content is in teaching order.
         - box plot / outliers ::@:: They $x$ are points that are $x \le Q_1 - 1.5 \cdot \text{IQR}$ or $x \ge Q_3 + 1.5 \cdot \text{IQR}$. Usually they are far away from the majority of the data and are _likely_ produced by measurement errors. Assuming a normal distribution, outliers are expected to appear rarely (~0.007). <!--SR:!2028-10-31,1123,310!2030-08-25,1580,310-->
         - box plot / _R_ ::@:: use `boxplot(...)` <!--SR:!2028-06-30,1083,350!2029-03-31,1297,350-->
 
-## week 1 tutorial
+## week 1 tutorial 1
 
 - datetime: 2024-09-06T09:30:00+08:00/2024-09-06T10:20:00+08:00
 - status: unscheduled
@@ -238,11 +238,11 @@ The content is in teaching order.
     - set theory / distributive laws ::@:: $$\begin{aligned} A \cup (B \cap C) & = (A \cup B) \cap (A \cup C) \\ A \cap (B \cup C) & = (A \cap B) \cup (A \cap C) \end{aligned}$$ <!--SR:!2032-12-07,2397,401!2033-01-12,2417,401-->
     - set theory / De Morgan's laws ::@:: $$\begin{aligned} (A \cup B)^\complement & = A^\complement \cap B^\complement \\ (A \cap B)^\complement & = A^\complement \cup B^\complement \\ \left(\bigcup_{k = 1}^n A_k \right)^\complement & = \bigcap_{k = 1}^n A_k^\complement \\ \left(\bigcap_{k = 1}^n A_k \right)^\complement & = \bigcup_{k = 1}^n A_k^\complement \end{aligned}$$ <!--SR:!2032-02-07,2145,398!2032-07-27,2282,401-->
 
-## week 2 tutorial
+## week 2 tutorial 1
 
 - datetime: 2024-09-13T09:30:00+08:00/2024-09-13T10:20:00+08:00
 
-## week 3 lecture
+## week 3 lecture 1
 
 - datetime: 2024-09-16T10:30:00+08:00/2024-09-16T11:50:00+08:00
 - assignments: [assignment 1](assignments/assignent%201/index.md)
@@ -265,11 +265,11 @@ The content is in teaching order.
 - datetime: 2024-09-18T10:30:00+08:00/2024-09-18T11:50:00+08:00
 - status: unscheduled, public holiday: Day after Mid-Autumn Festival
 
-## week 3 tutorial
+## week 3 tutorial 1
 
 - datetime: 2024-09-20T09:30:00+08:00/2024-09-20T10:20:00+08:00
 
-## week 4 lecture
+## week 4 lecture 1
 
 - datetime: 2024-09-23T10:30:00+08:00/2024-09-23T11:50:00+08:00
 - content: Probably taught _R_ only...
@@ -288,11 +288,11 @@ The content is in teaching order.
 - [combination](../../../../general/combination.md) ::@:: The number of ways to select _k_ things from _n_ things, where the order of selection does not matter, is $$C(n, k) = \binom n k = \frac {n!} {(n - k)! k!} = \frac {P(n, k)} {k!} \,.$$ <!--SR:!2030-08-07,1664,381!2032-09-29,2340,401-->
     - combination / partition ::@:: The number of ways to partition _n_ things into _r_ labelled partitions, where _k_<sub>_i_</sub> is the number of things in the _i_-th partition, is: $${n\choose k_1,k_2,\ldots,k_r} =\frac{n!}{k_1!k_2!\cdots k_r!} \,.$$ When there are only two partitions, this is the same as above, the number of ways to select _k_ things from _n_ things. <!--SR:!2032-07-07,2262,401!2032-07-28,2283,401-->
 
-## week 4 tutorial
+## week 4 tutorial 1
 
 - datetime: 2024-09-27T09:30:00+08:00/2024-09-27T10:20:00+08:00
 
-## week 5 lecture
+## week 5 lecture 1
 
 - datetime: 2024-09-30T10:30:00+08:00/2024-09-30T11:50:00+08:00
 - [conditional probability](../../../../general/conditional%20probability.md) ::@:: The __conditional probability__ of an event _A_ given that an event _B_, where _P_(_B_) > 0, has happened is: $$P(A \mid B) = \frac {P(A \cap B)} {P(B)} \,.$$ A property: $P(A \mid B) \ge P(A \cap B)$. <!--SR:!2032-08-22,2308,401!2032-02-13,2149,398-->
@@ -337,11 +337,11 @@ The content is in teaching order.
     - variance / discrete random variable ::@:: The variance of a discrete random variable is $$\operatorname{Var}(X) = \sum_{x \in \mathcal X} \left((x - \mu)^2 p(x) \right) \,.$$ This is only defined if the above sum and $\mu$ exists, so it is possible for a discrete random variable to have undefined variance. <!--SR:!2032-02-11,2148,398!2030-02-18,1527,378-->
     - variance / properties ::@:: A well-known identity relating variance to expected value is $$\operatorname{Var}(X) = \operatorname E\left[X^2\right] - (\operatorname E[X])^2 = \operatorname E\left[X^2\right] - \mu^2 \,.$$ With this identity, the following properties can be proved: $$\begin{aligned} \operatorname{Var}(b) & = 0 \\ \operatorname{Var}(aX) & = a^2 \operatorname{Var}(X) \\ \operatorname{Var}(aX + b) & = a^2 \operatorname{Var}(X) \\ \operatorname{Var}(aX \pm bY) & = a^2 \operatorname{Var}(X) + b^2 \operatorname{Var}(Y) && \text{important, only uses }+ \,, \end{aligned}$$ where _a_, _b_ are constants and _X_, _Y_ are random variables _independent_ from each other, i.e. $P(X \le x, Y \le y) = P(X \le x) P(Y \le y)$. \(Note: There are random variables that are not _independent_ but the above still holds. Such variables are said to be _uncorrelated_.\) <!--SR:!2030-03-01,1555,381!2032-09-24,2336,401-->
 
-## week 5 tutorial
+## week 5 tutorial 1
 
 - datetime: 2024-10-04T09:30:00+08:00/2024-10-04T10:20:00+08:00
 
-## week 6 lecture
+## week 6 lecture 1
 
 - datetime: 2024-10-07T10:30:00+08:00/2024-10-07T11:50:00+08:00
 - cumulative distribution function (CDF, cdf)
@@ -395,12 +395,12 @@ The content is in teaching order.
     - normal distribution / standardization ::@:: Any normal distribution can be __standardized__ by defining the random variable $$Z = \frac {X - \mu} {\sigma} \qquad X = \sigma Z + \mu \,.$$ Further, $$z = \frac {x - \mu} \sigma$$ is also known as the __standard score__ of the data _x_.  <p> After standardization, a standard normal table that provides $\Phi(z)$ for different values of _z_ may be used to evaluate the CDF of any normal distribution. (The table may not show negative values of _z_. In that case, you need to use the property of its CDF above.) <!--SR:!2033-01-04,2409,401!2032-04-30,2216,401-->
     - normal distribution / _R_: evaluate CDF ::@:: `pnorm(<value>[, mean=<mean>][, sd=<standard deviation>])` <!--SR:!2028-06-20,1050,368!2029-03-12,1246,368-->
 
-## week 6 tutorial
+## week 6 tutorial 1
 
 - datetime: 2024-10-11T09:30:00+08:00/2024-10-11T10:20:00+08:00
 - status: unscheduled, public holiday: Chung Yeung Festival
 
-## week 7 lecture
+## week 7 lecture 1
 
 - datetime: 2024-10-14T10:30:00+08:00/2024-10-14T11:50:00+08:00
 - [moment](../../../../general/moment%20(mathematics).md) ::@:: The ___k_-th (population) moment__ (also called __raw moment__), which is about _the origin_ (not about _the mean_), of a random variable _X_ is defined by $$\operatorname E\left[X^k \right] \qquad k \in \mathbb N_{\ge 1} \,,$$ if _it exists_. (When _k_ = 0 (the "zeroth" moment), this always equal to 1, so we ignore it here.) <p> A _k_-th moment exists if $\operatorname E\left[\left\lvert X^k \right\rvert\right] < \infty$ (Lebesgue integrable). If the _n_-th moment exists _about any point_, so does the $(n - 1)$-th moment (and thus, all lower-order moments) _about every point_. <!--SR:!2029-10-21,1342,368!2031-01-10,1796,388-->
@@ -446,7 +446,7 @@ The content is in teaching order.
 - [interval estimation](../../../../general/interval%20estimation.md) ::@:: It is is the use of sample data to estimate an interval of possible values of a parameter of interest. <!--SR:!2027-05-05,700,415!2027-05-19,714,416-->
     - interval estimation / methods ::@:: (confidence interval) for the population mean, (confidence interval) for the population variance, etc. <!--SR:!2027-05-12,707,416!fsrs,2032-08-16T00:00:00.000Z,2206,2206.21232104,1,2,10,0,0,2026-08-02T00:00:00.000Z-->
 
-## week 7 tutorial
+## week 7 tutorial 1
 
 - datetime: 2024-10-18T09:30:00+08:00/2024-10-18T10:20:00+08:00
 
@@ -481,7 +481,7 @@ The content is in teaching order.
     - datetime: 2024-10-29T10:00:00+08:00/2024-10-29T11:00:00+08:00, PT1H
     - venue: Room 3472 (Lift 25-26), Academic Building
 
-## week 8 lecture
+## week 8 lecture 1
 
 - datetime: 2024-10-21T10:30:00+08:00/2024-10-21T11:50:00+08:00
 - [point estimation](../../../../general/point%20estimation.md)
@@ -533,11 +533,11 @@ The content is in teaching order.
             - Cochran's theorem / special case / intuition / execution ::@:: For example: Consider $$U_{n - 1} := \frac {(n - 1) S_{X, n - 1}^2 } {\sigma_X^2} \sim \chi^2(n - 1) \,.$$ Wrapping it in $\sqrt{n - 1 / U_{n - 1} }$, we get: $$\sqrt{\sigma_X^2 / S_{X, n - 1}^2} \,,$$ which can be used to replace $\sigma_X^2$ in $(\overline X - \mu_X) \sqrt{n / \sigma_X^2} \sim \mathcal N(0, 1)$ to $(\overline X - \mu_X) \sqrt{n / S_{X, n - 1}^2} \sim t(n - 1)$. <p> Another example: Consider $$U_{n - 2} := \frac {(n - 2) s_{\varepsilon, n - 2}^2 } {\sigma_\varepsilon^2} \sim \chi^2(n - 2) \,.$$ Wrapping it in $\sqrt{n - 2 / U_{n - 2} }$, we get: $$\sqrt{\sigma_\varepsilon^2 / S_{\varepsilon, n - 2}^2 } \,,$$ which can be used to replace $\sigma_\varepsilon^2$ in $(\hat \beta_1 - \beta_1) \sqrt{S_{XX} / \sigma_\varepsilon^2} \sim \mathcal N(0, 1)$ to $(\hat \beta_1 - \beta_1) \sqrt{S_{XX} / S_{\varepsilon, n - 2}^2} \sim t(n - 2)$. <!--SR:!2027-08-06,697,357!2028-03-22,863,357-->
     - Cochran's theorem / corollary ::@:: For _n_ samples of a population $X \sim \mathcal N\left(\mu_X, \sigma_X^2\right)$ and its _corresponding_ normalized population $Z \sim \mathcal N(0, 1)$, we have $$\begin{aligned} \overline Z \sqrt {n / S_{Z, n - 1}^2} & \sim t(n - 1) \\ (\overline X - \mu_X) \sqrt{n / S_{X, n - 1}^2} & \sim t(n - 1) \,. \end{aligned}$$ (Notice how similar this is to $(\overline X - \mu_X) \sqrt{n / \sigma_X^2} \sim \mathcal N(0, 1)$...) <!--SR:!fsrs,2031-08-01T00:00:00.000Z,1809,1809.37252535,1,2,10,0,0,2026-08-18T00:00:00.000Z!fsrs,2032-12-16T00:00:00.000Z,2294,2294.13440223,1,2,10,0,0,2026-09-05T00:00:00.000Z-->
 
-## week 8 tutorial
+## week 8 tutorial 1
 
 - datetime: 2024-10-25T09:30:00+08:00/2024-10-25T10:20:00+08:00
 
-## week 9 lecture
+## week 9 lecture 1
 
 - datetime: 2024-10-28T10:30:00+08:00/2024-10-28T11:50:00+08:00
 - [confidence interval](../../../../general/confidence%20interval.md)
@@ -564,11 +564,11 @@ The content is in teaching order.
     - central limit theorem / classical CLT (optional) ::@:: (optional) If $\overline {X_n}$ is the _sample mean_ of a random sample (sequence of _i.i.d._ random variables) of size $n$ taken from _any_ population with population mean $\mu_X$ and _finite_ variance $\sigma_X^2 < \infty$, then as $n \to \infty$, the random variable $\overline {X_n}$ _converges in distribution_ to $\mathcal N\left(\mu_X, \sigma_X^2 / n\right)$. The latter can be rewritten as $\overline {Z_n} = (\overline {X_n} - \mu_X) \sqrt{n / \sigma_X^2}$ _converges in distribution_ to $\mathcal N(0, 1)$. <!--SR:!2027-02-05,600,357!2029-09-11,1388,397-->
     - central limit theorem / implications (optional) ::@:: (optional) Many real-life quantities are normal since they are often the balanced sum of many unobserved random events. This fact is frequently used in _statistical inference_. <!--SR:!fsrs,2032-11-24T00:00:00.000Z,2282,2282.17391221,1,2,10,0,0,2026-08-26T00:00:00.000Z!2030-10-04,1700,397-->
 
-## week 9 tutorial
+## week 9 tutorial 1
 
 - datetime: 2024-11-01T09:30:00+08:00/2024-11-01T10:20:00+08:00
 
-## week 10 lecture
+## week 10 lecture 1
 
 - datetime: 2024-11-04T10:30:00+08:00/2024-11-04T11:50:00+08:00
 - [statistical hypothesis test](../../../../general/statistical%20hypothesis%20test.md) ::@:: It is a method of _statistical inference_ used to decide whether the data sufficiently supports a particular hypothesis. A statistical hypothesis test typically involves a _calculation of a test statistic_. Then a decision is made, either by comparing the test statistic to a _critical value_ or equivalently by _evaluating a p-value_ computed from the test statistic. <!--SR:!2027-05-23,718,417!fsrs,2032-11-08T00:00:00.000Z,2270,2270.20442073,1,2,10,0,0,2026-08-22T00:00:00.000Z-->
@@ -600,11 +600,11 @@ The content is in teaching order.
 - [power](../../../../general/power%20(statistics).md) ::@:: It is a measure of the ability of an experimental design and hypothesis testing setup to detect a particular effect if it is truly present. <p> For hypothesis testing, this is the probability of rejecting $H_0$ given $H_0$ is false. Thus it is calculated as $1 - \beta$. <!--SR:!2032-03-21,2154,417!2027-06-10,736,417-->
     - power / use ::@:: It is often used to assess the _goodness of a test statement_. Two test statements having the same significance level $\alpha$ can be compared using this. <p> To increase the power $1 - \beta$, we can increase $\alpha$, or we can increase the sample size if we do not want to change $\alpha$. <!--SR:!fsrs,2032-11-03T00:00:00.000Z,2266,2266.2125374,1,2,10,0,0,2026-08-21T00:00:00.000Z!2027-05-18,713,417-->
 
-## week 10 tutorial
+## week 10 tutorial 1
 
 - datetime: 2024-11-08T09:30:00+08:00/2024-11-08T10:20:00+08:00
 
-## week 11 lecture
+## week 11 lecture 1
 
 - datetime: 2024-11-11T10:30:00+08:00/2024-11-11T11:50:00+08:00
 - [statistical hypothesis test](../../../../general/statistical%20hypothesis%20test.md)
@@ -623,11 +623,11 @@ The content is in teaching order.
         - statistical hypothesis test / normal distribution / for variance when mean is known ::@:: Assume $X \sim \mathcal N\left(\mu_X, \sigma_0^2\right)$. We use $$U_n := \sum_{i = 1}^n \left(\frac {X_i - \mu_X} {\sigma_0} \right)^2 \sim \mathcal \chi^2(n) \,.$$ Then we have $$\begin{aligned} p_l & = \Pr\left(U_n < \frac {\sum_{i = 1}^n (x_i - \mu_X)^2} {\sigma_0^2} \right) && \text{one-sided left} \\ p_r & = \Pr\left(U_n > \frac {\sum_{i = 1}^n (x_i - \mu_X)^2} {\sigma_0^2} \right) && \text{one-sided right} \\ p_{lr} & = 2 \min \set{p_l, p_r} && \text{one-sided two-sided} \,. \end{aligned}$$ <p> If using critical value, compare $\frac {\sum_{i = 1}^n (x_i - \mu_X)^2} {\sigma_0^2}$ against $\chi^2_{n, \alpha}$, $\chi^2_{n, 1 - \alpha}$, $\chi^2_{n, \alpha / 2}$, or $\chi^2_{n, 1 - \alpha / 2}$ (note: not symmetric); and $p := \alpha$. If using _p_-value, $p$ is the _p_-value. Note that when using _p_-value, $p_l + p_r = 1$. <!--SR:!2029-06-21,1216,377!2027-11-27,847,377-->
         - statistical hypothesis test / normal distribution / for variance when mean is unknown ::@:: Assume $X \sim \mathcal N\left(\mu_X, \sigma_0^2\right)$. We use $$U_{n - 1} := \sum_{i = 1}^n \left(\frac {X_i - \overline X} {\sigma_0} \right)^2 \sim \mathcal \chi^2(n - 1) \,.$$ Then we have $$\begin{aligned} p_l & = \Pr\left(U_{n - 1} < \frac {(n - 1) s_{X, n - 1}^2 } {\sigma_0^2} \right) && \text{one-sided left} \\ p_r & = \Pr\left(U_{n - 1} > \frac {(n - 1) s_{X, n - 1}^2 } {\sigma_0^2} \right) && \text{one-sided right} \\ p_{lr} & = 2 \min\set{p_l, p_r} && \text{one-sided two-sided} \,. \end{aligned}$$ <p> If using critical value, compare $\frac {(n - 1) s_{X, n - 1}^2} {\sigma_0^2}$ against $\chi^2_{n - 1, \alpha}$, $\chi^2_{n - 1, 1 - \alpha}$, $\chi^2_{n - 1, \alpha / 2}$, or $\chi^2_{n - 1, 1 - \alpha / 2}$ (note: not symmetric); and $p := \alpha$. If using _p_-value, $p$ is the _p_-value. Note that when using _p_-value, $p_l + p_r = 1$. <p> Note that we have simply replaced $U_n$ with $U_{n - 1}$ and $\mu_X$ with $\overline X$. <!--SR:!2028-04-09,876,337!fsrs,2031-07-04T00:00:00.000Z,1787,1787.24708749,1,2,10,0,0,2026-08-12T00:00:00.000Z-->
 
-## week 11 tutorial
+## week 11 tutorial 1
 
 - datetime: 2024-11-15T09:30:00+08:00/2024-11-15T10:20:00+08:00
 
-## week 12 lecture
+## week 12 lecture 1
 
 - datetime: 2024-11-18T10:30:00+08:00/2024-11-18T11:50:00+08:00
 - [regression analysis](../../../../general/regression%20analysis.md) ::@:: It is a very useful statistical model used to capture _relationship_ between related variables of our interest. <!--SR:!2027-03-26,663,417!2027-03-30,666,417-->
@@ -671,11 +671,11 @@ The content is in teaching order.
     - coefficient of determination / _R_ ::@:: `summary(<model>)`, where `<model>` can be obtained by `lm(<y>~<x>[, data=<dataframe>])`. "Multiple R-squared" gives the result. <!--SR:!fsrs,2032-12-31T00:00:00.000Z,2306,2306.08614433,1,2,10,0,0,2026-09-08T00:00:00.000Z!fsrs,2032-04-11T00:00:00.000Z,2106,2105.68415047,1,2,10,0,0,2026-07-06T00:00:00.000Z-->
     - coefficient of determination / Pearson correlation coefficient ::@:: In a [linear least squares regression with _a single explanator_](../../../../general/simple%20linear%20regression.md) \(with _fitted intercept and slope_\), this is also equal to $\rho ^{2}(y,x)$ the squared Pearson correlation coefficient between the dependent variable $y$ and explanatory variable $x$. <!--SR:!2031-06-25,1884,397!fsrs,2032-12-21T00:00:00.000Z,2298,2298.11932636,1,2,10,0,0,2026-09-06T00:00:00.000Z-->
 
-## week 12 tutorial
+## week 12 tutorial 1
 
 - datetime: 2024-11-22T09:30:00+08:00/2024-11-22T10:20:00+08:00
 
-## week 13 lecture
+## week 13 lecture 1
 
 - datetime: 2024-11-25T10:30:00+08:00/2024-11-25T11:50:00+08:00
 - [simple linear regression](../../../../general/simple%20linear%20regression.md)
@@ -708,7 +708,7 @@ The content is in teaching order.
         - simple linear estimator / prediction / interval ::@:: $$y_{\mathrm{new} } \pm t_{n - 2, \alpha / 2} \sqrt{s_{\varepsilon, n - 2}^2 \left(1 + \frac 1 n + \frac {(x_{\mathrm{new} } - \overline x)^2} {S_{XX} } \right)}$$ <!--SR:!fsrs,2028-08-09T00:00:00.000Z,733,733.47112633,4.47824087,2,9,0,0,2026-08-07T00:00:00.000Z!2031-07-11,1900,397-->
     - simple linear estimator / _R_: prediction ::@:: For a point estimate, use `predict(<model>, data.frame(x=<new x>))`. For an interval estimate, use `predict(<model>, data.frame(x=<new x>), interval="prediction", level=<confidence level>)`. <!--SR:!2030-10-08,1703,397!2029-01-18,1166,377-->
 
-## week 13 tutorial
+## week 13 tutorial 1
 
 - datetime: 2024-11-29T09:30:00+08:00/2024-11-29T10:20:00+08:00
 

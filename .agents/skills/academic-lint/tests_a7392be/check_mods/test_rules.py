@@ -25,14 +25,19 @@ from main_mods.rules import (
     cloze_no_nested,
     cloze_open_close_matching,
     cloze_single_line,
+    cloze_solution_outside_question,
     cloze_wrong_closing_token,
     cloze_wrong_token,
+    content_sentence_too_long,
     find_math_spans,
     flashcard_tag_unique,
     folder_link_trailing_slash,
+    header_deep_nesting,
     header_flashcard_presence,
     header_flashcard_sections_duplicate,
     header_flashcard_separator,
+    header_flashcard_style_mixed,
+    header_source_layout,
     header_style,
     html_br_mid_line,
     index_canvas_metadata_iso_datetime,
@@ -42,6 +47,7 @@ from main_mods.rules import (
     index_children_missing,
     index_children_missing_index,
     index_children_order,
+    index_courses_missing,
     index_heading,
     index_non_suppression_html_comments,
     index_semester_order,
@@ -53,6 +59,8 @@ from main_mods.rules import (
     latex_spacing_after,
     latex_spacing_before,
     link_anchor_slug,
+    link_malformed,
+    link_unencoded_space,
     md028_bad_format,
     md028_missing,
     metadata_aliases_present,
@@ -76,6 +84,8 @@ from main_mods.rules import (
     session_duplicate_heading,
     session_heading_format,
     session_missing_topic,
+    session_optional_status,
+    session_semester_match,
     session_unscheduled_with_topic,
     tag_index_function,
     tag_language,
@@ -83,11 +93,16 @@ from main_mods.rules import (
     topic_note_redundant_filename_prefix,
     two_sided_calc_warning,
     unit_outside_math,
+    week_monotonic,
 )
 from main_mods.utils import (
     FRONT_RE,
     html_cpt,
+    is_recurrent_index,
+    iter_inline_links,
+    iter_malformed_links,
     parse_frontmatter,
+    parse_list_link,
     parse_session_headers,
 )
 from main_mods.validator import _MD, check_markdown_file
@@ -230,6 +245,19 @@ def test_index_rules():
     assert msgs and "chronological" in msgs[0].msg
 
 
+def test_index_semester_order_places_winter_after_fall():
+    """Within one semester year the terms run spring, summer, fall, winter."""
+    ordered = (
+        "# index\n\n### 2024 spring\n### 2024 summer\n### 2024 fall\n"
+        "### 2024 winter\n### 2025 spring\n"
+    )
+    assert not index_semester_order(make_ctx(ordered, path=Path("/tmp/index.md")))
+
+    reversed_year = "# index\n\n### 2023 winter\n### 2023 fall\n"
+    msgs = index_semester_order(make_ctx(reversed_year, path=Path("/tmp/index.md")))
+    assert msgs and "chronological" in msgs[0].msg
+
+
 def test_index_canvas_metadata_iso_datetime_rule():
     """Canvas-derived leaf indexes should store time metadata in ISO form."""
 
@@ -365,6 +393,333 @@ async def test_index_children_format_and_order_rules(tmp_path):
     ctx = make_ctx(txt, path=index_path)
     msgs = await index_children_order(ctx)
     assert msgs and "alphabetical" in msgs[0].msg
+
+
+@pytest.mark.anyio
+async def test_children_rules_accept_parenthesised_paths(tmp_path: PathLike[str]):
+    """A children link may point at a path containing parentheses.
+
+    Regression test: the destination pattern used to be ``[^\\)]+``, which
+    stopped at the first ``)``.  Every children rule therefore skipped such a
+    line, so a note named ``cache (computing).md`` was neither validated,
+    ordered, nor checked for existence.
+    """
+    root = Path(tmp_path)
+    await (root / "cache (computing).md").touch()
+    await (root / "cache coherence.md").touch()
+    index_path = Path(root / "index.md")
+
+    txt = (
+        "# index\n\n## children\n"
+        "- [cache (computing)](cache%20(computing).md)\n"
+        "- [cache coherence](cache%20coherence.md)\n"
+    )
+    ctx = make_ctx(txt, path=index_path)
+    assert not index_children_format(ctx)
+    assert not await index_children_order(ctx)
+    assert not await index_children_missing(ctx)
+
+    # Nested balanced parentheses are handled as well.
+    await (root / "a(b(c)).md").touch()
+    ctx = make_ctx("# index\n\n## children\n- [deep](a(b(c)).md)\n", path=index_path)
+    assert not index_children_format(ctx)
+    assert not await index_children_missing(ctx)
+
+    # The percent-encoded spelling of the same path is equivalent.
+    ctx = make_ctx(
+        "# index\n\n## children\n- [cache (computing)](cache%20%28computing%29.md)\n",
+        path=index_path,
+    )
+    assert not index_children_format(ctx)
+
+
+@pytest.mark.anyio
+async def test_children_rules_apply_to_parenthesised_entries(tmp_path: PathLike[str]):
+    """Parenthesised entries are ordered and existence-checked, not skipped."""
+    root = Path(tmp_path)
+    await (root / "b.md").touch()
+    await (root / "cache (computing).md").touch()
+    index_path = Path(root / "index.md")
+
+    # Out of alphabetical order: 'cache (computing).md' sorts after 'b.md'.
+    txt = (
+        "# index\n\n## children\n"
+        "- [cache (computing)](cache%20(computing).md)\n"
+        "- [b](b.md)\n"
+    )
+    ctx = make_ctx(txt, path=index_path)
+    msgs = await index_children_order(ctx)
+    assert msgs and "alphabetical" in msgs[0].msg
+
+    # A missing parenthesised target is reported rather than ignored.
+    txt = "# index\n\n## children\n- [gone](gone%20(away).md)\n"
+    ctx = make_ctx(txt, path=index_path)
+    msgs = await index_children_missing(ctx)
+    assert msgs and "gone" in msgs[0].msg
+    assert msgs[0].severity == Severity.WARNING
+
+
+@pytest.mark.anyio
+async def test_children_format_rejects_unbalanced_or_trailing_content(
+    tmp_path: PathLike[str],
+):
+    """Malformed destinations still fail the format rule."""
+    root = Path(tmp_path)
+    await (root / "a.md").touch()
+    index_path = Path(root / "index.md")
+
+    ctx = make_ctx("# index\n\n## children\n- [a](a(b.md)\n", path=index_path)
+    assert index_children_format(ctx)
+
+    ctx = make_ctx("# index\n\n## children\n- [a](a.md) trailing\n", path=index_path)
+    assert index_children_format(ctx)
+
+
+@pytest.mark.anyio
+async def test_folder_link_trailing_slash_sees_parenthesised_paths(
+    tmp_path: PathLike[str],
+):
+    """Folder links are checked even when the destination has parentheses."""
+    root = Path(tmp_path)
+    await (root / "my folder (draft)").mkdir()
+    index_path = Path(root / "index.md")
+
+    txt = "# index\n\n## children\n- [my folder (draft)](my%20folder%20(draft))\n"
+    ctx = make_ctx(txt, path=index_path)
+    msgs = await folder_link_trailing_slash(ctx)
+    assert msgs and "trailing slash" in msgs[0].msg
+
+    txt = "# index\n\n## children\n- [my folder (draft)/](my%20folder%20(draft)/)\n"
+    ctx = make_ctx(txt, path=index_path)
+    assert not await folder_link_trailing_slash(ctx)
+
+
+def test_link_unencoded_space_sees_parenthesised_paths():
+    """A raw space inside a parenthesised destination is still reported."""
+    ctx = make_ctx("See [cache (computing)](cache (computing).md) for details.\n")
+    msgs = link_unencoded_space(ctx)
+    assert msgs and msgs[0].rule_id == "link_unencoded_space"
+
+    ctx = make_ctx("See [cache (computing)](cache%20(computing).md) for details.\n")
+    assert not link_unencoded_space(ctx)
+
+
+@pytest.mark.anyio
+async def test_link_anchor_slug_sees_parenthesised_paths(tmp_path: PathLike[str]):
+    """A dash-slug anchor on a parenthesised destination is still reported."""
+    root = Path(tmp_path)
+    await (root / "cache (computing).md").write_text(
+        "# cache (computing)\n\n## direct mapped\n\nText.\n"
+    )
+    source = root / "index.md"
+    ctx = make_ctx(
+        "See [cache (computing)](cache%20(computing).md#direct-mapped) here.\n",
+        path=source,
+    )
+    msgs = await link_anchor_slug(ctx)
+    assert msgs and msgs[0].rule_id == "link_anchor_slug"
+
+    ctx = make_ctx(
+        "See [cache (computing)](cache%20(computing).md#direct%20mapped) here.\n",
+        path=source,
+    )
+    assert not await link_anchor_slug(ctx)
+
+
+@pytest.mark.anyio
+async def test_link_anchor_slug_validates_cross_file_headings(
+    tmp_path: PathLike[str],
+):
+    """A cross-file dash-slug is only reported when the target lacks the anchor."""
+    root = Path(tmp_path)
+    await (root / "topic.md").write_text(
+        "# topic\n\n## self-plagiarism\n\nText.\n\n## direct mapped\n\nText.\n"
+    )
+    source = root / "index.md"
+
+    # A heading that really contains a dash stays linkable.
+    hyphenated = make_ctx(
+        "- [self-plagiarism](topic.md#self-plagiarism)\n", path=source
+    )
+    assert not await link_anchor_slug(hyphenated)
+
+    # A dash-slugified heading is still reported when the target is readable.
+    slugified = make_ctx("See [cache](topic.md#direct-mapped) here.\n", path=source)
+    msgs = await link_anchor_slug(slugified)
+    assert msgs and msgs[0].rule_id == "link_anchor_slug"
+
+    # The encoded form of the same anchor is accepted.
+    encoded = make_ctx("See [cache](topic.md#direct%20mapped) here.\n", path=source)
+    assert not await link_anchor_slug(encoded)
+
+    # A folder link resolves to its index.md.
+    await (root / "sub").mkdir()
+    await (root / "sub" / "index.md").write_text(
+        "# index\n\n## half-open interval\n\nText.\n"
+    )
+    folder_link = make_ctx("- [interval](sub/#half-open%20interval)\n", path=source)
+    assert not await link_anchor_slug(folder_link)
+
+
+@pytest.mark.anyio
+async def test_link_anchor_slug_reports_missing_cross_file_anchor(
+    tmp_path: PathLike[str],
+):
+    """A %20 fragment naming no heading of a readable target is reported."""
+    root = Path(tmp_path)
+    await (root / "topic.md").write_text("# topic\n\n## direct mapped\n\nText.\n")
+    source = root / "index.md"
+
+    missing = make_ctx("See [cache](topic.md#fully%20associative) here.\n", path=source)
+    msgs = await link_anchor_slug(missing)
+    assert msgs and msgs[0].rule_id == "link_anchor_slug"
+    assert "fully%20associative" in msgs[0].msg
+    assert "topic.md" in msgs[0].msg
+
+    # An anchor written with the heading's own case still names that heading.
+    cased = make_ctx("See [cache](topic.md#Direct%20Mapped) here.\n", path=source)
+    assert not await link_anchor_slug(cased)
+
+    # An unresolvable target cannot be checked, so the fragment is reported.
+    unreadable = make_ctx(
+        "See [cache](absent.md#fully%20associative) here.\n", path=source
+    )
+    msgs = await link_anchor_slug(unreadable)
+    assert msgs and "absent.md" in msgs[0].msg
+
+
+@pytest.mark.anyio
+async def test_link_anchor_slug_normalizes_escapes_and_comments(
+    tmp_path: PathLike[str],
+):
+    """An escaped character and a heading's suppression comment keep it linkable."""
+    root = Path(tmp_path)
+    await (root / "topic.md").write_text(
+        "# topic\n\n## physicist's job <!-- check: ignore-line[header_style] -->\n\n"
+        "## Foo: bar\n\nText.\n"
+    )
+    source = root / "index.md"
+
+    escaped = make_ctx("See [job](topic.md#physicist%27s%20job) here.\n", path=source)
+    assert not await link_anchor_slug(escaped)
+
+    colonless = make_ctx("See [foo](topic.md#foo%20bar) here.\n", path=source)
+    assert not await link_anchor_slug(colonless)
+
+
+def test_iter_inline_links_handles_balanced_parentheses():
+    """The scanner reads a destination up to its matching parenthesis."""
+    text = "a [one (two)](one%20(two).md) b [three](three.md)"
+    links = list(iter_inline_links(text))
+    assert [link.destination for link in links] == [
+        "one%20(two).md",
+        "three.md",
+    ]
+    assert [link.text for link in links] == ["one (two)", "three"]
+
+
+def test_iter_inline_links_stops_at_line_break():
+    """A truncated link must not swallow the rest of the file.
+
+    Regression test: `COMP 2711H/index.md` contains a link whose closing
+    parenthesis is missing.  The depth counter used to keep scanning until
+    parentheses balanced much later in the file, producing a multi-line
+    destination that made `folder_link_trailing_slash` raise
+    ``OSError: [Errno 63] File name too long``.
+    """
+    text = (
+        "    - [rules of inference](../rules%20of%20inference.md_\n"
+        "        - rules of inference / conjunction ::@:: $q \\land p$\n"
+        "    - [proof format](proof%20format.md)\n"
+    )
+    links = list(iter_inline_links(text))
+    assert [link.destination for link in links] == ["proof%20format.md"]
+
+
+@pytest.mark.anyio
+async def test_folder_link_trailing_slash_survives_truncated_link(
+    tmp_path: PathLike[str],
+):
+    """A malformed multi-line link must not crash the folder rule."""
+    root = Path(tmp_path)
+    await (root / "sub").mkdir()
+    index_path = Path(root / "index.md")
+
+    txt = (
+        "    - [sub](sub_\n"
+        "        - filler (with a parenthesis and more filler text here\n"
+        "    - [sub](sub)\n"
+    )
+    ctx = make_ctx(txt, path=index_path)
+    msgs = await folder_link_trailing_slash(ctx)
+    assert msgs and "trailing slash" in msgs[0].msg
+
+
+def test_iter_malformed_links_reports_truncated_destination():
+    """A link whose destination hits a line break is reported as malformed."""
+    text = (
+        "    - [rules of inference](../rules%20of%20inference.md_\n    - [ok](ok.md)\n"
+    )
+    malformed = list(iter_malformed_links(text))
+    assert len(malformed) == 1
+    assert text[malformed[0].start : malformed[0].start + 2] == "[r"
+    assert text[malformed[0].end] == "\n"
+
+    # a well-formed link (with balanced parentheses) is not reported
+    well_formed = "- [cache (computing)](cache%20(computing).md)\n"
+    assert not list(iter_malformed_links(well_formed))
+
+    # an unterminated destination at end of text is reported once
+    truncated = "- [a](a.md"
+    malformed = list(iter_malformed_links(truncated))
+    assert len(malformed) == 1
+    assert malformed[0].end == len(truncated)
+
+    # brackets without a destination are not links at all
+    assert not list(iter_malformed_links("- [label] text\n"))
+
+
+def test_link_malformed_detects_and_skips_non_links():
+    """The rule flags truncated links but ignores math, fences, and code spans."""
+    txt = "- [rules of inference](../rules%20of%20inference.md_\n- [ok](ok.md)\n"
+    msgs = link_malformed(make_ctx(txt))
+    assert len(msgs) == 1
+    assert msgs[0].rule_id == "link_malformed"
+    assert msgs[0].severity == Severity.ERROR
+    assert msgs[0].line == 1
+    assert "missing closing parenthesis" in msgs[0].msg
+
+    # valid links, including balanced parentheses, are clean
+    assert not link_malformed(
+        make_ctx("- [a](a.md)\n- [cache (computing)](cache%20(computing).md)\n")
+    )
+
+    # math that contains `](` is not a link
+    math = "$$ \\right]&\\equiv [x^{m}](x^{\\lceil m/2\\rceil} x) $$\n"
+    assert not link_malformed(make_ctx(math))
+
+    # fenced code and inline code are not links either
+    assert not link_malformed(make_ctx("```\n[broken](broken.md_\n```\n"))
+    assert not link_malformed(make_ctx("use `[broken](broken.md_` in prose\n"))
+
+    # frontmatter is never scanned
+    assert not link_malformed(
+        make_ctx("---\naliases: [x](y\n---\n# index\n\n- [a](a.md)\n")
+    )
+
+
+def test_parse_list_link_shapes():
+    """Only a bare single-link bullet is recognised."""
+    link = parse_list_link("- [cache (computing)](cache%20(computing).md)  ")
+    assert link is not None
+    assert link.text == "cache (computing)"
+    assert link.destination == "cache%20(computing).md"
+
+    assert parse_list_link("* [a](a.md)") is not None
+    assert parse_list_link("- plain text") is None
+    assert parse_list_link("- [a](a.md) trailing") is None
+    assert parse_list_link("- [a](a(b.md") is None
+    assert parse_list_link("- [](a.md)") is None
 
 
 @pytest.mark.anyio
@@ -518,6 +873,29 @@ def test_header_flashcard_rules_exempt_agents():
     ctx = make_ctx(txt, path=Path("/tmp/course/COMP 4211/AGENTS.md"))
     assert not header_flashcard_presence(ctx)
     assert not header_flashcard_separator(ctx)
+
+
+def test_header_flashcard_presence_exempts_level_two_references():
+    """A level-2 references heading cites sources instead of stating cards."""
+
+    txt = (
+        "# Topic\n\nTerm ::@:: Definition\n\n"
+        "## references\n\n- Author, A. (2026). Title. Publisher.\n"
+    )
+    ctx = make_ctx(txt, path=Path("/tmp/course/topic.md"))
+    assert not header_flashcard_presence(ctx)
+
+    # Only the level-2 heading is exempt; a deeper references heading still needs cards.
+    txt2 = (
+        "# Topic\n\nTerm ::@:: Definition\n\n"
+        "## section\n\nProse.\n\n---\n\nFlashcards for this section are as follows:\n\n"
+        "- card ::@:: answer\n\n"
+        "### references\n\n- Author, A. (2026). Title. Publisher.\n"
+    )
+    ctx2 = make_ctx(txt2, path=Path("/tmp/course/topic.md"))
+    msgs = header_flashcard_presence(ctx2)
+    assert len(msgs) == 1
+    assert "references" in msgs[0].msg
 
 
 def test_header_flashcard_sections_duplicate_rule():
@@ -872,24 +1250,25 @@ async def test_misplaced_suppression_comment_integration(tmp_path: PathLike[str]
 def test_session_rules():
     """Session-related rules around duplicates and datetime ordering."""
 
-    txt = "## week 1 lecture\n## week 1 lecture\n"
+    txt = "## week 1 lecture 1\n## week 1 lecture 1\n"
     ctx = make_ctx(txt)
     msgs = session_duplicate_heading(ctx)
     assert msgs and "duplicate session heading" in msgs[0].msg
 
-    # "lecture" and "lecture 2" are distinct types (allowed format: week N type [number])
-    txt_distinct = "## week 1 lecture\n- datetime: 2023-01-01\n## week 1 lecture 2\n- datetime: 2023-01-02\n"
+    # "lecture 1" and "lecture 2" are distinct types (allowed format: week N type number)
+    txt_distinct = "## week 1 lecture 1\n- datetime: 2023-01-01\n## week 1 lecture 2\n- datetime: 2023-01-02\n"
     ctx_distinct = make_ctx(txt_distinct)
     assert not session_duplicate_heading(ctx_distinct), (
-        "week 1 lecture and week 1 lecture 2 should not be treated as duplicates"
+        "week 1 lecture 1 and week 1 lecture 2 should not be treated as duplicates"
     )
 
-    # Invalid session heading format is flagged (only week N type [number]; no "no class")
+    # Invalid session heading format is flagged (only week N type number; no "no class")
     for invalid in (
         "## week 3 (Lunar New Year)\n",
         "## week 3\n",
         "## week 5 midterm\n",
         "## week 3 no class\n",
+        "## week 1 lecture\n",
     ):
         ctx_invalid = make_ctx(invalid)
         msgs_fmt = session_heading_format(ctx_invalid)
@@ -897,12 +1276,12 @@ def test_session_rules():
             f"expected session_heading_format error for {invalid!r}"
         )
     assert not session_heading_format(
-        make_ctx("## week 1 lecture\n## week 1 lecture 2\n")
+        make_ctx("## week 1 lecture 1\n## week 1 lecture 2\n")
     )
 
     txt = (
-        "## week 1 lecture\n- datetime: 2023-01-02T10:00\n"
-        "## week 2 lecture\n- datetime: 2023-01-01T09:00\n"
+        "## week 1 lecture 1\n- datetime: 2023-01-02T10:00\n"
+        "## week 2 lecture 1\n- datetime: 2023-01-01T09:00\n"
     )
     ctx = make_ctx(txt)
     msgs = session_datetime_order(ctx)
@@ -913,14 +1292,14 @@ def test_session_topic_rules():
     """Verify the new topic-related rules fire independently."""
 
     # missing-topic when a datetime is present and no status/unscheduled tag
-    txt = "## week 1 lecture\n- datetime: 2023-01-01T10:00\n"
+    txt = "## week 1 lecture 1\n- datetime: 2023-01-01T10:00\n"
     ctx = make_ctx(txt)
     msgs = session_missing_topic(ctx)
     assert msgs and msgs[0].rule_id == "session_missing_topic"
 
     # unscheduled with topic should trigger its own rule
     txt2 = (
-        "## week 1 lecture\n"
+        "## week 1 lecture 1\n"
         "- datetime: 2023-01-01T10:00\n"
         "- status: unscheduled\n"
         "- topic: TBD\n"
@@ -933,15 +1312,168 @@ def test_session_topic_rules():
     assert not session_missing_topic(ctx2)  # because status is unscheduled
     assert not session_unscheduled_with_topic(make_ctx("## w\n- datetime: 2023-01-01"))
 
-    # no-class days omit topic; should not trigger session_missing_topic (heading is week N lecture etc.; status in metadata)
+    # no-class days omit topic; should not trigger session_missing_topic (heading is week N type number etc.; status in metadata)
     for no_class_txt in (
-        "## week 3 lecture\n- datetime: 2026-02-18T16:30:00+08:00/2026-02-18T17:50:00+08:00\n- status: no class\n- venue: LSK Room 1014\n",
-        "## week 3 lecture\n- datetime: 2026-02-18T16:30:00+08:00/2026-02-18T17:50:00+08:00\n- status: public holiday: Lunar New Year\n- venue: LSK Room 1014\n",
+        "## week 3 lecture 1\n- datetime: 2026-02-18T16:30:00+08:00/2026-02-18T17:50:00+08:00\n- status: no class\n- venue: LSK Room 1014\n",
+        "## week 3 lecture 1\n- datetime: 2026-02-18T16:30:00+08:00/2026-02-18T17:50:00+08:00\n- status: public holiday: Lunar New Year\n- venue: LSK Room 1014\n",
     ):
         ctx_nc = make_ctx(no_class_txt)
         assert not session_missing_topic(ctx_nc), (
             "no-class / public holiday sessions may omit topic"
         )
+
+
+def test_parse_session_headers_recurrent():
+    """Session parsing captures the semester prefix of a recurrent heading."""
+
+    headers = parse_session_headers(
+        "- status: recurrent\n\n### 2026 fall week 3 tutorial 2\n"
+    )
+    assert len(headers) == 1, "exactly one recurrent session heading"
+    header = headers[0]
+    assert (header.semester, header.week, header.type) == (
+        "2026 fall",
+        "3",
+        "tutorial 2",
+    )
+    assert header.heading == "### 2026 fall week 3 tutorial 2"
+
+    plain = parse_session_headers("## week 3 lecture 1\n")
+    assert plain[0].semester == "" and plain[0].type == "lecture 1"
+
+    # recurrence is declared in the identity block, above the first section
+    assert is_recurrent_index("- status: recurrent\n\n## 2026 fall\n")
+    assert not is_recurrent_index("## 2024 fall\n\n- status: recurrent\n")
+
+
+def test_session_heading_format_recurrent():
+    """A recurrent course keeps its sessions one level deeper and names the term."""
+
+    header = "- status: recurrent\n\n## 2026 fall\n\n"
+    valid = header + "### 2026 fall week 1 tutorial 1\n- status: optional\n"
+    assert not session_heading_format(make_ctx(valid))
+
+    # wrong level, missing semester, unknown type, missing type, and a missing
+    # ordinal all fail
+    for invalid in (
+        "## 2026 fall week 1 tutorial 1\n",
+        "### week 1 tutorial 1\n",
+        "### 2026 fall week 1 seminar\n",
+        "### 2026 fall week 1\n",
+        "### 2026 fall week 1 tutorial\n",
+    ):
+        msgs = session_heading_format(make_ctx(header + invalid))
+        assert msgs and msgs[0].rule_id == "session_heading_format", (
+            f"expected session_heading_format error for {invalid!r}"
+        )
+
+    # the recurrent shape is rejected when the course is not marked recurrent
+    one_off = "## 2026 fall\n\n### 2026 fall week 1 tutorial 1\n"
+    assert session_heading_format(make_ctx(one_off))
+
+
+def test_session_semester_match():
+    """A recurrent session must sit under a semester header naming its own term."""
+
+    ok = (
+        "- status: recurrent\n\n## 2026 fall\n\n"
+        "### 2026 fall week 1 tutorial 1\n- status: optional\n"
+    )
+    assert not session_semester_match(make_ctx(ok))
+
+    mismatched = (
+        "- status: recurrent\n\n## 2026 fall\n\n"
+        "### 2025 fall week 1 tutorial 1\n- status: optional\n"
+    )
+    msgs = session_semester_match(make_ctx(mismatched))
+    assert msgs and msgs[0].rule_id == "session_semester_match"
+
+    orphan = (
+        "- status: recurrent\n\n### 2026 fall week 1 tutorial 1\n- status: optional\n"
+    )
+    assert session_semester_match(make_ctx(orphan))
+
+    # a one-off course has no semester headers and is never checked
+    assert not session_semester_match(make_ctx("### week 1 tutorial 1\n"))
+
+
+def test_session_optional_status():
+    """Every session of a recurrent course is optional or a gap marker."""
+
+    prefix = "- status: recurrent\n\n## 2026 fall\n\n### 2026 fall week 1 tutorial 1\n"
+    assert not session_optional_status(make_ctx(prefix + "- status: optional\n"))
+    for gap_marker in (
+        "no class",
+        "canceled",
+        "unscheduled",
+        "public holiday: Labour Day",
+    ):
+        assert not session_optional_status(
+            make_ctx(prefix + f"- status: {gap_marker}\n")
+        ), f"gap marker {gap_marker!r} should be accepted"
+
+    for bad in (prefix, prefix + "- status: scheduled\n"):
+        msgs = session_optional_status(make_ctx(bad))
+        assert msgs and msgs[0].rule_id == "session_optional_status", (
+            f"expected session_optional_status error for {bad!r}"
+        )
+
+    # a one-off course may carry any status
+    assert not session_optional_status(
+        make_ctx("## week 1 lecture 1\n- status: scheduled\n")
+    )
+
+
+def test_week_monotonic_recurrent():
+    """A new semester restarts the week count; a dip inside one does not."""
+
+    across = (
+        "- status: recurrent\n\n## 2024 fall\n\n"
+        "### 2024 fall week 10 tutorial 1\n- status: optional\n\n"
+        "## 2025 spring\n\n"
+        "### 2025 spring week 4 tutorial 1\n- status: optional\n"
+    )
+    assert not week_monotonic(make_ctx(across))
+
+    within = (
+        "- status: recurrent\n\n## 2025 spring\n\n"
+        "### 2025 spring week 4 tutorial 1\n- status: optional\n\n"
+        "### 2025 spring week 3 tutorial 1\n- status: optional\n"
+    )
+    msgs = week_monotonic(make_ctx(within))
+    assert msgs and msgs[0].rule_id == "week_monotonic"
+
+
+def test_session_duplicate_heading_recurrent():
+    """Week numbers may repeat across semesters but not inside one."""
+
+    across = (
+        "- status: recurrent\n\n## 2024 fall\n\n"
+        "### 2024 fall week 1 tutorial 1\n- status: optional\n\n"
+        "## 2025 spring\n\n"
+        "### 2025 spring week 1 tutorial 1\n- status: optional\n"
+    )
+    assert not session_duplicate_heading(make_ctx(across))
+
+    within = (
+        "- status: recurrent\n\n## 2024 fall\n\n"
+        "### 2024 fall week 1 tutorial 1\n- status: optional\n\n"
+        "### 2024 fall week 1 tutorial 1\n- status: optional\n"
+    )
+    msgs = session_duplicate_heading(make_ctx(within))
+    assert msgs and msgs[0].rule_id == "session_duplicate_heading"
+
+
+def test_index_semester_order_recurrent():
+    """A recurrent course orders its level-2 semester headers."""
+
+    path = Path("/tmp/recurrent/index.md")
+    ordered = "- status: recurrent\n\n## 2024 fall\n\n## 2025 spring\n\n## 2026 fall\n"
+    assert not index_semester_order(make_ctx(ordered, path=path))
+
+    reversed_txt = "- status: recurrent\n\n## 2026 fall\n\n## 2024 fall\n"
+    msgs = index_semester_order(make_ctx(reversed_txt, path=path))
+    assert msgs and msgs[0].rule_id == "index_semester_order"
 
 
 def test_unit_outside_math_behavior():
@@ -990,6 +1522,16 @@ def test_numeric_text_not_latex():
     # room codes like 4225C are identifiers, not quantities
     txt_room = "- venue: Room 4225C\n"
     assert not numeric_text_not_latex(make_ctx(txt_room))
+
+    # course codes like COMP 1029V and EMIA 2010A are identifiers too, both
+    # bare and inside a link label
+    for txt_course in (
+        "- [COMP 1029V](COMP%201029V/index.md): Excel VBA Programming\n",
+        "- [EMIA 2010A](EMIA%202010A/index.md): Cross-disciplinary Seminar\n",
+        "- [LANG 1403A](LANG%201403A/index.md): Academic English\n",
+        "The course is COMP 1029V.\n",
+    ):
+        assert not numeric_text_not_latex(make_ctx(txt_course))
 
     # percent-encoded markdown link targets should be ignored
     txt_link = (
@@ -1433,6 +1975,27 @@ def test_cloze_insufficient_coverage_rule():
     )
     assert not cloze_insufficient_coverage(no_tag)
 
+    # A question block mixes visible question text with clozed answer lines, so
+    # its coverage is not measured.
+    question = make_ctx(
+        "---\ntags: [flashcard/active/special/academia/test]\n---\n"
+        "> Would you trust the readings and why or why not?\n"
+        ">\n"
+        "> 1. yes\n"
+        "> 2. no\n"
+        "> - solution: {@{1/2/3}@}\n"
+    )
+    assert not cloze_insufficient_coverage(question)
+    assert not cloze_excessive_coverage(question)
+
+    # The same shape written with `Solution:` and no dash.
+    plain_solution = make_ctx(
+        "---\ntags: [flashcard/active/special/academia/test]\n---\n"
+        "> Find the voltage across $R_2$.\n"
+        "> Solution: {@{the series current}@} is {@{$I = 2.5\\text{ mA}$}@}.\n"
+    )
+    assert not cloze_insufficient_coverage(plain_solution)
+
 
 def test_cloze_excessive_coverage_rule():
     """Cloze coverage should be flagged when above 98%."""
@@ -1479,6 +2042,113 @@ def test_cloze_excessive_coverage_rule():
     # No flashcard tag — rule should not fire
     no_tag = make_ctx("---\ntags: []\n---\nText {@ text@} here.\n")
     assert not cloze_wrong_token(no_tag)
+
+
+def test_cloze_solution_outside_question_rule():
+    """A cloze solution line outside a question block is question-format markup."""
+
+    outside = make_ctx(
+        "---\ntags: [flashcard/active/special/academia/test]\n---\n"
+        "# lecture\n\n## literature search\n\n"
+        "Google Scholar came up first in the answers.\n\n"
+        "- solution: {@{Google Scholar and APA PsycInfo}@}.\n",
+        path=Path("/tmp/course/lecture.md"),
+    )
+    msgs = cloze_solution_outside_question(outside)
+    assert msgs and msgs[0].rule_id == "cloze_solution_outside_question"
+
+    # Inside a question block the same line is the question's answer.
+    inside = make_ctx(
+        "---\ntags: [flashcard/active/special/academia/test]\n---\n"
+        "# lecture\n\n## quiz\n\n"
+        "> Which database indexes the psychology literature?\n"
+        ">\n"
+        "> - solution: {@{APA PsycInfo}@}\n",
+        path=Path("/tmp/course/lecture.md"),
+    )
+    assert not cloze_solution_outside_question(inside)
+
+    # A solution line without a cloze is plain prose.
+    plain = make_ctx(
+        "---\ntags: [flashcard/active/special/academia/test]\n---\n"
+        "# cheatsheet\n\n"
+        "- solution: split query vectors by user feedback\n"
+        "    - solution: personalization (keyword vector)\n",
+        path=Path("/tmp/course/cheatsheet.md"),
+    )
+    assert not cloze_solution_outside_question(plain)
+
+    # Index and question pages are exempt, like the other flashcard rules.
+    for exempt_path in (
+        Path("/tmp/course/index.md"),
+        Path("/tmp/course/questions/2026-09-09.md"),
+    ):
+        exempt = make_ctx(
+            "---\ntags: [flashcard/active/special/academia/test]\n---\n"
+            "- solution: {@{the answer}@}\n",
+            path=exempt_path,
+        )
+        assert not cloze_solution_outside_question(exempt)
+
+
+def test_header_flashcard_style_mixed_rule():
+    """One section must not mix prose cards with question blocks."""
+
+    question = (
+        "> Which database indexes the psychology literature?\n"
+        ">\n"
+        "> - solution: {@{APA PsycInfo}@}\n"
+    )
+    card = "- APA PsycInfo ::@:: The database that indexes the psychology literature.\n"
+    front = "---\ntags: [flashcard/active/special/academia/test]\n---\n"
+
+    mixed = make_ctx(
+        f"{front}# lecture\n\n## exercise\n\n{question}\n{card}",
+        path=Path("/tmp/course/lecture.md"),
+    )
+    msgs = header_flashcard_style_mixed(mixed)
+    assert msgs and msgs[0].rule_id == "header_flashcard_style_mixed"
+
+    # A `Flashcards for this section are as follows:` block is prose too.
+    marked = make_ctx(
+        f"{front}# lecture\n\n## exercise\n\n{question}\n"
+        "---\n\nFlashcards for this section are as follows:\n\n"
+        "- APA PsycInfo ::@:: The database that indexes the psychology literature.\n",
+        path=Path("/tmp/course/lecture.md"),
+    )
+    assert header_flashcard_style_mixed(marked)
+
+    # Question blocks alone are one style.
+    questions_only = make_ctx(
+        f"{front}# lecture\n\n## exercise\n\n{question}",
+        path=Path("/tmp/course/lecture.md"),
+    )
+    assert not header_flashcard_style_mixed(questions_only)
+
+    # Prose cards alone are one style.
+    cards_only = make_ctx(
+        f"{front}# lecture\n\n## exercise\n\n{card}",
+        path=Path("/tmp/course/lecture.md"),
+    )
+    assert not header_flashcard_style_mixed(cards_only)
+
+    # Separate sections may carry different styles.
+    split = make_ctx(
+        f"{front}# lecture\n\n## exercise\n\n{question}\n## summary\n\n{card}",
+        path=Path("/tmp/course/lecture.md"),
+    )
+    assert not header_flashcard_style_mixed(split)
+
+    # Index and question pages are exempt, like the other flashcard rules.
+    for exempt_path in (
+        Path("/tmp/course/index.md"),
+        Path("/tmp/course/questions/2026-09-09.md"),
+    ):
+        exempt = make_ctx(
+            f"{front}# page\n\n## exercise\n\n{question}\n{card}",
+            path=exempt_path,
+        )
+        assert not header_flashcard_style_mixed(exempt)
 
 
 def test_cloze_no_hint_words_rule():
@@ -1668,6 +2338,13 @@ def test_latex_disallowed_delimiters():
     ctx = make_ctx(txt)
     msgs = latex_disallowed_delimiters(ctx)
     assert msgs, r"\[ ... \] should still be flagged"
+
+    # \[redacted\] is the repo redaction token for an announcement signature,
+    # not LaTeX, so it is excluded alongside \[missing\] and \(none\).
+    txt = "> Regards,\n>\n> \\[redacted\\]\n"
+    ctx = make_ctx(txt)
+    msgs = latex_disallowed_delimiters(ctx)
+    assert not msgs, r"\[redacted\] should not trigger the rule"
 
 
 def test_latex_environment_unwrapped():
@@ -2576,58 +3253,106 @@ def test_md028_bad_format_trailing_whitespace():
 # link_anchor_slug tests ----------------------------------------------------------------
 
 
-def test_link_anchor_slug_catches_slug_pattern():
+@pytest.mark.anyio
+async def test_link_anchor_slug_catches_slug_pattern():
     """Cross-file link with slugified fragment → expects violation."""
     txt = "## Route stages and scoring logic\n\n[text](file.md#route-stages-and-scoring-logic)\n"
     ctx = make_ctx(txt)
-    msgs = link_anchor_slug(ctx)
+    msgs = await link_anchor_slug(ctx)
     assert msgs and msgs[0].rule_id == "link_anchor_slug"
 
 
-def test_link_anchor_slug_allows_percent20():
-    """Fragment with %20 → no violation."""
-    txt = "## Route stages and scoring logic\n\n[text](file.md#route%20stages%20and%20scoring%20logic)\n"
-    ctx = make_ctx(txt)
-    assert not link_anchor_slug(ctx)
+@pytest.mark.anyio
+async def test_link_anchor_slug_reports_unresolved_target(tmp_path: PathLike[str]):
+    """An anchor on a target that cannot be resolved is reported, whatever its form.
+
+    A non-markdown target has no headings, so its fragment is left alone.
+    """
+    root = Path(tmp_path)
+    source = root / "index.md"
+
+    missing = make_ctx(
+        "See [text](absent.md#route%20stages%20and%20scoring%20logic) here.\n",
+        path=source,
+    )
+    msgs = await link_anchor_slug(missing)
+    assert msgs and msgs[0].rule_id == "link_anchor_slug"
+    assert "route%20stages" in msgs[0].msg
+    assert "absent.md" in msgs[0].msg
+
+    # A folder without an index.md resolves to nothing either.
+    await (root / "sub").mkdir()
+    folder = make_ctx("See [text](sub/#half%20open%20interval) here.\n", path=source)
+    assert await link_anchor_slug(folder)
+
+    # A paper or an image carries no heading, so its fragment is not an anchor.
+    await (root / "table.csv").write_text("a,b\n")
+    attachment = make_ctx("See [table](table.csv#direct%20mapped) here.\n", path=source)
+    assert not await link_anchor_slug(attachment)
+
+    # The dash-slug form resolves nowhere there either.
+    slug = make_ctx("See [table](table.csv#direct-mapped) here.\n", path=source)
+    msgs = await link_anchor_slug(slug)
+    assert msgs and "uses dash-slug format" in msgs[0].msg
 
 
-def test_link_anchor_slug_allows_legitimate_dash():
-    """Fragment with dash, lowercase, no %20 → IS flagged (conservative heuristic).
+@pytest.mark.anyio
+async def test_link_anchor_slug_reports_every_offender(tmp_path: PathLike[str]):
+    """Every offending fragment in one file is reported, not just the first."""
+    root = Path(tmp_path)
+    await (root / "topic.md").write_text("# topic\n\n## direct mapped\n\nText.\n")
+    source = root / "index.md"
+    ctx = make_ctx(
+        "See [a](topic.md#fully-associative) and [b](topic.md#direct-associative) "
+        "and [c](topic.md#direct%20mapped).\n",
+        path=source,
+    )
+    msgs = await link_anchor_slug(ctx)
+    assert [m.rule_id for m in msgs] == ["link_anchor_slug"] * 2
+
+
+@pytest.mark.anyio
+async def test_link_anchor_slug_allows_legitimate_dash():
+    """A dash-slug that no heading defines is flagged, readable target or not.
 
     If the heading is 'Softmax regression', the correct anchor is
     '#softmax%20regression', so '#softmax-regression' is wrong.
     """
     txt = "## Softmax regression\n\n[text](file.md#softmax-regression)\n"
     ctx = make_ctx(txt)
-    msgs = link_anchor_slug(ctx)
+    msgs = await link_anchor_slug(ctx)
     assert msgs and msgs[0].rule_id == "link_anchor_slug"
 
 
-def test_link_anchor_slug_same_file_exact_match():
+@pytest.mark.anyio
+async def test_link_anchor_slug_same_file_exact_match():
     """Same-file #fragment that matches an AST heading → no violation."""
     txt = "## Route stages and scoring logic\n\n[text](#route%20stages%20and%20scoring%20logic)\n"
     ctx = make_ctx(txt)
-    assert not link_anchor_slug(ctx)
+    assert not await link_anchor_slug(ctx)
 
 
-def test_link_anchor_slug_same_file_mismatch():
+@pytest.mark.anyio
+async def test_link_anchor_slug_same_file_mismatch():
     """Same-file #fragment that doesn't match any heading → violation."""
     txt = (
         "## Route stages and scoring logic\n\n[text](#route-stages-and-scoring-logic)\n"
     )
     ctx = make_ctx(txt)
-    msgs = link_anchor_slug(ctx)
+    msgs = await link_anchor_slug(ctx)
     assert msgs and msgs[0].rule_id == "link_anchor_slug"
 
 
-def test_link_anchor_slug_skips_code_blocks():
+@pytest.mark.anyio
+async def test_link_anchor_slug_skips_code_blocks():
     """Slug pattern inside a code block → no violation."""
     txt = "```\n[text](file.md#route-stages-and-scoring-logic)\n```\n"
     ctx = make_ctx(txt)
-    assert not link_anchor_slug(ctx)
+    assert not await link_anchor_slug(ctx)
 
 
-def test_link_anchor_slug_skips_bare_fragment():
+@pytest.mark.anyio
+async def test_link_anchor_slug_skips_bare_fragment():
     """#fragment-only (no filename) → no violation."""
     txt = "## Route stages\n\n[text](#route-stages)\n"
     ctx = make_ctx(txt)
@@ -2635,15 +3360,19 @@ def test_link_anchor_slug_skips_bare_fragment():
     # it's still flagged. But 'route-stages' has a dash and is lowercase,
     # so we test that same-file bare fragments ARE validated against headings.
     # If no heading matches, it should fire.
-    msgs = link_anchor_slug(ctx)
+    msgs = await link_anchor_slug(ctx)
     assert msgs and msgs[0].rule_id == "link_anchor_slug"
 
 
-def test_link_anchor_slug_mixed_case_no_flag():
-    """Fragment with uppercase letters → no violation (heuristic requires all-lowercase)."""
-    txt = "## Route stages\n\n[text](file.md#Route-Stages)\n"
-    ctx = make_ctx(txt)
-    assert not link_anchor_slug(ctx)
+@pytest.mark.anyio
+async def test_link_anchor_slug_mixed_case_matches_heading(tmp_path: PathLike[str]):
+    """A fragment written in a different case still names that heading."""
+    root = Path(tmp_path)
+    await (root / "topic.md").write_text("# topic\n\n## route stages\n\nText.\n")
+    ctx = make_ctx(
+        "See [route](topic.md#Route%20Stages) here.\n", path=root / "index.md"
+    )
+    assert not await link_anchor_slug(ctx)
 
 
 # submission content file exclusions -------------------------------------------------
@@ -2781,3 +3510,325 @@ def test_html_br_mid_line_skips_code():
     txt2 = "Use `" + "<br/>" + "` in HTML\n"
     ctx2 = make_ctx(txt2)
     assert not html_br_mid_line(ctx2)
+
+
+def test_header_source_layout_flags_source_units():
+    """Source-structural headings must be flagged; concept headings must not."""
+
+    flagged = (
+        "## part 2\n\n"
+        "## chapter 3\n\n"
+        "## slide 12\n\n"
+        "## week 2\n\n"
+        "## summary\n\n"
+        "## misc\n"
+    )
+    msgs = header_source_layout(make_ctx(flagged, path=Path("/tmp/course/topic.md")))
+    assert [m.rule_id for m in msgs] == ["header_source_layout"] * 6
+    assert all(m.severity == Severity.WARNING for m in msgs)
+    assert "sub-concept" in msgs[0].msg
+
+    clean = (
+        "## history and adoption\n\n"
+        "## deployment models\n\n"
+        "## storage units and notation\n\n"
+        "## non-uniform memory access\n\n"
+        "## definitions\n\n"
+        "## references\n\n"
+        "## 1\n"
+    )
+    assert not header_source_layout(make_ctx(clean, path=Path("/tmp/course/topic.md")))
+
+
+def test_header_source_layout_exempt_files():
+    """Index, AGENTS, session, and question files keep source-shaped headings."""
+
+    txt = "## overview\n\n## week 1 lecture\n\n### 2026 fall\n\n## summary\n"
+    assert not header_source_layout(make_ctx(txt, path=Path("/tmp/course/index.md")))
+    assert not header_source_layout(make_ctx(txt, path=Path("/tmp/course/AGENTS.md")))
+    assert not header_source_layout(
+        make_ctx(txt, path=Path("/tmp/course/lab 1/lab.md"))
+    )
+    assert not header_source_layout(
+        make_ctx(txt, path=Path("/tmp/course/questions.md"))
+    )
+    assert not header_source_layout(
+        make_ctx("## summary\n", path=Path("/tmp/course/questions/quiz.md"))
+    )
+
+
+def test_header_deep_nesting_flags_fourth_level():
+    """Four or more heading levels need justification; three levels do not."""
+
+    file = Path("/tmp/course/topic.md")
+    msgs = header_deep_nesting(make_ctx("#### sub\n", path=file))
+    assert msgs and msgs[0].rule_id == "header_deep_nesting"
+    assert msgs[0].severity == Severity.WARNING
+    assert "header_deep_nesting" in msgs[0].msg
+
+    assert not header_deep_nesting(make_ctx("## section\n\n### sub\n", path=file))
+    assert not header_deep_nesting(
+        make_ctx("#### sub\n", path=Path("/tmp/course/index.md"))
+    )
+
+
+@pytest.mark.anyio
+async def test_header_deep_nesting_justification_suppresses(tmp_path: PathLike[str]):
+    """The documented suppression comment justifies a four-level heading."""
+
+    front = (
+        "---\naliases: [a]\ntags: [language/in/English, "
+        "flashcard/active/special/academia/test]\n---\n"
+    )
+    justified = (
+        front
+        + "#### sub "
+        + html_cpt("check: ignore-line[header_deep_nesting]: one concept")
+    )
+    file = Path(tmp_path) / "justified.md"
+    await file.write_text(justified + "\n")
+    assert not any(
+        m.rule_id == "header_deep_nesting" for m in await check_markdown_file(file)
+    )
+
+    unjustified = front + "#### sub\n"
+    file2 = Path(tmp_path) / "unjustified.md"
+    await file2.write_text(unjustified)
+    assert any(
+        m.rule_id == "header_deep_nesting" for m in await check_markdown_file(file2)
+    )
+
+    # The preceding line justifies the heading through ignore-next-line.
+    next_line = (
+        front
+        + html_cpt("check: ignore-next-line[header_deep_nesting]: one concept")
+        + "\n#### sub\n"
+    )
+    file3 = Path(tmp_path) / "next-line.md"
+    await file3.write_text(next_line)
+    assert not any(
+        m.rule_id == "header_deep_nesting" for m in await check_markdown_file(file3)
+    )
+
+
+@pytest.mark.anyio
+async def test_index_courses_missing_rule(tmp_path: PathLike[str]) -> None:
+    """Course entries must point at a course directory that exists.
+
+    Fragment-only, mail, and external links are ignored, `## children` links
+    stay the children rules' responsibility, and only index.md files are
+    checked.
+    """
+    root = Path(tmp_path)
+    await (root / "COMP 3511").mkdir()
+    await (root / "COMP 3511" / "index.md").write_text("# index\n")
+    index_path = root / "index.md"
+
+    txt = (
+        "# index\n"
+        "\n"
+        "## children\n"
+        "\n"
+        "- [COMP 3511](COMP%203511/index.md)\n"
+        "\n"
+        "## courses\n"
+        "\n"
+        "### 2026 fall\n"
+        "\n"
+        "- [COMP 3511](COMP%203511/index.md): Operating Systems (3 credits)\n"
+        "- [COMP 4633](COMP%204633/index.md): Competitive Programming III (2 credits)\n"
+        "    - transferred: [Korea University](../Korea%20University/index.md): [ISC117](../Korea%20University/ISC117/index.md): Korean Studies\n"
+        "- external: [COMP 4633](https://example.com/COMP%204633)\n"
+        "- fragment: [courses](#courses)\n"
+        "- mail: [contact](mailto:nobody@example.com)\n"
+    )
+    msgs = await index_courses_missing(make_ctx(txt, path=index_path))
+    assert len(msgs) == 3, [m.msg for m in msgs]
+    assert all(m.severity is Severity.WARNING for m in msgs)
+    assert all("linked course directory not found" in m.msg for m in msgs)
+    assert not any("COMP%203511" in m.msg for m in msgs)
+    assert any("COMP%204633" in m.msg for m in msgs)
+    assert any("ISC117" in m.msg for m in msgs)
+    assert any(rid == "index_courses_missing" for rid, _ in RULE_REGISTRY.items())
+
+    # `## children` entries stay the children rules' responsibility
+    children_only = "# index\n\n## children\n\n- [gone](gone/index.md)\n"
+    assert not await index_courses_missing(make_ctx(children_only, path=index_path))
+
+    # only index.md files are checked
+    assert not await index_courses_missing(make_ctx(txt, path=root / "note.md"))
+
+
+# long-content sentence tests -------------------------------------------------
+
+"""Sixty words, built from numbered tokens so the count is unambiguous."""
+_LONG_SENTENCE = " ".join(f"word{i}" for i in range(60)) + "."
+
+"""A minimal frontmatter block.
+
+The rules that need a flash tag in the suppression test require one,
+the rest only need valid YAML.
+"""
+_FM = "---\naliases: [a]\ntags: [language/in/English]\n---\n"
+
+
+def test_content_sentence_too_long_short_prose():
+    """Ordinary prose stays under the limit and produces no message."""
+    txt = (
+        _FM
+        + "## history\n\nThe first release shipped in 1993. It changed nothing at first.\n"
+    )
+    assert not content_sentence_too_long(make_ctx(txt))
+
+
+def test_content_sentence_too_long_fires_once_with_correct_line():
+    """A 60-word sentence is reported once, on the line it sits on."""
+    txt = _FM + "## history\n\nA short lead-in.\n" + _LONG_SENTENCE + "\n"
+    msgs = content_sentence_too_long(make_ctx(txt))
+    assert len(msgs) == 1
+    m = msgs[0]
+    assert m.rule_id == "content_sentence_too_long"
+    assert m.severity == Severity.WARNING
+    assert m.line == 8, "the message belongs to the line holding the sentence"
+    assert m.col == 1
+    assert "60 words (over 50)" in m.msg
+    assert "in a paragraph" in m.msg
+    assert "check: ignore-line[content_sentence_too_long]" in m.msg
+
+
+def test_content_sentence_too_long_list_item():
+    """A long list item is measured, and named as a list item."""
+    txt = _FM + "## history\n\n- " + _LONG_SENTENCE + "\n"
+    msgs = content_sentence_too_long(make_ctx(txt))
+    assert len(msgs) == 1
+    assert "in a list item" in msgs[0].msg
+
+
+def test_content_sentence_too_long_table_row():
+    """A long table row is measured, and named as a table row."""
+    txt = (
+        _FM
+        + "## history\n\n| term | definition |\n| --- | --- |\n| x | "
+        + _LONG_SENTENCE
+        + " |\n"
+    )
+    msgs = content_sentence_too_long(make_ctx(txt))
+    assert len(msgs) == 1
+    assert "in a table row" in msgs[0].msg
+
+
+def test_content_sentence_too_long_splits_two_sided_card():
+    """A ``::@::`` card whose halves each fit must not be counted fused.
+
+    This is the case the split exists for: prompt and answer together pass
+    50 words while neither side does, so a rule that measures the line whole
+    reports a sentence the author never wrote.
+    """
+    prompt = " ".join(f"q{i}" for i in range(30)) + "?"
+    answer = " ".join(f"a{i}" for i in range(30)) + "."
+    assert len((prompt + " " + answer).split()) > 50
+    txt = _FM + "## history\n\n" + prompt + " ::@:: " + answer + "\n"
+    assert not content_sentence_too_long(make_ctx(txt))
+
+
+def test_content_sentence_too_long_reports_long_card_answer():
+    """A ``::@::`` answer over the limit is reported once, as an answer."""
+    prompt = "What is a " + " ".join(f"q{i}" for i in range(5)) + "?"
+    txt = _FM + "## history\n\n" + prompt + " ::@:: " + _LONG_SENTENCE + "\n"
+    msgs = content_sentence_too_long(make_ctx(txt))
+    assert len(msgs) == 1
+    assert "in a flashcard answer" in msgs[0].msg
+    assert msgs[0].col is not None and msgs[0].col > 1, (
+        "the answer starts after the prompt, not at column 1"
+    )
+
+
+def test_content_sentence_too_long_card_answer_split_by_html_break():
+    """``<br/>`` ends a sentence, so a formatted answer is not one long one."""
+    part = " ".join(f"part{i}" for i in range(20)) + "."
+    txt = _FM + "## history\n\nWhy? ::@:: " + f"{part}<br/>\n{part}<br/>\n{part}\n"
+    assert not content_sentence_too_long(make_ctx(txt))
+
+
+def test_content_sentence_too_long_bulleted_answer_split_by_html_break():
+    """A bulleted answer joined by ``<br/>`` is several short sentences.
+
+    The fused form is 60 words and would be reported; split at the breaks,
+    each bullet is 20 and none is.
+    """
+    bullet = " ".join(f"b{i}" for i in range(20)) + "."
+    fused = " ".join(f"b{i}" for i in range(60)) + "."
+    assert len(fused.split()) > 50
+    txt = _FM + "## history\n\nWhy? ::@:: " + "<br/>".join([bullet] * 3) + "\n"
+    assert not content_sentence_too_long(make_ctx(txt))
+
+
+def test_content_sentence_too_long_ignores_multiline_display_math():
+    """Interior lines of a ``$$ ... $$`` block are math, not prose."""
+    long_line = " & x_{i} = " + _LONG_SENTENCE
+    txt = (
+        _FM
+        + "## history\n\n$$\n\\begin{align}\n"
+        + long_line
+        + "\n\\end{align}\n$$\n\nA short sentence.\n"
+    )
+    assert not content_sentence_too_long(make_ctx(txt))
+
+
+def test_content_sentence_too_long_ignores_image_alt_text():
+    """Image alt text is removed whole, so its length never counts."""
+    alt = " ".join(f"alt{i}" for i in range(200))
+    txt = _FM + "![descending " + alt + "](../attachments/figures/figure 1.png)\n"
+    assert not content_sentence_too_long(make_ctx(txt))
+
+
+def test_content_sentence_too_long_ignores_frontmatter_code_and_numbers():
+    """Frontmatter, fenced code, and a table row of numbers are not prose."""
+    txt = (
+        "---\naliases: [a]\ntags: [language/in/English]\ndescription: "
+        + _LONG_SENTENCE
+        + "\n---\n```text\n"
+        + _LONG_SENTENCE
+        + "\n```\n"
+        "| year | count | mean |\n| --- | --- | --- |\n| 1998 | 42 | 13.5 |\n"
+    )
+    assert not content_sentence_too_long(make_ctx(txt))
+
+
+def test_content_sentence_too_long_ignores_blockquotes():
+    """A blockquote is verbatim text, so a warning on it is unactionable."""
+    long_s = " ".join(f"w{i}" for i in range(60))
+    txt = _FM + "> " + long_s + "\n\nprose " + "short.\n"
+    assert content_sentence_too_long(make_ctx(txt)) == []
+
+
+def test_content_sentence_too_long_ignores_transcludes():
+    """Imported Wikipedia text under transcludes/ is not measured."""
+    txt = _FM + _LONG_SENTENCE + "\n"
+    ctx = make_ctx(txt, path=Path("/tmp/course/transcludes/entropy.md"))
+    assert not content_sentence_too_long(ctx)
+    # the same prose in a real note still fires
+    assert content_sentence_too_long(make_ctx(txt, path=Path("/tmp/course/entropy.md")))
+
+
+def test_content_sentence_too_long_ignores_cloze_shards():
+    """A line dense in cloze markup leaves wordless shards, which are ignored."""
+    txt = _FM + "{@[ a first fact ]@}   .  {@{[ ]@}{@{!@}   ?  {@{[ a second ]@}\n"
+    msgs = content_sentence_too_long(make_ctx(txt))
+    assert msgs == []
+
+
+@pytest.mark.anyio
+async def test_content_sentence_too_long_suppressed(tmp_path: PathLike[str]):
+    """A suppression comment at the end of the line silences the warning."""
+    text = (
+        "---\naliases: [a]\ntags: [language/in/English, flashcard/active/special/academia/test]\n---\n"
+        + _LONG_SENTENCE
+        + " "
+        + html_cpt("check: ignore-line[content_sentence_too_long]: verbatim source")
+        + "\n"
+    )
+    file = Path(tmp_path) / "long.md"
+    await file.write_text(text)
+    msgs = list(await check_markdown_file(file))
+    assert not msgs, "the suppression comment should silence the only message"

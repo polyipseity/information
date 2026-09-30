@@ -36,7 +36,7 @@ The content is in teaching order.
 - [assignments](assignments/index.md)
 - [questions](questions.md)
 
-## week 1 lab
+## week 1 lab 1
 
 - datetime: 2025-09-04T10:30:00+08:00/2025-09-04T11:20:00+08:00, PT50M
 - topic: logistics; introduction; Bloomberg account; Bloomberg Market Concepts; 2025 Bloomberg Global Trading Challenge
@@ -65,7 +65,7 @@ The content is in teaching order.
         - FINA 3810 / trading strategy / tips ::@:: Apply theory to trading, realizing that theories can be wrong to some extent. Combine expert knowledge and technical skills. Timing is everything \(e.g. instrument, timing, trade, etc.\). Read and interpret more financial news. <!--SR:!fsrs,2030-04-02T00:00:00.000Z,1275,1274.63302429,1,2,9,0,0,2026-10-05T00:00:00.000Z!fsrs,2029-08-28T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-08-13T00:00:00.000Z-->
 - quiz: [testing](questions/testing.md)
 
-## week 2 lab
+## week 2 lab 1
 
 - datetime: 2025-09-11T10:30:00+08:00/2025-09-11T11:20:00+08:00, PT50M
 - topic: Bloomberg Terminal; equity research; financial analysis; equity screening; watchlist analytics; Excel integration; LSEG Workspace
@@ -106,7 +106,7 @@ The content is in teaching order.
     - Bloomberg Terminal / multiple listings ::@:: Bloomberg's equity data is reported per the _listing_ that you query, not per the underlying company's total share base. <p> When a firm is dual-listed or issued ADRs, each listing represents a different number of the company's "true" shares – e.g., 1 US share = 8 HK shares. Consequently, the EPS shown for the US ticker reflects earnings divided by 8 times as many underlying shares, so it appears eight times larger than the HK-listed EPS. <p> Bloomberg's "Receipt Info" page simply tells you this conversion factor so you can see why the raw EPS figures differ. <!--SR:!2027-05-14,458,379!2026-11-14,304,359-->
 - quiz: [week 2 quiz](questions/week%202%20quiz.md)
 
-## week 3 lab
+## week 3 lab 1
 
 - datetime: 2025-09-18T10:30:00+08:00/2025-09-18T11:20:00+08:00, PT50M
 - topic: economic research; economic analysis; graph; idea generation; Bloomberg Global Trading Challenge; narrative
@@ -144,7 +144,7 @@ The content is in teaching order.
         - Bloomberg Terminal / graph / normalize ::@:: In the Y-axis options choose "Normalize" to set all series to a common base \(e.g., 100% on a chosen date\). This lets you compare relative performance rather than absolute price levels. <!--SR:!2027-03-31,421,379!2027-03-27,417,379-->
 - quiz: [week 3 quiz](questions/week%203%20quiz.md)
 
-## week 4 lab
+## week 4 lab 1
 
 - datetime: 2025-09-25T10:30:00+08:00/2025-09-25T11:20:00+08:00, PT50M
 - topic: investment management; analyst recommendations; financial analysis; relative valuation

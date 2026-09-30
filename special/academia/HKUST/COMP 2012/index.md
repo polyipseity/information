@@ -23,7 +23,7 @@ tags:
 
 The content is in teaching order.
 
-## week 1 lecture
+## week 1 lecture 1
 
 ## week 2 lecture 1
 

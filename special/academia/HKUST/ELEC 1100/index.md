@@ -150,7 +150,7 @@ During the first lecture the instructor went over {@{the course logistics}@}.  Y
 - datetime: 2026-02-09T14:30:00+08:00/2026-02-09T15:20:00+08:00, PT50M
 - venue: CYT-G001
 - topic: prepare for lab 1
-- quiz: [tutorial 1](tutorials/tutorial%201/index.md) (ungraded test questions)
+- quiz: [week 2 tutorial 1](tutorials/week%202%20tutorial%201/index.md) (ungraded test questions)
 - ELEC 1100
     - ELEC 1100 / [lab equipment](lab%20equipment.md)
         - [§ equipment overview](lab%20equipment.md#equipment%20overview)
@@ -252,7 +252,7 @@ During the first lecture the instructor went over {@{the course logistics}@}.  Y
 - datetime: 2026-02-23T14:30:00+08:00/2026-02-23T15:20:00+08:00, PT50M
 - venue: CYT-G001
 - topic: prepare for lab 2
-- quiz: [tutorial 2](tutorials/tutorial%202/index.md)
+- quiz: [week 4 tutorial 1](tutorials/week%204%20tutorial%201/index.md)
 - ELEC 1100
     - ELEC 1100 / [Kirchhoff's circuit laws](Kirchhoff%27s%20circuit%20laws.md)
         - [§ background](Kirchhoff%27s%20circuit%20laws.md#background)
@@ -344,7 +344,7 @@ During the first lecture the instructor went over {@{the course logistics}@}.  Y
 - datetime: 2026-03-02T14:30:00+08:00/2026-03-02T15:20:00+08:00, PT50M
 - venue: CYT-G001
 - topic: prepare for lab 3
-- quiz: [tutorial 3](tutorials/tutorial%203/index.md)
+- quiz: [week 5 tutorial 1](tutorials/week%205%20tutorial%201/index.md)
 - ELEC 1100
     - ELEC 1100 / [diode](diode.md)
         - [§ pn junction and biasing](diode.md#pn%20junction%20and%20biasing)
@@ -603,7 +603,7 @@ During the first lecture the instructor went over {@{the course logistics}@}.  Y
 - datetime: 2026-03-30T14:30:00+08:00/2026-03-30T15:20:00+08:00, PT50M
 - venue: CYT-G001
 - topic: prepare for lab 5
-- quiz: [tutorial 6](tutorials/tutorial%206/index.md)
+- quiz: [week 9 tutorial 1](tutorials/week%209%20tutorial%201/index.md)
 - ELEC 1100
     - ELEC 1100 / [pulse-width modulation](pulse-width%20modulation.md#pwm%20in%20motor%20control)
     - ELEC 1100 / [pulse-width modulation](pulse-width%20modulation.md#pwm%20generation%20methods)
@@ -675,7 +675,7 @@ During the first lecture the instructor went over {@{the course logistics}@}.  Y
 - datetime: 2026-04-13T14:30:00+08:00/2026-04-13T15:20:00+08:00, PT50M
 - venue: CYT-G001
 - topic: prepare for lab 6
-- quiz: [tutorial 7](tutorials/tutorial%207/index.md)
+- quiz: [week 11 tutorial 1](tutorials/week%2011%20tutorial%201/index.md)
 - ELEC 1100
     - ELEC 1100 / [sensor](sensor.md#sensor%20patterns%20for%20line%20following)
     - ELEC 1100 / [final project](final%20project.md#line-tracking%20logic%20and%20memory)

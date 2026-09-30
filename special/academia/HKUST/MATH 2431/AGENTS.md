@@ -86,17 +86,17 @@ uv run .agents/skills/academic-notes/check.py \
   "special/academia/HKUST/MATH 2431/questions/problem set 7.md" \
   "special/academia/HKUST/MATH 2431/questions/problem set 8.md" \
   "special/academia/HKUST/MATH 2431/questions/problem set 9.md" \
-  "special/academia/HKUST/MATH 2431/questions/week 2 tutorial.md" \
-  "special/academia/HKUST/MATH 2431/questions/week 4 tutorial.md" \
-  "special/academia/HKUST/MATH 2431/questions/week 5 tutorial.md" \
-  "special/academia/HKUST/MATH 2431/questions/week 6 tutorial.md" \
-  "special/academia/HKUST/MATH 2431/questions/week 7 tutorial.md" \
-  "special/academia/HKUST/MATH 2431/questions/week 8 tutorial.md" \
-  "special/academia/HKUST/MATH 2431/questions/week 9 tutorial.md" \
-  "special/academia/HKUST/MATH 2431/questions/week 11 tutorial.md" \
-  "special/academia/HKUST/MATH 2431/questions/week 12 tutorial.md" \
-  "special/academia/HKUST/MATH 2431/questions/week 13 tutorial.md" \
-  "special/academia/HKUST/MATH 2431/questions/week 14 tutorial.md"
+  "special/academia/HKUST/MATH 2431/questions/week 2 tutorial 1.md" \
+  "special/academia/HKUST/MATH 2431/questions/week 4 tutorial 1.md" \
+  "special/academia/HKUST/MATH 2431/questions/week 5 tutorial 1.md" \
+  "special/academia/HKUST/MATH 2431/questions/week 6 tutorial 1.md" \
+  "special/academia/HKUST/MATH 2431/questions/week 7 tutorial 1.md" \
+  "special/academia/HKUST/MATH 2431/questions/week 8 tutorial 1.md" \
+  "special/academia/HKUST/MATH 2431/questions/week 9 tutorial 1.md" \
+  "special/academia/HKUST/MATH 2431/questions/week 11 tutorial 1.md" \
+  "special/academia/HKUST/MATH 2431/questions/week 12 tutorial 1.md" \
+  "special/academia/HKUST/MATH 2431/questions/week 13 tutorial 1.md" \
+  "special/academia/HKUST/MATH 2431/questions/week 14 tutorial 1.md"
 ```
 
 Fix all errors before committing.

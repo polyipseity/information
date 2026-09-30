@@ -5,7 +5,7 @@ description: Create, read, update, and delete the top-level course index.md (chi
 
 # Academic CRUD: Course index
 
-Create, read, update, and delete the top-level course `index.md` and course scaffolding. This skill owns the course root, including exam records, which live inline in the top-level index.
+This skill owns the course root: the top-level `index.md`, the exam records that live inline in it, and the scaffolding around them.
 
 ## Target
 
@@ -15,11 +15,11 @@ Create, read, update, and delete the top-level course `index.md` and course scaf
 
 ### Create
 
-Scaffold a new course from the template at `.agents/skills/academic-crud-course-index/course-template.md`.
+Scaffold a new course from `.agents/skills/academic-crud-course-index/course-template.md`.
 
 1. Verify no `index.md` already exists in the course root.
-2. Create directory: `special/academia/<INSTITUTION>/<COURSE>/`
-3. Write `index.md` with:
+2. Create the directory `special/academia/<INSTITUTION>/<COURSE>/`.
+3. Write `index.md`:
 
 ```markdown
 ---
@@ -44,9 +44,9 @@ tags:
 
 ## children
 
+- [assignments/](assignments/index.md)
+- [questions/](questions/index.md)
 - [AGENTS](AGENTS.md)
-- [assignments](assignments/index.md)
-- [questions](questions/index.md)
 - [<topic 1>](<topic%201>.md)
 - ...
 
@@ -63,7 +63,7 @@ tags:
 <scope, topic-to-file mapping, orientation material>
 ```
 
-1. Create subdirectories as needed:
+After scaffolding, create subdirectories as needed:
 
 | Directory | Created when |
 | --- | --- |
@@ -77,30 +77,171 @@ Each subdirectory gets an `index.md` via `academic-crud-index`.
 
 ### Read
 
-Show course structure, child count, session list, exam records.
+Show the course structure, the child count, the session list, and the exam records.
 
 ### Update
 
-Modify children ordering, logistics, session metadata, overview. Add/update exam sections inline.
+Reorder children, correct logistics, fix session metadata, revise the overview, and add or revise exam sections inline. Correcting one session's slot moves it in the file, so a session-metadata fix renumbers its ordinal within its own week, re-derives `datetime:` and `venue:` from the section the note records, and restores chronological order.
 
 ### Delete
 
-Remove entire course directory (with confirmation). Remove from institution `index.md`.
+With confirmation, remove the course directory and its entry in the institution `index.md`.
+
+## Scope: course index only
+
+Populate only the sections the source provides. A generic course homepage supplies the description, prerequisites, textbook, grading scheme, section schedules, and announcements, and nothing else: it carries no week-by-week session content, no assignment details, and no child file scaffolding. Do not create subdirectories (`labs/`, `assignments/`, `tutorials/`) or session entries (`## week N lecture 1`) from a homepage alone, because those need per-item source material (Canvas pages, PRS quizzes, assignment PDFs).
+
+## Keep the index minimal
+
+Prefer less content. Record what the source states and what sessions covered, nothing else.
+
+- __Never write current status or progress__: what has been ingested, what is still missing, or what a section will contain later. It is stale as soon as the next source arrives.
+- __Never write provenance__: how a date, figure, or number was established belongs in the note, not in the index.
+- __Never record platform links__: Canvas or other LMS course URLs are not course facts and go stale.
+- The `- note:` lines under `## logistics` and the `- notes` list under `## overview` carry source facts and caveats only: a conflicting source, a tentative schedule, a policy.
+- A value that exists but is unknown is marked `\[missing\]`, never described in prose. See [Missing data](#missing-data).
+
+## Session types: lecture, lab, tutorial
+
+Lectures, labs, and tutorials are distinct session types under `## logistics`, each with its own section keys, schedule, and session headings. Never merge them into a single type.
+
+```yaml
+- sections:
+    - lecture                    # ← section type: lecture
+        - L1: venue; time       # ← section key: L1, L2, L3
+        - L2: venue; time
+    - tutorials                  # ← section type: tutorials (plural)
+        - T1: venue; time       # ← section key: T1, T2, T3
+        - T2: venue; time
+    - labs                       # ← section type: labs (plural)
+        - LA1: venue; time      # ← section key: LA1, LA2, LA3
+        - LA2: venue; time
+```
+
+- Section-type names match `course-template.md`: `lecture` (singular), `tutorials` and `labs` (plural). The chosen section is written after the colon, e.g. `- labs: LA3`.
+- Section keys: `L` for lectures, `T` for tutorials, `LA` for labs.
+- Session headings use the singular type and always carry the session's ordinal in the week: `## week N lecture 1`, `## week N tutorial 1`, `## week N lab 1`. A recurrent course adds one level and repeats the semester, and that is the only difference (see "Recurring courses").
+- __Each session copies its own section's slot.__ The key written after the colon (`- lecture: L1`, `- labs: LA3`) fixes that type's weekday, time, and venue, and a session entry takes its `datetime:` and `venue:` from that line alone: an `LA3` lab is a Monday evening session in `LA3`'s room even when `LA1` shares the week, and a slot that fits the entry perfectly is still wrong when it came from another section. Where a venue or a time changes mid-term, the change goes in the section's own line with a `- note:` carrying the reason, and in the sessions it affects.
+- __A session's own content carries the session's name.__ A directory or file holding one session's material is named after its heading, `week N <type> K`, with spaces literal and `%20` only inside links, and the session entry links it. Nothing drops the ordinal, and a bare `<type> K` names a deliverable rather than a session (see `academic-crud-submission`).
+
+## Session ordering: types repeat every week
+
+Each session type occurs on a fixed weekly pattern: 3 lectures per week means `## week N lecture 1`, `## week N lecture 2`, and `## week N lecture 3` in every week, and 1 lab per week means a `## week N lab 1` in every week. The same holds for tutorials.
+
+__Rules:__
+
+1. _Consistent types across weeks._ If week 1 has 2 lectures + 1 lab + 1 tutorial, every later week has the same set (unless marked `status: no class`).
+2. _An ordinal on every session, counted within its own week._ With N sessions of one type in a week, use `## week N lecture 1`, `## week N lecture 2`, ..., `## week N lecture N`. The count restarts every week and is never carried over, so a course with two lectures a week heads its week-2 pair `lecture 1` and `lecture 2`, never `lecture 3` and `lecture 4`. A session is never left unnumbered.
+3. _Strictly increasing `datetime:` in file order._ Read top to bottom: each session heading's `datetime:` must be later than the previous one, which the `session_datetime_order` rule enforces. Within a week that means day/time order, so the earliest session comes first regardless of type. The rule compares the values as written, so a session carrying another section's slot still passes it; the weekday and venue still have to be right on their own account.
+4. _Strict chronological order across weeks._ Week 2 sessions come after week 1 sessions. Never interleave weeks; `## week 1 lecture 1` → `## week 2 lecture 1` → `## week 3 lab 1` is wrong if week 1 also has a lab.
+5. _Gap sessions._ If a type does not meet in a week, mark it `status: no class` or `status: public holiday: <name>` instead of omitting the heading.
+
+__Example for a course with 2 lectures + 1 lab per week:__
+
+```markdown
+## week 1 lecture 1
+- datetime: ...
+## week 1 lecture 2
+- datetime: ...
+## week 1 lab 1
+- datetime: ...
+## week 2 lecture 1
+- datetime: ...
+## week 2 lecture 2
+- datetime: ...
+## week 2 lab 1
+- datetime: ...
+```
+
+__Wrong:__
+
+```markdown
+## week 1 lecture 1
+## week 2 lecture 1
+## week 3 lab 1    ← week 1's lab is missing, types are mixed across weeks
+```
+
+```markdown
+## week 1 lecture 1
+## week 1 lecture 2
+## week 2 lecture 3    ← the ordinal is a running count, not the position in the week
+## week 2 lecture 4
+```
+
+## Recurring courses
+
+A recurrent course runs every term instead of once. It carries `- status: recurrent` in the course header block, groups its sessions by semester, and puts each session heading one level deeper.
+
+```markdown
+## 2025 fall
+
+### 2025 fall week 3 tutorial 1
+
+- datetime: 2025-09-17T18:00:00+08:00/2025-09-17T18:50:00+08:00, PT50M
+- venue: \[missing\]
+- topic: Sun Hung Kai Properties (SHKP)
+- status: optional
+
+## 2026 fall
+
+### 2026 fall week 1 tutorial 1
+
+- datetime: 2026-09-02T18:00:00+08:00/2026-09-02T21:00:00+08:00, PT3H
+- venue: LTA
+- topic: CSE program orientation talk and dinner
+- status: optional
+```
+
+- __Semester header__: `## <YYYY term>`, using the institution `index.md` term spelling (`## 2026 fall`), placed after `## overview` and in chronological order.
+- __Session heading__: `### <YYYY term> week N <type> <number>`, one level deeper than a one-off course, with the semester repeated and the session's ordinal in the week.
+- __The repeat is required.__ Without it the same week/type pair recurs in every semester and `markdownlint` MD024 rejects the duplicate headings; `.markdownlint*` is never edited and `index.md` admits no disable directive, so the heading text itself has to differ.
+- __Week numbers__ count from the term's first teaching week, so the count starts on that week's Monday.
+- __Every session is optional.__ A recurrent course's lectures, labs, and tutorials all carry `- status: optional`, and none is assumed to be attended. Keep `datetime:`, `venue:`, and `topic:`, because the term's schedule is still what the entry records.
+- __A session entry normally carries no note or section links__: an unattended session covered nothing. Add them only for a session that was actually attended and written up.
+- __Only attested sessions.__ Record the sessions a source names. Never invent `status: no class` or `status: unscheduled` weeks to complete a weekly pattern for a past term whose full schedule is unknown.
+- __The linter enforces the shape.__ `academic-lint` reads `- status: recurrent` from the identity block, then requires: the level-3 semester-carrying headings (`session_heading_format`); a matching `## <YYYY term>` header above each session (`session_semester_match`); `status: optional` or a gap marker on each session (`session_optional_status`); chronological semester headers (`index_semester_order`); and week counting that restarts each term (`week_monotonic`, `session_duplicate_heading`).
+- Everything else in "Session ordering" applies unchanged: `datetime:` strictly increasing in file order (which keeps the semesters chronological), one heading per meeting, an ordinal on every session inside a week, and `lecture`/`lab`/`tutorial` as the only types. A seminar series or training stream is recorded under whichever of those three it matches, never as a fourth type.
+
+## Session outline content: sections, not files
+
+A session entry records what the session taught. After the metadata, list each note the session created or expanded, then the note sections its material covers. A note the session barely reached is listed with only what it reached, so a short note reads as short by design rather than unfinished:
+
+```markdown
+## week 1 lecture 1
+
+- datetime: 2026-09-01T09:00:00+08:00/2026-09-01T10:20:00+08:00
+- venue: Rm 4619, Lift 31-32
+- topic: basic operating system concepts; computer-system organization
+- [operating system](operating%20system.md)
+    - [§ what an operating system does](operating%20system.md#what%20an%20operating%20system%20does)
+    - [§ kernel and system programs](operating%20system.md#kernel%20and%20system%20programs)
+        - [§ microkernel and monolithic kernel](operating%20system.md#microkernel%20and%20monolithic%20kernel)
+- [memory hierarchy](memory%20hierarchy.md)
+    - [§ hierarchy of storage](memory%20hierarchy.md#hierarchy%20of%20storage)
+```
+
+- __A file link alone is never enough.__ Link the sections too.
+- __List only the sections the session's material created or expanded.__ A note spanning several sessions is linked under each of them, and each entry lists only its own sections.
+- __Link the deepest heading the session's material created or expanded.__ A `###` the session created nests one level (8 spaces) under its `##` bullet; link the `##` alone only when the session created the whole section.
+- __Anchor format__: the heading lowercased, spaces as `%20`, colons removed (`## Main memory` → `#main%20memory`). A fragment must name an anchor of the file it targets, either a heading or an HTML `id` that file carries, and the `link_anchor_slug` rule enforces it: a dash-slug of a spaced heading is rejected (`#main-memory`), while a dash the heading itself contains stays (`## self-plagiarism` → `#self-plagiarism`). A target the rule cannot read is reported with the fragment it holds.
+- __A re-levelled section must be re-linked in the same task.__ When the section levelling pass renames, moves, or folds a heading, update every session entry and appendix link pointing at its old anchor. A stale anchor is a broken link, not a cosmetic one (see "Section levelling pass" in `academic-crud-topic-note`).
+- __Filename format__: spaces as `%20`, every other character literal (`cache%20(computing).md`).
+- Omit the section links only when the note has no `##` sections.
 
 ## Course-root layout rules
 
-- After course list (`institution`, `name`, `credits`), insert `---` before description
-- Put `## children` first, then `## logistics`, then `## overview`
-- Children order: AGENTS → assignments → questions → topics (chronological)
-- Session headings: `## week N lecture`, `## week N tutorial`, `## week N lab`
-- Session metadata: `datetime:`, `topic:`, `status:`, `assignment:`, `quiz:`
-    - `quiz:` links to the tutorial quiz page when a quiz was administered:
-      `[tutorial <N>](tutorials/tutorial%20<N>/index.md)`
-      Append grade if known: `(grade: 2/2)`
-    - Assignment links: in the last lecture entry on or before the assignment due date, add the assignment as an `ELEC 1100` child (e.g. `- ELEC 1100 / [assignment name](assignments/<name>/index.md)`)
-- Gap sessions: `status: no class` or `status: public holiday: <name>`
-- Exam sessions: continuous week heading, `status: unscheduled; <exam name>`
-- Session free text: optional content after the `---` separator following session metadata; used for verbatim Canvas announcements as blockquotes (see "Announcement preservation")
+A course `index.md` has a fixed shape, and most of what follows is filling it in. The top-level sections come first and in this order: `## children`, `## logistics`, `## overview`. Sessions and exams follow, in the formats set out above.
+
+- After the course list (`institution`, `name`, `credits`), insert `---` before the description.
+- The `## overview` topic-to-file mapping maps concepts to notes, not source units or source order.
+- Children order: folders first, then files, Python string order within each group (see "Children format" in `academic-crud-index`).
+- Session headings: each type repeats every week (see "Session ordering" above), or every week of a semester in a recurrent course (see "Recurring courses").
+- Session body: list the note sections the session's material created or expanded.
+- Session metadata: `datetime:`, `topic:`, `status:`, `assignment:`, `quiz:`.
+    - `quiz:` links to the tutorial quiz page when a quiz was administered: `[tutorial <N>](tutorials/tutorial%20<N>/index.md)`, with the grade appended if known (`(grade: 2/2)`).
+    - Assignment links go in the last lecture entry on or before the due date, as an `ELEC 1100` child (e.g. `- ELEC 1100 / [assignment name](assignments/<name>/index.md)`).
+- A session that did not meet, or that was optional, or that hosted an exam says so in `status:` rather than going missing: `status: no class`, `status: public holiday: <name>`, `status: optional` (every session of a recurrent course), and `status: unscheduled; <exam name>` under a continuous week heading.
+- Session free text: optional content after the `---` separator following the metadata, used for verbatim Canvas announcements as blockquotes (see "Announcement preservation").
 
 ## Exam handling
 
@@ -111,7 +252,7 @@ Exams live in the top-level `index.md`, not in separate files.
 When a regular slot is used for an exam:
 
 ```markdown
-## week N lecture
+## week N lecture 1
 
 - datetime: 2026-04-15T09:00:00+08:00/2026-04-15T11:00:00+08:00
 - venue: Hall A
@@ -119,11 +260,11 @@ When a regular slot is used for an exam:
 - [§ midterm examination](#midterm%20examination)
 ```
 
-Keep the week heading continuous. Set `status: unscheduled; <exam name>`. Add `§` link to the exam section.
+Keep the week heading continuous, set `status: unscheduled; <exam name>`, and add a `§` link to the exam section.
 
 ### Exam section link in session outline
 
-When a major exam (lab examination, midterm examination, final examination) takes place during a regular lecture, lab, or tutorial session, add a section link in that session's outline pointing to the dedicated exam section. Use the same format as other course links:
+When a major exam (lab, midterm, or final examination) takes place during a regular lecture, lab, or tutorial, add a section link in that session's outline pointing to the dedicated exam section, using the same format as other course links:
 
 ```markdown
 ## week 9 lab 1
@@ -134,11 +275,11 @@ When a major exam (lab examination, midterm examination, final examination) take
 - ELEC 1100 / [lab examination](#lab%20examination)
 ```
 
-This ensures the session outline links to the dedicated section where full details (statistics, announcements, breakdown) are recorded. The link text matches the section heading; the anchor uses lowercase with hyphens.
+The session outline then points to the dedicated section holding the full details (statistics, announcements, breakdown). The link text matches the section heading; the anchor is the heading lowercased with `%20` for spaces and colons removed.
 
 ### Exam section format
 
-Create a `## <exam name>` section elsewhere in the index (typically after all regular sessions). Field order:
+Create a `## <exam name>` section elsewhere in the index, after all regular sessions. Field order:
 
 ```markdown
 ## midterm examination
@@ -175,12 +316,12 @@ Create a `## <exam name>` section elsewhere in the index (typically after all re
 
 #### Statistics rules
 
-- __Session key__: Use the section code as the key (e.g. `L1:`, `LA3:`, `T2:`). One key per section that took the exam.
-- __Canvas grades page stats__: Write values directly (no label). The grades page is the page showing the student's all grades in a course.
-- __Other source stats__: Wrap in parentheses with label: `- count: (provided: 16)`. Applies to stats from announcements, discussion topics, or any page other than the grades page. __Timestamp is the only exception__ — always written directly.
-- __Unknown values__: Use `\(none\)` (escaped for markdown). Never use `?`.
-- __Statistics note__: Use the `note:` field inside the session key for extra data from the source that doesn't fit the standardized fields (e.g. count of students who achieved the maximum score).
-- __Updated stats__: Use `→` to show the update, applying evenly across all fields including timestamp. Every field must have a value on both sides of `→`:
+- __Session key__: use the section code (`L1:`, `LA3:`, `T2:`), one key per section that took the exam.
+- __Canvas grades page stats__: write values directly, without a label. The grades page is the page showing the student's grades across a course.
+- __Other source stats__: wrap in parentheses with a label, e.g. `- count: (provided: 16)`. This applies to stats from announcements, discussion topics, or any page other than the grades page; the timestamp is the only exception and is always written directly.
+- __Unknown values__: use `\(none\)` (escaped for markdown), never `?`.
+- __Statistics note__: the `note:` field inside a session key holds extra source data that does not fit the standard fields (e.g. how many students achieved the maximum score).
+- __Updated stats__: use `→` to show the update, applying evenly across all fields including timestamp, with a value on both sides:
 
   ```yaml
   - statistics:
@@ -199,7 +340,7 @@ Create a `## <exam name>` section elsewhere in the index (typically after all re
           - note: 30 students achieved the maximum score of 25 (updated from 7 after re-mark)
   ```
 
-  When a value is unchanged, show `old → old`. The `(provided: ...)` label must appear on both sides of `→` when present.
+  An unchanged value shows as `old → old`, and a `(provided: ...)` label appears on both sides when present.
 
 ### Aftermath section
 
@@ -222,36 +363,33 @@ After all exam sections:
 
 ### Appendix section
 
-Optional section after sessions/exams, before `## aftermath`. Holds supplementary topic links not in the main `## children` section.
+An optional section after sessions and exams, before `## aftermath`, holding supplementary topic links that are not in the main `## children` list:
 
 ```markdown
 ## appendix
 
 - [topic name](topic%20name.md)
-    - topic name / [§ section heading](topic%20name.md#section%20heading)
+    - [§ section heading](topic%20name.md#section%20heading)
 ```
 
-Use `## appendix` for:
-
-- Wikipedia transcludes (see `academic-crud-transcludes`)
-- Supplementary reference material
-- Topics that don't fit the main session flow
-
-Not all courses use `## appendix`. Only add it when there is supplementary content that warrants separation from the main `## children` list.
+Use `## appendix` for Wikipedia transcludes (see `academic-crud-transcludes`), supplementary reference material, and topics that do not fit the main session flow. Not every course has one; add it only when supplementary content warrants separation from `## children`.
 
 ### Announcement preservation
 
-Official Canvas announcements (discussion/topic pages) are placed as blockquotes in the session entry that matches the related assignment or activity, after a `---` separator following the session metadata. When an announcement relates to an assignment, place it in the same lecture entry where the assignment link appears (the last lecture on or before the due date). When an announcement relates to a lab or tutorial activity, place it in that session's entry.
+Canvas announcements (discussion/topic pages) are placed as blockquotes in the session entry matching the related assignment or activity, after a `---` separator following the session metadata. An announcement about an assignment goes in the same lecture entry where the assignment link appears (the last lecture on or before the due date); one about a lab or tutorial activity goes in that session's entry.
 
-__When to add__: When a Canvas HTML source is a discussion/topic page (title starts with "Topic:" or page type is discussion), extract the title and body and place them in the chronologically matching session entry.
+Add an announcement when a Canvas HTML source is a discussion/topic page (title starting with "Topic:", or page type discussion): extract the title and body and place them in the chronologically matching session entry.
 
-__Format__: Each announcement is a blockquote with the title bolded. Omit the author name and platform chrome ("This topic is closed for comments", navigation elements). Preserve the original wording, paragraph structure, and inline formatting of the body text.
+An entry keeps its announcements: reordering sessions moves each entry's blockquote with it, since an announcement left behind strands as free text under whichever heading now follows it.
 
-- __Paragraphs__: Each logical paragraph from the original becomes a separate `>` line group separated by `>` blank lines.
-- __Non-paragraph line breaks__: Use `<br/>` for line breaks within a paragraph (e.g. list items that are part of the same visual block, or forced breaks in the original HTML). Do NOT collapse multiple lines into one.
-- __Inline formatting__: Preserve bold (`__bold__`), italics (`_italic_`), code (`` `code` ``), underline (`<u>text</u>`), and emphasis from the original HTML. Map HTML `<b>`/`<strong>` to `__`, `<i>`/`<em>` to `_`, `<code>` to backticks, `<u>` to `<u>` tags.
-- __Lists__: Preserve list items with `-` prefix. Indent nested items with 2 extra spaces.
-- __Separators__: Horizontal rules (`---` or `***`) from the original can be omitted or replaced with a blank `>` line.
+Format each announcement as a blockquote with the title bolded, preserving the original wording, paragraph structure, and inline formatting. Drop the platform chrome: the author/teacher metadata line, the posting timestamp, "This topic is closed for comments", and navigation elements.
+
+- __Names inside the body__: an instructor or TA name the quoted body itself carries, in a greeting or a signature, is redacted as `\[redacted\]`. The body is preserved verbatim, so the name leaves a visible mark where it stood. A name outside a quoted announcement is simply omitted.
+- __Paragraphs__: each logical paragraph becomes a separate `>` line group separated by `>` blank lines.
+- __Non-paragraph line breaks__: use `<br/>` for line breaks within a paragraph (list items in one visual block, forced breaks in the original HTML). Do not collapse multiple lines into one.
+- __Inline formatting__: preserve bold (`__bold__`), italics (`_italic_`), code (`` `code` ``), underline (`<u>text</u>`), and emphasis. Map HTML `<b>`/`<strong>` to `__`, `<i>`/`<em>` to `_`, `<code>` to backticks, and `<u>` to `<u>` tags.
+- __Lists__: preserve list items with a `-` prefix, indenting nested items by 2 extra spaces.
+- __Separators__: horizontal rules (`---` or `***`) from the original may be omitted or replaced with a blank `>` line.
 
 ```markdown
 ## week N lecture 1
@@ -277,43 +415,63 @@ __Format__: Each announcement is a blockquote with the title bolded. Omit the au
 > - Standard Deviation (SD): W
 >
 > Please note that __taking photos is NOT allowed__ during the paper review session.
+>
+> Regards,
+>
+> \[redacted\]
 ```
 
-__Maximum Score parentheses__: The number in parentheses after Maximum Score (e.g. `Maximum Score: 20 (66)`) is the count of students who achieved that maximum score, not the total number of students.
+The number in parentheses after Maximum Score (`Maximum Score: 20 (66)`) is the count of students who reached that score, not the total number of students.
 
-__Multiple announcements__: When several announcements target the same session, list them sequentially as separate blockquotes. Separate consecutive blockquotes with a blank line.
-
-__Placement rule__: Match the announcement to the session where the related content lives. Assignment-related announcements go in the lecture entry that links the assignment (last lecture on or before due date). Activity-related announcements (labs, tutorials) go in the session entry for that activity. When multiple announcements target the same session, list them sequentially as separate blockquotes.
+When several announcements target the same session, list them as separate blockquotes separated by a blank line. Match each announcement to the session where the related content lives: assignment-related ones to the lecture entry that links the assignment, activity-related ones to that activity's session entry.
 
 ## Grade extraction patterns
 
 - Canvas single-student view: mean, median, high, low, quartiles
-- `statistics.timestamp` from Canvas announcement posting datetime
+- `statistics.timestamp` from the Canvas announcement posting datetime
 - `statistics.data: \(none\)` (no external LMS links)
-- Per-question breakdown from PDF via PyMuPDF:
-
-  ```python
-  import fitz
-  doc = fitz.open(path)
-  for page in doc:
-      text = page.get_text("text")
-  ```
-
-- Grades notation: `X/N` unless bonus marks documented, then `base+bonus/max+max bonus`
+- Per-question breakdown from a PDF: run `convert_document` first (see "Document extraction (mandatory)" in `academic-ingest`), then read the per-question marks from `text.md` or the page renders
+- Grades notation: `X/N`, or `base+bonus/max+max bonus` when bonus marks are documented
 
 ## Validation
 
-Run `academic-lint` after every edit. If you know which files changed, pass those files specifically. Otherwise lint the whole course folder.
+Run the humanizer pass over new or changed prose and flashcards, focusing on the course description, `## overview` bullets, and session `topic:` lines (see "Humanizer pass" in `academic-ingest`). Then run `academic-lint`, passing the changed files when known.
+
+`academic-lint` checks the note's internal shape, not its schedule: it reads no `## logistics` line, so a cumulative ordinal, another section's weekday, and another section's venue all pass. Re-read the `## week N <type> <ordinal>` headings with their `datetime:` values in file order and check each against the section the note records before reporting a session fix.
 
 ## Missing data
 
-Use `\[missing\]` when a field or value is absent. See [special.instructions.md](../../instructions/special.instructions.md#missing-data).
+__Always use `\[missing\]`.__ Every field that exists but has no value gets `\[missing\]`. Never invent placeholder text ("TBA", "upcoming", "none", "?"). The one exception is exam statistics fields, which use `\(none\)`; that format belongs to the statistics sub-block alone.
+
+Example for an exam section whose details are not yet known:
+
+```yaml
+## midterm examination
+
+- datetime: 2026-10-29T19:00:00+08:00/2026-10-29T21:00:00+08:00
+- venue: \[missing\]
+- scope: \[missing\]
+- format:
+    - calculator: \[missing\]
+    - cheatsheet: \[missing\]
+    - open book: \[missing\]
+    - open notes: \[missing\]
+    - questions: \[missing\]
+- grade: \[missing\]
+- statistics: \[missing\]
+- breakdown: \[missing\]
+- note: \[missing\]
+- report: \[missing\]
+```
+
+See [special.instructions.md](../../instructions/special.instructions.md#missing-data) for the full convention.
 
 ## References
 
 - `academic-crud-course-index/course-template.md` scaffold template
+- `humanizer` for the AI-writing patterns it removes
 - `academic-lint` validation
 - `academic-crud-index` subdirectory index format
-- `academic-crud-attachments` attachments directories at any level
-- `academic-crud-transcludes` Wikipedia articles included by reference
-- `create-flashcards` exam error report flashcards
+- `academic-crud-attachments` attachment directories
+- `academic-crud-transcludes` Wikipedia article inclusion
+- `create-flashcards` exam flashcards

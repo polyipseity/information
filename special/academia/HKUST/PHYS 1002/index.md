@@ -36,7 +36,7 @@ The content is in teaching order. Extra information and corrections are included
 - [final examination](final%20examination.md)
 - [open-ended question report](open-ended%20question%20report.md)
 
-## week 1 lecture
+## week 1 lecture 1
 
 - datetime: 2024-06-18T10:00:00+08:00/2024-06-18T12:30:00+08:00
 - course textbook ::@:: "The Cosmic Perspective", 7th Edition by Bennett, Donahue, Schneider & Voit, Pearson New International Edition <!--SR:!2027-04-13,775,330!2029-04-21,1359,350-->
@@ -152,7 +152,7 @@ The content is in teaching order. Extra information and corrections are included
     - [§ definition](../../../../general/horizontal%20coordinate%20system.md#definition)
     - [meridian](<../../../../general/meridian%20(astronomy).md>)
 
-## week 2 lecture
+## week 2 lecture 1
 
 > Dear students,
 >
@@ -226,7 +226,7 @@ The content is in teaching order. Extra information and corrections are included
     - analemma direction ::@:: The Sun moves eastward on the analemma near the solstices (the top and bottom of the 8 figure). <!--SR:!2029-08-02,1189,357!fsrs,2032-06-08T10:34:34.581Z,2195,2195.32896226,1,2,10,0,0,2026-06-05T10:34:34.581Z-->
 - [questions § 2024-06-27](questions.md#2024-06-27)
 
-## week 3 lecture
+## week 3 lecture 1
 
 - datetime: 2024-07-02T10:00:00+08:00/2024-07-02T12:30:00+08:00
 - [equinox](../../../../general/equinox.md) ::@:: Axis tilt is sideways with regards to the Sun. The Sun is on the celestial equator of the celestial sphere. Both hemisphere receives the same amount of sunlight. <!--SR:!2028-12-03,1261,375!2027-05-14,800,355-->
@@ -343,7 +343,7 @@ The content is in teaching order. Extra information and corrections are included
     - Greek geocentric model ::@:: about 400 BC by Plato; Earth is the center of the universe and all other celestial objects have perfectly circular orbits <!--SR:!2027-12-01,803,320!2030-03-03,1624,380-->
 - [questions § 2024-07-04](questions.md#2024-07-04)
 
-## week 4 lecture
+## week 4 lecture 1
 
 - datetime: 2024-07-09T10:00:00+08:00/2024-07-09T12:30:00+08:00
 - [Earth's circumference](../../../../general/Earth's%20circumference.md) ::@:: around the equator: 40&nbsp;075.017 km, passing through the poles: 40&nbsp;007.863 km <!--SR:!fsrs,2027-05-16T10:44:37.452Z,345,345.39991977,8.78449031,2,9,0,0,2026-06-05T10:44:37.452Z!fsrs,2032-04-25T00:00:00.000Z,2102,2101.99566474,1,2,10,0,0,2026-07-24T00:00:00.000Z-->
@@ -445,7 +445,7 @@ The content is in teaching order. Extra information and corrections are included
     - [mass–energy equivalence](../../../../general/mass–energy%20equivalence.md) / implications ::@:: A small amount of mass can release huge amounts of energy (e.g. nuclear bombs, nuclear reactors). Concentrated energy can also turn into mass (e.g. particle accelerators). <!--SR:!2032-07-14,2370,412!2033-04-20,2594,412-->
 - [questions § 2024-07-11](questions.md#2024-07-11)
 
-## week 5 lecture
+## week 5 lecture 1
 
 - datetime: 2024-07-16T10:00:00+08:00/2024-07-16T12:30:00+08:00
 - [mechanical energy § satellite](../../../../general/mechanical%20energy.md#satellite) ::@:: The mechanical energy (total orbital energy), that is the sum of kinetic and potential energy, stays constant. It explains why an orbiting body, given no external energy transfer, being closer to the primary body implies higher velocity, and vice versa. <!--SR:!fsrs,2033-08-31T00:00:00.000Z,2610,2609.9663534,1,2,10,0,0,2026-07-09T00:00:00.000Z!2034-01-16,2817,425-->
@@ -623,7 +623,7 @@ The content is in teaching order. Extra information and corrections are included
     - A MCQ question about angular resolution is deferred to the next lecture. Hopefully the teacher does not forget about it again...
         - The teacher remembered to do it.
 
-## week 6 lecture
+## week 6 lecture 1
 
 - datetime: 2024-07-23T10:00:00+08:00/2024-07-23T12:30:00+08:00
 - [star](../../../../general/star.md) / properties ::@:: brightness & luminosity, density of the atmosphere, distance, lifetime, mass, radius, surface temperature <!--SR:!2031-12-20,2130,372!2031-07-29,2078,412-->
@@ -869,7 +869,7 @@ The content is in teaching order. Extra information and corrections are included
     - [Algol paradox](../../../../general/Algol%20paradox.md) / examples ::@:: An typically example: The star that was originally more massive enters the subgiant phase and expands. The star matter is now close enough to be stripped away by the other originally smaller companion star. Eventually, the companion star becomes the more massive star. The result is that the now-less-massive star is a subgiant while the now-more-massive star is still in the main sequence, seemingly contradicting our theories of stellar evolution. <!--SR:!2033-07-29,2646,425!fsrs,2033-11-16T00:00:00.000Z,2633,2633.42669854,1,2,10,0,0,2026-09-01T00:00:00.000Z-->
 - [questions § 2024-07-25](questions.md#2024-07-25)
 
-## week 7 lecture
+## week 7 lecture 1
 
 - datetime: 2024-07-30T10:00:00+08:00/2024-07-T12:30:00+08:00
 - stellar remanent types ::@:: white dwarf (from low-mass star), neutron star (from high-mass star), black hole (from high-mass star) <!--SR:!2032-12-18,2497,427!2032-12-04,2465,427-->
@@ -1065,9 +1065,9 @@ The content is in teaching order. Extra information and corrections are included
         - [apparent magnitude](../../../../general/apparent%20magnitude.md) & [inverse-square law](../../../../general/inverse-square%20law.md)
     - [cosmic distance ladder](../../../../general/cosmic%20distance%20ladder.md) / steps ::@:: radar (solar system), stellar parallax (<~200 pc), spectroscopic parallax (<~10 kpc), Cepheid Variables (<~25 Mpc), Type Ia supernova (<~3 Gpc), Hubble's law; This is not comprehensive and oversimplified. The actual ladder has multiple pathways and many more methods. <!--SR:!fsrs,2032-08-28T00:00:00.000Z,2217,2217.47853094,1,2,10,0,0,2026-08-03T00:00:00.000Z!2032-09-02,2353,407-->
 - [questions § 2024-08-01](questions.md#2024-08-01)
-    - a MCQ question about supernova from [week 7 lecture](#week%207%20lecture)
+    - a MCQ question about supernova from [week 7 lecture 1](#week%207%20lecture%201)
 
-## week 8 lecture
+## week 8 lecture 1
 
 > Dear students,
 >
@@ -1238,7 +1238,7 @@ The content is in teaching order. Extra information and corrections are included
     - report
         - Nothing to say.
 
-## week 9 lecture
+## week 9 lecture 1
 
 > Dear students,
 >

@@ -23,7 +23,7 @@ tags:
 
 The content is in teaching order.
 
-## week 1 lecture
+## week 1 lecture 1
 
 - datetime: 2024-02-02T18:00:00+08:00/2024-02-02T22:00:00+08:00
 - [information](information.md)
@@ -31,12 +31,12 @@ The content is in teaching order.
     - [§ assessment](information.md#assessment)
     - [§ ethical hacking](information.md#ethical%20hacking)
 
-## week 2 lecture
+## week 2 lecture 1
 
 - datetime: 2024-02-09T18:00:00+08:00/2024-02-09T22:00:00+08:00
 - status: pre-public holiday break: Chinese New Year's Eve
 
-## week 3 lecture
+## week 3 lecture 1
 
 - datetime: 2024-02-16T18:00:00+08:00/2024-02-16T22:00:00+08:00
 - [memory safety](../../../../general/memory%20safety.md)

@@ -65,7 +65,7 @@ The content is in teaching order.
 - [assignments](assignments/index.md)
 - [questions](questions/index.md)
 
-## week 1 lecture
+## week 1 lecture 1
 
 - datetime: 2025-02-03T10:30:00+08:00/2025-02-03T11:50:00+08:00
 - topic: introduction to OM
@@ -144,7 +144,7 @@ The content is in teaching order.
     - Little's law / implications ::@:: Given the conditions are satisfied, one is that we can find one variable from the other two variables in the set of variables _I_, _R_, and _T_. It also means there are trade-offs when setting management goals. <!--SR:!fsrs,2031-03-08T02:05:20.913Z,1734,1734.31584823,1,2,10,0,0,2026-06-08T02:05:20.913Z!2031-04-19,1785,378-->
     - Little's law / example ::@:: customers in supermarkets: The amount of time spent by a customer in a supermarket is important to the management. We can use Little's law to find the average time customers spend in the store. <!--SR:!2031-02-04,1726,375!2031-05-12,1808,378-->
 
-## week 2 lecture
+## week 2 lecture 1
 
 - datetime: 2025-02-10T10:30:00+08:00/2025-02-10T11:50:00+08:00
 - topic: bottleneck analysis, throughput analysis
@@ -230,7 +230,7 @@ The content is in teaching order.
     - normal distribution / standard normal distribution ::@:: The __standard normal distribution__ has the mean, $\mu$, 0, and the variance, $\sigma^2$, 1. Its CDF is commonly denoted by $\Phi(z)$ while its PDF is commonly denoted by $\varphi(z)$. <p> A property of its CDF due to the even symmetry of its PDF: $$\Phi(-z) = 1 - \Phi(z) \,.$$ <!--SR:!2026-11-05,500,395!fsrs,2032-09-21T00:00:00.000Z,2178,2178.13207453,1,2,10,0,0,2026-10-05T00:00:00.000Z-->
     - normal distribution / standardization ::@:: Any normal distribution can be __standardized__ by defining the random variable $$Z = \frac {X - \mu} {\sigma} \qquad X = \sigma Z + \mu \,.$$ Further, $$z = \frac {x - \mu} \sigma$$ is also known as the __standard score__ of the data _x_. <p> After standardization, a standard normal table that provides $\Phi(z)$ for different values of _z_ may be used to evaluate the CDF of any normal distribution. (The table may not show negative values of _z_. In that case, you need to use the property of its CDF above.) <!--SR:!fsrs,2033-01-14T00:00:00.000Z,2270,2270.20442073,1,2,10,0,0,2026-10-28T00:00:00.000Z!fsrs,2030-05-01T00:00:00.000Z,1325,1324.93367312,1,2,10,0,0,2026-09-14T00:00:00.000Z-->
 
-## week 3 lecture
+## week 3 lecture 1
 
 - datetime: 2025-02-17T10:30:00+08:00/2025-02-17T11:50:00+08:00
 - topic: managing uncertainty in service system, basics of queueing system
@@ -287,7 +287,7 @@ The content is in teaching order.
         - queueing theory / disadvantages ::@:: The advantages are obvious. But there are also disadvantages. The queue is more crowded/longer. As a result, customers _feel_ they have less ownership, and there may be negative behavioral and psychological effects on them. <p> Remember that _feelings of your customers_ sometimes matter as much as the _actual_ waiting time, and it all depends on the situation. <!--SR:!fsrs,2033-01-02T00:00:00.000Z,2258,2258.22586073,1,2,10,0,0,2026-10-28T00:00:00.000Z!2031-09-07,1921,406-->
 - [questions § week 3 lecture 2](questions/index.md#week%203%20lecture%202)
 
-## week 4 lecture
+## week 4 lecture 1
 
 - datetime: 2025-02-24T10:30:00+08:00/2025-02-24T11:50:00+08:00
 - topic: queueing system, simulation method
@@ -393,7 +393,7 @@ The content is in teaching order.
 - [x̅ and R chart](../../../../general/x̅_and_R_chart.md) ::@:: It is a type of scheme, popularly known as control chart, used to monitor the _mean_ and _range_ of a _normally distributed_ variables simultaneously, when samples are collected at regular intervals from a business or industrial process. <!--SR:!2027-06-16,679,419!2026-12-02,507,399-->
 - [p-chart](../../../../general/p-chart.md) ::@:: It is a type of control chart used to monitor the _proportion of nonconforming units_ in a sample, where the sample proportion nonconforming is defined as the ratio of the number of nonconforming units to the sample size, _n_. <!--SR:!2027-08-26,736,419!2027-07-26,707,419-->
 
-## week 5 lecture
+## week 5 lecture 1
 
 - datetime: 2025-03-03T10:30:00+08:00/2025-03-03T11:50:00+08:00
 - topic: quality management, conformance analysis, acceptance sampling
@@ -486,7 +486,7 @@ The content is in teaching order.
     - decision tree / summary / uncertainty reduction ::@:: data analytics, demand forecasting, feasibility study, market research, etc. <!--SR:!2027-10-30,789,437!2028-01-06,845,435-->
 - [questions § week 5 lecture 2](questions/index.md#week%205%20lecture%202)
 
-## week 6 lecture
+## week 6 lecture 1
 
 - datetime: 2025-03-10T10:30:00+08:00/2025-03-10T11:50:00+08:00
 - topic: capacity planning, resource allocation, linear programming techniques
@@ -535,13 +535,13 @@ The content is in teaching order.
     - linear programming / brief history ::@:: A discipline from the 1940s. Some methods include: simplex method \(1947\), interior method \(1984\), etc. <!--SR:!2027-10-22,780,435!2027-11-04,792,435-->
     - linear programming / versatility ::@:: It is a simple but powerful model that is flexible \(e.g. sensitivity analysis\), has a wide range of applications, and has solvers in many applications \(e.g. Excel\) and programming languages \(e.g. MATLAB, Python\). <!--SR:!2027-10-19,780,435!2027-09-15,751,435-->
 
-## week 7 lecture
+## week 7 lecture 1
 
 - datetime: 2025-03-17T10:30:00+08:00/2025-03-17T11:50:00+08:00, PT1H20M
 - topic: midterm examination review
 - status: attendance
 - [§ midterm examination](#midterm%20examination)
-- [questions § week 7 lecture](questions/index.md#week%207%20lecture)
+- [questions § week 7 lecture 1](questions/index.md#week%207%20lecture%201)
 
 ## week 7 lecture 2
 
@@ -581,7 +581,7 @@ The content is in teaching order.
     - venue: Room 4083, LSKBB
     - report: \(none\)
 
-## week 8 lecture
+## week 8 lecture 1
 
 - datetime: 2025-03-24T10:30:00+08:00/2025-03-24T11:50:00+08:00, PT1H20M
 - status: unscheduled
@@ -643,7 +643,7 @@ The content is in teaching order.
         - tracking signal / measure / warn ::@:: It can warn when there are unexpected deviations from the prediction, similar to that in _control charts_. In general, $$\lvert TS \rvert > 3.75$$ implies the prediction is poor. <!--SR:!2028-04-30,914,449!2027-06-11,633,431-->
     - tracking signal / vs. mean absolute error ::@:: They are different accuracy measures. Better performance in one measure does _not_ imply better performance in the other. <!--SR:!2028-03-30,888,449!2028-04-24,909,449-->
 
-## week 9 lecture
+## week 9 lecture 1
 
 - datetime: 2025-03-31T10:30:00+08:00/2025-03-31T11:50:00+08:00, PT1H20M
 - topic: inventory management: introduction to inventory management, economic order quantity \(EOQ\) model
@@ -695,7 +695,7 @@ The content is in teaching order.
 - datetime: 2025-04-02T10:30:00+08:00/2025-04-02T11:50:00+08:00, PT1H20M
 - status: unscheduled, midterm break
 
-## week 10 lecture
+## week 10 lecture 1
 
 - datetime: 2025-04-07T10:30:00+08:00/2025-04-07T11:50:00+08:00, PT1H20M
 - topic: inventory management, newsvendor model
@@ -717,7 +717,7 @@ The content is in teaching order.
     - normal distribution / standardization
 - newsvendor model model
     - newsvendor model model / normal distribution ::@:: Find the critical fractile. Using the Z-table, find the corresponding z-score. Finally, convert the z-score $z^*$ into the quantity we want: $$Q^* = \mu + \sigma \times z^* \,.$$ \(__this course__: Use the _round-up_ rule to lookup the z-score, i.e. choose a larger value of z-score if in between two z-scores, and then use the round-up rule _again_ if the quantity needs to be an integer.\) <!--SR:!2028-09-26,990,465!2028-11-15,1040,468-->
-- [questions § week 10 lecture](questions/index.md#week%2010%20lecture)
+- [questions § week 10 lecture 1](questions/index.md#week%2010%20lecture%201)
 
 ## week 10 lecture 2
 
@@ -751,7 +751,7 @@ The content is in teaching order.
     - risk pool / correlation ::@:: \(__this course__: optional\) Above, we assume demands are independent. Positive correlation reduces the benefit. When perfectly positive correlated, there is no benefit. <!--SR:!2028-11-17,1042,468!2028-09-24,988,465-->
     - risk pool / diminishing returns ::@:: \(__this course__: optional\) As pool size increase, benefit increases, but with _diminishing returns_. That is, the _marginal benefit_ of pooling another inventory decreases. <!--SR:!2027-11-30,734,448!2028-10-25,1019,468-->
 
-## week 11 lecture
+## week 11 lecture 1
 
 - datetime: 2025-04-14T10:30:00+08:00/2025-04-14T11:50:00+08:00, PT1H20M
 - topic: revenue management, capacity-based revenue management
@@ -792,7 +792,7 @@ The content is in teaching order.
         - overselling / newsvendor model / service level ::@:: The probability that no customer bumping happens. It equals the probability of _not_-showing-up customers being _at least_ \(it matters\) the overbooking level. <!--SR:!2028-10-19,1013,468!2028-09-01,965,468-->
 - newsvendor model
     - newsvendor model / generalization ::@:: The above two examples applies the newsvendor model to other problems such as two-price strategy and overselling. <p> To generalize the model for other problems, identify the demand and the inventory. The demand should be _random_, and higher of it should increase _revenue_. The inventory should be _controllable_ and optimal when it _matches_ demand. <!--SR:!2028-10-30,1024,468!2028-10-04,998,468-->
-- [questions § week 11 lecture](questions/index.md#week%2011%20lecture)
+- [questions § week 11 lecture 1](questions/index.md#week%2011%20lecture%201)
 
 ## week 11 lecture 2
 
@@ -869,7 +869,7 @@ The content is in teaching order.
         - supply chain / recent developments / opportunities ::@:: Firms need contingency plan to deal with recent disruptions in supply chains. Thus there may be rich opportunities for risk management in supply chains. <!--SR:!2028-11-03,1028,465!2028-10-07,1001,468-->
         - supply chain / recent developments / tariffs ::@:: Tariffs by the second Trump administration and retaliation is impacting the global economy and financial markets. <p> It may lead to disorderly economic decoupling. Or not, instead lengthening supply chains and making it more complex and less visible, e.g. products going through intermediate countries, etc. <!--SR:!2028-09-20,984,465!2028-10-15,1009,465-->
 
-## week 12 lecture
+## week 12 lecture 1
 
 - datetime: 2025-04-21T10:30:00+08:00/2025-04-21T11:50:00+08:00, PT1H20M
 - status: unscheduled, public holiday: Easter Monday
@@ -879,7 +879,7 @@ The content is in teaching order.
 - datetime: 2025-04-23T10:30:00+08:00/2025-04-23T11:50:00+08:00, PT1H20M
 - topic: supply chain management, win strategies
 
-## week 13 lecture
+## week 13 lecture 1
 
 - datetime: 2025-04-28T10:30:00+08:00/2025-04-28T11:50:00+08:00, PT1H20M
 - topic: incentive conflict: risk-sharing strategies
@@ -912,7 +912,7 @@ The content is in teaching order.
         - revenue sharing / other types / option contract ::@:: \(__this course__: optional\) The retailer pays the supplier to build capacity and buys an option to purchase later. This motivates increasing capacity before selling season. <!--SR:!2028-07-31,953,468!2028-10-25,1019,468-->
         - revenue sharing / other types / quantity flexibility contract ::@:: \(__this course__: optional\) Both the retailer and the supplier agree to buy and sell quantity within a certain range of forecast. This helps with capacity planning under uncertain demand. <!--SR:!2028-10-16,1010,468!2028-10-07,1001,468-->
         - revenue sharing / other types / price protection contract ::@:: \(__this course__: optional\) The supplier compensates the retailer for any price reduction on remaining inventory. This is used in the technology sectors to mitigate price drops from product updates. <!--SR:!2028-11-06,1031,468!2028-11-06,1031,468-->
-- [questions § week 13 lecture](questions/index.md#week%2013%20lecture)
+- [questions § week 13 lecture 1](questions/index.md#week%2013%20lecture%201)
 
 ## week 13 lecture 2
 
@@ -939,9 +939,9 @@ The content is in teaching order.
     - risk aversion / utility function ::@:: \(__this course__: optional\) A concave function may be used to model risk aversion. That is, utility grows sub-linearly with gain. <p> Conversely, a convex function may be used to model risk seeking. That is, negative utility grows sub-linearly with loss. <p> Combining both, we get a curve that looks like sigmoid function \("S" shape\). The _reference point_ \(point of neither gain nor loss\) matters but is not always obvious. <!--SR:!2028-10-03,997,465!2028-10-20,1014,465-->
 - [preference](../../../../general/preference.md) ::@:: \(__this course__: optional\) In psychology, economics and philosophy, \(_this_\) is a technical term usually used in relation to choosing between alternatives. For example, someone prefers A over B if they would rather choose A than B. \(_this_\) are central to decision theory because of this relation to behavior. <!--SR:!2028-09-28,992,468!2028-10-08,1002,468-->
     - preference / other topics ::@:: \(__this course__: optional\) mental accounting, probability weighting, time preferences, utility function kink <!--SR:!2028-08-20,953,468!2028-11-02,1027,468-->
-- [questions § week 14 lecture](questions/index.md#week%2014%20lecture)
+- [questions § week 14 lecture 1](questions/index.md#week%2014%20lecture%201)
 
-## week 14 lecture
+## week 14 lecture 1
 
 - datetime: 2025-05-05T10:30:00+08:00/2025-05-05T11:50:00+08:00, PT1H20M
 - status: unscheduled, public holiday: Buddha's Birthday

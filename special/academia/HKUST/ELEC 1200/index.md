@@ -40,7 +40,7 @@ The content is in teaching order.
 - [assignments](assignments/index.md)
 - [questions](questions/index.md)
 
-## week 1 lecture
+## week 1 lecture 1
 
 - datetime: 2025-07-14T14:00:00+08:00/2025-07-14T16:50:00+08:00, PT2H50M
 - topic: course introduction; signals; real world channels
@@ -135,7 +135,7 @@ The content is in teaching order.
         - communication channel / blurring / samples per bit ::@:: Assuming only samples per bit \(SPB\) changes, i.e. the channel remains unchanged. Then we see the blurring effect remains the same in its transition speed. If the SPB is too low, then the received signal may not approach the desired signal enough before the bit changes again. <!--SR:!fsrs,2030-02-15T00:00:00.000Z,1275,1274.63302429,1,2,9,0,0,2026-08-20T00:00:00.000Z!fsrs,2029-08-22T00:00:00.000Z,1142,1141.61620684,1,2,9,0,0,2026-07-07T00:00:00.000Z-->
     - communication channel / modeling ::@:: The model mentioned above only handles attenuation, delay, and offset. How can we handle blurring? <p> If we assume the channel is _linear_ and _time-invariant_, making it a _linear time-invariant system_, then we can also model blurring with a _step response function_. This makes use that any input can be expressed as the sum of unit step functions. <p> \(__this course__: We will only talk about very simple step response functions.\) <!--SR:!2028-09-28,865,330!fsrs,2029-12-27T00:00:00.000Z,1237,1236.83645167,1,2,9,0,0,2026-08-08T00:00:00.000Z-->
 
-## week 1 tutorial
+## week 1 tutorial 1
 
 - datetime: 2025-07-15T11:00:00+08:00/2025-07-15T12:20:00+08:00, PT1H20M
 - topic: lab logistics; lab 1, MATLAB
@@ -166,7 +166,7 @@ The content is in teaching order.
     - MATLAB / help ::@:: help button, `doc(function_name)`, `help(function_name)` <!--SR:!fsrs,2029-06-02T00:00:00.000Z,1080,1080.08717202,1,2,9,0,0,2026-06-18T00:00:00.000Z!fsrs,2029-08-11T00:00:00.000Z,1134,1133.95119242,1,2,9,0,0,2026-07-04T00:00:00.000Z-->
 - [§ week 1 lab 2](#week%201%20lab%202)
 
-## week 1 lab
+## week 1 lab 1
 
 - datetime: 2025-07-15T14:00:00+08:00/2025-07-15T16:50:00+08:00, PT2H50M
 - status: unscheduled
@@ -229,7 +229,7 @@ The content is in teaching order.
 - datetime: 2025-07-17T14:00:00+08:00/2025-07-17T16:50:00+08:00, PT2H50M
 - topic: introduction to MATLAB
 - status: attendance
-- [§ week 1 tutorial](#week%201%20tutorial)
+- [§ week 1 tutorial 1](#week%201%20tutorial%201)
 - ELEC 1200
     - ELEC 1200 / lab 1
         - ELEC 1200 / lab 1 / Boolean to numeric conversion ::@:: A comparison returns 1 if it is true, 0 otherwise. <!--SR:!fsrs,2029-11-16T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-07-29T00:00:00.000Z!fsrs,2029-06-07T00:00:00.000Z,1084,1083.94697941,1,2,9,0,0,2026-06-19T00:00:00.000Z-->
@@ -291,7 +291,7 @@ The content is in teaching order.
             - step response / exponential / recursive / interpretation ::@:: The above formula takes the weighted average of the last output sample and the scaled current input sample. <p> $a$ controls the weights, with $a = 0$ means the channel has no memory \(uses the scaled current input sample\) while $a = 1$ means the channel has infinite memory \(constant output and ignores input\). <!--SR:!fsrs,2029-10-07T00:00:00.000Z,1176,1176.0199518,1,2,9,0,0,2026-07-19T00:00:00.000Z!fsrs,2029-10-08T00:00:00.000Z,1176,1176.0199518,1,2,9,0,0,2026-07-20T00:00:00.000Z-->
         - step response / exponential / equivalency ::@:: To prove the step response is equivalent to and the recursive model, we prove the latter model is linear time-invariant \(additivity, homogeneity, time invariance\), and has the same step response. <p> The latter \(same step response\) can be proved by, given the same input samples, calculate the output samples for both models and observe that they are equal for all samples. A rigorous proof uses induction. \(__this course__: The rigorous proof is optional.\) <!--SR:!fsrs,2030-01-27T00:00:00.000Z,1260,1259.53358194,1,2,9,0,0,2026-08-16T00:00:00.000Z!fsrs,2028-11-01T00:00:00.000Z,808,807.66436112,2.49272837,2,9,0,0,2026-08-16T00:00:00.000Z-->
 
-## week 2 lecture
+## week 2 lecture 1
 
 - datetime: 2025-07-21T14:00:00+08:00/2025-07-21T16:50:00+08:00, PT2H50M
 - topic: channel equalization; noise
@@ -347,21 +347,21 @@ The content is in teaching order.
     - normal distribution / standard deviation ::@:: A measure of how "spread out" the samples are. It measures how wide the PDF is. <p> It is the square root of variance. <p> Increasing it widens the PDF, and also flattens it so that the area under the PDF remains 1. <!--SR:!fsrs,2029-11-16T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-07-29T00:00:00.000Z!fsrs,2029-09-27T00:00:00.000Z,1168,1168.38706892,1,2,9,0,0,2026-07-17T00:00:00.000Z-->
     - normal distribution / variance ::@:: Also a measure of how "spread out" the samples are. It also measures how wide the PDF is. <p> It is the square of standard deviation. <p> In signal processing, assuming mean of the noise is 0, it is also average power of the noise. <p> Increasing it widens the PDF, and also flattens it so that the area under the PDF remains 1. <!--SR:!fsrs,2029-09-18T00:00:00.000Z,1161,1160.74715681,1,2,9,0,0,2026-07-15T00:00:00.000Z!fsrs,2029-09-23T00:00:00.000Z,1165,1164.5679841,1,2,9,0,0,2026-07-16T00:00:00.000Z-->
 
-## week 2 tutorial
+## week 2 tutorial 1
 
 - datetime: 2025-07-22T11:00:00+08:00/2025-07-22T12:20:00+08:00, PT1H20M
 - topic: lab 2 review, lab 3, communication protocol, bit error rate
 - ELEC 1200
     - ELEC 1200 / lab 2
     - ELEC 1200 / lab 3 ::@:: framing: split and pad, start bit, stop bit → find threshold from a graph → waveform to bit sequence → evaluate bit error rate against bit time <!--SR:!2028-08-20,832,330!fsrs,2029-07-22T00:00:00.000Z,1119,1118.59914239,1,2,9,0,0,2026-06-29T00:00:00.000Z-->
-- [§ week 2 lab](#week%201%20lab)
+- [§ week 2 lab 1](#week%201%20lab%201)
 
-## week 2 lab
+## week 2 lab 1
 
 - datetime: 2025-07-22T14:00:00+08:00/2025-07-22T16:50:00+08:00, PT2H50M
 - topic: communication protocol, bit error rate \(BER\)
 - status: attendance
-- [§ week 3 tutorial](#week%203%20tutorial)
+- [§ week 3 tutorial 1](#week%203%20tutorial%201)
 - ELEC 1200
     - ELEC 1200 / lab 3
         - ELEC 1200 / lab 3 / threshold ::@:: Assume there is a training sequence. A good threshold is the average of the lowest and highest signal level. <!--SR:!fsrs,2029-09-08T00:00:00.000Z,1153,1153.10014712,1,2,9,0,0,2026-07-13T00:00:00.000Z!fsrs,2029-11-15T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-07-28T00:00:00.000Z-->
@@ -491,7 +491,7 @@ The content is in teaching order.
     - complex number / to polar coordinates ::@:: \(__this course__: optional\) <p> $$\begin{aligned} \lvert z \rvert & = \sqrt{a^2 + b^2} \\ \angle z & = \arctan(b / a) \,. \end{aligned}$$ <!--SR:!fsrs,2029-08-21T00:00:00.000Z,1142,1141.61620684,1,2,9,0,0,2026-07-06T00:00:00.000Z!fsrs,2029-12-23T00:00:00.000Z,1233,1233.04800529,1,2,9,0,0,2026-08-08T00:00:00.000Z-->
     - complex number / from polar coordinates ::@:: \(__this course__: optional\) <p> $$\begin{aligned} a & = \lvert z \rvert \cos(\angle z) \\ bi & = i \lvert z \rvert \sin(\angle z) \,. \end{aligned}$$ <!--SR:!fsrs,2030-02-15T00:00:00.000Z,1275,1274.63302429,1,2,9,0,0,2026-08-20T00:00:00.000Z!fsrs,2029-11-26T00:00:00.000Z,1214,1214.08066657,1,2,9,0,0,2026-07-31T00:00:00.000Z-->
 
-## week 3 lecture
+## week 3 lecture 1
 
 - datetime: 2025-07-28T14:00:00+08:00/2025-07-28T16:50:00+08:00, PT2H50M
 - topic: filters, frequency response; time—frequency analysis, source coding; signal transmission multiplexing
@@ -592,12 +592,12 @@ The content is in teaching order.
 - multiplexing
     - multiplexing / guard bands ::@:: They are unused bands that are in between the modulated baseband signals. They help avoid interference even if there is leakage outside the theoretical bandwidth of baseband signals. <!--SR:!2027-01-19,415,370!2027-01-13,409,370-->
 
-## week 3 tutorial
+## week 3 tutorial 1
 
 - datetime: 2025-07-29T11:00:00+08:00/2025-07-29T12:20:00+08:00, PT1H20M
 - status: unscheduled
 
-## week 3 lab
+## week 3 lab 1
 
 - datetime: 2025-07-29T14:00:00+08:00/2025-07-29T16:50:00+08:00, PT2H50M
 - status: unscheduled
@@ -866,7 +866,7 @@ The content is in teaching order.
     - IP address / IPv6 addresses ::@:: In IPv6, the address size was increased from 32 bits in IPv4 to 128 bits, thus providing up to 2<sup>128</sup> \(approximately 3.403×10<sup>38</sup>\) addresses. This is deemed sufficient for the foreseeable future. <!--SR:!2026-12-15,387,370!2026-11-24,369,370-->
         - IP address / IPv6 addresses / datagram ::@:: Its datagram format also has a fixed-length 40-byte header, which helps with faster forwarding and processing. It also helps to facilitate quality of service \(QoS\). <!--SR:!2026-12-15,387,370!2027-01-18,414,370-->
 
-## week 4 lecture
+## week 4 lecture 1
 
 - datetime: 2025-08-04T14:00:00+08:00/2025-08-04T16:50:00+08:00, PT2H50M
 - topic: transport layer; application layer
@@ -931,14 +931,14 @@ The content is in teaching order.
     - Domain Name System / request ::@:: A DNS request is _iterative_ and _recursive_. The client sends DNS requests to DNS servers starting from the root name servers, which either refers to a lower level DNS server and the client repeats the above steps, or translates the domain name if known. <!--SR:!fsrs,2031-04-28T00:00:00.000Z,1650,1650.20759525,1,2,9,0,0,2026-10-21T00:00:00.000Z!2026-12-18,389,370-->
     - Domain Name System / cache ::@:: To reduce load, mappings are _cached_ for some time. <p> When a name server learns a mapping, it _caches_ it, which disappears after some time. This caching is often implemented in local name servers only, as responses from the root name servers are often cached by the client. <p> There is also a cache notify/update mechanism designed by a IETF working group \(dnsind\), e.g. RFC&nbsp;2136, etc. <!--SR:!2027-01-10,407,370!2026-12-30,399,370-->
 
-## week 4 tutorial
+## week 4 tutorial 1
 
 - datetime: 2025-08-06T14:00:00+08:00/2025-08-06T15:20:00+08:00, PT1H20M
 - topic: lab 6, time–frequency analysis
 - status: rescheduled
 - ELEC 1200
     - ELEC 1200 / lab 6 ::@:: speech signal → amplitude spectrum → speech signal approximation → channel frequency response <!--SR:!2027-01-12,408,370!2026-12-20,391,370-->
-- [§ week 4 lab](#week%204%20lab)
+- [§ week 4 lab 1](#week%204%20lab%201)
 
 ---
 
@@ -956,12 +956,12 @@ The content is in teaching order.
 > Regards, <br/>
 > \[redacted\]
 
-## week 4 lab
+## week 4 lab 1
 
 - datetime: 2025-08-07T14:00:00+08:00/2025-08-07T16:50:00+08:00, PT2H50M
 - topic: time—frequency analysis
 - status: attendance, rescheduled
-- [§ week 4 tutorial](#week%204%20tutorial)
+- [§ week 4 tutorial 1](#week%204%20tutorial%201)
 - ELEC 1200
     - ELEC 1200 / lab 6
 - assignment: [lab 6](assignments/lab%206/index.md)
@@ -987,7 +987,7 @@ The content is in teaching order.
 
 - datetime: 2025-08-06T14:00:00+08:00/2025-08-06T15:50:00+08:00, PT1H50M
 - topic: questions & answers
-- [§ week 4 tutorial](#week%204%20tutorial)
+- [§ week 4 tutorial 1](#week%204%20tutorial%201)
 - assignment: [homework 3](assignments/homework%203/index.md)
 
 ---

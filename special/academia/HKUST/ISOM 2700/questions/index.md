@@ -53,7 +53,7 @@ tags:
 >
 > - solution: {@{1/2/3/4/5}@} <!--SR:!2030-04-11,1425,356-->
 
-## week 7 lecture
+## week 7 lecture 1
 
 > Q1. What is your estimated workload for this semester \(normalize this course to one\)?
 >
@@ -67,7 +67,7 @@ tags:
 >
 > - solution: {@{1/2/3/4/5}@} <!--SR:!2030-03-20,1406,356-->
 
-## week 10 lecture
+## week 10 lecture 1
 
 > Q1. What is your current plan after undergraduate study?
 >
@@ -82,7 +82,7 @@ tags:
 >
 > - solution: {@{1/2/3/4/5/6}@} <!--SR:!fsrs,2030-12-29T00:00:00.000Z,1573,1572.7997959,1,2,9,0,0,2026-09-08T00:00:00.000Z-->
 
-## week 11 lecture
+## week 11 lecture 1
 
 > Q1. What did you mainly work on in the high school?
 >
@@ -95,7 +95,7 @@ tags:
 >
 > - solution: {@{1/2/3/4}@} <!--SR:!fsrs,2030-08-16T00:00:00.000Z,1470,1469.66764328,1,2,9,0,0,2026-08-07T00:00:00.000Z-->
 
-## week 13 lecture
+## week 13 lecture 1
 
 > Q1. Which of the following part do you think is the most interesting/useful one in this course?
 >
@@ -110,7 +110,7 @@ tags:
 >
 > - solution: {@{1/2/3/4/5/6}@} <!--SR:!fsrs,2030-04-28T00:00:00.000Z,1386,1385.60709761,1,2,9,0,0,2026-07-12T00:00:00.000Z-->
 
-## week 14 lecture
+## week 14 lecture 1
 
 > Q1. Given the following description of Tim, what job do you think he is more likely to do?
 >

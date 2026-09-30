@@ -1,23 +1,40 @@
 #!/usr/bin/env python
 """find_wikipedia.py
 
-Search English Wikipedia for a query and suggest safe filenames and a path
-suitable for linking under `general/` in the knowledgebase.
+Search English Wikipedia for a query and report canonical article titles,
+URLs, and short descriptions.
 
-The original script was intentionally conservative; this refactor adds
-strong typing with :mod:`pydantic` and improves terminal output using
-:mod:`rich`.  The overall behaviour is unchanged but the models make it
-easier to reason about the data and provide built-in validation.
+Two consumers depend on this helper, and they need different parts of the
+result:
 
-The CLI now supports a few additional options:
+* ``general/`` articles are mirrored under names that must be percent-encoded
+  for Markdown links.  Use ``filename`` for the on-disk name and
+  ``general_path`` for the link target.
+* ``special/academia/**`` topic notes use filenames containing literal spaces
+  (for example ``operating system.md``).  Use ``title`` verbatim as the
+  filename stem and the H1 heading, per the ``academic-crud-topic-note``
+  skill.  Neither ``filename`` nor ``friendly_filename`` is suitable there:
+  both are percent-encoded, and ``friendly_filename`` only preserves
+  ``-``/``_``/``–`` on top of that.
 
+``general_path`` is hard-coded as ``../../../../general/<filename>``, so it is
+only correct for a caller that sits four directories below the repository
+root.  All other callers must build their own path.
+
+The CLI supports a few options:
+
+* ``--limit N`` caps the number of search hits (default 3).
 * ``--full`` prints the full extract text when using ``--human``.
 * ``--json`` is an alias for the original (default) JSON output mode.
 
 Usage::
 
-    uv run .agents/skills/academic-crud-topic-note/find_wikipedia.py [--limit N]
+    uv run python .agents/skills/academic-crud-topic-note/find_wikipedia.py [--limit N]
         [--pretty] [--human] [--full] QUERY
+
+Skill scripts must be invoked through the workspace interpreter (``uv run
+python <script>``): ``uv run <script>`` resolves the environment from the
+script's own directory, which here has no dependencies.
 
 The JSON structure remains the same: ``title``, ``url``, ``filename``,
 ``friendly_filename``, ``general_path``, ``extract`` and ``extract_full``.
@@ -310,7 +327,7 @@ def main(argv: list[str] | None = None) -> None:
     """
     parser = argparse.ArgumentParser(
         prog="find_wikipedia.py",
-        description="Search English Wikipedia and suggest general/ link targets",
+        description="Search English Wikipedia for canonical titles and descriptions",
     )
     parser.add_argument("query", nargs="+", help="Search terms")
     parser.add_argument(

@@ -5,20 +5,27 @@ description: Create, read, update, and delete course-level AGENTS.md files under
 
 # Academic CRUD: AGENTS.md
 
-Create, read, update, and delete course-level `AGENTS.md` files. These files provide course-specific agent instructions and live at the course root.
+A course-level `AGENTS.md` holds what an agent needs to know about one course, and nothing that another course already says. It lives at the course root, beside `index.md`.
 
 ## Target
 
 `special/academia/<INSTITUTION>/<COURSE>/AGENTS.md`
 
+## Rules
+
+- The first heading is exactly `# <COURSE CODE> agent instructions`, and it survives every later edit.
+- YAML frontmatter is allowed (`aliases` and `tags` are the usual keys).
+- No flashcard markup (`{@{ }@}`, `::@::`, `:@:`).
+- No PII, no instructor or TA names, no email addresses.
+- Course-specific and short. Reference another skill by name rather than copying its rules, and once the file passes ~30 lines, move the detail into `.agents/instructions/`.
+- `\[missing\]` for a field that exists with no value (see [special.instructions.md](../../instructions/special.instructions.md#missing-data)).
+
 ## CRUD operations
 
 ### Create
 
-Scaffold a new `AGENTS.md` with the required heading and minimal structure.
-
-1. Verify no `AGENTS.md` already exists in the course root (confirm with user if it does).
-2. Write the file:
+1. Verify no `AGENTS.md` already exists in the course root; confirm with the user if one does.
+2. Write a file that satisfies the rules above:
 
 ```markdown
 # <COURSE CODE> agent instructions
@@ -26,46 +33,29 @@ Scaffold a new `AGENTS.md` with the required heading and minimal structure.
 <Course-specific rules and guidance>
 ```
 
-1. The first heading must be exactly `# <COURSE CODE> agent instructions`.
-2. Keep content concise and course-specific.
-3. Do not add flashcard markup to this file.
-
 ### Read
 
-Show the current agent instructions for a course. Read the file and present its contents.
+Show a course's current agent instructions.
 
 ### Update
 
-Modify the guidance in an existing `AGENTS.md`.
-
 1. Read the current file.
-2. Apply requested changes (add rules, update references, modify guidance).
-3. Preserve the `# <COURSE CODE> agent instructions` heading.
-4. Keep the file concise. Extract detailed rules into `.agents/instructions/` if they grow beyond ~30 lines.
+2. Apply the requested changes (add rules, update references, modify guidance).
+3. Check the result against the rules above, then validate.
 
 ### Delete
 
-Remove the `AGENTS.md` file.
-
-1. Confirm with the user before deleting.
+1. Confirm with the user.
 2. Remove the file.
 3. Remove the `[AGENTS](AGENTS.md)` link from the parent course `index.md` `## children` section (the validator requires this link when `AGENTS.md` exists).
 
-## Rules
-
-- First heading must be exactly `# <COURSE code> agent instructions`
-- YAML frontmatter is allowed and commonly used for `aliases` and `tags`
-- No flashcard markup (`{@{ }@}`, `::@::`, `:@:`) in this file
-- No PII, instructor names, or email addresses
-- Keep concise. Reference other skills by name, not by embedding their rules
-- If the file exceeds ~30 lines, split detailed rules into `.agents/instructions/` files
-- Use `\[missing\]` for placeholder fields with absent values. See [special.instructions.md](../../instructions/special.instructions.md#missing-data)
-
 ## Validation
 
-Run `academic-lint` after every edit. If you know which files changed, pass those files specifically. Otherwise lint the whole course folder.
+Run `academic-lint` after every edit, passing changed files when known.
+
+Give the rules you write the humanizer pass first. The catalogue's patterns read as noise in a course's own instruction file, where every sentence has to earn its place (see "Humanizer pass" in `academic-ingest`).
 
 ## References
 
-- `academic-crud-course-index` — for course structure and index linkage
-- `academic-lint` — validation
+- `academic-crud-course-index` for course structure and index linkage
+- `academic-lint` for validation

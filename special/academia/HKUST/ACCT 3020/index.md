@@ -64,7 +64,7 @@ The content is in teaching order.
     - due: 2026-03-22T23:59:00+08:00
     - link: [homework 1](assignments/homework%201/index.md)
 
-## week 1 lecture
+## week 1 lecture 1
 
 - datetime: 2026-02-04T16:30:00+08:00/2026-02-04T17:50:00+08:00, PT1H20M
 - venue: LSK Room 1014
@@ -99,7 +99,7 @@ The content is in teaching order.
     - [§ service-type warranty](provisions%20and%20contingencies.md#service-type-warranty)
     - [§ premiums and coupons](provisions%20and%20contingencies.md#premiums-and-coupons-consideration-payable)
 
-## week 2 lecture
+## week 2 lecture 1
 
 - datetime: 2026-02-11T16:30:00+08:00/2026-02-11T17:50:00+08:00, PT1H20M
 - venue: LSK Room 1014
@@ -128,7 +128,7 @@ The content is in teaching order.
         - [§ amortization tables: how to write one and how to use one](non-current%20liabilities.md#amortization-tables-how-to-write-one-and-how-to-use-one)
     - [§ year-end accrual between interest payment dates](non-current%20liabilities.md#year-end-accrual-between-interest-payment-dates)
 
-## week 3 lecture
+## week 3 lecture 1
 
 - datetime: 2026-02-18T16:30:00+08:00/2026-02-18T17:50:00+08:00, PT1H20M
 - status: public holiday: Lunar New Year
@@ -148,7 +148,7 @@ The content is in teaching order.
     - [§ choosing a discount rate for notes payable](non-current%20liabilities.md#choosing-a-discount-rate-for-notes-payable)
     - [§ extinguishment of debt (overview)](non-current%20liabilities.md#extinguishment-of-debt-overview)
 
-## week 4 lecture
+## week 4 lecture 1
 
 - datetime: 2026-02-25T16:30:00+08:00/2026-02-25T17:50:00+08:00, PT1H20M
 - venue: LSK Room 1014
@@ -178,7 +178,7 @@ The content is in teaching order.
     - [§ equity accounts: when do accounts have negative balances?](equity.md#equity-accounts-when-do-accounts-have-negative-balances)
         - [§ when equity premium is exhausted and when retained earnings is affected](equity.md#when-equity-premium-is-exhausted-and-when-retained-earnings-is-affected)
 
-## week 5 lecture
+## week 5 lecture 1
 
 - datetime: 2026-03-04T16:30:00+08:00/2026-03-04T17:50:00+08:00, PT1H20M
 - venue: LSK Room 1014
@@ -209,7 +209,7 @@ The content is in teaching order.
     - [§ applying the materiality matrix](ESG%20reporting.md#applying-the-materiality-matrix)
     - [§ current developments: HKFRS S1 and HKFRS S2](ESG%20reporting.md#current-developments-hkfrs-s1-and-hkfrs-s2)
 
-## week 6 lecture
+## week 6 lecture 1
 
 - datetime: 2026-03-11T16:30:00+08:00/2026-03-11T17:50:00+08:00, PT1H20M
 - venue: LSK Room 1014
@@ -229,7 +229,7 @@ The content is in teaching order.
     - [§ convertible securities: debt and preference shares](dilutive%20securities%20and%20earnings%20per%20share.md#convertible-securities-debt-and-preference-shares)
     - [§ warrants and share-based compensation](dilutive%20securities%20and%20earnings%20per%20share.md#warrants-and-share-based-compensation)
 
-## week 7 lecture
+## week 7 lecture 1
 
 - datetime: 2026-03-18T16:30:00+08:00/2026-03-18T17:50:00+08:00, PT1H20M
 - venue: LSK Room 1014
@@ -252,7 +252,7 @@ The content is in teaching order.
     - [§ debt investments at amortized cost](investments.md#debt-investments-at-amortized-cost)
     - [§ debt investments at fair value](investments.md#debt-investments-at-fair-value)
 
-## week 8 lecture
+## week 8 lecture 1
 
 - datetime: 2026-03-25T16:30:00+08:00/2026-03-25T17:50:00+08:00, PT1H20M
 - venue: LSK Room 1014
@@ -272,7 +272,7 @@ The content is in teaching order.
     - [§ derivatives used for speculation](investments.md#derivatives-used-for-speculation)
     - [§ hedge accounting and swaps](investments.md#hedge-accounting-and-swaps)
 
-## week 9 lecture
+## week 9 lecture 1
 
 - datetime: 2026-04-01T16:30:00+08:00/2026-04-01T17:50:00+08:00, PT1H20M
 - venue: LSK Room 1014
@@ -290,7 +290,7 @@ The content is in teaching order.
 - status: unscheduled: midterm study break
 - venue: LSK Room 1014
 
-## week 10 lecture
+## week 10 lecture 1
 
 - datetime: 2026-04-08T16:30:00+08:00/2026-04-08T17:50:00+08:00, PT1H20M
 - status: unscheduled: midterm study break
@@ -307,7 +307,7 @@ The content is in teaching order.
     - [§ income tax expense: current plus deferred](accounting%20for%20income%20taxes.md#income-tax-expense-current-plus-deferred)
     - [§ future tax rates and revisions of deferred taxes](accounting%20for%20income%20taxes.md#future-tax-rates-and-revisions-of-deferred-taxes)
 
-## week 11 lecture
+## week 11 lecture 1
 
 - datetime: 2026-04-15T16:30:00+08:00/2026-04-15T17:50:00+08:00, PT1H20M
 - venue: LSK Room 1014
@@ -316,7 +316,7 @@ The content is in teaching order.
     - [§ loss carryforwards and carrybacks](accounting%20for%20income%20taxes.md#loss-carryforwards-and-carrybacks)
     - [§ interperiod tax allocation and presentation](accounting%20for%20income%20taxes.md#interperiod-tax-allocation-and-presentation)
 
-## week 12 lecture
+## week 12 lecture 1
 
 - datetime: 2026-04-22T16:30:00+08:00/2026-04-22T17:50:00+08:00, PT1H20M
 - venue: LSK Room 1014
@@ -334,7 +334,7 @@ The content is in teaching order.
 - [pensions and postretirement benefits](pensions%20and%20postretirement%20benefits.md)
     - [§ pension worksheet](pensions%20and%20postretirement%20benefits.md#pension-worksheet)
 
-## week 13 lecture
+## week 13 lecture 1
 
 - datetime: 2026-04-29T16:30:00+08:00/2026-04-29T17:50:00+08:00, PT1H20M
 - venue: LSK Room 1014
@@ -350,7 +350,7 @@ The content is in teaching order.
 - status: public holiday: Labor Day
 - venue: LSK Room 1014
 
-## week 14 lecture
+## week 14 lecture 1
 
 - datetime: 2026-05-06T16:30:00+08:00/2026-05-06T17:50:00+08:00, PT1H20M
 - venue: LSK Room 1014
