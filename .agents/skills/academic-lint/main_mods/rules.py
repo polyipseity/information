@@ -1643,6 +1643,22 @@ def session_exam_order(ctx: ValidationContext) -> list[ValidationMessage]:
 
 # header and flashcard style --------------------------------------------------
 
+"""Submission content pages, which hold Canvas metadata rather than concepts."""
+_SUBMISSION_CONTENT_FILES = frozenset({"lab.md", "tutorial.md", "lecture.md"})
+
+
+def _flashcard_rule_exempt(path: Path) -> bool:
+    """Return whether *path* is out of scope for the flashcard rules.
+
+    Index and AGENTS pages list or instruct rather than teach, and a question
+    page records a question with its solution rather than stating cards.
+    """
+    name = path.name.lower()
+    parent_parts = [part.casefold() for part in path.parts[:-1]]
+    return (
+        name in {"index.md", "questions.md", "agents.md"} or "questions" in parent_parts
+    )
+
 
 # This rule was originally added in response to a validator failure when
 # a user created a 'numerical examples' section in ELEC 1100.  The
@@ -1793,14 +1809,7 @@ def header_flashcard_presence(ctx: ValidationContext) -> list[ValidationMessage]
     """
     errors: list[ValidationMessage] = []
     name = ctx.path.name.lower()
-    parent_parts = [part.casefold() for part in ctx.path.parts[:-1]]
-    if (
-        name == "index.md"
-        or name == "questions.md"
-        or name == "agents.md"
-        or name in {"lab.md", "tutorial.md", "lecture.md"}
-        or "questions" in parent_parts
-    ):
+    if _flashcard_rule_exempt(ctx.path) or name in _SUBMISSION_CONTENT_FILES:
         return errors
     headers = _build_filtered_header_positions(ctx.text, ctx.ast)
     for i, (hdr_pos, lvl, h) in enumerate(headers):
@@ -1849,14 +1858,9 @@ def header_flashcard_separator(ctx: ValidationContext) -> list[ValidationMessage
     This rule applies to headers at any level (e.g. #, ##, ###, etc.).
     """
     errors: list[ValidationMessage] = []
-    name = ctx.path.name.lower()
-    parent_parts = [part.casefold() for part in ctx.path.parts[:-1]]
     if (
-        name == "index.md"
-        or name == "questions.md"
-        or name == "agents.md"
-        or name in {"lab.md", "tutorial.md", "lecture.md"}
-        or "questions" in parent_parts
+        _flashcard_rule_exempt(ctx.path)
+        or ctx.path.name.lower() in _SUBMISSION_CONTENT_FILES
     ):
         return errors
     headers = _build_filtered_header_positions(ctx.text, ctx.ast)
@@ -1894,14 +1898,7 @@ def header_flashcard_style_mixed(ctx: ValidationContext) -> list[ValidationMessa
     see "Flashcard style per section" in `academic-ingest`.
     """
     errors: list[ValidationMessage] = []
-    name = ctx.path.name.lower()
-    parent_parts = [part.casefold() for part in ctx.path.parts[:-1]]
-    if (
-        name == "index.md"
-        or name == "questions.md"
-        or name == "agents.md"
-        or "questions" in parent_parts
-    ):
+    if _flashcard_rule_exempt(ctx.path):
         return errors
 
     prose_re = re.compile(
@@ -1946,14 +1943,9 @@ def header_flashcard_sections_duplicate(
 ) -> list[ValidationMessage]:
     """Disallow duplicate flashcard section markers within a single header block."""
     errors: list[ValidationMessage] = []
-    name = ctx.path.name.lower()
-    parent_parts = [part.casefold() for part in ctx.path.parts[:-1]]
     if (
-        name == "index.md"
-        or name == "questions.md"
-        or name == "agents.md"
-        or name in {"lab.md", "tutorial.md", "lecture.md"}
-        or "questions" in parent_parts
+        _flashcard_rule_exempt(ctx.path)
+        or ctx.path.name.lower() in _SUBMISSION_CONTENT_FILES
     ):
         return errors
 
