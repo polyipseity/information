@@ -44,6 +44,8 @@ __Mathematically technical notes:__ preserve the derivation or proof spine inste
 
 __Chapter-number prompts:__ when a note is organized by topic pages and lecture weeks rather than stored chapter pages, avoid prompts such as `Chapter 2 / ...`; use self-contained concept wording or the actual topic-note context.
 
+__Prompts name the thing:__ a bare label is not a prompt. `- overview ::@:: ...` asks nothing, since the word names the section's shape and the card can only be answered by recognising the note. `qa_prompt_generic` rejects a prompt whose every content word is a label; name the thing instead, or suppress the line when the bare label is the point.
+
 __Conceptual math-law cards:__ a descriptive prompt is often better than forcing the formula onto the left-hand side. When the card is genuinely conceptual rather than computational, prefer the descriptive prompt and, if needed, attach a targeted inline suppression comment on the same line instead of warping the card into a fake calculation.
 
 ## When to use
