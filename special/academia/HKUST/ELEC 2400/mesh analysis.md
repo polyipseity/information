@@ -84,7 +84,7 @@ Flashcards for this section are as follows:
 - why a supermesh: why does a shared current source block the mesh method? ::@:: The voltage across the source is not known from the mesh currents, so the voltage law cannot be written round either mesh alone.
 - supermesh relation: what does a shared $3\text{ A}$ current source contribute between $I$ and $I_2$ once a supermesh is defined? ::@:: The relation between the two mesh currents, for example $I - I_2 = 3\text{ A}$ for a $3\text{ A}$ source.
 - boundary source: what difficulty arises when a current source lies on the outer boundary of a mesh? ::@:: That mesh cannot be treated by a superloop, since the source has no second mesh to pair with, so the method becomes awkward and nodal analysis is preferred.
-- worked supermesh: a $4\text{ A}$ source spans two meshes separated by a $3\text{ A}$ source, with $1\ \Omega$, $2\ \Omega$, $3\ \Omega$, and $2\ \Omega$ resistors beside a $4\text{ V}$ and a $5\text{ V}$ source; find the mesh current $I$. ::@:: The current source gives $I - I_2 = 3\text{ A}$, and the combined loop gives $4 + 1I + 2(I - 4) + 3(I - 3 - 4) + 2(I - 3) - 5 = 0$, so $8I = 36$ and $I = 4.5\text{ A}$.
+- worked supermesh: a $4\text{ A}$ source spans two meshes carrying $I$ and $I_2$, with a $3\text{ A}$ source in the branch they share, so $I - I_2 = 3\text{ A}$; round the two together, the outline holds a $4\text{ V}$ source, a $1\ \Omega$ resistor at $I$, a $2\ \Omega$ at $I - 4\text{ A}$, a $3\ \Omega$ at $I - 7\text{ A}$, a $2\ \Omega$ at $I - 3\text{ A}$, and a $5\text{ V}$ source; find $I$. ::@:: The combined outline gives $4 + 1I + 2(I - 4) + 3(I - 3 - 4) + 2(I - 3) - 5 = 0$, so $8I = 36$ and $I = 4.5\text{ A}$.
 
 ## against nodal analysis
 

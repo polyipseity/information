@@ -25,7 +25,7 @@ Flashcards for this section are as follows:
 
 ## procedure
 
-For a circuit with $N$ nodes the procedure runs in order: pick a ground node and assign unknown voltages $V_a, V_b, \dots$ to the other $N - 1$ nodes; assign a reference direction to every branch; handle the $K$ voltage sources; write the current law equation at every node and supernode; and collect $N - 1 + K$ equations together with the node-voltage differences the sources impose.
+For a circuit with $N$ nodes the procedure runs in order. Pick a ground node and assign unknown voltages $V_a, V_b, \dots$ to the other $N - 1$ nodes, assign a reference direction to every branch, and handle the $K$ voltage sources. Then write the current law equation at every node and supernode, and collect $N - 1 + K$ equations together with the node-voltage differences the sources impose.
 
 The final steps are a check and a solve: confirm that equations and unknowns match in number, solve the linear system, which is matrix inversion in practice, and only then compute branch currents from the node voltages if they are wanted.
 
@@ -42,8 +42,8 @@ Flashcards for this section are as follows:
 - order of work: at which point in the procedure are branch currents computed? ::@:: Last, and only if wanted: the current law is written in node voltages, and currents follow from them once the voltages are known.
 - consistency check: why check the number of equations against the number of unknowns before solving? ::@:: A mismatch means a node or a source was skipped, and the linear system would be under- or over-determined.
 - non-listed step: how much of the procedure is a matter of choice? ::@:: Only the choice of reference node; the remaining equations are dictated by the circuit.
-- two-node solve: a circuit has a $2\text{ A}$ source entering node $V_a$, a $1\text{ A}$ source leaving node $V_b$, $3\ \Omega$ and $2\ \Omega$ resistors about $V_a$, and $1\ \Omega$ about $V_b$; write the two node equations. ::@:: $2 = \frac{V_a}{3} + \frac{V_a - V_b}{2}$, giving $5V_a - 3V_b = 12$, and $\frac{V_a - V_b}{2} = \frac{V_b}{1} + 1$, giving $V_a - 3V_b = 2$.
-- two-node solution: the equations $5V_a - 3V_b = 12$ and $V_a - 3V_b = 2$ describe a two-node circuit; find the node voltages and the three branch currents. ::@:: Subtracting gives $4V_a = 10$, so $V_a = \frac{5}{2}\text{ V}$ and $V_b = \frac{1}{6}\text{ V}$, with $I_1 = \frac{1}{6}\text{ A}$, $I_2 = \frac{7}{6}\text{ A}$, and $I_3 = \frac{5}{6}\text{ A}$.
+- two-node solve: a $2\text{ A}$ source enters node $V_a$, a $3\ \Omega$ resistor joins $V_a$ to ground, a $2\ \Omega$ resistor joins $V_a$ to node $V_b$, a $1\ \Omega$ resistor joins $V_b$ to ground, and a $1\text{ A}$ source leaves $V_b$; write the two node equations. ::@:: $2 = \frac{V_a}{3} + \frac{V_a - V_b}{2}$, giving $5V_a - 3V_b = 12$, and $\frac{V_a - V_b}{2} = \frac{V_b}{1} + 1$, giving $V_a - 3V_b = 2$.
+- two-node solution: the equations $5V_a - 3V_b = 12$ and $V_a - 3V_b = 2$ come from a two-node circuit whose $3\ \Omega$ resistor joins $V_a$ to ground, whose $2\ \Omega$ resistor joins $V_a$ to $V_b$, and whose $1\ \Omega$ resistor joins $V_b$ to ground; find the node voltages and the current in each of those three resistors. ::@:: Subtracting the equations gives $4V_a = 10$, so $V_a = \frac{5}{2}\text{ V}$ and $V_b = \frac{1}{6}\text{ V}$, with $I_1 = \frac{1}{6}\text{ A}$ through the $1\ \Omega$, $I_2 = \frac{7}{6}\text{ A}$ through the $2\ \Omega$, and $I_3 = \frac{5}{6}\text{ A}$ through the $3\ \Omega$.
 
 ## reference node
 
@@ -88,7 +88,7 @@ Flashcards for this section are as follows:
 - overview ::@:: A supernode is the region enclosing a voltage source's two terminals, treated as one node for the current law while the source itself supplies the relation between the two node voltages.
 - why a supernode: what problem does grouping a voltage source's terminals solve? ::@:: The current through the floating source is unknown, so the current law is applied to the enclosing region instead, where every remaining current is a resistor current expressible in node voltages.
 - supernode equation: what equation does the voltage source still contribute once its terminals form a supernode? ::@:: The difference between the two node voltages, fixed by the source's value.
-- worked supernode: in the circuit with a $6\text{ V}$ source at node $V_a$ through $2\text{ k}\Omega$, a $12\text{ V}$ source to $V_b$, resistors $1\text{ k}\Omega$ and $2\text{ k}\Omega$ to ground, and a $-4\text{ V}$ source beyond $V_b$ through $2\text{ k}\Omega$, what is $V_a$ and what is $I_o$? ::@:: $\frac{6 - V_a}{2\text{ k}} = \frac{V_a}{1\text{ k}} + \frac{V_a + 12}{2\text{ k}} + \frac{V_a + 12 - (-4)}{2\text{ k}}$ gives $V_a = -\frac{22}{5}\text{ V}$ and $I_o = \frac{V_a + 12}{2\text{ k}\Omega} = 3.8\text{ mA}$.
+- worked supernode: a $6\text{ V}$ source reaches node $V_a$ through $2\text{ k}\Omega$, a $12\text{ V}$ source joins $V_a$ to node $V_b$ and carries $I_o$, a $1\text{ k}\Omega$ resistor joins $V_a$ to ground, a $2\text{ k}\Omega$ resistor joins $V_b$ to ground, and a $-4\text{ V}$ source with its $+$ mark at $V_b$ joins $V_b$ to a further $2\text{ k}\Omega$ resistor running to ground; what is $V_a$ and what is $I_o$? ::@:: $\frac{6 - V_a}{2\text{ k}} = \frac{V_a}{1\text{ k}} + \frac{V_a + 12}{2\text{ k}} + \frac{V_a + 12 - (-4)}{2\text{ k}}$ gives $V_a = -\frac{22}{5}\text{ V}$ and $I_o = \frac{V_a + 12}{2\text{ k}\Omega} = 3.8\text{ mA}$.
 
 ## dependent sources
 
@@ -102,7 +102,7 @@ Flashcards for this section are as follows:
 
 - overview ::@:: A dependent source enters the node equations as an extra unknown that must be rewritten in node voltages, after which the system solves as before.
 - controlling quantity first: why must the controlling quantity of a dependent source be written in node voltages before solving? ::@:: The controlling quantity is itself a function of the node voltages, so the equations hold more unknowns than they can determine until it is expressed that way.
-- dependent source in a node equation: a $10\text{ V}$ source feeds a $2\ \Omega$ resistor carrying $I_1$ to node $V_a$, which also carries a $3\text{ A}$ source, a $1\ \Omega$ resistor, and a dependent source $2I_1$; write the current law and solve. ::@:: $I_1 + 3 = \frac{V_a - 2I_1}{1}$ with $I_1 = \frac{10 - V_a}{2}$ gives $10 - V_a + 6 = 4V_a - 20$, so $V_a = 7.2\text{ V}$ and $I_1 = 1.4\text{ A}$.
+- dependent source in a node equation: a $10\text{ V}$ source feeds a $2\ \Omega$ resistor carrying $I_1$ into node $V_a$, a $3\text{ A}$ source also enters $V_a$, and a $1\ \Omega$ resistor joins $V_a$ to a node that a dependent voltage source holds at $2I_1$ above ground; write the current law and solve. ::@:: $I_1 + 3 = \frac{V_a - 2I_1}{1}$ with $I_1 = \frac{10 - V_a}{2}$ gives $10 - V_a + 6 = 4V_a - 20$, so $V_a = 7.2\text{ V}$ and $I_1 = 1.4\text{ A}$.
 
 ## counting the equations
 
@@ -116,7 +116,7 @@ Flashcards for this section are as follows:
 
 - overview ::@:: The current-variable route yields $N - 1 + K$ equations for $N$ nodes and $K$ voltage sources, while the supernode route yields $N - 1 - K$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - equation count with current variables: a circuit has $N = 5$ nodes and $K = 2$ voltage sources; how many equations does the current-variable route give? ::@:: $N - 1 + K = 5 - 1 + 2 = 6$ equations, one unknown current added per source.
-- equation count with supernodes: the same circuit of $N = 5$ nodes and $K = 2$ voltage sources; how many equations does the supernode route give? ::@:: $N - 1 - K = 5 - 1 - 2 = 2$: each source merges two nodes and removes an equation, adding no unknown.
+- equation count with supernodes: a circuit of $N = 5$ nodes holds $K = 2$ voltage sources; how many equations does the supernode route give? ::@:: $N - 1 - K = 5 - 1 - 2 = 2$: each source merges two nodes and removes an equation, adding no unknown.
 - choosing between the routes: which route is shorter when a circuit holds many voltage sources? ::@:: The supernode route, which drops one equation per source instead of adding an unknown and an equation.
 
 ## nodal analysis in circuit simulation

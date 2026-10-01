@@ -109,5 +109,5 @@ Flashcards for this section are as follows:
 - overview ::@:: A mixed network is reduced by applying the series and parallel rules from the innermost pair outwards until a single resistor remains.
 - reduction order: which pair of a mixed network is reduced first? ::@:: The innermost pair that is unambiguously in series or in parallel.
 - ladder step one: in a ladder of $50\ \Omega$ in parallel with ($30\ \Omega$ in series with $30\ \Omega \| 60\ \Omega$), what is the first reduction? ::@:: $30\ \Omega \| 60\ \Omega = \frac{30 \times 60}{30 + 60}\ \Omega = 20\ \Omega$.
-- ladder result: after that first reduction, what is $R_{\text{eq}}$? ::@:: $30\ \Omega + 20\ \Omega = 50\ \Omega$, then $50\ \Omega \| 50\ \Omega = 25\ \Omega$.
+- ladder result: in a ladder of $50\ \Omega$ in parallel with ($30\ \Omega$ in series with $30\ \Omega \| 60\ \Omega$), what is $R_{\text{eq}}$? ::@:: $30\ \Omega \| 60\ \Omega = 20\ \Omega$, then $30\ \Omega + 20\ \Omega = 50\ \Omega$, and $50\ \Omega \| 50\ \Omega = 25\ \Omega$.
 - grouping: may the series and parallel rules be applied to a sub-network rather than to one resistor? ::@:: Yes: each reduction replaces a whole sub-network by its single equivalent resistor, and the rules then apply to the result.

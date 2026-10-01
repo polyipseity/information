@@ -42,7 +42,7 @@ Dividing the branch current by the source current cancels the shared voltage, $\
 
 In conductances the same statement is a proportion, $I_{R1} = I_s \frac{G_1}{G_1 + G_2}$: a branch takes the share of the current equal to its share of the conductance.
 
-With two sources feeding the parallel pair, $I_2 = (8\text{ A} + 4\text{ A}) \times \frac{2}{2 + 4} = 4\text{ A}$ in the $4\ \Omega$ branch and $I_3 = 12\text{ A} - 4\text{ A} = 8\text{ A}$ in the $2\ \Omega$ branch, so $V_B = 8\text{ A} \times 2\ \Omega = 16\text{ V}$ and $V_A = V_B - (-4\text{ A} \times 2\ \Omega) = 24\text{ V}$.
+With two sources feeding the parallel pair, $I_2 = (8\text{ A} + 4\text{ A}) \times \frac{2}{2 + 4} = 4\text{ A}$ in the $4\ \Omega$ branch and $I_3 = 12\text{ A} - 4\text{ A} = 8\text{ A}$ in the $2\ \Omega$ branch.
 
 ---
 
@@ -53,7 +53,6 @@ Flashcards for this section are as follows:
 - conductance form: express $I_{R1}$ through the conductances $G_1$ and $G_2$. ::@:: $I_{R1} = I_s \frac{G_1}{G_1 + G_2}$: a branch takes the share of the current equal to its share of the conductance.
 - worked split: a $6\text{ A}$ source feeds $R_1 = 2\ \Omega$ and $R_2 = 4\ \Omega$ in parallel; find $I_{R1}$ and $I_{R2}$. ::@:: $I_{R1} = 6\text{ A} \times \frac{4}{2+4} = 4\text{ A}$ and $I_{R2} = 6\text{ A} \times \frac{2}{2+4} = 2\text{ A}$.
 - worked split with two sources: sources of $8\text{ A}$ and $4\text{ A}$ feed a parallel pair of $4\ \Omega$ and $2\ \Omega$; find the current in each branch. ::@:: $I_2 = 12\text{ A} \times \frac{2}{2+4} = 4\text{ A}$ in the $4\ \Omega$ branch and $I_3 = 12\text{ A} - 4\text{ A} = 8\text{ A}$ in the $2\ \Omega$ branch.
-- node voltages from a split: that circuit has $I_3 = 8\text{ A}$ through a $2\ \Omega$ resistor and $I_1 = -4\text{ A}$ through the other one; find $V_B$ and $V_A$. ::@:: $V_B = 8\text{ A} \times 2\ \Omega = 16\text{ V}$ and $V_A = V_B - (-4\text{ A} \times 2\ \Omega) = 24\text{ V}$.
 
 ## which branch takes more current
 

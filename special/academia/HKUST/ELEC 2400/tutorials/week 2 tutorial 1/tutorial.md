@@ -25,9 +25,7 @@ A voltage marked across a plain wire is zero however much current the wire carri
 Flashcards for this section are as follows:
 
 - overview ::@:: The sign in $V = IR$ is fixed by the drawn current arrow: $V = +IR$ when the arrow runs from the $+$ mark to the $-$ mark, and $V = -IR$ when it runs the other way. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- arrow with the marks: a $4\ \Omega$ resistor carries $I_1 = 2\text{ A}$ along an arrow running from its $+$ mark to its $-$ mark; what is $V_1$? ::@:: $V_1 = +I_1R = (2\text{ A})(4\ \Omega) = +8\text{ V}$.
-- arrow against the marks: the same resistor carries $I_1 = -2\text{ A}$ along an arrow running from its $-$ mark to its $+$ mark; what is $V_1$? ::@:: $V_1 = -I_1R = -(-2\text{ A})(4\ \Omega) = +8\text{ V}$.
-- why reversing the arrow changes nothing: why does reversing the current arrow on a resistor leave the voltage across it unchanged? ::@:: The arrow is only a reference direction, so reversing it reverses the sign of the reported current: $+2\text{ A}$ against the marks and $-2\text{ A}$ with them give the same $+8\text{ V}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- why reversing the arrow changes nothing: why does reversing the current arrow on a resistor leave the voltage across it unchanged? <p> ![a resistor marked plus at one end and minus at the other, with a current arrow below it running from the plus mark to the minus mark](../../attachments/reference_direction_with.svg) ![the same resistor with the current arrow below it running from the minus mark to the plus mark](../../attachments/reference_direction_against.svg) ::@:: The arrow is only a reference direction, so reversing it reverses the sign of the reported current: $+2\text{ A}$ against the marks and $-2\text{ A}$ with them give the same $+8\text{ V}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - voltage across a wire: a plain wire carries a current, and a voltage $V_2$ is marked across a section of it; what is $V_2$? ::@:: $V_2 = 0$: the wire is one node, so its two ends sit at the same potential.
 
 ## series and parallel connections
@@ -46,9 +44,6 @@ Flashcards for this section are as follows:
 - series criterion: when are two elements in series? ::@:: When they share both terminals and no other element reaches the node between them, so a single current runs through both.
 - parallel criterion: when are two elements in parallel? ::@:: When they span the same two nodes, so both carry the same voltage.
 - one shared terminal: two elements share one terminal and a third element also reaches it; are the two in series or in parallel? ::@:: Neither: the third element lets current branch at the shared terminal, so the pair is neither series nor parallel.
-- a series case: $R_1$ and $R_2$ meet at one node that reaches nothing else, their far ends being on $P$ and $S$; which? ::@:: In series, since the same current runs through both.
-- a parallel case: $R_3$ and $R_4$ both join node $P$ to node $Q$; which? ::@:: In parallel, since they span the same two nodes.
-- a neither case: $R_5$ and $R_6$ share node $P$, and $R_7$ reaches $P$ as well; which? ::@:: Neither, since current can branch at $P$ and neither combination rule applies.
 
 ## current direction around a source
 
@@ -66,7 +61,6 @@ Flashcards for this section are as follows:
 - what the resistor does: the current enters the $1\ \Omega$ resistor; what does the resistor do? ::@:: It absorbs energy and dissipates it as heat.
 - battery charger load: the $1\ \Omega$ resistor is replaced by a battery charger; which way does the current at the top of the $10\text{ V}$ source run? ::@:: Into the $+$ terminal, the opposite way, so the source is being charged.
 - unspecified load: a $10\text{ V}$ source drives a load that has not been stated; which way does the current leave it? ::@:: It cannot be determined, since the direction follows from the load and the load is unknown.
-- node potentials: a $10\text{ V}$ source is grounded at its $-$ terminal and a $1\ \Omega$ resistor closes the loop; what are the potentials at the top and the bottom of the resistor? ::@:: $10\text{ V}$ at the top and $0\text{ V}$ at the bottom.
 
 ## absorbing and delivering power
 
@@ -79,11 +73,7 @@ A positive power means the element absorbs and dissipates, a negative power that
 Flashcards for this section are as follows:
 
 - overview ::@:: The current arrow read against the $+$ mark fixes the sign of the power: $P = -VI$ when the arrow leaves the $+$ terminal, and $P = +VI$ when it enters. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- what the sign means: a positive power over an element means what, and a negative one? ::@:: Positive means the element absorbs and dissipates the power; negative means it delivers power.
-- no current value: an element carries a marked voltage and a drawn current arrow but no current value; can it be called absorbing or delivering? ::@:: No: the sign of the product stays unknown, so no verdict follows.
-- arrow leaving the plus mark: the current arrow leaves the terminal marked $+$; what sign does the power take? ::@:: $P = -VI$, because the current entering the $+$ terminal is $-I$.
-- arrow entering the plus mark: the current arrow enters the terminal marked $+$; what sign does the power take? ::@:: $P = +VI$, as written.
-- negative reference current: an element has $V_1 = 4\text{ V}$, its current arrow leaves the $+$ terminal, and $I_1 = -2\text{ A}$; what is its power and what is it doing? ::@:: $P_1 = -(4\text{ V})(-2\text{ A}) = +8\text{ W}$, and it absorbs $8\text{ W}$.
+- what the sign means: a positive power over an element means what, and a negative one? <p> ![a two-terminal element marked plus at the top, with the current arrow beside the upper lead pointing up and away from the plus mark](../../attachments/power_reference_current_out_of_plus.svg) ![the same element with the current arrow beside the upper lead pointing down into the plus mark](../../attachments/power_reference_current_into_plus.svg) ::@:: Positive means the element absorbs and dissipates the power; negative means it delivers power.
 
 ## what an ideal source fixes
 
@@ -94,8 +84,6 @@ An ideal source fixes one terminal quantity and leaves the other to the circuit.
 Flashcards for this section are as follows:
 
 - overview ::@:: An ideal source fixes one terminal quantity and leaves the other to the load: a voltage source fixes its terminal voltage, a current source fixes its terminal current.
-- ideal voltage source: a $10\text{ V}$ ideal voltage source drives any load; what are $V_{ab}$ and $I$? ::@:: $V_{ab} = 10\text{ V}$ always, while $I$ is undetermined and may take any value, positive or negative, as the load demands.
-- ideal current source: a $10\text{ A}$ ideal current source drives any load; what are $I$ and $V_{ab}$? ::@:: $I = 10\text{ A}$ always, while $V_{ab}$ is undetermined and may take any value, positive or negative, as the load demands.
 
 ## sign convention at a node
 
@@ -108,10 +96,6 @@ Written instead as a single zero sum, each current counts with the sign of the d
 Flashcards for this section are as follows:
 
 - overview ::@:: At a node each current counts with the sign of the direction its arrow was given, so $\sum I = 0$ holds whichever of _in_ and _out_ is taken as positive. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- in as positive: a node has $i_1$ and $i_2$ drawn in and $i_3$ and $i_4$ drawn out; what does the law give with _in_ taken as positive? ::@:: $i_1 + i_2 + (-1)i_3 + (-1)i_4 = 0$.
-- out as positive: the same node with _out_ taken as positive instead; what does the law give? ::@:: $(-1)i_1 + (-1)i_2 + i_3 + i_4 = 0$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- the current-in form: with $i_1$ and $i_2$ drawn in and $i_3$ and $i_4$ drawn out, write the law without signed terms. ::@:: $i_1 + i_2 = i_3 + i_4$.
-- choosing the positive direction: the two signed forms of the current law at one node; do they constrain it in the same way? ::@:: Yes: taking _out_ rather than _in_ as positive negates every term, which leaves the constraint unchanged.
 
 ### applying the current law at a node
 
@@ -131,10 +115,6 @@ In a loop of a source and a load $R_L$ whose marks face opposite ways round the 
 Flashcards for this section are as follows:
 
 - overview ::@:: The sign of a term in a loop equation is fixed by the element's marked polarity read against the direction of travel: $-$ to $+$ is a positive rise, $+$ to $-$ a negative drop. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- marks facing opposite ways: a loop holds a source marked $+$ at the top and a load marked $-$ at the top; what equation does the voltage law give? ::@:: $V_1 + V_2 = 0$, so the two always carry opposite signs.
-- following from the equation: in that loop $V_1$ is positive; what is $V_2$? ::@:: $V_2$ is negative, because $V_1 + V_2 = 0$.
-- reversing both marks: both elements of that loop have their marks reversed; what equation does the voltage law give, and what follows? ::@:: $(-1)V_1 + V_2 = 0$, in which $V_1$ negative goes with $V_2$ negative and $V_1$ positive with $V_2$ positive. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- a longer loop: does the sign of a term depend on how many elements the loop holds? ::@:: No: each term takes the sign of its own mark read against the direction of travel, whatever the loop's length.
 
 ### applying the voltage law round a loop
 

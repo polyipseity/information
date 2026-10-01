@@ -63,7 +63,7 @@ Flashcards for this section are as follows:
 - dependent sources: are dependent sources set to zero along with the independent ones? ::@:: No: they remain operative in every partial circuit, with their controlling quantity recomputed for that circuit.
 - homogeneity in a circuit: a resistive circuit is solved for $V_s = 6\text{ V}$ and again for $V_s = 12\text{ V}$, giving $V_A = 3\text{ V}$ and $6\text{ V}$; what property does that exhibit? ::@:: Homogeneity: the node voltages $V_A = 0.5 V_s$ and $V_B = 0.25 V_s$ are proportional to the source.
 - a branch outside a contribution: a $4\text{ V}$ source stands in parallel with a $2\ \Omega$ resistor, and that combination sits in series with a $2\text{ A}$ source; what part does it play in the current $I_1$ of a neighbouring branch? ::@:: None: the combination is in series with the current source, so it contributes nothing to $I_1$.
-- worked superposition with a current source: in that circuit the $6\text{ V}$ source alone gives $I_1 = \frac{6\text{ V}}{2\ \Omega + 2\ \Omega}$ and the $2\text{ A}$ source alone gives $I_1 = \frac{2\ \Omega}{2\ \Omega + 2\ \Omega} \times 2\text{ A}$; find the total $I_1$. ::@:: $I_1 = 1.5\text{ A} + 1\text{ A} = 2.5\text{ A}$.
+- worked superposition with a current source: a $6\text{ V}$ source and a $2\text{ A}$ source drive a branch carrying $I_1$ through $2\ \Omega$ resistors, the $6\text{ V}$ source alone giving $I_1 = \frac{6\text{ V}}{2\ \Omega + 2\ \Omega}$ and the $2\text{ A}$ source alone giving $I_1 = \frac{2\ \Omega}{2\ \Omega + 2\ \Omega} \times 2\text{ A}$; find the total $I_1$. ::@:: $I_1 = 1.5\text{ A} + 1\text{ A} = 2.5\text{ A}$.
 
 ## combining contributions
 
