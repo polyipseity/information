@@ -3482,6 +3482,203 @@ def topic_note_redundant_filename_prefix(
     return errors
 
 
+# generic card prompts -------------------------------------------------------
+
+"""Words that name a section's shape rather than its content.
+
+A prompt built only from these asks the reader nothing, because the answer
+hangs off a word that could label any section of any note. The list is
+deliberately short: a prompt carrying one real content word is a prompt.
+"""
+_GENERIC_PROMPT_WORDS = frozenset(
+    {
+        "background",
+        "basic",
+        "basics",
+        "benefit",
+        "brief",
+        "broader",
+        "cause",
+        "cheat",
+        "concept",
+        "concepts",
+        "cons",
+        "context",
+        "definition",
+        "definitions",
+        "detail",
+        "details",
+        "discussion",
+        "effect",
+        "equation",
+        "equations",
+        "example",
+        "examples",
+        "formula",
+        "formulas",
+        "gist",
+        "glance",
+        "important",
+        "insight",
+        "intro",
+        "introduction",
+        "key",
+        "level",
+        "method",
+        "note",
+        "notes",
+        "outline",
+        "overview",
+        "part",
+        "point",
+        "points",
+        "problem",
+        "pros",
+        "purpose",
+        "quick",
+        "reason",
+        "recap",
+        "remark",
+        "review",
+        "revision",
+        "section",
+        "sheet",
+        "solution",
+        "summary",
+        "takeaway",
+        "topic",
+        "usage",
+    }
+)
+
+"""Words that cannot make a prompt generic on their own.
+
+Dropping them keeps the Boolean-gate card ``- AND ::@::`` and the Python
+keyword card ``- `in` `` out of the rule: both name a subject.
+"""
+_PROMPT_FUNCTION_WORDS = frozenset(
+    {
+        "a",
+        "an",
+        "and",
+        "are",
+        "as",
+        "at",
+        "be",
+        "by",
+        "do",
+        "does",
+        "for",
+        "from",
+        "how",
+        "if",
+        "in",
+        "into",
+        "is",
+        "it",
+        "its",
+        "no",
+        "not",
+        "of",
+        "on",
+        "or",
+        "per",
+        "that",
+        "the",
+        "then",
+        "this",
+        "to",
+        "vs",
+        "what",
+        "when",
+        "where",
+        "which",
+        "who",
+        "why",
+        "with",
+    }
+)
+
+
+def _prompt_content_words(prompt: str) -> list[str]:
+    """Return the content words of a card prompt, with its markup stripped.
+
+    List markers, blockquote markers, link syntax, inline code, math, and cloze
+    markup all go, because a prompt still has to name something once they are
+    off. Function words go too, so a subject that happens to be one of them
+    survives. Returns an empty list for a section-link card or a hierarchical
+    gloss: both name a place in the note rather than a fact, and the rule has
+    nothing to say about them.
+    """
+    text = re.sub(r"^\s*(?:[-*+]\s+|\d+[.)]\s+|>+\s*)", "", prompt)
+    if text.lstrip().startswith("[§") or "/" in text:
+        return []
+    text = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", text)
+    text = re.sub(r"[`*_~]", "", text)
+    text = re.sub(r"\{@\{.*?\}@\}", " ", text)
+    text = re.sub(r"\$[^$]*\$", " ", text)
+    text = re.sub(r"\[[^\]]*\]", " ", text)
+    return [
+        word
+        for word in re.findall(r"[A-Za-z]+", text.lower())
+        if word not in _PROMPT_FUNCTION_WORDS
+    ]
+
+
+@RULE_REGISTRY.register()
+def qa_prompt_generic(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Error when a QA card's prompt is a bare label such as 'overview'.
+
+    ``- overview ::@:: ...`` gives the reader nothing to answer: the prompt
+    names the section's shape instead of its content, so the card can only be
+    recalled by recognising the note it came from. A prompt has to name the
+    specific thing being recalled. See "Academic conventions" in
+    `create-flashcards` for the prompt-side rules.
+    """
+    errors: list[ValidationMessage] = []
+    if (
+        _flashcard_rule_exempt(ctx.path)
+        or ctx.path.name.lower() in _SUBMISSION_CONTENT_FILES
+    ):
+        return errors
+    for idx, line in enumerate(ctx.text.splitlines(), start=1):
+        if line.count("::@::") == 1:
+            prompt = line.split("::@::", 1)[0]
+            col = line.find("::@::") + 1
+        elif "::@::" not in line and line.count(":@:") == 1:
+            prompt = line.split(":@:", 1)[0]
+            col = line.find(":@:") + 1
+        else:
+            # No separator is prose; two or more belong to
+            # qa_multiple_separators.
+            continue
+        words = _prompt_content_words(prompt)
+        if not words or not all(w in _GENERIC_PROMPT_WORDS for w in words):
+            continue
+        errors.append(
+            ValidationMessage(
+                rule_id="qa_prompt_generic",
+                msg=(
+                    f"card prompt {prompt.strip()!r} is a bare label, not a question; "
+                    "the left-hand side has to name the specific thing being "
+                    "recalled, and a label for the section itself names nothing. "
+                    "Rewrite it so the reader knows what to answer:\n"
+                    "before: - overview ::@:: Linear regression predicts a real-valued "
+                    "target from an affine score.\n"
+                    "after:  - what does a linear regression model predict, and how? "
+                    "::@:: A real-valued target from an affine score in the features. "
+                    "Keep the suppression comment at the end of the card line if the "
+                    "bare label really is the whole point: "
+                    "`<!-- check: ignore-line[qa_prompt_generic]: reason -->`"
+                ),
+                line=idx,
+                col=col,
+                col_end=len(line.rstrip()) + 1,
+            )
+        )
+    return errors
+
+
 @RULE_REGISTRY.register()
 def qa_missing_separator(ctx: ValidationContext) -> list[ValidationMessage]:
     """Check for QA-style flashcard lists without a preceding separator phrase.

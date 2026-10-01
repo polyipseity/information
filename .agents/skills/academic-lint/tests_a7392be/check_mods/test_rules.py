@@ -79,6 +79,7 @@ from main_mods.rules import (
     one_sided_calc_warning,
     qa_hierarchical_path,
     qa_nested_indentation,
+    qa_prompt_generic,
     section_example_heading,
     session_datetime_order,
     session_duplicate_heading,
@@ -1707,6 +1708,68 @@ def test_qa_nested_indentation_two_spaces_per_level():
     )
     msgs_jump = qa_nested_indentation(make_ctx(bad_jump, Path("/tmp/course/topic.md")))
     assert msgs_jump and msgs_jump[0].rule_id == "qa_nested_indentation"
+
+
+def test_qa_prompt_generic_rejects_bare_labels():
+    """A prompt made only of section labels asks the reader nothing."""
+
+    path = Path("/tmp/course/topic.md")
+    for prompt in (
+        "- overview ::@:: Linear regression predicts a real-valued target.",
+        "- overview :@: Linear regression predicts a real-valued target.",
+        "- overview with formulas ::@:: Three viewpoints on classification.",
+        "- key points :@: The interval runs from the lower to the upper bound.",
+        "- Summary of the section ::@:: The unit is a dimensionless ratio.",
+    ):
+        ctx = make_ctx(f"# topic\n\n{prompt}\n", path)
+        msgs = qa_prompt_generic(ctx)
+        assert msgs, f"expected a message for {prompt!r}"
+        assert msgs[0].rule_id == "qa_prompt_generic"
+        assert msgs[0].severity == Severity.ERROR
+
+
+def test_qa_prompt_generic_allows_a_named_prompt():
+    """A prompt carrying one real content word is a prompt."""
+
+    path = Path("/tmp/course/topic.md")
+    for prompt in (
+        "- why the one-feature example is useful ::@:: It turns learning into calculus.",
+        "- how does a rectifier differ from a sigmoid? ::@:: The rectifier keeps "
+        "the positive side close to identity.",
+        "- AND ::@:: A logical conjunction, true when both inputs are true.",
+        "- `in` ::@:: A Python membership test.",
+        "- what is the role of the intercept? ::@:: It shifts the score by a constant.",
+    ):
+        ctx = make_ctx(f"# topic\n\n{prompt}\n", path)
+        assert not qa_prompt_generic(ctx), f"unexpected message for {prompt!r}"
+
+
+def test_qa_prompt_generic_skips_structural_prompts():
+    """Section-link cards and course-path glosses name a place, not a fact."""
+
+    path = Path("/tmp/course/topic.md")
+    for prompt in (
+        "- [§ overview](index.md#overview) ::@:: The course map for COMP 4211.",
+        "- COMP 4211 / overview ::@:: The note's course map.",
+        "- overview ::@:: one ::@:: two",
+    ):
+        ctx = make_ctx(f"# topic\n\n{prompt}\n", path)
+        assert not qa_prompt_generic(ctx), f"unexpected message for {prompt!r}"
+
+
+def test_qa_prompt_generic_exempt_files():
+    """Index, questions, AGENTS, and submission pages keep their own shape."""
+
+    line = "# topic\n\n- overview ::@:: Linear regression predicts a target.\n"
+    for path in (
+        Path("/tmp/course/index.md"),
+        Path("/tmp/course/AGENTS.md"),
+        Path("/tmp/course/questions/week 2 tutorial.md"),
+        Path("/tmp/course/labs/lab 1/lab.md"),
+        Path("/tmp/course/labs/lab 1/tutorial.md"),
+        Path("/tmp/course/labs/lab 1/lecture.md"),
+    ):
+        assert not qa_prompt_generic(make_ctx(line, path)), f"fired on {path}"
 
 
 def test_topic_note_redundant_filename_prefix():
