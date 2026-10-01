@@ -15,7 +15,7 @@ tags:
 
 A _limit order_ is an order to buy or sell a security at a specified price or better. A buy limit order sets the most a buyer will pay (the bid price); a sell limit order sets the least a seller will accept (the ask price). A limit order is a commitment to trade that may never find a counterparty; it stays unfilled until the market reaches its price.
 
-Starting from an empty book, a limit sell for 100 shares at $100 places 100 shares on the ask side. A limit buy for 50 shares at $99 places 50 shares on the bid side. A buy at $101 instead would cross the best ask and execute immediately.
+Starting from an empty book, a limit sell for 100 shares at 100 dollars places 100 shares on the ask side. A limit buy for 50 shares at 99 dollars places 50 shares on the bid side. A buy at 101 dollars instead would cross the best ask and execute immediately.
 
 ---
 
@@ -50,15 +50,21 @@ Flashcards for this section are as follows:
 
 ## price-time priority
 
-When multiple limit orders compete for execution, _price-time priority_ decides the order: better prices first, and among same-price orders, first come first served. Two competing limit sell orders of 100 shares: the one with the lower ask sits higher on the book, and if both quote the same price, arrival time breaks the tie. Enforcing such a rule is a severe problem for modern markets.
+When multiple limit orders compete for execution, _price-time priority_ decides who trades: better prices first, so on a book of competing sell orders the lower ask sits higher, and among same-price orders, first come first served.
+
+Once the liquidity at a price has been consumed, the orders queued behind it are served next. Whoever refills that price first takes the front of the queue, so a maker is racing the orders already waiting there.
+
+Li, Ye, and Zheng (2022, _Journal of Financial Economics_) measure that race as a contest for front queue position. They count a non-marketable limit order as a _first responder_ when it refills the price where liquidity was consumed, within 0.1 seconds of the order that took it. Their sample averages 495 first responders a day against 1,652 trades, and 75.6% of them are [do-not-ship](do-not-ship%20order.md) limit orders against 24.4% day limit orders.
 
 ---
 
 Flashcards for this section are as follows:
 
 - what price-time priority means ::@:: Better prices execute first, and among same-price orders, first come first served.
-- why a limit-order book needs a priority rule ::@:: To order competing executions.
-- when price beats time in priority ::@:: A better price executes even if it arrived later.
+- why a speed race follows a liquidity consumption ::@:: The orders queued behind the price are served next, so the first to refill it takes the front of the queue.
+- what a first responder is ::@:: A non-marketable limit order that refills the price where liquidity was consumed, within 0.1 seconds of the order that took it.
+- average first responders per day against average trades per day ::@:: 495 against 1,652.
+- share of first responders that are do-not-ship limit orders ::@:: 75.6%, against 24.4% day limit orders.
 
 ## execution quality
 

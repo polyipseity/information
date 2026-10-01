@@ -27,7 +27,7 @@ Flashcards for this section are as follows:
 
 - range of speeds at which high-frequency traders operate ::@:: From microseconds, millionths of a second, down to nanoseconds, billionths of a second.
 - time light travelling in a vacuum takes from New York to Chicago ::@:: About 5 milliseconds.
-- why speed is worth paying for ::@:: A stock is quoted at many venues at once while trading is electronic, so a stale quote at one venue can still be picked off at another until the rest of the market reacts.
+- why speed is worth paying for ::@:: A stale quote at one venue can still be picked off at another while the rest of the market has not reacted to it.
 
 ## arms race and overinvestment
 
@@ -48,9 +48,11 @@ Flashcards for this section are as follows:
 
 ## market manipulation
 
-Speed also enables manipulation. _Spoofing_ runs in three steps: build up, cancel, and sweep. The spoofer first stacks the order book in one direction with orders it does not intend to execute, then removes that fake supply from the book, and finally sweeps the market with a large order on the other side. Real cases are large and long-running: in May 2024 the CFTC fined J.P. Morgan Securities, a Fed primary dealer, 100 million dollars for failing to surveil potential spoofing and high-frequency trading for eight years (Pam Martens and Russ Martens, 28 May 2024).
+Speed also enables manipulation. _Spoofing_ works in three steps: the spoofer stacks the book in one direction with orders it does not intend to execute, takes that fake supply back out, and then sweeps the market with a large order on the other side. Real cases are large and long-running: in May 2024 the CFTC fined J.P. Morgan Securities, a Fed primary dealer, 100 million dollars for failing to surveil potential spoofing and high-frequency trading for eight years (Pam Martens and Russ Martens, 28 May 2024).
 
-A second pattern is _quote stuffing_: bursts of orders to buy and sell that are quickly cancelled. In Abbott Laboratories stock on the morning of 17 August, one second at 10:07:27 carried 11,557 orders (source: Nanex). Normal trading in the same stock runs at 38 orders per second on average, and a separate burst reached 10,704 orders in one second and 5,483 in the next, with all but 14 cancelled within one second. Either way, orders arrive in bursts and are then almost entirely withdrawn.
+A second pattern is _quote stuffing_: bursts of orders to buy and sell that are quickly cancelled. In Abbott Laboratories stock on the morning of 17 August, one second at 10:07:27 carried 11,557 orders (source: Nanex). Normal trading in the same stock runs at 38 orders per second on average, and a separate burst reached 10,704 orders in one second and 5,483 in the next, with all but 14 cancelled within one second.
+
+A third pattern needs no manipulation of the book, and it is front running. A large order working through a fragmented market leaves a trail of prints, and a trader fast enough to read those prints can infer that the order is still to come and trade ahead of the remainder. It comes from the same speed the arms race rewards. The order types that exist to defeat it are the ones that refuse to be routed, described in [quote sniping](quote%20sniping.md).
 
 ---
 
@@ -62,4 +64,6 @@ Flashcards for this section are as follows:
 - CFTC fine on J.P. Morgan Securities for failing to surveil potential spoofing over eight years ::@:: 100 million dollars.
 - what quote stuffing is ::@:: Bursts of orders to buy and sell that are quickly cancelled.
 - orders carried by one second at the peak of the Abbott Laboratories burst ::@:: 11,557 orders, at 10:07:27.
-- order rate at Abbott Laboratories in normal times versus the burst ::@:: 38 orders per second on average normally, then 10,704 orders in one second and 5,483 in the next, with all but 14 cancelled within one second.
+- order rate at Abbott Laboratories in normal times against the burst ::@:: 38 orders per second on average, then 10,704 orders in one second and 5,483 in the next, with all but 14 cancelled within one second.
+- what front running requires ::@:: A trail of prints left by a large order, and the speed to trade ahead of the remainder.
+- which order types were designed to defeat front running ::@:: The ones that refuse to be routed.
