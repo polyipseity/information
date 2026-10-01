@@ -12,9 +12,9 @@ tags:
 
 Max Karl Ernst Ludwig Planck (23 April 1858 – 4 October 1947) was a German theoretical physicist who originated quantum theory. Classical physics held that energy is exchanged continuously, in amounts as small as one likes. In 1900 Planck proposed the opposite for an oscillator: it exchanges its energy only in indivisible lumps of a fixed size, set by a constant $h$. Planck received the Nobel Prize in Physics in 1918 for the discovery of energy quanta.
 
-Planck called $h$ the "elementary quantum of action". The constant has the dimensions of action, which is energy multiplied by time.
+Planck called $h$ the "elementary quantum of action". The constant has the dimensions of action, the product of energy and time.
 
-Planck's own first calculation gave $h = 6.55 \times 10^{-27}\ \text{erg}\cdot\text{s}$, which is $6.55 \times 10^{-34}\ \text{J}\cdot\text{s}$ in SI units, about $1.2$ percent below the modern figure of $6.62607015 \times 10^{-34}\ \text{J}\cdot\text{s}$. Since the 2019 revision of the SI that modern value is exact by definition rather than measured. Planck worked in the centimetre-gram-second system, so his own papers never print a value in joules. His figure was an output of his 1900 fit to the data then available, and is the value to quote when reading his work.
+Planck's own first calculation gave $h = 6.55 \times 10^{-27}\ \text{erg}\cdot\text{s}$, which is $6.55 \times 10^{-34}\ \text{J}\cdot\text{s}$ in SI units. That is about $1.2$ percent below the modern figure of $6.62607015 \times 10^{-34}\ \text{J}\cdot\text{s}$. Since the 2019 revision of the SI that modern value is exact by definition rather than measured. Planck worked in the centimetre-gram-second system, so his own papers never print a value in joules. His figure was an output of his 1900 fit to the data then available, and is the value to quote when reading his work.
 
 The law that follows from the quantum assumption is [Planck's law](Planck%27s%20law.md), and its derivation turns on $h$.
 
@@ -25,15 +25,15 @@ Flashcards for this section are as follows:
 - who Max Planck was, and when he lived ::@:: A German theoretical physicist, born 23 April 1858 and died 4 October 1947, who originated quantum theory.
 - what Planck proposed in 1900, and the constant $h$ that fixes the size of a lump ::@:: That an oscillator exchanges its energy only in indivisible lumps of a fixed size, set by the constant $h$, rather than in amounts as small as one likes.
 - the Nobel Prize in Physics Planck received, and for what ::@:: The 1918 prize, for the discovery of energy quanta.
-- the name Planck gave the constant $h$, and what it says about $h$ ::@:: The "elementary quantum of action", because $h$ has the dimensions of action, which is energy multiplied by time.
+- the name Planck gave the constant $h$, and what it says about $h$ ::@:: The "elementary quantum of action", because $h$ has the dimensions of action, the product of energy and time.
 - Planck's own first calculation for $h$, and the modern value it sits below ::@:: $6.55 \times 10^{-27}\ \text{erg}\cdot\text{s}$, which is $6.55 \times 10^{-34}\ \text{J}\cdot\text{s}$, about $1.2$ percent below the modern $6.62607015 \times 10^{-34}\ \text{J}\cdot\text{s}$, exact by definition since the 2019 revision of the SI.
 - what Planck's $6.55 \times 10^{-27}\ \text{erg}\cdot\text{s}$ figure was, and the units his papers used ::@:: An output of his own fit to the data then available, not a measurement of the constant in its modern sense, and the value to quote when reading his work; he worked in the centimetre-gram-second system, so his papers print $h$ in $\text{erg}\cdot\text{s}$ and never in $\text{J}\cdot\text{s}$.
 
 ## the reluctant revolutionary
 
-Planck set the change in motion and was sceptical of it for a long time, calling himself a "reluctant revolutionary". The classical theory matched the well-measured long-wavelength end and ran away at the short-wavelength end, and no adjustment of it fitted the range as a whole. Having found an assumption that worked, he went on looking for a way to do without it, and did not find one.
+Planck set the change in motion and was sceptical of it for a long time, calling himself a "reluctant revolutionary". The classical theory matched the well-measured long-wavelength end and ran away at the short-wavelength end, and no adjustment of it fitted the range as a whole. He found an assumption that worked and went on looking for a way to do without it. He never found one.
 
-By his own account the energy quantum was "a purely formal assumption and I really did not give it much thought except that no matter what cost, I must bring about a positive result". He meant it as a device for fitting data. Other physicists took the assumption up and built on it; Planck was not among them.
+By his own account the energy quantum was "a purely formal assumption and I really did not give it much thought except that no matter what cost, I must bring about a positive result". He meant it as a device for fitting data. Other physicists took the assumption up and built on it. Planck was not among them.
 
 ---
 

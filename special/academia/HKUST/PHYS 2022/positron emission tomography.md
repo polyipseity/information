@@ -34,7 +34,7 @@ Flashcards for this section are as follows:
 5. Each positron annihilates with a neighbouring electron, producing two gamma ray photons travelling in opposite directions.
 6. Both photons are detected on opposite sides of the detector, and the signal goes to a computer that forms the image.
 
-Steps 1 to 3 deliver the tracer. Step 1 keeps two jobs apart: the isotope supplies the signal, the molecule picks the tissue. Step 2 is a matter of timing: short half-lives mean the tracer loses activity between the bench and the patient. Step 3 gives the image its meaning. A tracer that failed to bind would give a bright image of wherever the isotope happened to end up, which is nowhere.
+Steps 1 to 3 deliver the tracer. Step 1 keeps two jobs apart: the isotope supplies the signal, the molecule picks the tissue. Step 2 is a matter of timing: short half-lives mean the tracer loses activity between the bench and the patient. Step 3 gives the image its meaning. A tracer that failed to bind would give a bright image of wherever the isotope happened to end up, which is nowhere in particular.
 
 Steps 4 to 6 do the detection, following the annihilation described in [annihilation](annihilation.md). Step 6 is the only step that produces data rather than physics: it turns a shower of unrelated events into a position.
 
@@ -56,15 +56,15 @@ Flashcards for this section are as follows:
 
 ## what each tracer targets
 
-Each tracer binds to one thing; that molecule is what makes the image specific. F-18 and Ga-68 are isotopes, named by element symbol and mass number. FDG, DOTA, and PSMA are the molecules those isotopes are attached to. Both isotopes are positron emitters with short half-lives. Each molecule was chosen for its chemistry rather than for its radioactivity.
+Each tracer binds to one thing. That molecule is what makes the image specific. F-18 and Ga-68 are isotopes, named by element symbol and mass number. FDG, DOTA, and PSMA are the molecules those isotopes are attached to. Both isotopes are positron emitters with short half-lives. Each molecule was chosen for its chemistry rather than for its radioactivity.
 
 | tracer | isotope | what it attaches to |
 | --- | --- | --- |
-| FDG | F-18, fluorine-18 | altered glucose metabolism, including cancers, infections, and areas of inflammation |
+| FDG | F-18, fluorine-18 | altered glucose metabolism: cancers, infections, inflammation |
 | DOTA | Ga-68, gallium-68 | neuroendocrine tumours |
 | PSMA | F-18, fluorine-18 | the prostate-specific membrane of prostate cancer |
 
-FDG does not bind to cancer. It is a glucose analogue, and any tissue metabolising glucose faster than its neighbours takes it up: a tumour, an infection, or an area of inflammation. The scan locates a metabolic change. It does not say whether the change is malignant, since a hot spot on an FDG scan is a statement about activity, not a diagnosis. The other two tracers are narrower: DOTA reaches neuroendocrine tumours, PSMA a membrane found on prostate cancer cells.
+FDG does not bind to cancer. It is a glucose analogue, and any tissue metabolising glucose faster than its neighbours takes it up: a tumour, an infection, or an area of inflammation. The scan locates a metabolic change. It does not say whether the change is malignant, since a hot spot on an FDG scan is a statement about activity, not a diagnosis. The other two tracers are narrower, each reaching one specific target rather than a metabolic change.
 
 ---
 

@@ -12,11 +12,11 @@ tags:
 
 _Thermal radiation_ is the electromagnetic radiation a body gives off because of the thermal motion of the charged particles it is made of. Every object above absolute zero radiates. The light that reaches the eye from a hot one is a small slice of a much larger emission.
 
-The atoms and molecules in a body are never still: they translate, rotate, and vibrate. A charge that accelerates radiates, so this motion puts energy into electromagnetic waves. Raising the temperature speeds the motion up, raising the frequency of the radiation and shortening its wavelength through $c = f\lambda$.
+The atoms and molecules in a body are never still: they translate, rotate, and vibrate. A charge that accelerates radiates, so this motion puts energy into electromagnetic waves. Raising the temperature speeds the motion up. The frequency of the radiation rises and its wavelength shortens through $c = f\lambda$.
 
-The shape of that spectrum depends on the temperature of the body and not on its material. That is [black-body radiation](black-body%20radiation.md). [Wien's displacement law](Wien's%20displacement%20law.md) fixes the position of the peak and the [Stefan–Boltzmann law](Stefan%E2%80%93Boltzmann%20law.md) the total radiated power.
+The shape of that spectrum depends on the temperature of the body and not on its material. That is [black-body radiation](black-body%20radiation.md). [Wien's displacement law](Wien's%20displacement%20law.md) fixes the position of the peak, and the [Stefan–Boltzmann law](Stefan%E2%80%93Boltzmann%20law.md) the total radiated power.
 
-A flame breaks the rule: its excited atoms emit at a few discrete wavelengths that identify the element, giving a line spectrum rather than a continuous band.
+A flame breaks that rule. Its excited atoms emit at a few discrete wavelengths that identify the element, giving a line spectrum rather than a continuous band.
 
 ---
 
@@ -32,7 +32,7 @@ Flashcards for this section are as follows:
 
 ## incandescence
 
-_Incandescence_ is the visible glow that thermal radiation produces once the body is hot enough for part of its emission to fall in the visible range. Nothing about the radiation changes at that point: it is the same continuous spectrum as before. Raising the temperature only shifts enough of it into view that the object appears to shine.
+_Incandescence_ is the visible glow that thermal radiation produces once the body is hot enough for part of its emission to fall in the visible range. Nothing about the radiation changes at that point. It is the same continuous spectrum as before, and raising the temperature only shifts enough of it into view for the object to appear to shine.
 
 Lava at about $1200\ ^{\circ}\text{C}$, roughly $1500\ \text{K}$, glows a deep red, and most of its radiation is still infrared. A heated object reaches a whitish yellow at the Sun's photosphere temperature of about $5500\ ^{\circ}\text{C}$. A lightning channel, at roughly $27{,}700\ ^{\circ}\text{C}$, is well into the white and short-wavelength end of the visible range.
 
@@ -53,7 +53,7 @@ Flashcards for this section are as follows:
 
 Because the peak of the emission moves to shorter wavelengths as the temperature rises, the colour of a glowing object is a coarse thermometer. An object at about $800\ \text{K}$ radiates strongly in the infrared but has too little visible output to see. From there the colour runs from dull red through orange to white as the temperature climbs. A steel bar heated from one end passes through the whole sequence.
 
-That colour ladder is the qualitative form of what [Wien's displacement law](Wien's%20displacement%20law.md) states exactly. A redder black body has a longer peak wavelength, and so a lower temperature. Betelgeuse at the top left of Orion is cooler than the blue Rigel at the bottom right. The ladder is only an approximation, because the eye is a poor detector. A star near $12000\ \text{K}$ has its peak in the ultraviolet, beyond what the eye can report, so it looks blue-white rather than ultraviolet.
+That colour ladder is the qualitative form of what [Wien's displacement law](Wien's%20displacement%20law.md) states exactly. A redder black body has a longer peak wavelength, and a lower temperature with it. Betelgeuse at the top left of Orion is cooler than the blue Rigel at the bottom right. The ladder is only an approximation, because the eye is a poor detector. A star near $12000\ \text{K}$ has its peak in the ultraviolet, beyond what the eye can report, so it looks blue-white rather than ultraviolet.
 
 | temperature | appearance of a black-body radiator |
 | --- | --- |
@@ -78,7 +78,7 @@ That colour ladder is the qualitative form of what [Wien's displacement law](Wie
 Flashcards for this section are as follows:
 
 - colour as a temperature gauge: why a body's colour indicates its temperature ::@:: The peak of the thermal spectrum moves to shorter wavelengths as the temperature rises.
-- a black-body radiator below about $800\ \text{K}$: what it emits and how it looks ::@:: No visible light, so it appears black, while still emitting infrared radiation.
+- a black-body radiator below about $800\ \text{K}$: what it emits and how it looks ::@:: No visible light, so it appears black, while still emitting in the infrared.
 - a black-body radiator at $900\ \text{K}$, $1750\ \text{K}$, $3200\ \text{K}$, and $5500\ \text{K}$ ::@:: Dull red, red, orange to yellow, and white.
 - a steel bar heated from one end: the sequence of colours from the cool end ::@:: Black, dull red, cherry red, bright orange, yellow, white yellow, white.
 - the colour ladder of a glowing object: the law that states it exactly ::@:: [Wien's displacement law](Wien's%20displacement%20law.md), which fixes the peak wavelength at each temperature.

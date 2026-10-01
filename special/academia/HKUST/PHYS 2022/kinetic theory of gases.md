@@ -25,7 +25,7 @@ Flashcards for this section are as follows:
 
 The experimental work of Robert Boyle (1627–1691), Jacques Charles (1746–1823), and Joseph Louis Gay-Lussac (1778–1850) culminates in the ideal gas equation for $N$ molecules of a "simple" gas, $PV = Nk_BT = nN_Ak_BT = nRT$. Here $k_B = 1.38 \times 10^{-23}\ \text{J/K}$ is the Boltzmann constant, $N_A = 6.02 \times 10^{23}\ \text{mol}^{-1}$ is Avogadro's number, $n$ is the amount of gas in moles, and $R = 8.31\ \text{J mol}^{-1}\text{K}^{-1}$ is the ideal gas constant.
 
-Four named gas laws are special cases of this equation, each holding one variable constant. Boyle's law states $P_1V_1 = P_2V_2$ at constant $T$ and $n$: decreasing the volume increases the wall collision frequency and thus the pressure. Charles's law states $V_1/T_1 = V_2/T_2$ at constant $P$ and $n$: heating the gas increases the average molecular speed, and the container must expand to keep the pressure constant. Gay-Lussac's law states $P_1/T_1 = P_2/T_2$ at constant $V$ and $n$: heating increases molecular speed and thus the force of wall collisions, raising the pressure. Avogadro's law states $V_1/n_1 = V_2/n_2$ at constant $P$ and $T$: adding more molecules requires the container to expand to keep the pressure constant.
+Four named gas laws are special cases of this equation, each holding one variable constant. Boyle's law states $P_1V_1 = P_2V_2$ at constant $T$ and $n$: decreasing the volume increases the wall collision frequency, and so the pressure. Charles's law states $V_1/T_1 = V_2/T_2$ at constant $P$ and $n$: heating the gas increases the average molecular speed, and the container must expand to keep the pressure constant. Gay-Lussac's law states $P_1/T_1 = P_2/T_2$ at constant $V$ and $n$: heating increases molecular speed and so the force of wall collisions, raising the pressure. Avogadro's law states $V_1/n_1 = V_2/n_2$ at constant $P$ and $T$: adding more molecules requires the container to expand to keep the pressure constant.
 
 ---
 
@@ -71,7 +71,7 @@ Flashcards for this section are as follows:
 
 ### gases
 
-Real gases at ordinary temperatures are close to the classical value of $C_V$ when their molecules are simple. Helium and argon, both monatomic, sit near $f = 3$; nitrogen and oxygen, both diatomic, near $f = 5$; and the polyatomic gases measure above the classical $f = 6$.
+Real gases at ordinary temperatures are close to the classical value of $C_V$ when their molecules are simple. The polyatomic gases measure above that classical value, which for them is $f = 6$.
 
 | gas | molecules | $f$ (classical) | $C_V$ in $\text{J mol}^{-1}\text{K}^{-1}$ |
 | --- | --- | --- | --- |
@@ -92,14 +92,14 @@ Flashcards for this section are as follows:
 
 ### large molecules
 
-A large molecule has far more degrees of freedom than a small one, and its molar heat capacity scales with them. An alpha helix of a protein has a molar heat capacity of about $800\ \text{cal mol}^{-1}\text{K}^{-1}$, which is $400R$ and corresponds to $f = 400$. The protein chymotrypsinogen is larger still: about $9000\ \text{cal mol}^{-1}\text{K}^{-1}$, or $4500R$, giving $f = 4500$.
+A large molecule has far more degrees of freedom than a small one, and its molar heat capacity scales with them. An alpha helix of a protein has a molar heat capacity of about $800\ \text{cal mol}^{-1}\text{K}^{-1}$, which is $400R$, so $f = 800$. The protein chymotrypsinogen is larger still: about $9000\ \text{cal mol}^{-1}\text{K}^{-1}$, or $4500R$, giving $f = 9000$.
 
 ---
 
 Flashcards for this section are as follows:
 
-- the alpha helix: its molar heat capacity in $\text{cal mol}^{-1}\text{K}^{-1}$ and in $R$, and the $f$ it gives ::@:: About $800\ \text{cal mol}^{-1}\text{K}^{-1} = 400R$, giving $f = 400$.
-- chymotrypsinogen: its molar heat capacity in $\text{cal mol}^{-1}\text{K}^{-1}$ and in $R$, and the $f$ it gives ::@:: About $9000\ \text{cal mol}^{-1}\text{K}^{-1} = 4500R$, giving $f = 4500$.
+- the alpha helix: its molar heat capacity in $\text{cal mol}^{-1}\text{K}^{-1}$ and in $R$, and the $f$ it gives ::@:: About $800\ \text{cal mol}^{-1}\text{K}^{-1} = 400R$, giving $f = 800$.
+- chymotrypsinogen: its molar heat capacity in $\text{cal mol}^{-1}\text{K}^{-1}$ and in $R$, and the $f$ it gives ::@:: About $9000\ \text{cal mol}^{-1}\text{K}^{-1} = 4500R$, giving $f = 9000$.
 
 ## limits of the classical model
 

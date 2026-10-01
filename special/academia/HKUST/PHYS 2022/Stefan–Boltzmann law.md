@@ -9,9 +9,9 @@ tags:
 
 # Stefan–Boltzmann law
 
-The Stefan–Boltzmann law gives the total power a surface radiates per unit area, the whole [black-body spectrum](black-body%20radiation.md) added up. Write $I_\lambda$ for the power the surface radiates per unit area per unit wavelength at absolute temperature $T$ in kelvin, and $\sigma$ for the Stefan–Boltzmann constant. The integral over every wavelength has a closed form, and it is the law: $R(T) = \int_0^\infty I_\lambda(\lambda,T)\,d\lambda = \epsilon\sigma T^4$, where $R(T)$ is the total power per unit area and $\epsilon$ the emissivity of the surface. A celsius reading is a different number from $T$, not a small correction to it.
+The Stefan–Boltzmann law gives the total power a surface radiates per unit area, the whole [black-body spectrum](black-body%20radiation.md) added up. Write $I_\lambda$ for the power the surface radiates per unit area per unit wavelength at absolute temperature $T$ in kelvin, and $\sigma$ for the Stefan–Boltzmann constant. The integral over every wavelength has a closed form, and it is the law: $R(T) = \int_0^\infty I_\lambda(\lambda,T)\,d\lambda = \epsilon\sigma T^4$. Here $R(T)$ is the total power per unit area and $\epsilon$ the emissivity of the surface. A celsius reading is a different number from $T$, not a small correction to it.
 
-Neither the fourth power nor the constant is a fact of its own; both fall out of the shape of the spectrum. Raise the temperature and the curve gets taller while its peak moves to shorter wavelengths, the position [Wien's displacement law](Wien's%20displacement%20law.md) fixes. Stefan and Boltzmann fitted $\sigma = 5.6704 \times 10^{-8}\ \text{W}/(\text{m}^2 \cdot \text{K}^4)$ from measurement, because Planck's law did not yet exist; integrating that law instead gives $\sigma = \dfrac{2\pi^5 k_B^4}{15 h^3 c^2}$ from $h$, $c$ and $k_B$ alone, reproducing the measured value. Where $I_\lambda$ comes from: [mode density of a cavity](mode%20density%20of%20a%20cavity.md).
+Neither the fourth power nor the constant is a fact of its own; both fall out of the shape of the spectrum. Raise the temperature and the curve gets taller while its peak moves to shorter wavelengths, the position [Wien's displacement law](Wien's%20displacement%20law.md) fixes. Stefan and Boltzmann fitted $\sigma = 5.6704 \times 10^{-8}\ \text{W}/(\text{m}^2 \cdot \text{K}^4)$ from measurement, because Planck's law did not yet exist. Integrating that law instead gives $\sigma = \dfrac{2\pi^5 k_B^4}{15 h^3 c^2}$ from $h$, $c$ and $k_B$ alone, reproducing the measured value. Where $I_\lambda$ comes from: [mode density of a cavity](mode%20density%20of%20a%20cavity.md).
 
 ---
 
@@ -25,7 +25,7 @@ Flashcards for this section are as follows:
 
 ## emissivity
 
-The emissivity $\epsilon$ is the ratio of the radiative power of a real surface to that of an ideal black body at the same temperature, and no real surface is a black body. The ideal case is exactly $\epsilon = 1$, and every real material falls below $1$, because a surface reflects part of the radiation falling on it, and that reflected part is not thermal emission of its own.
+The emissivity $\epsilon$ is the ratio of the radiative power of a real surface to that of an ideal black body at the same temperature. The ideal case is exactly $\epsilon = 1$, and every real material falls below $1$. A surface reflects part of the radiation falling on it, and that reflected part is not thermal emission of its own.
 
 Emissivity belongs to the surface, not the bulk, so a polished metal and the same metal roughened differ. A coating is the usual way to set one. Radiator tubes, spacecraft skins, and clinical thermometers are coated for their emissivity rather than their colour. A low $\epsilon$ cuts absorption and radiation together: the surface absorbs poorly and radiates poorly, in the same proportion.
 
@@ -37,17 +37,17 @@ Flashcards for this section are as follows:
 - why a real surface has $\epsilon < 1$ ::@:: It reflects part of the radiation falling on it, and that reflected part is not thermal emission of its own.
 - emissivity against the material's bulk properties: what it depends on ::@:: On the surface, not on the bulk material, so polished and roughened or blackened versions of the same metal have different emissivities.
 - a surface with low emissivity $\epsilon$: what it does to both absorption and radiation ::@:: It absorbs poorly and radiates poorly, in the same proportion.
-- the coatings on a radiator tube, a spacecraft skin, and a clinical thermometer: what they are chosen for ::@:: Their emissivity, not their colour, which is the usual way to set an emissivity.
+- the coatings on a radiator tube, a spacecraft skin, and a clinical thermometer: what they are chosen for ::@:: Their emissivity, not their colour; a coating is the usual way to set an emissivity.
 
 ## temperature sensitivity
 
-Take the ratio of two powers and everything cancels but the temperatures: the emissivity $\epsilon$, the surface area, and $\sigma$ all drop out, leaving $(T_2/T_1)^4$. A body at $40$ against $37\ ^{\circ}\text{C}$ sits at $313$ against $310\ \text{K}$, and $(313/310)^4 - 1 \approx 0.039$, so the radiated power rises by about $3.9$ percent. Doubling the temperature multiplies the power by sixteen.
+Take the ratio of two powers and the emissivity $\epsilon$, the surface area, and $\sigma$ all drop out. What is left is the two temperatures alone, in $(T_2/T_1)^4$. A body at $40$ against $37\ ^{\circ}\text{C}$ sits at $313$ against $310\ \text{K}$. The ratio gives $(313/310)^4 - 1 \approx 0.039$, so the radiated power rises by about $3.9$ percent. Doubling the temperature multiplies the power by sixteen.
 
-The peak moves far less. Three degrees is a $1$ percent rise on $310\ \text{K}$, and by [Wien's displacement law](Wien's%20displacement%20law.md) it shifts $\lambda_{\max}$ by about $1$ percent, roughly $0.1\ \mu\text{m}$.
+The peak moves far less. Three degrees is a $1$ percent rise on $310\ \text{K}$. By [Wien's displacement law](Wien's%20displacement%20law.md) it shifts $\lambda_{\max}$ by about $1$ percent, roughly $0.1\ \mu\text{m}$.
 
-So the power answers about four times harder than the shape does. A black-body thermometer works from that power and inherits the strong response; a colour thermometer has to read the shape, and inherits the weak one.
+The power answers about four times harder than the shape does. A black-body thermometer works from that power and inherits the strong response, while a colour thermometer has to read the shape and inherits the weak one.
 
-A body running a fraction of a degree above its usual temperature is radiating a few percent more power, and the difference is extra heat to shed. That is what a fever is, and the gap is why a few degrees of it matter.
+A fever is a body running a fraction of a degree above its usual temperature, radiating a few percent more power. That extra power is heat to shed, and it is why a few degrees of it matter.
 
 ---
 

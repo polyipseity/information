@@ -13,9 +13,9 @@ tags:
 
 Two classical laws describe the [blackbody spectrum](black-body%20radiation.md), and each fails where the other holds. The [Rayleigh–Jeans law](Rayleigh%E2%80%93Jeans%20law.md) gives every mode the equipartition share $k_BT$ however fast that mode oscillates, and holds at long wavelengths. The Wien approximation lets a mode hold either nothing or one whole quantum of energy, denoted $\epsilon = hf$, with nothing in between, and holds at short wavelengths in the visible and ultraviolet.
 
-Both laws multiply the same mode density $n(\lambda) = 8\pi/\lambda^4$, the number of electromagnetic modes a cavity holds per unit volume per unit wavelength. Neither may alter that count. What separates them is the mean energy of a mode, and each breaks there.
+Both laws multiply the same mode density $n(\lambda) = 8\pi/\lambda^4$, the number of electromagnetic modes a cavity holds per unit volume per unit wavelength. Neither may alter that count. Only the mean energy of a mode separates them, and each law breaks there.
 
-Wilhelm Wien derived the [displacement law](Wien%27s%20displacement%20law.md) in $1893$ from thermodynamics and this distribution in $1896$. Both concern the same curve.
+Wilhelm Wien derived the [displacement law](Wien%27s%20displacement%20law.md) in $1893$ from thermodynamics and this distribution in $1896$, and both concern the same curve.
 
 ---
 
@@ -28,11 +28,11 @@ Flashcards for this section are as follows:
 
 ## the single-quantum assumption
 
-That a mode holds either nothing or a single quantum $\epsilon = hf = hc/\lambda$, with nothing in between, is already a claim that energy comes in quanta of size $hf$ rather than continuously, and the calculation has not earned it.
+That a mode holds either nothing or a single quantum $\epsilon = hf = hc/\lambda$, with nothing in between, is already a claim that energy comes in quanta of size $hf$ rather than continuously. The calculation has not earned it.
 
-The Boltzmann factor $e^{-\epsilon/(k_BT)}$ is the population of the occupied state relative to the empty one. Multiply that by the energy it carries, and the mean energy of a mode of frequency $f$ is $E(f) = \epsilon e^{-\epsilon/(k_BT)}$. It needs $hf \gg k_BT$.
+The Boltzmann factor $e^{-\epsilon/(k_BT)}$ is the population of the occupied state relative to the empty one. Multiply it by the energy that state carries, and the mean energy of a mode of frequency $f$ is $E(f) = \epsilon e^{-\epsilon/(k_BT)}$. That result needs $hf \gg k_BT$.
 
-Set the result beside the equipartition share $k_BT$, a constant with no $f$ in it. The Wien expression $hf\,e^{-hf/(k_BT)}$ falls as $e^{-f}$ for high $f$. The equipartition share does not move.
+Set the result beside the equipartition share $k_BT$, a constant with no $f$ in it. The Wien expression $hf\,e^{-hf/(k_BT)}$ falls as $e^{-f}$ for high $f$, while the equipartition share does not move.
 
 ---
 
@@ -45,9 +45,9 @@ Flashcards for this section are as follows:
 
 ## the two-state average
 
-The same expression reads the other way, as a truncation. The thermal average over a genuine quantum oscillator sums over all occupancies $n = 0, 1, 2, 3, \ldots$, each weighted by $e^{-nhf/(k_BT)}$. Keep the two lowest states, drop every term with $n \ge 2$, and what survives is a two-state average: $E = \dfrac{1\cdot hf\,e^{-hf/(k_BT)}}{1 + e^{-hf/(k_BT)}} = \dfrac{hf}{e^{hf/(k_BT)} + 1}$.
+The same expression reads the other way, as a truncation. The thermal average over a genuine quantum oscillator sums over all occupancies $n = 0, 1, 2, 3, \ldots$, each weighted by $e^{-nhf/(k_BT)}$. Keep the two lowest states and drop every term with $n \ge 2$, and what survives is a two-state average: $E = \dfrac{1\cdot hf\,e^{-hf/(k_BT)}}{1 + e^{-hf/(k_BT)}} = \dfrac{hf}{e^{hf/(k_BT)} + 1}$.
 
-Wien takes one step further than that. In the limit $hf \gg k_BT$ the $1$ in the denominator is negligible beside the exponential, and the average reduces to $E \approx hf\,e^{-hf/(k_BT)}$. Only the first of the two steps is exact: the surviving states give $\frac{hf}{e^{hf/(k_BT)}+1}$ at every temperature. Below that limit the dropped terms dominate the sum, so the truncation is not an approximation either.
+Wien takes one step further than that. In the limit $hf \gg k_BT$ the $1$ in the denominator is negligible beside the exponential, and the average reduces to $E \approx hf\,e^{-hf/(k_BT)}$. Only the first of the two steps is exact: the surviving states give $\frac{hf}{e^{hf/(k_BT)}+1}$ at every temperature. Below that limit the dropped terms dominate the sum, and the truncation is not an approximation at all.
 
 ---
 
@@ -60,11 +60,11 @@ Flashcards for this section are as follows:
 
 ## the law
 
-Every black-body spectrum runs through three quantities, whichever law supplies the mean energy. Multiply the mode density $n(\lambda) = 8\pi/\lambda^4$ by the mean energy of one mode, $\overline{E}$, and you get the energy density $u_\lambda$, the energy per unit volume per unit wavelength. A quarter of $c$ times that gives the flux $I_\lambda$, the power a surface radiates per unit area per unit wavelength.
+Every black-body spectrum runs through three quantities, whichever law supplies the mean energy. Multiply the mode density $n(\lambda) = 8\pi/\lambda^4$ by the mean energy of one mode, $\overline{E}$, and the result is the energy density $u_\lambda$, the energy per unit volume per unit wavelength. A quarter of $c$ times that gives the flux $I_\lambda$, the power a surface radiates per unit area per unit wavelength.
 
 Substituting the Wien mean energy $\overline{E} = hf\,e^{-hf/(k_BT)}$, with $f = c/\lambda$ turning the $hf$ into $hc/\lambda$, gives $u_\lambda = \dfrac{8\pi}{\lambda^4}\cdot\dfrac{hc}{\lambda}e^{-hc/(\lambda k_BT)} = \dfrac{8\pi hc}{\lambda^5}e^{-hc/(\lambda k_BT)}$. Dividing by the $4\pi$ solid angle of an isotropic cavity and multiplying by $c$ gives the spectral radiance $B_\lambda$, the power per unit area per steradian per unit wavelength: $B_\lambda = \frac{c}{4\pi}u_\lambda = \dfrac{2hc^2}{\lambda^5} e^{-hc/(\lambda k_BT)}$. The $\tfrac{8\pi}{4\pi}$ leaves the $\pi$ cancelled.
 
-Two constants fix the scale: $2hc^2 \approx 1.19 \times 10^{-16}\ \text{J}\cdot\text{m}^2\text{s}^{-1}$ and $\frac{hc}{k_B} = 1.439 \times 10^{-2}\ \text{m}\cdot\text{K}$. The units are $\text{W}\,\text{m}^{-3}\,\text{sr}^{-1}$: watts per square metre per steradian per metre of wavelength. The ratio $x = \frac{hc}{\lambda k_BT}$ of a quantum of energy to the thermal energy decides whether the approximation is any good, and $x = 1$ at $T = 1.439 \times 10^{-2}/\lambda$.
+Two constants fix the scale: $2hc^2 \approx 1.19 \times 10^{-16}\ \text{J}\cdot\text{m}^2\text{s}^{-1}$ and $\frac{hc}{k_B} = 1.439 \times 10^{-2}\ \text{m}\cdot\text{K}$. The units are $\text{W}\,\text{m}^{-3}\,\text{sr}^{-1}$: watts per square metre per steradian per metre of wavelength. The ratio $x = \frac{hc}{\lambda k_BT}$ decides whether the approximation is any good, and $x = 1$ at $T = 1.439 \times 10^{-2}/\lambda$.
 
 ---
 
@@ -80,9 +80,9 @@ Flashcards for this section are as follows:
 
 $\lambda$ enters the law twice, in the $1/\lambda^5$ prefactor and inside the exponential. The exponential falls faster than any power of $\lambda$, so the radiance falls exponentially in $1/\lambda$.
 
-Take $x = \frac{hc}{\lambda k_BT}$, the ratio of a quantum of energy to the thermal energy, and the accuracy follows from how large it is. Where $x$ is large the dropped terms are small beside the two kept, and the truncated average agrees with the full one. Where $x$ is small the two classical expressions meet: $e^{-x} \approx 1$ leaves the mean energy close to $hf$, and $hf \approx k_BT$ there, so the law degenerates to a fall-off as $1/\lambda^5$ alone, far steeper than the measurement.
+Take $x = \frac{hc}{\lambda k_BT}$, the ratio of a quantum of energy to the thermal energy, and the accuracy follows from how large it is. Where $x$ is large the dropped terms are small beside the two kept, and the truncated average agrees with the full one. Where $x$ is small the two classical expressions meet: $e^{-x} \approx 1$ leaves the mean energy close to $hf$, and $hf \approx k_BT$ there. The law degenerates to a fall-off as $1/\lambda^5$ alone, far steeper than the measurement.
 
-At $300\ \text{K}$ the law agrees with the full result to better than five figures at $1\ \mu\text{m}$, where it predicts $1.7 \times 10^{-7}\ \text{W}\,\text{m}^{-3}\,\text{sr}^{-1}$, and to within $1\%$ at $10\ \mu\text{m}$. Beyond that the error grows: short by a factor of $21$ at $1\ \text{mm}$, and by a factor of $209$ at $1\ \text{cm}$, where it predicts $1.19 \times 10^{-6}\ \text{W}\,\text{m}^{-3}\,\text{sr}^{-1}$ against $2.48 \times 10^{-4}\ \text{W}\,\text{m}^{-3}\,\text{sr}^{-1}$ from the true spectrum.
+At $300\ \text{K}$ the law agrees with the full result to better than five figures at $1\ \mu\text{m}$, where it predicts $1.7 \times 10^{-7}\ \text{W}\,\text{m}^{-3}\,\text{sr}^{-1}$, and to within $1\%$ at $10\ \mu\text{m}$. Beyond that the error grows. It is short by a factor of $21$ at $1\ \text{mm}$, and by a factor of $209$ at $1\ \text{cm}$, where it predicts $1.19 \times 10^{-6}\ \text{W}\,\text{m}^{-3}\,\text{sr}^{-1}$ against $2.48 \times 10^{-4}\ \text{W}\,\text{m}^{-3}\,\text{sr}^{-1}$ from the true spectrum.
 
 ---
 
@@ -97,11 +97,11 @@ Flashcards for this section are as follows:
 
 ## the peak
 
-Take the logarithm, turning a product into a sum: $\ln B_\lambda = \ln(2hc^2) - 5\ln\lambda - \frac{hc}{\lambda k_BT}$. Differentiate term by term and the result is $d\ln B_\lambda/d\lambda = -\frac{5}{\lambda} + \frac{hc}{\lambda^2 k_BT}$, where the second term is positive because $\frac{hc}{\lambda k_BT}$ grows as $\lambda$ shrinks. Set that sum to zero, $\frac{hc}{\lambda^2 k_BT} = \frac{5}{\lambda}$, and one power of $\lambda$ cancels, leaving $\lambda_{\max} = \frac{hc}{5k_BT}$.
+Take the logarithm, turning a product into a sum: $\ln B_\lambda = \ln(2hc^2) - 5\ln\lambda - \frac{hc}{\lambda k_BT}$. Differentiate term by term: $d\ln B_\lambda/d\lambda = -\frac{5}{\lambda} + \frac{hc}{\lambda^2 k_BT}$, where the second term is positive because $\frac{hc}{\lambda k_BT}$ grows as $\lambda$ shrinks. Set that sum to zero, $\frac{hc}{\lambda^2 k_BT} = \frac{5}{\lambda}$, and one power of $\lambda$ cancels, leaving $\lambda_{\max} = \frac{hc}{5k_BT}$.
 
-The constant that produces is $2.878 \times 10^{-3}\ \text{m}\cdot\text{K}$, against $2.898 \times 10^{-3}\ \text{m}\cdot\text{K}$ from the true spectrum, an agreement of about $0.7\%$. The integrated power is a poorer test and fails: the law totals $180/(2\pi^4) = 0.924$ of the true power, so it comes out about $7.6$ percent low.
+The displacement constant that follows is $2.878 \times 10^{-3}\ \text{m}\cdot\text{K}$, against $2.898 \times 10^{-3}\ \text{m}\cdot\text{K}$ from the true spectrum, an agreement of about $0.7\%$. The integrated power is a poorer test and fails: the law totals $180/(2\pi^4) = 0.924$ of the true power, so it comes out about $7.6$ percent low.
 
-With $x = \frac{hc}{\lambda k_BT}$ the ratio of a quantum of energy to the thermal energy, neither the peak nor the integral can see the tail, so a law badly wrong for $x \ll 1$ can still get both right. The peak sits where $x = 5$ and dominates the total.
+Neither the peak nor the integral can see the tail, so a law badly wrong for $x \ll 1$ can still get both right. The peak sits where $x = 5$ and dominates the total.
 
 ---
 
@@ -115,9 +115,9 @@ Flashcards for this section are as follows:
 
 ## the opposite failure
 
-The exponential is well behaved at every wavelength, so this law has no divergence; its curve falls to zero far faster than the measured one, leaving it orders of magnitude too small at long wavelengths, where [Rayleigh–Jeans](Rayleigh%E2%80%93Jeans%20law.md) predicts a rising curve. That other failure is the [ultraviolet catastrophe](ultraviolet%20catastrophe.md).
+The exponential is well behaved at every wavelength, so this law has no divergence. Its curve falls to zero far faster than the measured one, leaving it orders of magnitude too small at long wavelengths, where [Rayleigh–Jeans](Rayleigh%E2%80%93Jeans%20law.md) predicts a rising curve. That other failure is the [ultraviolet catastrophe](ultraviolet%20catastrophe.md).
 
-The shortfall is exact. Write $x = \frac{hc}{\lambda k_BT} = \frac{hf}{k_BT}$, the ratio of a quantum of energy to the thermal energy. Where the full thermal average gives $E(f) = \frac{hf}{e^{x}-1}$, the truncated one gives $hf\,e^{-x}$, and the ratio is $e^{-x}(e^{x}-1) = 1 - e^{-x}$. The truncation is at fault, not the mode count.
+The shortfall is exact. Write $x = \frac{hc}{\lambda k_BT} = \frac{hf}{k_BT}$. Where the full thermal average gives $E(f) = \frac{hf}{e^{x}-1}$, the truncated one gives $hf\,e^{-x}$, and the ratio of the two is $e^{-x}(e^{x}-1) = 1 - e^{-x}$. The truncation is at fault, not the mode count.
 
 The correct mean energy must equal $hf\,e^{-x}$ for large $x$ and $k_BT$ for small $x$. [Planck's law](Planck%27s%20law.md) supplies it as $E(f) = \dfrac{hf}{e^{hf/(k_BT)} - 1}$.
 

@@ -10,7 +10,7 @@ tags:
 
 # emission spectrum
 
-An _emission spectrum_ is the set of wavelengths a substance gives off as its own light once it is excited, as distinct from light reflected from it. Burning a substance in a flame excites its atoms, and the light that comes back out is their own. A lithium salt burns crimson, a barium salt yellow-green, and neither colour changes with the temperature of the flame or with what else is dissolved in it. The colour belongs to the element. An excited gas gives a line spectrum. A hot solid or a hollow cavity gives a smooth continuous spectrum instead, with a single peak whose position its temperature sets.
+An _emission spectrum_ is the set of wavelengths a substance gives off as its own light once it is excited, as distinct from light reflected from it. Burning a substance in a flame excites its atoms, and the light that comes back out is their own. A lithium salt burns crimson, a barium salt yellow-green. Neither colour changes with the temperature of the flame or with what else is dissolved in it: the colour belongs to the element. An excited gas gives a line spectrum. A hot solid or a hollow cavity gives a smooth continuous spectrum instead, with a single peak whose temperature sets its position.
 
 The lines sit at fixed wavelengths, so measuring them gives the composition of whatever produced them.
 
@@ -25,11 +25,11 @@ Flashcards for this section are as follows:
 
 ## flame colours and the spectrometer
 
-From the middle of the 18th century, chemists noticed that materials burnt in a flame gave it a colour of their own. A colour that could not be separated into its parts said only that a substance was there, not which one. Gustav Kirchhoff (1824-1887) and Robert Bunsen (1811-1899) made the colour quantitative by analysing it in a spectrometer instead of looking at it.
+From the middle of the 18th century, chemists noticed that materials burnt in a flame gave it a colour of their own. Such a colour said only that a substance was there, not which one. Gustav Kirchhoff (1824-1887) and Robert Bunsen (1811-1899) made the colour quantitative by analysing it in a spectrometer instead of looking at it.
 
-The flame test is their method, still a laboratory routine. A wire is dipped into a salt and held in the flame. The colour is read against five standard examples: lithium crimson, potassium a pale lilac, iron orange, barium yellow-green, strontium crimson. Lithium and strontium both burn crimson, too alike for the naked eye to tell apart; the spectrometer separates them.
+The flame test is their method, still a laboratory routine. A wire is dipped into a salt and held in the flame, and the colour is read against five standard examples: lithium crimson, potassium a pale lilac, iron orange, barium yellow-green, strontium crimson. Lithium and strontium both burn crimson, too alike for the naked eye to tell apart, and the spectrometer separates them.
 
-A spectrometer turns a colour into a list. Light from the flame is collimated into a narrow beam and sent through a grating. The grating spreads it by wavelength onto a screen or a detector, where each wavelength can be measured. What the instrument measures is a position, and turning a position into a wavelength takes the grating equation.
+A spectrometer turns a colour into a list. Light from the flame is collimated into a narrow beam and sent through a grating, which spreads it by wavelength onto a screen or a detector. What the instrument measures is a position, and turning a position into a wavelength takes the grating equation.
 
 ---
 
@@ -47,11 +47,11 @@ Flashcards for this section are as follows:
 
 ## how a grating separates the lines
 
-A diffraction grating is a flat surface ruled with thousands of parallel lines per centimetre. The spacing between neighbouring rulings, $d$, characterises it. Collimated light from a flame falls on the grating, and each wavelength leaves at its own angle $\theta$, set by $d\sin\theta = n\lambda$ with $n$ an integer.
+A diffraction grating is a flat surface ruled with thousands of parallel lines per centimetre. The spacing $d$ between neighbouring rulings characterises it. Collimated light from a flame falls on the grating, and each wavelength leaves at its own angle $\theta$, set by $d\sin\theta = n\lambda$ with $n$ an integer.
 
-For a fixed order $n$ and a fixed spacing $d$, $\sin\theta$ is proportional to $\lambda$. Long wavelengths leave at large angles and short ones at small angles. The beam fans out into a spectrum laid out in order of wavelength. An element is identified by the set of wavelengths it emits.
+For a fixed order $n$ and a fixed spacing $d$, $\sin\theta$ is proportional to $\lambda$, so long wavelengths leave at large angles and short ones at small angles. The beam fans out into a spectrum laid out in order of wavelength. An element is identified by the set of wavelengths it emits.
 
-Four emission spectra recorded on the same instrument differ in the number of lines they show. Hydrogen shows four across the visible band, the fewest of the four. Helium and oxygen show more. Iron shows so many lines that they crowd into a dense band reading as a single grey stripe from a distance. Line count follows the number of electronic transitions the atom can make, and iron has far more of them than hydrogen. Every one of those transitions can emit; iron's spectrum comes close to continuity without ever reaching it.
+Four emission spectra recorded on the same instrument differ in the number of lines they show. Hydrogen shows four across the visible band, the fewest of the four, and helium and oxygen show more. Iron shows so many lines that they crowd into a dense band reading as a single grey stripe from a distance. Line count follows the number of electronic transitions the atom can make, every one of which can emit, and iron has far more of them than hydrogen. Its spectrum comes close to continuity without ever reaching it.
 
 ---
 
@@ -68,13 +68,13 @@ Flashcards for this section are as follows:
 
 ## why the lines are discrete
 
-The classical account of a glowing gas was that charged atoms and molecules are in motion and that an accelerating charge radiates a wave. A continuum of frequencies of motion would radiate a continuum of frequencies of light. A classical gas ought to glow with a smooth spread of colour, the way a hot filament does. The spectra show the opposite: separated lines with nothing at all in the gaps. Hydrogen is the clearest case, since its four visible lines are the ones the [Balmer series](Balmer%20series.md) writes a formula for.
+The classical account of a glowing gas was that charged atoms and molecules are in motion and that an accelerating charge radiates a wave, so a continuum of frequencies of motion would radiate a continuum of frequencies of light. A classical gas ought then to glow with a smooth spread of colour, the way a hot filament does. The spectra show the opposite: separated lines with nothing at all in the gaps. Hydrogen is the clearest case, since its four visible lines are the ones the [Balmer series](Balmer%20series.md) writes a formula for.
 
-The discrete-level picture accounts for those empty gaps; the level diagram below shows the same thing in symbols. An electron bound to a nucleus can only sit at certain allowed energies; between them it has none. A drop from $E_1$ to $E_0$ releases $E_1 - E_0$ as a single photon. That photon has energy $hf$, so $E_1 - E_0 = hf$ at its frequency $f$. Each difference between two allowed levels gives one wavelength. Fixing the lower level and letting the upper one run up the ladder gives a series of lines. The levels crowd together as they rise, so the differences between neighbours shrink and the series converges on a short-wavelength limit. The gaps between the lines are the light no allowed transition can produce.
+The discrete-level picture accounts for those empty gaps, and the level diagram below shows the same thing in symbols. An electron bound to a nucleus can only sit at certain allowed energies, and between them it has none. A drop from $E_1$ to $E_0$ releases $E_1 - E_0$ as a single photon, of energy $hf$, so $E_1 - E_0 = hf$ at its frequency $f$. Each difference between two allowed levels gives one wavelength. Fixing the lower level and letting the upper one run up the ladder gives a series of lines. The levels crowd together as they rise, so the differences between neighbours shrink and the series converges on a short-wavelength limit. The gaps between the lines are the light no allowed transition can produce.
 
 ![hydrogen energy levels: a ladder of horizontal levels from n=1 upward, with the Lyman, Balmer and Paschen series marked and series-limit arrows labelled 3.4, 1.9 and 1.1 micrometres, beside the visible spectrum band and a black-body curve](attachments/Hydrogen%20energy%20levels.svg)
 
-Each element has its own allowed levels, so each has its own set of differences and its own set of emission wavelengths. Two elements emit the same line only when a difference between two of their levels coincides, an accident rather than a rule. The photon leaves on a transition between two states. Calling that a wave radiating off a vibrating atom is the assumption a classical gas has to give up.
+Each element has its own allowed levels, and with them its own set of differences and its own set of emission wavelengths. Two elements emit the same line only when a difference between two of their levels coincides, an accident rather than a rule. The photon leaves on a transition between two states, and calling that a wave radiating off a vibrating atom is the assumption a classical gas has to give up.
 
 ---
 
@@ -92,11 +92,11 @@ Flashcards for this section are as follows:
 
 ## lines as a fingerprint
 
-A line spectrum identifies what a source is made of, even a source too remote to sample. Find the wavelengths at which it emits, match them against the spectra of the known elements, read off the composition. Before the spectroscope, the case for atoms rested on indirect behaviour: diffusion, the way a gas expands, the way a solid dissolves. A rival account could explain all of that. Spectroscopy put numbers on both sides of the dispute. The opponents of atomism, who held the atoms to be a bookkeeping fiction, had to account for a set of lines at fixed wavelengths rather than a colour; see [history of atomic theory](history%20of%20atomic%20theory.md).
+A line spectrum identifies what a source is made of, even a source too remote to sample: find the wavelengths at which it emits, match them against the spectra of the known elements, read off the composition. Before the spectroscope, the case for atoms rested on indirect behaviour, on how a gas diffuses and expands and how a solid dissolves. A rival account could explain all of that. Spectroscopy put numbers on both sides of the dispute. The opponents of atomism, who held the atoms to be a bookkeeping fiction, had to account for a set of lines at fixed wavelengths rather than a colour; see [history of atomic theory](history%20of%20atomic%20theory.md).
 
-A galaxy lying behind the cluster SMACS 0723 was measured the same way, at a far greater distance. Its light left it 13.1 billion years ago. A microshutter array spectrometer took that spectrum over roughly $3.3$ to $4.9\ \mu\text{m}$ and resolved the emission into individual lines, identified as oxygen, hydrogen, and neon.
+A galaxy lying behind the cluster SMACS 0723 was measured the same way. Its light left it 13.1 billion years ago, and a microshutter array spectrometer took that spectrum over roughly $3.3$ to $4.9\ \mu\text{m}$. It resolved the emission into individual lines, identified as oxygen, hydrogen, and neon.
 
-A spectrum records only what the detector responded to. This detector is blind across a gap at about $4.3\ \mu\text{m}$, and any line falling inside it would be invisible. A feature missing from a measured spectrum is a fact about the instrument, not the source.
+A spectrum records only what the detector responded to. This detector is blind across a gap at about $4.3\ \mu\text{m}$, and any line falling inside it would be invisible. A missing feature is a fact about the instrument, not the source.
 
 ---
 

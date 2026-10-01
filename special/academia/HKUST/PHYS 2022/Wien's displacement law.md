@@ -9,11 +9,11 @@ tags:
 
 # Wien's displacement law
 
-Wien's displacement law fixes where the peak of a [black-body spectrum](black-body%20radiation.md) sits, given the temperature. It concerns $I_\lambda$, the power a black body radiates per unit area per unit wavelength at the absolute temperature $T$, measured in kelvin. Write $\lambda_{\max}$ for the wavelength at which that spectrum is tallest. The peak moves toward shorter wavelengths as the temperature rises, in inverse proportion, and the law reads $\lambda_{\max}T = 2.898 \times 10^{-3}\ \text{m}\cdot\text{K}$. That number is Wien's displacement constant, the same for every material.
+Wien's displacement law fixes where the peak of a [black-body spectrum](black-body%20radiation.md) sits, given the temperature. It concerns $I_\lambda$, the power a black body radiates per unit area per unit wavelength at the absolute temperature $T$, measured in kelvin. Write $\lambda_{\max}$ for the wavelength at which that spectrum is tallest. The peak moves toward shorter wavelengths as the temperature rises, in inverse proportion. The law reads $\lambda_{\max}T = 2.898 \times 10^{-3}\ \text{m}\cdot\text{K}$, and that number is Wien's displacement constant, the same for every material.
 
-The relation runs either way: a temperature gives a peak wavelength, a measured peak gives a temperature. Doubling the temperature halves the peak wavelength.
+The relation works either way: a temperature gives a peak wavelength, a measured peak gives a temperature. Doubling the temperature halves the peak wavelength.
 
-Plotted as $I_\lambda$ against wavelength, black-body spectra are curves of the same shape, one for each temperature, and only the peak moves. The $1800\ \text{K}$ curve peaks near $1.6\ \mu\text{m}$, where $\mu\text{m}$ is a micrometre; at $900\ \text{K}$ it has moved past $3\ \mu\text{m}$.
+Plotted as $I_\lambda$ against wavelength, black-body spectra are curves of the same shape, one for each temperature, and only the peak moves. The $1800\ \text{K}$ curve peaks near $1.6\ \mu\text{m}$, where $\mu\text{m}$ is a micrometre. At $900\ \text{K}$ it has moved past $3\ \mu\text{m}$.
 
 Height reports the power a body radiates; the peak reports a wavelength. This law fixes only the peak.
 
@@ -21,7 +21,7 @@ Height reports the power a body radiates; the peak reports a wavelength. This la
 
 Flashcards for this section are as follows:
 
-- Wien's displacement law: what it says about the peak wavelength $\lambda_{\max}$ of a black-body spectrum against the absolute temperature $T$ ::@:: They are inversely proportional, $\lambda_{\max}T = 2.898 \times 10^{-3}\ \text{m}\cdot\text{K}$, where $\lambda_{\max}$ is the wavelength at which the spectrum is tallest and $T$ is the absolute temperature in kelvin. The constant is Wien's displacement constant, the same for every material.
+- Wien's displacement law: what it says about the peak wavelength $\lambda_{\max}$ of a black-body spectrum against the absolute temperature $T$ ::@:: They are inversely proportional, $\lambda_{\max}T = 2.898 \times 10^{-3}\ \text{m}\cdot\text{K}$, where $\lambda_{\max}$ is the wavelength at which the spectrum is tallest and $T$ is the absolute temperature in kelvin. The constant is the same for every material.
 - the quantity $I_\lambda$ that the law speaks about: what it measures ::@:: The power a black body radiates per unit area per unit wavelength at temperature $T$.
 - the two things the product form of the law lets you do ::@:: Given a temperature, return the peak wavelength; given a measured peak, return a temperature.
 - the temperature doubled from $T$ to $2T$ in $\lambda_{\max}T = 2.898 \times 10^{-3}\ \text{m}\cdot\text{K}$: what happens to the peak wavelength ::@:: It is halved, because the peak wavelength is inversely proportional to the absolute temperature.
@@ -31,9 +31,9 @@ Flashcards for this section are as follows:
 
 ## reading a body temperature
 
-The law turns a body into a non-contact thermometer. A person at $37\ ^{\circ}\text{C}$ sits at $310\ \text{K}$, and the peak lies at $\lambda_{\max} = 2.898 \times 10^{-3}/310 \approx 9.3\ \mu\text{m}$. That peak is deep in the infrared, past anything the eye reaches, so the body looks dark while an infrared thermometer reads the glow.
+The law turns a body into a non-contact thermometer. A person at $37\ ^{\circ}\text{C}$ sits at $310\ \text{K}$, and the peak lies at $\lambda_{\max} = 2.898 \times 10^{-3}/310 \approx 9.3\ \mu\text{m}$. That peak is deep in the infrared, past anything the eye reaches. The body looks dark while an infrared thermometer reads the glow.
 
-A fever barely moves it. At $40\ ^{\circ}\text{C}$, or $313\ \text{K}$, the same constant gives $2.898 \times 10^{-3}/313 \approx 9.3\ \mu\text{m}$. Three degrees is about $1$ percent of $310\ \text{K}$, so the peak moves by about $0.1\ \mu\text{m}$, easy to miss.
+At $40\ ^{\circ}\text{C}$, or $313\ \text{K}$, the same constant gives $2.898 \times 10^{-3}/313 \approx 9.3\ \mu\text{m}$. Three degrees is about $1$ percent of $310\ \text{K}$, so the peak moves by about $0.1\ \mu\text{m}$. That is easy to miss.
 
 A measured curve for human skin peaks near $9550$ nanometres, slightly long of the $9.3\ \mu\text{m}$ the law returns at core temperature. Skin runs several degrees below core, near $30$ to $32\ ^{\circ}\text{C}$, and at those temperatures the law itself returns about $9.5\ \mu\text{m}$. The gap is the skin temperature, not a failure of the law.
 
@@ -49,9 +49,9 @@ Flashcards for this section are as follows:
 
 ## reading a stellar temperature
 
-A star is a body, and here the same relation runs the other way: the peak gives the temperature. A redder black body peaks at a longer wavelength, so a longer peak means a lower temperature. Betelgeuse, the red star at the top left of Orion, is the cooler of the two, at roughly $3500\ \text{K}$, giving $\lambda_{\max} = 2.898 \times 10^{-3}/3500 \approx 8.3 \times 10^{-7}\ \text{m}$, about $830\ \text{nm}$. That peak sits just past the red edge, the far end of the visible band, in the near infrared.
+A star is a body, and here the same relation runs the other way: the peak gives the temperature. A redder black body peaks at a longer wavelength, so a longer peak means a lower temperature. Betelgeuse, the red star at the top left of Orion, is cooler than Rigel, the blue star at the bottom right. Betelgeuse is at roughly $3500\ \text{K}$, and its peak is at $\lambda_{\max} = 2.898 \times 10^{-3}/3500 \approx 8.3 \times 10^{-7}\ \text{m}$, about $830\ \text{nm}$, just past the red edge at the far end of the visible band, in the near infrared.
 
-Rigel is the blue star at the bottom right, near $12000\ \text{K}$. Its peak is at $2.898 \times 10^{-3}/12000 \approx 2.4 \times 10^{-7}\ \text{m}$, about $240\ \text{nm}$, well inside the ultraviolet, yet the star looks blue-white. The eye responds to the whole visible band, and the peak has already left that band at that temperature, so colour and peak disagree.
+Rigel is near $12000\ \text{K}$. Its peak is at $2.898 \times 10^{-3}/12000 \approx 2.4 \times 10^{-7}\ \text{m}$, about $240\ \text{nm}$, well inside the ultraviolet. The star still looks blue-white, because the eye responds to the whole visible band and the peak has already left that band at that temperature. Colour and peak disagree.
 
 ---
 

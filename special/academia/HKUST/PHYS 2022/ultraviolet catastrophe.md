@@ -10,9 +10,9 @@ tags:
 
 # ultraviolet catastrophe
 
-Classical statistical mechanics predicted an infinite radiated power. Write $I_\lambda$ for the power a surface radiates per unit area per unit wavelength; integrated over every wavelength, it is infinite at any temperature above absolute zero. The divergence belongs to the 1900 prediction, and Paul Ehrenfest supplied the name in 1911.
+Classical statistical mechanics predicted an infinite radiated power. Write $I_\lambda$ for the power a surface radiates per unit area per unit wavelength. Integrated over every wavelength, it is infinite at any temperature above absolute zero. The divergence belongs to the 1900 prediction, and Paul Ehrenfest supplied the name in 1911.
 
-One narrow assumption produces it: every mode holds the equipartition share $k_BT$ whatever its frequency. A mode is one standing wave pattern inside the cavity, and $k_B$ is the Boltzmann constant, so $k_BT$ is the energy classical physics assigns to any such pattern at absolute temperature $T$.
+A mode is one standing wave pattern inside the cavity, and $k_B$ is the Boltzmann constant. One narrow assumption produces the divergence: every mode holds the equipartition share $k_BT$ whatever its frequency, the energy classical physics assigns to such a pattern at absolute temperature $T$.
 
 ---
 
@@ -24,7 +24,7 @@ Flashcards for this section are as follows:
 
 ## a divergence, not a discrepancy
 
-An ordinary discrepancy between theory and measurement stays finite. Two curves can differ by a factor of two at one wavelength, both remain finite there, and a fit absorbs the disagreement into a parameter. A divergence is different in kind: the predicted quantity has no value to stand against the measurement, so no adjustment of anything measurable closes the gap.
+An ordinary discrepancy between theory and measurement stays finite. Two curves can differ by a factor of two at one wavelength. Both remain finite there, and a fit absorbs the disagreement into a parameter. A divergence is different in kind: the predicted quantity has no value to stand against the measurement, so no adjustment of anything measurable closes the gap.
 
 ---
 
@@ -34,11 +34,11 @@ Flashcards for this section are as follows:
 
 ## the two classical laws, and the gap in the infrared
 
-Both classical laws are wrong, and they are wrong in opposite directions. The [Rayleigh–Jeans law](Rayleigh%E2%80%93Jeans%20law.md) holds at long wavelengths, where it gives $I_\lambda = 2\pi c k_B T/\lambda^4$, a number that diverges as $\lambda \to 0$ and never turns over. The [Wien approximation](Wien%20approximation.md) holds at short ones, where it gives $I_\lambda = 2hc^2 e^{-hc/(\lambda k_BT)}/\lambda^5$, which vanishes there. Between them, across the [infrared](infrared.md), sits a gap where neither is reliable.
+Both classical laws are wrong, and they are wrong in opposite directions. The [Rayleigh–Jeans law](Rayleigh%E2%80%93Jeans%20law.md) holds at long wavelengths, where it gives $I_\lambda = 2\pi c k_B T/\lambda^4$, a number that diverges as $\lambda \to 0$ and never turns over. The [Wien approximation](Wien%20approximation.md) holds at short wavelengths, where it gives $I_\lambda = 2hc^2 e^{-hc/(\lambda k_BT)}/\lambda^5$, which vanishes there. Between them, across the [infrared](infrared.md), sits a gap where neither is reliable.
 
 The Wien error is bounded: its predicted $I_\lambda$ stays a finite number at every wavelength, and it misses by a factor of twenty or more in places, which is severe but not absurd. The Rayleigh–Jeans law misses by an infinite factor, and only that one earns the name.
 
-The ultraviolet sat in a poorly measured part of the spectrum in the 1890s, so on its own a divergence there could have been written off as an experimental gap; the well-measured infrared removed that excuse. The law had to be exactly right about the shape of the well-measured tail in order to be wrong about the peak, and no reasonable choice of constants could do both.
+The ultraviolet sat in a poorly measured part of the spectrum in the 1890s, so on its own a divergence there could have been written off as an experimental gap. The well-measured infrared removed that excuse. The law had to be exactly right about the shape of the well-measured tail to be wrong about the peak, and no reasonable choice of constants could do both.
 
 ---
 
@@ -66,7 +66,7 @@ Flashcards for this section are as follows:
 
 The tempting repair keeps the equipartition share and fixes the mode density instead. Since the divergence sits where there is very little energy anyway, the argument puts the fault in the $1/\lambda^4$.
 
-But the mode density is not a free parameter. Write $n(\lambda)$ for the count, the number of modes per unit volume of cavity per unit wavelength. It comes to $n(\lambda) = 8\pi/\lambda^4$, and it is a plain count: how many standing waves of a given wavelength a box of a given size admits. It carries no assumption about energy, and direct experiment confirms it through the number of modes in a cavity. Any change large enough to tame the ultraviolet would spoil a number that is already right, and it is the count [Planck's law](Planck%27s%20law.md) keeps.
+But the mode density is not a free parameter. Write $n(\lambda)$ for the count, the number of modes per unit volume of cavity per unit wavelength. It comes to $n(\lambda) = 8\pi/\lambda^4$, and that is a plain count: how many standing waves of a given wavelength a box of a given size admits. It carries no assumption about energy, and direct experiment confirms it by counting the modes in a cavity. Any change large enough to tame the ultraviolet would spoil a number that is already right, and [Planck's law](Planck%27s%20law.md) keeps that same count.
 
 ---
 
@@ -82,7 +82,7 @@ With the mode count ruled out, the freedom that remains sits in the mean energy.
 
 The size of the suppression rules out a gentle fix. At $500\ \text{nm}$ and $300\ \text{K}$ the exponential factor is about $e^{-96}$, a fall by a factor of $10^{41}$ or so from the long-wavelength value of $k_BT$. Only a mechanism that discards energy in lumps can do that, and a classical oscillator has none. The required change is a jump, and no adjustment of a continuous parameter supplies one.
 
-Planck's resolution was a change in the set of values an oscillator is allowed to take, not a better function: a mode of frequency $f$ may hold only $0, hf, 2hf, 3hf, \ldots$, each step one quantum of energy $hf$. The average then becomes a sum over integers weighted by $e^{-nhf/(k_BT)}$ instead of an integral over continuous energies, and that sum has the closed form $\dfrac{hf}{e^{hf/(k_BT)} - 1}$. The evaluation is in [Planck's law](Planck%27s%20law.md); what matters here is what the sum does at each end. It reduces to $k_BT$ when $hf \ll k_BT$, the long-wavelength constraint, and to $hf\,e^{-hf/(k_BT)}$ when $hf \gg k_BT$, the suppression the short-wavelength end demands. One expression meets both constraints that no continuous function could.
+Planck's resolution was a change in the set of values an oscillator is allowed to take, not a better function. A mode of frequency $f$ may hold only $0, hf, 2hf, 3hf, \ldots$, each step one quantum of energy $hf$. The average then becomes a sum over integers weighted by $e^{-nhf/(k_BT)}$ instead of an integral over continuous energies. That sum has the closed form $\dfrac{hf}{e^{hf/(k_BT)} - 1}$, evaluated in [Planck's law](Planck%27s%20law.md). What matters here is what the sum does at each end. It reduces to $k_BT$ when $hf \ll k_BT$, the long-wavelength constraint, and to $hf\,e^{-hf/(k_BT)}$ when $hf \gg k_BT$, the suppression the short-wavelength end demands. One expression meets both constraints that no continuous function could.
 
 The mean energy falls as an exponential in the frequency, and $I_\lambda$ acquires the $e^{-hc/(\lambda k_BT)}$ factor that turns a $1/\lambda^4$ rise into a curve with a maximum. The ultraviolet divergence is gone: the exponential beats every power of $\lambda$. The mode count, the cavity geometry and the Boltzmann weights from statistical mechanics stay as they were.
 
@@ -94,7 +94,6 @@ Flashcards for this section are as follows:
 - the suppression factor required at $500\ \text{nm}$ and $300\ \text{K}$ ::@:: About $e^{-96}$, a fall by a factor of $10^{41}$ or so from the long-wavelength value of $k_BT$.
 - why no adjustment of a continuous classical parameter can supply that suppression ::@:: The required change is a jump rather than a slope, and a classical oscillator has no mechanism that discards energy in lumps.
 - the change in the allowed energies of an oscillator, and the thermal sum it produces ::@:: Only $0, hf, 2hf, 3hf, \ldots$, so the average is a sum over integers with weights $e^{-nhf/(k_BT)}$ rather than an integral over continuous energies, and that sum has the closed form $\dfrac{hf}{e^{hf/(k_BT)} - 1}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- how that one expression meets both constraints, in the two limits of $hf/(k_BT)$ ::@:: It reduces to $k_BT$ when $hf \ll k_BT$ and to $hf\,e^{-hf/(k_BT)}$ when $hf \gg k_BT$, satisfying the long-wavelength and short-wavelength constraints together.
 - the two limits of that expression, and the classical law each recovers ::@:: $k_BT$ for $hf \ll k_BT$ gives the [Rayleigh–Jeans law](Rayleigh%E2%80%93Jeans%20law.md); $hf\,e^{-hf/(k_BT)}$ for $hf \gg k_BT$ gives the [Wien approximation](Wien%20approximation.md). <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - what Planck left untouched ::@:: The mode count, the cavity geometry and the Boltzmann weights from statistical mechanics.
 - the factor that turns a rising $1/\lambda^4$ $I_\lambda$ into a curve with a maximum, and why it removes the divergence ::@:: $e^{-hc/(\lambda k_BT)}$, since an exponential beats every power of $\lambda$.

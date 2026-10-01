@@ -11,13 +11,13 @@ tags:
 
 # Planck's law
 
-_Planck's law_ gives the spectrum of the radiation inside a [black body](black-body%20radiation.md) at a temperature $T$: energy per unit area, per unit time, per unit wavelength, per steradian, which is the spectral radiance $B_\lambda$. The standard form is $B_\lambda(T) = \dfrac{2hc^2}{\lambda^5}\,\dfrac{1}{e^{hc/(\lambda k_BT)} - 1}$. Any cavity at the same temperature radiates that same curve, whatever its walls are made of.
+_Planck's law_ gives the spectrum of the radiation inside a [black body](black-body%20radiation.md) at a temperature $T$. That spectrum is energy per unit area, per unit time, per unit wavelength, per steradian, which is the spectral radiance $B_\lambda$. The standard form is $B_\lambda(T) = \dfrac{2hc^2}{\lambda^5}\,\dfrac{1}{e^{hc/(\lambda k_BT)} - 1}$. Any cavity at the same temperature radiates that same curve, whatever its walls are made of.
 
 Here $h$ is Planck's constant and $c$ the speed of light. $k_B$ is the Boltzmann constant, the same constant that fixes the mean kinetic energy of a molecule in the [kinetic theory of gases](kinetic%20theory%20of%20gases.md).
 
-Two laws came before it, each failing on half the spectrum. The Rayleigh–Jeans law rests on equipartition: it matched the measurements at long wavelengths and ran away at short ones, predicting a divergent $I_\lambda$ in the ultraviolet. Wien's distribution law was put forward on semi-empirical grounds, and it matched the ultraviolet while failing at long wavelengths. The three are the same calculation with one number changed, the average energy a single mode holds, written $E(f)$ for a mode of frequency $f$.
+Two laws came before it, each failing on half the spectrum. The Rayleigh–Jeans law rests on equipartition: it matched the measurements at long wavelengths and ran away at short ones, predicting a divergent $I_\lambda$ in the ultraviolet. Wien's distribution law was put forward on semi-empirical grounds. It matched the ultraviolet while failing at long wavelengths. The three are the same calculation with one number changed. That number is the average energy a single mode holds, written $E(f)$ for a mode of frequency $f$.
 
-A cavity of a fixed size holds a fixed number of modes per unit volume per unit wavelength: the mode density $n(\lambda) = 8\pi/\lambda^4$. Multiplying it by the mean energy gives the energy density $u_\lambda$, the energy per unit volume per unit wavelength. Two solid-angle factors carry that out to a surface, first to the radiance $B_\lambda$ and then to the flux $I_\lambda$, the power per unit area per unit wavelength leaving a surface, with $I_\lambda = \frac{1}{4}c\,u_\lambda$. Both factors are derived in [mode density of a cavity](mode%20density%20of%20a%20cavity.md).
+A cavity of a fixed size holds a fixed number of modes per unit volume per unit wavelength: the mode density $n(\lambda) = 8\pi/\lambda^4$. Multiplying it by the mean energy gives the energy density $u_\lambda$, the energy per unit volume per unit wavelength. Two solid-angle factors carry that out to a surface, first to the radiance $B_\lambda$ and then to the flux $I_\lambda$, the power per unit area per unit wavelength leaving a surface. The two are related by $I_\lambda = \frac{1}{4}c\,u_\lambda$. Both factors are derived in [mode density of a cavity](mode%20density%20of%20a%20cavity.md).
 
 ---
 
@@ -34,11 +34,11 @@ Flashcards for this section are as follows:
 
 ## the two modifications
 
-Planck took the radiation in the cavity to be emitted and absorbed by oscillators in the walls, then applied Boltzmann's statistical method to them. Two modifications take that outside classical physics.
+Planck took the radiation in the cavity to be emitted and absorbed by oscillators in the walls, then applied Boltzmann's statistical method to them. Two modifications take that approach outside classical physics.
 
-The first is the set of energies an oscillator of frequency $f$ may hold, which is discrete: $E_n = nhf$, where $n$ is an integer.
+The first modification is the set of energies an oscillator of frequency $f$ may hold. That set is discrete: $E_n = nhf$, where $n$ is an integer.
 
-The constant that sets the size of a quantum is $h = 6.6261 \times 10^{-34}\ \text{J}\cdot\text{s}$, the value accepted today. Planck's own first calculation gave $6.55 \times 10^{-27}\ \text{erg}\cdot\text{s}$, which is $1.15$ percent below the modern value, and he called the constant the elementary quantum of action. See [Max Planck](Max%20Planck.md).
+The constant that sets the size of a quantum is $h = 6.6261 \times 10^{-34}\ \text{J}\cdot\text{s}$, the value accepted today. Planck's own first calculation gave $6.55 \times 10^{-27}\ \text{erg}\cdot\text{s}$, which is $1.15$ percent below the modern value. He called the constant the elementary quantum of action. See [Max Planck](Max%20Planck.md).
 
 The second modification is that the oscillators absorb and emit only in multiples of the fundamental quantum, $\Delta E = hf$. It follows from the first: discrete levels have discrete gaps, and a drop of one step carries exactly $hf$.
 
@@ -60,7 +60,7 @@ Flashcards for this section are as follows:
 
 An oscillator of frequency $f$ in level $n$ carries a Boltzmann weight $e^{-nhf/(k_BT)}$. The mean energy is a sum of energies over a sum of weights, $E(f) = \dfrac{\sum_{n} n\,hf\,e^{-nhf/(k_BT)}}{\sum_{n} e^{-nhf/(k_BT)}}$.
 
-Write $z = e^{-hf/(k_BT)}$, so that $z$ is the Boltzmann factor for one step up and the weight of level $n$ is $z^n$. Both sums are then geometric, with $\sum_{n} z^n = \dfrac{1}{1-z}$ and $\sum_{n} n z^n = \dfrac{z}{(1-z)^2}$, and the ratio is $E(f) = hf\,\dfrac{z/(1-z)^2}{1/(1-z)} = \dfrac{hf\,z}{1-z} = \dfrac{hf}{e^{hf/(k_BT)} - 1}$.
+Write $z = e^{-hf/(k_BT)}$, so that $z$ is the Boltzmann factor for one step up and the weight of level $n$ is $z^n$. Both sums are then geometric: $\sum_{n} z^n = \dfrac{1}{1-z}$ and $\sum_{n} n z^n = \dfrac{z}{(1-z)^2}$. Taking the ratio gives $E(f) = hf\,\dfrac{z/(1-z)^2}{1/(1-z)} = \dfrac{hf\,z}{1-z} = \dfrac{hf}{e^{hf/(k_BT)} - 1}$.
 
 It falls back to $k_BT$ only when $hf$ is small compared with $k_BT$.
 
@@ -68,7 +68,7 @@ It falls back to $k_BT$ only when $hf$ is small compared with $k_BT$.
 
 Flashcards for this section are as follows:
 
-- the mean energy $E(f)$ of an oscillator of frequency $f$ at temperature $T$, as a sum over weights ::@:: $E(f) = \dfrac{\sum_{n} n\,hf\,e^{-nhf/(k_BT)}}{\sum_{n} e^{-nhf/(k_BT)}}$, a sum of energies over a sum of Boltzmann weights.
+- the mean energy $E(f)$ of an oscillator of frequency $f$ at temperature $T$, as a sum over weights ::@:: $E(f) = \dfrac{\sum_{n} n\,hf\,e^{-nhf/(k_BT)}}{\sum_{n} e^{-nhf/(k_BT)}}$.
 - the substitution $z = e^{-hf/(k_BT)}$ that turns the sum into a geometric series ::@:: $z$ is the Boltzmann factor for one step up, so the weight of level $n$ is $z^n$ and both sums become geometric in $z$.
 - the two geometric-series identities in $z$ ::@:: $\sum_{n} z^n = \dfrac{1}{1-z}$ and $\sum_{n} n z^n = \dfrac{z}{(1-z)^2}$.
 - the mean energy $E(f)$ after the two sums are collapsed ::@:: $hf\,\dfrac{z/(1-z)^2}{1/(1-z)} = \dfrac{hf\,z}{1-z} = \dfrac{hf}{e^{hf/(k_BT)} - 1}$.
@@ -90,7 +90,7 @@ Flashcards for this section are as follows:
 
 - the energy density $u_\lambda$ from the mode density and that mean energy ::@:: $u_\lambda = \dfrac{8\pi}{\lambda^4}\cdot\dfrac{hc/\lambda}{e^{hc/(\lambda k_BT)} - 1} = \dfrac{8\pi hc}{\lambda^5}\,\dfrac{1}{e^{hc/(\lambda k_BT)} - 1}$, using $f = c/\lambda$.
 - the radiance $B_\lambda = \frac{c}{4\pi}u_\lambda$ obtained from that energy density, and the prefactor it carries ::@:: $B_\lambda = \frac{c}{4\pi}u_\lambda = \dfrac{2hc^2}{\lambda^5}\,\dfrac{1}{e^{hc/(\lambda k_BT)} - 1}$, the form quoted at the start.
-- where the constant $2hc^2$ comes from, and whether it can be chosen ::@:: It cannot be chosen. The mode count gives $8\pi$, the mean energy gives $hc$, and the radiance conversion gives $c/(4\pi)$, so $8\pi \times hc \times \frac{c}{4\pi} = 2hc^2$; quoted as an energy density the prefactor is $8\pi hc$ instead, with the argument unchanged.
+- where the constant $2hc^2$ comes from, and whether it can be chosen ::@:: It cannot be chosen. The mode count gives $8\pi$, the mean energy gives $hc$, and the radiance conversion gives $c/(4\pi)$, so $8\pi \times hc \times \frac{c}{4\pi} = 2hc^2$. Quoted as an energy density the prefactor is $8\pi hc$ instead, with the argument unchanged.
 - the law that comes out of the classical mode density $n(\lambda) = 8\pi/\lambda^4$ with an equipartition mean energy $k_BT$ ::@:: The Rayleigh–Jeans law, with the mode count and both solid-angle factors untouched.
 
 ## the two limits
@@ -107,7 +107,7 @@ Flashcards for this section are as follows:
 
 - what $u_\lambda = n(\lambda)E(f)$ gives at long wavelengths, with $n(\lambda) = 8\pi/\lambda^4$ ::@:: $u_\lambda = \dfrac{8\pi k_BT}{\lambda^4}$, which becomes $I_\lambda = \dfrac{2\pi c k_BT}{\lambda^4}$ after the two solid-angle factors: the Rayleigh–Jeans law.
 - the short-wavelength limit, in terms of the denominator $e^{hc/(\lambda k_BT)} - 1$ ::@:: The $1$ becomes negligible against the exponential, and the law falls off as $e^{-hc/(\lambda k_BT)}$ in the Wien form.
-- the ultraviolet catastrophe against Planck's short-wavelength limit ::@:: The exponential suppresses the ultraviolet, where Rayleigh–Jeans diverged; the divergence was an artefact of dropping the exponential.
+- the ultraviolet catastrophe against Planck's short-wavelength limit ::@:: The exponential suppresses the ultraviolet, where Rayleigh–Jeans diverged. The divergence was an artefact of dropping the exponential.
 - the total power the law implies, and the law that names it ::@:: Integrating over all wavelengths gives the $T^4$ of the [Stefan–Boltzmann law](Stefan–Boltzmann%20law.md). <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
 ## the cosmic microwave background

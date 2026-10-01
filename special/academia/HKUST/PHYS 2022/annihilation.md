@@ -26,7 +26,7 @@ Flashcards for this section are as follows:
 
 ## energy from disappearing mass
 
-For a pair at rest the initial mass is $2m_e$ and the final mass is $0$, so $\Delta m = 2m_e$. With $m_e = 9.1 \times 10^{-31}\ \text{kg}$ and $c = 3 \times 10^{8}\ \text{m/s}$, the total released energy is $2m_ec^2 = 1.64 \times 10^{-13}\ \text{J}$, or $1.022\ \text{MeV}$. The two photons share it equally, each carrying $8.2 \times 10^{-14}\ \text{J}$, or $511\ \text{keV}$.
+With $m_e = 9.1 \times 10^{-31}\ \text{kg}$ and $c = 3 \times 10^{8}\ \text{m/s}$, the total released energy is $2m_ec^2 = 1.64 \times 10^{-13}\ \text{J}$, or $1.022\ \text{MeV}$. The two photons share it equally, each carrying $8.2 \times 10^{-14}\ \text{J}$, or $511\ \text{keV}$.
 
 The total never varies: both particles carry the same fixed mass $m_e$, and a pair at rest has no kinetic energy to add. A moving pair releases more than $1.022\ \text{MeV}$, since its photons carry the rest energy plus the kinetic energy the pair arrived with.
 
@@ -75,7 +75,7 @@ Flashcards for this section are as follows:
 
 The wavelength follows from the energy: $E = hc/\lambda$ rearranges to $\lambda = hc/E$. With $E = 8.2 \times 10^{-14}\ \text{J}$ for one photon, $h = 6.626 \times 10^{-34}\ \text{J}\cdot\text{s}$, and $c = 3 \times 10^{8}\ \text{m/s}$, that gives $\lambda = \frac{hc}{E} = 2.4 \times 10^{-12}\ \text{m}$. A few picometres, roughly a fortieth of the $10^{-10}\ \text{m}$ width of an atom, and about $2 \times 10^{5}$ times shorter than the $500\ \text{nm}$ middle of the visible band.
 
-A $511 \ \text{keV}$ photon carries too little energy to be a useful laboratory source. The line never moves, so an instrument can be checked against it at once, which makes a good calibration standard. A nuclear gamma ray is not fixed that way: it releases the gap between two energy levels, and that gap differs from isotope to isotope.
+A $511 \ \text{keV}$ photon carries too little energy to be a useful laboratory source. The line never moves, so an instrument can be checked against it at once. That makes it a good calibration standard. A nuclear gamma ray is not fixed that way: it releases the gap between two energy levels, and that gap differs from isotope to isotope.
 
 ---
 

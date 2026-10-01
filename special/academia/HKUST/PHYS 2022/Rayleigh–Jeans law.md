@@ -41,9 +41,9 @@ Flashcards for this section are as follows:
 
 ## the law
 
-The mode density counts how many modes fit in each narrow band of wavelength, and the two solid-angle factors turn a per-volume quantity into a per-area one. Neither is specific to this law. Both belong to the cavity calculation in [mode density of a cavity](mode%20density%20of%20a%20cavity.md). Write $\overline{E}$ for the average energy of a single mode, and the law reads $I_\lambda = \dfrac{2\pi c}{\lambda^4}\overline{E}$. Setting $\overline{E} = k_BT$ gives $I_\lambda = \dfrac{2\pi c k_B T}{\lambda^4}$.
+The mode density counts how many modes fit in each narrow band of wavelength, and the two solid-angle factors turn a per-volume quantity into a per-area one. Neither is specific to this law; both belong to the cavity calculation in [mode density of a cavity](mode%20density%20of%20a%20cavity.md). Write $\overline{E}$ for the average energy of a single mode, and the law reads $I_\lambda = \dfrac{2\pi c}{\lambda^4}\overline{E}$. Setting $\overline{E} = k_BT$ gives $I_\lambda = \dfrac{2\pi c k_B T}{\lambda^4}$.
 
-Temperature enters as a linear factor only. Raising it scales the curve at every wavelength by the same proportion and leaves the shape alone, because all the wavelength dependence sits in the mode density $8\pi/\lambda^4$, which the geometry of the box fixes.
+Temperature enters as a linear factor only. Raising it scales the curve at every wavelength by the same proportion and leaves the shape alone. All the wavelength dependence sits in the mode density $8\pi/\lambda^4$, which the geometry of the box fixes.
 
 ---
 
@@ -56,7 +56,7 @@ Flashcards for this section are as follows:
 
 ## where it fits and where it breaks
 
-The law's accuracy depends on the mean energy. The mode count is correct throughout. Equipartition's $k_BT$ is the right answer only if the steps between neighbouring energy levels are small compared with $k_BT$. A mode of frequency $f$ has steps of size $hf$ in a quantum treatment, so equipartition holds while $hf \ll k_BT$. With $f = c/\lambda$ the condition is a condition on the wavelength, and the law settles down for $\lambda \gg hc/(k_BT) = 1.4388 \times 10^{-2}\ \text{m}\cdot\text{K}/T$, which at $300\ \text{K}$ puts the crossover at about $48\ \mu\text{m}$. A millimetre is already well beyond that, so the law is accurate by the far infrared and fails only as the wavelength approaches the peak.
+The law's accuracy depends on the mean energy. The mode count is correct throughout. Equipartition's $k_BT$ is the right answer only if the steps between neighbouring energy levels are small compared with $k_BT$. A mode of frequency $f$ has steps of size $hf$ in a quantum treatment, so equipartition holds while $hf \ll k_BT$. With $f = c/\lambda$ the condition becomes one on the wavelength: $\lambda \gg hc/(k_BT) = 1.4388 \times 10^{-2}\ \text{m}\cdot\text{K}/T$. At $300\ \text{K}$ that puts the crossover at about $48\ \mu\text{m}$. A millimetre is already well beyond that, so the law is accurate by the far infrared and fails only as the wavelength approaches the peak.
 
 As $\lambda$ shrinks, $I_\lambda$ grows as $1/\lambda^4$ with no sign of turning over. The measured spectrum peaks and falls steeply toward the ultraviolet instead, so the gap grows without bound. Integrating over all wavelengths gives an infinite total power at any non-zero temperature, the absurdity the [ultraviolet catastrophe](ultraviolet%20catastrophe.md) names.
 
@@ -72,11 +72,11 @@ Flashcards for this section are as follows:
 
 ## checking the numbers
 
-At $T = 300\ \text{K}$ the constant is $8\pi k_B T \approx 1.04 \times 10^{-19}\ \text{J}\cdot\text{m}^4$, and it multiplies $1/\lambda^4$ to give the energy density $u_\lambda$, the energy the field holds per unit volume, per unit wavelength. At $\lambda = 1\ \text{mm}$ it is about $1.04 \times 10^{-7}\ \text{J}\,\text{m}^{-4}$. With $c = 3 \times 10^{8}\ \text{m/s}$ the flux works out to $I_\lambda \approx \dfrac{7.80 \times 10^{-12}}{\lambda^4}$ in $\text{W}\,\text{m}^{-3}$, about $7.8\ \text{W/m}^3$ at $1\ \text{mm}$ and about $7.8 \times 10^{8}\ \text{W/m}^3$ at $10^{-5}\ \text{m}$.
+At $T = 300\ \text{K}$ the constant is $8\pi k_B T \approx 1.04 \times 10^{-19}\ \text{J}\cdot\text{m}^4$. It multiplies $1/\lambda^4$ to give the energy density $u_\lambda$, the energy the field holds per unit volume, per unit wavelength. At $\lambda = 1\ \text{mm}$ it is about $1.04 \times 10^{-7}\ \text{J}\,\text{m}^{-4}$. With $c = 3 \times 10^{8}\ \text{m/s}$ the flux works out to $I_\lambda \approx \dfrac{7.80 \times 10^{-12}}{\lambda^4}$ in $\text{W}\,\text{m}^{-3}$, about $7.8\ \text{W/m}^3$ at $1\ \text{mm}$ and about $7.8 \times 10^{8}\ \text{W/m}^3$ at $10^{-5}\ \text{m}$.
 
 How far off that is comes down to one ratio, $x = hc/(\lambda k_BT)$: the energy in one quantum measured against the thermal energy $k_BT$. It is the exponent that appears in [Planck's law](Planck%27s%20law.md). The full Planck result exceeds the classical one by $e^{x}-1$ at short wavelengths, and the classical one exceeds the full result by $\frac{x}{e^{x}-1}$ at long ones. At $300\ \text{K}$ that gives an overestimate of about $2\%$ at $1\ \text{mm}$, a factor of $25$ at $10^{-5}\ \text{m}$, and about $4.5 \times 10^{41}$ at $500\ \text{nm}$.
 
-The mode count is right at $500\ \text{nm}$ as well as at $1\ \text{mm}$, so the geometry is not what failed. The mean energy per mode is. [Planck's law](Planck%27s%20law.md) supplies the replacement, $E(f) = \dfrac{hf}{e^{hf/(k_BT)} - 1}$, and it reduces to $k_BT$ as $hf/(k_BT) \to 0$, since $e^{hf/(k_BT)} - 1 \approx hf/(k_BT)$ there.
+The mode count is right at $500\ \text{nm}$ as well as at $1\ \text{mm}$, so the geometry is not what failed. The mean energy per mode is. [Planck's law](Planck%27s%20law.md) supplies the replacement, $E(f) = \dfrac{hf}{e^{hf/(k_BT)} - 1}$. It reduces to $k_BT$ as $hf/(k_BT) \to 0$, since $e^{hf/(k_BT)} - 1 \approx hf/(k_BT)$ there.
 
 ---
 

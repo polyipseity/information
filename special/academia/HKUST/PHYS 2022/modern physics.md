@@ -18,7 +18,7 @@ Flashcards for this section are as follows:
 
 ## unresolved questions of 1895
 
-The controversy over [atomic theory](history%20of%20atomic%20theory.md) was still open in 1895. Nobody knew whether atoms had constituents at all, and the structure of matter stayed uncertain.
+The controversy over [atomic theory](history%20of%20atomic%20theory.md) was still open in 1895: nobody knew whether atoms had constituents at all, and the structure of matter stayed uncertain.
 
 Classical physics carried three problems into the 1890s. It needed a medium to carry electromagnetic waves, the "ether". It could not say why the electric and magnetic field differ between a stationary and a moving reference system, the problem of the speed of light. It could not account for [blackbody radiation](black-body%20radiation.md), a gap [Planck's law](Planck%27s%20law.md) later closed.
 
@@ -26,7 +26,7 @@ Classical physics carried three problems into the 1890s. It needed a medium to c
 
 Flashcards for this section are as follows:
 
-- in 1895, what was unsettled about atomic theory ::@:: Whether atoms had constituents at all, and whether the structure of matter was settled.
+- in 1895, what was unsettled about atomic theory ::@:: Whether atoms had constituents at all; the structure of matter was itself unsettled.
 - the three problems classical physics carried into the 1890s ::@:: It needed a medium to carry electromagnetic waves, the "ether"; it could not say why the electric and magnetic field differ between a stationary and a moving reference system, the problem of the speed of light; and it could not account for [blackbody radiation](black-body%20radiation.md), a gap [Planck's law](Planck%27s%20law.md) later closed.
 
 ## discoveries of 1895 to 1898
@@ -35,11 +35,11 @@ Wilhelm Röntgen, a German physicist, discovered X-rays on 8 November 1895. Piet
 
 The electron came out of a Crookes tube, a glass envelope evacuated to low pressure with a cathode at one end and an anode at the other. A high voltage across the terminals produced cathode rays, a visible glow. Thomson placed a Maltese cross in the path of the rays. It cast a sharp shadow on the phosphorescent screen behind it, a sign the rays travel in straight lines.
 
-He applied electric and magnetic fields perpendicular to the ray direction. The electric field deflected the rays toward the positive plate, showing that they carry negative charge. The magnetic field deflected them the other way. He adjusted the two fields until the net deflection was zero, giving the velocity $v = E/B$; the electric deflection alone gave the charge-to-mass ratio $q/m$. The ratio held for any cathode material and any gas in the tube, so the electron is a universal constituent of atoms.
+He applied electric and magnetic fields perpendicular to the ray direction. The electric field deflected the rays toward the positive plate, showing that they carry negative charge. The magnetic field deflected them the other way. He adjusted the two fields until the net deflection was zero, giving the velocity $v = E/B$. The electric deflection alone gave the charge-to-mass ratio $q/m$. The ratio held for any cathode material and any gas in the tube, so the electron is a universal constituent of atoms.
 
-The charge on the electron came next. Robert Millikan measured it in the oil drop experiment around 1909, balancing the electric and gravitational forces on a charged oil droplet. His apparatus produced $e = 1.592 \times 10^{-19}$ C. Later, more precise measurements give the accepted value $e = 1.602 \times 10^{-19}$ C. Millikan's figure is low by about $0.6\%$, a gap set by the precision available at the time.
+The charge on the electron came next. Robert Millikan measured it in the oil drop experiment around 1909, balancing the electric and gravitational forces on a charged oil droplet. His apparatus produced $e = 1.592 \times 10^{-19}$ C, and later, more precise measurements give the accepted value $e = 1.602 \times 10^{-19}$ C. Millikan's figure is low by about $0.6\%$, a gap set by the precision available at the time.
 
-Radioactivity ran alongside this work. Henri Becquerel discovered it in 1896, and Marie and Pierre Curie took it further in 1898. Becquerel and the two Curies shared the Nobel Prize in Physics in 1903.
+Radioactivity ran alongside this work: Henri Becquerel discovered it in 1896, and Marie and Pierre Curie took it further in 1898. Becquerel and the two Curies shared the Nobel Prize in Physics in 1903.
 
 ---
 
@@ -62,7 +62,7 @@ Flashcards for this section are as follows:
 
 ## revision of the classical foundations
 
-The discoveries forced a revision of the assumptions behind the success of [classical physics](classical%20physics.md). Two theories drive that revision: relativity and quantum mechanics.
+The discoveries forced a revision of the assumptions behind the success of [classical physics](classical%20physics.md), and two theories drive it: relativity and quantum mechanics.
 
 ---
 

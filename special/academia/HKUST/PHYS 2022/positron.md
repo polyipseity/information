@@ -12,7 +12,7 @@ tags:
 
 The _positron_ is the antiparticle of the electron: a particle of charge $+1e$, of the same mass as an electron, and of the same spin $\tfrac{1}{2}\hbar$.
 
-A positron and an electron can [annihilate](annihilation.md) into photons: the two opposite charges add to zero. The place inside a body where a positron is made can be imaged by [positron emission tomography](positron%20emission%20tomography.md).
+A positron and an electron can [annihilate](annihilation.md) into photons. Their two opposite charges add to zero. The place inside a body where a positron is made can be imaged by [positron emission tomography](positron%20emission%20tomography.md).
 
 No free positron occurs in ordinary matter, so it has to be produced deliberately.
 
@@ -28,7 +28,7 @@ Flashcards for this section are as follows:
 <!-- check: ignore-next-line[header_style]: Dirac is a proper noun -->
 ## Dirac's prediction
 
-Paul Dirac, a British physicist, showed in 1928 that every particle should have an antiparticle of the same mass and opposite charge. The claim was open to a laboratory test before the particle existed, because a detector can look for a second particle of a definite mass and charge. It went untested for four years: it had come out of an equation rather than a cloud chamber, and nothing in the laboratory had yet forced anyone to look.
+Paul Dirac, a British physicist, showed in 1928 that every particle should have an antiparticle of the same mass and opposite charge. The claim was open to a laboratory test before the particle existed, because a detector can look for a second particle of a definite mass and charge. It went untested for four years. It had come out of an equation rather than a cloud chamber, and nothing in the laboratory had yet forced anyone to look.
 
 The proton, of charge $+1e$, is paired with an antiproton of charge $-1e$. Hydrogen, a proton with an electron around it, is paired with antihydrogen, an antiproton with a positron around it. Pairing reverses the charge and leaves the mass untouched, so an atom of antihydrogen weighs as much as an atom of hydrogen. The same rule covers a particle that does not exist: one of mass $m$ and charge $+2e$ would have an antiparticle of mass $m$ and charge $-2e$.
 
@@ -47,7 +47,7 @@ Flashcards for this section are as follows:
 
 ## the discovery
 
-Carl Anderson discovered the positron on 2 August 1932 and won the Nobel Prize in Physics in 1936 for it. The observation was a single track in a cloud chamber photograph, and in the chamber's magnetic field it curved the way a positive charge curves. The radius of such a track is fixed by the momentum per unit charge, so the lighter particle leaves the tighter arc. A proton in the same field would have left a much wider arc, and an electron would have curved the other way. The tightness of this one track put the particle's mass at the electron's.
+Carl Anderson discovered the positron on 2 August 1932 and won the Nobel Prize in Physics in 1936 for it. The observation was a single track in a cloud chamber photograph. In the chamber's magnetic field it curved the way a positive charge curves. The radius of such a track is fixed by the momentum per unit charge, so the lighter particle leaves the tighter arc. A proton in the same field would have left a much wider arc, and an electron would have curved the other way. The tightness of this one track put the particle's mass at the electron's.
 
 In 1932 the positron was the only antiparticle ever seen, so the general pairing of matter and antimatter remained an inference from a single species. Dirac's equation had made the rule general at once. The experiment took decades.
 
@@ -56,9 +56,9 @@ In 1932 the positron was the only antiparticle ever seen, so the general pairing
 Flashcards for this section are as follows:
 
 - overview: who discovered the particle, and when ::@:: Carl Anderson, on 2 August 1932.
-- the Nobel Prize that followed the discovery, and the year ::@:: The Nobel Prize in Physics, awarded to Carl Anderson in 1936 for the discovery of the positron.
+- the Nobel Prize that followed the discovery, and the year ::@:: The Nobel Prize in Physics, awarded to Carl Anderson in 1936.
 - what the 1932 discovery left unestablished ::@:: The general pairing of matter and antimatter: the positron was the only antiparticle ever seen, so the general case stayed an inference from a single species.
-- the cloud chamber track, and what its curvature settled ::@:: That a particle of positive charge and of the electron's mass exists: the radius of the track is set by the momentum per unit charge, so a proton would have curved far more widely and an electron the other way.
+- the cloud chamber track, and what its curvature settled ::@:: That a particle of positive charge and of the electron's mass exists: the radius of the track is set by the momentum per unit charge.
 
 ## how a positron is made
 
@@ -68,11 +68,11 @@ Two routes produce a free positron, and they differ in where the energy comes fr
 
 Flashcards for this section are as follows:
 
-- overview: the two routes that produce a free positron, and where the energy comes from ::@:: Positron emission, where the nucleus makes the positron and a neutrino carries away part of the released energy; pair production, where an energetic photon creates a positron and an electron at once and a third body absorbs the recoil.
+- overview: the two routes that produce a free positron, and where the energy comes from ::@:: Positron emission, where a neutrino carries away part of the released energy; pair production, where an energetic photon creates the pair at once and a third body absorbs the recoil.
 
 ### positron emission
 
-A proton inside an unstable nucleus turns into a neutron, and the change releases a positron together with an electron neutrino. The charge balances across the change: $+1e$ on the proton side against $0 + 1e + 0$ on the neutron, positron, and neutrino side, the neutrino being neutral. The neutrino takes a varying share of the released energy from one decay to the next, so the positrons leaving a given isotope arrive with a spread of energies rather than a single value.
+A proton inside an unstable nucleus turns into a neutron, and the change releases a positron together with an electron neutrino. The charge balances across the change: $+1e$ on the proton side against $0 + 1e + 0$ on the neutron, positron, and neutrino side. The neutrino is neutral. It takes a varying share of the released energy from one decay to the next, so the positrons leaving a given isotope arrive with a spread of energies rather than a single value.
 
 ---
 
@@ -86,7 +86,7 @@ Flashcards for this section are as follows:
 
 When a photon energetic enough strikes matter, an electron and a positron are created together, consuming the photon. The photon has to carry at least the combined rest energy of the pair it makes, $2m_ec^2 = 1.022\ \text{MeV}$. Below that threshold the event does not happen.
 
-Momentum is the other condition, and it rules out producing a pair in empty space. A photon carries momentum $E/c$, and once the pair is made there is nothing left to take the recoil, so a third object has to absorb it, in practice a nucleus or some other matter. A 2 MeV photon crossing a vacuum produces no pair, though its energy sits well above the threshold. The same photon striking a target produces a pair each time it is absorbed.
+Momentum is the other condition, and it rules out producing a pair in empty space. A photon carries momentum $E/c$, and once the pair is made there is nothing left to take the recoil. A third object has to absorb it, in practice a nucleus or some other matter. A 2 MeV photon crossing a vacuum produces no pair, though its energy sits well above the threshold. The same photon striking a target produces a pair each time it is absorbed.
 
 ---
 

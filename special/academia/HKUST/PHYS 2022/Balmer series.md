@@ -17,7 +17,7 @@ The _Balmer series_ is that formula together with the lines it produces. Johann 
 
 Hydrogen showed the pattern first. Its atom holds a single electron, which leaves few possible transitions and few, well separated lines. Every other element has more lines, crowded and interleaved, and the regularity is lost among them.
 
-A spectral series is the set of lines produced by all the transitions that end on one and the same level. The end level fixes where the series falls, because the energy drop onto that level sets the photon energy. The Lyman series ends on the ground state and lies entirely in the ultraviolet; the Paschen series ends on the third level and lies in the infrared. The Balmer series ends on the second level, in the visible.
+A spectral series is the set of lines produced by all the transitions that end on one and the same level. The end level fixes where the series falls, because the energy drop onto that level sets the photon energy. The Lyman series ends on the ground state and lies entirely in the ultraviolet. The Paschen series ends on the third level and lies in the infrared. The Balmer series ends on the second level, in the visible.
 
 ---
 
@@ -34,7 +34,7 @@ Flashcards for this section are as follows:
 
 Balmer's relation gives the wavelength of a line in terms of a single integer $k$: $\lambda = 364.56\,\dfrac{k^2}{k^2 - 4}\ \text{nm}$, where $k = 3, 4, 5, \ldots$ and $k > 2$. The restriction $k > 2$ is not a convenience. At $k = 2$ the denominator $k^2 - 4$ vanishes and the expression has no value.
 
-Each $k$ is a whole number, so the formula returns one fixed wavelength per line and no line can be shifted. With $k = 3$, $\lambda = 364.56 \times \dfrac{9}{9 - 4} = 364.56 \times \dfrac{9}{5} = 656.3\ \text{nm}$, the red line. With $k = 4$, $\lambda = 364.56 \times \dfrac{16}{16 - 4} = 364.56 \times \dfrac{4}{3} = 486.1\ \text{nm}$, the blue-green line.
+Each $k$ is a whole number, so the formula fixes one wavelength per line and none can be shifted. With $k = 3$, $\lambda = 364.56 \times \dfrac{9}{9 - 4} = 364.56 \times \dfrac{9}{5} = 656.3\ \text{nm}$, the red line. With $k = 4$, $\lambda = 364.56 \times \dfrac{16}{16 - 4} = 364.56 \times \dfrac{4}{3} = 486.1\ \text{nm}$, the blue-green line.
 
 As $k$ grows the two terms $k^2$ and $k^2 - 4$ come closer together, the ratio $k^2/(k^2 - 4)$ falls towards 1, and the wavelengths shorten towards $364.56\ \text{nm}$. That value is the series limit. The ratio stays above 1 for every $k$ the formula admits, so no line falls below the series limit.
 
@@ -53,7 +53,7 @@ Flashcards for this section are as follows:
 
 ## where the lines fall
 
-Taking $k$ in turn gives the lines in order of decreasing wavelength. $k = 3$ gives $656.3\ \text{nm}$ in the red and $k = 4$ gives $486.1\ \text{nm}$ in the blue-green. $k = 5$ and $k = 6$ give $434.0\ \text{nm}$ and $410.2\ \text{nm}$ in the violet, and those four are the ones the eye sees. $k = 7$ gives $397.0\ \text{nm}$ as the series runs into the ultraviolet. The lines carry on towards the limit, with $365.0\ \text{nm}$ among them. Past the visible the lines are measured on a plate or a detector.
+Taking $k$ in turn gives the lines in order of decreasing wavelength. $k = 3$ gives $656.3\ \text{nm}$ in the red, $k = 4$ gives $486.1\ \text{nm}$ in the blue-green, and $k = 5$ and $k = 6$ give $434.0\ \text{nm}$ and $410.2\ \text{nm}$ in the violet. Those four are the ones the eye sees. $k = 7$ gives $397.0\ \text{nm}$ as the series runs into the ultraviolet. The lines carry on towards the limit, with $365.0\ \text{nm}$ among them. Past the visible the lines are measured on a plate or a detector.
 
 The spacing collapses as $k$ grows. From $k = 3$ to $k = 4$ the wavelengths differ by $170\ \text{nm}$. Once $k$ is large the neighbouring lines sit a nanometre or two apart, packed against the limit at $364.56\ \text{nm}$. Since $k$ runs over the integers without end, infinitely many lines crowd above $364.56\ \text{nm}$, which is where the hydrogen spectrum shows its edge.
 
@@ -75,7 +75,7 @@ Nothing in the physics of the time picked out $656.3\ \text{nm}$. Classical theo
 
 Any four wavelengths can be fitted. This one carries a single constant and no free parameter. The constant $364.56\ \text{nm}$ was fixed by the lines already seen, and the ultraviolet lines it then predicted were found afterwards, at the wavelengths it gave.
 
-The quantum argument from 1895 onwards is about failures of this sort, set out in [modern physics](modern%20physics.md). The Balmer formula is evidence that atoms are real, as [history of atomic theory](history%20of%20atomic%20theory.md) sets out. Continuous matter cannot produce a formula with no free parameter that predicts lines nobody had measured.
+The quantum argument from 1895 onwards is about failures of this sort, set out in [modern physics](modern%20physics.md). The Balmer formula is evidence that atoms are real, as [history of atomic theory](history%20of%20atomic%20theory.md) sets out. Continuous matter cannot produce a formula that predicts lines nobody had measured.
 
 ---
 

@@ -14,7 +14,7 @@ The Compton effect is the change in wavelength of an X-ray photon when it scatte
 
 Flashcards for this section are as follows:
 
-- what the Compton effect is ::@:: The increase in the wavelength of an X-ray photon after it scatters off an electron, which shows that photons carry momentum.
+- what the Compton effect is ::@:: The increase in the wavelength of an X-ray photon after it scatters off an electron. The shift is direct evidence that photons carry momentum.
 
 ## experimental setup
 
@@ -50,13 +50,13 @@ The Compton wavelength of the electron is $\lambda_C = h/(m_e c) \approx 2.43 \t
 Flashcards for this section are as follows:
 
 - the Compton wavelength of the electron ::@:: $\lambda_C = h/(m_e c) \approx 2.43 \times 10^{-12}$ m. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- the Compton wavelength for a particle of mass $m$ other than the electron ::@:: The same expression $\lambda_C = h/(mc)$ holds with that mass in place of $m_e$.
+- the Compton wavelength for a particle of mass $m$ other than the electron ::@:: $\lambda_C = h/(mc)$.
 - the maximum Compton shift: at what angle it occurs ::@:: At $\theta = 180°$ (backscattering), where $\Delta\lambda = 2\lambda_C$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - the shift at a scattering angle of $\theta = 90°$ ::@:: $\Delta\lambda = \lambda_C$, one Compton wavelength.
 
 ## single-photon double-slit experiment
 
-The scattering above measures a photon's momentum. A double slit lit one photon at a time measures the same quantum. Each photon arrives as a single spot, and the spots accumulate into an interference pattern. The pattern is read as each photon passing through both slits and interfering with itself.
+The scattering above measures a photon's momentum. A double slit lit one photon at a time measures the same quantum. Each photon arrives as a single spot, and the spots accumulate into an interference pattern. That pattern is read as each photon passing through both slits and interfering with itself.
 
 ---
 

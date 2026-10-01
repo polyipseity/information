@@ -24,7 +24,7 @@ tags:
 
 ---
 
-PHYS 2022 is an undergraduate course in modern physics. It covers relativity, quantum theory, atoms and molecules, and statistical physics: wave–particle duality and the Schrödinger equation in quantum theory, the Maxwell, Bose, and Fermi distributions in statistical physics.
+PHYS 2022 is an undergraduate course in modern physics. It covers relativity, quantum theory, atoms and molecules, and statistical physics. In quantum theory it treats wave–particle duality and the Schrödinger equation; in statistical physics, the Maxwell, Bose, and Fermi distributions.
 
 ## children
 
@@ -205,6 +205,7 @@ PHYS 2022 is an undergraduate course in modern physics. It covers relativity, qu
     - kinetic theory of gases / [§ limits of the classical model](kinetic%20theory%20of%20gases.md#limits%20of%20the%20classical%20model)
         - kinetic theory of gases / [§ the constant-volume plateaus](kinetic%20theory%20of%20gases.md#the%20constant-volume%20plateaus)
         - kinetic theory of gases / [§ the constant-pressure levels](kinetic%20theory%20of%20gases.md#the%20constant-pressure%20levels)
+    - kinetic theory of gases / [§ effusion and diffusion](kinetic%20theory%20of%20gases.md#effusion%20and%20diffusion)
 - [modern physics](modern%20physics.md)
     - modern physics / [§ unresolved questions of 1895](modern%20physics.md#unresolved%20questions%20of%201895)
     - modern physics / [§ discoveries of 1895 to 1898](modern%20physics.md#discoveries%20of%201895%20to%201898)

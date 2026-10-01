@@ -8,7 +8,7 @@ tags:
 
 # classical physics
 
-_Classical physics_ is the body of physical theory that predates quantum mechanics and relativity; in historical discussions it means physics before 1900. By the 1890s it had three parts: mechanics, electromagnetism, and thermodynamics. Albert A. Michelson's 1894 remark captures the confidence of the period, that the more important fundamental laws and facts of physical science had all been discovered and that future discoveries "must be looked for in the sixth place of decimals". As Auguste Comte (1798–1857) put it, to understand a science it is necessary to know its history.
+_Classical physics_ is the body of physical theory that predates quantum mechanics and relativity; in historical discussions it means physics before 1900. By the 1890s it had three parts: mechanics, electromagnetism, and thermodynamics. Albert A. Michelson's remark in 1894 captures the confidence of the period. He said the more important fundamental laws and facts of physical science had all been discovered, and that future discoveries "must be looked for in the sixth place of decimals". As Auguste Comte (1798–1857) put it, to understand a science it is necessary to know its history.
 
 ---
 
@@ -51,7 +51,7 @@ Flashcards for this section are as follows:
 
 ## electromagnetism
 
-Electromagnetism was built up by Coulomb (1736–1806), Ørsted (1777–1851), Gauss (1777–1855), Young (1773–1829), Ampère (1775–1836), Faraday (1791–1867), Henry (1797–1878), Maxwell (1831–1879), and Hertz (1857–1894).
+Electromagnetism was built up by Coulomb (1736–1806), Young (1773–1829), Ampère (1775–1836), Ørsted (1777–1851), Gauss (1777–1855), Faraday (1791–1867), Henry (1797–1878), Maxwell (1831–1879), and Hertz (1857–1894).
 
 ---
 
@@ -74,7 +74,7 @@ Flashcards for this section are as follows:
 
 ## thermodynamics
 
-Thermodynamics was developed by Benjamin Thompson (1753–1814), Carnot (1796–1832), Joule (1818–1889), Clausius (1822–1888), William Thomson, later Lord Kelvin (1824–1907), Avogadro (1776–1856), Boltzmann (1844–1906), and Maxwell (1831–1879).
+Thermodynamics was developed by Benjamin Thompson (1753–1814), Avogadro (1776–1856), Carnot (1796–1832), Joule (1818–1889), Clausius (1822–1888), William Thomson, later Lord Kelvin (1824–1907), Maxwell (1831–1879), and Boltzmann (1844–1906).
 
 ---
 

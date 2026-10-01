@@ -9,14 +9,14 @@ tags:
 
 # conservation law
 
-A _conservation law_ states that some measurable property of an isolated physical system does not change as the system evolves. Classical physics rests on four of them. The total sum of energy in all its forms is conserved in all interactions, as is electric charge; linear momentum is conserved in all interactions in the absence of external forces; and angular momentum is conserved in all interactions in the absence of external torque.
+A _conservation law_ states that some measurable property of an isolated physical system does not change as the system evolves. Classical physics rests on four of them. Energy in all its forms is conserved in all interactions, and so is electric charge. Linear momentum is conserved in the absence of external forces, and angular momentum in the absence of external torque.
 
 ---
 
 Flashcards for this section are as follows:
 
 - definition ::@:: A statement that a measurable property of an isolated physical system does not change as the system evolves.
-- the four conserved quantities and the condition each conservation needs ::@:: Energy in all its forms and electric charge, both in all interactions; linear momentum, when there are no external forces; and angular momentum, when there is no external torque.
+- the four conserved quantities and the condition each conservation needs ::@:: Energy in all its forms and electric charge, both in all interactions; linear momentum, without external forces; and angular momentum, without external torque.
 
 ## invariances behind the laws
 
@@ -26,14 +26,14 @@ Each conservation law comes with an invariance: a way in which the laws of physi
 
 Flashcards for this section are as follows:
 
-- energy conservation: the invariance behind it ::@:: Time invariance; the laws of physics are the same at every time.
-- linear momentum conservation: the invariance behind it ::@:: Space invariance; the laws of physics are the same at every place.
-- angular momentum conservation: the invariance behind it ::@:: Rotation invariance; the laws of physics are the same in every direction.
+- energy conservation: the invariance behind it ::@:: Time invariance.
+- linear momentum conservation: the invariance behind it ::@:: Space invariance.
+- angular momentum conservation: the invariance behind it ::@:: Rotation invariance.
 - charge conservation: the invariance behind it ::@:: Gauge invariance.
 
 ## status of the laws
 
-The conservation laws cannot be proven. Physicists accept them as correct and use them as a foundation for explaining nature; as long as an explanation works, they do not ask why the laws hold.
+The conservation laws cannot be proven. Physicists accept them as correct and use them as a foundation for explaining nature, and as long as an explanation works they do not ask why the laws hold.
 
 ---
 

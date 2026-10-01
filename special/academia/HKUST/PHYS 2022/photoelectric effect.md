@@ -32,7 +32,7 @@ Flashcards for this section are as follows:
 
 The standard apparatus is a vacuum tube with a metallic emitter electrode and a collector electrode. Light ejects electrons from the emitter, and they travel to the collector. A variable voltage supply and ammeter measure the electron current and stopping potential.
 
-Different metals have different work functions, the minimum energy needed to free an electron from the surface. Typical values are sodium at about 2.3 eV, zinc 4.3 eV, copper 4.7 eV, and platinum 6.35 eV. A retarding voltage on the collector repels the emitted electrons. At the stopping potential $V_s$, even the most energetic electrons turn back and the current drops to zero, giving the maximum kinetic energy directly: $KE_{\text{max}} = eV_s$.
+Different metals have different work functions, the minimum energy needed to free an electron from the surface. Typical values are sodium at about 2.3 eV, zinc 4.3 eV, copper 4.7 eV, and platinum 6.35 eV. A retarding voltage on the collector repels the emitted electrons. At the stopping potential $V_s$, even the most energetic electrons turn back and the current drops to zero. That gives the maximum kinetic energy directly: $KE_{\text{max}} = eV_s$.
 
 ---
 
@@ -55,7 +55,7 @@ Flashcards for this section are as follows:
 
 ## experimental results
 
-Every classical prediction failed. The maximum kinetic energy depends only on the frequency of the light, not its intensity. Each material has a threshold frequency below which no electrons are emitted, regardless of intensity. The number of photoelectrons is proportional to light intensity, and electrons are emitted almost instantaneously, even at low intensities.
+Every classical prediction failed. The maximum kinetic energy depends only on the frequency of the light, not its intensity. Each material has a threshold frequency below which no electrons are emitted, regardless of intensity. The number of photoelectrons is proportional to light intensity. Electrons are emitted almost instantaneously, even at low intensities.
 
 ---
 
@@ -69,7 +69,7 @@ Flashcards for this section are as follows:
 <!-- check: ignore-next-line[header_style]: proper noun -->
 ## Einstein's interpretation
 
-Einstein explained the photoelectric effect by treating light as a stream of photons, each carrying energy $E = hf$, where $h$ is the Planck constant and $f$ is the frequency. A photon transfers all its energy in one collision with an electron in the metal. The electron must overcome the work function $\Phi$, the binding energy holding it in the material, to escape, so the maximum kinetic energy is $K = hf - \Phi$. The threshold frequency is $f_0 = \Phi / h$; below it, $hf < \Phi$ and no electron is ejected.
+Einstein explained the photoelectric effect by treating light as a stream of photons, each carrying energy $E = hf$, where $h$ is the Planck constant and $f$ is the frequency. A photon transfers all its energy in one collision with an electron in the metal. The electron must overcome the work function $\Phi$, the binding energy holding it in the material, to escape. The maximum kinetic energy is then $K = hf - \Phi$. The threshold frequency is $f_0 = \Phi / h$; below it, $hf < \Phi$ and no electron is ejected.
 
 ---
 
@@ -95,7 +95,7 @@ Flashcards for this section are as follows:
 
 ### charge-coupled device cameras
 
-A CCD sensor consists of millions of tiny pixels, each built around a metal-oxide-semiconductor (MOS) capacitor. Light ejects electrons from a pixel into a potential well created by a gate voltage on the capacitor, and the accumulated charge is proportional to the light intensity. After the exposure, each charge packet travels along a row to a readout amplifier, which converts it to a voltage, like a bucket brigade. This sequential transfer is why the sensor is called charge-coupled. A typical CCD achieves a quantum efficiency of about 70% in the visible range, meaning roughly 70% of incident photons produce a measurable electron.
+A CCD sensor consists of millions of tiny pixels, each built around a metal-oxide-semiconductor (MOS) capacitor. Light ejects electrons from a pixel into a potential well created by a gate voltage on the capacitor. The accumulated charge is proportional to the light intensity. After the exposure, each charge packet travels along a row to a readout amplifier, which converts it to a voltage. The transfer is sequential, like a bucket brigade. That is where the name charge-coupled comes from. A typical CCD achieves a quantum efficiency of about 70% in the visible range: roughly 70% of incident photons produce a measurable electron.
 
 ---
 

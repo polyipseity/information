@@ -10,7 +10,7 @@ tags:
 
 # fundamental interaction
 
-A _fundamental interaction_ is an interaction in nature that cannot be reduced to a more basic one. Classical physics knew two of them, gravitation and electromagnetism, and both are inverse-square laws of infinite range. Like the conservation laws, neither can be proven: physicists accept them as correct, use them as a foundation for explaining nature, and, as long as the explanation works, do not ask why they hold.
+A _fundamental interaction_ is an interaction in nature that cannot be reduced to a more basic one. Classical physics knew two of them, gravitation and electromagnetism, and both are inverse-square laws of infinite range. Like the conservation laws, neither can be proven. Physicists accept them as correct and use them as a foundation for explaining nature. As long as an explanation works, they do not ask why they hold.
 
 ---
 
@@ -34,7 +34,7 @@ Flashcards for this section are as follows:
 
 ## electromagnetic force
 
-The electrostatic part of electromagnetism is the Coulomb force $\vec F_C = \frac{1}{4\pi\varepsilon_0}\frac{q_1 q_2}{r^2}\hat r$ between charges $q_1$ and $q_2$ separated by a distance $r$, where $\varepsilon_0$ is the vacuum permittivity and $\hat r$ is the unit vector along the line joining them. Because the product $q_1 q_2$ carries its own sign, the force is repulsive between like charges and attractive between unlike ones, which gravitation never is.
+The electrostatic part of electromagnetism is the Coulomb force $\vec F_C = \frac{1}{4\pi\varepsilon_0}\frac{q_1 q_2}{r^2}\hat r$ between charges $q_1$ and $q_2$ separated by a distance $r$, where $\varepsilon_0$ is the vacuum permittivity and $\hat r$ is the unit vector along the line joining them. Because the product $q_1 q_2$ carries its own sign, the force is repulsive between like charges and attractive between unlike ones.
 
 ---
 
@@ -46,7 +46,7 @@ Flashcards for this section are as follows:
 <!-- check: ignore-next-line[header_style]: Coulomb is a proper noun -->
 ## Coulomb's experiment
 
-The electrostatic force was established by Coulomb's 1785 report, which concluded $F_e \propto \frac{q_1 q_2}{d^2}$ from only three data points. The report's Fig. 3 plots the angle on the micrometer against the angle between the pith balls and lays the three points over the curves $1/r$, $1/r^2$, and $1/r^3$; a better fit to those same points is $1/r^{1.957}$, so the data alone do not single out the inverse-square form. The $1/r^2$ form was adopted anyway, nature not being expected to behave so "ugly", and the remaining question of where $1/r^2$ comes from is left to theory.
+The electrostatic force was established by Coulomb's 1785 report, which concluded $F_e \propto \frac{q_1 q_2}{d^2}$ from only three data points. The report's Fig. 3 plots the angle on the micrometer against the angle between the pith balls, and lays the three points over the curves $1/r$, $1/r^2$, and $1/r^3$. A better fit to those same points is $1/r^{1.957}$, so the data alone do not single out the inverse-square form. The $1/r^2$ form was adopted anyway, nature not being expected to behave so "ugly". Where $1/r^2$ comes from is left to theory.
 
 ---
 
@@ -56,4 +56,4 @@ Flashcards for this section are as follows:
 - Coulomb's data: the number of points and the fitted exponent $p$ in $1/r^{p}$ ::@:: Three data points, with a fit of $1/r^{1.957}$.
 - the two quantities on the axes of the report's Fig. 3 ::@:: The angle on the micrometer on the vertical axis and the angle between the pith balls on the horizontal axis.
 - the three curves the data are plotted against in Fig. 3: as powers of $r$ ::@:: $1/r$, $1/r^2$, and $1/r^3$.
-- why the $1/r^2$ form was adopted over the closer $1/r^{1.957}$ fit ::@:: Nature was not expected to behave so "ugly", so the question of where $1/r^2$ comes from is left to theory.
+- why the $1/r^2$ form was adopted over the closer $1/r^{1.957}$ fit ::@:: Nature was not expected to behave so "ugly". Where $1/r^2$ comes from is left to theory.
