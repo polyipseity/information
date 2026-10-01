@@ -866,6 +866,81 @@ def test_header_flashcard_presence_applies_to_all_levels():
     assert not header_flashcard_presence(ctx3)
 
 
+def test_header_flashcard_presence_ignores_child_heading_cards():
+    """A parent's own body is what counts, not its subsections' cards."""
+
+    txt = (
+        "# topic\n\n"
+        "## parent section\n\n"
+        "Some prose the author has not carded.\n\n"
+        "### child section\n\n"
+        "Child prose.\n\n"
+        "---\n\n"
+        "Flashcards for this section are as follows:\n\n"
+        "- card ::@:: answer\n"
+    )
+    ctx = make_ctx(txt, path=Path("/tmp/course/topic.md"))
+    msgs = header_flashcard_presence(ctx)
+    assert [m.msg for m in msgs if "'## parent section'" in m.msg]
+    assert not [m for m in msgs if "'### child section'" in m.msg]
+
+
+def test_header_flashcard_presence_exempts_blank_own_body():
+    """A grouping heading that owns no text asks for no cards."""
+
+    txt = (
+        "# topic\n\n"
+        "## group\n\n"
+        "### first child\n\n"
+        "Prose.\n\n"
+        "---\n\n"
+        "Flashcards for this section are as follows:\n\n"
+        "- card ::@:: answer\n\n"
+        "### second child\n\n"
+        "More prose.\n\n"
+        "---\n\n"
+        "Flashcards for this section are as follows:\n\n"
+        "- card ::@:: answer\n"
+    )
+    ctx = make_ctx(txt, path=Path("/tmp/course/topic.md"))
+    assert not header_flashcard_presence(ctx)
+
+
+def test_header_flashcard_presence_does_not_exempt_level_one():
+    """A note title with its own prose is checked like any other heading."""
+
+    txt = (
+        "# topic\n\n"
+        "This note introduces the topic in two sentences.\n\n"
+        "## first section\n\n"
+        "Prose.\n\n"
+        "---\n\n"
+        "Flashcards for this section are as follows:\n\n"
+        "- card ::@:: answer\n"
+    )
+    ctx = make_ctx(txt, path=Path("/tmp/course/topic.md"))
+    msgs = header_flashcard_presence(ctx)
+    assert [m.msg for m in msgs if "'# topic'" in m.msg]
+    assert not [m for m in msgs if "'## first section'" in m.msg]
+
+
+def test_header_flashcard_separator_blames_the_heading_holding_the_cards():
+    """A missing separator is reported against the child, not the parent."""
+
+    txt = (
+        "## parent section\n\n"
+        "Parent prose.\n\n"
+        "### child section\n\n"
+        "Child prose.\n\n"
+        "Flashcards for this section are as follows:\n\n"
+        "- card ::@:: answer\n"
+    )
+    ctx = make_ctx(txt, path=Path("/tmp/course/topic.md"))
+    msgs = header_flashcard_separator(ctx)
+    assert [m.msg for m in msgs if "'### child section'" in m.msg]
+    assert not [m for m in msgs if "'## parent section'" in m.msg]
+
+
 def test_header_flashcard_rules_exempt_agents():
     """AGENTS.md should be exempt from section-level flashcard requirements."""
 

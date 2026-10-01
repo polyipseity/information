@@ -126,6 +126,18 @@ def _build_filtered_header_positions(
     return result
 
 
+def _own_body_end(
+    headers: list[tuple[int, int, re.Match[str]]], i: int, text_len: int
+) -> int:
+    """Return where the heading at index *i* stops owning its text.
+
+    A section's own body runs from its heading to the next heading of any
+    level, so a subsection's flashcards never satisfy the parent. Returns
+    *text_len* when the heading is the last one in the document.
+    """
+    return headers[i + 1][0] if i + 1 < len(headers) else text_len
+
+
 def _build_code_block_ranges(
     text: str, ast: list[AstNode] | None
 ) -> list[tuple[int, int]]:
@@ -1770,9 +1782,14 @@ def agents_no_flashcard_markup(ctx: ValidationContext) -> list[ValidationMessage
 
 @RULE_REGISTRY.register()
 def header_flashcard_presence(ctx: ValidationContext) -> list[ValidationMessage]:
-    """Require that each non-index, non-questions header contains flashcard markers.
-    Index and questions pages are exempt, and so is a level-2 references header,
-    which cites sources instead of stating cards.
+    """Require that each non-index, non-questions header carries its own flashcards.
+
+    A heading's cards have to sit in its own body, the text between it and the
+    next heading of any level. Cards written under a child heading do not
+    satisfy the parent, whatever the two levels are. A heading whose own body is
+    blank is a grouping heading that owns nothing to card, so it is exempt.
+    Index and questions pages are exempt, and so is a level-2 references
+    header, which cites sources instead of stating cards.
     """
     errors: list[ValidationMessage] = []
     name = ctx.path.name.lower()
@@ -1790,14 +1807,10 @@ def header_flashcard_presence(ctx: ValidationContext) -> list[ValidationMessage]
         if lvl == 2 and _normalize_heading_text(h.group(2)) == "references":
             continue
         hdr_end = h.end()
-        # Find the next header at the same or higher (lower number) level.
-        next_pos: int | None = None
-        for j in range(i + 1, len(headers)):
-            if headers[j][1] <= lvl:
-                next_pos = headers[j][0]
-                break
-        end = next_pos if next_pos is not None else len(ctx.text)
+        end = _own_body_end(headers, i, len(ctx.text))
         section = ctx.text[hdr_end:end]
+        if not section.strip():
+            continue
         if not re.search(r"::@::|:@:|Flashcards for", section):
             start = hdr_pos
             line, col, col_end = locate_range(ctx.text, start, len(h.group(0)))
@@ -1805,14 +1818,16 @@ def header_flashcard_presence(ctx: ValidationContext) -> list[ValidationMessage]
                 ValidationMessage(
                     rule_id="header_flashcard_presence",
                     msg=(
-                        f"header {h.group(0).strip()!r} has no flashcard markers in its section; "
+                        f"header {h.group(0).strip()!r} has no flashcard markers in its own body, "
+                        "the text between it and the first heading below it; "
                         "convert key sentences into cards and include any relevant "
-                        "diagrams or images from the paragraph above. "
-                        "DO NOT suppress this error with the reason 'cards in parent "
-                        "section flashcard block' or any similar reason. Every section "
-                        "and subsection MUST have its own dedicated flashcard block — "
-                        "add a '---' separator and a 'Flashcards for this section are "
-                        "as follows:' block instead."
+                        "diagrams or images from the paragraph above. Cards under a "
+                        "child heading do not count towards this one, whatever the two "
+                        "levels are. DO NOT suppress this error with the reason 'cards in "
+                        "parent section flashcard block' or any similar reason. Every "
+                        "section and subsection MUST have its own dedicated flashcard "
+                        "block — add a '---' separator and a 'Flashcards for this section "
+                        "are as follows:' block instead."
                     ),
                     line=line,
                     col=col,
@@ -1828,6 +1843,8 @@ def header_flashcard_separator(ctx: ValidationContext) -> list[ValidationMessage
 
     Index and questions pages are exempt. When flashcards appear in a section,
     there should be a horizontal rule separating them from preceding text.
+    Only the cards in the heading's own body are judged, so a missing separator
+    is blamed on the heading that actually holds them.
 
     This rule applies to headers at any level (e.g. #, ##, ###, etc.).
     """
@@ -1843,15 +1860,9 @@ def header_flashcard_separator(ctx: ValidationContext) -> list[ValidationMessage
     ):
         return errors
     headers = _build_filtered_header_positions(ctx.text, ctx.ast)
-    for i, (hdr_pos, lvl, h) in enumerate(headers):
+    for i, (hdr_pos, _lvl, h) in enumerate(headers):
         hdr_end = h.end()
-        # Find the next header at the same or higher (lower number) level.
-        next_pos: int | None = None
-        for j in range(i + 1, len(headers)):
-            if headers[j][1] <= lvl:
-                next_pos = headers[j][0]
-                break
-        end = next_pos if next_pos is not None else len(ctx.text)
+        end = _own_body_end(headers, i, len(ctx.text))
         section = ctx.text[hdr_end:end]
         m2 = re.search(r"(::@::|:@:|Flashcards for)", section)
         if m2:
@@ -1900,10 +1911,9 @@ def header_flashcard_style_mixed(ctx: ValidationContext) -> list[ValidationMessa
     headers = _build_filtered_header_positions(ctx.text, ctx.ast)
     for i, (hdr_pos, _lvl, h) in enumerate(headers):
         hdr_end = h.end()
-        # Use the immediate next header (any level) so each section is judged on
-        # its own text: sibling subsections may each use a different style.
-        next_pos = headers[i + 1][0] if i + 1 < len(headers) else len(ctx.text)
-        section = ctx.text[hdr_end:next_pos]
+        # Judge each section on its own text: sibling subsections may each use a
+        # different style.
+        section = ctx.text[hdr_end : _own_body_end(headers, i, len(ctx.text))]
         if not _BLOCKQUOTED_SOLUTION_RE.search(section):
             continue
         prose = prose_re.search(section)
@@ -1955,10 +1965,8 @@ def header_flashcard_sections_duplicate(
     headers = _build_filtered_header_positions(ctx.text, ctx.ast)
     for i, (hdr_pos, _lvl, h) in enumerate(headers):
         hdr_end = h.end()
-        # For this rule, use the immediate next header (any level) so nested
-        # subsections are validated independently.
-        next_pos = headers[i + 1][0] if i + 1 < len(headers) else len(ctx.text)
-        section = ctx.text[hdr_end:next_pos]
+        # Nested subsections are validated independently.
+        section = ctx.text[hdr_end : _own_body_end(headers, i, len(ctx.text))]
         occurrences = list(marker_re.finditer(section))
         if len(occurrences) >= 2:
             dup = occurrences[1]
