@@ -1,0 +1,28 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 366' width='800' height='366'>
+<rect width='800' height='366' fill='#ffffff'/>
+<text x='30' y='63' font-family='Helvetica, Arial, sans-serif' font-size='16' text-anchor='start' fill='#1a1a1a'>the first causes the second</text>
+<rect x='250' y='34' width='190' height='46' rx='4' fill='#fbd3a6' stroke='#1f3864' stroke-width='2'/>
+<text x='345' y='63' font-family='Helvetica, Arial, sans-serif' font-size='17' text-anchor='middle' fill='#1a1a1a'>Facebook</text>
+<rect x='566' y='34' width='190' height='46' rx='4' fill='#fbd3a6' stroke='#1f3864' stroke-width='2'/>
+<text x='661' y='63' font-family='Helvetica, Arial, sans-serif' font-size='17' text-anchor='middle' fill='#1a1a1a'>Depression</text>
+<line x1='450' y1='57' x2='547' y2='57' stroke='#1f3864' stroke-width='2.2'/>
+<path d='M 558 57 L 547 63.05 L 547 50.95 Z' fill='#1f3864'/>
+<text x='30' y='179' font-family='Helvetica, Arial, sans-serif' font-size='16' text-anchor='start' fill='#1a1a1a'>the second causes the first</text>
+<rect x='250' y='150' width='190' height='46' rx='4' fill='#fbd3a6' stroke='#1f3864' stroke-width='2'/>
+<text x='345' y='179' font-family='Helvetica, Arial, sans-serif' font-size='17' text-anchor='middle' fill='#1a1a1a'>Depression</text>
+<rect x='566' y='150' width='190' height='46' rx='4' fill='#fbd3a6' stroke='#1f3864' stroke-width='2'/>
+<text x='661' y='179' font-family='Helvetica, Arial, sans-serif' font-size='17' text-anchor='middle' fill='#1a1a1a'>Facebook</text>
+<line x1='450' y1='173' x2='547' y2='173' stroke='#1f3864' stroke-width='2.2'/>
+<path d='M 558 173 L 547 179.05 L 547 166.95 Z' fill='#1f3864'/>
+<text x='30' y='291' font-family='Helvetica, Arial, sans-serif' font-size='16' text-anchor='start' fill='#1a1a1a'>a third variable causes both</text>
+<rect x='566' y='232' width='190' height='46' rx='4' fill='#fbd3a6' stroke='#1f3864' stroke-width='2'/>
+<text x='661' y='261' font-family='Helvetica, Arial, sans-serif' font-size='17' text-anchor='middle' fill='#1a1a1a'>Facebook</text>
+<rect x='566' y='292' width='190' height='46' rx='4' fill='#fbd3a6' stroke='#1f3864' stroke-width='2'/>
+<text x='661' y='321' font-family='Helvetica, Arial, sans-serif' font-size='17' text-anchor='middle' fill='#1a1a1a'>Depression</text>
+<rect x='250' y='262' width='190' height='46' rx='4' fill='#fbd3a6' stroke='#1f3864' stroke-width='2'/>
+<text x='345' y='291' font-family='Helvetica, Arial, sans-serif' font-size='17' text-anchor='middle' fill='#1a1a1a'>No friends</text>
+<line x1='449.93' y1='284.474' x2='547.388' y2='257.894' stroke='#1f3864' stroke-width='2.2'/>
+<path d='M 558 255 L 548.979 263.731 L 545.796 252.057 Z' fill='#1f3864'/>
+<line x1='449.93' y1='285.526' x2='547.388' y2='312.106' stroke='#1f3864' stroke-width='2.2'/>
+<path d='M 558 315 L 545.796 317.943 L 548.979 306.269 Z' fill='#1f3864'/>
+</svg>

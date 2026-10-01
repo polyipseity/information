@@ -8,47 +8,65 @@ tags:
 
 # science
 
-Science is the use of systematic observation to acquire knowledge. The dramatic changes of the past century, from modern medicine to electronics, automobiles, and jets, are due primarily to scientific findings, and psychology applies the same methods to the behavioral domain, to understand and improve the world. Psychology trails the biological and physical sciences in what it has explained so far, but the discoveries already made give reason to expect that scientific psychology will benefit humanity.
+Nearly every dramatic change of the past century traces back to scientific findings: modern medicine, electronics, automobiles, and jets. Science acquires knowledge by watching the world in an organized way. Psychology applies those methods to behaviour, to understand and improve the world. It has explained less so far than biology or physics. What it has found still gives reason to expect scientific psychology will benefit humanity.
 
 ---
 
 Flashcards for this section are as follows:
 
-- overview ::@:: The use of systematic observation to acquire knowledge.
-- what psychology applies scientific methods to ::@:: The behavioral domain, to understand and improve the world.
-- how far psychology has progressed against the other sciences ::@:: It trails the biological and physical sciences, but its discoveries so far give reason to expect that it will benefit humanity.
+- how science acquires knowledge ::@:: By systematic observation.
+- what psychology applies scientific methods to ::@:: The behavioural domain, to understand and improve the world.
+- how far psychology has progressed against biology and physics ::@:: It has explained less so far.
+- what the discoveries so far give reason to expect ::@:: That scientific psychology will benefit humanity.
 
 ## what science is
 
-Ancient people reached for magical and supernatural explanations of natural phenomena such as solar eclipses and thunderstorms, whereas scientifically minded people try to work out the natural world through testing and observation. The empirical methods of science are a way of learning about the physical and biological world, and combining vinegar with baking soda to watch the chemical reaction is one example. Science is not magic: it will not solve all human problems and might not answer all questions about behavior, but it appears to be the most powerful method available for acquiring knowledge about the observable world.
+Ancient people explained solar eclipses and thunderstorms with magic. People with a scientific bent work the same puzzles out by testing and observation. Mixing vinegar with baking soda to watch the reaction is one such method. Empirical methods pick the physical and biological world apart.
 
-Systematic observation is the core of science: scientists observe the world in an organized way, usually measuring the phenomenon, and record their observations so that memory biases are less likely to enter into their conclusions. Those observations are the basic data from which scientists track, tally, and organize what they know about the natural world. They try to observe under controlled conditions, and they systematically vary those conditions to see when the phenomenon occurs and when it does not. Observation then leads to hypotheses and theories, which are stated in a form that can be tested. A claim that paraffin wax candles burn more slowly than beeswax candles of exactly the same size and shape is one such hypothesis, readily tested by timing the burning speed of candles made from each material. Science is also democratic: rather than accepting the views of kings or pharaohs as absolute truth, people want to form their own opinions and debate conclusions, and scientists are skeptical and discuss their observations and theories openly, often by publishing competing findings on the idea that the best data will win the argument. Finally, science is cumulative: the truths discovered by earlier scientists can be learned and built upon, and any physics student today knows more about physics than Isaac Newton did.
+Science is not magic. For knowledge about the observable world, it is still the most powerful tool there is. It will not solve every human problem, and it may not answer every question about behaviour.
+
+A scientist watches a phenomenon happen, measures it, and records it in an organized way, so that memory cannot bias the conclusion. This is systematic observation, the core of science. Those records are the data scientists tally and organize. They also vary the conditions systematically, to see when a phenomenon occurs and when it does not. From watching come hypotheses and theories, written so that they can be tested. One says that paraffin wax candles burn more slowly than beeswax candles of exactly the same size and shape. Time how long each burns.
+
+A king's or a pharaoh's word is not accepted as absolute truth. People make up their own minds and debate conclusions. That is what makes science democratic. Scientists are skeptical. They argue about their observations and theories, and they publish competing findings on the idea that the best data will win.
+
+Science is cumulative: every new truth is built on the ones before it. Any physics student today knows more physics than Isaac Newton did.
 
 ---
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Science acquires knowledge about the observable world through systematic observation, testable hypotheses, open debate, and accumulated results.
+- overview ::@:: Science uses systematic observation, testable hypotheses, open debate, and cumulative results.
 - how ancient people explained solar eclipses and thunderstorms ::@:: As magical or supernatural events.
 - what scientifically minded people rely on ::@:: Testing and observation.
-- the limits of science ::@:: It is not magic, will not solve all human problems, and might not answer all questions about behavior.
-- the four essential elements of science ::@:: Systematic observation; testable hypotheses and theories; open debate; and cumulative results.
-- what systematic observation involves ::@:: Observing the world in an organized way, usually measuring the phenomenon, and recording observations so memory biases are less likely to affect the conclusions.
-- what systematic observations provide ::@:: The basic data from which scientists track, tally, and organize what they know about the natural world.
-- why scientists vary the conditions of observation ::@:: To see variations in the phenomenon and understand when it occurs and when it does not.
-- what observation leads to ::@:: Hypotheses and theories, stated in a form that can be tested.
-- what hypotheses are ::@:: Logical ideas that can be tested.
-- what a theory groups together ::@:: Closely related phenomena or observations.
-- what empirical methods are ::@:: Approaches to inquiry that are tied to actual measurement and observation.
+- an everyday example of an empirical method ::@:: Mixing vinegar with baking soda to watch the reaction.
+- what empirical methods are ::@:: Picking the physical and biological world apart.
+- what science is not ::@:: Magic.
+- the most powerful tool for knowledge about the observable world ::@:: Science.
+- the limits of science ::@:: It will not solve every human problem, and may not answer every question about behaviour.
+- what a scientist does under systematic observation ::@:: Watches a phenomenon happen, measures it, and records it so that memory cannot bias the conclusion.
+- the core of science ::@:: Systematic observation.
+- what recorded observations provide ::@:: Data for scientists to tally and organize.
+- how scientists try to observe ::@:: Vary the conditions systematically, to see when a phenomenon occurs and when it does not.
+- what observation leads to ::@:: Hypotheses and theories, written so that they can be tested.
 - the candle claim about paraffin and beeswax ::@:: Paraffin wax candles burn more slowly than beeswax candles of exactly the same size and shape.
-- what it means that science is democratic ::@:: Conclusions are debated rather than accepted from authority, and competing findings are published on the idea that the best data will win.
-- what it means that science is cumulative ::@:: The truths discovered by earlier scientists can be learned and built upon, so a physics student today knows more than Isaac Newton did.
+- how the candle claim is tested ::@:: By timing how long a candle of each material burns.
+- what it means that science is democratic ::@:: A king's or a pharaoh's word is not accepted as absolute truth, and conclusions are debated instead.
+- the attitude scientists hold toward their own observations and theories ::@:: Skepticism.
+- why scientists publish competing findings ::@:: On the idea that the best data will win.
+- what it means that science is cumulative ::@:: Every new truth is built on the ones before it.
+- an illustration that science is cumulative ::@:: Any physics student today knows more about physics than Isaac Newton did.
 
 ## scientific progress
 
-Asking which individuals helped humanity most usually brings up Mother Teresa, who helped thousands of people living in the slums of Kolkata, and Albert Schweitzer, who opened a hospital in Africa and earned the Nobel Peace Prize. Both are far better known than Edward Jenner, Norman Borlaug, and Fritz Haber, the three scientists whose research discoveries saved millions and even billions of lives. Jenner is often considered the father of immunology, because he was among the first to conceive of and test vaccinations, and his work led directly to the eradication of smallpox; many other diseases have been greatly reduced by vaccines discovered through science, all of them his legacy. Haber and Borlaug created the Green Revolution by producing hybrid agricultural crops and synthetic fertilizer, and together they saved more than a billion human lives, so that humanity can now produce food for seven billion people. Where starvation still occurs, it follows from political and economic factors rather than from any collective inability to produce food.
+Ask who helped humanity most and people name Mother Teresa and Albert Schweitzer. Teresa helped thousands of people in the slums of Kolkata. Schweitzer opened a hospital in Africa and won the Nobel Peace Prize. Edward Jenner, Norman Borlaug, and Fritz Haber are less known, yet their discoveries saved millions and billions of lives.
 
-In 1914 there were few cars, and most people travelled by foot, horseback, or carriage. There were no radios, televisions, birth control pills, artificial hearts, or antibiotics, and only a small portion of the world had telephones, refrigeration, or electricity. Today 80% of households have a television and 84% have electricity, and about three quarters of the world's population has access to a mobile phone. Life expectancy rose from 47 years in 1900 to 79 years in 2010, the share of hungry and malnourished people fell substantially, and even average IQ levels rose over the past century through better nutrition and schooling.
+Jenner, the father of immunology, was among the first to conceive of and test vaccinations. His work led to the eradication of smallpox, and vaccines found through science have cut many other diseases.
+
+Haber and Borlaug made the Green Revolution with hybrid crops and synthetic fertilizer. The Green Revolution saved more than a billion lives, and we can now feed seven billion people. Where people still starve, the cause is political and economic, not a shortage of food.
+
+There were few cars in 1914, and most people walked, rode horses, or drove carriages. No radios, televisions, birth control pills, artificial hearts, or antibiotics existed. Most of the world lacked telephones, refrigeration, and electricity. Today 80% of households have a television, 84% have electricity, and about three quarters of the world's people have a mobile phone.
+
+Life expectancy rose from 47 years in 1900 to 79 years in 2010. Far fewer people go hungry or malnourished. Average IQ rose too, on better nutrition and schooling.
 
 ---
 
@@ -56,23 +74,24 @@ Flashcards for this section are as follows:
 
 - overview ::@:: Most of the major social and technological changes of the past century can be attributed directly to science.
 - who is better known than the scientists who saved millions of lives ::@:: Mother Teresa and Albert Schweitzer.
-- what Mother Teresa and Albert Schweitzer are known for ::@:: Mother Teresa helped thousands of people in the slums of Kolkata, and Albert Schweitzer opened a hospital in Africa and earned the Nobel Peace Prize.
-- the three scientists whose discoveries saved millions or billions of lives ::@:: Edward Jenner, Norman Borlaug, and Fritz Haber.
-- what Fritz Haber and Norman Borlaug are known for ::@:: Saving more than a billion lives through the Green Revolution.
-- how the Green Revolution was produced ::@:: Through hybrid agricultural crops and synthetic fertilizer.
+- what Mother Teresa is known for ::@:: Helping thousands of people in the slums of Kolkata.
+- what Albert Schweitzer is known for ::@:: Opening a hospital in Africa, and earning the Nobel Peace Prize.
+- the three less famous scientists whose discoveries saved millions and billions of lives ::@:: Edward Jenner, Norman Borlaug, and Fritz Haber.
 - the title often given to Edward Jenner ::@:: The father of immunology.
 - what Jenner was among the first to do ::@:: Conceive of and test vaccinations.
 - what Jenner's work led to directly ::@:: The eradication of smallpox.
-- how many other diseases Jenner's vaccination work reduced ::@:: Many, including measles, pertussis, diphtheria, tetanus, typhoid, cholera, polio, and hepatitis.
-- why starvation still occurs ::@:: Political and economic factors, rather than the collective ability to produce food.
+- how many other diseases vaccines discovered through science reduced ::@:: Many.
+- what Haber and Borlaug are known for ::@:: Saving more than a billion lives through the Green Revolution.
+- how the Green Revolution was produced ::@:: Through hybrid crops and synthetic fertilizer.
 - how many people the world can now feed ::@:: Seven billion.
-- how the world of 1914 differed in transport ::@:: There were few cars, and most people travelled by foot, horseback, or carriage.
+- why starvation still occurs ::@:: Political and economic causes, not a shortage of food.
+- how the world of 1914 differed in transport ::@:: Few cars, and most people travelled by foot, horseback, or carriage.
 - technology absent in 1914 ::@:: Radios, televisions, birth control pills, artificial hearts, and antibiotics.
 - utilities most of the world lacked in 1914 ::@:: Telephones, refrigeration, and electricity.
 - household access to television and electricity today ::@:: 80% of households have a television and 84% have electricity.
-- how much of the world's population has access to a mobile phone ::@:: About three quarters.
+- how much of the world's population has a mobile phone ::@:: About three quarters.
 - life expectancy in 1900 and in 2010 ::@:: 47 and 79 years.
-- how hunger and malnutrition changed over the past century ::@:: The share of hungry and malnourished people fell substantially.
+- how hunger and malnutrition changed over the past century ::@:: Far fewer people go hungry or malnourished.
 - why average IQ levels rose over the past century ::@:: Better nutrition and schooling.
 
 ## references

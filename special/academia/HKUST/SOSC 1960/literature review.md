@@ -10,19 +10,18 @@ tags:
 
 # literature review
 
-A literature review states what is already known about a question and how the findings fit together, so the reader can see where studies agree and where they diverge. Psychology writing rests on it, and the search behind it has to reach the studies themselves rather than coverage of them.
+A writer with a question needs to know what is known already, and where studies disagree. A literature review sets that out. Most psychology writing rests on one.
 
 ---
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A synthesis of the published research on a question, stating what is known and how the findings fit together.
-- what a review must show beyond listing studies ::@:: Where the findings agree and where they diverge.
-- what the search behind a review has to reach ::@:: The studies themselves, not coverage of them.
+- overview ::@:: A literature review sets out what is known about a question and where studies disagree.
+- what most psychology writing rests on ::@:: A literature review.
 
 ## primary and secondary sources
 
-Research articles that report studies or experiments, review articles, and book chapters come from researchers and are peer reviewed; newspapers, blogs, websites, and magazines come from bloggers or the public. Scientific writing in psychology asks for primary sources, because the method and the results can then be checked in the study that produced them rather than taken from someone else's account of it.
+A reader checking a method has to reach the study behind it, not an account of it. Psychology writing asks for primary sources.
 
 | | primary | secondary |
 | --- | --- | --- |
@@ -34,128 +33,135 @@ Research articles that report studies or experiments, review articles, and book 
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Sources written by researchers and published as peer-reviewed research articles, review articles, or book chapters.
-- secondary source / authors and publications ::@:: Written by bloggers or the public, and published as newspapers, blogs, websites, and magazines.
-- why psychology writing asks for primary sources ::@:: The method and results can be checked in the study that produced them.
-- what relying on a secondary source means ::@:: Taking the method and results from someone else's account of a study rather than from the study itself.
-- which publications are peer reviewed ::@:: Research articles, review articles, and book chapters.
+- why psychology writing asks for primary sources ::@:: A reader has to reach the study behind a method, not an account of it.
+- what a primary source is ::@:: A research article, review article, or book chapter, written and peer reviewed by researchers.
+- what a secondary source is ::@:: A newspaper, blog, website, or magazine, written by bloggers or the public.
 
 ## literature databases
 
-A database holds records of journal articles, book chapters, and conference proceedings, and each record carries the title, authors, publication year, and keywords. APA PsycINFO is the psychology database, with abstracts and index terms. Around it sit the multi-disciplinary databases Social Sciences Citation Index in Web of Science and Scopus, and the medical and health sciences databases Medline and EMBASE. Databases differ in subject coverage, in their interfaces, and in their controlled vocabulary, so a thorough search covers more than one.
+A database holds records of journal articles, book chapters, and conference proceedings, each with a title, authors, year, and keywords. APA PsycINFO covers psychology, with abstracts and index terms. Social Sciences Citation Index in Web of Science and Scopus cover many disciplines. Medline and EMBASE cover medicine and the health sciences. They differ in subject coverage, interfaces, and controlled vocabulary. A question spanning psychology and physical health needs more than one.
 
-A record's Find@HKUST link leads to the library's copy of the article. What a database does not offer is the reach of Google Scholar, whose coverage and ranking make it unsuitable for a systematic search that has to be transparent and reproducible.
+A record's Find@HKUST link leads to the library's copy. Google Scholar reaches further than any database. Its coverage and ranking make it unsuitable for a systematic search, which has to be transparent and reproducible.
 
 ---
 
 Flashcards for this section are as follows:
 
-- overview ::@:: An index of records for journal articles, book chapters, and conference proceedings, each carrying title, authors, year, and keywords.
+- overview ::@:: A database holds records of journal articles, book chapters, and conference proceedings.
+- what a database record carries ::@:: Its title, authors, year, and keywords.
 - psychology database ::@:: APA PsycINFO, which carries abstracts and index terms.
 - multi-disciplinary databases ::@:: Social Sciences Citation Index in Web of Science, and Scopus.
 - medical and health sciences databases ::@:: Medline and EMBASE.
-- why a search covers more than one database ::@:: Databases differ in subject coverage and in their interfaces and controlled vocabulary.
-- question that needs more than one database ::@:: One falling across psychology and physical health.
-- what a Find@HKUST link does ::@:: Leads from a database record to the library's copy of the article.
-- why a systematic review cannot rest on Google Scholar ::@:: Its coverage and ranking do not give the transparent, reproducible search a systematic review requires.
+- how databases differ from one another ::@:: In subject coverage, interfaces, and controlled vocabulary.
+- question that needs more than one database ::@:: A question spanning psychology and physical health.
+- what a Find@HKUST link does ::@:: It leads from a database record to the library's copy of the article.
+- what Google Scholar reaches ::@:: It reaches far beyond any database.
+- why a systematic review cannot rest on Google Scholar ::@:: Its coverage and its ranking cannot produce a search that is transparent and reproducible.
 
 ## search keywords
 
-A search starts from the question's key concepts, not from its wording: a question about how keeping a pet helps an elderly person feel less lonely reduces to pets, elderly, and lonely.
+A search starts from a question's key concepts, not from its wording. A question about how keeping a pet eases loneliness in an elderly person becomes a search for pets, elderly, and lonely.
 
 ---
 
 Flashcards for this section are as follows:
 
-- overview ::@:: The key concepts of a question written as terms a database will match, rather than the question's own wording.
+- overview ::@:: A search starts from a question's key concepts, not from its wording.
 - keywords the pet-and-loneliness question reduces to ::@:: Pets, elderly, and lonely.
 
 ### finding keywords
 
-Keywords turn up in the journal articles already read on a related topic, in the keywords of a systematic review, whose search strategy is stated in its method, and in secondary sources such as psychology and science magazines.
+Keywords turn up in journal articles already read on a related topic. A systematic review lists its own in its method. Secondary sources such as psychology and science magazines carry more.
 
 ---
 
 Flashcards for this section are as follows:
 
-- where to find keywords ::@:: The journal articles already read on a related topic, the keywords of a systematic review, and secondary sources such as psychology and science magazines.
+- where to find keywords ::@:: Read the journal articles on a related topic, then the method of a systematic review, then psychology and science magazines.
 - where a systematic review states its search strategy ::@:: In its method.
 
 ### refining a search
 
-A search is narrowed by putting a phrase in quotation marks, which returns only articles containing that exact phrase, and widened with the APA Thesaurus of Psychological Index Terms, which supplies the controlled terms that index the literature. Databases add limiters of their own: publication type such as book chapters or journals, age group, population group, test measures, and methodology. Natural language searching takes everyday language instead of specialised terms or codes, so a few phrasings are worth trying.
+Quotation marks around a phrase limit a search to the articles containing it. The APA Thesaurus of Psychological Index Terms widens a search with the controlled terms indexing the literature. Each database adds limiters: publication type such as book chapters or journals, age group, population group, test measures, and methodology. Natural language searching takes everyday language in place of specialised terms or codes. A few phrasings of one question are worth trying.
 
 ---
 
 Flashcards for this section are as follows:
 
-- what quotation marks around a phrase do ::@:: Limit the search to articles containing that exact phrase.
+- what quotation marks around a phrase do ::@:: They limit the search to the articles that contain that phrase.
 - what the APA Thesaurus widens a search with ::@:: The controlled terms that index the literature.
-- limiters a psychology database offers ::@:: Publication type, age group, population group, test measures, and methodology.
-- what natural language searching accepts ::@:: Everyday language instead of specialised terms or codes, so a few phrasings of the same question are worth trying.
+- limiters a psychology database offers ::@:: Publication type such as book chapters or journals, age group, population group, test measures, and methodology.
+- what natural language searching accepts ::@:: Everyday language in place of specialised terms or codes.
+- how many phrasings of one question to try ::@:: A few, rather than one.
 
 <!-- check: ignore-next-line[header_style]: AI is an acronym -->
 ## AI tools for literature search
 
-Search tools have accumulated in layers: printed books and index cards browsed by hand, keyword search engines over lists of webpages, scholarly databases such as Web of Science and Scopus and open databases such as Semantic Scholar and OpenAlex, language-model tools that answer semantic searches directly, and since 2024 deep research agents that reason over a question and return an article with its citations.
+The first search tools went through printed books and index cards by hand. Keyword search engines later searched lists of webpages. The scholarly databases Web of Science and Scopus came next, then the open databases Semantic Scholar and OpenAlex. Language-model tools answer for the meaning of a question rather than its keywords. Deep research agents have returned an article with its citations since 2024.
 
 ---
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Tools that search or summarise the literature with a language model, used alongside a database search rather than in place of it.
+- overview ::@:: Search tools have moved from books and index cards searched by hand to tools that answer a question by its meaning.
 - how search worked before language models ::@:: Printed books and index cards browsed by hand, then keyword search engines over lists of webpages.
 - scholarly databases ::@:: Web of Science and Scopus.
 - open databases ::@:: Semantic Scholar and OpenAlex.
+- what language-model tools answer ::@:: The meaning of a question rather than its keywords.
 - deep research agents, in use since 2024 ::@:: They reason over the question and return an article with its citations.
 
 ### general chatbots and academic tools
 
-A general chatbot is trained on open web knowledge, answers general questions, and may invent sources. An academic tool is trained on academic sources and returns real ones, which is what the research tools that find scholarly materials are for.
+A general chatbot learns from open web knowledge, answers general questions, and may invent sources. An academic tool learns from academic sources and returns sources that really exist. It looks for scholarly materials instead of answering general questions. A literature search wants the academic tool.
 
 ---
 
 Flashcards for this section are as follows:
 
-- general chatbot vs academic tool ::@:: A general chatbot is trained on open web knowledge and may invent sources; an academic tool is trained on academic sources and returns real ones.
-- what the academic language-model tools are for ::@:: Finding scholarly materials, as against answering general questions.
+- general chatbot ::@:: Trained on open web knowledge, it answers general questions and may invent sources.
+- academic tool ::@:: Trained on academic sources, it returns sources that really exist.
+- which of the two a literature search wants ::@:: The academic tool, which looks for scholarly materials instead of answering general questions.
 
 ### limits of AI search tools
 
-Both are limited in a research context: an incomplete grasp of current research and its context, a risk of incorrect or biased content, little originality or depth in the writing, and no transparency or reproducibility for a systematic review. A systematic review keeps traditional search methods that are transparent and reproducible.
+A systematic review keeps the traditional methods, which a reader can trace and repeat. Neither kind of tool allows that. Both fall behind current research and the context around it, and both can produce content that is wrong or biased. Both write with little originality or depth.
 
 ---
 
 Flashcards for this section are as follows:
 
-- limits of generative AI in a research context ::@:: Limited understanding of current research, a risk of incorrect or biased content, little originality or depth, and no transparency or reproducibility.
-- why generative AI cannot replace the search in a systematic review ::@:: A systematic review needs search methods that are transparent and reproducible.
+- what generative AI gets wrong in a research context ::@:: It falls behind current research, and its content can be wrong or biased.
+- what generative AI writing lacks ::@:: Originality and depth.
+- why generative AI cannot replace the search in a systematic review ::@:: A systematic review needs search methods that a reader can trace and repeat.
 
 ### how to use an AI tool
 
-Used as a companion rather than a source, such a tool shortens the search. What it returns still has to be checked against the studies themselves, its citations and claims verified, and its answer is never the single source for a literature search. Writing the draft first and letting the tool improve it leaves the critical analysis in the writer's hands.
+An AI tool shortens the search when it is a companion rather than a source. The writer still has to check its citations and claims against the studies themselves. One answer is never enough. Write the draft first and let the tool improve it. The critical analysis stays with the writer.
 
 ---
 
 Flashcards for this section are as follows:
 
 - role of an AI tool in a literature search ::@:: A companion that shortens the search, never the single source for it.
+- what has to be checked in what a tool returns ::@:: Its citations and claims, checked against the studies themselves.
+- how many answers from a tool are enough ::@:: Never one on its own.
 - how to use generative AI without giving up the analysis ::@:: Write the draft first and let the tool improve it.
-- what has to be checked in what a tool returns ::@:: Its citations and claims, against the studies themselves.
 
 ## reading a research article
 
-A research article is read out of order, and how much of it is read depends on what the reader is after.
+A reader works through a research article out of order. How much of it they read depends on what they are after.
 
 ---
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A document that reports a study or summarises a body of studies, read out of order according to what the reader needs.
+- overview ::@:: A research article is read out of order, and the reader reads as much of it as their purpose needs.
 
 ### kinds of article
 
-Articles arrive as peer-reviewed original studies and their replications, systematic reviews and meta-analyses, case studies, book chapters in handbooks and textbooks, conference proceedings, and dissertation abstracts. A book chapter is an overview or summary rather than a report of a new study.
+Articles come in several kinds: peer-reviewed original studies and their replications, systematic reviews and meta-analyses, case studies, book chapters in handbooks and textbooks, conference proceedings, and dissertation abstracts.
+
+A book chapter summarises existing work instead of reporting a new study.
 
 ---
 
@@ -167,7 +173,7 @@ Flashcards for this section are as follows:
 
 ### order of reading
 
-The abstract comes first, then the introduction that ties the study to past research and states its question, then the discussion that interprets the results. The method and the results are read when the numbers matter to the question. The reference list is read to trace earlier related work.
+A reader starts with the abstract, which says whether the article is worth the rest. The introduction comes next, and the discussion interprets the results. Method and results are read when the numbers matter.
 
 | section | contents | order to read |
 | --- | --- | --- |
@@ -182,29 +188,26 @@ The abstract comes first, then the introduction that ties the study to past rese
 
 Flashcards for this section are as follows:
 
-- order in which a research article is read ::@:: Abstract, then introduction, then discussion, with the method and results read only if needed.
-- what the introduction holds ::@:: A tie to past research and the study's question.
-- what the discussion holds ::@:: The interpretation of the results.
-- what the abstract is read for ::@:: Summarising the article, to judge its relevance.
-- what the method section holds ::@:: The design, participants, materials, and procedures.
-- what the results section holds ::@:: The statistical analyses and the reporting of results.
+- what the abstract is read for ::@:: Its summary, to judge whether the article is worth reading.
 - what the reference list is read for ::@:: Tracing backward to related articles.
 
 ### purposes of reading
 
-Reading serves a purpose, and the purpose sets how much of the article is read. Screening picks articles by relevance from the abstract. Quick reading takes the main argument with the end of the introduction and the beginning of the discussion. Deep reading follows the same order but understands everything. Purposive reading goes after one specific thing, such as the methodology, the measures, or the design.
+Screening picks articles by relevance from the abstract. Quick reading takes the main argument between the end of the introduction and the start of the discussion. Deep reading follows that order and understands everything. Purposive reading goes after one thing, such as the methodology, the measures, or the design.
 
 ---
 
 Flashcards for this section are as follows:
 
-- what sets how much of an article is read ::@:: Which parts of the article are read, and how thoroughly.
-- screening vs quick reading ::@:: Screening picks articles by relevance from the abstract; quick reading takes the main argument with the end of the introduction and the beginning of the discussion.
-- deep vs purposive reading ::@:: Deep reading understands everything in the order quick reading uses, while purposive reading goes after one part such as the methodology, measures, or design.
+- what sets how much of an article is read ::@:: What the reader is after.
+- screening ::@:: Picking articles by relevance from the abstract.
+- quick reading ::@:: Taking the main argument with the end of the introduction and the beginning of the discussion.
+- deep reading ::@:: Following the order quick reading uses and understanding everything.
+- purposive reading ::@:: Going after one specific part, such as the methodology, the measures, or the design.
 
 ## integrating sources
 
-Articles have to be connected to each other rather than summarised one by one.
+A writer has to connect the articles to each other, not summarise them one by one.
 
 ---
 
@@ -214,32 +217,34 @@ Flashcards for this section are as follows:
 
 ### common problems
 
-The argument may be missing or unclear, and the evidence for it may not be clear from the text. The evidence may be there from several studies while the text only summarises them, or the conclusions may not follow from the studies that were reviewed. A review that is a run of paraphrases and summaries without analysis leaves the reader without the argument.
+The argument may be missing or hard to see, and the evidence just as hard to see. Even where the evidence is there, the text may only summarise the studies, and the conclusions may fail to follow from them. A run of paraphrases and summaries leaves the reader without an argument.
 
 ---
 
 Flashcards for this section are as follows:
 
-- common problems with the argument ::@:: It is absent or not obvious, or it is unclear what evidence supports it.
+- common problems with the argument ::@:: It is missing or unclear, and the text does not show what evidence supports it.
 - common problems with the evidence ::@:: The studies are only summarised, or the conclusions are not drawn from the studies reviewed.
-- what a run of paraphrases and summaries leaves the reader with ::@:: No argument: nothing has been analysed.
+- what a run of paraphrases and summaries leaves the reader with ::@:: No argument at all.
 
 ### how to integrate
 
-Integration goes past each article and its own conclusions. The articles are compared for their similarities and differences, and their findings are read for where they converge and where they diverge. Their key points and evidence are digested into an overarching view, the argument is formed from all of the articles read, and the assignment question is answered from the studies reviewed.
+A writer compares the articles for their similarities and differences, then reads the findings for where they converge and diverge. The key points and evidence go into an overarching view. The argument forms from all the articles read. The writer answers the assignment question from the studies reviewed.
 
 ---
 
 Flashcards for this section are as follows:
 
-- what to do beyond each article and its conclusions ::@:: Compare the studies' similarities and differences and read their findings for where they converge and diverge.
-- how the argument of a review is formed ::@:: By digesting the key points and evidence into an overarching view, then answering the assignment question from the studies reviewed.
+- what to do beyond each article and its conclusions ::@:: Compare the studies for their similarities and differences.
+- what comparing the findings looks for ::@:: Where they converge and where they diverge.
+- how the argument of a review is formed ::@:: By digesting the key points and the evidence into an overarching view.
+- where the assignment question gets its answer ::@:: From the studies reviewed.
 
 ## references
 
 - American Psychological Association. (2013, October). [Using PsycINFO](https://www.apa.org/science/about/psa/2013/10/using-psycinfo). _Psychological Science Agenda_.
-    - Source of the material on narrowing and widening a database search with the APA Thesaurus of Psychological Index Terms and search limiters.
+    - Sections: `refining a search`.
 - Gusenbauer, M., and Haddaway, N. R. (2020). [Which academic search systems are suitable for systematic reviews or meta-analyses? Evaluating retrieval qualities of Google Scholar, PubMed, and 26 other resources](https://doi.org/10.1002/jrsm.1378). _Research Synthesis Methods_, 11(2), 181-217.
-    - Source of the material on Google Scholar's unsuitability for systematic search.
+    - Sections: `literature databases`.
 - HKUST Library. (n.d.). [AI tools for literature review](https://libguides.hkust.edu.hk/AI-tools-literature-review/workshop).
-    - Source of the material on general chatbots and academic tools, and on the limits of generative AI in a research context.
+    - Sections: `general chatbots and academic tools`, `limits of AI search tools`.

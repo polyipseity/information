@@ -24,22 +24,54 @@ tags:
 
 ---
 
-SOSC 1960 is an undergraduate course in psychology at HKUST on the scientific study of human thinking and behavior. It covers why science is used to study the mind, research designs, learning and conditioning, memory, the brain, vision, cognitive development in childhood, social cognition and attitudes, health psychology, and the use of AI in psychology. SOSC 1960 also examines how this knowledge applies to human performance and wellbeing in social settings.
+SOSC 1960 is HKUST's undergraduate course on the science of human thinking and behavior. It starts with what counts as evidence about the mind and how studies are designed. It ends by putting that evidence to work on performance and wellbeing in social settings. The `## overview` section lists the topics that come between.
 
 ## children
 
+- [attachments/](attachments/index.md)
 - [lectures/](lectures/index.md)
 - [AGENTS](AGENTS.md)
 - [APA style](APA%20style.md)
+- [Bobo doll experiment](Bobo%20doll%20experiment.md)
 - [academic writing](academic%20writing.md)
+- [blinded experiment](blinded%20experiment.md)
+- [blocking effect](blocking%20effect.md)
+- [classical conditioning](classical%20conditioning.md)
+- [cognitive neuropsychology](cognitive%20neuropsychology.md)
+- [computational model](computational%20model.md)
+- [confounding](confounding.md)
+- [converging evidence](converging%20evidence.md)
+- [correlation does not imply causation](correlation%20does%20not%20imply%20causation.md)
+- [correlation](correlation.md)
+- [cross-race effect](cross-race%20effect.md)
+- [electroencephalography](electroencephalography.md)
+- [experiment](experiment.md)
+- [extinction (psychology)](extinction%20(psychology).md)
+- [functional magnetic resonance imaging](functional%20magnetic%20resonance%20imaging.md)
 - [gender role](gender%20role.md)
 - [literature review](literature%20review.md)
+- [longitudinal study](longitudinal%20study.md)
+- [magnetic resonance imaging](magnetic%20resonance%20imaging.md)
+- [magnetoencephalography](magnetoencephalography.md)
+- [mood measurement](mood%20measurement.md)
+- [observational learning](observational%20learning.md)
+- [operant conditioning](operant%20conditioning.md)
 - [paraphrase](paraphrase.md)
+- [phobia](phobia.md)
+- [placebo](placebo.md)
 - [plagiarism](plagiarism.md)
+- [preparedness (learning)](preparedness%20(learning).md)
 - [psychology](psychology.md)
+- [quasi-experiment](quasi-experiment.md)
+- [random assignment](random%20assignment.md)
+- [research design](research%20design.md)
 - [research ethics](research%20ethics.md)
+- [reward devaluation](reward%20devaluation.md)
 - [science](science.md)
 - [sleep and emotions](sleep%20and%20emotions.md)
+- [stimulus control](stimulus%20control.md)
+- [survey (human research)](survey%20(human%20research).md)
+- [transcranial magnetic stimulation](transcranial%20magnetic%20stimulation.md)
 
 ## logistics
 
@@ -50,27 +82,32 @@ SOSC 1960 is an undergraduate course in psychology at HKUST on the scientific st
     - group project individual essay: 20%
     - midterm: 20%
     - final: 20%
+- discussion sessions
+    - points per session: 2, split into 1 for sticky-note quality graded on the individual and 1 for oral-presentation quality graded on the group
+    - bonus: 0.25 points each for the best presentation group by peer vote and by the teaching team's vote, from the week 3 session onward
+    - slot: 2 minutes per group, with a hard stop
+    - peer evaluation and voting: at the end of each discussion question set, with a vote on Canvas for the most compelling presentation of that set
 - sections:
     - lecture: L1
         - L1: Rm 2464, Lift 25-26; MondayT12:00:00/MondayT13:20:00, WednesdayT12:00:00/WednesdayT13:20:00
 - textbooks
     - Noba Project (2023), _Introduction to Psychology_, <http://noba.to/7hymnvpc>
     - O'Toole, A. J., and Ludvig, E. A. (2026), "The use of AI in psychology: A historical perspective", _British Journal of Psychology_, <https://browzine.com/libraries/230/articles/696576121>
-- note: assessment is criterion-referenced and grades are not curved; late written work loses 5% for every hour it is overdue
-- note: written assignments are submitted on Canvas only; email submissions are not accepted, no resubmission is allowed after the deadline, and medical conditions do not warrant an extension; technical problems count only when Canvas announces that the system was unavailable at the deadline
-- note: no make-up is given for a missed assignment or quiz, though a make-up quiz may be considered when a medical certificate is provided within 24 hours
-- note: the research experience requires 2 hours of participation in psychology studies, two 400-word reports, or an hour of participation plus one report, with evidence due December 31 at 23:59; participants must be 18 or older, and students under 18 write the reports instead
-- note: group presentations run at most 5 minutes, and the teaching team selects the best three or more for a showcase on November 25, where each selected group earns 1 bonus point
-- note: the group project presentation video is due November 11 at 23:59, and the individual essay is due December 19 at 23:59
-- note: a practice Kahoot of 5 questions runs in week 4, and a Kahoot review of 10 multiple-choice questions runs every week from week 5, including a revision one before the midterm; the top 3 scores earn 1 bonus point and the remaining top 10% earn 0.5
-- note: lectures are not recorded
-- note: email must come from a university account with the subject line prefixed `[SOSC1960-L1]`; Canvas messages are not accepted
-- note: generative AI use must follow the university policy and be acknowledged in the References sections; unacknowledged use counts as improper referencing, and written assignments are subject to a plagiarism check
-- note: academic dishonesty covers cheating, plagiarism, self-plagiarism, grade interference, and data falsification, and the university treats it with zero tolerance
-- note: plagiarized work earns no credit, and penalties run from zero marks for the assessment or the course up to referral for disciplinary action; self-plagiarism covers reusing work submitted for other courses without acknowledgment
-- note: submitted work and exam papers are not returned; individual feedback is available by arrangement with the instructor or tutor, and marks are announced online
+- note: assessment is criterion-referenced, and grades are not curved. Late written work loses 5% for every hour it is overdue
 - note: final grades follow the university descriptors, with A from 80, B from 70 to 79, C from 60 to 69, D from 50 to 59, and F below 50
-- note: marks disputes must be raised within one week of the marks becoming available, and the teaching team's review meeting decides finally
+- note: written assignments go to Canvas only. No resubmission is allowed after the deadline. Medical conditions get no extension. Technical problems count only when Canvas announces the system was unavailable at the deadline
+- note: no make-up is given for a missed assignment or quiz. A make-up quiz may be considered with a medical certificate provided within 24 hours
+- note: the research experience requires 2 hours of participation in psychology studies, two 400-word reports, or an hour of participation plus one report. Evidence is due December 31 at 23:59. Participants must be 18 or older, and students under 18 write the reports instead
+- note: group presentations run at most 5 minutes. The teaching team selects the best three or more for a showcase on November 25. Each earns 1 bonus point
+- note: the group project presentation video is due November 11 at 23:59. The individual essay is due December 19 at 23:59
+- note: a practice Kahoot of 5 questions runs in week 4. From week 5, every week brings a Kahoot review of 10 multiple-choice questions, including a revision one before the midterm. The top 3 scores earn 1 bonus point, and the remaining top 10% earn 0.5
+- note: lectures are not recorded
+- note: email must come from a university account with the subject line prefixed `[SOSC1960-L1]`. Canvas messages are not accepted
+- note: generative AI use must follow the university policy and be acknowledged in the References sections. Unacknowledged use counts as improper referencing. Written assignments are subject to a plagiarism check
+- note: academic dishonesty covers cheating, plagiarism, self-plagiarism, grade interference, and data falsification. The university treats it with zero tolerance
+- note: plagiarized work earns no credit. Penalties run from zero marks for the assessment or the course up to referral for disciplinary action. Self-plagiarism covers reusing work submitted for other courses without acknowledgment
+- note: submitted work and exam papers are not returned. Individual feedback is available by arrangement with the instructor or tutor. Marks are announced online
+- note: marks disputes must be raised within one week of the marks becoming available. The teaching team's review meeting decides finally
 
 ## overview
 
@@ -101,10 +138,10 @@ SOSC 1960 is an undergraduate course in psychology at HKUST on the scientific st
     - analyze human performance and wellbeing in various social settings with reference to those concepts
     - explain how scientific research on the human mind and behavior is conducted
 - notes
-    - weeks 1 to 7 run up to the midterm and weeks 8 to 13 up to the final, and week 14 is a consultation and revision session; October 19 is a holiday, December 1 to 5 is the study break, and a writing workshop replaces one week 2 lecture
-    - discussion runs on a Lucid whiteboard, where sticky notes are graded for intellectual contribution and the other criteria are group discussion skills and communication of ideas; presenters earn 1 point per discussion session, sticky notes must show the presenter's name and student ID, and presentation turns are spread evenly across the group
-    - each group gets a presentation board for its discussion presentation, and the winning group may receive extra marks
-    - the group project examines a psychological myth or common belief with scientific evidence, and the suggested topics are
+    - weeks 1 to 7 run up to the midterm, and weeks 8 to 13 up to the final. Week 14 is a consultation and revision session. October 19 is a holiday, and December 1 to 5 is the study break. A writing workshop replaces one week 2 lecture
+    - discussion runs on a Lucid whiteboard, where sticky notes are graded for intellectual contribution. The other criteria are group discussion skills and communication of ideas. Sticky notes must show the presenter's name and student ID. Presentation turns are spread evenly across the group
+    - each group gets a presentation board for its discussion presentation
+    - the group project examines a psychological myth or common belief with scientific evidence. The suggested topics are
         - handedness: left-handers are better in mathematics and art than right-handers
         - sex differences: males are better in mathematics and sciences whereas females are better in language
         - development: face recognition ability is innate
@@ -123,11 +160,11 @@ SOSC 1960 is an undergraduate course in psychology at HKUST on the scientific st
         - sleep: whether people need less sleep as they get older
         - memory and aging: whether memory gets worse with age
         - large language models: whose values prevail in them
+    - the group project presentation is a video recording. It is assessed on addressing the task (10%) and on understanding, analysis, synthesis, and application of knowledge (20%). The remaining criteria are argumentation (20%), structure and organization (20%), delivery (20%), and presentation mechanics (10%). Members are expected to contribute equally and evaluate one another by November 25. Presentation marks may be adjusted by those ratings
     - the individual essay has an introduction, a scientific evaluation and discussion, and a reflection, limited to 200, 600, and 700 words
-    - the essay topic need not match the group presentation but must be related to it, sources beyond the group materials are encouraged, and the essay reflects what was learned from the project and the course
+    - the essay topic need not match the group presentation, but must be related to it. Sources beyond the group materials are encouraged. The essay reflects what was learned from the project and the course
     - the essay criteria are addressing the task (20%), intellectual engagement with concepts, theories, or issues (40%), personal development and reflection (30%), and writing mechanics (10%)
-    - the group project presentation is a video recording of at most 5 minutes, assessed on addressing the task (10%), understanding, analysis, synthesis, and application of knowledge (20%), argumentation (20%), structure and organization (20%), delivery (20%), and presentation mechanics (10%); members are expected to contribute equally and evaluate one another by November 25, and presentation marks may be adjusted by those ratings
-    - the essay is written in English, single spaced in 12-point Times New Roman with at least 1-inch margins, cites references in APA style, and notes the word count at the end of each section; text beyond the word limit is not graded
+    - the essay is written in English and single spaced in 12-point Times New Roman with at least 1-inch margins. It cites references in APA style and notes the word count at the end of each section. Text beyond the word limit is not graded
 
 ## week 1 lecture 1
 
@@ -239,11 +276,157 @@ SOSC 1960 is an undergraduate course in psychology at HKUST on the scientific st
         - [§ self-plagiarism](plagiarism.md#self-plagiarism)
     - [§ language models and plagiarism](plagiarism.md#language%20models%20and%20plagiarism)
 
+## week 3 lecture 1
+
+- datetime: 2026-09-14T12:00:00+08:00/2026-09-14T13:20:00+08:00, PT1H20M
+- venue: Rm 2464, Lift 25-26
+- topic: research methods: research designs
+- [research design](research%20design.md)
+    - [§ what each design can establish](research%20design.md#what%20each%20design%20can%20establish)
+    - [§ the constraints that choose a design](research%20design.md#the%20constraints%20that%20choose%20a%20design)
+- [experiment](experiment.md)
+    - [§ independent and dependent variables](experiment.md#independent%20and%20dependent%20variables)
+    - [§ what an experiment has to rule out](experiment.md#what%20an%20experiment%20has%20to%20rule%20out)
+- [quasi-experiment](quasi-experiment.md)
+    - [§ conditions that cannot be assigned](quasi-experiment.md#conditions%20that%20cannot%20be%20assigned)
+    - [§ when the groups differ on more than the variable](quasi-experiment.md#when%20the%20groups%20differ%20on%20more%20than%20the%20variable)
+- [random assignment](random%20assignment.md)
+    - [§ the two basketball teams](random%20assignment.md#the%20two%20basketball%20teams)
+    - [§ when chance assignment is impossible](random%20assignment.md#when%20chance%20assignment%20is%20impossible)
+- [confounding](confounding.md)
+    - [§ what makes a variable a confounder](confounding.md#what%20makes%20a%20variable%20a%20confounder)
+    - [§ a third variable behind an association](confounding.md#a%20third%20variable%20behind%20an%20association)
+    - [§ confounds an experiment introduces](confounding.md#confounds%20an%20experiment%20introduces)
+- [placebo](placebo.md)
+    - [§ the Trivaricaine study](placebo.md#the%20trivaricaine%20study)
+    - [§ what believing a treatment is real changes](placebo.md#what%20believing%20a%20treatment%20is%20real%20changes)
+    - [§ the placebo as a control](placebo.md#the%20placebo%20as%20a%20control)
+    - [§ what a placebo costs](placebo.md#what%20a%20placebo%20costs)
+- [blinded experiment](blinded%20experiment.md)
+    - [§ what a double-blind procedure hides](blinded%20experiment.md#what%20a%20double-blind%20procedure%20hides)
+    - [§ where blinding is hard](blinded%20experiment.md#where%20blinding%20is%20hard)
+- [correlation](correlation.md)
+    - [§ what a correlational design measures](correlation.md#what%20a%20correlational%20design%20measures)
+    - [§ the correlation coefficient](correlation.md#the%20correlation%20coefficient)
+- [correlation does not imply causation](correlation%20does%20not%20imply%20causation.md)
+    - [§ three explanations of one association](correlation%20does%20not%20imply%20causation.md#three%20explanations%20of%20one%20association)
+    - [§ claims that outrun their data](correlation%20does%20not%20imply%20causation.md#claims%20that%20outrun%20their%20data)
+- [longitudinal study](longitudinal%20study.md)
+    - [§ change against a cross-sectional comparison](longitudinal%20study.md#change%20against%20a%20cross-sectional%20comparison)
+    - [§ what makes it hard](longitudinal%20study.md#what%20makes%20it%20hard)
+- [survey (human research)](survey%20(human%20research).md)
+    - [§ what a survey buys](survey%20(human%20research).md#what%20a%20survey%20buys)
+    - [§ surveys in correlational and experimental research](survey%20(human%20research).md#surveys%20in%20correlational%20and%20experimental%20research)
+- [converging evidence](converging%20evidence.md)
+    - [§ four routes into brain and cognition](converging%20evidence.md#four%20routes%20into%20brain%20and%20cognition)
+    - [§ what the agreement buys](converging%20evidence.md#what%20the%20agreement%20buys)
+- [magnetic resonance imaging](magnetic%20resonance%20imaging.md)
+    - [§ what a structural image establishes](magnetic%20resonance%20imaging.md#what%20a%20structural%20image%20establishes)
+- [functional magnetic resonance imaging](functional%20magnetic%20resonance%20imaging.md)
+    - [§ correlational, not causal](functional%20magnetic%20resonance%20imaging.md#correlational,%20not%20causal)
+- [electroencephalography](electroencephalography.md)
+    - [§ reading the waveform](electroencephalography.md#reading%20the%20waveform)
+- [magnetoencephalography](magnetoencephalography.md)
+- [cognitive neuropsychology](cognitive%20neuropsychology.md)
+    - [§ what a lesion can and cannot show](cognitive%20neuropsychology.md#what%20a%20lesion%20can%20and%20cannot%20show)
+    - [§ the two cautions](cognitive%20neuropsychology.md#the%20two%20cautions)
+- [transcranial magnetic stimulation](transcranial%20magnetic%20stimulation.md)
+    - [§ the interference with processing](transcranial%20magnetic%20stimulation.md#the%20interference%20with%20processing)
+- [computational model](computational%20model.md)
+    - [§ reading a damaged model](computational%20model.md#reading%20a%20damaged%20model)
+- [cross-race effect](cross-race%20effect.md)
+    - [§ why the effect is awkward](cross-race%20effect.md#why%20the%20effect%20is%20awkward)
+- [psychology](psychology.md)
+    - [§ measurement and modeling tools](psychology.md#measurement%20and%20modeling%20tools)
+
+## week 3 lecture 2
+
+- datetime: 2026-09-16T12:00:00+08:00/2026-09-16T13:20:00+08:00, PT1H20M
+- venue: Rm 2464, Lift 25-26
+- topic: research methods discussion
+- in-class: [week 3 lecture 2](lectures/week%203%20lecture%202/index.md)
+- [mood measurement](mood%20measurement.md)
+    - [§ self-report](mood%20measurement.md#self-report)
+    - [§ behavioural measures](mood%20measurement.md#behavioural%20measures)
+    - [§ physiological measures](mood%20measurement.md#physiological%20measures)
+- [correlation does not imply causation](correlation%20does%20not%20imply%20causation.md)
+    - [§ the three requirements for causation](correlation%20does%20not%20imply%20causation.md#the%20three%20requirements%20for%20causation)
+- [cognitive neuropsychology](cognitive%20neuropsychology.md)
+    - [§ necessity and sufficiency](cognitive%20neuropsychology.md#necessity%20and%20sufficiency)
+
+## week 4 lecture 1
+
+- datetime: 2026-09-21T12:00:00+08:00/2026-09-21T13:20:00+08:00, PT1H20M
+- venue: Rm 2464, Lift 25-26
+- topic: psychology of learning: conditioning and learning
+- [classical conditioning](classical%20conditioning.md)
+    - [§ the four components](classical%20conditioning.md#the%20four%20components)
+    - [§ pairing a neutral stimulus with an unconditioned one](classical%20conditioning.md#pairing%20a%20neutral%20stimulus%20with%20an%20unconditioned%20one)
+    - [§ a stimulus that predicts a temperature change](classical%20conditioning.md#a%20stimulus%20that%20predicts%20a%20temperature%20change)
+    - [§ conditioned emotional responses](classical%20conditioning.md#conditioned%20emotional%20responses)
+    - [§ what conditioning generates](classical%20conditioning.md#what%20conditioning%20generates)
+- [extinction (psychology)](extinction%20(psychology).md)
+    - [§ the extinction procedure](extinction%20(psychology).md#the%20extinction%20procedure)
+    - [§ spontaneous recovery](extinction%20(psychology).md#spontaneous%20recovery)
+    - [§ renewal of an extinguished response](extinction%20(psychology).md#renewal%20of%20an%20extinguished%20response)
+- [blocking effect](blocking%20effect.md)
+    - [§ the three phases](blocking%20effect.md#the%20three%20phases)
+    - [§ prediction error and attention](blocking%20effect.md#prediction%20error%20and%20attention)
+    - [§ a new manager's first announcement](blocking%20effect.md#a%20new%20manager's%20first%20announcement)
+- [preparedness (learning)](preparedness%20(learning).md)
+    - [§ where the effect is clearest](preparedness%20(learning).md#where%20the%20effect%20is%20clearest)
+    - [§ the evolutionary argument](preparedness%20(learning).md#the%20evolutionary%20argument)
+    - [§ equipotentiality and the alternatives](preparedness%20(learning).md#equipotentiality%20and%20the%20alternatives)
+- [phobia](phobia.md)
+    - [§ how a phobia forms](phobia.md#how%20a%20phobia%20forms)
+        - [§ conditioning a child to fear a harmless object](phobia.md#conditioning%20a%20child%20to%20fear%20a%20harmless%20object)
+        - [§ stimulus generalisation](phobia.md#stimulus%20generalisation)
+    - [§ why the fear lasts](phobia.md#why%20the%20fear%20lasts)
+    - [§ reversing a phobia](phobia.md#reversing%20a%20phobia)
+- [operant conditioning](operant%20conditioning.md)
+    - [§ reinforcement and punishment](operant%20conditioning.md#reinforcement%20and%20punishment)
+    - [§ choice between behaviours](operant%20conditioning.md#choice%20between%20behaviours)
+    - [§ schedules of reinforcement](operant%20conditioning.md#schedules%20of%20reinforcement)
+    - [§ classical and operant conditioning](operant%20conditioning.md#classical%20and%20operant%20conditioning)
+- [stimulus control](stimulus%20control.md)
+    - [§ stimulus generalization](stimulus%20control.md#stimulus%20generalization)
+- [reward devaluation](reward%20devaluation.md)
+    - [§ what weakens a reinforcer](reward%20devaluation.md#what%20weakens%20a%20reinforcer)
+    - [§ a habit stops responding to devaluation](reward%20devaluation.md#a%20habit%20stops%20responding%20to%20devaluation)
+- [observational learning](observational%20learning.md)
+    - [§ the four stages](observational%20learning.md#the%20four%20stages)
+        - [§ attention](observational%20learning.md#attention)
+        - [§ retention](observational%20learning.md#retention)
+        - [§ initiation](observational%20learning.md#initiation)
+        - [§ motivation](observational%20learning.md#motivation)
+    - [§ what arrives with maturity](observational%20learning.md#what%20arrives%20with%20maturity)
+- [Bobo doll experiment](Bobo%20doll%20experiment.md)
+    - [§ the design](Bobo%20doll%20experiment.md#the%20design)
+    - [§ vicarious reinforcement](Bobo%20doll%20experiment.md#vicarious%20reinforcement)
+    - [§ why it was criticized](Bobo%20doll%20experiment.md#why%20it%20was%20criticized)
+    - [§ what it changed](Bobo%20doll%20experiment.md#what%20it%20changed)
+- [psychology](psychology.md)
+    - [§ history of psychology](psychology.md#history%20of%20psychology)
+
 ## week 4 lecture 2
 
 - datetime: 2026-09-23T12:00:00+08:00/2026-09-23T13:20:00+08:00, PT1H20M
 - venue: Rm 2464, Lift 25-26
 - topic: psychology of learning discussion
+- in-class: [week 4 lecture 2](lectures/week%204%20lecture%202/index.md)
+- [research ethics](research%20ethics.md)
+    - [§ ethical guidelines](research%20ethics.md#ethical%20guidelines)
+    - [§ participants who cannot consent for themselves](research%20ethics.md#participants%20who%20cannot%20consent%20for%20themselves)
+- [preparedness (learning)](preparedness%20(learning).md)
+    - [§ where the effect is clearest](preparedness%20(learning).md#where%20the%20effect%20is%20clearest)
+    - [§ the evolutionary argument](preparedness%20(learning).md#the%20evolutionary%20argument)
+    - [§ equipotentiality and the alternatives](preparedness%20(learning).md#equipotentiality%20and%20the%20alternatives)
+- [observational learning](observational%20learning.md)
+    - [§ the four stages](observational%20learning.md#the%20four%20stages)
+        - [§ attention](observational%20learning.md#attention)
+        - [§ retention](observational%20learning.md#retention)
+        - [§ initiation](observational%20learning.md#initiation)
+        - [§ motivation](observational%20learning.md#motivation)
 
 ---
 
@@ -293,7 +476,7 @@ SOSC 1960 is an undergraduate course in psychology at HKUST on the scientific st
 - grade: \[missing\]
 - statistics: \[missing\]
 - breakdown: \[missing\]
-- note: the examination lasts 60 minutes and is non-cumulative; the date is subject to minor change
+- note: the examination lasts 60 minutes and is non-cumulative. The date is subject to minor change
 - report: \[missing\]
 
 ## final examination
@@ -310,5 +493,5 @@ SOSC 1960 is an undergraduate course in psychology at HKUST on the scientific st
 - grade: \[missing\]
 - statistics: \[missing\]
 - breakdown: \[missing\]
-- note: the examination lasts 60 minutes and is non-cumulative, and it falls between December 7 and 19, 2026, with the date announced by the Academic Registrar's Office
+- note: the examination lasts 60 minutes, is non-cumulative, and falls between December 7 and 19, 2026, with the date announced by the Academic Registrar's Office
 - report: \[missing\]

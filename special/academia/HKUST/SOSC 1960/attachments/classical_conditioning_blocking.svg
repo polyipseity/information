@@ -1,0 +1,44 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 940 460' width='940' height='460'>
+<rect width='940' height='460' fill='#ffffff'/>
+<text x='20' y='30' font-family='Helvetica, Arial, sans-serif' font-size='18' text-anchor='start' fill='#1a1a1a'>The three phases of a blocking experiment</text>
+<rect x='20' y='56' width='292' height='330' rx='10' fill='#ffffff' stroke='#1f3864' stroke-width='2'/>
+<text x='166' y='84' font-family='Helvetica, Arial, sans-serif' font-size='17' text-anchor='middle' fill='#1a1a1a'>phase 1</text>
+<rect x='42' y='102' width='248' height='40' rx='4' fill='#fbd3a6' stroke='#1f3864' stroke-width='2'/>
+<text x='166' y='127' font-family='Helvetica, Arial, sans-serif' font-size='15' text-anchor='middle' fill='#1a1a1a'>tone</text>
+<rect x='42' y='164' width='248' height='40' rx='4' fill='#fbd3a6' stroke='#1f3864' stroke-width='2'/>
+<text x='166' y='189' font-family='Helvetica, Arial, sans-serif' font-size='15' text-anchor='middle' fill='#1a1a1a'>food</text>
+<line x1='166' y1='142' x2='166' y2='156' stroke='#c2410c' stroke-width='2.2'/><path d='M 166 164 L 160.5 153 L 171.5 153 Z' fill='#c2410c'/>
+<rect x='42' y='226' width='248' height='40' rx='4' fill='#e8eef7' stroke='#1f3864' stroke-width='2'/>
+<text x='166' y='251' font-family='Helvetica, Arial, sans-serif' font-size='15' text-anchor='middle' fill='#1a1a1a'>response</text>
+<line x1='166' y1='204' x2='166' y2='218' stroke='#1f3864' stroke-width='2.2'/><path d='M 166 226 L 160.5 215 L 171.5 215 Z' fill='#1f3864'/>
+<rect x='332' y='56' width='292' height='330' rx='10' fill='#ffffff' stroke='#1f3864' stroke-width='2'/>
+<text x='478' y='84' font-family='Helvetica, Arial, sans-serif' font-size='17' text-anchor='middle' fill='#1a1a1a'>phase 2</text>
+<rect x='354' y='102' width='248' height='40' rx='4' fill='#f2f2f2' stroke='#1f3864' stroke-width='2'/>
+<text x='478' y='127' font-family='Helvetica, Arial, sans-serif' font-size='15' text-anchor='middle' fill='#1a1a1a'>light</text>
+<rect x='354' y='164' width='248' height='40' rx='4' fill='#fbd3a6' stroke='#1f3864' stroke-width='2'/>
+<text x='478' y='189' font-family='Helvetica, Arial, sans-serif' font-size='15' text-anchor='middle' fill='#1a1a1a'>tone</text>
+<line x1='478' y1='142' x2='478' y2='156' stroke='#5a5a5a' stroke-width='2.2'/><path d='M 478 164 L 472.5 153 L 483.5 153 Z' fill='#5a5a5a'/>
+<rect x='354' y='226' width='248' height='40' rx='4' fill='#fbd3a6' stroke='#1f3864' stroke-width='2'/>
+<text x='478' y='251' font-family='Helvetica, Arial, sans-serif' font-size='15' text-anchor='middle' fill='#1a1a1a'>food</text>
+<line x1='478' y1='204' x2='478' y2='218' stroke='#c2410c' stroke-width='2.2'/><path d='M 478 226 L 472.5 215 L 483.5 215 Z' fill='#c2410c'/>
+<rect x='354' y='288' width='248' height='40' rx='4' fill='#e8eef7' stroke='#1f3864' stroke-width='2'/>
+<text x='478' y='313' font-family='Helvetica, Arial, sans-serif' font-size='15' text-anchor='middle' fill='#1a1a1a'>response</text>
+<line x1='478' y1='266' x2='478' y2='280' stroke='#1f3864' stroke-width='2.2'/><path d='M 478 288 L 472.5 277 L 483.5 277 Z' fill='#1f3864'/>
+<text x='478' y='352' font-family='Helvetica, Arial, sans-serif' font-size='13' text-anchor='middle' fill='#5a5a5a'>the light comes before the tone,</text>
+<text x='478' y='370' font-family='Helvetica, Arial, sans-serif' font-size='13' text-anchor='middle' fill='#5a5a5a'>and is never followed by the food on its own</text>
+<rect x='644' y='56' width='292' height='330' rx='10' fill='#ffffff' stroke='#1f3864' stroke-width='2'/>
+<text x='790' y='84' font-family='Helvetica, Arial, sans-serif' font-size='17' text-anchor='middle' fill='#1a1a1a'>test</text>
+<rect x='666' y='102' width='118' height='40' rx='4' fill='#f2f2f2' stroke='#1f3864' stroke-width='2'/>
+<text x='725' y='127' font-family='Helvetica, Arial, sans-serif' font-size='15' text-anchor='middle' fill='#1a1a1a'>light</text>
+<line x1='725' y1='142' x2='725' y2='190' stroke='#1f3864' stroke-width='2.2'/><path d='M 725 198 L 719.5 187 L 730.5 187 Z' fill='#1f3864'/>
+<rect x='666' y='198' width='118' height='40' rx='4' fill='#f2f2f2' stroke='#1f3864' stroke-width='2'/>
+<text x='725' y='223' font-family='Helvetica, Arial, sans-serif' font-size='14' text-anchor='middle' fill='#1a1a1a'>no response</text>
+<rect x='796' y='102' width='118' height='40' rx='4' fill='#fbd3a6' stroke='#1f3864' stroke-width='2'/>
+<text x='855' y='127' font-family='Helvetica, Arial, sans-serif' font-size='15' text-anchor='middle' fill='#1a1a1a'>tone</text>
+<line x1='855' y1='142' x2='855' y2='190' stroke='#1f3864' stroke-width='2.2'/><path d='M 855 198 L 849.5 187 L 860.5 187 Z' fill='#1f3864'/>
+<rect x='796' y='198' width='118' height='40' rx='4' fill='#e8eef7' stroke='#1f3864' stroke-width='2'/>
+<text x='855' y='223' font-family='Helvetica, Arial, sans-serif' font-size='14' text-anchor='middle' fill='#1a1a1a'>response</text>
+<text x='790' y='260' font-family='Helvetica, Arial, sans-serif' font-size='13' text-anchor='middle' fill='#c2410c'>the tone still works; the light never learned</text>
+<text x='20' y='414' font-family='Helvetica, Arial, sans-serif' font-size='15' text-anchor='start' fill='#1a1a1a'>The light is presented in phase 2 while the tone already predicts the food, so the light predicts</text>
+<text x='20' y='434' font-family='Helvetica, Arial, sans-serif' font-size='15' text-anchor='start' fill='#1a1a1a'>nothing, and the test finds no association to it, even though the tone is tested in the same phase and still works.</text>
+</svg>

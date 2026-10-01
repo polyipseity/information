@@ -8,45 +8,61 @@ tags:
 
 # sleep and emotions
 
-Emotional life depends on sleep. A rested brain reacts to emotional material with an appropriate response, and a sleep-deprived brain overreacts; sleep then takes the sharp edges off the day's difficult experiences.
+Emotion is louder without sleep and quieter after it.
+
+The amygdala, the part of the brain that generates strong emotional reactions, negative ones included, becomes more reactive without sleep, and the prefrontal cortex that normally controls it loses the link between them.
+
+Sleep is also when the day's difficult experiences are taken in and soothed, so that the next day copes.
 
 ---
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Emotional reactivity depends on how much sleep the brain has had, and sleep helps process the day's emotional experiences.
+- overview ::@:: Emotion is louder without sleep and quieter after it.
+- what emotional reactivity depends on ::@:: How much sleep the brain has had.
+- what becomes more reactive without sleep ::@:: The amygdala, the part of the brain that generates strong emotional reactions.
+- what the prefrontal cortex does without sleep ::@:: It loses the link to the amygdala.
+- what sleep does for the day's emotional experiences ::@:: It takes in the day's difficult experiences and soothes them, so that the next day copes.
 
 ## emotional reactivity under sleep loss
 
-Sleep-deprivation experiments compare the same people rested and unrested. Given a full night of sleep and then scanned while viewing emotional material, they show a moderate, appropriate degree of reactivity in the amygdala, the region that generates strong emotional reactions, including negative ones. Scanned after sleep deprivation, that deep emotional center is hyperactive, almost 60 percent more responsive.
+Sleep-deprivation experiments scan the same people twice, rested and unrested. One region generates strong emotional reactions, negative ones included: the amygdala. When rested, it reacts to emotional material at a moderate, fitting degree. Under sleep deprivation it is hyperactive, almost 60 percent more responsive.
 
-The difference comes from the prefrontal cortex, the region above the eyes that makes high-level, top-down control decisions and is among the most evolved parts of the brain. One of the parts it controls is the amygdala. After a full night of sleep, communication between the two is strong and the prefrontal cortex regulates the emotional center. After sleep deprivation, that connection is essentially severed, and the amygdala responds far more reactively. Sleep loss leaves a person with all emotional accelerator pedal and too little regulatory brake.
+Above the eyes sits the prefrontal cortex, which handles high-level, top-down decisions. Among the most evolved parts of the brain, it controls the amygdala.
+
+After a full night's sleep the cortex and amygdala communicate strongly. Under sleep deprivation that link is essentially severed.
 
 ---
 
 Flashcards for this section are as follows:
 
 - what the amygdala is for ::@:: Generating strong emotional reactions, including negative ones.
-- what a full night of sleep leaves the amygdala's reactivity at ::@:: A moderate, appropriate degree, rather than no response at all.
+- how a sleep-deprivation experiment studies emotion ::@:: It scans the same people twice, once rested and once not.
+- what a full night of sleep leaves amygdala reactivity at ::@:: A moderate, fitting degree.
 - how much more responsive the amygdala is under sleep loss ::@:: Almost 60 percent.
-- what the prefrontal cortex does about emotion ::@:: It makes high-level, top-down control decisions, and one of the parts it controls is the amygdala.
-- where the prefrontal cortex sits ::@:: Directly above the eyes.
-- what sleep loss does to the prefrontal cortex and the amygdala ::@:: It essentially severs the connection between them, so the amygdala responds far more reactively.
-- what sleep loss feels like ::@:: All emotional accelerator pedal and too little regulatory brake.
+- where the prefrontal cortex sits ::@:: Above the eyes.
+- what the prefrontal cortex does about emotion ::@:: It makes high-level, top-down control decisions.
+- what the prefrontal cortex controls in emotion ::@:: The amygdala.
+- how the prefrontal cortex compares with other brain regions ::@:: It is among the most evolved parts of the brain.
+- what a full night's sleep does to the link between the prefrontal cortex and the amygdala ::@:: They communicate strongly.
+- what sleep loss does to the link between the prefrontal cortex and the amygdala ::@:: It essentially severs it.
 
 ## emotional memory during sleep
 
-Rapid eye movement sleep offers a form of emotional first aid: during the night, the day's difficult emotional experiences are taken in and soothed, losing their sharp edges so that they can be coped with the next day. The healing usually credited to time is partly the healing that happens during sleep.
+During sleep the brain takes in the day's difficult experiences and soothes them. Their sharp edges fade, and the next day copes.
+
+Some of the healing usually credited to time happens during sleep. REM sleep is a form of emotional first aid.
 
 ---
 
 Flashcards for this section are as follows:
 
-- what rapid eye movement sleep offers ::@:: A form of emotional first aid, taking the sharp edges off difficult experiences from the day.
-- when difficult emotional experiences are reprocessed ::@:: During sleep at night, so that they can be coped with the next day.
+- when difficult emotional experiences are reprocessed ::@:: During sleep at night, so they can be coped with the next day.
+- where some of the healing usually credited to time happens ::@:: During sleep.
+- what rapid eye movement sleep offers ::@:: A form of emotional first aid.
 
 ## references
 
 - Walker, M. (2020). [How sleep affects your emotions](https://www.youtube.com/watch?v=6F8wFkScnME) [Video]. TED.
-    - Source of the material on emotional reactivity under sleep loss and on emotional memory during sleep.
+    - Contributed to _emotional reactivity under sleep loss_ and _emotional memory during sleep_.
     - Part of the _Sleeping with Science_ series.
