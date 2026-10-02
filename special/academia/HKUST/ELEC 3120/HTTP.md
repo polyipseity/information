@@ -11,7 +11,7 @@ tags:
 
 HTTP (Hypertext Transfer Protocol) is an application-layer request-response protocol. A client sends a request and a server returns a response, usually carrying an HTML document or other resource. HTTP is text-based and variable-length with no fixed byte offsets, making it human-readable and extensible but harder to parse in software.
 
-Four generations of HTTP are in wide use, and they differ in three respects: how a connection is set up and reused, whether responses can arrive out of order on one connection, and what carries the bytes.
+There are four versions in use today. They differ over three things: whether a connection is reused, whether a response can overtake an earlier one, and what carries the bytes.
 
 ---
 
@@ -19,21 +19,20 @@ Flashcards for this section are as follows:
 
 - what kind of protocol is HTTP? ::@:: An application-layer request-response protocol that retrieves hypermedia resources on the World Wide Web
 - design trade-off ::@:: Text-based and variable-length: human-readable and extensible, but harder to parse than fixed-format protocols
-- HTTP generations ::@:: HTTP 1.0, 1.1, 2.0, and 3.0 differ in connection reuse, ordering of responses on one connection, and transport: TCP for 1.0 through 2.0, QUIC over UDP for 3.0
 
 ## client-server model
 
 HTTP follows a client-server model. The server is always on and well known; clients initiate contact by sending a request and receiving a reply.
 
-The server keeps nothing about a client between requests, and it never has: HTTP is stateless from 1.0 onward. An application that needs state stores it elsewhere. Nothing has to be recovered between requests, so one server absorbs a high request rate and a restart loses nothing.
+The server keeps nothing about a client between requests. HTTP has been stateless since 1.0, so an application that needs state keeps it somewhere else. With nothing to remember between requests, one server can handle a high request rate.
 
 ---
 
 Flashcards for this section are as follows:
 
-- who starts a contact in HTTP? ::@:: The client, since the server is always on and well known; the exchange is synchronous request-reply
-- server state ::@:: The server retains nothing about a client between requests; this has held since HTTP 1.0
-- statelessness / benefit ::@:: The server can scale and absorb a high request rate because nothing about a client survives its request
+- who starts the exchange? ::@:: The client. The server is always on and well known, and each request is answered before the next one goes out
+- does the server remember a client between requests? ::@:: No, and it never has: HTTP has been stateless since 1.0
+- why is statelessness worth having? ::@:: The server has nothing to rebuild between requests, so one server can handle a high request rate
 
 ### state management
 
@@ -56,7 +55,7 @@ A request message has a request line (method, resource path, protocol version), 
 
 A response message has a status line (protocol version, status code, status phrase), optional response headers, and an optional body.
 
-Common methods: GET retrieves a resource, POST sends data to the server. Common headers: `Host`, `User-agent`, `Connection`, `Accept-language`. The protocol version sits in the request line of every request and the status line of every response. HTTP 1.1 made `Host` mandatory, because one address can answer for many domain names at once.
+The two common methods are GET, which fetches a resource, and POST, which sends data to the server. The common headers are `Host`, `User-agent`, `Connection`, and `Accept-language`. Every message states the version, in the request line or the status line. HTTP 1.1 made `Host` mandatory, since one address can serve many domain names at once.
 
 ---
 
@@ -65,7 +64,7 @@ Flashcards for this section are as follows:
 - HTTP request message / structure ::@:: A request line (method, resource, protocol version), header lines, an optional body, and a blank CRLF separator
 - HTTP response message / structure ::@:: A status line (protocol version, status code, status phrase), response headers, and an optional body
 - `Host` header ::@:: Mandatory in every HTTP 1.1 request, since one address serves many domain names
-- protocol version on the wire ::@:: Stated in the request line of every request and in the status line of every response
+- where does a message state the HTTP version? ::@:: In the request line of a request, and in the status line of a response
 
 ## persistent connections
 
@@ -83,80 +82,79 @@ Flashcards for this section are as follows:
 
 ### keep-alive in HTTP 1.0
 
-HTTP 1.0 does have a way to reuse a connection. A client sends `Connection: Keep-Alive` (RFC 2068) and the server may confirm it, after which the same connection carries the next object. Old clients and old servers disagreed about when to stop, so in practice HTTP 1.0 behaves as non-persistent and every object pays for its own connection.
+HTTP 1.0 could reuse a connection, but only if both ends agreed to it. The client sent `Connection: Keep-Alive` (RFC 2068) and the server answered with the same header, after which the connection carried the next object too. Clients and servers disagreed often enough about when to stop that nobody relied on it, so in practice HTTP 1.0 is non-persistent and every object pays for a connection of its own.
 
 ---
 
 Flashcards for this section are as follows:
 
-- HTTP 1.0 / `Connection: Keep-Alive` ::@:: An opt-in extension in which client and server agree to reuse the connection; poor interoperability left it unused in practice
-- HTTP 1.0 / connection cost: Given a page of $n$ small objects over non-persistent HTTP 1.0, what does the page cost? ::@:: $3n$ RTTs, one new TCP connection for every object
+- HTTP 1.0 / `Connection: Keep-Alive` ::@:: Reuse had to be asked for and agreed to, and the two ends disagreed about when to stop, so nobody used it
+- HTTP 1.0 / page cost: A page has $n$ small objects and the connection is not persistent. How many RTTs? ::@:: $3n$, one new TCP connection for every object
 
 ### persistence as the default in HTTP 1.1
 
-HTTP 1.1 made the connection persistent by default, so no keep-alive negotiation is needed first. A client sends several requests over one connection, and either side closes it when finished. The TCP handshake is then paid once per connection instead of once per object, so $n$ small objects cost $n + 2$ RTTs. The bandwidth-delay product measured on the first object carries over to the rest.
+HTTP 1.1 dropped the negotiation and made the connection persistent by default. A client sends every request it has over one connection, and either side closes it when it is done. The TCP handshake is paid once per connection instead of once per object, so $n$ small objects cost $n + 2$ RTTs. Whatever bandwidth-delay product the first object measured still holds for the rest.
 
 ---
 
 Flashcards for this section are as follows:
 
-- HTTP 1.1 / persistent connections: Given a page of $n$ small objects on one persistent connection, what does the page cost? ::@:: $n + 2$ RTTs, against $3n$ without persistence, because the handshake is paid once per connection
-- HTTP 1.1 / handshake cost ::@:: The TCP handshake is paid once per connection rather than once per object
-- who closes a persistent connection ::@:: Either side may close it when finished, since HTTP 1.1 needs no keep-alive agreement first
+- HTTP 1.1 / page cost: A page has $n$ small objects on one persistent connection. How many RTTs? ::@:: $n + 2$, against $3n$ without persistence, since the handshake is paid once per connection
+- when is the TCP handshake paid under HTTP 1.1? ::@:: Once per connection, not once per object
+- who closes a persistent connection? ::@:: Either side, when it is finished with it
 
 ## pipelining
 
-Pipelining arrives with HTTP 1.1. The client writes several requests to one connection without waiting for the answers, and the server responds in the order it received the requests. The requests no longer wait a round trip each, so a page of $n$ small objects costs one round trip for the whole batch.
+HTTP 1.1 added pipelining. The client writes several requests to one connection without waiting for the answers, and the server replies in the order the requests came in. A page of $n$ small objects then costs one round trip for the whole batch instead of one per object.
 
-When all requested objects are immediately available, pipelining works well. When some take longer (e.g., a database query), later ready objects must wait behind the slow one, which is [head-of-line blocking](head-of-line%20blocking.md). The in-order rule is part of the protocol, so a server that can process requests in parallel still cannot send a later response first.
+Pipelining works well when everything is ready at once. It falls apart when one object takes longer to produce than the others, say a page that queries a database. A ready object then waits behind the slow one, which is [head-of-line blocking](head-of-line%20blocking.md). The rule is in the protocol, not in the server: a server that could answer out of order is still not allowed to.
 
 ---
 
 Flashcards for this section are as follows:
 
-- HTTP 1.1 / pipelining ::@:: Introduced in 1.1: several requests are written to one connection without waiting, and the server answers them in request order
-- pipelining / round trips: Given $n$ pipelined requests written at once on one connection, how many round trips do they cost? ::@:: One round trip for the batch, not one round trip per request
-- pipelining / weakness ::@:: Responses keep request order, so a slow-to-produce object blocks later ready objects on the same connection
+- what is pipelining, and which version added it? ::@:: Writing several requests to one connection without waiting for the answers, added in HTTP 1.1; the server answers in request order
+- pipelining / round trips: $n$ requests are pipelined on one connection. How many round trips? ::@:: One, for the whole batch, not one per request
+- what goes wrong with pipelining? ::@:: Responses keep request order, so a slow object holds up the ready ones behind it
 
 <!-- check: ignore-next-line[header_style]: HTTP is a proper noun -->
 ## HTTP/2
 
-HTTP/2 keeps the persistent connection and replaces the text framing with a binary one. Each request and response is split into frames, every frame carries a stream ID, and many streams share the single TCP connection at once. Because a frame names its own stream, a response for a later request can be written before an earlier one is ready, so a fast object is delivered while a slow one is still being produced. This is what removes application-layer (Layer 7) head-of-line blocking.
+HTTP/2 keeps the persistent connection and swaps the text messages for binary frames. Every frame names the stream it belongs to, and many streams share the one TCP connection. Because a frame names its own stream, a later response can go out before an earlier one is ready, so a fast object arrives while a slow one is still being made. That is what kills application-layer (Layer 7) head-of-line blocking.
 
-The streams are prioritized. A client can say that a script or a stylesheet matters more than an image, and the server is expected to order its work to match. Header fields are compressed with HPACK, which removes much of the cost of the repeated header block that 1.1 sent on every request.
+Streams carry a priority too. A client can say that a script matters more than an image, and the server is meant to schedule its work to match. Headers go out compressed with HPACK, which matters because HTTP 1.1 sent the same header block on every request.
 
-TCP still delivers bytes in order, so a lost packet for one stream holds the data for every other stream in the receive buffer until the retransmission arrives, and [head-of-line blocking](head-of-line%20blocking.md#transport-layer%20hol%20blocking%20in%20tcp) moves down to the transport layer (Layer 4).
+TCP still hands bytes over in order. A lost packet holds up every other stream in the receive buffer until the retransmission turns up, so [head-of-line blocking](head-of-line%20blocking.md#transport-layer%20hol%20blocking%20in%20tcp) moves down to the transport layer (Layer 4).
 
 ---
 
 Flashcards for this section are as follows:
 
-- HTTP/2 / framing ::@:: Binary frames replace the text message, and every frame carries the stream ID of the request it belongs to
-- HTTP/2 / streams ::@:: Many request-response pairs share one persistent TCP connection, and a response can be written before an earlier one is ready
-- HTTP/2 / stream prioritization ::@:: The client marks which streams matter most, and the server is expected to schedule its work to match
-- HTTP/2 / header compression ::@:: HPACK compresses the repeated header block that HTTP 1.1 sent on every request
-- HTTP/2 / remaining limitation ::@:: Runs over TCP, so a lost packet blocks all streams at Layer 4 because TCP delivers bytes in order
-- application-layer HOL blocking / HTTP/2 ::@:: Removed, because a response for a later request can be sent before an earlier one is ready
+- what does HTTP/2 put on the wire? ::@:: Binary frames instead of the text message, each frame carrying the stream ID of the request it belongs to
+- how do HTTP/2 streams clear the response queue? ::@:: Many requests share one persistent connection, and a response can be written before an earlier one is ready
+- how are HTTP/2 streams prioritized? ::@:: The client marks which streams matter most, and the server schedules its work to match
+- how does HTTP/2 shrink the header cost? ::@:: HPACK compresses the repeated header block that HTTP 1.1 sent on every request
+- what is still wrong with HTTP/2? ::@:: It runs on TCP, which hands bytes over in order, so one lost packet blocks every stream at Layer 4
 
 <!-- check: ignore-next-line[header_style]: HTTP is a proper noun -->
 ## HTTP/3
 
-HTTP/3 replaces TCP with QUIC (Quick UDP Internet Connections), standardized as RFC 9000 in 2021, so HTTP runs over QUIC on UDP. QUIC is a multiplexed transport protocol: each stream is reliable on its own, so a lost packet on one stream is retransmitted without holding up the others. The application can read a stream's data as soon as that stream is complete, even while another stream is still waiting.
+HTTP/3 runs on QUIC (Quick UDP Internet Connections) over UDP instead of TCP. QUIC became RFC 9000 in 2021. Each of its streams is reliable on its own, so a lost packet is retransmitted for that stream alone and the others keep moving. The application reads a stream as soon as that stream is complete, whatever the others are doing.
 
-Both HOL cases go away. Nothing waits for a sibling stream, and nothing waits for a lost packet. A persistent connection and out-of-order streams came with HTTP/2 and carry over, so both belong to 2.0 and 3.0 rather than to 3.0 alone.
+That clears both kinds of head-of-line blocking. Nothing waits on a sibling stream and nothing waits on a retransmission. The persistent connection and the out-of-order streams came with HTTP/2 and are still here, so both belong to 2.0 as well as 3.0.
 
 ---
 
 Flashcards for this section are as follows:
 
-- HTTP/3 / transport ::@:: QUIC over UDP gives each stream independent reliability, so a lost packet on one stream does not block others
-- HTTP/3 vs HTTP/2 ::@:: HTTP/2 fixes HOL at Layer 7 with streams; HTTP/3 fixes both Layer 7 and Layer 4 by running over QUIC
-- QUIC ::@:: A multiplexed transport protocol over UDP (RFC 9000, 2021) with per-stream reliability
-- HTTP/3 / inherited features ::@:: Keeps HTTP/2's persistent connection and out-of-order streams, so both are true of 2.0 and 3.0
+- what does HTTP/3 run on? ::@:: QUIC over UDP, where each stream is reliable on its own, so a lost packet on one stream does not block the others
+- how do HTTP/2 and HTTP/3 differ on head-of-line blocking? ::@:: HTTP/2 clears the Layer 7 queue with streams and keeps the Layer 4 one over TCP; HTTP/3 clears both by running on QUIC
+- what is QUIC? ::@:: A multiplexed transport over UDP, RFC 9000 in 2021, where each stream is reliable on its own
+- what does HTTP/3 inherit from HTTP/2? ::@:: The persistent connection and the out-of-order streams, so both are true of 2.0 and 3.0
 
 ## version comparison
 
-Each version keeps what it inherits. A property belongs to every version that has it, so a question naming a property and asking for a version gets the earliest one, even when later versions keep it.
+Every version keeps what it inherited. So when a property shows up in several versions, the earliest one is the answer, even though the later ones still have it.
 
 | Property | HTTP 1.0 | HTTP 1.1 | HTTP 2.0 | HTTP 3.0 |
 | --- | --- | --- | --- | --- |
@@ -169,19 +167,19 @@ Each version keeps what it inherits. A property belongs to every version that ha
 | head-of-line blocking in the transport | no | no | yes | no |
 | message format | text | text | binary frames | binary frames |
 
-Head-of-line blocking appears in two different rows, and the reason differs. In 1.1 the response queue is ordered by request order, so a large object holds up the small objects queued behind it. In 2.0 the transport is ordered, so one lost packet holds up every stream on the connection. HTTP 1.0 escapes both by giving each object its own connection, and HTTP 3.0 escapes both because QUIC repairs each stream on its own.
+Head-of-line blocking sits in two rows because there are two ways to get stuck. In 1.1 the queue of responses is ordered, so a large object holds up the small ones behind it. In 2.0 the transport is ordered, so one lost packet holds up every stream on the connection. 1.0 has neither problem because every object has a connection of its own, and 3.0 has neither because QUIC repairs each stream on its own.
 
-Statelessness begins at 1.0, persistence becomes the default at 1.1, pipelining arrives at 1.1, and out-of-order multiplexed streams arrive at 2.0.
+The short version: statelessness from 1.0, persistent connections and pipelining from 1.1, out-of-order multiplexed streams from 2.0.
 
 ---
 
 Flashcards for this section are as follows:
 
-- earliest-version rule ::@:: A property that several HTTP versions have is credited to the earliest version that has it
-- head-of-line blocking / versions that cause it ::@:: HTTP 1.1 first, where pipelined responses keep request order so a large object holds up the small ones behind it; 1.0 gives each object its own connection
-- separate TCP connection per request ::@:: HTTP 1.0, which opens a new connection for every object; 1.1, 2.0, and 3.0 keep one connection
-- parallel prioritized streams on one TCP connection ::@:: HTTP 2.0, which multiplexes prioritized streams over a single persistent connection; HTTP 3.0 keeps the multiplexing over QUIC
-- persistent connections avoid handshake overhead ::@:: HTTP 1.1, where the persistent connection is the default and the handshake is paid once per connection
-- server keeps no state about the client ::@:: HTTP 1.0, and every version after it; applications needing state store it elsewhere
-- pipelined requests reduce round trips ::@:: HTTP 1.1, where several requests are written at once and cost one round trip for the batch
-- out-of-order delivery for different requests in one connection ::@:: HTTP 2.0, whose streams may be served in any order; HTTP 3.0 keeps it
+- a property shows up in several versions; which one is the answer? ::@:: The earliest version that has it, even when the later ones keep it
+- which version first has head-of-line blocking? ::@:: HTTP 1.1, where pipelined responses keep request order so a large object holds up the small ones behind it. 1.0 gives every object its own connection, so nothing queues
+- which version opens a new TCP connection for every request? ::@:: HTTP 1.0. 1.1, 2.0, and 3.0 reuse one connection
+- which version multiplexes prioritized streams over one TCP connection? ::@:: HTTP 2.0. 3.0 keeps the multiplexing, but runs it over QUIC
+- which version made the persistent connection the default? ::@:: HTTP 1.1, where the TCP handshake is paid once per connection rather than once per object
+- which version first had a stateless server? ::@:: HTTP 1.0, and every version after it. An application that needs state keeps it elsewhere
+- which version added pipelining? ::@:: HTTP 1.1, where several requests are written at once and cost one round trip for the batch
+- which version can answer two requests on one connection out of order? ::@:: HTTP 2.0, whose streams may be served in any order. 3.0 keeps it
