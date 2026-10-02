@@ -48,6 +48,17 @@ __Prompts name the thing:__ a bare label is not a prompt. `- overview ::@:: ...`
 
 __Conceptual math-law cards:__ a descriptive prompt is often better than forcing the formula onto the left-hand side. When the card is genuinely conceptual rather than computational, prefer the descriptive prompt and, if needed, attach a targeted inline suppression comment on the same line instead of warping the card into a fake calculation.
 
+## Cards are shown alone
+
+A reader meets one card at a time. There is no note around it, no prose, no heading and no sibling card, so a card leaning on any of those cannot be answered.
+
+- __Name the setting:__ the model and the sample, with the size where it matters. `for $X_1, \ldots, X_n$ i.i.d. from $N(\mu, \sigma^2)$, $n > 1$`.
+- __Define every symbol:__ a symbol the prose introduced is not on the card. Either the card defines it or it goes. A card naming the statistical object in words beats one naming a matrix the prose set up.
+- __No deixis:__ `here`, `this result`, `the two forms`, `by substitution` and `still` point at prose the reader does not have. Name the thing instead.
+- __Ask:__ a bare label such as `definition` or `overview` names the section's shape rather than its content.
+
+This generalises the worked-example rule above, which covers calculation cards only.
+
 ## When to use
 
 Invoke the skill when the user asks to "add flashcards", "cloze this", "quizify", or similar. The target file must already exist; never create new files, and never edit submodules or private content without permission. Process one paragraph or logical block at a time and display the original text for confirmation. Cloze what the block exists to establish: the definitions, the relations, the numbers a reader would be asked to recall. A claim the course only passed over gets one definitional card or none, never a set built out from the encyclopedia article behind it. Numeric facts and simple assignments may be clozed as atomic units. Never cloze a connective, a transition, or a word the reader needs as a hint, and stop at the validator's bounds rather than a higher target, 80% of the paragraph's visible characters at minimum and 98% at the most. The old 92%-per-sentence target pushed the cloze boundary onto words like "therefore" and "which", which tests the reader's memory of your phrasing rather than of the subject.

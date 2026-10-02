@@ -191,7 +191,7 @@ The pass moves boundaries and headings; it never drops a fact or a card. Report 
    - Use `::@::` (two-sided QA), not cloze `{@{ }@}`. Accounting journal-entry worked examples may use cloze.
    - Every `##`, `###`, and deeper heading gets its own `---` separator and its own flashcard block, never one block shared by a parent and its sub-sections.
    - Group related cards with inline bold labels (e.g., `**superposition.**`).
-   - Cards must be self-contained (restate givens, hypotheses, notation) and never name their source; write the example, not `the lecture's example`.
+   - A card is shown alone, with no note, no prose and no sibling card, so it names its setting, every symbol it uses, and the object it asks about, and it never points into the prose with `here`, `the two forms` or `by substitution`. Restate givens, hypotheses and notation, and never name their source; write the example, not `the lecture's example`.
    - The overview card comes first in each section.
    - Preserve the derivation or proof spine in cards.
    - Split packed cards into focused units, and split an enumeration of six or more items into sibling cards sliced at a boundary the items show (era, date range, divergence versus curl), each naming its slice on the prompt side (see "Enumeration cards" in `create-flashcards`).
