@@ -16,7 +16,7 @@ A loadable kernel module (LKM) extends a running kernel's capabilities without r
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Extends a running kernel's capabilities at boot time or during runtime, without recompiling the entire kernel.
+- what a loadable kernel module does ::@:: Extends a running kernel's capabilities at boot time or during runtime, without recompiling the entire kernel.
 - LKM motivation ::@:: Linking services dynamically is preferable to adding features directly to the kernel, which would require recompiling the entire kernel every time a change was made.
 
 ## design
@@ -33,7 +33,7 @@ Flashcards for this section are as follows:
 - modular approach versus microkernel ::@:: Both have a minimal core with additional services, but modules communicate through direct function calls rather than message passing, giving better performance.
 - runtime module loading ::@:: A kernel module such as a device driver can be loaded when a new device is detected (e.g., a USB device plugged in) and removed when no longer needed, without rebooting.
 
-## Linux and LKMs <!-- check: ignore-line[header_style]: Linux is a proper noun, LKM is an acronym -->
+## loadable kernel modules
 
 Linux uses loadable kernel modules primarily for device drivers and file systems. Modules can be inserted and removed at runtime, letting Linux keep a monolithic architecture for performance while supporting a wide range of hardware without rebuilding the kernel.
 

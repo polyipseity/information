@@ -20,7 +20,7 @@ Machine-language structure is hard for programs to use, especially for I/O, so t
 
 Flashcards for this section are as follows:
 
-- overview ::@:: An operating system (OS) is system software that controls and coordinates the use of computing resources among various applications and users.
+- what an operating system is ::@:: An operating system (OS) is system software that controls and coordinates the use of computing resources among various applications and users.
 - four components of a computer system ::@:: Hardware, the operating system, application programs, and users.
 - operating system as intermediary ::@:: The operating system is an intermediary between users or application software and the hardware, hiding its complicated details behind a simple interface.
 - abstraction over hardware ::@:: Programs and users work with photos, web pages, emails, and files rather than with bytes and blocks on devices.
@@ -62,9 +62,20 @@ Flashcards for this section are as follows:
 
 ## services
 
-An operating system provides an environment for program execution and offers services to programs and users. User-facing services include a __user interface__ (command-line, graphical, or touch-screen), __program execution__ (loading, running, terminating programs), __I/O operations__ (file or device I/O), __file-system manipulation__ (creating, deleting, reading, writing, searching files and directories, managing permissions), __communications__ between processes (shared memory or message passing, locally or over a network), and __error detection__ (the OS must constantly watch for errors in the CPU, memory, I/O devices, or user programs).
+An operating system provides an environment for program execution and offers services to programs and users. Its user-facing services are:
 
-System-facing services ensure efficient operation: __resource allocation__ (CPU cycles, memory, file storage, I/O devices among concurrent jobs), __logging__ (tracking which users use how much of which resources), and __protection and security__ (protecting information in multiuser or networked systems: protection controls access to system resources, security requires user authentication and defends against invalid external access).
+- __user interface__ (command-line, graphical, or touch-screen)
+- __program execution__ (loading, running, terminating programs)
+- __I/O operations__ (file or device I/O)
+- __file-system manipulation__ (creating, deleting, reading, writing, searching files and directories, managing permissions)
+- __communications__ between processes (shared memory or message passing, locally or over a network)
+- __error detection__ (the OS must constantly watch for errors in the CPU, memory, I/O devices, or user programs)
+
+System-facing services ensure efficient operation:
+
+- __resource allocation__ (CPU cycles, memory, file storage, I/O devices among concurrent jobs)
+- __logging__ (tracking which users use how much of which resources)
+- __protection and security__ (protecting information in multiuser or networked systems: protection controls access to system resources, security requires user authentication and defends against invalid external access)
 
 ---
 
@@ -99,7 +110,14 @@ Flashcards for this section are as follows:
 
 System programs, also called system utilities, provide a convenient environment for program development and execution. Some are simple user interfaces to system calls; others are considerably more complex. The view of the operating system seen by most users is defined by system programs, not the raw system calls.
 
-System programs fall into several categories: __file management__ (create, delete, copy, rename, list files and directories), __status information__ (date, time, memory, disk space, number of users, performance data), __file modification__ (text editors, search and transformation commands), __programming-language support__ (compilers, assemblers, debuggers, interpreters), __program loading and execution__ (loaders, linkage editors, debugging systems), and __communications__ (virtual connections among processes, users, and systems — remote login, file transfer, email, web browsing).
+System programs fall into several categories:
+
+- __file management__ (create, delete, copy, rename, list files and directories)
+- __status information__ (date, time, memory, disk space, number of users, performance data)
+- __file modification__ (text editors, search and transformation commands)
+- __programming-language support__ (compilers, assemblers, debuggers, interpreters)
+- __program loading and execution__ (loaders, linkage editors, debugging systems)
+- __communications__ (virtual connections among processes, users, and systems — remote login, file transfer, email, web browsing)
 
 __Background services__ launch at boot time. Some terminate after completing their tasks; others continue until the system halts — known as services, subsystems, or __daemons__ — providing disk checking, process scheduling, and error logging.
 
@@ -164,7 +182,15 @@ The __modular approach__ uses loadable kernel modules (LKMs) to extend a running
 
 Few operating systems use a single, strictly defined structure. __Hybrid systems__ combine approaches: Linux is monolithic with modular extensions; Windows is largely monolithic but supports separate subsystems (personalities) as user-mode processes and loadable kernel modules.
 
-__Android__ is a layered, open-source mobile OS built on a modified Linux kernel. Its architecture from bottom to top: the Linux kernel (with power management for mobile), a __hardware abstraction layer__ (HAL) that abstracts camera, GPS, and sensors, __Bionic__ (Google's standard C library, replacing glibc), __native libraries__ (SQLite, OpenGL, webkit, SSL, media framework, surface manager), the __Android Runtime__ (ART, a virtual machine optimized for mobile), __Android frameworks__ (APIs for app development), and __applications__. The __Java Native Interface__ (JNI) lets developers bypass the VM to access hardware directly, at the cost of portability.
+__Android__ is a layered, open-source mobile OS built on a modified Linux kernel. Its architecture runs from bottom to top:
+
+- the Linux kernel (with power management for mobile)
+- a __hardware abstraction layer__ (HAL) that abstracts camera, GPS, and sensors
+- __Bionic__ (Google's standard C library, replacing glibc)
+- __native libraries__ (SQLite, OpenGL, webkit, SSL, media framework, surface manager)
+- the __Android Runtime__ (ART, a virtual machine optimized for mobile)
+- __Android frameworks__ (APIs for app development)
+- __applications__ The __Java Native Interface__ (JNI) lets developers bypass the VM to access hardware directly, at the cost of portability.
 
 __macOS and iOS__ share the Darwin kernel environment, which combines the Mach microkernel and the BSD UNIX kernel (the XNU hybrid kernel). macOS adds the Aqua GUI, Cocoa programming environment, and core frameworks (QuickTime, OpenGL). iOS adds the Springboard touch interface, Cocoa Touch, media services, and core services (cloud, databases), running on ARM rather than Intel.
 

@@ -20,7 +20,7 @@ The hierarchy is a trade-off: a level nearer the CPU is smaller and more expensi
 
 Flashcards for this section are as follows:
 
-- overview ::@:: The organization of a computer's storage devices into levels ordered by speed, size, and cost per unit, with the fastest and most expensive storage closest to the CPU.
+- what a memory hierarchy is ::@:: The organization of a computer's storage devices into levels ordered by speed, size, and cost per unit, with the fastest and most expensive storage closest to the CPU.
 - organizing criteria ::@:: Storage devices are organized in a hierarchy according to speed, size, and cost per unit or per byte.
 - top of the hierarchy ::@:: The levels closest to the CPU are more expensive and smaller, but much faster.
 - bottom of the hierarchy ::@:: Moving down the hierarchy, cost per unit decreases while access time and capacity increase.
@@ -92,7 +92,22 @@ Volatility divides the same levels again: registers, cache, and main memory are 
 | solid-state disk | under $1\text{ TB}$ | flash memory | $25\,000$-$50\,000$ | $500$ | operating system | disk |
 | magnetic disk | under $10\text{ TB}$ | magnetic disk | $5\,000\,000$ | $20$-$150$ | operating system | disk or tape |
 
-The table shows the range in numbers: access time rises from a fraction of a nanosecond at the top of the hierarchy to milliseconds at the magnetic disk level, while bandwidth falls the other way. The same span appears in the commonly quoted latency figures: an L1 cache reference takes $0.5\text{ ns}$, a branch mispredict $5\text{ ns}$, an L2 cache reference $7\text{ ns}$, a mutex lock or unlock $25\text{ ns}$, a main memory reference $100\text{ ns}$, compressing $1\text{ KB}$ with Zippy $3\,000\text{ ns}$, sending $2\text{ KB}$ over a $1\text{ Gbps}$ network $20\,000\text{ ns}$, reading $1\text{ MB}$ sequentially from memory $250\,000\text{ ns}$, a round trip within the same datacenter $500\,000\text{ ns}$, a disk seek $10\,000\,000\text{ ns}$, reading $1\text{ MB}$ sequentially from disk $20\,000\,000\text{ ns}$, and sending a packet from California to the Netherlands and back $150\,000\,000\text{ ns}$, about $0.15\text{ s}$. The slowest entry on that list takes about $300$ million times longer than the fastest.
+The table shows the range in numbers: access time rises from a fraction of a nanosecond at the top of the hierarchy to milliseconds at the magnetic disk level, while bandwidth falls the other way. The same span appears in the commonly quoted latency figures:
+
+- an L1 cache reference takes $0.5\text{ ns}$
+- a branch mispredict $5\text{ ns}$
+- an L2 cache reference $7\text{ ns}$
+- a mutex lock or unlock $25\text{ ns}$
+- a main memory reference $100\text{ ns}$
+- compressing $1\text{ KB}$ with Zippy $3\,000\text{ ns}$
+- sending $2\text{ KB}$ over a $1\text{ Gbps}$ network $20\,000\text{ ns}$
+- reading $1\text{ MB}$ sequentially from memory $250\,000\text{ ns}$
+- a round trip within the same datacenter $500\,000\text{ ns}$
+- a disk seek $10\,000\,000\text{ ns}$
+- reading $1\text{ MB}$ sequentially from disk $20\,000\,000\text{ ns}$
+- sending a packet from California to the Netherlands and back $150\,000\,000\text{ ns}$, about $0.15\text{ s}$
+
+The slowest entry on that list takes about $300$ million times longer than the fastest.
 
 ---
 

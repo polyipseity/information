@@ -16,7 +16,7 @@ A monolithic kernel runs the entire operating system in kernel mode within a sin
 
 Flashcards for this section are as follows:
 
-- overview ::@:: An OS architecture in which the entire operating system runs in kernel mode in a single address space, with all functionality in one static binary.
+- what a monolithic kernel is ::@:: An OS architecture in which the entire operating system runs in kernel mode in a single address space, with all functionality in one static binary.
 - performance advantage of monolithic kernels ::@:: Minimal overhead in the system-call interface and fast intra-kernel communication through direct function calls, since everything runs in one address space.
 
 ## original UNIX structure
@@ -35,7 +35,7 @@ Flashcards for this section are as follows:
 - monolithic kernel drawback ::@:: Enormous functionality combined into one level makes the system difficult to implement, debug, and maintain.
 - why monolithic kernels persist ::@:: Their speed and efficiency — direct function calls within one address space have minimal overhead — keep them in use in UNIX, Linux, and Windows.
 
-## Linux system structure <!-- check: ignore-line[header_style]: Linux is a proper noun -->
+## the Linux kernel structure
 
 The Linux kernel is monolithic: it runs entirely in kernel mode in a single address space, with applications using glibc to reach the system-call interface.
 

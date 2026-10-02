@@ -15,7 +15,7 @@ A microkernel provides only the near-minimum mechanisms needed for an operating 
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A minimal kernel that provides only fundamental mechanisms — process management, memory management, and inter-process communication — with all other services implemented as user-level programs in separate address spaces.
+- what a microkernel is ::@:: A minimal kernel that provides only fundamental mechanisms — process management, memory management, and inter-process communication — with all other services implemented as user-level programs in separate address spaces.
 - motivation for microkernels ::@:: Microkernels move nonessential components out of the kernel into user-level programs, reducing kernel size and complexity.
 
 ## inter-process communication
@@ -51,7 +51,7 @@ Flashcards for this section are as follows:
 - microkernel performance drawback ::@:: Overhead from user-space to kernel-space communication and message copying between separate address spaces.
 - Windows NT migration ::@:: Windows NT originally used a layered microkernel but performed worse than Windows 95; later versions moved more functions into the kernel, becoming more monolithic for performance.
 
-## Mach and Darwin <!-- check: ignore-line[header_style]: proper nouns -->
+## the Mach and Darwin kernels
 
 Mach, developed at CMU in the mid-1980s, was an early microkernel. The best-known microkernel OS is Darwin, used in Mac OS X and iOS. Darwin is a hybrid XNU kernel combining the Mach microkernel and the BSD UNIX kernel.
 

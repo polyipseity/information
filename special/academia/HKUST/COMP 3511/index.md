@@ -36,7 +36,13 @@ Canvas: [COMP3511 Canvas](https://canvas.ust.hk/courses/71995)
 
 Course website: [COMP3511 course website](https://course.cse.ust.hk/comp3511/)
 
-The published learning outcomes are to define the fundamental principles, strategies, and algorithms used in the design and implementation of operating systems; analyze and evaluate operating system functions; understand the basic structure of an operating system kernel and identify the relationship between its subsystems; identify the typical events, alerts, and symptoms that indicate potential operating system problems; and design and implement programs for basic operating system functions and algorithms.
+The published learning outcomes are:
+
+- define the fundamental principles, strategies, and algorithms used in the design and implementation of operating systems
+- analyze and evaluate operating system functions
+- understand the basic structure of an operating system kernel and identify the relationship between its subsystems
+- identify the typical events, alerts, and symptoms that indicate potential operating system problems
+- design and implement programs for basic operating system functions and algorithms
 
 This note records the `L1` lecture and `LA3` lab schedule, which are the sections taken by the maintainer of this note.
 
@@ -217,7 +223,7 @@ The content is in teaching order.
     - [§ system programs](operating%20system.md#system%20programs)
     - [§ linkers and loaders](operating%20system.md#linkers%20and%20loaders)
 - [system call](system%20call.md)
-    - [§ API (Application Program Interface)](system%20call.md#api%20(application%20program%20interface))
+    - [§ the API (application program interface)](system%20call.md#the%20api%20(application%20program%20interface))
     - [§ implementation](system%20call.md#implementation)
     - [§ parameter passing](system%20call.md#parameter%20passing)
     - [§ types](system%20call.md#types)
@@ -232,16 +238,16 @@ The content is in teaching order.
     - [§ structure](operating%20system.md#structure)
 - [monolithic kernel](monolithic%20kernel.md)
     - [§ original UNIX structure](monolithic%20kernel.md#original%20unix%20structure)
-    - [§ Linux system structure](monolithic%20kernel.md#linux%20system%20structure)
+    - [§ the Linux kernel structure](monolithic%20kernel.md#the%20linux%20kernel%20structure)
 - [microkernel](microkernel.md)
     - [§ inter-process communication](microkernel.md#inter-process%20communication)
     - [§ advantages](microkernel.md#advantages)
     - [§ drawbacks](microkernel.md#drawbacks)
-    - [§ Mach and Darwin](microkernel.md#mach%20and%20darwin)
+    - [§ the Mach and Darwin kernels](microkernel.md#the%20mach%20and%20darwin%20kernels)
 - [loadable kernel module](loadable%20kernel%20module.md)
     - [§ design](loadable%20kernel%20module.md#design)
-    - [§ Linux and LKMs](loadable%20kernel%20module.md#linux%20and%20lkms)
-    - [§ Linux and LKMs](loadable%20kernel%20module.md#linux%20and%20lkms)
+    - [§ loadable kernel modules](loadable%20kernel%20module.md#loadable%20kernel%20modules)
+    - [§ loadable kernel modules](loadable%20kernel%20module.md#loadable%20kernel%20modules)
 
 ## midterm examination
 

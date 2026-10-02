@@ -16,10 +16,10 @@ A system call is the programmatic interface through which a running program requ
 
 Flashcards for this section are as follows:
 
-- overview ::@:: The programmatic interface through which a running program requests a service from the operating system kernel, moving between user mode and kernel mode.
+- what a system call is ::@:: The programmatic interface through which a running program requests a service from the operating system kernel, moving between user mode and kernel mode.
 - user mode versus kernel mode ::@:: User mode restricts a program to non-privileged instructions; kernel mode grants full access to hardware and system resources. A system call is the mechanism that transitions between the two.
 
-## API (Application Program Interface) <!-- check: ignore-line[header_style]: API is an acronym -->
+## the API (application program interface)
 
 An application program interface (API) specifies functions available to application programmers, including parameters and return values. API functions then invoke the actual system call on behalf of the program. For example, Windows `CreateProcess()` invokes the `NTCreateProcess()` system call in the Windows kernel.
 
@@ -71,7 +71,7 @@ Flashcards for this section are as follows:
 
 System calls are grouped into six major categories by the service they provide.
 
-__Process control__ system calls handle creating and terminating processes (`CreateProcess`, `fork`, `exit`), loading and executing programs (`exec`), getting and setting process attributes, waiting for time or events, signalling events, allocating and freeing memory, dumping memory on error, and providing debugger and lock facilities for managing shared data between processes.
+__Process control__ system calls handle creating and terminating processes (`CreateProcess`, `fork`, `exit`) and loading and executing programs (`exec`). They also get and set process attributes, wait for time or events, signal events, allocate and free memory, dump memory on error, and provide the debugger and lock facilities that manage shared data between processes.
 
 __File management__ system calls create and delete files (`CreateFile`, `open`), open and close them, read, write, and reposition, and get and set file attributes.
 

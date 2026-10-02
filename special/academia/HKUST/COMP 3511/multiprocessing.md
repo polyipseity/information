@@ -17,7 +17,7 @@ A traditional computer had one processor holding one CPU with one core, so all w
 
 Flashcards for this section are as follows:
 
-- overview ::@:: The use of more than one processor, or more than one computing core, in a computer system; modern systems from mobile devices to servers rely on it instead of a single processor with one core.
+- what multiprocessing is ::@:: The use of more than one processor, or more than one computing core, in a computer system; modern systems from mobile devices to servers rely on it instead of a single processor with one core.
 - single-processor baseline ::@:: The traditional design: one processor holding one CPU with a single core executing a general-purpose instruction set.
 - why multiprocessing matters to an operating system ::@:: Processors or cores share the same physical memory and system bus, so the operating system must schedule work and manage memory across concurrently executing units.
 - asymmetric versus symmetric multiprocessing ::@:: Asymmetric multiprocessing uses a master processor that assigns work to the others, whereas symmetric multiprocessing treats every processor equally.
