@@ -112,6 +112,13 @@ Flashcards for this section are as follows:
 
 Conditioning does more than attach one response to one cue: the same cue can end up carrying several different responses, a liking or a disliking. Conditioning can underlie clinical conditions. What it cannot do is form an association from a pairing alone.
 
+---
+
+Flashcards for this section are as follows:
+
+- what one cue can come to carry ::@:: Several different responses, a liking or a disliking, rather than only the one it was paired with.
+- what conditioning cannot do on its own ::@:: Form an association from a pairing alone.
+
 ### preferences and aversions
 
 A person eats a food and then falls ill. The taste or smell of that food now carries an avoidance, out of all proportion to the number of pairings. This is taste aversion conditioning. A conditioned response pulls a person towards something or pushes them away. The sign of the unconditioned stimulus paired with the cue decides which way. The same process can set a preference as readily as an aversion.

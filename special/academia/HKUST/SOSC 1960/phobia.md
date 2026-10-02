@@ -29,6 +29,12 @@ Flashcards for this section are as follows:
 
 A neutral stimulus is paired again and again with one that already produces fear, until it alone produces fear. That is fear conditioning: ordinary conditioning with an aversive outcome. Fear of loud noises is one of the few things a child is born with. A loud noise is an efficient unconditioned stimulus, so the pairing takes fewer trials. A second stimulus the child does not fear needs more pairings.
 
+---
+
+Flashcards for this section are as follows:
+
+- a stimulus the child is not born to fear ::@:: It needs more pairings before the cue alone produces fear, where a loud noise needs fewer.
+
 ### conditioning a child to fear a harmless object
 
 In 1920 John B. Watson tried to condition a nine-month-old boy to fear something harmless. He presented a rat, a dog, a rabbit, a monkey, and masks with and without fur. None disturbed the child. Then he presented the rat again and made a loud noise as the child reached for it. The child startled and cried. He repeated the pairing several times, and the child cried each time. With no noise this time, the child was frightened of the rat and cried on sight.
