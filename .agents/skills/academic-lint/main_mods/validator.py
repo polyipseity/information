@@ -143,7 +143,8 @@ async def check_markdown_file(path: Path) -> list[ValidationMessage]:
             errors.append(
                 ValidationMessage(
                     "suppression-on-heading",
-                    "suppression comment on a heading line",
+                    "suppression on a heading line; move it to the line above"
+                    " and use ignore-next-line",
                     severity=Severity.WARNING,
                     line=lineno,
                 )
