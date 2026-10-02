@@ -9,52 +9,54 @@ tags:
 
 # head-of-line blocking
 
-Head-of-line blocking (HOL blocking) occurs when the first task in a queue is slow or blocked, forcing every subsequent ready task to wait. The system sits idle while work remains queued — it is not work-conserving.
+Head-of-line blocking (HOL blocking) occurs when the first task in a queue is slow or blocked, forcing every subsequent ready task to wait. The system sits idle while work remains queued, so it is not work-conserving.
 
 ---
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A slow or blocked first task in a queue forces all subsequent ready tasks to wait, leaving the system idle
+- what does head-of-line blocking do to a queue? ::@:: A slow or blocked first task holds every subsequent ready task, so the system idles with work still queued
 - work-conserving vs non-work-conserving ::@:: A work-conserving system always serves the next available task; HOL blocking makes a system non-work-conserving
 
 ## application-layer HOL blocking in HTTP
 
-In HTTP pipelining, the client sends multiple requests on a single connection and the server responds in order. A slow backend operation (e.g., a database query) delays all subsequent responses even though those objects are ready. The network pipe sits empty while the slow request blocks the queue.
+The queue forms as soon as several objects share a connection, which is what [pipelining](HTTP.md#pipelining) in HTTP 1.1 does. The client writes several requests at once and the server answers in the order it received them. A slow backend operation, such as a database query, then holds the whole response stream: later objects are already fetched and ready, yet the pipe stays empty until the slow one is written. The protocol enforces in-order delivery, so this is HOL blocking at the application layer (Layer 7).
 
-This is application-layer (Layer 7) HOL blocking: the protocol enforces in-order delivery, so a slow-to-produce object blocks the entire response stream.
+HTTP 1.0 cannot form such a queue, because every object arrives on its own connection and nothing is ever waiting behind anything. That makes 1.1 the earliest version with application-layer HOL blocking: a large object holds up the small objects queued behind it.
 
 ---
 
 Flashcards for this section are as follows:
 
-- HTTP pipelining / HOL blocking ::@:: A slow-to-produce object blocks all subsequent responses in the pipeline, leaving the network pipe idle
-- application-layer HOL blocking ::@:: HOL blocking at the application protocol layer (Layer 7), such as HTTP pipelining requiring in-order responses
+- HTTP 1.1 pipelining / HOL blocking ::@:: Pipelined responses keep request order, so a slow-to-produce object holds every later object on the connection and the pipe idles
+- application-layer HOL blocking ::@:: HOL blocking imposed by the application protocol itself, such as HTTP 1.1 answering pipelined requests strictly in order
+- which HTTP version first puts a queue of objects on one connection? ::@:: HTTP 1.1, whose pipelining shares a connection; HTTP 1.0 gives every object a connection of its own, so nothing queues
 
 ## transport-layer HOL blocking in TCP
 
-HTTP/2 introduces streams to fix application-layer HOL blocking: responses can arrive out of order, so fast objects are delivered immediately. However, HTTP/2 still runs over TCP, which delivers bytes in order. When a packet for stream 1 is lost, the TCP receive buffer holds all subsequent data (including stream 2) until the missing packet is retransmitted. The application cannot read stream 2's data even though it has arrived.
-
-This is transport-layer (Layer 4) HOL blocking: TCP's in-order delivery means one lost packet blocks all higher-layer data on the connection.
+TCP delivers bytes in order, so a lost packet holds every byte queued behind it. [HTTP/2](HTTP.md#http/2) runs on TCP and inherits this: the receive buffer cannot hand stream 2 to the application while the packet carrying stream 1 is still missing, even though the two streams have nothing to do with each other. A server can process streams in parallel and still have the client wait. This is HOL blocking at the transport layer (Layer 4), and it survives every change HTTP/2 makes above the transport.
 
 ---
 
 Flashcards for this section are as follows:
 
-- TCP / HOL blocking ::@:: TCP delivers bytes in order, so a lost packet blocks all subsequent data — the receive buffer cannot deliver stream 2 until the missing packet for stream 1 is retransmitted
-- HTTP/2 / HOL limitation ::@:: HTTP/2 fixes HOL at Layer 7 with streams, but TCP in-order delivery still causes HOL at Layer 4 when packets are lost
+- TCP / HOL blocking ::@:: TCP delivers bytes in order, so one lost packet holds every byte behind it in the receive buffer until the retransmission arrives
+- HTTP/2 / HOL limitation ::@:: Fixes the Layer 7 queue with streams, but TCP's in-order delivery still blocks every stream at Layer 4 when a packet is lost
 
 ## fixes across protocol generations
 
-Three generations of fixes:
+Each generation removes one of the two queues.
 
-1. __Concurrent/parallel connections__: multiple TCP connections in parallel, each with its own requests. Partially addresses HOL but multiplies overhead. The client and content provider benefit, but the network is disadvantaged — multiple connections compete for bandwidth with independent congestion control.
-2. __HTTP/2 streams__: multiplex streams over one persistent connection with out-of-order delivery. Fixes Layer 7 HOL but retains Layer 4 HOL over TCP.
-3. __HTTP/3 over QUIC__: UDP with per-stream reliability. A lost packet for one stream does not block others, eliminating HOL at both layers.
+1. __Separate connections__: the client opens several TCP connections and spreads requests across them, so a slow response holds only its own connection. HTTP 1.0 does this by necessity and HTTP 1.1 by workaround. The client and the content provider both gain. The network loses, since each connection runs its own congestion control and they compete for the same bandwidth.
+2. __HTTP/2 streams__: many requests in flight on one persistent connection, each carrying a stream ID, with responses written as soon as each is ready. The Layer 7 queue goes; the Layer 4 queue over TCP stays.
+3. __HTTP/3 over QUIC__: QUIC runs on UDP and gives every stream its own reliability, so a lost packet is retransmitted for its own stream and no other. Both queues go.
+
+The [version comparison](HTTP.md#version%20comparison) tabulates which queue each version leaves open.
 
 ---
 
 Flashcards for this section are as follows:
 
-- concurrent connections / tradeoff ::@:: Faster for client and content provider, but disadvantages the network because multiple TCP connections compete for bandwidth with independent congestion control
-- HOL blocking / fix progression ::@:: Generation 1: parallel TCP connections (partial fix); Generation 2: HTTP/2 streams (fixes Layer 7); Generation 3: HTTP/3 over QUIC (fixes both Layer 7 and Layer 4)
+- separate connections / fix ::@:: Several TCP connections in parallel, so a slow response blocks only its own connection; the network pays, since each connection runs its own congestion control
+- HTTP/2 streams / fix ::@:: Multiplexed streams on one persistent connection with out-of-order responses remove the Layer 7 queue, and the Layer 4 queue over TCP remains
+- QUIC / fix ::@:: Per-stream reliability over UDP removes the Layer 4 queue as well, so a loss on one stream delays no other
