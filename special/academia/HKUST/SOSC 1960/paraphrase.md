@@ -16,7 +16,7 @@ A paraphrase puts a source's idea into your own words and your own argument. The
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A paraphrase restates a passage's meaning in different words.
+- what a paraphrase does to a passage ::@:: A paraphrase restates a passage's meaning in different words.
 - what a paraphrase is for ::@:: It makes a source part of your own argument.
 - what the other half of the credit is ::@:: A citation that says where the idea came from.
 
@@ -34,7 +34,7 @@ Reframe the finding in your own words and name the authors. The borrowing is cre
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A paraphrase restates a passage's meaning in the writer's own framing and names the authors.
+- the two things a reworded passage needs ::@:: A paraphrase restates a passage's meaning in the writer's own framing and names the authors.
 - what separates a paraphrase from patchwriting ::@:: A paraphrase reframes the idea and names the source. Patchwriting keeps the original's wording and structure, often without the citation.
 - what makes a rewording patchwriting ::@:: The phrasing is still the source's.
 - what the Baylor cellphone study reports about relationships ::@:: Cellphone distraction during time with a significant other lowers that person's satisfaction with the relationship.
@@ -48,7 +48,7 @@ Read the passage until you have digested it. Note three to six keywords or short
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Digest the passage, rewrite the idea in your own words, add the in-text citation and the end-of-paper reference.
+- the two citations a paraphrase carries ::@:: Digest the passage, rewrite the idea in your own words, add the in-text citation and the end-of-paper reference.
 - what comes first before rewriting ::@:: You read the passage until you have digested it.
 - what to note down before rewriting ::@:: You note three to six keywords or short phrases that carry the idea.
 - why the original is put away before writing ::@:: Drafting with the original in view drags your wording back towards the source's.
@@ -62,7 +62,7 @@ Attribution needs all three: the paraphrase, the in-text citation, and the end-o
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Proper attribution takes a paraphrase, an in-text citation, and an end-of-paper reference together.
+- what proper attribution has to include ::@:: Proper attribution takes a paraphrase, an in-text citation, and an end-of-paper reference together.
 - what a paraphrase without a citation amounts to ::@:: It credits nobody, so the source goes uncredited.
 - how a paraphrase and its citations relate ::@:: They are one unit, not two steps held to different standards.
 

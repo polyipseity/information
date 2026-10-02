@@ -41,7 +41,7 @@ The loss is gradual, tracing the same acquisition curve in reverse.
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A dog that learned to salivate at a bell hears that bell again and again with no meat, until the bell produces nothing.
+- what extinction does in the dog-and-bell example ::@:: A dog that learned to salivate at a bell hears that bell again and again with no meat, until the bell produces nothing.
 - the three terms in the dog-and-bell example ::@:: The ringing bell is a conditioned stimulus, the meat an unconditioned stimulus, and the salivation a conditioned response.
 - what the bell is called once extinction has run its course ::@:: A neutral stimulus again, and it produces nothing.
 - which response extinction suppresses ::@:: The response to the cue, not the response to the unconditioned stimulus.
@@ -58,7 +58,7 @@ Nothing in that procedure could undo the learning, yet the response came back. E
 
 Flashcards for this section are as follows:
 
-- overview ::@:: After a rest with no exposure to an extinguished conditioned stimulus, presenting it again can bring the conditioned response back with no new pairing.
+- what a rest with no exposure leads to ::@:: After a rest with no exposure to an extinguished conditioned stimulus, presenting it again can bring the conditioned response back with no new pairing.
 - what a spontaneous recovery cost the learner ::@:: Nothing: no pairing and no unconditioned stimulus are needed.
 - how strong a spontaneous recovery is ::@:: Real but partial. It is weaker than the response that was extinguished, and a second rest brings it back weaker still.
 - what the pattern of spontaneous recovery rules out ::@:: Erasure of the association, since nothing was presented to undo the learning.
@@ -76,7 +76,7 @@ A phobia treated by exposure in a clinic can return in a setting the treatment n
 
 Flashcards for this section are as follows:
 
-- overview ::@:: An extinguished conditioned response can return when the cue is presented in a context other than the one in which it was extinguished.
+- what a change of context does to an extinguished response ::@:: An extinguished conditioned response can return when the cue is presented in a context other than the one in which it was extinguished.
 - the contexts in which renewal is observed ::@:: Any context other than the one in which extinction occurred. A different room is the obvious case.
 - what a renewal establishes about the scope of extinction ::@:: That it is bound to the context in which it occurred, not general. The context carries the inhibition, so a change of context leaves it behind.
 - what extinction in one context amounts to ::@:: Learning that the cue no longer predicts the event here.

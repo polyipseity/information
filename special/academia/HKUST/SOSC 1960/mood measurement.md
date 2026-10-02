@@ -18,7 +18,7 @@ They differ in how much the participant hands over, and they do not measure the 
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Three routes measure a person's mood: asking the participant, reading behaviour, and reading the body.
+- the three routes that measure a person's mood ::@:: Three routes measure a person's mood: asking the participant, reading behaviour, and reading the body.
 - what separates the routes ::@:: How much the participant hands over.
 - what follows from measuring different things ::@:: A finding from one route does not carry over to another unless the study says so.
 - what a mood measure needs before it means anything ::@:: A comparison.
@@ -40,7 +40,7 @@ A number given on demand shows what the participant recalls and is willing to sa
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A self-report is either one item or a validated set.
+- the two forms a self-report takes ::@:: A self-report is either one item or a validated set.
 - where asking sits among the three routes ::@:: The most direct of the three, and the most open to bias.
 - how a single item is asked ::@:: Once, against a fixed set of response options rather than free text.
 - the single-item response options ::@:: A rating from 0 to 9 or 1 to 7, an agreement item, a visual analogue scale running from the worst mood to the best, or a choice among words such as happy, enthusiastic, or melancholic.
@@ -58,7 +58,7 @@ The scoring comes published, so everyone who administers a validated instrument 
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A study swaps the single item for a questionnaire with established scoring when it needs scores it can compare across people.
+- when a study swaps the single item for a questionnaire ::@:: A study swaps the single item for a questionnaire with established scoring when it needs scores it can compare across people.
 - the usual choice ::@:: The Positive and Negative Affect Schedule, PANAS.
 - what PANAS does that a single item does not ::@:: PANAS scores current positive affect and current negative affect separately.
 - positive affect items on PANAS ::@:: Feeling enthusiastic, alert, or inspired.
@@ -77,7 +77,7 @@ The memory bias that troubles a retrospective question is largely gone, because 
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A participant rates their mood on a phone several times a day.
+- how a participant rates their mood under experience sampling ::@:: A participant rates their mood on a phone several times a day.
 - what each rating covers ::@:: The last stretch of experience, not a day recalled.
 - what experience sampling removes ::@:: The memory bias that troubles a retrospective question is largely gone.
 - what experience sampling gains ::@:: Validity for the state it targets.
@@ -95,7 +95,7 @@ Every measure here carries its own noise. A coded smile settles nothing outside 
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A behavioural measure reads what a participant produces while doing something else.
+- what a behavioural measure reads ::@:: A behavioural measure reads what a participant produces while doing something else.
 - the facial measures ::@:: A coder reads the face, and facial EMG reads the muscle activity underneath.
 - why facial measures are preferred to asking ::@:: A smile counts whether or not the participant decides to smile.
 - why a reaction time is trusted more than a rating ::@:: It is harder to produce on demand.
@@ -117,7 +117,7 @@ A [brain-imaging measure](functional%20magnetic%20resonance%20imaging.md#correla
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Physiological measures read the body without asking.
+- how a physiological measure reaches mood ::@:: Physiological measures read the body without asking.
 - physiological measures of mood ::@:: Heart rate variability, skin conductance, cortisol, heart rate from a wearable, and dopamine before and after the manipulation.
 - what a wearable adds ::@:: Heart rate across a whole session rather than one moment in a clinic chair. That suits a transient effect.
 - the limit on every physiological measure ::@:: They all measure arousal, and arousal is not mood.

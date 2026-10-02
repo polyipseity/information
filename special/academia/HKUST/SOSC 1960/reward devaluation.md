@@ -49,7 +49,7 @@ A habit depends on its own performance, not the outcome's value. The difference 
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A goal-directed action stops when its outcome is devalued. An action repeated often enough becomes a habit, and devaluation no longer stops it.
+- what separates a goal-directed action from a habit ::@:: A goal-directed action stops when its outcome is devalued. An action repeated often enough becomes a habit, and devaluation no longer stops it.
 - goal-directed action ::@:: Someone performs a goal-directed action because it still produces something they want, and stops when that outcome is devalued.
 - habit ::@:: Someone performs it without the goal in mind, by the same route whatever the outcome is worth.
 - the condition an action needs to become a habit ::@:: The action must be repeated often enough under stable conditions.

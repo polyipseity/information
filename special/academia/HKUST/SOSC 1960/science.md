@@ -35,7 +35,7 @@ Science is cumulative: every new truth is built on the ones before it. Any physi
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Science uses systematic observation, testable hypotheses, open debate, and cumulative results.
+- the marks of a scientific practice ::@:: Science uses systematic observation, testable hypotheses, open debate, and cumulative results.
 - how ancient people explained solar eclipses and thunderstorms ::@:: As magical or supernatural events.
 - what scientifically minded people rely on ::@:: Testing and observation.
 - an everyday example of an empirical method ::@:: Mixing vinegar with baking soda to watch the reaction.
@@ -72,7 +72,7 @@ Life expectancy rose from 47 years in 1900 to 79 years in 2010. Far fewer people
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Most of the major social and technological changes of the past century can be attributed directly to science.
+- what most major changes of the past century are attributed to ::@:: Most of the major social and technological changes of the past century can be attributed directly to science.
 - who is better known than the scientists who saved millions of lives ::@:: Mother Teresa and Albert Schweitzer.
 - what Mother Teresa is known for ::@:: Helping thousands of people in the slums of Kolkata.
 - what Albert Schweitzer is known for ::@:: Opening a hospital in Africa, and earning the Nobel Peace Prize.

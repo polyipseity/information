@@ -61,7 +61,7 @@ The finding arrived as television moved into the home. Researchers still argue o
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Children who saw the model punished for its aggression were less aggressive afterwards.
+- what happened to the children who saw the model punished ::@:: Children who saw the model punished for its aggression were less aggressive afterwards.
 - who the consequence belonged to ::@:: In the experiment the punishment landed on the model, not on the learner.
 - vicarious reinforcement ::@:: A consequence the learner never receives still changes the learner's behaviour.
 - why vicarious reinforcement works on a learner ::@:: The learner's behaviour changes after seeing who took the punishment and what it cost.
@@ -81,7 +81,7 @@ The criticism changed how such studies run. It did not remove the study from the
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Critics said the study trained children toward aggression.
+- the charge brought against the study ::@:: Critics said the study trained children toward aggression.
 - the specific criticism ::@:: The study showed children a behaviour at length and then measured how much of it they had picked up.
 - the general ethical question ::@:: Two questions follow: what happens to participants who cannot consent for themselves, and who reviews a study before it runs.
 - what came of the criticism ::@:: A study showing an adult model harm a child now faces review before it begins, not after its data.
@@ -96,7 +96,7 @@ The children's aggression came from what they watched, not from what they were g
 
 Flashcards for this section are as follows:
 
-- overview ::@:: The study moved the focus of psychology from pure behaviorism to cognitive psychology.
+- the first shift the study produced ::@:: The study moved the focus of psychology from pure behaviorism to cognitive psychology.
 - why copying an observed act needs no stimulus and no habit ::@:: The child remembers the act, decides it is acceptable, and acts on a representation.
 - what that implies about where learning happens ::@:: Learning looked like a process inside a person, not a link between a stimulus and a reflex.
 - the practical shift ::@:: The children learned their aggression from what they saw, not from what they received.

@@ -16,7 +16,7 @@ A writer with a question needs to know what is known already, and where studies 
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A literature review sets out what is known about a question and where studies disagree.
+- what a literature review is for ::@:: A literature review sets out what is known about a question and where studies disagree.
 - what most psychology writing rests on ::@:: A literature review.
 
 ## primary and secondary sources
@@ -47,7 +47,7 @@ A record's Find@HKUST link leads to the library's copy. Google Scholar reaches f
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A database holds records of journal articles, book chapters, and conference proceedings.
+- what a literature database holds ::@:: A database holds records of journal articles, book chapters, and conference proceedings.
 - what a database record carries ::@:: Its title, authors, year, and keywords.
 - psychology database ::@:: APA PsycINFO, which carries abstracts and index terms.
 - multi-disciplinary databases ::@:: Social Sciences Citation Index in Web of Science, and Scopus.
@@ -66,7 +66,7 @@ A search starts from a question's key concepts, not from its wording. A question
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A search starts from a question's key concepts, not from its wording.
+- why a question's own wording makes a poor search ::@:: A search starts from a question's key concepts, not from its wording.
 - keywords the pet-and-loneliness question reduces to ::@:: Pets, elderly, and lonely.
 
 ### finding keywords
@@ -103,7 +103,7 @@ The first search tools went through printed books and index cards by hand. Keywo
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Search tools have moved from books and index cards searched by hand to tools that answer a question by its meaning.
+- the direction search tools have moved in ::@:: Search tools have moved from books and index cards searched by hand to tools that answer a question by its meaning.
 - how search worked before language models ::@:: Printed books and index cards browsed by hand, then keyword search engines over lists of webpages.
 - scholarly databases ::@:: Web of Science and Scopus.
 - open databases ::@:: Semantic Scholar and OpenAlex.
@@ -155,7 +155,7 @@ A reader works through a research article out of order. How much of it they read
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A research article is read out of order, and the reader reads as much of it as their purpose needs.
+- how a reader works through a research article ::@:: A research article is read out of order, and the reader reads as much of it as their purpose needs.
 
 ### kinds of article
 
@@ -213,7 +213,7 @@ A writer has to connect the articles to each other, not summarise them one by on
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Connecting the studies to each other so the argument and its evidence are clear.
+- what integrating sources is for ::@:: Connecting the studies to each other so the argument and its evidence are clear.
 
 ### common problems
 

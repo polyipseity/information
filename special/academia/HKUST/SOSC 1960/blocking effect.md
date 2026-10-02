@@ -33,7 +33,7 @@ The second cue is easy to miss in the second phase, because it is familiar. In t
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A first cue predicts the event, a second cue is added while the first keeps predicting, and the test finds no association to the second.
+- the sequence a blocking experiment runs through ::@:: A first cue predicts the event, a second cue is added while the first keeps predicting, and the test finds no association to the second.
 - what happens in the first phase ::@:: A first cue is paired with the outcome until the organism responds to that cue alone.
 - what happens in the second phase ::@:: The first cue is still paired with the outcome. A second, previously neutral cue is presented on its own, just before the first.
 - what happens in the third phase ::@:: The second cue is presented alone. The first cue is tested in the same phase and still produces its response.
@@ -71,7 +71,7 @@ Pairing the announcement with Jim predicts nothing new. Jim acquires no associat
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Steve already predicts the pay-cut announcement, so pairing it with Jim blocks any association to Jim. The staff stay calm at the sight of the new manager.
+- how the staff react when the new manager appears ::@:: Steve already predicts the pay-cut announcement, so pairing it with Jim blocks any association to Jim. The staff stay calm at the sight of the new manager.
 - the unconditioned stimulus in the new-manager example ::@:: The announcement that the company is making pay cuts.
 - the unconditioned response in the new-manager example ::@:: The staff's displeasure with the announcement.
 - the first conditioned stimulus in the new-manager example ::@:: Steve, who has given many unpopular announcements before.

@@ -20,7 +20,7 @@ A structural scan gives the anatomical baseline: where a structure sits and what
 
 Flashcards for this section are as follows:
 
-- overview ::@:: An MRI scanner uses a strong magnetic field and radiofrequency pulses to take high-resolution pictures of the brain's structure.
+- how an MRI scanner takes its pictures ::@:: An MRI scanner uses a strong magnetic field and radiofrequency pulses to take high-resolution pictures of the brain's structure.
 - what a strong magnetic field does to hydrogen nuclei in the body ::@:: It lines the body's hydrogen nuclei up with the field.
 - what the radiofrequency pulse does ::@:: It knocks the aligned nuclei out of alignment, so that they precess back.
 - what produces the image from that precession ::@:: The changing magnetic flux induces a voltage in the receiver coils, and the spatial pattern of those voltages is the image.
@@ -36,7 +36,7 @@ A structural scan resolves anatomy to a millimetre without opening the skull. No
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A structural scan resolves anatomy at a millimetre scale without surgery. It does not read the brain at work.
+- what a structural scan resolves, and what it misses ::@:: A structural scan resolves anatomy at a millimetre scale without surgery. It does not read the brain at work.
 - how a structural scan's resolution compares with methods that read brain activity directly ::@:: Nothing that reads brain activity directly gets anatomy that fine.
 - what a structural image shows about a hippocampus during a task ::@:: The same picture during a task as at rest.
 - what a structural method is silent about ::@:: Timing, and which parts of a structure are active while a process runs.

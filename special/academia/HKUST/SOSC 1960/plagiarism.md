@@ -16,7 +16,7 @@ Plagiarism is passing off someone else's work as your own. The fault is the miss
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Passing off someone else's work as your own.
+- what plagiarism is ::@:: Passing off someone else's work as your own.
 - what decides whether writing is plagiarised ::@:: Whether you credited the source, not how much of it you took.
 - whose rights plagiarism violates ::@:: The original author, whenever their work is used without credit.
 
@@ -30,7 +30,7 @@ The source does not have to be published. Another student's work counts, whether
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Patchwriting, copying sentences as they stand, and taking a source's ideas are all plagiarism.
+- the forms of plagiarism ::@:: Patchwriting, copying sentences as they stand, and taking a source's ideas are all plagiarism.
 - what patchwriting is ::@:: Changing a few words and handing over the rest.
 - what a source's phrases, research findings, and ideas are worth beside its sentences ::@:: As much. Keeping the sentences but taking the content is still plagiarism.
 - whose work may not be taken ::@:: Another student's, whether from this semester or an earlier one.
@@ -57,7 +57,7 @@ You may use one as a tool if you acknowledge it, but the work must be yours.
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Having a language model write the assignment is plagiarism or academic dishonesty.
+- what counts as plagiarism when a language model is involved ::@:: Having a language model write the assignment is plagiarism or academic dishonesty.
 - whether citing a language model fixes it ::@:: No. The problem is not a missing credit but that the work is not yours.
 - how a language model may be used ::@:: As a tool, if you acknowledge it and the work is yours.
 

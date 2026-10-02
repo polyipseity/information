@@ -16,7 +16,7 @@ A research design says which variables to measure, which to manipulate, who to c
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A research design says which variables to measure, which to manipulate, who to compare against whom, and how long to follow people.
+- what a research design specifies ::@:: A research design says which variables to measure, which to manipulate, who to compare against whom, and how long to follow people.
 - what each design buys ::@:: A different claim, at a different price.
 - what settles the choice of design ::@:: The question and the resources, not a ranking of the designs.
 
@@ -38,7 +38,7 @@ An experiment pays in the participants' time and in the researcher's control ove
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A finding is only as strong as the design behind it.
+- what a finding's claim rests on ::@:: A finding is only as strong as the design behind it.
 - what makes a design able to support a causal claim ::@:: Ruling out whatever else could have produced the difference. Random assignment does that.
 - the only design that supports a plain causal claim ::@:: The experiment, and only because random assignment is possible there.
 - what an experiment buys and what it costs ::@:: A causal claim about the manipulated variable, paid for in the participants' time and in the researcher's control over the conditions.
@@ -59,7 +59,7 @@ Ethics binds harder. War, long-term isolation, abusive parenting, prolonged drug
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Resources limit one side, and conditions nobody may ethically assign limit the other. Together they choose the design.
+- the constraints that choose a design ::@:: Resources limit one side, and conditions nobody may ethically assign limit the other. Together they choose the design.
 - the resource question a design has to answer ::@:: How much time and money the study can commit.
 - what stops a short project from running a twenty-year study ::@:: The time a twenty-year study would take.
 - what exploratory work runs first ::@:: The cheap design.

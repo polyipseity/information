@@ -16,7 +16,7 @@ A survey is a list of questions that pulls specific data from a group. Researche
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A survey is a list of questions for pulling specific data from a group.
+- what a survey is ::@:: A survey is a list of questions for pulling specific data from a group.
 - how a survey is administered ::@:: Researchers hand out paper questionnaires or post the questions online.
 - what a survey reaches that a laboratory task does not ::@:: What people believe, feel, and prefer.
 
@@ -32,7 +32,7 @@ In exploratory work the cheap, fast design comes first. The expensive one follow
 
 Flashcards for this section are as follows:
 
-- overview ::@:: More people reached than a laboratory study, for less money and less of the participants' time.
+- what a survey buys over a laboratory study ::@:: More people reached than a laboratory study, for less money and less of the participants' time.
 - how a survey reaches participants without an appointment ::@:: Participants answer in their own time, and nobody has to book a slot.
 - what a survey does not buy ::@:: Precision.
 - what a longitudinal study would buy instead ::@:: Better measurement, at a higher cost and over years.
@@ -52,7 +52,7 @@ A survey can carry an experiment. Participants read a form filled in by either a
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Data collection, not a design, so it fits correlational research and experiments alike.
+- what a survey counts as in a research design ::@:: Data collection, not a design, so it fits correlational research and experiments alike.
 - what most surveys are ::@:: Correlational, because the questions measure rather than manipulate.
 - the two things one correlational survey measures side by side ::@:: How happy people are, and how much they gave away.
 - what a correlational survey cannot settle ::@:: Which of the two measures came first.

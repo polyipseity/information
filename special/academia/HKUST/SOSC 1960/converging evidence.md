@@ -18,7 +18,7 @@ You choose a method because it bears on the question. You do not choose it becau
 
 Flashcards for this section are as follows:
 
-- overview ::@:: No instrument measures the process directly, so a claim is only as strong as the independent methods agreeing with it.
+- what sets the strength of a claim about how the brain works ::@:: No instrument measures the process directly, so a claim is only as strong as the independent methods agreeing with it.
 - what is not observable ::@:: Nothing inside a skull is directly observable.
 - why no single instrument settles a question about the brain ::@:: Each one measures something beside the process.
 - two things instruments actually read ::@:: The oxygen in the blood, and a voltage that started elsewhere and reached the scalp.
@@ -34,7 +34,7 @@ Each of the four routes fails in its own way.
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Measuring behaviour, imaging the living brain, studying deficits after brain damage, and running computational models.
+- the routes into brain and cognition ::@:: Measuring behaviour, imaging the living brain, studying deficits after brain damage, and running computational models.
 - how many routes into brain and cognition there are ::@:: There are four.
 - the reason the four routes are worth using together ::@:: Each route fails in a different way, so their agreement carries more weight than any single route.
 
@@ -46,7 +46,7 @@ Behaviour takes the least machinery and reaches the furthest. Accuracy is the pr
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Accuracy, response time, and judgments each measure an internal process indirectly.
+- what the three behavioural measures have in common ::@:: Accuracy, response time, and judgments each measure an internal process indirectly.
 - the three major behavioural measures ::@:: The three are accuracy, response time, and judgments given on a multi-point scale.
 - an example of an accuracy measure ::@:: The proportion of a word list a participant recalls.
 - an example of a response-time measure ::@:: The interval between a stimulus appearing and a key being pressed.
@@ -65,7 +65,7 @@ An area that lights up during a task is one whose activity is associated with th
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Reading brain activity in a living person, limited by resolution, invasiveness, and cost.
+- what limits a reading of a living brain's activity ::@:: Reading brain activity in a living person, limited by resolution, invasiveness, and cost.
 - what a method's spatial resolution measures ::@:: How precisely the method localizes the area producing a signal.
 - what a method's temporal resolution measures ::@:: How precisely the method tracks changes in activity over time.
 - why a method strong on one resolution is usually weak on the other ::@:: Some methods read a signal that reaches the sensor faster than others, a physical limit rather than a technical one.
@@ -84,7 +84,7 @@ The evidence comes from patients with a known lesion. A region that does not wor
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Studying the deficits that follow a known brain lesion to work out what a region contributes.
+- what the lesion route is for ::@:: Studying the deficits that follow a known brain lesion to work out what a region contributes.
 - what brain damage shows that a signal cannot ::@:: It shows a deficit rather than a signal.
 - the three problems with lesion evidence ::@:: It is rare, irreproducible, and impossible to assign on purpose.
 - the first standard caution about brain-damaged patients ::@:: Whether the patients were typical before the damage.
@@ -99,7 +99,7 @@ A computational model writes a process as a program. When its performance tracks
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Writing a process as a program and running it, so it can be manipulated in ways no brain and no participant can be.
+- what a computational model can be put through that a person cannot ::@:: Writing a process as a program and running it, so it can be manipulated in ways no brain and no participant can be.
 - what a computational model is compared against ::@:: It is compared against the performance of a person on the same task.
 - what a model that performs similarly to a human licenses ::@:: Treating it as a candidate account of the human process.
 - what damaging a component of a model predicts ::@:: It predicts what the human should fail at.
@@ -114,7 +114,7 @@ An fMRI scan, a MEG recording, and the deficit profile of two lesion patients al
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Independent methods that agree make a stronger claim than one method reporting the same result twice.
+- what a claim gains when independent methods agree ::@:: Independent methods that agree make a stronger claim than one method reporting the same result twice.
 - the condition on a claim about a brain region ::@:: It has been reached by several instruments that do not share a failure mode.
 - why independence between methods is what makes agreement informative ::@:: One systematic error is unlikely to produce the same result in several instruments at once.
 - the strongest evidence for the role or function of a brain region ::@:: Similar findings from multiple studies that used different methods.

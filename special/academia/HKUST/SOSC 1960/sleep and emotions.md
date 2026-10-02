@@ -18,7 +18,7 @@ Sleep is also when the day's difficult experiences are taken in and soothed, so 
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Emotion is louder without sleep and quieter after it.
+- how emotion changes when sleep is missing ::@:: Emotion is louder without sleep and quieter after it.
 - what emotional reactivity depends on ::@:: How much sleep the brain has had.
 - what becomes more reactive without sleep ::@:: The amygdala, the part of the brain that generates strong emotional reactions.
 - what the prefrontal cortex does without sleep ::@:: It loses the link to the amygdala.

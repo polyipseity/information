@@ -23,7 +23,7 @@ Pavlov arrived at conditioning from digestion. He was a physiologist. He shared 
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Learning that one stimulus predicts another. The signal calls up the response the event would have caused, before the event arrives.
+- what classical conditioning is ::@:: Learning that one stimulus predicts another. The signal calls up the response the event would have caused, before the event arrives.
 - what the association between stimulus and response is ::@:: A signal, not a cause: the bell does not make the dog salivate, it announces meat.
 - the general claim about what a perceivable stimulus can do ::@:: Any stimulus an organism can perceive is capable of eliciting any reaction the organism is capable of making.
 - what follows from that general claim ::@:: Almost any sound, sight, or smell can shift muscle tension, mood, and attitude.
@@ -52,7 +52,7 @@ Flashcards for this section are as follows:
 - the conditioned stimulus (CS) ::@:: A stimulus that elicits no particular response at first, but comes to after conditioning.
 - the conditioned response (CR) ::@:: The response the conditioned stimulus elicits after repeated pairings with the unconditioned stimulus.
 - the neutral stimulus (NS) ::@:: A stimulus that has not yet been conditioned and belongs to no response.
-- overview ::@:: The unconditioned pair is inborn, and the conditioned pair is built from it by conditioning.
+- which pair of components an organism is born with ::@:: The unconditioned pair is inborn, and the conditioned pair is built from it by conditioning.
 - why the four terms are named separately ::@:: It lets you say which half was learned.
 
 ## pairing a neutral stimulus with an unconditioned one
@@ -67,7 +67,7 @@ Other forms of conditioning sit beside this one, with the plain pairing in the f
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A bell presented before meat, over and over, ends up producing the salivation only the meat produced at the start.
+- the result of pairing a bell with meat over and over ::@:: A bell presented before meat, over and over, ends up producing the salivation only the meat produced at the start.
 - what a bell produces in a laboratory before conditioning ::@:: Nothing.
 - the second stage of the acquisition sequence ::@:: Meat alone producing salivation, the unconditioned pairing.
 - the third stage of the acquisition sequence ::@:: The bell and the meat paired, producing salivation.
@@ -85,7 +85,7 @@ The cue is usually a sound rather than a sight, and this arrangement is easy to 
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A sound that reliably precedes a temperature change acquires the power to call up the step back the temperature change would have caused.
+- what a sound that reliably precedes a temperature change comes to do ::@:: A sound that reliably precedes a temperature change acquires the power to call up the step back the temperature change would have caused.
 - the ordinary cue in a temperature example ::@:: A sound, the flush of a toilet.
 - the conditioned stimulus in a temperature example ::@:: The flush itself, predicting the temperature change.
 - the unconditioned stimulus in a temperature example ::@:: The very hot or very cold shower water.
@@ -99,7 +99,7 @@ A word that puts someone at ease does nothing on its own. A gunshot sound produc
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A word that calms can be paired with a sound that frightens, and the fear then attaches to the word.
+- a calming word paired with a frightening sound ::@:: A word that calms can be paired with a sound that frightens, and the fear then attaches to the word.
 - the shape of a conditioned emotional response ::@:: The same as any conditioning: a neutral cue paired with a stimulus that already produces the emotional response.
 - the original neutral stimulus in the relaxation example ::@:: A word that puts someone at ease, such as "relax".
 - the unconditioned stimulus in the relaxation example ::@:: A gunshot sound.
@@ -120,7 +120,7 @@ A person eats a food and then falls ill. The taste or smell of that food now car
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A conditioned response pulls towards a cue or pushes away from it. The direction follows the sign of the unconditioned stimulus paired with it.
+- the directions a conditioned response can push a person ::@:: A conditioned response pulls towards a cue or pushes away from it. The direction follows the sign of the unconditioned stimulus paired with it.
 - taste aversion conditioning ::@:: An illness following a food attaches an avoidance to the taste or smell of that food.
 - what decides whether conditioning produces a preference or an aversion ::@:: The sign of the unconditioned stimulus paired with the cue.
 - what an aversion conditioned onto a taste out of proportion to the number of pairings shows ::@:: Not every association needs many trials to form.
@@ -137,7 +137,7 @@ A third application is therapeutic rather than clinical, and it motivates the st
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Conditioning underlies phobias and panic disorder, opposes a drug's own effect, and supplies the treatment principle behind exposure.
+- what conditioning is applied to besides clinical conditions ::@:: Conditioning underlies phobias and panic disorder, opposes a drug's own effect, and supplies the treatment principle behind exposure.
 - the clinical conditions fear conditioning underlies ::@:: Panic disorder and phobias.
 - why a conditioned compensatory response matters for drug use ::@:: The body's response to withdrawal pain is itself conditioned.
 - what a conditioned compensatory response does in connection with morphine ::@:: It makes a person more sensitive to pain, not less, in response to cues associated with the drug.
@@ -151,7 +151,7 @@ A pairing is necessary, but it is not enough on its own. Presenting a neutral st
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A neutral stimulus presented before an unconditioned stimulus does not always form an association, because nothing registers when the outcome was already predicted.
+- what presenting a neutral stimulus before an unconditioned stimulus guarantees ::@:: A neutral stimulus presented before an unconditioned stimulus does not always form an association, because nothing registers when the outcome was already predicted.
 - the relation between a pairing and the association it is meant to produce ::@:: Necessary, but not enough on its own.
 - what has to register for an association to form ::@:: That the outcome was not already predicted.
 - what happens to a cue that adds nothing to what the organism already knows ::@:: No association is attached to it.

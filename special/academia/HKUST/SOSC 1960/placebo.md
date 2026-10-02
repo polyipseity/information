@@ -18,7 +18,7 @@ Doctors used such treatments from the 1700s, when nothing better was available o
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A treatment that looks genuine but has no pharmacological effect.
+- what makes a treatment a placebo ::@:: A treatment that looks genuine but has no pharmacological effect.
 - everyday forms of a placebo ::@:: Sugar pills, injections of water, and sham operations.
 - what the placebo effect is ::@:: The relief a treatment with nothing in it still produces.
 - what the word placebo means in Latin ::@:: "I shall please".
@@ -33,7 +33,7 @@ In 1996, 56 volunteers tested a painkiller called Trivaricaine, which was a plac
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A fake painkiller spread on one finger took the pain out of that finger, with nothing in the preparation to do it.
+- the finding of the Trivaricaine study ::@:: A fake painkiller spread on one finger took the pain out of that finger, with nothing in the preparation to do it.
 - what Trivaricaine actually was ::@:: A fake preparation with no pain-easing properties.
 - how the treatment was set up ::@:: One index finger was covered with Trivaricaine, the other left untouched.
 - how the two fingers were tested ::@:: Both were squeezed in painful clamps.
@@ -50,7 +50,7 @@ A placebo has been shown to move blood pressure and heart rate, and to raise the
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Two accounts compete: the relief is either reporting error, or a physiological change that expecting recovery sets off.
+- the disagreement over what relief from a fake treatment is ::@:: Two accounts compete: the relief is either reporting error, or a physiological change that expecting recovery sets off.
 - the account that denies the effect is real ::@:: That the relief is one of several other factors, such as participants falsely reporting improvement to please the experimenter.
 - what expecting to recover sets off ::@:: Physiological changes that improve the symptoms.
 - what a placebo has been shown to do to the body ::@:: Move blood pressure and heart rate.
@@ -90,7 +90,7 @@ None of that argues against the placebo arm. It argues for knowing what the cont
 
 Flashcards for this section are as follows:
 
-- overview ::@:: The costs fall on the patient and on the research.
+- who bears the costs of a placebo ::@:: The costs fall on the patient and on the research.
 - the harm a belief in a fake cure can do ::@:: The patient misses out on a drug or therapy that does work.
 - what happens to the positive effect over time ::@:: It often fades.
 - how the placebo arm affects a trial's results ::@:: It clouds them, so the difference between the arms is harder to read.

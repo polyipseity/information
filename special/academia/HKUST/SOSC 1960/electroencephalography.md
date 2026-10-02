@@ -24,7 +24,7 @@ Averaging cancels whatever has no fixed relationship to the event. The stereotyp
 
 Flashcards for this section are as follows:
 
-- overview ::@:: An electroencephalogram records the brain's own electrical activity.
+- where the activity an electroencephalogram records comes from ::@:: An electroencephalogram records the brain's own electrical activity.
 - what the electrodes on the scalp do ::@:: The scalp electrodes measure a voltage difference between two points on the head; they do not produce the activity.
 - what the measured signal is ::@:: The signal is the summed postsynaptic activity of the neurons beneath the electrode.
 - the method establishes about a signal ::@:: The method dates an event without locating it.

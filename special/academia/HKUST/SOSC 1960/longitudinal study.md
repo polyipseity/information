@@ -18,7 +18,7 @@ A longitudinal design suits questions about development over the lifespan and wh
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A longitudinal study measures the same variables in the same people again and again.
+- what a longitudinal study repeats ::@:: A longitudinal study measures the same variables in the same people again and again.
 - how long a longitudinal study runs ::@:: From a few weeks to decades.
 - what measuring the same people repeatedly buys ::@:: You can tell change inside one person from a difference between two groups.
 - the questions a longitudinal design answers ::@:: Development over the lifespan, and which risk factors come before a disorder.
@@ -33,7 +33,7 @@ Such a comparison is a cross-sectional design. It measures each group once, so i
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A cross-sectional gap holds what changed together with the differences the groups already had.
+- what a cross-sectional gap is unable to separate ::@:: A cross-sectional gap holds what changed together with the differences the groups already had.
 - what a cross-sectional design does ::@:: It measures each group once, comparing an older group with a younger one.
 - what the two-decade study of more than 20,000 people found about marriage ::@:: Those who went on to marry were already slightly happier than their peers before marrying.
 - what a longitudinal design uses instead of a comparison group ::@:: The participants themselves, each their own comparison from a common starting point.
@@ -50,7 +50,7 @@ Tracking participants for years costs far more than a one-off survey. It takes s
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Finding the same people again for every wave is the hard part of a longitudinal design.
+- the part of a longitudinal design that is hard ::@:: Finding the same people again for every wave is the hard part of a longitudinal design.
 - what tracking the same people involves ::@:: Finding each participant again, reaching them, and measuring them all over.
 - the name for participants dropping out of a study over time ::@:: Attrition.
 - why attrition threatens a longitudinal design ::@:: Whoever is left is no longer a random sample of the people who started.

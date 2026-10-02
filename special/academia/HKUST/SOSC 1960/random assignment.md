@@ -15,7 +15,7 @@ A coin flip or a roll of the die decides who is in which group. With enough peop
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A coin flip or a roll of the die decides which group each participant joins, and nothing about the participants enters the draw.
+- how a participant ends up in a group ::@:: A coin flip or a roll of the die decides which group each participant joins, and nothing about the participants enters the draw.
 - what random assignment guarantees ::@:: The two groups match on average on everything, before the experimenter changes anything.
 - the one systematic difference left between them ::@:: The independent variable.
 - why that one difference matters ::@:: Any difference in the outcome has to come from the independent variable.
@@ -31,7 +31,7 @@ Drawing names puts the tall and the short on both teams. The two averages come o
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A random split gives both teams about the same average height. A captain picking players cannot do that.
+- the contrast a random split makes with a captain picking players ::@:: A random split gives both teams about the same average height. A captain picking players cannot do that.
 - what a captain who picks first produces ::@:: A taller, more athletic team, so the gap in the result comes from his choice and not from chance.
 - what drawing names produces instead ::@:: Tall and short players on both teams, so the two averages come out about the same.
 - what drawing names does not improve ::@:: Neither team; it only makes the comparison fair.
@@ -45,7 +45,7 @@ Some conditions cannot be handed out. Nobody can be assigned to marry, become a 
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Conditions nobody can be assigned to leave a study without random assignment. Pretending otherwise does not make it an experiment.
+- what a study is when its conditions cannot be assigned ::@:: Conditions nobody can be assigned to leave a study without random assignment. Pretending otherwise does not make it an experiment.
 - conditions that cannot be assigned ::@:: Marrying, becoming a professional musician, suffering a brain injury, growing up in a war.
 - what a study uses when the conditions already exist ::@:: The existing group membership, treated as the variable.
 - what that design is called ::@:: A quasi-experiment.

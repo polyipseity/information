@@ -37,7 +37,7 @@ An area that brightens during a task has activity that tracks the task. An image
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A region that brightens during a task has activity that tracks the task.
+- what a region that brightens during a task shows ::@:: A region that brightens during a task has activity that tracks the task.
 - what an activating image licenses ::@:: Only that a region is involved, not that it produces the task.
 - how many causal structures an activating image leaves open ::@:: Three, the same three a plain correlation leaves open.
 - what turns the association into a cause ::@:: Only a design that intervenes, such as a lesion study or a disruption method.

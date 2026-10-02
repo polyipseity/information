@@ -15,7 +15,7 @@ A correlation measures how far two variables go together. It leaves the directio
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A correlation measures how far two variables go together and leaves the direction of cause open.
+- what a correlation measures, and what it leaves open ::@:: A correlation measures how far two variables go together and leaves the direction of cause open.
 - why the direction of cause is undetermined ::@:: Several causal structures produce the same pattern, and no coefficient tells them apart.
 - what turns an association into a causal finding ::@:: A design that rules the other structures out.
 
@@ -29,7 +29,7 @@ Nothing in the correlation itself picks between them. Each structure predicts th
 
 Flashcards for this section are as follows:
 
-- overview ::@:: One variable causing the other, the other causing the one, and a third variable causing both all produce the same correlation.
+- which structures produce the same correlation ::@:: One variable causing the other, the other causing the one, and a third variable causing both all produce the same correlation.
 - the three structures in the Facebook use and depression case ::@:: Facebook use causing depression, depression causing more Facebook use, and having no friends causing both.
 - how the third structure differs from the other two ::@:: Its cause sits outside the two variables, while the other two name a cause and an effect between them.
 - which of the three is a causal claim about Facebook use and depression themselves ::@:: Facebook use causing depression.
@@ -60,7 +60,7 @@ In one study, participants are shown face images, and an area in the inferior te
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A causal claim has to meet three requirements, whatever structure it proposes, and a study can meet two and still show nothing causal.
+- the bar a causal claim has to clear ::@:: A causal claim has to meet three requirements, whatever structure it proposes, and a study can meet two and still show nothing causal.
 - the three requirements for causation ::@:: Temporal precedence, covariation of cause and effect, and elimination of alternative explanations.
 - temporal precedence ::@:: The cause has to come before the effect.
 - covariation of cause and effect ::@:: The two have to vary together.
@@ -85,7 +85,7 @@ The claim stays in circulation rather than becoming a finding until a design can
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A televised report presented a comparison of diet soda drinkers with non-drinkers as evidence that diet soda causes weight gain.
+- how the televised report presented its finding ::@:: A televised report presented a comparison of diet soda drinkers with non-drinkers as evidence that diet soda causes weight gain.
 - the comparison the report was based on ::@:: People drinking two cans of diet soda a day for ten years gained more waist circumference than people who drank none.
 - the behaviour that could account for the pattern ::@:: Treating the sugar-free choice as saved calories and spending them on other food.
 - what that behaviour would be, as a causal structure ::@:: A third variable, dietary compensation, in place of the soda as the cause.

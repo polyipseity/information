@@ -22,7 +22,7 @@ The [operant conditioning chamber](operant%20conditioning.md) puts the stimuli, 
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Behaviour that changes with the signal is under stimulus control.
+- what behaviour is under stimulus control ::@:: Behaviour that changes with the signal is under stimulus control.
 - a pigeon taught two signals ::@:: It behaves differently at each of them, and food pays for the right response.
 - the discriminative stimulus $S^D$ ::@:: A signal that says which behaviour will be rewarded. It announces a reward instead of causing the response.
 - what an organism tracks under stimulus control ::@:: Whether a reinforcer is available, not its own behaviour.
@@ -48,7 +48,7 @@ The same generalization turns one conditioned fear into a family of [phobias](ph
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Nobody learns a discrimination exactly, and the response generalizes to stimuli that resemble the trained one.
+- why a trained pigeon answers to untrained stimuli ::@:: Nobody learns a discrimination exactly, and the response generalizes to stimuli that resemble the trained one.
 - pigeons taught to select a Monet over a Picasso ::@:: They went on to choose the Impressionists over the Cubists.
 - what paid for the correct choice in the Monet-versus-Picasso task ::@:: Food, as a [positive reinforcer](operant%20conditioning.md#reinforcement%20and%20punishment).
 - what the choice in that task carried over to ::@:: The other painters in each movement, since Monet was an Impressionist and Picasso a Cubist.

@@ -25,7 +25,7 @@ In the late nineteenth century, psychology split into two founding branches: one
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Psychology's founding branches were the laboratory measurement of mental activity and the clinical exploration of the unconscious mind.
+- the two founding branches of psychology ::@:: Psychology's founding branches were the laboratory measurement of mental activity and the clinical exploration of the unconscious mind.
 
 ### the first psychology laboratory
 
@@ -60,7 +60,7 @@ Ivan Pavlov's classical conditioning studies the stimuli that elicit reflexes. B
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Behaviorism dominated psychology from the early 1900s until the mid-twentieth century.
+- when behaviorism dominated psychology ::@:: Behaviorism dominated psychology from the early 1900s until the mid-twentieth century.
 - the tradition behaviorism reacted against ::@:: Depth psychology, which often made predictions that no experiment could test.
 - what behaviorism excluded as an explanation ::@:: Internal processes such as thoughts, because no one could measure them.
 - how behaviorism treated the mind ::@:: Behaviorists treated the mind as a black box and inferred its workings from its input and its output.
@@ -84,7 +84,7 @@ The rest of the field now infers a process from behavior in experiments, and wat
 
 Flashcards for this section are as follows:
 
-- overview ::@:: From the 1950s the cognitive revolution made mental processes measurable topics, replacing the black box with an active information processor.
+- what the cognitive revolution made a topic for study ::@:: From the 1950s the cognitive revolution made mental processes measurable topics, replacing the black box with an active information processor.
 - when the cognitive revolution surpassed behaviorism as a paradigm ::@:: By the early 1970s, it had surpassed behaviorism as a paradigm.
 - what the organism became under the cognitive approach ::@:: The organism became an active processor of information rather than a passive receiver of stimuli.
 - what came back as explanations for observable behavior ::@:: Internal states came back as explanations for observable behavior.
@@ -112,7 +112,7 @@ A scientific approach to psychology means research methods, measuring mind and b
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Psychology is a science whose subject matter is largely invisible, so it measures the mind through behavior, ratings, and biological signals.
+- how psychology measures what it cannot see directly ::@:: Psychology is a science whose subject matter is largely invisible, so it measures the mind through behavior, ratings, and biological signals.
 - why some people doubt that psychology is a science ::@:: Depression, intelligence, and prejudice are not directly observable the way ocean tides or the speed of light are.
 - how personality and other mental attributes are inferred ::@:: Researchers infer them from behavior, so a friendly, outgoing person is read as one kind of person and a shy, withdrawn one as another.
 - how thoughts and feelings are measured ::@:: Behavioral measures and rating scales make thoughts and feelings measurable.
@@ -145,7 +145,7 @@ Traditionally each subfield studies a different cognitive capacity, and all of t
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Traditionally each subfield studies a different cognitive capacity, and all of them use much the same methods.
+- what the subfields share, and what separates them ::@:: Traditionally each subfield studies a different cognitive capacity, and all of them use much the same methods.
 - the five groups of psychological subfields ::@:: Biological, cognitive, developmental, social and personality, and mental and physical health.
 - subfields of biological psychology ::@:: Biological psychology covers biopsychology and neuroscience, sensation, and consciousness.
 - subfields of cognitive psychology ::@:: Cognitive psychology covers perception, thinking, intelligence, and memory.
@@ -167,7 +167,7 @@ No single level has a method that reaches the others, so the approach needs inte
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Cognitive capacities can be studied at different levels, from group behavior down to neural networks, and each level has its own tools.
+- the range of levels a capacity can be studied at ::@:: Cognitive capacities can be studied at different levels, from group behavior down to neural networks, and each level has its own tools.
 - the levels of the nervous system from molecular to whole brain ::@:: Molecules, synapses, neurons, circuits, maps, systems, and the brain.
 - the four families of networks across those levels ::@:: Gene and protein, synaptic, neuronal, and whole-brain networks.
 - which levels form the whole-brain networks ::@:: Systems and the brain.
@@ -199,7 +199,7 @@ An eye tracker records where the eyes look, returning the sequence of fixations 
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Psychologists use instruments such as the eye tracker and EEG, plus explicit computational models of a process.
+- the instruments and models psychological work runs on ::@:: Psychologists use instruments such as the eye tracker and EEG, plus explicit computational models of a process.
 - why psychological science uses several kinds of measurement ::@:: No single measurement settles a question, so the aim is converging evidence from multiple methodologies.
 - the four kinds of measurement in psychological science ::@:: Measuring behavior, looking at the living brain, looking at deficits after brain damage, and computational modeling.
 - what an eye tracker records ::@:: It records where the eyes look, the sequence of fixations, and the regions attended to.
@@ -220,7 +220,7 @@ A study begins with an idea and a design. Researchers submit the design to the i
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A study runs from an idea and a design through ethical review and data collection to analysis and peer-reviewed publication.
+- the stages a study passes through ::@:: A study runs from an idea and a design through ethical review and data collection to analysis and peer-reviewed publication.
 - the two planning steps of a study ::@:: Coming up with an idea, and designing the study.
 - what a study's design goes through before data is collected ::@:: The researchers submit the design to the institutional review board.
 - the two steps that produce the results of a study ::@:: Researchers collect the data and then analyze it.
@@ -240,7 +240,7 @@ Applied science puts scientific knowledge to work on practical problems like the
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Psychological science has improved treatment, workplaces, product safety, and the courtroom.
+- the areas psychological science has improved ::@:: Psychological science has improved treatment, workplaces, product safety, and the courtroom.
 - therapy shown to be effective for depression and anxiety disorders ::@:: Cognitive behavioral therapy.
 - finding about some other types of therapy ::@:: Other kinds of therapy turn out to be harmful on average.
 - what organizational psychology interventions improved ::@:: Productivity and satisfaction in the workplace.

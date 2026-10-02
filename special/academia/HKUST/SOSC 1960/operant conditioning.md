@@ -18,7 +18,7 @@ A behaviour followed by a consequence that matters, such as a reward or a punish
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Learning in which what follows a behaviour decides whether it repeats.
+- what operant conditioning is ::@:: Learning in which what follows a behaviour decides whether it repeats.
 - other name for operant conditioning ::@:: Instrumental conditioning.
 - what comes first ::@:: The act, and then its consequence.
 - what a consequence decides ::@:: How often the behaviour happens again, not what the behaviour is for.
@@ -110,7 +110,7 @@ A habit is the one behaviour that runs without a cue. It carries on when [a rein
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Classical conditioning depends on involuntary behaviour, operant on how consequences influence voluntary behaviour.
+- what separates the two kinds of conditioning ::@:: Classical conditioning depends on involuntary behaviour, operant on how consequences influence voluntary behaviour.
 - whether the division between the two is a boundary ::@:: It is a convenience rather than a boundary.
 - what each kind of conditioning teaches ::@:: Conditioning a fear teaches what a cue announces. Operant conditioning teaches what to do.
 - the three terms both kinds of conditioning use ::@:: A stimulus, a response and an outcome.

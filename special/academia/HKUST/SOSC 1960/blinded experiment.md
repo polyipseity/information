@@ -18,7 +18,7 @@ Random assignment already stops the experimenter's half, by deciding who gets wh
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A trial of a new drug gives half the participants a fake pill. Without that trick, the participant behaves the way the study expects and the experimenter reads the result they hope for.
+- the trick a drug trial relies on ::@:: A trial of a new drug gives half the participants a fake pill. Without that trick, the participant behaves the way the study expects and the experimenter reads the result they hope for.
 - what a double-blind procedure is ::@:: A study where neither the participant nor the experimenter knows which condition the participant is in.
 - what blinding stops a participant from doing ::@:: Changing how they behave to suit what they think the study wants.
 - what blinding stops the experimenter from doing ::@:: Reading an improvement into the group they expect to do well.
@@ -33,7 +33,7 @@ A participant given the new pill and a participant given an identical fake canno
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Nobody knows which condition each participant is in until the data come in. The treatment stays the only difference between the groups.
+- what the two conditions amount to before the data come in ::@:: Nobody knows which condition each participant is in until the data come in. The treatment stays the only difference between the groups.
 - what a participant who is blinded knows about the two pills ::@:: That the two look the same, not which one they got.
 - what the experimenter who hands out the pills knows ::@:: Nothing, at least until the data come in.
 - what is left as the difference between the two groups at the end ::@:: Which pill they were given.
@@ -46,7 +46,7 @@ Participant demand is a participant working out what the study wants and produci
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A participant who works out what the study wants and produces it, usually with no attempt to deceive.
+- whether producing what the study wants also counts as deceiving on purpose ::@:: A participant who works out what the study wants and produces it, usually with no attempt to deceive.
 - what participant demand is ::@:: A participant giving the study what it looks for, in response to cues in the design.
 - how participant demand differs from a placebo effect ::@:: A placebo effect is the change the participant expected from the treatment. Demand is a response to the cues in the design.
 - how participant demand differs from deliberately misreporting ::@:: The participant is answering honestly, in response to a cue the design supplied.
@@ -60,7 +60,7 @@ An experimenter who knows who got the treatment finds the improvement they look 
 
 Flashcards for this section are as follows:
 
-- overview ::@:: An experimenter who knows the conditions finds the result they expect and misses the result they do not.
+- what happens in the group the experimenter expects to do badly ::@:: An experimenter who knows the conditions finds the result they expect and misses the result they do not.
 - what the effect does to the two groups differently ::@:: The expected group shows an improvement that may not be there. The other group's real change is missed.
 - which measures leave the most room for the expectation to work ::@:: Measures that the experimenter scores: a mood read from a face, counted errors, a rated recording.
 - when the experimenter expectation effect is at its worst ::@:: When the dependent variable is the experimenter's own observation.
@@ -74,7 +74,7 @@ Anyone can tell coffee from decaf by taste, and some interventions cannot be dis
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A taste can give a treatment away, and some interventions cannot be disguised at all.
+- why blinding is not always available ::@:: A taste can give a treatment away, and some interventions cannot be disguised at all.
 - a treatment a participant can detect by taste ::@:: A participant can tell coffee from decaf by taste.
 - interventions that no disguise can cover ::@:: Physiotherapy and surgery cannot be disguised at all.
 - what a study does when it cannot blind the participant ::@:: It keeps the conditions from whoever does the measuring. It also makes the two conditions as alike as the treatment allows.

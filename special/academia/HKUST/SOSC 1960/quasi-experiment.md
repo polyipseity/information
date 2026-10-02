@@ -15,7 +15,7 @@ A quasi-experiment is a study that compares groups nobody was assigned to. It is
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A study that compares groups not assigned by chance supports a weaker causal claim than an experiment.
+- the claim a quasi-experiment supports ::@:: A study that compares groups not assigned by chance supports a weaker causal claim than an experiment.
 - what a quasi-experiment has that an experiment has ::@:: An independent variable, a dependent variable, and two groups to compare.
 - the one feature a quasi-experiment drops ::@:: Random assignment to the conditions of the independent variable.
 - what takes the place of the assigned conditions ::@:: The groups' existing membership, which becomes the variable.
@@ -33,7 +33,7 @@ A researcher settles for a quasi-experiment when the alternative is not asking t
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A condition nobody can be assigned. The researcher observes it instead of manipulating it.
+- the treatment of a condition nobody can be assigned ::@:: A condition nobody can be assigned. The researcher observes it instead of manipulating it.
 - the conditions a quasi-experiment studies because nobody can be assigned to them ::@:: Nobody can be assigned to marry, to become a professional musician, to suffer a brain injury, or to grow up in a war.
 - the pairs of groups a researcher compares for these conditions ::@:: Married couples against unmarried couples, and professional musicians against non-musicians.
 - what a fixed variable is ::@:: A fixed variable is an independent variable the researcher can observe but never change.
@@ -52,7 +52,7 @@ Students pick which of two professors teaches their course. Nobody chose to be s
 
 Flashcards for this section are as follows:
 
-- overview ::@:: That the two groups differ, not that one group produced the difference.
+- what a quasi-experiment is able to show about two groups ::@:: That the two groups differ, not that one group produced the difference.
 - why the two groups differ on more than the variable under study ::@:: Nothing balanced them, because nobody assigned them at random.
 - characteristics married people may differ from unmarried people on ::@:: Married people may differ from unmarried people on age, income, health, and how long they have been together.
 - characteristics musicians may differ from non-musicians on ::@:: Musicians may differ from non-musicians on training, hours of practice, and motivation.

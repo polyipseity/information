@@ -21,7 +21,7 @@ The field weakens with distance from the coil, so a claim about a stimulated are
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A brief magnetic pulse interrupts processing in a small area of cortex and then lets it resume.
+- what a magnetic pulse does to processing ::@:: A brief magnetic pulse interrupts processing in a small area of cortex and then lets it resume.
 - what a transcranial magnetic stimulation pulse induces ::@:: An electric current in the tissue under the coil, which activates neurons in a small area.
 - why the method is called a transient lesion ::@:: The induced current is brief, so processing resumes when the pulse ends.
 - what a stroke is, by comparison ::@:: A permanent lesion, unlike the brief one stimulation makes.
@@ -49,7 +49,7 @@ The repeated pulses act on plasticity, the capacity of connections between neuro
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Stimulation disrupts or amplifies processing in a defined cortical area, through pulse timing and repetition.
+- what pulse timing and repetition control ::@:: Stimulation disrupts or amplifies processing in a defined cortical area, through pulse timing and repetition.
 - what stimulation over the motor cortex can produce ::@:: A finger twitch, or a blocked button press when the pulse arrives just before it.
 - what stimulation over visual cortex can produce ::@:: Sensations of flashes of light, and a degraded visual process where one is needed.
 - why controlling the pulse timing relative to the task matters ::@:: Timing lets the method ask when a process happens.

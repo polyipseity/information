@@ -38,7 +38,7 @@ After a study, debriefing and monitoring are owed whether or not anyone was dece
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A code of ethics tells researchers how they must treat human participants in psychological research.
+- who a code of ethics governs ::@:: A code of ethics tells researchers how they must treat human participants in psychological research.
 - what informed consent requires ::@:: People know they are taking part in research and what will happen to them, and they can choose whether to join.
 - what the privacy guideline forbids ::@:: Watching people in private places such as their bedrooms without their knowledge and consent.
 - what confidentiality requires ::@:: Researchers do not make information about an individual participant public without that individual's consent.

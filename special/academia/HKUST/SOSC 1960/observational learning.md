@@ -18,7 +18,7 @@ Four stages sit between watching and repeating: attention, retention, initiation
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A learner watches what other people do, and the consequences can fall on someone else or not appear at all.
+- what the learner watches, and where the consequences land ::@:: A learner watches what other people do, and the consequences can fall on someone else or not appear at all.
 - other name for observational learning ::@:: Social learning theory, in Bandura's 1977 account.
 - what the two conditionings require ::@:: The behaviour reinforced has to be the learner's own.
 - social model ::@:: An authority a learner watches and tries to copy.
@@ -36,7 +36,7 @@ The four stages run in order, each one a step closer to repeating what the model
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Four stages run in order, each one a step closer to repeating what the model did.
+- what separates the four stages from one another ::@:: Four stages run in order, each one a step closer to repeating what the model did.
 - observational learning stages: ![Four stages in order: attention, the learner watches the model; retention, the behaviour is kept in memory; initiation, the learner performs it; motivation, the learner repeats it.](attachments/observational_learning_stages.svg) ::@:: The learner watches the model, keeps the behaviour in memory, performs it, and repeats it.
 - draw the four stages of learning from a model: in what order do they run? ::@:: Attention, then retention, then initiation, then motivation. <p> ![Four stages in order: attention, the learner watches the model; retention, the behaviour is kept in memory; initiation, the learner performs it; motivation, the learner repeats it.](attachments/observational_learning_stages.svg)
 - attention in the shared-notes example ::@:: It holds while the classmate is similar or a credible high-achieving student. It lapses for a stranger.
@@ -52,7 +52,7 @@ A learner who is not looking never gets the behaviour in. That is attention. The
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Getting the behaviour in, which depends on the model as much as on the learner.
+- what attention does, and on what it depends ::@:: Getting the behaviour in, which depends on the model as much as on the learner.
 - what keeps attention on a model ::@:: Similarity to the observer, or high status.
 - attention to a stranger who acts carefully ::@:: Nothing. The model matters, not how carefully the stranger acts.
 
@@ -64,7 +64,7 @@ Retention is what the watching leaves behind. A cooking demonstration leaves the
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Keeping the behaviour in memory after the watching stops.
+- what retention does after the watching stops ::@:: Keeping the behaviour in memory after the watching stops.
 - what retention keeps ::@:: The detail, not the gist.
 - retention of a cooking demonstration ::@:: The demonstrator's hand placement, rather than the fact that someone cooked.
 
@@ -76,7 +76,7 @@ Initiation turns what was retained into performance, and it is the first of two 
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Turning what the learner retained into performance.
+- what initiation does with what retention kept ::@:: Turning what the learner retained into performance.
 - how a cooking demonstration is reproduced ::@:: A learner tries it in small trials and improves on what the observation showed.
 - the two stages in which the learner acts alone ::@:: Initiation and motivation.
 - what separates initiation from retention ::@:: Doing it is not remembering it.
@@ -89,7 +89,7 @@ The first three stages give an ability, not a habit: a learner can watch closely
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Deciding whether the learner ever performs the behaviour again.
+- the question motivation answers ::@:: Deciding whether the learner ever performs the behaviour again.
 - what attention, retention, and initiation together produce ::@:: An ability to perform the behaviour, not a habit of performing it.
 - what makes a model supply that reason ::@:: Admiration, reward, or similarity strong enough that the model stands in for the learner.
 - what the behaviour itself supplies as a reason ::@:: None. The reason comes from the model.
@@ -102,7 +102,7 @@ Age tempers what gets learned. Two things arrive late: the capacity to reflect o
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Both the capacity to reflect on what one has seen and the tendency to identify with other people arrive with age.
+- the two capacities that arrive with maturity ::@:: Both the capacity to reflect on what one has seen and the tendency to identify with other people arrive with age.
 - what a child who has imitated an aggressive act has done without ::@:: The step where the act becomes their own.
 - what empathy does ::@:: It keeps an observed act from becoming a habit of one's own.
 

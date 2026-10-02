@@ -20,7 +20,7 @@ The two cover opposite ends of one range. Conditioning is strong where biology h
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Some associations form too easily for repetition and surprise to explain.
+- what repetition and surprise cannot account for ::@:: Some associations form too easily for repetition and surprise to explain.
 - what preparedness is the name for ::@:: The gap between how easily some associations form and what repetition and surprise can explain.
 - what prediction error explains ::@:: What a learner attaches to when the outcome arrives unexpectedly.
 - why there is little prediction error to explain a prepared association ::@:: The association forms with little surprise.
@@ -49,7 +49,7 @@ The fall case shows the same shape, and a [phobia](phobia.md) built on an ancest
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Taste aversion and a fall from a height are the clearest cases of preparedness.
+- the clearest cases of preparedness ::@:: Taste aversion and a fall from a height are the clearest cases of preparedness.
 - the US and UR in the food-poisoning case ::@:: The bacteria or toxin is the US; the nausea and vomiting are the UR.
 - the CS and CR in the food-poisoning case ::@:: The taste or smell of the food is the CS; the avoidance next time is the CR.
 - the US and UR in the fall case ::@:: The impact and sudden loss of support are the US; the reflexive panic, shock, and pain are the UR.
@@ -74,7 +74,7 @@ The argument deals with the past, not the present, which is what makes it checka
 
 Flashcards for this section are as follows:
 
-- overview ::@:: An argument from selection, in which a predisposition that made a fear fast was inherited rather than acquired.
+- how the account explains the speed of learning a fear ::@:: An argument from selection, in which a predisposition that made a fear fast was inherited rather than acquired.
 - the argument behind the account ::@:: Fearing a threat faster meant surviving and reproducing more often, so the predisposition was inherited.
 - what determines which fears are predisposed ::@:: How dangerous a class of thing was to the ancestors who carried the predisposition, not how dangerous it has been lately.
 - the fears that form easily ::@:: Heights, darkness, and snakes.
@@ -102,7 +102,7 @@ Studies have supported some of the predictions and not others. Neither account i
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Preparedness denies equipotentiality, and a rival account explains the same pattern with nothing built into the organism.
+- what the disagreement with equipotentiality turns on ::@:: Preparedness denies equipotentiality, and a rival account explains the same pattern with nothing built into the organism.
 - equipotentiality ::@:: The behaviourist assumption that the same principles of learning and conditioning apply to every stimulus and every response.
 - what preparedness says instead ::@:: Some associations form more easily than the assumption allows, for reasons inside the organism.
 - how the two are connected ::@:: Preparedness was proposed to knock equipotentiality down, so evidence for one is evidence against the other.

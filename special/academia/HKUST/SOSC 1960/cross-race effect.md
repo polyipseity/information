@@ -22,7 +22,7 @@ You meet your own group's faces constantly, so you practise reading them more th
 
 Flashcards for this section are as follows:
 
-- what the effect is ::@:: People pick out their own group's faces more accurately than anyone else's.
+- what the cross-race effect is ::@:: People pick out their own group's faces more accurately than anyone else's.
 - which other groups the effect covers ::@:: Any group a person has been in contact with.
 - whether the effect depends on which group is measured ::@:: No, it is well documented whichever group a study measures.
 - what the effect is also called ::@:: Cross-race bias, other-race bias, own-race bias, or the other-race effect.

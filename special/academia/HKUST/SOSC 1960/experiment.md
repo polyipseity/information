@@ -18,7 +18,7 @@ Most people expect highlighting to help them remember a textbook. Instinct is no
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A study that changes one variable, measures another, and can name that change as the cause of a difference.
+- what an experiment is ::@:: A study that changes one variable, measures another, and can name that change as the cause of a difference.
 - what an experiment is for ::@:: An experiment runs a procedure to see whether a hypothesis holds.
 - what an experiment manipulates ::@:: An experiment changes one variable, on purpose, between the conditions.
 - what a controlled comparison can do that instinct cannot ::@:: It can show that the manipulated variable caused a difference in the outcome.
@@ -34,7 +34,7 @@ Ask whether highlighting improves retention of information. Highlighting is the 
 
 Flashcards for this section are as follows:
 
-- overview ::@:: The variable the experimenter changes between groups, and the variable the experimenter only measures.
+- the two variables an experiment tells apart ::@:: The variable the experimenter changes between groups, and the variable the experimenter only measures.
 - the variable the experimenter manipulates ::@:: The independent variable, the one the experimenter controls.
 - the variable the experimenter only measures ::@:: The dependent variable, which no one manipulates and which follows the independent variable.
 - in a test of whether highlighting improves retention of information ::@:: Highlighting is the independent variable. Retention is the dependent variable.
@@ -57,7 +57,7 @@ All three are [confounds](confounding.md) fed by information. Hide the condition
 
 Flashcards for this section are as follows:
 
-- overview ::@:: What the participants expect, and what the experimenter expects. Neither has anything to do with the independent variable.
+- whose expectations threaten an experiment ::@:: What the participants expect, and what the experimenter expects. Neither has anything to do with the independent variable.
 - when a difference between two groups counts as evidence about the independent variable ::@:: It counts only when nothing else differs.
 - what a participant who knows they are getting the treatment may do ::@:: Report what they expect instead of what happened. This is a placebo effect.
 - what participant demand is ::@:: Participants act on their guess about the point of the study.

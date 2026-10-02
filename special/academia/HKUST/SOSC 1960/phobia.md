@@ -18,7 +18,7 @@ A phobia runs the whole [conditioning](classical%20conditioning.md) process. Pho
 
 Flashcards for this section are as follows:
 
-- overview ::@:: An irrational, persistent and excessive fear of an object or situation, out of all proportion to the danger.
+- what a phobia is ::@:: An irrational, persistent and excessive fear of an object or situation, out of all proportion to the danger.
 - what a phobia comes with ::@:: A drive to avoid the object or situation.
 - what can account for a phobia's original cause ::@:: A push in a swimming pool before the child could swim, or a sibling putting a spider down a collar.
 - when a phobia typically begins ::@:: In childhood or early adulthood.
@@ -40,7 +40,7 @@ The study is the standard demonstration of fear conditioning. It is also the usu
 Flashcards for this section are as follows:
 
 - the process behind a phobia ::@:: A phobia forms by fear conditioning, which is ordinary conditioning with an aversive outcome.
-- overview ::@:: A neutral cue paired again and again with a startling noise comes to produce fear on its own.
+- how a neutral cue comes to produce fear on its own ::@:: A neutral cue paired again and again with a startling noise comes to produce fear on its own.
 - the age of the child in the 1920 conditioning study ::@:: Nine months old.
 - the stimuli presented before any noise was used ::@:: A rat, a dog, a rabbit, a monkey, and furry or plain masks, none of which disturbed the child.
 - what Watson did as the child was about to touch the rat ::@:: Watson made a loud noise, and the child was startled and cried.
@@ -71,7 +71,7 @@ Avoidance stops extinction. A frightened child starts avoiding the feared object
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Extinction ends a conditioned fear, and avoidance prevents it, so a fear that is never tested can harden into a phobia.
+- how extinction and avoidance together shape a fear ::@:: Extinction ends a conditioned fear, and avoidance prevents it, so a fear that is never tested can harden into a phobia.
 - why many frightened children do not develop a phobia ::@:: The conditioned fear is not reinforced and so disappears over time.
 - what extinction of a conditioned fear requires ::@:: The feared object has to turn up again and again, with nothing bad following it.
 - what stops a frightened child avoiding the feared object ::@:: A parent or a clinician discouraging it.
@@ -89,7 +89,7 @@ Mary Cover Jones, a student of Watson, treated a two-year-old boy who feared rab
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Exposure reverses a phobia by supplying the extinction that avoidance withheld.
+- how exposure reverses a phobia ::@:: Exposure reverses a phobia by supplying the extinction that avoidance withheld.
 - the logic behind exposure ::@:: The feared object is presented, the feared outcome does not arrive, and the association weakens.
 - why exposure must be gradual and repeated ::@:: Extinction inhibits rather than erases.
 - who first applied gradual exposure to a child's rabbit fear ::@:: Mary Cover Jones, a student of John B. Watson.

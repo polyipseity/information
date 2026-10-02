@@ -16,7 +16,7 @@ A correlational design measures two variables and reports how far they go togeth
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A correlational design measures two variables and reports how far they go together, without intervening in either.
+- what a correlational design is ::@:: A correlational design measures two variables and reports how far they go together, without intervening in either.
 - what a correlational design cannot report ::@:: Which of the two variables came first.
 
 ## what a correlational design measures
