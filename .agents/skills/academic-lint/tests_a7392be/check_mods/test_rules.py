@@ -58,6 +58,8 @@ from main_mods.rules import (
     latex_single_line,
     latex_spacing_after,
     latex_spacing_before,
+    line_leading_whitespace,
+    line_trailing_whitespace,
     link_anchor_slug,
     link_malformed,
     link_unencoded_space,
@@ -3648,6 +3650,190 @@ def test_html_br_mid_line_skips_code():
     txt2 = "Use `" + "<br/>" + "` in HTML\n"
     ctx2 = make_ctx(txt2)
     assert not html_br_mid_line(ctx2)
+
+
+def test_line_leading_whitespace():
+    """Leading whitespace, and a tag at column 0, are defects.
+
+    Every flagged and quiet example in the ``_leading_edge`` docstring, spelled
+    the same way, so the two cannot drift apart.
+    """
+    # Flagged: two spaces at column 0.
+    msgs = line_leading_whitespace(make_ctx("  answer\n"))
+    assert len(msgs) == 1
+    assert msgs[0].rule_id == "line_leading_whitespace"
+    assert msgs[0].msg.startswith("line starts with 2 spaces")
+    assert msgs[0].col == 1 and msgs[0].col_end == 2
+
+    # Flagged: whitespace, then a tag, in one span.
+    msgs = line_leading_whitespace(make_ctx("  <p>answer\n"))
+    assert len(msgs) == 1
+    assert "'<p>'" in msgs[0].msg
+
+    # Flagged: a tag at column 0, which breaks nothing.
+    msgs = line_leading_whitespace(make_ctx("<br>answer\n"))
+    assert len(msgs) == 1
+    assert "'<br>'" in msgs[0].msg
+
+    # Flagged: a tag at column 0, then a space, in one span.
+    msgs = line_leading_whitespace(make_ctx("<br> answer\n"))
+    assert len(msgs) == 1
+    assert msgs[0].col == 1 and msgs[0].col_end == 5
+
+    # Flagged: whitespace, a tag, whitespace, all one span.
+    msgs = line_leading_whitespace(make_ctx("  <p> answer\n"))
+    assert len(msgs) == 1
+    assert msgs[0].col == 1 and msgs[0].col_end == 6
+
+    # Not flagged: nothing at column 0.
+    assert not line_leading_whitespace(make_ctx("answer\n"))
+
+    # Not flagged: the tag is mid-line, not on the edge.
+    assert not line_leading_whitespace(make_ctx("answer<br/>text\n"))
+
+    # Not flagged: a nested card's indent and a nested quote's indent are
+    # structure, and the rule is narrow enough to tell them from padding.
+    assert not line_leading_whitespace(make_ctx("    - card ::@:: answer\n"))
+    assert not line_leading_whitespace(make_ctx("  > quoted\n"))
+
+    # Not flagged: an empty line is not a defect.
+    assert not line_leading_whitespace(make_ctx("answer\n\nmore\n"))
+
+
+def test_line_trailing_whitespace():
+    """Trailing whitespace, and a tag that breaks nothing, are defects.
+
+    Every flagged and quiet example in the ``_trailing_edge`` docstring, spelled
+    the same way, so the two cannot drift apart.
+    """
+    # Flagged: one space at the end.
+    msgs = line_trailing_whitespace(make_ctx("answer \n"))
+    assert len(msgs) == 1
+    assert msgs[0].rule_id == "line_trailing_whitespace"
+    assert msgs[0].msg.startswith("line ends in 1 space")
+    assert msgs[0].col == 7 and msgs[0].col_end == 7
+
+    # Flagged: two spaces, a Markdown hard break, and still whitespace.
+    msgs = line_trailing_whitespace(make_ctx("answer  \nmore\n"))
+    assert len(msgs) == 1
+    assert msgs[0].msg.startswith("line ends in 2 spaces")
+
+    # Flagged: whitespace inside the tag boundary.
+    msgs = line_trailing_whitespace(make_ctx("answer<br/> \nmore\n"))
+    assert len(msgs) == 1
+    assert msgs[0].msg.startswith("line ends in '<br/>' then 1 space")
+
+    # Flagged: a tab after the tag.
+    msgs = line_trailing_whitespace(make_ctx("answer <br>\t\nmore\n"))
+    assert len(msgs) == 1
+    assert msgs[0].msg.startswith("line ends in '<br>' then 1 space")
+
+    # Flagged: a second tag is padding.
+    msgs = line_trailing_whitespace(make_ctx("answer<br/><br/>\nmore\n"))
+    assert len(msgs) == 1
+    assert "second break" in msgs[0].msg
+
+    # Flagged: a <p> opens a block, it does not break a line.
+    for tag in ("<p>", "</p>", "</div>", "</li>"):
+        msgs = line_trailing_whitespace(make_ctx(f"answer{tag}\nmore\n"))
+        assert len(msgs) == 1, tag
+        assert "opens a block" in msgs[0].msg, tag
+        assert tag in msgs[0].msg, tag
+
+    # Flagged: a break on the last line goes nowhere.
+    msgs = line_trailing_whitespace(make_ctx("answer<br/>\n"))
+    assert len(msgs) == 1
+    assert "no line below it" in msgs[0].msg
+
+    # Flagged: the next line starts a new block.
+    for nxt in ("# Next", "", "- item", "| cell", "```", "---"):
+        msgs = line_trailing_whitespace(make_ctx(f"answer<br/>\n{nxt}\n"))
+        assert len(msgs) == 1, nxt
+        assert "starts a new block" in msgs[0].msg or "blank" in msgs[0].msg, nxt
+
+    # Not flagged: a single break to a continuation is legal.
+    assert not line_trailing_whitespace(make_ctx("answer<br/>\nmore\n"))
+    assert not line_trailing_whitespace(make_ctx("answer<br>\nmore text\n"))
+
+    # Not flagged: the same inside a blockquote, which continues the paragraph.
+    assert not line_trailing_whitespace(make_ctx("> regards, <br/>\n> more\n"))
+
+    # Not flagged: the tag is mid-line, so the walk never reaches it.
+    assert not line_trailing_whitespace(make_ctx("answer<br>text\n"))
+    assert not line_trailing_whitespace(make_ctx("answer <br>text\n"))
+    assert not line_trailing_whitespace(make_ctx("answer <p>text\n"))
+
+    # Not flagged: a mid-line pair separating two visual paragraphs.
+    assert not line_trailing_whitespace(make_ctx("part one<br/><br/>part two\n"))
+
+    # Not flagged: a nested card's indent is leading, not trailing.
+    assert not line_trailing_whitespace(make_ctx("    - card ::@:: answer\n"))
+
+
+def test_line_edge_whitespace_skips_code():
+    """Fences, code spans and frontmatter indentation are not defects.
+
+    Includes a fence indented inside a list item, which the AST does not see.
+    """
+    fence = "```"
+
+    # Inside a fence — no error, and no error for its own indentation.
+    txt = f"{fence}py\n    body(x)  \n{fence}\n"
+    assert not line_leading_whitespace(make_ctx(txt))
+    assert not line_trailing_whitespace(make_ctx(txt))
+
+    # Inside an inline code span — no error.
+    txt = "Use `" + "  x  `" + "` here\n"
+    assert not line_leading_whitespace(make_ctx(txt))
+    assert not line_trailing_whitespace(make_ctx(txt))
+
+    # Frontmatter indentation is meaningful YAML.
+    txt = "---\naliases:\n  - one\n---\nbody\n"
+    assert not line_leading_whitespace(make_ctx(txt))
+    assert not line_trailing_whitespace(make_ctx(txt))
+
+    # A fence indented to sit inside a list item is a fence to a reader and to
+    # Obsidian, even though at four spaces of indentation CommonMark reads the
+    # backticks as literal text and the AST sees no code block at all.
+    txt = "- item\n\n    ```text\n    Node(foo, ...)  \n      deeper\n    ```\n\ntail\n"
+    assert not line_leading_whitespace(make_ctx(txt))
+    assert not line_trailing_whitespace(make_ctx(txt))
+
+
+def test_line_edge_whitespace_ignores_nbsp_and_single_report():
+    """A non-breaking space is deliberate, and a blank line reports once."""
+    # A non-breaking space is never stripped at either edge.
+    assert not line_leading_whitespace(make_ctx("\u00a0answer\n"))
+    assert not line_trailing_whitespace(make_ctx("answer\u00a0\nmore\n"))
+
+    # A whitespace-only line is reported once, by the leading rule.
+    assert len(line_leading_whitespace(make_ctx("   \nanswer\n"))) == 1
+    assert not line_trailing_whitespace(make_ctx("   \nanswer\n"))
+
+
+def test_line_edge_whitespace_both_sides():
+    """Each rule fires on its own side only, and both fire on both at once."""
+    txt = "  <p>answer<br/>  \nmore\n"
+    lead = line_leading_whitespace(make_ctx(txt))
+    trail = line_trailing_whitespace(make_ctx(txt))
+    assert len(lead) == 1 and lead[0].col == 1
+    assert len(trail) == 1
+    assert trail[0].col == len("  <p>answer<br/>") + 1
+
+    # A leading-only defect leaves the trailing rule alone, and the reverse.
+    assert not line_trailing_whitespace(make_ctx("  answer\n"))
+    assert not line_leading_whitespace(make_ctx("answer \nmore\n"))
+
+
+def test_line_edge_whitespace_is_registered():
+    """Both rules carry the id the instructions name and error severity."""
+    for rule_id in ("line_leading_whitespace", "line_trailing_whitespace"):
+        registered = dict(RULE_REGISTRY.items())
+        assert rule_id in registered
+        msgs = registered[rule_id](make_ctx("  answer \nmore\n"))
+        assert msgs and all(m.rule_id == rule_id for m in msgs)
+        assert all(m.severity is Severity.ERROR for m in msgs)
+        assert "check: ignore-line" in msgs[0].msg
 
 
 def test_header_source_layout_flags_source_units():

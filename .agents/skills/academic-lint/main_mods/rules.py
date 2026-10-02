@@ -146,17 +146,24 @@ def _build_code_block_ranges(
     Uses AST ``block_code`` node ``raw`` content to locate the code block
     in the full source text.  The ranges cover only the code content (not
     the fence markers).  Falls back to an empty list when *ast* is ``None``.
+
+    The search advances a cursor, as :func:`_build_inline_code_ranges` does.
+    Searching from zero instead matched one block's ``raw`` inside another's
+    text and produced overlapping ranges, which lost the skip for a whole
+    block.
     """
     ranges: list[tuple[int, int]] = []
     if not ast:
         return ranges
+    cursor = 0
     for node in filter_ast(ast, "block_code"):
         raw = node.get("raw", "")
         if not raw:
             continue
-        idx = text.find(raw)
+        idx = text.find(raw, cursor)
         if idx != -1:
             ranges.append((idx, idx + len(raw)))
+            cursor = idx + len(raw)
     ranges.sort()
     return ranges
 
@@ -5056,6 +5063,395 @@ def html_br_mid_line(ctx: ValidationContext) -> list[ValidationMessage]:
     return errors
 
 
+# line edge whitespace ------------------------------------------------------
+
+"""Spaces and tabs stripped from either end of a line by the edge helpers.
+
+A non-breaking space is deliberately absent: it is a typed character with a
+meaning, not stray indentation.
+"""
+_EDGE_SPACE = " \t"
+
+"""Regex matching a line that opens a new block rather than continuing one.
+
+A trailing ``<br/>`` is a real line break only when the line below continues
+the same block, so these starts end a break rather than honour it.  A
+blockquote is absent on purpose: ``> Warm regards, <br/>`` followed by
+``> [redacted]`` is a break inside one quoted paragraph, and 22 lines in the
+corpus are written that way.
+"""
+_EDGE_NEW_BLOCK_RE = re.compile(
+    r"^\s*(?:#{1,6}\s|[-*+]\s|\d+[.)]\s|\||```|~~~|-{3,}\s*$|\*{3,}\s*$|_{3,}\s*$)"
+)
+
+"""Regex matching a leading marker whose indentation is structure, not a defect."""
+_EDGE_LIST_OR_QUOTE_RE = re.compile(r"^(?:[-*+]\s|\d+[.)]\s|>|\|)")
+
+
+def _edge_tag_ending_at(text: str, end: int) -> re.Match[str] | None:
+    """Return the tag match finishing exactly at *end*, or ``None``.
+
+    Only the tag that actually touches the edge counts, which is what keeps
+    ``answer<br>text`` and ``part one<br/><br/>part two`` out of the report:
+    their tags sit mid-line and the walk never reaches them.
+    """
+    for m in _CONTENT_HTML_BREAK_RE.finditer(text, 0, end):
+        if m.end() == end:
+            return m
+    return None
+
+
+def _edge_tag_starting_at(text: str, start: int) -> re.Match[str] | None:
+    """Return the tag match beginning exactly at *start*, or ``None``.
+
+    The leading-edge counterpart of :func:`_edge_tag_ending_at`.  Anchoring at
+    the edge is what keeps ``answer<br>text`` out of the report: its tag starts
+    at column 6, not at column 0.
+    """
+    return _CONTENT_HTML_BREAK_RE.match(text, start)
+
+
+def _edge_fenced_line_offsets(body: str) -> frozenset[int]:
+    """Return the offsets of *body* lines belonging to a fenced code block.
+
+    Covers the delimiter lines as well as the content, since a fence indented
+    to sit inside a list item has indented delimiters too and those are as
+    correct as the content between them.
+
+    A line scan rather than the AST, because a fence indented by four spaces is
+    not a ``block_code`` node: at that indentation CommonMark reads the
+    backticks as literal text, so the AST sees nothing and the code lines look
+    like ordinary indented text.  The delimiter may carry any indentation,
+    which is how those fences are written here.
+
+    A fence-looking line in prose opens a block and hides the rest of the file
+    from the edge rules.  That under-reports rather than mis-reports, which is
+    the right way for a linter to be wrong, and ``_is_inside_code_block`` still
+    runs as a second gate for the fences the AST does see.
+    """
+    offsets: set[int] = set()
+    offset = 0
+    fence = ""
+    for line in body.splitlines(keepends=True):
+        m = re.match(r"^\s*(`{3,}|~{3,})", line)
+        if m:
+            marker = m.group(1)
+            if not fence:
+                fence = marker[0] * 3
+            elif marker[0] == fence[0]:
+                fence = ""
+            offsets.add(offset)
+        elif fence:
+            offsets.add(offset)
+        offset += len(line)
+    return frozenset(offsets)
+
+
+def _edge_is_br(tag: str) -> bool:
+    """Return ``True`` when *tag* is a ``br`` in any spelling.
+
+    ``<br>``, ``<br/>``, ``<br />`` and any case are one tag, and it is the only
+    member of the class that can be a legal line break.
+    """
+    return re.match(r"</?br\s*/?>$", tag, re.IGNORECASE) is not None
+
+
+def _leading_edge(line: str) -> tuple[int, int, str] | None:
+    """Return ``(start, end, reason)`` for the leading edge defect of *line*, or ``None``.
+
+    A run of spaces or tabs at column 0 is leading whitespace, and so is a
+    block tag there: this repository breaks a line by ending it with one
+    ``<br/>``, so a tag at the start of a line is edge padding, ``<p>``
+    included.  The run after the tag counts as well, and the whole run is one
+    span.
+
+    Flagged::
+
+        "  answer"      two spaces at column 0
+        "  <p>answer"   whitespace, then a tag
+        "<br>answer"    a tag at column 0, which breaks nothing
+        "<br> answer"   a tag at column 0, then a space
+        "  <p> answer"  whitespace, a tag, whitespace, all one span
+
+    Not flagged::
+
+        "answer"        nothing at column 0
+        "answer<br/>text"  the tag is mid-line, not on the edge
+        "    - card"    a list marker's indent is structure, skipped by the
+                       caller rather than here
+        ""              an empty line, which is not a defect
+
+    A whitespace-only line is the whole run and is reported once, by this
+    side; the trailing helper declines the same line so it is not counted
+    twice.  ``(0, 0, ...)`` never comes back, so a clean line is ``None``.
+    """
+    pos = 0
+    while pos < len(line) and line[pos] in _EDGE_SPACE:
+        pos += 1
+    tag = _edge_tag_starting_at(line, pos)
+    if tag is not None:
+        pos = tag.end()
+        while pos < len(line) and line[pos] in _EDGE_SPACE:
+            pos += 1
+        return (
+            0,
+            pos,
+            f"line starts with the tag '{tag.group(0)}', which breaks nothing; a break belongs at the end of a line, so delete the tag",
+        )
+    if pos == 0:
+        return None
+    run = line[:pos]
+    noun = "space" if len(run) == 1 else "spaces"
+    return (
+        0,
+        pos,
+        f"line starts with {len(run)} {noun}; a line carries no whitespace at its edge, so delete {'it' if len(run) == 1 else 'them'}",
+    )
+
+
+def _trailing_edge(line: str, next_line: str | None) -> tuple[int, int, str] | None:
+    """Return ``(start, end, reason)`` for the trailing edge defect of *line*, or ``None``.
+
+    Spaces or tabs at the end of a line are trailing whitespace.  A tag at the
+    end of a line is legal only when it is a single ``<br>`` that breaks to the
+    next line, which is the one use the conventions give it.  Everything else at
+    that edge is padding and is reported: a second tag, a tag followed by
+    whitespace, a tag whose next line is missing or blank or opens a new block,
+    a ``<br>`` on the last line of the file, and any ``<p>``, ``</p>``,
+    ``</div>`` or ``</li>``, since those open a block rather than break a line.
+    The tag class is the one :func:`content_sentence_too_long` uses, so ``<p>``
+    counts as whitespace and is still reported.
+
+    Flagged::
+
+        "answer "                one space at the end
+        "answer  "               two spaces, a Markdown hard break, and still
+                                 whitespace
+        "answer<br/> "           whitespace inside the tag boundary
+        "answer <br>\\t"         a tab after the tag
+        "answer<br/><br/>"       a second tag is padding
+        "answer<p>"              a ``<p>`` opens a block, it does not break
+        "answer</li>"            the same
+        "answer<br/>" + None     a break on the last line goes nowhere
+        "answer<br/>" + "# Next" the next line starts a new block
+        "answer<br/>" + ""       the next line is blank
+
+    Not flagged::
+
+        "answer<br/>" + "more"     a single break to a continuation, legal
+        "answer<br>" + "> more"    the same inside a blockquote
+        "answer<br>text"           the tag is mid-line, which
+                                   :func:`html_br_mid_line` owns
+        "part one<br/><br/>part two"  a mid-line pair separating two visual
+                                   paragraphs, correct and out of scope
+
+    *next_line* is the line immediately after, with no line ending, or ``None``
+    at end of file.  No line is skipped looking for a continuation: a break
+    goes to the next line or it goes nowhere.
+    """
+    stripped = line.rstrip(_EDGE_SPACE)
+    if not stripped:
+        return None  # a whitespace-only line is reported once, by the leading rule
+    gap = len(line) - len(stripped)
+    tag = _edge_tag_ending_at(stripped, len(stripped))
+    if tag is None:
+        if gap == 0:
+            return None
+        noun = "space" if gap == 1 else "spaces"
+        return (
+            len(stripped),
+            len(line),
+            f"line ends in {gap} {noun}; a line carries no whitespace at its edge, so delete {'it' if gap == 1 else 'them'}",
+        )
+    text = tag.group(0)
+    if gap:
+        noun = "space" if gap == 1 else "spaces"
+        return (
+            len(stripped),
+            len(line),
+            f"line ends in '{text}' then {gap} {noun}; the tag already ends the line, so delete {'it' if gap == 1 else 'them'} and keep the break in one tag",
+        )
+    if _edge_is_br(text) and _edge_tag_ending_at(stripped, tag.start()) is None:
+        if (
+            next_line is not None
+            and next_line.strip()
+            and not _EDGE_NEW_BLOCK_RE.match(next_line)
+        ):
+            return None
+        where = (
+            "there is no line below it"
+            if next_line is None
+            else "the line below is blank"
+            if not next_line.strip()
+            else "the line below starts a new block"
+        )
+        return (
+            tag.start(),
+            tag.end(),
+            f"line ends in '{text}' but {where}; a break tag only breaks when the next line continues this one, so delete the tag or put the continuation on the line below",
+        )
+    what = (
+        "is a second break where one was meant"
+        if _edge_is_br(text)
+        else "opens a block rather than breaking a line"
+    )
+    return (
+        tag.start(),
+        tag.end(),
+        f"line ends in '{text}', which {what}; a line break here is one '<br/>' ending the line, so delete it or move it into the text",
+    )
+
+
+@RULE_REGISTRY.register()
+def line_leading_whitespace(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Flag whitespace at the start of a line, and a block tag sitting there.
+
+    A line opens with its content, never with padding, so spaces or tabs at
+    column 0 are a defect and a tag is too: this repository writes a line break
+    as one ``<br/>`` at the *end* of a line, which makes a tag at column 0
+    padding rather than a break.  Every tag in the class counts, ``<p>``
+    included, because the class defines what a line's edge is made of, not what
+    may sit on it.
+
+    Flagged::
+
+        "  answer"      two spaces at column 0
+        "  <p>answer"   whitespace, then a tag
+        "<br>answer"    a tag at column 0
+        "<br> answer"   a tag at column 0, then a space
+        "  <p> answer"  all three, as one span
+
+    Not flagged::
+
+        "answer"           nothing at column 0
+        "answer<br/>text"  the tag is mid-line
+        "    - card"       a nested card's indent is structure
+        "  > quoted"       a nested quote's indent is structure
+        "   "              a whitespace-only line, reported once and only
+                           by this rule
+        anything inside a fence, a code span, or the frontmatter
+
+    Skips, all of which a false positive would come from: the frontmatter,
+    whose ``  - alias`` is meaningful YAML; fenced code, whose Python carries
+    its own indentation; inline code spans, which are quoted verbatim; and a
+    run that turns out to be the indent of a list item or blockquote, since
+    ``qa_nested_indentation`` requires two spaces per level and 16,534 lines in
+    the corpus rely on it.
+    """
+    errors: list[ValidationMessage] = []
+    text = ctx.text
+    fm = FRONT_RE.match(text)
+    body_start = fm.end() if fm else 0
+    body = ctx.body
+    inline_code = _build_inline_code_ranges(text, ctx.ast)
+    fenced = _edge_fenced_line_offsets(body)
+    offset = 0
+    for line in body.splitlines():
+        abs_pos = body_start + offset
+        offset += len(line) + 1
+        if abs_pos in fenced or _is_inside_code_block(abs_pos, text, ctx.ast):
+            continue
+        if any(start <= abs_pos < end for start, end in inline_code):
+            continue
+        edge = _leading_edge(line)
+        if edge is None:
+            continue
+        start, end, reason = edge
+        if _CONTENT_HTML_BREAK_RE.search(
+            line, start, end
+        ) is None and _EDGE_LIST_OR_QUOTE_RE.match(line[end:]):
+            continue
+        line_no, col, col_end = locate_range(text, abs_pos + start, end - start)
+        errors.append(
+            ValidationMessage(
+                rule_id="line_leading_whitespace",
+                msg=reason
+                + ". Suppress with `<!-- check: ignore-line[line_leading_whitespace]: reason -->`",
+                line=line_no,
+                col=col,
+                col_end=col_end,
+            )
+        )
+    return errors
+
+
+@RULE_REGISTRY.register()
+def line_trailing_whitespace(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Flag whitespace at the end of a line, and a block tag that breaks nothing.
+
+    The mirror of :func:`line_leading_whitespace`.  Spaces or tabs at the end of
+    a line are a defect, and so is a tag there unless it is a single ``<br>``
+    whose next line continues the same block, which is the one break this
+    repository writes.  Every tag in the class counts as part of the edge,
+    ``<p>`` included, and only ``br`` may sit on it.
+
+    Flagged::
+
+        "answer "                 one space at the end
+        "answer  "                two spaces, a Markdown hard break, and still
+                                  whitespace
+        "answer<br/> "            whitespace inside the tag boundary
+        "answer <br>\\t"          a tab after the tag
+        "answer<br/><br/>"        a second tag is padding
+        "answer<p>"               a ``<p>`` opens a block, it does not break
+        "answer</li>"             the same
+        "answer<br/>" at EOF      a break to nothing
+        "answer<br/>" + "# Next"  the next line starts a new block
+        "answer<br/>" + ""        the next line is blank
+
+    Not flagged::
+
+        "answer<br/>" + "more"       a break to a continuation, legal
+        "answer<br>" + "> more"      the same inside a blockquote
+        "answer<br>text"             the tag is mid-line, so
+                                    :func:`html_br_mid_line` owns it
+        "part one<br/><br/>part two" a mid-line pair separating two visual
+                                    paragraphs, correct and out of scope
+        "    - card"                 a nested card's indent is leading, not
+                                    trailing, and this rule never sees it
+        anything inside a fence, a code span, or the frontmatter
+
+    Skips, all of which a false positive would come from: the frontmatter,
+    whose indentation is meaningful YAML; fenced code; and inline code spans,
+    which are quoted verbatim.  Two trailing spaces are still reported even
+    though Markdown reads them as a hard break, since the convention asks for
+    ``<br/>`` instead; an author keeping one suppresses the line.
+    """
+    errors: list[ValidationMessage] = []
+    text = ctx.text
+    fm = FRONT_RE.match(text)
+    body_start = fm.end() if fm else 0
+    body = ctx.body
+    inline_code = _build_inline_code_ranges(text, ctx.ast)
+    lines = body.splitlines()
+    fenced = _edge_fenced_line_offsets(body)
+    offset = 0
+    for index, line in enumerate(lines):
+        abs_pos = body_start + offset
+        offset += len(line) + 1
+        if abs_pos in fenced or _is_inside_code_block(abs_pos, text, ctx.ast):
+            continue
+        if any(start <= abs_pos < end for start, end in inline_code):
+            continue
+        next_line = lines[index + 1] if index + 1 < len(lines) else None
+        edge = _trailing_edge(line, next_line)
+        if edge is None:
+            continue
+        start, end, reason = edge
+        line_no, col, col_end = locate_range(text, abs_pos + start, end - start)
+        errors.append(
+            ValidationMessage(
+                rule_id="line_trailing_whitespace",
+                msg=reason
+                + ". Suppress with `<!-- check: ignore-line[line_trailing_whitespace]: reason -->`",
+                line=line_no,
+                col=col,
+                col_end=col_end,
+            )
+        )
+    return errors
+
+
 # content sentence length ----------------------------------------------------
 
 """Word ceiling above which one sentence of authored content is reported.
@@ -5103,9 +5499,10 @@ _CONTENT_INLINE_MATH_RE = re.compile(r"\$[^$\n]*\$")
 
 ``<br/>``, ``<br>``, ``<p>``, ``</p>``, ``</div>`` and ``</li>`` each end one.
 This repository formats a multi-statement answer with them, so a 155-word
-"sentence" is often five short statements.
+"sentence" is often five short statements.  The case is folded in so the
+line-edge rules and :func:`content_sentence_too_long` agree on what a tag is.
 """
-_CONTENT_HTML_BREAK_RE = re.compile(r"</?(?:br|p|div|li)\s*/?>")
+_CONTENT_HTML_BREAK_RE = re.compile(r"</?(?:br|p|div|li)\s*/?>", re.IGNORECASE)
 
 """Regex matching a table cell delimiter, blanked before words are counted."""
 _CONTENT_PIPE_RE = re.compile(r"\|")
