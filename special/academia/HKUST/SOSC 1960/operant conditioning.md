@@ -38,7 +38,7 @@ A positive reinforcer and a negative reinforcer differ only in whether a stimulu
 
 None of the four words says whether a consequence was good or bad. The same object can be a positive reinforcer and a positive punisher at different times.
 
-<p> ![a tree of operant conditioning. Reinforcement increases behaviour, punishment decreases it, and each branch divides into positive and negative, marked by adding or removing a stimulus, with a worked example under each of the four. The negative reinforcement branch splits again into escape and active avoidance](attachments/Operant%20conditioning%20diagram%20rev.svg)
+![a tree of operant conditioning. Reinforcement increases behaviour, punishment decreases it, and each branch divides into positive and negative, marked by adding or removing a stimulus, with a worked example under each of the four. The negative reinforcement branch splits again into escape and active avoidance](attachments/Operant%20conditioning%20diagram%20rev.svg)
 
 ---
 
@@ -102,7 +102,7 @@ Classical conditioning depends on involuntary behaviour. Operant conditioning is
 
 The stimulus sets the occasion for the response. The response acts on the outcome. The stimulus also reaches the response directly, by __stimulus control__. In the figure the direct route is solid and occasion setting dashed. Both terms are set out in [stimulus control](stimulus%20control.md) and [classical conditioning](classical%20conditioning.md).
 
-<p> ![a stimulus, a response and an outcome joined by four arrows: the stimulus sets the occasion for the response and reaches it directly by stimulus control, which a habit does without, the response acts on the outcome as instrumental conditioning, and the stimulus acts on the outcome as classical conditioning](attachments/conditioning_relations.svg)
+![a stimulus, a response and an outcome joined by four arrows: the stimulus sets the occasion for the response and reaches it directly by stimulus control, which a habit does without, the response acts on the outcome as instrumental conditioning, and the stimulus acts on the outcome as classical conditioning](attachments/conditioning_relations.svg)
 
 A habit is the one behaviour that runs without a cue. It carries on when [a reinforcer's worth changes](reward%20devaluation.md).
 

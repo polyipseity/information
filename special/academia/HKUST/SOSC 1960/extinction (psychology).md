@@ -35,7 +35,7 @@ Only the response to the cue is suppressed, not the response to the unconditione
 
 The loss is gradual, tracing the same acquisition curve in reverse.
 
-<p> ![extinction of a conditioned response: three rows take a bell conditioned to salivation from salivating to nothing as the meat is withheld](attachments/classical_conditioning_extinction.svg)
+![extinction of a conditioned response: three rows take a bell conditioned to salivation from salivating to nothing as the meat is withheld](attachments/classical_conditioning_extinction.svg)
 
 ---
 

@@ -16,7 +16,7 @@ A signal that says whether food is coming is a __discriminative stimulus__, $S^D
 
 The [operant conditioning chamber](operant%20conditioning.md) puts the stimuli, the response, and the two outcomes in one box. The outcomes are food and shock, and the experimenter decides where each one goes before watching which consequence follows which behaviour. Its lights and loudspeaker are two of the signals.
 
-<p> ![an operant conditioning chamber drawn as a tan box with a white rat inside. Callouts name the loudspeakers and lights high on the left wall, the response lever and the food dispenser below them, and the electrified grid forming the floor. A small feeder holding food pellets is drawn outside the box at the left](attachments/Skinner%20box%20scheme%2001.svg)
+![an operant conditioning chamber drawn as a tan box with a white rat inside. Callouts name the loudspeakers and lights high on the left wall, the response lever and the food dispenser below them, and the electrified grid forming the floor. A small feeder holding food pellets is drawn outside the box at the left](attachments/Skinner%20box%20scheme%2001.svg)
 
 ---
 

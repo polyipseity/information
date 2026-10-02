@@ -30,7 +30,7 @@ Copying a classmate's notes runs through all four. Attention holds while the cla
 
 The four stages run in order, each one a step closer to repeating what the model did.
 
-<p> ![Four stages in order: attention, the learner watches the model; retention, the behaviour is kept in memory; initiation, the learner performs it; motivation, the learner repeats it.](attachments/observational_learning_stages.svg)
+![Four stages in order: attention, the learner watches the model; retention, the behaviour is kept in memory; initiation, the learner performs it; motivation, the learner repeats it.](attachments/observational_learning_stages.svg)
 
 ---
 

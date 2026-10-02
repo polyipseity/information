@@ -15,7 +15,7 @@ A stroke leaves a permanent lesion. TMS leaves a transient one, so the same pers
 
 The field weakens with distance from the coil, so a claim about a stimulated area covers that patch of cortex, not the whole hemisphere. The field reaches only the cortical surface. The pulse leaves the connections themselves intact, so it interrupts a region temporarily rather than cutting into the pathway.
 
-<p> ![a figure-eight coil held over a rendered brain, with red dashed lines tracing the magnetic field from the coil down into the cortex and a green dashed line marking the current induced along the surface it reaches](attachments/Transcranial%20magnetic%20stimulation.jpg)
+![a figure-eight coil held over a rendered brain, with red dashed lines tracing the magnetic field from the coil down into the cortex and a green dashed line marking the current induced along the surface it reaches](attachments/Transcranial%20magnetic%20stimulation.jpg)
 
 ---
 

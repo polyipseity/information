@@ -59,7 +59,7 @@ Flashcards for this section are as follows:
 
 A bell in a laboratory produces nothing. Meat produces salivation, as it has since before the dog was born. Present the bell, then the meat, over and over. The bell ends up where the meat was: alone it brings on salivation. The bell is a conditioned stimulus doing the meat's work. The neutral stimulus has to come first and the unconditioned stimulus second.
 
-<p> ![a chart of the seven standard conditioning procedures (forward, simultaneous, second order, temporal, extinction, blocking and inhibition), each drawn as a pair of dog panels showing a stimulus beside a piece of food and then that stimulus on its own](attachments/Classical%20Conditioning.svg)
+![a chart of the seven standard conditioning procedures (forward, simultaneous, second order, temporal, extinction, blocking and inhibition), each drawn as a pair of dog panels showing a stimulus beside a piece of food and then that stimulus on its own](attachments/Classical%20Conditioning.svg)
 
 Other forms of conditioning sit beside this one, with the plain pairing in the first row.
 

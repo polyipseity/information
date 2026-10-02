@@ -25,7 +25,7 @@ Flashcards for this section are as follows:
 
 A blocking experiment runs in three phases. In the first, a cue is paired with the outcome until the organism responds to it alone, making it a genuine predictor. In the second, that cue still pairs with the outcome. A second, previously neutral cue is presented on its own, just before that pairing. In the third, the test, the second cue is presented alone.
 
-<p> ![the three phases of a blocking experiment: a tone paired with food, a light before that pairing, and a test with both alone](attachments/classical_conditioning_blocking.svg)</p>
+![the three phases of a blocking experiment: a tone paired with food, a light before that pairing, and a test with both alone](attachments/classical_conditioning_blocking.svg)
 
 The second cue is easy to miss in the second phase, because it is familiar. In the test it draws no response, though it has turned up every time. The food never follows it alone, because the first cue already predicted the outcome. No association formed. The first cue still responds in the same phase, so this is not a failure to remember.
 
