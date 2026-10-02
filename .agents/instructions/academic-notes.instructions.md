@@ -33,6 +33,7 @@ For all academic material ingestion, start with the `academic-ingest` dispatcher
 
 ## Cross-cutting rules
 
+- A line opens and closes with its content. `line_leading_whitespace` and `line_trailing_whitespace` report either, and a block tag counts as part of the edge, so a space just inside `<br/>` is the same defect as one just inside the line. An edge tag is legal only as one `<br/>` breaking to a line that continues the same block; `<p>` on an edge is padding.
 - Use underscore-normalized flashcard tags: `flashcard/active/special/academia/HKUST/COMP_3031`.
   Spaces → underscores; keep consistent with institution/course code formatting.
 - Do not put instructor or TA names or email addresses in course notes. Content quoted verbatim is the one case that keeps a visible mark: an instructor or TA name inside it is redacted as `\[redacted\]`, while anywhere else the name is omitted (see `../skills/academic-crud-course-index/SKILL.md`).
