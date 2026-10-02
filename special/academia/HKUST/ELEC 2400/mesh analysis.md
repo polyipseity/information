@@ -21,7 +21,7 @@ Its unknowns are currents, so a branch shared by two meshes carries the differen
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Mesh analysis takes one circulating current per mesh as the unknown and writes one voltage law equation per mesh, giving $b - n + 1$ equations for a planar circuit of $b$ branches and $n$ nodes. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- mesh analysis: what is taken as the unknown, and what law is written for each mesh? ::@:: Mesh analysis takes one circulating current per mesh as the unknown and writes one voltage law equation per mesh, giving $b - n + 1$ equations for a planar circuit of $b$ branches and $n$ nodes. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
 ## planar circuits
 
@@ -33,7 +33,7 @@ Meshes and loops are treated the same way, so a chosen loop need not be a mesh w
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Mesh analysis applies to planar circuits, those that can be drawn on a plane with no crossing branches, and rests on $b - (n - 1)$ independent voltage law equations. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- planar circuits: what does mesh analysis require of a circuit's layout, and may a chosen loop be something other than a mesh? ::@:: Mesh analysis applies to planar circuits, those that can be drawn on a plane with no crossing branches, and rests on $b - (n - 1)$ independent voltage law equations. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - planarity: what geometric property must a circuit have for mesh analysis to apply? ::@:: It must be drawable on a plane without any branch crossing another, making it a planar graph.
 - independent equations: a planar circuit has $b$ branches and $n$ nodes; how many independent voltage law equations exist? ::@:: $b - (n - 1)$, one fewer than the number of branches less the independent nodes.
 - loops against meshes: in applying the method, must every chosen loop be a mesh? ::@:: No: loops and meshes are treated the same way, and a loop other than a mesh may be chosen when that is more convenient.
@@ -48,7 +48,7 @@ The equations are the voltage law round each mesh in turn, and the $b - n + 1$ o
 
 Flashcards for this section are as follows:
 
-- overview ::@:: The procedure assigns a circulating current to every mesh, expresses each resistor's voltage drop from the mesh currents through it, writes the voltage law round each mesh, and solves the resulting system.
+- procedure: what steps does mesh analysis follow between assigning a circulating current to each mesh and solving for them? ::@:: The procedure assigns a circulating current to every mesh, expresses each resistor's voltage drop from the mesh currents through it, writes the voltage law round each mesh, and solves the resulting system.
 - element in one mesh: a resistor $R_i$ lies in a single mesh whose current is $I_j$; what is the voltage drop across it? ::@:: $I_j R_i$.
 - element in two meshes: a resistor $R_i$ lies in two meshes whose currents are $I_j$ and $I_k$; what is the voltage drop across it? ::@:: $(I_j \pm I_k) R_i$, with the sign fixed by the directions of the two currents.
 - two-mesh result: the two meshes of the worked circuit give $12\text{ k} I_1 - 6\text{ k} I_2 = 12$ and $6\text{ k} I_1 - 9\text{ k} I_2 = 3$; find $I_1$ and $I_2$. ::@:: Eliminating $I_1$ gives $I_2 = 0.5\text{ mA}$ and back-substitution gives $I_1 = 1.25\text{ mA}$.
@@ -63,7 +63,7 @@ A mesh current is not in general a branch current: it equals the branch current 
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A branch shared by two meshes carries the difference of the mesh currents, $I_o = I_1 - I_2$, and its voltage drop is $(I_j \pm I_k)R_i$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- shared elements: how does the current in a branch shared by two meshes relate to the mesh currents, and how is the voltage drop across its element written? ::@:: A branch shared by two meshes carries the difference of the mesh currents, $I_o = I_1 - I_2$, and its voltage drop is $(I_j \pm I_k)R_i$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - shared branch current: two mesh currents $I_1$ and $I_2$ pass through the same resistor in the same sense; what current does the branch carry? ::@:: $I_o = I_1 - I_2$.
 - mesh against branch current: is a mesh current always the current in some branch? ::@:: No: it equals the branch current only where the branch lies in that mesh alone.
 - worked shared branch: the worked two-mesh circuit has $I_1 = 1.25\text{ mA}$ and $I_2 = 0.5\text{ mA}$ through a shared $6\text{ k}\Omega$ resistor; what is $I_o$? ::@:: $I_o = I_1 - I_2 = 0.75\text{ mA}$.
@@ -80,7 +80,7 @@ Where the two meshes also share resistors, the combined loop closes once the cur
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A current source shared by two meshes is handled by a supermesh spanning both: the voltage law is taken round the combined outline and the source relates the two mesh currents.
+- supermesh: what spans the two meshes, and where is the voltage law then taken? ::@:: A current source shared by two meshes is handled by a supermesh spanning both: the voltage law is taken round the combined outline and the source relates the two mesh currents.
 - why a supermesh: why does a shared current source block the mesh method? ::@:: The voltage across the source is not known from the mesh currents, so the voltage law cannot be written round either mesh alone.
 - supermesh relation: what does a shared $3\text{ A}$ current source contribute between $I$ and $I_2$ once a supermesh is defined? ::@:: The relation between the two mesh currents, for example $I - I_2 = 3\text{ A}$ for a $3\text{ A}$ source.
 - boundary source: what difficulty arises when a current source lies on the outer boundary of a mesh? ::@:: That mesh cannot be treated by a superloop, since the source has no second mesh to pair with, so the method becomes awkward and nodal analysis is preferred.
@@ -96,6 +96,6 @@ A circuit holding current sources is awkward for mesh analysis besides, which is
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Nodal analysis needs $n - 1$ equations and mesh analysis $b - n + 1$, so mesh analysis never needs fewer equations than nodal analysis. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- against nodal analysis: what does each method need in the way of equations, and which needs more? ::@:: Nodal analysis needs $n - 1$ equations and mesh analysis $b - n + 1$, so mesh analysis never needs fewer equations than nodal analysis. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - equation counts: a circuit has $n = 4$ nodes and $b = 6$ branches; how many equations does each method need? ::@:: Nodal analysis needs $n - 1 = 3$ and mesh analysis needs $b - n + 1 = 3$; mesh analysis never needs fewer and here needs the same.
 - which to prefer: for a circuit of $n$ nodes and $b$ branches, which method generally needs fewer equations? ::@:: Nodal analysis, since $n - 1 \le b - n + 1$.

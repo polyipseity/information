@@ -24,7 +24,7 @@ Each rests on a conservation principle: the current law on charge, the voltage l
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Kirchhoff's circuit laws are the two instantaneous equalities of the lumped-element model: the current law constrains the currents at a node and the voltage law constrains the voltages round a loop.
+- the two laws: what does Kirchhoff's current law constrain, and what does the voltage law constrain? ::@:: Kirchhoff's circuit laws are the two instantaneous equalities of the lumped-element model: the current law constrains the currents at a node and the voltage law constrains the voltages round a loop.
 - namesake ::@:: Gustav Robert Kirchhoff, who lived from 1824 to 1887.
 
 <!-- check: ignore-next-line[header_style]: Kirchhoff is a proper noun -->
@@ -46,7 +46,7 @@ Which direction counts as positive is a free choice. With $i_1$ and $i_2$ drawn 
 
 Flashcards for this section are as follows:
 
-- overview ::@:: At any instant the algebraic sum of the currents entering a node is zero, equivalently current in equals current out.
+- current law at a node: what constraint does it put on the currents meeting at a node? ::@:: At any instant the algebraic sum of the currents entering a node is zero, equivalently current in equals current out.
 - signed sum at a node: a node receives $I_1$, $I_3$, and $I_5$ and sends out $I_2$ and $I_4$; what equation does the current law give, in both forms? ::@:: $I_1 + I_3 + I_5 = I_2 + I_4$, or $I_1 - I_2 + I_3 - I_4 + I_5 = 0$ with $I_2$ and $I_4$ counted negative.
 - conservation basis: which conservation principle does $\sum i = 0$ follow from, and through what intermediate statement? ::@:: Conservation of charge: the net charge at a node does not accumulate, so $\sum q_i = 0$ implies $\sum i = 0$.
 - element assumption: what must be assumed about $\frac{dq_i}{dt}$ inside each circuit element for the current on both sides of it to be equal? ::@:: That the net charge inside each element does not change, $\frac{dq_i}{dt} = 0$.
@@ -75,7 +75,7 @@ The sign of a term is fixed by the element's marked polarity read against the di
 
 Flashcards for this section are as follows:
 
-- overview ::@:: At any instant the algebraic sum of the branch voltages around a loop is zero, counting a rise as positive and a drop as negative.
+- voltage law around a loop: what does it require of the branch voltages taken round a loop? ::@:: At any instant the algebraic sum of the branch voltages around a loop is zero, counting a rise as positive and a drop as negative.
 - sign convention: a loop is tracked through a resistor and then through a source; which sign does a voltage rise take and which a drop? ::@:: A rise is positive and a drop is negative.
 - field assumption: under what condition on the electric field does the voltage law hold? ::@:: Only when the field is conservative, which requires that no varying magnetic field links the circuit outside its elements.
 - induction: Faraday's law gives the voltage round a loop as a closed line integral of $E$; what makes it zero? ::@:: The magnetic flux term $-\iint \frac{\partial B}{\partial t} \cdot dS$ vanishes when no varying magnetic field passes through the circuit.
@@ -101,7 +101,7 @@ Reversing the marks on every element of a loop negates every term of its equatio
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Reversing the marks on every element of a loop negates each term of its equation and leaves the solution unchanged, so both readings state the same constraint.
+- reversing every mark: what does it do to a loop's equation, and what does it do to the solution? ::@:: Reversing the marks on every element of a loop negates each term of its equation and leaves the solution unchanged, so both readings state the same constraint.
 - the first reading: a $24\text{ V}$ source, a $6\ \Omega$, and a $2\ \Omega$ in one loop carry $I_1$ through the $6\ \Omega$ and down through the $2\ \Omega$; what does the loop equation give? ::@:: $V_1 + V_2 + V_3 = 0$, that is $+(24 - 0) + (-I_1)(6) + (-I_1)(2) = 0$, so $24 = 8I_1$ and $I_1 = 3\text{ A}$.
 - the reversed reading: a $24\text{ V}$ source, a $6\ \Omega$ resistor, and a $2\ \Omega$ resistor form one loop carrying $I_1$ down through both resistors, and the marks on the source and on the $6\ \Omega$ are reversed; what does the equation give? ::@:: $(-V_1) + (-V_2) + V_3 = 0$, that is $+[-(0 - 24)] + [-(I_1)(6)] + (-I_1)(2) = 0$, giving the same $I_1 = 3\text{ A}$.
 
@@ -117,7 +117,7 @@ With a ground node the voltage law restates as: the voltage at a node, referred 
 
 Flashcards for this section are as follows:
 
-- overview ::@:: One circuit node is designated ground and assigned $0\text{ V}$; <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> every other node voltage is the sum of the branch voltages along any path from ground to it, and that sum does not depend on the path.
+- ground reference: how is one node designated, and how does the voltage law then give the voltage at any other node? ::@:: One circuit node is designated ground and assigned $0\text{ V}$; <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> every other node voltage is the sum of the branch voltages along any path from ground to it, and that sum does not depend on the path.
 - energy basis: how does the voltage law follow from conservation of energy and $V = E/q$? ::@:: Voltage is energy per unit charge, $V = E/q$, so a gain in energy along a branch is a voltage rise and a loss is a drop, and the rises and drops round a closed loop cancel.
 - path independence: a node is reached from ground by two different paths; do the two branch-voltage sums agree? ::@:: Yes: the node voltage referred to ground is the same along every path, since both sums are that node voltage.
 - path sum: a node is reached from ground through branches bearing $+3\text{ V}$, $+2\text{ V}$, and $-4\text{ V}$, and by another route through $+5\text{ V}$, $-10\text{ V}$, and $+6\text{ V}$; what is the node voltage? ::@:: $+3\text{ V} + 2\text{ V} - 4\text{ V} = 1\text{ V}$, and the other route gives $+5\text{ V} - 10\text{ V} + 6\text{ V} = 1\text{ V}$ as well.
@@ -135,7 +135,7 @@ With supplies connected as well, the total current entering through the supplies
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A circuit with one external ground connection carries no current there; with several grounds the currents need not each vanish but sum to zero, and with supplies connected the total supply current equals the total ground current.
+- external ground connections: what current does a circuit carry through them, and what follows when there are several grounds and supplies as well? ::@:: A circuit with one external ground connection carries no current there; with several grounds the currents need not each vanish but sum to zero, and with supplies connected the total supply current equals the total ground current.
 - single ground: a circuit has one ground connection and no other external connection; what is the ground current $I_{GND}$? ::@:: $I_{GND} = 0$: the ground is a dead end with no return path.
 - several grounds: a circuit has three ground connections but no supply connection; what constrains $I_{GND1}$, $I_{GND2}$, and $I_{GND3}$? ::@:: Their total is zero, $I_{GND1} + I_{GND2} + I_{GND3} = 0$; they need not each be zero.
 - supplies and grounds together: a circuit is fed by two supplies $I_{S1}$ and $I_{S2}$ and grounded at three points $I_{GND1}$ to $I_{GND3}$; how do the five currents relate? ::@:: The total supply current equals the total ground current, $I_{S1} + I_{S2} = I_{GND1} + I_{GND2} + I_{GND3}$.

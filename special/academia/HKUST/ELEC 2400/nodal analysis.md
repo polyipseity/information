@@ -21,7 +21,7 @@ For a circuit of $N$ nodes the unknowns are the $N - 1$ node voltages other than
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Nodal analysis takes the node voltages as unknowns and writes a current law equation at each node, producing $N - 1$ simultaneous equations for a circuit of $N$ nodes. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- the method: what are the unknowns, and what is written at each node? ::@:: Nodal analysis takes the node voltages as unknowns and writes a current law equation at each node, producing $N - 1$ simultaneous equations for a circuit of $N$ nodes. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
 ## procedure
 
@@ -37,7 +37,7 @@ A two-node circuit with a $2\text{ A}$ source entering node $V_a$, a $1\text{ A}
 
 Flashcards for this section are as follows:
 
-- overview ::@:: The procedure is to ground one node, assign unknown voltages to the rest, write a current law equation per node, check that equations and unknowns agree, solve, then compute branch currents if needed.
+- procedure: what are the steps, in order, from choosing the reference node to reading branch currents? ::@:: The procedure is to ground one node, assign unknown voltages to the rest, write a current law equation per node, check that equations and unknowns agree, solve, then compute branch currents if needed.
 - unknown count: how many unknown node voltages does a circuit of $N$ nodes have? ::@:: $N - 1$: one node is grounded at $0\text{ V}$ and every other node takes an unknown.
 - order of work: at which point in the procedure are branch currents computed? ::@:: Last, and only if wanted: the current law is written in node voltages, and currents follow from them once the voltages are known.
 - consistency check: why check the number of equations against the number of unknowns before solving? ::@:: A mismatch means a node or a source was skipped, and the linear system would be under- or over-determined.
@@ -55,7 +55,7 @@ The choice does not change the circuit's behaviour; it renumbers the other nodes
 
 Flashcards for this section are as follows:
 
-- overview ::@:: One node is chosen as ground, set to $0\text{ V}$, and commonly taken as the node of lowest voltage so that the other node voltages come out positive. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- the reference node: what value is it set to, and which node is usually chosen for it? ::@:: One node is chosen as ground, set to $0\text{ V}$, and commonly taken as the node of lowest voltage so that the other node voltages come out positive. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - freedom of choice: does moving the ground node change the circuit? ::@:: No: it renumbers the node voltages, since each is measured from the new reference, leaving every voltage difference unchanged.
 
 ## voltage sources in the nodal method
@@ -70,7 +70,7 @@ A source tied to ground solves in one equation. A $2\text{ A}$ source injecting 
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A voltage source tied to ground fixes a node voltage and removes an unknown; a floating voltage source is handled either by labelling its current a new unknown or by forming a supernode.
+- grounded against floating voltage source: what does each do to the unknowns and the equations? ::@:: A voltage source tied to ground fixes a node voltage and removes an unknown; a floating voltage source is handled either by labelling its current a new unknown or by forming a supernode.
 - why the extra unknown: why can the current through a floating voltage source not be written from the node voltages? ::@:: The current depends on the source's internal behaviour rather than on the node voltages across the surrounding resistors, so it is introduced as a separate unknown.
 - grounded source: a voltage source sits between ground and one other node; what does that do to the unknowns and the equations? ::@:: The node takes the source's voltage as a known quantity, so the unknowns fall by one and one equation is dropped.
 - one-node solve: a $2\text{ A}$ source injects at node $V_a$, which carries a $4\ \Omega$ resistor to ground and a $4\ \Omega$ resistor to a $4\text{ V}$ source; write the current-law equation and solve. ::@:: $2 = \frac{V_a}{4} + \frac{V_a - 4}{4}$, so $2V_a - 4 = 8$, $V_a = 6\text{ V}$, and the branch current is $I_1 = 1.5\text{ A}$.
@@ -85,7 +85,7 @@ In a circuit of a $6\text{ V}$ source, a $2\text{ k}\Omega$ resistor, a $12\text
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A supernode is the region enclosing a voltage source's two terminals, treated as one node for the current law while the source itself supplies the relation between the two node voltages.
+- supernode: what is it, and how is the current law applied to it? ::@:: A supernode is the region enclosing a voltage source's two terminals, treated as one node for the current law while the source itself supplies the relation between the two node voltages.
 - why a supernode: what problem does grouping a voltage source's terminals solve? ::@:: The current through the floating source is unknown, so the current law is applied to the enclosing region instead, where every remaining current is a resistor current expressible in node voltages.
 - supernode equation: what equation does the voltage source still contribute once its terminals form a supernode? ::@:: The difference between the two node voltages, fixed by the source's value.
 - worked supernode: a $6\text{ V}$ source reaches node $V_a$ through $2\text{ k}\Omega$, a $12\text{ V}$ source joins $V_a$ to node $V_b$ and carries $I_o$, a $1\text{ k}\Omega$ resistor joins $V_a$ to ground, a $2\text{ k}\Omega$ resistor joins $V_b$ to ground, and a $-4\text{ V}$ source with its $+$ mark at $V_b$ joins $V_b$ to a further $2\text{ k}\Omega$ resistor running to ground; what is $V_a$ and what is $I_o$? ::@:: $\frac{6 - V_a}{2\text{ k}} = \frac{V_a}{1\text{ k}} + \frac{V_a + 12}{2\text{ k}} + \frac{V_a + 12 - (-4)}{2\text{ k}}$ gives $V_a = -\frac{22}{5}\text{ V}$ and $I_o = \frac{V_a + 12}{2\text{ k}\Omega} = 3.8\text{ mA}$.
@@ -100,7 +100,7 @@ In the circuit of a $10\text{ V}$ source feeding a $2\ \Omega$ resistor that car
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A dependent source enters the node equations as an extra unknown that must be rewritten in node voltages, after which the system solves as before.
+- dependent source: what does it add to the node equations? ::@:: A dependent source enters the node equations as an extra unknown that must be rewritten in node voltages, after which the system solves as before.
 - controlling quantity first: why must the controlling quantity of a dependent source be written in node voltages before solving? ::@:: The controlling quantity is itself a function of the node voltages, so the equations hold more unknowns than they can determine until it is expressed that way.
 - dependent source in a node equation: a $10\text{ V}$ source feeds a $2\ \Omega$ resistor carrying $I_1$ into node $V_a$, a $3\text{ A}$ source also enters $V_a$, and a $1\ \Omega$ resistor joins $V_a$ to a node that a dependent voltage source holds at $2I_1$ above ground; write the current law and solve. ::@:: $I_1 + 3 = \frac{V_a - 2I_1}{1}$ with $I_1 = \frac{10 - V_a}{2}$ gives $10 - V_a + 6 = 4V_a - 20$, so $V_a = 7.2\text{ V}$ and $I_1 = 1.4\text{ A}$.
 
@@ -114,7 +114,7 @@ Either way the count must match the number of unknowns before the system is solv
 
 Flashcards for this section are as follows:
 
-- overview ::@:: The current-variable route yields $N - 1 + K$ equations for $N$ nodes and $K$ voltage sources, while the supernode route yields $N - 1 - K$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- equation count: what do the current-variable route and the supernode route each give, for a given number of nodes and voltage sources? ::@:: The current-variable route yields $N - 1 + K$ equations for $N$ nodes and $K$ voltage sources, while the supernode route yields $N - 1 - K$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - equation count with current variables: a circuit has $N = 5$ nodes and $K = 2$ voltage sources; how many equations does the current-variable route give? ::@:: $N - 1 + K = 5 - 1 + 2 = 6$ equations, one unknown current added per source.
 - equation count with supernodes: a circuit of $N = 5$ nodes holds $K = 2$ voltage sources; how many equations does the supernode route give? ::@:: $N - 1 - K = 5 - 1 - 2 = 2$: each source merges two nodes and removes an equation, adding no unknown.
 - choosing between the routes: which route is shorter when a circuit holds many voltage sources? ::@:: The supernode route, which drops one equation per source instead of adding an unknown and an equation.
@@ -129,7 +129,7 @@ Simulation lets an engineer study a circuit without building it. A commercial de
 
 Flashcards for this section are as follows:
 
-- overview ::@:: SPICE, the Simulation Program with Integrated Circuit Emphasis, simulates circuits by nodal analysis, computing node voltages, branch currents, and power without the circuit being built.
+- SPICE: which quantities does a simulation compute, and what does that let an engineer avoid? ::@:: SPICE, the Simulation Program with Integrated Circuit Emphasis, simulates circuits by nodal analysis, computing node voltages, branch currents, and power without the circuit being built.
 - acronym: what does SPICE stand for? ::@:: Simulation Program with Integrated Circuit Emphasis.
 - origin: where, when, and by whom was SPICE developed? ::@:: In 1973 at the University of California, Berkeley by Laurence Nagel with his research advisor Donald Pederson.
 - method inside SPICE: which analysis technique do SPICE simulations use? ::@:: Nodal analysis.

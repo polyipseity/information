@@ -21,7 +21,7 @@ It is a statement about the terminals: the voltage and current seen from outside
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Source transformation converts a voltage source $V$ in series with $R$ into a current source $\frac{V}{R}$ in parallel with $R$, and back, preserving the terminal voltage and current. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- source transformation: what trade does it make between the series form and the parallel form, and what stays the same at the terminals? ::@:: Source transformation converts a voltage source $V$ in series with $R$ into a current source $\frac{V}{R}$ in parallel with $R$, and back, preserving the terminal voltage and current. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
 ## the two forms
 
@@ -33,7 +33,7 @@ Only the arrangement changes, series one way and parallel the other; the resista
 
 Flashcards for this section are as follows:
 
-- overview ::@:: The two equivalent forms are interchangeable: series becomes parallel with $I_{sc} = \frac{V_{oc}}{R_{\text{eq}}}$, and parallel becomes series with $V_{oc} = I_{sc}R_{\text{eq}}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- the two forms: how are the series and the parallel equivalents of a linear network related? ::@:: The two equivalent forms are interchangeable: series becomes parallel with $I_{sc} = \frac{V_{oc}}{R_{\text{eq}}}$, and parallel becomes series with $V_{oc} = I_{sc}R_{\text{eq}}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - from series to parallel: how is the parallel form obtained from $V_{oc}$ in series with $R_{\text{eq}}$? ::@:: Short the terminals: the current that flows is $I_{sc} = \frac{V_{oc}}{R_{\text{eq}}}$, giving that current source in parallel with $R_{\text{eq}}$.
 - from parallel to series: how is the series form obtained from $I_{sc}$ in parallel with $R_{\text{eq}}$? ::@:: Open the terminals: the whole $I_{sc}$ passes through $R_{\text{eq}}$, giving $V_{oc} = I_{sc}R_{\text{eq}}$ in series with $R_{\text{eq}}$.
 - what is preserved: which quantity survives a source transformation? ::@:: The equivalent resistance, and with it the terminal voltage and current; only the arrangement of source and resistor changes.
@@ -48,7 +48,7 @@ A $9\text{ A}$ source in parallel with a $3\ \Omega$ resistor, with a $6\ \Omega
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A source transformation is valid only for voltages and currents external to the equivalent circuits; quantities inside the transformed part are not preserved.
+- external quantities only: which quantities survive a source transformation, and which are lost? ::@:: A source transformation is valid only for voltages and currents external to the equivalent circuits; quantities inside the transformed part are not preserved.
 - scope of validity: which voltages and currents does a source transformation preserve? ::@:: Those external to the equivalent circuits; internal branch quantities are not preserved.
 - worked conversion: a $9\text{ A}$ source in parallel with $3\ \Omega$ is transformed; what is the resulting series form? ::@:: A $27\text{ V}$ source in series with $3\ \Omega$, since $V_{oc} = 9\text{ A} \times 3\ \Omega = 27\text{ V}$.
 - lost quantity: after that conversion the external $I_o = 3\text{ A}$ is unchanged while the $3\ \Omega$ resistor no longer carries $6\text{ A}$; why? ::@:: The transformation rearranges the elements whose internal current was asked for, so only external quantities survive it.
@@ -65,7 +65,7 @@ A longer chain follows the same pattern, and the polarity of each reduced source
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Repeated transformation converts source-resistor pairs into whichever form lets the surrounding network be reduced by series and parallel rules, avoiding simultaneous equations.
+- reducing a circuit by transformation: what does each successive conversion make possible for the surrounding network? ::@:: Repeated transformation converts source-resistor pairs into whichever form lets the surrounding network be reduced by series and parallel rules, avoiding simultaneous equations.
 - why transform: what does transforming sources in turn replace? ::@:: The need to solve simultaneous equations: each conversion leaves the neighbouring network reducible by series and parallel rules.
 - worked conversion and reduction: two branches meet at node $V_a$ above ground, one a $2\text{ A}$ source in parallel with a $4\ \Omega$ resistor and the other a $4\text{ V}$ source in series with a $4\ \Omega$ resistor; what does converting the voltage source give, and what is $V_a$? ::@:: The $4\text{ V}$ source and its resistor become a $1\text{ A}$ source across $4\ \Omega$, so the currents add and the resistors combine: $V_a = 3\text{ A} \times (4\ \Omega \| 4\ \Omega) = 6\text{ V}$.
 - same answer by loop: two branches meet at node $V_a$ above ground, one a $2\text{ A}$ source in parallel with a $4\ \Omega$ resistor and the other a $4\text{ V}$ source in series with a $4\ \Omega$ resistor; converting the first branch instead, what current runs and what is $V_a$? ::@:: $I = \frac{8\text{ V} - 4\text{ V}}{4\ \Omega + 4\ \Omega} = 0.5\text{ A}$ and $V_a = 8\text{ V} - 0.5\text{ A} \times 4\ \Omega = 6\text{ V}$.

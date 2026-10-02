@@ -22,7 +22,7 @@ Both rules follow from Kirchhoff's laws, the current law fixing how currents com
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Resistors joined in series share a current and add to give $R_{\text{eq}} = \sum_{k=1}^{n} R_k$; resistors joined in parallel share a voltage and add reciprocally to give $\frac{1}{R_{\text{eq}}} = \sum_{k=1}^{n} \frac{1}{R_k}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- combination rules: how do series resistors combine into one, and how do parallel resistors? ::@:: Resistors joined in series share a current and add to give $R_{\text{eq}} = \sum_{k=1}^{n} R_k$; resistors joined in parallel share a voltage and add reciprocally to give $\frac{1}{R_{\text{eq}}} = \sum_{k=1}^{n} \frac{1}{R_k}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - resistive network: which elements does a resistive network consist of? ::@:: Only resistors, together with voltage sources and current sources.
 - shared quantity: which quantity do resistors in series share, and which do resistors in parallel share? ::@:: Resistors in series share one current; resistors in parallel share one voltage.
 
@@ -38,7 +38,7 @@ The order of the chain is immaterial: only the sum and the shared current enter 
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Resistors in series form a daisy chain, share the same current, and add up to $R_{\text{eq}} = \sum_{k=1}^{n} R_k$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- series connection: what makes two resistors a series pair, and what single resistor replaces them? ::@:: Resistors in series form a daisy chain, share the same current, and add up to $R_{\text{eq}} = \sum_{k=1}^{n} R_k$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - derivation: two series resistors $R_1$ and $R_2$ carry a current $I$ under a source $V_s$; which law fixes their currents and which gives $R_{\text{eq}}$? ::@:: The current law forces $I_{R1} = I_{R2} = I$, and the voltage law with Ohm's law gives $V_s = I(R_1 + R_2)$, so $R_{\text{eq}} = R_1 + R_2$.
 - shared quantity: two resistors in series carry the same current; what does the current law give for $I_{R1}$ and $I_{R2}$? ::@:: $I_{R1} = I_{R2} = I$: the node between them has no other element, so nothing diverts current.
 - summation form: $n$ resistors $R_1$ to $R_n$ are in series; what is $R_{\text{eq}}$? ::@:: $R_{\text{eq}} = R_1 + R_2 + \dots + R_n = \sum_{k=1}^{n} R_k$.
@@ -57,7 +57,7 @@ The double bar writes the two-resistor case, $R_{\text{eq}} = R_1 \| R_2 = \frac
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Resistors in parallel span the same two nodes, share the same voltage, and combine as $\frac{1}{R_{\text{eq}}} = \sum_{k=1}^{n} \frac{1}{R_k}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- parallel connection: what makes two resistors a parallel pair, and how do they combine? ::@:: Resistors in parallel span the same two nodes, share the same voltage, and combine as $\frac{1}{R_{\text{eq}}} = \sum_{k=1}^{n} \frac{1}{R_k}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - derivation: two parallel resistors $R_1$ and $R_2$ sit under a source $V_s$; which law fixes their voltages and which gives $R_{\text{eq}}$? ::@:: The voltage law forces $V_s = V_{R1} = V_{R2}$, and the current law with Ohm's law gives $I = V_s\left(\frac{1}{R_1} + \frac{1}{R_2}\right)$, so $\frac{1}{R_{\text{eq}}} = \frac{1}{R_1} + \frac{1}{R_2}$.
 - shared quantity: two resistors in parallel carry the same voltage; what does the current law give for $I_{R1}$ and $I_{R2}$? ::@:: $I = I_{R1} + I_{R2}$: the total current splits between the two branches.
 - two-resistor shortcut: two resistors $R_1$ and $R_2$ are in parallel; write $R_{\text{eq}}$ with the double-bar symbol. ::@:: $R_{\text{eq}} = R_1 \| R_2 = \frac{R_1 R_2}{R_1 + R_2}$, product over sum.
@@ -74,7 +74,7 @@ A pair's verdict comes from the nodes its two elements touch, so a worked case h
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Two elements that share only one terminal are neither in series nor in parallel, because a third element at that terminal lets current branch there.
+- sharing one terminal: why does that rule out both series and parallel? ::@:: Two elements that share only one terminal are neither in series nor in parallel, because a third element at that terminal lets current branch there.
 - verdict read off the nodes: what decides whether a pair of elements is in series, in parallel, or neither? ::@:: The nodes the two elements touch: sharing both terminals with nothing else between makes them series, spanning the same two nodes makes them parallel, and sharing a single terminal that a third element also reaches makes them neither.
 - a series case: $R_1$ and $R_2$ meet at one node that reaches nothing else, their far ends being on $P$ and $S$; which? ::@:: In series, since the same current runs through both.
 - a parallel case: $R_3$ and $R_4$ both join node $P$ to node $Q$; which? ::@:: In parallel, since they span the same two nodes and share the terminal voltage.
@@ -90,7 +90,7 @@ The reciprocal reading holds for series: conductances combine as their resistanc
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Conductance is $G = \frac{1}{R}$ in siemens, and parallel branches add their conductances, $G_{\text{eq}} = \sum_k G_k$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- conductance: what is it, and what happens to it when parallel branches are combined? ::@:: Conductance is $G = \frac{1}{R}$ in siemens, and parallel branches add their conductances, $G_{\text{eq}} = \sum_k G_k$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - why conductance: why is conductance $G = \frac{1}{R}$ convenient for parallel branches? ::@:: The current law gives $I = V_s(G_1 + \dots + G_n)$ directly, so parallel conductances add instead of combining reciprocally.
 - conductance unit: conductance $G = \frac{1}{R}$ is measured in siemens; how is the siemens defined? ::@:: $1\text{ S} = 1\ \Omega^{-1}$.
 - parallel conductances: two branches of $\frac{1}{50}\ \Omega^{-1}$ each are in parallel; find $G_{\text{eq}}$ and $R_{\text{eq}}$. ::@:: $G_{\text{eq}} = 0.02 + 0.02\text{ S} = 0.04\text{ S}$, so $R_{\text{eq}} = \frac{1}{G_{\text{eq}}} = 25\ \Omega$.
@@ -106,7 +106,7 @@ In a ladder of $50\ \Omega$ in parallel with a branch of $30\ \Omega$ in series 
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A mixed network is reduced by applying the series and parallel rules from the innermost pair outwards until a single resistor remains.
+- mixed network: how do the two combination rules get a network down to one resistor? ::@:: A mixed network is reduced by applying the series and parallel rules from the innermost pair outwards until a single resistor remains.
 - reduction order: which pair of a mixed network is reduced first? ::@:: The innermost pair that is unambiguously in series or in parallel.
 - ladder step one: in a ladder of $50\ \Omega$ in parallel with ($30\ \Omega$ in series with $30\ \Omega \| 60\ \Omega$), what is the first reduction? ::@:: $30\ \Omega \| 60\ \Omega = \frac{30 \times 60}{30 + 60}\ \Omega = 20\ \Omega$.
 - ladder result: in a ladder of $50\ \Omega$ in parallel with ($30\ \Omega$ in series with $30\ \Omega \| 60\ \Omega$), what is $R_{\text{eq}}$? ::@:: $30\ \Omega \| 60\ \Omega = 20\ \Omega$, then $30\ \Omega + 20\ \Omega = 50\ \Omega$, and $50\ \Omega \| 50\ \Omega = 25\ \Omega$.

@@ -21,7 +21,7 @@ Dependent sources are high-level models of amplifiers: one rhombus with a gain r
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A dependent source has a value that depends on, or is controlled by, a voltage or current at another location of the circuit.
+- definition, for a source that does not fix its own value ::@:: A dependent source has a value that depends on, or is controlled by, a voltage or current at another location of the circuit.
 - difference from an independent source, for an expression in $V_1$ or $I_1$ ::@:: An independent source fixes its own value. A dependent source is given by an expression in a voltage or current elsewhere in the circuit.
 - role as a model, with a gain such as $\mu$ or $g_m$ ::@:: One rhombus with a gain replaces the amplifier's internal devices.
 - the four type names with their outputs $\mu V_1$, $\beta I_1$, $g_m V_1$, and $r_m I_1$ ::@:: VCVS $\mu V_1$, CCCS $\beta I_1$, VCCS $g_m V_1$, CCVS $r_m I_1$.
@@ -41,7 +41,7 @@ A controlled voltage, such as $\mu V_1$ or $r_m I_1$, is drawn with $+$ and $-$ 
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A controlling quantity crossed with a controlled quantity, each a voltage or a current, gives the four types VCVS, CCCS, VCCS, and CCVS.
+- the four kinds of dependent source, and what distinguishes them ::@:: A controlling quantity crossed with a controlled quantity, each a voltage or a current, gives the four types VCVS, CCCS, VCCS, and CCVS.
 - reading a name, for a voltage-controlled current source with output $I_2 = g_m V_1$ ::@:: The first word names the controlling quantity, the second the controlled quantity.
 - the voltage-controlled family, driven by $V_1$ ::@:: The VCVS and the VCCS, with the controlling voltage taken at another location of the circuit.
 - the current-controlled family, driven by $I_1$ ::@:: The CCCS and the CCVS, with the controlling current taken in another branch of the circuit.

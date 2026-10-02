@@ -22,7 +22,7 @@ A modern phone carries a large number of transducers, sensing motion, the enviro
 
 Flashcards for this section are as follows:
 
-- overview ::@:: An electrical network, or circuit, is an interconnection of circuit elements forming a closed circuit, analysed through models of those elements.
+- circuit: what is it made of, and how is it analysed? ::@:: An electrical network, or circuit, is an interconnection of circuit elements forming a closed circuit, analysed through models of those elements.
 - circuit from devices: a battery of $9\text{ V}$ drives a bulb of resistance $R$; which circuit elements model them? ::@:: The battery becomes a $9\text{ V}$ voltage source and the bulb a resistor $R$.
 - devices and their elements: batteries, lamps, transistors, amplifiers, and computer chips are devices; which circuit elements model them? ::@:: Voltage sources, switches, resistors, capacitors, inductors, diodes, and transistors.
 - vehicle electronics: how complex are a vehicle's circuits today? ::@:: Continually evolving subsystems that often have different electronic and electrical components, sometimes 100 or more, among them microcontrollers, digital signal processors, isolators, power supply stabilization systems, and analog high-voltage chips.
@@ -46,7 +46,7 @@ The microscopic route to element behaviour is impractical. Conduction inside a r
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Each device is replaced by circuit elements with a compact set of parameters, and the voltages and currents of the whole interconnection follow from those models.
+- element models: what does each element receive, and what does that let the circuit analysis compute? ::@:: Each device is replaced by circuit elements with a compact set of parameters, and the voltages and currents of the whole interconnection follow from those models.
 - microscopic conduction: an applied electric field acts on a conductor; which microscopic model describes the conduction? ::@:: The Drude model: free electrons drift past metal ions and exchange momentum through collisions.
 - capacitor and inductor fields: what governs the fields of a capacitor and of an inductor? ::@:: Maxwell's equations; their general solution settles every such element at once, but solving them is the hard way.
 - element models: once each device is replaced by circuit elements, what remains to be developed? ::@:: Models for the circuit elements themselves, such as the voltage source, the resistor, the capacitor, and the inductor.
@@ -59,7 +59,7 @@ A lumped circuit element is physically small compared with the wavelength of the
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A lumped element is physically small compared with the signal wavelength $\lambda$, so its behaviour follows from a few idealized lumped parameters rather than from fields distributed over its body. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- lumped element: what must an element be small compared with, and what follows from that for its behaviour? ::@:: A lumped element is physically small compared with the signal wavelength $\lambda$, so its behaviour follows from a few idealized lumped parameters rather than from fields distributed over its body. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - wavelength: a signal has frequency $f$ and travels at the speed of light $c$; how is its wavelength written, and what does the lumped assumption compare with it? ::@:: The wavelength is $\lambda = c/f$, and a lumped element must be physically small compared with that $\lambda$.
 - radio frequency: which circuits break the lumped assumption? ::@:: Radio frequency (RF) circuits, where a component is no longer physically small compared with the wavelength of the signals concerned.
 
@@ -71,7 +71,7 @@ An applied force $F$ on an object of any shape is replaced by a point mass carry
 
 Flashcards for this section are as follows:
 
-- overview ::@:: The mechanical analogue of the lumped parameter model replaces an object of any shape by a point mass carrying the single parameter $m$; an applied force $F$ then gives the linear acceleration through $F = ma$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- mechanical analogue: what replaces an object of any shape, and what does an applied force then give? ::@:: The mechanical analogue of the lumped parameter model replaces an object of any shape by a point mass carrying the single parameter $m$; an applied force $F$ then gives the linear acceleration through $F = ma$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - what is lost / size, shape, and point of action: an object is reduced to a point mass under a force $F$; which effects of its extent disappear? ::@:: The effect of the object's size or shape, and the effect of the point of action of the force.
 - what is lost / rotation and deformation: an object of finite extent is reduced to a point mass; which effects inside the body disappear? ::@:: Its rotation and its internal deformation.
 
@@ -94,7 +94,7 @@ Analog circuits handle continuously varying quantities, digital circuits deal in
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Electronic circuits are classed by signal type, level of integration, frequency, current, voltage, or power, and operating temperature.
+- classes of electronic circuit: by which criteria are electronic circuits classified? ::@:: Electronic circuits are classed by signal type, level of integration, frequency, current, voltage, or power, and operating temperature.
 - signal type: name the three signal-type classes and what each carries. ::@:: Analog circuits carry continuously varying signals, digital circuits carry 0s and 1s, and mixed-signal circuits carry both.
 - levels of integration: name the levels of integration of electronic circuits. ::@:: System-on-chip (SOC), chipset, integrated circuit (IC), discrete, and hybrid.
 - frequency: name the two frequency classes of electronic circuits. ::@:: Low frequency (LF) and radio frequency (RF).
@@ -110,7 +110,7 @@ A circuit element has at least two external connections, called terminals. A $1.
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A circuit element has at least two external connections called terminals, and two terminals of a circuit constitute a port.
+- terminals: how many external connections must a circuit element have, and what are they called? ::@:: A circuit element has at least two external connections called terminals, and two terminals of a circuit constitute a port.
 - battery terminals: a $1.5\text{ V}$ AA battery is a circuit element; which terminals does it have? ::@:: A positive terminal and a negative terminal.
 - port definition ::@:: Two terminals of a circuit constitute a port, for example an input port or an output port.
 - one-port element: a one-port element has the same port as its input port and its output port; what may the input and the output be? ::@:: The input may be a current, and the output is then the voltage across that same port.
@@ -135,7 +135,7 @@ A two-terminal, or one-port, circuit element is characterized by one current and
 
 Flashcards for this section are as follows:
 
-- overview ::@:: The reference direction is the pair of a current and a voltage marked on a two-terminal element.
+- reference direction: what is marked on the diagram of a two-terminal element? ::@:: The reference direction is the pair of a current and a voltage marked on a two-terminal element.
 - the two conditions: a one-port element carries a marked current and a marked voltage; what must the current and the voltage obey? ::@:: The current enters from the arbitrarily defined positive terminal and exits from the negative terminal, and the voltage is measured across that same pair of positive and negative terminals.
 - free choice of the positive terminal: which of the two terminals of a one-port element is the positive one? ::@:: Either one; the reference direction is a choice made for the analysis.
 - I-V characteristic: a one-port element has one current and one voltage under its reference direction; what is the relation between them called? ::@:: The I-V characteristic, or I-V relation, of the element.
@@ -149,7 +149,7 @@ Passive elements only consume or store electrical energy, while active elements 
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Passive elements only consume or store electrical energy, while active elements generate electrical energy.
+- passive and active elements: how do the two kinds differ in what they do to electrical energy? ::@:: Passive elements only consume or store electrical energy, while active elements generate electrical energy.
 - average power test: an element carries a voltage $V$ and a current $I$ along its reference direction; what does its average power $P_{\text{ave}} = (VI)_{\text{ave}}$ show for a passive element, and for an active one? ::@:: A passive element has $P_{\text{ave}} \ge 0$ and consumes or stores power; an active element has $P_{\text{ave}} < 0$ and generates it.
 - passive components: which circuit elements are passive? ::@:: Resistors, capacitors, inductors, transformers, and diodes.
 - active components: which circuit elements are active? ::@:: Batteries, voltage and current sources, transistors, and op amps.

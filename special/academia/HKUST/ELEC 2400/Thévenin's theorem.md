@@ -22,7 +22,7 @@ The two numbers are the network's open-circuit voltage and its resistance seen f
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A linear network seen from a terminal pair can be replaced by an ideal voltage source $V_{oc}$ in series with a resistor $R_{\text{eq}}$, where $V_{oc}$ is its open-circuit voltage and $R_{\text{eq}}$ its resistance seen from the terminals with independent sources set to zero. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- Thévenin's theorem: what two-element circuit replaces a linear network seen from a terminal pair? ::@:: A linear network seen from a terminal pair can be replaced by an ideal voltage source $V_{oc}$ in series with a resistor $R_{\text{eq}}$, where $V_{oc}$ is its open-circuit voltage and $R_{\text{eq}}$ its resistance seen from the terminals with independent sources set to zero. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
 ## one-port equivalence
 
@@ -36,7 +36,7 @@ Two extreme loads suffice to test equality: a short fixes the short-circuit curr
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Two one-port networks are equivalent when their current-voltage characteristics agree across the terminals for every load, including sources.
+- equivalence of two one-port networks: what has to be true of their current-voltage characteristics, and over which loads must it hold? ::@:: Two one-port networks are equivalent when their current-voltage characteristics agree across the terminals for every load, including sources.
 - definition of equivalence: what must the terminal currents $I_A$ and $I_B$ and voltages $V_A$ and $V_B$ of two resistive one-port networks share to be equivalent? ::@:: The same terminal current-voltage characteristic for all loads, that is $I_A = I_B$ and $V_A = V_B$ for every load.
 - insufficient test: two networks agree at a $2\ \Omega$ load but differ at a $6\ \Omega$ load; are they equivalent? ::@:: No: equivalence requires agreement for all loads, so a single matching load proves nothing.
 - extreme loads: which two loads suffice to test a linear one-port's equivalence? ::@:: A short circuit, which fixes the short-circuit current, and an open circuit, which fixes the open-circuit voltage.
@@ -51,7 +51,7 @@ Dependent sources stay operative while $R_{\text{eq}}$ is computed. Only the net
 
 Flashcards for this section are as follows:
 
-- overview ::@:: The equivalent circuit is $V_{oc}$ in series with $R_{\text{eq}}$, $V_{oc}$ being the open-circuit voltage and $R_{\text{eq}}$ the resistance seen at the terminals with independent sources zeroed and dependent sources left operative. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- the equivalent circuit: what two elements does it consist of, and how is each obtained from the network? ::@:: The equivalent circuit is $V_{oc}$ in series with $R_{\text{eq}}$, $V_{oc}$ being the open-circuit voltage and $R_{\text{eq}}$ the resistance seen at the terminals with independent sources zeroed and dependent sources left operative. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - naming: what are the two elements $V_{oc}$ and $R_{\text{eq}}$ of a Thévenin equivalent called? ::@:: $V_{oc}$ is Thévenin's equivalent source and $R_{\text{eq}}$ is Thévenin's equivalent resistance, or the output resistance of the network.
 - dependent sources: what happens to dependent sources when $R_{\text{eq}}$ is computed? ::@:: They remain operative; only the independent sources are set to zero.
 - linearity requirement: which part of the circuit must be linear for the theorem to apply? ::@:: The network at the terminals; the attached load may contain non-linear components.
@@ -68,7 +68,7 @@ Changing the load then needs no second solution. A network holding $4\text{ mA}$
 
 Flashcards for this section are as follows:
 
-- overview ::@:: $V_{oc}$ is found with the terminals open, and $R_{\text{eq}}$ by zeroing every independent source and reducing the dead network to one resistance. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- computing the equivalent: how is the open-circuit voltage obtained, and how is the equivalent resistance obtained? ::@:: $V_{oc}$ is found with the terminals open, and $R_{\text{eq}}$ by zeroing every independent source and reducing the dead network to one resistance. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - setting sources to zero: what does each source become when $R_{\text{eq}}$ is computed? ::@:: A voltage source becomes a short circuit and a current source becomes an open circuit.
 - open-circuit condition: a $36\text{ V}$ source stands between ground and a node $P$, a $4\ \Omega$ resistor runs from $P$ to terminal $a$, and terminal $b$ reaches ground through a $3\ \Omega$ resistor that a $6\text{ A}$ source feeds in parallel; with $a$ and $b$ open, why does the $4\ \Omega$ resistor contribute nothing to $V_{oc}$? ::@:: No current flows through the $4\ \Omega$ branch, so its voltage drop is $0\text{ V}$; $V_{oc} = 36 - 6 \times 3 = 18\text{ V}$.
 - equivalent resistance: in the network where a $36\text{ V}$ source stands between ground and a node $P$, a $4\ \Omega$ resistor runs from $P$ to terminal $a$, and terminal $b$ reaches ground through a $3\ \Omega$ resistor that a $6\text{ A}$ source feeds in parallel, what is $R_{\text{eq}}$? ::@:: With the $36\text{ V}$ source shorted and the $6\text{ A}$ source opened, the $4\ \Omega$ and $3\ \Omega$ resistors remain in series, giving $R_{\text{eq}} = 4\ \Omega + 3\ \Omega = 7\ \Omega$.
@@ -85,7 +85,7 @@ The dual holds for the other equivalent circuit: a resistor in series with an id
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A resistor in parallel with an ideal voltage source may be neglected in computing other circuit variables, and a resistor in series with an ideal current source may be neglected likewise.
+- shortcuts: when computing the other circuit variables, which resistor may be left out of the network? ::@:: A resistor in parallel with an ideal voltage source may be neglected in computing other circuit variables, and a resistor in series with an ideal current source may be neglected likewise.
 - parallel with a voltage source: a network of $8\text{ V}$ with $2\ \Omega$ in parallel is reduced to a Thévenin equivalent; what are $V_{oc}$ and $R_{\text{eq}}$? ::@:: $V_{oc} = 8\text{ V}$ and $R_{\text{eq}} = 0\ \Omega$: the parallel resistor is shorted out by the ideal source.
 - why the parallel branch drops out: why may a resistor across an ideal voltage source be ignored? ::@:: The source fixes the voltage across the resistor regardless of its value, so the resistor cannot change any other branch voltage or current.
 - dual case: which resistor may be ignored when a network is being reduced for a Norton equivalent? ::@:: One in series with an ideal current source, since the source fixes the branch current whatever the resistance.
@@ -100,7 +100,7 @@ The short-circuit current gives the same resistance: compute $V_{oc}$ and $I_{sc
 
 Flashcards for this section are as follows:
 
-- overview ::@:: With dependent sources present, $R_{\text{eq}}$ is found by applying a test source and taking $R_{\text{eq}} = \frac{V_T}{I_T}$, or by combining $V_{oc}$ with the short-circuit current as $R_{\text{eq}} = \frac{V_{oc}}{I_{sc}}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- dependent sources: what stands in for the series and parallel reduction when it cannot be used? ::@:: With dependent sources present, $R_{\text{eq}}$ is found by applying a test source and taking $R_{\text{eq}} = \frac{V_T}{I_T}$, or by combining $V_{oc}$ with the short-circuit current as $R_{\text{eq}} = \frac{V_{oc}}{I_{sc}}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - why sources cannot simply be zeroed: why does zeroing independent sources not give $R_{\text{eq}}$ directly when dependent sources are present? ::@:: The dependent sources stay operative, so the dead network is not a passive resistor network and cannot be reduced by series and parallel rules.
 - test source method: how is $R_{\text{eq}}$ obtained from a test source? ::@:: Apply a test voltage $V_T$ and measure the current $I_T$ entering the terminal, or apply a test current $I_T$ and measure $V_T$, then compute $R_{\text{eq}} = \frac{V_T}{I_T}$.
 - test-source values: which values of $V_T$ and $I_T$ simplify the arithmetic of the test-source method? ::@:: $V_T = 1\text{ V}$ with the current measured, or $I_T = 1\text{ A}$ with the voltage measured.
@@ -119,7 +119,7 @@ That is the characteristic of $V_{oc}$ in series with $R_{\text{eq}}$, and it ho
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Superposition writes the port voltage as the independent sources' contributions plus $I_{\text{ext}} R_{\text{eq}}$; the first part is the open-circuit voltage, giving $V_{AB} = V_{oc} + I_{\text{ext}} R_{\text{eq}}$, which is the characteristic of the Thévenin circuit. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- general proof: why does the port characteristic of the network match that of a voltage source in series with a resistor? ::@:: Superposition writes the port voltage as the independent sources' contributions plus $I_{\text{ext}} R_{\text{eq}}$; the first part is the open-circuit voltage, giving $V_{AB} = V_{oc} + I_{\text{ext}} R_{\text{eq}}$, which is the characteristic of the Thévenin circuit. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - superposition form: how does superposition express the port voltage of a linear network with an external current source $I_{\text{ext}}$? ::@:: $V_{AB} = \sum_m A_m V_m + \sum_n B_n I_n + I_{\text{ext}} R_{\text{eq}}$, with dependent sources left operative.
 - identifying the open-circuit voltage: which terms of $V_{AB} = \sum_m A_m V_m + \sum_n B_n I_n + I_{\text{ext}} R_{\text{eq}}$ form the open-circuit voltage, and why? ::@:: The sums over the independent sources, since they are what remains when $I_{\text{ext}} = 0$, that is, when the port is open.
 - conclusion: what does the proof derive about the port voltage $V_{AB}$ and the external current $I_{\text{ext}}$, and what does it establish? ::@:: $V_{AB} = V_{oc} + I_{\text{ext}} R_{\text{eq}}$, the characteristic of a voltage source $V_{oc}$ in series with $R_{\text{eq}}$; it holds for all $I_{\text{ext}}$ and $V_{AB}$, so the two circuits are equivalent.

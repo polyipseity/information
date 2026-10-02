@@ -24,7 +24,7 @@ Any two of $V$, $I$, and $R$ fix the third. The relation holds for many material
 
 Flashcards for this section are as follows:
 
-- overview ::@:: For many materials the current $I$ through a material is proportional to the voltage $V$ across it, with $R$ the constant of proportionality, so $V = IR$, $I = V/R$, and $I = GV$ with $G = 1/R$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- law for a resistive material: how do the voltage, the current, and the resistance relate? ::@:: For many materials the current $I$ through a material is proportional to the voltage $V$ across it, with $R$ the constant of proportionality, so $V = IR$, $I = V/R$, and $I = GV$ with $G = 1/R$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - proportionality: a material obeying Ohm's law with resistance $R$ carries current $I$ at voltage $V$; what happens to $I$ when $V$ doubles? ::@:: $I$ doubles.
 - proportionality: which ratio of $V$, $I$, and $R$ stays fixed for a material obeying Ohm's law? ::@:: $V/I = R$.
 - limits: a device whose current is not proportional to its voltage; what does that rule out about $V = IR$? ::@:: A single constant resistance $R$.
@@ -39,7 +39,7 @@ Plotting the current through an element against the voltage across it gives that
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Resistance $R$ and conductance $G = 1/R$ are reciprocals, so Ohm's law reads $V = IR$ with $R$ in ohms and $I = GV$ with $G$ in siemens. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- resistance and conductance: how do the two quantities relate to each other? ::@:: Resistance $R$ and conductance $G = 1/R$ are reciprocals, so Ohm's law reads $V = IR$ with $R$ in ohms and $I = GV$ with $G$ in siemens. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - unit of resistance: the resistance $R$ that carries $I = 1\text{ A}$ under an applied $V = 1\text{ V}$ ::@:: $V = IR$ gives $R = 1\text{ V}/1\text{ A} = 1\ \Omega$, the ohm, written $\Omega$.
 - unit of conductance: which unit does $G = 1/R$ carry, and how is it written in terms of the ohm? ::@:: The siemens, written $\text{S}$, with $1\text{ S} = 1\ \Omega^{-1}$.
 - current from voltage and resistance: what current $I$ flows when $V = 6\text{ V}$ is across $R = 3\ \Omega$? ::@:: $I = V/R = 6\text{ V}/3\ \Omega = 2\text{ A}$.
@@ -59,7 +59,7 @@ Water running downhill is the picture for a resistor. Water moves from a higher 
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A resistor is a device made to have a precise resistance, used in a circuit to control the flow of current.
+- a resistor as a device: what is it built to have, and what does a circuit use it to control? ::@:: A resistor is a device made to have a precise resistance, used in a circuit to control the flow of current.
 - precision: what does the precise resistance of a resistor give a circuit designer? ::@:: A resistance fixed by the device, so the current a given voltage drives can be chosen.
 - symbol and reference direction: a resistor is drawn with one terminal marked $+$, one marked $-$, and a current arrow between them; what do the marks and the arrow fix? <p> ![resistor symbol: a zigzag line labelled R](attachments/symbol_resistor.svg) ::@:: Reference directions chosen for the analysis: the marks fix the sign of the voltage $V$ and the arrow the sign of the current $I$.
 - draw the resistor symbol: how is a resistor of resistance $R$ drawn on a circuit diagram? ::@:: A zigzag line labelled $R$. <p> ![resistor symbol: a zigzag line labelled R](attachments/symbol_resistor.svg)

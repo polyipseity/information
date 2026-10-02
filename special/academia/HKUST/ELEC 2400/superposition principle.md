@@ -22,7 +22,7 @@ The principle holds exactly for circuits of linear elements, so it applies to re
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Superposition sums the responses a linear circuit produces for each independent source acting alone, so the output of a circuit with several sources is the sum of the single-source responses.
+- superposition principle: what do the several one-source circuits contribute to the output of the whole circuit? ::@:: Superposition sums the responses a linear circuit produces for each independent source acting alone, so the output of a circuit with several sources is the sum of the single-source responses.
 
 ## linearity
 
@@ -36,7 +36,7 @@ Elements whose current is not a straight-line function of their voltage sit outs
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A circuit is linear when it satisfies both homogeneity, $f(kx) = kf(x)$, and superposition, $f(x_1 + x_2) = f(x_1) + f(x_2)$, equivalently $f(a x_1 + b x_2) = a f(x_1) + b f(x_2)$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- linearity: what single statement combines homogeneity and superposition for a circuit with two excitations? ::@:: A circuit is linear when it satisfies both homogeneity, $f(kx) = kf(x)$, and superposition, $f(x_1 + x_2) = f(x_1) + f(x_2)$, equivalently $f(a x_1 + b x_2) = a f(x_1) + b f(x_2)$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - excitation and response: what are the input and the output of a circuit called when it is viewed as a function? ::@:: The input is the excitation and the output is the response.
 - homogeneity: which form must the function $f$ of a homogeneous circuit take? ::@:: A straight line through the origin, $f(x) = mx$; no other function satisfies $f(kx) = kf(x)$.
 - superposition property: state the property of $f$ that lets responses be added. ::@:: $f(x_1 + x_2) = f(x_1) + f(x_2)$: the response to a sum of excitations is the sum of the individual responses.
@@ -57,7 +57,7 @@ A branch can also escape one contribution altogether. In a circuit of a $6\text{
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Each independent source is considered alone with all others set to zero, a voltage source becoming a short and a current source an open, while dependent sources stay operative.
+- applying superposition: what is done to each independent source in turn, and to the dependent sources? ::@:: Each independent source is considered alone with all others set to zero, a voltage source becoming a short and a current source an open, while dependent sources stay operative.
 - setting a voltage source to zero: what does a voltage source $V_{si}$ become when its contribution is not being computed? ::@:: A short circuit, since $V_{si} = 0\text{ V}$.
 - setting a current source to zero: what does a current source $I_{sj}$ become when its contribution is not being computed? ::@:: An open circuit, since $I_{sj} = 0\text{ A}$.
 - dependent sources: are dependent sources set to zero along with the independent ones? ::@:: No: they remain operative in every partial circuit, with their controlling quantity recomputed for that circuit.
@@ -75,7 +75,7 @@ A circuit of a $36\text{ V}$ source and a $6\text{ A}$ source gives $V_A = 12\te
 
 Flashcards for this section are as follows:
 
-- overview ::@:: The single-source responses are added with their signs, a source acting in the opposite direction contributing a negative term to the output.
+- combining contributions: in what way are the single-source responses combined into the output? ::@:: The single-source responses are added with their signs, a source acting in the opposite direction contributing a negative term to the output.
 - sign of a contribution: how does a source whose direction opposes the others appear in the sum? ::@:: With a negative sign, so the contributions must be added algebraically rather than in magnitude.
 - two-source check: in a circuit of a $36\text{ V}$ source and a $6\text{ A}$ source, the voltage source alone gives $V_o = 8\text{ V}$ and the current source alone gives $V_o = -4\text{ V}$; what is the total $V_o$? ::@:: $V_o = 8\text{ V} + (-4\text{ V}) = 4\text{ V}$, which agrees with nodal analysis of the whole circuit.
 - checking the sum: how may a superposition result be checked cheaply? ::@:: By analyzing the whole circuit once by another method, such as nodal analysis, and comparing the outputs.
@@ -90,7 +90,7 @@ A resistor of $3\ \Omega$ shows the failure: a source of $8\text{ V}$ drives $I_
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Power is quadratic in voltage and current, $P \propto V^2$ and $P \propto I^2$, so it is not linear and superposition does not apply to it. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- power is not linear: how does power depend on voltage and current, and what follows for superposition? ::@:: Power is quadratic in voltage and current, $P \propto V^2$ and $P \propto I^2$, so it is not linear and superposition does not apply to it. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - why power fails: why may the powers produced by two sources not be added? ::@:: Power is a square function of voltage and current, so it is not linear in the excitation and does not obey superposition.
 - scaling of power: a resistor of $3\ \Omega$ carries $I_o = 2\text{ A}$ under $8\text{ V}$ and $I_o = 4\text{ A}$ under $16\text{ V}$; what power does it dissipate and how does it scale? ::@:: $P = 2^2 \times 3 = 12\text{ W}$ and $P = 4^2 \times 3 = 48\text{ W}$: doubling the source quadruples the power.
 - finding total power: how is the power in a multi-source circuit obtained? ::@:: From the total voltage and current of the complete circuit, since the separate contributions cannot be added as powers.

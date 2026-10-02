@@ -21,7 +21,7 @@ The joints have names: node, branch, path, loop, and mesh. Counting them also pr
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A circuit diagram is a two-dimensional representation of a circuit in standardized symbols that fixes which element terminals are joined, and the joints it draws are the node, the branch, the path, the loop, and the mesh.
+- circuit diagram: what does such a drawing fix, and what are its joints called? ::@:: A circuit diagram is a two-dimensional representation of a circuit in standardized symbols that fixes which element terminals are joined, and the joints it draws are the node, the branch, the path, the loop, and the mesh.
 
 ## circuit diagram
 
@@ -37,7 +37,7 @@ A diagram may be redrawn in any way, provided no existing connection is broken a
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A circuit diagram is a graphical representation of a circuit: the closed connections of its elements, drawn with standardized symbols.
+- representation: what does a circuit diagram represent, and what is it drawn with? ::@:: A circuit diagram is a graphical representation of a circuit: the closed connections of its elements, drawn with standardized symbols.
 - schematic against hardware: a printed circuit board and a schematic circuit diagram of the same circuit; what is each? ::@:: The board is the physical hardware, and the schematic is the two-dimensional representation of its components and interconnections.
 - wire run: a straight run of wire joins two joints and three more element terminals tap onto it along the way; how many nodes does the run form? ::@:: One: wire holds no element, so a wire joining a run counts as a single node.
 - crossing without a dot: two wires cross in a diagram with no dot drawn at the crossing; are they connected? ::@:: No: a crossing is a connection only where a dot is drawn.
@@ -54,7 +54,7 @@ Because it is a joint of terminals, the current entering a node leaves it, and t
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A node is an electrical joint connecting the terminals of two or more circuit elements.
+- node: what kind of thing is a node, and what does it join? ::@:: A node is an electrical joint connecting the terminals of two or more circuit elements.
 - terminals per node: how many element terminals meet at a node? ::@:: Two or more; a single terminal alone is not a joint.
 - wire inside a node: a wire segment lying between two joints carries no element; how does it bear on the node count? ::@:: It does not add a node: the whole wire run forms one node.
 
@@ -68,7 +68,7 @@ A branch carries a branch voltage across it and a branch current through it, bot
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A branch consists of two nodes between which a circuit element is inserted.
+- branch: how is a branch defined in terms of nodes and elements? ::@:: A branch consists of two nodes between which a circuit element is inserted.
 - branches against elements: a circuit of nine elements; how many branches does it have? ::@:: Nine: each element sits between exactly two nodes, so the two counts agree.
 - quantities on a branch: which two quantities are associated with a branch, and how are they fixed? ::@:: The branch voltage across it and the branch current through it, both under reference directions chosen for the analysis.
 
@@ -82,7 +82,7 @@ The branch voltages may be summed term by term along a path, which is what makes
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A path is a sequence of nodes proceeding from the starting node to the ending node.
+- path: what is a path in terms of its nodes? ::@:: A path is a sequence of nodes proceeding from the starting node to the ending node.
 - path and its nodes: must the nodes of a path all be different? ::@:: No: a path is an ordered walk, and only a loop imposes the no-repeat condition.
 
 ## loop and mesh
@@ -95,7 +95,7 @@ The distinction matters for counting: a two-mesh planar circuit has three loops,
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A loop is a closed path that returns to its starting node without passing an intermediate node more than once, and a mesh is a loop containing no other loop.
+- loop: what has to hold of a closed path for it to be a loop? ::@:: A loop is a closed path that returns to its starting node without passing an intermediate node more than once, and a mesh is a loop containing no other loop.
 - loop against mesh: which condition turns a loop into a mesh? ::@:: It contains no other loop within it.
 - counting meshes: a planar circuit drawn as two adjacent meshes; how many loops and how many meshes does it have? ::@:: Three loops: the two meshes plus the loop around both. Two meshes.
 - counting nodes and branches: five elements joined in parallel between two rails; how many nodes and branches? ::@:: Two nodes and five branches, one branch per element.

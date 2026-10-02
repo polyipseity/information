@@ -23,7 +23,7 @@ The electric potential at a point, also called voltage, is the energy per unit c
 
 Flashcards for this section are as follows:
 
-- overview ::@:: The electric potential, also named voltage, at a point is the electric potential energy per unit charge there, with $1\text{ V} = 1\text{ J}/\text{C}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- potential and voltage: what is the potential at a point, and what unit is it measured in? ::@:: The electric potential, also named voltage, at a point is the electric potential energy per unit charge there, with $1\text{ V} = 1\text{ J}/\text{C}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - potential versus potential energy: a charge $q$ sits at a point of electric potential $V$; how do $V$ and the charge's electric potential energy differ? ::@:: $V$ is the energy per unit charge at that location, a property of the field alone; the charge's electric potential energy is $qV$.
 - one value versus a difference: why is a voltage quoted between two points, and what does quoting the potential at a single point $A$ assume? ::@:: Only the difference between two potentials carries meaning, since the values shift together under a common offset; a lone $V_A$ is read against an implicit reference such as ground.
 
@@ -39,7 +39,7 @@ The unit of voltage is the volt, named after Alessandro Volta (1745-1827), fixed
 
 Flashcards for this section are as follows:
 
-- overview ::@:: The electric potential $V$ is the electric potential energy per unit charge stored by a field in space, so a charge $q$ at a point holds $qV$ there. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- electric potential energy and electric potential: what energy does a charge hold at a point, in terms of the potential there? ::@:: The electric potential $V$ is the electric potential energy per unit charge stored by a field in space, so a charge $q$ at a point holds $qV$ there. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - electric potential energy / origin: what stores electric potential energy, and how does a charge come to have some? ::@:: It is stored electrical energy set up by an electric field in space, and a charge acquires it from its location in the field.
 - volt definition: express the volt in joules and coulombs, and say how much energy raises the potential of $1\text{ C}$ of charge by $1\text{ V}$. ::@:: $1\text{ volt} = 1\text{ joule}/1\text{ coulomb}$, which is $1\text{ V} = 1\text{ J}/\text{C}$, so raising the potential of $1\text{ C}$ of charge by $1\text{ V}$ takes $1\text{ J}$.
 - namesake ::@:: Alessandro Volta, who lived from 1745 to 1827.
@@ -69,7 +69,7 @@ The quantity also goes by potential, voltage difference, and potential differenc
 
 Flashcards for this section are as follows:
 
-- overview ::@:: The potential difference between two points $A$ and $B$ is $V = V_A - V_B$, so moving a charge $q$ from $B$ to $A$ takes the energy $qV$ and moving it from $A$ to $B$ releases $qV$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- potential difference: how is the difference between the potentials at two points defined, and which direction does it run from? ::@:: The potential difference between two points $A$ and $B$ is $V = V_A - V_B$, so moving a charge $q$ from $B$ to $A$ takes the energy $qV$ and moving it from $A$ to $B$ releases $qV$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - charge energy at a point: a charge $q$ sits at $A$ and $B$, with potentials $V_A$ and $V_B$; what electric potential energy does it hold at each point? ::@:: $qV_A$ at $A$ and $qV_B$ at $B$.
 - sign independence: a charge $q$ moves through a potential difference $V$ from $B$ to $A$; do the energy statements survive negative $q$ or negative $V$? ::@:: They do, for both signs of charge and voltage: moving $q$ from $B$ to $A$ takes $qV$, so reasoning with a positive charge is enough.
 - relative quantity / other names: what other names does a potential difference carry? ::@:: Potential, voltage difference, and potential difference.
@@ -113,7 +113,7 @@ In the marked form the value is the potential at the plus mark minus the potenti
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A voltage is labelled either by a value with a plus and minus pair of marks or by a value with an arrow. The marks or the arrow must be shown, since a bare value does not fix which point is higher.
+- labelling a voltage: in which two forms is a voltage label written, and why is a bare value not enough? ::@:: A voltage is labelled either by a value with a plus and minus pair of marks or by a value with an arrow. The marks or the arrow must be shown, since a bare value does not fix which point is higher.
 - marked label: a diagram puts the mark $+$ at $A$ and the mark $-$ at $B$ and writes $3\text{ V}$ beside them; what relation does that state? ::@:: The value is the potential at the plus mark minus the potential at the minus mark, so $V_A - V_B = 3\text{ V}$.
 - arrow label: a diagram draws an arrow from $B$ to $A$ and labels it $3\text{ V}$; what does that state? ::@:: The value is read along the arrow, so $V_A - V_B = 3\text{ V}$: the potential at $A$ is $3\text{ V}$ above the potential at $B$.
 - arrow label / reversed arrow: a diagram draws an arrow from $A$ to $B$ and labels it $-3\text{ V}$; what does that state? ::@:: Reading along the arrow gives $V_B - V_A = -3\text{ V}$, which negates to $V_A - V_B = 3\text{ V}$, the same relation as an arrow from $B$ to $A$ labelled $3\text{ V}$.
@@ -132,7 +132,7 @@ A defined reading also needs a complete circuit. When a terminal floats unconnec
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Connect the red probe to the positive terminal and the black probe to the negative terminal of an element, and the voltmeter reads the potential difference across it.
+- measuring voltage: where must the two probes of a voltmeter rest, and what does the meter then read? ::@:: Connect the red probe to the positive terminal and the black probe to the negative terminal of an element, and the voltmeter reads the potential difference across it.
 - reading rule: the red probe rests at a point of potential $V_{\text{red}}$ and the black probe at a point of potential $V_{\text{black}}$; what does the meter read? <p> ![voltmeter drawn as a box with a red plus terminal marked A and a black minus terminal marked B](attachments/symbol_voltmeter.svg) ::@:: $V_{\text{red}} - V_{\text{black}}$.
 - draw the meter: a circuit diagram needs a voltmeter across the points $A$ and $B$; what is drawn, and which probe reaches which point? ::@:: A box marked Voltmeter, with a red $+$ terminal at $A$ and a black $-$ terminal at $B$. <p> ![voltmeter drawn as a box with a red plus terminal marked A and a black minus terminal marked B](attachments/symbol_voltmeter.svg)
 - correct probes: a $1.5\text{ V}$ AA battery is measured with the red probe on its positive terminal and the black probe on its negative terminal; what does the voltmeter read? ::@:: $1.5\text{ V}$, the potential difference across the battery.
