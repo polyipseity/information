@@ -15,24 +15,24 @@ _Statistical inference_ draws a conclusion about an unknown quantity from eviden
 
 Flashcards for this section are as follows:
 
-- definition ::@:: Reaching a conclusion about something from known evidence; "statistical" refers to the data and "inference" to the conclusion.
-- why a probability distribution is used: for the unknown quantity $X$ ::@:: Before the corresponding experiment is performed, $X$ is unpredictable; a coin before it is tossed is the illustration.
-- mission: with data and a parametric model for $X$ ::@:: Estimate the parameter(s) $\theta$ of the distribution of the target random variable.
+- what statistical inference is ::@:: Reaching a conclusion about an unknown quantity from evidence already in hand.
+- why a probability distribution is used for a random variable $X$ ::@:: Before $X$ is observed its value cannot be predicted; a coin before it is tossed is the illustration.
+- what inference aims at when data and a parametric model for $X$ are given ::@:: The unknown parameter or parameters $\theta$ of the distribution of $X$, estimated from the data.
 
 ## data
 
-Data are the values that the target random variable $X$ actually took. Write $x_1, \ldots, x_n$ for the $n$ of them and $X_1, \ldots, X_n$ for the copies of $X$ that produced them. Each $x_i$ is a known number once the sample is in, and each $X_i$ stays a random variable until then. Before sampling, what is known is the joint distribution of the copies, and nothing at all about their realized values.
+Data are the values that the target random variable $X$ actually took. Write $x_1, \ldots, x_n$ for the $n$ of them and $X_1, \ldots, X_n$ for the copies of $X$ that produced them. Before sampling, what is known is the joint distribution of the copies, and nothing at all about their realized values.
 
-A quantity computed from the data, the sample mean for instance, is a fixed number once the sample is in, so a conclusion drawn from it is a statement about something settled. What connects that statement to $\theta$ is the distribution the data were drawn from: the same observed values are more likely under some values of $\theta$ than under others. After sampling the uncertainty that inference has to resolve is therefore in the parameter, not in the data.
+A quantity computed from the data, the sample mean for instance, is a fixed number once the sample is in, so a conclusion drawn from it is a statement about something settled. What connects that statement to $\theta$ is the distribution the data were drawn from: the same observed values are more likely under some values of $\theta$ than under others.
 
 ---
 
 Flashcards for this section are as follows:
 
-- definition: given observations $x_1, \ldots, x_n$ of the target random variable $X$ ::@:: The actual values of $X$, each a known number once the sample is drawn.
-- notation: $x_i$ versus $X_i$ ::@:: $X_i$ is the $i$-th copy of $X$ and $x_i$ its actual value; uppercase letters denote random variables and lowercase letters their realizations.
-- when the values become known ::@:: After sampling; before it, only the joint distribution of the copies is known.
-- why data estimate the parameter: under a parametric model for $X$ ::@:: The observed values are more likely under some values of $\theta$ than under others, so they carry information about which one is true.
+- what the data for a random variable $X$ are ::@:: The values $x_1, \ldots, x_n$ that $X$ actually took, each a known number once the sample is drawn.
+- the notation $X_i$ against $x_i$ for the $i$-th copy of a random variable $X$ ::@:: $X_i$ is the $i$-th copy of $X$ and stays a random variable, $x_i$ is its realized value.
+- when the data $x_1, \ldots, x_n$ of the copies $X_1, \ldots, X_n$ become known ::@:: After the sample is drawn; before it only the joint distribution of the copies is known.
+- why the data estimate the parameter $\theta$ of the distribution of $X$ ::@:: The observed values are more likely under some values of $\theta$ than under others, so they carry information about which one is true.
 
 <!-- check: ignore-next-line[section_example_heading]: a matched pair of cases for the definition, kept together so the counterexample sits beside the definition it violates -->
 ### examples and counterexamples
@@ -45,16 +45,16 @@ Writing $X_1 = 3.2$ after sampling asserts that a random variable equals a const
 
 Flashcards for this section are as follows:
 
-- $x_1 = 3.2$ after the sample is drawn: data or a random variable? ::@:: Data, a known number; the random variable that produced it is $X_1$.
-- $X_1$ before the sample is drawn: data or a random variable? ::@:: A random variable, whose realized value $x_1$ is not yet available.
-- $\bar X$ versus $\bar x$ before the sample is drawn ::@:: $\bar X$ is the random variable and $\bar x$ the average of the data, available only after sampling.
-- writing $X_1 = 3.2$ after sampling: correct notation? ::@:: No, it makes a random variable equal a constant; the observed value is $x_1 = 3.2$.
-- reporting $\bar x$ before the sample is drawn ::@:: Not available, since $\bar x$ is a function of data that have not been observed; the object to report is $\bar X$.
-- what stays uncertain after the data are observed: for observed $x_1, \ldots, x_n$ ::@:: The unknown parameter, not the data, which are known numbers.
+- a realized value $x_1 = 3.2$ of a random variable $X$ recorded after the sample is drawn: data or a random variable? ::@:: Data, a known number; the random variable that produced it is $X_1$.
+- the copy $X_1$ of a random variable $X$ before the sample is drawn: data or a random variable? ::@:: A random variable, whose realized value $x_1$ is not yet available.
+- the sample mean $\bar X$ against the average $\bar x$ of the data $x_1, \ldots, x_n$, before the sample is drawn from copies $X_1, \ldots, X_n$ of a random variable $X$ ::@:: $\bar X$ is the random variable, and $\bar x$ is the average of the data, available only after sampling.
+- writing $X_1 = 3.2$ for the copy $X_1$ of a random variable $X$ after sampling: correct notation? ::@:: No, it makes a random variable equal a constant; the observed value is $x_1 = 3.2$.
+- the average $\bar x$ of data $x_1, \ldots, x_n$ before the sample is drawn: what can be reported? ::@:: Only the sample mean $\bar X$, a random variable; $\bar x$ is a function of data that have not been observed.
+- what stays uncertain after the data $x_1, \ldots, x_n$ of a random variable $X$ with unknown parameter $\theta$ are observed ::@:: The parameter $\theta$, not the data, which are known numbers.
 
 ## modes of inference
 
-With data in hand and a model for the distribution of $X$, there are three standard ways to report what the data say about $\theta$. They differ in the kind of object they produce. Point estimation produces a single number: an estimate of $\theta$ from the data. The sample mean serves when the unknown parameter is a population mean and the sample variance when it is a population variance. Where the model is not a normal one, the estimate is usually obtained by the method of moments or by maximum likelihood. Nothing in a point estimate says how far it may be from $\theta$.
+With data in hand and a model for the distribution of $X$, there are three standard ways to report what the data say about $\theta$. They differ in the kind of object they produce. Point estimation produces a single number: an estimate of $\theta$ from the data. Where the model is not a normal one, the estimate is usually obtained by the method of moments or by maximum likelihood.
 
 Interval estimation produces a range instead of a single value, and a confidence interval is the standard form of it. What separates an interval from a point is the level it carries. That level states how often the procedure that produced it brackets the true parameter. The statement is about repeated sampling, not about the interval already computed.
 
@@ -66,12 +66,13 @@ A level and an error rate are both claims about how the reported object behaves 
 
 Flashcards for this section are as follows:
 
-- modes of inference: from a parametric model ::@:: Point estimation, interval estimation, and hypothesis testing.
-- point estimation: as a guess for $\theta$ ::@:: A single value: the sample mean or sample variance for an unknown population mean or variance, otherwise method of moments or maximum likelihood.
-- interval estimation: as a guess for $\theta$ ::@:: An interval-valued guess, a confidence interval, rather than a point.
-- hypothesis testing ::@:: A test of hypotheses about the value of the parameter.
-- why interval estimation and hypothesis testing need the distribution of the estimator ::@:: Because their level or error rate is a claim about repeated sampling, and the estimator's distribution is what determines it.
-- what a point estimate leaves unsaid: about how far the value may be from $\theta$ ::@:: It reports a single number and makes no claim of accuracy, so nothing about its error has to be quantified.
+- which three modes of inference are standard under a parametric model for a random variable $X$ with unknown parameter $\theta$ ::@:: Point estimation, interval estimation, and hypothesis testing.
+- what point estimation reports for an unknown parameter $\theta$ ::@:: A single value; the sample mean for an unknown population mean and the sample variance for an unknown population variance.
+- how an unknown parameter $\theta$ of a non-normal model for $X$ is estimated ::@:: Usually by the method of moments or by maximum likelihood.
+- what interval estimation reports for an unknown parameter $\theta$ ::@:: A range rather than a single value; a confidence interval is the standard form.
+- what hypothesis testing about an unknown parameter $\theta$ reports ::@:: A decision, a rejection or a non-rejection of a proposed value of $\theta$.
+- why interval estimation and hypothesis testing need the sampling distribution of an estimator of the unknown parameter $\theta$ ::@:: Their level and error rate are claims about repeated sampling, and the estimator's sampling distribution is what determines them.
+- what a point estimate of the unknown parameter $\theta$ leaves unsaid ::@:: How far the value may be from $\theta$; it reports a single number and claims no accuracy.
 
 <!-- check: ignore-next-line[section_example_heading]: a matched pair of cases for the definition, kept together so the counterexample sits beside the definition it violates -->
 ### examples and counterexamples for each mode
@@ -84,9 +85,9 @@ Giving $\bar x$ together with its standard error is point estimation, because a 
 
 Flashcards for this section are as follows:
 
-- reporting $\bar x$ as the guess for $\mu$: which mode of inference? ::@:: Point estimation, a single value with no statement of how far off it may be.
-- reporting $\bar x \pm z_{\alpha/2}\frac{\sigma}{\sqrt{n}}$ for $\mu$: which mode of inference? ::@:: Interval estimation, an interval built at level $1 - \alpha$.
-- testing $H_0: \mu = \mu_0$ at level $\alpha$: which mode of inference? ::@:: Hypothesis testing, whose answer is a decision.
-- reporting $\bar x$ together with its standard error: which mode of inference? ::@:: Point estimation, because a standard error describes the estimator rather than bracketing $\mu$.
-- reporting the interval $(\bar x - 1, \bar x + 1)$ with no level stated: interval estimation? ::@:: No, an interval with no level carries no coverage statement.
-- reporting $P(\mu \in A \mid x) = 0.95$: one of the three modes of inference? ::@:: No, it is a statement about the distribution of $\mu$ given the data, which requires a prior.
+- for $X_1, \ldots, X_n$ i.i.d. from $N(\mu, \sigma^2)$, $n > 1$, the sample mean $\bar x$ reported as the guess for $\mu$: which mode of inference? ::@:: Point estimation, a single value with no statement of how far off it may be.
+- for $X_1, \ldots, X_n$ i.i.d. from $N(\mu, \sigma^2)$, $n > 1$, the interval $\bar x \pm z_{\alpha/2}\frac{\sigma}{\sqrt{n}}$ reported for $\mu$, where $z_{\alpha/2}$ is the standard normal quantile with upper tail area $\alpha/2$: which mode of inference? ::@:: Interval estimation, an interval built at level $1 - \alpha$.
+- for $X_1, \ldots, X_n$ i.i.d. from $N(\mu, \sigma^2)$, $n > 1$, the test of $H_0: \mu = \mu_0$ at level $\alpha$: which mode of inference? ::@:: Hypothesis testing, whose answer is a decision.
+- for $X_1, \ldots, X_n$ i.i.d. from $N(\mu, \sigma^2)$, $n > 1$, the sample mean $\bar x$ reported together with its standard error: which mode of inference? ::@:: Point estimation, because a standard error describes the estimator rather than bracketing $\mu$.
+- for $X_1, \ldots, X_n$ i.i.d. from $N(\mu, \sigma^2)$, $n > 1$, the interval $(\bar x - 1, \bar x + 1)$ reported with no level stated: interval estimation? ::@:: No, an interval with no level carries no coverage statement.
+- for $X_1, \ldots, X_n$ i.i.d. from $N(\mu, \sigma^2)$, $n > 1$, the probability $P(\mu \in A \mid x) = 0.95$ reported for a set $A$ given the data $x$: one of the three modes of inference? ::@:: No, it is a statement about the distribution of $\mu$ given the data, which requires a prior.

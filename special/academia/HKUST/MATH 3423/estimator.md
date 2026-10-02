@@ -17,8 +17,8 @@ Estimation involves three different objects. A statistic $T(X)$ used to estimate
 
 Flashcards for this section are as follows:
 
-- definition: a statistic $T(X)$ used to estimate the parameter $\theta$ ::@:: A point estimator of $\theta$, a function of the sample and so a random variable.
-- estimator versus estimate: $T(X)$ and $T(x)$ ::@:: The estimator is the random variable $T(X)$; the estimate is the number $T(x)$ obtained by substituting the data.
+- what a statistic $T(X)$ used to estimate the parameter $\theta$ is called ::@:: A point estimator of $\theta$, a function of the sample and so a random variable.
+- difference between the estimator $T(X)$ and the estimate $T(x)$ obtained by substituting the data $x = (x_1, \ldots, x_n)^\top$ ::@:: The estimator is the random variable $T(X)$; the estimate is the number $T(x)$ obtained by substituting the data.
 - notation for an estimator or an estimate of $\theta$ ::@:: $\hat \theta$.
 
 ## estimand, estimator, and estimate
@@ -36,7 +36,7 @@ Flashcards for this section are as follows:
 - the three objects: $\theta$, $T(X)$ and $T(x)$ ::@:: The fixed unknown parameter, the random variable that guesses it, and the number that guess takes on the data.
 - which one carries a sampling distribution: among $\theta$, $T(X)$ and $T(x)$ ::@:: The estimator $T(X)$, the only random one.
 - which one is known to the analyst: among $\theta$, $T(X)$ and $T(x)$ ::@:: The estimate $T(x)$, computed from the data.
-- $\hat \theta$ ::@:: Either the estimator $T(X)$ or the estimate $T(x)$; the symbol alone does not say which is meant.
+- which of the two objects, the estimator $T(X)$ or the estimate $T(x)$, the symbol $\hat \theta$ may denote ::@:: Either, since one symbol covers both and does not by itself say which is meant.
 
 <!-- check: ignore-next-line[section_example_heading]: a matched pair of cases for the definition, kept together so the counterexample sits beside the definition it violates -->
 ### examples and counterexamples
@@ -63,18 +63,18 @@ That silence is not a matter of notation. Accuracy is a property of the rule rat
 
 How many numbers a point estimate carries is fixed by how many parameters are unknown. With one unknown parameter a point estimate is a single number on the real line, reported against the unknown $\mu$. With a mean and a standard deviation both unknown it is a pair in the plane, such as $(\bar x, s_{n-1})$ against $(\mu, \sigma)$. With three unknown parameters it is a triple, $(\hat \theta_1, \hat \theta_2, \hat \theta_3)$ against $(\theta_1, \theta_2, \theta_3)$. A point estimate is a shape set by the model, so calling an estimator a point estimate says nothing about how much information it carries.
 
-None of this can be anticipated before the sample is drawn. What is known in advance is the estimator itself, and the distribution of the value it will take.
+What is known before the sample is drawn is the estimator itself and the distribution of the value it will take; none of the other properties can be anticipated in advance.
 
 ---
 
 Flashcards for this section are as follows:
 
 - what a point estimator reports: for the parameter $\theta$ ::@:: One numerical guess, with no statement of how far off it may be.
-- the single realized value $\bar x$ on its own: can it show how far off the rule behind it runs? ::@:: No, accuracy is a property of the rule over repeated samples, and the value does not record which rule produced it.
+- can the single realized value $\bar x$ of a point estimator show how far off the rule behind it runs? ::@:: No. Accuracy is a property of the rule over repeated samples, and the value does not record which rule produced it.
 - one-dimensional point estimation: $\bar x$ against $\mu$ ::@:: A point against the unknown point on the real line.
-- two-dimensional point estimation: $(\bar x, s_{n-1})$ against $(\mu, \sigma)$ ::@:: A point in the plane against the pair of unknown parameters.
+- two-dimensional point estimation: $(\bar x, s_{n-1})$, where $s_{n-1}$ is the sample standard deviation, against the unknown pair $(\mu, \sigma)$ ::@:: A point in the plane against the pair of unknown parameters.
 - three-dimensional point estimation: $(\hat \theta_1, \hat \theta_2, \hat \theta_3)$ against $(\theta_1, \theta_2, \theta_3)$ ::@:: A point against the triple of unknown parameters.
-- before the sample is drawn: for a point estimator ::@:: Its value cannot be predicted; only its distribution is known.
+- what is known before the sample is drawn about a point estimator of a parameter $\theta$ ::@:: The estimator itself and the distribution of the value it will take. Its value cannot be predicted.
 
 ## sampling distribution
 
@@ -99,9 +99,9 @@ Flashcards for this section are as follows:
 - the bias of an estimator for the parameter $\theta$ ::@:: The gap between the center of its sampling distribution and the parameter, so zero for an unbiased estimator.
 - $E[T(X)] = \theta + 3$ for a parameter $\theta$ ::@:: Biased, since the center of its sampling distribution is not the parameter.
 - the mean of the sampling distribution of $\bar X$ for a random sample from a population with mean $\mu$ ::@:: $\mu$, since each copy has mean $\mu$ and $\bar X$ averages the copies, which makes $\bar X$ unbiased for $\mu$.
-- an unbiased estimator, on a single sample: does the value it takes equal the parameter? ::@:: No, since centring says where the values gather and not how tightly, a single value is off the parameter except on a set of samples of probability zero.
+- an unbiased estimator of a parameter $\theta$, on a single sample: does the value it takes equal $\theta$? ::@:: No. Centring says where the values gather, not how tightly, so a single value sits off $\theta$ except on a set of samples of probability zero.
 - why the sampling distribution of $T(X)$ is needed ::@:: Studying the properties of $T$, constructing confidence intervals and formulating tests all rest on it.
 - exactly determining a sampling distribution: when it is feasible ::@:: Rarely, or with difficulty, or not at all; the normal model is the exception.
 - asymptotically determining a sampling distribution: for $n$ sufficiently large ::@:: The distribution is approximated, the central limit theorem being the leading example.
-- tools for the large-sample route ::@:: The weak law of large numbers, the central limit theorem, convergence in probability, convergence in distribution, Slutsky's lemma, the delta method and the continuous mapping theorem.
-- tools for the not-large-sample route ::@:: Bootstrapping, which resamples the single collected data set.
+- which theorems and devices supply a sampling distribution asymptotically ::@:: The weak law of large numbers, the central limit theorem, convergence in probability, convergence in distribution, Slutsky's lemma, the delta method and the continuous mapping theorem.
+- which resampling method supplies a sampling distribution with no large-sample assumption ::@:: Bootstrapping, which resamples the single collected data set.

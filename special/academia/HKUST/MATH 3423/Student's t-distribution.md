@@ -16,7 +16,7 @@ The _t distribution_ is a one-parameter family of distributions on the whole rea
 
 Flashcards for this section are as follows:
 
-- overview: for $r$ degrees of freedom ::@:: A one-parameter family of distributions, written $t(r)$, indexed by its degrees of freedom $r$.
+- what the $t$ distribution is: the family written $t(r)$ ::@:: A one-parameter family of distributions on the whole real line, indexed by a positive integer $r$, the degrees of freedom.
 - support: the values a $t(r)$ variable takes ::@:: The whole real line, $(-\infty, \infty)$.
 
 ## construction from a normal and a chi-squared variable
@@ -37,11 +37,10 @@ With the three requirements fixed, $r$ is the only free quantity. A known consta
 
 Flashcards for this section are as follows:
 
-- how a $t(r)$ variable is built: from $Z$ and $U$ ::@:: $T \stackrel{\text{def}}{=} Z / \sqrt{U/r}$, where $Z \sim N(0, 1)$, $U \sim \chi^2(r)$, and the two are independent.
-- requirements on $Z$ and $U$ in the construction of $t(r)$ ::@:: $Z$ must be standard normal, $U$ must be chi-squared divided by its own degrees of freedom, and the two must be independent.
-- why the $r$ sits inside the square root in $T \stackrel{\text{def}}{=} Z/\sqrt{U/r}$ ::@:: So that the divisor $U/r$ has mean one, which keeps the ratio at the scale of the numerator instead of shrinking it by the factor $\sqrt r$.
-- why $Z$ and $U$ have to be independent in the construction of $t(r)$ ::@:: Because the law of a ratio is not settled by the two marginal laws, so $Z$ and $U$ can each have the right distribution and still produce a ratio with a different law.
-- a known constant multiple of $T \stackrel{\text{def}}{=} Z/\sqrt{U/r}$ ::@:: It keeps the construction and gives a scaled $t$ rather than a $t$, so the family is not closed under rescaling.
+- construction of a $t(r)$ variable: for $Z \sim N(0, 1)$ and $U \sim \chi^2(r)$ independent ::@:: $T \stackrel{\text{def}}{=} Z / \sqrt{U/r}$, with $Z$ standard normal, $U$ divided by its own degrees of freedom, and the two independent.
+- why the $r$ sits inside the square root of $T = Z/\sqrt{U/r}$: for $Z \sim N(0, 1)$ and $U \sim \chi^2(r)$ independent ::@:: So that the divisor $U/r$ has mean one, which keeps the ratio at the scale of the numerator instead of shrinking it by the factor $\sqrt r$.
+- why $Z \sim N(0, 1)$ and $U \sim \chi^2(r)$ have to be independent in the construction of $t(r)$ ::@:: Because the law of a ratio is not settled by the two marginal laws, so each can have the right distribution and still produce a ratio with a different law.
+- a known nonzero constant $c$ times $T = Z/\sqrt{U/r}$ for $Z \sim N(0, 1)$ and $U \sim \chi^2(r)$ independent: does $cT$ belong to the family $t(r)$? ::@:: No. The construction survives but the scale does not, so $cT$ is a scaled $t$ and the family is not closed under rescaling.
 
 <!-- check: ignore-next-line[section_example_heading]: a matched pair of cases for the definition, kept together so the counterexample sits beside the definition it violates -->
 ### examples and counterexamples
@@ -63,7 +62,7 @@ Flashcards for this section are as follows:
 - $Z/\sqrt{U}$ with $Z \sim N(0, 1)$ and $U \sim \chi^2(r)$ independent: a $t(r)$ variable? ::@:: No, it is $\tfrac{1}{\sqrt r}t(r)$, since the denominator is missing the division by the degrees of freedom.
 - $(\mu + Z)/\sqrt{U/r}$ with $Z \sim N(0, 1)$, $U \sim \chi^2(r)$ independent, and $\mu \ne 0$: a $t(r)$ variable? ::@:: No, the numerator must be standard normal, so a non-zero $\mu$ shifts the distribution.
 - $Z/\sqrt{U/(r + 1)}$ with $Z \sim N(0, 1)$ and $U \sim \chi^2(r)$ independent: a $t(r + 1)$ variable? ::@:: No, it is $\sqrt{\tfrac{r + 1}{r}}\,t(r)$, because the law follows from the $r$ degrees of freedom that $U$ actually carries.
-- degrees of freedom of the chi-squared variable in $t(r)$: which value of $r$ ::@:: A positive integer, the degrees of freedom of the chi-squared variable in the denominator.
+- the $r$ in the construction $T = Z/\sqrt{U/r}$ of a $t(r)$ variable ::@:: A positive integer, the degrees of freedom of the chi-squared variable $U$ in the denominator.
 
 ## probability density function
 
@@ -94,5 +93,5 @@ Flashcards for this section are as follows:
 
 - limiting distribution of $t(r)$: as the degrees of freedom $r$ increase ::@:: The distribution tends to the standard normal $N(0, 1)$.
 - the upper $\alpha/2$ quantile $t_{r,\alpha/2}$ of $t(r)$ as $r$ grows ::@:: It approaches the upper $\alpha/2$ quantile $z_{\alpha/2}$ of the normal, so a normal cutoff is adequate for large $r$.
-- a confidence interval at level $1 - \alpha$ bounded with $t_{r,\alpha/2}$ when the standard error is estimated ::@:: Its endpoints are tail quantiles, where $t(r)$ and $N(0, 1)$ differ most, so the heavier $t$ tails are what widen it; using the normal cutoff instead under-covers.
-- the convergence $t(r) \to N(0, 1)$ applied to a small $r$ ::@:: Nothing, because it is a statement about large $r$; a small-$r$ member has much heavier tails than the normal's, and the correction is largest there.
+- confidence interval at level $1 - \alpha$ for a mean whose standard error is estimated, bounded with $t_{r,\alpha/2}$: what sets the width ::@:: The endpoints are tail quantiles, where $t(r)$ and $N(0, 1)$ differ most, so the heavier $t$ tails are what widen it. Using the normal cutoff $z_{\alpha/2}$ instead under-covers.
+- the convergence $t(r) \to N(0, 1)$ as $r$ grows, applied to a small $r$ ::@:: Nothing. It is a statement about large $r$, and a small-$r$ member has much heavier tails than the normal's, so the correction is largest there.
