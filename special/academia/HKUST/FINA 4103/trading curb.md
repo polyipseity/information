@@ -16,7 +16,7 @@ A _trading curb_, also called a circuit breaker, halts trading when the market b
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A halt in trading when the market becomes extremely volatile, whether from significant news or from a severe order imbalance.
+- what a trading curb is ::@:: A halt in trading when the market becomes extremely volatile, whether from significant news or from a severe order imbalance.
 - second name for a trading curb ::@:: A circuit breaker.
 
 ## halting and reopening

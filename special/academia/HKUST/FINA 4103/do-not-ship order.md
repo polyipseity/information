@@ -24,7 +24,7 @@ The instruction is one value of the routing decision and it excludes the [interm
 
 Flashcards for this section are as follows:
 
-- overview ::@:: An instruction that the order must not be routed to another exchange, even where a better price is offered there.
+- what a do-not-ship order instructs ::@:: An instruction that the order must not be routed to another exchange, even where a better price is offered there.
 - what the instruction does not stop ::@:: Trading on the venue that received the order; it executes and rests there as any other order would.
 - what giving up the protection means concretely ::@:: The order may execute at a price the market beat elsewhere, and no rule then requires it to be rerouted to the better quote.
 - can a do-not-ship instruction be combined with an intermarket sweep ::@:: No; they are alternative values of the same routing decision.

@@ -19,7 +19,7 @@ Nothing trades through it. Its only function is to say what the whole market loo
 
 Flashcards for this section are as follows:
 
-- overview ::@:: The intermediary that collects limit-order book and trade data from every exchange, aggregates them, and publishes the result to the public.
+- what a securities information processor is ::@:: The intermediary that collects limit-order book and trade data from every exchange, aggregates them, and publishes the result to the public.
 - what a securities information processor does and does not do ::@:: It reports what the whole market looks like; no trade executes through it.
 
 ## consolidated quotation and consolidated tape

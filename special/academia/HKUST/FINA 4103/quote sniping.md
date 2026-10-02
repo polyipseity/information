@@ -19,7 +19,7 @@ The buyer and the seller each have a way to avoid losing. A non-routable order d
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A race to take a resting limit order whose price has gone stale, before its owner cancels it.
+- what quote sniping is ::@:: A race to take a resting limit order whose price has gone stale, before its owner cancels it.
 - what decides a sniping race ::@:: Latency rather than price.
 - how a buyer and a seller each avoid losing the race ::@:: Both send a non-routable order, which does not announce its arrival.
 

@@ -18,7 +18,7 @@ It was a project about connection. Sixteen matching engines trading separately a
 
 Flashcards for this section are as follows:
 
-- overview ::@:: The project, from the mid-1970s to 2007, that made the sixteen United States stock exchanges behave as one consolidated venue.
+- what the national market system project was ::@:: The project, from the mid-1970s to 2007, that made the sixteen United States stock exchanges behave as one consolidated venue.
 - what equal execution services meant for the project ::@:: Execution at the New York Stock Exchange was to be the same as execution at Nasdaq.
 - why connection is necessary at all ::@:: Sixteen separately matching engines are not one exchange, however similar their rules.
 

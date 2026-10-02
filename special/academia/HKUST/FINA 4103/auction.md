@@ -16,7 +16,7 @@ An _auction_ is a mechanism that collects bids and has a market institution set 
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A mechanism that collects bids and has a market institution set the price, usually to allocate an asset.
+- what an auction is ::@:: A mechanism that collects bids and has a market institution set the price, usually to allocate an asset.
 - why auctions suit primary markets ::@:: They handle high volume and volatility efficiently.
 - assets and goods auctioned besides newly issued securities ::@:: Art, commodities, and airport slots.
 - the two auction forms that matter in financial markets ::@:: The single-sided auction, in which one side of the market is fixed, and the double auction, in which both sides propose prices and quantities.

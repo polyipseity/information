@@ -15,7 +15,7 @@ Liquidity is the ability to execute a trade at a low cost and with a small price
 
 Flashcards for this section are as follows:
 
-- overview ::@:: The ability to execute a trade at a low cost and with a small price impact.
+- what market liquidity is ::@:: The ability to execute a trade at a low cost and with a small price impact.
 - what happens to the price when a trade is executed in a liquid market ::@:: Nothing: the trading does not move the price.
 - what an infinitely liquid market does with trading needs ::@:: It fills all of them without additional costs.
 

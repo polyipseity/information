@@ -17,7 +17,7 @@ An _over-the-counter_ market is decentralized trading: a trade is struck directl
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Decentralized trading in which a trade is struck directly between two parties instead of through an exchange.
+- what over-the-counter trading is ::@:: Decentralized trading in which a trade is struck directly between two parties instead of through an exchange.
 - how two parties agree on an over-the-counter trade ::@:: Over the telephone, by email, or through a proprietary electronic trading system.
 - why an over-the-counter asset has no public price ::@:: The trade is private to the two parties, so nothing publishes a price for the asset.
 - second meaning of "decentralized" in finance ::@:: Blockchain-based trading, which is decentralized in a different sense.

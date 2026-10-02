@@ -21,7 +21,7 @@ The exchange sets those fees, not the regulator, and the rulebook takes no accou
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A take fee paid by liquidity-taking orders, a smaller rebate received by liquidity-making orders, and the difference kept by the exchange.
+- the take fee, the make rebate, and the exchange's share ::@:: A take fee paid by liquidity-taking orders, a smaller rebate received by liquidity-making orders, and the difference kept by the exchange.
 - take and make fees at the New York Stock Exchange ::@:: Take 0.21 cents and make 0.13 cents per share.
 - who sets the fees, and whether the rulebook accounts for them ::@:: The exchange sets them; the rulebook takes no account of them at all.
 - exchange profit on a matched take and make ::@:: $f_{\mathrm{take}} - f_{\mathrm{make}}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->

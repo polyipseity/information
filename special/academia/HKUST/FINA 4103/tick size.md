@@ -19,7 +19,7 @@ In theory a price takes any value in $p \in \mathbb{R}_+$, but an algorithm cann
 
 Flashcards for this section are as follows:
 
-- overview ::@:: One of the discrete numbers a price may take, with the tick size the distance between neighbours.
+- what a tick is ::@:: One of the discrete numbers a price may take, with the tick size the distance between neighbours.
 - why the price domain is discrete ::@:: A matching algorithm cannot match against a continuum, so the venue imposes a grid.
 
 ## minimum tick size

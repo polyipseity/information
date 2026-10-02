@@ -17,7 +17,7 @@ A _market maker_ is a participant that stands ready to trade an asset on both si
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A participant that stands ready to trade an asset on both sides.
+- what a market maker is ::@:: A participant that stands ready to trade an asset on both sides.
 
 ## dealer and specialist markets
 

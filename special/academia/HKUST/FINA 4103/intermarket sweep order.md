@@ -21,7 +21,7 @@ Both types are exempt from the same duty and neither guarantees the market's bes
 
 Flashcards for this section are as follows:
 
-- overview ::@:: An order released to several exchanges at once, which must execute against the best available quote and is exempt from the order protection rule.
+- what an intermarket sweep order is ::@:: An order released to several exchanges at once, which must execute against the best available quote and is exempt from the order protection rule.
 - what a venue does on receiving an ISO ::@:: It matches it against its own book, with no intermarket check and no routing of the remainder.
 - instruction an ISO is typically used with ::@:: Immediate-or-cancel; a day ISO also exists.
 - what an ISO demands of whoever sends it ::@:: A connection and a quote feed to every venue in the sweep, before anything is released.

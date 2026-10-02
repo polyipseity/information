@@ -15,7 +15,7 @@ High-frequency trading is automated trading at speeds a human trader cannot matc
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Automated trading at speeds a human trader cannot match, made possible by electronic trading in a fragmented market.
+- what high-frequency trading is ::@:: Automated trading at speeds a human trader cannot match, made possible by electronic trading in a fragmented market.
 
 ## speed and latency
 

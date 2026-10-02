@@ -16,7 +16,7 @@ _Unlisted Trading Privileges_ (UTP) let a stock listed on one exchange be traded
 
 Flashcards for this section are as follows:
 
-- overview ::@:: The rule letting a stock listed on one exchange be traded on all the others, so listing and trading are separate decisions.
+- what unlisted trading privileges allow ::@:: The rule letting a stock listed on one exchange be traded on all the others, so listing and trading are separate decisions.
 - which rule grants unlisted trading privileges ::@:: Rule 12(f) of the Securities Exchange Act of 1934.
 - what the listing exchange loses once listing and trading are separate ::@:: Any say over where the stock trades.
 

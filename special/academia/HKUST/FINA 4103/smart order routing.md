@@ -18,7 +18,7 @@ It exists because a large order cannot be filled in one venue: even a modest blo
 
 Flashcards for this section are as follows:
 
-- overview ::@:: The automated handling of an order across venues, placing it where it can be filled best.
+- what smart order routing does ::@:: The automated handling of an order across venues, placing it where it can be filled best.
 - which rule a smart order router exists to discharge ::@:: The order protection rule, Rule 611.
 - why a large order needs routing at all ::@:: It runs out of size at the best price, and the remainder must go somewhere at a worse price.
 

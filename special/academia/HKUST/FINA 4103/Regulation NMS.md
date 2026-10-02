@@ -25,7 +25,7 @@ The first two protect the price, the third fixes the grid the price sits on, and
 
 Flashcards for this section are as follows:
 
-- overview ::@:: The SEC rule of June 2005 that turns the aim of the national market system into an enforceable rulebook.
+- what Regulation NMS made enforceable ::@:: The SEC rule of June 2005 that turns the aim of the national market system into an enforceable rulebook.
 - when Regulation NMS was adopted ::@:: June 2005.
 - what Regulation NMS is mostly about ::@:: Trade execution: at which price a trade may execute, and how fast.
 - order protection rule, its number, and what it forbids ::@:: Rule 611, which forbids a trade-through.

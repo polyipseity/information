@@ -19,7 +19,7 @@ Li, Ye, and Zheng (2022, _Journal of Financial Economics_) work from proprietary
 
 Flashcards for this section are as follows:
 
-- overview ::@:: An order that refuses the routing Regulation NMS requires, accepting that the best price may be elsewhere.
+- what a non-routable order refuses ::@:: An order that refuses the routing Regulation NMS requires, accepting that the best price may be elsewhere.
 - two order types that are non-routable ::@:: The intermarket sweep order and the do-not-ship order.
 - share of orders in the sample that refused the routing stipulated by Reg NMS ::@:: 57%.
 - data the finding rests on ::@:: Proprietary trade-by-trade order-type data from the New York Stock Exchange.
