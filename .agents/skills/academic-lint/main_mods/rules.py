@@ -1829,12 +1829,16 @@ def header_flashcard_presence(ctx: ValidationContext) -> list[ValidationMessage]
             continue
         if not re.search(r"::@::|:@:|Flashcards for", section):
             start = hdr_pos
-            line, col, col_end = locate_range(ctx.text, start, len(h.group(0)))
+            # report the heading as it reads, without any suppression comment
+            body = h.group(2)
+            heading = f"{h.group(1)} {re.sub(r'<!--.*?-->', '', body).strip()}"
+            span = len(heading) if h.group(0).startswith(heading) else len(h.group(0))
+            line, col, col_end = locate_range(ctx.text, start, span)
             errors.append(
                 ValidationMessage(
                     rule_id="header_flashcard_presence",
                     msg=(
-                        f"header {h.group(0).strip()!r} has no flashcard markers in its own body, "
+                        f"header {heading!r} has no flashcard markers in its own body, "
                         "the text between it and the first heading below it; "
                         "convert key sentences into cards and include any relevant "
                         "diagrams or images from the paragraph above. Cards under a "
