@@ -51,7 +51,8 @@ Flashcards for this section are as follows:
 - microkernel performance drawback ::@:: Overhead from user-space to kernel-space communication and message copying between separate address spaces.
 - Windows NT migration ::@:: Windows NT originally used a layered microkernel but performed worse than Windows 95; later versions moved more functions into the kernel, becoming more monolithic for performance.
 
-## the Mach and Darwin kernels
+<!-- check: ignore-next-line[header_style]: proper nouns -->
+## Mach and Darwin
 
 Mach, developed at CMU in the mid-1980s, was an early microkernel. The best-known microkernel OS is Darwin, used in Mac OS X and iOS. Darwin is a hybrid XNU kernel combining the Mach microkernel and the BSD UNIX kernel.
 

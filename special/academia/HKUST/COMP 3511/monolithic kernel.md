@@ -35,7 +35,8 @@ Flashcards for this section are as follows:
 - monolithic kernel drawback ::@:: Enormous functionality combined into one level makes the system difficult to implement, debug, and maintain.
 - why monolithic kernels persist ::@:: Their speed and efficiency — direct function calls within one address space have minimal overhead — keep them in use in UNIX, Linux, and Windows.
 
-## the Linux kernel structure
+<!-- check: ignore-next-line[header_style]: Linux is a proper noun -->
+## Linux system structure
 
 The Linux kernel is monolithic: it runs entirely in kernel mode in a single address space, with applications using glibc to reach the system-call interface.
 

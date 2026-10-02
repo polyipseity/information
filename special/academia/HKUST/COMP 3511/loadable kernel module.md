@@ -33,7 +33,8 @@ Flashcards for this section are as follows:
 - modular approach versus microkernel ::@:: Both have a minimal core with additional services, but modules communicate through direct function calls rather than message passing, giving better performance.
 - runtime module loading ::@:: A kernel module such as a device driver can be loaded when a new device is detected (e.g., a USB device plugged in) and removed when no longer needed, without rebooting.
 
-## loadable kernel modules
+<!-- check: ignore-next-line[header_style]: Linux is a proper noun, LKM is an acronym -->
+## Linux and LKMs
 
 Linux uses loadable kernel modules primarily for device drivers and file systems. Modules can be inserted and removed at runtime, letting Linux keep a monolithic architecture for performance while supporting a wide range of hardware without rebuilding the kernel.
 

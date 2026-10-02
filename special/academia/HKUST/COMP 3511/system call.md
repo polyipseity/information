@@ -19,7 +19,8 @@ Flashcards for this section are as follows:
 - what a system call is ::@:: The programmatic interface through which a running program requests a service from the operating system kernel, moving between user mode and kernel mode.
 - user mode versus kernel mode ::@:: User mode restricts a program to non-privileged instructions; kernel mode grants full access to hardware and system resources. A system call is the mechanism that transitions between the two.
 
-## the API (application program interface)
+<!-- check: ignore-next-line[header_style]: API is an acronym -->
+## API (Application Program Interface)
 
 An application program interface (API) specifies functions available to application programmers, including parameters and return values. API functions then invoke the actual system call on behalf of the program. For example, Windows `CreateProcess()` invokes the `NTCreateProcess()` system call in the Windows kernel.
 
