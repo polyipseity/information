@@ -2012,48 +2012,39 @@ def header_flashcard_separator(ctx: ValidationContext) -> list[ValidationMessage
     return errors
 
 
-@RULE_REGISTRY.register()
-def header_flashcard_style_mixed(ctx: ValidationContext) -> list[ValidationMessage]:
-    """Disallow mixing prose flashcards with question blocks in one section.
+"""A prose card marker on a blockquote line: a card inside a question."""
+_CARD_MARKER_ON_QUOTE_RE = re.compile(
+    r"^[ \t]*>.*(?:::@::|(?<!:):@:(?!:))", re.MULTILINE
+)
 
-    A section carries one flashcard style. It either presents its material as
-    prose with cards (``::@::`` / ``:@:``, or a ``Flashcards for this section are
-    as follows:`` block) or as question blocks whose ``- solution:`` /
-    ``- explanation:`` lines carry clozes. Mixing the two in one section is what
-    happens when a prompt that is not a question is written as a solution line;
-    see "Flashcard style per section" in `academic-ingest`.
+
+@RULE_REGISTRY.register()
+def qa_card_inside_question(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Disallow a prose card marker inside a blockquote question block.
+
+    A question block carries its clozes on ``- solution:`` / ``- explanation:``
+    lines, so a ``::@::`` or ``:@:`` marker sitting on a blockquote line puts a
+    card where the answer belongs. A section may hold prose cards and question
+    blocks side by side, each with its own block, so this is about the card
+    being inside the question, not about the two meeting in one section; see
+    "Flashcard style per section" in `academic-ingest`.
     """
     errors: list[ValidationMessage] = []
     if _flashcard_rule_exempt(ctx.path):
         return errors
 
-    prose_re = re.compile(
-        r"::@::|(?<!:):@:(?!:)|^\s*Flashcards for this section are as follows:\s*$",
-        re.IGNORECASE | re.MULTILINE,
-    )
-    headers = _build_filtered_header_positions(ctx.text, ctx.ast)
-    for i, (hdr_pos, _lvl, h) in enumerate(headers):
-        hdr_end = h.end()
-        # Judge each section on its own text: sibling subsections may each use a
-        # different style.
-        section = ctx.text[hdr_end : _own_body_end(headers, i, len(ctx.text))]
-        if not _BLOCKQUOTED_SOLUTION_RE.search(section):
-            continue
-        prose = prose_re.search(section)
-        if not prose:
-            continue
-        start = hdr_end + prose.start()
-        line, col, col_end = locate_range(ctx.text, start, len(prose.group(0)))
+    for match in _CARD_MARKER_ON_QUOTE_RE.finditer(ctx.text):
+        line, col, col_end = locate_range(
+            ctx.text, match.start(), match.end() - match.start()
+        )
         errors.append(
             ValidationMessage(
-                rule_id="header_flashcard_style_mixed",
+                rule_id="qa_card_inside_question",
                 msg=(
-                    f"section {h.group(0).strip()!r} mixes flashcard styles: it has both "
-                    "prose flashcards (::@:: / :@:, or a 'Flashcards for this section "
-                    "are as follows:' block) and question blocks with '- solution:'/"
-                    "'- explanation:' lines. A section uses one style: keep the section "
-                    "prose with its own cards, or make every prompt in it a question "
-                    "block with cloze solution lines."
+                    "a card marker appears on a blockquote line: this is a question "
+                    "block, so put the clozes on its '- solution:' / '- explanation:' "
+                    "lines, or move the card out of the blockquote into the section's "
+                    "own 'Flashcards for this section are as follows:' block"
                 ),
                 line=line,
                 col=col,
