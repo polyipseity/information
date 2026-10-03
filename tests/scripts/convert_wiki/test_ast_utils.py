@@ -583,6 +583,24 @@ class TestAllMathRanges:
         result = _all_math_ranges("$a$ and $b$ and $c$")
         assert len(result) == 3
 
+    def test_two_block_math_cells_split(self) -> None:
+        """``$$a$$ | $$b$$`` yields two ranges, not one spanning the cell boundary.
+
+        mistune reads the pair as a single block-math token, so a pipe-table
+        cell boundary between them would otherwise be treated as math.
+        """
+        text = " $$a$$ | $$b$$ "
+        start, end = text.index("a"), text.index("b") + 1
+
+        assert _all_math_ranges(text) == [(start, start + 1), (end - 1, end)]
+
+    def test_single_block_math_keeps_its_pipes(self) -> None:
+        """A lone ``$$a \\lvert b \\rvert$$`` span still covers its own pipes."""
+        text = " $$\\lvert b \\rvert$$ "
+        ((start, end),) = _all_math_ranges(text)
+
+        assert text[start:end] == "\\lvert b \\rvert"
+
     def test_parse_error(self) -> None:
         """Malformed input that fails parsing yields no ranges."""
         # Extremely malformed input that causes parse to return a string
