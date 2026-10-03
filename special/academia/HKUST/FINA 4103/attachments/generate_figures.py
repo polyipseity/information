@@ -128,9 +128,18 @@ def build() -> str:
     return "".join(out)
 
 
+def _normalise_trailing_newline(svg: str) -> str:
+    """Return ``svg`` ending in exactly one newline, whatever it ended in before."""
+    text = svg.rstrip() + "\n"
+    # A tripwire, not a check. The strip above cannot fail; this is here so a
+    # later edit to that line cannot bring back the defect this prevents.
+    assert text.endswith("\n") and not text.endswith("\n\n"), repr(text[-20:])
+    return text
+
+
 def main() -> None:
     target = Path(__file__).with_name("utp_listing_and_trading.svg")
-    target.write_text(build(), encoding="utf-8")
+    target.write_text(_normalise_trailing_newline(build()), encoding="utf-8")
     print(f"wrote {target}")
 
 

@@ -88,6 +88,8 @@ The generated set comes from a single script kept in the same `attachments/` dir
 
 Let the library place everything. Chain the elements in drawing order, attach each label to the element it belongs to, and hang leads on named anchors so its defaults decide every position. Pass no coordinate and no nudge, because one that exists to make the picture look right breaks as soon as anything moves. State only what carries meaning: direction, size, colour, order.
 
+Every file the script saves ends with exactly one newline, and the script guarantees it rather than leaving it to the last line of the last drawing.
+
 Then wire the figure into the note, and check it:
 
 - Embed it inline in the note that defines the thing, joined to the sentence by `<p>`: `text. <p> ![plain-language alt text](attachments/<name>.svg)`. Write alt text in plain words with no LaTeX, and write it from the image in front of you, not from a description of it.

@@ -347,12 +347,32 @@ FIGURES = (
 )
 
 
+def _normalise_trailing_newline(svg: str) -> str:
+    """Return ``svg`` ending in exactly one newline, whatever it ended in before."""
+    text = svg.rstrip() + "\n"
+    # A tripwire, not a check. The strip above cannot fail; this is here so a
+    # later edit to that line cannot bring back the defect this prevents.
+    assert text.endswith("\n") and not text.endswith("\n\n"), repr(text[-20:])
+    return text
+
+
+def _write_svg(path: Path) -> None:
+    """Fix the trailing newline of an SVG ``savefig`` has already written.
+
+    matplotlib owns the bytes it writes, so there is nothing to normalise
+    before the write. Read the file back and fix it afterwards.
+    """
+    text = path.read_text(encoding="utf-8")
+    path.write_text(_normalise_trailing_newline(text), encoding="utf-8")
+
+
 def main(argv: list[str] | None = None) -> None:
     """Write every drawing in this set beside the script."""
     del argv
     for name, build in FIGURES:
         output = Path(__file__).with_name(name)
         build().savefig(output, format="svg", transparent=True, metadata={"Date": None})
+        _write_svg(output)
         print(output)
 
 

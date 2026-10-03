@@ -520,6 +520,15 @@ FIGURES = {
 }
 
 
+def _normalise_trailing_newline(svg: str) -> str:
+    """Return ``svg`` ending in exactly one newline, whatever it ended in before."""
+    text = svg.rstrip() + "\n"
+    # A tripwire, not a check. The strip above cannot fail; this is here so a
+    # later edit to that line cannot bring back the defect this prevents.
+    assert text.endswith("\n") and not text.endswith("\n\n"), repr(text[-20:])
+    return text
+
+
 def main(argv: Sequence[str] | None = None) -> None:
     """Write every figure beside this script, or into the directory named by ``--outdir``."""
     parser = argparse.ArgumentParser(description=__doc__)
@@ -528,7 +537,9 @@ def main(argv: Sequence[str] | None = None) -> None:
     outdir: Path = args.outdir
     outdir.mkdir(parents=True, exist_ok=True)
     for name, build in FIGURES.items():
-        (outdir / name).write_text(build(), encoding="utf-8")
+        (outdir / name).write_text(
+            _normalise_trailing_newline(build()), encoding="utf-8"
+        )
         print(f"wrote {fspath(outdir / name)}")
 
 
