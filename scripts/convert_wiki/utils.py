@@ -42,6 +42,7 @@ def _fix_name_maybe(
     normalize: bool = True,
     replace_underscores: bool = False,
     names_map: Mapping[str, str] | None = None,
+    lowercase_fallback: bool = True,
 ) -> str:
     """Normalise a Wikipedia page title via the name map with fallback.
 
@@ -53,6 +54,11 @@ def _fix_name_maybe(
     4. Retry lookup with the (potentially underscore-replaced) name.
        If still not found, apply the lowercase-first-char fallback:
        ``name[1:].islower() or len(name) <= 1`` → lowercase first character.
+
+    Set *lowercase_fallback* to False where the text is prose rather than a
+    page title, as for a heading: a name in the map is worth adopting, but
+    guessing a heading's case from the map lowercases every proper noun it
+    does not happen to contain.
     """
     names_map = names_map if names_map is not None else _cfg._NAMES_MAP
     if normalize:
@@ -63,7 +69,7 @@ def _fix_name_maybe(
         name = name.replace("_", " ")
         if name in names_map:
             return names_map[name]
-    if len(name) > 1 and name[1:].islower():
+    if lowercase_fallback and len(name) > 1 and name[1:].islower():
         lowered = name[0].lower() + name[1:]
         if lowered in names_map:
             return names_map[lowered]

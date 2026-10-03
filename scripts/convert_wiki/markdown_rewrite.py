@@ -50,12 +50,14 @@ def _resolve_plain_rewrite(
     names_map: Mapping[str, str],
     migrations: Mapping[str, str] | None = None,
     replace_underscores: bool = False,
+    lowercase_fallback: bool = True,
 ) -> str:
     """Resolve a plain-text span via the name map, then stem migrations."""
     new_plain = _fix_name_maybe(
         plain,
         replace_underscores=replace_underscores,
         names_map=names_map,
+        lowercase_fallback=lowercase_fallback,
     )
     if migrations is not None:
         new_plain = migrations.get(new_plain, new_plain)
@@ -227,9 +229,12 @@ def _rewrite_markdown_headings(
     """Fix heading-text casing at all levels (``#``-``######``).
 
     Re-applies the ingestion heuristic ``_fix_name_maybe`` (with
-    ``replace_underscores=False``) to the plain text of every top-level
-    ATX heading, using *names_map*, then applies stem *migrations* on top
-    so renamed or re-cased stems propagate to headings at every level.
+    ``replace_underscores=False`` and no lowercase-first-char fallback) to
+    the plain text of every top-level ATX heading, using *names_map*, then
+    applies stem *migrations* on top so renamed or re-cased stems propagate
+    to headings at every level. A heading is prose, so a name the map does
+    not hold is left alone rather than guessed at: the fallback would
+    lowercase ``Hubble's law`` and ``Python implementation``.
     YAML frontmatter and fenced code blocks are excluded. Idempotent on
     already-canonical headings.
     """
@@ -303,6 +308,7 @@ def _rewrite_markdown_headings(
             names_map=names_map,
             migrations=migrations,
             replace_underscores=False,
+            lowercase_fallback=False,
         )
         if new_plain == plain:
             continue

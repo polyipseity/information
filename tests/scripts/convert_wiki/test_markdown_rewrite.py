@@ -417,6 +417,18 @@ class TestRewriteMarkdownHeadings:
         rewritten = _rewrite_markdown_headings(text, _EFFECTIVE, _MIGRATIONS)
         assert rewritten == "## Modern physics\n"
 
+    def test_proper_noun_heading_is_not_lowercased(self) -> None:
+        """A heading the map does not hold keeps its case."""
+        text = "### Hubble's law and the expansion of the universe\n"
+        assert _rewrite_markdown_headings(text, _EFFECTIVE, _MIGRATIONS) == text
+
+    def test_proper_noun_in_a_mapped_heading_is_adopted(self) -> None:
+        """A heading the map holds is still re-cased."""
+        text = "## hubble law\n"
+        assert _rewrite_markdown_headings(text, {"hubble law": "Hubble law"}) == (
+            "## Hubble law\n"
+        )
+
     def test_preserves_frontmatter_including_comments(self) -> None:
         """YAML frontmatter (even ``# comment`` lines) must stay untouched."""
         text = (
