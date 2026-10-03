@@ -2012,7 +2012,7 @@ def header_flashcard_separator(ctx: ValidationContext) -> list[ValidationMessage
     return errors
 
 
-"""A prose card marker on a blockquote line: a card inside a question."""
+"""A prose card marker on a line of a blockquote that answers a question."""
 _CARD_MARKER_ON_QUOTE_RE = re.compile(
     r"^[ \t]*>.*(?:::@::|(?<!:):@:(?!:))", re.MULTILINE
 )
@@ -2023,34 +2023,40 @@ def qa_card_inside_question(ctx: ValidationContext) -> list[ValidationMessage]:
     """Disallow a prose card marker inside a blockquote question block.
 
     A question block carries its clozes on ``- solution:`` / ``- explanation:``
-    lines, so a ``::@::`` or ``:@:`` marker sitting on a blockquote line puts a
-    card where the answer belongs. A section may hold prose cards and question
-    blocks side by side, each with its own block, so this is about the card
-    being inside the question, not about the two meeting in one section; see
-    "Flashcard style per section" in `academic-ingest`.
+    lines, so a ``::@::`` or ``:@:`` marker on one of its lines puts a card
+    where the answer belongs. A blockquote that answers nothing is a quoted
+    passage or a quoted card list, and this rule stays off it. A section may
+    hold prose cards and question blocks side by side, each with its own block,
+    so what this catches is the card sitting inside the question, not the two
+    meeting in one section; see "Flashcard style per section" in
+    `academic-ingest`.
     """
     errors: list[ValidationMessage] = []
     if _flashcard_rule_exempt(ctx.path):
         return errors
 
-    for match in _CARD_MARKER_ON_QUOTE_RE.finditer(ctx.text):
-        line, col, col_end = locate_range(
-            ctx.text, match.start(), match.end() - match.start()
-        )
-        errors.append(
-            ValidationMessage(
-                rule_id="qa_card_inside_question",
-                msg=(
-                    "a card marker appears on a blockquote line: this is a question "
-                    "block, so put the clozes on its '- solution:' / '- explanation:' "
-                    "lines, or move the card out of the blockquote into the section's "
-                    "own 'Flashcards for this section are as follows:' block"
-                ),
-                line=line,
-                col=col,
-                col_end=col_end,
+    for offset, block in _iter_blockquote_blocks(ctx.text):
+        if not _block_has_solution(block):
+            continue
+        for match in _CARD_MARKER_ON_QUOTE_RE.finditer(block):
+            start = offset + match.start()
+            line, col, col_end = locate_range(
+                ctx.text, start, match.end() - match.start()
             )
-        )
+            errors.append(
+                ValidationMessage(
+                    rule_id="qa_card_inside_question",
+                    msg=(
+                        "a card marker sits inside a question block: put the clozes on "
+                        "its '- solution:' / '- explanation:' lines, or move the card "
+                        "out of the blockquote into the section's own 'Flashcards for "
+                        "this section are as follows:' block"
+                    ),
+                    line=line,
+                    col=col,
+                    col_end=col_end,
+                )
+            )
     return errors
 
 
