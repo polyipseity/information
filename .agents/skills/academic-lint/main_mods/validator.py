@@ -57,6 +57,9 @@ _CONSOLE = Console(markup=False, emoji=False, highlight=False)
 """Regex matching a Markdown heading line (``^\\s*#{1,6}\\s+``)."""
 HEADING_LINE_RE = re.compile(r"^\s*#{1,6}\s+")
 
+"""The two directives that span a run of lines rather than one."""
+_REGION_KINDS = frozenset({"ignore-begin", "ignore-end"})
+
 
 async def check_markdown_file(path: Path) -> list[ValidationMessage]:
     """Validate a single Markdown file and return any messages found.
@@ -71,23 +74,45 @@ async def check_markdown_file(path: Path) -> list[ValidationMessage]:
     errors: list[ValidationMessage] = []
     text = await path.read_text(encoding="utf-8")
 
-    # parse suppression comments of the form
-    # <!-- check: ignore-line[rule1, rule2]: rationale -->
-    # <!-- check: ignore-next-line[rule1, rule2]: rationale -->
-    # <!-- check: ignore-file[rule1, rule2]: rationale -->
-    # Build a map from target line number to rule IDs and suppression kinds
-    # (line/next-line), and a separate list of file-level suppressions.
-    # Also emit a warning if the rationale is missing or if no rules are listed.
+    # Suppression comments come in five kinds:
+    #
+    #   <!-- check: ignore-line[rule]: rationale -->       this line
+    #   <!-- check: ignore-next-line[rule]: rationale -->   the line below
+    #   <!-- check: ignore-file[rule]: rationale -->       the whole file
+    #   <!-- check: ignore-begin[rule]: rationale -->      opens a region
+    #   <!-- check: ignore-end[rule]: rationale -->        closes that region
+    #
+    # `suppressions` maps a line number to the rules silenced there, and
+    # `file_suppressions` holds the file-wide ones. The first three kinds go
+    # straight in. A region covers lines the author cannot edit, such as an
+    # indented code block, so it is expanded into every line it spans once the
+    # closer has been read.
     suppressions: dict[int, dict[str, set[str]]] = {}
     file_suppressions: list[tuple[str, int]] = []
+    # A directive inside a fence targets code that is never checked, so it
+    # suppresses nothing. The fence walk is the rules module's rather than a
+    # second one here, since two copies of the same scan drift apart.
+    front_head = FRONT_RE.match(text)
+    body_start = front_head.end() if front_head else 0
+    fenced_lines = dict(rules.iter_fence_state(text, body_start))
+    # Line of the open region and the rules it named, or None when none is
+    # open. Regions do not nest, so this is a pair rather than a stack.
+    region_line: int | None = None
+    region_rules: frozenset[str] = frozenset()
+    # Closed regions as (first line, last line, rule). Kept so a region can be
+    # judged for redundancy as a whole rather than line by line.
+    region_spans: list[tuple[int, int, str]] = []
+    offset = 0
     for lineno, line in enumerate(text.splitlines(), start=1):
+        fenced = fenced_lines.get(offset, False)
+        offset += len(line) + 1
         # gather all suppression directives on this line so we can detect
         # duplicates of the same kind (ignore-line vs ignore-next-line vs
         # ignore-file). Authors should merge them since the syntax already
         # allows listing multiple rule names in a single comment.
         matches = list(
             re.finditer(
-                r"<!--\s*check:\s*(ignore-(?:line|next-line|file))\s*\[([^\]]*)\]\s*:\s*(.*?)\s*-->",
+                r"<!--\s*check:\s*(ignore-(?:line|next-line|file|begin|end))\s*\[([^\]]*)\]\s*:\s*(.*?)\s*-->",
                 line,
             )
         )
@@ -129,7 +154,82 @@ async def check_markdown_file(path: Path) -> list[ValidationMessage]:
                         line=lineno,
                     )
                 )
-            if kind == "ignore-file":
+
+            if fenced:
+                errors.append(
+                    ValidationMessage(
+                        "suppression-in-code-block",
+                        (
+                            f"{kind} sits inside a fenced code block, so it "
+                            "suppresses nothing; move it outside and wrap the "
+                            "block in ignore-begin and ignore-end"
+                        ),
+                        severity=Severity.WARNING,
+                        line=lineno,
+                    )
+                )
+                continue
+
+            if kind == "ignore-begin":
+                if region_line is not None:
+                    errors.append(
+                        ValidationMessage(
+                            "suppression-region-nested",
+                            (
+                                f"this ignore-begin lands inside the region "
+                                f"opened on line {region_line}; regions cannot "
+                                "nest, so close that one first or widen its "
+                                "rule list"
+                            ),
+                            line=lineno,
+                        )
+                    )
+                    # Leave the outer region open on purpose. Registering this
+                    # one would either hide the collision or hand the opener an
+                    # "unclosed" complaint it did nothing to earn.
+                    continue
+                region_line = lineno
+                region_rules = frozenset(rule_ids)
+            elif kind == "ignore-end":
+                if region_line is None:
+                    errors.append(
+                        ValidationMessage(
+                            "suppression-pair-mismatch",
+                            "ignore-end has no ignore-begin above it to close",
+                            line=lineno,
+                        )
+                    )
+                    continue
+                if frozenset(rule_ids) != region_rules:
+                    errors.append(
+                        ValidationMessage(
+                            "suppression-pair-mismatch",
+                            (
+                                f"this ignore-end names {sorted(rule_ids)} while "
+                                f"the ignore-begin on line {region_line} named "
+                                f"{sorted(region_rules)}; both ends of a region "
+                                "have to name the same rules"
+                            ),
+                            line=lineno,
+                        )
+                    )
+                    # The author clearly meant to close here, so close it. Left
+                    # open, the opener would also collect an "unclosed"
+                    # complaint, and the author would be chasing two lines for
+                    # one mistake. Nothing is suppressed: the two ends disagree,
+                    # so there is no agreement to apply.
+                    region_line = None
+                    region_rules = frozenset()
+                    continue
+                for target in range(region_line, lineno + 1):
+                    for rid in rule_ids:
+                        rid_map = suppressions.setdefault(target, {})
+                        rid_map.setdefault(rid, set()).add("ignore-begin")
+                for rid in rule_ids:
+                    region_spans.append((region_line, lineno, rid))
+                region_line = None
+                region_rules = frozenset()
+            elif kind == "ignore-file":
                 for rid in rule_ids:
                     file_suppressions.append((rid, lineno))
             else:
@@ -138,8 +238,11 @@ async def check_markdown_file(path: Path) -> list[ValidationMessage]:
                     rid_map = suppressions.setdefault(target, {})
                     rid_map.setdefault(rid, set()).add(kind)
 
-        # warn when suppression directives are placed on a heading line
-        if matches and HEADING_LINE_RE.search(line):
+        # warn when suppression directives are placed on a heading line. A
+        # region opener is the exception: covering a heading with the lines
+        # around it is the whole point of the pair.
+        covering_line = [m for m in matches if m.group(1) not in _REGION_KINDS]
+        if covering_line and HEADING_LINE_RE.search(line):
             errors.append(
                 ValidationMessage(
                     "suppression-on-heading",
@@ -149,6 +252,18 @@ async def check_markdown_file(path: Path) -> list[ValidationMessage]:
                     line=lineno,
                 )
             )
+
+    if region_line is not None:
+        errors.append(
+            ValidationMessage(
+                "suppression-pair-mismatch",
+                (
+                    f"the ignore-begin on line {region_line} is never closed; "
+                    "add an ignore-end naming the same rules"
+                ),
+                line=region_line,
+            )
+        )
 
     front = parse_frontmatter(text)
     if not front:
@@ -165,10 +280,8 @@ async def check_markdown_file(path: Path) -> list[ValidationMessage]:
         except Exception:
             data = Frontmatter()
 
-        body = text
-        m = FRONT_RE.match(text)
-        if m:
-            body = text[m.end() :]
+        # front_head was matched once already, while walking for fences
+        body = text[front_head.end() :] if front_head else text
 
     # Parse the Markdown text (without YAML frontmatter) into an AST once,
     # so all rules can share the structured representation instead of each
@@ -257,10 +370,21 @@ async def check_markdown_file(path: Path) -> list[ValidationMessage]:
     if suppressions or file_suppressions:
         active_pairs = {(m.line, m.rule_id) for m in errors if m.line is not None}
         active_rules = {m.rule_id for m in errors}
+        # The exact lines a region covers, keyed by rule. Skipping whole rule
+        # IDs instead would also spare every single-line suppression of the
+        # same rule anywhere in the file, which is the next thing down.
+        region_lines = {
+            (line, rid)
+            for start, end, rid in region_spans
+            for line in range(start, end + 1)
+        }
         # line- and next-line-specific suppressions
         for target, rule_map in suppressions.items():
             for rid in rule_map:
-                if rid not in known_rule_ids:
+                # A rule covering a region is judged once per region below,
+                # not once per line, or a working region would report
+                # itself redundant on every line it silences.
+                if rid not in known_rule_ids or (target, rid) in region_lines:
                     continue
                 if (target, rid) not in active_pairs:
                     errors.append(
@@ -270,6 +394,25 @@ async def check_markdown_file(path: Path) -> list[ValidationMessage]:
                             line=target,
                         )
                     )
+        # region suppressions, judged across the whole span
+        for start, end, rid in region_spans:
+            if rid not in known_rule_ids:
+                continue
+            silenced = any(
+                m.line is not None and start <= m.line <= end and m.rule_id == rid
+                for m in errors
+            )
+            if not silenced:
+                errors.append(
+                    ValidationMessage(
+                        "suppression-redundant",
+                        (
+                            f"the region suppressing rule {rid!r} on lines "
+                            f"{start}-{end} silenced nothing"
+                        ),
+                        line=start,
+                    )
+                )
         # file-level suppressions
         for rid, lineno in file_suppressions:
             if rid not in known_rule_ids:

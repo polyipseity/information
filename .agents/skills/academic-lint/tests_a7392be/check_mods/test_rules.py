@@ -3893,6 +3893,43 @@ def test_line_leading_whitespace():
     assert not line_leading_whitespace(make_ctx("answer\n\nmore\n"))
 
 
+def test_edge_rules_skip_an_indented_fence_below_frontmatter():
+    """A fence indented under a list item is code, even with frontmatter above.
+
+    The fence scan returns offsets into the whole text while the rules walk the
+    body below the frontmatter, so the two sets have to be in the same
+    coordinates. When they were not, every line of a list-nested fence was
+    reported as padded prose. Both rules share the bug and the fix.
+    """
+    txt = (
+        "---\ntags: [flashcard/active/special/academia/test]\n---\n"
+        "# tutorial\n\n"
+        "1. Do it.\n\n"
+        "    ```sh\n"
+        "    python submit.py\n"
+        "    ```\n\n"
+        "2. Done.\n"
+    )
+    assert not line_leading_whitespace(make_ctx(txt))
+    assert not line_trailing_whitespace(make_ctx(txt))
+
+    # The same fence with no frontmatter was already quiet, which is why the
+    # offset went unnoticed: body_start was 0 and the two sets agreed.
+    no_front = txt[txt.index("# tutorial") :]
+    assert not line_leading_whitespace(make_ctx(no_front))
+    assert not line_trailing_whitespace(make_ctx(no_front))
+
+    # Padding outside the fence is still a defect, so the fix is not a blanket
+    # skip of anything indented.
+    padded = (
+        "---\ntags: [flashcard/active/special/academia/test]\n---\n"
+        "# tutorial\n\n"
+        "1. Do it.\n\n"
+        "  Padded prose.\n"
+    )
+    assert len(line_leading_whitespace(make_ctx(padded))) == 1
+
+
 def test_line_trailing_whitespace():
     """Trailing whitespace, and a tag that breaks nothing, are defects.
 

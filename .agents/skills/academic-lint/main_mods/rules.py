@@ -5289,28 +5289,28 @@ def _edge_tag_starting_at(text: str, start: int) -> re.Match[str] | None:
     return _CONTENT_HTML_BREAK_RE.match(text, start)
 
 
-def _edge_fenced_line_offsets(body: str) -> frozenset[int]:
-    """Return the offsets of *body* lines belonging to a fenced code block.
+def iter_fence_state(text: str, body_start: int) -> Iterator[tuple[int, bool]]:
+    """Yield ``(offset, in_fence)`` for every line of *text* from *body_start*.
 
-    Covers the delimiter lines as well as the content, since a fence indented
-    to sit inside a list item has indented delimiters too and those are as
-    correct as the content between them.
+    ``in_fence`` is ``True`` for the opening delimiter, every content line,
+    and the closing delimiter, so a caller asking "is this line inside a code
+    block" gets the delimiters too. Those are as much part of the block as
+    what sits between them.
 
-    A line scan rather than the AST, because a fence indented by four spaces is
-    not a ``block_code`` node: at that indentation CommonMark reads the
-    backticks as literal text, so the AST sees nothing and the code lines look
-    like ordinary indented text.  The delimiter may carry any indentation,
-    which is how those fences are written here.
+    This is a line scan rather than an AST walk because a fence indented by
+    four spaces is not a ``block_code`` node: at that indentation CommonMark
+    reads the backticks as literal text, so the AST sees nothing and the code
+    lines look like ordinary indented text. The delimiter may carry any
+    indentation, which is how those fences are written here.
 
-    A fence-looking line in prose opens a block and hides the rest of the file
-    from the edge rules.  That under-reports rather than mis-reports, which is
-    the right way for a linter to be wrong, and ``_is_inside_code_block`` still
-    runs as a second gate for the fences the AST does see.
+    A fence-looking line in prose opens a block and hides the rest of the
+    file from whoever asks. That under-reports rather than mis-reports, which
+    is the right way for a linter to be wrong, and ``_is_inside_code_block``
+    still runs as a second gate for the fences the AST does see.
     """
-    offsets: set[int] = set()
-    offset = 0
+    offset = body_start
     fence = ""
-    for line in body.splitlines(keepends=True):
+    for line in text[body_start:].splitlines(keepends=True):
         m = re.match(r"^\s*(`{3,}|~{3,})", line)
         if m:
             marker = m.group(1)
@@ -5318,11 +5318,24 @@ def _edge_fenced_line_offsets(body: str) -> frozenset[int]:
                 fence = marker[0] * 3
             elif marker[0] == fence[0]:
                 fence = ""
-            offsets.add(offset)
+            yield offset, True
         elif fence:
-            offsets.add(offset)
+            yield offset, True
+        else:
+            yield offset, False
         offset += len(line)
-    return frozenset(offsets)
+
+
+def _edge_fenced_line_offsets_in_text(text: str, body_start: int) -> frozenset[int]:
+    """Return the offsets of the fenced code block lines in *text*.
+
+    Offsets are relative to *text*, not to the body that starts at
+    *body_start*, so a caller iterating the body can test its own absolute
+    position against this set.
+    """
+    return frozenset(
+        offset for offset, in_fence in iter_fence_state(text, body_start) if in_fence
+    )
 
 
 def _edge_is_br(tag: str) -> bool:
@@ -5522,7 +5535,7 @@ def line_leading_whitespace(ctx: ValidationContext) -> list[ValidationMessage]:
     body_start = fm.end() if fm else 0
     body = ctx.body
     inline_code = _build_inline_code_ranges(text, ctx.ast)
-    fenced = _edge_fenced_line_offsets(body)
+    fenced = _edge_fenced_line_offsets_in_text(text, body_start)
     offset = 0
     for line in body.splitlines():
         abs_pos = body_start + offset
@@ -5602,7 +5615,7 @@ def line_trailing_whitespace(ctx: ValidationContext) -> list[ValidationMessage]:
     body = ctx.body
     inline_code = _build_inline_code_ranges(text, ctx.ast)
     lines = body.splitlines()
-    fenced = _edge_fenced_line_offsets(body)
+    fenced = _edge_fenced_line_offsets_in_text(text, body_start)
     offset = 0
     for index, line in enumerate(lines):
         abs_pos = body_start + offset
