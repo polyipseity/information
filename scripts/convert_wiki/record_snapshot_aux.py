@@ -45,6 +45,9 @@ from scripts.convert_wiki import config as _cfg
 from scripts.convert_wiki.pipeline import run_pipeline
 from scripts.convert_wiki.types import _RedirectInfo
 
+"""Public API of this module (empty: no symbols are exported)."""
+__all__ = ()
+
 if TYPE_CHECKING:
     from aiohttp_retry.types import ClientType
     from yarl import URL

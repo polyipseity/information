@@ -23,8 +23,10 @@ from scripts.convert_wiki import record_snapshot_aux as mod
 """Public API of this test module (empty: no symbols are exported)."""
 __all__ = ()
 
+"""Uploaded filename the fixture image resolves to."""
 _FILENAME = "Fourier spectrum.svg"
 
+"""Minimal article body: one link and one archiveable image."""
 _INPUT_HTML = f"""<meta charset="utf-8" />
 <div id="mw-content-text">
   <p>See <a href="/wiki/Fourier_transform" title="Fourier transform">Fourier transform</a>.</p>
@@ -32,6 +34,7 @@ _INPUT_HTML = f"""<meta charset="utf-8" />
 </div>
 """
 
+"""Starting point for the aux file, with every recorded field empty."""
 _SKELETON_AUX: dict[str, object] = {
     "api_titles": [],
     "api_responses": [],
@@ -40,6 +43,7 @@ _SKELETON_AUX: dict[str, object] = {
     "name_map_overrides": {"Fourier transform": "fourier transform"},
 }
 
+"""Production name map, which the fixture directory normally symlinks to."""
 _NAME_MAP = (
     PathlibPath(__file__).resolve(strict=True).parents[3]
     / "scripts"
