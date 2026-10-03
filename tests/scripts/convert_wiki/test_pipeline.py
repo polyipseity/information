@@ -33,6 +33,7 @@ from scripts.convert_wiki.pipeline import (
     _determine_needs_after,
     _determine_needs_before,
     _merge_dl_after_thumb_into_list,
+    _preprocess_html,
     _scan_and_apply,
     _separate_block_math,
     _separate_block_quotes,
@@ -938,6 +939,44 @@ class TestMergeDlAfterThumbIntoList:
         )
         _merge_dl_after_thumb_into_list(soup)
         assert soup.find("dl") is not None
+
+
+# =========================================================================
+# _preprocess_html — media-player chrome
+# =========================================================================
+
+
+class TestPreprocessPlayerChrome:
+    """Tests for dropping the media player's duration label."""
+
+    def test_duration_label_is_dropped(self) -> None:
+        """The duration and timestamp span does not survive preprocessing."""
+        html = (
+            '<figure><span class="mw-tmh-player video">'
+            "<video></video>"
+            '<span class="mw-tmh-duration mw-tmh-label">'
+            '<span class="sr-only">Duration: 14 seconds.</span>'
+            '<span aria-hidden="true">0:14</span>'
+            "</span></span></figure>"
+        )
+        soup = BeautifulSoup(html, "html.parser")
+        _preprocess_html(soup)
+        assert soup.find("span", class_="mw-tmh-duration") is None
+        assert "Duration" not in soup.get_text()
+
+    def test_player_and_media_survive(self) -> None:
+        """The player container and its media stay for embed handling."""
+        html = (
+            '<figure><span class="mw-tmh-player video">'
+            '<a class="mw-tmh-play"></a><video></video></span>'
+            "<figcaption>caption</figcaption></figure>"
+        )
+        soup = BeautifulSoup(html, "html.parser")
+        _preprocess_html(soup)
+        assert soup.find("span", class_="mw-tmh-player") is not None
+        assert soup.find("video") is not None
+        assert soup.find("a", class_="mw-tmh-play") is not None
+        assert "caption" in soup.get_text()
 
 
 # =========================================================================
