@@ -116,7 +116,7 @@ Every question quote block needs cloze flashcards on its `- solution:` and `- ex
 
 ### Flashcard style per section
 
-Each section of a content file carries one flashcard style, never both: prose with its own `Flashcards for this section are as follows:` block, or question blocks whose `- solution:`/`- explanation:` lines carry clozes. A prompt that is not a question counts as prose and gets its own cards. The two styles and the `academic-lint` rules that enforce them are in "Flashcard style per section" in `academic-ingest`.
+Each section of a content file answers to two separate requirements. Question blocks whose `- solution:`/`- explanation:` lines carry clozes stand on their own: a section made up of nothing but those blocks needs no flashcard block. Anything else in the section, prose or a list or a table or an image, still needs its own `Flashcards for this section are as follows:` block. A prompt that is not a question is prose, so it takes cards rather than a `- solution:` line. The two styles and the `academic-lint` rules that enforce them are in "Flashcard style per section" in `academic-ingest`.
 
 ### No-submission case (no Canvas at all)
 
