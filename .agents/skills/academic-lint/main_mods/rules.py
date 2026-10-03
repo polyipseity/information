@@ -1910,6 +1910,12 @@ def header_flashcard_presence(ctx: ValidationContext) -> list[ValidationMessage]
     so is one holding only a submission note's metadata block, for the same
     reason. Index and questions pages are exempt, and so is a level-2 references
     header, which cites sources instead of stating cards.
+
+    A section of question blocks passes without a flashcard block of its own,
+    since each block answers itself. Question blocks alongside anything else do
+    not: the prose, lists, tables, or images around them are content the reader
+    is asked to recall, so they need their own block. The two requirements are
+    independent, and this rule holds only the second.
     """
     errors: list[ValidationMessage] = []
     if _flashcard_rule_exempt(ctx.path):
@@ -1925,14 +1931,18 @@ def header_flashcard_presence(ctx: ValidationContext) -> list[ValidationMessage]
             continue
         if _section_is_metadata_only(section):
             continue
-        # A section passes on QA markers, or on a question block that answers
-        # itself. A submission whose cards live inside solution lines is a
-        # legitimate style, so counting only the markers would flag it.
+        # A section passes on QA markers, or on question blocks that answer
+        # themselves and leave nothing else behind. Question blocks next to
+        # prose are the case that used to slip through, because the block
+        # alone counted as coverage for the whole section.
         has_question_block = any(
             _block_has_solution(block)
             for _off, block in _iter_blockquote_blocks(section)
         )
-        if not has_question_block and not re.search(
+        question_blocks_cover_section = has_question_block and (
+            not _section_has_non_qa_content(section)
+        )
+        if not question_blocks_cover_section and not re.search(
             r"::@::|:@:|Flashcards for", section
         ):
             start = hdr_pos
@@ -1946,15 +1956,16 @@ def header_flashcard_presence(ctx: ValidationContext) -> list[ValidationMessage]
                     rule_id="header_flashcard_presence",
                     msg=(
                         f"header {heading!r} has no flashcard markers in its own body, "
-                        "the text between it and the first heading below it; "
-                        "convert key sentences into cards and include any relevant "
-                        "diagrams or images from the paragraph above. Cards under a "
-                        "child heading do not count towards this one, whatever the two "
-                        "levels are. DO NOT suppress this error with the reason 'cards in "
-                        "parent section flashcard block' or any similar reason. Every "
-                        "section and subsection MUST have its own dedicated flashcard "
-                        "block — add a '---' separator and a 'Flashcards for this section "
-                        "are as follows:' block instead."
+                        "the text between it and the first heading below it, and "
+                        "carries content that is not a question block. Convert that "
+                        "content into cards and include any relevant diagrams or "
+                        "images from the paragraph above. Cards under a child heading "
+                        "do not count towards this one, whatever the two levels are. "
+                        "A section made up of question blocks alone needs no flashcard "
+                        "block, since each block answers itself. DO NOT suppress this "
+                        "error with the reason 'cards in parent section flashcard "
+                        "block' or any similar reason. Add a '---' separator and a "
+                        "'Flashcards for this section are as follows:' block instead."
                     ),
                     line=line,
                     col=col,
