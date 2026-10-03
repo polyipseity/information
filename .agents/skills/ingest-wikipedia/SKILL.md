@@ -418,10 +418,12 @@ The snapshot test uses `tests/scripts/convert_wiki/snapshots/<name>.aux.json` to
 Regenerate fixtures with the built-in recorder instead of hand-assembling them:
 
 ```bash
-uv run -m scripts.convert_wiki.record_snapshot_aux record "<name>"    # queries the live API
+uv run -m scripts.convert_wiki.record_snapshot_aux record "<name>"    # queries the live Wikipedia and Commons APIs
 bun x prettier --write "tests/scripts/convert_wiki/snapshots/<name>.aux.json"
 uv run -m scripts.convert_wiki.record_snapshot_aux expected "<name>"  # regenerates expected.md
 ```
+
+`record` refreshes `image_metadata` from the Commons descriptions of every image the input HTML references, so a new fixture starts from a real alt text rather than `File:...`; only `name_map_overrides` is carried over.
 
 __Never__ hand-write `api_responses`: a fixture whose responses do not match its `input.html` silently corrupts `expected.md` and every note ingested from it.
 
