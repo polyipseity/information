@@ -1710,6 +1710,35 @@ def _block_is_display_math(block_text: str) -> bool:
     return bool(_DISPLAY_MATH_BLOCK_RE.match(first))
 
 
+"""A rule, a markdownlint comment, or the flashcard marker line: no content of its own."""
+_NON_QA_IGNORED_RE = re.compile(
+    r"^\s*(?:---|<!--.*-->|Flashcards for this section are as follows:)\s*$",
+    re.IGNORECASE,
+)
+
+
+def _section_has_non_qa_content(section: str) -> bool:
+    """Return whether *section* holds anything besides its question blocks.
+
+    Every blockquote block is a question block, so all of them come out and
+    only the surrounding text is judged. Blank lines, ``---``,
+    ``<!-- markdownlint ... -->`` comments, and the flashcard marker line
+    carry no content of their own, so they do not count either. Whatever is
+    left is prose, a list, a table, an image, or a code fence, and it needs a
+    flashcard block of its own.
+    """
+    residue: list[str] = []
+    cursor = 0
+    for offset, block in _iter_blockquote_blocks(section):
+        residue.append(section[cursor:offset])
+        cursor = offset + len(block)
+    residue.append(section[cursor:])
+    return any(
+        line.strip() and not _NON_QA_IGNORED_RE.match(line)
+        for line in "".join(residue).splitlines()
+    )
+
+
 """One front-matter-style line of a submission note's title block."""
 _METADATA_LINE_RE = re.compile(
     r"^[ \t]*(?:-[ \t]*)?(?:HKUST .*|parent:.*|title:.*|due:.*|points:.*|grade:.*"
