@@ -1,0 +1,1 @@
+eng/strong force.md

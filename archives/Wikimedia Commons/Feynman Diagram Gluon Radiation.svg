@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="250" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<g stroke-linecap="round" stroke-linejoin="round">
+		<path d="m107 109c5.18-8.36 8.85-27.5 15.5-25.1 6.7 2.45 16.3 40 24.7 39.8 8.31-0.151 16.8-40.7 25.2-40.7 8.39-0.0229 16.8 40.5 25.1 40.6 8.36 0.0249 16.8-40.3 25-40.4 8.28-0.117 16.5 39.6 24.6 39.7 8.11 0.147 17.4-36.6 24.1-38.8 6.65-2.22 10.5 17 15.8 25.5" fill="none" stroke="#00f" stroke-width="2.88"/>
+		<path d="m200 64h2.31l-4.49 9.41c0.116 1.01 0.176 1.89 0.176 2.64 0 2.1-0.392 3.14-1.17 3.14-0.567 0-0.85-0.439-0.85-1.32 0-1.15 0.415-2.59 1.24-4.32-0.163-1.07-0.392-2.37-0.687-3.88s-0.597-2.6-0.906-3.26c-0.309-0.657-0.751-0.985-1.33-0.985-0.939 0-1.44 0.7-1.51 2.1h-0.401c0-2.46 0.73-3.68 2.19-3.68 0.844 0 1.47 0.498 1.88 1.49 0.409 0.994 0.83 3.16 1.26 6.49z" stroke-width="1.43"/>
+		<path d="m340 13h8.68" fill="none" stroke="#000" stroke-width="1.58"/>
+		<path d="m65 23h5.5" fill="none" stroke="#000" stroke-width="1.43"/>
+		<path d="m368 242h-354v1.34h354z" stroke-width="1.31"/>
+		<path d="m354 237 15.8 5.79-15.8 5.79c2.52-3.42 2.5-8.1 0-11.6z" stroke-width="1.43"/>
+	</g>
+	<g id="c" transform="translate(-623,-347)">
+		<g id="d">
+			<path d="m624 348 107 107" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.86"/>
+			<path d="m675 389 8.28 18.2-18.1-8.5c5-0.733 8.96-4.66 9.82-9.7z" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.43"/>
+		</g>
+		<use transform="matrix(-1 0 0 1 1354.3 107)" width="100%" height="100%" xlink:href="#d"/>
+	</g>
+	<use transform="matrix(-1,0,0,1,396,0)" xlink:href="#c"/>
+	<g id="b" transform="translate(-623,-347)">
+		<path id="a" d="m951 416c9.3 6.41 11 15.8 7.24 22.2-3.75 6.41-9.72 6.58-12.7 4.45-3.03-2.14-4.25-7.3 0.376-13.1 4.62-5.85 14.4-6.48 23-0.403" fill="none" stroke="#00bc00" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.86"/>
+		<use transform="translate(17.8,13.1)" xlink:href="#a"/>
+	</g>
+	<use transform="translate(35.7,26.2)" xlink:href="#b"/>
+	<g font-family="Arial" font-weight="400">
+		<text x="51" y="192" font-size="20">e </text>
+		<text x="63" y="184" font-size="11">+ </text>
+		<g font-size="20">
+			<text x="338" y="27">q </text>
+			<text x="336" y="197">q </text>
+			<text x="373" y="87">g </text>
+			<text x="53" y="34">e </text>
+		</g>
+		<text x="377" y="249" font-size="22" font-style="italic">t </text>
+	</g>
+</svg>
