@@ -28,7 +28,7 @@ hooks = [
   # Archived Wikimedia media is kept byte-for-byte so its index hash still
   # verifies; text fixers would silently rewrite the download.
   { id = "end-of-file-fixer", exclude = "^archives/Wikimedia Commons/" },
-  { id = "fix-byte-order-marker" },
+  { id = "fix-byte-order-marker", exclude = "^archives/Wikimedia Commons/" },
   { id = "name-tests-test", args = [
     "--pytest-test-first",
   ] },
