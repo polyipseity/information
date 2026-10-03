@@ -780,10 +780,9 @@ class WikiHtmlConverter:
             text = str(sibling)
             if text.rstrip(_cfg._MARKDOWN_SEPARATOR_CHARACTERS) == text:
                 return True  # Sibling does not end with a separator char.
-            # U+00B1 PLUS-MINUS SIGN does not word-bound for emphasis parsing.
-            # E.g. ``= ±_c_`` must become ``= ±<!-- separator -->_c_`` so the
-            # italic marker is recognized by Markdown parsers.
-            if text.endswith("\u00b1"):
+            # A math sign binds tightly to what follows it (``−t``, ``±c``),
+            # so an emphasis marker abutting it needs a separator of its own.
+            if text.endswith(tuple(_cfg._TIGHT_MATH_SIGN_CHARACTERS)):
                 return True
             return False
         if isinstance(sibling, Tag):
@@ -816,9 +815,6 @@ class WikiHtmlConverter:
             text = str(sibling)
             if text.lstrip(_cfg._MARKDOWN_SEPARATOR_CHARACTERS) == text:
                 return True  # Sibling does not start with a separator char.
-            # U+00B1 PLUS-MINUS SIGN does not word-bound for emphasis parsing.
-            if text.startswith("\u00b1"):
-                return True
             return False
         if isinstance(sibling, Tag) and WikiHtmlConverter._is_transparent_span(sibling):
             # Descend into the transparent span.  Whitespace-only → gap

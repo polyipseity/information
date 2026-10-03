@@ -25,7 +25,7 @@ The basic idea of the path-integral formulation can be traced back to [Norbert W
 
 ## quantum action principle
 
-In quantum mechanics, as in classical mechanics, the [Hamiltonian](Hamiltonian%20(quantum%20mechanics).md) is the generator of time translations. This means that the state at a slightly later time differs from the state at the current time by the result of acting with the Hamiltonian operator \(multiplied by the negative [imaginary unit](imaginary%20unit.md), −_i_\). For states with a definite energy, this is a statement of the [de Broglie relation](de%20Broglie%20relation.md#de%20Broglie%20relations) between frequency and energy, and the general relation is consistent with that plus the [superposition principle](superposition%20principle.md).
+In quantum mechanics, as in classical mechanics, the [Hamiltonian](Hamiltonian%20(quantum%20mechanics).md) is the generator of time translations. This means that the state at a slightly later time differs from the state at the current time by the result of acting with the Hamiltonian operator \(multiplied by the negative [imaginary unit](imaginary%20unit.md), −<!-- markdown separator -->_i_\). For states with a definite energy, this is a statement of the [de Broglie relation](de%20Broglie%20relation.md#de%20Broglie%20relations) between frequency and energy, and the general relation is consistent with that plus the [superposition principle](superposition%20principle.md).
 
 The Hamiltonian in classical mechanics is derived from a [Lagrangian](Lagrangian%20(field%20theory).md), which is a more fundamental quantity in the context of [special relativity](special%20relativity.md). The Hamiltonian indicates how to march forward in time, but the time is different in different [reference frames](frame%20of%20reference.md). The Lagrangian is a [Lorentz scalar](Lorentz%20scalar.md), while the Hamiltonian is the time component of a [four-vector](four-vector.md). So the Hamiltonian is different in different frames, and this type of symmetry is not apparent in the original formulation of quantum mechanics.
 
@@ -269,15 +269,15 @@ Let _T_ = _t<sub>f</sub>_ − _t<sub>i</sub>_. One may write this propagator in 
 
 $${\begin{aligned}K(x_{f},t_{f};x_{i},t_{i})&=\left({\frac {m\omega }{2\pi i\hbar \sin \omega T} }\right)^{\frac {1}{2} }\exp {\left({\frac {i}{\hbar } }{\tfrac {1}{2} }m\omega {\frac {(x_{i}^{2}+x_{f}^{2})\cos \omega T-2x_{i}x_{f} }{\sin \omega T} }\right)}\\[6pt]&=\sum _{n=0}^{\infty }\exp {\left(-{\frac {iE_{n}T}{\hbar } }\right)}\psi _{n}(x_{f})\psi _{n}(x_{i})^{*}~.\end{aligned} }$$
 
-Using the identities _i_ sin _ωT_ = $\frac{1}{2}$ _e_<sup>_iωT_</sup> \(1 − _e_<sup>−2<!-- markdown separator -->_iωT_</sup>\) and cos _ωT_ = $\frac{1}{2}$ _e_<sup>_iωT_</sup> \(1 + _e_<sup>−2<!-- markdown separator -->_iωT_</sup>\), this amounts to
+Using the identities $isin{\omega}T=\frac{1}{2}e^{i{\omega}T}(1 −e^{−2i{\omega}T})$ and $cos{\omega}T=\frac{1}{2}e^{i{\omega}T}(1 +e^{−2i{\omega}T})$, this amounts to
 
 $$K(x_{f},t_{f};x_{i},t_{i})=\left({\frac {m\omega }{\pi \hbar } }\right)^{\frac {1}{2} }e^{\frac {-i\omega T}{2} }\left(1-e^{-2i\omega T}\right)^{-{\frac {1}{2} } }\exp {\left(-{\frac {m\omega }{2\hbar } }\left(\left(x_{i}^{2}+x_{f}^{2}\right){\frac {1+e^{-2i\omega T} }{1-e^{-2i\omega T} } }-{\frac {4x_{i}x_{f}e^{-i\omega T} }{1-e^{-2i\omega T} } }\right)\right)}.$$
 
-One may absorb all terms after the first _e_<sup>−_iωT_<!-- markdown separator -->/2</sup> into _R_\(_T_\), thereby obtaining
+One may absorb all terms after the first _e_<sup>−<!-- markdown separator -->_iωT_<!-- markdown separator -->/2</sup> into _R_\(_T_\), thereby obtaining
 
 $$K(x_{f},t_{f};x_{i},t_{i})=\left({\frac {m\omega }{\pi \hbar } }\right)^{\frac {1}{2} }e^{\frac {-i\omega T}{2} }\cdot R(T).$$
 
-One may finally expand _R_\(_T_\) in powers of _e_<sup>−_iωT_</sup>: All terms in this expansion get multiplied by the _e_<sup>−_iωT_<!-- markdown separator -->/2</sup> factor in the front, yielding terms of the form
+One may finally expand _R_\(_T_\) in powers of _e_<sup>−<!-- markdown separator -->_iωT_</sup>: All terms in this expansion get multiplied by the _e_<sup>−<!-- markdown separator -->_iωT_<!-- markdown separator -->/2</sup> factor in the front, yielding terms of the form
 
 $$e^{\frac {-i\omega T}{2} }e^{-in\omega T}=e^{-i\omega T\left({\frac {1}{2} }+n\right)}\quad {\text{for } }n=0,1,2,\ldots .$$
 
@@ -359,7 +359,7 @@ The quantity _x\(t\)_ is fluctuating, and the derivative is defined as the limit
 
 $${\frac {dx}{dt} }={\frac {x(t+\varepsilon )-x(t)}{\varepsilon } }$$
 
-The distance that a random walk moves is proportional to √<!-- markdown separator -->_t_, so that:
+The distance that a random walk moves is proportional to $\sqrt{t}$, so that:
 
 $$x(t+\varepsilon )-x(t)\approx {\sqrt {\varepsilon } }$$
 
@@ -409,7 +409,7 @@ For instance, if
 
 $$S=\int \left({\frac {m}{2} }g_{ij}{\dot {x} }^{i}{\dot {x} }^{j}-V(x)\right)\,dt,$$
 
-then it means that each spatial slice is multiplied by the measure √<!-- markdown separator -->_g_. This measure cannot be expressed as a functional multiplying the D<!-- markdown separator -->_x_ measure because they belong to entirely different classes.
+then it means that each spatial slice is multiplied by the measure $\sqrt{g}$. This measure cannot be expressed as a functional multiplying the D<!-- markdown separator -->_x_ measure because they belong to entirely different classes.
 
 ### expectation values and matrix elements
 
@@ -467,7 +467,7 @@ $$Z=\int e^{\frac {i{\mathcal {S} }[\mathbf {x} ]}{\hbar } }\,{\mathcal {D} }\ma
 
 is the [action](action%20(physics).md) of the classical problem in which one investigates the path starting at time _t_ = 0 and ending at time _t_ = t<sub>f</sub>, and ${\mathcal {D} }\mathbf {x}$ denotes the integration measure over all paths. In the classical limit, ${\mathcal {S} }[\mathbf {x} ]\gg \hbar$, the path of minimum action dominates the integral, because the phase of any path away from this fluctuates rapidly and different contributions cancel.<sup>[\[21\]](#^ref-21)</sup>
 
-The connection with [statistical mechanics](statistical%20mechanics.md) follows. Considering only paths that begin and end in the same configuration, perform the [Wick rotation](Wick%20rotation.md) _it_ = _ħβ_, i.e., make time imaginary, and integrate over all possible beginning-ending configurations. The Wick-rotated path integral—described in the previous subsection, with the ordinary action replaced by its "Euclidean" counterpart—now resembles the [partition function](partition%20function%20(statistical%20mechanics).md) of statistical mechanics defined in a [canonical ensemble](canonical%20ensemble.md) with inverse temperature proportional to imaginary time, $\frac{1}{T}$ = $\frac{ik_{B}t}{ħ}$. Strictly speaking, though, this is the partition function for a [statistical field theory](statistical%20field%20theory.md).
+The connection with [statistical mechanics](statistical%20mechanics.md) follows. Considering only paths that begin and end in the same configuration, perform the [Wick rotation](Wick%20rotation.md) _it_ = _ħβ_, i.e., make time imaginary, and integrate over all possible beginning-ending configurations. The Wick-rotated path integral—described in the previous subsection, with the ordinary action replaced by its "Euclidean" counterpart—now resembles the [partition function](partition%20function%20(statistical%20mechanics).md) of statistical mechanics defined in a [canonical ensemble](canonical%20ensemble.md) with inverse temperature proportional to imaginary time, $\frac{1}{T}=\frac{ik_{B}t}{\hbar}$. Strictly speaking, though, this is the partition function for a [statistical field theory](statistical%20field%20theory.md).
 
 Clearly, such a deep analogy between quantum mechanics and statistical mechanics cannot be dependent on the formulation. In the canonical formulation, one sees that the unitary evolution operator of a state is given by
 
@@ -539,7 +539,7 @@ which is the reciprocal of the operator that annihilates the wavefunction in the
 
 The infinitesimal term in the denominator is a small positive number, which guarantees that the inverse Fourier transform in _E_ will be nonzero only for future times. For past times, the inverse Fourier transform contour closes toward values of _E_ where there is no singularity. This guarantees that _K_ propagates the particle into the future and is the reason for the subscript "F" on _G_. The infinitesimal term can be interpreted as an infinitesimal rotation toward imaginary time.
 
-It is also possible to reexpress the nonrelativistic time evolution in terms of propagators going toward the past, since the Schrödinger equation is time-reversible. The past propagator is the same as the future propagator except for the obvious difference that it vanishes in the future, and in the Gaussian _t_ is replaced by −_t_. In this case, the interpretation is that these are the quantities to convolve the final wavefunction so as to get the initial wavefunction:
+It is also possible to reexpress the nonrelativistic time evolution in terms of propagators going toward the past, since the Schrödinger equation is time-reversible. The past propagator is the same as the future propagator except for the obvious difference that it vanishes in the future, and in the Gaussian _t_ is replaced by −<!-- markdown separator -->_t_. In this case, the interpretation is that these are the quantities to convolve the final wavefunction so as to get the initial wavefunction:
 
 $$G_{\text{B} }(p,E)={\frac {-i}{-E-{\frac {i{\vec {p} }^{2} }{2m} }+i\varepsilon } }.$$
 
@@ -569,7 +569,7 @@ This is the [Schwinger representation](Feynman%20diagram.md#Schwinger%20represen
 
 $$K(p)=\int _{0}^{\infty }e^{-\mathrm {T} p^{2}-\mathrm {T} \alpha }\,d\mathrm {T} ={\frac {1}{p^{2}+\alpha } },$$
 
-which is the Euclidean propagator for a scalar particle. Rotating _p_<sub>0</sub> to be imaginary gives the usual relativistic propagator, up to a factor of −_i_ and an ambiguity, which will be clarified below:
+which is the Euclidean propagator for a scalar particle. Rotating _p_<sub>0</sub> to be imaginary gives the usual relativistic propagator, up to a factor of −<!-- markdown separator -->_i_ and an ambiguity, which will be clarified below:
 
 $$K(p)={\frac {i}{p_{0}^{2}-{\vec {p} }^{2}-m^{2} } }.$$
 
@@ -617,7 +617,7 @@ The symbol ∫D<!-- markdown separator -->_ϕ_ here is a concise way to represen
 
 ### as a probability
 
-Strictly speaking, the only question that can be asked in physics is: _What fraction of states satisfying condition A also satisfy condition B?_ The answer to this is a number between 0 and 1, which can be interpreted as a [conditional probability](conditional%20probability.md), written as P\(_B_\|_A_\). In terms of path integration, since P\(_B_\|_A_\) = $\frac{P(A∩B)}{P(A)}$, this means
+Strictly speaking, the only question that can be asked in physics is: _What fraction of states satisfying condition A also satisfy condition B?_ The answer to this is a number between 0 and 1, which can be interpreted as a [conditional probability](conditional%20probability.md), written as P\(_B_\|_A_\). In terms of path integration, since $P(B|A) =\frac{P(A∩B)}{P(A)}$, this means
 
 $$\operatorname {P} (B\mid A)={\frac {\sum _{F\subset A\cap B}\left|\int {\mathcal {D} }\varphi O_{\text{in} }[\varphi ]e^{i{\mathcal {S} }[\varphi ]}F[\varphi ]\right|^{2} }{\sum _{F\subset A}\left|\int {\mathcal {D} }\varphi O_{\text{in} }[\varphi ]e^{i{\mathcal {S} }[\varphi ]}F[\varphi ]\right|^{2} } },$$
 

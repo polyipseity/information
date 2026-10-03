@@ -123,7 +123,7 @@ Explicitly connecting with the previous section, the ground state \|0⟩ in the 
 
 The quantum harmonic oscillator possesses natural scales for length and energy, which can be used to simplify the problem. These can be found by [nondimensionalization](nondimensionalization.md#quantum%20harmonic%20oscillator).
 
-The result is that, if _energy_ is measured in units of _ħω_ and _distance_ in units of √<!-- markdown separator -->_ħ_<!-- markdown separator -->/\(_mω_\), then the Hamiltonian simplifies to $$H=-{\frac {1}{2} }{d^{2} \over dx^{2} }+{\frac {1}{2} }x^{2},$$ while the energy eigenfunctions and eigenvalues simplify to Hermite functions and integers offset by a half, $$\psi _{n}(x)=\left\langle x\mid n\right\rangle ={1 \over {\sqrt {2^{n}n!} } }~\pi ^{-1/4}\exp \left(-x^{2}/2\right)~H_{n}(x),$$ <br/> $$E_{n}=n+{\tfrac {1}{2} }~,$$ where _H_<sub>_n_</sub>\(_x_\) are the [Hermite polynomials](Hermite%20polynomials.md).
+The result is that, if _energy_ is measured in units of _ħω_ and _distance_ in units of $\sqrt{\hbar/(m{\omega})}$, then the Hamiltonian simplifies to $$H=-{\frac {1}{2} }{d^{2} \over dx^{2} }+{\frac {1}{2} }x^{2},$$ while the energy eigenfunctions and eigenvalues simplify to Hermite functions and integers offset by a half, $$\psi _{n}(x)=\left\langle x\mid n\right\rangle ={1 \over {\sqrt {2^{n}n!} } }~\pi ^{-1/4}\exp \left(-x^{2}/2\right)~H_{n}(x),$$ <br/> $$E_{n}=n+{\tfrac {1}{2} }~,$$ where _H_<sub>_n_</sub>\(_x_\) are the [Hermite polynomials](Hermite%20polynomials.md).
 
 To avoid confusion, these "natural units" will mostly not be adopted in this article. However, they frequently come in handy when performing calculations, by bypassing clutter.
 
@@ -234,7 +234,7 @@ The solution to the equation is:<sup>[\[21\]](#^ref-21)</sup> $$\psi _{klm}(r,\t
 
 The energy eigenvalue is $$E=\hbar \omega \left(2k+l+{\frac {3}{2} }\right).$$ The energy is usually described by the single [quantum number](quantum%20number.md) $$n\equiv 2k+l\,.$$
 
-Because _k_ is a non-negative integer, for every even _n_ we have _ℓ_ = 0, 2, ..., _n_ − 2, _n_ and for every odd _n_ we have _ℓ_ = 1, 3, ..., _n_ − 2, _n_ . The magnetic quantum number _m_ is an integer satisfying −_ℓ_ ≤ _m_ ≤ _ℓ_, so for every _n_ and _ℓ_ there are 2<!-- markdown separator -->_ℓ_ + 1 different [quantum states](quantum%20state.md), labeled by _m_ . Thus, the degeneracy at level _n_ is $$\sum _{l=\ldots ,n-2,n}(2l+1)={(n+1)(n+2) \over 2}\,,$$ where the sum starts from 0 or 1, according to whether _n_ is even or odd. This result is in accordance with the dimension formula above, and amounts to the dimensionality of a symmetric representation of SU\(3\),<sup>[\[22\]](#^ref-22)</sup> the relevant degeneracy group.
+Because _k_ is a non-negative integer, for every even _n_ we have _ℓ_ = 0, 2, ..., _n_ − 2, _n_ and for every odd _n_ we have _ℓ_ = 1, 3, ..., _n_ − 2, _n_ . The magnetic quantum number _m_ is an integer satisfying −<!-- markdown separator -->_ℓ_ ≤ _m_ ≤ _ℓ_, so for every _n_ and _ℓ_ there are 2<!-- markdown separator -->_ℓ_ + 1 different [quantum states](quantum%20state.md), labeled by _m_ . Thus, the degeneracy at level _n_ is $$\sum _{l=\ldots ,n-2,n}(2l+1)={(n+1)(n+2) \over 2}\,,$$ where the sum starts from 0 or 1, according to whether _n_ is even or odd. This result is in accordance with the dimension formula above, and amounts to the dimensionality of a symmetric representation of SU\(3\),<sup>[\[22\]](#^ref-22)</sup> the relevant degeneracy group.
 
 ## applications
 
