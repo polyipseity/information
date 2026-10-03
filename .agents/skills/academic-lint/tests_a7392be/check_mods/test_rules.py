@@ -36,7 +36,6 @@ from main_mods.rules import (
     header_flashcard_presence,
     header_flashcard_sections_duplicate,
     header_flashcard_separator,
-    header_flashcard_style_mixed,
     header_source_layout,
     header_style,
     html_br_mid_line,
@@ -81,6 +80,7 @@ from main_mods.rules import (
     numeric_text_not_latex,
     one_sided_calc_warning,
     qa_block_missing_solution,
+    qa_card_inside_question,
     qa_hierarchical_path,
     qa_nested_indentation,
     qa_prompt_generic,
@@ -2286,64 +2286,67 @@ def test_cloze_solution_outside_question_rule():
         assert not cloze_solution_outside_question(exempt)
 
 
-def test_header_flashcard_style_mixed_rule():
-    """One section must not mix prose cards with question blocks."""
-
+def test_qa_card_inside_question_rule():
+    """A card marker on a blockquote line is a card inside a question block."""
     question = (
         "> Which database indexes the psychology literature?\n"
         ">\n"
         "> - solution: {@{APA PsycInfo}@}\n"
     )
-    card = "- APA PsycInfo ::@:: The database that indexes the psychology literature.\n"
     front = "---\ntags: [flashcard/active/special/academia/test]\n---\n"
 
-    mixed = make_ctx(
-        f"{front}# lecture\n\n## exercise\n\n{question}\n{card}",
+    # A card written as a question-block item.
+    inside = make_ctx(
+        f"{front}# lecture\n\n## exercise\n\n> - APA PsycInfo ::@:: The database "
+        "that indexes the psychology literature.\n",
         path=Path("/tmp/course/lecture.md"),
     )
-    msgs = header_flashcard_style_mixed(mixed)
-    assert msgs and msgs[0].rule_id == "header_flashcard_style_mixed"
+    msgs = qa_card_inside_question(inside)
+    assert msgs and msgs[0].rule_id == "qa_card_inside_question"
 
-    # A `Flashcards for this section are as follows:` block is prose too.
-    marked = make_ctx(
-        f"{front}# lecture\n\n## exercise\n\n{question}\n"
-        "---\n\nFlashcards for this section are as follows:\n\n"
-        "- APA PsycInfo ::@:: The database that indexes the psychology literature.\n",
+    one_sided = make_ctx(
+        f"{front}# lecture\n\n## exercise\n\n> - APA PsycInfo :@: The database.\n",
         path=Path("/tmp/course/lecture.md"),
     )
-    assert header_flashcard_style_mixed(marked)
+    assert qa_card_inside_question(one_sided)
 
-    # Question blocks alone are one style.
-    questions_only = make_ctx(
-        f"{front}# lecture\n\n## exercise\n\n{question}",
-        path=Path("/tmp/course/lecture.md"),
+    # A cloze solution line is what a question block wants.
+    assert not qa_card_inside_question(
+        make_ctx(
+            f"{front}# lecture\n\n## exercise\n\n{question}",
+            path=Path("/tmp/course/lecture.md"),
+        )
     )
-    assert not header_flashcard_style_mixed(questions_only)
 
-    # Prose cards alone are one style.
-    cards_only = make_ctx(
-        f"{front}# lecture\n\n## exercise\n\n{card}",
-        path=Path("/tmp/course/lecture.md"),
+    # The same card as ordinary prose, outside every blockquote.
+    assert not qa_card_inside_question(
+        make_ctx(
+            f"{front}# lecture\n\n## exercise\n\n"
+            "- APA PsycInfo ::@:: The database that indexes the literature.\n",
+            path=Path("/tmp/course/lecture.md"),
+        )
     )
-    assert not header_flashcard_style_mixed(cards_only)
 
-    # Separate sections may carry different styles.
-    split = make_ctx(
-        f"{front}# lecture\n\n## exercise\n\n{question}\n## summary\n\n{card}",
-        path=Path("/tmp/course/lecture.md"),
+    # Display math in a blockquote carries no marker.
+    assert not qa_card_inside_question(
+        make_ctx(
+            f"{front}# lecture\n\n## exercise\n\n> $$\\begin{{aligned}} x &= 1 "
+            "\\end{{aligned}}$$\n",
+            path=Path("/tmp/course/lecture.md"),
+        )
     )
-    assert not header_flashcard_style_mixed(split)
 
     # Index and question pages are exempt, like the other flashcard rules.
     for exempt_path in (
         Path("/tmp/course/index.md"),
         Path("/tmp/course/questions/2026-09-09.md"),
     ):
-        exempt = make_ctx(
-            f"{front}# page\n\n## exercise\n\n{question}\n{card}",
-            path=exempt_path,
+        assert not qa_card_inside_question(
+            make_ctx(
+                f"{front}# page\n\n## exercise\n\n> - APA PsycInfo ::@:: The database.\n",
+                path=exempt_path,
+            )
         )
-        assert not header_flashcard_style_mixed(exempt)
 
 
 def test_cloze_no_hint_words_rule():
@@ -3750,8 +3753,23 @@ def test_header_flashcard_presence_exempts_metadata_title_of_submission_files():
         )
 
 
-def test_header_flashcard_presence_accepts_a_solution_bearing_question_block():
-    """A submission section whose cards live in solution lines passes."""
+def test_header_flashcard_presence_accepts_question_blocks_alone():
+    """A section made up of question blocks needs no flashcard block of its own."""
+    txt = (
+        "---\ntags: [flashcard/active/special/academia/test]\n---\n"
+        "# tutorial\n\n"
+        "## random samples\n\n"
+        "> Let $X_1, X_2$ be a random sample.\n>\n"
+        "> - solution: They share one distribution, so the product holds.\n"
+    )
+    ctx = make_ctx(
+        txt, path=Path("/tmp/course/tutorials/week 2 tutorial 1/tutorial.md")
+    )
+    assert not header_flashcard_presence(ctx)
+
+
+def test_header_flashcard_presence_flags_prose_beside_question_blocks():
+    """Question blocks do not cover the prose standing next to them."""
     txt = (
         "---\ntags: [flashcard/active/special/academia/test]\n---\n"
         "# tutorial\n\n"
@@ -3763,7 +3781,54 @@ def test_header_flashcard_presence_accepts_a_solution_bearing_question_block():
     ctx = make_ctx(
         txt, path=Path("/tmp/course/tutorials/week 2 tutorial 1/tutorial.md")
     )
+    msgs = header_flashcard_presence(ctx)
+    assert msgs and msgs[0].rule_id == "header_flashcard_presence"
+    assert "'## random samples'" in msgs[0].msg
+
+
+def test_header_flashcard_presence_ignores_separators_and_comments():
+    """Rules, markdownlint comments, and the marker line carry no content."""
+    front = "---\ntags: [flashcard/active/special/academia/test]\n---\n"
+    question = (
+        "> Let $X_1, X_2$ be a random sample.\n"
+        ">\n"
+        "> - solution: They share one distribution.\n"
+    )
+    ctx = make_ctx(
+        f"{front}# tutorial\n\n## random samples\n\n---\n\n"
+        f"{question}\n<!-- markdownlint MD028 -->\n\n{question}",
+        path=Path("/tmp/course/tutorials/week 2 tutorial 1/tutorial.md"),
+    )
     assert not header_flashcard_presence(ctx)
+
+    # An image or a bare list item beside the blocks is content, so it fires.
+    for residue in ("![diagram](attachments/figure.png)\n", "1. first step\n"):
+        flagged = make_ctx(
+            f"{front}# tutorial\n\n## random samples\n\n{residue}\n{question}",
+            path=Path("/tmp/course/tutorials/week 2 tutorial 1/tutorial.md"),
+        )
+        assert header_flashcard_presence(flagged), residue
+
+
+def test_header_flashcard_presence_credits_a_flashcard_block_beside_questions():
+    """A section may hold question blocks and its own cards side by side."""
+    txt = (
+        "---\ntags: [flashcard/active/special/academia/test]\n---\n"
+        "# tutorial\n\n"
+        "## random samples\n\n"
+        "The copies are independent and identically distributed.\n\n"
+        "> Let $X_1, X_2$ be a random sample.\n>\n"
+        "> - solution: They share one distribution.\n\n"
+        "---\n\n"
+        "Flashcards for this section are as follows:\n\n"
+        "- the two halves of i.i.d. for copies $X_1, X_2$ ::@:: One says every copy "
+        "shares the distribution, the other that no copy informs another.\n"
+    )
+    ctx = make_ctx(
+        txt, path=Path("/tmp/course/tutorials/week 2 tutorial 1/tutorial.md")
+    )
+    assert not header_flashcard_presence(ctx)
+    assert not qa_card_inside_question(ctx)
 
 
 def test_header_flashcard_presence_flags_unanswered_tutorial_section():
