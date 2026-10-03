@@ -63,6 +63,7 @@ from main_mods.rules import (
     link_anchor_slug,
     link_malformed,
     link_unencoded_space,
+    math_in_code_fence,
     md028_bad_format,
     md028_missing,
     metadata_aliases_present,
@@ -2475,6 +2476,44 @@ def test_qa_block_missing_solution_rule():
     assert not qa_block_missing_solution(
         make_ctx(display, path=Path("/tmp/c/tutorials/week 2 tutorial 1/tutorial.md"))
     )
+
+
+def test_math_in_code_fence_reports_every_offending_fence():
+    """One message per fence, not one per file."""
+    txt = (
+        "---\ntags: [flashcard/active/special/academia/test]\n---\n"
+        "# topic\n\n"
+        "```text\n$N=5$\n```\n\n"
+        "Prose.\n\n"
+        "```text\n$M=7$\n```\n\n"
+        "```text\nno math here\n```\n"
+    )
+    msgs = math_in_code_fence(make_ctx(txt))
+    assert len(msgs) == 2, [(m.line, m.msg) for m in msgs]
+    assert sorted(m.line for m in msgs) == [7, 13]
+
+
+def test_math_in_code_fence_separates_identical_fences():
+    """Two fences with the same body get a report each, at their own lines."""
+    txt = (
+        "---\ntags: [flashcard/active/special/academia/test]\n---\n"
+        "# topic\n\n"
+        "```text\n$N=5$\n```\n\n"
+        "Prose.\n\n"
+        "```text\n$N=5$\n```\n"
+    )
+    msgs = math_in_code_fence(make_ctx(txt))
+    assert sorted(m.line for m in msgs) == [7, 13]
+
+
+def test_math_in_code_fence_is_quiet_without_dollars():
+    """A fence with no dollar sign raises nothing."""
+    txt = (
+        "---\ntags: [flashcard/active/special/academia/test]\n---\n"
+        "# topic\n\n"
+        "```text\nprint('hi')\n```\n"
+    )
+    assert not math_in_code_fence(make_ctx(txt))
 
 
 def test_cloze_article_before_rule():

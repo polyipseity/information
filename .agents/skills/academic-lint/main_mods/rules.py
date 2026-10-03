@@ -2590,22 +2590,29 @@ def numeric_text_not_latex(ctx: ValidationContext) -> list[ValidationMessage]:
 def math_in_code_fence(ctx: ValidationContext) -> list[ValidationMessage]:
     """Flag LaTeX-style math found inside fenced code blocks.
 
-    Authors should not include dollar signs within code fences; this rule
-    warns on the first occurrence.  Uses the mistune AST ``block_code``
-    nodes for reliable code-block detection instead of raw regex fences.
-    Falls back to a no-op when AST is unavailable.
+    Authors should not include dollar signs within code fences. One message
+    per offending fence, at its first dollar sign, rather than one per file.
+    A file-level report leaves the author guessing how many fences to fix and
+    leaves a scoped suppression looking unused when it is not. Uses the
+    mistune AST ``block_code`` nodes for reliable code-block detection instead
+    of raw regex fences. Falls back to a no-op when AST is unavailable.
     """
     errors: list[ValidationMessage] = []
     if not ctx.ast:
         return errors
+    # The AST nodes carry no position, so the raw text is looked up in the
+    # source instead. The cursor keeps two identical fences apart: without it
+    # both would resolve to the first one's offset.
+    cursor = 0
     for node in filter_ast(ctx.ast, "block_code"):
         raw = node.get("raw", "")
         dollar_idx = raw.find("$")
         if dollar_idx == -1:
             continue
-        src_idx = ctx.text.find(raw)
+        src_idx = ctx.text.find(raw, cursor)
         if src_idx == -1:
             continue
+        cursor = src_idx + len(raw)
         abs_idx = src_idx + dollar_idx
         line, col = locate(ctx.text, abs_idx)
         errors.append(
@@ -2616,7 +2623,6 @@ def math_in_code_fence(ctx: ValidationContext) -> list[ValidationMessage]:
                 col=col,
             )
         )
-        break
     return errors
 
 
