@@ -1667,6 +1667,73 @@ def _flashcard_rule_exempt(path: Path) -> bool:
     )
 
 
+"""A blockquote list item labelled solution or explanation, the QA answer slot."""
+_SOLUTION_LABEL_RE = re.compile(
+    r"^[ \t]*>[ \t]*(?:-[ \t]*)?(?:solution|explanation)[ \t]*:",
+    re.IGNORECASE,
+)
+"""A blockquote opening display math or an aligned environment, not a question."""
+_DISPLAY_MATH_BLOCK_RE = re.compile(
+    r"^[ \t]*>[ \t]*(?:\$\$|\\\[|\\begin\{(?:aligned|align|gathered|split)\})"
+)
+
+
+def _iter_blockquote_blocks(text: str) -> Iterator[tuple[int, str]]:
+    """Yield ``(start_offset, block_text)`` for each run of blockquote lines.
+
+    A block is a maximal run of consecutive lines beginning with ``>``. The
+    offset is where the run starts in *text*, so a caller can hand it to
+    :func:`locate` to report a position.
+    """
+    offset = 0
+    block_start: int | None = None
+    for line in text.splitlines(keepends=True):
+        if line.startswith(">"):
+            if block_start is None:
+                block_start = offset
+        elif block_start is not None:
+            yield block_start, text[block_start:offset]
+            block_start = None
+        offset += len(line)
+    if block_start is not None:
+        yield block_start, text[block_start:offset]
+
+
+def _block_has_solution(block_text: str) -> bool:
+    """Return whether a blockquote block carries a solution or explanation item."""
+    return any(_SOLUTION_LABEL_RE.match(line) for line in block_text.splitlines())
+
+
+def _block_is_display_math(block_text: str) -> bool:
+    """Return whether a blockquote block opens with display math or an align environment."""
+    first = block_text.splitlines()[0] if block_text.splitlines() else ""
+    return bool(_DISPLAY_MATH_BLOCK_RE.match(first))
+
+
+"""One front-matter-style line of a submission note's title block."""
+_METADATA_LINE_RE = re.compile(
+    r"^[ \t]*(?:-[ \t]*)?(?:HKUST .*|parent:.*|title:.*|due:.*|points:.*|grade:.*"
+    r"|submitting:.*|No additional details were added.*)$"
+)
+
+
+def _section_is_metadata_only(section: str) -> bool:
+    """Return whether a heading body holds only submission metadata.
+
+    A submission note opens with a title block listing the course and session
+    identifier, a parent link, and whatever the LMS recorded about the
+    assignment. None of that is a fact a reader is asked to recall, and a card
+    built from it would test whether the note knows its own file name. Such a
+    heading groups the sections beneath it, the same role as a blank one.
+    """
+    lines = [line for line in section.splitlines() if line.strip()]
+    if not lines:
+        return False
+    return all(
+        line.strip() == "---" or _METADATA_LINE_RE.match(line.strip()) for line in lines
+    )
+
+
 # This rule was originally added in response to a validator failure when
 # a user created a 'numerical examples' section in ELEC 1100.  The
 # accompanying SKILL.md documentation now points back to this clause as a
@@ -1810,13 +1877,13 @@ def header_flashcard_presence(ctx: ValidationContext) -> list[ValidationMessage]
     A heading's cards have to sit in its own body, the text between it and the
     next heading of any level. Cards written under a child heading do not
     satisfy the parent, whatever the two levels are. A heading whose own body is
-    blank is a grouping heading that owns nothing to card, so it is exempt.
-    Index and questions pages are exempt, and so is a level-2 references
+    blank is a grouping heading that owns nothing to card, so it is exempt, and
+    so is one holding only a submission note's metadata block, for the same
+    reason. Index and questions pages are exempt, and so is a level-2 references
     header, which cites sources instead of stating cards.
     """
     errors: list[ValidationMessage] = []
-    name = ctx.path.name.lower()
-    if _flashcard_rule_exempt(ctx.path) or name in _SUBMISSION_CONTENT_FILES:
+    if _flashcard_rule_exempt(ctx.path):
         return errors
     headers = _build_filtered_header_positions(ctx.text, ctx.ast)
     for i, (hdr_pos, lvl, h) in enumerate(headers):
@@ -1827,7 +1894,18 @@ def header_flashcard_presence(ctx: ValidationContext) -> list[ValidationMessage]
         section = ctx.text[hdr_end:end]
         if not section.strip():
             continue
-        if not re.search(r"::@::|:@:|Flashcards for", section):
+        if _section_is_metadata_only(section):
+            continue
+        # A section passes on QA markers, or on a question block that answers
+        # itself. A submission whose cards live inside solution lines is a
+        # legitimate style, so counting only the markers would flag it.
+        has_question_block = any(
+            _block_has_solution(block)
+            for _off, block in _iter_blockquote_blocks(section)
+        )
+        if not has_question_block and not re.search(
+            r"::@::|:@:|Flashcards for", section
+        ):
             start = hdr_pos
             # report the heading as it reads, without any suppression comment
             body = h.group(2)
@@ -1869,10 +1947,7 @@ def header_flashcard_separator(ctx: ValidationContext) -> list[ValidationMessage
     This rule applies to headers at any level (e.g. #, ##, ###, etc.).
     """
     errors: list[ValidationMessage] = []
-    if (
-        _flashcard_rule_exempt(ctx.path)
-        or ctx.path.name.lower() in _SUBMISSION_CONTENT_FILES
-    ):
+    if _flashcard_rule_exempt(ctx.path):
         return errors
     headers = _build_filtered_header_positions(ctx.text, ctx.ast)
     for i, (hdr_pos, _lvl, h) in enumerate(headers):
@@ -4330,14 +4405,62 @@ def cloze_excessive_coverage(ctx: ValidationContext) -> list[ValidationMessage]:
     return errors
 
 
+def _inline_math_mask(line: str) -> list[bool]:
+    """Mark each index of *line* as lying inside inline math.
+
+    Inline math is delimited by a pair of unescaped dollar signs, so an index
+    counts as math when it falls between the opening and closing sign. A
+    dollar preceded by a backslash is escaped and never opens or closes.
+    """
+    mask = [False] * len(line)
+    open_at: int | None = None
+    for i, ch in enumerate(line):
+        if ch != "$" or (i > 0 and line[i - 1] == "\\"):
+            continue
+        if open_at is None:
+            open_at = i
+        else:
+            for j in range(open_at + 1, i):
+                mask[j] = True
+            open_at = None
+    return mask
+
+
+def _clause_delimiters(line: str) -> list[int]:
+    """Return the indices in *line* at which a new clause begins.
+
+    A semicolon, exclamation mark or question mark always ends a clause. A
+    period ends one only when it is neither part of a decimal literal, which
+    means it is not flanked by digits, nor inside inline math. Without those
+    two exceptions a variance written as ``5(0.2)(0.8)`` would be cut in half
+    and every offset after the cut would land in the wrong place.
+    """
+    math_mask = _inline_math_mask(line)
+    delimiters: list[int] = []
+    for i, ch in enumerate(line):
+        if ch in ";!?":
+            delimiters.append(i)
+        elif ch == ".":
+            flanked_by_digits = (
+                i > 0
+                and i + 1 < len(line)
+                and line[i - 1].isdigit()
+                and line[i + 1].isdigit()
+            )
+            if math_mask[i] or flanked_by_digits:
+                continue
+            delimiters.append(i)
+    return delimiters
+
+
 @RULE_REGISTRY.register()
 def cloze_no_hint_words(ctx: ValidationContext) -> list[ValidationMessage]:
     """Warn when a cloze flashcard clause has no hint words visible.
 
-    A clause is delimited by `.`, `;`, `!`, `?` (commas do NOT split).
-    For each clause containing at least one cloze, strip the cloze delimiters
-    to get visible text.  A "hint word" is 1+ alphabetic characters in
-    visible text outside cloze bodies.  If no hint word is found, emit
+    A clause ends at a delimiter from :func:`_clause_delimiters` (commas do
+    NOT split). For each clause containing at least one cloze, strip the cloze
+    delimiters to get visible text.  A "hint word" is 1+ alphabetic characters
+    in visible text outside cloze bodies.  If no hint word is found, emit
     a warning.  Skip clozes that contain only LaTeX math (equation-only
     clozes are acceptable).
     """
@@ -4345,22 +4468,26 @@ def cloze_no_hint_words(ctx: ValidationContext) -> list[ValidationMessage]:
     if not has_flash_tag(ctx.front):
         return errors
 
-    # Split text into lines and process each line
+    # Split text into lines and process each line. The loop tracks each
+    # line's absolute offset so a message can be located in the whole text:
+    # clause offsets are line-relative, so passing one straight to locate()
+    # would report the line the offset happens to land in, not this line.
+    line_start = 0
     for line_idx, line in enumerate(ctx.text.splitlines(), start=1):
         # Find all cloze spans in this line
         _, spans, _, _, _ = _scan_cloze_tokens(line)
+        line_start_next = line_start + len(line) + 1
         if not spans:
+            line_start = line_start_next
             continue
 
         # Split line into clauses by sentence delimiters (not commas)
         # We need to track positions relative to the original line
         clauses: list[tuple[str, int, int]] = []  # (clause_text, start, end)
         clause_start = 0
-        for i, ch in enumerate(line):
-            if ch in ".;!?":
-                clause = line[clause_start : i + 1]
-                clauses.append((clause, clause_start, i + 1))
-                clause_start = i + 1
+        for i in _clause_delimiters(line):
+            clauses.append((line[clause_start : i + 1], clause_start, i + 1))
+            clause_start = i + 1
         # Add the last clause if any
         if clause_start < len(line):
             clause = line[clause_start:]
@@ -4400,10 +4527,12 @@ def cloze_no_hint_words(ctx: ValidationContext) -> list[ValidationMessage]:
                 # Check if all clozes in this clause are equation-only (contain LaTeX math)
                 all_equation_only = True
                 for span_start, span_end in clause_spans:
-                    # Extract cloze body (between {@{ and }@})
-                    # spans are (open_index, close_index) where open is position of {@{}
-                    # and close is position of }@}
-                    cloze_body = line[span_start + 3 : span_end]
+                    # Extract cloze body (between {@{ and }@}). The offsets in
+                    # clause_spans are clause-relative, so the slice must come
+                    # from clause_text too; slicing the whole line with them
+                    # reads whatever sits at that column, which on an indented
+                    # solution line is a fragment of the preceding word.
+                    cloze_body = clause_text[span_start + 3 : span_end]
                     # Check if cloze body contains only LaTeX math
                     # Strip whitespace and check if it's all math delimiters/content
                     stripped = cloze_body.strip()
@@ -4416,18 +4545,63 @@ def cloze_no_hint_words(ctx: ValidationContext) -> list[ValidationMessage]:
                 if not all_equation_only:
                     # Report error at the first cloze in this clause
                     first_span = clause_spans[0]
-                    abs_pos = clause_start_off + first_span[0]
-                    line_no, col_no = locate(ctx.text, abs_pos)
+                    abs_pos = line_start + clause_start_off + first_span[0]
+                    _line, col_no = locate(ctx.text, abs_pos)
                     errors.append(
                         ValidationMessage(
                             rule_id="cloze_no_hint_words",
                             msg="cloze flashcard clause has no visible hint words",
                             severity=Severity.WARNING,
-                            line=line_no,
+                            line=line_idx,
                             col=col_no,
                         )
                     )
 
+        line_start = line_start_next
+
+    return errors
+
+
+@RULE_REGISTRY.register()
+def qa_block_missing_solution(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Warn when a question block in a submission note carries no answer.
+
+    A blockquoted question block answers itself with a ``solution`` or
+    ``explanation`` list item. This fires only on ``lab.md``, ``tutorial.md``
+    and ``lecture.md``, and only where the same note already uses that style
+    somewhere. A note that never writes an answer, such as a lecture built
+    from discussion prompts, is a different kind of note and stays silent.
+    Display-math blocks are not questions and are skipped.
+    """
+    errors: list[ValidationMessage] = []
+    if ctx.path.name.lower() not in _SUBMISSION_CONTENT_FILES:
+        return errors
+    if _flashcard_rule_exempt(ctx.path):
+        return errors
+    if not has_flash_tag(ctx.front):
+        return errors
+
+    blocks = list(_iter_blockquote_blocks(ctx.text))
+    if not any(_block_has_solution(block) for _off, block in blocks):
+        return errors
+
+    for off, block in blocks:
+        if _block_has_solution(block) or _block_is_display_math(block):
+            continue
+        line, col = locate(ctx.text, off)
+        errors.append(
+            ValidationMessage(
+                rule_id="qa_block_missing_solution",
+                msg=(
+                    "this question block has no 'solution:' or 'explanation:' item; "
+                    "every other block in this note answers its question, so add the "
+                    "missing answer rather than leaving the question bare"
+                ),
+                severity=Severity.WARNING,
+                line=line,
+                col=col,
+            )
+        )
     return errors
 
 

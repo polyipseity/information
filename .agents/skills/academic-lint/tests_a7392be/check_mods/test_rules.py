@@ -79,6 +79,7 @@ from main_mods.rules import (
     no_soft_wrap_paragraph,
     numeric_text_not_latex,
     one_sided_calc_warning,
+    qa_block_missing_solution,
     qa_hierarchical_path,
     qa_nested_indentation,
     qa_prompt_generic,
@@ -907,6 +908,59 @@ def test_header_flashcard_presence_exempts_blank_own_body():
     )
     ctx = make_ctx(txt, path=Path("/tmp/course/topic.md"))
     assert not header_flashcard_presence(ctx)
+
+
+def test_header_flashcard_presence_exempts_metadata_only_own_body():
+    """A title block of course metadata groups the sections beneath it."""
+
+    txt = (
+        "# tutorial\n\n"
+        "- HKUST MATH 3423 week 2 tutorial 1\n"
+        "- parent: [week 2 tutorial 1](index.md)\n\n"
+        "## statistical inference\n\n"
+        "Prose.\n\n"
+        "---\n\n"
+        "Flashcards for this section are as follows:\n\n"
+        "- card ::@:: answer\n"
+    )
+    ctx = make_ctx(
+        txt, path=Path("/tmp/course/tutorials/week 2 tutorial 1/tutorial.md")
+    )
+    assert not header_flashcard_presence(ctx)
+
+
+def test_header_flashcard_presence_exempts_lms_metadata_block():
+    """Recorded assignment bookkeeping is metadata too."""
+
+    txt = (
+        "# lab\n\n"
+        "- HKUST ELEC 1100 lab 1\n"
+        "- parent: [lab 1](index.md)\n\n"
+        "---\n\n"
+        "- title: Lab#01\n"
+        "- due: No Due Date\n"
+        "- points: 5\n\n"
+        "---\n\n"
+        "No additional details were added for this assignment.\n"
+    )
+    ctx = make_ctx(txt, path=Path("/tmp/course/labs/lab 1/lab.md"))
+    assert not header_flashcard_presence(ctx)
+
+
+def test_header_flashcard_presence_still_judges_metadata_plus_prose():
+    """One real sentence in the title block makes it teachable, so it is judged."""
+
+    txt = (
+        "# tutorial\n\n"
+        "- HKUST MATH 3423 week 2 tutorial 1\n"
+        "- parent: [week 2 tutorial 1](index.md)\n\n"
+        "Every voltage is a difference between two points.\n"
+    )
+    ctx = make_ctx(
+        txt, path=Path("/tmp/course/tutorials/week 2 tutorial 1/tutorial.md")
+    )
+    msgs = header_flashcard_presence(ctx)
+    assert [m.msg for m in msgs if "'# tutorial'" in m.msg]
 
 
 def test_header_flashcard_presence_does_not_exempt_level_one():
@@ -2343,6 +2397,85 @@ def test_cloze_no_hint_words_rule():
     no_tag = make_ctx("---\ntags: []\n---\nText {@{cloze}@} here.\n")
     assert not cloze_no_hint_words(no_tag)
 
+    # Regression: an indented blockquote solution line full of equation-only
+    # clozes used to be read with whole-line offsets and warned four times.
+    indented = (
+        "---\ntags: [flashcard/active/special/academia/test]\n---\n"
+        "> - explanation: (b) {@{$\\operatorname{E}[X_i] = 5(0.2) = 1$}@} and "
+        "{@{$\\operatorname{Var}(X_i) = 5(0.2)(0.8) = 0.8$}@}, so "
+        "{@{$\\operatorname{E}[\\bar X] = 1$}@} and "
+        "{@{$\\operatorname{Var}(\\bar X) = \\frac{0.8}{10} = 0.08$}@}.\n"
+    )
+    assert not cloze_no_hint_words(make_ctx(indented))
+
+    # A decimal inside math must not split the clause.
+    decimal = (
+        "---\ntags: [flashcard/active/special/academia/test]\n---\n"
+        "The variance is {@{$5(0.2)(0.8) = 0.8$}@}.\n"
+    )
+    assert not cloze_no_hint_words(make_ctx(decimal))
+
+    # The reported line is the cloze's real line, not a shifted one.
+    multiline = (
+        "---\ntags: [flashcard/active/special/academia/test]\n---\n"
+        "first line\nsecond line\nthird line\n"
+        "1. {@{the bridge resistor carries no current}@}.\n"
+    )
+    msgs = cloze_no_hint_words(make_ctx(multiline))
+    assert len(msgs) == 1
+    assert msgs[0].line == 7
+
+
+def test_qa_block_missing_solution_rule():
+    """A question block with no solution item should be warned, where the note uses that style."""
+    body = (
+        "---\ntags: [flashcard/active/special/academia/test]\n---\n"
+        "# tutorial\n\n"
+        "## random samples\n\n"
+        "> Let $X_1, X_2$ be a random sample.\n>\n"
+        "> - solution: They share one distribution.\n\n"
+        "> Why does the product of the marginals hold?\n"
+    )
+    msgs = qa_block_missing_solution(
+        make_ctx(body, path=Path("/tmp/c/tutorials/week 2 tutorial 1/tutorial.md"))
+    )
+    assert len(msgs) == 1
+    assert msgs[0].severity == Severity.WARNING
+    assert msgs[0].line == 12
+
+    # Silent when no block in the note carries a solution at all.
+    no_style = (
+        "---\ntags: [flashcard/active/special/academia/test]\n---\n"
+        "# lecture\n\n"
+        "> __Prompt.__ Use an example in daily life.\n"
+    )
+    assert not qa_block_missing_solution(
+        make_ctx(no_style, path=Path("/tmp/c/lectures/week 2 lecture 2/lecture.md"))
+    )
+
+    # Silent outside the submission filenames.
+    assert not qa_block_missing_solution(make_ctx(body, path=Path("/tmp/c/topic.md")))
+
+    # Silent without a flashcard tag.
+    assert not qa_block_missing_solution(
+        make_ctx(
+            "---\ntags: []\n---\n# tutorial\n\n> A question\n>\n> - solution: An answer\n",
+            path=Path("/tmp/c/tutorials/week 2 tutorial 1/tutorial.md"),
+        )
+    )
+
+    # A display-math blockquote is not a question.
+    display = (
+        "---\ntags: [flashcard/active/special/academia/test]\n---\n"
+        "# tutorial\n\n"
+        "> A question.\n>\n"
+        "> - solution: An answer.\n\n"
+        "> $$\\begin{aligned} x &= 1 \\end{aligned}$$\n"
+    )
+    assert not qa_block_missing_solution(
+        make_ctx(display, path=Path("/tmp/c/tutorials/week 2 tutorial 1/tutorial.md"))
+    )
+
 
 def test_cloze_article_before_rule():
     """Articles before cloze openings should be warned."""
@@ -3518,24 +3651,27 @@ async def test_link_anchor_slug_mixed_case_matches_heading(tmp_path: PathLike[st
 # submission content file exclusions -------------------------------------------------
 
 
-def test_flashcard_rules_exempt_submission_content_files():
-    """lab.md, tutorial.md, and lecture.md should be exempt from flashcard-presence rules.
+def test_flashcard_rules_judge_submission_content_files():
+    """lab.md, tutorial.md, and lecture.md are judged, not skipped.
 
-    These are Canvas submission content pages (in-class component metadata),
-    not concept/topic notes. They typically have no flashcards.
+    These pages carry a course session's material, so a section with no cards
+    and no answered question block is a real gap rather than a deliberate
+    absence.
     """
     content = (
         "# lab\n\n"
         "- HKUST ELEC 1100 lab 2\n"
         "- parent: [lab 2](index.md)\n\n"
-        "---\n\n"
-        "No additional details were added for this assignment.\n"
+        "This lab measures the amplitude of a periodic signal and reads the "
+        "energy it carries.\n\n"
+        "## period\n\n"
+        "Prose.\n"
     )
 
     for name in ("lab.md", "tutorial.md", "lecture.md"):
         ctx = make_ctx(content, path=Path(f"/tmp/course/labs/lab 1/{name}"))
-        assert not header_flashcard_presence(ctx), (
-            f"header_flashcard_presence should not fire on {name}"
+        assert header_flashcard_presence(ctx), (
+            f"header_flashcard_presence should fire on {name}"
         )
         assert not header_flashcard_separator(ctx), (
             f"header_flashcard_separator should not fire on {name}"
@@ -3544,9 +3680,66 @@ def test_flashcard_rules_exempt_submission_content_files():
             f"header_flashcard_sections_duplicate should not fire on {name}"
         )
 
-    # topic_note_redundant_filename_prefix also exempts these files
+    # topic_note_redundant_filename_prefix still exempts these files
     ctx_lab = make_ctx(content, path=Path("/tmp/course/labs/lab 1/lab.md"))
     assert not topic_note_redundant_filename_prefix(ctx_lab)
+
+
+def test_header_flashcard_presence_exempts_metadata_title_of_submission_files():
+    """A submission title block of course metadata still asks for no cards.
+
+    ``test_flashcard_rules_judge_submission_content_files`` proves these three
+    files are judged. This proves the carve-out that keeps their metadata title
+    block out of it.
+    """
+
+    content = (
+        "# lab\n\n"
+        "- HKUST ELEC 1100 lab 2\n"
+        "- parent: [lab 2](index.md)\n\n"
+        "---\n\n"
+        "- title: Lab#02\n"
+        "- points: 5\n\n"
+        "---\n\n"
+        "No additional details were added for this assignment.\n"
+    )
+
+    for name in ("lab.md", "tutorial.md", "lecture.md"):
+        ctx = make_ctx(content, path=Path(f"/tmp/course/labs/lab 1/{name}"))
+        assert not header_flashcard_presence(ctx), (
+            f"a metadata-only title should not be carded on {name}"
+        )
+
+
+def test_header_flashcard_presence_accepts_a_solution_bearing_question_block():
+    """A submission section whose cards live in solution lines passes."""
+    txt = (
+        "---\ntags: [flashcard/active/special/academia/test]\n---\n"
+        "# tutorial\n\n"
+        "## random samples\n\n"
+        "Assume the copies are independent and identically distributed.\n\n"
+        "> Let $X_1, X_2$ be a random sample.\n>\n"
+        "> - solution: They share one distribution, so the product holds.\n"
+    )
+    ctx = make_ctx(
+        txt, path=Path("/tmp/course/tutorials/week 2 tutorial 1/tutorial.md")
+    )
+    assert not header_flashcard_presence(ctx)
+
+
+def test_header_flashcard_presence_flags_unanswered_tutorial_section():
+    """A tutorial section with neither cards nor an answered block is flagged."""
+    txt = (
+        "---\ntags: [flashcard/active/special/academia/test]\n---\n"
+        "# tutorial\n\nTerm ::@:: Definition\n\n"
+        "## marginal notes\n\n"
+        "A revision note with no cards and no question block.\n"
+    )
+    ctx = make_ctx(
+        txt, path=Path("/tmp/course/tutorials/week 2 tutorial 1/tutorial.md")
+    )
+    msgs = header_flashcard_presence(ctx)
+    assert [m for m in msgs if "'## marginal notes'" in m.msg]
 
 
 def test_flashcard_rules_still_fire_on_topic_notes():
