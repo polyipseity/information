@@ -11,6 +11,7 @@ import pytest
 from anyio import Path as AnyioPath
 from bs4 import BeautifulSoup, NavigableString, Tag
 
+from scripts.convert_wiki import config as _cfg
 from scripts.convert_wiki.converter import WikiHtmlConverter, _discards_subtree
 from scripts.convert_wiki.inline_context import (
     _in_inline_context,
@@ -532,9 +533,12 @@ class TestLinkHandling:
         """Percent-encoded href fragments must be decoded before name-map casing.
 
         Regression: the fragment used to reach ``_fix_name_maybe`` still
-        percent-encoded, which both suppressed the lowercase-first-char
-        fallback (``%C3%B6`` contains uppercase hex digits) and leaked the
-        encoding into the written link.
+        percent-encoded, which suppressed the lowercase-first-char fallback
+        (``%C3%B6`` contains uppercase hex digits) and leaked the encoding into
+        the written link.
+
+        Decoding yields a lowercase-first name that the name map resolves to
+        the canonical heading casing, so the link keeps its capital ``S``.
         """
         html = (
             '<a title="Hydrogen-like atom"'
@@ -543,7 +547,7 @@ class TestLinkHandling:
         result = await _convert(converter, html)
         assert (
             "(hydrogen-like%20atom.md"
-            "#schr\u00f6dinger%20equation%20in%20a%20spherically%20symmetric%20potential)"
+            "#Schr\u00f6dinger%20equation%20in%20a%20spherically%20symmetric%20potential)"
         ) in result
         assert "%C3" not in result
 
@@ -558,7 +562,7 @@ class TestLinkHandling:
         )
         result = await _convert(converter, html)
         assert (
-            "(#schr\u00f6dinger%20equation%20in%20a%20spherically%20symmetric%20potential)"
+            "(#Schr\u00f6dinger%20equation%20in%20a%20spherically%20symmetric%20potential)"
         ) in result
         assert "%C3" not in result
 
@@ -574,7 +578,7 @@ class TestLinkHandling:
         result = await _convert(converter, html)
         assert (
             "(special%20relativity.md"
-            "#schr\u00f6dinger%20equation%20in%20a%20spherically%20symmetric%20potential)"
+            "#Schr\u00f6dinger%20equation%20in%20a%20spherically%20symmetric%20potential)"
         ) in result
         assert "%C3" not in result
 
@@ -600,6 +604,10 @@ class TestLinkHandling:
         ``_rewrite_link_target`` unquotes the fragment it reads back from the
         written Markdown; ingestion must therefore emit the same form so a
         ``--reprocess`` run is a no-op.
+
+        The rewrite needs the name map ingestion used. Given an empty one, the
+        lowercase-first-char fallback would lowercase the anchor and break the
+        round trip for a name the map actually knows about.
         """
         html = (
             '<a title="Hydrogen-like atom"'
@@ -607,7 +615,7 @@ class TestLinkHandling:
         )
         result = await _convert(converter, html)
         target = result[result.index("](") + 2 : result.index(")")]
-        assert _rewrite_link_target(target, {}, names_map={}) == target
+        assert _rewrite_link_target(target, {}, names_map=_cfg._NAMES_MAP) == target
 
     @pytest.mark.anyio
     async def test_external_link(self, converter: WikiHtmlConverter) -> None:
@@ -639,7 +647,7 @@ class TestLinkHandling:
         )
         result = await _convert(converter, html)
         assert (
-            "(#schr\u00f6dinger%20equation%20in%20a%20spherically%20symmetric%20potential)"
+            "(#Schr\u00f6dinger%20equation%20in%20a%20spherically%20symmetric%20potential)"
         ) in result
         assert "%C3" not in result
 
