@@ -2287,7 +2287,7 @@ def test_cloze_solution_outside_question_rule():
 
 
 def test_qa_card_inside_question_rule():
-    """A card marker on a blockquote line is a card inside a question block."""
+    """A card marker on a line of a question block is a card inside the question."""
     question = (
         "> Which database indexes the psychology literature?\n"
         ">\n"
@@ -2295,20 +2295,52 @@ def test_qa_card_inside_question_rule():
     )
     front = "---\ntags: [flashcard/active/special/academia/test]\n---\n"
 
-    # A card written as a question-block item.
+    # A card written as an item of a question block.
     inside = make_ctx(
-        f"{front}# lecture\n\n## exercise\n\n> - APA PsycInfo ::@:: The database "
-        "that indexes the psychology literature.\n",
+        f"{front}# lecture\n\n## exercise\n\n"
+        "> Which database indexes the psychology literature?\n"
+        ">\n"
+        "> - APA PsycInfo ::@:: The database that indexes the psychology "
+        "literature.\n"
+        ">\n"
+        "> - solution: {@{APA PsycInfo}@}\n",
         path=Path("/tmp/course/lecture.md"),
     )
     msgs = qa_card_inside_question(inside)
     assert msgs and msgs[0].rule_id == "qa_card_inside_question"
 
     one_sided = make_ctx(
-        f"{front}# lecture\n\n## exercise\n\n> - APA PsycInfo :@: The database.\n",
+        f"{front}# lecture\n\n## exercise\n\n"
+        "> Which database indexes the psychology literature?\n"
+        ">\n"
+        "> - APA PsycInfo :@: The database.\n"
+        ">\n"
+        "> - solution: {@{APA PsycInfo}@}\n",
         path=Path("/tmp/course/lecture.md"),
     )
     assert qa_card_inside_question(one_sided)
+
+    # A quoted card list answers no question, so the rule stays off it. Notes
+    # quote register tables and similar card lists inside a blockquote.
+    assert not qa_card_inside_question(
+        make_ctx(
+            f"{front}# lecture\n\n## registers\n\n"
+            "> __flashcards__\n"
+            ">\n"
+            "> - __`$zero`__ ::@:: `$0`: constant 0\n"
+            "> - __`$at`__ ::@:: `$1`: assembler temporary\n",
+            path=Path("/tmp/course/lecture.md"),
+        )
+    )
+
+    # A quoted passage with no solution line is likewise not a question.
+    assert not qa_card_inside_question(
+        make_ctx(
+            f"{front}# lecture\n\n## registers\n\n"
+            "> - stack pointer ::@:: `$sp`: stack pointer\n",
+            path=Path("/tmp/course/lecture.md"),
+        )
+    )
 
     # A cloze solution line is what a question block wants.
     assert not qa_card_inside_question(
