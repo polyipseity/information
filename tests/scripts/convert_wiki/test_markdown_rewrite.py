@@ -188,6 +188,23 @@ class TestRewriteMarkdownLinks:
         )
         assert rewritten == "See [physics](Modern%20physics.md) for details."
 
+    def test_fragment_only_target_left_alone(self) -> None:
+        """A target with no page part has no stem to rewrite."""
+        text = "See [third law](#third%20law.md) for details."
+        rewritten = _rewrite_markdown_links(
+            text,
+            {"modern physics": "Modern physics"},
+        )
+        assert rewritten == text
+
+    def test_md_suffix_after_fragment_is_moved_back(self) -> None:
+        """The older ``Page#anchor.md`` shape is read as a page link."""
+        text = "See [inverse](proportionality%20(mathematics)#inverse%20proportionality.md)."
+        rewritten = _rewrite_markdown_links(text, {"modern physics": "Modern physics"})
+        assert rewritten == (
+            "See [inverse](proportionality%20(mathematics).md#inverse%20proportionality)."
+        )
+
     def test_rewrite_preserves_fragment(self) -> None:
         """Fragments should survive link rewrites."""
         text = "See [physics](modern%20physics.md#section)."

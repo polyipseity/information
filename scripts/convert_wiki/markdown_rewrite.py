@@ -27,8 +27,16 @@ def _encode_stem(stem: str) -> str:
 
 
 def _decode_link_stem(target: str) -> tuple[str, str]:
-    """Split a link target into ``(stem, fragment)``."""
+    """Split a link target into ``(stem, fragment)``.
+
+    An older converter wrote a same-page target as ``Page#anchor.md``.  The
+    ``.md`` belongs to the page in every other target shape, so it moves back
+    to the end of the page and the anchor is read as the fragment.
+    """
     page, _, fragment = target.partition("#")
+    if not page.endswith(".md") and fragment.endswith(".md"):
+        page = f"{page}.md"
+        fragment = fragment.removesuffix(".md")
     if not page.endswith(".md"):
         msg = f"not a markdown page link: {target!r}"
         raise ValueError(msg)
@@ -108,7 +116,12 @@ def _rewrite_link_target(
     When no migration exists for a stem (e.g. the mapping already existed
     in the base name_map before this reprocess run), the *names_map* is
     used as a fallback to correct the link stem.
+
+    A fragment-only target names no page, so there is no stem to migrate and
+    the target is returned as it stands.
     """
+    if not target.partition("#")[0]:
+        return target
     stem, fragment = _decode_link_stem(target)
     new_stem = migrations.get(stem, stem)
     # Fallback: when no migration exists (mapping already in base name_map),
