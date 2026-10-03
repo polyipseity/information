@@ -754,16 +754,16 @@ class TestLinkHandling:
         assert "#section.28)" in result.lower()
 
     @pytest.mark.anyio
-    async def test_external_url_fragment_untouched(
+    async def test_external_url_fragment_dot_escapes_decoded(
         self, converter: WikiHtmlConverter
     ) -> None:
-        """An external URL fragment with dot-escapes must stay verbatim."""
+        """A foreign URL fragment has no local anchor, so it decodes."""
         html = (
             '<a href="https://en.wikipedia.org/wiki/Wikipedia:Content%20forks'
             '#Article%20spinoffs%3A%20.22Summary%20style.22">link</a>'
         )
         result = await _convert(converter, html)
-        assert ".22" in result
+        assert ".22" not in result
         assert "Summary" in result
 
 

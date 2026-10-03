@@ -2,7 +2,7 @@
 
 import difflib
 import re
-from collections.abc import Mapping, Sequence, Set
+from collections.abc import Mapping, Sequence
 from typing import Any
 from urllib.parse import unquote
 
@@ -98,7 +98,6 @@ def _rewrite_link_target(
     migrations: Mapping[str, str],
     *,
     names_map: Mapping[str, str] | None = None,
-    known_fragments: Set[str] = frozenset(),
 ) -> str:
     """Rewrite a single markdown link target using stem migrations.
 
@@ -123,11 +122,7 @@ def _rewrite_link_target(
             new_stem = _fix_filename(names_map[lookup])
     encoded = _encode_stem(new_stem)
     if fragment and names_map is not None:
-        plain_fragment = _plain_fragment(
-            fragment,
-            known_fragments=known_fragments,
-            names_map=names_map,
-        )
+        plain_fragment = _plain_fragment(fragment)
         new_fragment = _resolve_plain_rewrite(
             plain_fragment,
             names_map=names_map,
@@ -143,7 +138,6 @@ def _rewrite_markdown_links(
     migrations: Mapping[str, str],
     *,
     names_map: Mapping[str, str] | None = None,
-    known_fragments: Set[str] = frozenset(),
 ) -> str:
     """Rewrite markdown ``.md`` link targets according to _migrations_.
 
@@ -185,7 +179,6 @@ def _rewrite_markdown_links(
             expected_url,
             migrations,
             names_map=names_map,
-            known_fragments=known_fragments,
         )
         if unquote(new_url) != unquote(destination):
             edits.append((dest_start, dest_end, new_url))

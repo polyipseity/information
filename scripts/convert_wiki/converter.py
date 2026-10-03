@@ -167,10 +167,10 @@ def _collapse_whitespace(text: str) -> str:
 def _collect_anchor_fragments(ele: PageElement) -> frozenset[str]:
     """Collect every anchor spelling the source document offers.
 
-    MediaWiki emits a section anchor in the wiki's primary fragment mode and,
-    when legacy mode is also configured, a legacy alias for the same section.
-    Notes anchor sections by heading text, so the legacy-decoded spelling of
-    each id is part of the accepted set as well.
+    Notes anchor sections by heading text and MediaWiki writes a literal ``.``
+    unescaped, so an in-document self-link is the one case where a
+    dot-plus-hex run can be settled from evidence instead of plausibility:
+    the literal reading is kept when only it names an anchor of this document.
     """
     if not isinstance(ele, Tag):
         return frozenset()
@@ -251,12 +251,8 @@ class WikiHtmlConverter:
         self._pending_redirects: list[tuple[str, str]] = []
 
     def _decode_fragment(self, fragment: str) -> str:
-        """Decode an ``href`` fragment against the document's anchor spellings."""
-        return _plain_fragment(
-            fragment,
-            known_fragments=self._known_fragments,
-            names_map=self._names_map,
-        )
+        """Decode an ``href`` fragment into plain text."""
+        return _plain_fragment(fragment, known_fragments=self._known_fragments)
 
     def _convert_text_node(
         self,

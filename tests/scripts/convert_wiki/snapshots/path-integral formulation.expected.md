@@ -445,7 +445,7 @@ Now, the contribution of the kinetic energy to the path integral is as follows:
 
 $${\frac {1}{Z} }\int _{\mathbf {x} (0)=x}f(\mathbf {x} )e^{-{\frac {m}{2} }\int |{\dot {\mathbf {x} } }|^{2}dt}\,{\mathcal {D} }\mathbf {x} \,$$
 
-where $f(\mathbf {x} )$ includes all the remaining dependence of the integrand on the path. This integral has a rigorous mathematical interpretation as integration against the [Wiener measure](Wiener%20process.md), denoted $\mu _{x}$. The Wiener measure, constructed by [Norbert Wiener](Norbert%20Wiener.md) gives a rigorous foundation to [Einstein's mathematical model of Brownian motion](Brownian%20motion.md#einstein.27s%20theory). The subscript $x$ indicates that the measure $\mu _{x}$ is supported on paths $\mathbf {x}$ with $\mathbf {x} (0)=x$.
+where $f(\mathbf {x} )$ includes all the remaining dependence of the integrand on the path. This integral has a rigorous mathematical interpretation as integration against the [Wiener measure](Wiener%20process.md), denoted $\mu _{x}$. The Wiener measure, constructed by [Norbert Wiener](Norbert%20Wiener.md) gives a rigorous foundation to [Einstein's mathematical model of Brownian motion](Brownian%20motion.md#einstein's%20theory). The subscript $x$ indicates that the measure $\mu _{x}$ is supported on paths $\mathbf {x}$ with $\mathbf {x} (0)=x$.
 
 We then have a rigorous version of the Feynman path integral, known as the [Feynman–Kac formula](Feynman–Kac%20formula.md):<sup>[\[17\]](#^ref-17)</sup>
 
