@@ -41,7 +41,7 @@ Flashcards for this section are as follows:
 
 The presentation is static and in the ISO main profile. It runs 3 minutes 30 seconds, with a `minBufferTime` of 1 second. It holds a single `Period`, and inside that one `AdaptationSet` for video and one for audio.
 
-<!-- check: ignore-file[math_in_code_fence]: $RepresentationID$ and $Number$ are DASH template macros written with dollar signs, not LaTeX  -->
+<!-- check: ignore-begin[math_in_code_fence]: $RepresentationID$ and $Number$ are DASH template macros written with dollar signs, not LaTeX -->
 ```xml
 <MPD id="f08e80da-bf1d-4e3d-8899-f0f6155f6efa"
      profiles="urn:mpeg:dash:profile:isoff-main:2011" type="static"
@@ -70,6 +70,7 @@ The presentation is static and in the ISO main profile. It runs 3 minutes 30 sec
   </Period>
 </MPD>
 ```
+<!-- check: ignore-end[math_in_code_fence]: end of the MPD excerpt -->
 
 The video `AdaptationSet` opens with its `SegmentTemplate`, which gives the URI of any segment in that stream. The template substitutes `$RepresentationID$` for the chosen level and `$Number$` for the segment's index. Its `initialization` attribute points at the `init.mp4` file a client fetches before any segment.
 
