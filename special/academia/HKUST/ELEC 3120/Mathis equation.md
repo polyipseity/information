@@ -20,7 +20,7 @@ The Mathis equation predicts the throughput a TCP Reno connection settles into w
 
 Flashcards for this section are as follows:
 
-- overview ::@:: The Mathis equation predicts the throughput of a TCP Reno connection from the segment size, the round-trip time, and the loss probability.
+- what it predicts: what does the Mathis equation predict, and from which quantities? ::@:: The Mathis equation predicts the throughput of a TCP Reno connection from the segment size, the round-trip time, and the loss probability.
 - why the square root matters: what does the $1/\sqrt{p}$ term say about the cost of a lossy path? ::@:: That throughput falls only with the square root of the loss probability.
 
 ## the equation and its terms

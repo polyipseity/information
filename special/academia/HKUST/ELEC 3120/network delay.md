@@ -20,7 +20,7 @@ Delay is how long data take to cross a link, and it has two parts: getting the d
 
 Flashcards for this section are as follows:
 
-- overview ::@:: The delay of a link is the time to push the data into it plus the time for a bit to travel along it.
+- link delay: what two times make it up? ::@:: The delay of a link is the time to push the data into it plus the time for a bit to travel along it.
 - which two parts does link delay have? ::@:: The transmission delay, set by the bandwidth and the amount of data, and the propagation delay, set by the link's length.
 - are the two parts related? ::@:: No: one depends on the link's rate, the other on its length.
 
@@ -84,7 +84,16 @@ Flashcards for this section are as follows:
 
 ## throughput and latency
 
-Which of the two numbers matters more depends on the link, and the same two questions apply to links of every kind. A fiber between two servers in a datacenter, a fiber across the Pacific, a manual telegraph from Hong Kong to Beijing, and a radio link to a satellite far out in the solar system are all pipes; they differ in how wide they are and how long, not in kind. Choosing between a network that sends a lot of data slowly and one that sends a little data quickly is the choice between throughput and latency, and it comes back at every scale, down to whether a supercomputer without a network connection is more useful than a simple cell phone that has one.
+Which of the two numbers matters more depends on the link, and the same two questions apply to links of every kind.
+
+- a fiber between two servers in a datacenter
+- a fiber across the Pacific
+- a manual telegraph from Hong Kong to Beijing
+- a radio link to a satellite far out in the solar system
+
+They differ in how wide they are and how long, not in kind.
+
+Choosing between a network that sends a lot of data slowly and one that sends a little data quickly is the choice between throughput and latency. It comes back at every scale, down to whether a supercomputer without a network connection is more useful than a simple cell phone that has one.
 
 ---
 

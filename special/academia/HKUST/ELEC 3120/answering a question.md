@@ -14,28 +14,49 @@ tags:
 
 # answering a question
 
-A complete answer states the answer, the evidence behind it, and the warrant that ties the evidence to the answer. The answer comes first, as the bottom line up front, so that a reader who stops after one sentence still has the response; the evidence then shows what the answer rests on, and the warrant why that evidence settles the question. A bare "yes", a bare "no", or even "yes, bears have fur" leaves the reader unable to tell whether the reasoning holds.
+A complete answer does more than answer the question. It shows what the answer rests on, and why that settles it. A bare yes or a bare no does neither. This note covers both halves of the task: writing an answer, and reading a plot that is somebody else's answer.
 
 ---
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A complete answer gives the answer, the evidence for it, and a warrant connecting the evidence to the answer.
-- why is a bare yes or no a poor answer? ::@:: It gives neither evidence nor warrant.
-- why does the answer come first? ::@:: A reader who stops after the first sentence still has the response.
+- what makes an answer complete? ::@:: The answer, the evidence behind it, and the warrant connecting the two.
 
 ## the three parts
 
-The answer is the specific response to the question. The evidence supports the answer, and an answer with several claims needs evidence for each of them. The warrant connects that evidence to the answer, which is what makes the evidence relevant rather than merely true. Paragraphs and bullet points both work, as long as the three parts appear. For "are bears mammals?", the answer is that they are, the evidence is that bears have fur, and the warrant is that animals with fur or hair are mammals. A longer answer to "is Hong Kong a great city to live in?" gives yes and then two pairs: Hong Kong has many hiking trails, and people enjoy living in cities that offer outdoor activities; and Hong Kong has convenient public transport, which saves people time on their commute.
+The answer is the specific response to the question. The evidence supports the answer. The warrant connects that evidence to the answer. All three can be written as a paragraph or as bullet points.
+
+The warrant is what separates evidence that settles a question from evidence that is merely true. "Bears have fur" is true and settles nothing by itself.
+
+For "are bears mammals?", the answer is that they are, the evidence is that bears have fur, and the warrant is that animals with fur or hair are mammals.
+
+An answer with several claims needs its own evidence and warrant for each of them. "Is Hong Kong a great city to live in?" is answered yes, and rests on two pieces of evidence. The first is that Hong Kong has many hiking trails. Its warrant is that people enjoy living in cities that offer outdoor activities. The second is that Hong Kong has convenient public transport. Its warrant is that this saves people time on their commute.
 
 ---
 
 Flashcards for this section are as follows:
 
-- what does the evidence do? ::@:: Supports the answer, and every claim in it needs its own evidence.
-- what does the warrant do? ::@:: Connects the evidence to the answer, making the evidence relevant.
-- evidence against warrant: what separates the two? ::@:: The evidence is what is being claimed; the warrant says why that claim supports the answer.
-- what form does the answer take? ::@:: Paragraphs or bullet points, as long as the three parts appear.
 - worked answer: are bears mammals? ::@:: Answer: yes, bears are mammals; evidence: bears have fur; warrant: animals with fur or hair are mammals.
-- worked answer: is Hong Kong a great city to live in? ::@:: Answer: yes; evidence: many hiking trails and convenient public transport; warrants: people enjoy cities with outdoor activities, and people save time on their commute.
-- worked answer: what goes wrong if the bears answer stops at the evidence? ::@:: "Bears have fur" alone does not show why bears are mammals; the warrant supplies the missing link.
+- Hong Kong as a great city: what are its two warrants? ::@:: People enjoy living in cities that offer outdoor activities; this saves people time on their commute.
+- what goes wrong if the answer stops at the evidence? ::@:: The reader is left with something true that does not yet settle the question. The warrant supplies the missing link.
+
+## explaining a plot
+
+A plot gets read in the same six steps every time, and WALTER is the mnemonic for them.
+
+1. __Why__: what the plot concludes.
+2. __Axes__: what each axis measures.
+3. __Lines__: what was actually measured.
+4. __Trend__: what direction the data goes.
+5. __Exception__: whether anything sits apart from the rest.
+6. __Recap__: what the whole thing comes to.
+
+The order is not interchangeable. __Why__ names the question the reading starts from, but its answer holds only once __Axes__ and __Lines__ are settled. Run the six steps in reverse and the conclusion arrives before anything establishes what was measured, so it is a guess.
+
+---
+
+Flashcards for this section are as follows:
+
+- what are the six steps of WALTER, in order? ::@:: Why, Axes, Lines, Trend, Exception, Recap.
+- why can the six steps not be rearranged? ::@:: A conclusion is defensible only as far as the measurement behind it is clear, so __Axes__ and __Lines__ must be settled first.
+- WALTER, L: what does Lines ask? ::@:: What you have measured, as distinct from what the axes are labelled.

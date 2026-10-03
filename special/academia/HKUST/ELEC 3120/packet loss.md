@@ -20,7 +20,7 @@ A packet that never arrives is lost, and how often that happens depends on the m
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Packet loss is data that fails to reach its destination, and how often it happens follows from the medium's error rate.
+- what is packet loss? ::@:: Packet loss is data that fails to reach its destination, and how often it happens follows from the medium's error rate.
 - why do two links lose data at different rates? ::@:: Their media have different error rates.
 - what happens to data a protocol loses? ::@:: The transport protocol detects it and sends it again, as TCP does.
 

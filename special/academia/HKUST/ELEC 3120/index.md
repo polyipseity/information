@@ -29,19 +29,30 @@ ELEC 3120 is an introductory course in computer networks, emphasizing the perfor
 ## children
 
 - [assignments/](assignments/index.md)
+- [Dynamic Adaptive Streaming over HTTP](Dynamic%20Adaptive%20Streaming%20over%20HTTP.md)
 - [HTTP](HTTP.md)
 - [Mathis equation](Mathis%20equation.md)
 - [TCP congestion control](TCP%20congestion%20control.md)
 - [TCP loss recovery](TCP%20loss%20recovery.md)
+- [adaptive bitrate streaming](adaptive%20bitrate%20streaming.md)
+- [agent execution loop](agent%20execution%20loop.md)
 - [answering a question](answering%20a%20question.md)
 - [bandwidth (computing)](bandwidth%20(computing).md)
+- [buffer-based rate adaptation](buffer-based%20rate%20adaptation.md)
 - [computer network](computer%20network.md)
 - [flow control (data)](flow%20control%20(data).md)
 - [head-of-line blocking](head-of-line%20blocking.md)
+- [language model access](language%20model%20access.md)
+- [media segmentation](media%20segmentation.md)
 - [network delay](network%20delay.md)
 - [packet loss](packet%20loss.md)
+- [progressive download](progressive%20download.md)
 - [sliding window protocol](sliding%20window%20protocol.md)
 - [transmission medium](transmission%20medium.md)
+- [vibe coding](vibe%20coding.md)
+- [video bitrate](video%20bitrate.md)
+- [video on demand](video%20on%20demand.md)
+- [worse is better](worse%20is%20better.md)
 
 ## logistics
 
@@ -172,19 +183,63 @@ ELEC 3120 is an introductory course in computer networks, emphasizing the perfor
 
 - datetime: 2026-09-11T09:00:00+08:00/2026-09-11T10:20:00+08:00, PT1H20M
 - venue: LTL, CYT Bldg
-- topic: the Web, continued
+- topic: the Web, continued; video streaming
+- [answering a question](answering%20a%20question.md)
+    - [§ explaining a plot](answering%20a%20question.md#explaining%20a%20plot)
+- [video on demand](video%20on%20demand.md)
+    - [§ on-demand video](video%20on%20demand.md#on-demand%20video)
+    - [§ real-time video](video%20on%20demand.md#real-time%20video)
+    - [§ live streaming](video%20on%20demand.md#live%20streaming)
+- [progressive download](progressive%20download.md)
+    - [§ the client buffer](progressive%20download.md#the%20client%20buffer)
+    - [§ buffer occupancy](progressive%20download.md#buffer%20occupancy)
+        - [§ bitrate against network capacity](progressive%20download.md#bitrate%20against%20network%20capacity)
+    - [§ buffers against variability](progressive%20download.md#buffers%20against%20variability)
+- [video bitrate](video%20bitrate.md)
+    - [§ variable bitrate encoding](video%20bitrate.md#variable%20bitrate%20encoding)
+- [adaptive bitrate streaming](adaptive%20bitrate%20streaming.md)
+    - [§ matching quality to capacity](adaptive%20bitrate%20streaming.md#matching%20quality%20to%20capacity)
 
 ## week 2 tutorial 1
 
 - datetime: 2026-09-11T15:00:00+08:00/2026-09-11T15:50:00+08:00, PT50M
 - venue: Rm 2504, Lift 25-26
-- topic: coding recap; compiling and debugging C++ code
+- topic: AI-assisted coding; agents, vibe coding, and model access
+- [agent execution loop](agent%20execution%20loop.md)
+    - [§ the loop](agent%20execution%20loop.md#the%20loop)
+    - [§ the core tool set](agent%20execution%20loop.md#the%20core%20tool%20set)
+- [vibe coding](vibe%20coding.md)
+    - [§ git as a safety net](vibe%20coding.md#git%20as%20a%20safety%20net)
+- [language model access](language%20model%20access.md)
+    - [§ the five routes](language%20model%20access.md#the%20five%20routes)
+    - [§ GitHub and the Student Developer Pack](language%20model%20access.md#github%20and%20the%20student%20developer%20pack)
 
 ## week 3 lecture 1
 
 - datetime: 2026-09-14T13:30:00+08:00/2026-09-14T14:50:00+08:00, PT1H20M
 - venue: LTL, CYT Bldg
-- topic: video streaming
+- topic: video streaming, continued
+- [media segmentation](media%20segmentation.md)
+    - [§ from custom protocols to HTTP](media%20segmentation.md#from%20custom%20protocols%20to%20http)
+    - [§ chunking](media%20segmentation.md#chunking)
+    - [§ why HTTP took over](media%20segmentation.md#why%20http%20took%20over)
+- [adaptive bitrate streaming](adaptive%20bitrate%20streaming.md)
+    - [§ what the algorithm sees](adaptive%20bitrate%20streaming.md#what%20the%20algorithm%20sees)
+    - [§ what the algorithm chooses](adaptive%20bitrate%20streaming.md#what%20the%20algorithm%20chooses)
+    - [§ where the decisions run](adaptive%20bitrate%20streaming.md#where%20the%20decisions%20run)
+- [Dynamic Adaptive Streaming over HTTP](Dynamic%20Adaptive%20Streaming%20over%20HTTP.md)
+    - [§ the manifest](Dynamic%20Adaptive%20Streaming%20over%20HTTP.md#the%20manifest)
+    - [§ what this manifest contains](Dynamic%20Adaptive%20Streaming%20over%20HTTP.md#what%20this%20manifest%20contains)
+    - [§ what the player does](Dynamic%20Adaptive%20Streaming%20over%20HTTP.md#what%20the%20player%20does)
+- [buffer-based rate adaptation](buffer-based%20rate%20adaptation.md)
+    - [§ one parameter](buffer-based%20rate%20adaptation.md#one%20parameter)
+    - [§ the rule](buffer-based%20rate%20adaptation.md#the%20rule)
+    - [§ what the rule leaves open](buffer-based%20rate%20adaptation.md#what%20the%20rule%20leaves%20open)
+    - [§ discrete rates](buffer-based%20rate%20adaptation.md#discrete%20rates)
+    - [§ how BBA performed in the 2020 Puffer study](buffer-based%20rate%20adaptation.md#how%20bba%20performed%20in%20the%202020%20puffer%20study)
+- [worse is better](worse%20is%20better.md)
+    - [§ tight integration and weak integration](worse%20is%20better.md#tight%20integration%20and%20weak%20integration)
+    - [§ three reasons the simpler design won](worse%20is%20better.md#three%20reasons%20the%20simpler%20design%20won)
 
 ## week 3 lecture 2
 

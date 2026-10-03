@@ -22,7 +22,7 @@ Flow control keeps a fast sender from overrunning the receiver's buffer. The rec
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Flow control keeps a fast sender within the buffer room the receiver has left.
+- what it is: what does flow control constrain, and to what? ::@:: Flow control keeps a fast sender within the buffer room the receiver has left.
 - what sets the limit: what decides how much a sender may have outstanding under flow control? ::@:: The receiver's own resources, through the room left in its buffer.
 - what happens without it: what happens to a receiver that the sender outruns? ::@:: Its buffer overflows, because data arrives faster than it is drained.
 

@@ -24,7 +24,7 @@ Congestion control keeps a sender from pushing more traffic into the network tha
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Congestion control limits a sender to what the path can carry, inferring that limit from the acknowledgements it receives.
+- core idea: what does congestion control limit a sender to? ::@:: Congestion control limits a sender to what the path can carry, inferring that limit from the acknowledgements it receives.
 - who infers the limit: what does the sender use to estimate the path's room? ::@:: The acknowledgements it receives.
 - overload signal: what do acknowledgements that stop arriving tell the sender? ::@:: That the path is overloaded.
 
