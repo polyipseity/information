@@ -28,6 +28,7 @@ MATH 3423 is an undergraduate course in statistical inference at HKUST.
 
 ## children
 
+- [tutorials/](tutorials/index.md)
 - [AGENTS](AGENTS.md)
 - [Student's t-distribution](Student's%20t-distribution.md)
 - [chi-squared distribution](chi-squared%20distribution.md)
@@ -179,3 +180,32 @@ MATH 3423 is an undergraduate course in statistical inference at HKUST.
 - [gamma distribution](gamma%20distribution.md)
     - [§ probability density function](gamma%20distribution.md#probability%20density%20function)
     - [§ chi-squared distribution as a special case](gamma%20distribution.md#chi-squared%20distribution%20as%20a%20special%20case)
+
+## week 2 tutorial 1
+
+- datetime: 2026-09-10T18:00:00+08:00/2026-09-10T18:50:00+08:00
+- venue: Rm 1011, LSK Bldg
+- topic: identifying the ingredients of an inference problem; the i.i.d. assumption; statistic, estimator, and estimate; the sampling distribution of the sample mean
+- [tutorial](tutorials/week%202%20tutorial%201/tutorial.md)
+    - [§ statistical inference and parametric models](tutorials/week%202%20tutorial%201/tutorial.md#statistical%20inference%20and%20parametric%20models)
+    - [§ random samples](tutorials/week%202%20tutorial%201/tutorial.md#random%20samples)
+    - [§ statistics, estimators, and estimates](tutorials/week%202%20tutorial%201/tutorial.md#statistics,%20estimators,%20and%20estimates)
+    - [§ the sampling distribution of the sample mean](tutorials/week%202%20tutorial%201/tutorial.md#the%20sampling%20distribution%20of%20the%20sample%20mean)
+    - [§ each definition in one line](tutorials/week%202%20tutorial%201/tutorial.md#each%20definition%20in%20one%20line)
+    - [§ the multivariate normal](tutorials/week%202%20tutorial%201/tutorial.md#the%20multivariate%20normal)
+- [statistical inference](statistical%20inference.md)
+    - [§ data](statistical%20inference.md#data)
+- [parametric model](parametric%20model.md)
+    - [§ parametric distribution and model](parametric%20model.md#parametric%20distribution%20and%20model)
+- [random sample](random%20sample.md)
+    - [§ the i.i.d. assumption](random%20sample.md#the%20i.i.d.%20assumption)
+    - [§ joint distribution under random sampling](random%20sample.md#joint%20distribution%20under%20random%20sampling)
+- [statistic](statistic.md)
+    - [§ dependence on unknown parameters](statistic.md#dependence%20on%20unknown%20parameters)
+- [estimator](estimator.md)
+    - [§ estimand, estimator, and estimate](estimator.md#estimand,%20estimator,%20and%20estimate)
+    - [§ sampling distribution](estimator.md#sampling%20distribution)
+- [sample mean](sample%20mean.md)
+    - [§ distribution of the sample mean](sample%20mean.md#distribution%20of%20the%20sample%20mean)
+- [sample variance](sample%20variance.md)
+    - [§ the two sample variances](sample%20variance.md#the%20two%20sample%20variances)
