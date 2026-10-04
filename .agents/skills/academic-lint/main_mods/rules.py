@@ -3808,55 +3808,72 @@ def qa_prompt_generic(ctx: ValidationContext) -> list[ValidationMessage]:
     return errors
 
 
+CARD_DELIMITERS = ("::@::", ":@:")
+
+
+def is_flashcard_line(line: str) -> bool:
+    """Report whether *line* is a flashcard list item.
+
+    A card is a list item whose text carries one of the flashcard
+    delimiters.  The test is containment, not a line pattern, so a card
+    whose prompt embeds an image path or a fraction is still a card.
+    """
+    body = line.lstrip(" \t")
+    if not body.startswith("- "):
+        return False
+    text = body[2:]
+    return any(delimiter in text for delimiter in CARD_DELIMITERS)
+
+
+def preceding_nonempty_line(lines: list[str], index: int) -> str:
+    """Return the nearest non-blank line above *index*, stripped."""
+    for position in range(index - 1, -1, -1):
+        candidate = lines[position].strip()
+        if candidate:
+            return candidate
+    return ""
+
+
 @RULE_REGISTRY.register()
 def qa_missing_separator(ctx: ValidationContext) -> list[ValidationMessage]:
     """Check for QA-style flashcard lists without a preceding separator phrase.
 
-    Lines beginning with ``- ...::@::`` or ``- ...:@:`` should be
-    preceded by ``Flashcards for`` or a ``---`` separator.  If not, an
-    error is returned.
+    Every block of consecutive flashcard list items must be introduced by
+    ``Flashcards for`` or a ``---`` separator line.  Blocks are found by
+    structure — a card is a list item carrying a flashcard delimiter, and
+    blank lines do not break a block — so a card that embeds an image path
+    still counts as the first card of its block.
     """
     errors: list[ValidationMessage] = []
     lines = ctx.text.splitlines()
     fm = FRONT_RE.match(ctx.text)
     if fm:
-        fm_lines = fm.group(0).splitlines()
-        lines = lines[len(fm_lines) :]
-    offset = ctx.text.find("\n") + 1 if fm else 0
-    for i, line in enumerate(lines):
-        if re.match(r"^[ \t]{0,1}-\s+([^/]*?)::@::", line) or re.match(
-            r"^[ \t]{0,1}-\s+([^/]*?):@:", line
-        ):
-            line_start = ctx.text.find(line, offset)
-            j = i - 1
-            prev = None
-            while j >= 0:
-                if lines[j].strip():
-                    prev = lines[j].strip()
-                    break
-                j -= 1
-            prev_line = prev or ""
-            lower_prev = prev_line.lower()
-            if not (
-                lower_prev.startswith("flashcards for") or prev_line.startswith("---")
-            ):
-                line_no, col_no = locate(
-                    ctx.text, line_start if line_start != -1 else 0
-                )
-                span = len(line)
-                _, _, col_end = locate_range(
-                    ctx.text, line_start if line_start != -1 else 0, span
-                )
-                errors.append(
-                    ValidationMessage(
-                        rule_id="qa_missing_separator",
-                        msg="QA-style flashcard list detected without preceding separator phrase",
-                        line=line_no,
-                        col=col_no,
-                        col_end=col_end,
+        lines = lines[len(fm.group(0).splitlines()) :]
+    line_start = ctx.text.find("\n") + 1 if fm else 0
+
+    in_block = False
+    for index, line in enumerate(lines):
+        if is_flashcard_line(line):
+            if not in_block:
+                in_block = True
+                previous = preceding_nonempty_line(lines, index).lower()
+                if not (
+                    previous.startswith("flashcards for") or previous.startswith("---")
+                ):
+                    line_no, col_no = locate(ctx.text, line_start)
+                    _, _, col_end = locate_range(ctx.text, line_start, len(line))
+                    errors.append(
+                        ValidationMessage(
+                            rule_id="qa_missing_separator",
+                            msg="QA-style flashcard list detected without preceding separator phrase",
+                            line=line_no,
+                            col=col_no,
+                            col_end=col_end,
+                        )
                     )
-                )
-            break
+        elif line.strip():
+            in_block = False
+        line_start += len(line) + 1
     return errors
 
 

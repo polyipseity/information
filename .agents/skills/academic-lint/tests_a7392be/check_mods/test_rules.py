@@ -82,6 +82,7 @@ from main_mods.rules import (
     qa_block_missing_solution,
     qa_card_inside_question,
     qa_hierarchical_path,
+    qa_missing_separator,
     qa_nested_indentation,
     qa_prompt_generic,
     section_example_heading,
@@ -2284,6 +2285,99 @@ def test_cloze_solution_outside_question_rule():
             path=exempt_path,
         )
         assert not cloze_solution_outside_question(exempt)
+
+
+def test_qa_missing_separator_structure():
+    """Card blocks are found by structure, so a card whose prompt holds a path
+    still counts as the first card of its block."""
+    front = "---\ntags: [flashcard/active/special/academia/test]\n---\n"
+
+    # The separator phrase precedes the block; the first card embeds an SVG
+    # path, which the old line-matching rule could not see.
+    image_first = make_ctx(
+        f"{front}# tutorial\n\n## measuring voltage\n\nSome prose.\n\n"
+        "---\n\nFlashcards for this section are as follows:\n\n"
+        "- meter probes: red probe on $A$, black on $B$; what does it read? "
+        "<p> ![voltmeter box](../../attachments/symbol_voltmeter.svg) "
+        "::@:: $V_A - V_B$.\n"
+        "- reversed probes: the probes are exchanged; what is read? "
+        "::@:: $-V_A + V_B$.\n",
+        path=Path("/tmp/course/tutorial.md"),
+    )
+    assert not qa_missing_separator(image_first)
+
+    # A block with no separator phrase above it is the defect the rule owns.
+    missing = make_ctx(
+        f"{front}# tutorial\n\n## measuring voltage\n\n"
+        "- meter probes: red on $A$, black on $B$; what is read? ::@:: $V_A - V_B$.\n",
+        path=Path("/tmp/course/tutorial.md"),
+    )
+    msgs = qa_missing_separator(missing)
+    assert len(msgs) == 1 and msgs[0].rule_id == "qa_missing_separator"
+
+    # A horizontal rule counts as a separator too.
+    rule_sep = make_ctx(
+        f"{front}# tutorial\n\n## measuring voltage\n\n---\n\n"
+        "- meter probes: red on $A$, black on $B$; what is read? ::@:: $V_A - V_B$.\n",
+        path=Path("/tmp/course/tutorial.md"),
+    )
+    assert not qa_missing_separator(rule_sep)
+
+    # One-sided cards are card lines as well.
+    one_sided_missing = make_ctx(
+        f"{front}# tutorial\n\n- a lone card :@: its answer\n",
+        path=Path("/tmp/course/tutorial.md"),
+    )
+    assert qa_missing_separator(one_sided_missing)
+    one_sided_ok = make_ctx(
+        f"{front}# tutorial\n\nFlashcards for this section are as follows:\n\n"
+        "- a lone card :@: its answer\n",
+        path=Path("/tmp/course/tutorial.md"),
+    )
+    assert not qa_missing_separator(one_sided_ok)
+
+    # Every block is judged, not only the first, and prose separates blocks.
+    two_blocks = make_ctx(
+        f"{front}# note\n\nFlashcards for this section are as follows:\n\n"
+        "- first card ::@:: answer\n"
+        "\nSome prose between the blocks.\n\n"
+        "- later card ::@:: answer\n",
+        path=Path("/tmp/course/note.md"),
+    )
+    later = qa_missing_separator(two_blocks)
+    assert len(later) == 1
+    assert later[0].line is not None and later[0].line > 2
+
+    # A blank line inside a block does not end it, so the second card is not
+    # judged as a block of its own.
+    spaced = make_ctx(
+        f"{front}# note\n\nFlashcards for this section are as follows:\n\n"
+        "- first card ::@:: answer\n"
+        "\n"
+        "- second card ::@:: answer\n",
+        path=Path("/tmp/course/note.md"),
+    )
+    assert not qa_missing_separator(spaced)
+
+    # An ordinary bullet is not a card line, and a list above a card block does
+    # not supply the separator. A marker inside an inline code span still marks
+    # a card, matching the containment semantics of qa_two_sided_card.
+    plain_bullet = make_ctx(
+        f"{front}# note\n\n- an ordinary bullet with no marker\n",
+        path=Path("/tmp/course/note.md"),
+    )
+    assert not qa_missing_separator(plain_bullet)
+    listed_above = make_ctx(
+        f"{front}# note\n\n- a bullet above\n\n- first card ::@:: answer\n",
+        path=Path("/tmp/course/note.md"),
+    )
+    assert qa_missing_separator(listed_above)
+    assert qa_missing_separator(
+        make_ctx(
+            f"{front}# note\n\n- a bullet quoting the marker `::@::` inline\n",
+            path=Path("/tmp/course/note.md"),
+        )
+    )
 
 
 def test_qa_card_inside_question_rule():
