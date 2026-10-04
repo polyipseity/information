@@ -36,11 +36,10 @@ With the same source feeding an infinite resistance, $I_o$ is undefined. An open
 
 Flashcards for this section are as follows:
 
-- an ideal current source: how does its current behave as the terminal voltage changes? ::@:: An ideal current source is an independent source whose terminal current is the constant $I_s$ at every terminal voltage $V_s$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - ideal current source / I-V characteristic: an ideal current source has terminal current $I$ and terminal voltage $V$; what is the shape of its I-V characteristic? ::@:: The line $I = I_s$: horizontal when $I$ is plotted against $V$, vertical when $V$ is plotted against $I$.
 - ideal current source / construction ::@:: A real current source is built from complicated electronic circuits.
 - ideal current source / current in the load: what current $I_o$ flows in a resistor of resistance $R$ fed by a source of $I_s = 3\text{ A}$, at $R = 0\ \Omega$ and at $R = 1\text{ G}\Omega$? ::@:: $I_o = 3\text{ A}$ in both loads.
-- ideal current source / terminal voltage of a 3 A source with loads $R = 0\ \Omega$ and $R = 1\text{ G}\Omega$: what is $V_o = I_oR$? ::@:: $V_o = 3\text{ A}\times0\ \Omega = 0$ across the short, and $V_o = 3\text{ A}\times1\text{ G}\Omega = 3\times10^{9}\text{ V}$ across the $1\text{ G}\Omega$ load.
+- ideal current source / terminal voltage of a $3\text{ A}$ source with loads $R = 0\ \Omega$ and $R = 1\text{ G}\Omega$: what is $V_o = I_oR$? ::@:: $V_o = 3\text{ A}\times0\ \Omega = 0$ across the short, and $V_o = 3\text{ A}\times1\text{ G}\Omega = 3\times10^{9}\text{ V}$ across the $1\text{ G}\Omega$ load.
 - ideal current source / open circuit: what is $I_o$ for an ideal current source $I_s$ with a load $R = \infty$ across its terminals? ::@:: Undefined: the open circuit carries no current while the source holds $I_s$ through the branch.
 
 ## series connection of current sources
@@ -53,8 +52,7 @@ The ideal model fixes each source's current and contains nothing that could reso
 
 Flashcards for this section are as follows:
 
-- series connection: why must two ideal current sources of different currents never be connected in series? ::@:: Two ideal current sources of different currents must never be connected in series, because one branch cannot carry two different currents.
-- series connection of current sources / the two demands: a branch contains ideal current sources of currents $I_1$ and $I_2$, with $I_1\ne I_2$; what does each demand of the branch current? ::@:: The source $I_1$ forces it to $I_1$ and the source $I_2$ forces it to $I_2$.
+- series connection of current sources / the two demands: a branch contains ideal current sources of currents $I_1$ and $I_2$, with $I_1\ne I_2$; what does each demand of the branch current? ::@:: The source $I_1$ forces the branch to carry $I_1$ and the source $I_2$ forces it to carry $I_2$; one branch cannot carry two different currents, so such a pair is never connected in series.
 - series connection of current sources / failure of the ideal model: a series pair with $I_1 \ne I_2$; what does the ideal current source model contribute to the conflict? ::@:: Nothing: the model cannot resolve the conflict, so a more sophisticated model is needed.
 
 ## practical current source

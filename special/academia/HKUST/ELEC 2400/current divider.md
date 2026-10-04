@@ -52,7 +52,7 @@ Flashcards for this section are as follows:
 - derivation: two parallel resistors $R_1$ and $R_2$ carry $I_{R1}$ and $I_{R2}$ under a shared voltage $V_o$ from a source $I_s$; derive $\frac{I_{R1}}{I_s}$. ::@:: $I_s = \frac{V_o}{R_1 \| R_2}$ and $I_{R1} = \frac{V_o}{R_1}$, so $\frac{I_{R1}}{I_s} = \frac{R_2}{R_1 + R_2}$.
 - conductance form: express $I_{R1}$ through the conductances $G_1$ and $G_2$. ::@:: $I_{R1} = I_s \frac{G_1}{G_1 + G_2}$: a branch takes the share of the current equal to its share of the conductance.
 - worked split: a $6\text{ A}$ source feeds $R_1 = 2\ \Omega$ and $R_2 = 4\ \Omega$ in parallel; find $I_{R1}$ and $I_{R2}$. ::@:: $I_{R1} = 6\text{ A} \times \frac{4}{2+4} = 4\text{ A}$ and $I_{R2} = 6\text{ A} \times \frac{2}{2+4} = 2\text{ A}$.
-- worked split with two sources: sources of $8\text{ A}$ and $4\text{ A}$ feed a parallel pair of $4\ \Omega$ and $2\ \Omega$; find the current in each branch. ::@:: $I_2 = 12\text{ A} \times \frac{2}{2+4} = 4\text{ A}$ in the $4\ \Omega$ branch and $I_3 = 12\text{ A} - 4\text{ A} = 8\text{ A}$ in the $2\ \Omega$ branch.
+- worked split with two sources: sources of $8\text{ A}$ and $4\text{ A}$ feed a parallel pair of a $4\ \Omega$ resistor and a $2\ \Omega$ resistor; what current does each branch carry? ::@:: The $4\ \Omega$ branch carries $12\text{ A} \times \frac{2}{2+4} = 4\text{ A}$ and the $2\ \Omega$ branch carries $12\text{ A} - 4\text{ A} = 8\text{ A}$.
 
 ## which branch takes more current
 

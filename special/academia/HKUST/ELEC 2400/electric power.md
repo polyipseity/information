@@ -23,7 +23,7 @@ Flashcards for this section are as follows:
 
 - meaning of the quantity: what does electric power measure, and in what units? ::@:: Electric power is the rate of doing work, equivalently the rate of change of energy, measured in watts or in joules per second.
 - why voltage alone does not fix the power ::@:: Charge can cross the same potential difference at very different rates.
-- sign of $VI$ under the drawn reference direction ::@:: A positive product marks an element consuming energy; a negative product marks one that supplies it.
+- sign convention for power: an element's current arrow is drawn entering the terminal marked $+$ and leaving the terminal marked $-$; what does the sign of the product $VI$ show? ::@:: A positive product marks an element consuming energy; a negative product marks one that supplies it.
 - instantaneous against average power ::@:: Power can be read at one instant or averaged over a period, and the average of a periodic product of voltage and current is well defined even when neither factor stays constant.
 
 ## instantaneous and average power
@@ -72,7 +72,8 @@ A resistor of $R = 2\ \Omega$ sits across a $4\text{ V}$ source, so the voltage 
 Flashcards for this section are as follows:
 
 - a single resistor across a source / power from voltage and resistance: a resistor of $R = 2\ \Omega$ has $V = 4\text{ V}$ across it; compute the power it dissipates from the voltage and the resistance. ::@:: $P = V^2/R = (4\text{ V})^2/2\ \Omega = 16/2 = 8\text{ W}$.
-- a single resistor across a source / cross-check with the current: a $4\text{ V}$ source drives $I = 2\text{ A}$ through a $2\ \Omega$ resistor; check the dissipated power with $P = VI$, and state the resistance the ratio $V/I$ gives. ::@:: $P = VI = 4\text{ V}\times2\text{ A} = 8\text{ W}$, matching $P = V^2/R = 8\text{ W}$, and $V/I = 4\text{ V}/2\text{ A} = 2\ \Omega$.
+- a single resistor across a source / cross-check with the current: a $4\text{ V}$ source drives $I = 2\text{ A}$ through a $2\ \Omega$ resistor; check the dissipated power with $P = VI$. ::@:: $P = VI = 4\text{ V}\times2\text{ A} = 8\text{ W}$, matching $P = V^2/R = 8\text{ W}$.
+- a single resistor across a source / resistance from the ratio: for $V = 4\text{ V}$ and $I = 2\text{ A}$, what resistance does the ratio $V/I$ give? ::@:: $R = V/I = 4\text{ V}/2\text{ A} = 2\ \Omega$.
 - a single resistor across a source / energy over a duration: a resistor dissipates $P = 8\text{ W}$ for $t = 2\text{ s}$; what energy does it consume? ::@:: $W = Pt = 8\text{ W}\times2\text{ s} = 16\text{ J}$.
 
 ## power rating of a device
@@ -83,7 +84,7 @@ A wattage rating is quoted at a stated voltage, and that rating fixes the resist
 
 Flashcards for this section are as follows:
 
-- power rating: what can be deduced about a device from a rating quoted at a stated voltage? ::@:: A power rating is quoted at a stated voltage, and it fixes the resistance the device presents at that voltage, so a bulb consuming $100\text{ W}$ at $200\text{ V}$ has $R_A = (200\text{ V})^2/100\text{ W} = 400\ \Omega$ and one consuming $400\text{ W}$ at $200\text{ V}$ has $R_B = (200\text{ V})^2/400\text{ W} = 100\ \Omega$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- power rating: what can be deduced about a device from a rating quoted at a stated voltage? ::@:: A power rating is quoted at a stated voltage, and it fixes the resistance the device presents at that voltage, $R = V^2/P$, so the higher-rated device has the lower resistance. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - which rated bulb is brighter alone: bulb A consuming $100\text{ W}$ at $200\text{ V}$ and bulb B consuming $400\text{ W}$ at $200\text{ V}$, each across $200\text{ V}$ on its own ::@:: Bulb B, the $400\text{ W}$ one: at the rated voltage its $R_B = 100\ \Omega$ is the lower resistance, against $R_A = 400\ \Omega$.
 
 ### two bulbs rated at the same voltage
@@ -156,8 +157,8 @@ A flashlight bulb modelled as a $3\ \Omega$ resistor carries $I_\text{bulb} = +2
 
 Flashcards for this section are as follows:
 
-- flashlight bulb and battery / power of the bulb, modelled as a resistor, with $V_\text{bulb} = 6\text{ V}$ across it and $I_\text{bulb} = +2\text{ A}$ through it ::@:: $P_\text{bulb} = V_\text{bulb}\times I_\text{bulb} = 6\text{ V}\times2\text{ A} = +12\text{ W}$, a positive power that the bulb dissipates.
-- flashlight bulb and battery / power of the battery with $V_\text{bat} = 6\text{ V}$ and $I_\text{bat} = -2\text{ A}$ on its own reference direction ::@:: $P_\text{bat} = V_\text{bat}\times I_\text{bat} = 6\text{ V}\times(-2\text{ A}) = -12\text{ W}$, so the battery is an active element whose generation covers the $12\text{ W}$ dissipated by the bulb.
+- flashlight bulb and battery / power of the bulb: the loop is `[battery: V_bat = 6 V, I_bat = −2 A on its own reference direction] ─ [bulb: 3 Ω, V_bulb = 6 V, I_bulb = +2 A]`; the bulb is modelled as a resistor with $V_\text{bulb} = 6\text{ V}$ across it and $I_\text{bulb} = +2\text{ A}$ through it; what power does it dissipate? ::@:: $P_\text{bulb} = V_\text{bulb}\times I_\text{bulb} = 6\text{ V}\times2\text{ A} = +12\text{ W}$, a positive power that the bulb dissipates.
+- flashlight bulb and battery / power of the battery: the loop is `[battery: V_bat = 6 V, I_bat = −2 A on its own reference direction] ─ [bulb: 3 Ω, V_bulb = 6 V, I_bulb = +2 A]`; the battery has $V_\text{bat} = 6\text{ V}$ and $I_\text{bat} = -2\text{ A}$ on its own reference direction; what is its power, and what does that make it? ::@:: $P_\text{bat} = V_\text{bat}\times I_\text{bat} = 6\text{ V}\times(-2\text{ A}) = -12\text{ W}$, so the battery is an active element whose generation covers the $12\text{ W}$ dissipated by the bulb.
 
 ## why the reference direction matters
 

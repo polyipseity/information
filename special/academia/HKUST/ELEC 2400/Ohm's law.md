@@ -25,8 +25,8 @@ Any two of $V$, $I$, and $R$ fix the third. The relation holds for many material
 Flashcards for this section are as follows:
 
 - law for a resistive material: how do the voltage, the current, and the resistance relate? ::@:: For many materials the current $I$ through a material is proportional to the voltage $V$ across it, with $R$ the constant of proportionality, so $V = IR$, $I = V/R$, and $I = GV$ with $G = 1/R$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- proportionality: a material obeying Ohm's law with resistance $R$ carries current $I$ at voltage $V$; what happens to $I$ when $V$ doubles? ::@:: $I$ doubles.
-- proportionality: which ratio of $V$, $I$, and $R$ stays fixed for a material obeying Ohm's law? ::@:: $V/I = R$.
+- doubling the voltage: a material obeying Ohm's law with resistance $R$ carries current $I$ at voltage $V$; what happens to $I$ when $V$ doubles? ::@:: $I$ doubles.
+- fixed ratio: which ratio of $V$, $I$, and $R$ stays fixed for a material obeying Ohm's law? ::@:: $V/I = R$.
 - limits: a device whose current is not proportional to its voltage; what does that rule out about $V = IR$? ::@:: A single constant resistance $R$.
 
 ## resistance and conductance
@@ -67,7 +67,5 @@ Flashcards for this section are as follows:
 - draw the reference direction: a resistor carries the voltage $V_1$ between two marks and a current reference arrow $I_1$; how are they placed, and what does each placement give? ::@:: The marks above the resistor and the arrow below it: from the plus mark to the minus mark, $V_1 = +I_1 R$, and the other way, $V_1 = -I_1 R$. <p> ![a resistor marked plus at one end and minus at the other, with a current arrow below it running from the plus mark to the minus mark](attachments/reference_direction_with.svg) ![the same resistor with the current arrow below it running from the minus mark to the plus mark](attachments/reference_direction_against.svg)
 - reversed arrow: a $4\ \Omega$ resistor keeps its marks while its current arrow is reversed to run from the $-$ mark to the $+$ mark, and carries $I_2 = -2\text{ A}$; what is $V$? <p> ![the same resistor with the current arrow below it running from the minus mark to the plus mark](attachments/reference_direction_against.svg) ::@:: $V = -I_2 R = -(-2\text{ A})(4\ \Omega) = 8\text{ V}$.
 - sign of the current: a resistor carries a current arrow $I_1$ with no value written beside it; does the drawing decide whether $I_1$ is positive or negative? ::@:: No: the arrow is a reference direction, so the sign comes from the charge flow it measures.
-- analogy by elevation: in the water analogy for a resistor, where water in a pipe stands for charge in a conductor, which mechanical quantity plays the part of the voltage difference? ::@:: A difference in elevation: water flows from the higher elevation to the lower one.
-- analogy by pressure: in the water analogy for a resistor, which mechanical quantity takes the place of the elevation difference when the water is forced through a hose? ::@:: A difference in pressure, driving the water out of the higher-pressure end.
 - analogy by flow rate: in the water analogy for a resistor, what corresponds to the electric current, and in which units is each measured? ::@:: The volume of water per second, in cubic meters per second, corresponds to the current, which is charge per second in coulombs per second, that is amperes.
 - analogue of resistance: in the water analogy for a resistor, what does the resistance $R$ represent? ::@:: The restriction the path imposes on the flow: it sets how much current a given voltage difference drives.

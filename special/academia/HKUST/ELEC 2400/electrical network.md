@@ -22,21 +22,10 @@ A modern phone carries a large number of transducers, sensing motion, the enviro
 
 Flashcards for this section are as follows:
 
-- circuit: what is it made of, and how is it analysed? ::@:: An electrical network, or circuit, is an interconnection of circuit elements forming a closed circuit, analysed through models of those elements.
+- what is a circuit made of, and what does circuit analysis work on? ::@:: An electrical network, or circuit, is an interconnection of circuit elements forming a closed circuit; analysis works on compact models of those elements, and the voltages and currents of the whole interconnection follow from the models.
 - circuit from devices: a battery of $9\text{ V}$ drives a bulb of resistance $R$; which circuit elements model them? ::@:: The battery becomes a $9\text{ V}$ voltage source and the bulb a resistor $R$.
 - devices and their elements: batteries, lamps, transistors, amplifiers, and computer chips are devices; which circuit elements model them? ::@:: Voltage sources, switches, resistors, capacitors, inductors, diodes, and transistors.
-- vehicle electronics: how complex are a vehicle's circuits today? ::@:: Continually evolving subsystems that often have different electronic and electrical components, sometimes 100 or more, among them microcontrollers, digital signal processors, isolators, power supply stabilization systems, and analog high-voltage chips.
-- Moore's law / 1965 forecast: who posited Moore's law, and what did the 1965 forecast say about integrated circuits? ::@:: Gordon Moore, co-founder of Fairchild Semiconductor and co-founder and CEO of Intel, posited a doubling every year in the number of components per integrated circuit.
-- Moore's law / 1975 revision: what did Moore revise the forecast to in 1975? ::@:: A doubling every two years, looking forward to the next decade.
-- circuit construction: what replaced discrete components, and what happened to transistor size as feature sizes reached $45\text{ nm}$? ::@:: Circuits became mainly integrated circuits, and transistors grew smaller.
-- transducers / motion and environment: name the phone transducers that sense motion and the environment. ::@:: Accelerometer, gyroscope, barometer, magnetometer, Hall effect sensor, thermometer, and humidity sensor.
-- transducers / touch, optics, and light: name the phone transducers that handle touch, imaging, and light. ::@:: Proximity sensor, touch screen, fingerprint sensor, ambient light sensor, display, visible and infrared cameras, LED, and infrared laser.
-- transducers / audio and radio: name the phone transducers that handle sound, vibration, and radio. ::@:: Microphone, speaker, vibrator, and antenna.
 - general electronics model: what sits between a sensor and an actuator, and what passes between them? ::@:: An electronic circuit sits between the sensor/transducer and the actuator/transducer, exchanging electrical signals and controls with the physical world.
-- input signals / mechanical, thermal, and fluid: which quantities reach the electronic circuit as mechanical, thermal, or fluid inputs? ::@:: Mechanical, thermal, pressure, humidity, weight, sound, and flow quantities.
-- input signals / field and chemical: which quantities reach the electronic circuit as field or chemical inputs? ::@:: Electrical, magnetic, electromagnetic, chemical, and optical quantities.
-- output actions / motion, fluid, and heat: which outputs of the electronic circuit act mechanically, fluidly, or thermally? ::@:: Motion, pneumatic action, hydraulic action, valve position, heating, and cooling.
-- output signals / sound, electromagnetic, and display: which outputs of the electronic circuit are acoustic, electromagnetic, or visual? ::@:: Speaker sound, electrical, magnetic, and electromagnetic quantities, display, LED, and scanner output.
 
 ## circuit modelling
 
@@ -46,10 +35,8 @@ The microscopic route to element behaviour is impractical. Conduction inside a r
 
 Flashcards for this section are as follows:
 
-- element models: what does each element receive, and what does that let the circuit analysis compute? ::@:: Each device is replaced by circuit elements with a compact set of parameters, and the voltages and currents of the whole interconnection follow from those models.
 - microscopic conduction: an applied electric field acts on a conductor; which microscopic model describes the conduction? ::@:: The Drude model: free electrons drift past metal ions and exchange momentum through collisions.
 - capacitor and inductor fields: what governs the fields of a capacitor and of an inductor? ::@:: Maxwell's equations; their general solution settles every such element at once, but solving them is the hard way.
-- element models: once each device is replaced by circuit elements, what remains to be developed? ::@:: Models for the circuit elements themselves, such as the voltage source, the resistor, the capacitor, and the inductor.
 
 ## lumped-element model
 
@@ -96,11 +83,6 @@ Flashcards for this section are as follows:
 
 - classes of electronic circuit: by which criteria are electronic circuits classified? ::@:: Electronic circuits are classed by signal type, level of integration, frequency, current, voltage, or power, and operating temperature.
 - signal type: name the three signal-type classes and what each carries. ::@:: Analog circuits carry continuously varying signals, digital circuits carry 0s and 1s, and mixed-signal circuits carry both.
-- levels of integration: name the levels of integration of electronic circuits. ::@:: System-on-chip (SOC), chipset, integrated circuit (IC), discrete, and hybrid.
-- frequency: name the two frequency classes of electronic circuits. ::@:: Low frequency (LF) and radio frequency (RF).
-- current, voltage, or power: name the three classes set by current, voltage, or power. ::@:: Microelectronics, high voltage, and high power.
-- operating temperature: which class names an operating temperature? ::@:: High temperature.
-- foundation: which class of circuit provides the foundation for the other types? ::@:: Discrete analog circuits.
 
 ## terminals and ports
 
@@ -112,7 +94,7 @@ Flashcards for this section are as follows:
 
 - terminals: how many external connections must a circuit element have, and what are they called? ::@:: A circuit element has at least two external connections called terminals, and two terminals of a circuit constitute a port.
 - battery terminals: a $1.5\text{ V}$ AA battery is a circuit element; which terminals does it have? ::@:: A positive terminal and a negative terminal.
-- port definition ::@:: Two terminals of a circuit constitute a port, for example an input port or an output port.
+- what makes two terminals a port, and what kinds of port are named? ::@:: Two terminals of a circuit constitute a port, for example an input port or an output port.
 - one-port element: a one-port element has the same port as its input port and its output port; what may the input and the output be? ::@:: The input may be a current, and the output is then the voltage across that same port.
 
 ### multi-terminal elements

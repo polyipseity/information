@@ -34,9 +34,8 @@ Both extremes of the load dissipate nothing: a short carries a large current at 
 Flashcards for this section are as follows:
 
 - load divider: what are the load voltage and the load current for a source driving a load? ::@:: A source $V_s$ with resistance $R_s$ driving a load $R_L$ gives $V_o = V_s\frac{R_L}{R_s+R_L}$, $I_o = \frac{V_s}{R_s+R_L}$, and $P_L = V_s^2\frac{R_L}{(R_s+R_L)^2}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- zero extremes: what power reaches a shorted load, and what power reaches an open load? ::@:: Zero in both cases: a short gives zero voltage and an open gives zero current.
 - power expression: write the power delivered to the load $R_L$ of a source $V_s$ with source resistance $R_s$. ::@:: $P_L = V_s^2 \frac{R_L}{(R_s + R_L)^2}$.
-- why a maximum: why must $P_L$ peak at some intermediate $R_L$? ::@:: It falls to zero at $R_L = 0$ and as $R_L \to \infty$, so the maximum lies between the extremes.
+- why a maximum: what power reaches a shorted load, and what power reaches an open load; why must $P_L$ then peak at some intermediate $R_L$? ::@:: Zero in both cases: a short gives zero voltage and an open gives zero current. $P_L$ therefore falls to zero at $R_L = 0$ and as $R_L \to \infty$, so the maximum lies between the extremes.
 
 ## matched load
 
@@ -70,4 +69,3 @@ Flashcards for this section are as follows:
 - loss formula: write the loss of a line of total resistance $\sum R_{\text{line}}$ delivering $P_{\text{load}}$ at voltage $V_L$. ::@:: $P_{\text{loss}} = I_L^2 \sum R_{\text{line}} = \frac{P_{\text{load}}^2}{V_L^2}\sum R_{\text{line}}$.
 - scaling: how does $P_{\text{loss}}$ change when $V_L$ is doubled at a fixed delivered power? ::@:: It falls to a quarter, since $P_{\text{loss}} \propto \frac{1}{V_L^2}$.
 - why not matching: why is a transmission line not matched to its source? ::@:: Matching maximizes the delivered power but sends only half the generated power to the load, whereas transmission wants a given delivered power at the least loss.
-- present practice: what $V_L$ and $P_{\text{load}}$ are now reached in China? ::@:: A voltage above $1\text{ MV}$ with $P_{\text{load}}$ rated over $10\text{ GW}$.

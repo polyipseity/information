@@ -24,7 +24,7 @@ A voltage marked across a plain wire is zero however much current the wire carri
 
 Flashcards for this section are as follows:
 
-- overview ::@:: The sign in $V = IR$ is fixed by the drawn current arrow: $V = +IR$ when the arrow runs from the $+$ mark to the $-$ mark, and $V = -IR$ when it runs the other way. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- how does the drawn current arrow fix the sign in $V = IR$? ::@:: The sign in $V = IR$ is fixed by the drawn current arrow: $V = +IR$ when the arrow runs from the $+$ mark to the $-$ mark, and $V = -IR$ when it runs the other way.
 - why reversing the arrow changes nothing: why does reversing the current arrow on a resistor leave the voltage across it unchanged? <p> ![a resistor marked plus at one end and minus at the other, with a current arrow below it running from the plus mark to the minus mark](../../attachments/reference_direction_with.svg) ![the same resistor with the current arrow below it running from the minus mark to the plus mark](../../attachments/reference_direction_against.svg) ::@:: The arrow is only a reference direction, so reversing it reverses the sign of the reported current: $+2\text{ A}$ against the marks and $-2\text{ A}$ with them give the same $+8\text{ V}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - voltage across a wire: a plain wire carries a current, and a voltage $V_2$ is marked across a section of it; what is $V_2$? ::@:: $V_2 = 0$: the wire is one node, so its two ends sit at the same potential.
 
@@ -40,7 +40,7 @@ A worked case has to state the nodes, since the pair's verdict is read off them.
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Resistors in a chain share one current and give $R_{\text{eq}} = R_1 + R_2 + R_3$; resistors spanning the same two nodes share one voltage and give $\frac{1}{R_{\text{eq}}} = \frac{1}{R_1} + \frac{1}{R_2} + \frac{1}{R_3}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- how do resistors in a chain combine, and how do resistors spanning the same two nodes? ::@:: Resistors in a chain share one current and give $R_{\text{eq}} = R_1 + R_2 + R_3$; resistors spanning the same two nodes share one voltage and give $\frac{1}{R_{\text{eq}}} = \frac{1}{R_1} + \frac{1}{R_2} + \frac{1}{R_3}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - series criterion: when are two elements in series? ::@:: When they share both terminals and no other element reaches the node between them, so a single current runs through both.
 - parallel criterion: when are two elements in parallel? ::@:: When they span the same two nodes, so both carry the same voltage.
 - one shared terminal: two elements share one terminal and a third element also reaches it; are the two in series or in parallel? ::@:: Neither: the third element lets current branch at the shared terminal, so the pair is neither series nor parallel.
@@ -55,7 +55,7 @@ The load settles the direction, not the source, once the load is known. Put a ba
 
 Flashcards for this section are as follows:
 
-- overview ::@:: The load fixes which way the current runs at a source: a resistor load draws current out of the $+$ terminal, a load that is itself a source drives current back into the $+$ terminal, and an unspecified load leaves the direction undetermined. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- what fixes which way the current runs at a source? ::@:: The load fixes which way the current runs at a source: a resistor load draws current out of the $+$ terminal, a load that is itself a source drives current back into the $+$ terminal, and an unspecified load leaves the direction undetermined. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - resistor load: a $10\text{ V}$ source with its $+$ terminal on top drives a $1\ \Omega$ resistor; which way does the current run along the top of the loop? ::@:: Away from the source, out of its $+$ terminal and into the resistor.
 - what the source does: the current leaves the $10\text{ V}$ source at its $+$ terminal; what does the source do? ::@:: It delivers energy to the circuit.
 - what the resistor does: the current enters the $1\ \Omega$ resistor; what does the resistor do? ::@:: It absorbs energy and dissipates it as heat.
@@ -72,7 +72,7 @@ A positive power means the element absorbs and dissipates, a negative power that
 
 Flashcards for this section are as follows:
 
-- overview ::@:: The current arrow read against the $+$ mark fixes the sign of the power: $P = -VI$ when the arrow leaves the $+$ terminal, and $P = +VI$ when it enters. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- how does the current arrow read against the $+$ mark fix the sign of the power? ::@:: The current arrow read against the $+$ mark fixes the sign of the power: $P = -VI$ when the arrow leaves the $+$ terminal, and $P = +VI$ when it enters.
 - what the sign means: a positive power over an element means what, and a negative one? <p> ![a two-terminal element marked plus at the top, with the current arrow beside the upper lead pointing up and away from the plus mark](../../attachments/power_reference_current_out_of_plus.svg) ![the same element with the current arrow beside the upper lead pointing down into the plus mark](../../attachments/power_reference_current_into_plus.svg) ::@:: Positive means the element absorbs and dissipates the power; negative means it delivers power.
 
 ## what an ideal source fixes
@@ -83,7 +83,7 @@ An ideal source fixes one terminal quantity and leaves the other to the circuit.
 
 Flashcards for this section are as follows:
 
-- overview ::@:: An ideal source fixes one terminal quantity and leaves the other to the load: a voltage source fixes its terminal voltage, a current source fixes its terminal current.
+- what does an ideal source fix, and what does it leave to the load? ::@:: An ideal source fixes one terminal quantity and leaves the other to the load: a voltage source fixes its terminal voltage, a current source fixes its terminal current.
 
 ## sign convention at a node
 
@@ -95,7 +95,7 @@ Written instead as a single zero sum, each current counts with the sign of the d
 
 Flashcards for this section are as follows:
 
-- overview ::@:: At a node each current counts with the sign of the direction its arrow was given, so $\sum I = 0$ holds whichever of _in_ and _out_ is taken as positive. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- how does each current count in $\sum I = 0$ at a node, whichever of _in_ and _out_ is taken as positive? ::@:: At a node each current counts with the sign of the direction its arrow was given, so $\sum I = 0$ holds whichever of _in_ and _out_ is taken as positive.
 
 ### applying the current law at a node
 
@@ -114,7 +114,7 @@ In a loop of a source and a load $R_L$ whose marks face opposite ways round the 
 
 Flashcards for this section are as follows:
 
-- overview ::@:: The sign of a term in a loop equation is fixed by the element's marked polarity read against the direction of travel: $-$ to $+$ is a positive rise, $+$ to $-$ a negative drop. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- what fixes the sign of each term in a loop equation? ::@:: The sign of a term in a loop equation is fixed by the element's marked polarity read against the direction of travel: $-$ to $+$ is a positive rise, $+$ to $-$ a negative drop. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
 ### applying the voltage law round a loop
 

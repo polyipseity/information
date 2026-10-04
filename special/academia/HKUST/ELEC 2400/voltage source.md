@@ -35,7 +35,6 @@ Flashcards for this section are as follows:
 
 - ideal voltage source: what does it hold, and what does it hold it independently of? ::@:: An ideal voltage source, also named an independent voltage source, maintains the constant voltage $V_s$ across its terminals independently of the load and of the current through it. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - circuit symbol: which drawings stand for an ideal voltage source of voltage $V_s$ in a circuit diagram? <p> ![battery symbol: two parallel lines of unequal length, the longer line on top](attachments/symbol_source_battery.svg) ![source symbol: a circle holding a plus mark above a minus mark](attachments/symbol_source_circle.svg) ![source symbol: a rectangle holding a plus mark above a minus mark](attachments/symbol_source_rectangle.svg) ::@:: A circle carrying a $+$ mark and a $-$ mark inside it, a rectangle carrying the same two marks, or the battery symbol of two parallel lines of unequal length with the longer line at the positive terminal.
-- draw the source: how is an ideal voltage source of voltage $V_s$ drawn in a circuit diagram? ::@:: A circle, a rectangle, or a battery, each carrying a $+$ mark and a $-$ mark, with the longer line or the $+$ mark at the positive terminal. <p> ![battery symbol: two parallel lines of unequal length, the longer line on top](attachments/symbol_source_battery.svg) ![source symbol: a circle holding a plus mark above a minus mark](attachments/symbol_source_circle.svg) ![source symbol: a rectangle holding a plus mark above a minus mark](attachments/symbol_source_rectangle.svg)
 - physical realisation: which physical device is the standard realisation of a voltage source? ::@:: The battery.
 - I-V characteristic: what does the current-against-voltage plot of an ideal voltage source of voltage $V_s$ look like? ::@:: The current $I_s$ plotted against the voltage is the vertical line at $V_s$. With the voltage plotted against the current, the same relation is the horizontal line at $V_s$.
 - which quantity follows the load: which terminal quantity of an ideal voltage source of voltage $V_s$ follows the load, and which stays fixed? ::@:: The current follows the load, while the terminal voltage stays at $V_s$.
@@ -49,8 +48,7 @@ An ideal source of $30\text{ V}$ drives a load $R$ across its terminals, with th
 Flashcards for this section are as follows:
 
 - finite loads: an ideal voltage source of $30\text{ V}$ drives a load $R$ with $V_o$ across it; give $V_o$ for $R = 1\ \Omega$, $R = 1\text{ G}\Omega$, and $R = 0.1\ \Omega$. ::@:: $V_o = 30\text{ V}$ in all three cases, while the load current runs $30\text{ A}$, $30\text{ nA}$, and $300\text{ A}$.
-- short circuit: an ideal voltage source of $30\text{ V}$ is connected across a load of $R = 0\ \Omega$; what is $V_o$? ::@:: Undefined: $30\text{ V}$ across the terminals and $0\text{ V}$ across the short cannot both hold.
-- why the short circuit fails: how does a load of $R = 0\ \Omega$ conflict with an ideal voltage source of voltage $V_s$? ::@:: The load demands $0\text{ V}$ across the terminals while the source insists on $V_s$ at every current.
+- why the short circuit fails: how does a load of $R = 0\ \Omega$ leave the output $V_o$ undefined for a source of voltage $V_s$? ::@:: The load demands $0\text{ V}$ across the terminals while the source insists on $V_s$ at every current, so $V_o$ has no defined value; with $V_s = 30\text{ V}$, the $30\text{ V}$ and the $0\text{ V}$ cannot both hold.
 
 ## sourcing and sinking current
 

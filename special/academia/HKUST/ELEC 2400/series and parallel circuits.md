@@ -76,9 +76,7 @@ Flashcards for this section are as follows:
 
 - sharing one terminal: why does that rule out both series and parallel? ::@:: Two elements that share only one terminal are neither in series nor in parallel, because a third element at that terminal lets current branch there.
 - verdict read off the nodes: what decides whether a pair of elements is in series, in parallel, or neither? ::@:: The nodes the two elements touch: sharing both terminals with nothing else between makes them series, spanning the same two nodes makes them parallel, and sharing a single terminal that a third element also reaches makes them neither.
-- a series case: $R_1$ and $R_2$ meet at one node that reaches nothing else, their far ends being on $P$ and $S$; which? ::@:: In series, since the same current runs through both.
-- a parallel case: $R_3$ and $R_4$ both join node $P$ to node $Q$; which? ::@:: In parallel, since they span the same two nodes and share the terminal voltage.
-- a neither case: $R_5$ and $R_6$ share node $P$, and $R_7$ reaches $P$ as well; which? ::@:: Neither, since current can branch at $P$ and neither combination rule applies.
+- the three verdicts: $R_1$ and $R_2$ meet at one node that reaches nothing else, their far ends on $P$ and $S$; $R_3$ and $R_4$ both join node $P$ to node $Q$; $R_5$ and $R_6$ share node $P$, and $R_7$ reaches $P$ as well; what is each pair's verdict? ::@:: $R_1$ and $R_2$ are in series, since the same current runs through both; $R_3$ and $R_4$ are in parallel, since they span the same two nodes and share the terminal voltage; $R_5$ and $R_6$ are neither, since current can branch at $P$ and neither combination rule applies.
 
 ## equivalent conductance
 

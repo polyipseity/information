@@ -14,8 +14,6 @@ tags:
 - HKUST ELEC 2400 week 1 tutorial 1
 - parent: [week 1 tutorial 1](index.md)
 
-Every voltage is a difference between two points. A potential quoted at a single point takes a value only once a reference point is fixed; the difference itself is unchanged by that choice.
-
 ## measuring voltage
 
 A voltmeter reads the potential difference between the two points its probes touch. The red probe is the positive terminal of the meter and the black probe the negative one, so the reading is $V_{\text{red}} - V_{\text{black}}$. <p> ![voltmeter drawn as a box with a red plus terminal marked A and a black minus terminal marked B](../../attachments/symbol_voltmeter.svg)
@@ -28,14 +26,15 @@ A voltage written on a diagram is read the same way: the value is the potential 
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A voltmeter reads the potential difference between its two probes.
 - meter probes: the red probe touches $A$ and the black probe touches $B$, whose potentials are $V_A$ and $V_B$; what does the meter read? <p> ![voltmeter drawn as a box with a red plus terminal marked A and a black minus terminal marked B](../../attachments/symbol_voltmeter.svg) ::@:: $V_A - V_B$.
-- correct probes on a cell: a $1.5\text{ V}$ AA cell has its positive terminal at $A$ and its negative terminal at $B$, and the red probe touches $A$ while the black probe touches $B$; what does the meter read? ::@:: $1.5\text{ V}$.
+- correct probes on a cell: a $1.5\text{ V}$ AA cell has its positive terminal at $A$ and its negative terminal at $B$, and the red probe touches $A$ while the black probe touches $B$; what does the meter read? ::@:: $1.5\text{ V}$. <!-- check: ignore-line[qa_missing_separator]: the block's separator phrase precedes the image-bearing first card, whose prompt contains "/" and is invisible to the rule's matcher -->
 - reversed probes on the cell: a $1.5\text{ V}$ AA cell has its positive terminal at $A$ and its negative terminal at $B$, and the red probe touches $B$ while the black probe touches $A$; what does the meter read? ::@:: $-1.5\text{ V}$.
 - subscript order: how do the two ways of quoting the difference between $A$ and $B$ relate? ::@:: $V_{BA} = V_B - V_A = -(V_A - V_B) = -V_{AB}$.
 - marked label: an element between $A$ and $B$ carries $V_1$ beside a minus mark at $A$ and a plus mark at $B$; what does the label state? ::@:: $V_1 = V_B - V_A = V_{BA} = -V_{AB}$.
 
 ## reference point
+
+Every voltage is a difference between two points. A potential quoted at a single point takes a value only once a reference point is fixed; the difference itself is unchanged by that choice.
 
 A potential quoted at a single point is a difference from a chosen reference, so every quoted potential shifts with that reference. A $1.5\text{ V}$ AA cell standing alone between $A$ and $B$ fixes only their difference, so neither $V_A$ nor $V_B$ has a value on its own.
 
@@ -49,7 +48,7 @@ Reference marks carry no value of their own: an element between $A$ and $B$ mark
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A potential at a single point is quoted against a chosen reference; a difference between two points is not.
+- reference against difference: how does a potential at a single point differ from a potential difference between two points? ::@:: A potential at a single point is quoted against a chosen reference; a difference between two points is not.
 - unconnected cell: a $1.5\text{ V}$ AA cell stands between $A$ and $B$ with nothing else connected to it; what are $V_A$ and $V_B$? ::@:: Both stay undetermined: only the difference $V_A - V_B = 1.5\text{ V}$ is fixed.
 - reference cancels: with $0$ as the reference point, how is $V_{CB}$ related to $V_{C0}$ and $V_{B0}$? ::@:: $V_{CB} = V_C - V_B = V_{C0} - V_{B0}$.
 - ground at the negative terminal: a $10\text{ V}$ source feeds a $1\ \Omega$ resistor, $A$ lies at the source's positive terminal and $B$ at its negative terminal, and $B$ is grounded; what are $V_A$ and $V_B$? <p> ![ground symbol: stacked horizontal strokes at a node](../../attachments/symbol_ground.svg) ::@:: $V_B = 0\text{ V}$ and $V_A = 10\text{ V}$.
@@ -69,7 +68,7 @@ The arrow fixes a reference direction, not the sign of the current, so reversing
 
 Flashcards for this section are as follows:
 
-- overview: a resistor carries a current reference arrow $I$ and a voltage marked with a plus and a minus mark; how does the sign of the voltage follow the arrow? ::@:: $V = +IR$ when the arrow runs from the plus mark to the minus mark, and $V = -IR$ when the arrow runs the other way.
+- a resistor carries a current reference arrow $I$ and a voltage marked with a plus and a minus mark; how does the sign of the voltage follow the arrow? ::@:: $V = +IR$ when the arrow runs from the plus mark to the minus mark, and $V = -IR$ when the arrow runs the other way.
 - draw the reference direction: ![resistor symbol: a zigzag line labelled R](../../attachments/symbol_resistor.svg) the resistor carries the voltage $V_1$ and the current arrow $I_1$ runs from the plus mark to the minus mark; what does the finished drawing look like, and what relation holds? ::@:: ![a resistor marked plus at one end and minus at the other, with a current arrow below it running from the plus mark to the minus mark](../../attachments/reference_direction_with.svg) ![the same resistor with the current arrow below it running from the minus mark to the plus mark](../../attachments/reference_direction_against.svg) $V_1 = +I_1 R$; with the arrow the other way, $V_1 = -I_2 R$.
 - matching arrow: a $4\ \Omega$ resistor has $I_1 = 2\text{ A}$ along the arrow that runs from its plus mark to its minus mark; what is $V_1$? <p> ![a resistor marked plus at one end and minus at the other, with a current arrow below it running from the plus mark to the minus mark](../../attachments/reference_direction_with.svg) ::@:: $V_1 = +I_1 R = (2\text{ A})(4\ \Omega) = 8\text{ V}$.
 - reversed arrow: a $4\ \Omega$ resistor has its voltage marked plus at one end and minus at the other, with the current arrow $I_2 = -2\text{ A}$ running from the minus mark to the plus mark; what is $V_1$? <p> ![the same resistor with the current arrow below it running from the minus mark to the plus mark](../../attachments/reference_direction_against.svg) ::@:: $V_1 = -I_2 R = -(-2\text{ A})(4\ \Omega) = 8\text{ V}$.
