@@ -754,16 +754,16 @@ class TestLinkHandling:
         assert "#section.28)" in result.lower()
 
     @pytest.mark.anyio
-    async def test_external_url_fragment_untouched(
+    async def test_external_url_fragment_dot_escapes_decoded(
         self, converter: WikiHtmlConverter
     ) -> None:
-        """An external URL fragment with dot-escapes must stay verbatim."""
+        """A foreign URL fragment has no local anchor, so it decodes."""
         html = (
             '<a href="https://en.wikipedia.org/wiki/Wikipedia:Content%20forks'
             '#Article%20spinoffs%3A%20.22Summary%20style.22">link</a>'
         )
         result = await _convert(converter, html)
-        assert ".22" in result
+        assert ".22" not in result
         assert "Summary" in result
 
 
@@ -1301,11 +1301,12 @@ class TestBoldItalicHandling:
         assert "d<!-- markdown separator -->_n_" in result
 
     @pytest.mark.anyio
-    async def test_minus_emphasis_no_marker(self, converter: WikiHtmlConverter) -> None:
-        """U+2212 MINUS SIGN before emphasis needs no separator marker."""
+    async def test_minus_emphasis_gets_marker(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """U+2212 MINUS SIGN before emphasis needs a separator marker."""
         result = await _convert(converter, "<p>\u2212<i>i</i></p>")
-        assert "\u2212_i_" in result
-        assert "<!-- markdown separator -->" not in result
+        assert "\u2212<!-- markdown separator -->_i_" in result
 
     @pytest.mark.anyio
     async def test_middle_dot_emphasis_no_marker(
@@ -2594,6 +2595,40 @@ class TestReferenceHandling:
 # Utility / static method tests
 
 # ---------------------------------------------------------------------------
+
+
+class TestMathSignSeparators:
+    """Tests for separators around signs that bind tightly to what follows."""
+
+    @pytest.mark.anyio
+    @pytest.mark.parametrize("sign", ["\u2212", "\u00b1", "+", "\u00d7"])
+    async def test_sign_before_emphasis_is_separated(
+        self, converter: WikiHtmlConverter, sign: str
+    ) -> None:
+        """A sign directly before an italic marker gets a separator."""
+        result = await _convert(converter, f"<p>replaced by {sign}<i>t</i></p>")
+        assert f"{sign}<!-- markdown separator -->_t_" in result
+
+    @pytest.mark.anyio
+    @pytest.mark.parametrize("sign", ["\u2013", "\u2014", "\u27e8"])
+    async def test_dash_before_emphasis_is_not_separated(
+        self, converter: WikiHtmlConverter, sign: str
+    ) -> None:
+        """A dash separates words, so no separator is added there."""
+        result = await _convert(
+            converter, f"<p>the wave{sign}<i>particle</i> duality</p>"
+        )
+        assert f"wave{sign}_particle_" in result
+        assert "<!-- markdown separator -->" not in result
+
+    @pytest.mark.anyio
+    async def test_texhtml_sign_and_italic_are_separated(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """The same rule applies inside a legacy texhtml span."""
+        html = '<p><span class="texhtml">\u2212<i>t</i></span></p>'
+        result = await _convert(converter, html)
+        assert "\u2212<!-- markdown separator -->_t_" in result
 
 
 class TestStaticUtilities:

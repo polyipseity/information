@@ -798,14 +798,18 @@ class TestDecodeLegacyFragment:
         assert _mod._decode_legacy_fragment("a.3Ab") == "a.3Ab"  # noqa: SLF001
         assert _mod._decode_legacy_fragment("a.7Ab") == "a.7Ab"  # noqa: SLF001
 
-    def test_control_char_decoded_by_scanner(self) -> None:
-        """A .19 sequence (control byte 0x19) is decoded by the scanner.
+    def test_control_char_stays_literal(self) -> None:
+        """A .19 sequence decodes to a control byte, so it stays verbatim.
 
-        C0 control characters are spec-reachable (``urlencode`` escapes them),
-        so the scanner decodes them. Preservation happens at the acceptance
-        level (``_plain_fragment``), not at the scanner level.
+        MediaWiki replaces spaces with underscores before encoding and no
+        anchor holds a control character, so such a run can only be a literal
+        dot followed by two hex digits.
         """
-        assert _mod._decode_legacy_fragment("al.1994") == "al\x1994"  # noqa: SLF001
+        assert _mod._decode_legacy_fragment("al.1994") == "al.1994"  # noqa: SLF001
+
+    def test_space_byte_stays_literal(self) -> None:
+        """A .20 sequence decodes to a space, which the encoder never emits."""
+        assert _mod._decode_legacy_fragment("Sec.2004") == "Sec.2004"  # noqa: SLF001
 
     def test_percent_escape_decoded(self) -> None:
         """Percent-encoded runs should be decoded."""
@@ -847,65 +851,44 @@ class TestDecodeLegacyFragment:
         assert _mod._decode_legacy_fragment("") == ""  # noqa: SLF001
 
 
-class TestIsKnownFragment:
-    """Tests for _is_known_fragment resolution."""
+class TestPlainFragment:
+    """Tests for _plain_fragment decoding."""
 
-    def test_exact_match(self) -> None:
-        assert _mod._is_known_fragment("foo", frozenset({"foo"}), None)  # noqa: SLF001
-
-    def test_underscore_variant(self) -> None:
-        assert _mod._is_known_fragment("foo_bar", frozenset({"foo bar"}), None)  # noqa: SLF001
-
-    def test_names_map_hit(self) -> None:
-        assert _mod._is_known_fragment("Foo", frozenset(), {"Foo": "x"})  # noqa: SLF001
-
-    def test_names_map_underscore_variant(self) -> None:
-        assert _mod._is_known_fragment("foo_bar", frozenset(), {"foo bar": "x"})  # noqa: SLF001
-
-    def test_miss(self) -> None:
-        assert not _mod._is_known_fragment("missing", frozenset(), {"other": "x"})  # noqa: SLF001
-
-
-class TestPlainFragmentAcceptance:
-    """Tests for _plain_fragment acceptance logic."""
-
-    def test_legacy_decoded_when_in_names_map(self) -> None:
-        """Candidate in names map should be accepted."""
-        result = _mod._plain_fragment(  # noqa: SLF001
-            "The%20Segal.E2.80.93Bargmann%20transform",
-            names_map={
-                "The Segal\u2013Bargmann transform": "the Segal\u2013Bargmann transform"
-            },
-        )
+    def test_legacy_escapes_decoded(self) -> None:
+        """A legacy escape run decodes without needing a known anchor."""
+        result = _mod._plain_fragment("The%20Segal.E2.80.93Bargmann%20transform")  # noqa: SLF001
         assert result == "The Segal\u2013Bargmann transform"
 
-    def test_legacy_decoded_when_in_known_fragments(self) -> None:
-        """Candidate in known_fragments should be accepted."""
+    def test_apostrophe_escape_decoded(self) -> None:
+        """A dot-escaped apostrophe decodes, which is the whole point."""
+        result = _mod._plain_fragment("einstein.27s%20theory")  # noqa: SLF001
+        assert result == "einstein's theory"
+
+    def test_literal_dot_before_digits_stays_literal(self) -> None:
+        """A dot followed by two hex digits is a literal dot, not an escape."""
+        assert _mod._plain_fragment("al.1994") == "al.1994"  # noqa: SLF001
+        assert _mod._plain_fragment("Section.2004") == "Section.2004"  # noqa: SLF001
+
+    def test_escaped_percent_decodes(self) -> None:
+        """A run decoding to ``%`` is printable, so it decodes."""
+        result = _mod._plain_fragment("50.25_of_it")  # noqa: SLF001
+        assert result == "50%_of_it"
+
+    def test_literal_reading_wins_when_only_it_names_an_anchor(self) -> None:
+        """A known anchor beats a plausible decoding of the same run."""
         result = _mod._plain_fragment(  # noqa: SLF001
-            "x.E2.80.93y",
-            known_fragments=frozenset({"x\u2013y"}),
+            "Section.28", known_fragments=frozenset({"Section.28"})
+        )
+        assert result == "Section.28"
+
+    def test_decoded_reading_wins_when_only_it_names_an_anchor(self) -> None:
+        """A known anchor that needs decoding is decoded."""
+        result = _mod._plain_fragment(  # noqa: SLF001
+            "x.E2.80.93y", known_fragments=frozenset({"x\u2013y"})
         )
         assert result == "x\u2013y"
 
-    def test_rejected_falls_back_to_percent_only(self) -> None:
-        """Unknown candidate falls back to unquote-only."""
-        result = _mod._plain_fragment(  # noqa: SLF001
-            "The%20Segal.E2.80.93Bargmann%20transform",
-            names_map={},
-        )
-        assert result == "The Segal.E2.80.93Bargmann transform"
-
-    def test_control_char_candidate_rejected(self) -> None:
-        """A candidate containing a control char is rejected (no known anchor)."""
-        result = _mod._plain_fragment(  # noqa: SLF001
-            "al.1994",
-            names_map={},
-        )
-        # .19 decodes to \x19 (control char) which is not a known anchor;
-        # the fallback is percent-only = unquote('al.1994') = 'al.1994'.
-        assert result == "al.1994"
-
-    def test_percent_only_when_no_legacy_escapes(self) -> None:
+    def test_percent_escapes_decoded(self) -> None:
         """Percent-only fragments decode via unquote."""
         result = _mod._plain_fragment("Schr%C3%B6dinger_equation")  # noqa: SLF001
         assert result == "Schr\u00f6dinger_equation"

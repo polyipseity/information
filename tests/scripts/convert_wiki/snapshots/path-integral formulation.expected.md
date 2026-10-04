@@ -1,0 +1,939 @@
+- This article is about a formulation of quantum mechanics. For integrals along a path, also known as line or contour integrals, see [line integral](line%20integral.md).
+
+| Part of a series of articles about <br/> __<big>[Quantum mechanics](quantum%20mechanics.md)</big>__                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| $i\hbar {\frac {d}{dt} }\vert \Psi \rangle ={\hat {H} }\vert \Psi \rangle$ <br/> _[Schrödinger equation](Schrödinger%20equation.md)_                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| - __[Introduction](introduction%20to%20quantum%20mechanics.md)__ <br/> - __[Glossary](glossary%20of%20elementary%20quantum%20mechanics.md)__ <br/> - __[History](history%20of%20quantum%20mechanics.md)__                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| __Background__ <br/> <br/> - [Classical mechanics](classical%20mechanics.md) <br/> - [Old quantum theory](old%20quantum%20theory.md) <br/> - [Interference](wave%20interference.md)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| __Fundamentals__ <br/> <br/> - [Bra–ket notation](bra–ket%20notation.md) <br/> - [Complementarity](complementarity%20(physics).md) <br/> - [Entanglement](quantum%20entanglement.md) <br/> - [Energy level](energy%20level.md) <br/> - [Hamiltonian](Hamiltonian%20(quantum%20mechanics).md) <br/> - [Measurement](measurement%20in%20quantum%20mechanics.md) <br/> - [Nonlocality](quantum%20nonlocality.md) <br/> - [Quantum number](quantum%20number.md) <br/> - [State](quantum%20state.md) <br/> - [Superposition](quantum%20superposition.md) <br/> - [Symmetry](symmetry%20in%20quantum%20mechanics.md) <br/> - [Tunnelling](quantum%20tunnelling.md) <br/> - [Uncertainty](uncertainty%20principle.md) <br/> - [Wave function](wave%20function.md) <br/> &nbsp;&nbsp;&nbsp;&nbsp;- [Collapse](wave%20function%20collapse.md) |
+| __Experiments__ <br/> <br/> - [Bell's inequality](Bell%20test.md) <br/> - [Davisson–Germer](Davisson–Germer%20experiment.md) <br/> - [Double-slit](double-slit%20experiment.md) <br/> - [Elitzur–Vaidman](Elitzur–Vaidman%20bomb%20tester.md) <br/> - [Franck–Hertz](Franck–Hertz%20experiment.md) <br/> - [Mach–Zehnder](Mach–Zehnder%20interferometer.md) <br/> - [Delayed-choice quantum eraser](delayed-choice%20quantum%20eraser.md) <br/> - [Stern–Gerlach](Stern–Gerlach%20experiment.md) <br/> - [Rutherford](Rutherford%20scattering%20experiments.md)                                                                                                                                                                                                                                                                      |
+| __Formulations__ <br/> <br/> - [Overview](mathematical%20formulation%20of%20quantum%20mechanics.md) <br/> - [Heisenberg](Heisenberg%20picture.md) <br/> - [Interaction](interaction%20picture.md) <br/> - [Matrix](matrix%20mechanics.md) <br/> - [Phase-space](phase-space%20formulation.md) <br/> - [Schrödinger](Schrödinger%20picture.md) <br/> - [Sum-over-histories \(path integral\)](path%20integral%20formulation.md)                                                                                                                                                                                                                                                                                                                                                                                                       |
+| __Equations__ <br/> <br/> - [Dirac](Dirac%20equation.md) <br/> - [Klein–Gordon](Klein–Gordon%20equation.md) <br/> - [Pauli](Pauli%20equation.md) <br/> - [Rydberg](Rydberg%20formula.md) <br/> - [Schrödinger](Schrödinger%20equation.md)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| __[Interpretations](interpretations%20of%20quantum%20mechanics.md)__ <br/> <br/> - [Bayesian](quantum%20Bayesianism.md) <br/> - [Consciousness causes collapse](consciousness%20causes%20collapse.md) <br/> - [Consistent histories](consistent%20histories.md) <br/> - [Copenhagen](Copenhagen%20interpretation.md) <br/> - [de Broglie–Bohm](de%20Broglie–Bohm%20theory.md) <br/> - [Ensemble](ensemble%20interpretation.md) <br/> - [Hidden-variable](hidden-variable%20theory.md) <br/> - [Many-worlds](many-worlds%20interpretation.md) <br/> - [Objective-collapse](objective-collapse%20theory.md) <br/> - [Quantum logic](quantum%20logic.md) <br/> - [Superdeterminism](superdeterminism.md) <br/> - [Relational](relational%20quantum%20mechanics.md) <br/> - [Transactional](transactional%20interpretation.md)           |
+| __Advanced topics__ <br/> <br/> - [Relativistic quantum mechanics](relativistic%20quantum%20mechanics.md) <br/> - [Quantum field theory](quantum%20field%20theory.md) <br/> - [Quantum information science](quantum%20information%20science.md) <br/> - [Quantum computing](quantum%20computing.md) <br/> - [Quantum chaos](quantum%20chaos.md) <br/> - [Decoherence](quantum%20decoherence.md) <br/> - [EPR paradox](Einstein–Podolsky–Rosen%20paradox.md) <br/> - [Density matrix](density%20matrix.md) <br/> - [Scattering theory](scattering%20theory.md#theory) <br/> - [Quantum statistical mechanics](quantum%20statistical%20mechanics.md) <br/> - [Quantum machine learning](quantum%20machine%20learning.md)                                                                                                               |
+| <!-- - [v](https://en.wikipedia.org/wiki/Template:Quantum%20mechanics) <br/> - [t](https://en.wikipedia.org/wiki/Template%20talk:Quantum%20mechanics) <br/> - [e](https://en.wikipedia.org/wiki/Special:EditPage/Template%3AQuantum%20mechanics) -->                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+
+The __path-integral formulation__ of [quantum mechanics](quantum%20mechanics.md) generalizes the [action principle](Hamilton's%20principle.md) of [classical mechanics](classical%20mechanics.md). It replaces the classical notion of a single, unique classical trajectory for a system with a sum, or [functional integral](functional%20integral.md), over an infinity of quantum-mechanically possible trajectories to compute a [quantum amplitude](probability%20amplitude.md).
+
+This formulation has proven crucial to the subsequent development of [theoretical physics](theoretical%20physics.md), because manifest [Lorentz covariance](Lorentz%20covariance.md) \(time and space components of quantities enter equations in the same way\) is easier to achieve than in the operator formalism of [canonical quantization](canonical%20quantization.md). Unlike previous methods, the path integral allows one to easily change [coordinates](coordinates.md) between very different [canonical](canonical%20coordinates.md) descriptions of the same quantum system. Another advantage is that it is in practice easier to guess the correct form of the [Lagrangian](Lagrangian%20(field%20theory).md) of a theory, which naturally enters the path integrals \(for interactions of a certain type, these are _coordinate-space_, or _Feynman path integrals_\), than the [Hamiltonian](Hamiltonian%20(quantum%20mechanics).md). Possible downsides of the approach include that [unitarity](unitarity.md) \(this is related to conservation of probability; the probabilities of all physically possible outcomes must add up to one\) of the [S-matrix](S-matrix.md) is obscure in the formulation. The path-integral approach has proven to be equivalent to the other formalisms of quantum mechanics and quantum field theory. Thus, by _deriving_ either approach from the other, problems associated with one or the other approach \(as exemplified by Lorentz covariance or unitarity\) go away.<sup>[\[1\]](#^ref-1)</sup>
+
+The path integral also relates quantum and [stochastic](stochastic.md) processes, and this provided the basis for the grand synthesis of the 1970s, which unified [quantum field theory](quantum%20field%20theory.md) with the [statistical field theory](statistical%20field%20theory.md) of a fluctuating field near a [second-order phase transition](second-order%20phase%20transition.md#second-order%20phase%20transition). The [Schrödinger equation](Schrödinger%20equation.md) is a [diffusion equation](diffusion%20equation.md) with an imaginary diffusion constant, and the path integral is an [analytic continuation](analytic%20continuation.md) of a method for summing up all possible [random walks](random%20walk.md).<sup>[\[2\]](#^ref-2)</sup>
+
+The path integral has impacted a wide array of sciences, including [polymer physics](polymer%20physics.md), quantum field theory, [string theory](string%20theory.md) and [cosmology](cosmology.md). In physics, it is a foundation for [lattice gauge theory](lattice%20gauge%20theory.md) and [quantum chromodynamics](quantum%20chromodynamics.md).<sup>[\[3\]](#^ref-3)</sup> It has been called the "most powerful formula in physics",<sup>[\[4\]](#^ref-4)</sup> with [Stephen Wolfram](Stephen%20Wolfram.md) also declaring it to be the "fundamental mathematical construct of modern quantum mechanics and quantum field theory".<sup>[\[5\]](#^ref-5)</sup>
+
+The basic idea of the path-integral formulation can be traced back to [Norbert Wiener](Norbert%20Wiener.md), who introduced the [Wiener integral](Wiener%20integral.md) for solving problems in diffusion and [Brownian motion](Brownian%20motion.md).<sup>[\[6\]](#^ref-6)</sup> This idea was extended to the use of the [Lagrangian](Lagrangian%20(field%20theory).md) in quantum mechanics by [Paul Dirac](Paul%20Dirac.md), whose 1933 paper gave birth to path-integral formulation.<sup>[\[7\]](#^ref-7)</sup><sup>[\[8\]](#^ref-8)</sup><sup>[\[9\]](#^ref-9)</sup><sup>[\[3\]](#^ref-3)</sup> The complete method was developed in 1948 by [Richard Feynman](Richard%20Feynman.md).<sup>[\[10\]](#^ref-10)</sup> Some preliminaries were worked out earlier in his doctoral work under the supervision of [John Archibald Wheeler](John%20Archibald%20Wheeler.md). The original motivation stemmed from the desire to obtain a quantum-mechanical formulation for the [Wheeler–Feynman absorber theory](Wheeler–Feynman%20absorber%20theory.md) using a [Lagrangian](Lagrangian%20(field%20theory).md) \(rather than a [Hamiltonian](Hamiltonian%20(quantum%20mechanics).md)\) as a starting point.
+
+## quantum action principle
+
+In quantum mechanics, as in classical mechanics, the [Hamiltonian](Hamiltonian%20(quantum%20mechanics).md) is the generator of time translations. This means that the state at a slightly later time differs from the state at the current time by the result of acting with the Hamiltonian operator \(multiplied by the negative [imaginary unit](imaginary%20unit.md), −<!-- markdown separator -->_i_\). For states with a definite energy, this is a statement of the [de Broglie relation](de%20Broglie%20relation.md#de%20Broglie%20relations) between frequency and energy, and the general relation is consistent with that plus the [superposition principle](superposition%20principle.md).
+
+The Hamiltonian in classical mechanics is derived from a [Lagrangian](Lagrangian%20(field%20theory).md), which is a more fundamental quantity in the context of [special relativity](special%20relativity.md). The Hamiltonian indicates how to march forward in time, but the time is different in different [reference frames](frame%20of%20reference.md). The Lagrangian is a [Lorentz scalar](Lorentz%20scalar.md), while the Hamiltonian is the time component of a [four-vector](four-vector.md). So the Hamiltonian is different in different frames, and this type of symmetry is not apparent in the original formulation of quantum mechanics.
+
+The Hamiltonian is a function of the position and momentum at one time, and it determines the position and momentum a little later. The Lagrangian is a function of the position now and the position a little later \(or, equivalently for infinitesimal time separations, it is a function of the position and velocity\). The relation between the two is by a [Legendre transformation](Legendre%20transformation.md), and the condition that determines the classical equations of motion \(the [Euler–Lagrange equations](Euler–Lagrange%20equation.md)\) is that the [action](action%20(physics).md) has an extremum.
+
+In quantum mechanics, the Legendre transform is hard to interpret, because the motion is not over a definite trajectory. In classical mechanics, with [discretization](discretization.md) in time, the Legendre transform becomes
+
+$$\varepsilon H=p(t){\big (}q(t+\varepsilon )-q(t){\big )}-\varepsilon L$$
+
+and
+
+$$p={\frac {\partial L}{\partial {\dot {q} } } },$$
+
+where the [partial derivative](partial%20derivative.md) with respect to ${\dot {q} }$ holds _q_\(_t_ + _ε_\) fixed. The inverse Legendre transform is
+
+$$\varepsilon L=\varepsilon p{\dot {q} }-\varepsilon H,$$
+
+where
+
+$${\dot {q} }={\frac {\partial H}{\partial p} },$$
+
+and the partial derivative now is with respect to _p_ at fixed _q_.
+
+In quantum mechanics, the state is a [superposition of different states](quantum%20superposition.md) with different values of _q_, or different values of _p_, and the quantities _p_ and _q_ can be interpreted as noncommuting operators. The operator _p_ is only definite on states that are indefinite with respect to _q_. So consider two states separated in time and act with the operator corresponding to the Lagrangian:
+
+$$e^{i{\big [}p{\big (}q(t+\varepsilon )-q(t){\big )}-\varepsilon H(p,q){\big ]} }.$$
+
+If the multiplications implicit in this formula are reinterpreted as _matrix_ multiplications, the first factor is
+
+$$e^{-ipq(t)},$$
+
+and if this is also interpreted as a matrix multiplication, the sum over all states integrates over all _q_\(_t_\), and so it takes the [Fourier transform](Fourier%20transform.md) in _q_\(_t_\) to change basis to _p_\(_t_\). That is the action on the Hilbert space – _change basis to p at time t_.
+
+Next comes
+
+$$e^{-i\varepsilon H(p,q)},$$
+
+or _evolve an infinitesimal time into the future_.
+
+Finally, the last factor in this interpretation is
+
+$$e^{ipq(t+\varepsilon )},$$
+
+which means _change basis back to q at a later time_.
+
+This is not very different from just ordinary time evolution: the _H_ factor contains all the dynamical information – it pushes the state forward in time. The first part and the last part are just Fourier transforms to change to a pure _q_ basis from an intermediate _p_ basis.
+
+> ![These are five of the infinitely many paths available for a particle to move from point A at time t to point B at time t’\(\>t\). Paths which self-intersect or go backwards in time are not allowed.](../../archives/Wikimedia%20Commons/Feynman%20paths.png)
+>
+> These are five of the infinitely many paths available for a particle to move from point A at time _t_<!-- markdown separator -->to point B at time _t_<!-- markdown separator -->’\(\>_t_\)
+
+Another way of saying this is that since the Hamiltonian is naturally a function of _p_ and _q_, exponentiating this quantity and changing basis from _p_ to _q_ at each step allows the matrix element of _H_ to be expressed as a simple function along each path. This function is the quantum analog of the classical action. This observation is due to [Paul Dirac](Paul%20Dirac.md).<sup>[\[11\]](#^ref-11)</sup>
+
+Dirac further noted that one could square the time-evolution operator in the _S_ representation:
+
+$$e^{i\varepsilon S},$$
+
+and this gives the time-evolution operator between time _t_ and time _t_ + 2<!-- markdown separator -->_ε_. In the _H_ representation, the quantity summed over the intermediate states corresponds to a matrix element that is not directly observable. In contrast, in the _S_ representation, this quantity is interpreted as being associated with a path. Taking a large power of this operator reconstructs the full quantum evolution between two states: the initial state with a fixed value of _q_\(_0_\) and the final state with a fixed value of _q_\(_t_\). The resulting expression can be understood as a sum over paths, where each path contributes a phase given by the quantum action.
+
+## classical limit
+
+Crucially, Dirac identified the effect of the [classical limit](classical%20limit.md) on the quantum form of the action principle:
+
+> ...we see that the integrand in \(11\) must be of the form _e_<sup>_iF_<!-- markdown separator -->/<!-- markdown separator -->_h_</sup>, where _F_ is a function of _q_<sub>_T_</sub>, _q_<sub>1</sub>, _q_<sub>2</sub>, … _q_<sub>_m_</sub>, _q_<sub>_t_</sub>, which remains finite as _h_ tends to zero. Let us now picture one of the intermediate _q_<!-- markdown separator -->s, say _q<sub>k</sub>_, as varying continuously while the other ones are fixed. Owing to the smallness of _h_, we shall then in general have _F_<!-- markdown separator -->/<!-- markdown separator -->_h_ varying extremely rapidly. This means that _e_<sup>_iF_<!-- markdown separator -->/<!-- markdown separator -->_h_</sup> will vary periodically with a very high frequency about the value zero, as a result of which its integral will be practically zero. The only important part in the domain of integration of _q<sub>k</sub>_ is thus that for which a comparatively large variation in _q<sub>k</sub>_ produces only a very small variation in _F_. This part is the neighbourhood of a point for which _F_ is stationary with respect to small variations in _q<sub>k</sub>_. We can apply this argument to each of the variables of integration ... and obtain the result that the only important part in the domain of integration is that for which _F_ is stationary for small variations in all intermediate _q_<!-- markdown separator -->s. ... We see that _F_ has for its classical analogue _∫_<sup>_t_</sup> <sub>_T_</sub>_L dt_, which is just the action function, which classical mechanics requires to be stationary for small variations in all the intermediate _q_<!-- markdown separator -->s. This shows the way in which equation \(11\) goes over into classical results when _h_ becomes extremely small.
+>
+> —&hairsp;Dirac \(1933\), p. 69
+
+That is, in the limit of action that is large compared to the [Planck constant](Planck%20constant.md) _ħ_ – the classical limit – the path integral is dominated by solutions that are in the neighborhood of [stationary points](stationary%20point.md) of the action. The classical path arises naturally in the classical limit.
+
+## Feynman's interpretation
+
+Dirac's work did not provide a precise prescription to calculate the sum over paths, and he did not show that one could recover the Schrödinger equation or the [canonical commutation relations](canonical%20commutation%20relation.md) from this rule. This was done by Feynman.
+
+Feynman showed that Dirac's quantum action was, for most cases of interest, simply equal to the classical action, appropriately discretized. This means that the classical action is the phase acquired by quantum evolution between two fixed endpoints. He proposed to recover all of quantum mechanics from the following postulates:
+
+1. The [probability](probability.md) for an event is given by the [squared modulus](squared%20modulus.md#absolute%20square) of a complex number called the "probability amplitude".
+2. The [probability amplitude](probability%20amplitude.md) is given by adding together the contributions of all paths in configuration space.
+3. The contribution of a path is proportional to _e_<sup>_iS_<!-- markdown separator -->/<!-- markdown separator -->_ħ_</sup>, where _S_ is the [action](action%20(physics).md) given by the [time integral](time%20integral.md) of the [Lagrangian](Lagrangian%20mechanics.md) along the path.
+
+In order to find the overall probability amplitude for a given process, then, one adds up, or [integrates](integral.md), the amplitude of the 3rd postulate over the space of _all_ possible paths of the system in between the initial and final states, including those that are absurd by classical standards. In calculating the probability amplitude for a single particle to go from one space-time coordinate to another, it is correct to include paths in which the particle describes elaborate curlicues, curves in which the particle shoots off into outer space and flies back again, and so forth. The __path integral__ assigns to all these amplitudes _equal weight_ but varying [phase](phase%20(waves).md), or argument of the [complex number](complex%20number.md). Contributions from paths wildly different from the classical trajectory may be suppressed by [interference](interference%20(wave%20propagation).md) \(see below\).
+
+Feynman showed that this formulation of quantum mechanics is equivalent to the [canonical approach to quantum mechanics](quantization%20(physics).md) when the Hamiltonian is at most quadratic in the momentum. An amplitude computed according to Feynman's principles will also obey the [Schrödinger equation](Schrödinger%20equation.md) for the [Hamiltonian](Hamiltonian%20(quantum%20mechanics).md) corresponding to the given action.
+
+The path integral formulation of quantum field theory represents the [transition amplitude](transition%20amplitude.md) \(corresponding to the classical [correlation function](correlation%20function.md)\) as a weighted sum of all possible histories of the system from the initial to the final state. A [Feynman diagram](Feynman%20diagram.md) is a graphical representation of a [perturbative](perturbative.md) contribution to the transition amplitude.
+
+## path integral in quantum mechanics
+
+### time-slicing derivation
+
+- Main article: [Relation between Schrödinger's equation and the path integral formulation of quantum mechanics](relation%20between%20Schrödinger's%20equation%20and%20the%20path%20integral%20formulation%20of%20quantum%20mechanics.md)
+
+One common approach to deriving the path integral formula is to divide the time interval into small pieces. Once this is done, the [Trotter product formula](Lie%20product%20formula.md) tells us that the noncommutativity of the kinetic and potential energy operators can be ignored.
+
+For a particle in a smooth potential, the path integral is approximated by [zigzag](zigzag.md) paths, which in one dimension is a product of ordinary integrals. For the motion of the particle from position _x<sub>a</sub>_ at time _t<sub>a</sub>_ to _x<sub>b</sub>_ at time _t<sub>b</sub>_, the time sequence
+
+$$t_{a}=t_{0}<t_{1}<\cdots <t_{n-1}<t_{n}<t_{n+1}=t_{b}$$
+
+can be divided up into _n_ + 1 smaller segments _t<sub>j</sub>_ − _t_<sub>_j_ − 1</sub>, where _j_ = 1, ..., _n_ + 1, of fixed duration
+
+$$\varepsilon =\Delta t={\frac {t_{b}-t_{a} }{n+1} }.$$
+
+This process is called _time-slicing_.<sup>[\[12\]](#^ref-12)</sup><sup>:&hairsp;498&hairsp;</sup>
+
+An approximation for the path integral can be computed as proportional to
+
+$$\int \limits _{-\infty }^{+\infty }\cdots \int \limits _{-\infty }^{+\infty }\exp \left({\frac {i}{\hbar } }\int _{t_{a} }^{t_{b} }L{\big (}x(t),v(t){\big )}\,dt\right)\,dx_{0}\,\cdots \,dx_{n},$$
+
+where _L_\(_x_, _v_\) is the Lagrangian of the one-dimensional system with position variable _x_\(_t_\) and velocity _v_ = _ẋ_\(_t_\) considered \(see below\), and _dx<sub>j</sub>_ corresponds to the position at the _j_<!-- markdown separator -->th time step, if the time integral is approximated by a sum of _n_ terms.
+
+In the limit _n → ∞_, this becomes a [functional integral](functional%20integral.md), which, apart from a nonessential factor, is directly the product of the probability amplitudes ⟨_x<sub>b</sub>_, _t<sub>b</sub>_\|_x<sub>a</sub>_, _t<sub>a</sub>_⟩ \(more precisely, since one must work with a continuous spectrum, the respective densities\) to find the quantum mechanical particle at _t<sub>a</sub>_ in the initial state _x<sub>a</sub>_ and at _t<sub>b</sub>_ in the final state _x<sub>b</sub>_.
+
+Actually _L_ is the classical [Lagrangian](Lagrangian%20mechanics.md) of the one-dimensional system considered,
+
+$$L(x,{\dot {x} })=T-V={\frac {1}{2} }m|{\dot {x} }|^{2}-V(x)$$
+
+and the abovementioned "zigzagging" corresponds to the appearance of the terms
+
+$$\exp \left({\frac {i}{\hbar } }\varepsilon \sum _{j=1}^{n+1}L\left({\tilde {x} }_{j},{\frac {x_{j}-x_{j-1} }{\varepsilon } },j\right)\right)$$
+
+in the [Riemann sum](Riemann%20sum.md) approximating the time integral, which are finally integrated over _x_<sub>1</sub> to _x<sub>n</sub>_ with the integration measure _dx_<sub>1</sub>..._dx<sub>n</sub>_, _x̃<sub>j</sub>_ is an arbitrary value of the interval corresponding to _j_, e.g. its center, $\frac{x_{j}+x_{j−1} }{2}$.
+
+Thus, in contrast to classical mechanics, not only does the stationary path contribute, but actually all virtual paths between the initial and the final point also contribute.
+
+### path integral
+
+In terms of the wave function in the position representation, the path integral formula reads as follows:
+
+$$\psi (x,t)={\frac {1}{Z} }\int _{\mathbf {x} (0)=x}{\mathcal {D} }\mathbf {x} \,e^{iS[\mathbf {x} ,{\dot {\mathbf {x} } }]}\psi _{0}(\mathbf {x} (t))\,$$
+
+where ${\mathcal {D} }\mathbf {x}$ denotes integration over all paths $\mathbf {x}$ with $\mathbf {x} (0)=x$ and where $Z$ is a normalization factor. Here $S$ is the action, given by
+
+$$S[\mathbf {x} ,{\dot {\mathbf {x} } }]=\int dt\,L(\mathbf {x} (t),{\dot {\mathbf {x} } }(t))$$
+
+### free particle
+
+> ![The diagram shows the contribution of a set of paths for the path integral of a free particle.](../../archives/Wikimedia%20Commons/Path%20integral%20example.webm)
+>
+> [The diagram shows the contribution of a set of paths for the path integral of a free particle.](../../archives/Wikimedia%20Commons/Path%20integral%20example.webm)
+>
+> Contributions to the path integral of a free particle for a set of paths, eventually drawing a [Cornu Spiral](Cornu%20spiral.md)
+
+The path integral representation gives the quantum amplitude to go from point _x_ to point _y_ as an integral over all paths. For a free-particle action \(for simplicity let _m_ = 1, _ħ_ = 1\)
+
+$$S=\int {\frac { {\dot {x} }^{2} }{2} }\,\mathrm {d} t,$$
+
+the integral can be evaluated explicitly.
+
+To do this, it is convenient to start without the factor _i_ in the exponential, so that large deviations are suppressed by small numbers, not by cancelling oscillatory contributions. The amplitude \(or Kernel\) reads:
+
+$$K(x-y;T)=\int _{x(0)=x}^{x(T)=y}\exp \left(-\int _{0}^{T}{\frac { {\dot {x} }^{2} }{2} }\,\mathrm {d} t\right)\,{\mathcal {D} }x.$$
+
+Splitting the integral into time slices:
+
+$$K(x-y;T)=\int _{x(0)=x}^{x(T)=y}\prod _{t}\exp \left(-{\tfrac {1}{2} }\left({\frac {x(t+\varepsilon )-x(t)}{\varepsilon } }\right)^{2}\varepsilon \right)\,{\mathcal {D} }x,$$
+
+where the D is interpreted as a finite collection of integrations at each integer multiple of _ε_. Each factor in the product is a Gaussian as a function of _x_\(_t_ + _ε_\) centered at _x_\(_t_\) with variance _ε_. The multiple integrals are a repeated [convolution](convolution.md) of this Gaussian _G<sub>ε</sub>_ with copies of itself at adjacent times:
+
+$$K(x-y;T)=G_{\varepsilon }*G_{\varepsilon }*\cdots *G_{\varepsilon },$$
+
+where the number of convolutions is $\frac{T}{ {\varepsilon} }$. The result is easy to evaluate by taking the Fourier transform of both sides, so that the convolutions become multiplications:
+
+$${\tilde {K} }(p;T)={\tilde {G} }_{\varepsilon }(p)^{T/\varepsilon }.$$
+
+The Fourier transform of the Gaussian _G_ is another Gaussian of reciprocal variance:
+
+$${\tilde {G} }_{\varepsilon }(p)=e^{-{\frac {\varepsilon p^{2} }{2} } },$$
+
+and the result is
+
+$${\tilde {K} }(p;T)=e^{-{\frac {Tp^{2} }{2} } }.$$
+
+The Fourier transform gives _K_, and it is a Gaussian again with reciprocal variance:
+
+$$K(x-y;T)\propto e^{-{\frac {(x-y)^{2} }{2T} } }.$$
+
+The proportionality constant is not really determined by the time-slicing approach, only the ratio of values for different endpoint choices is determined. The proportionality constant should be chosen to ensure that between each two time slices the time evolution is quantum-mechanically unitary, but a more illuminating way to fix the normalization is to consider the path integral as a description of a [stochastic process](stochastic%20process.md).
+
+The result has a probability interpretation. The sum over all paths of the exponential factor can be seen as the sum over each path of the probability of selecting that path. The probability is the product over each segment of the probability of selecting that segment, so that each segment is probabilistically independently chosen. The fact that the answer is a Gaussian spreading linearly in time is the [central limit theorem](central%20limit%20theorem.md), which can be interpreted as the first historical evaluation of a statistical path integral.
+
+The probability interpretation gives a natural normalization choice. The path integral should be defined so that
+
+$$\int K(x-y;T)\,dy=1.$$
+
+This condition normalizes the Gaussian and produces a kernel that obeys the diffusion equation:
+
+$${\frac {d}{dt} }K(x;T)={\frac {\nabla ^{2} }{2} }K.$$
+
+For oscillatory path integrals, ones with an _i_ in the numerator, the time slicing produces convolved Gaussians, just as before. Now, however, the convolution product is marginally singular, since it requires careful limits to evaluate the oscillating integrals. To make the factors well defined, the easiest way is to add a small imaginary part to the time increment _ε_. This is closely related to [Wick rotation](Wick%20rotation.md). Then the same convolution argument as before gives the propagation kernel:
+
+$$K(x-y;T)\propto e^{\frac {i(x-y)^{2} }{2T} },$$
+
+which, with the same normalization as before \(not the sum-squares normalization – this function has a divergent norm\), obeys a free Schrödinger equation:
+
+$${\frac {d}{dt} }K(x;T)=i{\frac {\nabla ^{2} }{2} }K.$$
+
+This means that any superposition of _K_<!-- markdown separator -->s will also obey the same equation, by linearity. Defining
+
+$$\psi _{t}(y)=\int \psi _{0}(x)K(x-y;t)\,dx=\int \psi _{0}(x)\int _{x(0)=x}^{x(t)=y}e^{iS}\,{\mathcal {D} }x,$$
+
+then _ψ<sub>t</sub>_ obeys the free Schrödinger equation just as _K_ does:
+
+$$i{\frac {\partial }{\partial t} }\psi _{t}=-{\frac {\nabla ^{2} }{2} }\psi _{t}.$$
+
+### simple harmonic oscillator
+
+- See also: [Propagator § Basic examples: propagator of free particle and harmonic oscillator](propagator.md#basic%20examples%20propagator%20of%20free%20particle%20and%20harmonic%20oscillator), and [Mehler kernel](Mehler%20kernel.md)
+
+The Lagrangian for the simple harmonic oscillator is<sup>[\[13\]](#^ref-13)</sup>
+
+$${\mathcal {L} }={\tfrac {1}{2} }m{\dot {x} }^{2}-{\tfrac {1}{2} }m\omega ^{2}x^{2}.$$
+
+Write its trajectory _x_\(_t_\) as the classical trajectory plus some perturbation, _x_\(_t_\) = _x_<sub>c</sub>\(_t_\) + _δx_\(_t_\) and the action as _S_ = _S_<sub>c</sub> + _δS_. The classical trajectory can be written as
+
+$$x_{\text{c} }(t)=x_{i}{\frac {\sin \omega (t_{f}-t)}{\sin \omega (t_{f}-t_{i})} }+x_{f}{\frac {\sin \omega (t-t_{i})}{\sin \omega (t_{f}-t_{i})} }.$$
+
+This trajectory yields the classical action
+
+$${\begin{aligned}S_{\text{c} }&=\int _{t_{i} }^{t_{f} }{\mathcal {L} }\,dt=\int _{t_{i} }^{t_{f} }\left({\tfrac {1}{2} }m{\dot {x} }^{2}-{\tfrac {1}{2} }m\omega ^{2}x^{2}\right)\,dt\\[6pt]&={\frac {1}{2} }m\omega \left({\frac {(x_{i}^{2}+x_{f}^{2})\cos \omega (t_{f}-t_{i})-2x_{i}x_{f} }{\sin \omega (t_{f}-t_{i})} }\right)~.\end{aligned} }$$
+
+Next, expand the deviation from the classical path as a Fourier series, and calculate the contribution to the action _δS_, which gives
+
+$$S=S_{\text{c} }+\sum _{n=1}^{\infty }{\tfrac {1}{2} }a_{n}^{2}{\frac {m}{2} }\left({\frac {(n\pi )^{2} }{t_{f}-t_{i} } }-\omega ^{2}(t_{f}-t_{i})\right).$$
+
+This means that the propagator is
+
+$${\begin{aligned}K(x_{f},t_{f};x_{i},t_{i})&=Qe^{\frac {iS_{\text{c} } }{\hbar } }\prod _{j=1}^{\infty }{\frac {j\pi }{\sqrt {2} } }\int da_{j}\exp {\left({\frac {i}{2\hbar } }a_{j}^{2}{\frac {m}{2} }\left({\frac {(j\pi )^{2} }{t_{f}-t_{i} } }-\omega ^{2}(t_{f}-t_{i})\right)\right)}\\[6pt]&=e^{\frac {iS_{\text{c} } }{\hbar } }Q\prod _{j=1}^{\infty }\left(1-\left({\frac {\omega (t_{f}-t_{i})}{j\pi } }\right)^{2}\right)^{-{\frac {1}{2} } }\end{aligned} }$$
+
+for some normalization
+
+$$Q={\sqrt {\frac {m}{2\pi i\hbar (t_{f}-t_{i})} } }~.$$
+
+Using the infinite-product representation of the [sinc function](sinc%20function.md),
+
+$$\prod _{j=1}^{\infty }\left(1-{\frac {x^{2} }{j^{2} } }\right)={\frac {\sin \pi x}{\pi x} },$$
+
+the propagator can be written as
+
+$$K(x_{f},t_{f};x_{i},t_{i})=Qe^{\frac {iS_{\text{c} } }{\hbar } }{\sqrt {\frac {\omega (t_{f}-t_{i})}{\sin \omega (t_{f}-t_{i})} } }=e^{\frac {iS_{c} }{\hbar } }{\sqrt {\frac {m\omega }{2\pi i\hbar \sin \omega (t_{f}-t_{i})} } }.$$
+
+Let _T_ = _t<sub>f</sub>_ − _t<sub>i</sub>_. One may write this propagator in terms of energy eigenstates as
+
+$${\begin{aligned}K(x_{f},t_{f};x_{i},t_{i})&=\left({\frac {m\omega }{2\pi i\hbar \sin \omega T} }\right)^{\frac {1}{2} }\exp {\left({\frac {i}{\hbar } }{\tfrac {1}{2} }m\omega {\frac {(x_{i}^{2}+x_{f}^{2})\cos \omega T-2x_{i}x_{f} }{\sin \omega T} }\right)}\\[6pt]&=\sum _{n=0}^{\infty }\exp {\left(-{\frac {iE_{n}T}{\hbar } }\right)}\psi _{n}(x_{f})\psi _{n}(x_{i})^{*}~.\end{aligned} }$$
+
+Using the identities $isin{\omega}T=\frac{1}{2}e^{i{\omega}T}(1 −e^{−2i{\omega}T})$ and $cos{\omega}T=\frac{1}{2}e^{i{\omega}T}(1 +e^{−2i{\omega}T})$, this amounts to
+
+$$K(x_{f},t_{f};x_{i},t_{i})=\left({\frac {m\omega }{\pi \hbar } }\right)^{\frac {1}{2} }e^{\frac {-i\omega T}{2} }\left(1-e^{-2i\omega T}\right)^{-{\frac {1}{2} } }\exp {\left(-{\frac {m\omega }{2\hbar } }\left(\left(x_{i}^{2}+x_{f}^{2}\right){\frac {1+e^{-2i\omega T} }{1-e^{-2i\omega T} } }-{\frac {4x_{i}x_{f}e^{-i\omega T} }{1-e^{-2i\omega T} } }\right)\right)}.$$
+
+One may absorb all terms after the first _e_<sup>−<!-- markdown separator -->_iωT_<!-- markdown separator -->/2</sup> into _R_\(_T_\), thereby obtaining
+
+$$K(x_{f},t_{f};x_{i},t_{i})=\left({\frac {m\omega }{\pi \hbar } }\right)^{\frac {1}{2} }e^{\frac {-i\omega T}{2} }\cdot R(T).$$
+
+One may finally expand _R_\(_T_\) in powers of _e_<sup>−<!-- markdown separator -->_iωT_</sup>: All terms in this expansion get multiplied by the _e_<sup>−<!-- markdown separator -->_iωT_<!-- markdown separator -->/2</sup> factor in the front, yielding terms of the form
+
+$$e^{\frac {-i\omega T}{2} }e^{-in\omega T}=e^{-i\omega T\left({\frac {1}{2} }+n\right)}\quad {\text{for } }n=0,1,2,\ldots .$$
+
+Comparison to the above eigenstate expansion yields the standard energy spectrum for the simple harmonic oscillator,
+
+$$E_{n}=\left(n+{\tfrac {1}{2} }\right)\hbar \omega ~.$$
+
+### Coulomb potential
+
+Feynman's time-sliced approximation does not, however, exist for the most important quantum-mechanical path integrals of atoms, due to the singularity of the [Coulomb potential](Coulomb%20potential.md#electric%20potential%20due%20to%20a%20point%20charge) $\frac{e^{2} }{r}$ at the origin. Only after replacing the time _t_ by another path-dependent pseudo-time parameter
+
+$$s=\int {\frac {dt}{r(t)} }$$
+
+the singularity is removed and a time-sliced approximation exists, which is exactly integrable, since it can be made harmonic by a simple coordinate transformation, as discovered in 1979 by [İsmail Hakkı Duru](İsmail%20Hakkı%20Duru.md) and [Hagen Kleinert](Hagen%20Kleinert.md).<sup>[\[14\]](#^ref-14)</sup> The combination of a path-dependent time transformation and a coordinate transformation is an important tool to solve many path integrals and is called generically the [Duru–Kleinert transformation](Duru–Kleinert%20transformation.md).
+
+### the Schrödinger equation
+
+- Main article: [Relation between Schrödinger's equation and the path integral formulation of quantum mechanics](relation%20between%20Schrödinger's%20equation%20and%20the%20path%20integral%20formulation%20of%20quantum%20mechanics.md)
+
+The path integral reproduces the Schrödinger equation for the initial and final state even when a potential is present. This is easiest to see by taking a path-integral over infinitesimally separated times.
+
+$$\psi (y;t+\varepsilon )=\int _{-\infty }^{\infty }\psi (x;t)\int _{x(t)=x}^{x(t+\varepsilon )=y}e^{i\int _{t}^{t+\varepsilon }{\bigl (}{\frac {1}{2} }{\dot {x} }^{2}-V(x){\bigr )}dt}Dx(t)\,dx\qquad (1)$$
+
+Since the time separation is infinitesimal and the cancelling oscillations become severe for large values of _ẋ_, the path integral has most weight for _y_ close to _x_. In this case, to lowest order the potential energy is constant, and only the kinetic energy contribution is nontrivial. \(This separation of the kinetic and potential energy terms in the exponent is essentially the [Trotter product formula](Lie%20product%20formula.md).\) The exponential of the action is
+
+$$e^{-i\varepsilon V(x)}e^{i{\frac { {\dot {x} }^{2} }{2} }\varepsilon }$$
+
+The first term rotates the phase of _ψ_\(_x_\) locally by an amount proportional to the potential energy. The second term is the free particle propagator, corresponding to _i_ times a diffusion process. To lowest order in _ε_ they are additive; in any case one has with \(1\):
+
+$$\psi (y;t+\varepsilon )\approx \int \psi (x;t)e^{-i\varepsilon V(x)}e^{\frac {i(x-y)^{2} }{2\varepsilon } }\,dx\,.$$
+
+As mentioned, the spread in _ψ_ is diffusive from the free particle propagation, with an extra infinitesimal rotation in phase that slowly varies from point to point from the potential:
+
+$${\frac {\partial \psi }{\partial t} }=i\cdot \left({\tfrac {1}{2} }\nabla ^{2}-V(x)\right)\psi \,$$
+
+and this is the Schrödinger equation. The normalization of the path integral needs to be fixed in exactly the same way as in the free particle case. An arbitrary continuous potential does not affect the normalization, although singular potentials require careful treatment.
+
+### equations of motion
+
+Since the states obey the Schrödinger equation, the path integral must reproduce the Heisenberg equations of motion for the averages of _x_ and _ẋ_ variables, but it is instructive to see this directly. The direct approach shows that the expectation values calculated from the path integral reproduce the usual ones of quantum mechanics.
+
+Start by considering the path integral with some fixed initial state
+
+$$\int \psi _{0}(x)\int _{x(0)=x}e^{iS(x,{\dot {x} })}\,Dx\,$$
+
+Now _x\(t\)_ at each separate time is a separate integration variable. So it is legitimate to change variables in the integral by shifting: _x_\(_t_\) = _u_\(_t_\) + _ε_\(_t_\) where _ε_\(_t_\) is a different shift at each time but _ε_\(0\) = _ε_\(_T_\) = 0, since the endpoints are not integrated:
+
+$$\int \psi _{0}(x)\int _{u(0)=x}e^{iS(u+\varepsilon ,{\dot {u} }+{\dot {\varepsilon } })}\,Du\,$$
+
+The change in the integral from the shift is, to first infinitesimal order in _ε_:
+
+$$\int \psi _{0}(x)\int _{u(0)=x}\left(\int {\frac {\partial S}{\partial u} }\varepsilon +{\frac {\partial S}{\partial {\dot {u} } } }{\dot {\varepsilon } }\,dt\right)e^{iS}\,Du\,$$
+
+which, integrating by parts in _t_, gives:
+
+$$\int \psi _{0}(x)\int _{u(0)=x}-\left(\int \left({\frac {d}{dt} }{\frac {\partial S}{\partial {\dot {u} } } }-{\frac {\partial S}{\partial u} }\right)\varepsilon (t)\,dt\right)e^{iS}\,Du\,$$
+
+But this was just a shift of integration variables, which doesn't change the value of the integral for any choice of _ε\(t\)_. The conclusion is that this first order variation is zero for an arbitrary initial state and at any arbitrary point in time:
+
+$$\left\langle \psi _{0}\left|{\frac {\delta S}{\delta x} }(t)\right|\psi _{0}\right\rangle =0$$
+
+this is the Heisenberg equation of motion.
+
+If the action contains terms that multiply _ẋ_ and _x_, at the same moment in time, the manipulations above are only heuristic, because the multiplication rules for these quantities is just as noncommuting in the path integral as it is in the operator formalism.
+
+### stationary-phase approximation
+
+If the variation in the action exceeds _ħ_ by many orders of magnitude, we typically have destructive interference other than in the vicinity of those trajectories satisfying the [Euler–Lagrange equation](Euler–Lagrange%20equation.md), which is now reinterpreted as the condition for constructive interference. This can be shown using the method of stationary phase applied to the propagator. As _ħ_ decreases, the exponential in the integral oscillates rapidly in the complex domain for any change in the action. Thus, in the limit that _ħ_ goes to zero, only points where the classical action does not vary contribute to the propagator.
+
+### canonical commutation relations
+
+The formulation of the path integral does not make it clear at first sight that the quantities _x_ and _p_ do not commute. In the path integral, these are just integration variables and they have no obvious ordering. Feynman discovered that the non-commutativity is still present.<sup>[\[15\]](#^ref-15)</sup>
+
+To see this, consider the simplest path integral, the brownian walk. This is not yet quantum mechanics, so in the path-integral the action is not multiplied by _i_:
+
+$$S=\int \left({\frac {dx}{dt} }\right)^{2}\,dt$$
+
+The quantity _x\(t\)_ is fluctuating, and the derivative is defined as the limit of a discrete difference.
+
+$${\frac {dx}{dt} }={\frac {x(t+\varepsilon )-x(t)}{\varepsilon } }$$
+
+The distance that a random walk moves is proportional to $\sqrt{t}$, so that:
+
+$$x(t+\varepsilon )-x(t)\approx {\sqrt {\varepsilon } }$$
+
+This shows that the random walk is not differentiable, since the ratio that defines the derivative diverges with probability one.
+
+The quantity _xẋ_ is ambiguous, with two possible meanings: <p> &nbsp;&nbsp;&nbsp;&nbsp; $$[1]=x{\frac {dx}{dt} }=x(t){\frac {x(t+\varepsilon )-x(t)}{\varepsilon } }$$ <br/> &nbsp;&nbsp;&nbsp;&nbsp; $$[2]=x{\frac {dx}{dt} }=x(t+\varepsilon ){\frac {x(t+\varepsilon )-x(t)}{\varepsilon } }$$ <p> In elementary calculus, the two are only different by an amount that goes to 0 as _ε_ goes to 0. But in this case, the difference between the two is not 0:
+
+$$[2]-[1]={\frac { {\big (}x(t+\varepsilon )-x(t){\big )}^{2} }{\varepsilon } }\approx {\frac {\varepsilon }{\varepsilon } }$$
+
+Let
+
+$$f(t)={\frac { {\big (}x(t+\varepsilon )-x(t){\big )}^{2} }{\varepsilon } }$$
+
+Then _f_\(_t_\) is a rapidly fluctuating statistical quantity, whose average value is 1, i.e. a normalized "Gaussian process". The fluctuations of such a quantity can be described by a statistical Lagrangian
+
+$${\mathcal {L} }=(f(t)-1)^{2}\,,$$
+
+and the equations of motion for _f_ derived from extremizing the action _S_ corresponding to L just set it equal to 1. In physics, such a quantity is "equal to 1 as an operator identity". In mathematics, it "weakly converges to 1". In either case, it is 1 in any expectation value, or when averaged over any interval, or for all practical purpose.
+
+Defining the time order to _be_ the operator order:
+
+$$[x,{\dot {x} }]=x{\frac {dx}{dt} }-{\frac {dx}{dt} }x=1$$
+
+This is called the [Itō lemma](Itō%20lemma.md) in [stochastic calculus](stochastic%20calculus.md), and the \(euclideanized\) canonical commutation relations in physics.
+
+For a general statistical action, a similar argument shows that
+
+$$\left[x,{\frac {\partial S}{\partial {\dot {x} } } }\right]=1$$
+
+and in quantum mechanics, the extra imaginary unit in the action converts this to the canonical commutation relation,
+
+$$[x,p]=i$$
+
+### particle in curved space
+
+For a particle in curved space the [kinetic term](kinetic%20term.md) depends on the position, and the above time slicing cannot be applied, this being a manifestation of the notorious [operator ordering problem](operator%20ordering%20problem.md) in Schrödinger quantum mechanics. One may, however, solve this problem by transforming the time-sliced flat-space path integral to curved space using a multivalued coordinate transformation \([nonholonomic mapping](nonholonomic%20mapping.md) explained [here](http://www.physik.fu-berlin.de/~kleinert/b5/psfiles/pthic10.pdf)\).
+
+### measure-theoretic factors
+
+Sometimes \(e.g. a particle moving in curved space\) we also have measure-theoretic factors in the functional integral:
+
+$$\int \mu [x]e^{iS[x]}\,{\mathcal {D} }x.$$
+
+This factor is needed to restore unitarity.
+
+For instance, if
+
+$$S=\int \left({\frac {m}{2} }g_{ij}{\dot {x} }^{i}{\dot {x} }^{j}-V(x)\right)\,dt,$$
+
+then it means that each spatial slice is multiplied by the measure $\sqrt{g}$. This measure cannot be expressed as a functional multiplying the D<!-- markdown separator -->_x_ measure because they belong to entirely different classes.
+
+### expectation values and matrix elements
+
+Matrix elements of the kind $\langle x_{f}|e^{-{\frac {i}{\hbar } }{\hat {H} }(t-t')}F({\hat {x} })e^{-{\frac {i}{\hbar } }{\hat {H} }(t')}|x_{i}\rangle$ take the form
+
+$$\int _{x(0)=x_{i} }^{x(t)=x_{f} }{\mathcal {D} }[x]F(x(t'))e^{ {\frac {i}{\hbar } }\int dtL(x(t),{\dot {x} }(t))}\,.$$
+
+This generalizes to multiple operators, for example
+
+$$\langle x_{f}|e^{-{\frac {i}{\hbar } }{\hat {H} }(t-t_{1})}F_{1}({\hat {x} })e^{-{\frac {i}{\hbar } }{\hat {H} }(t_{1}-t_{2})}F_{2}({\hat {x} })e^{-{\frac {i}{\hbar } }{\hat {H} }(t_{2})}|x_{i}\rangle =\int _{x(0)=x_{i} }^{x(t)=x_{f} }{\mathcal {D} }[x]F_{1}(x(t_{1}))F_{2}(x(t_{2}))e^{ {\frac {i}{\hbar } }\int dtL(x(t),{\dot {x} }(t))}\,,$$
+
+and to the general vacuum expectation value \(in the large time limit\)
+
+$$\langle F\rangle ={\frac {\int {\mathcal {D} }[\phi ]F(\phi )e^{ {\frac {i}{\hbar } }S[\phi ]} }{\int {\mathcal {D} }[\phi ]e^{ {\frac {i}{\hbar } }S[\phi ]} } }\,.$$
+
+## Euclidean path integrals
+
+It is very common in path integrals to perform a [Wick rotation](Wick%20rotation.md) from real to imaginary times. In the setting of quantum field theory, the Wick rotation changes the geometry of space-time from Lorentzian to Euclidean; as a result, Wick-rotated path integrals are often called Euclidean path integrals.
+
+### Wick rotation and the Feynman–Kac formula
+
+If we replace $t$ by $-it$, the time-evolution operator $e^{-it{\hat {H} }/\hbar }$ is replaced by $e^{-t{\hat {H} }/\hbar }$. \(This change is known as a [Wick rotation](Wick%20rotation.md).\) If we repeat the derivation of the path-integral formula in this setting, we obtain<sup>[\[16\]](#^ref-16)</sup>
+
+$$\psi (x,t)={\frac {1}{Z} }\int _{\mathbf {x} (0)=x}e^{-S_{\mathrm {Euclidean} }(\mathbf {x} ,{\dot {\mathbf {x} } })/\hbar }\psi _{0}(\mathbf {x} (t))\,{\mathcal {D} }\mathbf {x} \,\,,$$
+
+where $S_{\mathrm {Euclidean} }$ is the Euclidean action, given by
+
+$$S_{\mathrm {Euclidean} }(\mathbf {x} ,{\dot {\mathbf {x} } })=\int \left[{\frac {m}{2} }|{\dot {\mathbf {x} } }(t)|^{2}+V(\mathbf {x} (t))\right]\,dt\,.$$
+
+Note the sign change between this and the normal action, where the potential energy term is negative. \(The term _Euclidean_ is from the context of quantum field theory, where the change from real to imaginary time changes the space-time geometry from Lorentzian to Euclidean.\)
+
+Now, the contribution of the kinetic energy to the path integral is as follows:
+
+$${\frac {1}{Z} }\int _{\mathbf {x} (0)=x}f(\mathbf {x} )e^{-{\frac {m}{2} }\int |{\dot {\mathbf {x} } }|^{2}dt}\,{\mathcal {D} }\mathbf {x} \,$$
+
+where $f(\mathbf {x} )$ includes all the remaining dependence of the integrand on the path. This integral has a rigorous mathematical interpretation as integration against the [Wiener measure](Wiener%20process.md), denoted $\mu _{x}$. The Wiener measure, constructed by [Norbert Wiener](Norbert%20Wiener.md) gives a rigorous foundation to [Einstein's mathematical model of Brownian motion](Brownian%20motion.md#Einstein's%20theory). The subscript $x$ indicates that the measure $\mu _{x}$ is supported on paths $\mathbf {x}$ with $\mathbf {x} (0)=x$.
+
+We then have a rigorous version of the Feynman path integral, known as the [Feynman–Kac formula](Feynman–Kac%20formula.md):<sup>[\[17\]](#^ref-17)</sup>
+
+$$\psi (x,t)=\int e^{-\int V(\mathbf {x} (t))\,dt/\hbar }\,\psi _{0}(\mathbf {x} (t))\,d\mu _{x}(\mathbf {x} )\,,$$
+
+where now $\psi (x,t)$ satisfies the Wick-rotated version of the Schrödinger equation,
+
+$$\hbar {\frac {\partial }{\partial t} }\psi (x,t)=-{\hat {H} }\psi (x,t)\,.$$
+
+Although the Wick-rotated Schrödinger equation does not have a direct physical meaning, interesting properties of the Schrödinger operator ${\hat {H} }$ can be extracted by studying it.<sup>[\[18\]](#^ref-18)</sup>
+
+Much of the study of quantum field theories from the path-integral perspective, in both the mathematics and physics literatures, is done in the Euclidean setting, that is, after a Wick rotation. In particular, there are various results showing that if a Euclidean field theory with suitable properties can be constructed, one can then undo the Wick rotation to recover the physical, Lorentzian theory.<sup>[\[19\]](#^ref-19)</sup> On the other hand, it is much more difficult to give a meaning to path integrals \(even Euclidean path integrals\) in quantum field theory than in quantum mechanics.<sup>[\[20\]](#^ref-20)</sup>
+
+### path integral and the partition function
+
+The path integral is just the generalization of the integral above to all quantum mechanical problems—
+
+$$Z=\int e^{\frac {i{\mathcal {S} }[\mathbf {x} ]}{\hbar } }\,{\mathcal {D} }\mathbf {x} \quad {\text{where } }{\mathcal {S} }[\mathbf {x} ]=\int _{0}^{t_{f} }L[\mathbf {x} (t),{\dot {\mathbf {x} } }(t)]\,dt$$
+
+is the [action](action%20(physics).md) of the classical problem in which one investigates the path starting at time _t_ = 0 and ending at time _t_ = t<sub>f</sub>, and ${\mathcal {D} }\mathbf {x}$ denotes the integration measure over all paths. In the classical limit, ${\mathcal {S} }[\mathbf {x} ]\gg \hbar$, the path of minimum action dominates the integral, because the phase of any path away from this fluctuates rapidly and different contributions cancel.<sup>[\[21\]](#^ref-21)</sup>
+
+The connection with [statistical mechanics](statistical%20mechanics.md) follows. Considering only paths that begin and end in the same configuration, perform the [Wick rotation](Wick%20rotation.md) _it_ = _ħβ_, i.e., make time imaginary, and integrate over all possible beginning-ending configurations. The Wick-rotated path integral—described in the previous subsection, with the ordinary action replaced by its "Euclidean" counterpart—now resembles the [partition function](partition%20function%20(statistical%20mechanics).md) of statistical mechanics defined in a [canonical ensemble](canonical%20ensemble.md) with inverse temperature proportional to imaginary time, $\frac{1}{T}=\frac{ik_{B}t}{\hbar}$. Strictly speaking, though, this is the partition function for a [statistical field theory](statistical%20field%20theory.md).
+
+Clearly, such a deep analogy between quantum mechanics and statistical mechanics cannot be dependent on the formulation. In the canonical formulation, one sees that the unitary evolution operator of a state is given by
+
+$$|\alpha ;t\rangle =e^{-{\frac {iHt}{\hbar } } }|\alpha ;0\rangle$$
+
+where the state _α_ is evolved from time _t_ = 0. If one makes a Wick rotation here, and finds the amplitude to go from any state, back to the same state in \(imaginary\) time _iβ_ is given by
+
+$$Z=\operatorname {Tr} \left[e^{-H\beta }\right]$$
+
+which is precisely the partition function of statistical mechanics for the same system at the temperature quoted earlier. One aspect of this equivalence was also known to [Erwin Schrödinger](Erwin%20Schrödinger.md) who remarked that the equation named after him looked like the [diffusion equation](diffusion%20equation.md) after Wick rotation. Note, however, that the Euclidean path integral is actually in the form of a _classical_ statistical mechanics model.
+
+## quantum field theory
+
+| [Quantum field theory](quantum%20field%20theory.md)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [![A [Feynman diagram](https://en.wikipedia.org/wiki/Feynman_diagram) showing the radiation of a [gluon](https://en.wikipedia.org/wiki/Gluon) when an [electron](https://en.wikipedia.org/wiki/Electron) and [positron](https://en.wikipedia.org/wiki/Positron) are annihilated.](../../archives/Wikimedia%20Commons/Feynman%20Diagram%20Gluon%20Radiation.svg)](Feynman%20diagram.md) <br/> _[Feynman diagram](Feynman%20diagram.md)_                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| __[History](history%20of%20quantum%20field%20theory.md)__                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| __Background__- [Field theory](field%20(physics).md) <br/> - [Electromagnetism](electromagnetism.md) <br/> - [Weak force](weak%20force.md) <br/> - [Strong force](strong%20force.md) <br/> - [Quantum mechanics](quantum%20mechanics.md) <br/> - [Special relativity](special%20relativity.md) <br/> - [General relativity](general%20relativity.md) <br/> - [Gauge theory](gauge%20theory.md) <br/> - [Yang–Mills theory](Yang–Mills%20theory.md)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| __[Symmetries](symmetry%20(physics).md)__- [Symmetry in quantum mechanics](symmetry%20in%20quantum%20mechanics.md) <br/> - [C-symmetry](charge%20conjugation.md) <br/> - [P-symmetry](parity%20(physics).md) <br/> - [T-symmetry](T-symmetry.md) <br/> - [Lorentz symmetry](Lorentz%20symmetry.md) <br/> - [Poincaré symmetry](Poincaré%20symmetry.md#Poincaré%20symmetry) <br/> - [Gauge symmetry](gauge%20symmetry%20(mathematics).md) <br/> - [Explicit symmetry breaking](explicit%20symmetry%20breaking.md) <br/> - [Spontaneous symmetry breaking](spontaneous%20symmetry%20breaking.md) <br/> - [Noether charge](Noether%20charge.md) <br/> - [Topological charge](topological%20charge.md)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| __Tools__- [Anomaly](anomaly%20(physics).md) <br/> - [Background field method](background%20field%20method.md) <br/> - [BRST quantization](BRST%20quantization.md) <br/> - [Correlation function](correlation%20function%20(quantum%20field%20theory).md) <br/> - [Crossing](crossing%20(physics).md) <br/> - [Effective action](effective%20action.md) <br/> - [Effective field theory](effective%20field%20theory.md) <br/> - [Expectation value](vacuum%20expectation%20value.md) <br/> - [Feynman diagram](Feynman%20diagram.md) <br/> - [Lattice field theory](lattice%20field%20theory.md) <br/> - [LSZ reduction formula](LSZ%20reduction%20formula.md) <br/> - [Partition function](partition%20function%20(quantum%20field%20theory).md) <br/> - [Path Integral Formulation](path%20integral%20formulation.md) <br/> - [Propagator](propagator%20(quantum%20theory).md) <br/> - [Quantization](quantization%20(physics).md) <br/> - [Regularization](regularization%20(physics).md) <br/> - [Renormalization](renormalization.md) <br/> - [Vacuum state](vacuum%20state.md) <br/> - [Wick's theorem](Wick's%20theorem.md) <br/> - [Wightman axioms](Wightman%20axioms.md) |
+| __Equations__- [Dirac equation](Dirac%20equation.md) <br/> - [Klein–Gordon equation](Klein–Gordon%20equation.md) <br/> - [Proca equations](Proca%20action.md) <br/> - [Wheeler–DeWitt equation](Wheeler–DeWitt%20equation.md) <br/> - [Bargmann–Wigner equations](Bargmann–Wigner%20equations.md) <br/> - [Schwinger-Dyson equation](Schwinger-Dyson%20equation.md) <br/> - [Renormalization group equation](renormalization%20group.md)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| __[Standard Model](Standard%20Model.md)__- [Quantum electrodynamics](quantum%20electrodynamics.md) <br/> - [Electroweak interaction](electroweak%20interaction.md) <br/> - [Quantum chromodynamics](quantum%20chromodynamics.md) <br/> - [Higgs mechanism](Higgs%20mechanism.md)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| __Incomplete theories__- [String theory](string%20theory.md) <br/> - [Supersymmetry](supersymmetry.md) <br/> - [Technicolor](technicolor%20(physics).md) <br/> - [Theory of everything](theory%20of%20everything.md) <br/> - [Quantum gravity](quantum%20gravity.md)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| <!-- - [v](https://en.wikipedia.org/wiki/Template:Quantum%20field%20theory) <br/> - [t](https://en.wikipedia.org/wiki/Template%20talk:Quantum%20field%20theory) <br/> - [e](https://en.wikipedia.org/wiki/Special:EditPage/Template%3AQuantum%20field%20theory) -->                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+
+Both the Schrödinger and Heisenberg approaches to quantum mechanics single out time and are not in the spirit of relativity. For example, the Heisenberg approach requires that scalar field operators obey the commutation relation
+
+$$[\varphi (x),\partial _{t}\varphi (y)]=i\delta ^{3}(x-y)$$
+
+for two simultaneous spatial positions _x_ and _y_, and this is not a relativistically invariant concept. The results of a calculation _are_ covariant, but the symmetry is not apparent in intermediate stages. If naive field-theory calculations did not produce infinite answers in the [continuum limit](continuum%20limit.md), this would not have been such a big problem – it would just have been a bad choice of coordinates. But the lack of symmetry means that the infinite quantities must be cut off, and the bad coordinates make it nearly impossible to cut off the theory without spoiling the symmetry. This makes it difficult to extract the physical predictions, which require a [careful limiting procedure](renormalization.md).
+
+The problem of lost symmetry also appears in classical mechanics, where the Hamiltonian formulation also superficially singles out time. The Lagrangian formulation makes the relativistic invariance apparent. In the same way, the path integral is manifestly relativistic. It reproduces the Schrödinger equation, the Heisenberg equations of motion, and the canonical commutation relations and shows that they are compatible with relativity. It extends the Heisenberg-type operator algebra to [operator product rules](operator%20product%20expansion.md), which are new relations difficult to see in the old formalism.
+
+Further, different choices of canonical variables lead to very different-seeming formulations of the same theory. The transformations between the variables can be very complicated, but the path integral makes them into reasonably straightforward changes of integration variables. For these reasons, the Feynman path integral has made earlier formalisms largely obsolete.
+
+The price of a path integral representation is that the unitarity of a theory is no longer self-evident, but it can be proven by changing variables to some canonical representation. The path integral itself also deals with larger mathematical spaces than is usual, which requires more careful mathematics, not all of which has been fully worked out. The path integral historically was not immediately accepted, partly because it took many years to incorporate fermions properly. This required physicists to invent an entirely new mathematical object – the [Grassmann variable](Grassmann%20variable.md) – which also allowed changes of variables to be done naturally, as well as allowing [constrained quantization](Faddeev–Popov%20ghost.md).
+
+The integration variables in the path integral are subtly non-commuting. The value of the product of two field operators at what looks like the same point depends on how the two points are ordered in space and time. This makes some naive identities [fail](anomaly%20(physics).md).
+
+### propagator
+
+In relativistic theories, there is both a particle and field representation for every theory. The field representation is a sum over all field configurations, and the particle representation is a sum over different particle paths.
+
+The nonrelativistic formulation is traditionally given in terms of particle paths, not fields. There, the path integral in the usual variables, with fixed boundary conditions, gives the probability amplitude for a particle to go from point _x_ to point _y_ in time _T_:
+
+$$K(x,y;T)=\langle y;T\mid x;0\rangle =\int _{x(0)=x}^{x(T)=y}e^{iS[x]}\,Dx.$$
+
+This is called the [propagator](propagator.md). To obtain the final state at _y_, apply _K_\(_x_,_y_; _T_\) to the initial state and integrate over _x_ resulting in:
+
+$$\psi _{T}(y)=\int _{x}\psi _{0}(x)K(x,y;T)\,dx=\int ^{x(T)=y}\psi _{0}(x(0))e^{iS[x]}\,Dx.$$
+
+For a spatially homogeneous system, where _K_\(_x_, _y_\) is only a function of \(_x_ − _y_\), the integral is a [convolution](convolution.md), the final state is the initial state convolved with the propagator:
+
+$$\psi _{T}=\psi _{0}*K(;T).$$
+
+For a free particle of mass _m_, the propagator can be evaluated either explicitly from the path integral or by noting that the Schrödinger equation is a diffusion equation in imaginary time, and the solution must be a normalized Gaussian:
+
+$$K(x,y;T)\propto e^{\frac {im(x-y)^{2} }{2T} }.$$
+
+Taking the Fourier transform in \(_x_ − _y_\) produces another Gaussian:
+
+$$K(p;T)=e^{\frac {iTp^{2} }{2m} },$$
+
+and in _p_-space the proportionality factor here is constant in time, as will be verified in a moment. Taking the Fourier transform in time, and extending _K_\(_p_; _T_\) to be zero for negative times, gives the following Green's function, or impuls-energy propagator:
+
+$$G_{\text{F} }(p,E)={\frac {-i}{E-{\frac { {\vec {p} }^{2} }{2m} }+i\varepsilon } },$$
+
+which is the reciprocal of the operator that annihilates the wavefunction in the Schrödinger equation, which wouldn't have come out right if the proportionality factor weren't constant in the _p_-space representation.
+
+The infinitesimal term in the denominator is a small positive number, which guarantees that the inverse Fourier transform in _E_ will be nonzero only for future times. For past times, the inverse Fourier transform contour closes toward values of _E_ where there is no singularity. This guarantees that _K_ propagates the particle into the future and is the reason for the subscript "F" on _G_. The infinitesimal term can be interpreted as an infinitesimal rotation toward imaginary time.
+
+It is also possible to reexpress the nonrelativistic time evolution in terms of propagators going toward the past, since the Schrödinger equation is time-reversible. The past propagator is the same as the future propagator except for the obvious difference that it vanishes in the future, and in the Gaussian _t_ is replaced by −<!-- markdown separator -->_t_. In this case, the interpretation is that these are the quantities to convolve the final wavefunction so as to get the initial wavefunction:
+
+$$G_{\text{B} }(p,E)={\frac {-i}{-E-{\frac {i{\vec {p} }^{2} }{2m} }+i\varepsilon } }.$$
+
+Given the nearly identical only change is the sign of _E_ and _ε_, the parameter _E_ in Green's function can either be the energy if the paths are going toward the future, or the negative of the energy if the paths are going toward the past.
+
+For a nonrelativistic theory, the time as measured along the path of a moving particle and the time as measured by an outside observer are the same. In relativity, this is no longer true. For a relativistic theory the propagator should be defined as the sum over all paths that travel between two points in a fixed proper time, as measured along the path \(these paths describe the trajectory of a particle in space and in time\):
+
+$$K(x-y,\mathrm {T} )=\int _{x(0)=x}^{x(\mathrm {T} )=y}e^{i\int _{0}^{\mathrm {T} }{\sqrt { {\dot {x} }^{2}-\alpha } }\,d\tau }.$$
+
+The integral above is not trivial to interpret because of the square root. Fortunately, there is a heuristic trick. The sum is over the relativistic arc length of the path of an oscillating quantity, and like the nonrelativistic path integral should be interpreted as slightly rotated into imaginary time. The function _K_\(_x_ − _y_, _τ_\) can be evaluated when the sum is over paths in Euclidean space:
+
+$$K(x-y,\mathrm {T} )=e^{-\alpha \mathrm {T} }\int _{x(0)=x}^{x(\mathrm {T} )=y}e^{-L}.$$
+
+This describes a sum over all paths of length Τ of the exponential of minus the length. This can be given a probability interpretation. The sum over all paths is a probability average over a path constructed step by step. The total number of steps is proportional to Τ, and each step is less likely the longer it is. By the [central limit theorem](central%20limit%20theorem.md), the result of many independent steps is a Gaussian of variance proportional to Τ:
+
+$$K(x-y,\mathrm {T} )=e^{-\alpha \mathrm {T} }e^{-{\frac {(x-y)^{2} }{\mathrm {T} } } }.$$
+
+The usual definition of the relativistic propagator only asks for the amplitude to travel from _x_ to _y_, after summing over all the possible proper times it could take:
+
+$$K(x-y)=\int _{0}^{\infty }K(x-y,\mathrm {T} )W(\mathrm {T} )\,d\mathrm {T} ,$$
+
+where _W_\(Τ\) is a weight factor, the relative importance of paths of different proper time. By the translation symmetry in proper time, this weight can only be an exponential factor and can be absorbed into the constant _α_:
+
+$$K(x-y)=\int _{0}^{\infty }e^{-{\frac {(x-y)^{2} }{\mathrm {T} } }-\alpha \mathrm {T} }\,d\mathrm {T} .$$
+
+This is the [Schwinger representation](Feynman%20diagram.md#Schwinger%20representation). Taking a Fourier transform over the variable \(_x_ − _y_\) can be done for each value of Τ separately, and because each separate Τ contribution is a Gaussian, gives whose Fourier transform is another Gaussian with reciprocal width. So in _p_-space, the propagator can be reexpressed simply:
+
+$$K(p)=\int _{0}^{\infty }e^{-\mathrm {T} p^{2}-\mathrm {T} \alpha }\,d\mathrm {T} ={\frac {1}{p^{2}+\alpha } },$$
+
+which is the Euclidean propagator for a scalar particle. Rotating _p_<sub>0</sub> to be imaginary gives the usual relativistic propagator, up to a factor of −<!-- markdown separator -->_i_ and an ambiguity, which will be clarified below:
+
+$$K(p)={\frac {i}{p_{0}^{2}-{\vec {p} }^{2}-m^{2} } }.$$
+
+This expression can be interpreted in the nonrelativistic limit, where it is convenient to split it by [partial fractions](partial%20fractions.md):
+
+$$2p_{0}K(p)={\frac {i}{p_{0}-{\sqrt { {\vec {p} }^{2}+m^{2} } } } }+{\frac {i}{p_{0}+{\sqrt { {\vec {p} }^{2}+m^{2} } } } }.$$
+
+For states where one nonrelativistic particle is present, the initial wavefunction has a frequency distribution concentrated near _p_<sub>0</sub> = _m_. When convolving with the propagator, which in _p_ space just means multiplying by the propagator, the second term is suppressed and the first term is enhanced. For frequencies near _p_<sub>0</sub> = _m_, the dominant first term has the form
+
+$$2mK_{\text{NR} }(p)={\frac {i}{(p_{0}-m)-{\frac { {\vec {p} }^{2} }{2m} } } }.$$
+
+This is the expression for the nonrelativistic [Green's function](Green's%20function.md) of a free Schrödinger particle.
+
+The second term has a nonrelativistic limit also, but this limit is concentrated on frequencies that are negative. The second pole is dominated by contributions from paths where the proper time and the coordinate time are ticking in an opposite sense, which means that the second term is to be interpreted as the antiparticle. The nonrelativistic analysis shows that with this form the antiparticle still has positive energy.
+
+The proper way to express this mathematically is that, adding a small suppression factor in proper time, the limit where _t_ → −∞ of the first term must vanish, while the _t_ → +∞ limit of the second term must vanish. In the Fourier transform, this means shifting the pole in _p_<sub>0</sub> slightly, so that the inverse Fourier transform will pick up a small decay factor in one of the time directions:
+
+$$K(p)={\frac {i}{p_{0}-{\sqrt { {\vec {p} }^{2}+m^{2} } }+i\varepsilon } }+{\frac {i}{p_{0}-{\sqrt { {\vec {p} }^{2}+m^{2} } }-i\varepsilon } }.$$
+
+Without these terms, the pole contribution could not be unambiguously evaluated when taking the inverse Fourier transform of _p_<sub>0</sub>. The terms can be recombined:
+
+$$K(p)={\frac {i}{p^{2}-m^{2}+i\varepsilon } },$$
+
+which when factored, produces opposite-sign infinitesimal terms in each factor. This is the mathematically precise form of the relativistic particle propagator, free of any ambiguities. The _ε_ term introduces a small imaginary part to the _α_ = _m_<sup>2</sup>, which in the Minkowski version is a small exponential suppression of long paths.
+
+So in the relativistic case, the Feynman path-integral representation of the propagator includes paths going backwards in time, which describe antiparticles. The paths that contribute to the relativistic propagator go forward and backwards in time, and the [interpretation](Feynman–Stueckelberg%20interpretation.md#Feynman–Stückelberg%20interpretation) of this is that the amplitude for a free particle to travel between two points includes amplitudes for the particle to fluctuate into an antiparticle, travel back in time, then forward again.
+
+Unlike the nonrelativistic case, it is impossible to produce a relativistic theory of local particle propagation without including antiparticles. All local differential operators have inverses that are nonzero outside the light cone, meaning that it is impossible to keep a particle from travelling faster than light. Such a particle cannot have a Green's function that is only nonzero in the future in a relativistically invariant theory.
+
+### functionals of fields
+
+However, the path integral formulation is also extremely important in _direct_ application to quantum field theory, in which the "paths" or histories being considered are not the motions of a single particle, but the possible time evolutions of a [field](field%20(physics).md) over all space. The action is referred to technically as a [functional](functional%20(mathematics).md) of the field: _S_\[_ϕ_\], where the field _ϕ_\(_x<sup>μ</sup>_\) is itself a function of space and time, and the square brackets are a reminder that the action depends on all the field's values everywhere, not just some particular value. _One_ such given function _ϕ_\(_x<sup>μ</sup>_\) of [spacetime](spacetime.md) is called a _field configuration_. In principle, one integrates Feynman's amplitude over the class of all possible field configurations.
+
+Much of the formal study of QFT is devoted to the properties of the resulting functional integral, and much effort \(not yet entirely successful\) has been made toward making these [functional integrals](functional%20integral.md) mathematically precise.
+
+Such a functional integral is extremely similar to the [partition function](partition%20function%20(statistical%20mechanics).md) in [statistical mechanics](statistical%20mechanics.md). Indeed, it is sometimes _called_ a [partition function](partition%20function%20(quantum%20field%20theory).md), and the two are essentially mathematically identical except for the factor of _i_ in the exponent in Feynman's postulate 3. [Analytically continuing](analytic%20continuation.md) the integral to an imaginary time variable \(called a [Wick rotation](Wick%20rotation.md)\) makes the functional integral even more like a statistical partition function and also tames some of the mathematical difficulties of working with these integrals.
+
+### expectation values
+
+In [quantum field theory](quantum%20field%20theory.md), if the [action](action%20(physics).md) is given by the [functional](functional%20(mathematics).md) S of field configurations \(which only depends locally on the fields\), then the [time-ordered](time-ordered.md#time%20ordering) [vacuum expectation value](vacuum%20expectation%20value.md) of [polynomially bounded](polynomially%20bounded.md) functional _F_, ⟨_F_⟩, is given by
+
+$$\langle F\rangle ={\frac {\int {\mathcal {D} }\varphi F[\varphi ]e^{i{\mathcal {S} }[\varphi ]} }{\int {\mathcal {D} }\varphi e^{i{\mathcal {S} }[\varphi ]} } }.$$
+
+The symbol ∫D<!-- markdown separator -->_ϕ_ here is a concise way to represent the infinite-dimensional integral over all possible field configurations on all of space-time. As stated above, the unadorned path integral in the denominator ensures proper normalization.
+
+### as a probability
+
+Strictly speaking, the only question that can be asked in physics is: _What fraction of states satisfying condition A also satisfy condition B?_ The answer to this is a number between 0 and 1, which can be interpreted as a [conditional probability](conditional%20probability.md), written as P\(_B_\|_A_\). In terms of path integration, since $P(B|A) =\frac{P(A∩B)}{P(A)}$, this means
+
+$$\operatorname {P} (B\mid A)={\frac {\sum _{F\subset A\cap B}\left|\int {\mathcal {D} }\varphi O_{\text{in} }[\varphi ]e^{i{\mathcal {S} }[\varphi ]}F[\varphi ]\right|^{2} }{\sum _{F\subset A}\left|\int {\mathcal {D} }\varphi O_{\text{in} }[\varphi ]e^{i{\mathcal {S} }[\varphi ]}F[\varphi ]\right|^{2} } },$$
+
+where the functional _O_<sub>in</sub>\[_ϕ_\] is the superposition of all incoming states that could lead to the states we are interested in. In particular, this could be a state corresponding to the state of the Universe just after the [Big Bang](Big%20Bang.md), although for actual calculation this can be simplified using heuristic methods. Since this expression is a quotient of path integrals, it is naturally normalised.
+
+### Schwinger–Dyson equations
+
+- Main article: [Schwinger–Dyson equation](Schwinger–Dyson%20equation.md)
+
+Since this formulation of quantum mechanics is analogous to classical action principle, one might expect that identities concerning the action in classical mechanics would have quantum counterparts derivable from a functional integral. This is often the case.
+
+In the language of functional analysis, we can write the [Euler–Lagrange equations](Euler–Lagrange%20equation.md) as
+
+$${\frac {\delta {\mathcal {S} }[\varphi ]}{\delta \varphi } }=0$$
+
+\(the left-hand side is a [functional derivative](functional%20derivative.md); the equation means that the action is stationary under small changes in the field configuration\). The quantum analogues of these equations are called the [Schwinger–Dyson equations](Schwinger–Dyson%20equation.md).
+
+If the [functional measure](functional%20measure.md) D<!-- markdown separator -->_ϕ_ turns out to be [translationally invariant](translational%20symmetry.md) \(we'll assume this for the rest of this article, although this does not hold for, let's say [nonlinear sigma models](nonlinear%20sigma%20model.md)\), and if we assume that after a [Wick rotation](Wick%20rotation.md)
+
+$$e^{i{\mathcal {S} }[\varphi ]},$$
+
+which now becomes
+
+$$e^{-H[\varphi ]}$$
+
+for some _H_, it goes to zero faster than a [reciprocal](multiplicative%20inverse.md) of any [polynomial](polynomial.md) for large values of _φ_, then we can [integrate by parts](integration%20by%20parts.md) \(after a Wick rotation, followed by a Wick rotation back\) to get the following Schwinger–Dyson equations for the expectation:
+
+$$\left\langle {\frac {\delta F[\varphi ]}{\delta \varphi } }\right\rangle =-i\left\langle F[\varphi ]{\frac {\delta {\mathcal {S} }[\varphi ]}{\delta \varphi } }\right\rangle$$
+
+for any polynomially-bounded functional _F_. In the [deWitt notation](DeWitt%20notation.md) this looks like<sup>[\[22\]](#^ref-22)</sup>
+
+$$\left\langle F_{,i}\right\rangle =-i\left\langle F{\mathcal {S} }_{,i}\right\rangle .$$
+
+These equations are the analog of the [on-shell](on-shell.md) EL equations. The time ordering is taken before the time derivatives inside the S<sub>,_i_</sub>.
+
+If _J_ \(called the [source field](source%20field.md)\) is an element of the [dual space](dual%20space.md) of the field configurations \(which has at least an [affine structure](affine%20structure.md) because of the assumption of the [translational invariance](translational%20invariance.md) for the functional measure\), then the [generating functional](generating%20functional.md) _Z_ of the source fields is __defined__ to be
+
+$$Z[J]=\int {\mathcal {D} }\varphi e^{i\left({\mathcal {S} }[\varphi ]+\langle J,\varphi \rangle \right)}.$$
+
+Note that
+
+$${\frac {\delta ^{n}Z}{\delta J(x_{1})\cdots \delta J(x_{n})} }[J]=i^{n}\,Z[J]\,\left\langle \varphi (x_{1})\cdots \varphi (x_{n})\right\rangle _{J},$$
+
+or
+
+$$Z^{,i_{1}\cdots i_{n} }[J]=i^{n}Z[J]\left\langle \varphi ^{i_{1} }\cdots \varphi ^{i_{n} }\right\rangle _{J},$$
+
+where
+
+$$\langle F\rangle _{J}={\frac {\int {\mathcal {D} }\varphi F[\varphi ]e^{i\left({\mathcal {S} }[\varphi ]+\langle J,\varphi \rangle \right)} }{\int {\mathcal {D} }\varphi e^{i\left({\mathcal {S} }[\varphi ]+\langle J,\varphi \rangle \right)} } }.$$
+
+Basically, if D<!-- markdown separator -->_φ_<!-- markdown separator -->_e_<sup>_i_S\[_φ_\]</sup> is viewed as a functional distribution \(this shouldn't be taken too literally as an interpretation of [QFT](quantum%20field%20theory.md), unlike its Wick-rotated [statistical mechanics](statistical%20mechanics.md) analogue, because we have [time ordering](time%20ordering.md#time%20ordering) complications here!\), then ⟨_φ_\(_x_<sub>1</sub>\) ... _φ_\(_x<sub>n</sub>_\)⟩ are its [moments](moment%20(mathematics).md), and _Z_ is its [Fourier transform](Fourier%20transform.md).
+
+If _F_ is a functional of _φ_, then for an [operator](operator%20(mathematics).md) _K_, _F_\[_K_\] is defined to be the operator that substitutes _K_ for _φ_. For example, if
+
+$$F[\varphi ]={\frac {\partial ^{k_{1} } }{\partial x_{1}^{k_{1} } } }\varphi (x_{1})\cdots {\frac {\partial ^{k_{n} } }{\partial x_{n}^{k_{n} } } }\varphi (x_{n}),$$
+
+and _G_ is a functional of _J_, then
+
+$$F\left[-i{\frac {\delta }{\delta J} }\right]G[J]=(-i)^{n}{\frac {\partial ^{k_{1} } }{\partial x_{1}^{k_{1} } } }{\frac {\delta }{\delta J(x_{1})} }\cdots {\frac {\partial ^{k_{n} } }{\partial x_{n}^{k_{n} } } }{\frac {\delta }{\delta J(x_{n})} }G[J].$$
+
+Then, from the properties of the [functional integrals](functional%20integral.md)
+
+$$\left\langle {\frac {\delta {\mathcal {S} } }{\delta \varphi (x)} }[\varphi ]+J(x)\right\rangle _{J}=0$$
+
+we get the "master" Schwinger–Dyson equation:
+
+$${\frac {\delta {\mathcal {S} } }{\delta \varphi (x)} }\left[-i{\frac {\delta }{\delta J} }\right]Z[J]+J(x)Z[J]=0,$$
+
+or
+
+$${\mathcal {S} }_{,i}[-i\partial ]Z+J_{i}Z=0.$$
+
+If the functional measure is not translationally invariant, it might be possible to express it as the product _M_\[_φ_\] D<!-- markdown separator -->_φ_, where _M_ is a functional and D<!-- markdown separator -->_φ_ is a translationally invariant measure. This is true, for example, for nonlinear sigma models where the [target space](target%20space.md) is diffeomorphic to __R__<sup>_n_</sup>. However, if the [target manifold](target%20manifold.md) is some topologically nontrivial space, the concept of a translation does not even make any sense.
+
+In that case, we would have to replace the S in this equation by another functional
+
+$${\hat {\mathcal {S} } }={\mathcal {S} }-i\ln M.$$
+
+If we expand this equation as a [Taylor series](Taylor%20series.md) about _J_ = 0, we get the entire set of Schwinger–Dyson equations.
+
+## localization
+
+The path integrals are usually thought of as being the sum of all paths through an infinite space–time. However, in [local quantum field theory](local%20quantum%20field%20theory.md) we would restrict everything to lie within a finite _causally complete_ region, for example inside a double light-cone. This gives a more mathematically precise and physically rigorous definition of quantum field theory.
+
+### Ward–Takahashi identities
+
+- Main article: [Ward–Takahashi identity](Ward–Takahashi%20identity.md)
+
+Now how about the [on shell](on%20shell.md) [Noether's theorem](Noether's%20theorem.md) for the classical case? Does it have a quantum analog as well? Yes, but with a caveat. The functional measure would have to be invariant under the one parameter group of symmetry transformation as well.
+
+Let's just assume for simplicity here that the symmetry in question is local \(not local in the sense of a [gauge symmetry](gauge%20symmetry.md), but in the sense that the transformed value of the field at any given point under an infinitesimal transformation would only depend on the field configuration over an arbitrarily small neighborhood of the point in question\). Let's also assume that the action is local in the sense that it is the integral over spacetime of a [Lagrangian](Lagrangian%20(field%20theory).md), and that
+
+$$Q[{\mathcal {L} }(x)]=\partial _{\mu }f^{\mu }(x)$$
+
+for some function _f_ where _f_ only depends locally on _φ_ \(and possibly the spacetime position\).
+
+If we don't assume any special boundary conditions, this would not be a "true" symmetry in the true sense of the term in general unless _f_ = 0 or something. Here, _Q_ is a [derivation](derivation%20(abstract%20algebra).md) that generates the one parameter group in question. We could have [antiderivations](antiderivation.md#graded%20derivations) as well, such as [BRST](BRST%20quantization.md) and [supersymmetry](supersymmetry.md).
+
+Let's also assume
+
+$$\int {\mathcal {D} }\varphi \,Q[F][\varphi ]=0$$
+
+for any polynomially-bounded functional _F_. This property is called the invariance of the measure, and this does not hold in general. \(See _[anomaly \(physics\)](anomaly%20(physics).md)_ for more details.\)
+
+Then,
+
+$$\int {\mathcal {D} }\varphi \,Q\left[Fe^{iS}\right][\varphi ]=0,$$
+
+which implies
+
+$$\langle Q[F]\rangle +i\left\langle F\int _{\partial V}f^{\mu }\,ds_{\mu }\right\rangle =0$$
+
+where the integral is over the boundary. This is the quantum analog of Noether's theorem.
+
+Now, let's assume even further that _Q_ is a local integral
+
+$$Q=\int d^{d}x\,q(x)$$
+
+where
+
+$$q(x)[\varphi (y)]=\delta ^{(d)}(X-y)Q[\varphi (y)]\,$$
+
+so that\\
+
+$$q(x)[S]=\partial _{\mu }j^{\mu }(x)\,$$
+
+where
+
+$$j^{\mu }(x)=f^{\mu }(x)-{\frac {\partial }{\partial (\partial _{\mu }\varphi )} }{\mathcal {L} }(x)Q[\varphi ]\,$$
+
+\(this is assuming the Lagrangian only depends on _φ_ and its first partial derivatives! More general Lagrangians would require a modification to this definition!\). We're not insisting that _q_\(_x_\) is the generator of a symmetry \(i.e. we are _not_ insisting upon the [gauge principle](gauge%20principle.md)\), but just that _Q_ is. And we also assume the even stronger assumption that the functional measure is locally invariant:
+
+$$\int {\mathcal {D} }\varphi \,q(x)[F][\varphi ]=0.$$
+
+Then, we would have
+
+$$\langle q(x)[F]\rangle +i\langle Fq(x)[S]\rangle =\langle q(x)[F]\rangle +i\left\langle F\partial _{\mu }j^{\mu }(x)\right\rangle =0.$$
+
+Alternatively,
+
+$$q(x)[S]\left[-i{\frac {\delta }{\delta J} }\right]Z[J]+J(x)Q[\varphi (x)]\left[-i{\frac {\delta }{\delta J} }\right]Z[J]=\partial _{\mu }j^{\mu }(x)\left[-i{\frac {\delta }{\delta J} }\right]Z[J]+J(x)Q[\varphi (x)]\left[-i{\frac {\delta }{\delta J} }\right]Z[J]=0.$$
+
+The above two equations are the Ward–Takahashi identities.
+
+Now for the case where _f_ = 0, we can forget about all the boundary conditions and locality assumptions. We'd simply have
+
+$$\left\langle Q[F]\right\rangle =0.$$
+
+Alternatively,
+
+$$\int d^{d}x\,J(x)Q[\varphi (x)]\left[-i{\frac {\delta }{\delta J} }\right]Z[J]=0.$$
+
+## caveats
+
+### need for regulators and renormalization
+
+Path integrals as they are defined here require the introduction of [regulators](regularization%20(physics).md). Changing the scale of the regulator leads to the [renormalization group](renormalization%20group.md). In fact, renormalization is the major obstruction to making path integrals well-defined.
+
+### ordering prescription
+
+Regardless of whether one works in configuration space or phase space, when equating the [operator formalism](mathematical%20formulation%20of%20quantum%20mechanics.md) and the path integral formulation, an ordering prescription is required to resolve the ambiguity in the correspondence between non-commutative operators and the commutative functions that appear in path integrands. For example, the operator ${\frac {1}{2} }({\hat {q} }{\hat {p} }+{\hat {p} }{\hat {q} })$ can be translated back as either $qp-{\frac {i\hbar }{2} }$, $qp+{\frac {i\hbar }{2} }$, or $qp$ depending on whether one chooses the ${\hat {q} }{\hat {p} }$, ${\hat {p} }{\hat {q} }$, or Weyl ordering prescription; conversely, $qp$ can be translated to either ${\hat {q} }{\hat {p} }$, ${\hat {p} }{\hat {q} }$, or ${\frac {1}{2} }({\hat {q} }{\hat {p} }+{\hat {p} }{\hat {q} })$ for the same respective choice of ordering prescription.
+
+## path integral in quantum-mechanical interpretation
+
+In one [interpretation of quantum mechanics](interpretation%20of%20quantum%20mechanics.md), the "sum over histories" interpretation, the path integral is taken to be fundamental, and reality is viewed as a single indistinguishable "class" of paths that all share the same events.<sup>[\[23\]](#^ref-23)</sup><sup>\[_[failed verification](https://en.wikipedia.org/wiki/Wikipedia:Verifiability)_\]</sup> For this interpretation, it is crucial to understand what exactly an event is. The sum-over-histories method gives identical results to canonical quantum mechanics, and Sinha and Sorkin<sup>[\[24\]](#^ref-24)</sup> claim the interpretation explains the [Einstein–Podolsky–Rosen paradox](Einstein–Podolsky–Rosen%20paradox.md) without resorting to [nonlocality](action%20at%20a%20distance.md).
+
+Some<sup>\[_[who?](https://en.wikipedia.org/wiki/Wikipedia:Manual%20of%20Style/Words%20to%20watch#Unsupported_attributions)_\]</sup> advocates of interpretations of quantum mechanics emphasizing [decoherence](decoherence.md) have attempted to make more rigorous the notion of extracting a classical-like "coarse-grained" history from the space of all possible histories.
+
+## quantum gravity
+
+Whereas in quantum mechanics the path integral formulation is fully equivalent to other formulations, it may be that it can be extended to quantum gravity, which would make it different from the [Hilbert space](Hilbert%20space.md) model. Feynman had some success in this direction, and his work has been extended by [Hawking](Stephen%20Hawking.md) and others.<sup>[\[25\]](#^ref-25)</sup> Approaches that use this method include [causal dynamical triangulations](causal%20dynamical%20triangulation.md) and [spinfoam](spinfoam.md) models.
+
+## quantum tunneling
+
+[Quantum tunnelling](quantum%20tunnelling.md) can be modeled by using the path integral formation to determine the action of the trajectory through a potential barrier. Using the [WKB approximation](WKB%20approximation.md), the tunneling rate \(Γ\) can be determined to be of the form
+
+$$\Gamma =A_{\mathrm {o} }\exp \left(-{\frac {S_{\mathrm {eff} } }{\hbar } }\right)$$
+
+with the effective action _S_<sub>eff</sub> and pre-exponential factor _A_<sub>o</sub>. This form is specifically useful in a [dissipative system](dissipative%20system.md), in which the systems and surroundings must be modeled together. Using the [Langevin equation](Langevin%20equation.md) to model [Brownian motion](Brownian%20motion.md), the path integral formation can be used to determine an effective action and pre-exponential model to see the effect of dissipation on tunnelling.<sup>[\[26\]](#^ref-26)</sup> From this model, tunneling rates of macroscopic systems \(at finite temperatures\) can be predicted.
+
+## quantum computing
+
+The path-integral formulation has also found uses in the [analysis](program%20analysis.md) of [quantum programs](quantum%20programming.md) and their [formal verification](formal%20verification.md). Specifically, a [discrete](discrete%20mathematics.md) version of the path-integral dubbed _path-sum_ or _sum-over-paths_<sup>[\[27\]](#^ref-27)</sup>, can be used to perform [symbolic execution](symbolic%20execution.md) of [quantum circuits](quantum%20circuit.md), particularly in the context of [equivalence checking](formal%20equivalence%20checking.md). Path-sums describe [unitary maps](unitary%20matrix.md) over [qubit](qubit.md) spaces of finite dimension $2^{n}$ by describing the result of the application of the unitary on a symbolic basis state $|x_{1}\cdots x_{n}\rangle$ of the qubits with $x_{1},\ldots ,x_{n}$ being [boolean](Boolean%20data%20type.md) variables. For instance, the [Clifford group](Clifford%20group.md) operations can be described by the following path-sums:
+
+| [Quantum gate](quantum%20logic%20gate.md) | Path-sum interpretation                                                                                                |
+| ----------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| $$X_{i}$$                                 | $$\vert x_{1}\cdots x_{i-1}(\lnot x_{i})x_{i+1}\cdots x_{n}\rangle$$                                                   |
+| $$T_{i}$$                                 | $$(e)^{\frac {\pi x_{i} }{4} }\vert x_{1}\cdots x_{n}\rangle$$                                                         |
+| $$\mathrm {CNOT} _{i,j}$$                 | $$\vert x_{1}\cdots x_{j-1}(x_{i}\oplus x_{j})x_{j+1}\cdots x_{n}\rangle$$                                             |
+| $$H_{i}$$                                 | $$\sum _{y\in \{0,1\} }{\frac {1}{\sqrt {2} } }e^{\pi {x_{i}y} }\vert x_{1}\cdots x_{i-1}yx_{i+1}\cdots x_{n}\rangle$$ |
+
+In the table above, $\lnot x$ represents the [logical negation](negation.md) of $x$ and $x\oplus y$ is the [XOR](exclusive%20or.md) operation between $x$ and $y$. In path-sums, the [Hadamard](hadamard%20matrix.md) gate is the source of branching in the paths.
+
+Path-sums have received significant interest in program analysis for their amenability to [symbolic approaches](symbolic%20execution.md) and, therefore, to [formal proof systems](proof%20calculus.md) based on [rewriting](rewriting.md) that could be [automated](automated%20verification.md).<sup>[\[27\]](#^ref-27)</sup> Multiple variants of path-sums are under investigation for applications in verification with connections made to other verification techniques such as [diagrammatic](diagrammatic%20reasoning.md) approaches including the [ZX and ZH calculi](ZX-calculus.md)<sup>[\[28\]](#^ref-28)</sup>. One variant, the _hybrid path-sum_, also combines path-sums with the [many-worlds](many-worlds%20interpretation.md) interpretation of quantum mechanics, specifically, the [universal wavefunction](universal%20wave%20function.md), to generalize path-sum techniques to hybrid quantum computing, which involves combining both quantum and classical computation in the same program.<sup>[\[29\]](#^ref-29)</sup>
+
+## see also
+
+- [Static forces and virtual-particle exchange](static%20forces%20and%20virtual-particle%20exchange.md)
+- [Feynman checkerboard](Feynman%20checkerboard.md)
+- [Berezin integral](Berezin%20integral.md)
+- [Propagators](propagator.md)
+- [Wheeler–Feynman absorber theory](Wheeler–Feynman%20absorber%20theory.md)
+- [Feynman–Kac formula](Feynman–Kac%20formula.md)
+- [Path integrals in polymer science](path%20integrals%20in%20polymer%20science.md)
+
+## remarks
+
+## references
+
+1. [Weinberg 2002](#CITEREFWeinberg2002), Chapter 9. <a id="^ref-1"></a>^ref-1
+2. <a id="CITEREFVinokur2015"></a> Vinokur, V. M. \(2015-02-27\). ["Dynamic Vortex Mott Transition"](https://web.archive.org/web/20170812032227/http://www.gc.cuny.edu/CUNY_GC/media/CUNY-Graduate-Center/PDF/ITS/Vinokur_Spring2015.pdf) \(PDF\). Archived from [the original](https://www.gc.cuny.edu/CUNY_GC/media/CUNY-Graduate-Center/PDF/ITS/Vinokur_Spring2015.pdf) \(PDF\) on 2017-08-12. Retrieved 2018-12-15. <a id="^ref-2"></a>^ref-2
+3. <a id="CITEREFHari Dass2020"></a> Hari Dass, N. D. \(2020-03-28\). "Dirac and the Path Integral". [arXiv](ArXiv%20(identifier).md):[2003.12683](https://arxiv.org/abs/2003.12683) \[[physics.hist-ph](https://arxiv.org/archive/physics.hist-ph)\]. <a id="^ref-3"></a>^ref-3
+4. <a id="CITEREFWood2023"></a> Wood, Charlie \(2023-02-06\). ["How Our Reality May Be a Sum of All Possible Realities"](https://www.quantamagazine.org/how-our-reality-may-be-a-sum-of-all-possible-realities-20230206/). _[Quanta Magazine](Quanta%20Magazine.md)_. Retrieved 2024-06-21. <a id="^ref-4"></a>^ref-4
+5. <a id="CITEREFWolfram2020"></a> [Wolfram, Stephen](Stephen%20Wolfram.md) \(2020-04-14\). ["Finally We May Have a Path to the Fundamental Theory of Physics… and It's Beautiful"](https://writings.stephenwolfram.com/2020/04/finally-we-may-have-a-path-to-the-fundamental-theory-of-physics-and-its-beautiful/). _Stephen Wolfram Writings_. Retrieved 2024-06-21. <a id="^ref-5"></a>^ref-5
+6. [Chaichian & Demichev 2001](#CITEREFChaichianDemichev2001). <a id="^ref-6"></a>^ref-6
+7. [Dirac 1933](#CITEREFDirac1933). <a id="^ref-7"></a>^ref-7
+8. [Van Vleck 1928](#CITEREFVan%20Vleck1928). <a id="^ref-8"></a>^ref-8
+9. <a id="CITEREFBernstein2010"></a> Bernstein, Jeremy \(2010-04-20\). "Another Dirac". [arXiv](ArXiv%20(identifier).md):[1004.3578](https://arxiv.org/abs/1004.3578) \[[physics.hist-ph](https://arxiv.org/archive/physics.hist-ph)\]. <a id="^ref-9"></a>^ref-9
+10. [Feynman 1948](#CITEREFFeynman1948). <a id="^ref-10"></a>^ref-10
+11. [Dirac 1933](#CITEREFDirac1933) <a id="^ref-11"></a>^ref-11
+12. <a id="CITEREFKlauber2013"></a> Klauber, Robert D. \(2013\). _Student friendly quantum field theory: basic principles and quantum electrodynamics_ \(Second ed.\). Fairfield, Iowa: Sandtrove Press. [ISBN](ISBN%20(identifier).md) [978-0-9845139-4-9](https://en.wikipedia.org/wiki/Special:BookSources/978-0-9845139-4-9). <a id="^ref-12"></a>^ref-12
+13. <a id="CITEREFHilke"></a> Hilke, M. ["Path Integral"](http://hitoshi.berkeley.edu/221A/pathintegral.pdf) \(PDF\). _221A Lecture Notes_. <a id="^ref-13"></a>^ref-13
+14. [Duru & Kleinert 1979](#CITEREFDuruKleinert1979), Chapter 13. <a id="^ref-14"></a>^ref-14
+15. [Feynman 1948](#CITEREFFeynman1948) <a id="^ref-15"></a>^ref-15
+16. [Hall 2013](#CITEREFHall2013), Section 20.3. <a id="^ref-16"></a>^ref-16
+17. [Hall 2013](#CITEREFHall2013), Theorem 20.3. <a id="^ref-17"></a>^ref-17
+18. [Simon 1979](#CITEREFSimon1979) <a id="^ref-18"></a>^ref-18
+19. [Glimm & Jaffe 1981](#CITEREFGlimmJaffe1981), Chapter 19. <a id="^ref-19"></a>^ref-19
+20. [Hall 2013](#CITEREFHall2013), Section 20.6. <a id="^ref-20"></a>^ref-20
+21. [Feynman, Hibbs & Styer 2010](#CITEREFFeynmanHibbsStyer2010), pp. 29–31 <a id="^ref-21"></a>^ref-21
+22. <a id="CITEREFZinn-Justin2009"></a> Zinn-Justin, Jean \(2009\). ["Path integral"](https://doi.org/10.4249%2Fscholarpedia.8674). _Scholarpedia_. __4__ \(2\). 8674. [Bibcode](bibcode%20(identifier).md):[2009SchpJ...4.8674Z](https://ui.adsabs.harvard.edu/abs/2009SchpJ...4.8674Z). [doi](doi%20(identifier).md):[10.4249/scholarpedia.8674](https://doi.org/10.4249%2Fscholarpedia.8674). <a id="^ref-22"></a>^ref-22
+23. <a id="CITEREFPössel2006"></a> Pössel, Markus \(2006\). ["The sum over all possibilities: The path integral formulation of quantum theory"](https://www.einstein-online.info/en/spotlight/path_integrals/). _Einstein Online_. 02-1020. Retrieved 2021-07-16. <a id="^ref-23"></a>^ref-23
+24. [Sinha & Sorkin 1991](#CITEREFSinhaSorkin1991) <a id="^ref-24"></a>^ref-24
+25. [Gell-Mann 1993](#CITEREFGell-Mann1993) <a id="^ref-25"></a>^ref-25
+26. [Caldeira & Leggett 1983](#CITEREFCaldeiraLeggett1983) <a id="^ref-26"></a>^ref-26
+27. <a id="CITEREFAmy2019"></a> Amy, Matthew \(2019-01-31\). "Towards Large-scale Functional Verification of Universal Quantum Circuits". _Electronic Proceedings in Theoretical Computer Science_. __287__: 1–21. [arXiv](ArXiv%20(identifier).md):[1805.06908](https://arxiv.org/abs/1805.06908). [doi](doi%20(identifier).md):[10.4204/EPTCS.287.1](https://doi.org/10.4204%2FEPTCS.287.1). [ISSN](ISSN%20(identifier).md) [2075-2180](https://search.worldcat.org/issn/2075-2180). <a id="^ref-27"></a>^ref-27
+28. <a id="CITEREFVilmart2022"></a> Vilmart, Renaud \(2022-11-07\). "Completeness of Sum-Over-Paths for Toffoli-Hadamard and the Dyadic Fragments of Quantum Computation". [arXiv](ArXiv%20(identifier).md):[2205.02600](https://arxiv.org/abs/2205.02600) \[[quant-ph](https://arxiv.org/archive/quant-ph)\]. <a id="^ref-28"></a>^ref-28
+29. <a id="CITEREFCharetonIssaNguyenBlanco2026"></a> Chareton, Christophe; Issa, Jad; Nguyen, Mathieu; Blanco, Nicolas; Bardin, Sébastien \(2026-06-08\). ["Hybrid Path-Sums for Hybrid Quantum Programs"](https://dl.acm.org/doi/10.1145/3808314). _Proceedings of the ACM on Programming Languages_. __10__ \(PLDI\). New York, NY, USA: Association for Computing Machinery: 236:1687–236:1713. [doi](doi%20(identifier).md):[10.1145/3808314](https://doi.org/10.1145%2F3808314). <a id="^ref-29"></a>^ref-29
+
+## bibliography
+
+- <a id="CITEREFAhmad1971"></a> [Ahmad, Ishfaq](Ishfaq%20Ahmad.md) \(1971\). _Mathematical Integrals in Quantum Nature_. The Nucleus. pp. 189–209.
+- <a id="CITEREFAlbeverioHoegh-KrohnMazzucchi2008"></a> [Albeverio, S.](Sergio%20Albeverio.md); [Hoegh-Krohn, R.](Raphael%20Høegh-Krohn.md) & Mazzucchi, S \(2008\). _Mathematical Theory of Feynman Path Integrals_. Lecture Notes in Mathematics 523. Springer-Verlag. [ISBN](ISBN%20(identifier).md) [9783540769569](https://en.wikipedia.org/wiki/Special:BookSources/9783540769569).
+- <a id="CITEREFCaldeiraLeggett1983"></a> [Caldeira, A. O.](Amir%20Caldeira.md); [Leggett, A. J.](Anthony%20James%20Leggett.md) \(1983\). "Quantum tunnelling in a dissipative system". _Annals of Physics_. __149__ \(2\): 374–456. [Bibcode](bibcode%20(identifier).md):[1983AnPhy.149..374C](https://ui.adsabs.harvard.edu/abs/1983AnPhy.149..374C). [doi](doi%20(identifier).md):[10.1016/0003-4916\(83\)90202-6](https://doi.org/10.1016%2F0003-4916%2883%2990202-6).
+- <a id="CITEREFCartierDeWitt-Morette1995"></a> [Cartier, P. C.](Pierre%20Cartier%20(mathematician).md); DeWitt-Morette, Cécile \(1995\). "A new perspective on Functional Integration". _Journal of Mathematical Physics_. __36__ \(5\): 2137–2340. [arXiv](ArXiv%20(identifier).md):[funct-an/9602005](https://arxiv.org/abs/funct-an/9602005). [Bibcode](bibcode%20(identifier).md):[1995JMP....36.2237C](https://ui.adsabs.harvard.edu/abs/1995JMP....36.2237C). [doi](doi%20(identifier).md):[10.1063/1.531039](https://doi.org/10.1063%2F1.531039). [S2CID](S2CID%20(identifier).md#S2CID) [119581543](https://api.semanticscholar.org/CorpusID:119581543).
+- <a id="CITEREFChaichianDemichev2001"></a> Chaichian, M.; Demichev, A. P. \(2001\). ["Introduction"](https://books.google.com/books?id=-XDP-8mrmQYC&pg=PA1). _Path Integrals in Physics Volume 1: Stochastic Process & Quantum Mechanics_. Taylor & Francis. p. 1ff. [ISBN](ISBN%20(identifier).md) [978-0-7503-0801-4](https://en.wikipedia.org/wiki/Special:BookSources/978-0-7503-0801-4).
+- <a id="CITEREFDeWitt-Morette1972"></a> [DeWitt-Morette, C.](Cécile%20DeWitt-Morette.md) \(1972\). "Feynman's path integral: Definition without limiting procedure". _Communications in Mathematical Physics_. __28__ \(1\): 47–67. [Bibcode](bibcode%20(identifier).md):[1972CMaPh..28...47D](https://ui.adsabs.harvard.edu/abs/1972CMaPh..28...47D). [doi](doi%20(identifier).md):[10.1007/BF02099371](https://doi.org/10.1007%2FBF02099371). [MR](MR%20(identifier).md) [0309456](https://mathscinet.ams.org/mathscinet-getitem?mr=0309456). [S2CID](S2CID%20(identifier).md#S2CID) [119669964](https://api.semanticscholar.org/CorpusID:119669964).
+- <a id="CITEREFDirac1933"></a> [Dirac, Paul A. M.](Paul%20Dirac.md) \(1933\). ["The Lagrangian in Quantum Mechanics"](http://www.hep.anl.gov/czachos/soysoy/Dirac33.pdf) \(PDF\). _Physikalische Zeitschrift der Sowjetunion_. __3__: 64–72.
+- <a id="CITEREFDuruKleinert1979"></a> [Duru, İ. H.](İsmail%20Hakkı%20Duru.md); [Kleinert, Hagen](Hagen%20Kleinert.md) \(1979\). ["Solution of the path integral for the H-atom"](https://web.archive.org/web/20080309160840/http://www.physik.fu-berlin.de/~kleinert/kleiner_re65/65.pdf) \(PDF\). _Physics Letters_. __84B__ \(2\): 185–188. [Bibcode](bibcode%20(identifier).md):[1979PhLB...84..185D](https://ui.adsabs.harvard.edu/abs/1979PhLB...84..185D). [doi](doi%20(identifier).md):[10.1016/0370-2693\(79\)90280-6](https://doi.org/10.1016%2F0370-2693%2879%2990280-6). Archived from [the original](http://www.physik.fu-berlin.de/~kleinert/kleiner_re65/65.pdf) \(PDF\) on 2008-03-09. Retrieved 2007-11-25.
+- <a id="CITEREFEtingof2002"></a> [Etingof, P.](Pavel%20Etingof.md) \(2002\). ["Geometry and Quantum Field Theory"](http://ocw.mit.edu/courses/mathematics/18-238-geometry-and-quantum-field-theory-fall-2002/index.htm). MIT OpenCourseWare. This course, designed for mathematicians, is a rigorous introduction to perturbative quantum field theory, using the language of functional integrals.
+- <a id="CITEREFFeynman2005"></a> [Feynman, R. P.](Richard%20Feynman.md) \(2005\) \[1942/1948\]. Brown, L. M. \(ed.\). [_Feynman's Thesis — A New Approach to Quantum Theory_](https://cds.cern.ch/record/910611). World Scientific. [Bibcode](bibcode%20(identifier).md):[2005ftna.book.....B](https://ui.adsabs.harvard.edu/abs/2005ftna.book.....B). [doi](doi%20(identifier).md):[10.1142/5852](https://doi.org/10.1142%2F5852). [ISBN](ISBN%20(identifier).md) [978-981-256-366-8](https://en.wikipedia.org/wiki/Special:BookSources/978-981-256-366-8). The 1942 thesis. Also includes Dirac's 1933 paper and Feynman's 1948 publication.
+- <a id="CITEREFFeynman1948"></a> Feynman, R. P. \(1948\). ["Space-Time Approach to Non-Relativistic Quantum Mechanics"](https://authors.library.caltech.edu/47756/1/FEYrmp48.pdf) \(PDF\). _Reviews of Modern Physics_. __20__ \(2\): 367–387. [Bibcode](bibcode%20(identifier).md):[1948RvMP...20..367F](https://ui.adsabs.harvard.edu/abs/1948RvMP...20..367F). [doi](doi%20(identifier).md):[10.1103/RevModPhys.20.367](https://doi.org/10.1103%2FRevModPhys.20.367).
+- <a id="CITEREFFeynmanHibbs1965"></a> Feynman, R. P.; Hibbs, A. R. \(1965\). [_Quantum Mechanics and Path Integrals_](https://archive.org/details/quantummechanics0000feyn). New York: McGraw-Hill. [ISBN](ISBN%20(identifier).md) [978-0-07-020650-2](https://en.wikipedia.org/wiki/Special:BookSources/978-0-07-020650-2). The historical reference written by the inventor of the path integral formulation himself and one of his students.
+- <a id="CITEREFFeynmanHibbsStyer2010"></a> Feynman, R. P.; [Hibbs, A. R.](Albert%20Hibbs.md); [Styer, D. F.](Daniel%20F.%20Styer.md) \(2010\). _Quantum Mechanics and Path Integrals_. Mineola, NY: Dover Publications. pp. 29–31. [ISBN](ISBN%20(identifier).md) [978-0-486-47722-0](https://en.wikipedia.org/wiki/Special:BookSources/978-0-486-47722-0).
+- <a id="CITEREFGell-Mann1993"></a> [Gell-Mann, Murray](Murray%20Gell-Mann.md) \(1993\). "Most of the Good Stuff". In Brown, Laurie M.; Rigden, John S. \(eds.\). _Memories Of Richard Feynman_. American Institute of Physics. [ISBN](ISBN%20(identifier).md) [978-0883188705](https://en.wikipedia.org/wiki/Special:BookSources/978-0883188705).
+- <a id="CITEREFGlimmJaffe1981"></a> Glimm, J. & Jaffe, A. \(1981\). [_Quantum Physics: A Functional Integral Point of View_](https://archive.org/details/quantumphysicsfu0000glim). New York: Springer-Verlag. [ISBN](ISBN%20(identifier).md) [978-0-387-90562-4](https://en.wikipedia.org/wiki/Special:BookSources/978-0-387-90562-4).
+- <a id="CITEREFGroscheSteiner1998"></a> Grosche, Christian & Steiner, Frank \(1998\). _Handbook of Feynman Path Integrals_. Springer Tracts in Modern Physics 145. Springer-Verlag. [ISBN](ISBN%20(identifier).md) [978-3-540-57135-3](https://en.wikipedia.org/wiki/Special:BookSources/978-3-540-57135-3).
+- <a id="CITEREFGrosche1992"></a> Grosche, Christian \(1992\). "An Introduction into the Feynman Path Integral". [arXiv](ArXiv%20(identifier).md):[hep-th/9302097](https://arxiv.org/abs/hep-th/9302097).
+- <a id="CITEREFHall2013"></a> Hall, Brian C. \(2013\). _Quantum Theory for Mathematicians_. Graduate Texts in Mathematics. Vol. 267. Springer. [Bibcode](bibcode%20(identifier).md):[2013qtm..book.....H](https://ui.adsabs.harvard.edu/abs/2013qtm..book.....H). [doi](doi%20(identifier).md):[10.1007/978-1-4614-7116-5](https://doi.org/10.1007%2F978-1-4614-7116-5). [ISBN](ISBN%20(identifier).md) [978-1-4614-7115-8](https://en.wikipedia.org/wiki/Special:BookSources/978-1-4614-7115-8). [S2CID](S2CID%20(identifier).md#S2CID) [117837329](https://api.semanticscholar.org/CorpusID:117837329).
+- <a id="CITEREFInomataKuratsujiGerry1992"></a> Inomata, Akira; Kuratsuji, Hiroshi; Gerry, Christopher \(1992\). _Path Integrals and Coherent States of SU\(2\) and SU\(1,1\)_. Singapore: World Scientific. [ISBN](ISBN%20(identifier).md) [978-981-02-0656-7](https://en.wikipedia.org/wiki/Special:BookSources/978-981-02-0656-7).
+- <a id="CITEREFJankePelster2008"></a> Janke, W.; Pelster, Axel, eds. \(2008\). _Path Integrals--New Trends And Perspectives_. Proceedings Of The 9Th International Conference. World Scientific Publishing. [ISBN](ISBN%20(identifier).md) [978-981-283-726-4](https://en.wikipedia.org/wiki/Special:BookSources/978-981-283-726-4).
+- <a id="CITEREFJohnsonLapidus2002"></a> Johnson, Gerald W.; Lapidus, Michel L. \(2002\). _The Feynman Integral and Feynman's Operational Calculus_. Oxford Mathematical Monographs. Oxford University Press. [ISBN](ISBN%20(identifier).md) [978-0-19-851572-2](https://en.wikipedia.org/wiki/Special:BookSources/978-0-19-851572-2).
+- <a id="CITEREFKlauder2010"></a> [Klauder, John R.](John%20R.%20Klauder.md) \(2010\). _A Modern Approach to Functional Integration_. New York: Birkhäuser. [ISBN](ISBN%20(identifier).md) [978-0-8176-4790-2](https://en.wikipedia.org/wiki/Special:BookSources/978-0-8176-4790-2).
+- <a id="CITEREFKleinert2004"></a> [Kleinert, Hagen](Hagen%20Kleinert.md) \(2004\). [_Path Integrals in Quantum Mechanics, Statistics, Polymer Physics, and Financial Markets_](https://web.archive.org/web/20080615134934/http://www.physik.fu-berlin.de/~kleinert/b5) \(4th ed.\). Singapore: World Scientific. [ISBN](ISBN%20(identifier).md) [978-981-238-107-1](https://en.wikipedia.org/wiki/Special:BookSources/978-981-238-107-1). Archived from [the original](http://www.physik.fu-berlin.de/~kleinert/b5) on 2008-06-15. Retrieved 2005-02-16.
+- <a id="CITEREFMacKenzie2000"></a> MacKenzie, Richard \(2000\). "Path Integral Methods and Applications". [arXiv](ArXiv%20(identifier).md):[quant-ph/0004090](https://arxiv.org/abs/quant-ph/0004090).
+- <a id="CITEREFMazzucchi2009"></a> Mazzucchi, S. \(2009\). _Mathematical Feynman path integrals and their applications_. World Scientific. [ISBN](ISBN%20(identifier).md) [978-981-283-690-8](https://en.wikipedia.org/wiki/Special:BookSources/978-981-283-690-8).
+- <a id="CITEREFMüller-Kirsten2012"></a> Müller-Kirsten, Harald J. W. \(2012\). _Introduction to Quantum Mechanics: Schrödinger Equation and Path Integral_ \(2nd ed.\). Singapore: World Scientific.
+- <a id="CITEREFRivers1987"></a> Rivers, R. J. \(1987\). _Path Integrals Methods in Quantum Field Theory_. Cambridge University Press. [ISBN](ISBN%20(identifier).md) [978-0-521-25979-8](https://en.wikipedia.org/wiki/Special:BookSources/978-0-521-25979-8).
+- <a id="CITEREFRyder1985"></a> Ryder, Lewis H. \(1985\). [_Quantum Field Theory_](https://archive.org/details/quantumfieldtheo0000ryde). Cambridge University Press. [ISBN](ISBN%20(identifier).md) [978-0-521-33859-2](https://en.wikipedia.org/wiki/Special:BookSources/978-0-521-33859-2). Highly readable textbook; introduction to relativistic QFT for particle physics.
+- <a id="CITEREFSchulman1981"></a> Schulman, L S. \(1981\). _Techniques & Applications of Path Integration_. New York: John Wiley & Sons. [ISBN](ISBN%20(identifier).md) [978-0-486-44528-1](https://en.wikipedia.org/wiki/Special:BookSources/978-0-486-44528-1).
+- <a id="CITEREFSimon1979"></a> [Simon, B.](Barry%20Simon.md) \(1979\). _Functional Integration and Quantum Physics_. New York: Academic Press. [ISBN](ISBN%20(identifier).md) [978-0-8218-6941-3](https://en.wikipedia.org/wiki/Special:BookSources/978-0-8218-6941-3).
+- <a id="CITEREFSinhaSorkin1991"></a> Sinha, Sukanya; Sorkin, Rafael D. \(1991\). ["A Sum-over-histories Account of an EPR\(B\) Experiment"](https://www.perimeterinstitute.ca/personal/rsorkin/some.papers/63.eprb.pdf) \(PDF\). _Foundations of Physics Letters_. __4__ \(4\): 303–335. [Bibcode](bibcode%20(identifier).md):[1991FoPhL...4..303S](https://ui.adsabs.harvard.edu/abs/1991FoPhL...4..303S). [doi](doi%20(identifier).md):[10.1007/BF00665892](https://doi.org/10.1007%2FBF00665892). [S2CID](S2CID%20(identifier).md#S2CID) [121370426](https://api.semanticscholar.org/CorpusID:121370426).
+- <a id="CITEREFTomé1998"></a> [Tomé, W. A.](Wolfgang%20A.%20Tomé.md) \(1998\). _Path Integrals on Group Manifolds_. Singapore: World Scientific. [ISBN](ISBN%20(identifier).md) [978-981-02-3355-6](https://en.wikipedia.org/wiki/Special:BookSources/978-981-02-3355-6). Discusses the definition of Path Integrals for systems whose kinematical variables are the generators of a real separable, connected Lie group with irreducible, square integrable representations.
+- <a id="CITEREFVan Vleck1928"></a> [Van Vleck, J. H.](John%20Hasbrouck%20Van%20Vleck.md) \(1928\). ["The correspondence principle in the statistical interpretation of quantum mechanics"](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1085402). _Proceedings of the National Academy of Sciences of the United States of America_. __14__ \(2\): 178–188. [Bibcode](bibcode%20(identifier).md):[1928PNAS...14..178V](https://ui.adsabs.harvard.edu/abs/1928PNAS...14..178V). [doi](doi%20(identifier).md):[10.1073/pnas.14.2.178](https://doi.org/10.1073%2Fpnas.14.2.178). [PMC](PMC%20(identifier).md#PMCID) [1085402](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1085402). [PMID](PMID%20(identifier).md#PubMed%20identifier) [16577107](https://pubmed.ncbi.nlm.nih.gov/16577107).
+- <a id="CITEREFWeinberg2002"></a> [Weinberg, S.](Steven%20Weinberg.md) \(2002\) \[1995\], [_Foundations_](https://archive.org/details/quantumtheoryoff00stev), The Quantum Theory of Fields, vol. 1, Cambridge: [Cambridge University Press](Cambridge%20University%20Press.md), [ISBN](ISBN%20(identifier).md) [978-0-521-55001-7](https://en.wikipedia.org/wiki/Special:BookSources/978-0-521-55001-7)
+- <a id="CITEREFZee2010"></a> [Zee, A.](Anthony%20Zee.md) \(2010-02-21\). [_Quantum Field Theory in a Nutshell_](https://archive.org/details/isbn_9780691140346) \(Second ed.\). Princeton University Press. [ISBN](ISBN%20(identifier).md) [978-0-691-14034-6](https://en.wikipedia.org/wiki/Special:BookSources/978-0-691-14034-6). A great introduction to Path Integrals \(Chapter 1\) and QFT in general.
+- <a id="CITEREFZinn Justin2004"></a> [Zinn Justin, J.](Jean%20Zinn-Justin.md) \(2004\). _Path Integrals in Quantum Mechanics_. Oxford University Press. [ISBN](ISBN%20(identifier).md) [978-0-19-856674-8](https://en.wikipedia.org/wiki/Special:BookSources/978-0-19-856674-8).
+- <a id="CITEREFDeshmukh2023"></a> [Deshmukh, P. C.](Pranawachandra%20Deshmukh.md) \(2023\). _Quantum Mechanics Formalism, Methodologies, and Applications_. Cambridge University Press. [ISBN](ISBN%20(identifier).md) [978-1316512258](https://en.wikipedia.org/wiki/Special:BookSources/978-1316512258).
+
+## external links
+
+> ![SVG version of the Wikiquote logo.](../../archives/Wikimedia%20Commons/Wikiquote-logo.svg) Wikiquote has quotations related to ___[Path-integral formulation](https://en.wikiquote.org/wiki/Special%3ASearch/Path-integral%20formulation)___.
+
+- [Path integral on Scholarpedia](http://www.scholarpedia.org/article/Path_integral)
+- [Path Integrals in Quantum Theories: A Pedagogic 1st Step](http://www.quantumfieldtheory.info/website_Chap18.pdf)
+- [A mathematically rigorous approach to perturbative path integrals](https://www.youtube.com/watch?v=QTjmLBzAdAA) via animation on YouTube
+- [Feynman's Infinite Quantum Paths](https://www.youtube.com/watch?v=vSFRN-ymfgE) \| PBS Space Time. July 7, 2017. \(Video, 15:48\)
+
+|                                                                      | <!-- - [v](https://en.wikipedia.org/wiki/Template:Quantum%20mechanics%20topics) <br/> - [t](https://en.wikipedia.org/wiki/Template%20talk:Quantum%20mechanics%20topics) <br/> - [e](https://en.wikipedia.org/wiki/Special:EditPage/Template%3AQuantum%20mechanics%20topics) --> [Quantum mechanics](quantum%20mechanics.md)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| -------------------------------------------------------------------: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|                                                       __Background__ | - [Introduction](introduction%20to%20quantum%20mechanics.md) <br/> - [History](history%20of%20quantum%20mechanics.md) <br/> &nbsp;&nbsp;&nbsp;&nbsp;- [Timeline](timeline%20of%20quantum%20mechanics.md) <br/> - [Classical mechanics](classical%20mechanics.md) <br/> - [Old quantum theory](old%20quantum%20theory.md) <br/> - [Glossary](glossary%20of%20elementary%20quantum%20mechanics.md)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+|                                                     __Fundamentals__ | - [Born rule](Born%20rule.md) <br/> - [Bra–ket notation](bra–ket%20notation.md) <br/> - [Complementarity](complementarity%20(physics).md) <br/> - [Density matrix](density%20matrix.md) <br/> - [Energy level](energy%20level.md) <br/> &nbsp;&nbsp;&nbsp;&nbsp;- [Ground state](ground%20state.md) <br/> &nbsp;&nbsp;&nbsp;&nbsp;- [Excited state](excited%20state.md) <br/> &nbsp;&nbsp;&nbsp;&nbsp;- [Degenerate levels](degenerate%20energy%20levels.md) <br/> &nbsp;&nbsp;&nbsp;&nbsp;- [Zero-point energy](zero-point%20energy.md) <br/> - [Entanglement](quantum%20entanglement.md) <br/> - [Hamiltonian](Hamiltonian%20(quantum%20mechanics).md) <br/> - [Interference](wave%20interference.md) <br/> - [Decoherence](quantum%20decoherence.md) <br/> - [Measurement](measurement%20in%20quantum%20mechanics.md) <br/> - [Nonlocality](quantum%20nonlocality.md) <br/> - [Quantum state](quantum%20state.md) <br/> &nbsp;&nbsp;&nbsp;&nbsp;- [quantum jump](quantum%20jump.md) <br/> - [Superposition](quantum%20superposition.md) <br/> - [Tunnelling](quantum%20tunnelling.md) <br/> - [Scattering theory](scattering.md#theory) <br/> - [Symmetry in quantum mechanics](symmetry%20in%20quantum%20mechanics.md) <br/> - [Uncertainty](uncertainty%20principle.md) <br/> - [Wave function](wave%20function.md) <br/> &nbsp;&nbsp;&nbsp;&nbsp;- [Collapse](wave%20function%20collapse.md) <br/> &nbsp;&nbsp;&nbsp;&nbsp;- [Wave–particle duality](wave–particle%20duality.md) <br/> &nbsp;&nbsp;&nbsp;&nbsp;- [Universal wave function](universal%20wave%20function.md)                                                                                                                                                                                                                                                   |
+|                                                     __Formulations__ | - [Formulations](mathematical%20formulation%20of%20quantum%20mechanics.md) <br/> - [Heisenberg](Heisenberg%20picture.md) <br/> - [Interaction](interaction%20picture.md) <br/> - [Matrix mechanics](matrix%20mechanics.md) <br/> - [Schrödinger](Schrödinger%20picture.md) <br/> - [Path integral formulation](path%20integral%20formulation.md) <br/> - [Phase space](phase-space%20formulation.md)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+|                                                        __Equations__ | - [Klein–Gordon](Klein–Gordon%20equation.md) <br/> - [Dirac](Dirac%20equation.md) <br/> - [Weyl](Weyl%20equation.md) <br/> - [Majorana](Majorana%20equation.md) <br/> - [Rarita–Schwinger](Rarita–Schwinger%20equation.md) <br/> - [Pauli](Pauli%20equation.md) <br/> - [Rydberg](Rydberg%20formula.md) <br/> - [Schrödinger](Schrödinger%20equation.md)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| __[Interpretations](interpretations%20of%20quantum%20mechanics.md)__ | - [Bayesian](quantum%20Bayesianism.md) <br/> - [Consciousness causes collapse](consciousness%20causes%20collapse.md) <br/> - [Consistent histories](consistent%20histories.md) <br/> - [Copenhagen](Copenhagen%20interpretation.md) <br/> - [de Broglie–Bohm](de%20Broglie–Bohm%20theory.md) <br/> - [Ensemble](ensemble%20interpretation.md) <br/> - [Hidden-variable](hidden-variable%20theory.md) <br/> &nbsp;&nbsp;&nbsp;&nbsp;- [Local](local%20hidden-variable%20theory.md) <br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- [Superdeterminism](superdeterminism.md) <br/> - [Many-worlds](many-worlds%20interpretation.md) <br/> - [Objective collapse](objective-collapse%20theory.md) <br/> - [Quantum logic](quantum%20logic.md) <br/> - [Relational](relational%20quantum%20mechanics.md) <br/> - [Transactional](transactional%20interpretation.md)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+|                                                      __Experiments__ | - [Bell test](Bell%20test.md) <br/> - [Davisson–Germer](Davisson–Germer%20experiment.md) <br/> - [Delayed-choice quantum eraser](delayed-choice%20quantum%20eraser.md) <br/> - [Double-slit](double-slit%20experiment.md) <br/> - [Franck–Hertz](Franck–Hertz%20experiment.md) <br/> - [Mach–Zehnder interferometer](Mach–Zehnder%20interferometer.md) <br/> - [Elitzur–Vaidman](Elitzur–Vaidman%20bomb%20tester.md) <br/> - [Popper](Popper's%20experiment.md) <br/> - [Quantum eraser](quantum%20eraser%20experiment.md) <br/> - [Stern–Gerlach](Stern–Gerlach%20experiment.md) <br/> - [Wheeler's delayed choice](Wheeler's%20delayed-choice%20experiment.md)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+|                                     __[Science](nanotechnology.md)__ | - [Quantum biology](quantum%20biology.md) <br/> - [Quantum chemistry](quantum%20chemistry.md) <br/> - [Quantum chaos](quantum%20chaos.md) <br/> - [Quantum cosmology](quantum%20cosmology.md) <br/> - [Quantum differential calculus](quantum%20differential%20calculus.md) <br/> - [Quantum dynamics](quantum%20dynamics.md) <br/> - [Quantum geometry](quantum%20geometry.md) <br/> - [Quantum measurement problem](measurement%20problem.md) <br/> - [Quantum mind](quantum%20mind.md) <br/> - [Quantum stochastic calculus](quantum%20stochastic%20calculus.md) <br/> - [Quantum spacetime](quantum%20spacetime.md)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+|                           __[Technology](quantum%20engineering.md)__ | - [Quantum algorithms](quantum%20algorithm.md) <br/> - [Quantum amplifier](quantum%20amplifier.md) <br/> - [Quantum bus](quantum%20bus.md) <br/> - [Quantum cellular automata](quantum%20cellular%20automaton.md) <br/> &nbsp;&nbsp;&nbsp;&nbsp;- [Quantum finite automata](quantum%20finite%20automaton.md) <br/> - [Quantum channel](quantum%20channel.md) <br/> - [Quantum circuit](quantum%20circuit.md) <br/> - [Quantum complexity theory](quantum%20complexity%20theory.md) <br/> - [Quantum computing](quantum%20computing.md) <br/> &nbsp;&nbsp;&nbsp;&nbsp;- [Timeline](timeline%20of%20quantum%20computing%20and%20communication.md) <br/> - [Quantum cryptography](quantum%20cryptography.md) <br/> - [Quantum electronics](quantum%20optics.md#quantum%20electronics) <br/> - [Quantum error correction](quantum%20error%20correction.md) <br/> - [Quantum imaging](quantum%20imaging.md) <br/> - [Quantum image processing](quantum%20image%20processing.md) <br/> - [Quantum information](quantum%20information.md) <br/> - [Quantum key distribution](quantum%20key%20distribution.md) <br/> - [Quantum logic](quantum%20logic.md) <br/> - [Quantum logic gates](quantum%20logic%20gate.md) <br/> - [Quantum machine](quantum%20machine.md) <br/> - [Quantum machine learning](quantum%20machine%20learning.md) <br/> - [Quantum metamaterial](quantum%20metamaterial.md) <br/> - [Quantum metrology](quantum%20metrology.md) <br/> - [Quantum network](quantum%20network.md) <br/> - [Quantum neural network](quantum%20neural%20network.md) <br/> - [Quantum optics](quantum%20optics.md) <br/> - [Quantum programming](quantum%20programming.md) <br/> - [Quantum sensing](quantum%20sensor.md) <br/> - [Quantum simulator](quantum%20simulator.md) <br/> - [Quantum teleportation](quantum%20teleportation.md) |
+|                                                       __Extensions__ | - [Quantum fluctuation](quantum%20fluctuation.md) <br/> - [Casimir effect](Casimir%20effect.md) <br/> - [Quantum statistical mechanics](quantum%20statistical%20mechanics.md) <br/> - [Quantum field theory](quantum%20field%20theory.md) <br/> &nbsp;&nbsp;&nbsp;&nbsp;- [History](history%20of%20quantum%20field%20theory.md) <br/> - [Quantum gravity](quantum%20gravity.md) <br/> - [Relativistic quantum mechanics](relativistic%20quantum%20mechanics.md)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+|                                                          __Related__ | - [Schrödinger's cat](Schrödinger's%20cat.md) <br/> &nbsp;&nbsp;&nbsp;&nbsp;- [in popular culture](Schrödinger's%20cat%20in%20popular%20culture.md#in%20popular%20culture) <br/> - [Wigner's friend](Wigner's%20friend.md) <br/> - [EPR paradox](Einstein–Podolsky–Rosen%20paradox.md) <br/> - [Quantum mysticism](quantum%20mysticism.md)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+|                                                                      | - ![Symbol for Category-Class on the English Wikipedia](../../archives/Wikimedia%20Commons/Symbol%20category%20class.svg) [Category](https://en.wikipedia.org/wiki/Category:Quantum%20mechanics)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+
+|             | <!-- - [v](https://en.wikipedia.org/wiki/Template:Richard%20Feynman) <br/> - [t](https://en.wikipedia.org/wiki/Template%20talk:Richard%20Feynman) <br/> - [e](https://en.wikipedia.org/wiki/Special:EditPage/Template%3ARichard%20Feynman) --> [Richard Feynman](Richard%20Feynman.md)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| ----------: | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|  __Career__ | - [Feynman diagram](Feynman%20diagram.md) <br/> - [Feynman–Kac formula](Feynman–Kac%20formula.md) <br/> - [Wheeler–Feynman absorber theory](Wheeler–Feynman%20absorber%20theory.md) <br/> - [Bethe–Feynman formula](Bethe–Feynman%20formula.md) <br/> - [Hellmann–Feynman theorem](Hellmann–Feynman%20theorem.md) <br/> - [Feynman slash notation](Feynman%20slash%20notation.md) <br/> - [Feynman parametrization](Feynman%20parametrization.md) <br/> - [Path integral formulation](path%20integral%20formulation.md) <br/> - [Parton model](parton%20(particle%20physics).md) <br/> - [Sticky bead argument](sticky%20bead%20argument.md) <br/> - [One-electron universe](one-electron%20universe.md) <br/> - [Quantum cellular automaton](quantum%20cellular%20automaton.md) <br/> - [Rogers Commission Report](Rogers%20Commission%20Report.md) <br/> - [Feynman checkerboard](Feynman%20checkerboard.md) <br/> - [Feynman sprinkler](Feynman%20sprinkler.md)                                                                                                                                                                  |
+|   __Works__ | - "[There's Plenty of Room at the Bottom](There's%20Plenty%20of%20Room%20at%20the%20Bottom.md)" \(1959\) <br/> - _[The Feynman Lectures on Physics](The%20Feynman%20Lectures%20on%20Physics.md)_ \(1964\) <br/> - _[The Character of Physical Law](The%20Character%20of%20Physical%20Law.md)_ \(1965\) <br/> - _[QED: The Strange Theory of Light and Matter](QED%5F%20The%20Strange%20Theory%20of%20Light%20and%20Matter.md)_ \(1985\) <br/> - _[Surely You're Joking, Mr. Feynman!](Surely%20You're%20Joking,%20Mr.%20Feynman!.md)_ \(1985\) <br/> - _[What Do You Care What Other People Think?](What%20Do%20You%20Care%20What%20Other%20People%20Think%5F.md)_ \(1988\) <br/> - _[Feynman's Lost Lecture: The Motion of Planets Around the Sun](Feynman's%20Lost%20Lecture.md)_ \(1997\) <br/> - _[The Meaning of It All](The%20Meaning%20of%20It%20All.md)_ \(1999\) <br/> - _[The Pleasure of Finding Things Out](The%20Pleasure%20of%20Finding%20Things%20Out.md)_ \(1999\) <br/> - _[Perfectly Reasonable Deviations from the Beaten Track](Perfectly%20Reasonable%20Deviations%20from%20the%20Beaten%20Track.md)_ \(2005\) |
+|  __Family__ | - [Joan Feynman](Joan%20Feynman.md) \(sister\) <br/> - [Charles Hirshberg](Charles%20Hirshberg.md) \(nephew\)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| __Related__ | - [Namesakes](list%20of%20things%20named%20after%20Richard%20Feynman.md) <br/> - [One-loop Feynman diagram](one-loop%20Feynman%20diagram.md) <br/> - _[Quantum Man: Richard Feynman's Life in Science](Quantum%20Man%5F%20Richard%20Feynman's%20Life%20in%20Science.md)_ <br/> - _[Tuva or Bust!](Tuva%20or%20Bust!.md)_ <br/> - [Feynman Prize in Nanotechnology](Feynman%20Prize%20in%20Nanotechnology.md) <br/> - [_Infinity_ \(1996 film\)](infinity%20(1996%20film).md) <br/> - [_QED_ \(2001 play\)}}](QED%20(play).md) <br/> - [_The Challenger Disaster_ \(2013 film\)](The%20Challenger%20Disaster.md)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+
+> [Categories](https://en.wikipedia.org/wiki/Help:Category):
+>
+> - [Concepts in physics](https://en.wikipedia.org/wiki/Category:Concepts%20in%20physics)
+> - [Statistical mechanics](https://en.wikipedia.org/wiki/Category:Statistical%20mechanics)
+> - [Quantum mechanics](https://en.wikipedia.org/wiki/Category:Quantum%20mechanics)
+> - [Quantum field theory](https://en.wikipedia.org/wiki/Category:Quantum%20field%20theory)
+> - [Differential equations](https://en.wikipedia.org/wiki/Category:Differential%20equations)
+> - [Mathematical physics](https://en.wikipedia.org/wiki/Category:Mathematical%20physics)
+> - [Integrals](https://en.wikipedia.org/wiki/Category:Integrals)
