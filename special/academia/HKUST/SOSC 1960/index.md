@@ -38,6 +38,7 @@ SOSC 1960 is HKUST's undergraduate course on the science of human thinking and b
 - [blocking effect](blocking%20effect.md)
 - [classical conditioning](classical%20conditioning.md)
 - [cognitive neuropsychology](cognitive%20neuropsychology.md)
+- [collective memory](collective%20memory.md)
 - [computational model](computational%20model.md)
 - [confounding](confounding.md)
 - [converging evidence](converging%20evidence.md)
@@ -45,14 +46,22 @@ SOSC 1960 is HKUST's undergraduate course on the science of human thinking and b
 - [correlation](correlation.md)
 - [cross-race effect](cross-race%20effect.md)
 - [electroencephalography](electroencephalography.md)
+- [encoding specificity principle](encoding%20specificity%20principle.md)
 - [experiment](experiment.md)
 - [extinction (psychology)](extinction%20(psychology).md)
+- [false memory](false%20memory.md)
+- [flashbulb memory](flashbulb%20memory.md)
 - [functional magnetic resonance imaging](functional%20magnetic%20resonance%20imaging.md)
 - [gender role](gender%20role.md)
+- [generation effect](generation%20effect.md)
+- [interference theory](interference%20theory.md)
 - [literature review](literature%20review.md)
 - [longitudinal study](longitudinal%20study.md)
 - [magnetic resonance imaging](magnetic%20resonance%20imaging.md)
 - [magnetoencephalography](magnetoencephalography.md)
+- [memory](memory.md)
+- [misinformation effect](misinformation%20effect.md)
+- [mnemonic](mnemonic.md)
 - [mood measurement](mood%20measurement.md)
 - [observational learning](observational%20learning.md)
 - [operant conditioning](operant%20conditioning.md)
@@ -69,8 +78,10 @@ SOSC 1960 is HKUST's undergraduate course on the science of human thinking and b
 - [reward devaluation](reward%20devaluation.md)
 - [science](science.md)
 - [sleep and emotions](sleep%20and%20emotions.md)
+- [spacing effect](spacing%20effect.md)
 - [stimulus control](stimulus%20control.md)
 - [survey (human research)](survey%20(human%20research).md)
+- [testing effect](testing%20effect.md)
 - [transcranial magnetic stimulation](transcranial%20magnetic%20stimulation.md)
 
 ## logistics
@@ -441,6 +452,56 @@ SOSC 1960 is HKUST's undergraduate course on the science of human thinking and b
 > Best,
 >
 > TAs
+
+## week 5 lecture 1
+
+- datetime: 2026-09-28T12:00:00+08:00/2026-09-28T13:20:00+08:00, PT1H20M
+- venue: Rm 2464, Lift 25-26
+- topic: memory: types of memory; encoding, storage, and retrieval
+- [memory](memory.md)
+    - [§ types of memory](memory.md#types%20of%20memory)
+        - [§ working memory](memory.md#working%20memory)
+        - [§ episodic memory](memory.md#episodic%20memory)
+        - [§ semantic memory](memory.md#semantic%20memory)
+    - [§ encoding](memory.md#encoding)
+        - [§ recoding](memory.md#recoding)
+    - [§ storage](memory.md#storage)
+    - [§ retrieval](memory.md#retrieval)
+- [collective memory](collective%20memory.md)
+- [flashbulb memory](flashbulb%20memory.md)
+- [false memory](false%20memory.md)
+    - [§ pragmatic inference](false%20memory.md#pragmatic%20inference)
+- [interference theory](interference%20theory.md)
+- [misinformation effect](misinformation%20effect.md)
+- [encoding specificity principle](encoding%20specificity%20principle.md)
+    - [§ state-dependent memory](encoding%20specificity%20principle.md#state-dependent%20memory)
+    - [§ cue overload](encoding%20specificity%20principle.md#cue%20overload)
+- [testing effect](testing%20effect.md)
+    - [§ retrieval-induced forgetting](testing%20effect.md#retrieval-induced%20forgetting)
+- [spacing effect](spacing%20effect.md)
+- [generation effect](generation%20effect.md)
+- [mnemonic](mnemonic.md)
+    - [§ memory palaces](mnemonic.md#memory%20palaces)
+
+## week 5 lecture 2
+
+- datetime: 2026-09-30T12:00:00+08:00/2026-09-30T13:20:00+08:00, PT1H20M
+- venue: Rm 2464, Lift 25-26
+- topic: memory discussion
+- in-class: [week 5 lecture 2](lectures/week%205%20lecture%202/index.md)
+- [memory](memory.md)
+    - [§ episodic memory](memory.md#episodic%20memory)
+- [collective memory](collective%20memory.md)
+- [flashbulb memory](flashbulb%20memory.md)
+- [encoding specificity principle](encoding%20specificity%20principle.md)
+    - [§ state-dependent memory](encoding%20specificity%20principle.md#state-dependent%20memory)
+    - [§ cue overload](encoding%20specificity%20principle.md#cue%20overload)
+- [testing effect](testing%20effect.md)
+    - [§ retrieval-induced forgetting](testing%20effect.md#retrieval-induced%20forgetting)
+- [spacing effect](spacing%20effect.md)
+- [generation effect](generation%20effect.md)
+- [mnemonic](mnemonic.md)
+    - [§ memory palaces](mnemonic.md#memory%20palaces)
 
 ## week 6 lecture 2
 

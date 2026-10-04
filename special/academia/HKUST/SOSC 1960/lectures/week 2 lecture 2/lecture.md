@@ -14,6 +14,12 @@ tags:
 
 Four questions came in three parts.
 
+---
+
+Flashcards for this section are as follows:
+
+- overview ::@:: Four questions in three parts: literature search, reading a study for a question, and paraphrasing a finding.
+
 ## literature search
 
 > __Prompt.__ What database(s) do you usually use? Or Where would you go to do literature search for the projects of this course? Please type in your answers in the Lucid Whiteboard. If you have never used one before, please type No Idea.

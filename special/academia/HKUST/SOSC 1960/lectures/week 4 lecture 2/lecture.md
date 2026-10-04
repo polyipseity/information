@@ -14,6 +14,12 @@ tags:
 
 The four question sets covered the psychology of learning: classical conditioning, extinction and blocking, instrumental conditioning, and observational learning.
 
+---
+
+Flashcards for this section are as follows:
+
+- overview ::@:: Four question sets, on classical conditioning, extinction and blocking, instrumental conditioning, and observational learning.
+
 ## classical conditioning
 
 > __Prompt.__ Use a classical conditioning example in daily life that involve forming preferences to illustrate how it happens, i.e., identify the corresponding US, UR, CS, and CR.
