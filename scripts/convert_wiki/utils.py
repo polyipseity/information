@@ -27,6 +27,15 @@ async def _find_child_exact(parent: Path, name: str) -> Path | None:
     return None
 
 
+async def _find_child_case_insensitive(parent: Path, name: str) -> Path | None:
+    """Return the child entry whose basename equals _name_ ignoring letter case."""
+    name_lower = name.lower()
+    async for entry in parent.iterdir():
+        if entry.name != name and entry.name.lower() == name_lower:
+            return entry
+    return None
+
+
 async def _unlink_case_colliding_symlinks(parent: Path, name: str) -> None:
     """Remove symlink children that differ from _name_ only by letter case."""
     name_lower = name.lower()
@@ -95,6 +104,25 @@ async def _symlink_to_idempotent(
             raise
 
 
+async def _create_symlink_unless_real_file(
+    parent: Path, name: str, target: str
+) -> None:
+    """Create ``parent/name`` → ``target`` unless a real file already occupies it.
+
+    A real file whose name differs from _name_ only by letter case still
+    occupies the path on a case-insensitive filesystem, so the real-file
+    invariant forbids replacing it; the symlink is skipped instead.  A
+    case-colliding symlink is replaced by the canonical name.
+    """
+    occupant = await _find_child_exact(parent, name)
+    if occupant is None:
+        occupant = await _find_child_case_insensitive(parent, name)
+    if occupant is not None and not await occupant.is_symlink():
+        return
+    await _unlink_case_colliding_symlinks(parent, name)
+    await _symlink_to_idempotent(parent / name, target)
+
+
 async def _create_redirect_symlinks(
     wiki_dir: PathLike[str],
     wiki_lang_dir: PathLike[str],
@@ -108,46 +136,41 @@ async def _create_redirect_symlinks(
     untouched when it already points at ``{to_filename}.md``, and never
     replaced when it is a real file.  The top-level mirror is created only
     if missing; an existing mirror (symlink or real file) is never touched.
+    When a real file differing only in letter case occupies the
+    language-directory path, no symlink is created there and the mirror is
+    left alone, since there is nothing left to mirror.
     """
     wiki_dir_path = Path(wiki_dir)
     wiki_lang_dir_path = Path(wiki_lang_dir)
     redirect_name = f"{from_filename}.md"
     target = f"{to_filename}.md"
     redirect_file = await _find_child_exact(wiki_lang_dir_path, redirect_name)
-    if redirect_file is not None:
-        if await redirect_file.is_symlink():
-            if str(await redirect_file.readlink()) != target:
-                await redirect_file.unlink()
-                await _unlink_case_colliding_symlinks(wiki_lang_dir_path, redirect_name)
-                await _symlink_to_idempotent(
-                    wiki_lang_dir_path / redirect_name,
-                    target,
-                )
+    if redirect_file is not None and await redirect_file.is_symlink():
+        if str(await redirect_file.readlink()) != target:
+            await redirect_file.unlink()
+            await _create_symlink_unless_real_file(
+                wiki_lang_dir_path, redirect_name, target
+            )
     else:
-        await _unlink_case_colliding_symlinks(wiki_lang_dir_path, redirect_name)
-        await _symlink_to_idempotent(
-            wiki_lang_dir_path / redirect_name,
-            target,
+        await _create_symlink_unless_real_file(
+            wiki_lang_dir_path, redirect_name, target
         )
+    if await _find_child_exact(wiki_lang_dir_path, redirect_name) is None:
+        return
     mirror_name = redirect_name
     expected_mirror_target = str(
         wiki_lang_dir_path.relative_to(wiki_dir_path) / mirror_name
     )
     mirror_file = await _find_child_exact(wiki_dir_path, mirror_name)
-    if mirror_file is not None:
-        if await mirror_file.is_symlink():
-            if str(await mirror_file.readlink()) != expected_mirror_target:
-                await mirror_file.unlink()
-                await _unlink_case_colliding_symlinks(wiki_dir_path, mirror_name)
-                await _symlink_to_idempotent(
-                    wiki_dir_path / mirror_name,
-                    expected_mirror_target,
-                )
+    if mirror_file is not None and await mirror_file.is_symlink():
+        if str(await mirror_file.readlink()) != expected_mirror_target:
+            await mirror_file.unlink()
+            await _create_symlink_unless_real_file(
+                wiki_dir_path, mirror_name, expected_mirror_target
+            )
     else:
-        await _unlink_case_colliding_symlinks(wiki_dir_path, mirror_name)
-        await _symlink_to_idempotent(
-            wiki_dir_path / mirror_name,
-            expected_mirror_target,
+        await _create_symlink_unless_real_file(
+            wiki_dir_path, mirror_name, expected_mirror_target
         )
 
 

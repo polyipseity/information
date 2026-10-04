@@ -211,6 +211,80 @@ class TestCreateRedirectSymlinks:
         assert str(await canonical.readlink()) == "to page.md"
         assert not await wrong.exists()
 
+    @pytest.mark.anyio
+    async def test_case_colliding_real_file_is_untouched(
+        self, tmp_path: PathLike[str]
+    ) -> None:
+        """A wrong-cased real file occupies the path on case-insensitive volumes."""
+        wiki_dir = AnyioPath(tmp_path)
+        lang_dir = wiki_dir / "eng"
+        await lang_dir.mkdir()
+        wrong = lang_dir / "From page.md"
+        await wrong.write_text("precious content")
+
+        await _mod._create_redirect_symlinks(  # noqa: SLF001
+            wiki_dir, lang_dir, "from page", "to page"
+        )
+
+        assert not await wrong.is_symlink()
+        assert await wrong.read_text() == "precious content"
+
+    @pytest.mark.anyio
+    async def test_case_colliding_real_mirror_is_untouched(
+        self, tmp_path: PathLike[str]
+    ) -> None:
+        """A wrong-cased real top-level mirror is never replaced either."""
+        wiki_dir = AnyioPath(tmp_path)
+        lang_dir = wiki_dir / "eng"
+        await lang_dir.mkdir()
+        wrong = wiki_dir / "From page.md"
+        await wrong.write_text("precious mirror")
+
+        await _mod._create_redirect_symlinks(  # noqa: SLF001
+            wiki_dir, lang_dir, "from page", "to page"
+        )
+
+        assert not await wrong.is_symlink()
+        assert await wrong.read_text() == "precious mirror"
+        # The language-directory symlink is still created.
+        assert await (lang_dir / "from page.md").is_symlink()
+
+    @pytest.mark.anyio
+    async def test_mirror_not_created_when_lang_entry_skipped(
+        self, tmp_path: PathLike[str]
+    ) -> None:
+        """A skipped language entry leaves nothing to mirror at the top level."""
+        wiki_dir = AnyioPath(tmp_path)
+        lang_dir = wiki_dir / "eng"
+        await lang_dir.mkdir()
+        wrong = lang_dir / "From page.md"
+        await wrong.write_text("precious content")
+
+        await _mod._create_redirect_symlinks(  # noqa: SLF001
+            wiki_dir, lang_dir, "from page", "to page"
+        )
+
+        assert await wrong.read_text() == "precious content"
+        assert not await (wiki_dir / "from page.md").exists()
+
+    @pytest.mark.anyio
+    async def test_mirror_not_retargeted_when_lang_entry_skipped(
+        self, tmp_path: PathLike[str]
+    ) -> None:
+        """An existing mirror keeps its target when the language entry is skipped."""
+        wiki_dir = AnyioPath(tmp_path)
+        lang_dir = wiki_dir / "eng"
+        await lang_dir.mkdir()
+        await (lang_dir / "From page.md").write_text("precious content")
+        mirror = wiki_dir / "from page.md"
+        await mirror.symlink_to("eng/From page.md", target_is_directory=False)
+
+        await _mod._create_redirect_symlinks(  # noqa: SLF001
+            wiki_dir, lang_dir, "from page", "to page"
+        )
+
+        assert str(await mirror.readlink()) == "eng/From page.md"
+
 
 class TestRemoveRedirectSymlinks:
     """Tests for the _remove_redirect_symlinks function."""
