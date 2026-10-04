@@ -2314,6 +2314,9 @@ def test_qa_missing_separator_structure():
     )
     msgs = qa_missing_separator(missing)
     assert len(msgs) == 1 and msgs[0].rule_id == "qa_missing_separator"
+    # The reported position is the card's real line in the file, frontmatter
+    # included: line 8 here, not a line shifted by the frontmatter length.
+    assert (msgs[0].line, msgs[0].col) == (8, 1)
 
     # A horizontal rule counts as a separator too.
     rule_sep = make_ctx(
@@ -2346,7 +2349,7 @@ def test_qa_missing_separator_structure():
     )
     later = qa_missing_separator(two_blocks)
     assert len(later) == 1
-    assert later[0].line is not None and later[0].line > 2
+    assert (later[0].line, later[0].col) == (12, 1)
 
     # A blank line inside a block does not end it, so the second card is not
     # judged as a block of its own.
@@ -2358,6 +2361,28 @@ def test_qa_missing_separator_structure():
         path=Path("/tmp/course/note.md"),
     )
     assert not qa_missing_separator(spaced)
+
+    # A nested card belongs to its parent item's list, so the rule stays off
+    # it: index.md pages hang cards under `- topic:` and `- [course](index.md)`.
+    nested = make_ctx(
+        f"{front}# index\n\n## week 1 lecture 1\n\n- datetime: 2025-09-01\n"
+        "- topic: course introduction\n"
+        "- [ELEC 2400](index.md)\n"
+        "    - ELEC 2400 / motivation ::@:: an overview of the field\n"
+        "    - ELEC 2400 / parts ::@:: point-to-point, broadcast\n",
+        path=Path("/tmp/course/index.md"),
+    )
+    assert not qa_missing_separator(nested)
+
+    # A nested card does not break its parent's block either.
+    nested_between = make_ctx(
+        f"{front}# note\n\nFlashcards for this section are as follows:\n\n"
+        "- first card ::@:: answer\n"
+        "    - a nested card ::@:: sub-answer\n"
+        "- second card ::@:: answer\n",
+        path=Path("/tmp/course/note.md"),
+    )
+    assert not qa_missing_separator(nested_between)
 
     # An ordinary bullet is not a card line, and a list above a card block does
     # not supply the separator. A marker inside an inline code span still marks

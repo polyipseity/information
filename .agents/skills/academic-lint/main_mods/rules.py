@@ -3811,17 +3811,26 @@ def qa_prompt_generic(ctx: ValidationContext) -> list[ValidationMessage]:
 CARD_DELIMITERS = ("::@::", ":@:")
 
 
+def is_list_item(line: str) -> bool:
+    """Report whether *line* is a Markdown list item at any depth."""
+    return line.lstrip(" \t").startswith("- ")
+
+
 def is_flashcard_line(line: str) -> bool:
-    """Report whether *line* is a flashcard list item.
+    """Report whether *line* is a top-level flashcard list item.
 
     A card is a list item whose text carries one of the flashcard
     delimiters.  The test is containment, not a line pattern, so a card
     whose prompt embeds an image path or a fraction is still a card.
+
+    Only a top-level item counts: a card nested under another list item
+    belongs to its parent's list, and such lists are introduced by the
+    item that owns them rather than by a separator phrase.
     """
-    body = line.lstrip(" \t")
-    if not body.startswith("- "):
+    item = line[1:] if line[:1] in (" ", "\t") else line
+    if not item.startswith("- "):
         return False
-    text = body[2:]
+    text = item[2:]
     return any(delimiter in text for delimiter in CARD_DELIMITERS)
 
 
@@ -3838,25 +3847,34 @@ def preceding_nonempty_line(lines: list[str], index: int) -> str:
 def qa_missing_separator(ctx: ValidationContext) -> list[ValidationMessage]:
     """Check for QA-style flashcard lists without a preceding separator phrase.
 
-    Every block of consecutive flashcard list items must be introduced by
-    ``Flashcards for`` or a ``---`` separator line.  Blocks are found by
-    structure — a card is a list item carrying a flashcard delimiter, and
-    blank lines do not break a block — so a card that embeds an image path
-    still counts as the first card of its block.
+    Every block of consecutive top-level flashcard list items must be
+    introduced by ``Flashcards for`` or a ``---`` separator line.  Blocks are
+    found by structure — a card is a list item carrying a flashcard
+    delimiter, blank lines do not break a block, and a nested list item
+    continues its parent's block — so a card that embeds an image path still
+    counts as the first card of its block.
     """
     errors: list[ValidationMessage] = []
-    lines = ctx.text.splitlines()
+    # Split on newlines rather than splitlines() so that advancing one element
+    # advances exactly one line's worth of characters; splitlines() also breaks
+    # on \f, \v and the Unicode line separators, which would drift the offsets.
+    all_lines = ctx.text.split("\n")
+    first_body = 0
+    line_start = 0
     fm = FRONT_RE.match(ctx.text)
     if fm:
-        lines = lines[len(fm.group(0).splitlines()) :]
-    line_start = ctx.text.find("\n") + 1 if fm else 0
+        # fm.end() is the character offset just past the closing ---, so the
+        # first body line is reported at its real position in the file.
+        first_body = fm.group(0).count("\n")
+        line_start = fm.end()
 
     in_block = False
-    for index, line in enumerate(lines):
+    for index in range(first_body, len(all_lines)):
+        line = all_lines[index]
         if is_flashcard_line(line):
             if not in_block:
                 in_block = True
-                previous = preceding_nonempty_line(lines, index).lower()
+                previous = preceding_nonempty_line(all_lines, index).lower()
                 if not (
                     previous.startswith("flashcards for") or previous.startswith("---")
                 ):
@@ -3871,7 +3889,7 @@ def qa_missing_separator(ctx: ValidationContext) -> list[ValidationMessage]:
                             col_end=col_end,
                         )
                     )
-        elif line.strip():
+        elif line.strip() and not is_list_item(line):
             in_block = False
         line_start += len(line) + 1
     return errors
