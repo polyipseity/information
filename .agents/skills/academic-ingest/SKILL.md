@@ -276,6 +276,8 @@ Material
 │  │  no Canvas assignment page) — treat as in-class content for the matching
 │  │  tutorial. PRS HTML contains quiz questions, not Canvas metadata — extract
 │  │  question text and answer choices, do not run convert_canvas_submission.
+│  │  Non-in-class components route their artifacts to the private tree
+│  │  (see "Public and private trees" below).
 │
 ├─ Question set? (problems, exercises, iPRs, no submission)
 │  ├─ Yes → academic-crud-question (questions/<name>.md)
@@ -318,6 +320,29 @@ Which destination? [1/2]
 ```
 
 Show at most __3 candidates__ per phase, each with a one-line reason. If the user says "none of these", fall back to free-text input for the target type.
+
+## Public and private trees
+
+The repository keeps two mirrored trees: the public one at the repo root and the private one under `private/`. A file that would live at `<path>` in the public tree lives at `private/<path>` in the private tree. Nothing is re-nested or renamed on the way.
+
+__Routing is decided per material type.__ Non-in-class material — an assignment, the out-of-class component of a lab or tutorial, a take-home question set — writes its artifacts to the private tree by default:
+
+| Artifact | Tree |
+| --- | --- |
+| `attachments/`, `submission/`, `solution/` of a non-in-class submission | private |
+| The page and `attachments/` of a non-in-class question set | private |
+| The authored content file of a non-in-class submission (`assignment.md`) | private |
+| `index.md`, component YAML, the verbatim Canvas description | public |
+| In-class content (`lab.md`, `tutorial.md`, `lecture.md`, quiz pages) | public |
+| Course `index.md` entries, topic notes, `AGENTS.md` | public |
+
+Canvas metadata stays public however sensitive the material around it looks: the metadata block, `submission.yml`, and the course's own session and assignment entries. The user overrides the default per ingestion when they say so.
+
+__Links ignore the split.__ A link is written exactly as if its target sat in the public tree, in both directions, and no href ever contains `private/`. A public index may link a private page and a private page may link a public note with the ordinary colocated relative path. That the pair does not resolve when followed is normal and needs no correction; links within one tree keep resolving.
+
+__Private pages tag as if public.__ Aliases and flashcard tags derive from the path after `special/academia/`, so a private page carries the same `flashcard/active/special/academia/...` tag as its public twin would, and `academic-lint` checks it against that path.
+
+The CRUD skills name the files their own hierarchy routes; this section owns the rule.
 
 ## Post-classification steps
 
@@ -382,7 +407,7 @@ After extraction, the material lands as follows. Nothing here authorises deletin
 - Grade metadata → `tutorial.yml` / `lab.yml` / `lecture.yml`
 - Canvas submission metadata → `submission.yml`
 - Canvas announcement body → course `index.md` session entry (blockquote)
-- Prompt PDFs, data files, images → `attachments/` (only actual media/data)
+- Prompt PDFs, data files, images → `attachments/` (only actual media/data; the private mirror of `attachments/` for non-in-class material)
 - Original HTML files → left at their original path; not copied into the repository
 - Original document files (PDF, DOCX, PPTX): content documents are left in place with the `.md` as the canonical copy; attachment documents are copied into `attachments/` and the source is left in place
 - Figures → transcribed into the note; a definitional drawing is attached as a redrawn SVG (see "Definitional drawings"), and an embedded image is copied to `attachments/` under a descriptive name only when the picture itself is the material
@@ -421,6 +446,8 @@ Attachment directory placement follows the target:
 - Submission → `attachments/` inside the submission directory
 - Question → `attachments/` inside the question's directory
 - Course-level → `attachments/` at the course root
+
+For non-in-class material the target directory is its private mirror (see "Public and private trees").
 
 Skip this step when no raw files accompany the material.
 
@@ -547,6 +574,7 @@ Route to the correct `academic-crud-*` skill with preprocessed context:
   sourceType: <pdf|html|markdown|text|image|document>,
   filePath: <original file path>,
   targetHint: <classification result>,
+  visibility: <public|private — which tree the target's artifacts land in>,
   documentRole: <content|attachment>,
   pageImages: <list of page-render paths, if available>,
   embeddedImages: <list of embedded image paths, if available>,
