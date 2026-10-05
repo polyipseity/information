@@ -17,7 +17,7 @@ __Submodule hierarchy__: Innermost `AGENTS.md` takes priority.
 
 __Intent & ownership__: This is primarily a public knowledgebase; most content (encyclopedic articles, tutorials, course notes) is intended to be public and editable by maintainers. Small, well-documented fixes are welcome via PRs. Avoid bulk or automated rewrites unless there is an agreed plan and review.
 
-__Public vs private__: Keep content public unless it contains PII, confidential academic records, commercial/embargoed research, or contracts. If in doubt, place in `private/` and consult the owner.
+__Public vs private__: Keep content public unless it contains PII, confidential academic records, commercial/embargoed research, or contracts. If in doubt, place in `private/` and consult the owner. Non-in-class submission artifacts (attachments, submissions, solutions, authored assignment content) go to `private/` by default; see `academic-ingest`.
 
 ## Quick start: Common workflows
 
