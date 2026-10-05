@@ -514,11 +514,32 @@ def _extract_canvas_metadata_block(text: str) -> list[tuple[int, str]]:
     return []
 
 
+def _mirror_base(base: Path) -> Path:
+    """Return the mirrored counterpart of *base* across the public/private trees.
+
+    ``private/`` mirrors the repository root, so the mirror of a directory in
+    one tree is the same directory in the other: strip a ``private`` segment
+    that sits immediately before ``special``, or insert one when absent.
+    Paths with no ``special`` segment have no mirror and are returned as-is.
+    """
+    parts = base.parts
+    for i, part in enumerate(parts):
+        if part != "special":
+            continue
+        if i > 0 and parts[i - 1] == "private":
+            return Path(*parts[: i - 1], *parts[i:])
+        prefix: tuple[str, ...] = () if i == 0 else parts[:i]
+        return Path(*prefix, "private", *parts[i:])
+    return base
+
+
 async def _path_exists(href: str, base: Path) -> bool:
     """Check if a linked file/directory exists on disk.
 
     Decodes percent-encoded components and checks for directory or file
-    existence. Returns False for external URLs or invalid paths.
+    existence. Returns False for external URLs or invalid paths. The
+    mirrored tree counts: a target missing beside the linking file is tried
+    again against the mirror of its base directory (see ``_mirror_base``).
     """
     # Decode percent-encoded components (e.g. %20 → space)
     unquoted = unquote(href)
@@ -532,8 +553,11 @@ async def _path_exists(href: str, base: Path) -> bool:
         return True  # Consider external URLs as "existing" (not our responsibility)
 
     # anyio Path methods are async; use them directly.
-    candidate = await (base / unquoted).resolve()
-    return await candidate.is_dir() or await candidate.is_file()
+    for candidate_base in (base, _mirror_base(base)):
+        candidate = await (candidate_base / unquoted).resolve()
+        if await candidate.is_dir() or await candidate.is_file():
+            return True
+    return False
 
 
 async def _is_folder_without_index_md(href: str, base: Path) -> bool:
@@ -567,12 +591,13 @@ async def _is_folder_without_index_md(href: str, base: Path) -> bool:
     if not parent_path or parent_path == "/":
         return False
 
-    # Check if parent folder exists but index.md doesn't
-    candidate_parent = await (base / parent_path).resolve()
-    return (
-        await candidate_parent.is_dir()
-        and not await (candidate_parent / "index.md").is_file()
-    )
+    # Check if a parent folder exists but index.md doesn't. The mirrored
+    # tree counts, so the first base whose parent exists decides the answer.
+    for candidate_base in (base, _mirror_base(base)):
+        candidate_parent = await (candidate_base / parent_path).resolve()
+        if await candidate_parent.is_dir():
+            return not await (candidate_parent / "index.md").is_file()
+    return False
 
 
 @RULE_REGISTRY.register()
@@ -1021,16 +1046,18 @@ async def _is_folder_link(
     if unquoted.endswith("/"):
         return True
 
-    # anyio Path methods are async; use them directly.
-    candidate = await (base / unquoted).resolve()
-    if await candidate.is_dir():
-        return True
-    if (
-        allow_index_as_folder
-        and await candidate.is_file()
-        and candidate.name == "index.md"
-    ):
-        return True
+    # anyio Path methods are async; use them directly. The mirrored tree
+    # counts: a folder that exists only across the mirror is still a folder.
+    for candidate_base in (base, _mirror_base(base)):
+        candidate = await (candidate_base / unquoted).resolve()
+        if await candidate.is_dir():
+            return True
+        if (
+            allow_index_as_folder
+            and await candidate.is_file()
+            and candidate.name == "index.md"
+        ):
+            return True
     return False
 
 

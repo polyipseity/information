@@ -12,6 +12,7 @@ from anyio import Path
 from main_mods.models import AstNode, Frontmatter, Severity, ValidationContext
 from main_mods.rules import (
     RULE_REGISTRY,
+    _mirror_base,
     agents_no_flashcard_markup,
     agents_title,
     aliases_sorted,
@@ -794,6 +795,126 @@ async def test_index_children_order_rule_ignores_missing(tmp_path):
     msgs = await index_children_missing(ctx)
     assert len(msgs) == 1
     assert "missing.md" in msgs[0].msg
+
+
+@pytest.mark.anyio
+async def test_children_rules_resolve_mirror_tree(tmp_path: PathLike[str]):
+    """A children link resolves across the public/private mirror.
+
+    Links are written as if the target sat beside the linking file, so a
+    public index may link a file that lives only in the private mirror, and
+    a private index may link a file that lives only in the public tree. A
+    target missing from both trees still warns.
+    """
+    root = Path(tmp_path)
+
+    # public index → file that exists only at the private mirror
+    public_questions = root / "special/academia/HKUST/TEST/questions"
+    await public_questions.mkdir(parents=True)
+    public_index = Path(public_questions / "index.md")
+    private_questions = root / "private/special/academia/HKUST/TEST/questions"
+    await private_questions.mkdir(parents=True)
+    await (private_questions / "take-home set 1.md").touch()
+
+    txt = "# index\n\n## children\n- [take-home set 1](take-home%20set%201.md)\n"
+    ctx = make_ctx(txt, path=public_index)
+    assert not await index_children_missing(ctx)
+
+    # private index → file that exists only in the public tree
+    await (public_questions / "topic note.md").touch()
+    private_index = Path(private_questions / "index.md")
+    txt = "# index\n\n## children\n- [topic note](topic%20note.md)\n"
+    ctx = make_ctx(txt, path=private_index)
+    assert not await index_children_missing(ctx)
+
+    # missing from both trees still warns
+    txt = "# index\n\n## children\n- [gone](gone.md)\n"
+    ctx = make_ctx(txt, path=public_index)
+    msgs = await index_children_missing(ctx)
+    assert len(msgs) == 1
+    assert "gone.md" in msgs[0].msg
+    assert msgs[0].severity == Severity.WARNING
+
+
+@pytest.mark.anyio
+async def test_mirror_folder_rules_see_private_tree(tmp_path: PathLike[str]):
+    """Folder rules count a folder that exists only in the mirror.
+
+    A public index linking `attachments` that lives only in the private
+    mirror is ordered as a folder entry, and a mirrored `index.md` link
+    resolves instead of firing the folder-without-index warning.
+    """
+    root = Path(tmp_path)
+    public_course = root / "special/academia/HKUST/TEST"
+    await public_course.mkdir(parents=True)
+    public_index = Path(public_course / "index.md")
+    private_attachments = root / "private/special/academia/HKUST/TEST/attachments"
+    await private_attachments.mkdir(parents=True)
+    await (private_attachments / "prompt.pdf").touch()
+    await (public_course / "a.md").touch()
+
+    # a mirrored folder sorts as a folder entry: folders before files
+    txt = "# index\n\n## children\n- [attachments](attachments)\n- [a](a.md)\n"
+    ctx = make_ctx(txt, path=public_index)
+    assert not await index_children_order(ctx)
+    assert not await index_children_missing(ctx)
+
+    # reversed order trips the folder-before-file rule only when the
+    # mirror-aware folder check sees `attachments` as a folder
+    txt = "# index\n\n## children\n- [a](a.md)\n- [attachments](attachments)\n"
+    ctx = make_ctx(txt, path=public_index)
+    msgs = await index_children_order(ctx)
+    assert msgs and "folder entries" in msgs[0].msg
+
+    # a mirrored folder/index.md link resolves without the
+    # folder-without-index warning
+    private_questions = root / "private/special/academia/HKUST/TEST/questions"
+    await private_questions.mkdir(parents=True)
+    await (private_questions / "index.md").touch()
+    txt = "# index\n\n## children\n- [questions/](questions/index.md)\n"
+    ctx = make_ctx(txt, path=public_index)
+    assert not await index_children_missing_index(ctx)
+    assert not await index_children_missing(ctx)
+
+
+def test_tag_path_flash_private_file_uses_public_tag():
+    """A private page carries the tag its public twin would.
+
+    The tag path derives from the segment after `special/academia/`, so
+    `private/` never enters it.
+    """
+    txt = (
+        "---\naliases: [a]\n"
+        "tags: [flashcard/active/special/academia/HKUST/TEST/questions/take-home_set_1]\n"
+        "---\n"
+    )
+    private = Path(
+        "/repo/private/special/academia/HKUST/TEST/questions/take-home set 1.md"
+    )
+    ctx = make_ctx(txt, path=private)
+    assert not tag_path_flash(ctx)
+
+    # the same tag from the public twin also passes
+    public = Path("/repo/special/academia/HKUST/TEST/questions/take-home set 1.md")
+    assert not tag_path_flash(make_ctx(txt, path=public))
+
+
+def test_mirror_base_toggles_private_segment():
+    """The mirror of a base toggles the `private` segment before `special`."""
+    assert _mirror_base(Path("special/academia/HKUST/TEST")) == Path(
+        "private/special/academia/HKUST/TEST"
+    )
+    assert _mirror_base(Path("private/special/academia/HKUST/TEST")) == Path(
+        "special/academia/HKUST/TEST"
+    )
+    assert _mirror_base(Path("/repo/special/academia/HKUST/TEST")) == Path(
+        "/repo/private/special/academia/HKUST/TEST"
+    )
+    assert _mirror_base(Path("/repo/private/special/academia/HKUST/TEST")) == Path(
+        "/repo/special/academia/HKUST/TEST"
+    )
+    # no `special` segment means no mirror
+    assert _mirror_base(Path("/repo/elsewhere")) == Path("/repo/elsewhere")
 
 
 @pytest.mark.anyio

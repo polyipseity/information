@@ -31,6 +31,12 @@ When the whole course folder changed (scaffolding a new course, batch updates), 
 uv run python .agents/skills/academic-lint/main.py "special/academia/<INSTITUTION>/<COURSE>/"
 ```
 
+With no paths, the run covers both trees: `special/academia` and `private/special/academia`.
+
+### Private files
+
+A file under `private/special/academia` validates as if it sat at its mirrored public path. Flashcard tags derive from the path after `special/academia/`, so a private page carries the same tag as its public twin, and a children link written in colocated form resolves against the mirrored tree (see "Public and private trees" in `academic-ingest`). A target missing from both trees still warns.
+
 ## Exit codes
 
 - `0`: no issues
