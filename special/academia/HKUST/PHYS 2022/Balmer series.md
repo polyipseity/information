@@ -23,12 +23,12 @@ A spectral series is the set of lines produced by all the transitions that end o
 
 Flashcards for this section are as follows:
 
-- overview: what the Balmer series is ::@:: A relation fitted to the measured wavelengths of the visible hydrogen lines, together with the lines it produces.
-- who found the Balmer formula, and when ::@:: Johann Balmer, in 1885.
-- how many hydrogen lines lie in the visible, and what happens past them ::@:: Four of them, and the series then crowds towards a limit in the ultraviolet.
-- what a spectral series is ::@:: The set of lines produced by all the transitions that end on one and the same energy level.
-- why hydrogen showed the pattern before any other element did ::@:: Hydrogen has a single electron, so it has few possible transitions; its lines are few and well separated. Other elements have more lines, crowded and interleaved.
-- where the Lyman, Balmer, and Paschen series fall, which level each ends on, and why ::@:: Lyman ends on the ground state in the ultraviolet, Balmer on the second level in the visible, Paschen on the third in the infrared, because the end level fixes the energy drop onto that level, and the drop fixes the photon energy.
+- overview: what the Balmer series is ::@:: A relation fitted to the measured wavelengths of the visible hydrogen lines, together with the lines it produces. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- who found the Balmer formula, and when ::@:: Johann Balmer, in 1885. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- how many hydrogen lines lie in the visible, and what happens past them ::@:: Four of them, and the series then crowds towards a limit in the ultraviolet. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what a spectral series is ::@:: The set of lines produced by all the transitions that end on one and the same energy level. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- why hydrogen showed the pattern before any other element did ::@:: Hydrogen has a single electron, so it has few possible transitions; its lines are few and well separated. Other elements have more lines, crowded and interleaved. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- where the Lyman, Balmer, and Paschen series fall, which level each ends on, and why ::@:: Lyman ends on the ground state in the ultraviolet, Balmer on the second level in the visible, Paschen on the third in the infrared, because the end level fixes the energy drop onto that level, and the drop fixes the photon energy. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## the Balmer formula
 
@@ -42,14 +42,14 @@ As $k$ grows the two terms $k^2$ and $k^2 - 4$ come closer together, the ratio $
 
 Flashcards for this section are as follows:
 
-- overview: the Balmer formula, in terms of the integer $k$ ::@:: $\lambda = 364.56\,\dfrac{k^2}{k^2 - 4}\ \text{nm}$, with $k = 3, 4, 5, \ldots$ and $k > 2$.
-- the Balmer formula with $k = 3$: the wavelength produced ::@:: $\lambda = 364.56 \times \dfrac{9}{5} = 656.3\ \text{nm}$, the red line.
-- the Balmer formula with $k = 4$: the wavelength produced ::@:: $\lambda = 364.56 \times \dfrac{4}{3} = 486.1\ \text{nm}$, the blue-green line.
-- the restriction on $k$ in the Balmer formula, and why it is there ::@:: $k > 2$, because at $k = 2$ the denominator $k^2 - 4$ vanishes and the expression has no value.
-- the constant in $\lambda = 364.56\,\dfrac{k^2}{k^2 - 4}\ \text{nm}$: its value, its units, and what the series approaches ::@:: $364.56$ in nanometres, the series limit.
-- why the wavelengths in the series shorten as $k$ grows ::@:: Because $k^2$ and $k^2 - 4$ come closer together, the ratio $k^2/(k^2 - 4)$ falls towards 1, and the wavelength approaches $364.56\ \text{nm}$ from above.
-- why no Balmer line lies below the series limit at $364.56\ \text{nm}$ ::@:: The ratio $k^2/(k^2 - 4)$ stays above 1 for every $k$ the formula admits, so the wavelength never drops below $364.56\ \text{nm}$.
-- can the position of a Balmer line be moved once the formula is fixed ::@:: No, because each $k$ is a whole number and the formula returns one fixed wavelength per line. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- overview: the Balmer formula, in terms of the integer $k$ ::@:: $\lambda = 364.56\,\dfrac{k^2}{k^2 - 4}\ \text{nm}$, with $k = 3, 4, 5, \ldots$ and $k > 2$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the Balmer formula with $k = 3$: the wavelength produced ::@:: $\lambda = 364.56 \times \dfrac{9}{5} = 656.3\ \text{nm}$, the red line. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the Balmer formula with $k = 4$: the wavelength produced ::@:: $\lambda = 364.56 \times \dfrac{4}{3} = 486.1\ \text{nm}$, the blue-green line. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the restriction on $k$ in the Balmer formula, and why it is there ::@:: $k > 2$, because at $k = 2$ the denominator $k^2 - 4$ vanishes and the expression has no value. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the constant in $\lambda = 364.56\,\dfrac{k^2}{k^2 - 4}\ \text{nm}$: its value, its units, and what the series approaches ::@:: $364.56$ in nanometres, the series limit. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- why the wavelengths in the series shorten as $k$ grows ::@:: Because $k^2$ and $k^2 - 4$ come closer together, the ratio $k^2/(k^2 - 4)$ falls towards 1, and the wavelength approaches $364.56\ \text{nm}$ from above. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- why no Balmer line lies below the series limit at $364.56\ \text{nm}$ ::@:: The ratio $k^2/(k^2 - 4)$ stays above 1 for every $k$ the formula admits, so the wavelength never drops below $364.56\ \text{nm}$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- can the position of a Balmer line be moved once the formula is fixed ::@:: No, because each $k$ is a whole number and the formula returns one fixed wavelength per line. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## where the lines fall
 
@@ -61,13 +61,13 @@ The spacing collapses as $k$ grows. From $k = 3$ to $k = 4$ the wavelengths diff
 
 Flashcards for this section are as follows:
 
-- overview: the wavelengths of the four visible Balmer lines, from about $400$ to $700\ \text{nm}$ ::@:: $656.3\ \text{nm}$ in the red, $486.1\ \text{nm}$ in the blue-green, and $434.0\ \text{nm}$ and $410.2\ \text{nm}$ in the violet.
-- the Balmer lines for $k = 7$ and beyond, which run towards the ultraviolet ::@:: $397.0\ \text{nm}$ at $k = 7$, then a run of lines in the ultraviolet, with $365.0\ \text{nm}$ among those close to the limit.
-- the Balmer lines the eye does not see: how they are measured ::@:: On a plate or a detector.
-- the wavelength of the series limit ::@:: $364.56\ \text{nm}$, the shortest wavelength the Balmer series can produce. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- how the spacing between neighbouring Balmer lines changes as $k$ grows, starting from the $k = 3$ to $k = 4$ gap ::@:: It collapses, from $170\ \text{nm}$ between those two lines down to a nanometre or two once $k$ is large.
-- why infinitely many lines can lie above the series limit at $364.56\ \text{nm}$ ::@:: $k$ runs over the integers without end, and the lines keep shortening towards the limit without crossing it.
-- what the edge in a hydrogen spectrum marks ::@:: The wavelength at which the Balmer lines stop, $364.56\ \text{nm}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- overview: the wavelengths of the four visible Balmer lines, from about $400$ to $700\ \text{nm}$ ::@:: $656.3\ \text{nm}$ in the red, $486.1\ \text{nm}$ in the blue-green, and $434.0\ \text{nm}$ and $410.2\ \text{nm}$ in the violet. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the Balmer lines for $k = 7$ and beyond, which run towards the ultraviolet ::@:: $397.0\ \text{nm}$ at $k = 7$, then a run of lines in the ultraviolet, with $365.0\ \text{nm}$ among those close to the limit. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the Balmer lines the eye does not see: how they are measured ::@:: On a plate or a detector. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the wavelength of the series limit ::@:: $364.56\ \text{nm}$, the shortest wavelength the Balmer series can produce. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- how the spacing between neighbouring Balmer lines changes as $k$ grows, starting from the $k = 3$ to $k = 4$ gap ::@:: It collapses, from $170\ \text{nm}$ between those two lines down to a nanometre or two once $k$ is large. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- why infinitely many lines can lie above the series limit at $364.56\ \text{nm}$ ::@:: $k$ runs over the integers without end, and the lines keep shortening towards the limit without crossing it. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what the edge in a hydrogen spectrum marks ::@:: The wavelength at which the Balmer lines stop, $364.56\ \text{nm}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## why the formula is a puzzle
 
@@ -81,9 +81,9 @@ The quantum argument from 1895 onwards is about failures of this sort, set out i
 
 Flashcards for this section are as follows:
 
-- overview: what made the Balmer formula puzzling ::@:: Nothing in classical physics required hydrogen to emit at those particular wavelengths, and its picture of an orbiting charge predicts a continuous smear rather than separated lines.
-- what classical theory predicts for a radiating atomic electron ::@:: A continuous spread of frequencies, since an accelerating charge radiates and an orbit has a continuum of frequencies in it.
-- how the discrete energy levels account for the lines being separated ::@:: The available energies are discrete, so the differences between them are discrete, and the photon wavelengths are fixed by those differences.
-- what the discrete-level picture leaves unexplained about the Balmer formula ::@:: That the wavelengths come out at exactly the measured values, even though it accounts for the lines existing at all.
-- what made the Balmer formula more than a fit, and what it showed about atoms ::@:: It carries one constant and no free parameter, so it predicted lines that had not been measured, and those lines were found afterwards. Continuous matter cannot do that.
-- the value of the single constant in the Balmer formula $\lambda = 364.56\,\dfrac{k^2}{k^2 - 4}\ \text{nm}$ ::@:: $364.56\ \text{nm}$, fixed by the lines that had already been measured.
+- overview: what made the Balmer formula puzzling ::@:: Nothing in classical physics required hydrogen to emit at those particular wavelengths, and its picture of an orbiting charge predicts a continuous smear rather than separated lines. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what classical theory predicts for a radiating atomic electron ::@:: A continuous spread of frequencies, since an accelerating charge radiates and an orbit has a continuum of frequencies in it. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- how the discrete energy levels account for the lines being separated ::@:: The available energies are discrete, so the differences between them are discrete, and the photon wavelengths are fixed by those differences. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what the discrete-level picture leaves unexplained about the Balmer formula ::@:: That the wavelengths come out at exactly the measured values, even though it accounts for the lines existing at all. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what made the Balmer formula more than a fit, and what it showed about atoms ::@:: It carries one constant and no free parameter, so it predicted lines that had not been measured, and those lines were found afterwards. Continuous matter cannot do that. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the value of the single constant in the Balmer formula $\lambda = 364.56\,\dfrac{k^2}{k^2 - 4}\ \text{nm}$ ::@:: $364.56\ \text{nm}$, fixed by the lines that had already been measured. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->

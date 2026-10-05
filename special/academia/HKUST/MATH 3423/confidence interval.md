@@ -17,8 +17,8 @@ Every confidence interval is built the same way: start from a quantity whose dis
 
 Flashcards for this section are as follows:
 
-- definition: a confidence interval at level $1 - \alpha$ ::@:: A random interval constructed from sample data that has probability $1 - \alpha$ of containing the unknown parameter, where the probability refers to the long-run coverage rate of the procedure.
-- what the confidence level $1 - \alpha$ describes ::@:: The long-run proportion of intervals that would contain the true parameter if the sampling procedure were repeated indefinitely, not the probability that any particular interval contains it.
+- definition: a confidence interval at level $1 - \alpha$ ::@:: A random interval constructed from sample data that has probability $1 - \alpha$ of containing the unknown parameter, where the probability refers to the long-run coverage rate of the procedure. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what the confidence level $1 - \alpha$ describes ::@:: The long-run proportion of intervals that would contain the true parameter if the sampling procedure were repeated indefinitely, not the probability that any particular interval contains it. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## pivotal quantity
 
@@ -36,12 +36,12 @@ The test for a pivot is a question about the distribution alone: if the distribu
 
 Flashcards for this section are as follows:
 
-- definition: a pivotal quantity for a parameter $\theta$ ::@:: A function of the statistic and $\theta$ whose distribution is fully specified, depending on neither $\theta$ nor any other unknown quantity.
-- where the bounds $a$ and $b$ come from: a pivotal quantity $Q$ with $P(a < Q < b) = 1 - \alpha$ ::@:: The endpoints of the central region of $Q$'s known distribution that carries probability $1 - \alpha$, so they are read off that law rather than computed from the data.
-- why a quantity that names an unknown in its law cannot serve: a candidate such as $\bar X - \mu$ ::@:: Its distribution changes with the value of the unknown parameter, so no probability statement about it evaluates to a number.
-- how a pivotal quantity yields a confidence interval ::@:: Its probability statement is rearranged to place the unknown parameter between two bounds.
-- general procedure for constructing a confidence interval: pivotal quantity $Q$ with $P(a < Q < b) = 1 - \alpha$ ::@:: Rearrange to $P(\text{lower}(\bar X) < \theta < \text{upper}(\bar X)) = 1 - \alpha$, then substitute $\bar x$ for $\bar X$ once the data are in.
-- random interval versus confidence interval: before versus after observing data ::@:: Before data, the endpoints are random variables and the interval is random; after data, the endpoints are fixed numbers and the interval is a confidence interval.
+- definition: a pivotal quantity for a parameter $\theta$ ::@:: A function of the statistic and $\theta$ whose distribution is fully specified, depending on neither $\theta$ nor any other unknown quantity. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- where the bounds $a$ and $b$ come from: a pivotal quantity $Q$ with $P(a < Q < b) = 1 - \alpha$ ::@:: The endpoints of the central region of $Q$'s known distribution that carries probability $1 - \alpha$, so they are read off that law rather than computed from the data. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- why a quantity that names an unknown in its law cannot serve: a candidate such as $\bar X - \mu$ ::@:: Its distribution changes with the value of the unknown parameter, so no probability statement about it evaluates to a number. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- how a pivotal quantity yields a confidence interval ::@:: Its probability statement is rearranged to place the unknown parameter between two bounds. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- general procedure for constructing a confidence interval: pivotal quantity $Q$ with $P(a < Q < b) = 1 - \alpha$ ::@:: Rearrange to $P(\text{lower}(\bar X) < \theta < \text{upper}(\bar X)) = 1 - \alpha$, then substitute $\bar x$ for $\bar X$ once the data are in. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- random interval versus confidence interval: before versus after observing data ::@:: Before data, the endpoints are random variables and the interval is random; after data, the endpoints are fixed numbers and the interval is a confidence interval. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 <!-- check: ignore-next-line[section_example_heading]: a matched pair of cases for the definition, kept together so the counterexample sits beside the definition it violates -->
 ### examples and counterexamples
@@ -54,13 +54,13 @@ Three near misses fail on one ground, an unknown left inside the distribution. $
 
 Flashcards for this section are as follows:
 
-- $\frac{\bar X - \mu}{\sigma/\sqrt{n}}$ for a normal sample with $\sigma^2$ known: a pivotal quantity? ::@:: Yes, it is $N(0, 1)$, naming neither $\mu$ nor $\sigma$.
-- $\frac{n S_n^2}{\sigma^2}$ for a normal sample with $\sigma^2$ known: a pivotal quantity? ::@:: Yes, it is $\chi^2(n - 1)$ with $n - 1$ degrees of freedom, naming neither $\mu$ nor $\sigma$.
-- $\frac{\bar X - \mu}{S_n}$ for a normal sample: a pivotal quantity? ::@:: Yes, it is $\tfrac{1}{\sqrt{n-1}} t(n - 1)$ with $n - 1$ degrees of freedom, since $S_n$ is independent of the numerator and no $\sigma$ remains in the law.
-- $\bar X - \mu$ for a normal sample with $\sigma^2$ unknown: a pivotal quantity? ::@:: No, its distribution is $N(0, \sigma^2/n)$, which still names $\sigma$.
-- $S_n^2$ for a normal sample: a pivotal quantity? ::@:: No, its distribution is $\tfrac{\sigma^2}{n}\chi^2(n-1)$, which still names $\sigma^2$; only the scaled quantity $\tfrac{nS_n^2}{\sigma^2}$ is pivotal.
-- $\bar X/\mu$ for a normal sample with $\mu$ and $\sigma$ unknown: a pivotal quantity? ::@:: No, its distribution depends on the unknown ratio $\mu/\sigma$.
-- test for a pivotal quantity: for a candidate function of the sample and $\theta$ ::@:: Its distribution must be fully specified; if the distribution still names an unknown quantity, it is not pivotal.
+- $\frac{\bar X - \mu}{\sigma/\sqrt{n}}$ for a normal sample with $\sigma^2$ known: a pivotal quantity? ::@:: Yes, it is $N(0, 1)$, naming neither $\mu$ nor $\sigma$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- $\frac{n S_n^2}{\sigma^2}$ for a normal sample with $\sigma^2$ known: a pivotal quantity? ::@:: Yes, it is $\chi^2(n - 1)$ with $n - 1$ degrees of freedom, naming neither $\mu$ nor $\sigma$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- $\frac{\bar X - \mu}{S_n}$ for a normal sample: a pivotal quantity? ::@:: Yes, it is $\tfrac{1}{\sqrt{n-1}} t(n - 1)$ with $n - 1$ degrees of freedom, since $S_n$ is independent of the numerator and no $\sigma$ remains in the law. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- $\bar X - \mu$ for a normal sample with $\sigma^2$ unknown: a pivotal quantity? ::@:: No, its distribution is $N(0, \sigma^2/n)$, which still names $\sigma$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- $S_n^2$ for a normal sample: a pivotal quantity? ::@:: No, its distribution is $\tfrac{\sigma^2}{n}\chi^2(n-1)$, which still names $\sigma^2$; only the scaled quantity $\tfrac{nS_n^2}{\sigma^2}$ is pivotal. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- $\bar X/\mu$ for a normal sample with $\mu$ and $\sigma$ unknown: a pivotal quantity? ::@:: No, its distribution depends on the unknown ratio $\mu/\sigma$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- test for a pivotal quantity: for a candidate function of the sample and $\theta$ ::@:: Its distribution must be fully specified; if the distribution still names an unknown quantity, it is not pivotal. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## confidence interval for the mean
 
@@ -74,9 +74,9 @@ Observed data replace $\bar X$ by $\bar x$, and the interval reported from them,
 
 Flashcards for this section are as follows:
 
-- pivotal quantity for the mean: $X_i$ i.i.d. from $N(\mu, \sigma^2)$, $\sigma^2$ known, so $\bar X \sim N(\mu, \sigma^2/n)$ ::@:: $\frac{\bar X - \mu}{\sigma/\sqrt{n}} \sim N(0, 1)$.
-- random interval for $\mu$: confidence level $1 - \alpha$, $\sigma^2$ known ::@:: $\bar X \pm z_{\alpha/2} \frac{\sigma}{\sqrt{n}}$.
-- confidence interval for $\mu$ after observing data: $\sigma^2$ known ::@:: $\bar x \pm z_{\alpha/2} \frac{\sigma}{\sqrt{n}}$, where $z_{\alpha/2}$ is the upper $\alpha/2$ quantile of $N(0, 1)$.
+- pivotal quantity for the mean: $X_i$ i.i.d. from $N(\mu, \sigma^2)$, $\sigma^2$ known, so $\bar X \sim N(\mu, \sigma^2/n)$ ::@:: $\frac{\bar X - \mu}{\sigma/\sqrt{n}} \sim N(0, 1)$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- random interval for $\mu$: confidence level $1 - \alpha$, $\sigma^2$ known ::@:: $\bar X \pm z_{\alpha/2} \frac{\sigma}{\sqrt{n}}$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- confidence interval for $\mu$ after observing data: $\sigma^2$ known ::@:: $\bar x \pm z_{\alpha/2} \frac{\sigma}{\sqrt{n}}$, where $z_{\alpha/2}$ is the upper $\alpha/2$ quantile of $N(0, 1)$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## when the variance is unknown
 
@@ -92,11 +92,11 @@ The interval at level $1 - \alpha$ is $$\bar x \pm t_{n-1,\alpha/2}\frac{S_n}{\s
 
 Flashcards for this section are as follows:
 
-- interval obtained by substituting $S_n$ for $\sigma$: a normal sample with $\sigma^2$ unknown ::@:: $\bar x \pm z_{\alpha/2} \frac{S_n}{\sqrt{n}}$, which is not a valid confidence interval at level $1 - \alpha$.
-- why replacing $\sigma$ by $S_n$ invalidates the standard normal pivot: for a normal sample ::@:: $\frac{\bar X - \mu}{\sigma/\sqrt{n}} \sim N(0, 1)$ holds because $\sigma$ is a number, and a random variable in the denominator changes the distribution of the quotient.
-- distribution of $\frac{\bar X - \mu}{S_n/\sqrt{n}}$ for a normal sample with $\sigma^2$ unknown ::@:: Not $N(0, 1)$ but $\sqrt{\frac{n}{n-1}}\,t(n - 1)$, which has heavier tails, so the cutoff $z_{\alpha/2}$ under-covers.
-- distribution of the numerator of the substituted pivot: $X_1, \ldots, X_n$ i.i.d. from $N(\mu, \sigma^2)$ ::@:: $(\bar X - \mu)/(\sigma/\sqrt{n}) \sim N(0, 1)$, independent of $S_n$ because $\bar X$ and $S_n^2$ are.
-- distribution of the denominator of the substituted pivot: $X_1, \ldots, X_n$ i.i.d. from $N(\mu, \sigma^2)$ with $n > 1$ ::@:: $(S_n/\sigma)^2 = \frac{n S_n^2}{\sigma^2} \sim \chi^2(n - 1)$.
-- pivotal quantity for $\mu$ when $\sigma^2$ is unknown: for a normal sample of size $n > 1$ ::@:: $\frac{\bar X - \mu}{S_n} \sim \frac{1}{\sqrt{n-1}}t(n - 1)$.
-- why the two forms of the $t$ interval are equal ::@:: Because $S_{n-1} = \sqrt{\frac{n}{n-1}}S_n$, which makes the two denominators the same number.
-- confidence interval for $\mu$ after observing data: $\sigma^2$ unknown, normal sample of size $n > 1$ ::@:: $\bar x \pm t_{n-1,\alpha/2}\frac{S_n}{\sqrt{n-1}} = \bar x \pm t_{n-1,\alpha/2}\frac{S_{n-1}}{\sqrt{n}}$, where $t_{n-1,\alpha/2}$ is the upper $\alpha/2$ quantile of $t(n-1)$.
+- interval obtained by substituting $S_n$ for $\sigma$: a normal sample with $\sigma^2$ unknown ::@:: $\bar x \pm z_{\alpha/2} \frac{S_n}{\sqrt{n}}$, which is not a valid confidence interval at level $1 - \alpha$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- why replacing $\sigma$ by $S_n$ invalidates the standard normal pivot: for a normal sample ::@:: $\frac{\bar X - \mu}{\sigma/\sqrt{n}} \sim N(0, 1)$ holds because $\sigma$ is a number, and a random variable in the denominator changes the distribution of the quotient. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- distribution of $\frac{\bar X - \mu}{S_n/\sqrt{n}}$ for a normal sample with $\sigma^2$ unknown ::@:: Not $N(0, 1)$ but $\sqrt{\frac{n}{n-1}}\,t(n - 1)$, which has heavier tails, so the cutoff $z_{\alpha/2}$ under-covers. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- distribution of the numerator of the substituted pivot: $X_1, \ldots, X_n$ i.i.d. from $N(\mu, \sigma^2)$ ::@:: $(\bar X - \mu)/(\sigma/\sqrt{n}) \sim N(0, 1)$, independent of $S_n$ because $\bar X$ and $S_n^2$ are. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- distribution of the denominator of the substituted pivot: $X_1, \ldots, X_n$ i.i.d. from $N(\mu, \sigma^2)$ with $n > 1$ ::@:: $(S_n/\sigma)^2 = \frac{n S_n^2}{\sigma^2} \sim \chi^2(n - 1)$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- pivotal quantity for $\mu$ when $\sigma^2$ is unknown: for a normal sample of size $n > 1$ ::@:: $\frac{\bar X - \mu}{S_n} \sim \frac{1}{\sqrt{n-1}}t(n - 1)$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- why the two forms of the $t$ interval are equal ::@:: Because $S_{n-1} = \sqrt{\frac{n}{n-1}}S_n$, which makes the two denominators the same number. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- confidence interval for $\mu$ after observing data: $\sigma^2$ unknown, normal sample of size $n > 1$ ::@:: $\bar x \pm t_{n-1,\alpha/2}\frac{S_n}{\sqrt{n-1}} = \bar x \pm t_{n-1,\alpha/2}\frac{S_{n-1}}{\sqrt{n}}$, where $t_{n-1,\alpha/2}$ is the upper $\alpha/2$ quantile of $t(n-1)$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->

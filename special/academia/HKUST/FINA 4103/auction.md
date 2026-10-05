@@ -16,10 +16,10 @@ An _auction_ is a mechanism that collects bids and has a market institution set 
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A mechanism that collects bids and has a market institution set the price, usually to allocate an asset.
-- why auctions suit primary markets ::@:: They handle high volume and volatility efficiently.
-- assets and goods auctioned besides newly issued securities ::@:: Art, commodities, and airport slots.
-- the two auction forms that matter in financial markets ::@:: The single-sided auction, in which one side of the market is fixed, and the double auction, in which both sides propose prices and quantities.
+- overview ::@:: A mechanism that collects bids and has a market institution set the price, usually to allocate an asset. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-02T00:10:00.000Z,0,2.3065,2.11810397,1,1,0,1,2026-11-02T00:00:00.000Z-->
+- why auctions suit primary markets ::@:: They handle high volume and volatility efficiently. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- assets and goods auctioned besides newly issued securities ::@:: Art, commodities, and airport slots. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the two auction forms that matter in financial markets ::@:: The single-sided auction, in which one side of the market is fixed, and the double auction, in which both sides propose prices and quantities. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## single-sided auctions
 
@@ -29,12 +29,12 @@ In a single-sided auction, demand or supply is solicited at each price while the
 
 Flashcards for this section are as follows:
 
-- single-sided auction ::@:: One side of the market is fixed, and demand or supply is solicited at each price.
-- Dutch auction ::@:: The descending-clock form of a first-price auction, strategically equivalent to its sealed-bid version under independent private values.
-- English auction ::@:: The ascending-outcry form of a second-price auction, strategically equivalent to its sealed-bid version under independent private values.
-- third variant of a single-sided auction ::@:: The all-pay auction.
-- revenue equivalence theorem ::@:: A theorem relating what the forms of a single-sided auction raise.
-- leading example of a single-sided auction ::@:: The primary market for United States Treasury securities, a first-price one-sided auction turning over trillions of dollars a quarter.
+- single-sided auction ::@:: One side of the market is fixed, and demand or supply is solicited at each price. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-02T00:10:00.000Z,0,2.3065,2.11810397,1,1,0,1,2026-11-02T00:00:00.000Z-->
+- Dutch auction ::@:: The descending-clock form of a first-price auction, strategically equivalent to its sealed-bid version under independent private values. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- English auction ::@:: The ascending-outcry form of a second-price auction, strategically equivalent to its sealed-bid version under independent private values. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- third variant of a single-sided auction ::@:: The all-pay auction. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- revenue equivalence theorem ::@:: A theorem relating what the forms of a single-sided auction raise. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- leading example of a single-sided auction ::@:: The primary market for United States Treasury securities, a first-price one-sided auction turning over trillions of dollars a quarter. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## double auctions
 
@@ -44,9 +44,9 @@ In a double auction many traders on both sides propose prices and quantities, an
 
 Flashcards for this section are as follows:
 
-- double auction ::@:: Multiple buyers and sellers submit bids and asks, and the market institution chooses one price that clears the market.
-- who trades at the clearing price of a double auction ::@:: Sellers who asked below it, buyers who bid above it, and anyone who bid or asked exactly it.
-- what the single and double auction curves show ::@:: With one side fixed, a vertical demand line meets the rising stepped supply curve; with both sides active, the falling stepped bid curve meets the rising stepped offer curve, and the crossing sets the price and the traded quantity.
+- double auction ::@:: Multiple buyers and sellers submit bids and asks, and the market institution chooses one price that clears the market. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- who trades at the clearing price of a double auction ::@:: Sellers who asked below it, buyers who bid above it, and anyone who bid or asked exactly it. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what the single and double auction curves show ::@:: With one side fixed, a vertical demand line meets the rising stepped supply curve; with both sides active, the falling stepped bid curve meets the rising stepped offer curve, and the crossing sets the price and the traded quantity. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 <!-- check: ignore-next-line[header_style]: Walras is a proper noun -->
 ### Walrasian clearing mechanism
@@ -57,7 +57,7 @@ Walras proposed the mechanism by which a double auction clears. An auctioneer an
 
 Flashcards for this section are as follows:
 
-- Walrasian clearing mechanism ::@:: An auctioneer announces a tentative price, traders state the quantities they will trade at it, and the auctioneer raises the price while demand exceeds supply and lowers it while supply exceeds demand until the two are equal.
+- Walrasian clearing mechanism ::@:: An auctioneer announces a tentative price, traders state the quantities they will trade at it, and the auctioneer raises the price while demand exceeds supply and lowers it while supply exceeds demand until the two are equal. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ### limits of the clearing mechanism
 
@@ -67,9 +67,9 @@ The algorithm is not what a real market does. With friction, such as non-linear 
 
 Flashcards for this section are as follows:
 
-- why the clearing algorithm breaks down with friction ::@:: The problem becomes NP-hard, because of non-linear preferences and trading costs, and several prices may clear the same market.
-- how real traders deviate from the clearing algorithm ::@:: They wait, they use sealed bids and offers, and auctions are run one at a time.
-- what can persist because of that deviation ::@:: Mispricing, which is a mechanism-design question.
+- why the clearing algorithm breaks down with friction ::@:: The problem becomes NP-hard, because of non-linear preferences and trading costs, and several prices may clear the same market. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- how real traders deviate from the clearing algorithm ::@:: They wait, they use sealed bids and offers, and auctions are run one at a time. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what can persist because of that deviation ::@:: Mispricing, which is a mechanism-design question. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## fixing
 
@@ -79,12 +79,12 @@ A _fixing_ is an auction-like mechanism that sets a single reference price rathe
 
 Flashcards for this section are as follows:
 
-- fixing ::@:: An auction-like mechanism that sets a single reference price instead of allocating an asset.
-- who takes part in a fixing ::@:: A limited number of participants, who submit buy and sell orders on behalf of clients.
-- how a London fixing sets its price ::@:: Members solicit buy and sell orders from clients and set a price that clears demand and supply.
-- how often the gold fixing price is announced, and when ::@:: Twice a day, at 10:30 and 15:00.
-- what the gold fixing price is used for ::@:: As a reference price for gold trading.
-- why a fixing can be illegal ::@:: A limited group of participants sets a price that others rely on, which can be collusive.
+- fixing ::@:: An auction-like mechanism that sets a single reference price instead of allocating an asset. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- who takes part in a fixing ::@:: A limited number of participants, who submit buy and sell orders on behalf of clients. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- how a London fixing sets its price ::@:: Members solicit buy and sell orders from clients and set a price that clears demand and supply. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- how often the gold fixing price is announced, and when ::@:: Twice a day, at 10:30 and 15:00. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what the gold fixing price is used for ::@:: As a reference price for gold trading. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- why a fixing can be illegal ::@:: A limited group of participants sets a price that others rely on, which can be collusive. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## opening and closing auctions
 
@@ -96,12 +96,12 @@ The opening price is the reference point that starts a trading session, and the 
 
 Flashcards for this section are as follows:
 
-- three phases of an opening or closing auction ::@:: Call auction, price determination, and market balancing.
-- what the call auction phase collects, and what it displays ::@:: It collects quotes and quantities, essentially limit and market orders, and displays only limited information such as an indicative execution price and quantity.
-- what the price determination phase determines ::@:: The price that maximizes the volume traded.
-- what the market balancing phase does ::@:: Market makers absorb the excess demand or supply at the clearing price.
-- what the opening price is used for ::@:: As the reference point that starts a trading session.
-- uses of the closing price ::@:: Net asset values of mutual funds, margin requirements, mark-to-market flows, index inclusion and exclusion, and the execution of derivative contracts.
+- three phases of an opening or closing auction ::@:: Call auction, price determination, and market balancing. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what the call auction phase collects, and what it displays ::@:: It collects quotes and quantities, essentially limit and market orders, and displays only limited information such as an indicative execution price and quantity. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what the price determination phase determines ::@:: The price that maximizes the volume traded. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what the market balancing phase does ::@:: Market makers absorb the excess demand or supply at the clearing price. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what the opening price is used for ::@:: As the reference point that starts a trading session. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- uses of the closing price ::@:: Net asset values of mutual funds, margin requirements, mark-to-market flows, index inclusion and exclusion, and the execution of derivative contracts. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## gaming an auction
 
@@ -113,10 +113,10 @@ Sniping at the close shows up in the data. On the Hong Kong Stock Exchange, whos
 
 Flashcards for this section are as follows:
 
-- what makes a close auction gameable ::@:: The exchange publishes real-time indicative information, and for less liquid securities the end time is known.
-- how a trader flushes out other traders in a close auction ::@:: By posting and cancelling orders before the end time, which carries no penalty.
-- what that gaming produced ::@:: Volatile closings and price inefficiency.
-- change introduced by the London Stock Exchange in 2003 ::@:: A random end time for the close auction.
-- what sniping at the close looks like in the data ::@:: On the Hong Kong Stock Exchange, huge sell orders arrived at 4:09:57 in the afternoon, in the closing call auction's final seconds, and the indicative closing price plunged from 37 dollars to 33 dollars (Park, Suen, and Wan, 2022, Journal of Financial Markets).
-- when the sniping attacks occurred, and what followed ::@:: They clustered around derivative expirations, which supplied the incentive, and prices tended to revert the following day.
-- what happened to the standard closing call auction behind this data ::@:: The Hong Kong Stock Exchange ran it from 2008 and suspended it ten months later over suspected manipulation.
+- what makes a close auction gameable ::@:: The exchange publishes real-time indicative information, and for less liquid securities the end time is known. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- how a trader flushes out other traders in a close auction ::@:: By posting and cancelling orders before the end time, which carries no penalty. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what that gaming produced ::@:: Volatile closings and price inefficiency. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- change introduced by the London Stock Exchange in 2003 ::@:: A random end time for the close auction. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what sniping at the close looks like in the data ::@:: On the Hong Kong Stock Exchange, huge sell orders arrived at 4:09:57 in the afternoon, in the closing call auction's final seconds, and the indicative closing price plunged from 37 dollars to 33 dollars (Park, Suen, and Wan, 2022, Journal of Financial Markets). <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- when the sniping attacks occurred, and what followed ::@:: They clustered around derivative expirations, which supplied the incentive, and prices tended to revert the following day. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what happened to the standard closing call auction behind this data ::@:: The Hong Kong Stock Exchange ran it from 2008 and suspended it ten months later over suspected manipulation. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->

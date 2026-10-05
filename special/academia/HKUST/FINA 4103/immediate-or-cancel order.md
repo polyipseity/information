@@ -16,8 +16,8 @@ An _immediate-or-cancel (IOC)_ order must be filled immediately or cancelled. An
 
 Flashcards for this section are as follows:
 
-- what an IOC order requires ::@:: Immediate execution or cancellation.
-- what "immediate" means in IOC ::@:: Filled at submission against available liquidity; any remainder is cancelled.
+- what an IOC order requires ::@:: Immediate execution or cancellation. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what "immediate" means in IOC ::@:: Filled at submission against available liquidity; any remainder is cancelled. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 <!-- check: ignore-next-line[header_style]: IOC is an acronym -->
 ## IOC and phantom liquidity
@@ -32,9 +32,9 @@ _Phantom liquidity_ is a quote that appears in the LOB data feed but disappears 
 
 Flashcards for this section are as follows:
 
-- why high-frequency traders use IOC orders ::@:: To probe the book without committing, avoiding the risk of a standing limit order being picked off.
-- why two equally fast IOC rivals each execute first with probability one half ::@:: They are equally fast, so arrival at the venue is a tie broken at random.
-- what phantom liquidity is ::@:: A quote that appears in the LOB data feed but disappears when an order arrives to take it.
-- what causes phantom liquidity ::@:: Speed differences in data feeds, processing, and order placement.
-- two types of data access at NYSE ::@:: Direct data feed (raw, fast) and consolidated data feed (aggregate, slow).
-- what "Flash Boys" (Michael Lewis, 2014) is about ::@:: High-frequency trading and the speed advantages that produce phantom liquidity.
+- why high-frequency traders use IOC orders ::@:: To probe the book without committing, avoiding the risk of a standing limit order being picked off. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- why two equally fast IOC rivals each execute first with probability one half ::@:: They are equally fast, so arrival at the venue is a tie broken at random. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what phantom liquidity is ::@:: A quote that appears in the LOB data feed but disappears when an order arrives to take it. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what causes phantom liquidity ::@:: Speed differences in data feeds, processing, and order placement. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- two types of data access at NYSE ::@:: Direct data feed (raw, fast) and consolidated data feed (aggregate, slow). <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what "Flash Boys" (Michael Lewis, 2014) is about ::@:: High-frequency trading and the speed advantages that produce phantom liquidity. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->

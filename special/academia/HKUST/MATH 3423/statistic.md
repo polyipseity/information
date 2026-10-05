@@ -19,10 +19,10 @@ Every quantity a statistic needs is therefore in hand once the sample has been d
 
 Flashcards for this section are as follows:
 
-- definition: for a sample $X_1, \ldots, X_n$ ::@:: A real- or vector-valued function of the sample whose value contains no unknown parameter for any $X$, so it can be computed from the data alone.
-- restriction on a statistic: and the parameter $\theta$ ::@:: Computing it must not require any unknown quantity, so it may not depend on $\theta$.
-- why a statistic may not use an unknown parameter: for a rule meant to be applied once the data arrive ::@:: It is fixed in advance and has to be evaluable at that moment, when the parameter is still out of reach.
-- why a statistic is observable: for a sample that has been drawn ::@:: Every quantity it needs is in hand, since none of them was unknown.
+- definition: for a sample $X_1, \ldots, X_n$ ::@:: A real- or vector-valued function of the sample whose value contains no unknown parameter for any $X$, so it can be computed from the data alone. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- restriction on a statistic: and the parameter $\theta$ ::@:: Computing it must not require any unknown quantity, so it may not depend on $\theta$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- why a statistic may not use an unknown parameter: for a rule meant to be applied once the data arrive ::@:: It is fixed in advance and has to be evaluable at that moment, when the parameter is still out of reach. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- why a statistic is observable: for a sample that has been drawn ::@:: Every quantity it needs is in hand, since none of them was unknown. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## dependence on unknown parameters
 
@@ -34,9 +34,9 @@ The test asks about the parameter, not about the notation. Nothing requires a fo
 
 Flashcards for this section are as follows:
 
-- how to decide whether a function of the sample is a statistic: given a candidate $T(X)$ ::@:: Check what must be known to evaluate it; any unknown parameter such as $\theta$ or $\mu$ disqualifies it.
-- what the test actually examines: for a formula that mentions an unfamiliar-looking quantity ::@:: Whether an unknown parameter was used, not which letters the formula happens to contain.
-- must a statistic be an average or a linear function of the observations ::@:: No, any function of the data qualifies, however indirect.
+- how to decide whether a function of the sample is a statistic: given a candidate $T(X)$ ::@:: Check what must be known to evaluate it; any unknown parameter such as $\theta$ or $\mu$ disqualifies it. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what the test actually examines: for a formula that mentions an unfamiliar-looking quantity ::@:: Whether an unknown parameter was used, not which letters the formula happens to contain. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- must a statistic be an average or a linear function of the observations ::@:: No, any function of the data qualifies, however indirect. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 <!-- check: ignore-next-line[section_example_heading]: a matched pair of cases for the definition, kept together so the counterexample sits beside the definition it violates -->
 ### examples and counterexamples
@@ -53,11 +53,11 @@ The reciprocal $\frac{1}{\bar X}$ is a statistic too, being a function of the sa
 
 Flashcards for this section are as follows:
 
-- sample mean $\bar X = \frac{1}{n} \sum_{i=1}^{n} X_i$: statistic or not, in a model with unknown $\mu$ and $\sigma$ ::@:: Yes, it is a statistic, since the data give every $X_i$ and no unknown parameter is needed.
-- sample median $X_{(\lceil n/2 \rceil)}$ of a continuous variable: statistic or not ::@:: Yes, it is an order statistic, read off after the observed values are sorted.
-- $\frac{1}{n} \sum_{i=1}^{n} (X_i - \mu)^2$ for unknown $\mu$: statistic or not ::@:: No, it mentions the unknown $\mu$, which the sample cannot supply.
-- $\frac{X_1 - \bar X}{S_{n-1}}$: statistic or not, though it mentions estimators of $\mu$ and $\sigma$ ::@:: Yes, $\bar X$ and $S_{n-1}$ are functions of the data, and the formula names no unknown parameter.
-- $\frac{1}{\bar X}$ on the samples with $\bar X \ne 0$: statistic or not ::@:: Yes, it is a function of the statistic $\bar X$, defined wherever the sample mean is nonzero.
+- sample mean $\bar X = \frac{1}{n} \sum_{i=1}^{n} X_i$: statistic or not, in a model with unknown $\mu$ and $\sigma$ ::@:: Yes, it is a statistic, since the data give every $X_i$ and no unknown parameter is needed. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- sample median $X_{(\lceil n/2 \rceil)}$ of a continuous variable: statistic or not ::@:: Yes, it is an order statistic, read off after the observed values are sorted. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- $\frac{1}{n} \sum_{i=1}^{n} (X_i - \mu)^2$ for unknown $\mu$: statistic or not ::@:: No, it mentions the unknown $\mu$, which the sample cannot supply. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- $\frac{X_1 - \bar X}{S_{n-1}}$: statistic or not, though it mentions estimators of $\mu$ and $\sigma$ ::@:: Yes, $\bar X$ and $S_{n-1}$ are functions of the data, and the formula names no unknown parameter. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- $\frac{1}{\bar X}$ on the samples with $\bar X \ne 0$: statistic or not ::@:: Yes, it is a function of the statistic $\bar X$, defined wherever the sample mean is nonzero. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## sample mean and sample variance
 
@@ -69,7 +69,7 @@ The sample mean is the estimator of the unknown population mean and $\bar x$ the
 
 Flashcards for this section are as follows:
 
-- population variance and the statistic that estimates it ::@:: The sample variance, the spread of the data around the sample mean.
-- the average of the data $\bar x = \frac{1}{n} \sum_{i=1}^{n} x_i$ against the statistic $\bar X$ ::@:: The statistic evaluated on the observed values, so the average is a number while the statistic remains a random variable.
-- the estimator of the unknown population mean, and the estimate it yields ::@:: The sample mean is the estimator, and the average of the data is the estimate.
-- what is fixed about a statistic before the sample is drawn ::@:: The rule, not the value. The distribution the statistic follows comes from the model, not from the data.
+- population variance and the statistic that estimates it ::@:: The sample variance, the spread of the data around the sample mean. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the average of the data $\bar x = \frac{1}{n} \sum_{i=1}^{n} x_i$ against the statistic $\bar X$ ::@:: The statistic evaluated on the observed values, so the average is a number while the statistic remains a random variable. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the estimator of the unknown population mean, and the estimate it yields ::@:: The sample mean is the estimator, and the average of the data is the estimate. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what is fixed about a statistic before the sample is drawn ::@:: The rule, not the value. The distribution the statistic follows comes from the model, not from the data. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->

@@ -19,12 +19,12 @@ A linear function of a normal random variable is normal, and a normal random vec
 
 Flashcards for this section are as follows:
 
-- overview: for a $p \times 1$ vector $\mathbf X$ ::@:: The normal distribution extended from one variable to several variables, written $N_p(\boldsymbol \mu, \boldsymbol \Sigma)$.
-- notation: for $\mathbf X = (X_1, \ldots, X_p)'$ ::@:: $\mathbf X \sim N_p(\boldsymbol \mu, \boldsymbol \Sigma)$.
-- mean vector $\boldsymbol \mu$: the first parameter of $N_p(\boldsymbol \mu, \boldsymbol \Sigma)$ ::@:: The expected value of $\mathbf X$, a $p \times 1$ vector.
-- variance-covariance matrix $\boldsymbol \Sigma$: the second parameter of $N_p(\boldsymbol \mu, \boldsymbol \Sigma)$ ::@:: The $p \times p$ matrix of covariances $\operatorname{Cov}(X_i, X_j)$ of $\mathbf X$.
-- bivariate case: $p = 2$ ::@:: $N_2(\boldsymbol \mu, \boldsymbol \Sigma)$, the bivariate normal distribution.
-- the sample mean and the sample variance of a normal sample: which of them is a linear function of $\mathbf X$? ::@:: Only the sample mean. The sample variance squares the deviations before summing them, so it is a quadratic form in $\mathbf X$ and is not normal.
+- overview: for a $p \times 1$ vector $\mathbf X$ ::@:: The normal distribution extended from one variable to several variables, written $N_p(\boldsymbol \mu, \boldsymbol \Sigma)$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- notation: for $\mathbf X = (X_1, \ldots, X_p)'$ ::@:: $\mathbf X \sim N_p(\boldsymbol \mu, \boldsymbol \Sigma)$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- mean vector $\boldsymbol \mu$: the first parameter of $N_p(\boldsymbol \mu, \boldsymbol \Sigma)$ ::@:: The expected value of $\mathbf X$, a $p \times 1$ vector. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- variance-covariance matrix $\boldsymbol \Sigma$: the second parameter of $N_p(\boldsymbol \mu, \boldsymbol \Sigma)$ ::@:: The $p \times p$ matrix of covariances $\operatorname{Cov}(X_i, X_j)$ of $\mathbf X$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- bivariate case: $p = 2$ ::@:: $N_2(\boldsymbol \mu, \boldsymbol \Sigma)$, the bivariate normal distribution. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the sample mean and the sample variance of a normal sample: which of them is a linear function of $\mathbf X$? ::@:: Only the sample mean. The sample variance squares the deviations before summing them, so it is a quadratic form in $\mathbf X$ and is not normal. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## probability density function
 
@@ -40,15 +40,15 @@ Which sample statistics are normal comes down to whether they are linear or quad
 
 Flashcards for this section are as follows:
 
-- squared distance in one dimension: $((x - \mu)/\sigma)^2$ ::@:: $(x - \mu)(\sigma^2)^{-1}(x - \mu)$, a scalar.
-- exponent of the multivariate normal density: the vector analogue of the one-dimensional squared distance $(x - \mu)(\sigma^2)^{-1}(x - \mu)$ ::@:: The quadratic form $(\mathbf x - \boldsymbol \mu)' \boldsymbol \Sigma^{-1} (\mathbf x - \boldsymbol \mu)$, still a scalar.
-- positive-definiteness of $\boldsymbol \Sigma$: for every non-zero vector $\mathbf z$ with real entries ::@:: $\mathbf z' \boldsymbol \Sigma \mathbf z > 0$.
-- normalizing constant of the multivariate normal density: multiplying $e^{-(\mathbf x - \boldsymbol \mu)' \boldsymbol \Sigma^{-1} (\mathbf x - \boldsymbol \mu)/2}$ ::@:: $(2\pi)^{-p/2} \lvert \boldsymbol \Sigma \rvert^{-1/2}$, where $\lvert \boldsymbol \Sigma \rvert$ is the determinant.
-- multivariate normal density: $f(\mathbf x)$ for $\mathbf X \sim N_p(\boldsymbol \mu, \boldsymbol \Sigma)$ ::@:: $f(\mathbf x) = (2\pi)^{-p/2} \lvert \boldsymbol \Sigma \rvert^{-1/2} e^{-(\mathbf x - \boldsymbol \mu)' \boldsymbol \Sigma^{-1} (\mathbf x - \boldsymbol \mu)/2}$.
-- support of the multivariate normal density: each $x_i$ for $i = 1, \ldots, p$ ::@:: $-\infty < x_i < \infty$, the whole space.
-- why $\boldsymbol \Sigma$ must be positive-definite in the density $f(\mathbf x)$ ::@:: So the exponent stays non-negative as $\mathbf x$ moves away from $\boldsymbol \mu$, and so the normalizing constant $(2\pi)^{-p/2} \lvert \boldsymbol \Sigma \rvert^{-1/2}$ is defined.
-- distribution of the sample variance for a normal sample of size $n > 1$: normal, or something else? ::@:: Not normal. The sample variance is a quadratic form in the components, and its scaled form $\frac{(n-1) S_{n-1}^2}{\sigma^2}$ follows $\chi^2(n - 1)$.
-- why the sample variance does not inherit normality from a normal sample while the sample mean does: what separates them? ::@:: The sample variance is a quadratic form in the components rather than a linear function of them, so the closure property for linear transformations does not reach it.
+- squared distance in one dimension: $((x - \mu)/\sigma)^2$ ::@:: $(x - \mu)(\sigma^2)^{-1}(x - \mu)$, a scalar. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- exponent of the multivariate normal density: the vector analogue of the one-dimensional squared distance $(x - \mu)(\sigma^2)^{-1}(x - \mu)$ ::@:: The quadratic form $(\mathbf x - \boldsymbol \mu)' \boldsymbol \Sigma^{-1} (\mathbf x - \boldsymbol \mu)$, still a scalar. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- positive-definiteness of $\boldsymbol \Sigma$: for every non-zero vector $\mathbf z$ with real entries ::@:: $\mathbf z' \boldsymbol \Sigma \mathbf z > 0$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- normalizing constant of the multivariate normal density: multiplying $e^{-(\mathbf x - \boldsymbol \mu)' \boldsymbol \Sigma^{-1} (\mathbf x - \boldsymbol \mu)/2}$ ::@:: $(2\pi)^{-p/2} \lvert \boldsymbol \Sigma \rvert^{-1/2}$, where $\lvert \boldsymbol \Sigma \rvert$ is the determinant. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- multivariate normal density: $f(\mathbf x)$ for $\mathbf X \sim N_p(\boldsymbol \mu, \boldsymbol \Sigma)$ ::@:: $f(\mathbf x) = (2\pi)^{-p/2} \lvert \boldsymbol \Sigma \rvert^{-1/2} e^{-(\mathbf x - \boldsymbol \mu)' \boldsymbol \Sigma^{-1} (\mathbf x - \boldsymbol \mu)/2}$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- support of the multivariate normal density: each $x_i$ for $i = 1, \ldots, p$ ::@:: $-\infty < x_i < \infty$, the whole space. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- why $\boldsymbol \Sigma$ must be positive-definite in the density $f(\mathbf x)$ ::@:: So the exponent stays non-negative as $\mathbf x$ moves away from $\boldsymbol \mu$, and so the normalizing constant $(2\pi)^{-p/2} \lvert \boldsymbol \Sigma \rvert^{-1/2}$ is defined. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- distribution of the sample variance for a normal sample of size $n > 1$: normal, or something else? ::@:: Not normal. The sample variance is a quadratic form in the components, and its scaled form $\frac{(n-1) S_{n-1}^2}{\sigma^2}$ follows $\chi^2(n - 1)$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- why the sample variance does not inherit normality from a normal sample while the sample mean does: what separates them? ::@:: The sample variance is a quadratic form in the components rather than a linear function of them, so the closure property for linear transformations does not reach it. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## linear transformations
 
@@ -60,10 +60,10 @@ The sample mean is one such linear combination of the components, and $A = (\tfr
 
 Flashcards for this section are as follows:
 
-- linear transformation of a normal random vector: $\mathbf X \sim N_p(\boldsymbol \mu, \boldsymbol \Sigma)$ and a $q \times p$ matrix $A$ ::@:: $A \mathbf X \sim N_q(A \boldsymbol \mu, A \boldsymbol \Sigma A')$.
-- mean of $A \mathbf X$: for $\mathbf X \sim N_p(\boldsymbol \mu, \boldsymbol \Sigma)$ ::@:: $A \boldsymbol \mu$.
-- covariance matrix of $A \mathbf X$: for $\mathbf X \sim N_p(\boldsymbol \mu, \boldsymbol \Sigma)$ ::@:: $A \boldsymbol \Sigma A'$.
-- a linear combination of the components of $\mathbf X \sim N_p(\boldsymbol \mu, \boldsymbol \Sigma)$: normal or not ::@:: Yes, the mean becomes $A \boldsymbol \mu$ and the covariance becomes $A \boldsymbol \Sigma A'$.
+- linear transformation of a normal random vector: $\mathbf X \sim N_p(\boldsymbol \mu, \boldsymbol \Sigma)$ and a $q \times p$ matrix $A$ ::@:: $A \mathbf X \sim N_q(A \boldsymbol \mu, A \boldsymbol \Sigma A')$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- mean of $A \mathbf X$: for $\mathbf X \sim N_p(\boldsymbol \mu, \boldsymbol \Sigma)$ ::@:: $A \boldsymbol \mu$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- covariance matrix of $A \mathbf X$: for $\mathbf X \sim N_p(\boldsymbol \mu, \boldsymbol \Sigma)$ ::@:: $A \boldsymbol \Sigma A'$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- a linear combination of the components of $\mathbf X \sim N_p(\boldsymbol \mu, \boldsymbol \Sigma)$: normal or not ::@:: Yes, the mean becomes $A \boldsymbol \mu$ and the covariance becomes $A \boldsymbol \Sigma A'$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## independence of the components
 
@@ -75,9 +75,9 @@ A zero cross-covariance block splits $\boldsymbol \Sigma$. The exponent becomes 
 
 Flashcards for this section are as follows:
 
-- independence of two components: $\binom{X_1}{X_2} \sim N_2\left(\binom{\mu_1}{\mu_2}, \begin{pmatrix} \sigma_{11} & \sigma_{12} \\ \sigma_{21} & \sigma_{22} \end{pmatrix}\right)$ ::@:: $X_1$ and $X_2$ are independent if and only if $\sigma_{12} = \sigma_{21} = 0$.
-- two components of a jointly normal vector with zero covariance: independent? ::@:: Yes, and the equivalence runs only one way: outside this family a zero covariance can coexist with dependence.
-- reason zero covariance implies independence here: for two components of a jointly normal vector with covariance $\boldsymbol \Sigma$ ::@:: The zero cross-covariance block splits $\boldsymbol \Sigma$ into two blocks, the quadratic form splits into a sum, and the joint density factorizes into the product of the marginal densities.
+- independence of two components: $\binom{X_1}{X_2} \sim N_2\left(\binom{\mu_1}{\mu_2}, \begin{pmatrix} \sigma_{11} & \sigma_{12} \\ \sigma_{21} & \sigma_{22} \end{pmatrix}\right)$ ::@:: $X_1$ and $X_2$ are independent if and only if $\sigma_{12} = \sigma_{21} = 0$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- two components of a jointly normal vector with zero covariance: independent? ::@:: Yes, and the equivalence runs only one way: outside this family a zero covariance can coexist with dependence. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- reason zero covariance implies independence here: for two components of a jointly normal vector with covariance $\boldsymbol \Sigma$ ::@:: The zero cross-covariance block splits $\boldsymbol \Sigma$ into two blocks, the quadratic form splits into a sum, and the joint density factorizes into the product of the marginal densities. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ### a scalar component beside a vector
 
@@ -89,9 +89,9 @@ Then $Y_0$ and $\mathbf Y_p$ are independent if and only if $$ \operatorname{Cov
 
 Flashcards for this section are as follows:
 
-- mean components of $\mathbf Y = (Y_0, Y_1, \ldots, Y_p)'$: for $i = 0, \ldots, p$ ::@:: $\mu_i = E(Y_i)$, so $\boldsymbol\mu = (\mu_0, \ldots, \mu_p)'$ is the mean of the whole vector $\mathbf Y$.
-- independence of a scalar and a vector component: $\mathbf Y = (Y_0, Y_1, \ldots, Y_p)' \sim N_{p+1}(\boldsymbol\mu, \boldsymbol\Sigma)$ ::@:: $Y_0$ and $\mathbf Y_p = (Y_1, \ldots, Y_p)'$ are independent if and only if $\operatorname{Cov}(Y_0, \mathbf Y_p) = \mathbf 0$.
-- vector of covariances $\operatorname{Cov}(Y_0, \mathbf Y_p)$: with $\mathbf Y_p = (Y_1, \ldots, Y_p)'$ ::@:: A $p \times 1$ vector, one entry per component of $\mathbf Y_p$, each an off-diagonal entry of the first row of $\boldsymbol\Sigma$.
+- mean components of $\mathbf Y = (Y_0, Y_1, \ldots, Y_p)'$: for $i = 0, \ldots, p$ ::@:: $\mu_i = E(Y_i)$, so $\boldsymbol\mu = (\mu_0, \ldots, \mu_p)'$ is the mean of the whole vector $\mathbf Y$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- independence of a scalar and a vector component: $\mathbf Y = (Y_0, Y_1, \ldots, Y_p)' \sim N_{p+1}(\boldsymbol\mu, \boldsymbol\Sigma)$ ::@:: $Y_0$ and $\mathbf Y_p = (Y_1, \ldots, Y_p)'$ are independent if and only if $\operatorname{Cov}(Y_0, \mathbf Y_p) = \mathbf 0$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- vector of covariances $\operatorname{Cov}(Y_0, \mathbf Y_p)$: with $\mathbf Y_p = (Y_1, \ldots, Y_p)'$ ::@:: A $p \times 1$ vector, one entry per component of $\mathbf Y_p$, each an off-diagonal entry of the first row of $\boldsymbol\Sigma$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 <!-- check: ignore-next-line[section_example_heading]: a matched pair of cases for the definition, kept together so the counterexample sits beside the definition it violates -->
 ### examples and counterexamples
@@ -104,7 +104,7 @@ The bivariate standard normal pair with correlation $\tfrac{1}{2}$ is the near m
 
 Flashcards for this section are as follows:
 
-- a bivariate normal pair with mean zero and covariance matrix $I_2$: are the two components independent? ::@:: Yes, both off-diagonal entries are zero and each component is standard normal.
-- $\mathbf X \sim N_3(\boldsymbol\mu, \operatorname{diag}(\sigma_1^2, \sigma_2^2, \sigma_3^2))$: are the components independent? ::@:: Yes, all three off-diagonal covariances are zero, so each component keeps its own $N(\mu_i, \sigma_i^2)$ marginal.
-- a bivariate standard normal pair with correlation $\tfrac{1}{2}$: are the two components independent? ::@:: No, $\sigma_{12} = \tfrac{1}{2} \ne 0$, even though each marginal is $N(0, 1)$.
-- $U \sim \text{Unif}(-1, 1)$ and $V = U^2$ outside the normal family: are the two independent? ::@:: No, $\operatorname{Cov}(U, V) = 0$ because $\operatorname{E}[U^3] = \operatorname{E}[U] = 0$, while $V$ is determined by $U$.
+- a bivariate normal pair with mean zero and covariance matrix $I_2$: are the two components independent? ::@:: Yes, both off-diagonal entries are zero and each component is standard normal. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- $\mathbf X \sim N_3(\boldsymbol\mu, \operatorname{diag}(\sigma_1^2, \sigma_2^2, \sigma_3^2))$: are the components independent? ::@:: Yes, all three off-diagonal covariances are zero, so each component keeps its own $N(\mu_i, \sigma_i^2)$ marginal. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- a bivariate standard normal pair with correlation $\tfrac{1}{2}$: are the two components independent? ::@:: No, $\sigma_{12} = \tfrac{1}{2} \ne 0$, even though each marginal is $N(0, 1)$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- $U \sim \text{Unif}(-1, 1)$ and $V = U^2$ outside the normal family: are the two independent? ::@:: No, $\operatorname{Cov}(U, V) = 0$ because $\operatorname{E}[U^3] = \operatorname{E}[U] = 0$, while $V$ is determined by $U$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->

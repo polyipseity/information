@@ -16,10 +16,10 @@ Plagiarism is presenting work that originated from other sources as your own, wi
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Presenting work that came from other sources as your own, without attributing it to them.
-- what decides whether writing is plagiarised ::@:: Whether the source is credited, not how much of it was taken.
-- what a source that has been copied at all requires ::@:: Acknowledgment of the source.
-- whose rights plagiarism violates ::@:: The original author's, whose work is used without appropriate attribution.
+- overview ::@:: Presenting work that came from other sources as your own, without attributing it to them. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what decides whether writing is plagiarised ::@:: Whether the source is credited, not how much of it was taken. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what a source that has been copied at all requires ::@:: Acknowledgment of the source. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- whose rights plagiarism violates ::@:: The original author's, whose work is used without appropriate attribution. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## forms of plagiarism
 
@@ -29,10 +29,10 @@ Patchwriting changes a few words of the original and presents the rest. A source
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Patchwriting, using a source without acknowledgment, copying it outright, copying another student's work, and copying phrases, findings, or ideas.
-- what patchwriting is ::@:: Changing a few words of the original and presenting the rest.
-- what counts as copying for plagiarism ::@:: Any copying from any source, including its ideas and not only its sentences.
-- whose work may not be copied ::@:: Other students' work, from the same semester or an earlier one.
+- overview ::@:: Patchwriting, using a source without acknowledgment, copying it outright, copying another student's work, and copying phrases, findings, or ideas. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what patchwriting is ::@:: Changing a few words of the original and presenting the rest. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what counts as copying for plagiarism ::@:: Any copying from any source, including its ideas and not only its sentences. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- whose work may not be copied ::@:: Other students' work, from the same semester or an earlier one. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ### self-plagiarism
 
@@ -42,8 +42,8 @@ Your own earlier work is a source like any other, so reusing it counts as plagia
 
 Flashcards for this section are as follows:
 
-- self-plagiarism ::@:: Reusing your own earlier work, and resubmitting the same piece of work to another course.
-- why the same work cannot go to two courses ::@:: Each submission claims to be work written for that course.
+- self-plagiarism ::@:: Reusing your own earlier work, and resubmitting the same piece of work to another course. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- why the same work cannot go to two courses ::@:: Each submission claims to be work written for that course. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## language models and plagiarism
 
@@ -53,9 +53,9 @@ Having a language model write the assignment is plagiarism or academic dishonest
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Having a language model write the assignment counts as plagiarism or academic dishonesty even when the model is cited.
-- what citing a language model does not fix ::@:: Work that the model wrote.
-- how a language model may be used ::@:: As a tool, with its use acknowledged, while the work itself stays the writer's own.
+- overview ::@:: Having a language model write the assignment counts as plagiarism or academic dishonesty even when the model is cited. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what citing a language model does not fix ::@:: Work that the model wrote. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- how a language model may be used ::@:: As a tool, with its use acknowledged, while the work itself stays the writer's own. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## references
 

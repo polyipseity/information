@@ -20,13 +20,13 @@ Machine-language structure is hard for programs to use, especially for I/O, so t
 
 Flashcards for this section are as follows:
 
-- overview ::@:: An operating system (OS) is system software that controls and coordinates the use of computing resources among various applications and users.
-- four components of a computer system ::@:: Hardware, the operating system, application programs, and users.
-- operating system as intermediary ::@:: The operating system is an intermediary between users or application software and the hardware, hiding its complicated details behind a simple interface.
-- abstraction over hardware ::@:: Programs and users work with photos, web pages, emails, and files rather than with bytes and blocks on devices.
-- machine-language complexity ::@:: The machine-language structure of a computer is complicated for programs, especially for I/O, which is why the operating system hides it behind an abstraction.
-- what application programs do ::@:: Application programs define how system resources are used to solve problems: editors, compilers, web browsers, databases, video games.
-- who counts as a user ::@:: Users can be people, machines, other computers, or other devices.
+- overview ::@:: An operating system (OS) is system software that controls and coordinates the use of computing resources among various applications and users. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- four components of a computer system ::@:: Hardware, the operating system, application programs, and users. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- operating system as intermediary ::@:: The operating system is an intermediary between users or application software and the hardware, hiding its complicated details behind a simple interface. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- abstraction over hardware ::@:: Programs and users work with photos, web pages, emails, and files rather than with bytes and blocks on devices. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- machine-language complexity ::@:: The machine-language structure of a computer is complicated for programs, especially for I/O, which is why the operating system hides it behind an abstraction. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what application programs do ::@:: Application programs define how system resources are used to solve problems: editors, compilers, web browsers, databases, video games. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- who counts as a user ::@:: Users can be people, machines, other computers, or other devices. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## roles and goals
 
@@ -38,10 +38,10 @@ The purposes of an operating system pull in different directions. _User convenie
 
 Flashcards for this section are as follows:
 
-- resource allocator ::@:: The operating system manages all resources, hardware and software, and decides between conflicting requests so resources are used efficiently and fairly.
-- control program ::@:: The operating system controls the execution of programs and prevents errors and improper use of the computer.
-- goals of an operating system ::@:: User convenience, an environment where programmers can run programs conveniently, safely, and efficiently, and resource allocation in a fair and efficient manner.
-- user goals versus operator goals ::@:: A user of a private machine wants convenience, ease of use, and performance; the operator of a shared machine wants resources used efficiently and fairly.
+- resource allocator ::@:: The operating system manages all resources, hardware and software, and decides between conflicting requests so resources are used efficiently and fairly. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- control program ::@:: The operating system controls the execution of programs and prevents errors and improper use of the computer. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- goals of an operating system ::@:: User convenience, an environment where programmers can run programs conveniently, safely, and efficiently, and resource allocation in a fair and efficient manner. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- user goals versus operator goals ::@:: A user of a private machine wants convenience, ease of use, and performance; the operator of a shared machine wants resources used efficiently and fairly. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## kernel and system programs
 
@@ -53,12 +53,12 @@ Beyond the kernel, a shipped operating system includes other software. __Middlew
 
 Flashcards for this section are as follows:
 
-- no universal definition ::@:: There is no universally accepted definition of an operating system.
-- vendor approximation ::@:: "Everything a vendor ships when you order an operating system" is a good approximation, though what ships varies.
-- kernel ::@:: The kernel is the one program always running on a computer, and it provides the essential functionality.
-- middleware ::@:: Software frameworks providing extra services to application developers, such as databases, multimedia, and graphics; popular on mobile systems such as Apple's iOS and Google's Android.
-- system programs ::@:: Programs that ship with the operating system but are not part of the kernel: word processors, browsers, compilers.
-- application programs versus system programs ::@:: Application programs are not associated with the operating system at all, for example apps from app stores, whereas system programs ship with it.
+- no universal definition ::@:: There is no universally accepted definition of an operating system. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- vendor approximation ::@:: "Everything a vendor ships when you order an operating system" is a good approximation, though what ships varies. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- kernel ::@:: The kernel is the one program always running on a computer, and it provides the essential functionality. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- middleware ::@:: Software frameworks providing extra services to application developers, such as databases, multimedia, and graphics; popular on mobile systems such as Apple's iOS and Google's Android. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- system programs ::@:: Programs that ship with the operating system but are not part of the kernel: word processors, browsers, compilers. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- application programs versus system programs ::@:: Application programs are not associated with the operating system at all, for example apps from app stores, whereas system programs ship with it. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## services
 
@@ -70,14 +70,14 @@ System-facing services ensure efficient operation: __resource allocation__ (CPU 
 
 Flashcards for this section are as follows:
 
-- user-facing OS services ::@:: User interface, program execution, I/O operations, file-system manipulation, communications, and error detection.
-- system-facing OS services ::@:: Resource allocation, logging, and protection and security.
-- file-system manipulation ::@:: Programs need to read, write, create, delete, and search files and directories, and manage permissions.
-- communications: shared memory versus message passing ::@:: Processes may communicate via shared memory (direct access to a shared region) or message passing (the OS moves packets between processes, locally or over a network).
-- error detection ::@:: The OS must constantly watch for errors in the CPU, memory, I/O devices, or user programs and take appropriate actions.
-- protection versus security ::@:: Protection controls access to system resources among concurrent processes; security requires user authentication and defends against invalid external access attempts.
-- resource allocation ::@:: When multiple users or jobs run concurrently, the OS allocates CPU cycles, memory, file storage, and I/O devices to each.
-- logging ::@:: The OS tracks which users use how much and what kinds of computer resources.
+- user-facing OS services ::@:: User interface, program execution, I/O operations, file-system manipulation, communications, and error detection. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- system-facing OS services ::@:: Resource allocation, logging, and protection and security. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- file-system manipulation ::@:: Programs need to read, write, create, delete, and search files and directories, and manage permissions. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- communications: shared memory versus message passing ::@:: Processes may communicate via shared memory (direct access to a shared region) or message passing (the OS moves packets between processes, locally or over a network). <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- error detection ::@:: The OS must constantly watch for errors in the CPU, memory, I/O devices, or user programs and take appropriate actions. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- protection versus security ::@:: Protection controls access to system resources among concurrent processes; security requires user authentication and defends against invalid external access attempts. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- resource allocation ::@:: When multiple users or jobs run concurrently, the OS allocates CPU cycles, memory, file storage, and I/O devices to each. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- logging ::@:: The OS tracks which users use how much and what kinds of computer resources. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## user interfaces
 
@@ -91,9 +91,9 @@ __Touchscreen interfaces__ on mobile devices use gestures, virtual keyboards, an
 
 Flashcards for this section are as follows:
 
-- CLI ::@:: A command-line interface lets users type commands directly; shells in UNIX/Linux fetch, interpret, and execute them.
-- GUI ::@:: A graphical user interface uses a desktop metaphor with windows, icons, and mouse interaction; invented at Xerox PARC, first widely used in the Apple Macintosh (1984).
-- touchscreen interface ::@:: Touchscreen devices use gestures, virtual keyboards, and voice commands instead of a mouse.
+- CLI ::@:: A command-line interface lets users type commands directly; shells in UNIX/Linux fetch, interpret, and execute them. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- GUI ::@:: A graphical user interface uses a desktop metaphor with windows, icons, and mouse interaction; invented at Xerox PARC, first widely used in the Apple Macintosh (1984). <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- touchscreen interface ::@:: Touchscreen devices use gestures, virtual keyboards, and voice commands instead of a mouse. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## system programs
 
@@ -109,10 +109,10 @@ __Application programs__ are not part of the operating system: web browsers, wor
 
 Flashcards for this section are as follows:
 
-- system programs ::@:: Programs shipping with the OS to provide a convenient development and execution environment; some wrap system calls, others are complex utilities.
-- categories of system programs ::@:: File management, status information, file modification, programming-language support, program loading and execution, and communications.
-- daemons ::@:: Background services that launch at boot and run until the system halts, providing disk checking, scheduling, and error logging.
-- application programs versus system programs ::@:: Application programs (browsers, editors, games) are not part of the OS; system programs ship with it.
+- system programs ::@:: Programs shipping with the OS to provide a convenient development and execution environment; some wrap system calls, others are complex utilities. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- categories of system programs ::@:: File management, status information, file modification, programming-language support, program loading and execution, and communications. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- daemons ::@:: Background services that launch at boot and run until the system halts, providing disk checking, scheduling, and error logging. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- application programs versus system programs ::@:: Application programs (browsers, editors, games) are not part of the OS; system programs ship with it. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## linkers and loaders
 
@@ -124,11 +124,11 @@ Modern operating systems do not link libraries into executables statically. Inst
 
 Flashcards for this section are as follows:
 
-- linker ::@:: Combines relocatable object files into a single binary executable, along with libraries if needed.
-- loader ::@:: Brings an executable from secondary storage into memory for execution.
-- relocation ::@:: Assigns final addresses to program parts and adjusts code and data to match.
-- dynamically linked libraries ::@:: Libraries loaded at runtime and shared by all programs using the same version, rather than statically linked into each executable.
-- relocatable object file ::@:: A compiled file designed to be loaded at any physical memory location, before the linker combines it with others into an executable.
+- linker ::@:: Combines relocatable object files into a single binary executable, along with libraries if needed. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- loader ::@:: Brings an executable from secondary storage into memory for execution. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- relocation ::@:: Assigns final addresses to program parts and adjusts code and data to match. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- dynamically linked libraries ::@:: Libraries loaded at runtime and shared by all programs using the same version, rather than statically linked into each executable. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- relocatable object file ::@:: A compiled file designed to be loaded at any physical memory location, before the linker combines it with others into an executable. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## design and implementation
 
@@ -142,11 +142,11 @@ Early operating systems were written in assembly. Most modern kernels use C or C
 
 Flashcards for this section are as follows:
 
-- user goals for an OS ::@:: Convenience, ease of learning and use, reliability, safety, and speed.
-- system goals for an OS ::@:: Ease of design, implementation, and maintenance, along with flexibility, reliability, error-freedom, and efficiency.
-- policy versus mechanism ::@:: Mechanisms specify how to do things; policies decide what will be done. Separating them allows the same mechanism to support different policies without modification.
-- timer as mechanism, duration as policy ::@:: A timer construct is a mechanism for CPU protection; the timer duration for a particular user is a policy decision.
-- high-level language implementation ::@:: Most modern kernels use C or C++, making them easier to port, faster to write, more compact, and easier to debug, with negligible performance cost on contemporary hardware.
+- user goals for an OS ::@:: Convenience, ease of learning and use, reliability, safety, and speed. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- system goals for an OS ::@:: Ease of design, implementation, and maintenance, along with flexibility, reliability, error-freedom, and efficiency. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- policy versus mechanism ::@:: Mechanisms specify how to do things; policies decide what will be done. Separating them allows the same mechanism to support different policies without modification. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- timer as mechanism, duration as policy ::@:: A timer construct is a mechanism for CPU protection; the timer duration for a particular user is a policy decision. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- high-level language implementation ::@:: Most modern kernels use C or C++, making them easier to port, faster to write, more compact, and easier to debug, with negligible performance cost on contemporary hardware. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## structure
 
@@ -172,21 +172,21 @@ __macOS and iOS__ share the Darwin kernel environment, which combines the Mach m
 
 Flashcards for this section are as follows:
 
-- simple OS structure ::@:: No well-defined architecture; interfaces and functionality are not separated, as in MS-DOS, which was single-tasking with no dual mode or hardware protection.
-- MS-DOS memory model ::@:: At boot, the shell and kernel occupy memory; running a program overwrites everything except the kernel; on exit, the shell reloads.
-- FreeBSD multitasking ::@:: The shell calls `fork()` to create a process, `exec()` to load a program; the OS provides CPU scheduling, process coordination, and memory management.
-- monolithic kernel ::@:: All OS functionality in a single binary running in one address space; fast due to minimal overhead but hard to modify.
-- UNIX kernel and system programs ::@:: UNIX separates into the kernel (everything below the system-call interface) and system programs (shells, compilers, utilities).
-- layered approach ::@:: The OS is divided into layers from hardware (layer 0) to user interface (layer N); each layer uses services from below and offers services above.
-- information hiding in layered OS ::@:: A layer does not need to know how lower-layer operations are implemented, only what they do — the interface is the contract.
-- microkernel ::@:: A minimal kernel providing only process management, memory management, and IPC; other services run as user-level programs, improving extensibility at the cost of message-passing overhead.
-- loadable kernel module ::@:: A module that extends a running kernel at boot or runtime without recompilation, combining monolithic performance with modular flexibility.
-- hybrid operating system ::@:: Combines multiple structures, such as Linux (monolithic with modular extensions), Windows (monolithic with subsystems and loadable modules), or macOS (Mach microkernel + BSD).
-- Android layered architecture ::@:: From bottom: Linux kernel, HAL, Bionic C library, native libraries (SQLite, OpenGL, webkit), ART VM, Android frameworks, applications.
-- HAL (Android) ::@:: The hardware abstraction layer in Android, abstracting camera, GPS, and sensors so applications see a consistent interface regardless of specific hardware.
-- Bionic ::@:: Google's standard C library for Android, replacing the GNU C library (glibc) used in Linux systems.
-- Java Native Interface (JNI) ::@:: Allows Android developers to bypass the ART virtual machine and access hardware directly, at the cost of portability.
-- Darwin kernel ::@:: The hybrid XNU kernel in macOS and iOS combining Mach microkernel (memory management, CPU scheduling, IPC) and BSD UNIX kernel (POSIX API, networking, file system, security).
-- macOS versus iOS ::@:: Both share Darwin; macOS adds Aqua GUI and Cocoa, iOS adds Springboard touch interface and Cocoa Touch, running on ARM instead of Intel.
-- modular versus layered ::@:: Both have well-defined interfaces, but modules can call any other module, unlike strict layering.
-- modular versus microkernel ::@:: Both have a minimal core with extensible services, but modules use direct calls rather than message passing.
+- simple OS structure ::@:: No well-defined architecture; interfaces and functionality are not separated, as in MS-DOS, which was single-tasking with no dual mode or hardware protection. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- MS-DOS memory model ::@:: At boot, the shell and kernel occupy memory; running a program overwrites everything except the kernel; on exit, the shell reloads. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- FreeBSD multitasking ::@:: The shell calls `fork()` to create a process, `exec()` to load a program; the OS provides CPU scheduling, process coordination, and memory management. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- monolithic kernel ::@:: All OS functionality in a single binary running in one address space; fast due to minimal overhead but hard to modify. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- UNIX kernel and system programs ::@:: UNIX separates into the kernel (everything below the system-call interface) and system programs (shells, compilers, utilities). <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- layered approach ::@:: The OS is divided into layers from hardware (layer 0) to user interface (layer N); each layer uses services from below and offers services above. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- information hiding in layered OS ::@:: A layer does not need to know how lower-layer operations are implemented, only what they do — the interface is the contract. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- microkernel ::@:: A minimal kernel providing only process management, memory management, and IPC; other services run as user-level programs, improving extensibility at the cost of message-passing overhead. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- loadable kernel module ::@:: A module that extends a running kernel at boot or runtime without recompilation, combining monolithic performance with modular flexibility. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- hybrid operating system ::@:: Combines multiple structures, such as Linux (monolithic with modular extensions), Windows (monolithic with subsystems and loadable modules), or macOS (Mach microkernel + BSD). <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- Android layered architecture ::@:: From bottom: Linux kernel, HAL, Bionic C library, native libraries (SQLite, OpenGL, webkit), ART VM, Android frameworks, applications. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- HAL (Android) ::@:: The hardware abstraction layer in Android, abstracting camera, GPS, and sensors so applications see a consistent interface regardless of specific hardware. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- Bionic ::@:: Google's standard C library for Android, replacing the GNU C library (glibc) used in Linux systems. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- Java Native Interface (JNI) ::@:: Allows Android developers to bypass the ART virtual machine and access hardware directly, at the cost of portability. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- Darwin kernel ::@:: The hybrid XNU kernel in macOS and iOS combining Mach microkernel (memory management, CPU scheduling, IPC) and BSD UNIX kernel (POSIX API, networking, file system, security). <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- macOS versus iOS ::@:: Both share Darwin; macOS adds Aqua GUI and Cocoa, iOS adds Springboard touch interface and Cocoa Touch, running on ARM instead of Intel. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- modular versus layered ::@:: Both have well-defined interfaces, but modules can call any other module, unlike strict layering. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- modular versus microkernel ::@:: Both have a minimal core with extensible services, but modules use direct calls rather than message passing. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->

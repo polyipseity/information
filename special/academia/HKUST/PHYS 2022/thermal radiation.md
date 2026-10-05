@@ -22,13 +22,13 @@ A flame breaks the rule: its excited atoms emit at a few discrete wavelengths th
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Electromagnetic radiation emitted by a body because of the thermal motion of the charged atoms and molecules it contains.
-- the motion of the charges: what it puts into the surroundings ::@:: A charge that accelerates radiates, so the motion of the charges in a body above absolute zero puts energy into electromagnetic waves.
-- a hotter body's frequency $f$ and wavelength $\lambda$: how they change ::@:: Its charges move faster, so a higher $f$ and a shorter $\lambda$ through $c = f\lambda$.
-- visible light from a glowing body: how much of its radiation it is ::@:: A small slice of a much larger emission.
-- black-body emission: what sets the spectrum ::@:: The temperature of the body and not its material.
-- thermal radiation against line emission from burning atoms: how the spectra differ ::@:: Thermal radiation has a continuous spectrum whose shape depends only on temperature, while burning atoms emit discrete lines at defined wavelengths that identify the element.
-- the two laws that fix thermal radiation ::@:: [Wien's displacement law](Wien's%20displacement%20law.md) fixes the peak wavelength, and the [Stefan–Boltzmann law](Stefan%E2%80%93Boltzmann%20law.md) the total radiated power.
+- overview ::@:: Electromagnetic radiation emitted by a body because of the thermal motion of the charged atoms and molecules it contains. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the motion of the charges: what it puts into the surroundings ::@:: A charge that accelerates radiates, so the motion of the charges in a body above absolute zero puts energy into electromagnetic waves. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- a hotter body's frequency $f$ and wavelength $\lambda$: how they change ::@:: Its charges move faster, so a higher $f$ and a shorter $\lambda$ through $c = f\lambda$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- visible light from a glowing body: how much of its radiation it is ::@:: A small slice of a much larger emission. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- black-body emission: what sets the spectrum ::@:: The temperature of the body and not its material. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- thermal radiation against line emission from burning atoms: how the spectra differ ::@:: Thermal radiation has a continuous spectrum whose shape depends only on temperature, while burning atoms emit discrete lines at defined wavelengths that identify the element. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the two laws that fix thermal radiation ::@:: [Wien's displacement law](Wien's%20displacement%20law.md) fixes the peak wavelength, and the [Stefan–Boltzmann law](Stefan%E2%80%93Boltzmann%20law.md) the total radiated power. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## incandescence
 
@@ -42,12 +42,12 @@ A body can radiate heavily and still look cold to the eye, because the eye respo
 
 Flashcards for this section are as follows:
 
-- incandescence ::@:: The visible glow produced when a body is hot enough that part of its thermal radiation falls in the visible range.
-- incandescence: what changes when a body becomes visibly hot ::@:: Nothing in kind. It is the same continuous spectrum, and raising the temperature shifts enough of it into the visible for the body to appear to shine.
-- lava at about $1200\ ^{\circ}\text{C}$: its colour and where most of its radiation lies ::@:: A deep red glow, with most of the radiation still in the infrared.
-- the Sun's photosphere at about $5500\ ^{\circ}\text{C}$: the colour of a body at that temperature ::@:: Whitish yellow.
-- lightning at about $27{,}700\ ^{\circ}\text{C}$: where that temperature puts it in the visible range ::@:: Well into the white and short-wavelength end of the visible range.
-- the wavelength range the human eye responds to, in $\text{nm}$, and what an infrared thermometer reads ::@:: About $380$ to $700\ \text{nm}$. The thermometer reads radiation outside that range rather than the light inside it.
+- incandescence ::@:: The visible glow produced when a body is hot enough that part of its thermal radiation falls in the visible range. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- incandescence: what changes when a body becomes visibly hot ::@:: Nothing in kind. It is the same continuous spectrum, and raising the temperature shifts enough of it into the visible for the body to appear to shine. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- lava at about $1200\ ^{\circ}\text{C}$: its colour and where most of its radiation lies ::@:: A deep red glow, with most of the radiation still in the infrared. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the Sun's photosphere at about $5500\ ^{\circ}\text{C}$: the colour of a body at that temperature ::@:: Whitish yellow. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- lightning at about $27{,}700\ ^{\circ}\text{C}$: where that temperature puts it in the visible range ::@:: Well into the white and short-wavelength end of the visible range. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the wavelength range the human eye responds to, in $\text{nm}$, and what an infrared thermometer reads ::@:: About $380$ to $700\ \text{nm}$. The thermometer reads radiation outside that range rather than the light inside it. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## colour as a temperature gauge
 
@@ -77,10 +77,10 @@ That colour ladder is the qualitative form of what [Wien's displacement law](Wie
 
 Flashcards for this section are as follows:
 
-- colour as a temperature gauge: why a body's colour indicates its temperature ::@:: The peak of the thermal spectrum moves to shorter wavelengths as the temperature rises.
-- a black-body radiator below about $800\ \text{K}$: what it emits and how it looks ::@:: No visible light, so it appears black, while still emitting infrared radiation.
-- a black-body radiator at $900\ \text{K}$, $1750\ \text{K}$, $3200\ \text{K}$, and $5500\ \text{K}$ ::@:: Dull red, red, orange to yellow, and white.
-- a steel bar heated from one end: the sequence of colours from the cool end ::@:: Black, dull red, cherry red, bright orange, yellow, white yellow, white.
-- the colour ladder of a glowing object: the law that states it exactly ::@:: [Wien's displacement law](Wien's%20displacement%20law.md), which fixes the peak wavelength at each temperature.
-- the red star and the blue star in Orion: which is cooler and why ::@:: Betelgeuse, the red star, is the cooler one. A redder black body has a longer peak wavelength, and so a lower temperature.
-- a star near $12000\ \text{K}$: where its peak lies and how it looks ::@:: Its peak is in the ultraviolet, beyond what the eye can report, so it looks blue-white rather than ultraviolet.
+- colour as a temperature gauge: why a body's colour indicates its temperature ::@:: The peak of the thermal spectrum moves to shorter wavelengths as the temperature rises. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- a black-body radiator below about $800\ \text{K}$: what it emits and how it looks ::@:: No visible light, so it appears black, while still emitting infrared radiation. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- a black-body radiator at $900\ \text{K}$, $1750\ \text{K}$, $3200\ \text{K}$, and $5500\ \text{K}$ ::@:: Dull red, red, orange to yellow, and white. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- a steel bar heated from one end: the sequence of colours from the cool end ::@:: Black, dull red, cherry red, bright orange, yellow, white yellow, white. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the colour ladder of a glowing object: the law that states it exactly ::@:: [Wien's displacement law](Wien's%20displacement%20law.md), which fixes the peak wavelength at each temperature. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the red star and the blue star in Orion: which is cooler and why ::@:: Betelgeuse, the red star, is the cooler one. A redder black body has a longer peak wavelength, and so a lower temperature. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- a star near $12000\ \text{K}$: where its peak lies and how it looks ::@:: Its peak is in the ultraviolet, beyond what the eye can report, so it looks blue-white rather than ultraviolet. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->

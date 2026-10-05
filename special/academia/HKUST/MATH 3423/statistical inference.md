@@ -15,9 +15,9 @@ _Statistical inference_ draws a conclusion about an unknown quantity from eviden
 
 Flashcards for this section are as follows:
 
-- definition ::@:: Reaching a conclusion about something from known evidence; "statistical" refers to the data and "inference" to the conclusion.
-- why a probability distribution is used: for the unknown quantity $X$ ::@:: Before the corresponding experiment is performed, $X$ is unpredictable; a coin before it is tossed is the illustration.
-- mission: with data and a parametric model for $X$ ::@:: Estimate the parameter(s) $\theta$ of the distribution of the target random variable.
+- definition ::@:: Reaching a conclusion about something from known evidence; "statistical" refers to the data and "inference" to the conclusion. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- why a probability distribution is used: for the unknown quantity $X$ ::@:: Before the corresponding experiment is performed, $X$ is unpredictable; a coin before it is tossed is the illustration. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- mission: with data and a parametric model for $X$ ::@:: Estimate the parameter(s) $\theta$ of the distribution of the target random variable. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## data
 
@@ -29,10 +29,10 @@ A quantity computed from the data, the sample mean for instance, is a fixed numb
 
 Flashcards for this section are as follows:
 
-- definition: given observations $x_1, \ldots, x_n$ of the target random variable $X$ ::@:: The actual values of $X$, each a known number once the sample is drawn.
-- notation: $x_i$ versus $X_i$ ::@:: $X_i$ is the $i$-th copy of $X$ and $x_i$ its actual value; uppercase letters denote random variables and lowercase letters their realizations.
-- when the values become known ::@:: After sampling; before it, only the joint distribution of the copies is known.
-- why data estimate the parameter: under a parametric model for $X$ ::@:: The observed values are more likely under some values of $\theta$ than under others, so they carry information about which one is true.
+- definition: given observations $x_1, \ldots, x_n$ of the target random variable $X$ ::@:: The actual values of $X$, each a known number once the sample is drawn. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- notation: $x_i$ versus $X_i$ ::@:: $X_i$ is the $i$-th copy of $X$ and $x_i$ its actual value; uppercase letters denote random variables and lowercase letters their realizations. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- when the values become known ::@:: After sampling; before it, only the joint distribution of the copies is known. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- why data estimate the parameter: under a parametric model for $X$ ::@:: The observed values are more likely under some values of $\theta$ than under others, so they carry information about which one is true. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 <!-- check: ignore-next-line[section_example_heading]: a matched pair of cases for the definition, kept together so the counterexample sits beside the definition it violates -->
 ### examples and counterexamples
@@ -45,12 +45,12 @@ Writing $X_1 = 3.2$ after sampling asserts that a random variable equals a const
 
 Flashcards for this section are as follows:
 
-- $x_1 = 3.2$ after the sample is drawn: data or a random variable? ::@:: Data, a known number; the random variable that produced it is $X_1$.
-- $X_1$ before the sample is drawn: data or a random variable? ::@:: A random variable, whose realized value $x_1$ is not yet available.
-- $\bar X$ versus $\bar x$ before the sample is drawn ::@:: $\bar X$ is the random variable and $\bar x$ the average of the data, available only after sampling.
-- writing $X_1 = 3.2$ after sampling: correct notation? ::@:: No, it makes a random variable equal a constant; the observed value is $x_1 = 3.2$.
-- reporting $\bar x$ before the sample is drawn ::@:: Not available, since $\bar x$ is a function of data that have not been observed; the object to report is $\bar X$.
-- what stays uncertain after the data are observed: for observed $x_1, \ldots, x_n$ ::@:: The unknown parameter, not the data, which are known numbers.
+- $x_1 = 3.2$ after the sample is drawn: data or a random variable? ::@:: Data, a known number; the random variable that produced it is $X_1$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- $X_1$ before the sample is drawn: data or a random variable? ::@:: A random variable, whose realized value $x_1$ is not yet available. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- $\bar X$ versus $\bar x$ before the sample is drawn ::@:: $\bar X$ is the random variable and $\bar x$ the average of the data, available only after sampling. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- writing $X_1 = 3.2$ after sampling: correct notation? ::@:: No, it makes a random variable equal a constant; the observed value is $x_1 = 3.2$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- reporting $\bar x$ before the sample is drawn ::@:: Not available, since $\bar x$ is a function of data that have not been observed; the object to report is $\bar X$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what stays uncertain after the data are observed: for observed $x_1, \ldots, x_n$ ::@:: The unknown parameter, not the data, which are known numbers. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## modes of inference
 
@@ -66,12 +66,12 @@ A level and an error rate are both claims about how the reported object behaves 
 
 Flashcards for this section are as follows:
 
-- modes of inference: from a parametric model ::@:: Point estimation, interval estimation, and hypothesis testing.
-- point estimation: as a guess for $\theta$ ::@:: A single value: the sample mean or sample variance for an unknown population mean or variance, otherwise method of moments or maximum likelihood.
-- interval estimation: as a guess for $\theta$ ::@:: An interval-valued guess, a confidence interval, rather than a point.
-- hypothesis testing ::@:: A test of hypotheses about the value of the parameter.
-- why interval estimation and hypothesis testing need the distribution of the estimator ::@:: Because their level or error rate is a claim about repeated sampling, and the estimator's distribution is what determines it.
-- what a point estimate leaves unsaid: about how far the value may be from $\theta$ ::@:: It reports a single number and makes no claim of accuracy, so nothing about its error has to be quantified.
+- modes of inference: from a parametric model ::@:: Point estimation, interval estimation, and hypothesis testing. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- point estimation: as a guess for $\theta$ ::@:: A single value: the sample mean or sample variance for an unknown population mean or variance, otherwise method of moments or maximum likelihood. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- interval estimation: as a guess for $\theta$ ::@:: An interval-valued guess, a confidence interval, rather than a point. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- hypothesis testing ::@:: A test of hypotheses about the value of the parameter. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- why interval estimation and hypothesis testing need the distribution of the estimator ::@:: Because their level or error rate is a claim about repeated sampling, and the estimator's distribution is what determines it. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what a point estimate leaves unsaid: about how far the value may be from $\theta$ ::@:: It reports a single number and makes no claim of accuracy, so nothing about its error has to be quantified. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 <!-- check: ignore-next-line[section_example_heading]: a matched pair of cases for the definition, kept together so the counterexample sits beside the definition it violates -->
 ### examples and counterexamples for each mode
@@ -84,9 +84,9 @@ Giving $\bar x$ together with its standard error is point estimation, because a 
 
 Flashcards for this section are as follows:
 
-- reporting $\bar x$ as the guess for $\mu$: which mode of inference? ::@:: Point estimation, a single value with no statement of how far off it may be.
-- reporting $\bar x \pm z_{\alpha/2}\frac{\sigma}{\sqrt{n}}$ for $\mu$: which mode of inference? ::@:: Interval estimation, an interval built at level $1 - \alpha$.
-- testing $H_0: \mu = \mu_0$ at level $\alpha$: which mode of inference? ::@:: Hypothesis testing, whose answer is a decision.
-- reporting $\bar x$ together with its standard error: which mode of inference? ::@:: Point estimation, because a standard error describes the estimator rather than bracketing $\mu$.
-- reporting the interval $(\bar x - 1, \bar x + 1)$ with no level stated: interval estimation? ::@:: No, an interval with no level carries no coverage statement.
-- reporting $P(\mu \in A \mid x) = 0.95$: one of the three modes of inference? ::@:: No, it is a statement about the distribution of $\mu$ given the data, which requires a prior.
+- reporting $\bar x$ as the guess for $\mu$: which mode of inference? ::@:: Point estimation, a single value with no statement of how far off it may be. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- reporting $\bar x \pm z_{\alpha/2}\frac{\sigma}{\sqrt{n}}$ for $\mu$: which mode of inference? ::@:: Interval estimation, an interval built at level $1 - \alpha$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- testing $H_0: \mu = \mu_0$ at level $\alpha$: which mode of inference? ::@:: Hypothesis testing, whose answer is a decision. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- reporting $\bar x$ together with its standard error: which mode of inference? ::@:: Point estimation, because a standard error describes the estimator rather than bracketing $\mu$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- reporting the interval $(\bar x - 1, \bar x + 1)$ with no level stated: interval estimation? ::@:: No, an interval with no level carries no coverage statement. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- reporting $P(\mu \in A \mid x) = 0.95$: one of the three modes of inference? ::@:: No, it is a statement about the distribution of $\mu$ given the data, which requires a prior. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->

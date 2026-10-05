@@ -18,14 +18,14 @@ The virtual system it creates is a __virtual machine__, or __VM__, on which oper
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Abstracting the hardware of a single computer into several different execution environments, creating the illusion that each user or program runs on its own private computer.
-- virtual machine ::@:: A virtual machine is the virtual system created by virtualization, on which operating systems and applications can run.
-- operating system inside an operating system ::@:: Virtualization allows an operating system to run as an application within another operating system.
-- why several virtual machines fit on one computer ::@:: Each virtual machine is an execution environment built from the hardware of a single computer rather than a machine of its own, so one physical machine can run several concurrently.
-- illusion for the guest ::@:: Inside a virtual machine each process behaves as if it ran on a dedicated processor with its own memory.
-- several operating systems on one machine ::@:: A single physical machine can run multiple operating systems concurrently, each in its own virtual machine.
-- guest operating system as a process ::@:: The guest operating system is a process provided with a virtual copy of the host, which is how one operating system runs as an application inside another.
-- sharing the computer ::@:: Because each user or program is given the illusion of a private computer, the hardware of one physical machine can be shared among several users or processes.
+- overview ::@:: Abstracting the hardware of a single computer into several different execution environments, creating the illusion that each user or program runs on its own private computer. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- virtual machine ::@:: A virtual machine is the virtual system created by virtualization, on which operating systems and applications can run. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- operating system inside an operating system ::@:: Virtualization allows an operating system to run as an application within another operating system. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- why several virtual machines fit on one computer ::@:: Each virtual machine is an execution environment built from the hardware of a single computer rather than a machine of its own, so one physical machine can run several concurrently. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- illusion for the guest ::@:: Inside a virtual machine each process behaves as if it ran on a dedicated processor with its own memory. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- several operating systems on one machine ::@:: A single physical machine can run multiple operating systems concurrently, each in its own virtual machine. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- guest operating system as a process ::@:: The guest operating system is a process provided with a virtual copy of the host, which is how one operating system runs as an application inside another. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- sharing the computer ::@:: Because each user or program is given the illusion of a private computer, the hardware of one physical machine can be shared among several users or processes. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## virtual machines and the hypervisor
 
@@ -37,12 +37,12 @@ The virtual machine manager controls the system's resources completely, so the e
 
 Flashcards for this section are as follows:
 
-- host ::@:: The host is the underlying hardware system on which the virtual machines run.
-- virtual machine manager ::@:: The virtual machine manager, or hypervisor, creates and manages virtual machines by presenting an interface identical to the host's.
-- guest operating system ::@:: A process provided with a virtual copy of the host, and usually an operating system.
-- behaving like a real computer ::@:: The virtual machine manager presents an interface essentially identical to that of the original machine, so a program runs inside the virtual machine as it would on a real computer.
-- performance caveat ::@:: Programs running within such an environment show only minor performance decreases, because their execution passes through more layers of software.
-- control of system resources ::@:: The virtual machine manager is in complete control of the system's resources.
+- host ::@:: The host is the underlying hardware system on which the virtual machines run. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- virtual machine manager ::@:: The virtual machine manager, or hypervisor, creates and manages virtual machines by presenting an interface identical to the host's. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- guest operating system ::@:: A process provided with a virtual copy of the host, and usually an operating system. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- behaving like a real computer ::@:: The virtual machine manager presents an interface essentially identical to that of the original machine, so a program runs inside the virtual machine as it would on a real computer. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- performance caveat ::@:: Programs running within such an environment show only minor performance decreases, because their execution passes through more layers of software. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- control of system resources ::@:: The virtual machine manager is in complete control of the system's resources. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## system models
 
@@ -52,7 +52,7 @@ Two models matter here: a computer with no virtualization, and the same computer
 
 Flashcards for this section are as follows:
 
-- what the two models share ::@:: The programming interface above a kernel, so processes in both models use the machine through the same kind of interface.
+- what the two models share ::@:: The programming interface above a kernel, so processes in both models use the machine through the same kind of interface. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ### without virtualization
 
@@ -62,7 +62,7 @@ In the plain model the hardware supports one __kernel__, which exposes a __progr
 
 Flashcards for this section are as follows:
 
-- model without virtualization ::@:: The hardware supports a single kernel, which exposes a programming interface to the processes above it.
+- model without virtualization ::@:: The hardware supports a single kernel, which exposes a programming interface to the processes above it. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ### with virtualization
 
@@ -74,9 +74,9 @@ The virtualized model stacks the same picture several times over one physical ma
 
 Flashcards for this section are as follows:
 
-- virtualized model ::@:: The virtual machine manager sits on the hardware, and above it each virtual machine contains its own kernel, exposing a programming interface to its own processes.
-- where the virtual machine manager sits ::@:: In this model the virtual machine manager runs directly on the hardware, with the virtual machines and their kernels layered above it.
-- number of kernels ::@:: A system without virtualization has one kernel on the hardware, whereas a virtualized system has one kernel inside each virtual machine.
+- virtualized model ::@:: The virtual machine manager sits on the hardware, and above it each virtual machine contains its own kernel, exposing a programming interface to its own processes. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- where the virtual machine manager sits ::@:: In this model the virtual machine manager runs directly on the hardware, with the virtual machines and their kernels layered above it. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- number of kernels ::@:: A system without virtualization has one kernel on the hardware, whereas a virtualized system has one kernel inside each virtual machine. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## motivations for virtualization
 
@@ -88,10 +88,10 @@ On a desktop a user can run Linux or macOS and still reach native applications o
 
 Flashcards for this section are as follows:
 
-- server consolidation ::@:: Consolidating multiple operating systems onto fewer hardware platforms, so services can run on machines running different operating systems, or different versions of one.
-- several operating systems on one computer ::@:: Because each guest operating system has its own virtual machine, one computer can run several different operating systems at the same time.
-- desktop use ::@:: A user can run Linux or macOS and still have access to native applications on a different platform such as Windows.
-- developer testing and debugging ::@:: Developers can run many operating system types and versions on just one machine.
+- server consolidation ::@:: Consolidating multiple operating systems onto fewer hardware platforms, so services can run on machines running different operating systems, or different versions of one. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- several operating systems on one computer ::@:: Because each guest operating system has its own virtual machine, one computer can run several different operating systems at the same time. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- desktop use ::@:: A user can run Linux or macOS and still have access to native applications on a different platform such as Windows. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- developer testing and debugging ::@:: Developers can run many operating system types and versions on just one machine. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## history and adoption
 
@@ -103,9 +103,9 @@ In the late 1990s Intel CPUs became fast enough for virtualization on general-pu
 
 Flashcards for this section are as follows:
 
-- origins in IBM mainframes ::@:: Virtualization was originally designed in IBM mainframes in 1972.
-- original mainframe goal ::@:: It allowed multiple users to run tasks concurrently in a system designed for a single user, or share a batch-oriented system.
-- VMware on x86 ::@:: VMware runs one or more guest copies of Windows, each running its own applications, on an Intel x86 CPU.
-- return on general-purpose PCs ::@:: In the late 1990s Intel CPUs became fast enough for virtualization on general-purpose PCs.
-- Xen and VMware ::@:: Virtual machine managers such as Xen and VMware created virtualization technologies for x86 that are still used today.
-- spread of virtualization ::@:: Virtualization has expanded to many operating systems, CPUs, and virtual machine managers.
+- origins in IBM mainframes ::@:: Virtualization was originally designed in IBM mainframes in 1972. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- original mainframe goal ::@:: It allowed multiple users to run tasks concurrently in a system designed for a single user, or share a batch-oriented system. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- VMware on x86 ::@:: VMware runs one or more guest copies of Windows, each running its own applications, on an Intel x86 CPU. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- return on general-purpose PCs ::@:: In the late 1990s Intel CPUs became fast enough for virtualization on general-purpose PCs. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- Xen and VMware ::@:: Virtual machine managers such as Xen and VMware created virtualization technologies for x86 that are still used today. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- spread of virtualization ::@:: Virtualization has expanded to many operating systems, CPUs, and virtual machine managers. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->

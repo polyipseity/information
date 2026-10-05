@@ -15,8 +15,8 @@ Price discovery is the process by which a traded price comes to reflect availabl
 
 Flashcards for this section are as follows:
 
-- what price discovery is ::@:: The process by which a traded price comes to reflect available information.
-- two things price discovery measures ::@:: How quickly the price incorporates new information, and how far it departs from the price that information justifies.
+- what price discovery is ::@:: The process by which a traded price comes to reflect available information. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- two things price discovery measures ::@:: How quickly the price incorporates new information, and how far it departs from the price that information justifies. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## efficient price
 
@@ -26,8 +26,8 @@ The efficient price of an asset with value $v$ is $p^{*} = \operatorname{E}[v \m
 
 Flashcards for this section are as follows:
 
-- formula for the efficient price $p^{*}$ of an asset with value $v$ ::@:: $p^{*} = \operatorname{E}[v \mid \text{available information}]$, the conditional expectation of the value given the information available to the market.
-- relation between price discovery and the efficient price ::@:: Price discovery is how quickly the traded price converges to the efficient price.
+- formula for the efficient price $p^{*}$ of an asset with value $v$ ::@:: $p^{*} = \operatorname{E}[v \mid \text{available information}]$, the conditional expectation of the value given the information available to the market. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- relation between price discovery and the efficient price ::@:: Price discovery is how quickly the traded price converges to the efficient price. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## deviations from the efficient price
 
@@ -37,10 +37,10 @@ A traded price departs from the efficient price for three reasons. Without infor
 
 Flashcards for this section are as follows:
 
-- absence of informed trading ::@:: Information never reaches the price.
-- information frictions ::@:: Information reaches the price only with delay.
-- structural frictions ::@:: The mechanics of trading hold the price away from the value.
-- three sources of deviation from the efficient price ::@:: Absence of informed trading, information frictions, and structural frictions.
+- absence of informed trading ::@:: Information never reaches the price. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- information frictions ::@:: Information reaches the price only with delay. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- structural frictions ::@:: The mechanics of trading hold the price away from the value. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- three sources of deviation from the efficient price ::@:: Absence of informed trading, information frictions, and structural frictions. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## dark pools and price efficiency
 
@@ -50,7 +50,7 @@ Zhu (2014, _Review of Financial Studies_) finds that dark pools improve price ef
 
 Flashcards for this section are as follows:
 
-- how dark pools improve price efficiency ::@:: By sorting informed traders to lit exchanges and noise traders to dark pools.
-- why informed traders prefer lit exchanges over dark pools ::@:: Good news clusters them on the buy side in dark pools, creating high execution risk; lit exchanges offer no such risk.
-- why noise traders prefer dark pools ::@:: They get price improvement (midpoint trading) without the execution risk informed traders face.
-- what Zhu (2014) concludes ::@:: Dark pools benefit the market by cleansing the lit exchange of noise.
+- how dark pools improve price efficiency ::@:: By sorting informed traders to lit exchanges and noise traders to dark pools. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- why informed traders prefer lit exchanges over dark pools ::@:: Good news clusters them on the buy side in dark pools, creating high execution risk; lit exchanges offer no such risk. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- why noise traders prefer dark pools ::@:: They get price improvement (midpoint trading) without the execution risk informed traders face. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what Zhu (2014) concludes ::@:: Dark pools benefit the market by cleansing the lit exchange of noise. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->

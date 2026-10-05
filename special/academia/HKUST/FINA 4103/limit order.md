@@ -21,10 +21,10 @@ Starting from an empty book, a limit sell for 100 shares at $100 places 100 shar
 
 Flashcards for this section are as follows:
 
-- what a limit order specifies ::@:: The most a buyer will pay (buy limit) or the least a seller will accept (sell limit).
-- what happens to an unfilled limit order ::@:: It stays on the book, waiting for a counterparty, and may never find one.
-- who limit orders are for ::@:: Patient but price-sensitive traders who want to control execution price.
-- what a limit buy at 101 dollars does against a best ask of 100 dollars ::@:: It crosses the spread and executes immediately.
+- what a limit order specifies ::@:: The most a buyer will pay (buy limit) or the least a seller will accept (sell limit). <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what happens to an unfilled limit order ::@:: It stays on the book, waiting for a counterparty, and may never find one. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- who limit orders are for ::@:: Patient but price-sensitive traders who want to control execution price. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what a limit buy at 101 dollars does against a best ask of 100 dollars ::@:: It crosses the spread and executes immediately. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## liquidity provision
 
@@ -34,8 +34,8 @@ Standing limit orders supply liquidity: they sit on the book and wait for incomi
 
 Flashcards for this section are as follows:
 
-- how limit orders relate to liquidity ::@:: They supply it: standing orders wait on the book for incoming orders.
-- what the collection of limit orders is ::@:: The set of trading opportunities in the market.
+- how limit orders relate to liquidity ::@:: They supply it: standing orders wait on the book for incoming orders. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what the collection of limit orders is ::@:: The set of trading opportunities in the market. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ### marketable limit orders
 
@@ -45,8 +45,8 @@ A _marketable limit order_ has a bid at or above the best ask, or an ask at or b
 
 Flashcards for this section are as follows:
 
-- what a marketable limit order is ::@:: A limit order with a bid at or above the best ask, or an ask at or below the best bid, so it takes liquidity.
-- how a marketable limit order compares to a market order ::@:: Identical once fully executed, but the trader still names a price, so the unfilled part never executes beyond that bound.
+- what a marketable limit order is ::@:: A limit order with a bid at or above the best ask, or an ask at or below the best bid, so it takes liquidity. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- how a marketable limit order compares to a market order ::@:: Identical once fully executed, but the trader still names a price, so the unfilled part never executes beyond that bound. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## price-time priority
 
@@ -56,9 +56,9 @@ When multiple limit orders compete for execution, _price-time priority_ decides 
 
 Flashcards for this section are as follows:
 
-- what price-time priority means ::@:: Better prices execute first, and among same-price orders, first come first served.
-- why a limit-order book needs a priority rule ::@:: To order competing executions.
-- when price beats time in priority ::@:: A better price executes even if it arrived later.
+- what price-time priority means ::@:: Better prices execute first, and among same-price orders, first come first served. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- why a limit-order book needs a priority rule ::@:: To order competing executions. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- when price beats time in priority ::@:: A better price executes even if it arrived later. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## execution quality
 
@@ -68,7 +68,7 @@ Limit and market orders differ in two ways that push against each other: executi
 
 Flashcards for this section are as follows:
 
-- two dimensions on which limit and market orders differ ::@:: Execution risk and execution price.
+- two dimensions on which limit and market orders differ ::@:: Execution risk and execution price. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ### execution risk
 
@@ -78,9 +78,9 @@ A limit order does not guarantee execution: the market may never reach the speci
 
 Flashcards for this section are as follows:
 
-- what execution risk a limit order carries ::@:: It may not fill at all, or may fill only partially.
-- how a market order compares on execution risk ::@:: It executes immediately upon submission, so its need is almost always fulfilled.
-- what a partial fill leaves behind ::@:: A smaller order still resting on the book.
+- what execution risk a limit order carries ::@:: It may not fill at all, or may fill only partially. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- how a market order compares on execution risk ::@:: It executes immediately upon submission, so its need is almost always fulfilled. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what a partial fill leaves behind ::@:: A smaller order still resting on the book. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ### execution price
 
@@ -90,5 +90,5 @@ A market order is likely to execute at an inferior price, because it gives up pr
 
 Flashcards for this section are as follows:
 
-- why a market order may execute at an inferior price ::@:: It gives up price control.
-- how a limit order compares on execution price ::@:: It always trades at a price at least as good as the one it names.
+- why a market order may execute at an inferior price ::@:: It gives up price control. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- how a limit order compares on execution price ::@:: It always trades at a price at least as good as the one it names. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->

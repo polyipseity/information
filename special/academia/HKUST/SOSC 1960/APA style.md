@@ -16,9 +16,9 @@ APA style is the citation format used in psychology and the other behavioural an
 
 Flashcards for this section are as follows:
 
-- overview ::@:: The citation format of the American Psychological Association, used in psychology and the other behavioural and social sciences.
-- what APA style fixes ::@:: How a source is named inside a sentence, and how it is listed at the end of the paper.
-- what an in-text citation together with a reference list achieves ::@:: A paraphrase becomes a credited one.
+- overview ::@:: The citation format of the American Psychological Association, used in psychology and the other behavioural and social sciences. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what APA style fixes ::@:: How a source is named inside a sentence, and how it is listed at the end of the paper. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what an in-text citation together with a reference list achieves ::@:: A paraphrase becomes a credited one. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## purposes of references
 
@@ -30,9 +30,9 @@ Acknowledging sources properly does more than avoid a penalty. It shows which cl
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Crediting the authors a work uses, respecting their intellectual property, and showing readers where the original can be found.
-- why a reference list matters to the reader ::@:: It lets them follow the trail backwards from a paper to the studies it rests on.
-- what proper acknowledgment of sources shows ::@:: Which claims the evidence supports, making it credible, and how the current work connects to earlier work.
+- overview ::@:: Crediting the authors a work uses, respecting their intellectual property, and showing readers where the original can be found. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- why a reference list matters to the reader ::@:: It lets them follow the trail backwards from a paper to the studies it rests on. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what proper acknowledgment of sources shows ::@:: Which claims the evidence supports, making it credible, and how the current work connects to earlier work. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## proper attribution
 
@@ -42,10 +42,10 @@ Proper attribution is the three parts together: a paraphrase of the source's ide
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A paraphrase, an in-text citation where the idea is used, and the end-of-paper reference.
-- what an in-text citation marks ::@:: The exact place where a source's idea is used.
-- what breaks attribution ::@:: Leaving out any one of the three: the paraphrase, the in-text citation, or the end-of-paper reference.
-- guides that spell out the format ::@:: The APA's own style site, the library's writing guides, and the Purdue Online Writing Lab.
+- overview ::@:: A paraphrase, an in-text citation where the idea is used, and the end-of-paper reference. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what an in-text citation marks ::@:: The exact place where a source's idea is used. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what breaks attribution ::@:: Leaving out any one of the three: the paraphrase, the in-text citation, or the end-of-paper reference. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- guides that spell out the format ::@:: The APA's own style site, the library's writing guides, and the Purdue Online Writing Lab. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ### building the reference list
 
@@ -55,8 +55,8 @@ The end-of-paper reference is built from the record of the source rather than fr
 
 Flashcards for this section are as follows:
 
-- how an end-of-paper reference is built ::@:: From the record of the source rather than from memory: typed by hand from a database record, or exported by a reference manager or a database's citation tool.
-- what a generated reference is ::@:: Only a draft, checked against the source before the paper is submitted.
+- how an end-of-paper reference is built ::@:: From the record of the source rather than from memory: typed by hand from a database record, or exported by a reference manager or a database's citation tool. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what a generated reference is ::@:: Only a draft, checked against the source before the paper is submitted. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## citing artificial intelligence
 
@@ -68,10 +68,10 @@ A model is never cited as a source of factual information: asking it to define a
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A model's responses are cited as a source when they are studied; its use as a tool is cited or acknowledged.
-- when a language model is cited as a source ::@:: When its own responses are the object of study, as in research on what the model can do.
-- when a language model's use is acknowledged rather than cited ::@:: When it helped with the research or the writing: developing questions, outlining, checking grammar, paraphrasing.
-- why a model is not cited as a source of factual information ::@:: It is not a credible source for academic writing, so a definition quoted from it credits nobody.
+- overview ::@:: A model's responses are cited as a source when they are studied; its use as a tool is cited or acknowledged. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- when a language model is cited as a source ::@:: When its own responses are the object of study, as in research on what the model can do. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- when a language model's use is acknowledged rather than cited ::@:: When it helped with the research or the writing: developing questions, outlining, checking grammar, paraphrasing. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- why a model is not cited as a source of factual information ::@:: It is not a credible source for academic writing, so a definition quoted from it credits nobody. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ### disclosure statement
 
@@ -89,8 +89,8 @@ The use of a model is disclosed along with the work. The individual-work disclos
 
 Flashcards for this section are as follows:
 
-- when a language model's use is disclosed ::@:: Along with the work it helped to produce.
-- what the individual-work disclosure states ::@:: Which model was used, that its use does not violate the university's policies, that the writer is responsible for the work's integrity, and that the work is the writer's own except where sources or assistance are acknowledged.
+- when a language model's use is disclosed ::@:: Along with the work it helped to produce. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what the individual-work disclosure states ::@:: Which model was used, that its use does not violate the university's policies, that the writer is responsible for the work's integrity, and that the work is the writer's own except where sources or assistance are acknowledged. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## references
 

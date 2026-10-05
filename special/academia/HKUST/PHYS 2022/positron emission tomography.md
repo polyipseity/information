@@ -19,11 +19,11 @@ An X-ray records tissue density. A PET scan records the chemistry of the tissue 
 
 Flashcards for this section are as follows:
 
-- overview: what the technique images, and from what signal ::@:: The places where the tracer's positrons annihilate, which are the places the tracer reached; each annihilation there fires a pair of gamma ray photons in opposite directions.
-- what the machine never sees ::@:: The positron and the tracer; it sees only the pairs of gamma ray photons that the annihilations produce.
-- what the image records against what an X-ray records ::@:: This records the chemistry and the metabolism of the tissue that took up the tracer, where an X-ray records density.
-- what the brightness of a spot in the image depends on ::@:: The tracer that was used.
-- whether the scan needs surgery ::@:: No; the positron is made inside the body by an injected tracer.
+- overview: what the technique images, and from what signal ::@:: The places where the tracer's positrons annihilate, which are the places the tracer reached; each annihilation there fires a pair of gamma ray photons in opposite directions. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what the machine never sees ::@:: The positron and the tracer; it sees only the pairs of gamma ray photons that the annihilations produce. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what the image records against what an X-ray records ::@:: This records the chemistry and the metabolism of the tissue that took up the tracer, where an X-ray records density. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what the brightness of a spot in the image depends on ::@:: The tracer that was used. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- whether the scan needs surgery ::@:: No; the positron is made inside the body by an injected tracer. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## the tracer chain
 
@@ -42,17 +42,17 @@ Steps 4 to 6 do the detection, following the annihilation described in [annihila
 
 Flashcards for this section are as follows:
 
-- overview: the six steps of the chain in one line ::@:: Attach a positron-emitting isotope to a tracer in a synthesis lab, inject the tracer, let it bind its target organ, let the isotope emit positrons, let each positron annihilate with a neighbouring electron into two opposed gamma photons, and detect both photons in coincidence to form the image.
-- step 1, attaching the positron-emitting isotope to a tracer: where it happens ::@:: In a synthesis lab, where the isotope is attached to a radioactive tracer molecule.
-- step 2, the injection: when it happens ::@:: Immediately after synthesis, so that the short half-life of the isotope is not spent outside the patient.
-- step 3, once the tracer is inside: what it does ::@:: It attaches to specific organs, which is what decides where the image is bright.
-- step 4, once the tracer has bound: what the isotope does ::@:: It emits positrons.
-- step 5: what happens to each of those positrons ::@:: It annihilates with a neighbouring electron, producing a pair of gamma ray photons travelling in opposite directions.
-- step 6: what the detector does with the pair, and what the computer does with the signal ::@:: The two photons are detected on opposite sides of the detector, and the signal is sent to a computer that forms the image.
-- steps 1 to 3 against steps 4 to 6: what each half is for ::@:: The first half delivers and targets the tracer, and the second half detects the photons the isotope produces.
-- why the isotope and the tracer are two separate parts of the molecule ::@:: The isotope supplies the signal and the tracer decides where that signal comes from.
-- why step 3 is the step that gives the image its meaning ::@:: A tracer that failed to bind would make the image bright wherever the isotope happened to end up, which is nowhere in particular.
-- step 6 in one phrase: what it adds that the other five steps do not ::@:: It is the only step that produces data rather than physics, turning a shower of unrelated events into a position.
+- overview: the six steps of the chain in one line ::@:: Attach a positron-emitting isotope to a tracer in a synthesis lab, inject the tracer, let it bind its target organ, let the isotope emit positrons, let each positron annihilate with a neighbouring electron into two opposed gamma photons, and detect both photons in coincidence to form the image. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- step 1, attaching the positron-emitting isotope to a tracer: where it happens ::@:: In a synthesis lab, where the isotope is attached to a radioactive tracer molecule. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- step 2, the injection: when it happens ::@:: Immediately after synthesis, so that the short half-life of the isotope is not spent outside the patient. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- step 3, once the tracer is inside: what it does ::@:: It attaches to specific organs, which is what decides where the image is bright. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- step 4, once the tracer has bound: what the isotope does ::@:: It emits positrons. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- step 5: what happens to each of those positrons ::@:: It annihilates with a neighbouring electron, producing a pair of gamma ray photons travelling in opposite directions. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- step 6: what the detector does with the pair, and what the computer does with the signal ::@:: The two photons are detected on opposite sides of the detector, and the signal is sent to a computer that forms the image. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- steps 1 to 3 against steps 4 to 6: what each half is for ::@:: The first half delivers and targets the tracer, and the second half detects the photons the isotope produces. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- why the isotope and the tracer are two separate parts of the molecule ::@:: The isotope supplies the signal and the tracer decides where that signal comes from. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- why step 3 is the step that gives the image its meaning ::@:: A tracer that failed to bind would make the image bright wherever the isotope happened to end up, which is nowhere in particular. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- step 6 in one phrase: what it adds that the other five steps do not ::@:: It is the only step that produces data rather than physics, turning a shower of unrelated events into a position. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## what each tracer targets
 
@@ -70,15 +70,15 @@ FDG does not bind to cancer. It is a glucose analogue, and any tissue metabolisi
 
 Flashcards for this section are as follows:
 
-- what makes an image specific: the molecule or the isotope ::@:: The molecule, since each tracer binds to one target and the molecule was chosen for its chemistry rather than for its radioactivity.
-- FDG: what it attaches to, and the three kinds of tissue that follow from that ::@:: Altered glucose metabolism, which covers cancers, infections, and areas of inflammation.
-- DOTA: what it attaches to ::@:: Neuroendocrine tumours.
-- PSMA: what it attaches to ::@:: The prostate-specific membrane of prostate cancer.
-- what the element symbol and the number in a name like F-18 or Ga-68 give you ::@:: The element and its mass number; FDG, DOTA, and PSMA are the molecules the isotopes are attached to.
-- what kind of isotopes F-18 and Ga-68 are, and what decided the molecule each one carries ::@:: Both are positron emitters with short half-lives, and each molecule was chosen for its chemistry rather than for its radioactivity.
-- what kind of molecule FDG is, and why that decides what it binds ::@:: A glucose analogue, so it is taken up wherever glucose is being metabolised rather than by cancer specifically.
-- a counterexample: a bright spot on an FDG scan ::@:: A statement about metabolic activity rather than a diagnosis on its own, since inflammation and infection take up the tracer too.
-- how DOTA and PSMA compare in reach with FDG ::@:: They are narrower: DOTA reaches neuroendocrine tumours, and PSMA reaches a membrane found on prostate cancer cells.
+- what makes an image specific: the molecule or the isotope ::@:: The molecule, since each tracer binds to one target and the molecule was chosen for its chemistry rather than for its radioactivity. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- FDG: what it attaches to, and the three kinds of tissue that follow from that ::@:: Altered glucose metabolism, which covers cancers, infections, and areas of inflammation. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- DOTA: what it attaches to ::@:: Neuroendocrine tumours. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- PSMA: what it attaches to ::@:: The prostate-specific membrane of prostate cancer. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what the element symbol and the number in a name like F-18 or Ga-68 give you ::@:: The element and its mass number; FDG, DOTA, and PSMA are the molecules the isotopes are attached to. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what kind of isotopes F-18 and Ga-68 are, and what decided the molecule each one carries ::@:: Both are positron emitters with short half-lives, and each molecule was chosen for its chemistry rather than for its radioactivity. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what kind of molecule FDG is, and why that decides what it binds ::@:: A glucose analogue, so it is taken up wherever glucose is being metabolised rather than by cancer specifically. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- a counterexample: a bright spot on an FDG scan ::@:: A statement about metabolic activity rather than a diagnosis on its own, since inflammation and infection take up the tracer too. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- how DOTA and PSMA compare in reach with FDG ::@:: They are narrower: DOTA reaches neuroendocrine tumours, and PSMA reaches a membrane found on prostate cancer cells. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## why the geometry makes the image possible
 
@@ -90,8 +90,8 @@ A coincidence requirement keeps those lines clean. The detector registers an eve
 
 Flashcards for this section are as follows:
 
-- overview: what one detected pair gives, and what many of them give ::@:: One pair gives a line of known direction through the annihilation point and nothing more; many such lines intersected together give a position.
-- the coincidence requirement, stated as a rule ::@:: An event is registered only when both photons of a pair arrive within a short window of each other.
-- the coincidence requirement's effect on the data ::@:: Most unrelated photon pairs fail it, so the lines that survive are almost all real annihilations and the machine can reconstruct from few accepted lines.
-- the fixed $511\ \text{keV}$ and what the detector does with it ::@:: The detector accepts that energy and discards photons that have scattered and lost energy on the way in.
-- a counterexample: detecting one photon at a time instead ::@:: It would localise nothing, since a single photon gives no line through the event at all.
+- overview: what one detected pair gives, and what many of them give ::@:: One pair gives a line of known direction through the annihilation point and nothing more; many such lines intersected together give a position. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the coincidence requirement, stated as a rule ::@:: An event is registered only when both photons of a pair arrive within a short window of each other. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the coincidence requirement's effect on the data ::@:: Most unrelated photon pairs fail it, so the lines that survive are almost all real annihilations and the machine can reconstruct from few accepted lines. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the fixed $511\ \text{keV}$ and what the detector does with it ::@:: The detector accepts that energy and discards photons that have scattered and lost energy on the way in. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- a counterexample: detecting one photon at a time instead ::@:: It would localise nothing, since a single photon gives no line through the event at all. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->

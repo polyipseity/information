@@ -15,9 +15,9 @@ Liquidity is the ability to execute a trade at a low cost and with a small price
 
 Flashcards for this section are as follows:
 
-- overview ::@:: The ability to execute a trade at a low cost and with a small price impact.
-- what happens to the price when a trade is executed in a liquid market ::@:: Nothing: the trading does not move the price.
-- what an infinitely liquid market does with trading needs ::@:: It fills all of them without additional costs.
+- overview ::@:: The ability to execute a trade at a low cost and with a small price impact. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what happens to the price when a trade is executed in a liquid market ::@:: Nothing: the trading does not move the price. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what an infinitely liquid market does with trading needs ::@:: It fills all of them without additional costs. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## market and funding liquidity
 
@@ -27,8 +27,8 @@ _Liquidity_ is used in two senses. _Market_ liquidity is a property of a market,
 
 Flashcards for this section are as follows:
 
-- two senses of liquidity ::@:: Market liquidity and funding liquidity.
-- market liquidity versus funding liquidity ::@:: Market liquidity is a property of a market, how cheaply an asset trades; funding liquidity is about the financing a trader needs rather than about the market.
+- two senses of liquidity ::@:: Market liquidity and funding liquidity. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- market liquidity versus funding liquidity ::@:: Market liquidity is a property of a market, how cheaply an asset trades; funding liquidity is about the financing a trader needs rather than about the market. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## trading cost and price impact
 
@@ -40,9 +40,9 @@ The trade-off shows up in a choice between two limit-order books, for a purchase
 
 Flashcards for this section are as follows:
 
-- two components of the trading cost of a large order ::@:: The bid–ask spread and the price impact.
-- definition of the bid–ask spread ::@:: The gap between the best ask and the best bid.
-- component of trading cost that grows with order size ::@:: Price impact, because the trade itself moves the price.
-- why liquidity matters for welfare ::@:: Trading costs fall on everyone who trades.
-- what the two limit-order books compare ::@:: Two exchanges quoting the same bid and ask while offering different quantities at each price.
-- why a quoted spread alone does not settle the cost of an order ::@:: Two books can quote the same spread and still differ in how much is offered at the best price.
+- two components of the trading cost of a large order ::@:: The bid–ask spread and the price impact. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- definition of the bid–ask spread ::@:: The gap between the best ask and the best bid. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- component of trading cost that grows with order size ::@:: Price impact, because the trade itself moves the price. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- why liquidity matters for welfare ::@:: Trading costs fall on everyone who trades. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what the two limit-order books compare ::@:: Two exchanges quoting the same bid and ask while offering different quantities at each price. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- why a quoted spread alone does not settle the cost of an order ::@:: Two books can quote the same spread and still differ in how much is offered at the best price. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->

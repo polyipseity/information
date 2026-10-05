@@ -16,7 +16,7 @@ X-rays are electromagnetic radiation produced when fast-moving electrons interac
 
 Flashcards for this section are as follows:
 
-- X-rays: what they are ::@:: Electromagnetic radiation produced when fast-moving electrons interact with matter.
+- X-rays: what they are ::@:: Electromagnetic radiation produced when fast-moving electrons interact with matter. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## discovery
 
@@ -26,8 +26,8 @@ Wilhelm Röntgen discovered X-rays on 8 November 1895 while studying cathode ray
 
 Flashcards for this section are as follows:
 
-- the discovery of X-rays: the date, discoverer, and Nobel year ::@:: 8 November 1895, by Wilhelm Röntgen; Nobel Prize in Physics 1901.
-- Röntgen's key observation: what told him the rays were not cathode rays ::@:: They were unaffected by magnetic fields (not charged) and penetrated materials more than cathode rays.
+- the discovery of X-rays: the date, discoverer, and Nobel year ::@:: 8 November 1895, by Wilhelm Röntgen; Nobel Prize in Physics 1901. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- Röntgen's key observation: what told him the rays were not cathode rays ::@:: They were unaffected by magnetic fields (not charged) and penetrated materials more than cathode rays. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## bremsstrahlung
 
@@ -39,12 +39,12 @@ The X-ray tube itself consists of a glass envelope evacuated to high vacuum. A f
 
 Flashcards for this section are as follows:
 
-- bremsstrahlung: what it is ::@:: Braking radiation produced when an energetic electron decelerates near a nucleus, emitting a photon with energy equal to the kinetic energy lost.
-- the energy relation in bremsstrahlung ::@:: $hf = E_i - E_f$, where $E_i$ and $E_f$ are the electron's initial and final kinetic energies. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- the maximum photon energy in bremsstrahlung ::@:: Corresponds to the electron losing all its kinetic energy: $hf_{\max} = E_i$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- the X-ray tube: its main components ::@:: A heated filament (cathode) for thermionic emission, a high-voltage accelerating gap, and a rotating tungsten anode target.
-- what determines the maximum X-ray photon energy ::@:: The accelerating voltage: $hf_{\max} = eV$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- what determines the X-ray intensity ::@:: The tube current, which controls the number of electrons hitting the target.
+- bremsstrahlung: what it is ::@:: Braking radiation produced when an energetic electron decelerates near a nucleus, emitting a photon with energy equal to the kinetic energy lost. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the energy relation in bremsstrahlung ::@:: $hf = E_i - E_f$, where $E_i$ and $E_f$ are the electron's initial and final kinetic energies. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the maximum photon energy in bremsstrahlung ::@:: Corresponds to the electron losing all its kinetic energy: $hf_{\max} = E_i$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the X-ray tube: its main components ::@:: A heated filament (cathode) for thermionic emission, a high-voltage accelerating gap, and a rotating tungsten anode target. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what determines the maximum X-ray photon energy ::@:: The accelerating voltage: $hf_{\max} = eV$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what determines the X-ray intensity ::@:: The tube current, which controls the number of electrons hitting the target. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## characteristic X-rays
 
@@ -54,8 +54,8 @@ When a high-energy electron collides with an inner-shell electron, the inner-she
 
 Flashcards for this section are as follows:
 
-- characteristic X-rays: how they are produced ::@:: An inner-shell electron is ejected by a fast electron; an outer-shell electron drops to fill the hole, emitting a photon whose energy equals the difference between the two shell levels.
-- why they are called "characteristic" ::@:: The energy levels are quantized and unique to each element, so the emitted X-ray energies identify the target material.
+- characteristic X-rays: how they are produced ::@:: An inner-shell electron is ejected by a fast electron; an outer-shell electron drops to fill the hole, emitting a photon whose energy equals the difference between the two shell levels. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- why they are called "characteristic" ::@:: The energy levels are quantized and unique to each element, so the emitted X-ray energies identify the target material. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## synchrotron radiation
 
@@ -65,5 +65,5 @@ A synchrotron is a particle accelerator where electrons travel in a circle many 
 
 Flashcards for this section are as follows:
 
-- a synchrotron: what it is ::@:: A particle accelerator where electrons travel in a circular path, using magnetic fields to bend the orbit and electric fields to accelerate.
-- an undulator: what it does ::@:: A periodic magnet structure that forces electrons to oscillate, causing them to emit electromagnetic radiation including X-rays.
+- a synchrotron: what it is ::@:: A particle accelerator where electrons travel in a circular path, using magnetic fields to bend the orbit and electric fields to accelerate. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- an undulator: what it does ::@:: A periodic magnet structure that forces electrons to oscillate, causing them to emit electromagnetic radiation including X-rays. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->

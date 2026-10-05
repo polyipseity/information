@@ -15,8 +15,8 @@ A microkernel provides only the near-minimum mechanisms needed for an operating 
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A minimal kernel that provides only fundamental mechanisms — process management, memory management, and inter-process communication — with all other services implemented as user-level programs in separate address spaces.
-- motivation for microkernels ::@:: Microkernels move nonessential components out of the kernel into user-level programs, reducing kernel size and complexity.
+- overview ::@:: A minimal kernel that provides only fundamental mechanisms — process management, memory management, and inter-process communication — with all other services implemented as user-level programs in separate address spaces. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- motivation for microkernels ::@:: Microkernels move nonessential components out of the kernel into user-level programs, reducing kernel size and complexity. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## inter-process communication
 
@@ -26,8 +26,8 @@ One main function of a microkernel is IPC through message passing. If an applica
 
 Flashcards for this section are as follows:
 
-- microkernel IPC ::@:: In a microkernel, user-level programs and services communicate indirectly through message passing via the microkernel, rather than interacting directly with each other.
-- microkernel message-passing overhead ::@:: When two user-level services communicate, messages must be copied between separate address spaces, introducing performance overhead.
+- microkernel IPC ::@:: In a microkernel, user-level programs and services communicate indirectly through message passing via the microkernel, rather than interacting directly with each other. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- microkernel message-passing overhead ::@:: When two user-level services communicate, messages must be copied between separate address spaces, introducing performance overhead. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## advantages
 
@@ -37,8 +37,8 @@ A microkernel is easier to extend because new services go into user space withou
 
 Flashcards for this section are as follows:
 
-- microkernel advantages ::@:: Easier to extend, port, and debug; more secure and reliable because less code runs in kernel mode.
-- microkernel reliability ::@:: A single service failure does not crash the rest of the operating system, since most services run as user processes.
+- microkernel advantages ::@:: Easier to extend, port, and debug; more secure and reliable because less code runs in kernel mode. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- microkernel reliability ::@:: A single service failure does not crash the rest of the operating system, since most services run as user processes. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## drawbacks
 
@@ -48,8 +48,8 @@ Performance suffers due to user-space to kernel-space communication overhead. Me
 
 Flashcards for this section are as follows:
 
-- microkernel performance drawback ::@:: Overhead from user-space to kernel-space communication and message copying between separate address spaces.
-- Windows NT migration ::@:: Windows NT originally used a layered microkernel but performed worse than Windows 95; later versions moved more functions into the kernel, becoming more monolithic for performance.
+- microkernel performance drawback ::@:: Overhead from user-space to kernel-space communication and message copying between separate address spaces. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- Windows NT migration ::@:: Windows NT originally used a layered microkernel but performed worse than Windows 95; later versions moved more functions into the kernel, becoming more monolithic for performance. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## Mach and Darwin <!-- check: ignore-line[header_style]: proper nouns -->
 
@@ -61,6 +61,6 @@ Darwin provides two system-call interfaces: Mach traps and BSD system calls (pro
 
 Flashcards for this section are as follows:
 
-- Mach microkernel ::@:: An early microkernel from CMU (mid-1980s) providing memory management, CPU scheduling, and IPC.
-- Darwin kernel structure ::@:: A hybrid XNU kernel: Mach microkernel (memory management, CPU scheduling, IPC) plus BSD UNIX kernel (POSIX API, networking, file system, security), with two system-call interfaces: Mach traps and BSD calls.
-- kernel extensions (kexts) ::@:: Dynamically loadable modules in the Darwin kernel, used for device drivers and other extensions.
+- Mach microkernel ::@:: An early microkernel from CMU (mid-1980s) providing memory management, CPU scheduling, and IPC. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- Darwin kernel structure ::@:: A hybrid XNU kernel: Mach microkernel (memory management, CPU scheduling, IPC) plus BSD UNIX kernel (POSIX API, networking, file system, security), with two system-call interfaces: Mach traps and BSD calls. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- kernel extensions (kexts) ::@:: Dynamically loadable modules in the Darwin kernel, used for device drivers and other extensions. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->

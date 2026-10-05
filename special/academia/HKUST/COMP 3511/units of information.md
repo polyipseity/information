@@ -22,10 +22,10 @@ Computer storage, and most throughput, is measured in bytes and collections of b
 
 Flashcards for this section are as follows:
 
-- bit ::@:: The basic unit of computer storage, holding one of two values, 0 and 1; all other storage is built from collections of bits.
-- byte ::@:: 8 bits and, on most computers, the smallest convenient chunk of storage: most have an instruction to move a byte but not a bit.
-- word ::@:: A given computer architecture's native unit of data, made up of one or more bytes; a computer with 64-bit registers and addressing typically has 64-bit (8-byte) words and operates on a word rather than a byte at a time.
-- storage in bytes versus networks in bits ::@:: Computer storage and most throughput are measured in bytes and collections of bytes, while network measurements use bits per second such as Mb/s or Gb/s, because networks move data a bit at a time.
+- bit ::@:: The basic unit of computer storage, holding one of two values, 0 and 1; all other storage is built from collections of bits. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- byte ::@:: 8 bits and, on most computers, the smallest convenient chunk of storage: most have an instruction to move a byte but not a bit. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- word ::@:: A given computer architecture's native unit of data, made up of one or more bytes; a computer with 64-bit registers and addressing typically has 64-bit (8-byte) words and operates on a word rather than a byte at a time. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- storage in bytes versus networks in bits ::@:: Computer storage and most throughput are measured in bytes and collections of bytes, while network measurements use bits per second such as Mb/s or Gb/s, because networks move data a bit at a time. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## binary and decimal prefixes
 
@@ -39,8 +39,8 @@ Manufacturers often round a decimal symbol off, calling a megabyte 1 million byt
 
 Flashcards for this section are as follows:
 
-- decimal prefixes: how many bytes is $1$ kB, and how do the larger ones scale? ::@:: $1{,}000$ bytes is a kilobyte (kB), $1{,}000^2$ bytes is a megabyte (MB), $1{,}000^3$ bytes is a gigabyte (GB), $1{,}000^4$ bytes is a terabyte (TB), and $1{,}000^5$ bytes is a petabyte (PB).
-- binary prefixes: how many bytes is $1$ KiB, and how do the larger ones scale? ::@:: $1{,}024 = 2^{10}$ bytes is a kibibyte (KiB), $1{,}024^2$ bytes is a mebibyte (MiB), $1{,}024^3$ bytes is a gibibyte (GiB), $1{,}024^4$ bytes is a tebibyte (TiB), and $1{,}024^5$ bytes is a pebibyte (PiB).
-- prefix symbols: kB or KB, and what do KiB, MiB, and GiB mean? ::@:: The decimal symbols are kB, MB, GB, TB, and PB with a lowercase SI prefix k, so KB is common but not the recommended decimal symbol and a bare kB or MB is ambiguous in practice; the binary symbols are KiB, MiB, GiB, TiB, and PiB, from IEC 60027-2 and ISO/IEC 80000-13.
-- rounded manufacturer figures ::@:: Manufacturers often round these off: a megabyte is said to be 1 million bytes and a gigabyte 1 billion bytes.
-- this course: are its kB, MB, and GB the $1{,}000$-based or the $1{,}024$-based quantities? ::@:: This course writes kB, MB, and GB and means the $1{,}024$-based quantities by them.
+- decimal prefixes: how many bytes is $1$ kB, and how do the larger ones scale? ::@:: $1{,}000$ bytes is a kilobyte (kB), $1{,}000^2$ bytes is a megabyte (MB), $1{,}000^3$ bytes is a gigabyte (GB), $1{,}000^4$ bytes is a terabyte (TB), and $1{,}000^5$ bytes is a petabyte (PB). <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- binary prefixes: how many bytes is $1$ KiB, and how do the larger ones scale? ::@:: $1{,}024 = 2^{10}$ bytes is a kibibyte (KiB), $1{,}024^2$ bytes is a mebibyte (MiB), $1{,}024^3$ bytes is a gibibyte (GiB), $1{,}024^4$ bytes is a tebibyte (TiB), and $1{,}024^5$ bytes is a pebibyte (PiB). <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- prefix symbols: kB or KB, and what do KiB, MiB, and GiB mean? ::@:: The decimal symbols are kB, MB, GB, TB, and PB with a lowercase SI prefix k, so KB is common but not the recommended decimal symbol and a bare kB or MB is ambiguous in practice; the binary symbols are KiB, MiB, GiB, TiB, and PiB, from IEC 60027-2 and ISO/IEC 80000-13. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- rounded manufacturer figures ::@:: Manufacturers often round these off: a megabyte is said to be 1 million bytes and a gigabyte 1 billion bytes. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- this course: are its kB, MB, and GB the $1{,}000$-based or the $1{,}024$-based quantities? ::@:: This course writes kB, MB, and GB and means the $1{,}024$-based quantities by them. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->

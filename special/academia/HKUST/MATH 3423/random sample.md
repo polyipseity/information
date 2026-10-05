@@ -18,9 +18,9 @@ A _random sample_ is a collection of independent and identically distributed cop
 
 Flashcards for this section are as follows:
 
-- definition: for copies $X_1, \ldots, X_n$ of the random variable $X$ ::@:: A collection of independent and identically distributed copies of $X$.
-- requirement on the copies $X_1, \ldots, X_n$ ::@:: Independent and identically distributed, abbreviated i.i.d., unless otherwise stated.
-- which value of $X_i$ is meant by $x_i$ ::@:: The actual value taken by the $i$-th copy $X_i$ of $X$.
+- definition: for copies $X_1, \ldots, X_n$ of the random variable $X$ ::@:: A collection of independent and identically distributed copies of $X$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- requirement on the copies $X_1, \ldots, X_n$ ::@:: Independent and identically distributed, abbreviated i.i.d., unless otherwise stated. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- which value of $X_i$ is meant by $x_i$ ::@:: The actual value taken by the $i$-th copy $X_i$ of $X$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## the i.i.d. assumption
 
@@ -34,10 +34,10 @@ Failing both at once is the easy one to recognize. Failing exactly one is the ha
 
 Flashcards for this section are as follows:
 
-- why independence is assumed: for $X_1, \ldots, X_n$ ::@:: No copy carries information about any other, so probabilities for the sample multiply and $\operatorname{Var}(X_1 + \cdots + X_n) = \operatorname{Var}(X_1) + \cdots + \operatorname{Var}(X_n)$.
-- why identical distribution is assumed: for $X_1, \ldots, X_n$ ::@:: Every copy follows the same distribution as $X$, so one parameter $\theta$ describes the whole sample.
-- abbreviation for independent and identically distributed copies of $X$ ::@:: i.i.d.
-- independence and identical distribution: one requirement or two ::@:: Two, and a collection can satisfy either without the other, as the urn draws and the unequal-variance pair show.
+- why independence is assumed: for $X_1, \ldots, X_n$ ::@:: No copy carries information about any other, so probabilities for the sample multiply and $\operatorname{Var}(X_1 + \cdots + X_n) = \operatorname{Var}(X_1) + \cdots + \operatorname{Var}(X_n)$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- why identical distribution is assumed: for $X_1, \ldots, X_n$ ::@:: Every copy follows the same distribution as $X$, so one parameter $\theta$ describes the whole sample. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- abbreviation for independent and identically distributed copies of $X$ ::@:: i.i.d. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- independence and identical distribution: one requirement or two ::@:: Two, and a collection can satisfy either without the other, as the urn draws and the unequal-variance pair show. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 <!-- check: ignore-next-line[section_example_heading]: a matched pair of cases for the definition, kept together so the counterexample sits beside the definition it violates -->
 ### examples and counterexamples
@@ -58,13 +58,13 @@ Drop the $\rho$ and the series $X_{i+1} = X_i + \varepsilon_{i+1}$ is a random w
 
 Flashcards for this section are as follows:
 
-- $n$ independent rolls of a fair die: random sample or not ::@:: Yes, the rolls are independent and each copy has the uniform law on $\{1, \ldots, 6\}$, so the copies are i.i.d.
-- independent copies of $N(\mu, \sigma^2)$ with a common $\mu$ and a common $\sigma^2$: random sample or not ::@:: Yes, every copy is independent of the others and shares the single law $N(\mu, \sigma^2)$.
-- $n$ draws without replacement from an urn of $N$ balls, $W$ of them white: random sample or not ::@:: No, $\operatorname{Cov}(X_1, X_2) = -\frac{p(1-p)}{N-1} < 0$ for the white indicators, since a white first draw depletes the white balls.
-- a pair with $X_2 = X_1$: random sample or not ::@:: No, $\operatorname{Cov}(X_1, X_2) = \operatorname{Var}(X_1) > 0$ and knowing $X_1$ fixes $X_2$.
-- the pair $U$ and $1-U$ for $U \sim \text{Unif}(0, 1)$: random sample or not ::@:: No, both marginals are $\text{Unif}(0, 1)$ but $\operatorname{Cov}(U, 1-U) = -\operatorname{Var}(U) < 0$ and $1-U$ is determined by $U$.
-- mean-reverting series $X_{i+1} = \rho X_i + \varepsilon_{i+1}$ with $0 < \rho < 1$: random sample or not ::@:: No, every copy has the same law, but $\operatorname{Cov}(X_i, X_{i+1}) = \frac{\rho\sigma^2}{1-\rho^2} > 0$ makes the copies dependent.
-- random walk $X_{i+1} = X_i + \varepsilon_{i+1}$ with i.i.d. errors $\varepsilon_i \sim N(0, \sigma^2)$: random sample or not ::@:: No, both conditions fail, since $\operatorname{Var}(X_i) = i\sigma^2$ grows with $i$ so the copies are neither independent nor identically distributed.
+- $n$ independent rolls of a fair die: random sample or not ::@:: Yes, the rolls are independent and each copy has the uniform law on $\{1, \ldots, 6\}$, so the copies are i.i.d. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- independent copies of $N(\mu, \sigma^2)$ with a common $\mu$ and a common $\sigma^2$: random sample or not ::@:: Yes, every copy is independent of the others and shares the single law $N(\mu, \sigma^2)$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- $n$ draws without replacement from an urn of $N$ balls, $W$ of them white: random sample or not ::@:: No, $\operatorname{Cov}(X_1, X_2) = -\frac{p(1-p)}{N-1} < 0$ for the white indicators, since a white first draw depletes the white balls. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- a pair with $X_2 = X_1$: random sample or not ::@:: No, $\operatorname{Cov}(X_1, X_2) = \operatorname{Var}(X_1) > 0$ and knowing $X_1$ fixes $X_2$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the pair $U$ and $1-U$ for $U \sim \text{Unif}(0, 1)$: random sample or not ::@:: No, both marginals are $\text{Unif}(0, 1)$ but $\operatorname{Cov}(U, 1-U) = -\operatorname{Var}(U) < 0$ and $1-U$ is determined by $U$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- mean-reverting series $X_{i+1} = \rho X_i + \varepsilon_{i+1}$ with $0 < \rho < 1$: random sample or not ::@:: No, every copy has the same law, but $\operatorname{Cov}(X_i, X_{i+1}) = \frac{\rho\sigma^2}{1-\rho^2} > 0$ makes the copies dependent. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- random walk $X_{i+1} = X_i + \varepsilon_{i+1}$ with i.i.d. errors $\varepsilon_i \sim N(0, \sigma^2)$: random sample or not ::@:: No, both conditions fail, since $\operatorname{Var}(X_i) = i\sigma^2$ grows with $i$ so the copies are neither independent nor identically distributed. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## joint distribution under random sampling
 
@@ -80,14 +80,14 @@ Without independence the joint law is not a product at all, and the calculation 
 
 Flashcards for this section are as follows:
 
-- joint pdf of a random sample: $f(x_1, \ldots, x_n \mid \theta)$ for independent copies ::@:: $\prod_{i=1}^{n} f_X(x_i \mid \theta)$.
-- joint pmf of a random sample: for independent copies, $i = 1, \ldots, n$ ::@:: $\prod_{i=1}^{n} p_X(x_i \mid \theta)$.
-- how many parameters a random sample carries: $\theta$ in the joint factorization ::@:: One, shared by every copy.
-- independent copies that are not identically distributed: is the joint density still a product over $i = 1, \ldots, n$? ::@:: Yes, but of $n$ different factors, one per copy, instead of $n$ copies of a single $f_X$.
-- dependent copies: is the joint density a product? ::@:: No, the split into one factor per copy is what independence gives, and a joint density that fails to split shows the copies are not independent.
-- product density of a random sample: definitional or something to prove? ::@:: Definitional in both directions, since a product density is independence read the other way round.
-- for components of a jointly normal vector, does a zero cross-covariance imply independence? ::@:: Yes, and it is the one direction that is not definitional: the zero block splits the covariance matrix, the density factorizes, and a factorized density is independence.
-- outside the normal family, does a zero covariance imply independence? ::@:: No, a zero covariance and a dependence can sit together.
+- joint pdf of a random sample: $f(x_1, \ldots, x_n \mid \theta)$ for independent copies ::@:: $\prod_{i=1}^{n} f_X(x_i \mid \theta)$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- joint pmf of a random sample: for independent copies, $i = 1, \ldots, n$ ::@:: $\prod_{i=1}^{n} p_X(x_i \mid \theta)$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- how many parameters a random sample carries: $\theta$ in the joint factorization ::@:: One, shared by every copy. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- independent copies that are not identically distributed: is the joint density still a product over $i = 1, \ldots, n$? ::@:: Yes, but of $n$ different factors, one per copy, instead of $n$ copies of a single $f_X$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- dependent copies: is the joint density a product? ::@:: No, the split into one factor per copy is what independence gives, and a joint density that fails to split shows the copies are not independent. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- product density of a random sample: definitional or something to prove? ::@:: Definitional in both directions, since a product density is independence read the other way round. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- for components of a jointly normal vector, does a zero cross-covariance imply independence? ::@:: Yes, and it is the one direction that is not definitional: the zero block splits the covariance matrix, the density factorizes, and a factorized density is independence. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- outside the normal family, does a zero covariance imply independence? ::@:: No, a zero covariance and a dependence can sit together. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 <!-- check: ignore-next-line[section_example_heading]: a matched pair of cases for the definition, kept together so the counterexample sits beside the definition it violates -->
 ### examples and counterexamples for the product form
@@ -102,6 +102,6 @@ Outside the normal family the same covariance buys nothing. Take $U \sim \text{U
 
 Flashcards for this section are as follows:
 
-- independent pair with $\operatorname{Var}(X_1) = 1$ and $\operatorname{Var}(X_2) = 4$: random sample or not ::@:: No, independence holds but the two copies have different laws, so they are not identically distributed.
-- bivariate normal pair with covariance matrix $I_2$: does a zero cross-covariance force the joint density to split? ::@:: Yes, both off-diagonal entries are zero, so the components are independent and the density factorizes into the two marginals.
-- $U \sim \text{Unif}(-1, 1)$ and $V = U^2$ outside the normal family: does a zero covariance force the joint density to split? ::@:: No, $\operatorname{Cov}(U, V) = 0$ because $\operatorname{E}[U^3] = \operatorname{E}[U] = 0$, but $V$ is determined by $U$, so the copies are dependent.
+- independent pair with $\operatorname{Var}(X_1) = 1$ and $\operatorname{Var}(X_2) = 4$: random sample or not ::@:: No, independence holds but the two copies have different laws, so they are not identically distributed. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- bivariate normal pair with covariance matrix $I_2$: does a zero cross-covariance force the joint density to split? ::@:: Yes, both off-diagonal entries are zero, so the components are independent and the density factorizes into the two marginals. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- $U \sim \text{Unif}(-1, 1)$ and $V = U^2$ outside the normal family: does a zero covariance force the joint density to split? ::@:: No, $\operatorname{Cov}(U, V) = 0$ because $\operatorname{E}[U^3] = \operatorname{E}[U] = 0$, but $V$ is determined by $U$, so the copies are dependent. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->

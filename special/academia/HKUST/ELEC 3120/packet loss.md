@@ -20,9 +20,9 @@ A packet that never arrives is lost, and how often that happens depends on the m
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Packet loss is data that fails to reach its destination, and how often it happens follows from the medium's error rate.
-- why do two links lose data at different rates? ::@:: Their media have different error rates.
-- what happens to data a protocol loses? ::@:: The transport protocol detects it and sends it again, as TCP does.
+- overview ::@:: Packet loss is data that fails to reach its destination, and how often it happens follows from the medium's error rate. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- why do two links lose data at different rates? ::@:: Their media have different error rates. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what happens to data a protocol loses? ::@:: The transport protocol detects it and sends it again, as TCP does. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## error rates
 
@@ -32,8 +32,8 @@ Media differ in more than bandwidth and latency. Each kind of medium has its own
 
 Flashcards for this section are as follows:
 
-- which link property follows from a medium's error rate? ::@:: Its data loss rate.
-- is a link's loss rate a property of the data? ::@:: No: it is a property of the medium, which has its own error rate.
+- which link property follows from a medium's error rate? ::@:: Its data loss rate. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- is a link's loss rate a property of the data? ::@:: No: it is a property of the medium, which has its own error rate. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## causes of random loss
 
@@ -43,6 +43,6 @@ Loss with no fault behind it comes from the medium and the surroundings. A solar
 
 Flashcards for this section are as follows:
 
-- four causes of random loss: which are they? ::@:: A solar flare, a nearby microwave oven, a cable plugged in wrong, and several transmitters sending at once.
-- why do simultaneous transmitters lose data? ::@:: They interfere with one another, like people talking over each other in a crowded room.
-- why is this loss called random? ::@:: Nothing in the protocol caused it: the medium or its surroundings did.
+- four causes of random loss: which are they? ::@:: A solar flare, a nearby microwave oven, a cable plugged in wrong, and several transmitters sending at once. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- why do simultaneous transmitters lose data? ::@:: They interfere with one another, like people talking over each other in a crowded room. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- why is this loss called random? ::@:: Nothing in the protocol caused it: the medium or its surroundings did. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->

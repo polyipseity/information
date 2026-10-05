@@ -17,10 +17,10 @@ An _over-the-counter_ market is decentralized trading: a trade is struck directl
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Decentralized trading in which a trade is struck directly between two parties instead of through an exchange.
-- how two parties agree on an over-the-counter trade ::@:: Over the telephone, by email, or through a proprietary electronic trading system.
-- why an over-the-counter asset has no public price ::@:: The trade is private to the two parties, so nothing publishes a price for the asset.
-- second meaning of "decentralized" in finance ::@:: Blockchain-based trading, which is decentralized in a different sense.
+- overview ::@:: Decentralized trading in which a trade is struck directly between two parties instead of through an exchange. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- how two parties agree on an over-the-counter trade ::@:: Over the telephone, by email, or through a proprietary electronic trading system. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- why an over-the-counter asset has no public price ::@:: The trade is private to the two parties, so nothing publishes a price for the asset. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- second meaning of "decentralized" in finance ::@:: Blockchain-based trading, which is decentralized in a different sense. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## what over-the-counter markets trade
 
@@ -30,10 +30,10 @@ Over-the-counter markets trade non-standard securities that few investors want t
 
 Flashcards for this section are as follows:
 
-- assets an over-the-counter market typically trades ::@:: Non-standard securities that few investors want to hold: mortgages on housing, tranches of collateralized debt obligations, and synthetic derivative securities.
-- two properties of an over-the-counter asset ::@:: Low liquidity, because few investors want to trade it, and high flexibility, because the contract can be custom-tailored.
-- ordinary assets that also trade over the counter ::@:: Foreign exchange and government and corporate bonds.
-- how an inter-dealer broker's 2019 revenue splits by product group ::@:: Tradition: currencies and rates 43%, securities and security derivatives 32%, commodities 21%, and non-IDB online retail foreign-exchange brokerage 4%.
+- assets an over-the-counter market typically trades ::@:: Non-standard securities that few investors want to hold: mortgages on housing, tranches of collateralized debt obligations, and synthetic derivative securities. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- two properties of an over-the-counter asset ::@:: Low liquidity, because few investors want to trade it, and high flexibility, because the contract can be custom-tailored. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- ordinary assets that also trade over the counter ::@:: Foreign exchange and government and corporate bonds. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- how an inter-dealer broker's 2019 revenue splits by product group ::@:: Tradition: currencies and rates 43%, securities and security derivatives 32%, commodities 21%, and non-IDB online retail foreign-exchange brokerage 4%. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## dealer-customer markets
 
@@ -43,10 +43,10 @@ In the dealer-customer market, clients ask dealers, usually banks, for the avail
 
 Flashcards for this section are as follows:
 
-- dealer-customer market ::@:: Clients ask dealers, usually banks, for the availability and price of a specific security.
-- how clients reached dealers before the 2000s ::@:: Over the telephone, by email, or face to face.
-- what a request-for-quote platform does ::@:: It lets a client contact several dealers electronically and learn the potential terms of trade.
-- what a request for quote carries ::@:: The symbol and venue, a description of the instrument, and the quantity asked for.
+- dealer-customer market ::@:: Clients ask dealers, usually banks, for the availability and price of a specific security. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- how clients reached dealers before the 2000s ::@:: Over the telephone, by email, or face to face. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what a request-for-quote platform does ::@:: It lets a client contact several dealers electronically and learn the potential terms of trade. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what a request for quote carries ::@:: The symbol and venue, a description of the instrument, and the quantity asked for. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## inter-dealer markets
 
@@ -56,10 +56,10 @@ Dealers trade with each other as well, above all to unwind positions that are of
 
 Flashcards for this section are as follows:
 
-- why dealers trade with each other ::@:: To unwind positions that are off their target.
-- how the inter-dealer market differs from the dealer-customer market ::@:: It is more stylized and more liquid, and it looks more like a centralized limit-order book.
-- three ways inter-dealer quotes are made, requested, and executed ::@:: Inter-dealer brokers, request for quote, and electronic communication networks.
-- where inter-dealer brokers sit in the structure ::@:: Between the dealers, with clients linked to dealers and dealers linked to each other.
+- why dealers trade with each other ::@:: To unwind positions that are off their target. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- how the inter-dealer market differs from the dealer-customer market ::@:: It is more stylized and more liquid, and it looks more like a centralized limit-order book. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- three ways inter-dealer quotes are made, requested, and executed ::@:: Inter-dealer brokers, request for quote, and electronic communication networks. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- where inter-dealer brokers sit in the structure ::@:: Between the dealers, with clients linked to dealers and dealers linked to each other. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## electronic communication networks
 
@@ -69,12 +69,12 @@ An electronic communication network connects multiple market participants direct
 
 Flashcards for this section are as follows:
 
-- electronic communication network ::@:: A network connecting multiple market participants directly, on which each can post and observe quotes like a limit-order book, place and execute orders, and stay anonymous.
-- how foreign exchange traded before the 2000s ::@:: As plain-vanilla over-the-counter trading.
-- two major electronic brokers for inter-dealer spot foreign exchange ::@:: Reuters, later Refinitiv, and Electronic Broking Services.
-- what those two brokers organize ::@:: Limit-order books on which dealers submit quotes, trade, and take reference prices.
-- venue types serving foreign-exchange customers, and roughly how many of each ::@:: Roughly 30 secondary electronic communication networks, 22 single-dealer proprietary platforms, 12 principal trading firms, and 2 or 3 dark pools.
-- what a dark pool is ::@:: A venue where order information is not revealed to other participants.
+- electronic communication network ::@:: A network connecting multiple market participants directly, on which each can post and observe quotes like a limit-order book, place and execute orders, and stay anonymous. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- how foreign exchange traded before the 2000s ::@:: As plain-vanilla over-the-counter trading. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- two major electronic brokers for inter-dealer spot foreign exchange ::@:: Reuters, later Refinitiv, and Electronic Broking Services. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what those two brokers organize ::@:: Limit-order books on which dealers submit quotes, trade, and take reference prices. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- venue types serving foreign-exchange customers, and roughly how many of each ::@:: Roughly 30 secondary electronic communication networks, 22 single-dealer proprietary platforms, 12 principal trading firms, and 2 or 3 dark pools. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what a dark pool is ::@:: A venue where order information is not revealed to other participants. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## risks and costs
 
@@ -84,10 +84,10 @@ Several mechanisms coexist inside one over-the-counter market, limit-order books
 
 Flashcards for this section are as follows:
 
-- why the quality of an over-the-counter market is often opaque ::@:: Several mechanisms, including limit-order books, coexist and differ in the price and execution quality they offer.
-- two questions that distinguish an over-the-counter market from a centralized limit-order book ::@:: Transparency and the order execution mechanism.
-- two parts into which a trader's expected cost of trading over the counter is split ::@:: An ex-ante part and an ex-post part.
-- two costs of trading over the counter ::@:: Search-and-matching friction in finding a counterparty, and counterparty risk from a bilateral contract.
+- why the quality of an over-the-counter market is often opaque ::@:: Several mechanisms, including limit-order books, coexist and differ in the price and execution quality they offer. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- two questions that distinguish an over-the-counter market from a centralized limit-order book ::@:: Transparency and the order execution mechanism. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- two parts into which a trader's expected cost of trading over the counter is split ::@:: An ex-ante part and an ex-post part. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- two costs of trading over the counter ::@:: Search-and-matching friction in finding a counterparty, and counterparty risk from a bilateral contract. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## central clearing
 
@@ -97,10 +97,10 @@ Synthetic derivatives and securitized assets traded over the counter contributed
 
 Flashcards for this section are as follows:
 
-- what contributed to the global financial crisis of the late 2000s in over-the-counter markets ::@:: Synthetic derivatives and securitized assets, with large counterparty risk that was ambiguous or obscured.
-- central counterparty ::@:: An intermediary standing between the two sides of a trade, taking inventory and margin, so that a default by a single player has only a limited impact.
-- framework under which major countries introduced central counterparties ::@:: The Basel Committee on Banking Supervision framework of 2013.
-- where central clearing has not been applied ::@:: It covers interest-rate swaps and credit default swaps only.
+- what contributed to the global financial crisis of the late 2000s in over-the-counter markets ::@:: Synthetic derivatives and securitized assets, with large counterparty risk that was ambiguous or obscured. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- central counterparty ::@:: An intermediary standing between the two sides of a trade, taking inventory and margin, so that a default by a single player has only a limited impact. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- framework under which major countries introduced central counterparties ::@:: The Basel Committee on Banking Supervision framework of 2013. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- where central clearing has not been applied ::@:: It covers interest-rate swaps and credit default swaps only. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## fragmentation of the venues
 
@@ -110,8 +110,8 @@ Volume on the primary foreign-exchange venues has been falling, and it moves wit
 
 Flashcards for this section are as follows:
 
-- what has happened to volume on the primary foreign-exchange venues ::@:: It has been falling, while turnover in exchange-traded currency futures has not fallen the same way.
-- relation between primary-venue volume and foreign-exchange volatility ::@:: They move together; a scatter over 2010 to 2021 has an R-squared of 0.6.
-- candidate explanations for the fall in primary-venue volume ::@:: The number of dealers, the other systems offering the same service, and market volatility.
-- what recent technology added to the market ::@:: Fragmentation, because limit-order-book-like mechanisms and secondary electronic communication networks now compete with the primary venues.
-- why the impact of that fragmentation is hard to measure ::@:: No data covers all the venues.
+- what has happened to volume on the primary foreign-exchange venues ::@:: It has been falling, while turnover in exchange-traded currency futures has not fallen the same way. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- relation between primary-venue volume and foreign-exchange volatility ::@:: They move together; a scatter over 2010 to 2021 has an R-squared of 0.6. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- candidate explanations for the fall in primary-venue volume ::@:: The number of dealers, the other systems offering the same service, and market volatility. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what recent technology added to the market ::@:: Fragmentation, because limit-order-book-like mechanisms and secondary electronic communication networks now compete with the primary venues. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- why the impact of that fragmentation is hard to measure ::@:: No data covers all the venues. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->

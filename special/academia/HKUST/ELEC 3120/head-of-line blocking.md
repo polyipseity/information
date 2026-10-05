@@ -15,8 +15,8 @@ Head-of-line blocking (HOL blocking) occurs when the first task in a queue is sl
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A slow or blocked first task in a queue forces all subsequent ready tasks to wait, leaving the system idle
-- work-conserving vs non-work-conserving ::@:: A work-conserving system always serves the next available task; HOL blocking makes a system non-work-conserving
+- overview ::@:: A slow or blocked first task in a queue forces all subsequent ready tasks to wait, leaving the system idle <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- work-conserving vs non-work-conserving ::@:: A work-conserving system always serves the next available task; HOL blocking makes a system non-work-conserving <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## application-layer HOL blocking in HTTP
 
@@ -28,8 +28,8 @@ This is application-layer (Layer 7) HOL blocking: the protocol enforces in-order
 
 Flashcards for this section are as follows:
 
-- HTTP pipelining / HOL blocking ::@:: A slow-to-produce object blocks all subsequent responses in the pipeline, leaving the network pipe idle
-- application-layer HOL blocking ::@:: HOL blocking at the application protocol layer (Layer 7), such as HTTP pipelining requiring in-order responses
+- HTTP pipelining / HOL blocking ::@:: A slow-to-produce object blocks all subsequent responses in the pipeline, leaving the network pipe idle <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- application-layer HOL blocking ::@:: HOL blocking at the application protocol layer (Layer 7), such as HTTP pipelining requiring in-order responses <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## transport-layer HOL blocking in TCP
 
@@ -41,8 +41,8 @@ This is transport-layer (Layer 4) HOL blocking: TCP's in-order delivery means on
 
 Flashcards for this section are as follows:
 
-- TCP / HOL blocking ::@:: TCP delivers bytes in order, so a lost packet blocks all subsequent data — the receive buffer cannot deliver stream 2 until the missing packet for stream 1 is retransmitted
-- HTTP/2 / HOL limitation ::@:: HTTP/2 fixes HOL at Layer 7 with streams, but TCP in-order delivery still causes HOL at Layer 4 when packets are lost
+- TCP / HOL blocking ::@:: TCP delivers bytes in order, so a lost packet blocks all subsequent data — the receive buffer cannot deliver stream 2 until the missing packet for stream 1 is retransmitted <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- HTTP/2 / HOL limitation ::@:: HTTP/2 fixes HOL at Layer 7 with streams, but TCP in-order delivery still causes HOL at Layer 4 when packets are lost <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## fixes across protocol generations
 
@@ -56,5 +56,5 @@ Three generations of fixes:
 
 Flashcards for this section are as follows:
 
-- concurrent connections / tradeoff ::@:: Faster for client and content provider, but disadvantages the network because multiple TCP connections compete for bandwidth with independent congestion control
-- HOL blocking / fix progression ::@:: Generation 1: parallel TCP connections (partial fix); Generation 2: HTTP/2 streams (fixes Layer 7); Generation 3: HTTP/3 over QUIC (fixes both Layer 7 and Layer 4)
+- concurrent connections / tradeoff ::@:: Faster for client and content provider, but disadvantages the network because multiple TCP connections compete for bandwidth with independent congestion control <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- HOL blocking / fix progression ::@:: Generation 1: parallel TCP connections (partial fix); Generation 2: HTTP/2 streams (fixes Layer 7); Generation 3: HTTP/3 over QUIC (fixes both Layer 7 and Layer 4) <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->

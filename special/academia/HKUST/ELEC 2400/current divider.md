@@ -20,7 +20,7 @@ It is the dual of the voltage divider: parallel replaces series, the shared curr
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Two parallel resistors fed by $I_s$ split the current in the inverse ratio of the resistances, $I_{R1} = I_s \frac{R_2}{R_1 + R_2}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- overview ::@:: Two parallel resistors fed by $I_s$ split the current in the inverse ratio of the resistances, $I_{R1} = I_s \frac{R_2}{R_1 + R_2}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## dual of the voltage divider
 
@@ -32,9 +32,9 @@ Every exchange is mirrored: series becomes parallel, the shared current becomes 
 
 Flashcards for this section are as follows:
 
-- overview ::@:: The current divider is the dual of the voltage divider: parallel replaces series, the shared quantity becomes a voltage, the source becomes a current.
-- shared quantity: which quantity $V_o$ do the branches of a current divider share, and how do their currents combine into $I_s$? ::@:: The voltage $V_o$ across them, with $I_s = I_{R1} + I_{R2}$ by the current law.
-- dual correspondence: how does each element of the voltage divider appear in the current divider? ::@:: Series resistors become parallel resistors, the common current becomes a common voltage, and the voltage source becomes a current source.
+- overview ::@:: The current divider is the dual of the voltage divider: parallel replaces series, the shared quantity becomes a voltage, the source becomes a current. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- shared quantity: which quantity $V_o$ do the branches of a current divider share, and how do their currents combine into $I_s$? ::@:: The voltage $V_o$ across them, with $I_s = I_{R1} + I_{R2}$ by the current law. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- dual correspondence: how does each element of the voltage divider appear in the current divider? ::@:: Series resistors become parallel resistors, the common current becomes a common voltage, and the voltage source becomes a current source. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## division ratio
 
@@ -48,12 +48,12 @@ With two sources feeding the parallel pair, $I_2 = (8\text{ A} + 4\text{ A}) \ti
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Each branch takes $\frac{I_{R1}}{I_s} = \frac{R_2}{R_1 + R_2}$ of the source current, the opposite resistance supplying the share. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- derivation: two parallel resistors $R_1$ and $R_2$ carry $I_{R1}$ and $I_{R2}$ under a shared voltage $V_o$ from a source $I_s$; derive $\frac{I_{R1}}{I_s}$. ::@:: $I_s = \frac{V_o}{R_1 \| R_2}$ and $I_{R1} = \frac{V_o}{R_1}$, so $\frac{I_{R1}}{I_s} = \frac{R_2}{R_1 + R_2}$.
-- conductance form: express $I_{R1}$ through the conductances $G_1$ and $G_2$. ::@:: $I_{R1} = I_s \frac{G_1}{G_1 + G_2}$: a branch takes the share of the current equal to its share of the conductance.
-- worked split: a $6\text{ A}$ source feeds $R_1 = 2\ \Omega$ and $R_2 = 4\ \Omega$ in parallel; find $I_{R1}$ and $I_{R2}$. ::@:: $I_{R1} = 6\text{ A} \times \frac{4}{2+4} = 4\text{ A}$ and $I_{R2} = 6\text{ A} \times \frac{2}{2+4} = 2\text{ A}$.
-- worked split with two sources: sources of $8\text{ A}$ and $4\text{ A}$ feed a parallel pair of $4\ \Omega$ and $2\ \Omega$; find the current in each branch. ::@:: $I_2 = 12\text{ A} \times \frac{2}{2+4} = 4\text{ A}$ in the $4\ \Omega$ branch and $I_3 = 12\text{ A} - 4\text{ A} = 8\text{ A}$ in the $2\ \Omega$ branch.
-- node voltages from a split: that circuit has $I_3 = 8\text{ A}$ through a $2\ \Omega$ resistor and $I_1 = -4\text{ A}$ through the other one; find $V_B$ and $V_A$. ::@:: $V_B = 8\text{ A} \times 2\ \Omega = 16\text{ V}$ and $V_A = V_B - (-4\text{ A} \times 2\ \Omega) = 24\text{ V}$.
+- overview ::@:: Each branch takes $\frac{I_{R1}}{I_s} = \frac{R_2}{R_1 + R_2}$ of the source current, the opposite resistance supplying the share. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- derivation: two parallel resistors $R_1$ and $R_2$ carry $I_{R1}$ and $I_{R2}$ under a shared voltage $V_o$ from a source $I_s$; derive $\frac{I_{R1}}{I_s}$. ::@:: $I_s = \frac{V_o}{R_1 \| R_2}$ and $I_{R1} = \frac{V_o}{R_1}$, so $\frac{I_{R1}}{I_s} = \frac{R_2}{R_1 + R_2}$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- conductance form: express $I_{R1}$ through the conductances $G_1$ and $G_2$. ::@:: $I_{R1} = I_s \frac{G_1}{G_1 + G_2}$: a branch takes the share of the current equal to its share of the conductance. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- worked split: a $6\text{ A}$ source feeds $R_1 = 2\ \Omega$ and $R_2 = 4\ \Omega$ in parallel; find $I_{R1}$ and $I_{R2}$. ::@:: $I_{R1} = 6\text{ A} \times \frac{4}{2+4} = 4\text{ A}$ and $I_{R2} = 6\text{ A} \times \frac{2}{2+4} = 2\text{ A}$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- worked split with two sources: sources of $8\text{ A}$ and $4\text{ A}$ feed a parallel pair of $4\ \Omega$ and $2\ \Omega$; find the current in each branch. ::@:: $I_2 = 12\text{ A} \times \frac{2}{2+4} = 4\text{ A}$ in the $4\ \Omega$ branch and $I_3 = 12\text{ A} - 4\text{ A} = 8\text{ A}$ in the $2\ \Omega$ branch. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- node voltages from a split: that circuit has $I_3 = 8\text{ A}$ through a $2\ \Omega$ resistor and $I_1 = -4\text{ A}$ through the other one; find $V_B$ and $V_A$. ::@:: $V_B = 8\text{ A} \times 2\ \Omega = 16\text{ V}$ and $V_A = V_B - (-4\text{ A} \times 2\ \Omega) = 24\text{ V}$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## which branch takes more current
 
@@ -65,6 +65,6 @@ The limits follow: a branch whose resistance falls to zero carries the whole sou
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Each branch current is proportional to the opposite resistance, so the smaller resistor draws the larger current.
-- proportionality: a current divider has $R_1 < R_2$; which branch carries more? ::@:: The $R_1$ branch: $I_{R1} \propto R_2$ and $I_{R2} \propto R_1$, so the smaller resistance takes the larger share.
-- limiting cases: one branch of a parallel pair is shorted, or one is removed; what does the other branch carry of the source current $I_s$? ::@:: A shorted branch takes the whole source current and the other takes none; a removed branch leaves the whole $I_s$ to the remaining one.
+- overview ::@:: Each branch current is proportional to the opposite resistance, so the smaller resistor draws the larger current. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- proportionality: a current divider has $R_1 < R_2$; which branch carries more? ::@:: The $R_1$ branch: $I_{R1} \propto R_2$ and $I_{R2} \propto R_1$, so the smaller resistance takes the larger share. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- limiting cases: one branch of a parallel pair is shorted, or one is removed; what does the other branch carry of the source current $I_s$? ::@:: A shorted branch takes the whole source current and the other takes none; a removed branch leaves the whole $I_s$ to the remaining one. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->

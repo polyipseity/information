@@ -18,13 +18,13 @@ Trading needs come from different motives. A trader may hold a private value for
 
 Flashcards for this section are as follows:
 
-- what an order is ::@:: An instruction to buy or sell on a trading venue.
-- two routes an order can take ::@:: To a broker, or directly to the venue through direct market access.
-- three motives for trading ::@:: Private values, information and belief, and non-fundamental needs.
-- example of trading on a private value ::@:: Liking a company's products and wanting to hold its stock.
-- example of trading on information or belief ::@:: Believing there is good news about a company.
-- example of a non-fundamental trading need ::@:: Needing cash, and selling a holding to get it.
-- examples of a trading venue ::@:: A stock exchange, a bond market, and a cryptocurrency exchange.
+- what an order is ::@:: An instruction to buy or sell on a trading venue. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- two routes an order can take ::@:: To a broker, or directly to the venue through direct market access. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- three motives for trading ::@:: Private values, information and belief, and non-fundamental needs. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- example of trading on a private value ::@:: Liking a company's products and wanting to hold its stock. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- example of trading on information or belief ::@:: Believing there is good news about a company. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- example of a non-fundamental trading need ::@:: Needing cash, and selling a holding to get it. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- examples of a trading venue ::@:: A stock exchange, a bond market, and a cryptocurrency exchange. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## what an order specifies
 
@@ -36,12 +36,12 @@ Priority and speed decide whether an order is filled at the best available price
 
 Flashcards for this section are as follows:
 
-- three things every order specifies ::@:: Price, quantity, and direction (buy or sell).
-- three factors that decide how well an order serves its purpose ::@:: Priority and speed; execution quality and execution risk; transparency.
-- what priority and speed decide ::@:: Whether an order is filled at the best available price.
-- what execution quality and execution risk cover ::@:: The price obtained, and the chance the order does not execute at all.
-- what transparency decides ::@:: Whether the order is publicly displayed.
-- why a trader with a very high willingness to pay is executed immediately ::@:: Price buys speed.
+- three things every order specifies ::@:: Price, quantity, and direction (buy or sell). <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- three factors that decide how well an order serves its purpose ::@:: Priority and speed; execution quality and execution risk; transparency. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what priority and speed decide ::@:: Whether an order is filled at the best available price. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what execution quality and execution risk cover ::@:: The price obtained, and the chance the order does not execute at all. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what transparency decides ::@:: Whether the order is publicly displayed. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- why a trader with a very high willingness to pay is executed immediately ::@:: Price buys speed. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## classes of instructions
 
@@ -51,13 +51,13 @@ Beyond price, quantity, and direction, order instructions fall into four classes
 
 Flashcards for this section are as follows:
 
-- four classes of order instructions ::@:: Time, execution, price, and display.
-- what time instructions control ::@:: How long an order stays active.
-- what execution instructions control ::@:: What happens to whatever does not fill immediately.
-- what price instructions control ::@:: The limit price, adjusted around a reference point.
-- what display instructions control ::@:: How much of the order is visible on the book.
-- two examples of a price instruction ::@:: Pegged orders and stop orders.
-- two examples of a display instruction ::@:: Hidden orders and reserve orders.
+- four classes of order instructions ::@:: Time, execution, price, and display. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what time instructions control ::@:: How long an order stays active. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what execution instructions control ::@:: What happens to whatever does not fill immediately. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what price instructions control ::@:: The limit price, adjusted around a reference point. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what display instructions control ::@:: How much of the order is visible on the book. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- two examples of a price instruction ::@:: Pegged orders and stop orders. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- two examples of a display instruction ::@:: Hidden orders and reserve orders. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## time in force
 
@@ -69,14 +69,14 @@ A market or limit on open order activates at the opening auction, and a market o
 
 Flashcards for this section are as follows:
 
-- what a day order does ::@:: Cancels automatically at the end of the trading session.
-- default instruction for limit orders ::@:: Day orders.
-- what a good-till-cancel order does ::@:: Stays on the book until the trader or broker cancels it.
-- trading hours of the pre-market and after-market ::@:: Pre-market 8:00–9:15; after-market 16:15–18:30.
-- what an open or close order does ::@:: Activates at the opening auction (on open) or the closing auction (on close).
-- open question about open and close orders ::@:: How their time priority is computed.
-- difference between a day order and a GTC order ::@:: A day order expires at the close; a GTC order stays until it is cancelled.
-- what extended-hours instructions add ::@:: A window in which the order stays active outside regular trading hours.
+- what a day order does ::@:: Cancels automatically at the end of the trading session. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- default instruction for limit orders ::@:: Day orders. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what a good-till-cancel order does ::@:: Stays on the book until the trader or broker cancels it. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- trading hours of the pre-market and after-market ::@:: Pre-market 8:00–9:15; after-market 16:15–18:30. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what an open or close order does ::@:: Activates at the opening auction (on open) or the closing auction (on close). <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- open question about open and close orders ::@:: How their time priority is computed. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- difference between a day order and a GTC order ::@:: A day order expires at the close; a GTC order stays until it is cancelled. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what extended-hours instructions add ::@:: A window in which the order stays active outside regular trading hours. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## order types across venues
 
@@ -86,6 +86,6 @@ Order types differ by exchange: the New York Stock Exchange and IEX each publish
 
 Flashcards for this section are as follows:
 
-- why an instruction may be available on one venue but not another ::@:: Different exchanges offer different order types.
-- two exchanges with published order type lists ::@:: The New York Stock Exchange and IEX.
-- what a strategy does when a venue lacks an order type ::@:: It has to use a different instruction, or trade on another venue.
+- why an instruction may be available on one venue but not another ::@:: Different exchanges offer different order types. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- two exchanges with published order type lists ::@:: The New York Stock Exchange and IEX. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what a strategy does when a venue lacks an order type ::@:: It has to use a different instruction, or trade on another venue. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->

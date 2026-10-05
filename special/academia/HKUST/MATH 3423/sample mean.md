@@ -16,8 +16,8 @@ The sample mean estimates the unknown population mean $\mu$ from the observed sa
 
 Flashcards for this section are as follows:
 
-- which quantity of the population $\bar X$ estimates ::@:: The unknown population mean $\mu$.
-- predictability of $\bar X$: before drawing a sample ::@:: Its value cannot be predicted; only its distribution is known in advance.
+- which quantity of the population $\bar X$ estimates ::@:: The unknown population mean $\mu$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- predictability of $\bar X$: before drawing a sample ::@:: Its value cannot be predicted; only its distribution is known in advance. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## average of the copies
 
@@ -29,12 +29,12 @@ Each copy $X_i$ has the population mean $\mu$, and averaging copies leaves that 
 
 Flashcards for this section are as follows:
 
-- definition: for a random sample $X_1, \ldots, X_n$ ::@:: The average of the copies, $\bar X = \frac{1}{n} \sum_{i=1}^{n} X_i$.
-- average of the data: written $\bar x$ ::@:: $\bar x = \frac{1}{n} \sum_{i=1}^{n} x_i$, a number rather than a random variable.
-- what makes a weighted average the sample mean: for $\sum_{i=1}^{n} w_i X_i$ over $X_1, \ldots, X_n$ ::@:: All the weights equal $1/n$, the same weight on every copy.
-- when $\bar X = \frac{1}{n} \sum_{i=1}^{n} X_i$ is determined ::@:: By the sample size $n$ alone; its value needs the sample to be drawn.
-- the pair $\bar X$ and $\bar x$ for one sample: which is fixed before the data arrive ::@:: $\bar X$, the random variable; $\bar x$ is the value it takes once the data are in.
-- the mean of $\bar X$ for a random sample from a population with mean $\mu$ ::@:: $\mu$, since each copy has mean $\mu$ and the sample mean averages the copies.
+- definition: for a random sample $X_1, \ldots, X_n$ ::@:: The average of the copies, $\bar X = \frac{1}{n} \sum_{i=1}^{n} X_i$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- average of the data: written $\bar x$ ::@:: $\bar x = \frac{1}{n} \sum_{i=1}^{n} x_i$, a number rather than a random variable. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what makes a weighted average the sample mean: for $\sum_{i=1}^{n} w_i X_i$ over $X_1, \ldots, X_n$ ::@:: All the weights equal $1/n$, the same weight on every copy. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- when $\bar X = \frac{1}{n} \sum_{i=1}^{n} X_i$ is determined ::@:: By the sample size $n$ alone; its value needs the sample to be drawn. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the pair $\bar X$ and $\bar x$ for one sample: which is fixed before the data arrive ::@:: $\bar X$, the random variable; $\bar x$ is the value it takes once the data are in. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the mean of $\bar X$ for a random sample from a population with mean $\mu$ ::@:: $\mu$, since each copy has mean $\mu$ and the sample mean averages the copies. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 <!-- check: ignore-next-line[section_example_heading]: a matched pair of cases for the definition, kept together so the counterexample sits beside the definition it violates -->
 ### examples and counterexamples
@@ -47,11 +47,11 @@ Unequal positive weights that sum to one still give a statistic of the sample, b
 
 Flashcards for this section are as follows:
 
-- $\bar X = \frac{1}{n} \sum_{i=1}^{n} X_i$ for a random sample $X_1, \ldots, X_n$ as the sample mean of that sample ::@:: Yes, it averages all $n$ copies with equal weights $1/n$.
-- $\bar x = \frac{1}{n} \sum_{i=1}^{n} x_i$ computed from the collected data as the sample mean ::@:: Yes, it is the realized value of that average, the average of the data.
-- $\sum_{i=1}^{n} w_i X_i$ with unequal positive weights and $\sum_{i=1}^{n} w_i = 1$ as the sample mean of $X_1, \ldots, X_n$ ::@:: No, it is a statistic of the sample, but its weights are not all $1/n$.
-- $\frac{1}{k} \sum_{i=1}^{k} X_i$ with $k < n$ as the sample mean of the sample $X_1, \ldots, X_n$ ::@:: No, it is the sample mean of the smaller sample $X_1, \ldots, X_k$, leaving the other $n - k$ copies out.
-- the unknown population mean $\mu$ as a sample mean ::@:: No, it averages the population, so it is the population mean.
+- $\bar X = \frac{1}{n} \sum_{i=1}^{n} X_i$ for a random sample $X_1, \ldots, X_n$ as the sample mean of that sample ::@:: Yes, it averages all $n$ copies with equal weights $1/n$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- $\bar x = \frac{1}{n} \sum_{i=1}^{n} x_i$ computed from the collected data as the sample mean ::@:: Yes, it is the realized value of that average, the average of the data. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- $\sum_{i=1}^{n} w_i X_i$ with unequal positive weights and $\sum_{i=1}^{n} w_i = 1$ as the sample mean of $X_1, \ldots, X_n$ ::@:: No, it is a statistic of the sample, but its weights are not all $1/n$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- $\frac{1}{k} \sum_{i=1}^{k} X_i$ with $k < n$ as the sample mean of the sample $X_1, \ldots, X_n$ ::@:: No, it is the sample mean of the smaller sample $X_1, \ldots, X_k$, leaving the other $n - k$ copies out. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the unknown population mean $\mu$ as a sample mean ::@:: No, it averages the population, so it is the population mean. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## distribution of the sample mean
 
@@ -67,15 +67,15 @@ The normal case admits a second derivation, which needs no theory of sums. Write
 
 Flashcards for this section are as follows:
 
-- distribution of $\bar X$: general route ::@:: It is a sum divided by $n$, so its distribution follows from that of $\sum_{i=1}^{n} X_i$.
-- variance of a sum of independent copies: $\operatorname{Var}(\sum_{i=1}^{n} X_i)$ ::@:: $\operatorname{Var}(\sum_{i=1}^{n} X_i) = \sum_{i=1}^{n} \operatorname{Var}(X_i)$.
-- sum of independent normal copies: $X_i \sim N(\mu, \sigma^2)$ ::@:: $\sum_{i=1}^{n} X_i \sim N(n\mu, n\sigma^2)$.
-- sample mean from a normal population: $X \sim N(\mu, \sigma^2)$ ::@:: $\bar X \sim N(\mu, \sigma^2 / n)$ exactly, by dividing the sum by $n$.
-- sum of independent binomial copies: $X_i \sim \mathrm{Bin}(m_i, p)$ ::@:: $\sum_{i=1}^{n} X_i \sim \mathrm{Bin}(\sum_{i=1}^{n} m_i, p)$, or $\mathrm{Bin}(mn, p)$ for a common $m$.
-- distribution of $\bar X$ for large $n$: without a normal population ::@:: The central limit theorem makes it approximately normal.
-- deriving $\bar X \sim N(\mu, \sigma^2/n)$ via the multivariate normal: $\mathbf X = (X_1, \ldots, X_n)'$ i.i.d. from $N(\mu, \sigma^2)$ ::@:: $\mathbf X \sim N_n(\boldsymbol \mu, \sigma^2 I_n)$, where $\boldsymbol \mu = (\mu, \ldots, \mu)'$ and $I_n$ is the $n \times n$ identity matrix; Lemma 1 with $A = (\tfrac{1}{n} \;\; \cdots \;\; \tfrac{1}{n})$ then gives $\bar X = A\mathbf X \sim N(\mu, \sigma^2/n)$.
-- joint density of i.i.d. normal observations: $X_1, \ldots, X_n$ i.i.d. from $N(\mu, \sigma^2)$ ::@:: $f_{\mathbf X}(\mathbf x) = (2\pi\sigma^2)^{-n/2} \exp\!\bigl(-\frac{1}{2\sigma^2} \sum_{i=1}^{n} (x_i - \mu)^2\bigr)$, the $N_n(\boldsymbol \mu, \sigma^2 I_n)$ density.
-- variance of $\bar X$ for a random sample of size $n$ with population variance $\sigma^2$ ::@:: $\operatorname{Var}(\bar X) = \sigma^2/n$, since independence gives $\operatorname{Var}(\sum_{i=1}^{n} X_i) = \sum_{i=1}^{n} \operatorname{Var}(X_i)$ and dividing by $n$ divides the variance by $n$.
-- exactness of the law of $\bar X$ for $X_i$ i.i.d. from $N(\mu, \sigma^2)$ or from $\mathrm{Bin}(m_i, p)$ ::@:: Exact in both families, because each is closed under adding independent copies.
-- the law of $\bar X$ for a population whose family is not closed under addition ::@:: Not available exactly; the central limit theorem makes $\bar X$ approximately normal for large $n$.
-- the multivariate normal route to $\bar X \sim N(\mu, \sigma^2/n)$: what it treats $\bar X$ as ::@:: A linear function $A\mathbf X$ of the observation vector, handled by Lemma 1 rather than by any theory of sums.
+- distribution of $\bar X$: general route ::@:: It is a sum divided by $n$, so its distribution follows from that of $\sum_{i=1}^{n} X_i$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- variance of a sum of independent copies: $\operatorname{Var}(\sum_{i=1}^{n} X_i)$ ::@:: $\operatorname{Var}(\sum_{i=1}^{n} X_i) = \sum_{i=1}^{n} \operatorname{Var}(X_i)$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- sum of independent normal copies: $X_i \sim N(\mu, \sigma^2)$ ::@:: $\sum_{i=1}^{n} X_i \sim N(n\mu, n\sigma^2)$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- sample mean from a normal population: $X \sim N(\mu, \sigma^2)$ ::@:: $\bar X \sim N(\mu, \sigma^2 / n)$ exactly, by dividing the sum by $n$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- sum of independent binomial copies: $X_i \sim \mathrm{Bin}(m_i, p)$ ::@:: $\sum_{i=1}^{n} X_i \sim \mathrm{Bin}(\sum_{i=1}^{n} m_i, p)$, or $\mathrm{Bin}(mn, p)$ for a common $m$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- distribution of $\bar X$ for large $n$: without a normal population ::@:: The central limit theorem makes it approximately normal. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- deriving $\bar X \sim N(\mu, \sigma^2/n)$ via the multivariate normal: $\mathbf X = (X_1, \ldots, X_n)'$ i.i.d. from $N(\mu, \sigma^2)$ ::@:: $\mathbf X \sim N_n(\boldsymbol \mu, \sigma^2 I_n)$, where $\boldsymbol \mu = (\mu, \ldots, \mu)'$ and $I_n$ is the $n \times n$ identity matrix; Lemma 1 with $A = (\tfrac{1}{n} \;\; \cdots \;\; \tfrac{1}{n})$ then gives $\bar X = A\mathbf X \sim N(\mu, \sigma^2/n)$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- joint density of i.i.d. normal observations: $X_1, \ldots, X_n$ i.i.d. from $N(\mu, \sigma^2)$ ::@:: $f_{\mathbf X}(\mathbf x) = (2\pi\sigma^2)^{-n/2} \exp\!\bigl(-\frac{1}{2\sigma^2} \sum_{i=1}^{n} (x_i - \mu)^2\bigr)$, the $N_n(\boldsymbol \mu, \sigma^2 I_n)$ density. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- variance of $\bar X$ for a random sample of size $n$ with population variance $\sigma^2$ ::@:: $\operatorname{Var}(\bar X) = \sigma^2/n$, since independence gives $\operatorname{Var}(\sum_{i=1}^{n} X_i) = \sum_{i=1}^{n} \operatorname{Var}(X_i)$ and dividing by $n$ divides the variance by $n$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- exactness of the law of $\bar X$ for $X_i$ i.i.d. from $N(\mu, \sigma^2)$ or from $\mathrm{Bin}(m_i, p)$ ::@:: Exact in both families, because each is closed under adding independent copies. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the law of $\bar X$ for a population whose family is not closed under addition ::@:: Not available exactly; the central limit theorem makes $\bar X$ approximately normal for large $n$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the multivariate normal route to $\bar X \sim N(\mu, \sigma^2/n)$: what it treats $\bar X$ as ::@:: A linear function $A\mathbf X$ of the observation vector, handled by Lemma 1 rather than by any theory of sums. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->

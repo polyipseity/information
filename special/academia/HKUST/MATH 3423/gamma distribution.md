@@ -15,8 +15,8 @@ The _gamma distribution_ is a two-parameter family of distributions on the posit
 
 Flashcards for this section are as follows:
 
-- overview: for a shape $\alpha > 0$ and a rate $\beta > 0$ ::@:: A two-parameter family of distributions on the positive half-line, written $X \sim \text{Gamma}(\alpha, \beta)$.
-- relation to the chi-squared distribution: for a positive integer $k$ ::@:: $\text{Gamma}(\tfrac{k}{2}, \tfrac{1}{2}) = \chi^2(k)$.
+- overview: for a shape $\alpha > 0$ and a rate $\beta > 0$ ::@:: A two-parameter family of distributions on the positive half-line, written $X \sim \text{Gamma}(\alpha, \beta)$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- relation to the chi-squared distribution: for a positive integer $k$ ::@:: $\text{Gamma}(\tfrac{k}{2}, \tfrac{1}{2}) = \chi^2(k)$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## probability density function
 
@@ -32,15 +32,15 @@ The mean is $$E[X] = \frac{\alpha}{\beta},$$ and the variance is $$\operatorname
 
 Flashcards for this section are as follows:
 
-- density of $X \sim \text{Gamma}(\alpha, \beta)$: for $x > 0$ ::@:: $$f_X(x \mid \alpha, \beta) = \frac{\beta^\alpha}{\Gamma(\alpha)} x^{\alpha - 1} e^{-\beta x}.$$
-- density of $X \sim \text{Gamma}(\alpha, \beta)$: for $x \le 0$ ::@:: $0$, so the family is supported on the positive half-line only.
-- role of $\alpha$ in the gamma density ::@:: The shape parameter, appearing as the power $\alpha - 1$ of $x$.
-- role of $\beta$ in the gamma density ::@:: The rate parameter, appearing as the exponential rate in $e^{-\beta x}$.
-- $\Gamma(\cdot)$ in the gamma density ::@:: The gamma function, $\Gamma(\alpha) = \int_0^\infty t^{\alpha - 1} e^{-t} \,\mathrm{d}t$.
-- scale parameterization of the gamma density: in place of the rate $\beta$ ::@:: $\frac{1}{\Gamma(\alpha) \theta^\alpha} x^{\alpha - 1} e^{-x/\theta}$, where $\theta = 1/\beta$.
-- second parameter of $X \sim \text{Gamma}(\alpha, \beta)$: rate or scale ::@:: A rate $\beta$ in one parameterization and a scale $\theta = 1/\beta$ in the other; both describe the same family, so a pair of numbers has to be read with the parameterization it was written in.
-- mean of $X \sim \text{Gamma}(\alpha, \beta)$ ::@:: $\frac{\alpha}{\beta}$, in either parameterization since $\theta = 1/\beta$.
-- variance of $X \sim \text{Gamma}(\alpha, \beta)$ ::@:: $\frac{\alpha}{\beta^2}$.
+- density of $X \sim \text{Gamma}(\alpha, \beta)$: for $x > 0$ ::@:: $$f_X(x \mid \alpha, \beta) = \frac{\beta^\alpha}{\Gamma(\alpha)} x^{\alpha - 1} e^{-\beta x}.$$ <!--SR:!fsrs,2026-11-02T00:10:00.000Z,0,2.3065,2.11810397,1,1,0,1,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- density of $X \sim \text{Gamma}(\alpha, \beta)$: for $x \le 0$ ::@:: $0$, so the family is supported on the positive half-line only. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- role of $\alpha$ in the gamma density ::@:: The shape parameter, appearing as the power $\alpha - 1$ of $x$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- role of $\beta$ in the gamma density ::@:: The rate parameter, appearing as the exponential rate in $e^{-\beta x}$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- $\Gamma(\cdot)$ in the gamma density ::@:: The gamma function, $\Gamma(\alpha) = \int_0^\infty t^{\alpha - 1} e^{-t} \,\mathrm{d}t$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- scale parameterization of the gamma density: in place of the rate $\beta$ ::@:: $\frac{1}{\Gamma(\alpha) \theta^\alpha} x^{\alpha - 1} e^{-x/\theta}$, where $\theta = 1/\beta$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- second parameter of $X \sim \text{Gamma}(\alpha, \beta)$: rate or scale ::@:: A rate $\beta$ in one parameterization and a scale $\theta = 1/\beta$ in the other; both describe the same family, so a pair of numbers has to be read with the parameterization it was written in. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- mean of $X \sim \text{Gamma}(\alpha, \beta)$ ::@:: $\frac{\alpha}{\beta}$, in either parameterization since $\theta = 1/\beta$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- variance of $X \sim \text{Gamma}(\alpha, \beta)$ ::@:: $\frac{\alpha}{\beta^2}$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## chi-squared distribution as a special case
 
@@ -54,12 +54,12 @@ A squared normal variable is written $$N^{(2)}(0, 1) = \chi^2(1),$$ with the squ
 
 Flashcards for this section are as follows:
 
-- gamma member equal to a chi-squared variable: for a positive integer $k$ ::@:: $\text{Gamma}(\tfrac{k}{2}, \tfrac{1}{2}) = \chi^2(k)$.
-- distribution of the square of a standard normal variable: $Y \sim N(0, 1)$ ::@:: $Y^2 \sim \chi^2(1)$, which is $\text{Gamma}(\tfrac{1}{2}, \tfrac{1}{2})$.
-- meaning of the notation $N^{(2)}(0, 1)$ ::@:: The squared standard normal variable, equal in distribution to $\chi^2(1)$; the superscript $2$ marks the square, not a bivariate normal.
-- condition for $X \sim \text{Gamma}(\alpha, \beta)$ to be a chi-squared member: the rate and the shape ::@:: Exactly when the rate is $\tfrac{1}{2}$ and the shape is $k/2$ for a positive integer $k$; either condition failing is enough to rule out membership.
-- mean of $\chi^2(k)$ by substitution: for a positive integer $k$ ::@:: $k$, since $\alpha/\beta$ at $\alpha = k/2$ and $\beta = 1/2$.
-- variance of $\chi^2(k)$ by substitution: for a positive integer $k$ ::@:: $2k$, since $\alpha/\beta^2$ at $\alpha = k/2$ and $\beta = 1/2$.
+- gamma member equal to a chi-squared variable: for a positive integer $k$ ::@:: $\text{Gamma}(\tfrac{k}{2}, \tfrac{1}{2}) = \chi^2(k)$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- distribution of the square of a standard normal variable: $Y \sim N(0, 1)$ ::@:: $Y^2 \sim \chi^2(1)$, which is $\text{Gamma}(\tfrac{1}{2}, \tfrac{1}{2})$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- meaning of the notation $N^{(2)}(0, 1)$ ::@:: The squared standard normal variable, equal in distribution to $\chi^2(1)$; the superscript $2$ marks the square, not a bivariate normal. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- condition for $X \sim \text{Gamma}(\alpha, \beta)$ to be a chi-squared member: the rate and the shape ::@:: Exactly when the rate is $\tfrac{1}{2}$ and the shape is $k/2$ for a positive integer $k$; either condition failing is enough to rule out membership. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- mean of $\chi^2(k)$ by substitution: for a positive integer $k$ ::@:: $k$, since $\alpha/\beta$ at $\alpha = k/2$ and $\beta = 1/2$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- variance of $\chi^2(k)$ by substitution: for a positive integer $k$ ::@:: $2k$, since $\alpha/\beta^2$ at $\alpha = k/2$ and $\beta = 1/2$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 <!-- check: ignore-next-line[section_example_heading]: a matched pair of cases for the definition, kept together so the counterexample sits beside the definition it violates -->
 ### examples and counterexamples
@@ -76,9 +76,9 @@ The last case fails on the centering rather than on the rate. The square $X^2$ o
 
 Flashcards for this section are as follows:
 
-- $Y^2$ for $Y \sim N(0, 1)$: a chi-squared member of the gamma family? ::@:: Yes, it is $\text{Gamma}(\tfrac{1}{2}, \tfrac{1}{2}) = \chi^2(1)$, with the rate one half.
-- $Y_1^2 + Y_2^2$ for independent $Y_1, Y_2 \sim N(0, 1)$: a chi-squared member of the gamma family? ::@:: Yes, it is $\chi^2(2) = \text{Gamma}(1, \tfrac{1}{2})$, with shape one and rate one half.
-- $2Y^2$ for $Y \sim N(0, 1)$: a chi-squared member of the gamma family? ::@:: No, it fails on the rate: doubling divides the rate by two, giving $\text{Gamma}(\tfrac{1}{2}, \tfrac{1}{4})$, while the shape stays one half.
-- a variable with distribution $\text{Gamma}(2, 1)$: a chi-squared member of the gamma family? ::@:: No, its rate is $1$, and every chi-squared member has rate $\tfrac{1}{2}$.
-- $(X - \mu)^2$ for $X \sim N(\mu, \sigma^2)$: a chi-squared member of the gamma family? ::@:: No, its rate is $1/(2\sigma^2)$ rather than $\tfrac{1}{2}$, and the rate is one half only when $\sigma^2 = 1$.
-- $X^2$ for $X \sim N(\mu, \sigma^2)$ with $\mu$ and $\sigma$ unknown: a chi-squared member of the gamma family? ::@:: No, it fails on the centering: the mean is not zero, so the unknown $\mu$ is never divided out and the law of the square depends on it.
+- $Y^2$ for $Y \sim N(0, 1)$: a chi-squared member of the gamma family? ::@:: Yes, it is $\text{Gamma}(\tfrac{1}{2}, \tfrac{1}{2}) = \chi^2(1)$, with the rate one half. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- $Y_1^2 + Y_2^2$ for independent $Y_1, Y_2 \sim N(0, 1)$: a chi-squared member of the gamma family? ::@:: Yes, it is $\chi^2(2) = \text{Gamma}(1, \tfrac{1}{2})$, with shape one and rate one half. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- $2Y^2$ for $Y \sim N(0, 1)$: a chi-squared member of the gamma family? ::@:: No, it fails on the rate: doubling divides the rate by two, giving $\text{Gamma}(\tfrac{1}{2}, \tfrac{1}{4})$, while the shape stays one half. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- a variable with distribution $\text{Gamma}(2, 1)$: a chi-squared member of the gamma family? ::@:: No, its rate is $1$, and every chi-squared member has rate $\tfrac{1}{2}$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- $(X - \mu)^2$ for $X \sim N(\mu, \sigma^2)$: a chi-squared member of the gamma family? ::@:: No, its rate is $1/(2\sigma^2)$ rather than $\tfrac{1}{2}$, and the rate is one half only when $\sigma^2 = 1$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- $X^2$ for $X \sim N(\mu, \sigma^2)$ with $\mu$ and $\sigma$ unknown: a chi-squared member of the gamma family? ::@:: No, it fails on the centering: the mean is not zero, so the unknown $\mu$ is never divided out and the law of the square depends on it. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->

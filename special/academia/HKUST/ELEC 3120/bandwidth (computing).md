@@ -21,8 +21,8 @@ Bandwidth is the number of bits a link carries per unit time, in bits per second
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Bandwidth is the number of bits a link sends or receives per unit time, measured in bits per second.
-- what does "width of the link" name? ::@:: Its bandwidth, as against the length that names the propagation delay.
+- overview ::@:: Bandwidth is the number of bits a link sends or receives per unit time, measured in bits per second. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what does "width of the link" name? ::@:: Its bandwidth, as against the length that names the propagation delay. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## units
 
@@ -32,6 +32,6 @@ Bandwidth is measured in bits per second, abbreviated bps. Bytes per second, Bps
 
 Flashcards for this section are as follows:
 
-- what unit measures bandwidth? ::@:: Bits per second, bps.
-- bits against bytes: what is one byte per second in bits per second? ::@:: Eight bits per second.
-- which prefixes does networking use? ::@:: Powers of 1000: 1 Kbps is 1000 bps, 1 Mbps is 1000 Kbps, 1 Gbps is 1000 Mbps.
+- what unit measures bandwidth? ::@:: Bits per second, bps. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- bits against bytes: what is one byte per second in bits per second? ::@:: Eight bits per second. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- which prefixes does networking use? ::@:: Powers of 1000: 1 Kbps is 1000 bps, 1 Mbps is 1000 Kbps, 1 Gbps is 1000 Mbps. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->

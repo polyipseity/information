@@ -19,8 +19,8 @@ Pegged orders are price qualifiers: instructions that control the execution pric
 
 Flashcards for this section are as follows:
 
-- what a pegged order does ::@:: Adjusts its limit price dynamically according to a reference point on the order book.
-- two main types ::@:: Primary peg and midpoint peg.
+- what a pegged order does ::@:: Adjusts its limit price dynamically according to a reference point on the order book. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- two main types ::@:: Primary peg and midpoint peg. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## primary peg
 
@@ -34,16 +34,16 @@ A tick is the minimum unit of the price grid, e.g., \$0.01. Suppose the national
 
 Flashcards for this section are as follows:
 
-- how a P-peg limit buy sets its price ::@:: One tick below the national best bid.
-- how a P-peg limit sell sets its price ::@:: One tick above the national best offer.
-- what quote a P-peg order pegs to ::@:: The national quote, not the venue's own quote.
-- how a P-peg resting price compares with the best price available on the same side ::@:: One tick worse: a buy rests below the national best bid, a sell above the national best offer.
-- how a midpoint peg's resting price compares with the two national quotes ::@:: Strictly between them, better than the national best bid for a seller and better than the national best offer for a buyer.
-- whether P-peg orders are displayed ::@:: No; they are hidden with lower priority than displayed orders at the same price.
-- at what prices a P-peg order will execute ::@:: No worse than the national best on its own side: at or below the NBB for a buy, at or above the NBO for a sell.
-- what happens when a counterorder is aggressive enough to reach the national best but not the resting price ::@:: The pegged order executes, at the national best price rather than its own worse resting price.
-- what happens when a counterorder falls short of the national best ::@:: It does not trade with the pegged order at all.
-- what happens when an arriving order's price equals the pegged order's resting price ::@:: They match and trade at that price, even though the pegged order is hidden.
+- how a P-peg limit buy sets its price ::@:: One tick below the national best bid. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- how a P-peg limit sell sets its price ::@:: One tick above the national best offer. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what quote a P-peg order pegs to ::@:: The national quote, not the venue's own quote. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- how a P-peg resting price compares with the best price available on the same side ::@:: One tick worse: a buy rests below the national best bid, a sell above the national best offer. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- how a midpoint peg's resting price compares with the two national quotes ::@:: Strictly between them, better than the national best bid for a seller and better than the national best offer for a buyer. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- whether P-peg orders are displayed ::@:: No; they are hidden with lower priority than displayed orders at the same price. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- at what prices a P-peg order will execute ::@:: No worse than the national best on its own side: at or below the NBB for a buy, at or above the NBO for a sell. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what happens when a counterorder is aggressive enough to reach the national best but not the resting price ::@:: The pegged order executes, at the national best price rather than its own worse resting price. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what happens when a counterorder falls short of the national best ::@:: It does not trade with the pegged order at all. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what happens when an arriving order's price equals the pegged order's resting price ::@:: They match and trade at that price, even though the pegged order is hidden. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## midpoint peg
 
@@ -53,6 +53,6 @@ A _midpoint peg_ sets its limit price at the midpoint of the NBBO, which falls s
 
 Flashcards for this section are as follows:
 
-- how a midpoint peg sets its price ::@:: At the midpoint of the NBBO.
-- advantage of midpoint peg over primary peg ::@:: Price improvement by trading at the midpoint.
-- what a midpoint peg does when the NBBO bid equals the NBBO ask ::@:: The midpoint is that same price, so the order rests at the locked quote.
+- how a midpoint peg sets its price ::@:: At the midpoint of the NBBO. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- advantage of midpoint peg over primary peg ::@:: Price improvement by trading at the midpoint. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what a midpoint peg does when the NBBO bid equals the NBBO ask ::@:: The midpoint is that same price, so the order rests at the locked quote. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->

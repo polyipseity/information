@@ -15,9 +15,9 @@ A gender role is the part a society expects a person to take because of their se
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A gender role is the part a society expects a person to take because of their sex, and widely held gender roles are stereotypes.
-- what a gender role covers ::@:: The work, manner of speaking, emotional response, and habits assumed to belong to men or to women.
-- what a stereotype about a sex states ::@:: What people expect of that sex, not what its members are like.
+- overview ::@:: A gender role is the part a society expects a person to take because of their sex, and widely held gender roles are stereotypes. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what a gender role covers ::@:: The work, manner of speaking, emotional response, and habits assumed to belong to men or to women. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what a stereotype about a sex states ::@:: What people expect of that sex, not what its members are like. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## stereotyped behaviour
 
@@ -27,12 +27,12 @@ Common stereotypes divide everyday life along sex. The household falls to women,
 
 Flashcards for this section are as follows:
 
-- which household tasks the stereotype assigns to women ::@:: Cooking, washing, vacuuming, and housework, while men rest, watch television, and sleep.
-- how the stereotype contrasts women's and men's speech ::@:: Women speak at greater length and more meanderingly, while a man's discussion turns into a contest.
-- how the stereotype contrasts emotional response ::@:: Women cry at a romantic film that sends men to sleep.
-- how the stereotype contrasts preparation and packing ::@:: Women take hours over their appearance and fill the car with luggage; men settle their appearance in seconds and pack a single item.
-- how the stereotype contrasts shopping ::@:: Men walk straight to the item they came for, while women work through every aisle.
-- what the stereotype says both sexes want in a partner ::@:: Someone standing on a pedestal surrounded by cooking, cleaning, laundry, and childcare.
+- which household tasks the stereotype assigns to women ::@:: Cooking, washing, vacuuming, and housework, while men rest, watch television, and sleep. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- how the stereotype contrasts women's and men's speech ::@:: Women speak at greater length and more meanderingly, while a man's discussion turns into a contest. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- how the stereotype contrasts emotional response ::@:: Women cry at a romantic film that sends men to sleep. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- how the stereotype contrasts preparation and packing ::@:: Women take hours over their appearance and fill the car with luggage; men settle their appearance in seconds and pack a single item. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- how the stereotype contrasts shopping ::@:: Men walk straight to the item they came for, while women work through every aisle. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what the stereotype says both sexes want in a partner ::@:: Someone standing on a pedestal surrounded by cooking, cleaning, laundry, and childcare. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## references
 

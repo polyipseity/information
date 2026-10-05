@@ -16,8 +16,8 @@ A loadable kernel module (LKM) extends a running kernel's capabilities without r
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Extends a running kernel's capabilities at boot time or during runtime, without recompiling the entire kernel.
-- LKM motivation ::@:: Linking services dynamically is preferable to adding features directly to the kernel, which would require recompiling the entire kernel every time a change was made.
+- overview ::@:: Extends a running kernel's capabilities at boot time or during runtime, without recompiling the entire kernel. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- LKM motivation ::@:: Linking services dynamically is preferable to adding features directly to the kernel, which would require recompiling the entire kernel every time a change was made. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## design
 
@@ -29,9 +29,9 @@ For example, the kernel can have CPU scheduling and memory management built in, 
 
 Flashcards for this section are as follows:
 
-- modular approach versus layered ::@:: Both have well-defined interfaces, but the modular approach is more flexible: any module can call any other module, unlike strict layering where a layer only calls the one below.
-- modular approach versus microkernel ::@:: Both have a minimal core with additional services, but modules communicate through direct function calls rather than message passing, giving better performance.
-- runtime module loading ::@:: A kernel module such as a device driver can be loaded when a new device is detected (e.g., a USB device plugged in) and removed when no longer needed, without rebooting.
+- modular approach versus layered ::@:: Both have well-defined interfaces, but the modular approach is more flexible: any module can call any other module, unlike strict layering where a layer only calls the one below. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- modular approach versus microkernel ::@:: Both have a minimal core with additional services, but modules communicate through direct function calls rather than message passing, giving better performance. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- runtime module loading ::@:: A kernel module such as a device driver can be loaded when a new device is detected (e.g., a USB device plugged in) and removed when no longer needed, without rebooting. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## Linux and LKMs <!-- check: ignore-line[header_style]: Linux is a proper noun, LKM is an acronym -->
 
@@ -41,4 +41,4 @@ Linux uses loadable kernel modules primarily for device drivers and file systems
 
 Flashcards for this section are as follows:
 
-- Linux use of LKMs ::@:: Linux uses LKMs for device drivers and file systems, inserting and removing them at runtime to keep monolithic performance with modular flexibility.
+- Linux use of LKMs ::@:: Linux uses LKMs for device drivers and file systems, inserting and removing them at runtime to keep monolithic performance with modular flexibility. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->

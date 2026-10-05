@@ -21,7 +21,7 @@ The joints have names: node, branch, path, loop, and mesh. Counting them also pr
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A circuit diagram is a two-dimensional representation of a circuit in standardized symbols that fixes which element terminals are joined, and the joints it draws are the node, the branch, the path, the loop, and the mesh.
+- overview ::@:: A circuit diagram is a two-dimensional representation of a circuit in standardized symbols that fixes which element terminals are joined, and the joints it draws are the node, the branch, the path, the loop, and the mesh. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## circuit diagram
 
@@ -37,12 +37,12 @@ A diagram may be redrawn in any way, provided no existing connection is broken a
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A circuit diagram is a graphical representation of a circuit: the closed connections of its elements, drawn with standardized symbols.
-- schematic against hardware: a printed circuit board and a schematic circuit diagram of the same circuit; what is each? ::@:: The board is the physical hardware, and the schematic is the two-dimensional representation of its components and interconnections.
-- wire run: a straight run of wire joins two joints and three more element terminals tap onto it along the way; how many nodes does the run form? ::@:: One: wire holds no element, so a wire joining a run counts as a single node.
-- crossing without a dot: two wires cross in a diagram with no dot drawn at the crossing; are they connected? ::@:: No: a crossing is a connection only where a dot is drawn.
-- redrawing a diagram: what two conditions must a redrawn circuit diagram preserve? ::@:: No existing connection is broken, and no new connection is made.
-- diagram labels: which quantities are written on a circuit diagram? ::@:: A label on each node, the branch voltage and branch current of each element, and the source voltage and source current of each source.
+- overview ::@:: A circuit diagram is a graphical representation of a circuit: the closed connections of its elements, drawn with standardized symbols. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- schematic against hardware: a printed circuit board and a schematic circuit diagram of the same circuit; what is each? ::@:: The board is the physical hardware, and the schematic is the two-dimensional representation of its components and interconnections. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- wire run: a straight run of wire joins two joints and three more element terminals tap onto it along the way; how many nodes does the run form? ::@:: One: wire holds no element, so a wire joining a run counts as a single node. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- crossing without a dot: two wires cross in a diagram with no dot drawn at the crossing; are they connected? ::@:: No: a crossing is a connection only where a dot is drawn. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- redrawing a diagram: what two conditions must a redrawn circuit diagram preserve? ::@:: No existing connection is broken, and no new connection is made. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- diagram labels: which quantities are written on a circuit diagram? ::@:: A label on each node, the branch voltage and branch current of each element, and the source voltage and source current of each source. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## node
 
@@ -54,9 +54,9 @@ Because it is a joint of terminals, the current entering a node leaves it, and t
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A node is an electrical joint connecting the terminals of two or more circuit elements.
-- terminals per node: how many element terminals meet at a node? ::@:: Two or more; a single terminal alone is not a joint.
-- wire inside a node: a wire segment lying between two joints carries no element; how does it bear on the node count? ::@:: It does not add a node: the whole wire run forms one node.
+- overview ::@:: A node is an electrical joint connecting the terminals of two or more circuit elements. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- terminals per node: how many element terminals meet at a node? ::@:: Two or more; a single terminal alone is not a joint. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- wire inside a node: a wire segment lying between two joints carries no element; how does it bear on the node count? ::@:: It does not add a node: the whole wire run forms one node. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## branch
 
@@ -68,9 +68,9 @@ A branch carries a branch voltage across it and a branch current through it, bot
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A branch consists of two nodes between which a circuit element is inserted.
-- branches against elements: a circuit of nine elements; how many branches does it have? ::@:: Nine: each element sits between exactly two nodes, so the two counts agree.
-- quantities on a branch: which two quantities are associated with a branch, and how are they fixed? ::@:: The branch voltage across it and the branch current through it, both under reference directions chosen for the analysis.
+- overview ::@:: A branch consists of two nodes between which a circuit element is inserted. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- branches against elements: a circuit of nine elements; how many branches does it have? ::@:: Nine: each element sits between exactly two nodes, so the two counts agree. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- quantities on a branch: which two quantities are associated with a branch, and how are they fixed? ::@:: The branch voltage across it and the branch current through it, both under reference directions chosen for the analysis. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## path
 
@@ -82,8 +82,8 @@ The branch voltages may be summed term by term along a path, which is what makes
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A path is a sequence of nodes proceeding from the starting node to the ending node.
-- path and its nodes: must the nodes of a path all be different? ::@:: No: a path is an ordered walk, and only a loop imposes the no-repeat condition.
+- overview ::@:: A path is a sequence of nodes proceeding from the starting node to the ending node. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- path and its nodes: must the nodes of a path all be different? ::@:: No: a path is an ordered walk, and only a loop imposes the no-repeat condition. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## loop and mesh
 
@@ -95,8 +95,8 @@ The distinction matters for counting: a two-mesh planar circuit has three loops,
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A loop is a closed path that returns to its starting node without passing an intermediate node more than once, and a mesh is a loop containing no other loop.
-- loop against mesh: which condition turns a loop into a mesh? ::@:: It contains no other loop within it.
-- counting meshes: a planar circuit drawn as two adjacent meshes; how many loops and how many meshes does it have? ::@:: Three loops: the two meshes plus the loop around both. Two meshes.
-- counting nodes and branches: five elements joined in parallel between two rails; how many nodes and branches? ::@:: Two nodes and five branches, one branch per element.
-- loop against path: both are sequences of nodes; which one imposes the return and the no-repeat condition? ::@:: The loop: its starting and ending nodes coincide and no intermediate node is passed twice.
+- overview ::@:: A loop is a closed path that returns to its starting node without passing an intermediate node more than once, and a mesh is a loop containing no other loop. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- loop against mesh: which condition turns a loop into a mesh? ::@:: It contains no other loop within it. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- counting meshes: a planar circuit drawn as two adjacent meshes; how many loops and how many meshes does it have? ::@:: Three loops: the two meshes plus the loop around both. Two meshes. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- counting nodes and branches: five elements joined in parallel between two rails; how many nodes and branches? ::@:: Two nodes and five branches, one branch per element. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- loop against path: both are sequences of nodes; which one imposes the return and the no-repeat condition? ::@:: The loop: its starting and ending nodes coincide and no intermediate node is passed twice. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->

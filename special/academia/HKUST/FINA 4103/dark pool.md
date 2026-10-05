@@ -18,9 +18,9 @@ Dark pools offer better prices than lit exchanges, but regulators worry about th
 
 Flashcards for this section are as follows:
 
-- what a dark pool is ::@:: An alternative trading system where all orders are hidden.
-- at what price dark pool trades execute ::@:: The midpoint of the NBBO.
-- regulatory concern about dark pools ::@:: Their volume share and potential harm to price discovery.
+- what a dark pool is ::@:: An alternative trading system where all orders are hidden. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- at what price dark pool trades execute ::@:: The midpoint of the NBBO. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- regulatory concern about dark pools ::@:: Their volume share and potential harm to price discovery. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## dark pools and price efficiency
 
@@ -32,10 +32,10 @@ The asset value is either high ($v_H$) or low ($v_L$) and is not publicly observ
 
 Flashcards for this section are as follows:
 
-- two worlds Zhu (2014) compares ::@:: A lit exchange with a dark pool, and a lit exchange alone.
-- what informed traders do in Zhu's model ::@:: Learn the asset value and trade on it, contributing to price discovery.
-- what noise traders do in Zhu's model ::@:: Buy and sell at random, driven by exogenous needs.
-- two effects of dark pools on price efficiency ::@:: Price informativeness rises and mean-squared error of price relative to true value falls.
+- two worlds Zhu (2014) compares ::@:: A lit exchange with a dark pool, and a lit exchange alone. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what informed traders do in Zhu's model ::@:: Learn the asset value and trade on it, contributing to price discovery. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what noise traders do in Zhu's model ::@:: Buy and sell at random, driven by exogenous needs. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- two effects of dark pools on price efficiency ::@:: Price informativeness rises and mean-squared error of price relative to true value falls. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## price improvement versus execution risk
 
@@ -49,7 +49,7 @@ This asymmetry drives informed traders to lit exchanges, which carry no executio
 
 Flashcards for this section are as follows:
 
-- <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->how dark pools execute orders ::@:: On a pro-rata basis: each buyer's execution probability is $P = \min\!\left(1, \frac{n_s}{n_b}\right)$, where $n_s$ is the number of sellers and $n_b$ the number of buyers.
-- why informed traders face higher execution risk in dark pools ::@:: Good news clusters them on the buy side, making rationing more likely.
-- why noise traders face lower execution risk ::@:: They are randomly distributed, so execution probability is near 0.5.
-- how dark pools affect the lit exchange ::@:: Informed traders migrate there, making its prices more informative.
+- <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->how dark pools execute orders ::@:: On a pro-rata basis: each buyer's execution probability is $P = \min\!\left(1, \frac{n_s}{n_b}\right)$, where $n_s$ is the number of sellers and $n_b$ the number of buyers. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- why informed traders face higher execution risk in dark pools ::@:: Good news clusters them on the buy side, making rationing more likely. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- why noise traders face lower execution risk ::@:: They are randomly distributed, so execution probability is near 0.5. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- how dark pools affect the lit exchange ::@:: Informed traders migrate there, making its prices more informative. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->

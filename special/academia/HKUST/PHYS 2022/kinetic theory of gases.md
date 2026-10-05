@@ -17,9 +17,9 @@ The theory rests on several assumptions: gas molecules are point masses with neg
 
 Flashcards for this section are as follows:
 
-- overview: the model and what it explains ::@:: A gas is many molecules in constant random motion, and their collisions explain the macroscopic properties of pressure, volume, and temperature.
-- overview: what the number of degrees of freedom determines ::@:: The heat capacity of the gas.
-- the kinetic theory assumptions: the four key ones ::@:: Molecules are point masses with negligible volume; collisions are perfectly elastic; there are no intermolecular forces except during collisions; and average kinetic energy is proportional to absolute temperature.
+- overview: the model and what it explains ::@:: A gas is many molecules in constant random motion, and their collisions explain the macroscopic properties of pressure, volume, and temperature. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- overview: what the number of degrees of freedom determines ::@:: The heat capacity of the gas. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the kinetic theory assumptions: the four key ones ::@:: Molecules are point masses with negligible volume; collisions are perfectly elastic; there are no intermolecular forces except during collisions; and average kinetic energy is proportional to absolute temperature. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## ideal gas law
 
@@ -31,16 +31,16 @@ Four named gas laws are special cases of this equation, each holding one variabl
 
 Flashcards for this section are as follows:
 
-- the ideal gas equation in terms of the number of molecules $N$ and the Boltzmann constant $k_B$ ::@:: $PV = Nk_BT$.
-- the ideal gas equation in terms of the amount $n$ and the ideal gas constant $R$ ::@:: $PV = nRT$, reached through $N = nN_A$.
-- the value of the Boltzmann constant $k_B$ ::@:: $1.38 \times 10^{-23}\ \text{J/K}$.
-- the value of Avogadro's number $N_A$ ::@:: $6.02 \times 10^{23}\ \text{mol}^{-1}$.
-- the value of the ideal gas constant $R$ ::@:: $8.31\ \text{J mol}^{-1}\text{K}^{-1}$.
-- the people whose work the ideal gas equation culminates: the three named ::@:: Robert Boyle, Jacques Charles, and Joseph Louis Gay-Lussac.
-- Boyle's law: the relationship when $T$ and $n$ are constant ::@:: $P_1V_1 = P_2V_2$: decreasing volume increases pressure.
-- Charles's law: the relationship when $P$ and $n$ are constant ::@:: $V_1/T_1 = V_2/T_2$: heating increases volume.
-- Gay-Lussac's law: the relationship when $V$ and $n$ are constant ::@:: $P_1/T_1 = P_2/T_2$: heating increases pressure.
-- Avogadro's law: the relationship when $P$ and $T$ are constant ::@:: $V_1/n_1 = V_2/n_2$: adding molecules increases volume.
+- the ideal gas equation in terms of the number of molecules $N$ and the Boltzmann constant $k_B$ ::@:: $PV = Nk_BT$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the ideal gas equation in terms of the amount $n$ and the ideal gas constant $R$ ::@:: $PV = nRT$, reached through $N = nN_A$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the value of the Boltzmann constant $k_B$ ::@:: $1.38 \times 10^{-23}\ \text{J/K}$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the value of Avogadro's number $N_A$ ::@:: $6.02 \times 10^{23}\ \text{mol}^{-1}$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the value of the ideal gas constant $R$ ::@:: $8.31\ \text{J mol}^{-1}\text{K}^{-1}$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the people whose work the ideal gas equation culminates: the three named ::@:: Robert Boyle, Jacques Charles, and Joseph Louis Gay-Lussac. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- Boyle's law: the relationship when $T$ and $n$ are constant ::@:: $P_1V_1 = P_2V_2$: decreasing volume increases pressure. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- Charles's law: the relationship when $P$ and $n$ are constant ::@:: $V_1/T_1 = V_2/T_2$: heating increases volume. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- Gay-Lussac's law: the relationship when $V$ and $n$ are constant ::@:: $P_1/T_1 = P_2/T_2$: heating increases pressure. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- Avogadro's law: the relationship when $P$ and $T$ are constant ::@:: $V_1/n_1 = V_2/n_2$: adding molecules increases volume. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## equipartition of energy
 
@@ -50,10 +50,10 @@ The average molecular kinetic energy of the gas is proportional to the absolute 
 
 Flashcards for this section are as follows:
 
-- the average molecular kinetic energy and the absolute temperature: how the two are related ::@:: The average molecular kinetic energy is proportional to the absolute temperature.
-- the internal energy $U$ in terms of the average molecular kinetic energy $\bar K$ and the number of molecules $N$ ::@:: $U = N\bar K = nN_A\bar K$.
-- equipartition: the average kinetic energy per molecule in terms of $f$, $k_B$, and $T$ ::@:: $\bar K = \frac{f}{2}k_BT$; the internal energy is distributed equally among the $f$ degrees of freedom.
-- equipartition: the internal energy $U$ in terms of $f$, $n$, $R$, and $T$ ::@:: $U = \frac{f}{2}nRT$.
+- the average molecular kinetic energy and the absolute temperature: how the two are related ::@:: The average molecular kinetic energy is proportional to the absolute temperature. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the internal energy $U$ in terms of the average molecular kinetic energy $\bar K$ and the number of molecules $N$ ::@:: $U = N\bar K = nN_A\bar K$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- equipartition: the average kinetic energy per molecule in terms of $f$, $k_B$, and $T$ ::@:: $\bar K = \frac{f}{2}k_BT$; the internal energy is distributed equally among the $f$ degrees of freedom. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- equipartition: the internal energy $U$ in terms of $f$, $n$, $R$, and $T$ ::@:: $U = \frac{f}{2}nRT$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## molar heat capacity
 
@@ -63,11 +63,11 @@ The heat capacity of a body is $C = Q/\Delta T = \Delta U/\Delta T$, and its mol
 
 Flashcards for this section are as follows:
 
-- heat capacity $C$ in terms of the heat $Q$ and the temperature change $\Delta T$ ::@:: $C = Q/\Delta T = \Delta U/\Delta T$.
-- the molar heat capacity at constant volume $C_V$ in terms of $C$ and the amount $n$ ::@:: $C_V = C/n$.
-- the molar heat capacity at constant volume $C_V$ in terms of $f$ and the gas constant $R$ ::@:: $C_V = \frac{dU}{n\,dT} = \frac{fR}{2}$.
-- how the number of degrees of freedom $f$ is measured ::@:: From the measured molar heat capacity, through $C_V = \frac{fR}{2}$.
-- the relation between $C_p$ and $C_V$ with the gas constant $R$ ::@:: $C_p = C_V + R$.
+- heat capacity $C$ in terms of the heat $Q$ and the temperature change $\Delta T$ ::@:: $C = Q/\Delta T = \Delta U/\Delta T$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the molar heat capacity at constant volume $C_V$ in terms of $C$ and the amount $n$ ::@:: $C_V = C/n$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the molar heat capacity at constant volume $C_V$ in terms of $f$ and the gas constant $R$ ::@:: $C_V = \frac{dU}{n\,dT} = \frac{fR}{2}$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- how the number of degrees of freedom $f$ is measured ::@:: From the measured molar heat capacity, through $C_V = \frac{fR}{2}$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the relation between $C_p$ and $C_V$ with the gas constant $R$ ::@:: $C_p = C_V + R$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ### gases
 
@@ -86,9 +86,9 @@ Real gases at ordinary temperatures are close to the classical value of $C_V$ wh
 
 Flashcards for this section are as follows:
 
-- helium and argon: the $f$ they correspond to and their measured $C_V$ ::@:: $f = 3$, the monatomic value, with $C_V = 12.5$ for helium and $12.6$ for argon.
-- nitrogen and oxygen: the $f$ they correspond to and their measured $C_V$ ::@:: $f = 5$, the diatomic value, with $C_V = 20.7$ for nitrogen and $20.8$ for oxygen.
-- the polyatomic gases of the table: their classical $f$ and their measured $C_V$ ::@:: $f = 6$, with $C_V = 29.1$ for ammonia and $29.7\ \text{J mol}^{-1}\text{K}^{-1}$ for carbon dioxide.
+- helium and argon: the $f$ they correspond to and their measured $C_V$ ::@:: $f = 3$, the monatomic value, with $C_V = 12.5$ for helium and $12.6$ for argon. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- nitrogen and oxygen: the $f$ they correspond to and their measured $C_V$ ::@:: $f = 5$, the diatomic value, with $C_V = 20.7$ for nitrogen and $20.8$ for oxygen. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the polyatomic gases of the table: their classical $f$ and their measured $C_V$ ::@:: $f = 6$, with $C_V = 29.1$ for ammonia and $29.7\ \text{J mol}^{-1}\text{K}^{-1}$ for carbon dioxide. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ### large molecules
 
@@ -98,8 +98,8 @@ A large molecule has far more degrees of freedom than a small one, and its molar
 
 Flashcards for this section are as follows:
 
-- the alpha helix: its molar heat capacity in $\text{cal mol}^{-1}\text{K}^{-1}$ and in $R$, and the $f$ it gives ::@:: About $800\ \text{cal mol}^{-1}\text{K}^{-1} = 400R$, giving $f = 400$.
-- chymotrypsinogen: its molar heat capacity in $\text{cal mol}^{-1}\text{K}^{-1}$ and in $R$, and the $f$ it gives ::@:: About $9000\ \text{cal mol}^{-1}\text{K}^{-1} = 4500R$, giving $f = 4500$.
+- the alpha helix: its molar heat capacity in $\text{cal mol}^{-1}\text{K}^{-1}$ and in $R$, and the $f$ it gives ::@:: About $800\ \text{cal mol}^{-1}\text{K}^{-1} = 400R$, giving $f = 400$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- chymotrypsinogen: its molar heat capacity in $\text{cal mol}^{-1}\text{K}^{-1}$ and in $R$, and the $f$ it gives ::@:: About $9000\ \text{cal mol}^{-1}\text{K}^{-1} = 4500R$, giving $f = 4500$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## limits of the classical model
 
@@ -109,7 +109,7 @@ The classical result $C_V = \frac{fR}{2}$ holds at every temperature, but measur
 
 Flashcards for this section are as follows:
 
-- the classical prediction for $C_V$ against temperature, and what measurement shows instead ::@:: The classical $C_V = \frac{fR}{2}$ is constant in temperature, while measurement shows it rising in steps as further degrees of freedom become active.
+- the classical prediction for $C_V$ against temperature, and what measurement shows instead ::@:: The classical $C_V = \frac{fR}{2}$ is constant in temperature, while measurement shows it rising in steps as further degrees of freedom become active. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ### the constant-volume plateaus
 
@@ -119,7 +119,7 @@ Plotted against temperature, the ratio $c_V/R$ sits at a plateau of $3/2$ while 
 
 Flashcards for this section are as follows:
 
-- the three plateaus of $c_V/R$ as the temperature rises, and what is active at each ::@:: $3/2$ with only translation active, $5/2$ once rotation is active, and $7/2$ once vibration is active.
+- the three plateaus of $c_V/R$ as the temperature rises, and what is active at each ::@:: $3/2$ with only translation active, $5/2$ once rotation is active, and $7/2$ once vibration is active. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ### the constant-pressure levels
 
@@ -129,7 +129,7 @@ The same failure shows in the constant-pressure heat capacity, $C_p = C_V + R$, 
 
 Flashcards for this section are as follows:
 
-- at constant pressure, the level of $f$ each of the named gases approaches over $300\ \text{K}$ to $3500\ \text{K}$ ::@:: $f = 3$ for argon, helium, neon, krypton, xenon, and radon; $f = 5$ for air; $f = 6$ for hydrogen; and $f = 13$ for carbon dioxide.
+- at constant pressure, the level of $f$ each of the named gases approaches over $300\ \text{K}$ to $3500\ \text{K}$ ::@:: $f = 3$ for argon, helium, neon, krypton, xenon, and radon; $f = 5$ for air; $f = 6$ for hydrogen; and $f = 13$ for carbon dioxide. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## effusion and diffusion
 
@@ -139,7 +139,7 @@ Effusion is the escape of gas molecules through a tiny hole into a vacuum, and d
 
 Flashcards for this section are as follows:
 
-- effusion: what it is ::@:: The escape of gas molecules through a tiny hole into a vacuum.
-- diffusion: what it is ::@:: The intermixing of different gases driven by concentration gradients.
-- Graham's law: the relationship between effusion rate and molar mass ::@:: $\text{Rate}_1/\text{Rate}_2 = \sqrt{m_2/m_1}$: the rate is inversely proportional to the square root of the molar mass. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- root-mean-square speed: its formula ::@:: $v_{\text{rms}} = \sqrt{3k_BT/m}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- effusion: what it is ::@:: The escape of gas molecules through a tiny hole into a vacuum. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- diffusion: what it is ::@:: The intermixing of different gases driven by concentration gradients. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- Graham's law: the relationship between effusion rate and molar mass ::@:: $\text{Rate}_1/\text{Rate}_2 = \sqrt{m_2/m_1}$: the rate is inversely proportional to the square root of the molar mass. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- root-mean-square speed: its formula ::@:: $v_{\text{rms}} = \sqrt{3k_BT/m}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->

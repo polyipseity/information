@@ -21,9 +21,9 @@ A TCP sender has to notice that a segment never arrived and send it again. Two s
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A TCP sender detects a lost segment from a timeout or from three duplicate acknowledgements, and retransmits it.
-- two signals: which two events tell a sender that a segment was lost? ::@:: The retransmission timer running out, and three duplicate acknowledgements.
-- what both signals lead to: what does the sender do after either signal? ::@:: Retransmits the missing segment.
+- overview ::@:: A TCP sender detects a lost segment from a timeout or from three duplicate acknowledgements, and retransmits it. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- two signals: which two events tell a sender that a segment was lost? ::@:: The retransmission timer running out, and three duplicate acknowledgements. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what both signals lead to: what does the sender do after either signal? ::@:: Retransmits the missing segment. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## duplicate acknowledgements
 
@@ -33,10 +33,10 @@ A receiver that gets a segment out of order cannot acknowledge it, since the byt
 
 Flashcards for this section are as follows:
 
-- duplicate acknowledgement: the receiver names the same next-expected byte again; what does that report? ::@:: That a segment arrived out of order and left a gap before it.
-- out-of-order segment: what does a receiver send when a segment arrives out of order? ::@:: Another acknowledgement naming the same next-expected byte.
-- one or two duplicate acknowledgements: what can still explain them? ::@:: Ordinary reordering, which leaves a temporary gap.
-- third duplicate acknowledgement: what does it establish? ::@:: That the missing segment is lost, not merely late.
+- duplicate acknowledgement: the receiver names the same next-expected byte again; what does that report? ::@:: That a segment arrived out of order and left a gap before it. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- out-of-order segment: what does a receiver send when a segment arrives out of order? ::@:: Another acknowledgement naming the same next-expected byte. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- one or two duplicate acknowledgements: what can still explain them? ::@:: Ordinary reordering, which leaves a temporary gap. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- third duplicate acknowledgement: what does it establish? ::@:: That the missing segment is lost, not merely late. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## fast retransmit
 
@@ -46,7 +46,7 @@ The duplicate acknowledgements arrive before the timer would expire. On the thir
 
 Flashcards for this section are as follows:
 
-- fast retransmit rule: what does the sender do when the third duplicate acknowledgement arrives? ::@:: It retransmits the missing segment at once, without waiting for the timer.
+- fast retransmit rule: what does the sender do when the third duplicate acknowledgement arrives? ::@:: It retransmits the missing segment at once, without waiting for the timer. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## timeouts
 
@@ -56,7 +56,7 @@ The sender starts a timer when it sends a segment and resends the oldest unackno
 
 Flashcards for this section are as follows:
 
-- timer rule: what does the sender retransmit when its retransmission timer expires? ::@:: The oldest unacknowledged segment.
-- when only the timer can help: why does the timer still matter when duplicate acknowledgements exist? ::@:: A loss with no later segment behind it produces no duplicate acknowledgements.
-- why the timer is slower: why does the timer signal a loss later than duplicate acknowledgements do? ::@:: It must allow a full round trip plus the time the reply may take.
-- extra cost: what else does a timeout cost, compared with a fast retransmit? ::@:: It also drops the congestion window to its initial value, so the connection rebuilds its sending rate.
+- timer rule: what does the sender retransmit when its retransmission timer expires? ::@:: The oldest unacknowledged segment. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- when only the timer can help: why does the timer still matter when duplicate acknowledgements exist? ::@:: A loss with no later segment behind it produces no duplicate acknowledgements. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- why the timer is slower: why does the timer signal a loss later than duplicate acknowledgements do? ::@:: It must allow a full round trip plus the time the reply may take. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- extra cost: what else does a timeout cost, compared with a fast retransmit? ::@:: It also drops the congestion window to its initial value, so the connection rebuilds its sending rate. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->

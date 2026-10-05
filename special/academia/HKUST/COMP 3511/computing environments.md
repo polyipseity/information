@@ -22,9 +22,9 @@ Devices with little or no user interface form another environment. In __embedded
 
 Flashcards for this section are as follows:
 
-- what determines the operating system's shape ::@:: It depends first and foremost on the target devices.
-- shared computers ::@:: On mainframes and minicomputers the operating system tries to keep all users satisfied, balancing performance against fairness.
-- individual systems ::@:: Workstations have dedicated resources, so performance matters more than fairness, although they may still use shared resources from servers.
-- mobile devices ::@:: Smartphones and handhelds are resource constrained, embed different sensor types alongside their processors, target specific interfaces such as touch screens and voice control such as Apple's Siri, and are optimized for usability and battery life.
-- embedded systems ::@:: Devices with little or no user interface run the operating system pre-installed in ROM, inside air conditioners, toasters, automobiles, ships, and spacecraft.
-- real-time systems ::@:: Real-time systems have strict time constraints.
+- what determines the operating system's shape ::@:: It depends first and foremost on the target devices. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- shared computers ::@:: On mainframes and minicomputers the operating system tries to keep all users satisfied, balancing performance against fairness. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- individual systems ::@:: Workstations have dedicated resources, so performance matters more than fairness, although they may still use shared resources from servers. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- mobile devices ::@:: Smartphones and handhelds are resource constrained, embed different sensor types alongside their processors, target specific interfaces such as touch screens and voice control such as Apple's Siri, and are optimized for usability and battery life. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- embedded systems ::@:: Devices with little or no user interface run the operating system pre-installed in ROM, inside air conditioners, toasters, automobiles, ships, and spacecraft. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- real-time systems ::@:: Real-time systems have strict time constraints. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->

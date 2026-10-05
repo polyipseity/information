@@ -14,10 +14,10 @@ _Classical physics_ is the body of physical theory that predates quantum mechani
 
 Flashcards for this section are as follows:
 
-- definition ::@:: The physical theory that predates quantum mechanics and relativity; in historical discussions, physics before 1900.
-- the three parts of classical physics at the end of the 19th century ::@:: Mechanics, electromagnetism, and thermodynamics.
-- Michelson's 1894 remark: what he said remained for future discovery ::@:: Discoveries "must be looked for in the sixth place of decimals".
-- Comte's remark on what is necessary to understand a science ::@:: That it is necessary to know its history.
+- definition ::@:: The physical theory that predates quantum mechanics and relativity; in historical discussions, physics before 1900. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the three parts of classical physics at the end of the 19th century ::@:: Mechanics, electromagnetism, and thermodynamics. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- Michelson's 1894 remark: what he said remained for future discovery ::@:: Discoveries "must be looked for in the sixth place of decimals". <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- Comte's remark on what is necessary to understand a science ::@:: That it is necessary to know its history. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## mechanics
 
@@ -27,7 +27,7 @@ Mechanics was given its experimental foundations by Galileo (1564–1642) and it
 
 Flashcards for this section are as follows:
 
-- the founders of mechanics ::@:: Galileo established its experimental foundations, and Newton supplied its laws of motion and gravitation.
+- the founders of mechanics ::@:: Galileo established its experimental foundations, and Newton supplied its laws of motion and gravitation. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ### the laws of motion
 
@@ -37,7 +37,7 @@ Newton's three laws of motion describe how forces change motion, with $F = ma$ f
 
 Flashcards for this section are as follows:
 
-- Newton's second law: the equation for $F$, $m$, and $a$ ::@:: $F = ma$.
+- Newton's second law: the equation for $F$, $m$, and $a$ ::@:: $F = ma$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ### gravitation
 
@@ -47,7 +47,7 @@ Newton's law of gravitation $F_1 = F_2 = G\frac{m_1 m_2}{r^2}$ gives the attract
 
 Flashcards for this section are as follows:
 
-- Newton's law of gravitation: the force between masses $m_1$ and $m_2$ at separation $r$ ::@:: $F_1 = F_2 = G\frac{m_1 m_2}{r^2}$.
+- Newton's law of gravitation: the force between masses $m_1$ and $m_2$ at separation $r$ ::@:: $F_1 = F_2 = G\frac{m_1 m_2}{r^2}$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## electromagnetism
 
@@ -57,8 +57,8 @@ Electromagnetism was built up by Coulomb (1736–1806), Ørsted (1777–1851), G
 
 Flashcards for this section are as follows:
 
-- the people behind electromagnetism: the five born before 1790 ::@:: Coulomb (1736–1806), Young (1773–1829), Ampère (1775–1836), Ørsted (1777–1851), and Gauss (1777–1855).
-- the people behind electromagnetism: the four born after 1790 ::@:: Faraday (1791–1867), Henry (1797–1878), Maxwell (1831–1879), and Hertz (1857–1894).
+- the people behind electromagnetism: the five born before 1790 ::@:: Coulomb (1736–1806), Young (1773–1829), Ampère (1775–1836), Ørsted (1777–1851), and Gauss (1777–1855). <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the people behind electromagnetism: the four born after 1790 ::@:: Faraday (1791–1867), Henry (1797–1878), Maxwell (1831–1879), and Hertz (1857–1894). <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 <!-- check: ignore-next-line[header_style]: Maxwell is a proper noun -->
 ### Maxwell's equations
@@ -69,8 +69,8 @@ Maxwell's equations state the theory: $\nabla\cdot D = \rho_v$, $\nabla\cdot B =
 
 Flashcards for this section are as follows:
 
-- Maxwell's equations giving the divergence of $D$ and $B$ ::@:: $\nabla\cdot D = \rho_v$ and $\nabla\cdot B = 0$.
-- Maxwell's equations giving the curl of $E$ and $H$ ::@:: $\nabla\times E = -\frac{\partial B}{\partial t}$ and $\nabla\times H = \frac{\partial D}{\partial t} + J$.
+- Maxwell's equations giving the divergence of $D$ and $B$ ::@:: $\nabla\cdot D = \rho_v$ and $\nabla\cdot B = 0$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- Maxwell's equations giving the curl of $E$ and $H$ ::@:: $\nabla\times E = -\frac{\partial B}{\partial t}$ and $\nabla\times H = \frac{\partial D}{\partial t} + J$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## thermodynamics
 
@@ -80,8 +80,8 @@ Thermodynamics was developed by Benjamin Thompson (1753–1814), Carnot (1796–
 
 Flashcards for this section are as follows:
 
-- the people behind thermodynamics: the four born before 1820 ::@:: Benjamin Thompson (1753–1814), Avogadro (1776–1856), Carnot (1796–1832), and Joule (1818–1889).
-- the people behind thermodynamics: the four born after 1820 ::@:: Clausius (1822–1888), William Thomson, later Lord Kelvin (1824–1907), Maxwell (1831–1879), and Boltzmann (1844–1906).
+- the people behind thermodynamics: the four born before 1820 ::@:: Benjamin Thompson (1753–1814), Avogadro (1776–1856), Carnot (1796–1832), and Joule (1818–1889). <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the people behind thermodynamics: the four born after 1820 ::@:: Clausius (1822–1888), William Thomson, later Lord Kelvin (1824–1907), Maxwell (1831–1879), and Boltzmann (1844–1906). <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ### the first and second laws
 
@@ -91,7 +91,7 @@ Thermodynamics rests on two fundamental laws, the first $\frac{dE}{dt} = 0$ and 
 
 Flashcards for this section are as follows:
 
-- the two laws of thermodynamics: the equations for $\frac{dE}{dt}$ and $\frac{dS}{dt}$ ::@:: The first law $\frac{dE}{dt} = 0$ and the second law $\frac{dS}{dt} \geq 0$.
+- the two laws of thermodynamics: the equations for $\frac{dE}{dt}$ and $\frac{dS}{dt}$ ::@:: The first law $\frac{dE}{dt} = 0$ and the second law $\frac{dS}{dt} \geq 0$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## technology of the period
 
@@ -101,5 +101,5 @@ The period's technology was built on classical physics. Watt installed the first
 
 Flashcards for this section are as follows:
 
-- technology built on classical physics before 1850 ::@:: The steam engine (1776), the telegraph (1830s), and the electric motor (1832).
-- technology built on classical physics from 1870 ::@:: The telephone (1876), the light bulb (1870s), the gasoline-powered automobile (1886), wireless communication (1901), and the first flight (1903).
+- technology built on classical physics before 1850 ::@:: The steam engine (1776), the telegraph (1830s), and the electric motor (1832). <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- technology built on classical physics from 1870 ::@:: The telephone (1876), the light bulb (1870s), the gasoline-powered automobile (1886), wireless communication (1901), and the first flight (1903). <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->

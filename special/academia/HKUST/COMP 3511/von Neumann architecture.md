@@ -17,10 +17,10 @@ The von Neumann architecture is the stored-program design an operating system ha
 
 Flashcards for this section are as follows:
 
-- overview ::@:: The stored-program design, in which a central processing unit, a memory holding both instructions and data, and input/output mechanisms are connected through a common bus.
-- stored-program architecture ::@:: Instructions and data must both be stored in memory, so a program has to be brought into memory before it can be executed.
-- memory as an address stream ::@:: The processor and its memory management unit see only a stream of memory addresses and do not know how they were generated, nor whether they refer to instructions or to data.
-- main components ::@:: A central processing unit with an arithmetic-logic unit and processor registers, a control unit with an instruction register and a program counter, memory holding data and instructions along with caches, external secondary storage, and input/output mechanisms.
+- overview ::@:: The stored-program design, in which a central processing unit, a memory holding both instructions and data, and input/output mechanisms are connected through a common bus. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- stored-program architecture ::@:: Instructions and data must both be stored in memory, so a program has to be brought into memory before it can be executed. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- memory as an address stream ::@:: The processor and its memory management unit see only a stream of memory addresses and do not know how they were generated, nor whether they refer to instructions or to data. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- main components ::@:: A central processing unit with an arithmetic-logic unit and processor registers, a control unit with an instruction register and a program counter, memory holding data and instructions along with caches, external secondary storage, and input/output mechanisms. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## computer system organization
 
@@ -32,10 +32,10 @@ The worked example arranges those parts around buses. The processor, its cache, 
 
 Flashcards for this section are as follows:
 
-- computer-system operation ::@:: One or more CPU cores and several device controllers are connected through a common bus that provides access to shared memory.
-- device controller ::@:: Hardware that manages one type of device and has its own local buffer.
-- concurrent execution ::@:: The CPUs and the device controllers execute concurrently and therefore compete for memory cycles through the shared bus.
-- a system architecture with I/O ::@:: The processor, its cache, and main memory meet at a bridge/memory controller on the PCI bus, where the graphics controller, a SCSI controller, an IDE disk controller, and an expansion bus interface also sit, with devices attached below their controllers.
+- computer-system operation ::@:: One or more CPU cores and several device controllers are connected through a common bus that provides access to shared memory. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- device controller ::@:: Hardware that manages one type of device and has its own local buffer. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- concurrent execution ::@:: The CPUs and the device controllers execute concurrently and therefore compete for memory cycles through the shared bus. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- a system architecture with I/O ::@:: The processor, its cache, and main memory meet at a bridge/memory controller on the PCI bus, where the graphics controller, a SCSI controller, an IDE disk controller, and an expansion bus interface also sit, with devices attached below their controllers. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## instruction execution cycle
 
@@ -45,7 +45,7 @@ An instruction-execution cycle fetches an instruction from memory or cache into 
 
 Flashcards for this section are as follows:
 
-- instruction execution cycle ::@:: The instruction is fetched from memory or cache into the instruction register, decoded, its operands may be fetched into data registers, the instruction is executed on the operands, and the result may be written back to memory or cache.
+- instruction execution cycle ::@:: The instruction is fetched from memory or cache into the instruction register, decoded, its operands may be fetched into data registers, the instruction is executed on the operands, and the result may be written back to memory or cache. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ### processor registers
 
@@ -55,10 +55,10 @@ The CPU contains an arithmetic-logic unit (ALU) and processor registers, namely 
 
 Flashcards for this section are as follows:
 
-- program counter ::@:: The processor register holding the address of the instruction to be fetched; the control unit contains it as well.
-- instruction register ::@:: The register that holds the instruction that has been fetched and is being decoded.
-- memory address register and memory data register ::@:: The memory address register holds the address used for a memory access, and the memory data register holds the data read from or written to that address.
-- arithmetic-logic unit and accumulator ::@:: The arithmetic-logic unit carries out the instruction's arithmetic and logic operations, and the accumulator holds an operand and receives the result.
+- program counter ::@:: The processor register holding the address of the instruction to be fetched; the control unit contains it as well. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- instruction register ::@:: The register that holds the instruction that has been fetched and is being decoded. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- memory address register and memory data register ::@:: The memory address register holds the address used for a memory access, and the memory data register holds the data read from or written to that address. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- arithmetic-logic unit and accumulator ::@:: The arithmetic-logic unit carries out the instruction's arithmetic and logic operations, and the accumulator holds an operand and receives the result. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ### interrupts
 
@@ -68,7 +68,7 @@ When a device needs attention its controller raises an interrupt. The CPU saves 
 
 Flashcards for this section are as follows:
 
-- interrupts ::@:: A device controller raises an interrupt when a device needs attention, the CPU saves its state and transfers control to a handler, and later resumes, which lets computation and input/output overlap.
+- interrupts ::@:: A device controller raises an interrupt when a device needs attention, the CPU saves its state and transfers control to a handler, and later resumes, which lets computation and input/output overlap. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## input and output subsystem
 
@@ -78,7 +78,7 @@ The basic input/output hardware is the buses, the device controllers, and the de
 
 Flashcards for this section are as follows:
 
-- input/output hardware elements ::@:: Buses, device controllers and the devices themselves.
+- input/output hardware elements ::@:: Buses, device controllers and the devices themselves. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ### device drivers and kernel services
 
@@ -88,8 +88,8 @@ The kernel module controlling a device is a device driver. Drivers hide the diff
 
 Flashcards for this section are as follows:
 
-- device driver ::@:: The kernel module that controls a device and hides the differences between device controllers, so the system-call interface can handle a few basic categories of hardware.
-- kernel input/output services ::@:: I/O scheduling, buffering, caching, spooling, device reservation and error handling.
+- device driver ::@:: The kernel module that controls a device and hides the differences between device controllers, so the system-call interface can handle a few basic categories of hardware. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- kernel input/output services ::@:: I/O scheduling, buffering, caching, spooling, device reservation and error handling. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ### programmed I/O and direct memory access
 
@@ -99,6 +99,6 @@ Moving data between a device and main memory is either done by the CPU itself, i
 
 Flashcards for this section are as follows:
 
-- programmed I/O ::@:: The CPU itself performs the work of moving data between a device and main memory; the synchronous style of transfer.
-- direct memory access ::@:: The work of moving data between a device and main memory is offloaded to a DMA controller; the asynchronous style of transfer.
-- synchronous versus asynchronous transfer ::@:: Programmed I/O is synchronous because the CPU performs the transfer, whereas direct memory access is asynchronous because it is offloaded to a DMA controller.
+- programmed I/O ::@:: The CPU itself performs the work of moving data between a device and main memory; the synchronous style of transfer. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- direct memory access ::@:: The work of moving data between a device and main memory is offloaded to a DMA controller; the asynchronous style of transfer. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- synchronous versus asynchronous transfer ::@:: Programmed I/O is synchronous because the CPU performs the transfer, whereas direct memory access is asynchronous because it is offloaded to a DMA controller. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->

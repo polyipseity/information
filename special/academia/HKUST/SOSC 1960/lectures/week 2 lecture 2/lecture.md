@@ -18,7 +18,7 @@ Each section pairs a prompt with the class's answers to it, recorded in aggregat
 
 Flashcards for this section are as follows:
 
-- overview ::@:: The class's answers, in aggregate: which databases it searches, how it read one study, and how it rewrote one published finding.
+- overview ::@:: The class's answers, in aggregate: which databases it searches, how it read one study, and how it rewrote one published finding. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## literature search
 
@@ -32,10 +32,10 @@ Google Scholar came up far more often than anything else. The other tools were H
 
 Flashcards for this section are as follows:
 
-- databases the class's answers named ::@:: Google Scholar far more often than anything else, then APA PsycInfo, EBSCO, PubMed, Scopus, ProQuest, JSTOR, IEEE Xplore, ScienceDirect, and arXiv.
-- other tools the class's answers named ::@:: HKUST PowerSearch, Bloomberg, Zotero, Mendeley, the library's databases and its LSK library, and Canvas.
-- AI tool the class's answers named ::@:: Perplexity.
-- answer that named something other than a literature database ::@:: A government procurement bidding site.
+- databases the class's answers named ::@:: Google Scholar far more often than anything else, then APA PsycInfo, EBSCO, PubMed, Scopus, ProQuest, JSTOR, IEEE Xplore, ScienceDirect, and arXiv. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- other tools the class's answers named ::@:: HKUST PowerSearch, Bloomberg, Zotero, Mendeley, the library's databases and its LSK library, and Canvas. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- AI tool the class's answers named ::@:: Perplexity. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- answer that named something other than a literature database ::@:: A government procurement bidding site. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## reading a study for a question
 
@@ -47,14 +47,14 @@ The question came with a study of an animatronic pet program. Most answers resta
 
 Flashcards for this section are as follows:
 
-- keywords the pet question reduces to ::@:: pets, elderly, and lonely.
-- finding the class's answers restated ::@:: Animatronic pets reduce loneliness and improve well-being, mental wellness, resilience, and sense of purpose.
-- how the study's feasibility was tested ::@:: With survey data gathered before and after the intervention.
-- why the animatronic pets are easier to care for ::@:: They leave out most of the drawbacks of pet ownership.
-- dog owners over 65 without a partner ::@:: Significantly less social isolation than among non-owners.
-- correlation between pets owned and loneliness ::@:: Negative: the more pets, the less loneliness.
-- doubt one answer raised about the program ::@:: Whether an elderly person can look after both themselves and a pet.
-- what one answer said is still needed ::@:: Randomized trials, before the evidence becomes definitive.
+- keywords the pet question reduces to ::@:: pets, elderly, and lonely. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- finding the class's answers restated ::@:: Animatronic pets reduce loneliness and improve well-being, mental wellness, resilience, and sense of purpose. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- how the study's feasibility was tested ::@:: With survey data gathered before and after the intervention. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- why the animatronic pets are easier to care for ::@:: They leave out most of the drawbacks of pet ownership. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- dog owners over 65 without a partner ::@:: Significantly less social isolation than among non-owners. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- correlation between pets owned and loneliness ::@:: Negative: the more pets, the less loneliness. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- doubt one answer raised about the program ::@:: Whether an elderly person can look after both themselves and a pet. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what one answer said is still needed ::@:: Randomized trials, before the evidence becomes definitive. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## paraphrasing a finding
 
@@ -66,6 +66,6 @@ Most rewrites kept the writer's own framing and named the authors. A few kept th
 
 Flashcards for this section are as follows:
 
-- a paraphrase of the cellphone finding ::@:: Momentary phone distraction while spending time with a partner lowers that partner's satisfaction with the relationship and can lead to depression and lower well-being (Baylor University, 2015).
-- what keeps a rewrite a paraphrase ::@:: The wording is the writer's own, the claim still concerns the same thing, and the authors and the year are given.
-- ways a rewrite stops being a paraphrase ::@:: Keeping the source's wording with the citation attached, or changing the claim's scope or its date.
+- a paraphrase of the cellphone finding ::@:: Momentary phone distraction while spending time with a partner lowers that partner's satisfaction with the relationship and can lead to depression and lower well-being (Baylor University, 2015). <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what keeps a rewrite a paraphrase ::@:: The wording is the writer's own, the claim still concerns the same thing, and the authors and the year are given. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- ways a rewrite stops being a paraphrase ::@:: Keeping the source's wording with the citation attached, or changing the claim's scope or its date. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->

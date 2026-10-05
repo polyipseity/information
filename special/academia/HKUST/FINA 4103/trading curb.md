@@ -16,8 +16,8 @@ A _trading curb_, also called a circuit breaker, halts trading when the market b
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A halt in trading when the market becomes extremely volatile, whether from significant news or from a severe order imbalance.
-- second name for a trading curb ::@:: A circuit breaker.
+- overview ::@:: A halt in trading when the market becomes extremely volatile, whether from significant news or from a severe order imbalance. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- second name for a trading curb ::@:: A circuit breaker. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## halting and reopening
 
@@ -27,8 +27,8 @@ An exchange publishes the details of an interruption before trading resumes: the
 
 Flashcards for this section are as follows:
 
-- what is published before a halted market reopens ::@:: The reopening time, the indicative price, and the order imbalance.
-- sequence from a halt to normal trading ::@:: The reopening time and indicative information are published, an auction runs, and then normal trading reopens.
+- what is published before a halted market reopens ::@:: The reopening time, the indicative price, and the order imbalance. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- sequence from a halt to normal trading ::@:: The reopening time and indicative information are published, an auction runs, and then normal trading reopens. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## effects of halts
 
@@ -42,10 +42,10 @@ Volatility behaves the same way. Plotted on a logarithmic scale it climbs into t
 
 Flashcards for this section are as follows:
 
-- finding of Chen et al. (2024, Journal of Finance), "The Dark Side of Circuit Breakers" ::@:: A trading halt makes the market more volatile and more fragile.
-- what happens to trading while a halt's call auction runs ::@:: Average trades per share per minute fall to nearly zero for hybrid investment banks, high-frequency traders, and other algorithmic firms alike.
-- hybrid investment bank trading around a halt ::@:: About 85 trades per share per minute before the halt, nearly zero through the call auction, and about 133 just after it.
-- high-frequency trading around a halt ::@:: About 29 trades per share per minute before the halt, nearly zero through the call auction, and about 34 just after it.
-- other algorithmic trading around a halt ::@:: About 4 trades per share per minute before the halt, nearly zero through the call auction, and about 13 just after it.
-- ranking of the three groups by trades per share per minute ::@:: Hybrid investment banks first, high-frequency traders second, other algorithmic firms last, at every point around the halt.
-- what volatility does around a halt ::@:: It climbs into the halt, collapses to near zero through the call auction, spikes to about 0.0053 on the London Stock Exchange and 0.0031 on multilateral trading facilities just after it, then decays.
+- finding of Chen et al. (2024, Journal of Finance), "The Dark Side of Circuit Breakers" ::@:: A trading halt makes the market more volatile and more fragile. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what happens to trading while a halt's call auction runs ::@:: Average trades per share per minute fall to nearly zero for hybrid investment banks, high-frequency traders, and other algorithmic firms alike. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- hybrid investment bank trading around a halt ::@:: About 85 trades per share per minute before the halt, nearly zero through the call auction, and about 133 just after it. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- high-frequency trading around a halt ::@:: About 29 trades per share per minute before the halt, nearly zero through the call auction, and about 34 just after it. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- other algorithmic trading around a halt ::@:: About 4 trades per share per minute before the halt, nearly zero through the call auction, and about 13 just after it. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- ranking of the three groups by trades per share per minute ::@:: Hybrid investment banks first, high-frequency traders second, other algorithmic firms last, at every point around the halt. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what volatility does around a halt ::@:: It climbs into the halt, collapses to near zero through the call auction, spikes to about 0.0053 on the London Stock Exchange and 0.0031 on multilateral trading facilities just after it, then decays. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->

@@ -14,9 +14,9 @@ Psychology differs from the natural sciences such as chemistry in that its resea
 
 Flashcards for this section are as follows:
 
-- why psychology needs a code of ethics ::@:: Its researchers conduct studies with human participants, who have to be guarded against potential psychological harm.
-- why an interesting study can still be inadvisable ::@:: It may expose participants to psychological harm, as ridiculing them would.
-- what the "teacher" was asked to do in the Milgram experiment ::@:: Deliver a supposedly painful electric shock to the "learner".
+- why psychology needs a code of ethics ::@:: Its researchers conduct studies with human participants, who have to be guarded against potential psychological harm. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- why an interesting study can still be inadvisable ::@:: It may expose participants to psychological harm, as ridiculing them would. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what the "teacher" was asked to do in the Milgram experiment ::@:: Deliver a supposedly painful electric shock to the "learner". <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## ethical guidelines
 
@@ -28,15 +28,15 @@ Researchers should also weigh the benefits of their proposed research against th
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A code of ethics sets out how human participants must be treated in psychological research.
-- what ethics are in research ::@:: Professional guidelines for decisions that protect participants from harm, avoid conflicts of interest, and keep the research's integrity.
-- what informed consent requires ::@:: People know they are involved in research and what will happen to them, and are free to choose whether to take part.
-- what confidentiality requires ::@:: Information about an individual participant is not made public without that individual's consent.
-- what the privacy guideline forbids ::@:: Making observations of people in private places such as their bedrooms without their knowledge and consent.
-- before seeking confidential information from others, what privacy requires ::@:: The consent of the participant or their guardian.
-- how the benefits guideline weighs risk ::@:: Participants are exposed to risk only if they fully understand the risks and the likely benefits clearly outweigh them.
-- why researchers deceive participants ::@:: To hide the true nature of the study, typically so that participants do not modify their behavior in unnatural ways.
-- what researchers must do after deceiving participants ::@:: Debrief them, educating them about the study's true nature.
+- overview ::@:: A code of ethics sets out how human participants must be treated in psychological research. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what ethics are in research ::@:: Professional guidelines for decisions that protect participants from harm, avoid conflicts of interest, and keep the research's integrity. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what informed consent requires ::@:: People know they are involved in research and what will happen to them, and are free to choose whether to take part. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what confidentiality requires ::@:: Information about an individual participant is not made public without that individual's consent. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what the privacy guideline forbids ::@:: Making observations of people in private places such as their bedrooms without their knowledge and consent. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- before seeking confidential information from others, what privacy requires ::@:: The consent of the participant or their guardian. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- how the benefits guideline weighs risk ::@:: Participants are exposed to risk only if they fully understand the risks and the likely benefits clearly outweigh them. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- why researchers deceive participants ::@:: To hide the true nature of the study, typically so that participants do not modify their behavior in unnatural ways. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what researchers must do after deceiving participants ::@:: Debrief them, educating them about the study's true nature. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## references
 

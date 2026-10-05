@@ -15,8 +15,8 @@ A _conservation law_ states that some measurable property of an isolated physica
 
 Flashcards for this section are as follows:
 
-- definition ::@:: A statement that a measurable property of an isolated physical system does not change as the system evolves.
-- the four conserved quantities and the condition each conservation needs ::@:: Energy in all its forms and electric charge, both in all interactions; linear momentum, when there are no external forces; and angular momentum, when there is no external torque.
+- definition ::@:: A statement that a measurable property of an isolated physical system does not change as the system evolves. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the four conserved quantities and the condition each conservation needs ::@:: Energy in all its forms and electric charge, both in all interactions; linear momentum, when there are no external forces; and angular momentum, when there is no external torque. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## invariances behind the laws
 
@@ -26,10 +26,10 @@ Each conservation law comes with an invariance: a way in which the laws of physi
 
 Flashcards for this section are as follows:
 
-- energy conservation: the invariance behind it ::@:: Time invariance; the laws of physics are the same at every time.
-- linear momentum conservation: the invariance behind it ::@:: Space invariance; the laws of physics are the same at every place.
-- angular momentum conservation: the invariance behind it ::@:: Rotation invariance; the laws of physics are the same in every direction.
-- charge conservation: the invariance behind it ::@:: Gauge invariance.
+- energy conservation: the invariance behind it ::@:: Time invariance; the laws of physics are the same at every time. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- linear momentum conservation: the invariance behind it ::@:: Space invariance; the laws of physics are the same at every place. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- angular momentum conservation: the invariance behind it ::@:: Rotation invariance; the laws of physics are the same in every direction. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- charge conservation: the invariance behind it ::@:: Gauge invariance. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## status of the laws
 
@@ -39,4 +39,4 @@ The conservation laws cannot be proven. Physicists accept them as correct and us
 
 Flashcards for this section are as follows:
 
-- the proof status of the conservation laws, and what physicists do instead ::@:: They cannot be proven; physicists accept them as correct and use them as a foundation for explaining nature.
+- the proof status of the conservation laws, and what physicists do instead ::@:: They cannot be proven; physicists accept them as correct and use them as a foundation for explaining nature. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->

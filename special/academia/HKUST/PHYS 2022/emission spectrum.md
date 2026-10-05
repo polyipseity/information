@@ -18,10 +18,10 @@ The lines sit at fixed wavelengths, so measuring them gives the composition of w
 
 Flashcards for this section are as follows:
 
-- overview: what an emission spectrum is ::@:: The set of wavelengths a substance emits as its own light when it is excited, not light reflected from it.
-- why the colour of a burning substance is a property of the element ::@:: Burning excites its atoms, and the light they give off is fixed by the element: a lithium salt burns crimson, a barium salt yellow-green, and neither colour changes with the temperature of the flame or with what else is dissolved in it.
-- what a line spectrum reveals about a substance of unknown composition ::@:: What it is made of, because the lines sit at the wavelengths of the elements present.
-- how the spectrum of an excited gas differs from that of a hot solid ::@:: An excited gas gives separated lines, while a hot solid or cavity gives a smooth continuous spectrum with a single peak whose position its temperature sets.
+- overview: what an emission spectrum is ::@:: The set of wavelengths a substance emits as its own light when it is excited, not light reflected from it. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- why the colour of a burning substance is a property of the element ::@:: Burning excites its atoms, and the light they give off is fixed by the element: a lithium salt burns crimson, a barium salt yellow-green, and neither colour changes with the temperature of the flame or with what else is dissolved in it. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what a line spectrum reveals about a substance of unknown composition ::@:: What it is made of, because the lines sit at the wavelengths of the elements present. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- how the spectrum of an excited gas differs from that of a hot solid ::@:: An excited gas gives separated lines, while a hot solid or cavity gives a smooth continuous spectrum with a single peak whose position its temperature sets. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## flame colours and the spectrometer
 
@@ -35,15 +35,15 @@ A spectrometer turns a colour into a list. Light from the flame is collimated in
 
 Flashcards for this section are as follows:
 
-- overview: what a material does to a flame colour ::@:: From the middle of the 18th century, chemists found that each material burnt in a flame gave it a colour of its own.
-- Kirchhoff and Bunsen, and what they did with those colours ::@:: Gustav Kirchhoff (1824-1887) and Robert Bunsen (1811-1899) made the colours quantitative by analysing them in a spectrometer instead of looking at them.
-- what a flame colour showed before it could be separated into its parts ::@:: Only that a substance was there, not which one.
-- the five elements the standard flame test names ::@:: Lithium, potassium, iron, barium, and strontium.
-- the flame colour of potassium ::@:: A pale lilac.
-- the flame colour of barium ::@:: Yellow-green.
-- the flame colours of lithium and strontium ::@:: Both crimson, which is why the naked eye alone cannot tell the two apart.
-- the flame colour of iron ::@:: Orange.
-- what the spectrometer does to the light from a flame ::@:: It collimates the light into a beam, spreads it by wavelength, and turns a colour into a set of measured positions, each of which converts to a wavelength.
+- overview: what a material does to a flame colour ::@:: From the middle of the 18th century, chemists found that each material burnt in a flame gave it a colour of its own. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- Kirchhoff and Bunsen, and what they did with those colours ::@:: Gustav Kirchhoff (1824-1887) and Robert Bunsen (1811-1899) made the colours quantitative by analysing them in a spectrometer instead of looking at them. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what a flame colour showed before it could be separated into its parts ::@:: Only that a substance was there, not which one. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the five elements the standard flame test names ::@:: Lithium, potassium, iron, barium, and strontium. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the flame colour of potassium ::@:: A pale lilac. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the flame colour of barium ::@:: Yellow-green. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the flame colours of lithium and strontium ::@:: Both crimson, which is why the naked eye alone cannot tell the two apart. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the flame colour of iron ::@:: Orange. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what the spectrometer does to the light from a flame ::@:: It collimates the light into a beam, spreads it by wavelength, and turns a colour into a set of measured positions, each of which converts to a wavelength. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## how a grating separates the lines
 
@@ -57,14 +57,14 @@ Four emission spectra recorded on the same instrument differ in the number of li
 
 Flashcards for this section are as follows:
 
-- overview: how a grating of ruling spacing $d$ separates light of wavelength $\lambda$ into angles $\theta$ ::@:: Collimated light falls on a grating ruled with thousands of lines per centimetre, and each wavelength leaves at its own angle through $d\sin\theta = n\lambda$, $n$ an integer.
-- the grating equation: what $d$, $n$, and $\theta$ are ::@:: $d\sin\theta = n\lambda$, where $d$ is the distance between neighbouring rulings and $n$ is an integer.
-- the number of rulings a grating carries per centimetre ::@:: Thousands, and their spacing $d$ sets the angle at which each wavelength leaves. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- how the diffraction angle changes as the wavelength grows ::@:: Since $d\sin\theta = n\lambda$ at fixed $d$ and $n$, a longer wavelength leaves at a larger angle, so the colours spread out in order of wavelength. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- the emission spectrum with the fewest lines of the four compared ::@:: Hydrogen, with four lines across the visible.
-- the emission spectrum with the most lines of the four compared ::@:: Iron, whose lines are dense enough to read as a band.
-- why iron has so many lines where hydrogen has four ::@:: Iron has far more electronic transitions available to it, and each can emit, so its spectrum approaches continuity without reaching it.
-- what a line spectrum identifies an element by ::@:: The set of wavelengths it emits, not the colour a person sees in a flame.
+- overview: how a grating of ruling spacing $d$ separates light of wavelength $\lambda$ into angles $\theta$ ::@:: Collimated light falls on a grating ruled with thousands of lines per centimetre, and each wavelength leaves at its own angle through $d\sin\theta = n\lambda$, $n$ an integer. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the grating equation: what $d$, $n$, and $\theta$ are ::@:: $d\sin\theta = n\lambda$, where $d$ is the distance between neighbouring rulings and $n$ is an integer. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the number of rulings a grating carries per centimetre ::@:: Thousands, and their spacing $d$ sets the angle at which each wavelength leaves. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- how the diffraction angle changes as the wavelength grows ::@:: Since $d\sin\theta = n\lambda$ at fixed $d$ and $n$, a longer wavelength leaves at a larger angle, so the colours spread out in order of wavelength. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the emission spectrum with the fewest lines of the four compared ::@:: Hydrogen, with four lines across the visible. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the emission spectrum with the most lines of the four compared ::@:: Iron, whose lines are dense enough to read as a band. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- why iron has so many lines where hydrogen has four ::@:: Iron has far more electronic transitions available to it, and each can emit, so its spectrum approaches continuity without reaching it. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what a line spectrum identifies an element by ::@:: The set of wavelengths it emits, not the colour a person sees in a flame. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## why the lines are discrete
 
@@ -80,15 +80,15 @@ Each element has its own allowed levels, so each has its own set of differences 
 
 Flashcards for this section are as follows:
 
-- overview: why an excited gas emits separated lines rather than a continuous spread ::@:: Its electron can only occupy certain allowed energies, and each drop between two of them emits one photon carrying the difference, so only particular wavelengths can come out.
-- the energy of the photon emitted in a drop from $E_1$ to $E_0$ ::@:: $E_1 - E_0 = hf$, the gap between the two levels.
-- what the dark gaps between the lines of a line spectrum represent ::@:: Wavelengths that no allowed transition of the atom can produce.
-- what the classical account of a glowing gas predicts, and where it fails ::@:: That accelerating charges radiate a continuous spread of frequencies, giving a smooth colour, which contradicts the separated lines and dark gaps that are observed; a photon leaves on a transition between two states rather than as a wave radiating off a vibrating atom.
-- why two elements emit different lines ::@:: Their allowed energy levels differ, so the set of differences between levels, and with it the set of photon wavelengths, differs too.
-- when can two elements emit a line at the same wavelength ::@:: When a difference between two allowed levels of one coincides with a difference between two of the other, an accident rather than a rule.
-- the clearest case of separated lines, and the reason ::@:: Hydrogen, whose four visible lines are the ones the Balmer series writes a formula for.
-- ![hydrogen energy levels: a ladder of horizontal levels from n=1 upward, with the Lyman, Balmer and Paschen series marked and series-limit arrows labelled 3.4, 1.9 and 1.1 micrometres, beside the visible spectrum band and a black-body curve](attachments/Hydrogen%20energy%20levels.svg) ::@:: A ladder of horizontal energy levels for hydrogen starting at $n=1$ near the nucleus and climbing, the Lyman, Balmer and Paschen series picked out on the left with arrows dropping to $n=1$, $n=2$ and $n=3$, series limits marked at $3.4$, $1.9$ and $1.1\ \mu\text{m}$, and the visible band with a black-body curve on the right. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- the level diagram: why a series of lines ends at a short-wavelength limit ::@:: The levels crowd together as they climb, so the energy differences between neighbours shrink, and the wavelengths they produce approach a limit from above.
+- overview: why an excited gas emits separated lines rather than a continuous spread ::@:: Its electron can only occupy certain allowed energies, and each drop between two of them emits one photon carrying the difference, so only particular wavelengths can come out. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the energy of the photon emitted in a drop from $E_1$ to $E_0$ ::@:: $E_1 - E_0 = hf$, the gap between the two levels. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what the dark gaps between the lines of a line spectrum represent ::@:: Wavelengths that no allowed transition of the atom can produce. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what the classical account of a glowing gas predicts, and where it fails ::@:: That accelerating charges radiate a continuous spread of frequencies, giving a smooth colour, which contradicts the separated lines and dark gaps that are observed; a photon leaves on a transition between two states rather than as a wave radiating off a vibrating atom. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- why two elements emit different lines ::@:: Their allowed energy levels differ, so the set of differences between levels, and with it the set of photon wavelengths, differs too. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- when can two elements emit a line at the same wavelength ::@:: When a difference between two allowed levels of one coincides with a difference between two of the other, an accident rather than a rule. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the clearest case of separated lines, and the reason ::@:: Hydrogen, whose four visible lines are the ones the Balmer series writes a formula for. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- ![hydrogen energy levels: a ladder of horizontal levels from n=1 upward, with the Lyman, Balmer and Paschen series marked and series-limit arrows labelled 3.4, 1.9 and 1.1 micrometres, beside the visible spectrum band and a black-body curve](attachments/Hydrogen%20energy%20levels.svg) ::@:: A ladder of horizontal energy levels for hydrogen starting at $n=1$ near the nucleus and climbing, the Lyman, Balmer and Paschen series picked out on the left with arrows dropping to $n=1$, $n=2$ and $n=3$, series limits marked at $3.4$, $1.9$ and $1.1\ \mu\text{m}$, and the visible band with a black-body curve on the right. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the level diagram: why a series of lines ends at a short-wavelength limit ::@:: The levels crowd together as they climb, so the energy differences between neighbours shrink, and the wavelengths they produce approach a limit from above. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## lines as a fingerprint
 
@@ -102,11 +102,11 @@ A spectrum records only what the detector responded to. This detector is blind a
 
 Flashcards for this section are as follows:
 
-- overview: what a line spectrum lets a spectroscopist do ::@:: Identify the composition of a source that is too remote to be sampled.
-- the evidence for atoms before the spectroscope ::@:: Indirect behaviour such as diffusion, the way a gas expands, and the way a solid dissolves.
-- the galaxy whose spectrum was taken behind SMACS 0723, and how old its light is ::@:: The galaxy behind the cluster, whose light left it 13.1 billion years ago.
-- the instrument that took that spectrum over roughly $3.3$ to $4.9\ \mu\text{m}$ ::@:: A microshutter array spectrometer.
-- the elements identified in the lines of that spectrum ::@:: Oxygen, hydrogen, and neon.
-- the detector gap in that spectrum, and where it sits ::@:: Near $4.3\ \mu\text{m}$, a range over which the detector records nothing. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- why the absence of a line in a measured spectrum has to be read carefully ::@:: A line falling inside a detector gap would be invisible, so absence shows only what the instrument could see.
-- why a line spectrum carried more weight than the earlier indirect evidence for atoms ::@:: Its lines are fixed to particular wavelengths, so the case rested on measurements rather than on behaviour a rival account could also explain.
+- overview: what a line spectrum lets a spectroscopist do ::@:: Identify the composition of a source that is too remote to be sampled. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the evidence for atoms before the spectroscope ::@:: Indirect behaviour such as diffusion, the way a gas expands, and the way a solid dissolves. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the galaxy whose spectrum was taken behind SMACS 0723, and how old its light is ::@:: The galaxy behind the cluster, whose light left it 13.1 billion years ago. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the instrument that took that spectrum over roughly $3.3$ to $4.9\ \mu\text{m}$ ::@:: A microshutter array spectrometer. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the elements identified in the lines of that spectrum ::@:: Oxygen, hydrogen, and neon. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the detector gap in that spectrum, and where it sits ::@:: Near $4.3\ \mu\text{m}$, a range over which the detector records nothing. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- why the absence of a line in a measured spectrum has to be read carefully ::@:: A line falling inside a detector gap would be invisible, so absence shows only what the instrument could see. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- why a line spectrum carried more weight than the earlier indirect evidence for atoms ::@:: Its lines are fixed to particular wavelengths, so the case rested on measurements rather than on behaviour a rival account could also explain. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->

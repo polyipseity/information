@@ -20,9 +20,9 @@ A complete answer states the answer, the evidence behind it, and the warrant tha
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A complete answer gives the answer, the evidence for it, and a warrant connecting the evidence to the answer.
-- why is a bare yes or no a poor answer? ::@:: It gives neither evidence nor warrant.
-- why does the answer come first? ::@:: A reader who stops after the first sentence still has the response.
+- overview ::@:: A complete answer gives the answer, the evidence for it, and a warrant connecting the evidence to the answer. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- why is a bare yes or no a poor answer? ::@:: It gives neither evidence nor warrant. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- why does the answer come first? ::@:: A reader who stops after the first sentence still has the response. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## the three parts
 
@@ -32,10 +32,10 @@ The answer is the specific response to the question. The evidence supports the a
 
 Flashcards for this section are as follows:
 
-- what does the evidence do? ::@:: Supports the answer, and every claim in it needs its own evidence.
-- what does the warrant do? ::@:: Connects the evidence to the answer, making the evidence relevant.
-- evidence against warrant: what separates the two? ::@:: The evidence is what is being claimed; the warrant says why that claim supports the answer.
-- what form does the answer take? ::@:: Paragraphs or bullet points, as long as the three parts appear.
-- worked answer: are bears mammals? ::@:: Answer: yes, bears are mammals; evidence: bears have fur; warrant: animals with fur or hair are mammals.
-- worked answer: is Hong Kong a great city to live in? ::@:: Answer: yes; evidence: many hiking trails and convenient public transport; warrants: people enjoy cities with outdoor activities, and people save time on their commute.
-- worked answer: what goes wrong if the bears answer stops at the evidence? ::@:: "Bears have fur" alone does not show why bears are mammals; the warrant supplies the missing link.
+- what does the evidence do? ::@:: Supports the answer, and every claim in it needs its own evidence. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what does the warrant do? ::@:: Connects the evidence to the answer, making the evidence relevant. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- evidence against warrant: what separates the two? ::@:: The evidence is what is being claimed; the warrant says why that claim supports the answer. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what form does the answer take? ::@:: Paragraphs or bullet points, as long as the three parts appear. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- worked answer: are bears mammals? ::@:: Answer: yes, bears are mammals; evidence: bears have fur; warrant: animals with fur or hair are mammals. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- worked answer: is Hong Kong a great city to live in? ::@:: Answer: yes; evidence: many hiking trails and convenient public transport; warrants: people enjoy cities with outdoor activities, and people save time on their commute. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- worked answer: what goes wrong if the bears answer stops at the evidence? ::@:: "Bears have fur" alone does not show why bears are mammals; the warrant supplies the missing link. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->

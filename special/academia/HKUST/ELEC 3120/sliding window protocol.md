@@ -19,10 +19,10 @@ A sliding window protocol lets a sender keep several segments in flight instead 
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A sliding window protocol lets a sender keep several unacknowledged segments in flight: it sends every segment inside a window and slides the window forward as acknowledgements arrive.
-- how it differs from stop-and-wait: what does a sliding window protocol do that stop-and-wait does not? ::@:: It keeps more than one segment outstanding.
-- window of one segment: which protocol is it when the window holds one segment? ::@:: Stop-and-wait.
-- what bounds the window: which two values bound the sending window? ::@:: The advertised window and the congestion window.
+- overview ::@:: A sliding window protocol lets a sender keep several unacknowledged segments in flight: it sends every segment inside a window and slides the window forward as acknowledgements arrive. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- how it differs from stop-and-wait: what does a sliding window protocol do that stop-and-wait does not? ::@:: It keeps more than one segment outstanding. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- window of one segment: which protocol is it when the window holds one segment? ::@:: Stop-and-wait. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what bounds the window: which two values bound the sending window? ::@:: The advertised window and the congestion window. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## sequence numbers
 
@@ -32,8 +32,8 @@ Each segment carries a sequence number naming the first byte of the stream it ho
 
 Flashcards for this section are as follows:
 
-- sequence number: what does a segment's sequence number name? ::@:: The first byte of the stream it carries.
-- what the receiver does with it: how does the receiver use a segment's sequence number? ::@:: To place out-of-order segments, to notice a missing byte, and to discard duplicates.
+- sequence number: what does a segment's sequence number name? ::@:: The first byte of the stream it carries. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what the receiver does with it: how does the receiver use a segment's sequence number? ::@:: To place out-of-order segments, to notice a missing byte, and to discard duplicates. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## acknowledgement numbers
 
@@ -43,8 +43,8 @@ The acknowledgement number names the next byte the receiver expects. It is cumul
 
 Flashcards for this section are as follows:
 
-- acknowledgement number: what does a segment's acknowledgement number name? ::@:: The next byte the receiver expects.
-- cumulative acknowledgement: a receiver acknowledges the byte $n$; what does that say about the bytes before $n$? ::@:: That every one of them has arrived.
+- acknowledgement number: what does a segment's acknowledgement number name? ::@:: The next byte the receiver expects. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- cumulative acknowledgement: a receiver acknowledges the byte $n$; what does that say about the bytes before $n$? ::@:: That every one of them has arrived. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## sliding window
 
@@ -54,7 +54,7 @@ The window covers the segments sent but not yet acknowledged; its size bounds ho
 
 Flashcards for this section are as follows:
 
-- what the window covers: which segments lie inside the sending window? ::@:: Those sent but not yet acknowledged.
-- sliding forward: what happens to the window when an acknowledgement arrives? ::@:: Its left edge moves up to the acknowledged byte, leaving room for new segments.
-- transmission rule: which segments is the sender allowed to transmit? ::@:: Only those inside the window.
-- duplicate segment: a repeat of already-acknowledged bytes arrives; what does the receiver do? ::@:: Discards it as a duplicate, since it lies below the window.
+- what the window covers: which segments lie inside the sending window? ::@:: Those sent but not yet acknowledged. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- sliding forward: what happens to the window when an acknowledgement arrives? ::@:: Its left edge moves up to the acknowledged byte, leaving room for new segments. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- transmission rule: which segments is the sender allowed to transmit? ::@:: Only those inside the window. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- duplicate segment: a repeat of already-acknowledged bytes arrives; what does the receiver do? ::@:: Discards it as a duplicate, since it lies below the window. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->

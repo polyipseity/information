@@ -16,8 +16,8 @@ A system call is the programmatic interface through which a running program requ
 
 Flashcards for this section are as follows:
 
-- overview ::@:: The programmatic interface through which a running program requests a service from the operating system kernel, moving between user mode and kernel mode.
-- user mode versus kernel mode ::@:: User mode restricts a program to non-privileged instructions; kernel mode grants full access to hardware and system resources. A system call is the mechanism that transitions between the two.
+- overview ::@:: The programmatic interface through which a running program requests a service from the operating system kernel, moving between user mode and kernel mode. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- user mode versus kernel mode ::@:: User mode restricts a program to non-privileged instructions; kernel mode grants full access to hardware and system resources. A system call is the mechanism that transitions between the two. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## API (Application Program Interface) <!-- check: ignore-line[header_style]: API is an acronym -->
 
@@ -33,12 +33,12 @@ A C program calling `printf("Greetings")` illustrates the full chain: the librar
 
 Flashcards for this section are as follows:
 
-- API versus direct system calls ::@:: An API specifies functions that application programmers use, including parameters and return values; API functions then invoke the actual system call on the programmer's behalf.
-- three common APIs ::@:: Win32 (Windows), POSIX (UNIX, Linux, Mac OS X), and Java API (Java virtual machine).
-- advantage of APIs: portability ::@:: A program using an API compiles and runs on any system supporting that API, even though the underlying system call implementations vary across machines.
-- advantage of APIs: abstraction ::@:: The caller need not know how the system call is implemented; it need only obey the API format and understand the expected result.
-- `cp` involves multiple system calls ::@:: `cp in.txt out.txt` requires a sequence: open source, read, open destination, write, close both.
-- `read()` POSIX parameters ::@:: `int fd` (file descriptor), `void *buf` (buffer), `size_t count` (max bytes); returns `0` for EOF, `-1` for error.
+- API versus direct system calls ::@:: An API specifies functions that application programmers use, including parameters and return values; API functions then invoke the actual system call on the programmer's behalf. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-02T00:10:00.000Z,0,2.3065,2.11810397,1,1,0,1,2026-11-02T00:00:00.000Z-->
+- three common APIs ::@:: Win32 (Windows), POSIX (UNIX, Linux, Mac OS X), and Java API (Java virtual machine). <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- advantage of APIs: portability ::@:: A program using an API compiles and runs on any system supporting that API, even though the underlying system call implementations vary across machines. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- advantage of APIs: abstraction ::@:: The caller need not know how the system call is implemented; it need only obey the API format and understand the expected result. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- `cp` involves multiple system calls ::@:: `cp in.txt out.txt` requires a sequence: open source, read, open destination, write, close both. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- `read()` POSIX parameters ::@:: `int fd` (file descriptor), `void *buf` (buffer), `size_t count` (max bytes); returns `0` for EOF, `-1` for error. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## implementation
 
@@ -50,8 +50,8 @@ When a program calls an API function, the system call interface intercepts it, i
 
 Flashcards for this section are as follows:
 
-- system call interface ::@:: The component of the run-time environment that intercepts API function calls, maps each to a numbered system call, invokes it in the kernel, and returns the status and any values to the caller.
-- system call number ::@:: An identity number associated with each system call, used to index into a table that routes the call to its kernel implementation.
+- system call interface ::@:: The component of the run-time environment that intercepts API function calls, maps each to a numbered system call, invokes it in the kernel, and returns the status and any values to the caller. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- system call number ::@:: An identity number associated with each system call, used to index into a table that routes the call to its kernel implementation. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## parameter passing
 
@@ -63,9 +63,9 @@ The simplest passes parameters in registers, though this is limited by register 
 
 Flashcards for this section are as follows:
 
-- parameter passing: register method ::@:: Parameters are passed directly in CPU registers; the simplest method but limited by the number of available registers.
-- parameter passing: block method ::@:: Parameters are stored in a block or table in memory, and the address of that block is passed in a register.
-- parameter passing: stack method ::@:: Parameters are pushed onto the stack by the calling program and popped off by the operating system, with no limit on the number or length of parameters.
+- parameter passing: register method ::@:: Parameters are passed directly in CPU registers; the simplest method but limited by the number of available registers. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- parameter passing: block method ::@:: Parameters are stored in a block or table in memory, and the address of that block is passed in a register. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- parameter passing: stack method ::@:: Parameters are pushed onto the stack by the calling program and popped off by the operating system, with no limit on the number or length of parameters. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## types
 
@@ -98,9 +98,9 @@ The following table compares equivalent system calls across Windows and UNIX:
 
 Flashcards for this section are as follows:
 
-- six categories of system calls ::@:: Process control, file management, device management, information maintenance, communications, and protection.
-- process control system calls ::@:: Create and terminate processes, load and execute programs, get and set attributes, wait and signal events, allocate and free memory, and manage shared data locks.
-- file management system calls ::@:: Create, delete, open, close, read, write, reposition files, and get and set file attributes.
-- communications system calls ::@:: Create and delete connections, send and receive messages (message passing) or create shared memory regions, transfer status, and attach remote devices.
-- protection system calls ::@:: Control access to resources, get and set permissions, and allow or deny user access.
-- Windows versus UNIX process creation ::@:: Windows uses `CreateProcess()` as a single call; UNIX uses `fork()` to create a copy of the calling process, then `exec()` to load a new program into it.
+- six categories of system calls ::@:: Process control, file management, device management, information maintenance, communications, and protection. <!--SR:!fsrs,2026-11-02T00:10:00.000Z,0,2.3065,2.11810397,1,1,0,1,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- process control system calls ::@:: Create and terminate processes, load and execute programs, get and set attributes, wait and signal events, allocate and free memory, and manage shared data locks. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- file management system calls ::@:: Create, delete, open, close, read, write, reposition files, and get and set file attributes. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- communications system calls ::@:: Create and delete connections, send and receive messages (message passing) or create shared memory regions, transfer status, and attach remote devices. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- protection system calls ::@:: Control access to resources, get and set permissions, and allow or deny user access. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- Windows versus UNIX process creation ::@:: Windows uses `CreateProcess()` as a single call; UNIX uses `fork()` to create a copy of the calling process, then `exec()` to load a new program into it. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->

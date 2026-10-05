@@ -20,8 +20,8 @@ The Mathis equation predicts the throughput a TCP Reno connection settles into w
 
 Flashcards for this section are as follows:
 
-- overview ::@:: The Mathis equation predicts the throughput of a TCP Reno connection from the segment size, the round-trip time, and the loss probability.
-- why the square root matters: what does the $1/\sqrt{p}$ term say about the cost of a lossy path? ::@:: That throughput falls only with the square root of the loss probability.
+- overview ::@:: The Mathis equation predicts the throughput of a TCP Reno connection from the segment size, the round-trip time, and the loss probability. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- why the square root matters: what does the $1/\sqrt{p}$ term say about the cost of a lossy path? ::@:: That throughput falls only with the square root of the loss probability. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## the equation and its terms
 
@@ -31,12 +31,12 @@ The equation reads $$\text{throughput} = \frac{MSS}{RTT} \cdot \frac{C}{\sqrt{p}
 
 Flashcards for this section are as follows:
 
-- the equation relating throughput to $MSS$, $RTT$, $C$, and $p$ ::@:: $\text{throughput} = (MSS/RTT) \cdot (C/\sqrt{p})$.
-- meaning of $p$: what does the loss probability $p$ measure? ::@:: The rate at which segments are lost.
-- the constant $C$: what does its value depend on? ::@:: How the protocol reacts to loss.
-- the other term in the numerator: which quantity sits in the numerator besides $C$? ::@:: The maximum segment size $MSS$.
-- what the path sets: which of $MSS$, $RTT$, and $p$ does the path set? ::@:: The round-trip time $RTT$.
-- steady state: what does treating the loss probability $p$ as a rate assume about the connection? ::@:: That it has settled into congestion avoidance.
+- the equation relating throughput to $MSS$, $RTT$, $C$, and $p$ ::@:: $\text{throughput} = (MSS/RTT) \cdot (C/\sqrt{p})$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- meaning of $p$: what does the loss probability $p$ measure? ::@:: The rate at which segments are lost. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the constant $C$: what does its value depend on? ::@:: How the protocol reacts to loss. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the other term in the numerator: which quantity sits in the numerator besides $C$? ::@:: The maximum segment size $MSS$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what the path sets: which of $MSS$, $RTT$, and $p$ does the path set? ::@:: The round-trip time $RTT$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- steady state: what does treating the loss probability $p$ as a rate assume about the connection? ::@:: That it has settled into congestion avoidance. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## measuring the constant
 
@@ -46,13 +46,13 @@ $C$ can be measured rather than assumed. Holding the segment size and the round-
 
 Flashcards for this section are as follows:
 
-- measurement setup: to measure $C$, what varies, what stays fixed, and what is measured? ::@:: The loss probability varies while the segment size and round-trip time stay fixed, and the throughput is measured for each value.
-- the plot: what is plotted against $1/\sqrt{p}$? ::@:: The measured throughput.
-- the slope: on a plot of throughput against $1/\sqrt{p}$, what does the slope of the fitted line equal? ::@:: $(MSS/RTT) \cdot C$.
-- line fit: why does fitting a line to the points say something about the equation? ::@:: The equation predicts a straight line through the origin, so points that follow it corroborate it.
-- Pearson correlation: what does the Pearson coefficient between throughput and $1/\sqrt{p}$ measure? ::@:: How closely the measured points follow a straight line.
-- repetition: why must each loss probability be measured many times? ::@:: A single run is dominated by where in its congestion cycle the connection happened to be.
-- transfer length: why must each transfer run for several seconds before its throughput counts? ::@:: The connection has to get past slow start, since before that its throughput reflects the growth of the window rather than the loss rate.
+- measurement setup: to measure $C$, what varies, what stays fixed, and what is measured? ::@:: The loss probability varies while the segment size and round-trip time stay fixed, and the throughput is measured for each value. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the plot: what is plotted against $1/\sqrt{p}$? ::@:: The measured throughput. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the slope: on a plot of throughput against $1/\sqrt{p}$, what does the slope of the fitted line equal? ::@:: $(MSS/RTT) \cdot C$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- line fit: why does fitting a line to the points say something about the equation? ::@:: The equation predicts a straight line through the origin, so points that follow it corroborate it. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- Pearson correlation: what does the Pearson coefficient between throughput and $1/\sqrt{p}$ measure? ::@:: How closely the measured points follow a straight line. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- repetition: why must each loss probability be measured many times? ::@:: A single run is dominated by where in its congestion cycle the connection happened to be. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- transfer length: why must each transfer run for several seconds before its throughput counts? ::@:: The connection has to get past slow start, since before that its throughput reflects the growth of the window rather than the loss rate. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## references
 

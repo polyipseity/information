@@ -21,10 +21,10 @@ Voltage alone does not fix the power, because the same potential difference can 
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Electric power is the rate of doing work, equivalently the rate of change of energy, measured in watts or in joules per second.
-- why voltage alone does not fix the power ::@:: Charge can cross the same potential difference at very different rates.
-- sign of $VI$ under the drawn reference direction ::@:: A positive product marks an element consuming energy; a negative product marks one that supplies it.
-- instantaneous against average power ::@:: Power can be read at one instant or averaged over a period, and the average of a periodic product of voltage and current is well defined even when neither factor stays constant.
+- overview ::@:: Electric power is the rate of doing work, equivalently the rate of change of energy, measured in watts or in joules per second. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- why voltage alone does not fix the power ::@:: Charge can cross the same potential difference at very different rates. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- sign of $VI$ under the drawn reference direction ::@:: A positive product marks an element consuming energy; a negative product marks one that supplies it. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- instantaneous against average power ::@:: Power can be read at one instant or averaged over a period, and the average of a periodic product of voltage and current is well defined even when neither factor stays constant. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## instantaneous and average power
 
@@ -38,10 +38,10 @@ A time-varying element needs an average instead of a single value. If $p(t) = v(
 
 Flashcards for this section are as follows:
 
-- overview ::@:: For a two-terminal element with the voltage $v(t)$ across it and the current $i(t)$ through it, the instantaneous power is $p(t) = v(t)\,i(t)$, and the average power over a period $T$ is $P_\text{ave} = \frac{1}{T}\int_0^T v(t)\,i(t)\,dt$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- energy given up by a charge crossing an element: the charge $\Delta q$ crosses from the high-voltage to the low-voltage terminal in the time $\Delta t$ under the voltage $v(t)$ ::@:: It gives up the electric potential energy $\Delta E = v(t)\,\Delta q$, and dividing that energy by the time gives $p(t) = \Delta E/\Delta t = v(t)\,\Delta q/\Delta t = v(t)\,i(t)$.
-- instantaneous power from two readings: $v(3) = 12\text{ V}$ and $i(3) = 4\text{ A}$ at the time $t = 3\text{ s}$ ::@:: $p(3) = v(3)\,i(3) = 12\text{ V}\times4\text{ A} = 48\text{ W}$.
-- average power of a periodic product: the product $p(t) = v(t)\,i(t)$ repeats with the period $T$ ::@:: $P_\text{ave} = \frac{1}{T}\int_0^T p(t)\,dt = \frac{1}{T}\int_0^T v(t)\,i(t)\,dt$.
+- overview ::@:: For a two-terminal element with the voltage $v(t)$ across it and the current $i(t)$ through it, the instantaneous power is $p(t) = v(t)\,i(t)$, and the average power over a period $T$ is $P_\text{ave} = \frac{1}{T}\int_0^T v(t)\,i(t)\,dt$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- energy given up by a charge crossing an element: the charge $\Delta q$ crosses from the high-voltage to the low-voltage terminal in the time $\Delta t$ under the voltage $v(t)$ ::@:: It gives up the electric potential energy $\Delta E = v(t)\,\Delta q$, and dividing that energy by the time gives $p(t) = \Delta E/\Delta t = v(t)\,\Delta q/\Delta t = v(t)\,i(t)$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- instantaneous power from two readings: $v(3) = 12\text{ V}$ and $i(3) = 4\text{ A}$ at the time $t = 3\text{ s}$ ::@:: $p(3) = v(3)\,i(3) = 12\text{ V}\times4\text{ A} = 48\text{ W}$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- average power of a periodic product: the product $p(t) = v(t)\,i(t)$ repeats with the period $T$ ::@:: $P_\text{ave} = \frac{1}{T}\int_0^T p(t)\,dt = \frac{1}{T}\int_0^T v(t)\,i(t)\,dt$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## direct current power
 
@@ -55,13 +55,13 @@ A resistor is drawn with the current arrow entering the terminal marked $+$ and 
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Under direct current conditions, with the voltage $V$ and the current $I$ both constant, the power stays at the constant value $P = VI$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- the watt as a volt-ampere: the voltage $V$ across an element and the current $I$ through it ::@:: $P = VI$, so the units multiply as $1\text{ W} = (1\text{ V})\times(1\text{ A}) = 1\text{ VA}$.
-- power in terms of current and resistance: $P = VI$ with Ohm's law $V = IR$, for the current $I$ and the resistance $R$ ::@:: $P = VI = (IR)I = I^2R$.
-- power in terms of voltage and resistance: $P = VI$ with Ohm's law $I = V/R$, for the voltage $V$ and the resistance $R$ ::@:: $P = V\times(V/R) = V^2/R$.
-- energy consumed, also called the work done: a resistor dissipates the power $P$ for a duration $t$ ::@:: $W = Pt = VIt$, in joules when $P$ is in watts and $t$ is in seconds.
-- fixed current against fixed voltage: the larger resistance $R$ of a pair, first with the two carrying the same current $I$ and then with the same voltage $V$ across each ::@:: At the same current the larger $R$ dissipates more, $P = I^2R$; at the same voltage it dissipates less, $P = V^2/R$.
-- sign of the product: a resistor with the current arrow entering the terminal marked $+$ and leaving the terminal marked $-$, and $V$ across it ::@:: $P = VI$ comes out positive and is the power the resistor absorbs and dissipates.
+- overview ::@:: Under direct current conditions, with the voltage $V$ and the current $I$ both constant, the power stays at the constant value $P = VI$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the watt as a volt-ampere: the voltage $V$ across an element and the current $I$ through it ::@:: $P = VI$, so the units multiply as $1\text{ W} = (1\text{ V})\times(1\text{ A}) = 1\text{ VA}$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- power in terms of current and resistance: $P = VI$ with Ohm's law $V = IR$, for the current $I$ and the resistance $R$ ::@:: $P = VI = (IR)I = I^2R$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- power in terms of voltage and resistance: $P = VI$ with Ohm's law $I = V/R$, for the voltage $V$ and the resistance $R$ ::@:: $P = V\times(V/R) = V^2/R$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- energy consumed, also called the work done: a resistor dissipates the power $P$ for a duration $t$ ::@:: $W = Pt = VIt$, in joules when $P$ is in watts and $t$ is in seconds. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- fixed current against fixed voltage: the larger resistance $R$ of a pair, first with the two carrying the same current $I$ and then with the same voltage $V$ across each ::@:: At the same current the larger $R$ dissipates more, $P = I^2R$; at the same voltage it dissipates less, $P = V^2/R$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- sign of the product: a resistor with the current arrow entering the terminal marked $+$ and leaving the terminal marked $-$, and $V$ across it ::@:: $P = VI$ comes out positive and is the power the resistor absorbs and dissipates. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ### a single resistor across a source
 
@@ -71,9 +71,9 @@ A resistor of $R = 2\ \Omega$ sits across a $4\text{ V}$ source, so the voltage 
 
 Flashcards for this section are as follows:
 
-- a single resistor across a source / power from voltage and resistance: a resistor of $R = 2\ \Omega$ has $V = 4\text{ V}$ across it; compute the power it dissipates from the voltage and the resistance. ::@:: $P = V^2/R = (4\text{ V})^2/2\ \Omega = 16/2 = 8\text{ W}$.
-- a single resistor across a source / cross-check with the current: a $4\text{ V}$ source drives $I = 2\text{ A}$ through a $2\ \Omega$ resistor; check the dissipated power with $P = VI$, and state the resistance the ratio $V/I$ gives. ::@:: $P = VI = 4\text{ V}\times2\text{ A} = 8\text{ W}$, matching $P = V^2/R = 8\text{ W}$, and $V/I = 4\text{ V}/2\text{ A} = 2\ \Omega$.
-- a single resistor across a source / energy over a duration: a resistor dissipates $P = 8\text{ W}$ for $t = 2\text{ s}$; what energy does it consume? ::@:: $W = Pt = 8\text{ W}\times2\text{ s} = 16\text{ J}$.
+- a single resistor across a source / power from voltage and resistance: a resistor of $R = 2\ \Omega$ has $V = 4\text{ V}$ across it; compute the power it dissipates from the voltage and the resistance. ::@:: $P = V^2/R = (4\text{ V})^2/2\ \Omega = 16/2 = 8\text{ W}$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- a single resistor across a source / cross-check with the current: a $4\text{ V}$ source drives $I = 2\text{ A}$ through a $2\ \Omega$ resistor; check the dissipated power with $P = VI$, and state the resistance the ratio $V/I$ gives. ::@:: $P = VI = 4\text{ V}\times2\text{ A} = 8\text{ W}$, matching $P = V^2/R = 8\text{ W}$, and $V/I = 4\text{ V}/2\text{ A} = 2\ \Omega$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- a single resistor across a source / energy over a duration: a resistor dissipates $P = 8\text{ W}$ for $t = 2\text{ s}$; what energy does it consume? ::@:: $W = Pt = 8\text{ W}\times2\text{ s} = 16\text{ J}$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## power rating of a device
 
@@ -83,8 +83,8 @@ A wattage rating is quoted at a stated voltage, and that rating fixes the resist
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A power rating is quoted at a stated voltage, and it fixes the resistance the device presents at that voltage, so a bulb consuming $100\text{ W}$ at $200\text{ V}$ has $R_A = (200\text{ V})^2/100\text{ W} = 400\ \Omega$ and one consuming $400\text{ W}$ at $200\text{ V}$ has $R_B = (200\text{ V})^2/400\text{ W} = 100\ \Omega$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- which rated bulb is brighter alone: bulb A consuming $100\text{ W}$ at $200\text{ V}$ and bulb B consuming $400\text{ W}$ at $200\text{ V}$, each across $200\text{ V}$ on its own ::@:: Bulb B, the $400\text{ W}$ one: at the rated voltage its $R_B = 100\ \Omega$ is the lower resistance, against $R_A = 400\ \Omega$.
+- overview ::@:: A power rating is quoted at a stated voltage, and it fixes the resistance the device presents at that voltage, so a bulb consuming $100\text{ W}$ at $200\text{ V}$ has $R_A = (200\text{ V})^2/100\text{ W} = 400\ \Omega$ and one consuming $400\text{ W}$ at $200\text{ V}$ has $R_B = (200\text{ V})^2/400\text{ W} = 100\ \Omega$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- which rated bulb is brighter alone: bulb A consuming $100\text{ W}$ at $200\text{ V}$ and bulb B consuming $400\text{ W}$ at $200\text{ V}$, each across $200\text{ V}$ on its own ::@:: Bulb B, the $400\text{ W}$ one: at the rated voltage its $R_B = 100\ \Omega$ is the lower resistance, against $R_A = 400\ \Omega$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ### two bulbs rated at the same voltage
 
@@ -94,10 +94,10 @@ In series across the same $200\text{ V}$ supply, the two bulbs share one current
 
 Flashcards for this section are as follows:
 
-- two bulbs rated at the same voltage / series current from $R_A = 400\ \Omega$ and $R_B = 100\ \Omega$ across the $200\text{ V}$ supply ::@:: $R_T = R_A + R_B = 500\ \Omega$, so the shared current is $I = 200\text{ V}/500\ \Omega = 0.4\text{ A}$.
-- two bulbs rated at the same voltage / powers dissipated while the common current $I = 0.4\text{ A}$ flows through $R_A = 400\ \Omega$ and $R_B = 100\ \Omega$ ::@:: $P_A = I^2R_A = 64\text{ W}$ and $P_B = I^2R_B = 16\text{ W}$.
-- two bulbs rated at the same voltage / which of the $100\text{ W}$ and $400\text{ W}$ bulbs is brighter in series across $200\text{ V}$, with brightness proportional to dissipated power ::@:: Bulb A, the $100\text{ W}$ one, dissipating $64\text{ W}$ against bulb B's $16\text{ W}$; across $200\text{ V}$ on its own instead, the $400\text{ W}$ bulb B is the brighter.
-- two bulbs rated at the same voltage / fixed voltage against fixed current for the resistances $R_A = 400\ \Omega$ and $R_B = 100\ \Omega$ ::@:: At the same voltage the smaller $R_B$ takes the larger power; at the same current the larger $R_A$ dissipates more.
+- two bulbs rated at the same voltage / series current from $R_A = 400\ \Omega$ and $R_B = 100\ \Omega$ across the $200\text{ V}$ supply ::@:: $R_T = R_A + R_B = 500\ \Omega$, so the shared current is $I = 200\text{ V}/500\ \Omega = 0.4\text{ A}$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- two bulbs rated at the same voltage / powers dissipated while the common current $I = 0.4\text{ A}$ flows through $R_A = 400\ \Omega$ and $R_B = 100\ \Omega$ ::@:: $P_A = I^2R_A = 64\text{ W}$ and $P_B = I^2R_B = 16\text{ W}$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- two bulbs rated at the same voltage / which of the $100\text{ W}$ and $400\text{ W}$ bulbs is brighter in series across $200\text{ V}$, with brightness proportional to dissipated power ::@:: Bulb A, the $100\text{ W}$ one, dissipating $64\text{ W}$ against bulb B's $16\text{ W}$; across $200\text{ V}$ on its own instead, the $400\text{ W}$ bulb B is the brighter. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- two bulbs rated at the same voltage / fixed voltage against fixed current for the resistances $R_A = 400\ \Omega$ and $R_B = 100\ \Omega$ ::@:: At the same voltage the smaller $R_B$ takes the larger power; at the same current the larger $R_A$ dissipates more. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ### resistance that varies with temperature
 
@@ -107,10 +107,10 @@ A filament bulb heats as it runs, so it does not hold one resistance: its rating
 
 Flashcards for this section are as follows:
 
-- resistance that varies with temperature / cold resistance of a bulb that draws $4\text{ A}$ from a $120\text{ V}$ DC source at start-up ::@:: $R_\text{cold} = 120\text{ V}/4\text{ A} = 30\ \Omega$.
-- resistance that varies with temperature / hot resistance of a bulb that dissipates $60\text{ W}$ in the steady state under the same $120\text{ V}$ source ::@:: $R_\text{hot} = (120\text{ V})^2/60\text{ W} = 240\ \Omega$, eight times the cold value.
-- resistance that varies with temperature / power dissipated at start-up, with $4\text{ A}$ flowing from the $120\text{ V}$ source into the $30\ \Omega$ cold filament ::@:: $P_\text{cold} = 120\text{ V}\times4\text{ A} = 480\text{ W}$.
-- resistance that varies with temperature / inference from the $480\text{ W}$ cold power against the $60\text{ W}$ hot power of the same bulb ::@:: The cold filament dissipates eight times the power of the hot one.
+- resistance that varies with temperature / cold resistance of a bulb that draws $4\text{ A}$ from a $120\text{ V}$ DC source at start-up ::@:: $R_\text{cold} = 120\text{ V}/4\text{ A} = 30\ \Omega$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- resistance that varies with temperature / hot resistance of a bulb that dissipates $60\text{ W}$ in the steady state under the same $120\text{ V}$ source ::@:: $R_\text{hot} = (120\text{ V})^2/60\text{ W} = 240\ \Omega$, eight times the cold value. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- resistance that varies with temperature / power dissipated at start-up, with $4\text{ A}$ flowing from the $120\text{ V}$ source into the $30\ \Omega$ cold filament ::@:: $P_\text{cold} = 120\text{ V}\times4\text{ A} = 480\text{ W}$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- resistance that varies with temperature / inference from the $480\text{ W}$ cold power against the $60\text{ W}$ hot power of the same bulb ::@:: The cold filament dissipates eight times the power of the hot one. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## sign of power under the reference direction
 
@@ -126,15 +126,15 @@ An arrow leaving the terminal marked $+$ makes the current entering that termina
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Read along the reference direction, a positive product $VI$ means the element consumes or dissipates electric power, so positive charge moves from the higher to the lower potential and gives up electric potential energy. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- negative product: $VI < 0$ for an element with the voltage $V$ and the current $I$ drawn along the reference direction ::@:: The element generates electric power, as positive charge moves from the lower to the higher potential and gains energy.
-- power consumed by a resistor: what a resistor does with the electric power it consumes ::@:: It dissipates the power as heat, converting electrical energy into thermal energy.
-- power consumed by a battery while charging: a rechargeable battery is being charged by the circuit ::@:: It consumes electric power and stores it as chemical energy.
-- power generated by a discharging battery: the voltage $V$ and the current $I$ drawn along the reference direction on a battery discharging into the circuit ::@:: It generates electric power from its stored chemical energy, and the product $VI$ is negative.
-- can a resistor generate power: how can the product $VI$ of a resistor come out negative ::@:: It cannot under normal circumstances, since only a source such as a battery supplies electric power.
-- sign against the marked polarity: the current arrow on an element leaves the terminal marked $+$; what sign does the power take, and why? ::@:: It takes $P = -VI$, because the current entering the $+$ terminal is $-I$.
-- arrow entering the plus mark: the current arrow on an element enters the terminal marked $+$; what sign does the power take? ::@:: $P = +VI$, as written.
-- drawing without a current value: an element carries a marked voltage and a drawn current arrow but no current value; can it be called absorbing or delivering? ::@:: No: the sign of the product stays unknown, so no verdict follows.
+- overview ::@:: Read along the reference direction, a positive product $VI$ means the element consumes or dissipates electric power, so positive charge moves from the higher to the lower potential and gives up electric potential energy. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- negative product: $VI < 0$ for an element with the voltage $V$ and the current $I$ drawn along the reference direction ::@:: The element generates electric power, as positive charge moves from the lower to the higher potential and gains energy. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- power consumed by a resistor: what a resistor does with the electric power it consumes ::@:: It dissipates the power as heat, converting electrical energy into thermal energy. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- power consumed by a battery while charging: a rechargeable battery is being charged by the circuit ::@:: It consumes electric power and stores it as chemical energy. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- power generated by a discharging battery: the voltage $V$ and the current $I$ drawn along the reference direction on a battery discharging into the circuit ::@:: It generates electric power from its stored chemical energy, and the product $VI$ is negative. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- can a resistor generate power: how can the product $VI$ of a resistor come out negative ::@:: It cannot under normal circumstances, since only a source such as a battery supplies electric power. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- sign against the marked polarity: the current arrow on an element leaves the terminal marked $+$; what sign does the power take, and why? ::@:: It takes $P = -VI$, because the current entering the $+$ terminal is $-I$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- arrow entering the plus mark: the current arrow on an element enters the terminal marked $+$; what sign does the power take? ::@:: $P = +VI$, as written. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- drawing without a current value: an element carries a marked voltage and a drawn current arrow but no current value; can it be called absorbing or delivering? ::@:: No: the sign of the product stays unknown, so no verdict follows. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ### negative reference current
 
@@ -144,9 +144,9 @@ A negative current on the arrow is what turns a delivering verdict into an absor
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A negative value on a current arrow that leaves the terminal marked $+$ means the real current runs into that terminal, so the product comes out positive and the element absorbs. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- absorbed power from a negative reference current: an element has $V_1 = 4\text{ V}$, its current arrow leaves the $+$ terminal, and $I_1 = -2\text{ A}$; what is its power and what is it doing? ::@:: $P_1 = -(4\text{ V})(-2\text{ A}) = +8\text{ W}$, and it absorbs $8\text{ W}$.
-- why the negative value flips the verdict: why does a negative $I_1$ make $P_1 = -V_1I_1$ come out positive? ::@:: The arrow says the current leaves the $+$ terminal, so a negative value says it in fact runs the other way, into that terminal, which is the absorbing direction.
+- overview ::@:: A negative value on a current arrow that leaves the terminal marked $+$ means the real current runs into that terminal, so the product comes out positive and the element absorbs. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- absorbed power from a negative reference current: an element has $V_1 = 4\text{ V}$, its current arrow leaves the $+$ terminal, and $I_1 = -2\text{ A}$; what is its power and what is it doing? ::@:: $P_1 = -(4\text{ V})(-2\text{ A}) = +8\text{ W}$, and it absorbs $8\text{ W}$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- why the negative value flips the verdict: why does a negative $I_1$ make $P_1 = -V_1I_1$ come out positive? ::@:: The arrow says the current leaves the $+$ terminal, so a negative value says it in fact runs the other way, into that terminal, which is the absorbing direction. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ### flashlight bulb and battery
 
@@ -156,8 +156,8 @@ A flashlight bulb modelled as a $3\ \Omega$ resistor carries $I_\text{bulb} = +2
 
 Flashcards for this section are as follows:
 
-- flashlight bulb and battery / power of the bulb, modelled as a resistor, with $V_\text{bulb} = 6\text{ V}$ across it and $I_\text{bulb} = +2\text{ A}$ through it ::@:: $P_\text{bulb} = V_\text{bulb}\times I_\text{bulb} = 6\text{ V}\times2\text{ A} = +12\text{ W}$, a positive power that the bulb dissipates.
-- flashlight bulb and battery / power of the battery with $V_\text{bat} = 6\text{ V}$ and $I_\text{bat} = -2\text{ A}$ on its own reference direction ::@:: $P_\text{bat} = V_\text{bat}\times I_\text{bat} = 6\text{ V}\times(-2\text{ A}) = -12\text{ W}$, so the battery is an active element whose generation covers the $12\text{ W}$ dissipated by the bulb.
+- flashlight bulb and battery / power of the bulb, modelled as a resistor, with $V_\text{bulb} = 6\text{ V}$ across it and $I_\text{bulb} = +2\text{ A}$ through it ::@:: $P_\text{bulb} = V_\text{bulb}\times I_\text{bulb} = 6\text{ V}\times2\text{ A} = +12\text{ W}$, a positive power that the bulb dissipates. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- flashlight bulb and battery / power of the battery with $V_\text{bat} = 6\text{ V}$ and $I_\text{bat} = -2\text{ A}$ on its own reference direction ::@:: $P_\text{bat} = V_\text{bat}\times I_\text{bat} = 6\text{ V}\times(-2\text{ A}) = -12\text{ W}$, so the battery is an active element whose generation covers the $12\text{ W}$ dissipated by the bulb. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## why the reference direction matters
 
@@ -167,6 +167,6 @@ With the reference direction drawn, the familiar forms $V = IR$ and $P = VI$ hol
 
 Flashcards for this section are as follows:
 
-- overview ::@:: With the reference direction drawn, the familiar relations $V = IR$ and $P = VI$ hold in their usual forms as written. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- relations with and without the reference direction: the forms $V = IR$ and $P = VI$ with the reference direction drawn ::@:: Without it the same content needs inserted minus signs, becoming $V = -IR$ and $P = -VI$.
-- mechanical counterpart of the sign convention: a mass $m$ under a force $F$ has the acceleration $a$ along a chosen positive direction ::@:: Along the chosen positive direction the relation is $F = ma$; the opposite choice forces $F = -ma$.
+- overview ::@:: With the reference direction drawn, the familiar relations $V = IR$ and $P = VI$ hold in their usual forms as written. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- relations with and without the reference direction: the forms $V = IR$ and $P = VI$ with the reference direction drawn ::@:: Without it the same content needs inserted minus signs, becoming $V = -IR$ and $P = -VI$. <!--SR:!fsrs,2026-11-02T00:10:00.000Z,0,2.3065,2.11810397,1,1,0,1,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- mechanical counterpart of the sign convention: a mass $m$ under a force $F$ has the acceleration $a$ along a chosen positive direction ::@:: Along the chosen positive direction the relation is $F = ma$; the opposite choice forces $F = -ma$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->

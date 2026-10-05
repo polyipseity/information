@@ -21,7 +21,7 @@ Charge carries a sign, and the arrow drawn on a diagram fixes a reference direct
 
 Flashcards for this section are as follows:
 
-- what a reported current value is relative to ::@:: A reported current is meaningful only together with its reference direction and the sign of its charge carriers.
+- what a reported current value is relative to ::@:: A reported current is meaningful only together with its reference direction and the sign of its charge carriers. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## current as a rate of charge flow
 
@@ -33,9 +33,9 @@ Charge arrives in discrete carriers. An electron carries $q = -1.6\times10^{-19}
 
 Flashcards for this section are as follows:
 
-- current as a rate of charge flow / definition and unit of current ::@:: Electric current is the rate of change (flow) of charge; its unit is the ampere (A), $1\text{ A} = 1\text{ C/s}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- current as a rate of charge flow / charge carried by $N = 5\times10^{18}$ electrons of charge $q = -1.6\times10^{-19}\text{ C}$ ::@:: Carriers crossing a wire cross-section at a uniform rate carry the charge $\Delta Q = Nq$; here $\Delta Q = 5\times10^{18}\times(-1.6\times10^{-19}\text{ C}) = -0.8\text{ C}$.
-- current as a rate of charge flow / why $1\text{ A} = 1\text{ C/s}$ ::@:: Charge and time are the measured quantities, and current is the quotient $\Delta Q/\Delta t$, whose unit is the coulomb per second.
+- current as a rate of charge flow / definition and unit of current ::@:: Electric current is the rate of change (flow) of charge; its unit is the ampere (A), $1\text{ A} = 1\text{ C/s}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- current as a rate of charge flow / charge carried by $N = 5\times10^{18}$ electrons of charge $q = -1.6\times10^{-19}\text{ C}$ ::@:: Carriers crossing a wire cross-section at a uniform rate carry the charge $\Delta Q = Nq$; here $\Delta Q = 5\times10^{18}\times(-1.6\times10^{-19}\text{ C}) = -0.8\text{ C}$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- current as a rate of charge flow / why $1\text{ A} = 1\text{ C/s}$ ::@:: Charge and time are the measured quantities, and current is the quotient $\Delta Q/\Delta t$, whose unit is the coulomb per second. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## direction of current
 
@@ -49,13 +49,13 @@ The load settles which way the current runs out of a source, once the load is kn
 
 Flashcards for this section are as follows:
 
-- direction of current / definition and diagram requirement ::@:: The direction in which positive charges flow; the circuit diagram must show it.
-- direction of current / positive-charge mental picture ::@:: Although currents in wires are mostly conducted by electrons, thinking of positive charges flowing the other way speeds up reasoning about signs.
-- direction of current / sign rule for an arrow labelled $I_1 = -1\text{ A}$ ::@:: Flow along the drawn arrow gives a positive current value and flow against it a negative one, so the same charge flow on the reversed arrow is $I_2 = 1\text{ A}$.
-- direction of current / worked example: $N = 5\times10^{18}$ electrons of charge $q = -1.6\times10^{-19}\text{ C}$ crossing in $\Delta t = 2\text{ s}$ against the assumed arrow ::@:: $\Delta Q = Nq = 5\times10^{18}\times(-1.6\times10^{-19}\text{ C}) = -0.8\text{ C}$, so $I = \Delta Q/\Delta t = -0.8\text{ C}/2\text{ s} = -0.4\text{ A}$: a current of $0.4\text{ A}$ opposite the arrow.
-- direction of current / what sets the direction at a source: a $10\text{ V}$ source drives a $1\ \Omega$ resistor back to its $-$ terminal, with that $-$ terminal grounded; which way does the current run along the top of the loop? ::@:: Away from the source, out of its $+$ terminal and into the resistor.
-- direction of current / a load that is itself a source: the $1\ \Omega$ resistor is replaced by a battery charger; which way does the current at the top of the $10\text{ V}$ source run? ::@:: Into its $+$ terminal, the opposite way, so the source is being charged.
-- direction of current / an unspecified load: a $10\text{ V}$ source drives a load that has not been stated; which way does the current leave it? ::@:: It cannot be determined: the direction follows from the load, and the load is unknown.
+- direction of current / definition and diagram requirement ::@:: The direction in which positive charges flow; the circuit diagram must show it. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- direction of current / positive-charge mental picture ::@:: Although currents in wires are mostly conducted by electrons, thinking of positive charges flowing the other way speeds up reasoning about signs. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- direction of current / sign rule for an arrow labelled $I_1 = -1\text{ A}$ ::@:: Flow along the drawn arrow gives a positive current value and flow against it a negative one, so the same charge flow on the reversed arrow is $I_2 = 1\text{ A}$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- direction of current / worked example: $N = 5\times10^{18}$ electrons of charge $q = -1.6\times10^{-19}\text{ C}$ crossing in $\Delta t = 2\text{ s}$ against the assumed arrow ::@:: $\Delta Q = Nq = 5\times10^{18}\times(-1.6\times10^{-19}\text{ C}) = -0.8\text{ C}$, so $I = \Delta Q/\Delta t = -0.8\text{ C}/2\text{ s} = -0.4\text{ A}$: a current of $0.4\text{ A}$ opposite the arrow. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- direction of current / what sets the direction at a source: a $10\text{ V}$ source drives a $1\ \Omega$ resistor back to its $-$ terminal, with that $-$ terminal grounded; which way does the current run along the top of the loop? ::@:: Away from the source, out of its $+$ terminal and into the resistor. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- direction of current / a load that is itself a source: the $1\ \Omega$ resistor is replaced by a battery charger; which way does the current at the top of the $10\text{ V}$ source run? ::@:: Into its $+$ terminal, the opposite way, so the source is being charged. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- direction of current / an unspecified load: a $10\text{ V}$ source drives a load that has not been stated; which way does the current leave it? ::@:: It cannot be determined: the direction follows from the load, and the load is unknown. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## average, instantaneous, and constant current
 
@@ -67,11 +67,11 @@ The instantaneous current is the derivative of the charge with respect to time, 
 
 Flashcards for this section are as follows:
 
-- average, instantaneous, and constant current / three descriptions for charge $q(t)$ and interval $0$ to $T$ ::@:: A constant current obeys $I = \Delta Q/\Delta t$, a time-varying current has the instantaneous value $i(t) = \frac{dq(t)}{dt}$, and its average over $0$ to $T$ is $I = \frac{1}{T}\int_0^T i(t)\,dt$.
-- average, instantaneous, and constant current / constant current for charge $\Delta Q$ crossing uniformly in time $\Delta t$ ::@:: The current is the constant $I = \Delta Q/\Delta t$.
-- average, instantaneous, and constant current / instantaneous current for charge $q(t)$ at the instant $t$ ::@:: $i(t) = \frac{dq(t)}{dt}$.
-- average, instantaneous, and constant current / average current of $i(t)$ over $0$ to $T$ ::@:: $I = \frac{1}{T}\int_0^T i(t)\,dt$.
-- average, instantaneous, and constant current / instantaneous current for the charge $q(t) = 5t$ in coulombs with $t$ in seconds ::@:: $i(t) = \frac{dq(t)}{dt} = \frac{d}{dt}(5t) = 5\text{ A}$.
+- average, instantaneous, and constant current / three descriptions for charge $q(t)$ and interval $0$ to $T$ ::@:: A constant current obeys $I = \Delta Q/\Delta t$, a time-varying current has the instantaneous value $i(t) = \frac{dq(t)}{dt}$, and its average over $0$ to $T$ is $I = \frac{1}{T}\int_0^T i(t)\,dt$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- average, instantaneous, and constant current / constant current for charge $\Delta Q$ crossing uniformly in time $\Delta t$ ::@:: The current is the constant $I = \Delta Q/\Delta t$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- average, instantaneous, and constant current / instantaneous current for charge $q(t)$ at the instant $t$ ::@:: $i(t) = \frac{dq(t)}{dt}$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- average, instantaneous, and constant current / average current of $i(t)$ over $0$ to $T$ ::@:: $I = \frac{1}{T}\int_0^T i(t)\,dt$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- average, instantaneous, and constant current / instantaneous current for the charge $q(t) = 5t$ in coulombs with $t$ in seconds ::@:: $i(t) = \frac{dq(t)}{dt} = \frac{d}{dt}(5t) = 5\text{ A}$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## charge capacity units
 
@@ -83,11 +83,11 @@ A lithium-ion rechargeable battery with a capacity of $2000\text{ mAh}$ ($= 2\te
 
 Flashcards for this section are as follows:
 
-- charge capacity units / charge in coulombs of $1\text{ Ah}$ ::@:: A current of $1\text{ A}$ flowing for $1$ hour, that is $1\text{ C/s}\times3600\text{ s} = 3600\text{ C}$; $1\text{ Ah} = 1000\text{ mAh}$.
-- charge capacity units / why the electron-volt, the ampere-hour, and the kilowatt-hour are used ::@:: They are easier to use and to understand than the corresponding SI units.
-- charge capacity units / discharge of a $2000\text{ mAh}$ battery label ::@:: A lithium-ion rechargeable battery of $2\text{ Ah}$ capacity supplies $2000\text{ mA}$ ($= 2\text{ A}$) for $1$ hour; manufacturers prefer $\text{mAh}$ to $\text{Ah}$ on such labels.
-- charge capacity units / convert $1450\text{ mAh}$ to coulombs ::@:: With $1\text{ Ah} = 1000\text{ mAh} = 3600\text{ C}$, a capacity of $1450\text{ mAh}$ is $1.45\text{ Ah}\times3600\text{ C/Ah} = 5220\text{ C}$.
-- charge capacity units / discharge rates of $1450\text{ mAh}$ ($= 5220\text{ C}$) ::@:: Such a capacity delivers $1.45\text{ A}$ for $1$ hour of battery operation, or $145\text{ mA}$ for $10$ hours, or $2.9\text{ A}$ for $0.5$ hour.
+- charge capacity units / charge in coulombs of $1\text{ Ah}$ ::@:: A current of $1\text{ A}$ flowing for $1$ hour, that is $1\text{ C/s}\times3600\text{ s} = 3600\text{ C}$; $1\text{ Ah} = 1000\text{ mAh}$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- charge capacity units / why the electron-volt, the ampere-hour, and the kilowatt-hour are used ::@:: They are easier to use and to understand than the corresponding SI units. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- charge capacity units / discharge of a $2000\text{ mAh}$ battery label ::@:: A lithium-ion rechargeable battery of $2\text{ Ah}$ capacity supplies $2000\text{ mA}$ ($= 2\text{ A}$) for $1$ hour; manufacturers prefer $\text{mAh}$ to $\text{Ah}$ on such labels. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- charge capacity units / convert $1450\text{ mAh}$ to coulombs ::@:: With $1\text{ Ah} = 1000\text{ mAh} = 3600\text{ C}$, a capacity of $1450\text{ mAh}$ is $1.45\text{ Ah}\times3600\text{ C/Ah} = 5220\text{ C}$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- charge capacity units / discharge rates of $1450\text{ mAh}$ ($= 5220\text{ C}$) ::@:: Such a capacity delivers $1.45\text{ A}$ for $1$ hour of battery operation, or $145\text{ mA}$ for $10$ hours, or $2.9\text{ A}$ for $0.5$ hour. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## direct current and alternating current
 
@@ -101,11 +101,11 @@ Time-dependent quantities need not be simple sinusoids.
 
 Flashcards for this section are as follows:
 
-- direct current and alternating current / original distinction ::@:: A direct current (DC) is a steady charge flow whose current is a constant, while an alternating current (AC) is a fluctuating charge flow, sometimes stronger and sometimes weaker and possibly reversing direction.
-- direct current and alternating current / meaning of the two terms today ::@:: DC now specifies a quantity that is independent of time, at a constant value, and AC now specifies a time-dependent quantity.
-- direct current and alternating current / adjectival use ::@:: DC and AC are adjectives that can refer to voltages as well as to currents.
-- direct current and alternating current / symbol case for $V_1$, $I_2$, $V_{dd}$ against $v_3(t)$, $i_4(t)$ ::@:: Upper-case symbols denote DC quantities such as $V_1$; lower-case symbols denote time-dependent variables such as $v_3(t)$.
-- direct current and alternating current / beyond sinusoids ::@:: A time-dependent quantity need not be a simple sinusoid.
+- direct current and alternating current / original distinction ::@:: A direct current (DC) is a steady charge flow whose current is a constant, while an alternating current (AC) is a fluctuating charge flow, sometimes stronger and sometimes weaker and possibly reversing direction. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- direct current and alternating current / meaning of the two terms today ::@:: DC now specifies a quantity that is independent of time, at a constant value, and AC now specifies a time-dependent quantity. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- direct current and alternating current / adjectival use ::@:: DC and AC are adjectives that can refer to voltages as well as to currents. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- direct current and alternating current / symbol case for $V_1$, $I_2$, $V_{dd}$ against $v_3(t)$, $i_4(t)$ ::@:: Upper-case symbols denote DC quantities such as $V_1$; lower-case symbols denote time-dependent variables such as $v_3(t)$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- direct current and alternating current / beyond sinusoids ::@:: A time-dependent quantity need not be a simple sinusoid. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ### sinusoidal alternating current
 
@@ -115,8 +115,8 @@ In its historical sense an alternating current was always the sinusoid $i(t) = I
 
 Flashcards for this section are as follows:
 
-- sinusoidal alternating current / historical meaning ::@:: In its historical sense an alternating current is always the sinusoid $i(t) = I_o\sin(\omega t + \theta)$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- sinusoidal alternating current / parameters of $i(t) = I_o\sin(\omega t + \theta)$ ::@:: Its amplitude $I_o$, its angular frequency $\omega = 2\pi f$ where $f$ is the frequency, and its phase $\theta$.
+- sinusoidal alternating current / historical meaning ::@:: In its historical sense an alternating current is always the sinusoid $i(t) = I_o\sin(\omega t + \theta)$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- sinusoidal alternating current / parameters of $i(t) = I_o\sin(\omega t + \theta)$ ::@:: Its amplitude $I_o$, its angular frequency $\omega = 2\pi f$ where $f$ is the frequency, and its phase $\theta$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ### analysis of time dependence
 
@@ -126,5 +126,5 @@ In transient analysis the time dependence decays to a constant value eventually.
 
 Flashcards for this section are as follows:
 
-- analysis of time dependence / transient analysis ::@:: Transient analysis handles time dependence that will decay to a constant value eventually.
-- analysis of time dependence / harmonic analysis ::@:: Harmonic analysis decomposes any periodic steady-state time series as a superposition of sinusoids at harmonic (multiple) frequencies, each with its own amplitude and phase; it is Fourier series analysis.
+- analysis of time dependence / transient analysis ::@:: Transient analysis handles time dependence that will decay to a constant value eventually. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- analysis of time dependence / harmonic analysis ::@:: Harmonic analysis decomposes any periodic steady-state time series as a superposition of sinusoids at harmonic (multiple) frequencies, each with its own amplitude and phase; it is Fourier series analysis. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->

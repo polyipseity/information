@@ -14,7 +14,7 @@ Market microstructure is the branch of finance that analyses how different marke
 
 Flashcards for this section are as follows:
 
-- overview ::@:: The branch of finance that analyses how different market structures affect market quality.
+- overview ::@:: The branch of finance that analyses how different market structures affect market quality. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## dealership and auction markets
 
@@ -24,9 +24,9 @@ The term _microstructure_ was coined by Mark Garman in 1976, in the _Journal of 
 
 Flashcards for this section are as follows:
 
-- who coined the term "microstructure", and when ::@:: Mark Garman, in 1976, in the Journal of Financial Economics.
-- what Garman's model treats market orders as ::@:: A Poisson process.
-- the two basic models of a market the paper puts forward ::@:: Dealership markets and auction markets, with their variants.
+- who coined the term "microstructure", and when ::@:: Mark Garman, in 1976, in the Journal of Financial Economics. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what Garman's model treats market orders as ::@:: A Poisson process. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the two basic models of a market the paper puts forward ::@:: Dealership markets and auction markets, with their variants. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## market quality
 
@@ -36,9 +36,9 @@ Market quality is what a structure is judged by, and it rests on two pillars. Th
 
 Flashcards for this section are as follows:
 
-- the two pillars of market quality ::@:: Liquidity and price discovery.
-- first pillar of market quality ::@:: Liquidity: the ability to trade without paying much or moving the price.
-- second pillar of market quality ::@:: Price discovery, also called price efficiency: how quickly the price incorporates new information.
+- the two pillars of market quality ::@:: Liquidity and price discovery. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- first pillar of market quality ::@:: Liquidity: the ability to trade without paying much or moving the price. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- second pillar of market quality ::@:: Price discovery, also called price efficiency: how quickly the price incorporates new information. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## market-based evaluation
 
@@ -48,6 +48,6 @@ Comparing market structures needs a metric for their impact. The natural candida
 
 Flashcards for this section are as follows:
 
-- why welfare is not the metric microstructure uses ::@:: Welfare over traders, dealers, exchanges, and firms is typically not observable.
-- metric microstructure uses instead of welfare ::@:: A market-based approach: asset prices and other market metrics, interpreted through the efficient-market hypothesis.
-- groups whose welfare a market structure affects ::@:: Traders, dealers, exchanges, and firms.
+- why welfare is not the metric microstructure uses ::@:: Welfare over traders, dealers, exchanges, and firms is typically not observable. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- metric microstructure uses instead of welfare ::@:: A market-based approach: asset prices and other market metrics, interpreted through the efficient-market hypothesis. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- groups whose welfare a market structure affects ::@:: Traders, dealers, exchanges, and firms. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->

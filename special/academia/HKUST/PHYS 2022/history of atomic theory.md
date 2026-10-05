@@ -15,7 +15,7 @@ _Atomic theory_ holds that matter is composed of particles called atoms.
 
 Flashcards for this section are as follows:
 
-- what atomic theory holds ::@:: Matter is composed of particles called atoms.
+- what atomic theory holds ::@:: Matter is composed of particles called atoms. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## atomic models
 
@@ -34,13 +34,13 @@ Six models span two thousand years, and only the first two treat the atom as ind
 
 Flashcards for this section are as follows:
 
-- the span of the models, and which of them keep the atom indivisible ::@:: Six models over two thousand years; only the first two, Democritus and Dalton.
-- the model of Democritus, 400 BC: the picture and what it explained ::@:: Atoms are the building blocks of matter; the shape of an atom explains the behaviour of its element.
-- the model of Dalton, 1803: the picture ::@:: The atom is a solid, indivisible sphere.
-- the model of J. J. Thomson, 1897: the picture ::@:: Negative electrons embedded in a sea of positive charge, the plum pudding.
-- the model of Rutherford, 1911: the picture ::@:: The positive charges are located within a central nucleus.
-- the model of Bohr, 1913: the picture ::@:: Electrons are restricted to circular orbits with different energy levels.
-- the model of Schrödinger, 1926: the picture ::@:: Electrons are clouds surrounding the nucleus, less dense away from it.
+- the span of the models, and which of them keep the atom indivisible ::@:: Six models over two thousand years; only the first two, Democritus and Dalton. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the model of Democritus, 400 BC: the picture and what it explained ::@:: Atoms are the building blocks of matter; the shape of an atom explains the behaviour of its element. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the model of Dalton, 1803: the picture ::@:: The atom is a solid, indivisible sphere. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the model of J. J. Thomson, 1897: the picture ::@:: Negative electrons embedded in a sea of positive charge, the plum pudding. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the model of Rutherford, 1911: the picture ::@:: The positive charges are located within a central nucleus. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the model of Bohr, 1913: the picture ::@:: Electrons are restricted to circular orbits with different energy levels. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the model of Schrödinger, 1926: the picture ::@:: Electrons are clouds surrounding the nucleus, less dense away from it. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## evidence for atoms
 
@@ -50,10 +50,10 @@ No atom had been seen directly, and the first evidence came from bulk behaviour.
 
 Flashcards for this section are as follows:
 
-- the first test of atomic theory: direct sight or bulk behaviour ::@:: Bulk behaviour; no atom had been seen directly.
-- Avogadro's proposal: the number $N$ of molecules (atoms) in equal volumes of gas at the same temperature and pressure ::@:: $N = 6.023 \times 10^{23}$, the same for every such gas.
-- what Maxwell derived about the atoms of a gas ::@:: The speed distribution of the atoms.
-- Brownian motion: what Brown observed, and who explained it ::@:: The microscopic "random" motion of grains of pollen suspended in water, explained by Einstein with atomic theory in the 20th century.
+- the first test of atomic theory: direct sight or bulk behaviour ::@:: Bulk behaviour; no atom had been seen directly. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- Avogadro's proposal: the number $N$ of molecules (atoms) in equal volumes of gas at the same temperature and pressure ::@:: $N = 6.023 \times 10^{23}$, the same for every such gas. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what Maxwell derived about the atoms of a gas ::@:: The speed distribution of the atoms. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- Brownian motion: what Brown observed, and who explained it ::@:: The microscopic "random" motion of grains of pollen suspended in water, explained by Einstein with atomic theory in the 20th century. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ### imaging atoms directly
 
@@ -63,9 +63,9 @@ A scanning tunneling microscope image taken at $5\ \text{K}$ shows copper atoms 
 
 Flashcards for this section are as follows:
 
-- the scanning tunneling microscope image of copper at $5\ \text{K}$: the sample and the surface ::@:: Copper atoms adsorbed on a Cu(111) surface, seen as separate peaks.
-- the copper atoms seen at $13\ \text{K}$ and again at $15\ \text{K}$: what happens to them ::@:: They shift to new positions rather than staying put.
-- the images at $13\ \text{K}$ to $14\ \text{K}$ and again at $15\ \text{K}$: the area covered and the bias voltage ::@:: Areas of $30\ \text{nm} \times 32\ \text{nm}$ and $60\ \text{nm} \times 60\ \text{nm}$ at a bias of $U = 100\ \text{meV}$.
+- the scanning tunneling microscope image of copper at $5\ \text{K}$: the sample and the surface ::@:: Copper atoms adsorbed on a Cu(111) surface, seen as separate peaks. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the copper atoms seen at $13\ \text{K}$ and again at $15\ \text{K}$: what happens to them ::@:: They shift to new positions rather than staying put. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the images at $13\ \text{K}$ to $14\ \text{K}$ and again at $15\ \text{K}$: the area covered and the bias voltage ::@:: Areas of $30\ \text{nm} \times 32\ \text{nm}$ and $60\ \text{nm} \times 60\ \text{nm}$ at a bias of $U = 100\ \text{meV}$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## opposition to atomism
 
@@ -75,8 +75,8 @@ The atom was not universally accepted in the 1890s, and whether it had constitue
 
 Flashcards for this section are as follows:
 
-- the standing of atomic theory in the 1890s ::@:: It was not universally accepted, and whether the atom had constituents was an open question.
-- Mach's ground for opposing atomism, and the objection it turns on ::@:: Logical positivism. Atoms are "unseen", so their reality is in question.
-- Ostwald's position on atoms ::@:: He accepted Mach's premise and called atoms hypothetical structures for bookkeeping rather than real objects.
-- the three experimental results that answered Mach and Ostwald ::@:: Radioactivity, discrete spectral lines, and the formation of molecular structures.
-- why the spectral lines were the hardest of the three results to explain away ::@:: Each element emits at a fixed set of wavelengths and at no others, and no continuous model of a charge cloud produces such a set. The emission spectrum records those fixed wavelengths.
+- the standing of atomic theory in the 1890s ::@:: It was not universally accepted, and whether the atom had constituents was an open question. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- Mach's ground for opposing atomism, and the objection it turns on ::@:: Logical positivism. Atoms are "unseen", so their reality is in question. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- Ostwald's position on atoms ::@:: He accepted Mach's premise and called atoms hypothetical structures for bookkeeping rather than real objects. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the three experimental results that answered Mach and Ostwald ::@:: Radioactivity, discrete spectral lines, and the formation of molecular structures. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- why the spectral lines were the hardest of the three results to explain away ::@:: Each element emits at a fixed set of wavelengths and at no others, and no continuous model of a charge cloud produces such a set. The emission spectrum records those fixed wavelengths. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->

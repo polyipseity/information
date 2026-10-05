@@ -15,7 +15,7 @@ High-frequency trading is automated trading at speeds a human trader cannot matc
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Automated trading at speeds a human trader cannot match, made possible by electronic trading in a fragmented market.
+- overview ::@:: Automated trading at speeds a human trader cannot match, made possible by electronic trading in a fragmented market. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## speed and latency
 
@@ -25,9 +25,9 @@ High-frequency traders operate at speeds of microseconds, millionths of a second
 
 Flashcards for this section are as follows:
 
-- range of speeds at which high-frequency traders operate ::@:: From microseconds, millionths of a second, down to nanoseconds, billionths of a second.
-- time light travelling in a vacuum takes from New York to Chicago ::@:: About 5 milliseconds.
-- why speed is worth paying for ::@:: A stock is quoted at many venues at once while trading is electronic, so a stale quote at one venue can still be picked off at another until the rest of the market reacts.
+- range of speeds at which high-frequency traders operate ::@:: From microseconds, millionths of a second, down to nanoseconds, billionths of a second. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- time light travelling in a vacuum takes from New York to Chicago ::@:: About 5 milliseconds. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- why speed is worth paying for ::@:: A stock is quoted at many venues at once while trading is electronic, so a stale quote at one venue can still be picked off at another until the rest of the market reacts. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## arms race and overinvestment
 
@@ -39,12 +39,12 @@ The race is visible in the route between Chicago and New York, where each genera
 
 Flashcards for this section are as follows:
 
-- name for the heavy spending on speed ::@:: Overinvestment.
-- what firms invest in to win the speed race ::@:: Special-purpose technology and ever-faster connections.
-- phantom liquidity ::@:: Quotes that appear in the book and disappear before anyone can trade against them, produced by the race for speed.
-- unresolved question about faster execution ::@:: Whether faster trading and execution is good for the market at all.
-- what each generation of the Chicago to New York link bought ::@:: A fraction of a millisecond: 14.5 milliseconds by cable in the mid 1980s, 13.1 by fiber in 2010, then 9 and 8.5 by microwave in 2012.
-- why microwave replaced fiber in the speed race ::@:: Microwaves travel faster than photons in fiber, so the signal arrives sooner.
+- name for the heavy spending on speed ::@:: Overinvestment. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what firms invest in to win the speed race ::@:: Special-purpose technology and ever-faster connections. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- phantom liquidity ::@:: Quotes that appear in the book and disappear before anyone can trade against them, produced by the race for speed. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- unresolved question about faster execution ::@:: Whether faster trading and execution is good for the market at all. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what each generation of the Chicago to New York link bought ::@:: A fraction of a millisecond: 14.5 milliseconds by cable in the mid 1980s, 13.1 by fiber in 2010, then 9 and 8.5 by microwave in 2012. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- why microwave replaced fiber in the speed race ::@:: Microwaves travel faster than photons in fiber, so the signal arrives sooner. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## market manipulation
 
@@ -56,10 +56,10 @@ A second pattern is _quote stuffing_: bursts of orders to buy and sell that are 
 
 Flashcards for this section are as follows:
 
-- three steps of spoofing ::@:: Build up fake orders in one direction, cancel them, then sweep the market with a large order on the other side.
-- relation between the spoofer's fake orders and its own trade ::@:: They sit on opposite sides: the stacked orders are placed in one direction, and the sweep goes the other way.
-- why the spoofed orders are cancelled ::@:: They were never meant to execute.
-- CFTC fine on J.P. Morgan Securities for failing to surveil potential spoofing over eight years ::@:: 100 million dollars.
-- what quote stuffing is ::@:: Bursts of orders to buy and sell that are quickly cancelled.
-- orders carried by one second at the peak of the Abbott Laboratories burst ::@:: 11,557 orders, at 10:07:27.
-- order rate at Abbott Laboratories in normal times versus the burst ::@:: 38 orders per second on average normally, then 10,704 orders in one second and 5,483 in the next, with all but 14 cancelled within one second.
+- three steps of spoofing ::@:: Build up fake orders in one direction, cancel them, then sweep the market with a large order on the other side. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- relation between the spoofer's fake orders and its own trade ::@:: They sit on opposite sides: the stacked orders are placed in one direction, and the sweep goes the other way. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- why the spoofed orders are cancelled ::@:: They were never meant to execute. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- CFTC fine on J.P. Morgan Securities for failing to surveil potential spoofing over eight years ::@:: 100 million dollars. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what quote stuffing is ::@:: Bursts of orders to buy and sell that are quickly cancelled. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- orders carried by one second at the peak of the Abbott Laboratories burst ::@:: 11,557 orders, at 10:07:27. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- order rate at Abbott Laboratories in normal times versus the burst ::@:: 38 orders per second on average normally, then 10,704 orders in one second and 5,483 in the next, with all but 14 cancelled within one second. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->

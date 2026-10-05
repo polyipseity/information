@@ -19,7 +19,7 @@ All modern operating systems share two characteristics: __multiprogramming__, a 
 
 Flashcards for this section are as follows:
 
-- two characteristics of modern operating systems ::@:: Multiprogramming, a batch system needed for efficiency, and time sharing (multitasking), which provides interactive computing.
+- two characteristics of modern operating systems ::@:: Multiprogramming, a batch system needed for efficiency, and time sharing (multitasking), which provides interactive computing. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## multiprogramming
 
@@ -29,8 +29,8 @@ Early systems loaded one program into memory at a time, but a single program can
 
 Flashcards for this section are as follows:
 
-- multiprogramming ::@:: Multiprogramming organizes jobs so the CPU always has one to execute, since one program cannot keep the CPU and the I/O devices busy; all modern computer systems are multiprogrammed.
-- job scheduling ::@:: On mainframe computers jobs are submitted remotely and queued, and job scheduling selects jobs and loads them into memory.
+- multiprogramming ::@:: Multiprogramming organizes jobs so the CPU always has one to execute, since one program cannot keep the CPU and the I/O devices busy; all modern computer systems are multiprogrammed. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- job scheduling ::@:: On mainframe computers jobs are submitted remotely and queued, and job scheduling selects jobs and loads them into memory. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## time sharing
 
@@ -40,6 +40,6 @@ __Time sharing__ is the logical extension of multiprogramming in which the CPU s
 
 Flashcards for this section are as follows:
 
-- time sharing ::@:: The logical extension of multiprogramming: the CPU switches frequently between jobs so users can interact with each while it runs, giving interactive computing with a response time under a certain threshold.
-- process and CPU scheduling ::@:: A program in execution is a process; when several are ready to run at the same time, CPU scheduling determines which one runs.
-- swapping and virtual memory ::@:: If processes do not fit in memory, swapping moves them in and out during execution, and virtual memory runs processes that are not completely in memory.
+- time sharing ::@:: The logical extension of multiprogramming: the CPU switches frequently between jobs so users can interact with each while it runs, giving interactive computing with a response time under a certain threshold. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- process and CPU scheduling ::@:: A program in execution is a process; when several are ready to run at the same time, CPU scheduling determines which one runs. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- swapping and virtual memory ::@:: If processes do not fit in memory, swapping moves them in and out during execution, and virtual memory runs processes that are not completely in memory. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->

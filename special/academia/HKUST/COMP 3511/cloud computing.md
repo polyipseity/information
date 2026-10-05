@@ -18,11 +18,11 @@ What separates a cloud from an ordinary server is scale. A large provider such a
 
 Flashcards for this section are as follows:
 
-- cloud computing definition ::@:: A computing platform that delivers computing, storage, or application services on demand over a network.
-- cloud computing and virtualization ::@:: Cloud computing is a logical extension of virtualization, which it uses as the base for its functionality.
-- why virtualization matters for cloud computing ::@:: Running many isolated execution environments on shared hardware is what lets a provider sell computing capacity on demand.
-- scale of a large cloud provider ::@:: A provider such as Amazon EC2 offers millions of servers, tens of millions of virtual machines, and petabytes of storage available across the Internet.
-- cloud computing billing model ::@:: The customer pays based on usage rather than owning the hardware, so storage, computation, and application access are charged as they are consumed.
+- cloud computing definition ::@:: A computing platform that delivers computing, storage, or application services on demand over a network. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- cloud computing and virtualization ::@:: Cloud computing is a logical extension of virtualization, which it uses as the base for its functionality. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- why virtualization matters for cloud computing ::@:: Running many isolated execution environments on shared hardware is what lets a provider sell computing capacity on demand. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- scale of a large cloud provider ::@:: A provider such as Amazon EC2 offers millions of servers, tens of millions of virtual machines, and petabytes of storage available across the Internet. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- cloud computing billing model ::@:: The customer pays based on usage rather than owning the hardware, so storage, computation, and application access are charged as they are consumed. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## deployment models
 
@@ -32,9 +32,9 @@ Clouds are classified by who can use them. A __public cloud__ is open through th
 
 Flashcards for this section are as follows:
 
-- public cloud ::@:: A cloud available through the Internet to anyone willing to pay for it.
-- private cloud ::@:: A cloud run by a company for the company's own use.
-- hybrid cloud ::@:: A cloud that includes both public and private cloud components.
+- public cloud ::@:: A cloud available through the Internet to anyone willing to pay for it. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- private cloud ::@:: A cloud run by a company for the company's own use. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- hybrid cloud ::@:: A cloud that includes both public and private cloud components. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## service models
 
@@ -44,7 +44,7 @@ Clouds are also classified by how much of the stack the provider manages. __Soft
 
 Flashcards for this section are as follows:
 
-- software as a service ::@:: One or more applications made available over the Internet, for example a word processor.
-- platform as a service ::@:: A software stack ready for application use over the Internet, for example a database server.
-- infrastructure as a service ::@:: Servers or storage made available over the Internet, for example storage used for backup.
-- machine learning as a service ::@:: A further service type of the same kind, offering machine learning over the Internet rather than as software the customer installs.
+- software as a service ::@:: One or more applications made available over the Internet, for example a word processor. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- platform as a service ::@:: A software stack ready for application use over the Internet, for example a database server. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- infrastructure as a service ::@:: Servers or storage made available over the Internet, for example storage used for backup. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- machine learning as a service ::@:: A further service type of the same kind, offering machine learning over the Internet rather than as software the customer installs. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->

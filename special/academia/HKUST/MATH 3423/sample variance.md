@@ -16,9 +16,9 @@ The _sample variance_ measures how far the observations of a sample spread aroun
 
 Flashcards for this section are as follows:
 
-- overview: for observations $X_1, \ldots, X_n$ around their average ::@:: A statistic measuring the spread of the observations around their average, written $S_n^2$ or $S_{n-1}^2$.
-- what distinguishes the two sample variances $S_n^2$ and $S_{n-1}^2$ ::@:: They differ only in the denominator, which is $n$ in the first and $n - 1$ in the second.
-- why the squared deviations are taken from $\bar X$ and not from the population mean $\mu$ ::@:: Because $\bar X$ can be computed from the data, while $\mu$ is an unknown parameter of the model.
+- overview: for observations $X_1, \ldots, X_n$ around their average ::@:: A statistic measuring the spread of the observations around their average, written $S_n^2$ or $S_{n-1}^2$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what distinguishes the two sample variances $S_n^2$ and $S_{n-1}^2$ ::@:: They differ only in the denominator, which is $n$ in the first and $n - 1$ in the second. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- why the squared deviations are taken from $\bar X$ and not from the population mean $\mu$ ::@:: Because $\bar X$ can be computed from the data, while $\mu$ is an unknown parameter of the model. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## the two sample variances
 
@@ -28,10 +28,10 @@ The denominator is $n$ in $S_n^2 = \frac{1}{n} \sum_{i=1}^{n} (X_i - \bar X)^2$ 
 
 Flashcards for this section are as follows:
 
-- definition with denominator $n$: $S_n^2$ for a sample $X_1, \ldots, X_n$ ::@:: $S_n^2 = \frac{1}{n} \sum_{i=1}^{n} (X_i - \bar X)^2$.
-- definition with denominator $n - 1$: $S_{n-1}^2$ for a sample $X_1, \ldots, X_n$ ::@:: $S_{n-1}^2 = \frac{1}{n-1} \sum_{i=1}^{n} (X_i - \bar X)^2$.
-- relation between the two forms: $S_n^2$ and $S_{n-1}^2$ for a sample $X_1, \ldots, X_n$ ::@:: $\frac{(n-1) S_{n-1}^2}{\sigma^2} = \frac{n S_n^2}{\sigma^2}$.
-- why $S_n^2$ and $S_{n-1}^2$ are statistics ::@:: Each mentions only $X_1, \ldots, X_n$ and $\bar X$, and the data supply all of them.
+- definition with denominator $n$: $S_n^2$ for a sample $X_1, \ldots, X_n$ ::@:: $S_n^2 = \frac{1}{n} \sum_{i=1}^{n} (X_i - \bar X)^2$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- definition with denominator $n - 1$: $S_{n-1}^2$ for a sample $X_1, \ldots, X_n$ ::@:: $S_{n-1}^2 = \frac{1}{n-1} \sum_{i=1}^{n} (X_i - \bar X)^2$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- relation between the two forms: $S_n^2$ and $S_{n-1}^2$ for a sample $X_1, \ldots, X_n$ ::@:: $\frac{(n-1) S_{n-1}^2}{\sigma^2} = \frac{n S_n^2}{\sigma^2}$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- why $S_n^2$ and $S_{n-1}^2$ are statistics ::@:: Each mentions only $X_1, \ldots, X_n$ and $\bar X$, and the data supply all of them. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 <!-- check: ignore-next-line[section_example_heading]: a matched pair of cases for the definition, kept together so the counterexample sits beside the definition it violates -->
 ### examples and counterexamples
@@ -44,11 +44,11 @@ The bare sum $\sum_{i=1}^{n} (X_i - \bar X)^2$ is $n$ times $S_n^2$, and being a
 
 Flashcards for this section are as follows:
 
-- $S_n^2 = \frac{1}{n} \sum_{i=1}^{n} (X_i - \bar X)^2$ for a sample $X_1, \ldots, X_n$ as a sample variance ::@:: Yes, it is the sum of squared deviations from the sample mean over the denominator $n$.
-- $S_{n-1}^2 = \frac{1}{n-1} \sum_{i=1}^{n} (X_i - \bar X)^2$ for a sample $X_1, \ldots, X_n$ as a sample variance ::@:: Yes, the same sum over the denominator $n - 1$, the second of the two.
-- $\frac{1}{n+1} \sum_{i=1}^{n} (X_i - \bar X)^2$ as one of the two sample variances ::@:: No, it divides by $n + 1$, which is neither $n$ nor $n - 1$.
-- $\sum_{i=1}^{n} (X_i - \bar X)^2$ with no denominator as a sample variance ::@:: No, it has no denominator; it is $n$ times $S_n^2$, and a multiple of a sample variance is not one with a different denominator.
-- the population variance $\sigma^2$ as a sample variance ::@:: No, it is a parameter of the population, not a statistic of the sample.
+- $S_n^2 = \frac{1}{n} \sum_{i=1}^{n} (X_i - \bar X)^2$ for a sample $X_1, \ldots, X_n$ as a sample variance ::@:: Yes, it is the sum of squared deviations from the sample mean over the denominator $n$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- $S_{n-1}^2 = \frac{1}{n-1} \sum_{i=1}^{n} (X_i - \bar X)^2$ for a sample $X_1, \ldots, X_n$ as a sample variance ::@:: Yes, the same sum over the denominator $n - 1$, the second of the two. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- $\frac{1}{n+1} \sum_{i=1}^{n} (X_i - \bar X)^2$ as one of the two sample variances ::@:: No, it divides by $n + 1$, which is neither $n$ nor $n - 1$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- $\sum_{i=1}^{n} (X_i - \bar X)^2$ with no denominator as a sample variance ::@:: No, it has no denominator; it is $n$ times $S_n^2$, and a multiple of a sample variance is not one with a different denominator. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the population variance $\sigma^2$ as a sample variance ::@:: No, it is a parameter of the population, not a statistic of the sample. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## distribution of the sample variance
 
@@ -62,13 +62,13 @@ A chi-squared variable of $n - 1$ degrees of freedom has expectation $n - 1$, wh
 
 Flashcards for this section are as follows:
 
-- distribution of the scaled sample variance: a random sample of size $n > 1$ from $N(\mu, \sigma^2)$ ::@:: $\frac{(n-1) S_{n-1}^2}{\sigma^2} = \frac{n S_n^2}{\sigma^2} = \frac{\sum_{i=1}^{n} (X_i - \bar X)^2}{\sigma^2} \sim \chi^2(n - 1)$.
-- degrees of freedom of the sample variance: for a sample of size $n$ ::@:: $n - 1$.
-- parameters the distribution of $S_{n-1}^2$ depends on: $\mu$ and $\sigma^2$ of the normal sample ::@:: $\sigma^2$ alone, because $\mu$ cancels in $X_i - \bar X$.
-- is the $\chi^2(n - 1)$ result exact ::@:: Yes, for a sample from a normal population; for a general distribution the scaled sample variance is not chi-squared.
-- why the degrees of freedom are $n - 1$ and not $n$ ::@:: The deviations satisfy $\sum_{i=1}^{n} (X_i - \bar X) = 0$ identically, so one is determined by the others and only $n - 1$ of the $n$ are free.
-- expectation of $S_{n-1}^2$ for a normal sample of size $n$ ::@:: $\sigma^2$, since a chi-squared variable of $n - 1$ degrees of freedom has expectation $n - 1$.
-- expectation of $S_n^2$ for a normal sample of size $n$ ::@:: $\frac{n - 1}{n} \sigma^2$, short of $\sigma^2$ by the factor $\frac{n - 1}{n}$.
+- distribution of the scaled sample variance: a random sample of size $n > 1$ from $N(\mu, \sigma^2)$ ::@:: $\frac{(n-1) S_{n-1}^2}{\sigma^2} = \frac{n S_n^2}{\sigma^2} = \frac{\sum_{i=1}^{n} (X_i - \bar X)^2}{\sigma^2} \sim \chi^2(n - 1)$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- degrees of freedom of the sample variance: for a sample of size $n$ ::@:: $n - 1$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- parameters the distribution of $S_{n-1}^2$ depends on: $\mu$ and $\sigma^2$ of the normal sample ::@:: $\sigma^2$ alone, because $\mu$ cancels in $X_i - \bar X$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- is the $\chi^2(n - 1)$ result exact ::@:: Yes, for a sample from a normal population; for a general distribution the scaled sample variance is not chi-squared. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- why the degrees of freedom are $n - 1$ and not $n$ ::@:: The deviations satisfy $\sum_{i=1}^{n} (X_i - \bar X) = 0$ identically, so one is determined by the others and only $n - 1$ of the $n$ are free. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- expectation of $S_{n-1}^2$ for a normal sample of size $n$ ::@:: $\sigma^2$, since a chi-squared variable of $n - 1$ degrees of freedom has expectation $n - 1$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- expectation of $S_n^2$ for a normal sample of size $n$ ::@:: $\frac{n - 1}{n} \sigma^2$, short of $\sigma^2$ by the factor $\frac{n - 1}{n}$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## independence from the sample mean
 
@@ -80,9 +80,9 @@ In the quotient $\frac{\bar X - \mu}{S_n}$ independence is what makes the law co
 
 Flashcards for this section are as follows:
 
-- independence of the sample mean and the sample variance: a random sample of size $n > 1$ from $N(\mu, \sigma^2)$ ::@:: $\bar X$ and $S_n^2$ are independent.
-- does $\bar X$ of a normal sample tell you anything about $S_n^2$ ::@:: No, the two are independent, so $\bar X$ carries no information about $S_n^2$ and $S_n^2$ none about $\bar X$.
-- what the independence of $\bar X$ and $S_n^2$ licenses ::@:: The law of the quotient $\frac{\bar X - \mu}{S_n}$ can be read off, since independent parts combine; neither part is known on its own, because the law of $S_n$ still carries $\sigma$.
+- independence of the sample mean and the sample variance: a random sample of size $n > 1$ from $N(\mu, \sigma^2)$ ::@:: $\bar X$ and $S_n^2$ are independent. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- does $\bar X$ of a normal sample tell you anything about $S_n^2$ ::@:: No, the two are independent, so $\bar X$ carries no information about $S_n^2$ and $S_n^2$ none about $\bar X$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what the independence of $\bar X$ and $S_n^2$ licenses ::@:: The law of the quotient $\frac{\bar X - \mu}{S_n}$ can be read off, since independent parts combine; neither part is known on its own, because the law of $S_n$ still carries $\sigma$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ### proof by the multivariate normal route
 
@@ -100,11 +100,11 @@ Independence of a jointly normal scalar and vector reduces to covariances, and o
 
 Flashcards for this section are as follows:
 
-- stronger form of the independence: a random sample of size $n > 1$ from $N(\mu, \sigma^2)$ ::@:: $\bar X$ is independent of the whole vector $(X_1 - \bar X, \ldots, X_n - \bar X)'$, not only of $S_n^2$.
-- linear map producing the sample mean and the deviations: $X_1, \ldots, X_n$ i.i.d. from $N(\mu, \sigma^2)$ ::@:: $(\bar X, X_1 - \bar X, \ldots, X_n - \bar X)' = A\mathbf X$ for the $(n+1) \times n$ matrix $A$ whose first row is $(\tfrac{1}{n} \cdots \tfrac{1}{n})$ and whose remaining rows each carry a $1 - \tfrac{1}{n}$ in one position.
-- mean of the transformed vector: $A\boldsymbol\mu$ for $\mathbf X \sim N_n(\boldsymbol\mu, \sigma^2 I_n)$ ::@:: $(\mu, 0, \ldots, 0)'$, each deviation having mean zero.
-- joint law of the sample mean and the deviations: a random sample of size $n > 1$ from $N(\mu, \sigma^2)$ ::@:: $(\bar X, X_1 - \bar X, \ldots, X_n - \bar X)' \sim N_{n+1}(A\boldsymbol\mu, \sigma^2 A A')$.
-- null vector of the covariance $\sigma^2 A A'$: for the transform producing the mean and the deviations ::@:: $(0, 1, \ldots, 1)'$, because $\sum_{i=1}^{n} (X_i - \bar X) = 0$ identically.
-- covariance whose vanishing proves the independence: $\operatorname{Cov}(\bar X, X_1 - \bar X)$ between $\bar X$ and the first deviation ::@:: $\operatorname{Cov}(\bar X, X_1) - \operatorname{Var}(\bar X) = \tfrac{\sigma^2}{n} - \tfrac{\sigma^2}{n} = 0$.
-- value of $\operatorname{Cov}(\bar X, X_1)$: a random sample of size $n > 1$ from $N(\mu, \sigma^2)$ ::@:: $\tfrac{\sigma^2}{n}$, since $\operatorname{Cov}(X_j, X_1) = 0$ for every $j \ge 2$.
-- variance of the sample mean: for a random sample of size $n$ from $N(\mu, \sigma^2)$ ::@:: $\operatorname{Var}(\bar X) = \sigma^2/n$.
+- stronger form of the independence: a random sample of size $n > 1$ from $N(\mu, \sigma^2)$ ::@:: $\bar X$ is independent of the whole vector $(X_1 - \bar X, \ldots, X_n - \bar X)'$, not only of $S_n^2$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- linear map producing the sample mean and the deviations: $X_1, \ldots, X_n$ i.i.d. from $N(\mu, \sigma^2)$ ::@:: $(\bar X, X_1 - \bar X, \ldots, X_n - \bar X)' = A\mathbf X$ for the $(n+1) \times n$ matrix $A$ whose first row is $(\tfrac{1}{n} \cdots \tfrac{1}{n})$ and whose remaining rows each carry a $1 - \tfrac{1}{n}$ in one position. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- mean of the transformed vector: $A\boldsymbol\mu$ for $\mathbf X \sim N_n(\boldsymbol\mu, \sigma^2 I_n)$ ::@:: $(\mu, 0, \ldots, 0)'$, each deviation having mean zero. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- joint law of the sample mean and the deviations: a random sample of size $n > 1$ from $N(\mu, \sigma^2)$ ::@:: $(\bar X, X_1 - \bar X, \ldots, X_n - \bar X)' \sim N_{n+1}(A\boldsymbol\mu, \sigma^2 A A')$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- null vector of the covariance $\sigma^2 A A'$: for the transform producing the mean and the deviations ::@:: $(0, 1, \ldots, 1)'$, because $\sum_{i=1}^{n} (X_i - \bar X) = 0$ identically. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- covariance whose vanishing proves the independence: $\operatorname{Cov}(\bar X, X_1 - \bar X)$ between $\bar X$ and the first deviation ::@:: $\operatorname{Cov}(\bar X, X_1) - \operatorname{Var}(\bar X) = \tfrac{\sigma^2}{n} - \tfrac{\sigma^2}{n} = 0$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- value of $\operatorname{Cov}(\bar X, X_1)$: a random sample of size $n > 1$ from $N(\mu, \sigma^2)$ ::@:: $\tfrac{\sigma^2}{n}$, since $\operatorname{Cov}(X_j, X_1) = 0$ for every $j \ge 2$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- variance of the sample mean: for a random sample of size $n$ from $N(\mu, \sigma^2)$ ::@:: $\operatorname{Var}(\bar X) = \sigma^2/n$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->

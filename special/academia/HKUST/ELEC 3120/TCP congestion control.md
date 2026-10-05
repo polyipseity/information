@@ -24,9 +24,9 @@ Congestion control keeps a sender from pushing more traffic into the network tha
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Congestion control limits a sender to what the path can carry, inferring that limit from the acknowledgements it receives.
-- who infers the limit: what does the sender use to estimate the path's room? ::@:: The acknowledgements it receives.
-- overload signal: what do acknowledgements that stop arriving tell the sender? ::@:: That the path is overloaded.
+- overview ::@:: Congestion control limits a sender to what the path can carry, inferring that limit from the acknowledgements it receives. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- who infers the limit: what does the sender use to estimate the path's room? ::@:: The acknowledgements it receives. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- overload signal: what do acknowledgements that stop arriving tell the sender? ::@:: That the path is overloaded. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## congestion window
 
@@ -36,9 +36,9 @@ The congestion window $CWND$ is the sender's estimate of how much it may have ou
 
 Flashcards for this section are as follows:
 
-- congestion window: what does $CWND$ estimate? ::@:: How much the sender may have outstanding, given the network's capacity.
-- starting value: what value does $CWND$ start from? ::@:: One MSS.
-- slow-start threshold: what does $ssthresh$ decide? ::@:: When the window stops doubling and starts growing linearly.
+- congestion window: what does $CWND$ estimate? ::@:: How much the sender may have outstanding, given the network's capacity. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- starting value: what value does $CWND$ start from? ::@:: One MSS. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- slow-start threshold: what does $ssthresh$ decide? ::@:: When the window stops doubling and starts growing linearly. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## slow start
 
@@ -48,9 +48,9 @@ Slow start grows the window exponentially: it starts at $CWND = 1$ MSS and adds 
 
 Flashcards for this section are as follows:
 
-- slow start growth: how much does $CWND$ rise per acknowledgement? ::@:: One MSS per acknowledgement.
-- doubling per round trip: $CWND$ grows by one MSS for each acknowledgement; why does that double the window once per round trip? ::@:: A round trip brings back about as many acknowledgements as the window holds segments.
-- leaving slow start: once $CWND$ reaches the slow-start threshold, what happens to the window's growth? ::@:: It grows linearly instead of doubling.
+- slow start growth: how much does $CWND$ rise per acknowledgement? ::@:: One MSS per acknowledgement. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- doubling per round trip: $CWND$ grows by one MSS for each acknowledgement; why does that double the window once per round trip? ::@:: A round trip brings back about as many acknowledgements as the window holds segments. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- leaving slow start: once $CWND$ reaches the slow-start threshold, what happens to the window's growth? ::@:: It grows linearly instead of doubling. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## congestion avoidance
 
@@ -60,9 +60,9 @@ Congestion avoidance grows the window linearly once $CWND$ has reached the slow-
 
 Flashcards for this section are as follows:
 
-- growth per acknowledgement: how much does $CWND$ rise per acknowledgement during congestion avoidance? ::@:: $MSS/CWND$, about one MSS per round trip.
-- why it is linear: why does congestion avoidance add $MSS/CWND$ per acknowledgement instead of one MSS? ::@:: The growth of one MSS per round trip is spread over every acknowledgement of the window.
-- probing for room: what does the window do while no loss is reported? ::@:: It keeps growing, looking for more room a round trip at a time.
+- growth per acknowledgement: how much does $CWND$ rise per acknowledgement during congestion avoidance? ::@:: $MSS/CWND$, about one MSS per round trip. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- why it is linear: why does congestion avoidance add $MSS/CWND$ per acknowledgement instead of one MSS? ::@:: The growth of one MSS per round trip is spread over every acknowledgement of the window. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- probing for room: what does the window do while no loss is reported? ::@:: It keeps growing, looking for more room a round trip at a time. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## fast recovery
 
@@ -72,11 +72,11 @@ Fast recovery replaces the return to slow start when duplicate acknowledgements,
 
 Flashcards for this section are as follows:
 
-- fast recovery values: the third duplicate acknowledgement arrives while the window is $CWND$; what does the sender set? ::@:: The slow-start threshold to $CWND/2$, and the congestion window to that plus $3$ MSS.
-- three segments: why does fast recovery add $3$ MSS to the halved threshold? ::@:: Each duplicate acknowledgement means one more segment has left the network, so the sender counts that room in.
-- further duplicate acknowledgements: what does the sender do to $CWND$ for each duplicate acknowledgement after the third? ::@:: It adds one MSS.
-- fast recovery versus slow start: the pre-loss window is $CWND$; how far does each reaction drop it? ::@:: Fast recovery to about $CWND/2$, a return to slow start to one MSS.
-- ending fast recovery: what does the sender do when the acknowledgement for the retransmitted segment arrives? ::@:: It sets the congestion window to the slow-start threshold and returns to congestion avoidance.
+- fast recovery values: the third duplicate acknowledgement arrives while the window is $CWND$; what does the sender set? ::@:: The slow-start threshold to $CWND/2$, and the congestion window to that plus $3$ MSS. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- three segments: why does fast recovery add $3$ MSS to the halved threshold? ::@:: Each duplicate acknowledgement means one more segment has left the network, so the sender counts that room in. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- further duplicate acknowledgements: what does the sender do to $CWND$ for each duplicate acknowledgement after the third? ::@:: It adds one MSS. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- fast recovery versus slow start: the pre-loss window is $CWND$; how far does each reaction drop it? ::@:: Fast recovery to about $CWND/2$, a return to slow start to one MSS. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- ending fast recovery: what does the sender do when the acknowledgement for the retransmitted segment arrives? ::@:: It sets the congestion window to the slow-start threshold and returns to congestion avoidance. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## reno state machine
 
@@ -101,8 +101,8 @@ The transitions also use the duplicate-acknowledgement counter and the slow-star
 
 Flashcards for this section are as follows:
 
-- initial state: which state does the sender start in, and what are the default $ssthresh$ and counter values? ::@:: Slow start, with $ssthresh = 64$ KB and the counter at $0$.
-- slow start to congestion avoidance: a new acknowledgement arrives with $cwnd \ge ssthresh$; which state does the sender move to? ::@:: Congestion avoidance.
-- duplicate-acknowledgement counter reset: which events set the counter back to $0$? ::@:: A new acknowledgement in slow start or congestion avoidance, a timeout, and leaving fast recovery.
-- entering fast recovery: from which two states, and on which event, does the sender enter fast recovery? ::@:: From slow start or congestion avoidance, on the third duplicate acknowledgement.
-- timeout transitions: which state does a timeout lead to from any of the three states, and what becomes of $cwnd$ and $ssthresh$? ::@:: Slow start, with $ssthresh = cwnd/2$, $cwnd = 1$ MSS, and the counter reset.
+- initial state: which state does the sender start in, and what are the default $ssthresh$ and counter values? ::@:: Slow start, with $ssthresh = 64$ KB and the counter at $0$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- slow start to congestion avoidance: a new acknowledgement arrives with $cwnd \ge ssthresh$; which state does the sender move to? ::@:: Congestion avoidance. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- duplicate-acknowledgement counter reset: which events set the counter back to $0$? ::@:: A new acknowledgement in slow start or congestion avoidance, a timeout, and leaving fast recovery. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- entering fast recovery: from which two states, and on which event, does the sender enter fast recovery? ::@:: From slow start or congestion avoidance, on the third duplicate acknowledgement. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- timeout transitions: which state does a timeout lead to from any of the three states, and what becomes of $cwnd$ and $ssthresh$? ::@:: Slow start, with $ssthresh = cwnd/2$, $cwnd = 1$ MSS, and the counter reset. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-02T00:10:00.000Z,0,2.3065,2.11810397,1,1,0,1,2026-11-02T00:00:00.000Z-->

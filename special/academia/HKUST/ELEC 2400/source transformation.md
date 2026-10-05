@@ -21,7 +21,7 @@ It is a statement about the terminals: the voltage and current seen from outside
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Source transformation converts a voltage source $V$ in series with $R$ into a current source $\frac{V}{R}$ in parallel with $R$, and back, preserving the terminal voltage and current. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- overview ::@:: Source transformation converts a voltage source $V$ in series with $R$ into a current source $\frac{V}{R}$ in parallel with $R$, and back, preserving the terminal voltage and current. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## the two forms
 
@@ -33,10 +33,10 @@ Only the arrangement changes, series one way and parallel the other; the resista
 
 Flashcards for this section are as follows:
 
-- overview ::@:: The two equivalent forms are interchangeable: series becomes parallel with $I_{sc} = \frac{V_{oc}}{R_{\text{eq}}}$, and parallel becomes series with $V_{oc} = I_{sc}R_{\text{eq}}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- from series to parallel: how is the parallel form obtained from $V_{oc}$ in series with $R_{\text{eq}}$? ::@:: Short the terminals: the current that flows is $I_{sc} = \frac{V_{oc}}{R_{\text{eq}}}$, giving that current source in parallel with $R_{\text{eq}}$.
-- from parallel to series: how is the series form obtained from $I_{sc}$ in parallel with $R_{\text{eq}}$? ::@:: Open the terminals: the whole $I_{sc}$ passes through $R_{\text{eq}}$, giving $V_{oc} = I_{sc}R_{\text{eq}}$ in series with $R_{\text{eq}}$.
-- what is preserved: which quantity survives a source transformation? ::@:: The equivalent resistance, and with it the terminal voltage and current; only the arrangement of source and resistor changes.
+- overview ::@:: The two equivalent forms are interchangeable: series becomes parallel with $I_{sc} = \frac{V_{oc}}{R_{\text{eq}}}$, and parallel becomes series with $V_{oc} = I_{sc}R_{\text{eq}}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- from series to parallel: how is the parallel form obtained from $V_{oc}$ in series with $R_{\text{eq}}$? ::@:: Short the terminals: the current that flows is $I_{sc} = \frac{V_{oc}}{R_{\text{eq}}}$, giving that current source in parallel with $R_{\text{eq}}$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- from parallel to series: how is the series form obtained from $I_{sc}$ in parallel with $R_{\text{eq}}$? ::@:: Open the terminals: the whole $I_{sc}$ passes through $R_{\text{eq}}$, giving $V_{oc} = I_{sc}R_{\text{eq}}$ in series with $R_{\text{eq}}$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what is preserved: which quantity survives a source transformation? ::@:: The equivalent resistance, and with it the terminal voltage and current; only the arrangement of source and resistor changes. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## external quantities only
 
@@ -48,10 +48,10 @@ A $9\text{ A}$ source in parallel with a $3\ \Omega$ resistor, with a $6\ \Omega
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A source transformation is valid only for voltages and currents external to the equivalent circuits; quantities inside the transformed part are not preserved.
-- scope of validity: which voltages and currents does a source transformation preserve? ::@:: Those external to the equivalent circuits; internal branch quantities are not preserved.
-- worked conversion: a $9\text{ A}$ source in parallel with $3\ \Omega$ is transformed; what is the resulting series form? ::@:: A $27\text{ V}$ source in series with $3\ \Omega$, since $V_{oc} = 9\text{ A} \times 3\ \Omega = 27\text{ V}$.
-- lost quantity: after that conversion the external $I_o = 3\text{ A}$ is unchanged while the $3\ \Omega$ resistor no longer carries $6\text{ A}$; why? ::@:: The transformation rearranges the elements whose internal current was asked for, so only external quantities survive it.
+- overview ::@:: A source transformation is valid only for voltages and currents external to the equivalent circuits; quantities inside the transformed part are not preserved. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- scope of validity: which voltages and currents does a source transformation preserve? ::@:: Those external to the equivalent circuits; internal branch quantities are not preserved. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- worked conversion: a $9\text{ A}$ source in parallel with $3\ \Omega$ is transformed; what is the resulting series form? ::@:: A $27\text{ V}$ source in series with $3\ \Omega$, since $V_{oc} = 9\text{ A} \times 3\ \Omega = 27\text{ V}$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- lost quantity: after that conversion the external $I_o = 3\text{ A}$ is unchanged while the $3\ \Omega$ resistor no longer carries $6\text{ A}$; why? ::@:: The transformation rearranges the elements whose internal current was asked for, so only external quantities survive it. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## reducing a circuit by transformation
 
@@ -65,8 +65,8 @@ A longer chain follows the same pattern: a $40\text{ V}$ source with $20\ \Omega
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Repeated transformation converts source-resistor pairs into whichever form lets the surrounding network be reduced by series and parallel rules, avoiding simultaneous equations.
-- why transform: what does transforming sources in turn replace? ::@:: The need to solve simultaneous equations: each conversion leaves the neighbouring network reducible by series and parallel rules.
-- worked conversion and reduction: a $2\text{ A}$ source across $4\ \Omega$ and a $4\text{ V}$ source with $4\ \Omega$ are to be solved for $V_a$; how does converting the voltage source help? ::@:: It becomes a $1\text{ A}$ source across $4\ \Omega$, so the currents add and the resistors combine: $V_a = 3\text{ A} \times (4\ \Omega \| 4\ \Omega) = 6\text{ V}$.
-- same answer by loop: how does the alternative conversion reproduce $V_a = 6\text{ V}$? ::@:: Converting the current-source branch gives $8\text{ V}$ in series with $4\ \Omega$ against $4\text{ V}$, so $I = \frac{8\text{ V} - 4\text{ V}}{4\ \Omega + 4\ \Omega} = 0.5\text{ A}$ and $V_a = 8\text{ V} - 0.5\text{ A} \times 4\ \Omega = 6\text{ V}$.
-- chain of conversions: a $40\text{ V}$ source with $20\ \Omega$, a $5\text{ A}$ source with $8\ \Omega$, and resistors of $30\ \Omega$ and $12\ \Omega$ reduce to what? ::@:: Step by step to a $24\text{ V}$ source with $12\ \Omega$ and $8\ \Omega$ in series, where $I = \frac{16\text{ V}}{32\ \Omega} = -0.5\text{ A}$ once the reduced source's polarity is followed.
+- overview ::@:: Repeated transformation converts source-resistor pairs into whichever form lets the surrounding network be reduced by series and parallel rules, avoiding simultaneous equations. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- why transform: what does transforming sources in turn replace? ::@:: The need to solve simultaneous equations: each conversion leaves the neighbouring network reducible by series and parallel rules. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- worked conversion and reduction: a $2\text{ A}$ source across $4\ \Omega$ and a $4\text{ V}$ source with $4\ \Omega$ are to be solved for $V_a$; how does converting the voltage source help? ::@:: It becomes a $1\text{ A}$ source across $4\ \Omega$, so the currents add and the resistors combine: $V_a = 3\text{ A} \times (4\ \Omega \| 4\ \Omega) = 6\text{ V}$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- same answer by loop: how does the alternative conversion reproduce $V_a = 6\text{ V}$? ::@:: Converting the current-source branch gives $8\text{ V}$ in series with $4\ \Omega$ against $4\text{ V}$, so $I = \frac{8\text{ V} - 4\text{ V}}{4\ \Omega + 4\ \Omega} = 0.5\text{ A}$ and $V_a = 8\text{ V} - 0.5\text{ A} \times 4\ \Omega = 6\text{ V}$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- chain of conversions: a $40\text{ V}$ source with $20\ \Omega$, a $5\text{ A}$ source with $8\ \Omega$, and resistors of $30\ \Omega$ and $12\ \Omega$ reduce to what? ::@:: Step by step to a $24\text{ V}$ source with $12\ \Omega$ and $8\ \Omega$ in series, where $I = \frac{16\text{ V}}{32\ \Omega} = -0.5\text{ A}$ once the reduced source's polarity is followed. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-02T00:10:00.000Z,0,2.3065,2.11810397,1,1,0,1,2026-11-02T00:00:00.000Z-->

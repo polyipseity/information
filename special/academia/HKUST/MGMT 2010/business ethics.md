@@ -20,8 +20,8 @@ Ethics is a branch of philosophy that asks what we ought to do. Business ethics 
 
 Flashcards for this section are as follows:
 
-- Definition in business context ::@:: The application of ethical reasoning to how business decisions are made and how people are treated.
-- Peter Singer's definition of ethics ::@:: "The systematic study of reasoning about how we ought to act."
+- Definition in business context ::@:: The application of ethical reasoning to how business decisions are made and how people are treated. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- Peter Singer's definition of ethics ::@:: "The systematic study of reasoning about how we ought to act." <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## relationship between law and ethics
 
@@ -33,7 +33,7 @@ Legal compliance sets the floor, not the ceiling. A decision can be perfectly le
 
 Flashcards for this section are as follows:
 
-- Law versus ethics ::@:: Legality sets the minimum; ethics demands more. A decision can be legal yet widely considered unethical, and the reputational cost can match legal penalties.
+- Law versus ethics ::@:: Legality sets the minimum; ethics demands more. A decision can be legal yet widely considered unethical, and the reputational cost can match legal penalties. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## stated values versus actual behaviour
 
@@ -47,9 +47,9 @@ The course itself is discussion-based. Students work through problematic scenari
 
 Flashcards for this section are as follows:
 
-- Self-serving bias in honesty ::@:: 75% of students rated their own honesty at 7+ out of 10, but only 56% gave classmates the same rating — people overestimate their own ethicality relative to others.
-- Stated values versus actual behaviour ::@:: 97% of students claimed they would return a wallet with money in it, yet unethical conduct is routine in organisations. What people say they would do and what they actually do diverge.
-- Environment over character ::@:: People are not inherently good or bad; the environment and incentives they face shape how they act. Changing the environment is easier than changing human nature.
+- Self-serving bias in honesty ::@:: 75% of students rated their own honesty at 7+ out of 10, but only 56% gave classmates the same rating — people overestimate their own ethicality relative to others. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- Stated values versus actual behaviour ::@:: 97% of students claimed they would return a wallet with money in it, yet unethical conduct is routine in organisations. What people say they would do and what they actually do diverge. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- Environment over character ::@:: People are not inherently good or bad; the environment and incentives they face shape how they act. Changing the environment is easier than changing human nature. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## where ethics come from
 
@@ -59,8 +59,8 @@ Students' ethical frameworks are shaped mainly by external forces. Family (44%) 
 
 Flashcards for this section are as follows:
 
-- Sources of ethical reasoning ::@:: Family (44%) and society (35%) are the dominant sources of ethics; religion (17%), personal reasoning (4%), and peers (1%) trail.
-- Ethics without religion ::@:: 88% of students believe ethics can exist without religion or spirituality — a secular assumption the course takes as its starting point.
+- Sources of ethical reasoning ::@:: Family (44%) and society (35%) are the dominant sources of ethics; religion (17%), personal reasoning (4%), and peers (1%) trail. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- Ethics without religion ::@:: 88% of students believe ethics can exist without religion or spirituality — a secular assumption the course takes as its starting point. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## ethical frameworks as lenses
 
@@ -81,12 +81,12 @@ The self-driving car trolley problem makes this concrete. A car at 130 km/h must
 
 Flashcards for this section are as follows:
 
-- Six ethical perspectives ::@:: Duty (follow rules), utilitarian (greatest good for greatest number), virtue (act from character), caring (prioritise relationships), egoism (self-interest), justice (fair distribution).
-- No single best perspective ::@:: All six have merit and overlap. The goal is to understand how each shapes reasoning, not to choose one.
-- Frameworks produce different answers ::@:: The same dilemma yields different conclusions under different frameworks. The value is in understanding why.
-- Duty ethics ::@:: Focus on rules, responsibilities, and obligations. Do what you are supposed to do.
-- Utilitarian ethics ::@:: Focus on outcomes. Do what benefits the most people.
-- Virtue ethics ::@:: Focus on character. Act from integrity and your own principles.
-- Caring ethics ::@:: Focus on relationships. Prioritise those with whom you share personal bonds.
-- Egoism ethics ::@:: Focus on self-interest. Assert your own goals.
-- Justice ethics ::@:: Focus on fairness. Distribute benefits and burdens equitably.
+- Six ethical perspectives ::@:: Duty (follow rules), utilitarian (greatest good for greatest number), virtue (act from character), caring (prioritise relationships), egoism (self-interest), justice (fair distribution). <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- No single best perspective ::@:: All six have merit and overlap. The goal is to understand how each shapes reasoning, not to choose one. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- Frameworks produce different answers ::@:: The same dilemma yields different conclusions under different frameworks. The value is in understanding why. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- Duty ethics ::@:: Focus on rules, responsibilities, and obligations. Do what you are supposed to do. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- Utilitarian ethics ::@:: Focus on outcomes. Do what benefits the most people. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- Virtue ethics ::@:: Focus on character. Act from integrity and your own principles. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- Caring ethics ::@:: Focus on relationships. Prioritise those with whom you share personal bonds. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- Egoism ethics ::@:: Focus on self-interest. Assert your own goals. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- Justice ethics ::@:: Focus on fairness. Distribute benefits and burdens equitably. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->

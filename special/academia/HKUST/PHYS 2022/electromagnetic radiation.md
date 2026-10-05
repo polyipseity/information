@@ -16,12 +16,12 @@ _Electromagnetic radiation_ is a wave of oscillating electric and magnetic field
 
 Flashcards for this section are as follows:
 
-- an electromagnetic wave: its two fields, and how they sit relative to the direction of travel ::@:: Oscillating electric and magnetic fields, perpendicular to each other and to the direction of travel.
-- Maxwell's equations: what they say about an electromagnetic wave of speed $c$ in vacuum ::@:: Such waves must exist, and in vacuum they all travel at the one speed $c$.
-- the speed of an electromagnetic wave in vacuum, in terms of $\mu_0$ and $\varepsilon_0$ ::@:: $c = \frac{1}{\sqrt{\mu_0\varepsilon_0}}$.
-- the relation between the speed $c$, the wavelength $\lambda$, and the frequency $f$ of an electromagnetic wave ::@:: $c = \lambda f$.
-- the value of $c$ in vacuum ::@:: $3 \times 10^{8}\ \text{m/s}$.
-- the names of $\mu_0$ and $\varepsilon_0$ ::@:: The permeability and the permittivity of free space.
+- an electromagnetic wave: its two fields, and how they sit relative to the direction of travel ::@:: Oscillating electric and magnetic fields, perpendicular to each other and to the direction of travel. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- Maxwell's equations: what they say about an electromagnetic wave of speed $c$ in vacuum ::@:: Such waves must exist, and in vacuum they all travel at the one speed $c$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the speed of an electromagnetic wave in vacuum, in terms of $\mu_0$ and $\varepsilon_0$ ::@:: $c = \frac{1}{\sqrt{\mu_0\varepsilon_0}}$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the relation between the speed $c$, the wavelength $\lambda$, and the frequency $f$ of an electromagnetic wave ::@:: $c = \lambda f$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the value of $c$ in vacuum ::@:: $3 \times 10^{8}\ \text{m/s}$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the names of $\mu_0$ and $\varepsilon_0$ ::@:: The permeability and the permittivity of free space. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## the electromagnetic spectrum
 
@@ -31,9 +31,9 @@ Waves are classified by wavelength. The spectrum runs from $10\ \text{m}$ down t
 
 Flashcards for this section are as follows:
 
-- the electromagnetic spectrum: the bands in order of decreasing wavelength ::@:: Radio and TV, microwave, infrared, visible light, ultraviolet, X-rays, and gamma rays.
-- the electromagnetic spectrum: the wavelength range $\lambda$ and frequency range $f$ it spans ::@:: $\lambda$ from $10\ \text{m}$ to $10^{-13}\ \text{m}$, and $f$ from $10^{8}\ \text{Hz}$ to $10^{22}\ \text{Hz}$.
-- the band just beyond red, and where nearly all of an ordinary object's thermal radiation lands ::@:: Infrared.
+- the electromagnetic spectrum: the bands in order of decreasing wavelength ::@:: Radio and TV, microwave, infrared, visible light, ultraviolet, X-rays, and gamma rays. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the electromagnetic spectrum: the wavelength range $\lambda$ and frequency range $f$ it spans ::@:: $\lambda$ from $10\ \text{m}$ to $10^{-13}\ \text{m}$, and $f$ from $10^{8}\ \text{Hz}$ to $10^{22}\ \text{Hz}$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the band just beyond red, and where nearly all of an ordinary object's thermal radiation lands ::@:: Infrared. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ### visible light
 
@@ -43,8 +43,8 @@ Visible light is the narrow band the human eye sees, from $700\ \text{nm}$ to $4
 
 Flashcards for this section are as follows:
 
-- visible light: the band the eye sees, its wavelength range $\lambda$, and the colour at each end ::@:: $\lambda$ from $700\ \text{nm}$ to $400\ \text{nm}$, red at the long-wavelength end and violet at the short-wavelength end.
-- visible light: the colours between red and violet, in order ::@:: Orange, yellow, green, and blue.
+- visible light: the band the eye sees, its wavelength range $\lambda$, and the colour at each end ::@:: $\lambda$ from $700\ \text{nm}$ to $400\ \text{nm}$, red at the long-wavelength end and violet at the short-wavelength end. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- visible light: the colours between red and violet, in order ::@:: Orange, yellow, green, and blue. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## the medium and the aether
 
@@ -54,8 +54,8 @@ A wave was assumed to need a medium to travel in. $c$ is fixed by the properties
 
 Flashcards for this section are as follows:
 
-- why a medium, the "ether", was assumed necessary for a wave of speed $c$ ::@:: $c$ is fixed by the properties of free space, so the equations called for a space-filling "ether".
-- the status of the ether by 1895 ::@:: Its existence was one of the three unresolved problems of the period.
+- why a medium, the "ether", was assumed necessary for a wave of speed $c$ ::@:: $c$ is fixed by the properties of free space, so the equations called for a space-filling "ether". <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the status of the ether by 1895 ::@:: Its existence was one of the three unresolved problems of the period. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## generation of electromagnetic waves
 
@@ -65,10 +65,10 @@ Electromagnetic waves come from accelerating electric charges. A stationary char
 
 Flashcards for this section are as follows:
 
-- a stationary electric charge: the $1/r^2$ falloff of its field, and whether it radiates ::@:: The field is a static Coulomb field falling off as $1/r^2$, and the charge does not radiate.
-- what a charge moving at constant velocity produces ::@:: A steady magnetic field, and no propagating wave.
-- the condition for radiation from a charge ::@:: The charge must accelerate ($\vec{a} \neq 0$). <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- an oscillating charge radiating at frequency $f$: the frequency of the emitted wave and its wavelength $\lambda$ ::@:: The frequency matches the charge's oscillation frequency $f$, and the wavelength is $\lambda = c/f$.
+- a stationary electric charge: the $1/r^2$ falloff of its field, and whether it radiates ::@:: The field is a static Coulomb field falling off as $1/r^2$, and the charge does not radiate. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what a charge moving at constant velocity produces ::@:: A steady magnetic field, and no propagating wave. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the condition for radiation from a charge ::@:: The charge must accelerate ($\vec{a} \neq 0$). <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- an oscillating charge radiating at frequency $f$: the frequency of the emitted wave and its wavelength $\lambda$ ::@:: The frequency matches the charge's oscillation frequency $f$, and the wavelength is $\lambda = c/f$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## detection of electromagnetic waves
 
@@ -78,9 +78,9 @@ A receiving antenna detects the wave: its electric field exerts a force $\vec{F}
 
 Flashcards for this section are as follows:
 
-- a receiving antenna: what makes it respond to the wave ::@:: The wave's electric field exerts a force $\vec{F} = -e\vec{E}$ on free electrons, driving a current at the same frequency. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- the confirmation of Maxwell's prediction: who detected the waves, when, and at what distance $d$ ::@:: Hertz, in 1885, at $d = 15\ \text{m}$.
-- Hertz on the practical use of his discovery ::@:: Asked about their applications, he called the waves "of no use whatsoever" and answered "Nothing, I guess."
+- a receiving antenna: what makes it respond to the wave ::@:: The wave's electric field exerts a force $\vec{F} = -e\vec{E}$ on free electrons, driving a current at the same frequency. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the confirmation of Maxwell's prediction: who detected the waves, when, and at what distance $d$ ::@:: Hertz, in 1885, at $d = 15\ \text{m}$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- Hertz on the practical use of his discovery ::@:: Asked about their applications, he called the waves "of no use whatsoever" and answered "Nothing, I guess." <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## wireless communication
 
@@ -90,6 +90,6 @@ Guglielmo Marconi (1874–1937) turned the waves Hertz dismissed into a radiotel
 
 Flashcards for this section are as follows:
 
-- Marconi's system, built from the waves Hertz had dismissed, and the date the first radio message crossed the Atlantic ::@:: A radiotelegraph system; 17 December 1902.
-- the first radio message to cross the Atlantic: the points it was sent from and received at ::@:: Glace Bay in Nova Scotia, and Poldhu in Cornwall.
-- the year Marconi received the Nobel Prize in Physics ::@:: 1909.
+- Marconi's system, built from the waves Hertz had dismissed, and the date the first radio message crossed the Atlantic ::@:: A radiotelegraph system; 17 December 1902. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the first radio message to cross the Atlantic: the points it was sent from and received at ::@:: Glace Bay in Nova Scotia, and Poldhu in Cornwall. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the year Marconi received the Nobel Prize in Physics ::@:: 1909. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->

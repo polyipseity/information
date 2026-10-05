@@ -21,12 +21,12 @@ Caching pays off whenever the frequent case becomes much faster and the infreque
 
 Flashcards for this section are as follows:
 
-- caching definition ::@:: Copying a subset of information from slower, larger storage to faster, smaller storage, so frequent cases become faster and infrequent ones less dominant.
-- levels at which caching is performed ::@:: Caching is performed at many levels, including memory, address translation, file blocks, file names, file directories, and network routes.
-- caching inside an operating system ::@:: Whenever a subset of content needs to be stored in a faster device, caching applies; part of a file directory stored on a hard disk can also be cached in memory.
-- cache versus cached storage size ::@:: The cache is usually much smaller than the storage it caches.
-- cache hit ::@:: The information is already inside the cache, so it is used directly, which is fast.
-- cache miss ::@:: The information is not in the cache, so the data is copied in from the slower storage and used there.
+- caching definition ::@:: Copying a subset of information from slower, larger storage to faster, smaller storage, so frequent cases become faster and infrequent ones less dominant. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- levels at which caching is performed ::@:: Caching is performed at many levels, including memory, address translation, file blocks, file names, file directories, and network routes. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- caching inside an operating system ::@:: Whenever a subset of content needs to be stored in a faster device, caching applies; part of a file directory stored on a hard disk can also be cached in memory. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- cache versus cached storage size ::@:: The cache is usually much smaller than the storage it caches. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- cache hit ::@:: The information is already inside the cache, so it is used directly, which is fast. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- cache miss ::@:: The information is not in the cache, so the data is copied in from the slower storage and used there. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## cache management and performance
 
@@ -38,9 +38,9 @@ A cache's quality is summarized by the __cache hit ratio__, the percentage of co
 
 Flashcards for this section are as follows:
 
-- cache management ::@:: Because the cache is much smaller than the storage being cached, the design must decide the cache size and the replacement policy.
-- cache hit ratio ::@:: The percentage of content found in the cache; the major criterion used to judge a cache.
-- average access time: how do $\text{hit ratio}$, $\text{hit time}$, $\text{miss ratio}$, and $\text{miss time}$ combine? ::@:: $\text{average access time} = (\text{hit ratio} \times \text{hit time}) + (\text{miss ratio} \times \text{miss time})$.
+- cache management ::@:: Because the cache is much smaller than the storage being cached, the design must decide the cache size and the replacement policy. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- cache hit ratio ::@:: The percentage of content found in the cache; the major criterion used to judge a cache. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- average access time: how do $\text{hit ratio}$, $\text{hit time}$, $\text{miss ratio}$, and $\text{miss time}$ combine? ::@:: $\text{average access time} = (\text{hit ratio} \times \text{hit time}) + (\text{miss ratio} \times \text{miss time})$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## locality of reference
 
@@ -52,7 +52,7 @@ Without locality caching would not work: if every item were equally likely to be
 
 Flashcards for this section are as follows:
 
-- temporal locality ::@:: Locality in time: items that were accessed recently are likely to be accessed again.
-- spatial locality ::@:: Locality in space: the contiguous blocks near a recently accessed item are likely to be accessed shortly, for both data and program.
-- why caching works at all ::@:: Caching works because of locality of reference; without an access-locality pattern it would never work.
-- equal-probability counterexample ::@:: If all items were equally likely to be accessed, the chance of finding a needed item would not improve.
+- temporal locality ::@:: Locality in time: items that were accessed recently are likely to be accessed again. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- spatial locality ::@:: Locality in space: the contiguous blocks near a recently accessed item are likely to be accessed shortly, for both data and program. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- why caching works at all ::@:: Caching works because of locality of reference; without an access-locality pattern it would never work. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- equal-probability counterexample ::@:: If all items were equally likely to be accessed, the chance of finding a needed item would not improve. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->

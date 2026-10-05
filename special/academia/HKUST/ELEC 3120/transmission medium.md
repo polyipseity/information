@@ -21,8 +21,8 @@ A transmission medium is the means by which information travels from a sender to
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A transmission medium is the means by which information travels from a sender to a receiver.
-- data transmission: what is it? ::@:: The process of sending digital or analog data over a communication medium to one or more devices.
+- overview ::@:: A transmission medium is the means by which information travels from a sender to a receiver. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- data transmission: what is it? ::@:: The process of sending digital or analog data over a communication medium to one or more devices. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## media
 
@@ -32,12 +32,12 @@ Copper appears as the twisted pairs of an Ethernet cable, which carry the data a
 
 Flashcards for this section are as follows:
 
-- which media carry light? ::@:: Free space and optical fiber.
-- which medium does a mobile phone use? ::@:: Radio.
-- how does Ethernet carry data along its copper pairs? ::@:: As electrical signals.
-- how was information carried along the Great Wall? ::@:: As light and darkness between beacon towers, at the speed of light.
-- how was information carried in the quipu? ::@:: As up to thousands of knotted strings, tied in a special pattern and moved by hand.
-- which medium does each setting use? ::@:: Copper and fiber in a datacenter, radio for a satellite link, copper and wireless on a campus.
+- which media carry light? ::@:: Free space and optical fiber. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- which medium does a mobile phone use? ::@:: Radio. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- how does Ethernet carry data along its copper pairs? ::@:: As electrical signals. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- how was information carried along the Great Wall? ::@:: As light and darkness between beacon towers, at the speed of light. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- how was information carried in the quipu? ::@:: As up to thousands of knotted strings, tied in a special pattern and moved by hand. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- which medium does each setting use? ::@:: Copper and fiber in a datacenter, radio for a satellite link, copper and wireless on a campus. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## data encoding
 
@@ -47,11 +47,11 @@ Data encoding is the process of applying a specific code to data, converting it 
 
 Flashcards for this section are as follows:
 
-- data encoding: what is it? ::@:: Applying a specific code to data so that it becomes an equivalent form the medium carries.
-- what does the encoding decide? ::@:: How much data each signal state carries.
-- how many values did the beacon towers encode? ::@:: Two: light meant danger, darkness meant safe.
-- why does a quipu carry more per signal than a beacon tower? ::@:: A knot can be tied in many patterns, not just two.
-- how is Ethernet over copper cabled and terminated? ::@:: In a cable of four twisted pairs, terminated in an 8P8C plug wired in T568A or T568B pin order.
+- data encoding: what is it? ::@:: Applying a specific code to data so that it becomes an equivalent form the medium carries. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what does the encoding decide? ::@:: How much data each signal state carries. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- how many values did the beacon towers encode? ::@:: Two: light meant danger, darkness meant safe. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- why does a quipu carry more per signal than a beacon tower? ::@:: A knot can be tied in many patterns, not just two. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- how is Ethernet over copper cabled and terminated? ::@:: In a cable of four twisted pairs, terminated in an 8P8C plug wired in T568A or T568B pin order. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## what the medium determines
 
@@ -61,4 +61,4 @@ The type of physical medium and its length determine the link's bandwidth and it
 
 Flashcards for this section are as follows:
 
-- what do a link's bandwidth and latency come from? ::@:: The medium's type and the link's length.
+- what do a link's bandwidth and latency come from? ::@:: The medium's type and the link's length. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->

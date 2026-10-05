@@ -15,8 +15,8 @@ In market microstructure, _market structure_ is the set of arrangements that dec
 
 Flashcards for this section are as follows:
 
-- overview ::@:: The trading architecture of a market: its rules, available order types, execution method, and transparency.
-- what market structure decides ::@:: How a trade happens, and therefore what a given trade costs.
+- overview ::@:: The trading architecture of a market: its rules, available order types, execution method, and transparency. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what market structure decides ::@:: How a trade happens, and therefore what a given trade costs. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## types of market
 
@@ -26,12 +26,12 @@ Markets differ in timing, which is speed, in order matching and handling, in fle
 
 Flashcards for this section are as follows:
 
-- axes along which markets differ ::@:: Timing, that is speed; order matching and handling; flexibility; fungibility; liquidity; and pricing.
-- the three broad types of market ::@:: Over-the-counter markets, fixing and auctions, and continuous trading with a central limit-order book.
-- how a pre-IPO stock is held and traded ::@:: It is not publicly listed, is held by management, founders, and private investors, and changes hands by bilateral negotiation.
-- how a bond is traded at each stage ::@:: Auctioned in the primary market when it is first issued, and traded over the counter in the secondary market afterwards.
-- question raised by comparing an auction with a centralized limit-order book ::@:: Whether the auction achieves higher market quality, and how over-the-counter trading compares.
-- how one stock can face different trading protocols ::@:: Different venues can use different methods, such as a dealer market and a double auction.
+- axes along which markets differ ::@:: Timing, that is speed; order matching and handling; flexibility; fungibility; liquidity; and pricing. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the three broad types of market ::@:: Over-the-counter markets, fixing and auctions, and continuous trading with a central limit-order book. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- how a pre-IPO stock is held and traded ::@:: It is not publicly listed, is held by management, founders, and private investors, and changes hands by bilateral negotiation. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- how a bond is traded at each stage ::@:: Auctioned in the primary market when it is first issued, and traded over the counter in the secondary market afterwards. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- question raised by comparing an auction with a centralized limit-order book ::@:: Whether the auction achieves higher market quality, and how over-the-counter trading compares. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- how one stock can face different trading protocols ::@:: Different venues can use different methods, such as a dealer market and a double auction. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## centralized markets
 
@@ -41,10 +41,10 @@ In a centralized market, trading happens on an exchange and participants place o
 
 Flashcards for this section are as follows:
 
-- trading mechanism of a centralized market ::@:: Participants place orders into a limit-order book, which matches them much like a double-sided auction.
-- search frictions in a centralized market ::@:: Absent or very small.
-- how visible the trading process is in a centralized market ::@:: Highly transparent.
-- which assets trade in a centralized structure ::@:: Major stocks.
+- trading mechanism of a centralized market ::@:: Participants place orders into a limit-order book, which matches them much like a double-sided auction. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- search frictions in a centralized market ::@:: Absent or very small. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- how visible the trading process is in a centralized market ::@:: Highly transparent. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- which assets trade in a centralized structure ::@:: Major stocks. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## decentralized markets
 
@@ -54,9 +54,9 @@ In a decentralized market, trading is over-the-counter and bilateral: a customer
 
 Flashcards for this section are as follows:
 
-- trading mechanism of a decentralized market ::@:: Over-the-counter bilateral trading: customer against dealer, and dealer against dealer.
-- cost that defines a decentralized market ::@:: Finding a counterparty requires a costly search-and-matching process.
-- which market is the standard decentralized example ::@:: The foreign exchange market.
+- trading mechanism of a decentralized market ::@:: Over-the-counter bilateral trading: customer against dealer, and dealer against dealer. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- cost that defines a decentralized market ::@:: Finding a counterparty requires a costly search-and-matching process. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- which market is the standard decentralized example ::@:: The foreign exchange market. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## choosing a trading structure
 
@@ -66,9 +66,9 @@ Neither structure dominates. A participant who wants to buy a large amount of an
 
 Flashcards for this section are as follows:
 
-- what decides the better trading structure for a trade ::@:: The motive for trading, because each structure offers different benefits and costs for different purposes.
-- reason a large order faces a genuine structural choice ::@:: An over-the-counter market imposes search costs, while a centralized exchange exposes the order in a public order book.
-- what is still open about the two structures themselves ::@:: Whether either is socially optimal, or whether optimality is attainable at all.
+- what decides the better trading structure for a trade ::@:: The motive for trading, because each structure offers different benefits and costs for different purposes. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- reason a large order faces a genuine structural choice ::@:: An over-the-counter market imposes search costs, while a centralized exchange exposes the order in a public order book. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what is still open about the two structures themselves ::@:: Whether either is socially optimal, or whether optimality is attainable at all. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## exchange competition and fragmentation
 
@@ -78,15 +78,15 @@ The United States runs 16 stock exchanges registered with the SEC as national se
 
 Flashcards for this section are as follows:
 
-- how many national securities exchanges the United States registers with the SEC ::@:: 16, plus many alternative trading systems such as dark pools.
-- composition of United States equity trading venues in the earlier breakdown ::@:: 13 exchanges, 33 equity alternative trading systems, and over-the-counter venues.
-- the three families that own most United States exchanges, and their venues ::@:: Cboe with BYX, BZX, EDGA, and EDGX; NYSE with the New York Stock Exchange, Arca, American, and National; and Nasdaq with BX, PHLX, and the Nasdaq Stock Market.
-- United States exchanges outside those families ::@:: The Chicago Stock Exchange and IEX.
-- markets outside the United States and how their exchanges are organized ::@:: Hong Kong runs the Hong Kong Stock Exchange, the United Kingdom the London Stock Exchange, and Japan the Tokyo Stock Exchange; China's market is organized into A-shares and B-shares.
-- example of the SEC's promotion of exchange competition ::@:: The Securities Exchange Act of 1934.
-- rulebook that keeps competing United States exchanges workable ::@:: Regulation National Market System, whose order protection rule is Rule 611.
-- explicit trading fees in the United States ::@:: Very small, roughly 0.05 basis points, while other trading costs stay high.
-- what remains open about fragmented markets ::@:: Why markets differ in this way, what fragmentation does to price, fees, and execution quality, how to trade in a fragmented market, and which design serves users and social welfare.
+- how many national securities exchanges the United States registers with the SEC ::@:: 16, plus many alternative trading systems such as dark pools. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- composition of United States equity trading venues in the earlier breakdown ::@:: 13 exchanges, 33 equity alternative trading systems, and over-the-counter venues. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the three families that own most United States exchanges, and their venues ::@:: Cboe with BYX, BZX, EDGA, and EDGX; NYSE with the New York Stock Exchange, Arca, American, and National; and Nasdaq with BX, PHLX, and the Nasdaq Stock Market. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- United States exchanges outside those families ::@:: The Chicago Stock Exchange and IEX. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- markets outside the United States and how their exchanges are organized ::@:: Hong Kong runs the Hong Kong Stock Exchange, the United Kingdom the London Stock Exchange, and Japan the Tokyo Stock Exchange; China's market is organized into A-shares and B-shares. <!--SR:!fsrs,2026-11-02T00:10:00.000Z,0,2.3065,2.11810397,1,1,0,1,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- example of the SEC's promotion of exchange competition ::@:: The Securities Exchange Act of 1934. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- rulebook that keeps competing United States exchanges workable ::@:: Regulation National Market System, whose order protection rule is Rule 611. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- explicit trading fees in the United States ::@:: Very small, roughly 0.05 basis points, while other trading costs stay high. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what remains open about fragmented markets ::@:: Why markets differ in this way, what fragmentation does to price, fees, and execution quality, how to trade in a fragmented market, and which design serves users and social welfare. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## electronic trading
 
@@ -98,7 +98,7 @@ The trading floor shows the change. In 1879 it is a crowd: an engraving of a hal
 
 Flashcards for this section are as follows:
 
-- three properties of an electronic trading system ::@:: It is more accurate, faster, and more transparent.
-- structural change in execution caused by electronic trading ::@:: The shift between a call auction and a limit-order book.
-- where electronic matching happens ::@:: In a data centre: racks of status lights along an aisle, with nobody in the room.
-- what the 1879 trading floor and the data centre show together ::@:: Matching buyers and sellers no longer needs people: a hall of traders became an empty aisle of racks.
+- three properties of an electronic trading system ::@:: It is more accurate, faster, and more transparent. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- structural change in execution caused by electronic trading ::@:: The shift between a call auction and a limit-order book. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- where electronic matching happens ::@:: In a data centre: racks of status lights along an aisle, with nobody in the room. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what the 1879 trading floor and the data centre show together ::@:: Matching buyers and sellers no longer needs people: a hall of traders became an empty aisle of racks. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->

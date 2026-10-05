@@ -20,10 +20,10 @@ Limit orders and quotes show a trader's intensity, and can reveal private, mater
 
 Flashcards for this section are as follows:
 
-- what a hidden order does ::@:: Hides part of the trading amount from the order book.
-- what controls the visible portion ::@:: A display instruction set by the trader.
-- example of a hidden order ::@:: 100 shares at 100 dollars with 50% display shows only 50 shares on the book.
-- why display rules matter ::@:: Limit orders and quotes show a trader's intensity and can reveal private material information.
+- what a hidden order does ::@:: Hides part of the trading amount from the order book. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what controls the visible portion ::@:: A display instruction set by the trader. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- example of a hidden order ::@:: 100 shares at 100 dollars with 50% display shows only 50 shares on the book. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- why display rules matter ::@:: Limit orders and quotes show a trader's intensity and can reveal private material information. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## execution priority
 
@@ -33,8 +33,8 @@ Hidden orders have lower execution priority than displayed orders at the same pr
 
 Flashcards for this section are as follows:
 
-- execution priority of hidden vs. displayed orders ::@:: Displayed orders standing at the same price are executed first; hidden orders have lower priority.
-- why hidden orders have lower priority ::@:: An open question. Two accounts: offsetting the information advantage of hiding, and the visible commitment of displayed orders.
+- execution priority of hidden vs. displayed orders ::@:: Displayed orders standing at the same price are executed first; hidden orders have lower priority. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- why hidden orders have lower priority ::@:: An open question. Two accounts: offsetting the information advantage of hiding, and the visible commitment of displayed orders. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## prevalence and market effects
 
@@ -44,6 +44,6 @@ Hidden orders make up more than 18% of trading on NASDAQ, 20% on Frankfurt, and 
 
 Flashcards for this section are as follows:
 
-- share of hidden orders on NASDAQ, Frankfurt, and Euronext-Paris (2019) ::@:: More than 18%, 20%, and 22% respectively.
-- two effects of hidden orders on markets ::@:: They harm price discovery but promote competition among liquidity providers and reduce trading costs.
-- what Boulatov and George (2013, _Review of Financial Studies_) find about hidden orders ::@:: They benefit the overall market.
+- share of hidden orders on NASDAQ, Frankfurt, and Euronext-Paris (2019) ::@:: More than 18%, 20%, and 22% respectively. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- two effects of hidden orders on markets ::@:: They harm price discovery but promote competition among liquidity providers and reduce trading costs. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what Boulatov and George (2013, _Review of Financial Studies_) find about hidden orders ::@:: They benefit the overall market. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->

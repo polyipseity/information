@@ -20,9 +20,9 @@ A network is two or more endpoints joined by a communication medium. Joining two
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A network is two or more endpoints joined by a communication medium.
-- internetwork: what does joining two or more networks give? ::@:: An internetwork.
-- which deployments of networks are in use? ::@:: Datacenters, low Earth orbit satellite constellations, and university campuses.
+- overview ::@:: A network is two or more endpoints joined by a communication medium. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- internetwork: what does joining two or more networks give? ::@:: An internetwork. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- which deployments of networks are in use? ::@:: Datacenters, low Earth orbit satellite constellations, and university campuses. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## the parts of a network
 
@@ -32,9 +32,9 @@ Endpoints are the devices that send and receive: workstations, servers, and prin
 
 Flashcards for this section are as follows:
 
-- which endpoints does a small wired network have? ::@:: Workstations, servers, and printers.
-- what joins the endpoints on a segment? ::@:: A hub or switch.
-- what are the three parts of a small wired network? ::@:: Endpoints, a joining device, and the transmission medium.
+- which endpoints does a small wired network have? ::@:: Workstations, servers, and printers. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what joins the endpoints on a segment? ::@:: A hub or switch. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what are the three parts of a small wired network? ::@:: Endpoints, a joining device, and the transmission medium. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## the Internet
 
@@ -44,7 +44,7 @@ The Internet is a lattice of networks rather than one network. Clients and serve
 
 Flashcards for this section are as follows:
 
-- what sits at the Internet's edges? ::@:: Clients and servers, including high-volume server farms.
-- which ISPs carry traffic in the Internet's core? ::@:: Local, regional, and backbone ISPs.
-- where do backbone ISPs meet? ::@:: At exchange points.
-- which link types does an internetwork picture label? ::@:: Satellite links, wireless LANs, and Ethernet LANs at 10 Mbps and 100 Mbps.
+- what sits at the Internet's edges? ::@:: Clients and servers, including high-volume server farms. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- which ISPs carry traffic in the Internet's core? ::@:: Local, regional, and backbone ISPs. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- where do backbone ISPs meet? ::@:: At exchange points. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- which link types does an internetwork picture label? ::@:: Satellite links, wireless LANs, and Ethernet LANs at 10 Mbps and 100 Mbps. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->

@@ -17,11 +17,11 @@ A _stop order_ specifies a trigger (stop) price $P_S$ and stays dormant until th
 
 Flashcards for this section are as follows:
 
-- what a stop order specifies ::@:: A trigger price at which the order activates.
-- when a buy stop order triggers ::@:: When the last execution price rises to the stop price or above.
-- when a sell stop order triggers ::@:: When the last execution price falls to the stop price or below.
-- why a stop order does not execute before its trigger ::@:: It stays dormant, holding the position rather than selling early.
-- what a sell stop does when the price prints exactly at the stop price ::@:: It activates, and the stop-limit sell is placed on the book at its ask.
+- what a stop order specifies ::@:: A trigger price at which the order activates. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- when a buy stop order triggers ::@:: When the last execution price rises to the stop price or above. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- when a sell stop order triggers ::@:: When the last execution price falls to the stop price or below. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- why a stop order does not execute before its trigger ::@:: It stays dormant, holding the position rather than selling early. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what a sell stop does when the price prints exactly at the stop price ::@:: It activates, and the stop-limit sell is placed on the book at its ask. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## stop-limit and stop-market
 
@@ -35,6 +35,6 @@ Exercise: in the same situation, set the ask at \$117. What does the LOB look li
 
 Flashcards for this section are as follows:
 
-- difference between stop-limit and stop-market ::@:: A stop-limit places a limit order on the book; a stop-market executes immediately as a market order.
-- what a stop-limit with a limit above the current price does when triggered ::@:: It rests on the book above the market instead of filling at once.
-- why a trader uses a stop order ::@:: To hold a position while the price stays favorable, and exit when it turns.
+- difference between stop-limit and stop-market ::@:: A stop-limit places a limit order on the book; a stop-market executes immediately as a market order. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what a stop-limit with a limit above the current price does when triggered ::@:: It rests on the book above the market instead of filling at once. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- why a trader uses a stop order ::@:: To hold a position while the price stays favorable, and exit when it turns. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->

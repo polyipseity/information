@@ -27,10 +27,10 @@ The two overlap at "right or wrong conduct." That intersection is where most eth
 
 Flashcards for this section are as follows:
 
-- Ethics versus morals ::@:: Ethics are external rules that vary between contexts; morals are personal principles that travel with you. Both concern right or wrong conduct.
-- Ethics ::@:: Accepted procedures, customs, or habits governing a group. Externally imposed; context-dependent.
-- Morals ::@:: Personal principles rooted in individual character. Internalised; stable across contexts.
-- Where dilemmas arise ::@:: At the intersection of ethics (external rules) and morals (personal principles) — when what the group demands clashes with what the individual believes.
+- Ethics versus morals ::@:: Ethics are external rules that vary between contexts; morals are personal principles that travel with you. Both concern right or wrong conduct. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- Ethics ::@:: Accepted procedures, customs, or habits governing a group. Externally imposed; context-dependent. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- Morals ::@:: Personal principles rooted in individual character. Internalised; stable across contexts. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- Where dilemmas arise ::@:: At the intersection of ethics (external rules) and morals (personal principles) — when what the group demands clashes with what the individual believes. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## moral compass spectrum
 
@@ -48,8 +48,8 @@ Where a society falls on this spectrum depends on how _power_ is distributed and
 
 Flashcards for this section are as follows:
 
-- Moral compass spectrum ::@:: From formal external to internalised personal: justice → laws → rules → ethics → morals.
-- Justice ::@:: Administering deserved punishment or reward.
-- Laws ::@:: Rules of conduct enforced by a controlling authority.
-- Rules ::@:: Accepted procedures, customs, or habits — less formal than laws, still externally maintained.
-- What shapes a society's position on the spectrum ::@:: How _power_ is distributed and which _cultural_ norms carry weight.
+- Moral compass spectrum ::@:: From formal external to internalised personal: justice → laws → rules → ethics → morals. <!--SR:!fsrs,2026-11-02T00:06:00.000Z,0,1.2931,5.11217071,1,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- Justice ::@:: Administering deserved punishment or reward. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- Laws ::@:: Rules of conduct enforced by a controlling authority. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- Rules ::@:: Accepted procedures, customs, or habits — less formal than laws, still externally maintained. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-02T00:10:00.000Z,0,2.3065,2.11810397,1,1,0,1,2026-11-02T00:00:00.000Z-->
+- What shapes a society's position on the spectrum ::@:: How _power_ is distributed and which _cultural_ norms carry weight. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->

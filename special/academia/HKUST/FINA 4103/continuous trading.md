@@ -19,8 +19,8 @@ In a _continuous market_ each incoming order is handled when it arrives, so an o
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Handling each incoming order at the moment it arrives, up to latency, instead of collecting orders into a batch.
-- what the alternative to continuous trading does ::@:: Discrete trading collects orders over an interval and executes them together.
+- overview ::@:: Handling each incoming order at the moment it arrives, up to latency, instead of collecting orders into a batch. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what the alternative to continuous trading does ::@:: Discrete trading collects orders over an interval and executes them together. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## price-time priority
 
@@ -30,8 +30,8 @@ Continuous trading runs on the limit-order book under price-time priority: order
 
 Flashcards for this section are as follows:
 
-- two components of price-time priority ::@:: Orders with better prices are executed first, and among orders at the same price the first to arrive is served first.
-- when trades happen in a continuous market ::@:: In discrete steps in the data, even though orders are accepted continuously.
+- two components of price-time priority ::@:: Orders with better prices are executed first, and among orders at the same price the first to arrive is served first. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- when trades happen in a continuous market ::@:: In discrete steps in the data, even though orders are accepted continuously. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## discrete trading
 
@@ -41,9 +41,9 @@ A discrete market, also called batch trading or periodic trading, collects order
 
 Flashcards for this section are as follows:
 
-- discrete market ::@:: A market that collects orders over a time interval and executes them as a batch; also called batch trading or periodic trading.
-- two examples of discrete trading ::@:: Opening auctions, and trading on a blockchain.
-- how a batch runs ::@:: Orders are submitted during a submission stage, the auction runs at the end of it, and the results are broadcast before the next submission stage begins.
+- discrete market ::@:: A market that collects orders over a time interval and executes them as a batch; also called batch trading or periodic trading. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- two examples of discrete trading ::@:: Opening auctions, and trading on a blockchain. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- how a batch runs ::@:: Orders are submitted during a submission stage, the auction runs at the end of it, and the results are broadcast before the next submission stage begins. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ### frequent batch auction
 
@@ -53,9 +53,9 @@ A frequent batch auction collects orders over a short interval and executes them
 
 Flashcards for this section are as follows:
 
-- frequent batch auction ::@:: A batch of orders collected over a short interval and executed together.
-- what a frequent batch auction was proposed to address ::@:: The arms race in high-frequency trading (Budish et al., 2015, Quarterly Journal of Economics).
-- what remains open about frequent batch auctions ::@:: Whether they work, and whether any market has implemented one.
+- frequent batch auction ::@:: A batch of orders collected over a short interval and executed together. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what a frequent batch auction was proposed to address ::@:: The arms race in high-frequency trading (Budish et al., 2015, Quarterly Journal of Economics). <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what remains open about frequent batch auctions ::@:: Whether they work, and whether any market has implemented one. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## advantages and drawbacks
 
@@ -65,11 +65,11 @@ The case for continuous trading rests on price efficiency, because the market re
 
 Flashcards for this section are as follows:
 
-- argument for continuous trading from price efficiency ::@:: The market reflects new information promptly.
-- argument for continuous trading from liquidity ::@:: Market makers provide liquidity continuously and investors can fill a trading need immediately.
-- effect of continuous trading on the bid-ask spread ::@:: Ambiguous.
-- central drawback of continuous trading ::@:: Speed becomes a further dimension on which information can be acquired, so the speed of acquiring, processing, and reacting to information becomes worth investing in.
-- two consequences of that drawback ::@:: The arms race in high-frequency trading and phantom liquidity.
-- what decides the winner when two rivals receive the same news at the same time ::@:: Whoever can trade on it faster.
-- why the link between Chicago and New York keeps being rebuilt ::@:: To shave milliseconds, because being faster decides who trades.
-- why spending on speed can be wasteful ::@:: It is special-purpose investment.
+- argument for continuous trading from price efficiency ::@:: The market reflects new information promptly. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- argument for continuous trading from liquidity ::@:: Market makers provide liquidity continuously and investors can fill a trading need immediately. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- effect of continuous trading on the bid-ask spread ::@:: Ambiguous. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- central drawback of continuous trading ::@:: Speed becomes a further dimension on which information can be acquired, so the speed of acquiring, processing, and reacting to information becomes worth investing in. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- two consequences of that drawback ::@:: The arms race in high-frequency trading and phantom liquidity. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what decides the winner when two rivals receive the same news at the same time ::@:: Whoever can trade on it faster. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- why the link between Chicago and New York keeps being rebuilt ::@:: To shave milliseconds, because being faster decides who trades. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- why spending on speed can be wasteful ::@:: It is special-purpose investment. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->

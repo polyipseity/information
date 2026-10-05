@@ -15,8 +15,8 @@ A _wave_ is a perturbation of a mass distribution that propagates through a medi
 
 Flashcards for this section are as follows:
 
-- overview: what a wave is ::@:: A perturbation of a mass distribution that propagates and carries energy.
-- the two ways energy is transported ::@:: As particles and as waves.
+- overview: what a wave is ::@:: A perturbation of a mass distribution that propagates and carries energy. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the two ways energy is transported ::@:: As particles and as waves. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## wave and particle models
 
@@ -26,7 +26,7 @@ Energy reaches a distant point as a particle or as a wave, and the two models di
 
 Flashcards for this section are as follows:
 
-- particle against wave: what each propagates in ::@:: A particle propagates in vacuum; a wave propagates in a medium.
+- particle against wave: what each propagates in ::@:: A particle propagates in vacuum; a wave propagates in a medium. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ### the particle model
 
@@ -36,8 +36,8 @@ A particle transfers energy by point-mass interaction, as a transfer of momentum
 
 Flashcards for this section are as follows:
 
-- particles: how energy is transferred ::@:: By point-mass interaction, as transfers of momentum and kinetic energy.
-- particles: the properties of the model ::@:: A point mass with a well-defined position and an adjustable velocity, highly directional, propagating in vacuum.
+- particles: how energy is transferred ::@:: By point-mass interaction, as transfers of momentum and kinetic energy. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- particles: the properties of the model ::@:: A point mass with a well-defined position and an adjustable velocity, highly directional, propagating in vacuum. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ### the wave model
 
@@ -47,8 +47,8 @@ A wave transfers energy over extended regions, by way of vibrations and rotation
 
 Flashcards for this section are as follows:
 
-- waves: how energy is transferred ::@:: Over extended regions, by way of vibrations and rotations of the medium.
-- waves: the properties of the model ::@:: A perturbation in a mass distribution, propagating in a medium, spread in space, with a specific speed, superposing.
+- waves: how energy is transferred ::@:: Over extended regions, by way of vibrations and rotations of the medium. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- waves: the properties of the model ::@:: A perturbation in a mass distribution, propagating in a medium, spread in space, with a specific speed, superposing. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## wave-particle duality
 
@@ -58,7 +58,7 @@ In classical physics, waves and particles are distinct: a wave spreads through a
 
 Flashcards for this section are as follows:
 
-- wave-particle duality: the central idea ::@:: Every quantum entity exhibits both wave-like and particle-like behaviour, depending on the experiment.
-- the de Broglie wavelength: its formula ::@:: $\lambda = h/p = h/mv$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- double-slit fringe spacing: the approximate formula ::@:: $\Delta x \approx \lambda L/d$, where $L$ is the slit-to-screen distance and $d$ is the slit separation. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- what placing a which-way detector at the slits does to the interference pattern ::@:: It destroys the interference pattern, because determining the path collapses the superposition.
+- wave-particle duality: the central idea ::@:: Every quantum entity exhibits both wave-like and particle-like behaviour, depending on the experiment. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- the de Broglie wavelength: its formula ::@:: $\lambda = h/p = h/mv$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- double-slit fringe spacing: the approximate formula ::@:: $\Delta x \approx \lambda L/d$, where $L$ is the slit-to-screen distance and $d$ is the slit separation. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what placing a which-way detector at the slits does to the interference pattern ::@:: It destroys the interference pattern, because determining the path collapses the superposition. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->

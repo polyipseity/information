@@ -26,9 +26,9 @@ Several prices are quoted for the same asset at once. A stock ticker tape usuall
 
 Flashcards for this section are as follows:
 
-- definition of the bid-ask spread ::@:: The difference between the best ask and the best bid on the limit-order book.
-- what the spread costs a round-trip trader ::@:: Buying then selling one unit, or selling then buying it.
-- what the spread measures ::@:: Market liquidity: small means liquid, large means illiquid.
+- definition of the bid-ask spread ::@:: The difference between the best ask and the best bid on the limit-order book. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what the spread costs a round-trip trader ::@:: Buying then selling one unit, or selling then buying it. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what the spread measures ::@:: Market liquidity: small means liquid, large means illiquid. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## best bid and offer
 
@@ -38,9 +38,9 @@ The _best bid_ is the highest bid in the standing limit orders, and the _best as
 
 Flashcards for this section are as follows:
 
-- what the best bid is ::@:: The highest bid in the standing limit orders.
-- what the best ask is ::@:: The lowest ask in the standing limit orders.
-- what NBBO stands for ::@:: National Best Bid and Offer: the aggregate BBO across all markets.
+- what the best bid is ::@:: The highest bid in the standing limit orders. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what the best ask is ::@:: The lowest ask in the standing limit orders. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what NBBO stands for ::@:: National Best Bid and Offer: the aggregate BBO across all markets. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## mid-point quote
 
@@ -50,9 +50,9 @@ The _mid-point quote_ (mid price) is the average of the best ask and the best bi
 
 Flashcards for this section are as follows:
 
-- formula for the mid-point quote ::@:: The average of the best ask and the best bid.
-- what the mid-point quote represents ::@:: A "fair" price of the asset.
-- what the mid-point quote is in a multi-exchange market ::@:: The midpoint of the NBBO, not of a single venue's quote.
+- formula for the mid-point quote ::@:: The average of the best ask and the best bid. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what the mid-point quote represents ::@:: A "fair" price of the asset. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- what the mid-point quote is in a multi-exchange market ::@:: The midpoint of the NBBO, not of a single venue's quote. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## near side and far side
 
@@ -62,10 +62,10 @@ When a trader buys, the best bid is the _near side_ of the spread (the side the 
 
 Flashcards for this section are as follows:
 
-- near side for a buyer ::@:: The best bid.
-- far side for a buyer ::@:: The best ask.
-- near side for a seller ::@:: The best ask.
-- far side for a seller ::@:: The best bid.
+- near side for a buyer ::@:: The best bid. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- far side for a buyer ::@:: The best ask. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- near side for a seller ::@:: The best ask. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- far side for a seller ::@:: The best bid. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 
 ## locked and crossed markets
 
@@ -75,6 +75,6 @@ A market is _locked_ when the best bid equals the best ask, and _crossed_ when t
 
 Flashcards for this section are as follows:
 
-- when a market is locked ::@:: When the best bid equals the best ask.
-- when a market is crossed ::@:: When the best bid exceeds the best ask.
-- whether locked or crossed markets exist in a single-exchange environment ::@:: No; they are relevant only in multi-exchange markets and in LOB data.
+- when a market is locked ::@:: When the best bid equals the best ask. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- when a market is crossed ::@:: When the best bid exceeds the best ask. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- whether locked or crossed markets exist in a single-exchange environment ::@:: No; they are relevant only in multi-exchange markets and in LOB data. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
