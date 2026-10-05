@@ -16,6 +16,7 @@ A course root, a submission, or a questions directory may each need raw files be
 - A definitional drawing is an attachment even when no source file carries it: redraw it as an SVG and embed it in the note (see "Definitional drawings" below)
 - Encode spaces as `%20` in links
 - `\[missing\]` rarely applies here: files exist or they don't (see [special.instructions.md](../../instructions/special.instructions.md#missing-data))
+- An `attachments/` directory belongs to its material: when the material routes private (non-in-class submissions and question pages, see "Public and private trees" in `academic-ingest`), the directory is created at the private mirror of its path and every rule below applies there unchanged. Links to its files stay written as if the directory sat in the public tree
 
 ## Document-like formats (PDF, DOCX, PPTX)
 

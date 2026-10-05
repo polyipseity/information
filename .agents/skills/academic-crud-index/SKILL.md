@@ -47,6 +47,7 @@ tags:
 - __Order__: folders first, then files, each group sorted by Python string order of the destination path, never chronologically or by teaching order. The `index_children_order` rule enforces this; `AGENTS.md` sorts before `Arduino.md` because uppercase sorts first.
 - __Folder entries__: write the link and its display text with a trailing slash (`- [assignments/](assignments/index.md)`, `- [attachments/](attachments/)`).
 - __Encoding__: encode spaces as `%20` and keep every other character literal, parentheses included: `cache (computing).md` is linked as `- [cache (computing)](cache%20(computing).md)`.
+- __Private children__: a child that lives in the private tree is listed with the same colocated link as any other child, written as if the file sat beside the index and never routed through `private/` (see "Public and private trees" in `academic-ingest`); `academic-lint` resolves such a link against the mirror
 
 ```markdown
 ## children
