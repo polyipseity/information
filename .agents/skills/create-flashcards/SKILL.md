@@ -61,7 +61,7 @@ This generalises the worked-example rule above, which covers calculation cards o
 
 ## When to use
 
-Invoke the skill when the user asks to "add flashcards", "cloze this", "quizify", or similar. The target file must already exist; never create new files, and never edit submodules or private content without permission. Process one paragraph or logical block at a time and display the original text for confirmation. Cloze what the block exists to establish: the definitions, the relations, the numbers a reader would be asked to recall. A claim the course only passed over gets one definitional card or none, never a set built out from the encyclopedia article behind it. Numeric facts and simple assignments may be clozed as atomic units. Never cloze a connective, a transition, or a word the reader needs as a hint, and stop at the validator's bounds rather than a higher target, 80% of the paragraph's visible characters at minimum and 98% at the most. The old 92%-per-sentence target pushed the cloze boundary onto words like "therefore" and "which", which tests the reader's memory of your phrasing rather than of the subject.
+Invoke the skill when the user asks to "add flashcards", "cloze this", "quizify", or similar. The target file must already exist; never create new files, and never edit submodules or private content without permission. Private academic content that the `academic-ingest` routing rule sends to `private/` (non-in-class submission artifacts and question pages) is edited in place during an ingestion; other `private/` content still needs permission. Process one paragraph or logical block at a time and display the original text for confirmation. Cloze what the block exists to establish: the definitions, the relations, the numbers a reader would be asked to recall. A claim the course only passed over gets one definitional card or none, never a set built out from the encyclopedia article behind it. Numeric facts and simple assignments may be clozed as atomic units. Never cloze a connective, a transition, or a word the reader needs as a hint, and stop at the validator's bounds rather than a higher target, 80% of the paragraph's visible characters at minimum and 98% at the most. The old 92%-per-sentence target pushed the cloze boundary onto words like "therefore" and "which", which tests the reader's memory of your phrasing rather than of the subject.
 
 Inline comments such as `<!-- check: ignore-line[...]: equation on left -->` are rationales for validator suppressions, not editing instructions. Never split or reflow a card because a comment mentions "left" or "right": the left-hand portion always means the text before the `::@::` or `:@:` separator, and it may be long when calculations are involved.
 
@@ -200,7 +200,7 @@ Common failures: clozing only equations while leaving prose explanations visible
 - Leave visible words around each deletion as a hint, and avoid blanking a sentence entirely unless the context is crystal clear.
 - Mirror the user's style when they supply examples or corrections.
 - Preserve HTML entities and escapes exactly, treating them as opaque literals.
-- Never edit `private/`, `self/`, or other submodules without explicit authorization.
+- Never edit `private/`, `self/`, or other submodules without explicit authorization. Academic content routed to `private/` by `academic-ingest` is the exception: it is edited in place during an ingestion.
 
 ### Sentences and clauses
 

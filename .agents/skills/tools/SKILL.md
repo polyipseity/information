@@ -214,7 +214,7 @@ When editing Python helper scripts in `scripts/`:
 
 - __Preserve CLI surfaces__: Keep argument names, defaults, and help text stable; avoid breaking `uv run -m init generate/clear`, `uv run -m pack`, `uv run -m publish`, and other tool entrypoints
 - __Maintain async/anyio patterns__: Preserve async patterns using AnyIO APIs such as `anyio.Path` and `anyio.Semaphore`, but prefer importing helpers from Asyncer (e.g. `from asyncer import create_task_group`, `soonify`, `asyncify`) for better typing and editor support. The init wrapper has been refactored accordingly and includes its own thin `_gather`.
-- __Keep submodules read-only unless requested__: `private/**` is a git submodule; ask user before editing.
+- __Keep submodules read-only unless requested__: `private/**` is a git submodule; ask user before editing. Academic content routed there by the `academic-ingest` public/private rule is written in place during an ingestion.
 - __Normalize newlines__: When touching the init wrapper, normalize to `\n`; do not bypass its exclusion list (`.git`, `.obsidian`, `scripts`)
 - __Favor relative imports__: Use relative imports within the tools package; do not hardcode absolute host paths
 - __Keep inline script metadata synchronized__: When editing a standalone script with inline `# /// script` metadata: (1) ensure the file begins with `#!/usr/bin/env python` shebang on line 1, (2) update the metadata together with `[dependency-groups].scripts`, (3) keep metadata keys alphabetized, and (4) retain `requires-python = ">=3.13.0"`.
