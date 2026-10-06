@@ -152,7 +152,7 @@ return chain.from_iterable([r.value for r in results])
 - [crucible](crucible.md)→::@::←[crucible tongs](crucible%20tongs.md) <!--SR:!fsrs,2035-12-24T00:00:00.000Z,3394,3393.98424837,1,2,11,0,0,2026-09-08T00:00:00.000Z!2027-08-07,1237,350-->
 - [crucible tongs](crucible%20tongs.md)→::@::←[desiccator](desiccator.md) <!--SR:!2033-03-06,2707,330!fsrs,2029-07-21T00:00:00.000Z,1117,1116.5417091,6.98338322,2,10,0,0,2026-06-30T00:00:00.000Z-->
 - [desiccator](desiccator.md)→::@::←[(eye) dropper/Pasteur pipette](eye%20dropper.md) <!--SR:!2031-04-27,1809,290!2026-12-20,580,270-->
-- [(eye) dropper/Pasteur pipette](eye%20dropper.md)→::@::←dropping bottle <!--SR:!2031-02-14,1969,310!2026-11-04,940,330-->
+- [(eye) dropper/Pasteur pipette](eye%20dropper.md)→::@::←dropping bottle <!--SR:!2031-02-14,1969,310!fsrs,2036-06-23T00:00:00.000Z,3519,3519.09305457,1,2,11,0,0,2026-11-04T00:00:00.000Z-->
 - dropping bottle→::@::←[electronic balance](weighing%20scale.md) <!--SR:!2027-08-29,1055,290!fsrs,2028-07-10T00:00:00.000Z,692,692.35451542,7.98399827,2,9,0,0,2026-08-18T00:00:00.000Z-->
 - [electronic balance](weighing%20scale.md)→::@::←[evaporating dish](evaporating%20dish.md) <!--SR:!2026-12-20,757,230!fsrs,2032-02-22T00:00:00.000Z,2006,2005.87865887,2.98092302,2,10,0,0,2026-08-26T00:00:00.000Z-->
 - [evaporating dish](evaporating%20dish.md)→::@::←[filter funnel](filter%20funnel.md) <!--SR:!2029-03-01,1245,250!fsrs,2033-04-12T00:00:00.000Z,2423,2422.65912101,2.98092302,2,11,0,0,2026-08-24T00:00:00.000Z-->

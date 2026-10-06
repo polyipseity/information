@@ -160,7 +160,7 @@ Using {@{a `Future`}@} also gives {@{built‑in failure handling via `Try[T]`}@}
 >   p.future
 > ```
 >
-> {@{The promise}@} is completed {@{after `asyncAddLegacy` calls the provided callback}@}; {@{any future that has been obtained from `p`}@} will {@{receive the result}@}. <!--SR:!2027-01-22,293,330!2026-12-27,271,330!2026-11-06,237,330!2026-11-06,237,330!2026-12-26,270,330!2027-01-21,292,330!2026-11-04,235,330!2026-12-12,259,330!2027-01-18,288,330-->
+> {@{The promise}@} is completed {@{after `asyncAddLegacy` calls the provided callback}@}; {@{any future that has been obtained from `p`}@} will {@{receive the result}@}. <!--SR:!2027-01-22,293,330!2026-12-27,271,330!2026-11-06,237,330!2026-11-06,237,330!2026-12-26,270,330!2027-01-21,292,330!fsrs,2029-09-18T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-11-04T00:00:00.000Z!2026-12-12,259,330!2027-01-18,288,330-->
 
 ## transformations
 
@@ -329,4 +329,4 @@ When {@{an existing library}@} offers {@{a callback‑based asynchronous method}
 >
 > Assuming {@{_no exceptions_ are thrown before returning `p.future`}@}, the `Promise` is {@{completed exactly once}@}; subsequent calls to {@{`trySuccess` or `tryFailure` are ignored}@} after {@{the first call to either `trySuccess` or `tryFailure`}@}, guaranteeing {@{a single result}@}; note {@{the similar methods `success` and `failure`}@} {@{_throws_ for subsequent calls}@} instead. <!--SR:!2026-12-06,255,330!2026-11-24,252,330!2026-11-12,242,330!2026-12-01,251,330!2027-01-23,294,330!2026-11-16,246,330!2026-12-16,263,330!2027-06-19,407,377!2027-06-19,407,377!2027-06-21,409,377-->
 
-Assuming {@{_no exceptions_ are thrown before returning `p.future`}@}, the `Promise` is {@{completed exactly once}@}; subsequent calls to {@{`trySuccess` or `tryFailure` are ignored}@} after {@{the first call to either `trySuccess` or `tryFailure`}@}, guaranteeing {@{a single result}@}; note {@{the similar methods `success` and `failure`}@} {@{_throws_ for subsequent calls}@} instead. <!--SR:!2027-01-24,294,330!2026-12-11,259,330!2026-12-21,266,330!2026-11-21,250,330!2026-11-04,236,330!2026-11-20,249,330!2027-06-20,408,377-->
+Assuming {@{_no exceptions_ are thrown before returning `p.future`}@}, the `Promise` is {@{completed exactly once}@}; subsequent calls to {@{`trySuccess` or `tryFailure` are ignored}@} after {@{the first call to either `trySuccess` or `tryFailure`}@}, guaranteeing {@{a single result}@}; note {@{the similar methods `success` and `failure`}@} {@{_throws_ for subsequent calls}@} instead. <!--SR:!2027-01-24,294,330!2026-12-11,259,330!2026-12-21,266,330!2026-11-21,250,330!fsrs,2029-09-22T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-11-04T00:00:00.000Z!2026-11-20,249,330!2027-06-20,408,377-->

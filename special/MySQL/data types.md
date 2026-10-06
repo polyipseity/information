@@ -33,7 +33,7 @@ tags:
     - `TINYBLOB`, `BLOB`, `MEDIUMBLOB`, `LONGBLOB` ::@:: Unindexed prefix-indexable long binary strings. <!--SR:!2029-01-26,1389,330!2030-04-10,1859,350-->
         - `TINYBLOB` ::@:: Up to 2<sup>8</sup>−1 bytes of binary string. <!--SR:!fsrs,2031-08-22T00:00:00.000Z,1795,1794.68428824,3.24197837,2,11,0,0,2026-09-22T00:00:00.000Z!2030-05-25,1884,350-->
         - `BLOB` ::@:: Up to 2<sup>16</sup>−1 bytes of binary string. <!--SR:!2029-02-15,1403,330!2030-02-25,1828,350-->
-        - `MEDIUMBLOB` ::@:: Up to 2<sup>24</sup>−1 bytes of binary string. <!--SR:!2026-11-04,783,310!2028-07-25,1271,330-->
+        - `MEDIUMBLOB` ::@:: Up to 2<sup>24</sup>−1 bytes of binary string. <!--SR:!fsrs,2031-12-09T00:00:00.000Z,1861,1861.34477231,3.24197837,2,11,0,0,2026-11-04T00:00:00.000Z!2028-07-25,1271,330-->
         - `LONGBLOB` ::@:: Up to 2<sup>32</sup>−1 bytes of binary string. <!--SR:!2029-12-03,1579,310!2027-11-14,1140,330-->
     - `CHAR`, `VARCHAR` ::@:: Strings. Length of the former is fixed and of the latter is variable. <!--SR:!2030-01-04,1787,350!2028-06-11,1286,330-->
         - `CHAR` ::@:: Up to 2<sup>8</sup>−1 bytes of fixed-size string. <!--SR:!2029-03-17,1558,350!2027-11-24,1149,330-->

@@ -24,7 +24,7 @@ tags:
 
 In {@{modern multicore CPUs}@}, {@{parallelism}@} is achieved by {@{running many tasks simultaneously on distinct cores}@}. {@{Traditional thread‑based approaches}@} force programmers to protect {@{shared mutable data with mutexes or semaphores}@}. Such mechanisms are {@{error‑prone}@}: {@{a missing lock}@} can cause {@{data races}@}; {@{nested locks}@} can {@{lead to deadlocks}@}. Moreover, {@{the overhead of context switching and contention}@} limits {@{scalability}@}. <!--SR:!2026-12-23,267,330!2026-12-25,268,330!2026-12-07,256,330!2026-11-09,240,330!2027-01-11,285,330!2027-01-18,290,330!2026-12-23,269,330!2026-12-31,273,330!2027-01-23,292,330!2026-12-17,264,330!2026-11-29,250,330!2027-01-11,285,330-->
 
-Actors {@{sidestep these issues}@} by enforcing {@{_encapsulation_: an actor never exposes its internal state to other actors}@}. The only interaction is through {@{immutable messages sent asynchronously}@}. This guarantees that {@{two actors cannot interfere with each other’s data}@}, so {@{no lock is required}@}. Because sending {@{a message does not block the sender}@}, the model naturally supports {@{high‑throughput, non‑blocking systems}@}. <!--SR:!fsrs,2029-09-07T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-11-01T00:00:00.000Z!2026-12-13,261,330!2027-01-17,290,330!2026-11-04,236,330!2027-01-10,284,330!2026-11-24,252,330!fsrs,2029-08-24T00:00:00.000Z,1030,1029.72783972,1,2,9,0,0,2026-10-29T00:00:00.000Z-->
+Actors {@{sidestep these issues}@} by enforcing {@{_encapsulation_: an actor never exposes its internal state to other actors}@}. The only interaction is through {@{immutable messages sent asynchronously}@}. This guarantees that {@{two actors cannot interfere with each other’s data}@}, so {@{no lock is required}@}. Because sending {@{a message does not block the sender}@}, the model naturally supports {@{high‑throughput, non‑blocking systems}@}. <!--SR:!fsrs,2029-09-07T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-11-01T00:00:00.000Z!2026-12-13,261,330!2027-01-17,290,330!fsrs,2029-09-22T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-11-04T00:00:00.000Z!2027-01-10,284,330!2026-11-24,252,330!fsrs,2029-08-24T00:00:00.000Z,1030,1029.72783972,1,2,9,0,0,2026-10-29T00:00:00.000Z-->
 
 Actors provide {@{a clean abstraction for parallelism}@}: they eliminate {@{shared mutable state}@}, remove {@{lock‑based synchronization, and avoid deadlocks}@} while still allowing {@{many actors to run concurrently}@}. This makes Scala programs easier to {@{write, reason about, and scale on modern multicore hardware}@}. <!--SR:!2026-11-25,253,330!2026-11-27,255,330!2027-01-02,277,330!2027-01-09,283,330!2027-01-13,286,330-->
 
@@ -339,7 +339,7 @@ In {@{an actor‑based design}@}, {@{a `BankAccount`}@} exposes only {@{two oper
 >     case _                    => sender() ! Failed
 > }
 > ```
-<!--SR:!2026-12-10,259,330!2026-12-24,270,330!2026-12-21,268,330!2026-11-04,236,330!2026-11-22,251,330!2026-12-31,276,330-->
+<!--SR:!2026-12-10,259,330!2026-12-24,270,330!2026-12-21,268,330!fsrs,2029-09-22T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-11-04T00:00:00.000Z!2026-11-22,251,330!2026-12-31,276,330-->
 
 {@{A `WireTransfer` actor}@} demonstrates how {@{two bank accounts can cooperate without shared state}@}. It first asks {@{the source account to withdraw}@}, waits for {@{its reply}@}, and only then {@{deposits into the destination}@}. <!--SR:!2027-01-12,285,330!2026-11-25,253,330!2027-01-16,286,330!2026-11-06,237,330!2027-01-02,277,330-->
 
@@ -386,7 +386,7 @@ In {@{an actor‑based design}@}, {@{a `BankAccount`}@} exposes only {@{two oper
 - _at-least-once_: ::@:: the sender repeats until it receives an acknowledgment, so the message is delivered one or more times. <!--SR:!2027-01-17,290,330!2027-01-13,284,330-->
 - _exactly-once_: ::@:: the system guarantees that only the first reception is processed, typically by combining at‑least‑once delivery with idempotent handlers or persistent state. <!--SR:!2026-11-28,249,330!2027-01-05,280,330-->
 
-One may rely on {@{business logic}@} to {@{ignore duplicates}@}. {@{Akka actors}@} provide {@{persistence primitives}@} that let {@{a message be stored and replayed}@}, enabling {@{exactly‑once processing}@} when coupled with {@{unique correlation IDs}@}. <!--SR:!2026-11-05,237,330!2026-11-11,241,330!2027-01-19,291,330!2026-11-26,254,330!2026-11-04,236,330!2027-01-19,291,330!2027-01-07,279,330-->
+One may rely on {@{business logic}@} to {@{ignore duplicates}@}. {@{Akka actors}@} provide {@{persistence primitives}@} that let {@{a message be stored and replayed}@}, enabling {@{exactly‑once processing}@} when coupled with {@{unique correlation IDs}@}. <!--SR:!2026-11-05,237,330!2026-11-11,241,330!2027-01-19,291,330!2026-11-26,254,330!fsrs,2029-09-22T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-11-04T00:00:00.000Z!2027-01-19,291,330!2027-01-07,279,330-->
 
 > [!example] __reliable transfer using IDs__
 >
@@ -508,7 +508,7 @@ Actors can schedule {@{timeouts via the actor system’s scheduler}@}. {@{A cont
 >     // other cases …
 > ```
 >
-> {@{Note that `scheduleOnce`}@} also accepts {@{a runnable}@}. However, we cannot use it to {@{_directly_ run `children.foreach(_ ! Abort)`}@} as it {@{breaks encapsulation}@}. That is, the actor state is {@{accessed from outside the actor's `receive` function}@}. <!--SR:!2026-11-10,241,330!2026-11-08,239,330!2027-01-22,291,330!2026-12-05,255,330!2026-11-22,251,330!2027-01-06,281,330!2026-11-04,236,330!2026-12-17,262,330!2026-11-25,253,330!2027-01-17,287,330!2027-01-21,293,330-->
+> {@{Note that `scheduleOnce`}@} also accepts {@{a runnable}@}. However, we cannot use it to {@{_directly_ run `children.foreach(_ ! Abort)`}@} as it {@{breaks encapsulation}@}. That is, the actor state is {@{accessed from outside the actor's `receive` function}@}. <!--SR:!2026-11-10,241,330!2026-11-08,239,330!2027-01-22,291,330!2026-12-05,255,330!2026-11-22,251,330!2027-01-06,281,330!fsrs,2029-09-22T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-11-04T00:00:00.000Z!2026-12-17,262,330!2026-11-25,253,330!2027-01-17,287,330!2027-01-21,293,330-->
 
 {@{A `Cache` actor}@} may be {@{further split from the `Controller` actor}@}. <!--SR:!2026-11-10,241,330!2026-11-17,245,330-->
 

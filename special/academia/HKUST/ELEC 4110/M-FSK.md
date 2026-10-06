@@ -22,7 +22,7 @@ tags:
 
 {@{The $M$-ary FSK constellation}@} is {@{$M$ distinct tones}@}, each at {@{a different frequency}@} (equivalently, {@{unit vectors in $M$-dimensional space}@}). <!--SR:!2027-01-02,288,330!2026-12-17,275,330!2026-11-20,253,330!2026-12-14,272,330-->
 
-Assume {@{equiprobable symbols and AWGN}@}. In {@{a coherent receiver}@}, {@{the signal is correlated with every basis $\mathbf{e}_k$}@} and {@{the largest correlation is selected}@}. Each decision region is {@{all vectors whose inner product with one particular unit vector exceeds all others}@}—{@{$M$ orthogonal slices in $M$-dimensional Euclidean space}@}: {@{$$\bigl\{\,\mathbf{r}\;:\;\arg\max_{j \in \set{1, \ldots, M} } |\langle \mathbf{r},\mathbf{e}_j\rangle|^2 = k\bigr\}\,.$$}@} <!--SR:!2026-12-10,269,330!2027-01-03,289,330!2026-11-21,254,330!2026-11-09,244,330!2026-11-04,240,330!2027-01-08,293,330!2026-11-30,261,330-->
+Assume {@{equiprobable symbols and AWGN}@}. In {@{a coherent receiver}@}, {@{the signal is correlated with every basis $\mathbf{e}_k$}@} and {@{the largest correlation is selected}@}. Each decision region is {@{all vectors whose inner product with one particular unit vector exceeds all others}@}—{@{$M$ orthogonal slices in $M$-dimensional Euclidean space}@}: {@{$$\bigl\{\,\mathbf{r}\;:\;\arg\max_{j \in \set{1, \ldots, M} } |\langle \mathbf{r},\mathbf{e}_j\rangle|^2 = k\bigr\}\,.$$}@} <!--SR:!2026-12-10,269,330!2027-01-03,289,330!2026-11-21,254,330!2026-11-09,244,330!fsrs,2029-10-07T00:00:00.000Z,1068,1068.495917,1,2,9,0,0,2026-11-04T00:00:00.000Z!2027-01-08,293,330!2026-11-30,261,330-->
 
 ## error analysis
 
@@ -52,4 +52,4 @@ For {@{M-FSK}@}, {@{the pairwise error probability}@} is: {@{$$\boxed{P(s_k \mid
 
 ### error analysis using simulation
 
-{@{Simulations are more common}@} in practice. Because {@{the bit error rate is small}@}, {@{simulations must run long enough}@} to converge {@{on a reliable estimate}@}. They show {@{the union bound is a good approximation in most cases}@}. \(We cannot know {@{_a priori_}@} whether {@{the bound is tight}@}.\) <!--SR:!2026-11-05,241,330!2027-01-02,288,330!2027-01-04,290,330!2026-11-18,251,330!2026-12-21,278,330!2026-12-28,284,330!2026-11-04,240,330-->
+{@{Simulations are more common}@} in practice. Because {@{the bit error rate is small}@}, {@{simulations must run long enough}@} to converge {@{on a reliable estimate}@}. They show {@{the union bound is a good approximation in most cases}@}. \(We cannot know {@{_a priori_}@} whether {@{the bound is tight}@}.\) <!--SR:!2026-11-05,241,330!2027-01-02,288,330!2027-01-04,290,330!2026-11-18,251,330!2026-12-21,278,330!2026-12-28,284,330!fsrs,2029-10-07T00:00:00.000Z,1068,1068.495917,1,2,9,0,0,2026-11-04T00:00:00.000Z-->

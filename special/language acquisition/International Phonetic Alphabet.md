@@ -257,7 +257,7 @@ return chain.from_iterable(result.value for result in results)
         - [trill](trill%20consonant.md)::@::consonant produced by vibrations between the active articulator and the passive articulator <!--SR:!2027-08-28,1090,318!2032-11-17,2684,381-->
     - [place of articulation](place%20of%20articulation.md)::@::location along the [vocal tract](vocal%20tract.md) producing the consonant <!--SR:!fsrs,2035-10-17T00:00:00.000Z,3309,3308.5761988,1,2,11,0,0,2026-09-25T00:00:00.000Z!2032-08-09,2600,378-->
         - [alveolar](alveolar%20ridge.md)::@::upper [alveolar ridge](alveolar%20ridge.md), the [gum](gums.md) line behind the upper [teeth](tooth.md) (passive) <!--SR:!2027-02-23,921,339!2028-01-28,1189,350-->
-        - [aryepiglottal](pharyngeal%20consonant.md)::@::[aryepiglottic fold](aryepiglottic%20fold.md) in the [throat](throat.md) (active) <!--SR:!2026-11-04,958,353!fsrs,2028-12-25T00:00:00.000Z,866,866.0998397,1.70601587,2,9,0,0,2026-08-12T00:00:00.000Z-->
+        - [aryepiglottal](pharyngeal%20consonant.md)::@::[aryepiglottic fold](aryepiglottic%20fold.md) in the [throat](throat.md) (active) <!--SR:!fsrs,2033-09-07T00:00:00.000Z,2499,2498.9352989,1.63109087,2,11,0,0,2026-11-04T00:00:00.000Z!fsrs,2028-12-25T00:00:00.000Z,866,866.0998397,1.70601587,2,9,0,0,2026-08-12T00:00:00.000Z-->
         - [coronal](coronal%20constant.md)::@::front of the [tongue](tongue.md) (active) <!--SR:!2026-12-19,939,313!2026-12-17,839,298-->
             - [apical](apical%20consonant.md)::@::tip of the [tongue](tongue.md) (active) <!--SR:!2028-07-13,1304,324!2032-12-05,2691,378-->
             - [laminal](laminal%20consonant.md)::@::blade of the [tongue](tongue.md), the upper front surface behind the tip (active) <!--SR:!2029-04-24,1285,253!2030-06-26,1603,260-->
@@ -963,7 +963,7 @@ Here is a list of common IPA letters and their pronunciations:
 - [voiced glottal fricative](voiced%20glottal%20fricative.md):@:[English](English%20language.md) _be**h**ind_ \[bɪˈɦaɪ̯nd\] <!--SR:!2028-05-20,1042,257-->
 - [aspirated consonant](aspirated%20consonant.md):@:[English](English%20langugae.md) _**t**op_ \[tʰɒp\] <!--SR:!2032-05-16,2517,377-->
 - [voiceless pharyngeal fricative](voiceless%20pharyngeal%20fricative.md):@:[English](English%20language.md) _**h**orrible_ \[ħɒɹɪbəl\] <!--SR:!fsrs,2027-06-25T00:00:00.000Z,299,298.84987711,7.32154389,2,8,0,0,2026-08-30T00:00:00.000Z-->
-- [close front unrounded vowel](close%20front%20unrounded%20vowel.md):@:[English](English%20language.md) _fr**ee**_ \[fɹiː\] <!--SR:!fsrs,2026-11-04T00:00:00.000Z,133,133.25183221,9.98522837,2,8,0,0,2026-06-24T00:00:00.000Z-->
+- [close front unrounded vowel](close%20front%20unrounded%20vowel.md):@:[English](English%20language.md) _fr**ee**_ \[fɹiː\] <!--SR:!fsrs,2027-04-18T00:00:00.000Z,165,165.45379987,9.97047151,2,9,0,0,2026-11-04T00:00:00.000Z-->
 - [near-close near-front unrounded vowel](near-close%20near-front%20unrounded%20vowel.md):@:[English](English%20language.md) _b**i**t_ \[bɪʔt\] <!--SR:!fsrs,2027-05-19T14:11:57.200Z,339,339.43416587,9.31308369,2,9,0,0,2026-06-14T14:11:57.200Z-->
 - [close central unrounded vowel](close%20central%20unrounded%20vowel.md):@:[Russian](Russian%20language.md) _т**ы**_ \[t̪ɨ\] "you" <!--SR:!fsrs,2026-11-07T00:00:00.000Z,136,136.49516346,9.98522837,2,8,0,0,2026-06-24T00:00:00.000Z-->
 - [voiced palatal approximant](voiced%20palatal%20approximant.md):@:[English](English%20language.md) _**y**ou_ \[juː\] <!--SR:!fsrs,2027-02-02T00:00:00.000Z,96,96.30046533,9.95572941,2,8,0,0,2026-10-29T00:00:00.000Z-->
@@ -992,7 +992,7 @@ Here is a list of common IPA letters and their pronunciations:
 - [close-mid front rounded vowel](close-mid%20front%20rounded%20vowel.md):@:[French](French%20language.md) _p**eu**_ \[pø\] "few" <!--SR:!fsrs,2026-12-18T00:00:00.000Z,56,56.40316197,9.94111202,2,9,0,0,2026-10-23T00:00:00.000Z-->
 - [close-mid central rounded vowel](close-mid%20central%20rounded%20vowel.md):@:[English](English%20language.md) _f**oo**t_ \[fɵʔt\] <!--SR:!2026-12-20,222,170-->
 - [open-mid front rounded vowel](open-mid%20front%20rounded%20vowel.md):@:[French](French%20language.md) _j**eu**ne_ \[ʒœn\] "young" <!--SR:!fsrs,2026-11-20T00:00:00.000Z,84,84.44363724,9.97542228,2,8,0,0,2026-08-28T00:00:00.000Z-->
-- [nasalized open-mid front rounded vowel](nasal%20vowel.md):@:[French](French%20language.md) _br**un**_ \[bʁœ̃\] "brown" <!--SR:!fsrs,2026-11-04T00:00:00.000Z,75,74.90122184,9.97047151,2,8,0,0,2026-08-21T00:00:00.000Z-->
+- [nasalized open-mid front rounded vowel](nasal%20vowel.md):@:[French](French%20language.md) _br**un**_ \[bʁœ̃\] "brown" <!--SR:!fsrs,2027-02-07T00:00:00.000Z,95,95.16149112,9.95572941,2,9,0,0,2026-11-04T00:00:00.000Z-->
 - [open front rounded vowel](open%20front%20rounded%20vowel.md):@:[Danish](Danish%20language.md) _gr**ø**n_ \[ˈkʁɶ̝nˀ\] "green" <!--SR:!fsrs,2026-12-11T00:00:00.000Z,55,54.68716176,9.94278281,2,8,0,0,2026-10-17T00:00:00.000Z-->
 - [voiceless bilabial plosive](voiceless%20bilabial%20plosive.md):@:[English](English%20language.md) _**p**ack_ \[pʰæk\] <!--SR:!2028-04-13,1043,271-->
 - [voiceless uvular plosive](voiceless%20uvular%20plosive.md):@:[Arabic](Arabic%20language.md) قط/_**q**iṭṭ_ \[qitˤː\] "cat" <!--SR:!fsrs,2026-12-17T00:00:00.000Z,44,43.8110559,9.94222522,2,11,0,0,2026-11-03T00:00:00.000Z-->

@@ -61,7 +61,7 @@ For example, {@{$$x(x+1)(x+2)={\color {red}6}x+{\color {red}6}x(x-1)+{\color {re
 
 The Lah numbers {@{satisfy a variety of identities and relations}@}. <!--SR:!2029-07-18,1342,350-->
 
-In [Karamata](Jovan%20Karamata.md)–[Knuth](Donald%20Knuth.md) notation for [Stirling numbers](Stirling%20number.md) {@{$$L(n,k)=\sum _{j=k}^{n}\left[{n \atop j}\right]\left\{ {j \atop k}\right\}$$}@} where {@{$\left[{n \atop j}\right]$ are the [Stirling numbers of the first kind](Stirling%20numbers%20of%20the%20first%20kind.md) and $\left\{ {j \atop k}\right\}$ are the [Stirling numbers of the second kind](stirling%20numbers%20of%20the%20second%20kind.md)}@}. <!--SR:!2026-11-04,536,310!2029-06-16,1317,350-->
+In [Karamata](Jovan%20Karamata.md)–[Knuth](Donald%20Knuth.md) notation for [Stirling numbers](Stirling%20number.md) {@{$$L(n,k)=\sum _{j=k}^{n}\left[{n \atop j}\right]\left\{ {j \atop k}\right\}$$}@} where {@{$\left[{n \atop j}\right]$ are the [Stirling numbers of the first kind](Stirling%20numbers%20of%20the%20first%20kind.md) and $\left\{ {j \atop k}\right\}$ are the [Stirling numbers of the second kind](stirling%20numbers%20of%20the%20second%20kind.md)}@}. <!--SR:!fsrs,2032-05-05T00:00:00.000Z,2009,2009.26018388,1,2,10,0,0,2026-11-04T00:00:00.000Z!2029-06-16,1317,350-->
 
 - alternative ways to write the formula ::@:: $$L(n,k)={n-1 \choose k-1}{\frac {n!}{k!} }={n \choose k}{\frac {(n-1)!}{(k-1)!} }={n \choose k}{n-1 \choose k-1}(n-k)!$$ <!--SR:!2027-10-06,680,270!2027-06-26,667,310-->
 - formula with square ::@:: $$L(n,k)={\frac {n!(n-1)!}{k!(k-1)!} }\cdot {\frac {1}{(n-k)!} }=\left({\frac {n!}{k!} }\right)^{2}{\frac {k}{n(n-k)!} }$$ <!--SR:!2027-11-21,708,270!fsrs,2030-08-14T00:00:00.000Z,1491,1490.57206723,1.98030797,2,10,0,0,2026-07-15T00:00:00.000Z-->

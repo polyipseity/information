@@ -108,7 +108,7 @@ In practice, there are {@{"multiplicities" that are _soft_ constraints}@}. We {@
 
 ### association roles
 
-{@{A _role_}@} of an association is {@{one _end_ of an association}@}. It describes {@{the _semantics_ of a class participating in the association}@}. It is written on {@{the side of the _current_ class}@}. It is usually {@{_optional_ for binary associations}@}, and always {@{_required_ for unary associations}@}. <!--SR:!fsrs,2030-05-19T00:00:00.000Z,1307,1306.9359048,1,2,9,0,0,2026-10-20T00:00:00.000Z!2026-11-04,304,342!2026-11-10,310,342!2027-03-01,396,361!2026-11-24,314,342!fsrs,2030-06-13T00:00:00.000Z,1327,1326.54889029,1,2,9,0,0,2026-10-25T00:00:00.000Z-->
+{@{A _role_}@} of an association is {@{one _end_ of an association}@}. It describes {@{the _semantics_ of a class participating in the association}@}. It is written on {@{the side of the _current_ class}@}. It is usually {@{_optional_ for binary associations}@}, and always {@{_required_ for unary associations}@}. <!--SR:!fsrs,2030-05-19T00:00:00.000Z,1307,1306.9359048,1,2,9,0,0,2026-10-20T00:00:00.000Z!fsrs,2030-08-01T00:00:00.000Z,1366,1365.65210756,1,2,9,0,0,2026-11-04T00:00:00.000Z!2026-11-10,310,342!2027-03-01,396,361!2026-11-24,314,342!fsrs,2030-06-13T00:00:00.000Z,1327,1326.54889029,1,2,9,0,0,2026-10-25T00:00:00.000Z-->
 
 {@{The _name_}@} of a role should be {@{_unique_ in an association}@}. <!--SR:!2026-11-08,308,342!2027-03-13,408,370-->
 
@@ -136,7 +136,7 @@ Often, the association name is {@{"Has", but can be other names as appropriate f
 
 In many cases, {@{whether a composition \(or aggregation\)}@} should be used is {@{unclear, and is mostly a matter of taste \(design decision\)}@}. When {@{in doubt}@}, use {@{a pure association}@}. <!--SR:!2027-03-23,418,373!2027-03-26,421,373!2027-03-22,417,373!2027-03-22,417,373-->
 
-To {@{represent composition}@}, use {@{a _solid_ diamond \(_adornment_\) at the end of the aggregate object \(child\)}@}. Multiplicity can be {@{omitted if the cardinality range is `1..1`}@}. In some cases, you may want to specify {@{`1..*` as the multiplicity}@}. <!--SR:!2027-01-17,368,361!2026-11-07,307,342!2026-11-04,304,342!2027-02-28,395,361-->
+To {@{represent composition}@}, use {@{a _solid_ diamond \(_adornment_\) at the end of the aggregate object \(child\)}@}. Multiplicity can be {@{omitted if the cardinality range is `1..1`}@}. In some cases, you may want to specify {@{`1..*` as the multiplicity}@}. <!--SR:!2027-01-17,368,361!2026-11-07,307,342!fsrs,2030-08-01T00:00:00.000Z,1366,1365.65210756,1,2,9,0,0,2026-11-04T00:00:00.000Z!2027-02-28,395,361-->
 
 ### association generalizations
 
@@ -162,9 +162,9 @@ This allows us to {@{_simplify_ diagrams for _clarity_}@}, because {@{common att
 
 #### generalization properties
 
-{@{Generalization}@} can be characterized by {@{2 main properties \(and possibly more\)}@}: {@{_completeness_ and _disjointness_}@}. These two are also called {@{_coverage constraints_}@}. These depend on {@{the semantics of the superclass and subclasses}@} and {@{the _application domain_}@} \(e.g. {@{the exact same generalization in different domains may have different properties}@}\). <!--SR:!2027-02-25,392,361!2027-02-10,388,361!2027-03-21,416,370!2027-02-09,387,361!2027-02-02,381,361!2026-11-04,304,342!fsrs,2030-03-18T00:00:00.000Z,1248,1247.70008002,1,2,9,0,0,2026-10-17T00:00:00.000Z-->
+{@{Generalization}@} can be characterized by {@{2 main properties \(and possibly more\)}@}: {@{_completeness_ and _disjointness_}@}. These two are also called {@{_coverage constraints_}@}. These depend on {@{the semantics of the superclass and subclasses}@} and {@{the _application domain_}@} \(e.g. {@{the exact same generalization in different domains may have different properties}@}\). <!--SR:!2027-02-25,392,361!2027-02-10,388,361!2027-03-21,416,370!2027-02-09,387,361!2027-02-02,381,361!fsrs,2030-08-01T00:00:00.000Z,1366,1365.65210756,1,2,9,0,0,2026-11-04T00:00:00.000Z!fsrs,2030-03-18T00:00:00.000Z,1248,1247.70008002,1,2,9,0,0,2026-10-17T00:00:00.000Z-->
 
-{@{_Disjointness_}@} refers to {@{whether an instance of a superclass is also an instance of _at most_ one subclass}@}. A {@{_disjoint_ generalization}@} is {@{one where all instances of a superclass is also an instance of _at most_ one subclass}@}. Its opposite is {@{_overlapping_}@}, in which {@{there are instances of a superclass that are also instances of _multiple_ subclasses}@}. <!--SR:!2026-12-03,323,342!2026-11-23,313,342!2027-01-15,366,361!2027-03-14,409,370!2027-02-25,392,361!2026-11-04,304,342-->
+{@{_Disjointness_}@} refers to {@{whether an instance of a superclass is also an instance of _at most_ one subclass}@}. A {@{_disjoint_ generalization}@} is {@{one where all instances of a superclass is also an instance of _at most_ one subclass}@}. Its opposite is {@{_overlapping_}@}, in which {@{there are instances of a superclass that are also instances of _multiple_ subclasses}@}. <!--SR:!2026-12-03,323,342!2026-11-23,313,342!2027-01-15,366,361!2027-03-14,409,370!2027-02-25,392,361!fsrs,2030-08-01T00:00:00.000Z,1366,1365.65210756,1,2,9,0,0,2026-11-04T00:00:00.000Z-->
 
 {@{_Completeness_}@} refers to {@{whether an instance of a superclass must be an instance of a subclass \(i.e. _indirect_\)}@}. A {@{_complete_ generalization}@} is {@{one where all instances of a superclass is an instance of \(_at least_\) one subclass \(i.e. only _indirect_ instances of the superclass can exist\)}@}. Its opposite is {@{_incomplete_}@}, in which there may be {@{_direct_ instances of a superclass that are not instances of any subclasses \(i.e. _direct_ instances of the superclass can exist\)}@}. <!--SR:!2027-03-15,410,370!2027-02-28,395,361!2026-12-06,326,342!fsrs,2030-06-22T00:00:00.000Z,1334,1334.38257947,1,2,9,0,0,2026-10-27T00:00:00.000Z!fsrs,2030-05-29T00:00:00.000Z,1315,1314.78612692,1,2,9,0,0,2026-10-22T00:00:00.000Z!fsrs,2030-03-03T00:00:00.000Z,1236,1235.87608288,1,2,9,0,0,2026-10-14T00:00:00.000Z-->
 

@@ -167,7 +167,7 @@ The content is in teaching order.
             - process costing / weighted average cost / reconcile costs / table: [formats § process costing \(weighted average\)](formats.md#process%20costing%20(weighted%20average))
         - process costing / weighted average cost / prepare production reports ::@:: section 1: step 1, step 2 <br/> section 2: step 3 <br/> section 3: step 4 <!--SR:!2027-01-05,541,406!2027-01-05,541,406-->
             - process costing / weighted average cost / prepare production reports / headers ::@:: Section \(\#\) of Production Report <br/> \(company name\) <br/> Process Costing Production Report \(Weighted Average Method\) <br/> \(process name\) Process <br/> For \(time, e.g. the Quarter Ended March 31, 2025\) <!--SR:!2026-12-17,522,406!fsrs,2032-11-10T00:00:00.000Z,2214,2214.22574091,1,2,10,0,0,2026-10-19T00:00:00.000Z-->
-            - process costing / weighted average cost / prepare production reports / formatting ::@:: Add dollar signs if needed to the first and last currency number in the same column. Underline total costs in section 3. <!--SR:!2026-12-29,534,406!2026-11-04,493,406-->
+            - process costing / weighted average cost / prepare production reports / formatting ::@:: Add dollar signs if needed to the first and last currency number in the same column. Underline total costs in section 3. <!--SR:!2026-12-29,534,406!fsrs,2033-01-17T00:00:00.000Z,2266,2266.2125374,1,2,10,0,0,2026-11-04T00:00:00.000Z-->
             - processing costing / weighted average cost / prepare production reports / format: [formats § process costing \(weighted average\)](formats.md#process%20costing%20(weighted%20average))
 
 ## week 3 lecture 1
@@ -359,7 +359,7 @@ The content is in teaching order.
 - topic: cost behavior
 - total absorption costing
     - total absorption costing / cost classification ::@:: costs are mainly split into manufacturing costs, non-manufacturing costs <!--SR:!2026-12-09,522,406!fsrs,2032-12-16T00:00:00.000Z,2242,2242.24024358,1,2,10,0,0,2026-10-27T00:00:00.000Z-->
-    - total absorption costing / manufacturing overhead ::@:: divided between cost of goods sold (when overapplied, underapplied, or sold) and ending inventory (when unsold) <!--SR:!2026-12-24,529,406!2026-11-04,493,406-->
+    - total absorption costing / manufacturing overhead ::@:: divided between cost of goods sold (when overapplied, underapplied, or sold) and ending inventory (when unsold) <!--SR:!2026-12-24,529,406!fsrs,2033-01-17T00:00:00.000Z,2266,2266.2125374,1,2,10,0,0,2026-11-04T00:00:00.000Z-->
     - total absorption / formula ::@:: (net) sales, less: cost of goods sold, (subtotal:) _gross margin_, less: non-manufacturing expenses, (total:) net operating income <!--SR:!2027-03-29,544,346!2027-01-01,537,406-->
 - variable costing
     - variable costing / from total absorption costing ::@:: Move all manufacturing (e.g. variable manufacturing costs) _and_ non-manufacturing (e.g. variable selling expenses) variable costs to variable costs. The variable costs should be based on units _sold_, not _manufactured_. <p> Move all manufacturing (e.g. manufacturing overhead) _and_ non-manufacturing (e.g. general and administrative expenses) fixed costs to fixed costs. _Importantly_, _all_ manufacturing overhead incurred (instead of the portion corresponding to sold goods) during the period is expensed. <!--SR:!2028-05-30,895,346!2027-10-13,746,366-->

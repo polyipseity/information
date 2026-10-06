@@ -233,7 +233,7 @@ The content is in teaching order.
 - topic: software development; project risks; project planning; software development process; agile; unified process
 - [software](../../../../general/software.md) ::@:: It consists of computer programs that instruct the execution of a computer. It also includes design documents and specifications. <!--SR:!2027-04-13,442,383!2027-06-03,485,391-->
     - software / nature ::@:: does not wear out, easy to create and modify, easy to mass produce, intangible, labor-intensive <!--SR:!2027-05-08,459,383!2027-05-06,463,391-->
-        - software / nature / intangible ::@:: hard to appreciate its development effort, assess its quality, visualize <!--SR:!2026-11-15,304,378!2026-11-04,291,371-->
+        - software / nature / intangible ::@:: hard to appreciate its development effort, assess its quality, visualize <!--SR:!2026-11-15,304,378!fsrs,2030-10-09T00:00:00.000Z,1435,1434.89511388,1,2,9,0,0,2026-11-04T00:00:00.000Z-->
         - software / nature / easy to mass produce ::@:: It is easy to copy and distribute software. The main cost is development, not manufacture. <!--SR:!2027-05-01,458,391!2027-06-02,484,391-->
         - software / nature / labor-intensive ::@:: Design and programming is hard to automate. <!--SR:!2027-06-22,504,398!2027-07-14,522,398-->
         - software / nature / easy to create and modify ::@:: While easy to create and modify, it is also easy to create and modify software _badly_, creating _defects_ or decreasing _maintainability_. <!--SR:!2027-06-11,493,398!2027-07-13,521,398-->

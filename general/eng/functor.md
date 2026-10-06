@@ -87,7 +87,7 @@ There is a convention which refers to {@{"vectors"—i.e., [vector fields](vecto
 {@{Two important consequences}@} of the functor [axioms](axiom.md) are: <!--SR:!2030-04-20,1519,366-->
 
 - (annotation: commutative diagram) ::@:: _F_ transforms each [commutative diagram](commutative%20diagram.md) in _C_ into a commutative diagram in _D_; <!--SR:!2030-11-05,1691,377!2031-01-07,1741,377-->
-- (annotation: isomorphism) ::@:: if _f_ is an [isomorphism](isomorphism.md) in _C_, then _F_\(_f_\) is an isomorphism in _D_. <!--SR:!2026-11-04,461,337!2029-09-26,1342,350-->
+- (annotation: isomorphism) ::@:: if _f_ is an [isomorphism](isomorphism.md) in _C_, then _F_\(_f_\) is an isomorphism in _D_. <!--SR:!fsrs,2032-02-16T00:00:00.000Z,1930,1930.40711142,1,2,10,0,0,2026-11-04T00:00:00.000Z!2029-09-26,1342,350-->
 
 One can {@{compose functors}@}, i.e. if _F_ is a functor from _A_ to _B_ and {@{_G_ is a functor from _B_ to _C_ then one can form the composite functor _G_ ∘ _F_ from _A_ to _C_}@}. {@{Composition of functors}@} is {@{associative where defined}@}. {@{Identity of composition of functors}@} is {@{the identity functor}@}. This shows that {@{functors can be considered as morphisms in categories of categories}@}, for example in {@{the [category of small categories](category%20of%20small%20categories.md)}@}. <!--SR:!2030-11-13,1696,377!2030-12-01,1711,377!2030-03-30,1502,366!2031-03-02,1773,377!2029-08-13,1306,350!2030-05-08,1534,366!2030-09-27,1660,377!2030-12-13,1720,377-->
 
