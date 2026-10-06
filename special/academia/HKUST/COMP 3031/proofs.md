@@ -20,7 +20,7 @@ tags:
 
 ## list properties
 
-In {@{functional programming}@}, lists are {@{one of the most common data structures}@} and they form {@{the basis for many proofs about program correctness}@}. {@{A central operation}@} on lists is {@{concatenation}@}, denoted by {@{`:::` in Scala}@}. For {@{two lists `xs` and `ys`}@}, {@{the expression `xs ::: ys`}@} produces a new list that contains {@{all elements of `xs` followed by all elements of `ys`}@}. {@{Two fundamental algebraic laws}@} hold for this operator: \(annotation: 2 items: {@{associativity, neutral element}@}\) <!--SR:!fsrs,2029-07-19T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-09-04T00:00:00.000Z!fsrs,2029-08-12T00:00:00.000Z,1068,1068.495917,1,2,9,0,0,2026-09-09T00:00:00.000Z!fsrs,2030-03-22T00:00:00.000Z,1241,1240.62340626,1,2,9,0,0,2026-10-28T00:00:00.000Z!fsrs,2028-08-27T00:00:00.000Z,708,707.6141386,2.49272837,2,9,0,0,2026-09-19T00:00:00.000Z!fsrs,2030-02-10T00:00:00.000Z,1210,1210.28222352,1,2,9,0,0,2026-10-19T00:00:00.000Z!fsrs,2029-07-24T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-09-05T00:00:00.000Z!fsrs,2030-02-04T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-10-17T00:00:00.000Z!2026-11-03,290,330!2026-11-08,294,330!fsrs,2030-01-02T00:00:00.000Z,1180,1179.83367202,1,2,9,0,0,2026-10-10T00:00:00.000Z!fsrs,2030-01-21T00:00:00.000Z,1195,1195.07164214,1,2,9,0,0,2026-10-14T00:00:00.000Z-->
+In {@{functional programming}@}, lists are {@{one of the most common data structures}@} and they form {@{the basis for many proofs about program correctness}@}. {@{A central operation}@} on lists is {@{concatenation}@}, denoted by {@{`:::` in Scala}@}. For {@{two lists `xs` and `ys`}@}, {@{the expression `xs ::: ys`}@} produces a new list that contains {@{all elements of `xs` followed by all elements of `ys`}@}. {@{Two fundamental algebraic laws}@} hold for this operator: \(annotation: 2 items: {@{associativity, neutral element}@}\) <!--SR:!fsrs,2029-07-19T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-09-04T00:00:00.000Z!fsrs,2029-08-12T00:00:00.000Z,1068,1068.495917,1,2,9,0,0,2026-09-09T00:00:00.000Z!fsrs,2030-03-22T00:00:00.000Z,1241,1240.62340626,1,2,9,0,0,2026-10-28T00:00:00.000Z!fsrs,2028-08-27T00:00:00.000Z,708,707.6141386,2.49272837,2,9,0,0,2026-09-19T00:00:00.000Z!fsrs,2030-02-10T00:00:00.000Z,1210,1210.28222352,1,2,9,0,0,2026-10-19T00:00:00.000Z!fsrs,2029-07-24T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-09-05T00:00:00.000Z!fsrs,2030-02-04T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-10-17T00:00:00.000Z!fsrs,2030-04-16T00:00:00.000Z,1260,1259.53358194,1,2,9,0,0,2026-11-03T00:00:00.000Z!2026-11-08,294,330!fsrs,2030-01-02T00:00:00.000Z,1180,1179.83367202,1,2,9,0,0,2026-10-10T00:00:00.000Z!fsrs,2030-01-21T00:00:00.000Z,1195,1195.07164214,1,2,9,0,0,2026-10-14T00:00:00.000Z-->
 
 - __Associativity__ ::@:: `(xs ::: ys) ::: zs = xs ::: (ys ::: zs)` <!--SR:!fsrs,2029-08-17T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-09-10T00:00:00.000Z!fsrs,2028-08-20T00:00:00.000Z,703,702.57151752,2.49272837,2,9,0,0,2026-09-17T00:00:00.000Z-->
 - __Neutral element__ ::@:: – the empty list `Nil` is a left and right identity: `xs ::: Nil = xs` and `Nil ::: xs = xs` <!--SR:!fsrs,2029-11-13T00:00:00.000Z,1142,1141.61620684,1,2,9,0,0,2026-09-28T00:00:00.000Z!fsrs,2028-08-27T00:00:00.000Z,708,707.6141386,2.49272837,2,9,0,0,2026-09-19T00:00:00.000Z-->
@@ -103,7 +103,7 @@ We wish to prove that for {@{all integers $n \ge 4$}@}, {@{$$\texttt{factorial}(
 
 ### proving associativity of `:::` by structural induction
 
-Let us prove {@{the associativity law}@} for lists: {@{`(xs ::: ys) ::: zs = xs ::: (ys ::: zs)`}@}. {@{The definition of `:::`}@} is: <!--SR:!2026-11-03,290,330!fsrs,2029-11-03T00:00:00.000Z,1134,1133.95119242,1,2,9,0,0,2026-09-26T00:00:00.000Z!fsrs,2030-01-26T00:00:00.000Z,1199,1198.87680538,1,2,9,0,0,2026-10-15T00:00:00.000Z-->
+Let us prove {@{the associativity law}@} for lists: {@{`(xs ::: ys) ::: zs = xs ::: (ys ::: zs)`}@}. {@{The definition of `:::`}@} is: <!--SR:!fsrs,2030-04-16T00:00:00.000Z,1260,1259.53358194,1,2,9,0,0,2026-11-03T00:00:00.000Z!fsrs,2029-11-03T00:00:00.000Z,1134,1133.95119242,1,2,9,0,0,2026-09-26T00:00:00.000Z!fsrs,2030-01-26T00:00:00.000Z,1199,1198.87680538,1,2,9,0,0,2026-10-15T00:00:00.000Z-->
 
 > [!example] __concatenation definition__
 >
@@ -237,7 +237,7 @@ To prove this, one again uses {@{structural induction on `xs`}@}. {@{The base ca
 >     }
 > }
 > ```
-<!--SR:!2026-11-03,290,330!fsrs,2030-01-07T00:00:00.000Z,1184,1183.64577796,1,2,9,0,0,2026-10-11T00:00:00.000Z-->
+<!--SR:!fsrs,2030-04-16T00:00:00.000Z,1260,1259.53358194,1,2,9,0,0,2026-11-03T00:00:00.000Z!fsrs,2030-01-07T00:00:00.000Z,1184,1183.64577796,1,2,9,0,0,2026-10-11T00:00:00.000Z-->
 
 ### proving set properties
 

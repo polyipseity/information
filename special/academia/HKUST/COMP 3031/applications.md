@@ -21,7 +21,7 @@ tags:
 
 ## word coder
 
-{@{A __word coder__}@} translates {@{a telephone number into all possible mnemonic phrases}@} using {@{a supplied dictionary of words}@}. Prior to the era of {@{smartphone predictive-text}@}, {@{each numeric key on a phone}@} keypad had {@{an associated set of letters}@}; for instance, {@{the digit `2` represented "ABC"}@}, {@{the digit `3` represented "DEF"}@}, and so forth. In {@{Scala this mapping}@} can be expressed as <!--SR:!fsrs,2030-02-12T00:00:00.000Z,1210,1210.28222352,1,2,9,0,0,2026-10-21T00:00:00.000Z!fsrs,2028-09-03T00:00:00.000Z,713,712.65274453,2.49272837,2,9,0,0,2026-09-21T00:00:00.000Z!fsrs,2028-08-23T00:00:00.000Z,705,705.09333259,2.49272837,2,9,0,0,2026-09-18T00:00:00.000Z!fsrs,2028-09-10T00:00:00.000Z,718,717.68728078,2.49272837,2,9,0,0,2026-09-23T00:00:00.000Z!2026-11-03,290,330!fsrs,2029-07-04T00:00:00.000Z,1037,1037.49777357,1,2,9,0,0,2026-09-01T00:00:00.000Z!fsrs,2030-01-20T00:00:00.000Z,1195,1195.07164214,1,2,9,0,0,2026-10-13T00:00:00.000Z!fsrs,2028-09-06T00:00:00.000Z,715,715.17050691,2.49272837,2,9,0,0,2026-09-22T00:00:00.000Z!fsrs,2030-02-17T00:00:00.000Z,1214,1214.08066657,1,2,9,0,0,2026-10-22T00:00:00.000Z-->
+{@{A __word coder__}@} translates {@{a telephone number into all possible mnemonic phrases}@} using {@{a supplied dictionary of words}@}. Prior to the era of {@{smartphone predictive-text}@}, {@{each numeric key on a phone}@} keypad had {@{an associated set of letters}@}; for instance, {@{the digit `2` represented "ABC"}@}, {@{the digit `3` represented "DEF"}@}, and so forth. In {@{Scala this mapping}@} can be expressed as <!--SR:!fsrs,2030-02-12T00:00:00.000Z,1210,1210.28222352,1,2,9,0,0,2026-10-21T00:00:00.000Z!fsrs,2028-09-03T00:00:00.000Z,713,712.65274453,2.49272837,2,9,0,0,2026-09-21T00:00:00.000Z!fsrs,2028-08-23T00:00:00.000Z,705,705.09333259,2.49272837,2,9,0,0,2026-09-18T00:00:00.000Z!fsrs,2028-09-10T00:00:00.000Z,718,717.68728078,2.49272837,2,9,0,0,2026-09-23T00:00:00.000Z!fsrs,2030-04-16T00:00:00.000Z,1260,1259.53358194,1,2,9,0,0,2026-11-03T00:00:00.000Z!fsrs,2029-07-04T00:00:00.000Z,1037,1037.49777357,1,2,9,0,0,2026-09-01T00:00:00.000Z!fsrs,2030-01-20T00:00:00.000Z,1195,1195.07164214,1,2,9,0,0,2026-10-13T00:00:00.000Z!fsrs,2028-09-06T00:00:00.000Z,715,715.17050691,2.49272837,2,9,0,0,2026-09-22T00:00:00.000Z!fsrs,2030-02-17T00:00:00.000Z,1214,1214.08066657,1,2,9,0,0,2026-10-22T00:00:00.000Z-->
 
 > [!example] __mnemonics__
 >
@@ -241,7 +241,7 @@ Running {@{this against the sample list}@} returns {@{each qualifying author twi
 
 ### translating queries to higher-order functions
 
-{@{The query}@} that extracts {@{titles of books}@} with an author whose {@{name starts with "Bird"}@} can be expressed using higher-order functions as: <!--SR:!fsrs,2030-03-08T00:00:00.000Z,1229,1229.25786194,1,2,9,0,0,2026-10-26T00:00:00.000Z!2026-11-03,290,330!fsrs,2028-11-27T00:00:00.000Z,773,772.81357058,2.49272837,2,9,0,0,2026-10-16T00:00:00.000Z-->
+{@{The query}@} that extracts {@{titles of books}@} with an author whose {@{name starts with "Bird"}@} can be expressed using higher-order functions as: <!--SR:!fsrs,2030-03-08T00:00:00.000Z,1229,1229.25786194,1,2,9,0,0,2026-10-26T00:00:00.000Z!fsrs,2030-04-16T00:00:00.000Z,1260,1259.53358194,1,2,9,0,0,2026-11-03T00:00:00.000Z!fsrs,2028-11-27T00:00:00.000Z,773,772.81357058,2.49272837,2,9,0,0,2026-10-16T00:00:00.000Z-->
 
 > [!example] __simple database query filtering by author__
 >

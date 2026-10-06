@@ -35,7 +35,7 @@ Almost always, {@{the number of variables in a program is much higher than the n
 
 The number of registers {@{is a balancing act: it should not be too few or too many}@}. If there are too few, {@{the potentially many variables}@} need to be frequently {@{transferred from and to the main memory \(RAM\), leading to performance loss}@}. If there are too many, processors are {@{more complicated, have higher clock cycle time}@}, which also leads to {@{performance loss}@}. <!--SR:!2029-11-10,1313,350!2029-08-10,1254,350!2029-10-04,1297,350!fsrs,2029-02-03T00:00:00.000Z,856,856.24087686,1,2,8,0,0,2026-10-01T00:00:00.000Z!fsrs,2029-02-12T00:00:00.000Z,864,863.92454151,1,2,8,0,0,2026-10-02T00:00:00.000Z-->
 
-\(__this course__: Note that when doing questions, {@{do not assume registers have a specific value, e.g. 0, unless otherwise specified}@}. That is, you need to {@{initialize its value}@}.\) <!--SR:!2026-11-03,458,401!2026-12-08,492,401-->
+\(__this course__: Note that when doing questions, {@{do not assume registers have a specific value, e.g. 0, unless otherwise specified}@}. That is, you need to {@{initialize its value}@}.\) <!--SR:!fsrs,2032-08-29T00:00:00.000Z,2126,2125.84414965,1,2,10,0,0,2026-11-03T00:00:00.000Z!2026-12-08,492,401-->
 
 ## memory
 
@@ -348,7 +348,7 @@ The benefit of pseudo-instructions is that {@{they simplify your code to make it
 - negate ::@:: `neg $d, $s`: `$d = -$s;`; implemented by `subu $d, $zero, $s;` <!--SR:!fsrs,2032-08-19T00:00:00.000Z,2118,2117.78354417,1,2,10,0,0,2026-11-01T00:00:00.000Z!2026-12-30,506,401-->
 - not ::@:: `not $d, $s`: `$d = ~$s;`; implemented by `nor $d, $zero, $s;` <!--SR:!2027-05-11,597,335!fsrs,2030-11-19T14:16:29.416Z,1621,1620.54541606,1,2,9,0,0,2026-06-12T14:16:29.416Z-->
 - pop ::@:: `pop [$d=$ra]`: pops a 32-bit value from the stack to `$d`; implemented by `lw $d, 0($sp); addi $sp, $sp, 4;` <!--SR:!2026-11-19,471,401!2027-01-04,513,401-->
-    - pop / usage ::@:: In practice, when you want to pop multiple values at once \(e.g. popping extra arguments from the stack\), using multiple `pop` is inefficient. Instead, you retrive the multiple values directly using `lw` using offsets from `$sp`, then adjust `$sp` upward apporpriately to shrink the stack. <!--SR:!2026-11-25,475,401!2026-11-03,457,401-->
+    - pop / usage ::@:: In practice, when you want to pop multiple values at once \(e.g. popping extra arguments from the stack\), using multiple `pop` is inefficient. Instead, you retrive the multiple values directly using `lw` using offsets from `$sp`, then adjust `$sp` upward apporpriately to shrink the stack. <!--SR:!2026-11-25,475,401!fsrs,2032-08-25T00:00:00.000Z,2122,2121.81441071,1,2,10,0,0,2026-11-03T00:00:00.000Z-->
 - push ::@:: `push [$s=$ra]`: pushes the 32-bit value of `$s` to the stack; implemented by `addi $sp, $sp, -4; sw $s, 0($sp);` <!--SR:!2026-11-24,474,401!2027-02-03,534,401-->
     - push / usage ::@:: In practice, when you want to push multiple values at once \(e.g. pushing extra arguments to the stack\), using multiple `push` is inefficient. Instead, you adjust `$sp` downward enough to grow the stack to accommodate the new values, then save the multiple values directly using `sw` using offsets from `$sp`. <!--SR:!fsrs,2031-06-20T00:00:00.000Z,1767,1766.65845187,1,2,10,0,0,2026-08-18T00:00:00.000Z!2027-01-26,526,401-->
 - set on greater than ::@:: `sgt $d, $s, $t`: `$d = $s > $t;`; implemented by `slt $d, $t, $s;` <!--SR:!2026-12-28,504,401!2027-01-31,537,401-->

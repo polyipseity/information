@@ -795,7 +795,7 @@ The content is in teaching order.
 - point-to-point
     - point-to-point / examples ::@:: dial-up access, ethernet switch and host, etc. <!--SR:!2027-01-13,410,370!2026-12-21,392,370-->
 - telecommunications network
-    - telecommunications network / examples ::@:: Wi-Fi \(802.11\), cabled ethernet, upstream hybrid fiber coaxial \(HFC\) cable, etc. <!--SR:!fsrs,2031-06-04T00:00:00.000Z,1679,1679.42958004,1,2,9,0,0,2026-10-29T00:00:00.000Z!2026-11-03,352,370-->
+    - telecommunications network / examples ::@:: Wi-Fi \(802.11\), cabled ethernet, upstream hybrid fiber coaxial \(HFC\) cable, etc. <!--SR:!fsrs,2031-06-04T00:00:00.000Z,1679,1679.42958004,1,2,9,0,0,2026-10-29T00:00:00.000Z!fsrs,2031-06-22T00:00:00.000Z,1692,1691.9306026,1,2,9,0,0,2026-11-03T00:00:00.000Z-->
 - [channel access method](../../../../general/channel%20access%20method.md) ::@:: It allows more than two terminals connected to the same transmission medium to transmit over it and to share its capacity. <p> Examples of shared physical media are wireless networks, bus networks, ring networks and point-to-point links operating in half-duplex mode. <!--SR:!2026-12-25,394,370!2026-12-18,389,370-->
     - channel access method / ideal ::@:: There is a channel that has a capacity of _R_. When _M_ nodes are transmitting, each can transmit at an average of _R_/_M_. <p> It should be _fully decentralized_ \(e.g. no coordination, no synchronization, etc.\) and _simple_ to implement. <!--SR:!2026-12-08,382,370!2026-11-19,366,370-->
 - [media access control](../../../../general/media%20access%20control.md) \(MAC\) ::@:: It is the layer that controls the hardware responsible for interaction with the wired \(electrical or optical\) or wireless transmission medium. <!--SR:!2027-01-08,406,370!2026-12-19,390,370-->
@@ -1074,7 +1074,7 @@ The content is in teaching order.
         - high: ? \(provided: 98\)
         - distribution: ?
 - report
-    - parity code vs. repetition code \(−2\) ::@:: Misread "\(5, 1\) repetition code" as "\(5, 1\) parity code". Thus two 1-point questions on the maximum number of detectable bit errors and correctable bit errors were wrong. <!--SR:!2026-11-03,353,370!2026-11-21,366,370-->
+    - parity code vs. repetition code \(−2\) ::@:: Misread "\(5, 1\) repetition code" as "\(5, 1\) parity code". Thus two 1-point questions on the maximum number of detectable bit errors and correctable bit errors were wrong. <!--SR:!fsrs,2031-06-26T00:00:00.000Z,1696,1696.09448059,1,2,9,0,0,2026-11-03T00:00:00.000Z!2026-11-21,366,370-->
 - check
     - datetime
         - 2025-08-11T10:00:00+08:00/2025-08-11T17:00:00+08:00, PT7H

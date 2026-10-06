@@ -78,7 +78,7 @@ As $|t|$ grows, $(1 + t^2/r)^{-(r + 1)/2}$ falls off like $|t|^{-(r + 1)}$, a po
 Flashcards for this section are as follows:
 
 - density of $t(r)$: $f_T(t)$ for $T \sim t(r)$ ::@:: $f_T(t) = \frac{\Gamma((r + 1)/2)}{\sqrt{\pi r} \Gamma(r/2)} (1 + t^2/r)^{-(r + 1)/2}$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
-- normalizing constant of the $t(r)$ density: multiplying $(1 + t^2/r)^{-(r + 1)/2}$ ::@:: $\frac{\Gamma((r + 1)/2)}{\sqrt{\pi r} \Gamma(r/2)}$. <!--SR:!fsrs,2026-11-02T00:10:00.000Z,0,2.3065,2.11810397,1,1,0,1,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- normalizing constant of the $t(r)$ density: multiplying $(1 + t^2/r)^{-(r + 1)/2}$ ::@:: $\frac{\Gamma((r + 1)/2)}{\sqrt{\pi r} \Gamma(r/2)}$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,7,7.31530068,2.11121424,2,2,0,0,2026-11-03T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 - what the density of $t(r)$ depends on $t$ through ::@:: $t^2$ alone, so it is symmetric about zero. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 - the tail of the density $f_T(t)$ of $t(r)$ for large $|t|$ ::@:: $(1 + t^2/r)^{-(r + 1)/2}$ falls off like $|t|^{-(r + 1)}$, a power of the distance rather than the normal's exponential decay, so $t(r)$ keeps more probability in the tails. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 

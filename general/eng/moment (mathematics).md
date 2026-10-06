@@ -104,7 +104,7 @@ Some examples are {@{[covariance](covariance.md), [coskewness](coskewness.md) an
 
 ### transformation of center
 
-Since {@{$$(x-b)^{n}=(x-a+a-b)^{n}=\sum _{i=0}^{n}{n \choose i}(x-a)^{i}(a-b)^{n-i}$$}@} where {@{${\binom {n}{i} }$ is the [binomial coefficient](binomial%20coefficient.md)}@}, it follows that {@{the moments about _b_ can be calculated from the moments about _a_}@} by: {@{$$E\left[(x-b)^{n}\right]=\sum _{i=0}^{n}{n \choose i}E\left[(x-a)^{i}\right](a-b)^{n-i}.$$}@} <!--SR:!2026-11-03,503,310!2028-11-04,1094,350!2027-01-06,543,310!2029-11-15,1297,310-->
+Since {@{$$(x-b)^{n}=(x-a+a-b)^{n}=\sum _{i=0}^{n}{n \choose i}(x-a)^{i}(a-b)^{n-i}$$}@} where {@{${\binom {n}{i} }$ is the [binomial coefficient](binomial%20coefficient.md)}@}, it follows that {@{the moments about _b_ can be calculated from the moments about _a_}@} by: {@{$$E\left[(x-b)^{n}\right]=\sum _{i=0}^{n}{n \choose i}E\left[(x-a)^{i}\right](a-b)^{n-i}.$$}@} <!--SR:!fsrs,2032-01-16T00:00:00.000Z,1900,1900.39176185,1,2,10,0,0,2026-11-03T00:00:00.000Z!2028-11-04,1094,350!2027-01-06,543,310!2029-11-15,1297,310-->
 
 ### the moment of a convolution of function
 

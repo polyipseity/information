@@ -32,7 +32,7 @@ The mean is $$E[X] = \frac{\alpha}{\beta},$$ and the variance is $$\operatorname
 
 Flashcards for this section are as follows:
 
-- density of $X \sim \text{Gamma}(\alpha, \beta)$: for $x > 0$ ::@:: $$f_X(x \mid \alpha, \beta) = \frac{\beta^\alpha}{\Gamma(\alpha)} x^{\alpha - 1} e^{-\beta x}.$$ <!--SR:!fsrs,2026-11-02T00:10:00.000Z,0,2.3065,2.11810397,1,1,0,1,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- density of $X \sim \text{Gamma}(\alpha, \beta)$: for $x > 0$ ::@:: $$f_X(x \mid \alpha, \beta) = \frac{\beta^\alpha}{\Gamma(\alpha)} x^{\alpha - 1} e^{-\beta x}.$$ <!--SR:!fsrs,2026-11-15T00:00:00.000Z,12,11.6874828,1,2,2,0,0,2026-11-03T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 - density of $X \sim \text{Gamma}(\alpha, \beta)$: for $x \le 0$ ::@:: $0$, so the family is supported on the positive half-line only. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 - role of $\alpha$ in the gamma density ::@:: The shape parameter, appearing as the power $\alpha - 1$ of $x$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 - role of $\beta$ in the gamma density ::@:: The rate parameter, appearing as the exponential rate in $e^{-\beta x}$. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->

@@ -178,6 +178,6 @@ Scala can be used to {@{build a simple digital‑circuit simulator}@} that demon
 >     println(s”$name $currentTime value = ${wire.getSignal()}”)
 >   wire.addAction(probeAction)
 > ```
-<!--SR:!2026-11-04,236,330!2027-01-06,282,330!2026-11-03,235,330!2026-11-16,246,330-->
+<!--SR:!2026-11-04,236,330!2027-01-06,282,330!fsrs,2029-09-17T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-11-03T00:00:00.000Z!2026-11-16,246,330-->
 
 By composing {@{gates and probes}@} one can experiment with {@{more elaborate circuits, such as a full adder or a ripple‑carry adder}@}, while keeping {@{the simulation time model explicit}@}. <!--SR:!2027-01-17,291,330!2026-11-12,242,330!2026-11-28,251,330-->

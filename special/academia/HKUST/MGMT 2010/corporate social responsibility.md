@@ -30,7 +30,7 @@ The base is profitability — a company that cannot sustain itself cannot fulfil
 
 Flashcards for this section are as follows:
 
-- Carroll's CSR pyramid ::@:: From base to apex: economic (profitability), legal (law), ethical (stakeholder expectations), philanthropic (voluntary good). Each level assumes the ones below are met. <!--SR:!fsrs,2026-11-02T00:06:00.000Z,0,1.2931,5.11217071,1,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- Carroll's CSR pyramid ::@:: From base to apex: economic (profitability), legal (law), ethical (stakeholder expectations), philanthropic (voluntary good). Each level assumes the ones below are met. <!--SR:!fsrs,2026-11-03T00:10:00.000Z,0,4.54602939,5.10228691,1,2,0,1,2026-11-03T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 - Economic responsibility ::@:: The foundation: be profitable. Capitalism requires it; higher obligations depend on it. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 - Legal responsibility ::@:: Obey the law — what stakeholders require. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
 - Ethical responsibility ::@:: Meet stakeholder expectations beyond what the law demands. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->

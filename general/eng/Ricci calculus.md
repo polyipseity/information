@@ -36,7 +36,7 @@ Working with {@{a main proponent of the [exterior calculus](exterior%20calculus.
 
 ## notation for indices
 
-- See also: ::@:: [Index notation](index%20notation.md) <!--SR:!2026-12-02,326,350!2026-11-03,303,350-->
+- See also: ::@:: [Index notation](index%20notation.md) <!--SR:!2026-12-02,326,350!fsrs,2030-08-31T00:00:00.000Z,1397,1397.23777123,1,2,9,0,0,2026-11-03T00:00:00.000Z-->
 
 ### basis-related distinctions
 

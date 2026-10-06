@@ -144,7 +144,7 @@ return chain.from_iterable([r.value for r in results])
 - _(begin)_→::@::←[Bunsen burner](Bunsen%20burner.md) <!--SR:!2028-03-07,1151,310!2027-10-17,1291,350-->
 - [Bunsen burner](Bunsen%20burner.md)→::@::←[Liebig condenser](Liebig%20condenser.md) <!--SR:!2026-11-25,959,330!2027-12-18,1340,350-->
 - [Liebig condenser](Liebig%20condenser.md)→::@::←[beaker](beaker.md) <!--SR:!2032-06-08,2553,330!2028-01-26,1368,350-->
-- [beaker](beaker.md)→::@::←[burette](burette.md) <!--SR:!2029-10-24,1369,250!2026-11-03,942,330-->
+- [beaker](beaker.md)→::@::←[burette](burette.md) <!--SR:!2029-10-24,1369,250!fsrs,2036-06-29T00:00:00.000Z,3526,3525.66144161,1,2,11,0,0,2026-11-03T00:00:00.000Z-->
 - [burette](burette.md)→::@::←[burette clamp](burette%20clamp.md) <!--SR:!2031-02-16,1904,330!2027-05-07,1162,350-->
 - [burette clamp](burette%20clamp.md)→::@::←[clamp](clamp.md) <!--SR:!2030-01-12,1457,310!2030-06-25,1551,310-->
 - [clamp](clamp.md)→::@::←[conical flask/Erlenmeyer flask/titration flask](Erlenmeyer%20flask.md) <!--SR:!2032-02-02,2187,270!fsrs,2029-06-04T00:00:00.000Z,1023,1022.91526994,5.98276817,2,10,0,0,2026-08-16T00:00:00.000Z-->

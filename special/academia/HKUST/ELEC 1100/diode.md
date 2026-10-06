@@ -15,7 +15,7 @@ A diode is a two-terminal semiconductor device that allows current to flow prima
 
 Flashcards for this section are as follows:
 
-- diode definition ::@:: A two-terminal device that allows current to flow primarily in one direction (forward bias) and blocks it in reverse bias. <!--SR:!2027-02-13,255,330!2026-11-03,170,310-->
+- diode definition ::@:: A two-terminal device that allows current to flow primarily in one direction (forward bias) and blocks it in reverse bias. <!--SR:!2027-02-13,255,330!fsrs,2028-11-09T00:00:00.000Z,737,737.40151351,1,2,8,0,0,2026-11-03T00:00:00.000Z-->
 - diode course role ::@:: The PN junction is the core building block inside BJTs and Zener regulators; diode I–V and biasing ideas transfer directly. <!--SR:!2027-02-13,255,330!2026-11-25,179,310-->
 - schematic symbol: diode <p> ![diode symbol](attachments/symbol_diode.svg) ::@:: Diode symbol showing the one-way conduction element; current is intended to flow from anode to cathode when forward biased. <!--SR:!2027-01-24,239,330!fsrs,2027-05-09T08:41:43.251Z,330,329.54847456,1,2,7,0,0,2026-06-13T08:41:43.251Z-->
 

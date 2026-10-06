@@ -282,7 +282,7 @@ If two messages {@{arrive concurrently}@}, they are {@{queued and executed one a
 
 ## entry point
 
-{@{A minimal program}@} that creates {@{a counter}@}, sends {@{three increment messages}@}, asks for {@{the result, prints it}@}, and then {@{stops itself}@} is written as {@{an actor}@}: <!--SR:!2026-11-22,251,330!2026-11-03,235,330!2027-01-05,280,330!fsrs,2029-08-29T00:00:00.000Z,1034,1033.61384781,1,2,9,0,0,2026-10-30T00:00:00.000Z!2026-11-24,252,330!2027-01-14,287,330-->
+{@{A minimal program}@} that creates {@{a counter}@}, sends {@{three increment messages}@}, asks for {@{the result, prints it}@}, and then {@{stops itself}@} is written as {@{an actor}@}: <!--SR:!2026-11-22,251,330!fsrs,2029-09-17T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-11-03T00:00:00.000Z!2027-01-05,280,330!fsrs,2029-08-29T00:00:00.000Z,1034,1033.61384781,1,2,9,0,0,2026-10-30T00:00:00.000Z!2026-11-24,252,330!2027-01-14,287,330-->
 
 > [!example] __`Main` actor__
 >
@@ -376,7 +376,7 @@ In {@{an actor‑based design}@}, {@{a `BankAccount`}@} exposes only {@{two oper
 > ```
 <!--SR:!2027-01-14,285,330!2026-12-30,275,330!2026-11-28,249,330-->
 
-{@{The actor hierarchy}@} is therefore {@{safe and composable}@}: each account owns {@{its own balance}@}, {@{the transfer logic}@} runs {@{in a separate actor}@}, and all communication proceeds {@{through immutable messages}@}. This pattern illustrates how actors avoid {@{shared‑memory pitfalls}@} while enabling {@{fine‑grained concurrent interactions}@}. <!--SR:!2027-01-06,281,330!2026-12-07,256,330!2026-11-30,251,330!2026-11-03,235,330!2026-12-07,256,330!2027-01-10,284,330!2026-11-07,238,330!2026-12-31,276,330-->
+{@{The actor hierarchy}@} is therefore {@{safe and composable}@}: each account owns {@{its own balance}@}, {@{the transfer logic}@} runs {@{in a separate actor}@}, and all communication proceeds {@{through immutable messages}@}. This pattern illustrates how actors avoid {@{shared‑memory pitfalls}@} while enabling {@{fine‑grained concurrent interactions}@}. <!--SR:!2027-01-06,281,330!2026-12-07,256,330!2026-11-30,251,330!fsrs,2029-09-17T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-11-03T00:00:00.000Z!2026-12-07,256,330!2027-01-10,284,330!2026-11-07,238,330!2026-12-31,276,330-->
 
 ## message delivery
 
@@ -467,7 +467,7 @@ When {@{several messages are sent to the same recipient}@} they keep {@{the orde
 >     context.parent ! Done
 >     context.stop(self)
 > ```
-<!--SR:!2026-12-09,258,330!2026-12-29,272,330!fsrs,2029-08-19T00:00:00.000Z,1026,1025.83973773,1,2,9,0,0,2026-10-28T00:00:00.000Z!2027-01-09,283,330!2026-11-03,235,330!2026-11-30,251,330!2026-12-19,266,330-->
+<!--SR:!2026-12-09,258,330!2026-12-29,272,330!fsrs,2029-08-19T00:00:00.000Z,1026,1025.83973773,1,2,9,0,0,2026-10-28T00:00:00.000Z!2027-01-09,283,330!fsrs,2029-09-17T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-11-03T00:00:00.000Z!2026-11-30,251,330!2026-12-19,266,330-->
 
 {@{The `Controller`}@} keeps {@{a cache of already visited URLs}@} and {@{a set of running getters}@}. When {@{all children finish}@}, it reports {@{the collected links back to its parent}@}. <!--SR:!2027-01-19,289,330!2026-11-29,250,330!2026-12-12,260,330!2026-12-13,261,330!2026-11-24,252,330-->
 

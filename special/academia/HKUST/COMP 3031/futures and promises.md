@@ -18,7 +18,7 @@ tags:
 
 - see: [general/futures and promises](../../../../general/futures%20and%20promises.md)
 
-{@{_Asynchronous programming_}@} lets a program start {@{a long‑running task on another thread and continue immediately}@}. In Scala this is expressed by {@{the __`Future`__ abstraction}@}, which represents {@{a value that may become available later, together with its eventual result or failure}@}. <!--SR:!2026-11-20,249,330!2026-12-09,257,330!2026-11-03,235,330!2027-01-23,293,330-->
+{@{_Asynchronous programming_}@} lets a program start {@{a long‑running task on another thread and continue immediately}@}. In Scala this is expressed by {@{the __`Future`__ abstraction}@}, which represents {@{a value that may become available later, together with its eventual result or failure}@}. <!--SR:!2026-11-20,249,330!2026-12-09,257,330!fsrs,2029-09-17T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-11-03T00:00:00.000Z!2027-01-23,293,330-->
 
 ## motivation
 
@@ -215,7 +215,7 @@ When {@{the next step itself returns a `Future`}@}, {@{`flatMap`}@} chains {@{th
 > val coffeeOrSoda: Future[Coffee] =
 >   makeCoffee().recover { case _: java.io.IOException => defaultCoffee }
 > ```
-<!--SR:!2026-11-03,234,330!2027-01-02,276,330-->
+<!--SR:!fsrs,2029-09-13T00:00:00.000Z,1045,1045.2595081,1,2,9,0,0,2026-11-03T00:00:00.000Z!2027-01-02,276,330-->
 
 ### for-comprehensions
 

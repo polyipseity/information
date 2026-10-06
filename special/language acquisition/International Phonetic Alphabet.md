@@ -529,7 +529,7 @@ Here is a list of common IPA letters and their pronunciations:
 - [labialization](labialization.md):@:\[ʷ\] <!--SR:!2030-07-13,1788,394-->
 - [voiceless labial–velar fricative](voiceless%20labial–velar%20fricative.md):@:\[ʍ\] <!--SR:!2027-05-19,691,256-->
 - [close back unrounded vowel](close%20back%20unrounded%20vowel.md):@:\[ɯ\] <!--SR:!2027-06-27,630,330-->
-- [voiced velar approximant](voiced%20velar%20approximant.md):@:\[ɰ\] <!--SR:!fsrs,2026-11-03T00:00:00.000Z,88,88.00452541,8.50317967,2,7,0,0,2026-08-07T00:00:00.000Z-->
+- [voiced velar approximant](voiced%20velar%20approximant.md):@:\[ɰ\] <!--SR:!fsrs,2027-03-27T00:00:00.000Z,144,144.15075301,8.48990486,2,8,0,0,2026-11-03T00:00:00.000Z-->
 - [voiceless velar fricative](voiceless%20velar%20fricative.md):@:\[x\] <!--SR:!fsrs,2026-11-21T03:37:38.558Z,159,159.23409015,6.40045673,2,7,0,0,2026-06-15T03:37:38.558Z-->
 - [voiceless uvular fricative](voiceless%20uvular%20fricative.md):@:\[χ\] <!--SR:!2028-06-06,739,314-->
 - [close front rounded vowel](close%20front%20rounded%20vowel.md):@:\[y\] <!--SR:!2030-04-25,1688,376-->
@@ -977,7 +977,7 @@ Here is a list of common IPA letters and their pronunciations:
 - [voiceless alveolar lateral fricative](voiceless%20alveolar%20lateral%20fricative.md):@:[Welsh](Welsh%20language.md) _tege**ll**_ \[ˈtɛɡɛɬ\] "kettle" <!--SR:!fsrs,2027-02-11T00:00:00.000Z,121,121.39559012,9.97047151,2,8,0,0,2026-10-13T00:00:00.000Z-->
 - [voiced retroflex lateral approximant](voiced%20retroflex%20lateral%20approximant.md):@:[French](French%20language.md) _be**ll**e jambe_ \[bɛɭ ʒɑ̃b\] "beautiful leg" <!--SR:!fsrs,2026-12-14T00:00:00.000Z,58,58.02819422,9.96240929,2,8,0,0,2026-10-17T00:00:00.000Z-->
 - [voiced alveolar lateral flap](voiced%20alveolar%20lateral%20flap.md):@:[Japanese](Japanese%20language.md) 六/_**r**oku_ \[ɺo̞kɯ̟ᵝ\] "six" <!--SR:!fsrs,2026-11-25T00:00:00.000Z,97,97.30482974,9.98522837,2,7,0,0,2026-08-20T00:00:00.000Z-->
-- [voiced alveolar lateral fricative](voiced%20alveolar%20lateral%20fricative.md):@:[Zulu](Zulu%20language.md) _uku**dl**a_ \[úɠù:ɮá\] "to eat" <!--SR:!fsrs,2026-11-03T00:00:00.000Z,41,41.02801828,9.90183434,2,9,0,0,2026-09-23T00:00:00.000Z-->
+- [voiced alveolar lateral fricative](voiced%20alveolar%20lateral%20fricative.md):@:[Zulu](Zulu%20language.md) _uku**dl**a_ \[úɠù:ɮá\] "to eat" <!--SR:!fsrs,2027-01-08T00:00:00.000Z,66,65.50232831,9.85426032,2,10,0,0,2026-11-03T00:00:00.000Z-->
 - [voiced velar lateral approximant](voiced%20velar%20lateral%20approximant.md):@:[English](English%20language.md) _midd**l**e_ \[ˈmɪɾʟ̩\] <!--SR:!2027-05-05,366,201-->
 - [voiced bilabial nasal](voiced%20bilabial%20nasal.md):@:[English](English%20language.md) _hi**m**_ \[hɪm\] <!--SR:!2031-11-21,2117,301-->
 - [voiced labiodental nasal](voiced%20labiodental%20nasal.md):@:[English](English%20language.md) _sy**m**phony_ \[ˈsɪɱfəni\] <!--SR:!2027-07-26,537,261-->
@@ -995,7 +995,7 @@ Here is a list of common IPA letters and their pronunciations:
 - [nasalized open-mid front rounded vowel](nasal%20vowel.md):@:[French](French%20language.md) _br**un**_ \[bʁœ̃\] "brown" <!--SR:!fsrs,2026-11-04T00:00:00.000Z,75,74.90122184,9.97047151,2,8,0,0,2026-08-21T00:00:00.000Z-->
 - [open front rounded vowel](open%20front%20rounded%20vowel.md):@:[Danish](Danish%20language.md) _gr**ø**n_ \[ˈkʁɶ̝nˀ\] "green" <!--SR:!fsrs,2026-12-11T00:00:00.000Z,55,54.68716176,9.94278281,2,8,0,0,2026-10-17T00:00:00.000Z-->
 - [voiceless bilabial plosive](voiceless%20bilabial%20plosive.md):@:[English](English%20language.md) _**p**ack_ \[pʰæk\] <!--SR:!2028-04-13,1043,271-->
-- [voiceless uvular plosive](voiceless%20uvular%20plosive.md):@:[Arabic](Arabic%20language.md) قط/_**q**iṭṭ_ \[qitˤː\] "cat" <!--SR:!fsrs,2026-11-03T00:00:00.000Z,33,33.43803459,9.9569538,2,10,0,0,2026-10-01T00:00:00.000Z-->
+- [voiceless uvular plosive](voiceless%20uvular%20plosive.md):@:[Arabic](Arabic%20language.md) قط/_**q**iṭṭ_ \[qitˤː\] "cat" <!--SR:!fsrs,2026-12-17T00:00:00.000Z,44,43.8110559,9.94222522,2,11,0,0,2026-11-03T00:00:00.000Z-->
 - [voiced alveolar trill](voiced%20alveolar%20trill.md):@:[Spanish](Spanish%20language.md) _pe**rr**o_ \[ˈpe̞ro̞\] "dog" <!--SR:!fsrs,2026-12-19T00:00:00.000Z,142,142.44162224,8.44926587,2,7,0,0,2026-07-30T00:00:00.000Z-->
 - [voiced dental and alveolar taps and flaps](voiced%20dental%20and%20alveolar%20taps%20and%20flaps.md):@:[Spanish](Spanish%20language.md) _ca**r**o_ \[ˈkaɾo̞\] "expensive" <!--SR:!fsrs,2026-12-06T00:00:00.000Z,71,71.14123197,9.93583074,2,8,0,0,2026-09-26T00:00:00.000Z-->
 - [voiced uvular trill](voiced%20uvular%20trill.md):@:[German](German%20language.md) _**r**ot_ \[ʀoːt\] "red" <!--SR:!2029-12-24,1496,291-->
