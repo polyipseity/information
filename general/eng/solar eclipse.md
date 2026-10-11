@@ -28,7 +28,7 @@ The [Sun](Sun.md)'s distance from [Earth](Earth.md) is {@{about 400 times the [M
 
 The [Moon](Moon.md)'s orbit around [Earth](Earth.md) is {@{slightly [elliptical](elliptic%20orbit.md), as is Earth's orbit around the [Sun](Sun.md)}@}. The [apparent sizes](angular%20diameter.md) of the Sun and Moon therefore {@{vary}@}. The [magnitude of an eclipse](magnitude%20of%20eclipse.md) is {@{the ratio of the apparent size of the Moon to the apparent size of the Sun during an eclipse}@}. <!--SR:!2027-05-15,781,330!2027-10-23,904,330!2030-12-18,1766,330-->
 
-There are {@{three main types of solar eclipses: [total eclipse](#total%20eclipse), [annular eclipse](#annular%20eclipse), and [partial eclipse](#partial%20eclipse)}@}. <!--SR:!2026-11-06,648,330-->
+There are {@{three main types of solar eclipses: [total eclipse](#total%20eclipse), [annular eclipse](#annular%20eclipse), and [partial eclipse](#partial%20eclipse)}@}. <!--SR:!fsrs,2031-05-22T00:00:00.000Z,1658,1658.32905235,2.49272837,2,10,0,0,2026-11-06T00:00:00.000Z-->
 
 ### total eclipse
 

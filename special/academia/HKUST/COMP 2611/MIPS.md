@@ -286,7 +286,7 @@ The 32 registers are used as follows:
 
 The caller places {@{procedure arguments in `$a0`–`$a3` \(4 registers\)}@} \(if you have more arguments, {@{they will need to be passed in the stack}@}\). Then it {@{invokes `jal` to jump to the procedure \(callee\)}@}. The callee saves {@{`$ra` to the stack using the pseudo-instruction `push`}@}. Then it {@{executes}@}. Then it places {@{the return value in `$v0`–`$v1` \(2 registers\) \(the 2 registers are usually used together to hold a 64-bit value\)}@}. Then it {@{pops the stack to `$ra` using the pseudo-instruction `pop`, and returns to the caller by `jr $ra`}@}. <!--SR:!2026-12-12,494,401!2026-11-23,475,401!2027-02-02,533,401!2026-11-23,473,401!2027-01-11,520,401!2026-11-16,471,401!fsrs,2032-08-30T00:00:00.000Z,2126,2125.84414965,1,2,10,0,0,2026-11-04T00:00:00.000Z-->
 
-If {@{you have more than 4 arguments}@}, then you {@{pass the extra arguments \(i.e. arguments after the 4th argument\), _pushing_ from _right to left_ \(so that the stack top points to the 1st extra argument\)}@}. Then, the callee {@{_pops_ the extra arguments from the stack and uses them}@}, so {@{the caller does not need to pop the extra arguments from the stack itself}@}. <!--SR:!2027-02-04,535,401!2026-12-14,492,401!2026-11-06,461,401!2026-11-07,461,401-->
+If {@{you have more than 4 arguments}@}, then you {@{pass the extra arguments \(i.e. arguments after the 4th argument\), _pushing_ from _right to left_ \(so that the stack top points to the 1st extra argument\)}@}. Then, the callee {@{_pops_ the extra arguments from the stack and uses them}@}, so {@{the caller does not need to pop the extra arguments from the stack itself}@}. <!--SR:!2027-02-04,535,401!2026-12-14,492,401!fsrs,2032-09-13T00:00:00.000Z,2138,2137.92680333,1,2,10,0,0,2026-11-06T00:00:00.000Z!2026-11-07,461,401-->
 
 ## assembly
 
@@ -384,7 +384,7 @@ The stack segment is {@{automatic storage, used to store local variables in high
 
 ## addressing modes
 
-MIPS \(MIPS I\) have {@{only one addressing mode: base + displacement}@}. <!--SR:!2026-11-06,460,401-->
+MIPS \(MIPS I\) have {@{only one addressing mode: base + displacement}@}. <!--SR:!fsrs,2032-09-09T00:00:00.000Z,2134,2133.90042994,1,2,10,0,0,2026-11-06T00:00:00.000Z-->
 
 \(__this course__: whole paragraph\) However, for this course, we consider addressing mode {@{to include referencing data, not just referencing memory in operands}@}. If so, we have {@{5 addressing mode}@}: {@{immediate, register, base \(+ displacement\), PC-relative, and pseudo-direct addressing}@}. <!--SR:!fsrs,2032-08-24T00:00:00.000Z,2122,2121.81441071,1,2,10,0,0,2026-11-02T00:00:00.000Z!2026-11-26,481,401!2026-11-22,474,401-->
 

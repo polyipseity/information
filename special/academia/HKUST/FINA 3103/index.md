@@ -196,7 +196,7 @@ The content is in teaching order.
 - stock exchange
     - stock exchange / examples ::@:: HKEX, LSE, NYSE, Nasdaq, etc. <p> \(__this course__: typically stocks\) <!--SR:!2027-04-23,456,390!2027-04-12,445,390-->
 - [over-the-counter](../../../../general/over-the-counter%20(finance).md) \(OTC\) ::@:: It is done directly between two parties, without the supervision of an exchange. It is contrasted with exchange trading, which occurs via exchanges. <p> In an OTC trade, the price is not necessarily publicly disclosed. <!--SR:!2027-03-15,425,390!2027-04-23,456,390-->
-    - over-the-counter / characteristics ::@:: customized contracts, exotic contracts, mediated by dealers, not a place <!--SR:!2027-03-14,423,387!2026-11-06,306,370-->
+    - over-the-counter / characteristics ::@:: customized contracts, exotic contracts, mediated by dealers, not a place <!--SR:!2027-03-14,423,387!fsrs,2030-12-14T00:00:00.000Z,1499,1498.68542159,1,2,9,0,0,2026-11-06T00:00:00.000Z-->
     - over-the-counter / disadvantages ::@:: counterparty risk, less liquid, opaque, systemic risk \(if major dealers are distressed\) <!--SR:!2027-04-24,457,390!2027-04-10,443,387-->
     - over-the-counter / examples ::@:: exotic options, forwards, structured products, swaps <p> \(__this course__: typically bonds\) <!--SR:!fsrs,2030-01-31T00:00:00.000Z,1260,1259.89547299,1,2,9,0,0,2026-08-20T00:00:00.000Z!2027-04-13,446,390-->
 - stock exchange

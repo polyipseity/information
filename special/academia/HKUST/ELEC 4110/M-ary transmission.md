@@ -12,7 +12,7 @@ tags:
 
 - see: [general/_M_-ary transmission](../../../../general/M-ary%20transmission.md)
 
-{@{___M_-ary transmission__}@} is {@{a digital modulation method}@} where {@{each transmitted _symbol_ carries $\log_2 M$ _bits_}@} by selecting {@{one waveform from $M$ signal shapes}@}. Increasing {@{the _modulation order_ $M$}@} yields {@{higher spectral efficiency}@}, but {@{the signal becomes more sensitive to noise}@} and detection {@{grows more complex}@}. <!--SR:!fsrs,2029-06-18T00:00:00.000Z,968,967.84549846,1,2,9,0,0,2026-10-24T00:00:00.000Z!2026-11-06,238,330!2026-11-17,249,330!2027-04-22,381,370!2026-11-26,255,330!2027-03-05,342,361!2026-11-23,252,330!2026-11-25,254,330-->
+{@{___M_-ary transmission__}@} is {@{a digital modulation method}@} where {@{each transmitted _symbol_ carries $\log_2 M$ _bits_}@} by selecting {@{one waveform from $M$ signal shapes}@}. Increasing {@{the _modulation order_ $M$}@} yields {@{higher spectral efficiency}@}, but {@{the signal becomes more sensitive to noise}@} and detection {@{grows more complex}@}. <!--SR:!fsrs,2029-06-18T00:00:00.000Z,968,967.84549846,1,2,9,0,0,2026-10-24T00:00:00.000Z!fsrs,2029-10-02T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-11-06T00:00:00.000Z!2026-11-17,249,330!2027-04-22,381,370!2026-11-26,255,330!2027-03-05,342,361!2026-11-23,252,330!2026-11-25,254,330-->
 
 Unlike {@{[binary modulation](binary%20modulation.md)}@} where {@{a _bit_ and a _symbol_ are the same}@}, here {@{a _symbol_ represents more than one _bit_}@}. <!--SR:!2027-01-08,293,349!2027-01-21,304,349!2026-11-09,241,330-->
 
@@ -172,7 +172,7 @@ Relaxing to {@{additive Gaussian noise that is _not necessarily white_}@}, the c
 
 ### complexity
 
-Moving from {@{binary to $M$-ary modulation}@} requires {@{the receiver}@} to handle {@{an expanded symbol set}@}. For {@{M-ary ASK}@}, the simplest approach is {@{a _non-coherent_ energy detector}@} measuring {@{signal power}@}, keeping hardware minimal (as in {@{remote-control IR systems}@}). Since {@{all symbols share the same carrier phase}@}, no {@{PLL or carrier recovery circuit}@} is needed. <!--SR:!2027-03-25,357,361!2027-01-02,288,349!2027-01-02,288,349!2027-03-11,344,349!2026-11-12,243,330!2027-03-02,340,361!2026-11-25,254,330!2027-04-17,376,370!2026-11-06,238,330-->
+Moving from {@{binary to $M$-ary modulation}@} requires {@{the receiver}@} to handle {@{an expanded symbol set}@}. For {@{M-ary ASK}@}, the simplest approach is {@{a _non-coherent_ energy detector}@} measuring {@{signal power}@}, keeping hardware minimal (as in {@{remote-control IR systems}@}). Since {@{all symbols share the same carrier phase}@}, no {@{PLL or carrier recovery circuit}@} is needed. <!--SR:!2027-03-25,357,361!2027-01-02,288,349!2027-01-02,288,349!2027-03-11,344,349!2026-11-12,243,330!2027-03-02,340,361!2026-11-25,254,330!2027-04-17,376,370!fsrs,2029-10-02T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-11-06T00:00:00.000Z-->
 
 In contrast, {@{M-ary PSK schemes}@} require {@{coherent detection}@}: {@{the receiver}@} must track {@{the carrier phase via a PLL to demodulate correctly}@}. This requirement grows with {@{$M$ as constellation points pack more tightly on the unit circle}@}, demanding {@{finer phase resolution and more complex front-end circuitry}@}. PSK offers {@{better energy efficiency per bit}@}, but its {@{implementation complexity grows with $M$}@}. <!--SR:!2027-02-06,318,349!2027-03-17,351,370!2026-11-17,247,330!2026-11-14,245,330!2026-11-23,254,330!2026-11-19,249,330!2027-02-08,320,349!2026-11-26,255,330-->
 

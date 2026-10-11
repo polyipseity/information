@@ -53,7 +53,7 @@ Unlike {@{arrays}@}, lists are {@{__immutable__}@}—once constructed {@{their c
 > val nums = 1 :: (2 :: (3 :: (4 :: Nil)))
 > val nums = 1 ::  2 ::  3 ::  4 :: Nil     // Equivalent
 > ```
-<!--SR:!2026-11-08,294,330!2026-11-06,292,330!fsrs,2029-11-07T00:00:00.000Z,1134,1133.95119242,1,2,9,0,0,2026-09-30T00:00:00.000Z!fsrs,2029-07-18T00:00:00.000Z,1045,1045.2595081,1,2,9,0,0,2026-09-07T00:00:00.000Z-->
+<!--SR:!2026-11-08,294,330!fsrs,2030-04-26T00:00:00.000Z,1267,1267.08647061,1,2,9,0,0,2026-11-06T00:00:00.000Z!fsrs,2029-11-07T00:00:00.000Z,1134,1133.95119242,1,2,9,0,0,2026-09-30T00:00:00.000Z!fsrs,2029-07-18T00:00:00.000Z,1045,1045.2595081,1,2,9,0,0,2026-09-07T00:00:00.000Z-->
 
 {@{This right associativity}@} means {@{`A :: B :: C`}@} is parsed as {@{`A :: (B :: C)`}@}. <!--SR:!fsrs,2030-01-03T00:00:00.000Z,1180,1179.83367202,1,2,9,0,0,2026-10-11T00:00:00.000Z!fsrs,2029-06-29T00:00:00.000Z,1030,1029.72783972,1,2,9,0,0,2026-09-03T00:00:00.000Z!fsrs,2030-02-20T00:00:00.000Z,1218,1217.87747351,1,2,9,0,0,2026-10-21T00:00:00.000Z-->
 
@@ -71,7 +71,7 @@ Overall, lists provide {@{a simple yet powerful abstraction}@} for {@{ordered co
 
 ### list covariance
 
-Scala's {@{immutable `List`}@} is {@{covariant}@}. This means that {@{`List[A]` is a subtype of `List[B]`}@} whenever {@{`A` is a subtype of `B`}@}. Covariance is denoted by {@{the `+` symbol in the type parameter}@}: {@{`List[+T]`}@}. <!--SR:!fsrs,2029-10-23T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-09-27T00:00:00.000Z!2026-11-06,292,330!fsrs,2030-02-15T00:00:00.000Z,1214,1214.08066657,1,2,9,0,0,2026-10-20T00:00:00.000Z!fsrs,2029-11-19T00:00:00.000Z,1144,1144.03786294,1,2,9,0,0,2026-10-02T00:00:00.000Z!fsrs,2029-07-18T00:00:00.000Z,1045,1045.2595081,1,2,9,0,0,2026-09-07T00:00:00.000Z!fsrs,2028-11-22T00:00:00.000Z,768,767.82070873,2.49272837,2,9,0,0,2026-10-16T00:00:00.000Z-->
+Scala's {@{immutable `List`}@} is {@{covariant}@}. This means that {@{`List[A]` is a subtype of `List[B]`}@} whenever {@{`A` is a subtype of `B`}@}. Covariance is denoted by {@{the `+` symbol in the type parameter}@}: {@{`List[+T]`}@}. <!--SR:!fsrs,2029-10-23T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-09-27T00:00:00.000Z!fsrs,2030-04-26T00:00:00.000Z,1267,1267.08647061,1,2,9,0,0,2026-11-06T00:00:00.000Z!fsrs,2030-02-15T00:00:00.000Z,1214,1214.08066657,1,2,9,0,0,2026-10-20T00:00:00.000Z!fsrs,2029-11-19T00:00:00.000Z,1144,1144.03786294,1,2,9,0,0,2026-10-02T00:00:00.000Z!fsrs,2029-07-18T00:00:00.000Z,1045,1045.2595081,1,2,9,0,0,2026-09-07T00:00:00.000Z!fsrs,2028-11-22T00:00:00.000Z,768,767.82070873,2.49272837,2,9,0,0,2026-10-16T00:00:00.000Z-->
 
 By declaring it {@{covariant (`sealed abstract class List[+T]`)}@} we allow {@{`Nil`}@} to be represented as {@{a singleton object of type `List[Nothing]`}@}, which is {@{a subtype of any `List[T]`}@}. <!--SR:!fsrs,2030-03-08T00:00:00.000Z,1229,1229.25786194,1,2,9,0,0,2026-10-26T00:00:00.000Z!fsrs,2028-08-27T00:00:00.000Z,705,705.09333259,2.49272837,2,9,0,0,2026-09-22T00:00:00.000Z!fsrs,2030-02-05T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-10-18T00:00:00.000Z!fsrs,2030-01-03T00:00:00.000Z,1180,1179.83367202,1,2,9,0,0,2026-10-11T00:00:00.000Z-->
 
@@ -209,7 +209,7 @@ Because {@{each recursive call}@} concatenates {@{a singleton list to the result
 >     if (n == 0) ys else y :: removeAt(n - 1, ys)
 > }
 > ```
-<!--SR:!2026-11-06,292,330!fsrs,2030-04-06T00:00:00.000Z,1252,1251.97430334,1,2,9,0,0,2026-11-01T00:00:00.000Z-->
+<!--SR:!fsrs,2030-04-26T00:00:00.000Z,1267,1267.08647061,1,2,9,0,0,2026-11-06T00:00:00.000Z!fsrs,2030-04-06T00:00:00.000Z,1252,1251.97430334,1,2,9,0,0,2026-11-01T00:00:00.000Z-->
 
 {@{A "deep" flattening routine}@} demonstrates {@{recursion over heterogeneous structures}@}: <!--SR:!fsrs,2030-03-23T00:00:00.000Z,1241,1240.62340626,1,2,9,0,0,2026-10-29T00:00:00.000Z!fsrs,2030-02-05T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-10-18T00:00:00.000Z-->
 
@@ -299,7 +299,7 @@ Using {@{`map`}@}, {@{a simple scaling routine}@} can be written as: <!--SR:!fsr
 
 ### pack
 
-{@{The _pack_ function}@} groups {@{consecutive duplicate elements into sublists}@}: <!--SR:!2026-11-06,292,330!fsrs,2029-06-24T00:00:00.000Z,1026,1025.83973773,1,2,9,0,0,2026-09-02T00:00:00.000Z-->
+{@{The _pack_ function}@} groups {@{consecutive duplicate elements into sublists}@}: <!--SR:!fsrs,2030-04-26T00:00:00.000Z,1267,1267.08647061,1,2,9,0,0,2026-11-06T00:00:00.000Z!fsrs,2029-06-24T00:00:00.000Z,1026,1025.83973773,1,2,9,0,0,2026-09-02T00:00:00.000Z-->
 
 > [!example] __`pack`__
 >
@@ -416,7 +416,7 @@ Using {@{`reduceLeft`}@}, {@{summation}@} becomes: <!--SR:!2026-11-07,293,330!fs
 
 ## vector
 
-In Scala, {@{`List`}@} is {@{a singly-linked list}@}: {@{accessing the head is constant time}@} while {@{random access to an element in the middle or at the end}@} requires {@{traversing a length proportional to the length of the list}@}. For workloads where {@{more balanced access patterns are required}@}, the library provides {@{the immutable `Vector` type}@}. A vector internally uses {@{a shallow tree of 32-element blocks}@}; this design gives {@{roughly logarithmic-time complexity}@} for {@{both indexing and updates}@} while {@{preserving immutability}@}. <!--SR:!fsrs,2028-08-24T00:00:00.000Z,703,702.57151752,2.49272837,2,9,0,0,2026-09-21T00:00:00.000Z!fsrs,2029-10-23T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-09-27T00:00:00.000Z!2026-11-06,292,330!fsrs,2030-01-12T00:00:00.000Z,1187,1187.45608877,1,2,9,0,0,2026-10-13T00:00:00.000Z!fsrs,2030-02-05T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-10-18T00:00:00.000Z!fsrs,2028-08-09T00:00:00.000Z,692,692.47401324,2.49272837,2,9,0,0,2026-09-17T00:00:00.000Z!fsrs,2029-06-29T00:00:00.000Z,1030,1029.72783972,1,2,9,0,0,2026-09-03T00:00:00.000Z!fsrs,2029-08-07T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-09-11T00:00:00.000Z!fsrs,2029-07-04T00:00:00.000Z,1034,1033.61384781,1,2,9,0,0,2026-09-04T00:00:00.000Z!fsrs,2029-10-28T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-09-28T00:00:00.000Z!fsrs,2030-03-18T00:00:00.000Z,1237,1236.83645167,1,2,9,0,0,2026-10-28T00:00:00.000Z-->
+In Scala, {@{`List`}@} is {@{a singly-linked list}@}: {@{accessing the head is constant time}@} while {@{random access to an element in the middle or at the end}@} requires {@{traversing a length proportional to the length of the list}@}. For workloads where {@{more balanced access patterns are required}@}, the library provides {@{the immutable `Vector` type}@}. A vector internally uses {@{a shallow tree of 32-element blocks}@}; this design gives {@{roughly logarithmic-time complexity}@} for {@{both indexing and updates}@} while {@{preserving immutability}@}. <!--SR:!fsrs,2028-08-24T00:00:00.000Z,703,702.57151752,2.49272837,2,9,0,0,2026-09-21T00:00:00.000Z!fsrs,2029-10-23T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-09-27T00:00:00.000Z!fsrs,2030-04-26T00:00:00.000Z,1267,1267.08647061,1,2,9,0,0,2026-11-06T00:00:00.000Z!fsrs,2030-01-12T00:00:00.000Z,1187,1187.45608877,1,2,9,0,0,2026-10-13T00:00:00.000Z!fsrs,2030-02-05T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-10-18T00:00:00.000Z!fsrs,2028-08-09T00:00:00.000Z,692,692.47401324,2.49272837,2,9,0,0,2026-09-17T00:00:00.000Z!fsrs,2029-06-29T00:00:00.000Z,1030,1029.72783972,1,2,9,0,0,2026-09-03T00:00:00.000Z!fsrs,2029-08-07T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-09-11T00:00:00.000Z!fsrs,2029-07-04T00:00:00.000Z,1034,1033.61384781,1,2,9,0,0,2026-09-04T00:00:00.000Z!fsrs,2029-10-28T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-09-28T00:00:00.000Z!fsrs,2030-03-18T00:00:00.000Z,1237,1236.83645167,1,2,9,0,0,2026-10-28T00:00:00.000Z-->
 
 Vectors are constructed {@{in exactly the same way as lists}@}: <!--SR:!fsrs,2029-06-14T00:00:00.000Z,1018,1018.05728725,1,2,9,0,0,2026-08-31T00:00:00.000Z-->
 
@@ -616,7 +616,7 @@ Because {@{maps are immutable}@}, updates {@{produce new maps}@}. {@{The operato
 > ```Scala
 > Map(0 -> 5, 1 -> -2, 3 -> 1)
 > ```
-<!--SR:!2026-11-06,292,330!fsrs,2029-10-28T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-09-28T00:00:00.000Z!fsrs,2030-02-05T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-10-18T00:00:00.000Z-->
+<!--SR:!fsrs,2030-04-26T00:00:00.000Z,1267,1267.08647061,1,2,9,0,0,2026-11-06T00:00:00.000Z!fsrs,2029-10-28T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-09-28T00:00:00.000Z!fsrs,2030-02-05T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-10-18T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 

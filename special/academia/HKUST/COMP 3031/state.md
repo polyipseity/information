@@ -23,7 +23,7 @@ tags:
 
 - see: [general/state (computer science)](../../../../general/state%20(computer%20science).md)
 
-{@{__State__}@} is the notion that {@{a program can carry data that changes over time}@}, breaking {@{referential transparency}@}. In {@{functional programming}@} we usually {@{try to avoid it}@}, but in {@{many practical systems – such as databases or user interfaces}@} – {@{mutable state is unavoidable}@}. The following sections describe how {@{Scala models state and why it matters for reasoning about programs}@}. <!--SR:!2026-12-29,270,330!2026-12-10,255,330!2026-12-21,263,330!2026-11-13,237,330!2026-11-06,231,330!2026-11-29,251,330!2026-12-28,269,330!2026-12-15,259,330-->
+{@{__State__}@} is the notion that {@{a program can carry data that changes over time}@}, breaking {@{referential transparency}@}. In {@{functional programming}@} we usually {@{try to avoid it}@}, but in {@{many practical systems – such as databases or user interfaces}@} – {@{mutable state is unavoidable}@}. The following sections describe how {@{Scala models state and why it matters for reasoning about programs}@}. <!--SR:!2026-12-29,270,330!2026-12-10,255,330!2026-12-21,263,330!2026-11-13,237,330!fsrs,2029-09-05T00:00:00.000Z,1034,1033.61384781,1,2,9,0,0,2026-11-06T00:00:00.000Z!2026-11-29,251,330!2026-12-28,269,330!2026-12-15,259,330-->
 
 ## substitution model
 

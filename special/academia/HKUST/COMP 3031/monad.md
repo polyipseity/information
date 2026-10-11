@@ -80,7 +80,7 @@ and {@{a pair generator}@} that produces {@{two independent random integers}@}: 
 
 #### generator monad
 
-Rather than writing {@{a new anonymous class}@} for {@{each derived generator}@}, {@{the `Generator` trait}@} can be {@{enriched with higher-order methods}@}. {@{An extension}@} that adds {@{`map`}@} is <!--SR:!2026-11-06,292,330!fsrs,2030-02-04T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-10-17T00:00:00.000Z!fsrs,2030-02-04T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-10-17T00:00:00.000Z!fsrs,2029-11-16T00:00:00.000Z,1142,1141.61620684,1,2,9,0,0,2026-10-01T00:00:00.000Z!fsrs,2029-06-18T00:00:00.000Z,1022,1021.94953015,1,2,9,0,0,2026-08-31T00:00:00.000Z!fsrs,2030-03-08T00:00:00.000Z,1229,1229.25786194,1,2,9,0,0,2026-10-26T00:00:00.000Z-->
+Rather than writing {@{a new anonymous class}@} for {@{each derived generator}@}, {@{the `Generator` trait}@} can be {@{enriched with higher-order methods}@}. {@{An extension}@} that adds {@{`map`}@} is <!--SR:!fsrs,2030-04-26T00:00:00.000Z,1267,1267.08647061,1,2,9,0,0,2026-11-06T00:00:00.000Z!fsrs,2030-02-04T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-10-17T00:00:00.000Z!fsrs,2030-02-04T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-10-17T00:00:00.000Z!fsrs,2029-11-16T00:00:00.000Z,1142,1141.61620684,1,2,9,0,0,2026-10-01T00:00:00.000Z!fsrs,2029-06-18T00:00:00.000Z,1022,1021.94953015,1,2,9,0,0,2026-08-31T00:00:00.000Z!fsrs,2030-03-08T00:00:00.000Z,1229,1229.25786194,1,2,9,0,0,2026-10-26T00:00:00.000Z-->
 
 > [!example] __`Generator.map`__
 >
@@ -93,7 +93,7 @@ Rather than writing {@{a new anonymous class}@} for {@{each derived generator}@}
 > ```
 <!--SR:!fsrs,2029-12-28T00:00:00.000Z,1176,1176.0199518,1,2,9,0,0,2026-10-09T00:00:00.000Z!fsrs,2030-02-12T00:00:00.000Z,1210,1210.28222352,1,2,9,0,0,2026-10-21T00:00:00.000Z-->
 
-and {@{a corresponding extension}@} to add {@{`flatMap`}@}: <!--SR:!2026-11-06,292,330!fsrs,2030-01-21T00:00:00.000Z,1195,1195.07164214,1,2,9,0,0,2026-10-14T00:00:00.000Z-->
+and {@{a corresponding extension}@} to add {@{`flatMap`}@}: <!--SR:!fsrs,2030-04-26T00:00:00.000Z,1267,1267.08647061,1,2,9,0,0,2026-11-06T00:00:00.000Z!fsrs,2030-01-21T00:00:00.000Z,1195,1195.07164214,1,2,9,0,0,2026-10-14T00:00:00.000Z-->
 
 > [!example] __`Generator.flatMap`__
 >
@@ -128,7 +128,7 @@ and {@{a generic pair generator}@} becomes, using {@{`flatMap`}@}: <!--SR:!fsrs,
 > ```
 <!--SR:!fsrs,2030-01-26T00:00:00.000Z,1199,1198.87680538,1,2,9,0,0,2026-10-15T00:00:00.000Z!fsrs,2030-01-16T00:00:00.000Z,1191,1191.26470738,1,2,9,0,0,2026-10-13T00:00:00.000Z-->
 
-The compiler rewrites {@{these _for_ expressions}@} in the same way {@{it does for collections}@}; {@{`for x <- g yield f(x)`}@} becomes {@{`g.map(f)`}@}, while {@{nested generators}@} translate into {@{successive calls to `flatMap`}@}. <!--SR:!fsrs,2029-10-27T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-09-27T00:00:00.000Z!fsrs,2029-11-29T00:00:00.000Z,1153,1153.10014712,1,2,9,0,0,2026-10-03T00:00:00.000Z!2026-11-06,292,330!fsrs,2029-10-22T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-09-26T00:00:00.000Z!fsrs,2030-01-16T00:00:00.000Z,1191,1191.26470738,1,2,9,0,0,2026-10-13T00:00:00.000Z!fsrs,2029-07-22T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-09-07T00:00:00.000Z-->
+The compiler rewrites {@{these _for_ expressions}@} in the same way {@{it does for collections}@}; {@{`for x <- g yield f(x)`}@} becomes {@{`g.map(f)`}@}, while {@{nested generators}@} translate into {@{successive calls to `flatMap`}@}. <!--SR:!fsrs,2029-10-27T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-09-27T00:00:00.000Z!fsrs,2029-11-29T00:00:00.000Z,1153,1153.10014712,1,2,9,0,0,2026-10-03T00:00:00.000Z!fsrs,2030-04-26T00:00:00.000Z,1267,1267.08647061,1,2,9,0,0,2026-11-06T00:00:00.000Z!fsrs,2029-10-22T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-09-26T00:00:00.000Z!fsrs,2030-01-16T00:00:00.000Z,1191,1191.26470738,1,2,9,0,0,2026-10-13T00:00:00.000Z!fsrs,2029-07-22T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-09-07T00:00:00.000Z-->
 
 #### generator monad recursion
 
@@ -253,7 +253,7 @@ In Scala, {@{`flatMap`}@} is typically {@{implemented as a method of the type it
 
 For a type to be {@{considered a true monad}@}, {@{three algebraic laws}@} must hold: \(annotation: 3 items: {@{associativity, left identity, right identity}@}\) <!--SR:!fsrs,2030-03-03T00:00:00.000Z,1225,1225.46601476,1,2,9,0,0,2026-10-25T00:00:00.000Z!fsrs,2029-11-16T00:00:00.000Z,1142,1141.61620684,1,2,9,0,0,2026-10-01T00:00:00.000Z!fsrs,2029-12-04T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-10-04T00:00:00.000Z-->
 
-- __Associativity__ ::@:: `m.flatMap(f).flatMap(g) == m.flatMap(x => f(x).flatMap(g))` <!--SR:!2026-11-08,294,330!2026-11-06,292,330-->
+- __Associativity__ ::@:: `m.flatMap(f).flatMap(g) == m.flatMap(x => f(x).flatMap(g))` <!--SR:!2026-11-08,294,330!fsrs,2030-04-26T00:00:00.000Z,1267,1267.08647061,1,2,9,0,0,2026-11-06T00:00:00.000Z-->
 - __Left Identity (Left Unit Law)__ ::@:: `unit(x).flatMap(f) == f(x)` <!--SR:!2026-11-07,293,330!fsrs,2029-10-22T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-09-26T00:00:00.000Z-->
 - __Right Identity (Right Unit Law)__ ::@:: `m.flatMap(unit) == m` <!--SR:!fsrs,2030-01-02T00:00:00.000Z,1180,1179.83367202,1,2,9,0,0,2026-10-10T00:00:00.000Z!fsrs,2029-11-11T00:00:00.000Z,1138,1137.78464757,1,2,9,0,0,2026-09-30T00:00:00.000Z-->
 
@@ -323,7 +323,7 @@ For instance, consider {@{Scala's `Option`}@}. {@{Its `flatMap`}@} is defined by
 > ```
 <!--SR:!fsrs,2030-04-06T00:00:00.000Z,1252,1251.97430334,1,2,9,0,0,2026-11-01T00:00:00.000Z!fsrs,2030-02-22T00:00:00.000Z,1218,1217.87747351,1,2,9,0,0,2026-10-23T00:00:00.000Z!fsrs,2030-01-07T00:00:00.000Z,1184,1183.64577796,1,2,9,0,0,2026-10-11T00:00:00.000Z-->
 
-Using {@{simple algebraic reasoning}@}, one can verify that {@{all three laws hold for `Option`}@}. {@{The left-unit law}@} is immediate because {@{`Some(x).flatMap(f)` evaluates to `f(x)`}@}, and {@{the right-unit law}@} follows from the fact that {@{mapping a value with `unit` (i.e., `Some`) leaves it unchanged}@}. {@{Associativity}@} can be shown by unfolding {@{both sides and observing that they reduce to identical pattern matches}@}. <!--SR:!2026-11-08,294,330!fsrs,2030-02-07T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-10-20T00:00:00.000Z!fsrs,2030-03-03T00:00:00.000Z,1225,1225.46601476,1,2,9,0,0,2026-10-25T00:00:00.000Z!fsrs,2029-08-06T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-09-10T00:00:00.000Z!fsrs,2030-04-06T00:00:00.000Z,1252,1251.97430334,1,2,9,0,0,2026-11-01T00:00:00.000Z!2026-11-06,292,330!fsrs,2029-12-23T00:00:00.000Z,1172,1172.20432607,1,2,9,0,0,2026-10-08T00:00:00.000Z!fsrs,2028-08-19T00:00:00.000Z,700,700.04868809,2.49272837,2,9,0,0,2026-09-19T00:00:00.000Z-->
+Using {@{simple algebraic reasoning}@}, one can verify that {@{all three laws hold for `Option`}@}. {@{The left-unit law}@} is immediate because {@{`Some(x).flatMap(f)` evaluates to `f(x)`}@}, and {@{the right-unit law}@} follows from the fact that {@{mapping a value with `unit` (i.e., `Some`) leaves it unchanged}@}. {@{Associativity}@} can be shown by unfolding {@{both sides and observing that they reduce to identical pattern matches}@}. <!--SR:!2026-11-08,294,330!fsrs,2030-02-07T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-10-20T00:00:00.000Z!fsrs,2030-03-03T00:00:00.000Z,1225,1225.46601476,1,2,9,0,0,2026-10-25T00:00:00.000Z!fsrs,2029-08-06T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-09-10T00:00:00.000Z!fsrs,2030-04-06T00:00:00.000Z,1252,1251.97430334,1,2,9,0,0,2026-11-01T00:00:00.000Z!fsrs,2030-04-26T00:00:00.000Z,1267,1267.08647061,1,2,9,0,0,2026-11-06T00:00:00.000Z!fsrs,2029-12-23T00:00:00.000Z,1172,1172.20432607,1,2,9,0,0,2026-10-08T00:00:00.000Z!fsrs,2028-08-19T00:00:00.000Z,700,700.04868809,2.49272837,2,9,0,0,2026-09-19T00:00:00.000Z-->
 
 ## `Try`
 

@@ -220,7 +220,7 @@ We aim to prove that {@{reversing twice yields the original list}@}: {@{`xs.reve
 
 ### proving `map` is distributive over concatenation
 
-A further law often used in functional programming is that {@{mapping a function over the concatenation of two lists}@} equals {@{the concatenation of the mapped sublists}@}: {@{`(xs ::: ys).map(f) = xs.map(f) ::: ys.map(f)`}@}. <!--SR:!fsrs,2030-04-05T00:00:00.000Z,1251,1250.57352479,1,2,9,0,0,2026-11-01T00:00:00.000Z!fsrs,2030-03-17T00:00:00.000Z,1237,1236.83645167,1,2,9,0,0,2026-10-27T00:00:00.000Z!2026-11-06,292,330-->
+A further law often used in functional programming is that {@{mapping a function over the concatenation of two lists}@} equals {@{the concatenation of the mapped sublists}@}: {@{`(xs ::: ys).map(f) = xs.map(f) ::: ys.map(f)`}@}. <!--SR:!fsrs,2030-04-05T00:00:00.000Z,1251,1250.57352479,1,2,9,0,0,2026-11-01T00:00:00.000Z!fsrs,2030-03-17T00:00:00.000Z,1237,1236.83645167,1,2,9,0,0,2026-10-27T00:00:00.000Z!fsrs,2030-04-26T00:00:00.000Z,1267,1267.08647061,1,2,9,0,0,2026-11-06T00:00:00.000Z-->
 
 To prove this, one again uses {@{structural induction on `xs`}@}. {@{The base case}@} follows from {@{`Nil.map(f) = Nil` and `Nil ::: ys = ys`}@}. In {@{the inductive step}@}, we rely on {@{both clauses of `:::` and on the two equations defining `map`}@}: <!--SR:!fsrs,2029-12-04T00:00:00.000Z,1159,1159.34014939,1,2,9,0,0,2026-10-02T00:00:00.000Z!fsrs,2028-08-13T00:00:00.000Z,698,697.52483893,2.49272837,2,9,0,0,2026-09-15T00:00:00.000Z!fsrs,2029-07-09T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-09-02T00:00:00.000Z!fsrs,2028-08-30T00:00:00.000Z,710,710.13394084,2.49272837,2,9,0,0,2026-09-20T00:00:00.000Z!fsrs,2030-04-21T00:00:00.000Z,1263,1263.3108468,1,2,9,0,0,2026-11-05T00:00:00.000Z-->
 
@@ -241,7 +241,7 @@ To prove this, one again uses {@{structural induction on `xs`}@}. {@{The base ca
 
 ### proving set properties
 
-{@{An application}@} of tree induction is {@{the implementation of a binary search tree}@} representing {@{a set of integers}@}. {@{The `IntSet` type}@} can be expressed as: <!--SR:!fsrs,2029-11-27T00:00:00.000Z,1153,1153.10014712,1,2,9,0,0,2026-10-01T00:00:00.000Z!fsrs,2030-01-31T00:00:00.000Z,1203,1202.68030072,1,2,9,0,0,2026-10-16T00:00:00.000Z!2026-11-06,292,330!fsrs,2029-12-04T00:00:00.000Z,1159,1159.34014939,1,2,9,0,0,2026-10-02T00:00:00.000Z-->
+{@{An application}@} of tree induction is {@{the implementation of a binary search tree}@} representing {@{a set of integers}@}. {@{The `IntSet` type}@} can be expressed as: <!--SR:!fsrs,2029-11-27T00:00:00.000Z,1153,1153.10014712,1,2,9,0,0,2026-10-01T00:00:00.000Z!fsrs,2030-01-31T00:00:00.000Z,1203,1202.68030072,1,2,9,0,0,2026-10-16T00:00:00.000Z!fsrs,2030-04-26T00:00:00.000Z,1267,1267.08647061,1,2,9,0,0,2026-11-06T00:00:00.000Z!fsrs,2029-12-04T00:00:00.000Z,1159,1159.34014939,1,2,9,0,0,2026-10-02T00:00:00.000Z-->
 
 > [!example] __binary tree integer set__
 >
@@ -357,7 +357,7 @@ To prove this, one again uses {@{structural induction on `xs`}@}. {@{The base ca
 > ```
 <!--SR:!fsrs,2028-08-23T00:00:00.000Z,705,705.09333259,2.49272837,2,9,0,0,2026-09-18T00:00:00.000Z!fsrs,2030-02-20T00:00:00.000Z,1218,1217.87747351,1,2,9,0,0,2026-10-21T00:00:00.000Z-->
 
-{@{The correctness of `union`}@} can be expressed by {@{the following proposition}@}: <!--SR:!fsrs,2029-07-24T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-09-05T00:00:00.000Z!2026-11-06,292,330-->
+{@{The correctness of `union`}@} can be expressed by {@{the following proposition}@}: <!--SR:!fsrs,2029-07-24T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-09-05T00:00:00.000Z!fsrs,2030-04-26T00:00:00.000Z,1267,1267.08647061,1,2,9,0,0,2026-11-06T00:00:00.000Z-->
 
 > [!example] __`IntSet.union` property__
 >

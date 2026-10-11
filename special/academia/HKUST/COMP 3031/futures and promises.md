@@ -160,7 +160,7 @@ Using {@{a `Future`}@} also gives {@{built‑in failure handling via `Try[T]`}@}
 >   p.future
 > ```
 >
-> {@{The promise}@} is completed {@{after `asyncAddLegacy` calls the provided callback}@}; {@{any future that has been obtained from `p`}@} will {@{receive the result}@}. <!--SR:!2027-01-22,293,330!2026-12-27,271,330!2026-11-06,237,330!2026-11-06,237,330!2026-12-26,270,330!2027-01-21,292,330!fsrs,2029-09-18T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-11-04T00:00:00.000Z!2026-12-12,259,330!2027-01-18,288,330-->
+> {@{The promise}@} is completed {@{after `asyncAddLegacy` calls the provided callback}@}; {@{any future that has been obtained from `p`}@} will {@{receive the result}@}. <!--SR:!2027-01-22,293,330!2026-12-27,271,330!fsrs,2029-09-28T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-06T00:00:00.000Z!fsrs,2029-09-28T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-06T00:00:00.000Z!2026-12-26,270,330!2027-01-21,292,330!fsrs,2029-09-18T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-11-04T00:00:00.000Z!2026-12-12,259,330!2027-01-18,288,330-->
 
 ## transformations
 
@@ -203,7 +203,7 @@ When {@{the next step itself returns a `Future`}@}, {@{`flatMap`}@} chains {@{th
 >   grindBeans().zip(grindBeans())
 > ```
 >
-> {@{The two coffees}@} may be {@{prepared concurrently}@}; {@{the result is available only}@} when {@{both futures finish successfully}@}. <!--SR:!2027-01-06,279,330!2026-11-14,244,330!2027-01-22,292,330!2026-11-06,237,330!2026-11-14,244,330!2026-12-28,272,330!2027-01-24,294,330!2027-01-01,275,330!2026-11-13,243,330!fsrs,2029-08-09T00:00:00.000Z,1018,1018.05728725,1,2,9,0,0,2026-10-26T00:00:00.000Z-->
+> {@{The two coffees}@} may be {@{prepared concurrently}@}; {@{the result is available only}@} when {@{both futures finish successfully}@}. <!--SR:!2027-01-06,279,330!2026-11-14,244,330!2027-01-22,292,330!fsrs,2029-09-28T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-06T00:00:00.000Z!2026-11-14,244,330!2026-12-28,272,330!2027-01-24,294,330!2027-01-01,275,330!2026-11-13,243,330!fsrs,2029-08-09T00:00:00.000Z,1018,1018.05728725,1,2,9,0,0,2026-10-26T00:00:00.000Z-->
 
 {@{`recover`}@} turns {@{a failed future into a successful one by supplying an alternative value}@}. {@{`recoverWith`}@} allows supplying {@{another asynchronous computation as the recovery path}@}, which is essentially {@{the flat version of `recover`}@}. <!--SR:!2026-12-17,263,330!2027-01-18,289,330!2026-11-07,238,330!2026-11-10,241,330!2026-12-20,265,330-->
 

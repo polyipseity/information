@@ -65,7 +65,7 @@ A word can have {@{many meanings}@}, in a {@{phenomenon known as _polysemy_}@}. 
 - [fomite](https://en.wiktionary.org/wiki/fomite) ::@:: \(f\_e\) An inanimate object that can carry infectious agents to transmit between hosts. <!--SR:!2032-04-09,2337,396!2032-05-09,2416,416-->
 - [governance](https://en.wiktionary.org/wiki/governance) ::@:: \(g\_e\) The action or manner of governing. <!--SR:!2028-08-08,1314,350!2029-01-18,1434,350-->
 - [guarantee](https://en.wiktionary.org/wiki/guarantee) ::@:: \(g\_e\) Assure that something will be done. <!--SR:!2028-08-18,1225,363!2027-01-08,585,283-->
-- [hallucinate](https://en.wiktionary.org/wiki/hallucinate) ::@:: \(h\_e\) Perceive things that are not actually present. <!--SR:!2032-08-01,2482,408!2026-11-06,723,348-->
+- [hallucinate](https://en.wiktionary.org/wiki/hallucinate) ::@:: \(h\_e\) Perceive things that are not actually present. <!--SR:!2032-08-01,2482,408!fsrs,2034-12-14T00:00:00.000Z,2960,2960.45453636,1,2,10,0,0,2026-11-06T00:00:00.000Z-->
 - [hierarchy](https://en.wiktionary.org/wiki/hierarchy) ::@:: \(h\_y\) Any group of objects ranked so that every one but the topmost is subordinate to a specified one above it. <!--SR:!2027-12-16,748,433!2027-12-03,737,433-->
 - [hydraulic](https://en.wiktionary.org/wiki/hydraulic) ::@:: \(h\_c\) Of or pertaining to [water](../../../general/water.md). <!--SR:!fsrs,2036-05-03T00:00:00.000Z,3483,3483.06208612,1,2,11,0,0,2026-10-20T00:00:00.000Z!2036-11-15,3855,452-->
 - [imaginary](https://en.wiktionary.org/wiki/imaginary) ::@:: \(i\_y\) Existing only in the [imagination](../../../general/imagination.md). <!--SR:!2029-02-19,1470,364!2027-07-05,933,344-->
