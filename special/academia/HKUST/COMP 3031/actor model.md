@@ -322,7 +322,7 @@ In {@{an actor‑based design}@}, {@{a `BankAccount`}@} exposes only {@{two oper
 > ```
 <!--SR:!2026-11-22,251,330!2026-11-24,252,330!2026-11-11,241,330-->
 
-{@{The actor itself}@} keeps {@{a mutable balance}@} and replies with {@{`Done` or `Failed`}@}. When it {@{receives a `Withdraw`}@}, the amount is checked {@{against the current balance}@}; if insufficient, it signals {@{failure}@}. <!--SR:!2026-11-10,241,330!2026-11-07,238,330!2027-01-06,278,330!2027-01-15,288,330!2027-01-03,278,330!2027-01-06,281,330-->
+{@{The actor itself}@} keeps {@{a mutable balance}@} and replies with {@{`Done` or `Failed`}@}. When it {@{receives a `Withdraw`}@}, the amount is checked {@{against the current balance}@}; if insufficient, it signals {@{failure}@}. <!--SR:!2026-11-10,241,330!fsrs,2029-10-03T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-11-07T00:00:00.000Z!2027-01-06,278,330!2027-01-15,288,330!2027-01-03,278,330!2027-01-06,281,330-->
 
 > [!example] __BankAccount actor__
 >
@@ -376,7 +376,7 @@ In {@{an actor‑based design}@}, {@{a `BankAccount`}@} exposes only {@{two oper
 > ```
 <!--SR:!2027-01-14,285,330!2026-12-30,275,330!2026-11-28,249,330-->
 
-{@{The actor hierarchy}@} is therefore {@{safe and composable}@}: each account owns {@{its own balance}@}, {@{the transfer logic}@} runs {@{in a separate actor}@}, and all communication proceeds {@{through immutable messages}@}. This pattern illustrates how actors avoid {@{shared‑memory pitfalls}@} while enabling {@{fine‑grained concurrent interactions}@}. <!--SR:!2027-01-06,281,330!2026-12-07,256,330!2026-11-30,251,330!fsrs,2029-09-17T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-11-03T00:00:00.000Z!2026-12-07,256,330!2027-01-10,284,330!2026-11-07,238,330!2026-12-31,276,330-->
+{@{The actor hierarchy}@} is therefore {@{safe and composable}@}: each account owns {@{its own balance}@}, {@{the transfer logic}@} runs {@{in a separate actor}@}, and all communication proceeds {@{through immutable messages}@}. This pattern illustrates how actors avoid {@{shared‑memory pitfalls}@} while enabling {@{fine‑grained concurrent interactions}@}. <!--SR:!2027-01-06,281,330!2026-12-07,256,330!2026-11-30,251,330!fsrs,2029-09-17T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-11-03T00:00:00.000Z!2026-12-07,256,330!2027-01-10,284,330!fsrs,2029-10-03T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-11-07T00:00:00.000Z!2026-12-31,276,330-->
 
 ## message delivery
 
@@ -566,7 +566,7 @@ Actors are {@{_event‑driven_}@}: they wait for {@{a message in their mailbox}@
 
 Actors should expose only {@{immutable data to callers}@}. Inside an actor, {@{mutable fields may be used}@}, but they are never {@{shared with other code}@}. When an actor replies, it sends {@{a copy of its internal data rather than the original object}@}. Using {@{immutable snapshots}@} guarantees that {@{concurrent reads do not corrupt state}@}. <!--SR:!2027-01-16,289,330!2027-01-06,281,330!2026-11-22,251,330!2026-12-15,263,330!2026-12-15,260,330!2026-11-28,249,330-->
 
-Actors often have {@{several logical states (e.g., idle, processing)}@}. The {@{`context.become` method}@} replaces {@{the current message handler with a new one and optionally keeps the old state}@}. {@{State‑specific logic is thus kept local}@}, reducing {@{accidental interaction with unrelated behaviours}@}. <!--SR:!2026-12-10,256,330!2026-12-25,271,330!2026-11-07,238,330!2026-12-08,257,330!2026-11-07,238,330-->
+Actors often have {@{several logical states (e.g., idle, processing)}@}. The {@{`context.become` method}@} replaces {@{the current message handler with a new one and optionally keeps the old state}@}. {@{State‑specific logic is thus kept local}@}, reducing {@{accidental interaction with unrelated behaviours}@}. <!--SR:!2026-12-10,256,330!2026-12-25,271,330!fsrs,2029-10-03T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-11-07T00:00:00.000Z!2026-12-08,257,330!fsrs,2029-10-03T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-11-07T00:00:00.000Z-->
 
 When an actor sends {@{a blocking message to another actor}@} or starts {@{a `Future`}@}, the original actor must not read {@{its own mutable fields until the callback completes}@}. Any required data should be {@{copied into the message}@} so that it remains {@{valid during the call}@}. <!--SR:!2026-12-13,261,330!2026-11-30,251,330!2027-01-15,288,330!2027-01-09,283,330!2026-11-18,246,330-->
 

@@ -58,7 +58,7 @@ tags:
 
 ## statefulness
 
-{@{A _stateful object_}@} is one whose {@{behaviour depends on a history of updates}@}. Typical implementations use {@{mutable variables (`var`) or private fields that can be changed by methods}@}. <!--SR:!2026-11-07,232,330!2026-11-12,237,330!2026-11-23,246,330-->
+{@{A _stateful object_}@} is one whose {@{behaviour depends on a history of updates}@}. Typical implementations use {@{mutable variables (`var`) or private fields that can be changed by methods}@}. <!--SR:!fsrs,2029-09-09T00:00:00.000Z,1037,1037.49777357,1,2,9,0,0,2026-11-07T00:00:00.000Z!2026-11-12,237,330!2026-11-23,246,330-->
 
 > [!example] __`BankAccount`__
 >

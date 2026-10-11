@@ -262,7 +262,7 @@ To refer to {@{an instance directly without using `using`}@}, you may {@{use `su
 > val intOrd = summon[Ordering[Int]]      // expands to Ordering.Int
 > val dblOrd = summon[Ordering[Double]]   // anonymous name
 > ```
-<!--SR:!2027-01-26,347,349!2026-11-07,281,349-->
+<!--SR:!2027-01-26,347,349!fsrs,2030-06-04T00:00:00.000Z,1305,1304.63448952,1,2,9,0,0,2026-11-07T00:00:00.000Z-->
 
 {@{`summon`}@} simply uses {@{`using` in its implementation}@}; it is {@{defined as}@}: <!--SR:!2027-01-30,351,349!2026-12-04,304,349!2027-01-27,348,349-->
 
@@ -370,7 +370,7 @@ In Scala {@{a _type class_}@} is {@{a generic trait}@} that declares {@{operatio
 
 {@{Type classes}@} turn {@{a type into a value}@} by providing {@{a trait and concrete instances}@}. They enable {@{_ad-hoc polymorphism_}@}: {@{different implementations}@} for {@{different types}@}. <!--SR:!2026-11-17,287,349!2026-12-11,311,349!2027-01-18,339,349!2026-11-27,297,349!2027-01-21,342,349!2026-11-27,297,349-->
 
-{@{Other languages}@} adopt {@{similar concepts}@}: {@{Haskell}@}'s {@{built-in type classes}@}, {@{Rust}@}'s {@{traits}@}, and {@{emerging features}@} in {@{Agda, Lean, and OCaml}@}. In {@{Scala}@} {@{the mechanism is realized}@} through {@{contextual parameters (`using`) and implicit resolution}@}, giving programmers {@{fine-grained control over polymorphic behaviour}@}. <!--SR:!2026-11-11,281,349!2026-11-22,292,349!2026-12-21,319,349!2026-12-03,303,349!2026-11-07,281,349!2026-11-15,285,349!2027-01-24,345,349!2026-12-06,306,349!2026-12-28,325,349!2027-01-24,345,349!2027-01-22,343,349!2027-01-31,352,349-->
+{@{Other languages}@} adopt {@{similar concepts}@}: {@{Haskell}@}'s {@{built-in type classes}@}, {@{Rust}@}'s {@{traits}@}, and {@{emerging features}@} in {@{Agda, Lean, and OCaml}@}. In {@{Scala}@} {@{the mechanism is realized}@} through {@{contextual parameters (`using`) and implicit resolution}@}, giving programmers {@{fine-grained control over polymorphic behaviour}@}. <!--SR:!2026-11-11,281,349!2026-11-22,292,349!2026-12-21,319,349!2026-12-03,303,349!fsrs,2030-06-04T00:00:00.000Z,1305,1304.63448952,1,2,9,0,0,2026-11-07T00:00:00.000Z!2026-11-15,285,349!2027-01-24,345,349!2026-12-06,306,349!2026-12-28,325,349!2027-01-24,345,349!2027-01-22,343,349!2027-01-31,352,349-->
 
 ### type class pattern
 

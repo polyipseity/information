@@ -371,7 +371,7 @@ The content is in teaching order.
 - datetime: 2025-03-19T12:00:00+08:00/2025-03-19T13:20:00+08:00, PT1H20M
 - topic: cost–volume–profit \(CVP\) analysis
 - [cost–volume–profit analysis](../../../../general/cost–volume–profit%20analysis.md) ::@:: It is a form of cost accounting. It is a simplified model, useful for elementary instruction and for short-run decisions. <!--SR:!fsrs,2033-01-27T00:00:00.000Z,2274,2274.19527604,1,2,10,0,0,2026-11-06T00:00:00.000Z!fsrs,2032-11-15T00:00:00.000Z,2218,2218.23103427,1,2,10,0,0,2026-10-20T00:00:00.000Z-->
-- [break-even point](../../../../general/break-even%20point.md) ::@:: It is the point at which total cost and total revenue are equal, i.e. "even". <!--SR:!2026-12-06,519,406!2026-11-07,496,406-->
+- [break-even point](../../../../general/break-even%20point.md) ::@:: It is the point at which total cost and total revenue are equal, i.e. "even". <!--SR:!2026-12-06,519,406!fsrs,2033-02-01T00:00:00.000Z,2278,2278.18510575,1,2,10,0,0,2026-11-07T00:00:00.000Z-->
 - cost–volume–profit analysis
     - cost–volume–profit analysis / method ::@:: contribution margin ratio method, profit equation method, unit contribution margin method <!--SR:!fsrs,2031-08-04T00:00:00.000Z,1841,1840.92910627,1,2,10,0,0,2026-07-20T00:00:00.000Z!2026-12-13,524,406-->
     - cost–volume–profit analysis / profit equation method ::@:: Write profit \(net operating income\) as a function of quantity. Equate it to _0_ and solve for quantity. <!--SR:!fsrs,2031-04-05T00:00:00.000Z,1746,1745.94768274,1,2,10,0,0,2026-06-24T00:00:00.000Z!fsrs,2032-12-12T00:00:00.000Z,2238,2238.24127719,1,2,10,0,0,2026-10-27T00:00:00.000Z-->

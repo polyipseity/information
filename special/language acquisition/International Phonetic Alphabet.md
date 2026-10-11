@@ -546,7 +546,7 @@ Here is a list of common IPA letters and their pronunciations:
 - [voiceless bilabial fricative](voiceless%20bilabial%20fricative.md):@:\[ɸ\] <!--SR:!2027-04-12,676,354-->
 - [glottal stop](glottal%20stop.md):@:\[ʔ\] <!--SR:!2029-12-28,1416,370-->
 - [voiced pharyngeal fricative](voiced%20pharyngeal%20fricative.md):@:\[ʕ\] <!--SR:!2028-12-23,1053,315-->
-- [tenuis dental click](tenuis%20dental%20click.md):@:\[ǀ\] <!--SR:!2026-11-07,499,316-->
+- [tenuis dental click](tenuis%20dental%20click.md):@:\[ǀ\] <!--SR:!fsrs,2029-06-22T00:00:00.000Z,958,957.68142825,5.35489833,2,10,0,0,2026-11-07T00:00:00.000Z-->
 - [tenuis alveolar lateral click](tenuis%20alveolar%20lateral%20click.md):@:\[ǁ\] <!--SR:!2030-02-01,1627,375-->
 - [tenuis alveolar click](tenuis%20alveolar%20click.md):@:\[ǃ\] <!--SR:!2027-07-30,647,330-->
 - [tenuis bilabial click](tenuis%20bilabial%20click.md):@:\[ʘ\] <!--SR:!2029-06-08,1131,369-->
@@ -850,7 +850,7 @@ Here is a list of common IPA letters and their pronunciations:
 - ![voiceless velar plosive](../../archives/Wikimedia%20Commons/Voiceless%20velar%20plosive.ogg):@:[voiceless velar plosive](voiceless%20velar%20plosive.md) <!--SR:!2027-03-23,412,230-->
 - ![voiced alveolar lateral approximant](../../archives/Wikimedia%20Commons/Alveolar%20lateral%20approximant.ogg):@:[voiced alveolar lateral approximant](voiced%20alveolar%20lateral%20approximant.md) <!--SR:!fsrs,2027-07-15T06:00:37.993Z,395,395.39466129,7.49580362,2,9,0,0,2026-06-15T06:00:37.993Z-->
 - ![velarized alveolar lateral approximant](../../archives/Wikimedia%20Commons/Velarized%20alveolar%20lateral%20approximant.ogg):@:[velarized alveolar lateral approximant](velarized%20alveolar%20lateral%20approximant.md) <!--SR:!fsrs,2026-11-24T00:00:00.000Z,37,36.9797066,9.95855357,2,10,0,0,2026-10-18T00:00:00.000Z-->
-- ![voiceless alveolar lateral fricative](../../archives/Wikimedia%20Commons/Voiceless%20alveolar%20lateral%20fricative.ogg):@:[voiceless alveolar lateral fricative](voiceless%20alveolar%20lateral%20fricative.md) <!--SR:!fsrs,2026-11-07T00:00:00.000Z,106,106.27143203,6.97302442,2,7,0,0,2026-07-24T00:00:00.000Z-->
+- ![voiceless alveolar lateral fricative](../../archives/Wikimedia%20Commons/Voiceless%20alveolar%20lateral%20fricative.ogg):@:[voiceless alveolar lateral fricative](voiceless%20alveolar%20lateral%20fricative.md) <!--SR:!fsrs,2027-04-26T00:00:00.000Z,170,169.8868932,7.97578092,2,8,0,0,2026-11-07T00:00:00.000Z-->
 - ![voiced retroflex lateral approximant](../../archives/Wikimedia%20Commons/Retroflex%20lateral%20approximant.ogg):@:[voiced retroflex lateral approximant](voiced%20retroflex%20lateral%20approximant.md) <!--SR:!fsrs,2027-02-16T00:00:00.000Z,107,106.82125495,9.31067032,2,8,0,0,2026-11-01T00:00:00.000Z-->
 - ![voiced alveolar lateral fricative](../../archives/Wikimedia%20Commons/Voiced%20alveolar%20lateral%20fricative.ogg):@:[voiced alveolar lateral fricative](voiced%20alveolar%20lateral%20fricative.md) <!--SR:!fsrs,2027-03-22T00:00:00.000Z,136,136.36503743,8.62836169,2,8,0,0,2026-11-06T00:00:00.000Z-->
 - ![voiced velar lateral approximant](../../archives/Wikimedia%20Commons/Velar%20lateral%20approximant.ogg):@:[voiced velar lateral approximant](voiced%20velar%20lateral%20approximant.md) <!--SR:!fsrs,2026-11-23T00:00:00.000Z,64,63.52419121,9.96562598,2,8,0,0,2026-09-20T00:00:00.000Z-->
@@ -965,7 +965,7 @@ Here is a list of common IPA letters and their pronunciations:
 - [voiceless pharyngeal fricative](voiceless%20pharyngeal%20fricative.md):@:[English](English%20language.md) _**h**orrible_ \[ħɒɹɪbəl\] <!--SR:!fsrs,2027-06-25T00:00:00.000Z,299,298.84987711,7.32154389,2,8,0,0,2026-08-30T00:00:00.000Z-->
 - [close front unrounded vowel](close%20front%20unrounded%20vowel.md):@:[English](English%20language.md) _fr**ee**_ \[fɹiː\] <!--SR:!fsrs,2027-04-18T00:00:00.000Z,165,165.45379987,9.97047151,2,9,0,0,2026-11-04T00:00:00.000Z-->
 - [near-close near-front unrounded vowel](near-close%20near-front%20unrounded%20vowel.md):@:[English](English%20language.md) _b**i**t_ \[bɪʔt\] <!--SR:!fsrs,2027-05-19T14:11:57.200Z,339,339.43416587,9.31308369,2,9,0,0,2026-06-14T14:11:57.200Z-->
-- [close central unrounded vowel](close%20central%20unrounded%20vowel.md):@:[Russian](Russian%20language.md) _т**ы**_ \[t̪ɨ\] "you" <!--SR:!fsrs,2026-11-07T00:00:00.000Z,136,136.49516346,9.98522837,2,8,0,0,2026-06-24T00:00:00.000Z-->
+- [close central unrounded vowel](close%20central%20unrounded%20vowel.md):@:[Russian](Russian%20language.md) _т**ы**_ \[t̪ɨ\] "you" <!--SR:!fsrs,2027-04-25T00:00:00.000Z,169,169.30811077,9.97047151,2,9,0,0,2026-11-07T00:00:00.000Z-->
 - [voiced palatal approximant](voiced%20palatal%20approximant.md):@:[English](English%20language.md) _**y**ou_ \[juː\] <!--SR:!fsrs,2027-02-02T00:00:00.000Z,96,96.30046533,9.95572941,2,8,0,0,2026-10-29T00:00:00.000Z-->
 - [palatalization](palatalization%20(phonetics).md):@:[Irish](Irish%20language.md) _**be**o_ \[bʲoː\] "alive" <!--SR:!2027-01-06,580,238-->
 - [voiced palatal fricative](voiced%20palatal%20fricative.md):@:[Spanish](Spanish%20language.md) _sa**y**o_ \[ˈsäʝo̞\] "smock" <!--SR:!fsrs,2026-11-13T00:00:00.000Z,55,54.5853494,9.96562598,2,8,0,0,2026-09-19T00:00:00.000Z-->

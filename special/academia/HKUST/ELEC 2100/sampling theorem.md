@@ -45,7 +45,7 @@ Flashcards for this section are as follows:
 
 - What is the sampled sequence for signal $x(t)$ with interval $T$? ::@:: $x[n]=x(nT)$. <!--SR:!fsrs,2027-01-07T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-02T00:00:00.000Z!fsrs,2027-01-07T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-02T00:00:00.000Z-->
 - What are $f_s$ and $\omega_s$ in terms of $T$? ::@:: $f_s=1/T$ and $\omega_s=2\pi/T$. <!--SR:!fsrs,2027-01-07T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-02T00:00:00.000Z!fsrs,2027-01-07T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-02T00:00:00.000Z-->
-- What impulse train models ideal sampling? ::@:: $p_T(t)=\sum_{n=-\infty}^{\infty}\delta(t-nT)$. <!--SR:!fsrs,2027-01-07T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-07T00:00:00.000Z,12,11.6874828,1,2,2,0,0,2026-10-26T00:00:00.000Z-->
+- What impulse train models ideal sampling? ::@:: $p_T(t)=\sum_{n=-\infty}^{\infty}\delta(t-nT)$. <!--SR:!fsrs,2027-01-07T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-02T00:00:00.000Z!fsrs,2027-02-06T00:00:00.000Z,91,91.47185982,1,2,3,0,0,2026-11-07T00:00:00.000Z-->
 - What is the sampled signal in impulse-train form? ::@:: $x_s(t)=x(t)p_T(t)=\sum_{n=-\infty}^{\infty}x(nT)\delta(t-nT)$. <!--SR:!fsrs,2027-01-07T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-02T00:00:00.000Z!fsrs,2027-01-07T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-02T00:00:00.000Z-->
 - Why is the impulse-train model useful? ::@:: It turns sampling into time multiplication, which becomes spectral convolution with replicated spectra. <!--SR:!fsrs,2027-01-07T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-02T00:00:00.000Z!fsrs,2027-01-07T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-02T00:00:00.000Z-->
 

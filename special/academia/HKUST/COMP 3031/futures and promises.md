@@ -26,7 +26,7 @@ When a function has to wait {@{for an I/O operation or a remote service}@}, {@{b
 
 ### continuation-passing style
 
-A common early pattern is {@{_continuation-passing style_ (CPS), or more commonly known as _callback style_}@}. Instead of {@{returning a value}@}, a function takes {@{an extra argument – the continuation that consumes the result once it becomes available}@}. This transforms {@{the call chain into nested callbacks}@}: <!--SR:!2026-11-09,240,330!2026-11-22,251,330!2026-11-07,238,330!2026-12-11,259,330-->
+A common early pattern is {@{_continuation-passing style_ (CPS), or more commonly known as _callback style_}@}. Instead of {@{returning a value}@}, a function takes {@{an extra argument – the continuation that consumes the result once it becomes available}@}. This transforms {@{the call chain into nested callbacks}@}: <!--SR:!2026-11-09,240,330!2026-11-22,251,330!fsrs,2029-10-03T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-11-07T00:00:00.000Z!2026-12-11,259,330-->
 
 > [!example] __callback nesting__
 >
@@ -190,7 +190,7 @@ When {@{the next step itself returns a `Future`}@}, {@{`flatMap`}@} chains {@{th
 >   grindBeans().flatMap(b => brew(b))
 > ```
 >
-> {@{The call to `brew`}@} is performed only when {@{`grindBeans` succeeds}@}; otherwise {@{the failure is passed on}@}. <!--SR:!2027-01-18,288,330!2027-01-07,280,330!2026-11-07,238,330!2027-01-21,291,330!2027-01-02,276,330!2027-01-22,293,330!2027-01-23,293,330!2026-11-26,254,330!2026-11-12,242,330-->
+> {@{The call to `brew`}@} is performed only when {@{`grindBeans` succeeds}@}; otherwise {@{the failure is passed on}@}. <!--SR:!2027-01-18,288,330!2027-01-07,280,330!fsrs,2029-10-03T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-11-07T00:00:00.000Z!2027-01-21,291,330!2027-01-02,276,330!2027-01-22,293,330!2027-01-23,293,330!2026-11-26,254,330!2026-11-12,242,330-->
 
 {@{`zip`}@} combines {@{two independent futures, yielding a future of a tuple}@}. It does _not_ {@{introduce any dependency between them}@} – both run {@{concurrently (and in parallel if the execution context supports parallelism)}@}. If {@{either operand fails}@}, {@{the combined future fails as well}@}. <!--SR:!2027-01-21,292,330!2027-01-19,290,330!2026-11-22,251,330!2027-01-17,288,330!fsrs,2029-09-07T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-11-01T00:00:00.000Z!2027-01-21,291,330-->
 
@@ -205,7 +205,7 @@ When {@{the next step itself returns a `Future`}@}, {@{`flatMap`}@} chains {@{th
 >
 > {@{The two coffees}@} may be {@{prepared concurrently}@}; {@{the result is available only}@} when {@{both futures finish successfully}@}. <!--SR:!2027-01-06,279,330!2026-11-14,244,330!2027-01-22,292,330!fsrs,2029-09-28T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-06T00:00:00.000Z!2026-11-14,244,330!2026-12-28,272,330!2027-01-24,294,330!2027-01-01,275,330!2026-11-13,243,330!fsrs,2029-08-09T00:00:00.000Z,1018,1018.05728725,1,2,9,0,0,2026-10-26T00:00:00.000Z-->
 
-{@{`recover`}@} turns {@{a failed future into a successful one by supplying an alternative value}@}. {@{`recoverWith`}@} allows supplying {@{another asynchronous computation as the recovery path}@}, which is essentially {@{the flat version of `recover`}@}. <!--SR:!2026-12-17,263,330!2027-01-18,289,330!2026-11-07,238,330!2026-11-10,241,330!2026-12-20,265,330-->
+{@{`recover`}@} turns {@{a failed future into a successful one by supplying an alternative value}@}. {@{`recoverWith`}@} allows supplying {@{another asynchronous computation as the recovery path}@}, which is essentially {@{the flat version of `recover`}@}. <!--SR:!2026-12-17,263,330!2027-01-18,289,330!fsrs,2029-10-03T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-11-07T00:00:00.000Z!2026-11-10,241,330!2026-12-20,265,330-->
 
 > [!example] __`Future.recover`__
 >

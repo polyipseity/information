@@ -88,7 +88,7 @@ For {@{any three signals $x(t),y(t),z(t)$}@}: {@{$$[x(t)+y(t)] + z(t)= x(t) + [y
 
 ### coordinate representation
 
-Given {@{a basis $\{e_i\}$}@}, {@{the _coordinate representation_}@} is {@{$$[a]_E=(c_1,c_2,\dots ,c_n)^T \,.$$}@} — {@{a one-to-one correspondence}@} between {@{vectors in $S$ and points in $\mathbb{R}^n$}@}. <!--SR:!2027-02-01,322,345!2026-11-07,250,330!fsrs,2029-11-13T00:00:00.000Z,1103,1103.2172026,1,2,9,0,0,2026-11-06T00:00:00.000Z!2027-01-22,314,345!2027-01-27,317,345-->
+Given {@{a basis $\{e_i\}$}@}, {@{the _coordinate representation_}@} is {@{$$[a]_E=(c_1,c_2,\dots ,c_n)^T \,.$$}@} — {@{a one-to-one correspondence}@} between {@{vectors in $S$ and points in $\mathbb{R}^n$}@}. <!--SR:!2027-02-01,322,345!fsrs,2029-11-18T00:00:00.000Z,1107,1107.06552019,1,2,9,0,0,2026-11-07T00:00:00.000Z!fsrs,2029-11-13T00:00:00.000Z,1103,1103.2172026,1,2,9,0,0,2026-11-06T00:00:00.000Z!2027-01-22,314,345!2027-01-27,317,345-->
 
 ### orthogonality and orthonormality
 

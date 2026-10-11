@@ -248,7 +248,7 @@ Because Scheme has {@{many convenient syntactic sugar}@}, we first rewrite {@{th
 >     normalize(ret)
 >  // other rules...
 > ```
-<!--SR:!2027-02-28,305,340!2026-11-07,229,330!2027-03-25,330,340-->
+<!--SR:!2027-02-28,305,340!fsrs,2029-08-29T00:00:00.000Z,1026,1025.83973773,1,2,9,0,0,2026-11-07T00:00:00.000Z!2027-03-25,330,340-->
 
 With {@{these rules in place}@}, {@{every Scheme expression}@} is reduced to {@{a tree that only uses the primitive forms `val`, `def`, `lambda`, `quote` and `if`}@}. {@{The evaluator}@} can then work on {@{this simplified representation}@} without having to {@{recognise any other syntactic sugar}@}. <!--SR:!2027-03-28,333,340!2027-03-16,321,340!2027-03-08,313,340!2027-03-17,322,340!2026-12-24,266,340!2027-01-02,273,340-->
 
