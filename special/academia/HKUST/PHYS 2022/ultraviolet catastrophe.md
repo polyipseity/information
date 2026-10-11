@@ -32,9 +32,9 @@ Flashcards for this section are as follows:
 
 - what makes this failure different in kind from an ordinary theory-measurement discrepancy ::@:: The predicted quantity is infinite where the measurement is finite, so there is no value to compare and no parameter to absorb the disagreement.
 
-## the two classical laws, and the gap in the infrared
+## two classical laws, and the gap in the infrared
 
-Both classical laws are wrong, and they are wrong in opposite directions. The [Rayleigh–Jeans law](Rayleigh%E2%80%93Jeans%20law.md) holds at long wavelengths, where it gives $I_\lambda = 2\pi c k_B T/\lambda^4$, a number that diverges as $\lambda \to 0$ and never turns over. The [Wien approximation](Wien%20approximation.md) holds at short wavelengths, where it gives $I_\lambda = 2hc^2 e^{-hc/(\lambda k_BT)}/\lambda^5$, which vanishes there. Between them, across the [infrared](infrared.md), sits a gap where neither is reliable.
+Both classical laws are wrong, and they are wrong in opposite directions. The [Rayleigh–Jeans law](Rayleigh%E2%80%93Jeans%20law.md) holds at long wavelengths, where it gives $I_\lambda = 2\pi c k_B T/\lambda^4$, a number that diverges as $\lambda \to 0$ and never turns over. The [Wien approximation](Wien%20approximation.md) holds at short wavelengths, where it gives $I_\lambda = 2\pi hc^2 e^{-hc/(\lambda k_BT)}/\lambda^5$, which vanishes there. Between them, across the [infrared](infrared.md), sits a gap where neither is reliable.
 
 The Wien error is bounded: its predicted $I_\lambda$ stays a finite number at every wavelength, and it misses by a factor of twenty or more in places, which is severe but not absurd. The Rayleigh–Jeans law misses by an infinite factor, and only that one earns the name.
 
@@ -45,24 +45,24 @@ The ultraviolet sat in a poorly measured part of the spectrum in the 1890s, so o
 Flashcards for this section are as follows:
 
 - the value $I_\lambda$ the [Rayleigh–Jeans law](Rayleigh%E2%80%93Jeans%20law.md) predicts, and what it does as $\lambda \to 0$ ::@:: $I_\lambda = 2\pi c k_B T/\lambda^4$, which diverges with no maximum to compare it against.
-- the value $I_\lambda$ the [Wien approximation](Wien%20approximation.md) predicts, and what it does as $\lambda \to 0$ ::@:: $I_\lambda = 2hc^2 e^{-hc/(\lambda k_BT)}/\lambda^5$, which vanishes.
+- the value $I_\lambda$ the [Wien approximation](Wien%20approximation.md) predicts, and what it does as $\lambda \to 0$ ::@:: $I_\lambda = 2\pi hc^2 e^{-hc/(\lambda k_BT)}/\lambda^5$, which vanishes.
 - which range neither classical law covers reliably ::@:: The [infrared](infrared.md), lying between the long-wavelength Rayleigh–Jeans limit and the short-wavelength Wien limit.
 - which of the two classical laws earns the name ultraviolet catastrophe, and whether the other's error is bounded ::@:: The [Rayleigh–Jeans law](Rayleigh%E2%80%93Jeans%20law.md) earns it, since it misses by an infinite factor; the Wien error stays finite, missing by a factor of twenty or more in places.
 - why a divergence in the poorly measured ultraviolet could not be written off as an experimental gap ::@:: Because the well-measured infrared tail had to be fitted exactly right for the law to reach the ultraviolet, and no reasonable choice of constants could do both.
 
 ## how wrong the classical law gets
 
-One number measures the distance between the two limits: $x = hc/(\lambda k_BT)$, the energy of one quantum $hf$ at this wavelength divided by the thermal energy $k_BT$. A small $x$ means the classical law is nearly right; a large one means it is far out. At $500\ \text{nm}$ and $300\ \text{K}$, $x \approx 96$, so $e^{x}-1 \approx e^{96} \approx 4.5 \times 10^{41}$, and the classical law overestimates the true $I_\lambda$ by that factor. At the other end, $\lambda = 10^{-5}\ \text{m}$ with $300\ \text{K}$ gives $x \approx 4.8$ and $x/(e^{x}-1) \approx 0.040$, a factor of about $25$.
+One number measures the distance between the two limits: $x = hc/(\lambda k_BT)$, the energy of one quantum $hf$ at this wavelength divided by the thermal energy $k_BT$. A small $x$ means the classical law is nearly right; a large one means it is far out. At $500\ \text{nm}$ and $300\ \text{K}$, $x \approx 96$, so the classical law overestimates the true $I_\lambda$ by a factor $\frac{e^{x}-1}{x} \approx \frac{e^{96}}{96} \approx 4.7 \times 10^{39}$. At the other end, $\lambda = 10^{-5}\ \text{m}$ with $300\ \text{K}$ gives $x \approx 4.8$ and $x/(e^{x}-1) \approx 0.040$, a factor of about $25$.
 
 ---
 
 Flashcards for this section are as follows:
 
 - the ratio $x$, and what it measures ::@:: $x = hc/(\lambda k_BT)$, the energy of one quantum $hf$ at that wavelength divided by the thermal energy $k_BT$, so a small $x$ is near the classical limit and a large one is far from it.
-- the classical overestimate at $T = 300\ \text{K}$ and $\lambda = 500\ \text{nm}$ ::@:: $x \approx 96$, so $e^{x}-1 \approx e^{96} \approx 4.5 \times 10^{41}$.
+- the classical overestimate at $T = 300\ \text{K}$ and $\lambda = 500\ \text{nm}$ ::@:: $x \approx 96$, so the classical overestimate factor is $\frac{e^{x}-1}{x} \approx \frac{e^{96}}{96} \approx 4.7 \times 10^{39}$.
 - the classical overestimate at $T = 300\ \text{K}$ and $\lambda = 10^{-5}\ \text{m}$ ::@:: $x \approx 4.8$, giving $x/(e^{x}-1) \approx 0.040$, a factor of about $25$.
 
-## the mode count is not to blame
+## mode count is not to blame
 
 The tempting repair keeps the equipartition share and fixes the mode density instead. Since the divergence sits where there is very little energy anyway, the argument puts the fault in the $1/\lambda^4$.
 

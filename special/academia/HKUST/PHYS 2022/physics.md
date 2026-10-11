@@ -17,7 +17,7 @@ Flashcards for this section are as follows:
 - definition and place among the sciences ::@:: In some senses the oldest and most basic science; the other sciences are branches of more limited scope that split off from it.
 - what physics studies ::@:: Physical properties and the relationships between them.
 
-## the physicist's job
+## physicist's job
 
 The physicist has three aims. Find as few fundamental laws governing nature as possible. Describe those laws with mathematical equations that are as beautiful as possible. Use those equations to explain natural phenomena and to make as many predictions as possible.
 
@@ -27,7 +27,7 @@ Flashcards for this section are as follows:
 
 - how many fundamental laws the physicist aims to find ::@:: As few as possible.
 - how the physicist describes the laws ::@:: With mathematical equations, as beautiful as possible.
-- what the equations are for ::@:: Explaining natural phenomena and making as many predictions as possible.
+- what are the equations of physics for ::@:: Explaining natural phenomena and making as many predictions as possible.
 
 ## physical properties
 
@@ -42,7 +42,7 @@ Flashcards for this section are as follows:
 
 ### volume and temperature
 
-A balloon shrinks when it is cooled. The temperature $T$ and the corresponding volume $V$ are then measured systematically at a fixed pressure $P_1$, and the measurements are repeated at other pressures $P_2, P_3, \ldots$ and at different gas quantities $N$. The data are summarized by the equation $PV = Nk_BT$, where $k_B$ is the Boltzmann constant. The model behind that equation is the gas simulation at <https://phet.colorado.edu/sims/html/gases-intro/latest/gases-intro_all.html>.
+A balloon shrinks when it is cooled. The temperature $T$ and the corresponding volume $V$ are then measured systematically at a fixed pressure $P_1$, and the measurements are repeated at other pressures $P_2, P_3, \ldots$ and at different gas quantities $N$. The data are summarised by the equation $PV = Nk_BT$, where $k_B$ is the Boltzmann constant. The model behind that equation is the gas simulation at <https://phet.colorado.edu/sims/html/gases-intro/latest/gases-intro_all.html>.
 
 ---
 

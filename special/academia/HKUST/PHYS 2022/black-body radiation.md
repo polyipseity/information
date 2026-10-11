@@ -12,6 +12,8 @@ tags:
 
 _A black body_ absorbs every wavelength that falls on it and emits [thermal radiation](thermal%20radiation.md) of its own. None of the incoming light comes back out.
 
+Every body emits and absorbs radiation at the same time. A body at constant temperature sits in thermal equilibrium with its surroundings, absorbing thermal energy at the rate it emits it. Absorbing well and radiating well go together: a good thermal emitter is a good absorber.
+
 What it emits depends on the temperature alone. Two cavities at the same temperature give the same spectrum whatever their walls are made of. Classical physics could not account for that. It is one of the three problems of 1895 in [modern physics](modern%20physics.md), alongside the ether and the speed of light.
 
 The spectrum is smooth and continuous, with a single peak. Line emission is different. Excited atoms emit at discrete wavelengths identifying the element, and [emission spectrum](emission%20spectrum.md) covers those.
@@ -20,12 +22,13 @@ The spectrum is smooth and continuous, with a single peak. Line emission is diff
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A black body absorbs every wavelength falling on it, emits thermal radiation of its own, and returns none of the incoming light.
+- what is a black body ::@:: A black body absorbs every wavelength falling on it, emits thermal radiation of its own, and returns none of the incoming light.
+- a body in thermal equilibrium: how its absorption and emission balance ::@:: It absorbs thermal energy at the rate it emits it, so a good thermal emitter is also a good absorber.
 - what a black body's spectrum depends on ::@:: On temperature alone, not on material, surface finish, colour, or shape; two cavities at the same temperature radiate the same spectrum whatever their walls.
 - black-body spectrum against line emission ::@:: A black body radiates a smooth continuous spectrum with a single peak, while excited atoms radiate discrete lines at wavelengths that identify the element.
 - the three problems of 1895: the one black-body radiation belongs to ::@:: The failure of classical physics to explain black-body radiation, alongside the ether and the speed of light.
 
-## the cavity realisation
+## cavity realisation
 
 No real surface is a perfect black body, so a cavity stands in for one: an enclosure of opaque, highly absorbing material, heated and read through a small hole. Radiation entering the hole meets the walls and is absorbed. What comes back out is the cavity's own radiation, with the spectrum of an ideal black body at the cavity's temperature.
 
@@ -44,7 +47,7 @@ Flashcards for this section are as follows:
 - a small hole as a thermometer ::@:: A cavity absorbs well and a small hole emits well, so the brightness of the hole at a given wavelength reads the cavity's temperature directly.
 - an infrared thermometer against the cavity arrangement ::@:: It reproduces the arrangement well enough to compare a body's radiation against that of a black body.
 
-## the shape of the curve
+## shape of the curve
 
 Plot the power radiated per unit area per unit wavelength against wavelength at a fixed temperature: a single smooth hump. It is zero at both ends, with one maximum, rising slowly on the long-wavelength side and falling steeply on the short-wavelength side.
 
@@ -56,6 +59,14 @@ The same spectrum is also quoted as an energy density $u_\lambda$, the energy pe
 
 Integrating over all wavelengths gives the $T^4$ of the [Stefan–Boltzmann law](Stefan%E2%80%93Boltzmann%20law.md), which follows from the curve.
 
+An independent route reaches the same fourth power from thermodynamics, with no spectrum in sight. The target is the temperature dependence of $u$, and thermodynamics reaches it knowing only the photon gas's energy and its equation of state. Treat the radiation as a photon gas in a cavity of volume $V$. The energy density $u$ depends on temperature alone, so write $u = u(T)$ and nothing else. Rays arriving from inside at angle $\theta$ to the wall normal carry momentum normal to the wall that scales as $\cos^2\theta$. The angular average of $\cos^2\theta$ over a hemisphere is $1/3$, so isotropic radiation exerts a radiation pressure $p = u/3$ on the walls.
+
+The photon gas carries energy $U = u(T)V$, so $U$ is a function of both $T$ and $V$ through that composition. The first law in the convention $dU = T\,dS - p\,dV$ gives $T\,dS = dU + p\,dV$. Expanding $U = u(T)V$ as a total differential gives $dU = V\,u'(T)\,dT + u\,dV$, where $u' = du/dT$ is the total derivative of the energy density with respect to temperature. Substituting that expansion and the pressure $p = u/3$ turns the first law into $$T\,dS = V\,u'\,dT + \frac{4}{3}u\,dV.$$
+
+Here $d$ is the total differential of the entropy $S(T,V)$, while $\partial$ is a partial derivative taken at its subscripted variable fixed. Dividing the relation by $T$ gives $dS = \frac{Vu'}{T}\,dT + \frac{4u}{3T}\,dV$. Matching it against the general expansion $$dS = \left(\frac{\partial S}{\partial T}\right)_V dT + \left(\frac{\partial S}{\partial V}\right)_T dV$$ reads off $\left(\frac{\partial S}{\partial T}\right)_V = Vu'/T$ at fixed $V$ and $\left(\frac{\partial S}{\partial V}\right)_T = 4u/(3T)$ at fixed $T$.
+
+Exactness of $dS$ demands that the two mixed partial derivatives agree. The condition equates the derivative of $\left(\frac{\partial S}{\partial T}\right)_V$ with respect to $V$ at fixed $T$ with the derivative of $\left(\frac{\partial S}{\partial V}\right)_T$ with respect to $T$ at fixed $V$: $$\left(\frac{\partial}{\partial V}\right)_T\left(\frac{\partial S}{\partial T}\right)_V = \left(\frac{\partial}{\partial T}\right)_V\left(\frac{\partial S}{\partial V}\right)_T.$$ The left side is $u'/T$, because $u'$ depends on $T$ alone and so does not change when $V$ changes. The right side is $\frac{4}{3}\left(\frac{u'}{T} - \frac{u}{T^2}\right)$. Equating them gives $$\frac{u'}{T} = \frac{4}{3}\left(\frac{u'}{T} - \frac{u}{T^2}\right),$$ which rearranges to $Tu' = 4u$. Integrating $du/u = 4\,dT/T$ gives $u = aT^4$ with $a$ a constant, and the radiated power per unit area inherits the fourth power, $R = \sigma T^4$.
+
 ---
 
 Flashcards for this section are as follows:
@@ -66,12 +77,20 @@ Flashcards for this section are as follows:
 - the law that reproduces the black-body curve, $B_\lambda$ the spectral radiance at absolute temperature $T$ in kelvin ::@:: [Planck's law](Planck's%20law.md), $B_\lambda(T) = \frac{2hc^2}{\lambda^5}\,\frac{1}{e^{hc/(\lambda k_BT)} - 1}$, where $h$ is Planck's constant, $c$ the speed of light, and $k_B$ the Boltzmann constant. $B_\lambda$ is the power radiated per unit area, per steradian, per unit wavelength.
 - the three symbols for one black-body spectrum, $B_\lambda$ the radiance, $u_\lambda$ the energy density, and $I_\lambda$ the flux, each carrying a different prefactor for the same curve ::@:: Power per unit area, per steradian, per unit wavelength; energy per unit volume per unit wavelength; power per unit area per unit wavelength leaving the surface. An isotropic cavity spreads its energy over the full solid angle $4\pi$, so $B_\lambda = \frac{c}{4\pi}u_\lambda$, and a surface gives $I_\lambda = \pi B_\lambda$ from a cosine-weighted integral over a hemisphere of $2\pi$ steradians. Both steps are worked through in [mode density of a cavity](mode%20density%20of%20a%20cavity.md).
 - where the $T^4$ of the Stefan–Boltzmann law comes from ::@:: From integrating the spectrum over all wavelengths, so it follows from the curve rather than standing alone.
+- the pressure a photon gas of energy density $u$ exerts inside its cavity ::@:: $p = u/3$.
+- why the thermodynamic route to $u = aT^4$ needs no spectrum ::@:: The target is the temperature dependence of $u(T)$, and thermodynamics reaches it from the photon gas's energy and its equation of state alone.
+- the origin of the photon-gas pressure $p = u/3$ ::@:: Rays arriving at angle $\theta$ to the wall normal carry normal momentum scaling as $\cos^2\theta$, and the hemisphere average of $\cos^2\theta$ is $1/3$.
+- the photon-gas energy $U = u(T)V$: which variables $U$ depends on, and the total differential of that composition ::@:: $U$ depends on $T$ and $V$ through $u(T)V$, and its total differential is $dU = V\,u'(T)\,dT + u\,dV$, with $u' = du/dT$ the total derivative of $u$ with respect to $T$.
+- the partial derivatives of the entropy $S(T,V)$ read off the photon-gas relation $T\,dS = V u'\,dT + \frac{4}{3}u\,dV$ ::@:: $\left(\frac{\partial S}{\partial T}\right)_V = Vu'/T$ at fixed $V$, and $\left(\frac{\partial S}{\partial V}\right)_T = 4u/(3T)$ at fixed $T$.
+- the exactness condition for the entropy differential $dS$ of the photon gas, and the variable held fixed on each side ::@:: $\left(\frac{\partial}{\partial V}\right)_T\left(\frac{\partial S}{\partial T}\right)_V = \left(\frac{\partial}{\partial T}\right)_V\left(\frac{\partial S}{\partial V}\right)_T$, the left derivative taken with respect to $V$ at fixed $T$ and the right one with respect to $T$ at fixed $V$.
+- substituting $\left(\frac{\partial S}{\partial T}\right)_V = Vu'/T$ and $\left(\frac{\partial S}{\partial V}\right)_T = 4u/(3T)$ into the exactness condition for $dS$ ::@:: The left side is $u'/T$ and the right side is $\frac{4}{3}\left(\frac{u'}{T} - \frac{u}{T^2}\right)$, so the condition reads $u'/T = \frac{4}{3}\left(\frac{u'}{T} - \frac{u}{T^2}\right)$, which rearranges to $Tu' = 4u$.
+- integrating the photon-gas relation $Tu' = 4u$ for the energy density ::@:: $du/u = 4\,dT/T$ integrates to $u = aT^4$ with $a$ a constant, and the radiated power per unit area inherits the fourth power, $R = \sigma T^4$.
 
-## the two classical laws
+## two classical laws
 
 Two classical laws came before Planck's law, and each got one end of the curve right.
 
-The [Rayleigh–Jeans law](Rayleigh%E2%80%93Jeans%20law.md) gives every mode of the field the equipartition share of energy, whatever its frequency. It matches the measurement at long wavelengths and fails at short ones, where it runs to a divergence the measurement does not show. That failure is the [ultraviolet catastrophe](ultraviolet%20catastrophe.md).
+The [Rayleigh–Jeans law](Rayleigh%E2%80%93Jeans%20law.md) gives every mode of the field the equipartition share of energy, whatever its frequency. The share is $k_BT$ per mode, so the classical energy density climbs in proportion to $T$ at each frequency, $u_\nu \propto T$. It matches the measurement at long wavelengths and fails at short ones, where it runs to a divergence the measurement does not show. That failure is the [ultraviolet catastrophe](ultraviolet%20catastrophe.md).
 
 The [Wien approximation](Wien%20approximation.md) makes the opposite assumption about the same modes, letting a mode hold either nothing or one whole quantum of energy and nothing in between. It matches the measurement at short wavelengths, in the visible and ultraviolet, and fails at longer wavelengths.
 
@@ -84,6 +103,7 @@ Flashcards for this section are as follows:
 - Rayleigh–Jeans law: where it matches measurement and where it fails ::@:: It matches at long wavelengths and fails at short ones, where it predicts a divergence the measurement does not show.
 - Wien approximation: where it matches measurement and where it fails ::@:: It matches at short wavelengths, in the visible and ultraviolet, and fails at longer wavelengths.
 - the Rayleigh–Jeans law: what it assumes about the energy in a mode ::@:: That every mode gets the equipartition share, whatever its frequency, so a fast mode is given as much as a slow one.
+- the equipartition share per mode in the Rayleigh–Jeans law, and the temperature dependence it gives the classical energy density $u_\nu$ ::@:: $k_BT$ per mode whatever its frequency, so $u_\nu \propto T$ at each frequency $\nu$.
 - the Wien approximation: what it assumes about the energy in a mode ::@:: That a mode holds either nothing or one whole quantum of energy, with nothing in between.
 - what the two classical laws agree on ::@:: They count the cavity modes the same way, and that count is sound.
 - Planck's law taken to the limits $hc/\lambda \ll k_BT$ and $hc/\lambda \gg k_BT$: which classical law does it reduce to in each ::@:: Rayleigh–Jeans in the long-wavelength limit and the Wien approximation in the short-wavelength limit.
@@ -108,7 +128,7 @@ Flashcards for this section are as follows:
 - can a star appear green, and why not ::@:: No. No black-body curve concentrates its emission in one narrow part of the visible, which is what a green star would need; the colours stars show run red, orange, yellow, white, then blue-white.
 - the red star and the blue star in Orion: which is cooler ::@:: Betelgeuse, the red one, since a redder black body peaks at a longer wavelength.
 
-## the cosmic microwave background
+## cosmic microwave background
 
 The cosmic microwave background is the relic radiation of the hot early universe, a body nobody can build. It has been measured with microwave receivers and fitted to a black-body curve, and the fit holds to the limit of the measurement with no free parameter left over to absorb a mismatch.
 

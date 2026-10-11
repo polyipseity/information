@@ -22,13 +22,13 @@ A flame breaks that rule. Its excited atoms emit at a few discrete wavelengths t
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Electromagnetic radiation emitted by a body because of the thermal motion of the charged atoms and molecules it contains.
+- what is thermal radiation ::@:: Electromagnetic radiation emitted by a body because of the thermal motion of the charged atoms and molecules it contains.
 - the motion of the charges: what it puts into the surroundings ::@:: A charge that accelerates radiates, so the motion of the charges in a body above absolute zero puts energy into electromagnetic waves.
 - a hotter body's frequency $f$ and wavelength $\lambda$: how they change ::@:: Its charges move faster, so a higher $f$ and a shorter $\lambda$ through $c = f\lambda$.
 - visible light from a glowing body: how much of its radiation it is ::@:: A small slice of a much larger emission.
 - black-body emission: what sets the spectrum ::@:: The temperature of the body and not its material.
 - thermal radiation against line emission from burning atoms: how the spectra differ ::@:: Thermal radiation has a continuous spectrum whose shape depends only on temperature, while burning atoms emit discrete lines at defined wavelengths that identify the element.
-- the two laws that fix thermal radiation ::@:: [Wien's displacement law](Wien's%20displacement%20law.md) fixes the peak wavelength, and the [Stefan–Boltzmann law](Stefan%E2%80%93Boltzmann%20law.md) the total radiated power.
+- Wien's displacement law for $\lambda_{\max}T$ and the Stefan–Boltzmann law for $R$ against $T$: the dependence each one states ::@:: Wien's displacement law: $\lambda_{\max}T = 2.898 \times 10^{-3}\ \text{m}\cdot\text{K}$, the peak wavelength in inverse proportion to the absolute temperature; the Stefan–Boltzmann law: the total radiated power per unit area rises as $T^4$.
 
 ## incandescence
 
@@ -36,7 +36,7 @@ _Incandescence_ is the visible glow that thermal radiation produces once the bod
 
 Lava at about $1200\ ^{\circ}\text{C}$, roughly $1500\ \text{K}$, glows a deep red, and most of its radiation is still infrared. A heated object reaches a whitish yellow at the Sun's photosphere temperature of about $5500\ ^{\circ}\text{C}$. A lightning channel, at roughly $27{,}700\ ^{\circ}\text{C}$, is well into the white and short-wavelength end of the visible range.
 
-A body can radiate heavily and still look cold to the eye, because the eye responds only to about $380$ to $700\ \text{nm}$. An infrared thermometer reads the radiation outside that range rather than the light inside it. The [electromagnetic spectrum](electromagnetic%20radiation.md#the%20electromagnetic%20spectrum) puts the infrared band immediately beyond red.
+A body can radiate heavily and still look cold to the eye, because the eye responds only to about $380$ to $700\ \text{nm}$. An infrared thermometer reads the radiation outside that range rather than the light inside it. The [electromagnetic spectrum](electromagnetic%20radiation.md#electromagnetic%20spectrum) puts the infrared band immediately beyond red.
 
 ---
 

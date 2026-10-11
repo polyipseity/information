@@ -45,7 +45,7 @@ Flashcards for this section are as follows:
 - the mass of an atom of antihydrogen against an atom of hydrogen ::@:: The same: pairing reverses the charge and leaves the mass untouched.
 - why the prediction waited four years before it was checked ::@:: It had come out of an equation rather than out of an experiment, and nothing in the laboratory had yet forced anyone to look.
 
-## the discovery
+## discovery
 
 Carl Anderson discovered the positron on 2 August 1932 and won the Nobel Prize in Physics in 1936 for it. The observation was a single track in a cloud chamber photograph. In the chamber's magnetic field it curved the way a positive charge curves. The radius of such a track is fixed by the momentum per unit charge, so the lighter particle leaves the tighter arc. A proton in the same field would have left a much wider arc, and an electron would have curved the other way. The tightness of this one track put the particle's mass at the electron's.
 
@@ -88,6 +88,8 @@ When a photon energetic enough strikes matter, an electron and a positron are cr
 
 Momentum is the other condition, and it rules out producing a pair in empty space. A photon carries momentum $E/c$, and once the pair is made there is nothing left to take the recoil. A third object has to absorb it, in practice a nucleus or some other matter. A 2 MeV photon crossing a vacuum produces no pair, though its energy sits well above the threshold. The same photon striking a target produces a pair each time it is absorbed.
 
+Where matter is present, the probability of conversion climbs steeply with the photon's energy and with the atomic number $Z$ of the nucleus, whose stronger electric field drives it.
+
 ---
 
 Flashcards for this section are as follows:
@@ -96,3 +98,4 @@ Flashcards for this section are as follows:
 - the least energy the photon must carry to make a pair of total rest mass $2m_e$ ::@:: The combined rest energy of the pair, $2m_ec^2 = 1.022\ \text{MeV}$.
 - the second condition, and the body that satisfies it ::@:: A third body, usually a nucleus, has to take up the momentum $E/c$ the photon brought in, so the pair cannot be made in empty space. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - a photon of $2\ \text{MeV}$ crossing empty space: does it create a pair ::@:: No, because there is no third body to balance the momentum.
+- what raises the probability of pair production where matter is present ::@:: A higher photon energy and a higher atomic number $Z$ of the nucleus, whose stronger electric field drives the conversion. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->

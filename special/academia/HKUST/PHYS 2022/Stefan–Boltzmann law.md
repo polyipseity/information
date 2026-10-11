@@ -13,6 +13,8 @@ The Stefan–Boltzmann law gives the total power a surface radiates per unit are
 
 Neither the fourth power nor the constant is a fact of its own; both fall out of the shape of the spectrum. Raise the temperature and the curve gets taller while its peak moves to shorter wavelengths, the position [Wien's displacement law](Wien's%20displacement%20law.md) fixes. Stefan and Boltzmann fitted $\sigma = 5.6704 \times 10^{-8}\ \text{W}/(\text{m}^2 \cdot \text{K}^4)$ from measurement, because Planck's law did not yet exist. Integrating that law instead gives $\sigma = \dfrac{2\pi^5 k_B^4}{15 h^3 c^2}$ from $h$, $c$ and $k_B$ alone, reproducing the measured value. Where $I_\lambda$ comes from: [mode density of a cavity](mode%20density%20of%20a%20cavity.md).
 
+Over a whole sphere of radius $r$ the law gives the total radiated power of a black body, $L = 4\pi r^2\sigma T^4$. The sun, with a surface temperature of about $5800\ \text{K}$, radiates about $3.8 \times 10^{26}\ \text{W}$.
+
 ---
 
 Flashcards for this section are as follows:

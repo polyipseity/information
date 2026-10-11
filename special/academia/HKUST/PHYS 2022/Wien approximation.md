@@ -26,7 +26,7 @@ Flashcards for this section are as follows:
 - the mode density $n(\lambda) = 8\pi/\lambda^4$ both laws share, and the one quantity in which they differ ::@:: Modes per unit volume per unit wavelength, common to both laws; the mean energy of a mode is what differs.
 - the scientist behind both this law and the displacement law, and when each result appeared ::@:: Wilhelm Wien, who derived the displacement law in $1893$ and this distribution in $1896$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
-## the single-quantum assumption
+## single-quantum assumption
 
 That a mode holds either nothing or a single quantum $\epsilon = hf = hc/\lambda$, with nothing in between, is already a claim that energy comes in quanta of size $hf$ rather than continuously. The calculation has not earned it.
 
@@ -43,7 +43,7 @@ Flashcards for this section are as follows:
 - the mean energy $E(f)$ that Boltzmann factor gives ::@:: $E(f) = \epsilon e^{-\epsilon/(k_BT)}$, with $\epsilon = hf = hc/\lambda$.
 - the two mean energies set side by side, and how each behaves in $f$ ::@:: Equipartition gives $k_BT$, constant and independent of $f$; the Wien approximation gives $hf\,e^{-hf/(k_BT)}$, which falls as $e^{-f}$ for high $f$.
 
-## the two-state average
+## two-state average
 
 The same expression reads the other way, as a truncation. The thermal average over a genuine quantum oscillator sums over all occupancies $n = 0, 1, 2, 3, \ldots$, each weighted by $e^{-nhf/(k_BT)}$. Keep the two lowest states and drop every term with $n \ge 2$, and what survives is a two-state average: $E = \dfrac{1\cdot hf\,e^{-hf/(k_BT)}}{1 + e^{-hf/(k_BT)}} = \dfrac{hf}{e^{hf/(k_BT)} + 1}$.
 
@@ -58,7 +58,7 @@ Flashcards for this section are as follows:
 - why the truncation is harmless at high frequency ::@:: When $hf \gg k_BT$ the terms with $n \ge 2$ carry weights $e^{-2hf/(k_BT)}$ and smaller, so they are negligible. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - where the truncation stops being harmless, against $hf \gg k_BT$ ::@:: For $hf \ll k_BT$ those terms dominate the sum, so dropping them is not an approximation.
 
-## the law
+## law
 
 Every black-body spectrum runs through three quantities, whichever law supplies the mean energy. Multiply the mode density $n(\lambda) = 8\pi/\lambda^4$ by the mean energy of one mode, $\overline{E}$, and the result is the energy density $u_\lambda$, the energy per unit volume per unit wavelength. A quarter of $c$ times that gives the flux $I_\lambda$, the power a surface radiates per unit area per unit wavelength.
 
@@ -95,7 +95,7 @@ Flashcards for this section are as follows:
 - the accuracy of the law at $300\ \text{K}$ at four wavelengths ::@:: Agreement to better than five figures at $1\ \mu\text{m}$, within $1\%$ at $10\ \mu\text{m}$, short by a factor of $21$ at $1\ \text{mm}$, and short by a factor of $209$ at $1\ \text{cm}$.
 - the radiance predicted at $300\ \text{K}$ and $\lambda = 10^{-2}\ \text{m}$, against the true value ::@:: $\dfrac{1.19 \times 10^{-16}}{10^{-10}} e^{-0.0048} \approx 1.19 \times 10^{-6}\ \text{W}\,\text{m}^{-3}\,\text{sr}^{-1}$, against $2.48 \times 10^{-4}\ \text{W}\,\text{m}^{-3}\,\text{sr}^{-1}$ from the true spectrum, so the law is short by a factor of $209$.
 
-## the peak
+## peak
 
 Take the logarithm, turning a product into a sum: $\ln B_\lambda = \ln(2hc^2) - 5\ln\lambda - \frac{hc}{\lambda k_BT}$. Differentiate term by term: $d\ln B_\lambda/d\lambda = -\frac{5}{\lambda} + \frac{hc}{\lambda^2 k_BT}$, where the second term is positive because $\frac{hc}{\lambda k_BT}$ grows as $\lambda$ shrinks. Set that sum to zero, $\frac{hc}{\lambda^2 k_BT} = \frac{5}{\lambda}$, and one power of $\lambda$ cancels, leaving $\lambda_{\max} = \frac{hc}{5k_BT}$.
 
@@ -113,11 +113,11 @@ Flashcards for this section are as follows:
 - the total radiated power this law predicts, against the true total $180/(2\pi^4)$ ::@:: $0.924$ of the true power, so about $7.6$ percent low over all wavelengths.
 - why the peak position and the total power agree so well while the law is badly wrong elsewhere ::@:: Neither can see the long-wavelength tail: the peak sits where $x = \frac{hc}{\lambda k_BT} = 5$ and the total is dominated by the peak. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
-## the opposite failure
+## opposite failure
 
 The exponential is well behaved at every wavelength, so this law has no divergence. Its curve falls to zero far faster than the measured one, leaving it orders of magnitude too small at long wavelengths, where [Rayleigh–Jeans](Rayleigh%E2%80%93Jeans%20law.md) predicts a rising curve. That other failure is the [ultraviolet catastrophe](ultraviolet%20catastrophe.md).
 
-The shortfall is exact. Write $x = \frac{hc}{\lambda k_BT} = \frac{hf}{k_BT}$. Where the full thermal average gives $E(f) = \frac{hf}{e^{x}-1}$, the truncated one gives $hf\,e^{-x}$, and the ratio of the two is $e^{-x}(e^{x}-1) = 1 - e^{-x}$. The truncation is at fault, not the mode count.
+The ratio is exact. Write $x = \frac{hc}{\lambda k_BT} = \frac{hf}{k_BT}$. Where the full thermal average gives $E(f) = \frac{hf}{e^{x}-1}$, the truncated one gives $hf\,e^{-x}$, and the ratio of the truncated average to the full one is $e^{-x}(e^{x}-1) = 1 - e^{-x}$: the truncation reaches that fraction of the full average and falls short by $e^{-x}$. The truncation is at fault, not the mode count.
 
 The correct mean energy must equal $hf\,e^{-x}$ for large $x$ and $k_BT$ for small $x$. [Planck's law](Planck%27s%20law.md) supplies it as $E(f) = \dfrac{hf}{e^{hf/(k_BT)} - 1}$.
 
@@ -126,6 +126,6 @@ The correct mean energy must equal $hf\,e^{-x}$ for large $x$ and $k_BT$ for sma
 Flashcards for this section are as follows:
 
 - why this law's failure is milder than the other classical law's ::@:: The predicted curve still falls as the measurement does, so the error has the right sign and stays finite, unlike the divergence of the [ultraviolet catastrophe](ultraviolet%20catastrophe.md).
-- the shortfall of the approximation against the full thermal average, in terms of $x = \frac{hc}{\lambda k_BT}$ ::@:: $1 - e^{-x}$, the ratio of $hf e^{-x}$ to $hf/(e^{x}-1)$, which is $0.0468$ at $x = 0.048$ and $0.992$ at $x = 4.8$.
+- the fraction of the full thermal average that the truncated one reaches, in terms of $x = \frac{hc}{\lambda k_BT}$ ::@:: $1 - e^{-x}$, the ratio of $hf e^{-x}$ to $hf/(e^{x}-1)$, which is $0.0468$ at $x = 0.048$ and $0.992$ at $x = 4.8$.
 - the two behaviours the correct mean energy $\overline{E}$ must have, in the two limits of $x = \frac{hc}{\lambda k_BT}$ ::@:: $hf\,e^{-x}$, the Wien expression, for $x \gg 1$; $k_BT$, the equipartition share, for $x \ll 1$.
 - the mean energy that has both behaviours, from [Planck's law](Planck%27s%20law.md) ::@:: $E(f) = \dfrac{hf}{e^{hf/(k_BT)} - 1}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->

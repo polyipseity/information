@@ -20,7 +20,7 @@ Flashcards for this section are as follows:
 - overview: what the three laws of black-body radiation share, and the one quantity $\overline{E}$ each supplies for itself ::@:: The mode density and the two solid-angle factors relating energy density, radiance and flux are shared; each law supplies only its own average energy $\overline{E}$ for a mode.
 - overview: the single step on which the three laws differ ::@:: The average energy $\overline{E}$ assigned to one mode, which is $k_BT$ for Rayleigh–Jeans, $hf\,e^{-hf/(k_BT)}$ for Wien, and $\frac{hf}{e^{hf/(k_BT)}-1}$ for Planck. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
-## the mode count
+## mode count
 
 Take a cubic box of side $L$. A standing wave inside it carries a wavevector $\mathbf{k}$, a vector recording how many cycles fit along each axis, and $k = |\mathbf{k}|$ is its size.
 

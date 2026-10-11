@@ -25,7 +25,7 @@ Flashcards for this section are as follows:
 - what the brightness of a spot in the image depends on ::@:: The tracer that was used.
 - whether the scan needs surgery ::@:: No; the positron is made inside the body by an injected tracer.
 
-## the tracer chain
+## tracer chain
 
 1. The positron-emitting isotope is attached to a radioactive tracer in a synthesis lab.
 2. The tracer is injected into the patient's body immediately after synthesis.

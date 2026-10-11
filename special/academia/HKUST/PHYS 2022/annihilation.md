@@ -14,6 +14,8 @@ tags:
 
 A [positron](positron.md) that meets an electron destroys both of them, and two gamma ray photons come out. A particle and its antiparticle carry equal and opposite charges, $+1e$ and $-1e$ here, so nothing charged is left behind.
 
+In matter a positron slows by collisions until little kinetic energy is left, and the mutual attraction then binds it to an electron in a hydrogen-like pair called positronium, the two orbiting their common centre of mass. Positronium lasts about $10^{-10}\ \text{s}$ before the pair annihilates.
+
 The released energy comes from the rest mass of the pair. A pair at rest starts at $2m_e$ and ends at $0$, so $\Delta m = 2m_e$ and $E = \Delta m\,c^2$.
 
 ---
@@ -21,6 +23,7 @@ The released energy comes from the rest mass of the pair. A pair at rest starts 
 Flashcards for this section are as follows:
 
 - overview: what happens when a positron meets an electron ::@:: Both particles are destroyed, and two gamma ray photons are emitted.
+- what positronium is, and how long it lasts before annihilation ::@:: A positron bound to an electron in a hydrogen-like pair orbiting their common centre of mass, which survives about $10^{-10}\ \text{s}$ before the pair annihilates. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - why nothing charged is left behind when a positron meets an electron ::@:: A particle and its antiparticle carry equal and opposite charges, $+1e$ and $-1e$ here, so the charges cancel. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - where the released energy comes from ::@:: The rest mass of the pair: a pair at rest starts at $2m_e$ and ends at $0$, giving $\Delta m = 2m_e$ and $E = \Delta m\,c^2$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
@@ -49,13 +52,15 @@ Flashcards for this section are as follows:
 
 ## why two photons back to back
 
-Momentum conservation fixes the geometry. A pair at rest has zero total momentum, so the outgoing momenta must cancel. Two photons aimed head to tail do that, and they leave $180^\circ$ apart. A single photon carrying the full $1.022\ \text{MeV}$ would carry a momentum $E/c$ with nothing to balance it. Two photons is the smallest number that satisfies energy and momentum conservation.
+Momentum conservation fixes the geometry. A pair at rest has zero total momentum, so the outgoing momenta must cancel. Two photons aimed head to tail do that, and they leave $180^\circ$ apart. A single photon carrying the full $1.022\ \text{MeV}$ would carry a momentum $E/c$ with nothing to balance it, so a pair on its own needs at least two photons to satisfy energy and momentum conservation. A nearby nucleus is the exception: it can take the missing momentum, so one photon suffices, and under some conditions three are produced. Two-photon emission remains by far the commonest mode.
 
 ![annihilation event as a spacetime diagram: an electron worldline and a positron worldline run in from below and meet at a vertex, from which two wavy gamma lines leave, one to each side](attachments/Mutual%20Annihilation%20of%20a%20Positron%20Electron%20pair.svg)
 
 A moving pair tilts the two photons: their momenta add up to the momentum the pair brought in, so the opening falls below $180^\circ$. The number of photons does not change: a single photon can never balance a net incoming momentum.
 
 The fixed geometry is useful signal: each detected pair gives a line of known direction through the annihilation point. A detector ring that catches both photons of many such events can then reconstruct where the positrons were made inside the body. That is [positron emission tomography](positron%20emission%20tomography.md), which works because the photons are constrained rather than scattered at arbitrary angles.
+
+The reverse process is pair production: a photon turning into an electron–positron pair in a nucleus's field. It is how a gamma ray becomes the charged particles a detector can hold, so a converter plate of heavy material detects gamma rays through it. Pair production and annihilation are the two directions of one conversion.
 
 ---
 
@@ -65,13 +70,15 @@ Flashcards for this section are as follows:
 - the conservation law that fixes that geometry ::@:: Conservation of momentum, with the total initial momentum zero for a pair at rest.
 - why a single photon carrying the full $1.022\ \text{MeV}$ cannot do the job for a pair at rest ::@:: It also carries a momentum $E/c$, and there is no opposite momentum anywhere to balance it.
 - the least number of photons that can carry the energy of a pair whose initial total momentum is zero ::@:: Two.
+- the photon counts a positronium annihilation can produce, and which dominates ::@:: One, if a nearby nucleus takes the recoil momentum; two in most events; three under some conditions. Two photons is by far the most likely mode.
 - a pair that is moving when it annihilates: what happens to the opening angle ::@:: The two photons are no longer exactly opposite; they tilt so that their momenta add up to the momentum the pair brought in.
 - the number of photons for a moving pair ::@:: Still two, because a single photon can never balance a net incoming momentum.
 - ![annihilation event as a spacetime diagram: an electron worldline and a positron worldline run in from below and meet at a vertex, from which two wavy gamma lines leave, one to each side](attachments/Mutual%20Annihilation%20of%20a%20Positron%20Electron%20pair.svg) ::@:: A spacetime diagram of the event: time runs up the vertical axis and space along the horizontal one. The electron and positron worldlines converge on a single vertex, where the pair is destroyed, and two wavy lines leave it, one to each side; a wavy line is a photon. The drawing shows the topology of the event, not the $180^\circ$ opening or the $511 \ \text{keV}$ each photon carries. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - what the fixed geometry gives a detector ::@:: A line of known direction through the annihilation point, so the position of the event can be narrowed down along that line.
 - what positron emission tomography reconstructs from many such events ::@:: The place inside the body where the positrons were made, because the photons are constrained to a line rather than scattered at arbitrary angles.
+- the reverse of annihilation, and the detection technique that runs on it ::@:: Pair production: a photon turns into an electron–positron pair in a nucleus's field, and a heavy converter plate uses it to turn gamma rays into the charged particles a detector can hold.
 
-## the photon wavelength
+## photon wavelength
 
 The wavelength follows from the energy: $E = hc/\lambda$ rearranges to $\lambda = hc/E$. With $E = 8.2 \times 10^{-14}\ \text{J}$ for one photon, $h = 6.626 \times 10^{-34}\ \text{J}\cdot\text{s}$, and $c = 3 \times 10^{8}\ \text{m/s}$, that gives $\lambda = \frac{hc}{E} = 2.4 \times 10^{-12}\ \text{m}$. A few picometres, roughly a fortieth of the $10^{-10}\ \text{m}$ width of an atom, and about $2 \times 10^{5}$ times shorter than the $500\ \text{nm}$ middle of the visible band.
 

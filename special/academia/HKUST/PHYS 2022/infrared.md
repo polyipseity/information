@@ -23,7 +23,7 @@ Flashcards for this section are as follows:
 - what actually distinguishes infrared from the rest of the spectrum ::@:: Only the name and the range. Its wave properties are the same as everywhere else in the spectrum.
 - a room-temperature body and a black-body radiator against visible light ::@:: Both radiate almost nothing in the visible and most of their energy in the infrared, so a radiator below about $800\ \text{K}$ looks black while hot. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
-## the prism and the thermometer
+## prism and the thermometer
 
 In 1880, Sir William Herschel split sunlight with a prism and placed a thermometer in each colour of the resulting spectrum, reading the temperature each colour produced. He wanted to compare the heating power of the colours and expected nothing remarkable.
 
