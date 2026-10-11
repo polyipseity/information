@@ -445,6 +445,8 @@ class TableConverter:
         ValueError
             If the table has both a non-empty ``<caption>`` and an all-``<th>``
             header row, since Markdown tables allow only one header row.
+            ``infobox-header`` divider rows inside an ``infobox`` table are
+            section labels, not column headers, and do not trigger this.
         """
         caption = ele.find("caption", recursive=False)
         if caption is None:
@@ -455,6 +457,8 @@ class TableConverter:
             caption.decompose()
             return None
 
+        is_infobox = "infobox" in ele.get_attribute_list("class")
+
         # Find the first structural header row to determine column layout.
         target_tr: Tag | None = None
         for tr in ele.find_all("tr"):
@@ -462,6 +466,12 @@ class TableConverter:
                 c for c in tr.children if isinstance(c, Tag) and c.name in _TD_OR_TH
             ]
             if cells and all(c.name == "th" for c in cells):
+                if is_infobox and all(
+                    "infobox-header" in c.get_attribute_list("class") for c in cells
+                ):
+                    # Group divider: a section label within the infobox, not
+                    # a column header competing with the caption.
+                    continue
                 raise ValueError(
                     "a table with both a <caption> and a <th> header row is "
                     "invalid: Markdown tables allow only one header row"
@@ -502,8 +512,21 @@ class TableConverter:
         # Mark caption row explicitly for alignment detection.
         caption_tr["data-caption-row"] = "true"
 
-        # Insert caption row before the original first header row.
-        target_tr.insert_before(caption_tr)
+        if is_infobox:
+            # Insert the caption row as the FIRST row of the table body so
+            # the caption/header sits above the image row and dividers,
+            # rather than before the first mixed row (which would bury it
+            # after them).
+            tbody = ele.find("tbody", recursive=False)
+            anchor = tbody if isinstance(tbody, Tag) else ele
+            first_tr = anchor.find("tr", recursive=False)
+            if first_tr is None:
+                anchor.append(caption_tr)
+            else:
+                first_tr.insert_before(caption_tr)
+        else:
+            # Insert caption row before the original first header row.
+            target_tr.insert_before(caption_tr)
 
         caption.decompose()
         return None
@@ -840,6 +863,7 @@ class TableConverter:
         cls._flatten_nested_tables(ele, soup)
         cls._transform_infobox_caption_rows(ele, soup)
         cls._normalize_table_cells(ele, soup)
+        cls._bold_infobox_dividers(ele, soup)
         cls._ensure_th_less_header_row(ele, soup)
         cls._merge_header_rows(ele, soup)
         cls._transform_sidebar_rows(ele, soup)
@@ -1038,6 +1062,30 @@ class TableConverter:
                     break
 
     @classmethod
+    def _bold_infobox_dividers(cls, ele: Tag, soup: Tag) -> None:
+        """Bold ``infobox-header`` group-divider cells.
+
+        Group dividers (``<th class="infobox-header">``) render as ordinary
+        all-``<th>`` rows, whose cells are not auto-bolded like mixed-row
+        ``<th>`` cells.  Wrapping their content in ``<b>`` makes each divider
+        read as a bold label row (``| __General__ | … |``) in the output.
+        """
+        table = ele if ele.name == "table" else ele.find_parent("table")
+        if not isinstance(table, Tag) or "infobox" not in table.get_attribute_list(
+            "class"
+        ):
+            return
+        for cell in ele.find_all("th"):
+            if "infobox-header" not in cell.get_attribute_list("class"):
+                continue
+            if cell.find("b") is not None:
+                continue
+            bold = soup.new_tag("b")
+            for child in list(cell.contents):
+                bold.append(child.extract() if isinstance(child, Tag) else child)
+            cell.append(bold)
+
+    @classmethod
     def _normalize_table_cells(cls, ele: Tag, soup: Tag) -> None:
         """Normalize table cell layout for consistent column count.
 
@@ -1101,7 +1149,15 @@ class TableConverter:
 
     @classmethod
     def _merge_header_rows(cls, ele: Tag, soup: Tag) -> None:
-        """Merge consecutive header rows in ``<tbody>`` into a single row."""
+        """Merge consecutive header rows in ``<tbody>`` into a single row.
+
+        Infobox tables are exempt: their leading ``infobox-image`` row and
+        ``infobox-header`` divider are distinct sections, not a multi-row
+        column header, so merging would fuse them into one bogus header.
+        """
+        table = ele if ele.name == "table" else ele.find_parent("table")
+        if isinstance(table, Tag) and "infobox" in table.get_attribute_list("class"):
+            return
         trs = [c for c in ele.children if isinstance(c, Tag) and c.name == "tr"]
         header_trs: list[Tag] = []
         target_tr: Tag | None = None
@@ -1278,6 +1334,10 @@ class TableConverter:
     @classmethod
     def _insert_mixed_alignment_rows(cls, ele: Tag, soup: Tag) -> None:
         """Insert alignment marker rows for mixed ``<th>``/``<td>`` tables."""
+        table_ele = ele if ele.name == "table" else ele.find_parent("table")
+        is_infobox = isinstance(
+            table_ele, Tag
+        ) and "infobox" in table_ele.get_attribute_list("class")
         for tr in ele.find_all("tr", recursive=False):
             cells = [
                 c for c in tr.children if isinstance(c, Tag) and c.name in _TD_OR_TH
@@ -1291,7 +1351,12 @@ class TableConverter:
             # Stop here: subsequent mixed rows should NOT get alignment
             # markers to avoid polluting tables with multiple separator
             # sections (e.g. navboxes, authority-control tables).
+            # Infobox group dividers are section labels, not headers: they
+            # must not terminate the scan before it reaches the first mixed
+            # row, or the caption header row loses its separator.
             if all(c.name == "th" for c in cells):
+                if is_infobox and cls._is_infobox_divider_row(tr):
+                    continue
                 break
 
             # Mixed row: compute alignments from content cells (majority
@@ -1331,6 +1396,14 @@ class TableConverter:
             # and the following caption/header row, not after the whole
             # caption run.
             prev_tr = tr.find_previous_sibling("tr")
+            if (
+                is_infobox
+                and prev_tr is not None
+                and cls._is_infobox_divider_row(prev_tr)
+            ):
+                # Step over the group divider between the caption run and
+                # the first mixed row so the caption-row check below fires.
+                prev_tr = prev_tr.find_previous_sibling("tr")
             if prev_tr is not None and prev_tr.get("data-caption-row") == "true":
                 title_tr = prev_tr
                 while (
@@ -1368,6 +1441,19 @@ class TableConverter:
             # Only process the first mixed row; subsequent rows are not
             # alignment-related and should not get markers.
             break
+
+    @classmethod
+    def _is_infobox_divider_row(cls, tr: Tag) -> bool:
+        """Return whether ``tr`` is an ``infobox-header`` group-divider row.
+
+        After ``_normalize_table_cells`` expands ``colspan``, a divider is
+        an all-``<th>`` row whose cells all carry ``infobox-header``.
+        """
+        cells = [c for c in tr.children if isinstance(c, Tag) and c.name in _TD_OR_TH]
+        return bool(cells) and all(
+            c.name == "th" and "infobox-header" in c.get_attribute_list("class")
+            for c in cells
+        )
 
     @classmethod
     def _flatten_nested_tables(cls, tbody: Tag, soup: Tag) -> None:
