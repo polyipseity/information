@@ -124,7 +124,7 @@ The content is in teaching order.
 - After chatting with the guests in the upcoming networking practicum, you should... ::@:: Send a thank you note on the same day. <!--SR:!2028-12-25,1210,350!2026-12-26,626,330-->
     - thank-you note (after networking)
 - interview preparation ::@:: prepare questions, "stalk" (gather information) on LinkedIn <!--SR:!2027-04-30,722,330!2029-03-27,1284,350-->
-- etiquettes ::@:: social etiquette, networking etiquette, dining etiquette <!--SR:!2028-10-23,1160,350!2026-11-05,591,330-->
+- etiquettes ::@:: social etiquette, networking etiquette, dining etiquette <!--SR:!2028-10-23,1160,350!fsrs,2033-04-06T00:00:00.000Z,2344,2343.66112309,1,2,10,0,0,2026-11-05T00:00:00.000Z-->
     - social etiquette
     - networking etiquette
     - dining etiquette

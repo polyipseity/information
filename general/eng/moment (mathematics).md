@@ -72,7 +72,7 @@ __Significance of moments \(raw, central, standardised\) and cumulants \(raw, no
 
 {@{The third central moment}@} is {@{the measure of the lopsidedness of the distribution}@}; {@{any symmetric distribution}@} will {@{have a third central moment, if defined, of zero}@}. {@{The normalised third central moment}@} is called {@{the [skewness](skewness.md), often _γ_}@}. A distribution that is {@{skewed to the left \(the tail of the distribution is longer on the left\) will have a negative skewness}@}. A distribution that is {@{skewed to the right \(the tail of the distribution is longer on the right\), will have a positive skewness}@}. <!--SR:!2029-05-22,1251,350!2029-04-19,1224,350!2028-09-26,1063,350!2029-04-18,1225,350!2027-05-14,661,330!2027-11-14,802,330!2026-12-02,516,310!2027-12-14,827,330-->
 
-For {@{distributions that are not too different from the [normal distribution](normal%20distribution.md)}@}, {@{the [median](median.md) will be somewhere near _μ_ − _γσ_/6}@}; {@{the [mode](mode%20(statistics).md) about _μ_ − _γσ_/2}@}. <!--SR:!2029-09-17,1343,350!2030-02-17,1391,310!2026-11-05,425,250-->
+For {@{distributions that are not too different from the [normal distribution](normal%20distribution.md)}@}, {@{the [median](median.md) will be somewhere near _μ_ − _γσ_/6}@}; {@{the [mode](mode%20(statistics).md) about _μ_ − _γσ_/2}@}. <!--SR:!2029-09-17,1343,350!2030-02-17,1391,310!fsrs,2030-05-15T00:00:00.000Z,1287,1286.99484217,3.98153807,2,10,0,0,2026-11-05T00:00:00.000Z-->
 
 #### kurtosis
 

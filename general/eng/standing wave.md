@@ -19,7 +19,7 @@ A _standing wave_ can be formed by {@{the [superposition](superposition%20princi
 
 > [!tip] tips
 >
-> - solving [boundary value problem](boundary%20value%20problem.md) visually ::@:: One can imagine the standing wave extends beyond the boundaries forever. Then the boundary values or [functions](function%20(mathematics).md) matching the standing wave at all [times](time.md) is sufficient for a solution. <!--SR:!2026-11-05,803,340!2033-02-14,2490,349-->
+> - solving [boundary value problem](boundary%20value%20problem.md) visually ::@:: One can imagine the standing wave extends beyond the boundaries forever. Then the boundary values or [functions](function%20(mathematics).md) matching the standing wave at all [times](time.md) is sufficient for a solution. <!--SR:!fsrs,2035-07-06T00:00:00.000Z,3165,3164.88053942,1,2,11,0,0,2026-11-05T00:00:00.000Z!2033-02-14,2490,349-->
 
 ## references
 

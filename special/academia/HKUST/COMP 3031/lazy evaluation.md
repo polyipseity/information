@@ -25,7 +25,7 @@ In {@{many search problems}@} one only needs {@{a small fragment of a potentiall
 
 ## lazy list
 
-In Scala {@{a _lazy list_}@} ({@{`scala.collection.immutable.LazyList`}@}, formerly {@{`Stream`}@}) is {@{an immutable, potentially infinite sequence}@} whose elements are {@{evaluated only when they are required}@}. The concept was introduced to support {@{combinatorial search and other problems}@} where constructing {@{the entire collection would be wasteful or impossible}@}. <!--SR:!2026-11-13,288,345!2026-11-06,281,330!2027-01-05,330,345!2026-11-05,280,345!2026-11-09,284,345!2026-11-22,294,345!2026-11-25,297,345-->
+In Scala {@{a _lazy list_}@} ({@{`scala.collection.immutable.LazyList`}@}, formerly {@{`Stream`}@}) is {@{an immutable, potentially infinite sequence}@} whose elements are {@{evaluated only when they are required}@}. The concept was introduced to support {@{combinatorial search and other problems}@} where constructing {@{the entire collection would be wasteful or impossible}@}. <!--SR:!2026-11-13,288,345!2026-11-06,281,330!2027-01-05,330,345!fsrs,2030-05-12T00:00:00.000Z,1284,1283.98912067,1,2,9,0,0,2026-11-05T00:00:00.000Z!2026-11-09,284,345!2026-11-22,294,345!2026-11-25,297,345-->
 
 ### lazy list properties
 
@@ -60,7 +60,7 @@ or {@{more conveniently}@} via {@{the factory syntax}@}, in which {@{parameters 
 > ```Scala
 > val ys = LazyList(1, 2, 3)
 > ```
-<!--SR:!fsrs,2030-02-26T00:00:00.000Z,1224,1224.09821834,1,2,9,0,0,2026-10-21T00:00:00.000Z!2026-11-05,280,345!2027-01-16,339,345-->
+<!--SR:!fsrs,2030-02-26T00:00:00.000Z,1224,1224.09821834,1,2,9,0,0,2026-10-21T00:00:00.000Z!fsrs,2030-05-12T00:00:00.000Z,1284,1283.98912067,1,2,9,0,0,2026-11-05T00:00:00.000Z!2027-01-16,339,345-->
 
 {@{The operator corresponding to `::` for `LazyList`}@} is {@{the `#::` operator}@}, which prepends {@{a head element to a tail}@} that is {@{itself a lazy list}@}: <!--SR:!2026-11-29,301,345!2026-12-18,316,345!2027-01-09,333,345!fsrs,2030-04-12T00:00:00.000Z,1260,1260.08188809,1,2,9,0,0,2026-10-30T00:00:00.000Z-->
 
@@ -143,7 +143,7 @@ Here {@{`filter`}@} is {@{lazily evaluated}@}; when {@{the second element is acc
 > val lazyX = LazyList.cons(1, LazyList.empty)
 > val lazyY = 2 #:: lazyX   // still a LazyList
 > ```
-<!--SR:!fsrs,2030-03-13T00:00:00.000Z,1236,1236.10950743,1,2,9,0,0,2026-10-24T00:00:00.000Z!2026-11-05,280,345-->
+<!--SR:!fsrs,2030-03-13T00:00:00.000Z,1236,1236.10950743,1,2,9,0,0,2026-10-24T00:00:00.000Z!fsrs,2030-05-12T00:00:00.000Z,1284,1283.98912067,1,2,9,0,0,2026-11-05T00:00:00.000Z-->
 
 ### lazy list implementation
 
@@ -186,7 +186,7 @@ Using {@{this naive construction}@}, {@{`lazyRange(1, 10).take(3)`}@} would trig
 
 ## lazy evaluation
 
-Scala is {@{strict by default}@}. Compare to {@{Haskell}@}, which performs {@{lazy evaluation by default}@}. Scala offers {@{several mechanisms for deferring computation}@}: \(annotation: 2 items: {@{by-name parameters, `lazy val`}@}\) <!--SR:!2026-11-05,280,345!2026-11-11,286,345!2026-11-09,284,345!2026-11-29,301,345!2027-01-21,343,345-->
+Scala is {@{strict by default}@}. Compare to {@{Haskell}@}, which performs {@{lazy evaluation by default}@}. Scala offers {@{several mechanisms for deferring computation}@}: \(annotation: 2 items: {@{by-name parameters, `lazy val`}@}\) <!--SR:!fsrs,2030-05-12T00:00:00.000Z,1284,1283.98912067,1,2,9,0,0,2026-11-05T00:00:00.000Z!2026-11-11,286,345!2026-11-09,284,345!2026-11-29,301,345!2027-01-21,343,345-->
 
 - __By-name parameters__ (`=> T`) ::@:: – used in `LazyList.cons` to delay evaluation of the tail. <!--SR:!fsrs,2030-04-21T00:00:00.000Z,1267,1266.62765366,1,2,9,0,0,2026-11-01T00:00:00.000Z!2027-01-08,332,345-->
 - __`lazy val`__ ::@:: – a value that is evaluated at most once, on first use. <!--SR:!2026-12-18,316,345!2026-12-14,312,345-->

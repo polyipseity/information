@@ -117,7 +117,7 @@ Lists are {@{the fundamental data structure}@} that will {@{recur throughout the
 > ```
 <!--SR:!fsrs,2029-12-19T00:00:00.000Z,1168,1168.38706892,1,2,9,0,0,2026-10-08T00:00:00.000Z!fsrs,2030-04-17T00:00:00.000Z,1260,1259.53358194,1,2,9,0,0,2026-11-04T00:00:00.000Z!fsrs,2029-07-08T00:00:00.000Z,1037,1037.49777357,1,2,9,0,0,2026-09-05T00:00:00.000Z!fsrs,2030-02-01T00:00:00.000Z,1203,1202.68030072,1,2,9,0,0,2026-10-17T00:00:00.000Z-->
 
-{@{Decomposition}@} is equally {@{concise}@}. {@{The head of a list}@} is accessed by {@{`.head` \(the first element\)}@}, {@{the tail by `.tail` \(a list of the remaining elements\)}@}, and {@{pattern matching}@} can be used to {@{deconstruct lists directly}@}: <!--SR:!fsrs,2028-08-24T00:00:00.000Z,703,702.57151752,2.49272837,2,9,0,0,2026-09-21T00:00:00.000Z!2026-11-05,291,330!2026-11-08,294,330!fsrs,2029-07-13T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-09-06T00:00:00.000Z!fsrs,2030-01-08T00:00:00.000Z,1184,1183.64577796,1,2,9,0,0,2026-10-12T00:00:00.000Z!2026-11-05,291,330!fsrs,2029-07-18T00:00:00.000Z,1045,1045.2595081,1,2,9,0,0,2026-09-07T00:00:00.000Z-->
+{@{Decomposition}@} is equally {@{concise}@}. {@{The head of a list}@} is accessed by {@{`.head` \(the first element\)}@}, {@{the tail by `.tail` \(a list of the remaining elements\)}@}, and {@{pattern matching}@} can be used to {@{deconstruct lists directly}@}: <!--SR:!fsrs,2028-08-24T00:00:00.000Z,703,702.57151752,2.49272837,2,9,0,0,2026-09-21T00:00:00.000Z!fsrs,2030-04-21T00:00:00.000Z,1263,1263.3108468,1,2,9,0,0,2026-11-05T00:00:00.000Z!2026-11-08,294,330!fsrs,2029-07-13T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-09-06T00:00:00.000Z!fsrs,2030-01-08T00:00:00.000Z,1184,1183.64577796,1,2,9,0,0,2026-10-12T00:00:00.000Z!fsrs,2030-04-21T00:00:00.000Z,1263,1263.3108468,1,2,9,0,0,2026-11-05T00:00:00.000Z!fsrs,2029-07-18T00:00:00.000Z,1045,1045.2595081,1,2,9,0,0,2026-09-07T00:00:00.000Z-->
 
 > [!example] __list decomposition__
 >
@@ -164,7 +164,7 @@ The `List` API offers {@{a rich set of operations}@} for {@{sublists, element ac
 > ```
 <!--SR:!fsrs,2029-11-02T00:00:00.000Z,1130,1130.11601442,1,2,9,0,0,2026-09-29T00:00:00.000Z!fsrs,2029-11-25T00:00:00.000Z,1149,1149.27403969,1,2,9,0,0,2026-10-03T00:00:00.000Z!fsrs,2030-03-27T00:00:00.000Z,1244,1244.40857912,1,2,9,0,0,2026-10-30T00:00:00.000Z-->
 
-{@{The concatenation operator `:::`}@} can be implemented by {@{pattern matching on the left operand}@}. This recursive definition runs in time {@{proportional to the length of the left list, `O(xs.length)`}@}. <!--SR:!fsrs,2028-12-02T00:00:00.000Z,775,775.30862487,2.49272837,2,9,0,0,2026-10-19T00:00:00.000Z!fsrs,2030-02-05T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-10-18T00:00:00.000Z!2026-11-05,291,330-->
+{@{The concatenation operator `:::`}@} can be implemented by {@{pattern matching on the left operand}@}. This recursive definition runs in time {@{proportional to the length of the left list, `O(xs.length)`}@}. <!--SR:!fsrs,2028-12-02T00:00:00.000Z,775,775.30862487,2.49272837,2,9,0,0,2026-10-19T00:00:00.000Z!fsrs,2030-02-05T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-10-18T00:00:00.000Z!fsrs,2030-04-21T00:00:00.000Z,1263,1263.3108468,1,2,9,0,0,2026-11-05T00:00:00.000Z-->
 
 > [!example] __concatenation operator `:::`__
 >
@@ -430,7 +430,7 @@ Vectors are constructed {@{in exactly the same way as lists}@}: <!--SR:!fsrs,202
 > ```
 <!--SR:!fsrs,2030-04-06T00:00:00.000Z,1252,1251.97430334,1,2,9,0,0,2026-11-01T00:00:00.000Z-->
 
-Unlike {@{`List`}@}, vectors do not {@{support the cons operator (`::`)}@}. Instead {@{two operators with a colon pointing toward the sequence operand}@} are provided: <!--SR:!2026-11-05,291,330!fsrs,2029-12-19T00:00:00.000Z,1168,1168.38706892,1,2,9,0,0,2026-10-08T00:00:00.000Z!fsrs,2029-07-23T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-09-08T00:00:00.000Z-->
+Unlike {@{`List`}@}, vectors do not {@{support the cons operator (`::`)}@}. Instead {@{two operators with a colon pointing toward the sequence operand}@} are provided: <!--SR:!fsrs,2030-04-21T00:00:00.000Z,1263,1263.3108468,1,2,9,0,0,2026-11-05T00:00:00.000Z!fsrs,2029-12-19T00:00:00.000Z,1168,1168.38706892,1,2,9,0,0,2026-10-08T00:00:00.000Z!fsrs,2029-07-23T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-09-08T00:00:00.000Z-->
 
 - `x +: xs` ::@:: creates a new vector whose first element is `x` followed by all elements of `xs`; <!--SR:!fsrs,2030-02-01T00:00:00.000Z,1203,1202.68030072,1,2,9,0,0,2026-10-17T00:00:00.000Z!fsrs,2029-06-14T00:00:00.000Z,1018,1018.05728725,1,2,9,0,0,2026-08-31T00:00:00.000Z-->
 - `xs :+ x` ::@:: appends `x` to the end of `xs`. In both cases the colon points toward the sequence, reflecting that the operation acts on the whole collection rather than just its head. <!--SR:!fsrs,2029-07-23T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-09-08T00:00:00.000Z!2026-11-07,293,330-->
@@ -708,4 +708,4 @@ To avoid {@{the verbosity of `Polynomial(Map(...))`}@}, {@{a _varargs_ construct
 > ```
 <!--SR:!fsrs,2028-02-01T00:00:00.000Z,506,506.03526322,5.00637887,2,9,0,0,2026-09-13T00:00:00.000Z!fsrs,2029-10-14T00:00:00.000Z,1115,1114.75652523,1,2,9,0,0,2026-09-25T00:00:00.000Z-->
 
-{@{These properties}@} make sets especially suitable for {@{combinatorial search problems}@} where the focus lies on {@{the presence or absence of items rather than their position}@}. <!--SR:!2026-11-05,291,330!fsrs,2029-07-08T00:00:00.000Z,1037,1037.49777357,1,2,9,0,0,2026-09-05T00:00:00.000Z!fsrs,2030-01-17T00:00:00.000Z,1191,1191.26470738,1,2,9,0,0,2026-10-14T00:00:00.000Z-->
+{@{These properties}@} make sets especially suitable for {@{combinatorial search problems}@} where the focus lies on {@{the presence or absence of items rather than their position}@}. <!--SR:!fsrs,2030-04-21T00:00:00.000Z,1263,1263.3108468,1,2,9,0,0,2026-11-05T00:00:00.000Z!fsrs,2029-07-08T00:00:00.000Z,1037,1037.49777357,1,2,9,0,0,2026-09-05T00:00:00.000Z!fsrs,2030-01-17T00:00:00.000Z,1191,1191.26470738,1,2,9,0,0,2026-10-14T00:00:00.000Z-->

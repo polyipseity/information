@@ -103,7 +103,7 @@ Actors process {@{each message _sequentially_}@}, so {@{no explicit locks are ne
 
 ## history
 
-{@{The concept originated}@} with {@{Hewitt et al. in 1973 as a formalism for artificial‑intelligence research}@}. In {@{1986 Gul Agha expanded the theory}@} and defined {@{common communication patterns}@}. {@{Erlang/OTP adopted actors in 1995}@}, making them {@{the backbone of telecom platforms}@}. Scala added {@{a lightweight Actor trait to its standard library in 2006}@}. Two years later {@{Akka was released as an independent Scala actor framework}@}; it has since been used by {@{large services such as WhatsApp and Fortnite}@}. <!--SR:!2026-11-30,251,330!2026-11-27,255,330!2026-12-17,264,330!2026-11-25,253,330!2026-11-05,237,330!2026-12-24,270,330!2027-01-04,279,330!2026-11-23,251,330!2026-11-23,251,330-->
+{@{The concept originated}@} with {@{Hewitt et al. in 1973 as a formalism for artificial‑intelligence research}@}. In {@{1986 Gul Agha expanded the theory}@} and defined {@{common communication patterns}@}. {@{Erlang/OTP adopted actors in 1995}@}, making them {@{the backbone of telecom platforms}@}. Scala added {@{a lightweight Actor trait to its standard library in 2006}@}. Two years later {@{Akka was released as an independent Scala actor framework}@}; it has since been used by {@{large services such as WhatsApp and Fortnite}@}. <!--SR:!2026-11-30,251,330!2026-11-27,255,330!2026-12-17,264,330!2026-11-25,253,330!fsrs,2029-09-27T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-05T00:00:00.000Z!2026-12-24,270,330!2027-01-04,279,330!2026-11-23,251,330!2026-11-23,251,330-->
 
 ## actor
 
@@ -386,7 +386,7 @@ In {@{an actor‑based design}@}, {@{a `BankAccount`}@} exposes only {@{two oper
 - _at-least-once_: ::@:: the sender repeats until it receives an acknowledgment, so the message is delivered one or more times. <!--SR:!2027-01-17,290,330!2027-01-13,284,330-->
 - _exactly-once_: ::@:: the system guarantees that only the first reception is processed, typically by combining at‑least‑once delivery with idempotent handlers or persistent state. <!--SR:!2026-11-28,249,330!2027-01-05,280,330-->
 
-One may rely on {@{business logic}@} to {@{ignore duplicates}@}. {@{Akka actors}@} provide {@{persistence primitives}@} that let {@{a message be stored and replayed}@}, enabling {@{exactly‑once processing}@} when coupled with {@{unique correlation IDs}@}. <!--SR:!2026-11-05,237,330!2026-11-11,241,330!2027-01-19,291,330!2026-11-26,254,330!fsrs,2029-09-22T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-11-04T00:00:00.000Z!2027-01-19,291,330!2027-01-07,279,330-->
+One may rely on {@{business logic}@} to {@{ignore duplicates}@}. {@{Akka actors}@} provide {@{persistence primitives}@} that let {@{a message be stored and replayed}@}, enabling {@{exactly‑once processing}@} when coupled with {@{unique correlation IDs}@}. <!--SR:!fsrs,2029-09-27T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-05T00:00:00.000Z!2026-11-11,241,330!2027-01-19,291,330!2026-11-26,254,330!fsrs,2029-09-22T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-11-04T00:00:00.000Z!2027-01-19,291,330!2027-01-07,279,330-->
 
 > [!example] __reliable transfer using IDs__
 >
@@ -447,7 +447,7 @@ When {@{several messages are sent to the same recipient}@} they keep {@{the orde
 > ```
 <!--SR:!2026-12-10,259,330!2026-12-31,276,330!2027-01-22,291,330-->
 
-{@{A `Getter` actor}@} fetches {@{a URL asynchronously}@}, extracts {@{links with Jsoup}@}, forwards them to {@{its parent controller}@}, and stops {@{itself when finished or on failure}@}. {@{The `pipeTo` helper}@} simplifies sending {@{the future result back to the actor}@}. <!--SR:!2027-01-25,294,330!2027-01-04,279,330!2027-01-18,290,330!2026-11-26,254,330!2026-12-02,252,330!2027-01-21,293,330!2026-11-05,237,330-->
+{@{A `Getter` actor}@} fetches {@{a URL asynchronously}@}, extracts {@{links with Jsoup}@}, forwards them to {@{its parent controller}@}, and stops {@{itself when finished or on failure}@}. {@{The `pipeTo` helper}@} simplifies sending {@{the future result back to the actor}@}. <!--SR:!2027-01-25,294,330!2027-01-04,279,330!2027-01-18,290,330!2026-11-26,254,330!2026-12-02,252,330!2027-01-21,293,330!fsrs,2029-09-27T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-05T00:00:00.000Z-->
 
 > [!example] __`Getter` actor__
 >

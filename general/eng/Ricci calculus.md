@@ -324,7 +324,7 @@ This can be {@{generalized to get the commutator}@} for {@{two covariant derivat
 
 ## notes
 
-1. While {@{the raising and lowering of indices}@} is {@{dependent on a [metric tensor](metric%20tensor.md)}@}, {@{the [covariant derivative](covariant%20derivative.md)}@} is {@{only dependent on the [connection](connection%20(mathematics).md)}@} while {@{the [exterior derivative](exterior%20derivative.md) and the [Lie derivative](Lie%20derivative.md)}@} are {@{dependent on neither}@}. <a id="^ref-1"></a>^ref-1 <!--SR:!fsrs,2029-07-21T00:00:00.000Z,1068,1068.495917,1,2,9,0,0,2026-08-18T00:00:00.000Z!2026-11-05,305,350!2026-11-20,320,350!2026-12-25,348,350!fsrs,2029-09-03T00:00:00.000Z,1103,1103.2172026,1,2,9,0,0,2026-08-27T00:00:00.000Z!fsrs,2030-01-16T00:00:00.000Z,1199,1198.87680538,1,2,9,0,0,2026-10-05T00:00:00.000Z-->
+1. While {@{the raising and lowering of indices}@} is {@{dependent on a [metric tensor](metric%20tensor.md)}@}, {@{the [covariant derivative](covariant%20derivative.md)}@} is {@{only dependent on the [connection](connection%20(mathematics).md)}@} while {@{the [exterior derivative](exterior%20derivative.md) and the [Lie derivative](Lie%20derivative.md)}@} are {@{dependent on neither}@}. <a id="^ref-1"></a>^ref-1 <!--SR:!fsrs,2029-07-21T00:00:00.000Z,1068,1068.495917,1,2,9,0,0,2026-08-18T00:00:00.000Z!fsrs,2030-09-10T00:00:00.000Z,1405,1405.23695752,1,2,9,0,0,2026-11-05T00:00:00.000Z!2026-11-20,320,350!2026-12-25,348,350!fsrs,2029-09-03T00:00:00.000Z,1103,1103.2172026,1,2,9,0,0,2026-08-27T00:00:00.000Z!fsrs,2030-01-16T00:00:00.000Z,1199,1198.87680538,1,2,9,0,0,2026-10-05T00:00:00.000Z-->
 
 ## references
 

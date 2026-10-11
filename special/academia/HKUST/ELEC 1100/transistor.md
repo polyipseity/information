@@ -16,7 +16,7 @@ A transistor is a three-terminal semiconductor device that can amplify or switch
 
 Flashcards for this section are as follows:
 
-- transistor definition: what is a transistor in terms of terminals and function? ::@:: A transistor is a three-terminal semiconductor device (collector, base, emitter) that can amplify or switch current between two terminals under control of the third. <!--SR:!fsrs,2027-05-12T10:13:49.801Z,332,332.24027195,1,2,7,0,0,2026-06-14T10:13:49.801Z!2026-11-05,172,310-->
+- transistor definition: what is a transistor in terms of terminals and function? ::@:: A transistor is a three-terminal semiconductor device (collector, base, emitter) that can amplify or switch current between two terminals under control of the third. <!--SR:!fsrs,2027-05-12T10:13:49.801Z,332,332.24027195,1,2,7,0,0,2026-06-14T10:13:49.801Z!fsrs,2028-11-19T00:00:00.000Z,745,744.93144381,1,2,8,0,0,2026-11-05T00:00:00.000Z-->
 - BJT types: what are the two standard BJT types? ::@:: The two common BJTs are NPN and PNP, distinguished by the order of N and P semiconductor regions. <!--SR:!fsrs,2027-04-18T02:05:41.368Z,314,314.10478149,1,2,7,0,0,2026-06-08T02:05:41.368Z!fsrs,2027-04-20T02:05:43.727Z,316,315.61032191,1,2,7,0,0,2026-06-08T02:05:43.727Z-->
 - controlled path in a BJT: which path does the base current control? ::@:: In our NPN/PNP examples the small base current (between base and emitter) controls a much larger current between collector and emitter. <!--SR:!2027-01-30,245,330!2027-02-21,262,330-->
 - transistor use: switching ::@:: In ELEC 1100 we use BJTs as on/off switches to control current through motors and other loads. <!--SR:!2027-02-10,254,330!2027-01-28,243,330-->
@@ -142,7 +142,7 @@ Flashcards for this section are as follows:
 - NPN circuit as inverter: what is the logic behaviour? ::@:: Input LOW (transistor off): $V_C$ high, $V_E$ at ground, so output is logical HIGH. Input HIGH (transistor saturated): $V_C$ only slightly above $V_E$, so output is logical LOW. <!--SR:!fsrs,2027-05-15T10:14:49.135Z,335,335.28290091,1,2,7,0,0,2026-06-14T10:14:49.135Z!2027-01-29,244,330-->
 - saturation voltage $V_{\text{sat}}$: how is it found? ::@:: Set $\beta I_B = I_{C,\max}$. Use $I_B = (V_{\text{sat}} - 0.7\text{ V})/R_B$ and $I_{C,\max} = (V_{CC} - 0.2\text{ V})/R_C$; solve for $V_{\text{sat}}$. <!--SR:!fsrs,2027-04-18T02:05:43.220Z,314,314.10478149,1,2,7,0,0,2026-06-08T02:05:43.220Z!fsrs,2028-11-09T00:00:00.000Z,737,737.40151351,1,2,8,0,0,2026-11-03T00:00:00.000Z-->
 - lecture $V_{\text{sat}}$ example: what is $V_{\text{sat}}$? ::@:: $V_{\text{sat}} = 1.18\text{ V}$; for input above that the transistor is saturated and output is low. <!--SR:!fsrs,2028-11-14T00:00:00.000Z,741,741.16781121,1,2,8,0,0,2026-11-04T00:00:00.000Z!2027-02-15,257,330-->
-- logical LOW in inverter: why is small $V_C - V_E$ treated as logic LOW? ::@:: The logic level is defined by $V_C$ relative to $V_E$; when that difference is small, it is logical LOW. <!--SR:!2027-02-11,255,330!2026-11-05,172,310-->
+- logical LOW in inverter: why is small $V_C - V_E$ treated as logic LOW? ::@:: The logic level is defined by $V_C$ relative to $V_E$; when that difference is small, it is logical LOW. <!--SR:!2027-02-11,255,330!fsrs,2028-11-19T00:00:00.000Z,745,744.93144381,1,2,8,0,0,2026-11-05T00:00:00.000Z-->
 
 ## transistor as a switch
 

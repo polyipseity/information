@@ -22,7 +22,7 @@ tags:
 
 ## motivation
 
-When a function has to wait {@{for an I/O operation or a remote service}@}, {@{blocking the current thread}@} would {@{waste resources and stall other work}@}. Futures allow the calling code to {@{proceed while the computation runs in parallel}@}, improving {@{responsiveness and throughput on multi‑core machines}@}. They also make it easier to express {@{concurrent workflows without explicit thread management}@}. <!--SR:!2026-12-16,262,330!2026-11-19,248,330!2026-12-06,255,330!2026-11-11,241,330!2026-11-05,237,330!2026-11-08,239,330-->
+When a function has to wait {@{for an I/O operation or a remote service}@}, {@{blocking the current thread}@} would {@{waste resources and stall other work}@}. Futures allow the calling code to {@{proceed while the computation runs in parallel}@}, improving {@{responsiveness and throughput on multi‑core machines}@}. They also make it easier to express {@{concurrent workflows without explicit thread management}@}. <!--SR:!2026-12-16,262,330!2026-11-19,248,330!2026-12-06,255,330!2026-11-11,241,330!fsrs,2029-09-27T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-05T00:00:00.000Z!2026-11-08,239,330-->
 
 ### continuation-passing style
 
@@ -237,7 +237,7 @@ Because {@{`Future` implements `map`, `flatMap`, and `withFilter`}@}, it can be 
 
 ## dataflow programming
 
-{@{_Dataflow programming_}@} views a program as {@{a network of independent computations that communicate by passing values along edges}@}. Each node executes when {@{all its input values are available}@}, and the result is then {@{propagated to downstream nodes}@}. Scala’s {@{`Future` and `Promise`}@} naturally fit this model: {@{a `Future`}@} represents {@{an edge whose value will be supplied later}@}, while {@{a `Promise`}@} acts as {@{a writable sink that can be completed by any thread}@}. <!--SR:!2026-11-22,251,330!2026-12-17,263,330!2027-01-24,294,330!2027-01-18,289,330!2026-11-05,236,330!2026-11-05,236,330!2026-11-24,252,330!2026-12-25,270,330!2027-01-24,294,330-->
+{@{_Dataflow programming_}@} views a program as {@{a network of independent computations that communicate by passing values along edges}@}. Each node executes when {@{all its input values are available}@}, and the result is then {@{propagated to downstream nodes}@}. Scala’s {@{`Future` and `Promise`}@} naturally fit this model: {@{a `Future`}@} represents {@{an edge whose value will be supplied later}@}, while {@{a `Promise`}@} acts as {@{a writable sink that can be completed by any thread}@}. <!--SR:!2026-11-22,251,330!2026-12-17,263,330!2027-01-24,294,330!2027-01-18,289,330!fsrs,2029-09-23T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-11-05T00:00:00.000Z!fsrs,2029-09-23T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-11-05T00:00:00.000Z!2026-11-24,252,330!2026-12-25,270,330!2027-01-24,294,330-->
 
 In {@{a dataflow graph}@}, a node may have {@{several inputs}@}; in code this is expressed with {@{the combinators `map`, `flatMap`, or `zip`}@}. When {@{all required futures finish}@}, {@{the next step}@} runs. Because the language guarantees that {@{each future is evaluated at most once}@}, the graph remains {@{acyclic and free of race conditions}@}, provided {@{the underlying execution context}@} respects {@{the promises’ completion semantics}@}. <!--SR:!2026-11-17,246,330!2027-01-22,293,330!2026-11-12,242,330!2026-12-23,268,330!2026-11-15,245,330!2027-01-24,294,330!2027-01-21,292,330!2027-01-24,294,330!2027-01-23,294,330-->
 
@@ -273,7 +273,7 @@ In {@{a dataflow graph}@}, a node may have {@{several inputs}@}; in code this is
 >
 > {@{The promise’s `future` field}@} is a {@{normal `Future`}@}, so it can be {@{composed with other futures in the same dataflow network}@}. <!--SR:!2026-12-13,260,330!2026-11-24,252,330!2026-12-15,262,330!2026-12-19,265,330!fsrs,2029-09-12T00:00:00.000Z,1045,1045.2595081,1,2,9,0,0,2026-11-02T00:00:00.000Z!2027-01-24,294,330!2027-01-22,293,330-->
 
-{@{_Lenient evaluation_}@}, which evaluates {@{an expression as soon as it becomes available but only once}@}, is essentially the same idea as {@{dataflow}@}: each node {@{runs when its inputs are ready}@}. {@{`Futures`}@} provide {@{a convenient runtime for this pattern}@} without {@{explicit scheduling or graph construction}@}; {@{the Scala compiler and the execution context}@} take care of {@{wiring the edges behind the scenes}@}. <!--SR:!2026-12-11,259,330!2027-01-16,286,330!2027-01-20,291,330!2027-01-20,290,330!2026-12-01,251,330!2026-11-05,237,330!2026-12-19,264,330!2026-11-18,247,330!2027-01-21,292,330-->
+{@{_Lenient evaluation_}@}, which evaluates {@{an expression as soon as it becomes available but only once}@}, is essentially the same idea as {@{dataflow}@}: each node {@{runs when its inputs are ready}@}. {@{`Futures`}@} provide {@{a convenient runtime for this pattern}@} without {@{explicit scheduling or graph construction}@}; {@{the Scala compiler and the execution context}@} take care of {@{wiring the edges behind the scenes}@}. <!--SR:!2026-12-11,259,330!2027-01-16,286,330!2027-01-20,291,330!2027-01-20,290,330!2026-12-01,251,330!fsrs,2029-09-27T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-05T00:00:00.000Z!2026-12-19,264,330!2026-11-18,247,330!2027-01-21,292,330-->
 
 ## execution context
 
