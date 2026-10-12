@@ -148,7 +148,7 @@ theAnswerToLifeTheUniverseAndEverything = 42
 
 ### arithmetic operators
 
-Below are common arithmetic operators. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. Operators higher in the list {@{have higher precedence}@}:
+Below are common arithmetic operators. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. Operators higher in the list have {@{higher precedence}@}:
 
 ```Python
 # pytextgen generate data
@@ -291,7 +291,7 @@ Also, one cannot chain {@{comparison operators, like `2 <= aNumber <= 5`. [logic
 
 ### logic operators
 
-Below are common logic operators, all of which {@{accept two booleans and return a boolean}@}. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. Operators higher in the list {@{have higher precedence}@}:
+Below are common logic operators, all of which {@{accept two booleans and return a boolean}@}. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. Operators higher in the list have {@{higher precedence}@}:
 
 ```Python
 # pytextgen generate data

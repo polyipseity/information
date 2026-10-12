@@ -12,7 +12,7 @@ How might one invent the [air fryer](../../general/air%20fryer.md) from observin
 
 One may start by considering {@{assumptions of making French fries}@}: {@{It requires frying with a lot of oil.}@} Then, we can think of a {@{problem statement going against the assumptions}@}: {@{How to make tasty French fries without frying?}@}
 
-With the problem statement in mind, identify {@{what makes French fries tasty}@}. They {@{have a crunchy exterior, and a light and fluffy interior}@}. Next, realize that {@{to make the exterior crunchier}@}, {@{remove moisture from potatoes faster by transferring heat very quickly}@}.
+With the problem statement in mind, identify {@{what makes French fries tasty}@}. They have {@{a crunchy exterior, and a light and fluffy interior}@}. Next, realize that {@{to make the exterior crunchier}@}, {@{remove moisture from potatoes faster by transferring heat very quickly}@}.
 
 To remove moisture from potatoes faster by transferring heat quickly, the conventional way of {@{dipping the French fries in oil}@} works. But with creativity, we could also {@{use very hot air surrounding potatoes}@}, then much less or no oil is needed.
 

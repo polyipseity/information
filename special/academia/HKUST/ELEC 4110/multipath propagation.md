@@ -82,7 +82,7 @@ Note {@{the equalities in the above formulas for Doppler shift and Doppler sprea
 
 ### coherence time
 
-Similar to {@{coherence bandwidth}@}, {@{_coherence time_}@} may {@{be defined as the maximum time separation $\Delta t$}@} for which {@{the magnitude of the autocorrelation function in time domain}@} corresponding to {@{the Doppler power spectral density in frequency domain (its Fourier transform)}@} remains {@{above a chosen threshold}@}.
+Similar to {@{coherence bandwidth}@}, {@{_coherence time_}@} may be {@{defined as the maximum time separation $\Delta t$}@} for which {@{the magnitude of the autocorrelation function in time domain}@} corresponding to {@{the Doppler power spectral density in frequency domain (its Fourier transform)}@} remains {@{above a chosen threshold}@}.
 
 {@{The coherence time}@} is often {@{approximated by $$T_c \approx \frac {\alpha} {f_m} \,.$$}@} where {@{$f_m = 2 f_D$}@} is {@{the _Doppler spread_ (not to be confused with _Doppler shift_)}@} and {@{$\alpha$}@} depends on {@{the threshold}@}. For {@{a threshold of 0.5}@}, {@{$\alpha = \frac 9 {16 \pi}$ (restrictive Jakes-style approximation)}@}; other common values for {@{$\alpha$}@} include {@{$\alpha = 1$ (relaxed approximation)}@} and {@{$\alpha = \sqrt{\frac 9 {16\pi} }$ (balanced approximation)}@}. (annotation: __this course__: Use {@{the _Doppler shift_ $f_d$ and the formula $T_c \approx \frac 9 {16\pi f_d}$ for simplicity unless otherwise specified}@}.)
 

@@ -51,7 +51,7 @@ There are {@{many objects in the application domain}@}. Classes allow us to {@{_
 
 {@{The _initial value_}@} of an attribute describe {@{the initial value for the data value if _unspecified_}@}. It is {@{_optional_}@}, and by default {@{requires the data value to be _specified_ since there is no initial value}@}.
 
-{@{The _multiplicity_}@} of an attribute describe {@{how many _simultaneous values_ the data value can take}@}. It is {@{_optional_}@}, and by default {@{is 1}@}. Its syntax is {@{the same as that for association multiplicity}@} but {@{inside square brackets `[]`}@}, i.e. {@{`[min..max]`}@}, e.g. {@{`accounts: Account [0..10]`}@}. \(__this course__: Tested in the midterm examination.\)
+{@{The _multiplicity_}@} of an attribute describe {@{how many _simultaneous values_ the data value can take}@}. It is {@{_optional_}@}, and by default is {@{1}@}. Its syntax is {@{the same as that for association multiplicity}@} but {@{inside square brackets `[]`}@}, i.e. {@{`[min..max]`}@}, e.g. {@{`accounts: Account [0..10]`}@}. \(__this course__: Tested in the midterm examination.\)
 
 {@{The _mutability_ \(_changeability_\)}@} of attribute describe {@{if the data value can be changed}@}. It can be {@{writable \(_unspecified_\) or read-only \(`readOnly`\)}@}. By default, it is {@{writable as it is unspecified}@}. Its syntax is {@{writing the property inside curly brackets `{}`}@}, i.e. {@{`{readOnly}`}@}, e.g. {@{`account: Account {readonly}`}@}.
 
@@ -114,7 +114,7 @@ In practice, there are {@{"multiplicities" that are _soft_ constraints}@}. We {@
 
 ### association with additional semantics
 
-An association can {@{have additional semantics}@}. {@{The most general way}@} to specify additional semantics is by {@{writing a piece of text next to the association}@}.
+An association can have {@{additional semantics}@}. {@{The most general way}@} to specify additional semantics is by {@{writing a piece of text next to the association}@}.
 
 However, there are {@{some additional semantics common enough}@} to {@{warrant special representations}@}. There are {@{3 major ones}@}: {@{aggregation, composition, and generalization}@}.
 
@@ -146,7 +146,7 @@ To {@{construct a generalization}@}, we have {@{top-down and bottom-up}@} approa
 
 In {@{the top-down approach}@}, we start with {@{a class with an _discriminator_ attribute}@}, which contains {@{an _enumeration type_}@} to indicate {@{the which other attributes or operations are valid}@} for {@{a particular instance of the class}@}. Then, we {@{generalize the superclass}@}: {@{add a new subclass for each possible value of the discriminator attribute}@}, and {@{remove the discriminator attribute from the superclass}@}. {@{Each subclass}@} should have attributes and operations that are {@{_specific_ \(non-common\) to the subclass}@}. {@{The superclass}@} should only have {@{attributes and operations _common_ to all subclasses}@}. Finally, indicate that {@{it is a generalization \(see below\)}@}.
 
-In {@{the bottom-up approach}@}, we start with {@{several classes with similar attributes or operations}@}. Then, we {@{generalize the subclasses}@}: {@{add a superclass with attributes or operations _common_ to all subclasses}@}, and {@{remove them from all subclasses}@}. Finally, indicate that {@{it is a generalization \(see below\)}@}. {@{_Common_ associations}@} may {@{have objects they are referring to changed}@} and {@{their multiplicity changed}@}.
+In {@{the bottom-up approach}@}, we start with {@{several classes with similar attributes or operations}@}. Then, we {@{generalize the subclasses}@}: {@{add a superclass with attributes or operations _common_ to all subclasses}@}, and {@{remove them from all subclasses}@}. Finally, indicate that {@{it is a generalization \(see below\)}@}. {@{_Common_ associations}@} may have {@{objects they are referring to changed}@} and {@{their multiplicity changed}@}.
 
 To {@{indicate a generalization}@}, {@{connect all subclasses}@} to {@{the superclass}@}, and {@{add a _hollow_ triangle pointing towards the superclass}@}. {@{Generalization properties}@} are described by {@{text near it}@}, e.g. {@{`{overlapping, incomplete}`, `{disjoint, complete}`}@}.
 
@@ -569,7 +569,7 @@ When {@{constructing a state-machine diagram}@}, we begin by {@{listing every po
 
 {@{A _state_}@} represents {@{a period in which an object}@} {@{satisfies certain conditions, performs actions, or waits for events}@}. States have {@{duration}@} and may be {@{named (e.g., _InCredit_) or anonymous \(_anonymous states_\)}@}. Prefer {@{named ones over anonymous ones}@} so that {@{stakeholders can understand them}@}. They can be identified by {@{attribute values, links to other objects, or both}@}.
 
-{@{A state}@} is drawn as {@{a rectangle with slightly rounded corners}@}. If it {@{has a name}@}, then {@{its name is also indicated}@}. If it {@{has self-transition adornments}@}, then {@{a horizontal line is added}@} to separate {@{the name \(if any\)}@}, and below the line {@{the self-transitions are listed}@}.
+{@{A state}@} is drawn as {@{a rectangle with slightly rounded corners}@}. If it has {@{a name}@}, then {@{its name is also indicated}@}. If it has {@{self-transition adornments}@}, then {@{a horizontal line is added}@} to separate {@{the name \(if any\)}@}, and below the line {@{the self-transitions are listed}@}.
 
 #### initial and final states
 
@@ -628,7 +628,7 @@ There can be {@{direct transitions}@} from {@{a specific region}@} to {@{outside
 
 {@{A _sequential_ composite state machine diagram}@} \(also called {@{a choice or "or" composite}@}\) models situations in which {@{an object occupies _exactly one_ of several sub-states at any time}@}. {@{The selection among these sub-states}@} is governed by {@{an exclusive condition}@}, meaning that {@{the outer state}@} behaves as though it were {@{in one particular nested state based on the current context}@}. This construct is useful for {@{_abstracting_ or _generalizing_ a set of mutually exclusive behaviors}@}.
 
-Inside {@{a sequential composite state}@}, it should have {@{an initial state}@}. It need not {@{have an final state}@}, as {@{outside transitions outgoing the overall composite state}@} can represent {@{exiting the state}@}.
+Inside {@{a sequential composite state}@}, it should have {@{an initial state}@}. It need not have {@{an final state}@}, as {@{outside transitions outgoing the overall composite state}@} can represent {@{exiting the state}@}.
 
 #### concurrent composite states
 
@@ -683,7 +683,7 @@ When {@{an association}@} requires {@{attributes or operations}@}, students some
 
 ### common mistakes: XOR associations
 
-A frequent mistake is {@{the construction of exclusive-or \(XOR\) associations}@} that either {@{duplicate each other}@} or do not reflect {@{the business rules stated in the requirements}@}. For instance, students often draw both {@{a "OwnsPersonal" and an "OwnsCorporate" association}@} from {@{`Car` to `Person` and `Company`}@}, respectively, without recognising that a car can {@{have only one owner who may be either a person or a company but not both}@}. {@{Multiplicities for XOR associations}@} are frequently {@{set incorrectly}@}: If {@{`1` is used on the owner's side}@}, it allows {@{multiple owners for a single car}@}. If {@{`0..1` is used on the owner's side}@}, it allows {@{no owners for a single car}@}. The remedy is to {@{use `1` on the owner's side to ensure a car has an owner}@}, and then {@{enforce an exclusive-or (XOR) constraint between the two associations}@} to ensure that {@{only one of the owner types is present}@}. {@{The exclusive-or \(XOR\) constraint}@} is denoted by {@{a _dashed line_ connecting the two associations with the label text `{xor}`}@}.
+A frequent mistake is {@{the construction of exclusive-or \(XOR\) associations}@} that either {@{duplicate each other}@} or do not reflect {@{the business rules stated in the requirements}@}. For instance, students often draw both {@{a "OwnsPersonal" and an "OwnsCorporate" association}@} from {@{`Car` to `Person` and `Company`}@}, respectively, without recognising that a car can have {@{only one owner who may be either a person or a company but not both}@}. {@{Multiplicities for XOR associations}@} are frequently {@{set incorrectly}@}: If {@{`1` is used on the owner's side}@}, it allows {@{multiple owners for a single car}@}. If {@{`0..1` is used on the owner's side}@}, it allows {@{no owners for a single car}@}. The remedy is to {@{use `1` on the owner's side to ensure a car has an owner}@}, and then {@{enforce an exclusive-or (XOR) constraint between the two associations}@} to ensure that {@{only one of the owner types is present}@}. {@{The exclusive-or \(XOR\) constraint}@} is denoted by {@{a _dashed line_ connecting the two associations with the label text `{xor}`}@}.
 
 Sometimes, {@{an alternative}@} to {@{using XOR associations}@} is {@{using generalization}@}. Using the same car example, {@{`Person` and `Company`}@} may be {@{generalized to a superclass `Owner` with `{complete, disjoint}` coverage}@}, and then {@{the two associations with an XOR constraint between them}@} becomes {@{a single association: `Owner` _owns_ `Car`}@}.
 

@@ -27,7 +27,7 @@ When copying and pasting formulas, the cell references in the formula are {@{off
 
 ### arithmetic operators
 
-Below are common arithmetic and string operators. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. Operators higher in the list {@{have higher precedence}@}:
+Below are common arithmetic and string operators. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. Operators higher in the list have {@{higher precedence}@}:
 
 ```Python
 # pytextgen generate data
@@ -92,7 +92,7 @@ return chain.from_iterable([r.value for r in results])
 
 ### comparison operators
 
-Below are common comparison operators, all of which returns {@{booleans}@}. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. The comparison operators below {@{have the same precedence}@}:
+Below are common comparison operators, all of which returns {@{booleans}@}. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. The comparison operators below have {@{the same precedence}@}:
 
 ```Python
 # pytextgen generate data
