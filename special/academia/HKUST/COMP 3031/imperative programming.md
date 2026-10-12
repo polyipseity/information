@@ -18,7 +18,7 @@ tags:
 
 - see: [general/imperative programming](../../../../general/imperative%20programming.md)
 
-Scala lets programmers write code that {@{looks like traditional _imperative_ languages}@} while still {@{benefiting from the safety and abstraction mechanisms of a modern language}@}. The core ideas are simple: {@{variables, mutable state, loops and control flow}@} can be expressed {@{directly in the language}@} or modelled with {@{higher‑order functions}@}. <!--SR:!2027-01-11,286,330!2027-01-12,287,330!2027-01-07,283,330!2027-01-04,281,330!2026-11-08,239,330-->
+Scala lets programmers write code that {@{looks like traditional _imperative_ languages}@} while still {@{benefiting from the safety and abstraction mechanisms of a modern language}@}. The core ideas are simple: {@{variables, mutable state, loops and control flow}@} can be expressed {@{directly in the language}@} or modelled with {@{higher‑order functions}@}. <!--SR:!2027-01-11,286,330!2027-01-12,287,330!2027-01-07,283,330!2027-01-04,281,330!fsrs,2029-10-08T00:00:00.000Z,1065,1064.62815785,1,2,9,0,0,2026-11-08T00:00:00.000Z-->
 
 ## loops
 

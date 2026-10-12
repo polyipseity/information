@@ -122,7 +122,7 @@ Actors process {@{each message _sequentially_}@}, so {@{no explicit locks are ne
 >
 > {@{A concrete actor}@} supplies {@{a `receive` method}@} that {@{pattern matches on received messages}@}. <!--SR:!2027-01-08,280,330!2026-12-29,272,330!2026-12-13,261,330!2027-01-07,279,330!2026-11-25,253,330-->
 
-{@{A minimal example}@} shows {@{an actor}@} that counts {@{how many times it has been told to increment}@}: <!--SR:!2026-12-18,263,330!2026-12-10,259,330!2026-11-08,239,330-->
+{@{A minimal example}@} shows {@{an actor}@} that counts {@{how many times it has been told to increment}@}: <!--SR:!2026-12-18,263,330!2026-12-10,259,330!fsrs,2029-10-08T00:00:00.000Z,1065,1064.62815785,1,2,9,0,0,2026-11-08T00:00:00.000Z-->
 
 > [!example] __`Counter` actor__
 >
@@ -245,7 +245,7 @@ When {@{an actor receives a message}@} it may: {@{send other messages}@}; {@{cre
 
 ### actor encapsulation
 
-Actors expose only {@{a _mailbox_ through an `ActorRef`}@}. {@{No external code}@} can read or modify {@{the internal state of an actor}@}; all interaction must be performed by {@{sending a message}@}. Each actor knows {@{its own address via `self`}@}, and can give that address {@{to others inside a message _implicitly_}@}: <!--SR:!2026-12-31,276,330!2027-01-21,293,330!2027-01-18,288,330!2027-01-03,276,330!2026-11-08,239,330!2027-01-11,285,330-->
+Actors expose only {@{a _mailbox_ through an `ActorRef`}@}. {@{No external code}@} can read or modify {@{the internal state of an actor}@}; all interaction must be performed by {@{sending a message}@}. Each actor knows {@{its own address via `self`}@}, and can give that address {@{to others inside a message _implicitly_}@}: <!--SR:!2026-12-31,276,330!2027-01-21,293,330!2027-01-18,288,330!2027-01-03,276,330!fsrs,2029-10-08T00:00:00.000Z,1065,1064.62815785,1,2,9,0,0,2026-11-08T00:00:00.000Z!2027-01-11,285,330-->
 
 > [!example] __passing `self`__
 >
@@ -302,7 +302,7 @@ If two messages {@{arrive concurrently}@}, they are {@{queued and executed one a
 > }
 > ```
 >
-> {@{The `!` operator}@} posts {@{a message asynchronously}@}, so {@{the main actor continues immediately after sending}@}. When {@{the counter replies with an `Int`}@}, the main actor {@{prints it and then stops itself}@}. <!--SR:!2026-11-08,239,330!2027-01-03,276,330!2026-11-22,250,330!2026-11-16,246,330!2026-12-03,253,330!2026-12-08,257,330!2026-12-28,271,330!2026-11-27,255,330!2027-01-06,278,330-->
+> {@{The `!` operator}@} posts {@{a message asynchronously}@}, so {@{the main actor continues immediately after sending}@}. When {@{the counter replies with an `Int`}@}, the main actor {@{prints it and then stops itself}@}. <!--SR:!fsrs,2029-10-08T00:00:00.000Z,1065,1064.62815785,1,2,9,0,0,2026-11-08T00:00:00.000Z!2027-01-03,276,330!2026-11-22,250,330!2026-11-16,246,330!2026-12-03,253,330!2026-12-08,257,330!2026-12-28,271,330!2026-11-27,255,330!2027-01-06,278,330-->
 
 ### bank account example
 
@@ -402,7 +402,7 @@ One may rely on {@{business logic}@} to {@{ignore duplicates}@}. {@{Akka actors}
 >   persist(Transfer(id, f, t, a)) { _ => … }   // store before sending
 > ```
 >
-> {@{The actor}@} can later replay {@{the stored record}@} if it crashes, ensuring that {@{every transfer is processed exactly once}@}. <!--SR:!2026-11-08,239,330!2026-12-21,268,330!2026-12-25,271,330!2026-12-15,263,330!2026-12-21,265,330!2026-11-15,245,330-->
+> {@{The actor}@} can later replay {@{the stored record}@} if it crashes, ensuring that {@{every transfer is processed exactly once}@}. <!--SR:!fsrs,2029-10-08T00:00:00.000Z,1065,1064.62815785,1,2,9,0,0,2026-11-08T00:00:00.000Z!2026-12-21,268,330!2026-12-25,271,330!2026-12-15,263,330!2026-12-21,265,330!2026-11-15,245,330-->
 
 When {@{several messages are sent to the same recipient}@} they keep {@{the order in which they were issued}@}; this is {@{an Akka‑specific guarantee}@}. {@{Messages to different actors}@} may arrive {@{interleaved arbitrarily}@}. {@{The lack of global ordering}@} means a system must reason about {@{partial orders when composing components}@}, but {@{the single‑threaded mailbox}@} guarantees that each message is {@{processed atomically and that no two messages can be handled simultaneously by one actor}@}. <!--SR:!2026-12-16,263,330!2026-12-21,268,330!2026-12-18,263,330!2026-11-23,251,330!2026-11-09,240,330!2026-11-22,251,330!2026-12-25,268,330!2026-11-22,251,330!2026-12-20,267,330-->
 
@@ -508,7 +508,7 @@ Actors can schedule {@{timeouts via the actor system’s scheduler}@}. {@{A cont
 >     // other cases …
 > ```
 >
-> {@{Note that `scheduleOnce`}@} also accepts {@{a runnable}@}. However, we cannot use it to {@{_directly_ run `children.foreach(_ ! Abort)`}@} as it {@{breaks encapsulation}@}. That is, the actor state is {@{accessed from outside the actor's `receive` function}@}. <!--SR:!2026-11-10,241,330!2026-11-08,239,330!2027-01-22,291,330!2026-12-05,255,330!2026-11-22,251,330!2027-01-06,281,330!fsrs,2029-09-22T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-11-04T00:00:00.000Z!2026-12-17,262,330!2026-11-25,253,330!2027-01-17,287,330!2027-01-21,293,330-->
+> {@{Note that `scheduleOnce`}@} also accepts {@{a runnable}@}. However, we cannot use it to {@{_directly_ run `children.foreach(_ ! Abort)`}@} as it {@{breaks encapsulation}@}. That is, the actor state is {@{accessed from outside the actor's `receive` function}@}. <!--SR:!2026-11-10,241,330!fsrs,2029-10-08T00:00:00.000Z,1065,1064.62815785,1,2,9,0,0,2026-11-08T00:00:00.000Z!2027-01-22,291,330!2026-12-05,255,330!2026-11-22,251,330!2027-01-06,281,330!fsrs,2029-09-22T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-11-04T00:00:00.000Z!2026-12-17,262,330!2026-11-25,253,330!2027-01-17,287,330!2027-01-21,293,330-->
 
 {@{A `Cache` actor}@} may be {@{further split from the `Controller` actor}@}. <!--SR:!2026-11-10,241,330!2026-11-17,245,330-->
 

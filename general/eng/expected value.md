@@ -265,7 +265,7 @@ This property is often {@{exploited in a wide variety of applications}@}, includ
 
 > {@{![The mass of probability distribution is balanced at the expected value, here a Beta\(α,β\) distribution with expected value α/\(α+β\).](../../archives/Wikimedia%20Commons/Beta%20first%20moment.svg)}@}
 >
-> {@{The mass of probability distribution is balanced at the expected value}@}, here {@{a Beta\(α,β\) distribution with expected value α/\(α+β\)}@}. <!--SR:!2026-11-08,499,310!2029-07-11,1277,350!2027-08-01,682,290-->
+> {@{The mass of probability distribution is balanced at the expected value}@}, here {@{a Beta\(α,β\) distribution with expected value α/\(α+β\)}@}. <!--SR:!fsrs,2032-01-08T00:00:00.000Z,1887,1887.14020451,1,2,10,0,0,2026-11-08T00:00:00.000Z!2029-07-11,1277,350!2027-08-01,682,290-->
 
 In {@{[classical mechanics](classical%20mechanics.md)}@}, {@{the [center of mass](center%20of%20mass.md) is an analogous concept to expectation}@}. For example, suppose {@{_X_ is a discrete random variable with values _x<sub>i</sub>_ and corresponding probabilities _p<sub>i</sub>_}@}. Now consider {@{a weightless rod on which are placed weights}@}, at {@{locations _x<sub>i</sub>_ along the rod and having masses _p<sub>i</sub>_ \(whose sum is one\)}@}. {@{The point at which the rod balances}@} is E\[_X_\]. <!--SR:!2029-05-19,1248,350!2029-06-18,1254,350!2029-01-05,1142,350!2029-06-22,1256,350!2029-07-28,1292,350!2029-06-22,1258,350-->
 

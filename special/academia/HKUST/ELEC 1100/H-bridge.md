@@ -177,7 +177,7 @@ Flashcards for this section are as follows:
 
 - 12 V vs 5 V rails ::@:: Label both rails to avoid connecting logic pins to the motor supply or vice versa; wrong connections can damage ICs. <!--SR:!fsrs,2027-04-16T11:17:32.853Z,313,312.84164192,1,2,7,0,0,2026-06-07T11:17:32.853Z!fsrs,2027-04-16T11:17:30.042Z,313,312.84164192,1,2,7,0,0,2026-06-07T11:17:30.042Z-->
 - 74HC14 power connections ::@:: VCC to the regulated 5 V rail, GND to the common ground. Without both, inverter outputs are undefined. <!--SR:!fsrs,2027-05-06T16:20:56.548Z,328,328.33560331,1,2,7,0,0,2026-06-12T16:20:56.548Z!fsrs,2027-03-30T05:31:44.478Z,298,297.72694097,1,2,7,0,0,2026-06-05T05:31:44.478Z-->
-- why keep circuits across labs ::@:: Reusing the existing layout avoids rewiring, reduces mistakes, and ensures a known-good motor-driver circuit for later labs. <!--SR:!fsrs,2027-05-08T16:20:55.444Z,330,329.81882824,1,2,7,0,0,2026-06-12T16:20:55.444Z!2026-11-08,175,310-->
+- why keep circuits across labs ::@:: Reusing the existing layout avoids rewiring, reduces mistakes, and ensures a known-good motor-driver circuit for later labs. <!--SR:!fsrs,2027-05-08T16:20:55.444Z,330,329.81882824,1,2,7,0,0,2026-06-12T16:20:55.444Z!fsrs,2028-12-03T00:00:00.000Z,756,756.20650093,1,2,8,0,0,2026-11-08T00:00:00.000Z-->
 
 ### pin counts and placement
 

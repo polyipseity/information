@@ -64,7 +64,7 @@ The goal is to implement {@{a method `encode(phoneNumber)`}@} that returns {@{ev
 >     letter <- letters
 >   yield letter -> digit
 > ```
-<!--SR:!fsrs,2030-02-17T00:00:00.000Z,1214,1214.08066657,1,2,9,0,0,2026-10-22T00:00:00.000Z!fsrs,2030-01-25T00:00:00.000Z,1199,1198.87680538,1,2,9,0,0,2026-10-14T00:00:00.000Z!2026-11-08,294,330!fsrs,2029-08-03T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-09-07T00:00:00.000Z-->
+<!--SR:!fsrs,2030-02-17T00:00:00.000Z,1214,1214.08066657,1,2,9,0,0,2026-10-22T00:00:00.000Z!fsrs,2030-01-25T00:00:00.000Z,1199,1198.87680538,1,2,9,0,0,2026-10-14T00:00:00.000Z!fsrs,2030-05-06T00:00:00.000Z,1275,1274.63302429,1,2,9,0,0,2026-11-08T00:00:00.000Z!fsrs,2029-08-03T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-09-07T00:00:00.000Z-->
 
 #### `Coder.wordCode`
 
@@ -82,7 +82,7 @@ With {@{`charCode` available}@}, {@{any word}@} can be turned {@{into the numeri
 
 #### `Coder.wordsForNum`
 
-{@{The dictionary}@} is then {@{indexed by these digit strings}@} so that {@{a lookup of "7225"}@} immediately yields {@{all words whose encoding equals that sequence}@}. {@{The `withDefaultValue`}@} ensures {@{missing keys return an empty list rather than throwing}@}: <!--SR:!2026-11-08,294,330!fsrs,2028-08-27T00:00:00.000Z,708,707.6141386,2.49272837,2,9,0,0,2026-09-19T00:00:00.000Z!fsrs,2028-08-30T00:00:00.000Z,710,710.13394084,2.49272837,2,9,0,0,2026-09-20T00:00:00.000Z!fsrs,2030-02-22T00:00:00.000Z,1218,1217.87747351,1,2,9,0,0,2026-10-23T00:00:00.000Z!fsrs,2028-12-18T00:00:00.000Z,785,785.28000147,2.49272837,2,9,0,0,2026-10-25T00:00:00.000Z!fsrs,2030-04-06T00:00:00.000Z,1252,1251.97430334,1,2,9,0,0,2026-11-01T00:00:00.000Z-->
+{@{The dictionary}@} is then {@{indexed by these digit strings}@} so that {@{a lookup of "7225"}@} immediately yields {@{all words whose encoding equals that sequence}@}. {@{The `withDefaultValue`}@} ensures {@{missing keys return an empty list rather than throwing}@}: <!--SR:!fsrs,2030-05-06T00:00:00.000Z,1275,1274.63302429,1,2,9,0,0,2026-11-08T00:00:00.000Z!fsrs,2028-08-27T00:00:00.000Z,708,707.6141386,2.49272837,2,9,0,0,2026-09-19T00:00:00.000Z!fsrs,2028-08-30T00:00:00.000Z,710,710.13394084,2.49272837,2,9,0,0,2026-09-20T00:00:00.000Z!fsrs,2030-02-22T00:00:00.000Z,1218,1217.87747351,1,2,9,0,0,2026-10-23T00:00:00.000Z!fsrs,2028-12-18T00:00:00.000Z,785,785.28000147,2.49272837,2,9,0,0,2026-10-25T00:00:00.000Z!fsrs,2030-04-06T00:00:00.000Z,1252,1251.97430334,1,2,9,0,0,2026-11-01T00:00:00.000Z-->
 
 > [!example] __`Coder.wordsForNum`__
 >

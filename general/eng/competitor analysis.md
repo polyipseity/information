@@ -32,7 +32,7 @@ Direct competitors are not {@{necessarily more important than indirect or potent
 >
 > If I were [Starbucks](Starbucks.md), a [coffee shop](coffeehouse.md) company, then...
 >
-> - an direct competitor of Starbucks ::@:: [Dunkin' Donuts](Dunkin'%20Donuts.md): serves mainly coffee to satisfy beverage need <!--SR:!2026-11-08,700,341!2029-03-10,1380,361-->
+> - an direct competitor of Starbucks ::@:: [Dunkin' Donuts](Dunkin'%20Donuts.md): serves mainly coffee to satisfy beverage need <!--SR:!fsrs,2034-07-25T00:00:00.000Z,2816,2815.73184246,1,2,10,0,0,2026-11-08T00:00:00.000Z!2029-03-10,1380,361-->
 > - an indirect competitor of Starbucks ::@:: [bars](bar%20(establishment).md): does not serve coffee but [alcoholic beverages](alcoholic%20beverage.md) to satisfy beverage need <!--SR:!2026-12-25,689,301!2029-09-23,1535,361-->
 > - a potential competitor of Starbucks ::@:: [McDonald's](McDonald's.md): serves mainly coffee but usually as part of a meal to satisfy food need <!--SR:!2028-02-03,1032,341!2030-01-31,1638,361-->
 > - a non-competitor of Starbucks ::@:: [Walmart](Walmart.md): does not serve coffee and does not satisfy beverage need <!--SR:!2029-08-30,1516,361!2028-12-31,1323,361-->

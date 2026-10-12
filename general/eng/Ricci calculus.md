@@ -85,7 +85,7 @@ In the special case that {@{the metric tensor is everywhere equal to the identit
 
 {@{The number of each upper and lower indices}@} of a tensor gives {@{its _type_}@}: {@{a tensor with _p_ upper and _q_ lower indices}@} is said to be {@{of type \(_p_, _q_\), or to be a type-\(_p_, _q_\) tensor}@}. <!--SR:!fsrs,2029-09-08T00:00:00.000Z,1107,1107.06552019,1,2,9,0,0,2026-08-28T00:00:00.000Z!2026-12-09,333,350!2026-12-20,344,350!2026-12-08,332,350-->
 
-{@{The number of indices of a tensor, regardless of variance}@}, is called {@{the _degree_ of the tensor}@} \(alternatively, {@{its _valence_, _order_ or _rank_}@}, although {@{_rank_ is ambiguous}@}\). Thus, {@{a tensor of type \(_p_, _q_\)}@} has {@{degree _p_ + _q_}@}. <!--SR:!2026-12-14,338,350!fsrs,2029-07-19T00:00:00.000Z,1068,1068.495917,1,2,9,0,0,2026-08-16T00:00:00.000Z!2026-12-10,334,350!2026-11-08,308,350!2026-12-29,352,350!fsrs,2030-01-21T00:00:00.000Z,1203,1202.68030072,1,2,9,0,0,2026-10-06T00:00:00.000Z-->
+{@{The number of indices of a tensor, regardless of variance}@}, is called {@{the _degree_ of the tensor}@} \(alternatively, {@{its _valence_, _order_ or _rank_}@}, although {@{_rank_ is ambiguous}@}\). Thus, {@{a tensor of type \(_p_, _q_\)}@} has {@{degree _p_ + _q_}@}. <!--SR:!2026-12-14,338,350!fsrs,2029-07-19T00:00:00.000Z,1068,1068.495917,1,2,9,0,0,2026-08-16T00:00:00.000Z!2026-12-10,334,350!fsrs,2030-09-25T00:00:00.000Z,1417,1417.22343543,1,2,9,0,0,2026-11-08T00:00:00.000Z!2026-12-29,352,350!fsrs,2030-01-21T00:00:00.000Z,1203,1202.68030072,1,2,9,0,0,2026-10-06T00:00:00.000Z-->
 
 #### [summation convention](summation%20convention.md)
 
