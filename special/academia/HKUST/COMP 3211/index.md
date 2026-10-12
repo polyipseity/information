@@ -270,7 +270,7 @@ The content is in teaching order.
 - datetime: 2025-02-25T12:30:00+08:00/2025-02-25T13:20:00+08:00
 - topic: simple agents
 - intelligent agent
-    - intelligent agent / aspects ::@:: memory, action, optimization, etc. <!--SR:!2026-11-09,495,396!fsrs,2032-09-21T00:00:00.000Z,2174,2174.1163828,1,2,10,0,0,2026-10-09T00:00:00.000Z-->
+    - intelligent agent / aspects ::@:: memory, action, optimization, etc. <!--SR:!fsrs,2033-01-30T00:00:00.000Z,2274,2274.19527604,1,2,10,0,0,2026-11-09T00:00:00.000Z!fsrs,2032-09-21T00:00:00.000Z,2174,2174.1163828,1,2,10,0,0,2026-10-09T00:00:00.000Z-->
         - intelligent agent / aspects / memory ::@:: without: stimulus-response agent, with: state machine <!--SR:!fsrs,2030-09-01T00:00:00.000Z,1409,1408.56208782,1,2,10,0,0,2026-10-23T00:00:00.000Z!fsrs,2031-02-03T05:19:25.333Z,1695,1694.63979162,1,2,9,0,0,2026-06-14T05:19:25.333Z-->
         - intelligent agent / aspects / action ::@:: neural network, rule-based <!--SR:!2026-11-26,507,396!fsrs,2032-09-21T00:00:00.000Z,2174,2174.1163828,1,2,10,0,0,2026-10-09T00:00:00.000Z-->
         - intelligent agent / aspects / optimization ::@:: genetic programming, gradient descent <!--SR:!2026-12-10,515,396!fsrs,2031-03-12T16:22:51.853Z,1734,1733.5039585,1,2,10,0,0,2026-06-12T16:22:51.853Z-->

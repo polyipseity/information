@@ -87,7 +87,7 @@ Scala lets programmers write code that {@{looks like traditional _imperative_ la
 
 ### for-loops
 
-Scala offers a {@{concise `for` syntax}@} that is essentially {@{syntactic sugar for calls to `foreach`}@}. {@{A Java‑style loop with an index variable}@} can be written as <!--SR:!2026-11-27,255,330!2027-01-03,280,330!2026-11-09,240,330-->
+Scala offers a {@{concise `for` syntax}@} that is essentially {@{syntactic sugar for calls to `foreach`}@}. {@{A Java‑style loop with an index variable}@} can be written as <!--SR:!2026-11-27,255,330!2027-01-03,280,330!fsrs,2029-10-12T00:00:00.000Z,1068,1068.495917,1,2,9,0,0,2026-11-09T00:00:00.000Z-->
 
 > [!example] __Scala for‑loop with range__
 >

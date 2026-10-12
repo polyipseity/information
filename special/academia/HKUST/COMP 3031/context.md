@@ -101,7 +101,7 @@ To {@{reduce boilerplate}@} {@{the `ord` argument}@} can be declared {@{_implici
 >
 > Now {@{callers}@} need not {@{supply it explicitly \(though it could if it chooses to\)}@}; {@{the compiler}@} searches for {@{an implicit `Ordering[T]` in scope}@} and {@{supplies it automatically}@}. <!--SR:!2026-12-30,326,349!2027-01-25,346,349!2026-12-15,313,349!2027-03-03,380,368!2027-03-02,379,368!2027-03-09,385,368!2027-03-19,392,368!2027-03-14,388,368-->
 
-Now {@{callers}@} need not {@{supply it explicitly \(though it could if it chooses to\)}@}; {@{the compiler}@} searches for {@{an implicit `Ordering[T]` in scope}@} and {@{supplies it automatically}@}. {@{Calling it}@} becomes {@{simpler}@}: <!--SR:!fsrs,2029-09-19T00:00:00.000Z,1088,1087.80493378,1,2,9,0,0,2026-09-27T00:00:00.000Z!fsrs,2029-10-03T00:00:00.000Z,1099,1099.36699517,1,2,9,0,0,2026-09-30T00:00:00.000Z!2027-01-30,351,349!2026-11-09,283,349!2026-12-20,318,349!2027-01-31,352,349!2026-11-21,292,349-->
+Now {@{callers}@} need not {@{supply it explicitly \(though it could if it chooses to\)}@}; {@{the compiler}@} searches for {@{an implicit `Ordering[T]` in scope}@} and {@{supplies it automatically}@}. {@{Calling it}@} becomes {@{simpler}@}: <!--SR:!fsrs,2029-09-19T00:00:00.000Z,1088,1087.80493378,1,2,9,0,0,2026-09-27T00:00:00.000Z!fsrs,2029-10-03T00:00:00.000Z,1099,1099.36699517,1,2,9,0,0,2026-09-30T00:00:00.000Z!2027-01-30,351,349!fsrs,2030-06-14T00:00:00.000Z,1313,1312.68438221,1,2,9,0,0,2026-11-09T00:00:00.000Z!2026-12-20,318,349!2027-01-31,352,349!2026-11-21,292,349-->
 
 > [!example] __using parameterized sort with implicit ordering__
 >
@@ -325,7 +325,7 @@ When {@{a method}@} requires {@{an instance that depends on another instance}@},
 >
 > {@{The compiler}@} first finds {@{`Ordering[List[Int]]`}@}, then finds {@{`Ordering[Int]`}@}, and finally {@{builds them in reverse order}@} and {@{supplies it to `sort`}@}. <!--SR:!2027-02-28,377,367!2027-03-18,391,367!2027-03-01,379,367!2027-03-04,381,367!2026-12-25,322,349!2027-01-27,348,349!2027-01-01,328,349!2026-11-18,292,349!2027-03-06,382,368-->
 
-For {@{another example}@} of {@{recursive `given` resolution}@}, {@{pairs}@} can be {@{ordered lexicographically}@} if {@{both components are orderable}@}: <!--SR:!2026-12-20,318,349!2026-11-09,283,349!fsrs,2029-10-17T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-10-02T00:00:00.000Z!2027-01-19,340,349!2026-11-27,297,349-->
+For {@{another example}@} of {@{recursive `given` resolution}@}, {@{pairs}@} can be {@{ordered lexicographically}@} if {@{both components are orderable}@}: <!--SR:!2026-12-20,318,349!fsrs,2030-06-14T00:00:00.000Z,1313,1312.68438221,1,2,9,0,0,2026-11-09T00:00:00.000Z!fsrs,2029-10-17T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-10-02T00:00:00.000Z!2027-01-19,340,349!2026-11-27,297,349-->
 
 > [!example] __`pairOrdering`__
 >

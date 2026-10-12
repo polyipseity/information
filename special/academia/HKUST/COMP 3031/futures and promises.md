@@ -26,7 +26,7 @@ When a function has to wait {@{for an I/O operation or a remote service}@}, {@{b
 
 ### continuation-passing style
 
-A common early pattern is {@{_continuation-passing style_ (CPS), or more commonly known as _callback style_}@}. Instead of {@{returning a value}@}, a function takes {@{an extra argument – the continuation that consumes the result once it becomes available}@}. This transforms {@{the call chain into nested callbacks}@}: <!--SR:!2026-11-09,240,330!2026-11-22,251,330!fsrs,2029-10-03T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-11-07T00:00:00.000Z!2026-12-11,259,330-->
+A common early pattern is {@{_continuation-passing style_ (CPS), or more commonly known as _callback style_}@}. Instead of {@{returning a value}@}, a function takes {@{an extra argument – the continuation that consumes the result once it becomes available}@}. This transforms {@{the call chain into nested callbacks}@}: <!--SR:!fsrs,2029-10-12T00:00:00.000Z,1068,1068.495917,1,2,9,0,0,2026-11-09T00:00:00.000Z!2026-11-22,251,330!fsrs,2029-10-03T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-11-07T00:00:00.000Z!2026-12-11,259,330-->
 
 > [!example] __callback nesting__
 >
@@ -143,7 +143,7 @@ Using {@{a `Future`}@} also gives {@{built‑in failure handling via `Try[T]`}@}
 >
 > The result can be {@{manipulated with `fact.map(_ + 1)`}@} or {@{awaited with `Await.result(fact, 5.seconds)`}@}. <!--SR:!2026-11-25,253,330!2027-01-19,290,330!2027-01-17,288,330!2027-01-02,276,330!2026-11-13,243,330-->
 
-{@{The type signature of a non-concurrent pure function}@} is {@{`A => B`}@}. Returning {@{a future `Future[B]` instead of a plain value `B`}@} lifts the call into {@{asynchronous style}@}. <!--SR:!2026-11-14,244,330!2026-11-09,240,330!2026-12-14,261,330!fsrs,2029-08-19T00:00:00.000Z,1026,1025.83973773,1,2,9,0,0,2026-10-28T00:00:00.000Z-->
+{@{The type signature of a non-concurrent pure function}@} is {@{`A => B`}@}. Returning {@{a future `Future[B]` instead of a plain value `B`}@} lifts the call into {@{asynchronous style}@}. <!--SR:!2026-11-14,244,330!fsrs,2029-10-12T00:00:00.000Z,1068,1068.495917,1,2,9,0,0,2026-11-09T00:00:00.000Z!2026-12-14,261,330!fsrs,2029-08-19T00:00:00.000Z,1026,1025.83973773,1,2,9,0,0,2026-10-28T00:00:00.000Z-->
 
 ## promise
 

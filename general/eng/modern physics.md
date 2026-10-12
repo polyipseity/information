@@ -43,7 +43,7 @@ tags:
 
 ## hallmark experiments
 
-- Main articles: ::@:: [History of quantum mechanics](history%20of%20quantum%20mechanics.md), [History of relativity](history%20of%20relativity.md), and [List of experiments in physics](list%20of%20experiments%20in%20physics.md) <!--SR:!fsrs,2026-11-30T00:00:00.000Z,80,79.91182582,1,2,2,0,0,2026-09-11T00:00:00.000Z!fsrs,2026-11-09T00:00:00.000Z,59,59.03640801,4.01060897,2,3,0,0,2026-09-11T00:00:00.000Z-->
+- Main articles: ::@:: [History of quantum mechanics](history%20of%20quantum%20mechanics.md), [History of relativity](history%20of%20relativity.md), and [List of experiments in physics](list%20of%20experiments%20in%20physics.md) <!--SR:!fsrs,2026-11-30T00:00:00.000Z,80,79.91182582,1,2,2,0,0,2026-09-11T00:00:00.000Z!fsrs,2027-08-06T00:00:00.000Z,270,270.00243597,1.99446196,2,4,0,0,2026-11-09T00:00:00.000Z-->
 - Further information: ::@:: [Tests of special relativity](tests%20of%20special%20relativity.md) and [Tests of general relativity](tests%20of%20general%20relativity.md) <!--SR:!fsrs,2027-06-27T00:00:00.000Z,238,238.35114238,1.99446196,2,3,0,0,2026-11-01T00:00:00.000Z!fsrs,2027-06-27T00:00:00.000Z,238,238.35114238,1.99446196,2,3,0,0,2026-11-01T00:00:00.000Z-->
 
 These are generally considered to be {@{experiments regarded leading}@} to {@{the foundation of modern physics}@}: (annotation: There are {@{many experiments}@}...) <!--SR:!fsrs,2027-06-27T00:00:00.000Z,238,238.35114238,1.99446196,2,3,0,0,2026-11-01T00:00:00.000Z!fsrs,2027-06-27T00:00:00.000Z,238,238.35114238,1.99446196,2,3,0,0,2026-11-01T00:00:00.000Z!fsrs,2027-01-31T00:00:00.000Z,142,142.42562933,1,2,2,0,0,2026-09-11T00:00:00.000Z-->

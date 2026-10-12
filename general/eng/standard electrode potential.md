@@ -232,7 +232,7 @@ return (
 - S<sub>2</sub>O<sub>3</sub><sup>2-</sup>(aq) + 6H<sup>+</sup>(aq) + 4e<sup>-</sup> ⇌ 2S(s) + 3H<sub>2</sub>O(l):@:0.6 <!--SR:!fsrs,2026-11-15T00:00:00.000Z,139,138.83309773,9.98522837,2,8,0,0,2026-06-29T00:00:00.000Z-->
 - Fe<sup>3+</sup>(aq) + e<sup>-</sup> ⇌ Fe<sup>2+</sup>(aq):@:0.77 <!--SR:!2029-10-26,1302,190-->
 - Ag<sup>+</sup>(aq) + e<sup>-</sup> ⇌ Ag(s):@:0.7996 <!--SR:!2028-03-09,847,190-->
-- NO<sub>3</sub><sup>-</sup>(aq) + 2H<sup>+</sup>(aq) + e<sup>-</sup> ⇌ NO<sub>2</sub>(g) + H<sub>2</sub>O(l):@:0.8 <!--SR:!2026-11-09,843,230-->
+- NO<sub>3</sub><sup>-</sup>(aq) + 2H<sup>+</sup>(aq) + e<sup>-</sup> ⇌ NO<sub>2</sub>(g) + H<sub>2</sub>O(l):@:0.8 <!--SR:!fsrs,2032-10-07T00:00:00.000Z,2159,2159.31433911,4.98215312,2,11,0,0,2026-11-09T00:00:00.000Z-->
 - NO<sub>3</sub><sup>-</sup>(aq) + 4H<sup>+</sup>(aq) + 3e<sup>-</sup> ⇌ NO(g) + 2H<sub>2</sub>O(l):@:0.958 <!--SR:!2026-11-24,263,170-->
 - Br<sub>2</sub>(aq) + 2e<sup>-</sup> ⇌ 2Br<sup>-</sup>(aq):@:1.0873 <!--SR:!2028-02-07,822,190-->
 - 2IO<sub>3</sub><sup>-</sup>(aq) + 12H<sup>+</sup>(aq) + 10e<sup>-</sup> ⇌ I<sub>2</sub>(s) + 6H<sub>2</sub>O(l):@:1.2 <!--SR:!fsrs,2028-01-25T00:00:00.000Z,468,468.06733818,8.48672837,2,9,0,0,2026-10-14T00:00:00.000Z-->

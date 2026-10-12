@@ -22,7 +22,7 @@ __Stereoisomers__ have {@{the same [bonding](chemical%20bond.md) of [atoms](atom
 
 ### _cis_–_trans_ isomers
 
-_Cis_–_trans_ isomers have {@{different [polarities](chemical%20polarity.md), which affects [boiling points](boiling%20point.md) more, and different packing efficiencies, which affects [melting points](melting%20point.md) more}@}. <!--SR:!2026-11-09,752,250-->
+_Cis_–_trans_ isomers have {@{different [polarities](chemical%20polarity.md), which affects [boiling points](boiling%20point.md) more, and different packing efficiencies, which affects [melting points](melting%20point.md) more}@}. <!--SR:!fsrs,2032-09-16T00:00:00.000Z,2138,2137.88886696,3.98153807,2,11,0,0,2026-11-09T00:00:00.000Z-->
 
 ### enantiomers
 

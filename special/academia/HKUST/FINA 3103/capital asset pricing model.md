@@ -66,7 +66,7 @@ Using the S&P 500 as the market, let $\mu _{\text{SP} }=5\%$ and $r_{f}=1\%$. 
 
 The term $\mu_M-r_f$ is the _market risk premium_, the reward for bearing systematic risk; the factor $\beta_{i,M}$ measures how much of that risk an asset carries. Different assets may have identical volatility but distinct betas if their covariances with the market differ.
 
-- A beta larger than one ::@:: means the asset amplifies market swings. <!--SR:!2027-01-03,276,330!2026-11-09,240,330-->
+- A beta larger than one ::@:: means the asset amplifies market swings. <!--SR:!2027-01-03,276,330!fsrs,2029-10-12T00:00:00.000Z,1068,1068.495917,1,2,9,0,0,2026-11-09T00:00:00.000Z-->
 - A beta equal to one ::@:: coincides with the market portfolio itself; its expected excess return equals the market premium. <!--SR:!2027-01-25,294,330!2027-01-25,294,330-->
 - A zero beta ::@:: implies no correlation with the market, so its expected excess return is zero—its risk can be diversified away. <!--SR:!2027-01-03,276,330!2027-01-25,294,330-->
 - A negative beta ::@:: indicates that the asset moves opposite to the market; it earns a negative risk premium and would be priced below the risk‑free rate. <!--SR:!2027-01-02,275,330!2027-01-25,294,330-->

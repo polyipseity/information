@@ -92,7 +92,7 @@ The content is in teaching order.
 - topic: course introduction
 - ELEC 1100
     - ELEC 1100 / course overview
-        - ELEC 1100 / course overview / description ::@:: Designed to provide fundamental knowledge in electrical engineering, basic electronic components and robot design <!--SR:!2026-11-09,177,310!2027-01-26,255,330-->
+        - ELEC 1100 / course overview / description ::@:: Designed to provide fundamental knowledge in electrical engineering, basic electronic components and robot design <!--SR:!fsrs,2028-12-12T00:00:00.000Z,764,763.71011863,1,2,8,0,0,2026-11-09T00:00:00.000Z!2027-01-26,255,330-->
         - ELEC 1100 / course overview / outcomes ::@:: Analyze and design simple analog circuits; implement control strategies; build/debug systems using hierarchical design; manage projects; execute full project lifecycle <!--SR:!2027-01-11,242,330!2027-01-14,245,330-->
     - ELEC 1100 / pedagogy
         - ELEC 1100 / pedagogy / methodology ::@:: Reverse engineering approach: start with engineering, then physics, then mathematics; emphasizes learning by doing <!--SR:!2027-01-21,251,330!2027-01-06,238,330-->
