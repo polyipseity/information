@@ -30,7 +30,7 @@ __Why it needs its own step:__ the `header_style` lint rule starts at heading le
 - Keep the casing of proper nouns, eponyms, acronyms, and product names: `Boolean algebra`, `Kirchhoff's circuit laws`, `Lisp`, `Scala 3`, `H-bridge`.
 - Hyphenation follows Wikipedia: `pulse-width modulation`.
 - When Wikipedia has no article for the concept, invent a sentence-case descriptive title and record it as an alias.
-- Aliases: the canonical title first, then synonyms and abbreviations.
+- Aliases: the canonical title, synonyms, and abbreviations all belong in the list, and the whole list stays in plain sorted order. The `aliases_sorted` lint compares it against Python's `sorted()`, so the canonical title gets no special position.
 - The path-derived flashcard tag mirrors the filename: spaces and quote characters become `_`, and every other character stays literal, parentheses included. `cache (computing).md` in `COMP 3511` needs the tag `flashcard/active/special/academia/HKUST/COMP_3511/cache_(computing)`; never normalize or strip the parentheses.
 
 | Correct | Wrong |
@@ -56,13 +56,13 @@ uv run python .agents/skills/academic-crud-topic-note/find_wikipedia.py --limit 
 
 ### Mapping output to frontmatter
 
-The canonical title is the primary alias, followed by synonyms and abbreviations:
+The aliases carry the canonical title along with synonyms and abbreviations, and the whole list is in plain sorted order:
 
 ```yaml
 aliases:
-  - Fourier transform
-  - Fourier analysis
   - DFT
+  - Fourier analysis
+  - Fourier transform
 ```
 
 Aliases exist for search, not for linking. Notes link to each other by relative path, so a duplicate alias across notes is normal and never a defect.
