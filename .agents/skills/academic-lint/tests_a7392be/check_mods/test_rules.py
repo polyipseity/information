@@ -25,6 +25,7 @@ from main_mods.rules import (
     cloze_no_hint_words,
     cloze_no_nested,
     cloze_open_close_matching,
+    cloze_opens_with_linking_verb,
     cloze_single_line,
     cloze_solution_outside_question,
     cloze_wrong_closing_token,
@@ -2669,12 +2670,27 @@ def test_cloze_no_hint_words_rule():
     )
     assert not cloze_no_hint_words(good)
 
+    # Paired clozes carry their hint in the sibling cloze — no warning
+    good = make_ctx(
+        "---\ntags: [flashcard/active/special/academia/test]\n---\n"
+        "{@{RBS}@} {@{fires ions at a sample}@}\n"
+    )
+    assert not cloze_no_hint_words(good)
+
+    # A lone equation-only cloze with no visible text stays acceptable
+    good = make_ctx(
+        "---\ntags: [flashcard/active/special/academia/test]\n---\n"
+        "> {@{$\\hat\\theta$}@}.\n"
+    )
+    assert not cloze_no_hint_words(good)
+
     # No flashcard tag — rule should not fire
     no_tag = make_ctx("---\ntags: []\n---\nText {@{cloze}@} here.\n")
     assert not cloze_no_hint_words(no_tag)
 
-    # Regression: an indented blockquote solution line full of equation-only
-    # clozes used to be read with whole-line offsets and warned four times.
+    # Regression: an indented blockquote solution line carrying four
+    # equation-only clozes must stay silent — the clozes pair up, and the
+    # whole-line offsets once shifted the reported line.
     indented = (
         "---\ntags: [flashcard/active/special/academia/test]\n---\n"
         "> - explanation: (b) {@{$\\operatorname{E}[X_i] = 5(0.2) = 1$}@} and "
@@ -2853,6 +2869,47 @@ def test_cloze_article_before_rule():
     # No flashcard tag — rule should not fire
     no_tag = make_ctx("---\ntags: []\n---\nThe {@{device}@} is active.\n")
     assert not cloze_article_before(no_tag)
+
+
+def test_cloze_opens_with_linking_verb_rule():
+    """A cloze body opening with a linking/auxiliary verb should be warned."""
+
+    front = "---\ntags: [flashcard/active/special/academia/test]\n---\n"
+
+    # The verb hides the payload while the frame should stay visible — warning
+    bad = make_ctx(front + "The value {@{is 5\\ \\text{V}$}@} at that node.\n")
+    msgs = cloze_opens_with_linking_verb(bad)
+    assert len(msgs) == 1
+    assert msgs[0].rule_id == "cloze_opens_with_linking_verb"
+    assert "cloze opens with linking/auxiliary verb 'is'" in msgs[0].msg
+
+    # Leading word matches case-insensitively
+    bad = make_ctx(front + "Recall {@{Is $\\lambda = h/p$}@} holds here.\n")
+    msgs = cloze_opens_with_linking_verb(bad)
+    assert msgs and "verb 'Is'" in msgs[0].msg
+
+    # A body that is only the verb still opens with it — warning
+    bad = make_ctx(front + "The answer is {@{is}@}.\n")
+    assert len(cloze_opens_with_linking_verb(bad)) == 1
+
+    # The desired shape: the verb stays outside the cloze — no warning
+    good = make_ctx(front + "The value is {@{5\\ \\text{V}$}@} at that node.\n")
+    assert not cloze_opens_with_linking_verb(good)
+
+    # A longer word that merely starts with the verb is its own payload
+    good = make_ctx(front + "Consider {@{isoelectronic structure}@} here.\n")
+    assert not cloze_opens_with_linking_verb(good)
+
+    # A copula mid-cloze is payload, not an opening
+    good = make_ctx(
+        front
+        + "Graph c gives {@{two $y$ values to one $x$, so it is not single-valued}@}.\n"
+    )
+    assert not cloze_opens_with_linking_verb(good)
+
+    # No flashcard tag — rule should not fire
+    no_tag = make_ctx("---\ntags: []\n---\nThe value {@{is 5 V}@} here.\n")
+    assert not cloze_opens_with_linking_verb(no_tag)
 
 
 def test_no_smart_double_quotes_rule():

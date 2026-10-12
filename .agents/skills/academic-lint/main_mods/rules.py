@@ -4510,158 +4510,51 @@ def cloze_excessive_coverage(ctx: ValidationContext) -> list[ValidationMessage]:
     return errors
 
 
-def _inline_math_mask(line: str) -> list[bool]:
-    """Mark each index of *line* as lying inside inline math.
-
-    Inline math is delimited by a pair of unescaped dollar signs, so an index
-    counts as math when it falls between the opening and closing sign. A
-    dollar preceded by a backslash is escaped and never opens or closes.
-    """
-    mask = [False] * len(line)
-    open_at: int | None = None
-    for i, ch in enumerate(line):
-        if ch != "$" or (i > 0 and line[i - 1] == "\\"):
-            continue
-        if open_at is None:
-            open_at = i
-        else:
-            for j in range(open_at + 1, i):
-                mask[j] = True
-            open_at = None
-    return mask
-
-
-def _clause_delimiters(line: str) -> list[int]:
-    """Return the indices in *line* at which a new clause begins.
-
-    A semicolon, exclamation mark or question mark always ends a clause. A
-    period ends one only when it is neither part of a decimal literal, which
-    means it is not flanked by digits, nor inside inline math. Without those
-    two exceptions a variance written as ``5(0.2)(0.8)`` would be cut in half
-    and every offset after the cut would land in the wrong place.
-    """
-    math_mask = _inline_math_mask(line)
-    delimiters: list[int] = []
-    for i, ch in enumerate(line):
-        if ch in ";!?":
-            delimiters.append(i)
-        elif ch == ".":
-            flanked_by_digits = (
-                i > 0
-                and i + 1 < len(line)
-                and line[i - 1].isdigit()
-                and line[i + 1].isdigit()
-            )
-            if math_mask[i] or flanked_by_digits:
-                continue
-            delimiters.append(i)
-    return delimiters
-
-
 @RULE_REGISTRY.register()
 def cloze_no_hint_words(ctx: ValidationContext) -> list[ValidationMessage]:
-    """Warn when a cloze flashcard clause has no hint words visible.
+    """Warn when a line carries a lone cloze with no visible hint words.
 
-    A clause ends at a delimiter from :func:`_clause_delimiters` (commas do
-    NOT split). For each clause containing at least one cloze, strip the cloze
-    delimiters to get visible text.  A "hint word" is 1+ alphabetic characters
-    in visible text outside cloze bodies.  If no hint word is found, emit
-    a warning.  Skip clozes that contain only LaTeX math (equation-only
-    clozes are acceptable).
+    A hint is any alphabetic character outside cloze bodies on the same
+    line; list markers, quote markers, whitespace, and punctuation are not
+    text. A line whose clozes pair up (``{@{RBS}@} {@{fires ions at a
+    sample}@}``) shows its hint in the sibling cloze, so only a line with
+    exactly one cloze can lack one. Clozes holding only LaTeX math remain
+    acceptable recall targets.
     """
     errors: list[ValidationMessage] = []
     if not has_flash_tag(ctx.front):
         return errors
 
-    # Split text into lines and process each line. The loop tracks each
-    # line's absolute offset so a message can be located in the whole text:
-    # clause offsets are line-relative, so passing one straight to locate()
-    # would report the line the offset happens to land in, not this line.
+    # The loop tracks each line's absolute offset so a message can be
+    # located in the whole text: span offsets are line-relative, so passing
+    # one straight to locate() would report the line the offset happens to
+    # land in, not this line.
     line_start = 0
     for line_idx, line in enumerate(ctx.text.splitlines(), start=1):
-        # Find all cloze spans in this line
         _, spans, _, _, _ = _scan_cloze_tokens(line)
         line_start_next = line_start + len(line) + 1
-        if not spans:
-            line_start = line_start_next
-            continue
-
-        # Split line into clauses by sentence delimiters (not commas)
-        # We need to track positions relative to the original line
-        clauses: list[tuple[str, int, int]] = []  # (clause_text, start, end)
-        clause_start = 0
-        for i in _clause_delimiters(line):
-            clauses.append((line[clause_start : i + 1], clause_start, i + 1))
-            clause_start = i + 1
-        # Add the last clause if any
-        if clause_start < len(line):
-            clause = line[clause_start:]
-            clauses.append((clause, clause_start, len(line)))
-
-        # Check each clause for cloze flashcards
-        for clause_text, clause_start_off, clause_end_off in clauses:
-            # Find cloze spans within this clause
-            clause_spans = []
-            for span_start, span_end in spans:
-                # Check if cloze overlaps with this clause
-                if span_start < clause_end_off and span_end > clause_start_off:
-                    # Adjust spans to clause-relative positions
-                    rel_start = max(0, span_start - clause_start_off)
-                    rel_end = min(len(clause_text), span_end - clause_start_off)
-                    clause_spans.append((rel_start, rel_end))
-
-            if not clause_spans:
-                continue
-
-            # Build visible text: text outside cloze bodies
-            visible_parts: list[str] = []
-            pos = 0
-            for span_start, span_end in clause_spans:
-                # Add text before this cloze
-                visible_parts.append(clause_text[pos:span_start])
-                pos = span_end
-            # Add text after last cloze
-            visible_parts.append(clause_text[pos:])
-            visible_text = "".join(visible_parts)
-
-            # Strip cloze delimiters from visible text (they were already excluded)
-            # Now check if there's a hint word (1+ alphabetic characters)
+        if len(spans) == 1:
+            span_start, span_end = spans[0]
+            visible_text = line[:span_start] + line[span_end:]
             has_hint_word = bool(re.search(r"[a-zA-Z]", visible_text))
-
-            if not has_hint_word:
-                # Check if all clozes in this clause are equation-only (contain LaTeX math)
-                all_equation_only = True
-                for span_start, span_end in clause_spans:
-                    # Extract cloze body (between {@{ and }@}). The offsets in
-                    # clause_spans are clause-relative, so the slice must come
-                    # from clause_text too; slicing the whole line with them
-                    # reads whatever sits at that column, which on an indented
-                    # solution line is a fragment of the preceding word.
-                    cloze_body = clause_text[span_start + 3 : span_end]
-                    # Check if cloze body contains only LaTeX math
-                    # Strip whitespace and check if it's all math delimiters/content
-                    stripped = cloze_body.strip()
-                    if stripped and not re.match(
-                        r"^\$.*\$$|^\$\$.*\$\$$", stripped, re.DOTALL
-                    ):
-                        all_equation_only = False
-                        break
-
-                if not all_equation_only:
-                    # Report error at the first cloze in this clause
-                    first_span = clause_spans[0]
-                    abs_pos = line_start + clause_start_off + first_span[0]
-                    _line, col_no = locate(ctx.text, abs_pos)
-                    errors.append(
-                        ValidationMessage(
-                            rule_id="cloze_no_hint_words",
-                            msg="cloze flashcard clause has no visible hint words",
-                            severity=Severity.WARNING,
-                            line=line_idx,
-                            col=col_no,
-                        )
+            # An empty or LaTeX-only body carries no prose a reader could
+            # be quizzed on instead, so it is not a hint-word deficit.
+            cloze_body = line[span_start + 3 : span_end].strip()
+            equation_only = not cloze_body or bool(
+                re.match(r"^\$.*\$$|^\$\$.*\$\$$", cloze_body, re.DOTALL)
+            )
+            if not has_hint_word and not equation_only:
+                abs_pos = line_start + span_start
+                _line, col_no = locate(ctx.text, abs_pos)
+                errors.append(
+                    ValidationMessage(
+                        rule_id="cloze_no_hint_words",
+                        msg="cloze flashcard clause has no visible hint words",
+                        severity=Severity.WARNING,
+                        line=line_idx,
+                        col=col_no,
                     )
-
+                )
         line_start = line_start_next
 
     return errors
@@ -4762,63 +4655,68 @@ def cloze_article_before(ctx: ValidationContext) -> list[ValidationMessage]:
 
 
 @RULE_REGISTRY.register()
-def cloze_trailing_verb(ctx: ValidationContext) -> list[ValidationMessage]:
-    """Warn when a copula or auxiliary verb sits immediately before a cloze.
+def cloze_opens_with_linking_verb(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Warn when a cloze body opens with a linking or auxiliary verb.
 
-    Verbs like ``is``, ``are``, ``was``, ``were``, ``be``, ``been``, ``being``,
-    ``has``, ``have``, ``had`` before a cloze opening usually signal that the
-    verb itself should be inside the cloze for better recall.  ``is {@{5V}@}``
-    is less useful than ``{@{is 5V}@}``.
+    A cloze hides the payload while the frame stays visible, so
+    ``is {@{5V}@}`` is the correct shape and ``{@{is 5V}@}`` hides the
+    frame instead. Only a leading word from the linking/auxiliary set
+    counts, followed by whitespace or alone; a longer word that merely
+    starts with one (``isoelectronic``) is a payload of its own, and a
+    body opening with math or other prose is left alone.
     """
     errors: list[ValidationMessage] = []
     if not has_flash_tag(ctx.front):
         return errors
 
-    copula_verbs = {
-        "is",
-        "are",
-        "was",
-        "were",
-        "be",
-        "been",
-        "being",
-        "has",
-        "have",
-        "had",
-    }
-    text = ctx.text
+    linking_verbs = frozenset(
+        {
+            "is",
+            "are",
+            "was",
+            "were",
+            "am",
+            "be",
+            "been",
+            "being",
+            "has",
+            "have",
+            "had",
+        }
+    )
 
-    for m in re.finditer(r"\{@\{", text):
-        open_idx = m.start()
-        # find the word immediately before the opening delimiter
-        j = open_idx - 1
-        # skip whitespace between word and {@{
-        while j >= 0 and text[j].isspace():
-            j -= 1
-        if j < 0:
-            continue
-        # find start of the preceding word
-        word_end = j + 1
-        while j >= 0 and not text[j].isspace():
-            j -= 1
-        word_start = j + 1
-        preceding_word = text[word_start:word_end]
-        # normalize: lowercase and strip trailing punctuation
-        normalized = preceding_word.casefold().rstrip(".,;:!?")
-        if normalized in copula_verbs:
-            line_no, col_no, col_end = locate_range(
-                text, word_start, word_end - word_start
-            )
+    # A cloze body runs from '{@{' to the next '}@}' on the same line; an
+    # unclosed opening is malformed and belongs to another rule.
+    offset = 0
+    for line in ctx.text.splitlines():
+        for m in re.finditer(r"\{@\{(.*?)\}@}", line):
+            body = m.group(1)
+            word_match = re.match(r"([A-Za-z]+)", body)
+            if word_match is None:
+                continue
+            word = word_match.group(1)
+            if word.casefold() not in linking_verbs:
+                continue
+            rest = body[word_match.end() :]
+            if rest and not rest[0].isspace():
+                continue
+            word_start = offset + m.start(1)
+            line_no, col_no, col_end = locate_range(ctx.text, word_start, len(word))
             errors.append(
                 ValidationMessage(
-                    rule_id="cloze_trailing_verb",
-                    msg=f"copula/auxiliary verb '{preceding_word}' immediately before cloze; consider moving it inside",
+                    rule_id="cloze_opens_with_linking_verb",
+                    msg=(
+                        f"cloze opens with linking/auxiliary verb '{word}'; the frame "
+                        "stays visible and the cloze opens on the payload — "
+                        f"write '{word} {{@{{…}}@}}'"
+                    ),
                     line=line_no,
                     col=col_no,
                     col_end=col_end,
                     severity=Severity.WARNING,
                 )
             )
+        offset += len(line) + 1
 
     return errors
 
