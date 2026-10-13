@@ -12,19 +12,18 @@ tags:
 
 # random sample
 
-A _random sample_ is a collection of independent and identically distributed copies of a random variable $X$, and $X_1, \ldots, X_n$ has this structure unless stated otherwise. Independence and identical distribution are two conditions rather than one, and a collection can satisfy either of them without the other.
+A _random sample_ is a collection of independent and identically distributed copies of a random variable $X$. Independence and identical distribution are two conditions rather than one, and a collection can satisfy either of them without the other.
 
 ---
 
 Flashcards for this section are as follows:
 
-- definition: for copies $X_1, \ldots, X_n$ of the random variable $X$ ::@:: A collection of independent and identically distributed copies of $X$. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
-- requirement on the copies $X_1, \ldots, X_n$ ::@:: Independent and identically distributed, abbreviated i.i.d., unless otherwise stated. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
-- which value of $X_i$ is meant by $x_i$ ::@:: The actual value taken by the $i$-th copy $X_i$ of $X$. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
+- what makes the copies $X_1, \ldots, X_n$ of a random variable $X$ a random sample ::@:: They are independent of one another and identically distributed with the law of $X$, which is assumed unless stated otherwise.
+- which value of $X_i$ is meant by $x_i$ ::@:: The actual value taken by the $i$-th copy $X_i$ of $X$.
 
 ## the i.i.d. assumption
 
-Independence says no copy of $X$ carries information about any other. Probabilities for the sample then multiply, and $\operatorname{Var}(X_1 + \cdots + X_n) = \operatorname{Var}(X_1) + \cdots + \operatorname{Var}(X_n)$. A copy whose law changes once the earlier draws are known is carrying information about them.
+Independence says no copy of $X$ carries information about any other. Probabilities for the sample then multiply, and $\operatorname{Var}(X_1 + \cdots + X_n) = \operatorname{Var}(X_1) + \cdots + \operatorname{Var}(X_n)$.
 
 Identical distribution says every copy follows the same law as $X$. One parameter $\theta$ then describes all $n$ copies at once, and the sample is $n$ repetitions of one problem rather than $n$ separate problems with a parameter apiece.
 
@@ -34,10 +33,11 @@ Failing both at once is the easy one to recognize. Failing exactly one is the ha
 
 Flashcards for this section are as follows:
 
-- why independence is assumed: for $X_1, \ldots, X_n$ ::@:: No copy carries information about any other, so probabilities for the sample multiply and $\operatorname{Var}(X_1 + \cdots + X_n) = \operatorname{Var}(X_1) + \cdots + \operatorname{Var}(X_n)$. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
-- why identical distribution is assumed: for $X_1, \ldots, X_n$ ::@:: Every copy follows the same distribution as $X$, so one parameter $\theta$ describes the whole sample. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
+- what independence means for the copies $X_1, \ldots, X_n$ ::@:: No copy carries information about any other.
+- for copies $X_1, \ldots, X_n$ that are independent and identically distributed, with $\operatorname{Var}(X_i) = \sigma^2$ finite for every $i$: what does $\operatorname{Var}(X_1 + \cdots + X_n)$ equal ::@:: $\operatorname{Var}(X_1) + \cdots + \operatorname{Var}(X_n)$. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
+- what identical distribution gives when the copies $X_1, \ldots, X_n$ come from one population with the unknown parameter $\theta$ ::@:: One parameter $\theta$ describes all $n$ copies at once, instead of one unknown per copy. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - abbreviation for independent and identically distributed copies of $X$ ::@:: i.i.d. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
-- independence and identical distribution: one requirement or two ::@:: Two, and a collection can satisfy either without the other, as the urn draws and the unequal-variance pair show. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
+- must the copies $X_1, \ldots, X_n$ satisfy both independence and identical distribution, or does one condition on its own suffice ::@:: Both are required, and either can hold alone: $n$ draws without replacement from an urn keep identical marginals without independence, and independent copies with $\operatorname{Var}(X_1) = 1$ and $\operatorname{Var}(X_2) = 4$ have independence without a common law. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 
 <!-- check: ignore-next-line[section_example_heading]: a matched pair of cases for the definition, kept together so the counterexample sits beside the definition it violates -->
 ### examples and counterexamples
@@ -80,14 +80,15 @@ Without independence the joint law is not a product at all, and the calculation 
 
 Flashcards for this section are as follows:
 
-- joint pdf of a random sample: $f(x_1, \ldots, x_n \mid \theta)$ for independent copies ::@:: $\prod_{i=1}^{n} f_X(x_i \mid \theta)$. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
-- joint pmf of a random sample: for independent copies, $i = 1, \ldots, n$ ::@:: $\prod_{i=1}^{n} p_X(x_i \mid \theta)$. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
-- how many parameters a random sample carries: $\theta$ in the joint factorization ::@:: One, shared by every copy. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
-- independent copies that are not identically distributed: is the joint density still a product over $i = 1, \ldots, n$? ::@:: Yes, but of $n$ different factors, one per copy, instead of $n$ copies of a single $f_X$. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
-- dependent copies: is the joint density a product? ::@:: No, the split into one factor per copy is what independence gives, and a joint density that fails to split shows the copies are not independent. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
-- product density of a random sample: definitional or something to prove? ::@:: Definitional in both directions, since a product density is independence read the other way round. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
-- for components of a jointly normal vector, does a zero cross-covariance imply independence? ::@:: Yes, and it is the one direction that is not definitional: the zero block splits the covariance matrix, the density factorizes, and a factorized density is independence. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
-- outside the normal family, does a zero covariance imply independence? ::@:: No, a zero covariance and a dependence can sit together. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
+- joint pdf of $X_1, \ldots, X_n$ i.i.d. with pdf $f_X(\cdot \mid \theta)$ from a population with unknown parameter $\theta$ ::@:: $f(x_1, \ldots, x_n \mid \theta) = \prod_{i=1}^{n} f_X(x_i \mid \theta)$.
+- joint pmf of $X_1, \ldots, X_n$ i.i.d. with pmf $p_X(\cdot \mid \theta)$ from a population with unknown parameter $\theta$ ::@:: $p(x_1, \ldots, x_n \mid \theta) = \prod_{i=1}^{n} p_X(x_i \mid \theta)$.
+- number of unknown parameters in the joint density $f(x_1, \ldots, x_n \mid \theta) = \prod_{i=1}^{n} f_X(x_i \mid \theta)$ of a random sample ::@:: One, $\theta$, carried by every factor and so by every copy.
+- independent copies with different laws $f_{X_i}$: does the joint density factorize over $i = 1, \ldots, n$ ::@:: Yes, as a product of $n$ different factors $f_{X_i}$, one per copy, rather than $n$ copies of a single $f_X$.
+- dependent continuous copies: can the joint density be written as $\prod_{i=1}^{n} f_{X_i}$ ::@:: No. A joint density factors into one term per copy exactly when the copies are independent, so a density that fails to factorize shows dependence.
+- for a random sample, is the product form of the joint density a definition or a theorem to prove ::@:: A definition, in both directions: independent copies give a product density, and a joint density that factors into one term per copy gives independent copies.
+- for components of a jointly normal vector, does a zero cross-covariance imply independence ::@:: Yes, zero covariance and independence coincide within the normal family.
+- for components of a jointly normal vector whose covariance matrix has a zero cross-covariance block, why does the joint density factorize ::@:: The zero block splits the covariance matrix into blocks, and a block-diagonal covariance matrix gives a density that is the product of the marginals.
+- for two random variables that are not jointly normal, does a zero covariance imply independence ::@:: No, a zero covariance and a dependence can sit together.
 
 <!-- check: ignore-next-line[section_example_heading]: a matched pair of cases for the definition, kept together so the counterexample sits beside the definition it violates -->
 ### examples and counterexamples for the product form

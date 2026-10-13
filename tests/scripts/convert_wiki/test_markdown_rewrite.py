@@ -188,6 +188,97 @@ class TestRewriteMarkdownLinks:
         )
         assert rewritten == "See [physics](Modern%20physics.md) for details."
 
+    def test_fragment_only_target_left_alone(self) -> None:
+        """A target with no page part has no stem to rewrite."""
+        text = "See [third law](#third%20law.md) for details."
+        rewritten = _rewrite_markdown_links(
+            text,
+            {"modern physics": "Modern physics"},
+        )
+        assert rewritten == text
+
+    def test_fragment_only_target_rewritten_via_names_map(self) -> None:
+        """A same-page fragment is re-cased through the name map."""
+        text = "see [details](#Features%20section) for details."
+        rewritten = _rewrite_markdown_links(
+            text,
+            {},
+            names_map={"Features section": "features section"},
+        )
+        assert rewritten == "see [details](#features%20section) for details."
+
+    def test_fragment_only_target_leaves_display_text_alone(self) -> None:
+        """The escaped # in the link text is display text and survives."""
+        text = "see [\\#Features section](#Features%20section) for details."
+        rewritten = _rewrite_markdown_links(
+            text,
+            {},
+            names_map={"Features section": "features section"},
+        )
+        assert (
+            rewritten == "see [\\#Features section](#features%20section) for details."
+        )
+
+    def test_fragment_only_target_no_match_unchanged(self) -> None:
+        """A fragment the name map does not know survives untouched."""
+        text = "See [Section](#Section%20Name) for details."
+        rewritten = _rewrite_markdown_links(
+            text,
+            {},
+            names_map={"unrelated": "entry"},
+        )
+        assert rewritten == text
+
+    def test_footnote_anchor_unchanged(self) -> None:
+        """Reference anchors like #^ref-13 flow through and survive."""
+        text = "A claim[\\[1\\]](#^ref-13) stays."
+        rewritten = _rewrite_markdown_links(
+            text,
+            {},
+            names_map={"unrelated": "entry"},
+        )
+        assert rewritten == text
+
+    def test_rewrite_link_target_fragment_only(self) -> None:
+        """Direct call: a fragment-only target re-cases through the map."""
+        result = _rewrite_link_target(
+            "#Third%20law",
+            {},
+            names_map={"Third law": "third law"},
+        )
+        assert result == "#third%20law"
+
+    def test_md_infix_target_not_rewritable(self) -> None:
+        """A destination merely containing '.md' names no page and is skipped.
+
+        The loose ``'.md' in url`` filter used to admit names like
+        ``notes.md.txt``, and the stem decoder raised on them.
+        """
+        text = "See [notes](notes.md.txt)."
+        rewritten = _rewrite_markdown_links(
+            text,
+            {"notes.md.txt": "Notes.md.txt"},
+        )
+        assert rewritten == text
+
+    def test_bare_hash_target_preserved(self) -> None:
+        """An empty fragment anchor survives as written."""
+        text = "See [top](#)."
+        rewritten = _rewrite_markdown_links(
+            text,
+            {},
+            names_map={"unrelated": "entry"},
+        )
+        assert rewritten == text
+
+    def test_md_suffix_after_fragment_is_moved_back(self) -> None:
+        """The older ``Page#anchor.md`` shape is read as a page link."""
+        text = "See [inverse](proportionality%20(mathematics)#inverse%20proportionality.md)."
+        rewritten = _rewrite_markdown_links(text, {"modern physics": "Modern physics"})
+        assert rewritten == (
+            "See [inverse](proportionality%20(mathematics).md#inverse%20proportionality)."
+        )
+
     def test_rewrite_preserves_fragment(self) -> None:
         """Fragments should survive link rewrites."""
         text = "See [physics](modern%20physics.md#section)."
@@ -399,6 +490,18 @@ class TestRewriteMarkdownHeadings:
         assert _rewrite_markdown_headings(text, _EFFECTIVE) == text
         rewritten = _rewrite_markdown_headings(text, _EFFECTIVE, _MIGRATIONS)
         assert rewritten == "## Modern physics\n"
+
+    def test_proper_noun_heading_is_not_lowercased(self) -> None:
+        """A heading the map does not hold keeps its case."""
+        text = "### Hubble's law and the expansion of the universe\n"
+        assert _rewrite_markdown_headings(text, _EFFECTIVE, _MIGRATIONS) == text
+
+    def test_proper_noun_in_a_mapped_heading_is_adopted(self) -> None:
+        """A heading the map holds is still re-cased."""
+        text = "## hubble law\n"
+        assert _rewrite_markdown_headings(text, {"hubble law": "Hubble law"}) == (
+            "## Hubble law\n"
+        )
 
     def test_preserves_frontmatter_including_comments(self) -> None:
         """YAML frontmatter (even ``# comment`` lines) must stay untouched."""

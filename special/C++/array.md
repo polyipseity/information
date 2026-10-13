@@ -21,7 +21,7 @@ int a[2][3]{ {0, 1, 2}, {3, 4, 5} };
 
 ## arrays of unknown bound
 
-A multidimensional array can {@{have an unknown bound only in the first dimension}@}. <!--SR:!2028-01-11,1170,330-->
+A multidimensional array can have {@{an unknown bound only in the first dimension}@}. <!--SR:!2028-01-11,1170,330-->
 
 ```Cpp
 int valid[][10];

@@ -1,12 +1,14 @@
 """Tests for validator module behaviour related to registries."""
 
 import sys
+from collections.abc import Sequence
 from os import PathLike
 
 import main
 import pytest
 from anyio import Path
 from main_mods import validator
+from main_mods.models import ValidationMessage
 from main_mods.registry import RuleRegistry
 from main_mods.rules import RULE_REGISTRY as RULES_REGISTRY
 from main_mods.validator import RULE_REGISTRY as VALIDATOR_REGISTRY
@@ -322,3 +324,292 @@ async def test_suppression_on_heading_with_other_errors(tmp_path: PathLike[str])
     assert any(m.rule_id == "suppression-on-heading" for m in msgs), msgs
     # other rules still fire (unit_outside_math never fires here, so suppression is redundant)
     assert any(m.rule_id == "suppression-redundant" for m in msgs), msgs
+
+
+# suppression regions and code fences ------------------------------------------
+
+
+async def _write(tmp_path: PathLike[str], name: str, body: str) -> Path:
+    """Write *body* under the frontmatter the other suppression tests use."""
+    file = Path(tmp_path) / name
+    await file.write_text(
+        "---\naliases: [a]\n"
+        "tags: [language/in/English, flashcard/active/special/academia/test]\n---\n"
+        + body
+    )
+    return file
+
+
+def _rule_ids(msgs: Sequence[ValidationMessage]) -> set[str]:
+    """Return the rule IDs present in *msgs*."""
+    return {m.rule_id for m in msgs}
+
+
+@pytest.mark.anyio
+async def test_suppression_inside_code_block_is_reported_and_not_honoured(
+    tmp_path: PathLike[str],
+):
+    """A directive in a fence silences nothing, because nothing there is checked."""
+    file = await _write(
+        tmp_path,
+        "in_fence.md",
+        "```text\n"
+        "<!-- check: ignore-line[unit_outside_math]: pasted from a shell transcript -->\n"
+        "```\n"
+        "More $I=5$ A\n",
+    )
+
+    msgs = list(await check_markdown_file(file))
+    warned = [m for m in msgs if m.rule_id == "suppression-in-code-block"]
+    assert len(warned) == 1, [m.rule_id for m in msgs]
+    assert warned[0].severity.name == "WARNING"
+    # The rule it claimed to cover still fires, which is the whole point.
+    assert "unit_outside_math" in _rule_ids(msgs)
+
+
+@pytest.mark.anyio
+async def test_ignore_file_inside_code_block_is_not_honoured(
+    tmp_path: PathLike[str],
+):
+    """An ignore-file buried in a fence must not silence the rest of the file."""
+    file = await _write(
+        tmp_path,
+        "file_in_fence.md",
+        "```text\n"
+        "<!-- check: ignore-file[unit_outside_math]: pasted from a shell transcript -->\n"
+        "```\n"
+        "More $I=5$ A\n",
+    )
+
+    msgs = list(await check_markdown_file(file))
+    assert "suppression-in-code-block" in _rule_ids(msgs)
+    assert "unit_outside_math" in _rule_ids(msgs)
+
+
+@pytest.mark.anyio
+async def test_balanced_pair_suppresses_across_the_region(tmp_path: PathLike[str]):
+    """A matching begin and end silence the lines between them."""
+    file = await _write(
+        tmp_path,
+        "balanced.md",
+        "<!-- check: ignore-begin[unit_outside_math]: log pasted verbatim -->\n"
+        "More $I=5$ A\n"
+        "<!-- check: ignore-end[unit_outside_math]: end of log -->\n",
+    )
+
+    msgs = list(await check_markdown_file(file))
+    assert "unit_outside_math" not in _rule_ids(msgs)
+    assert "suppression-pair-mismatch" not in _rule_ids(msgs)
+    assert "suppression-redundant" not in _rule_ids(msgs)
+
+
+@pytest.mark.anyio
+async def test_ignore_end_without_a_begin_is_reported(tmp_path: PathLike[str]):
+    """Closing a region that was never opened is a mismatch."""
+    file = await _write(
+        tmp_path,
+        "unmatched_close.md",
+        "<!-- check: ignore-end[unit_outside_math]: stray closer -->\n",
+    )
+
+    msgs = list(await check_markdown_file(file))
+    bad = [m for m in msgs if m.rule_id == "suppression-pair-mismatch"]
+    assert len(bad) == 1, [m.rule_id for m in msgs]
+    assert bad[0].line == 5
+
+
+@pytest.mark.anyio
+@pytest.mark.parametrize(
+    ("closer", "label"),
+    [
+        ("<!-- check: ignore-end[no_smart_single_quotes]: dropped one -->", "subset"),
+        (
+            "<!-- check: ignore-end[unit_outside_math, no_smart_single_quotes]: added one -->",
+            "superset",
+        ),
+    ],
+)
+async def test_ignore_end_must_name_the_opener_rules(
+    tmp_path: PathLike[str], closer: str, label: str
+):
+    """A closer naming a different set of rules is an error either way round.
+
+    Union and intersection are both refused. Each would silence a rule the
+    author never agreed to at that end, and neither would say so.
+    """
+    file = await _write(
+        tmp_path,
+        f"mismatch_{label}.md",
+        "<!-- check: ignore-begin[unit_outside_math]: log pasted verbatim -->\n"
+        "More $I=5$ A\n"
+        f"{closer}\n",
+    )
+
+    msgs = list(await check_markdown_file(file))
+    bad = [m for m in msgs if m.rule_id == "suppression-pair-mismatch"]
+    assert len(bad) == 1, [m.rule_id for m in msgs]
+    assert bad[0].line == 7
+    # Nothing is suppressed when the two ends disagree.
+    assert "unit_outside_math" in _rule_ids(msgs)
+
+
+@pytest.mark.anyio
+async def test_unclosed_begin_is_reported_on_the_opener_line(
+    tmp_path: PathLike[str],
+):
+    """An opener with no closer is reported where the author has to edit."""
+    file = await _write(
+        tmp_path,
+        "unclosed.md",
+        "<!-- check: ignore-begin[unit_outside_math]: log pasted verbatim -->\n"
+        "More $I=5$ A\n",
+    )
+
+    msgs = list(await check_markdown_file(file))
+    bad = [m for m in msgs if m.rule_id == "suppression-pair-mismatch"]
+    assert len(bad) == 1, [m.rule_id for m in msgs]
+    assert bad[0].line == 5
+    assert "never closed" in bad[0].msg
+
+
+@pytest.mark.anyio
+async def test_nested_begin_reports_nested_and_not_mismatch(
+    tmp_path: PathLike[str],
+):
+    """A second opener is a nesting error under its own rule ID.
+
+    It gets its own ID because the repair differs: amend a rule list, or
+    delete a directive.
+    """
+    file = await _write(
+        tmp_path,
+        "nested.md",
+        "<!-- check: ignore-begin[unit_outside_math]: log pasted verbatim -->\n"
+        "<!-- check: ignore-begin[unit_outside_math]: second attempt -->\n"
+        "More $I=5$ A\n"
+        "<!-- check: ignore-end[unit_outside_math]: end of log -->\n",
+    )
+
+    msgs = list(await check_markdown_file(file))
+    nested = [m for m in msgs if m.rule_id == "suppression-region-nested"]
+    assert len(nested) == 1, [m.rule_id for m in msgs]
+    assert nested[0].line == 6
+    assert "5" in nested[0].msg, "the message should name the line it collided with"
+    assert "suppression-pair-mismatch" not in _rule_ids(msgs)
+
+
+@pytest.mark.anyio
+async def test_nested_begin_leaves_the_outer_region_working(
+    tmp_path: PathLike[str],
+):
+    """The outer region survives a nested opener, so no pair error follows it.
+
+    Had the nested opener been registered, the outer region would have been
+    hidden and the closer would have had nothing to close, reporting one
+    mistake as two.
+    """
+    file = await _write(
+        tmp_path,
+        "nested_outer.md",
+        "<!-- check: ignore-begin[unit_outside_math]: log pasted verbatim -->\n"
+        "<!-- check: ignore-begin[unit_outside_math]: second attempt -->\n"
+        "More $I=5$ A\n"
+        "<!-- check: ignore-end[unit_outside_math]: end of log -->\n",
+    )
+
+    msgs = list(await check_markdown_file(file))
+    assert "suppression-region-nested" in _rule_ids(msgs)
+    assert "suppression-pair-mismatch" not in _rule_ids(msgs)
+    assert "unit_outside_math" not in _rule_ids(msgs)
+
+
+@pytest.mark.anyio
+async def test_region_silences_only_the_rules_its_opener_named(
+    tmp_path: PathLike[str],
+):
+    """A rule the opener never named is left alone inside the region."""
+    file = await _write(
+        tmp_path,
+        "wrong_rule.md",
+        "<!-- check: ignore-begin[unit_outside_math]: log pasted verbatim -->\n"
+        "It\u2019s a variable.\n"
+        "<!-- check: ignore-end[unit_outside_math]: end of log -->\n",
+    )
+
+    msgs = list(await check_markdown_file(file))
+    assert "no_smart_single_quotes" in _rule_ids(msgs)
+
+
+@pytest.mark.anyio
+async def test_a_region_does_not_spare_a_stale_single_line_of_the_same_rule(
+    tmp_path: PathLike[str],
+):
+    """A stale one-liner is judged even when a region elsewhere covers its rule.
+
+    Skipping by rule ID rather than by covered line would hide this one, and
+    the hidden case is exactly the one a region introduces.
+    """
+    file = await _write(
+        tmp_path,
+        "region_and_stale_line.md",
+        "<!-- check: ignore-line[no_smart_single_quotes]: stale, covers nothing -->\n"
+        "Nothing curly below this line.\n"
+        "\n"
+        "<!-- check: ignore-begin[no_smart_single_quotes]: covers the log below -->\n"
+        "It\u2019s a variable.\n"
+        "<!-- check: ignore-end[no_smart_single_quotes]: covers the log above -->\n",
+    )
+
+    msgs = list(await check_markdown_file(file))
+    redundant = [m for m in msgs if m.rule_id == "suppression-redundant"]
+    assert len(redundant) == 1, [(m.line, m.msg) for m in redundant]
+    # The report belongs to the stale one-liner, not to the working region.
+    assert redundant[0].msg.startswith("suppression for rule")
+    assert "region" not in redundant[0].msg
+
+
+@pytest.mark.anyio
+async def test_a_working_region_is_judged_once_across_its_span(
+    tmp_path: PathLike[str],
+):
+    """A region that silences something raises no redundancy report."""
+    file = await _write(
+        tmp_path,
+        "working_region.md",
+        "<!-- check: ignore-begin[no_smart_single_quotes]: covers the log below -->\n"
+        "It\u2019s a variable.\n"
+        "<!-- check: ignore-end[no_smart_single_quotes]: covers the log above -->\n",
+    )
+
+    msgs = list(await check_markdown_file(file))
+    assert "suppression-redundant" not in _rule_ids(msgs)
+
+
+@pytest.mark.anyio
+async def test_region_opener_may_sit_on_a_heading(tmp_path: PathLike[str]):
+    """A region covering a heading is what the pair is for, so no warning."""
+    file = await _write(
+        tmp_path,
+        "region_on_heading.md",
+        "<!-- check: ignore-begin[unit_outside_math]: heading and its table -->\n"
+        "## overview\n"
+        "<!-- check: ignore-end[unit_outside_math]: end of table -->\n",
+    )
+
+    msgs = list(await check_markdown_file(file))
+    assert "suppression-on-heading" not in _rule_ids(msgs)
+
+
+@pytest.mark.anyio
+async def test_region_requires_a_rationale(tmp_path: PathLike[str]):
+    """Both ends of a region are held to the same bar as a line directive."""
+    file = await _write(
+        tmp_path,
+        "region_no_reason.md",
+        "<!-- check: ignore-begin[unit_outside_math]: -->\n"
+        "More $I=5$ A\n"
+        "<!-- check: ignore-end[unit_outside_math]: -->\n",
+    )
+
+    msgs = list(await check_markdown_file(file))
+    assert sum(1 for m in msgs if m.rule_id == "suppression-missing-rationale") == 2

@@ -1,0 +1,102 @@
+---
+aliases:
+  - Bragg law
+  - Bragg's law
+tags:
+  - flashcard/active/special/academia/HKUST/PHYS_2022/Bragg_s_law
+  - language/in/English
+---
+
+# Bragg's law
+
+_Bragg's law_ gives the angles at which a wave of wavelength $\lambda$ scattered by a crystal returns with constructive interference: $$n\lambda = 2d \sin\theta,$$ with $d$ the spacing between adjacent parallel planes of atoms, $\theta$ the glancing angle between the beam and the plane, and $n$ a positive integer, the order of reflection. William Lawrence Bragg stated the law in a paper presented in 1912 and published in 1913, a year after Max von Laue's diffraction experiments, reading X-ray scattering as reflection from sets of lattice planes.
+
+---
+
+Flashcards for this section are as follows:
+
+- overview: what Bragg's law states for a wave of wavelength $\lambda$ on planes spaced $d$ at glancing angle $\theta$ ::@:: The wave reflects strongly only where $n\lambda = 2d \sin\theta$, with $n$ a positive integer.
+- the four quantities Bragg's law $n\lambda = 2d \sin\theta$ relates ::@:: The order $n$, the wavelength $\lambda$, the plane spacing $d$, and the glancing angle $\theta$.
+
+<!-- check: ignore-next-line[header_style]: proper noun (eponym) -->
+## Laue diffraction
+
+X-rays resisted diffraction: their wavelengths sit far below the spacing of any grating available. Wilhelm Wien and Arnold Sommerfeld estimated those wavelengths at between $10^{-10}$ and $10^{-11}\ \text{m}$, and a grating diffracts a wave strongly only when its spacing is comparable to the wavelength. Laue's 1912 proposal turned the obstacle into the tool: a crystal's atoms sit in a regular lattice about $10^{-10}\ \text{m}$ apart, so the crystal itself acts as a three-dimensional grating at exactly the right scale. X-rays passed through crystals produced diffraction patterns with maxima only along specific directions, and Laue's analysis of those patterns matched the measurements, establishing X-rays as electromagnetic waves of very short wavelength. Each spot around the central beam is the reflection of the beam from one particular set of lattice planes, so every dot in the pattern carries a different plane family.
+
+---
+
+Flashcards for this section are as follows:
+
+- why X-rays of wavelength $\lambda$ could not be diffracted as easily as visible light ::@:: A grating diffracts strongly only when its spacing approaches the wavelength, and the estimated X-ray wavelengths of $10^{-10}$ to $10^{-11}\ \text{m}$ are far below any grating made for visible light.
+- the X-ray wavelength range $\lambda$ that Wilhelm Wien and Arnold Sommerfeld estimated ::@:: Between $10^{-10}$ and $10^{-11}\ \text{m}$.
+- Laue's 1912 proposal for diffracting X-rays of wavelength $\lambda$ near $10^{-10}\ \text{m}$ ::@:: Use a crystal: its regularly spaced atoms, about $10^{-10}\ \text{m}$ apart, form a three-dimensional grating at the X-ray wavelength scale.
+- what Laue's X-ray diffraction patterns of 1912 proved about the wavelength $\lambda$ of X-rays ::@:: X-rays are electromagnetic waves of very short wavelength, near $10^{-10}\ \text{m}$, with maxima only along specific directions.
+- what each spot in a Laue diffraction pattern corresponds to ::@:: One set of lattice planes: each dot around the central beam is the reflection from a unique plane family, so the pattern lists the families the crystal presents.
+
+## reflection picture
+
+The waves themselves come from reradiation. The oscillating field of the incident wave polarizes each atom, pulling the positive nucleus and the negative electrons in opposite directions. The resulting oscillating dipole reradiates spherical waves at the incident frequency, and the beam that leaves the crystal is the sum of those waves from every atom.
+
+Bragg recast that sum as a reflection. Each set of parallel lattice planes acts like a mirror: the angle of incidence must equal the angle of reflection, both measured as glancing angles $\theta$ against the plane. The waves reflected from different planes must then arrive in step. The ray reflecting from the plane below the first travels an extra $d \sin\theta$ on its way in and an extra $d \sin\theta$ on its way out, so the path difference between adjacent planes is $2d \sin\theta$, and the reflections add only when that difference is a whole number of wavelengths. The equal-angle condition comes in as the law of reflection and is assumed rather than proved; the bright direction is a diffraction maximum of the reradiated waves, not a specular bounce off a surface. <p> ![Bragg reflection geometry: two horizontal rows of atoms spaced a distance d apart, an incoming ray striking an atom a on the upper row at glancing angle theta and reflecting at the same angle, a second ray striking atom b on the lower row directly below a, dashed perpendiculars marking the extra d sin theta on each side of b, and a brace under b labelling the total path difference 2d sin theta](attachments/bragg_reflection_geometry.svg)
+
+---
+
+Flashcards for this section are as follows:
+
+- the two conditions for a strong Bragg reflection from crystal planes spaced $d$ at glancing angle $\theta$ ::@:: The glancing angle of incidence equals the glancing angle of reflection, and the path difference between adjacent planes, $2d \sin\theta$, is a whole number of wavelengths.
+- the path difference between waves reflected from adjacent planes spaced $d$ apart at glancing angle $\theta$ ::@:: $2d \sin\theta$: an extra $d \sin\theta$ before reflection plus an extra $d \sin\theta$ after.
+- ![Bragg reflection geometry: two horizontal rows of atoms spaced a distance d apart, an incoming ray striking an atom a on the upper row at glancing angle theta and reflecting at the same angle, a second ray striking atom b on the lower row directly below a, dashed perpendiculars marking the extra d sin theta on each side of b, and a brace under b labelling the total path difference 2d sin theta](attachments/bragg_reflection_geometry.svg) Bragg reflection geometry, with plane spacing $d$ and glancing angle $\theta$: what does the drawing show? ::@:: The drawing shows two atom planes spaced $d$, a ray reflecting from atom a on the upper plane at glancing angle $\theta$, a second ray reflecting from atom b below it, and perpendiculars that mark the extra path $d \sin\theta$ on each side of b, summing to $2d \sin\theta$.
+- how is the reflection geometry behind Bragg's law, with plane spacing $d$ and glancing angle $\theta$, drawn? ::@:: Two atom rows spaced $d$; a ray meets the upper row at glancing angle $\theta$ and reflects at the same angle; a parallel ray meets the atom directly below; perpendiculars from the upper reflection point mark two extra segments of $d \sin\theta$ each, totalling $2d \sin\theta$. <p> ![Bragg reflection geometry: two horizontal rows of atoms spaced a distance d apart, an incoming ray striking an atom a on the upper row at glancing angle theta and reflecting at the same angle, a second ray striking atom b on the lower row directly below a, dashed perpendiculars marking the extra d sin theta on each side of b, and a brace under b labelling the total path difference 2d sin theta](attachments/bragg_reflection_geometry.svg)
+- what the incident wave does to each atom of a crystal plane, and what the outgoing beam is ::@:: Its oscillating field polarizes the atom into an oscillating dipole, which reradiates spherical waves at the incident frequency; the outgoing beam is the sum of those waves over the whole crystal.
+
+## powder diffraction
+
+A single crystal presents one orientation to the beam, so each set of planes meets its Bragg angle only when the crystal or the detector is turned. A powder of many small randomly oriented crystallites presents every orientation at once, and each family of planes finds its angle somewhere in the sample. A Bragg spectrometer uses this: rotating the sample and the detector, it records the intensity of the diffracted beam as a function of the scattering angle, and each plane family leaves a peak where $n\lambda = 2d \sin\theta$ is met. The peak positions give the $d$-spacings, hence the lattice parameters.
+
+In transmission the detector sits behind the sample, and the pattern changes shape. The detector is a flat plate, film or an imaging plate, set square to the beam a short distance downstream; the direct beam passes through the sample and strikes its centre, leaving an undeflected spot there. A plane family at its Bragg angle deflects rays symmetrically about the beam axis: crystallites rotated differently about that axis all satisfy the same condition, so the deflected rays spread into a cone rather than a single spot. The cone meets the flat plate in a circle centred on that spot, one ring for each family, and the ring's radius grows with the scattering angle $2\theta$. Measuring the radii then reads the $d$-spacings straight off the film. <p> ![Transmission Bragg geometry: on the left, a side view of the apparatus with the incident beam passing through a thin sample slab and a cone of diffracted rays spreading behind it onto a flat detector plate set square to the beam; on the right, the face of the plate showing the direct beam's spot at its centre and two concentric rings around it, one for each plane family](attachments/bragg_transmission_geometry.svg)
+
+The pattern of sodium chloride with Cu $K\alpha$ radiation of $\lambda = 1.54\ \text{Å}$ carries its strongest peak at $2\theta = 31.7^\circ$, the reflection indexed 200. With $\theta = 15.85^\circ$, Bragg's law gives $d_{200} = \lambda/(2\sin\theta) = 2.82\ \text{Å}$, and the cubic lattice parameter follows as $a = 2 d_{200} = 5.64\ \text{Å}$. The weaker peaks at $2\theta = 45.7^\circ$ (indexed 220), $56.5^\circ$ (222), and $66.3^\circ$ (400) come from the more tightly spaced planes of the same lattice. Sodium chloride is one case among many; the caesium chloride (CsCl) type structure is read from its powder pattern the same way.
+
+---
+
+Flashcards for this section are as follows:
+
+- why a powder sample shows every Bragg reflection without being rotated ::@:: Its many crystallites are randomly oriented, so every family of planes meets its Bragg angle somewhere in the sample.
+- what a Bragg spectrometer records, and what the peak positions give through $n\lambda = 2d \sin\theta$ ::@:: It records the diffracted intensity as a function of scattering angle; each peak's position gives a $d$-spacing, hence the lattice parameter.
+- why the transmission pattern of a powder shows one ring for each plane family ::@:: Crystallites rotated about the beam axis all meet the same Bragg condition, so the deflected rays spread into a cone around the axis, and that cone cuts the flat detector in a circle.
+- what a ring's radius on a transmission powder pattern corresponds to, in terms of the scattering angle $2\theta$ ::@:: A larger radius means a larger $2\theta$, and through $n\lambda = 2d\sin\theta$ a tighter $d$.
+- ![Transmission Bragg geometry: on the left, a side view of the apparatus with the incident beam passing through a thin sample slab and a cone of diffracted rays spreading behind it onto a flat detector plate set square to the beam; on the right, the face of the plate showing the direct beam's spot at its centre and two concentric rings around it, one for each plane family](attachments/bragg_transmission_geometry.svg) Transmission Bragg geometry: what does the drawing show, with ring radius growing with $2\theta$ ::@:: The left panel shows the beam passing through the sample and a diffracted cone landing on a flat plate square to the beam; the right panel shows that plate's face, the direct beam's spot at the centre with one ring per plane family around it.
+- where the direct beam lands on a transmission powder detector plate ::@:: The undeflected beam passes through the sample and strikes the plate's centre, leaving an undeflected spot there.
+
+<!-- check: ignore-next-line[header_style]: proper noun -->
+## Miller indices and d-spacings
+
+The peaks of a powder pattern carry labels, and the labels are plane families. In a cubic crystal the family $(hkl)$ is the set of parallel lattice planes that cut the three cell axes at $a/h$, $a/k$, and $a/l$, with $a$ the unit-cell edge length; these integers are the Miller indices, and they fix both the orientation of the family and the spacing between its planes. The intercepts carry the geometric meaning: the indices count the planes the family packs into one cell, so higher indices slice more planes into the same cell and pack them more tightly. The easy case is a family $(h00)$, whose planes sit exactly $a/h$ apart: $(200)$ is twice the planes of $(100)$ in the same cell, so it sits at half the spacing. The general spacing is $$d_{hkl} = \frac{a}{\sqrt{h^2 + k^2 + l^2}},$$ which returns $a/h$ for a family $(h00)$ when $k$ and $l$ vanish. A family with unit index on each axis, $(111)$, slices the cube diagonally from corner to corner, and its planes sit $a/\sqrt{3}$ apart, one third of the body diagonal $a\sqrt{3}$. So the $(200)$ family sits $a/2$ apart, $(220)$ sits $a/\sqrt{8}$ apart, and $(400)$ sits $a/4$ apart; the larger the indices, the tighter the planes, and at a fixed wavelength a tighter $d$ needs a larger $\sin\theta$. Reading a pattern runs the calculation backwards. A peak at a measured $2\theta$ gives its $d$ through Bragg's law, an assignment of $(hkl)$ then predicts $a = d_{hkl}\sqrt{h^2+k^2+l^2}$, and the assignment holds when every peak of the pattern returns the same $a$. The four NaCl peaks above are one such set: $d_{200} = a/2$, $d_{220} = a/\sqrt{8}$, $d_{222} = a/\sqrt{12}$, and $d_{400} = a/4$, all returning $a \approx 5.64\ \text{Å}$. Angles themselves belong to the measurement rather than to the family: change the wavelength and every peak moves to a new $2\theta$ solving $n\lambda = 2d\sin\theta$, while each family's $d$ stays put. Patterns are therefore indexed by $d$-spacings, and so by $(hkl)$, not by the angles at which one particular source happened to drop them. Which families appear at all depends on the arrangement of atoms inside the cell, not on the lattice alone.
+
+---
+
+Flashcards for this section are as follows:
+
+- what the Miller indices $(hkl)$ record about a plane family ::@:: They fix the orientation of the family relative to the cell axes: the family cuts the three cell axes at $a/h$, $a/k$, and $a/l$.
+- the cubic-crystal spacing $d_{hkl}$ of the plane family $(hkl)$ ::@:: $d_{hkl} = a/\sqrt{h^2 + k^2 + l^2}$, with $a$ the unit-cell edge length.
+- why reflections are indexed by $d$-spacings rather than by the angles at which they appear ::@:: The angle shifts with the wavelength through $n\lambda = 2d\sin\theta$, while the spacing $d$ belongs to the crystal, so the same $(hkl)$ returns the same $d$ at any $\lambda$.
+- what changes in a powder pattern when the X-ray wavelength $\lambda$ changes ::@:: Every peak moves in angle to the new $2\theta$ solving $n\lambda = 2d\sin\theta$, while each family's $d$ and $(hkl)$ stay fixed.
+- with larger Miller indices $(hkl)$, how the plane spacing and the reflection angle move together ::@:: Larger indices mean tighter spacing $d_{hkl} = a/\sqrt{h^2+k^2+l^2}$, and at fixed $\lambda$ a tighter $d$ needs a larger $\sin\theta$, so the peak sits at larger $2\theta$.
+- how a powder peak at a measured $2\theta$ is turned into a plane-family assignment $(hkl)$ ::@:: Bragg's law gives $d$; the assignment $(hkl)$ is checked through $a = d_{hkl}\sqrt{h^2+k^2+l^2}$, which must return the same $a$ for every peak of the pattern.
+- the four NaCl families $d_{200}$, $d_{220}$, $d_{222}$, and $d_{400}$ in terms of the lattice parameter $a$ ::@:: $d_{200} = a/2$, $d_{220} = a/\sqrt{8}$, $d_{222} = a/\sqrt{12}$, and $d_{400} = a/4$.
+- with Cu $K\alpha$ radiation of $\lambda = 1.54\ \text{Å}$, the NaCl powder peak at $2\theta = 31.7^\circ$ indexed 200 with $d_{200} = a/2$: the lattice parameter $a$ ::@:: $\theta = 15.85^\circ$ gives $d_{200} = \lambda/(2\sin\theta) = 2.82\ \text{Å}$, so $a = 2 d_{200} = 5.64\ \text{Å}$.
+- what doubling a cubic family's indices from $(hkl)$ to $(2h, 2k, 2l)$ does to its plane count and spacing ::@:: Twice as many planes pack into the same cell and the spacing halves, $d_{2h,2k,2l} = d_{hkl}/2$; $(200)$ is twice the planes of $(100)$ at half the spacing.
+- what the $(111)$ planes of a cubic cell look like relative to its axes ::@:: The family with unit index on each axis slices the cube diagonally from corner to corner.
+- the spacing of the $(111)$ planes of a cubic cell with edge $a$ ::@:: $d_{111} = a/\sqrt{3}$, one third of the body diagonal $a\sqrt{3}$.
+- how the $(h00)$ easy case, planes $a/h$ apart, builds the general spacing $d_{hkl} = a/\sqrt{h^2+k^2+l^2}$ ::@:: For $(h00)$ the planes sit $a/h$ apart, and $d_{hkl}$ returns that value when $k$ and $l$ vanish.
+
+<!-- check: ignore-next-line[header_style]: proper noun (acronym + eponym) -->
+## X-ray crystallography
+
+X-ray crystallography reads a crystal's atomic structure from the angles and the intensities of its diffracted beams; the technique itself is recorded in [X-ray crystallography](X-ray%20crystallography.md).
+
+---
+
+Flashcards for this section are as follows:
+
+- what X-ray crystallography does with Bragg's law $n\lambda = 2d\sin\theta$ ::@:: It reads plane spacings off the measured diffraction angles and builds the crystal's electron-density map from the beam's intensities.

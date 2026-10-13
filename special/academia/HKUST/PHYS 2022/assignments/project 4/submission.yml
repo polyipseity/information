@@ -1,0 +1,21 @@
+assignment:
+  comments: {}
+  content: No additional details were added for this assignment.
+  grade:
+    entered: ""
+    graded anonymously: null
+    possible: ""
+  id: 444809
+  properties:
+    due: 2026-09-25 23:59:00+08:00
+    points: 20
+    submitting:
+      - a text entry box or a file upload
+  submissions:
+    - datetime: ""
+      id: -1
+  title: 4 Quantum wave interference
+course:
+  id: 74008
+  name: PHYS2022 (L1)
+type: submission/Canvas/canvas.ust.hk

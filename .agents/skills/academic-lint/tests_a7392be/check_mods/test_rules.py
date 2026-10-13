@@ -12,6 +12,7 @@ from anyio import Path
 from main_mods.models import AstNode, Frontmatter, Severity, ValidationContext
 from main_mods.rules import (
     RULE_REGISTRY,
+    _mirror_base,
     agents_no_flashcard_markup,
     agents_title,
     aliases_sorted,
@@ -24,6 +25,7 @@ from main_mods.rules import (
     cloze_no_hint_words,
     cloze_no_nested,
     cloze_open_close_matching,
+    cloze_opens_with_linking_verb,
     cloze_single_line,
     cloze_solution_outside_question,
     cloze_wrong_closing_token,
@@ -36,7 +38,6 @@ from main_mods.rules import (
     header_flashcard_presence,
     header_flashcard_sections_duplicate,
     header_flashcard_separator,
-    header_flashcard_style_mixed,
     header_source_layout,
     header_style,
     html_br_mid_line,
@@ -58,9 +59,12 @@ from main_mods.rules import (
     latex_single_line,
     latex_spacing_after,
     latex_spacing_before,
+    line_leading_whitespace,
+    line_trailing_whitespace,
     link_anchor_slug,
     link_malformed,
     link_unencoded_space,
+    math_in_code_fence,
     md028_bad_format,
     md028_missing,
     metadata_aliases_present,
@@ -77,8 +81,12 @@ from main_mods.rules import (
     no_soft_wrap_paragraph,
     numeric_text_not_latex,
     one_sided_calc_warning,
+    qa_block_missing_solution,
+    qa_card_inside_question,
     qa_hierarchical_path,
+    qa_missing_separator,
     qa_nested_indentation,
+    qa_prompt_generic,
     section_example_heading,
     session_datetime_order,
     session_duplicate_heading,
@@ -791,6 +799,126 @@ async def test_index_children_order_rule_ignores_missing(tmp_path):
 
 
 @pytest.mark.anyio
+async def test_children_rules_resolve_mirror_tree(tmp_path: PathLike[str]):
+    """A children link resolves across the public/private mirror.
+
+    Links are written as if the target sat beside the linking file, so a
+    public index may link a file that lives only in the private mirror, and
+    a private index may link a file that lives only in the public tree. A
+    target missing from both trees still warns.
+    """
+    root = Path(tmp_path)
+
+    # public index → file that exists only at the private mirror
+    public_questions = root / "special/academia/HKUST/TEST/questions"
+    await public_questions.mkdir(parents=True)
+    public_index = Path(public_questions / "index.md")
+    private_questions = root / "private/special/academia/HKUST/TEST/questions"
+    await private_questions.mkdir(parents=True)
+    await (private_questions / "take-home set 1.md").touch()
+
+    txt = "# index\n\n## children\n- [take-home set 1](take-home%20set%201.md)\n"
+    ctx = make_ctx(txt, path=public_index)
+    assert not await index_children_missing(ctx)
+
+    # private index → file that exists only in the public tree
+    await (public_questions / "topic note.md").touch()
+    private_index = Path(private_questions / "index.md")
+    txt = "# index\n\n## children\n- [topic note](topic%20note.md)\n"
+    ctx = make_ctx(txt, path=private_index)
+    assert not await index_children_missing(ctx)
+
+    # missing from both trees still warns
+    txt = "# index\n\n## children\n- [gone](gone.md)\n"
+    ctx = make_ctx(txt, path=public_index)
+    msgs = await index_children_missing(ctx)
+    assert len(msgs) == 1
+    assert "gone.md" in msgs[0].msg
+    assert msgs[0].severity == Severity.WARNING
+
+
+@pytest.mark.anyio
+async def test_mirror_folder_rules_see_private_tree(tmp_path: PathLike[str]):
+    """Folder rules count a folder that exists only in the mirror.
+
+    A public index linking `attachments` that lives only in the private
+    mirror is ordered as a folder entry, and a mirrored `index.md` link
+    resolves instead of firing the folder-without-index warning.
+    """
+    root = Path(tmp_path)
+    public_course = root / "special/academia/HKUST/TEST"
+    await public_course.mkdir(parents=True)
+    public_index = Path(public_course / "index.md")
+    private_attachments = root / "private/special/academia/HKUST/TEST/attachments"
+    await private_attachments.mkdir(parents=True)
+    await (private_attachments / "prompt.pdf").touch()
+    await (public_course / "a.md").touch()
+
+    # a mirrored folder sorts as a folder entry: folders before files
+    txt = "# index\n\n## children\n- [attachments](attachments)\n- [a](a.md)\n"
+    ctx = make_ctx(txt, path=public_index)
+    assert not await index_children_order(ctx)
+    assert not await index_children_missing(ctx)
+
+    # reversed order trips the folder-before-file rule only when the
+    # mirror-aware folder check sees `attachments` as a folder
+    txt = "# index\n\n## children\n- [a](a.md)\n- [attachments](attachments)\n"
+    ctx = make_ctx(txt, path=public_index)
+    msgs = await index_children_order(ctx)
+    assert msgs and "folder entries" in msgs[0].msg
+
+    # a mirrored folder/index.md link resolves without the
+    # folder-without-index warning
+    private_questions = root / "private/special/academia/HKUST/TEST/questions"
+    await private_questions.mkdir(parents=True)
+    await (private_questions / "index.md").touch()
+    txt = "# index\n\n## children\n- [questions/](questions/index.md)\n"
+    ctx = make_ctx(txt, path=public_index)
+    assert not await index_children_missing_index(ctx)
+    assert not await index_children_missing(ctx)
+
+
+def test_tag_path_flash_private_file_uses_public_tag():
+    """A private page carries the tag its public twin would.
+
+    The tag path derives from the segment after `special/academia/`, so
+    `private/` never enters it.
+    """
+    txt = (
+        "---\naliases: [a]\n"
+        "tags: [flashcard/active/special/academia/HKUST/TEST/questions/take-home_set_1]\n"
+        "---\n"
+    )
+    private = Path(
+        "/repo/private/special/academia/HKUST/TEST/questions/take-home set 1.md"
+    )
+    ctx = make_ctx(txt, path=private)
+    assert not tag_path_flash(ctx)
+
+    # the same tag from the public twin also passes
+    public = Path("/repo/special/academia/HKUST/TEST/questions/take-home set 1.md")
+    assert not tag_path_flash(make_ctx(txt, path=public))
+
+
+def test_mirror_base_toggles_private_segment():
+    """The mirror of a base toggles the `private` segment before `special`."""
+    assert _mirror_base(Path("special/academia/HKUST/TEST")) == Path(
+        "private/special/academia/HKUST/TEST"
+    )
+    assert _mirror_base(Path("private/special/academia/HKUST/TEST")) == Path(
+        "special/academia/HKUST/TEST"
+    )
+    assert _mirror_base(Path("/repo/special/academia/HKUST/TEST")) == Path(
+        "/repo/private/special/academia/HKUST/TEST"
+    )
+    assert _mirror_base(Path("/repo/private/special/academia/HKUST/TEST")) == Path(
+        "/repo/special/academia/HKUST/TEST"
+    )
+    # no `special` segment means no mirror
+    assert _mirror_base(Path("/repo/elsewhere")) == Path("/repo/elsewhere")
+
+
+@pytest.mark.anyio
 async def test_index_children_missing_index(tmp_path):
     """Folders without index.md should be flagged by index_children_missing_index rule.
 
@@ -864,6 +992,134 @@ def test_header_flashcard_presence_applies_to_all_levels():
     txt3 = "# week 2 tutorial\n\n## official material\n\n> quoted question\n"
     ctx3 = make_ctx(txt3, path=Path("/tmp/course/questions/week 2 tutorial.md"))
     assert not header_flashcard_presence(ctx3)
+
+
+def test_header_flashcard_presence_ignores_child_heading_cards():
+    """A parent's own body is what counts, not its subsections' cards."""
+
+    txt = (
+        "# topic\n\n"
+        "## parent section\n\n"
+        "Some prose the author has not carded.\n\n"
+        "### child section\n\n"
+        "Child prose.\n\n"
+        "---\n\n"
+        "Flashcards for this section are as follows:\n\n"
+        "- card ::@:: answer\n"
+    )
+    ctx = make_ctx(txt, path=Path("/tmp/course/topic.md"))
+    msgs = header_flashcard_presence(ctx)
+    assert [m.msg for m in msgs if "'## parent section'" in m.msg]
+    assert not [m for m in msgs if "'### child section'" in m.msg]
+
+
+def test_header_flashcard_presence_exempts_blank_own_body():
+    """A grouping heading that owns no text asks for no cards."""
+
+    txt = (
+        "# topic\n\n"
+        "## group\n\n"
+        "### first child\n\n"
+        "Prose.\n\n"
+        "---\n\n"
+        "Flashcards for this section are as follows:\n\n"
+        "- card ::@:: answer\n\n"
+        "### second child\n\n"
+        "More prose.\n\n"
+        "---\n\n"
+        "Flashcards for this section are as follows:\n\n"
+        "- card ::@:: answer\n"
+    )
+    ctx = make_ctx(txt, path=Path("/tmp/course/topic.md"))
+    assert not header_flashcard_presence(ctx)
+
+
+def test_header_flashcard_presence_exempts_metadata_only_own_body():
+    """A title block of course metadata groups the sections beneath it."""
+
+    txt = (
+        "# tutorial\n\n"
+        "- HKUST MATH 3423 week 2 tutorial 1\n"
+        "- parent: [week 2 tutorial 1](index.md)\n\n"
+        "## statistical inference\n\n"
+        "Prose.\n\n"
+        "---\n\n"
+        "Flashcards for this section are as follows:\n\n"
+        "- card ::@:: answer\n"
+    )
+    ctx = make_ctx(
+        txt, path=Path("/tmp/course/tutorials/week 2 tutorial 1/tutorial.md")
+    )
+    assert not header_flashcard_presence(ctx)
+
+
+def test_header_flashcard_presence_exempts_lms_metadata_block():
+    """Recorded assignment bookkeeping is metadata too."""
+
+    txt = (
+        "# lab\n\n"
+        "- HKUST ELEC 1100 lab 1\n"
+        "- parent: [lab 1](index.md)\n\n"
+        "---\n\n"
+        "- title: Lab#01\n"
+        "- due: No Due Date\n"
+        "- points: 5\n\n"
+        "---\n\n"
+        "No additional details were added for this assignment.\n"
+    )
+    ctx = make_ctx(txt, path=Path("/tmp/course/labs/lab 1/lab.md"))
+    assert not header_flashcard_presence(ctx)
+
+
+def test_header_flashcard_presence_still_judges_metadata_plus_prose():
+    """One real sentence in the title block makes it teachable, so it is judged."""
+
+    txt = (
+        "# tutorial\n\n"
+        "- HKUST MATH 3423 week 2 tutorial 1\n"
+        "- parent: [week 2 tutorial 1](index.md)\n\n"
+        "Every voltage is a difference between two points.\n"
+    )
+    ctx = make_ctx(
+        txt, path=Path("/tmp/course/tutorials/week 2 tutorial 1/tutorial.md")
+    )
+    msgs = header_flashcard_presence(ctx)
+    assert [m.msg for m in msgs if "'# tutorial'" in m.msg]
+
+
+def test_header_flashcard_presence_does_not_exempt_level_one():
+    """A note title with its own prose is checked like any other heading."""
+
+    txt = (
+        "# topic\n\n"
+        "This note introduces the topic in two sentences.\n\n"
+        "## first section\n\n"
+        "Prose.\n\n"
+        "---\n\n"
+        "Flashcards for this section are as follows:\n\n"
+        "- card ::@:: answer\n"
+    )
+    ctx = make_ctx(txt, path=Path("/tmp/course/topic.md"))
+    msgs = header_flashcard_presence(ctx)
+    assert [m.msg for m in msgs if "'# topic'" in m.msg]
+    assert not [m for m in msgs if "'## first section'" in m.msg]
+
+
+def test_header_flashcard_separator_blames_the_heading_holding_the_cards():
+    """A missing separator is reported against the child, not the parent."""
+
+    txt = (
+        "## parent section\n\n"
+        "Parent prose.\n\n"
+        "### child section\n\n"
+        "Child prose.\n\n"
+        "Flashcards for this section are as follows:\n\n"
+        "- card ::@:: answer\n"
+    )
+    ctx = make_ctx(txt, path=Path("/tmp/course/topic.md"))
+    msgs = header_flashcard_separator(ctx)
+    assert [m.msg for m in msgs if "'### child section'" in m.msg]
+    assert not [m for m in msgs if "'## parent section'" in m.msg]
 
 
 def test_header_flashcard_rules_exempt_agents():
@@ -1634,6 +1890,68 @@ def test_qa_nested_indentation_two_spaces_per_level():
     assert msgs_jump and msgs_jump[0].rule_id == "qa_nested_indentation"
 
 
+def test_qa_prompt_generic_rejects_bare_labels():
+    """A prompt made only of section labels asks the reader nothing."""
+
+    path = Path("/tmp/course/topic.md")
+    for prompt in (
+        "- overview ::@:: Linear regression predicts a real-valued target.",
+        "- overview :@: Linear regression predicts a real-valued target.",
+        "- overview with formulas ::@:: Three viewpoints on classification.",
+        "- key points :@: The interval runs from the lower to the upper bound.",
+        "- Summary of the section ::@:: The unit is a dimensionless ratio.",
+    ):
+        ctx = make_ctx(f"# topic\n\n{prompt}\n", path)
+        msgs = qa_prompt_generic(ctx)
+        assert msgs, f"expected a message for {prompt!r}"
+        assert msgs[0].rule_id == "qa_prompt_generic"
+        assert msgs[0].severity == Severity.ERROR
+
+
+def test_qa_prompt_generic_allows_a_named_prompt():
+    """A prompt carrying one real content word is a prompt."""
+
+    path = Path("/tmp/course/topic.md")
+    for prompt in (
+        "- why the one-feature example is useful ::@:: It turns learning into calculus.",
+        "- how does a rectifier differ from a sigmoid? ::@:: The rectifier keeps "
+        "the positive side close to identity.",
+        "- AND ::@:: A logical conjunction, true when both inputs are true.",
+        "- `in` ::@:: A Python membership test.",
+        "- what is the role of the intercept? ::@:: It shifts the score by a constant.",
+    ):
+        ctx = make_ctx(f"# topic\n\n{prompt}\n", path)
+        assert not qa_prompt_generic(ctx), f"unexpected message for {prompt!r}"
+
+
+def test_qa_prompt_generic_skips_structural_prompts():
+    """Section-link cards and course-path glosses name a place, not a fact."""
+
+    path = Path("/tmp/course/topic.md")
+    for prompt in (
+        "- [§ overview](index.md#overview) ::@:: The course map for COMP 4211.",
+        "- COMP 4211 / overview ::@:: The note's course map.",
+        "- overview ::@:: one ::@:: two",
+    ):
+        ctx = make_ctx(f"# topic\n\n{prompt}\n", path)
+        assert not qa_prompt_generic(ctx), f"unexpected message for {prompt!r}"
+
+
+def test_qa_prompt_generic_exempt_files():
+    """Index, questions, AGENTS, and submission pages keep their own shape."""
+
+    line = "# topic\n\n- overview ::@:: Linear regression predicts a target.\n"
+    for path in (
+        Path("/tmp/course/index.md"),
+        Path("/tmp/course/AGENTS.md"),
+        Path("/tmp/course/questions/week 2 tutorial.md"),
+        Path("/tmp/course/labs/lab 1/lab.md"),
+        Path("/tmp/course/labs/lab 1/tutorial.md"),
+        Path("/tmp/course/labs/lab 1/lecture.md"),
+    ):
+        assert not qa_prompt_generic(make_ctx(line, path)), f"fired on {path}"
+
+
 def test_topic_note_redundant_filename_prefix():
     """Topic-note flashcards should not repeat the filename or title."""
 
@@ -2091,64 +2409,217 @@ def test_cloze_solution_outside_question_rule():
         assert not cloze_solution_outside_question(exempt)
 
 
-def test_header_flashcard_style_mixed_rule():
-    """One section must not mix prose cards with question blocks."""
+def test_qa_missing_separator_structure():
+    """Card blocks are found by structure, so a card whose prompt holds a path
+    still counts as the first card of its block."""
+    front = "---\ntags: [flashcard/active/special/academia/test]\n---\n"
 
+    # The separator phrase precedes the block; the first card embeds an SVG
+    # path, which the old line-matching rule could not see.
+    image_first = make_ctx(
+        f"{front}# tutorial\n\n## measuring voltage\n\nSome prose.\n\n"
+        "---\n\nFlashcards for this section are as follows:\n\n"
+        "- meter probes: red probe on $A$, black on $B$; what does it read? "
+        "<p> ![voltmeter box](../../attachments/symbol_voltmeter.svg) "
+        "::@:: $V_A - V_B$.\n"
+        "- reversed probes: the probes are exchanged; what is read? "
+        "::@:: $-V_A + V_B$.\n",
+        path=Path("/tmp/course/tutorial.md"),
+    )
+    assert not qa_missing_separator(image_first)
+
+    # A block with no separator phrase above it is the defect the rule owns.
+    missing = make_ctx(
+        f"{front}# tutorial\n\n## measuring voltage\n\n"
+        "- meter probes: red on $A$, black on $B$; what is read? ::@:: $V_A - V_B$.\n",
+        path=Path("/tmp/course/tutorial.md"),
+    )
+    msgs = qa_missing_separator(missing)
+    assert len(msgs) == 1 and msgs[0].rule_id == "qa_missing_separator"
+    # The reported position is the card's real line in the file, frontmatter
+    # included: line 8 here, not a line shifted by the frontmatter length.
+    assert (msgs[0].line, msgs[0].col) == (8, 1)
+
+    # A horizontal rule counts as a separator too.
+    rule_sep = make_ctx(
+        f"{front}# tutorial\n\n## measuring voltage\n\n---\n\n"
+        "- meter probes: red on $A$, black on $B$; what is read? ::@:: $V_A - V_B$.\n",
+        path=Path("/tmp/course/tutorial.md"),
+    )
+    assert not qa_missing_separator(rule_sep)
+
+    # One-sided cards are card lines as well.
+    one_sided_missing = make_ctx(
+        f"{front}# tutorial\n\n- a lone card :@: its answer\n",
+        path=Path("/tmp/course/tutorial.md"),
+    )
+    assert qa_missing_separator(one_sided_missing)
+    one_sided_ok = make_ctx(
+        f"{front}# tutorial\n\nFlashcards for this section are as follows:\n\n"
+        "- a lone card :@: its answer\n",
+        path=Path("/tmp/course/tutorial.md"),
+    )
+    assert not qa_missing_separator(one_sided_ok)
+
+    # Every block is judged, not only the first, and prose separates blocks.
+    two_blocks = make_ctx(
+        f"{front}# note\n\nFlashcards for this section are as follows:\n\n"
+        "- first card ::@:: answer\n"
+        "\nSome prose between the blocks.\n\n"
+        "- later card ::@:: answer\n",
+        path=Path("/tmp/course/note.md"),
+    )
+    later = qa_missing_separator(two_blocks)
+    assert len(later) == 1
+    assert (later[0].line, later[0].col) == (12, 1)
+
+    # A blank line inside a block does not end it, so the second card is not
+    # judged as a block of its own.
+    spaced = make_ctx(
+        f"{front}# note\n\nFlashcards for this section are as follows:\n\n"
+        "- first card ::@:: answer\n"
+        "\n"
+        "- second card ::@:: answer\n",
+        path=Path("/tmp/course/note.md"),
+    )
+    assert not qa_missing_separator(spaced)
+
+    # A nested card belongs to its parent item's list, so the rule stays off
+    # it: index.md pages hang cards under `- topic:` and `- [course](index.md)`.
+    nested = make_ctx(
+        f"{front}# index\n\n## week 1 lecture 1\n\n- datetime: 2025-09-01\n"
+        "- topic: course introduction\n"
+        "- [ELEC 2400](index.md)\n"
+        "    - ELEC 2400 / motivation ::@:: an overview of the field\n"
+        "    - ELEC 2400 / parts ::@:: point-to-point, broadcast\n",
+        path=Path("/tmp/course/index.md"),
+    )
+    assert not qa_missing_separator(nested)
+
+    # A nested card does not break its parent's block either.
+    nested_between = make_ctx(
+        f"{front}# note\n\nFlashcards for this section are as follows:\n\n"
+        "- first card ::@:: answer\n"
+        "    - a nested card ::@:: sub-answer\n"
+        "- second card ::@:: answer\n",
+        path=Path("/tmp/course/note.md"),
+    )
+    assert not qa_missing_separator(nested_between)
+
+    # An ordinary bullet is not a card line, and a list above a card block does
+    # not supply the separator. A marker inside an inline code span still marks
+    # a card, matching the containment semantics of qa_two_sided_card.
+    plain_bullet = make_ctx(
+        f"{front}# note\n\n- an ordinary bullet with no marker\n",
+        path=Path("/tmp/course/note.md"),
+    )
+    assert not qa_missing_separator(plain_bullet)
+    listed_above = make_ctx(
+        f"{front}# note\n\n- a bullet above\n\n- first card ::@:: answer\n",
+        path=Path("/tmp/course/note.md"),
+    )
+    assert qa_missing_separator(listed_above)
+    assert qa_missing_separator(
+        make_ctx(
+            f"{front}# note\n\n- a bullet quoting the marker `::@::` inline\n",
+            path=Path("/tmp/course/note.md"),
+        )
+    )
+
+
+def test_qa_card_inside_question_rule():
+    """A card marker on a line of a question block is a card inside the question."""
     question = (
         "> Which database indexes the psychology literature?\n"
         ">\n"
         "> - solution: {@{APA PsycInfo}@}\n"
     )
-    card = "- APA PsycInfo ::@:: The database that indexes the psychology literature.\n"
     front = "---\ntags: [flashcard/active/special/academia/test]\n---\n"
 
-    mixed = make_ctx(
-        f"{front}# lecture\n\n## exercise\n\n{question}\n{card}",
+    # A card written as an item of a question block.
+    inside = make_ctx(
+        f"{front}# lecture\n\n## exercise\n\n"
+        "> Which database indexes the psychology literature?\n"
+        ">\n"
+        "> - APA PsycInfo ::@:: The database that indexes the psychology "
+        "literature.\n"
+        ">\n"
+        "> - solution: {@{APA PsycInfo}@}\n",
         path=Path("/tmp/course/lecture.md"),
     )
-    msgs = header_flashcard_style_mixed(mixed)
-    assert msgs and msgs[0].rule_id == "header_flashcard_style_mixed"
+    msgs = qa_card_inside_question(inside)
+    assert msgs and msgs[0].rule_id == "qa_card_inside_question"
 
-    # A `Flashcards for this section are as follows:` block is prose too.
-    marked = make_ctx(
-        f"{front}# lecture\n\n## exercise\n\n{question}\n"
-        "---\n\nFlashcards for this section are as follows:\n\n"
-        "- APA PsycInfo ::@:: The database that indexes the psychology literature.\n",
+    one_sided = make_ctx(
+        f"{front}# lecture\n\n## exercise\n\n"
+        "> Which database indexes the psychology literature?\n"
+        ">\n"
+        "> - APA PsycInfo :@: The database.\n"
+        ">\n"
+        "> - solution: {@{APA PsycInfo}@}\n",
         path=Path("/tmp/course/lecture.md"),
     )
-    assert header_flashcard_style_mixed(marked)
+    assert qa_card_inside_question(one_sided)
 
-    # Question blocks alone are one style.
-    questions_only = make_ctx(
-        f"{front}# lecture\n\n## exercise\n\n{question}",
-        path=Path("/tmp/course/lecture.md"),
+    # A quoted card list answers no question, so the rule stays off it. Notes
+    # quote register tables and similar card lists inside a blockquote.
+    assert not qa_card_inside_question(
+        make_ctx(
+            f"{front}# lecture\n\n## registers\n\n"
+            "> __flashcards__\n"
+            ">\n"
+            "> - __`$zero`__ ::@:: `$0`: constant 0\n"
+            "> - __`$at`__ ::@:: `$1`: assembler temporary\n",
+            path=Path("/tmp/course/lecture.md"),
+        )
     )
-    assert not header_flashcard_style_mixed(questions_only)
 
-    # Prose cards alone are one style.
-    cards_only = make_ctx(
-        f"{front}# lecture\n\n## exercise\n\n{card}",
-        path=Path("/tmp/course/lecture.md"),
+    # A quoted passage with no solution line is likewise not a question.
+    assert not qa_card_inside_question(
+        make_ctx(
+            f"{front}# lecture\n\n## registers\n\n"
+            "> - stack pointer ::@:: `$sp`: stack pointer\n",
+            path=Path("/tmp/course/lecture.md"),
+        )
     )
-    assert not header_flashcard_style_mixed(cards_only)
 
-    # Separate sections may carry different styles.
-    split = make_ctx(
-        f"{front}# lecture\n\n## exercise\n\n{question}\n## summary\n\n{card}",
-        path=Path("/tmp/course/lecture.md"),
+    # A cloze solution line is what a question block wants.
+    assert not qa_card_inside_question(
+        make_ctx(
+            f"{front}# lecture\n\n## exercise\n\n{question}",
+            path=Path("/tmp/course/lecture.md"),
+        )
     )
-    assert not header_flashcard_style_mixed(split)
+
+    # The same card as ordinary prose, outside every blockquote.
+    assert not qa_card_inside_question(
+        make_ctx(
+            f"{front}# lecture\n\n## exercise\n\n"
+            "- APA PsycInfo ::@:: The database that indexes the literature.\n",
+            path=Path("/tmp/course/lecture.md"),
+        )
+    )
+
+    # Display math in a blockquote carries no marker.
+    assert not qa_card_inside_question(
+        make_ctx(
+            f"{front}# lecture\n\n## exercise\n\n> $$\\begin{{aligned}} x &= 1 "
+            "\\end{{aligned}}$$\n",
+            path=Path("/tmp/course/lecture.md"),
+        )
+    )
 
     # Index and question pages are exempt, like the other flashcard rules.
     for exempt_path in (
         Path("/tmp/course/index.md"),
         Path("/tmp/course/questions/2026-09-09.md"),
     ):
-        exempt = make_ctx(
-            f"{front}# page\n\n## exercise\n\n{question}\n{card}",
-            path=exempt_path,
+        assert not qa_card_inside_question(
+            make_ctx(
+                f"{front}# page\n\n## exercise\n\n> - APA PsycInfo ::@:: The database.\n",
+                path=exempt_path,
+            )
         )
-        assert not header_flashcard_style_mixed(exempt)
 
 
 def test_cloze_no_hint_words_rule():
@@ -2199,9 +2670,141 @@ def test_cloze_no_hint_words_rule():
     )
     assert not cloze_no_hint_words(good)
 
+    # Paired clozes carry their hint in the sibling cloze — no warning
+    good = make_ctx(
+        "---\ntags: [flashcard/active/special/academia/test]\n---\n"
+        "{@{RBS}@} {@{fires ions at a sample}@}\n"
+    )
+    assert not cloze_no_hint_words(good)
+
+    # A lone equation-only cloze with no visible text stays acceptable
+    good = make_ctx(
+        "---\ntags: [flashcard/active/special/academia/test]\n---\n"
+        "> {@{$\\hat\\theta$}@}.\n"
+    )
+    assert not cloze_no_hint_words(good)
+
     # No flashcard tag — rule should not fire
     no_tag = make_ctx("---\ntags: []\n---\nText {@{cloze}@} here.\n")
     assert not cloze_no_hint_words(no_tag)
+
+    # Regression: an indented blockquote solution line carrying four
+    # equation-only clozes must stay silent — the clozes pair up, and the
+    # whole-line offsets once shifted the reported line.
+    indented = (
+        "---\ntags: [flashcard/active/special/academia/test]\n---\n"
+        "> - explanation: (b) {@{$\\operatorname{E}[X_i] = 5(0.2) = 1$}@} and "
+        "{@{$\\operatorname{Var}(X_i) = 5(0.2)(0.8) = 0.8$}@}, so "
+        "{@{$\\operatorname{E}[\\bar X] = 1$}@} and "
+        "{@{$\\operatorname{Var}(\\bar X) = \\frac{0.8}{10} = 0.08$}@}.\n"
+    )
+    assert not cloze_no_hint_words(make_ctx(indented))
+
+    # A decimal inside math must not split the clause.
+    decimal = (
+        "---\ntags: [flashcard/active/special/academia/test]\n---\n"
+        "The variance is {@{$5(0.2)(0.8) = 0.8$}@}.\n"
+    )
+    assert not cloze_no_hint_words(make_ctx(decimal))
+
+    # The reported line is the cloze's real line, not a shifted one.
+    multiline = (
+        "---\ntags: [flashcard/active/special/academia/test]\n---\n"
+        "first line\nsecond line\nthird line\n"
+        "1. {@{the bridge resistor carries no current}@}.\n"
+    )
+    msgs = cloze_no_hint_words(make_ctx(multiline))
+    assert len(msgs) == 1
+    assert msgs[0].line == 7
+
+
+def test_qa_block_missing_solution_rule():
+    """A question block with no solution item should be warned, where the note uses that style."""
+    body = (
+        "---\ntags: [flashcard/active/special/academia/test]\n---\n"
+        "# tutorial\n\n"
+        "## random samples\n\n"
+        "> Let $X_1, X_2$ be a random sample.\n>\n"
+        "> - solution: They share one distribution.\n\n"
+        "> Why does the product of the marginals hold?\n"
+    )
+    msgs = qa_block_missing_solution(
+        make_ctx(body, path=Path("/tmp/c/tutorials/week 2 tutorial 1/tutorial.md"))
+    )
+    assert len(msgs) == 1
+    assert msgs[0].severity == Severity.WARNING
+    assert msgs[0].line == 12
+
+    # Silent when no block in the note carries a solution at all.
+    no_style = (
+        "---\ntags: [flashcard/active/special/academia/test]\n---\n"
+        "# lecture\n\n"
+        "> __Prompt.__ Use an example in daily life.\n"
+    )
+    assert not qa_block_missing_solution(
+        make_ctx(no_style, path=Path("/tmp/c/lectures/week 2 lecture 2/lecture.md"))
+    )
+
+    # Silent outside the submission filenames.
+    assert not qa_block_missing_solution(make_ctx(body, path=Path("/tmp/c/topic.md")))
+
+    # Silent without a flashcard tag.
+    assert not qa_block_missing_solution(
+        make_ctx(
+            "---\ntags: []\n---\n# tutorial\n\n> A question\n>\n> - solution: An answer\n",
+            path=Path("/tmp/c/tutorials/week 2 tutorial 1/tutorial.md"),
+        )
+    )
+
+    # A display-math blockquote is not a question.
+    display = (
+        "---\ntags: [flashcard/active/special/academia/test]\n---\n"
+        "# tutorial\n\n"
+        "> A question.\n>\n"
+        "> - solution: An answer.\n\n"
+        "> $$\\begin{aligned} x &= 1 \\end{aligned}$$\n"
+    )
+    assert not qa_block_missing_solution(
+        make_ctx(display, path=Path("/tmp/c/tutorials/week 2 tutorial 1/tutorial.md"))
+    )
+
+
+def test_math_in_code_fence_reports_every_offending_fence():
+    """One message per fence, not one per file."""
+    txt = (
+        "---\ntags: [flashcard/active/special/academia/test]\n---\n"
+        "# topic\n\n"
+        "```text\n$N=5$\n```\n\n"
+        "Prose.\n\n"
+        "```text\n$M=7$\n```\n\n"
+        "```text\nno math here\n```\n"
+    )
+    msgs = math_in_code_fence(make_ctx(txt))
+    assert len(msgs) == 2, [(m.line, m.msg) for m in msgs]
+    assert sorted(m.line for m in msgs) == [7, 13]
+
+
+def test_math_in_code_fence_separates_identical_fences():
+    """Two fences with the same body get a report each, at their own lines."""
+    txt = (
+        "---\ntags: [flashcard/active/special/academia/test]\n---\n"
+        "# topic\n\n"
+        "```text\n$N=5$\n```\n\n"
+        "Prose.\n\n"
+        "```text\n$N=5$\n```\n"
+    )
+    msgs = math_in_code_fence(make_ctx(txt))
+    assert sorted(m.line for m in msgs) == [7, 13]
+
+
+def test_math_in_code_fence_is_quiet_without_dollars():
+    """A fence with no dollar sign raises nothing."""
+    txt = (
+        "---\ntags: [flashcard/active/special/academia/test]\n---\n"
+        "# topic\n\n"
+        "```text\nprint('hi')\n```\n"
+    )
+    assert not math_in_code_fence(make_ctx(txt))
 
 
 def test_cloze_article_before_rule():
@@ -2266,6 +2869,47 @@ def test_cloze_article_before_rule():
     # No flashcard tag — rule should not fire
     no_tag = make_ctx("---\ntags: []\n---\nThe {@{device}@} is active.\n")
     assert not cloze_article_before(no_tag)
+
+
+def test_cloze_opens_with_linking_verb_rule():
+    """A cloze body opening with a linking/auxiliary verb should be warned."""
+
+    front = "---\ntags: [flashcard/active/special/academia/test]\n---\n"
+
+    # The verb hides the payload while the frame should stay visible — warning
+    bad = make_ctx(front + "The value {@{is 5\\ \\text{V}$}@} at that node.\n")
+    msgs = cloze_opens_with_linking_verb(bad)
+    assert len(msgs) == 1
+    assert msgs[0].rule_id == "cloze_opens_with_linking_verb"
+    assert "cloze opens with linking/auxiliary verb 'is'" in msgs[0].msg
+
+    # Leading word matches case-insensitively
+    bad = make_ctx(front + "Recall {@{Is $\\lambda = h/p$}@} holds here.\n")
+    msgs = cloze_opens_with_linking_verb(bad)
+    assert msgs and "verb 'Is'" in msgs[0].msg
+
+    # A body that is only the verb still opens with it — warning
+    bad = make_ctx(front + "The answer is {@{is}@}.\n")
+    assert len(cloze_opens_with_linking_verb(bad)) == 1
+
+    # The desired shape: the verb stays outside the cloze — no warning
+    good = make_ctx(front + "The value is {@{5\\ \\text{V}$}@} at that node.\n")
+    assert not cloze_opens_with_linking_verb(good)
+
+    # A longer word that merely starts with the verb is its own payload
+    good = make_ctx(front + "Consider {@{isoelectronic structure}@} here.\n")
+    assert not cloze_opens_with_linking_verb(good)
+
+    # A copula mid-cloze is payload, not an opening
+    good = make_ctx(
+        front
+        + "Graph c gives {@{two $y$ values to one $x$, so it is not single-valued}@}.\n"
+    )
+    assert not cloze_opens_with_linking_verb(good)
+
+    # No flashcard tag — rule should not fire
+    no_tag = make_ctx("---\ntags: []\n---\nThe value {@{is 5 V}@} here.\n")
+    assert not cloze_opens_with_linking_verb(no_tag)
 
 
 def test_no_smart_double_quotes_rule():
@@ -3378,24 +4022,27 @@ async def test_link_anchor_slug_mixed_case_matches_heading(tmp_path: PathLike[st
 # submission content file exclusions -------------------------------------------------
 
 
-def test_flashcard_rules_exempt_submission_content_files():
-    """lab.md, tutorial.md, and lecture.md should be exempt from flashcard-presence rules.
+def test_flashcard_rules_judge_submission_content_files():
+    """lab.md, tutorial.md, and lecture.md are judged, not skipped.
 
-    These are Canvas submission content pages (in-class component metadata),
-    not concept/topic notes. They typically have no flashcards.
+    These pages carry a course session's material, so a section with no cards
+    and no answered question block is a real gap rather than a deliberate
+    absence.
     """
     content = (
         "# lab\n\n"
         "- HKUST ELEC 1100 lab 2\n"
         "- parent: [lab 2](index.md)\n\n"
-        "---\n\n"
-        "No additional details were added for this assignment.\n"
+        "This lab measures the amplitude of a periodic signal and reads the "
+        "energy it carries.\n\n"
+        "## period\n\n"
+        "Prose.\n"
     )
 
     for name in ("lab.md", "tutorial.md", "lecture.md"):
         ctx = make_ctx(content, path=Path(f"/tmp/course/labs/lab 1/{name}"))
-        assert not header_flashcard_presence(ctx), (
-            f"header_flashcard_presence should not fire on {name}"
+        assert header_flashcard_presence(ctx), (
+            f"header_flashcard_presence should fire on {name}"
         )
         assert not header_flashcard_separator(ctx), (
             f"header_flashcard_separator should not fire on {name}"
@@ -3404,9 +4051,128 @@ def test_flashcard_rules_exempt_submission_content_files():
             f"header_flashcard_sections_duplicate should not fire on {name}"
         )
 
-    # topic_note_redundant_filename_prefix also exempts these files
+    # topic_note_redundant_filename_prefix still exempts these files
     ctx_lab = make_ctx(content, path=Path("/tmp/course/labs/lab 1/lab.md"))
     assert not topic_note_redundant_filename_prefix(ctx_lab)
+
+
+def test_header_flashcard_presence_exempts_metadata_title_of_submission_files():
+    """A submission title block of course metadata still asks for no cards.
+
+    ``test_flashcard_rules_judge_submission_content_files`` proves these three
+    files are judged. This proves the carve-out that keeps their metadata title
+    block out of it.
+    """
+
+    content = (
+        "# lab\n\n"
+        "- HKUST ELEC 1100 lab 2\n"
+        "- parent: [lab 2](index.md)\n\n"
+        "---\n\n"
+        "- title: Lab#02\n"
+        "- points: 5\n\n"
+        "---\n\n"
+        "No additional details were added for this assignment.\n"
+    )
+
+    for name in ("lab.md", "tutorial.md", "lecture.md"):
+        ctx = make_ctx(content, path=Path(f"/tmp/course/labs/lab 1/{name}"))
+        assert not header_flashcard_presence(ctx), (
+            f"a metadata-only title should not be carded on {name}"
+        )
+
+
+def test_header_flashcard_presence_accepts_question_blocks_alone():
+    """A section made up of question blocks needs no flashcard block of its own."""
+    txt = (
+        "---\ntags: [flashcard/active/special/academia/test]\n---\n"
+        "# tutorial\n\n"
+        "## random samples\n\n"
+        "> Let $X_1, X_2$ be a random sample.\n>\n"
+        "> - solution: They share one distribution, so the product holds.\n"
+    )
+    ctx = make_ctx(
+        txt, path=Path("/tmp/course/tutorials/week 2 tutorial 1/tutorial.md")
+    )
+    assert not header_flashcard_presence(ctx)
+
+
+def test_header_flashcard_presence_flags_prose_beside_question_blocks():
+    """Question blocks do not cover the prose standing next to them."""
+    txt = (
+        "---\ntags: [flashcard/active/special/academia/test]\n---\n"
+        "# tutorial\n\n"
+        "## random samples\n\n"
+        "Assume the copies are independent and identically distributed.\n\n"
+        "> Let $X_1, X_2$ be a random sample.\n>\n"
+        "> - solution: They share one distribution, so the product holds.\n"
+    )
+    ctx = make_ctx(
+        txt, path=Path("/tmp/course/tutorials/week 2 tutorial 1/tutorial.md")
+    )
+    msgs = header_flashcard_presence(ctx)
+    assert msgs and msgs[0].rule_id == "header_flashcard_presence"
+    assert "'## random samples'" in msgs[0].msg
+
+
+def test_header_flashcard_presence_ignores_separators_and_comments():
+    """Rules, markdownlint comments, and the marker line carry no content."""
+    front = "---\ntags: [flashcard/active/special/academia/test]\n---\n"
+    question = (
+        "> Let $X_1, X_2$ be a random sample.\n"
+        ">\n"
+        "> - solution: They share one distribution.\n"
+    )
+    ctx = make_ctx(
+        f"{front}# tutorial\n\n## random samples\n\n---\n\n"
+        f"{question}\n<!-- markdownlint MD028 -->\n\n{question}",
+        path=Path("/tmp/course/tutorials/week 2 tutorial 1/tutorial.md"),
+    )
+    assert not header_flashcard_presence(ctx)
+
+    # An image or a bare list item beside the blocks is content, so it fires.
+    for residue in ("![diagram](attachments/figure.png)\n", "1. first step\n"):
+        flagged = make_ctx(
+            f"{front}# tutorial\n\n## random samples\n\n{residue}\n{question}",
+            path=Path("/tmp/course/tutorials/week 2 tutorial 1/tutorial.md"),
+        )
+        assert header_flashcard_presence(flagged), residue
+
+
+def test_header_flashcard_presence_credits_a_flashcard_block_beside_questions():
+    """A section may hold question blocks and its own cards side by side."""
+    txt = (
+        "---\ntags: [flashcard/active/special/academia/test]\n---\n"
+        "# tutorial\n\n"
+        "## random samples\n\n"
+        "The copies are independent and identically distributed.\n\n"
+        "> Let $X_1, X_2$ be a random sample.\n>\n"
+        "> - solution: They share one distribution.\n\n"
+        "---\n\n"
+        "Flashcards for this section are as follows:\n\n"
+        "- the two halves of i.i.d. for copies $X_1, X_2$ ::@:: One says every copy "
+        "shares the distribution, the other that no copy informs another.\n"
+    )
+    ctx = make_ctx(
+        txt, path=Path("/tmp/course/tutorials/week 2 tutorial 1/tutorial.md")
+    )
+    assert not header_flashcard_presence(ctx)
+    assert not qa_card_inside_question(ctx)
+
+
+def test_header_flashcard_presence_flags_unanswered_tutorial_section():
+    """A tutorial section with neither cards nor an answered block is flagged."""
+    txt = (
+        "---\ntags: [flashcard/active/special/academia/test]\n---\n"
+        "# tutorial\n\nTerm ::@:: Definition\n\n"
+        "## marginal notes\n\n"
+        "A revision note with no cards and no question block.\n"
+    )
+    ctx = make_ctx(
+        txt, path=Path("/tmp/course/tutorials/week 2 tutorial 1/tutorial.md")
+    )
+    msgs = header_flashcard_presence(ctx)
+    assert [m for m in msgs if "'## marginal notes'" in m.msg]
 
 
 def test_flashcard_rules_still_fire_on_topic_notes():
@@ -3510,6 +4276,227 @@ def test_html_br_mid_line_skips_code():
     txt2 = "Use `" + "<br/>" + "` in HTML\n"
     ctx2 = make_ctx(txt2)
     assert not html_br_mid_line(ctx2)
+
+
+def test_line_leading_whitespace():
+    """Leading whitespace, and a tag at column 0, are defects.
+
+    Every flagged and quiet example in the ``_leading_edge`` docstring, spelled
+    the same way, so the two cannot drift apart.
+    """
+    # Flagged: two spaces at column 0.
+    msgs = line_leading_whitespace(make_ctx("  answer\n"))
+    assert len(msgs) == 1
+    assert msgs[0].rule_id == "line_leading_whitespace"
+    assert msgs[0].msg.startswith("line starts with 2 spaces")
+    assert msgs[0].col == 1 and msgs[0].col_end == 2
+
+    # Flagged: whitespace, then a tag, in one span.
+    msgs = line_leading_whitespace(make_ctx("  <p>answer\n"))
+    assert len(msgs) == 1
+    assert "'<p>'" in msgs[0].msg
+
+    # Flagged: a tag at column 0, which breaks nothing.
+    msgs = line_leading_whitespace(make_ctx("<br>answer\n"))
+    assert len(msgs) == 1
+    assert "'<br>'" in msgs[0].msg
+
+    # Flagged: a tag at column 0, then a space, in one span.
+    msgs = line_leading_whitespace(make_ctx("<br> answer\n"))
+    assert len(msgs) == 1
+    assert msgs[0].col == 1 and msgs[0].col_end == 5
+
+    # Flagged: whitespace, a tag, whitespace, all one span.
+    msgs = line_leading_whitespace(make_ctx("  <p> answer\n"))
+    assert len(msgs) == 1
+    assert msgs[0].col == 1 and msgs[0].col_end == 6
+
+    # Not flagged: nothing at column 0.
+    assert not line_leading_whitespace(make_ctx("answer\n"))
+
+    # Not flagged: the tag is mid-line, not on the edge.
+    assert not line_leading_whitespace(make_ctx("answer<br/>text\n"))
+
+    # Not flagged: a nested card's indent and a nested quote's indent are
+    # structure, and the rule is narrow enough to tell them from padding.
+    assert not line_leading_whitespace(make_ctx("    - card ::@:: answer\n"))
+    assert not line_leading_whitespace(make_ctx("  > quoted\n"))
+
+    # Not flagged: an empty line is not a defect.
+    assert not line_leading_whitespace(make_ctx("answer\n\nmore\n"))
+
+
+def test_edge_rules_skip_an_indented_fence_below_frontmatter():
+    """A fence indented under a list item is code, even with frontmatter above.
+
+    The fence scan returns offsets into the whole text while the rules walk the
+    body below the frontmatter, so the two sets have to be in the same
+    coordinates. When they were not, every line of a list-nested fence was
+    reported as padded prose. Both rules share the bug and the fix.
+    """
+    txt = (
+        "---\ntags: [flashcard/active/special/academia/test]\n---\n"
+        "# tutorial\n\n"
+        "1. Do it.\n\n"
+        "    ```sh\n"
+        "    python submit.py\n"
+        "    ```\n\n"
+        "2. Done.\n"
+    )
+    assert not line_leading_whitespace(make_ctx(txt))
+    assert not line_trailing_whitespace(make_ctx(txt))
+
+    # The same fence with no frontmatter was already quiet, which is why the
+    # offset went unnoticed: body_start was 0 and the two sets agreed.
+    no_front = txt[txt.index("# tutorial") :]
+    assert not line_leading_whitespace(make_ctx(no_front))
+    assert not line_trailing_whitespace(make_ctx(no_front))
+
+    # Padding outside the fence is still a defect, so the fix is not a blanket
+    # skip of anything indented.
+    padded = (
+        "---\ntags: [flashcard/active/special/academia/test]\n---\n"
+        "# tutorial\n\n"
+        "1. Do it.\n\n"
+        "  Padded prose.\n"
+    )
+    assert len(line_leading_whitespace(make_ctx(padded))) == 1
+
+
+def test_line_trailing_whitespace():
+    """Trailing whitespace, and a tag that breaks nothing, are defects.
+
+    Every flagged and quiet example in the ``_trailing_edge`` docstring, spelled
+    the same way, so the two cannot drift apart.
+    """
+    # Flagged: one space at the end.
+    msgs = line_trailing_whitespace(make_ctx("answer \n"))
+    assert len(msgs) == 1
+    assert msgs[0].rule_id == "line_trailing_whitespace"
+    assert msgs[0].msg.startswith("line ends in 1 space")
+    assert msgs[0].col == 7 and msgs[0].col_end == 7
+
+    # Flagged: two spaces, a Markdown hard break, and still whitespace.
+    msgs = line_trailing_whitespace(make_ctx("answer  \nmore\n"))
+    assert len(msgs) == 1
+    assert msgs[0].msg.startswith("line ends in 2 spaces")
+
+    # Flagged: whitespace inside the tag boundary.
+    msgs = line_trailing_whitespace(make_ctx("answer<br/> \nmore\n"))
+    assert len(msgs) == 1
+    assert msgs[0].msg.startswith("line ends in '<br/>' then 1 space")
+
+    # Flagged: a tab after the tag.
+    msgs = line_trailing_whitespace(make_ctx("answer <br>\t\nmore\n"))
+    assert len(msgs) == 1
+    assert msgs[0].msg.startswith("line ends in '<br>' then 1 space")
+
+    # Flagged: a second tag is padding.
+    msgs = line_trailing_whitespace(make_ctx("answer<br/><br/>\nmore\n"))
+    assert len(msgs) == 1
+    assert "second break" in msgs[0].msg
+
+    # Flagged: a <p> opens a block, it does not break a line.
+    for tag in ("<p>", "</p>", "</div>", "</li>"):
+        msgs = line_trailing_whitespace(make_ctx(f"answer{tag}\nmore\n"))
+        assert len(msgs) == 1, tag
+        assert "opens a block" in msgs[0].msg, tag
+        assert tag in msgs[0].msg, tag
+
+    # Flagged: a break on the last line goes nowhere.
+    msgs = line_trailing_whitespace(make_ctx("answer<br/>\n"))
+    assert len(msgs) == 1
+    assert "no line below it" in msgs[0].msg
+
+    # Flagged: the next line starts a new block.
+    for nxt in ("# Next", "", "- item", "| cell", "```", "---"):
+        msgs = line_trailing_whitespace(make_ctx(f"answer<br/>\n{nxt}\n"))
+        assert len(msgs) == 1, nxt
+        assert "starts a new block" in msgs[0].msg or "blank" in msgs[0].msg, nxt
+
+    # Not flagged: a single break to a continuation is legal.
+    assert not line_trailing_whitespace(make_ctx("answer<br/>\nmore\n"))
+    assert not line_trailing_whitespace(make_ctx("answer<br>\nmore text\n"))
+
+    # Not flagged: the same inside a blockquote, which continues the paragraph.
+    assert not line_trailing_whitespace(make_ctx("> regards, <br/>\n> more\n"))
+
+    # Not flagged: the tag is mid-line, so the walk never reaches it.
+    assert not line_trailing_whitespace(make_ctx("answer<br>text\n"))
+    assert not line_trailing_whitespace(make_ctx("answer <br>text\n"))
+    assert not line_trailing_whitespace(make_ctx("answer <p>text\n"))
+
+    # Not flagged: a mid-line pair separating two visual paragraphs.
+    assert not line_trailing_whitespace(make_ctx("part one<br/><br/>part two\n"))
+
+    # Not flagged: a nested card's indent is leading, not trailing.
+    assert not line_trailing_whitespace(make_ctx("    - card ::@:: answer\n"))
+
+
+def test_line_edge_whitespace_skips_code():
+    """Fences, code spans and frontmatter indentation are not defects.
+
+    Includes a fence indented inside a list item, which the AST does not see.
+    """
+    fence = "```"
+
+    # Inside a fence — no error, and no error for its own indentation.
+    txt = f"{fence}py\n    body(x)  \n{fence}\n"
+    assert not line_leading_whitespace(make_ctx(txt))
+    assert not line_trailing_whitespace(make_ctx(txt))
+
+    # Inside an inline code span — no error.
+    txt = "Use `" + "  x  `" + "` here\n"
+    assert not line_leading_whitespace(make_ctx(txt))
+    assert not line_trailing_whitespace(make_ctx(txt))
+
+    # Frontmatter indentation is meaningful YAML.
+    txt = "---\naliases:\n  - one\n---\nbody\n"
+    assert not line_leading_whitespace(make_ctx(txt))
+    assert not line_trailing_whitespace(make_ctx(txt))
+
+    # A fence indented to sit inside a list item is a fence to a reader and to
+    # Obsidian, even though at four spaces of indentation CommonMark reads the
+    # backticks as literal text and the AST sees no code block at all.
+    txt = "- item\n\n    ```text\n    Node(foo, ...)  \n      deeper\n    ```\n\ntail\n"
+    assert not line_leading_whitespace(make_ctx(txt))
+    assert not line_trailing_whitespace(make_ctx(txt))
+
+
+def test_line_edge_whitespace_ignores_nbsp_and_single_report():
+    """A non-breaking space is deliberate, and a blank line reports once."""
+    # A non-breaking space is never stripped at either edge.
+    assert not line_leading_whitespace(make_ctx("\u00a0answer\n"))
+    assert not line_trailing_whitespace(make_ctx("answer\u00a0\nmore\n"))
+
+    # A whitespace-only line is reported once, by the leading rule.
+    assert len(line_leading_whitespace(make_ctx("   \nanswer\n"))) == 1
+    assert not line_trailing_whitespace(make_ctx("   \nanswer\n"))
+
+
+def test_line_edge_whitespace_both_sides():
+    """Each rule fires on its own side only, and both fire on both at once."""
+    txt = "  <p>answer<br/>  \nmore\n"
+    lead = line_leading_whitespace(make_ctx(txt))
+    trail = line_trailing_whitespace(make_ctx(txt))
+    assert len(lead) == 1 and lead[0].col == 1
+    assert len(trail) == 1
+    assert trail[0].col == len("  <p>answer<br/>") + 1
+
+    # A leading-only defect leaves the trailing rule alone, and the reverse.
+    assert not line_trailing_whitespace(make_ctx("  answer\n"))
+    assert not line_leading_whitespace(make_ctx("answer \nmore\n"))
+
+
+def test_line_edge_whitespace_is_registered():
+    """Both rules carry the id the instructions name and error severity."""
+    for rule_id in ("line_leading_whitespace", "line_trailing_whitespace"):
+        registered = dict(RULE_REGISTRY.items())
+        assert rule_id in registered
+        msgs = registered[rule_id](make_ctx("  answer \nmore\n"))
+        assert msgs and all(m.rule_id == rule_id for m in msgs)
+        assert all(m.severity is Severity.ERROR for m in msgs)
+        assert "check: ignore-line" in msgs[0].msg
 
 
 def test_header_source_layout_flags_source_units():

@@ -27,7 +27,7 @@ When copying and pasting formulas, the cell references in the formula are {@{off
 
 ### arithmetic operators
 
-Below are common arithmetic and string operators. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. Operators higher in the list {@{have higher precedence}@}: <!--SR:!2027-07-10,518,397!2027-07-13,521,397!2027-07-17,524,397-->
+Below are common arithmetic and string operators. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. Operators higher in the list have {@{higher precedence}@}: <!--SR:!2027-07-10,518,397!2027-07-13,521,397!2027-07-17,524,397-->
 
 ```Python
 # pytextgen generate data
@@ -92,7 +92,7 @@ return chain.from_iterable([r.value for r in results])
 
 ### comparison operators
 
-Below are common comparison operators, all of which returns {@{booleans}@}. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. The comparison operators below {@{have the same precedence}@}: <!--SR:!2028-02-01,1133,350!2027-07-19,526,397!2027-07-06,515,397!2027-07-07,516,397-->
+Below are common comparison operators, all of which returns {@{booleans}@}. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. The comparison operators below have {@{the same precedence}@}: <!--SR:!2028-02-01,1133,350!2027-07-19,526,397!2027-07-06,515,397!2027-07-07,516,397-->
 
 ```Python
 # pytextgen generate data

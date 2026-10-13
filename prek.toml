@@ -25,13 +25,15 @@ hooks = [
   { id = "check-symlinks", exclude = "^general/" },
   { id = "destroyed-symlinks" },
   { id = "detect-private-key" },
-  { id = "end-of-file-fixer" },
-  { id = "fix-byte-order-marker" },
+  # Archived Wikimedia media is kept byte-for-byte so its index hash still
+  # verifies; text fixers would silently rewrite the download.
+  { id = "end-of-file-fixer", exclude = "^archives/Wikimedia Commons/" },
+  { id = "fix-byte-order-marker", exclude = "^archives/Wikimedia Commons/" },
   { id = "name-tests-test", args = [
     "--pytest-test-first",
   ] },
   # Preserve markdown hard line breaks (common in docs)
-  { id = "trailing-whitespace", args = [
+  { id = "trailing-whitespace", exclude = "^archives/Wikimedia Commons/", args = [
     "--markdown-linebreak-ext=md,mdoc,mdown,mdx,mkd,mkdn,markdown,rmd",
   ] },
 ]

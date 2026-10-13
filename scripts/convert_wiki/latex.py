@@ -5,9 +5,29 @@ Converts HTML fragments from Wikipedia texhtml spans (``<math>`` alttext,
 LaTeX strings.
 """
 
+import re
 from collections.abc import Iterable
 
 from bs4 import BeautifulSoup, NavigableString, PageElement, Tag
+
+"""Accent glyphs Wikipedia stacks above a base in its legacy math markup."""
+_ACCENT_COMMANDS: dict[str, str] = {
+    "\u22c5": "\\dot",  # dot operator
+    "\u02d9": "\\dot",  # dot above
+    "\u00af": "\\bar",  # macron
+    "\u203e": "\\bar",  # overline
+    "\u02c6": "\\hat",  # modifier letter circumflex
+    "\u02dc": "\\tilde",  # small tilde
+    "\u02c7": "\\check",  # caron
+    "\u00a8": "\\ddot",  # diaeresis
+}
+"""LaTeX commands for unicode math letters with no short ASCII spelling."""
+_MATH_LETTER_COMMANDS: dict[str, str] = {
+    "\u0127": "\\hbar",  # h with stroke
+    "\u210f": "\\hbar",  # planck constant
+}
+"""Regex matching the ``line-height`` of a legacy stacked math block."""
+_BLOCK_LINE_HEIGHT_REGEX = re.compile(r"line-height:\s*([0-9.]+)")
 
 
 class LatexConverter:
@@ -99,20 +119,92 @@ class LatexConverter:
 
     @classmethod
     def texhtml_to_latex_sfrac(cls, ele: Tag) -> str:
-        """Convert a ``sfrac`` span to LaTeX ``\\frac``."""
+        """Convert a ``sfrac`` span to LaTeX.
+
+        Two layouts exist. The class-based one puts ``span.num`` and
+        ``span.den`` inside a ``tion`` wrapper; the style-based one has no
+        classes and encodes the parts as stacked ``display: block`` children
+        whose ``line-height`` says which part is which. A shrunk first block
+        holding an accent glyph is an accent over its base, not a numerator,
+        so it is read before the fraction reading. A layout neither reading
+        covers is a defect and raises rather than emitting an empty fraction.
+        """
         num_span = ele.find(("span",), class_="num")
         den_span = ele.find(("span",), class_="den")
-        numerator = (
-            cls.texhtml_to_latex_children(num_span.children)
-            if isinstance(num_span, Tag)
-            else ""
+        if isinstance(num_span, Tag) and isinstance(den_span, Tag):
+            numerator = cls.texhtml_to_latex_children(num_span.children)
+            denominator = cls.texhtml_to_latex_children(den_span.children)
+            return f"\\frac{{{numerator}}}{{{denominator}}}"
+        blocks = cls._stacked_blocks(ele)
+        if len(blocks) == 2:
+            top, bottom = blocks
+            accent = cls._accent_command(top)
+            if accent is not None:
+                base = cls.texhtml_to_latex_children(bottom.children)
+                return f"{accent}{{{base}}}"
+            if [cls._line_height(block) for block in blocks] == ["0.3", "0.7"]:
+                numerator = cls.texhtml_to_latex_children(top.children)
+                denominator = cls.texhtml_to_latex_children(bottom.children)
+                return f"\\frac{{{numerator}}}{{{denominator}}}"
+        raise ValueError(f"unreadable sfrac layout: {ele.decode_contents()[:200]}")
+
+    @staticmethod
+    def _stacked_blocks(ele: Tag) -> list[Tag]:
+        """Return the ``display: block`` children that stack a legacy fraction."""
+        return [
+            child
+            for child in ele.find_all("span")
+            if "display: block" in str(child.get("style", ""))
+        ]
+
+    @staticmethod
+    def _line_height(ele: Tag) -> str | None:
+        """Return the ``line-height`` of a stacked block, if it declares one."""
+        match = _BLOCK_LINE_HEIGHT_REGEX.search(str(ele.get("style", "")))
+        return match.group(1) if match else None
+
+    @classmethod
+    def _accent_command(cls, ele: Tag) -> str | None:
+        """Return the accent command for a block holding only an accent glyph."""
+        text = ele.get_text(strip=True)
+        if len(text) == 1 and text in _ACCENT_COMMANDS:
+            return _ACCENT_COMMANDS[text]
+        return None
+
+    @classmethod
+    def replace_texhtml_math_with_math(cls, ele: Tag, soup: BeautifulSoup) -> None:
+        """Replace legacy texhtml spans that plain text cannot carry.
+
+        Wikipedia renders part of a formula as HTML instead of MathML: a radical
+        drawn as a root sign above a bordered span, a fraction or an accent
+        stacked out of styled blocks, and the script that belongs to them. As
+        text the vinculum is lost, a fraction collapses to an empty one, and the
+        script is left behind as a stray ``<sup>``, so these spans become
+        ``<math>`` elements instead. A span holding plain italic letters needs
+        no math and is left alone, since prose would otherwise turn into a run
+        of single-letter formulas.
+
+        *soup* must be the ``BeautifulSoup`` instance that owns *ele* (to create
+        new tags).
+        """
+        for span in list(ele.find_all("span", class_="texhtml")):
+            if not cls._needs_math(span):
+                continue
+            math_tag = soup.new_tag("math", alttext=cls.texhtml_to_latex(span))
+            wrapper = soup.new_tag("span", attrs={"class": "mwe-math-mathml-inline"})
+            wrapper.append(math_tag)
+            span.replace_with(wrapper)
+
+    @classmethod
+    def _needs_math(cls, ele: Tag) -> bool:
+        """Whether a texhtml span carries structure that text cannot show."""
+        if ele.find(("span",), class_="sfrac") is not None:
+            return True
+        return any(
+            cls._is_sqrt_entity(descendant)
+            or "border-top" in str(descendant.get("style", ""))
+            for descendant in ele.find_all("span")
         )
-        denominator = (
-            cls.texhtml_to_latex_children(den_span.children)
-            if isinstance(den_span, Tag)
-            else ""
-        )
-        return f"\\frac{{{numerator}}}{{{denominator}}}"
 
     @classmethod
     def replace_sfrac_with_math(cls, ele: Tag, soup: BeautifulSoup) -> None:
@@ -203,6 +295,8 @@ class LatexConverter:
         )
         text = text.translate(_LATEX_SPECIAL)
         for char, latex in _LATEX_GREEK.items():
+            text = text.replace(char, latex)
+        for char, latex in _MATH_LETTER_COMMANDS.items():
             text = text.replace(char, latex)
         return text
 

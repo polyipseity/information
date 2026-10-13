@@ -115,6 +115,18 @@ _UNICODE_SEPARATOR_CHARACTERS = (
     "\u2212\u00b1\u2213\u00d7\u00f7\u00b7\u22c5\u2010\u2011\u2012\u2013\u2014\u2015"
     "\u27e8\u27e9\u2329\u232a"
 )
+"""Math signs that bind tightly to the variable they precede.
+
+``−t``, ``±c``, and ``×q`` are one term, so an italic marker directly after
+the sign has to be separated from it or the renderer reads the sign and the
+marker as a word.  The ASCII plus sign belongs here for the same reason; the
+ASCII hyphen-minus does not, because it is word punctuation rather than an
+operator.  The middle dot and the dot operator are left out because they also
+serve as punctuation, and the dashes and angle brackets in
+``_UNICODE_SEPARATOR_CHARACTERS`` because they separate words, as in
+``wave–particle``.  A separator in those places would only add noise.
+"""
+_TIGHT_MATH_SIGN_CHARACTERS = "+" + "\u2212\u00b1\u2213\u00d7\u00f7"
 "Characters considered as separators in Markdown formatting."
 _MARKDOWN_SEPARATOR_CHARACTERS = (
     f"{punctuation}{whitespace}\xa0{_UNICODE_SEPARATOR_CHARACTERS}"

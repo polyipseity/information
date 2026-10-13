@@ -883,11 +883,25 @@ def _preprocess_html(soup: BeautifulSoup | Tag) -> None:
             }:
                 a11y_child.decompose()
 
-    # 7. Replace sfrac spans with <math> elements.
+    # 7. Replace legacy texhtml spans that plain text cannot carry (radicals,
+    #    fractions, accents) with one <math> element, script included. This
+    #    runs before the sfrac pass so the whole span converts as a unit.
+    LatexConverter.replace_texhtml_math_with_math(soup, soup)  # ty: ignore[invalid-argument-type] — Tag.new_tag works identically
+
+    # 8. Replace sfrac spans outside any texhtml span with <math> elements.
     for span in soup.find_all("span"):
         LatexConverter.replace_sfrac_with_math(span, soup)  # ty: ignore[invalid-argument-type] — Tag.new_tag works identically
 
-    # 8. Clean up annotated-image divs: remove annotation divs
+    # 9. Drop media-player chrome: the duration label MediaWiki renders
+    #    inside its own player (``Duration: 14 seconds.`` plus the
+    #    ``0:14`` stamp) is interface text, not content, and would
+    #    otherwise open a figure with a bold timestamp.  The player
+    #    container itself stays, since the media embed and the image
+    #    filename collection read it.
+    for duration in soup.find_all("span", class_="mw-tmh-duration"):
+        duration.decompose()
+
+    # 10. Clean up annotated-image divs: remove annotation divs
     #    and noviewer spans so the converter sees clean content.
     for div in soup.find_all("div", typeof=lambda v: v and "mw:Transclusion" in str(v)):
         if "annotated image" in str(div.get("data-mw", "")):
@@ -898,18 +912,18 @@ def _preprocess_html(soup: BeautifulSoup | Tag) -> None:
             for noviewer in div.find_all("span", class_="noviewer"):
                 noviewer.decompose()
 
-    # 9. Merge <dl> paragraphs into preceding list when separated by a
+    # 11. Merge <dl> paragraphs into preceding list when separated by a
     #    thumbnail.  When a <dl> follows a <div class="thumb"> that
     #    follows a <ul>/<ol>, the <dd> children belong to the last <li>
     #    of that list (they are continuations of the list item content).
     _merge_dl_after_thumb_into_list(soup)
 
-    # 10. Unwrap inline-only <div> wrappers inside navbox-abovebelow cells
+    # 12. Unwrap inline-only <div> wrappers inside navbox-abovebelow cells
     #    without hlist.  These <div> elements add a block-level suffix
     #    that becomes a spurious <br/> <br/> separator in the output.
     _unwrap_navbox_inline_divs(soup)
 
-    # 11. Move a ``templatequotecite`` attribution into the preceding
+    # 13. Move a ``templatequotecite`` attribution into the preceding
     #     ``templatequote`` blockquote so the quote and its source render
     #     as one Markdown blockquote block.
     for quote in soup.find_all("blockquote", class_="templatequote"):

@@ -406,12 +406,32 @@ def _inject_after_token(
     return text[:end] + content + text[end:]
 
 
+def _split_block_math_range(text: str, start: int, end: int) -> list[tuple[int, int]]:
+    """Split one block-math range at any ``$$`` delimiter inside it.
+
+    mistune reads ``$$a$$ | $$b$$`` on a single line as one block-math token,
+    so the cell boundary between the two expressions falls inside the mapped
+    range and ``_smart_split_row`` would miss it.  Splitting the matched
+    content on ``$$`` restores the real spans: the odd-indexed segments are
+    math, the even-indexed ones are the text between them.
+    """
+    segments = text[start:end].split("$$")
+    ranges: list[tuple[int, int]] = []
+    offset = start
+    for index, segment in enumerate(segments):
+        if index % 2 == 0 and segment:
+            ranges.append((offset, offset + len(segment)))
+        offset += len(segment) + 2
+    return ranges
+
+
 def _all_math_ranges(text: str) -> list[tuple[int, int]]:
     """Return byte ranges of all math spans (inline and block) in *text*.
 
     Parses *text* with ``_MISTUNE_PARSER``, walks the AST for
     ``inline_math`` and ``block_math`` tokens, and maps each token's
-    raw text back to its byte position in *text*.
+    raw text back to its byte position in *text*.  A block-math token that
+    swallowed further ``$$`` delimiters is split back into its real spans.
 
     Returns an empty list if no math is found or parsing fails.
     """
@@ -420,8 +440,8 @@ def _all_math_ranges(text: str) -> list[tuple[int, int]]:
     if isinstance(parse_result, str):
         return []
 
-    math_raws: list[str] = [
-        token["raw"]
+    math_raws: list[tuple[str, bool]] = [
+        (token["raw"], token.get("type") == "block_math")
         for token, _depth, _parents in _walk_tokens(parse_result)
         if token.get("type") in ("inline_math", "block_math")
         and token.get("raw") is not None
@@ -431,11 +451,16 @@ def _all_math_ranges(text: str) -> list[tuple[int, int]]:
 
     ranges: list[tuple[int, int]] = []
     pos = 0
-    for raw in math_raws:
+    for raw, is_block in math_raws:
         found = text.find(raw, pos)
         if found >= 0:
-            ranges.append((found, found + len(raw)))
-            pos = found + len(raw)
+            end = found + len(raw)
+            ranges.extend(
+                _split_block_math_range(text, found, end)
+                if is_block
+                else [(found, end)]
+            )
+            pos = end
     return ranges
 
 

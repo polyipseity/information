@@ -16,6 +16,7 @@ A course root, a submission, or a questions directory may each need raw files be
 - A definitional drawing is an attachment even when no source file carries it: redraw it as an SVG and embed it in the note (see "Definitional drawings" below)
 - Encode spaces as `%20` in links
 - `\[missing\]` rarely applies here: files exist or they don't (see [special.instructions.md](../../instructions/special.instructions.md#missing-data))
+- An `attachments/` directory belongs to its material: when the material routes private (non-in-class submissions and question pages, see "Public and private trees" in `academic-ingest`), the directory is created at the private mirror of its path and every rule below applies there unchanged. Links to its files stay written as if the directory sat in the public tree
 
 ## Document-like formats (PDF, DOCX, PPTX)
 
@@ -87,6 +88,8 @@ Generating a figure is the fallback, not the default. Redraw only when the searc
 The generated set comes from a single script kept in the same `attachments/` directory, named `generate_figures.py`. One file, not one per topic: the point is that the script is the only thing edited when a drawing changes. It writes its output beside itself, the SVGs and the script are both committed, and running it must be deterministic. Name each file for what it draws (`symbol_<thing>.svg`, `<thing>_<convention>.svg`), never for the slide, page, or lecture it came from, and keep one form per file (`symbol_source_battery.svg`, `symbol_source_circle.svg`) so the Markdown can place the set side by side: a drawing library cannot put a second figure into one image without coordinates.
 
 Let the library place everything. Chain the elements in drawing order, attach each label to the element it belongs to, and hang leads on named anchors so its defaults decide every position. Pass no coordinate and no nudge, because one that exists to make the picture look right breaks as soon as anything moves. State only what carries meaning: direction, size, colour, order.
+
+Every file the script saves ends with exactly one newline, and the script guarantees it rather than leaving it to the last line of the last drawing.
 
 Then wire the figure into the note, and check it:
 

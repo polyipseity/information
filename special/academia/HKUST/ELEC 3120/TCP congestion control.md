@@ -24,7 +24,7 @@ Congestion control keeps a sender from pushing more traffic into the network tha
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Congestion control limits a sender to what the path can carry, inferring that limit from the acknowledgements it receives. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
+- core idea: what does congestion control limit a sender to? ::@:: Congestion control limits a sender to what the path can carry, inferring that limit from the acknowledgements it receives. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - who infers the limit: what does the sender use to estimate the path's room? ::@:: The acknowledgements it receives. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - overload signal: what do acknowledgements that stop arriving tell the sender? ::@:: That the path is overloaded. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 

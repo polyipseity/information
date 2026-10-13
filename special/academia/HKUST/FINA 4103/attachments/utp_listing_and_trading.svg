@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="420" viewBox="0 0 1120 420" role="img" aria-label="A stock single-listed on the New York Stock Exchange trading on the New York Stock Exchange, on Nasdaq through unlisted trading privileges, and on the IEX through unlisted trading privileges">
+  <defs>
+    <marker id="head" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0,0 L10,4 L0,8 z" fill="#555555"/>
+    </marker>
+  </defs>
+  <rect x="40" y="20" width="300" height="80" rx="12" fill="#d6e4f7" stroke="#1f4e9c" stroke-width="3"/>
+  <text x="190" y="55" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="24" font-weight="bold" fill="#1a1a1a" text-anchor="middle">AAPL</text>
+  <text x="190" y="82" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="17" font-weight="normal" fill="#1a1a1a" text-anchor="middle">single-listed on NYSE</text>
+  <line x1="190" y1="100" x2="190" y2="150" stroke="#555555" stroke-width="3"/>
+  <line x1="170.0" y1="150" x2="870.0" y2="150" stroke="#555555" stroke-width="3"/>
+  <line x1="170.0" y1="150" x2="170.0" y2="241" stroke="#555555" stroke-width="3" marker-end="url(#head)"/>
+  <text x="184.0" y="196" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="18" fill="#1a1a1a">listed exchange</text>
+  <rect x="40" y="250" width="260" height="90" rx="12" fill="#d6e4f7" stroke="#1f4e9c" stroke-width="3"/>
+  <text x="170.0" y="288" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="22" font-weight="bold" fill="#1a1a1a" text-anchor="middle">NYSE</text>
+  <text x="170.0" y="316" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="16" font-weight="normal" fill="#1a1a1a" text-anchor="middle">can trade AAPL</text>
+  <line x1="520.0" y1="150" x2="520.0" y2="241" stroke="#555555" stroke-width="3" marker-end="url(#head)"/>
+  <text x="534.0" y="196" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="18" fill="#1a1a1a">UTP</text>
+  <rect x="390" y="250" width="260" height="90" rx="12" fill="#f6d6d6" stroke="#a11f1f" stroke-width="3"/>
+  <text x="520.0" y="288" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="22" font-weight="bold" fill="#1a1a1a" text-anchor="middle">NASDAQ</text>
+  <text x="520.0" y="316" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="16" font-weight="normal" fill="#1a1a1a" text-anchor="middle">can trade AAPL</text>
+  <line x1="870.0" y1="150" x2="870.0" y2="241" stroke="#555555" stroke-width="3" marker-end="url(#head)"/>
+  <text x="884.0" y="196" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="18" fill="#1a1a1a">UTP</text>
+  <rect x="740" y="250" width="260" height="90" rx="12" fill="#f6d6d6" stroke="#a11f1f" stroke-width="3"/>
+  <text x="870.0" y="288" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="22" font-weight="bold" fill="#1a1a1a" text-anchor="middle">IEX</text>
+  <text x="870.0" y="316" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="16" font-weight="normal" fill="#1a1a1a" text-anchor="middle">can trade AAPL</text>
+  <path d="M1090,20 L1090,340" stroke="#6a8f3a" stroke-width="3" fill="none" transform="translate(0,0)"/>
+  <path d="M1074,20 q16,10 0,20 M1074,160 q16,10 0,20 M1074,320 q16,10 0,20" stroke="#6a8f3a" stroke-width="3" fill="none"/>
+  <text x="1102" y="180" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="18" fill="#1a1a1a" text-anchor="middle" transform="rotate(90 1102 180)">listing exchange and trading exchanges</text>
+</svg>

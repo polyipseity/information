@@ -16,7 +16,7 @@ A monolithic kernel runs the entire operating system in kernel mode within a sin
 
 Flashcards for this section are as follows:
 
-- overview ::@:: An OS architecture in which the entire operating system runs in kernel mode in a single address space, with all functionality in one static binary. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
+- what a monolithic kernel is ::@:: An OS architecture in which the entire operating system runs in kernel mode in a single address space, with all functionality in one static binary. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - performance advantage of monolithic kernels ::@:: Minimal overhead in the system-call interface and fast intra-kernel communication through direct function calls, since everything runs in one address space. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 
 ## original UNIX structure
@@ -31,11 +31,12 @@ All OS functionality combined into one level makes the system difficult to imple
 
 Flashcards for this section are as follows:
 
-- original UNIX kernel structure ::@:: The kernel consists of everything below the system-call interface and above the physical hardware: signals, I/O, file systems, CPU scheduling, memory management, and device drivers, all in a single address space. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
-- monolithic kernel drawback ::@:: Enormous functionality combined into one level makes the system difficult to implement, debug, and maintain. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
-- why monolithic kernels persist ::@:: Their speed and efficiency — direct function calls within one address space have minimal overhead — keep them in use in UNIX, Linux, and Windows. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
+- original UNIX kernel structure ::@:: The kernel consists of everything below the system-call interface and above the physical hardware: signals, I/O, file systems, CPU scheduling, memory management, and device drivers, all in a single address space.
+- monolithic kernel drawback ::@:: Enormous functionality combined into one level makes the system difficult to implement, debug, and maintain.
+- why monolithic kernels persist ::@:: Their speed and efficiency — direct function calls within one address space have minimal overhead — keep them in use in UNIX, Linux, and Windows.
 
-## Linux system structure <!-- check: ignore-line[header_style]: Linux is a proper noun -->
+<!-- check: ignore-next-line[header_style]: Linux is a proper noun -->
+## Linux system structure
 
 The Linux kernel is monolithic: it runs entirely in kernel mode in a single address space, with applications using glibc to reach the system-call interface.
 

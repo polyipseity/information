@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 400" font-family="Georgia, 'Times New Roman', serif" font-size="16">
+  <defs>
+    <marker id="arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#000"/>
+    </marker>
+  </defs>
+
+  <!-- trajectory: hyperbolic path bending away from the scatterer -->
+  <path d="M 40 250 L 195 245 L 276 241 L 320 238 L 349 234 L 391 223 L 430 204 L 491 164 L 555 114 L 601 75"
+        fill="none" stroke="#000" stroke-width="2" marker-end="url(#arr)"/>
+  <path d="M 85 244 L 105 249 L 85 254 Z" fill="#000"/>
+
+  <!-- incoming-direction reference (dashed) and scatterer level (solid) -->
+  <line x1="40" y1="250" x2="630" y2="250" stroke="#000" stroke-width="1" stroke-dasharray="7,5"/>
+  <line x1="240" y1="330" x2="630" y2="330" stroke="#000" stroke-width="1"/>
+
+  <!-- impact parameter b -->
+  <line x1="270" y1="250" x2="270" y2="330" stroke="#000" stroke-width="1" marker-start="url(#arr)" marker-end="url(#arr)"/>
+  <text x="256" y="295" text-anchor="end" font-style="italic">b</text>
+
+  <!-- scatterer -->
+  <circle cx="430" cy="330" r="7" fill="#000"/>
+  <text x="398" y="358"><tspan font-style="italic">Z</tspan><tspan font-size="11" dy="3">2</tspan><tspan dy="-3" font-style="italic">e</tspan></text>
+  <text x="395" y="376" font-size="13">scatterer</text>
+
+  <!-- radius r from scatterer to a point on the trajectory -->
+  <line x1="430" y1="330" x2="349" y2="234" stroke="#000" stroke-width="1"/>
+  <text x="378" y="290" text-anchor="end" font-style="italic">r</text>
+
+  <!-- scattering angle theta between the incoming direction and the outgoing asymptote -->
+  <path d="M 435 250 A 34 34 0 0 0 427 228" fill="none" stroke="#000" stroke-width="1"/>
+  <text x="417" y="247" text-anchor="middle" font-style="italic">θ</text>
+
+  <!-- incident particle labels -->
+  <text x="36" y="232"><tspan font-style="italic">Z</tspan><tspan font-size="11" dy="3">1</tspan><tspan dy="-3">, </tspan><tspan font-style="italic">v</tspan><tspan font-size="11" dy="3">0</tspan></text>
+</svg>

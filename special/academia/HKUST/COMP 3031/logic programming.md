@@ -277,9 +277,9 @@ In this section, {@{a "pattern"}@} refers to {@{a term that may contain variable
 >   }
 > ```
 >
-> {@{The `pmatch` routine}@} first checks whether {@{the pattern is a variable}@}. If it {@{has already been bound in `s`}@}, {@{the previously bound term must match}@}; otherwise {@{a new binding is added to `s`}@}. When {@{both pattern and term are constructors with the same name}@}, their argument lists are {@{matched recursively by `pmatchLists`}@}, which operates on {@{lists of sub-terms}@}. <!--SR:!2027-02-22,298,342!2027-03-27,331,342!2027-03-27,331,342!2027-02-28,304,342!2027-03-08,312,342!2027-03-10,314,342!2027-03-22,326,342!2027-03-13,317,342!2027-03-07,318,342!2027-03-26,330,342!2027-03-14,325,342!2027-03-20,324,342!2027-03-30,334,342!2027-02-20,296,342-->
+> {@{The `pmatch` routine}@} first checks whether {@{the pattern is a variable}@}. If it has {@{already been bound in `s`}@}, {@{the previously bound term must match}@}; otherwise {@{a new binding is added to `s`}@}. When {@{both pattern and term are constructors with the same name}@}, their argument lists are {@{matched recursively by `pmatchLists`}@}, which operates on {@{lists of sub-terms}@}. <!--SR:!2027-02-22,298,342!2027-03-27,331,342!2027-03-27,331,342!2027-02-28,304,342!2027-03-08,312,342!2027-03-10,314,342!2027-03-22,326,342!2027-03-13,317,342!2027-03-07,318,342!2027-03-26,330,342!2027-03-14,325,342!2027-03-20,324,342!2027-03-30,334,342!2027-02-20,296,342-->
 
-{@{The `pmatch` routine}@} first checks whether {@{the pattern is a variable}@}. If it {@{has already been bound in `s`}@}, {@{the previously bound term must match}@}; otherwise {@{a new binding is added to `s`}@}. When {@{both pattern and term are constructors with the same name}@}, their argument lists are {@{matched recursively by `pmatchLists`}@}, which operates on {@{lists of sub-terms}@}. It succeeds only if {@{all corresponding pairs unify under the current substitution and the two lists have equal length}@}. <!--SR:!2027-04-01,336,342!2027-03-07,311,342!2027-03-16,320,342!2027-03-07,318,342!2027-02-28,304,342!2027-01-13,280,330!2027-03-29,333,342!2027-03-27,331,342!2027-03-26,330,342-->
+{@{The `pmatch` routine}@} first checks whether {@{the pattern is a variable}@}. If it has {@{already been bound in `s`}@}, {@{the previously bound term must match}@}; otherwise {@{a new binding is added to `s`}@}. When {@{both pattern and term are constructors with the same name}@}, their argument lists are {@{matched recursively by `pmatchLists`}@}, which operates on {@{lists of sub-terms}@}. It succeeds only if {@{all corresponding pairs unify under the current substitution and the two lists have equal length}@}. <!--SR:!2027-04-01,336,342!2027-03-07,311,342!2027-03-16,320,342!2027-03-07,318,342!2027-02-28,304,342!2027-01-13,280,330!2027-03-29,333,342!2027-03-27,331,342!2027-03-26,330,342-->
 
 > [!example] __`pmatchLists`__
 >
@@ -296,7 +296,7 @@ In this section, {@{a "pattern"}@} refers to {@{a term that may contain variable
 >   }
 > ```
 >
-> The implementation uses pattern matching on the pair of lists; when one list ends before the other a `None` is returned.  Successful matches are accumulated by chaining the substitutions with `flatMap` from left to right. <!--SR:!2027-03-24,328,342!2027-03-28,332,342!2027-03-16,320,342!2027-03-05,309,342-->  
+> The implementation uses pattern matching on the pair of lists; when one list ends before the other a `None` is returned.  Successful matches are accumulated by chaining the substitutions with `flatMap` from left to right. <!--SR:!2027-03-24,328,342!2027-03-28,332,342!2027-03-16,320,342!2027-03-05,309,342-->
 
 {@{The implementation}@} uses {@{pattern matching on the pair of lists}@}; when {@{one list ends before the other a `None` is returned}@}. {@{Successful matches are accumulated}@} by chaining {@{the substitutions with `flatMap` from left to right}@}. <!--SR:!2027-03-25,329,342!2027-03-20,324,342!2027-03-07,311,342!2027-02-26,302,342!2027-03-29,333,342-->
 

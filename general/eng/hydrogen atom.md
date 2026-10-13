@@ -1,0 +1,306 @@
+---
+aliases:
+  - hydrogen atom
+tags:
+  - flashcard/active/general/eng/hydrogen_atom
+  - language/in/English
+---
+
+# hydrogen atom
+
+- This article is about {@{the physics of the hydrogen atom}@}. For {@{a chemical description}@}, see {@{[hydrogen](hydrogen.md)}@}. For {@{monatomic hydrogen}@}, see {[Hydrogen § Atomic hydrogen](hydrogen.md#atomic%20hydrogen)}.
+
+|                                                                                                                  | __Hydrogen atom__                                                                                                              |
+| ---------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------- |
+|                                                                                                                  | ![Hydrogen <sup>1</sup>H the most common isotope of the lightest element](../../archives/Wikimedia%20Commons/Hydrogen%201.svg) |
+|                                                                                                      __General__ |                                                                                                                                |
+| ---------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------- |
+|                                                                           __[Symbol](table%20of%20nuclides.md)__ | <sup>1</sup>H                                                                                                                  |
+|                                                                             __[Names](list%20of%20nuclides.md)__ | hydrogen atom, <br/> protium                                                                                                   |
+|                                                                        __[Protons](atomic%20number.md) \(_Z_\)__ | 1                                                                                                                              |
+|                                                                      __[Neutrons](neutron%20number.md) \(_N_\)__ | 0                                                                                                                              |
+|                                                                     __[Nuclide data](table%20of%20nuclides.md)__ |                                                                                                                                |
+| ---------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------- |
+|                                                                 __[Natural abundance](isotopic%20abundance.md)__ | 99.985%                                                                                                                        |
+|                                                              __[Half-life](half-life.md) \(_t_<sub>1/2</sub>\)__ | stable                                                                                                                         |
+|                                                                             __[Isotope mass](atomic%20mass.md)__ | 1.007825 [Da](dalton%20(unit).md)                                                                                              |
+|                                                                       __[Spin](spin%20(particle%20physics).md)__ | 1/2 _ħ_                                                                                                                        |
+|                                                                          __[Excess energy](excess%20energy.md)__ | 7288.969±0.001 [keV](electronvolt.md)                                                                                          |
+|                                                      __[Nuclear binding energy](nuclear%20binding%20energy.md)__ | 0.000±0.0000 keV                                                                                                               |
+| [Isotopes of hydrogen](isotopes%20of%20hydrogen.md) <br/> [Complete table of nuclides](table%20of%20nuclides.md) |                                                                                                                                |
+
+> __flashcards__
+>
+> - __Hydrogen atom__ ::@:: ![Hydrogen <sup>1</sup>H the most common isotope of the lightest element](../../archives/Wikimedia%20Commons/Hydrogen%201.svg)
+> - __[Symbol](table%20of%20nuclides.md)__::@:: <sup>1</sup>H
+> - __[Names](list%20of%20nuclides.md)__ ::@:: hydrogen atom, <br/> protium
+> - __[Protons](atomic%20number.md) \(_Z_\)__ ::@:: 1
+> - __[Neutrons](neutron%20number.md) \(_N_\)__ ::@:: 0
+> - __[Natural abundance](isotopic%20abundance.md)__ ::@:: 99.985%
+> - __[Half-life](half-life.md) \(_t_<sub>1/2</sub>\)__ ::@:: stable
+> - __[Isotope mass](atomic%20mass.md)__ ::@:: 1.007825 [Da](dalton%20(unit).md)
+> - __[Spin](spin%20(particle%20physics).md)__ ::@:: 1/2 _ħ_
+> - __[Excess energy](excess%20energy.md)__ ::@:: 7288.969±0.001 [keV](electronvolt.md)
+> - __[Nuclear binding energy](nuclear%20binding%20energy.md)__ ::@:: 0.000±0.0000 keV
+
+<!-- markdownlint MD028 -->
+
+> {@{![Hydrogen atom](../../archives/Wikimedia%20Commons/Hydrogen%20atom.svg)}@}
+>
+> {@{Depiction of a hydrogen atom}@} showing {@{the diameter as about twice the [Bohr model](Bohr%20model.md) radius}@}. \(Image not to scale\)
+
+{@{A __hydrogen atom__}@} is {@{an [atom](atom.md) of the [chemical element](chemical%20element.md) [hydrogen](hydrogen.md)}@}. {@{The [electrically](electric%20charge.md) neutral hydrogen atom}@} contains {@{a single positively charged [proton](proton.md) in the nucleus}@}, and {@{a single negatively charged [electron](electron.md) bound to the nucleus by the [Coulomb force](Coulomb%20force.md)}@}. {@{__Atomic hydrogen__}@} constitutes {@{[about 74%](abundance%20of%20the%20chemical%20elements.md) of the [baryonic](baryon.md) mass of the universe}@}.<sup>[\[1\]](#^ref-1)</sup>
+
+In {@{everyday life on Earth}@}, {@{isolated hydrogen atoms \(called "atomic hydrogen"\)}@} are {@{extremely rare}@}. Instead, {@{a hydrogen atom}@} tends to {@{combine with other atoms in compounds}@}, or with {@{another hydrogen atom to form ordinary \([diatomic](diatomic.md)\) hydrogen gas, H<sub>2</sub>}@}. {@{"Atomic hydrogen" and "hydrogen atom" in ordinary English}@} use have {@{overlapping, yet distinct, meanings}@}. For example, {@{a water molecule}@} contains {@{two hydrogen atoms}@}, but does not {@{contain atomic hydrogen \(which would refer to isolated hydrogen atoms\)}@}.
+
+{@{[Atomic spectroscopy](atomic%20spectroscopy.md)}@} shows that there is {@{a discrete infinite set of states in which a hydrogen \(or any\) atom can exist}@}, contrary to {@{the predictions of [classical physics](classical%20physics.md)}@}. {@{Attempts to develop a theoretical understanding of the states of the hydrogen atom}@} have been important to {@{the [history of quantum mechanics](history%20of%20quantum%20mechanics.md)}@}, since all {@{other atoms can be roughly understood by knowing in detail about this simplest atomic structure}@}.
+
+## isotopes
+
+- Main article: ::@:: [Isotopes of hydrogen](isotopes%20of%20hydrogen.md)
+
+{@{The most [abundant](abundance%20of%20the%20chemical%20elements.md) [isotope](isotope.md)}@}, {@{protium \(<sup>1</sup>H\), or light hydrogen}@}, contains {@{no [neutrons](neutron.md) and is simply a [proton](proton.md) and an [electron](electron.md)}@}. {@{Protium}@} is {@{[stable](proton%20decay.md) and makes up 99.985% of naturally occurring hydrogen atoms}@}.<sup>[\[2\]](#^ref-2)</sup>
+
+{@{[Deuterium](deuterium.md) \(<sup>2</sup>H\)}@} contains {@{one neutron and one proton in its nucleus}@}. Deuterium is {@{stable, makes up 0.0156% of naturally occurring hydrogen}@},<sup>[\[2\]](#^ref-2)</sup> and is used in {@{industrial processes like [nuclear reactors](nuclear%20reactor.md) and [nuclear magnetic resonance spectroscopy](deuterium%20NMR.md)}@}.
+
+{@{[Tritium](tritium.md) \(<sup>3</sup>H\)}@} contains {@{two neutrons and one proton in its nucleus}@} and is {@{not stable, decaying with a [half-life](half-life.md) of 12.32 years}@}. Because of {@{its short half-life}@}, tritium {@{does not exist in nature except in trace amounts}@}.
+
+{@{Heavier isotopes of hydrogen}@} are only {@{created artificially in [particle accelerators](particle%20accelerators.md)}@} and have {@{half-lives on the order of 10<sup>−22</sup> seconds}@}. They are {@{unbound [resonances](resonance%20(particle%20physics).md) located beyond the [neutron drip line](neutron%20drip%20line.md)}@}; this results in {@{prompt [emission of a neutron](neutron%20emission.md)}@}.
+
+{@{The formulas below}@} are {@{valid for all three isotopes of hydrogen}@}, but {@{slightly different values of the [Rydberg constant](Rydberg%20constant.md) \(correction formula given below\)}@} must be {@{used for each hydrogen isotope}@}.
+
+## hydrogen ion
+
+- Main articles: ::@:: [hydrogen cation](hydrogen%20cation.md) and [hydrogen anion](hydrogen%20anion.md)
+
+{@{Lone neutral hydrogen atoms}@} are {@{rare under normal conditions}@}. However, {@{neutral hydrogen}@} is {@{common when it is [covalently bound](covalent%20bond.md) to another atom}@}, and {@{hydrogen atoms}@} can also exist in {@{[cationic and anionic](ion.md#anions%20and%20cations) forms}@}.
+
+If {@{a neutral hydrogen atom loses its electron}@}, it becomes {@{a cation}@}. {@{The resulting ion, which consists solely of a proton for the usual isotope}@}, is written as {@{"H<sup>+</sup>" and sometimes called _[hydron](hydron%20(chemistry).md)_.}@} {@{Free protons}@} are common in {@{the [interstellar medium](interstellar%20medium.md), and [solar wind](solar%20wind.md)}@}. In the context of {@{[aqueous solutions](aqueous%20solution.md) of classical [Brønsted–Lowry acids](Brønsted–Lowry%20acid.md)}@}, such as {@{[hydrochloric acid](hydrochloric%20acid.md)}@}, it is {@{actually [hydronium](hydronium.md), [H](hydrogen.md)<sub>3</sub>[O](oxygen.md)<sup>+</sup>, that is meant}@}. Instead of {@{a literal ionized single hydrogen atom being formed}@}, {@{the acid}@} transfers {@{the hydrogen to H<sub>2</sub>O, forming H<sub>3</sub>O<sup>+</sup>}@}.
+
+If instead {@{a hydrogen atom gains a second electron}@}, it becomes {@{an anion}@}. {@{The [hydrogen anion](hydrogen%20anion.md)}@} is written as {@{"H<sup>–</sup>" and called _[hydride](hydride.md)_}@}.
+
+## theoretical analysis
+
+{@{The hydrogen atom}@} has {@{special significance in [quantum mechanics](quantum%20mechanics.md) and [quantum field theory](quantum%20field%20theory.md)}@} as {@{a simple [two-body problem](two-body%20problem.md) physical system}@} which has {@{yielded many simple [analytical](closed-form%20expression.md) solutions in closed-form}@}.
+
+### failed classical description
+
+{@{[Experiments](Rutherford%20model.md) by [Ernest Rutherford](Ernest%20Rutherford.md) in 1909}@} showed {@{the structure of the atom to be a dense, positive nucleus with a tenuous negative charge cloud around it}@}. This immediately raised {@{questions about how such a system could be stable}@}. {@{[Classical electromagnetism](classical%20electromagnetism.md)}@} had shown that {@{any accelerating charge radiates energy, as shown by the [Larmor formula](Larmor%20formula.md)}@}. If the electron is {@{assumed to orbit in a perfect circle and radiates energy continuously}@}, the electron would {@{rapidly spiral into the nucleus with a fall time of}@}:<sup>[\[3\]](#^ref-3)</sup> {@{$$t_{\text{fall} }\approx {\frac { {a_{0} }^{3} }{4{r_{0} }^{2}c} }\approx 1.6\times 10^{-11}{\text{ s} },$$}@} where $a_{0}$ is {@{the [Bohr radius](Bohr%20radius.md)}@} and $r_{0}$ is {@{the [classical electron radius](classical%20electron%20radius.md)}@}. If this {@{were true, all atoms would instantly collapse}@}. However, atoms {@{seem to be stable}@}. Furthermore, {@{the spiral inward}@} would release {@{a smear of electromagnetic frequencies as the orbit got smaller}@}. Instead, atoms were {@{observed to emit only discrete frequencies of radiation}@}. {@{The resolution}@} would lie in {@{the development of [quantum mechanics](quantum%20mechanics.md)}@}.
+
+### Bohr–Sommerfeld model
+
+- Main article: ::@:: [Bohr model](Bohr%20model.md)
+
+In {@{1913, [Niels Bohr](Niels%20Bohr.md)}@} obtained {@{the energy levels and spectral frequencies of the hydrogen atom}@} after making {@{a number of simple assumptions in order to correct the failed classical model}@}. {@{The assumptions}@} included: (annotation: 3 items: {@{quantized orbits, stable orbits, quantum jumps}@})
+
+1. (annotation: quantized orbits) ::@:: Electrons can only be in certain, discrete circular orbits or _stationary states_, thereby having a discrete set of possible radii and energies.
+2. (annotation: stable orbits) ::@:: Electrons do not emit radiation while in one of these stationary states.
+3. (annotation: quantum jumps) ::@:: An electron can gain or lose energy by jumping from one discrete orbit to another.
+
+{@{Bohr supposed that the electron's angular momentum}@} is {@{quantized with possible values}@}: {@{$$L=n\hbar$$ where $n=1,2,3,\ldots$ and $\hbar$ is [Planck constant](Planck%20constant.md) over $2\pi$}@}. He also supposed that {@{the [centripetal force](centripetal%20force.md) which keeps the electron in its orbit}@} is provided by {@{the [Coulomb force](Coulomb's%20law.md)}@}, and that {@{energy is conserved}@}. Bohr derived {@{the energy of each orbit of the hydrogen atom to be}@}:<sup>[\[4\]](#^ref-4)</sup> {@{$$E_{n}=-{\frac {m_{\text{e} }e^{4} }{2(4\pi \varepsilon _{0})^{2}\hbar ^{2} } }{\frac {1}{n^{2} } },$$}@} where $m_{\text{e} }$ is {@{the [electron mass](electron%20mass.md)}@}, $e$ is {@{the [electron charge](electron%20charge.md)}@}, $\varepsilon _{0}$ is {@{the [vacuum permittivity](vacuum%20permittivity.md)}@}, and $n$ is {@{the [quantum number](quantum%20number.md) \(now known as the [principal quantum number](principal%20quantum%20number.md)\)}@}. {@{Bohr's predictions}@} matched {@{experiments measuring the [hydrogen spectral series](hydrogen%20spectral%20series.md) to the first order}@}, giving {@{more confidence to a theory that used quantized values}@}.
+
+For {@{$n=1$}@}, the value<sup>[\[5\]](#^ref-5)</sup> {@{$${\frac {m_{\text{e} }e^{4} }{2(4\pi \varepsilon _{0})^{2}\hbar ^{2} } }={\frac {m_{\text{e} }e^{4} }{8h^{2}\varepsilon _{0}^{2} } }=1\,{\text{Ry} }=13.605\;693\;122\;994(26)\,{\text{eV} }$$}@} is called {@{the Rydberg unit of energy}@}. It is related to {@{the [Rydberg constant](Rydberg%20constant.md) $R_{\infty }$ of [atomic physics](atomic%20physics.md)}@} by {@{$1\,{\text{Ry} }\equiv hcR_{\infty }$}@}.
+
+{@{The exact value of the Rydberg constant}@} assumes that {@{the nucleus is infinitely massive with respect to the electron}@}. For {@{hydrogen-1, hydrogen-2 \([deuterium](deuterium.md)\), and hydrogen-3 \([tritium](tritium.md)\) which have finite mass}@}, {@{the constant}@} must be {@{slightly modified to use the [reduced mass](reduced%20mass.md) of the system, rather than simply the mass of the electron}@}. This includes {@{the kinetic energy of the nucleus in the problem}@}, because {@{the total \(electron plus nuclear\) kinetic energy}@} is equivalent to {@{the kinetic energy of the reduced mass moving with a velocity equal to the electron velocity relative to the nucleus}@}. However, since {@{the nucleus is much heavier than the electron}@}, {@{the electron mass and reduced mass are nearly the same}@}. {@{The Rydberg constant _R<sub>M</sub>_ for a hydrogen atom \(one electron\)}@} is given by: {@{$$R_{M}={\frac {R_{\infty } }{1+m_{\text{e} }/M} },$$}@} where $M$ is {@{the mass of the atomic nucleus}@}. For {@{hydrogen-1, the quantity $m_{\text{e} }/M$}@}, is {@{about 1/1836 \(i.e. the electron-to-proton mass ratio\)}@}. For {@{deuterium and tritium}@}, the ratios are {@{about 1/3670 and 1/5497 respectively}@}. These figures, when {@{added to 1 in the denominator}@}, represent {@{very small corrections in the value of _R_}@}, and thus only {@{small corrections to all energy levels in corresponding hydrogen isotopes}@}.
+
+There were still {@{problems with Bohr's model}@}: (annotation: 3 items: {@{fine structure and hyperfine structure, single-electron atoms, accuracy}@})
+
+1. (annotation: fine structure and hyperfine structure) ::@:: it failed to predict other spectral details such as [fine structure](fine%20structure.md) and [hyperfine structure](hyperfine%20structure.md)
+2. (annotation: single-electron atoms) ::@:: it could only predict energy levels with any accuracy for single–electron atoms \(hydrogen-like atoms\)
+3. (annotation: accuracy) ::@:: the predicted values were only correct to $\alpha ^{2}\approx 10^{-5}$, where $\alpha$ is the [fine-structure constant](fine-structure%20constant.md).
+
+{@{Most of these shortcomings}@} were resolved by {@{[Arnold Sommerfeld](Arnold%20Sommerfeld.md)'s modification of the Bohr model}@}. {@{Sommerfeld introduced two additional degrees of freedom}@}, allowing {@{an electron to move on an elliptical orbit characterized by its [eccentricity](orbital%20eccentricity.md) and [declination](declination.md) with respect to a chosen axis}@}. This introduced {@{two additional quantum numbers}@}, which correspond to {@{the orbital [angular momentum](angular%20momentum.md) and its projection on the chosen axis}@}. Thus {@{the correct multiplicity of states}@} \(except for {@{the factor 2 accounting for the yet unknown electron spin}@}\) was found. Further, by applying {@{[special relativity](special%20relativity.md) to the elliptic orbits}@}, Sommerfeld succeeded in deriving {@{the correct expression for the fine structure of hydrogen spectra}@} \(which happens to be {@{exactly the same as in the most elaborate Dirac theory}@}\). However, some {@{observed phenomena, such as the anomalous [Zeeman effect](Zeeman%20effect.md), remained unexplained}@}. {@{These issues were resolved}@} with {@{the full development of quantum mechanics and the [Dirac equation](Dirac%20equation.md)}@}. It is often alleged that {@{the [Schrödinger equation](Schrödinger%20equation.md)}@} is {@{superior to the Bohr–Sommerfeld theory in describing hydrogen atom}@}. This is not {@{the case, as most of the results of both approaches coincide or are very close}@} \({@{a remarkable exception}@} is the problem of {@{hydrogen atom in crossed electric and magnetic fields}@}, which cannot be {@{self-consistently solved in the framework of the Bohr–Sommerfeld theory}@}\), and in {@{both theories the main shortcomings}@} result from {@{the absence of the electron spin}@}. It was {@{the complete failure of the Bohr–Sommerfeld theory}@} to explain {@{many-electron systems \(such as helium atom or hydrogen molecule\)}@} which demonstrated its {@{inadequacy in describing quantum phenomena}@}.
+
+### Schrödinger equation
+
+{@{The Schrödinger equation}@} is {@{the standard quantum-mechanics model}@}; it allows one to calculate {@{the stationary states and also the time evolution of quantum systems}@}. {@{Exact analytical answers}@} are available for {@{the nonrelativistic hydrogen atom}@}. Before we go to present {@{a formal account}@}, here we give {@{an elementary overview}@}.
+
+Given that {@{the hydrogen atom}@} contains {@{a nucleus and an electron}@}, {@{quantum mechanics}@} allows one to predict {@{the probability of finding the electron at any given radial distance $r$}@}. It is given by {@{the square of a mathematical function known as the "[wavefunction](wave%20function.md)"}@}, which is {@{a solution of the Schrödinger equation}@}. {@{The lowest energy equilibrium state}@} of the hydrogen atom is known as {@{the ground state}@}. {@{The ground state wave function}@} is known as {@{the $1\mathrm {s}$ wavefunction}@}. It is written as: {@{$$\psi _{1\mathrm {s} }(r)={\frac {1}{ {\sqrt {\pi } }a_{0}^{3/2} } }\mathrm {e} ^{-r/a_{0} }.$$}@} Here, $a_{0}$ is {@{the numerical value of the Bohr radius}@}. {@{The probability density of finding the electron at a distance $r$ in any radial direction}@} is {@{the squared value of the wavefunction}@}: {@{$$|\psi _{1\mathrm {s} }(r)|^{2}={\frac {1}{\pi a_{0}^{3} } }\mathrm {e} ^{-2r/a_{0} }.$$}@} {@{The $1\mathrm {s}$ wavefunction}@} is {@{spherically symmetric}@}, and {@{the surface area of a shell at distance $r$ is $4\pi r^{2}$}@}, so {@{the total probability $P(r)\,dr$ of the electron being in a shell at a distance $r$ and thickness $dr$}@} is {@{$$P(r)\,\mathrm {d} r=4\pi r^{2}|\psi _{1\mathrm {s} }(r)|^{2}\,\mathrm {d} r.$$}@}
+
+It turns out that this is {@{a maximum at $r=a_{0}$}@}. That is, {@{the Bohr picture of an electron orbiting the nucleus at radius $a_{0}$}@} corresponds to {@{the most probable radius}@}. Actually, there is {@{a finite probability that the electron may be found at any radius $r$}@}, with the probability {@{indicated by the square of the wavefunction}@}. Since {@{the probability of finding the electron _somewhere_ in the whole volume}@} is {@{unity}@}, {@{the integral of $P(r)\,\mathrm {d} r$ is unity}@}. Then we say that {@{the wavefunction is properly normalized}@}.
+
+As discussed below, {@{the ground state $1\mathrm {s}$}@} is also indicated by {@{the [quantum numbers](quantum%20number.md#electron%20in%20an%20atom) $(n=1,\ell =0,m=0)$}@}. {@{The second lowest energy states, just above the ground state}@}, are given by {@{the quantum numbers $(2,0,0)$, $(2,1,0)$, and $(2,1,\pm 1)$}@}. {@{These $n=2$ states all have the same energy}@} and are known as {@{the $2\mathrm {s}$ and $2\mathrm {p}$ states}@}. There is {@{one $2\mathrm {s}$ state}@}: {@{$$\psi _{2,0,0}={\frac {1}{4{\sqrt {2\pi } }a_{0}^{3/2} } }\left(2-{\frac {r}{a_{0} } }\right)\mathrm {e} ^{-r/2a_{0} },$$}@} and there are {@{three $2\mathrm {p}$ states}@}: {@{$$\psi _{2,1,0}={\frac {1}{4{\sqrt {2\pi } }a_{0}^{3/2} } }{\frac {r}{a_{0} } }\mathrm {e} ^{-r/2a_{0} }\cos \theta ,$$}@} <br/> {@{$$\psi _{2,1,\pm 1}=\mp {\frac {1}{8{\sqrt {\pi } }a_{0}^{3/2} } }{\frac {r}{a_{0} } }\mathrm {e} ^{-r/2a_{0} }\sin \theta ~\mathrm {e} ^{\pm \mathrm {i} \varphi }.$$}@} {@{An electron in the $2\mathrm {s}$ or $2\mathrm {p}$ state}@} is most likely to be {@{found in the second Bohr orbit with energy given by the Bohr formula}@}.
+
+#### wavefunction
+
+{@{The [Hamiltonian](Hamiltonian%20mechanics.md) of the hydrogen atom}@} is {@{the kinetic energy operator}@} plus {@{the Coulomb electrostatic potential energy between the positive proton and the negative electron}@}. Using {@{the time-independent Schrödinger equation}@}, ignoring {@{all spin-coupling interactions}@} and using {@{the [reduced mass](reduced%20mass.md) $\mu =m_{\text{e} }M/(m_{\text{e} }+M)$}@}, the equation is written as: {@{$$\left(-{\frac {\hbar ^{2} }{2\mu } }\nabla ^{2}-{\frac {e^{2} }{4\pi \varepsilon _{0}r} }\right)\psi (r,\theta ,\varphi )=E\psi (r,\theta ,\varphi )$$}@} Expanding {@{the [Laplacian](Laplace%20operator.md) in spherical coordinates}@}: {@{$$-{\frac {\hbar ^{2} }{2\mu } }\left[{\frac {1}{r^{2} } }{\frac {\partial }{\partial r} }\left(r^{2}{\frac {\partial \psi }{\partial r} }\right)+{\frac {1}{r^{2}\sin \theta } }{\frac {\partial }{\partial \theta } }\left(\sin \theta {\frac {\partial \psi }{\partial \theta } }\right)+{\frac {1}{r^{2}\sin ^{2}\theta } }{\frac {\partial ^{2}\psi }{\partial \varphi ^{2} } }\right]-{\frac {e^{2} }{4\pi \varepsilon _{0}r} }\psi =E\psi$$}@} This is {@{a [separable](separation%20of%20variables.md), [partial differential equation](partial%20differential%20equation.md)}@} which can be {@{solved in terms of special functions}@}. When {@{the wavefunction is separated as a product}@} of {@{functions $R(r)$, $\Theta (\theta )$, and $\Phi (\varphi )$}@} {@{three independent differential functions appear}@}<sup>[\[6\]](#^ref-6)</sup> with {@{A and B being the separation constants}@}: (annotation: 3 items: {@{radial, polar, azimuth}@})
+
+- radial: ::@:: $${\frac {d}{dr} }\left(r^{2}{\frac {dR}{dr} }\right)+{\frac {2\mu r^{2} }{\hbar ^{2} } }\left(E+{\frac {e^{2} }{4\pi \varepsilon _{0}r} }\right)R-AR=0$$
+- polar: ::@:: $${\frac {\sin \theta }{\Theta } }{\frac {d}{d\theta } }\left(\sin \theta {\frac {d\Theta }{d\theta } }\right)+A\sin ^{2}\theta -B=0$$
+- azimuth: ::@:: $${\frac {1}{\Phi } }{\frac {d^{2}\Phi }{d\varphi ^{2} } }+B=0.$$
+
+{@{The normalized position [wavefunctions](wavefunction.md), given in [spherical coordinates](spherical%20coordinates.md)}@} are: {@{$$\psi _{n\ell m}(r,\theta ,\varphi )={\sqrt { {\left({\frac {2}{na_{0}^{*} } }\right)}^{3}{\frac {(n-\ell -1)!}{2n(n+\ell )!} } } }\mathrm {e} ^{-\rho /2}\rho ^{\ell }L_{n-\ell -1}^{2\ell +1}(\rho )Y_{\ell }^{m}(\theta ,\varphi )$$}@}
+
+> {@{![Calculated 4f<sub>1</sub> [orbital](https://en.wikipedia.org/wiki/Atomic_orbital) of an electron's eigenstate in the Coulomb-field of a hydrogen nucleus. An [eigenstate](https://en.wikipedia.org/wiki/Eigenfunction) is a state which keeps it's shape except for a complex phase when the [Hamilton operator](https://en.wikipedia.org/wiki/Hamiltonian_(quantum_mechanics)) is applied, thus being invariant in time while obeying the [Schrödinger equation](https://en.wikipedia.org/wiki/Schr%C3%B6dinger_equation). The orbital is aligned around the z-axis, but remains an eigenfunction if rotated to any direction. <p> The [wavefunction](#wavefunction) is: <p> ψ4,3,1(r,ϑ,φ)=(12a0)318⋅7!⋅e−r/(4a0)⋅(1r2a0)3⋅Y31(ϑ,φ) <p> <br/> The state is an eigenstate of [H](https://en.wikipedia.org/wiki/Hamiltonian_(quantum_mechanics)), [L](https://en.wikipedia.org/wiki/Angular_momentum_operator)² and [L](https://en.wikipedia.org/wiki/Angular_momentum_operator)<sub>z</sub>, which constitute a [complete set of commuting observables](https://en.wikipedia.org/wiki/complete_set_of_commuting_observables). The [quantum numbers](https://en.wikipedia.org/wiki/quantum_number) mean that the following quantities have a sharp certain value: <p> - n = 4: [Energy](https://en.wikipedia.org/wiki/Principal_quantum_number): E=−1Ry/n2=−13.6eV/16 <br/> - l = 3: [Angular momentum](https://en.wikipedia.org/wiki/Azimuthal_quantum_number): |L|=l(l+1)ℏ=23ℏ <br/> - m = 1: [Angular momentum in z-direction](https://en.wikipedia.org/wiki/Magnetic_quantum_number): Lz=mℏ=ℏ <p> Since l=3, this is called a f-orbital. The depicted rigid body is where the probability density exceeds a certain value. The color shows the complex phase of the wavefunction, where blue means real positive, red means imaginary positive, yellow means real negative and green means imaginary negative. The image is [raytraced](https://en.wikipedia.org/wiki/Ray_tracing_(graphics)) using modified [Phong lighting](https://en.wikipedia.org/wiki/Phong_reflection_model). <p> The [fine structure](https://en.wikipedia.org/wiki/fine_structure) is neglected.](../../archives/Wikimedia%20Commons/Hydrogen%20eigenstate%20n4%20l3%20m1.png)}@}
+>
+> {@{3D illustration}@} of {@{the eigenstate $\psi _{4,3,1}$}@}. {@{Electrons in this state}@} are {@{45% likely to be found within the solid body shown}@}.
+
+where:
+
+- (annotation: dimensionless radial variable) ::@:: $\rho ={2r \over {na_{0}^{*} } }$,
+- $a_{0}^{*}$ ::@:: is the [reduced Bohr radius](reduced%20Bohr%20radius.md#reduced%20Bohr%20radius), $a_{0}^{*}={ {4\pi \varepsilon _{0}\hbar ^{2} } \over {\mu e^{2} } }$,
+- $\ell$ ::@:: replaces the separation constant $A$ with $\ell (\ell +1)=A$,
+- $m$ ::@:: replaces the separation constant $B$ with $m^{2}=B$,
+- $L_{n-\ell -1}^{2\ell +1}(\rho )$ ::@:: is a [generalized Laguerre polynomial](Laguerre%20polynomial.md#generalized%20Laguerre%20polynomials) of degree $n-\ell -1$, and
+- $Y_{\ell }^{m}(\theta ,\varphi )$ ::@:: is a [spherical harmonic](spherical%20harmonic.md) function of degree $\ell$ and order $m$.
+
+Note that {@{the generalized Laguerre polynomials}@} are {@{defined differently by different authors}@}. {@{The usage here}@} is consistent with {@{the definitions used by Messiah,<sup>[\[7\]](#^ref-7)</sup> and Mathematica}@}.<sup>[\[8\]](#^ref-8)</sup> In other places, {@{the Laguerre polynomial}@} includes {@{a factor of $(n+\ell )!$}@},<sup>[\[9\]](#^ref-9)</sup> or {@{the generalized Laguerre polynomial appearing in the hydrogen wave function}@} is {@{$L_{n+\ell }^{2\ell +1}(\rho )$ instead}@}.<sup>[\[10\]](#^ref-10)</sup>
+
+{@{The quantum numbers}@} can take {@{the following values}@}: (annotation: 3 items: {@{principal, azimuthal, magnetic}@})
+
+- $n=1,2,3,\ldots$ ::@:: \([principal quantum number](principal%20quantum%20number.md)\)
+- $\ell =0,1,2,\ldots ,n-1$ ::@:: \([azimuthal quantum number](azimuthal%20quantum%20number.md)\)
+- $m=-\ell ,\ldots ,\ell$ ::@:: \([magnetic quantum number](magnetic%20quantum%20number.md)\).
+
+Additionally, {@{these wavefunctions}@} are {@{_normalized_ \(i.e., the integral of their modulus square equals 1\) and [orthogonal](orthogonal%20functions.md)}@}: {@{$$\int _{0}^{\infty }r^{2}\,dr\int _{0}^{\pi }\sin \theta \,d\theta \int _{0}^{2\pi }d\varphi \,\psi _{n\ell m}^{*}(r,\theta ,\varphi )\psi _{n'\ell 'm'}(r,\theta ,\varphi )=\langle n,\ell ,m|n',\ell ',m'\rangle =\delta _{nn'}\delta _{\ell \ell '}\delta _{mm'},$$}@} where {@{$|n,\ell ,m\rangle$}@} is {@{the state represented by the wavefunction $\psi _{n\ell m}$ in [Dirac notation](Dirac%20notation.md)}@}, and $\delta$ is {@{the [Kronecker delta](Kronecker%20delta.md) function}@}.<sup>[\[11\]](#^ref-11)</sup>
+
+{@{The wavefunctions in momentum space}@} are related to {@{the wavefunctions in position space through a Fourier transform}@} {@{$$\varphi (p,\theta _{p},\varphi _{p})=(2\pi \hbar )^{-3/2}\int \mathrm {e} ^{-i{\vec {p} }\cdot {\vec {r} }/\hbar }\psi (r,\theta ,\varphi )\,dV,$$}@} which, for {@{the bound states}@}, results in<sup>[\[12\]](#^ref-12)</sup> {@{$$\varphi (p,\theta _{p},\varphi _{p})={\sqrt { {\frac {2}{\pi } }{\frac {(n-\ell -1)!}{(n+\ell )!} } } }n^{2}2^{2\ell +2}\ell !{\frac {n^{\ell }p^{\ell } }{(n^{2}p^{2}+1)^{\ell +2} } }C_{n-\ell -1}^{\ell +1}\left({\frac {n^{2}p^{2}-1}{n^{2}p^{2}+1} }\right)Y_{\ell }^{m}(\theta _{p},\varphi _{p}),$$}@} where {@{$C_{N}^{\alpha }(x)$}@} denotes {@{a [Gegenbauer polynomial](Gegenbauer%20polynomial.md)}@} and $p$ is {@{in units of $\hbar /a_{0}^{*}$}@}.
+
+{@{The solutions to the Schrödinger equation for hydrogen}@} are {@{[analytical](analytical%20expression.md#analytic%20expression)}@}, giving {@{a simple expression for the hydrogen [energy levels](energy%20levels.md)}@} and thus {@{the frequencies of the hydrogen [spectral lines](spectral%20line.md)}@} and fully {@{reproduced the Bohr model and went beyond it}@}. It also yields {@{two other quantum numbers}@} and {@{the shape of the electron's wave function \("orbital"\) for the various possible quantum-mechanical states}@}, thus explaining {@{the [anisotropic](anisotropic.md) character of atomic bonds}@}.
+
+{@{The Schrödinger equation}@} also applies to {@{more complicated atoms and [molecules](molecule.md)}@}. When there is {@{more than one electron or nucleus}@} the solution is not {@{analytical and either computer calculations are necessary or simplifying assumptions must be made}@}.
+
+Since {@{the Schrödinger equation}@} is only {@{valid for non-relativistic quantum mechanics}@}, {@{the solutions it yields for the hydrogen atom}@} are {@{not entirely correct}@}. {@{The [Dirac equation](Dirac%20equation.md) of relativistic quantum theory}@} improves {@{these solutions \(see below\)}@}.
+
+#### results of Schrödinger equation
+
+{@{The solution of the Schrödinger equation \(wave equation\) for the hydrogen atom}@} uses the fact that {@{the [Coulomb potential](Coulomb's%20law.md) produced by the nucleus}@} is {@{[isotropic](isotropic.md) \(it is radially symmetric in space and only depends on the distance to the nucleus\)}@}. Although {@{the resulting [energy eigenfunctions](energy%20eigenfunctions.md) \(the _orbitals_\)}@} are not {@{necessarily isotropic themselves}@}, {@{their dependence on the [angular coordinates](spherical%20coordinate%20system.md)}@} follows {@{completely generally from this isotropy of the underlying potential}@}: {@{the [eigenstates](eigenstates.md#pure%20state) of the [Hamiltonian](Hamiltonian%20(quantum%20mechanics).md) \(that is, the energy eigenstates\)}@} can be chosen as {@{simultaneous eigenstates of the [angular momentum operator](angular%20momentum%20operator.md)}@}. This corresponds to the fact that {@{angular momentum is conserved in the [orbital motion](orbital%20motion%20(quantum).md) of the electron around the nucleus}@}. Therefore, {@{the energy eigenstates}@} may be classified by {@{two angular momentum [quantum numbers](quantum%20number.md), $\ell$ and $m$ \(both are integers\)}@}. {@{The angular momentum quantum number $\ell =0,1,2,\ldots$}@} determines {@{the magnitude of the angular momentum}@}. {@{The magnetic quantum number $m=-\ell ,\ldots ,+\ell$}@} determines {@{the projection of the angular momentum on the \(arbitrarily chosen\) $z$-axis}@}.
+
+In addition to {@{mathematical expressions for total angular momentum and angular momentum projection}@} of wavefunctions, {@{an expression for the radial dependence of the wave functions}@} must be found. It is only here that {@{the details of the $1/r$ Coulomb potential}@} enter \(leading to {@{[Laguerre polynomials](Laguerre%20polynomials.md) in $r$}@}\). This leads to {@{a third quantum number, the principal quantum number $n=1,2,3,\ldots$}@}. {@{The principal quantum number in hydrogen}@} is related to {@{the atom's total energy}@}.
+
+Note that {@{the maximum value of the angular momentum quantum number}@} is limited by {@{the principal quantum number}@}: it can {@{run only up to $n-1$, i.e., $\ell =0,1,\ldots ,n-1$}@}.
+
+Due to {@{angular momentum conservation}@}, {@{states of the same $\ell$ but different $m$}@} have {@{the same energy}@} \(this holds for all {@{problems with [rotational symmetry](rotational%20symmetry.md)}@}\). In addition, for {@{the hydrogen atom}@}, {@{states of the same $n$ but different $\ell$}@} are also {@{[degenerate](degenerate%20energy%20levels.md) \(i.e., they have the same energy\)}@}. However, this is {@{a specific property of hydrogen}@} and is {@{no longer true for more complicated atoms}@} which have {@{an \(effective\) potential differing from the form $1/r$}@} \(due to {@{the presence of the inner electrons shielding the nucleus potential}@}\).
+
+Taking into account {@{the [spin](spin%20(physics).md) of the electron}@} adds {@{a last quantum number}@}, {@{the projection of the electron's spin angular momentum along the $z$-axis}@}, which can take {@{on two values}@}. Therefore, {@{any [eigenstate](eigenstate.md#pure%20state) of the electron in the hydrogen atom}@} is {@{described fully by four quantum numbers}@}. According to {@{the usual rules of quantum mechanics}@}, {@{the actual state of the electron}@} may be {@{any [superposition](quantum%20superposition.md) of these states}@}. This explains also why the choice of {@{$z$-axis for the directional [quantization](quantization%20(physics).md) of the angular momentum vector}@} is {@{immaterial}@}: {@{an orbital of given $\ell$ and $m'$}@} obtained for {@{another preferred axis $z'$}@} can always be represented as {@{a suitable superposition of the various states of different $m$ \(but same $\ell$\) that have been obtained for $z$}@}.
+
+#### mathematical summary of eigenstates of hydrogen atom
+
+- Main article: ::@:: [Hydrogen-like atom](hydrogen-like%20atom.md)
+
+In {@{1928, [Paul Dirac](Paul%20Dirac.md) found [an equation](Dirac%20equation.md)}@} that was {@{fully compatible with [special relativity](special%20relativity.md)}@}, and \(as a consequence\) made {@{the wave function a 4-component "[Dirac spinor](Dirac%20spinor.md)"}@} including {@{"up" and "down" spin components}@}, with both {@{positive and "negative" energy \(or matter and antimatter\)}@}. {@{The solution to this equation}@} gave {@{the following results, more accurate than the Schrödinger solution}@}.
+
+##### energy levels
+
+{@{The energy levels of hydrogen}@}, including {@{[fine structure](fine%20structure.md) \(excluding [Lamb shift](Lamb%20shift.md) and [hyperfine structure](hyperfine%20structure.md)\)}@}, are given by {@{the [Sommerfeld fine-structure](fine-structure%20constant.md) expression}@}:<sup>[\[13\]](#^ref-13)</sup> {@{$${\begin{aligned}E_{j\,n}={}&-\mu c^{2}\left[1-\left(1+\left[{\frac {\alpha }{n-j-{\frac {1}{2} }+{\sqrt {\left(j+{\frac {1}{2} }\right)^{2}-\alpha ^{2} } } } }\right]^{2}\right)^{-1/2}\right]\\\approx {}&-{\frac {\mu c^{2}\alpha ^{2} }{2n^{2} } }\left[1+{\frac {\alpha ^{2} }{n^{2} } }\left({\frac {n}{j+{\frac {1}{2} } } }-{\frac {3}{4} }\right)\right],\end{aligned} }$$}@} where $\alpha$ is {@{the [fine-structure constant](fine-structure%20constant.md)}@} and $j$ is {@{the [total angular momentum quantum number](total%20angular%20momentum%20quantum%20number.md)}@}, which is equal to {@{$\left|\ell \pm {\tfrac {1}{2} }\right|$}@}, depending on {@{the orientation of the electron spin relative to the orbital angular momentum}@}.<sup>[\[14\]](#^ref-14)</sup> {@{This formula}@} represents {@{a small correction to the energy obtained by Bohr and Schrödinger as given above}@}. {@{The factor in square brackets in the last expression}@} is {@{nearly one}@}; {@{the extra term}@} arises from {@{relativistic effects}@} \(for details, see {@{[\#Features going beyond the Schrödinger solution](#features%20going%20beyond%20the%20Schrödinger%20solution)}@}\). It is worth noting that {@{this expression was first obtained by [A. Sommerfeld](Arnold%20Sommerfeld.md) in 1916}@} based on {@{the relativistic version of the [old Bohr theory](old%20quantum%20theory.md)}@}. {@{Sommerfeld}@} has however used {@{different notation for the quantum numbers}@}.
+
+### visualizing the hydrogen electron orbitals
+
+- Main article: ::@:: [Atomic orbital](atomic%20orbital.md)
+
+> {@{![First few [hydrogen atom](https://en.wikipedia.org/wiki/hydrogen_atom) orbitals; cross section showing color-coded probability density for different n=1,2,3 and l="s","p","d"; note: m=0 <br/> The picture shows the first few hydrogen atom orbitals \(energy eigenfunctions\). These are cross-sections of the probability density that are color-coded \(black=zero density, white=highest density\). The [angular momentum quantum number](https://en.wikipedia.org/wiki/Azimuthal_quantum_number) l is denoted in each column, using the usual [spectroscopic letter code](https://en.wikipedia.org/wiki/Spectroscopic_notation) \("s" means l=0; "p": l=1; "d": l=2\). The [prinipal quantum number](https://en.wikipedia.org/wiki/Principal_quantum_number) n \(=1,2,3,...\) is marked to the right of each row. For all pictures the [magnetic quantum number](https://en.wikipedia.org/wiki/Magnetic_quantum_number) m has been set to 0, and the cross-sectional plane is the x-z plane \(z is the vertical axis\). The probability density in three-dimensional space is obtained by rotating the one shown here around the z-axis. <p> Note the striking similarity of this picture to the diagrams of the normal modes of displacement of a soap film membrane oscillating on a disk bound by a wire frame. See, e.g., _Vibrations and Waves_, A.P. French, M.I.T. Introductory Physics Series, 1971, [ISBN](https://en.wikipedia.org/wiki/ISBN) [0393099369](//commons.wikimedia.org/wiki/Special:BookSources/0393099369), page 186, Fig. 6-13. See also [Normal vibration modes of a circular membrane](http://web.mat.bham.ac.uk/C.J.Sangwin/Teaching/CircWaves/waves.html).](../../archives/Wikimedia%20Commons/HAtomOrbitals.png)}@}
+>
+> {@{Probability densities through the _xz_-plane}@} for {@{the electron at different quantum numbers}@} \({@{_ℓ_, across top; _n_, down side}@}; {@{_m_ = 0}@}\)
+
+{@{The image to the right}@} shows {@{the first few hydrogen atom orbitals \(energy eigenfunctions\)}@}. These are {@{cross-sections of the [probability density](probability%20amplitude.md)}@} that are {@{color-coded \(black represents zero density and white represents the highest density\)}@}. {@{The angular momentum \(orbital\) quantum number _ℓ_}@} is denoted in {@{each column, using the usual spectroscopic letter code \(_s_ means _ℓ_ = 0, _p_ means _ℓ_ = 1, _d_ means _ℓ_ = 2\)}@}. {@{The main \(principal\) quantum number _n_ \(= 1, 2, 3, ...\)}@} is {@{marked to the right of each row}@}. For all {@{pictures the magnetic quantum number _m_ has been set to 0}@}, and {@{the cross-sectional plane}@} is {@{the _xz_-plane \(_z_ is the vertical axis\)}@}. {@{The probability density in three-dimensional space}@} is obtained by {@{rotating the one shown here around the _z_-axis}@}.
+
+{@{The "[ground state](ground%20state.md)"}@}, i.e. {@{the state of lowest energy, in which the electron is usually found}@}, is {@{the first one, the 1<!-- markdown separator -->_s_ state \([principal quantum level](principal%20quantum%20level.md) _n_ = 1, _ℓ_ = 0\)}@}.
+
+{@{Black lines}@} occur in {@{each but the first orbital}@}: these are {@{the nodes of the wavefunction, i.e. where the probability density is zero}@}. \(More precisely, {@{the nodes}@} are {@{[spherical harmonics](spherical%20harmonics.md) that appear}@} as a result of solving {@{the [Schrödinger equation](Schrödinger%20equation.md) in spherical coordinates}@}.\)
+
+{@{The [quantum numbers](quantum%20number.md)}@} determine {@{the layout of these nodes}@}. There are:<sup>\[_[citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup> (annotation: 3 items: {@{total nodes, angular nodes, radial nodes}@})
+
+- (annotation: number of total nodes) ::@:: $n-1$ total nodes,
+- (annotation: number of angular nodes) ::@:: $\ell$ of which are angular nodes:
+    - (annotation: number of angular nodes going around the φ axis) ::@:: $m$ angular nodes go around the $\varphi$ axis \(in the _xy_ plane\). \(The figure above does not show these nodes since it plots cross-sections through the _xz_-plane.\)
+    - (annotation: number of angular nodes going around the θ axis) ::@:: $\ell -m$ \(the remaining angular nodes\) occur on the $\theta$ \(vertical\) axis.
+- (annotation: number of radial nodes) ::@:: $n-\ell -1$ \(the remaining non-angular nodes\) are radial nodes.
+
+#### oscillation of orbitals
+
+> {@{![The oscilation of two orbitals with the same m number](../../archives/Wikimedia%20Commons/Azsxdcv.gif)}@}
+>
+> {@{The oscillation of two orbitals}@} with {@{the same value of _m_}@}
+
+{@{The frequency of a state in level n}@} is {@{$\omega _{n}=E_{n}/\hbar$}@}, so in case of {@{a superposition of multiple orbitals}@}, they would {@{oscillate due to the difference in frequency}@}. For example two states, {@{ψ<sub>1</sub>and ψ<sub>2</sub>}@}: {@{The wavefunction}@} is given by {@{$\psi =\psi _{1}e^{i\omega _{1}t}+\psi _{2}e^{i\omega _{2}t}$}@} and {@{the probability function}@} is {@{$P(t)=|\psi |^{2}=(\psi _{1}e^{i\omega _{1}t}+\psi _{2}e^{i\omega _{2}t})(\psi _{1}^{*}e^{-i\omega _{1}t}+\psi _{2}^{*}e^{-i\omega _{2}t})$ $\propto |\psi _{1}\psi _{2}|\cos {[(\omega _{1}-\omega _{2})t]}$}@}
+
+> {@{![The oscillation of two orbitals with different angular momentum numbers](../../archives/Wikimedia%20Commons/Spherical%20harmonics%20animation1.gif)}@}
+>
+> {@{The oscillation of two orbitals}@} with {@{different angular momentum numbers}@}
+
+The result is {@{a rotating wavefunction}@}. {@{The movement of electrons and change of quantum states}@} radiates {@{light at a frequency of the cosine}@}.
+
+#### features going beyond the Schrödinger solution
+
+There are {@{several important effects that are neglected by the Schrödinger equation}@} and which are responsible for {@{certain small but measurable deviations of the real spectral lines from the predicted ones}@}: (annotation: 2 items: {@{relativistic effects, spin–orbit coupling}@})
+
+- Although {@{the mean speed of the electron in hydrogen}@} is {@{only 1/137 of the [speed of light](speed%20of%20light.md)}@}, {@{many modern experiments}@} are {@{sufficiently precise that a complete theoretical explanation requires a fully relativistic treatment of the problem}@}. {@{A relativistic treatment}@} results in {@{a momentum increase of about 1 part in 37000 for the electron}@}. Since {@{the electron's wavelength}@} is {@{determined by its momentum}@}, {@{orbitals containing higher speed electrons}@} show {@{contraction due to smaller wavelengths}@}.
+- Even when there is {@{no external [magnetic field](magnetic%20field.md)}@}, in {@{the [inertial frame](inertial%20frame.md) of the moving electron}@}, {@{the electromagnetic field of the nucleus has a magnetic component}@}. {@{The spin of the electron}@} has {@{an associated [magnetic moment](magnetic%20moment.md) which interacts with this magnetic field}@}. This effect is also explained by {@{special relativity}@}, and it leads to {@{the so-called _[spin–orbit coupling](spin–orbit%20interaction.md)_}@}, i.e., an interaction between {@{the [electron](electron.md)'s [orbital motion](orbital%20motion%20(quantum).md) around the nucleus, and its [spin](spin%20(physics).md)}@}.
+
+{@{Both of these features \(and more\)}@} are {@{incorporated in the relativistic [Dirac equation](Dirac%20equation.md)}@}, with {@{predictions that come still closer to experiment}@}. Again {@{the Dirac equation}@} may be {@{solved analytically in the special case of a two-body system}@}, such as {@{the hydrogen atom}@}. {@{The resulting solution quantum states}@} now must be {@{classified by the [total angular momentum number](total%20angular%20momentum%20quantum%20number.md) _j_}@} \(arising through {@{the coupling between [electron spin](electron%20spin.md#fermions%20and%20bosons) and [orbital angular momentum](angular%20momentum%20operator.md)}@}\). {@{States of the same _j_ and the same _n_}@} are {@{still degenerate}@}. Thus, {@{direct analytical solution of [Dirac equation](Dirac%20equation.md)}@} predicts {@{2S\(⁠1/2⁠\) and 2P\(⁠1/2⁠\) levels of hydrogen (annotation: respectively corresponding to _n_ = 2, _j_ = 1/2, _l_ = 0 and _n_ = 2, _j_ = 1/2, _l_ = 1)}@} to have {@{exactly the same energy}@}, which is {@{in a contradiction with observations \([Lamb–Retherford experiment](Lamb%20shift.md)\)}@}.
+
+- There are {@{always [vacuum fluctuations](quantum%20fluctuation.md) of the [electromagnetic field](electromagnetic%20field.md)}@}, according to {@{quantum mechanics}@}. Due to {@{such fluctuations degeneracy between states of the same _j_ but different _l_ is lifted}@}, giving them {@{slightly different energies}@}. This has been demonstrated in {@{the famous [Lamb–Retherford experiment](Lamb%20shift.md)}@} and was the starting point for {@{the development of the theory of [quantum electrodynamics](quantum%20electrodynamics.md)}@} \(which is able to {@{deal with these vacuum fluctuations}@} and employs {@{the famous [Feynman diagrams](Feynman%20diagram.md) for approximations using [perturbation theory](perturbation%20theory%20(quantum%20mechanics).md)}@}\). This effect is now called {@{[Lamb shift](Lamb%20shift.md)}@}.
+
+For {@{these developments}@}, it was essential that {@{the solution of the Dirac equation for the hydrogen atom}@} could be {@{worked out exactly}@}, such that {@{any experimentally observed deviation}@} had to be {@{taken seriously as a signal of failure of the theory}@}.
+
+## alternatives to the Schrödinger theory
+
+In {@{the language of [Heisenberg's](Werner%20Heisenberg.md) [matrix mechanics](matrix%20mechanics.md)}@}, {@{the hydrogen atom was first solved by [Wolfgang Pauli](Wolfgang%20Pauli.md)}@}<sup>[\[15\]](#^ref-15)</sup> using {@{a [rotational symmetry](rotational%20symmetry.md) in four dimensions \[O\(4\)-symmetry\]}@} generated by {@{the [angular momentum](angular%20momentum.md) and the [Laplace–Runge–Lenz vector](Laplace–Runge–Lenz%20vector.md)}@}. By extending {@{the symmetry group O\(4\) to the [dynamical group](dynamical%20group.md) O\(4,2\)}@}, {@{the entire spectrum and all transitions}@} were embedded in {@{a single irreducible group representation}@}.<sup>[\[16\]](#^ref-16)</sup>
+
+In {@{1979 the \(non-relativistic\) hydrogen atom}@} was solved {@{for the first time within [Feynman's](R.P.%20Feynman.md) [path integral formulation](path%20integral%20formulation.md) of [quantum mechanics](quantum%20mechanics.md) by Duru and Kleinert}@}.<sup>[\[17\]](#^ref-17)</sup><sup>[\[18\]](#^ref-18)</sup> This work greatly extended {@{the range of applicability of [Feynman's](R.P.%20Feynman.md) method}@}.
+
+{@{Further alternative models}@} are {@{[Bohm mechanics](de%20Broglie–Bohm%20theory.md)}@} and {@{the [complex Hamilton–Jacobi formulation of quantum mechanics](quantum%20potential.md#quantum%20Hamilton–Jacobi%20equation)}@}.
+
+## see also
+
+- [Antihydrogen](antihydrogen.md)
+- [Atomic orbital](atomic%20orbital.md)
+- [Balmer series](Balmer%20series.md)
+- [Helium atom](helium%20atom.md)
+- [Hydrogen molecular ion](dihydrogen%20cation.md)
+- [List of quantum-mechanical systems with analytical solutions](list%20of%20quantum-mechanical%20systems%20with%20analytical%20solutions.md)
+- [Lithium atom](lithium%20atom.md)
+- [Proton decay](proton%20decay.md)
+- [Quantum chemistry](quantum%20chemistry.md)
+- [Quantum state](quantum%20state.md)
+- [Trihydrogen cation](trihydrogen%20cation.md)
+
+## references
+
+1. <a id="CITEREFPalmer1997"></a> Palmer, D. \(13 September 1997\). ["Hydrogen in the Universe"](https://web.archive.org/web/20141029152908/http://imagine.gsfc.nasa.gov/docs/ask_astro/answers/971113i.html). [NASA](NASA.md). Archived from [the original](https://imagine.gsfc.nasa.gov/docs/ask_astro/answers/971113i.html) on 29 October 2014. Retrieved 23 February 2017. <a id="^ref-1"></a>^ref-1
+2. <a id="CITEREFHousecroftSharpe2005"></a> Housecroft, Catherine E.; Sharpe, Alan G. \(2005\). _Inorganic Chemistry_ \(2nd ed.\). Pearson Prentice-Hall. p. 237. [ISBN](ISBN%20(identifier).md) [0130-39913-2](https://en.wikipedia.org/wiki/Special:BookSources/0130-39913-2). <a id="^ref-2"></a>^ref-2
+3. <a id="CITEREFOlsenMcDonald2005"></a> Olsen, James; McDonald, Kirk \(7 March 2005\). ["Classical Lifetime of a Bohr Atom"](https://web.archive.org/web/20190909221112/http://www.physics.princeton.edu/~mcdonald/examples/orbitdecay.pdf) \(PDF\). Joseph Henry Laboratories, Princeton University. Archived from [the original](http://www.physics.princeton.edu/~mcdonald/examples/orbitdecay.pdf) \(PDF\) on 9 September 2019. Retrieved 11 December 2015. <a id="^ref-3"></a>^ref-3
+4. <a id="mwAoA"></a> ["Derivation of Bohr's Equations for the One-electron Atom"](http://alpha.chem.umb.edu/chemistry/ch115/carter/files/103more/BohrEquations.pdf) \(PDF\). University of Massachusetts Boston. <a id="^ref-4"></a>^ref-4
+5. Eite Tiesinga, Peter J. Mohr, David B. Newell, and Barry N. Taylor \(2019\), "The 2018 CODATA Recommended Values of the Fundamental Physical Constants" \(Web Version 8.0\). Database developed by J. Baker, M. Douma, and [S. Kotochigova](Svetlana%20Kotochigova.md). Available at [http://physics.nist.gov/constants](http://physics.nist.gov/constants), National Institute of Standards and Technology, Gaithersburg, MD 20899. [Link to R<sub>∞</sub>](http://physics.nist.gov/cgi-bin/cuu/Value?ryd), [Link to hcR<sub>∞</sub>](http://physics.nist.gov/cgi-bin/cuu/Value?rydhcev) <a id="^ref-5"></a>^ref-5
+6. <a id="mwApE"></a> ["Solving Schrödinger's equation for the hydrogen atom :: Atomic Physics :: Rudi Winter's web space"](https://users.aber.ac.uk/ruw/teach/327/hatom.php). _users.aber.ac.uk_. Retrieved 30 November 2020. <a id="^ref-6"></a>^ref-6
+7. <a id="CITEREFMessiah1999"></a> Messiah, Albert \(1999\). _Quantum Mechanics_. New York: Dover. p. 1136. [ISBN](ISBN%20(identifier).md) [0-486-40924-4](https://en.wikipedia.org/wiki/Special:BookSources/0-486-40924-4). <a id="^ref-7"></a>^ref-7
+8. [LaguerreL](http://reference.wolfram.com/mathematica/ref/LaguerreL.html). Wolfram Mathematica page <a id="^ref-8"></a>^ref-8
+9. Griffiths, p. 152 <a id="^ref-9"></a>^ref-9
+10. <a id="CITEREFCondon and Shortley1963"></a> Condon and Shortley \(1963\). _The Theory of Atomic Spectra_. London: Cambridge. p. 441. <a id="^ref-10"></a>^ref-10
+11. Griffiths, Ch. 4 p. 89 <a id="^ref-11"></a>^ref-11
+12. <a id="CITEREFBransdenJoachain, C. J.1983"></a> Bransden, B. H.; Joachain, C. J. \(1983\). _Physics of Atoms and Molecules_. [Longman](Longman.md). p. Appendix 5. [ISBN](ISBN%20(identifier).md) [0-582-44401-2](https://en.wikipedia.org/wiki/Special:BookSources/0-582-44401-2). <a id="^ref-12"></a>^ref-12
+13. <a id="CITEREFSommerfeld1919"></a> Sommerfeld, Arnold \(1919\). _Atombau und Spektrallinien_ \[_Atomic Structure and Spectral Lines_\]. Braunschweig: Friedrich Vieweg und Sohn. [ISBN](ISBN%20(identifier).md) [3-87144-484-7](https://en.wikipedia.org/wiki/Special:BookSources/3-87144-484-7). [German](https://archive.org/stream/atombauundspekt00sommgoog) [English](https://archive.org/details/AtomicStructureAndSpectralLines) <a id="^ref-13"></a>^ref-13
+14. <a id="CITEREFAtkinsde Paula2006"></a> Atkins, Peter; de Paula, Julio \(2006\). [_Physical Chemistry_](https://archive.org/details/atkinsphysicalch00pwat/page/349) \(8th ed.\). W. H. Freeman. p. [349](https://archive.org/details/atkinsphysicalch00pwat/page/349). [ISBN](ISBN%20(identifier).md) [0-7167-8759-8](https://en.wikipedia.org/wiki/Special:BookSources/0-7167-8759-8). <a id="^ref-14"></a>^ref-14
+15. <a id="CITEREFPauli1926"></a> [Pauli, W](Wolfgang%20Pauli.md) \(1926\). "Über das Wasserstoffspektrum vom Standpunkt der neuen Quantenmechanik". _Zeitschrift für Physik_. __36__ \(5\): 336–363. [Bibcode](bibcode%20(identifier).md):[1926ZPhy...36..336P](https://ui.adsabs.harvard.edu/abs/1926ZPhy...36..336P). [doi](doi%20(identifier).md):[10.1007/BF01450175](https://doi.org/10.1007%2FBF01450175). [S2CID](S2CID%20(identifier).md#S2CID) [128132824](https://api.semanticscholar.org/CorpusID:128132824). <a id="^ref-15"></a>^ref-15
+16. <a id="CITEREFKleinert H.1968"></a> Kleinert H. \(1968\). ["Group Dynamics of the Hydrogen Atom"](http://www.physik.fu-berlin.de/~kleinert/kleiner_re4/4.pdf) \(PDF\). _Lectures in Theoretical Physics, Edited by W.E. Brittin and A.O. Barut, Gordon and Breach, N.Y. 1968_: 427–482. <a id="^ref-16"></a>^ref-16
+17. <a id="CITEREFDuru I.H., Kleinert H.1979"></a> Duru I.H., Kleinert H. \(1979\). ["Solution of the path integral for the H-atom"](http://www.physik.fu-berlin.de/~kleinert/kleiner_re65/65.pdf) \(PDF\). _Physics Letters B_. __84__ \(2\): 185–188. [Bibcode](bibcode%20(identifier).md):[1979PhLB...84..185D](https://ui.adsabs.harvard.edu/abs/1979PhLB...84..185D). [doi](doi%20(identifier).md):[10.1016/0370-2693\(79\)90280-6](https://doi.org/10.1016%2F0370-2693%2879%2990280-6). <a id="^ref-17"></a>^ref-17
+18. <a id="CITEREFDuru I.H., Kleinert H.1982"></a> Duru I.H., Kleinert H. \(1982\). ["Quantum Mechanics of H-Atom from Path Integrals"](http://www.physik.fu-berlin.de/~kleinert/kleiner_re83/83.pdf) \(PDF\). _Fortschr. Phys_. __30__ \(2\): 401–435. [Bibcode](bibcode%20(identifier).md):[1982ForPh..30..401D](https://ui.adsabs.harvard.edu/abs/1982ForPh..30..401D). [doi](doi%20(identifier).md):[10.1002/prop.19820300802](https://doi.org/10.1002%2Fprop.19820300802). <a id="^ref-18"></a>^ref-18
+
+## books
+
+- <a id="CITEREFGriffiths1995"></a> [Griffiths, David J.](David%20J.%20Griffiths.md) \(1995\). _Introduction to Quantum Mechanics_. [Prentice Hall](Prentice%20Hall.md). [ISBN](ISBN%20(identifier).md) [0-13-111892-7](https://en.wikipedia.org/wiki/Special:BookSources/0-13-111892-7). Section 4.2 deals with the hydrogen atom specifically, but all of Chapter 4 is relevant.
+- [Kleinert, H.](Hagen%20Kleinert.md) \(2009\). _Path Integrals in Quantum Mechanics, Statistics, Polymer Physics, and Financial Markets_, 4th edition, [Worldscibooks.com](https://web.archive.org/web/20090424041920/http://www.worldscibooks.com/physics/7305.html), World Scientific, Singapore \(also available online [physik.fu-berlin.de](http://www.physik.fu-berlin.de/~kleinert/re.html#B8)\)
+
+## external links
+
+- [The Hydrogen Atom and The Periodic Table – The Feynman Lectures on Physics](https://feynmanlectures.caltech.edu/III_19.html)
+- [Physics of hydrogen atom on Scienceworld](http://scienceworld.wolfram.com/physics/HydrogenAtom.html)
+
+|                                                                                                                                                        |                                                                                                 |                                                       |
+| :----------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------: | :---------------------------------------------------: |
+|                                                     Lighter: <br/> __\(none, lightest possible\)__                                                     | Hydrogen atom is an <br/> __[isotope](isotopes%20of%20hydrogen.md) of [hydrogen](hydrogen.md)__ |     Heavier: <br/> __[hydrogen-2](deuterium.md)__     |
+| [Decay product](decay%20product.md) of: <br/> __[free neutron](free%20neutron.md#free%20neutron) <br/> [helium-2](diproton.md#helium-2%20(diproton))__ |                    __[Decay chain](decay%20chain.md)__ <br/> of hydrogen atom                   | [Decays](radioactive%20decay.md) to: <br/> __Stable__ |
+
+|                   | [Authority control databases](https://en.wikipedia.org/wiki/Help:Authority%20control) <!-- [![Edit this at Wikidata](../../archives/Wikimedia%20Commons/OOjs%20UI%20icon%20edit-ltr-progressive.svg)](https://www.wikidata.org/wiki/Q6643508#identifiers) --> |
+| ----------------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| __International__ | - [GND](https://d-nb.info/gnd/4189265-3)                                                                                                                                                                                                                      |
+|      __National__ | - [Czech Republic](https://aleph.nkp.cz/F/?func=find-c&local_base=aut&ccl_term=ica=ph118661&CON_LNG=ENG)                                                                                                                                                      |
+
+> [Categories](https://en.wikipedia.org/wiki/Help:Category):
+>
+> - [Atoms](https://en.wikipedia.org/wiki/Category:Atoms)
+> - [Quantum models](https://en.wikipedia.org/wiki/Category:Quantum%20models)
+> - [Hydrogen](https://en.wikipedia.org/wiki/Category:Hydrogen)
+> - [Hydrogen physics](https://en.wikipedia.org/wiki/Category:Hydrogen%20physics)
+> - [Isotopes of hydrogen](https://en.wikipedia.org/wiki/Category:Isotopes%20of%20hydrogen)
+> - [Exactly solvable models](https://en.wikipedia.org/wiki/Category:Exactly%20solvable%20models)

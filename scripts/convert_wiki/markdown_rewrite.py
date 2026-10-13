@@ -2,7 +2,7 @@
 
 import difflib
 import re
-from collections.abc import Mapping, Sequence, Set
+from collections.abc import Mapping, Sequence
 from typing import Any
 from urllib.parse import unquote
 
@@ -27,8 +27,16 @@ def _encode_stem(stem: str) -> str:
 
 
 def _decode_link_stem(target: str) -> tuple[str, str]:
-    """Split a link target into ``(stem, fragment)``."""
+    """Split a link target into ``(stem, fragment)``.
+
+    An older converter wrote a same-page target as ``Page#anchor.md``.  The
+    ``.md`` belongs to the page in every other target shape, so it moves back
+    to the end of the page and the anchor is read as the fragment.
+    """
     page, _, fragment = target.partition("#")
+    if not page.endswith(".md") and fragment.endswith(".md"):
+        page = f"{page}.md"
+        fragment = fragment.removesuffix(".md")
     if not page.endswith(".md"):
         msg = f"not a markdown page link: {target!r}"
         raise ValueError(msg)
@@ -42,12 +50,14 @@ def _resolve_plain_rewrite(
     names_map: Mapping[str, str],
     migrations: Mapping[str, str] | None = None,
     replace_underscores: bool = False,
+    lowercase_fallback: bool = True,
 ) -> str:
     """Resolve a plain-text span via the name map, then stem migrations."""
     new_plain = _fix_name_maybe(
         plain,
         replace_underscores=replace_underscores,
         names_map=names_map,
+        lowercase_fallback=lowercase_fallback,
     )
     if migrations is not None:
         new_plain = migrations.get(new_plain, new_plain)
@@ -98,36 +108,42 @@ def _rewrite_link_target(
     migrations: Mapping[str, str],
     *,
     names_map: Mapping[str, str] | None = None,
-    known_fragments: Set[str] = frozenset(),
 ) -> str:
     """Rewrite a single markdown link target using stem migrations.
 
-    When *names_map* is provided, the link fragment (section anchor) is
-    also re-cased through the name map so anchors interrupted by inline
-    markup or wrong casing are corrected, mirroring heading rewriting.
+    Handles page links (``Page.md#frag``) and same-article fragment links
+    (``#frag``) alike: the stem is migrated when there is one, and the
+    fragment is re-cased through *names_map* either way, so anchors stay
+    in step with heading rewriting.  A fragment the map does not know is
+    left as it stands; a footnote anchor such as ``#^ref-13`` survives by
+    the same rule.
 
     When no migration exists for a stem (e.g. the mapping already existed
     in the base name_map before this reprocess run), the *names_map* is
     used as a fallback to correct the link stem.
     """
-    stem, fragment = _decode_link_stem(target)
-    new_stem = migrations.get(stem, stem)
-    # Fallback: when no migration exists (mapping already in base name_map),
-    # still apply names_map to correct link stems that have wrong casing.
-    # Only apply when the stem (or its underscore variant) is actually
-    # present in names_map — do not apply _fix_name_maybe's lowercase
-    # fallback, which would incorrectly change stems that are absent.
-    if new_stem == stem and names_map is not None:
-        lookup = stem.replace("_", " ") if "_" in stem else stem
-        if lookup in names_map:
-            new_stem = _fix_filename(names_map[lookup])
-    encoded = _encode_stem(new_stem)
+    page = target.partition("#")[0]
+    if not page:
+        fragment = target.removeprefix("#")
+        # A bare "#" carries no fragment; leave it as written.
+        if not fragment:
+            return target
+        base = ""
+    else:
+        stem, fragment = _decode_link_stem(target)
+        new_stem = migrations.get(stem, stem)
+        # Fallback: when no migration exists (mapping already in base name_map),
+        # still apply names_map to correct link stems that have wrong casing.
+        # Only apply when the stem (or its underscore variant) is actually
+        # present in names_map — do not apply _fix_name_maybe's lowercase
+        # fallback, which would incorrectly change stems that are absent.
+        if new_stem == stem and names_map is not None:
+            lookup = stem.replace("_", " ") if "_" in stem else stem
+            if lookup in names_map:
+                new_stem = _fix_filename(names_map[lookup])
+        base = f"{_encode_stem(new_stem)}.md"
     if fragment and names_map is not None:
-        plain_fragment = _plain_fragment(
-            fragment,
-            known_fragments=known_fragments,
-            names_map=names_map,
-        )
+        plain_fragment = _plain_fragment(fragment)
         new_fragment = _resolve_plain_rewrite(
             plain_fragment,
             names_map=names_map,
@@ -135,7 +151,20 @@ def _rewrite_link_target(
         )
         if new_fragment != plain_fragment:
             fragment = _encode_fragment(new_fragment)
-    return f"{encoded}.md{f'#{fragment}' if fragment else ''}"
+    if not fragment:
+        return base
+    return f"{base}#{fragment}" if base else f"#{fragment}"
+
+
+def _is_rewritable_target(url: str) -> bool:
+    """Return whether a link destination is one this module rewrites.
+
+    Rewritable destinations name a markdown page (``Page.md`` or
+    ``Page.md#frag``, including the legacy ``Page#anchor.md`` shape) or
+    are same-article fragment links (``#frag``).  A name that merely
+    contains ".md" (``notes.md.txt``) names no page and is left alone.
+    """
+    return url.startswith("#") or url.endswith(".md") or ".md#" in url
 
 
 def _rewrite_markdown_links(
@@ -143,7 +172,6 @@ def _rewrite_markdown_links(
     migrations: Mapping[str, str],
     *,
     names_map: Mapping[str, str] | None = None,
-    known_fragments: Set[str] = frozenset(),
 ) -> str:
     """Rewrite markdown ``.md`` link targets according to _migrations_.
 
@@ -158,7 +186,9 @@ def _rewrite_markdown_links(
     if isinstance(parse_result, str):
         return text
 
-    md_urls = [url for url in _collect_md_link_urls(parse_result) if ".md" in url]
+    md_urls = [
+        url for url in _collect_md_link_urls(parse_result) if _is_rewritable_target(url)
+    ]
     if not md_urls:
         return text
 
@@ -175,7 +205,7 @@ def _rewrite_markdown_links(
 
     edits: list[tuple[int, int, str]] = []
     for dest_start, dest_end, destination in destination_ranges:
-        if not destination.endswith(".md") and ".md#" not in destination:
+        if not _is_rewritable_target(destination):
             continue
         # Match by unquoted content against AST-detected URLs.
         expected_url = ast_urls_by_unquoted.get(unquote(destination))
@@ -185,7 +215,6 @@ def _rewrite_markdown_links(
             expected_url,
             migrations,
             names_map=names_map,
-            known_fragments=known_fragments,
         )
         if unquote(new_url) != unquote(destination):
             edits.append((dest_start, dest_end, new_url))
@@ -221,9 +250,12 @@ def _rewrite_markdown_headings(
     """Fix heading-text casing at all levels (``#``-``######``).
 
     Re-applies the ingestion heuristic ``_fix_name_maybe`` (with
-    ``replace_underscores=False``) to the plain text of every top-level
-    ATX heading, using *names_map*, then applies stem *migrations* on top
-    so renamed or re-cased stems propagate to headings at every level.
+    ``replace_underscores=False`` and no lowercase-first-char fallback) to
+    the plain text of every top-level ATX heading, using *names_map*, then
+    applies stem *migrations* on top so renamed or re-cased stems propagate
+    to headings at every level. A heading is prose, so a name the map does
+    not hold is left alone rather than guessed at: the fallback would
+    lowercase ``Hubble's law`` and ``Python implementation``.
     YAML frontmatter and fenced code blocks are excluded. Idempotent on
     already-canonical headings.
     """
@@ -297,6 +329,7 @@ def _rewrite_markdown_headings(
             names_map=names_map,
             migrations=migrations,
             replace_underscores=False,
+            lowercase_fallback=False,
         )
         if new_plain == plain:
             continue

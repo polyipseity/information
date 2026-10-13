@@ -17,7 +17,7 @@ An _over-the-counter_ market is decentralized trading: a trade is struck directl
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Decentralized trading in which a trade is struck directly between two parties instead of through an exchange. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
+- what over-the-counter trading is ::@:: Decentralized trading in which a trade is struck directly between two parties instead of through an exchange. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - how two parties agree on an over-the-counter trade ::@:: Over the telephone, by email, or through a proprietary electronic trading system. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - why an over-the-counter asset has no public price ::@:: The trade is private to the two parties, so nothing publishes a price for the asset. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - second meaning of "decentralized" in finance ::@:: Blockchain-based trading, which is decentralized in a different sense. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->

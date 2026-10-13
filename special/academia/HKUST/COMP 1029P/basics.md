@@ -20,7 +20,7 @@ The operator precedence for the 3 types of operators introduced below is {@{[ari
 
 ### arithmetic operators
 
-Below are common arithmetic operators. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. Operators higher in the list {@{have higher precedence}@}: <!--SR:!2028-04-04,745,422!2028-03-21,734,422!2028-04-24,762,422-->
+Below are common arithmetic operators. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. Operators higher in the list have {@{higher precedence}@}: <!--SR:!2028-04-04,745,422!2028-03-21,734,422!2028-04-24,762,422-->
 
 ```Python
 # pytextgen generate data
@@ -89,7 +89,7 @@ return chain.from_iterable([r.value for r in results])
 
 ### comparison operators
 
-Below are common comparison operators, all of which returns {@{a boolean}@}. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. The comparison operators below {@{have the same precedence}@}: <!--SR:!2028-12-19,1385,350!2028-04-11,751,422!2028-02-10,702,422!2028-02-14,705,422-->
+Below are common comparison operators, all of which returns {@{a boolean}@}. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. The comparison operators below have {@{the same precedence}@}: <!--SR:!2028-12-19,1385,350!2028-04-11,751,422!2028-02-10,702,422!2028-02-14,705,422-->
 
 ```Python
 # pytextgen generate data
@@ -164,7 +164,7 @@ Also, one {@{CAN chain comparison operators}@} in Python, unlike {@{many other l
 
 ### logic operators
 
-Below are common logic operators, all of which {@{accept two booleans and return a boolean}@}. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. Operators higher in the list {@{have higher precedence}@}: <!--SR:!2028-04-17,1196,350!2028-04-12,752,422!2028-02-13,704,422!2028-02-11,703,422-->
+Below are common logic operators, all of which {@{accept two booleans and return a boolean}@}. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. Operators higher in the list have {@{higher precedence}@}: <!--SR:!2028-04-17,1196,350!2028-04-12,752,422!2028-02-13,704,422!2028-02-11,703,422-->
 
 ```Python
 # pytextgen generate data
@@ -217,7 +217,7 @@ return chain.from_iterable([r.value for r in results])
 
 <!--/pytextgen-->
 
-In particular, {@{`and` has a higher precedence than `or`}@}. This implies {@{`True or False and False` is `True or (False and False)`}@} instead of {@{`(True or False) and False`}@}. The former \(the correct one\) {@{is `True` while the latter \(the wrong one\) is `False`}@}. <!--SR:!2026-11-20,485,396!2027-06-01,650,416!2027-05-30,648,416!2028-08-16,806,443-->
+In particular, {@{`and` has a higher precedence than `or`}@}. This implies {@{`True or False and False` is `True or (False and False)`}@} instead of {@{`(True or False) and False`}@}. The former \(the correct one\) is {@{`True` while the latter \(the wrong one\) is `False`}@}. <!--SR:!2026-11-20,485,396!2027-06-01,650,416!2027-05-30,648,416!2028-08-16,806,443-->
 
 ## variable
 

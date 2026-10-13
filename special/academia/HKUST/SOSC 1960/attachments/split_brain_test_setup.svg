@@ -1,0 +1,47 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1000 560' width='1000' height='560'>
+<rect width='1000' height='560' fill='#ffffff'/>
+<rect x='250' y='40' width='500' height='72' rx='4' fill='#e8eef7' stroke='#1f3864' stroke-width='2'/>
+<line x1='500' y1='62' x2='500' y2='92' stroke='#1f3864' stroke-width='2.4'/>
+<line x1='485' y1='77' x2='515' y2='77' stroke='#1f3864' stroke-width='2.4'/>
+<rect x='292' y='62' width='96' height='30' rx='3' fill='#c2410c' fill-opacity='0.18' stroke='#c2410c' stroke-width='2'/>
+<text x='340' y='82' font-family='Helvetica, Arial, sans-serif' font-size='13' font-style='normal' font-weight='normal' text-anchor='middle' fill='#c2410c'>stimulus</text>
+<text x='524' y='81' font-family='Helvetica, Arial, sans-serif' font-size='12' font-style='italic' font-weight='normal' text-anchor='start' fill='#5a5a5a'>fixation point</text>
+<text x='236' y='128' font-family='Helvetica, Arial, sans-serif' font-size='12' font-style='normal' font-weight='normal' text-anchor='start' fill='#1a1a1a'>left visual field</text>
+<text x='746' y='128' font-family='Helvetica, Arial, sans-serif' font-size='12' font-style='normal' font-weight='normal' text-anchor='end' fill='#1a1a1a'>right visual field</text>
+<circle cx='400' cy='200' r='28' fill='#fbd3a6' stroke='#1f3864' stroke-width='2'/>
+<line x1='400' y1='172' x2='400' y2='228' stroke='#1f3864' stroke-width='1.6'/>
+<text x='344' y='205' font-family='Helvetica, Arial, sans-serif' font-size='11' font-style='normal' font-weight='normal' text-anchor='middle' fill='#5a5a5a'>temporal</text>
+<text x='452' y='205' font-family='Helvetica, Arial, sans-serif' font-size='11' font-style='normal' font-weight='normal' text-anchor='middle' fill='#5a5a5a'>nasal</text>
+<text x='400' y='252' font-family='Helvetica, Arial, sans-serif' font-size='14' font-style='normal' font-weight='normal' text-anchor='middle' fill='#1a1a1a'>left eye</text>
+<circle cx='600' cy='200' r='28' fill='#fbd3a6' stroke='#1f3864' stroke-width='2'/>
+<line x1='600' y1='172' x2='600' y2='228' stroke='#1f3864' stroke-width='1.6'/>
+<text x='656' y='205' font-family='Helvetica, Arial, sans-serif' font-size='11' font-style='normal' font-weight='normal' text-anchor='middle' fill='#5a5a5a'>temporal</text>
+<text x='548' y='205' font-family='Helvetica, Arial, sans-serif' font-size='11' font-style='normal' font-weight='normal' text-anchor='middle' fill='#5a5a5a'>nasal</text>
+<text x='600' y='252' font-family='Helvetica, Arial, sans-serif' font-size='14' font-style='normal' font-weight='normal' text-anchor='middle' fill='#1a1a1a'>right eye</text>
+<defs><marker id='light' viewBox='0 0 10 10' refX='9' refY='5' markerWidth='4' markerHeight='4' orient='auto-start-reverse'><path d='M 0 0 L 10 5 L 0 10 z' fill='#5a5a5a'/></marker></defs>
+<path d='M 352 116 L 427 193' fill='none' stroke='#5a5a5a' stroke-width='1.5' stroke-dasharray='5 4' marker-end='url(#light)'/>
+<path d='M 352 116 L 627 193' fill='none' stroke='#5a5a5a' stroke-width='1.5' stroke-dasharray='5 4' marker-end='url(#light)'/>
+<line x1='18' y1='150' x2='52' y2='150' stroke='#c2410c' stroke-width='3'/>
+<text x='60' y='154' font-family='Helvetica, Arial, sans-serif' font-size='12' font-style='normal' font-weight='normal' text-anchor='start' fill='#1a1a1a'>nasal fibres: cross at the chiasm</text>
+<line x1='18' y1='182' x2='52' y2='182' stroke='#1f3864' stroke-width='3'/>
+<text x='60' y='186' font-family='Helvetica, Arial, sans-serif' font-size='12' font-style='normal' font-weight='normal' text-anchor='start' fill='#1a1a1a'>temporal fibres: stay on their own side</text>
+<circle cx='500' cy='300' r='9' fill='#ffffff' stroke='#1f3864' stroke-width='2'/>
+<text x='500' y='328' font-family='Helvetica, Arial, sans-serif' font-size='13' font-style='italic' font-weight='normal' text-anchor='middle' fill='#5a5a5a'>optic chiasm</text>
+<path d='M 380 220 C 330 268 250 300 232 380' fill='none' stroke='#1f3864' stroke-width='2.6'/>
+<path d='M 420 220 C 470 262 500 282 500 300 C 560 322 760 342 768 380' fill='none' stroke='#c2410c' stroke-width='2.6'/>
+<path d='M 580 220 C 530 262 500 282 500 300 C 440 322 240 342 232 380' fill='none' stroke='#1f3864' stroke-width='2.6'/>
+<path d='M 620 220 C 670 268 750 300 768 380' fill='none' stroke='#c2410c' stroke-width='2.6'/>
+<rect x='140' y='380' width='240' height='62' rx='4' fill='#e8eef7' stroke='#1f3864' stroke-width='2'/>
+<text x='260' y='404' font-family='Helvetica, Arial, sans-serif' font-size='15' font-style='normal' font-weight='bold' text-anchor='middle' fill='#1a1a1a'>left hemisphere</text>
+<text x='260' y='425' font-family='Helvetica, Arial, sans-serif' font-size='12' font-style='normal' font-weight='normal' text-anchor='middle' fill='#5a5a5a'>speaks; controls the right hand</text>
+<rect x='620' y='380' width='240' height='62' rx='4' fill='#e8eef7' stroke='#1f3864' stroke-width='2'/>
+<text x='740' y='404' font-family='Helvetica, Arial, sans-serif' font-size='15' font-style='normal' font-weight='bold' text-anchor='middle' fill='#1a1a1a'>right hemisphere</text>
+<text x='740' y='425' font-family='Helvetica, Arial, sans-serif' font-size='12' font-style='normal' font-weight='normal' text-anchor='middle' fill='#5a5a5a'>does not speak; controls the left hand</text>
+<line x1='380' y1='411' x2='446' y2='411' stroke='#1f3864' stroke-width='6' stroke-linecap='round'/>
+<line x1='554' y1='411' x2='620' y2='411' stroke='#1f3864' stroke-width='6' stroke-linecap='round'/>
+<line x1='470' y1='393' x2='530' y2='429' stroke='#c2410c' stroke-width='3'/>
+<line x1='530' y1='393' x2='470' y2='429' stroke='#c2410c' stroke-width='3'/>
+<text x='500' y='462' font-family='Helvetica, Arial, sans-serif' font-size='13' font-style='italic' font-weight='normal' text-anchor='middle' fill='#c2410c'>corpus callosum, cut</text>
+<text x='500' y='510' font-family='Helvetica, Arial, sans-serif' font-size='14' font-style='normal' font-weight='normal' text-anchor='middle' fill='#1f3864'>the nasal half of each eye crosses at the chiasm, the temporal half does not,</text>
+<text x='500' y='534' font-family='Helvetica, Arial, sans-serif' font-size='14' font-style='normal' font-weight='normal' text-anchor='middle' fill='#1f3864'>so the stimulus reaches only the right hemisphere and stays there</text>
+</svg>

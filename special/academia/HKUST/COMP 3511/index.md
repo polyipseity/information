@@ -36,7 +36,13 @@ Canvas: [COMP3511 Canvas](https://canvas.ust.hk/courses/71995)
 
 Course website: [COMP3511 course website](https://course.cse.ust.hk/comp3511/)
 
-The published learning outcomes are to define the fundamental principles, strategies, and algorithms used in the design and implementation of operating systems; analyze and evaluate operating system functions; understand the basic structure of an operating system kernel and identify the relationship between its subsystems; identify the typical events, alerts, and symptoms that indicate potential operating system problems; and design and implement programs for basic operating system functions and algorithms.
+The published learning outcomes are:
+
+- define the fundamental principles, strategies, and algorithms used in the design and implementation of operating systems
+- analyze and evaluate operating system functions
+- understand the basic structure of an operating system kernel and identify the relationship between its subsystems
+- identify the typical events, alerts, and symptoms that indicate potential operating system problems
+- design and implement programs for basic operating system functions and algorithms
 
 This note records the `L1` lecture and `LA3` lab schedule, which are the sections taken by the maintainer of this note.
 

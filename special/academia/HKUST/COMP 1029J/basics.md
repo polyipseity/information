@@ -148,7 +148,7 @@ theAnswerToLifeTheUniverseAndEverything = 42
 
 ### arithmetic operators
 
-Below are common arithmetic operators. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. Operators higher in the list {@{have higher precedence}@}: <!--SR:!2028-02-10,698,413!2028-01-11,674,413!2027-11-24,634,413-->
+Below are common arithmetic operators. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. Operators higher in the list have {@{higher precedence}@}: <!--SR:!2028-02-10,698,413!2028-01-11,674,413!2027-11-24,634,413-->
 
 ```Python
 # pytextgen generate data
@@ -291,7 +291,7 @@ Also, one cannot chain {@{comparison operators, like `2 <= aNumber <= 5`. [logic
 
 ### logic operators
 
-Below are common logic operators, all of which {@{accept two booleans and return a boolean}@}. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. Operators higher in the list {@{have higher precedence}@}: <!--SR:!fsrs,2034-03-06T00:00:00.000Z,2742,2741.5907219,1,2,10,0,0,2026-09-02T00:00:00.000Z!2027-12-01,641,413!2028-02-21,708,413!2028-01-14,676,413-->
+Below are common logic operators, all of which {@{accept two booleans and return a boolean}@}. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. Operators higher in the list have {@{higher precedence}@}: <!--SR:!fsrs,2034-03-06T00:00:00.000Z,2742,2741.5907219,1,2,10,0,0,2026-09-02T00:00:00.000Z!2027-12-01,641,413!2028-02-21,708,413!2028-01-14,676,413-->
 
 ```Python
 # pytextgen generate data

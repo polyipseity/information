@@ -1,0 +1,24 @@
+assignment:
+  comments: {}
+  content: No additional details were added for this assignment.
+  grade:
+    entered: ""
+    graded anonymously: null
+    possible: ""
+  id: 444806
+  properties:
+    available:
+      end: 2026-09-05 23:59:00+08:00
+      start: null
+    due: 2026-09-04 23:59:00+08:00
+    points: 20
+    submitting:
+      - a text entry box or a file upload
+  submissions:
+    - datetime: ""
+      id: -1
+  title: 1 Double slit experiment or Gas properties
+course:
+  id: 74008
+  name: PHYS2022 (L1)
+type: submission/Canvas/canvas.ust.hk

@@ -20,7 +20,7 @@ The operator precedence for the 3 types of operators introduced below is {@{[ari
 
 ### arithmetic operators
 
-Below are common arithmetic operators. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. Operators higher in the list {@{have higher precedence}@}: <!--SR:!2029-09-05,1436,362!2028-12-04,950,459!2028-12-21,967,459-->
+Below are common arithmetic operators. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. Operators higher in the list have {@{higher precedence}@}: <!--SR:!2029-09-05,1436,362!2028-12-04,950,459!2028-12-21,967,459-->
 
 ```Python
 # pytextgen generate data
@@ -93,7 +93,7 @@ A note regarding accuracy is that {@{there may be some inaccuracies involved whe
 
 ### comparison operators
 
-Below are common comparison operators, all of which returns {@{a boolean}@}. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. The comparison operators below {@{have the same precedence}@}: <!--SR:!fsrs,2032-10-08T08:41:13.443Z,2309,2308.64058775,1,2,10,0,0,2026-06-13T08:41:13.443Z!2028-12-21,967,459!2028-11-17,933,459!2028-12-14,960,459-->
+Below are common comparison operators, all of which returns {@{a boolean}@}. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. The comparison operators below have {@{the same precedence}@}: <!--SR:!fsrs,2032-10-08T08:41:13.443Z,2309,2308.64058775,1,2,10,0,0,2026-06-13T08:41:13.443Z!2028-12-21,967,459!2028-11-17,933,459!2028-12-14,960,459-->
 
 ```Python
 # pytextgen generate data
@@ -168,7 +168,7 @@ Also, one {@{CAN chain comparison operators}@} in Python, unlike {@{many other l
 
 ### logic operators
 
-Below are common logic operators, all of which {@{accept two booleans and return a boolean}@}. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. Operators higher in the list {@{have higher precedence}@}: <!--SR:!2031-04-04,1886,389!2028-11-16,932,459!2028-12-26,972,459!2028-11-27,943,459-->
+Below are common logic operators, all of which {@{accept two booleans and return a boolean}@}. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. Operators higher in the list have {@{higher precedence}@}: <!--SR:!2031-04-04,1886,389!2028-11-16,932,459!2028-12-26,972,459!2028-11-27,943,459-->
 
 ```Python
 # pytextgen generate data
@@ -221,7 +221,7 @@ return chain.from_iterable([r.value for r in results])
 
 <!--/pytextgen-->
 
-In particular, {@{`and` has a higher precedence than `or`}@}. This implies {@{`True or False and False` is `True or (False and False)`}@} instead of {@{`(True or False) and False`}@}. The former \(the correct one\) {@{is `True` while the latter \(the wrong one\) is `False`}@}. <!--SR:!2027-12-10,817,439!2027-12-30,829,439!2027-10-17,771,439!fsrs,2029-01-10T00:00:00.000Z,920,920.38812645,1,2,8,0,0,2026-07-05T00:00:00.000Z-->
+In particular, {@{`and` has a higher precedence than `or`}@}. This implies {@{`True or False and False` is `True or (False and False)`}@} instead of {@{`(True or False) and False`}@}. The former \(the correct one\) is {@{`True` while the latter \(the wrong one\) is `False`}@}. <!--SR:!2027-12-10,817,439!2027-12-30,829,439!2027-10-17,771,439!fsrs,2029-01-10T00:00:00.000Z,920,920.38812645,1,2,8,0,0,2026-07-05T00:00:00.000Z-->
 
 ## mathematics
 
@@ -276,7 +276,7 @@ Below are common data types:
 - `int` :@: An integer. Example: `42`. <!--SR:!2029-08-09,1413,362-->
 - `str` :@: A piece of text. Example: `"Hello"`. <!--SR:!2029-02-27,1284,362-->
 
-Some interesting facts about `float`s:  `print`, for relatively small `float`s, {@{it always outputs at least 1 decimal place for `float`s, and outputs at most as many digits as needed to represent the number exactly}@}. For relatively large `floats`, {@{it outputs the float in exponential notation, e.g. `1e+100`, `1.2e-100`, etc.}@} `1` {@{is an `int` while `1.` and `1.0` are `float`s representing the same value `1`}@}. <!--SR:!2027-11-15,893,342!2027-01-23,661,330!2029-04-28,1344,383-->
+Some interesting facts about `float`s:  `print`, for relatively small `float`s, {@{it always outputs at least 1 decimal place for `float`s, and outputs at most as many digits as needed to represent the number exactly}@}. For relatively large `floats`, {@{it outputs the float in exponential notation, e.g. `1e+100`, `1.2e-100`, etc.}@} `1` is {@{an `int` while `1.` and `1.0` are `float`s representing the same value `1`}@}. <!--SR:!2027-11-15,893,342!2027-01-23,661,330!2029-04-28,1344,383-->
 
 To get the type of a value, {@{use `type(<any>)`, which will return the type of `<any>`}@}. Note that the return type is {@{a special type called classes, which we will not go into detail here}@}. On Jupyter, {@{without using `print` (i.e. placing `type(<any>)` as the last expression), it will simply print out the type name, e.g. `float`, `int`, etc.}@} In most other situations, including {@{evaluating `type(<any>)` in your local Python installation instead of Jupyter}@}, it will {@{print out `<class '<type>'>`, with `<type>` replaced by the type name, e.g. `<class 'float'>`, `<class 'int'>`, etc.}@} <!--SR:!2029-03-26,1305,362!2030-01-04,1529,362!2028-05-18,1040,342!2027-09-10,831,342!2029-02-06,1256,350-->
 

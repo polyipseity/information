@@ -4,7 +4,7 @@ from __future__ import annotations
 
 from bs4 import BeautifulSoup, Tag
 
-from scripts.convert_wiki.table import TableConverter
+from scripts.convert_wiki.table import TableConverter, _smart_split_row
 
 """Public API of this test module (empty: no symbols are exported)."""
 __all__ = ()
@@ -499,3 +499,19 @@ class TestHandleTbodyNavboxNamesMap:
         assert "Classical mechanics" in result
         # Should contain blockquote markers.
         assert ">" in result
+
+
+class TestSmartSplitRow:
+    """Tests for the pipe-aware row splitter used by the table reflow."""
+
+    def test_block_math_cells_split(self) -> None:
+        """Two ``$$...$$`` cells stay two cells instead of merging into one."""
+        line = r"| $$X_{i}$$ | $$\vert x_{1}\rangle$$ |"
+
+        assert _smart_split_row(line) == [r"$$X_{i}$$", r"$$\vert x_{1}\rangle$$"]
+
+    def test_pipe_inside_one_block_math_is_not_a_boundary(self) -> None:
+        """A pipe inside a single math span stays part of the cell."""
+        line = r"| $$\lvert b \rvert$$ | B |"
+
+        assert _smart_split_row(line) == [r"$$\lvert b \rvert$$", "B"]

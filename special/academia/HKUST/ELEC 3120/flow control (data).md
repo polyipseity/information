@@ -22,7 +22,7 @@ Flow control keeps a fast sender from overrunning the receiver's buffer. The rec
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Flow control keeps a fast sender within the buffer room the receiver has left. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
+- what it is: what does flow control constrain, and to what? ::@:: Flow control keeps a fast sender within the buffer room the receiver has left. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - what sets the limit: what decides how much a sender may have outstanding under flow control? ::@:: The receiver's own resources, through the room left in its buffer. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - what happens without it: what happens to a receiver that the sender outruns? ::@:: Its buffer overflows, because data arrives faster than it is drained. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 

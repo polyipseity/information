@@ -11,6 +11,7 @@ import pytest
 from anyio import Path as AnyioPath
 from bs4 import BeautifulSoup, NavigableString, Tag
 
+from scripts.convert_wiki import config as _cfg
 from scripts.convert_wiki.converter import WikiHtmlConverter, _discards_subtree
 from scripts.convert_wiki.inline_context import (
     _in_inline_context,
@@ -532,9 +533,12 @@ class TestLinkHandling:
         """Percent-encoded href fragments must be decoded before name-map casing.
 
         Regression: the fragment used to reach ``_fix_name_maybe`` still
-        percent-encoded, which both suppressed the lowercase-first-char
-        fallback (``%C3%B6`` contains uppercase hex digits) and leaked the
-        encoding into the written link.
+        percent-encoded, which suppressed the lowercase-first-char fallback
+        (``%C3%B6`` contains uppercase hex digits) and leaked the encoding into
+        the written link.
+
+        Decoding yields a lowercase-first name that the name map resolves to
+        the canonical heading casing, so the link keeps its capital ``S``.
         """
         html = (
             '<a title="Hydrogen-like atom"'
@@ -543,7 +547,7 @@ class TestLinkHandling:
         result = await _convert(converter, html)
         assert (
             "(hydrogen-like%20atom.md"
-            "#schr\u00f6dinger%20equation%20in%20a%20spherically%20symmetric%20potential)"
+            "#Schr\u00f6dinger%20equation%20in%20a%20spherically%20symmetric%20potential)"
         ) in result
         assert "%C3" not in result
 
@@ -558,7 +562,7 @@ class TestLinkHandling:
         )
         result = await _convert(converter, html)
         assert (
-            "(#schr\u00f6dinger%20equation%20in%20a%20spherically%20symmetric%20potential)"
+            "(#Schr\u00f6dinger%20equation%20in%20a%20spherically%20symmetric%20potential)"
         ) in result
         assert "%C3" not in result
 
@@ -574,7 +578,7 @@ class TestLinkHandling:
         result = await _convert(converter, html)
         assert (
             "(special%20relativity.md"
-            "#schr\u00f6dinger%20equation%20in%20a%20spherically%20symmetric%20potential)"
+            "#Schr\u00f6dinger%20equation%20in%20a%20spherically%20symmetric%20potential)"
         ) in result
         assert "%C3" not in result
 
@@ -600,6 +604,10 @@ class TestLinkHandling:
         ``_rewrite_link_target`` unquotes the fragment it reads back from the
         written Markdown; ingestion must therefore emit the same form so a
         ``--reprocess`` run is a no-op.
+
+        The rewrite needs the name map ingestion used. Given an empty one, the
+        lowercase-first-char fallback would lowercase the anchor and break the
+        round trip for a name the map actually knows about.
         """
         html = (
             '<a title="Hydrogen-like atom"'
@@ -607,7 +615,7 @@ class TestLinkHandling:
         )
         result = await _convert(converter, html)
         target = result[result.index("](") + 2 : result.index(")")]
-        assert _rewrite_link_target(target, {}, names_map={}) == target
+        assert _rewrite_link_target(target, {}, names_map=_cfg._NAMES_MAP) == target
 
     @pytest.mark.anyio
     async def test_external_link(self, converter: WikiHtmlConverter) -> None:
@@ -639,7 +647,7 @@ class TestLinkHandling:
         )
         result = await _convert(converter, html)
         assert (
-            "(#schr\u00f6dinger%20equation%20in%20a%20spherically%20symmetric%20potential)"
+            "(#Schr\u00f6dinger%20equation%20in%20a%20spherically%20symmetric%20potential)"
         ) in result
         assert "%C3" not in result
 
@@ -746,16 +754,16 @@ class TestLinkHandling:
         assert "#section.28)" in result.lower()
 
     @pytest.mark.anyio
-    async def test_external_url_fragment_untouched(
+    async def test_external_url_fragment_dot_escapes_decoded(
         self, converter: WikiHtmlConverter
     ) -> None:
-        """An external URL fragment with dot-escapes must stay verbatim."""
+        """A foreign URL fragment has no local anchor, so it decodes."""
         html = (
             '<a href="https://en.wikipedia.org/wiki/Wikipedia:Content%20forks'
             '#Article%20spinoffs%3A%20.22Summary%20style.22">link</a>'
         )
         result = await _convert(converter, html)
-        assert ".22" in result
+        assert ".22" not in result
         assert "Summary" in result
 
 
@@ -1293,11 +1301,12 @@ class TestBoldItalicHandling:
         assert "d<!-- markdown separator -->_n_" in result
 
     @pytest.mark.anyio
-    async def test_minus_emphasis_no_marker(self, converter: WikiHtmlConverter) -> None:
-        """U+2212 MINUS SIGN before emphasis needs no separator marker."""
+    async def test_minus_emphasis_gets_marker(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """U+2212 MINUS SIGN before emphasis needs a separator marker."""
         result = await _convert(converter, "<p>\u2212<i>i</i></p>")
-        assert "\u2212_i_" in result
-        assert "<!-- markdown separator -->" not in result
+        assert "\u2212<!-- markdown separator -->_i_" in result
 
     @pytest.mark.anyio
     async def test_middle_dot_emphasis_no_marker(
@@ -1750,6 +1759,107 @@ class TestTableHandling:
         assert "Value" in result
 
     @pytest.mark.anyio
+    async def test_infobox_caption_with_group_dividers_ok(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A captioned infobox with ``infobox-header`` divider rows should not raise."""
+        html = (
+            '<table class="infobox"><caption>Hydrogen atom</caption>'
+            '<tr><th class="infobox-header" colspan="2">General</th></tr>'
+            '<tr><th class="infobox-label">Symbol</th>'
+            '<td class="infobox-data">1 H</td></tr>'
+            '<tr><th class="infobox-header" colspan="2">Nuclide data</th></tr>'
+            '<tr><th class="infobox-label">Half-life</th>'
+            '<td class="infobox-data">stable</td></tr></table>'
+        )
+        result = await _convert(converter, html)
+        assert "Hydrogen atom" in result
+        assert "General" in result
+        assert "Symbol" in result
+        assert "Nuclide data" in result
+        assert "stable" in result
+
+    @pytest.mark.anyio
+    async def test_infobox_caption_with_plain_header_row_raises(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """An infobox all-``<th>`` row without ``infobox-header`` still raises."""
+        html = (
+            '<table class="infobox"><caption>Title</caption>'
+            "<tr><th>H1</th><th>H2</th></tr>"
+            "<tr><td>D1</td><td>D2</td></tr></table>"
+        )
+        with pytest.raises(BaseExceptionGroup) as exc_info:
+            await _convert(converter, html)
+        error = exc_info.value.exceptions[0]
+        assert isinstance(error, ValueError)
+        assert "only one header row" in str(error)
+
+    @pytest.mark.anyio
+    async def test_infobox_group_divider_layout(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A captioned infobox renders as one contiguous GFM table.
+
+        The caption is the header row followed by exactly one header
+        separator; the image is a data row; each ``infobox-header`` divider
+        is a bold row immediately followed by its own separator line; label
+        and footer rows stay un-fused in document order.
+        """
+        html = (
+            '<table class="infobox"><caption>Hydrogen atom</caption><tbody>'
+            '<tr><td class="infobox-image" colspan="2">IMG</td></tr>'
+            '<tr><th class="infobox-header" colspan="2">General</th></tr>'
+            '<tr><th class="infobox-label">Symbol</th>'
+            '<td class="infobox-data">1 H</td></tr>'
+            '<tr><th class="infobox-label">Names</th>'
+            '<td class="infobox-data">protium</td></tr>'
+            '<tr><th class="infobox-header" colspan="2">Nuclide data</th></tr>'
+            '<tr><th class="infobox-label">Half-life</th>'
+            '<td class="infobox-data">stable</td></tr>'
+            '<tr><td class="infobox-below" colspan="2">FOOTER LINKS</td></tr>'
+            "</tbody></table>"
+        )
+        result = await _convert(converter, html)
+        lines = [ln.strip() for ln in result.splitlines() if ln.strip().startswith("|")]
+        body = [ln for ln in lines if set(ln) <= set("|-: ")]
+
+        # Caption is the header row and exactly one header separator follows.
+        assert "__Hydrogen atom__" in lines[0]
+        assert lines[1] in body
+
+        # Exactly one header separator: the image row must be line 2.
+        assert "IMG" in lines[2]
+
+        # Image row precedes the first divider.
+        img_idx = next(i for i, ln in enumerate(lines) if "IMG" in ln)
+        general_idx = next(i for i, ln in enumerate(lines) if "General" in ln)
+        assert img_idx < general_idx
+
+        # Each divider is bold and immediately followed by a separator line.
+        assert "__General__" in lines[general_idx]
+        assert lines[general_idx + 1] in body
+        nuclide_idx = next(i for i, ln in enumerate(lines) if "Nuclide data" in ln)
+        assert "__Nuclide data__" in lines[nuclide_idx]
+        assert lines[nuclide_idx + 1] in body
+
+        # Header separator + two divider separators.
+        assert len(body) >= 3
+
+        # Data rows stay un-fused and in document order.
+        symbol_idx = next(i for i, ln in enumerate(lines) if "Symbol" in ln)
+        assert "__Symbol__" in lines[symbol_idx]
+        assert "1 H" in lines[symbol_idx]
+        assert symbol_idx > general_idx
+        names_idx = next(i for i, ln in enumerate(lines) if "Names" in ln)
+        assert "protium" in lines[names_idx]
+        half_idx = next(i for i, ln in enumerate(lines) if "Half-life" in ln)
+        assert "stable" in lines[half_idx]
+        assert half_idx > nuclide_idx
+        footer_idx = next(i for i, ln in enumerate(lines) if "FOOTER LINKS" in ln)
+        assert footer_idx == len(lines) - 1
+
+    @pytest.mark.anyio
     async def test_colspan_header_aligns_lower_only_cells(
         self, converter: WikiHtmlConverter
     ) -> None:
@@ -1806,6 +1916,68 @@ class TestTableHandling:
         )
         result = await _convert(converter, html)
         assert result == "\n| __A__ | B |\n| --- | --- |\n| C | D |\n\n\n"
+
+    @pytest.mark.anyio
+    async def test_row_level_text_align_centers_columns(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A row-level ``text-align`` applies to its plain cells.
+
+        The ``{{Isotope sequence}}`` table on Wikipedia centers every row
+        via ``<tr style="text-align: center;">`` while its cells carry
+        only width styles, so cell-only inspection would lose the centering.
+        """
+        html = (
+            '<table class="wikitable"><tbody>'
+            '<tr style="text-align: center;">'
+            '<td style="width:35%">A</td><td>B</td></tr>'
+            '<tr style="text-align: center;"><td>C</td><td>D</td></tr>'
+            "</tbody></table>"
+        )
+        result = await _convert(converter, html)
+        assert result == "\n|  |  |\n| :-: | :-: |\n| A | B |\n| C | D |\n\n\n"
+
+    @pytest.mark.anyio
+    async def test_cell_level_text_align_overrides_row_level(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """An explicit cell alignment still beats its row's."""
+        html = (
+            "<table><tbody>"
+            '<tr style="text-align: center;">'
+            '<td style="text-align: right;">A</td><td>B</td></tr>'
+            "</tbody></table>"
+        )
+        result = await _convert(converter, html)
+        assert result == "\n|  |  |\n| --: | :-: |\n| A | B |\n\n\n"
+
+    @pytest.mark.anyio
+    async def test_row_level_text_align_overrides_table_level(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A row's alignment beats its table's."""
+        html = (
+            '<table style="text-align: center;"><tbody>'
+            '<tr style="text-align: right;"><td>A</td><td>B</td></tr>'
+            '<tr style="text-align: right;"><td>C</td><td>D</td></tr>'
+            "</tbody></table>"
+        )
+        result = await _convert(converter, html)
+        assert result == "\n|  |  |\n| --: | --: |\n| A | B |\n| C | D |\n\n\n"
+
+    @pytest.mark.anyio
+    async def test_table_level_text_align_applies_to_plain_cells(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A table-level alignment applies when neither cell nor row sets one."""
+        html = (
+            '<table style="text-align: center;"><tbody>'
+            "<tr><td>A</td><td>B</td></tr>"
+            "<tr><td>C</td><td>D</td></tr>"
+            "</tbody></table>"
+        )
+        result = await _convert(converter, html)
+        assert result == "\n|  |  |\n| :-: | :-: |\n| A | B |\n| C | D |\n\n\n"
 
 
 # ---------------------------------------------------------------------------
@@ -2586,6 +2758,40 @@ class TestReferenceHandling:
 # Utility / static method tests
 
 # ---------------------------------------------------------------------------
+
+
+class TestMathSignSeparators:
+    """Tests for separators around signs that bind tightly to what follows."""
+
+    @pytest.mark.anyio
+    @pytest.mark.parametrize("sign", ["\u2212", "\u00b1", "+", "\u00d7"])
+    async def test_sign_before_emphasis_is_separated(
+        self, converter: WikiHtmlConverter, sign: str
+    ) -> None:
+        """A sign directly before an italic marker gets a separator."""
+        result = await _convert(converter, f"<p>replaced by {sign}<i>t</i></p>")
+        assert f"{sign}<!-- markdown separator -->_t_" in result
+
+    @pytest.mark.anyio
+    @pytest.mark.parametrize("sign", ["\u2013", "\u2014", "\u27e8"])
+    async def test_dash_before_emphasis_is_not_separated(
+        self, converter: WikiHtmlConverter, sign: str
+    ) -> None:
+        """A dash separates words, so no separator is added there."""
+        result = await _convert(
+            converter, f"<p>the wave{sign}<i>particle</i> duality</p>"
+        )
+        assert f"wave{sign}_particle_" in result
+        assert "<!-- markdown separator -->" not in result
+
+    @pytest.mark.anyio
+    async def test_texhtml_sign_and_italic_are_separated(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """The same rule applies inside a legacy texhtml span."""
+        html = '<p><span class="texhtml">\u2212<i>t</i></span></p>'
+        result = await _convert(converter, html)
+        assert "\u2212<!-- markdown separator -->_t_" in result
 
 
 class TestStaticUtilities:

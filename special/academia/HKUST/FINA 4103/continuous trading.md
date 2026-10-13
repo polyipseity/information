@@ -19,7 +19,7 @@ In a _continuous market_ each incoming order is handled when it arrives, so an o
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Handling each incoming order at the moment it arrives, up to latency, instead of collecting orders into a batch. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
+- what continuous trading does ::@:: Handling each incoming order at the moment it arrives, up to latency, instead of collecting orders into a batch. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - what the alternative to continuous trading does ::@:: Discrete trading collects orders over an interval and executes them together. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 
 ## price-time priority

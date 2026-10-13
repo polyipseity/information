@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" font-family="Georgia, 'Times New Roman', serif" font-size="15">
+  <defs>
+    <marker id="arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#000"/>
+    </marker>
+  </defs>
+
+  <!-- (a) side view -->
+  <text x="40" y="44" font-size="14">(a) side view</text>
+
+  <!-- beam axis (dashed) -->
+  <line x1="40" y1="170" x2="345" y2="170" stroke="#000" stroke-width="1" stroke-dasharray="7,5"/>
+
+  <!-- incident beam -->
+  <line x1="42" y1="170" x2="168" y2="170" stroke="#000" stroke-width="2" marker-end="url(#arr)"/>
+  <text x="42" y="156" font-size="13">incident beam</text>
+
+  <!-- sample slab -->
+  <rect x="170" y="135" width="8" height="70" fill="#000"/>
+  <text x="174" y="126" text-anchor="middle" font-size="13" stroke="#FFF" stroke-width="3.5" paint-order="stroke">sample</text>
+
+  <!-- direct beam to the plate -->
+  <line x1="178" y1="170" x2="344" y2="170" stroke="#000" stroke-width="2" marker-end="url(#arr)"/>
+  <text x="262" y="187" text-anchor="middle" font-size="13" stroke="#FFF" stroke-width="3.5" paint-order="stroke">direct beam</text>
+
+  <!-- diffracted cone, edge-on: two rays at 2θ around the axis -->
+  <line x1="178" y1="170" x2="346" y2="127" stroke="#000" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="178" y1="170" x2="346" y2="213" stroke="#000" stroke-width="2" marker-end="url(#arr)"/>
+  <text x="206" y="110" font-size="13" stroke="#FFF" stroke-width="3.5" paint-order="stroke">diffracted rays</text>
+
+  <!-- 2θ mark between axis and upper ray -->
+  <path d="M 212 170 A 34 34 0 0 0 220.7 161.4" fill="none" stroke="#000" stroke-width="1"/>
+  <text x="222" y="159" font-size="13" font-style="italic" stroke="#FFF" stroke-width="3.5" paint-order="stroke">2θ</text>
+
+  <!-- detector plate, edge-on, with the ring intersections marked -->
+  <line x1="350" y1="100" x2="350" y2="240" stroke="#000" stroke-width="3"/>
+  <circle cx="350" cy="127" r="3.5" fill="#000"/>
+  <circle cx="350" cy="213" r="3.5" fill="#000"/>
+  <text x="358" y="118" font-size="13" stroke="#FFF" stroke-width="3.5" paint-order="stroke">ring, edge-on</text>
+  <text x="350" y="258" text-anchor="middle" font-size="13" stroke="#FFF" stroke-width="3.5" paint-order="stroke">detector plate</text>
+
+  <!-- (b) detector face -->
+  <text x="490" y="44" font-size="14">(b) detector face</text>
+
+  <!-- plate outline -->
+  <rect x="490" y="90" width="160" height="160" fill="none" stroke="#000" stroke-width="3"/>
+
+  <!-- rings and the direct-beam spot -->
+  <circle cx="570" cy="170" r="38" fill="none" stroke="#000" stroke-width="1.5"/>
+  <circle cx="570" cy="170" r="62" fill="none" stroke="#000" stroke-width="1.5"/>
+  <circle cx="570" cy="170" r="4" fill="#000"/>
+  <text x="570" y="200" text-anchor="middle" font-size="13" stroke="#FFF" stroke-width="3.5" paint-order="stroke">direct beam</text>
+
+  <!-- ring labels with leaders -->
+  <line x1="597" y1="143" x2="618" y2="122" stroke="#000" stroke-width="1"/>
+  <text x="622" y="120" font-size="13" stroke="#FFF" stroke-width="3.5" paint-order="stroke">ring (200)</text>
+  <line x1="614" y1="126" x2="638" y2="104" stroke="#000" stroke-width="1"/>
+  <text x="642" y="102" font-size="13" stroke="#FFF" stroke-width="3.5" paint-order="stroke">ring (400)</text>
+</svg>

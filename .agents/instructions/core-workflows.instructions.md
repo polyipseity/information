@@ -60,7 +60,7 @@ See [ingest-wikipedia](../skills/ingest-wikipedia/SKILL.md) for step-by-step gui
 
 ## Submodule & sensitive data rules
 
-- Do not modify `private/` without explicit owner approval.
+- Do not modify `private/` without explicit owner approval. Academic content that `academic-ingest` routes there (non-in-class submission artifacts and question pages) is the exception and is written in place during an ingestion.
 - `self/stash/` is not a submodule — user-owned scratch space, only edit when asked.
 - `scripts/pyarchivist/` and `scripts/pytextgen/` are submodules — edit only when user requests.
 - `self/arts/`, `self/capture the flag/`, `self/ledger/`, `self/passwords/`, `self/polyipseity/` are submodules — prefer upstream edits.

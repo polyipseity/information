@@ -16,7 +16,7 @@ An _auction_ is a mechanism that collects bids and has a market institution set 
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A mechanism that collects bids and has a market institution set the price, usually to allocate an asset. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-15T00:00:00.000Z,12,11.6874828,1,2,2,0,0,2026-11-03T00:00:00.000Z-->
+- what an auction is ::@:: A mechanism that collects bids and has a market institution set the price, usually to allocate an asset. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-15T00:00:00.000Z,12,11.6874828,1,2,2,0,0,2026-11-03T00:00:00.000Z-->
 - why auctions suit primary markets ::@:: They handle high volume and volatility efficiently. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - assets and goods auctioned besides newly issued securities ::@:: Art, commodities, and airport slots. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - the two auction forms that matter in financial markets ::@:: The single-sided auction, in which one side of the market is fixed, and the double auction, in which both sides propose prices and quantities. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
@@ -38,7 +38,7 @@ Flashcards for this section are as follows:
 
 ## double auctions
 
-In a double auction many traders on both sides propose prices and quantities, and the market institution chooses one price that clears the market: sellers who asked below that price sell, buyers who bid above it buy, and anyone who bid or asked exactly that price takes part. The single-sided and double auctions are drawn on the same axes: with one side fixed, a vertical demand line meets the rising stepped supply curve, and the crossing sets the price, while with both sides active the falling stepped bid curve meets the rising stepped offer curve, and the crossing sets both the price and the quantity that trades.
+In a double auction many traders on both sides propose prices and quantities, and the market institution chooses one price that clears the market: sellers who asked below that price sell, buyers who bid above it buy, and anyone who bid or asked exactly that price takes part. The single-sided and double auctions are drawn on the same axes. With one side fixed, a vertical demand line meets the rising stepped supply curve, and the crossing sets the price. With both sides active, the falling stepped bid curve meets the rising stepped offer curve, and the crossing sets both the price and the quantity that trades.
 
 ---
 
@@ -107,7 +107,7 @@ Flashcards for this section are as follows:
 
 Publishing real-time indicative information lets traders game a close auction. The London Stock Exchange publishes that information during its closing auctions, and for less liquid securities the end time is known, so a trader can post and cancel orders to flush out other traders before the end time at no penalty. The result was volatile closings and price inefficiency, and in 2003 a random end time was introduced in response.
 
-Sniping at the close shows up in the data. On the Hong Kong Stock Exchange, whose standard closing call auction ran from 2008 until it was suspended ten months later over suspected manipulation, huge sell orders arrived at 4:09:57 in the afternoon, in the auction's final seconds, and the indicative closing price plunged from 37 dollars to 33 dollars (Park, Suen, and Wan, 2022, Journal of Financial Markets). The attacks clustered around derivative expirations, which supplied the incentive, and prices tended to revert the following day.
+Sniping at the close shows up in the data. On the Hong Kong Stock Exchange, huge sell orders arrived at 4:09:57 in the afternoon, in the closing auction's final seconds, and the indicative closing price plunged from 37 dollars to 33 dollars (Park, Suen, and Wan, 2022, Journal of Financial Markets). The exchange's standard closing call auction ran from 2008 until it was suspended ten months later over suspected manipulation. The attacks clustered around derivative expirations, which supplied the incentive, and prices tended to revert the following day.
 
 ---
 

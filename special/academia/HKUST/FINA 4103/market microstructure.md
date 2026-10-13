@@ -14,7 +14,7 @@ Market microstructure is the branch of finance that analyses how different marke
 
 Flashcards for this section are as follows:
 
-- overview ::@:: The branch of finance that analyses how different market structures affect market quality. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
+- what market microstructure is ::@:: The branch of finance that analyses how different market structures affect market quality. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 
 ## dealership and auction markets
 

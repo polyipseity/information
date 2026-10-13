@@ -21,7 +21,7 @@ The result comes from writing the load power as a function of $R_L$ and differen
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A source of resistance $R_s$ delivers its maximum power to a load when the load resistance equals the source resistance, $R_L = R_s$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
+- maximum power: what must a load resistance do to a source resistance for the source to deliver its greatest power? ::@:: A source of resistance $R_s$ delivers its maximum power to a load when the load resistance equals the source resistance, $R_L = R_s$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 
 ## power delivered to the load
 
@@ -33,10 +33,9 @@ Both extremes of the load dissipate nothing: a short carries a large current at 
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A source $V_s$ with resistance $R_s$ driving a load $R_L$ gives $V_o = V_s\frac{R_L}{R_s+R_L}$, $I_o = \frac{V_s}{R_s+R_L}$, and $P_L = V_s^2\frac{R_L}{(R_s+R_L)^2}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2026-12-19T00:00:00.000Z,39,38.90515015,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
-- zero extremes: what power reaches a shorted load, and what power reaches an open load? ::@:: Zero in both cases: a short gives zero voltage and an open gives zero current. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
-- power expression: write the power delivered to the load $R_L$ of a source $V_s$ with source resistance $R_s$. ::@:: $P_L = V_s^2 \frac{R_L}{(R_s + R_L)^2}$. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
-- why a maximum: why must $P_L$ peak at some intermediate $R_L$? ::@:: It falls to zero at $R_L = 0$ and as $R_L \to \infty$, so the maximum lies between the extremes. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
+- load divider: what are the load voltage and the load current for a source driving a load? ::@:: A source $V_s$ with resistance $R_s$ driving a load $R_L$ gives $V_o = V_s\frac{R_L}{R_s+R_L}$, $I_o = \frac{V_s}{R_s+R_L}$, and $P_L = V_s^2\frac{R_L}{(R_s+R_L)^2}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- power expression: write the power delivered to the load $R_L$ of a source $V_s$ with source resistance $R_s$. ::@:: $P_L = V_s^2 \frac{R_L}{(R_s + R_L)^2}$.
+- why a maximum: what power reaches a shorted load, and what power reaches an open load; why must $P_L$ then peak at some intermediate $R_L$? ::@:: Zero in both cases: a short gives zero voltage and an open gives zero current. $P_L$ therefore falls to zero at $R_L = 0$ and as $R_L \to \infty$, so the maximum lies between the extremes.
 
 ## matched load
 
@@ -48,7 +47,7 @@ The load is then matched to the source, and the largest power the source can del
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Maximizing $P_L$ over $R_L$ gives $R_L = R_s$, at which the load receives $P_{L(\text{max})} = \frac{V_s^2}{4R_s}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
+- matching condition: which load resistance gives the source its greatest delivered power? ::@:: Maximizing $P_L$ over $R_L$ gives $R_L = R_s$, at which the load receives $P_{L(\text{max})} = \frac{V_s^2}{4R_s}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - condition for maximum: how is $\frac{dP_L}{dR_L} = 0$ solved for the matching condition? ::@:: $(R_s + R_L)^2 - 2R_L(R_s + R_L) = 0$ simplifies to $R_L^2 - R_s^2 = 0$, so $R_L = R_s$. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - maximum power: a source $V_s$ has source resistance $R_s$; what is the largest power the load can receive? ::@:: $P_{L(\text{max})} = \frac{V_s^2}{4R_s}$, attained at $R_L = R_s$. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - cost of matching: how is the generated power divided when $R_L = R_s$? ::@:: The load and the source resistance dissipate equal amounts, so half the generated power reaches the load. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
@@ -66,8 +65,7 @@ Matching the line to its source would give the largest power, but only half of i
 
 Flashcards for this section are as follows:
 
-- overview ::@:: At a fixed delivered power the line loss is $P_{\text{loss}} = \frac{P_{\text{load}}^2}{V_L^2}\sum R_{\text{line}}$, proportional to $\frac{1}{V_L^2}$, so a high transmission voltage lowers the loss. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
-- loss formula: write the loss of a line of total resistance $\sum R_{\text{line}}$ delivering $P_{\text{load}}$ at voltage $V_L$. ::@:: $P_{\text{loss}} = I_L^2 \sum R_{\text{line}} = \frac{P_{\text{load}}^2}{V_L^2}\sum R_{\text{line}}$. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
-- scaling: how does $P_{\text{loss}}$ change when $V_L$ is doubled at a fixed delivered power? ::@:: It falls to a quarter, since $P_{\text{loss}} \propto \frac{1}{V_L^2}$. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
-- why not matching: why is a transmission line not matched to its source? ::@:: Matching maximizes the delivered power but sends only half the generated power to the load, whereas transmission wants a given delivered power at the least loss. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
-- present practice: what $V_L$ and $P_{\text{load}}$ are now reached in China? ::@:: A voltage above $1\text{ MV}$ with $P_{\text{load}}$ rated over $10\text{ GW}$. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
+- line loss and the transmission voltage: at a fixed delivered power, how does the loss vary with the voltage? ::@:: At a fixed delivered power the line loss is $P_{\text{loss}} = \frac{P_{\text{load}}^2}{V_L^2}\sum R_{\text{line}}$, proportional to $\frac{1}{V_L^2}$, so a high transmission voltage lowers the loss. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- loss formula: write the loss of a line of total resistance $\sum R_{\text{line}}$ delivering $P_{\text{load}}$ at voltage $V_L$. ::@:: $P_{\text{loss}} = I_L^2 \sum R_{\text{line}} = \frac{P_{\text{load}}^2}{V_L^2}\sum R_{\text{line}}$.
+- scaling: how does $P_{\text{loss}}$ change when $V_L$ is doubled at a fixed delivered power? ::@:: It falls to a quarter, since $P_{\text{loss}} \propto \frac{1}{V_L^2}$.
+- why not matching: why is a transmission line not matched to its source? ::@:: Matching maximizes the delivered power but sends only half the generated power to the load, whereas transmission wants a given delivered power at the least loss.

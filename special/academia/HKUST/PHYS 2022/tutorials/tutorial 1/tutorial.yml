@@ -1,0 +1,19 @@
+assignment:
+  comments: {}
+  content: No additional details were added for this assignment.
+  grade:
+    entered: 20
+    graded anonymously: false
+    possible: 20
+  id: 454510
+  properties:
+    due: No Due Date
+    points: 20
+  submissions:
+    - datetime: ""
+      id: -1
+  title: Tutorial 1
+course:
+  id: 74008
+  name: PHYS2022 (L1)
+type: submission/Canvas/canvas.ust.hk

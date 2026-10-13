@@ -167,10 +167,10 @@ def _collapse_whitespace(text: str) -> str:
 def _collect_anchor_fragments(ele: PageElement) -> frozenset[str]:
     """Collect every anchor spelling the source document offers.
 
-    MediaWiki emits a section anchor in the wiki's primary fragment mode and,
-    when legacy mode is also configured, a legacy alias for the same section.
-    Notes anchor sections by heading text, so the legacy-decoded spelling of
-    each id is part of the accepted set as well.
+    Notes anchor sections by heading text and MediaWiki writes a literal ``.``
+    unescaped, so an in-document self-link is the one case where a
+    dot-plus-hex run can be settled from evidence instead of plausibility:
+    the literal reading is kept when only it names an anchor of this document.
     """
     if not isinstance(ele, Tag):
         return frozenset()
@@ -251,12 +251,8 @@ class WikiHtmlConverter:
         self._pending_redirects: list[tuple[str, str]] = []
 
     def _decode_fragment(self, fragment: str) -> str:
-        """Decode an ``href`` fragment against the document's anchor spellings."""
-        return _plain_fragment(
-            fragment,
-            known_fragments=self._known_fragments,
-            names_map=self._names_map,
-        )
+        """Decode an ``href`` fragment into plain text."""
+        return _plain_fragment(fragment, known_fragments=self._known_fragments)
 
     def _convert_text_node(
         self,
@@ -784,10 +780,9 @@ class WikiHtmlConverter:
             text = str(sibling)
             if text.rstrip(_cfg._MARKDOWN_SEPARATOR_CHARACTERS) == text:
                 return True  # Sibling does not end with a separator char.
-            # U+00B1 PLUS-MINUS SIGN does not word-bound for emphasis parsing.
-            # E.g. ``= ±_c_`` must become ``= ±<!-- separator -->_c_`` so the
-            # italic marker is recognized by Markdown parsers.
-            if text.endswith("\u00b1"):
+            # A math sign binds tightly to what follows it (``−t``, ``±c``),
+            # so an emphasis marker abutting it needs a separator of its own.
+            if text.endswith(tuple(_cfg._TIGHT_MATH_SIGN_CHARACTERS)):
                 return True
             return False
         if isinstance(sibling, Tag):
@@ -820,9 +815,6 @@ class WikiHtmlConverter:
             text = str(sibling)
             if text.lstrip(_cfg._MARKDOWN_SEPARATOR_CHARACTERS) == text:
                 return True  # Sibling does not start with a separator char.
-            # U+00B1 PLUS-MINUS SIGN does not word-bound for emphasis parsing.
-            if text.startswith("\u00b1"):
-                return True
             return False
         if isinstance(sibling, Tag) and WikiHtmlConverter._is_transparent_span(sibling):
             # Descend into the transparent span.  Whitespace-only → gap

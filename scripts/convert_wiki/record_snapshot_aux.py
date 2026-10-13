@@ -4,9 +4,11 @@ Two subcommands:
 
 ``record <name>``
     Query the live Wikipedia API for every link title of
-    ``snapshots/<name>.input.html`` with a *cold* redirect cache, then write
-    ``api_titles``, ``api_responses``, and ``redirect_cache`` into the snapshot
-    aux fixture.  ``image_metadata`` and ``name_map_overrides`` are preserved.
+    ``snapshots/<name>.input.html`` with a *cold* redirect cache, and the
+    Commons API for the description of every image it references, then write
+    ``api_titles``, ``api_responses``, ``redirect_cache``, and
+    ``image_metadata`` into the snapshot aux fixture.  ``name_map_overrides``
+    is preserved.
 
 ``expected <name>``
     Regenerate ``snapshots/<name>.expected.md`` from the aux fixture without
@@ -42,6 +44,9 @@ from scripts.convert_wiki import api as _api
 from scripts.convert_wiki import config as _cfg
 from scripts.convert_wiki.pipeline import run_pipeline
 from scripts.convert_wiki.types import _RedirectInfo
+
+"""Public API of this module (empty: no symbols are exported)."""
+__all__ = ()
 
 if TYPE_CHECKING:
     from aiohttp_retry.types import ClientType
@@ -158,6 +163,7 @@ async def _record(name: str) -> _AuxFixture:
         "html.parser",
     )
     titles = _api._collect_link_titles(html)
+    image_filenames = _api._collect_image_filenames(html)
     cache: MutableMapping[str, _RedirectInfo] = {}
 
     async with ClientSession(
@@ -187,6 +193,12 @@ async def _record(name: str) -> _AuxFixture:
                     cache,
                     cache_path=Path(tmp) / "redirect_cache.json",
                 )
+            # Image descriptions go through the plain session: recording their
+            # bodies would break the ``api_responses`` batch invariant that
+            # ``TestSnapshotAuxFixtures`` checks.
+            image_metadata = await _api._resolve_image_metadata(
+                cast("ClientType", session), image_filenames
+            )
         finally:
             await session.close()
 
@@ -207,7 +219,7 @@ async def _record(name: str) -> _AuxFixture:
             title: {"to": info.to, "tofragment": info.tofragment}
             for title, info in cache.items()
         },
-        "image_metadata": aux["image_metadata"],
+        "image_metadata": image_metadata,
         "name_map_overrides": aux["name_map_overrides"],
     }
 
