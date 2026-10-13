@@ -91,7 +91,7 @@ The content is in teaching order.
 - [information age](../../../../general/informaion%20age.md) ::@:: the agricultural revolution, then the industrial revolution, then the information revolution (computer revolution); thus we have the information age, and computers are pervasive <!--SR:!2028-11-13,1066,350!2028-12-18,1095,350-->
     - information age / why ::@:: one of the reasons: Moore's law: the number of transistors in an integrated circuit (IC) doubles about every two years <!--SR:!2029-03-23,1167,350!2027-12-12,791,330-->
     - information age / applications ::@:: artificial intelligence, automobile computers, human genome project, search engines, world wide web <!--SR:!2027-10-27,755,330!2027-11-26,777,330-->
-    - information age / trend ::@:: electronics technology continues to evolve due to increased capacity and reduced cost, e.g. vacuum tubes (1950s), transistors (1950, 1960s), integrated circuits (1960s, 1970s), very large scale integrated (VLSI) circuits (since 1980s) <!--SR:!2028-01-12,725,270!2026-11-10,435,270-->
+    - information age / trend ::@:: electronics technology continues to evolve due to increased capacity and reduced cost, e.g. vacuum tubes (1950s), transistors (1950, 1960s), integrated circuits (1960s, 1970s), very large scale integrated (VLSI) circuits (since 1980s) <!--SR:!2028-01-12,725,270!fsrs,2030-10-14T00:00:00.000Z,1434,1433.67199407,2.98092302,2,10,0,0,2026-11-10T00:00:00.000Z-->
 
 ## week 1 lab 1
 
@@ -320,7 +320,7 @@ The content is in teaching order.
     - floating-point arithmetic / precision ::@:: The arithmetic is _approximate_ (i.e. not _exact_). Thus we say it has a finite range and _limited_ precision. <!--SR:!2027-06-23,680,411!2027-05-27,656,411-->
 - [single-precision floating-point format](../../../../genral/single-precision%20floating-point%20format.md) (`float`) ::@:: 32-bit floating-point format, starting from the left (MSB) to the right (LSB): 1 sign bit, 8 exponent bits, and 23 significand bits (precision is 24 bits). <!--SR:!2027-04-02,608,411!fsrs,2032-09-28T00:00:00.000Z,2166,2166.08190138,1,2,10,0,0,2026-10-24T00:00:00.000Z-->
     - single-precision floating-point format / precision ::@:: about 7 significant _decimal_ digits (6 to 9) <!--SR:!2027-07-14,694,411!2027-06-28,684,411-->
-    - single-precision floating-point format / exponent range ::@:: 2<sup>−126</sup> ≈ 10<sup>−38</sup> to 2<sup>+127</sup> ≈ 10<sup>+38</sup> <!--SR:!2026-11-10,485,391!2026-12-18,494,391-->
+    - single-precision floating-point format / exponent range ::@:: 2<sup>−126</sup> ≈ 10<sup>−38</sup> to 2<sup>+127</sup> ≈ 10<sup>+38</sup> <!--SR:!fsrs,2032-12-22T00:00:00.000Z,2234,2234.24126267,1,2,10,0,0,2026-11-10T00:00:00.000Z!2026-12-18,494,391-->
     - single-precision floating-point format
 - [double-precision floating-point format](../../../../genral/double-precision%20floating-point%20format.md) (`double`) ::@:: 64-bit floating-point format, starting from the left (MSB) to the right (LSB): 1 sign bit, 11 exponent bits, and 52 significand bits (precision is 53 bits). <!--SR:!2027-06-11,669,411!2027-05-29,658,411-->
     - double-precision floating-point format / precision ::@:: about 16 significant _decimal_ digits (15 to 17) <!--SR:!2027-07-09,689,411!2027-07-08,688,411-->

@@ -164,7 +164,7 @@ Using {@{a `Future`}@} also gives {@{built‑in failure handling via `Try[T]`}@}
 
 ## transformations
 
-`Future` offers {@{a small but expressive set of combinators}@} that lift {@{ordinary functions into the asynchronous world and compose several futures together}@}. The API is intentionally analogous to {@{the standard collection operations}@}, which makes reasoning {@{about pipelines straightforward}@}. These transformation operators let developers write {@{clear, linear‑looking code while still exploiting concurrency}@} (and {@{parallelism if the execution context is parallel}@}) and {@{failure handling}@} that `Future` provides. <!--SR:!2026-12-01,251,330!2026-11-10,241,330!2026-11-25,253,330!2027-01-23,293,330!2026-12-06,255,330!2027-01-22,293,330!fsrs,2029-08-29T00:00:00.000Z,1034,1033.61384781,1,2,9,0,0,2026-10-30T00:00:00.000Z-->
+`Future` offers {@{a small but expressive set of combinators}@} that lift {@{ordinary functions into the asynchronous world and compose several futures together}@}. The API is intentionally analogous to {@{the standard collection operations}@}, which makes reasoning {@{about pipelines straightforward}@}. These transformation operators let developers write {@{clear, linear‑looking code while still exploiting concurrency}@} (and {@{parallelism if the execution context is parallel}@}) and {@{failure handling}@} that `Future` provides. <!--SR:!2026-12-01,251,330!fsrs,2029-10-17T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-11-10T00:00:00.000Z!2026-11-25,253,330!2027-01-23,293,330!2026-12-06,255,330!2027-01-22,293,330!fsrs,2029-08-29T00:00:00.000Z,1034,1033.61384781,1,2,9,0,0,2026-10-30T00:00:00.000Z-->
 
 {@{`map`}@} applies {@{a pure function to the value produced by a `Future`}@}. If {@{the original future fails}@}, the resulting one {@{propagates the failure unchanged}@}. <!--SR:!2026-12-15,261,330!2027-01-13,285,330!2027-01-12,284,330!2026-11-11,241,330-->
 
@@ -205,7 +205,7 @@ When {@{the next step itself returns a `Future`}@}, {@{`flatMap`}@} chains {@{th
 >
 > {@{The two coffees}@} may be {@{prepared concurrently}@}; {@{the result is available only}@} when {@{both futures finish successfully}@}. <!--SR:!2027-01-06,279,330!2026-11-14,244,330!2027-01-22,292,330!fsrs,2029-09-28T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-06T00:00:00.000Z!2026-11-14,244,330!2026-12-28,272,330!2027-01-24,294,330!2027-01-01,275,330!2026-11-13,243,330!fsrs,2029-08-09T00:00:00.000Z,1018,1018.05728725,1,2,9,0,0,2026-10-26T00:00:00.000Z-->
 
-{@{`recover`}@} turns {@{a failed future into a successful one by supplying an alternative value}@}. {@{`recoverWith`}@} allows supplying {@{another asynchronous computation as the recovery path}@}, which is essentially {@{the flat version of `recover`}@}. <!--SR:!2026-12-17,263,330!2027-01-18,289,330!fsrs,2029-10-03T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-11-07T00:00:00.000Z!2026-11-10,241,330!2026-12-20,265,330-->
+{@{`recover`}@} turns {@{a failed future into a successful one by supplying an alternative value}@}. {@{`recoverWith`}@} allows supplying {@{another asynchronous computation as the recovery path}@}, which is essentially {@{the flat version of `recover`}@}. <!--SR:!2026-12-17,263,330!2027-01-18,289,330!fsrs,2029-10-03T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-11-07T00:00:00.000Z!fsrs,2029-10-17T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-11-10T00:00:00.000Z!2026-12-20,265,330-->
 
 > [!example] __`Future.recover`__
 >

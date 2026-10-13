@@ -188,7 +188,7 @@ Actors are {@{instantiated through the actor system}@}, which supplies {@{a uniq
 > counter ! "incr"
 > ```
 >
-> {@{The sender’s address}@} is passed {@{automatically}@}, so {@{the recipient can reply}@}. <!--SR:!2027-01-19,291,330!2026-11-10,241,330!2027-01-12,283,330!2027-01-22,294,330!2026-11-19,247,330!fsrs,2029-09-28T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-06T00:00:00.000Z-->
+> {@{The sender’s address}@} is passed {@{automatically}@}, so {@{the recipient can reply}@}. <!--SR:!2027-01-19,291,330!fsrs,2029-10-17T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-11-10T00:00:00.000Z!2027-01-12,283,330!2027-01-22,294,330!2026-11-19,247,330!fsrs,2029-09-28T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-06T00:00:00.000Z-->
 
 ### actor sate
 
@@ -322,7 +322,7 @@ In {@{an actor‑based design}@}, {@{a `BankAccount`}@} exposes only {@{two oper
 > ```
 <!--SR:!2026-11-22,251,330!2026-11-24,252,330!2026-11-11,241,330-->
 
-{@{The actor itself}@} keeps {@{a mutable balance}@} and replies with {@{`Done` or `Failed`}@}. When it {@{receives a `Withdraw`}@}, the amount is checked {@{against the current balance}@}; if insufficient, it signals {@{failure}@}. <!--SR:!2026-11-10,241,330!fsrs,2029-10-03T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-11-07T00:00:00.000Z!2027-01-06,278,330!2027-01-15,288,330!2027-01-03,278,330!2027-01-06,281,330-->
+{@{The actor itself}@} keeps {@{a mutable balance}@} and replies with {@{`Done` or `Failed`}@}. When it {@{receives a `Withdraw`}@}, the amount is checked {@{against the current balance}@}; if insufficient, it signals {@{failure}@}. <!--SR:!fsrs,2029-10-17T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-11-10T00:00:00.000Z!fsrs,2029-10-03T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-11-07T00:00:00.000Z!2027-01-06,278,330!2027-01-15,288,330!2027-01-03,278,330!2027-01-06,281,330-->
 
 > [!example] __BankAccount actor__
 >
@@ -508,9 +508,9 @@ Actors can schedule {@{timeouts via the actor system’s scheduler}@}. {@{A cont
 >     // other cases …
 > ```
 >
-> {@{Note that `scheduleOnce`}@} also accepts {@{a runnable}@}. However, we cannot use it to {@{_directly_ run `children.foreach(_ ! Abort)`}@} as it {@{breaks encapsulation}@}. That is, the actor state is {@{accessed from outside the actor's `receive` function}@}. <!--SR:!2026-11-10,241,330!fsrs,2029-10-08T00:00:00.000Z,1065,1064.62815785,1,2,9,0,0,2026-11-08T00:00:00.000Z!2027-01-22,291,330!2026-12-05,255,330!2026-11-22,251,330!2027-01-06,281,330!fsrs,2029-09-22T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-11-04T00:00:00.000Z!2026-12-17,262,330!2026-11-25,253,330!2027-01-17,287,330!2027-01-21,293,330-->
+> {@{Note that `scheduleOnce`}@} also accepts {@{a runnable}@}. However, we cannot use it to {@{_directly_ run `children.foreach(_ ! Abort)`}@} as it {@{breaks encapsulation}@}. That is, the actor state is {@{accessed from outside the actor's `receive` function}@}. <!--SR:!fsrs,2029-10-17T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-11-10T00:00:00.000Z!fsrs,2029-10-08T00:00:00.000Z,1065,1064.62815785,1,2,9,0,0,2026-11-08T00:00:00.000Z!2027-01-22,291,330!2026-12-05,255,330!2026-11-22,251,330!2027-01-06,281,330!fsrs,2029-09-22T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-11-04T00:00:00.000Z!2026-12-17,262,330!2026-11-25,253,330!2027-01-17,287,330!2027-01-21,293,330-->
 
-{@{A `Cache` actor}@} may be {@{further split from the `Controller` actor}@}. <!--SR:!2026-11-10,241,330!2026-11-17,245,330-->
+{@{A `Cache` actor}@} may be {@{further split from the `Controller` actor}@}. <!--SR:!fsrs,2029-10-17T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-11-10T00:00:00.000Z!2026-11-17,245,330-->
 
 > [!example] __`Cache` actor with futures__
 >

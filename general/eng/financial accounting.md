@@ -156,7 +156,7 @@ The {@{[accounting equation](accounting%20equation.md) ([Assets](asset.md) = [Li
 
 {@{[Asset](asset.md), [expense](expense.md), and [dividend](dividend.md) accounts}@} have {@{normal debit balances (i.e., debiting these types of accounts increases them)}@}. <!--SR:!2029-03-24,1288,350!2030-05-02,1560,330-->
 
-{@{[Liability](<liability%20(financial%20accounting).md>), [revenue](revenue.md), and [equity](<equity%20(finance).md>) accounts}@} have {@{normal credit balances (i.e., crediting these types of accounts increases them)}@}. <!--SR:!2027-05-13,743,330!2026-11-10,580,310-->
+{@{[Liability](<liability%20(financial%20accounting).md>), [revenue](revenue.md), and [equity](<equity%20(finance).md>) accounts}@} have {@{normal credit balances (i.e., crediting these types of accounts increases them)}@}. <!--SR:!2027-05-13,743,330!fsrs,2032-10-02T00:00:00.000Z,2153,2153.22392388,1,2,10,0,0,2026-11-10T00:00:00.000Z-->
 
 ```text
 0 = Dr Assets                            Cr Owners' Equity                Cr Liabilities

@@ -49,7 +49,7 @@ Scala lets programmers write code that {@{looks like traditional _imperative_ la
 >   if cond then { body; whileDo(cond)(body) } else ()
 > ```
 >
-> {@{The `cond` and `body` arguments}@} are {@{_by‑name_ parameters}@}, allowing {@{the loop to re‑evaluate them each time}@}. It returns {@{the `Unit` value `()`}@} when {@{the loop ends}@}. <!--SR:!2026-11-18,247,330!2026-12-18,267,330!2026-12-26,273,330!2026-11-28,251,330!2026-11-30,252,330!2026-11-10,241,330!2026-11-22,251,330!2026-12-15,264,330!2027-01-03,280,330-->
+> {@{The `cond` and `body` arguments}@} are {@{_by‑name_ parameters}@}, allowing {@{the loop to re‑evaluate them each time}@}. It returns {@{the `Unit` value `()`}@} when {@{the loop ends}@}. <!--SR:!2026-11-18,247,330!2026-12-18,267,330!2026-12-26,273,330!2026-11-28,251,330!2026-11-30,252,330!fsrs,2029-10-17T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-11-10T00:00:00.000Z!2026-11-22,251,330!2026-12-15,264,330!2027-01-03,280,330-->
 
 ### repeat loops
 

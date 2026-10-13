@@ -116,7 +116,7 @@ tags:
 >
 > ---
 >
-> - solution: {@{No. Stick to user requirements as closely as possible. However, if the entity described by the requirements is outside the scope of the system, you should ignore it.}@} <!--SR:!2026-11-10,310,340-->
+> - solution: {@{No. Stick to user requirements as closely as possible. However, if the entity described by the requirements is outside the scope of the system, you should ignore it.}@} <!--SR:!fsrs,2030-08-21T00:00:00.000Z,1380,1379.99523091,1,2,9,0,0,2026-11-10T00:00:00.000Z-->
 
 ---
 

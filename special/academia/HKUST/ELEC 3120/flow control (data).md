@@ -22,9 +22,9 @@ Flow control keeps a fast sender from overrunning the receiver's buffer. The rec
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Flow control keeps a fast sender within the buffer room the receiver has left. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
-- what sets the limit: what decides how much a sender may have outstanding under flow control? ::@:: The receiver's own resources, through the room left in its buffer. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
-- what happens without it: what happens to a receiver that the sender outruns? ::@:: Its buffer overflows, because data arrives faster than it is drained. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- overview ::@:: Flow control keeps a fast sender within the buffer room the receiver has left. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
+- what sets the limit: what decides how much a sender may have outstanding under flow control? ::@:: The receiver's own resources, through the room left in its buffer. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
+- what happens without it: what happens to a receiver that the sender outruns? ::@:: Its buffer overflows, because data arrives faster than it is drained. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 
 ## receive window
 
@@ -34,10 +34,10 @@ The receive window, also called the advertised window, is the buffer room the re
 
 Flashcards for this section are as follows:
 
-- receive window: what is it, and where does the sender learn it? ::@:: The buffer room the receiver has left, published in the headers the receiver sends back. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
-- setting the receive window: which receiver properties decide it? ::@:: The buffer size, the CPU processing ability, and the system memory size. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
-- remaining buffer: a buffer of $64$ MSS holds $30$ MSS; what does the receiver advertise? ::@:: $34$ MSS, the room left. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
-- why it changes: why is the advertised window different in each reply? ::@:: The free buffer space changes as the application reads data. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- receive window: what is it, and where does the sender learn it? ::@:: The buffer room the receiver has left, published in the headers the receiver sends back. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
+- setting the receive window: which receiver properties decide it? ::@:: The buffer size, the CPU processing ability, and the system memory size. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
+- remaining buffer: a buffer of $64$ MSS holds $30$ MSS; what does the receiver advertise? ::@:: $34$ MSS, the room left. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
+- why it changes: why is the advertised window different in each reply? ::@:: The free buffer space changes as the application reads data. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 
 ## sending window
 
@@ -47,5 +47,5 @@ The sender takes the advertised window $RWND$ as a limit on its sending window a
 
 Flashcards for this section are as follows:
 
-- sending window: what is the sending window when the advertised window is $RWND$ and the congestion window is $CWND$? ::@:: $\min(RWND, CWND)$: it never exceeds the smaller of the two. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
-- shrinking: the advertised window shrinks while the sender has a full window outstanding; what must the sender do? ::@:: Bring its sending window down to the new value at once, since the receiver no longer has room. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- sending window: what is the sending window when the advertised window is $RWND$ and the congestion window is $CWND$? ::@:: $\min(RWND, CWND)$: it never exceeds the smaller of the two. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
+- shrinking: the advertised window shrinks while the sender has a full window outstanding; what must the sender do? ::@:: Bring its sending window down to the new value at once, since the receiver no longer has room. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->

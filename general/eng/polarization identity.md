@@ -123,7 +123,7 @@ More generally, in {@{the presence of a ring involution or where 2 is not invert
 
 ### homogeneous polynomials of higher degree
 
-Finally, in {@{any of these contexts}@} these identities may be {@{extended to [homogeneous polynomials](homogeneous%20polynomial.md) \(that is, [algebraic forms](algebraic%20form.md)\) of arbitrary [degree](degree%20of%20a%20polynomial.md)}@}, where it is known as {@{the [polarization formula](polarization%20formula.md)}@}, and is reviewed in greater detail in the article on {@{the [polarization of an algebraic form](polarization%20of%20an%20algebraic%20form.md)}@}. <!--SR:!2029-04-27,1188,350!2026-11-10,468,310!2029-03-07,1149,350!2029-11-14,1345,350-->
+Finally, in {@{any of these contexts}@} these identities may be {@{extended to [homogeneous polynomials](homogeneous%20polynomial.md) \(that is, [algebraic forms](algebraic%20form.md)\) of arbitrary [degree](degree%20of%20a%20polynomial.md)}@}, where it is known as {@{the [polarization formula](polarization%20formula.md)}@}, and is reviewed in greater detail in the article on {@{the [polarization of an algebraic form](polarization%20of%20an%20algebraic%20form.md)}@}. <!--SR:!2029-04-27,1188,350!fsrs,2031-09-29T00:00:00.000Z,1784,1784.01347357,1,2,10,0,0,2026-11-10T00:00:00.000Z!2029-03-07,1149,350!2029-11-14,1345,350-->
 
 ## see also
 

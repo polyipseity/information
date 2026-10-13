@@ -51,7 +51,7 @@ There are {@{<!--pytextgen generate section="298b"--><!-- The following content 
 
 - _(begin)_→::@::←[compressive stress](compression%20(physics).md): the side being shortened by the bending <!--SR:!2027-02-08,714,330!2028-12-18,1304,350-->
 - [compressive stress](compression%20(physics).md): the side being shortened by the bending→::@::←[shear stress](shear%20stress.md): mostly parallel and some complementary perpendicular to the load direction <!--SR:!2030-01-29,1519,310!2026-12-02,649,310-->
-- [shear stress](shear%20stress.md): mostly parallel and some complementary perpendicular to the load direction→::@::←[tensile stress](tension%20(physics).md): the side being lengthened by the bending <!--SR:!2026-11-10,623,310!2028-01-29,955,290-->
+- [shear stress](shear%20stress.md): mostly parallel and some complementary perpendicular to the load direction→::@::←[tensile stress](tension%20(physics).md): the side being lengthened by the bending <!--SR:!fsrs,2033-02-19T00:00:00.000Z,2293,2292.70257925,1,2,10,0,0,2026-11-10T00:00:00.000Z!2028-01-29,955,290-->
 - [tensile stress](tension%20(physics).md): the side being lengthened by the bending→::@::←_(end)_ <!--SR:!2028-06-22,1165,350!2027-10-26,947,330-->
 
 <!--/pytextgen-->

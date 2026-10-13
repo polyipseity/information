@@ -876,7 +876,7 @@ Here is a list of common IPA letters and their pronunciations:
 - ![voiced uvular trill](../../archives/Wikimedia%20Commons/Uvular%20trill.ogg):@:[voiced uvular trill](voiced%20uvular%20trill.md) <!--SR:!2027-05-27,476,276-->
 - ![voiced retroflex flap](../../archives/Wikimedia%20Commons/Retroflex%20flap.ogg):@:[voiced retroflex flap](voiced%20retroflex%20flap.md) <!--SR:!fsrs,2027-04-16T00:00:00.000Z,262,261.71913173,6.83837837,2,8,0,0,2026-07-28T00:00:00.000Z-->
 - ![voiced alveolar approximant](../../archives/Wikimedia%20Commons/Alveolar%20approximant.ogg):@:[voiced alveolar approximant](voiced%20alveolar%20approximant.md) <!--SR:!fsrs,2027-01-09T00:00:00.000Z,162,161.78492142,6.97302442,2,7,0,0,2026-07-31T00:00:00.000Z-->
-- ![voiced retroflex approximant](../../archives/Wikimedia%20Commons/Retroflex%20Approximant2.ogg):@:[voiced retroflex approximant](voiced%20retroflex%20approximant.md) <!--SR:!fsrs,2026-11-10T00:00:00.000Z,108,107.6829674,6.99791867,2,7,0,0,2026-07-25T00:00:00.000Z-->
+- ![voiced retroflex approximant](../../archives/Wikimedia%20Commons/Retroflex%20Approximant2.ogg):@:[voiced retroflex approximant](voiced%20retroflex%20approximant.md) <!--SR:!fsrs,2027-05-01T00:00:00.000Z,172,171.85586417,7.99230689,2,8,0,0,2026-11-10T00:00:00.000Z-->
 - ![voiced uvular fricative](../../archives/Wikimedia%20Commons/Voiced%20uvular%20fricative.ogg):@:[voiced uvular fricative](voiced%20uvular%20fricative.md) <!--SR:!fsrs,2026-11-21T03:59:39.974Z,159,158.99165094,6.99791867,2,7,0,0,2026-06-15T03:59:39.974Z-->
 - ![voiceless alveolar fricative](../../archives/Wikimedia%20Commons/Voiceless%20alveolar%20sibilant.ogg):@:[voiceless alveolar fricative](voiceless%20alveolar%20fricative.md) <!--SR:!fsrs,2027-09-01T00:00:00.000Z,329,329.28583143,5.48972837,2,8,0,0,2026-10-07T00:00:00.000Z-->
 - ![voiceless postalveolar fricative](../../archives/Wikimedia%20Commons/Voiceless%20palato-alveolar%20sibilant.ogg):@:[voiceless postalveolar fricative](voiceless%20postalveolar%20fricative.md) <!--SR:!fsrs,2027-07-17T00:00:00.000Z,338,337.59279467,5.48972837,2,8,0,0,2026-08-13T00:00:00.000Z-->
@@ -948,7 +948,7 @@ Here is a list of common IPA letters and their pronunciations:
 - [voiced alveolo-palatal affricate](voiced%20alveolo-palatal%20affricate.md):@:[Polish](Polish%20language.md) _**dź**więk_ \[d͡ʑvʲɛŋk\] "sound" <!--SR:!fsrs,2026-11-26T00:00:00.000Z,46,45.74205864,9.93790175,2,9,0,0,2026-10-11T00:00:00.000Z-->
 - [voiced retroflex affricate](voiced%20retroflex%20affricate.md):@:[Polish](Polish%20language.md) _**dż**em_ \[ɖ͡ʐɛm\] "jam" <!--SR:!fsrs,2027-01-26T00:00:00.000Z,160,160.19433718,8.93627837,2,8,0,0,2026-08-19T00:00:00.000Z-->
 - [close-mid front unrounded vowel](close-mid%20front%20unrounded%20vowel.md):@:[English](English%20language.md) _m**ay**_ \[meː\] <!--SR:!fsrs,2026-12-16T00:00:00.000Z,79,79.02421239,9.97047151,2,8,0,0,2026-09-28T00:00:00.000Z-->
-- [close-mid central unrounded vowel](close-mid%20central%20unrounded%20vowel.md):@:[English](English%20language.md) _b**ir**d_ \[bɘːd\] <!--SR:!fsrs,2026-11-09T08:09:10.807Z,155,155.15705834,9.23597837,2,8,0,0,2026-06-07T08:09:10.807Z-->
+- [close-mid central unrounded vowel](close-mid%20central%20unrounded%20vowel.md):@:[English](English%20language.md) _b**ir**d_ \[bɘːd\] <!--SR:!fsrs,2027-05-23T00:00:00.000Z,194,193.57515105,9.47803521,2,9,0,0,2026-11-10T00:00:00.000Z-->
 - [mid central vowel](mid%20central%20vowel.md):@:[English](English%20language.md) _Tin**a**_ \[ˈtʰiːnə\] <!--SR:!2026-12-20,221,138-->
 - [r-colored mid central vowel](r-colored%20vowel.md):@:[English](English%20language.md) _runn**er**_ \[ˈɹʌnɚ\] <!--SR:!fsrs,2029-01-22T00:00:00.000Z,879,879.25765157,4.5819071,2,9,0,0,2026-08-27T00:00:00.000Z-->
 - [open-mid front unrounded vowel](open-mid%20front%20unrounded%20vowel.md):@:[English](English%20language.md) _b**e**d_ \[bɛd\] <!--SR:!fsrs,2027-03-03T05:52:26.829Z,261,260.96511023,8.93627837,2,8,0,0,2026-06-15T05:52:26.829Z-->
@@ -1087,7 +1087,7 @@ Here is a list of common IPA diacritics and their descriptions:
 - [long](longness%20(phonetics).md):@:\[◌ː\] (e.g. [aː]) <!--SR:!2033-08-18,2906,381-->
 - [half-long](half-longness%20(phonetics).md):@:\[◌ˑ\] (e.g. [aˑ]) <!--SR:!2029-01-08,1385,374-->
 - [primary stress](stress%20(lingustics).md):@:\[ˈ◌\] (e.g. [ˈa]) <!--SR:!2030-09-15,2003,392-->
-- [secondary stress](secondary%20stress.md):@:\[ˌ◌\] (e.g. [ˌa]) <!--SR:!2026-11-10,802,352-->
+- [secondary stress](secondary%20stress.md):@:\[ˌ◌\] (e.g. [ˌa]) <!--SR:!fsrs,2035-11-04T00:00:00.000Z,3281,3281.06458437,1,2,11,0,0,2026-11-10T00:00:00.000Z-->
 - [syllable break](syllable.md):@:\[.\] <!--SR:!2031-11-06,2260,396-->
 
 <!--/pytextgen-->

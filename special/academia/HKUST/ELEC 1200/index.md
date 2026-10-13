@@ -820,7 +820,7 @@ The content is in teaching order.
     - OSI model / the layers
     - OSI model / network
 - [network layer](../../../../general/network%20layer.md) ::@:: It is __layer 3__. It is responsible for packet forwarding including routing through intermediate routers. <!--SR:!fsrs,2031-05-03T00:00:00.000Z,1654,1654.38681741,1,2,9,0,0,2026-10-22T00:00:00.000Z!2027-01-09,405,370-->
-    - network layer / functions ::@:: addressing, datagram, forwarding, routing <!--SR:!2026-12-15,385,370!2026-11-10,358,370-->
+    - network layer / functions ::@:: addressing, datagram, forwarding, routing <!--SR:!2026-12-15,385,370!fsrs,2031-07-24T00:00:00.000Z,1717,1716.89223806,1,2,9,0,0,2026-11-10T00:00:00.000Z-->
     - network layer / datagram ::@:: Encapsulate _segments_ into _datagrams_ by adding _headers_ and _trailers_. _Routers_ examines these headers to know where to _forward_. <!--SR:!2027-01-14,410,370!fsrs,2031-06-27T00:00:00.000Z,1696,1696.09448059,1,2,9,0,0,2026-11-04T00:00:00.000Z-->
     - network layer / addressing ::@:: IP \(Internet Protocol\) addresses are used to address the destination. The address identifies the destination so that _datagram networks_ \(e.g. internet\) responsible for sending the datagram or packet can know where to forward. <!--SR:!2026-12-03,376,370!2026-12-18,389,370-->
     - network layer / forwarding ::@:: According to the header of a datagram, forward the datagram to the next router \(or destination\). <p> A _forwarding table_ is often used. <!--SR:!2026-12-29,398,370!fsrs,2031-05-25T00:00:00.000Z,1671,1671.08803594,1,2,9,0,0,2026-10-27T00:00:00.000Z-->

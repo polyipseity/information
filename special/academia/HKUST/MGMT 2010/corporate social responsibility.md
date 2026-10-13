@@ -30,11 +30,11 @@ The base is profitability — a company that cannot sustain itself cannot fulfil
 
 Flashcards for this section are as follows:
 
-- Carroll's CSR pyramid ::@:: From base to apex: economic (profitability), legal (law), ethical (stakeholder expectations), philanthropic (voluntary good). Each level assumes the ones below are met. <!--SR:!fsrs,2026-11-15T00:00:00.000Z,11,10.60809966,3.4509278,2,3,0,0,2026-11-04T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
-- Economic responsibility ::@:: The foundation: be profitable. Capitalism requires it; higher obligations depend on it. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
-- Legal responsibility ::@:: Obey the law — what stakeholders require. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
-- Ethical responsibility ::@:: Meet stakeholder expectations beyond what the law demands. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
-- Philanthropic responsibility ::@:: Do what stakeholders desire, not what they require. Voluntary. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- Carroll's CSR pyramid ::@:: From base to apex: economic (profitability), legal (law), ethical (stakeholder expectations), philanthropic (voluntary good). Each level assumes the ones below are met. <!--SR:!fsrs,2026-11-15T00:00:00.000Z,11,10.60809966,3.4509278,2,3,0,0,2026-11-04T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
+- Economic responsibility ::@:: The foundation: be profitable. Capitalism requires it; higher obligations depend on it. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
+- Legal responsibility ::@:: Obey the law — what stakeholders require. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
+- Ethical responsibility ::@:: Meet stakeholder expectations beyond what the law demands. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
+- Philanthropic responsibility ::@:: Do what stakeholders desire, not what they require. Voluntary. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 
 ## stakeholder perspective
 
@@ -46,5 +46,5 @@ When profit and ethics pull in different directions, managers face the core tens
 
 Flashcards for this section are as follows:
 
-- Doing well versus doing good ::@:: Doing well is profitability; doing good is meeting ethical and philanthropic obligations beyond legal compliance. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
-- The core CSR tension ::@:: When profit motives conflict with stakeholder expectations, managers must balance economic performance against ethical responsibility. <!--SR:!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-11-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-02T00:00:00.000Z-->
+- Doing well versus doing good ::@:: Doing well is profitability; doing good is meeting ethical and philanthropic obligations beyond legal compliance. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
+- The core CSR tension ::@:: When profit motives conflict with stakeholder expectations, managers must balance economic performance against ethical responsibility. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->

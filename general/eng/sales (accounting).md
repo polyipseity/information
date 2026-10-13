@@ -84,7 +84,7 @@ When {@{the US government}@} {@{reports [wholesale](wholesale.md) sales}@}, this
 - [Gross profit](gross%20profit.md) ::@:: = [net sales](net%20sales.md) – [cost of goods sold](cost%20of%20goods%20sold.md) <!--SR:!2027-04-13,521,401!2027-04-20,527,401-->
 - [Operating profit](operating%20profit.md) ::@:: = [gross profit](gross%20profit.md) – total [operating expenses](operating%20expense.md) <!--SR:!2027-04-03,512,401!2027-04-01,510,401-->
 - [Net profit](net%20profit.md) ::@:: = [operating profit](operating%20profit.md) – taxes – interest <!--SR:!2026-12-03,388,381!2027-04-02,511,401-->
-- \(annotation: full form\) [Net profit](net%20profit.md) ::@:: = [net sales](net%20sales.md) – [cost of goods sold](cost%20of%20goods%20sold.md) – [operating expense](operating%20expense.md) – taxes – interest <!--SR:!2026-11-10,369,381!2026-11-20,377,381-->
+- \(annotation: full form\) [Net profit](net%20profit.md) ::@:: = [net sales](net%20sales.md) – [cost of goods sold](cost%20of%20goods%20sold.md) – [operating expense](operating%20expense.md) – taxes – interest <!--SR:!fsrs,2031-09-08T00:00:00.000Z,1763,1762.51909974,1,2,10,0,0,2026-11-10T00:00:00.000Z!2026-11-20,377,381-->
 
 ## references
 

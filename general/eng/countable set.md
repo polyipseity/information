@@ -86,7 +86,7 @@ As for {@{the case of infinite sets}@}, {@{a set $S$ is countably infinite}@} if
 
 > Theorem — $\mathbb {Z}$ \(the set of all integers\) and $\mathbb {Q}$ \(the set of all rational numbers\) are {@{countable}@}.<sup>[\[c\]](#^ref-c)</sup> <!--SR:!2029-05-09,1245,350-->
 
-In a similar manner, {@{the set of [algebraic numbers](algebraic%20number.md)}@} is {@{countable}@}.<sup>[\[23\]](#^ref-23)</sup><sup>[\[d\]](#^ref-d)</sup> <!--SR:!2029-09-10,1339,350!2026-11-10,516,310-->
+In a similar manner, {@{the set of [algebraic numbers](algebraic%20number.md)}@} is {@{countable}@}.<sup>[\[23\]](#^ref-23)</sup><sup>[\[d\]](#^ref-d)</sup> <!--SR:!2029-09-10,1339,350!fsrs,2032-03-06T00:00:00.000Z,1943,1943.37524027,1,2,10,0,0,2026-11-10T00:00:00.000Z-->
 
 Sometimes {@{more than one mapping is useful}@}: a set $A$ to be shown as countable is {@{one-to-one mapped \(injection\) to another set $B$}@}, then $A$ is proved {@{as countable if $B$ is one-to-one mapped to the set of natural numbers}@}. For example, {@{the set of positive [rational numbers](rational%20number.md)}@} can {@{easily be one-to-one mapped to the set of natural number pairs \(2-tuples\) because $p/q$ maps to $(p,q)$}@}. Since {@{the set of natural number pairs is one-to-one mapped \(actually one-to-one correspondence or bijection\) to the set of natural numbers as shown above}@}, {@{the positive rational number set}@} is {@{proved as countable}@}. <!--SR:!2027-08-04,725,330!2028-12-28,1142,350!fsrs,2031-12-14T00:00:00.000Z,1884,1883.82545978,1,2,10,0,0,2026-10-17T00:00:00.000Z!2027-12-14,832,330!2027-11-08,791,330!2029-08-27,1325,350!2029-09-15,1344,350!2029-09-09,1338,350-->
 

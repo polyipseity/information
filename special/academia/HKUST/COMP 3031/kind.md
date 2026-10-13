@@ -62,7 +62,7 @@ Intuitively, {@{a type function}@} is like {@{an ordinary function}@}, but accep
 {@{A lawful monad}@} must satisfy {@{three laws: left unit, right unit, essential-associativity}@}. <!--SR:!2026-12-30,276,330!2026-11-14,244,330-->
 
 - _left unit_: ::@:: `M.unit(x).flatMap(f) == f(x)` <!--SR:!2026-12-06,256,330!2026-11-16,246,330-->
-- _right unit_: ::@:: `m.flatMap(M.unit) == m` <!--SR:!fsrs,2029-09-12T00:00:00.000Z,1045,1045.2595081,1,2,9,0,0,2026-11-02T00:00:00.000Z!2026-11-10,241,330-->
+- _right unit_: ::@:: `m.flatMap(M.unit) == m` <!--SR:!fsrs,2029-09-12T00:00:00.000Z,1045,1045.2595081,1,2,9,0,0,2026-11-02T00:00:00.000Z!fsrs,2029-10-17T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-11-10T00:00:00.000Z-->
 - _essential-associativity_: ::@:: `m.flatMap(f).flatMap(g) == m.flatMap(x => f(x).flatMap(g))` <!--SR:!fsrs,2027-09-27T00:00:00.000Z,379,378.55589827,5.50426382,2,9,0,0,2026-09-13T00:00:00.000Z!fsrs,2029-03-05T00:00:00.000Z,864,864.05150394,1,2,9,0,0,2026-10-23T00:00:00.000Z-->
 
 {@{These laws}@} guarantee that the generic `reduce` {@{behaves consistently when instantiated with a monoid}@}. Because {@{a monad}@} is {@{a property of a _type constructor_ (`F[_]`) rather than a plain type}@}, it is expressed as {@{a higher‑kinded type class}@}: <!--SR:!2027-01-11,285,330!fsrs,2029-08-29T00:00:00.000Z,1034,1033.61384781,1,2,9,0,0,2026-10-30T00:00:00.000Z!2026-12-14,263,330!2027-01-07,282,330!2026-12-25,272,330-->
@@ -94,9 +94,9 @@ Intuitively, {@{a type function}@} is like {@{an ordinary function}@}, but accep
 >     def flatMap[U](f: T => List[U]): List[U] = x.flatMap(f)
 > ```
 >
-> Because {@{`List` already implements `flatMap`}@}, the instance is {@{trivial to implement}@}. <!--SR:!2026-11-27,255,330!2026-11-10,241,330!2026-12-28,269,330!fsrs,2029-03-19T00:00:00.000Z,875,875.09742298,1,2,9,0,0,2026-10-26T00:00:00.000Z-->
+> Because {@{`List` already implements `flatMap`}@}, the instance is {@{trivial to implement}@}. <!--SR:!2026-11-27,255,330!fsrs,2029-10-17T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-11-10T00:00:00.000Z!2026-12-28,269,330!fsrs,2029-03-19T00:00:00.000Z,875,875.09742298,1,2,9,0,0,2026-10-26T00:00:00.000Z-->
 
-Thus {@{the `Monad` type class}@} captures the semantics of both {@{constructing a singleton `List` and `flatMap` a `List`}@}. <!--SR:!2026-12-09,259,330!2026-11-10,241,330-->
+Thus {@{the `Monad` type class}@} captures the semantics of both {@{constructing a singleton `List` and `flatMap` a `List`}@}. <!--SR:!2026-12-09,259,330!fsrs,2029-10-17T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-11-10T00:00:00.000Z-->
 
 ### monad example motivation
 
@@ -133,7 +133,7 @@ Thus {@{the `Monad` type class}@} captures the semantics of both {@{constructing
 
 - `Functor[F[_]]` ::@:: defines `map: (F[A], A => B) => F[B]`. <!--SR:!2027-01-01,277,330!2026-11-15,245,330-->
 - `Applicative[F[_]]` ::@:: extends `Functor` and adds `pure: A => F[A]` and `ap: (F[A], F[A => B]) => F[B]`; it derives `map` from them. <!--SR:!fsrs,2027-07-28T00:00:00.000Z,361,361.05065372,3.99122837,2,8,0,0,2026-08-01T00:00:00.000Z!2026-11-23,251,330-->
-- `Monad[F[_]]` ::@:: extends `Applicative` and adds `flatMap: (F[A], A => F[B]) => F[B]`. <!--SR:!fsrs,2028-09-28T00:00:00.000Z,752,752.450798,1,2,8,0,0,2026-09-07T00:00:00.000Z!2026-11-10,241,330-->
+- `Monad[F[_]]` ::@:: extends `Applicative` and adds `flatMap: (F[A], A => F[B]) => F[B]`. <!--SR:!fsrs,2028-09-28T00:00:00.000Z,752,752.450798,1,2,8,0,0,2026-09-07T00:00:00.000Z!fsrs,2029-10-17T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-11-10T00:00:00.000Z-->
 
 > [!example] __`Functor` trait__
 >
@@ -182,9 +182,9 @@ Thus {@{the `Monad` type class}@} captures the semantics of both {@{constructing
 
 ## other languages
 
-{@{Higher‑kinded polymorphism}@} is not common {@{outside of Scala and Haskell}@}. The following snippets illustrate {@{the two main patterns used in other mainstream languages}@}. <!--SR:!fsrs,2029-03-14T00:00:00.000Z,871,871.41762991,1,2,9,0,0,2026-10-25T00:00:00.000Z!2026-12-12,256,330!2026-11-10,241,330-->
+{@{Higher‑kinded polymorphism}@} is not common {@{outside of Scala and Haskell}@}. The following snippets illustrate {@{the two main patterns used in other mainstream languages}@}. <!--SR:!fsrs,2029-03-14T00:00:00.000Z,871,871.41762991,1,2,9,0,0,2026-10-25T00:00:00.000Z!2026-12-12,256,330!fsrs,2029-10-17T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-11-10T00:00:00.000Z-->
 
-{@{In _Haskell_}@} a {@{_type class_}@} is declared with {@{`class`}@}. {@{The standard monad abstraction}@} is: <!--SR:!fsrs,2029-09-07T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-11-01T00:00:00.000Z!2026-11-10,241,330!2027-01-03,279,330!2026-11-18,247,330-->
+{@{In _Haskell_}@} a {@{_type class_}@} is declared with {@{`class`}@}. {@{The standard monad abstraction}@} is: <!--SR:!fsrs,2029-09-07T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-11-01T00:00:00.000Z!fsrs,2029-10-17T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-11-10T00:00:00.000Z!2027-01-03,279,330!2026-11-18,247,330-->
 
 > [!example] __Haskell monad__
 >
@@ -216,4 +216,4 @@ Thus {@{the `Monad` type class}@} captures the semantics of both {@{constructing
 
 {@{The signature}@} is {@{a _module type_}@}; {@{concrete modules}@} can be passed as {@{arguments to functions that need monadic behaviour}@}. <!--SR:!2027-01-05,281,330!2027-01-10,285,330!2026-11-23,251,330!2027-01-19,286,330-->
 
-{@{Other ecosystems}@} (e.g. {@{Rust}@} with {@{the `Monad` trait in libraries}@}, or {@{Kotlin’s}@} {@{`Arrow`}@}) follow {@{similar patterns}@}, but {@{Scala and Haskell}@} remain {@{the most idiomatic for higher‑kinded abstractions}@}. <!--SR:!2026-11-10,241,330!fsrs,2029-09-06T00:00:00.000Z,1040,1039.96344033,1,2,9,0,0,2026-11-01T00:00:00.000Z!2026-12-10,255,330!2027-01-10,285,330!2026-12-09,259,330!fsrs,2029-08-19T00:00:00.000Z,1026,1025.83973773,1,2,9,0,0,2026-10-28T00:00:00.000Z!2026-11-21,250,330!2026-11-16,245,330-->
+{@{Other ecosystems}@} (e.g. {@{Rust}@} with {@{the `Monad` trait in libraries}@}, or {@{Kotlin’s}@} {@{`Arrow`}@}) follow {@{similar patterns}@}, but {@{Scala and Haskell}@} remain {@{the most idiomatic for higher‑kinded abstractions}@}. <!--SR:!fsrs,2029-10-17T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-11-10T00:00:00.000Z!fsrs,2029-09-06T00:00:00.000Z,1040,1039.96344033,1,2,9,0,0,2026-11-01T00:00:00.000Z!2026-12-10,255,330!2027-01-10,285,330!2026-12-09,259,330!fsrs,2029-08-19T00:00:00.000Z,1026,1025.83973773,1,2,9,0,0,2026-10-28T00:00:00.000Z!2026-11-21,250,330!2026-11-16,245,330-->

@@ -386,7 +386,7 @@ To {@{declare a "type class"}@} in Scala, use {@{`trait`}@}: <!--SR:!2026-12-09,
 > ```
 <!--SR:!2026-12-11,311,349!2027-01-22,343,349-->
 
-{@{A `given` instance}@} supplies {@{the implementation for a concrete type}@}: <!--SR:!2026-12-17,315,349!2026-11-10,284,349-->
+{@{A `given` instance}@} supplies {@{the implementation for a concrete type}@}: <!--SR:!2026-12-17,315,349!fsrs,2030-06-19T00:00:00.000Z,1317,1316.706566,1,2,9,0,0,2026-11-10T00:00:00.000Z-->
 
 > [!example] __type class implementation__
 >
