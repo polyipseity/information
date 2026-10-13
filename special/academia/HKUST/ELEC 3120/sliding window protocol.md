@@ -19,7 +19,7 @@ A sliding window protocol lets a sender keep several segments in flight instead 
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A sliding window protocol lets a sender keep several unacknowledged segments in flight: it sends every segment inside a window and slides the window forward as acknowledgements arrive.
+- core idea: what does a sliding window protocol let a sender keep in flight, and how does the window move? ::@:: A sliding window protocol lets a sender keep several unacknowledged segments in flight: it sends every segment inside a window and slides the window forward as acknowledgements arrive.
 - how it differs from stop-and-wait: what does a sliding window protocol do that stop-and-wait does not? ::@:: It keeps more than one segment outstanding.
 - window of one segment: which protocol is it when the window holds one segment? ::@:: Stop-and-wait.
 - what bounds the window: which two values bound the sending window? ::@:: The advertised window and the congestion window.

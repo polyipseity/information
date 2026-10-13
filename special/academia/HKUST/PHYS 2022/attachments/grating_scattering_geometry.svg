@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 500" font-family="Georgia, 'Times New Roman', serif" font-size="15">
+  <defs>
+    <marker id="arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#000"/>
+    </marker>
+  </defs>
+
+  <!-- lattice planes, slope 1/2 through real atoms: d = D sin alpha exactly (alpha = arctan 1/2) -->
+  <g stroke="#000" stroke-width="1" stroke-dasharray="7,5">
+    <line x1="170" y1="30" x2="700" y2="295"/>
+    <line x1="110" y1="60" x2="700" y2="355"/>
+    <line x1="130" y1="130" x2="700" y2="415"/>
+    <line x1="40" y1="145" x2="610" y2="430"/>
+    <line x1="40" y1="205" x2="490" y2="430"/>
+  </g>
+
+  <!-- atoms: columns D = 120 apart, rows 60 apart -->
+  <g fill="#000">
+    <circle cx="70" cy="160" r="6"/><circle cx="190" cy="160" r="6"/><circle cx="310" cy="160" r="6"/><circle cx="430" cy="160" r="6"/><circle cx="550" cy="160" r="6"/><circle cx="670" cy="160" r="6"/>
+    <circle cx="70" cy="220" r="6"/><circle cx="190" cy="220" r="6"/><circle cx="310" cy="220" r="6"/><circle cx="430" cy="220" r="6"/><circle cx="550" cy="220" r="6"/><circle cx="670" cy="220" r="6"/>
+    <circle cx="70" cy="280" r="6"/><circle cx="190" cy="280" r="6"/><circle cx="310" cy="280" r="6"/><circle cx="430" cy="280" r="6"/><circle cx="550" cy="280" r="6"/><circle cx="670" cy="280" r="6"/>
+    <circle cx="70" cy="340" r="6"/><circle cx="190" cy="340" r="6"/><circle cx="310" cy="340" r="6"/><circle cx="430" cy="340" r="6"/><circle cx="550" cy="340" r="6"/><circle cx="670" cy="340" r="6"/>
+    <circle cx="70" cy="400" r="6"/><circle cx="190" cy="400" r="6"/><circle cx="310" cy="400" r="6"/><circle cx="430" cy="400" r="6"/><circle cx="550" cy="400" r="6"/><circle cx="670" cy="400" r="6"/>
+  </g>
+
+  <!-- row spacing D between two atoms of one row, and the perpendicular d from the second atom down to the first atom's plane -->
+  <g stroke="#000" stroke-width="1.5">
+    <line x1="430" y1="340" x2="550" y2="340"/>
+    <line x1="550" y1="340" x2="526" y2="388"/>
+  </g>
+  <path d="M 534 392 L 526 388 L 530 380 L 538 384 Z" fill="none" stroke="#000" stroke-width="1"/>
+  <line x1="430" y1="420" x2="430" y2="460" stroke="#000" stroke-width="1"/>
+  <line x1="550" y1="420" x2="550" y2="460" stroke="#000" stroke-width="1"/>
+  <line x1="430" y1="440" x2="550" y2="440" stroke="#000" stroke-width="1" marker-start="url(#arr)" marker-end="url(#arr)"/>
+  <text x="490" y="468" text-anchor="middle" font-style="italic">D</text>
+  <text x="550" y="370" text-anchor="middle" font-style="italic" stroke="#FFF" stroke-width="3.5" paint-order="stroke">d</text>
+  <path d="M 466 340 A 36 36 0 0 1 462.2 356.1" fill="none" stroke="#000" stroke-width="1"/>
+  <text x="481" y="356" text-anchor="middle" font-style="italic" stroke="#FFF" stroke-width="3.5" paint-order="stroke">α</text>
+
+  <!-- plane normal from the scattering atom, bisecting the beams -->
+  <line x1="310" y1="160" x2="368" y2="44" stroke="#000" stroke-width="1"/>
+
+  <!-- incident beam striking the atom at (310,160), scattered beam along the exact reflection direction -->
+  <line x1="310" y1="56" x2="310" y2="154" stroke="#000" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="310" y1="160" x2="462" y2="46" stroke="#000" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- angles at the scattering atom: phi = 53.13 deg between the beams, alpha on each side of the normal, theta = 63.43 deg from beam to plane -->
+  <path d="M 310 60 A 100 100 0 0 1 390 100" fill="none" stroke="#000" stroke-width="1"/>
+  <path d="M 310 98 A 62 62 0 0 1 337.7 104.6" fill="none" stroke="#000" stroke-width="1"/>
+  <path d="M 337.7 104.6 A 62 62 0 0 1 359.6 122.8" fill="none" stroke="#000" stroke-width="1"/>
+  <path d="M 310 72 A 88 88 0 0 0 231.3 120.7" fill="none" stroke="#000" stroke-width="1"/>
+
+  <!-- forward continuation of the incident beam (dashed), and 2 theta = 126.87 deg measured from that continuation to the scattered beam: the two arcs share the scattered beam and the straight incident line, so phi + 2 theta = 180 deg reads off the drawing -->
+  <line x1="310" y1="166" x2="310" y2="300" stroke="#000" stroke-width="1" stroke-dasharray="7,5"/>
+  <path d="M 310 260 A 100 100 0 0 0 390 100" fill="none" stroke="#000" stroke-width="1"/>
+
+  <!-- labels -->
+  <text x="330" y="52" text-anchor="middle" font-style="italic" stroke="#FFF" stroke-width="3.5" paint-order="stroke">φ</text>
+  <text x="393" y="243" text-anchor="middle" font-style="italic" stroke="#FFF" stroke-width="3.5" paint-order="stroke">2θ</text>
+  <text x="328" y="86" text-anchor="middle" font-style="italic" stroke="#FFF" stroke-width="3.5" paint-order="stroke">α</text>
+  <text x="361" y="102" text-anchor="middle" font-style="italic" stroke="#FFF" stroke-width="3.5" paint-order="stroke">α</text>
+  <text x="272" y="102" text-anchor="middle" font-style="italic" stroke="#FFF" stroke-width="3.5" paint-order="stroke">θ</text>
+  <text x="300" y="64" text-anchor="end" font-size="14" stroke="#FFF" stroke-width="3.5" paint-order="stroke">Incident beam</text>
+  <text x="472" y="50" font-size="14">Scattered beam</text>
+</svg>

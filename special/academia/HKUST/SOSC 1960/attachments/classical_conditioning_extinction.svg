@@ -1,0 +1,29 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 830 344' width='830' height='344'>
+<rect width='830' height='344' fill='#ffffff'/>
+<text x='20' y='30' font-family='Helvetica, Arial, sans-serif' font-size='18' text-anchor='start' fill='#1a1a1a'>Extinction of a conditioned response</text>
+<text x='20' y='48' font-family='Helvetica, Arial, sans-serif' font-size='14' text-anchor='start' fill='#5a5a5a'>The bell alone, with the meat withheld</text>
+<text x='20' y='96' font-family='Helvetica, Arial, sans-serif' font-size='17' text-anchor='start' fill='#1a1a1a'>1</text>
+<text x='48' y='94' font-family='Helvetica, Arial, sans-serif' font-size='15' text-anchor='start' fill='#1a1a1a'>the bell, at the start of extinction</text>
+<line x1='360' y1='88' x2='400' y2='88' stroke='#c2410c' stroke-width='2.2'/><path d='M 410 88 L 399 93.5 L 399 82.5 Z' fill='#c2410c'/>
+<rect x='412' y='62' width='150' height='52' rx='4' fill='#fbd3a6' stroke='#1f3864' stroke-width='2'/>
+<text x='487' y='94' font-family='Helvetica, Arial, sans-serif' font-size='15' text-anchor='middle' fill='#1a1a1a'>no meat</text>
+<line x1='574' y1='88' x2='614' y2='88' stroke='#1f3864' stroke-width='2.2'/><path d='M 624 88 L 613 93.5 L 613 82.5 Z' fill='#1f3864'/>
+<rect x='626' y='62' width='190' height='52' rx='4' fill='#e8eef7' stroke='#1f3864' stroke-width='2'/>
+<text x='721' y='94' font-family='Helvetica, Arial, sans-serif' font-size='15' text-anchor='middle' fill='#1a1a1a'>salivating (CR)</text>
+<text x='20' y='184' font-family='Helvetica, Arial, sans-serif' font-size='17' text-anchor='start' fill='#1a1a1a'>2</text>
+<text x='48' y='182' font-family='Helvetica, Arial, sans-serif' font-size='15' text-anchor='start' fill='#1a1a1a'>the same bell, trial after trial</text>
+<line x1='360' y1='176' x2='400' y2='176' stroke='#c2410c' stroke-width='2.2'/><path d='M 410 176 L 399 181.5 L 399 170.5 Z' fill='#c2410c'/>
+<rect x='412' y='150' width='150' height='52' rx='4' fill='#fbd3a6' stroke='#1f3864' stroke-width='2'/>
+<text x='487' y='182' font-family='Helvetica, Arial, sans-serif' font-size='15' text-anchor='middle' fill='#1a1a1a'>no meat</text>
+<line x1='574' y1='176' x2='614' y2='176' stroke='#1f3864' stroke-width='2.2'/><path d='M 624 176 L 613 181.5 L 613 170.5 Z' fill='#1f3864'/>
+<rect x='626' y='150' width='190' height='52' rx='4' fill='#f2f2f2' stroke='#1f3864' stroke-width='2'/>
+<text x='721' y='182' font-family='Helvetica, Arial, sans-serif' font-size='15' text-anchor='middle' fill='#1a1a1a'>salivating, but fading</text>
+<text x='20' y='272' font-family='Helvetica, Arial, sans-serif' font-size='17' text-anchor='start' fill='#1a1a1a'>3</text>
+<text x='48' y='270' font-family='Helvetica, Arial, sans-serif' font-size='15' text-anchor='start' fill='#1a1a1a'>the same bell, later still</text>
+<line x1='360' y1='264' x2='400' y2='264' stroke='#c2410c' stroke-width='2.2'/><path d='M 410 264 L 399 269.5 L 399 258.5 Z' fill='#c2410c'/>
+<rect x='412' y='238' width='150' height='52' rx='4' fill='#fbd3a6' stroke='#1f3864' stroke-width='2'/>
+<text x='487' y='270' font-family='Helvetica, Arial, sans-serif' font-size='15' text-anchor='middle' fill='#1a1a1a'>no meat</text>
+<line x1='574' y1='264' x2='614' y2='264' stroke='#1f3864' stroke-width='2.2'/><path d='M 624 264 L 613 269.5 L 613 258.5 Z' fill='#1f3864'/>
+<rect x='626' y='238' width='190' height='52' rx='4' fill='#f2f2f2' stroke='#1f3864' stroke-width='2'/>
+<text x='721' y='270' font-family='Helvetica, Arial, sans-serif' font-size='15' text-anchor='middle' fill='#1a1a1a'>nothing</text>
+</svg>

@@ -24,9 +24,9 @@ Any two of $V$, $I$, and $R$ fix the third. The relation holds for many material
 
 Flashcards for this section are as follows:
 
-- overview ::@:: For many materials the current $I$ through a material is proportional to the voltage $V$ across it, with $R$ the constant of proportionality, so $V = IR$, $I = V/R$, and $I = GV$ with $G = 1/R$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- proportionality: a material obeying Ohm's law with resistance $R$ carries current $I$ at voltage $V$; what happens to $I$ when $V$ doubles? ::@:: $I$ doubles.
-- proportionality: which ratio of $V$, $I$, and $R$ stays fixed for a material obeying Ohm's law? ::@:: $V/I = R$.
+- law for a resistive material: how do the voltage, the current, and the resistance relate? ::@:: For many materials the current $I$ through a material is proportional to the voltage $V$ across it, with $R$ the constant of proportionality, so $V = IR$, $I = V/R$, and $I = GV$ with $G = 1/R$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- doubling the voltage: a material obeying Ohm's law with resistance $R$ carries current $I$ at voltage $V$; what happens to $I$ when $V$ doubles? ::@:: $I$ doubles.
+- fixed ratio: which ratio of $V$, $I$, and $R$ stays fixed for a material obeying Ohm's law? ::@:: $V/I = R$.
 - limits: a device whose current is not proportional to its voltage; what does that rule out about $V = IR$? ::@:: A single constant resistance $R$.
 
 ## resistance and conductance
@@ -39,7 +39,7 @@ Plotting the current through an element against the voltage across it gives that
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Resistance $R$ and conductance $G = 1/R$ are reciprocals, so Ohm's law reads $V = IR$ with $R$ in ohms and $I = GV$ with $G$ in siemens. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- resistance and conductance: how do the two quantities relate to each other? ::@:: Resistance $R$ and conductance $G = 1/R$ are reciprocals, so Ohm's law reads $V = IR$ with $R$ in ohms and $I = GV$ with $G$ in siemens. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - unit of resistance: the resistance $R$ that carries $I = 1\text{ A}$ under an applied $V = 1\text{ V}$ ::@:: $V = IR$ gives $R = 1\text{ V}/1\text{ A} = 1\ \Omega$, the ohm, written $\Omega$.
 - unit of conductance: which unit does $G = 1/R$ carry, and how is it written in terms of the ohm? ::@:: The siemens, written $\text{S}$, with $1\text{ S} = 1\ \Omega^{-1}$.
 - current from voltage and resistance: what current $I$ flows when $V = 6\text{ V}$ is across $R = 3\ \Omega$? ::@:: $I = V/R = 6\text{ V}/3\ \Omega = 2\text{ A}$.
@@ -59,15 +59,13 @@ Water running downhill is the picture for a resistor. Water moves from a higher 
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A resistor is a device made to have a precise resistance, used in a circuit to control the flow of current.
+- a resistor as a device: what is it built to have, and what does a circuit use it to control? ::@:: A resistor is a device made to have a precise resistance, used in a circuit to control the flow of current.
 - precision: what does the precise resistance of a resistor give a circuit designer? ::@:: A resistance fixed by the device, so the current a given voltage drives can be chosen.
 - symbol and reference direction: a resistor is drawn with one terminal marked $+$, one marked $-$, and a current arrow between them; what do the marks and the arrow fix? <p> ![resistor symbol: a zigzag line labelled R](attachments/symbol_resistor.svg) ::@:: Reference directions chosen for the analysis: the marks fix the sign of the voltage $V$ and the arrow the sign of the current $I$.
 - draw the resistor symbol: how is a resistor of resistance $R$ drawn on a circuit diagram? ::@:: A zigzag line labelled $R$. <p> ![resistor symbol: a zigzag line labelled R](attachments/symbol_resistor.svg)
 - arrow from $+$ to $-$: a $4\ \Omega$ resistor carries $I_1 = 2\text{ A}$ along an arrow running from its $+$ mark to its $-$ mark; what is $V$ under those marks? <p> ![a resistor marked plus at one end and minus at the other, with a current arrow below it running from the plus mark to the minus mark](attachments/reference_direction_with.svg) ::@:: $V = +I_1 R = (2\text{ A})(4\ \Omega) = 8\text{ V}$.
 - draw the reference direction: a resistor carries the voltage $V_1$ between two marks and a current reference arrow $I_1$; how are they placed, and what does each placement give? ::@:: The marks above the resistor and the arrow below it: from the plus mark to the minus mark, $V_1 = +I_1 R$, and the other way, $V_1 = -I_1 R$. <p> ![a resistor marked plus at one end and minus at the other, with a current arrow below it running from the plus mark to the minus mark](attachments/reference_direction_with.svg) ![the same resistor with the current arrow below it running from the minus mark to the plus mark](attachments/reference_direction_against.svg)
-- reversed arrow: the arrow on that resistor is reversed while the marks stay, and carries $I_2 = -2\text{ A}$; what is $V$? ::@:: $V = -I_2 R = -(-2\text{ A})(4\ \Omega) = 8\text{ V}$.
+- reversed arrow: a $4\ \Omega$ resistor keeps its marks while its current arrow is reversed to run from the $-$ mark to the $+$ mark, and carries $I_2 = -2\text{ A}$; what is $V$? <p> ![the same resistor with the current arrow below it running from the minus mark to the plus mark](attachments/reference_direction_against.svg) ::@:: $V = -I_2 R = -(-2\text{ A})(4\ \Omega) = 8\text{ V}$.
 - sign of the current: a resistor carries a current arrow $I_1$ with no value written beside it; does the drawing decide whether $I_1$ is positive or negative? ::@:: No: the arrow is a reference direction, so the sign comes from the charge flow it measures.
-- analogy by elevation: in the water picture of a resistor, which mechanical quantity plays the part of the voltage difference? ::@:: A difference in elevation: water flows from the higher elevation to the lower one.
-- analogy by pressure: in the water picture, which mechanical quantity takes the place of the elevation difference when water is forced through a hose? ::@:: A difference in pressure, driving the water out of the higher-pressure end.
-- analogy by flow rate: in the water picture, what corresponds to the electric current, and in which units is each measured? ::@:: The volume of water per second, in cubic meters per second, corresponds to the current, the positive charge per second in coulombs per second, that is amperes.
-- analogue of resistance: in the water picture, what does the resistance $R$ represent? ::@:: The restriction the path imposes on the flow: it sets how much current a given voltage difference drives.
+- analogy by flow rate: in the water analogy for a resistor, what corresponds to the electric current, and in which units is each measured? ::@:: The volume of water per second, in cubic meters per second, corresponds to the current, which is charge per second in coulombs per second, that is amperes.
+- analogue of resistance: in the water analogy for a resistor, what does the resistance $R$ represent? ::@:: The restriction the path imposes on the flow: it sets how much current a given voltage difference drives.

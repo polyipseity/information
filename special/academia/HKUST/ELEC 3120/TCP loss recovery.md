@@ -21,9 +21,8 @@ A TCP sender has to notice that a segment never arrived and send it again. Two s
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A TCP sender detects a lost segment from a timeout or from three duplicate acknowledgements, and retransmits it.
 - two signals: which two events tell a sender that a segment was lost? ::@:: The retransmission timer running out, and three duplicate acknowledgements.
-- what both signals lead to: what does the sender do after either signal? ::@:: Retransmits the missing segment.
+- what a loss signal leads to: a sender has detected a lost segment; what does it do next? ::@:: Retransmits the missing segment.
 
 ## duplicate acknowledgements
 

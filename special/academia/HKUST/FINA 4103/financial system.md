@@ -14,7 +14,7 @@ The financial system governs how financial contracts are issued and exchanged. I
 
 Flashcards for this section are as follows:
 
-- overview ::@:: The set of institutions, markets, and rules that governs how financial contracts are issued and exchanged.
+- what the financial system is made of ::@:: The set of institutions, markets, and rules that governs how financial contracts are issued and exchanged.
 - what the financial system governs ::@:: How financial contracts are issued and exchanged.
 - a defining property of the financial system ::@:: It is highly heterogeneous.
 

@@ -68,7 +68,7 @@ When multiple source types target the same directory, assign contributions:
 
 For each target directory, in dependency order:
 
-1. Create directory structure (`index.md`, component YAML, content file, `attachments/`)
+1. Create directory structure (`index.md`, component YAML, content file, `attachments/`) — for non-in-class material the artifact directories (`attachments/`, `submission/`, `solution/`) and the authored content file are created at the private mirror of their paths (see "Public and private trees" in `academic-ingest`)
 2. Write component YAML first (`<type>.yml`, `submission.yml`)
 3. Write content file (`<type>.md`) with extracted quiz questions
 4. Write `index.md` with submission and children only (no metadata section)

@@ -30,7 +30,7 @@ __Why it needs its own step:__ the `header_style` lint rule starts at heading le
 - Keep the casing of proper nouns, eponyms, acronyms, and product names: `Boolean algebra`, `Kirchhoff's circuit laws`, `Lisp`, `Scala 3`, `H-bridge`.
 - Hyphenation follows Wikipedia: `pulse-width modulation`.
 - When Wikipedia has no article for the concept, invent a sentence-case descriptive title and record it as an alias.
-- Aliases: the canonical title first, then synonyms and abbreviations.
+- Aliases: the canonical title, synonyms, and abbreviations all belong in the list, and the whole list stays in plain sorted order. The `aliases_sorted` lint compares it against Python's `sorted()`, so the canonical title gets no special position.
 - The path-derived flashcard tag mirrors the filename: spaces and quote characters become `_`, and every other character stays literal, parentheses included. `cache (computing).md` in `COMP 3511` needs the tag `flashcard/active/special/academia/HKUST/COMP_3511/cache_(computing)`; never normalize or strip the parentheses.
 
 | Correct | Wrong |
@@ -56,13 +56,13 @@ uv run python .agents/skills/academic-crud-topic-note/find_wikipedia.py --limit 
 
 ### Mapping output to frontmatter
 
-The canonical title is the primary alias, followed by synonyms and abbreviations:
+The aliases carry the canonical title along with synonyms and abbreviations, and the whole list is in plain sorted order:
 
 ```yaml
 aliases:
-  - Fourier transform
-  - Fourier analysis
   - DFT
+  - Fourier analysis
+  - Fourier transform
 ```
 
 Aliases exist for search, not for linking. Notes link to each other by relative path, so a duplicate alias across notes is normal and never a defect.
@@ -112,7 +112,7 @@ Decide nesting explicitly while planning the note. Do not inherit the source's d
 - __Stay flat__ when the section carries no sub-concepts at all, when nothing inside it earns a heading under the tiebreaker, or when everything that does is a parallel one-sentence row of a single mapping, enumeration, or table. Those rows are card slices, not headings. A lone `###` is fine while the parent keeps substance of its own beside it, and folds back when it is the parent's whole content. "The material presented them together" is never the reason.
 - __Depth__: `###` freely. A `###` that carries its own two or more sub-concepts (the members of its classification, the cases of its rule, the steps of its derivation) nests to `####` rather than flattening or splitting, justified inline with `<!-- check: ignore-line[header_deep_nesting]: <reason> -->`. Splitting the note is for material that answers a different canonical-title question, not for material that is merely one level deeper.
 - `#####` and deeper are unsanctioned: they mean the file boundary is wrong, so split the note instead.
-- Every `###` and deeper carries its own `---` separator and its own `Flashcards for this section are as follows:` block, recursively. The validator requires a card block under every heading a non-index note carries, and `cloze_insufficient_coverage` wants that block's paragraph at 80% or more. A heading is therefore a promise of content. A concept the parent's prose absorbs costs nothing; one that earns a heading costs a card block and the clozing it implies, so ask whether the concept asks the question before adding it.
+- Every heading a non-index note carries gets its own `---` separator and its own `Flashcards for this section are as follows:` block, recursively. That block belongs to the text between the heading and the next one: cards under a child heading never answer for its parent. A heading with no text of its own is a grouping heading and asks for nothing. `cloze_insufficient_coverage` wants the block's paragraph at 80% or more. A heading is therefore a promise of content. A concept the parent's prose absorbs costs nothing; one that earns a heading costs a card block and the clozing it implies, so ask whether the concept asks the question before adding it.
 
 ### Section levelling pass
 
@@ -191,7 +191,7 @@ The pass moves boundaries and headings; it never drops a fact or a card. Report 
    - Use `::@::` (two-sided QA), not cloze `{@{ }@}`. Accounting journal-entry worked examples may use cloze.
    - Every `##`, `###`, and deeper heading gets its own `---` separator and its own flashcard block, never one block shared by a parent and its sub-sections.
    - Group related cards with inline bold labels (e.g., `**superposition.**`).
-   - Cards must be self-contained (restate givens, hypotheses, notation) and never name their source; write the example, not `the lecture's example`.
+   - A card is shown alone, with no note, no prose and no sibling card, so it names its setting, every symbol it uses, and the object it asks about, and it never points into the prose with `here`, `the two forms` or `by substitution`. Restate givens, hypotheses and notation, and never name their source; write the example, not `the lecture's example`.
    - The overview card comes first in each section.
    - Preserve the derivation or proof spine in cards.
    - Split packed cards into focused units, and split an enumeration of six or more items into sibling cards sliced at a boundary the items show (era, date range, divergence versus curl), each naming its slice on the prompt side (see "Enumeration cards" in `create-flashcards`).

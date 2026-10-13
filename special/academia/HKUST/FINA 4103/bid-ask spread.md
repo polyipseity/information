@@ -71,6 +71,10 @@ Flashcards for this section are as follows:
 
 A market is _locked_ when the best bid equals the best ask, and _crossed_ when the best bid exceeds the best ask. In a single-exchange environment these states do not arise, but they are relevant in multi-exchange markets and in LOB data.
 
+Across exchanges the states are prohibited rather than merely possible. Rule 610 of [Regulation NMS](Regulation%20NMS.md), the access rule, forbids a venue from accepting an order that would lock or cross the market on another venue. It requires the venue to route such an order to the exchange holding that price instead. The prohibition does not reach hidden quotes.
+
+The two rules divide by order type. Rule 611, the [order protection rule](trade%20through.md), covers marketable orders, the ones that execute. Rule 610 covers liquidity-provision orders, the ones that rest. A resting order at a price another venue is already quoting does not trade, so it cannot violate the price protection, but it can freeze the book.
+
 ---
 
 Flashcards for this section are as follows:
@@ -78,3 +82,7 @@ Flashcards for this section are as follows:
 - when a market is locked ::@:: When the best bid equals the best ask.
 - when a market is crossed ::@:: When the best bid exceeds the best ask.
 - whether locked or crossed markets exist in a single-exchange environment ::@:: No; they are relevant only in multi-exchange markets and in LOB data.
+- which rule forbids a locked or crossed market across exchanges ::@:: Rule 610, the access rule.
+- what a venue must do with a limit order that would lock or cross another venue's market ::@:: Route it to the venue holding that price.
+- whether the prohibition reaches hidden quotes ::@:: No.
+- which order type each rule protects ::@:: Rule 611 the marketable orders that execute, and Rule 610 the liquidity-provision orders that rest.

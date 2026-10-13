@@ -17,8 +17,8 @@ A _parametric distribution_ is one whose pdf or pmf is written down with its par
 
 Flashcards for this section are as follows:
 
-- parametric distribution: as in $N(\mu, 1)$ with $\mu \in \mathbb{R}$ unknown ::@:: A distribution whose pdf or pmf is given together with an unknown parameter or parameters.
-- parameter: denoted $\theta$ ::@:: The unknown parameter(s) of the family, collected into one symbol which inference estimates or tests.
+- what a parametric distribution is, as in $N(\mu, 1)$ with $\mu \in \mathbb{R}$ unknown ::@:: A distribution whose pdf or pmf is given together with an unknown parameter or parameters.
+- what a parameter is, denoted $\theta$ in a parametric distribution ::@:: The unknown parameter(s) of the family, collected into one symbol which inference estimates or tests.
 - what uncertainty amounts to: for the distribution and its parameter $\theta$ ::@:: Uncertainty of the distribution and uncertainty of $\theta$ are the same thing, so learning the distribution means learning $\theta$.
 - what follows if $\theta$ is known: in the parametric setting ::@:: The distribution is completely specified.
 
@@ -32,8 +32,8 @@ A model is non-parametric when no explicit form of the pdf or pmf is given, as i
 
 Flashcards for this section are as follows:
 
-- fully unspecified model ::@:: No explicit form of the pdf or pmf is given; that is a non-parametric model.
-- partially specified model ::@:: The functional form of the pdf or pmf is known but depends on unknown parameters; that is a parametric model.
+- what a fully unspecified model gives instead of a pdf or pmf ::@:: No explicit form of either is given, which makes it a non-parametric model.
+- what a partially specified model gives and what it leaves open ::@:: The functional form of the pdf or pmf is known but depends on unknown parameters, which makes it a parametric model.
 
 <!-- check: ignore-next-line[section_example_heading]: a matched pair of cases for the definition, kept together so the counterexample sits beside the definition it violates -->
 ### examples and counterexamples
@@ -70,11 +70,11 @@ Flashcards for this section are as follows:
 
 - what stays fixed in a parametric family: $\{f_X : f_X = f_X(\cdot \mid \theta)\}$ ::@:: The functional form of the pdf or pmf; only $\theta$ varies across the family.
 - what a candidate value of $\theta$ can be checked against, once the form is fixed ::@:: A named law, because the family pins down the form and leaves only a parameter space to range over.
-- normal family: $\{f_X : f_X = f_X(\cdot \mid \theta)\}$ ::@:: $\theta = (\mu, \sigma^2)$ is unknown.
-- binomial family: $\{p_X : p_X = p_X(\cdot \mid \theta)\}$ ::@:: $\theta = p$ is unknown.
-- discrete families in use ::@:: Poisson, binomial, discrete uniform, multinomial, geometric, negative binomial and hypergeometric.
-- continuous families in use ::@:: Normal, continuous uniform, exponential, beta, chi-square, Cauchy, F, gamma and t.
-- special cases among the families: the geometric, exponential, chi-square and Cauchy distributions ::@:: Inside the negative binomial, gamma and t families respectively.
+- unknown parameter of the normal family $\{f_X : f_X = f_X(\cdot \mid \theta)\}$ ::@:: $\theta = (\mu, \sigma^2)$, the mean and the variance of $X$.
+- unknown parameter of the binomial family $\{p_X : p_X = p_X(\cdot \mid \theta)\}$ for a count of successes out of $n$ trials ::@:: $\theta = p$, the success probability, with the trial count $n$ fixed and known.
+- which parametric families that count discrete outcomes are in use ::@:: Poisson, binomial, discrete uniform, multinomial, geometric, negative binomial and hypergeometric.
+- which parametric families that count continuous outcomes are in use ::@:: Normal, continuous uniform, exponential, beta, chi-square, Cauchy, F, gamma and t.
+- which families hold the geometric, exponential, chi-square and Cauchy distributions as special cases ::@:: Inside the negative binomial, gamma and t families respectively, rather than standing apart from them.
 
 ## non-parametric models
 

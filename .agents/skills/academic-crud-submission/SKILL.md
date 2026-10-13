@@ -15,6 +15,22 @@ description: Create, read, update, and delete submission-bound pages (labs, tuto
 
 The `##` sections inside `lab.md`/`tutorial.md`/`lecture.md` group the session's content by sub-concept, not by the source's headings; the file names themselves stay session-bound (see "Grouping: concepts, not source layout" in `academic-crud-topic-note`).
 
+## Public and private split
+
+An out-of-class component writes its artifacts to the private tree; an in-class component stays public. For a leaf at `special/academia/<INST>/<CRS>/assignments/<name>/`:
+
+| File or directory | Tree |
+| --- | --- |
+| `attachments/`, `submission/`, `solution/` | `private/special/academia/<INST>/<CRS>/assignments/<name>/...` |
+| `assignment.md` | private |
+| `index.md`, `submission.yml`, `submission.pdf.yml` | public, in place |
+
+A lab or tutorial with both components splits accordingly: the pre-lab or post-lab artifacts go private, the in-class `lab.md`/`lab.yml` stay public.
+
+An assignment's authored content never goes into `index.md`. The index keeps the Canvas metadata block and the verbatim Canvas description; the assignment itself — the problems, the specification, the requirements — is written to `assignment.md` beside it and routes private. The index links it from `## children` as `- [assignment](assignment.md)`.
+
+Every link keeps the ordinary colocated form — `[ass1.zip](attachments/ass1.zip)`, never a path through `private/` (see "Public and private trees" in `academic-ingest`). Delete removes the artifacts from the private tree along with the public leaf.
+
 ## Dual-component model
 
 Labs, tutorials, and lectures can have two Canvas submission components:
@@ -116,7 +132,7 @@ Every question quote block needs cloze flashcards on its `- solution:` and `- ex
 
 ### Flashcard style per section
 
-Each section of a content file carries one flashcard style, never both: prose with its own `Flashcards for this section are as follows:` block, or question blocks whose `- solution:`/`- explanation:` lines carry clozes. A prompt that is not a question counts as prose and gets its own cards. The two styles and the `academic-lint` rules that enforce them are in "Flashcard style per section" in `academic-ingest`.
+Each section of a content file answers to two separate requirements. Question blocks whose `- solution:`/`- explanation:` lines carry clozes stand on their own: a section made up of nothing but those blocks needs no flashcard block. Anything else in the section, prose or a list or a table or an image, still needs its own `Flashcards for this section are as follows:` block. A prompt that is not a question is prose, so it takes cards rather than a `- solution:` line. The two styles and the `academic-lint` rules that enforce them are in "Flashcard style per section" in `academic-ingest`.
 
 ### No-submission case (no Canvas at all)
 
@@ -139,7 +155,7 @@ Input: a Canvas assignment HTML page plus prompt files.
 1. Create `<subdir>/<name>/` with `attachments/`, `submission/`, and `solution/`.
 2. Extract Canvas metadata from the HTML: title, due date (ISO 8601 with timezone), points, submission type, description text (verbatim, keeping `<span style>` for color), update announcements (verbatim), and the assignment ID from the URL comment.
 3. Create `index.md` with the metadata and description.
-4. Copy prompt PDFs, DOCX, PPTX, and data files to `attachments/`.
+4. Copy prompt PDFs, DOCX, PPTX, and data files to `attachments/`. For an out-of-class component the directory is its private mirror (see "Public and private split").
 5. For a PDF/DOCX/PPTX, check for an existing extraction in `attachments/<stem>.extracted/` and, when no valid cache exists, run:
 
    ```bash
@@ -158,6 +174,7 @@ Input: a Canvas assignment HTML page plus prompt files.
 - Quiz images extracted from PRS/iClicker HTML
 - Documents (PDF, DOCX, PPTX) that are prompt files, assignment sheets, or reference documents (attachment role)
 - `<stem>.extracted/` caches for those documents (`text.md`, `pages/`, `images/`, `manifest.json`)
+- For an out-of-class component the directory itself sits in the private tree; what goes in it does not change
 
 When adding images:
 
@@ -174,7 +191,7 @@ Do not put in `attachments/`:
 
 Input: the artifact uploaded to Canvas (a document, rendered PDF, archive, source code, or link) plus, when it was generated from a local file, that local file.
 
-1. Add files to `submission/`.
+1. Add files to `submission/`. For an out-of-class component the directory is its private mirror.
 2. Update the `index.md` submission section: the uploaded artifact is the entry itself, and a local file it was generated from becomes a `source:` child (see "Submission entry model").
 3. For Apple Notes markdown:
    - Detect UUID attachment paths: `(Attachments|../attachments)/<UUID>.<ext>`
@@ -223,7 +240,7 @@ Also extract `canvas_assignment_id` from the URL comment or page content for cro
 
 Input: solution file(s).
 
-1. Add them to `solution/`.
+1. Add them to `solution/`. For an out-of-class component the directory is its private mirror.
 2. Update the `index.md` solution section.
 
 ### Stage 5: Topic-note reconciliation
@@ -258,7 +275,7 @@ Add what is missing without disturbing existing content.
 
 ### Delete
 
-Remove the submission directory and files, then remove it from the parent `index.md`.
+Remove the submission directory and files, then remove it from the parent `index.md`. Remove the leaf's artifacts from the private mirror as well.
 
 ## Index page format
 
@@ -305,6 +322,8 @@ tags:
 
 - [`<filename>`](solution/<filename>)
 ```
+
+When `assignment.md` exists, `index.md` gains `## children` as its last section with `- [assignment](assignment.md)`.
 
 ### Submission entry model
 
@@ -423,9 +442,41 @@ Draw the metadata fields from the component YAML (`lab.yml`, `tutorial.yml`, `le
 
 A content file that is not Canvas-sourced keeps the ordinary note format instead.
 
+### Out-of-class content file (`assignment.md`)
+
+An assignment whose authored content exceeds the Canvas record carries it in `assignment.md`, stored at the leaf's mirrored path in the private tree. The file mirrors the Canvas header block of the in-class content files: frontmatter, `# assignment` heading, identity bullets, `---`, the metadata bullets drawn from `submission.yml`, `---`, then the authored content. The problems become question blocks when solutions exist; a specification becomes prose sections grouped by concept, per "Flashcard style per section" in `academic-ingest`. The file does not repeat the verbatim Canvas description; that stays in `index.md` alone.
+
+```markdown
+---
+aliases:
+  - <INSTITUTION> <COURSE> <name> assignment
+tags:
+  - flashcard/active/special/academia/<INSTITUTION>/<COURSE>/assignments/<name>/assignment
+  - language/in/English
+---
+
+# assignment
+
+- <INSTITUTION> <COURSE> <name>
+- parent: [<name>](index.md)
+
+---
+
+- title: <Canvas title>
+- due: <ISO 8601 with timezone>
+- points: <N>
+- submitting: <Canvas submission type>
+
+---
+
+<authored assignment content>
+```
+
+Aliases stay sorted and omit duplicates. Omit metadata bullets absent from the YAML. When `assignment.md` exists, `index.md` gains `## children` as its last section, linking the file as `- [assignment](assignment.md)`.
+
 ### Private artifacts and missing files
 
-A submission or solution that lives in `private/` still gets ordinary relative links in the public page, written as if the files were colocated. Do not rewrite those links to point into `private/`, because the published copy has to resolve on its own.
+The artifacts of an out-of-class component live in the private tree by default (see "Public and private split"). A file that lives there still gets ordinary relative links in the public page, written as if it were colocated. Do not rewrite those links to point into `private/`, because the published copy has to resolve on its own.
 
 Keep `## solution` in the same plain file-list style as `## attachments`. The nested `file:` plus `metadata:` layout belongs to `## submission`, and only earns its place when the archived filename details matter (see "Submission entry model" above).
 

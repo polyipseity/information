@@ -16,9 +16,9 @@ The _sample variance_ measures how far the observations of a sample spread aroun
 
 Flashcards for this section are as follows:
 
-- overview: for observations $X_1, \ldots, X_n$ around their average ::@:: A statistic measuring the spread of the observations around their average, written $S_n^2$ or $S_{n-1}^2$.
+- what the sample variance of a sample $X_1, \ldots, X_n$ measures ::@:: The spread of the $n$ observations around their average, written $S_n^2$ or $S_{n-1}^2$.
 - what distinguishes the two sample variances $S_n^2$ and $S_{n-1}^2$ ::@:: They differ only in the denominator, which is $n$ in the first and $n - 1$ in the second.
-- why the squared deviations are taken from $\bar X$ and not from the population mean $\mu$ ::@:: Because $\bar X$ can be computed from the data, while $\mu$ is an unknown parameter of the model.
+- why the sample variance squares $X_i - \bar X$ rather than $X_i - \mu$ ::@:: Because $\bar X$ can be computed from the data, while $\mu$ is an unknown parameter of the model.
 
 ## the two sample variances
 
@@ -28,9 +28,9 @@ The denominator is $n$ in $S_n^2 = \frac{1}{n} \sum_{i=1}^{n} (X_i - \bar X)^2$ 
 
 Flashcards for this section are as follows:
 
-- definition with denominator $n$: $S_n^2$ for a sample $X_1, \ldots, X_n$ ::@:: $S_n^2 = \frac{1}{n} \sum_{i=1}^{n} (X_i - \bar X)^2$.
-- definition with denominator $n - 1$: $S_{n-1}^2$ for a sample $X_1, \ldots, X_n$ ::@:: $S_{n-1}^2 = \frac{1}{n-1} \sum_{i=1}^{n} (X_i - \bar X)^2$.
-- relation between the two forms: $S_n^2$ and $S_{n-1}^2$ for a sample $X_1, \ldots, X_n$ ::@:: $\frac{(n-1) S_{n-1}^2}{\sigma^2} = \frac{n S_n^2}{\sigma^2}$.
+- symbol for the sample variance of a sample $X_1, \ldots, X_n$ that divides the squared deviations from the sample mean by $n$ ::@:: $S_n^2 = \frac{1}{n} \sum_{i=1}^{n} (X_i - \bar X)^2$.
+- symbol for the sample variance of a sample $X_1, \ldots, X_n$ that divides the same sum by $n - 1$ instead ::@:: $S_{n-1}^2 = \frac{1}{n-1} \sum_{i=1}^{n} (X_i - \bar X)^2$.
+- relation between $S_n^2$ and $S_{n-1}^2$ for a random sample $X_1, \ldots, X_n$ from $N(\mu, \sigma^2)$ ::@:: $\frac{(n - 1) S_{n-1}^2}{\sigma^2} = \frac{n S_n^2}{\sigma^2}$, so $S_{n-1}^2$ is $\frac{n}{n - 1} S_n^2$.
 - why $S_n^2$ and $S_{n-1}^2$ are statistics ::@:: Each mentions only $X_1, \ldots, X_n$ and $\bar X$, and the data supply all of them.
 
 <!-- check: ignore-next-line[section_example_heading]: a matched pair of cases for the definition, kept together so the counterexample sits beside the definition it violates -->
@@ -62,13 +62,13 @@ A chi-squared variable of $n - 1$ degrees of freedom has expectation $n - 1$, wh
 
 Flashcards for this section are as follows:
 
-- distribution of the scaled sample variance: a random sample of size $n > 1$ from $N(\mu, \sigma^2)$ ::@:: $\frac{(n-1) S_{n-1}^2}{\sigma^2} = \frac{n S_n^2}{\sigma^2} = \frac{\sum_{i=1}^{n} (X_i - \bar X)^2}{\sigma^2} \sim \chi^2(n - 1)$.
-- degrees of freedom of the sample variance: for a sample of size $n$ ::@:: $n - 1$.
-- parameters the distribution of $S_{n-1}^2$ depends on: $\mu$ and $\sigma^2$ of the normal sample ::@:: $\sigma^2$ alone, because $\mu$ cancels in $X_i - \bar X$.
-- is the $\chi^2(n - 1)$ result exact ::@:: Yes, for a sample from a normal population; for a general distribution the scaled sample variance is not chi-squared.
-- why the degrees of freedom are $n - 1$ and not $n$ ::@:: The deviations satisfy $\sum_{i=1}^{n} (X_i - \bar X) = 0$ identically, so one is determined by the others and only $n - 1$ of the $n$ are free.
+- distribution of $\frac{(n - 1) S_{n-1}^2}{\sigma^2}$ for a random sample of size $n > 1$ from $N(\mu, \sigma^2)$ ::@:: $\chi^2(n - 1)$, the same law as $\frac{n S_n^2}{\sigma^2}$ and $\frac{\sum_{i=1}^{n} (X_i - \bar X)^2}{\sigma^2}$.
+- degrees of freedom of $\frac{(n - 1) S_{n-1}^2}{\sigma^2}$ for a sample $X_1, \ldots, X_n$ from $N(\mu, \sigma^2)$ ::@:: $n - 1$.
+- parameters the distribution of $S_{n-1}^2}$ for a random sample from $N(\mu, \sigma^2)$ depends on ::@:: $\sigma^2$ alone, because $\mu$ cancels in $X_i - \bar X$.
+- is $\frac{(n - 1) S_{n-1}^2}{\sigma^2} \sim \chi^2(n - 1)$ exact for a sample from an arbitrary population ::@:: Only under normality. For a general distribution the scaled sample variance is not chi-squared.
+- why the scaled sample variance has $n - 1$ degrees of freedom and not $n$ ::@:: The $n$ deviations $X_i - \bar X$ satisfy $\sum_{i=1}^{n} (X_i - \bar X) = 0$ identically, so one is determined by the others and only $n - 1$ of the $n$ are free.
 - expectation of $S_{n-1}^2$ for a normal sample of size $n$ ::@:: $\sigma^2$, since a chi-squared variable of $n - 1$ degrees of freedom has expectation $n - 1$.
-- expectation of $S_n^2$ for a normal sample of size $n$ ::@:: $\frac{n - 1}{n} \sigma^2$, short of $\sigma^2$ by the factor $\frac{n - 1}{n}$.
+- expectation of $S_n^2$ for a normal sample of size $n$ ::@:: $\frac{n - 1}{n} \sigma^2$, short of $\sigma^2$.
 
 ## independence from the sample mean
 
@@ -81,8 +81,8 @@ In the quotient $\frac{\bar X - \mu}{S_n}$ independence is what makes the law co
 Flashcards for this section are as follows:
 
 - independence of the sample mean and the sample variance: a random sample of size $n > 1$ from $N(\mu, \sigma^2)$ ::@:: $\bar X$ and $S_n^2$ are independent.
-- does $\bar X$ of a normal sample tell you anything about $S_n^2$ ::@:: No, the two are independent, so $\bar X$ carries no information about $S_n^2$ and $S_n^2$ none about $\bar X$.
-- what the independence of $\bar X$ and $S_n^2$ licenses ::@:: The law of the quotient $\frac{\bar X - \mu}{S_n}$ can be read off, since independent parts combine; neither part is known on its own, because the law of $S_n$ still carries $\sigma$.
+- does $\bar X$ of a random sample of size $n > 1$ from $N(\mu, \sigma^2)$ tell you anything about $S_n^2$ ::@:: Nothing. The two are independent, so $\bar X$ carries no information about $S_n^2$ and $S_n^2$ none about $\bar X$.
+- what the independence of $\bar X$ and $S_n^2$ for a normal sample licenses ::@:: The law of the quotient $\frac{\bar X - \mu}{S_n}$, since independent parts combine. Neither part is known on its own, as the law of $S_n$ still carries $\sigma$.
 
 ### proof by the multivariate normal route
 
@@ -100,11 +100,11 @@ Independence of a jointly normal scalar and vector reduces to covariances, and o
 
 Flashcards for this section are as follows:
 
-- stronger form of the independence: a random sample of size $n > 1$ from $N(\mu, \sigma^2)$ ::@:: $\bar X$ is independent of the whole vector $(X_1 - \bar X, \ldots, X_n - \bar X)'$, not only of $S_n^2$.
+- is $\bar X$ independent of the whole vector of deviations $(X_1 - \bar X, \ldots, X_n - \bar X)'$: for a random sample of size $n > 1$ from $N(\mu, \sigma^2)$ ::@:: Yes, and the independence of $S_n^2$ follows since $S_n^2$ is a function of that vector.
 - linear map producing the sample mean and the deviations: $X_1, \ldots, X_n$ i.i.d. from $N(\mu, \sigma^2)$ ::@:: $(\bar X, X_1 - \bar X, \ldots, X_n - \bar X)' = A\mathbf X$ for the $(n+1) \times n$ matrix $A$ whose first row is $(\tfrac{1}{n} \cdots \tfrac{1}{n})$ and whose remaining rows each carry a $1 - \tfrac{1}{n}$ in one position.
-- mean of the transformed vector: $A\boldsymbol\mu$ for $\mathbf X \sim N_n(\boldsymbol\mu, \sigma^2 I_n)$ ::@:: $(\mu, 0, \ldots, 0)'$, each deviation having mean zero.
-- joint law of the sample mean and the deviations: a random sample of size $n > 1$ from $N(\mu, \sigma^2)$ ::@:: $(\bar X, X_1 - \bar X, \ldots, X_n - \bar X)' \sim N_{n+1}(A\boldsymbol\mu, \sigma^2 A A')$.
-- null vector of the covariance $\sigma^2 A A'$: for the transform producing the mean and the deviations ::@:: $(0, 1, \ldots, 1)'$, because $\sum_{i=1}^{n} (X_i - \bar X) = 0$ identically.
-- covariance whose vanishing proves the independence: $\operatorname{Cov}(\bar X, X_1 - \bar X)$ between $\bar X$ and the first deviation ::@:: $\operatorname{Cov}(\bar X, X_1) - \operatorname{Var}(\bar X) = \tfrac{\sigma^2}{n} - \tfrac{\sigma^2}{n} = 0$.
+- mean of $(\bar X, X_1 - \bar X, \ldots, X_n - \bar X)' = A\mathbf X$ when $\mathbf X = (X_1, \ldots, X_n)' \sim N_n(\mu \mathbf 1, \sigma^2 I_n)$ and $A$ maps $\mathbf X$ to that vector ::@:: $(\mu, 0, \ldots, 0)'$, since $A\boldsymbol\mu$ carries $E(X_i - \bar X) = 0$ in every deviation slot.
+- joint law of $(\bar X, X_1 - \bar X, \ldots, X_n - \bar X)'$ for a random sample of size $n > 1$ from $N(\mu, \sigma^2)$, with $A$ the $(n+1) \times n$ matrix sending $\mathbf X = (X_1, \ldots, X_n)'$ to that vector ::@:: $N_{n+1}(A\boldsymbol\mu, \sigma^2 A A')$.
+- covariance of $(\bar X, X_1 - \bar X, \ldots, X_n - \bar X)'$ for $X_1, \ldots, X_n$ i.i.d. from $N(\mu, \sigma^2)$, $n > 1$: singular or not ::@:: Singular. The deviations satisfy $\sum_{i=1}^{n} (X_i - \bar X) = 0$ identically, which makes $(0, 1, \ldots, 1)'$ a null vector.
+- covariance of $\bar X$ with the first deviation $X_1 - \bar X$ for $X_1, \ldots, X_n$ i.i.d. from $N(\mu, \sigma^2)$: what is its value ::@:: $\operatorname{Cov}(\bar X, X_1) - \operatorname{Var}(\bar X) = \tfrac{\sigma^2}{n} - \tfrac{\sigma^2}{n} = 0$, a zero covariance between a scalar and a component of a jointly normal vector.
 - value of $\operatorname{Cov}(\bar X, X_1)$: a random sample of size $n > 1$ from $N(\mu, \sigma^2)$ ::@:: $\tfrac{\sigma^2}{n}$, since $\operatorname{Cov}(X_j, X_1) = 0$ for every $j \ge 2$.
 - variance of the sample mean: for a random sample of size $n$ from $N(\mu, \sigma^2)$ ::@:: $\operatorname{Var}(\bar X) = \sigma^2/n$.

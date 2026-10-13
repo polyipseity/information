@@ -11,6 +11,7 @@ All submodules have their own `AGENTS.md` and `.agents/` that take priority when
 ## private/
 
 - `private/` contains sensitive/restricted content managed in a separate upstream repository.
+- Routing exception: `academic-ingest` sends non-in-class submission artifacts and question pages into `private/` at their mirrored paths; writing that content during an ingestion is expected and needs no separate approval.
 - __Do not__ copy or move files from `private/` into public trees (`general/`, `special/`, `archives/`) manually.
 - If publishing: prepare a migration checklist covering PII, licenses, sensitive datasets, and redactions.
 - Validate academic content before migrating:

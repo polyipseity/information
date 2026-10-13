@@ -28,6 +28,7 @@ on its line.
 - Course-specific agent instructions go in `AGENTS.md` beside `index.md`, and
   only when the course needs them. If you do not create the file, drop it from
   `children` (see `academic-crud-agents`).
+- Non-in-class submission artifacts (attachments, submissions, solutions, the authored `assignment.md`) live at their mirrored paths under `private/`; links to them stay written as if they sat in the public tree (see "Public and private trees" in `academic-ingest`).
 - Top-level sections run `## children`, `## logistics`, `## overview`, then
   sessions and exams, with `assignments/` immediately after `children` and
   before the session entries (see "Course-root layout rules" in `SKILL.md`).
@@ -55,8 +56,8 @@ on its line.
   `## <YYYY term>` and adds a level, `### <YYYY term> week N tutorial 1`, with
   `- status: optional` on every session (see "Recurring courses" in `SKILL.md`).
 - A leaf index for a Canvas-derived assignment follows `academic-crud-submission`,
-  which owns the format down to the `## solution` list style and the rule for
-  links into `private/`.
+  which owns the format down to the `## solution` list style, the public/private
+  split, and the rule for links into `private/`.
 - A lab, tutorial, or lecture leaf index may list an in-class content file
   (`lab.md`, `tutorial.md`, `lecture.md`) as a child, and a Canvas-sourced one
   mirrors its `index.md`'s Canvas header block rather than staying a bare stub

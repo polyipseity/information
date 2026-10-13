@@ -51,7 +51,7 @@ Flashcards for this section are as follows:
 
 - direction of current / definition and diagram requirement ::@:: The direction in which positive charges flow; the circuit diagram must show it.
 - direction of current / positive-charge mental picture ::@:: Although currents in wires are mostly conducted by electrons, thinking of positive charges flowing the other way speeds up reasoning about signs.
-- direction of current / sign rule for an arrow labelled $I_1 = -1\text{ A}$ ::@:: Flow along the drawn arrow gives a positive current value and flow against it a negative one, so the same charge flow on the reversed arrow is $I_2 = 1\text{ A}$.
+- direction of current / sign rule for an arrow labelled $I_1 = -1\text{ A}$ ::@:: Flow along the drawn arrow gives the current a positive value, and flow against that arrow a negative one, so the $-1\text{ A}$ reading means charge actually flows opposite the drawn direction.
 - direction of current / worked example: $N = 5\times10^{18}$ electrons of charge $q = -1.6\times10^{-19}\text{ C}$ crossing in $\Delta t = 2\text{ s}$ against the assumed arrow ::@:: $\Delta Q = Nq = 5\times10^{18}\times(-1.6\times10^{-19}\text{ C}) = -0.8\text{ C}$, so $I = \Delta Q/\Delta t = -0.8\text{ C}/2\text{ s} = -0.4\text{ A}$: a current of $0.4\text{ A}$ opposite the arrow.
 - direction of current / what sets the direction at a source: a $10\text{ V}$ source drives a $1\ \Omega$ resistor back to its $-$ terminal, with that $-$ terminal grounded; which way does the current run along the top of the loop? ::@:: Away from the source, out of its $+$ terminal and into the resistor.
 - direction of current / a load that is itself a source: the $1\ \Omega$ resistor is replaced by a battery charger; which way does the current at the top of the $10\text{ V}$ source run? ::@:: Into its $+$ terminal, the opposite way, so the source is being charged.
@@ -67,7 +67,6 @@ The instantaneous current is the derivative of the charge with respect to time, 
 
 Flashcards for this section are as follows:
 
-- average, instantaneous, and constant current / three descriptions for charge $q(t)$ and interval $0$ to $T$ ::@:: A constant current obeys $I = \Delta Q/\Delta t$, a time-varying current has the instantaneous value $i(t) = \frac{dq(t)}{dt}$, and its average over $0$ to $T$ is $I = \frac{1}{T}\int_0^T i(t)\,dt$.
 - average, instantaneous, and constant current / constant current for charge $\Delta Q$ crossing uniformly in time $\Delta t$ ::@:: The current is the constant $I = \Delta Q/\Delta t$.
 - average, instantaneous, and constant current / instantaneous current for charge $q(t)$ at the instant $t$ ::@:: $i(t) = \frac{dq(t)}{dt}$.
 - average, instantaneous, and constant current / average current of $i(t)$ over $0$ to $T$ ::@:: $I = \frac{1}{T}\int_0^T i(t)\,dt$.

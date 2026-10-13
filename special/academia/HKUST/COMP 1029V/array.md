@@ -11,7 +11,7 @@ tags:
 
 ## declaration
 
-Arrays are declared like {@{[variables](basics.md#variable) but with extra syntax: indicating the indices of the array}@}. The syntax is {@{`Dim VariableName(start_index To end_index) As ElementType`, where the indices are both ends inclusive}@}. You can omit {@{the `start_index To`, in which case the `start_index` depends on the option `Base`}@}. By default, the option `Base` {@{is `0`, but you can change it by running `Option Base value` first}@}.
+Arrays are declared like {@{[variables](basics.md#variable) but with extra syntax: indicating the indices of the array}@}. The syntax is {@{`Dim VariableName(start_index To end_index) As ElementType`, where the indices are both ends inclusive}@}. You can omit {@{the `start_index To`, in which case the `start_index` depends on the option `Base`}@}. By default, the option `Base` is {@{`0`, but you can change it by running `Option Base value` first}@}.
 
 ## indexing
 

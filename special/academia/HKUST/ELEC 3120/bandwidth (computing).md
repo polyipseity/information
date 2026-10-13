@@ -21,7 +21,7 @@ Bandwidth is the number of bits a link carries per unit time, in bits per second
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Bandwidth is the number of bits a link sends or receives per unit time, measured in bits per second.
+- bandwidth of a link: what does it count, and over what? ::@:: Bandwidth is the number of bits a link sends or receives per unit time, measured in bits per second.
 - what does "width of the link" name? ::@:: Its bandwidth, as against the length that names the propagation delay.
 
 ## units

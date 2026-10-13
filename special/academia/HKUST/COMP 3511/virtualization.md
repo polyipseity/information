@@ -18,7 +18,7 @@ The virtual system it creates is a __virtual machine__, or __VM__, on which oper
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Abstracting the hardware of a single computer into several different execution environments, creating the illusion that each user or program runs on its own private computer.
+- what virtualization is ::@:: Abstracting the hardware of a single computer into several different execution environments, creating the illusion that each user or program runs on its own private computer.
 - virtual machine ::@:: A virtual machine is the virtual system created by virtualization, on which operating systems and applications can run.
 - operating system inside an operating system ::@:: Virtualization allows an operating system to run as an application within another operating system.
 - why several virtual machines fit on one computer ::@:: Each virtual machine is an execution environment built from the hardware of a single computer rather than a machine of its own, so one physical machine can run several concurrently.

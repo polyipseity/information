@@ -17,3 +17,7 @@ tags:
 ## children
 
 - [week 2 lecture 2](week%202%20lecture%202/index.md)
+- [week 3 lecture 2](week%203%20lecture%202/index.md)
+- [week 4 lecture 2](week%204%20lecture%202/index.md)
+- [week 5 lecture 2](week%205%20lecture%202/index.md)
+- [week 6 lecture 2](week%206%20lecture%202/index.md)

@@ -22,6 +22,16 @@ __Academic content:__ when editing `special/academia` material, also consult `ac
 
 The closing cloze delimiter `}@}` comes before any trailing punctuation, which sits after the delimiter: `{@{text}@}.`, not `{@{text.}@}`.
 
+## What the cloze hides
+
+The cloze holds the payload; the frame around it — copula, leading verb, subject label — stays visible, so a card front reads as a sentence with a blank, never an unfinished fragment. The hiding direction follows what is recalled: when the value is the answer the term prompts and the value hides, when the name is the answer the term itself hides.
+
+- __Value is the answer__ (prompt-visible): `the orbital speed is {@{$v = \sqrt{e^2/(4\pi\epsilon_0 m r)} = 2.19 \times 10^6\ \text{m/s}$}@}`
+- __Name is the answer__ (term-hidden): `{@{RBS}@} fires ions at a sample and measures the backscattered energy loss`
+- __Two-way pair__, each side in its own cloze: `{@{RBS}@} {@{fires ions at a sample and measures the backscattered energy loss}@}`
+
+A copula inside a cloze is fine after the payload's first word: `{@{flattens …, so it is not single-valued}@}`.
+
 ## Diagrams in cards
 
 A card may carry a diagram on the prompt side, the answer side, or both. A drawing a note defines has to be produced, not just recognised, so the cards carry it and the prose does not.
@@ -44,11 +54,24 @@ __Mathematically technical notes:__ preserve the derivation or proof spine inste
 
 __Chapter-number prompts:__ when a note is organized by topic pages and lecture weeks rather than stored chapter pages, avoid prompts such as `Chapter 2 / ...`; use self-contained concept wording or the actual topic-note context.
 
+__Prompts name the thing:__ a bare label is not a prompt. `- overview ::@:: ...` asks nothing, since the word names the section's shape and the card can only be answered by recognising the note. `qa_prompt_generic` rejects a prompt whose every content word is a label; name the thing instead, or suppress the line when the bare label is the point.
+
 __Conceptual math-law cards:__ a descriptive prompt is often better than forcing the formula onto the left-hand side. When the card is genuinely conceptual rather than computational, prefer the descriptive prompt and, if needed, attach a targeted inline suppression comment on the same line instead of warping the card into a fake calculation.
+
+## Cards are shown alone
+
+A reader meets one card at a time. There is no note around it, no prose, no heading and no sibling card, so a card leaning on any of those cannot be answered.
+
+- __Name the setting:__ the model and the sample, with the size where it matters. `for $X_1, \ldots, X_n$ i.i.d. from $N(\mu, \sigma^2)$, $n > 1$`.
+- __Define every symbol:__ a symbol the prose introduced is not on the card. Either the card defines it or it goes. A card naming the statistical object in words beats one naming a matrix the prose set up.
+- __No deixis:__ `here`, `this result`, `the two forms`, `by substitution` and `still` point at prose the reader does not have. Name the thing instead.
+- __Ask:__ a bare label such as `definition` or `overview` names the section's shape rather than its content.
+
+This generalises the worked-example rule above, which covers calculation cards only.
 
 ## When to use
 
-Invoke the skill when the user asks to "add flashcards", "cloze this", "quizify", or similar. The target file must already exist; never create new files, and never edit submodules or private content without permission. Process one paragraph or logical block at a time and display the original text for confirmation. Cloze what the block exists to establish: the definitions, the relations, the numbers a reader would be asked to recall. A claim the course only passed over gets one definitional card or none, never a set built out from the encyclopedia article behind it. Numeric facts and simple assignments may be clozed as atomic units. Never cloze a connective, a transition, or a word the reader needs as a hint, and stop at the validator's bounds rather than a higher target, 80% of the paragraph's visible characters at minimum and 98% at the most. The old 92%-per-sentence target pushed the cloze boundary onto words like "therefore" and "which", which tests the reader's memory of your phrasing rather than of the subject.
+Invoke the skill when the user asks to "add flashcards", "cloze this", "quizify", or similar. The target file must already exist; never create new files, and never edit submodules or private content without permission. Private academic content that the `academic-ingest` routing rule sends to `private/` (non-in-class submission artifacts and question pages) is edited in place during an ingestion; other `private/` content still needs permission. Process one paragraph or logical block at a time and display the original text for confirmation. Cloze what the block exists to establish: the definitions, the relations, the numbers a reader would be asked to recall. A claim the course only passed over gets one definitional card or none, never a set built out from the encyclopedia article behind it. Numeric facts and simple assignments may be clozed as atomic units. Never cloze a connective, a transition, or a word the reader needs as a hint, and stop at the validator's bounds rather than a higher target, 80% of the paragraph's visible characters at minimum and 98% at the most. The old 92%-per-sentence target pushed the cloze boundary onto words like "therefore" and "which", which tests the reader's memory of your phrasing rather than of the subject.
 
 Inline comments such as `<!-- check: ignore-line[...]: equation on left -->` are rationales for validator suppressions, not editing instructions. Never split or reflow a card because a comment mentions "left" or "right": the left-hand portion always means the text before the `::@::` or `:@:` separator, and it may be long when calculations are involved.
 
@@ -105,7 +128,7 @@ Before (one giant cloze): {@{The transistor is not in saturation because βIB < 
 After (two focused clozes): The {@{transistor is not in saturation@}} because {@{βIB < IC,max@}}.
 ```
 
-Never mix prose and equation in one cloze. For "The voltage is $V=...$", use `{@{The voltage}@} is {@{$V=...$}@}`, with the linking word visible. Do not apply this split to prose-to-prose sentences: "the Zener is effectively off" stays one cloze, `{@{the Zener is effectively off@}}`.
+Do not mix prose and equation in one cloze by default. For "The voltage is $V=...$", use `{@{The voltage}@} is {@{$V=...$}@}`, with the linking word visible; a term and its formula belong in one cloze only when they are recalled together (`{@{Bragg's law $\lambda = 2d\sin\theta$}@}`). Do not apply this split to prose-to-prose sentences: "the Zener is effectively off" stays one cloze, `{@{the Zener is effectively off@}}`.
 
 ### 4. Audit coverage
 
@@ -122,10 +145,10 @@ Common failures: clozing only equations while leaving prose explanations visible
 1. __Missing hint words.__ Every cloze needs at least one visible word outside it. A cloze starting a sentence with no lead-in is wrong; add a hint such as "The advantage is". Hints are typically 1-3 words but can be longer phrases ("The node voltage is", "Solution:"), with no upper limit. The validator catches cloze clauses with no visible hint words.
 2. __Contrast merged into one cloze.__ Contrast items (A vs B) must be separate clozes, never `{@{X is good, whereas Y is bad}@}`.
 3. __Over-splitting.__ Do not split at every comma; related items within one reasoning step stay in one cloze.
-4. __Prose+equation merge.__ Never put both a prose description and an equation in one cloze (`{@{Ohm's law, $V=IR$}@}`); split into `{@{Ohm's law}@} is {@{$V=IR$}@}` so the concept name stays visible as a hint.
+4. __Prose+equation merge.__ Keep the split as the default: `{@{Ohm's law}@} is {@{$V=IR$}@}` when the concept name should prompt recall, so it stays visible as a hint. A term and its formula may share one cloze when they are recalled together, such as `{@{Bragg's law $\lambda = 2d\sin\theta$}@}`.
 5. __Under-clozing solution steps.__ In multi-step solutions, cloze every intermediate equation and conclusion; each step gets its own cloze, with only linking words visible between them.
-6. __Articles left outside the cloze.__ Articles (`the`, `a`, `an`) belong to the noun phrase inside the cloze, so `{@{the device}@}` recalls better than `the {@{device}@}`. The validator warns when an article immediately precedes a cloze opening.
-7. __Trailing copula or auxiliary verb.__ Verbs such as `is`, `are`, `was`, `were`, `be`, `been`, `being`, `has`, `have`, `had` before a cloze opening usually belong inside it: `{@{is 5V}@}` beats `is {@{5V}@}`. The validator warns when a copula or auxiliary verb sits immediately before a cloze.
+6. __Articles left outside the cloze.__ Articles (`the`, `a`, `an`) belong to the noun phrase inside the cloze, so `{@{the device}@}` recalls better than `the {@{device}@}`. The validator warns when an article immediately precedes a cloze opening. When the word before a cloze is a label rather than an article (`Graph a {@{…}@}`), put a visible verb between them (`Graph a carries {@{…}@}`) or suppress with `<!-- check: ignore-line[cloze_article_before]: label not article -->` on the line.
+7. __Copula or auxiliary verb inside the cloze.__ Linking and auxiliary verbs (`is`, `are`, `was`, `were`, `be`, `been`, `being`, `am`, `has`, `have`, `had`) carry no tested content, so they stay visible and the cloze opens on the payload: `is {@{$5\ \text{V}$}@}`, never `{@{is $5\ \text{V}$}@}`. Hiding the verb leaves the card front an unfinished sentence; the validator rule is `cloze_opens_with_linking_verb`.
 8. __Wrong cloze tokens.__ Cloze tokens must be exactly `{@{` and `}@}`. Common typos (`@{`, `@}`, `{@}`, reversed `}@`) are malformed, and the validator reports them.
 9. __Insufficient coverage.__ A paragraph with cloze flashcards should have at least 80% of its visible characters inside cloze bodies; the validator warns below that.
 10. __Excessive coverage.__ Above 98%, almost everything is hidden and too few hint words remain; leave context words visible so the reader knows what they are recalling. The validator warns above that.
@@ -187,7 +210,7 @@ Common failures: clozing only equations while leaving prose explanations visible
 - Leave visible words around each deletion as a hint, and avoid blanking a sentence entirely unless the context is crystal clear.
 - Mirror the user's style when they supply examples or corrections.
 - Preserve HTML entities and escapes exactly, treating them as opaque literals.
-- Never edit `private/`, `self/`, or other submodules without explicit authorization.
+- Never edit `private/`, `self/`, or other submodules without explicit authorization. Academic content routed to `private/` by `academic-ingest` is the exception: it is edited in place during an ingestion.
 
 ### Sentences and clauses
 

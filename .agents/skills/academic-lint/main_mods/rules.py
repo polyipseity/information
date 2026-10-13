@@ -126,6 +126,18 @@ def _build_filtered_header_positions(
     return result
 
 
+def _own_body_end(
+    headers: list[tuple[int, int, re.Match[str]]], i: int, text_len: int
+) -> int:
+    """Return where the heading at index *i* stops owning its text.
+
+    A section's own body runs from its heading to the next heading of any
+    level, so a subsection's flashcards never satisfy the parent. Returns
+    *text_len* when the heading is the last one in the document.
+    """
+    return headers[i + 1][0] if i + 1 < len(headers) else text_len
+
+
 def _build_code_block_ranges(
     text: str, ast: list[AstNode] | None
 ) -> list[tuple[int, int]]:
@@ -134,17 +146,24 @@ def _build_code_block_ranges(
     Uses AST ``block_code`` node ``raw`` content to locate the code block
     in the full source text.  The ranges cover only the code content (not
     the fence markers).  Falls back to an empty list when *ast* is ``None``.
+
+    The search advances a cursor, as :func:`_build_inline_code_ranges` does.
+    Searching from zero instead matched one block's ``raw`` inside another's
+    text and produced overlapping ranges, which lost the skip for a whole
+    block.
     """
     ranges: list[tuple[int, int]] = []
     if not ast:
         return ranges
+    cursor = 0
     for node in filter_ast(ast, "block_code"):
         raw = node.get("raw", "")
         if not raw:
             continue
-        idx = text.find(raw)
+        idx = text.find(raw, cursor)
         if idx != -1:
             ranges.append((idx, idx + len(raw)))
+            cursor = idx + len(raw)
     ranges.sort()
     return ranges
 
@@ -495,11 +514,32 @@ def _extract_canvas_metadata_block(text: str) -> list[tuple[int, str]]:
     return []
 
 
+def _mirror_base(base: Path) -> Path:
+    """Return the mirrored counterpart of *base* across the public/private trees.
+
+    ``private/`` mirrors the repository root, so the mirror of a directory in
+    one tree is the same directory in the other: strip a ``private`` segment
+    that sits immediately before ``special``, or insert one when absent.
+    Paths with no ``special`` segment have no mirror and are returned as-is.
+    """
+    parts = base.parts
+    for i, part in enumerate(parts):
+        if part != "special":
+            continue
+        if i > 0 and parts[i - 1] == "private":
+            return Path(*parts[: i - 1], *parts[i:])
+        prefix: tuple[str, ...] = () if i == 0 else parts[:i]
+        return Path(*prefix, "private", *parts[i:])
+    return base
+
+
 async def _path_exists(href: str, base: Path) -> bool:
     """Check if a linked file/directory exists on disk.
 
     Decodes percent-encoded components and checks for directory or file
-    existence. Returns False for external URLs or invalid paths.
+    existence. Returns False for external URLs or invalid paths. The
+    mirrored tree counts: a target missing beside the linking file is tried
+    again against the mirror of its base directory (see ``_mirror_base``).
     """
     # Decode percent-encoded components (e.g. %20 → space)
     unquoted = unquote(href)
@@ -513,8 +553,11 @@ async def _path_exists(href: str, base: Path) -> bool:
         return True  # Consider external URLs as "existing" (not our responsibility)
 
     # anyio Path methods are async; use them directly.
-    candidate = await (base / unquoted).resolve()
-    return await candidate.is_dir() or await candidate.is_file()
+    for candidate_base in (base, _mirror_base(base)):
+        candidate = await (candidate_base / unquoted).resolve()
+        if await candidate.is_dir() or await candidate.is_file():
+            return True
+    return False
 
 
 async def _is_folder_without_index_md(href: str, base: Path) -> bool:
@@ -548,12 +591,13 @@ async def _is_folder_without_index_md(href: str, base: Path) -> bool:
     if not parent_path or parent_path == "/":
         return False
 
-    # Check if parent folder exists but index.md doesn't
-    candidate_parent = await (base / parent_path).resolve()
-    return (
-        await candidate_parent.is_dir()
-        and not await (candidate_parent / "index.md").is_file()
-    )
+    # Check if a parent folder exists but index.md doesn't. The mirrored
+    # tree counts, so the first base whose parent exists decides the answer.
+    for candidate_base in (base, _mirror_base(base)):
+        candidate_parent = await (candidate_base / parent_path).resolve()
+        if await candidate_parent.is_dir():
+            return not await (candidate_parent / "index.md").is_file()
+    return False
 
 
 @RULE_REGISTRY.register()
@@ -1002,16 +1046,18 @@ async def _is_folder_link(
     if unquoted.endswith("/"):
         return True
 
-    # anyio Path methods are async; use them directly.
-    candidate = await (base / unquoted).resolve()
-    if await candidate.is_dir():
-        return True
-    if (
-        allow_index_as_folder
-        and await candidate.is_file()
-        and candidate.name == "index.md"
-    ):
-        return True
+    # anyio Path methods are async; use them directly. The mirrored tree
+    # counts: a folder that exists only across the mirror is still a folder.
+    for candidate_base in (base, _mirror_base(base)):
+        candidate = await (candidate_base / unquoted).resolve()
+        if await candidate.is_dir():
+            return True
+        if (
+            allow_index_as_folder
+            and await candidate.is_file()
+            and candidate.name == "index.md"
+        ):
+            return True
     return False
 
 
@@ -1631,6 +1677,118 @@ def session_exam_order(ctx: ValidationContext) -> list[ValidationMessage]:
 
 # header and flashcard style --------------------------------------------------
 
+"""Submission content pages, which hold Canvas metadata rather than concepts."""
+_SUBMISSION_CONTENT_FILES = frozenset({"lab.md", "tutorial.md", "lecture.md"})
+
+
+def _flashcard_rule_exempt(path: Path) -> bool:
+    """Return whether *path* is out of scope for the flashcard rules.
+
+    Index and AGENTS pages list or instruct rather than teach, and a question
+    page records a question with its solution rather than stating cards.
+    """
+    name = path.name.lower()
+    parent_parts = [part.casefold() for part in path.parts[:-1]]
+    return (
+        name in {"index.md", "questions.md", "agents.md"} or "questions" in parent_parts
+    )
+
+
+"""A blockquote list item labelled solution or explanation, the QA answer slot."""
+_SOLUTION_LABEL_RE = re.compile(
+    r"^[ \t]*>[ \t]*(?:-[ \t]*)?(?:solution|explanation)[ \t]*:",
+    re.IGNORECASE,
+)
+"""A blockquote opening display math or an aligned environment, not a question."""
+_DISPLAY_MATH_BLOCK_RE = re.compile(
+    r"^[ \t]*>[ \t]*(?:\$\$|\\\[|\\begin\{(?:aligned|align|gathered|split)\})"
+)
+
+
+def _iter_blockquote_blocks(text: str) -> Iterator[tuple[int, str]]:
+    """Yield ``(start_offset, block_text)`` for each run of blockquote lines.
+
+    A block is a maximal run of consecutive lines beginning with ``>``. The
+    offset is where the run starts in *text*, so a caller can hand it to
+    :func:`locate` to report a position.
+    """
+    offset = 0
+    block_start: int | None = None
+    for line in text.splitlines(keepends=True):
+        if line.startswith(">"):
+            if block_start is None:
+                block_start = offset
+        elif block_start is not None:
+            yield block_start, text[block_start:offset]
+            block_start = None
+        offset += len(line)
+    if block_start is not None:
+        yield block_start, text[block_start:offset]
+
+
+def _block_has_solution(block_text: str) -> bool:
+    """Return whether a blockquote block carries a solution or explanation item."""
+    return any(_SOLUTION_LABEL_RE.match(line) for line in block_text.splitlines())
+
+
+def _block_is_display_math(block_text: str) -> bool:
+    """Return whether a blockquote block opens with display math or an align environment."""
+    first = block_text.splitlines()[0] if block_text.splitlines() else ""
+    return bool(_DISPLAY_MATH_BLOCK_RE.match(first))
+
+
+"""A rule, a markdownlint comment, or the flashcard marker line: no content of its own."""
+_NON_QA_IGNORED_RE = re.compile(
+    r"^\s*(?:---|<!--.*-->|Flashcards for this section are as follows:)\s*$",
+    re.IGNORECASE,
+)
+
+
+def _section_has_non_qa_content(section: str) -> bool:
+    """Return whether *section* holds anything besides its question blocks.
+
+    Every blockquote block is a question block, so all of them come out and
+    only the surrounding text is judged. Blank lines, ``---``,
+    ``<!-- markdownlint ... -->`` comments, and the flashcard marker line
+    carry no content of their own, so they do not count either. Whatever is
+    left is prose, a list, a table, an image, or a code fence, and it needs a
+    flashcard block of its own.
+    """
+    residue: list[str] = []
+    cursor = 0
+    for offset, block in _iter_blockquote_blocks(section):
+        residue.append(section[cursor:offset])
+        cursor = offset + len(block)
+    residue.append(section[cursor:])
+    return any(
+        line.strip() and not _NON_QA_IGNORED_RE.match(line)
+        for line in "".join(residue).splitlines()
+    )
+
+
+"""One front-matter-style line of a submission note's title block."""
+_METADATA_LINE_RE = re.compile(
+    r"^[ \t]*(?:-[ \t]*)?(?:HKUST .*|parent:.*|title:.*|due:.*|points:.*|grade:.*"
+    r"|submitting:.*|No additional details were added.*)$"
+)
+
+
+def _section_is_metadata_only(section: str) -> bool:
+    """Return whether a heading body holds only submission metadata.
+
+    A submission note opens with a title block listing the course and session
+    identifier, a parent link, and whatever the LMS recorded about the
+    assignment. None of that is a fact a reader is asked to recall, and a card
+    built from it would test whether the note knows its own file name. Such a
+    heading groups the sections beneath it, the same role as a blank one.
+    """
+    lines = [line for line in section.splitlines() if line.strip()]
+    if not lines:
+        return False
+    return all(
+        line.strip() == "---" or _METADATA_LINE_RE.match(line.strip()) for line in lines
+    )
+
 
 # This rule was originally added in response to a validator failure when
 # a user created a 'numerical examples' section in ELEC 1100.  The
@@ -1770,49 +1928,71 @@ def agents_no_flashcard_markup(ctx: ValidationContext) -> list[ValidationMessage
 
 @RULE_REGISTRY.register()
 def header_flashcard_presence(ctx: ValidationContext) -> list[ValidationMessage]:
-    """Require that each non-index, non-questions header contains flashcard markers.
-    Index and questions pages are exempt, and so is a level-2 references header,
-    which cites sources instead of stating cards.
+    """Require that each non-index, non-questions header carries its own flashcards.
+
+    A heading's cards have to sit in its own body, the text between it and the
+    next heading of any level. Cards written under a child heading do not
+    satisfy the parent, whatever the two levels are. A heading whose own body is
+    blank is a grouping heading that owns nothing to card, so it is exempt, and
+    so is one holding only a submission note's metadata block, for the same
+    reason. Index and questions pages are exempt, and so is a level-2 references
+    header, which cites sources instead of stating cards.
+
+    A section of question blocks passes without a flashcard block of its own,
+    since each block answers itself. Question blocks alongside anything else do
+    not: the prose, lists, tables, or images around them are content the reader
+    is asked to recall, so they need their own block. The two requirements are
+    independent, and this rule holds only the second.
     """
     errors: list[ValidationMessage] = []
-    name = ctx.path.name.lower()
-    parent_parts = [part.casefold() for part in ctx.path.parts[:-1]]
-    if (
-        name == "index.md"
-        or name == "questions.md"
-        or name == "agents.md"
-        or name in {"lab.md", "tutorial.md", "lecture.md"}
-        or "questions" in parent_parts
-    ):
+    if _flashcard_rule_exempt(ctx.path):
         return errors
     headers = _build_filtered_header_positions(ctx.text, ctx.ast)
     for i, (hdr_pos, lvl, h) in enumerate(headers):
         if lvl == 2 and _normalize_heading_text(h.group(2)) == "references":
             continue
         hdr_end = h.end()
-        # Find the next header at the same or higher (lower number) level.
-        next_pos: int | None = None
-        for j in range(i + 1, len(headers)):
-            if headers[j][1] <= lvl:
-                next_pos = headers[j][0]
-                break
-        end = next_pos if next_pos is not None else len(ctx.text)
+        end = _own_body_end(headers, i, len(ctx.text))
         section = ctx.text[hdr_end:end]
-        if not re.search(r"::@::|:@:|Flashcards for", section):
+        if not section.strip():
+            continue
+        if _section_is_metadata_only(section):
+            continue
+        # A section passes on QA markers, or on question blocks that answer
+        # themselves and leave nothing else behind. Question blocks next to
+        # prose are the case that used to slip through, because the block
+        # alone counted as coverage for the whole section.
+        has_question_block = any(
+            _block_has_solution(block)
+            for _off, block in _iter_blockquote_blocks(section)
+        )
+        question_blocks_cover_section = has_question_block and (
+            not _section_has_non_qa_content(section)
+        )
+        if not question_blocks_cover_section and not re.search(
+            r"::@::|:@:|Flashcards for", section
+        ):
             start = hdr_pos
-            line, col, col_end = locate_range(ctx.text, start, len(h.group(0)))
+            # report the heading as it reads, without any suppression comment
+            body = h.group(2)
+            heading = f"{h.group(1)} {re.sub(r'<!--.*?-->', '', body).strip()}"
+            span = len(heading) if h.group(0).startswith(heading) else len(h.group(0))
+            line, col, col_end = locate_range(ctx.text, start, span)
             errors.append(
                 ValidationMessage(
                     rule_id="header_flashcard_presence",
                     msg=(
-                        f"header {h.group(0).strip()!r} has no flashcard markers in its section; "
-                        "convert key sentences into cards and include any relevant "
-                        "diagrams or images from the paragraph above. "
-                        "DO NOT suppress this error with the reason 'cards in parent "
-                        "section flashcard block' or any similar reason. Every section "
-                        "and subsection MUST have its own dedicated flashcard block — "
-                        "add a '---' separator and a 'Flashcards for this section are "
-                        "as follows:' block instead."
+                        f"header {heading!r} has no flashcard markers in its own body, "
+                        "the text between it and the first heading below it, and "
+                        "carries content that is not a question block. Convert that "
+                        "content into cards and include any relevant diagrams or "
+                        "images from the paragraph above. Cards under a child heading "
+                        "do not count towards this one, whatever the two levels are. "
+                        "A section made up of question blocks alone needs no flashcard "
+                        "block, since each block answers itself. DO NOT suppress this "
+                        "error with the reason 'cards in parent section flashcard "
+                        "block' or any similar reason. Add a '---' separator and a "
+                        "'Flashcards for this section are as follows:' block instead."
                     ),
                     line=line,
                     col=col,
@@ -1828,30 +2008,18 @@ def header_flashcard_separator(ctx: ValidationContext) -> list[ValidationMessage
 
     Index and questions pages are exempt. When flashcards appear in a section,
     there should be a horizontal rule separating them from preceding text.
+    Only the cards in the heading's own body are judged, so a missing separator
+    is blamed on the heading that actually holds them.
 
     This rule applies to headers at any level (e.g. #, ##, ###, etc.).
     """
     errors: list[ValidationMessage] = []
-    name = ctx.path.name.lower()
-    parent_parts = [part.casefold() for part in ctx.path.parts[:-1]]
-    if (
-        name == "index.md"
-        or name == "questions.md"
-        or name == "agents.md"
-        or name in {"lab.md", "tutorial.md", "lecture.md"}
-        or "questions" in parent_parts
-    ):
+    if _flashcard_rule_exempt(ctx.path):
         return errors
     headers = _build_filtered_header_positions(ctx.text, ctx.ast)
-    for i, (hdr_pos, lvl, h) in enumerate(headers):
+    for i, (hdr_pos, _lvl, h) in enumerate(headers):
         hdr_end = h.end()
-        # Find the next header at the same or higher (lower number) level.
-        next_pos: int | None = None
-        for j in range(i + 1, len(headers)):
-            if headers[j][1] <= lvl:
-                next_pos = headers[j][0]
-                break
-        end = next_pos if next_pos is not None else len(ctx.text)
+        end = _own_body_end(headers, i, len(ctx.text))
         section = ctx.text[hdr_end:end]
         m2 = re.search(r"(::@::|:@:|Flashcards for)", section)
         if m2:
@@ -1871,62 +2039,51 @@ def header_flashcard_separator(ctx: ValidationContext) -> list[ValidationMessage
     return errors
 
 
-@RULE_REGISTRY.register()
-def header_flashcard_style_mixed(ctx: ValidationContext) -> list[ValidationMessage]:
-    """Disallow mixing prose flashcards with question blocks in one section.
+"""A prose card marker on a line of a blockquote that answers a question."""
+_CARD_MARKER_ON_QUOTE_RE = re.compile(
+    r"^[ \t]*>.*(?:::@::|(?<!:):@:(?!:))", re.MULTILINE
+)
 
-    A section carries one flashcard style. It either presents its material as
-    prose with cards (``::@::`` / ``:@:``, or a ``Flashcards for this section are
-    as follows:`` block) or as question blocks whose ``- solution:`` /
-    ``- explanation:`` lines carry clozes. Mixing the two in one section is what
-    happens when a prompt that is not a question is written as a solution line;
-    see "Flashcard style per section" in `academic-ingest`.
+
+@RULE_REGISTRY.register()
+def qa_card_inside_question(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Disallow a prose card marker inside a blockquote question block.
+
+    A question block carries its clozes on ``- solution:`` / ``- explanation:``
+    lines, so a ``::@::`` or ``:@:`` marker on one of its lines puts a card
+    where the answer belongs. A blockquote that answers nothing is a quoted
+    passage or a quoted card list, and this rule stays off it. A section may
+    hold prose cards and question blocks side by side, each with its own block,
+    so what this catches is the card sitting inside the question, not the two
+    meeting in one section; see "Flashcard style per section" in
+    `academic-ingest`.
     """
     errors: list[ValidationMessage] = []
-    name = ctx.path.name.lower()
-    parent_parts = [part.casefold() for part in ctx.path.parts[:-1]]
-    if (
-        name == "index.md"
-        or name == "questions.md"
-        or name == "agents.md"
-        or "questions" in parent_parts
-    ):
+    if _flashcard_rule_exempt(ctx.path):
         return errors
 
-    prose_re = re.compile(
-        r"::@::|(?<!:):@:(?!:)|^\s*Flashcards for this section are as follows:\s*$",
-        re.IGNORECASE | re.MULTILINE,
-    )
-    headers = _build_filtered_header_positions(ctx.text, ctx.ast)
-    for i, (hdr_pos, _lvl, h) in enumerate(headers):
-        hdr_end = h.end()
-        # Use the immediate next header (any level) so each section is judged on
-        # its own text: sibling subsections may each use a different style.
-        next_pos = headers[i + 1][0] if i + 1 < len(headers) else len(ctx.text)
-        section = ctx.text[hdr_end:next_pos]
-        if not _BLOCKQUOTED_SOLUTION_RE.search(section):
+    for offset, block in _iter_blockquote_blocks(ctx.text):
+        if not _block_has_solution(block):
             continue
-        prose = prose_re.search(section)
-        if not prose:
-            continue
-        start = hdr_end + prose.start()
-        line, col, col_end = locate_range(ctx.text, start, len(prose.group(0)))
-        errors.append(
-            ValidationMessage(
-                rule_id="header_flashcard_style_mixed",
-                msg=(
-                    f"section {h.group(0).strip()!r} mixes flashcard styles: it has both "
-                    "prose flashcards (::@:: / :@:, or a 'Flashcards for this section "
-                    "are as follows:' block) and question blocks with '- solution:'/"
-                    "'- explanation:' lines. A section uses one style: keep the section "
-                    "prose with its own cards, or make every prompt in it a question "
-                    "block with cloze solution lines."
-                ),
-                line=line,
-                col=col,
-                col_end=col_end,
+        for match in _CARD_MARKER_ON_QUOTE_RE.finditer(block):
+            start = offset + match.start()
+            line, col, col_end = locate_range(
+                ctx.text, start, match.end() - match.start()
             )
-        )
+            errors.append(
+                ValidationMessage(
+                    rule_id="qa_card_inside_question",
+                    msg=(
+                        "a card marker sits inside a question block: put the clozes on "
+                        "its '- solution:' / '- explanation:' lines, or move the card "
+                        "out of the blockquote into the section's own 'Flashcards for "
+                        "this section are as follows:' block"
+                    ),
+                    line=line,
+                    col=col,
+                    col_end=col_end,
+                )
+            )
     return errors
 
 
@@ -1936,14 +2093,9 @@ def header_flashcard_sections_duplicate(
 ) -> list[ValidationMessage]:
     """Disallow duplicate flashcard section markers within a single header block."""
     errors: list[ValidationMessage] = []
-    name = ctx.path.name.lower()
-    parent_parts = [part.casefold() for part in ctx.path.parts[:-1]]
     if (
-        name == "index.md"
-        or name == "questions.md"
-        or name == "agents.md"
-        or name in {"lab.md", "tutorial.md", "lecture.md"}
-        or "questions" in parent_parts
+        _flashcard_rule_exempt(ctx.path)
+        or ctx.path.name.lower() in _SUBMISSION_CONTENT_FILES
     ):
         return errors
 
@@ -1955,10 +2107,8 @@ def header_flashcard_sections_duplicate(
     headers = _build_filtered_header_positions(ctx.text, ctx.ast)
     for i, (hdr_pos, _lvl, h) in enumerate(headers):
         hdr_end = h.end()
-        # For this rule, use the immediate next header (any level) so nested
-        # subsections are validated independently.
-        next_pos = headers[i + 1][0] if i + 1 < len(headers) else len(ctx.text)
-        section = ctx.text[hdr_end:next_pos]
+        # Nested subsections are validated independently.
+        section = ctx.text[hdr_end : _own_body_end(headers, i, len(ctx.text))]
         occurrences = list(marker_re.finditer(section))
         if len(occurrences) >= 2:
             dup = occurrences[1]
@@ -2504,22 +2654,29 @@ def numeric_text_not_latex(ctx: ValidationContext) -> list[ValidationMessage]:
 def math_in_code_fence(ctx: ValidationContext) -> list[ValidationMessage]:
     """Flag LaTeX-style math found inside fenced code blocks.
 
-    Authors should not include dollar signs within code fences; this rule
-    warns on the first occurrence.  Uses the mistune AST ``block_code``
-    nodes for reliable code-block detection instead of raw regex fences.
-    Falls back to a no-op when AST is unavailable.
+    Authors should not include dollar signs within code fences. One message
+    per offending fence, at its first dollar sign, rather than one per file.
+    A file-level report leaves the author guessing how many fences to fix and
+    leaves a scoped suppression looking unused when it is not. Uses the
+    mistune AST ``block_code`` nodes for reliable code-block detection instead
+    of raw regex fences. Falls back to a no-op when AST is unavailable.
     """
     errors: list[ValidationMessage] = []
     if not ctx.ast:
         return errors
+    # The AST nodes carry no position, so the raw text is looked up in the
+    # source instead. The cursor keeps two identical fences apart: without it
+    # both would resolve to the first one's offset.
+    cursor = 0
     for node in filter_ast(ctx.ast, "block_code"):
         raw = node.get("raw", "")
         dollar_idx = raw.find("$")
         if dollar_idx == -1:
             continue
-        src_idx = ctx.text.find(raw)
+        src_idx = ctx.text.find(raw, cursor)
         if src_idx == -1:
             continue
+        cursor = src_idx + len(raw)
         abs_idx = src_idx + dollar_idx
         line, col = locate(ctx.text, abs_idx)
         errors.append(
@@ -2530,7 +2687,6 @@ def math_in_code_fence(ctx: ValidationContext) -> list[ValidationMessage]:
                 col=col,
             )
         )
-        break
     return errors
 
 
@@ -3482,55 +3638,287 @@ def topic_note_redundant_filename_prefix(
     return errors
 
 
+# generic card prompts -------------------------------------------------------
+
+"""Words that name a section's shape rather than its content.
+
+A prompt built only from these asks the reader nothing, because the answer
+hangs off a word that could label any section of any note. The list is
+deliberately short: a prompt carrying one real content word is a prompt.
+"""
+_GENERIC_PROMPT_WORDS = frozenset(
+    {
+        "background",
+        "basic",
+        "basics",
+        "benefit",
+        "brief",
+        "broader",
+        "cause",
+        "cheat",
+        "concept",
+        "concepts",
+        "cons",
+        "context",
+        "definition",
+        "definitions",
+        "detail",
+        "details",
+        "discussion",
+        "effect",
+        "equation",
+        "equations",
+        "example",
+        "examples",
+        "formula",
+        "formulas",
+        "gist",
+        "glance",
+        "important",
+        "insight",
+        "intro",
+        "introduction",
+        "key",
+        "level",
+        "method",
+        "note",
+        "notes",
+        "outline",
+        "overview",
+        "part",
+        "point",
+        "points",
+        "problem",
+        "pros",
+        "purpose",
+        "quick",
+        "reason",
+        "recap",
+        "remark",
+        "review",
+        "revision",
+        "section",
+        "sheet",
+        "solution",
+        "summary",
+        "takeaway",
+        "topic",
+        "usage",
+    }
+)
+
+"""Words that cannot make a prompt generic on their own.
+
+Dropping them keeps the Boolean-gate card ``- AND ::@::`` and the Python
+keyword card ``- `in` `` out of the rule: both name a subject.
+"""
+_PROMPT_FUNCTION_WORDS = frozenset(
+    {
+        "a",
+        "an",
+        "and",
+        "are",
+        "as",
+        "at",
+        "be",
+        "by",
+        "do",
+        "does",
+        "for",
+        "from",
+        "how",
+        "if",
+        "in",
+        "into",
+        "is",
+        "it",
+        "its",
+        "no",
+        "not",
+        "of",
+        "on",
+        "or",
+        "per",
+        "that",
+        "the",
+        "then",
+        "this",
+        "to",
+        "vs",
+        "what",
+        "when",
+        "where",
+        "which",
+        "who",
+        "why",
+        "with",
+    }
+)
+
+
+def _prompt_content_words(prompt: str) -> list[str]:
+    """Return the content words of a card prompt, with its markup stripped.
+
+    List markers, blockquote markers, link syntax, inline code, math, and cloze
+    markup all go, because a prompt still has to name something once they are
+    off. Function words go too, so a subject that happens to be one of them
+    survives. Returns an empty list for a section-link card or a hierarchical
+    gloss: both name a place in the note rather than a fact, and the rule has
+    nothing to say about them.
+    """
+    text = re.sub(r"^\s*(?:[-*+]\s+|\d+[.)]\s+|>+\s*)", "", prompt)
+    if text.lstrip().startswith("[§") or "/" in text:
+        return []
+    text = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", text)
+    text = re.sub(r"[`*_~]", "", text)
+    text = re.sub(r"\{@\{.*?\}@\}", " ", text)
+    text = re.sub(r"\$[^$]*\$", " ", text)
+    text = re.sub(r"\[[^\]]*\]", " ", text)
+    return [
+        word
+        for word in re.findall(r"[A-Za-z]+", text.lower())
+        if word not in _PROMPT_FUNCTION_WORDS
+    ]
+
+
+@RULE_REGISTRY.register()
+def qa_prompt_generic(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Error when a QA card's prompt is a bare label such as 'overview'.
+
+    ``- overview ::@:: ...`` gives the reader nothing to answer: the prompt
+    names the section's shape instead of its content, so the card can only be
+    recalled by recognising the note it came from. A prompt has to name the
+    specific thing being recalled. See "Academic conventions" in
+    `create-flashcards` for the prompt-side rules.
+    """
+    errors: list[ValidationMessage] = []
+    if (
+        _flashcard_rule_exempt(ctx.path)
+        or ctx.path.name.lower() in _SUBMISSION_CONTENT_FILES
+    ):
+        return errors
+    for idx, line in enumerate(ctx.text.splitlines(), start=1):
+        if line.count("::@::") == 1:
+            prompt = line.split("::@::", 1)[0]
+            col = line.find("::@::") + 1
+        elif "::@::" not in line and line.count(":@:") == 1:
+            prompt = line.split(":@:", 1)[0]
+            col = line.find(":@:") + 1
+        else:
+            # No separator is prose; two or more belong to
+            # qa_multiple_separators.
+            continue
+        words = _prompt_content_words(prompt)
+        if not words or not all(w in _GENERIC_PROMPT_WORDS for w in words):
+            continue
+        errors.append(
+            ValidationMessage(
+                rule_id="qa_prompt_generic",
+                msg=(
+                    f"card prompt {prompt.strip()!r} is a bare label, not a question; "
+                    "the left-hand side has to name the specific thing being "
+                    "recalled, and a label for the section itself names nothing. "
+                    "Rewrite it so the reader knows what to answer:\n"
+                    "before: - overview ::@:: Linear regression predicts a real-valued "
+                    "target from an affine score.\n"
+                    "after:  - what does a linear regression model predict, and how? "
+                    "::@:: A real-valued target from an affine score in the features. "
+                    "Keep the suppression comment at the end of the card line if the "
+                    "bare label really is the whole point: "
+                    "`<!-- check: ignore-line[qa_prompt_generic]: reason -->`"
+                ),
+                line=idx,
+                col=col,
+                col_end=len(line.rstrip()) + 1,
+            )
+        )
+    return errors
+
+
+CARD_DELIMITERS = ("::@::", ":@:")
+
+
+def is_list_item(line: str) -> bool:
+    """Report whether *line* is a Markdown list item at any depth."""
+    return line.lstrip(" \t").startswith("- ")
+
+
+def is_flashcard_line(line: str) -> bool:
+    """Report whether *line* is a top-level flashcard list item.
+
+    A card is a list item whose text carries one of the flashcard
+    delimiters.  The test is containment, not a line pattern, so a card
+    whose prompt embeds an image path or a fraction is still a card.
+
+    Only a top-level item counts: a card nested under another list item
+    belongs to its parent's list, and such lists are introduced by the
+    item that owns them rather than by a separator phrase.
+    """
+    item = line[1:] if line[:1] in (" ", "\t") else line
+    if not item.startswith("- "):
+        return False
+    text = item[2:]
+    return any(delimiter in text for delimiter in CARD_DELIMITERS)
+
+
+def preceding_nonempty_line(lines: list[str], index: int) -> str:
+    """Return the nearest non-blank line above *index*, stripped."""
+    for position in range(index - 1, -1, -1):
+        candidate = lines[position].strip()
+        if candidate:
+            return candidate
+    return ""
+
+
 @RULE_REGISTRY.register()
 def qa_missing_separator(ctx: ValidationContext) -> list[ValidationMessage]:
     """Check for QA-style flashcard lists without a preceding separator phrase.
 
-    Lines beginning with ``- ...::@::`` or ``- ...:@:`` should be
-    preceded by ``Flashcards for`` or a ``---`` separator.  If not, an
-    error is returned.
+    Every block of consecutive top-level flashcard list items must be
+    introduced by ``Flashcards for`` or a ``---`` separator line.  Blocks are
+    found by structure — a card is a list item carrying a flashcard
+    delimiter, blank lines do not break a block, and a nested list item
+    continues its parent's block — so a card that embeds an image path still
+    counts as the first card of its block.
     """
     errors: list[ValidationMessage] = []
-    lines = ctx.text.splitlines()
+    # Split on newlines rather than splitlines() so that advancing one element
+    # advances exactly one line's worth of characters; splitlines() also breaks
+    # on \f, \v and the Unicode line separators, which would drift the offsets.
+    all_lines = ctx.text.split("\n")
+    first_body = 0
+    line_start = 0
     fm = FRONT_RE.match(ctx.text)
     if fm:
-        fm_lines = fm.group(0).splitlines()
-        lines = lines[len(fm_lines) :]
-    offset = ctx.text.find("\n") + 1 if fm else 0
-    for i, line in enumerate(lines):
-        if re.match(r"^[ \t]{0,1}-\s+([^/]*?)::@::", line) or re.match(
-            r"^[ \t]{0,1}-\s+([^/]*?):@:", line
-        ):
-            line_start = ctx.text.find(line, offset)
-            j = i - 1
-            prev = None
-            while j >= 0:
-                if lines[j].strip():
-                    prev = lines[j].strip()
-                    break
-                j -= 1
-            prev_line = prev or ""
-            lower_prev = prev_line.lower()
-            if not (
-                lower_prev.startswith("flashcards for") or prev_line.startswith("---")
-            ):
-                line_no, col_no = locate(
-                    ctx.text, line_start if line_start != -1 else 0
-                )
-                span = len(line)
-                _, _, col_end = locate_range(
-                    ctx.text, line_start if line_start != -1 else 0, span
-                )
-                errors.append(
-                    ValidationMessage(
-                        rule_id="qa_missing_separator",
-                        msg="QA-style flashcard list detected without preceding separator phrase",
-                        line=line_no,
-                        col=col_no,
-                        col_end=col_end,
+        # fm.end() is the character offset just past the closing ---, so the
+        # first body line is reported at its real position in the file.
+        first_body = fm.group(0).count("\n")
+        line_start = fm.end()
+
+    in_block = False
+    for index in range(first_body, len(all_lines)):
+        line = all_lines[index]
+        if is_flashcard_line(line):
+            if not in_block:
+                in_block = True
+                previous = preceding_nonempty_line(all_lines, index).lower()
+                if not (
+                    previous.startswith("flashcards for") or previous.startswith("---")
+                ):
+                    line_no, col_no = locate(ctx.text, line_start)
+                    _, _, col_end = locate_range(ctx.text, line_start, len(line))
+                    errors.append(
+                        ValidationMessage(
+                            rule_id="qa_missing_separator",
+                            msg="QA-style flashcard list detected without preceding separator phrase",
+                            line=line_no,
+                            col=col_no,
+                            col_end=col_end,
+                        )
                     )
-                )
-            break
+        elif line.strip() and not is_list_item(line):
+            in_block = False
+        line_start += len(line) + 1
     return errors
 
 
@@ -4124,102 +4512,94 @@ def cloze_excessive_coverage(ctx: ValidationContext) -> list[ValidationMessage]:
 
 @RULE_REGISTRY.register()
 def cloze_no_hint_words(ctx: ValidationContext) -> list[ValidationMessage]:
-    """Warn when a cloze flashcard clause has no hint words visible.
+    """Warn when a line carries a lone cloze with no visible hint words.
 
-    A clause is delimited by `.`, `;`, `!`, `?` (commas do NOT split).
-    For each clause containing at least one cloze, strip the cloze delimiters
-    to get visible text.  A "hint word" is 1+ alphabetic characters in
-    visible text outside cloze bodies.  If no hint word is found, emit
-    a warning.  Skip clozes that contain only LaTeX math (equation-only
-    clozes are acceptable).
+    A hint is any alphabetic character outside cloze bodies on the same
+    line; list markers, quote markers, whitespace, and punctuation are not
+    text. A line whose clozes pair up (``{@{RBS}@} {@{fires ions at a
+    sample}@}``) shows its hint in the sibling cloze, so only a line with
+    exactly one cloze can lack one. Clozes holding only LaTeX math remain
+    acceptable recall targets.
     """
     errors: list[ValidationMessage] = []
     if not has_flash_tag(ctx.front):
         return errors
 
-    # Split text into lines and process each line
+    # The loop tracks each line's absolute offset so a message can be
+    # located in the whole text: span offsets are line-relative, so passing
+    # one straight to locate() would report the line the offset happens to
+    # land in, not this line.
+    line_start = 0
     for line_idx, line in enumerate(ctx.text.splitlines(), start=1):
-        # Find all cloze spans in this line
         _, spans, _, _, _ = _scan_cloze_tokens(line)
-        if not spans:
-            continue
-
-        # Split line into clauses by sentence delimiters (not commas)
-        # We need to track positions relative to the original line
-        clauses: list[tuple[str, int, int]] = []  # (clause_text, start, end)
-        clause_start = 0
-        for i, ch in enumerate(line):
-            if ch in ".;!?":
-                clause = line[clause_start : i + 1]
-                clauses.append((clause, clause_start, i + 1))
-                clause_start = i + 1
-        # Add the last clause if any
-        if clause_start < len(line):
-            clause = line[clause_start:]
-            clauses.append((clause, clause_start, len(line)))
-
-        # Check each clause for cloze flashcards
-        for clause_text, clause_start_off, clause_end_off in clauses:
-            # Find cloze spans within this clause
-            clause_spans = []
-            for span_start, span_end in spans:
-                # Check if cloze overlaps with this clause
-                if span_start < clause_end_off and span_end > clause_start_off:
-                    # Adjust spans to clause-relative positions
-                    rel_start = max(0, span_start - clause_start_off)
-                    rel_end = min(len(clause_text), span_end - clause_start_off)
-                    clause_spans.append((rel_start, rel_end))
-
-            if not clause_spans:
-                continue
-
-            # Build visible text: text outside cloze bodies
-            visible_parts: list[str] = []
-            pos = 0
-            for span_start, span_end in clause_spans:
-                # Add text before this cloze
-                visible_parts.append(clause_text[pos:span_start])
-                pos = span_end
-            # Add text after last cloze
-            visible_parts.append(clause_text[pos:])
-            visible_text = "".join(visible_parts)
-
-            # Strip cloze delimiters from visible text (they were already excluded)
-            # Now check if there's a hint word (1+ alphabetic characters)
+        line_start_next = line_start + len(line) + 1
+        if len(spans) == 1:
+            span_start, span_end = spans[0]
+            visible_text = line[:span_start] + line[span_end:]
             has_hint_word = bool(re.search(r"[a-zA-Z]", visible_text))
-
-            if not has_hint_word:
-                # Check if all clozes in this clause are equation-only (contain LaTeX math)
-                all_equation_only = True
-                for span_start, span_end in clause_spans:
-                    # Extract cloze body (between {@{ and }@})
-                    # spans are (open_index, close_index) where open is position of {@{}
-                    # and close is position of }@}
-                    cloze_body = line[span_start + 3 : span_end]
-                    # Check if cloze body contains only LaTeX math
-                    # Strip whitespace and check if it's all math delimiters/content
-                    stripped = cloze_body.strip()
-                    if stripped and not re.match(
-                        r"^\$.*\$$|^\$\$.*\$\$$", stripped, re.DOTALL
-                    ):
-                        all_equation_only = False
-                        break
-
-                if not all_equation_only:
-                    # Report error at the first cloze in this clause
-                    first_span = clause_spans[0]
-                    abs_pos = clause_start_off + first_span[0]
-                    line_no, col_no = locate(ctx.text, abs_pos)
-                    errors.append(
-                        ValidationMessage(
-                            rule_id="cloze_no_hint_words",
-                            msg="cloze flashcard clause has no visible hint words",
-                            severity=Severity.WARNING,
-                            line=line_no,
-                            col=col_no,
-                        )
+            # An empty or LaTeX-only body carries no prose a reader could
+            # be quizzed on instead, so it is not a hint-word deficit.
+            cloze_body = line[span_start + 3 : span_end].strip()
+            equation_only = not cloze_body or bool(
+                re.match(r"^\$.*\$$|^\$\$.*\$\$$", cloze_body, re.DOTALL)
+            )
+            if not has_hint_word and not equation_only:
+                abs_pos = line_start + span_start
+                _line, col_no = locate(ctx.text, abs_pos)
+                errors.append(
+                    ValidationMessage(
+                        rule_id="cloze_no_hint_words",
+                        msg="cloze flashcard clause has no visible hint words",
+                        severity=Severity.WARNING,
+                        line=line_idx,
+                        col=col_no,
                     )
+                )
+        line_start = line_start_next
 
+    return errors
+
+
+@RULE_REGISTRY.register()
+def qa_block_missing_solution(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Warn when a question block in a submission note carries no answer.
+
+    A blockquoted question block answers itself with a ``solution`` or
+    ``explanation`` list item. This fires only on ``lab.md``, ``tutorial.md``
+    and ``lecture.md``, and only where the same note already uses that style
+    somewhere. A note that never writes an answer, such as a lecture built
+    from discussion prompts, is a different kind of note and stays silent.
+    Display-math blocks are not questions and are skipped.
+    """
+    errors: list[ValidationMessage] = []
+    if ctx.path.name.lower() not in _SUBMISSION_CONTENT_FILES:
+        return errors
+    if _flashcard_rule_exempt(ctx.path):
+        return errors
+    if not has_flash_tag(ctx.front):
+        return errors
+
+    blocks = list(_iter_blockquote_blocks(ctx.text))
+    if not any(_block_has_solution(block) for _off, block in blocks):
+        return errors
+
+    for off, block in blocks:
+        if _block_has_solution(block) or _block_is_display_math(block):
+            continue
+        line, col = locate(ctx.text, off)
+        errors.append(
+            ValidationMessage(
+                rule_id="qa_block_missing_solution",
+                msg=(
+                    "this question block has no 'solution:' or 'explanation:' item; "
+                    "every other block in this note answers its question, so add the "
+                    "missing answer rather than leaving the question bare"
+                ),
+                severity=Severity.WARNING,
+                line=line,
+                col=col,
+            )
+        )
     return errors
 
 
@@ -4275,63 +4655,68 @@ def cloze_article_before(ctx: ValidationContext) -> list[ValidationMessage]:
 
 
 @RULE_REGISTRY.register()
-def cloze_trailing_verb(ctx: ValidationContext) -> list[ValidationMessage]:
-    """Warn when a copula or auxiliary verb sits immediately before a cloze.
+def cloze_opens_with_linking_verb(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Warn when a cloze body opens with a linking or auxiliary verb.
 
-    Verbs like ``is``, ``are``, ``was``, ``were``, ``be``, ``been``, ``being``,
-    ``has``, ``have``, ``had`` before a cloze opening usually signal that the
-    verb itself should be inside the cloze for better recall.  ``is {@{5V}@}``
-    is less useful than ``{@{is 5V}@}``.
+    A cloze hides the payload while the frame stays visible, so
+    ``is {@{5V}@}`` is the correct shape and ``{@{is 5V}@}`` hides the
+    frame instead. Only a leading word from the linking/auxiliary set
+    counts, followed by whitespace or alone; a longer word that merely
+    starts with one (``isoelectronic``) is a payload of its own, and a
+    body opening with math or other prose is left alone.
     """
     errors: list[ValidationMessage] = []
     if not has_flash_tag(ctx.front):
         return errors
 
-    copula_verbs = {
-        "is",
-        "are",
-        "was",
-        "were",
-        "be",
-        "been",
-        "being",
-        "has",
-        "have",
-        "had",
-    }
-    text = ctx.text
+    linking_verbs = frozenset(
+        {
+            "is",
+            "are",
+            "was",
+            "were",
+            "am",
+            "be",
+            "been",
+            "being",
+            "has",
+            "have",
+            "had",
+        }
+    )
 
-    for m in re.finditer(r"\{@\{", text):
-        open_idx = m.start()
-        # find the word immediately before the opening delimiter
-        j = open_idx - 1
-        # skip whitespace between word and {@{
-        while j >= 0 and text[j].isspace():
-            j -= 1
-        if j < 0:
-            continue
-        # find start of the preceding word
-        word_end = j + 1
-        while j >= 0 and not text[j].isspace():
-            j -= 1
-        word_start = j + 1
-        preceding_word = text[word_start:word_end]
-        # normalize: lowercase and strip trailing punctuation
-        normalized = preceding_word.casefold().rstrip(".,;:!?")
-        if normalized in copula_verbs:
-            line_no, col_no, col_end = locate_range(
-                text, word_start, word_end - word_start
-            )
+    # A cloze body runs from '{@{' to the next '}@}' on the same line; an
+    # unclosed opening is malformed and belongs to another rule.
+    offset = 0
+    for line in ctx.text.splitlines():
+        for m in re.finditer(r"\{@\{(.*?)\}@}", line):
+            body = m.group(1)
+            word_match = re.match(r"([A-Za-z]+)", body)
+            if word_match is None:
+                continue
+            word = word_match.group(1)
+            if word.casefold() not in linking_verbs:
+                continue
+            rest = body[word_match.end() :]
+            if rest and not rest[0].isspace():
+                continue
+            word_start = offset + m.start(1)
+            line_no, col_no, col_end = locate_range(ctx.text, word_start, len(word))
             errors.append(
                 ValidationMessage(
-                    rule_id="cloze_trailing_verb",
-                    msg=f"copula/auxiliary verb '{preceding_word}' immediately before cloze; consider moving it inside",
+                    rule_id="cloze_opens_with_linking_verb",
+                    msg=(
+                        f"cloze opens with linking/auxiliary verb '{word}'; the frame "
+                        "stays visible and the cloze opens on the payload — "
+                        f"write '{word} {{@{{…}}@}}'"
+                    ),
                     line=line_no,
                     col=col_no,
                     col_end=col_end,
                     severity=Severity.WARNING,
                 )
             )
+        offset += len(line) + 1
 
     return errors
 
@@ -4859,6 +5244,408 @@ def html_br_mid_line(ctx: ValidationContext) -> list[ValidationMessage]:
     return errors
 
 
+# line edge whitespace ------------------------------------------------------
+
+"""Spaces and tabs stripped from either end of a line by the edge helpers.
+
+A non-breaking space is deliberately absent: it is a typed character with a
+meaning, not stray indentation.
+"""
+_EDGE_SPACE = " \t"
+
+"""Regex matching a line that opens a new block rather than continuing one.
+
+A trailing ``<br/>`` is a real line break only when the line below continues
+the same block, so these starts end a break rather than honour it.  A
+blockquote is absent on purpose: ``> Warm regards, <br/>`` followed by
+``> [redacted]`` is a break inside one quoted paragraph, and 22 lines in the
+corpus are written that way.
+"""
+_EDGE_NEW_BLOCK_RE = re.compile(
+    r"^\s*(?:#{1,6}\s|[-*+]\s|\d+[.)]\s|\||```|~~~|-{3,}\s*$|\*{3,}\s*$|_{3,}\s*$)"
+)
+
+"""Regex matching a leading marker whose indentation is structure, not a defect."""
+_EDGE_LIST_OR_QUOTE_RE = re.compile(r"^(?:[-*+]\s|\d+[.)]\s|>|\|)")
+
+
+def _edge_tag_ending_at(text: str, end: int) -> re.Match[str] | None:
+    """Return the tag match finishing exactly at *end*, or ``None``.
+
+    Only the tag that actually touches the edge counts, which is what keeps
+    ``answer<br>text`` and ``part one<br/><br/>part two`` out of the report:
+    their tags sit mid-line and the walk never reaches them.
+    """
+    for m in _CONTENT_HTML_BREAK_RE.finditer(text, 0, end):
+        if m.end() == end:
+            return m
+    return None
+
+
+def _edge_tag_starting_at(text: str, start: int) -> re.Match[str] | None:
+    """Return the tag match beginning exactly at *start*, or ``None``.
+
+    The leading-edge counterpart of :func:`_edge_tag_ending_at`.  Anchoring at
+    the edge is what keeps ``answer<br>text`` out of the report: its tag starts
+    at column 6, not at column 0.
+    """
+    return _CONTENT_HTML_BREAK_RE.match(text, start)
+
+
+def iter_fence_state(text: str, body_start: int) -> Iterator[tuple[int, bool]]:
+    """Yield ``(offset, in_fence)`` for every line of *text* from *body_start*.
+
+    ``in_fence`` is ``True`` for the opening delimiter, every content line,
+    and the closing delimiter, so a caller asking "is this line inside a code
+    block" gets the delimiters too. Those are as much part of the block as
+    what sits between them.
+
+    This is a line scan rather than an AST walk because a fence indented by
+    four spaces is not a ``block_code`` node: at that indentation CommonMark
+    reads the backticks as literal text, so the AST sees nothing and the code
+    lines look like ordinary indented text. The delimiter may carry any
+    indentation, which is how those fences are written here.
+
+    A fence-looking line in prose opens a block and hides the rest of the
+    file from whoever asks. That under-reports rather than mis-reports, which
+    is the right way for a linter to be wrong, and ``_is_inside_code_block``
+    still runs as a second gate for the fences the AST does see.
+    """
+    offset = body_start
+    fence = ""
+    for line in text[body_start:].splitlines(keepends=True):
+        m = re.match(r"^\s*(`{3,}|~{3,})", line)
+        if m:
+            marker = m.group(1)
+            if not fence:
+                fence = marker[0] * 3
+            elif marker[0] == fence[0]:
+                fence = ""
+            yield offset, True
+        elif fence:
+            yield offset, True
+        else:
+            yield offset, False
+        offset += len(line)
+
+
+def _edge_fenced_line_offsets_in_text(text: str, body_start: int) -> frozenset[int]:
+    """Return the offsets of the fenced code block lines in *text*.
+
+    Offsets are relative to *text*, not to the body that starts at
+    *body_start*, so a caller iterating the body can test its own absolute
+    position against this set.
+    """
+    return frozenset(
+        offset for offset, in_fence in iter_fence_state(text, body_start) if in_fence
+    )
+
+
+def _edge_is_br(tag: str) -> bool:
+    """Return ``True`` when *tag* is a ``br`` in any spelling.
+
+    ``<br>``, ``<br/>``, ``<br />`` and any case are one tag, and it is the only
+    member of the class that can be a legal line break.
+    """
+    return re.match(r"</?br\s*/?>$", tag, re.IGNORECASE) is not None
+
+
+def _leading_edge(line: str) -> tuple[int, int, str] | None:
+    """Return ``(start, end, reason)`` for the leading edge defect of *line*, or ``None``.
+
+    A run of spaces or tabs at column 0 is leading whitespace, and so is a
+    block tag there: this repository breaks a line by ending it with one
+    ``<br/>``, so a tag at the start of a line is edge padding, ``<p>``
+    included.  The run after the tag counts as well, and the whole run is one
+    span.
+
+    Flagged::
+
+        "  answer"      two spaces at column 0
+        "  <p>answer"   whitespace, then a tag
+        "<br>answer"    a tag at column 0, which breaks nothing
+        "<br> answer"   a tag at column 0, then a space
+        "  <p> answer"  whitespace, a tag, whitespace, all one span
+
+    Not flagged::
+
+        "answer"        nothing at column 0
+        "answer<br/>text"  the tag is mid-line, not on the edge
+        "    - card"    a list marker's indent is structure, skipped by the
+                       caller rather than here
+        ""              an empty line, which is not a defect
+
+    A whitespace-only line is the whole run and is reported once, by this
+    side; the trailing helper declines the same line so it is not counted
+    twice.  ``(0, 0, ...)`` never comes back, so a clean line is ``None``.
+    """
+    pos = 0
+    while pos < len(line) and line[pos] in _EDGE_SPACE:
+        pos += 1
+    tag = _edge_tag_starting_at(line, pos)
+    if tag is not None:
+        pos = tag.end()
+        while pos < len(line) and line[pos] in _EDGE_SPACE:
+            pos += 1
+        return (
+            0,
+            pos,
+            f"line starts with the tag '{tag.group(0)}', which breaks nothing; a break belongs at the end of a line, so delete the tag",
+        )
+    if pos == 0:
+        return None
+    run = line[:pos]
+    noun = "space" if len(run) == 1 else "spaces"
+    return (
+        0,
+        pos,
+        f"line starts with {len(run)} {noun}; a line carries no whitespace at its edge, so delete {'it' if len(run) == 1 else 'them'}",
+    )
+
+
+def _trailing_edge(line: str, next_line: str | None) -> tuple[int, int, str] | None:
+    """Return ``(start, end, reason)`` for the trailing edge defect of *line*, or ``None``.
+
+    Spaces or tabs at the end of a line are trailing whitespace.  A tag at the
+    end of a line is legal only when it is a single ``<br>`` that breaks to the
+    next line, which is the one use the conventions give it.  Everything else at
+    that edge is padding and is reported: a second tag, a tag followed by
+    whitespace, a tag whose next line is missing or blank or opens a new block,
+    a ``<br>`` on the last line of the file, and any ``<p>``, ``</p>``,
+    ``</div>`` or ``</li>``, since those open a block rather than break a line.
+    The tag class is the one :func:`content_sentence_too_long` uses, so ``<p>``
+    counts as whitespace and is still reported.
+
+    Flagged::
+
+        "answer "                one space at the end
+        "answer  "               two spaces, a Markdown hard break, and still
+                                 whitespace
+        "answer<br/> "           whitespace inside the tag boundary
+        "answer <br>\\t"         a tab after the tag
+        "answer<br/><br/>"       a second tag is padding
+        "answer<p>"              a ``<p>`` opens a block, it does not break
+        "answer</li>"            the same
+        "answer<br/>" + None     a break on the last line goes nowhere
+        "answer<br/>" + "# Next" the next line starts a new block
+        "answer<br/>" + ""       the next line is blank
+
+    Not flagged::
+
+        "answer<br/>" + "more"     a single break to a continuation, legal
+        "answer<br>" + "> more"    the same inside a blockquote
+        "answer<br>text"           the tag is mid-line, which
+                                   :func:`html_br_mid_line` owns
+        "part one<br/><br/>part two"  a mid-line pair separating two visual
+                                   paragraphs, correct and out of scope
+
+    *next_line* is the line immediately after, with no line ending, or ``None``
+    at end of file.  No line is skipped looking for a continuation: a break
+    goes to the next line or it goes nowhere.
+    """
+    stripped = line.rstrip(_EDGE_SPACE)
+    if not stripped:
+        return None  # a whitespace-only line is reported once, by the leading rule
+    gap = len(line) - len(stripped)
+    tag = _edge_tag_ending_at(stripped, len(stripped))
+    if tag is None:
+        if gap == 0:
+            return None
+        noun = "space" if gap == 1 else "spaces"
+        return (
+            len(stripped),
+            len(line),
+            f"line ends in {gap} {noun}; a line carries no whitespace at its edge, so delete {'it' if gap == 1 else 'them'}",
+        )
+    text = tag.group(0)
+    if gap:
+        noun = "space" if gap == 1 else "spaces"
+        return (
+            len(stripped),
+            len(line),
+            f"line ends in '{text}' then {gap} {noun}; the tag already ends the line, so delete {'it' if gap == 1 else 'them'} and keep the break in one tag",
+        )
+    if _edge_is_br(text) and _edge_tag_ending_at(stripped, tag.start()) is None:
+        if (
+            next_line is not None
+            and next_line.strip()
+            and not _EDGE_NEW_BLOCK_RE.match(next_line)
+        ):
+            return None
+        where = (
+            "there is no line below it"
+            if next_line is None
+            else "the line below is blank"
+            if not next_line.strip()
+            else "the line below starts a new block"
+        )
+        return (
+            tag.start(),
+            tag.end(),
+            f"line ends in '{text}' but {where}; a break tag only breaks when the next line continues this one, so delete the tag or put the continuation on the line below",
+        )
+    what = (
+        "is a second break where one was meant"
+        if _edge_is_br(text)
+        else "opens a block rather than breaking a line"
+    )
+    return (
+        tag.start(),
+        tag.end(),
+        f"line ends in '{text}', which {what}; a line break here is one '<br/>' ending the line, so delete it or move it into the text",
+    )
+
+
+@RULE_REGISTRY.register()
+def line_leading_whitespace(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Flag whitespace at the start of a line, and a block tag sitting there.
+
+    A line opens with its content, never with padding, so spaces or tabs at
+    column 0 are a defect and a tag is too: this repository writes a line break
+    as one ``<br/>`` at the *end* of a line, which makes a tag at column 0
+    padding rather than a break.  Every tag in the class counts, ``<p>``
+    included, because the class defines what a line's edge is made of, not what
+    may sit on it.
+
+    Flagged::
+
+        "  answer"      two spaces at column 0
+        "  <p>answer"   whitespace, then a tag
+        "<br>answer"    a tag at column 0
+        "<br> answer"   a tag at column 0, then a space
+        "  <p> answer"  all three, as one span
+
+    Not flagged::
+
+        "answer"           nothing at column 0
+        "answer<br/>text"  the tag is mid-line
+        "    - card"       a nested card's indent is structure
+        "  > quoted"       a nested quote's indent is structure
+        "   "              a whitespace-only line, reported once and only
+                           by this rule
+        anything inside a fence, a code span, or the frontmatter
+
+    Skips, all of which a false positive would come from: the frontmatter,
+    whose ``  - alias`` is meaningful YAML; fenced code, whose Python carries
+    its own indentation; inline code spans, which are quoted verbatim; and a
+    run that turns out to be the indent of a list item or blockquote, since
+    ``qa_nested_indentation`` requires two spaces per level and 16,534 lines in
+    the corpus rely on it.
+    """
+    errors: list[ValidationMessage] = []
+    text = ctx.text
+    fm = FRONT_RE.match(text)
+    body_start = fm.end() if fm else 0
+    body = ctx.body
+    inline_code = _build_inline_code_ranges(text, ctx.ast)
+    fenced = _edge_fenced_line_offsets_in_text(text, body_start)
+    offset = 0
+    for line in body.splitlines():
+        abs_pos = body_start + offset
+        offset += len(line) + 1
+        if abs_pos in fenced or _is_inside_code_block(abs_pos, text, ctx.ast):
+            continue
+        if any(start <= abs_pos < end for start, end in inline_code):
+            continue
+        edge = _leading_edge(line)
+        if edge is None:
+            continue
+        start, end, reason = edge
+        if _CONTENT_HTML_BREAK_RE.search(
+            line, start, end
+        ) is None and _EDGE_LIST_OR_QUOTE_RE.match(line[end:]):
+            continue
+        line_no, col, col_end = locate_range(text, abs_pos + start, end - start)
+        errors.append(
+            ValidationMessage(
+                rule_id="line_leading_whitespace",
+                msg=reason
+                + ". Suppress with `<!-- check: ignore-line[line_leading_whitespace]: reason -->`",
+                line=line_no,
+                col=col,
+                col_end=col_end,
+            )
+        )
+    return errors
+
+
+@RULE_REGISTRY.register()
+def line_trailing_whitespace(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Flag whitespace at the end of a line, and a block tag that breaks nothing.
+
+    The mirror of :func:`line_leading_whitespace`.  Spaces or tabs at the end of
+    a line are a defect, and so is a tag there unless it is a single ``<br>``
+    whose next line continues the same block, which is the one break this
+    repository writes.  Every tag in the class counts as part of the edge,
+    ``<p>`` included, and only ``br`` may sit on it.
+
+    Flagged::
+
+        "answer "                 one space at the end
+        "answer  "                two spaces, a Markdown hard break, and still
+                                  whitespace
+        "answer<br/> "            whitespace inside the tag boundary
+        "answer <br>\\t"          a tab after the tag
+        "answer<br/><br/>"        a second tag is padding
+        "answer<p>"               a ``<p>`` opens a block, it does not break
+        "answer</li>"             the same
+        "answer<br/>" at EOF      a break to nothing
+        "answer<br/>" + "# Next"  the next line starts a new block
+        "answer<br/>" + ""        the next line is blank
+
+    Not flagged::
+
+        "answer<br/>" + "more"       a break to a continuation, legal
+        "answer<br>" + "> more"      the same inside a blockquote
+        "answer<br>text"             the tag is mid-line, so
+                                    :func:`html_br_mid_line` owns it
+        "part one<br/><br/>part two" a mid-line pair separating two visual
+                                    paragraphs, correct and out of scope
+        "    - card"                 a nested card's indent is leading, not
+                                    trailing, and this rule never sees it
+        anything inside a fence, a code span, or the frontmatter
+
+    Skips, all of which a false positive would come from: the frontmatter,
+    whose indentation is meaningful YAML; fenced code; and inline code spans,
+    which are quoted verbatim.  Two trailing spaces are still reported even
+    though Markdown reads them as a hard break, since the convention asks for
+    ``<br/>`` instead; an author keeping one suppresses the line.
+    """
+    errors: list[ValidationMessage] = []
+    text = ctx.text
+    fm = FRONT_RE.match(text)
+    body_start = fm.end() if fm else 0
+    body = ctx.body
+    inline_code = _build_inline_code_ranges(text, ctx.ast)
+    lines = body.splitlines()
+    fenced = _edge_fenced_line_offsets_in_text(text, body_start)
+    offset = 0
+    for index, line in enumerate(lines):
+        abs_pos = body_start + offset
+        offset += len(line) + 1
+        if abs_pos in fenced or _is_inside_code_block(abs_pos, text, ctx.ast):
+            continue
+        if any(start <= abs_pos < end for start, end in inline_code):
+            continue
+        next_line = lines[index + 1] if index + 1 < len(lines) else None
+        edge = _trailing_edge(line, next_line)
+        if edge is None:
+            continue
+        start, end, reason = edge
+        line_no, col, col_end = locate_range(text, abs_pos + start, end - start)
+        errors.append(
+            ValidationMessage(
+                rule_id="line_trailing_whitespace",
+                msg=reason
+                + ". Suppress with `<!-- check: ignore-line[line_trailing_whitespace]: reason -->`",
+                line=line_no,
+                col=col,
+                col_end=col_end,
+            )
+        )
+    return errors
+
+
 # content sentence length ----------------------------------------------------
 
 """Word ceiling above which one sentence of authored content is reported.
@@ -4906,9 +5693,10 @@ _CONTENT_INLINE_MATH_RE = re.compile(r"\$[^$\n]*\$")
 
 ``<br/>``, ``<br>``, ``<p>``, ``</p>``, ``</div>`` and ``</li>`` each end one.
 This repository formats a multi-statement answer with them, so a 155-word
-"sentence" is often five short statements.
+"sentence" is often five short statements.  The case is folded in so the
+line-edge rules and :func:`content_sentence_too_long` agree on what a tag is.
 """
-_CONTENT_HTML_BREAK_RE = re.compile(r"</?(?:br|p|div|li)\s*/?>")
+_CONTENT_HTML_BREAK_RE = re.compile(r"</?(?:br|p|div|li)\s*/?>", re.IGNORECASE)
 
 """Regex matching a table cell delimiter, blanked before words are counted."""
 _CONTENT_PIPE_RE = re.compile(r"\|")

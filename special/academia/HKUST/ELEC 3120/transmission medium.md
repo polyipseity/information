@@ -21,7 +21,7 @@ A transmission medium is the means by which information travels from a sender to
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A transmission medium is the means by which information travels from a sender to a receiver.
+- transmission medium: what is it? ::@:: A transmission medium is the means by which information travels from a sender to a receiver.
 - data transmission: what is it? ::@:: The process of sending digital or analog data over a communication medium to one or more devices.
 
 ## media

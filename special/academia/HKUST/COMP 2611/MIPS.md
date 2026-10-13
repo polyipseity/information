@@ -33,7 +33,7 @@ In MIPS, there are {@{32 registers}@}. They can be identified by {@{their names 
 
 Almost always, {@{the number of variables in a program is much higher than the number of registers}@}. To {@{store those data}@}, {@{register values}@} are transferred {@{from and to the main memory \(via the CPU cache\), but with more propagation delay}@}.
 
-The number of registers {@{is a balancing act: it should not be too few or too many}@}. If there are too few, {@{the potentially many variables}@} need to be frequently {@{transferred from and to the main memory \(RAM\), leading to performance loss}@}. If there are too many, processors are {@{more complicated, have higher clock cycle time}@}, which also leads to {@{performance loss}@}.
+The number of registers is {@{a balancing act: it should not be too few or too many}@}. If there are too few, {@{the potentially many variables}@} need to be frequently {@{transferred from and to the main memory \(RAM\), leading to performance loss}@}. If there are too many, processors are {@{more complicated, have higher clock cycle time}@}, which also leads to {@{performance loss}@}.
 
 \(__this course__: Note that when doing questions, {@{do not assume registers have a specific value, e.g. 0, unless otherwise specified}@}. That is, you need to {@{initialize its value}@}.\)
 
@@ -296,7 +296,7 @@ If {@{you have more than 4 arguments}@}, then you {@{pass the extra arguments \(
 
 Comments {@{start with `#` and end with a newline}@}. {@{Labels}@} are {@{like "bookmarks" of the program}@}, so that {@{you can reference the "bookmark" from other assembly lines by its name}@}. Its syntax is {@{`(label name): (code)`}@}. To {@{load the address of a label into a register}@}, use {@{the _pseudo-instruction_ `la $reg, (label name)` \(load address\)}@}. To {@{specify a location to jump to in an instruction}@}, {@{simply use the label name}@}.
 
-In a program, you usually {@{have 2 segments: `.data` and `.text`}@}. To begin such a segment, {@{simply start it with the segment header `.(segment name)` in its own line}@}. Then, {@{all text after this line and before the next segment header}@} belongs to that segment. In {@{the `.data` segment}@}, you {@{put data inside}@}. You can {@{modify the data while executing the program using the instruction `sw`}@}. In {@{the `.text` segment}@}, you {@{put runnable code inside \(the name "text" is quite un-descriptive, but this is historical convention...\)}@}.
+In a program, you usually have {@{2 segments: `.data` and `.text`}@}. To begin such a segment, {@{simply start it with the segment header `.(segment name)` in its own line}@}. Then, {@{all text after this line and before the next segment header}@} belongs to that segment. In {@{the `.data` segment}@}, you {@{put data inside}@}. You can {@{modify the data while executing the program using the instruction `sw`}@}. In {@{the `.text` segment}@}, you {@{put runnable code inside \(the name "text" is quite un-descriptive, but this is historical convention...\)}@}.
 
 In the `.data` segment, {@{data are stored into the memory _contagiously_ in declaration order}@}. The first byte of data {@{may have an arbitrary memory address, called _offset_}@}, and {@{later bytes are stored contagiously \(sometimes with small padding between different data for _alignment_\) after the first byte}@}.
 

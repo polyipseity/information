@@ -10,77 +10,77 @@ tags:
 
 # academic writing
 
-Academic writing is writing produced as part of coursework, judged on more than correctness: the work has to be the writer's own, the concepts understood well enough to be applied, and the argument followable by the reader. An answer that states the right facts in the wrong shape loses marks that the facts alone cannot recover.
+Coursework writing is marked on more than being right. The work must be the writer's own, the ideas understood well enough to use, and the argument one the reader can follow. Facts in the wrong shape lose marks.
 
 ---
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Writing produced as part of coursework, judged on the writer's own argument and on how well the reader can follow it.
-- what coursework writing is judged on besides being correct ::@:: That the work is the writer's own, that the concepts are understood well enough to be applied, and that the argument can be followed.
-- right facts in the wrong shape ::@:: Marks lost, which the facts alone cannot recover.
+- what marks coursework besides being right ::@:: The work is the writer's own, the ideas are understood well enough to use, and the argument is one the reader can follow.
+- what a fact in the wrong shape gets ::@:: It loses the marks.
 
 ## originality
 
-An essay has to sound like the person who wrote it. Originality here means the writer's own voice, structure, logic, and ideas, with everything taken from elsewhere attributed to its source. The opposite failure, leaning too heavily on the source material, shows up as re-telling, re-ordering, or reviewing it instead of making an argument with it.
+An essay has to sound like the person who wrote it: their own voice, structure, logic, and ideas. Anything borrowed from elsewhere gets a citation. The opposite failure is leaning on the source so hard that the writer re-tells, re-orders, or reviews it rather than arguing with it.
 
 ---
 
 Flashcards for this section are as follows:
 
-- overview ::@:: The writer's own voice, structure, logic, and ideas, with everything taken from a source attributed.
-- what originality rules out ::@:: Leaning too heavily on the source material, and re-telling, re-ordering, or reviewing it instead of arguing with it.
-- what proper attribution leaves to the writer ::@:: The structure, the logic, and the argument are still the writer's own.
+- what an essay has to sound like ::@:: The person who wrote it, in their own voice, structure, logic, and ideas.
+- what happens to anything borrowed ::@:: It gets a citation.
+- what originality rules out ::@:: Leaning on the source so hard that the writer re-tells, re-orders, or reviews it instead of arguing with it.
 
 ## integration of ideas
 
-The essay names the theories and concepts it applies and shows that they are understood by using them in examples. An example is not decoration: it elaborates the reasoning and shows how the theory or finding applies to the argument.
+The essay names the theories and concepts it uses, then works them into examples. An example is not decoration. It carries the reasoning and shows how the finding applies.
 
 ---
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Naming the theories and concepts an answer applies and showing each one at work in an example.
-- what a good example does ::@:: Elaborates the reasoning and shows how the theory or finding applies to the argument.
-- why concepts are named rather than implied ::@:: The reader has to see which theory or concept is doing the work in the argument.
+- what an essay does with the theories and concepts it uses ::@:: It names them, then works them into examples.
+- why an example is not decoration ::@:: It carries the reasoning and shows how the finding applies.
 
 ## paragraphing
 
-A paragraph carries one step of the argument, and where the breaks fall decides whether the page can be followed. The same story set as a single block and divided into paragraphs differs only in the positions of the breaks, and it is the paragraphed version a reader can follow.
+One paragraph carries one step of the argument. Set the story as one block, then break it up. Only the break positions change. A reader can follow the broken version, not the unbroken one.
 
 ---
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Dividing the text where one step of the argument ends and the next begins.
-- what changes when the same text is paragraphed ::@:: Only the positions of the breaks.
+- what one paragraph carries ::@:: One step of the argument.
+- what changes when the same story is paragraphed ::@:: Only the positions of the breaks.
+- which version a reader can follow ::@:: The version split into paragraphs.
 
 ## clarity and simplicity
 
-Only what the question asks for belongs in the answer. Information unrelated to it is cut however interesting it is, and the theory or concept being applied is named rather than assumed. A definition the reader already has is not worth writing out again: restating what experimental research or the scientific method is spends words without advancing the answer. A source that is to be repeated in the answer is checked for credibility first, and a careers blog's list of supposed benefits of listening to music while studying is neither related to most essay questions nor a study.
+Answer the question and nothing else. Name the theory or concept you apply. Cut whatever does not serve the question. Do not spell out a definition the reader already has. Restating what experimental research or the scientific method is spends words the answer never gets back. Check who wrote a source before repeating it. A careers blog listing the benefits of listening to music while studying is not a study. It answers few essay questions.
 
 ---
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Every sentence serves the essay question, and the concepts the answer applies are named.
-- what is cut from an answer ::@:: Information unrelated to the question, however interesting it is.
+- what an answer has to do ::@:: Answer the question and nothing else, and name the theory or concept you apply.
+- what is cut from an answer ::@:: Anything that does not serve the question.
 - why a familiar definition is left out ::@:: The reader already has it.
-- what is checked about a source before its content is repeated ::@:: Its credibility.
-- an example of an irrelevant and unreliable source ::@:: A careers blog's list of the supposed benefits of listening to music while studying.
+- what restating the scientific method spends ::@:: Words the answer never gets back.
+- what is checked before a source is repeated ::@:: Who wrote it.
+- an irrelevant and unreliable source ::@:: A careers blog listing the benefits of listening to music while studying, which answers few essay questions and is not a study.
 
 ## tables and figures
 
-A graph, chart, or table carries an idea that is complicated or abstract better than prose does, and the picture is placed where the description would have been. An image shows a yoga posture at a glance that would take several sentences to describe: the leg raised, the head back, the feet drawn towards the head, and the hands supporting the body.
+A graph, chart, or table shows an abstract idea prose handles badly. Put the picture where the description would have gone. A yoga photograph says at a glance what words need a sentence for: leg raised, head back, feet drawn towards the head, hands holding the body up.
 
 ---
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A graph, chart, or table carries a complicated or abstract idea more quickly than prose.
-- when a picture beats the description ::@:: A shape or a posture, which the reader takes in at once.
-- where a picture is placed ::@:: Where the description it replaces would have been.
-- what the yoga image shows ::@:: The raised leg, the head back, the feet drawn towards the head, and the hands supporting the body.
+- what a graph, chart, or table is for ::@:: Showing an abstract idea prose handles badly.
+- where a picture is placed ::@:: Where the description would have gone.
+- when a picture beats words ::@:: A yoga posture, which reads at a glance.
+- what the yoga image shows ::@:: A raised leg, head back, feet drawn towards the head, hands holding the body up.
 
 ## references
 

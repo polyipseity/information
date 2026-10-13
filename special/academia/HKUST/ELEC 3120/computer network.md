@@ -20,7 +20,7 @@ A network is two or more endpoints joined by a communication medium. Joining two
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A network is two or more endpoints joined by a communication medium.
+- what makes something count as a network? ::@:: A network is two or more endpoints joined by a communication medium.
 - internetwork: what does joining two or more networks give? ::@:: An internetwork.
 - which deployments of networks are in use? ::@:: Datacenters, low Earth orbit satellite constellations, and university campuses.
 

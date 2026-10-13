@@ -1,0 +1,34 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1040 430' width='1040' height='430'>
+<rect width='1040' height='430' fill='#ffffff'/>
+<text x='520' y='26' font-family='Helvetica, Arial, sans-serif' font-size='17' font-style='normal' font-weight='bold' text-anchor='middle' fill='#1a1a1a'>Mammalian brain divisions, named three ways</text>
+<text x='594' y='56' font-family='Helvetica, Arial, sans-serif' font-size='13' font-style='normal' font-weight='normal' text-anchor='middle' fill='#5a5a5a'>structure, with its embryological name below</text>
+<text x='850' y='56' font-family='Helvetica, Arial, sans-serif' font-size='13' font-style='normal' font-weight='normal' text-anchor='middle' fill='#5a5a5a'>functional division</text>
+<rect x='250' y='74' width='330' height='52' rx='4' fill='#fbd3a6' stroke='#1f3864' stroke-width='2'/>
+<text x='415' y='96' font-family='Helvetica, Arial, sans-serif' font-size='15' font-style='normal' font-weight='bold' text-anchor='middle' fill='#1a1a1a'>Cerebral hemispheres</text>
+<text x='415' y='115' font-family='Helvetica, Arial, sans-serif' font-size='12' text-anchor='middle' fill='#5a5a5a'><tspan font-weight='bold' fill='#1f3864'>tel</tspan><tspan font-style='italic'>encephalon</tspan></text>
+<rect x='250' y='140' width='330' height='46' rx='4' fill='#fbd3a6' stroke='#1f3864' stroke-width='2'/>
+<text x='415' y='159' font-family='Helvetica, Arial, sans-serif' font-size='15' font-style='normal' font-weight='bold' text-anchor='middle' fill='#1a1a1a'>Thalamus and hypothalamus</text>
+<text x='415' y='178' font-family='Helvetica, Arial, sans-serif' font-size='12' text-anchor='middle' fill='#5a5a5a'><tspan font-weight='bold' fill='#1f3864'>di</tspan><tspan font-style='italic'>encephalon</tspan></text>
+<rect x='250' y='200' width='330' height='46' rx='4' fill='#fbd3a6' stroke='#1f3864' stroke-width='2'/>
+<text x='415' y='219' font-family='Helvetica, Arial, sans-serif' font-size='15' font-style='normal' font-weight='bold' text-anchor='middle' fill='#1a1a1a'>Midbrain</text>
+<text x='415' y='238' font-family='Helvetica, Arial, sans-serif' font-size='12' text-anchor='middle' fill='#5a5a5a'><tspan font-weight='bold' fill='#1f3864'>mesen</tspan><tspan font-style='italic'>encephalon</tspan></text>
+<rect x='250' y='260' width='330' height='46' rx='4' fill='#fbd3a6' stroke='#1f3864' stroke-width='2'/>
+<text x='415' y='279' font-family='Helvetica, Arial, sans-serif' font-size='15' font-style='normal' font-weight='bold' text-anchor='middle' fill='#1a1a1a'>Pons</text>
+<text x='415' y='298' font-family='Helvetica, Arial, sans-serif' font-size='12' text-anchor='middle' fill='#5a5a5a'><tspan font-weight='bold' fill='#1f3864'>meten</tspan><tspan font-style='italic'>encephalon</tspan></text>
+<rect x='250' y='320' width='330' height='46' rx='4' fill='#fbd3a6' stroke='#1f3864' stroke-width='2'/>
+<text x='415' y='339' font-family='Helvetica, Arial, sans-serif' font-size='15' font-style='normal' font-weight='bold' text-anchor='middle' fill='#1a1a1a'>Medulla</text>
+<text x='415' y='358' font-family='Helvetica, Arial, sans-serif' font-size='12' text-anchor='middle' fill='#5a5a5a'><tspan font-weight='bold' fill='#1f3864'>myelen</tspan><tspan font-style='italic'>encephalon</tspan></text>
+<rect x='608' y='260' width='172' height='46' rx='4' fill='#fbd3a6' stroke='#1f3864' stroke-width='2'/>
+<text x='694' y='279' font-family='Helvetica, Arial, sans-serif' font-size='15' font-style='normal' font-weight='bold' text-anchor='middle' fill='#1a1a1a'>Cerebellum</text>
+<text x='694' y='297' font-family='Helvetica, Arial, sans-serif' font-size='12' text-anchor='middle' fill='#5a5a5a'><tspan font-weight='bold' fill='#1f3864'>meten</tspan><tspan font-style='italic'>encephalon</tspan></text>
+<line x1='580' y1='283' x2='608' y2='283' stroke='#5a5a5a' stroke-width='1.6'/>
+<rect x='236' y='132' width='358' height='242' rx='10' fill='none' stroke='#c2410c' stroke-width='2' stroke-dasharray='7 5'/>
+<text x='226' y='258' font-family='Helvetica, Arial, sans-serif' font-size='13' font-style='italic' font-weight='normal' text-anchor='end' fill='#c2410c'>brain stem</text>
+<path d='M 850 74 L 836 74 L 836 186 L 850 186' fill='none' stroke='#5a5a5a' stroke-width='1.8'/>
+<text x='858' y='135' font-family='Helvetica, Arial, sans-serif' font-size='15' font-style='normal' font-weight='bold' text-anchor='start' fill='#1a1a1a'>Forebrain</text>
+<path d='M 850 200 L 836 200 L 836 246 L 850 246' fill='none' stroke='#5a5a5a' stroke-width='1.8'/>
+<text x='858' y='228' font-family='Helvetica, Arial, sans-serif' font-size='15' font-style='normal' font-weight='bold' text-anchor='start' fill='#1a1a1a'>Midbrain</text>
+<path d='M 850 260 L 836 260 L 836 366 L 850 366' fill='none' stroke='#5a5a5a' stroke-width='1.8'/>
+<text x='858' y='318' font-family='Helvetica, Arial, sans-serif' font-size='15' font-style='normal' font-weight='bold' text-anchor='start' fill='#1a1a1a'>Hindbrain</text>
+<text x='520' y='412' font-family='Helvetica, Arial, sans-serif' font-size='13' font-style='italic' font-weight='normal' text-anchor='middle' fill='#c2410c'>the brain stem takes the thalamus and hypothalamus from the forebrain and the pons from the hindbrain</text>
+</svg>

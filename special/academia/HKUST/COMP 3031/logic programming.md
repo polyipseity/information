@@ -273,9 +273,9 @@ In this section, {@{a "pattern"}@} refers to {@{a term that may contain variable
 >   }
 > ```
 >
-> {@{The `pmatch` routine}@} first checks whether {@{the pattern is a variable}@}. If it {@{has already been bound in `s`}@}, {@{the previously bound term must match}@}; otherwise {@{a new binding is added to `s`}@}. When {@{both pattern and term are constructors with the same name}@}, their argument lists are {@{matched recursively by `pmatchLists`}@}, which operates on {@{lists of sub-terms}@}.
+> {@{The `pmatch` routine}@} first checks whether {@{the pattern is a variable}@}. If it has {@{already been bound in `s`}@}, {@{the previously bound term must match}@}; otherwise {@{a new binding is added to `s`}@}. When {@{both pattern and term are constructors with the same name}@}, their argument lists are {@{matched recursively by `pmatchLists`}@}, which operates on {@{lists of sub-terms}@}.
 
-{@{The `pmatch` routine}@} first checks whether {@{the pattern is a variable}@}. If it {@{has already been bound in `s`}@}, {@{the previously bound term must match}@}; otherwise {@{a new binding is added to `s`}@}. When {@{both pattern and term are constructors with the same name}@}, their argument lists are {@{matched recursively by `pmatchLists`}@}, which operates on {@{lists of sub-terms}@}. It succeeds only if {@{all corresponding pairs unify under the current substitution and the two lists have equal length}@}.
+{@{The `pmatch` routine}@} first checks whether {@{the pattern is a variable}@}. If it has {@{already been bound in `s`}@}, {@{the previously bound term must match}@}; otherwise {@{a new binding is added to `s`}@}. When {@{both pattern and term are constructors with the same name}@}, their argument lists are {@{matched recursively by `pmatchLists`}@}, which operates on {@{lists of sub-terms}@}. It succeeds only if {@{all corresponding pairs unify under the current substitution and the two lists have equal length}@}.
 
 > [!example] __`pmatchLists`__
 >
@@ -448,7 +448,7 @@ To implement {@{backtracking}@}, instead of returning {@{a single result}@}, we 
 >       for clause <- LazyList.from(clauses)           // try every clause in order
 >         s1 <- tryClause(clause.newInstance, h, s)   // unify head with goal
 >         s2 <- solveRec(t, s1)                       // continue with rest of query
->         yield s2                                      
+>         yield s2  
 >   solveRec(query, Nil)
 > }
 > ```

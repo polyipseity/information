@@ -17,7 +17,7 @@ The von Neumann architecture is the stored-program design an operating system ha
 
 Flashcards for this section are as follows:
 
-- overview ::@:: The stored-program design, in which a central processing unit, a memory holding both instructions and data, and input/output mechanisms are connected through a common bus.
+- what the von Neumann architecture is ::@:: The stored-program design, in which a central processing unit, a memory holding both instructions and data, and input/output mechanisms are connected through a common bus.
 - stored-program architecture ::@:: Instructions and data must both be stored in memory, so a program has to be brought into memory before it can be executed.
 - memory as an address stream ::@:: The processor and its memory management unit see only a stream of memory addresses and do not know how they were generated, nor whether they refer to instructions or to data.
 - main components ::@:: A central processing unit with an arithmetic-logic unit and processor registers, a control unit with an instruction register and a program counter, memory holding data and instructions along with caches, external secondary storage, and input/output mechanisms.

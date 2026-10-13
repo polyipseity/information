@@ -21,7 +21,7 @@ Dependent sources are high-level models of amplifiers: one rhombus with a gain r
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A dependent source has a value that depends on, or is controlled by, a voltage or current at another location of the circuit.
+- definition, for a source that does not fix its own value ::@:: A dependent source has a value that depends on, or is controlled by, a voltage or current at another location of the circuit.
 - difference from an independent source, for an expression in $V_1$ or $I_1$ ::@:: An independent source fixes its own value. A dependent source is given by an expression in a voltage or current elsewhere in the circuit.
 - role as a model, with a gain such as $\mu$ or $g_m$ ::@:: One rhombus with a gain replaces the amplifier's internal devices.
 - the four type names with their outputs $\mu V_1$, $\beta I_1$, $g_m V_1$, and $r_m I_1$ ::@:: VCVS $\mu V_1$, CCCS $\beta I_1$, VCCS $g_m V_1$, CCVS $r_m I_1$.
@@ -41,7 +41,7 @@ A controlled voltage, such as $\mu V_1$ or $r_m I_1$, is drawn with $+$ and $-$ 
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A controlling quantity crossed with a controlled quantity, each a voltage or a current, gives the four types VCVS, CCCS, VCCS, and CCVS.
+- the four kinds of dependent source, and what distinguishes them ::@:: A controlling quantity crossed with a controlled quantity, each a voltage or a current, gives the four types VCVS, CCCS, VCCS, and CCVS.
 - reading a name, for a voltage-controlled current source with output $I_2 = g_m V_1$ ::@:: The first word names the controlling quantity, the second the controlled quantity.
 - the voltage-controlled family, driven by $V_1$ ::@:: The VCVS and the VCCS, with the controlling voltage taken at another location of the circuit.
 - the current-controlled family, driven by $I_1$ ::@:: The CCCS and the CCVS, with the controlling current taken in another branch of the circuit.
@@ -59,8 +59,7 @@ The controlling quantity is a voltage $V_1$ across a branch at another location 
 Flashcards for this section are as follows:
 
 - voltage-controlled voltage source / definition, for a controlling $V_1$ and an output $V_2$ ::@:: A voltage source of value $\mu V_1$ controlled by the voltage $V_1$ across another part of the circuit, with terminal voltage $V_2$ at its output port.
-- voltage-controlled voltage source / meaning of $\mu$ in the output value $\mu V_1$ ::@:: The gain $\mu$ is dimensionless, multiplying $V_1$ into the controlled voltage $\mu V_1$.
-- voltage-controlled voltage source / why a voltage amplifier, for a controlling $V_1$ and a controlled $\mu V_1$ ::@:: Both quantities are voltages, hence the name voltage amplifier.
+- voltage-controlled voltage source / meaning of $\mu$ in the output value $\mu V_1$ ::@:: The gain $\mu$ is dimensionless, multiplying $V_1$ into the controlled voltage $\mu V_1$; both quantities are voltages, hence the name voltage amplifier.
 - voltage-controlled voltage source / rhombus symbol for $\mu V_1$, with $V_1$ and the $+$/$-$ marks ::@:: The rhombus marks a dependent voltage source. Its $+$ and $-$ marks give the polarity of the controlled voltage $\mu V_1$, and $V_1$ is drawn across its own branch with its own marks.
 
 ### current-controlled current source
@@ -72,8 +71,7 @@ The controlling quantity is a current $I_1$ in a branch at another location of t
 Flashcards for this section are as follows:
 
 - current-controlled current source / definition, for a controlling $I_1$ and an output $I_2$ ::@:: A current source of value $\beta I_1$ controlled by the current $I_1$ in another branch of the circuit, delivering $I_2$ at its output port.
-- current-controlled current source / meaning of $\beta$ in the output value $\beta I_1$ ::@:: The gain $\beta$ is dimensionless, multiplying $I_1$ into the controlled current $\beta I_1$.
-- current-controlled current source / alternative name, for $I_1$ controlling $\beta I_1$ ::@:: Both quantities are currents, so the element is also called a current amplifier.
+- current-controlled current source / meaning of $\beta$ in the output value $\beta I_1$ ::@:: The gain $\beta$ is dimensionless, multiplying $I_1$ into the controlled current $\beta I_1$; both quantities are currents, hence the name current amplifier.
 - current-controlled current source / rhombus symbol for $\beta I_1$, with the controlling arrow $I_1$ ::@:: The rhombus carries an arrow, since the controlled quantity is a current. The controlling branch carries its own arrow fixing the reference direction of $I_1$.
 
 ### voltage-controlled current source
@@ -85,8 +83,7 @@ The controlling quantity is a voltage and the controlled quantity is a current. 
 Flashcards for this section are as follows:
 
 - voltage-controlled current source / definition, from the controlling $V_1$ to the output current $I_2 = g_m V_1$ ::@:: A current source of value $g_m V_1$ controlled by the voltage $V_1$ across another part of the circuit, delivering $I_2$. Its rhombus carries an arrow.
-- voltage-controlled current source / gain $g_m$ in the output value $g_m V_1$ ::@:: The gain $g_m$ is a transconductance, in units of current per voltage such as $1\text{ A/V}$, mapping $V_1$ into the controlled current $g_m V_1$.
-- voltage-controlled current source / why a transconductance amplifier, for a controlling $V_1$ and a controlled $g_m V_1$ ::@:: The controlled current comes from a voltage elsewhere in the circuit, so the gain takes the prefix trans. The element is also called a transconductance amplifier.
+- voltage-controlled current source / gain $g_m$ in the output value $g_m V_1$ ::@:: The gain $g_m$ is a transconductance, in units of current per voltage such as $1\text{ A/V}$, mapping $V_1$ into the controlled current $g_m V_1$; the element is also called a transconductance amplifier.
 
 ### current-controlled voltage source
 
@@ -97,6 +94,5 @@ The controlling quantity is a current $I_1$ and the controlled quantity is a vol
 Flashcards for this section are as follows:
 
 - current-controlled voltage source / definition, from the controlling $I_1$ to the output voltage $r_m I_1$ ::@:: A voltage source of value $r_m I_1$ controlled by the current $I_1$ in another branch of the circuit, with terminal voltage $V_2$ at its output port.
-- current-controlled voltage source / gain $r_m$ in the output value $r_m I_1$ ::@:: The gain $r_m$ is a transresistance, in units of voltage per current such as $1\text{ V/A}$, mapping $I_1$ into the controlled voltage $r_m I_1$.
-- current-controlled voltage source / why a transresistance amplifier, for a controlling $I_1$ and a controlled $r_m I_1$ ::@:: The controlled voltage comes from a current elsewhere in the circuit, so the gain takes the prefix trans. The element is also called a transresistance amplifier.
+- current-controlled voltage source / gain $r_m$ in the output value $r_m I_1$ ::@:: The gain $r_m$ is a transresistance, in units of voltage per current such as $1\text{ V/A}$, mapping $I_1$ into the controlled voltage $r_m I_1$; the element is also called a transresistance amplifier.
 - current-controlled voltage source / rhombus symbol for $r_m I_1$ with $V_2$ marked ::@:: The rhombus carries $+$ and $-$ marks, since the controlled quantity is a voltage. The output voltage $V_2$ is marked across it.

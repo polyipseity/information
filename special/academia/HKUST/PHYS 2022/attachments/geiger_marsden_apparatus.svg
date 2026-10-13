@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 460" font-family="Georgia, 'Times New Roman', serif" font-size="15">
+  <defs>
+    <marker id="arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#000"/>
+    </marker>
+  </defs>
+
+  <!-- evacuated chamber: the source, the foil and the detector all sit inside it -->
+  <rect x="30" y="40" width="640" height="380" rx="30" ry="30" fill="none" stroke="#000" stroke-width="1.5" stroke-dasharray="9,6"/>
+  <text x="48" y="404" font-size="14">evacuated chamber</text>
+
+  <!-- alpha source: body with a conical nose pointing at the slit -->
+  <rect x="70" y="126" width="80" height="48" rx="8" ry="8" fill="#E6E6E6" stroke="#000" stroke-width="1.5"/>
+  <path d="M 150 136 L 190 150 L 150 164 Z" fill="#E6E6E6" stroke="#000" stroke-width="1.5"/>
+  <text x="70" y="112" font-size="14">α-particle source</text>
+
+  <!-- lead plate in two pieces, the gap between them is the slit the beam passes -->
+  <g fill="#666" stroke="#000" stroke-width="1">
+    <rect x="255" y="55" width="30" height="85"/>
+    <rect x="255" y="160" width="30" height="100"/>
+  </g>
+  <text x="295" y="90" font-size="14">lead plate</text>
+
+  <!-- incident beam: from the source, through the slit, onto the foil -->
+  <line x1="192" y1="150" x2="464" y2="150" stroke="#000" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- gold foil -->
+  <line x1="470" y1="85" x2="470" y2="340" stroke="#000" stroke-width="2"/>
+  <text x="480" y="100" font-size="14">gold foil</text>
+
+  <!-- direction the beam would take with no scattering -->
+  <line x1="476" y1="150" x2="640" y2="150" stroke="#000" stroke-width="1" stroke-dasharray="7,5"/>
+
+  <!-- scattered beam, back on the side the beam came from -->
+  <line x1="470" y1="150" x2="441.6" y2="272.8" stroke="#000" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- scattering angle theta between the unscattered direction and the scattered beam -->
+  <path d="M 530 150 A 60 60 0 0 1 456.5 208.5" fill="none" stroke="#000" stroke-width="1"/>
+  <text x="517" y="214" text-anchor="middle" font-style="italic">θ</text>
+
+  <!-- the arm swings the screen and microscope around the foil -->
+  <path d="M 453.3 309.6 A 160 160 0 0 0 561.8 281" fill="none" stroke="#000" stroke-width="1" stroke-dasharray="7,5" marker-end="url(#arr)"/>
+  <text x="533" y="336" text-anchor="middle" font-size="14">swinging arm</text>
+
+  <!-- scintillating screen across the scattered beam -->
+  <line x1="416.6" y1="272.6" x2="463.4" y2="283.4" stroke="#000" stroke-width="3"/>
+  <text x="410" y="285" text-anchor="end" font-size="14">screen</text>
+
+  <!-- microscope behind the screen, pointed at it -->
+  <polygon points="446.8,290.3 432.4,379.4 403.2,372.6 429.2,286.3" fill="#E6E6E6" stroke="#000" stroke-width="1.5"/>
+  <text x="395" y="345" text-anchor="end" font-size="14">microscope</text>
+</svg>

@@ -10,72 +10,71 @@ tags:
 
 # APA style
 
-APA style is the citation format used in psychology and the other behavioural and social sciences. It fixes how a source is named inside a sentence and how it is listed at the end of the paper.
+APA style is the citation format of psychology and the other behavioural and social sciences. A paper using it names each source twice: where the sentence uses the source's idea, and in the list of references at the end.
 
 ---
 
 Flashcards for this section are as follows:
 
-- overview ::@:: The citation format of the American Psychological Association, used in psychology and the other behavioural and social sciences.
-- what APA style fixes ::@:: How a source is named inside a sentence, and how it is listed at the end of the paper.
-- what an in-text citation together with a reference list achieves ::@:: A paraphrase becomes a credited one.
+- what APA style is ::@:: The citation format of psychology and the other behavioural and social sciences.
+- what a paper does with a source ::@:: It names it twice, once in the sentence that uses its idea and once in a list at the end.
 
 ## purposes of references
 
-It credits the authors whose work is being used and respects their intellectual property, and it tells an interested reader where to find the original work.
+A reference list lets a reader trace a paper back to the studies it rests on. It credits the authors it uses, respects their intellectual property, and points to the original work.
 
-Acknowledging sources properly does more than avoid a penalty. It shows which claims the evidence supports, which is what makes the evidence credible, and how the current work connects to earlier work.
+A paper that omits a credit risks a penalty. Acknowledgment also shows which claims the evidence supports and how the work connects to earlier work. That connection makes the evidence credible.
 
 ---
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Crediting the authors a work uses, respecting their intellectual property, and showing readers where the original can be found.
-- why a reference list matters to the reader ::@:: It lets them follow the trail backwards from a paper to the studies it rests on.
-- what proper acknowledgment of sources shows ::@:: Which claims the evidence supports, making it credible, and how the current work connects to earlier work.
+- what a reference list lets a reader do ::@:: Trace a paper back to the studies it rests on.
+- what a reference list does ::@:: It credits the authors it uses, respects their intellectual property, and points to the original work.
+- what acknowledgment does beyond avoiding a penalty ::@:: It shows which claims the evidence supports, and how the work connects to earlier work.
+- what that connection does ::@:: It makes the evidence credible.
 
 ## proper attribution
 
-Proper attribution is the three parts together: a paraphrase of the source's idea, an in-text citation where the idea is used, and the end-of-paper reference. Leaving out the paraphrase, the in-text citation, or the reference breaks the chain. APA is the format all three take, and the guides that spell it out are the APA's own style site, the library's writing guides, and the Purdue Online Writing Lab.
+You paraphrase an author's idea, mark where you used it with an in-text citation, and list the source at the end. Leave out one and the chain breaks.
 
 ---
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A paraphrase, an in-text citation where the idea is used, and the end-of-paper reference.
+- what attribution needs ::@:: A paraphrase of the source's idea, an in-text citation where you use it, and the reference at the end.
 - what an in-text citation marks ::@:: The exact place where a source's idea is used.
-- what breaks attribution ::@:: Leaving out any one of the three: the paraphrase, the in-text citation, or the end-of-paper reference.
-- guides that spell out the format ::@:: The APA's own style site, the library's writing guides, and the Purdue Online Writing Lab.
+- what breaks attribution ::@:: Leaving out one of the three breaks the chain.
 
 ### building the reference list
 
-The end-of-paper reference is built from the record of the source rather than from memory, typed by hand from a database record or exported by a reference manager or a database's citation tool. A generated entry is only a draft, and is checked against the source before the paper is submitted.
+Take the reference from the source's record, not from memory. Type it by hand from a database record, or export it from a reference manager or citation tool. A generated entry is only a draft: check it against the source before you submit.
 
 ---
 
 Flashcards for this section are as follows:
 
-- how an end-of-paper reference is built ::@:: From the record of the source rather than from memory: typed by hand from a database record, or exported by a reference manager or a database's citation tool.
-- what a generated reference is ::@:: Only a draft, checked against the source before the paper is submitted.
+- where the reference comes from ::@:: The source's record, not memory.
+- how the entry is produced ::@:: By hand from a database record, or exported from a reference manager or citation tool.
+- what a generated reference is ::@:: Only a draft, to check against the source before you submit.
 
 ## citing artificial intelligence
 
-A language model is cited differently depending on what it was used for. When the model's own responses are the object of study, as in research on what a language model can do, it is cited as a source in the usual way. When it was used as a tool, to develop research questions and outlines or to check grammar and paraphrase a paragraph, the assistance is cited or acknowledged.
+A model used to draft research questions and outlines, check grammar, or paraphrase a paragraph is a tool. Credit the help.
 
-A model is never cited as a source of factual information: asking it to define a term and quoting that definition credits nobody, because a model is not a credible source for academic writing.
+A study of what a model can do treats the model's own responses as data. Cite the model as the source of those responses, but never as a source of facts. A model is not credible for academic writing, so a definition quoted from it credits nobody.
 
 ---
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A model's responses are cited as a source when they are studied; its use as a tool is cited or acknowledged.
-- when a language model is cited as a source ::@:: When its own responses are the object of study, as in research on what the model can do.
-- when a language model's use is acknowledged rather than cited ::@:: When it helped with the research or the writing: developing questions, outlining, checking grammar, paraphrasing.
-- why a model is not cited as a source of factual information ::@:: It is not a credible source for academic writing, so a definition quoted from it credits nobody.
+- when a model's help is credited ::@:: When it drafts research questions and outlines, checks grammar, or paraphrases a paragraph.
+- when a model is cited as a source ::@:: In a study of what the model can do, where its own responses are the data.
+- why a model is never cited as a source of facts ::@:: It is not credible for academic writing, so a definition quoted from it credits nobody.
 
 ### disclosure statement
 
-The use of a model is disclosed along with the work. The individual-work disclosure states which model was used, that its use does not violate the university's academic integrity policies, that the writer is responsible for the work's academic integrity, and that the submitted work is the writer's own except where external sources or assistance are acknowledged.
+You disclose a model's use alongside the work it helped produce.
 
 > I, [your name], acknowledge that I have used [e.g., ChatGPT], an AI language model, to assist me in completing my assignment. I further acknowledge that the use of [e.g., ChatGPT] in my assignment does not violate any academic integrity policies or guidelines of HKUST. I understand that plagiarism and academic misconduct are serious offenses, and that I am responsible for ensuring that my work meets the standards of academic integrity.
 >
@@ -85,18 +84,22 @@ The use of a model is disclosed along with the work. The individual-work disclos
 >
 > [Date]
 
+An individual assignment disclosure names the model and confirms that using it broke none of the university's academic integrity policies. It makes the writer responsible for the work's integrity.
+
 ---
 
 Flashcards for this section are as follows:
 
-- when a language model's use is disclosed ::@:: Along with the work it helped to produce.
-- what the individual-work disclosure states ::@:: Which model was used, that its use does not violate the university's policies, that the writer is responsible for the work's integrity, and that the work is the writer's own except where sources or assistance are acknowledged.
+- when a model's use is disclosed ::@:: Alongside the work it helped produce.
+- what the disclosure states about the model ::@:: It names the model, and says its use broke none of the university's academic integrity policies.
+- what the disclosure states about responsibility ::@:: It makes the writer responsible for the work's integrity.
+- what the writer certifies ::@:: The submitted work is the writer's own, except where external sources or assistance are acknowledged.
 
 ## references
 
 - American Psychological Association. (n.d.). [APA Style](https://apastyle.org/).
-    - Source of the citation format used for in-text citations and end-of-paper references.
+    - The American Psychological Association's own rules for in-text citations and end-of-paper references.
 - HKUST Library. (n.d.). [Writing guides](http://libguides.ust.hk/c.php?g=207918&p=1372827).
-    - Source of the APA formatting guidance.
+    - The library's own guidance on APA formatting.
 - Purdue University. (n.d.). [In-text citations: Author/authors](https://owl.purdue.edu/owl/research_and_citation/apa_style/apa_formatting_and_style_guide/in_text_citations_author_authors.html). Purdue Online Writing Lab.
-    - Source of the in-text citation rules.
+    - The Purdue rules for citing one author or several authors in the text.

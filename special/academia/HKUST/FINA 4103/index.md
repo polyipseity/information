@@ -28,28 +28,41 @@ FINA 4103 is an undergraduate course in financial markets trading and structure 
 
 ## children
 
+- [attachments/](attachments/)
+- [Regulation NMS](Regulation%20NMS.md)
+- [Unlisted Trading Privileges](Unlisted%20Trading%20Privileges.md)
 - [all-or-nothing order](all-or-nothing%20order.md)
 - [auction](auction.md)
 - [bid-ask spread](bid-ask%20spread.md)
 - [continuous trading](continuous%20trading.md)
 - [dark pool](dark%20pool.md)
+- [do-not-ship order](do-not-ship%20order.md)
 - [finance](finance.md)
 - [financial system](financial%20system.md)
 - [hidden order](hidden%20order.md)
 - [high-frequency trading](high-frequency%20trading.md)
 - [immediate-or-cancel order](immediate-or-cancel%20order.md)
+- [intermarket sweep order](intermarket%20sweep%20order.md)
 - [limit order](limit%20order.md)
 - [market liquidity](market%20liquidity.md)
 - [market maker](market%20maker.md)
 - [market microstructure](market%20microstructure.md)
 - [market order](market%20order.md)
 - [market structure (finance)](market%20structure%20(finance).md)
+- [national market system](national%20market%20system.md)
+- [non-routable order](non-routable%20order.md)
 - [order (exchange)](order%20(exchange).md)
 - [over-the-counter (finance)](over-the-counter%20(finance).md)
 - [pegged order](pegged%20order.md)
 - [price discovery](price%20discovery.md)
+- [quote sniping](quote%20sniping.md)
+- [securities information processor](securities%20information%20processor.md)
+- [smart order routing](smart%20order%20routing.md)
 - [stop order](stop%20order.md)
+- [tick size](tick%20size.md)
+- [trade through](trade%20through.md)
 - [trading curb](trading%20curb.md)
+- [trading fee](trading%20fee.md)
 
 ## logistics
 
@@ -74,7 +87,7 @@ FINA 4103 is an undergraduate course in financial markets trading and structure 
 - note: class recordings are provided only during the add/drop period for schedule conflicts, after documented sick or school-related leave, and for the seven days before each examination
 - note: make-up examinations are offered only for conflicts with other examinations, which must be reported a month in advance
 - note: generative AI use is unrestricted except during the two examinations, and any use must be credited
-- note: AI is encouraged and may be used for homework, but students must be able to solve similar problems unaided in the examinations; among 26,811 pupils aged 12–18 in China from January 2023 to June 2025, those using AI had higher average homework scores, while at examination time they scored below pupils who never used AI (D. Strömberg et al., _The generative AI learning penalty_, preprint June 2026)
+- note: AI is encouraged and may be used for homework, but students must be able to solve similar problems unaided in the examinations. Among 26,811 pupils aged 12–18 in China from January 2023 to June 2025, those using AI had higher average homework scores, while at examination time they scored below pupils who never used AI (D. Strömberg et al., _The generative AI learning penalty_, preprint June 2026)
 - note: questions involving mathematics and equations belong in office hours rather than email; questions about logistics, recordings, and examination arrangements go to the teaching assistants
 
 ## overview
@@ -177,7 +190,7 @@ FINA 4103 is an undergraduate course in financial markets trading and structure 
 - [high-frequency trading](high-frequency%20trading.md)
     - [§ arms race and overinvestment](high-frequency%20trading.md#arms%20race%20and%20overinvestment)
 
-## week 2 lecture 3
+## week 2 lecture 1
 
 - datetime: 2026-09-08T15:00:00+08:00/2026-09-08T16:20:00+08:00, PT1H20M
 - venue: Rm 2406, Lift 17-18
@@ -219,6 +232,68 @@ FINA 4103 is an undergraduate course in financial markets trading and structure 
     - [§ price improvement versus execution risk](dark%20pool.md#price%20improvement%20versus%20execution%20risk)
 - [price discovery](price%20discovery.md)
     - [§ dark pools and price efficiency](price%20discovery.md#dark%20pools%20and%20price%20efficiency)
+
+## week 2 lecture 2
+
+- datetime: 2026-09-10T15:00:00+08:00/2026-09-10T16:20:00+08:00, PT1H20M
+- venue: Rm 2406, Lift 17-18
+- topic: the Securities Exchange Act and unlisted trading privileges; the national market system and the securities information processor; Reg NMS Rules 610, 611, and 612; flickering quotes; intermarket sweep orders and do-not-ship orders
+- [Unlisted Trading Privileges](Unlisted%20Trading%20Privileges.md)
+    - [§ listing exchange and trading exchanges](Unlisted%20Trading%20Privileges.md#listing%20exchange%20and%20trading%20exchanges)
+    - [§ what the privileges do to listing](Unlisted%20Trading%20Privileges.md#what%20the%20privileges%20do%20to%20listing)
+    - [§ where the trading happens](Unlisted%20Trading%20Privileges.md#where%20the%20trading%20happens)
+- [national market system](national%20market%20system.md)
+    - [§ connecting the venues](national%20market%20system.md#connecting%20the%20venues)
+    - [§ from a project to a rulebook](national%20market%20system.md#from%20a%20project%20to%20a%20rulebook)
+- [securities information processor](securities%20information%20processor.md)
+    - [§ consolidated quotation and consolidated tape](securities%20information%20processor.md#consolidated%20quotation%20and%20consolidated%20tape)
+    - [§ direct data feeds](securities%20information%20processor.md#direct%20data%20feeds)
+- [Regulation NMS](Regulation%20NMS.md)
+    - [§ flickering quotes](Regulation%20NMS.md#flickering%20quotes)
+- [trade through](trade%20through.md)
+    - [§ the routing obligation](trade%20through.md#the%20routing%20obligation)
+- [tick size](tick%20size.md)
+    - [§ minimum tick size](tick%20size.md#minimum%20tick%20size)
+- [smart order routing](smart%20order%20routing.md)
+    - [§ how a routed order is split](smart%20order%20routing.md#how%20a%20routed%20order%20is%20split)
+    - [§ routing latency](smart%20order%20routing.md#routing%20latency)
+- [intermarket sweep order](intermarket%20sweep%20order.md)
+    - [§ how a sweep is split](intermarket%20sweep%20order.md#how%20a%20sweep%20is%20split)
+    - [§ who carries the obligation](intermarket%20sweep%20order.md#who%20carries%20the%20obligation)
+    - [§ information leakage](intermarket%20sweep%20order.md#information%20leakage)
+    - [§ observed order sizes](intermarket%20sweep%20order.md#observed%20order%20sizes)
+- [do-not-ship order](do-not-ship%20order.md)
+    - [§ a do-not-ship limit order](do-not-ship%20order.md#a%20do-not-ship%20limit%20order)
+    - [§ a do-not-ship immediate-or-cancel order](do-not-ship%20order.md#a%20do-not-ship%20immediate-or-cancel%20order)
+- [bid-ask spread](bid-ask%20spread.md)
+    - [§ locked and crossed markets](bid-ask%20spread.md#locked%20and%20crossed%20markets)
+- [market structure (finance)](market%20structure%20(finance).md)
+    - [§ exchange competition and fragmentation](market%20structure%20(finance).md#exchange%20competition%20and%20fragmentation)
+
+## week 3 lecture 1
+
+- datetime: 2026-09-15T15:00:00+08:00/2026-09-15T16:20:00+08:00, PT1H20M
+- venue: Rm 2406, Lift 17-18
+- topic: which order types traders actually use and why; make and take fees and the price of routing; speed races to take or cancel a stale quote; price contribution by order type; exchange competition and where exchanges earn
+- [non-routable order](non-routable%20order.md)
+    - [§ how an order is classified](non-routable%20order.md#how%20an%20order%20is%20classified)
+    - [§ order size](non-routable%20order.md#order%20size)
+    - [§ who uses them](non-routable%20order.md#who%20uses%20them)
+- [trading fee](trading%20fee.md)
+    - [§ make and take fees](trading%20fee.md#make%20and%20take%20fees)
+    - [§ order-routing fees](trading%20fee.md#order-routing%20fees)
+    - [§ price improvement from routing](trading%20fee.md#price%20improvement%20from%20routing)
+- [quote sniping](quote%20sniping.md)
+    - [§ who wins the race](quote%20sniping.md#who%20wins%20the%20race)
+    - [§ escaping the race](quote%20sniping.md#escaping%20the%20race)
+- [price discovery](price%20discovery.md)
+    - [§ weighted price contribution](price%20discovery.md#weighted%20price%20contribution)
+- [limit order](limit%20order.md)
+    - [§ price-time priority](limit%20order.md#price-time%20priority)
+- [high-frequency trading](high-frequency%20trading.md)
+    - [§ market manipulation](high-frequency%20trading.md#market%20manipulation)
+- [market structure (finance)](market%20structure%20(finance).md)
+    - [§ exchange competition and fragmentation](market%20structure%20(finance).md#exchange%20competition%20and%20fragmentation)
 
 ## week 3 lecture 2
 

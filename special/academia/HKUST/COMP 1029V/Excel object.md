@@ -27,4 +27,4 @@ tags:
 
 ## selection
 
-You can {@{get the currently selected cell or range}@} using {@{`Selection`}@}. You can {@{change the currently selected cell or range}@} by doing {@{`CellOrRange.Select`}@}. Note that {@{the worksheet the cell or range is on}@} must {@{be active, otherwise you get an error}@}.
+You can {@{get the currently selected cell or range}@} using {@{`Selection`}@}. You can {@{change the currently selected cell or range}@} by doing {@{`CellOrRange.Select`}@}. Note that {@{the worksheet the cell or range is on}@} must be {@{active, otherwise you get an error}@}.

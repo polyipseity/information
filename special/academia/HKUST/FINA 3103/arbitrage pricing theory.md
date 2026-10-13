@@ -22,7 +22,7 @@ tags:
 
 ## single index model
 
-{@{A _single index model_}@} posits that {@{each asset’s excess return can be decomposed into a linear exposure to one common macro factor}@}, typically {@{a market index $r_{M,t}$, and an idiosyncratic shock}@}: {@{$$r_{i,t}-r_f = a_i + b_i(r_{M,t}-r_f)+\varepsilon_{i,t} \,,$$}@} where $a_i$ {@{captures any asset‑specific intercept}@}, $b_i$ is {@{the market exposure (beta)}@}, and $\varepsilon_{i,t}$ {@{has mean zero}@}. The model assumes that all {@{systematic risk is conveyed by the single factor}@} and that firm‑specific {@{shocks are uncorrelated across assets}@}.
+{@{A _single index model_}@} posits that {@{each asset’s excess return can be decomposed into a linear exposure to one common macro factor}@}, typically {@{a market index $r_{M,t}$, and an idiosyncratic shock}@}: {@{$$r_{i,t}-r_f = a_i + b_i(r_{M,t}-r_f)+\varepsilon_{i,t} \,,$$}@} where $a_i$ {@{captures any asset‑specific intercept}@}, $b_i$ is {@{the market exposure (beta)}@}, and $\varepsilon_{i,t}$ has {@{mean zero}@}. The model assumes that all {@{systematic risk is conveyed by the single factor}@} and that firm‑specific {@{shocks are uncorrelated across assets}@}.
 
 ### variance and covariance under SIM
 
