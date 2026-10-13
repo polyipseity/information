@@ -111,31 +111,37 @@ def _rewrite_link_target(
 ) -> str:
     """Rewrite a single markdown link target using stem migrations.
 
-    When *names_map* is provided, the link fragment (section anchor) is
-    also re-cased through the name map so anchors interrupted by inline
-    markup or wrong casing are corrected, mirroring heading rewriting.
+    Handles page links (``Page.md#frag``) and same-article fragment links
+    (``#frag``) alike: the stem is migrated when there is one, and the
+    fragment is re-cased through *names_map* either way, so anchors stay
+    in step with heading rewriting.  A fragment the map does not know is
+    left as it stands; a footnote anchor such as ``#^ref-13`` survives by
+    the same rule.
 
     When no migration exists for a stem (e.g. the mapping already existed
     in the base name_map before this reprocess run), the *names_map* is
     used as a fallback to correct the link stem.
-
-    A fragment-only target names no page, so there is no stem to migrate and
-    the target is returned as it stands.
     """
-    if not target.partition("#")[0]:
-        return target
-    stem, fragment = _decode_link_stem(target)
-    new_stem = migrations.get(stem, stem)
-    # Fallback: when no migration exists (mapping already in base name_map),
-    # still apply names_map to correct link stems that have wrong casing.
-    # Only apply when the stem (or its underscore variant) is actually
-    # present in names_map — do not apply _fix_name_maybe's lowercase
-    # fallback, which would incorrectly change stems that are absent.
-    if new_stem == stem and names_map is not None:
-        lookup = stem.replace("_", " ") if "_" in stem else stem
-        if lookup in names_map:
-            new_stem = _fix_filename(names_map[lookup])
-    encoded = _encode_stem(new_stem)
+    page = target.partition("#")[0]
+    if not page:
+        fragment = target.removeprefix("#")
+        # A bare "#" carries no fragment; leave it as written.
+        if not fragment:
+            return target
+        base = ""
+    else:
+        stem, fragment = _decode_link_stem(target)
+        new_stem = migrations.get(stem, stem)
+        # Fallback: when no migration exists (mapping already in base name_map),
+        # still apply names_map to correct link stems that have wrong casing.
+        # Only apply when the stem (or its underscore variant) is actually
+        # present in names_map — do not apply _fix_name_maybe's lowercase
+        # fallback, which would incorrectly change stems that are absent.
+        if new_stem == stem and names_map is not None:
+            lookup = stem.replace("_", " ") if "_" in stem else stem
+            if lookup in names_map:
+                new_stem = _fix_filename(names_map[lookup])
+        base = f"{_encode_stem(new_stem)}.md"
     if fragment and names_map is not None:
         plain_fragment = _plain_fragment(fragment)
         new_fragment = _resolve_plain_rewrite(
@@ -145,7 +151,20 @@ def _rewrite_link_target(
         )
         if new_fragment != plain_fragment:
             fragment = _encode_fragment(new_fragment)
-    return f"{encoded}.md{f'#{fragment}' if fragment else ''}"
+    if not fragment:
+        return base
+    return f"{base}#{fragment}" if base else f"#{fragment}"
+
+
+def _is_rewritable_target(url: str) -> bool:
+    """Return whether a link destination is one this module rewrites.
+
+    Rewritable destinations name a markdown page (``Page.md`` or
+    ``Page.md#frag``, including the legacy ``Page#anchor.md`` shape) or
+    are same-article fragment links (``#frag``).  A name that merely
+    contains ".md" (``notes.md.txt``) names no page and is left alone.
+    """
+    return url.startswith("#") or url.endswith(".md") or ".md#" in url
 
 
 def _rewrite_markdown_links(
@@ -167,7 +186,9 @@ def _rewrite_markdown_links(
     if isinstance(parse_result, str):
         return text
 
-    md_urls = [url for url in _collect_md_link_urls(parse_result) if ".md" in url]
+    md_urls = [
+        url for url in _collect_md_link_urls(parse_result) if _is_rewritable_target(url)
+    ]
     if not md_urls:
         return text
 
@@ -184,7 +205,7 @@ def _rewrite_markdown_links(
 
     edits: list[tuple[int, int, str]] = []
     for dest_start, dest_end, destination in destination_ranges:
-        if not destination.endswith(".md") and ".md#" not in destination:
+        if not _is_rewritable_target(destination):
             continue
         # Match by unquoted content against AST-detected URLs.
         expected_url = ast_urls_by_unquoted.get(unquote(destination))

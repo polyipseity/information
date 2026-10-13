@@ -1759,6 +1759,107 @@ class TestTableHandling:
         assert "Value" in result
 
     @pytest.mark.anyio
+    async def test_infobox_caption_with_group_dividers_ok(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A captioned infobox with ``infobox-header`` divider rows should not raise."""
+        html = (
+            '<table class="infobox"><caption>Hydrogen atom</caption>'
+            '<tr><th class="infobox-header" colspan="2">General</th></tr>'
+            '<tr><th class="infobox-label">Symbol</th>'
+            '<td class="infobox-data">1 H</td></tr>'
+            '<tr><th class="infobox-header" colspan="2">Nuclide data</th></tr>'
+            '<tr><th class="infobox-label">Half-life</th>'
+            '<td class="infobox-data">stable</td></tr></table>'
+        )
+        result = await _convert(converter, html)
+        assert "Hydrogen atom" in result
+        assert "General" in result
+        assert "Symbol" in result
+        assert "Nuclide data" in result
+        assert "stable" in result
+
+    @pytest.mark.anyio
+    async def test_infobox_caption_with_plain_header_row_raises(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """An infobox all-``<th>`` row without ``infobox-header`` still raises."""
+        html = (
+            '<table class="infobox"><caption>Title</caption>'
+            "<tr><th>H1</th><th>H2</th></tr>"
+            "<tr><td>D1</td><td>D2</td></tr></table>"
+        )
+        with pytest.raises(BaseExceptionGroup) as exc_info:
+            await _convert(converter, html)
+        error = exc_info.value.exceptions[0]
+        assert isinstance(error, ValueError)
+        assert "only one header row" in str(error)
+
+    @pytest.mark.anyio
+    async def test_infobox_group_divider_layout(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A captioned infobox renders as one contiguous GFM table.
+
+        The caption is the header row followed by exactly one header
+        separator; the image is a data row; each ``infobox-header`` divider
+        is a bold row immediately followed by its own separator line; label
+        and footer rows stay un-fused in document order.
+        """
+        html = (
+            '<table class="infobox"><caption>Hydrogen atom</caption><tbody>'
+            '<tr><td class="infobox-image" colspan="2">IMG</td></tr>'
+            '<tr><th class="infobox-header" colspan="2">General</th></tr>'
+            '<tr><th class="infobox-label">Symbol</th>'
+            '<td class="infobox-data">1 H</td></tr>'
+            '<tr><th class="infobox-label">Names</th>'
+            '<td class="infobox-data">protium</td></tr>'
+            '<tr><th class="infobox-header" colspan="2">Nuclide data</th></tr>'
+            '<tr><th class="infobox-label">Half-life</th>'
+            '<td class="infobox-data">stable</td></tr>'
+            '<tr><td class="infobox-below" colspan="2">FOOTER LINKS</td></tr>'
+            "</tbody></table>"
+        )
+        result = await _convert(converter, html)
+        lines = [ln.strip() for ln in result.splitlines() if ln.strip().startswith("|")]
+        body = [ln for ln in lines if set(ln) <= set("|-: ")]
+
+        # Caption is the header row and exactly one header separator follows.
+        assert "__Hydrogen atom__" in lines[0]
+        assert lines[1] in body
+
+        # Exactly one header separator: the image row must be line 2.
+        assert "IMG" in lines[2]
+
+        # Image row precedes the first divider.
+        img_idx = next(i for i, ln in enumerate(lines) if "IMG" in ln)
+        general_idx = next(i for i, ln in enumerate(lines) if "General" in ln)
+        assert img_idx < general_idx
+
+        # Each divider is bold and immediately followed by a separator line.
+        assert "__General__" in lines[general_idx]
+        assert lines[general_idx + 1] in body
+        nuclide_idx = next(i for i, ln in enumerate(lines) if "Nuclide data" in ln)
+        assert "__Nuclide data__" in lines[nuclide_idx]
+        assert lines[nuclide_idx + 1] in body
+
+        # Header separator + two divider separators.
+        assert len(body) >= 3
+
+        # Data rows stay un-fused and in document order.
+        symbol_idx = next(i for i, ln in enumerate(lines) if "Symbol" in ln)
+        assert "__Symbol__" in lines[symbol_idx]
+        assert "1 H" in lines[symbol_idx]
+        assert symbol_idx > general_idx
+        names_idx = next(i for i, ln in enumerate(lines) if "Names" in ln)
+        assert "protium" in lines[names_idx]
+        half_idx = next(i for i, ln in enumerate(lines) if "Half-life" in ln)
+        assert "stable" in lines[half_idx]
+        assert half_idx > nuclide_idx
+        footer_idx = next(i for i, ln in enumerate(lines) if "FOOTER LINKS" in ln)
+        assert footer_idx == len(lines) - 1
+
+    @pytest.mark.anyio
     async def test_colspan_header_aligns_lower_only_cells(
         self, converter: WikiHtmlConverter
     ) -> None:
@@ -1815,6 +1916,68 @@ class TestTableHandling:
         )
         result = await _convert(converter, html)
         assert result == "\n| __A__ | B |\n| --- | --- |\n| C | D |\n\n\n"
+
+    @pytest.mark.anyio
+    async def test_row_level_text_align_centers_columns(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A row-level ``text-align`` applies to its plain cells.
+
+        The ``{{Isotope sequence}}`` table on Wikipedia centers every row
+        via ``<tr style="text-align: center;">`` while its cells carry
+        only width styles, so cell-only inspection would lose the centering.
+        """
+        html = (
+            '<table class="wikitable"><tbody>'
+            '<tr style="text-align: center;">'
+            '<td style="width:35%">A</td><td>B</td></tr>'
+            '<tr style="text-align: center;"><td>C</td><td>D</td></tr>'
+            "</tbody></table>"
+        )
+        result = await _convert(converter, html)
+        assert result == "\n|  |  |\n| :-: | :-: |\n| A | B |\n| C | D |\n\n\n"
+
+    @pytest.mark.anyio
+    async def test_cell_level_text_align_overrides_row_level(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """An explicit cell alignment still beats its row's."""
+        html = (
+            "<table><tbody>"
+            '<tr style="text-align: center;">'
+            '<td style="text-align: right;">A</td><td>B</td></tr>'
+            "</tbody></table>"
+        )
+        result = await _convert(converter, html)
+        assert result == "\n|  |  |\n| --: | :-: |\n| A | B |\n\n\n"
+
+    @pytest.mark.anyio
+    async def test_row_level_text_align_overrides_table_level(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A row's alignment beats its table's."""
+        html = (
+            '<table style="text-align: center;"><tbody>'
+            '<tr style="text-align: right;"><td>A</td><td>B</td></tr>'
+            '<tr style="text-align: right;"><td>C</td><td>D</td></tr>'
+            "</tbody></table>"
+        )
+        result = await _convert(converter, html)
+        assert result == "\n|  |  |\n| --: | --: |\n| A | B |\n| C | D |\n\n\n"
+
+    @pytest.mark.anyio
+    async def test_table_level_text_align_applies_to_plain_cells(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A table-level alignment applies when neither cell nor row sets one."""
+        html = (
+            '<table style="text-align: center;"><tbody>'
+            "<tr><td>A</td><td>B</td></tr>"
+            "<tr><td>C</td><td>D</td></tr>"
+            "</tbody></table>"
+        )
+        result = await _convert(converter, html)
+        assert result == "\n|  |  |\n| :-: | :-: |\n| A | B |\n| C | D |\n\n\n"
 
 
 # ---------------------------------------------------------------------------
