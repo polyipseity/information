@@ -74,6 +74,7 @@ Flashcards for this section are as follows:
 - what the last stage of the acquisition sequence shows ::@:: The bell alone producing salivation, a response it could not produce at the start.
 - the order a neutral stimulus and an unconditioned stimulus must come in ::@:: The neutral stimulus first, the unconditioned stimulus after it.
 - ![a chart of the seven standard conditioning procedures (forward, simultaneous, second order, temporal, extinction, blocking and inhibition), each drawn as a pair of dog panels showing a stimulus beside a piece of food and then that stimulus on its own](attachments/Classical%20Conditioning.svg) ::@:: A chart of the standard conditioning procedures. The first row shows a light paired with a piece of food, then the same light alone with nothing happening.
+- draw the chart of conditioning procedures: how many does it carry, and how is each drawn? ::@:: Seven, each as a pair of dog panels: a stimulus beside a piece of food, then that stimulus on its own, with the plain pairing in the first row. <p> ![a chart of the seven standard conditioning procedures (forward, simultaneous, second order, temporal, extinction, blocking and inhibition), each drawn as a pair of dog panels showing a stimulus beside a piece of food and then that stimulus on its own](attachments/Classical%20Conditioning.svg)
 
 ## a stimulus that predicts a temperature change
 

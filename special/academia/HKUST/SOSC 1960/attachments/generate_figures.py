@@ -53,6 +53,23 @@ arrow that ``operant conditioning.md`` asks a reader to find in the figure.
 The course's rule is that prose is not bent to fit a substitute image, so
 the figure is generated instead.
 
+Two figures were added when the brain unit came through, and both record
+the same kind of empty search:
+
+- ``brain_division_naming.svg`` — the nesting of the five embryological
+  subdivisions against forebrain, midbrain, and hindbrain, with the brain
+  stem crossing the hindbrain group through the pons. Searching Commons for
+  "forebrain midbrain hindbrain subdivisions" returns
+  ``File:EmbryonicBrain-pl.svg`` and ``File:EmbryonicBrain.svg``, which draw
+  embryonic vesicles and stop before the adult structures the note needs,
+  plus scanned journal volumes. Nothing shows the two schemes overlapping.
+- ``split_brain_test_setup.svg`` — the construction the split-brain method
+  rests on: a fixation point, the hemifield each retinal half reaches, and
+  the cut corpus callosum. Searching for "split-brain patient test" returns
+  a paper on moral judgement and historical surgery PDFs. The only diagram
+  of the setup found belongs to the lecture slides, which are course
+  material and cannot be reused as a figure.
+
 The helpers are namespaced by their source script (``_c_``, ``_i_``, ``_r_``)
 rather than unified, because the three sets differ in ways that are visible
 in the output: the conditioning ``_text`` defaults to size 16 and emits no
@@ -511,12 +528,346 @@ def causal_directions() -> str:
     return "\n".join(parts) + "\n"
 
 
+# --- brain vocabulary (from the former generate_brain_figures)
+
+LEFT_HEMI = "#1f3864"  # fibres that run to the left hemisphere
+RIGHT_HEMI = "#c2410c"  # fibres that run to the right hemisphere
+
+
+def _b_text(
+    x: float,
+    y: float,
+    body: str,
+    size: int = 16,
+    anchor: str = "middle",
+    fill: str = LABEL,
+    style: str = "normal",
+    weight: str = "normal",
+) -> str:
+    return (
+        f"<text x='{x:g}' y='{y:g}' {FONT} font-size='{size}' font-style='{style}' "
+        f"font-weight='{weight}' text-anchor='{anchor}' fill='{fill}'>{body}</text>"
+    )
+
+
+def _b_head(width: int, height: int) -> list[str]:
+    return [
+        f"<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 {width} {height}' "
+        f"width='{width}' height='{height}'>",
+        f"<rect width='{width}' height='{height}' fill='#ffffff'/>",
+    ]
+
+
+def _b_bracket(x: float, y1: float, y2: float, towards: float) -> str:
+    """A span marker: a vertical rule at ``x`` with ticks pointing at ``towards``."""
+    return (
+        f"<path d='M {towards:g} {y1:g} L {x:g} {y1:g} L {x:g} {y2:g} "
+        f"L {towards:g} {y2:g}' fill='none' stroke='{MUTED}' stroke-width='1.8'/>"
+    )
+
+
+def _b_affix_text(
+    x: float,
+    y: float,
+    prefix: str,
+    rest: str,
+    size: int = 12,
+    anchor: str = "middle",
+    fill: str = MUTED,
+) -> str:
+    """A word whose ``prefix`` is set apart from ``rest``, for names that differ
+    only in that prefix and share the rest."""
+    return (
+        f"<text x='{x:g}' y='{y:g}' {FONT} font-size='{size}' "
+        f"text-anchor='{anchor}' fill='{fill}'>"
+        f"<tspan font-weight='bold' fill='{INK}'>{prefix}</tspan>"
+        f"<tspan font-style='italic'>{rest}</tspan></text>"
+    )
+
+
+# --- one brain, three naming schemes --------------------------------------
+
+
+def division_naming() -> str:
+    """The overlap that makes brain nomenclature hard: the same structures named by
+    development, by anatomy, and by function, with the brain stem cutting across
+    the hindbrain group through the pons."""
+    width, height = 1040, 430
+    parts = _b_head(width, height)
+
+    parts.append(
+        _b_text(
+            width / 2,
+            26,
+            "Mammalian brain divisions, named three ways",
+            17,
+            weight="bold",
+        )
+    )
+
+    mid_x, mid_w = 250.0, 330.0
+    parts.append(
+        _b_text(
+            mid_x + (mid_w + 358) / 2,
+            56,
+            "structure, with its embryological name below",
+            13,
+            fill=MUTED,
+        )
+    )
+    parts.append(_b_text(850, 56, "functional division", 13, fill=MUTED))
+
+    # Each embryological name is the same ``-encephalon`` tail under a prefix
+    # that names the structure, so the prefix is what carries the difference.
+    rows = (
+        ("Cerebral hemispheres", "tel", "encephalon", 74.0, 52.0),
+        ("Thalamus and hypothalamus", "di", "encephalon", 140.0, 46.0),
+        ("Midbrain", "mesen", "encephalon", 200.0, 46.0),
+        ("Pons", "meten", "encephalon", 260.0, 46.0),
+        ("Medulla", "myelen", "encephalon", 320.0, 46.0),
+    )
+    extents: dict[str, tuple[float, float]] = {}
+    for name, prefix, rest, top, box_h in rows:
+        parts.append(
+            f"<rect x='{mid_x:g}' y='{top:g}' width='{mid_w:g}' height='{box_h:g}' "
+            f"rx='4' fill='{STAGE}' stroke='{INK}' stroke-width='2'/>"
+        )
+        centre = top + box_h / 2
+        extents[name] = (top, top + box_h)
+        parts.append(_b_text(mid_x + mid_w / 2, centre - 4, name, 15, weight="bold"))
+        parts.append(_b_affix_text(mid_x + mid_w / 2, centre + 15, prefix, rest))
+
+    # The cerebellum shares the pons' row.  Putting the two side by side is what
+    # makes both the hindbrain group and the brain-stem group contiguous.
+    cel_x, cel_w, cel_y, cel_h = 608.0, 172.0, 260.0, 46.0
+    parts.append(
+        f"<rect x='{cel_x:g}' y='{cel_y:g}' width='{cel_w:g}' height='{cel_h:g}' "
+        f"rx='4' fill='{STAGE}' stroke='{INK}' stroke-width='2'/>"
+    )
+    parts.append(
+        _b_text(cel_x + cel_w / 2, cel_y + 19, "Cerebellum", 15, weight="bold")
+    )
+    parts.append(_b_affix_text(cel_x + cel_w / 2, cel_y + 37, "meten", "encephalon"))
+
+    # The two structures the cerebellum shares its embryological name with sit
+    # in the column, so the offset box needs a tie back to the pons' row.  Drawn
+    # before the brain-stem outline, which then runs across it.
+    parts.append(
+        f"<line x1='{mid_x + mid_w:g}' y1='{cel_y + cel_h / 2:g}' "
+        f"x2='{cel_x:g}' y2='{cel_y + cel_h / 2:g}' stroke='{MUTED}' "
+        "stroke-width='1.6'/>"
+    )
+
+    # Brain stem.  One definition spans the diencephalon as well, so the outline
+    # reaches up to the thalamus and hypothalamus and so crosses both of the
+    # other schemes, while still stopping short of the cerebellum beside the pons.
+    stem_x = mid_x - 14.0
+    stem_top = extents["Thalamus and hypothalamus"][0] - 8.0
+    stem_bottom = extents["Medulla"][1] + 8.0
+    parts.append(
+        f"<rect x='{stem_x:g}' y='{stem_top:g}' width='{mid_w + 28:g}' "
+        f"height='{stem_bottom - stem_top:g}' rx='10' fill='none' stroke='{MARK}' "
+        f"stroke-width='2' stroke-dasharray='7 5'/>"
+    )
+    parts.append(
+        _b_text(
+            stem_x - 10,
+            (stem_top + stem_bottom) / 2 + 5,
+            "brain stem",
+            13,
+            anchor="end",
+            fill=MARK,
+            style="italic",
+        )
+    )
+
+    # Functional divisions on the right: forebrain, midbrain, hindbrain.  A
+    # bracket spans its boxes end to end, so a single-box division still draws a
+    # bracket the height of that box rather than a flat tick.
+    br_x = 836.0
+    spans = (
+        (
+            "Forebrain",
+            extents["Cerebral hemispheres"][0],
+            extents["Thalamus and hypothalamus"][1],
+        ),
+        ("Midbrain", extents["Midbrain"][0], extents["Midbrain"][1]),
+        ("Hindbrain", extents["Pons"][0], extents["Medulla"][1]),
+    )
+    for label, y1, y2 in spans:
+        parts.append(_b_bracket(br_x, y1, y2, br_x + 14))
+        parts.append(
+            _b_text(
+                br_x + 22, (y1 + y2) / 2 + 5, label, 15, anchor="start", weight="bold"
+            )
+        )
+
+    parts.append(
+        _b_text(
+            width / 2,
+            412,
+            "the brain stem takes the thalamus and hypothalamus from the forebrain and the pons from the hindbrain",
+            13,
+            fill=MARK,
+            style="italic",
+        )
+    )
+    parts.append("</svg>")
+    return "\n".join(parts) + "\n"
+
+
+# --- the split-brain testing setup ----------------------------------------
+
+
+def split_brain_setup() -> str:
+    """The construction the method rests on: fibres from the nasal retina cross at
+    the chiasm, so a hemifield reaches the opposite hemisphere, and a cut corpus
+    callosum keeps it there."""
+    width, height = 1000, 560
+    parts = _b_head(width, height)
+
+    # The screen.  A fixation point is what makes one hemifield reachable alone.
+    parts.append(
+        f"<rect x='250' y='40' width='500' height='72' rx='4' fill='{OUTCOME}' "
+        f"stroke='{INK}' stroke-width='2'/>"
+    )
+    parts.append(
+        f"<line x1='500' y1='62' x2='500' y2='92' stroke='{INK}' stroke-width='2.4'/>"
+    )
+    parts.append(
+        f"<line x1='485' y1='77' x2='515' y2='77' stroke='{INK}' stroke-width='2.4'/>"
+    )
+    parts.append(
+        f"<rect x='292' y='62' width='96' height='30' rx='3' fill='{RIGHT_HEMI}' fill-opacity='0.18' "
+        f"stroke='{RIGHT_HEMI}' stroke-width='2'/>"
+    )
+    parts.append(_b_text(340, 82, "stimulus", 13, fill=RIGHT_HEMI))
+    parts.append(
+        _b_text(
+            524, 81, "fixation point", 12, anchor="start", fill=MUTED, style="italic"
+        )
+    )
+    parts.append(_b_text(236, 128, "left visual field", 12, anchor="start"))
+    parts.append(_b_text(746, 128, "right visual field", 12, anchor="end"))
+
+    # Each eye, split into a temporal and a nasal half.  The temporal side is
+    # the outer one, so it points away from the midline in both eyes.
+    for cx, temporal_x, nasal_x in ((400.0, 344.0, 452.0), (600.0, 656.0, 548.0)):
+        parts.append(
+            f"<circle cx='{cx:g}' cy='200' r='28' fill='{STAGE}' stroke='{INK}' stroke-width='2'/>"
+        )
+        parts.append(
+            f"<line x1='{cx:g}' y1='172' x2='{cx:g}' y2='228' stroke='{INK}' stroke-width='1.6'/>"
+        )
+        parts.append(_b_text(temporal_x, 205, "temporal", 11, fill=MUTED))
+        parts.append(_b_text(nasal_x, 205, "nasal", 11, fill=MUTED))
+        parts.append(_b_text(cx, 252, "left eye" if cx < 500 else "right eye", 14))
+
+    # Light from the left visual field lands on the right-hand half of each
+    # retina: the nasal half of the left eye and the temporal half of the right.
+    # Those are the two halves that reach the right hemisphere below.
+    parts.append(
+        "<defs><marker id='light' viewBox='0 0 10 10' refX='9' refY='5' "
+        "markerWidth='4' markerHeight='4' orient='auto-start-reverse'>"
+        f"<path d='M 0 0 L 10 5 L 0 10 z' fill='{MUTED}'/></marker></defs>"
+    )
+    for d in ("M 352 116 L 427 193", "M 352 116 L 627 193"):
+        parts.append(
+            f"<path d='{d}' fill='none' stroke='{MUTED}' stroke-width='1.5' "
+            "stroke-dasharray='5 4' marker-end='url(#light)'/>"
+        )
+
+    # Which fibre colour is which.  Without this the two routes read alike.
+    parts.append(
+        f"<line x1='18' y1='150' x2='52' y2='150' stroke='{RIGHT_HEMI}' stroke-width='3'/>"
+    )
+    parts.append(
+        _b_text(60, 154, "nasal fibres: cross at the chiasm", 12, anchor="start")
+    )
+    parts.append(
+        f"<line x1='18' y1='182' x2='52' y2='182' stroke='{LEFT_HEMI}' stroke-width='3'/>"
+    )
+    parts.append(
+        _b_text(60, 186, "temporal fibres: stay on their own side", 12, anchor="start")
+    )
+
+    # The chiasm: where the nasal fibres cross.
+    parts.append(
+        f"<circle cx='500' cy='300' r='9' fill='#ffffff' stroke='{INK}' stroke-width='2'/>"
+    )
+    parts.append(_b_text(500, 328, "optic chiasm", 13, fill=MUTED, style="italic"))
+
+    # Four fibres.  Each eye's nasal half crosses at the chiasm; its temporal
+    # half stays on its own side.  All four start on their own circle's edge.
+    fibres = (
+        ("M 380 220 C 330 268 250 300 232 380", LEFT_HEMI),
+        ("M 420 220 C 470 262 500 282 500 300 C 560 322 760 342 768 380", RIGHT_HEMI),
+        ("M 580 220 C 530 262 500 282 500 300 C 440 322 240 342 232 380", LEFT_HEMI),
+        ("M 620 220 C 670 268 750 300 768 380", RIGHT_HEMI),
+    )
+    for d, colour in fibres:
+        parts.append(
+            f"<path d='{d}' fill='none' stroke='{colour}' stroke-width='2.6'/>"
+        )
+
+    # The two hemispheres, and the cut between them.
+    for x, body, sub in (
+        (140.0, "left hemisphere", "speaks; controls the right hand"),
+        (620.0, "right hemisphere", "does not speak; controls the left hand"),
+    ):
+        parts.append(
+            f"<rect x='{x:g}' y='380' width='240' height='62' rx='4' fill='{OUTCOME}' "
+            f"stroke='{INK}' stroke-width='2'/>"
+        )
+        parts.append(_b_text(x + 120, 404, body, 15, weight="bold"))
+        parts.append(_b_text(x + 120, 425, sub, 12, fill=MUTED))
+
+    parts.append(
+        f"<line x1='380' y1='411' x2='446' y2='411' stroke='{INK}' stroke-width='6' stroke-linecap='round'/>"
+    )
+    parts.append(
+        f"<line x1='554' y1='411' x2='620' y2='411' stroke='{INK}' stroke-width='6' stroke-linecap='round'/>"
+    )
+    parts.append(
+        f"<line x1='470' y1='393' x2='530' y2='429' stroke='{RIGHT_HEMI}' stroke-width='3'/>"
+    )
+    parts.append(
+        f"<line x1='530' y1='393' x2='470' y2='429' stroke='{RIGHT_HEMI}' stroke-width='3'/>"
+    )
+    parts.append(
+        _b_text(500, 462, "corpus callosum, cut", 13, fill=MARK, style="italic")
+    )
+
+    parts.append(
+        _b_text(
+            width / 2,
+            510,
+            "the nasal half of each eye crosses at the chiasm, the temporal half does not,",
+            14,
+            fill=INK,
+        )
+    )
+    parts.append(
+        _b_text(
+            width / 2,
+            534,
+            "so the stimulus reaches only the right hemisphere and stays there",
+            14,
+            fill=INK,
+        )
+    )
+    parts.append("</svg>")
+    return "\n".join(parts) + "\n"
+
+
 FIGURES = {
     "classical_conditioning_extinction.svg": extinction_sequence,
     "classical_conditioning_blocking.svg": blocking_phases,
     "conditioning_relations.svg": relations,
     "observational_learning_stages.svg": stages,
     "correlation_causal_directions.svg": causal_directions,
+    "brain_division_naming.svg": division_naming,
+    "split_brain_test_setup.svg": split_brain_setup,
 }
 
 

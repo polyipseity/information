@@ -54,7 +54,11 @@ Flashcards for this section are as follows:
 
 From the early 1900s until the mid-twentieth century, behaviorism dominated psychology. Behaviorists were reacting against depth psychology, which often made predictions that no experiment could test. Only observable behavior could be measured, so they dropped thoughts and other internal processes as explanations. The mind became a black box, and its workings were inferred from the input and the output.
 
-Ivan Pavlov's classical conditioning studies the stimuli that elicit reflexes. B. F. Skinner's instrumental conditioning studies the consequences that strengthen or weaken a behavior, and assesses the reinforcement history of the discriminative stimuli that emit behavior. Together the two formed the foundation of behaviorism. The pairing still shows up wherever a response is described as elicited or as a consequence. It later reached the cognitive-behavioral therapies, which treat simple phobias, post-traumatic stress disorder, and mood disorders.
+Ivan Pavlov's classical conditioning studies the stimuli that elicit reflexes. B. F. Skinner's instrumental conditioning studies the consequences that strengthen or weaken a behavior, and assesses the reinforcement history of the discriminative stimuli, the cues that signal which behavior will pay off. Together the two formed the foundation of behaviorism. The pairing still shows up wherever a response is described as elicited or as a consequence. It later reached the cognitive-behavioral therapies, which treat simple phobias, post-traumatic stress disorder, and mood disorders.
+
+How much of the mind a behaviorist may name was itself disputed. Clark Hull treated internal events such as motivation as inferable from behavior and put them back into the theory as quantities read off the data. B. F. Skinner rejected all discussion of internal events, keeping the analysis on the stimulus and the response.
+
+The rule held until it met something it could not carry. Chomsky's generative grammar of 1957 and his review of Skinner's account of verbal behavior in 1959 showed that a speaker produces sentences never heard before and understands ones no reinforcement history could have prepared. Behavior alone could not explain that, and the next movement grew out of the failure.
 
 ---
 
@@ -66,15 +70,19 @@ Flashcards for this section are as follows:
 - how behaviorism treated the mind ::@:: Behaviorists treated the mind as a black box and inferred its workings from its input and its output.
 - Pavlov's conditioning program ::@:: Pavlov's classical conditioning studies the stimuli that elicit reflexes.
 - Skinner's conditioning program ::@:: Skinner's instrumental conditioning studies the consequences that strengthen or weaken a behavior.
-- what Skinner assessed in place of Pavlov's eliciting stimuli ::@:: The reinforcement history of the discriminative stimuli that emit behavior.
+- what Skinner assessed in place of Pavlov's eliciting stimuli ::@:: The reinforcement history of the discriminative stimuli, the cues that signal which behavior will pay off.
 - where the two conditionings came to be applied together ::@:: In the cognitive-behavioral therapies, which treat simple phobias, post-traumatic stress disorder, and mood disorders.
 - how the two conditioning programs still show up in a description of a response ::@:: A response is described as elicited or as a consequence.
+- how Hull and Skinner differed on internal events ::@:: Hull treated internal events such as motivation as inferable from behavior, and Skinner rejected all discussion of them.
+- what behaviorism could not explain ::@:: Language, which Chomsky showed in 1957 and 1959 that no reinforcement history could account for.
 
 ### the cognitive revolution
 
-From the 1950s, the cognitive revolution reversed behaviorism's decision to rule out internal processes. By the early 1970s it had surpassed behaviorism as a paradigm.
+From about 1956, the cognitive revolution reversed behaviorism's decision to rule out internal processes. By the early 1970s it had surpassed behaviorism as a paradigm.
 
 The organism became an active processor of information rather than a passive receiver of stimuli, and internal states came back as explanations for observable behavior.
+
+The computer gave the movement its method. A researcher could now specify the internal mechanisms that produce behavior as a program, run it, and set its output beside a person's. An internal process became something to test rather than something to guess. The people who built that way of working were Herbert Simon and Allen Newell in artificial intelligence, and Noam Chomsky in linguistics. George Miller's 1956 paper on the magical number seven, plus or minus two, put a size on what a person can hold at once.
 
 The movement drew on psychology, linguistics, computer science, anthropology, neuroscience, and philosophy, and cognitive science grew out of it.
 
@@ -84,10 +92,13 @@ The rest of the field now infers a process from behavior in experiments, and wat
 
 Flashcards for this section are as follows:
 
-- what the cognitive revolution made a topic for study ::@:: From the 1950s the cognitive revolution made mental processes measurable topics, replacing the black box with an active information processor.
+- what the cognitive revolution made a topic for study ::@:: From about 1956 the cognitive revolution made mental processes measurable topics, replacing the black box with an active information processor.
 - when the cognitive revolution surpassed behaviorism as a paradigm ::@:: By the early 1970s, it had surpassed behaviorism as a paradigm.
 - what the organism became under the cognitive approach ::@:: The organism became an active processor of information rather than a passive receiver of stimuli.
 - what came back as explanations for observable behavior ::@:: Internal states came back as explanations for observable behavior.
+- what the computer gave the cognitive revolution ::@:: A way to specify the internal mechanisms that produce behavior as a program and set its output beside a person's.
+- who built the artificial-intelligence side of the movement ::@:: Herbert Simon and Allen Newell.
+- what George Miller's 1956 paper put a size on ::@:: What a person can hold at once, the magical number seven, plus or minus two.
 - the disciplines the cognitive revolution drew on ::@:: Researchers came from psychology, linguistics, computer science, anthropology, neuroscience, and philosophy.
 - the field that emerged from the cognitive revolution ::@:: Cognitive science grew out of that interdisciplinary movement.
 - the practical outcome of the cognitive revolution for the rest of psychology ::@:: The field now uses experiments that infer a process from behavior, and imaging that watches the process itself.
