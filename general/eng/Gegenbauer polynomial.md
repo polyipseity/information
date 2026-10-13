@@ -1,0 +1,1 @@
+Gegenbauer polynomials.md
