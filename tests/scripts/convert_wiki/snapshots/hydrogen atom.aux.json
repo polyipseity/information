@@ -1,0 +1,2116 @@
+{
+  "api_titles": [
+    "Rutherford model",
+    "Edit section: Hydrogen ion",
+    "Quantum mechanics",
+    "Laguerre polynomials",
+    "Orbital motion (quantum)",
+    "Diproton",
+    "Edit section: External links",
+    "Edit section: Isotopes",
+    "Tritium",
+    "Deuterium NMR",
+    "Quantum superposition",
+    "Dalton (unit)",
+    "Quantum number",
+    "Larmor formula",
+    "David J. Griffiths",
+    "Hydrogen-like atom",
+    "Old quantum theory",
+    "Werner Heisenberg",
+    "Magnetic field",
+    "Lithium atom",
+    "Electric charge",
+    "Resonance (particle physics)",
+    "Molecule",
+    "Spectral line",
+    "Edit section: Bohr–Sommerfeld model",
+    "Perturbation theory (quantum mechanics)",
+    "Partial differential equation",
+    "Edit section: Mathematical summary of eigenstates of hydrogen atom",
+    "Ion",
+    "Laplace operator",
+    "Orthogonal functions",
+    "Hydrogen cation",
+    "Edit section: Schrödinger equation",
+    "Half-life",
+    "Coulomb force",
+    "Hydronium",
+    "Electron mass",
+    "Energy eigenfunctions",
+    "Eigenstate",
+    "Proton decay",
+    "Balmer series",
+    "Atomic spectroscopy",
+    "Nuclear reactor",
+    "Rotational symmetry",
+    "Bohr model",
+    "Isotopic abundance",
+    "Spherical harmonic",
+    "Spherical harmonics",
+    "Hagen Kleinert",
+    "Diatomic",
+    "Magnetic quantum number",
+    "Laplace–Runge–Lenz vector",
+    "Isotopes of hydrogen",
+    "Baryon",
+    "Radioactive decay",
+    "Quantum state",
+    "Edit section: References",
+    "Closed-form expression",
+    "Niels Bohr",
+    "Edit section: Wavefunction",
+    "Anisotropic",
+    "List of nuclides",
+    "Classical electromagnetism",
+    "Hydrogen anion",
+    "Kronecker delta",
+    "Energy levels",
+    "De Broglie–Bohm theory",
+    "Isotope",
+    "Gegenbauer polynomial",
+    "Hamiltonian (quantum mechanics)",
+    "Dirac equation",
+    "Edit section: Features going beyond the Schrödinger solution",
+    "Proton",
+    "R.P. Feynman",
+    "Hydrogen spectral series",
+    "Edit section: Oscillation of orbitals",
+    "Prentice Hall",
+    "Reduced mass",
+    "Edit section: Energy levels",
+    "Doi (identifier)",
+    "Electron spin",
+    "Edit section: See also",
+    "Centripetal force",
+    "Antihydrogen",
+    "Hydron (chemistry)",
+    "Angular momentum operator",
+    "Schrödinger equation",
+    "Two-body problem",
+    "Atom",
+    "ISBN (identifier)",
+    "Principal quantum level",
+    "Hydrochloric acid",
+    "Svetlana Kotochigova",
+    "Aqueous solution",
+    "Magnetic moment",
+    "Longman",
+    "Probability amplitude",
+    "Deuterium",
+    "Hydrogen",
+    "Spin (particle physics)",
+    "Hamiltonian mechanics",
+    "Interstellar medium",
+    "Fine structure",
+    "Total angular momentum quantum number",
+    "Planck constant",
+    "Quantum fluctuation",
+    "Reduced Bohr radius",
+    "Covalent bond",
+    "Decay chain",
+    "Abundance of the chemical elements",
+    "Atomic orbital",
+    "Trihydrogen cation",
+    "Bibcode (identifier)",
+    "Zeeman effect",
+    "Edit section: Books",
+    "Eigenstates",
+    "Dirac notation",
+    "Neutron",
+    "S2CID (identifier)",
+    "Orbital eccentricity",
+    "Degenerate energy levels",
+    "Fine-structure constant",
+    "Edit section: Theoretical analysis",
+    "Atomic physics",
+    "Azimuthal quantum number",
+    "Dirac spinor",
+    "Wavefunction",
+    "Inertial frame",
+    "Ernest Rutherford",
+    "Table of nuclides",
+    "List of quantum-mechanical systems with analytical solutions",
+    "Special relativity",
+    "Angular momentum",
+    "Electronvolt",
+    "Lamb shift",
+    "Neutron number",
+    "Principal quantum number",
+    "Chemical element",
+    "Quantum chemistry",
+    "Spherical coordinates",
+    "Coulomb's law",
+    "Excess energy",
+    "Vacuum permittivity",
+    "Oxygen",
+    "Neutron drip line",
+    "History of quantum mechanics",
+    "Edit section: Visualizing the hydrogen electron orbitals",
+    "Spin–orbit interaction",
+    "Separation of variables",
+    "Path integral formulation",
+    "Quantum potential",
+    "Helium atom",
+    "Electron",
+    "Classical physics",
+    "Hydride",
+    "Solar wind",
+    "Electromagnetic field",
+    "Atomic number",
+    "Dihydrogen cation",
+    "Decay product",
+    "Brønsted–Lowry acid",
+    "Declination",
+    "Quantum field theory",
+    "Wave function",
+    "Edit section: Results of Schrödinger equation",
+    "Classical electron radius",
+    "Bohr radius",
+    "Laguerre polynomial",
+    "Quantization (physics)",
+    "NASA",
+    "Feynman diagram",
+    "Spin (physics)",
+    "Hyperfine structure",
+    "Neutron emission",
+    "Electron charge",
+    "Paul Dirac",
+    "Speed of light",
+    "Atomic mass",
+    "Nuclear binding energy",
+    "Edit section: Failed classical description",
+    "Particle accelerators",
+    "Rydberg constant",
+    "Matrix mechanics",
+    "Ground state",
+    "Analytical expression",
+    "Spherical coordinate system",
+    "Arnold Sommerfeld",
+    "Isotropic",
+    "Quantum electrodynamics",
+    "Edit section: Alternatives to the Schrödinger theory",
+    "Free neutron",
+    "Wolfgang Pauli"
+  ],
+  "api_responses": [
+    {
+      "batchcomplete": true,
+      "query": {
+        "redirects": [
+          {
+            "from": "Eigenstate",
+            "to": "Quantum state",
+            "tofragment": "Pure state"
+          },
+          {
+            "from": "Coulomb force",
+            "to": "Coulomb's law"
+          },
+          {
+            "from": "Diproton",
+            "to": "Isotopes of helium",
+            "tofragment": "Helium-2 (diproton)"
+          },
+          {
+            "from": "Energy eigenfunctions",
+            "to": "Stationary state"
+          },
+          {
+            "from": "Spherical harmonic",
+            "to": "Spherical harmonics"
+          },
+          {
+            "from": "Diatomic",
+            "to": "Diatomic molecule"
+          },
+          {
+            "from": "Hydrogen cation",
+            "to": "Hydron"
+          },
+          {
+            "from": "Lithium atom",
+            "to": "Lithium"
+          }
+        ],
+        "pages": [
+          {
+            "ns": 0,
+            "title": "Edit section: Schrödinger equation",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: Mathematical summary of eigenstates of hydrogen atom",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: Bohr–Sommerfeld model",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: Isotopes",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: External links",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: Hydrogen ion",
+            "missing": true
+          },
+          {
+            "pageid": 4831,
+            "ns": 0,
+            "title": "Bohr model"
+          },
+          {
+            "pageid": 7938,
+            "ns": 0,
+            "title": "Diatomic molecule"
+          },
+          {
+            "pageid": 9804,
+            "ns": 0,
+            "title": "Electric charge"
+          },
+          {
+            "pageid": 13606,
+            "ns": 0,
+            "title": "Half-life"
+          },
+          {
+            "pageid": 17561,
+            "ns": 0,
+            "title": "Lithium"
+          },
+          {
+            "pageid": 19555,
+            "ns": 0,
+            "title": "Molecule"
+          },
+          {
+            "pageid": 22151,
+            "ns": 0,
+            "title": "Nuclear reactor"
+          },
+          {
+            "pageid": 24138,
+            "ns": 0,
+            "title": "Proton decay"
+          },
+          {
+            "pageid": 25202,
+            "ns": 0,
+            "title": "Quantum mechanics"
+          },
+          {
+            "pageid": 31306,
+            "ns": 0,
+            "title": "Tritium"
+          },
+          {
+            "pageid": 33130,
+            "ns": 0,
+            "title": "Werner Heisenberg"
+          },
+          {
+            "pageid": 36563,
+            "ns": 0,
+            "title": "Magnetic field"
+          },
+          {
+            "pageid": 42445,
+            "ns": 0,
+            "title": "Dalton (unit)"
+          },
+          {
+            "pageid": 49281,
+            "ns": 0,
+            "title": "Hydronium"
+          },
+          {
+            "pageid": 52564,
+            "ns": 0,
+            "title": "Partial differential equation"
+          },
+          {
+            "pageid": 61648,
+            "ns": 0,
+            "title": "Isotopic abundance"
+          },
+          {
+            "pageid": 82728,
+            "ns": 0,
+            "title": "Quantum superposition"
+          },
+          {
+            "pageid": 174706,
+            "ns": 0,
+            "title": "Laplace operator"
+          },
+          {
+            "pageid": 177320,
+            "ns": 0,
+            "title": "Spectral line"
+          },
+          {
+            "pageid": 203056,
+            "ns": 0,
+            "title": "Spherical harmonics"
+          },
+          {
+            "pageid": 297069,
+            "ns": 0,
+            "title": "Perturbation theory (quantum mechanics)"
+          },
+          {
+            "pageid": 415893,
+            "ns": 0,
+            "title": "Balmer series"
+          },
+          {
+            "pageid": 437861,
+            "ns": 0,
+            "title": "Atomic spectroscopy"
+          },
+          {
+            "pageid": 453041,
+            "ns": 0,
+            "title": "Orthogonal functions"
+          },
+          {
+            "pageid": 498470,
+            "ns": 0,
+            "title": "David J. Griffiths"
+          },
+          {
+            "pageid": 532405,
+            "ns": 0,
+            "title": "Quantum number"
+          },
+          {
+            "pageid": 701096,
+            "ns": 0,
+            "title": "Rotational symmetry"
+          },
+          {
+            "pageid": 943917,
+            "ns": 0,
+            "title": "Laguerre polynomials"
+          },
+          {
+            "pageid": 1188104,
+            "ns": 0,
+            "title": "Old quantum theory"
+          },
+          {
+            "pageid": 1214030,
+            "ns": 0,
+            "title": "Hagen Kleinert"
+          },
+          {
+            "pageid": 1764858,
+            "ns": 0,
+            "title": "Orbital motion (quantum)"
+          },
+          {
+            "pageid": 2527152,
+            "ns": 0,
+            "title": "Isotopes of helium"
+          },
+          {
+            "pageid": 2817855,
+            "ns": 0,
+            "title": "Larmor formula"
+          },
+          {
+            "pageid": 3917813,
+            "ns": 0,
+            "title": "Rutherford model"
+          },
+          {
+            "pageid": 4930033,
+            "ns": 0,
+            "title": "Stationary state"
+          },
+          {
+            "pageid": 9206525,
+            "ns": 0,
+            "title": "Hydron"
+          },
+          {
+            "pageid": 11724245,
+            "ns": 0,
+            "title": "Hydrogen-like atom"
+          },
+          {
+            "pageid": 18963787,
+            "ns": 0,
+            "title": "Ion"
+          },
+          {
+            "pageid": 21144218,
+            "ns": 0,
+            "title": "Electron mass"
+          },
+          {
+            "pageid": 23017591,
+            "ns": 0,
+            "title": "Resonance (particle physics)"
+          },
+          {
+            "pageid": 25670533,
+            "ns": 0,
+            "title": "Deuterium NMR"
+          },
+          {
+            "pageid": 26288711,
+            "ns": 0,
+            "title": "Coulomb's law"
+          },
+          {
+            "pageid": 30876419,
+            "ns": 0,
+            "title": "Quantum state"
+          }
+        ]
+      }
+    },
+    {
+      "batchcomplete": true,
+      "query": {
+        "redirects": [
+          {
+            "from": "Anisotropic",
+            "to": "Anisotropy"
+          },
+          {
+            "from": "R.P. Feynman",
+            "to": "Richard Feynman"
+          },
+          {
+            "from": "Energy levels",
+            "to": "Energy level"
+          },
+          {
+            "from": "Gegenbauer polynomial",
+            "to": "Gegenbauer polynomials"
+          },
+          {
+            "from": "Electron spin",
+            "to": "Spin (physics)",
+            "tofragment": "Fermions and bosons"
+          },
+          {
+            "from": "Principal quantum level",
+            "to": "Principal quantum number"
+          },
+          {
+            "from": "ISBN (identifier)",
+            "to": "ISBN"
+          },
+          {
+            "from": "Doi (identifier)",
+            "to": "Digital object identifier"
+          },
+          {
+            "from": "Spin (particle physics)",
+            "to": "Spin (physics)"
+          },
+          {
+            "from": "Hydron (chemistry)",
+            "to": "Hydron"
+          }
+        ],
+        "pages": [
+          {
+            "ns": 0,
+            "title": "Edit section: See also",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: Energy levels",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: Oscillation of orbitals",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: Features going beyond the Schrödinger solution",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: Wavefunction",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: References",
+            "missing": true
+          },
+          {
+            "pageid": 902,
+            "ns": 0,
+            "title": "Atom"
+          },
+          {
+            "pageid": 1264,
+            "ns": 0,
+            "title": "Anisotropy"
+          },
+          {
+            "pageid": 4584,
+            "ns": 0,
+            "title": "Baryon"
+          },
+          {
+            "pageid": 7534,
+            "ns": 0,
+            "title": "Centripetal force"
+          },
+          {
+            "pageid": 8524,
+            "ns": 0,
+            "title": "Deuterium"
+          },
+          {
+            "pageid": 13255,
+            "ns": 0,
+            "title": "Hydrogen"
+          },
+          {
+            "pageid": 14381,
+            "ns": 0,
+            "title": "Hamiltonian (quantum mechanics)"
+          },
+          {
+            "pageid": 14919,
+            "ns": 0,
+            "title": "ISBN"
+          },
+          {
+            "pageid": 21210,
+            "ns": 0,
+            "title": "Niels Bohr"
+          },
+          {
+            "pageid": 23317,
+            "ns": 0,
+            "title": "Proton"
+          },
+          {
+            "pageid": 25523,
+            "ns": 0,
+            "title": "Richard Feynman"
+          },
+          {
+            "pageid": 39407,
+            "ns": 0,
+            "title": "Dirac equation"
+          },
+          {
+            "pageid": 52081,
+            "ns": 0,
+            "title": "Antihydrogen"
+          },
+          {
+            "pageid": 54717,
+            "ns": 0,
+            "title": "De Broglie–Bohm theory"
+          },
+          {
+            "pageid": 59444,
+            "ns": 0,
+            "title": "Energy level"
+          },
+          {
+            "pageid": 59874,
+            "ns": 0,
+            "title": "Schrödinger equation"
+          },
+          {
+            "pageid": 85747,
+            "ns": 0,
+            "title": "Reduced mass"
+          },
+          {
+            "pageid": 106240,
+            "ns": 0,
+            "title": "Aqueous solution"
+          },
+          {
+            "pageid": 182890,
+            "ns": 0,
+            "title": "Kronecker delta"
+          },
+          {
+            "pageid": 197767,
+            "ns": 0,
+            "title": "Radioactive decay"
+          },
+          {
+            "pageid": 213375,
+            "ns": 0,
+            "title": "Longman"
+          },
+          {
+            "pageid": 277468,
+            "ns": 0,
+            "title": "Two-body problem"
+          },
+          {
+            "pageid": 422994,
+            "ns": 0,
+            "title": "Digital object identifier"
+          },
+          {
+            "pageid": 426219,
+            "ns": 0,
+            "title": "Classical electromagnetism"
+          },
+          {
+            "pageid": 429425,
+            "ns": 0,
+            "title": "Probability amplitude"
+          },
+          {
+            "pageid": 532481,
+            "ns": 0,
+            "title": "Principal quantum number"
+          },
+          {
+            "pageid": 540979,
+            "ns": 0,
+            "title": "Magnetic moment"
+          },
+          {
+            "pageid": 551359,
+            "ns": 0,
+            "title": "Magnetic quantum number"
+          },
+          {
+            "pageid": 585143,
+            "ns": 0,
+            "title": "Closed-form expression"
+          },
+          {
+            "pageid": 719460,
+            "ns": 0,
+            "title": "Laplace–Runge–Lenz vector"
+          },
+          {
+            "pageid": 2039690,
+            "ns": 0,
+            "title": "Isotopes of hydrogen"
+          },
+          {
+            "pageid": 2122340,
+            "ns": 0,
+            "title": "Gegenbauer polynomials"
+          },
+          {
+            "pageid": 3071612,
+            "ns": 0,
+            "title": "Hydrogen spectral series"
+          },
+          {
+            "pageid": 3797203,
+            "ns": 0,
+            "title": "Angular momentum operator"
+          },
+          {
+            "pageid": 5421050,
+            "ns": 0,
+            "title": "Prentice Hall"
+          },
+          {
+            "pageid": 9206525,
+            "ns": 0,
+            "title": "Hydron"
+          },
+          {
+            "pageid": 10940032,
+            "ns": 0,
+            "title": "Hydrogen anion"
+          },
+          {
+            "pageid": 19593829,
+            "ns": 0,
+            "title": "Spin (physics)"
+          },
+          {
+            "pageid": 19600416,
+            "ns": 0,
+            "title": "Isotope"
+          },
+          {
+            "pageid": 19916686,
+            "ns": 0,
+            "title": "Hydrochloric acid"
+          },
+          {
+            "pageid": 23279299,
+            "ns": 0,
+            "title": "List of nuclides"
+          },
+          {
+            "pageid": 30876419,
+            "ns": 0,
+            "title": "Quantum state"
+          },
+          {
+            "pageid": 72789620,
+            "ns": 0,
+            "title": "Svetlana Kotochigova"
+          }
+        ]
+      }
+    },
+    {
+      "batchcomplete": true,
+      "query": {
+        "redirects": [
+          {
+            "from": "Inertial frame",
+            "to": "Inertial frame of reference"
+          },
+          {
+            "from": "Spherical coordinates",
+            "to": "Spherical coordinate system"
+          },
+          {
+            "from": "Eigenstates",
+            "to": "Quantum state",
+            "tofragment": "Pure state"
+          },
+          {
+            "from": "Dirac notation",
+            "to": "Bra–ket notation"
+          },
+          {
+            "from": "Neutron drip line",
+            "to": "Nuclear drip line"
+          },
+          {
+            "from": "Excess energy",
+            "to": "Mass excess"
+          },
+          {
+            "from": "Wavefunction",
+            "to": "Wave function"
+          },
+          {
+            "from": "Reduced Bohr radius",
+            "to": "Bohr radius",
+            "tofragment": "Reduced Bohr radius"
+          },
+          {
+            "from": "S2CID (identifier)",
+            "to": "Semantic Scholar",
+            "tofragment": "S2CID"
+          },
+          {
+            "from": "Bibcode (identifier)",
+            "to": "Bibcode"
+          },
+          {
+            "from": "Path integral formulation",
+            "to": "Path-integral formulation"
+          }
+        ],
+        "pages": [
+          {
+            "ns": 0,
+            "title": "Edit section: Visualizing the hydrogen electron orbitals",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: Theoretical analysis",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: Books",
+            "missing": true
+          },
+          {
+            "pageid": 1200,
+            "ns": 0,
+            "title": "Atomic physics"
+          },
+          {
+            "pageid": 1206,
+            "ns": 0,
+            "title": "Atomic orbital"
+          },
+          {
+            "pageid": 2839,
+            "ns": 0,
+            "title": "Angular momentum"
+          },
+          {
+            "pageid": 4542,
+            "ns": 0,
+            "title": "Bra–ket notation"
+          },
+          {
+            "pageid": 5659,
+            "ns": 0,
+            "title": "Chemical element"
+          },
+          {
+            "pageid": 6246,
+            "ns": 0,
+            "title": "Covalent bond"
+          },
+          {
+            "pageid": 9598,
+            "ns": 0,
+            "title": "Electronvolt"
+          },
+          {
+            "pageid": 9603,
+            "ns": 0,
+            "title": "Ernest Rutherford"
+          },
+          {
+            "pageid": 14838,
+            "ns": 0,
+            "title": "Inertial frame of reference"
+          },
+          {
+            "pageid": 21272,
+            "ns": 0,
+            "title": "Neutron"
+          },
+          {
+            "pageid": 22303,
+            "ns": 0,
+            "title": "Oxygen"
+          },
+          {
+            "pageid": 25211,
+            "ns": 0,
+            "title": "Quantum chemistry"
+          },
+          {
+            "pageid": 26962,
+            "ns": 0,
+            "title": "Special relativity"
+          },
+          {
+            "pageid": 29181,
+            "ns": 0,
+            "title": "Spherical coordinate system"
+          },
+          {
+            "pageid": 49295,
+            "ns": 0,
+            "title": "Fine-structure constant"
+          },
+          {
+            "pageid": 69453,
+            "ns": 0,
+            "title": "Interstellar medium"
+          },
+          {
+            "pageid": 145343,
+            "ns": 0,
+            "title": "Wave function"
+          },
+          {
+            "pageid": 161253,
+            "ns": 0,
+            "title": "Quantum fluctuation"
+          },
+          {
+            "pageid": 174396,
+            "ns": 0,
+            "title": "Bohr radius"
+          },
+          {
+            "pageid": 176399,
+            "ns": 0,
+            "title": "Zeeman effect"
+          },
+          {
+            "pageid": 197774,
+            "ns": 0,
+            "title": "Decay chain"
+          },
+          {
+            "pageid": 198319,
+            "ns": 0,
+            "title": "Hamiltonian mechanics"
+          },
+          {
+            "pageid": 387750,
+            "ns": 0,
+            "title": "Separation of variables"
+          },
+          {
+            "pageid": 392828,
+            "ns": 0,
+            "title": "Abundance of the chemical elements"
+          },
+          {
+            "pageid": 438476,
+            "ns": 0,
+            "title": "Path-integral formulation"
+          },
+          {
+            "pageid": 532481,
+            "ns": 0,
+            "title": "Principal quantum number"
+          },
+          {
+            "pageid": 532573,
+            "ns": 0,
+            "title": "Azimuthal quantum number"
+          },
+          {
+            "pageid": 610202,
+            "ns": 0,
+            "title": "Fine structure"
+          },
+          {
+            "pageid": 1074997,
+            "ns": 0,
+            "title": "Lamb shift"
+          },
+          {
+            "pageid": 1099413,
+            "ns": 0,
+            "title": "Orbital eccentricity"
+          },
+          {
+            "pageid": 1633547,
+            "ns": 0,
+            "title": "Total angular momentum quantum number"
+          },
+          {
+            "pageid": 1871162,
+            "ns": 0,
+            "title": "Spin–orbit interaction"
+          },
+          {
+            "pageid": 2292483,
+            "ns": 0,
+            "title": "Degenerate energy levels"
+          },
+          {
+            "pageid": 2582879,
+            "ns": 0,
+            "title": "Vacuum permittivity"
+          },
+          {
+            "pageid": 2699278,
+            "ns": 0,
+            "title": "Trihydrogen cation"
+          },
+          {
+            "pageid": 8262357,
+            "ns": 0,
+            "title": "Mass excess"
+          },
+          {
+            "pageid": 8936720,
+            "ns": 0,
+            "title": "Table of nuclides"
+          },
+          {
+            "pageid": 9067941,
+            "ns": 0,
+            "title": "History of quantum mechanics"
+          },
+          {
+            "pageid": 9505941,
+            "ns": 0,
+            "title": "List of quantum-mechanical systems with analytical solutions"
+          },
+          {
+            "pageid": 14092434,
+            "ns": 0,
+            "title": "Bibcode"
+          },
+          {
+            "pageid": 19263783,
+            "ns": 0,
+            "title": "Dirac spinor"
+          },
+          {
+            "pageid": 19503111,
+            "ns": 0,
+            "title": "Neutron number"
+          },
+          {
+            "pageid": 19594213,
+            "ns": 0,
+            "title": "Planck constant"
+          },
+          {
+            "pageid": 26288711,
+            "ns": 0,
+            "title": "Coulomb's law"
+          },
+          {
+            "pageid": 26850357,
+            "ns": 0,
+            "title": "Nuclear drip line"
+          },
+          {
+            "pageid": 30876419,
+            "ns": 0,
+            "title": "Quantum state"
+          },
+          {
+            "pageid": 48455863,
+            "ns": 0,
+            "title": "Semantic Scholar"
+          }
+        ]
+      }
+    },
+    {
+      "batchcomplete": true,
+      "query": {
+        "redirects": [
+          {
+            "from": "Electron charge",
+            "to": "Elementary charge"
+          },
+          {
+            "from": "Isotropic",
+            "to": "Isotropy"
+          },
+          {
+            "from": "Particle accelerators",
+            "to": "Particle accelerator"
+          },
+          {
+            "from": "Laguerre polynomial",
+            "to": "Laguerre polynomials"
+          },
+          {
+            "from": "Free neutron",
+            "to": "Neutron",
+            "tofragment": "Free neutron"
+          },
+          {
+            "from": "Analytical expression",
+            "to": "Closed-form expression",
+            "tofragment": "Analytic expression"
+          },
+          {
+            "from": "Brønsted–Lowry acid",
+            "to": "Brønsted–Lowry acid–base theory"
+          }
+        ],
+        "pages": [
+          {
+            "ns": 0,
+            "title": "Edit section: Alternatives to the Schrödinger theory",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: Failed classical description",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: Results of Schrödinger equation",
+            "missing": true
+          },
+          {
+            "pageid": 673,
+            "ns": 0,
+            "title": "Atomic number"
+          },
+          {
+            "pageid": 8612,
+            "ns": 0,
+            "title": "Declination"
+          },
+          {
+            "pageid": 9476,
+            "ns": 0,
+            "title": "Electron"
+          },
+          {
+            "pageid": 9735,
+            "ns": 0,
+            "title": "Electromagnetic field"
+          },
+          {
+            "pageid": 11617,
+            "ns": 0,
+            "title": "Feynman diagram"
+          },
+          {
+            "pageid": 14865,
+            "ns": 0,
+            "title": "Isotropy"
+          },
+          {
+            "pageid": 21272,
+            "ns": 0,
+            "title": "Neutron"
+          },
+          {
+            "pageid": 24742,
+            "ns": 0,
+            "title": "Paul Dirac"
+          },
+          {
+            "pageid": 25182,
+            "ns": 0,
+            "title": "Quantization (physics)"
+          },
+          {
+            "pageid": 25267,
+            "ns": 0,
+            "title": "Quantum field theory"
+          },
+          {
+            "pageid": 25268,
+            "ns": 0,
+            "title": "Quantum electrodynamics"
+          },
+          {
+            "pageid": 28538,
+            "ns": 0,
+            "title": "Solar wind"
+          },
+          {
+            "pageid": 28736,
+            "ns": 0,
+            "title": "Speed of light"
+          },
+          {
+            "pageid": 29181,
+            "ns": 0,
+            "title": "Spherical coordinate system"
+          },
+          {
+            "pageid": 33972,
+            "ns": 0,
+            "title": "Wolfgang Pauli"
+          },
+          {
+            "pageid": 74390,
+            "ns": 0,
+            "title": "Decay product"
+          },
+          {
+            "pageid": 142100,
+            "ns": 0,
+            "title": "Hydride"
+          },
+          {
+            "pageid": 145343,
+            "ns": 0,
+            "title": "Wave function"
+          },
+          {
+            "pageid": 151066,
+            "ns": 0,
+            "title": "Classical physics"
+          },
+          {
+            "pageid": 174396,
+            "ns": 0,
+            "title": "Bohr radius"
+          },
+          {
+            "pageid": 174945,
+            "ns": 0,
+            "title": "Elementary charge"
+          },
+          {
+            "pageid": 199121,
+            "ns": 0,
+            "title": "Rydberg constant"
+          },
+          {
+            "pageid": 213639,
+            "ns": 0,
+            "title": "Arnold Sommerfeld"
+          },
+          {
+            "pageid": 225982,
+            "ns": 0,
+            "title": "Ground state"
+          },
+          {
+            "pageid": 391283,
+            "ns": 0,
+            "title": "Neutron emission"
+          },
+          {
+            "pageid": 396320,
+            "ns": 0,
+            "title": "Matrix mechanics"
+          },
+          {
+            "pageid": 527046,
+            "ns": 0,
+            "title": "Hyperfine structure"
+          },
+          {
+            "pageid": 585143,
+            "ns": 0,
+            "title": "Closed-form expression"
+          },
+          {
+            "pageid": 714543,
+            "ns": 0,
+            "title": "Brønsted–Lowry acid–base theory"
+          },
+          {
+            "pageid": 943917,
+            "ns": 0,
+            "title": "Laguerre polynomials"
+          },
+          {
+            "pageid": 1362465,
+            "ns": 0,
+            "title": "Classical electron radius"
+          },
+          {
+            "pageid": 3043836,
+            "ns": 0,
+            "title": "Nuclear binding energy"
+          },
+          {
+            "pageid": 8057418,
+            "ns": 0,
+            "title": "Quantum potential"
+          },
+          {
+            "pageid": 18111385,
+            "ns": 0,
+            "title": "Dihydrogen cation"
+          },
+          {
+            "pageid": 18426568,
+            "ns": 0,
+            "title": "NASA"
+          },
+          {
+            "pageid": 18589032,
+            "ns": 0,
+            "title": "Particle accelerator"
+          },
+          {
+            "pageid": 19593829,
+            "ns": 0,
+            "title": "Spin (physics)"
+          },
+          {
+            "pageid": 19604151,
+            "ns": 0,
+            "title": "Atomic mass"
+          },
+          {
+            "pageid": 20191692,
+            "ns": 0,
+            "title": "Helium atom"
+          }
+        ]
+      }
+    }
+  ],
+  "redirect_cache": {
+    "Eigenstate": {
+      "to": "Quantum state",
+      "tofragment": "Pure state"
+    },
+    "Coulomb force": {
+      "to": "Coulomb's law",
+      "tofragment": ""
+    },
+    "Diproton": {
+      "to": "Isotopes of helium",
+      "tofragment": "Helium-2 (diproton)"
+    },
+    "Energy eigenfunctions": {
+      "to": "Stationary state",
+      "tofragment": ""
+    },
+    "Spherical harmonic": {
+      "to": "Spherical harmonics",
+      "tofragment": ""
+    },
+    "Diatomic": {
+      "to": "Diatomic molecule",
+      "tofragment": ""
+    },
+    "Hydrogen cation": {
+      "to": "Hydron",
+      "tofragment": ""
+    },
+    "Lithium atom": {
+      "to": "Lithium",
+      "tofragment": ""
+    },
+    "Rutherford model": {
+      "to": "Rutherford model",
+      "tofragment": ""
+    },
+    "Edit section: Hydrogen ion": {
+      "to": "Edit section: Hydrogen ion",
+      "tofragment": ""
+    },
+    "Quantum mechanics": {
+      "to": "Quantum mechanics",
+      "tofragment": ""
+    },
+    "Laguerre polynomials": {
+      "to": "Laguerre polynomials",
+      "tofragment": ""
+    },
+    "Orbital motion (quantum)": {
+      "to": "Orbital motion (quantum)",
+      "tofragment": ""
+    },
+    "Edit section: External links": {
+      "to": "Edit section: External links",
+      "tofragment": ""
+    },
+    "Edit section: Isotopes": {
+      "to": "Edit section: Isotopes",
+      "tofragment": ""
+    },
+    "Tritium": {
+      "to": "Tritium",
+      "tofragment": ""
+    },
+    "Deuterium NMR": {
+      "to": "Deuterium NMR",
+      "tofragment": ""
+    },
+    "Quantum superposition": {
+      "to": "Quantum superposition",
+      "tofragment": ""
+    },
+    "Dalton (unit)": {
+      "to": "Dalton (unit)",
+      "tofragment": ""
+    },
+    "Quantum number": {
+      "to": "Quantum number",
+      "tofragment": ""
+    },
+    "Larmor formula": {
+      "to": "Larmor formula",
+      "tofragment": ""
+    },
+    "David J. Griffiths": {
+      "to": "David J. Griffiths",
+      "tofragment": ""
+    },
+    "Hydrogen-like atom": {
+      "to": "Hydrogen-like atom",
+      "tofragment": ""
+    },
+    "Old quantum theory": {
+      "to": "Old quantum theory",
+      "tofragment": ""
+    },
+    "Werner Heisenberg": {
+      "to": "Werner Heisenberg",
+      "tofragment": ""
+    },
+    "Magnetic field": {
+      "to": "Magnetic field",
+      "tofragment": ""
+    },
+    "Electric charge": {
+      "to": "Electric charge",
+      "tofragment": ""
+    },
+    "Resonance (particle physics)": {
+      "to": "Resonance (particle physics)",
+      "tofragment": ""
+    },
+    "Molecule": {
+      "to": "Molecule",
+      "tofragment": ""
+    },
+    "Spectral line": {
+      "to": "Spectral line",
+      "tofragment": ""
+    },
+    "Edit section: Bohr–Sommerfeld model": {
+      "to": "Edit section: Bohr–Sommerfeld model",
+      "tofragment": ""
+    },
+    "Perturbation theory (quantum mechanics)": {
+      "to": "Perturbation theory (quantum mechanics)",
+      "tofragment": ""
+    },
+    "Partial differential equation": {
+      "to": "Partial differential equation",
+      "tofragment": ""
+    },
+    "Edit section: Mathematical summary of eigenstates of hydrogen atom": {
+      "to": "Edit section: Mathematical summary of eigenstates of hydrogen atom",
+      "tofragment": ""
+    },
+    "Ion": {
+      "to": "Ion",
+      "tofragment": ""
+    },
+    "Laplace operator": {
+      "to": "Laplace operator",
+      "tofragment": ""
+    },
+    "Orthogonal functions": {
+      "to": "Orthogonal functions",
+      "tofragment": ""
+    },
+    "Edit section: Schrödinger equation": {
+      "to": "Edit section: Schrödinger equation",
+      "tofragment": ""
+    },
+    "Half-life": {
+      "to": "Half-life",
+      "tofragment": ""
+    },
+    "Hydronium": {
+      "to": "Hydronium",
+      "tofragment": ""
+    },
+    "Electron mass": {
+      "to": "Electron mass",
+      "tofragment": ""
+    },
+    "Proton decay": {
+      "to": "Proton decay",
+      "tofragment": ""
+    },
+    "Balmer series": {
+      "to": "Balmer series",
+      "tofragment": ""
+    },
+    "Atomic spectroscopy": {
+      "to": "Atomic spectroscopy",
+      "tofragment": ""
+    },
+    "Nuclear reactor": {
+      "to": "Nuclear reactor",
+      "tofragment": ""
+    },
+    "Rotational symmetry": {
+      "to": "Rotational symmetry",
+      "tofragment": ""
+    },
+    "Bohr model": {
+      "to": "Bohr model",
+      "tofragment": ""
+    },
+    "Isotopic abundance": {
+      "to": "Isotopic abundance",
+      "tofragment": ""
+    },
+    "Spherical harmonics": {
+      "to": "Spherical harmonics",
+      "tofragment": ""
+    },
+    "Hagen Kleinert": {
+      "to": "Hagen Kleinert",
+      "tofragment": ""
+    },
+    "Anisotropic": {
+      "to": "Anisotropy",
+      "tofragment": ""
+    },
+    "R.P. Feynman": {
+      "to": "Richard Feynman",
+      "tofragment": ""
+    },
+    "Energy levels": {
+      "to": "Energy level",
+      "tofragment": ""
+    },
+    "Gegenbauer polynomial": {
+      "to": "Gegenbauer polynomials",
+      "tofragment": ""
+    },
+    "Electron spin": {
+      "to": "Spin (physics)",
+      "tofragment": "Fermions and bosons"
+    },
+    "Principal quantum level": {
+      "to": "Principal quantum number",
+      "tofragment": ""
+    },
+    "ISBN (identifier)": {
+      "to": "ISBN",
+      "tofragment": ""
+    },
+    "Doi (identifier)": {
+      "to": "Digital object identifier",
+      "tofragment": ""
+    },
+    "Spin (particle physics)": {
+      "to": "Spin (physics)",
+      "tofragment": ""
+    },
+    "Hydron (chemistry)": {
+      "to": "Hydron",
+      "tofragment": ""
+    },
+    "Magnetic quantum number": {
+      "to": "Magnetic quantum number",
+      "tofragment": ""
+    },
+    "Laplace–Runge–Lenz vector": {
+      "to": "Laplace–Runge–Lenz vector",
+      "tofragment": ""
+    },
+    "Isotopes of hydrogen": {
+      "to": "Isotopes of hydrogen",
+      "tofragment": ""
+    },
+    "Baryon": {
+      "to": "Baryon",
+      "tofragment": ""
+    },
+    "Radioactive decay": {
+      "to": "Radioactive decay",
+      "tofragment": ""
+    },
+    "Quantum state": {
+      "to": "Quantum state",
+      "tofragment": ""
+    },
+    "Edit section: References": {
+      "to": "Edit section: References",
+      "tofragment": ""
+    },
+    "Closed-form expression": {
+      "to": "Closed-form expression",
+      "tofragment": ""
+    },
+    "Niels Bohr": {
+      "to": "Niels Bohr",
+      "tofragment": ""
+    },
+    "Edit section: Wavefunction": {
+      "to": "Edit section: Wavefunction",
+      "tofragment": ""
+    },
+    "List of nuclides": {
+      "to": "List of nuclides",
+      "tofragment": ""
+    },
+    "Classical electromagnetism": {
+      "to": "Classical electromagnetism",
+      "tofragment": ""
+    },
+    "Hydrogen anion": {
+      "to": "Hydrogen anion",
+      "tofragment": ""
+    },
+    "Kronecker delta": {
+      "to": "Kronecker delta",
+      "tofragment": ""
+    },
+    "De Broglie–Bohm theory": {
+      "to": "De Broglie–Bohm theory",
+      "tofragment": ""
+    },
+    "Isotope": {
+      "to": "Isotope",
+      "tofragment": ""
+    },
+    "Hamiltonian (quantum mechanics)": {
+      "to": "Hamiltonian (quantum mechanics)",
+      "tofragment": ""
+    },
+    "Dirac equation": {
+      "to": "Dirac equation",
+      "tofragment": ""
+    },
+    "Edit section: Features going beyond the Schrödinger solution": {
+      "to": "Edit section: Features going beyond the Schrödinger solution",
+      "tofragment": ""
+    },
+    "Proton": {
+      "to": "Proton",
+      "tofragment": ""
+    },
+    "Hydrogen spectral series": {
+      "to": "Hydrogen spectral series",
+      "tofragment": ""
+    },
+    "Edit section: Oscillation of orbitals": {
+      "to": "Edit section: Oscillation of orbitals",
+      "tofragment": ""
+    },
+    "Prentice Hall": {
+      "to": "Prentice Hall",
+      "tofragment": ""
+    },
+    "Reduced mass": {
+      "to": "Reduced mass",
+      "tofragment": ""
+    },
+    "Edit section: Energy levels": {
+      "to": "Edit section: Energy levels",
+      "tofragment": ""
+    },
+    "Edit section: See also": {
+      "to": "Edit section: See also",
+      "tofragment": ""
+    },
+    "Centripetal force": {
+      "to": "Centripetal force",
+      "tofragment": ""
+    },
+    "Antihydrogen": {
+      "to": "Antihydrogen",
+      "tofragment": ""
+    },
+    "Angular momentum operator": {
+      "to": "Angular momentum operator",
+      "tofragment": ""
+    },
+    "Schrödinger equation": {
+      "to": "Schrödinger equation",
+      "tofragment": ""
+    },
+    "Two-body problem": {
+      "to": "Two-body problem",
+      "tofragment": ""
+    },
+    "Atom": {
+      "to": "Atom",
+      "tofragment": ""
+    },
+    "Hydrochloric acid": {
+      "to": "Hydrochloric acid",
+      "tofragment": ""
+    },
+    "Svetlana Kotochigova": {
+      "to": "Svetlana Kotochigova",
+      "tofragment": ""
+    },
+    "Aqueous solution": {
+      "to": "Aqueous solution",
+      "tofragment": ""
+    },
+    "Magnetic moment": {
+      "to": "Magnetic moment",
+      "tofragment": ""
+    },
+    "Longman": {
+      "to": "Longman",
+      "tofragment": ""
+    },
+    "Probability amplitude": {
+      "to": "Probability amplitude",
+      "tofragment": ""
+    },
+    "Deuterium": {
+      "to": "Deuterium",
+      "tofragment": ""
+    },
+    "Hydrogen": {
+      "to": "Hydrogen",
+      "tofragment": ""
+    },
+    "Inertial frame": {
+      "to": "Inertial frame of reference",
+      "tofragment": ""
+    },
+    "Spherical coordinates": {
+      "to": "Spherical coordinate system",
+      "tofragment": ""
+    },
+    "Eigenstates": {
+      "to": "Quantum state",
+      "tofragment": "Pure state"
+    },
+    "Dirac notation": {
+      "to": "Bra–ket notation",
+      "tofragment": ""
+    },
+    "Neutron drip line": {
+      "to": "Nuclear drip line",
+      "tofragment": ""
+    },
+    "Excess energy": {
+      "to": "Mass excess",
+      "tofragment": ""
+    },
+    "Wavefunction": {
+      "to": "Wave function",
+      "tofragment": ""
+    },
+    "Reduced Bohr radius": {
+      "to": "Bohr radius",
+      "tofragment": "Reduced Bohr radius"
+    },
+    "S2CID (identifier)": {
+      "to": "Semantic Scholar",
+      "tofragment": "S2CID"
+    },
+    "Bibcode (identifier)": {
+      "to": "Bibcode",
+      "tofragment": ""
+    },
+    "Path integral formulation": {
+      "to": "Path-integral formulation",
+      "tofragment": ""
+    },
+    "Hamiltonian mechanics": {
+      "to": "Hamiltonian mechanics",
+      "tofragment": ""
+    },
+    "Interstellar medium": {
+      "to": "Interstellar medium",
+      "tofragment": ""
+    },
+    "Fine structure": {
+      "to": "Fine structure",
+      "tofragment": ""
+    },
+    "Total angular momentum quantum number": {
+      "to": "Total angular momentum quantum number",
+      "tofragment": ""
+    },
+    "Planck constant": {
+      "to": "Planck constant",
+      "tofragment": ""
+    },
+    "Quantum fluctuation": {
+      "to": "Quantum fluctuation",
+      "tofragment": ""
+    },
+    "Covalent bond": {
+      "to": "Covalent bond",
+      "tofragment": ""
+    },
+    "Decay chain": {
+      "to": "Decay chain",
+      "tofragment": ""
+    },
+    "Abundance of the chemical elements": {
+      "to": "Abundance of the chemical elements",
+      "tofragment": ""
+    },
+    "Atomic orbital": {
+      "to": "Atomic orbital",
+      "tofragment": ""
+    },
+    "Trihydrogen cation": {
+      "to": "Trihydrogen cation",
+      "tofragment": ""
+    },
+    "Zeeman effect": {
+      "to": "Zeeman effect",
+      "tofragment": ""
+    },
+    "Edit section: Books": {
+      "to": "Edit section: Books",
+      "tofragment": ""
+    },
+    "Neutron": {
+      "to": "Neutron",
+      "tofragment": ""
+    },
+    "Orbital eccentricity": {
+      "to": "Orbital eccentricity",
+      "tofragment": ""
+    },
+    "Degenerate energy levels": {
+      "to": "Degenerate energy levels",
+      "tofragment": ""
+    },
+    "Fine-structure constant": {
+      "to": "Fine-structure constant",
+      "tofragment": ""
+    },
+    "Edit section: Theoretical analysis": {
+      "to": "Edit section: Theoretical analysis",
+      "tofragment": ""
+    },
+    "Atomic physics": {
+      "to": "Atomic physics",
+      "tofragment": ""
+    },
+    "Azimuthal quantum number": {
+      "to": "Azimuthal quantum number",
+      "tofragment": ""
+    },
+    "Dirac spinor": {
+      "to": "Dirac spinor",
+      "tofragment": ""
+    },
+    "Ernest Rutherford": {
+      "to": "Ernest Rutherford",
+      "tofragment": ""
+    },
+    "Table of nuclides": {
+      "to": "Table of nuclides",
+      "tofragment": ""
+    },
+    "List of quantum-mechanical systems with analytical solutions": {
+      "to": "List of quantum-mechanical systems with analytical solutions",
+      "tofragment": ""
+    },
+    "Special relativity": {
+      "to": "Special relativity",
+      "tofragment": ""
+    },
+    "Angular momentum": {
+      "to": "Angular momentum",
+      "tofragment": ""
+    },
+    "Electronvolt": {
+      "to": "Electronvolt",
+      "tofragment": ""
+    },
+    "Lamb shift": {
+      "to": "Lamb shift",
+      "tofragment": ""
+    },
+    "Neutron number": {
+      "to": "Neutron number",
+      "tofragment": ""
+    },
+    "Principal quantum number": {
+      "to": "Principal quantum number",
+      "tofragment": ""
+    },
+    "Chemical element": {
+      "to": "Chemical element",
+      "tofragment": ""
+    },
+    "Quantum chemistry": {
+      "to": "Quantum chemistry",
+      "tofragment": ""
+    },
+    "Coulomb's law": {
+      "to": "Coulomb's law",
+      "tofragment": ""
+    },
+    "Vacuum permittivity": {
+      "to": "Vacuum permittivity",
+      "tofragment": ""
+    },
+    "Oxygen": {
+      "to": "Oxygen",
+      "tofragment": ""
+    },
+    "History of quantum mechanics": {
+      "to": "History of quantum mechanics",
+      "tofragment": ""
+    },
+    "Edit section: Visualizing the hydrogen electron orbitals": {
+      "to": "Edit section: Visualizing the hydrogen electron orbitals",
+      "tofragment": ""
+    },
+    "Spin–orbit interaction": {
+      "to": "Spin–orbit interaction",
+      "tofragment": ""
+    },
+    "Separation of variables": {
+      "to": "Separation of variables",
+      "tofragment": ""
+    },
+    "Electron charge": {
+      "to": "Elementary charge",
+      "tofragment": ""
+    },
+    "Isotropic": {
+      "to": "Isotropy",
+      "tofragment": ""
+    },
+    "Particle accelerators": {
+      "to": "Particle accelerator",
+      "tofragment": ""
+    },
+    "Laguerre polynomial": {
+      "to": "Laguerre polynomials",
+      "tofragment": ""
+    },
+    "Free neutron": {
+      "to": "Neutron",
+      "tofragment": "Free neutron"
+    },
+    "Analytical expression": {
+      "to": "Closed-form expression",
+      "tofragment": "Analytic expression"
+    },
+    "Brønsted–Lowry acid": {
+      "to": "Brønsted–Lowry acid–base theory",
+      "tofragment": ""
+    },
+    "Quantum potential": {
+      "to": "Quantum potential",
+      "tofragment": ""
+    },
+    "Helium atom": {
+      "to": "Helium atom",
+      "tofragment": ""
+    },
+    "Electron": {
+      "to": "Electron",
+      "tofragment": ""
+    },
+    "Classical physics": {
+      "to": "Classical physics",
+      "tofragment": ""
+    },
+    "Hydride": {
+      "to": "Hydride",
+      "tofragment": ""
+    },
+    "Solar wind": {
+      "to": "Solar wind",
+      "tofragment": ""
+    },
+    "Electromagnetic field": {
+      "to": "Electromagnetic field",
+      "tofragment": ""
+    },
+    "Atomic number": {
+      "to": "Atomic number",
+      "tofragment": ""
+    },
+    "Dihydrogen cation": {
+      "to": "Dihydrogen cation",
+      "tofragment": ""
+    },
+    "Decay product": {
+      "to": "Decay product",
+      "tofragment": ""
+    },
+    "Declination": {
+      "to": "Declination",
+      "tofragment": ""
+    },
+    "Quantum field theory": {
+      "to": "Quantum field theory",
+      "tofragment": ""
+    },
+    "Wave function": {
+      "to": "Wave function",
+      "tofragment": ""
+    },
+    "Edit section: Results of Schrödinger equation": {
+      "to": "Edit section: Results of Schrödinger equation",
+      "tofragment": ""
+    },
+    "Classical electron radius": {
+      "to": "Classical electron radius",
+      "tofragment": ""
+    },
+    "Bohr radius": {
+      "to": "Bohr radius",
+      "tofragment": ""
+    },
+    "Quantization (physics)": {
+      "to": "Quantization (physics)",
+      "tofragment": ""
+    },
+    "NASA": {
+      "to": "NASA",
+      "tofragment": ""
+    },
+    "Feynman diagram": {
+      "to": "Feynman diagram",
+      "tofragment": ""
+    },
+    "Spin (physics)": {
+      "to": "Spin (physics)",
+      "tofragment": ""
+    },
+    "Hyperfine structure": {
+      "to": "Hyperfine structure",
+      "tofragment": ""
+    },
+    "Neutron emission": {
+      "to": "Neutron emission",
+      "tofragment": ""
+    },
+    "Paul Dirac": {
+      "to": "Paul Dirac",
+      "tofragment": ""
+    },
+    "Speed of light": {
+      "to": "Speed of light",
+      "tofragment": ""
+    },
+    "Atomic mass": {
+      "to": "Atomic mass",
+      "tofragment": ""
+    },
+    "Nuclear binding energy": {
+      "to": "Nuclear binding energy",
+      "tofragment": ""
+    },
+    "Edit section: Failed classical description": {
+      "to": "Edit section: Failed classical description",
+      "tofragment": ""
+    },
+    "Rydberg constant": {
+      "to": "Rydberg constant",
+      "tofragment": ""
+    },
+    "Matrix mechanics": {
+      "to": "Matrix mechanics",
+      "tofragment": ""
+    },
+    "Ground state": {
+      "to": "Ground state",
+      "tofragment": ""
+    },
+    "Spherical coordinate system": {
+      "to": "Spherical coordinate system",
+      "tofragment": ""
+    },
+    "Arnold Sommerfeld": {
+      "to": "Arnold Sommerfeld",
+      "tofragment": ""
+    },
+    "Quantum electrodynamics": {
+      "to": "Quantum electrodynamics",
+      "tofragment": ""
+    },
+    "Edit section: Alternatives to the Schrödinger theory": {
+      "to": "Edit section: Alternatives to the Schrödinger theory",
+      "tofragment": ""
+    },
+    "Wolfgang Pauli": {
+      "to": "Wolfgang Pauli",
+      "tofragment": ""
+    }
+  },
+  "image_metadata": {
+    "File:HAtomOrbitals.png": "First few [hydrogen atom](https://en.wikipedia.org/wiki/hydrogen_atom) orbitals; cross section showing color-coded probability density for different n=1,2,3 and l=\"s\",\"p\",\"d\"; note: m=0\nThe picture shows the first few hydrogen atom orbitals \\(energy eigenfunctions\\). These are cross-sections of the probability density that are color-coded \\(black=zero density, white=highest density\\). The [angular momentum quantum number](https://en.wikipedia.org/wiki/Azimuthal_quantum_number) l is denoted in each column, using the usual [spectroscopic letter code](https://en.wikipedia.org/wiki/Spectroscopic_notation) \\(\"s\" means l=0; \"p\": l=1; \"d\": l=2\\). The [prinipal quantum number](https://en.wikipedia.org/wiki/Principal_quantum_number) n \\(=1,2,3,...\\) is marked to the right of each row. For all pictures the [magnetic quantum number](https://en.wikipedia.org/wiki/Magnetic_quantum_number) m has been set to 0, and the cross-sectional plane is the x-z plane \\(z is the vertical axis\\). The probability density in three-dimensional space is obtained by rotating the one shown here around the z-axis.\n\nNote the striking similarity of this picture to the diagrams of the normal modes of displacement of a soap film membrane oscillating on a disk bound by a wire frame. See, e.g., _Vibrations and Waves_, A.P. French, M.I.T. Introductory Physics Series, 1971, [ISBN](https://en.wikipedia.org/wiki/ISBN) [0393099369](//commons.wikimedia.org/wiki/Special:BookSources/0393099369), page 186, Fig. 6-13. See also [Normal vibration modes of a circular membrane](http://web.mat.bham.ac.uk/C.J.Sangwin/Teaching/CircWaves/waves.html).",
+    "File:Hydrogen atom.svg": "Hydrogen atom",
+    "File:Hydrogen eigenstate n4 l3 m1.png": "Calculated 4f<sub>1</sub> [orbital](https://en.wikipedia.org/wiki/Atomic_orbital) of an electron's eigenstate in the Coulomb-field of a hydrogen nucleus. An [eigenstate](https://en.wikipedia.org/wiki/Eigenfunction) is a state which keeps it's shape except for a complex phase when the [Hamilton operator](https://en.wikipedia.org/wiki/Hamiltonian_(quantum_mechanics)) is applied, thus being invariant in time while obeying the [Schrödinger equation](https://en.wikipedia.org/wiki/Schr%C3%B6dinger_equation). The orbital is aligned around the z-axis, but remains an eigenfunction if rotated to any direction.\n\nThe [wavefunction](#wavefunction) is:\n\nψ4,3,1(r,ϑ,φ)=(12a0)318⋅7!⋅e−r/(4a0)⋅(1r2a0)3⋅Y31(ϑ,φ)\n\n\nThe state is an eigenstate of [H](https://en.wikipedia.org/wiki/Hamiltonian_(quantum_mechanics)), [L](https://en.wikipedia.org/wiki/Angular_momentum_operator)² and [L](https://en.wikipedia.org/wiki/Angular_momentum_operator)<sub>z</sub>, which constitute a [complete set of commuting observables](https://en.wikipedia.org/wiki/complete_set_of_commuting_observables). The [quantum numbers](https://en.wikipedia.org/wiki/quantum_number) mean that the following quantities have a sharp certain value:\n\n\n\n- n = 4: [Energy](https://en.wikipedia.org/wiki/Principal_quantum_number): E=−1Ry/n2=−13.6eV/16\n- l = 3: [Angular momentum](https://en.wikipedia.org/wiki/Azimuthal_quantum_number): |L|=l(l+1)ℏ=23ℏ\n- m = 1: [Angular momentum in z-direction](https://en.wikipedia.org/wiki/Magnetic_quantum_number): Lz=mℏ=ℏ\n\n\n\nSince l=3, this is called a f-orbital. The depicted rigid body is where the probability density exceeds a certain value. The color shows the complex phase of the wavefunction, where blue means real positive, red means imaginary positive, yellow means real negative and green means imaginary negative. The image is [raytraced](https://en.wikipedia.org/wiki/Ray_tracing_(graphics)) using modified [Phong lighting](https://en.wikipedia.org/wiki/Phong_reflection_model).\n\nThe [fine structure](https://en.wikipedia.org/wiki/fine_structure) is neglected.",
+    "File:Hydrogen 1.svg": "Hydrogen <sup>1</sup>H the most common isotope of the lightest element",
+    "File:OOjs UI icon edit-ltr-progressive.svg": "An icon from the OOjs UI MediaWiki lib.",
+    "File:Azsxdcv.gif": "The oscilation of two orbitals with the same m number",
+    "File:Spherical harmonics animation1.gif": "The oscillation of two orbitals with different angular mumentum numbers"
+  },
+  "name_map_overrides": {}
+}
