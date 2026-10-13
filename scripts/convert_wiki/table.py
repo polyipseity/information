@@ -1500,7 +1500,12 @@ class TableConverter:
 
     @staticmethod
     def _cell_alignment(cell: Tag) -> str:
-        """Derive a GFM alignment marker from a table cell's ``text-align`` style.
+        """Derive a GFM alignment marker from ``text-align`` in the CSS cascade.
+
+        Checks the cell's own style, then its parent ``<tr>``, then the
+        enclosing ``<table>`` — the precedence a browser applies, so tables
+        like Wikipedia's ``{{Isotope sequence}}`` (row-level
+        ``text-align: center``, width-only cells) keep their centering.
 
         Returns one of:
 
@@ -1509,16 +1514,20 @@ class TableConverter:
           left-alignment.
         - ``":--"`` — explicit ``text-align: left``.
         - ``"--:"`` — explicit ``text-align: right``.
-        - ``"-:-"`` — explicit ``text-align: center``.
+        - ``":-:"`` — explicit ``text-align: center``.
         """
-        style = str(cell.get("style", ""))
-        if ta_match := _TEXT_ALIGN_REGEX.search(style):
-            ta = ta_match[1]
-            if ta == "center":
-                return ":-:"
-            elif ta == "right":
-                return "--:"
-            return ":--"
+        row = cell.parent
+        table = row.find_parent("table") if isinstance(row, Tag) else None
+        for element in (cell, row, table):
+            if not isinstance(element, Tag):
+                continue
+            if ta_match := _TEXT_ALIGN_REGEX.search(str(element.get("style", ""))):
+                ta = ta_match[1]
+                if ta == "center":
+                    return ":-:"
+                elif ta == "right":
+                    return "--:"
+                return ":--"
         return "---"
 
     @staticmethod

@@ -1917,6 +1917,68 @@ class TestTableHandling:
         result = await _convert(converter, html)
         assert result == "\n| __A__ | B |\n| --- | --- |\n| C | D |\n\n\n"
 
+    @pytest.mark.anyio
+    async def test_row_level_text_align_centers_columns(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A row-level ``text-align`` applies to its plain cells.
+
+        The ``{{Isotope sequence}}`` table on Wikipedia centers every row
+        via ``<tr style="text-align: center;">`` while its cells carry
+        only width styles, so cell-only inspection would lose the centering.
+        """
+        html = (
+            '<table class="wikitable"><tbody>'
+            '<tr style="text-align: center;">'
+            '<td style="width:35%">A</td><td>B</td></tr>'
+            '<tr style="text-align: center;"><td>C</td><td>D</td></tr>'
+            "</tbody></table>"
+        )
+        result = await _convert(converter, html)
+        assert result == "\n|  |  |\n| :-: | :-: |\n| A | B |\n| C | D |\n\n\n"
+
+    @pytest.mark.anyio
+    async def test_cell_level_text_align_overrides_row_level(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """An explicit cell alignment still beats its row's."""
+        html = (
+            "<table><tbody>"
+            '<tr style="text-align: center;">'
+            '<td style="text-align: right;">A</td><td>B</td></tr>'
+            "</tbody></table>"
+        )
+        result = await _convert(converter, html)
+        assert result == "\n|  |  |\n| --: | :-: |\n| A | B |\n\n\n"
+
+    @pytest.mark.anyio
+    async def test_row_level_text_align_overrides_table_level(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A row's alignment beats its table's."""
+        html = (
+            '<table style="text-align: center;"><tbody>'
+            '<tr style="text-align: right;"><td>A</td><td>B</td></tr>'
+            '<tr style="text-align: right;"><td>C</td><td>D</td></tr>'
+            "</tbody></table>"
+        )
+        result = await _convert(converter, html)
+        assert result == "\n|  |  |\n| --: | --: |\n| A | B |\n| C | D |\n\n\n"
+
+    @pytest.mark.anyio
+    async def test_table_level_text_align_applies_to_plain_cells(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A table-level alignment applies when neither cell nor row sets one."""
+        html = (
+            '<table style="text-align: center;"><tbody>'
+            "<tr><td>A</td><td>B</td></tr>"
+            "<tr><td>C</td><td>D</td></tr>"
+            "</tbody></table>"
+        )
+        result = await _convert(converter, html)
+        assert result == "\n|  |  |\n| :-: | :-: |\n| A | B |\n| C | D |\n\n\n"
+
 
 # ---------------------------------------------------------------------------
 
