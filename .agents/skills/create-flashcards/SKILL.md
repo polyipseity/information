@@ -113,7 +113,7 @@ Break at commas, semicolons, conjunctions (`and`, `but`, `so`, `because`), relat
 | --- | --- |
 | Comma | "voltage is equal, so current differs" → two clozes |
 | Semicolon | "R increases; X decreases" → two clozes |
-| Conjunction | "blocks the MCU and risks missing inputs" → two clozes |
+| Conjunction | "blocks the microcontroller unit (MCU) and risks missing inputs" → two clozes |
 | Equation boundary | "IB is 0.09 mA, so βIB is 8.2 mA" → two clozes |
 | Prose + equation | "current is $I=...$" → two clozes (prose visible, equation hidden) |
 | Solution step | "IB is 0.09 mA, so βIB is 8.2 mA" → each equation gets its own cloze |
@@ -161,14 +161,14 @@ Common failures: clozing only equations while leaving prose explanations visible
 1. __Truth table + formula split__ (electronic circuits): the formula and the concept get separate clozes, each anchored by a hint word.
 
    ```text
-   Input: The output is XNOR with Q = AB' + A'B.
+   Input: The output is exclusive NOR (XNOR) with Q = AB' + A'B.
    Output: The {@{output is exclusive NOR (XNOR)}@} with {@{$Q = AB' + A'B$}@}.
    ```
 
 2. __Splitting a single long cloze__ (embedded systems): one giant blank becomes three focused ones, each testing a distinct concept.
 
    ```text
-   Input: millis() returns milliseconds and has no rollover risk for months, but delay() blocks the MCU and risks missing sensor inputs.
+   Input: millis() returns milliseconds and has no rollover risk for months, but delay() blocks the microcontroller unit (MCU) and risks missing sensor inputs.
    Output: millis() returns {@{milliseconds}@} and has {@{no rollover risk for months}@}, but delay() {@{blocks the microcontroller unit (MCU) and risks missing sensor inputs}@}.
    ```
 
@@ -206,7 +206,7 @@ Common failures: clozing only equations while leaving prose explanations visible
 6. __Full form beside the short form__ (embedded systems): the expansion rides on the same card line as the acronym, inside the cloze when it is the payload.
 
    ```text
-   Input: The MCU uses DMA to move data without the CPU.
+   Input: The microcontroller unit (MCU) uses direct memory access (DMA) to move data without the CPU.
    Output: The {@{microcontroller unit (MCU)}@} uses {@{direct memory access (DMA)}@} to move data without the CPU.
    ```
 

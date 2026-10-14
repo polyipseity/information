@@ -57,7 +57,7 @@ When the in-class component exists, the `index.md` links to `lab.md`/`tutorial.m
 echo "/path/to/Canvas HTML.html" | uv run -m scripts.special.convert_canvas_submission 2> tutorial.yml
 ```
 
-Redirect stderr to `tutorial.yml`/`lab.yml`/`lecture.yml` for in-class components and to `submission.yml` for out-of-class ones. When no Canvas page exists (e.g., an ungraded PRS-only session), do not create a component YAML file.
+Redirect stderr to `tutorial.yml`/`lab.yml`/`lecture.yml` for in-class components and to `submission.yml` for out-of-class ones. When no Canvas page exists, such as an ungraded Personal Response System (PRS)-only session, do not create a component YAML file.
 
 ### In-class-only submissions
 

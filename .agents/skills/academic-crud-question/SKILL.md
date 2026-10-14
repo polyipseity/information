@@ -90,7 +90,7 @@ Use `\[missing\]` for absent values, such as a problem with no solution yet or a
 ```markdown
 > $$f_X(x) = \lambda e^{-\lambda x}$$
 >
-> The CDF is obtained by integrating.
+> The cumulative distribution function (CDF) is obtained by integrating.
 ```
 
 Every line inside a blockquote must begin with `>`, blank lines included.

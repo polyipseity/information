@@ -15,7 +15,7 @@ __Hard rule: create only what the source warrants.__ The decision tree fixes the
 | --- | --- | --- |
 | Course homepage (generic HTML) | Course `index.md` only | Subdirectories, sessions, assignments |
 | Canvas assignment page | Submission leaf (`index.md` + YAML) | Course-level sessions, other submissions |
-| PRS/iClicker quiz HTML | In-class content file (`<type>.md`) | Course-level metadata, submission YAML |
+| Personal Response System (PRS)/iClicker quiz HTML | In-class content file (`<type>.md`) | Course-level metadata, submission YAML |
 | Canvas announcement | Blockquote in matching session | New sessions, new files |
 
 __Lectures, labs, and tutorials are separate types__, each with its own section keys:

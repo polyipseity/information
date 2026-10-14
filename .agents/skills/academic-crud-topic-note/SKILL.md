@@ -286,7 +286,7 @@ Use `\[missing\]` for absent values, such as a topic with no cross-references or
 ### Machine-learning notes
 
 - Derive formulas; separate estimation from decision.
-- Make assumptions explicit (IID, priors, thresholds, intercept conventions).
+- Make assumptions explicit: independent and identically distributed (IID) samples, priors, thresholds, intercept conventions.
 - Distinguish the true distribution $P$ from the model distribution $Q$.
 - Distinguish L2 regularization from weight decay.
 - Explain why the empirical loss carries the $1/N$ factor.
