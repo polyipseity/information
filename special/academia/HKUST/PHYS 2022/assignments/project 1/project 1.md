@@ -14,14 +14,14 @@ tags:
 - HKUST PHYS 2022 project 1
 - parent: [project 1](index.md)
 
-Project 1 runs two experiments side by side: the double-slit pattern that light makes through two narrow openings, and the relation between a gas's pressure, its temperature, and how its molecules move. Each experiment sweeps one parameter across five values, plots the measured quantity against the swept one, and reads a formula off the plot. The full treatments live in [light](../../light.md) and [kinetic theory of gases](../../kinetic%20theory%20of%20gases.md).
+Project 1 offers two experiments, either of which suffices: a project carrying more than one simulation may choose freely. The double-slit pattern that light makes through two narrow openings is one; the relation between a gas's pressure, its temperature, and how its molecules move is the other. Each experiment sweeps one parameter across five values, plots the measured quantity against the swept one, and reads a formula off the plot. The full treatments live in [light](../../light.md) and [kinetic theory of gases](../../kinetic%20theory%20of%20gases.md).
 
 ---
 
 Flashcards for this section are as follows:
 
-- overview: the two experiments of project 1 ::@:: The double-slit interference pattern of light, and the relation between a gas's pressure, temperature, and molecular motion.
-- the method both experiments share ::@:: Sweep one parameter across five values, plot the measured quantity against it, and read a formula off the plot.
+- overview: the two experiments project 1 offers, and how many need doing ::@:: The double-slit interference pattern of light, and the relation between a gas's pressure, temperature, and molecular motion; one of the two suffices.
+- the method each experiment of project 1 follows ::@:: Sweep one parameter across five values, plot the measured quantity against it, and read a formula off the plot.
 
 ## double slit
 

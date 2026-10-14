@@ -38,6 +38,7 @@ PHYS 2022 is an undergraduate course in modern physics. It covers relativity, qu
 - [Compton effect](Compton%20effect.md)
 - [Copenhagen interpretation](Copenhagen%20interpretation.md)
 - [Franck–Hertz experiment](Franck%E2%80%93Hertz%20experiment.md)
+- [Lennard-Jones potential](Lennard-Jones%20potential.md)
 - [Max Planck](Max%20Planck.md)
 - [Planck's law](Planck%27s%20law.md)
 - [Rayleigh–Jeans law](Rayleigh%E2%80%93Jeans%20law.md)
@@ -81,6 +82,7 @@ PHYS 2022 is an undergraduate course in modern physics. It covers relativity, qu
 - [mode density of a cavity](mode%20density%20of%20a%20cavity.md)
 - [modern physics](modern%20physics.md)
 - [neutron diffraction](neutron%20diffraction.md)
+- [nuclear magnetic resonance](nuclear%20magnetic%20resonance.md)
 - [particle in a box](particle%20in%20a%20box.md)
 - [photoelectric effect](photoelectric%20effect.md)
 - [photoemission spectroscopy](photoemission%20spectroscopy.md)
@@ -108,7 +110,7 @@ PHYS 2022 is an undergraduate course in modern physics. It covers relativity, qu
 - textbook: _Modern Physics for Scientists and Engineers_ (Stephen T. Thornton, Andrew Rex, and Carol Hood; CENGAGE; fifth edition)
 - grading
     - homework: 20%; five textbook end-of-chapter problems per submission; nine of the eleven submissions count
-    - mini projects: 20%; five of the ten projects count
+    - mini projects: 20%; five of the ten projects count; whether project 1 counts is the student's choice, and projects submitted after it count automatically
     - tutorials: 20%; eight of the ten submissions count; each submission is worth 10 points for the answer and 10 for evaluating a peer
     - mid-term examination: 20%; open book
     - final examination: 20%; open book
@@ -120,6 +122,8 @@ PHYS 2022 is an undergraduate course in modern physics. It covers relativity, qu
         - T2: Rm 1410, Lift 25-26; MondayT14:00:00/MondayT14:50:00
         - T3: Rm 1410, Lift 25-26; MondayT12:00:00/MondayT12:50:00
 - note: homework follows the format of [`HW sample.pdf`](attachments/HW%20sample.pdf); mini projects follow [`Project sample.pdf`](attachments/Project%20sample.pdf)
+- note: a mini project with more than one simulation needs only one of them, chosen freely, and its textbook formula may be compared against any standard reference
+- note: a mini project report sums its data in one equation with "=" fitted from the data alone, compares that equation quantitatively with the textbook one, fits by physical sense rather than software precision, and attaches the captured screens as the original data
 - note: both examinations take printed hardcopies; electronic versions are not allowed
 - note: marks earned during the add-drop period may be included in the final mark
 
@@ -186,6 +190,9 @@ PHYS 2022 is an undergraduate course in modern physics. It covers relativity, qu
         - [quantum tunnelling](quantum%20tunnelling.md)
     - modern physics
         - [modern physics](modern%20physics.md)
+    - molecules and nuclei
+        - [Lennard-Jones potential](Lennard-Jones%20potential.md)
+        - [nuclear magnetic resonance](nuclear%20magnetic%20resonance.md)
     - particle physics
         - [positron](positron.md)
         - [annihilation](annihilation.md)

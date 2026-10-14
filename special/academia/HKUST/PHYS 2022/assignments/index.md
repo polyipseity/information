@@ -25,3 +25,8 @@ tags:
 - [project 3](project%203/index.md)
 - [project 4](project%204/index.md)
 - [project 5](project%205/index.md)
+- [project 6](project%206/index.md)
+- [project 7](project%207/index.md)
+- [project 8](project%208/index.md)
+- [project 9](project%209/index.md)
+- [project 10](project%2010/index.md)

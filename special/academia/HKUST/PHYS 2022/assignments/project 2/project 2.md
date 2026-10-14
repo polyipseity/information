@@ -14,14 +14,14 @@ tags:
 - HKUST PHYS 2022 project 2
 - parent: [project 2](index.md)
 
-Project 2 runs two experiments side by side: the spectrum a hot body emits, and the electrons light frees from a metal surface. Each experiment sweeps one parameter across five values, plots the measured quantity against it, and reads a formula off the plot. The full treatments live in [black-body radiation](../../black-body%20radiation.md) and [photoelectric effect](../../photoelectric%20effect.md).
+Project 2 offers two experiments, either of which suffices: a project carrying more than one simulation may choose freely. The spectrum a hot body emits is one; the electrons light frees from a metal surface is the other. Each experiment sweeps one parameter across five values, plots the measured quantity against it, and reads a formula off the plot. The full treatments live in [black-body radiation](../../black-body%20radiation.md) and [photoelectric effect](../../photoelectric%20effect.md).
 
 ---
 
 Flashcards for this section are as follows:
 
-- overview: the two experiments of project 2 ::@:: The spectrum a hot body emits at different temperatures, and the electrons light frees from a metal surface at different frequencies and intensities.
-- the method both experiments share ::@:: Sweep one parameter across five values, plot the measured quantity against it, and read a formula off the plot.
+- overview: the two experiments project 2 offers, and how many need doing ::@:: The spectrum a hot body emits at different temperatures, and the electrons light frees from a metal surface at different frequencies and intensities; one of the two suffices.
+- the method each experiment of project 2 follows ::@:: Sweep one parameter across five values, plot the measured quantity against it, and read a formula off the plot.
 
 ## black-body radiation
 

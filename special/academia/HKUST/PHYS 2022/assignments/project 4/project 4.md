@@ -27,7 +27,7 @@ Flashcards for this section are as follows:
 
 A gun fires electrons through two slits onto a distant screen, and the fringes of the accumulated pattern sit at a spacing $\Delta x = \lambda L/d$, set by the slit separation $d$ and the screen distance $L$. Reading $\Delta x$ off the pattern returns the wavelength, $\lambda = \Delta x\, d/L$, at each of five gun velocities.
 
-The same five velocities are then run in single-particle mode, where only one particle is in flight at a time and the real part of its wave function is displayed. A ruler measures the wavelength along that wave function, and it matches the wavelength the fringes gave. One particle interferes with itself: the wave whose wavelength the ruler reads is the wave whose interference the fringes record.
+The same five velocities are then run in single-particle mode, where only one particle is in flight at a time and the real part of its wave function is displayed. The measuring tape measures the wavelength along that wave function, and it matches the wavelength the fringes gave. One particle interferes with itself: the wave whose wavelength the tape reads is the wave whose interference the fringes record. The simulation prints its own velocity and wavelength values, but the wavelength stays a measurement, taken from the tape rather than read off the display. The older version of the simulation remains usable, and its wavelength readout runs about twice the true value, since it displays the wave's amplitude rather than its length.
 
 ---
 
@@ -35,7 +35,9 @@ Flashcards for this section are as follows:
 
 - overview: how the fringe spacing $\Delta x$ of a double-slit pattern yields a wavelength ::@:: The fringe spacing $\Delta x = \lambda L/d$ inverts to $\lambda = \Delta x\, d/L$, with slit separation $d$ and screen distance $L$.
 - comparing the fringe-derived wavelength with the wave-function wavelength at the same gun velocity ::@:: They match, so the wave function of a single particle carries the wavelength whose interference the accumulated fringes show.
-- what the match between the two measurements establishes ::@:: One particle interferes with itself: the wave the ruler reads off its wave function is the wave the double-slit fringes record.
+- what the match between the two measurements establishes ::@:: One particle interferes with itself: the wave the measuring tape reads off its wave function is the wave the double-slit fringes record.
+- the tool that gives the wavelength in single-particle mode, where the simulation also prints its own values ::@:: The measuring tape: the wavelength comes from the measurement, not from the display.
+- the older simulation version's wavelength readout ::@:: About twice the true value, since it shows the wave's amplitude rather than its length; the version itself remains usable.
 
 ## de Broglie relation
 
