@@ -63,7 +63,7 @@ Flashcards for this section are as follows:
 
 Secondary storage extends main memory with large non-volatile capacity that holds data permanently. It is needed because main memory is volatile and holds only what is currently in use. Its two most common devices are hard-disk drives (HDDs) and nonvolatile memory (NVM) devices, and both store programs and data.
 
-Secondary-storage devices fall into two classes by how they store bits. Mechanical storage covers HDDs, optical disks, holographic storage, and magnetic tape. Electrical storage covers flash memory, solid-state disks (SSDs), ferroelectric RAM (FRAM), and NRAM, and is usually called NVM. A hard-disk drive is the mechanical case, reached through mechanical access, while a solid-state disk built from flash has no moving parts.
+Secondary-storage devices fall into two classes by how they store bits. Mechanical storage covers HDDs, optical disks, holographic storage, and magnetic tape. Electrical storage covers flash memory, solid-state disks (SSDs), ferroelectric RAM (FRAM), and Nano RAM (NRAM), and is usually called NVM. A hard-disk drive is the mechanical case, reached through mechanical access, while a solid-state disk built from flash has no moving parts.
 
 That contrast shapes the design: mechanical storage is generally larger and cheaper per byte, while electrical storage is smaller, more reliable, faster, and more expensive. In the hierarchy, nonvolatile memory sits above hard-disk drives, with optical disk and magnetic tape further below.
 
@@ -74,7 +74,7 @@ Flashcards for this section are as follows:
 - secondary storage ::@:: The extension of main memory that provides large non-volatile storage capacity, holding data permanently.
 - common secondary-storage devices ::@:: Hard-disk drives (HDDs) and nonvolatile memory (NVM) devices such as solid-state disks, providing storage for both programs and data.
 - why secondary storage is needed ::@:: Main memory is volatile and cannot hold data permanently, so secondary storage supplies large non-volatile capacity for the programs and data not currently in use.
-- mechanical versus electrical storage ::@:: Mechanical storage covers hard-disk drives, optical disks, holographic storage, and magnetic tape, reached through mechanical access; electrical storage covers flash memory, solid-state disks, ferroelectric RAM (FRAM), and NRAM, has no moving parts, and is usually called nonvolatile memory (NVM).
+- mechanical versus electrical storage ::@:: Mechanical storage covers hard-disk drives, optical disks, holographic storage, and magnetic tape, reached through mechanical access; electrical storage covers flash memory, solid-state disks, ferroelectric RAM (FRAM), and Nano RAM (NRAM), has no moving parts, and is usually called nonvolatile memory (NVM).
 - mechanical versus electrical cost and capacity ::@:: Mechanical storage is generally larger and less expensive per byte than electrical storage.
 - mechanical versus electrical reliability and speed ::@:: Electrical storage is more costly, smaller, more reliable, and faster than mechanical storage.
 

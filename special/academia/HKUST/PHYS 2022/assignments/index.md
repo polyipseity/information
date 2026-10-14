@@ -21,6 +21,7 @@ tags:
 ## children
 
 - [project 1](project%201/index.md)
+- [project 10](project%2010/index.md)
 - [project 2](project%202/index.md)
 - [project 3](project%203/index.md)
 - [project 4](project%204/index.md)
@@ -29,4 +30,3 @@ tags:
 - [project 7](project%207/index.md)
 - [project 8](project%208/index.md)
 - [project 9](project%209/index.md)
-- [project 10](project%2010/index.md)

@@ -25,7 +25,7 @@ Flashcards for this section are as follows:
 
 ## prism and the thermometer
 
-In 1880, Sir William Herschel split sunlight with a prism and placed a thermometer in each colour of the resulting spectrum, reading the temperature each colour produced. He wanted to compare the heating power of the colours and expected nothing remarkable.
+In 1800, Sir William Herschel split sunlight with a prism and placed a thermometer in each colour of the resulting spectrum, reading the temperature each colour produced. He wanted to compare the heating power of the colours and expected nothing remarkable.
 
 The thermometer read highest in the red region and lowest in the blue, both as expected. The reading that did not fit the expectation came from past the red, where no light is visible. A thermometer there should have read lower than in any visible colour.
 
@@ -33,7 +33,7 @@ The thermometer read highest in the red region and lowest in the blue, both as e
 
 Flashcards for this section are as follows:
 
-- the year and the person behind the prism-and-thermometer discovery of the infrared ::@:: 1880, Sir William Herschel, who split sunlight with a prism and read a thermometer in each colour.
+- the year and the person behind the prism-and-thermometer discovery of the infrared ::@:: 1800, Sir William Herschel, who split sunlight with a prism and read a thermometer in each colour.
 - what Sir William Herschel was measuring, and why ::@:: The temperature each colour of sunlight produced at the thermometer, to compare the heating power of the colours. He expected nothing remarkable.
 - which end of the visible spectrum gave the highest thermometer reading, and which the lowest ::@:: The red region read highest, the blue region lowest.
 - the reading a thermometer should have given past the red, where no light is visible ::@:: Lower than in any visible colour.
