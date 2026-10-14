@@ -19,8 +19,8 @@ A child copies an act the child has only seen, which is [observational learning]
 Flashcards for this section are as follows:
 
 - who ran it and when ::@:: Albert Bandura ran the Bobo doll experiment in 1961.
-- what the test measured ::@:: Bandura measured what a child learns by watching another person.
-- the behaviour chosen ::@:: Bandura chose aggression as the behaviour to test.
+- what the test measured ::@:: Albert Bandura measured what a child learns by watching another person.
+- the behaviour chosen ::@:: Albert Bandura chose aggression as the behaviour to test.
 - the prevailing belief ::@:: Most people believed watching violence works off the urge to commit it and leaves the viewer calmer.
 - the result ::@:: Children in a 1961 experiment hit a doll after watching an adult hit it, the opposite of what almost everyone expected.
 - observational learning ::@:: A child copying an act the child has only seen.

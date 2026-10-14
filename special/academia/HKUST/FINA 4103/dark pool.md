@@ -10,7 +10,7 @@ tags:
 
 # dark pool
 
-A _dark pool_ is an alternative trading system (ATS) where all orders are completely hidden. Trades execute at the midpoint of the NBBO: if the NBO is 101 dollars and the NBB is 99 dollars, dark pool trades execute at 100 dollars.
+A _dark pool_ is an alternative trading system (ATS) where all orders are completely hidden. Trades execute at the midpoint of the national best bid and offer (NBBO): if the national best offer (NBO) is 101 dollars and the national best bid (NBB) is 99 dollars, dark pool trades execute at 100 dollars.
 
 Dark pools offer better prices than lit exchanges, but regulators worry about their volume share and effect on price discovery.
 
@@ -19,7 +19,7 @@ Dark pools offer better prices than lit exchanges, but regulators worry about th
 Flashcards for this section are as follows:
 
 - what a dark pool is ::@:: An alternative trading system where all orders are hidden.
-- at what price dark pool trades execute ::@:: The midpoint of the NBBO.
+- at what price dark pool trades execute ::@:: The midpoint of the national best bid and offer (NBBO).
 - regulatory concern about dark pools ::@:: Their volume share and potential harm to price discovery.
 
 ## dark pools and price efficiency

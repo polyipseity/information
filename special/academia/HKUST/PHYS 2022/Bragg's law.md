@@ -29,8 +29,8 @@ Flashcards for this section are as follows:
 
 - why X-rays of wavelength $\lambda$ could not be diffracted as easily as visible light ::@:: A grating diffracts strongly only when its spacing approaches the wavelength, and the estimated X-ray wavelengths of $10^{-10}$ to $10^{-11}\ \text{m}$ are far below any grating made for visible light.
 - the X-ray wavelength range $\lambda$ that Wilhelm Wien and Arnold Sommerfeld estimated ::@:: Between $10^{-10}$ and $10^{-11}\ \text{m}$.
-- Laue's 1912 proposal for diffracting X-rays of wavelength $\lambda$ near $10^{-10}\ \text{m}$ ::@:: Use a crystal: its regularly spaced atoms, about $10^{-10}\ \text{m}$ apart, form a three-dimensional grating at the X-ray wavelength scale.
-- what Laue's X-ray diffraction patterns of 1912 proved about the wavelength $\lambda$ of X-rays ::@:: X-rays are electromagnetic waves of very short wavelength, near $10^{-10}\ \text{m}$, with maxima only along specific directions.
+- Max von Laue's 1912 proposal for diffracting X-rays of wavelength $\lambda$ near $10^{-10}\ \text{m}$ ::@:: Use a crystal: its regularly spaced atoms, about $10^{-10}\ \text{m}$ apart, form a three-dimensional grating at the X-ray wavelength scale.
+- what Max von Laue's X-ray diffraction patterns of 1912 proved about the wavelength $\lambda$ of X-rays ::@:: X-rays are electromagnetic waves of very short wavelength, near $10^{-10}\ \text{m}$, with maxima only along specific directions.
 - what each spot in a Laue diffraction pattern corresponds to ::@:: One set of lattice planes: each dot around the central beam is the reflection from a unique plane family, so the pattern lists the families the crystal presents.
 
 ## reflection picture

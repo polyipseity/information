@@ -29,7 +29,7 @@ Flashcards for this section are as follows:
 - what the measured signal is ::@:: The signal is the summed postsynaptic activity of the neurons beneath the electrode.
 - the method establishes about a signal ::@:: The method dates an event without locating it.
 - the temporal resolution of electroencephalography ::@:: Electroencephalography pins down when something happened very well.
-- how electroencephalography differs from functional magnetic resonance imaging ::@:: EEG reads the electrical activity itself; functional magnetic resonance imaging reads a slow consequence of it.
+- how electroencephalography differs from functional magnetic resonance imaging ::@:: Electroencephalography (EEG) reads the electrical activity itself; functional magnetic resonance imaging reads a slow consequence of it.
 - the spatial resolution of electroencephalography ::@:: Electroencephalography is poor at showing where in the brain the activity came from.
 - why the spatial resolution is poor ::@:: The field reaching one electrode could have been generated almost anywhere in the brain.
 - what a raw recording looks like before averaging ::@:: A raw recording is a mass of overlapping activity.

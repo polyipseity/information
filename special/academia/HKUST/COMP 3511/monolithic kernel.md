@@ -21,7 +21,7 @@ Flashcards for this section are as follows:
 
 ## original UNIX structure
 
-In traditional UNIX, the kernel consists of everything below the system-call interface and above the physical hardware: signal handling, terminal handling, character I/O, the file system, CPU scheduling, page replacement, demand paging, virtual memory, and device drivers for terminals, disks, and tapes. The hardware layer provides terminal controllers, device controllers, and memory controllers.
+In traditional UNIX, the kernel consists of everything below the system-call interface and above the physical hardware: signal handling, terminal handling, character input/output (I/O), the file system, central processing unit (CPU) scheduling, page replacement, demand paging, virtual memory, and device drivers for terminals, disks, and tapes. The hardware layer provides terminal controllers, device controllers, and memory controllers.
 
 UNIX initially had limited structuring due to hardware constraints. All functionality was placed into a single, static binary running in one address space: the monolithic structure. The kernel grew over the years as UNIX evolved, expanding its interfaces and device drivers.
 
@@ -31,7 +31,7 @@ All OS functionality combined into one level makes the system difficult to imple
 
 Flashcards for this section are as follows:
 
-- original UNIX kernel structure ::@:: The kernel consists of everything below the system-call interface and above the physical hardware: signals, I/O, file systems, CPU scheduling, memory management, and device drivers, all in a single address space.
+- original UNIX kernel structure ::@:: The kernel consists of everything below the system-call interface and above the physical hardware: signals, input/output (I/O), file systems, central processing unit (CPU) scheduling, memory management, and device drivers, all in a single address space.
 - monolithic kernel drawback ::@:: Enormous functionality combined into one level makes the system difficult to implement, debug, and maintain.
 - why monolithic kernels persist ::@:: Their speed and efficiency — direct function calls within one address space have minimal overhead — keep them in use in UNIX, Linux, and Windows.
 

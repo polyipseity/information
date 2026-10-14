@@ -10,7 +10,7 @@ tags:
 
 # observational learning
 
-A learner watches someone act, then copies it. The person being watched is the social model, an authority the learner watches and tries to copy. Any reward or punishment lands on the person watched, not the learner, and sometimes nothing follows at all. Bandura's 1977 account, social learning theory, treats the watching itself as the learning. Conditioning and social learning theory differ in one point. The behaviour reinforced has to be the learner's own.
+A learner watches someone act, then copies it. The person being watched is the social model, an authority the learner watches and tries to copy. Any reward or punishment lands on the person watched, not the learner, and sometimes nothing follows at all. Albert Bandura's 1977 account, social learning theory, treats the watching itself as the learning. Conditioning and social learning theory differ in one point. The behaviour reinforced has to be the learner's own.
 
 Four stages sit between watching and repeating: attention, retention, initiation, and motivation. Each can break on its own. A learner who cannot do an observed act has failed at one of the four, and each point calls for a different remedy.
 
@@ -19,7 +19,7 @@ Four stages sit between watching and repeating: attention, retention, initiation
 Flashcards for this section are as follows:
 
 - what the learner watches, and where the consequences land ::@:: A learner watches what other people do, and the consequences can fall on someone else or not appear at all.
-- other name for observational learning ::@:: Social learning theory, in Bandura's 1977 account.
+- other name for observational learning ::@:: Social learning theory, in Albert Bandura's 1977 account.
 - what the two conditionings require ::@:: The behaviour reinforced has to be the learner's own.
 - social model ::@:: An authority a learner watches and tries to copy.
 - what the four stages being separate buys ::@:: Each stage can break on its own, and each one calls for a different remedy.

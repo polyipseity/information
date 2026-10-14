@@ -21,7 +21,7 @@ Flashcards for this section are as follows:
 
 ## the structure-process trade-off
 
-Pylyshyn and Kosslyn disagreed about visual mental imagery. Pylyshyn argued in 1973 that an image is a descriptive representation: a description in the form of facts that the mind reasons over. Where a thing sits is then one of those facts. Kosslyn and Pomerantz answered in 1977 that it is a depictive representation: a picture-like pattern carrying the spatial layout of what it stands for. Where a thing sits is then a position in the pattern.
+Zenon Pylyshyn and Stephen Kosslyn disagreed about visual mental imagery. Pylyshyn argued in 1973 that an image is a descriptive representation: a description in the form of facts that the mind reasons over. Where a thing sits is then one of those facts. Kosslyn and Daniel Pomerantz answered in 1977 that it is a depictive representation: a picture-like pattern carrying the spatial layout of what it stands for. Where a thing sits is then a position in the pattern.
 
 The two accounts differ in what the representation is made of, not in what the person does with it. Both accounts predict the same answers, so a record of what the person did cannot pick one over the other.
 
@@ -34,9 +34,9 @@ The deciding evidence has to come from outside the behaviour. Knowledge about th
 Flashcards for this section are as follows:
 
 - what the structure-process trade-off is ::@:: Different sorts of information processing can produce the same result, so the result alone cannot say which one produced it.
-- a case the structure-process trade-off shows up in ::@:: The debate over visual mental imagery, where Pylyshyn and Kosslyn disagree on what an image is made of.
-- what Pylyshyn proposed an image to be in 1973 ::@:: A descriptive representation: a description in the form of facts that the mind reasons over, so where a thing sits is one of those facts.
-- what Kosslyn and Pomerantz proposed an image to be in 1977 ::@:: A depictive representation: a picture-like pattern carrying the spatial layout of what it stands for, so where a thing sits is a position in the pattern.
+- a case the structure-process trade-off shows up in ::@:: The debate over visual mental imagery, where Zenon Pylyshyn and Stephen Kosslyn disagree on what an image is made of.
+- what Zenon Pylyshyn proposed an image to be in 1973 ::@:: A descriptive representation: a description in the form of facts that the mind reasons over, so where a thing sits is one of those facts.
+- what Stephen Kosslyn and Daniel Pomerantz proposed an image to be in 1977 ::@:: A depictive representation: a picture-like pattern carrying the spatial layout of what it stands for, so where a thing sits is a position in the pattern.
 - why the imagery debate could not be settled from behaviour alone ::@:: The two accounts differ in what the representation is made of, not in what the person does with it, so both accounts predict the same answers.
 - the deciding evidence in a structure-process trade-off ::@:: Knowledge about the brain.
 

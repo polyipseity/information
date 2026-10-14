@@ -53,24 +53,24 @@ Flashcards for this section are as follows:
 
 - X-rays: the date, the discoverer, and the Nobel year ::@:: 8 November 1895, by Wilhelm Röntgen; Nobel Prize in Physics 1901.
 - the Zeeman effect: the year, the discoverer, and the Nobel year ::@:: 1896, by Pieter Zeeman; Nobel Prize in Physics 1902.
-- the Zeeman effect: what a magnetic field does to a spectral line, and Lorentz's classical explanation ::@:: A single line splits into two or three; Lorentz explained it as light from electrons moving inside the atom, their frequency affected by the field.
+- the Zeeman effect: what a magnetic field does to a spectral line, and Hendrik Lorentz's classical explanation ::@:: A single line splits into two or three; Hendrik Lorentz explained it as light from electrons moving inside the atom, their frequency affected by the field.
 - the electron: the year, the discoverer, and the Nobel year ::@:: 1897, by J. J. Thomson; Nobel Prize in Physics 1906.
 - the effect of the electric field on the cathode rays, and what that showed ::@:: The rays were deflected toward the positive plate, showing that they carry negative charge.
 - by 1899, which materials had yielded the same negatively charged particles ::@:: Radioactive, heated, and illuminated materials.
 - Millikan's oil drop experiment, around 1909: what it measured, and the value he reported ::@:: The elementary charge, from balancing the electric and gravitational forces on a charged oil droplet: $e = 1.592 \times 10^{-19}$ C. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - the elementary charge as it is quoted now ::@:: $e = 1.602 \times 10^{-19}$ C. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- Millikan's reported charge, set against the accepted value ::@:: His $1.592 \times 10^{-19}$ C against the accepted $1.602 \times 10^{-19}$ C. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- by how much Millikan's charge falls short, and why ::@:: Low by about $0.6\%$, a gap set by the precision available at the time. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- Robert Millikan's reported charge, set against the accepted value ::@:: His $1.592 \times 10^{-19}$ C against the accepted $1.602 \times 10^{-19}$ C. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- by how much Robert Millikan's charge falls short, and why ::@:: Low by about $0.6\%$, a gap set by the precision available at the time. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - radioactivity: the years, the people, and the Nobel year ::@:: 1896 by Henri Becquerel, and 1898 by Marie and Pierre Curie; Nobel Prize in Physics 1903.
-- Becquerel's 1896 plate: what he put beside it, and what the developed plate showed ::@:: Uranium salt beside a carefully wrapped photographic plate; the salt's silhouette appeared on it, showing a very penetrating ray from the uranium.
+- Henri Becquerel's 1896 plate: what he put beside it, and what the developed plate showed ::@:: Uranium salt beside a carefully wrapped photographic plate; the salt's silhouette appeared on it, showing a very penetrating ray from the uranium.
 - Thomson's Crookes tube: how the cathode rays were produced ::@:: A high voltage across an evacuated glass tube with a cathode and anode produced a visible glow of cathode rays.
 - the Maltese cross in the path of the cathode rays: what its sharp shadow showed ::@:: That cathode rays travel in straight lines.
-- how Thomson found the electron velocity ::@:: By adjusting the electric and magnetic fields until the net deflection was zero, giving $v = E/B$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- how J. J. Thomson found the electron velocity ::@:: By adjusting the electric and magnetic fields until the net deflection was zero, giving $v = E/B$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - why the electron is a universal constituent of atoms ::@:: The charge-to-mass ratio $q/m$ was the same for any cathode material and any gas in the tube. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- why Hertz's deflecting voltage had shown no effect on cathode rays ::@:: The tube's vacuum was poor, and the rays ionised the residual gas, which masked the deflection; a better evacuated tube showed it.
+- why Heinrich Hertz's deflecting voltage had shown no effect on cathode rays ::@:: The tube's vacuum was poor, and the rays ionised the residual gas, which masked the deflection; a better evacuated tube showed it.
 - the accepted charge-to-mass ratio $e/m$ of the electron ::@:: $1.76 \times 10^{11}\ \text{C/kg}$.
 - the electron's $e/m$ against the largest $q/m$ then measured for hydrogen: what the factor of about a thousand meant ::@:: Either the electron's charge or its mass sits far from the atomic scale, so the carriers of electricity are much smaller than atoms or molecules.
-- what Millikan's measurements established beyond the size of $e$ ::@:: Charge is quantised: the measured charges are whole multiples $q = ne$ of one basic charge, and the electron carries $-e$ with $e$ quoted positive.
+- what Robert Millikan's measurements established beyond the size of $e$ ::@:: Charge is quantised: the measured charges are whole multiples $q = ne$ of one basic charge, and the electron carries $-e$ with $e$ quoted positive.
 
 ## revision of the classical foundations
 

@@ -58,7 +58,7 @@ Flashcards for this section are as follows:
 - the two directions a repeated-pulse effect can take ::@:: Either dampens activity in the stimulated area or amplifies it.
 - what decides the direction of a repeated-pulse effect ::@:: The intensity, the coil's orientation, and the frequency.
 - the property of neural connections the repeated pulses explore ::@:: Plasticity, the capacity of connections between neurons to change.
-- the clinical use of the repeated pulses ::@:: TMS treats disorders by changing how excitable the stimulated area is.
+- the clinical use of the repeated pulses ::@:: Transcranial magnetic stimulation (TMS) treats disorders by changing how excitable the stimulated area is.
 
 ## references
 

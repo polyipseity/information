@@ -11,14 +11,14 @@ tags:
 
 # multiprocessing
 
-A traditional computer had one processor holding one CPU with one core, so all work passed through a single general-purpose unit with its own registers, arithmetic-logic unit, and control unit. Modern systems, from phones to servers, spread work over several processors and over several cores on one chip instead, which changes how an operating system schedules work and manages memory.
+A traditional computer had one processor holding one central processing unit (CPU) with one core, so all work passed through a single general-purpose unit with its own registers, arithmetic-logic unit, and control unit. Modern systems, from phones to servers, spread work over several processors and over several cores on one chip instead, which changes how an operating system schedules work and manages memory.
 
 ---
 
 Flashcards for this section are as follows:
 
 - what multiprocessing is ::@:: The use of more than one processor, or more than one computing core, in a computer system; modern systems from mobile devices to servers rely on it instead of a single processor with one core.
-- single-processor baseline ::@:: The traditional design: one processor holding one CPU with a single core executing a general-purpose instruction set.
+- single-processor baseline ::@:: The traditional design: one processor holding one central processing unit (CPU) with a single core executing a general-purpose instruction set.
 - why multiprocessing matters to an operating system ::@:: Processors or cores share the same physical memory and system bus, so the operating system must schedule work and manage memory across concurrently executing units.
 - asymmetric versus symmetric multiprocessing ::@:: Asymmetric multiprocessing uses a master processor that assigns work to the others, whereas symmetric multiprocessing treats every processor equally.
 - multicore versus multiprocessor ::@:: Multicore means several computing cores on one physical chip, while a multiprocessor system contains several processors.
@@ -33,10 +33,10 @@ A general-purpose CPU contains an arithmetic-logic unit, processor registers, an
 
 Flashcards for this section are as follows:
 
-- single-processor system ::@:: One processor containing one CPU with a single core, the traditional arrangement for most early computer systems.
-- processing core ::@:: The component that executes instructions and holds registers for local data; a CPU core executes a general-purpose instruction set.
+- single-processor system ::@:: One processor containing one central processing unit (CPU) with a single core, the traditional arrangement for most early computer systems.
+- processing core ::@:: The component that executes instructions and holds registers for local data; a central processing unit (CPU) core executes a general-purpose instruction set.
 - general-purpose CPU contents ::@:: A central processing unit containing an arithmetic-logic unit and processor registers, plus a control unit containing an instruction register and a program counter.
-- special-purpose processors ::@:: Single-processor systems still contain device-specific processors such as disk controllers and graphics controllers (GPUs), which run a specific and limited instruction set and usually do not execute instructions from user processes.
+- special-purpose processors ::@:: Single-processor systems still contain device-specific processors such as disk controllers, graphics controllers, and graphics processing units (GPUs), which run a specific and limited instruction set and usually do not execute instructions from user processes.
 
 ## multiprocessor systems
 
@@ -52,7 +52,7 @@ Two kinds of multiprocessor system are distinguished, asymmetric multiprocessing
 
 Flashcards for this section are as follows:
 
-- multiprocessor system ::@:: A system with two or more processors, traditionally each with a single-core CPU; now the norm from mobile devices to servers.
+- multiprocessor system ::@:: A system with two or more processors, traditionally each with a single-core central processing unit (CPU); now the norm from mobile devices to servers.
 - advantages of multiprocessor systems ::@:: Increased throughput through more computing capability, economy of scale from sharing devices such as input/output, power supplies, housings, and peripherals, and increased reliability through graceful degradation or fault tolerance.
 - scaling with $N$ processors ::@:: The speed-up with $N$ processors is less than $N$ because of overhead such as contention for shared resources, namely the system bus or memory.
 - complexity of multiprocessor systems ::@:: They are far more complex than single-processor systems in both hardware design and software, for example in parallel programming.
@@ -77,11 +77,11 @@ That is what separates it from asymmetric multiprocessing.
 
 Flashcards for this section are as follows:
 
-- symmetric multiprocessing ::@:: All processors are treated equally: each CPU has its own registers and private cache while all processors share physical memory through the system bus.
-- SMP private state per CPU ::@:: Each CPU has its own registers and a private (local) cache.
-- SMP shared memory ::@:: All processors share physical memory through the system bus.
-- SMP task and input/output handling ::@:: Every processor performs all tasks, including operating-system functions and user processes, so input/output can be handled by any processor rather than by one master.
-- symmetric versus asymmetric multiprocessing ::@:: Symmetric multiprocessing treats all processors equally and lets any processor handle input/output, whereas asymmetric multiprocessing has one master CPU that distributes tasks among the slave CPUs and usually performs input/output itself.
+- symmetric multiprocessing ::@:: All processors are treated equally: each central processing unit (CPU) has its own registers and private cache while all processors share physical memory through the system bus.
+- symmetric multiprocessing (SMP) private state per central processing unit (CPU) ::@:: Each CPU has its own registers and a private (local) cache.
+- symmetric multiprocessing (SMP) shared memory ::@:: All processors share physical memory through the system bus.
+- symmetric multiprocessing (SMP) task and input/output handling ::@:: Every processor performs all tasks, including operating-system functions and user processes, so input/output can be handled by any processor rather than by one master.
+- symmetric versus asymmetric multiprocessing ::@:: Symmetric multiprocessing treats all processors equally and lets any processor handle input/output, whereas asymmetric multiprocessing has one master central processing unit (CPU) that distributes tasks among the slave CPUs and usually performs input/output itself.
 
 ## multicore systems
 
@@ -109,11 +109,11 @@ A CPU reaches its own local memory over a fast local bus, but reaches another CP
 
 Flashcards for this section are as follows:
 
-- non-uniform memory access ::@:: Each CPU, or group of CPUs, has its own local memory reached through a small, fast local bus, while the CPUs are joined by a shared interconnect and share one physical address space.
-- why NUMA is used ::@:: Adding more CPUs to a multiprocessor system may not scale because of contention for the system bus, which can become a bottleneck.
-- why NUMA access times are not uniform ::@:: A CPU reaches its own local memory over a small, fast local bus, but reaches remote memory across the shared system interconnect, so the two kinds of access differ in speed.
-- NUMA local memory ::@:: Local memory per CPU, or per group of CPUs, reached through a small, fast local bus.
-- NUMA drawback ::@:: Increased latency when a CPU must access remote memory across the system interconnect, which has implications for CPU scheduling and memory management.
+- non-uniform memory access ::@:: Each central processing unit (CPU), or group of CPUs, has its own local memory reached through a small, fast local bus, while the CPUs are joined by a shared interconnect and share one physical address space.
+- why non-uniform memory access (NUMA) is used ::@:: Adding more CPUs to a multiprocessor system may not scale because of contention for the system bus, which can become a bottleneck.
+- why NUMA access times are not uniform ::@:: In non-uniform memory access (NUMA), a central processing unit (CPU) reaches its own local memory over a small, fast local bus, but reaches remote memory across the shared system interconnect, so the two kinds of access differ in speed.
+- non-uniform memory access (NUMA) local memory ::@:: Local memory per central processing unit (CPU), or per group of CPUs, reached through a small, fast local bus.
+- non-uniform memory access (NUMA) drawback ::@:: Increased latency when a central processing unit (CPU) must access remote memory across the system interconnect, which has implications for CPU scheduling and memory management.
 
 ## cpu, processor, and core terminology
 
@@ -123,8 +123,8 @@ The terms nest. A CPU is the hardware that executes instructions. A processor is
 
 Flashcards for this section are as follows:
 
-- terminology: CPU ::@:: The hardware that executes instructions.
-- terminology: processor ::@:: A physical chip that contains one or more CPUs.
-- terminology: core ::@:: The basic computation unit of the CPU, executing instructions and holding registers for storing data locally.
+- terminology: central processing unit (CPU) ::@:: The hardware that executes instructions.
+- terminology: processor ::@:: A physical chip that contains one or more central processing units (CPUs).
+- terminology: core ::@:: The basic computation unit of the central processing unit (CPU), executing instructions and holding registers for storing data locally.
 - terminology: multicore ::@:: Multiple computing cores on a single physical processor chip.
 - terminology: multiprocessor system ::@:: A system including multiple processors.

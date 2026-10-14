@@ -10,14 +10,14 @@ tags:
 
 # loadable kernel module
 
-A loadable kernel module (LKM) extends a running kernel's capabilities without recompiling the entire kernel. The kernel keeps core components — CPU scheduling, memory management — and links in additional services via modules at boot time or during runtime.
+A loadable kernel module (LKM) extends a running kernel's capabilities without recompiling the entire kernel. The kernel keeps core components — central processing unit (CPU) scheduling, memory management — and links in additional services via modules at boot time or during runtime.
 
 ---
 
 Flashcards for this section are as follows:
 
 - what a loadable kernel module does ::@:: Extends a running kernel's capabilities at boot time or during runtime, without recompiling the entire kernel.
-- LKM motivation ::@:: Linking services dynamically is preferable to adding features directly to the kernel, which would require recompiling the entire kernel every time a change was made.
+- loadable kernel module (LKM) motivation ::@:: Linking services dynamically is preferable to adding features directly to the kernel, which would require recompiling the entire kernel every time a change was made.
 
 ## design
 
@@ -42,4 +42,4 @@ Linux uses loadable kernel modules primarily for device drivers and file systems
 
 Flashcards for this section are as follows:
 
-- Linux use of LKMs ::@:: Linux uses LKMs for device drivers and file systems, inserting and removing them at runtime to keep monolithic performance with modular flexibility.
+- Linux use of loadable kernel modules (LKMs) ::@:: Linux uses LKMs for device drivers and file systems, inserting and removing them at runtime to keep monolithic performance with modular flexibility.

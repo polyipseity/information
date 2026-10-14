@@ -49,7 +49,7 @@ Flashcards for this section are as follows:
 - how a neutral cue comes to produce fear on its own ::@:: A neutral cue paired again and again with a startling noise comes to produce fear on its own.
 - the age of the child in the 1920 conditioning study ::@:: Nine months old.
 - the stimuli presented before any noise was used ::@:: A rat, a dog, a rabbit, a monkey, and furry or plain masks, none of which disturbed the child.
-- what Watson did as the child was about to touch the rat ::@:: Watson made a loud noise, and the child was startled and cried.
+- what John B. Watson did as the child was about to touch the rat ::@:: Watson made a loud noise, and the child was startled and cried.
 - what happened when the rat appeared again after the pairings ::@:: The child was frightened of the rat and cried, with no noise.
 - what the 1920 study demonstrates ::@:: That a child can be conditioned to fear something harmless.
 - the ethical criticism of the 1920 study ::@:: No independent review, repeated distress on purpose, and no assessment or follow-up of the risk to the child.

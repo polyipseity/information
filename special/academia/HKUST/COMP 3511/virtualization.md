@@ -95,7 +95,7 @@ Flashcards for this section are as follows:
 
 ## history and adoption
 
-Virtualization was first designed in IBM mainframes in 1972, to let multiple users run tasks concurrently on a system built for one, or to share a batch-oriented system. It later reached general-purpose hardware: VMware runs one or more guest copies of Windows, each with its own applications, on an Intel x86 CPU.
+Virtualization was first designed in IBM mainframes in 1972, to let multiple users run tasks concurrently on a system built for one, or to share a batch-oriented system. It later reached general-purpose hardware: VMware runs one or more guest copies of Windows, each with its own applications, on an Intel x86 central processing unit (CPU).
 
 In the late 1990s Intel CPUs became fast enough for virtualization on general-purpose PCs, and Xen and VMware built technologies still used today. Virtualization has since spread to many operating systems, CPUs, and virtual machine managers.
 
@@ -105,7 +105,7 @@ Flashcards for this section are as follows:
 
 - origins in IBM mainframes ::@:: Virtualization was originally designed in IBM mainframes in 1972.
 - original mainframe goal ::@:: It allowed multiple users to run tasks concurrently in a system designed for a single user, or share a batch-oriented system.
-- VMware on x86 ::@:: VMware runs one or more guest copies of Windows, each running its own applications, on an Intel x86 CPU.
-- return on general-purpose PCs ::@:: In the late 1990s Intel CPUs became fast enough for virtualization on general-purpose PCs.
+- VMware on x86 ::@:: VMware runs one or more guest copies of Windows, each running its own applications, on an Intel x86 central processing unit (CPU).
+- return on general-purpose PCs ::@:: In the late 1990s Intel central processing units (CPUs) became fast enough for virtualization on general-purpose PCs.
 - Xen and VMware ::@:: Virtual machine managers such as Xen and VMware created virtualization technologies for x86 that are still used today.
-- spread of virtualization ::@:: Virtualization has expanded to many operating systems, CPUs, and virtual machine managers.
+- spread of virtualization ::@:: Virtualization has expanded to many operating systems, central processing units (CPUs), and virtual machine managers.

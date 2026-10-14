@@ -22,9 +22,9 @@ Both types are exempt from the same duty and neither guarantees the market's bes
 Flashcards for this section are as follows:
 
 - what an intermarket sweep order is ::@:: An order released to several exchanges at once, which must execute against the best available quote and is exempt from the order protection rule.
-- what a venue does on receiving an ISO ::@:: It matches it against its own book, with no intermarket check and no routing of the remainder.
-- instruction an ISO is typically used with ::@:: Immediate-or-cancel; a day ISO also exists.
-- what an ISO demands of whoever sends it ::@:: A connection and a quote feed to every venue in the sweep, before anything is released.
+- what a venue does on receiving an intermarket sweep order (ISO) ::@:: It matches it against its own book, with no intermarket check and no routing of the remainder.
+- instruction an intermarket sweep order (ISO) is typically used with ::@:: Immediate-or-cancel; a day ISO also exists.
+- what an intermarket sweep order (ISO) demands of whoever sends it ::@:: A connection and a quote feed to every venue in the sweep, before anything is released.
 - how a sweep and a do-not-ship instruction differ ::@:: One is placed on every venue at once, the other on one venue with the rest refused.
 
 ## how a sweep is split
@@ -62,10 +62,10 @@ A broker-dealer normally has discretion over how it splits, as long as the split
 
 Flashcards for this section are as follows:
 
-- who is answerable for the best price when an ISO is used ::@:: The broker, not the exchange.
-- what an ISO must consume ::@:: The best price, as it stood at the time the order was placed.
+- who is answerable for the best price when an intermarket sweep order (ISO) is used ::@:: The broker, not the exchange.
+- what an intermarket sweep order (ISO) must consume ::@:: The best price, as it stood at the time the order was placed.
 - when the sweep's best-price obligation is discharged ::@:: Before anything is released, since the broker has already made the check by then.
-- what the exchanges need not do with an ISO ::@:: Check intermarket prices, or route it to another exchange.
+- what the exchanges need not do with an intermarket sweep order (ISO) ::@:: Check intermarket prices, or route it to another exchange.
 - where the time is saved by a sweep ::@:: In the exchange-side check and the intermarket routing that a routed order needs.
 - discretion a broker-dealer has over the split ::@:: How to divide the order, provided trading cost and delay are kept down.
 

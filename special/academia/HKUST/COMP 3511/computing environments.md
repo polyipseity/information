@@ -16,7 +16,7 @@ __Shared computers__ such as mainframes or minicomputers try to keep all users s
 
 __Mobile devices__ such as smartphones are resource constrained. They embed sensors alongside their processors, target specific interfaces such as touch screens or voice control such as Apple's Siri, and are optimized for usability and battery life.
 
-Devices with little or no user interface form another environment. In __embedded systems__ the operating system is pre-installed in ROM, inside air conditioners, toasters, automobiles, ships, and spacecraft. __Real-time systems__ go further and have strict time constraints. Computing delivered as a service is a further environment, recorded in [cloud computing](cloud%20computing.md).
+Devices with little or no user interface form another environment. In __embedded systems__ the operating system is pre-installed in read-only memory (ROM), inside air conditioners, toasters, automobiles, ships, and spacecraft. __Real-time systems__ go further and have strict time constraints. Computing delivered as a service is a further environment, recorded in [cloud computing](cloud%20computing.md).
 
 ---
 
@@ -26,5 +26,5 @@ Flashcards for this section are as follows:
 - shared computers ::@:: On mainframes and minicomputers the operating system tries to keep all users satisfied, balancing performance against fairness.
 - individual systems ::@:: Workstations have dedicated resources, so performance matters more than fairness, although they may still use shared resources from servers.
 - mobile devices ::@:: Smartphones and handhelds are resource constrained, embed different sensor types alongside their processors, target specific interfaces such as touch screens and voice control such as Apple's Siri, and are optimized for usability and battery life.
-- embedded systems ::@:: Devices with little or no user interface run the operating system pre-installed in ROM, inside air conditioners, toasters, automobiles, ships, and spacecraft.
+- embedded systems ::@:: Devices with little or no user interface run the operating system pre-installed in read-only memory (ROM), inside air conditioners, toasters, automobiles, ships, and spacecraft.
 - real-time systems ::@:: Real-time systems have strict time constraints.

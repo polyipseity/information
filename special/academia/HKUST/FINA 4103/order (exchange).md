@@ -75,7 +75,7 @@ Flashcards for this section are as follows:
 - trading hours of the pre-market and after-market ::@:: Pre-market 8:00–9:15; after-market 16:15–18:30.
 - what an open or close order does ::@:: Activates at the opening auction (on open) or the closing auction (on close).
 - open question about open and close orders ::@:: How their time priority is computed.
-- difference between a day order and a GTC order ::@:: A day order expires at the close; a GTC order stays until it is cancelled.
+- difference between a day order and a good-till-cancel (GTC) order ::@:: A day order expires at the close; a GTC order stays until it is cancelled.
 - what extended-hours instructions add ::@:: A window in which the order stays active outside regular trading hours.
 
 ## order types across venues

@@ -108,7 +108,7 @@ Flashcards for this section are as follows:
 
 ## what the agreement buys
 
-An fMRI scan, a MEG recording, and the deficit profile of two lesion patients all point at the same region. Three instruments reached it, and they do not share a failure mode, so one systematic error is unlikely to produce all three. The strongest evidence for a role or a function comes from similar findings in studies using different methods. A claim resting on one instrument alone needs a second method most.
+A functional magnetic resonance imaging (fMRI) scan, a magnetoencephalography (MEG) recording, and the deficit profile of two lesion patients all point at the same region. Three instruments reached it, and they do not share a failure mode, so one systematic error is unlikely to produce all three. The strongest evidence for a role or a function comes from similar findings in studies using different methods. A claim resting on one instrument alone needs a second method most.
 
 ---
 

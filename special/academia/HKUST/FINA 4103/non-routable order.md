@@ -13,15 +13,15 @@ tags:
 
 A _non-routable order_ is one that refuses the routing [Regulation NMS](Regulation%20NMS.md) requires. It comes in two types, an [intermarket sweep order](intermarket%20sweep%20order.md) and a [do-not-ship order](do-not-ship%20order.md), each in an immediate-or-cancel or a limit form. Either type accepts that the best price may be somewhere else.
 
-Li, Ye, and Zheng (2022, _Journal of Financial Economics_) work from proprietary trade-by-trade order-type data on the New York Stock Exchange. They find that 57% of the orders in their sample refused the routing stipulated by Reg NMS. The reason is not obvious from the rulebook.
+Li, Ye, and Zheng (2022, _Journal of Financial Economics_) work from proprietary trade-by-trade order-type data on the New York Stock Exchange. They find that 57% of the orders in their sample refused the routing stipulated by Regulation National Market System (Reg NMS). The reason is not obvious from the rulebook.
 
 ---
 
 Flashcards for this section are as follows:
 
-- what a non-routable order refuses ::@:: An order that refuses the routing Regulation NMS requires, accepting that the best price may be elsewhere.
+- what a non-routable order refuses ::@:: An order that refuses the routing Regulation National Market System (NMS) requires, accepting that the best price may be elsewhere.
 - two order types that are non-routable ::@:: The intermarket sweep order and the do-not-ship order.
-- share of orders in the sample that refused the routing stipulated by Reg NMS ::@:: 57%.
+- share of orders in the sample that refused the routing stipulated by Regulation National Market System (Reg NMS) ::@:: 57%.
 - data the finding rests on ::@:: Proprietary trade-by-trade order-type data from the New York Stock Exchange.
 
 ## how an order is classified
@@ -49,7 +49,7 @@ Flashcards for this section are as follows:
 
 The table covers the six order types that make up most New York Stock Exchange volume. Two columns measure size: how many trades each type produced, and the average order size in shares. Fill rate is the share of each order that executed. The last three columns split those executions three ways: the percentage taken from the local book, the percentage routed to another exchange, and the percentage that provided liquidity instead of consuming it.
 
-The routing instruction shows up in the route column. The three non-routable types all read 0.00%: the intermarket sweep, the DNS immediate-or-cancel order, and the DNS limit order never leave the venue. The plain market order routes a third of its executions, and the day limit order 14.28%.
+The routing instruction shows up in the route column. The three non-routable types all read 0.00%: the intermarket sweep, the do-not-ship (DNS) immediate-or-cancel order, and the DNS limit order never leave the venue. The plain market order routes a third of its executions, and the day limit order 14.28%.
 
 The two limit orders sit at opposite ends of the maker-taker balance. The DNS limit order takes 11.43% of its executions and provides 88.57%, so it overwhelmingly supplies liquidity. The day limit order is mixed: 55.94% provided, 29.78% taken locally, and 14.28% routed.
 
@@ -68,10 +68,10 @@ The most-traded type is the DNS limit order at 44,243,300 trades, just ahead of 
 
 Flashcards for this section are as follows:
 
-- route column of the three non-routable order types ::@:: 0.00% for all three: the intermarket sweep, the DNS immediate-or-cancel order, and the DNS limit order.
-- how the DNS limit order splits its executions against the day limit order ::@:: DNS limit provides 88.57% and takes 11.43%; day limit is mixed at 55.94% provided, 29.78% taken, and 14.28% routed.
-- which order type trades most, and its average size ::@:: The DNS limit order, at 44,243,300 trades and 182.38 shares per order.
-- where the largest average order sizes sit ::@:: With the types that take liquidity and expect to fill at once, the DNS immediate-or-cancel order at 307.09 shares being the largest.
+- route column of the three non-routable order types ::@:: 0.00% for all three: the intermarket sweep, the do-not-ship (DNS) immediate-or-cancel order, and the DNS limit order.
+- how the do-not-ship (DNS) limit order splits its executions against the day limit order ::@:: DNS limit provides 88.57% and takes 11.43%; day limit is mixed at 55.94% provided, 29.78% taken, and 14.28% routed.
+- which order type trades most, and its average size ::@:: The do-not-ship (DNS) limit order, at 44,243,300 trades and 182.38 shares per order.
+- where the largest average order sizes sit ::@:: With the types that take liquidity and expect to fill at once, the do-not-ship (DNS) immediate-or-cancel order at 307.09 shares being the largest.
 
 ## who uses them
 

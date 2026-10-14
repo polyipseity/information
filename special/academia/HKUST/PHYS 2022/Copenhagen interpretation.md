@@ -18,7 +18,7 @@ The Copenhagen interpretation is the standard taught account of what quantum mec
 Flashcards for this section are as follows:
 
 - overview: what the Copenhagen interpretation holds ::@:: That quantum mechanics is complete, its probabilities are fundamental, and complementary quantities have no simultaneous definite values between measurements.
-- where the interpretation gets its name ::@:: From the 1925–1927 Copenhagen work of Bohr, Heisenberg, and Born; the label was coined by Heisenberg in the 1950s.
+- where the interpretation gets its name ::@:: From the 1925–1927 Copenhagen work of Niels Bohr, Werner Heisenberg, and Max Born; the label was coined by Heisenberg in the 1950s.
 
 ## three principles
 
@@ -42,8 +42,8 @@ Schrödinger pressed the same worry in 1935 with a cat in a closed box, alive or
 Flashcards for this section are as follows:
 
 - what Copenhagen says happens at a measurement, in terms of $|\Psi|^2$ ::@:: A single outcome occurs with Born probability $|\Psi|^2$, irreversibly, and the wave function is updated to the state consistent with that outcome.
-- why Bohr insisted apparatus be described classically ::@:: Every reported quantum result is ultimately a classical record — a spot, a reading, a pointer — so the arrangement that produces it must be describable in classical terms.
-- Einstein's objection to the probabilistic element ::@:: That the Born probabilities reflect ignorance of pre-existing detail ("God does not play dice"); the Copenhagen reply is that the framework assigns no values before measurement.
+- why Niels Bohr insisted apparatus be described classically ::@:: Every reported quantum result is ultimately a classical record — a spot, a reading, a pointer — so the arrangement that produces it must be describable in classical terms.
+- Albert Einstein's objection to the probabilistic element ::@:: That the Born probabilities reflect ignorance of pre-existing detail ("God does not play dice"); the Copenhagen reply is that the framework assigns no values before measurement.
 - what Schrödinger's cat, a 1935 thought experiment, sets against the Copenhagen measurement story ::@:: A cat in a closed box lives or dies according to a quantum event, and nothing fixes which until an observer opens it, against the intuition that it is one or the other all along.
 
 ## alternatives and standing

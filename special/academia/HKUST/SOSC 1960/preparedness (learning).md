@@ -50,10 +50,10 @@ The fall case shows the same shape, and a [phobia](phobia.md) built on an ancest
 Flashcards for this section are as follows:
 
 - the clearest cases of preparedness ::@:: Taste aversion and a fall from a height are the clearest cases of preparedness.
-- the US and UR in the food-poisoning case ::@:: The bacteria or toxin is the US; the nausea and vomiting are the UR.
-- the CS and CR in the food-poisoning case ::@:: The taste or smell of the food is the CS; the avoidance next time is the CR.
-- the US and UR in the fall case ::@:: The impact and sudden loss of support are the US; the reflexive panic, shock, and pain are the UR.
-- the CS and CR in the fall case ::@:: The visual cues of height and depth are the CS; the fear, racing heart, and urge to retreat are the CR.
+- the unconditioned stimulus (US) and unconditioned response (UR) in the food-poisoning case ::@:: The bacteria or toxin is the US; the nausea and vomiting are the UR.
+- the conditioned stimulus (CS) and conditioned response (CR) in the food-poisoning case ::@:: The taste or smell of the food is the CS; the avoidance next time is the CR.
+- the unconditioned stimulus (US) and unconditioned response (UR) in the fall case ::@:: The impact and sudden loss of support are the US; the reflexive panic, shock, and pain are the UR.
+- the conditioned stimulus (CS) and conditioned response (CR) in the fall case ::@:: The visual cues of height and depth are the CS; the fear, racing heart, and urge to retreat are the CR.
 - the three ways a prepared association differs from ordinary conditioning ::@:: It forms in one trial and lasts for years, it attaches to the food alone rather than the plate, the chair's colour, or the music, and it ignores timing.
 - the shrimp-bowl instance ::@:: In a seafood restaurant, the smell, taste, or thought of shrimp brings on disgust and nausea, and the rest of the room is untouched.
 - what the prepared association ignores about timing ::@:: Food eaten at noon and illness arriving at midnight are still linked.

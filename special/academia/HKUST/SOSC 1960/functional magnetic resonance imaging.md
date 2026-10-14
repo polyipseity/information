@@ -10,7 +10,7 @@ tags:
 
 # functional magnetic resonance imaging
 
-Functional magnetic resonance imaging uses the same scanner as [magnetic resonance imaging](magnetic%20resonance%20imaging.md), but it reads change in the brain rather than its shape. It never reads neurons, only the magnetic effect of oxygen arriving in the blood. BOLD is named for that dependence on blood oxygenation. Active neurons burn oxygen, and the body sends extra oxygenated blood to the region. The extra oxygen changes the field the scanner reads. The blood overshoots and then drains back slowly, so the signal trails the activity by seconds. That lag is the method's weak point.
+Functional magnetic resonance imaging uses the same scanner as [magnetic resonance imaging](magnetic%20resonance%20imaging.md), but it reads change in the brain rather than its shape. It never reads neurons, only the magnetic effect of oxygen arriving in the blood. The blood oxygenation level dependent (BOLD) signal is named for that dependence on blood oxygenation. Active neurons burn oxygen, and the body sends extra oxygenated blood to the region. The extra oxygen changes the field the scanner reads. The blood overshoots and then drains back slowly, so the signal trails the activity by seconds. That lag is the method's weak point.
 
 Spatial resolution is good, about 1 to 2 mm; no living-brain method places activity more precisely. Temporal resolution is poor, on the order of 6 seconds; nothing dates activity more roughly. It answers which structure is involved, not the order in which two processes follow each other.
 

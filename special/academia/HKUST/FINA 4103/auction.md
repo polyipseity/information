@@ -61,13 +61,13 @@ Flashcards for this section are as follows:
 
 ### limits of the clearing mechanism
 
-The algorithm is not what a real market does. With friction, such as non-linear preferences or trading costs, the clearing problem is NP-hard, and several prices may clear the same market at once. Traders can also deviate by waiting, sealed bids and offers are available, and auctions can be run one at a time, so mispricing may persist. How to design a mechanism that does not is a mechanism-design question.
+The algorithm is not what a real market does. With friction, such as non-linear preferences or trading costs, the clearing problem is NP-hard (nondeterministic polynomial time-hard), and several prices may clear the same market at once. Traders can also deviate by waiting, sealed bids and offers are available, and auctions can be run one at a time, so mispricing may persist. How to design a mechanism that does not is a mechanism-design question.
 
 ---
 
 Flashcards for this section are as follows:
 
-- why the clearing algorithm breaks down with friction ::@:: The problem becomes NP-hard, because of non-linear preferences and trading costs, and several prices may clear the same market.
+- why the clearing algorithm breaks down with friction ::@:: The problem becomes NP-hard (nondeterministic polynomial time-hard), because of non-linear preferences and trading costs, and several prices may clear the same market.
 - how real traders deviate from the clearing algorithm ::@:: They wait, they use sealed bids and offers, and auctions are run one at a time.
 - what can persist because of that deviation ::@:: Mispricing, which is a mechanism-design question.
 

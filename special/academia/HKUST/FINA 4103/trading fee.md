@@ -87,4 +87,4 @@ Flashcards for this section are as follows:
 - what routing is worth to each side ::@:: A liquidity-taking order usually fills better than the quote it chased; a liquidity-making one usually fills at that same quote.
 - routed day limit orders receiving no price improvement ::@:: 77.49%, against 79.51% for routed reserve orders.
 - what a routed liquidity-making order still pays ::@:: The routing fee, with no price improvement in return.
-- what sets the price of routing ::@:: The fee schedule alone: Reg NMS does not take the fees into account.
+- what sets the price of routing ::@:: The fee schedule alone: Regulation National Market System (NMS) does not take the fees into account.

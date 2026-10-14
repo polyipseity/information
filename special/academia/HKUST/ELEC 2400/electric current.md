@@ -74,7 +74,7 @@ Flashcards for this section are as follows:
 
 ## charge capacity units
 
-Hybrid units are sometimes used instead of SI units. The electron-volt, the ampere-hour, and the kilowatt-hour are examples. The ampere-hour is a unit of charge: $1\text{ Ah}$ is a current of $1\text{ A}$ for $1$ hour, which is $1\text{ C/s}\times3600\text{ s} = 3600\text{ C}$, and $1\text{ Ah} = 1000\text{ mAh}$.
+Hybrid units are sometimes used instead of Système International d'Unités (SI) units. The electron-volt, the ampere-hour, and the kilowatt-hour are examples. The ampere-hour is a unit of charge: $1\text{ Ah}$ is a current of $1\text{ A}$ for $1$ hour, which is $1\text{ C/s}\times3600\text{ s} = 3600\text{ C}$, and $1\text{ Ah} = 1000\text{ mAh}$.
 
 A lithium-ion rechargeable battery with a capacity of $2000\text{ mAh}$ ($= 2\text{ Ah}$) can supply $2000\text{ mA}$ ($= 2\text{ A}$) for $1$ hour. A capacity of $1450\text{ mAh}$ is $5220\text{ C}$: $1.45\text{ A}$ for $1$ hour of battery operation, $145\text{ mA}$ for $10$ hours, or $2.9\text{ A}$ for $0.5$ hour.
 
@@ -83,7 +83,7 @@ A lithium-ion rechargeable battery with a capacity of $2000\text{ mAh}$ ($= 2\te
 Flashcards for this section are as follows:
 
 - charge capacity units / charge in coulombs of $1\text{ Ah}$ ::@:: A current of $1\text{ A}$ flowing for $1$ hour, that is $1\text{ C/s}\times3600\text{ s} = 3600\text{ C}$; $1\text{ Ah} = 1000\text{ mAh}$.
-- charge capacity units / why the electron-volt, the ampere-hour, and the kilowatt-hour are used ::@:: They are easier to use and to understand than the corresponding SI units.
+- charge capacity units / why the electron-volt, the ampere-hour, and the kilowatt-hour are used ::@:: They are easier to use and to understand than the corresponding Système International d'Unités (SI) units.
 - charge capacity units / discharge of a $2000\text{ mAh}$ battery label ::@:: A lithium-ion rechargeable battery of $2\text{ Ah}$ capacity supplies $2000\text{ mA}$ ($= 2\text{ A}$) for $1$ hour; manufacturers prefer $\text{mAh}$ to $\text{Ah}$ on such labels.
 - charge capacity units / convert $1450\text{ mAh}$ to coulombs ::@:: With $1\text{ Ah} = 1000\text{ mAh} = 3600\text{ C}$, a capacity of $1450\text{ mAh}$ is $1.45\text{ Ah}\times3600\text{ C/Ah} = 5220\text{ C}$.
 - charge capacity units / discharge rates of $1450\text{ mAh}$ ($= 5220\text{ C}$) ::@:: Such a capacity delivers $1.45\text{ A}$ for $1$ hour of battery operation, or $145\text{ mA}$ for $10$ hours, or $2.9\text{ A}$ for $0.5$ hour.
@@ -101,9 +101,9 @@ Time-dependent quantities need not be simple sinusoids.
 Flashcards for this section are as follows:
 
 - direct current and alternating current / original distinction ::@:: A direct current (DC) is a steady charge flow whose current is a constant, while an alternating current (AC) is a fluctuating charge flow, sometimes stronger and sometimes weaker and possibly reversing direction.
-- direct current and alternating current / meaning of the two terms today ::@:: DC now specifies a quantity that is independent of time, at a constant value, and AC now specifies a time-dependent quantity.
-- direct current and alternating current / adjectival use ::@:: DC and AC are adjectives that can refer to voltages as well as to currents.
-- direct current and alternating current / symbol case for $V_1$, $I_2$, $V_{dd}$ against $v_3(t)$, $i_4(t)$ ::@:: Upper-case symbols denote DC quantities such as $V_1$; lower-case symbols denote time-dependent variables such as $v_3(t)$.
+- direct current and alternating current / meaning of the two terms today ::@:: Direct current (DC) now specifies a quantity that is independent of time, at a constant value, and alternating current (AC) now specifies a time-dependent quantity.
+- direct current and alternating current / adjectival use ::@:: Direct current (DC) and alternating current (AC) are adjectives that can refer to voltages as well as to currents.
+- direct current and alternating current / symbol case for $V_1$, $I_2$, $V_{dd}$ against $v_3(t)$, $i_4(t)$ ::@:: Upper-case symbols denote direct current (DC) quantities such as $V_1$; lower-case symbols denote time-dependent variables such as $v_3(t)$.
 - direct current and alternating current / beyond sinusoids ::@:: A time-dependent quantity need not be a simple sinusoid.
 
 ### sinusoidal alternating current

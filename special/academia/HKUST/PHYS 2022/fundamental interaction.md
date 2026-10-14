@@ -58,8 +58,8 @@ The electrostatic force was established by Coulomb's 1785 report, which conclude
 
 Flashcards for this section are as follows:
 
-- Coulomb's conclusion from his 1785 report: the proportionality for $F_e$ ::@:: $F_e \propto \frac{q_1 q_2}{d^2}$.
-- Coulomb's data: the number of points and the fitted exponent $p$ in $1/r^{p}$ ::@:: Three data points, with a fit of $1/r^{1.957}$.
+- Charles-Augustin de Coulomb's conclusion from his 1785 report: the proportionality for $F_e$ ::@:: $F_e \propto \frac{q_1 q_2}{d^2}$.
+- Charles-Augustin de Coulomb's data: the number of points and the fitted exponent $p$ in $1/r^{p}$ ::@:: Three data points, with a fit of $1/r^{1.957}$.
 - the two quantities on the axes of the report's Fig. 3 ::@:: The angle on the micrometer on the vertical axis and the angle between the pith balls on the horizontal axis.
 - the three curves the data are plotted against in Fig. 3: as powers of $r$ ::@:: $1/r$, $1/r^2$, and $1/r^3$.
 - why the $1/r^2$ form was adopted over the closer $1/r^{1.957}$ fit ::@:: Nature was not expected to behave so "ugly". Where $1/r^2$ comes from is left to theory.
@@ -117,10 +117,10 @@ Unification is still open. Grand unified theories merge the electroweak and stro
 Flashcards for this section are as follows:
 
 - the forces behind friction, contact forces, and tension ::@:: All of them are electromagnetic, though they were believed different for centuries.
-- what Maxwell's work in the 1860s unified, and what that unified theory also explained ::@:: Electrical and magnetic forces, shown to be one force, which also explained light and other radiation.
-- what Newton's unification joined ::@:: Planetary motion and motion on Earth: the same laws explain both.
-- what Einstein linked with gravitation ::@:: Space and time.
-- the electroweak unification of the 1970s: who did it, and what their theory predicted ::@:: Glashow, Weinberg, and Salam joined the electromagnetic and weak forces; the theory predicted W and Z bosons, discovered in 1983.
+- what James Clerk Maxwell's work in the 1860s unified, and what that unified theory also explained ::@:: Electrical and magnetic forces, shown to be one force, which also explained light and other radiation.
+- what Isaac Newton's unification joined ::@:: Planetary motion and motion on Earth: the same laws explain both.
+- what Albert Einstein linked with gravitation ::@:: Space and time.
+- the electroweak unification of the 1970s: who did it, and what their theory predicted ::@:: Sheldon Glashow, Steven Weinberg, and Abdus Salam joined the electromagnetic and weak forces; the theory predicted W and Z bosons, discovered in 1983.
 - why the phrase "four fundamental forces" is still in use ::@:: The electromagnetic and weak forces merge only at very high energies, so they are usually counted separately: gravity, strong, electromagnetic, weak.
 - what grand unified theories aim to merge ::@:: The electroweak and strong forces; string theory is a leading candidate.
 - predictions of these unification theories that experiment has yet to verify ::@:: The instability of the proton and the existence of magnetic monopoles.

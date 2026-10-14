@@ -17,7 +17,7 @@ Any stimulus an organism can perceive is capable of eliciting any reaction the o
 
 A consequence works the other way round: a reward or a punishment follows what the animal did and decides what the animal does next. [Classical and operant conditioning](operant%20conditioning.md#classical%20and%20operant%20conditioning) sets the two side by side.
 
-Pavlov arrived at conditioning from digestion. He was a physiologist. He shared the 1904 Nobel Prize in Physiology or Medicine. He diverted a dog's saliva into test tubes, which let him measure how much the dog produced. Trial after trial the dogs began salivating before the food reached them. The sight of the dish was enough, then the footsteps of Pavlov or his assistants. Metronomes, lights, and bells were stand-ins too. What mattered was reliable signalling that food was on the way, not the kind of stimulus.
+Ivan Pavlov arrived at conditioning from digestion. He was a physiologist. He shared the 1904 Nobel Prize in Physiology or Medicine. He diverted a dog's saliva into test tubes, which let him measure how much the dog produced. Trial after trial the dogs began salivating before the food reached them. The sight of the dish was enough, then the footsteps of Pavlov or his assistants. Metronomes, lights, and bells were stand-ins too. What mattered was reliable signalling that food was on the way, not the kind of stimulus.
 
 ---
 
@@ -28,9 +28,9 @@ Flashcards for this section are as follows:
 - the general claim about what a perceivable stimulus can do ::@:: Any stimulus an organism can perceive is capable of eliciting any reaction the organism is capable of making.
 - what follows from that general claim ::@:: Almost any sound, sight, or smell can shift muscle tension, mood, and attitude.
 - how the other half of conditioning decides what an organism does next ::@:: By a consequence following what it did, rather than a signal announcing what is coming.
-- what Pavlov was studying before conditioning ::@:: Digestion, not learning.
-- the prize Pavlov shared ::@:: The 1904 Nobel Prize in Physiology or Medicine.
-- what let Pavlov measure a dog's salivation exactly ::@:: Diverting the saliva into test tubes.
+- what Ivan Pavlov was studying before conditioning ::@:: Digestion, not learning.
+- the prize Ivan Pavlov shared ::@:: The 1904 Nobel Prize in Physiology or Medicine.
+- what let Ivan Pavlov measure a dog's salivation exactly ::@:: Diverting the saliva into test tubes.
 - what the dogs began doing over repeated trials ::@:: Salivating before the food reached them.
 - which non-food stimuli worked as stand-ins for food ::@:: Metronomes, lights, and bells.
 - what made a stimulus work as a stand-in ::@:: Its reliable signalling that food was on the way, not its kind.

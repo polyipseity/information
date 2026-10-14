@@ -10,7 +10,7 @@ tags:
 
 # magnetic resonance imaging
 
-An MRI scanner takes high-resolution pictures of the brain's structure. The person lies in a strong magnetic field. The field lines up the hydrogen nuclei in their body. A radiofrequency pulse knocks those nuclei out of alignment. As they precess back, the changing magnetic flux induces a voltage in the receiver coils. The spatial pattern of those voltages is the image.
+A magnetic resonance imaging (MRI) scanner takes high-resolution pictures of the brain's structure. The person lies in a strong magnetic field. The field lines up the hydrogen nuclei in their body. A radiofrequency pulse knocks those nuclei out of alignment. As they precess back, the changing magnetic flux induces a voltage in the receiver coils. The spatial pattern of those voltages is the image.
 
 Nothing is injected and no ionizing radiation is used, so one person can be scanned repeatedly.
 
@@ -20,7 +20,7 @@ A structural scan gives the anatomical baseline: where a structure sits and what
 
 Flashcards for this section are as follows:
 
-- how an MRI scanner takes its pictures ::@:: An MRI scanner uses a strong magnetic field and radiofrequency pulses to take high-resolution pictures of the brain's structure.
+- how a magnetic resonance imaging (MRI) scanner takes its pictures ::@:: An MRI scanner uses a strong magnetic field and radiofrequency pulses to take high-resolution pictures of the brain's structure.
 - what a strong magnetic field does to hydrogen nuclei in the body ::@:: It lines the body's hydrogen nuclei up with the field.
 - what the radiofrequency pulse does ::@:: It knocks the aligned nuclei out of alignment, so that they precess back.
 - what produces the image from that precession ::@:: The changing magnetic flux induces a voltage in the receiver coils, and the spatial pattern of those voltages is the image.

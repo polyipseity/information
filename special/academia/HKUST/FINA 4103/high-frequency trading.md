@@ -48,7 +48,7 @@ Flashcards for this section are as follows:
 
 ## market manipulation
 
-Speed also enables manipulation. _Spoofing_ works in three steps: the spoofer stacks the book in one direction with orders it does not intend to execute, takes that fake supply back out, and then sweeps the market with a large order on the other side. Real cases are large and long-running: in May 2024 the CFTC fined J.P. Morgan Securities, a Fed primary dealer, 100 million dollars for failing to surveil potential spoofing and high-frequency trading for eight years (Pam Martens and Russ Martens, 28 May 2024).
+Speed also enables manipulation. _Spoofing_ works in three steps: the spoofer stacks the book in one direction with orders it does not intend to execute, takes that fake supply back out, and then sweeps the market with a large order on the other side. Real cases are large and long-running: in May 2024 the Commodity Futures Trading Commission (CFTC) fined J.P. Morgan Securities, a Fed primary dealer, 100 million dollars for failing to surveil potential spoofing and high-frequency trading for eight years (Pam Martens and Russ Martens, 28 May 2024).
 
 A second pattern is _quote stuffing_: bursts of orders to buy and sell that are quickly cancelled. In Abbott Laboratories stock on the morning of 17 August, one second at 10:07:27 carried 11,557 orders (source: Nanex). Normal trading in the same stock runs at 38 orders per second on average, and a separate burst reached 10,704 orders in one second and 5,483 in the next, with all but 14 cancelled within one second.
 
@@ -61,7 +61,7 @@ Flashcards for this section are as follows:
 - three steps of spoofing ::@:: Build up fake orders in one direction, cancel them, then sweep the market with a large order on the other side.
 - relation between the spoofer's fake orders and its own trade ::@:: They sit on opposite sides: the stacked orders are placed in one direction, and the sweep goes the other way.
 - why the spoofed orders are cancelled ::@:: They were never meant to execute.
-- CFTC fine on J.P. Morgan Securities for failing to surveil potential spoofing over eight years ::@:: 100 million dollars.
+- Commodity Futures Trading Commission (CFTC) fine on J.P. Morgan Securities for failing to surveil potential spoofing over eight years ::@:: 100 million dollars.
 - what quote stuffing is ::@:: Bursts of orders to buy and sell that are quickly cancelled.
 - orders carried by one second at the peak of the Abbott Laboratories burst ::@:: 11,557 orders, at 10:07:27.
 - order rate at Abbott Laboratories in normal times against the burst ::@:: 38 orders per second on average, then 10,704 orders in one second and 5,483 in the next, with all but 14 cancelled within one second.

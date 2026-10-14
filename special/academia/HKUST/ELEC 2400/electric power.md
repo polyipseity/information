@@ -102,13 +102,13 @@ Flashcards for this section are as follows:
 
 ### resistance that varies with temperature
 
-A filament bulb heats as it runs, so it does not hold one resistance: its rating describes the hot steady state rather than the first moment after switch-on. A bulb that draws $4\text{ A}$ from a $120\text{ V}$ DC source when cold and dissipates $60\text{ W}$ in the steady state has $R_\text{cold} = 120\text{ V}/4\text{ A} = 30\ \Omega$ against $R_\text{hot} = (120\text{ V})^2/60\text{ W} = 240\ \Omega$, an eightfold change. The cold bulb dissipates $P_\text{cold} = 120\text{ V}\times4\text{ A} = 480\text{ W}$, eight times its $60\text{ W}$ steady-state dissipation.
+A filament bulb heats as it runs, so it does not hold one resistance: its rating describes the hot steady state rather than the first moment after switch-on. A bulb that draws $4\text{ A}$ from a $120\text{ V}$ direct current (DC) source when cold and dissipates $60\text{ W}$ in the steady state has $R_\text{cold} = 120\text{ V}/4\text{ A} = 30\ \Omega$ against $R_\text{hot} = (120\text{ V})^2/60\text{ W} = 240\ \Omega$, an eightfold change. The cold bulb dissipates $P_\text{cold} = 120\text{ V}\times4\text{ A} = 480\text{ W}$, eight times its $60\text{ W}$ steady-state dissipation.
 
 ---
 
 Flashcards for this section are as follows:
 
-- resistance that varies with temperature / cold resistance of a bulb that draws $4\text{ A}$ from a $120\text{ V}$ DC source at start-up ::@:: $R_\text{cold} = 120\text{ V}/4\text{ A} = 30\ \Omega$.
+- resistance that varies with temperature / cold resistance of a bulb that draws $4\text{ A}$ from a $120\text{ V}$ direct current (DC) source at start-up ::@:: $R_\text{cold} = 120\text{ V}/4\text{ A} = 30\ \Omega$.
 - resistance that varies with temperature / hot resistance of a bulb that dissipates $60\text{ W}$ in the steady state under a $120\text{ V}$ source ::@:: $R_\text{hot} = (120\text{ V})^2/60\text{ W} = 240\ \Omega$.
 - resistance that varies with temperature / power dissipated at start-up, with $4\text{ A}$ flowing from the $120\text{ V}$ source into the $30\ \Omega$ cold filament ::@:: $P_\text{cold} = 120\text{ V}\times4\text{ A} = 480\text{ W}$.
 - resistance that varies with temperature / inference from the $480\text{ W}$ cold power against the $60\text{ W}$ hot power of the same bulb ::@:: The cold filament dissipates eight times the power of the hot one.

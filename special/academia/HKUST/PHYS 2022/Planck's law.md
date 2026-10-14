@@ -48,13 +48,13 @@ Together they remove the continuous exchange that equipartition needs, and with 
 
 Flashcards for this section are as follows:
 
-- what Planck assumed the radiation in the cavity was emitted and absorbed by ::@:: Oscillators in the walls of the cavity.
-- Planck's first modification: the energies an oscillator of frequency $f$ may hold ::@:: Only the discrete values $E_n = nhf$, where $n$ is an integer, so an oscillator carries $0$, $1$, $2$, $3, \ldots$ quanta and nothing between.
-- the value of Planck's constant $h$ ::@:: $6.6261 \times 10^{-34}\ \text{J}\cdot\text{s}$, the value accepted today. Planck's own first calculation gave $6.55 \times 10^{-27}\ \text{erg}\cdot\text{s}$, which is $1.15$ percent lower, and he called it the elementary quantum of action; see [Max Planck](Max%20Planck.md).
-- Planck's second modification: the size of each exchange, in terms of the oscillator frequency $f$ and the constant $h$ ::@:: $\Delta E = hf$, the fundamental quantum.
+- what Max Planck assumed the radiation in the cavity was emitted and absorbed by ::@:: Oscillators in the walls of the cavity.
+- Max Planck's first modification: the energies an oscillator of frequency $f$ may hold ::@:: Only the discrete values $E_n = nhf$, where $n$ is an integer, so an oscillator carries $0$, $1$, $2$, $3, \ldots$ quanta and nothing between.
+- the value of Planck's constant $h$ ::@:: $6.6261 \times 10^{-34}\ \text{J}\cdot\text{s}$, the value accepted today. Max Planck's own first calculation gave $6.55 \times 10^{-27}\ \text{erg}\cdot\text{s}$, which is $1.15$ percent lower, and he called it the elementary quantum of action; see [Max Planck](Max%20Planck.md).
+- Max Planck's second modification: the size of each exchange, in terms of the oscillator frequency $f$ and the constant $h$ ::@:: $\Delta E = hf$, the fundamental quantum.
 - why the second modification follows from the ladder $E_n = nhf$ ::@:: The gaps between discrete levels are discrete, and a drop of one step carries exactly $hf$.
 - what equipartition gives per degree of freedom at temperature $T$, and what the two modifications take away from it ::@:: $\tfrac{1}{2}k_BT$, which needs continuous states and continuous exchange.
-- which factor of $u_\lambda = n(\lambda)E(f)$ Planck's two modifications change, and why the mode count is not that factor ::@:: The mean energy $E(f)$. The mode density $n(\lambda) = 8\pi/\lambda^4$ stays the classical count, because counting standing waves and shells assumes nothing about how the energy inside a mode is distributed.
+- which factor of $u_\lambda = n(\lambda)E(f)$ Max Planck's two modifications change, and why the mode count is not that factor ::@:: The mean energy $E(f)$. The mode density $n(\lambda) = 8\pi/\lambda^4$ stays the classical count, because counting standing waves and shells assumes nothing about how the energy inside a mode is distributed.
 
 ## mean energy of a quantised oscillator
 

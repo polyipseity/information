@@ -61,11 +61,11 @@ Flashcards for this section are as follows:
 
 ## magnetic resonance imaging
 
-An MRI scanner measures the same resonance inside the body, on the hydrogen nuclei of water. A field gradient makes the resonant field, and so the resonant frequency, depend on position; the frequency a voxel absorbs therefore names where it sits, and the image is the absorption mapped over the body.
+A magnetic resonance imaging (MRI) scanner measures the same resonance inside the body, on the hydrogen nuclei of water. A field gradient makes the resonant field, and so the resonant frequency, depend on position; the frequency a voxel absorbs therefore names where it sits, and the image is the absorption mapped over the body.
 
 ---
 
 Flashcards for this section are as follows:
 
-- what an MRI scanner measures, and which nuclei it measures them on ::@:: The nuclear magnetic resonance of the hydrogen nuclei of water.
+- what a magnetic resonance imaging (MRI) scanner measures, and which nuclei it measures them on ::@:: The nuclear magnetic resonance of the hydrogen nuclei of water.
 - how position becomes readable in magnetic resonance imaging ::@:: A field gradient makes the resonant field, and the resonant frequency, depend on position, so the frequency a voxel absorbs names where it sits.

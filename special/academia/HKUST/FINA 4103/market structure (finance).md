@@ -24,7 +24,7 @@ Markets differ along several axes: how fast they trade, how orders are matched a
 
 Broadly, markets fall into three types: over-the-counter markets, fixing and auctions, and continuous trading with a central limit-order book.
 
-A pre-IPO stock is held by management, founders, and private investors rather than listed publicly, and changes hands by bilateral negotiation. A bond is auctioned in the primary market when it is first issued, then traded over the counter in the secondary market. One stock can also trade at venues that use different protocols, such as a dealer market and a double auction.
+A pre-IPO stock, one before its initial public offering (IPO), is held by management, founders, and private investors rather than listed publicly, and changes hands by bilateral negotiation. A bond is auctioned in the primary market when it is first issued, then traded over the counter in the secondary market. One stock can also trade at venues that use different protocols, such as a dealer market and a double auction.
 
 ---
 
@@ -32,7 +32,7 @@ Flashcards for this section are as follows:
 
 - axes along which markets differ ::@:: Trading speed, how orders are matched and handled, flexibility, fungibility, liquidity, and how prices are set.
 - the three broad types of market ::@:: Over-the-counter markets, fixing and auctions, and continuous trading with a central limit-order book.
-- how a pre-IPO stock is held and traded ::@:: Not publicly listed; held by management, founders, and private investors; changes hands by bilateral negotiation.
+- how a pre-IPO stock, one before its initial public offering (IPO), is held and traded ::@:: Not publicly listed; held by management, founders, and private investors; changes hands by bilateral negotiation.
 - how a bond is traded at each stage ::@:: Auctioned in the primary market on issue, then traded over the counter in the secondary market.
 - how one stock can face different trading protocols ::@:: Different venues can use different protocols, such as a dealer market and a double auction.
 
@@ -75,7 +75,7 @@ Flashcards for this section are as follows:
 
 ## exchange competition and fragmentation
 
-The United States has 16 stock exchanges registered with the SEC as national securities exchanges, alongside many alternative trading systems such as dark pools. An earlier venue breakdown, attributed to Cboe Global Markets, FINRA, and SIFMA estimates, counted 13 exchanges beside 33 equity alternative trading systems and over-the-counter venues.
+The United States has 16 stock exchanges registered with the Securities and Exchange Commission (SEC) as national securities exchanges, alongside many alternative trading systems such as dark pools. An earlier venue breakdown, attributed to Cboe Global Markets, FINRA, and SIFMA estimates, counted 13 exchanges beside 33 equity alternative trading systems and over-the-counter venues.
 
 Three families own most of them:
 
@@ -113,25 +113,25 @@ The revenue question is unresolved. Exchanges earn from market data, and a _Wall
 
 Flashcards for this section are as follows:
 
-- how many national securities exchanges the United States registers with the SEC ::@:: 16, plus many alternative trading systems such as dark pools.
+- how many national securities exchanges the United States registers with the Securities and Exchange Commission (SEC) ::@:: 16, plus many alternative trading systems such as dark pools.
 - composition of United States equity trading venues in the earlier breakdown ::@:: 13 exchanges, 33 equity alternative trading systems, and over-the-counter venues.
 - the three families that own most United States exchanges, and their venues ::@:: Cboe with BYX, BZX, EDGA, and EDGX; NYSE with the New York Stock Exchange, Arca, American, and National; and Nasdaq with BX, PHLX, and the Nasdaq Stock Market.
 - United States exchanges outside those families ::@:: The Chicago Stock Exchange and IEX.
 - markets outside the United States and how their exchanges are organized ::@:: Hong Kong runs the Hong Kong Stock Exchange, the United Kingdom the London Stock Exchange, and Japan the Tokyo Stock Exchange; China's market is organized into A-shares and B-shares.
-- example of the SEC's promotion of exchange competition ::@:: The Securities Exchange Act of 1934.
+- example of the promotion of exchange competition by the Securities and Exchange Commission (SEC) ::@:: The Securities Exchange Act of 1934.
 - rulebook that makes exchange competition workable ::@:: Regulation National Market System, whose order protection rule is Rule 611.
 - explicit trading fees in the United States ::@:: Very small, roughly 0.05 basis points, while other trading costs stay high.
 - United States equity market share of the NYSE and Nasdaq in 1998 ::@:: 52% and 40% respectively, with other exchanges taking 8%.
-- largest United States equity trading venue in 2015 ::@:: The FINRA trade reporting facility, at 20.3%.
+- largest United States equity trading venue in 2015 ::@:: The Financial Industry Regulatory Authority (FINRA) trade reporting facility, at 20.3%.
 - source of the 1998 and 2015 venue shares ::@:: Credit Suisse Trading Strategy.
 - what Budish, Lee, and Shims (2023) predict for trading fees ::@:: That they decline and become negligible, which is what is observed.
-- why the exchanges' trade-execution services are identical ::@:: Unlisted trading privileges make every listed stock available everywhere, and Regulation NMS requires the same execution everywhere.
+- why the exchanges' trade-execution services are identical ::@:: Unlisted trading privileges make every listed stock available everywhere, and Regulation National Market System (NMS) requires the same execution everywhere.
 - competition the United States exchange market resembles ::@:: Bertrand competition.
-- where the revenue comes from once the fee is zero ::@:: Market data, whose fees the SEC declined to let the exchanges raise in October 2018.
+- where the revenue comes from once the fee is zero ::@:: Market data, whose fees the Securities and Exchange Commission (SEC) declined to let the exchanges raise in October 2018.
 
 ## electronic trading
 
-Information technology changed market structure. Electronic trading made execution faster and the process more transparent, and it moved pricing from a call auction to a limit-order book. AI has since spread across Wall Street, and the physical trading floor has gone.
+Information technology changed market structure. Electronic trading made execution faster and the process more transparent, and it moved pricing from a call auction to a limit-order book. Artificial intelligence (AI) has since spread across Wall Street, and the physical trading floor has gone.
 
 An engraving from 1879 shows a hall packed shoulder to shoulder with men in top hats and bowlers, arms raised, papers in hand, every one of them trading in person. The modern equivalent is a data centre: racks studded with status lights along a blue-lit aisle, and nobody in the room. Matching buyers and sellers no longer takes a room full of people.
 

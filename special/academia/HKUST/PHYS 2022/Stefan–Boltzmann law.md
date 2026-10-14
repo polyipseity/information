@@ -22,7 +22,7 @@ Flashcards for this section are as follows:
 - the law $R(T) = \epsilon\sigma T^4$, and the integral it comes from ::@:: $R(T) = \int_0^\infty I_\lambda(\lambda,T)\,d\lambda = \epsilon\sigma T^4$, the black-body spectrum summed over every wavelength.
 - the symbol $I_\lambda$ in that integral, against $R(T)$ ::@:: $I_\lambda$ is the power per unit area per unit wavelength at temperature $T$ in kelvin, one term of the integral; $R(T)$ is the whole integral, the total power per unit area.
 - the $T^4$ in the Stefan–Boltzmann law: where it comes from ::@:: From the shape of the black-body curve, which the integral over every wavelength inherits, so it is not an independent fact.
-- the Stefan–Boltzmann constant $\sigma$: its value, and whether it can be derived from Planck's law ::@:: $\sigma = 5.6704 \times 10^{-8}\ \text{W}/(\text{m}^2 \cdot \text{K}^4)$, and it can: integrating Planck's law over every wavelength gives $\sigma = \dfrac{2\pi^5 k_B^4}{15 h^3 c^2}$ from $h$, $c$ and $k_B$ alone. Stefan and Boltzmann fitted it by measurement only because Planck's law did not yet exist.
+- the Stefan–Boltzmann constant $\sigma$: its value, and whether it can be derived from Planck's law ::@:: $\sigma = 5.6704 \times 10^{-8}\ \text{W}/(\text{m}^2 \cdot \text{K}^4)$, and it can: integrating Planck's law over every wavelength gives $\sigma = \dfrac{2\pi^5 k_B^4}{15 h^3 c^2}$ from $h$, $c$ and $k_B$ alone. Josef Stefan and Ludwig Boltzmann fitted it by measurement only because Planck's law did not yet exist.
 - the temperature that must go in the $T^4$ ::@:: The absolute temperature in kelvin; a celsius reading is a different number, not a small correction to it.
 
 ## emissivity

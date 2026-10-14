@@ -14,7 +14,7 @@ tags:
 
 # electrical network
 
-A vehicle once carried only a few essential circuits, lighting and wiping among them. Today's vehicle mixes continually evolving subsystems whose electronic and electrical components reach a hundred or more. Circuit construction moved from discrete components toward mainly integrated circuits and smaller transistors. Moore's law captures that growth. Gordon Moore, co-founder of Fairchild Semiconductor and co-founder and CEO of Intel, posited in 1965 that the number of components per integrated circuit doubles every year. In 1975, looking forward to the next decade, he revised the forecast to a doubling every two years.
+A vehicle once carried only a few essential circuits, lighting and wiping among them. Today's vehicle mixes continually evolving subsystems whose electronic and electrical components reach a hundred or more. Circuit construction moved from discrete components toward mainly integrated circuits and smaller transistors. Moore's law captures that growth. Gordon Moore, co-founder of Fairchild Semiconductor and co-founder and chief executive officer (CEO) of Intel, posited in 1965 that the number of components per integrated circuit doubles every year. In 1975, looking forward to the next decade, he revised the forecast to a doubling every two years.
 
 A modern phone carries a large number of transducers, sensing motion, the environment, touch, light, sound, and radio. In the general electronics model an electronic circuit sits between a sensor/transducer and an actuator/transducer, exchanging electrical signals and controls with the physical world. A circuit is an interconnection of circuit elements forming a closed circuit. The simplest case is a battery driving a light bulb: the battery becomes a $9\text{ V}$ voltage source and the bulb a resistor $R$. Devices are modelled as comprising circuit elements, and circuit analysis manipulates those element models.
 
@@ -99,7 +99,7 @@ Flashcards for this section are as follows:
 
 ### multi-terminal elements
 
-Some elements carry more than two terminals. An operational amplifier is a five-terminal element when its supplies are counted and a three-terminal element otherwise. With $V_{dd} = 5\text{ V}$ and $V_{ss} = 0\text{ V}$ as the supply terminals, the remaining three are the inverting input $V_-$, the non-inverting input $V_+$, and the output $V_{out}$. A MOS transistor is a four-terminal element with a gate (G), a body (B), a source (S), and a drain (D).
+Some elements carry more than two terminals. An operational amplifier is a five-terminal element when its supplies are counted and a three-terminal element otherwise. With $V_{dd} = 5\text{ V}$ and $V_{ss} = 0\text{ V}$ as the supply terminals, the remaining three are the inverting input $V_-$, the non-inverting input $V_+$, and the output $V_{out}$. A metal-oxide-semiconductor (MOS) transistor is a four-terminal element with a gate (G), a body (B), a source (S), and a drain (D).
 
 ---
 
@@ -107,7 +107,7 @@ Flashcards for this section are as follows:
 
 - operational amplifier, supplies $V_{dd} = 5\text{ V}$, $V_{ss} = 0\text{ V}$: how many terminals with the supplies counted, and how many without them? ::@:: Five terminals with $V_{dd}$ and $V_{ss}$ counted, and three terminals otherwise.
 - operational amplifier terminals: an operational amplifier has supplies $V_{dd} = 5\text{ V}$ and $V_{ss} = 0\text{ V}$; name its three signal terminals. ::@:: The inverting input $V_-$, the non-inverting input $V_+$, and the output $V_{out}$.
-- MOS transistor: how many terminals does a MOS transistor have, and what are they? ::@:: Four terminals: the gate (G), the body (B), the source (S), and the drain (D).
+- metal-oxide-semiconductor (MOS) transistor: how many terminals does a MOS transistor have, and what are they? ::@:: Four terminals: the gate (G), the body (B), the source (S), and the drain (D).
 
 ## reference direction
 
@@ -135,4 +135,4 @@ Flashcards for this section are as follows:
 - average power test: an element carries a voltage $V$ and a current $I$ along its reference direction; what does its average power $P_{\text{ave}} = (VI)_{\text{ave}}$ show for a passive element, and for an active one? ::@:: A passive element has $P_{\text{ave}} \ge 0$ and consumes or stores power; an active element has $P_{\text{ave}} < 0$ and generates it.
 - passive components: which circuit elements are passive? ::@:: Resistors, capacitors, inductors, transformers, and diodes.
 - active components: which circuit elements are active? ::@:: Batteries, voltage and current sources, transistors, and op amps.
-- op amp power: how does an op amp's output signal power compare with its input signal power, and where does the difference come from? ::@:: The output signal power exceeds the input signal power, and the difference comes from DC power supplies.
+- op amp power: how does an op amp's output signal power compare with its input signal power, and where does the difference come from? ::@:: The output signal power exceeds the input signal power, and the difference comes from direct current (DC) power supplies.

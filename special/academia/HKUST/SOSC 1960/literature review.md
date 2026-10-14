@@ -130,22 +130,22 @@ A systematic review keeps the traditional methods, which a reader can trace and 
 
 Flashcards for this section are as follows:
 
-- what generative AI gets wrong in a research context ::@:: It falls behind current research, and its content can be wrong or biased.
-- what generative AI writing lacks ::@:: Originality and depth.
-- why generative AI cannot replace the search in a systematic review ::@:: A systematic review needs search methods that a reader can trace and repeat.
+- what generative artificial intelligence (AI) gets wrong in a research context ::@:: It falls behind current research, and its content can be wrong or biased.
+- what generative artificial intelligence (AI) writing lacks ::@:: Originality and depth.
+- why generative artificial intelligence (AI) cannot replace the search in a systematic review ::@:: A systematic review needs search methods that a reader can trace and repeat.
 
 ### how to use an AI tool
 
-An AI tool shortens the search when it is a companion rather than a source. The writer still has to check its citations and claims against the studies themselves. One answer is never enough. Write the draft first and let the tool improve it. The critical analysis stays with the writer.
+An artificial intelligence (AI) tool shortens the search when it is a companion rather than a source. The writer still has to check its citations and claims against the studies themselves. One answer is never enough. Write the draft first and let the tool improve it. The critical analysis stays with the writer.
 
 ---
 
 Flashcards for this section are as follows:
 
-- role of an AI tool in a literature search ::@:: A companion that shortens the search, never the single source for it.
+- role of an artificial intelligence (AI) tool in a literature search ::@:: A companion that shortens the search, never the single source for it.
 - what has to be checked in what a tool returns ::@:: Its citations and claims, checked against the studies themselves.
 - how many answers from a tool are enough ::@:: Never one on its own.
-- how to use generative AI without giving up the analysis ::@:: Write the draft first and let the tool improve it.
+- how to use generative artificial intelligence (AI) without giving up the analysis ::@:: Write the draft first and let the tool improve it.
 
 ## reading a research article
 

@@ -18,7 +18,7 @@ The Schrödinger equation is the equation of motion of non-relativistic quantum 
 Flashcards for this section are as follows:
 
 - overview: what the Schrödinger equation does for $\Psi(x,t)$ ::@:: It governs the time evolution of the wave function $\Psi(x,t)$, the quantum analogue of Newton's second law.
-- what the equation was built on ::@:: De Broglie's matter-wave postulate; Schrödinger postulated the equation in 1926 to reproduce atomic spectra.
+- what the equation was built on ::@:: De Broglie's matter-wave postulate; Erwin Schrödinger postulated the equation in 1926 to reproduce atomic spectra.
 
 ## time-dependent equation
 

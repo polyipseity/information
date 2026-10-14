@@ -20,7 +20,7 @@ Flashcards for this section are as follows:
 
 - the one assumption the failure rests on ::@:: that every mode holds the equipartition share $k_BT$ whatever its frequency. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - what a mode is here, and what $k_BT$ is ::@:: A mode is one standing wave pattern inside the cavity; $k_B$ is the Boltzmann constant, so $k_BT$ is the energy classical physics assigns to such a pattern at absolute temperature $T$.
-- who named the failure and when, against when the divergence itself appeared ::@:: Ehrenfest named it in 1911; the divergence belongs to the 1900 prediction, so the name came after the result.
+- who named the failure and when, against when the divergence itself appeared ::@:: Paul Ehrenfest named it in 1911; the divergence belongs to the 1900 prediction, so the name came after the result.
 
 ## a divergence, not a discrepancy
 

@@ -26,7 +26,7 @@ One main function of a microkernel is IPC through message passing. If an applica
 
 Flashcards for this section are as follows:
 
-- microkernel IPC ::@:: In a microkernel, user-level programs and services communicate indirectly through message passing via the microkernel, rather than interacting directly with each other.
+- microkernel inter-process communication (IPC) ::@:: In a microkernel, user-level programs and services communicate indirectly through message passing via the microkernel, rather than interacting directly with each other.
 - microkernel message-passing overhead ::@:: When two user-level services communicate, messages must be copied between separate address spaces, introducing performance overhead.
 
 ## advantages
@@ -56,12 +56,12 @@ Flashcards for this section are as follows:
 
 Mach, developed at CMU in the mid-1980s, was an early microkernel. The best-known microkernel OS is Darwin, used in Mac OS X and iOS. Darwin is a hybrid XNU kernel combining the Mach microkernel and the BSD UNIX kernel.
 
-Darwin provides two system-call interfaces: Mach traps and BSD system calls (providing POSIX functionality). Mach handles memory management, CPU scheduling, and IPC. BSD provides the POSIX API, networking, file system, and security. The kernel environment includes an I/O kit for device drivers and dynamically loadable modules called kernel extensions (kexts).
+Darwin provides two system-call interfaces: Mach traps and BSD system calls (providing POSIX functionality). Mach handles memory management, central processing unit (CPU) scheduling, and IPC. BSD provides the POSIX application program interface (API), networking, file system, and security. The kernel environment includes an I/O kit for device drivers and dynamically loadable modules called kernel extensions (kexts).
 
 ---
 
 Flashcards for this section are as follows:
 
-- Mach microkernel ::@:: An early microkernel from CMU (mid-1980s) providing memory management, CPU scheduling, and IPC.
-- Darwin kernel structure ::@:: A hybrid XNU kernel: Mach microkernel (memory management, CPU scheduling, IPC) plus BSD UNIX kernel (POSIX API, networking, file system, security), with two system-call interfaces: Mach traps and BSD calls.
+- Mach microkernel ::@:: An early microkernel from CMU (mid-1980s) providing memory management, central processing unit (CPU) scheduling, and inter-process communication (IPC).
+- Darwin kernel structure ::@:: A hybrid XNU kernel: Mach microkernel (memory management, central processing unit (CPU) scheduling, inter-process communication (IPC)) plus BSD UNIX kernel (POSIX application program interface (API), networking, file system, security), with two system-call interfaces: Mach traps and BSD calls.
 - kernel extensions (kexts) ::@:: Dynamically loadable modules in the Darwin kernel, used for device drivers and other extensions.

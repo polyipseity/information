@@ -51,7 +51,7 @@ Flashcards for this section are as follows:
 
 During sleep the brain takes in the day's difficult experiences and soothes them. Their sharp edges fade, and the next day copes.
 
-Some of the healing usually credited to time happens during sleep. REM sleep is a form of emotional first aid.
+Some of the healing usually credited to time happens during sleep. Rapid eye movement (REM) sleep is a form of emotional first aid.
 
 ---
 

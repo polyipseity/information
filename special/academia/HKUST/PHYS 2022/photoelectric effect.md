@@ -27,11 +27,11 @@ Millikan set out to show Einstein wrong and spent almost ten years on the attemp
 
 Flashcards for this section are as follows:
 
-- the two observations before 1900, by Hertz and Hallwachs ::@:: Hertz's detector spark grew more vigorous under ultraviolet light in 1887, and Hallwachs found positive charges on a zinc plate in 1888, produced by electron emission.
-- Thomson's 1898 finding ::@:: The number of emitted electrons varied with the intensity of the ultraviolet light.
-- Lenard's systematic study: what he measured ::@:: The dependence of kinetic energy and the number of emitted electrons on the intensity and frequency of incident light.
-- Millikan's 1916 photoelectric measurements on sodium: the threshold frequency ::@:: No photoelectrons below $4.39 \times 10^{14}\ \text{Hz}$, a wavelength of $683\ \text{nm}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- the slope of Millikan's 1916 line of maximum kinetic energy against light frequency ::@:: Planck's constant, $h = 4.1 \times 10^{-15}\ \text{eV}\cdot\text{s}$, in agreement with the value from black-body radiation. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- the two observations before 1900, by Heinrich Hertz and Wilhelm Hallwachs ::@:: Heinrich Hertz's detector spark grew more vigorous under ultraviolet light in 1887, and Wilhelm Hallwachs found positive charges on a zinc plate in 1888, produced by electron emission.
+- J. J. Thomson's 1898 finding ::@:: The number of emitted electrons varied with the intensity of the ultraviolet light.
+- Philipp Lenard's systematic study: what he measured ::@:: The dependence of kinetic energy and the number of emitted electrons on the intensity and frequency of incident light.
+- Robert Millikan's 1916 photoelectric measurements on sodium: the threshold frequency ::@:: No photoelectrons below $4.39 \times 10^{14}\ \text{Hz}$, a wavelength of $683\ \text{nm}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- the slope of Robert Millikan's 1916 line of maximum kinetic energy against light frequency ::@:: Planck's constant, $h = 4.1 \times 10^{-15}\ \text{eV}\cdot\text{s}$, in agreement with the value from black-body radiation. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
 ## experimental setup
 
@@ -83,7 +83,7 @@ Run together with $KE_{\text{max}} = eV_s$ from the apparatus, the photoelectric
 
 Flashcards for this section are as follows:
 
-- Einstein's photon hypothesis: the energy of a single photon ::@:: $E = hf$, where $h$ is the Planck constant and $f$ is the frequency of the light. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- Albert Einstein's photon hypothesis: the energy of a single photon ::@:: $E = hf$, where $h$ is the Planck constant and $f$ is the frequency of the light. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - the photoelectric equation: maximum kinetic energy of a photoelectron ::@:: $K = hf - \Phi$, where $\Phi$ is the work function of the material. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - the energy-conservation balance behind the photoelectric equation: what the photon energy $hf$ splits into ::@:: The work function $\Phi$ paid to free the electron plus the kinetic energy $K$ it keeps, $hf = \Phi + K$.
 - the most energetic photoelectrons: where they are freed from, and their maximum kinetic energy $KE_{\text{max}}$ in terms of $hf$ and $\Phi$ ::@:: From the surface, with no energy spent travelling out of the metal, so $KE_{\text{max}} = hf - \Phi$.
@@ -110,16 +110,16 @@ Flashcards for this section are as follows:
 
 Flashcards for this section are as follows:
 
-- XPS: what it measures and how ::@:: The elemental composition of materials, from the binding energies of electrons ejected by X-rays; each element has characteristic peaks.
+- X-ray photoelectron spectroscopy (XPS): what it measures and how ::@:: The elemental composition of materials, from the binding energies of electrons ejected by X-rays; each element has characteristic peaks.
 
 ### charge-coupled device cameras
 
-A CCD sensor consists of millions of tiny pixels, each built around a metal-oxide-semiconductor (MOS) capacitor. Light ejects electrons from a pixel into a potential well created by a gate voltage on the capacitor. The accumulated charge is proportional to the light intensity. After the exposure, each charge packet travels along a row to a readout amplifier, which converts it to a voltage. The transfer is sequential, like a bucket brigade. That is where the name charge-coupled comes from. Quantum efficiency is the fraction of incident photons that produce a measurable electron. Front-illuminated CCDs peak near 40% in the visible, while back-thinned scientific CCDs exceed 90%.
+A charge-coupled device (CCD) sensor consists of millions of tiny pixels, each built around a metal-oxide-semiconductor (MOS) capacitor. Light ejects electrons from a pixel into a potential well created by a gate voltage on the capacitor. The accumulated charge is proportional to the light intensity. After the exposure, each charge packet travels along a row to a readout amplifier, which converts it to a voltage. The transfer is sequential, like a bucket brigade. That is where the name charge-coupled comes from. Quantum efficiency is the fraction of incident photons that produce a measurable electron. Front-illuminated CCDs peak near 40% in the visible, while back-thinned scientific CCDs exceed 90%.
 
 ---
 
 Flashcards for this section are as follows:
 
-- a CCD pixel: the component that traps photoelectrons, and what it records ::@:: A metal-oxide-semiconductor (MOS) capacitor, which creates a potential well that holds the ejected electrons; the accumulated charge is proportional to the light intensity.
-- how CCD charges are read out ::@:: Charges are transferred pixel by pixel along rows to a readout amplifier (bucket-brigade readout), where each charge packet is converted to a voltage.
-- front-illuminated CCDs and back-thinned scientific CCDs: which of them has a visible-range quantum efficiency near $40\%$ and which exceeds $90\%$? ::@:: Front-illuminated CCDs peak near $40\%$ in the visible, while back-thinned scientific CCDs exceed $90\%$.
+- a charge-coupled device (CCD) pixel: the component that traps photoelectrons, and what it records ::@:: A metal-oxide-semiconductor (MOS) capacitor, which creates a potential well that holds the ejected electrons; the accumulated charge is proportional to the light intensity.
+- how charge-coupled device (CCD) charges are read out ::@:: Charges are transferred pixel by pixel along rows to a readout amplifier (bucket-brigade readout), where each charge packet is converted to a voltage.
+- front-illuminated charge-coupled devices (CCDs) and back-thinned scientific CCDs: which of them has a visible-range quantum efficiency near $40\%$ and which exceeds $90\%$? ::@:: Front-illuminated charge-coupled devices (CCDs) peak near $40\%$ in the visible, while back-thinned scientific CCDs exceed $90\%$.

@@ -86,7 +86,7 @@ FINA 4103 is an undergraduate course in financial markets trading and structure 
 - note: both examinations are closed-book, with one A4 sheet of notes, both sides, allowed; copying class materials or another student's sheet is prohibited
 - note: class recordings are provided only during the add/drop period for schedule conflicts, after documented sick or school-related leave, and for the seven days before each examination
 - note: make-up examinations are offered only for conflicts with other examinations, which must be reported a month in advance
-- note: generative AI use is unrestricted except during the two examinations, and any use must be credited
+- note: generative artificial intelligence (AI) use is unrestricted except during the two examinations, and any use must be credited
 - note: AI is encouraged and may be used for homework, but students must be able to solve similar problems unaided in the examinations. Among 26,811 pupils aged 12–18 in China from January 2023 to June 2025, those using AI had higher average homework scores, while at examination time they scored below pupils who never used AI (D. Strömberg et al., _The generative AI learning penalty_, preprint June 2026)
 - note: questions involving mathematics and equations belong in office hours rather than email; questions about logistics, recordings, and examination arrangements go to the teaching assistants
 

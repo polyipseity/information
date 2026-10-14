@@ -24,7 +24,7 @@ Flashcards for this section are as follows:
 
 ## computer system organization
 
-A computer system has one or more CPU cores and several device controllers on a common bus that gives access to shared memory. Each controller manages one device type and has its own local buffer, so CPUs and devices run concurrently and compete for memory cycles on the bus.
+A computer system has one or more central processing unit (CPU) cores and several device controllers on a common bus that gives access to shared memory. Each controller manages one device type and has its own local buffer, so CPUs and devices run concurrently and compete for memory cycles on the bus.
 
 The worked example arranges those parts around buses. The processor, its cache, and main memory meet at a bridge/memory controller that joins the PCI bus, and the graphics controller, a SCSI controller, an IDE disk controller, and an expansion bus interface hang off that same PCI bus. Devices attach below their controllers: a monitor under the graphics controller, disks on the SCSI and IDE buses, and a keyboard, parallel port, and serial port on the expansion bus.
 
@@ -32,10 +32,10 @@ The worked example arranges those parts around buses. The processor, its cache, 
 
 Flashcards for this section are as follows:
 
-- computer-system operation ::@:: One or more CPU cores and several device controllers are connected through a common bus that provides access to shared memory.
+- computer-system operation ::@:: One or more central processing unit (CPU) cores and several device controllers are connected through a common bus that provides access to shared memory.
 - device controller ::@:: Hardware that manages one type of device and has its own local buffer.
-- concurrent execution ::@:: The CPUs and the device controllers execute concurrently and therefore compete for memory cycles through the shared bus.
-- a system architecture with I/O ::@:: The processor, its cache, and main memory meet at a bridge/memory controller on the PCI bus, where the graphics controller, a SCSI controller, an IDE disk controller, and an expansion bus interface also sit, with devices attached below their controllers.
+- concurrent execution ::@:: The central processing units (CPUs) and the device controllers execute concurrently and therefore compete for memory cycles through the shared bus.
+- a system architecture with input/output (I/O) ::@:: The processor, its cache, and main memory meet at a bridge/memory controller on the PCI bus, where the graphics controller, a SCSI controller, an IDE disk controller, and an expansion bus interface also sit, with devices attached below their controllers.
 
 ## instruction execution cycle
 
@@ -68,7 +68,7 @@ When a device needs attention its controller raises an interrupt. The CPU saves 
 
 Flashcards for this section are as follows:
 
-- interrupts ::@:: A device controller raises an interrupt when a device needs attention, the CPU saves its state and transfers control to a handler, and later resumes, which lets computation and input/output overlap.
+- interrupts ::@:: A device controller raises an interrupt when a device needs attention, the central processing unit (CPU) saves its state and transfers control to a handler, and later resumes, which lets computation and input/output overlap.
 
 ## input and output subsystem
 
@@ -99,6 +99,6 @@ Moving data between a device and main memory is either done by the CPU itself, i
 
 Flashcards for this section are as follows:
 
-- programmed I/O ::@:: The CPU itself performs the work of moving data between a device and main memory; the synchronous style of transfer.
+- programmed input/output (I/O) ::@:: The central processing unit (CPU) itself performs the work of moving data between a device and main memory; the synchronous style of transfer.
 - direct memory access ::@:: The work of moving data between a device and main memory is offloaded to a DMA controller; the asynchronous style of transfer.
-- synchronous versus asynchronous transfer ::@:: Programmed I/O is synchronous because the CPU performs the transfer, whereas direct memory access is asynchronous because it is offloaded to a DMA controller.
+- synchronous versus asynchronous transfer ::@:: Programmed input/output (I/O) is synchronous because the central processing unit (CPU) performs the transfer, whereas direct memory access is asynchronous because it is offloaded to a DMA controller.

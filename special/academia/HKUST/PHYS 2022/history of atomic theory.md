@@ -40,17 +40,17 @@ Two of the six rows hide more than the picture suggests. Thomson's plum pudding 
 
 Flashcards for this section are as follows:
 
-- the span of the models, and which of them keep the atom indivisible ::@:: Six models over two thousand years; only the first two, Democritus and Dalton.
+- the span of the models, and which of them keep the atom indivisible ::@:: Six models over two thousand years; only the first two, Democritus and John Dalton.
 - the model of Democritus, 400 BC: the picture and what it explained ::@:: Atoms are the building blocks of matter; the shape of an atom explains the behaviour of its element.
-- the model of Dalton, 1803: the picture ::@:: A solid, indivisible sphere.
+- the model of John Dalton, 1803: the picture ::@:: A solid, indivisible sphere.
 - the model of J. J. Thomson, 1897: the picture ::@:: Negative electrons embedded in a sea of positive charge, the plum pudding.
-- the model of Rutherford, 1911: the picture ::@:: The positive charges are located within a central nucleus.
-- the model of Bohr, 1913: the picture ::@:: Electrons are restricted to circular orbits with different energy levels.
-- the model of Schrödinger, 1926: the picture ::@:: Electrons are clouds surrounding the nucleus, less dense away from it.
-- Thomson's plum-pudding model, and where its mass sat by 1907 ::@:: Positive charge spread uniformly through a sphere the size of the atom with electrons embedded; since the electron count tracked atomic weight, the mass sat in the positive sphere.
-- Thomson's 1910 refinement of the atom's positive charge, in units of $+e$ ::@:: Discrete units of equal size, each carrying $+e$, spread evenly through the atom with empty space between.
+- the model of Ernest Rutherford, 1911: the picture ::@:: The positive charges are located within a central nucleus.
+- the model of Niels Bohr, 1913: the picture ::@:: Electrons are restricted to circular orbits with different energy levels.
+- the model of Erwin Schrödinger, 1926: the picture ::@:: Electrons are clouds surrounding the nucleus, less dense away from it.
+- J. J. Thomson's plum-pudding model, and where its mass sat by 1907 ::@:: Positive charge spread uniformly through a sphere the size of the atom with electrons embedded; since the electron count tracked atomic weight, the mass sat in the positive sphere.
+- J. J. Thomson's 1910 refinement of the atom's positive charge, in units of $+e$ ::@:: Discrete units of equal size, each carrying $+e$, spread evenly through the atom with empty space between.
 - how the plum-pudding atom was supposed to radiate, given a positive sphere of diameter $10^{-10}\ \text{m}$ ::@:: Heating sets the embedded electrons vibrating about their equilibrium positions, and oscillations of that size radiate at visible frequencies.
-- what Thomson could never derive from the plum-pudding model, though he searched for years ::@:: The light spectrum of hydrogen.
+- what J. J. Thomson could never derive from the plum-pudding model, though he searched for years ::@:: The light spectrum of hydrogen.
 - the law of definite proportions, with the water example ::@:: When elements combine to form a compound, their proportions by weight are always the same; water is always one part hydrogen to eight parts oxygen by mass.
 - what Dalton proposed in 1803 to explain the law of definite proportions ::@:: That each element is composed of atoms, each element's atoms physically and chemically characteristic, with atomic weights the key to the proportions.
 - the hidden failure in the 1913 planetary row ::@:: An orbiting electron radiates and would collapse the atom in $1.6 \times 10^{-11}\ \text{s}$ under classical electrodynamics; the Bohr model quantises the orbits to escape it. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
@@ -65,9 +65,9 @@ No atom had been seen directly, and the first evidence came from bulk behaviour.
 Flashcards for this section are as follows:
 
 - the first test of atomic theory: direct sight or bulk behaviour ::@:: Bulk behaviour; no atom had been seen directly.
-- Avogadro's proposal: what equal volumes of gas at the same temperature $T$ and pressure $p$ contain, and the constant now named for it ::@:: The same number of molecules; that constant is $N_A = 6.022 \times 10^{23}$ per mole.
-- what Maxwell derived about the atoms of a gas ::@:: The speed distribution of the atoms.
-- Brownian motion: what Brown observed, and who explained it ::@:: The microscopic "random" motion of grains of pollen suspended in water, explained by Einstein with atomic theory in the 20th century.
+- Amedeo Avogadro's proposal: what equal volumes of gas at the same temperature $T$ and pressure $p$ contain, and the constant now named for it ::@:: The same number of molecules; that constant is $N_A = 6.022 \times 10^{23}$ per mole.
+- what James Clerk Maxwell derived about the atoms of a gas ::@:: The speed distribution of the atoms.
+- Brownian motion: what Robert Brown observed, and who explained it ::@:: The microscopic "random" motion of grains of pollen suspended in water, explained by Albert Einstein with atomic theory in the 20th century.
 
 ### imaging atoms directly
 
@@ -111,9 +111,9 @@ The measurements grew sharper. Einstein's 1905 explanation of Brownian motion tr
 Flashcards for this section are as follows:
 
 - the standing of atomic theory in the 1890s ::@:: It was not universally accepted, and whether the atom had constituents was an open question.
-- Mach's ground for opposing atomism, and the objection it turns on ::@:: Logical positivism. Atoms are "unseen", so their reality is in question.
-- Ostwald's position on atoms ::@:: He accepted Mach's premise and called atoms hypothetical structures for bookkeeping rather than real objects.
-- the three experimental results that answered Mach and Ostwald ::@:: Radioactivity, discrete spectral lines, and the formation of molecular structures.
+- Ernst Mach's ground for opposing atomism, and the objection it turns on ::@:: Logical positivism. Atoms are "unseen", so their reality is in question.
+- Wilhelm Ostwald's position on atoms ::@:: He accepted Ernst Mach's premise and called atoms hypothetical structures for bookkeeping rather than real objects.
+- the three experimental results that answered Ernst Mach and Wilhelm Ostwald ::@:: Radioactivity, discrete spectral lines, and the formation of molecular structures.
 - why the spectral lines were the hardest of the three results to explain away ::@:: Each element emits at a fixed set of wavelengths and at no others, and no continuous model of a charge cloud produces such a set.
-- Einstein's 1905 explanation of Brownian motion: what the random-walk calculation gave for atoms and molecules ::@:: Approximate masses and sizes, from the many random molecular collisions of a tiny grain.
-- Perrin's 1908 experiment: what quantity it determined, and by how many kinds of measurement ::@:: Avogadro's number, from four kinds of measurement all consistent with the atomic theory, the first accurate determinations.
+- Albert Einstein's 1905 explanation of Brownian motion: what the random-walk calculation gave for atoms and molecules ::@:: Approximate masses and sizes, from the many random molecular collisions of a tiny grain.
+- Jean Perrin's 1908 experiment: what quantity it determined, and by how many kinds of measurement ::@:: Avogadro's number, from four kinds of measurement all consistent with the atomic theory, the first accurate determinations.

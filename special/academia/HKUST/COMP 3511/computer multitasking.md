@@ -23,13 +23,13 @@ Flashcards for this section are as follows:
 
 ## multiprogramming
 
-Early systems loaded one program into memory at a time, but a single program cannot keep the CPU or the I/O devices busy, and devices grew faster, so all modern systems are multiprogrammed. Multiprogramming organizes jobs so that the CPU always has one to execute. On mainframes, jobs are submitted remotely and queued, then selected and loaded into memory by __job scheduling__.
+Early systems loaded one program into memory at a time, but a single program cannot keep the central processing unit (CPU) or the input/output (I/O) devices busy, and devices grew faster, so all modern systems are multiprogrammed. Multiprogramming organizes jobs so that the CPU always has one to execute. On mainframes, jobs are submitted remotely and queued, then selected and loaded into memory by __job scheduling__.
 
 ---
 
 Flashcards for this section are as follows:
 
-- multiprogramming ::@:: Multiprogramming organizes jobs so the CPU always has one to execute, since one program cannot keep the CPU and the I/O devices busy; all modern computer systems are multiprogrammed.
+- multiprogramming ::@:: Multiprogramming organizes jobs so the central processing unit (CPU) always has one to execute, since one program cannot keep the CPU and the input/output (I/O) devices busy; all modern computer systems are multiprogrammed.
 - job scheduling ::@:: On mainframe computers jobs are submitted remotely and queued, and job scheduling selects jobs and loads them into memory.
 
 ## time sharing
@@ -40,6 +40,6 @@ __Time sharing__ is the logical extension of multiprogramming in which the CPU s
 
 Flashcards for this section are as follows:
 
-- time sharing ::@:: The logical extension of multiprogramming: the CPU switches frequently between jobs so users can interact with each while it runs, giving interactive computing with a response time under a certain threshold.
-- process and CPU scheduling ::@:: A program in execution is a process; when several are ready to run at the same time, CPU scheduling determines which one runs.
+- time sharing ::@:: The logical extension of multiprogramming: the central processing unit (CPU) switches frequently between jobs so users can interact with each while it runs, giving interactive computing with a response time under a certain threshold.
+- process and central processing unit (CPU) scheduling ::@:: A program in execution is a process; when several are ready to run at the same time, CPU scheduling determines which one runs.
 - swapping and virtual memory ::@:: If processes do not fit in memory, swapping moves them in and out during execution, and virtual memory runs processes that are not completely in memory.

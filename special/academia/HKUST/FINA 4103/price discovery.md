@@ -70,7 +70,7 @@ _Weighted price contribution_ (WPC) measures how much each group of orders moves
 | Reserve limit | 3.43% | -0.95% |
 | Reserve DNS limit | 0.21% | 0.35% |
 
-The orders that refuse to route carry more than the whole. The intermarket sweep, the two DNS immediate-or-cancel entries, and the DNS limit order add up to 115.43%, while the four routable types subtract 15.43%.
+The orders that refuse to route carry more than the whole. The intermarket sweep, the two do-not-ship (DNS) immediate-or-cancel entries, and the DNS limit order add up to 115.43%, while the four routable types subtract 15.43%.
 
 The intermarket sweep is the clearest case. It carries 35.69% of the taking volume and 90.32% of the contribution.
 

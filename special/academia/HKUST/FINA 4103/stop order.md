@@ -29,7 +29,7 @@ A stop-limit sell for 100 shares at ask = 113 dollars with stop price 115 dollar
 
 If the price falls to 115 dollars, the stop-limit sell is placed on the book at 113 dollars. At 117 dollars instead, it is placed at 117, above the market, and waits for a buyer to reach it. A stop-market sell, by contrast, executes as a market order once the stop is triggered.
 
-Exercise: in the same situation, set the ask at \$117. What does the LOB look like after the stop triggers? What if the order is stop-market sell?
+Exercise: in the same situation, set the ask at \$117. What does the limit-order book (LOB) look like after the stop triggers? What if the order is stop-market sell?
 
 ---
 

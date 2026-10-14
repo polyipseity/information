@@ -29,7 +29,7 @@ In a healthy brain the timing of activity in different regions tends not to line
 
 Epilepsy itself means having recurrent and unprovoked seizures. A patient whose seizures do not respond to drugs has no other way to control them.
 
-Cutting the corpus callosum stops the seizure's discharge from spreading between hemispheres. Wagenen, a neurosurgeon in Rochester, New York, performed the first human callosotomies in the 1940s on patients with epilepsy. Vogel and Bogen followed, and the operation reduced seizure activity while leaving patients unchanged in personality, intelligence, and behaviour in general. Sperry's work on what the operation revealed brought the Nobel Prize in 1981.
+Cutting the corpus callosum stops the seizure's discharge from spreading between hemispheres. Wagenen, a neurosurgeon in Rochester, New York, performed the first human callosotomies in the 1940s on patients with epilepsy. Vogel and Bogen followed, and the operation reduced seizure activity while leaving patients unchanged in personality, intelligence, and behaviour in general. Roger Sperry's work on what the operation revealed brought the Nobel Prize in 1981.
 
 ---
 
@@ -39,9 +39,9 @@ Flashcards for this section are as follows:
 - what desynchronised activity means ::@:: The timing of activity in different regions does not line up.
 - what a seizure is ::@:: Electrical activity across regions falling into step, with the synchrony spreading.
 - what epilepsy means ::@:: Having recurrent and unprovoked seizures.
-- who performed the first human callosotomies, and when ::@:: Wagenen, a neurosurgeon in Rochester, New York, in the 1940s.
+- who performed the first human callosotomies, and when ::@:: William Van Wagenen, a neurosurgeon in Rochester, New York, in the 1940s.
 - what the operation did to the patients besides cutting seizures ::@:: It left them unchanged in personality, intelligence, and behaviour in general.
-- what Sperry's findings earned ::@:: The Nobel Prize, in 1981.
+- what Roger Sperry's findings earned ::@:: The Nobel Prize, in 1981.
 
 ## after the cut
 

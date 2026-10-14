@@ -114,7 +114,7 @@ SOSC 1960 is HKUST's undergraduate course on the science of human thinking and b
 - note: a practice Kahoot of 5 questions runs in week 4. From week 5, every week brings a Kahoot review of 10 multiple-choice questions, including a revision one before the midterm. The top 3 scores earn 1 bonus point, and the remaining top 10% earn 0.5
 - note: lectures are not recorded
 - note: email must come from a university account with the subject line prefixed `[SOSC1960-L1]`. Canvas messages are not accepted
-- note: generative AI use must follow the university policy and be acknowledged in the References sections. Unacknowledged use counts as improper referencing. Written assignments are subject to a plagiarism check
+- note: generative artificial intelligence (AI) use must follow the university policy and be acknowledged in the References sections. Unacknowledged use counts as improper referencing. Written assignments are subject to a plagiarism check
 - note: academic dishonesty covers cheating, plagiarism, self-plagiarism, grade interference, and data falsification. The university treats it with zero tolerance
 - note: plagiarized work earns no credit. Penalties run from zero marks for the assessment or the course up to referral for disciplinary action. Self-plagiarism covers reusing work submitted for other courses without acknowledgment
 - note: submitted work and exam papers are not returned. Individual feedback is available by arrangement with the instructor or tutor. Marks are announced online

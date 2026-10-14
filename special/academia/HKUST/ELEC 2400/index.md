@@ -24,7 +24,7 @@ tags:
 
 ---
 
-ELEC 2400 is an undergraduate course in electronic circuits at HKUST covering fundamental electronic concepts for DC and AC circuits: Kirchhoff's voltage and current laws, Thevenin's and Norton's theorems, linearity and superposition, and nodal analysis. Later material covers sinusoidal steady state and phasor representation, frequency response, transfer functions and Bode plots, operational amplifiers, first-order transient analysis, and diode circuits. The course treats simple electronic circuits as functional building blocks that can be understood and used as tools.
+ELEC 2400 is an undergraduate course in electronic circuits at HKUST covering fundamental electronic concepts for direct current (DC) and alternating current (AC) circuits: Kirchhoff's voltage and current laws, Thevenin's and Norton's theorems, linearity and superposition, and nodal analysis. Later material covers sinusoidal steady state and phasor representation, frequency response, transfer functions and Bode plots, operational amplifiers, first-order transient analysis, and diode circuits. The course treats simple electronic circuits as functional building blocks that can be understood and used as tools.
 
 ## children
 
@@ -80,7 +80,7 @@ ELEC 2400 is an undergraduate course in electronic circuits at HKUST covering fu
         - LA5: Rm 2133, Lift 19, 21, 22; TuesdayT17:00:00/TuesdayT19:50:00
 - note: MATH 1018 and PHYS 1154 are also accepted as prerequisite and co-requisite alternatives
 - note: tutorials start in week 1 and labs start in week 4
-- note: the five lab experiments are run in groups of two; each lab report is submitted as a PDF within the 2 hour 50 minute session and must include the demonstration code issued by the TA or TO, without which it scores zero
+- note: the five lab experiments are run in groups of two; each lab report is submitted as a PDF within the 2 hour 50 minute session and must include the demonstration code issued by the teaching assistant (TA) or teaching officer (TO), without which it scores zero
 - note: an experiment may be assembled at home with the lab kit before the supervised on-campus session
 - note: a late lab report loses 10% up to 5 minutes and 20% up to 10 minutes; beyond 10 minutes it scores zero
 - note: lab kits are collected in Rm 2133 during week 1 and returned at the end of the semester, and the course grade is withheld until the kit is returned

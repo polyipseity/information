@@ -10,7 +10,7 @@ tags:
 
 # Regulation NMS
 
-_Regulation NMS_, usually written Reg NMS, is the SEC rule adopted in June 2005 that turns the aim of the [national market system](national%20market%20system.md) into an enforceable rulebook. It is mostly about trade execution: at which price a trade may execute, and how fast it may happen.
+_Regulation National Market System (NMS)_, usually written Reg NMS, is the Securities and Exchange Commission (SEC) rule adopted in June 2005 that turns the aim of the [national market system](national%20market%20system.md) into an enforceable rulebook. It is mostly about trade execution: at which price a trade may execute, and how fast it may happen.
 
 | Rule | Number | Contents |
 | --- | --- | --- |
@@ -25,9 +25,9 @@ The first two protect the price, the third fixes the grid the price sits on, and
 
 Flashcards for this section are as follows:
 
-- what Regulation NMS made enforceable ::@:: The SEC rule of June 2005 that turns the aim of the national market system into an enforceable rulebook.
-- when Regulation NMS was adopted ::@:: June 2005.
-- what Regulation NMS is mostly about ::@:: Trade execution: at which price a trade may execute, and how fast.
+- what Regulation National Market System (NMS) made enforceable ::@:: The Securities and Exchange Commission (SEC) rule of June 2005 that turns the aim of the national market system into an enforceable rulebook.
+- when Regulation National Market System (NMS) was adopted ::@:: June 2005.
+- what Regulation National Market System (NMS) is mostly about ::@:: Trade execution: at which price a trade may execute, and how fast.
 - order protection rule, its number, and what it forbids ::@:: Rule 611, which forbids a trade-through.
 - access rule, its number, and what it forbids ::@:: Rule 610, which forbids a locked or crossed market.
 - sub-penny rule, its number, and what it fixes ::@:: Rule 612, which fixes the minimum tick size.

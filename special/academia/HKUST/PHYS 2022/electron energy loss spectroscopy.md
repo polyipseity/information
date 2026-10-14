@@ -18,9 +18,9 @@ The technique belongs to electron spectroscopy, the group of methods that analys
 Flashcards for this section are as follows:
 
 - overview: what electron energy loss spectroscopy measures ::@:: The spectrum of energies with which electrons leave a material after a beam of known kinetic energy strikes it.
-- the two fates of the beam electrons in an EELS measurement ::@:: Most scatter elastically and keep their energy; some lose fixed amounts in inelastic scattering, and those losses are the signal.
-- the technique family EELS takes its place in ::@:: Electron spectroscopy, the group of methods that analyse the energies of electrons.
-- the Franck–Hertz tube against a modern electron energy loss measurement ::@:: The tube records one discrete loss, the $4.9\ \text{eV}$ the electrons surrender at each drop in mercury vapour; EELS records the full loss spectrum of a material in an electron spectrometer. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- the two fates of the beam electrons in an electron energy loss spectroscopy (EELS) measurement ::@:: Most scatter elastically and keep their energy; some lose fixed amounts in inelastic scattering, and those losses are the signal.
+- the technique family electron energy loss spectroscopy (EELS) takes its place in ::@:: Electron spectroscopy, the group of methods that analyse the energies of electrons.
+- the Franck–Hertz tube against a modern electron energy loss spectroscopy (EELS) measurement ::@:: The tube records one discrete loss, the $4.9\ \text{eV}$ the electrons surrender at each drop in mercury vapour; EELS records the full loss spectrum of a material in an electron spectrometer. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
 ## energy-loss features
 
@@ -32,9 +32,9 @@ Inner-shell ionisations identify elements. An electron arriving $285\ \text{eV}$
 
 Flashcards for this section are as follows:
 
-- overview: the inelastic interactions an EELS loss spectrum records ::@:: Phonon excitations, inter- and intra-band transitions, plasmon excitations, and inner-shell ionisations, each at its own characteristic loss energy.
+- overview: the inelastic interactions an electron energy loss spectroscopy (EELS) loss spectrum records ::@:: Phonon excitations, inter- and intra-band transitions, plasmon excitations, and inner-shell ionisations, each at its own characteristic loss energy.
 - what a peak in an electron energy loss spectrum at a known energy is read off as ::@:: The excitation that took that energy from the electron.
-- the energy loss that flags carbon in an EELS measurement ::@:: About $285\ \text{eV}$, roughly the energy to remove a carbon atom's inner-shell electron, so an excess of electrons arriving that far down is evidence of carbon. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- the energy loss that flags carbon in an electron energy loss spectroscopy (EELS) measurement ::@:: About $285\ \text{eV}$, roughly the energy to remove a carbon atom's inner-shell electron, so an excess of electrons arriving that far down is evidence of carbon. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - what a careful survey over a wide range of energy losses determines ::@:: The types of atoms in the sample and the numbers of each type struck by the beam.
 
 ## scattering angle
@@ -45,4 +45,4 @@ The deflection of each electron can be measured along with its energy loss. The 
 
 Flashcards for this section are as follows:
 
-- what the measured scattering angle adds to an EELS loss spectrum ::@:: The dispersion relation of the excitation that caused the inelastic scattering, read from scattering angle against energy loss.
+- what the measured scattering angle adds to an electron energy loss spectroscopy (EELS) loss spectrum ::@:: The dispersion relation of the excitation that caused the inelastic scattering, read from scattering angle against energy loss.

@@ -46,18 +46,18 @@ A resting order is still exposed. Once the market moves away from its price, it 
 
 Flashcards for this section are as follows:
 
-- the two stages a DNS limit order goes through ::@:: Match against the local book first, taking liquidity at or better than the protected best offer, then check the remainder against that quote.
+- the two stages a do-not-ship (DNS) limit order goes through ::@:: Match against the local book first, taking liquidity at or better than the protected best offer, then check the remainder against that quote.
 - what the protected best offer is ::@:: The best quote on another exchange that is immediately and automatically accessible.
 - what happens to a remainder that would have to trade worse than the protected best offer ::@:: It is cancelled, since Rule 610 forbids the locked or crossed quote and the instruction forbids the routing that would fix it.
 - is the whole order cancelled or only the offending part ::@:: Only the offending part; whatever already traded on the local book stands, so one order can fill half its size and still die.
-- what a DNS limit order does when it is not marketable at all ::@:: It rests on one venue's book and nowhere else, making liquidity rather than taking it.
-- how DNS limit orders fare against routable limit orders in a sniping race ::@:: DNS limit orders escape more often; routable limit orders rarely escape at all.
+- what a do-not-ship (DNS) limit order does when it is not marketable at all ::@:: It rests on one venue's book and nowhere else, making liquidity rather than taking it.
+- how do-not-ship (DNS) limit orders fare against routable limit orders in a sniping race ::@:: DNS limit orders escape more often; routable limit orders rarely escape at all.
 
 ## a do-not-ship immediate-or-cancel order
 
 The immediate-or-cancel form runs the same two checks and has two fates where the limit form has three. The missing fate is resting. The order takes what the local book offers at the limit price or better and cancels the remainder in the same instant, with no window in between. The time in force has already settled the question of cancellation, so the instruction has nothing left to settle there.
 
-What the instruction changes is where the remainder would have gone. The order takes local liquidity first, exactly as the limit form does. What is left is cancelled where it stands, instead of being routed to the venue holding the better quote as Rule 611 would otherwise require. No second venue is contacted. The variant named for meeting the national market system this way is a _RegNMS-compliance IOC_, which the New York Stock Exchange calls an NMS IOC.
+What the instruction changes is where the remainder would have gone. The order takes local liquidity first, exactly as the limit form does. What is left is cancelled where it stands, instead of being routed to the venue holding the better quote as Rule 611 would otherwise require. No second venue is contacted. The variant named for meeting the national market system (NMS) this way is a _RegNMS-compliance immediate-or-cancel (IOC)_, which the New York Stock Exchange calls an NMS IOC.
 
 A limit price is optional throughout. Either way the unfilled part goes untaken, and so does any better price across the market.
 
@@ -65,8 +65,8 @@ A limit price is optional throughout. Either way the unfilled part goes untaken,
 
 Flashcards for this section are as follows:
 
-- how many fates a DNS immediate-or-cancel order has, and what they are ::@:: Two: it executes against the local book, and whatever is left over is cancelled.
+- how many fates a do-not-ship (DNS) immediate-or-cancel order has, and what they are ::@:: Two: it executes against the local book, and whatever is left over is cancelled.
 - why such an order never rests ::@:: The immediate-or-cancel time in force cancels the remainder in the same instant, so there is no window in which it could sit on the book.
 - what the do-not-ship instruction actually changes for it ::@:: The fate of the remainder, which is cancelled on arrival instead of being routed to the venue with the better quote.
-- whether a DNS immediate-or-cancel order needs a limit price ::@:: No; the instruction works with or without one.
-- name of the compliant immediate-or-cancel variant, and its NYSE name ::@:: A RegNMS-compliance IOC, called an NMS IOC on the New York Stock Exchange.
+- whether a do-not-ship (DNS) immediate-or-cancel order needs a limit price ::@:: No; the instruction works with or without one.
+- name of the compliant immediate-or-cancel (IOC) variant, and its NYSE name ::@:: A Regulation National Market System (RegNMS)-compliance IOC, called an NMS IOC on the New York Stock Exchange.

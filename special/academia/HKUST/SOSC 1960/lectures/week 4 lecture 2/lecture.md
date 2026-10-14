@@ -42,7 +42,7 @@ Flashcards for this section are as follows:
 
 [Classical conditioning](../../classical%20conditioning.md) sets out the four components each of these cases names.
 
-A beverage company shows its logo on screen while an upbeat song you already love plays. The song is the US, because it lifts your mood without any learning, and that good feeling is the UR. The logo starts neutral and becomes the CS through repeated pairing, and liking the brand on seeing it on a bottle is the CR.
+A beverage company shows its logo on screen while an upbeat song you already love plays. The song is the unconditioned stimulus (US), because it lifts your mood without any learning, and that good feeling is the unconditioned response (UR). The logo starts neutral and becomes the conditioned stimulus (CS) through repeated pairing, and liking the brand on seeing it on a bottle is the conditioned response (CR).
 
 Eating salmon at a sushi restaurant and falling ill with a stomach flu a few hours later, when the salmon caused nothing, gives the clearest aversion case. The virus is the US, since it triggers sickness without any learning, and the nausea and vomiting it causes are the UR. The taste or smell of the salmon is the CS, and nausea at that taste or smell with no virus present is the CR. The same person can eat salmon again without becoming ill and keep the association.
 
@@ -100,7 +100,7 @@ Flashcards for this section are as follows:
 
 - what separates extinction, spontaneous recovery, and renewal ::@:: What brings the extinguished response back: nothing, the passage of time, or a change of context.
 - what spontaneous recovery shows about extinction ::@:: Extinction suppresses the learned association rather than erasing it.
-- how strong a recovered response is ::@:: Usually weaker than the original, and it fades quickly once the CS keeps appearing without the US.
+- how strong a recovered response is ::@:: Usually weaker than the original, and it fades quickly once the conditioned stimulus (CS) keeps appearing without the unconditioned stimulus (US).
 - how spontaneous recovery differs from renewal ::@:: Spontaneous recovery is driven by the passage of time; renewal is driven by a change in environment.
 - the three phases of the driving phobia ::@:: Acquisition on the highway, extinction on local streets near home, and renewal back on the highway.
 - what renewal shows about extinction ::@:: Extinction inhibits the learned association, and the inhibition is tied to the context where the extinction happened.

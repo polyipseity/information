@@ -21,9 +21,9 @@ Flashcards for this section are as follows:
 
 The doctrine makes two claims and draws a conclusion. The mind is a collection of separate faculties, each with its own organ in the brain. The skull grows to fit the brain, so a heavily used organ pushes the bone outward above it, leaving a bump. Measuring the skull measures the mind.
 
-Gall developed it in Vienna in the 1790s and published it in the first decades of the 1800s. Spurzheim and Combe carried it to Britain and America, where charts of the skull were sold and read as a way of judging character, hiring staff, and choosing a partner. At its height it was a popular craze rather than a medical practice.
+Franz Joseph Gall developed it in Vienna in the 1790s and published it in the first decades of the 1800s. Johann Gaspar Spurzheim and George Combe carried it to Britain and America, where charts of the skull were sold and read as a way of judging character, hiring staff, and choosing a partner. At its height it was a popular craze rather than a medical practice.
 
-![A Victorian broadside headed Chart of Mental Geometry, with a large head filled by symbolic scenes, portraits of Gall and Spurzheim, and heads labelled moral type and murderer's type](attachments/Phrenological%20chart%20Wellcome%20V0009523.jpg)
+![A Victorian broadside headed Chart of Mental Geometry, with a large head filled by symbolic scenes, portraits of Franz Joseph Gall and Johann Gaspar Spurzheim, and heads labelled moral type and murderer's type](attachments/Phrenological%20chart%20Wellcome%20V0009523.jpg)
 
 ---
 
@@ -31,10 +31,10 @@ Flashcards for this section are as follows:
 
 - the two claims of the phrenological doctrine ::@:: The mind is a collection of separate faculties, each with its own organ in the brain, and the skull grows to fit the brain.
 - what follows from the two claims ::@:: Measuring the skull measures the mind.
-- who developed phrenology and where ::@:: Gall, in Vienna in the 1790s.
-- who carried phrenology to Britain and America ::@:: Spurzheim and Combe.
-- the two head types a phrenology chart sets beside each other: ![A Victorian broadside headed Chart of Mental Geometry, with a large head filled by symbolic scenes, portraits of Gall and Spurzheim, and heads labelled moral type and murderer's type](attachments/Phrenological%20chart%20Wellcome%20V0009523.jpg) ::@:: A Moral Type and a Murderer's Type.
-- draw the phrenology chart: what fills the centre of the sheet? ::@:: A large profile head called the symbolical head, its cranium packed with scenes, with the classification of the faculties in tables beneath it. <p> ![A Victorian broadside headed Chart of Mental Geometry, with a large head filled by symbolic scenes, portraits of Gall and Spurzheim, and heads labelled moral type and murderer's type](attachments/Phrenological%20chart%20Wellcome%20V0009523.jpg)
+- who developed phrenology and where ::@:: Franz Joseph Gall, in Vienna in the 1790s.
+- who carried phrenology to Britain and America ::@:: Johann Gaspar Spurzheim and George Combe.
+- the two head types a phrenology chart sets beside each other: ![A Victorian broadside headed Chart of Mental Geometry, with a large head filled by symbolic scenes, portraits of Franz Joseph Gall and Johann Gaspar Spurzheim, and heads labelled moral type and murderer's type](attachments/Phrenological%20chart%20Wellcome%20V0009523.jpg) ::@:: A Moral Type and a Murderer's Type.
+- draw the phrenology chart: what fills the centre of the sheet? ::@:: A large profile head called the symbolical head, its cranium packed with scenes, with the classification of the faculties in tables beneath it. <p> ![A Victorian broadside headed Chart of Mental Geometry, with a large head filled by symbolic scenes, portraits of Franz Joseph Gall and Johann Gaspar Spurzheim, and heads labelled moral type and murderer's type](attachments/Phrenological%20chart%20Wellcome%20V0009523.jpg)
 - what phrenology was at its height ::@:: A popular craze rather than a medical practice.
 
 ## why it was rejected
@@ -53,7 +53,7 @@ Flashcards for this section are as follows:
 
 ## the lasting contribution
 
-In 1861 Broca reported a patient who had lost speech while everything else in his mind stood intact, and located the damage in one region of the left frontal lobe. That settles localisation on the tissue rather than on the bone above it. What phrenology left behind is the doctrine of cerebral localisation: the brain is divided into regions that do different jobs, so damage to one region costs one function.
+In 1861 Paul Broca reported a patient who had lost speech while everything else in his mind stood intact, and located the damage in one region of the left frontal lobe. That settles localisation on the tissue rather than on the bone above it. What phrenology left behind is the doctrine of cerebral localisation: the brain is divided into regions that do different jobs, so damage to one region costs one function.
 
 ![A left side view of the brain with Broca's area near the front and Wernicke's area near the back picked out, and front and back marked](attachments/Broca%20and%20Wernicke%20areas.svg)
 
@@ -65,7 +65,7 @@ Flashcards for this section are as follows:
 
 - phrenology's lasting contribution ::@:: The doctrine of cerebral localisation.
 - what cerebral localisation claims ::@:: The brain is divided into regions that do different jobs, so damage to one region costs one function.
-- how Broca settled localisation in 1861 ::@:: He located a patient's lost speech in one region of the left frontal lobe, while the rest of the mind stood intact.
+- how Paul Broca settled localisation in 1861 ::@:: He located a patient's lost speech in one region of the left frontal lobe, while the rest of the mind stood intact.
 - what modern imaging does that phrenology could not ::@:: It measures activity in the brain tissue itself rather than reading the bone above it.
 - where the two speech areas are picked out: ![A left side view of the brain with Broca's area near the front and Wernicke's area near the back picked out, and front and back marked](attachments/Broca%20and%20Wernicke%20areas.svg) ::@:: Broca's area near the front of the left hemisphere and Wernicke's area near the back, with Front and Back marked along the foot of the sheet.
 

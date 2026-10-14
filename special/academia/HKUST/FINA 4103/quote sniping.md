@@ -48,13 +48,13 @@ Flashcards for this section are as follows:
 
 A seller whose quotes rest on the book faces two races. One is how quickly a stale quote can be cancelled. The other is who can reach the front of the queue at that price first. The non-routable limit order wins both, against the routable one.
 
-The cancellation race decides whether a stale quote survives. A DNS limit order manages to cancel 42% of the time in sniping events, while a routable limit order rarely escapes at all. The queue race is described in [limit order](limit%20order.md). The speed that gives these races their edge is described in [high-frequency trading](high-frequency%20trading.md).
+The cancellation race decides whether a stale quote survives. A do-not-ship (DNS) limit order manages to cancel 42% of the time in sniping events, while a routable limit order rarely escapes at all. The queue race is described in [limit order](limit%20order.md). The speed that gives these races their edge is described in [high-frequency trading](high-frequency%20trading.md).
 
 ---
 
 Flashcards for this section are as follows:
 
 - two races a seller with resting quotes faces ::@:: Cancelling a stale quote quickly, and reaching the front of the queue at that price first.
-- how often a DNS limit order cancels in time in a sniping event ::@:: 42% of the time.
+- how often a do-not-ship (DNS) limit order cancels in time in a sniping event ::@:: 42% of the time.
 - how often a routable limit order escapes a sniping event ::@:: Rarely.
 - which order type wins the two maker-side races ::@:: The non-routable limit order, against the routable one.

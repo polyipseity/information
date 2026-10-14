@@ -16,7 +16,7 @@ _Low-energy electron diffraction_, LEED for short, aims a collimated beam of slo
 Flashcards for this section are as follows:
 
 - overview: what low-energy electron diffraction (LEED) does ::@:: It aims a collimated beam of slow electrons at a crystal surface and records the diffracted beams, which land as spots on a fluorescent screen.
-- an electron beam accelerated from rest through $V_0$ volts: the de Broglie wavelength LEED gives it ::@:: $\lambda = 1.226\ \text{nm}/\sqrt{V_0}$, about $0.22\ \text{nm}$ at $30\ \text{V}$ down to $0.09\ \text{nm}$ at $200\ \text{V}$.
+- an electron beam accelerated from rest through $V_0$ volts: the de Broglie wavelength low-energy electron diffraction (LEED) gives it ::@:: $\lambda = 1.226\ \text{nm}/\sqrt{V_0}$, about $0.22\ \text{nm}$ at $30\ \text{V}$ down to $0.09\ \text{nm}$ at $200\ \text{V}$.
 - where low-energy electron diffraction sits among the diffraction techniques ::@:: It is the surface branch of electron diffraction: the spots map a crystal's surface, where X-ray crystallography reads the bulk.
 
 ## diffraction condition
@@ -37,8 +37,8 @@ Raising the accelerating voltage $V$ shortens $\lambda = h/\sqrt{2meV}$, and $\s
 
 Flashcards for this section are as follows:
 
-- in a LEED pattern, what happens to the diffraction spots when the electron accelerating voltage $V$ is raised ::@:: They move inward toward the central beam: $\lambda = h/\sqrt{2meV}$ shortens as $V$ rises, and $\sin\varphi = n\lambda/D$ shrinks with it.
-- what adsorbed molecules do to a LEED pattern ::@:: They add spots, from the extra surface periodicity the adsorbed layer forms.
+- in a low-energy electron diffraction (LEED) pattern, what happens to the diffraction spots when the electron accelerating voltage $V$ is raised ::@:: They move inward toward the central beam: $\lambda = h/\sqrt{2meV}$ shortens as $V$ rises, and $\sin\varphi = n\lambda/D$ shrinks with it.
+- what adsorbed molecules do to a low-energy electron diffraction (LEED) pattern ::@:: They add spots, from the extra surface periodicity the adsorbed layer forms.
 
 ## reading the pattern
 
@@ -48,5 +48,5 @@ The spot positions give the first reading: their arrangement shows the symmetry 
 
 Flashcards for this section are as follows:
 
-- what the spot positions of a LEED pattern give on their own ::@:: The symmetry of the surface's periodicity; an adsorbate's spots give the size and rotational alignment of its unit cell against the substrate.
-- what a LEED I–V curve records, and what comparing it with calculated curves gives ::@:: The intensity of a diffracted beam against the beam energy; the comparison pins down the atomic positions on the surface.
+- what the spot positions of a low-energy electron diffraction (LEED) pattern give on their own ::@:: The symmetry of the surface's periodicity; an adsorbate's spots give the size and rotational alignment of its unit cell against the substrate.
+- what a low-energy electron diffraction (LEED) I–V curve records, and what comparing it with calculated curves gives ::@:: The intensity of a diffracted beam against the beam energy; the comparison pins down the atomic positions on the surface.

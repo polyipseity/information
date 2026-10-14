@@ -10,13 +10,13 @@ tags:
 
 # APA style
 
-APA style is the citation format of psychology and the other behavioural and social sciences. A paper using it names each source twice: where the sentence uses the source's idea, and in the list of references at the end.
+American Psychological Association (APA) style is the citation format of psychology and the other behavioural and social sciences. A paper using it names each source twice: where the sentence uses the source's idea, and in the list of references at the end.
 
 ---
 
 Flashcards for this section are as follows:
 
-- what APA style is ::@:: The citation format of psychology and the other behavioural and social sciences.
+- what APA style is ::@:: The citation format of the American Psychological Association (APA), used by psychology and the other behavioural and social sciences.
 - what a paper does with a source ::@:: It names it twice, once in the sentence that uses its idea and once in a list at the end.
 
 ## purposes of references

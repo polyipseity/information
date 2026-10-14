@@ -26,7 +26,7 @@ The two views differ over what light does at an obstruction. They were not judge
 
 Flashcards for this section are as follows:
 
-- which view was accepted first ::@:: Newton's particle view.
+- which view was accepted first ::@:: Isaac Newton's particle view.
 
 ### wave view
 
@@ -66,7 +66,7 @@ Flashcards for this section are as follows:
 - the double-slit experiment: its year and author ::@:: Thomas Young, 1801.
 - the double-slit experiment: what the particle model predicts ::@:: Two bright lines.
 - the double-slit experiment: what is observed instead, and what it shows ::@:: A pattern of bright bands, which is interference between waves from the two slits.
-- how the double-slit experiment changed the accepted view ::@:: Light was accepted as a wave, and Maxwell later showed the wave is electromagnetic.
+- how the double-slit experiment changed the accepted view ::@:: Light was accepted as a wave, and James Clerk Maxwell later showed the wave is electromagnetic.
 - the bright-band condition for two slits separated by $d$ with light of wavelength $\lambda$ ::@:: $d\sin\theta = m\lambda$ for integer $m$; the first bright band away from the central maximum is $m = 1$.
 - the first side band of a double-slit pattern: its angle in terms of the separation $d$ and the wavelength $\lambda$ ::@:: $\sin\theta_1 = \lambda/d$: the angle shrinks as $d$ grows and opens as $\lambda$ grows.
 - the single-slit envelope cast by slits of width $a$: where it goes dark ::@:: At $a\sin\theta = m\lambda$ for nonzero integer $m$; a narrower slit pushes the first minimum out and spreads the envelope wider.
@@ -79,5 +79,5 @@ The two views demanded opposite speeds of light on entering denser material. Let
 
 Flashcards for this section are as follows:
 
-- let $c$ be the speed of light in vacuum and $v$ its speed in another medium: what each view of light required of $v$ on entering denser material ::@:: The corpuscular view required light to speed up, $v > c$; Huygens's wave construction predicted $v < c$.
-- Foucault's 1850 measurement: what it compared, and which view it decided for ::@:: The speed of light in water against that in air: slower in water, which decided for the wave view.
+- let $c$ be the speed of light in vacuum and $v$ its speed in another medium: what each view of light required of $v$ on entering denser material ::@:: The corpuscular view required light to speed up, $v > c$; Christiaan Huygens's wave construction predicted $v < c$.
+- Léon Foucault's 1850 measurement: what it compared, and which view it decided for ::@:: The speed of light in water against that in air: slower in water, which decided for the wave view.

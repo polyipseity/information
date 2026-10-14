@@ -20,12 +20,12 @@ Flashcards for this section are as follows:
 
 - what positron emission tomography records ::@:: Blood flow.
 - when the radioactive substance is injected ::@:: Just before or while the person performs a task.
-- how an active region is picked out on a PET scan ::@:: Active regions call for more blood than inactive ones, so more of the radioactive substance is found there.
-- what a PET scan of a brain shows: ![An axial slice from a positron emission tomography scan of a brain, coloured region by region by how much of the tracer each collected](attachments/PET%20Normal%20brain.jpg) ::@:: A single axial slice of the brain, coloured region by region by how much of the tracer each part collected.
+- how an active region is picked out on a positron emission tomography (PET) scan ::@:: Active regions call for more blood than inactive ones, so more of the radioactive substance is found there.
+- what a positron emission tomography (PET) scan of a brain shows: ![An axial slice from a positron emission tomography scan of a brain, coloured region by region by how much of the tracer each collected](attachments/PET%20Normal%20brain.jpg) ::@:: A single axial slice of the brain, coloured region by region by how much of the tracer each part collected.
 
 ## resolution
 
-A PET scan has good spatial resolution and poor temporal resolution. Blood takes at least several seconds to reach a region after the region becomes active, so the scan is good on where the activity was and vague about when. It carries the same weakness as [functional magnetic resonance imaging](functional%20magnetic%20resonance%20imaging.md), and for the same reason: both read the blood supply rather than the neurons.
+A positron emission tomography (PET) scan has good spatial resolution and poor temporal resolution. Blood takes at least several seconds to reach a region after the region becomes active, so the scan is good on where the activity was and vague about when. It carries the same weakness as [functional magnetic resonance imaging](functional%20magnetic%20resonance%20imaging.md), and for the same reason: both read the blood supply rather than the neurons.
 
 The method also costs the person an injection, so a task has to be worth injecting someone for before it is worth scanning.
 
@@ -33,11 +33,11 @@ The method also costs the person an injection, so a task has to be worth injecti
 
 Flashcards for this section are as follows:
 
-- the spatial resolution of a PET scan ::@:: Good.
-- the temporal resolution of a PET scan ::@:: Poor.
-- why PET's temporal resolution is poor ::@:: Blood takes at least several seconds to reach a region after it becomes active.
-- what PET and functional magnetic resonance imaging read ::@:: The blood supply rather than the neurons.
-- what PET costs that a scan without a tracer does not ::@:: An injection, so a task has to be worth injecting someone for before it is worth scanning.
+- the spatial resolution of a positron emission tomography (PET) scan ::@:: Good.
+- the temporal resolution of a positron emission tomography (PET) scan ::@:: Poor.
+- why the temporal resolution of a positron emission tomography (PET) scan is poor ::@:: Blood takes at least several seconds to reach a region after it becomes active.
+- what positron emission tomography (PET) and functional magnetic resonance imaging read ::@:: The blood supply rather than the neurons.
+- what a positron emission tomography (PET) scan costs that a scan without a tracer does not ::@:: An injection, so a task has to be worth injecting someone for before it is worth scanning.
 
 ## references
 

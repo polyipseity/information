@@ -86,10 +86,10 @@ Flashcards for this section are as follows:
 - the reversible version of disruption ::@:: Transcranial magnetic stimulation: a coil over the target region while the same person does a task.
 - the permanent version of disruption ::@:: Damage that takes a capacity with it.
 - what a disruption in the parietal cortex establishes ::@:: Necessity for selective attention, as cause and effect rather than correlation.
-- what a TMS design measures ::@:: Reaction time and accuracy, before, during, and after stimulation.
-- what TMS adds over a lesion ::@:: The same person is compared across conditions, so it needs no pre-injury baseline.
-- what establishes necessity in a TMS design ::@:: A drop in performance when the target region is disrupted, absent when a control site is stimulated the same way.
-- why the control site is not decoration in a TMS design ::@:: Noise and scalp sensation, which a site unrelated to attention rules out.
+- what a transcranial magnetic stimulation (TMS) design measures ::@:: Reaction time and accuracy, before, during, and after stimulation.
+- what transcranial magnetic stimulation (TMS) adds over a lesion ::@:: The same person is compared across conditions, so it needs no pre-injury baseline.
+- what establishes necessity in a transcranial magnetic stimulation (TMS) design ::@:: A drop in performance when the target region is disrupted, absent when a control site is stimulated the same way.
+- why the control site is not decoration in a transcranial magnetic stimulation (TMS) design ::@:: Noise and scalp sensation, which a site unrelated to attention rules out.
 - a model result showing selective necessity ::@:: Damaging one component drops accuracy on Asian faces and leaves it unchanged on Caucasian ones.
 - what selective necessity shows ::@:: The component is necessary within the model for one function and not for another.
 - how selective necessity differs from a loss that impairs everything ::@:: A narrow role rather than a broad one.

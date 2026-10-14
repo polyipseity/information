@@ -34,7 +34,7 @@ The thermometer read highest in the red region and lowest in the blue, both as e
 Flashcards for this section are as follows:
 
 - the year and the person behind the prism-and-thermometer discovery of the infrared ::@:: 1880, Sir William Herschel, who split sunlight with a prism and read a thermometer in each colour.
-- what Herschel was measuring, and why ::@:: The temperature each colour of sunlight produced at the thermometer, to compare the heating power of the colours. He expected nothing remarkable.
+- what Sir William Herschel was measuring, and why ::@:: The temperature each colour of sunlight produced at the thermometer, to compare the heating power of the colours. He expected nothing remarkable.
 - which end of the visible spectrum gave the highest thermometer reading, and which the lowest ::@:: The red region read highest, the blue region lowest.
 - the reading a thermometer should have given past the red, where no light is visible ::@:: Lower than in any visible colour.
 
@@ -52,6 +52,6 @@ Flashcards for this section are as follows:
 
 - the reading just past the red edge, against the reading in the red itself ::@:: Higher than in the red, and higher still the further along the spectrum he moved.
 - why a rising thermometer reading where no light is visible shows that energy is arriving ::@:: Something is delivering energy in a region the eye cannot see, so the radiation there is invisible rather than absent.
-- Herschel's conclusion from the reading past the red edge ::@:: That there must be an invisible form of light beyond the visible spectrum.
+- Sir William Herschel's conclusion from the reading past the red edge ::@:: That there must be an invisible form of light beyond the visible spectrum.
 - infrared against ultraviolet: how the two were found ::@:: Both were inferred from a detector reading outside the visible rather than seen.
 - the eye against a bolometer and a semiconductor detector ::@:: The eye responds only where light is visible. The other two respond to some other effect of the radiation, so they reach bands the eye misses.

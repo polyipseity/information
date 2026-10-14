@@ -10,7 +10,7 @@ tags:
 
 # system call
 
-A system call is the programmatic interface through which a running program requests a service from the operating system kernel. It is the only way user-level code can access hardware, create processes, or use kernel-managed resources. The caller knows nothing about how a system call is implemented; it interacts through a system call interface that maps API function calls to kernel-level operations, moving between user mode and kernel mode.
+A system call is the programmatic interface through which a running program requests a service from the operating system kernel. It is the only way user-level code can access hardware, create processes, or use kernel-managed resources. The caller knows nothing about how a system call is implemented; it interacts through a system call interface that maps application program interface (API) function calls to kernel-level operations, moving between user mode and kernel mode.
 
 ---
 
@@ -34,12 +34,12 @@ A C program calling `printf("Greetings")` illustrates the full chain: the librar
 
 Flashcards for this section are as follows:
 
-- API versus direct system calls ::@:: An API specifies functions that application programmers use, including parameters and return values; API functions then invoke the actual system call on the programmer's behalf.
-- three common APIs ::@:: Win32 (Windows), POSIX (UNIX, Linux, Mac OS X), and Java API (Java virtual machine).
-- advantage of APIs: portability ::@:: A program using an API compiles and runs on any system supporting that API, even though the underlying system call implementations vary across machines.
-- advantage of APIs: abstraction ::@:: The caller need not know how the system call is implemented; it need only obey the API format and understand the expected result.
+- API versus direct system calls ::@:: An application program interface (API) specifies functions that application programmers use, including parameters and return values; API functions then invoke the actual system call on the programmer's behalf.
+- three common application program interfaces (APIs) ::@:: Win32 (Windows), POSIX (UNIX, Linux, Mac OS X), and Java API (Java virtual machine).
+- advantage of APIs: portability ::@:: A program using an application program interface (API) compiles and runs on any system supporting that API, even though the underlying system call implementations vary across machines.
+- advantage of APIs: abstraction ::@:: The caller need not know how the system call is implemented; it need only obey the application program interface (API) format and understand the expected result.
 - `cp` involves multiple system calls ::@:: `cp in.txt out.txt` requires a sequence: open source, read, open destination, write, close both.
-- `read()` POSIX parameters ::@:: `int fd` (file descriptor), `void *buf` (buffer), `size_t count` (max bytes); returns `0` for EOF, `-1` for error.
+- `read()` POSIX parameters ::@:: `int fd` (file descriptor), `void *buf` (buffer), `size_t count` (max bytes); returns `0` for end of file (EOF), `-1` for error.
 
 ## implementation
 
@@ -51,7 +51,7 @@ When a program calls an API function, the system call interface intercepts it, i
 
 Flashcards for this section are as follows:
 
-- system call interface ::@:: The component of the run-time environment that intercepts API function calls, maps each to a numbered system call, invokes it in the kernel, and returns the status and any values to the caller.
+- system call interface ::@:: The component of the run-time environment that intercepts application program interface (API) function calls, maps each to a numbered system call, invokes it in the kernel, and returns the status and any values to the caller.
 - system call number ::@:: An identity number associated with each system call, used to index into a table that routes the call to its kernel implementation.
 
 ## parameter passing
@@ -64,7 +64,7 @@ The simplest passes parameters in registers, though this is limited by register 
 
 Flashcards for this section are as follows:
 
-- parameter passing: register method ::@:: Parameters are passed directly in CPU registers; the simplest method but limited by the number of available registers.
+- parameter passing: register method ::@:: Parameters are passed directly in central processing unit (CPU) registers; the simplest method but limited by the number of available registers.
 - parameter passing: block method ::@:: Parameters are stored in a block or table in memory, and the address of that block is passed in a register.
 - parameter passing: stack method ::@:: Parameters are pushed onto the stack by the calling program and popped off by the operating system, with no limit on the number or length of parameters.
 

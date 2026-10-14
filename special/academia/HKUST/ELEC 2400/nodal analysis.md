@@ -137,6 +137,6 @@ Flashcards for this section are as follows:
 
 - SPICE: which quantities does a simulation compute, and what does that let an engineer avoid? ::@:: SPICE, the Simulation Program with Integrated Circuit Emphasis, simulates circuits by nodal analysis, computing node voltages, branch currents, and power without the circuit being built.
 - acronym: what does SPICE stand for? ::@:: Simulation Program with Integrated Circuit Emphasis.
-- origin: where, when, and by whom was SPICE developed? ::@:: In 1973 at the University of California, Berkeley by Laurence Nagel with his research advisor Donald Pederson.
-- method inside SPICE: which analysis technique do SPICE simulations use? ::@:: Nodal analysis.
-- commercial variant: which commercial descendant of SPICE is used in laboratory work? ::@:: PSPICE, from Cadence Design Systems.
+- origin: where, when, and by whom was the Simulation Program with Integrated Circuit Emphasis (SPICE) developed? ::@:: In 1973 at the University of California, Berkeley by Laurence Nagel with his research advisor Donald Pederson.
+- method inside the Simulation Program with Integrated Circuit Emphasis (SPICE): which analysis technique do SPICE simulations use? ::@:: Nodal analysis.
+- commercial variant: which commercial descendant of the Simulation Program with Integrated Circuit Emphasis (SPICE) is used in laboratory work? ::@:: PSPICE, from Cadence Design Systems.

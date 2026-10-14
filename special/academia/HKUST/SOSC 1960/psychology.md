@@ -8,7 +8,7 @@ tags:
 
 # psychology
 
-Psychology is the study of mind and behavior by scientific means. It asks two questions: how the mind works, and what causes behavior. Psychologists study how people perceive and recognize faces, how insomnia affects cognition, how children learn to read, how people interact with AI, and where individual differences in cognitive ability come from.
+Psychology is the study of mind and behavior by scientific means. It asks two questions: how the mind works, and what causes behavior. Psychologists study how people perceive and recognize faces, how insomnia affects cognition, how children learn to read, how people interact with artificial intelligence (AI), and where individual differences in cognitive ability come from.
 
 ---
 
@@ -36,8 +36,8 @@ Wilhelm Wundt (1832–1920) headed the first modern psychology laboratory in 187
 Flashcards for this section are as follows:
 
 - who headed the first modern psychology laboratory, and when and where ::@:: Wilhelm Wundt, in 1879, at Leipzig in Germany.
-- Wundt's claim about mental activity ::@:: It can be broken down into more basic operations.
-- Wundt's method for assessing mental activity ::@:: Introspection, the self-observation of mental activity.
+- Wilhelm Wundt's claim about mental activity ::@:: It can be broken down into more basic operations.
+- Wilhelm Wundt's method for assessing mental activity ::@:: Introspection, the self-observation of mental activity.
 
 ### psychoanalysis
 
@@ -58,7 +58,7 @@ Ivan Pavlov's classical conditioning studies the stimuli that elicit reflexes. B
 
 How much of the mind a behaviorist may name was itself disputed. Clark Hull treated internal events such as motivation as inferable from behavior and put them back into the theory as quantities read off the data. B. F. Skinner rejected all discussion of internal events, keeping the analysis on the stimulus and the response.
 
-The rule held until it met something it could not carry. Chomsky's generative grammar of 1957 and his review of Skinner's account of verbal behavior in 1959 showed that a speaker produces sentences never heard before and understands ones no reinforcement history could have prepared. Behavior alone could not explain that, and the next movement grew out of the failure.
+The rule held until it met something it could not carry. Noam Chomsky's generative grammar of 1957 and his review of Skinner's account of verbal behavior in 1959 showed that a speaker produces sentences never heard before and understands ones no reinforcement history could have prepared. Behavior alone could not explain that, and the next movement grew out of the failure.
 
 ---
 
@@ -68,13 +68,13 @@ Flashcards for this section are as follows:
 - the tradition behaviorism reacted against ::@:: Depth psychology, which often made predictions that no experiment could test.
 - what behaviorism excluded as an explanation ::@:: Internal processes such as thoughts, because no one could measure them.
 - how behaviorism treated the mind ::@:: Behaviorists treated the mind as a black box and inferred its workings from its input and its output.
-- Pavlov's conditioning program ::@:: Pavlov's classical conditioning studies the stimuli that elicit reflexes.
-- Skinner's conditioning program ::@:: Skinner's instrumental conditioning studies the consequences that strengthen or weaken a behavior.
-- what Skinner assessed in place of Pavlov's eliciting stimuli ::@:: The reinforcement history of the discriminative stimuli, the cues that signal which behavior will pay off.
+- Ivan Pavlov's conditioning program ::@:: Pavlov's classical conditioning studies the stimuli that elicit reflexes.
+- B. F. Skinner's conditioning program ::@:: Skinner's instrumental conditioning studies the consequences that strengthen or weaken a behavior.
+- what B. F. Skinner assessed in place of Ivan Pavlov's eliciting stimuli ::@:: The reinforcement history of the discriminative stimuli, the cues that signal which behavior will pay off.
 - where the two conditionings came to be applied together ::@:: In the cognitive-behavioral therapies, which treat simple phobias, post-traumatic stress disorder, and mood disorders.
 - how the two conditioning programs still show up in a description of a response ::@:: A response is described as elicited or as a consequence.
-- how Hull and Skinner differed on internal events ::@:: Hull treated internal events such as motivation as inferable from behavior, and Skinner rejected all discussion of them.
-- what behaviorism could not explain ::@:: Language, which Chomsky showed in 1957 and 1959 that no reinforcement history could account for.
+- how Clark Hull and B. F. Skinner differed on internal events ::@:: Clark Hull treated internal events such as motivation as inferable from behavior, and B. F. Skinner rejected all discussion of them.
+- what behaviorism could not explain ::@:: Language, which Noam Chomsky showed in 1957 and 1959 that no reinforcement history could account for.
 
 ### the cognitive revolution
 
@@ -113,7 +113,7 @@ Francis Galton, Charles Darwin's cousin, pioneered several of those measures in 
 
 In 1875 he began studying twins to work out how much of their similarities and differences came from life experience. He coined the phrase "nature versus nurture". Without a modern understanding of genetics, he proposed comparing identical and fraternal twins anyway. That comparison lets researchers estimate how far genetic and social factors contribute to personality, and that puzzle is now called the nature–nurture question.
 
-Happiness shows why one measure will not do. People may lie about their happiness, fail to report it accurately, or use a numerical scale in their own way. Psychologists add peer report measures, asking close friends and family about the target person, and check the two reports for discrepancies. They also use memory measures: dispositionally positive people recall pleasant events more easily, and negative people recall unpleasant ones. Biological measures include saliva cortisol samples for stress, and fMRI images of activation in the left prefrontal cortex, an area associated with good mood.
+Happiness shows why one measure will not do. People may lie about their happiness, fail to report it accurately, or use a numerical scale in their own way. Psychologists add peer report measures, asking close friends and family about the target person, and check the two reports for discrepancies. They also use memory measures: dispositionally positive people recall pleasant events more easily, and negative people recall unpleasant ones. Biological measures include saliva cortisol samples for stress, and images from functional magnetic resonance imaging (fMRI) of activation in the left prefrontal cortex, an area associated with good mood.
 
 Psychology is also a young science. Physics and chemistry are hundreds of years old, whereas psychology is barely 150 years old. Most of its major findings have come in the last 60 years. Modern psychology has better study designs and statistical analysis.
 
@@ -131,12 +131,12 @@ Flashcards for this section are as follows:
 - how each face in a chimeric face judgment task is built ::@:: Researchers build each face from the halves of a target face.
 - what the participant does in a chimeric face judgment task ::@:: The participant judges which of the two faces looks more similar to the target.
 - what a chimeric face judgment task reveals ::@:: A left-side bias, which researchers read as evidence for right-hemisphere involvement in face processing.
-- what Galton used patches of color for ::@:: Galton used patches of color to test how well people could distinguish colors.
-- what instrument Galton invented ::@:: Galton invented the self-report questionnaire.
-- what Galton examined through self-reports ::@:: Galton used self-reports to see how accurately people judged distances.
-- the year Galton began studying twins ::@:: 1875.
-- what Galton's twin studies compared ::@:: Galton compared identical and fraternal twins, to estimate how far genetic and social factors contribute to personality.
-- the phrase Galton coined ::@:: "Nature versus nurture".
+- what Francis Galton used patches of color for ::@:: Galton used patches of color to test how well people could distinguish colors.
+- what instrument Francis Galton invented ::@:: Galton invented the self-report questionnaire.
+- what Francis Galton examined through self-reports ::@:: Galton used self-reports to see how accurately people judged distances.
+- the year Francis Galton began studying twins ::@:: 1875.
+- what Francis Galton's twin studies compared ::@:: Galton compared identical and fraternal twins, to estimate how far genetic and social factors contribute to personality.
+- the phrase Francis Galton coined ::@:: "Nature versus nurture".
 - the nature–nurture question ::@:: It asks how much of a trait comes from genetics and how much from social factors.
 - why self-reports of happiness are unreliable ::@:: People might lie, might not report accurately, or might use the numerical scale differently.
 - peer report measures of happiness ::@:: Psychologists ask close friends and family for ratings, then compare them with self-reports and check for discrepancies.
@@ -168,7 +168,7 @@ Flashcards for this section are as follows:
 
 A newer approach studies different cognitive capacities at several levels of organization at once, from group and individual behavior down to brain systems and neural networks. The nervous system runs through those levels as molecules, synapses, neurons, circuits, maps, systems, and the brain as a whole. Gene and protein networks sit at the level of molecules. Synaptic networks sit at the level of synapses. Neuronal networks cover neurons, circuits, and maps. Whole-brain networks cover systems and the brain.
 
-The levels span roughly ten orders of magnitude in space, from 1 Å to 1 m, and as many in time, from a millisecond to a year. Each level has its own instruments. At the smallest scales sit metabolic pathways, transcriptional and gene regulatory networks, and interactome networks, at about 1 Å to 1 µm over milliseconds to days. Circuit dynamics and neural information flow are measured over about 100 µm to 1 cm. Optical imaging covers about 100 µm to a few millimetres. Both run from milliseconds to minutes. EM imaging with reconstruction covers about 100 µm to 1 mm over minutes to months. Whole-brain functional networks are imaged by EEG, MEG, fMRI, fNIRS, and ECoG, which resolve millimetre-to-centimetre structure over milliseconds to minutes. Diffusion MR imaging and histological tract tracing reach from 1 cm to 1 m over hours to years. Those three techniques map connectome networks.
+The levels span roughly ten orders of magnitude in space, from 1 Å to 1 m, and as many in time, from a millisecond to a year. Each level has its own instruments. At the smallest scales sit metabolic pathways, transcriptional and gene regulatory networks, and interactome networks, at about 1 Å to 1 µm over milliseconds to days. Circuit dynamics and neural information flow are measured over about 100 µm to 1 cm. Optical imaging covers about 100 µm to a few millimetres. Both run from milliseconds to minutes. Electron microscopy (EM) imaging with reconstruction covers about 100 µm to 1 mm over minutes to months. Whole-brain functional networks are imaged by electroencephalography (EEG), magnetoencephalography (MEG), fMRI, functional near-infrared spectroscopy (fNIRS), and electrocorticography (ECoG), which resolve millimetre-to-centimetre structure over milliseconds to minutes. Diffusion magnetic resonance (MR) imaging and histological tract tracing reach from 1 cm to 1 m over hours to years. Those three techniques map connectome networks.
 
 Perception–action coupling and brain–behavior interactions sit at about 10 cm to 1 m over seconds to days. Social networks sit above a metre over minutes to years.
 
@@ -190,10 +190,10 @@ Flashcards for this section are as follows:
 - the scale of metabolic, gene regulatory, and interactome networks ::@:: About 1 Å to 1 µm, spanning milliseconds to days.
 - the scale of circuit dynamics and neural information flow ::@:: About 100 µm to 1 cm, over milliseconds to minutes.
 - the scale of optical imaging ::@:: About 100 µm to a few millimetres, over milliseconds to minutes.
-- the fine-scale method for mapping connectome networks ::@:: EM imaging with reconstruction covers about 100 µm to 1 mm over minutes to months.
-- techniques for imaging whole-brain functional networks ::@:: EEG, MEG, fMRI, fNIRS, and ECoG.
+- the fine-scale method for mapping connectome networks ::@:: Electron microscopy (EM) imaging with reconstruction covers about 100 µm to 1 mm over minutes to months.
+- techniques for imaging whole-brain functional networks ::@:: Electroencephalography (EEG), magnetoencephalography (MEG), fMRI, functional near-infrared spectroscopy (fNIRS), and electrocorticography (ECoG).
 - the scale of whole-brain functional network imaging ::@:: Millimetre-to-centimetre structure over milliseconds to minutes.
-- the long-range method for mapping connectome networks ::@:: Diffusion MR imaging and histological tract tracing map them from 1 cm to 1 m over hours to years.
+- the long-range method for mapping connectome networks ::@:: Diffusion magnetic resonance (MR) imaging and histological tract tracing map them from 1 cm to 1 m over hours to years.
 - the scale of perception–action coupling and brain–behavior interactions ::@:: About 10 cm to 1 m, over seconds to days.
 - the scale of social networks ::@:: Above a metre, over minutes to years.
 - why the level-of-organization approach requires interdisciplinary effort ::@:: No single level has a method that reaches the others.
@@ -210,12 +210,12 @@ An eye tracker records where the eyes look, returning the sequence of fixations 
 
 Flashcards for this section are as follows:
 
-- the instruments and models psychological work runs on ::@:: Psychologists use instruments such as the eye tracker and EEG, plus explicit computational models of a process.
+- the instruments and models psychological work runs on ::@:: Psychologists use instruments such as the eye tracker and electroencephalography (EEG), plus explicit computational models of a process.
 - why psychological science uses several kinds of measurement ::@:: No single measurement settles a question, so the aim is converging evidence from multiple methodologies.
 - the four kinds of measurement in psychological science ::@:: Measuring behavior, looking at the living brain, looking at deficits after brain damage, and computational modeling.
 - what an eye tracker records ::@:: It records where the eyes look, the sequence of fixations, and the regions attended to.
-- what EEG records ::@:: It records brain waves, the electrical activity of the brain at the scalp.
-- what EEG trades off ::@:: Very good temporal resolution against poor spatial resolution.
+- what electroencephalography (EEG) records ::@:: It records brain waves, the electrical activity of the brain at the scalp.
+- what electroencephalography (EEG) trades off ::@:: Very good temporal resolution against poor spatial resolution.
 - the two resolutions magnetoencephalography achieves ::@:: About 1 ms temporally and about 2 mm spatially.
 - which method creates deficits on purpose ::@:: Transcranial magnetic stimulation creates those deficits briefly and on purpose.
 - how the face recognition model encodes fixations and picks the next region ::@:: A shared multi-scale convolutional network encodes them, and a hidden Markov model picks the next region.
@@ -243,7 +243,7 @@ Psychological science produces interventions that help people live better lives.
 
 In organizational psychology, several interventions raise productivity and satisfaction in the workplace. Human factors engineers have increased the safety and utility of products. The psychologist Alphonse Chapanis and other researchers redesigned aircraft cockpit controls so that they were less confusing and faster to respond to. The redesign cut pilot errors and crashes.
 
-Forensic science has made courtroom decisions more valid. Elizabeth Loftus demonstrated the limits and unreliability of eyewitness testimony and memory. DNA exonerations have also freed wrongly imprisoned people. How reliably a face is recognized varies with whose face it is, which is what the [cross-race effect](cross-race%20effect.md) records.
+Forensic science has made courtroom decisions more valid. Elizabeth Loftus demonstrated the limits and unreliability of eyewitness testimony and memory. Deoxyribonucleic acid (DNA) exonerations have also freed wrongly imprisoned people. How reliably a face is recognized varies with whose face it is, which is what the [cross-race effect](cross-race%20effect.md) records.
 
 Applied science puts scientific knowledge to work on practical problems like these. The field has enough success to show that it works, and a great deal remains to be learned.
 

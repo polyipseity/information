@@ -62,7 +62,7 @@ Flashcards for this section are as follows:
 
 ## theoretical and empirical analysis
 
-A policy question such as what would happen if the SEC imposed a short-selling ban is answered in two ways. _Theoretical_ analysis develops an economic model, solves it, and derives testable implications; it typically keeps a couple of important factors and omits complicated detail, and the result is a guideline for implementing the policy. _Empirical_ analysis brings data to test those implications and to find anomalies and new questions, for example to measure the actual impact of the policy once it is in place.
+A policy question such as what would happen if the Securities and Exchange Commission (SEC) imposed a short-selling ban is answered in two ways. _Theoretical_ analysis develops an economic model, solves it, and derives testable implications; it typically keeps a couple of important factors and omits complicated detail, and the result is a guideline for implementing the policy. _Empirical_ analysis brings data to test those implications and to find anomalies and new questions, for example to measure the actual impact of the policy once it is in place.
 
 ---
 
