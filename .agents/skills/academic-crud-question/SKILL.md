@@ -137,6 +137,7 @@ This pairing is the one case that keeps two pages; the default routing rule live
 - `{@{ }@}` must never appear inside `$…$` or `$$…$$`; wrap from outside
 - Place `}@}` before trailing punctuation
 - Progressive difficulty: simple case first, then extend
+- Solutions and explanations are authored text: every acronym, abbreviation, or personal name on a cloze line carries its full form on that same line (see "Full forms on every card" in `create-flashcards`); the quoted question text is verbatim and exempt
 - __Humanizer pass__: sweep solution and explanation prose after inserting clozes, keeping the hint words that make each deletion answerable. Quoted question text stays verbatim (see "Humanizer pass" in `academic-ingest`).
 
 ## References

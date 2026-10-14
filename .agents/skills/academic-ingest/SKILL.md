@@ -533,7 +533,7 @@ Every question quote block needs cloze flashcards (`{@{ }@}`) on its `- solution
 
 __Solution lines:__ one cloze per solution, on the core result, formula, or decisive step. Very long solutions (multi-step derivations, lengthy prose) may carry several clozes, one per logical step.
 
-__Explanation lines:__ prefer several clozes, breaking the explanation into individual claims, conditions, and reasoning steps.
+__Explanation lines:__ prefer several clozes, breaking the explanation into individual claims, conditions, and reasoning steps. The `- solution:` and `- explanation:` lines are authored text, so every acronym, abbreviation, or personal name on them carries its full form on the same line (see "Full forms on every card" in `create-flashcards`); the quoted question text is verbatim and exempt.
 
 __Cloze syntax:__
 
@@ -611,7 +611,7 @@ Agents and subagents must read both `SKILL.md` files before editing (`../academi
 
 #### Flashcard focus
 
-A card fails in a few recurring ways. A reader sees one card at a time, with no note, no prose and no sibling card, so a card leaning on any of those cannot be answered: it names its setting, its symbols and its object, and it drops the deixis. Its prompt gives the answer away, or a reader cannot answer it at all: rewrite the pair rather than trimming one half. Its answer restates the prompt, or trails a justification clause ("…, which holds because the copies are independent"). Its prompt is a label longer than the concept, where a question would do. It carries two ideas, which belong in two cards. It answers with an enumeration where it should name its slice on the prompt side (`the five born before 1790`, `before 1850`, `the curl equations`) and leave the rest to sibling cards (see "Enumeration cards" in `create-flashcards`).
+A card fails in a few recurring ways. A reader sees one card at a time, with no note, no prose and no sibling card, so a card leaning on any of those cannot be answered: it names its setting, its symbols and its object, and it drops the deixis. Its prompt gives the answer away, or a reader cannot answer it at all: rewrite the pair rather than trimming one half. Its answer restates the prompt, or trails a justification clause ("…, which holds because the copies are independent"). Its prompt is a label longer than the concept, where a question would do. It carries two ideas, which belong in two cards. It answers with an enumeration where it should name its slice on the prompt side (`the five born before 1790`, `before 1850`, `the curl equations`) and leave the rest to sibling cards (see "Enumeration cards" in `create-flashcards`). It leans on an acronym, an abbreviation, or a surname that the line itself never expands, and the viewer shows one line at a time, so the full form belongs on the card (see "Full forms on every card" in `create-flashcards`).
 
 The failure a pass must not create is a missing symbol. Cutting a prompt that drops a given or a piece of notation breaks the card instead of shortening it, and a calculation card names every quantity it combines. What is left should be a short prompt carrying its symbols, plus an answer of one or two clauses.
 
@@ -625,7 +625,7 @@ Leave the source's own emphasis alone: an instructor's "rare, difficult or even 
 
 Academic notes collect a handful of catalogue habits: rule-of-three lists padded to three items, "not only… but also", copula avoidance where "serves as" or "represents" stands in for "is", em dashes, bolded `**Term:** description` bullets, and over-bolded inline labels. Aim at the padded triad; a list of three real device types is content and stays.
 
-Three catalogue patterns do not apply here. Headings are already sentence case, notes carry no emoji, and heading text is frozen because session entries link to `#section%20anchors`, so a heading is never a humanizer target. Renaming, moving, or folding one belongs to the __section levelling pass__, which runs first and re-links the entries it invalidates (see "Section levelling pass" in `academic-crud-topic-note`). Accuracy beats style in every conflict: a card that loses a given to read more naturally is broken.
+Three catalogue patterns do not apply here. Headings are already sentence case, notes carry no emoji, and heading text is frozen because session entries link to `#section%20anchors`, so a heading is never a humanizer target. Renaming, moving, or folding one belongs to the __section levelling pass__, which runs first and re-links the entries it invalidates (see "Section levelling pass" in `academic-crud-topic-note`). Accuracy beats style in every conflict: a card that loses a given to read more naturally is broken, and an expansion collapsed into its acronym to save words loses a given too — the full form is content, not padding.
 
 #### After the pass
 

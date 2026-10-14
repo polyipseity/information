@@ -128,7 +128,7 @@ tags:
 
 ### Cloze flashcards in question blocks
 
-Every question quote block needs cloze flashcards on its `- solution:` and `- explanation:` lines, never on the question text or the answer choices, and the solution line stays inside the blockquote holding its question. The per-line split, the `}@}` delimiter, the LaTeX and plain-text forms, and the `<!-- markdownlint MD028 -->` separator between consecutive questions are in "Cloze flashcards in question blocks" in `academic-ingest`; the methodology is in `create-flashcards`.
+Every question quote block needs cloze flashcards on its `- solution:` and `- explanation:` lines, never on the question text or the answer choices, and the solution line stays inside the blockquote holding its question. Those two lines are authored text, so every acronym, abbreviation, or personal name on them carries its full form on the same line (see "Full forms on every card" in `create-flashcards`); the quoted question itself is verbatim and exempt. The per-line split, the `}@}` delimiter, the LaTeX and plain-text forms, and the `<!-- markdownlint MD028 -->` separator between consecutive questions are in "Cloze flashcards in question blocks" in `academic-ingest`; the methodology is in `create-flashcards`.
 
 ### Flashcard style per section
 

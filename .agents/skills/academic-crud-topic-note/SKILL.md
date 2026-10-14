@@ -192,6 +192,7 @@ The pass moves boundaries and headings; it never drops a fact or a card. Report 
    - Every `##`, `###`, and deeper heading gets its own `---` separator and its own flashcard block, never one block shared by a parent and its sub-sections.
    - Group related cards with inline bold labels (e.g., `**superposition.**`).
    - A card is shown alone, with no note, no prose and no sibling card, so it names its setting, every symbol it uses, and the object it asks about, and it never points into the prose with `here`, `the two forms` or `by substitution`. Restate givens, hypotheses and notation, and never name their source; write the example, not `the lecture's example`.
+   - Every card line that carries an acronym, an abbreviation, or a person's name also carries its full form on that same line, since the viewer shows each line independently; a card naming a person directly writes their full name, while an eponym term ("Ohm's law") stands alone (see "Full forms on every card" in `create-flashcards`).
    - The overview card comes first in each section.
    - Preserve the derivation or proof spine in cards.
    - Split packed cards into focused units, and split an enumeration of six or more items into sibling cards sliced at a boundary the items show (era, date range, divergence versus curl), each naming its slice on the prompt side (see "Enumeration cards" in `create-flashcards`).
