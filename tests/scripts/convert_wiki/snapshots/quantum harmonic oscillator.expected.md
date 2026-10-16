@@ -137,7 +137,7 @@ For example, the [fundamental solution](fundamental%20solution.md) \([propagator
 >
 > Coherent state dynamics for $\alpha ={\sqrt {10} }$, in units of the harmonic oscillator length $x_{0}={\sqrt {\hbar /m\omega } }$, showing the probability density $|\psi (x,t)|^{2}$ and the quantum phase \(color\).
 
-The [coherent states](coherent%20state.md#the%20wavefunction%20of%20a%20coherent%20state) \(also known as Glauber states\) of the harmonic oscillator are special nondispersive [wave packets](wave%20packet.md), with minimum uncertainty _σ<sub>x</sub>_<!-- markdown separator -->_σ<sub>p</sub>_ = _ℏ_⁄2, whose [observables](observable.md)' [expectation values](expectation%20value%20(quantum%20mechanics).md) evolve like a classical system. They are eigenvectors of the annihilation operator, _not_ the Hamiltonian, and form an [overcomplete](overcompleteness.md) basis which consequentially lacks orthogonality.<sup>[\[17\]](#^ref-17)</sup>
+The [coherent states](coherent%20state.md#the%20wavefunction%20of%20a%20coherent%20state) \(also known as Glauber states\) of the harmonic oscillator are special nondispersive [wave packets](wave%20packet.md), with minimum uncertainty _σ<sub>x</sub>_<!-- markdown separator -->_σ<sub>p</sub>_ = _ℏ_<!-- markdown separator -->⁄2, whose [observables](observable.md)' [expectation values](expectation%20value%20(quantum%20mechanics).md) evolve like a classical system. They are eigenvectors of the annihilation operator, _not_ the Hamiltonian, and form an [overcomplete](overcompleteness.md) basis which consequentially lacks orthogonality.<sup>[\[17\]](#^ref-17)</sup>
 
 The coherent states are indexed by $\alpha \in \mathbb {C}$ and expressed in the \|_n_⟩ basis as
 

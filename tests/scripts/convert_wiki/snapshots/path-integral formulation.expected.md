@@ -75,7 +75,7 @@ This is not very different from just ordinary time evolution: the _H_ factor con
 
 > ![These are five of the infinitely many paths available for a particle to move from point A at time t to point B at time t’\(\>t\). Paths which self-intersect or go backwards in time are not allowed.](../../archives/Wikimedia%20Commons/Feynman%20paths.png)
 >
-> These are five of the infinitely many paths available for a particle to move from point A at time _t_<!-- markdown separator -->to point B at time _t_<!-- markdown separator -->’\(\>_t_\)
+> These are five of the infinitely many paths available for a particle to move from point A at time _t_<!-- markdown separator -->to point B at time _t_’\(\>_t_\)
 
 Another way of saying this is that since the Hamiltonian is naturally a function of _p_ and _q_, exponentiating this quantity and changing basis from _p_ to _q_ at each step allows the matrix element of _H_ to be expressed as a simple function along each path. This function is the quantum analog of the classical action. This observation is due to [Paul Dirac](Paul%20Dirac.md).<sup>[\[11\]](#^ref-11)</sup>
 
@@ -269,7 +269,7 @@ Let _T_ = _t<sub>f</sub>_ − _t<sub>i</sub>_. One may write this propagator in 
 
 $${\begin{aligned}K(x_{f},t_{f};x_{i},t_{i})&=\left({\frac {m\omega }{2\pi i\hbar \sin \omega T} }\right)^{\frac {1}{2} }\exp {\left({\frac {i}{\hbar } }{\tfrac {1}{2} }m\omega {\frac {(x_{i}^{2}+x_{f}^{2})\cos \omega T-2x_{i}x_{f} }{\sin \omega T} }\right)}\\[6pt]&=\sum _{n=0}^{\infty }\exp {\left(-{\frac {iE_{n}T}{\hbar } }\right)}\psi _{n}(x_{f})\psi _{n}(x_{i})^{*}~.\end{aligned} }$$
 
-Using the identities $isin{\omega}T=\frac{1}{2}e^{i{\omega}T}(1 −e^{−2i{\omega}T})$ and $cos{\omega}T=\frac{1}{2}e^{i{\omega}T}(1 +e^{−2i{\omega}T})$, this amounts to
+Using the identities $i\sin{\omega}T=\frac{1}{2}e^{i{\omega}T}(1 −e^{−2i{\omega}T})$ and $\cos{\omega}T=\frac{1}{2}e^{i{\omega}T}(1 +e^{−2i{\omega}T})$, this amounts to
 
 $$K(x_{f},t_{f};x_{i},t_{i})=\left({\frac {m\omega }{\pi \hbar } }\right)^{\frac {1}{2} }e^{\frac {-i\omega T}{2} }\left(1-e^{-2i\omega T}\right)^{-{\frac {1}{2} } }\exp {\left(-{\frac {m\omega }{2\hbar } }\left(\left(x_{i}^{2}+x_{f}^{2}\right){\frac {1+e^{-2i\omega T} }{1-e^{-2i\omega T} } }-{\frac {4x_{i}x_{f}e^{-i\omega T} }{1-e^{-2i\omega T} } }\right)\right)}.$$
 
@@ -669,7 +669,7 @@ where
 
 $$\langle F\rangle _{J}={\frac {\int {\mathcal {D} }\varphi F[\varphi ]e^{i\left({\mathcal {S} }[\varphi ]+\langle J,\varphi \rangle \right)} }{\int {\mathcal {D} }\varphi e^{i\left({\mathcal {S} }[\varphi ]+\langle J,\varphi \rangle \right)} } }.$$
 
-Basically, if D<!-- markdown separator -->_φ_<!-- markdown separator -->_e_<sup>_i_S\[_φ_\]</sup> is viewed as a functional distribution \(this shouldn't be taken too literally as an interpretation of [QFT](quantum%20field%20theory.md), unlike its Wick-rotated [statistical mechanics](statistical%20mechanics.md) analogue, because we have [time ordering](time%20ordering.md#time%20ordering) complications here!\), then ⟨_φ_\(_x_<sub>1</sub>\) ... _φ_\(_x<sub>n</sub>_\)⟩ are its [moments](moment%20(mathematics).md), and _Z_ is its [Fourier transform](Fourier%20transform.md).
+Basically, if D<!-- markdown separator -->_φ_<!-- markdown separator -->_e_<sup>_i_<!-- markdown separator -->S\[_φ_\]</sup> is viewed as a functional distribution \(this shouldn't be taken too literally as an interpretation of [QFT](quantum%20field%20theory.md), unlike its Wick-rotated [statistical mechanics](statistical%20mechanics.md) analogue, because we have [time ordering](time%20ordering.md#time%20ordering) complications here!\), then ⟨_φ_\(_x_<sub>1</sub>\) ... _φ_\(_x<sub>n</sub>_\)⟩ are its [moments](moment%20(mathematics).md), and _Z_ is its [Fourier transform](Fourier%20transform.md).
 
 If _F_ is a functional of _φ_, then for an [operator](operator%20(mathematics).md) _K_, _F_\[_K_\] is defined to be the operator that substitutes _K_ for _φ_. For example, if
 

@@ -62,7 +62,7 @@ In 1923, Compton published a paper that explained the X-ray shift by attributing
 - $c$ is the [speed of light](speed%20of%20light.md), and
 - $\theta$ is the scattering angle.
 
-The quantity $\frac{h}{m_{e}c}$ is known as the [Compton wavelength](Compton%20wavelength.md) of the electron; it is equal to 2.43×10<sup>−12</sup> m. The wavelength shift _λ_<!-- markdown separator -->′ − _λ_ is at least zero \(for _θ_ = 0°\) and at most twice the Compton wavelength of the electron \(for _θ_ = 180°\).
+The quantity $\frac{h}{m_{e}c}$ is known as the [Compton wavelength](Compton%20wavelength.md) of the electron; it is equal to 2.43×10<sup>−12</sup> m. The wavelength shift _λ_′ − _λ_ is at least zero \(for _θ_ = 0°\) and at most twice the Compton wavelength of the electron \(for _θ_ = 180°\).
 
 Compton found that some X-rays experienced no wavelength shift despite being scattered through large angles; in each of these cases the photon failed to eject an electron.<sup>[\[8\]](#^ref-8)</sup> Thus the magnitude of the shift is related not to the Compton wavelength of the electron, but to the Compton wavelength of the entire atom, which can be upwards of 10000 times smaller. This is known as "coherent" scattering off the entire atom since the atom remains intact, gaining no internal excitation.
 
@@ -79,7 +79,7 @@ In Compton's original experiments the wavelength shift given above was the direc
 >
 > Fig. 3: Energies of a photon at 500 keV and an electron after Compton scattering.
 
-A photon γ with wavelength _λ_ collides with an electron e in an atom, which is treated as being at rest. The collision causes the electron to [recoil](recoil.md), and a new photon _γ_<!-- markdown separator -->′ with wavelength _λ_<!-- markdown separator -->′ emerges at angle _θ_ from the photon's incoming path. Let e′ denote the electron after the collision. Compton allowed for the possibility that the interaction would sometimes accelerate the electron to speeds sufficiently close to the velocity of light as to require the application of Einstein's [special relativity](special%20relativity.md) theory to properly describe its energy and momentum.
+A photon γ with wavelength _λ_ collides with an electron e in an atom, which is treated as being at rest. The collision causes the electron to [recoil](recoil.md), and a new photon _γ_′ with wavelength _λ_′ emerges at angle _θ_ from the photon's incoming path. Let e′ denote the electron after the collision. Compton allowed for the possibility that the interaction would sometimes accelerate the electron to speeds sufficiently close to the velocity of light as to require the application of Einstein's [special relativity](special%20relativity.md) theory to properly describe its energy and momentum.
 
 At the conclusion of Compton's 1923 paper, he reported results of experiments confirming the predictions of his scattering formula, thus supporting the assumption that photons carry momentum as well as quantized energy. At the start of his derivation, he had postulated an expression for the momentum of a photon from equating Einstein's already established mass-energy relationship of _E_ = _mc_<sup>2</sup> to the quantized photon energies of _hf_, which Einstein had separately postulated. If _mc_<sup>2</sup> = _hf_, the equivalent photon mass must be _hf_<!-- markdown separator -->/<!-- markdown separator -->_c_<sup>2</sup>. The photon's momentum is then simply this effective mass times the photon's frame-invariant velocity _c_. For a photon, its momentum $p=hf/c$, and thus _hf_ can be substituted for _pc_ for all photon momentum terms which arise in course of the derivation below. The derivation which appears in Compton's paper is more terse, but follows the same logic in the same sequence as the following derivation.
 
@@ -145,11 +145,11 @@ which, after evaluating the square and canceling and rearranging terms, further 
 
 $$2hfm_{\text{e} }c^{2}-2hf'm_{\text{e} }c^{2}=2h^{2}ff'\left(1-\cos \theta \right).$$
 
-Dividing both sides by 2<!-- markdown separator -->_hff_′<!-- markdown separator -->_m_<sub>e</sub>_c_ yields
+Dividing both sides by 2<!-- markdown separator -->_hff_′_m_<sub>e</sub>_c_ yields
 
 $${\frac {c}{f'} }-{\frac {c}{f} }={\frac {h}{m_{\text{e} }c} }\left(1-\cos \theta \right).$$
 
-Finally, since _fλ_ = _f_′<!-- markdown separator -->_λ_′ = _c_,
+Finally, since _fλ_ = _f_′_λ_′ = _c_,
 
 |                                                                         |                               |
 | ----------------------------------------------------------------------- | ----------------------------- |
