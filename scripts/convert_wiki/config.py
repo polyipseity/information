@@ -115,18 +115,22 @@ _UNICODE_SEPARATOR_CHARACTERS = (
     "\u2212\u00b1\u2213\u00d7\u00f7\u00b7\u22c5\u2010\u2011\u2012\u2013\u2014\u2015"
     "\u27e8\u27e9\u2329\u232a"
 )
-"""Math signs that bind tightly to the variable they precede.
+"""Math sign that binds tightly to the emphasis it precedes.
 
-``−t``, ``±c``, and ``×q`` are one term, so an italic marker directly after
-the sign has to be separated from it or the renderer reads the sign and the
-marker as a word.  The ASCII plus sign belongs here for the same reason; the
-ASCII hyphen-minus does not, because it is word punctuation rather than an
-operator.  The middle dot and the dot operator are left out because they also
-serve as punctuation, and the dashes and angle brackets in
-``_UNICODE_SEPARATOR_CHARACTERS`` because they separate words, as in
-``wave–particle``.  A separator in those places would only add noise.
+The ASCII plus sign is punctuation every renderer agrees on, so
+``_needs_marker`` returns False for it; yet ``+_i_`` reads as one term,
+and an italic marker directly after the sign has to be separated from it
+or the renderer reads the sign and the marker together as a word.  Hence
+the fallback check in ``_needs_separator_before``.
+
+The five non-ASCII math signs that used to be listed here -- MINUS SIGN
+U+2212, PLUS-MINUS U+00B1, MINUS-OR-PLUS U+2213, MULTIPLICATION SIGN
+U+00D7 and DIVISION SIGN U+00F7 -- need no listing any more.  All five
+are Unicode general category ``Sm``, so the ``P``-only predicate in
+``_needs_marker`` already counts them as word material and asks for a
+separator on its own.
 """
-_TIGHT_MATH_SIGN_CHARACTERS = "+" + "\u2212\u00b1\u2213\u00d7\u00f7"
+_TIGHT_MATH_SIGN_CHARACTERS = "+"
 "Characters considered as separators in Markdown formatting."
 _MARKDOWN_SEPARATOR_CHARACTERS = (
     f"{punctuation}{whitespace}\xa0{_UNICODE_SEPARATOR_CHARACTERS}"
