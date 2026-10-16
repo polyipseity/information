@@ -28,6 +28,57 @@ _MATH_LETTER_COMMANDS: dict[str, str] = {
 }
 """Regex matching the ``line-height`` of a legacy stacked math block."""
 _BLOCK_LINE_HEIGHT_REGEX = re.compile(r"line-height:\s*([0-9.]+)")
+"""LaTeX kernel operator names that have a dedicated macro of the same name."""
+_OPERATOR_NAMES: frozenset[str] = frozenset(
+    {
+        "arccos",
+        "arcsin",
+        "arctan",
+        "arg",
+        "bmod",
+        "cos",
+        "cosh",
+        "cot",
+        "coth",
+        "csc",
+        "deg",
+        "det",
+        "dim",
+        "exp",
+        "gcd",
+        "hom",
+        "inf",
+        "ker",
+        "lg",
+        "lim",
+        "liminf",
+        "limsup",
+        "ln",
+        "log",
+        "max",
+        "min",
+        "Pr",
+        "sec",
+        "sin",
+        "sinh",
+        "sup",
+        "tan",
+        "tanh",
+    }
+)
+"""Operator names with no dedicated macro, set upright via ``\\operatorname``."""
+_OPERATORNAME_NAMES: frozenset[str] = frozenset({"sinc", "sgn", "rect"})
+"""LaTeX rendering of every name in ``_OPERATOR_NAMES`` and ``_OPERATORNAME_NAMES``."""
+_LATEX_OPERATORS: dict[str, str] = {
+    **{name: "\\" + name for name in _OPERATOR_NAMES},
+    **{name: "\\operatorname{" + name + "}" for name in _OPERATORNAME_NAMES},
+}
+"""Regex matching a whole operator name, longest first, outside words and commands."""
+_OPERATOR_REGEX = re.compile(
+    "(?<![A-Za-z\\\\])("
+    + "|".join(sorted(_LATEX_OPERATORS, key=len, reverse=True))
+    + ")(?![A-Za-z])"
+)
 
 
 class LatexConverter:
@@ -228,6 +279,25 @@ class LatexConverter:
 
     @staticmethod
     def _escape_latex_text(text: str) -> str:
+        """Escape LaTeX specials and Unicode Greek, mapping operator names.
+
+        The text is split at operator names so each plain segment is escaped
+        exactly once; substituting the names after escaping would map the
+        ``sin`` in an escaped ``\\textbackslash{}`` a second time.
+        """
+        parts: list[str] = []
+        start = 0
+        for match in _OPERATOR_REGEX.finditer(text):
+            parts.append(
+                LatexConverter._escape_latex_text_segment(text[start : match.start()])
+            )
+            parts.append(_LATEX_OPERATORS[match.group(0)])
+            start = match.end()
+        parts.append(LatexConverter._escape_latex_text_segment(text[start:]))
+        return "".join(parts)
+
+    @staticmethod
+    def _escape_latex_text_segment(text: str) -> str:
         """Escape LaTeX special characters and convert Unicode Greek in plain text."""
         _LATEX_GREEK: dict[str, str] = {
             "\u0391": "A",

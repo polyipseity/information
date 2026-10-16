@@ -111,3 +111,38 @@ class TestMathLetterCommands:
     def test_letters_map_to_commands(self, text: str, expected: str) -> None:
         """Both h-with-stroke spellings become ``\\hbar``."""
         assert LatexConverter._escape_latex_text(text) == expected
+
+
+class TestOperatorNames:
+    """Tests for operator names mapped to LaTeX commands."""
+
+    @pytest.mark.parametrize(
+        ("text", "expected"),
+        [
+            ("sin", r"\sin"),
+            ("cos", r"\cos"),
+            ("sinc", r"\operatorname{sinc}"),
+            ("sgn", r"\operatorname{sgn}"),
+            ("rect", r"\operatorname{rect}"),
+        ],
+    )
+    def test_operator_names_map_to_commands(self, text: str, expected: str) -> None:
+        """Names with a dedicated macro take it; the rest render upright."""
+        assert LatexConverter._escape_latex_text(text) == expected
+
+    @pytest.mark.parametrize(
+        "text",
+        ["asin", "cosine", "sink", "argument", "Mglcos"],
+    )
+    def test_non_operator_text_is_unchanged(self, text: str) -> None:
+        """A name embedded in a longer word is left alone."""
+        assert LatexConverter._escape_latex_text(text) == text
+
+    def test_commanded_form_is_not_remapped(self) -> None:
+        r"""An already-commanded ``\sin`` is escaped once, never remapped.
+
+        The backslash still takes its escape, but the operator mapping must
+        not fire on the name behind it, which would yield
+        ``\textbackslash{}\sin``.
+        """
+        assert LatexConverter._escape_latex_text(r"\sin") == r"\textbackslash{}sin"

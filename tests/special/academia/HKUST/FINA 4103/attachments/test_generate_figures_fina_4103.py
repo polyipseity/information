@@ -7,6 +7,10 @@ import sys
 from pathlib import Path
 from types import ModuleType
 
+"""Public API of this test module (empty)."""
+__all__ = ()
+
+"""Path to the FINA 4103 figure generator, six parents up from this test file."""
 GENERATOR = (
     Path(__file__).parents[6]
     / "special/academia/HKUST/FINA 4103/attachments/generate_figures.py"

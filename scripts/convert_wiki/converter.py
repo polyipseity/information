@@ -36,8 +36,10 @@ Related modules
 """
 
 import re
+import unicodedata
 from collections.abc import Iterable, Mapping, MutableSet
 from os import PathLike
+from string import punctuation
 from urllib.parse import quote, unquote
 
 import pathvalidate
@@ -182,6 +184,45 @@ def _collect_anchor_fragments(ele: PageElement) -> frozenset[str]:
         fragments.add(identifier)
         fragments.add(identifier.replace("_", " "))
     return frozenset(fragments)
+
+
+def _needs_marker(character: str) -> bool:
+    """Whether *character* needs a markdown separator marker beside it.
+
+    Whitespace separates, and so does punctuation -- but only punctuation.
+    ``/`` and ``_`` are the exception: both are punctuation, yet they join
+    words rather than split them, so a marker is still required.  Every
+    other character counts as word material, which is what keeps an
+    intraword marker from closing the emphasis early.
+
+    ASCII punctuation separates unconditionally.  CommonMark counts the
+    ASCII symbols (``$``, ``+``, ``<``, ``=``, ``>``, ``^``, ``|``, ``~``)
+    as punctuation too, and no renderer disagrees, so there is nothing to
+    decide.
+
+    Beyond ASCII the split is by Unicode general category, and here the
+    spec itself moved: CommonMark 0.27 called a punctuation character one
+    in the ``P`` categories alone, while 0.28 widened it to ``P`` plus
+    ``S``.  A renderer built on the older rule reads a symbol as word
+    material, so ``∂_L_`` renders as a literal underscore instead of an
+    emphasis.  Emitting the separator is right under either rule -- an
+    extra one is an invisible HTML comment, a missing one loses the
+    emphasis -- so ``P`` separates and ``S`` does not: ``∂`` (U+2202
+    PARTIAL DIFFERENTIAL) and ``⁄`` (U+2044 FRACTION SLASH) carry a
+    marker, while ``′`` (U+2032 PRIME) and ``’`` (U+2019 RIGHT SINGLE
+    QUOTE) need none.
+
+    ``_TIGHT_MATH_SIGN_CHARACTERS`` in :mod:`config` covers the one sign
+    this predicate cannot see: the ASCII ``+``, which is punctuation and so
+    looks like a separator until you notice how tightly it binds.
+    """
+    if character in "/_":
+        return True
+    if character.isspace():
+        return False
+    if ord(character) < 128:
+        return character not in punctuation
+    return unicodedata.category(character)[0] != "P"
 
 
 class WikiHtmlConverter:
@@ -776,15 +817,6 @@ class WikiHtmlConverter:
     @staticmethod
     def _needs_separator_before(sibling: PageElement | None) -> bool:
         """Whether a separator is needed before the block."""
-        if isinstance(sibling, NavigableString):
-            text = str(sibling)
-            if text.rstrip(_cfg._MARKDOWN_SEPARATOR_CHARACTERS) == text:
-                return True  # Sibling does not end with a separator char.
-            # A math sign binds tightly to what follows it (``−t``, ``±c``),
-            # so an emphasis marker abutting it needs a separator of its own.
-            if text.endswith(tuple(_cfg._TIGHT_MATH_SIGN_CHARACTERS)):
-                return True
-            return False
         if isinstance(sibling, Tag):
             # Descend through spans to the last child that renders: a span's
             # emphasis markers wrap its content without changing what abuts the
@@ -792,51 +824,56 @@ class WikiHtmlConverter:
             last: PageElement = sibling
             while isinstance(last, Tag) and last.name == "span" and last.contents:
                 last = last.contents[-1]
-            if isinstance(last, NavigableString):
-                return last.rstrip(_cfg._MARKDOWN_SEPARATOR_CHARACTERS) == last
-            return isinstance(last, Tag) and (
-                last.name in _BOLD_OR_ITALIC
-                or bool(_BOLD_FONT_STYLE_REGEX.search(str(last.get("style", ""))))
-                or bool(_ITALIC_FONT_STYLE_REGEX.search(str(last.get("style", ""))))
-            )
-        return False
+            if isinstance(last, Tag):
+                return WikiHtmlConverter._renders_emphasis(last)
+            sibling = last
+        if not isinstance(sibling, NavigableString):
+            return False
+        text = str(sibling)
+        if not text or _needs_marker(text[-1]):
+            return True
+        # A math sign binds tightly to what follows it (``−t``, ``±c``),
+        # so an emphasis marker abutting it needs a separator of its own.
+        return text.endswith(tuple(_cfg._TIGHT_MATH_SIGN_CHARACTERS))
 
     @staticmethod
     def _needs_separator_after(sibling: PageElement | None) -> bool:
         """Whether a separator is needed after the block.
 
-        A transparent span containing only whitespace is a gap — the
-        whitespace is the separation, so no markdown separator is needed.
-        A transparent span with non-whitespace content (``\xa0``) is rendered
-        content, and no separator is needed either.  An empty transparent span
-        renders nothing, so the elements are already adjacent.
+        Mirrors ``_needs_separator_before``: walk to the first node that
+        renders at the block's trailing edge and ask the same question of its
+        leading character.  Transparent spans are walked past because their
+        own markers wrap their content rather than abut the block, and a span
+        holding only whitespace stops the walk, since that space is what
+        separates.  A non-text edge renders an edge of its own — an emphasis
+        run opens with its marker — so it needs no marker of ours.
         """
-        if isinstance(sibling, NavigableString):
-            text = str(sibling)
-            if text.lstrip(_cfg._MARKDOWN_SEPARATOR_CHARACTERS) == text:
-                return True  # Sibling does not start with a separator char.
+        if sibling is None:
             return False
-        if isinstance(sibling, Tag) and WikiHtmlConverter._is_transparent_span(sibling):
-            # Descend into the transparent span.  Whitespace-only → gap
-            # (separator needed).  Non-whitespace content → rendered content
-            # (no separator).  Empty → nothing (no separator).
-            first: PageElement | None = sibling
-            while isinstance(first, Tag):
-                children = [
-                    c
-                    for c in first.contents
-                    if not WikiHtmlConverter._renders_nothing(c, refs=False)
-                ]
-                if not children:
-                    return False
-                first = children[0]
-            if isinstance(first, NavigableString) and not str(first).strip():
-                return True
+        first: PageElement | None = sibling
+        while isinstance(first, Tag) and WikiHtmlConverter._is_transparent_span(first):
+            # Whitespace counts as content here: skipping it would walk past
+            # the gap span's own space to the text behind it.
+            child = next(
+                (
+                    candidate
+                    for candidate in first.contents
+                    if not isinstance(candidate, PreformattedString)
+                    and str(candidate) != ""
+                    and (
+                        isinstance(candidate, NavigableString)
+                        or not WikiHtmlConverter._renders_nothing(candidate, refs=False)
+                    )
+                ),
+                None,
+            )
+            if child is None:
+                return False
+            first = child
+        if not isinstance(first, NavigableString):
             return False
-        return (
-            isinstance(sibling, NavigableString)
-            and sibling.lstrip(_cfg._MARKDOWN_SEPARATOR_CHARACTERS) == sibling
-        )
+        text = str(first)
+        return bool(text) and _needs_marker(text[0])
 
     @classmethod
     def _rendered_edge_node(
