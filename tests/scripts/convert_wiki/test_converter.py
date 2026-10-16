@@ -1336,6 +1336,102 @@ class TestBoldItalicHandling:
         assert "<!-- markdown separator -->" not in result
 
     @pytest.mark.anyio
+    async def test_separator_after_transparent_span_word(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A transparent span ending in a word character gets a separator.
+
+        Regression for `_i_S[φ]`, where the ``<span class="mathcal">S</span>``
+        sibling blocked the closing marker and the literal underscore text
+        reached the output.
+        """
+        html = r'<p><i>i</i><span class="mathcal">S</span>\[\varphi\]</p>'
+        result = await _convert(converter, html)
+        assert "_i_<!-- markdown separator -->S" in result
+
+    @pytest.mark.anyio
+    async def test_separator_descends_nested_transparent_spans(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """The separator test sees through nested transparent spans."""
+        html = "<p><i>a</i><span><span>x</span></span></p>"
+        result = await _convert(converter, html)
+        assert "_a_<!-- markdown separator -->x" in result
+
+    @pytest.mark.anyio
+    @pytest.mark.parametrize("character", ["\u2032", "\u2019", "\u2018"])
+    async def test_typographic_punctuation_needs_no_marker(
+        self, converter: WikiHtmlConverter, character: str
+    ) -> None:
+        """Unicode punctuation separates like its ASCII peer.
+
+        U+2032 PRIME, U+2019 RIGHT SINGLE QUOTE and U+2018 LEFT SINGLE QUOTE
+        are general-category ``P``, so no marker may be emitted around them.
+        """
+        result = await _convert(converter, f"<p><i>t</i>{character}</p>")
+        assert "<!-- markdown separator -->" not in result
+        assert f"_t_{character}" in result
+
+    @pytest.mark.anyio
+    @pytest.mark.parametrize("character", ["\u2202", "\u2044", "\u2212", "\u22c5"])
+    async def test_math_symbols_need_marker(
+        self, converter: WikiHtmlConverter, character: str
+    ) -> None:
+        """A Unicode symbol is word material, so it must carry a marker.
+
+        U+2202 PARTIAL DIFFERENTIAL, U+2044 FRACTION SLASH, U+2212 MINUS
+        SIGN and U+22C5 DOT OPERATOR are general-category ``S``, not ``P``.
+        Renderers that do not implement the full CommonMark flanking rules
+        treat symbols as word characters, so an abutting emphasis marker is
+        swallowed and the emphasis never renders -- ``∂_L_`` comes out as
+        the literal characters.  The separator is what keeps it an emphasis.
+        """
+        result = await _convert(converter, f"<p><i>t</i>{character}</p>")
+        assert f"_t_<!-- markdown separator -->{character}" in result
+
+    @pytest.mark.anyio
+    @pytest.mark.parametrize(
+        ("character", "escaped"),
+        [("/", "/"), ("_", "\\_")],
+    )
+    async def test_intraword_separators_still_get_marker(
+        self, converter: WikiHtmlConverter, character: str, escaped: str
+    ) -> None:
+        """``/`` and ``_`` join words, so they still need a marker.
+
+        ``_`` is itself a Markdown special character and reaches the output
+        escaped, so the assertion matches the escaped spelling.
+        """
+        result = await _convert(converter, f"<p><i>L</i>{character}\u2202<i>v</i></p>")
+        assert f"_L_<!-- markdown separator -->{escaped}" in result
+
+    @pytest.mark.anyio
+    async def test_no_double_separator_before_bold_span(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Emphasis abutting a bold span emits one marker, not two.
+
+        A non-text edge already opens with its own marker, so the preceding
+        emphasis must not add a second one.
+        """
+        html = '<p><i>a</i><span style="font-weight:bold">b</span></p>'
+        result = await _convert(converter, html)
+        assert "_a_<!-- markdown separator -->__b__" in result
+        assert "<!-- markdown separator --><!-- markdown separator -->" not in result
+
+    @pytest.mark.anyio
+    async def test_minus_sign_still_gets_marker(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """The tight-math-sign rule survives the unified predicate.
+
+        U+2212 is general-category S and so a separator, but ``−t`` binds as
+        one term and therefore still needs its marker.
+        """
+        result = await _convert(converter, "<p>\u2212<i>t</i></p>")
+        assert "\u2212<!-- markdown separator -->_t_" in result
+
+    @pytest.mark.anyio
     async def test_strong(self, converter: WikiHtmlConverter) -> None:
         """``<strong>`` should render as bold."""
         result = await _convert(converter, "<strong>strong</strong>")
