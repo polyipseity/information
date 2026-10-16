@@ -7,6 +7,10 @@ import sys
 from pathlib import Path
 from types import ModuleType
 
+"""Public API of this test module (empty)."""
+__all__ = ()
+
+"""Path to the ELEC 3120 figure generator, six parents up from this test file."""
 GENERATOR = (
     Path(__file__).parents[6]
     / "special/academia/HKUST/ELEC 3120/attachments/generate_figures.py"
