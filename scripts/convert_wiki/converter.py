@@ -195,21 +195,26 @@ def _needs_marker(character: str) -> bool:
     other character counts as word material, which is what keeps an
     intraword marker from closing the emphasis early.
 
-    ASCII punctuation separates unconditionally, because it is
-    unambiguously punctuation to every renderer.
+    ASCII punctuation separates unconditionally.  CommonMark counts the
+    ASCII symbols (``$``, ``+``, ``<``, ``=``, ``>``, ``^``, ``|``, ``~``)
+    as punctuation too, and no renderer disagrees, so there is nothing to
+    decide.
 
-    Beyond ASCII the split is by Unicode general category, where ``P`` and
-    ``S`` come apart.  A spec-following renderer counts both as
-    punctuation, so CommonMark needs no marker beside either.  Renderers
-    that skip the full flanking rules instead decide by word character,
-    which admits symbols but not punctuation -- and they are common enough
-    to matter.  So ``P`` separates and ``S`` does not: ``∂`` (U+2202
-    PARTIAL DIFFERENTIAL) and ``⁄`` (U+2044 FRACTION SLASH) need a marker,
-    while ``′`` (U+2032 PRIME) and ``’`` (U+2019 RIGHT SINGLE QUOTE) do
-    not.
+    Beyond ASCII the split is by Unicode general category, and here the
+    spec itself moved: CommonMark 0.27 called a punctuation character one
+    in the ``P`` categories alone, while 0.28 widened it to ``P`` plus
+    ``S``.  A renderer built on the older rule reads a symbol as word
+    material, so ``∂_L_`` renders as a literal underscore instead of an
+    emphasis.  Emitting the separator is right under either rule -- an
+    extra one is an invisible HTML comment, a missing one loses the
+    emphasis -- so ``P`` separates and ``S`` does not: ``∂`` (U+2202
+    PARTIAL DIFFERENTIAL) and ``⁄`` (U+2044 FRACTION SLASH) carry a
+    marker, while ``′`` (U+2032 PRIME) and ``’`` (U+2019 RIGHT SINGLE
+    QUOTE) need none.
 
-    ``_TIGHT_MATH_SIGN_CHARACTERS`` in :mod:`config` is this same rule for
-    the six math signs, all of which are ``Sm``.
+    ``_TIGHT_MATH_SIGN_CHARACTERS`` in :mod:`config` covers the one sign
+    this predicate cannot see: the ASCII ``+``, which is punctuation and so
+    looks like a separator until you notice how tightly it binds.
     """
     if character in "/_":
         return True
