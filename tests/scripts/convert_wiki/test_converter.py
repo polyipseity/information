@@ -1825,20 +1825,23 @@ class TestTableHandling:
         assert "a" in result and "b" in result
 
     @pytest.mark.anyio
-    async def test_caption_with_header_row_raises(
+    async def test_caption_with_header_row_hoists_caption(
         self, converter: WikiHtmlConverter
     ) -> None:
-        """A caption combined with a ``<th>`` header row should raise ValueError."""
+        """A caption over an all-``<th>`` header row is hoisted above the table.
+
+        The ``<th>`` row owns Markdown's single header row; the caption
+        survives as a bold paragraph directly above the table.
+        """
         html = (
             "<table><caption>Title</caption>"
             "<tr><th>H1</th><th>H2</th></tr>"
             "<tr><td>D1</td><td>D2</td></tr></table>"
         )
-        with pytest.raises(BaseExceptionGroup) as exc_info:
-            await _convert(converter, html)
-        error = exc_info.value.exceptions[0]
-        assert isinstance(error, ValueError)
-        assert "only one header row" in str(error)
+        result = await _convert(converter, html)
+        assert "__Title__" in result
+        assert result.index("__Title__") < result.index("| H1")
+        assert "| D1" in result
 
     @pytest.mark.anyio
     async def test_caption_with_mixed_rows_ok(
@@ -1876,20 +1879,19 @@ class TestTableHandling:
         assert "stable" in result
 
     @pytest.mark.anyio
-    async def test_infobox_caption_with_plain_header_row_raises(
+    async def test_infobox_caption_with_plain_header_row_hoists(
         self, converter: WikiHtmlConverter
     ) -> None:
-        """An infobox all-``<th>`` row without ``infobox-header`` still raises."""
+        """An infobox all-``<th>`` row without ``infobox-header`` hoists the caption."""
         html = (
             '<table class="infobox"><caption>Title</caption>'
             "<tr><th>H1</th><th>H2</th></tr>"
             "<tr><td>D1</td><td>D2</td></tr></table>"
         )
-        with pytest.raises(BaseExceptionGroup) as exc_info:
-            await _convert(converter, html)
-        error = exc_info.value.exceptions[0]
-        assert isinstance(error, ValueError)
-        assert "only one header row" in str(error)
+        result = await _convert(converter, html)
+        assert "__Title__" in result
+        assert result.index("__Title__") < result.index("| H1")
+        assert "| D1" in result
 
     @pytest.mark.anyio
     async def test_infobox_group_divider_layout(
