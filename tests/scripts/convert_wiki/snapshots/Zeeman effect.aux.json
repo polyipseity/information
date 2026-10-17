@@ -1,0 +1,1385 @@
+{
+  "api_titles": [
+    "Netherlands",
+    "Lorentz oscillator model",
+    "Cotton–Mouton effect",
+    "Edit section: Strong field (Paschen–Back effect)",
+    "Nuclear magneton",
+    "Nuclear magnetic resonance",
+    "Friedrich Paschen",
+    "Edit section: Theoretical presentation",
+    "Edit section: Applications",
+    "Landé g-factor",
+    "Atomic absorption spectroscopy",
+    "Magneto-optic Kerr effect",
+    "Edit section: Modern",
+    "Asbestos",
+    "Hydrogen",
+    "Mössbauer spectroscopy",
+    "Solar magnetogram",
+    "Magnetic resonance imaging",
+    "Prentice Hall",
+    "Electric dipole spin resonance",
+    "Edit section: Nomenclature",
+    "Laser cooling",
+    "Edit section: External links",
+    "Photon",
+    "ISBN (identifier)",
+    "Edit section: Demonstrations",
+    "Fine structure",
+    "Edit section: Discovery",
+    "Ernst Emil Alexander Back",
+    "Thomas Preston (scientist)",
+    "Edit section: Other",
+    "Landau level",
+    "Lamb shift",
+    "Dipole",
+    "Degaussing",
+    "PMC (identifier)",
+    "Electric field",
+    "James Clerk Maxwell",
+    "Quantum electrodynamics",
+    "Edit section: Intermediate field for j = 1/2",
+    "Edit section: Biology",
+    "Robert B. Leighton",
+    "Edit section: Spintronics",
+    "Potential energy",
+    "Edit section: See also",
+    "Bohr magneton",
+    "Plasma (physics)",
+    "Edit section: Nuclear spectroscopy",
+    "Tesla (unit)",
+    "Magnetic field",
+    "OCLC (identifier)",
+    "Magnetic sense",
+    "Spintronics",
+    "Nobel Prize in Physics",
+    "Ladder operator",
+    "Star",
+    "Matthew Sands",
+    "Gregory Breit",
+    "Fabry–Pérot interferometer",
+    "ISSN (identifier)",
+    "Faraday effect",
+    "Scientific literature",
+    "Chloride",
+    "Perturbation theory",
+    "Pieter Zeeman",
+    "Gyromagnetic ratio",
+    "Edit section: Weak field (Zeeman effect)",
+    "Magnetic moment",
+    "George Ellery Hale",
+    "S2CID (identifier)",
+    "Magneto-optical trap",
+    "Electromagnet",
+    "Valence electron",
+    "Selection rule",
+    "Electric dipole transition",
+    "Edit section: Historical",
+    "Electron spin resonance",
+    "Two-level quantum mechanical system",
+    "Cambridge University Press",
+    "JSTOR (identifier)",
+    "PMID (identifier)",
+    "Angular momentum",
+    "Spin (physics)",
+    "Dissociation (chemistry)",
+    "Edit section: Example: Lyman-alpha transition in hydrogen",
+    "Emission spectrum",
+    "Addison-Wesley",
+    "Voigt effect",
+    "Sun",
+    "Bibcode (identifier)",
+    "Hyperfine structure",
+    "Electron",
+    "Zeeman energy",
+    "Diffraction grating",
+    "Lyman alpha",
+    "Michael Faraday",
+    "LS coupling",
+    "Spin–orbit interaction",
+    "Richard Feynman",
+    "Encyclopædia Britannica",
+    "Spectral line",
+    "Rubidium",
+    "Zeeman slower",
+    "Sodium chloride",
+    "Hamiltonian (quantum mechanics)",
+    "Sodium",
+    "Angular momentum operator",
+    "Anomalous magnetic dipole moment",
+    "Edit section: Astrophysics",
+    "Edit section: Metrology",
+    "Edit section: Laser cooling",
+    "Isidor Isaac Rabi",
+    "Liboff, Richard L.",
+    "Atomic orbital",
+    "Cadmium",
+    "Momentum operator",
+    "Stark effect",
+    "Henry Augustus Rowland",
+    "Polarization spectroscopy",
+    "Precession",
+    "Edit section: References",
+    "ArXiv (identifier)",
+    "Doi (identifier)",
+    "Wolfgang Pauli",
+    "Hendrik Lorentz",
+    "Bunsen burner"
+  ],
+  "api_responses": [
+    {
+      "batchcomplete": true,
+      "query": {
+        "redirects": [
+          {
+            "from": "Landau level",
+            "to": "Landau levels",
+            "tofragment": "Degeneracy of the Landau levels"
+          },
+          {
+            "from": "ISBN (identifier)",
+            "to": "ISBN"
+          },
+          {
+            "from": "PMC (identifier)",
+            "to": "PubMed Central",
+            "tofragment": "PMCID"
+          }
+        ],
+        "pages": [
+          {
+            "ns": 0,
+            "title": "Edit section: Nuclear spectroscopy",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: See also",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: Spintronics",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: Biology",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: Intermediate field for j = 1/2",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: Other",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: Discovery",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: Demonstrations",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: External links",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: Nomenclature",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: Modern",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: Applications",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: Theoretical presentation",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: Strong field (Paschen–Back effect)",
+            "missing": true
+          },
+          {
+            "pageid": 2637,
+            "ns": 0,
+            "title": "Atomic absorption spectroscopy"
+          },
+          {
+            "pageid": 8378,
+            "ns": 0,
+            "title": "Dipole"
+          },
+          {
+            "pageid": 13255,
+            "ns": 0,
+            "title": "Hydrogen"
+          },
+          {
+            "pageid": 14919,
+            "ns": 0,
+            "title": "ISBN"
+          },
+          {
+            "pageid": 19446,
+            "ns": 0,
+            "title": "Magnetic resonance imaging"
+          },
+          {
+            "pageid": 21148,
+            "ns": 0,
+            "title": "Netherlands"
+          },
+          {
+            "pageid": 23535,
+            "ns": 0,
+            "title": "Photon"
+          },
+          {
+            "pageid": 23703,
+            "ns": 0,
+            "title": "Potential energy"
+          },
+          {
+            "pageid": 25268,
+            "ns": 0,
+            "title": "Quantum electrodynamics"
+          },
+          {
+            "pageid": 36563,
+            "ns": 0,
+            "title": "Magnetic field"
+          },
+          {
+            "pageid": 41092,
+            "ns": 0,
+            "title": "Electric field"
+          },
+          {
+            "pageid": 172586,
+            "ns": 0,
+            "title": "Laser cooling"
+          },
+          {
+            "pageid": 174955,
+            "ns": 0,
+            "title": "Bohr magneton"
+          },
+          {
+            "pageid": 174963,
+            "ns": 0,
+            "title": "Nuclear magneton"
+          },
+          {
+            "pageid": 251535,
+            "ns": 0,
+            "title": "Friedrich Paschen"
+          },
+          {
+            "pageid": 610202,
+            "ns": 0,
+            "title": "Fine structure"
+          },
+          {
+            "pageid": 935979,
+            "ns": 0,
+            "title": "Tesla (unit)"
+          },
+          {
+            "pageid": 1074997,
+            "ns": 0,
+            "title": "Lamb shift"
+          },
+          {
+            "pageid": 1105823,
+            "ns": 0,
+            "title": "Degaussing"
+          },
+          {
+            "pageid": 1432131,
+            "ns": 0,
+            "title": "Robert B. Leighton"
+          },
+          {
+            "pageid": 1587123,
+            "ns": 0,
+            "title": "Landé g-factor"
+          },
+          {
+            "pageid": 2529669,
+            "ns": 0,
+            "title": "Ernst Emil Alexander Back"
+          },
+          {
+            "pageid": 2775325,
+            "ns": 0,
+            "title": "PubMed Central"
+          },
+          {
+            "pageid": 4445697,
+            "ns": 0,
+            "title": "Thomas Preston (scientist)"
+          },
+          {
+            "pageid": 5192839,
+            "ns": 0,
+            "title": "Magneto-optic Kerr effect"
+          },
+          {
+            "pageid": 5421050,
+            "ns": 0,
+            "title": "Prentice Hall"
+          },
+          {
+            "pageid": 6048617,
+            "ns": 0,
+            "title": "Mössbauer spectroscopy"
+          },
+          {
+            "pageid": 6252231,
+            "ns": 0,
+            "title": "Landau levels"
+          },
+          {
+            "pageid": 11184941,
+            "ns": 0,
+            "title": "Cotton–Mouton effect"
+          },
+          {
+            "pageid": 21492663,
+            "ns": 0,
+            "title": "Asbestos"
+          },
+          {
+            "pageid": 25110709,
+            "ns": 0,
+            "title": "Nuclear magnetic resonance"
+          },
+          {
+            "pageid": 25916521,
+            "ns": 0,
+            "title": "Plasma (physics)"
+          },
+          {
+            "pageid": 28989696,
+            "ns": 0,
+            "title": "James Clerk Maxwell"
+          },
+          {
+            "pageid": 46907831,
+            "ns": 0,
+            "title": "Electric dipole spin resonance"
+          },
+          {
+            "pageid": 69087855,
+            "ns": 0,
+            "title": "Lorentz oscillator model"
+          },
+          {
+            "pageid": 72421521,
+            "ns": 0,
+            "title": "Solar magnetogram"
+          }
+        ]
+      }
+    },
+    {
+      "batchcomplete": true,
+      "query": {
+        "redirects": [
+          {
+            "from": "Electron spin resonance",
+            "to": "Electron paramagnetic resonance"
+          },
+          {
+            "from": "LS coupling",
+            "to": "Angular momentum coupling",
+            "tofragment": "LS coupling"
+          },
+          {
+            "from": "Magnetic sense",
+            "to": "Magnetoreception"
+          },
+          {
+            "from": "Two-level quantum mechanical system",
+            "to": "Two-state quantum system"
+          },
+          {
+            "from": "Lyman alpha",
+            "to": "Lyman-alpha"
+          },
+          {
+            "from": "PMID (identifier)",
+            "to": "PubMed",
+            "tofragment": "PubMed identifier"
+          },
+          {
+            "from": "ISSN (identifier)",
+            "to": "ISSN"
+          },
+          {
+            "from": "S2CID (identifier)",
+            "to": "Semantic Scholar",
+            "tofragment": "S2CID"
+          },
+          {
+            "from": "OCLC (identifier)",
+            "to": "OCLC",
+            "tofragment": "Identifiers and linked data"
+          },
+          {
+            "from": "Bibcode (identifier)",
+            "to": "Bibcode"
+          },
+          {
+            "from": "JSTOR (identifier)",
+            "to": "JSTOR",
+            "tofragment": "Content"
+          }
+        ],
+        "pages": [
+          {
+            "ns": 0,
+            "title": "Edit section: Example: Lyman-alpha transition in hydrogen",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: Historical",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: Weak field (Zeeman effect)",
+            "missing": true
+          },
+          {
+            "pageid": 2839,
+            "ns": 0,
+            "title": "Angular momentum"
+          },
+          {
+            "pageid": 9476,
+            "ns": 0,
+            "title": "Electron"
+          },
+          {
+            "pageid": 9508,
+            "ns": 0,
+            "title": "Encyclopædia Britannica"
+          },
+          {
+            "pageid": 19727,
+            "ns": 0,
+            "title": "Michael Faraday"
+          },
+          {
+            "pageid": 25523,
+            "ns": 0,
+            "title": "Richard Feynman"
+          },
+          {
+            "pageid": 26751,
+            "ns": 0,
+            "title": "Sun"
+          },
+          {
+            "pageid": 26808,
+            "ns": 0,
+            "title": "Star"
+          },
+          {
+            "pageid": 41031,
+            "ns": 0,
+            "title": "Diffraction grating"
+          },
+          {
+            "pageid": 52497,
+            "ns": 0,
+            "title": "Nobel Prize in Physics"
+          },
+          {
+            "pageid": 61220,
+            "ns": 0,
+            "title": "Spintronics"
+          },
+          {
+            "pageid": 66269,
+            "ns": 0,
+            "title": "Chloride"
+          },
+          {
+            "pageid": 73199,
+            "ns": 0,
+            "title": "Cambridge University Press"
+          },
+          {
+            "pageid": 92377,
+            "ns": 0,
+            "title": "Electromagnet"
+          },
+          {
+            "pageid": 102140,
+            "ns": 0,
+            "title": "Perturbation theory"
+          },
+          {
+            "pageid": 196118,
+            "ns": 0,
+            "title": "Fabry–Pérot interferometer"
+          },
+          {
+            "pageid": 209271,
+            "ns": 0,
+            "title": "Pieter Zeeman"
+          },
+          {
+            "pageid": 216262,
+            "ns": 0,
+            "title": "JSTOR"
+          },
+          {
+            "pageid": 234930,
+            "ns": 0,
+            "title": "ISSN"
+          },
+          {
+            "pageid": 292052,
+            "ns": 0,
+            "title": "Lyman-alpha"
+          },
+          {
+            "pageid": 292420,
+            "ns": 0,
+            "title": "Emission spectrum"
+          },
+          {
+            "pageid": 406618,
+            "ns": 0,
+            "title": "Scientific literature"
+          },
+          {
+            "pageid": 503009,
+            "ns": 0,
+            "title": "PubMed"
+          },
+          {
+            "pageid": 518692,
+            "ns": 0,
+            "title": "Faraday effect"
+          },
+          {
+            "pageid": 527046,
+            "ns": 0,
+            "title": "Hyperfine structure"
+          },
+          {
+            "pageid": 540979,
+            "ns": 0,
+            "title": "Magnetic moment"
+          },
+          {
+            "pageid": 568674,
+            "ns": 0,
+            "title": "Valence electron"
+          },
+          {
+            "pageid": 623538,
+            "ns": 0,
+            "title": "George Ellery Hale"
+          },
+          {
+            "pageid": 883885,
+            "ns": 0,
+            "title": "OCLC"
+          },
+          {
+            "pageid": 1180080,
+            "ns": 0,
+            "title": "Addison-Wesley"
+          },
+          {
+            "pageid": 1228679,
+            "ns": 0,
+            "title": "Gyromagnetic ratio"
+          },
+          {
+            "pageid": 1277825,
+            "ns": 0,
+            "title": "Angular momentum coupling"
+          },
+          {
+            "pageid": 1313664,
+            "ns": 0,
+            "title": "Selection rule"
+          },
+          {
+            "pageid": 1506351,
+            "ns": 0,
+            "title": "Magnetoreception"
+          },
+          {
+            "pageid": 1616775,
+            "ns": 0,
+            "title": "Dissociation (chemistry)"
+          },
+          {
+            "pageid": 1720843,
+            "ns": 0,
+            "title": "Two-state quantum system"
+          },
+          {
+            "pageid": 1871162,
+            "ns": 0,
+            "title": "Spin–orbit interaction"
+          },
+          {
+            "pageid": 1926015,
+            "ns": 0,
+            "title": "Electron paramagnetic resonance"
+          },
+          {
+            "pageid": 1988966,
+            "ns": 0,
+            "title": "Gregory Breit"
+          },
+          {
+            "pageid": 4336836,
+            "ns": 0,
+            "title": "Magneto-optical trap"
+          },
+          {
+            "pageid": 5424364,
+            "ns": 0,
+            "title": "Voigt effect"
+          },
+          {
+            "pageid": 14092434,
+            "ns": 0,
+            "title": "Bibcode"
+          },
+          {
+            "pageid": 19593829,
+            "ns": 0,
+            "title": "Spin (physics)"
+          },
+          {
+            "pageid": 21734987,
+            "ns": 0,
+            "title": "Matthew Sands"
+          },
+          {
+            "pageid": 23280931,
+            "ns": 0,
+            "title": "Ladder operator"
+          },
+          {
+            "pageid": 25211625,
+            "ns": 0,
+            "title": "Electric dipole transition"
+          },
+          {
+            "pageid": 31040618,
+            "ns": 0,
+            "title": "Zeeman energy"
+          },
+          {
+            "pageid": 48455863,
+            "ns": 0,
+            "title": "Semantic Scholar"
+          }
+        ]
+      }
+    },
+    {
+      "batchcomplete": true,
+      "query": {
+        "redirects": [
+          {
+            "from": "Liboff, Richard L.",
+            "to": "Richard Liboff"
+          },
+          {
+            "from": "ArXiv (identifier)",
+            "to": "ArXiv"
+          },
+          {
+            "from": "Doi (identifier)",
+            "to": "Digital object identifier"
+          },
+          {
+            "from": "Isidor Isaac Rabi",
+            "to": "Isidor Rabi"
+          }
+        ],
+        "pages": [
+          {
+            "ns": 0,
+            "title": "Edit section: References",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: Laser cooling",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: Metrology",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: Astrophysics",
+            "missing": true
+          },
+          {
+            "pageid": 1206,
+            "ns": 0,
+            "title": "Atomic orbital"
+          },
+          {
+            "pageid": 4924,
+            "ns": 0,
+            "title": "Bunsen burner"
+          },
+          {
+            "pageid": 5672,
+            "ns": 0,
+            "title": "Cadmium"
+          },
+          {
+            "pageid": 14381,
+            "ns": 0,
+            "title": "Hamiltonian (quantum mechanics)"
+          },
+          {
+            "pageid": 24714,
+            "ns": 0,
+            "title": "Precession"
+          },
+          {
+            "pageid": 25599,
+            "ns": 0,
+            "title": "Rubidium"
+          },
+          {
+            "pageid": 26826,
+            "ns": 0,
+            "title": "Sodium"
+          },
+          {
+            "pageid": 33972,
+            "ns": 0,
+            "title": "Wolfgang Pauli"
+          },
+          {
+            "pageid": 38751,
+            "ns": 0,
+            "title": "ArXiv"
+          },
+          {
+            "pageid": 80207,
+            "ns": 0,
+            "title": "Sodium chloride"
+          },
+          {
+            "pageid": 88183,
+            "ns": 0,
+            "title": "Hendrik Lorentz"
+          },
+          {
+            "pageid": 177320,
+            "ns": 0,
+            "title": "Spectral line"
+          },
+          {
+            "pageid": 196999,
+            "ns": 0,
+            "title": "Isidor Rabi"
+          },
+          {
+            "pageid": 422994,
+            "ns": 0,
+            "title": "Digital object identifier"
+          },
+          {
+            "pageid": 614763,
+            "ns": 0,
+            "title": "Stark effect"
+          },
+          {
+            "pageid": 747120,
+            "ns": 0,
+            "title": "Henry Augustus Rowland"
+          },
+          {
+            "pageid": 2288549,
+            "ns": 0,
+            "title": "Momentum operator"
+          },
+          {
+            "pageid": 2728068,
+            "ns": 0,
+            "title": "Anomalous magnetic dipole moment"
+          },
+          {
+            "pageid": 3797203,
+            "ns": 0,
+            "title": "Angular momentum operator"
+          },
+          {
+            "pageid": 7742792,
+            "ns": 0,
+            "title": "Richard Liboff"
+          },
+          {
+            "pageid": 11133153,
+            "ns": 0,
+            "title": "Polarization spectroscopy"
+          },
+          {
+            "pageid": 30682536,
+            "ns": 0,
+            "title": "Zeeman slower"
+          }
+        ]
+      }
+    }
+  ],
+  "redirect_cache": {
+    "Landau level": {
+      "to": "Landau levels",
+      "tofragment": "Degeneracy of the Landau levels"
+    },
+    "ISBN (identifier)": {
+      "to": "ISBN",
+      "tofragment": ""
+    },
+    "PMC (identifier)": {
+      "to": "PubMed Central",
+      "tofragment": "PMCID"
+    },
+    "Netherlands": {
+      "to": "Netherlands",
+      "tofragment": ""
+    },
+    "Lorentz oscillator model": {
+      "to": "Lorentz oscillator model",
+      "tofragment": ""
+    },
+    "Cotton–Mouton effect": {
+      "to": "Cotton–Mouton effect",
+      "tofragment": ""
+    },
+    "Edit section: Strong field (Paschen–Back effect)": {
+      "to": "Edit section: Strong field (Paschen–Back effect)",
+      "tofragment": ""
+    },
+    "Nuclear magneton": {
+      "to": "Nuclear magneton",
+      "tofragment": ""
+    },
+    "Nuclear magnetic resonance": {
+      "to": "Nuclear magnetic resonance",
+      "tofragment": ""
+    },
+    "Friedrich Paschen": {
+      "to": "Friedrich Paschen",
+      "tofragment": ""
+    },
+    "Edit section: Theoretical presentation": {
+      "to": "Edit section: Theoretical presentation",
+      "tofragment": ""
+    },
+    "Edit section: Applications": {
+      "to": "Edit section: Applications",
+      "tofragment": ""
+    },
+    "Landé g-factor": {
+      "to": "Landé g-factor",
+      "tofragment": ""
+    },
+    "Atomic absorption spectroscopy": {
+      "to": "Atomic absorption spectroscopy",
+      "tofragment": ""
+    },
+    "Magneto-optic Kerr effect": {
+      "to": "Magneto-optic Kerr effect",
+      "tofragment": ""
+    },
+    "Edit section: Modern": {
+      "to": "Edit section: Modern",
+      "tofragment": ""
+    },
+    "Asbestos": {
+      "to": "Asbestos",
+      "tofragment": ""
+    },
+    "Hydrogen": {
+      "to": "Hydrogen",
+      "tofragment": ""
+    },
+    "Mössbauer spectroscopy": {
+      "to": "Mössbauer spectroscopy",
+      "tofragment": ""
+    },
+    "Solar magnetogram": {
+      "to": "Solar magnetogram",
+      "tofragment": ""
+    },
+    "Magnetic resonance imaging": {
+      "to": "Magnetic resonance imaging",
+      "tofragment": ""
+    },
+    "Prentice Hall": {
+      "to": "Prentice Hall",
+      "tofragment": ""
+    },
+    "Electric dipole spin resonance": {
+      "to": "Electric dipole spin resonance",
+      "tofragment": ""
+    },
+    "Edit section: Nomenclature": {
+      "to": "Edit section: Nomenclature",
+      "tofragment": ""
+    },
+    "Laser cooling": {
+      "to": "Laser cooling",
+      "tofragment": ""
+    },
+    "Edit section: External links": {
+      "to": "Edit section: External links",
+      "tofragment": ""
+    },
+    "Photon": {
+      "to": "Photon",
+      "tofragment": ""
+    },
+    "Edit section: Demonstrations": {
+      "to": "Edit section: Demonstrations",
+      "tofragment": ""
+    },
+    "Fine structure": {
+      "to": "Fine structure",
+      "tofragment": ""
+    },
+    "Edit section: Discovery": {
+      "to": "Edit section: Discovery",
+      "tofragment": ""
+    },
+    "Ernst Emil Alexander Back": {
+      "to": "Ernst Emil Alexander Back",
+      "tofragment": ""
+    },
+    "Thomas Preston (scientist)": {
+      "to": "Thomas Preston (scientist)",
+      "tofragment": ""
+    },
+    "Edit section: Other": {
+      "to": "Edit section: Other",
+      "tofragment": ""
+    },
+    "Lamb shift": {
+      "to": "Lamb shift",
+      "tofragment": ""
+    },
+    "Dipole": {
+      "to": "Dipole",
+      "tofragment": ""
+    },
+    "Degaussing": {
+      "to": "Degaussing",
+      "tofragment": ""
+    },
+    "Electric field": {
+      "to": "Electric field",
+      "tofragment": ""
+    },
+    "James Clerk Maxwell": {
+      "to": "James Clerk Maxwell",
+      "tofragment": ""
+    },
+    "Quantum electrodynamics": {
+      "to": "Quantum electrodynamics",
+      "tofragment": ""
+    },
+    "Edit section: Intermediate field for j = 1/2": {
+      "to": "Edit section: Intermediate field for j = 1/2",
+      "tofragment": ""
+    },
+    "Edit section: Biology": {
+      "to": "Edit section: Biology",
+      "tofragment": ""
+    },
+    "Robert B. Leighton": {
+      "to": "Robert B. Leighton",
+      "tofragment": ""
+    },
+    "Edit section: Spintronics": {
+      "to": "Edit section: Spintronics",
+      "tofragment": ""
+    },
+    "Potential energy": {
+      "to": "Potential energy",
+      "tofragment": ""
+    },
+    "Edit section: See also": {
+      "to": "Edit section: See also",
+      "tofragment": ""
+    },
+    "Bohr magneton": {
+      "to": "Bohr magneton",
+      "tofragment": ""
+    },
+    "Plasma (physics)": {
+      "to": "Plasma (physics)",
+      "tofragment": ""
+    },
+    "Edit section: Nuclear spectroscopy": {
+      "to": "Edit section: Nuclear spectroscopy",
+      "tofragment": ""
+    },
+    "Tesla (unit)": {
+      "to": "Tesla (unit)",
+      "tofragment": ""
+    },
+    "Magnetic field": {
+      "to": "Magnetic field",
+      "tofragment": ""
+    },
+    "Electron spin resonance": {
+      "to": "Electron paramagnetic resonance",
+      "tofragment": ""
+    },
+    "LS coupling": {
+      "to": "Angular momentum coupling",
+      "tofragment": "LS coupling"
+    },
+    "Magnetic sense": {
+      "to": "Magnetoreception",
+      "tofragment": ""
+    },
+    "Two-level quantum mechanical system": {
+      "to": "Two-state quantum system",
+      "tofragment": ""
+    },
+    "Lyman alpha": {
+      "to": "Lyman-alpha",
+      "tofragment": ""
+    },
+    "PMID (identifier)": {
+      "to": "PubMed",
+      "tofragment": "PubMed identifier"
+    },
+    "ISSN (identifier)": {
+      "to": "ISSN",
+      "tofragment": ""
+    },
+    "S2CID (identifier)": {
+      "to": "Semantic Scholar",
+      "tofragment": "S2CID"
+    },
+    "OCLC (identifier)": {
+      "to": "OCLC",
+      "tofragment": "Identifiers and linked data"
+    },
+    "Bibcode (identifier)": {
+      "to": "Bibcode",
+      "tofragment": ""
+    },
+    "JSTOR (identifier)": {
+      "to": "JSTOR",
+      "tofragment": "Content"
+    },
+    "Spintronics": {
+      "to": "Spintronics",
+      "tofragment": ""
+    },
+    "Nobel Prize in Physics": {
+      "to": "Nobel Prize in Physics",
+      "tofragment": ""
+    },
+    "Ladder operator": {
+      "to": "Ladder operator",
+      "tofragment": ""
+    },
+    "Star": {
+      "to": "Star",
+      "tofragment": ""
+    },
+    "Matthew Sands": {
+      "to": "Matthew Sands",
+      "tofragment": ""
+    },
+    "Gregory Breit": {
+      "to": "Gregory Breit",
+      "tofragment": ""
+    },
+    "Fabry–Pérot interferometer": {
+      "to": "Fabry–Pérot interferometer",
+      "tofragment": ""
+    },
+    "Faraday effect": {
+      "to": "Faraday effect",
+      "tofragment": ""
+    },
+    "Scientific literature": {
+      "to": "Scientific literature",
+      "tofragment": ""
+    },
+    "Chloride": {
+      "to": "Chloride",
+      "tofragment": ""
+    },
+    "Perturbation theory": {
+      "to": "Perturbation theory",
+      "tofragment": ""
+    },
+    "Pieter Zeeman": {
+      "to": "Pieter Zeeman",
+      "tofragment": ""
+    },
+    "Gyromagnetic ratio": {
+      "to": "Gyromagnetic ratio",
+      "tofragment": ""
+    },
+    "Edit section: Weak field (Zeeman effect)": {
+      "to": "Edit section: Weak field (Zeeman effect)",
+      "tofragment": ""
+    },
+    "Magnetic moment": {
+      "to": "Magnetic moment",
+      "tofragment": ""
+    },
+    "George Ellery Hale": {
+      "to": "George Ellery Hale",
+      "tofragment": ""
+    },
+    "Magneto-optical trap": {
+      "to": "Magneto-optical trap",
+      "tofragment": ""
+    },
+    "Electromagnet": {
+      "to": "Electromagnet",
+      "tofragment": ""
+    },
+    "Valence electron": {
+      "to": "Valence electron",
+      "tofragment": ""
+    },
+    "Selection rule": {
+      "to": "Selection rule",
+      "tofragment": ""
+    },
+    "Electric dipole transition": {
+      "to": "Electric dipole transition",
+      "tofragment": ""
+    },
+    "Edit section: Historical": {
+      "to": "Edit section: Historical",
+      "tofragment": ""
+    },
+    "Cambridge University Press": {
+      "to": "Cambridge University Press",
+      "tofragment": ""
+    },
+    "Angular momentum": {
+      "to": "Angular momentum",
+      "tofragment": ""
+    },
+    "Spin (physics)": {
+      "to": "Spin (physics)",
+      "tofragment": ""
+    },
+    "Dissociation (chemistry)": {
+      "to": "Dissociation (chemistry)",
+      "tofragment": ""
+    },
+    "Edit section: Example: Lyman-alpha transition in hydrogen": {
+      "to": "Edit section: Example: Lyman-alpha transition in hydrogen",
+      "tofragment": ""
+    },
+    "Emission spectrum": {
+      "to": "Emission spectrum",
+      "tofragment": ""
+    },
+    "Addison-Wesley": {
+      "to": "Addison-Wesley",
+      "tofragment": ""
+    },
+    "Voigt effect": {
+      "to": "Voigt effect",
+      "tofragment": ""
+    },
+    "Sun": {
+      "to": "Sun",
+      "tofragment": ""
+    },
+    "Hyperfine structure": {
+      "to": "Hyperfine structure",
+      "tofragment": ""
+    },
+    "Electron": {
+      "to": "Electron",
+      "tofragment": ""
+    },
+    "Zeeman energy": {
+      "to": "Zeeman energy",
+      "tofragment": ""
+    },
+    "Diffraction grating": {
+      "to": "Diffraction grating",
+      "tofragment": ""
+    },
+    "Michael Faraday": {
+      "to": "Michael Faraday",
+      "tofragment": ""
+    },
+    "Spin–orbit interaction": {
+      "to": "Spin–orbit interaction",
+      "tofragment": ""
+    },
+    "Richard Feynman": {
+      "to": "Richard Feynman",
+      "tofragment": ""
+    },
+    "Encyclopædia Britannica": {
+      "to": "Encyclopædia Britannica",
+      "tofragment": ""
+    },
+    "Liboff, Richard L.": {
+      "to": "Richard Liboff",
+      "tofragment": ""
+    },
+    "ArXiv (identifier)": {
+      "to": "ArXiv",
+      "tofragment": ""
+    },
+    "Doi (identifier)": {
+      "to": "Digital object identifier",
+      "tofragment": ""
+    },
+    "Isidor Isaac Rabi": {
+      "to": "Isidor Rabi",
+      "tofragment": ""
+    },
+    "Spectral line": {
+      "to": "Spectral line",
+      "tofragment": ""
+    },
+    "Rubidium": {
+      "to": "Rubidium",
+      "tofragment": ""
+    },
+    "Zeeman slower": {
+      "to": "Zeeman slower",
+      "tofragment": ""
+    },
+    "Sodium chloride": {
+      "to": "Sodium chloride",
+      "tofragment": ""
+    },
+    "Hamiltonian (quantum mechanics)": {
+      "to": "Hamiltonian (quantum mechanics)",
+      "tofragment": ""
+    },
+    "Sodium": {
+      "to": "Sodium",
+      "tofragment": ""
+    },
+    "Angular momentum operator": {
+      "to": "Angular momentum operator",
+      "tofragment": ""
+    },
+    "Anomalous magnetic dipole moment": {
+      "to": "Anomalous magnetic dipole moment",
+      "tofragment": ""
+    },
+    "Edit section: Astrophysics": {
+      "to": "Edit section: Astrophysics",
+      "tofragment": ""
+    },
+    "Edit section: Metrology": {
+      "to": "Edit section: Metrology",
+      "tofragment": ""
+    },
+    "Edit section: Laser cooling": {
+      "to": "Edit section: Laser cooling",
+      "tofragment": ""
+    },
+    "Atomic orbital": {
+      "to": "Atomic orbital",
+      "tofragment": ""
+    },
+    "Cadmium": {
+      "to": "Cadmium",
+      "tofragment": ""
+    },
+    "Momentum operator": {
+      "to": "Momentum operator",
+      "tofragment": ""
+    },
+    "Stark effect": {
+      "to": "Stark effect",
+      "tofragment": ""
+    },
+    "Henry Augustus Rowland": {
+      "to": "Henry Augustus Rowland",
+      "tofragment": ""
+    },
+    "Polarization spectroscopy": {
+      "to": "Polarization spectroscopy",
+      "tofragment": ""
+    },
+    "Precession": {
+      "to": "Precession",
+      "tofragment": ""
+    },
+    "Edit section: References": {
+      "to": "Edit section: References",
+      "tofragment": ""
+    },
+    "Wolfgang Pauli": {
+      "to": "Wolfgang Pauli",
+      "tofragment": ""
+    },
+    "Hendrik Lorentz": {
+      "to": "Hendrik Lorentz",
+      "tofragment": ""
+    },
+    "Bunsen burner": {
+      "to": "Bunsen burner",
+      "tofragment": ""
+    }
+  },
+  "image_metadata": {
+    "File:Commons-logo.svg": "The Wikimedia Commons logo, SVG version.",
+    "File:Zeeman p s doublet.svg": "Zeeman splitting of a P-S doublet transition.",
+    "File:Sunzeeman1919.png": "Magnetic field of sunspot \\(left\\) splits absorption line according to Zeeman effect \\(right\\).",
+    "File:Explanation of how the magnetic field on a star affects the light emitted.webm": "This animation shows what happens as a sunspot \\(or starspot\\) forms and the magnetic field increases in strength. The light emerging from the spot starts to demonstrate the Zeeman effect. The dark spectra lines in the spectrum of the emitted light split into three components and the strength of the circular polarisation in parts of the spectrum increases significantly. This polarisation effect is a powerful tool for astronomers to detect and measure stellar magnetic fields.",
+    "File:OOjs UI icon edit-ltr-progressive.svg": "An icon from the OOjs UI MediaWiki lib.",
+    "File:ZeemanEffectIllus.png": "The spectral lines of mercury vapor lamp at wavelength 546.1nm,showing anomalous Zeeman effect. A.Without magnetic field. B.With magnetic field,spectral lines split as transverse Zeeman effect. C.With magnetic field,split as longitudinal Zeeman effect. The spectral lines were obtained using Fabry-Perot etalon.The original three photos were taken at the laboratory of Anhui Normal University for modern physics experiments,and is later made into one illustration.",
+    "File:Zeeman effect demo.svg": "A sodium vapor lamp viewed through a sodium vapor will appear dark unless a powerful electromagnet around the sodium vapor is energized. The change is caused by the Zeeman effect on the sodium atoms.",
+    "File:Breit-rabi-Zeeman-en.svg": "Graph showing the Zeeman splitting in Rb-87, the energy levels of the 5s orbitals, including fine structure and hyperfine structure. Here, the quantum number F = J + I, where I is the nuclear spin. \\(for Rb-87, I = 3/2\\). The original splitting is due to zero-field fine structure + hyperfine splitting. Graph was produced in MATLAB by plotting the Breit-Rabi equation. The code can be viewed here: [https://github.com/delton137/Breit\\_Rabi\\_Zeeman\\_Plotter](https://github.com/delton137/Breit_Rabi_Zeeman_Plotter)"
+  },
+  "name_map_overrides": {}
+}

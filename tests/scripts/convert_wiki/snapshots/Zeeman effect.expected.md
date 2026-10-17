@@ -1,0 +1,255 @@
+Spectral line splitting in magnetic field
+
+> ![The spectral lines of mercury vapor lamp at wavelength 546.1nm,showing anomalous Zeeman effect. A.Without magnetic field. B.With magnetic field,spectral lines split as transverse Zeeman effect. C.With magnetic field,split as longitudinal Zeeman effect. The spectral lines were obtained using Fabry-Perot etalon.The original three photos were taken at the laboratory of Anhui Normal University for modern physics experiments,and is later made into one illustration.](../../archives/Wikimedia%20Commons/ZeemanEffectIllus.png)
+>
+> The spectral lines of mercury vapor lamp at wavelength 546.1 nm, showing anomalous Zeeman effect. \(A\) Without magnetic field. \(B\) With magnetic field, spectral lines split as transverse Zeeman effect. \(C\) With magnetic field, split as longitudinal Zeeman effect. The spectral lines were obtained using a [Fabry–Pérot interferometer](Fabry–Pérot%20interferometer.md).
+
+<!-- markdownlint MD028 -->
+
+> ![Graph showing the Zeeman splitting in Rb-87, the energy levels of the 5s orbitals, including fine structure and hyperfine structure. Here, the quantum number F = J + I, where I is the nuclear spin. \(for Rb-87, I = 3/2\). The original splitting is due to zero-field fine structure + hyperfine splitting. Graph was produced in MATLAB by plotting the Breit-Rabi equation. The code can be viewed here: [https://github.com/delton137/Breit\_Rabi\_Zeeman\_Plotter](https://github.com/delton137/Breit_Rabi_Zeeman_Plotter)](../../archives/Wikimedia%20Commons/Breit-rabi-Zeeman-en.svg)
+>
+> Zeeman splitting of the 5s level of [<sup>87</sup>Rb](rubidium.md), including fine structure and hyperfine structure splitting. Here _F_ = _J_ + _I_, where _I_ is the nuclear spin \(for <sup>87</sup>Rb, _I_ = 3⁄2\).
+
+<!-- markdownlint MD028 -->
+
+> ![This animation shows what happens as a sunspot \(or starspot\) forms and the magnetic field increases in strength. The light emerging from the spot starts to demonstrate the Zeeman effect. The dark spectra lines in the spectrum of the emitted light split into three components and the strength of the circular polarisation in parts of the spectrum increases significantly. This polarisation effect is a powerful tool for astronomers to detect and measure stellar magnetic fields.](../../archives/Wikimedia%20Commons/Explanation%20of%20how%20the%20magnetic%20field%20on%20a%20star%20affects%20the%20light%20emitted.webm)
+>
+> This animation shows what happens as a sunspot \(or starspot\) forms and the magnetic field increases in strength. The light emerging from the spot starts to demonstrate the Zeeman effect. The dark spectra lines in the spectrum of the emitted light split into three components and the strength of the circular polarisation in parts of the spectrum increases significantly. This polarization effect is a powerful tool for astronomers to detect and measure stellar magnetic fields.
+
+The __Zeeman effect__ \(Dutch: [\[ˈzeːmɑn\]](https://en.wikipedia.org/wiki/Help:IPA/Dutch)\) is the splitting of a [spectral line](spectral%20line.md) into several components in the presence of a static [magnetic field](magnetic%20field.md). It is caused by the interaction of the magnetic field with the [magnetic moments](magnetic%20moment.md) of the atomic [electrons](electron.md) associated with their [orbital motion](angular%20momentum.md) and [spin](spin%20(physics).md); this interaction shifts some orbital energies more than others, resulting in the split spectrum.
+
+The effect is named after the [Dutch](Netherlands.md) physicist [Pieter Zeeman](Pieter%20Zeeman.md), who discovered it in 1896 and received the [Nobel Prize in Physics](Nobel%20Prize%20in%20Physics.md) for it in 1902. It is analogous to the [Stark effect](Stark%20effect.md), the splitting of a spectral line into several components in the presence of an [electric field](electric%20field.md). Also, similar to the Stark effect, transitions between different components have, in general, different intensities, with some being entirely forbidden \(in the [dipole](dipole.md) approximation\), as governed by the [selection rules](selection%20rule.md).
+
+Since the distance between the Zeeman sub-levels is a function of magnetic field strength, this effect can be used to measure magnetic field strength, e.g. that of the [Sun](Sun.md) and other [stars](star.md) or in laboratory [plasmas](plasma%20(physics).md).
+
+## discovery
+
+In 1896, Zeeman learned that his laboratory had one of [Henry Augustus Rowland](Henry%20Augustus%20Rowland.md)'s highest resolving [diffraction gratings](diffraction%20grating.md). Zeeman had read [James Clerk Maxwell](James%20Clerk%20Maxwell.md)'s article in _[Encyclopædia Britannica](Encyclopædia%20Britannica.md)_ describing [Michael Faraday](Michael%20Faraday.md)'s failed attempts to influence light with magnetism. Zeeman wondered if the new spectrographic techniques could succeed where early efforts had not.<sup>[\[1\]](#^ref-1)</sup><sup>:&hairsp;75&hairsp;</sup>
+
+When illuminated by a slit-shaped source, the grating produces a long array of slit images corresponding to different wavelengths. Zeeman placed a piece of [asbestos](asbestos.md) soaked in salt water into a [Bunsen burner](Bunsen%20burner.md) flame at the source of the grating: he could easily see two lines in the [sodium](sodium.md) light [emission spectrum](emission%20spectrum.md). Switching on a strong \(about one [tesla](tesla%20(unit).md)\) [electromagnet](electromagnet.md) around the flame, he observed a slight broadening of the lines.<sup>[\[1\]](#^ref-1)</sup><sup>:&hairsp;76&hairsp;</sup>
+
+When Zeeman switched to [cadmium](cadmium.md) as the source, he observed the spectral lines split when the magnetic field was applied. These splittings could be analyzed with [Hendrik Lorentz](Hendrik%20Lorentz.md)'s then-new [electron theory](Lorentz%20oscillator%20model.md). It is now known that the magnetic effects on sodium require quantum-mechanical treatment.<sup>[\[1\]](#^ref-1)</sup><sup>:&hairsp;77&hairsp;</sup> Zeeman and Lorentz were awarded the 1902 Nobel Prize; in his acceptance speech Zeeman explained his apparatus and showed slides of the spectrographic images.<sup>[\[2\]](#^ref-2)</sup>
+
+## nomenclature
+
+Historically, one distinguishes between the __normal__ and an __anomalous Zeeman effect__ \(discovered by [Thomas Preston](Thomas%20Preston%20(scientist).md) in Dublin, Ireland<sup>[\[3\]](#^ref-3)</sup>\). The anomalous effect appears on transitions where the net [spin](spin%20(physics).md) of the [electrons](electron.md) is non-zero. It was called "anomalous" because the electron spin had not yet been discovered, and so there was no good explanation for it at the time that Zeeman observed the effect. [Wolfgang Pauli](Wolfgang%20Pauli.md) recalled that when asked by a colleague as to why he looked unhappy, he replied: "How can one look happy when he is thinking about the anomalous Zeeman effect?"<sup>[\[4\]](#^ref-4)</sup>
+
+At higher magnetic field strength the effect ceases to be linear. At even higher field strengths, comparable to the strength of the atom's internal field, the electron coupling is disturbed and the spectral lines rearrange. This is called the [__Paschen–Back effect__](#strong%20field%20(Paschen–Back%20effect)).
+
+In modern [scientific literature](scientific%20literature.md), these terms are rarely used, with a tendency to use just the "Zeeman effect". Another rarely used obscure term is __inverse Zeeman effect__,<sup>[\[5\]](#^ref-5)</sup> referring to the Zeeman effect in an absorption spectral line.
+
+A similar effect, splitting of the nuclear energy levels in the presence of a magnetic field, is referred to as the __nuclear Zeeman effect__.<sup>[\[6\]](#^ref-6)</sup>
+
+## theoretical presentation
+
+The total [Hamiltonian](Hamiltonian%20(quantum%20mechanics).md) of an atom in a magnetic field is $$H=H_{0}+V_{\text{M} },$$ where $H_{0}$ is the unperturbed Hamiltonian of the atom, and $V_{\text{M} }$ is the [perturbation](perturbation%20theory.md) due to the magnetic field: $$V_{\text{M} }=-{\vec {\mu } }\cdot {\vec {B} },$$ where ${\vec {\mu } }$ is the [magnetic moment](magnetic%20moment.md) of the atom. The magnetic moment consists of the electronic and nuclear parts; however, the latter is many orders of magnitude smaller and will be neglected here. Therefore, $${\vec {\mu } }\approx -{\frac {\mu _{\text{B} }g{\vec {J} } }{\hbar } },$$ where $\mu _{\text{B} }$ is the [Bohr magneton](Bohr%20magneton.md), ${\vec {J} }$ is the total electronic [angular momentum](angular%20momentum.md), and $g$ is the [Landé g-factor](Landé%20g-factor.md).
+
+A more accurate approach is to take into account that the operator of the magnetic moment of an electron is a sum of the contributions of the [orbital angular momentum](angular%20momentum%20operator.md) ${\vec {L} }$ and the [spin angular momentum](angular%20momentum%20operator.md) ${\vec {S} }$, with each multiplied by the appropriate [gyromagnetic ratio](gyromagnetic%20ratio.md): $${\vec {\mu } }=-{\frac {\mu _{\text{B} }(g_{l}{\vec {L} }+g_{s}{\vec {S} })}{\hbar } },$$ where $g_{l}=1$, and $g_{s}\approx 2.0023193$ \(the [anomalous gyromagnetic ratio](anomalous%20magnetic%20dipole%20moment.md), deviating from 2 due to the effects of [quantum electrodynamics](quantum%20electrodynamics.md)\). In the case of the [LS coupling](LS%20coupling.md#LS%20coupling), one can sum over all electrons in the atom: $$g{\vec {J} }={\Big \langle }\sum _{i}(g_{l}{\vec {l} }_{i}+g_{s}{\vec {s} }_{i}){\Big \rangle }={\big \langle }(g_{l}{\vec {L} }+g_{s}{\vec {S} }){\big \rangle },$$ where ${\vec {L} }$ and ${\vec {S} }$ are the total spin momentum and spin of the atom, and averaging is done over a state with a given value of the total angular momentum.
+
+If the interaction term $V_{\text{M} }$ is small \(less than the [fine structure](fine%20structure.md)\), it can be treated as a perturbation; this is the Zeeman effect proper. In the Paschen–Back effect, described below, $V_{\text{M} }$ exceeds the [LS coupling](LS%20coupling.md#LS%20coupling) significantly \(but is still small compared to $H_{0}$\). In ultra-strong magnetic fields, the magnetic-field interaction may exceed $H_{0}$, in which case the atom can no longer exist in its normal meaning, and one talks about [Landau levels](Landau%20level.md#Landau%20levels) instead. There are intermediate cases that are more complex than these limit cases.
+
+## Weak field \(Zeeman effect\)
+
+If the [spin–orbit interaction](spin–orbit%20interaction.md) dominates over the effect of the external magnetic field, ${\vec {L} }$ and ${\vec {S} }$ are not separately conserved, only the total angular momentum ${\vec {J} }={\vec {L} }+{\vec {S} }$ is. The spin and orbital angular momentum vectors can be thought of as [precessing](precession.md) about the \(fixed\) total angular momentum vector ${\vec {J} }$. The \(time-\)"averaged" spin vector is then the projection of the spin onto the direction of ${\vec {J} }$: $${\vec {S} }_{\text{avg} }={\frac {({\vec {S} }\cdot {\vec {J} })}{J^{2} } }{\vec {J} },$$ and for the \(time-\)"averaged" orbital vector: $${\vec {L} }_{\text{avg} }={\frac {({\vec {L} }\cdot {\vec {J} })}{J^{2} } }{\vec {J} }.$$
+
+Thus $$\langle V_{\text{M} }\rangle ={\frac {\mu _{\text{B} } }{\hbar } }{\vec {J} }\left(g_{L}{\frac { {\vec {L} }\cdot {\vec {J} } }{J^{2} } }+g_{S}{\frac { {\vec {S} }\cdot {\vec {J} } }{J^{2} } }\right)\cdot {\vec {B} }.$$ Using ${\vec {L} }={\vec {J} }-{\vec {S} }$ and squaring both sides, we get $${\vec {S} }\cdot {\vec {J} }={\frac {1}{2} }(J^{2}+S^{2}-L^{2})={\frac {\hbar ^{2} }{2} }[j(j+1)-l(l+1)+s(s+1)],$$ and using ${\vec {S} }={\vec {J} }-{\vec {L} }$ and squaring both sides, we get $${\vec {L} }\cdot {\vec {J} }={\frac {1}{2} }(J^{2}-S^{2}+L^{2})={\frac {\hbar ^{2} }{2} }[j(j+1)+l(l+1)-s(s+1)].$$
+
+Combining everything and taking $J_{z}=\hbar m_{j}$, we obtain the magnetic [potential energy](potential%20energy.md) of the atom in the applied external magnetic field: $${\begin{aligned}V_{\text{M} }&=\mu _{\text{B} }Bm_{j}\left[g_{L}{\frac {j(j+1)+l(l+1)-s(s+1)}{2j(j+1)} }+g_{S}{\frac {j(j+1)-l(l+1)+s(s+1)}{2j(j+1)} }\right]\\&=\mu _{\text{B} }Bm_{j}\left[1+(g_{S}-1){\frac {j(j+1)-l(l+1)+s(s+1)}{2j(j+1)} }\right]\\&=\mu _{\text{B} }Bm_{j}g_{J},\end{aligned} }$$ where the quantity in square brackets is the [Landé g-factor](Landé%20g-factor.md) $g_{J}$ of the atom \($g_{L}=1$, $g_{S}\approx 2$\), and $m_{j}$ is the _z_ component of the total angular momentum.
+
+For a single electron above filled shells, with $s=1/2$ and $j=l\pm s$, the Landé g-factor can be simplified to $$g_{J}=1\pm {\frac {g_{S}-1}{2l+1} }.$$
+
+Taking $V_{\text{M} }$ to be the perturbation, the Zeeman correction to the energy is $$E_{\text{Z} }^{(1)}=\langle nljm_{j}|H_{\text{Z} }^{'}|nljm_{j}\rangle =\langle V_{\text{M} }\rangle _{\Psi }=\mu _{\text{B} }g_{J}B_{\text{ext} }m_{j}.$$
+
+### example: Lyman-alpha transition in hydrogen
+
+The [Lyman-alpha transition](Lyman%20alpha.md) in [hydrogen](hydrogen.md) in the presence of the [spin–orbit interaction](spin–orbit%20interaction.md) involves the transitions $2\,^{2}\!P_{1/2}\to 1\,^{2}\!S_{1/2}$ and $2\,^{2}\!P_{3/2}\to 1\,^{2}\!S_{1/2}$.
+
+In the presence of an external magnetic field, the weak-field Zeeman effect splits the $1\,^{2}\!S_{1/2}$ and $2\,^{2}\!P_{1/2}$ levels into 2 states each \($m_{j}=+1/2,-1/2$\) and the $2\,^{2}\!P_{3/2}$ level into 4 states \($m_{j}=+3/2,+1/2,-1/2,-3/2$\). The Landé g-factors for the three levels are $${\begin{aligned}g_{J}&=2&&{\text{for} }\ 1\,^{2}\!S_{1/2}\ (j=1/2,l=0),\\g_{J}&=2/3&&{\text{for} }\ 2\,^{2}\!P_{1/2}\ (j=1/2,l=1),\\g_{J}&=4/3&&{\text{for} }\ 2\,^{2}\!P_{3/2}\ (j=3/2,l=1).\end{aligned} }$$
+
+> ![Zeeman splitting of a P-S doublet transition.](../../archives/Wikimedia%20Commons/Zeeman%20p%20s%20doublet.svg)
+
+Note in particular that the size of the energy splitting is different for the different orbitals because the _g<sub>J</sub>_ values are different. Fine-structure splitting occurs even in the absence of a magnetic field, as it is due to spin–orbit coupling. Depicted on the right is the additional Zeeman splitting, which occurs in the presence of magnetic fields.
+
+<!-- markdownlint-disable-next-line MD036 -->
+__Dipole-allowed Lyman-alpha transitions in the weak-field regime__
+
+|   Initial state <br/> $(n=2,l=1)$ <br/> $\vert j,m_{j}\rangle$  |    Final state <br/> $(n=1,l=0)$ <br/> $\vert j,m_{j}\rangle$   |        Energy <br/> perturbation         |
+| :-------------------------------------------------------------: | :-------------------------------------------------------------: | :--------------------------------------: |
+| $$\left\vert {\frac {1}{2} },\pm {\frac {1}{2} }\right\rangle$$ | $$\left\vert {\frac {1}{2} },\pm {\frac {1}{2} }\right\rangle$$ | $$\mp {\frac {2}{3} }\mu _{\text{B} }B$$ |
+| $$\left\vert {\frac {1}{2} },\pm {\frac {1}{2} }\right\rangle$$ | $$\left\vert {\frac {1}{2} },\mp {\frac {1}{2} }\right\rangle$$ | $$\pm {\frac {4}{3} }\mu _{\text{B} }B$$ |
+| $$\left\vert {\frac {3}{2} },\pm {\frac {3}{2} }\right\rangle$$ | $$\left\vert {\frac {1}{2} },\pm {\frac {1}{2} }\right\rangle$$ |         $$\pm \mu _{\rm {B} }B$$         |
+| $$\left\vert {\frac {3}{2} },\pm {\frac {1}{2} }\right\rangle$$ | $$\left\vert {\frac {1}{2} },\pm {\frac {1}{2} }\right\rangle$$ | $$\mp {\frac {1}{3} }\mu _{\text{B} }B$$ |
+| $$\left\vert {\frac {3}{2} },\pm {\frac {1}{2} }\right\rangle$$ | $$\left\vert {\frac {1}{2} },\mp {\frac {1}{2} }\right\rangle$$ | $$\pm {\frac {5}{3} }\mu _{\text{B} }B$$ |
+
+## Strong field \(Paschen–Back effect\)
+
+The Paschen–Back effect is the splitting of atomic energy levels in the presence of a strong magnetic field. This occurs when an external magnetic field is sufficiently strong to disrupt the coupling between orbital \(${\vec {L} }$\) and spin \(${\vec {S} }$\) angular momenta. This effect is the strong-field limit of the Zeeman effect. When $s=0$, the two effects are equivalent. The effect was named after the German physicists [Friedrich Paschen](Friedrich%20Paschen.md) and [Ernst E. A. Back](Ernst%20Emil%20Alexander%20Back.md).<sup>[\[7\]](#^ref-7)</sup>
+
+When the magnetic-field perturbation significantly exceeds the spin–orbit interaction, one can safely assume $[H_{0},S]=0$. This allows the expectation values of $L_{z}$ and $S_{z}$ to be easily evaluated for a state $|\psi \rangle$. The energies are simply
+
+$$E_{z}=\left\langle \psi \left|H_{0}+{\frac {B_{z}\mu _{\rm {B} } }{\hbar } }(L_{z}+g_{s}S_{z})\right|\psi \right\rangle =E_{0}+B_{z}\mu _{\rm {B} }(m_{l}+g_{s}m_{s}).$$
+
+The above may be read as implying that the LS-coupling is completely broken by the external field. However, $m_{l}$ and $m_{s}$ are still "good" quantum numbers. Together with the [selection rules](selection%20rule.md) for an [electric dipole transition](electric%20dipole%20transition.md), i.e., $\Delta s=0,\Delta m_{s}=0,\Delta l=\pm 1,\Delta m_{l}=0,\pm 1$ this allows to ignore the spin degree of freedom altogether. As a result, only three spectral lines will be visible, corresponding to the $\Delta m_{l}=0,\pm 1$ selection rule. The splitting $\Delta E=B\mu _{\rm {B} }\Delta m_{l}$ is _independent_ of the unperturbed energies and electronic configurations of the levels being considered.
+
+More precisely, if $s\neq 0$, each of these three components is actually a group of several transitions due to the residual spin–orbit coupling and relativistic corrections \(which are of the same order, known as 'fine structure'\). The first-order perturbation theory with these corrections yields the following formula for the hydrogen atom in the Paschen–Back limit:<sup>[\[8\]](#^ref-8)</sup>
+
+$$E_{z+fs}=E_{z}+{\frac {m_{e}c^{2}\alpha ^{4} }{2n^{3} } }\left\{ {\frac {3}{4n} }-\left[{\frac {l(l+1)-m_{l}m_{s} }{l(l+1/2)(l+1)} }\right]\right\}.$$
+
+<!-- markdownlint-disable-next-line MD024 -->
+### example: Lyman-alpha transition in hydrogen
+
+In this example, the fine-structure corrections are ignored.
+
+<!-- markdownlint-disable-next-line MD036 -->
+__Dipole-allowed Lyman-alpha transitions in the strong-field regime__
+
+| Initial state\($n=2,l=1$\) $$\mid m_{l},m_{s}\rangle$$ | Initial energy perturbation | Final state\($n=1,l=0$\) $$\mid m_{l},m_{s}\rangle$$ | Final energy perturbation |
+| ------------------------------------------------------ | --------------------------- | ---------------------------------------------------- | ------------------------- |
+| $$\left\vert 1,{\frac {1}{2} }\right\rangle$$          | $$+2\mu _{\rm {B} }B_{z}$$  | $$\left\vert 0,{\frac {1}{2} }\right\rangle$$        | $$+\mu _{\rm {B} }B_{z}$$ |
+| $$\left\vert 0,{\frac {1}{2} }\right\rangle$$          | $$+\mu _{\rm {B} }B_{z}$$   | $$\left\vert 0,{\frac {1}{2} }\right\rangle$$        | $$+\mu _{\rm {B} }B_{z}$$ |
+| $$\left\vert 1,-{\frac {1}{2} }\right\rangle$$         | $$0$$                       | $$\left\vert 0,-{\frac {1}{2} }\right\rangle$$       | $$-\mu _{\rm {B} }B_{z}$$ |
+| $$\left\vert -1,{\frac {1}{2} }\right\rangle$$         | $$0$$                       | $$\left\vert 0,{\frac {1}{2} }\right\rangle$$        | $$+\mu _{\rm {B} }B_{z}$$ |
+| $$\left\vert 0,-{\frac {1}{2} }\right\rangle$$         | $$-\mu _{\rm {B} }B_{z}$$   | $$\left\vert 0,-{\frac {1}{2} }\right\rangle$$       | $$-\mu _{\rm {B} }B_{z}$$ |
+| $$\left\vert -1,-{\frac {1}{2} }\right\rangle$$        | $$-2\mu _{\rm {B} }B_{z}$$  | $$\left\vert 0,-{\frac {1}{2} }\right\rangle$$       | $$-\mu _{\rm {B} }B_{z}$$ |
+
+## intermediate field for j = 1/2
+
+In the magnetic dipole approximation, the Hamiltonian which includes both the [hyperfine](hyperfine%20structure.md) and Zeeman interactions is<sup>\[_[citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup> <p> &nbsp;&nbsp;&nbsp;&nbsp; $$H=hA{\vec {I} }\cdot {\vec {J} }-{\vec {\mu } }\cdot {\vec {B} }$$ <br/> &nbsp;&nbsp;&nbsp;&nbsp; $$H=hA{\vec {I} }\cdot {\vec {J} }+(\mu _{\rm {B} }g_{J}{\vec {J} }+\mu _{\rm {N} }g_{I}{\vec {I} })\cdot {\vec {\rm {B} } }$$ <p> where $A$ is the hyperfine splitting at zero applied magnetic field, $\mu _{\rm {B} }$ and $\mu _{\rm {N} }$ are the [Bohr magneton](Bohr%20magneton.md) and [nuclear magneton](nuclear%20magneton.md), respectively \(note that the last term in the expression above describes the _nuclear_ Zeeman effect\), ${\vec {J} }$ and ${\vec {I} }$ are the electron and nuclear angular momentum operators and $g_{J}$ is the [Landé g-factor](Landé%20g-factor.md): $$g_{J}=g_{L}{\frac {J(J+1)+L(L+1)-S(S+1)}{2J(J+1)} }+g_{S}{\frac {J(J+1)-L(L+1)+S(S+1)}{2J(J+1)} }.$$
+
+In the case of weak magnetic fields, the Zeeman interaction can be treated as a perturbation to the $|F,m_{f}\rangle$ basis. In the high field regime, the magnetic field becomes so strong that the Zeeman effect will dominate, and one must use a more complete basis of $|I,J,m_{I},m_{J}\rangle$ or just $|m_{I},m_{J}\rangle$ since $I$ and $J$ will be constant within a given level.
+
+To get the complete picture, including intermediate field strengths, we must consider eigenstates which are superpositions of the $|F,m_{F}\rangle$ and $|m_{I},m_{J}\rangle$ basis states. For $J=1/2$, the Hamiltonian can be solved analytically, resulting in the __Breit–Rabi formula__ \(named after [Gregory Breit](Gregory%20Breit.md) and [Isidor Isaac Rabi](Isidor%20Isaac%20Rabi.md)\). Notably, the electric quadrupole interaction is zero for $L=0$ \($J=1/2$\), so this formula is fairly accurate.
+
+We now utilize quantum mechanical [ladder operators](ladder%20operator.md), which are defined for a general angular [momentum operator](momentum%20operator.md) $L$ as
+
+$$L_{\pm }\equiv L_{x}\pm iL_{y}$$
+
+These ladder operators have the property
+
+$$L_{\pm }|L_{,}m_{L}\rangle ={\sqrt {(L\mp m_{L})(L\pm m_{L}+1)} }|L,m_{L}\pm 1\rangle$$
+
+as long as $m_{L}$ lies in the range ${-L,\dots ...,L}$ \(otherwise, they return zero\). Using ladder operators $J_{\pm }$ and $I_{\pm }$ We can rewrite the Hamiltonian as
+
+$$H=hAI_{z}J_{z}+{\frac {hA}{2} }(J_{+}I_{-}+J_{-}I_{+})+\mu _{\rm {B} }Bg_{J}J_{z}+\mu _{\rm {N} }Bg_{I}I_{z}$$
+
+We can now see that at all times, the total angular momentum projection $m_{F}=m_{J}+m_{I}$ will be conserved. This is because both $J_{z}$ and $I_{z}$ leave states with definite $m_{J}$ and $m_{I}$ unchanged, while $J_{+}I_{-}$ and $J_{-}I_{+}$ either increase $m_{J}$ and decrease $m_{I}$ or vice versa, so the sum is always unaffected. Furthermore, since $J=1/2$ there are only two possible values of $m_{J}$ which are $\pm 1/2$. Therefore, for every value of $m_{F}$ there are only two possible states, and we can define them as the basis:
+
+$$|\pm \rangle \equiv |m_{J}=\pm 1/2,m_{I}=m_{F}\mp 1/2\rangle$$
+
+This pair of states is a [two-level quantum mechanical system](two-level%20quantum%20mechanical%20system.md). Now we can determine the matrix elements of the Hamiltonian: <p> &nbsp;&nbsp;&nbsp;&nbsp; $$\langle \pm |H|\pm \rangle =-{\frac {1}{4} }hA+\mu _{\rm {N} }Bg_{I}m_{F}\pm {\frac {1}{2} }(hAm_{F}+\mu _{\rm {B} }Bg_{J}-\mu _{\rm {N} }Bg_{I}))$$ <br/> &nbsp;&nbsp;&nbsp;&nbsp; $$\langle \pm |H|\mp \rangle ={\frac {1}{2} }hA{\sqrt {(I+1/2)^{2}-m_{F}^{2} } }$$ <p> Solving for the eigenvalues of this matrix – as can be done by hand \(see [two-level quantum mechanical system](two-level%20quantum%20mechanical%20system.md)\), or more easily, with a computer algebra system – we arrive at the energy shifts: <p> &nbsp;&nbsp;&nbsp;&nbsp; $$\Delta E_{F=I\pm 1/2}=-{\frac {h\Delta W}{2(2I+1)} }+\mu _{\rm {N} }g_{I}m_{F}B\pm {\frac {h\Delta W}{2} }{\sqrt {1+{\frac {2m_{F}x}{I+1/2} }+x^{2} } }$$ <br/> &nbsp;&nbsp;&nbsp;&nbsp; $$x\equiv {\frac {B(\mu _{\rm {B} }g_{J}-\mu _{\rm {N} }g_{I})}{h\Delta W} }\quad \quad \Delta W=A\left(I+{\frac {1}{2} }\right)$$ <p> where $\Delta W$ is the splitting \(in units of Hz\) between two hyperfine sublevels in the absence of magnetic field $B$, $x$ is referred to as the 'field strength parameter' \(Note: for $m_{F}=\pm (I+1/2)$ the expression under the square root is an exact square, and so the last term should be replaced by $+{\frac {h\Delta W}{2} }(1\pm x)$\). This equation is known as the __Breit–Rabi formula__ and is useful for systems with one [valence electron](valence%20electron.md) in an $s$ \($J=1/2$\) level.<sup>[\[9\]](#^ref-9)</sup><sup>[\[10\]](#^ref-10)</sup>
+
+Note that index $F$ in $\Delta E_{F=I\pm 1/2}$ should be considered not as total angular momentum of the atom but as _asymptotic total angular momentum_. It is equal to total angular momentum only if $B=0$ otherwise eigenvectors corresponding different eigenvalues of the Hamiltonian are the superpositions of states with different $F$ but equal $m_{F}$ \(the only exceptions are $|F=I+1/2,m_{F}=\pm F\rangle$\).
+
+## applications
+
+### astrophysics
+
+> ![Magnetic field of sunspot \(left\) splits absorption line according to Zeeman effect \(right\).](../../archives/Wikimedia%20Commons/Sunzeeman1919.png)
+>
+> Zeeman effect on a sunspot spectral line
+
+[George Ellery Hale](George%20Ellery%20Hale.md) was the first to notice the Zeeman effect in the solar spectra, indicating the existence of strong magnetic fields in sunspots. Such fields can be quite high, on the order of 0.1 [tesla](tesla%20(unit).md) or higher. Today, the Zeeman effect is used to produce [magnetograms](solar%20magnetogram.md) showing the variation of magnetic field on the Sun,<sup>[\[11\]](#^ref-11)</sup> and to analyze the magnetic field geometries in other stars.<sup>[\[12\]](#^ref-12)</sup>
+
+### laser cooling
+
+The Zeeman effect is utilized in many [laser cooling](laser%20cooling.md) applications such as a [magneto-optical trap](magneto-optical%20trap.md) and the [Zeeman slower](Zeeman%20slower.md).<sup>[\[13\]](#^ref-13)</sup>
+
+### spintronics
+
+Zeeman-energy mediated coupling of spin and orbital motions is used in [spintronics](spintronics.md) for controlling electron spins in quantum dots through [electric dipole spin resonance](electric%20dipole%20spin%20resonance.md).<sup>[\[14\]](#^ref-14)</sup>
+
+### metrology
+
+Old high-precision frequency standards, i.e. hyperfine structure transition-based atomic clocks, may require periodic fine-tuning due to exposure to magnetic fields. This is carried out by measuring the Zeeman effect on specific hyperfine structure transition levels of the source element \(cesium\) and applying a uniformly precise, low-strength magnetic field to said source, in a process known as [degaussing](degaussing.md).<sup>[\[15\]](#^ref-15)</sup>
+
+The Zeeman effect may also be utilized to improve accuracy in [atomic absorption spectroscopy](atomic%20absorption%20spectroscopy.md).<sup>\[_[citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup>
+
+### biology
+
+A theory about the [magnetic sense](magnetic%20sense.md) of birds assumes that a protein in the retina is changed due to the Zeeman effect.<sup>[\[16\]](#^ref-16)</sup>
+
+### nuclear spectroscopy
+
+The nuclear Zeeman effect is important in such applications as [nuclear magnetic resonance](nuclear%20magnetic%20resonance.md) spectroscopy, [magnetic resonance imaging](magnetic%20resonance%20imaging.md) \(MRI\), and [Mössbauer spectroscopy](Mössbauer%20spectroscopy.md).<sup>\[_[citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup>
+
+### other
+
+The [electron spin resonance](electron%20spin%20resonance.md) spectroscopy is based on the Zeeman effect.<sup>\[_[citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup>
+
+## demonstrations
+
+> ![A sodium vapor lamp viewed through a sodium vapor will appear dark unless a powerful electromagnet around the sodium vapor is energized. The change is caused by the Zeeman effect on the sodium atoms.](../../archives/Wikimedia%20Commons/Zeeman%20effect%20demo.svg)
+>
+> Diagram of a Zeeman effect demonstration
+
+The Zeeman effect can be demonstrated by placing a sodium vapor source in a powerful [electromagnet](electromagnet.md) and viewing a sodium vapor lamp through the magnet opening \(see diagram\). With magnet off, the sodium vapor source will block the lamp light; when the magnet is turned on the lamp light will be visible through the vapor.
+
+The sodium vapor can be created by sealing sodium metal in an evacuated glass tube and heating it while the tube is in the magnet.<sup>[\[17\]](#^ref-17)</sup>
+
+Alternatively, salt \([sodium chloride](sodium%20chloride.md)\) on a ceramic stick can be placed in the flame of [Bunsen burner](Bunsen%20burner.md) as the sodium vapor source. When the magnetic field is energized, the lamp image will be brighter.<sup>[\[18\]](#^ref-18)</sup> However, the magnetic field also affects the flame, making the observation depend upon more than just the Zeeman effect.<sup>[\[17\]](#^ref-17)</sup> These issues also plagued Zeeman's original work; he devoted considerable effort to ensure his observations were truly an effect of magnetism on light emission.<sup>[\[19\]](#^ref-19)</sup>
+
+When salt is added to the Bunsen burner, it [dissociates](dissociation%20(chemistry).md) to give [sodium](sodium.md) and [chloride](chloride.md). The sodium atoms get excited due to [photons](photon.md) from the sodium vapour lamp, with electrons excited from 3s to 3p states, absorbing light in the process. The sodium vapour lamp emits light at 589nm, which has precisely the energy to excite an electron of a sodium atom. If it was an atom of another element, like chlorine, shadow will not be formed.<sup>[\[20\]](#^ref-20)</sup><sup>\[_[failed verification](https://en.wikipedia.org/wiki/Wikipedia:Verifiability)_\]</sup> When a magnetic field is applied, due to the Zeeman effect the [spectral line](spectral%20line.md) of sodium gets split into several components. This means the energy difference between the 3s and 3p [atomic orbitals](atomic%20orbital.md) will change. As the sodium vapour lamp don't precisely deliver the right frequency anymore, light doesn't get absorbed and passes through, resulting in the shadow dimming. As the magnetic field strength is increased, the shift in the spectral lines increases and lamp light is transmitted.<sup>\[_[citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup>
+
+## see also
+
+> ![Wikimedia Commons logo](../../archives/Wikimedia%20Commons/Commons-logo.svg) Wikimedia Commons has media related to [___Zeeman effect___](https://commons.wikimedia.org/wiki/Category%3AZeeman%20effect).
+
+- [Cotton–Mouton effect](Cotton–Mouton%20effect.md)
+- [Faraday effect](Faraday%20effect.md)
+- [Lamb shift](Lamb%20shift.md)
+- [Magneto-optic Kerr effect](magneto-optic%20Kerr%20effect.md)
+- [Polarization spectroscopy](polarization%20spectroscopy.md)
+- [Stark effect](Stark%20effect.md)
+- [Voigt effect](Voigt%20effect.md)
+- [Zeeman energy](Zeeman%20energy.md)
+
+## references
+
+1. <a id="CITEREFPais2002"></a> Pais, Abraham \(2002\). _Inward bound: of matter and forces in the physical world_ \(Reprint ed.\). Oxford: Clarendon Press \[u.a.\] [ISBN](ISBN%20(identifier).md) [978-0-19-851997-3](https://en.wikipedia.org/wiki/Special:BookSources/978-0-19-851997-3). <a id="^ref-1"></a>^ref-1
+2. <a id="CITEREFPieter1902"></a> Pieter, Zeeman \(1902\). ["Pieter Zeeman Nobel Lecture"](https://www.nobelprize.org/prizes/physics/1902/zeeman/lecture/). _The Nobel Prize_. [Archived](https://web.archive.org/web/20181115204904/https://www.nobelprize.org/prizes/physics/1902/zeeman/lecture/) from the original on 15 November 2018. Retrieved 1 March 2024. <a id="^ref-2"></a>^ref-2
+3. <a id="CITEREFPreston1898"></a> Preston, Thomas \(1898\). ["Radiation phenomena in a strong magnetic field"](https://babel.hathitrust.org/cgi/pt?id=mdp.39015035446916;view=1up;seq=481). _The Scientific Transactions of the Royal Dublin Society_. 2nd series. __6__: 385–391. <a id="^ref-3"></a>^ref-3
+4. "Niels Bohr's Times: In Physics, Philosophy, and Polity" By Abraham Pais, page 201. <a id="^ref-4"></a>^ref-4
+5. <a id="CITEREFJenkinsWhite2001"></a> Jenkins, Francis; White, Harvey \(3 December 2001\). _Fundamentals of Optics_ \(4 ed.\). McGraw-Hill Education. [ISBN](ISBN%20(identifier).md) [978-0-07-256191-3](https://en.wikipedia.org/wiki/Special:BookSources/978-0-07-256191-3). <a id="^ref-5"></a>^ref-5
+6. <a id="CITEREFDunlap2023"></a> Dunlap, Richard A. \(2023\). "Hyperfine interactions—part III: the magnetic dipole interaction and the nuclear Zeeman effect". [_The Mössbauer Effect_](https://iopscience.iop.org/book/mono/978-0-7503-6039-5/chapter/bk978-0-7503-6039-5ch7) \(2 ed.\). IOP Publishing. pp. 7-1 – 7-9. [doi](doi%20(identifier).md):[10.1088/978-0-7503-6039-5ch7](https://doi.org/10.1088%2F978-0-7503-6039-5ch7). [ISBN](ISBN%20(identifier).md) [978-0-7503-6039-5](https://en.wikipedia.org/wiki/Special:BookSources/978-0-7503-6039-5). Retrieved 4 March 2024. <a id="^ref-6"></a>^ref-6
+7. <a id="CITEREFPaschenBack1921"></a> Paschen, F.; Back, E. \(1921\). "Liniengruppen magnetisch vervollständigt" \[Line groups magnetically completed \[i.e., completely resolved\]\]. _Physica_ \(in German\). __1__: 261–273. Available at: [Leiden University \(Netherlands\)](https://www.lorentz.leidenuniv.nl/history/proefschriften/Physica/Physica_1_1921_05391.pdf) <a id="^ref-7"></a>^ref-7
+8. <a id="CITEREFGriffiths, David J.2004"></a> Griffiths, David J. \(2004\). _Introduction to Quantum Mechanics_ \(2nd ed.\). [Prentice Hall](Prentice%20Hall.md). p. 280. [ISBN](ISBN%20(identifier).md) [0-13-111892-7](https://en.wikipedia.org/wiki/Special:BookSources/0-13-111892-7). [OCLC](OCLC%20(identifier).md#identifiers%20and%20linked%20data) [40251748](https://search.worldcat.org/oclc/40251748). <a id="^ref-8"></a>^ref-8
+9. <a id="CITEREFWoodgate1980"></a> Woodgate, Gordon Kemble \(1980\). _Elementary Atomic Structure_ \(2nd ed.\). Oxford, England: Oxford University Press. pp. 193–194. <a id="^ref-9"></a>^ref-9
+10. First appeared in: <a id="CITEREFBreitRabi1931"></a> Breit, G.; Rabi, I.I. \(1931\). "Measurement of nuclear spin". _Physical Review_. __38__ \(11\): 2082–2083. [Bibcode](bibcode%20(identifier).md):[1931PhRv...38.2082B](https://ui.adsabs.harvard.edu/abs/1931PhRv...38.2082B). [doi](doi%20(identifier).md):[10.1103/PhysRev.38.2082.2](https://doi.org/10.1103%2FPhysRev.38.2082.2). <a id="^ref-10"></a>^ref-10
+11. <a id="CITEREFSchadPetrieKuhnFehlmann2024"></a> Schad, Thomas A.; Petrie, Gordon J.D.; Kuhn, Jeffrey R.; Fehlmann, Andre; Rimmele, Thomas; Tritschler, Alexandra; Woeger, Friedrich; Scholl, Isabelle; Williams, Rebecca; Harrington, David; Paraschiv, Alin R.; Szente, Judit \(13 September 2024\). ["Mapping the Sun's coronal magnetic field using the Zeeman effect"](https://www.science.org/doi/10.1126/sciadv.adq1604). _Science Advances_. __10__ \(37\). [doi](doi%20(identifier).md):[10.1126/sciadv.adq1604](https://doi.org/10.1126%2Fsciadv.adq1604). [ISSN](ISSN%20(identifier).md) [2375-2548](https://search.worldcat.org/issn/2375-2548). [PMC](PMC%20(identifier).md#PMCID) [11421591](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11421591). [PMID](PMID%20(identifier).md#PubMed%20identifier) [39259791](https://pubmed.ncbi.nlm.nih.gov/39259791). <a id="^ref-11"></a>^ref-11
+12. <a id="CITEREFKochukhov2021"></a> Kochukhov, Oleg \(December 2021\). "Magnetic fields of M dwarfs". _The Astronomy and Astrophysics Review_. __29__ \(1\): 1. [arXiv](ArXiv%20(identifier).md):[2011.01781](https://arxiv.org/abs/2011.01781). [doi](doi%20(identifier).md):[10.1007/s00159-020-00130-3](https://doi.org/10.1007%2Fs00159-020-00130-3). [ISSN](ISSN%20(identifier).md) [0935-4956](https://search.worldcat.org/issn/0935-4956). <a id="^ref-12"></a>^ref-12
+13. <a id="CITEREFBowdenGuntonSemczukDare2016"></a> Bowden, William; Gunton, Will; Semczuk, Mariusz; Dare, Kahan; Madison, Kirk W. \(18 April 2016\). ["An adaptable dual species effusive source and Zeeman slower design demonstrated with Rb and Li"](https://pubs.aip.org/aip/rsi/article-abstract/87/4/043111/361124/An-adaptable-dual-species-effusive-source-and?redirectedFrom=fulltext). _Review of Scientific Instruments_. __87__ \(4\): 043111. [arXiv](ArXiv%20(identifier).md):[1509.07460](https://arxiv.org/abs/1509.07460). [doi](doi%20(identifier).md):[10.1063/1.4945567](https://doi.org/10.1063%2F1.4945567). [ISSN](ISSN%20(identifier).md) [0034-6748](https://search.worldcat.org/issn/0034-6748). <a id="^ref-13"></a>^ref-13
+14. Y. Tokura, W. G. van der Wiel, T. Obata, and S. Tarucha, Coherent single electron spin control in a slanting Zeeman field, Phys. Rev. Lett. __96__, 047202 \(2006\) <a id="^ref-14"></a>^ref-14
+15. Verdiell, Marc \(CuriousMarc\) \(31 October 2022\). [_How an Atomic Clock Really Works, Round 2: Zeeman Alignment_](https://www.youtube.com/watch?v=xTy1kY_wtsY) \(YouTube video\). Retrieved 11 March 2023. <a id="^ref-15"></a>^ref-15
+16. <a id="CITEREFThalauRitzBurdaWegner2006"></a> Thalau, Peter; Ritz, Thorsten; Burda, Hynek; Wegner, Regina E.; Wiltschko, Roswitha \(18 April 2006\). ["The magnetic compass mechanisms of birds and rodents are based on different physical principles"](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1664646). _Journal of the Royal Society Interface_. __3__ \(9\): 583–587. [doi](doi%20(identifier).md):[10.1098/rsif.2006.0130](https://doi.org/10.1098%2Frsif.2006.0130). [PMC](PMC%20(identifier).md#PMCID) [1664646](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1664646). [PMID](PMID%20(identifier).md#PubMed%20identifier) [16849254](https://pubmed.ncbi.nlm.nih.gov/16849254). <a id="^ref-16"></a>^ref-16
+17. [_Candle flame is repelled by magnets \(and Zeeman follow-up\)_](https://youtube.com/watch/JV4Fk3VNZqs?si=U20jHpiTGt0G71pu), retrieved 27 February 2024 <a id="^ref-17"></a>^ref-17
+18. [_Candle flame is repelled by magnets \(and Zeeman follow-up\)_](https://youtube.com/watch/JV4Fk3VNZqs?si=U20jHpiTGt0G71pu), retrieved 27 February 2024 <a id="^ref-18"></a>^ref-18
+19. <a id="CITEREFKox1997"></a> Kox, A J \(1 May 1997\). ["The discovery of the electron: II. The Zeeman effect"](https://iopscience.iop.org/article/10.1088/0143-0807/18/3/003). _European Journal of Physics_. __18__ \(3\): 139–144. [Bibcode](bibcode%20(identifier).md):[1997EJPh...18..139K](https://ui.adsabs.harvard.edu/abs/1997EJPh...18..139K). [doi](doi%20(identifier).md):[10.1088/0143-0807/18/3/003](https://doi.org/10.1088%2F0143-0807%2F18%2F3%2F003). [ISSN](ISSN%20(identifier).md) [0143-0807](https://search.worldcat.org/issn/0143-0807). [S2CID](S2CID%20(identifier).md#S2CID) [53414643](https://api.semanticscholar.org/CorpusID:53414643). <a id="^ref-19"></a>^ref-19
+20. <a id="CITEREFSuzukiSuzuki2011"></a> Suzuki, Masatsugu Sei; Suzuki, Itsuko S. \(2011\). ["Lecture Note on Senior Laboratory Zeeman effect in Na, Cd, and Hg"](https://www.researchgate.net/publication/269929968). _ResearchGate_. <a id="^ref-20"></a>^ref-20
+
+### historical
+
+- <a id="CITEREFCondonG. H. Shortley1935"></a> Condon, E. U.; G. H. Shortley \(1935\). _The Theory of Atomic Spectra_. [Cambridge University Press](Cambridge%20University%20Press.md). [ISBN](ISBN%20(identifier).md) [0-521-09209-4](https://en.wikipedia.org/wiki/Special:BookSources/0-521-09209-4). `{{[cite book](https://en.wikipedia.org/wiki/Template:Cite%20book)}}`: ISBN / Date incompatibility \([help](https://en.wikipedia.org/wiki/Help:CS1%20errors#invalid_isbn_date)\) _\(Chapter 16 provides a comprehensive treatment, as of 1935.\)_
+- <a id="CITEREFZeeman1896"></a> Zeeman, P. \(1896\). ["Over de invloed eener magnetisatie op den aard van het door een stof uitgezonden licht"](https://babel.hathitrust.org/cgi/pt?id=uiug.30112109543402;view=1up;seq=201) \[On the influence of magnetism on the nature of the light emitted by a substance\]. _Verslagen van de Gewone Vergaderingen der Wis- en Natuurkundige Afdeeling \(Koninklijk Akademie van Wetenschappen te Amsterdam\) \[Reports of the Ordinary Sessions of the Mathematical and Physical Section \(Royal Academy of Sciences in Amsterdam\)\]_ \(in Dutch\). __5__: 181–184 and 242–248. [Bibcode](bibcode%20(identifier).md):[1896VMKAN...5..181Z](https://ui.adsabs.harvard.edu/abs/1896VMKAN...5..181Z).
+- <a id="CITEREFZeeman1897"></a> Zeeman, P. \(1897\). ["On the influence of magnetism on the nature of the light emitted by a substance"](https://babel.hathitrust.org/cgi/pt?id=mdp.39015024088695;view=1up;seq=238). _Philosophical Magazine_. 5th series. __43__ \(262\): 226–239. [doi](doi%20(identifier).md):[10.1080/14786449708620985](https://doi.org/10.1080%2F14786449708620985).
+- <a id="CITEREFZeeman1897"></a> Zeeman, P. \(11 February 1897\). ["The effect of magnetisation on the nature of light emitted by a substance"](https://doi.org/10.1038%2F055347a0). _Nature_. __55__ \(1424\): 347. [Bibcode](bibcode%20(identifier).md):[1897Natur..55..347Z](https://ui.adsabs.harvard.edu/abs/1897Natur..55..347Z). [doi](doi%20(identifier).md):[10.1038/055347a0](https://doi.org/10.1038%2F055347a0).
+- <a id="CITEREFZeeman1897"></a> Zeeman, P. \(1897\). ["Over doubletten en tripletten in het spectrum, teweeggebracht door uitwendige magnetische krachten"](https://babel.hathitrust.org/cgi/pt?id=uiug.30112109543394;view=1up;seq=19) \[On doublets and triplets in the spectrum, caused by external magnetic forces\]. _Verslagen van de Gewone Vergaderingen der Wis- en Natuurkundige Afdeeling \(Koninklijk Akademie van Wetenschappen te Amsterdam\) \[Reports of the Ordinary Sessions of the Mathematical and Physical Section \(Royal Academy of Sciences in Amsterdam\)\]_ \(in Dutch\). __6__: 13–18, 99–102, and 260–262.
+- <a id="CITEREFZeeman1897"></a> Zeeman, P. \(1897\). ["Doublets and triplets in the spectrum produced by external magnetic forces"](https://babel.hathitrust.org/cgi/pt?id=mdp.39015010227844;view=1up;seq=67). _Philosophical Magazine_. 5th series. __44__ \(266\): 55–60. [doi](doi%20(identifier).md):[10.1080/14786449708621028](https://doi.org/10.1080%2F14786449708621028).
+
+### modern
+
+- <a id="CITEREFFeynmanLeightonSands1989"></a> [Feynman, Richard](Richard%20Feynman.md); [Leighton, Robert B.](Robert%20B.%20Leighton.md); [Sands, Matthew](Matthew%20Sands.md) \(1989\). [_The Feynman Lectures on Physics_](https://www.feynmanlectures.caltech.edu/III_12.html#Ch12-S4). Vol. 3. [Addison-Wesley](Addison-Wesley.md). [ISBN](ISBN%20(identifier).md) [0-201-02115-3](https://en.wikipedia.org/wiki/Special:BookSources/0-201-02115-3).
+- <a id="CITEREFForman1970"></a> Forman, Paul \(1970\). "Alfred Landé and the anomalous Zeeman Effect, 1919-1921". _Historical Studies in the Physical Sciences_. __2__: 153–261. [doi](doi%20(identifier).md):[10.2307/27757307](https://doi.org/10.2307%2F27757307). [JSTOR](JSTOR%20(identifier).md#content) [27757307](https://www.jstor.org/stable/27757307).
+- <a id="CITEREFGriffiths2004"></a> Griffiths, David J. \(2004\). [_Introduction to Quantum Mechanics_](https://archive.org/details/introductiontoel00grif_0) \(2nd ed.\). [Prentice Hall](Prentice%20Hall.md). [ISBN](ISBN%20(identifier).md) [0-13-805326-X](https://en.wikipedia.org/wiki/Special:BookSources/0-13-805326-X).
+- <a id="CITEREFLiboff2002"></a> [Liboff, Richard L.](Liboff,%20Richard%20L.md) \(2002\). _Introductory Quantum Mechanics_ \(4th ed.\). [Addison-Wesley](Addison-Wesley.md). [ISBN](ISBN%20(identifier).md) [0-8053-8714-5](https://en.wikipedia.org/wiki/Special:BookSources/0-8053-8714-5). [OCLC](OCLC%20(identifier).md#identifiers%20and%20linked%20data) [50475492](https://search.worldcat.org/oclc/50475492).
+- <a id="CITEREFSobelman2006"></a> Sobelman, Igor I. \(2006\). _Theory of Atomic Spectra_. Alpha Science. [ISBN](ISBN%20(identifier).md) [1-84265-203-6](https://en.wikipedia.org/wiki/Special:BookSources/1-84265-203-6). [OCLC](OCLC%20(identifier).md#identifiers%20and%20linked%20data) [71825022](https://search.worldcat.org/oclc/71825022).
+- <a id="CITEREFFoot2005"></a> Foot, C.J. \(2005\). [_Atomic Physics_](https://archive.org/details/atomicphysics0000foot). OUP Oxford. [ISBN](ISBN%20(identifier).md) [0-19-850696-1](https://en.wikipedia.org/wiki/Special:BookSources/0-19-850696-1). [OCLC](OCLC%20(identifier).md#identifiers%20and%20linked%20data) [57478010](https://search.worldcat.org/oclc/57478010).
+
+## external links
+
+- [Zeeman effect-Control light with magnetic fields](https://youtube.com/watch/OzkcB1lkgGU?si=gy8MSHftwjfoB_xP)
+
+|                   | [Authority control databases](https://en.wikipedia.org/wiki/Help:Authority%20control) <!-- [![Edit this at Wikidata](../../archives/Wikimedia%20Commons/OOjs%20UI%20icon%20edit-ltr-progressive.svg)](https://www.wikidata.org/wiki/Q201805#identifiers) --> |
+| ----------------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| __International__ | - [GND](https://d-nb.info/gnd/4190565-9)                                                                                                                                                                                                                     |
+|      __National__ | - [United States](https://id.loc.gov/authorities/sh85149701) <br/> - [Czech Republic](https://aleph.nkp.cz/F/?func=find-c&local_base=aut&ccl_term=ica=ph163860&CON_LNG=ENG) <br/> - [Israel](https://www.nli.org.il/en/authorities/987007534263405171)       |
+|         __Other__ | - [Yale LUX](https://lux.collections.yale.edu/view/concept/f802260a-6f14-4ec7-80e0-ff6c64756689)                                                                                                                                                             |
