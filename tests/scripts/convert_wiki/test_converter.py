@@ -2147,6 +2147,84 @@ class TestAudioHandling:
         )
         assert "[A short tone.]" in result
 
+
+class TestPlayAnchorOverlay:
+    """Tests for the play-button overlay guard in ``_handle_audio``."""
+
+    @staticmethod
+    def _video_figure(*, video_attrs: str) -> str:
+        """Build a video figure whose player holds a play-button anchor."""
+        return (
+            "<figure>"
+            '<span class="mw-tmh-player video">'
+            f"<video {video_attrs}></video>"
+            '<a href="https://en.wikipedia.org/wiki/File:Clip.webm" '
+            'class="mw-tmh-play" title="Play video">'
+            '<span class="mw-tmh-play-icon notheme" '
+            'style="background: url(data:image/svg+xml;base64,xxxx)"></span>'
+            "</a>"
+            "</span>"
+            "<figcaption>A caption.</figcaption>"
+            "</figure>"
+        )
+
+    @pytest.mark.anyio
+    async def test_video_player_suppresses_duplicate_link(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A resolvable ``<video>`` renders once; its play anchor renders nothing."""
+        html = self._video_figure(
+            video_attrs=(
+                'resource="https://en.wikipedia.org/wiki/File:Clip.webm" '
+                'poster="https://upload.wikimedia.org/wikipedia/commons/thumb/p.jpg"'
+            )
+        )
+        converter._image_metadata = {"File:Clip.webm": "A diagram of paths."}
+        result = await _convert(converter, html)
+        assert result.count(".webm") == 1
+        assert "![A diagram of paths.]" in result
+        assert "A caption." in result
+
+    @pytest.mark.anyio
+    async def test_player_span_embed_still_renders(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A ``mw-tmh-play mw-tmh-player`` span keeps its embed behavior."""
+        html = (
+            '<span class="mw-tmh-play mw-tmh-player" '
+            'href="//upload.wikimedia.org/wikipedia/commons/a/ab/Sound.ogg">'
+            "play</span>"
+        )
+        result = await _convert(converter, html)
+        assert "![File:Sound.ogg]" in result
+
+    @pytest.mark.anyio
+    async def test_audio_only_player_keeps_link(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Without a ``<video>`` the anchor is the only carrier and keeps its link."""
+        html = (
+            '<span class="mw-tmh-player">'
+            '<audio href="https://en.wikipedia.org/wiki/File:Sound.ogg"></audio>'
+            '<a href="https://en.wikipedia.org/wiki/File:Sound.ogg" '
+            'class="mw-tmh-play" title="Play audio">play</a>'
+            "</span>"
+        )
+        result = await _convert(converter, html)
+        assert result.count("](") == 1
+        assert "[File:Sound.ogg]" in result
+        assert "![" not in result
+
+    @pytest.mark.anyio
+    async def test_unresolvable_video_keeps_link(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A ``<video>`` with no src cannot render, so the anchor keeps its link."""
+        html = self._video_figure(video_attrs="")
+        result = await _convert(converter, html)
+        assert ".webm" in result
+        assert "[" in result
+
     @pytest.mark.anyio
     async def test_inline_math_trailing_backslash_space_period(
         self, converter: WikiHtmlConverter

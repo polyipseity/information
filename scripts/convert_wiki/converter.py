@@ -2346,9 +2346,52 @@ class WikiHtmlConverter:
             process_strings=lambda _strings: link,
         )
 
+    @classmethod
+    def _play_anchor_is_redundant(cls, ele: Tag) -> bool:
+        """Whether *ele* is a play-button anchor whose player renders the file.
+
+        Mirrors ``_handle_video``'s src resolution: the anchor is redundant
+        only when its nearest ``mw-tmh-player`` ancestor holds a ``<video>``
+        whose src resolves (``resource``, ``data-mwtitle``, a ``<source>``
+        child, or ``poster``) — that embed already emits the media link.  A
+        bare ``<audio>`` element never dispatches to a media handler, so it
+        does not count: for audio-only players the anchor stays the only
+        carrier and must keep its link.
+        """
+        player = ele.find_parent(class_="mw-tmh-player")
+        if player is None:
+            return False
+        for video in player.find_all("video"):
+            if (
+                video.get("resource") is not None
+                or video.get("data-mwtitle") is not None
+                or video.get("poster") is not None
+            ):
+                return True
+            source = next(
+                (child for child in video.find_all("source", recursive=False)),
+                None,
+            )
+            if source is not None and (source.get("resource") or source.get("src")):
+                return True
+        return False
+
     def _handle_audio(self, ele: Tag, classes: frozenset[str]) -> _HandlerConfig:
-        """Handle <audio> media elements."""
+        """Handle <audio> media elements.
+
+        A play-button anchor inside an ``mw-tmh-player`` container is a UI
+        overlay: when the container's ``<video>`` already renders the file as
+        an embed, the anchor must not emit a duplicate link.  Any other
+        carrier (audio-only players, players without a resolvable video)
+        keeps its link.
+        """
         if (src := ele.get("href")) is None:
+            return _HandlerConfig()
+        if (
+            ele.name == "a"
+            and "mw-tmh-player" not in classes
+            and self._play_anchor_is_redundant(ele)
+        ):
             return _HandlerConfig()
         return self._build_media_config(
             ele=ele,
