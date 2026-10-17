@@ -93,6 +93,9 @@ garbled HTML.
   `symlinks_retargeted`/`Changed:` count actually remapped, before or
   after applying, is forbidden — wasted tokens and second-guessing of a
   tool whose collisions already raise before any rewrite. Relay the
-  report and stop.
+  report and stop. The same ban covers git forensics aimed at the same
+  question: `git ls-files`, `git cat-file`, and staged-diff spelunking
+  to "understand" what the tool changed during commit staging are just
+  the forbidden symlink checks in a different shell.
 
 Add new lessons below as the skill evolves.
