@@ -85,4 +85,14 @@ garbled HTML.
 
 ---
 
+## Lessons learned (2026-10-17)
+
+- After `--reprocess` (dry or real), the tool's `Reprocess:`/`Changed:`
+  report is the whole verification. Checking symlink validity with
+  `ls`/`find`/`test -e`/`readlink`, or digging into what a
+  `symlinks_retargeted`/`Changed:` count actually remapped, before or
+  after applying, is forbidden — wasted tokens and second-guessing of a
+  tool whose collisions already raise before any rewrite. Relay the
+  report and stop.
+
 Add new lessons below as the skill evolves.

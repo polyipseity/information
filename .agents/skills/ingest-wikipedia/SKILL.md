@@ -236,7 +236,7 @@ uv run -m scripts.convert_wiki --reprocess \
 
 Replace `<note_path>` with the note from Step 1 (e.g. `general/eng/modern physics.md`). `--article` accepts a stem or path.
 
-__Anti-pattern:__ do NOT grep/sed/readlink the note to enumerate occurrences of wrong casing — the `--dry-run` report IS the analysis. Run `--dry-run` first and read its report.
+__Anti-pattern:__ do NOT grep/sed/readlink the note to enumerate occurrences of wrong casing — the `--dry-run` report IS the analysis. Run `--dry-run` first and read its report. The tool's `Reprocess:` and `Changed:` lines are also the entire verification, before and after applying: never inspect symlinks (`ls`, `find`, `test -e`, `readlink`), never chase what a `symlinks_retargeted` or `Changed:` count actually touched, never re-read the note to confirm link targets. Exit status plus that report; relay them and stop.
 
 | Situation | Flags |
 | --------- | ----- |
