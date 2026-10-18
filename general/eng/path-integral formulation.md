@@ -113,8 +113,6 @@ In terms of {@{the wave function in the position representation}@}, {@{the path 
 
 > {@{![The diagram shows the contribution of a set of paths for the path integral of a free particle.](../../archives/Wikimedia%20Commons/Path%20integral%20example.webm)}@}
 >
-> {@{[The diagram shows the contribution of a set of paths for the path integral of a free particle.](../../archives/Wikimedia%20Commons/Path%20integral%20example.webm)}@}
->
 > {@{Contributions to the path integral}@} of {@{a free particle for a set of paths}@}, eventually drawing {@{a [Cornu Spiral](Cornu%20spiral.md)}@}
 
 {@{The path integral representation}@} gives {@{the quantum amplitude to go from point _x_ to point _y_}@} as {@{an integral over all paths}@}. For {@{a free-particle action}@} \(for {@{simplicity let _m_ = 1, _ħ_ = 1}@}\) {@{$$S=\int {\frac { {\dot {x} }^{2} }{2} }\,\mathrm {d} t,$$}@} {@{the integral}@} can be {@{evaluated explicitly}@}.
