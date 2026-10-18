@@ -8,7 +8,7 @@ tags:
 
 # hydrogen atom
 
-- This article is about {@{the physics of the hydrogen atom}@}. For {@{a chemical description}@}, see {@{[hydrogen](hydrogen.md)}@}. For {@{monatomic hydrogen}@}, see {[Hydrogen § Atomic hydrogen](hydrogen.md#atomic%20hydrogen)}.
+- This article is about {@{the physics of the hydrogen atom}@}. For {@{a chemical description}@}, see {@{[hydrogen](hydrogen.md)}@}. For {@{monatomic hydrogen}@}, see {@{[Hydrogen § Atomic hydrogen](hydrogen.md#atomic%20hydrogen)}@}.
 
 |                                                                                                                  | __Hydrogen atom__                                                                                                              |
 | ---------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------- |
