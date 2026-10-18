@@ -1825,20 +1825,23 @@ class TestTableHandling:
         assert "a" in result and "b" in result
 
     @pytest.mark.anyio
-    async def test_caption_with_header_row_raises(
+    async def test_caption_with_header_row_hoists_caption(
         self, converter: WikiHtmlConverter
     ) -> None:
-        """A caption combined with a ``<th>`` header row should raise ValueError."""
+        """A caption over an all-``<th>`` header row is hoisted above the table.
+
+        The ``<th>`` row owns Markdown's single header row; the caption
+        survives as a bold paragraph directly above the table.
+        """
         html = (
             "<table><caption>Title</caption>"
             "<tr><th>H1</th><th>H2</th></tr>"
             "<tr><td>D1</td><td>D2</td></tr></table>"
         )
-        with pytest.raises(BaseExceptionGroup) as exc_info:
-            await _convert(converter, html)
-        error = exc_info.value.exceptions[0]
-        assert isinstance(error, ValueError)
-        assert "only one header row" in str(error)
+        result = await _convert(converter, html)
+        assert "__Title__" in result
+        assert result.index("__Title__") < result.index("| H1")
+        assert "| D1" in result
 
     @pytest.mark.anyio
     async def test_caption_with_mixed_rows_ok(
@@ -1876,20 +1879,19 @@ class TestTableHandling:
         assert "stable" in result
 
     @pytest.mark.anyio
-    async def test_infobox_caption_with_plain_header_row_raises(
+    async def test_infobox_caption_with_plain_header_row_hoists(
         self, converter: WikiHtmlConverter
     ) -> None:
-        """An infobox all-``<th>`` row without ``infobox-header`` still raises."""
+        """An infobox all-``<th>`` row without ``infobox-header`` hoists the caption."""
         html = (
             '<table class="infobox"><caption>Title</caption>'
             "<tr><th>H1</th><th>H2</th></tr>"
             "<tr><td>D1</td><td>D2</td></tr></table>"
         )
-        with pytest.raises(BaseExceptionGroup) as exc_info:
-            await _convert(converter, html)
-        error = exc_info.value.exceptions[0]
-        assert isinstance(error, ValueError)
-        assert "only one header row" in str(error)
+        result = await _convert(converter, html)
+        assert "__Title__" in result
+        assert result.index("__Title__") < result.index("| H1")
+        assert "| D1" in result
 
     @pytest.mark.anyio
     async def test_infobox_group_divider_layout(
@@ -2144,6 +2146,84 @@ class TestAudioHandling:
             refs=True,
         )
         assert "[A short tone.]" in result
+
+
+class TestPlayAnchorOverlay:
+    """Tests for the play-button overlay guard in ``_handle_audio``."""
+
+    @staticmethod
+    def _video_figure(*, video_attrs: str) -> str:
+        """Build a video figure whose player holds a play-button anchor."""
+        return (
+            "<figure>"
+            '<span class="mw-tmh-player video">'
+            f"<video {video_attrs}></video>"
+            '<a href="https://en.wikipedia.org/wiki/File:Clip.webm" '
+            'class="mw-tmh-play" title="Play video">'
+            '<span class="mw-tmh-play-icon notheme" '
+            'style="background: url(data:image/svg+xml;base64,xxxx)"></span>'
+            "</a>"
+            "</span>"
+            "<figcaption>A caption.</figcaption>"
+            "</figure>"
+        )
+
+    @pytest.mark.anyio
+    async def test_video_player_suppresses_duplicate_link(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A resolvable ``<video>`` renders once; its play anchor renders nothing."""
+        html = self._video_figure(
+            video_attrs=(
+                'resource="https://en.wikipedia.org/wiki/File:Clip.webm" '
+                'poster="https://upload.wikimedia.org/wikipedia/commons/thumb/p.jpg"'
+            )
+        )
+        converter._image_metadata = {"File:Clip.webm": "A diagram of paths."}
+        result = await _convert(converter, html)
+        assert result.count(".webm") == 1
+        assert "![A diagram of paths.]" in result
+        assert "A caption." in result
+
+    @pytest.mark.anyio
+    async def test_player_span_embed_still_renders(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A ``mw-tmh-play mw-tmh-player`` span keeps its embed behavior."""
+        html = (
+            '<span class="mw-tmh-play mw-tmh-player" '
+            'href="//upload.wikimedia.org/wikipedia/commons/a/ab/Sound.ogg">'
+            "play</span>"
+        )
+        result = await _convert(converter, html)
+        assert "![File:Sound.ogg]" in result
+
+    @pytest.mark.anyio
+    async def test_audio_only_player_keeps_link(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Without a ``<video>`` the anchor is the only carrier and keeps its link."""
+        html = (
+            '<span class="mw-tmh-player">'
+            '<audio href="https://en.wikipedia.org/wiki/File:Sound.ogg"></audio>'
+            '<a href="https://en.wikipedia.org/wiki/File:Sound.ogg" '
+            'class="mw-tmh-play" title="Play audio">play</a>'
+            "</span>"
+        )
+        result = await _convert(converter, html)
+        assert result.count("](") == 1
+        assert "[File:Sound.ogg]" in result
+        assert "![" not in result
+
+    @pytest.mark.anyio
+    async def test_unresolvable_video_keeps_link(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A ``<video>`` with no src cannot render, so the anchor keeps its link."""
+        html = self._video_figure(video_attrs="")
+        result = await _convert(converter, html)
+        assert ".webm" in result
+        assert "[" in result
 
     @pytest.mark.anyio
     async def test_inline_math_trailing_backslash_space_period(
@@ -2698,6 +2778,12 @@ class TestTextNormalization:
                 '<div><span>173</span><div class="paragraphbreak"></div>\n  The rest</div>',
                 "173 The rest",
             ),
+            # A newline-only node wrapped in a transparent span between two
+            # words still collapses to the single separating space.
+            (
+                "<div><span>a</span><span>\n</span><span>b</span></div>",
+                "a b",
+            ),
         ],
     )
     async def test_glued_whitespace_run(
@@ -2738,6 +2824,69 @@ class TestTextNormalization:
         """
         result = await _convert(converter, "<div><b>x</b> <span> </span>y</div>")
         assert result == "__x__ y"
+
+    @pytest.mark.anyio
+    @pytest.mark.parametrize(
+        "html",
+        [
+            # Parsoid wraps each hair space in its own mw:Entity span.
+            (
+                '<div><p>treatment.<sup class="reference nowrap">'
+                '<span title="Page / location: 77"><span>:</span>'
+                "<span>&#8202;</span>77<span>&#8202;</span></span></sup>\n"
+                "Zeeman and Lorentz were awarded.</p></div>"
+            ),
+            # The same citation spelled with the hair spaces inline must
+            # render identically: one separation decision per character,
+            # not per markup spelling.
+            (
+                '<div><p>treatment.<sup class="reference nowrap">'
+                '<span title="Page / location: 77">:&#8202;77&#8202;</span>'
+                "</sup>\nZeeman and Lorentz were awarded.</p></div>"
+            ),
+        ],
+    )
+    async def test_citation_sup_hair_space_keeps_following_space(
+        self, converter: WikiHtmlConverter, html: str
+    ) -> None:
+        """A trailing hair space is a rendered character, not a boundary.
+
+        The citation sup ends in a U+200A hair space, which ``_convert_text_node``
+        keeps as content (``strip(" ")`` does not remove it).  The
+        rendered-edge walk must agree, so the newline run after the sup
+        still sees a word beside it and keeps the separating space — for
+        both spellings of the same citation.
+        """
+        result = await _convert(converter, html)
+        assert result == (
+            "\ntreatment.<sup>:\u200a77\u200a</sup> Zeeman and Lorentz were awarded.\n\n"
+        )
+
+    @pytest.mark.anyio
+    async def test_citation_sup_hair_space_span_keeps_following_space(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A transparent span holding only a hair space is a gap, not a word.
+
+        The run after the citation sup sees the sup's trailing hair-space
+        ``mw:Entity`` span as its neighbour.  ``_inert_gap_content`` treats
+        that whitespace-only span as a gap, so the walk steps past it to the
+        word before it and keeps the separating space — as in the
+        ``wave–particle duality`` I:361 citation.
+        """
+        html = (
+            '<div><p>momentum.<sup class="reference nowrap">'
+            '<span title="Page / location: I:361"><span>:</span>'
+            "<span>&#8202;</span>I:361<span>&#8202;</span></span></sup>\n"
+            '<a href="https://example.org/wiki/Robert_Millikan">'
+            "Robert Millikan</a> measured it.</p></div>"
+        )
+        result = await _convert(converter, html)
+        assert result == (
+            "\nmomentum.<sup>:\u200aI:361\u200a</sup> "
+            "[Robert Millikan](https://example.org/wiki/Robert_Millikan) "
+            "measured it.\n\n"
+        )
 
     @pytest.mark.anyio
     async def test_newlines_normalized_to_spaces(
