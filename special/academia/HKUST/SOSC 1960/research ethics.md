@@ -16,9 +16,9 @@ Unlike chemistry, psychology studies human participants, who need protection fro
 
 Flashcards for this section are as follows:
 
-- what the "teacher" was asked to do in the Milgram experiment ::@:: The "teacher" was asked to deliver a supposedly painful electric shock to the "learner".
-- why psychology needs a code of ethics ::@:: Researchers study human participants, who need protection from psychological harm.
-- why a study can be interesting and still be inadvisable ::@:: Because it exposes participants to psychological harm.
+- what the "teacher" was asked to do in the Milgram experiment ::@:: The "teacher" was asked to deliver a supposedly painful electric shock to the "learner". <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why psychology needs a code of ethics ::@:: Researchers study human participants, who need protection from psychological harm. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why a study can be interesting and still be inadvisable ::@:: Because it exposes participants to psychological harm. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## ethical guidelines
 
@@ -38,22 +38,22 @@ After a study, debriefing and monitoring are owed whether or not anyone was dece
 
 Flashcards for this section are as follows:
 
-- who a code of ethics governs ::@:: A code of ethics tells researchers how they must treat human participants in psychological research.
-- what informed consent requires ::@:: People know they are taking part in research and what will happen to them, and they can choose whether to join.
-- what the privacy guideline forbids ::@:: Watching people in private places such as their bedrooms without their knowledge and consent.
-- what confidentiality requires ::@:: Researchers do not make information about an individual participant public without that individual's consent.
-- what researchers need before asking a school authority for confidential information ::@:: The consent of the participant or the participant's guardian.
-- how the benefits guideline weighs risk ::@:: Researchers expose anyone to risk only when the risks are fully understood and the likely benefits clearly outweigh them.
-- what a review board does before any data is collected ::@:: The board weighs the risks against the expected knowledge, checks the consent documents, and may require a less harmful design.
-- which studies never had that review ::@:: The 1920 conditioning study and the Bobo doll experiment.
-- why the approval stages come before data collection ::@:: They keep a study that fails review out of the field, because good data cannot repair it.
-- why researchers deceive participants ::@:: To hide the true nature of the study, usually so that participants do not change how they would normally behave.
-- what researchers must do after deceiving participants ::@:: Debrief everyone afterwards, explaining the true nature of the study.
-- what the after-study duties depend on ::@:: Nothing: debriefing and monitoring are owed after any study, not only one that deceived participants.
-- what debriefing does for a study that deceived nobody ::@:: The session tells participants what happened, what was recorded, and what will be done with it.
-- what monitoring is for ::@:: Someone watches the participants who were distressed during the study, or whose risk was never assessed, once the study is over.
-- why monitoring is the part easiest to leave out ::@:: Because the study has already finished, and the design may leave nobody to watch the participants.
-- what a study that cannot name that person leaves visible ::@:: A gap in its own design.
+- who a code of ethics governs ::@:: A code of ethics tells researchers how they must treat human participants in psychological research. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what informed consent requires ::@:: People know they are taking part in research and what will happen to them, and they can choose whether to join. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the privacy guideline forbids ::@:: Watching people in private places such as their bedrooms without their knowledge and consent. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what confidentiality requires ::@:: Researchers do not make information about an individual participant public without that individual's consent. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what researchers need before asking a school authority for confidential information ::@:: The consent of the participant or the participant's guardian. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how the benefits guideline weighs risk ::@:: Researchers expose anyone to risk only when the risks are fully understood and the likely benefits clearly outweigh them. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a review board does before any data is collected ::@:: The board weighs the risks against the expected knowledge, checks the consent documents, and may require a less harmful design. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- which studies never had that review ::@:: The 1920 conditioning study and the Bobo doll experiment. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why the approval stages come before data collection ::@:: They keep a study that fails review out of the field, because good data cannot repair it. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why researchers deceive participants ::@:: To hide the true nature of the study, usually so that participants do not change how they would normally behave. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what researchers must do after deceiving participants ::@:: Debrief everyone afterwards, explaining the true nature of the study. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the after-study duties depend on ::@:: Nothing: debriefing and monitoring are owed after any study, not only one that deceived participants. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what debriefing does for a study that deceived nobody ::@:: The session tells participants what happened, what was recorded, and what will be done with it. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what monitoring is for ::@:: Someone watches the participants who were distressed during the study, or whose risk was never assessed, once the study is over. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why monitoring is the part easiest to leave out ::@:: Because the study has already finished, and the design may leave nobody to watch the participants. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a study that cannot name that person leaves visible ::@:: A gap in its own design. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ### participants who cannot consent for themselves
 
@@ -63,9 +63,9 @@ A child or anyone who cannot give informed consent needs a parent or guardian's 
 
 Flashcards for this section are as follows:
 
-- what replaces a participant's own informed consent when they cannot give it ::@:: A parent or guardian gives permission, and researchers still ask the participant in terms they can understand for assent.
-- what assent has to explain to the participant ::@:: Researchers must explain the procedures, the risks, and the participant's own rights, including the right to stop at any time.
-- how assent differs from the absence of an objection ::@:: Assent is the participant's own agreement, so a participant who does not assent stays out of the study, however willing the parent is.
+- what replaces a participant's own informed consent when they cannot give it ::@:: A parent or guardian gives permission, and researchers still ask the participant in terms they can understand for assent. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what assent has to explain to the participant ::@:: Researchers must explain the procedures, the risks, and the participant's own rights, including the right to stop at any time. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how assent differs from the absence of an objection ::@:: Assent is the participant's own agreement, so a participant who does not assent stays out of the study, however willing the parent is. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## references
 

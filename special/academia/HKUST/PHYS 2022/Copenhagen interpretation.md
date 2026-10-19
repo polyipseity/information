@@ -17,8 +17,8 @@ The Copenhagen interpretation is the standard taught account of what quantum mec
 
 Flashcards for this section are as follows:
 
-- overview: what the Copenhagen interpretation holds ::@:: That quantum mechanics is complete, its probabilities are fundamental, and complementary quantities have no simultaneous definite values between measurements.
-- where the interpretation gets its name ::@:: From the 1925–1927 Copenhagen work of Bohr, Heisenberg, and Born; the label was coined by Heisenberg in the 1950s.
+- overview: what the Copenhagen interpretation holds ::@:: That quantum mechanics is complete, its probabilities are fundamental, and complementary quantities have no simultaneous definite values between measurements. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- where the interpretation gets its name ::@:: From the 1925–1927 Copenhagen work of Bohr, Heisenberg, and Born; the label was coined by Heisenberg in the 1950s. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## three principles
 
@@ -28,8 +28,8 @@ Three ideas carry the interpretation. The uncertainty principle fixes a lower bo
 
 Flashcards for this section are as follows:
 
-- the three principles of the Copenhagen interpretation, including what the Born rule says about $|\Psi|^2$ ::@:: Uncertainty ($\Delta x \cdot \Delta p_x \geq \hbar/2$), complementarity (wave and particle aspects are mutually exclusive arrangements), and the Born rule ($|\Psi|^2$ is a probability measure).
-- what complementarity means in an experiment ::@:: The apparatus decides which aspect appears: a diffraction setup shows interference and no path; a which-path setup shows path and no interference.
+- the three principles of the Copenhagen interpretation, including what the Born rule says about $|\Psi|^2$ ::@:: Uncertainty ($\Delta x \cdot \Delta p_x \geq \hbar/2$), complementarity (wave and particle aspects are mutually exclusive arrangements), and the Born rule ($|\Psi|^2$ is a probability measure). <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what complementarity means in an experiment ::@:: The apparatus decides which aspect appears: a diffraction setup shows interference and no path; a which-path setup shows path and no interference. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-10T00:10:00.000Z,0,2.3065,2.11810397,1,1,0,1,2026-11-10T00:00:00.000Z-->
 
 ## role of measurement
 
@@ -41,10 +41,10 @@ Schrödinger pressed the same worry in 1935 with a cat in a closed box, alive or
 
 Flashcards for this section are as follows:
 
-- what Copenhagen says happens at a measurement, in terms of $|\Psi|^2$ ::@:: A single outcome occurs with Born probability $|\Psi|^2$, irreversibly, and the wave function is updated to the state consistent with that outcome.
-- why Bohr insisted apparatus be described classically ::@:: Every reported quantum result is ultimately a classical record — a spot, a reading, a pointer — so the arrangement that produces it must be describable in classical terms.
-- Einstein's objection to the probabilistic element ::@:: That the Born probabilities reflect ignorance of pre-existing detail ("God does not play dice"); the Copenhagen reply is that the framework assigns no values before measurement.
-- what Schrödinger's cat, a 1935 thought experiment, sets against the Copenhagen measurement story ::@:: A cat in a closed box lives or dies according to a quantum event, and nothing fixes which until an observer opens it, against the intuition that it is one or the other all along.
+- what Copenhagen says happens at a measurement, in terms of $|\Psi|^2$ ::@:: A single outcome occurs with Born probability $|\Psi|^2$, irreversibly, and the wave function is updated to the state consistent with that outcome. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why Bohr insisted apparatus be described classically ::@:: Every reported quantum result is ultimately a classical record — a spot, a reading, a pointer — so the arrangement that produces it must be describable in classical terms. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- Einstein's objection to the probabilistic element ::@:: That the Born probabilities reflect ignorance of pre-existing detail ("God does not play dice"); the Copenhagen reply is that the framework assigns no values before measurement. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what Schrödinger's cat, a 1935 thought experiment, sets against the Copenhagen measurement story ::@:: A cat in a closed box lives or dies according to a quantum event, and nothing fixes which until an observer opens it, against the intuition that it is one or the other all along. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## alternatives and standing
 
@@ -54,6 +54,6 @@ Later schools reject one or more pillars. De Broglie–Bohm theory keeps definit
 
 Flashcards for this section are as follows:
 
-- what pilot-wave theory changes ::@:: It keeps definite particle positions guided by a wave, recovering determinism at the price of nonlocality.
-- why Copenhagen remains the taught default ::@:: It supplies the standard vocabulary of states, measurement, and probability in which every alternative is later phrased.
-- what many-worlds and objective-collapse theories each change about quantum mechanics ::@:: Many-worlds denies collapse and keeps every branch of the superposition; objective-collapse theories modify the Schrödinger equation so superpositions genuinely decay.
+- what pilot-wave theory changes ::@:: It keeps definite particle positions guided by a wave, recovering determinism at the price of nonlocality. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why Copenhagen remains the taught default ::@:: It supplies the standard vocabulary of states, measurement, and probability in which every alternative is later phrased. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what many-worlds and objective-collapse theories each change about quantum mechanics ::@:: Many-worlds denies collapse and keeps every branch of the superposition; objective-collapse theories modify the Schrödinger equation so superpositions genuinely decay. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->

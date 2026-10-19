@@ -36,11 +36,11 @@ With the same source feeding an infinite resistance, $I_o$ is undefined. An open
 
 Flashcards for this section are as follows:
 
-- ideal current source / I-V characteristic: an ideal current source has terminal current $I$ and terminal voltage $V$; what is the shape of its I-V characteristic? ::@:: The line $I = I_s$: horizontal when $I$ is plotted against $V$, vertical when $V$ is plotted against $I$.
-- ideal current source / construction ::@:: A real current source is built from complicated electronic circuits.
-- ideal current source / current in the load: what current $I_o$ flows in a resistor of resistance $R$ fed by a source of $I_s = 3\text{ A}$, at $R = 0\ \Omega$ and at $R = 1\text{ G}\Omega$? ::@:: $I_o = 3\text{ A}$ in both loads.
-- ideal current source / terminal voltage of a $3\text{ A}$ source with loads $R = 0\ \Omega$ and $R = 1\text{ G}\Omega$: what is $V_o = I_oR$? ::@:: $V_o = 3\text{ A}\times0\ \Omega = 0$ across the short, and $V_o = 3\text{ A}\times1\text{ G}\Omega = 3\times10^{9}\text{ V}$ across the $1\text{ G}\Omega$ load.
-- ideal current source / open circuit: what is $I_o$ for an ideal current source $I_s$ with a load $R = \infty$ across its terminals? ::@:: Undefined: the open circuit carries no current while the source holds $I_s$ through the branch.
+- ideal current source / I-V characteristic: an ideal current source has terminal current $I$ and terminal voltage $V$; what is the shape of its I-V characteristic? ::@:: The line $I = I_s$: horizontal when $I$ is plotted against $V$, vertical when $V$ is plotted against $I$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- ideal current source / construction ::@:: A real current source is built from complicated electronic circuits. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- ideal current source / current in the load: what current $I_o$ flows in a resistor of resistance $R$ fed by a source of $I_s = 3\text{ A}$, at $R = 0\ \Omega$ and at $R = 1\text{ G}\Omega$? ::@:: $I_o = 3\text{ A}$ in both loads. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- ideal current source / terminal voltage of a $3\text{ A}$ source with loads $R = 0\ \Omega$ and $R = 1\text{ G}\Omega$: what is $V_o = I_oR$? ::@:: $V_o = 3\text{ A}\times0\ \Omega = 0$ across the short, and $V_o = 3\text{ A}\times1\text{ G}\Omega = 3\times10^{9}\text{ V}$ across the $1\text{ G}\Omega$ load. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- ideal current source / open circuit: what is $I_o$ for an ideal current source $I_s$ with a load $R = \infty$ across its terminals? ::@:: Undefined: the open circuit carries no current while the source holds $I_s$ through the branch. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## series connection of current sources
 
@@ -52,8 +52,8 @@ The ideal model fixes each source's current and contains nothing that could reso
 
 Flashcards for this section are as follows:
 
-- series connection of current sources / the two demands: a branch contains ideal current sources of currents $I_1$ and $I_2$, with $I_1\ne I_2$; what does each demand of the branch current? ::@:: The source $I_1$ forces the branch to carry $I_1$ and the source $I_2$ forces it to carry $I_2$; one branch cannot carry two different currents, so such a pair is never connected in series.
-- series connection of current sources / failure of the ideal model: a series pair with $I_1 \ne I_2$; what does the ideal current source model contribute to the conflict? ::@:: Nothing: the model cannot resolve the conflict, so a more sophisticated model is needed.
+- series connection of current sources / the two demands: a branch contains ideal current sources of currents $I_1$ and $I_2$, with $I_1\ne I_2$; what does each demand of the branch current? ::@:: The source $I_1$ forces the branch to carry $I_1$ and the source $I_2$ forces it to carry $I_2$; one branch cannot carry two different currents, so such a pair is never connected in series. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- series connection of current sources / failure of the ideal model: a series pair with $I_1 \ne I_2$; what does the ideal current source model contribute to the conflict? ::@:: Nothing: the model cannot resolve the conflict, so a more sophisticated model is needed. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## practical current source
 

@@ -17,8 +17,8 @@ A wave packet is a short, localised burst of wave action: many component waves o
 
 Flashcards for this section are as follows:
 
-- overview: what a wave packet is ::@:: A localised burst built from many component waves of nearby wave numbers that interfere constructively only over a small region.
-- why quantum particles are modelled as wave packets ::@:: A particle must be localised in space, and localisation requires a spread of wave numbers, exactly what a packet is.
+- overview: what a wave packet is ::@:: A localised burst built from many component waves of nearby wave numbers that interfere constructively only over a small region. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why quantum particles are modelled as wave packets ::@:: A particle must be localised in space, and localisation requires a spread of wave numbers, exactly what a packet is. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## localisation and spread
 
@@ -28,8 +28,8 @@ The Gaussian packet $\Psi(x,0) = A\,e^{-x^2/4(\Delta x)^2}\,e^{ik_0 x}$ has an e
 
 Flashcards for this section are as follows:
 
-- the Fourier width relation between $\Delta k$ and $\Delta x$ for a Gaussian packet ::@:: $\Delta k \cdot \Delta x \geq 1/2$; with $p = \hbar k$ this is $\Delta x \cdot \Delta p \geq \hbar/2$.
-- what perfect localisation would require ::@:: Every wave number, hence an unbounded momentum spread — why no state is a point particle.
+- the Fourier width relation between $\Delta k$ and $\Delta x$ for a Gaussian packet ::@:: $\Delta k \cdot \Delta x \geq 1/2$; with $p = \hbar k$ this is $\Delta x \cdot \Delta p \geq \hbar/2$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what perfect localisation would require ::@:: Every wave number, hence an unbounded momentum spread — why no state is a point particle. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## group velocity
 
@@ -39,8 +39,8 @@ Superpose two waves of nearly equal frequencies and wave numbers, $\omega_0 \pm 
 
 Flashcards for this section are as follows:
 
-- the group velocity $u$ of a wave packet ::@:: $u = d\omega/dk$ — the speed of the envelope, and of the localisation it carries.
-- how the group velocity $u$ and phase velocity $v_{\text{ph}}$ differ in the two-wave case ::@:: The envelope moves at $u = \Delta\omega/\Delta k$ near $\omega_0/k_0$, while crests move at $v_{\text{ph}} = \omega_0/k_0$; the crests can outrun the envelope, entering at its back and leaving at its front.
+- the group velocity $u$ of a wave packet ::@:: $u = d\omega/dk$ — the speed of the envelope, and of the localisation it carries. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how the group velocity $u$ and phase velocity $v_{\text{ph}}$ differ in the two-wave case ::@:: The envelope moves at $u = \Delta\omega/\Delta k$ near $\omega_0/k_0$, while crests move at $v_{\text{ph}} = \omega_0/k_0$; the crests can outrun the envelope, entering at its back and leaving at its front. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## dispersion
 
@@ -50,11 +50,11 @@ A medium is non-dispersive when $\omega$ is proportional to $k$, so phase and gr
 
 Flashcards for this section are as follows:
 
-- the condition $\omega \propto k$ for a packet to keep its shape ::@:: Non-dispersive propagation, $\omega \propto k$, so $u = d\omega/dk = \omega/k = v_{\text{ph}}$.
-- the group-to-phase velocity ratio for $\omega = \beta k^2$ ::@:: $u = 2\beta k = 2v_{\text{ph}}$.
-- the group-to-phase velocity ratio for $\omega = \gamma\sqrt{k}$ ::@:: $u = \tfrac{1}{2}\gamma k^{-1/2} = v_{\text{ph}}/2$.
-- the general relation between group velocity $u$ and phase velocity $v_{\text{ph}}$ at wave number $k$ ::@:: $u = v_{\text{ph}} + k\,dv_{\text{ph}}/dk$, so $u$ runs above $v_{\text{ph}}$ where $v_{\text{ph}}$ rises with $k$ and below it where $v_{\text{ph}}$ falls.
-- deep-water waves: the phase speed $v_{\text{ph}}$ in terms of wavelength $\lambda$, and the group speed $u$ that follows ::@:: $v_{\text{ph}} = \sqrt{g\lambda/2\pi}$, hence $\omega = \sqrt{gk}$ and $u = d\omega/dk = v_{\text{ph}}/2$; in a pond the envelope trails the crests running through it.
+- the condition $\omega \propto k$ for a packet to keep its shape ::@:: Non-dispersive propagation, $\omega \propto k$, so $u = d\omega/dk = \omega/k = v_{\text{ph}}$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the group-to-phase velocity ratio for $\omega = \beta k^2$ ::@:: $u = 2\beta k = 2v_{\text{ph}}$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the group-to-phase velocity ratio for $\omega = \gamma\sqrt{k}$ ::@:: $u = \tfrac{1}{2}\gamma k^{-1/2} = v_{\text{ph}}/2$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the general relation between group velocity $u$ and phase velocity $v_{\text{ph}}$ at wave number $k$ ::@:: $u = v_{\text{ph}} + k\,dv_{\text{ph}}/dk$, so $u$ runs above $v_{\text{ph}}$ where $v_{\text{ph}}$ rises with $k$ and below it where $v_{\text{ph}}$ falls. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- deep-water waves: the phase speed $v_{\text{ph}}$ in terms of wavelength $\lambda$, and the group speed $u$ that follows ::@:: $v_{\text{ph}} = \sqrt{g\lambda/2\pi}$, hence $\omega = \sqrt{gk}$ and $u = d\omega/dk = v_{\text{ph}}/2$; in a pond the envelope trails the crests running through it. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## packet as a particle
 
@@ -64,9 +64,9 @@ Reading the packet as a particle binds the wave description to quantum mechanics
 
 Flashcards for this section are as follows:
 
-- how the packet picture reproduces the uncertainty relation between $\Delta x$ and $\Delta p$ ::@:: Localisation width $\Delta x$ forces a wave-number spread $\Delta k \geq 1/(2\Delta x)$, hence $\Delta p = \hbar\Delta k$ with $\Delta x \cdot \Delta p \geq \hbar/2$.
-- what moves at the group velocity in the particle picture ::@:: The envelope, and with it the place where the particle is likely to be found.
-- the dispersion relation $\omega(k)$ of a free non-relativistic matter wave ::@:: From $E = p^2/2m$ with $E = \hbar\omega$ and $p = \hbar k$ comes $\omega = \hbar k^2/2m$.
-- the group velocity $u$ of a free matter wave with $\omega = \hbar k^2/2m$ ::@:: $u = d\omega/dk = \hbar k/m = p/m$, the classical particle speed.
-- the phase velocity $v_{\text{ph}}$ of a free matter wave with $\omega = \hbar k^2/2m$ ::@:: $v_{\text{ph}} = \omega/k = \hbar k/2m$, half the group velocity $u = p/m$.
-- for a relativistic matter wave with $E^2 = p^2c^2 + m^2c^4$, the group and phase velocities ::@:: $u = dE/dp = pc^2/E$, the particle's speed $v$; $v_{\text{ph}} = E/p = c^2/v$, which is larger and not the particle's speed.
+- how the packet picture reproduces the uncertainty relation between $\Delta x$ and $\Delta p$ ::@:: Localisation width $\Delta x$ forces a wave-number spread $\Delta k \geq 1/(2\Delta x)$, hence $\Delta p = \hbar\Delta k$ with $\Delta x \cdot \Delta p \geq \hbar/2$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what moves at the group velocity in the particle picture ::@:: The envelope, and with it the place where the particle is likely to be found. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the dispersion relation $\omega(k)$ of a free non-relativistic matter wave ::@:: From $E = p^2/2m$ with $E = \hbar\omega$ and $p = \hbar k$ comes $\omega = \hbar k^2/2m$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the group velocity $u$ of a free matter wave with $\omega = \hbar k^2/2m$ ::@:: $u = d\omega/dk = \hbar k/m = p/m$, the classical particle speed. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the phase velocity $v_{\text{ph}}$ of a free matter wave with $\omega = \hbar k^2/2m$ ::@:: $v_{\text{ph}} = \omega/k = \hbar k/2m$, half the group velocity $u = p/m$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- for a relativistic matter wave with $E^2 = p^2c^2 + m^2c^4$, the group and phase velocities ::@:: $u = dE/dp = pc^2/E$, the particle's speed $v$; $v_{\text{ph}} = E/p = c^2/v$, which is larger and not the particle's speed. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->

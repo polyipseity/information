@@ -16,8 +16,8 @@ The encoding specificity principle is that the effectiveness of retrieval cues d
 
 Flashcards for this section are as follows:
 
-- the encoding specificity principle ::@:: The effectiveness of retrieval cues depends on the extent a retrieval cue matches the memory trace of an experience.
-- how studying in the same classroom as the exam illustrates encoding specificity ::@:: The classroom at retrieval matches the context encoded during study there, so the cue matches the memory trace of the experience.
+- the encoding specificity principle ::@:: The effectiveness of retrieval cues depends on the extent a retrieval cue matches the memory trace of an experience. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how studying in the same classroom as the exam illustrates encoding specificity ::@:: The classroom at retrieval matches the context encoded during study there, so the cue matches the memory trace of the experience. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## state-dependent memory
 
@@ -27,7 +27,7 @@ State-dependent memory does the same from inside the person: memory is better wh
 
 Flashcards for this section are as follows:
 
-- what state-dependent memory contributes to encoding specificity ::@:: Memory is better when the internal state during retrieval matches the internal state during encoding.
+- what state-dependent memory contributes to encoding specificity ::@:: Memory is better when the internal state during retrieval matches the internal state during encoding. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## cue overload
 
@@ -37,7 +37,7 @@ The cue overload principle sets the other limit: a retrieval cue cannot be overl
 
 Flashcards for this section are as follows:
 
-- the cue overload principle ::@:: A retrieval cue cannot be overloaded with too many memories: bound to too many, it fails to retrieve any one of them.
+- the cue overload principle ::@:: A retrieval cue cannot be overloaded with too many memories: bound to too many, it fails to retrieve any one of them. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## references
 

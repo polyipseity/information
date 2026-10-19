@@ -16,8 +16,8 @@ APA style is the citation format of psychology and the other behavioural and soc
 
 Flashcards for this section are as follows:
 
-- what APA style is ::@:: The citation format of psychology and the other behavioural and social sciences.
-- what a paper does with a source ::@:: It names it twice, once in the sentence that uses its idea and once in a list at the end.
+- what APA style is ::@:: The citation format of psychology and the other behavioural and social sciences. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a paper does with a source ::@:: It names it twice, once in the sentence that uses its idea and once in a list at the end. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## purposes of references
 
@@ -29,10 +29,10 @@ A paper that omits a credit risks a penalty. Acknowledgment also shows which cla
 
 Flashcards for this section are as follows:
 
-- what a reference list lets a reader do ::@:: Trace a paper back to the studies it rests on.
-- what a reference list does ::@:: It credits the authors it uses, respects their intellectual property, and points to the original work.
-- what acknowledgment does beyond avoiding a penalty ::@:: It shows which claims the evidence supports, and how the work connects to earlier work.
-- what that connection does ::@:: It makes the evidence credible.
+- what a reference list lets a reader do ::@:: Trace a paper back to the studies it rests on. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a reference list does ::@:: It credits the authors it uses, respects their intellectual property, and points to the original work. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what acknowledgment does beyond avoiding a penalty ::@:: It shows which claims the evidence supports, and how the work connects to earlier work. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what that connection does ::@:: It makes the evidence credible. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## proper attribution
 
@@ -42,9 +42,9 @@ You paraphrase an author's idea, mark where you used it with an in-text citation
 
 Flashcards for this section are as follows:
 
-- what attribution needs ::@:: A paraphrase of the source's idea, an in-text citation where you use it, and the reference at the end.
-- what an in-text citation marks ::@:: The exact place where a source's idea is used.
-- what breaks attribution ::@:: Leaving out one of the three breaks the chain.
+- what attribution needs ::@:: A paraphrase of the source's idea, an in-text citation where you use it, and the reference at the end. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what an in-text citation marks ::@:: The exact place where a source's idea is used. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what breaks attribution ::@:: Leaving out one of the three breaks the chain. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ### building the reference list
 
@@ -54,7 +54,7 @@ Take the reference from the source's record, not from memory. Type it by hand fr
 
 Flashcards for this section are as follows:
 
-- where the reference comes from ::@:: The source's record, not memory.
+- where the reference comes from ::@:: The source's record, not memory. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 - how the entry is produced ::@:: By hand from a database record, or exported from a reference manager or citation tool. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - what a generated reference is ::@:: Only a draft, to check against the source before you submit. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 
@@ -68,9 +68,9 @@ A study of what a model can do treats the model's own responses as data. Cite th
 
 Flashcards for this section are as follows:
 
-- when a model's help is credited ::@:: When it drafts research questions and outlines, checks grammar, or paraphrases a paragraph.
-- when a model is cited as a source ::@:: In a study of what the model can do, where its own responses are the data.
-- why a model is never cited as a source of facts ::@:: It is not credible for academic writing, so a definition quoted from it credits nobody.
+- when a model's help is credited ::@:: When it drafts research questions and outlines, checks grammar, or paraphrases a paragraph. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- when a model is cited as a source ::@:: In a study of what the model can do, where its own responses are the data. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why a model is never cited as a source of facts ::@:: It is not credible for academic writing, so a definition quoted from it credits nobody. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ### disclosure statement
 
@@ -91,8 +91,8 @@ An individual assignment disclosure names the model and confirms that using it b
 Flashcards for this section are as follows:
 
 - when a model's use is disclosed ::@:: Alongside the work it helped produce. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
-- what the disclosure states about the model ::@:: It names the model, and says its use broke none of the university's academic integrity policies.
-- what the disclosure states about responsibility ::@:: It makes the writer responsible for the work's integrity.
+- what the disclosure states about the model ::@:: It names the model, and says its use broke none of the university's academic integrity policies. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the disclosure states about responsibility ::@:: It makes the writer responsible for the work's integrity. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 - what the writer certifies ::@:: The submitted work is the writer's own, except where external sources or assistance are acknowledged. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 
 ## references

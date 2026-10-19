@@ -20,13 +20,13 @@ A structural scan gives the anatomical baseline: where a structure sits and what
 
 Flashcards for this section are as follows:
 
-- how an MRI scanner takes its pictures ::@:: An MRI scanner uses a strong magnetic field and radiofrequency pulses to take high-resolution pictures of the brain's structure.
-- what a strong magnetic field does to hydrogen nuclei in the body ::@:: It lines the body's hydrogen nuclei up with the field.
-- what the radiofrequency pulse does ::@:: It knocks the aligned nuclei out of alignment, so that they precess back.
-- what produces the image from that precession ::@:: The changing magnetic flux induces a voltage in the receiver coils, and the spatial pattern of those voltages is the image.
-- why a participant can be scanned repeatedly ::@:: Nothing is injected and no ionizing radiation is used.
-- what magnetic resonance imaging contributes to a study of the brain ::@:: The anatomical baseline: where a structure sits in the brain and what shape it has.
-- what a functional image is reported against ::@:: A structural scan, since naming a region means naming one piece of structure.
+- how an MRI scanner takes its pictures ::@:: An MRI scanner uses a strong magnetic field and radiofrequency pulses to take high-resolution pictures of the brain's structure. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a strong magnetic field does to hydrogen nuclei in the body ::@:: It lines the body's hydrogen nuclei up with the field. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the radiofrequency pulse does ::@:: It knocks the aligned nuclei out of alignment, so that they precess back. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what produces the image from that precession ::@:: The changing magnetic flux induces a voltage in the receiver coils, and the spatial pattern of those voltages is the image. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why a participant can be scanned repeatedly ::@:: Nothing is injected and no ionizing radiation is used. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what magnetic resonance imaging contributes to a study of the brain ::@:: The anatomical baseline: where a structure sits in the brain and what shape it has. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a functional image is reported against ::@:: A structural scan, since naming a region means naming one piece of structure. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## what a structural image establishes
 
@@ -36,11 +36,11 @@ A structural scan resolves anatomy to a millimetre without opening the skull. No
 
 Flashcards for this section are as follows:
 
-- what a structural scan resolves, and what it misses ::@:: A structural scan resolves anatomy at a millimetre scale without surgery. It does not read the brain at work.
-- how a structural scan's resolution compares with methods that read brain activity directly ::@:: Nothing that reads brain activity directly gets anatomy that fine.
-- what a structural image shows about a hippocampus during a task ::@:: The same picture during a task as at rest.
-- what a structural method is silent about ::@:: Timing, and which parts of a structure are active while a process runs.
-- the form of the same scanner that does read the brain at work ::@:: The scanner's functional form: functional magnetic resonance imaging.
+- what a structural scan resolves, and what it misses ::@:: A structural scan resolves anatomy at a millimetre scale without surgery. It does not read the brain at work. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how a structural scan's resolution compares with methods that read brain activity directly ::@:: Nothing that reads brain activity directly gets anatomy that fine. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a structural image shows about a hippocampus during a task ::@:: The same picture during a task as at rest. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a structural method is silent about ::@:: Timing, and which parts of a structure are active while a process runs. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the form of the same scanner that does read the brain at work ::@:: The scanner's functional form: functional magnetic resonance imaging. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## references
 

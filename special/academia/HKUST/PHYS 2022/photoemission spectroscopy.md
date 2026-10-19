@@ -16,9 +16,9 @@ Photoemission spectroscopy (PES) shines light on a material and measures the kin
 
 Flashcards for this section are as follows:
 
-- overview: what photoemission spectroscopy measures ::@:: The kinetic energy of each electron light frees from a material, taken against the known photon energy.
-- what the photon energy minus the measured kinetic energy gives ::@:: The binding energy that held the electron in the material.
-- the effect photoemission spectroscopy turns into a measurement ::@:: The photoelectric effect.
+- overview: what photoemission spectroscopy measures ::@:: The kinetic energy of each electron light frees from a material, taken against the known photon energy. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the photon energy minus the measured kinetic energy gives ::@:: The binding energy that held the electron in the material. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the effect photoemission spectroscopy turns into a measurement ::@:: The photoelectric effect. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## binding energies
 
@@ -30,9 +30,9 @@ The electron has to escape to be counted. One born deeper than a few nanometres 
 
 Flashcards for this section are as follows:
 
-- overview: how a photoemission spectrum of a solid is built ::@:: Counts of emitted electrons plotted against binding energy, one peak per electronic level, so the peaks name the elements present.
-- the binding energy $E_b$ of a level, from photon energy $hf$ and measured kinetic energy $K$ ::@:: $E_b = hf - K$, with the work-function offset between sample and spectrometer calibrated out against a known line.
-- why only the near-surface layers contribute clean photoemission peaks ::@:: Electrons born deeper than a few nanometres scatter on the way out and arrive with less energy, so their peaks shift or they never arrive.
+- overview: how a photoemission spectrum of a solid is built ::@:: Counts of emitted electrons plotted against binding energy, one peak per electronic level, so the peaks name the elements present. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the binding energy $E_b$ of a level, from photon energy $hf$ and measured kinetic energy $K$ ::@:: $E_b = hf - K$, with the work-function offset between sample and spectrometer calibrated out against a known line. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why only the near-surface layers contribute clean photoemission peaks ::@:: Electrons born deeper than a few nanometres scatter on the way out and arrive with less energy, so their peaks shift or they never arrive. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## photon sources
 
@@ -42,6 +42,6 @@ The source decides which levels are reachable. Ultraviolet light frees valence e
 
 Flashcards for this section are as follows:
 
-- overview: what the photon source decides in photoemission spectroscopy ::@:: Which levels are reachable: ultraviolet light frees valence electrons, while X-rays reach the tightly bound core levels.
-- what ultraviolet photoelectron spectroscopy reads ::@:: The valence bands of a material, from the electrons ultraviolet light frees.
-- which photoemission type reads the tightly bound core levels ::@:: X-ray photoelectron spectroscopy (XPS), which irradiates the material with X-ray photons.
+- overview: what the photon source decides in photoemission spectroscopy ::@:: Which levels are reachable: ultraviolet light frees valence electrons, while X-rays reach the tightly bound core levels. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what ultraviolet photoelectron spectroscopy reads ::@:: The valence bands of a material, from the electrons ultraviolet light frees. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- which photoemission type reads the tightly bound core levels ::@:: X-ray photoelectron spectroscopy (XPS), which irradiates the material with X-ray photons. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->

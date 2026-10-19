@@ -17,8 +17,8 @@ The testing effect, also called the retrieval practice effect, means that the ac
 
 Flashcards for this section are as follows:
 
-- the testing effect, or the retrieval practice effect ::@:: The act of retrieval itself makes the retrieved memory much more likely to be retrieved again.
-- what retrieval practice does to errors ::@:: It strengthens them along with accurate memories, so errors and false memories grow with practice.
+- the testing effect, or the retrieval practice effect ::@:: The act of retrieval itself makes the retrieved memory much more likely to be retrieved again. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what retrieval practice does to errors ::@:: It strengthens them along with accurate memories, so errors and false memories grow with practice. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## retrieval-induced forgetting
 
@@ -28,7 +28,7 @@ Retrieval-induced forgetting runs the other way: recalling specific information 
 
 Flashcards for this section are as follows:
 
-- retrieval-induced forgetting ::@:: Recalling specific information causes the forgetting of related, non-retrieved items.
+- retrieval-induced forgetting ::@:: Recalling specific information causes the forgetting of related, non-retrieved items. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## references
 

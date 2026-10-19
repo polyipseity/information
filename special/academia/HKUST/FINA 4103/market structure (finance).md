@@ -30,11 +30,11 @@ A pre-IPO stock is held by management, founders, and private investors rather th
 
 Flashcards for this section are as follows:
 
-- axes along which markets differ ::@:: Trading speed, how orders are matched and handled, flexibility, fungibility, liquidity, and how prices are set.
-- the three broad types of market ::@:: Over-the-counter markets, fixing and auctions, and continuous trading with a central limit-order book.
-- how a pre-IPO stock is held and traded ::@:: Not publicly listed; held by management, founders, and private investors; changes hands by bilateral negotiation.
-- how a bond is traded at each stage ::@:: Auctioned in the primary market on issue, then traded over the counter in the secondary market.
-- how one stock can face different trading protocols ::@:: Different venues can use different protocols, such as a dealer market and a double auction.
+- axes along which markets differ ::@:: Trading speed, how orders are matched and handled, flexibility, fungibility, liquidity, and how prices are set. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the three broad types of market ::@:: Over-the-counter markets, fixing and auctions, and continuous trading with a central limit-order book. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how a pre-IPO stock is held and traded ::@:: Not publicly listed; held by management, founders, and private investors; changes hands by bilateral negotiation. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how a bond is traded at each stage ::@:: Auctioned in the primary market on issue, then traded over the counter in the secondary market. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how one stock can face different trading protocols ::@:: Different venues can use different protocols, such as a dealer market and a double auction. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## centralized markets
 
@@ -113,21 +113,21 @@ The revenue question is unresolved. Exchanges earn from market data, and a _Wall
 
 Flashcards for this section are as follows:
 
-- how many national securities exchanges the United States registers with the SEC ::@:: 16, plus many alternative trading systems such as dark pools.
-- composition of United States equity trading venues in the earlier breakdown ::@:: 13 exchanges, 33 equity alternative trading systems, and over-the-counter venues.
-- the three families that own most United States exchanges, and their venues ::@:: Cboe with BYX, BZX, EDGA, and EDGX; NYSE with the New York Stock Exchange, Arca, American, and National; and Nasdaq with BX, PHLX, and the Nasdaq Stock Market.
-- United States exchanges outside those families ::@:: The Chicago Stock Exchange and IEX.
-- markets outside the United States and how their exchanges are organized ::@:: Hong Kong runs the Hong Kong Stock Exchange, the United Kingdom the London Stock Exchange, and Japan the Tokyo Stock Exchange; China's market is organized into A-shares and B-shares.
-- example of the SEC's promotion of exchange competition ::@:: The Securities Exchange Act of 1934.
-- rulebook that makes exchange competition workable ::@:: Regulation National Market System, whose order protection rule is Rule 611.
-- explicit trading fees in the United States ::@:: Very small, roughly 0.05 basis points, while other trading costs stay high.
-- United States equity market share of the NYSE and Nasdaq in 1998 ::@:: 52% and 40% respectively, with other exchanges taking 8%.
-- largest United States equity trading venue in 2015 ::@:: The FINRA trade reporting facility, at 20.3%.
-- source of the 1998 and 2015 venue shares ::@:: Credit Suisse Trading Strategy.
-- what Budish, Lee, and Shims (2023) predict for trading fees ::@:: That they decline and become negligible, which is what is observed.
-- why the exchanges' trade-execution services are identical ::@:: Unlisted trading privileges make every listed stock available everywhere, and Regulation NMS requires the same execution everywhere.
-- competition the United States exchange market resembles ::@:: Bertrand competition.
-- where the revenue comes from once the fee is zero ::@:: Market data, whose fees the SEC declined to let the exchanges raise in October 2018.
+- how many national securities exchanges the United States registers with the SEC ::@:: 16, plus many alternative trading systems such as dark pools. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- composition of United States equity trading venues in the earlier breakdown ::@:: 13 exchanges, 33 equity alternative trading systems, and over-the-counter venues. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the three families that own most United States exchanges, and their venues ::@:: Cboe with BYX, BZX, EDGA, and EDGX; NYSE with the New York Stock Exchange, Arca, American, and National; and Nasdaq with BX, PHLX, and the Nasdaq Stock Market. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- United States exchanges outside those families ::@:: The Chicago Stock Exchange and IEX. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- markets outside the United States and how their exchanges are organized ::@:: Hong Kong runs the Hong Kong Stock Exchange, the United Kingdom the London Stock Exchange, and Japan the Tokyo Stock Exchange; China's market is organized into A-shares and B-shares. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- example of the SEC's promotion of exchange competition ::@:: The Securities Exchange Act of 1934. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- rulebook that makes exchange competition workable ::@:: Regulation National Market System, whose order protection rule is Rule 611. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- explicit trading fees in the United States ::@:: Very small, roughly 0.05 basis points, while other trading costs stay high. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- United States equity market share of the NYSE and Nasdaq in 1998 ::@:: 52% and 40% respectively, with other exchanges taking 8%. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- largest United States equity trading venue in 2015 ::@:: The FINRA trade reporting facility, at 20.3%. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- source of the 1998 and 2015 venue shares ::@:: Credit Suisse Trading Strategy. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what Budish, Lee, and Shims (2023) predict for trading fees ::@:: That they decline and become negligible, which is what is observed. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why the exchanges' trade-execution services are identical ::@:: Unlisted trading privileges make every listed stock available everywhere, and Regulation NMS requires the same execution everywhere. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- competition the United States exchange market resembles ::@:: Bertrand competition. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- where the revenue comes from once the fee is zero ::@:: Market data, whose fees the SEC declined to let the exchanges raise in October 2018. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## electronic trading
 
@@ -139,6 +139,6 @@ An engraving from 1879 shows a hall packed shoulder to shoulder with men in top 
 
 Flashcards for this section are as follows:
 
-- what electronic trading changed ::@:: Execution became faster and more transparent, and pricing moved from a call auction to a limit-order book.
-- where electronic matching happens ::@:: In a data centre: racks of status lights along an aisle, with nobody in the room.
-- what the 1879 engraving and the data centre show together ::@:: Matching buyers and sellers no longer takes a room full of people.
+- what electronic trading changed ::@:: Execution became faster and more transparent, and pricing moved from a call auction to a limit-order book. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- where electronic matching happens ::@:: In a data centre: racks of status lights along an aisle, with nobody in the room. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the 1879 engraving and the data centre show together ::@:: Matching buyers and sellers no longer takes a room full of people. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->

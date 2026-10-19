@@ -18,12 +18,12 @@ A phobia runs the whole [conditioning](classical%20conditioning.md) process. Pho
 
 Flashcards for this section are as follows:
 
-- what a phobia is ::@:: An irrational, persistent and excessive fear of an object or situation, out of all proportion to the danger.
-- what a phobia comes with ::@:: A drive to avoid the object or situation.
-- what can account for a phobia's original cause ::@:: A push in a swimming pool before the child could swim, or a sibling putting a spider down a collar.
-- when a phobia typically begins ::@:: In childhood or early adulthood.
-- how long a phobia persists ::@:: More than six months.
-- how many people with a phobia have more than one ::@:: Most of them, around three quarters.
+- what a phobia is ::@:: An irrational, persistent and excessive fear of an object or situation, out of all proportion to the danger. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a phobia comes with ::@:: A drive to avoid the object or situation. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what can account for a phobia's original cause ::@:: A push in a swimming pool before the child could swim, or a sibling putting a spider down a collar. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- when a phobia typically begins ::@:: In childhood or early adulthood. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how long a phobia persists ::@:: More than six months. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how many people with a phobia have more than one ::@:: Most of them, around three quarters. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## how a phobia forms
 
@@ -33,7 +33,7 @@ A neutral stimulus is paired again and again with one that already produces fear
 
 Flashcards for this section are as follows:
 
-- a stimulus the child is not born to fear ::@:: It needs more pairings before the cue alone produces fear, where a loud noise needs fewer.
+- a stimulus the child is not born to fear ::@:: It needs more pairings before the cue alone produces fear, where a loud noise needs fewer. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ### conditioning a child to fear a harmless object
 
@@ -45,15 +45,15 @@ The study is the standard demonstration of fear conditioning. It is also the usu
 
 Flashcards for this section are as follows:
 
-- the process behind a phobia ::@:: A phobia forms by fear conditioning, which is ordinary conditioning with an aversive outcome.
-- how a neutral cue comes to produce fear on its own ::@:: A neutral cue paired again and again with a startling noise comes to produce fear on its own.
-- the age of the child in the 1920 conditioning study ::@:: Nine months old.
-- the stimuli presented before any noise was used ::@:: A rat, a dog, a rabbit, a monkey, and furry or plain masks, none of which disturbed the child.
-- what Watson did as the child was about to touch the rat ::@:: Watson made a loud noise, and the child was startled and cried.
-- what happened when the rat appeared again after the pairings ::@:: The child was frightened of the rat and cried, with no noise.
-- what the 1920 study demonstrates ::@:: That a child can be conditioned to fear something harmless.
-- the ethical criticism of the 1920 study ::@:: No independent review, repeated distress on purpose, and no assessment or follow-up of the risk to the child.
-- why fear of loud noises made a useful unconditioned stimulus ::@:: A child is born with a fear of loud noises, so the pairing takes fewer trials.
+- the process behind a phobia ::@:: A phobia forms by fear conditioning, which is ordinary conditioning with an aversive outcome. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how a neutral cue comes to produce fear on its own ::@:: A neutral cue paired again and again with a startling noise comes to produce fear on its own. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the age of the child in the 1920 conditioning study ::@:: Nine months old. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the stimuli presented before any noise was used ::@:: A rat, a dog, a rabbit, a monkey, and furry or plain masks, none of which disturbed the child. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what Watson did as the child was about to touch the rat ::@:: Watson made a loud noise, and the child was startled and cried. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what happened when the rat appeared again after the pairings ::@:: The child was frightened of the rat and cried, with no noise. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the 1920 study demonstrates ::@:: That a child can be conditioned to fear something harmless. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the ethical criticism of the 1920 study ::@:: No independent review, repeated distress on purpose, and no assessment or follow-up of the risk to the child. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why fear of loud noises made a useful unconditioned stimulus ::@:: A child is born with a fear of loud noises, so the pairing takes fewer trials. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ### stimulus generalisation
 
@@ -63,9 +63,9 @@ Watson brought back the earlier animals and furry objects. The child was distres
 
 Flashcards for this section are as follows:
 
-- stimulus generalisation ::@:: The conditioned fear spreads to stimuli that resemble the conditioned one and were never paired with anything.
-- what the 1920 study found under stimulus generalisation ::@:: The child showed distress at a rabbit, a dog, and a Santa Claus mask, none of which had been paired with the noise.
-- why stimulus generalisation hides a phobia's cause ::@:: The cue stands for a whole class, so memory of one event does not identify the class.
+- stimulus generalisation ::@:: The conditioned fear spreads to stimuli that resemble the conditioned one and were never paired with anything. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the 1920 study found under stimulus generalisation ::@:: The child showed distress at a rabbit, a dog, and a Santa Claus mask, none of which had been paired with the noise. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why stimulus generalisation hides a phobia's cause ::@:: The cue stands for a whole class, so memory of one event does not identify the class. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## why the fear lasts
 
@@ -77,13 +77,13 @@ Avoidance stops extinction. A frightened child starts avoiding the feared object
 
 Flashcards for this section are as follows:
 
-- how extinction and avoidance together shape a fear ::@:: Extinction ends a conditioned fear, and avoidance prevents it, so a fear that is never tested can harden into a phobia.
-- why many frightened children do not develop a phobia ::@:: The conditioned fear is not reinforced and so disappears over time.
-- what extinction of a conditioned fear requires ::@:: The feared object has to turn up again and again, with nothing bad following it.
-- what stops a frightened child avoiding the feared object ::@:: A parent or a clinician discouraging it.
-- what avoidance does to the strength of the association ::@:: It keeps the association strong rather than letting it fade.
-- what a maintained fear can reach by adulthood ::@:: It can be severe enough to count as an anxiety disorder.
-- what distinguishes a phobia from an ordinary childhood fear ::@:: Years of avoidance, with the fear never once tested against the object.
+- how extinction and avoidance together shape a fear ::@:: Extinction ends a conditioned fear, and avoidance prevents it, so a fear that is never tested can harden into a phobia. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why many frightened children do not develop a phobia ::@:: The conditioned fear is not reinforced and so disappears over time. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what extinction of a conditioned fear requires ::@:: The feared object has to turn up again and again, with nothing bad following it. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what stops a frightened child avoiding the feared object ::@:: A parent or a clinician discouraging it. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what avoidance does to the strength of the association ::@:: It keeps the association strong rather than letting it fade. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a maintained fear can reach by adulthood ::@:: It can be severe enough to count as an anxiety disorder. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what distinguishes a phobia from an ordinary childhood fear ::@:: Years of avoidance, with the fear never once tested against the object. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## reversing a phobia
 
@@ -95,14 +95,14 @@ Mary Cover Jones, a student of Watson, treated a two-year-old boy who feared rab
 
 Flashcards for this section are as follows:
 
-- how exposure reverses a phobia ::@:: Exposure reverses a phobia by supplying the extinction that avoidance withheld.
-- the logic behind exposure ::@:: The feared object is presented, the feared outcome does not arrive, and the association weakens.
-- why exposure must be gradual and repeated ::@:: Extinction inhibits rather than erases.
-- who first applied gradual exposure to a child's rabbit fear ::@:: Mary Cover Jones, a student of John B. Watson.
-- the child's age when treated for a fear of rabbits ::@:: Two years old.
-- how the child's tolerance of rabbits was increased ::@:: She exposed him to rabbits gradually, in the company of children who did not fear them.
-- what the method Mary Cover Jones pioneered is called ::@:: Behavioural therapy, which gave rise to the exposure component of cognitive behavioural therapy.
-- what cognitive behavioural therapy remains the recommended treatment for ::@:: Specific phobias, where medication is not helpful.
+- how exposure reverses a phobia ::@:: Exposure reverses a phobia by supplying the extinction that avoidance withheld. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the logic behind exposure ::@:: The feared object is presented, the feared outcome does not arrive, and the association weakens. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why exposure must be gradual and repeated ::@:: Extinction inhibits rather than erases. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- who first applied gradual exposure to a child's rabbit fear ::@:: Mary Cover Jones, a student of John B. Watson. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the child's age when treated for a fear of rabbits ::@:: Two years old. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how the child's tolerance of rabbits was increased ::@:: She exposed him to rabbits gradually, in the company of children who did not fear them. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the method Mary Cover Jones pioneered is called ::@:: Behavioural therapy, which gave rise to the exposure component of cognitive behavioural therapy. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what cognitive behavioural therapy remains the recommended treatment for ::@:: Specific phobias, where medication is not helpful. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## references
 

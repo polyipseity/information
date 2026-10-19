@@ -18,7 +18,7 @@ Four question sets: the case for studying the brain, the cerebral hemispheres, s
 
 Flashcards for this section are as follows:
 
-- the four question sets the session worked through ::@:: The case for studying the brain, the cerebral hemispheres, split-brain patients, and neuroimaging.
+- the four question sets the session worked through ::@:: The case for studying the brain, the cerebral hemispheres, split-brain patients, and neuroimaging. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## why the brain
 
@@ -58,16 +58,16 @@ The last pair is not about position. Ipsilateral names two things on the same si
 
 Flashcards for this section are as follows:
 
-- what the cognitive revolution was ::@:: The shift from about 1956 in which psychology put internal processes back into its explanations after half a century of ruling them out.
-- the approach the cognitive revolution took ::@:: Understanding the mind in terms of internal representations and information processing.
-- the approaches the cognitive revolution developed ::@:: Information-processing accounts, computational models, psycholinguistics after Chomsky, and artificial intelligence after Simon and Newell.
-- how cognitive neuroscience came out of the two ::@:: The cognitive revolution put the mind back as information processing but said nothing about where the work happened, and imaging made mental activity watchable instead of only inferable.
-- what the structure-process trade-off is ::@:: Two different kinds of information processing can produce the same result, so the result alone cannot say which one produced it.
-- why the trade-off brought cognitive neuroscience into being ::@:: The deciding evidence has to come from outside the behaviour, and knowledge of the brain supplies it.
-- the three major parts of the mammalian brain ::@:: The forebrain, the midbrain, and the hindbrain.
-- what makes those three parts complex ::@:: The same structures also carry embryological names, and a third grouping, the brain stem, cuts across both.
-- the three standard anatomical planes ::@:: Sagittal dividing left from right, coronal dividing front from back, and transverse dividing top from bottom.
-- what medial and contralateral name ::@:: Medial names the middle of the body and contralateral the opposite side. The left hemisphere controls the right side of the body.
+- what the cognitive revolution was ::@:: The shift from about 1956 in which psychology put internal processes back into its explanations after half a century of ruling them out. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the approach the cognitive revolution took ::@:: Understanding the mind in terms of internal representations and information processing. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the approaches the cognitive revolution developed ::@:: Information-processing accounts, computational models, psycholinguistics after Chomsky, and artificial intelligence after Simon and Newell. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how cognitive neuroscience came out of the two ::@:: The cognitive revolution put the mind back as information processing but said nothing about where the work happened, and imaging made mental activity watchable instead of only inferable. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the structure-process trade-off is ::@:: Two different kinds of information processing can produce the same result, so the result alone cannot say which one produced it. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why the trade-off brought cognitive neuroscience into being ::@:: The deciding evidence has to come from outside the behaviour, and knowledge of the brain supplies it. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the three major parts of the mammalian brain ::@:: The forebrain, the midbrain, and the hindbrain. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what makes those three parts complex ::@:: The same structures also carry embryological names, and a third grouping, the brain stem, cuts across both. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the three standard anatomical planes ::@:: Sagittal dividing left from right, coronal dividing front from back, and transverse dividing top from bottom. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what medial and contralateral name ::@:: Medial names the middle of the body and contralateral the opposite side. The left hemisphere controls the right side of the body. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## the cerebral hemispheres
 
@@ -103,19 +103,19 @@ The [visual pathway](../../split-brain.md#the%20visual%20pathway) runs from the 
 
 Flashcards for this section are as follows:
 
-- what gray matter contains ::@:: The cell bodies and dendrites, the parts that receive and integrate.
-- what white matter consists of ::@:: Mostly axons, which are white because they are wrapped in myelin.
-- whether the connections between the hemispheres are white or gray matter ::@:: White matter, since the corpus callosum is a bundle of myelinated axons.
-- what subcortical structures are ::@:: Structures that lie beneath the cerebral cortex and above the brain stem.
-- what the thalamus does ::@:: It is the switching station every sense but smell passes through on the way to the cortex.
-- what the hippocampus does ::@:: It takes new memories in and moves them to long-term storage.
-- what the amygdala does ::@:: It processes and recognises emotion, fear first among them.
-- the work the basal ganglia carry ::@:: Voluntary motor control, habit formation, emotion, and reward processing.
-- the four parts of the cerebral cortex ::@:: The frontal, parietal, occipital, and temporal lobes.
-- what phrenology claimed ::@:: That the shape of the skull reports the size of the brain tissue beneath it, and so the strength of the faculty there.
-- phrenology's lasting contribution ::@:: The doctrine of cerebral localisation, that different regions do different jobs.
-- where the optic chiasm puts the two halves of each retina ::@:: The nasal half, the half nearer the nose, crosses to the far side, and the temporal half, the half nearer the temple, stays on its own side.
-- where the visual pathway ends ::@:: The primary visual cortex in the occipital lobe, after the lateral geniculate nucleus, a relay station of the thalamus, and the optic radiations.
+- what gray matter contains ::@:: The cell bodies and dendrites, the parts that receive and integrate. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what white matter consists of ::@:: Mostly axons, which are white because they are wrapped in myelin. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- whether the connections between the hemispheres are white or gray matter ::@:: White matter, since the corpus callosum is a bundle of myelinated axons. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what subcortical structures are ::@:: Structures that lie beneath the cerebral cortex and above the brain stem. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the thalamus does ::@:: It is the switching station every sense but smell passes through on the way to the cortex. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the hippocampus does ::@:: It takes new memories in and moves them to long-term storage. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the amygdala does ::@:: It processes and recognises emotion, fear first among them. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the work the basal ganglia carry ::@:: Voluntary motor control, habit formation, emotion, and reward processing. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the four parts of the cerebral cortex ::@:: The frontal, parietal, occipital, and temporal lobes. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what phrenology claimed ::@:: That the shape of the skull reports the size of the brain tissue beneath it, and so the strength of the faculty there. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- phrenology's lasting contribution ::@:: The doctrine of cerebral localisation, that different regions do different jobs. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- where the optic chiasm puts the two halves of each retina ::@:: The nasal half, the half nearer the nose, crosses to the far side, and the temporal half, the half nearer the temple, stays on its own side. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- where the visual pathway ends ::@:: The primary visual cortex in the occipital lobe, after the lateral geniculate nucleus, a relay station of the thalamus, and the optic radiations. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## split-brain patients
 
@@ -151,15 +151,15 @@ An Arcimboldo image is a picture built out of fruits and vegetables that reads a
 
 Flashcards for this section are as follows:
 
-- the medical reason for split-brain surgery ::@:: Drug-resistant epilepsy, since cutting the corpus callosum stops the epileptic discharge from spreading between hemispheres.
-- how a stimulus is sent to one hemisphere alone ::@:: The patient fixes on a point, and the image is flashed briefly on one side of it, for less time than an eye movement takes.
-- why a stimulus flashed left of fixation reaches only the right hemisphere ::@:: The optic chiasm partially crosses, so the left visual field lands on the right hemisphere, and the cut callosum keeps it there.
-- how the two hemispheres differ in language ::@:: The language areas are lateralised to the left, so the right hemisphere acts on what it is shown without being able to say what it was.
-- what the left hand does while the left hemisphere gives its answer ::@:: It points at or reaches for the object that matches what it was shown, as the patient says something else aloud.
-- how the left hemisphere explains an act the right hemisphere initiated ::@:: It builds a story after the fact, such as the claw going with the chicken and a shovel being needed for the shed.
-- what the patient's hand does, and what the patient says, in the claw and shovel trial ::@:: The hand points to a shovel and the patient says chicken.
-- what an Arcimboldo image is ::@:: A picture built out of fruits and vegetables that reads as a face.
-- what each hemisphere reports about an Arcimboldo image ::@:: The right hemisphere reports a face and the left reports the fruits.
+- the medical reason for split-brain surgery ::@:: Drug-resistant epilepsy, since cutting the corpus callosum stops the epileptic discharge from spreading between hemispheres. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how a stimulus is sent to one hemisphere alone ::@:: The patient fixes on a point, and the image is flashed briefly on one side of it, for less time than an eye movement takes. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why a stimulus flashed left of fixation reaches only the right hemisphere ::@:: The optic chiasm partially crosses, so the left visual field lands on the right hemisphere, and the cut callosum keeps it there. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how the two hemispheres differ in language ::@:: The language areas are lateralised to the left, so the right hemisphere acts on what it is shown without being able to say what it was. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the left hand does while the left hemisphere gives its answer ::@:: It points at or reaches for the object that matches what it was shown, as the patient says something else aloud. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how the left hemisphere explains an act the right hemisphere initiated ::@:: It builds a story after the fact, such as the claw going with the chicken and a shovel being needed for the shed. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the patient's hand does, and what the patient says, in the claw and shovel trial ::@:: The hand points to a shovel and the patient says chicken. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what an Arcimboldo image is ::@:: A picture built out of fruits and vegetables that reads as a face. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what each hemisphere reports about an Arcimboldo image ::@:: The right hemisphere reports a face and the left reports the fruits. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## neuroimaging
 
@@ -195,14 +195,14 @@ Flashcards for this section are as follows:
 
 Flashcards for this section are as follows:
 
-- the difference between electroencephalography and functional magnetic resonance imaging ::@:: Electroencephalography has a great temporal and a poor spatial resolution, and functional magnetic resonance imaging has a great spatial and a poor temporal resolution.
-- what makes electroencephalography's spatial resolution poor ::@:: It reads a voltage that started elsewhere and reached the scalp.
-- what makes functional magnetic resonance imaging's temporal resolution poor ::@:: It reads the oxygen in the blood, and blood takes seconds to arrive.
-- what magnetic resonance imaging records ::@:: The structure of the brain, the tissue itself, so it shows what is there.
-- the other structure method taught alongside magnetic resonance imaging ::@:: Computerized axial tomography.
-- what functional magnetic resonance imaging records ::@:: Changes in oxygen levels in blood flowing to the brain during a task, so it shows what was working.
-- what diffuse optical imaging does ::@:: It directs infrared light into the brain and measures the light that comes back out.
-- how deep diffuse optical imaging reaches ::@:: One to three centimetres from the scalp, so only the superficial layers of the cortex.
-- what transcranial magnetic stimulation applies ::@:: A brief magnetic pulse to the head that induces a weak electrical current in the brain.
-- how transcranial magnetic stimulation is used in research ::@:: It interrupts a region at a chosen moment and the researcher reads what the person can no longer do.
-- how transcranial direct-current stimulation differs from transcranial magnetic stimulation ::@:: It uses the electrical current directly rather than inducing it with magnetic pulses, at a low strength for longer than a pulse lasts.
+- the difference between electroencephalography and functional magnetic resonance imaging ::@:: Electroencephalography has a great temporal and a poor spatial resolution, and functional magnetic resonance imaging has a great spatial and a poor temporal resolution. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what makes electroencephalography's spatial resolution poor ::@:: It reads a voltage that started elsewhere and reached the scalp. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what makes functional magnetic resonance imaging's temporal resolution poor ::@:: It reads the oxygen in the blood, and blood takes seconds to arrive. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what magnetic resonance imaging records ::@:: The structure of the brain, the tissue itself, so it shows what is there. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the other structure method taught alongside magnetic resonance imaging ::@:: Computerized axial tomography. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what functional magnetic resonance imaging records ::@:: Changes in oxygen levels in blood flowing to the brain during a task, so it shows what was working. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what diffuse optical imaging does ::@:: It directs infrared light into the brain and measures the light that comes back out. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how deep diffuse optical imaging reaches ::@:: One to three centimetres from the scalp, so only the superficial layers of the cortex. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what transcranial magnetic stimulation applies ::@:: A brief magnetic pulse to the head that induces a weak electrical current in the brain. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how transcranial magnetic stimulation is used in research ::@:: It interrupts a region at a chosen moment and the researcher reads what the person can no longer do. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how transcranial direct-current stimulation differs from transcranial magnetic stimulation ::@:: It uses the electrical current directly rather than inducing it with magnetic pulses, at a low strength for longer than a pulse lasts. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->

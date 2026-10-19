@@ -18,9 +18,9 @@ It exists because a large order cannot be filled in one venue: even a modest blo
 
 Flashcards for this section are as follows:
 
-- what smart order routing does ::@:: The automated handling of an order across venues, placing it where it can be filled best.
-- which rule a smart order router exists to discharge ::@:: The order protection rule, Rule 611.
-- why a large order needs routing at all ::@:: It runs out of size at the best price, and the remainder must go somewhere at a worse price.
+- what smart order routing does ::@:: The automated handling of an order across venues, placing it where it can be filled best. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- which rule a smart order router exists to discharge ::@:: The order protection rule, Rule 611. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why a large order needs routing at all ::@:: It runs out of size at the best price, and the remainder must go somewhere at a worse price. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## how a routed order is split
 
@@ -30,9 +30,9 @@ Once an order has to be spread over several venues, the routing algorithm decide
 
 Flashcards for this section are as follows:
 
-- what a routing algorithm has to decide once an order spans several venues ::@:: How much of the order goes to each venue.
-- most popular way a routing algorithm splits an order ::@:: Pro-rata allocation, sending a share to each venue in proportion to the liquidity it shows.
-- two other routing patterns ::@:: A time-priority rule that fills one venue at a time in rank order, and a round robin that takes the venues in turn.
+- what a routing algorithm has to decide once an order spans several venues ::@:: How much of the order goes to each venue. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- most popular way a routing algorithm splits an order ::@:: Pro-rata allocation, sending a share to each venue in proportion to the liquidity it shows. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- two other routing patterns ::@:: A time-priority rule that fills one venue at a time in rank order, and a round robin that takes the venues in turn. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## routing latency
 
@@ -44,5 +44,5 @@ Routing has a disclosure cost. The venue, the size, and the time of each fill to
 
 Flashcards for this section are as follows:
 
-- why a broker-dealer may route the order itself ::@:: The exchange's own router can be slower than the broker's technology.
-- what a visible pattern of fills discloses ::@:: How much of a large order is still to come.
+- why a broker-dealer may route the order itself ::@:: The exchange's own router can be slower than the broker's technology. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a visible pattern of fills discloses ::@:: How much of a large order is still to come. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->

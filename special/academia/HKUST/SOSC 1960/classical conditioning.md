@@ -23,17 +23,17 @@ Pavlov arrived at conditioning from digestion. He was a physiologist. He shared 
 
 Flashcards for this section are as follows:
 
-- what classical conditioning is ::@:: Learning that one stimulus predicts another. The signal calls up the response the event would have caused, before the event arrives.
-- what the association between stimulus and response is ::@:: A signal, not a cause: the bell does not make the dog salivate, it announces meat.
-- the general claim about what a perceivable stimulus can do ::@:: Any stimulus an organism can perceive is capable of eliciting any reaction the organism is capable of making.
-- what follows from that general claim ::@:: Almost any sound, sight, or smell can shift muscle tension, mood, and attitude.
-- how the other half of conditioning decides what an organism does next ::@:: By a consequence following what it did, rather than a signal announcing what is coming.
-- what Pavlov was studying before conditioning ::@:: Digestion, not learning.
-- the prize Pavlov shared ::@:: The 1904 Nobel Prize in Physiology or Medicine.
-- what let Pavlov measure a dog's salivation exactly ::@:: Diverting the saliva into test tubes.
-- what the dogs began doing over repeated trials ::@:: Salivating before the food reached them.
-- which non-food stimuli worked as stand-ins for food ::@:: Metronomes, lights, and bells.
-- what made a stimulus work as a stand-in ::@:: Its reliable signalling that food was on the way, not its kind.
+- what classical conditioning is ::@:: Learning that one stimulus predicts another. The signal calls up the response the event would have caused, before the event arrives. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the association between stimulus and response is ::@:: A signal, not a cause: the bell does not make the dog salivate, it announces meat. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the general claim about what a perceivable stimulus can do ::@:: Any stimulus an organism can perceive is capable of eliciting any reaction the organism is capable of making. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what follows from that general claim ::@:: Almost any sound, sight, or smell can shift muscle tension, mood, and attitude. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how the other half of conditioning decides what an organism does next ::@:: By a consequence following what it did, rather than a signal announcing what is coming. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what Pavlov was studying before conditioning ::@:: Digestion, not learning. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the prize Pavlov shared ::@:: The 1904 Nobel Prize in Physiology or Medicine. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what let Pavlov measure a dog's salivation exactly ::@:: Diverting the saliva into test tubes. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the dogs began doing over repeated trials ::@:: Salivating before the food reached them. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- which non-food stimuli worked as stand-ins for food ::@:: Metronomes, lights, and bells. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what made a stimulus work as a stand-in ::@:: Its reliable signalling that food was on the way, not its kind. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## the four components
 
@@ -47,13 +47,13 @@ Organisms are born with the US–UR pair, and conditioning builds the CS–CR pa
 
 Flashcards for this section are as follows:
 
-- the unconditioned stimulus (US) ::@:: A stimulus that elicits a particular response without prior training.
-- the unconditioned response (UR) ::@:: A response that occurs to a stimulus without prior training.
-- the conditioned stimulus (CS) ::@:: A stimulus that elicits no particular response at first, but comes to after conditioning.
-- the conditioned response (CR) ::@:: The response the conditioned stimulus elicits after repeated pairings with the unconditioned stimulus.
-- the neutral stimulus (NS) ::@:: A stimulus that has not yet been conditioned and belongs to no response.
-- which pair of components an organism is born with ::@:: The unconditioned pair is inborn, and the conditioned pair is built from it by conditioning.
-- why the four terms are named separately ::@:: It lets you say which half was learned.
+- the unconditioned stimulus (US) ::@:: A stimulus that elicits a particular response without prior training. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the unconditioned response (UR) ::@:: A response that occurs to a stimulus without prior training. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the conditioned stimulus (CS) ::@:: A stimulus that elicits no particular response at first, but comes to after conditioning. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the conditioned response (CR) ::@:: The response the conditioned stimulus elicits after repeated pairings with the unconditioned stimulus. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the neutral stimulus (NS) ::@:: A stimulus that has not yet been conditioned and belongs to no response. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- which pair of components an organism is born with ::@:: The unconditioned pair is inborn, and the conditioned pair is built from it by conditioning. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why the four terms are named separately ::@:: It lets you say which half was learned. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## pairing a neutral stimulus with an unconditioned one
 
@@ -67,14 +67,14 @@ Other forms of conditioning sit beside this one, with the plain pairing in the f
 
 Flashcards for this section are as follows:
 
-- the result of pairing a bell with meat over and over ::@:: A bell presented before meat, over and over, ends up producing the salivation only the meat produced at the start.
-- what a bell produces in a laboratory before conditioning ::@:: Nothing.
-- the second stage of the acquisition sequence ::@:: Meat alone producing salivation, the unconditioned pairing.
-- the third stage of the acquisition sequence ::@:: The bell and the meat paired, producing salivation.
-- what the last stage of the acquisition sequence shows ::@:: The bell alone producing salivation, a response it could not produce at the start.
-- the order a neutral stimulus and an unconditioned stimulus must come in ::@:: The neutral stimulus first, the unconditioned stimulus after it.
-- ![a chart of the seven standard conditioning procedures (forward, simultaneous, second order, temporal, extinction, blocking and inhibition), each drawn as a pair of dog panels showing a stimulus beside a piece of food and then that stimulus on its own](attachments/Classical%20Conditioning.svg) ::@:: A chart of the standard conditioning procedures. The first row shows a light paired with a piece of food, then the same light alone with nothing happening.
-- draw the chart of conditioning procedures: how many does it carry, and how is each drawn? ::@:: Seven, each as a pair of dog panels: a stimulus beside a piece of food, then that stimulus on its own, with the plain pairing in the first row. <p> ![a chart of the seven standard conditioning procedures (forward, simultaneous, second order, temporal, extinction, blocking and inhibition), each drawn as a pair of dog panels showing a stimulus beside a piece of food and then that stimulus on its own](attachments/Classical%20Conditioning.svg)
+- the result of pairing a bell with meat over and over ::@:: A bell presented before meat, over and over, ends up producing the salivation only the meat produced at the start. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a bell produces in a laboratory before conditioning ::@:: Nothing. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the second stage of the acquisition sequence ::@:: Meat alone producing salivation, the unconditioned pairing. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the third stage of the acquisition sequence ::@:: The bell and the meat paired, producing salivation. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the last stage of the acquisition sequence shows ::@:: The bell alone producing salivation, a response it could not produce at the start. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the order a neutral stimulus and an unconditioned stimulus must come in ::@:: The neutral stimulus first, the unconditioned stimulus after it. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- ![a chart of the seven standard conditioning procedures (forward, simultaneous, second order, temporal, extinction, blocking and inhibition), each drawn as a pair of dog panels showing a stimulus beside a piece of food and then that stimulus on its own](attachments/Classical%20Conditioning.svg) ::@:: A chart of the standard conditioning procedures. The first row shows a light paired with a piece of food, then the same light alone with nothing happening. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- draw the chart of conditioning procedures: how many does it carry, and how is each drawn? ::@:: Seven, each as a pair of dog panels: a stimulus beside a piece of food, then that stimulus on its own, with the plain pairing in the first row. <p> ![a chart of the seven standard conditioning procedures (forward, simultaneous, second order, temporal, extinction, blocking and inhibition), each drawn as a pair of dog panels showing a stimulus beside a piece of food and then that stimulus on its own](attachments/Classical%20Conditioning.svg) <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-10T00:10:00.000Z,0,2.3065,2.11810397,1,1,0,1,2026-11-10T00:00:00.000Z-->
 
 ## a stimulus that predicts a temperature change
 
@@ -86,11 +86,11 @@ The cue is usually a sound rather than a sight, and this arrangement is easy to 
 
 Flashcards for this section are as follows:
 
-- what a sound that reliably precedes a temperature change comes to do ::@:: A sound that reliably precedes a temperature change acquires the power to call up the step back the temperature change would have caused.
-- the ordinary cue in a temperature example ::@:: A sound, the flush of a toilet.
-- the conditioned stimulus in a temperature example ::@:: The flush itself, predicting the temperature change.
-- the unconditioned stimulus in a temperature example ::@:: The very hot or very cold shower water.
-- the conditioned response in a temperature example ::@:: Stepping back on the flush, before the water temperature changes at all.
+- what a sound that reliably precedes a temperature change comes to do ::@:: A sound that reliably precedes a temperature change acquires the power to call up the step back the temperature change would have caused. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the ordinary cue in a temperature example ::@:: A sound, the flush of a toilet. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the conditioned stimulus in a temperature example ::@:: The flush itself, predicting the temperature change. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the unconditioned stimulus in a temperature example ::@:: The very hot or very cold shower water. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the conditioned response in a temperature example ::@:: Stepping back on the flush, before the water temperature changes at all. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## conditioned emotional responses
 
@@ -100,14 +100,14 @@ A word that puts someone at ease does nothing on its own. A gunshot sound produc
 
 Flashcards for this section are as follows:
 
-- a calming word paired with a frightening sound ::@:: A word that calms can be paired with a sound that frightens, and the fear then attaches to the word.
-- the shape of a conditioned emotional response ::@:: The same as any conditioning: a neutral cue paired with a stimulus that already produces the emotional response.
-- the original neutral stimulus in the relaxation example ::@:: A word that puts someone at ease, such as "relax".
-- the unconditioned stimulus in the relaxation example ::@:: A gunshot sound.
-- the unconditioned response in the relaxation example ::@:: Anxiety.
-- the conditioned response in the relaxation example ::@:: Anxiety elicited by the word "relax" alone.
-- what the inversion means ::@:: A cue that would once have calmed now raises the response it was paired with.
-- how many pairings invert the meaning of the cue ::@:: As few as five or six.
+- a calming word paired with a frightening sound ::@:: A word that calms can be paired with a sound that frightens, and the fear then attaches to the word. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the shape of a conditioned emotional response ::@:: The same as any conditioning: a neutral cue paired with a stimulus that already produces the emotional response. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the original neutral stimulus in the relaxation example ::@:: A word that puts someone at ease, such as "relax". <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the unconditioned stimulus in the relaxation example ::@:: A gunshot sound. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the unconditioned response in the relaxation example ::@:: Anxiety. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the conditioned response in the relaxation example ::@:: Anxiety elicited by the word "relax" alone. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the inversion means ::@:: A cue that would once have calmed now raises the response it was paired with. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how many pairings invert the meaning of the cue ::@:: As few as five or six. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## what conditioning generates
 
@@ -117,8 +117,8 @@ Conditioning does more than attach one response to one cue: the same cue can end
 
 Flashcards for this section are as follows:
 
-- what one cue can come to carry ::@:: Several different responses, a liking or a disliking, rather than only the one it was paired with.
-- what conditioning cannot do on its own ::@:: Form an association from a pairing alone.
+- what one cue can come to carry ::@:: Several different responses, a liking or a disliking, rather than only the one it was paired with. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what conditioning cannot do on its own ::@:: Form an association from a pairing alone. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ### preferences and aversions
 
@@ -128,10 +128,10 @@ A person eats a food and then falls ill. The taste or smell of that food now car
 
 Flashcards for this section are as follows:
 
-- the directions a conditioned response can push a person ::@:: A conditioned response pulls towards a cue or pushes away from it. The direction follows the sign of the unconditioned stimulus paired with it.
-- taste aversion conditioning ::@:: An illness following a food attaches an avoidance to the taste or smell of that food.
-- what decides whether conditioning produces a preference or an aversion ::@:: The sign of the unconditioned stimulus paired with the cue.
-- what an aversion conditioned onto a taste out of proportion to the number of pairings shows ::@:: Not every association needs many trials to form.
+- the directions a conditioned response can push a person ::@:: A conditioned response pulls towards a cue or pushes away from it. The direction follows the sign of the unconditioned stimulus paired with it. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- taste aversion conditioning ::@:: An illness following a food attaches an avoidance to the taste or smell of that food. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what decides whether conditioning produces a preference or an aversion ::@:: The sign of the unconditioned stimulus paired with the cue. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what an aversion conditioned onto a taste out of proportion to the number of pairings shows ::@:: Not every association needs many trials to form. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ### the conditions it underlies
 
@@ -145,11 +145,11 @@ A third application is therapeutic rather than clinical, and it motivates the st
 
 Flashcards for this section are as follows:
 
-- what conditioning is applied to besides clinical conditions ::@:: Conditioning underlies phobias and panic disorder, opposes a drug's own effect, and supplies the treatment principle behind exposure.
-- the clinical conditions fear conditioning underlies ::@:: Panic disorder and phobias.
-- why a conditioned compensatory response matters for drug use ::@:: The body's response to withdrawal pain is itself conditioned.
-- what a conditioned compensatory response does in connection with morphine ::@:: It makes a person more sensitive to pain, not less, in response to cues associated with the drug.
-- which application of extinction is described as helpful ::@:: The therapeutic one: extinction is the principle exposure therapy is built on.
+- what conditioning is applied to besides clinical conditions ::@:: Conditioning underlies phobias and panic disorder, opposes a drug's own effect, and supplies the treatment principle behind exposure. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the clinical conditions fear conditioning underlies ::@:: Panic disorder and phobias. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why a conditioned compensatory response matters for drug use ::@:: The body's response to withdrawal pain is itself conditioned. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a conditioned compensatory response does in connection with morphine ::@:: It makes a person more sensitive to pain, not less, in response to cues associated with the drug. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- which application of extinction is described as helpful ::@:: The therapeutic one: extinction is the principle exposure therapy is built on. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ### why a pairing alone is not enough
 
@@ -159,12 +159,12 @@ A pairing is necessary, but it is not enough on its own. Presenting a neutral st
 
 Flashcards for this section are as follows:
 
-- what presenting a neutral stimulus before an unconditioned stimulus guarantees ::@:: A neutral stimulus presented before an unconditioned stimulus does not always form an association, because nothing registers when the outcome was already predicted.
-- the relation between a pairing and the association it is meant to produce ::@:: Necessary, but not enough on its own.
-- what has to register for an association to form ::@:: That the outcome was not already predicted.
-- what happens to a cue that adds nothing to what the organism already knows ::@:: No association is attached to it.
-- the effect that shows a pairing alone is not sufficient ::@:: The blocking effect.
-- what sits at the centre of the account of what conditioning learns ::@:: Attention and surprise.
+- what presenting a neutral stimulus before an unconditioned stimulus guarantees ::@:: A neutral stimulus presented before an unconditioned stimulus does not always form an association, because nothing registers when the outcome was already predicted. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the relation between a pairing and the association it is meant to produce ::@:: Necessary, but not enough on its own. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what has to register for an association to form ::@:: That the outcome was not already predicted. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what happens to a cue that adds nothing to what the organism already knows ::@:: No association is attached to it. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the effect that shows a pairing alone is not sufficient ::@:: The blocking effect. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what sits at the centre of the account of what conditioning learns ::@:: Attention and surprise. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## references
 

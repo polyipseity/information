@@ -15,9 +15,9 @@ Collective memory is the kind of memory people in a group share, whether family,
 
 Flashcards for this section are as follows:
 
-- what collective memory is ::@:: The kind of memory people in a group share, whether family, community, schoolmates, or citizens of a state or a country.
-- an example of collective memory ::@:: World War II.
-- what keeps a collective memory alive ::@:: Shared emotion: the emotionally charged version of an event is the one encoded and handed down.
+- what collective memory is ::@:: The kind of memory people in a group share, whether family, community, schoolmates, or citizens of a state or a country. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- an example of collective memory ::@:: World War II. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what keeps a collective memory alive ::@:: Shared emotion: the emotionally charged version of an event is the one encoded and handed down. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## references
 

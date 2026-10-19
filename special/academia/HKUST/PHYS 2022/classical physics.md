@@ -28,7 +28,7 @@ Mechanics was given its experimental foundations by Galileo (1564–1642) and it
 Flashcards for this section are as follows:
 
 - the founders of mechanics ::@:: Galileo established its experimental foundations, and Newton supplied its laws of motion and gravitation. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
-- what Newton's unification joined ::@:: Planetary motion and motion on Earth: the planets about the Sun follow the same laws as apples falling or balls flying.
+- what Newton's unification joined ::@:: Planetary motion and motion on Earth: the planets about the Sun follow the same laws as apples falling or balls flying. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ### laws of motion
 
@@ -39,9 +39,9 @@ Newton's three laws of motion describe how forces change motion. The first law, 
 Flashcards for this section are as follows:
 
 - Newton's second law: the equation for $F$, $m$, and $a$ ::@:: $F = ma$. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
-- Newton's first law: what it states, and its two names ::@:: An object keeps a constant velocity unless a net external force acts on it; the law of inertia, which also defines inertial reference frames.
-- Newton's second law in general form: the relation among the force $F$, the momentum $p$, and the time $t$ ::@:: $F = dp/dt$, force equal to the time rate of change of the linear momentum.
-- Newton's third law for the force $F_{21}$ that body 1 exerts on body 2 ::@:: $F_{21} = -F_{12}$: equal in magnitude, opposite in direction, the law of action and reaction.
+- Newton's first law: what it states, and its two names ::@:: An object keeps a constant velocity unless a net external force acts on it; the law of inertia, which also defines inertial reference frames. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- Newton's second law in general form: the relation among the force $F$, the momentum $p$, and the time $t$ ::@:: $F = dp/dt$, force equal to the time rate of change of the linear momentum. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- Newton's third law for the force $F_{21}$ that body 1 exerts on body 2 ::@:: $F_{21} = -F_{12}$: equal in magnitude, opposite in direction, the law of action and reaction. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ### gravitation
 
@@ -75,8 +75,8 @@ Flashcards for this section are as follows:
 
 - Maxwell's equations giving the divergence of $D$ and $B$ ::@:: $\nabla\cdot D = \rho_v$ and $\nabla\cdot B = 0$. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - Maxwell's equations giving the curl of $E$ and $H$ ::@:: $\nabla\times E = -\frac{\partial B}{\partial t}$ and $\nabla\times H = \frac{\partial D}{\partial t} + J$. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
-- the Lorentz force law on a charge $q$ moving with velocity $\vec v$ ::@:: $\vec F = q\vec E + q\vec v \times \vec B$.
-- what charges and currents do, according to Maxwell's equations ::@:: They create fields, and those fields in turn create further electric and magnetic fields.
+- the Lorentz force law on a charge $q$ moving with velocity $\vec v$ ::@:: $\vec F = q\vec E + q\vec v \times \vec B$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what charges and currents do, according to Maxwell's equations ::@:: They create fields, and those fields in turn create further electric and magnetic fields. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## thermodynamics
 
@@ -98,8 +98,8 @@ Thermodynamics rests on two fundamental laws, the first $\frac{dE}{dt} = 0$ and 
 Flashcards for this section are as follows:
 
 - the two laws of thermodynamics: the equations for $\frac{dE}{dt}$ and $\frac{dS}{dt}$ ::@:: The first law $\frac{dE}{dt} = 0$ and the second law $\frac{dS}{dt} \geq 0$. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
-- the first law of thermodynamics: $\Delta U$ in terms of the heat $Q$ added and the work $W$ done on the system ::@:: $\Delta U = Q + W$, energy conservation with heat included.
-- what the second law of thermodynamics forbids ::@:: Converting heat completely into work with nothing else changing, heat flowing spontaneously from cold to hot, and any perfect engine, perfect refrigerator, or perpetual motion machine.
+- the first law of thermodynamics: $\Delta U$ in terms of the heat $Q$ added and the work $W$ done on the system ::@:: $\Delta U = Q + W$, energy conservation with heat included. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the second law of thermodynamics forbids ::@:: Converting heat completely into work with nothing else changing, heat flowing spontaneously from cold to hot, and any perfect engine, perfect refrigerator, or perpetual motion machine. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ### zeroth and third laws
 
@@ -109,9 +109,9 @@ The zeroth law states that two systems each in thermodynamic equilibrium with a 
 
 Flashcards for this section are as follows:
 
-- the zeroth law of thermodynamics: how two systems stand that are each in equilibrium with a third ::@:: They are in equilibrium with each other: each at the same temperature as the third, they are at the same temperature as one another.
-- what the zeroth law of thermodynamics makes well defined ::@:: The concept of temperature.
-- the third law of thermodynamics ::@:: Absolute zero temperature cannot be achieved.
+- the zeroth law of thermodynamics: how two systems stand that are each in equilibrium with a third ::@:: They are in equilibrium with each other: each at the same temperature as the third, they are at the same temperature as one another. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the zeroth law of thermodynamics makes well defined ::@:: The concept of temperature. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the third law of thermodynamics ::@:: Absolute zero temperature cannot be achieved. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## technology of the period
 

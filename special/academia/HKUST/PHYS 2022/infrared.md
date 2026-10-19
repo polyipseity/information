@@ -50,8 +50,8 @@ The eye responds only where light is visible. Bolometers and semiconductor detec
 
 Flashcards for this section are as follows:
 
-- the reading just past the red edge, against the reading in the red itself ::@:: Higher than in the red, and higher still the further along the spectrum he moved.
-- why a rising thermometer reading where no light is visible shows that energy is arriving ::@:: Something is delivering energy in a region the eye cannot see, so the radiation there is invisible rather than absent.
-- Herschel's conclusion from the reading past the red edge ::@:: That there must be an invisible form of light beyond the visible spectrum.
-- infrared against ultraviolet: how the two were found ::@:: Both were inferred from a detector reading outside the visible rather than seen.
-- the eye against a bolometer and a semiconductor detector ::@:: The eye responds only where light is visible. The other two respond to some other effect of the radiation, so they reach bands the eye misses.
+- the reading just past the red edge, against the reading in the red itself ::@:: Higher than in the red, and higher still the further along the spectrum he moved. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why a rising thermometer reading where no light is visible shows that energy is arriving ::@:: Something is delivering energy in a region the eye cannot see, so the radiation there is invisible rather than absent. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- Herschel's conclusion from the reading past the red edge ::@:: That there must be an invisible form of light beyond the visible spectrum. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- infrared against ultraviolet: how the two were found ::@:: Both were inferred from a detector reading outside the visible rather than seen. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the eye against a bolometer and a semiconductor detector ::@:: The eye responds only where light is visible. The other two respond to some other effect of the radiation, so they reach bands the eye misses. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->

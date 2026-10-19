@@ -19,7 +19,7 @@ A design with less in it can beat a more elaborate one. On-demand video is one s
 
 Flashcards for this section are as follows:
 
-- on-demand video: which arrangement won the "worse is better" case, and what did it beat? ::@:: A file server handing out files over ordinary requests won, over a media server keeping a session in step with a player application
+- on-demand video: which arrangement won the "worse is better" case, and what did it beat? ::@:: A file server handing out files over ordinary requests won, over a media server keeping a session in step with a player application <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## tight integration and weak integration
 
@@ -41,9 +41,9 @@ Weak integration gives up the fit between the components. A web browser fetches 
 
 Flashcards for this section are as follows:
 
-- tight integration: what does fitting every component to the others cost? ::@:: Each component has to be rebuilt whenever another one changes
-- RTSP session: why must client and server agree at every step? ::@:: Each of the four requests carries its own reply, so both ends track the session state together
-- HTTP: why does it need none of the RTSP steps? ::@:: An HTTP request carries no state from the one before it
+- tight integration: what does fitting every component to the others cost? ::@:: Each component has to be rebuilt whenever another one changes <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- RTSP session: why must client and server agree at every step? ::@:: Each of the four requests carries its own reply, so both ends track the session state together <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- HTTP: why does it need none of the RTSP steps? ::@:: An HTTP request carries no state from the one before it <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## three reasons the simpler design won
 
@@ -55,4 +55,4 @@ Flashcards for this section are as follows:
 
 Flashcards for this section are as follows:
 
-- which three properties let the simpler design win? ::@:: Being backwards-compatible, less complex, and easy to scale
+- which three properties let the simpler design win? ::@:: Being backwards-compatible, less complex, and easy to scale <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->

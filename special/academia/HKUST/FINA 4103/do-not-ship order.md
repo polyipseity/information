@@ -24,11 +24,11 @@ The instruction is one value of the routing decision and it excludes the [interm
 
 Flashcards for this section are as follows:
 
-- what a do-not-ship order instructs ::@:: An instruction that the order must not be routed to another exchange, even where a better price is offered there.
-- what the instruction does not stop ::@:: Trading on the venue that received the order; it executes and rests there as any other order would.
-- what giving up the protection means concretely ::@:: The order may execute at a price the market beat elsewhere, and no rule then requires it to be rerouted to the better quote.
-- can a do-not-ship instruction be combined with an intermarket sweep ::@:: No; they are alternative values of the same routing decision.
-- what a do-not-ship instruction does combine with ::@:: The price qualifier and the time in force, giving the limit form and the immediate-or-cancel form.
+- what a do-not-ship order instructs ::@:: An instruction that the order must not be routed to another exchange, even where a better price is offered there. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the instruction does not stop ::@:: Trading on the venue that received the order; it executes and rests there as any other order would. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what giving up the protection means concretely ::@:: The order may execute at a price the market beat elsewhere, and no rule then requires it to be rerouted to the better quote. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- can a do-not-ship instruction be combined with an intermarket sweep ::@:: No; they are alternative values of the same routing decision. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a do-not-ship instruction does combine with ::@:: The price qualifier and the time in force, giving the limit form and the immediate-or-cancel form. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## a do-not-ship limit order
 
@@ -46,12 +46,12 @@ A resting order is still exposed. Once the market moves away from its price, it 
 
 Flashcards for this section are as follows:
 
-- the two stages a DNS limit order goes through ::@:: Match against the local book first, taking liquidity at or better than the protected best offer, then check the remainder against that quote.
-- what the protected best offer is ::@:: The best quote on another exchange that is immediately and automatically accessible.
-- what happens to a remainder that would have to trade worse than the protected best offer ::@:: It is cancelled, since Rule 610 forbids the locked or crossed quote and the instruction forbids the routing that would fix it.
-- is the whole order cancelled or only the offending part ::@:: Only the offending part; whatever already traded on the local book stands, so one order can fill half its size and still die.
-- what a DNS limit order does when it is not marketable at all ::@:: It rests on one venue's book and nowhere else, making liquidity rather than taking it.
-- how DNS limit orders fare against routable limit orders in a sniping race ::@:: DNS limit orders escape more often; routable limit orders rarely escape at all.
+- the two stages a DNS limit order goes through ::@:: Match against the local book first, taking liquidity at or better than the protected best offer, then check the remainder against that quote. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the protected best offer is ::@:: The best quote on another exchange that is immediately and automatically accessible. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what happens to a remainder that would have to trade worse than the protected best offer ::@:: It is cancelled, since Rule 610 forbids the locked or crossed quote and the instruction forbids the routing that would fix it. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- is the whole order cancelled or only the offending part ::@:: Only the offending part; whatever already traded on the local book stands, so one order can fill half its size and still die. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a DNS limit order does when it is not marketable at all ::@:: It rests on one venue's book and nowhere else, making liquidity rather than taking it. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how DNS limit orders fare against routable limit orders in a sniping race ::@:: DNS limit orders escape more often; routable limit orders rarely escape at all. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## a do-not-ship immediate-or-cancel order
 
@@ -65,8 +65,8 @@ A limit price is optional throughout. Either way the unfilled part goes untaken,
 
 Flashcards for this section are as follows:
 
-- how many fates a DNS immediate-or-cancel order has, and what they are ::@:: Two: it executes against the local book, and whatever is left over is cancelled.
-- why such an order never rests ::@:: The immediate-or-cancel time in force cancels the remainder in the same instant, so there is no window in which it could sit on the book.
-- what the do-not-ship instruction actually changes for it ::@:: The fate of the remainder, which is cancelled on arrival instead of being routed to the venue with the better quote.
-- whether a DNS immediate-or-cancel order needs a limit price ::@:: No; the instruction works with or without one.
-- name of the compliant immediate-or-cancel variant, and its NYSE name ::@:: A RegNMS-compliance IOC, called an NMS IOC on the New York Stock Exchange.
+- how many fates a DNS immediate-or-cancel order has, and what they are ::@:: Two: it executes against the local book, and whatever is left over is cancelled. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why such an order never rests ::@:: The immediate-or-cancel time in force cancels the remainder in the same instant, so there is no window in which it could sit on the book. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the do-not-ship instruction actually changes for it ::@:: The fate of the remainder, which is cancelled on arrival instead of being routed to the venue with the better quote. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- whether a DNS immediate-or-cancel order needs a limit price ::@:: No; the instruction works with or without one. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- name of the compliant immediate-or-cancel variant, and its NYSE name ::@:: A RegNMS-compliance IOC, called an NMS IOC on the New York Stock Exchange. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->

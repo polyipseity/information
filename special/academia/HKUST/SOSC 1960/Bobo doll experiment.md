@@ -18,13 +18,13 @@ A child copies an act the child has only seen, which is [observational learning]
 
 Flashcards for this section are as follows:
 
-- who ran it and when ::@:: Albert Bandura ran the Bobo doll experiment in 1961.
-- what the test measured ::@:: Bandura measured what a child learns by watching another person.
-- the behaviour chosen ::@:: Bandura chose aggression as the behaviour to test.
-- the prevailing belief ::@:: Most people believed watching violence works off the urge to commit it and leaves the viewer calmer.
-- the result ::@:: Children in a 1961 experiment hit a doll after watching an adult hit it, the opposite of what almost everyone expected.
-- observational learning ::@:: A child copying an act the child has only seen.
-- why it became the standard research ethics case ::@:: The children were too young to consent.
+- who ran it and when ::@:: Albert Bandura ran the Bobo doll experiment in 1961. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the test measured ::@:: Bandura measured what a child learns by watching another person. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the behaviour chosen ::@:: Bandura chose aggression as the behaviour to test. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the prevailing belief ::@:: Most people believed watching violence works off the urge to commit it and leaves the viewer calmer. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the result ::@:: Children in a 1961 experiment hit a doll after watching an adult hit it, the opposite of what almost everyone expected. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- observational learning ::@:: A child copying an act the child has only seen. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why it became the standard research ethics case ::@:: The children were too young to consent. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## the design
 
@@ -40,14 +40,14 @@ Children who watched an adult play gently played calmly and showed no aggression
 
 Flashcards for this section are as follows:
 
-- the ages of the children ::@:: The children were between three and five years old.
-- what the room contained ::@:: In the room there were an adult, a pile of toys, and a large inflatable Bobo doll.
-- what the adult did ::@:: A minute in, the adult hit the doll for ten minutes, kicking it, shouting, and swinging a mallet at it.
-- what the child was left with ::@:: The child was left alone in the room with the same toys.
-- what every child who had watched the adult do ::@:: Every child copied much of the attack, striking the doll and improvising with the mallet.
-- whose imitation was closest ::@:: A child who watched an adult of the same sex imitated that adult most closely.
-- what was never part of the arrangement ::@:: Nobody rewarded a child for imitating, so reinforcement cannot explain the copying.
-- the contrast group ::@:: Children who watched an adult play gently played calmly and showed no aggression.
+- the ages of the children ::@:: The children were between three and five years old. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the room contained ::@:: In the room there were an adult, a pile of toys, and a large inflatable Bobo doll. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the adult did ::@:: A minute in, the adult hit the doll for ten minutes, kicking it, shouting, and swinging a mallet at it. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the child was left with ::@:: The child was left alone in the room with the same toys. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what every child who had watched the adult do ::@:: Every child copied much of the attack, striking the doll and improvising with the mallet. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- whose imitation was closest ::@:: A child who watched an adult of the same sex imitated that adult most closely. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what was never part of the arrangement ::@:: Nobody rewarded a child for imitating, so reinforcement cannot explain the copying. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the contrast group ::@:: Children who watched an adult play gently played calmly and showed no aggression. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## vicarious reinforcement
 
@@ -61,15 +61,15 @@ The finding arrived as television moved into the home. Researchers still argue o
 
 Flashcards for this section are as follows:
 
-- what happened to the children who saw the model punished ::@:: Children who saw the model punished for its aggression were less aggressive afterwards.
-- who the consequence belonged to ::@:: In the experiment the punishment landed on the model, not on the learner.
-- vicarious reinforcement ::@:: A consequence the learner never receives still changes the learner's behaviour.
-- why vicarious reinforcement works on a learner ::@:: The learner's behaviour changes after seeing who took the punishment and what it cost.
-- the two-year-later repetition ::@:: The model appeared on film, either beating the doll or dressed as a cat.
-- what the film repetition found ::@:: The imitation came out the same in almost every case, so a model on a screen is a model.
-- what the timing of the study meant ::@:: The finding arrived as television moved into the home.
-- what is still argued over ::@:: Researchers still argue over what the finding means for media and behaviour.
-- what the study opened ::@:: Nobody disputes that the study opened the area.
+- what happened to the children who saw the model punished ::@:: Children who saw the model punished for its aggression were less aggressive afterwards. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- who the consequence belonged to ::@:: In the experiment the punishment landed on the model, not on the learner. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- vicarious reinforcement ::@:: A consequence the learner never receives still changes the learner's behaviour. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why vicarious reinforcement works on a learner ::@:: The learner's behaviour changes after seeing who took the punishment and what it cost. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the two-year-later repetition ::@:: The model appeared on film, either beating the doll or dressed as a cat. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the film repetition found ::@:: The imitation came out the same in almost every case, so a model on a screen is a model. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the timing of the study meant ::@:: The finding arrived as television moved into the home. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what is still argued over ::@:: Researchers still argue over what the finding means for media and behaviour. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the study opened ::@:: Nobody disputes that the study opened the area. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## why it was criticized
 
@@ -81,10 +81,10 @@ The criticism changed how such studies run. It did not remove the study from the
 
 Flashcards for this section are as follows:
 
-- the charge brought against the study ::@:: Critics said the study trained children toward aggression.
-- the specific criticism ::@:: The study showed children a behaviour at length and then measured how much of it they had picked up.
-- the general ethical question ::@:: Two questions follow: what happens to participants who cannot consent for themselves, and who reviews a study before it runs.
-- what came of the criticism ::@:: A study showing an adult model harm a child now faces review before it begins, not after its data.
+- the charge brought against the study ::@:: Critics said the study trained children toward aggression. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the specific criticism ::@:: The study showed children a behaviour at length and then measured how much of it they had picked up. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the general ethical question ::@:: Two questions follow: what happens to participants who cannot consent for themselves, and who reviews a study before it runs. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what came of the criticism ::@:: A study showing an adult model harm a child now faces review before it begins, not after its data. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## what it changed
 
@@ -96,11 +96,11 @@ The children's aggression came from what they watched, not from what they were g
 
 Flashcards for this section are as follows:
 
-- the first shift the study produced ::@:: The study moved the focus of psychology from pure behaviorism to cognitive psychology.
-- why copying an observed act needs no stimulus and no habit ::@:: The child remembers the act, decides it is acceptable, and acts on a representation.
-- what that implies about where learning happens ::@:: Learning looked like a process inside a person, not a link between a stimulus and a reflex.
-- the practical shift ::@:: The children learned their aggression from what they saw, not from what they received.
-- what the practical shift led to ::@:: What a child watches became a live question.
+- the first shift the study produced ::@:: The study moved the focus of psychology from pure behaviorism to cognitive psychology. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why copying an observed act needs no stimulus and no habit ::@:: The child remembers the act, decides it is acceptable, and acts on a representation. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what that implies about where learning happens ::@:: Learning looked like a process inside a person, not a link between a stimulus and a reflex. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the practical shift ::@:: The children learned their aggression from what they saw, not from what they received. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the practical shift led to ::@:: What a child watches became a live question. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## references
 

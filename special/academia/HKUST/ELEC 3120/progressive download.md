@@ -19,7 +19,7 @@ Downloading the whole file before playing it makes the client wait a long time t
 
 Flashcards for this section are as follows:
 
-- progressive download: what does the client keep on disk, and what happens to the rest of the file? ::@:: Only the next few seconds of video, with the rest of the file arriving while those play.
+- progressive download: what does the client keep on disk, and what happens to the rest of the file? ::@:: Only the next few seconds of video, with the rest of the file arriving while those play. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## the client buffer
 
@@ -29,8 +29,8 @@ The client holds the next few seconds of video in a buffer. The server sends dat
 
 Flashcards for this section are as follows:
 
-- progressive download: what do the arrival rate $C$ and the playback rate $R$ stand for? ::@:: $C$ is the rate the server sends data to the buffer at, and $R$ is the rate the client reads from the buffer and plays video at.
-- which way do the two rates push on the client buffer? ::@:: The difference between them accumulates in the buffer, so a server slower than the player drains it towards empty and a stall follows.
+- progressive download: what do the arrival rate $C$ and the playback rate $R$ stand for? ::@:: $C$ is the rate the server sends data to the buffer at, and $R$ is the rate the client reads from the buffer and plays video at. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- which way do the two rates push on the client buffer? ::@:: The difference between them accumulates in the buffer, so a server slower than the player drains it towards empty and a stall follows. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## buffer occupancy
 
@@ -44,11 +44,11 @@ The buffer is designed to be empty exactly at $f$, the time the video ends. By t
 
 Flashcards for this section are as follows:
 
-- in the buffer-occupancy plot, what do $A(t) = Ct + b$ and $S(t) = Rt$ each count? ::@:: $A(t) = Ct + b$ counts data the server has delivered by time $t$, and $S(t) = Rt$ counts data the player has shown by then.
-- what is buffer occupancy, read as $$A(t) - S(t)$$ on that plot? ::@:: The gap between the two lines, $$A(t) - S(t)$$.
-- what does $b$ mean in the arrival curve $A(t) = Ct + b$? ::@:: The buffer occupancy at the moment playing starts, so the intercept of $A(t)$ at $t = 0$ and not at $t = -k$.
-- why is the buffer designed to be empty at $t = f$? ::@:: So the client has downloaded nothing it did not need and nothing is left over when the video ends.
-- in this plot, what is a stall, and when does it happen before $f$? ::@:: The moment occupancy, the gap between the two lines, reaches zero before $f$.
+- in the buffer-occupancy plot, what do $A(t) = Ct + b$ and $S(t) = Rt$ each count? ::@:: $A(t) = Ct + b$ counts data the server has delivered by time $t$, and $S(t) = Rt$ counts data the player has shown by then. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what is buffer occupancy, read as $$A(t) - S(t)$$ on that plot? ::@:: The gap between the two lines, $$A(t) - S(t)$$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what does $b$ mean in the arrival curve $A(t) = Ct + b$? ::@:: The buffer occupancy at the moment playing starts, so the intercept of $A(t)$ at $t = 0$ and not at $t = -k$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why is the buffer designed to be empty at $t = f$? ::@:: So the client has downloaded nothing it did not need and nothing is left over when the video ends. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- in this plot, what is a stall, and when does it happen before $f$? ::@:: The moment occupancy, the gap between the two lines, reaches zero before $f$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## bitrate against network capacity
 
@@ -66,12 +66,12 @@ Serving several quality levels and switching between them removes both errors. [
 
 Flashcards for this section are as follows:
 
-- worked case, $3$ GB at $R = 8$ Mbps over $C = 6$ Mbps: how long is the playback? ::@:: $f = 3000$ s, since 3 GB is $24 \times 10^{9}$ bits at $8 \times 10^{6}$ bits per second.
-- worked case, $3$ GB at $R = 8$ Mbps over $C = 6$ Mbps: how large must the buffer be to finish stall-free? ::@:: $b = (R - C) f = (8 - 6) \times 3000 = 6000$ Mb, which is 750 MB.
-- worked case, $3$ GB at $R = 8$ Mbps over $C = 6$ Mbps: how long does priming the buffer take? ::@:: $k = b / C = 6000$ Mb at $6$ Mbps $= 1000$ s, which is 16.67 minutes.
-- what does a bitrate a lot higher than the network capacity force? ::@:: A big buffer and a lot of buffering time, so playback can be guaranteed stall-free.
-- what does a bitrate a lot smaller than the network capacity give up? ::@:: Poor quality video, in exchange for less buffer space and less time to build it up.
-- undershoot against overshoot: how does the occupancy $b'$ in the undershoot case differ from the occupancy $b$ in the overshoot case? ::@:: It is a second and much smaller occupancy, $b'$, rather than the $b$ the overshoot case needs.
+- worked case, $3$ GB at $R = 8$ Mbps over $C = 6$ Mbps: how long is the playback? ::@:: $f = 3000$ s, since 3 GB is $24 \times 10^{9}$ bits at $8 \times 10^{6}$ bits per second. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- worked case, $3$ GB at $R = 8$ Mbps over $C = 6$ Mbps: how large must the buffer be to finish stall-free? ::@:: $b = (R - C) f = (8 - 6) \times 3000 = 6000$ Mb, which is 750 MB. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- worked case, $3$ GB at $R = 8$ Mbps over $C = 6$ Mbps: how long does priming the buffer take? ::@:: $k = b / C = 6000$ Mb at $6$ Mbps $= 1000$ s, which is 16.67 minutes. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what does a bitrate a lot higher than the network capacity force? ::@:: A big buffer and a lot of buffering time, so playback can be guaranteed stall-free. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what does a bitrate a lot smaller than the network capacity give up? ::@:: Poor quality video, in exchange for less buffer space and less time to build it up. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- undershoot against overshoot: how does the occupancy $b'$ in the undershoot case differ from the occupancy $b$ in the overshoot case? ::@:: It is a second and much smaller occupancy, $b'$, rather than the $b$ the overshoot case needs. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## buffers against variability
 
@@ -93,11 +93,11 @@ The variability does not stop at the network either. The playback rate is variab
 
 Flashcards for this section are as follows:
 
-- what is the argument for a buffer of a sliver only, when $C < N$? ::@:: Data can go in just in time at the rate it is read out, so no extra capacity is needed and the memory is not wasted.
-- what does that argument assume? ::@:: That the data arrives at the client at a fixed rate.
-- what makes a network capacity vary? ::@:: New users joining or existing ones leaving, link failures and re-routes, and WiFi interference.
-- tiny buffer, capacity measured as $N[t = 0]$: what happens when the bandwidth drops at $t = 1$? ::@:: The buffer is empty, so playback stops.
-- larger buffer, bandwidth dropping at $t = 1$, $t = 2$, and $t = 3$ before recovering at $t = 4$: what does the buffer do? ::@:: It drains across the drops, a little less at each one, and starts refilling once the network recovers.
-- what rate does a buffered player run at? ::@:: A rate corresponding to the average available bandwidth, not the instantaneous one.
-- which client needs the larger buffer? ::@:: The client on the high-variance network.
-- in a client whose playback rate is variable as well as its network capacity, what is the bitrate the client reads? ::@:: $R[t]$, against a capacity of $N[t]$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual, the card names the two varying quantities rather than computing one -->
+- what is the argument for a buffer of a sliver only, when $C < N$? ::@:: Data can go in just in time at the rate it is read out, so no extra capacity is needed and the memory is not wasted. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what does that argument assume? ::@:: That the data arrives at the client at a fixed rate. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what makes a network capacity vary? ::@:: New users joining or existing ones leaving, link failures and re-routes, and WiFi interference. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- tiny buffer, capacity measured as $N[t = 0]$: what happens when the bandwidth drops at $t = 1$? ::@:: The buffer is empty, so playback stops. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- larger buffer, bandwidth dropping at $t = 1$, $t = 2$, and $t = 3$ before recovering at $t = 4$: what does the buffer do? ::@:: It drains across the drops, a little less at each one, and starts refilling once the network recovers. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what rate does a buffered player run at? ::@:: A rate corresponding to the average available bandwidth, not the instantaneous one. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- which client needs the larger buffer? ::@:: The client on the high-variance network. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- in a client whose playback rate is variable as well as its network capacity, what is the bitrate the client reads? ::@:: $R[t]$, against a capacity of $N[t]$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual, the card names the two varying quantities rather than computing one --> <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->

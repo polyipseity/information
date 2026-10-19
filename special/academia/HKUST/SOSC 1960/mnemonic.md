@@ -21,9 +21,9 @@ Looking for meaning improves memory for the material: a champion chess player gi
 
 Flashcards for this section are as follows:
 
-- whether a photographic memory exists ::@:: No. A five-year search found no individual with a truly photographic memory and no credible evidence that one exists.
-- why a chess champion reproduces a game position but not a random arrangement ::@:: The game position carries meaning the champion can build on, while the random arrangement carries none, and material is remembered through its meaning.
-- why a digit matrix takes longer to read back diagonally than in order ::@:: The digits were encoded as meaningful sequences rather than a picture, so the diagonal path breaks the sequences.
+- whether a photographic memory exists ::@:: No. A five-year search found no individual with a truly photographic memory and no credible evidence that one exists. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why a chess champion reproduces a game position but not a random arrangement ::@:: The game position carries meaning the champion can build on, while the random arrangement carries none, and material is remembered through its meaning. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why a digit matrix takes longer to read back diagonally than in order ::@:: The digits were encoded as meaningful sequences rather than a picture, so the diagonal path breaks the sequences. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## memory palaces
 
@@ -33,9 +33,9 @@ The memory palace, or the method of loci, turns a familiar route into a filing s
 
 Flashcards for this section are as follows:
 
-- how a memory palace is built ::@:: Fix a familiar route, turn each item into a vivid image, place one image at each stop, and walk the route to recall.
-- why a memory palace works ::@:: Places outlast lists, images encode more deeply than words, and the route supplies stable cues in a fixed order.
-- how the six of hearts is coded in a card-story system ::@:: The code word hash: h for the suit of hearts, sh for the number six, with each card's code word woven into a story.
+- how a memory palace is built ::@:: Fix a familiar route, turn each item into a vivid image, place one image at each stop, and walk the route to recall. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why a memory palace works ::@:: Places outlast lists, images encode more deeply than words, and the route supplies stable cues in a fixed order. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how the six of hearts is coded in a card-story system ::@:: The code word hash: h for the suit of hearts, sh for the number six, with each card's code word woven into a story. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## references
 

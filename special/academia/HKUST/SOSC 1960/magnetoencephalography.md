@@ -19,16 +19,16 @@ A magnetoencephalography machine carries from a few to several hundred sensors. 
 
 Flashcards for this section are as follows:
 
-- what every neuron does that the method picks up ::@:: It runs an electric current, which throws off a magnetic field.
-- what magnetoencephalography measures ::@:: The magnetic field of the brain's own electrical currents.
-- what detecting that field requires ::@:: Sensors against the scalp, and a room shielded from ambient magnetism.
-- why the room has to be shielded ::@:: The field is so weak that the ambient field would swamp it.
-- why the method localizes better than electroencephalography ::@:: Magnetic field lines pass through skull and scalp largely unchanged, but an electrical signal is distorted by the same tissue.
-- the temporal resolution of magnetoencephalography ::@:: About 1 ms, the same as electroencephalography.
-- the spatial resolution of magnetoencephalography ::@:: About 2 mm.
-- how magnetoencephalography analysis compares with electroencephalography analysis ::@:: Closely.
-- the range of sensors a magnetoencephalography machine may carry ::@:: From a few to several hundred.
-- why the method is less widely available than an electroencephalogram ::@:: The machine and its shielded room cost far more than an EEG cap, so far fewer places own one.
+- what every neuron does that the method picks up ::@:: It runs an electric current, which throws off a magnetic field. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what magnetoencephalography measures ::@:: The magnetic field of the brain's own electrical currents. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what detecting that field requires ::@:: Sensors against the scalp, and a room shielded from ambient magnetism. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why the room has to be shielded ::@:: The field is so weak that the ambient field would swamp it. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why the method localizes better than electroencephalography ::@:: Magnetic field lines pass through skull and scalp largely unchanged, but an electrical signal is distorted by the same tissue. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the temporal resolution of magnetoencephalography ::@:: About 1 ms, the same as electroencephalography. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the spatial resolution of magnetoencephalography ::@:: About 2 mm. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how magnetoencephalography analysis compares with electroencephalography analysis ::@:: Closely. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the range of sensors a magnetoencephalography machine may carry ::@:: From a few to several hundred. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why the method is less widely available than an electroencephalogram ::@:: The machine and its shielded room cost far more than an EEG cap, so far fewer places own one. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## references
 

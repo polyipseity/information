@@ -15,11 +15,11 @@ Memory is the ability to keep information over time and bring it back when it is
 
 Flashcards for this section are as follows:
 
-- what memory is ::@:: The ability to keep information over time and bring it back when it is needed.
-- the capacity limit Miller (1956) proposed for memory as information processing ::@:: The magic number 7.
-- why phone numbers typically carry seven or eight digits ::@:: Miller's magic number 7 sets the capacity, and seven or eight digits fit inside it.
-- the three stages of remembering ::@:: Encoding, storage, and retrieval.
-- how the three stages of memory relate ::@:: Each of the three affects the others.
+- what memory is ::@:: The ability to keep information over time and bring it back when it is needed. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the capacity limit Miller (1956) proposed for memory as information processing ::@:: The magic number 7. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why phone numbers typically carry seven or eight digits ::@:: Miller's magic number 7 sets the capacity, and seven or eight digits fit inside it. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the three stages of remembering ::@:: Encoding, storage, and retrieval. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how the three stages of memory relate ::@:: Each of the three affects the others. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## types of memory
 
@@ -29,7 +29,7 @@ What memory keeps differs by kind: information held for use, the episodes of a l
 
 Flashcards for this section are as follows:
 
-- the four kinds of memory ::@:: Working memory, episodic memory, semantic memory, and collective memory.
+- the four kinds of memory ::@:: Working memory, episodic memory, semantic memory, and collective memory. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ### working memory
 
@@ -39,8 +39,8 @@ Working memory is the ability to hold information in mind for a brief time and w
 
 Flashcards for this section are as follows:
 
-- what working memory is ::@:: The ability to hold information in mind for a brief time and work with it.
-- tasks that draw on working memory ::@:: Doing math in your head and telling a story.
+- what working memory is ::@:: The ability to hold information in mind for a brief time and work with it. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- tasks that draw on working memory ::@:: Doing math in your head and telling a story. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ### episodic memory
 
@@ -50,9 +50,9 @@ Episodic memory is the ability to remember the episodes of one's life. Autobiogr
 
 Flashcards for this section are as follows:
 
-- what episodic memory is ::@:: The ability to remember the episodes of one's life.
-- what autobiographical memory covers ::@:: The specific events that have happened over the course of one's entire life.
-- what strong emotion does for an episodic memory ::@:: It deepens the encoding and the confidence in recall, without improving the accuracy of the details.
+- what episodic memory is ::@:: The ability to remember the episodes of one's life. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what autobiographical memory covers ::@:: The specific events that have happened over the course of one's entire life. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what strong emotion does for an episodic memory ::@:: It deepens the encoding and the confidence in recall, without improving the accuracy of the details. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ### semantic memory
 
@@ -62,8 +62,8 @@ Semantic memory is one's storehouse of more or less permanent knowledge.
 
 Flashcards for this section are as follows:
 
-- what semantic memory is ::@:: A person's storehouse of more or less permanent knowledge.
-- how semantic memory and episodic memory divide what is remembered ::@:: Semantic memory holds permanent knowledge; episodic memory remembers the episodes of one's life.
+- what semantic memory is ::@:: A person's storehouse of more or less permanent knowledge. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how semantic memory and episodic memory divide what is remembered ::@:: Semantic memory holds permanent knowledge; episodic memory remembers the episodes of one's life. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## encoding
 
@@ -73,8 +73,8 @@ Encoding is the initial experience of perceiving and learning events, and it usu
 
 Flashcards for this section are as follows:
 
-- what encoding is ::@:: The initial experience of perceiving and learning events.
-- how encoding usually happens ::@:: Automatically.
+- what encoding is ::@:: The initial experience of perceiving and learning events. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how encoding usually happens ::@:: Automatically. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ### recoding
 
@@ -84,10 +84,10 @@ Encoding involves recoding, taking information from one form and converting it i
 
 Flashcards for this section are as follows:
 
-- what recoding is ::@:: Taking information from one form and converting it in a way that makes sense to us.
-- how recoding can happen without awareness ::@:: Through associations with old memories.
-- the recoding strategies for encoding ::@:: Acronyms and associations, elaboration, and creating imagery.
-- how the Big five personality traits are recoded ::@:: As OCEAN: Openness, Conscientiousness, Extroversion, Agreeableness, and Neuroticism.
+- what recoding is ::@:: Taking information from one form and converting it in a way that makes sense to us. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how recoding can happen without awareness ::@:: Through associations with old memories. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the recoding strategies for encoding ::@:: Acronyms and associations, elaboration, and creating imagery. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how the Big five personality traits are recoded ::@:: As OCEAN: Openness, Conscientiousness, Extroversion, Agreeableness, and Neuroticism. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## storage
 
@@ -97,10 +97,10 @@ An experience leaves a memory trace, also called an engram, the change in the ne
 
 Flashcards for this section are as follows:
 
-- what a memory trace, or an engram, is ::@:: The change in the nervous system that represents an experience.
-- what consolidation is ::@:: The neural changes that occur over time to create the memory trace of an experience.
-- what the retention interval is ::@:: It runs from learning to testing: consolidation works across it, while retroactive and proactive interferences and the misinformation effect act within it.
-- how a retrieved past event is put back together ::@:: Reconstructed from memory traces and current belief about what happened, and the reconstruction alters the representation held in storage.
+- what a memory trace, or an engram, is ::@:: The change in the nervous system that represents an experience. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what consolidation is ::@:: The neural changes that occur over time to create the memory trace of an experience. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the retention interval is ::@:: It runs from learning to testing: consolidation works across it, while retroactive and proactive interferences and the misinformation effect act within it. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how a retrieved past event is put back together ::@:: Reconstructed from memory traces and current belief about what happened, and the reconstruction alters the representation held in storage. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## retrieval
 
@@ -110,9 +110,9 @@ Retrieval is accessing stored information when it is needed, and most of our mem
 
 Flashcards for this section are as follows:
 
-- what makes stored information usable at a later moment ::@:: A retrieval cue: most of our memories will never be used without one.
-- the difference between available and accessible memory ::@:: Available memory is all information stored in memory; accessible memory is the information a person is able to retrieve.
-- whether available memory is always accessible ::@:: No. Most of our memories are never used, so stored information becomes reachable only through retrieval cues.
+- what makes stored information usable at a later moment ::@:: A retrieval cue: most of our memories will never be used without one. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the difference between available and accessible memory ::@:: Available memory is all information stored in memory; accessible memory is the information a person is able to retrieve. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- whether available memory is always accessible ::@:: No. Most of our memories are never used, so stored information becomes reachable only through retrieval cues. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## references
 

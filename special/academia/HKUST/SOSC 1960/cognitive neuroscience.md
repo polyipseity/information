@@ -14,10 +14,10 @@ Cognitive neuroscience studies what different parts of the brain do and how they
 
 Flashcards for this section are as follows:
 
-- what cognitive neuroscience asks of the brain ::@:: What different parts of the brain do, and how they interact.
-- the assumption cognitive neuroscience works from ::@:: The mind is what the brain does.
-- what cognitive psychology contributes and leaves out ::@:: It reconstructs a process from the behaviour it produces, and says nothing about where the work happens in the brain.
-- where cognitive neuroscience grew from ::@:: The cognitive revolution, when imaging made mental activity watchable.
+- what cognitive neuroscience asks of the brain ::@:: What different parts of the brain do, and how they interact. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the assumption cognitive neuroscience works from ::@:: The mind is what the brain does. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what cognitive psychology contributes and leaves out ::@:: It reconstructs a process from the behaviour it produces, and says nothing about where the work happens in the brain. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- where cognitive neuroscience grew from ::@:: The cognitive revolution, when imaging made mental activity watchable. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## the structure-process trade-off
 
@@ -33,12 +33,12 @@ The deciding evidence has to come from outside the behaviour. Knowledge about th
 
 Flashcards for this section are as follows:
 
-- what the structure-process trade-off is ::@:: Different sorts of information processing can produce the same result, so the result alone cannot say which one produced it.
-- a case the structure-process trade-off shows up in ::@:: The debate over visual mental imagery, where Pylyshyn and Kosslyn disagree on what an image is made of.
-- what Pylyshyn proposed an image to be in 1973 ::@:: A descriptive representation: a description in the form of facts that the mind reasons over, so where a thing sits is one of those facts.
-- what Kosslyn and Pomerantz proposed an image to be in 1977 ::@:: A depictive representation: a picture-like pattern carrying the spatial layout of what it stands for, so where a thing sits is a position in the pattern.
-- why the imagery debate could not be settled from behaviour alone ::@:: The two accounts differ in what the representation is made of, not in what the person does with it, so both accounts predict the same answers.
-- the deciding evidence in a structure-process trade-off ::@:: Knowledge about the brain.
+- what the structure-process trade-off is ::@:: Different sorts of information processing can produce the same result, so the result alone cannot say which one produced it. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- a case the structure-process trade-off shows up in ::@:: The debate over visual mental imagery, where Pylyshyn and Kosslyn disagree on what an image is made of. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what Pylyshyn proposed an image to be in 1973 ::@:: A descriptive representation: a description in the form of facts that the mind reasons over, so where a thing sits is one of those facts. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what Kosslyn and Pomerantz proposed an image to be in 1977 ::@:: A depictive representation: a picture-like pattern carrying the spatial layout of what it stands for, so where a thing sits is a position in the pattern. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why the imagery debate could not be settled from behaviour alone ::@:: The two accounts differ in what the representation is made of, not in what the person does with it, so both accounts predict the same answers. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the deciding evidence in a structure-process trade-off ::@:: Knowledge about the brain. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## references
 

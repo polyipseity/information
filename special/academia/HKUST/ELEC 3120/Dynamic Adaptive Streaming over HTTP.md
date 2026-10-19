@@ -20,7 +20,7 @@ DASH streams a video over HTTP requests for ordinary files. A quality level in a
 
 Flashcards for this section are as follows:
 
-- what does DASH change about the way a video is served? ::@:: Nothing about the transport. DASH uses ordinary HTTP requests for ordinary files
+- what does DASH change about the way a video is served? ::@:: Nothing about the transport. DASH uses ordinary HTTP requests for ordinary files <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## the manifest
 
@@ -32,10 +32,10 @@ An `AdaptationSet` holds one stream, video or audio. A `SegmentTemplate` gives t
 
 Flashcards for this section are as follows:
 
-- what does an `AdaptationSet` hold? ::@:: One stream, video or audio
-- what does a `SegmentTemplate` give? ::@:: The rule for finding a segment of that stream
-- what is a `Representation`? ::@:: One quality level of that stream
-- what can a client do once it has read the manifest? ::@:: Address any segment in the presentation by name
+- what does an `AdaptationSet` hold? ::@:: One stream, video or audio <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what does a `SegmentTemplate` give? ::@:: The rule for finding a segment of that stream <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what is a `Representation`? ::@:: One quality level of that stream <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what can a client do once it has read the manifest? ::@:: Address any segment in the presentation by name <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## what this manifest contains
 

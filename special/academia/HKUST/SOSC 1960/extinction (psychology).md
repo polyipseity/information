@@ -20,10 +20,10 @@ Two effects show that competition. One follows a rest with no exposure, and the 
 
 Flashcards for this section are as follows:
 
-- what extinction is ::@:: A cue paired with an outcome comes to predict it. Present the cue again and again without the outcome, and the response fades to nothing.
-- what extinction changes about the cue ::@:: Nothing about what it predicts. It has stopped paying off.
-- what extinction does to a learned response ::@:: It inhibits the response rather than deleting the learning.
-- the two effects that show extinction competing with the original learning ::@:: A rest with no exposure, and the cue turning up in a different context.
+- what extinction is ::@:: A cue paired with an outcome comes to predict it. Present the cue again and again without the outcome, and the response fades to nothing. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what extinction changes about the cue ::@:: Nothing about what it predicts. It has stopped paying off. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what extinction does to a learned response ::@:: It inhibits the response rather than deleting the learning. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the two effects that show extinction competing with the original learning ::@:: A rest with no exposure, and the cue turning up in a different context. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## the extinction procedure
 
@@ -41,12 +41,12 @@ The loss is gradual, tracing the same acquisition curve in reverse.
 
 Flashcards for this section are as follows:
 
-- what extinction does in the dog-and-bell example ::@:: A dog that learned to salivate at a bell hears that bell again and again with no meat, until the bell produces nothing.
-- the three terms in the dog-and-bell example ::@:: The ringing bell is a conditioned stimulus, the meat an unconditioned stimulus, and the salivation a conditioned response.
-- what the bell is called once extinction has run its course ::@:: A neutral stimulus again, and it produces nothing.
-- which response extinction suppresses ::@:: The response to the cue, not the response to the unconditioned stimulus.
-- the shape of the extinction curve ::@:: The acquisition curve in reverse. The reversal is gradual.
-- ![extinction of a conditioned response: three rows take a bell conditioned to salivation from salivating to nothing as the meat is withheld](attachments/classical_conditioning_extinction.svg) ::@:: The bell alone at the start of extinction, still producing salivation. The same bell trial after trial, producing salivation that fades. Later still, producing nothing.
+- what extinction does in the dog-and-bell example ::@:: A dog that learned to salivate at a bell hears that bell again and again with no meat, until the bell produces nothing. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the three terms in the dog-and-bell example ::@:: The ringing bell is a conditioned stimulus, the meat an unconditioned stimulus, and the salivation a conditioned response. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the bell is called once extinction has run its course ::@:: A neutral stimulus again, and it produces nothing. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- which response extinction suppresses ::@:: The response to the cue, not the response to the unconditioned stimulus. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the shape of the extinction curve ::@:: The acquisition curve in reverse. The reversal is gradual. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- ![extinction of a conditioned response: three rows take a bell conditioned to salivation from salivating to nothing as the meat is withheld](attachments/classical_conditioning_extinction.svg) ::@:: The bell alone at the start of extinction, still producing salivation. The same bell trial after trial, producing salivation that fades. Later still, producing nothing. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## spontaneous recovery
 
@@ -58,11 +58,11 @@ Nothing in that procedure could undo the learning, yet the response came back. E
 
 Flashcards for this section are as follows:
 
-- what a rest with no exposure leads to ::@:: After a rest with no exposure to an extinguished conditioned stimulus, presenting it again can bring the conditioned response back with no new pairing.
-- what a spontaneous recovery cost the learner ::@:: Nothing: no pairing and no unconditioned stimulus are needed.
-- how strong a spontaneous recovery is ::@:: Real but partial. It is weaker than the response that was extinguished, and a second rest brings it back weaker still.
-- what the pattern of spontaneous recovery rules out ::@:: Erasure of the association, since nothing was presented to undo the learning.
-- what spontaneous recovery shows was removed instead ::@:: The cue's power to produce the response, not the association that gave the cue its meaning.
+- what a rest with no exposure leads to ::@:: After a rest with no exposure to an extinguished conditioned stimulus, presenting it again can bring the conditioned response back with no new pairing. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a spontaneous recovery cost the learner ::@:: Nothing: no pairing and no unconditioned stimulus are needed. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how strong a spontaneous recovery is ::@:: Real but partial. It is weaker than the response that was extinguished, and a second rest brings it back weaker still. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the pattern of spontaneous recovery rules out ::@:: Erasure of the association, since nothing was presented to undo the learning. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what spontaneous recovery shows was removed instead ::@:: The cue's power to produce the response, not the association that gave the cue its meaning. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## renewal of an extinguished response
 
@@ -76,11 +76,11 @@ A phobia treated by exposure in a clinic can return in a setting the treatment n
 
 Flashcards for this section are as follows:
 
-- what a change of context does to an extinguished response ::@:: An extinguished conditioned response can return when the cue is presented in a context other than the one in which it was extinguished.
-- the contexts in which renewal is observed ::@:: Any context other than the one in which extinction occurred. A different room is the obvious case.
-- what a renewal establishes about the scope of extinction ::@:: That it is bound to the context in which it occurred, not general. The context carries the inhibition, so a change of context leaves it behind.
-- what extinction in one context amounts to ::@:: Learning that the cue no longer predicts the event here.
-- the practical consequence of renewal for a treated phobia ::@:: A phobia treated by exposure in a clinic can return in a setting the treatment never covered.
+- what a change of context does to an extinguished response ::@:: An extinguished conditioned response can return when the cue is presented in a context other than the one in which it was extinguished. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the contexts in which renewal is observed ::@:: Any context other than the one in which extinction occurred. A different room is the obvious case. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a renewal establishes about the scope of extinction ::@:: That it is bound to the context in which it occurred, not general. The context carries the inhibition, so a change of context leaves it behind. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what extinction in one context amounts to ::@:: Learning that the cue no longer predicts the event here. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the practical consequence of renewal for a treated phobia ::@:: A phobia treated by exposure in a clinic can return in a setting the treatment never covered. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## references
 

@@ -20,7 +20,7 @@ Adaptive bitrate streaming varies the quality of the video to match what the net
 
 Flashcards for this section are as follows:
 
-- what does ABR change over the course of one playback, and when? ::@:: The video quality, and it keeps changing throughout playback rather than being fixed at the start
+- what does ABR change over the course of one playback, and when? ::@:: The video quality, and it keeps changing throughout playback rather than being fixed at the start <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## matching quality to capacity
 
@@ -32,8 +32,8 @@ The client cannot measure $N$, so that selection rule is not one it can apply di
 
 Flashcards for this section are as follows:
 
-- in the idealised MBR picture where the client knows its capacity $N$, which send rate $C$ does it select from a quality ladder? ::@:: The largest $C$ on offer such that $C < N$
-- what breaks the idealised selection rule in which the client picks the largest send rate $C$ below its capacity $N$? ::@:: The client cannot measure $N$
+- in the idealised MBR picture where the client knows its capacity $N$, which send rate $C$ does it select from a quality ladder? ::@:: The largest $C$ on offer such that $C < N$ <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what breaks the idealised selection rule in which the client picks the largest send rate $C$ below its capacity $N$? ::@:: The client cannot measure $N$ <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## what the algorithm sees
 
@@ -45,8 +45,8 @@ None of the five is one the client can measure directly. What it can read is the
 
 Flashcards for this section are as follows:
 
-- in $\mathit{bitrate} = f(x, y, z\ldots)$, which five arguments are the obvious ones? ::@:: The average of past network capacity, the loss rate, the network latency, the change in network latency, and the bandwidth variance
-- the five obvious arguments to $f$ are all unmeasurable; what single quantity does the client read instead? ::@:: The occupancy of its own buffer, which a rule turns into a bitrate
+- in $\mathit{bitrate} = f(x, y, z\ldots)$, which five arguments are the obvious ones? ::@:: The average of past network capacity, the loss rate, the network latency, the change in network latency, and the bandwidth variance <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the five obvious arguments to $f$ are all unmeasurable; what single quantity does the client read instead? ::@:: The occupancy of its own buffer, which a rule turns into a bitrate <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## what the algorithm chooses
 
@@ -56,8 +56,8 @@ The output of the algorithm is the rate $C[t]$ at which the client requests the 
 
 Flashcards for this section are as follows:
 
-- what is the output of an ABR algorithm? ::@:: The rate $C[t]$ at which the client requests the next chunk <!-- check: ignore-line[two_sided_calc_warning]: conceptual, the card names a rate rather than computing one -->
-- with a ladder of quality levels on offer, does choosing a level pin the playback rate $R$ to the chosen send rate $C$? ::@:: No. It bounds $R$ from above without pinning it to a value
+- what is the output of an ABR algorithm? ::@:: The rate $C[t]$ at which the client requests the next chunk <!-- check: ignore-line[two_sided_calc_warning]: conceptual, the card names a rate rather than computing one --> <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- with a ladder of quality levels on offer, does choosing a level pin the playback rate $R$ to the chosen send rate $C$? ::@:: No. It bounds $R$ from above without pinning it to a value <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## where the decisions run
 
@@ -74,4 +74,4 @@ The arrangement is the same as the [progressive download](progressive%20download
 
 Flashcards for this section are as follows:
 
-- in the streaming arrangement with ABR, what are $C[t]$, $N[t]$ and $R[t]$? ::@:: $C[t]$ is the rate the client requests the next chunk at, $N[t]$ is the rate the link delivers into the buffer, and $R[t]$ is the rate the player reads the buffer out at
+- in the streaming arrangement with ABR, what are $C[t]$, $N[t]$ and $R[t]$? ::@:: $C[t]$ is the rate the client requests the next chunk at, $N[t]$ is the rate the link delivers into the buffer, and $R[t]$ is the rate the player reads the buffer out at <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->

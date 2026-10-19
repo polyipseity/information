@@ -15,9 +15,9 @@ A _matter wave_ is the wave carried by a particle. Louis de Broglie proposed in 
 
 Flashcards for this section are as follows:
 
-- overview: what a matter wave is, and the wavelength $\lambda$ it gives a particle of momentum $p$ ::@:: The wave de Broglie associates with every particle: $\lambda = h/p$.
-- the de Broglie wavelength of a particle of mass $m$ moving at speed $v$ ::@:: $\lambda = h/mv$, since $p = mv$.
-- the Planck constant $h$ in de Broglie's relation $\lambda = h/p$: its value ::@:: $h = 6.626 \times 10^{-34}\ \text{J s}$.
+- overview: what a matter wave is, and the wavelength $\lambda$ it gives a particle of momentum $p$ ::@:: The wave de Broglie associates with every particle: $\lambda = h/p$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the de Broglie wavelength of a particle of mass $m$ moving at speed $v$ ::@:: $\lambda = h/mv$, since $p = mv$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the Planck constant $h$ in de Broglie's relation $\lambda = h/p$: its value ::@:: $h = 6.626 \times 10^{-34}\ \text{J s}$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## de Broglie hypothesis
 
@@ -31,14 +31,14 @@ Electrons are not the only particles with a workable wavelength. A neutron in th
 
 Flashcards for this section are as follows:
 
-- the photon relations $E = hf$ and $E = pc$: what wavelength–momentum relation do they give for a photon? ::@:: With $\lambda = c/f$ and $p = hf/c$, eliminating $f$ and $c$ gives $\lambda = h/p$ for the photon.
-- the de Broglie hypothesis: what it postulates, and the wavelength $\lambda$ it gives a particle of momentum $p$ ::@:: Every particle has wave as well as particle character, and a particle of momentum $p$ carries $\lambda = h/p$, the relation photons obey.
-- a runner of mass $m = 100\ \text{kg}$ at $v = 10\ \text{m/s}$: the de Broglie wavelength $\lambda = h/mv$ ::@:: About $7 \times 10^{-37}\ \text{m}$, far too small to observe.
-- an electron of mass $m = 10^{-30}\ \text{kg}$ at $v = 5 \times 10^{6}\ \text{m/s}$: the de Broglie wavelength $\lambda = h/mv$ ::@:: About $1.3 \times 10^{-10}\ \text{m}$, atomic-scale and in principle observable.
-- why the de Broglie wavelength $\lambda = h/mv$ stays invisible in everyday life ::@:: At everyday masses and speeds, $\lambda = h/mv$ is vanishingly small.
-- the de Broglie wavelength of a neutron in thermal equilibrium at temperature $T$ ::@:: $\lambda = h/\sqrt{3mkT} = 2.52\ \text{nm}\cdot\text{K}^{1/2}/\sqrt{T}$: $0.145\ \text{nm}$ at $300\ \text{K}$ and $0.287\ \text{nm}$ at $77\ \text{K}$.
-- how the thermal wavelength $\lambda = 2.52\ \text{nm}\cdot\text{K}^{1/2}/\sqrt{T}$ moves as the neutron temperature $T$ changes, and what that lets an experimenter do ::@:: $\lambda$ shrinks as $1/\sqrt{T}$, so cooling the neutrons lengthens it; cold and supercold beams are prepared for the longer wavelengths.
-- why neutron beams suit crystal-structure studies where a charged particle beam would not ::@:: A neutron carries no charge, so stray electric and magnetic fields bend its path far less than an electron's, and thermal neutrons already sit within the range of crystal plane spacings.
+- the photon relations $E = hf$ and $E = pc$: what wavelength–momentum relation do they give for a photon? ::@:: With $\lambda = c/f$ and $p = hf/c$, eliminating $f$ and $c$ gives $\lambda = h/p$ for the photon. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the de Broglie hypothesis: what it postulates, and the wavelength $\lambda$ it gives a particle of momentum $p$ ::@:: Every particle has wave as well as particle character, and a particle of momentum $p$ carries $\lambda = h/p$, the relation photons obey. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- a runner of mass $m = 100\ \text{kg}$ at $v = 10\ \text{m/s}$: the de Broglie wavelength $\lambda = h/mv$ ::@:: About $7 \times 10^{-37}\ \text{m}$, far too small to observe. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- an electron of mass $m = 10^{-30}\ \text{kg}$ at $v = 5 \times 10^{6}\ \text{m/s}$: the de Broglie wavelength $\lambda = h/mv$ ::@:: About $1.3 \times 10^{-10}\ \text{m}$, atomic-scale and in principle observable. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why the de Broglie wavelength $\lambda = h/mv$ stays invisible in everyday life ::@:: At everyday masses and speeds, $\lambda = h/mv$ is vanishingly small. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the de Broglie wavelength of a neutron in thermal equilibrium at temperature $T$ ::@:: $\lambda = h/\sqrt{3mkT} = 2.52\ \text{nm}\cdot\text{K}^{1/2}/\sqrt{T}$: $0.145\ \text{nm}$ at $300\ \text{K}$ and $0.287\ \text{nm}$ at $77\ \text{K}$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how the thermal wavelength $\lambda = 2.52\ \text{nm}\cdot\text{K}^{1/2}/\sqrt{T}$ moves as the neutron temperature $T$ changes, and what that lets an experimenter do ::@:: $\lambda$ shrinks as $1/\sqrt{T}$, so cooling the neutrons lengthens it; cold and supercold beams are prepared for the longer wavelengths. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why neutron beams suit crystal-structure studies where a charged particle beam would not ::@:: A neutron carries no charge, so stray electric and magnetic fields bend its path far less than an electron's, and thermal neutrons already sit within the range of crystal plane spacings. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## electron diffraction
 
@@ -48,7 +48,7 @@ If electrons are waves, they must diffract under the right conditions. Three exp
 
 Flashcards for this section are as follows:
 
-- what the three late-1920s electron experiments showed that a particle picture could not ::@:: Diffraction: intensity maxima at angles set by the electron's de Broglie wavelength, as for waves through a grating.
+- what the three late-1920s electron experiments showed that a particle picture could not ::@:: Diffraction: intensity maxima at angles set by the electron's de Broglie wavelength, as for waves through a grating. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 <!-- check: ignore-next-line[header_style]: proper noun (eponym) -->
 ### Davisson and Germer
@@ -61,16 +61,16 @@ Clinton Davisson and Lester Germer fired an electron beam at a nickel single-cry
 
 Flashcards for this section are as follows:
 
-- the grating condition $n\lambda = D \sin\varphi$ in the Davisson–Germer experiment: what $D$ and $\varphi$ are ::@:: $D$ is the spacing of the atomic rows on the nickel surface and $\varphi$ is the scattering angle of the intensity maximum.
-- ![Grating scattering geometry: rows of atoms with dashed lattice planes tilted through them, a vertical incident beam striking an atom and continuing straight past it as a dashed line, a scattered beam leaving up to the right, a thin plane normal between the two beams, and the spacings D between two atoms of a row and d between the planes; the arcs mark theta from the beam to a plane, phi between the beams with alpha on each side of the normal, and 2 theta from the straight-on line to the scattered beam](attachments/grating_scattering_geometry.svg) the Davisson–Germer grating geometry for $n\lambda = D \sin\varphi$: what does the drawing show? ::@:: The incident beam strikes an atom and the scattered beam leaves it, the plane normal splitting $\varphi$ into two angles $\alpha$. $\theta$ is the glancing angle from beam to plane, and $2\theta$ is the angle from the straight-on direction to the scattered beam. The right triangle at lower right gives $d = D \sin\alpha$, with $D$ the spacing between neighbouring atoms and $d$ the perpendicular spacing between planes.
-- in the Davisson–Germer experiment, the wavelength $\lambda$ from $D = 2.15\ \text{Å}$ and $\varphi = 50^\circ$ via $\lambda = D \sin\varphi$ ::@:: $\lambda \approx 0.165\ \text{nm}$.
-- the de Broglie wavelength $\lambda = h/\sqrt{2meV}$ of an electron accelerated through $V = 55\ \text{V}$ ::@:: About $0.165\ \text{nm}$, matching the wavelength the diffraction maximum gave.
-- the de Broglie wavelength of an electron accelerated from rest through $V_0$ volts, constants evaluated ::@:: $\lambda = 1.226\ \text{nm}/\sqrt{V_0}$.
-- in the Davisson–Germer scattering from nickel held at $\varphi = 50^\circ$ with row spacing $D = 0.215\ \text{nm}$, what happens to the peak as the accelerating voltage rises past 54 V ::@:: It builds to its largest at 54 V, where $\lambda = 1.226\ \text{nm}/\sqrt{V_0}$ matches $D\sin 50^\circ = 0.165\ \text{nm}$, and fades on either side.
-- what the 1927 Davisson–Germer result established about the electron wavelength $\lambda = h/p$ ::@:: Electrons diffract as waves, and the measured wavelength matches $\lambda = h/p$.
-- the kinetic energy gained by an electron accelerated from rest through a voltage $V$ ::@:: The electron gains $eV$, so $\tfrac{1}{2}mv^2 = eV$.
-- the speed $v$ that $\tfrac{1}{2}mv^2 = eV$ gives for an electron accelerated from rest through $V$ ::@:: $v = \sqrt{2eV/m}$.
-- the momentum $p$ of an electron accelerated from rest through a voltage $V$ ::@:: $p = mv = \sqrt{2meV}$.
+- the grating condition $n\lambda = D \sin\varphi$ in the Davisson–Germer experiment: what $D$ and $\varphi$ are ::@:: $D$ is the spacing of the atomic rows on the nickel surface and $\varphi$ is the scattering angle of the intensity maximum. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- ![Grating scattering geometry: rows of atoms with dashed lattice planes tilted through them, a vertical incident beam striking an atom and continuing straight past it as a dashed line, a scattered beam leaving up to the right, a thin plane normal between the two beams, and the spacings D between two atoms of a row and d between the planes; the arcs mark theta from the beam to a plane, phi between the beams with alpha on each side of the normal, and 2 theta from the straight-on line to the scattered beam](attachments/grating_scattering_geometry.svg) the Davisson–Germer grating geometry for $n\lambda = D \sin\varphi$: what does the drawing show? ::@:: The incident beam strikes an atom and the scattered beam leaves it, the plane normal splitting $\varphi$ into two angles $\alpha$. $\theta$ is the glancing angle from beam to plane, and $2\theta$ is the angle from the straight-on direction to the scattered beam. The right triangle at lower right gives $d = D \sin\alpha$, with $D$ the spacing between neighbouring atoms and $d$ the perpendicular spacing between planes. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- in the Davisson–Germer experiment, the wavelength $\lambda$ from $D = 2.15\ \text{Å}$ and $\varphi = 50^\circ$ via $\lambda = D \sin\varphi$ ::@:: $\lambda \approx 0.165\ \text{nm}$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the de Broglie wavelength $\lambda = h/\sqrt{2meV}$ of an electron accelerated through $V = 55\ \text{V}$ ::@:: About $0.165\ \text{nm}$, matching the wavelength the diffraction maximum gave. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the de Broglie wavelength of an electron accelerated from rest through $V_0$ volts, constants evaluated ::@:: $\lambda = 1.226\ \text{nm}/\sqrt{V_0}$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- in the Davisson–Germer scattering from nickel held at $\varphi = 50^\circ$ with row spacing $D = 0.215\ \text{nm}$, what happens to the peak as the accelerating voltage rises past 54 V ::@:: It builds to its largest at 54 V, where $\lambda = 1.226\ \text{nm}/\sqrt{V_0}$ matches $D\sin 50^\circ = 0.165\ \text{nm}$, and fades on either side. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the 1927 Davisson–Germer result established about the electron wavelength $\lambda = h/p$ ::@:: Electrons diffract as waves, and the measured wavelength matches $\lambda = h/p$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the kinetic energy gained by an electron accelerated from rest through a voltage $V$ ::@:: The electron gains $eV$, so $\tfrac{1}{2}mv^2 = eV$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the speed $v$ that $\tfrac{1}{2}mv^2 = eV$ gives for an electron accelerated from rest through $V$ ::@:: $v = \sqrt{2eV/m}$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the momentum $p$ of an electron accelerated from rest through a voltage $V$ ::@:: $p = mv = \sqrt{2meV}$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 <!-- check: ignore-next-line[header_style]: proper noun (eponym) -->
 ### G. P. Thomson
@@ -81,8 +81,8 @@ George Paget Thomson, the son of J. J. Thomson, passed a beam of energetic elect
 
 Flashcards for this section are as follows:
 
-- the G. P. Thomson electron diffraction experiment: the target and the pattern ::@:: Energetic electrons through a polycrystalline thin metal foil produced diffraction rings, the same pattern X-rays give through a powder.
-- electrons accelerated through $V = 150\ \text{V}$: the de Broglie wavelength $\lambda = h/\sqrt{2meV}$ ::@:: About $0.1\ \text{nm} = 1\ \text{Å}$, the wavelength of the X-rays whose pattern matched.
+- the G. P. Thomson electron diffraction experiment: the target and the pattern ::@:: Energetic electrons through a polycrystalline thin metal foil produced diffraction rings, the same pattern X-rays give through a powder. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- electrons accelerated through $V = 150\ \text{V}$: the de Broglie wavelength $\lambda = h/\sqrt{2meV}$ ::@:: About $0.1\ \text{nm} = 1\ \text{Å}$, the wavelength of the X-rays whose pattern matched. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## standing waves and quantisation
 
@@ -92,10 +92,10 @@ The wave picture reaches back into the Bohr model. An electron wave bound to a c
 
 Flashcards for this section are as follows:
 
-- the standing-wave resonance condition for an electron of wavelength $\lambda$ in a circular orbit of radius $r$ ::@:: $2\pi r = n\lambda$ for integer $n$: the circumference must hold a whole number of wavelengths.
-- given the resonance condition $2\pi r = n\lambda$ and the de Broglie relation $\lambda = h/p$, what angular momentum $L = rp$ does the orbit carry? ::@:: $rp = nh/2\pi$, so $L = n\hbar$ with $\hbar = h/2\pi$.
-- the first three standing-wave wavelengths $\lambda_n = 2\pi n a_0$ on hydrogen's Bohr orbits, in units of $a_0$ ::@:: $\lambda_1 \approx 6.28 a_0$, $\lambda_2 \approx 12.57 a_0$, and $\lambda_3 \approx 18.85 a_0$.
-- what the standing-wave condition did to the Bohr model's postulate $L = n\hbar$ ::@:: It derived it: requiring the electron's matter wave to close on the orbit gives $L = n\hbar$ with no postulate left over.
+- the standing-wave resonance condition for an electron of wavelength $\lambda$ in a circular orbit of radius $r$ ::@:: $2\pi r = n\lambda$ for integer $n$: the circumference must hold a whole number of wavelengths. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- given the resonance condition $2\pi r = n\lambda$ and the de Broglie relation $\lambda = h/p$, what angular momentum $L = rp$ does the orbit carry? ::@:: $rp = nh/2\pi$, so $L = n\hbar$ with $\hbar = h/2\pi$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the first three standing-wave wavelengths $\lambda_n = 2\pi n a_0$ on hydrogen's Bohr orbits, in units of $a_0$ ::@:: $\lambda_1 \approx 6.28 a_0$, $\lambda_2 \approx 12.57 a_0$, and $\lambda_3 \approx 18.85 a_0$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the standing-wave condition did to the Bohr model's postulate $L = n\hbar$ ::@:: It derived it: requiring the electron's matter wave to close on the orbit gives $L = n\hbar$ with no postulate left over. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## complementarity
 
@@ -105,5 +105,5 @@ Wave and particle aspects are complementary: neither alone describes matter or r
 
 Flashcards for this section are as follows:
 
-- complementarity: what Bohr's principle states ::@:: Wave and particle aspects complement each other in matter and radiation alike; neither model alone describes them fully, and the experimental arrangement decides which appears.
-- what decides which aspect, wave or particle, a measurement reveals ::@:: The experimental arrangement: a diffraction grating draws out the wave side, a particle counter the particle side.
+- complementarity: what Bohr's principle states ::@:: Wave and particle aspects complement each other in matter and radiation alike; neither model alone describes them fully, and the experimental arrangement decides which appears. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what decides which aspect, wave or particle, a measurement reveals ::@:: The experimental arrangement: a diffraction grating draws out the wave side, a particle counter the particle side. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->

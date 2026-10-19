@@ -19,8 +19,8 @@ In theory a price takes any value in $p \in \mathbb{R}_+$, but an algorithm cann
 
 Flashcards for this section are as follows:
 
-- what a tick is ::@:: One of the discrete numbers a price may take, with the tick size the distance between neighbours.
-- why the price domain is discrete ::@:: A matching algorithm cannot match against a continuum, so the venue imposes a grid.
+- what a tick is ::@:: One of the discrete numbers a price may take, with the tick size the distance between neighbours. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why the price domain is discrete ::@:: A matching algorithm cannot match against a continuum, so the venue imposes a grid. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## minimum tick size
 
@@ -32,7 +32,7 @@ A common grid is what makes two venues quoting the same stock comparable, so a t
 
 Flashcards for this section are as follows:
 
-- minimum tick size fixed by Rule 612 ::@:: One cent.
-- price a limit order cannot quote under the sub-penny rule ::@:: 101.255 dollars, which is off the grid.
-- what a common grid buys ::@:: Two venues quoting the same stock become comparable, and the order protection rule can be checked at all.
-- open question about the sub-penny rule ::@:: Why the rule is needed, and what a finer grid would do.
+- minimum tick size fixed by Rule 612 ::@:: One cent. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- price a limit order cannot quote under the sub-penny rule ::@:: 101.255 dollars, which is off the grid. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a common grid buys ::@:: Two venues quoting the same stock become comparable, and the order protection rule can be checked at all. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- open question about the sub-penny rule ::@:: Why the rule is needed, and what a finer grid would do. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->

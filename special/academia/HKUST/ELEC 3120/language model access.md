@@ -31,11 +31,11 @@ Not all of those costs are about price. Two routes buy cheap access with weaker 
 
 Flashcards for this section are as follows:
 
-- the five routes: what does each one cost, and is any of that a price? ::@:: Intelligence, stability, access or usage limits, and none of them is a price
-- which route gives native Codex and Claude plans, and what does that route cost? ::@:: A VPN: an overseas credit card you may not be able to get in Hong Kong, and a risk of a ban.
-- which two routes buy cheap access with weaker models? ::@:: Local LLMs, such as Qwen and Gemma, and the China models, which are cheap and stable but not as powerful as Claude and GPT.
-- what does GitHub Copilot cost a student, and what limits it? ::@:: Nothing, and it is stable and safe, but usage is limited on the free plan.
-- when were the pros and cons in this table true, and what changes? ::@:: September 2026. The pricing and the access rules behind them move.
+- the five routes: what does each one cost, and is any of that a price? ::@:: Intelligence, stability, access or usage limits, and none of them is a price <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- which route gives native Codex and Claude plans, and what does that route cost? ::@:: A VPN: an overseas credit card you may not be able to get in Hong Kong, and a risk of a ban. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- which two routes buy cheap access with weaker models? ::@:: Local LLMs, such as Qwen and Gemma, and the China models, which are cheap and stable but not as powerful as Claude and GPT. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what does GitHub Copilot cost a student, and what limits it? ::@:: Nothing, and it is stable and safe, but usage is limited on the free plan. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- when were the pros and cons in this table true, and what changes? ::@:: September 2026. The pricing and the access rules behind them move. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 <!-- check: ignore-next-line[header_style]: GitHub is a proper noun -->
 ## GitHub and the Student Developer Pack
@@ -46,5 +46,5 @@ GitHub stores, shares and collaborates on software projects, and it is where the
 
 Flashcards for this section are as follows:
 
-- what does GitHub provide for a software project? ::@:: Git integration, collaboration tools, and an open source community
-- who is the Student Developer Pack for, and what is it for? ::@:: Students, because the tools real software work needs cost too much for them
+- what does GitHub provide for a software project? ::@:: Git integration, collaboration tools, and an open source community <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- who is the Student Developer Pack for, and what is it for? ::@:: Students, because the tools real software work needs cost too much for them <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->

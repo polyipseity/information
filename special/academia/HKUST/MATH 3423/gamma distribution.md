@@ -15,7 +15,7 @@ The _gamma distribution_ is a two-parameter family of distributions on the posit
 
 Flashcards for this section are as follows:
 
-- what are the two parameters of $X \sim \text{Gamma}(\alpha, \beta)$, and where is the family supported? ::@:: A shape $\alpha > 0$ and a rate $\beta > 0$, on the positive half-line $(0, \infty)$; every positive pair of parameters gives a member.
+- what are the two parameters of $X \sim \text{Gamma}(\alpha, \beta)$, and where is the family supported? ::@:: A shape $\alpha > 0$ and a rate $\beta > 0$, on the positive half-line $(0, \infty)$; every positive pair of parameters gives a member. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## probability density function
 
@@ -31,15 +31,15 @@ The mean is $$E[X] = \frac{\alpha}{\beta},$$ and the variance is $$\operatorname
 
 Flashcards for this section are as follows:
 
-- density of $X \sim \text{Gamma}(\alpha, \beta)$ for a shape $\alpha > 0$ and a rate $\beta > 0$ at $x > 0$ ::@:: $$f_X(x \mid \alpha, \beta) = \frac{\beta^\alpha}{\Gamma(\alpha)} x^{\alpha - 1} e^{-\beta x}.$$
-- density of $X \sim \text{Gamma}(\alpha, \beta)$ at a non-positive value $x \le 0$ ::@:: $0$, so the family is supported on the positive half-line only.
-- what the shape $\alpha$ does in the gamma density $f_X(x \mid \alpha, \beta) = \frac{\beta^\alpha}{\Gamma(\alpha)} x^{\alpha - 1} e^{-\beta x}$ for $x > 0$ ::@:: It is the power $\alpha - 1$ of $x$.
-- what the rate $\beta$ does in the gamma density $f_X(x \mid \alpha, \beta) = \frac{\beta^\alpha}{\Gamma(\alpha)} x^{\alpha - 1} e^{-\beta x}$ for $x > 0$ ::@:: It is the rate at which the exponential $e^{-\beta x}$ decays.
-- the normalizing constant of the gamma density $f_X(x \mid \alpha, \beta) = \frac{\beta^\alpha}{\Gamma(\alpha)} x^{\alpha - 1} e^{-\beta x}$: what is $\Gamma(\alpha)$? ::@:: The gamma function $\Gamma(\alpha) = \int_0^\infty t^{\alpha - 1} e^{-t} \,\mathrm{d}t$, the whole normalizing integral once $\beta^\alpha$ is taken out of it.
-- density of $X \sim \text{Gamma}(\alpha, \beta)$ rewritten with a scale $\theta = 1/\beta$ in place of the rate ::@:: $$\frac{1}{\Gamma(\alpha) \theta^\alpha} x^{\alpha - 1} e^{-x/\theta}.$$ Here the parameter divides $x$ instead of multiplying it.
-- reading of the second parameter of $X \sim \text{Gamma}(\alpha, \beta)$: rate or scale? ::@:: A rate $\beta$ under the rate form and a scale $\theta = 1/\beta$ under the scale form; both describe one family, so a pair of numbers must be read with the parameterization it was written in.
-- mean of $X \sim \text{Gamma}(\alpha, \beta)$ for a shape $\alpha > 0$ and a rate $\beta > 0$ ::@:: $\frac{\alpha}{\beta}$, the same under either parameterization since $\theta = 1/\beta$.
-- variance of $X \sim \text{Gamma}(\alpha, \beta)$ for a shape $\alpha > 0$ and a rate $\beta > 0$ ::@:: $\frac{\alpha}{\beta^2}$.
+- density of $X \sim \text{Gamma}(\alpha, \beta)$ for a shape $\alpha > 0$ and a rate $\beta > 0$ at $x > 0$ ::@:: $$f_X(x \mid \alpha, \beta) = \frac{\beta^\alpha}{\Gamma(\alpha)} x^{\alpha - 1} e^{-\beta x}.$$ <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- density of $X \sim \text{Gamma}(\alpha, \beta)$ at a non-positive value $x \le 0$ ::@:: $0$, so the family is supported on the positive half-line only. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the shape $\alpha$ does in the gamma density $f_X(x \mid \alpha, \beta) = \frac{\beta^\alpha}{\Gamma(\alpha)} x^{\alpha - 1} e^{-\beta x}$ for $x > 0$ ::@:: It is the power $\alpha - 1$ of $x$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the rate $\beta$ does in the gamma density $f_X(x \mid \alpha, \beta) = \frac{\beta^\alpha}{\Gamma(\alpha)} x^{\alpha - 1} e^{-\beta x}$ for $x > 0$ ::@:: It is the rate at which the exponential $e^{-\beta x}$ decays. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the normalizing constant of the gamma density $f_X(x \mid \alpha, \beta) = \frac{\beta^\alpha}{\Gamma(\alpha)} x^{\alpha - 1} e^{-\beta x}$: what is $\Gamma(\alpha)$? ::@:: The gamma function $\Gamma(\alpha) = \int_0^\infty t^{\alpha - 1} e^{-t} \,\mathrm{d}t$, the whole normalizing integral once $\beta^\alpha$ is taken out of it. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- density of $X \sim \text{Gamma}(\alpha, \beta)$ rewritten with a scale $\theta = 1/\beta$ in place of the rate ::@:: $$\frac{1}{\Gamma(\alpha) \theta^\alpha} x^{\alpha - 1} e^{-x/\theta}.$$ Here the parameter divides $x$ instead of multiplying it. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- reading of the second parameter of $X \sim \text{Gamma}(\alpha, \beta)$: rate or scale? ::@:: A rate $\beta$ under the rate form and a scale $\theta = 1/\beta$ under the scale form; both describe one family, so a pair of numbers must be read with the parameterization it was written in. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- mean of $X \sim \text{Gamma}(\alpha, \beta)$ for a shape $\alpha > 0$ and a rate $\beta > 0$ ::@:: $\frac{\alpha}{\beta}$, the same under either parameterization since $\theta = 1/\beta$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- variance of $X \sim \text{Gamma}(\alpha, \beta)$ for a shape $\alpha > 0$ and a rate $\beta > 0$ ::@:: $\frac{\alpha}{\beta^2}$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## chi-squared distribution as a special case
 
@@ -53,11 +53,11 @@ A squared normal variable is written $$N^{(2)}(0, 1) = \chi^2(1),$$ with the squ
 
 Flashcards for this section are as follows:
 
-- which member of the gamma family $X \sim \text{Gamma}(\alpha, \beta)$ is the chi-squared variable $\chi^2(k)$ for a positive integer $k$? ::@:: $\text{Gamma}(\tfrac{k}{2}, \tfrac{1}{2})$: rate exactly $\tfrac{1}{2}$ and shape $k/2$, and failing either condition rules out membership.
-- law of the square $Y^2$ of a standard normal variable $Y \sim N(0, 1)$ ::@:: $\chi^2(1)$, which is $\text{Gamma}(\tfrac{1}{2}, \tfrac{1}{2})$.
-- what the notation $N^{(2)}(0, 1)$ denotes, and how it differs from $N_2$ with a subscript ::@:: The squared standard normal variable, equal in distribution to $\chi^2(1)$; the superscript $2$ marks the square, whereas the subscript $2$ marks a bivariate normal vector.
-- mean of the chi-squared variable $\chi^2(k)$ for a positive integer $k$, from the gamma mean $\alpha/\beta$ at $\alpha = k/2$ and $\beta = 1/2$ ::@:: $k$, because $(k/2)/(1/2) = k$.
-- variance of the chi-squared variable $\chi^2(k)$ for a positive integer $k$, from the gamma variance $\alpha/\beta^2$ at $\alpha = k/2$ and $\beta = 1/2$ ::@:: $2k$.
+- which member of the gamma family $X \sim \text{Gamma}(\alpha, \beta)$ is the chi-squared variable $\chi^2(k)$ for a positive integer $k$? ::@:: $\text{Gamma}(\tfrac{k}{2}, \tfrac{1}{2})$: rate exactly $\tfrac{1}{2}$ and shape $k/2$, and failing either condition rules out membership. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- law of the square $Y^2$ of a standard normal variable $Y \sim N(0, 1)$ ::@:: $\chi^2(1)$, which is $\text{Gamma}(\tfrac{1}{2}, \tfrac{1}{2})$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the notation $N^{(2)}(0, 1)$ denotes, and how it differs from $N_2$ with a subscript ::@:: The squared standard normal variable, equal in distribution to $\chi^2(1)$; the superscript $2$ marks the square, whereas the subscript $2$ marks a bivariate normal vector. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- mean of the chi-squared variable $\chi^2(k)$ for a positive integer $k$, from the gamma mean $\alpha/\beta$ at $\alpha = k/2$ and $\beta = 1/2$ ::@:: $k$, because $(k/2)/(1/2) = k$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- variance of the chi-squared variable $\chi^2(k)$ for a positive integer $k$, from the gamma variance $\alpha/\beta^2$ at $\alpha = k/2$ and $\beta = 1/2$ ::@:: $2k$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 <!-- check: ignore-next-line[section_example_heading]: a matched pair of cases for the definition, kept together so the counterexample sits beside the definition it violates -->
 ### examples and counterexamples

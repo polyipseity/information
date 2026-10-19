@@ -20,7 +20,7 @@ A complete answer does more than answer the question. It shows what the answer r
 
 Flashcards for this section are as follows:
 
-- what makes an answer complete? ::@:: The answer, the evidence behind it, and the warrant connecting the two.
+- what makes an answer complete? ::@:: The answer, the evidence behind it, and the warrant connecting the two. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## the three parts
 
@@ -36,9 +36,9 @@ An answer with several claims needs its own evidence and warrant for each of the
 
 Flashcards for this section are as follows:
 
-- worked answer: are bears mammals? ::@:: Answer: yes, bears are mammals; evidence: bears have fur; warrant: animals with fur or hair are mammals.
-- Hong Kong as a great city: what are its two warrants? ::@:: People enjoy living in cities that offer outdoor activities; this saves people time on their commute.
-- what goes wrong if the answer stops at the evidence? ::@:: The reader is left with something true that does not yet settle the question. The warrant supplies the missing link.
+- worked answer: are bears mammals? ::@:: Answer: yes, bears are mammals; evidence: bears have fur; warrant: animals with fur or hair are mammals. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- Hong Kong as a great city: what are its two warrants? ::@:: People enjoy living in cities that offer outdoor activities; this saves people time on their commute. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what goes wrong if the answer stops at the evidence? ::@:: The reader is left with something true that does not yet settle the question. The warrant supplies the missing link. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## explaining a plot
 
@@ -57,6 +57,6 @@ The order is not interchangeable. __Why__ names the question the reading starts 
 
 Flashcards for this section are as follows:
 
-- what are the six steps of WALTER, in order? ::@:: Why, Axes, Lines, Trend, Exception, Recap.
-- why can the six steps not be rearranged? ::@:: A conclusion is defensible only as far as the measurement behind it is clear, so __Axes__ and __Lines__ must be settled first.
-- WALTER, L: what does Lines ask? ::@:: What you have measured, as distinct from what the axes are labelled.
+- what are the six steps of WALTER, in order? ::@:: Why, Axes, Lines, Trend, Exception, Recap. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why can the six steps not be rearranged? ::@:: A conclusion is defensible only as far as the measurement behind it is clear, so __Axes__ and __Lines__ must be settled first. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- WALTER, L: what does Lines ask? ::@:: What you have measured, as distinct from what the axes are labelled. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->

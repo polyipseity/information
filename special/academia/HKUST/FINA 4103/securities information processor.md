@@ -19,8 +19,8 @@ Nothing trades through it. Its only function is to say what the whole market loo
 
 Flashcards for this section are as follows:
 
-- what a securities information processor is ::@:: The intermediary that collects limit-order book and trade data from every exchange, aggregates them, and publishes the result to the public.
-- what a securities information processor does and does not do ::@:: It reports what the whole market looks like; no trade executes through it.
+- what a securities information processor is ::@:: The intermediary that collects limit-order book and trade data from every exchange, aggregates them, and publishes the result to the public. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a securities information processor does and does not do ::@:: It reports what the whole market looks like; no trade executes through it. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## consolidated quotation and consolidated tape
 
@@ -32,10 +32,10 @@ Aggregating the best bid and the best offer across all the venues produces the N
 
 Flashcards for this section are as follows:
 
-- what each of the two forms of the aggregate is for ::@:: The consolidated quotation tells a trader where liquidity sits, and the consolidated tape tells a trader what the market has just traded at.
-- what the consolidated quotation carries ::@:: The limit-order book data: what orders and quotes are available anywhere.
-- what the consolidated tape carries ::@:: The executed trades, with price and quantity.
-- what a fragmented market is quoted against ::@:: The National Best Bid and Offer, not any single venue's book.
+- what each of the two forms of the aggregate is for ::@:: The consolidated quotation tells a trader where liquidity sits, and the consolidated tape tells a trader what the market has just traded at. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the consolidated quotation carries ::@:: The limit-order book data: what orders and quotes are available anywhere. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the consolidated tape carries ::@:: The executed trades, with price and quantity. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a fragmented market is quoted against ::@:: The National Best Bid and Offer, not any single venue's book. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## direct data feeds
 
@@ -47,9 +47,9 @@ Each exchange then began publishing its raw limit-order book straight to its cus
 
 Flashcards for this section are as follows:
 
-- why the processor became the slow part of the arrangement ::@:: It has to aggregate before it can publish, so it sits at least one step behind the exchanges it collects from.
-- what a direct data feed is ::@:: An exchange publishing its raw limit-order book straight to its customers, bypassing the processor.
-- two properties of a direct data feed ::@:: Much faster than the processor's output, and much more expensive.
-- open question about why an exchange supplies a direct data feed ::@:: What incentive it has to provide one.
-- how direct data feeds affect the playing field ::@:: Unevenly, because traders who can pay see the market sooner than traders who cannot.
-- what would happen to the consolidated information if every trader used a direct feed ::@:: It would be left with no readers, since nobody would act on it.
+- why the processor became the slow part of the arrangement ::@:: It has to aggregate before it can publish, so it sits at least one step behind the exchanges it collects from. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a direct data feed is ::@:: An exchange publishing its raw limit-order book straight to its customers, bypassing the processor. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- two properties of a direct data feed ::@:: Much faster than the processor's output, and much more expensive. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- open question about why an exchange supplies a direct data feed ::@:: What incentive it has to provide one. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how direct data feeds affect the playing field ::@:: Unevenly, because traders who can pay see the market sooner than traders who cannot. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what would happen to the consolidated information if every trader used a direct feed ::@:: It would be left with no readers, since nobody would act on it. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->

@@ -25,15 +25,15 @@ The first two protect the price, the third fixes the grid the price sits on, and
 
 Flashcards for this section are as follows:
 
-- what Regulation NMS made enforceable ::@:: The SEC rule of June 2005 that turns the aim of the national market system into an enforceable rulebook.
-- when Regulation NMS was adopted ::@:: June 2005.
-- what Regulation NMS is mostly about ::@:: Trade execution: at which price a trade may execute, and how fast.
-- order protection rule, its number, and what it forbids ::@:: Rule 611, which forbids a trade-through.
-- access rule, its number, and what it forbids ::@:: Rule 610, which forbids a locked or crossed market.
-- sub-penny rule, its number, and what it fixes ::@:: Rule 612, which fixes the minimum tick size.
-- market data rule, its numbers, and what it governs ::@:: Rules 601 and 603, which govern the direct feed.
-- which two of the four rules protect the price ::@:: The order protection rule and the access rule, Rules 611 and 610.
-- what the market data rule governs ::@:: How the market's data reaches its users.
+- what Regulation NMS made enforceable ::@:: The SEC rule of June 2005 that turns the aim of the national market system into an enforceable rulebook. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- when Regulation NMS was adopted ::@:: June 2005. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what Regulation NMS is mostly about ::@:: Trade execution: at which price a trade may execute, and how fast. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- order protection rule, its number, and what it forbids ::@:: Rule 611, which forbids a trade-through. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- access rule, its number, and what it forbids ::@:: Rule 610, which forbids a locked or crossed market. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- sub-penny rule, its number, and what it fixes ::@:: Rule 612, which fixes the minimum tick size. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- market data rule, its numbers, and what it governs ::@:: Rules 601 and 603, which govern the direct feed. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- which two of the four rules protect the price ::@:: The order protection rule and the access rule, Rules 611 and 610. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the market data rule governs ::@:: How the market's data reaches its users. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## flickering quotes
 
@@ -47,11 +47,11 @@ Two exemptions are order types rather than conditions on the data: an [intermark
 
 Flashcards for this section are as follows:
 
-- what flickering quotes are ::@:: Quotes submitted and cancelled repeatedly within a very short interval.
-- how long the flickering-quote exemption runs ::@:: Up to one second.
-- why the exemption is needed ::@:: The data a venue reads is older than the market it describes.
-- example of an exchange that has not traded through ::@:: One that executed at 10:00:00.000 on its own data when a better price at another exchange was reflected only at 10:00:00.050.
-- the standard a venue is held to ::@:: The prices it could see, not the prices that existed.
-- how the two exemptions differ from flickering quotes ::@:: They are order types rather than conditions on the data.
-- which order types those two exemptions are ::@:: The intermarket sweep order and the do-not-ship order.
-- what the do-not-ship and intermarket sweep exemptions give up ::@:: The obligation to route, trading price protection away for speed.
+- what flickering quotes are ::@:: Quotes submitted and cancelled repeatedly within a very short interval. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how long the flickering-quote exemption runs ::@:: Up to one second. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why the exemption is needed ::@:: The data a venue reads is older than the market it describes. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- example of an exchange that has not traded through ::@:: One that executed at 10:00:00.000 on its own data when a better price at another exchange was reflected only at 10:00:00.050. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the standard a venue is held to ::@:: The prices it could see, not the prices that existed. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how the two exemptions differ from flickering quotes ::@:: They are order types rather than conditions on the data. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- which order types those two exemptions are ::@:: The intermarket sweep order and the do-not-ship order. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the do-not-ship and intermarket sweep exemptions give up ::@:: The obligation to route, trading price protection away for speed. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->

@@ -14,8 +14,8 @@ Phrenology is the nineteenth-century doctrine that the shape of the skull report
 
 Flashcards for this section are as follows:
 
-- what phrenology read off the skull ::@:: The size of the brain tissue beneath each bump, and from that the strength of the faculty sitting there.
-- what phrenology is ::@:: A nineteenth-century pseudoscience that claimed the shape of the skull reflects the underlying brain tissue and the mental characteristics it carries.
+- what phrenology read off the skull ::@:: The size of the brain tissue beneath each bump, and from that the strength of the faculty sitting there. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what phrenology is ::@:: A nineteenth-century pseudoscience that claimed the shape of the skull reflects the underlying brain tissue and the mental characteristics it carries. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## what it claimed
 
@@ -29,13 +29,13 @@ Gall developed it in Vienna in the 1790s and published it in the first decades o
 
 Flashcards for this section are as follows:
 
-- the two claims of the phrenological doctrine ::@:: The mind is a collection of separate faculties, each with its own organ in the brain, and the skull grows to fit the brain.
-- what follows from the two claims ::@:: Measuring the skull measures the mind.
-- who developed phrenology and where ::@:: Gall, in Vienna in the 1790s.
-- who carried phrenology to Britain and America ::@:: Spurzheim and Combe.
-- the two head types a phrenology chart sets beside each other: ![A Victorian broadside headed Chart of Mental Geometry, with a large head filled by symbolic scenes, portraits of Gall and Spurzheim, and heads labelled moral type and murderer's type](attachments/Phrenological%20chart%20Wellcome%20V0009523.jpg) ::@:: A Moral Type and a Murderer's Type.
-- draw the phrenology chart: what fills the centre of the sheet? ::@:: A large profile head called the symbolical head, its cranium packed with scenes, with the classification of the faculties in tables beneath it. <p> ![A Victorian broadside headed Chart of Mental Geometry, with a large head filled by symbolic scenes, portraits of Gall and Spurzheim, and heads labelled moral type and murderer's type](attachments/Phrenological%20chart%20Wellcome%20V0009523.jpg)
-- what phrenology was at its height ::@:: A popular craze rather than a medical practice.
+- the two claims of the phrenological doctrine ::@:: The mind is a collection of separate faculties, each with its own organ in the brain, and the skull grows to fit the brain. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what follows from the two claims ::@:: Measuring the skull measures the mind. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- who developed phrenology and where ::@:: Gall, in Vienna in the 1790s. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- who carried phrenology to Britain and America ::@:: Spurzheim and Combe. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the two head types a phrenology chart sets beside each other: ![A Victorian broadside headed Chart of Mental Geometry, with a large head filled by symbolic scenes, portraits of Gall and Spurzheim, and heads labelled moral type and murderer's type](attachments/Phrenological%20chart%20Wellcome%20V0009523.jpg) ::@:: A Moral Type and a Murderer's Type. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- draw the phrenology chart: what fills the centre of the sheet? ::@:: A large profile head called the symbolical head, its cranium packed with scenes, with the classification of the faculties in tables beneath it. <p> ![A Victorian broadside headed Chart of Mental Geometry, with a large head filled by symbolic scenes, portraits of Gall and Spurzheim, and heads labelled moral type and murderer's type](attachments/Phrenological%20chart%20Wellcome%20V0009523.jpg) <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what phrenology was at its height ::@:: A popular craze rather than a medical practice. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## why it was rejected
 
@@ -47,9 +47,9 @@ The evidence was gathered the wrong way round. A bump was noticed only after a t
 
 Flashcards for this section are as follows:
 
-- why the skull's shape cannot report the brain's shape ::@:: It varies in thickness, sits over the tissue with fluid and membrane between, and follows its own growth rather than the cortex's.
-- how phrenological evidence was gathered ::@:: A bump was noticed after a trait was already known, and the cases that did not fit were not counted.
-- what was drawn first in phrenology ::@:: The map of faculties, so the bumps were read to match it.
+- why the skull's shape cannot report the brain's shape ::@:: It varies in thickness, sits over the tissue with fluid and membrane between, and follows its own growth rather than the cortex's. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how phrenological evidence was gathered ::@:: A bump was noticed after a trait was already known, and the cases that did not fit were not counted. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what was drawn first in phrenology ::@:: The map of faculties, so the bumps were read to match it. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## the lasting contribution
 
@@ -63,11 +63,11 @@ Modern imaging settles it the same way, by measuring activity in the tissue itse
 
 Flashcards for this section are as follows:
 
-- phrenology's lasting contribution ::@:: The doctrine of cerebral localisation.
-- what cerebral localisation claims ::@:: The brain is divided into regions that do different jobs, so damage to one region costs one function.
-- how Broca settled localisation in 1861 ::@:: He located a patient's lost speech in one region of the left frontal lobe, while the rest of the mind stood intact.
-- what modern imaging does that phrenology could not ::@:: It measures activity in the brain tissue itself rather than reading the bone above it.
-- where the two speech areas are picked out: ![A left side view of the brain with Broca's area near the front and Wernicke's area near the back picked out, and front and back marked](attachments/Broca%20and%20Wernicke%20areas.svg) ::@:: Broca's area near the front of the left hemisphere and Wernicke's area near the back, with Front and Back marked along the foot of the sheet.
+- phrenology's lasting contribution ::@:: The doctrine of cerebral localisation. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what cerebral localisation claims ::@:: The brain is divided into regions that do different jobs, so damage to one region costs one function. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how Broca settled localisation in 1861 ::@:: He located a patient's lost speech in one region of the left frontal lobe, while the rest of the mind stood intact. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what modern imaging does that phrenology could not ::@:: It measures activity in the brain tissue itself rather than reading the bone above it. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- where the two speech areas are picked out: ![A left side view of the brain with Broca's area near the front and Wernicke's area near the back picked out, and front and back marked](attachments/Broca%20and%20Wernicke%20areas.svg) ::@:: Broca's area near the front of the left hemisphere and Wernicke's area near the back, with Front and Back marked along the foot of the sheet. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## references
 

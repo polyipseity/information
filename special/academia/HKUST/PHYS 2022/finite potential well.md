@@ -16,7 +16,7 @@ The finite square well is the [particle in a box](particle%20in%20a%20box.md) wi
 
 Flashcards for this section are as follows:
 
-- overview: how the finite well with depth $V_0$ differs from the infinite one ::@:: The walls have depth $V_0$ instead of infinity, so the wave function leaks into the walls with decay constant $\alpha = \sqrt{2m(V_0-E)}/\hbar$, every level drops below its infinite-well value, and only finitely many bound states exist.
+- overview: how the finite well with depth $V_0$ differs from the infinite one ::@:: The walls have depth $V_0$ instead of infinity, so the wave function leaks into the walls with decay constant $\alpha = \sqrt{2m(V_0-E)}/\hbar$, every level drops below its infinite-well value, and only finitely many bound states exist. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## three regions
 
@@ -26,10 +26,10 @@ Split the line into region I ($x < 0$, $V = V_0$), region II ($0 < x < L$, $V = 
 
 Flashcards for this section are as follows:
 
-- the decay constant $\alpha$ outside a finite well of depth $V_0$ ::@:: $\alpha = \sqrt{2m(V_0 - E)}/\hbar$, with $\psi_{\mathrm{I}} = Ae^{\alpha x}$ and $\psi_{\mathrm{III}} = Be^{-\alpha x}$ decaying away from the well.
-- the wave number $k$ inside the finite well ::@:: $k = \sqrt{2mE}/\hbar$, with $\psi_{\mathrm{II}} = Ce^{ikx} + De^{-ikx}$ oscillating in region II.
-- the rearranged form of $-\frac{\hbar^2}{2m}\psi'' + V_0\psi = E\psi$ in the wall regions of a finite well ::@:: There $V = V_0$, so the equation rearranges to $\psi'' = 2m(V_0 - E)\psi/\hbar^2$.
-- what the trial $\psi = e^{\lambda x}$ requires in the wall regions of a finite well ::@:: Substitution into $\psi'' = 2m(V_0 - E)\psi/\hbar^2$ forces $\lambda^2 = 2m(V_0 - E)/\hbar^2$, giving $\lambda = \pm\alpha$ with $\alpha = \sqrt{2m(V_0 - E)}/\hbar$.
+- the decay constant $\alpha$ outside a finite well of depth $V_0$ ::@:: $\alpha = \sqrt{2m(V_0 - E)}/\hbar$, with $\psi_{\mathrm{I}} = Ae^{\alpha x}$ and $\psi_{\mathrm{III}} = Be^{-\alpha x}$ decaying away from the well. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the wave number $k$ inside the finite well ::@:: $k = \sqrt{2mE}/\hbar$, with $\psi_{\mathrm{II}} = Ce^{ikx} + De^{-ikx}$ oscillating in region II. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the rearranged form of $-\frac{\hbar^2}{2m}\psi'' + V_0\psi = E\psi$ in the wall regions of a finite well ::@:: There $V = V_0$, so the equation rearranges to $\psi'' = 2m(V_0 - E)\psi/\hbar^2$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the trial $\psi = e^{\lambda x}$ requires in the wall regions of a finite well ::@:: Substitution into $\psi'' = 2m(V_0 - E)\psi/\hbar^2$ forces $\lambda^2 = 2m(V_0 - E)/\hbar^2$, giving $\lambda = \pm\alpha$ with $\alpha = \sqrt{2m(V_0 - E)}/\hbar$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## boundary matching
 
@@ -39,14 +39,14 @@ The wave function and its slope must both be continuous where the regions meet, 
 
 Flashcards for this section are as follows:
 
-- what must be continuous at each wall: $\psi$ or $d\psi/dx$? ::@:: Both $\psi$ and $d\psi/dx$ at $x = 0$ and $x = L$, since the potential there is finite.
-- what the matching conditions $\psi_{\mathrm{I}} = \psi_{\mathrm{II}}$ and $\psi'_{\mathrm{I}} = \psi'_{\mathrm{II}}$ give ::@:: From transcendental equations set by matching $\psi$ and $\psi'$ at both walls — no closed form, solved graphically or numerically.
-- how finite-well states are organised ::@:: By parity about the well's centre: even (cosine-like) and odd (sinusoidal) solutions interleave in energy.
-- why the bound states of a finite well of width $L$ fall into even and odd classes ::@:: The well is symmetric under $x \to L - x$, so mirroring leaves the potential unchanged and the solutions can be chosen symmetric (even) or antisymmetric (odd).
-- Euler's formula connecting $e^{\pm ikx}$ to the trigonometric functions ::@:: $e^{\pm ikx} = \cos kx \pm i\sin kx$.
-- what Euler's formula $e^{\pm ikx} = \cos kx \pm i\sin kx$ does for the interior solution $\psi_{\mathrm{II}} = Ce^{ikx} + De^{-ikx}$ ::@:: It rewrites $\psi_{\mathrm{II}}$ as cosine and sine terms.
-- why the real parity basis $C\cos kx$ and $D\sin kx$ is the easier interior basis for a symmetric well ::@:: Each parity class solves the boundary conditions separately, so the even and odd states can be matched on their own.
-- why $\psi'$ must be continuous at a finite step, and what a kink would mean ::@:: The equation $-(\hbar^2/2m)\psi'' = (E - V)\psi$ ties the curvature of $\psi$ to the force, so a kink in $\psi'$ would mean a delta-function force at the wall; continuity of $\psi'$ encodes a finite force there.
+- what must be continuous at each wall: $\psi$ or $d\psi/dx$? ::@:: Both $\psi$ and $d\psi/dx$ at $x = 0$ and $x = L$, since the potential there is finite. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the matching conditions $\psi_{\mathrm{I}} = \psi_{\mathrm{II}}$ and $\psi'_{\mathrm{I}} = \psi'_{\mathrm{II}}$ give ::@:: From transcendental equations set by matching $\psi$ and $\psi'$ at both walls — no closed form, solved graphically or numerically. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how finite-well states are organised ::@:: By parity about the well's centre: even (cosine-like) and odd (sinusoidal) solutions interleave in energy. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why the bound states of a finite well of width $L$ fall into even and odd classes ::@:: The well is symmetric under $x \to L - x$, so mirroring leaves the potential unchanged and the solutions can be chosen symmetric (even) or antisymmetric (odd). <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- Euler's formula connecting $e^{\pm ikx}$ to the trigonometric functions ::@:: $e^{\pm ikx} = \cos kx \pm i\sin kx$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what Euler's formula $e^{\pm ikx} = \cos kx \pm i\sin kx$ does for the interior solution $\psi_{\mathrm{II}} = Ce^{ikx} + De^{-ikx}$ ::@:: It rewrites $\psi_{\mathrm{II}}$ as cosine and sine terms. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why the real parity basis $C\cos kx$ and $D\sin kx$ is the easier interior basis for a symmetric well ::@:: Each parity class solves the boundary conditions separately, so the even and odd states can be matched on their own. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why $\psi'$ must be continuous at a finite step, and what a kink would mean ::@:: The equation $-(\hbar^2/2m)\psi'' = (E - V)\psi$ ties the curvature of $\psi$ to the force, so a kink in $\psi'$ would mean a delta-function force at the wall; continuity of $\psi'$ encodes a finite force there. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## penetration depth
 
@@ -56,9 +56,9 @@ The penetration depth $\delta = 1/\alpha = \hbar/\sqrt{2m(V_0 - E)}$ is the e-fo
 
 Flashcards for this section are as follows:
 
-- what the penetration depth $\delta = 1/\alpha$ of a finite well is ::@:: $\delta = \hbar/\sqrt{2m(V_0 - E)} = 1/\alpha$ is the e-folding length of the amplitude: $\psi \sim e^{-x/\delta}$ falls by a factor $e$ over one $\delta$.
-- what the e-folding length of the probability density $|\psi|^2$ outside a finite well is ::@:: $\delta/2$, where $\delta = 1/\alpha$: $|\psi|^2 \sim e^{-2x/\delta}$ falls twice as fast as the amplitude $\psi \sim e^{-x/\delta}$.
-- how $\delta$ varies with particle mass and level depth ::@:: Heavier mass or deeper level (larger $V_0 - E$) shrinks $\delta$; a level near the top of the well, $E \to V_0$, has $\delta \to \infty$.
+- what the penetration depth $\delta = 1/\alpha$ of a finite well is ::@:: $\delta = \hbar/\sqrt{2m(V_0 - E)} = 1/\alpha$ is the e-folding length of the amplitude: $\psi \sim e^{-x/\delta}$ falls by a factor $e$ over one $\delta$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the e-folding length of the probability density $|\psi|^2$ outside a finite well is ::@:: $\delta/2$, where $\delta = 1/\alpha$: $|\psi|^2 \sim e^{-2x/\delta}$ falls twice as fast as the amplitude $\psi \sim e^{-x/\delta}$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how $\delta$ varies with particle mass and level depth ::@:: Heavier mass or deeper level (larger $V_0 - E$) shrinks $\delta$; a level near the top of the well, $E \to V_0$, has $\delta \to \infty$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## bound states
 
@@ -68,6 +68,6 @@ Only finitely many levels fit below $V_0$, and the count grows with two knobs. D
 
 Flashcards for this section are as follows:
 
-- what adds bound states to a finite well: deeper $V_0$ or larger mass $m$? ::@:: A deeper $V_0$, or a heavier particle at fixed $V_0$ and width; both shrink the penetration depth $\delta$.
-- what the bound states look like compared with infinite-well states ::@:: The same node-counting shapes — ground state nodeless, each level adding a node — rounded at the walls by exponential tails.
-- why finite-well levels sit below the infinite-well ladder $E_n = n^2h^2/(8mL^2)$ ::@:: The wave function reaches past both walls, so the standing wave spans more than $L$: longer $\lambda$, smaller $k$, and a lower $E = \hbar^2k^2/2m$.
+- what adds bound states to a finite well: deeper $V_0$ or larger mass $m$? ::@:: A deeper $V_0$, or a heavier particle at fixed $V_0$ and width; both shrink the penetration depth $\delta$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the bound states look like compared with infinite-well states ::@:: The same node-counting shapes — ground state nodeless, each level adding a node — rounded at the walls by exponential tails. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why finite-well levels sit below the infinite-well ladder $E_n = n^2h^2/(8mL^2)$ ::@:: The wave function reaches past both walls, so the standing wave spans more than $L$: longer $\lambda$, smaller $k$, and a lower $E = \hbar^2k^2/2m$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->

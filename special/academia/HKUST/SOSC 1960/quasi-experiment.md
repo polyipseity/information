@@ -15,11 +15,11 @@ A quasi-experiment is a study that compares groups nobody was assigned to. It is
 
 Flashcards for this section are as follows:
 
-- the claim a quasi-experiment supports ::@:: A study that compares groups not assigned by chance supports a weaker causal claim than an experiment.
-- what a quasi-experiment has that an experiment has ::@:: An independent variable, a dependent variable, and two groups to compare.
-- the one feature a quasi-experiment drops ::@:: Random assignment to the conditions of the independent variable.
-- what takes the place of the assigned conditions ::@:: The groups' existing membership, which becomes the variable.
-- how a quasi-experiment differs from a [correlational design](correlation.md) ::@:: A quasi-experiment compares two groups on an independent variable. A correlational design measures two variables as they occur and never groups anyone.
+- the claim a quasi-experiment supports ::@:: A study that compares groups not assigned by chance supports a weaker causal claim than an experiment. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a quasi-experiment has that an experiment has ::@:: An independent variable, a dependent variable, and two groups to compare. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the one feature a quasi-experiment drops ::@:: Random assignment to the conditions of the independent variable. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what takes the place of the assigned conditions ::@:: The groups' existing membership, which becomes the variable. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how a quasi-experiment differs from a [correlational design](correlation.md) ::@:: A quasi-experiment compares two groups on an independent variable. A correlational design measures two variables as they occur and never groups anyone. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## conditions that cannot be assigned
 
@@ -33,12 +33,12 @@ A researcher settles for a quasi-experiment when the alternative is not asking t
 
 Flashcards for this section are as follows:
 
-- the treatment of a condition nobody can be assigned ::@:: A condition nobody can be assigned. The researcher observes it instead of manipulating it.
-- the conditions a quasi-experiment studies because nobody can be assigned to them ::@:: Nobody can be assigned to marry, to become a professional musician, to suffer a brain injury, or to grow up in a war.
-- the pairs of groups a researcher compares for these conditions ::@:: Married couples against unmarried couples, and professional musicians against non-musicians.
-- what a fixed variable is ::@:: A fixed variable is an independent variable the researcher can observe but never change.
-- what a fixed variable does in a quasi-experiment ::@:: A fixed variable names the two conditions compared, like a manipulated variable would.
-- why a researcher settles for a quasi-experiment ::@:: Because the alternative is not asking the question.
+- the treatment of a condition nobody can be assigned ::@:: A condition nobody can be assigned. The researcher observes it instead of manipulating it. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the conditions a quasi-experiment studies because nobody can be assigned to them ::@:: Nobody can be assigned to marry, to become a professional musician, to suffer a brain injury, or to grow up in a war. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the pairs of groups a researcher compares for these conditions ::@:: Married couples against unmarried couples, and professional musicians against non-musicians. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a fixed variable is ::@:: A fixed variable is an independent variable the researcher can observe but never change. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a fixed variable does in a quasi-experiment ::@:: A fixed variable names the two conditions compared, like a manipulated variable would. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why a researcher settles for a quasi-experiment ::@:: Because the alternative is not asking the question. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## when the groups differ on more than the variable
 
@@ -52,16 +52,16 @@ Students pick which of two professors teaches their course. Nobody chose to be s
 
 Flashcards for this section are as follows:
 
-- what a quasi-experiment is able to show about two groups ::@:: That the two groups differ, not that one group produced the difference.
-- why the two groups differ on more than the variable under study ::@:: Nothing balanced them, because nobody assigned them at random.
-- characteristics married people may differ from unmarried people on ::@:: Married people may differ from unmarried people on age, income, health, and how long they have been together.
-- characteristics musicians may differ from non-musicians on ::@:: Musicians may differ from non-musicians on training, hours of practice, and motivation.
-- what a married group that reports more happiness has shown ::@:: Only that the group reports more happiness, not that marriage produces it.
-- why a two-professor comparison looks fair ::@:: Nobody chose to be smart.
-- the students who pick a professor with low expectations may be ::@:: The ones who prefer an easy course.
-- the students who pick a demanding professor may be ::@:: Students who are already stronger.
-- the mechanism that undermines the comparison in a two-professor study ::@:: Student intelligence, which explains the course choice and predicts the grades.
-- why the intelligence confound in a two-professor study cannot be removed ::@:: Random assignment would remove it, and the two-professor design has none.
+- what a quasi-experiment is able to show about two groups ::@:: That the two groups differ, not that one group produced the difference. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why the two groups differ on more than the variable under study ::@:: Nothing balanced them, because nobody assigned them at random. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- characteristics married people may differ from unmarried people on ::@:: Married people may differ from unmarried people on age, income, health, and how long they have been together. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- characteristics musicians may differ from non-musicians on ::@:: Musicians may differ from non-musicians on training, hours of practice, and motivation. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a married group that reports more happiness has shown ::@:: Only that the group reports more happiness, not that marriage produces it. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why a two-professor comparison looks fair ::@:: Nobody chose to be smart. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the students who pick a professor with low expectations may be ::@:: The ones who prefer an easy course. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the students who pick a demanding professor may be ::@:: Students who are already stronger. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the mechanism that undermines the comparison in a two-professor study ::@:: Student intelligence, which explains the course choice and predicts the grades. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why the intelligence confound in a two-professor study cannot be removed ::@:: Random assignment would remove it, and the two-professor design has none. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## references
 

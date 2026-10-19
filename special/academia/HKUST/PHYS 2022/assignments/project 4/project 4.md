@@ -20,8 +20,8 @@ Project 4 measures the wavelength that particles carry. Electrons fired through 
 
 Flashcards for this section are as follows:
 
-- overview: what project 4 measures, and for which particles ::@:: The de Broglie wavelength from interference fringes and from the single-particle wave function, for electrons, neutrons, and helium atoms at five gun velocities each.
-- the two ways project 4 reads a particle's wavelength ::@:: From the fringe spacing of a double-slit interference pattern, and directly from the wave function of a single particle.
+- overview: what project 4 measures, and for which particles ::@:: The de Broglie wavelength from interference fringes and from the single-particle wave function, for electrons, neutrons, and helium atoms at five gun velocities each. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the two ways project 4 reads a particle's wavelength ::@:: From the fringe spacing of a double-slit interference pattern, and directly from the wave function of a single particle. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## wavelength from interference
 
@@ -33,9 +33,9 @@ The same five velocities are then run in single-particle mode, where only one pa
 
 Flashcards for this section are as follows:
 
-- overview: how the fringe spacing $\Delta x$ of a double-slit pattern yields a wavelength ::@:: The fringe spacing $\Delta x = \lambda L/d$ inverts to $\lambda = \Delta x\, d/L$, with slit separation $d$ and screen distance $L$.
-- comparing the fringe-derived wavelength with the wave-function wavelength at the same gun velocity ::@:: They match, so the wave function of a single particle carries the wavelength whose interference the accumulated fringes show.
-- what the match between the two measurements establishes ::@:: One particle interferes with itself: the wave the ruler reads off its wave function is the wave the double-slit fringes record.
+- overview: how the fringe spacing $\Delta x$ of a double-slit pattern yields a wavelength ::@:: The fringe spacing $\Delta x = \lambda L/d$ inverts to $\lambda = \Delta x\, d/L$, with slit separation $d$ and screen distance $L$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- comparing the fringe-derived wavelength with the wave-function wavelength at the same gun velocity ::@:: They match, so the wave function of a single particle carries the wavelength whose interference the accumulated fringes show. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the match between the two measurements establishes ::@:: One particle interferes with itself: the wave the ruler reads off its wave function is the wave the double-slit fringes record. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## de Broglie relation
 
@@ -47,7 +47,7 @@ At fixed mass the wavelength falls as the inverse of the speed, so doubling the 
 
 Flashcards for this section are as follows:
 
-- overview: the relation $\lambda = h/(mv)$ every measurement of project 4 collapses onto ::@:: $\lambda = h/(mv)$, the de Broglie wavelength of a particle of mass $m$ at speed $v$.
-- the de Broglie wavelength of a particle of mass $m$ moving at speed $v$ ::@:: $\lambda = h/(mv)$: inverse in the speed at fixed mass, inverse in the mass at fixed speed.
-- at the same velocity setting $v$, electrons, neutrons, and helium atoms of masses $m$: the order of their wavelengths $\lambda$ ::@:: Electrons longest, neutrons next, helium atoms shortest, since $\lambda \propto 1/m$.
-- doubling a particle's velocity $v$ at fixed mass $m$: what happens to its de Broglie wavelength $\lambda$ ::@:: It halves, since $\lambda \propto 1/v$.
+- overview: the relation $\lambda = h/(mv)$ every measurement of project 4 collapses onto ::@:: $\lambda = h/(mv)$, the de Broglie wavelength of a particle of mass $m$ at speed $v$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the de Broglie wavelength of a particle of mass $m$ moving at speed $v$ ::@:: $\lambda = h/(mv)$: inverse in the speed at fixed mass, inverse in the mass at fixed speed. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- at the same velocity setting $v$, electrons, neutrons, and helium atoms of masses $m$: the order of their wavelengths $\lambda$ ::@:: Electrons longest, neutrons next, helium atoms shortest, since $\lambda \propto 1/m$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- doubling a particle's velocity $v$ at fixed mass $m$: what happens to its de Broglie wavelength $\lambda$ ::@:: It halves, since $\lambda \propto 1/v$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->

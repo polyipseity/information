@@ -16,8 +16,8 @@ A consequence can lose its worth while the behaviour that earns it, and the link
 
 Flashcards for this section are as follows:
 
-- reinforcer devaluation effect ::@:: A consequence loses its worth to a subject while the behaviour that earns it goes on untouched.
-- what devaluation changes and what it leaves alone ::@:: Only the value the subject gives the outcome changes.
+- reinforcer devaluation effect ::@:: A consequence loses its worth to a subject while the behaviour that earns it goes on untouched. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what devaluation changes and what it leaves alone ::@:: Only the value the subject gives the outcome changes. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## what weakens a reinforcer
 
@@ -29,13 +29,13 @@ Competition with alternatives decides which behaviour occurs. Once alternatives 
 
 Flashcards for this section are as follows:
 
-- the three things that make a reinforcer worth less ::@:: A reinforcer is worth less once it is made aversive, once alternatives are available, or once the action that earns it becomes a habit.
-- a reinforcer made aversive ::@:: A consequence the subject comes to dislike on its own is worth less, and any behaviour built on it weakens.
-- a reinforcer competing with many alternatives ::@:: A reinforcer is worth less when other outcomes are available, since the behaviour could earn one of those instead.
-- where the three losses come from ::@:: The first two losses come from the reinforcer, the third from the action.
-- what decides which behaviour occurs ::@:: Competition with alternatives decides which behaviour occurs.
-- why a compelling consequence settles nothing ::@:: Once alternatives are equally available, a consequence that is compelling on its own settles nothing.
-- how the choice between acts is settled ::@:: By comparing their consequences, as operant conditioning sets out.
+- the three things that make a reinforcer worth less ::@:: A reinforcer is worth less once it is made aversive, once alternatives are available, or once the action that earns it becomes a habit. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- a reinforcer made aversive ::@:: A consequence the subject comes to dislike on its own is worth less, and any behaviour built on it weakens. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- a reinforcer competing with many alternatives ::@:: A reinforcer is worth less when other outcomes are available, since the behaviour could earn one of those instead. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- where the three losses come from ::@:: The first two losses come from the reinforcer, the third from the action. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what decides which behaviour occurs ::@:: Competition with alternatives decides which behaviour occurs. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why a compelling consequence settles nothing ::@:: Once alternatives are equally available, a consequence that is compelling on its own settles nothing. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how the choice between acts is settled ::@:: By comparing their consequences, as operant conditioning sets out. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## a habit stops responding to devaluation
 
@@ -49,13 +49,13 @@ A habit depends on its own performance, not the outcome's value. The difference 
 
 Flashcards for this section are as follows:
 
-- what separates a goal-directed action from a habit ::@:: A goal-directed action stops when its outcome is devalued. An action repeated often enough becomes a habit, and devaluation no longer stops it.
-- goal-directed action ::@:: Someone performs a goal-directed action because it still produces something they want, and stops when that outcome is devalued.
-- habit ::@:: Someone performs it without the goal in mind, by the same route whatever the outcome is worth.
-- the condition an action needs to become a habit ::@:: The action must be repeated often enough under stable conditions.
-- the habit case, and why it is different ::@:: The habit case is a property of the action, not the reinforcer, so devaluation leaves it alone.
-- how a habit is connected to its outcome ::@:: A habit depends on its own performance, not the outcome's value.
-- what devaluation is then evidence of ::@:: Devaluation shows what a behaviour is made of, not that the behaviour is about a goal.
+- what separates a goal-directed action from a habit ::@:: A goal-directed action stops when its outcome is devalued. An action repeated often enough becomes a habit, and devaluation no longer stops it. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- goal-directed action ::@:: Someone performs a goal-directed action because it still produces something they want, and stops when that outcome is devalued. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- habit ::@:: Someone performs it without the goal in mind, by the same route whatever the outcome is worth. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the condition an action needs to become a habit ::@:: The action must be repeated often enough under stable conditions. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the habit case, and why it is different ::@:: The habit case is a property of the action, not the reinforcer, so devaluation leaves it alone. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how a habit is connected to its outcome ::@:: A habit depends on its own performance, not the outcome's value. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what devaluation is then evidence of ::@:: Devaluation shows what a behaviour is made of, not that the behaviour is about a goal. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## references
 

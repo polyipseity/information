@@ -17,12 +17,12 @@ Nobody can order a stroke, so nobody can assign the lesions. Every patient arriv
 
 Flashcards for this section are as follows:
 
-- what a double dissociation shows about two tasks ::@:: The tasks are separable parts of the mind, not one faculty.
-- what a double dissociation is ::@:: One patient fails a task the other does well, and a second patient shows the opposite pattern.
-- a double dissociation in reading and comprehension ::@:: One patient reads printed words badly but takes in spoken ones fine, and another does the reverse.
-- what a single case contributes ::@:: A patient with a known lesion who cannot do one task but does the others normally.
-- why the lesions cannot be assigned ::@:: Nobody can be signed up for a stroke.
-- what a case study assumes about the brain before the injury ::@:: The brain was already itself.
+- what a double dissociation shows about two tasks ::@:: The tasks are separable parts of the mind, not one faculty. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a double dissociation is ::@:: One patient fails a task the other does well, and a second patient shows the opposite pattern. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- a double dissociation in reading and comprehension ::@:: One patient reads printed words badly but takes in spoken ones fine, and another does the reverse. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a single case contributes ::@:: A patient with a known lesion who cannot do one task but does the others normally. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why the lesions cannot be assigned ::@:: Nobody can be signed up for a stroke. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a case study assumes about the brain before the injury ::@:: The brain was already itself. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## what a lesion can and cannot show
 
@@ -36,14 +36,14 @@ A patient who cannot recognize faces may be failing for reasons that have nothin
 
 Flashcards for this section are as follows:
 
-- studying a lesion shows ::@:: A deficit, not a signal.
-- what worse face recognition after damage to a region is evidence of ::@:: That the region contributes to face recognition.
-- what that same finding is not a demonstration of ::@:: That the region alone performs the recognition.
-- why that finding does not reach the region alone ::@:: The region may be one station in a chain, and the damage may have knocked out the chain rather than the station.
-- what a region that is gone and takes a capacity with it shows ::@:: That the capacity depended on it.
-- what a region that still works shows ::@:: Nothing about what it contributes.
-- what an impairment on faces that is not about faces would be attributed to ::@:: Visual acuity, attention, or the language needed to attempt the task.
-- the second limit on a lesion inference ::@:: The task has to isolate the capacity from those three.
+- studying a lesion shows ::@:: A deficit, not a signal. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what worse face recognition after damage to a region is evidence of ::@:: That the region contributes to face recognition. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what that same finding is not a demonstration of ::@:: That the region alone performs the recognition. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why that finding does not reach the region alone ::@:: The region may be one station in a chain, and the damage may have knocked out the chain rather than the station. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a region that is gone and takes a capacity with it shows ::@:: That the capacity depended on it. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a region that still works shows ::@:: Nothing about what it contributes. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what an impairment on faces that is not about faces would be attributed to ::@:: Visual acuity, attention, or the language needed to attempt the task. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the second limit on a lesion inference ::@:: The task has to isolate the capacity from those three. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## the two cautions
 
@@ -55,13 +55,13 @@ The second caution asks whether a compensatory strategy is doing the work the mi
 
 Flashcards for this section are as follows:
 
-- what the first caution asks ::@:: Whether the patients were typical before the damage.
-- why a post-injury score says little when a patient was already below average ::@:: The score reflects the pre-damage level as much as the injury.
-- three ways to handle an unknown pre-damage level ::@:: Record the pre-damage level where a record survives, compare against a matched control group, or state which comparison was available.
-- what the second caution asks ::@:: Whether a compensatory strategy is doing the work the missing region used to do.
-- what a brain that has lost a station in a chain tends to do ::@:: The brain reorganizes around the loss.
-- what solving a task by an unusual route produces as evidence ::@:: The reorganized brain, not the undamaged architecture the theory describes.
-- what to do where a true loss cannot be separated from a learned substitute ::@:: State the claim with the ambiguity intact.
+- what the first caution asks ::@:: Whether the patients were typical before the damage. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why a post-injury score says little when a patient was already below average ::@:: The score reflects the pre-damage level as much as the injury. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- three ways to handle an unknown pre-damage level ::@:: Record the pre-damage level where a record survives, compare against a matched control group, or state which comparison was available. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the second caution asks ::@:: Whether a compensatory strategy is doing the work the missing region used to do. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a brain that has lost a station in a chain tends to do ::@:: The brain reorganizes around the loss. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what solving a task by an unusual route produces as evidence ::@:: The reorganized brain, not the undamaged architecture the theory describes. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what to do where a true loss cannot be separated from a learned substitute ::@:: State the claim with the ambiguity intact. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## necessity and sufficiency
 
@@ -81,21 +81,21 @@ A causal role needs both kinds of evidence: mapping says where a region responds
 
 Flashcards for this section are as follows:
 
-- necessity as a claim about a region ::@:: The function could not be performed without the region.
-- sufficiency as a claim about a region ::@:: The region alone would perform the function.
-- the reversible version of disruption ::@:: Transcranial magnetic stimulation: a coil over the target region while the same person does a task.
-- the permanent version of disruption ::@:: Damage that takes a capacity with it.
-- what a disruption in the parietal cortex establishes ::@:: Necessity for selective attention, as cause and effect rather than correlation.
-- what a TMS design measures ::@:: Reaction time and accuracy, before, during, and after stimulation.
-- what TMS adds over a lesion ::@:: The same person is compared across conditions, so it needs no pre-injury baseline.
-- what establishes necessity in a TMS design ::@:: A drop in performance when the target region is disrupted, absent when a control site is stimulated the same way.
-- why the control site is not decoration in a TMS design ::@:: Noise and scalp sensation, which a site unrelated to attention rules out.
-- a model result showing selective necessity ::@:: Damaging one component drops accuracy on Asian faces and leaves it unchanged on Caucasian ones.
-- what selective necessity shows ::@:: The component is necessary within the model for one function and not for another.
-- how selective necessity differs from a loss that impairs everything ::@:: A narrow role rather than a broad one.
-- why an activated region is evidence of a consequence ::@:: A process that follows the experience accounts for the same signal.
-- which of the three requirements for causation fails first on an imaging result ::@:: Temporal precedence, because nothing orders the activation and the perception.
-- what an imaging result identifies without establishing ::@:: Where something happens, without showing that it began there.
+- necessity as a claim about a region ::@:: The function could not be performed without the region. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- sufficiency as a claim about a region ::@:: The region alone would perform the function. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the reversible version of disruption ::@:: Transcranial magnetic stimulation: a coil over the target region while the same person does a task. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the permanent version of disruption ::@:: Damage that takes a capacity with it. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a disruption in the parietal cortex establishes ::@:: Necessity for selective attention, as cause and effect rather than correlation. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a TMS design measures ::@:: Reaction time and accuracy, before, during, and after stimulation. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what TMS adds over a lesion ::@:: The same person is compared across conditions, so it needs no pre-injury baseline. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what establishes necessity in a TMS design ::@:: A drop in performance when the target region is disrupted, absent when a control site is stimulated the same way. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why the control site is not decoration in a TMS design ::@:: Noise and scalp sensation, which a site unrelated to attention rules out. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- a model result showing selective necessity ::@:: Damaging one component drops accuracy on Asian faces and leaves it unchanged on Caucasian ones. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what selective necessity shows ::@:: The component is necessary within the model for one function and not for another. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how selective necessity differs from a loss that impairs everything ::@:: A narrow role rather than a broad one. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why an activated region is evidence of a consequence ::@:: A process that follows the experience accounts for the same signal. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- which of the three requirements for causation fails first on an imaging result ::@:: Temporal precedence, because nothing orders the activation and the perception. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what an imaging result identifies without establishing ::@:: Where something happens, without showing that it began there. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## references
 

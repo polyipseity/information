@@ -15,7 +15,7 @@ Quantization is discreteness where a classical account would allow a continuum: 
 
 Flashcards for this section are as follows:
 
-- overview: what it means for a quantity to be quantized ::@:: It takes discrete allowed values, one step or the next with nothing between them, instead of varying continuously as a classical account allows.
+- overview: what it means for a quantity to be quantized ::@:: It takes discrete allowed values, one step or the next with nothing between them, instead of varying continuously as a classical account allows. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## electric charge
 
@@ -25,8 +25,8 @@ Millikan's oil-drop experiment showed electric charge to be quantized: the dropl
 
 Flashcards for this section are as follows:
 
-- the form every directly observed electric charge takes, for an integer $n$ ::@:: $q = ne$, a whole multiple of the basic charge $e = 1.602 \times 10^{-19}$ C, with the electron carrying $-e$.
-- the charges modern theories assign to quarks, and why observed charges stay in units of $e$ ::@:: $\pm e/3$ and $\pm 2e/3$; no free quark has ever been seen alone, so the charges of observed hadrons and other directly observed particles stay whole multiples of $e$.
+- the form every directly observed electric charge takes, for an integer $n$ ::@:: $q = ne$, a whole multiple of the basic charge $e = 1.602 \times 10^{-19}$ C, with the electron carrying $-e$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the charges modern theories assign to quarks, and why observed charges stay in units of $e$ ::@:: $\pm e/3$ and $\pm 2e/3$; no free quark has ever been seen alone, so the charges of observed hadrons and other directly observed particles stay whole multiples of $e$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## line spectra
 
@@ -36,9 +36,9 @@ An excited gas emits at a fixed set of wavelengths rather than a continuous band
 
 Flashcards for this section are as follows:
 
-- why an excited gas emits a set of lines instead of a continuous band ::@:: Its energy is quantized into levels, so only the gaps between levels show up as lines and no emitted frequency lies between them.
-- the relation between an emitted photon's frequency $f$ and the level energies $E_u$ and $E_l$ ::@:: $hf = E_u - E_l$, the gap of the transition the photon came from.
-- what Bohr's model does with the quantized ladder of levels ::@:: It confines the atom to that ladder and reproduces hydrogen's measured spectral wavelengths from it.
+- why an excited gas emits a set of lines instead of a continuous band ::@:: Its energy is quantized into levels, so only the gaps between levels show up as lines and no emitted frequency lies between them. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the relation between an emitted photon's frequency $f$ and the level energies $E_u$ and $E_l$ ::@:: $hf = E_u - E_l$, the gap of the transition the photon came from. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what Bohr's model does with the quantized ladder of levels ::@:: It confines the atom to that ladder and reproduces hydrogen's measured spectral wavelengths from it. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## energy quanta in a cavity
 
@@ -48,5 +48,5 @@ The radiation inside a cavity is emitted and absorbed by oscillators in the wall
 
 Flashcards for this section are as follows:
 
-- the energies an oscillator of frequency $f$ may hold inside a cavity ::@:: $E = nhf$ for an integer $n$: $0$, $hf$, $2hf$, $\ldots$ with nothing in between.
-- the size of one energy quantum exchanged by a cavity oscillator of frequency $f$ ::@:: $\Delta E = hf$, one step of the ladder.
+- the energies an oscillator of frequency $f$ may hold inside a cavity ::@:: $E = nhf$ for an integer $n$: $0$, $hf$, $2hf$, $\ldots$ with nothing in between. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the size of one energy quantum exchanged by a cavity oscillator of frequency $f$ ::@:: $\Delta E = hf$, one step of the ladder. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->

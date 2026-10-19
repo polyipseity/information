@@ -20,8 +20,8 @@ Project 2 runs two experiments side by side: the spectrum a hot body emits, and 
 
 Flashcards for this section are as follows:
 
-- overview: the two experiments of project 2 ::@:: The spectrum a hot body emits at different temperatures, and the electrons light frees from a metal surface at different frequencies and intensities.
-- the method both experiments share ::@:: Sweep one parameter across five values, plot the measured quantity against it, and read a formula off the plot.
+- overview: the two experiments of project 2 ::@:: The spectrum a hot body emits at different temperatures, and the electrons light frees from a metal surface at different frequencies and intensities. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the method both experiments share ::@:: Sweep one parameter across five values, plot the measured quantity against it, and read a formula off the plot. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## black-body radiation
 
@@ -35,11 +35,11 @@ The fifth and fourth powers differ because the peak itself moves. The peak sits 
 
 Flashcards for this section are as follows:
 
-- overview: the peak wavelength $\lambda_{\max}$, the peak intensity, and the total intensity of a black body, each against the absolute temperature $T$: how does each scale ::@:: The peak wavelength, which falls as $b/T$; the peak intensity, which rises as $T^5$; and the total intensity, which rises as $T^4$.
-- Wien's displacement law as a plot of peak wavelength against temperature ::@:: $\lambda_{\max} = b/T$ with $b = 2.898 \times 10^{-3}\ \text{m}\cdot\text{K}$: the peak moves to shorter wavelengths in inverse proportion to the absolute temperature. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- the peak intensity of a black-body spectrum against the absolute temperature $T$ ::@:: Proportional to the fifth power of the absolute temperature, $T^5$.
-- the total intensity of a black-body spectrum against temperature (the Stefan–Boltzmann law) ::@:: Proportional to the fourth power of the absolute temperature, $T^4$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- why the peak intensity scales as $T^5$ while the total scales as $T^4$ ::@:: The peak sits at $\lambda_{\max} \propto 1/T$, so the spectrum evaluated there carries one extra factor of $T$; the integral over wavelength does not.
+- overview: the peak wavelength $\lambda_{\max}$, the peak intensity, and the total intensity of a black body, each against the absolute temperature $T$: how does each scale ::@:: The peak wavelength, which falls as $b/T$; the peak intensity, which rises as $T^5$; and the total intensity, which rises as $T^4$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- Wien's displacement law as a plot of peak wavelength against temperature ::@:: $\lambda_{\max} = b/T$ with $b = 2.898 \times 10^{-3}\ \text{m}\cdot\text{K}$: the peak moves to shorter wavelengths in inverse proportion to the absolute temperature. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the peak intensity of a black-body spectrum against the absolute temperature $T$ ::@:: Proportional to the fifth power of the absolute temperature, $T^5$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the total intensity of a black-body spectrum against temperature (the Stefan–Boltzmann law) ::@:: Proportional to the fourth power of the absolute temperature, $T^4$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why the peak intensity scales as $T^5$ while the total scales as $T^4$ ::@:: The peak sits at $\lambda_{\max} \propto 1/T$, so the spectrum evaluated there carries one extra factor of $T$; the integral over wavelength does not. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## photoelectric effect
 
@@ -51,8 +51,8 @@ The stopping voltage against frequency is a straight line, $V_s = (h/e)f - \Phi/
 
 Flashcards for this section are as follows:
 
-- overview: what the photoelectric experiment measures against frequency and against intensity ::@:: The stopping voltage against the light frequency, and the photocurrent against the light intensity above threshold.
-- the stopping voltage against frequency for a metal with work function $\Phi$ ::@:: A straight line $V_s = (h/e)f - \Phi/e$: slope $h/e$, the same for every metal, and intercept $-\Phi/e$, set by the metal.
-- sodium, zinc, copper, and platinum: the order of their work functions $\Phi$ ::@:: Sodium about $2.3\ \text{eV}$, then zinc at $4.3$, copper at $4.7$, and platinum at $6.35$: the larger the work function, the higher the threshold frequency $f_0 = \Phi/h$.
-- the photocurrent against light intensity at a fixed frequency above threshold ::@:: Proportional to the intensity, through the origin; below the threshold frequency the current stays zero at every intensity.
-- what the equal slopes $h/e$ of the stopping-voltage lines across metals show ::@:: The slope is $h/e$ everywhere: the photon energy $hf$ is universal, and each metal contributes only its work function $\Phi$.
+- overview: what the photoelectric experiment measures against frequency and against intensity ::@:: The stopping voltage against the light frequency, and the photocurrent against the light intensity above threshold. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the stopping voltage against frequency for a metal with work function $\Phi$ ::@:: A straight line $V_s = (h/e)f - \Phi/e$: slope $h/e$, the same for every metal, and intercept $-\Phi/e$, set by the metal. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- sodium, zinc, copper, and platinum: the order of their work functions $\Phi$ ::@:: Sodium about $2.3\ \text{eV}$, then zinc at $4.3$, copper at $4.7$, and platinum at $6.35$: the larger the work function, the higher the threshold frequency $f_0 = \Phi/h$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the photocurrent against light intensity at a fixed frequency above threshold ::@:: Proportional to the intensity, through the origin; below the threshold frequency the current stays zero at every intensity. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the equal slopes $h/e$ of the stopping-voltage lines across metals show ::@:: The slope is $h/e$ everywhere: the photon energy $hf$ is universal, and each metal contributes only its work function $\Phi$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->

@@ -20,9 +20,9 @@ Buffer-based rate adaptation (BBA) is a family of methods for choosing the bitra
 
 Flashcards for this section are as follows:
 
-- what one quantity does BBA-0 read to pick a bitrate? ::@:: The occupancy of the client's buffer, and nothing else
-- what does BBA-0 leave out? ::@:: Variability in the rate of video payout. Variability in network load it does handle
-- which is the simplest version of buffer-based rate adaptation? ::@:: BBA-0
+- what one quantity does BBA-0 read to pick a bitrate? ::@:: The occupancy of the client's buffer, and nothing else <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what does BBA-0 leave out? ::@:: Variability in the rate of video payout. Variability in network load it does handle <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- which is the simplest version of buffer-based rate adaptation? ::@:: BBA-0 <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## one parameter
 
@@ -34,8 +34,8 @@ Here the occupancy is a measurement, not the guarantee it was when the buffer si
 
 Flashcards for this section are as follows:
 
-- what do independent studies say about BBA as of 2022? ::@:: That it keeps outperforming every other known algorithm, including ones that are much more complicated
-- is the buffer occupancy used here as a guarantee or as a measurement? ::@:: A measurement, read when the next request is made and turned into a bitrate
+- what do independent studies say about BBA as of 2022? ::@:: That it keeps outperforming every other known algorithm, including ones that are much more complicated <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- is the buffer occupancy used here as a guarantee or as a measurement? ::@:: A measurement, read when the next request is made and turned into a bitrate <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## the rule
 
@@ -51,13 +51,13 @@ Three regions of the occupancy axis carry the rule. The lower reservoir, of size
 
 Flashcards for this section are as follows:
 
-- for a bitrate selection curve marked at $b_{\max}$, $R_{\min}$, and $R_{\max}$: which axis is which, and what quantity does each one measure? ::@:: Buffer occupancy on the horizontal axis, marked at $b_{\max}$, against bitrate to choose on the vertical axis, marked at $R_{\min}$ and $R_{\max}$
-- what does the straight line from the $R_{\min}$ point to $R_{\max}$ at the top of the plot get wrong? ::@:: The client reaches $R_{\max}$ only with a full buffer, so it never actually gets its maximum bitrate and has no room to pull in segments at that rate
-- what is the danger zone at the bottom of the occupancy axis? ::@:: The network suddenly drops while the buffer is low but not empty, and playback stalls
-- what does the lower reservoir store, and what is it for? ::@:: Lots of time at low bitrate, which keeps a network drop from causing a stall
-- for a buffer occupancy axis with a reservoir of size $r$ and a cushion of size $cu$, what are the three regions from low to high? ::@:: The lower reservoir below $r$, the cushion of size $cu$, and the upper reservoir from $r + cu$ upward
-- which of $R_{\min}$ and $R_{\max}$ is chosen in the lower reservoir, in the cushion, and in the upper reservoir? ::@:: $R_{\min}$ through the lower reservoir, rising across the cushion, and $R_{\max}$ through the upper reservoir
-- draw the bitrate selection curve for a buffer holding at most $b_{\max}$, with a reservoir of size $r$ and a cushion of size $cu$: what shape does it have against buffer occupancy, and what does each part mean? ::@:: A flat piece at $R_{\min}$ up to $r$, a straight ramp across the cushion of size $cu$, then a flat piece at $R_{\max}$ running on to $b_{\max}$.
+- for a bitrate selection curve marked at $b_{\max}$, $R_{\min}$, and $R_{\max}$: which axis is which, and what quantity does each one measure? ::@:: Buffer occupancy on the horizontal axis, marked at $b_{\max}$, against bitrate to choose on the vertical axis, marked at $R_{\min}$ and $R_{\max}$ <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what does the straight line from the $R_{\min}$ point to $R_{\max}$ at the top of the plot get wrong? ::@:: The client reaches $R_{\max}$ only with a full buffer, so it never actually gets its maximum bitrate and has no room to pull in segments at that rate <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what is the danger zone at the bottom of the occupancy axis? ::@:: The network suddenly drops while the buffer is low but not empty, and playback stalls <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what does the lower reservoir store, and what is it for? ::@:: Lots of time at low bitrate, which keeps a network drop from causing a stall <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- for a buffer occupancy axis with a reservoir of size $r$ and a cushion of size $cu$, what are the three regions from low to high? ::@:: The lower reservoir below $r$, the cushion of size $cu$, and the upper reservoir from $r + cu$ upward <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- which of $R_{\min}$ and $R_{\max}$ is chosen in the lower reservoir, in the cushion, and in the upper reservoir? ::@:: $R_{\min}$ through the lower reservoir, rising across the cushion, and $R_{\max}$ through the upper reservoir <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- draw the bitrate selection curve for a buffer holding at most $b_{\max}$, with a reservoir of size $r$ and a cushion of size $cu$: what shape does it have against buffer occupancy, and what does each part mean? ::@:: A flat piece at $R_{\min}$ up to $r$, a straight ramp across the cushion of size $cu$, then a flat piece at $R_{\max}$ running on to $b_{\max}$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## what the rule leaves open
 
@@ -69,10 +69,10 @@ Two things follow from that. The upper reservoir's extent is drawn as a brace bu
 
 Flashcards for this section are as follows:
 
-- what does a reservoir protect? ::@:: The client's freedom to change rate, not a measurement
-- what sets the width of a reservoir? ::@:: Analysis, not the occupancy at the moment of reading
-- how far does the upper reservoir extend in the notation? ::@:: It has no symbol. The brace is drawn, but the extent is never named
-- why is the corner where the cushion meets the upper reservoir drawn as a curve? ::@:: Because a sharp corner there would mean one extra second of buffer buys an arbitrary jump in bitrate, and nothing in the curve supports that
+- what does a reservoir protect? ::@:: The client's freedom to change rate, not a measurement <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what sets the width of a reservoir? ::@:: Analysis, not the occupancy at the moment of reading <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how far does the upper reservoir extend in the notation? ::@:: It has no symbol. The brace is drawn, but the extent is never named <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why is the corner where the cushion meets the upper reservoir drawn as a curve? ::@:: Because a sharp corner there would mean one extra second of buffer buys an arbitrary jump in bitrate, and nothing in the curve supports that <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## discrete rates
 
@@ -102,11 +102,11 @@ The full BBA adds three things on top of this selection. It has a startup phase 
 
 Flashcards for this section are as follows:
 
-- which bitrates, from $R_{\min}$ to $R_{\max}$, does the BBA-0 rule choose between? ::@:: The discrete ladder from $R_{\min}$ through $R_1$, $R_2$ and $R_3$ to $R_{\max}$
-- when does the client switch away from its current bitrate? ::@:: Only when the rule crosses above or below the boundary for a neighbouring bitrate. Otherwise it stays where it is
-- what does the function f do in the BBA-0 selection? ::@:: It is the bitrate selection curve, mapping the current buffer occupancy to the rate the rule would choose
-- when is the rate above the current one set to $R_{\max}$? ::@:: When the current rate is already $R_{\max}$. Otherwise it is the smallest available rate above the current one
-- what three extensions does the full BBA add to the BBA-0 selection? ::@:: A startup phase analogous to slow start, handling of variable bitrate encoding, and analysis of how large to make the reservoirs
+- which bitrates, from $R_{\min}$ to $R_{\max}$, does the BBA-0 rule choose between? ::@:: The discrete ladder from $R_{\min}$ through $R_1$, $R_2$ and $R_3$ to $R_{\max}$ <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- when does the client switch away from its current bitrate? ::@:: Only when the rule crosses above or below the boundary for a neighbouring bitrate. Otherwise it stays where it is <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what does the function f do in the BBA-0 selection? ::@:: It is the bitrate selection curve, mapping the current buffer occupancy to the rate the rule would choose <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- when is the rate above the current one set to $R_{\max}$? ::@:: When the current rate is already $R_{\max}$. Otherwise it is the smallest available rate above the current one <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what three extensions does the full BBA add to the BBA-0 selection? ::@:: A startup phase analogous to slow start, handling of variable bitrate encoding, and analysis of how large to make the reservoirs <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## how BBA performed in the 2020 Puffer study
 
@@ -127,13 +127,13 @@ Fugu is further right on stall in both panels, and both Pensieve variants sit fa
 
 Flashcards for this section are as follows:
 
-- what did the 2020 Puffer study find about BBA? ::@:: That it stayed among the best of the many algorithms compared. The study argues its own Fugu is better
-- what two measures does the Puffer comparison plot? ::@:: Time spent stalled in percent, and average SSIM in dB
-- why does the time-spent-stalled axis of the Puffer comparison run backwards? ::@:: Less time stalled is better, so the better values are plotted to the right
-- why do the two panels of the Puffer comparison not compare against each other? ::@:: They cover different traffic and a different scale, all sessions against network paths below 6 Mbit/s
-- read off the left panel: roughly where does BBA sit? ::@:: Roughly 0.23 % stalled and 16.5 dB
-- read off the right panel: roughly where does BBA sit? ::@:: Roughly 2.8 % stalled and 14.5 dB
-- how do Fugu and the Pensieve variants compare with BBA? ::@:: Fugu is further right on stall in both panels, and both Pensieve variants sit far down on both measures
+- what did the 2020 Puffer study find about BBA? ::@:: That it stayed among the best of the many algorithms compared. The study argues its own Fugu is better <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what two measures does the Puffer comparison plot? ::@:: Time spent stalled in percent, and average SSIM in dB <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why does the time-spent-stalled axis of the Puffer comparison run backwards? ::@:: Less time stalled is better, so the better values are plotted to the right <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why do the two panels of the Puffer comparison not compare against each other? ::@:: They cover different traffic and a different scale, all sessions against network paths below 6 Mbit/s <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- read off the left panel: roughly where does BBA sit? ::@:: Roughly 0.23 % stalled and 16.5 dB <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- read off the right panel: roughly where does BBA sit? ::@:: Roughly 2.8 % stalled and 14.5 dB <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how do Fugu and the Pensieve variants compare with BBA? ::@:: Fugu is further right on stall in both panels, and both Pensieve variants sit far down on both measures <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## references
 

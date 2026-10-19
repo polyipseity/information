@@ -20,8 +20,8 @@ An LLM on its own is a text predictor: isolated, without memory, unable to act o
 
 Flashcards for this section are as follows:
 
-- what does an agent add to the bare model? ::@:: Hands to act through, eyes to read with, and memory to keep, plus a loop that runs its turns toward a goal instead of answering once
-- what is a large language model on its own? ::@:: A text predictor. It is isolated and without memories, and it cannot act on the world
+- what does an agent add to the bare model? ::@:: Hands to act through, eyes to read with, and memory to keep, plus a loop that runs its turns toward a goal instead of answering once <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what is a large language model on its own? ::@:: A text predictor. It is isolated and without memories, and it cannot act on the world <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## the loop
 
@@ -39,10 +39,10 @@ The figure names the parts rather than the steps. The box the model evaluates is
 
 Flashcards for this section are as follows:
 
-- think, act and observe: which step calls a tool, and which reads what came back? ::@:: Act calls a tool, and observe reads what came back
-- why is the sequence a loop rather than three steps in a row? ::@:: Because what observe reads becomes the input to the next turn of think, so each turn starts from the last one's result
-- what tells the agent the loop is over? ::@:: A turn with no tool call, which produces the final answer instead of another pass round
-- the agent execution loop figure: does it draw the three steps or the parts they run through? ::@:: The parts. The model evaluating is think, tool call(s) is act, and the tool result is what observe reads
+- think, act and observe: which step calls a tool, and which reads what came back? ::@:: Act calls a tool, and observe reads what came back <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why is the sequence a loop rather than three steps in a row? ::@:: Because what observe reads becomes the input to the next turn of think, so each turn starts from the last one's result <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what tells the agent the loop is over? ::@:: A turn with no tool call, which produces the final answer instead of another pass round <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the agent execution loop figure: does it draw the three steps or the parts they run through? ::@:: The parts. The model evaluating is think, tool call(s) is act, and the tool result is what observe reads <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## the core tool set
 
@@ -56,6 +56,6 @@ __Bash__, to execute, is the most powerful of the three. It installs dependencie
 
 Flashcards for this section are as follows:
 
-- read tool: what does it do? ::@:: Ingests context, by scanning the codebase, reading API documentation, and checking a file's state before modifying it
-- write and edit tool: what separates an advanced agent's version from a basic one? ::@:: Diff-matching, so it replaces specific lines instead of rewriting the whole file
-- bash tool: what is it used for? ::@:: Running terminal commands to install dependencies, run tests, and start a server so the agent can verify its own work
+- read tool: what does it do? ::@:: Ingests context, by scanning the codebase, reading API documentation, and checking a file's state before modifying it <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- write and edit tool: what separates an advanced agent's version from a basic one? ::@:: Diff-matching, so it replaces specific lines instead of rewriting the whole file <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- bash tool: what is it used for? ::@:: Running terminal commands to install dependencies, run tests, and start a server so the agent can verify its own work <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->

@@ -18,12 +18,12 @@ Random assignment already stops the experimenter's half, by deciding who gets wh
 
 Flashcards for this section are as follows:
 
-- the trick a drug trial relies on ::@:: A trial of a new drug gives half the participants a fake pill. Without that trick, the participant behaves the way the study expects and the experimenter reads the result they hope for.
-- what a double-blind procedure is ::@:: A study where neither the participant nor the experimenter knows which condition the participant is in.
-- what blinding stops a participant from doing ::@:: Changing how they behave to suit what they think the study wants.
-- what blinding stops the experimenter from doing ::@:: Reading an improvement into the group they expect to do well.
-- whether either person is at fault ::@:: Neither. Both are reacting to the information they have.
-- why random assignment is not enough on its own ::@:: It decides who gets what at random, but it does not stop a participant from guessing which pill they took.
+- the trick a drug trial relies on ::@:: A trial of a new drug gives half the participants a fake pill. Without that trick, the participant behaves the way the study expects and the experimenter reads the result they hope for. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a double-blind procedure is ::@:: A study where neither the participant nor the experimenter knows which condition the participant is in. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what blinding stops a participant from doing ::@:: Changing how they behave to suit what they think the study wants. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what blinding stops the experimenter from doing ::@:: Reading an improvement into the group they expect to do well. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- whether either person is at fault ::@:: Neither. Both are reacting to the information they have. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why random assignment is not enough on its own ::@:: It decides who gets what at random, but it does not stop a participant from guessing which pill they took. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## what a double-blind procedure hides
 
@@ -33,10 +33,10 @@ A participant given the new pill and a participant given an identical fake canno
 
 Flashcards for this section are as follows:
 
-- what the two conditions amount to before the data come in ::@:: Nobody knows which condition each participant is in until the data come in. The treatment stays the only difference between the groups.
-- what a participant who is blinded knows about the two pills ::@:: That the two look the same, not which one they got.
-- what the experimenter who hands out the pills knows ::@:: Nothing, at least until the data come in.
-- what is left as the difference between the two groups at the end ::@:: Which pill they were given.
+- what the two conditions amount to before the data come in ::@:: Nobody knows which condition each participant is in until the data come in. The treatment stays the only difference between the groups. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a participant who is blinded knows about the two pills ::@:: That the two look the same, not which one they got. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the experimenter who hands out the pills knows ::@:: Nothing, at least until the data come in. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what is left as the difference between the two groups at the end ::@:: Which pill they were given. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ### participant demand
 
@@ -46,11 +46,11 @@ Participant demand is a participant working out what the study wants and produci
 
 Flashcards for this section are as follows:
 
-- whether producing what the study wants also counts as deceiving on purpose ::@:: A participant who works out what the study wants and produces it, usually with no attempt to deceive.
-- what participant demand is ::@:: A participant giving the study what it looks for, in response to cues in the design.
-- how participant demand differs from a placebo effect ::@:: A placebo effect is the change the participant expected from the treatment. Demand is a response to the cues in the design.
-- how participant demand differs from deliberately misreporting ::@:: The participant is answering honestly, in response to a cue the design supplied.
-- what makes a demand characteristic easy to act on ::@:: A cover story that cannot hold together, a task that only makes sense one way, an experimenter who seems interested in one group.
+- whether producing what the study wants also counts as deceiving on purpose ::@:: A participant who works out what the study wants and produces it, usually with no attempt to deceive. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what participant demand is ::@:: A participant giving the study what it looks for, in response to cues in the design. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how participant demand differs from a placebo effect ::@:: A placebo effect is the change the participant expected from the treatment. Demand is a response to the cues in the design. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how participant demand differs from deliberately misreporting ::@:: The participant is answering honestly, in response to a cue the design supplied. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what makes a demand characteristic easy to act on ::@:: A cover story that cannot hold together, a task that only makes sense one way, an experimenter who seems interested in one group. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ### the experimenter expectation effect
 
@@ -60,11 +60,11 @@ An experimenter who knows who got the treatment finds the improvement they look 
 
 Flashcards for this section are as follows:
 
-- what happens in the group the experimenter expects to do badly ::@:: An experimenter who knows the conditions finds the result they expect and misses the result they do not.
-- what the effect does to the two groups differently ::@:: The expected group shows an improvement that may not be there. The other group's real change is missed.
-- which measures leave the most room for the expectation to work ::@:: Measures that the experimenter scores: a mood read from a face, counted errors, a rated recording.
-- when the experimenter expectation effect is at its worst ::@:: When the dependent variable is the experimenter's own observation.
-- what removes it ::@:: A scorer who does not know the conditions.
+- what happens in the group the experimenter expects to do badly ::@:: An experimenter who knows the conditions finds the result they expect and misses the result they do not. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the effect does to the two groups differently ::@:: The expected group shows an improvement that may not be there. The other group's real change is missed. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- which measures leave the most room for the expectation to work ::@:: Measures that the experimenter scores: a mood read from a face, counted errors, a rated recording. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- when the experimenter expectation effect is at its worst ::@:: When the dependent variable is the experimenter's own observation. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what removes it ::@:: A scorer who does not know the conditions. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## where blinding is hard
 
@@ -74,12 +74,12 @@ Anyone can tell coffee from decaf by taste, and some interventions cannot be dis
 
 Flashcards for this section are as follows:
 
-- why blinding is not always available ::@:: A taste can give a treatment away, and some interventions cannot be disguised at all.
-- a treatment a participant can detect by taste ::@:: A participant can tell coffee from decaf by taste.
-- interventions that no disguise can cover ::@:: Physiotherapy and surgery cannot be disguised at all.
-- what a study does when it cannot blind the participant ::@:: It keeps the conditions from whoever does the measuring. It also makes the two conditions as alike as the treatment allows.
-- ways to make the conditions alike ::@:: An active control that resembles the real treatment, an identical-looking injection, the same appointment schedule in both arms.
-- where most of the experimenter expectation effect lives ::@:: With the person doing the measuring, so blinding the scorer matters most.
+- why blinding is not always available ::@:: A taste can give a treatment away, and some interventions cannot be disguised at all. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- a treatment a participant can detect by taste ::@:: A participant can tell coffee from decaf by taste. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- interventions that no disguise can cover ::@:: Physiotherapy and surgery cannot be disguised at all. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a study does when it cannot blind the participant ::@:: It keeps the conditions from whoever does the measuring. It also makes the two conditions as alike as the treatment allows. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- ways to make the conditions alike ::@:: An active control that resembles the real treatment, an identical-looking injection, the same appointment schedule in both arms. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- where most of the experimenter expectation effect lives ::@:: With the person doing the measuring, so blinding the scorer matters most. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## references
 

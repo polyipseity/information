@@ -26,11 +26,11 @@ A voltage written on a diagram is read the same way: the value is the potential 
 
 Flashcards for this section are as follows:
 
-- meter probes: the red probe touches $A$ and the black probe touches $B$, whose potentials are $V_A$ and $V_B$; what does the meter read? <p> ![voltmeter drawn as a box with a red plus terminal marked A and a black minus terminal marked B](../../attachments/symbol_voltmeter.svg) ::@:: $V_A - V_B$.
-- correct probes on a cell: a $1.5\text{ V}$ AA cell has its positive terminal at $A$ and its negative terminal at $B$, and the red probe touches $A$ while the black probe touches $B$; what does the meter read? ::@:: $1.5\text{ V}$.
-- reversed probes on the cell: a $1.5\text{ V}$ AA cell has its positive terminal at $A$ and its negative terminal at $B$, and the red probe touches $B$ while the black probe touches $A$; what does the meter read? ::@:: $-1.5\text{ V}$.
-- subscript order: how do the two ways of quoting the difference between $A$ and $B$ relate? ::@:: $V_{BA} = V_B - V_A = -(V_A - V_B) = -V_{AB}$.
-- marked label: an element between $A$ and $B$ carries $V_1$ beside a minus mark at $A$ and a plus mark at $B$; what does the label state? ::@:: $V_1 = V_B - V_A = V_{BA} = -V_{AB}$.
+- meter probes: the red probe touches $A$ and the black probe touches $B$, whose potentials are $V_A$ and $V_B$; what does the meter read? <p> ![voltmeter drawn as a box with a red plus terminal marked A and a black minus terminal marked B](../../attachments/symbol_voltmeter.svg) ::@:: $V_A - V_B$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- correct probes on a cell: a $1.5\text{ V}$ AA cell has its positive terminal at $A$ and its negative terminal at $B$, and the red probe touches $A$ while the black probe touches $B$; what does the meter read? ::@:: $1.5\text{ V}$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- reversed probes on the cell: a $1.5\text{ V}$ AA cell has its positive terminal at $A$ and its negative terminal at $B$, and the red probe touches $B$ while the black probe touches $A$; what does the meter read? ::@:: $-1.5\text{ V}$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- subscript order: how do the two ways of quoting the difference between $A$ and $B$ relate? ::@:: $V_{BA} = V_B - V_A = -(V_A - V_B) = -V_{AB}$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- marked label: an element between $A$ and $B$ carries $V_1$ beside a minus mark at $A$ and a plus mark at $B$; what does the label state? ::@:: $V_1 = V_B - V_A = V_{BA} = -V_{AB}$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## reference point
 

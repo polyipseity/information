@@ -18,7 +18,7 @@ Flashcards for this section are as follows:
 
 - what is a fundamental interaction ::@:: An interaction in nature that cannot be reduced to a more basic one. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - the fundamental interactions known to classical physics ::@:: Gravitation and electromagnetism. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
-- the fundamental interactions physics counts today ::@:: Three: the gravitational, the electroweak, and the strong.
+- the fundamental interactions physics counts today ::@:: Three: the gravitational, the electroweak, and the strong. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 - the $r$ dependence shared by both force laws ::@:: Both fall off as $1/r^2$. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - the proof status of the two force laws ::@:: Neither can be proven; physicists accept them as correct and use them as a foundation for explaining nature. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 
@@ -32,7 +32,7 @@ Flashcards for this section are as follows:
 
 - the gravitational force between masses $m_1$ and $m_2$ at separation $r$, with the constant $G$ ::@:: $\vec F_g = -G\frac{m_1 m_2}{r^2}\hat r$. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - the direction of the gravitational force, given the minus sign ::@:: Attractive, along the line joining the two masses. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
-- the weakest fundamental force, and what it holds together anyway ::@:: Gravity: Earth's orbit around the Sun, and us with our atmosphere, over macroscopic scales.
+- the weakest fundamental force, and what it holds together anyway ::@:: Gravity: Earth's orbit around the Sun, and us with our atmosphere, over macroscopic scales. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## electromagnetic force
 
@@ -46,8 +46,8 @@ Flashcards for this section are as follows:
 
 - the Coulomb force between charges $q_1$ and $q_2$ at separation $r$, with the vacuum permittivity $\varepsilon_0$ ::@:: $\vec F_C = \frac{1}{4\pi\varepsilon_0}\frac{q_1 q_2}{r^2}\hat r$. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - the sign of the product $q_1 q_2$ and the resulting direction of the Coulomb force ::@:: Repulsive between like charges and attractive between unlike ones. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
-- the everyday forces the electromagnetic force underlies ::@:: Holding atoms together, friction, contact forces, tension, and electrical and optical signals: practically every non-gravitational force.
-- where the electromagnetic force acts in living systems ::@:: Every chemical and biological process, cellular structure and nerve impulses included.
+- the everyday forces the electromagnetic force underlies ::@:: Holding atoms together, friction, contact forces, tension, and electrical and optical signals: practically every non-gravitational force. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- where the electromagnetic force acts in living systems ::@:: Every chemical and biological process, cellular structure and nerve impulses included. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 <!-- check: ignore-next-line[header_style]: Coulomb is a proper noun -->
 ## Coulomb's experiment
@@ -58,11 +58,11 @@ The electrostatic force was established by Coulomb's 1785 report, which conclude
 
 Flashcards for this section are as follows:
 
-- Coulomb's conclusion from his 1785 report: the proportionality for $F_e$ ::@:: $F_e \propto \frac{q_1 q_2}{d^2}$.
-- Coulomb's data: the number of points and the fitted exponent $p$ in $1/r^{p}$ ::@:: Three data points, with a fit of $1/r^{1.957}$.
-- the two quantities on the axes of the report's Fig. 3 ::@:: The angle on the micrometer on the vertical axis and the angle between the pith balls on the horizontal axis.
-- the three curves the data are plotted against in Fig. 3: as powers of $r$ ::@:: $1/r$, $1/r^2$, and $1/r^3$.
-- why the $1/r^2$ form was adopted over the closer $1/r^{1.957}$ fit ::@:: Nature was not expected to behave so "ugly". Where $1/r^2$ comes from is left to theory.
+- Coulomb's conclusion from his 1785 report: the proportionality for $F_e$ ::@:: $F_e \propto \frac{q_1 q_2}{d^2}$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- Coulomb's data: the number of points and the fitted exponent $p$ in $1/r^{p}$ ::@:: Three data points, with a fit of $1/r^{1.957}$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the two quantities on the axes of the report's Fig. 3 ::@:: The angle on the micrometer on the vertical axis and the angle between the pith balls on the horizontal axis. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the three curves the data are plotted against in Fig. 3: as powers of $r$ ::@:: $1/r$, $1/r^2$, and $1/r^3$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why the $1/r^2$ form was adopted over the closer $1/r^{1.957}$ fit ::@:: Nature was not expected to behave so "ugly". Where $1/r^2$ comes from is left to theory. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## weak interaction
 
@@ -72,8 +72,8 @@ The weak interaction is the force behind beta decay in nuclei, among other proce
 
 Flashcards for this section are as follows:
 
-- what the weak interaction is responsible for ::@:: Beta decay in nuclei, among other processes.
-- the distance over which the weak interaction is effective ::@:: About $10^{-15}\ \text{m}$, the size of a nucleus. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- what the weak interaction is responsible for ::@:: Beta decay in nuclei, among other processes. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the distance over which the weak interaction is effective ::@:: About $10^{-15}\ \text{m}$, the size of a nucleus. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## strong force
 
@@ -83,8 +83,8 @@ The strong force holds the nucleus together, and it is the strongest of the forc
 
 Flashcards for this section are as follows:
 
-- what the strong force does, and over what distance ::@:: It holds the nucleus together over distances of order $10^{-15}\ \text{m}$, binding two protons against their electrical repulsion and keeping dozens of protons in one nucleus. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- the name of the strong force where quarks are involved ::@:: The color force; protons and neutrons are built of quarks.
+- what the strong force does, and over what distance ::@:: It holds the nucleus together over distances of order $10^{-15}\ \text{m}$, binding two protons against their electrical repulsion and keeping dozens of protons in one nucleus. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the name of the strong force where quarks are involved ::@:: The color force; protons and neutrons are built of quarks. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## relative strengths and ranges
 
@@ -101,8 +101,8 @@ Quoted for protons and neutrons in close proximity, the strengths run from the s
 
 Flashcards for this section are as follows:
 
-- the two short-range forces: their relative strengths ::@:: Strong 1 and weak $10^{-9}$, both effective only over about $10^{-15}\ \text{m}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- the two long-range forces: their relative strengths ::@:: Electromagnetic $10^{-2}$ and gravitational $10^{-39}$, both falling off as $1/r^2$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- the two short-range forces: their relative strengths ::@:: Strong 1 and weak $10^{-9}$, both effective only over about $10^{-15}\ \text{m}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the two long-range forces: their relative strengths ::@:: Electromagnetic $10^{-2}$ and gravitational $10^{-39}$, both falling off as $1/r^2$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## unification of forces
 
@@ -116,11 +116,11 @@ Unification is still open. Grand unified theories merge the electroweak and stro
 
 Flashcards for this section are as follows:
 
-- the forces behind friction, contact forces, and tension ::@:: All of them are electromagnetic, though they were believed different for centuries.
-- what Maxwell's work in the 1860s unified, and what that unified theory also explained ::@:: Electrical and magnetic forces, shown to be one force, which also explained light and other radiation.
-- what Newton's unification joined ::@:: Planetary motion and motion on Earth: the same laws explain both.
-- what Einstein linked with gravitation ::@:: Space and time.
-- the electroweak unification of the 1970s: who did it, and what their theory predicted ::@:: Glashow, Weinberg, and Salam joined the electromagnetic and weak forces; the theory predicted W and Z bosons, discovered in 1983.
-- why the phrase "four fundamental forces" is still in use ::@:: The electromagnetic and weak forces merge only at very high energies, so they are usually counted separately: gravity, strong, electromagnetic, weak.
-- what grand unified theories aim to merge ::@:: The electroweak and strong forces; string theory is a leading candidate.
-- predictions of these unification theories that experiment has yet to verify ::@:: The instability of the proton and the existence of magnetic monopoles.
+- the forces behind friction, contact forces, and tension ::@:: All of them are electromagnetic, though they were believed different for centuries. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what Maxwell's work in the 1860s unified, and what that unified theory also explained ::@:: Electrical and magnetic forces, shown to be one force, which also explained light and other radiation. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what Newton's unification joined ::@:: Planetary motion and motion on Earth: the same laws explain both. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what Einstein linked with gravitation ::@:: Space and time. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the electroweak unification of the 1970s: who did it, and what their theory predicted ::@:: Glashow, Weinberg, and Salam joined the electromagnetic and weak forces; the theory predicted W and Z bosons, discovered in 1983. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why the phrase "four fundamental forces" is still in use ::@:: The electromagnetic and weak forces merge only at very high energies, so they are usually counted separately: gravity, strong, electromagnetic, weak. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what grand unified theories aim to merge ::@:: The electroweak and strong forces; string theory is a leading candidate. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- predictions of these unification theories that experiment has yet to verify ::@:: The instability of the proton and the existence of magnetic monopoles. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->

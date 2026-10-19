@@ -20,8 +20,8 @@ Project 1 runs two experiments side by side: the double-slit pattern that light 
 
 Flashcards for this section are as follows:
 
-- overview: the two experiments of project 1 ::@:: The double-slit interference pattern of light, and the relation between a gas's pressure, temperature, and molecular motion.
-- the method both experiments share ::@:: Sweep one parameter across five values, plot the measured quantity against it, and read a formula off the plot.
+- overview: the two experiments of project 1 ::@:: The double-slit interference pattern of light, and the relation between a gas's pressure, temperature, and molecular motion. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the method both experiments share ::@:: Sweep one parameter across five values, plot the measured quantity against it, and read a formula off the plot. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## double slit
 
@@ -33,13 +33,13 @@ Bright bands sit where the waves from the two slits arrive in step, at angles $\
 
 Flashcards for this section are as follows:
 
-- the bright bands of a double-slit pattern of separation $d$ and light of wavelength $\lambda$: what decides where they sit ::@:: The slit separation $d$ and the wavelength $\lambda$, through $d\sin\theta = m\lambda$; the first bright band is $m = 1$.
-- the bright-band condition for two slits separated by $d$ and light of wavelength $\lambda$ ::@:: $d\sin\theta = m\lambda$ for integer $m$.
-- the position of the first bright band, in terms of the separation $d$ and the wavelength $\lambda$ ::@:: $\sin\theta_1 = \lambda/d$: the angle shrinks as the separation $d$ grows and opens as the wavelength $\lambda$ grows.
-- increasing the slit separation $d$ at fixed wavelength $\lambda$: what happens to the first bright band's angle $\theta_1$ ::@:: It shrinks, since $\sin\theta_1 = \lambda/d$ falls as $d$ grows.
-- increasing the wavelength $\lambda$ at fixed separation $d$: what happens to the first bright band's angle $\theta_1$ ::@:: It opens, since $\sin\theta_1 = \lambda/d$ grows with $\lambda$.
-- the single-slit envelope cast by slits of width $a$: where its first dark minimum lies ::@:: At $a\sin\theta = \lambda$, so a narrower slit pushes the minimum out and spreads the envelope wider.
-- changing the slit width $a$ while the separation $d$ stays fixed: which feature of the pattern moves ::@:: The envelope only; the interference bands stay at $d\sin\theta = m\lambda$ while the envelope's first minimum stays at $a\sin\theta = \lambda$.
+- the bright bands of a double-slit pattern of separation $d$ and light of wavelength $\lambda$: what decides where they sit ::@:: The slit separation $d$ and the wavelength $\lambda$, through $d\sin\theta = m\lambda$; the first bright band is $m = 1$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the bright-band condition for two slits separated by $d$ and light of wavelength $\lambda$ ::@:: $d\sin\theta = m\lambda$ for integer $m$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the position of the first bright band, in terms of the separation $d$ and the wavelength $\lambda$ ::@:: $\sin\theta_1 = \lambda/d$: the angle shrinks as the separation $d$ grows and opens as the wavelength $\lambda$ grows. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- increasing the slit separation $d$ at fixed wavelength $\lambda$: what happens to the first bright band's angle $\theta_1$ ::@:: It shrinks, since $\sin\theta_1 = \lambda/d$ falls as $d$ grows. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- increasing the wavelength $\lambda$ at fixed separation $d$: what happens to the first bright band's angle $\theta_1$ ::@:: It opens, since $\sin\theta_1 = \lambda/d$ grows with $\lambda$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the single-slit envelope cast by slits of width $a$: where its first dark minimum lies ::@:: At $a\sin\theta = \lambda$, so a narrower slit pushes the minimum out and spreads the envelope wider. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- changing the slit width $a$ while the separation $d$ stays fixed: which feature of the pattern moves ::@:: The envelope only; the interference bands stay at $d\sin\theta = m\lambda$ while the envelope's first minimum stays at $a\sin\theta = \lambda$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## gas properties
 
@@ -51,7 +51,7 @@ The pressure follows $PV = Nk_BT$: at fixed volume it is proportional to the par
 
 Flashcards for this section are as follows:
 
-- overview: what the gas experiment sweeps and measures ::@:: Particle number and temperature across five values each, for heavy and light particles, measuring pressure and average speed.
-- the pressure of $N$ particles of mass $m$ in volume $V$ at temperature $T$ ::@:: $P = Nk_BT/V$: proportional to $N$ and to $T$, independent of the particle mass $m$ at fixed $N$ and $T$.
-- the average molecular speed $v_{\text{rms}}$ in terms of temperature $T$ and particle mass $m$ ::@:: $v_{\text{rms}} = \sqrt{3k_BT/m}$: it grows as $\sqrt{T}$, is independent of the particle number $N$, and falls as $1/\sqrt{m}$.
-- heavy and light particles at the same particle number $N$ and temperature $T$: how their pressures and average speeds compare ::@:: Equal pressures, since pressure depends only on $N$ and $T$; the light particles have the higher average speed, since $v_{\text{rms}} \propto 1/\sqrt{m}$.
+- overview: what the gas experiment sweeps and measures ::@:: Particle number and temperature across five values each, for heavy and light particles, measuring pressure and average speed. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the pressure of $N$ particles of mass $m$ in volume $V$ at temperature $T$ ::@:: $P = Nk_BT/V$: proportional to $N$ and to $T$, independent of the particle mass $m$ at fixed $N$ and $T$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the average molecular speed $v_{\text{rms}}$ in terms of temperature $T$ and particle mass $m$ ::@:: $v_{\text{rms}} = \sqrt{3k_BT/m}$: it grows as $\sqrt{T}$, is independent of the particle number $N$, and falls as $1/\sqrt{m}$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- heavy and light particles at the same particle number $N$ and temperature $T$: how their pressures and average speeds compare ::@:: Equal pressures, since pressure depends only on $N$ and $T$; the light particles have the higher average speed, since $v_{\text{rms}} \propto 1/\sqrt{m}$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->

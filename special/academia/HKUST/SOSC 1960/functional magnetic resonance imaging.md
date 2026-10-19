@@ -18,16 +18,16 @@ Spatial resolution is good, about 1 to 2 mm; no living-brain method places activ
 
 Flashcards for this section are as follows:
 
-- how functional magnetic resonance imaging differs from magnetic resonance imaging ::@:: Same scanner, but it reads change in the brain rather than its shape.
-- what functional magnetic resonance imaging measures directly ::@:: The magnetic effect of oxygen arriving in the blood.
-- what the BOLD technique stands for ::@:: Blood oxygenation level dependent.
-- why the blood overshoots when a region becomes active ::@:: Active neurons burn oxygen, so the body sends extra oxygenated blood to the region.
-- why the signal lags the activity by seconds ::@:: The blood overshoots and then drains back slowly.
-- the spatial resolution of the method ::@:: Good, about 1 to 2 mm; nothing places activity more precisely.
-- the temporal resolution of the method ::@:: Poor, on the order of 6 seconds; nothing dates activity more roughly.
-- the question the method is well suited to ::@:: Which brain structure is involved.
-- the question the method is poorly suited to ::@:: The order in which two processes follow each other.
-- what functional magnetic resonance imaging does not read ::@:: The neurons themselves.
+- how functional magnetic resonance imaging differs from magnetic resonance imaging ::@:: Same scanner, but it reads change in the brain rather than its shape. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what functional magnetic resonance imaging measures directly ::@:: The magnetic effect of oxygen arriving in the blood. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the BOLD technique stands for ::@:: Blood oxygenation level dependent. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why the blood overshoots when a region becomes active ::@:: Active neurons burn oxygen, so the body sends extra oxygenated blood to the region. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why the signal lags the activity by seconds ::@:: The blood overshoots and then drains back slowly. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the spatial resolution of the method ::@:: Good, about 1 to 2 mm; nothing places activity more precisely. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the temporal resolution of the method ::@:: Poor, on the order of 6 seconds; nothing dates activity more roughly. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the question the method is well suited to ::@:: Which brain structure is involved. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the question the method is poorly suited to ::@:: The order in which two processes follow each other. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what functional magnetic resonance imaging does not read ::@:: The neurons themselves. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## correlational, not causal
 
@@ -37,10 +37,10 @@ An area that brightens during a task has activity that tracks the task. An image
 
 Flashcards for this section are as follows:
 
-- what a region that brightens during a task shows ::@:: A region that brightens during a task has activity that tracks the task.
-- what an activating image licenses ::@:: Only that a region is involved, not that it produces the task.
-- how many causal structures an activating image leaves open ::@:: Three, the same three a plain correlation leaves open.
-- what turns the association into a cause ::@:: Only a design that intervenes, such as a lesion study or a disruption method.
+- what a region that brightens during a task shows ::@:: A region that brightens during a task has activity that tracks the task. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what an activating image licenses ::@:: Only that a region is involved, not that it produces the task. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how many causal structures an activating image leaves open ::@:: Three, the same three a plain correlation leaves open. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what turns the association into a cause ::@:: Only a design that intervenes, such as a lesion study or a disruption method. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## references
 

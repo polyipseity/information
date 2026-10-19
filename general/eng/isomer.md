@@ -10,23 +10,23 @@ tags:
 
 # isomer
 
-In {@{[chemistry](chemistry.md)}@}, {@{__isomers__}@} are {@{[molecules](molecule.md) or [polyatomic ions](polyatomic%20ion.md) with the same [molecular formula](chemical%20formula.md#molecular%20formula) but different spatial arrangements of [atoms](atom.md)}@}. <!--SR:!2028-05-21,1126,250-->
+In {@{[chemistry](chemistry.md)}@}, {@{__isomers__}@} are {@{[molecules](molecule.md) or [polyatomic ions](polyatomic%20ion.md) with the same [molecular formula](chemical%20formula.md#molecular%20formula) but different spatial arrangements of [atoms](atom.md)}@}. <!--SR:!2028-05-21,1126,250!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## structural isomer
 
-{@{__Structural isomers__}@} have {@{the same [molecular formula](chemical%20formula.md#molecular%20formula) but different [bonding](chemical%20bond.md) of [atoms](atom.md)}@}. They can be further categorized into {@{__skeletal isomers__ (__chain isomers__ if acyclic), __position isomers__, and __functional isomers__}@}. The first two have {@{similar [chemical properties](chemical%20property.md) but different [physical properties](physical%20property.md)}@}. The last one has {@{very different chemical and physical properties}@}. <!--SR:!2028-02-08,1020,250!2028-05-02,1293,310!2028-07-30,1285,290!2028-08-27,1302,290-->
+{@{__Structural isomers__}@} have {@{the same [molecular formula](chemical%20formula.md#molecular%20formula) but different [bonding](chemical%20bond.md) of [atoms](atom.md)}@}. They can be further categorized into {@{__skeletal isomers__ (__chain isomers__ if acyclic), __position isomers__, and __functional isomers__}@}. The first two have {@{similar [chemical properties](chemical%20property.md) but different [physical properties](physical%20property.md)}@}. The last one has {@{very different chemical and physical properties}@}. <!--SR:!2028-02-08,1020,250!2028-05-02,1293,310!2028-07-30,1285,290!2028-08-27,1302,290!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## stereoisomers
 
-{@{__Stereoisomers__}@} have {@{the same [bonding](chemical%20bond.md) of [atoms](atom.md) but different shapes}@}. They can be further categorized into {@{___cis_–_trans_ isomers__ and __enantiomers__}@}. The first one has {@{different [physical properties](physical%20property.md)}@}. The last one has {@{similar physical properties}@}. <!--SR:!2029-05-28,1456,250!2028-01-07,1142,290!2033-01-04,2711,330!2029-12-02,1823,330-->
+{@{__Stereoisomers__}@} have {@{the same [bonding](chemical%20bond.md) of [atoms](atom.md) but different shapes}@}. They can be further categorized into {@{___cis_–_trans_ isomers__ and __enantiomers__}@}. The first one has {@{different [physical properties](physical%20property.md)}@}. The last one has {@{similar physical properties}@}. <!--SR:!2029-05-28,1456,250!2028-01-07,1142,290!2033-01-04,2711,330!2029-12-02,1823,330!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ### _cis_–_trans_ isomers
 
-{@{_Cis_–_trans_ isomers}@} have {@{different [polarities](chemical%20polarity.md), which affects [boiling points](boiling%20point.md) more}@}, and {@{different packing efficiencies, which affects [melting points](melting%20point.md) more}@}. <!--SR:!fsrs,2032-09-16T00:00:00.000Z,2138,2137.88886696,3.98153807,2,11,0,0,2026-11-09T00:00:00.000Z-->
+{@{_Cis_–_trans_ isomers}@} have {@{different [polarities](chemical%20polarity.md), which affects [boiling points](boiling%20point.md) more}@}, and {@{different packing efficiencies, which affects [melting points](melting%20point.md) more}@}. <!--SR:!fsrs,2032-09-16T00:00:00.000Z,2138,2137.88886696,3.98153807,2,11,0,0,2026-11-09T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ### enantiomers
 
-{@{Enantiomers}@} are {@{optically active as they rotate the [plane of polarization](plane%20of%20polarization.md) of [polarized](polarization%20(physics).md) [light](light.md)}@} and can be measured by {@{a [polarimeter](polarimeter.md)}@}. <!--SR:!2028-12-16,1542,310!2028-09-09,1541,350-->
+{@{Enantiomers}@} are {@{optically active as they rotate the [plane of polarization](plane%20of%20polarization.md) of [polarized](polarization%20(physics).md) [light](light.md)}@} and can be measured by {@{a [polarimeter](polarimeter.md)}@}. <!--SR:!2028-12-16,1542,310!2028-09-09,1541,350!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## references
 

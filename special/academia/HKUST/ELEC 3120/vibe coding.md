@@ -22,8 +22,8 @@ Vibe coding is steering an agent in natural language instead of writing the code
 
 Flashcards for this section are as follows:
 
-- what is vibe coding? ::@:: Steering an agent in natural language instead of writing the code yourself
-- vibe coding: what are the three parts of the human's job? ::@:: Defining intent, structuring work, and coordinating and reviewing
+- what is vibe coding? ::@:: Steering an agent in natural language instead of writing the code yourself <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-10T00:10:00.000Z,0,2.3065,2.11810397,1,1,0,1,2026-11-10T00:00:00.000Z-->
+- vibe coding: what are the three parts of the human's job? ::@:: Defining intent, structuring work, and coordinating and reviewing <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## git as a safety net
 
@@ -33,4 +33,4 @@ Git was built for collaborating with other humans. An agent writing your code gi
 
 Flashcards for this section are as follows:
 
-- an agent writes fast and breaks things: what does that make necessary? ::@:: Commit often
+- an agent writes fast and breaks things: what does that make necessary? ::@:: Commit often <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->

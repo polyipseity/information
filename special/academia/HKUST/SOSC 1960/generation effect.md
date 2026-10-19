@@ -15,8 +15,8 @@ The generation effect is better retention when the learner produces the answer t
 
 Flashcards for this section are as follows:
 
-- the generation effect ::@:: Better retention when the learner produces the answer than when the learner only reads it.
-- how producing a word compares with reading it ::@:: People who generated the second word of a pair kept it better than people who only read the pair.
+- the generation effect ::@:: Better retention when the learner produces the answer than when the learner only reads it. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how producing a word compares with reading it ::@:: People who generated the second word of a pair kept it better than people who only read the pair. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## references
 

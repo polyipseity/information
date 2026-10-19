@@ -22,19 +22,19 @@ The [operant conditioning chamber](operant%20conditioning.md) puts the stimuli, 
 
 Flashcards for this section are as follows:
 
-- what behaviour is under stimulus control ::@:: Behaviour that changes with the signal is under stimulus control.
-- a pigeon taught two signals ::@:: It behaves differently at each of them, and food pays for the right response.
-- the discriminative stimulus $S^D$ ::@:: A signal that says which behaviour will be rewarded. It announces a reward instead of causing the response.
-- what an organism tracks under stimulus control ::@:: Whether a reinforcer is available, not its own behaviour.
-- what a conditioning chamber holds ::@:: The stimuli, the response, and the two outcomes, which are food and shock.
-- who decides what goes in the chamber ::@:: The experimenter, who sets the food and the shock where they choose before watching which consequence follows which behaviour.
-- the lights and loudspeaker of a conditioning chamber are there to ::@:: Announce whether food is coming.
-- parts of a conditioning chamber ::@:: Lights, a loudspeaker, a response lever, a food dispenser, and an electrified grid that forms the floor.
-- the electrified grid of a conditioning chamber ::@:: The floor itself.
-- the two outcomes a subject can reach in a conditioning chamber ::@:: Pressing the lever reaches the food. Standing on the electrified grid reaches the shock.
-- conditioning chamber: ![an operant conditioning chamber drawn as a tan box with a white rat inside. Callouts name the loudspeakers and lights high on the left wall, the response lever and the food dispenser below them, and the electrified grid forming the floor. A small feeder holding food pellets is drawn outside the box at the left](attachments/Skinner%20box%20scheme%2001.svg) ::@:: The callouts name the loudspeakers and lights high on the left wall, the response lever and the food dispenser below them, and the electrified grid forming the floor.
-- draw a conditioning chamber: which parts are the discriminative stimuli? ::@:: The lights and the loudspeaker high on the left wall. <p> ![an operant conditioning chamber drawn as a tan box with a white rat inside. Callouts name the loudspeakers and lights high on the left wall, the response lever and the food dispenser below them, and the electrified grid forming the floor. A small feeder holding food pellets is drawn outside the box at the left](attachments/Skinner%20box%20scheme%2001.svg)
-- draw a conditioning chamber: which part delivers the reward, and which part punishes? ::@:: The food dispenser delivers the reward, and the electrified grid punishes.
+- what behaviour is under stimulus control ::@:: Behaviour that changes with the signal is under stimulus control. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- a pigeon taught two signals ::@:: It behaves differently at each of them, and food pays for the right response. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the discriminative stimulus $S^D$ ::@:: A signal that says which behaviour will be rewarded. It announces a reward instead of causing the response. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what an organism tracks under stimulus control ::@:: Whether a reinforcer is available, not its own behaviour. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a conditioning chamber holds ::@:: The stimuli, the response, and the two outcomes, which are food and shock. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- who decides what goes in the chamber ::@:: The experimenter, who sets the food and the shock where they choose before watching which consequence follows which behaviour. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the lights and loudspeaker of a conditioning chamber are there to ::@:: Announce whether food is coming. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- parts of a conditioning chamber ::@:: Lights, a loudspeaker, a response lever, a food dispenser, and an electrified grid that forms the floor. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the electrified grid of a conditioning chamber ::@:: The floor itself. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the two outcomes a subject can reach in a conditioning chamber ::@:: Pressing the lever reaches the food. Standing on the electrified grid reaches the shock. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- conditioning chamber: ![an operant conditioning chamber drawn as a tan box with a white rat inside. Callouts name the loudspeakers and lights high on the left wall, the response lever and the food dispenser below them, and the electrified grid forming the floor. A small feeder holding food pellets is drawn outside the box at the left](attachments/Skinner%20box%20scheme%2001.svg) ::@:: The callouts name the loudspeakers and lights high on the left wall, the response lever and the food dispenser below them, and the electrified grid forming the floor. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- draw a conditioning chamber: which parts are the discriminative stimuli? ::@:: The lights and the loudspeaker high on the left wall. <p> ![an operant conditioning chamber drawn as a tan box with a white rat inside. Callouts name the loudspeakers and lights high on the left wall, the response lever and the food dispenser below them, and the electrified grid forming the floor. A small feeder holding food pellets is drawn outside the box at the left](attachments/Skinner%20box%20scheme%2001.svg) <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- draw a conditioning chamber: which part delivers the reward, and which part punishes? ::@:: The food dispenser delivers the reward, and the electrified grid punishes. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## stimulus generalization
 
@@ -48,12 +48,12 @@ The same generalization turns one conditioned fear into a family of [phobias](ph
 
 Flashcards for this section are as follows:
 
-- why a trained pigeon answers to untrained stimuli ::@:: Nobody learns a discrimination exactly, and the response generalizes to stimuli that resemble the trained one.
-- pigeons taught to select a Monet over a Picasso ::@:: They went on to choose the Impressionists over the Cubists.
-- what paid for the correct choice in the Monet-versus-Picasso task ::@:: Food, as a [positive reinforcer](operant%20conditioning.md#reinforcement%20and%20punishment).
-- what the choice in that task carried over to ::@:: The other painters in each movement, since Monet was an Impressionist and Picasso a Cubist.
-- contrast between generalization and a habit ::@:: Generalization is a response that answers to too many stimuli. A habit is a response that has lost its stimulus altogether.
-- how generalization connects a conditioned fear to a phobia ::@:: The same transfer turns one trained cue into a family of feared cues.
+- why a trained pigeon answers to untrained stimuli ::@:: Nobody learns a discrimination exactly, and the response generalizes to stimuli that resemble the trained one. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- pigeons taught to select a Monet over a Picasso ::@:: They went on to choose the Impressionists over the Cubists. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what paid for the correct choice in the Monet-versus-Picasso task ::@:: Food, as a [positive reinforcer](operant%20conditioning.md#reinforcement%20and%20punishment). <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the choice in that task carried over to ::@:: The other painters in each movement, since Monet was an Impressionist and Picasso a Cubist. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- contrast between generalization and a habit ::@:: Generalization is a response that answers to too many stimuli. A habit is a response that has lost its stimulus altogether. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how generalization connects a conditioned fear to a phobia ::@:: The same transfer turns one trained cue into a family of feared cues. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## references
 

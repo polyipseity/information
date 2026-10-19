@@ -16,9 +16,9 @@ A research design says which variables to measure, which to manipulate, who to c
 
 Flashcards for this section are as follows:
 
-- what a research design specifies ::@:: A research design says which variables to measure, which to manipulate, who to compare against whom, and how long to follow people.
-- what each design buys ::@:: A different claim, at a different price.
-- what settles the choice of design ::@:: The question and the resources, not a ranking of the designs.
+- what a research design specifies ::@:: A research design says which variables to measure, which to manipulate, who to compare against whom, and how long to follow people. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what each design buys ::@:: A different claim, at a different price. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what settles the choice of design ::@:: The question and the resources, not a ranking of the designs. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## what each design can establish
 
@@ -38,16 +38,16 @@ An experiment pays in the participants' time and in the researcher's control ove
 
 Flashcards for this section are as follows:
 
-- what a finding's claim rests on ::@:: A finding is only as strong as the design behind it.
-- what makes a design able to support a causal claim ::@:: Ruling out whatever else could have produced the difference. Random assignment does that.
-- the only design that supports a plain causal claim ::@:: The experiment, and only because random assignment is possible there.
-- what an experiment buys and what it costs ::@:: A causal claim about the manipulated variable, paid for in the participants' time and in the researcher's control over the conditions.
-- what a quasi-experiment buys and what it costs ::@:: A weaker causal claim with the confounds that come with its groups, for conditions nobody can assign.
-- what a correlational design buys and what it costs ::@:: An association with no direction of cause, found cheaply.
-- what a survey buys and what it costs ::@:: Whatever the design around it supports, and more people reached than any other design.
-- why a survey on its own is not a design ::@:: It only collects data.
-- what a longitudinal study buys and what it costs ::@:: Change in the same people and the order in which cause and effect occurred, paid for in years.
-- what a longitudinal design supports that a cross-sectional one does not ::@:: Change in the same people, and the order in which cause and effect occurred.
+- what a finding's claim rests on ::@:: A finding is only as strong as the design behind it. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what makes a design able to support a causal claim ::@:: Ruling out whatever else could have produced the difference. Random assignment does that. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the only design that supports a plain causal claim ::@:: The experiment, and only because random assignment is possible there. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what an experiment buys and what it costs ::@:: A causal claim about the manipulated variable, paid for in the participants' time and in the researcher's control over the conditions. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a quasi-experiment buys and what it costs ::@:: A weaker causal claim with the confounds that come with its groups, for conditions nobody can assign. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a correlational design buys and what it costs ::@:: An association with no direction of cause, found cheaply. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a survey buys and what it costs ::@:: Whatever the design around it supports, and more people reached than any other design. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why a survey on its own is not a design ::@:: It only collects data. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a longitudinal study buys and what it costs ::@:: Change in the same people and the order in which cause and effect occurred, paid for in years. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a longitudinal design supports that a cross-sectional one does not ::@:: Change in the same people, and the order in which cause and effect occurred. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## the constraints that choose a design
 
@@ -59,13 +59,13 @@ Ethics binds harder. War, long-term isolation, abusive parenting, prolonged drug
 
 Flashcards for this section are as follows:
 
-- the constraints that choose a design ::@:: Resources limit one side, and conditions nobody may ethically assign limit the other. Together they choose the design.
-- the resource question a design has to answer ::@:: How much time and money the study can commit.
-- what stops a short project from running a twenty-year study ::@:: The time a twenty-year study would take.
-- what exploratory work runs first ::@:: The cheap design.
-- the experiences that cannot be experimentally assigned ::@:: War, long-term isolation, abusive parenting, prolonged drug use, and brain injury.
-- what a design does where a condition cannot be assigned ::@:: It works with what already happened and supports a weaker claim.
-- how an ethical limit is best described ::@:: A limit on what may be asked, not a flaw in the method.
+- the constraints that choose a design ::@:: Resources limit one side, and conditions nobody may ethically assign limit the other. Together they choose the design. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the resource question a design has to answer ::@:: How much time and money the study can commit. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what stops a short project from running a twenty-year study ::@:: The time a twenty-year study would take. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what exploratory work runs first ::@:: The cheap design. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the experiences that cannot be experimentally assigned ::@:: War, long-term isolation, abusive parenting, prolonged drug use, and brain injury. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a design does where a condition cannot be assigned ::@:: It works with what already happened and supports a weaker claim. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how an ethical limit is best described ::@:: A limit on what may be asked, not a flaw in the method. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## references
 

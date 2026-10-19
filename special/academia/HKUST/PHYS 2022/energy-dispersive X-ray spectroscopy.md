@@ -19,9 +19,9 @@ The technique is the standard compositional tool of scanning electron microscopy
 
 Flashcards for this section are as follows:
 
-- overview: what energy-dispersive X-ray spectroscopy measures and what it returns ::@:: The energies of the characteristic X-rays an excited sample emits back, from which the sample's elemental composition follows.
-- the technique family energy-dispersive X-ray spectroscopy takes its place in ::@:: X-ray spectroscopy, which reads elements off their characteristic lines.
-- what makes energy-dispersive X-ray spectroscopy the standard compositional tool of scanning electron microscopy ::@:: One focused beam both forms the image and drives the X-ray emission, so the composition is read from the same point the image shows.
+- overview: what energy-dispersive X-ray spectroscopy measures and what it returns ::@:: The energies of the characteristic X-rays an excited sample emits back, from which the sample's elemental composition follows. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the technique family energy-dispersive X-ray spectroscopy takes its place in ::@:: X-ray spectroscopy, which reads elements off their characteristic lines. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what makes energy-dispersive X-ray spectroscopy the standard compositional tool of scanning electron microscopy ::@:: One focused beam both forms the image and drives the X-ray emission, so the composition is read from the same point the image shows. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## how it works
 
@@ -33,9 +33,9 @@ The spectrometer sorts the arriving X-rays by energy and counts them. One spectr
 
 Flashcards for this section are as follows:
 
-- overview: the chain from incident beam to characteristic X-ray in energy-dispersive X-ray spectroscopy ::@:: The beam ejects an inner-shell electron and leaves a hole, an outer-shell electron drops to fill it, and the energy difference between the two shells leaves as an X-ray photon.
-- why the emitted peak positions identify the emitting element ::@:: Shell energies are quantised and unique to each element, the photon carries the gap between two of them, and Moseley's law predicts the positions from the atomic number $Z$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- what an energy-dispersive spectrometer does with the emitted X-rays ::@:: It sorts them by energy and counts them, so one spectrum carries a peak per element present.
+- overview: the chain from incident beam to characteristic X-ray in energy-dispersive X-ray spectroscopy ::@:: The beam ejects an inner-shell electron and leaves a hole, an outer-shell electron drops to fill it, and the energy difference between the two shells leaves as an X-ray photon. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why the emitted peak positions identify the emitting element ::@:: Shell energies are quantised and unique to each element, the photon carries the gap between two of them, and Moseley's law predicts the positions from the atomic number $Z$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what an energy-dispersive spectrometer does with the emitted X-rays ::@:: It sorts them by energy and counts them, so one spectrum carries a peak per element present. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## against wavelength dispersion
 
@@ -45,4 +45,4 @@ The sibling technique is wavelength-dispersive X-ray spectroscopy, which sorts t
 
 Flashcards for this section are as follows:
 
-- energy-dispersive against wavelength-dispersive X-ray spectroscopy: what each one sorts the X-rays by ::@:: The dispersive one by energy, deposit by deposit in a detector, collecting the whole spectrum at once; the wavelength-dispersive one by wavelength through crystal diffraction, resolving peaks more finely.
+- energy-dispersive against wavelength-dispersive X-ray spectroscopy: what each one sorts the X-rays by ::@:: The dispersive one by energy, deposit by deposit in a detector, collecting the whole spectrum at once; the wavelength-dispersive one by wavelength through crystal diffraction, resolving peaks more finely. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->

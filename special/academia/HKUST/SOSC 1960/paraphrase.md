@@ -18,7 +18,7 @@ Flashcards for this section are as follows:
 
 - what a paraphrase does to a passage ::@:: A paraphrase restates a passage's meaning in different words. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - what a paraphrase is for ::@:: It makes a source part of your own argument. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
-- what the other half of the credit is ::@:: A citation that says where the idea came from.
+- what the other half of the credit is ::@:: A citation that says where the idea came from. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## what paraphrasing is
 
@@ -37,7 +37,7 @@ Flashcards for this section are as follows:
 - the two things a reworded passage needs ::@:: A paraphrase restates a passage's meaning in the writer's own framing and names the authors. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - what separates a paraphrase from patchwriting ::@:: A paraphrase reframes the idea and names the source. Patchwriting keeps the original's wording and structure, often without the citation. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - what makes a rewording patchwriting ::@:: The phrasing is still the source's. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
-- what the Baylor cellphone study reports about relationships ::@:: Cellphone distraction during time with a significant other lowers that person's satisfaction with the relationship.
+- what the Baylor cellphone study reports about relationships ::@:: Cellphone distraction during time with a significant other lowers that person's satisfaction with the relationship. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 - what else the Baylor cellphone study reports ::@:: Cellphone distraction can also increase feelings of depression and lower well-being. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 
 ## how to paraphrase

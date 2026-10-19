@@ -68,13 +68,13 @@ The discrete families are Poisson, binomial, discrete uniform, multinomial, geom
 
 Flashcards for this section are as follows:
 
-- what stays fixed in a parametric family: $\{f_X : f_X = f_X(\cdot \mid \theta)\}$ ::@:: The functional form of the pdf or pmf; only $\theta$ varies across the family.
-- what a candidate value of $\theta$ can be checked against, once the form is fixed ::@:: A named law, because the family pins down the form and leaves only a parameter space to range over.
-- unknown parameter of the normal family $\{f_X : f_X = f_X(\cdot \mid \theta)\}$ ::@:: $\theta = (\mu, \sigma^2)$, the mean and the variance of $X$.
-- unknown parameter of the binomial family $\{p_X : p_X = p_X(\cdot \mid \theta)\}$ for a count of successes out of $n$ trials ::@:: $\theta = p$, the success probability, with the trial count $n$ fixed and known.
-- which parametric families that count discrete outcomes are in use ::@:: Poisson, binomial, discrete uniform, multinomial, geometric, negative binomial and hypergeometric.
-- which parametric families that count continuous outcomes are in use ::@:: Normal, continuous uniform, exponential, beta, chi-square, Cauchy, F, gamma and t.
-- which families hold the geometric, exponential, chi-square and Cauchy distributions as special cases ::@:: Inside the negative binomial, gamma and t families respectively, rather than standing apart from them.
+- what stays fixed in a parametric family: $\{f_X : f_X = f_X(\cdot \mid \theta)\}$ ::@:: The functional form of the pdf or pmf; only $\theta$ varies across the family. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a candidate value of $\theta$ can be checked against, once the form is fixed ::@:: A named law, because the family pins down the form and leaves only a parameter space to range over. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- unknown parameter of the normal family $\{f_X : f_X = f_X(\cdot \mid \theta)\}$ ::@:: $\theta = (\mu, \sigma^2)$, the mean and the variance of $X$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- unknown parameter of the binomial family $\{p_X : p_X = p_X(\cdot \mid \theta)\}$ for a count of successes out of $n$ trials ::@:: $\theta = p$, the success probability, with the trial count $n$ fixed and known. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- which parametric families that count discrete outcomes are in use ::@:: Poisson, binomial, discrete uniform, multinomial, geometric, negative binomial and hypergeometric. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- which parametric families that count continuous outcomes are in use ::@:: Normal, continuous uniform, exponential, beta, chi-square, Cauchy, F, gamma and t. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- which families hold the geometric, exponential, chi-square and Cauchy distributions as special cases ::@:: Inside the negative binomial, gamma and t families respectively, rather than standing apart from them. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## non-parametric models
 

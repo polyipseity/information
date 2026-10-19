@@ -20,8 +20,8 @@ Media segmentation cuts a video into pieces and fetches each piece as an ordinar
 
 Flashcards for this section are as follows:
 
-- what is media segmentation? ::@:: Cutting a video into chunks and fetching them over HTTP one at a time, in order, so the browser can play them back to back as one long video
-- HTTP chunking: what is it, and what are the pieces called? ::@:: The same thing as media segmentation. The pieces are called chunks
+- what is media segmentation? ::@:: Cutting a video into chunks and fetching them over HTTP one at a time, in order, so the browser can play them back to back as one long video <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- HTTP chunking: what is it, and what are the pieces called? ::@:: The same thing as media segmentation. The pieces are called chunks <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## from custom protocols to HTTP
 
@@ -45,12 +45,12 @@ Each of the four requests is answered separately, so the two ends have to stay i
 
 Flashcards for this section are as follows:
 
-- what had a viewer of Windows Media Player do before video would play? ::@:: Pick their own line speed from a "Select your connection speed" dialog offering 28.8, 56.6 and T1
-- which protocol did that generation of media players speak to their media server? ::@:: RTSP
-- what does stateful cost a custom media protocol? ::@:: Client and server have to agree on session state before video moves, so every request needs its own reply and the two ends have to stay in step
-- what does "tight" integration name in that generation? ::@:: Every component being customised to fit the others, servers, clients and protocols alike
-- where does the presentation description come from? ::@:: A web server, fetched by the web browser over HTTP and then handed to the media player
-- an RTSP session: what is the order of the steps once the player has the presentation description? ::@:: SETUP, PLAY, the one-way media stream from the server to the player, then PAUSE and TEARDOWN
+- what had a viewer of Windows Media Player do before video would play? ::@:: Pick their own line speed from a "Select your connection speed" dialog offering 28.8, 56.6 and T1 <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- which protocol did that generation of media players speak to their media server? ::@:: RTSP <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what does stateful cost a custom media protocol? ::@:: Client and server have to agree on session state before video moves, so every request needs its own reply and the two ends have to stay in step <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what does "tight" integration name in that generation? ::@:: Every component being customised to fit the others, servers, clients and protocols alike <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- where does the presentation description come from? ::@:: A web server, fetched by the web browser over HTTP and then handed to the media player <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- an RTSP session: what is the order of the steps once the player has the presentation description? ::@:: SETUP, PLAY, the one-way media stream from the server to the player, then PAUSE and TEARDOWN <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## chunking
 
@@ -60,7 +60,7 @@ A chunk has a size and a duration. The size is 2 MB, and the duration a few seco
 
 Flashcards for this section are as follows:
 
-- chunk size and length: a chunk is 2 MB and Netflix's run is $4$ s, so who decides both? ::@:: The service does, not the protocol
+- chunk size and length: a chunk is 2 MB and Netflix's run is $4$ s, so who decides both? ::@:: The service does, not the protocol <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## why HTTP took over
 
@@ -75,9 +75,9 @@ Four things follow from a chunk being an ordinary file over HTTP.
 
 Flashcards for this section are as follows:
 
-- what does a chunk being an ordinary file over HTTP do for the client? ::@:: Playback moves into the browser, so the client needs no new software
-- what does a chunk being an ordinary file over HTTP do for the server? ::@:: It is "stupid" again, offering up small chunks of video over stateless HTTP and holding no session state
-- what does a chunk being an ordinary file over HTTP do for caching? ::@:: Chunks can be stored in caches and CDNs, which is where the scalability comes from
-- what does segmentation allow the client to change? ::@:: Its choice of download rate, once per chunk.<br/>
+- what does a chunk being an ordinary file over HTTP do for the client? ::@:: Playback moves into the browser, so the client needs no new software <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what does a chunk being an ordinary file over HTTP do for the server? ::@:: It is "stupid" again, offering up small chunks of video over stateless HTTP and holding no session state <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what does a chunk being an ordinary file over HTTP do for caching? ::@:: Chunks can be stored in caches and CDNs, which is where the scalability comes from <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what does segmentation allow the client to change? ::@:: Its choice of download rate, once per chunk.<br/> <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 That is what makes adaptive bitrate streaming possible.
-- why could a single stateful session not change its rate mid-stream? ::@:: Because it fixes the rate when the session is set up, so a network that slows down leaves the client nothing to do but wait
+- why could a single stateful session not change its rate mid-stream? ::@:: Because it fixes the rate when the session is set up, so a network that slows down leaves the client nothing to do but wait <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->

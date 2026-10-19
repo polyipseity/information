@@ -35,9 +35,9 @@ Wilhelm Wundt (1832–1920) headed the first modern psychology laboratory in 187
 
 Flashcards for this section are as follows:
 
-- who headed the first modern psychology laboratory, and when and where ::@:: Wilhelm Wundt, in 1879, at Leipzig in Germany.
-- Wundt's claim about mental activity ::@:: It can be broken down into more basic operations.
-- Wundt's method for assessing mental activity ::@:: Introspection, the self-observation of mental activity.
+- who headed the first modern psychology laboratory, and when and where ::@:: Wilhelm Wundt, in 1879, at Leipzig in Germany. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- Wundt's claim about mental activity ::@:: It can be broken down into more basic operations. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- Wundt's method for assessing mental activity ::@:: Introspection, the self-observation of mental activity. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ### psychoanalysis
 
@@ -64,17 +64,17 @@ The rule held until it met something it could not carry. Chomsky's generative gr
 
 Flashcards for this section are as follows:
 
-- when behaviorism dominated psychology ::@:: Behaviorism dominated psychology from the early 1900s until the mid-twentieth century.
-- the tradition behaviorism reacted against ::@:: Depth psychology, which often made predictions that no experiment could test.
-- what behaviorism excluded as an explanation ::@:: Internal processes such as thoughts, because no one could measure them.
-- how behaviorism treated the mind ::@:: Behaviorists treated the mind as a black box and inferred its workings from its input and its output.
-- Pavlov's conditioning program ::@:: Pavlov's classical conditioning studies the stimuli that elicit reflexes.
-- Skinner's conditioning program ::@:: Skinner's instrumental conditioning studies the consequences that strengthen or weaken a behavior.
-- what Skinner assessed in place of Pavlov's eliciting stimuli ::@:: The reinforcement history of the discriminative stimuli, the cues that signal which behavior will pay off.
-- where the two conditionings came to be applied together ::@:: In the cognitive-behavioral therapies, which treat simple phobias, post-traumatic stress disorder, and mood disorders.
-- how the two conditioning programs still show up in a description of a response ::@:: A response is described as elicited or as a consequence.
-- how Hull and Skinner differed on internal events ::@:: Hull treated internal events such as motivation as inferable from behavior, and Skinner rejected all discussion of them.
-- what behaviorism could not explain ::@:: Language, which Chomsky showed in 1957 and 1959 that no reinforcement history could account for.
+- when behaviorism dominated psychology ::@:: Behaviorism dominated psychology from the early 1900s until the mid-twentieth century. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the tradition behaviorism reacted against ::@:: Depth psychology, which often made predictions that no experiment could test. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what behaviorism excluded as an explanation ::@:: Internal processes such as thoughts, because no one could measure them. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how behaviorism treated the mind ::@:: Behaviorists treated the mind as a black box and inferred its workings from its input and its output. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- Pavlov's conditioning program ::@:: Pavlov's classical conditioning studies the stimuli that elicit reflexes. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- Skinner's conditioning program ::@:: Skinner's instrumental conditioning studies the consequences that strengthen or weaken a behavior. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what Skinner assessed in place of Pavlov's eliciting stimuli ::@:: The reinforcement history of the discriminative stimuli, the cues that signal which behavior will pay off. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- where the two conditionings came to be applied together ::@:: In the cognitive-behavioral therapies, which treat simple phobias, post-traumatic stress disorder, and mood disorders. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how the two conditioning programs still show up in a description of a response ::@:: A response is described as elicited or as a consequence. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how Hull and Skinner differed on internal events ::@:: Hull treated internal events such as motivation as inferable from behavior, and Skinner rejected all discussion of them. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what behaviorism could not explain ::@:: Language, which Chomsky showed in 1957 and 1959 that no reinforcement history could account for. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ### the cognitive revolution
 
@@ -92,16 +92,16 @@ The rest of the field now infers a process from behavior in experiments, and wat
 
 Flashcards for this section are as follows:
 
-- what the cognitive revolution made a topic for study ::@:: From about 1956 the cognitive revolution made mental processes measurable topics, replacing the black box with an active information processor.
-- when the cognitive revolution surpassed behaviorism as a paradigm ::@:: By the early 1970s, it had surpassed behaviorism as a paradigm.
-- what the organism became under the cognitive approach ::@:: The organism became an active processor of information rather than a passive receiver of stimuli.
-- what came back as explanations for observable behavior ::@:: Internal states came back as explanations for observable behavior.
-- what the computer gave the cognitive revolution ::@:: A way to specify the internal mechanisms that produce behavior as a program and set its output beside a person's.
-- who built the artificial-intelligence side of the movement ::@:: Herbert Simon and Allen Newell.
-- what George Miller's 1956 paper put a size on ::@:: What a person can hold at once, the magical number seven, plus or minus two.
-- the disciplines the cognitive revolution drew on ::@:: Researchers came from psychology, linguistics, computer science, anthropology, neuroscience, and philosophy.
-- the field that emerged from the cognitive revolution ::@:: Cognitive science grew out of that interdisciplinary movement.
-- the practical outcome of the cognitive revolution for the rest of psychology ::@:: The field now uses experiments that infer a process from behavior, and imaging that watches the process itself.
+- what the cognitive revolution made a topic for study ::@:: From about 1956 the cognitive revolution made mental processes measurable topics, replacing the black box with an active information processor. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- when the cognitive revolution surpassed behaviorism as a paradigm ::@:: By the early 1970s, it had surpassed behaviorism as a paradigm. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the organism became under the cognitive approach ::@:: The organism became an active processor of information rather than a passive receiver of stimuli. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what came back as explanations for observable behavior ::@:: Internal states came back as explanations for observable behavior. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the computer gave the cognitive revolution ::@:: A way to specify the internal mechanisms that produce behavior as a program and set its output beside a person's. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- who built the artificial-intelligence side of the movement ::@:: Herbert Simon and Allen Newell. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what George Miller's 1956 paper put a size on ::@:: What a person can hold at once, the magical number seven, plus or minus two. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the disciplines the cognitive revolution drew on ::@:: Researchers came from psychology, linguistics, computer science, anthropology, neuroscience, and philosophy. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the field that emerged from the cognitive revolution ::@:: Cognitive science grew out of that interdisciplinary movement. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the practical outcome of the cognitive revolution for the rest of psychology ::@:: The field now uses experiments that infer a process from behavior, and imaging that watches the process itself. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## psychology as a science
 
@@ -123,30 +123,30 @@ A scientific approach to psychology means research methods, measuring mind and b
 
 Flashcards for this section are as follows:
 
-- how psychology measures what it cannot see directly ::@:: Psychology is a science whose subject matter is largely invisible, so it measures the mind through behavior, ratings, and biological signals.
-- why some people doubt that psychology is a science ::@:: Depression, intelligence, and prejudice are not directly observable the way ocean tides or the speed of light are.
-- how personality and other mental attributes are inferred ::@:: Researchers infer them from behavior, so a friendly, outgoing person is read as one kind of person and a shy, withdrawn one as another.
-- how thoughts and feelings are measured ::@:: Behavioral measures and rating scales make thoughts and feelings measurable.
-- who else uses behavioral measures and rating scales ::@:: Educators use them for academic performance, and economists for quality of life.
-- how each face in a chimeric face judgment task is built ::@:: Researchers build each face from the halves of a target face.
-- what the participant does in a chimeric face judgment task ::@:: The participant judges which of the two faces looks more similar to the target.
-- what a chimeric face judgment task reveals ::@:: A left-side bias, which researchers read as evidence for right-hemisphere involvement in face processing.
-- what Galton used patches of color for ::@:: Galton used patches of color to test how well people could distinguish colors.
-- what instrument Galton invented ::@:: Galton invented the self-report questionnaire.
-- what Galton examined through self-reports ::@:: Galton used self-reports to see how accurately people judged distances.
-- the year Galton began studying twins ::@:: 1875.
-- what Galton's twin studies compared ::@:: Galton compared identical and fraternal twins, to estimate how far genetic and social factors contribute to personality.
-- the phrase Galton coined ::@:: "Nature versus nurture".
-- the nature–nurture question ::@:: It asks how much of a trait comes from genetics and how much from social factors.
-- why self-reports of happiness are unreliable ::@:: People might lie, might not report accurately, or might use the numerical scale differently.
-- peer report measures of happiness ::@:: Psychologists ask close friends and family for ratings, then compare them with self-reports and check for discrepancies.
-- the idea behind memory measures of happiness ::@:: Dispositionally positive people recall pleasant events more easily, and negative people recall unpleasant ones.
-- which brain area is associated with good mood ::@:: The left prefrontal cortex.
-- what a saliva cortisol sample measures ::@:: The level of a stress-related hormone in saliva.
-- how old psychology is compared with physics and chemistry ::@:: Psychology is barely 150 years old, against hundreds of years for physics and chemistry.
-- when most major psychological findings appeared ::@:: In the last 60 years.
-- parts of a scientific approach to psychology that cover collecting evidence ::@:: Research methods, measuring mind and behavior, and recruiting subjects and collecting data.
-- parts of a scientific approach to psychology that cover interpreting evidence ::@:: Statistical analysis, and critical thinking and argumentation.
+- how psychology measures what it cannot see directly ::@:: Psychology is a science whose subject matter is largely invisible, so it measures the mind through behavior, ratings, and biological signals. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why some people doubt that psychology is a science ::@:: Depression, intelligence, and prejudice are not directly observable the way ocean tides or the speed of light are. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how personality and other mental attributes are inferred ::@:: Researchers infer them from behavior, so a friendly, outgoing person is read as one kind of person and a shy, withdrawn one as another. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how thoughts and feelings are measured ::@:: Behavioral measures and rating scales make thoughts and feelings measurable. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- who else uses behavioral measures and rating scales ::@:: Educators use them for academic performance, and economists for quality of life. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how each face in a chimeric face judgment task is built ::@:: Researchers build each face from the halves of a target face. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the participant does in a chimeric face judgment task ::@:: The participant judges which of the two faces looks more similar to the target. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a chimeric face judgment task reveals ::@:: A left-side bias, which researchers read as evidence for right-hemisphere involvement in face processing. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what Galton used patches of color for ::@:: Galton used patches of color to test how well people could distinguish colors. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what instrument Galton invented ::@:: Galton invented the self-report questionnaire. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what Galton examined through self-reports ::@:: Galton used self-reports to see how accurately people judged distances. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the year Galton began studying twins ::@:: 1875. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what Galton's twin studies compared ::@:: Galton compared identical and fraternal twins, to estimate how far genetic and social factors contribute to personality. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the phrase Galton coined ::@:: "Nature versus nurture". <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the nature–nurture question ::@:: It asks how much of a trait comes from genetics and how much from social factors. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why self-reports of happiness are unreliable ::@:: People might lie, might not report accurately, or might use the numerical scale differently. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- peer report measures of happiness ::@:: Psychologists ask close friends and family for ratings, then compare them with self-reports and check for discrepancies. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the idea behind memory measures of happiness ::@:: Dispositionally positive people recall pleasant events more easily, and negative people recall unpleasant ones. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- which brain area is associated with good mood ::@:: The left prefrontal cortex. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a saliva cortisol sample measures ::@:: The level of a stress-related hormone in saliva. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how old psychology is compared with physics and chemistry ::@:: Psychology is barely 150 years old, against hundreds of years for physics and chemistry. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- when most major psychological findings appeared ::@:: In the last 60 years. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- parts of a scientific approach to psychology that cover collecting evidence ::@:: Research methods, measuring mind and behavior, and recruiting subjects and collecting data. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- parts of a scientific approach to psychology that cover interpreting evidence ::@:: Statistical analysis, and critical thinking and argumentation. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## subfields of psychology
 
@@ -178,25 +178,25 @@ No single level has a method that reaches the others, so the approach needs inte
 
 Flashcards for this section are as follows:
 
-- the range of levels a capacity can be studied at ::@:: Cognitive capacities can be studied at different levels, from group behavior down to neural networks, and each level has its own tools.
-- the levels of the nervous system from molecular to whole brain ::@:: Molecules, synapses, neurons, circuits, maps, systems, and the brain.
-- the four families of networks across those levels ::@:: Gene and protein, synaptic, neuronal, and whole-brain networks.
-- which levels form the whole-brain networks ::@:: Systems and the brain.
-- which levels form the neuronal networks ::@:: Neurons, circuits, and maps.
-- which level forms the synaptic networks ::@:: Synapses.
-- which level forms the gene and protein networks ::@:: Molecules.
-- the spatial range of the levels of organization ::@:: About ten orders of magnitude, from 1 Å to 1 m.
-- the temporal range of the levels of organization ::@:: About ten orders of magnitude, from a millisecond to a year.
-- the scale of metabolic, gene regulatory, and interactome networks ::@:: About 1 Å to 1 µm, spanning milliseconds to days.
-- the scale of circuit dynamics and neural information flow ::@:: About 100 µm to 1 cm, over milliseconds to minutes.
-- the scale of optical imaging ::@:: About 100 µm to a few millimetres, over milliseconds to minutes.
-- the fine-scale method for mapping connectome networks ::@:: EM imaging with reconstruction covers about 100 µm to 1 mm over minutes to months.
-- techniques for imaging whole-brain functional networks ::@:: EEG, MEG, fMRI, fNIRS, and ECoG.
-- the scale of whole-brain functional network imaging ::@:: Millimetre-to-centimetre structure over milliseconds to minutes.
-- the long-range method for mapping connectome networks ::@:: Diffusion MR imaging and histological tract tracing map them from 1 cm to 1 m over hours to years.
-- the scale of perception–action coupling and brain–behavior interactions ::@:: About 10 cm to 1 m, over seconds to days.
-- the scale of social networks ::@:: Above a metre, over minutes to years.
-- why the level-of-organization approach requires interdisciplinary effort ::@:: No single level has a method that reaches the others.
+- the range of levels a capacity can be studied at ::@:: Cognitive capacities can be studied at different levels, from group behavior down to neural networks, and each level has its own tools. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the levels of the nervous system from molecular to whole brain ::@:: Molecules, synapses, neurons, circuits, maps, systems, and the brain. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the four families of networks across those levels ::@:: Gene and protein, synaptic, neuronal, and whole-brain networks. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- which levels form the whole-brain networks ::@:: Systems and the brain. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- which levels form the neuronal networks ::@:: Neurons, circuits, and maps. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- which level forms the synaptic networks ::@:: Synapses. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- which level forms the gene and protein networks ::@:: Molecules. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the spatial range of the levels of organization ::@:: About ten orders of magnitude, from 1 Å to 1 m. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the temporal range of the levels of organization ::@:: About ten orders of magnitude, from a millisecond to a year. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the scale of metabolic, gene regulatory, and interactome networks ::@:: About 1 Å to 1 µm, spanning milliseconds to days. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the scale of circuit dynamics and neural information flow ::@:: About 100 µm to 1 cm, over milliseconds to minutes. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the scale of optical imaging ::@:: About 100 µm to a few millimetres, over milliseconds to minutes. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the fine-scale method for mapping connectome networks ::@:: EM imaging with reconstruction covers about 100 µm to 1 mm over minutes to months. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- techniques for imaging whole-brain functional networks ::@:: EEG, MEG, fMRI, fNIRS, and ECoG. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the scale of whole-brain functional network imaging ::@:: Millimetre-to-centimetre structure over milliseconds to minutes. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the long-range method for mapping connectome networks ::@:: Diffusion MR imaging and histological tract tracing map them from 1 cm to 1 m over hours to years. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the scale of perception–action coupling and brain–behavior interactions ::@:: About 10 cm to 1 m, over seconds to days. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the scale of social networks ::@:: Above a metre, over minutes to years. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why the level-of-organization approach requires interdisciplinary effort ::@:: No single level has a method that reaches the others. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## measurement and modeling tools
 
@@ -210,18 +210,18 @@ An eye tracker records where the eyes look, returning the sequence of fixations 
 
 Flashcards for this section are as follows:
 
-- the instruments and models psychological work runs on ::@:: Psychologists use instruments such as the eye tracker and EEG, plus explicit computational models of a process.
-- why psychological science uses several kinds of measurement ::@:: No single measurement settles a question, so the aim is converging evidence from multiple methodologies.
-- the four kinds of measurement in psychological science ::@:: Measuring behavior, looking at the living brain, looking at deficits after brain damage, and computational modeling.
-- what an eye tracker records ::@:: It records where the eyes look, the sequence of fixations, and the regions attended to.
-- what EEG records ::@:: It records brain waves, the electrical activity of the brain at the scalp.
-- what EEG trades off ::@:: Very good temporal resolution against poor spatial resolution.
-- the two resolutions magnetoencephalography achieves ::@:: About 1 ms temporally and about 2 mm spatially.
-- which method creates deficits on purpose ::@:: Transcranial magnetic stimulation creates those deficits briefly and on purpose.
-- how the face recognition model encodes fixations and picks the next region ::@:: A shared multi-scale convolutional network encodes them, and a hidden Markov model picks the next region.
-- the regions of interest in the face recognition model ::@:: The mouth, the nose side, and the eye corner.
-- how the face recognition model scores each region ::@:: A Gaussian mask confines attention to the region, and a shared classifier scores it.
-- how many fixations the face recognition model scores ::@:: Three fixations, whose losses are combined by their maximum into a multi-task loss.
+- the instruments and models psychological work runs on ::@:: Psychologists use instruments such as the eye tracker and EEG, plus explicit computational models of a process. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why psychological science uses several kinds of measurement ::@:: No single measurement settles a question, so the aim is converging evidence from multiple methodologies. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the four kinds of measurement in psychological science ::@:: Measuring behavior, looking at the living brain, looking at deficits after brain damage, and computational modeling. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what an eye tracker records ::@:: It records where the eyes look, the sequence of fixations, and the regions attended to. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what EEG records ::@:: It records brain waves, the electrical activity of the brain at the scalp. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what EEG trades off ::@:: Very good temporal resolution against poor spatial resolution. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the two resolutions magnetoencephalography achieves ::@:: About 1 ms temporally and about 2 mm spatially. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- which method creates deficits on purpose ::@:: Transcranial magnetic stimulation creates those deficits briefly and on purpose. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how the face recognition model encodes fixations and picks the next region ::@:: A shared multi-scale convolutional network encodes them, and a hidden Markov model picks the next region. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the regions of interest in the face recognition model ::@:: The mouth, the nose side, and the eye corner. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how the face recognition model scores each region ::@:: A Gaussian mask confines attention to the region, and a shared classifier scores it. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how many fixations the face recognition model scores ::@:: Three fixations, whose losses are combined by their maximum into a multi-task loss. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## research process
 
@@ -251,15 +251,15 @@ Applied science puts scientific knowledge to work on practical problems like the
 
 Flashcards for this section are as follows:
 
-- the areas psychological science has improved ::@:: Psychological science has improved treatment, workplaces, product safety, and the courtroom.
-- therapy shown to be effective for depression and anxiety disorders ::@:: Cognitive behavioral therapy.
-- finding about some other types of therapy ::@:: Other kinds of therapy turn out to be harmful on average.
-- what organizational psychology interventions improved ::@:: Productivity and satisfaction in the workplace.
-- what Alphonse Chapanis redesigned ::@:: The cockpit controls of aircraft, made less confusing and faster to respond to.
-- what the cockpit redesign achieved ::@:: Fewer pilot errors and crashes.
-- what Elizabeth Loftus demonstrated ::@:: The limits and unreliability of eyewitness testimony and memory.
-- what applied science is ::@:: The application of scientific knowledge to practical problems or situations.
-- how much psychological science has shown ::@:: Enough success to show that it works, though a great deal remains to be learned.
+- the areas psychological science has improved ::@:: Psychological science has improved treatment, workplaces, product safety, and the courtroom. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- therapy shown to be effective for depression and anxiety disorders ::@:: Cognitive behavioral therapy. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- finding about some other types of therapy ::@:: Other kinds of therapy turn out to be harmful on average. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what organizational psychology interventions improved ::@:: Productivity and satisfaction in the workplace. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what Alphonse Chapanis redesigned ::@:: The cockpit controls of aircraft, made less confusing and faster to respond to. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the cockpit redesign achieved ::@:: Fewer pilot errors and crashes. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what Elizabeth Loftus demonstrated ::@:: The limits and unreliability of eyewitness testimony and memory. <!--SR:!fsrs,2026-11-10T00:10:00.000Z,0,2.3065,2.11810397,1,1,0,1,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what applied science is ::@:: The application of scientific knowledge to practical problems or situations. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how much psychological science has shown ::@:: Enough success to show that it works, though a great deal remains to be learned. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ### educational psychology
 
@@ -275,15 +275,15 @@ Neither side suffices alone. A learner's readiness sets the order of teaching: t
 
 Flashcards for this section are as follows:
 
-- what educational psychology applies psychological findings to ::@:: Learning and teaching.
-- the effect of testing yourself after ten minutes, a day, and a week ::@:: It strengthens each memory and flattens the forgetting curve.
-- what a metacognitive checkpoint does ::@:: It lets a learner notice what they have not yet understood.
-- what expectancy–value theory says about engagement ::@:: People engage when they expect to succeed and find the task worthwhile.
-- what the behavioral side of educational psychology works on ::@:: Observable behavior, which praise, badges, or gentle corrections can reinforce or extinguish.
-- what unpredictable praise achieves ::@:: Unpredictable praise keeps effort high.
-- what overrewarding can do ::@:: Overrewarding can backfire.
-- how readiness constrains the order of teaching ::@:: The prefrontal cortex cannot handle heavy abstraction until the mid-teens, so concrete models come before algebra.
-- what peer modelling adds to learning ::@:: Watching a classmate work a problem builds confidence and shows a concrete path to the answer.
+- what educational psychology applies psychological findings to ::@:: Learning and teaching. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the effect of testing yourself after ten minutes, a day, and a week ::@:: It strengthens each memory and flattens the forgetting curve. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a metacognitive checkpoint does ::@:: It lets a learner notice what they have not yet understood. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what expectancy–value theory says about engagement ::@:: People engage when they expect to succeed and find the task worthwhile. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the behavioral side of educational psychology works on ::@:: Observable behavior, which praise, badges, or gentle corrections can reinforce or extinguish. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what unpredictable praise achieves ::@:: Unpredictable praise keeps effort high. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what overrewarding can do ::@:: Overrewarding can backfire. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how readiness constrains the order of teaching ::@:: The prefrontal cortex cannot handle heavy abstraction until the mid-teens, so concrete models come before algebra. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what peer modelling adds to learning ::@:: Watching a classmate work a problem builds confidence and shows a concrete path to the answer. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## studying psychology
 
@@ -327,18 +327,18 @@ Women are 76 percent of new psychology doctorates and 74 percent of early-career
 
 Flashcards for this section are as follows:
 
-- which reasons to study psychology are about understanding people ::@:: To understand ourselves, and to understand other people and groups.
-- reason to study psychology: influence ::@:: To influence others more effectively, as in socializing children or motivating employees.
-- reason to study psychology: helping others ::@:: To help others and improve the world, as through effective psychotherapy.
-- reason to study psychology: a profession ::@:: To gain a skill that leads to a profession such as social work or teaching.
-- reason to study psychology: evaluating claims ::@:: To evaluate research claims they hear or read about.
-- the intrinsic reason to study psychology ::@:: The subject is interesting, challenging, and fun in its own right.
-- the practical need psychology meets in society ::@:: Much of what society has to solve turns on the mind and behavior.
-- the four sectors that employ psychology graduates ::@:: Education institutions, community, social, and personal services, commerce and industry, and the civil service.
-- what psychology graduates are trained in ::@:: They are trained in both technical and soft skills.
-- women's share of new psychology doctorates and of early-career psychologists ::@:: 76 percent and 74 percent.
-- women's share of the psychology workforce ::@:: 53 percent.
-- how the share of psychology PhDs awarded to men changed between 1975 and 2008 ::@:: It fell from nearly 70 percent to less than 30 percent.
+- which reasons to study psychology are about understanding people ::@:: To understand ourselves, and to understand other people and groups. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- reason to study psychology: influence ::@:: To influence others more effectively, as in socializing children or motivating employees. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- reason to study psychology: helping others ::@:: To help others and improve the world, as through effective psychotherapy. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- reason to study psychology: a profession ::@:: To gain a skill that leads to a profession such as social work or teaching. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- reason to study psychology: evaluating claims ::@:: To evaluate research claims they hear or read about. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the intrinsic reason to study psychology ::@:: The subject is interesting, challenging, and fun in its own right. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the practical need psychology meets in society ::@:: Much of what society has to solve turns on the mind and behavior. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the four sectors that employ psychology graduates ::@:: Education institutions, community, social, and personal services, commerce and industry, and the civil service. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what psychology graduates are trained in ::@:: They are trained in both technical and soft skills. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- women's share of new psychology doctorates and of early-career psychologists ::@:: 76 percent and 74 percent. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- women's share of the psychology workforce ::@:: 53 percent. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how the share of psychology PhDs awarded to men changed between 1975 and 2008 ::@:: It fell from nearly 70 percent to less than 30 percent. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ### aging and dementia
 
@@ -381,13 +381,13 @@ A depressed mood is sometimes normal, as after the loss of a loved one. It calls
 
 Flashcards for this section are as follows:
 
-- how many teenagers have a mental disorder ::@:: More than 45 percent.
-- how many teenagers have a severe mental illness ::@:: One in five.
-- what suicide is for people aged 10 to 24 ::@:: The second leading cause of death.
-- what mental illness is ::@:: A disorder of brain function arising from complex interactions between a person's genes and their environment.
-- how mental illness varies across cultures and socio-economic groups ::@:: It occurs at similar rates in every culture and socio-economic group.
-- when a depressed mood calls for professional care ::@:: When it persists and gets in the way of daily functioning.
-- why early identification of mental illness matters ::@:: Effective treatment prevents future disability.
+- how many teenagers have a mental disorder ::@:: More than 45 percent. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how many teenagers have a severe mental illness ::@:: One in five. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what suicide is for people aged 10 to 24 ::@:: The second leading cause of death. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what mental illness is ::@:: A disorder of brain function arising from complex interactions between a person's genes and their environment. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how mental illness varies across cultures and socio-economic groups ::@:: It occurs at similar rates in every culture and socio-economic group. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- when a depressed mood calls for professional care ::@:: When it persists and gets in the way of daily functioning. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why early identification of mental illness matters ::@:: Effective treatment prevents future disability. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## references
 

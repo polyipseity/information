@@ -18,10 +18,10 @@ A longitudinal design suits questions about development over the lifespan and wh
 
 Flashcards for this section are as follows:
 
-- what a longitudinal study repeats ::@:: A longitudinal study measures the same variables in the same people again and again.
-- how long a longitudinal study runs ::@:: From a few weeks to decades.
-- what measuring the same people repeatedly buys ::@:: You can tell change inside one person from a difference between two groups.
-- the questions a longitudinal design answers ::@:: Development over the lifespan, and which risk factors come before a disorder.
+- what a longitudinal study repeats ::@:: A longitudinal study measures the same variables in the same people again and again. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how long a longitudinal study runs ::@:: From a few weeks to decades. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what measuring the same people repeatedly buys ::@:: You can tell change inside one person from a difference between two groups. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the questions a longitudinal design answers ::@:: Development over the lifespan, and which risk factors come before a disorder. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## change against a cross-sectional comparison
 
@@ -33,10 +33,10 @@ Such a comparison is a cross-sectional design. It measures each group once, so i
 
 Flashcards for this section are as follows:
 
-- what a cross-sectional gap is unable to separate ::@:: A cross-sectional gap holds what changed together with the differences the groups already had.
-- what a cross-sectional design does ::@:: It measures each group once, comparing an older group with a younger one.
-- what the two-decade study of more than 20,000 people found about marriage ::@:: Those who went on to marry were already slightly happier than their peers before marrying.
-- what a longitudinal design uses instead of a comparison group ::@:: The participants themselves, each their own comparison from a common starting point.
+- what a cross-sectional gap is unable to separate ::@:: A cross-sectional gap holds what changed together with the differences the groups already had. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a cross-sectional design does ::@:: It measures each group once, comparing an older group with a younger one. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the two-decade study of more than 20,000 people found about marriage ::@:: Those who went on to marry were already slightly happier than their peers before marrying. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a longitudinal design uses instead of a comparison group ::@:: The participants themselves, each their own comparison from a common starting point. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## what makes it hard
 
@@ -50,14 +50,14 @@ Tracking participants for years costs far more than a one-off survey. It takes s
 
 Flashcards for this section are as follows:
 
-- the part of a longitudinal design that is hard ::@:: Finding the same people again for every wave is the hard part of a longitudinal design.
-- what tracking the same people involves ::@:: Finding each participant again, reaching them, and measuring them all over.
-- the name for participants dropping out of a study over time ::@:: Attrition.
-- why attrition threatens a longitudinal design ::@:: Whoever is left is no longer a random sample of the people who started.
-- what attrition decides ::@:: How much the design can still show.
-- what a longitudinal design costs against a one-off survey ::@:: Far more, because the same participants have to be tracked for years.
-- what sustained funding and trained staff are for ::@:: Following thousands of people for years.
-- what a method that changes between waves leaves behind ::@:: Two different measurements stitched together.
+- the part of a longitudinal design that is hard ::@:: Finding the same people again for every wave is the hard part of a longitudinal design. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what tracking the same people involves ::@:: Finding each participant again, reaching them, and measuring them all over. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the name for participants dropping out of a study over time ::@:: Attrition. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why attrition threatens a longitudinal design ::@:: Whoever is left is no longer a random sample of the people who started. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what attrition decides ::@:: How much the design can still show. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a longitudinal design costs against a one-off survey ::@:: Far more, because the same participants have to be tracked for years. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what sustained funding and trained staff are for ::@:: Following thousands of people for years. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a method that changes between waves leaves behind ::@:: Two different measurements stitched together. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## references
 

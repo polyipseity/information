@@ -20,8 +20,8 @@ Project 5 puts one particle into one square potential well and reads its energy 
 
 Flashcards for this section are as follows:
 
-- overview: what project 5 measures and compares ::@:: The energy levels of a finite square well at five widths, against the levels an infinite square well of the same widths would hold.
-- the difference the project turns on ::@:: A finite barrier binds the particle more weakly than infinite walls of the same width, and that shortfall is what the comparison exposes.
+- overview: what project 5 measures and compares ::@:: The energy levels of a finite square well at five widths, against the levels an infinite square well of the same widths would hold. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the difference the project turns on ::@:: A finite barrier binds the particle more weakly than infinite walls of the same width, and that shortfall is what the comparison exposes. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## energy levels against width
 
@@ -33,9 +33,9 @@ The ideal reference is the infinite square well, whose levels are $E_n = n^2h^2/
 
 Flashcards for this section are as follows:
 
-- overview: the sweep project 5 records, widths $L$ from $0.10$ to $0.50\ \text{nm}$ ::@:: One square well at the tallest barrier, widths from $0.10$ to $0.50\ \text{nm}$, every bound level recorded and $E_1$ plotted against the width.
-- the levels of an infinite square well of width $L$ ::@:: $E_n = n^2h^2/(8mL^2)$, so the ground state falls as $1/L^2$ when the well widens.
-- narrowing an infinite square well from $0.50$ to $0.10\ \text{nm}$: what happens to its ground-state energy ::@:: It rises twenty-five-fold, since $E_1 \propto 1/L^2$ and the width shrank by a factor of five.
+- overview: the sweep project 5 records, widths $L$ from $0.10$ to $0.50\ \text{nm}$ ::@:: One square well at the tallest barrier, widths from $0.10$ to $0.50\ \text{nm}$, every bound level recorded and $E_1$ plotted against the width. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the levels of an infinite square well of width $L$ ::@:: $E_n = n^2h^2/(8mL^2)$, so the ground state falls as $1/L^2$ when the well widens. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- narrowing an infinite square well from $0.50$ to $0.10\ \text{nm}$: what happens to its ground-state energy ::@:: It rises twenty-five-fold, since $E_1 \propto 1/L^2$ and the width shrank by a factor of five. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## finite barrier against infinite walls
 
@@ -47,7 +47,7 @@ A finite well also binds only finitely many levels, because every bound level mu
 
 Flashcards for this section are as follows:
 
-- overview: how the finite well's levels $E_n$ stand against the infinite well's at the same width $L$ ::@:: Lower at every width, because the wave function leaks into the barrier over a penetration depth $\delta$ and the particle is effectively confined across a box wider than $L$.
-- the penetration depth of a particle of energy $E$ into a barrier of height $V_0$ ::@:: $\delta = \hbar/\sqrt{2m(V_0 - E)}$: the distance over which the wave function decays outside the well.
-- why a finite well supports only finitely many bound levels $E_n$ ::@:: Every bound level lies below the barrier height $V_0$, while the infinite well's levels $n^2h^2/(8mL^2)$ climb without ceiling.
-- as a finite well of width $L$ narrows: how its levels shift against the infinite-well values ::@:: The fractional shortfall grows, since the penetration depth $\delta$ is fixed by the barrier and claims a larger share of a narrower well.
+- overview: how the finite well's levels $E_n$ stand against the infinite well's at the same width $L$ ::@:: Lower at every width, because the wave function leaks into the barrier over a penetration depth $\delta$ and the particle is effectively confined across a box wider than $L$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the penetration depth of a particle of energy $E$ into a barrier of height $V_0$ ::@:: $\delta = \hbar/\sqrt{2m(V_0 - E)}$: the distance over which the wave function decays outside the well. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why a finite well supports only finitely many bound levels $E_n$ ::@:: Every bound level lies below the barrier height $V_0$, while the infinite well's levels $n^2h^2/(8mL^2)$ climb without ceiling. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- as a finite well of width $L$ narrows: how its levels shift against the infinite-well values ::@:: The fractional shortfall grows, since the penetration depth $\delta$ is fixed by the barrier and claims a larger share of a narrower well. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->

@@ -18,7 +18,7 @@ The four question sets covered the psychology of learning: classical conditionin
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Four question sets, on classical conditioning, extinction and blocking, instrumental conditioning, and observational learning.
+- overview ::@:: Four question sets, on classical conditioning, extinction and blocking, instrumental conditioning, and observational learning. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## classical conditioning
 
@@ -56,13 +56,13 @@ A conditioned compensatory response runs in the opposite direction to the uncond
 
 Flashcards for this section are as follows:
 
-- the four terms a classical-conditioning answer has to name ::@:: The unconditioned stimulus, the unconditioned response, the conditioned stimulus, and the conditioned response.
-- the shape of a taste aversion ::@:: The food becomes the cue because it was present just before the illness, and the brain cannot rule the two apart.
-- the two things that separate a phobia from an ordinary aversion ::@:: It can follow a single intense pairing, and it generalises, so one dog becomes all dogs.
-- when the compensatory response fires ::@:: The cues are present and the drug has not arrived yet.
-- direction a conditioned compensatory response runs in ::@:: Opposite to the unconditioned response, so morphine cues make a person more sensitive to withdrawal pain rather than less.
-- the three differences a prepared association has ::@:: It is fast, it is selective, and it ignores timing.
-- threats a prepared fear forms for easily ::@:: Heights, darkness, and snakes, unlike cars and electrical outlets, which our ancestors did not evolve around.
+- the four terms a classical-conditioning answer has to name ::@:: The unconditioned stimulus, the unconditioned response, the conditioned stimulus, and the conditioned response. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the shape of a taste aversion ::@:: The food becomes the cue because it was present just before the illness, and the brain cannot rule the two apart. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the two things that separate a phobia from an ordinary aversion ::@:: It can follow a single intense pairing, and it generalises, so one dog becomes all dogs. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- when the compensatory response fires ::@:: The cues are present and the drug has not arrived yet. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- direction a conditioned compensatory response runs in ::@:: Opposite to the unconditioned response, so morphine cues make a person more sensitive to withdrawal pain rather than less. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the three differences a prepared association has ::@:: It is fast, it is selective, and it ignores timing. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- threats a prepared fear forms for easily ::@:: Heights, darkness, and snakes, unlike cars and electrical outlets, which our ancestors did not evolve around. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## extinction and blocking
 
@@ -98,15 +98,15 @@ Prediction error is the difference between the expected outcome and the actual o
 
 Flashcards for this section are as follows:
 
-- what separates extinction, spontaneous recovery, and renewal ::@:: What brings the extinguished response back: nothing, the passage of time, or a change of context.
-- what spontaneous recovery shows about extinction ::@:: Extinction suppresses the learned association rather than erasing it.
-- how strong a recovered response is ::@:: Usually weaker than the original, and it fades quickly once the CS keeps appearing without the US.
-- how spontaneous recovery differs from renewal ::@:: Spontaneous recovery is driven by the passage of time; renewal is driven by a change in environment.
-- the three phases of the driving phobia ::@:: Acquisition on the highway, extinction on local streets near home, and renewal back on the highway.
-- what renewal shows about extinction ::@:: Extinction inhibits the learned association, and the inhibition is tied to the context where the extinction happened.
-- why the second cue in the boss's office stays neutral ::@:: It adds no new predictive information, and conditioning depends on prediction error rather than on co-occurrence.
-- what attention does in conditioning ::@:: It focuses learning on the cues that best predict the outcome and leaves redundant ones alone.
-- why a pairing alone is not enough to condition ::@:: A pairing that produces no surprise is a pairing nobody attends to.
+- what separates extinction, spontaneous recovery, and renewal ::@:: What brings the extinguished response back: nothing, the passage of time, or a change of context. <!--SR:!fsrs,2026-11-10T00:10:00.000Z,0,2.3065,2.11810397,1,1,0,1,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what spontaneous recovery shows about extinction ::@:: Extinction suppresses the learned association rather than erasing it. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how strong a recovered response is ::@:: Usually weaker than the original, and it fades quickly once the CS keeps appearing without the US. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how spontaneous recovery differs from renewal ::@:: Spontaneous recovery is driven by the passage of time; renewal is driven by a change in environment. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the three phases of the driving phobia ::@:: Acquisition on the highway, extinction on local streets near home, and renewal back on the highway. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what renewal shows about extinction ::@:: Extinction inhibits the learned association, and the inhibition is tied to the context where the extinction happened. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why the second cue in the boss's office stays neutral ::@:: It adds no new predictive information, and conditioning depends on prediction error rather than on co-occurrence. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what attention does in conditioning ::@:: It focuses learning on the cues that best predict the outcome and leaves redundant ones alone. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why a pairing alone is not enough to condition ::@:: A pairing that produces no surprise is a pairing nobody attends to. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## instrumental conditioning
 
@@ -142,11 +142,11 @@ The two conditionings are chained rather than competing, and a workout playlist 
 
 Flashcards for this section are as follows:
 
-- what a behaviour is driven by ::@:: The value of the reward to that person at that moment, not availability alone.
-- what the association becomes in a habit ::@:: Stimulus and response, so the cue alone triggers the act.
-- what makes a behaviour a habit rather than a goal-directed action ::@:: It survives an outcome that has been devalued.
-- the test for a habit ::@:: Insensitivity to the current goal, as when a driver takes the weekday route to work on a Saturday when the goal is the grocery store.
-- how classical and instrumental conditioning relate ::@:: Classical conditioning gives a cue its motivational meaning, and instrumental conditioning strengthens the voluntary action that contacts the reward.
+- what a behaviour is driven by ::@:: The value of the reward to that person at that moment, not availability alone. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the association becomes in a habit ::@:: Stimulus and response, so the cue alone triggers the act. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what makes a behaviour a habit rather than a goal-directed action ::@:: It survives an outcome that has been devalued. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the test for a habit ::@:: Insensitivity to the current goal, as when a driver takes the weekday route to work on a Saturday when the goal is the grocery store. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how classical and instrumental conditioning relate ::@:: Classical conditioning gives a cue its motivational meaning, and instrumental conditioning strengthens the voluntary action that contacts the reward. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## observational learning
 
@@ -186,8 +186,8 @@ A review committee answers one question: when children are exposed to aggression
 
 Flashcards for this section are as follows:
 
-- the three axes that separate the two approaches ::@:: What they study, how they explain behaviour, and how they use observable evidence.
-- vicarious reinforcement ::@:: A behaviour increases after seeing a model rewarded for it, and decreases after seeing a model punished for it.
-- the four processes in imitation ::@:: Attention, retention, reproduction or initiation, and motivation.
-- the four factors behind whether a model is imitated ::@:: Who the model is, what happens to the model, whether the observer can do it, and whether the observer wants the same outcome.
-- the criticism of consent ::@:: Informed consent was missing, because young children cannot understand the study or advocate themselves to stop, and they have no choice.
+- the three axes that separate the two approaches ::@:: What they study, how they explain behaviour, and how they use observable evidence. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- vicarious reinforcement ::@:: A behaviour increases after seeing a model rewarded for it, and decreases after seeing a model punished for it. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the four processes in imitation ::@:: Attention, retention, reproduction or initiation, and motivation. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the four factors behind whether a model is imitated ::@:: Who the model is, what happens to the model, whether the observer can do it, and whether the observer wants the same outcome. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the criticism of consent ::@:: Informed consent was missing, because young children cannot understand the study or advocate themselves to stop, and they have no choice. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->

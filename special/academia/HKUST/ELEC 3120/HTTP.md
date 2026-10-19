@@ -30,9 +30,9 @@ The server keeps nothing about a client between requests. HTTP has been stateles
 
 Flashcards for this section are as follows:
 
-- who starts the exchange? ::@:: The client. The server is always on and well known, and each request is answered before the next one goes out
-- does the server remember a client between requests? ::@:: No, and it never has: HTTP has been stateless since 1.0
-- why is statelessness worth having? ::@:: The server has nothing to rebuild between requests, so one server can handle a high request rate
+- who starts the exchange? ::@:: The client. The server is always on and well known, and each request is answered before the next one goes out <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- does the server remember a client between requests? ::@:: No, and it never has: HTTP has been stateless since 1.0 <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why is statelessness worth having? ::@:: The server has nothing to rebuild between requests, so one server can handle a high request rate <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ### state management
 
@@ -45,9 +45,9 @@ When applications need state (shopping carts, user profiles, authentication), it
 
 Flashcards for this section are as follows:
 
-- state management ::@:: Persistent state is stored on the client via cookies or on the server via databases
-- client-side cookies ::@:: The browser holds the identifier or state and returns it with each request
-- server-side databases ::@:: The server holds client-related information and looks it up on a request that carries a cookie
+- state management ::@:: Persistent state is stored on the client via cookies or on the server via databases <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- client-side cookies ::@:: The browser holds the identifier or state and returns it with each request <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- server-side databases ::@:: The server holds client-related information and looks it up on a request that carries a cookie <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## request and response messages
 
@@ -63,8 +63,8 @@ Flashcards for this section are as follows:
 
 - HTTP request message / structure ::@:: A request line (method, resource, protocol version), header lines, an optional body, and a blank CRLF separator <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - HTTP response message / structure ::@:: A status line (protocol version, status code, status phrase), response headers, and an optional body <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
-- `Host` header ::@:: Mandatory in every HTTP 1.1 request, since one address serves many domain names
-- where does a message state the HTTP version? ::@:: In the request line of a request, and in the status line of a response
+- `Host` header ::@:: Mandatory in every HTTP 1.1 request, since one address serves many domain names <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- where does a message state the HTTP version? ::@:: In the request line of a request, and in the status line of a response <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## persistent connections
 
@@ -76,9 +76,9 @@ HTTP 1.0 opens a new TCP connection per object: one RTT to initiate the connecti
 
 Flashcards for this section are as follows:
 
-- page load time / 100 ms threshold ::@:: 100 ms is the typical limit of human perception; an Amazon study found every additional 100 ms of page load time costs 1% in profit
-- RTT (round-trip time) ::@:: The time for a small packet to travel from client to server and back
-- HTTP 1.0 response time: Given one object of known size, how many RTTs does HTTP 1.0 need? <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> ::@:: $2 \times \text{RTT} + \text{file transmission time}$, because one RTT opens the TCP connection and another carries the request and the first response bytes
+- page load time / 100 ms threshold ::@:: 100 ms is the typical limit of human perception; an Amazon study found every additional 100 ms of page load time costs 1% in profit <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- RTT (round-trip time) ::@:: The time for a small packet to travel from client to server and back <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- HTTP 1.0 response time: Given one object of known size, how many RTTs does HTTP 1.0 need? <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> ::@:: $2 \times \text{RTT} + \text{file transmission time}$, because one RTT opens the TCP connection and another carries the request and the first response bytes <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ### keep-alive in HTTP 1.0
 
@@ -88,8 +88,8 @@ HTTP 1.0 could reuse a connection, but only if both ends agreed to it. The clien
 
 Flashcards for this section are as follows:
 
-- HTTP 1.0 / `Connection: Keep-Alive` ::@:: Reuse had to be asked for and agreed to, and the two ends disagreed about when to stop, so nobody used it
-- HTTP 1.0 / page cost: A page has $n$ small objects and the connection is not persistent. How many RTTs? ::@:: $3n$, one new TCP connection for every object
+- HTTP 1.0 / `Connection: Keep-Alive` ::@:: Reuse had to be asked for and agreed to, and the two ends disagreed about when to stop, so nobody used it <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- HTTP 1.0 / page cost: A page has $n$ small objects and the connection is not persistent. How many RTTs? ::@:: $3n$, one new TCP connection for every object <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ### persistence as the default in HTTP 1.1
 
@@ -99,9 +99,9 @@ HTTP 1.1 dropped the negotiation and made the connection persistent by default. 
 
 Flashcards for this section are as follows:
 
-- HTTP 1.1 / page cost: A page has $n$ small objects on one persistent connection. How many RTTs? ::@:: $n + 2$, against $3n$ without persistence, since the handshake is paid once per connection
-- when is the TCP handshake paid under HTTP 1.1? ::@:: Once per connection, not once per object
-- who closes a persistent connection? ::@:: Either side, when it is finished with it
+- HTTP 1.1 / page cost: A page has $n$ small objects on one persistent connection. How many RTTs? ::@:: $n + 2$, against $3n$ without persistence, since the handshake is paid once per connection <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- when is the TCP handshake paid under HTTP 1.1? ::@:: Once per connection, not once per object <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- who closes a persistent connection? ::@:: Either side, when it is finished with it <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## pipelining
 
@@ -113,9 +113,9 @@ Pipelining works well when everything is ready at once. It falls apart when one 
 
 Flashcards for this section are as follows:
 
-- what is pipelining, and which version added it? ::@:: Writing several requests to one connection without waiting for the answers, added in HTTP 1.1; the server answers in request order
-- pipelining / round trips: $n$ requests are pipelined on one connection. How many round trips? ::@:: One, for the whole batch, not one per request
-- what goes wrong with pipelining? ::@:: Responses keep request order, so a slow object holds up the ready ones behind it
+- what is pipelining, and which version added it? ::@:: Writing several requests to one connection without waiting for the answers, added in HTTP 1.1; the server answers in request order <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- pipelining / round trips: $n$ requests are pipelined on one connection. How many round trips? ::@:: One, for the whole batch, not one per request <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what goes wrong with pipelining? ::@:: Responses keep request order, so a slow object holds up the ready ones behind it <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 <!-- check: ignore-next-line[header_style]: HTTP is a proper noun -->
 ## HTTP/2
@@ -130,11 +130,11 @@ TCP still hands bytes over in order. A lost packet holds up every other stream i
 
 Flashcards for this section are as follows:
 
-- what does HTTP/2 put on the wire? ::@:: Binary frames instead of the text message, each frame carrying the stream ID of the request it belongs to
-- how do HTTP/2 streams clear the response queue? ::@:: Many requests share one persistent connection, and a response can be written before an earlier one is ready
-- how are HTTP/2 streams prioritized? ::@:: The client marks which streams matter most, and the server schedules its work to match
-- how does HTTP/2 shrink the header cost? ::@:: HPACK compresses the repeated header block that HTTP 1.1 sent on every request
-- what is still wrong with HTTP/2? ::@:: It runs on TCP, which hands bytes over in order, so one lost packet blocks every stream at Layer 4
+- what does HTTP/2 put on the wire? ::@:: Binary frames instead of the text message, each frame carrying the stream ID of the request it belongs to <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how do HTTP/2 streams clear the response queue? ::@:: Many requests share one persistent connection, and a response can be written before an earlier one is ready <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how are HTTP/2 streams prioritized? ::@:: The client marks which streams matter most, and the server schedules its work to match <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how does HTTP/2 shrink the header cost? ::@:: HPACK compresses the repeated header block that HTTP 1.1 sent on every request <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what is still wrong with HTTP/2? ::@:: It runs on TCP, which hands bytes over in order, so one lost packet blocks every stream at Layer 4 <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 <!-- check: ignore-next-line[header_style]: HTTP is a proper noun -->
 ## HTTP/3
@@ -147,10 +147,10 @@ That clears both kinds of head-of-line blocking. Nothing waits on a sibling stre
 
 Flashcards for this section are as follows:
 
-- what does HTTP/3 run on? ::@:: QUIC over UDP, where each stream is reliable on its own, so a lost packet on one stream does not block the others
-- how do HTTP/2 and HTTP/3 differ on head-of-line blocking? ::@:: HTTP/2 clears the Layer 7 queue with streams and keeps the Layer 4 one over TCP; HTTP/3 clears both by running on QUIC
-- what is QUIC? ::@:: A multiplexed transport over UDP, RFC 9000 in 2021, where each stream is reliable on its own
-- what does HTTP/3 inherit from HTTP/2? ::@:: The persistent connection and the out-of-order streams, so both are true of 2.0 and 3.0
+- what does HTTP/3 run on? ::@:: QUIC over UDP, where each stream is reliable on its own, so a lost packet on one stream does not block the others <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how do HTTP/2 and HTTP/3 differ on head-of-line blocking? ::@:: HTTP/2 clears the Layer 7 queue with streams and keeps the Layer 4 one over TCP; HTTP/3 clears both by running on QUIC <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what is QUIC? ::@:: A multiplexed transport over UDP, RFC 9000 in 2021, where each stream is reliable on its own <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what does HTTP/3 inherit from HTTP/2? ::@:: The persistent connection and the out-of-order streams, so both are true of 2.0 and 3.0 <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## version comparison
 
@@ -175,11 +175,11 @@ The short version: statelessness from 1.0, persistent connections and pipelining
 
 Flashcards for this section are as follows:
 
-- a property shows up in several versions; which one is the answer? ::@:: The earliest version that has it, even when the later ones keep it
-- which version first has head-of-line blocking? ::@:: HTTP 1.1, where pipelined responses keep request order so a large object holds up the small ones behind it. 1.0 gives every object its own connection, so nothing queues
-- which version opens a new TCP connection for every request? ::@:: HTTP 1.0. 1.1, 2.0, and 3.0 reuse one connection
-- which version multiplexes prioritized streams over one TCP connection? ::@:: HTTP 2.0. 3.0 keeps the multiplexing, but runs it over QUIC
-- which version made the persistent connection the default? ::@:: HTTP 1.1, where the TCP handshake is paid once per connection rather than once per object
-- which version first had a stateless server? ::@:: HTTP 1.0, and every version after it. An application that needs state keeps it elsewhere
-- which version added pipelining? ::@:: HTTP 1.1, where several requests are written at once and cost one round trip for the batch
-- which version can answer two requests on one connection out of order? ::@:: HTTP 2.0, whose streams may be served in any order. 3.0 keeps it
+- a property shows up in several versions; which one is the answer? ::@:: The earliest version that has it, even when the later ones keep it <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- which version first has head-of-line blocking? ::@:: HTTP 1.1, where pipelined responses keep request order so a large object holds up the small ones behind it. 1.0 gives every object its own connection, so nothing queues <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- which version opens a new TCP connection for every request? ::@:: HTTP 1.0. 1.1, 2.0, and 3.0 reuse one connection <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- which version multiplexes prioritized streams over one TCP connection? ::@:: HTTP 2.0. 3.0 keeps the multiplexing, but runs it over QUIC <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- which version made the persistent connection the default? ::@:: HTTP 1.1, where the TCP handshake is paid once per connection rather than once per object <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- which version first had a stateless server? ::@:: HTTP 1.0, and every version after it. An application that needs state keeps it elsewhere <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- which version added pipelining? ::@:: HTTP 1.1, where several requests are written at once and cost one round trip for the batch <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- which version can answer two requests on one connection out of order? ::@:: HTTP 2.0, whose streams may be served in any order. 3.0 keeps it <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->

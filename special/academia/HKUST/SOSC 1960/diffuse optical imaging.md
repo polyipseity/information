@@ -15,9 +15,9 @@ Diffuse optical imaging infers brain activity by measuring changes in light. It 
 
 Flashcards for this section are as follows:
 
-- what diffuse optical imaging measures ::@:: Changes in light, directed into the brain as infrared light and measured as it comes back out.
-- why the light changes on its way through ::@:: Its intensity and the way it scatters shift as it passes through oxygenated blood, and again as it passes through active neurons.
-- what a diffuse optical imaging scan infers ::@:: Where and when brain activity happened, from the change in the light.
+- what diffuse optical imaging measures ::@:: Changes in light, directed into the brain as infrared light and measured as it comes back out. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why the light changes on its way through ::@:: Its intensity and the way it scatters shift as it passes through oxygenated blood, and again as it passes through active neurons. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a diffuse optical imaging scan infers ::@:: Where and when brain activity happened, from the change in the light. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## what it can reach
 
@@ -29,9 +29,9 @@ The equipment is the reason the method gets used at all. It is flexible, safe, a
 
 Flashcards for this section are as follows:
 
-- how deep diffuse optical imaging penetrates ::@:: One to three centimetres from the scalp surface, into the superficial layers of the cerebral cortex, meaning the layers nearest the scalp.
-- what is below the reach of diffuse optical imaging ::@:: Everything deeper than the superficial cortex, however the instrument is arranged.
-- what makes diffuse optical imaging usable outside a scanner ::@:: Flexible, safe, portable equipment, with nothing injected into the person.
+- how deep diffuse optical imaging penetrates ::@:: One to three centimetres from the scalp surface, into the superficial layers of the cerebral cortex, meaning the layers nearest the scalp. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what is below the reach of diffuse optical imaging ::@:: Everything deeper than the superficial cortex, however the instrument is arranged. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what makes diffuse optical imaging usable outside a scanner ::@:: Flexible, safe, portable equipment, with nothing injected into the person. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## the two readings
 
@@ -41,8 +41,8 @@ Set up to detect the oxygenation of the blood, the method has a low temporal res
 
 Flashcards for this section are as follows:
 
-- what diffuse optical imaging reads when set up for blood oxygenation ::@:: The blood supply, so its temporal resolution is low but comparable to functional magnetic resonance imaging and positron emission tomography.
-- what it reads when set up for active neurons ::@:: The neurons themselves, so it has both a high spatial and a high temporal resolution.
+- what diffuse optical imaging reads when set up for blood oxygenation ::@:: The blood supply, so its temporal resolution is low but comparable to functional magnetic resonance imaging and positron emission tomography. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what it reads when set up for active neurons ::@:: The neurons themselves, so it has both a high spatial and a high temporal resolution. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## references
 

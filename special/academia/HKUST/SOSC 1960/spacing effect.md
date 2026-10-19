@@ -16,8 +16,8 @@ The spacing effect is better retention when study is spread over several session
 
 Flashcards for this section are as follows:
 
-- the spacing effect ::@:: Better retention when study is spread over several sessions than when the same study time is massed into one session.
-- how a week of spaced study compares with cramming it the night before ::@:: Thirty minutes a day for a week beats the same half hour on the night before.
+- the spacing effect ::@:: Better retention when study is spread over several sessions than when the same study time is massed into one session. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how a week of spaced study compares with cramming it the night before ::@:: Thirty minutes a day for a week beats the same half hour on the night before. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## references
 

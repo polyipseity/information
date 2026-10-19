@@ -18,11 +18,11 @@ The scaled sample variance of a normal sample of size $n > 1$ is distributed as 
 
 Flashcards for this section are as follows:
 
-- which values the degrees of freedom $r$ of a chi-squared variable may take ::@:: Positive integers only.
-- how a chi-squared variable with $r$ degrees of freedom is built from standard normal variables ::@:: A sum of $r$ independent squared standard normal variables, so $r$ counts the terms.
-- for $X_1, \ldots, X_n$ i.i.d. from $N(\mu, \sigma^2)$, $n > 1$, the law of $\frac{(n - 1) S_{n-1}^2}{\sigma^2}$, where $S_{n-1}^2$ is the sample variance dividing the sum of squared deviations by $n - 1$ ::@:: $\chi^2(n - 1)$; the index is $n - 1$ rather than $n$.
-- for $X_1, \ldots, X_n$ i.i.d. from $N(\mu, \sigma^2)$, $n > 1$: does additivity of $\chi^2$ variables give the law of $\frac{(n - 1) S_{n-1}^2}{\sigma^2}$, where $S_{n-1}^2$ is the sample variance dividing the sum of squared deviations by $n - 1$ ::@:: No: the deviations from the sample mean are not independent of one another, and additivity needs independence.
-- the values a chi-squared variable can take ::@:: The positive half-line, because a member is a sum of squares and a square is never negative.
+- which values the degrees of freedom $r$ of a chi-squared variable may take ::@:: Positive integers only. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how a chi-squared variable with $r$ degrees of freedom is built from standard normal variables ::@:: A sum of $r$ independent squared standard normal variables, so $r$ counts the terms. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- for $X_1, \ldots, X_n$ i.i.d. from $N(\mu, \sigma^2)$, $n > 1$, the law of $\frac{(n - 1) S_{n-1}^2}{\sigma^2}$, where $S_{n-1}^2$ is the sample variance dividing the sum of squared deviations by $n - 1$ ::@:: $\chi^2(n - 1)$; the index is $n - 1$ rather than $n$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- for $X_1, \ldots, X_n$ i.i.d. from $N(\mu, \sigma^2)$, $n > 1$: does additivity of $\chi^2$ variables give the law of $\frac{(n - 1) S_{n-1}^2}{\sigma^2}$, where $S_{n-1}^2$ is the sample variance dividing the sum of squared deviations by $n - 1$ ::@:: No: the deviations from the sample mean are not independent of one another, and additivity needs independence. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the values a chi-squared variable can take ::@:: The positive half-line, because a member is a sum of squares and a square is never negative. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## squared standard normal
 
@@ -34,11 +34,11 @@ The condition $\sigma^2 > 0$ is required. At $\sigma^2 = 0$ the variable has no 
 
 Flashcards for this section are as follows:
 
-- for $X \sim N(\mu, \sigma^2)$ with $\sigma^2 > 0$, the law of $(X - \mu)^2 / \sigma^2$ ::@:: $\chi^2(1)$, because $(X - \mu)/\sigma$ is standard normal and the variable is its square.
-- for $X \sim N(\mu, \sigma^2)$, the condition on $\sigma^2$ that makes $(X - \mu)^2 / \sigma^2$ chi-squared ::@:: $\sigma^2 > 0$, so the standardization needs a normal variable that has spread.
-- why $\mu$ is subtracted in $(X - \mu)^2 / \sigma^2$ for $X \sim N(\mu, \sigma^2)$, $\sigma^2 > 0$ ::@:: The square then measures deviation from the center of the distribution rather than from zero.
-- why $(X - \mu)^2 / \sigma^2$ is divided by $\sigma^2$ for $X \sim N(\mu, \sigma^2)$, $\sigma^2 > 0$ ::@:: It removes the scale, so the law of the variable does not depend on the units the data are measured in.
-- at $\sigma^2 = 0$, what is $(X - \mu)^2 / \sigma^2$ for $X \sim N(\mu, \sigma^2)$ ::@:: Undefined: $X$ is then the constant $\mu$, and there is no variance to divide by.
+- for $X \sim N(\mu, \sigma^2)$ with $\sigma^2 > 0$, the law of $(X - \mu)^2 / \sigma^2$ ::@:: $\chi^2(1)$, because $(X - \mu)/\sigma$ is standard normal and the variable is its square. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- for $X \sim N(\mu, \sigma^2)$, the condition on $\sigma^2$ that makes $(X - \mu)^2 / \sigma^2$ chi-squared ::@:: $\sigma^2 > 0$, so the standardization needs a normal variable that has spread. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why $\mu$ is subtracted in $(X - \mu)^2 / \sigma^2$ for $X \sim N(\mu, \sigma^2)$, $\sigma^2 > 0$ ::@:: The square then measures deviation from the center of the distribution rather than from zero. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why $(X - \mu)^2 / \sigma^2$ is divided by $\sigma^2$ for $X \sim N(\mu, \sigma^2)$, $\sigma^2 > 0$ ::@:: It removes the scale, so the law of the variable does not depend on the units the data are measured in. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- at $\sigma^2 = 0$, what is $(X - \mu)^2 / \sigma^2$ for $X \sim N(\mu, \sigma^2)$ ::@:: Undefined: $X$ is then the constant $\mu$, and there is no variance to divide by. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 <!-- check: ignore-next-line[section_example_heading]: a matched pair of cases for the definition, kept together so the counterexample sits beside the definition it violates -->
 ### examples and counterexamples
@@ -70,9 +70,9 @@ Independence is what carries the theorem, because the law of a sum is not fixed 
 
 Flashcards for this section are as follows:
 
-- the sum of independent chi-squared variables $X_i \sim \chi^2(r_i)$, $i = 1, \ldots, k$ ::@:: $Y = \sum_{i=1}^{k} X_i \sim \chi^2(r_1 + \cdots + r_k)$: independent members add their indices.
-- the mean of a chi-squared variable with $r$ degrees of freedom ::@:: $r$, the index itself, because each of the $r$ squared standard normal terms has mean $1$.
-- the variance of a chi-squared variable with $r$ degrees of freedom ::@:: $2r$, twice the index, because each squared standard normal term has variance $2$.
-- the sum of two $\chi^2(1)$ variables that are the same variable, $X_1 = X_2 = W$ with $W \sim \chi^2(1)$: is the sum $\chi^2(2)$? ::@:: No, the sum is $2W$, a constant multiple of a member rather than a member, because the two summands are not independent.
-- the mean of a squared standard normal variable $Z^2$ for $Z \sim N(0, 1)$ ::@:: $1$, since the standard normal density gives $\frac{2}{\sqrt{2\pi}}\int_0^\infty z^2 e^{-z^2/2}\,dz = 1$ by integration by parts.
-- the variance of a squared standard normal variable $Z^2$ for $Z \sim N(0, 1)$ ::@:: $2$, the gap between $E[Z^4] = 3$ and the square of $E[Z^2] = 1$.
+- the sum of independent chi-squared variables $X_i \sim \chi^2(r_i)$, $i = 1, \ldots, k$ ::@:: $Y = \sum_{i=1}^{k} X_i \sim \chi^2(r_1 + \cdots + r_k)$: independent members add their indices. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the mean of a chi-squared variable with $r$ degrees of freedom ::@:: $r$, the index itself, because each of the $r$ squared standard normal terms has mean $1$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the variance of a chi-squared variable with $r$ degrees of freedom ::@:: $2r$, twice the index, because each squared standard normal term has variance $2$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the sum of two $\chi^2(1)$ variables that are the same variable, $X_1 = X_2 = W$ with $W \sim \chi^2(1)$: is the sum $\chi^2(2)$? ::@:: No, the sum is $2W$, a constant multiple of a member rather than a member, because the two summands are not independent. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the mean of a squared standard normal variable $Z^2$ for $Z \sim N(0, 1)$ ::@:: $1$, since the standard normal density gives $\frac{2}{\sqrt{2\pi}}\int_0^\infty z^2 e^{-z^2/2}\,dz = 1$ by integration by parts. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the variance of a squared standard normal variable $Z^2$ for $Z \sim N(0, 1)$ ::@:: $2$, the gap between $E[Z^4] = 3$ and the square of $E[Z^2] = 1$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->

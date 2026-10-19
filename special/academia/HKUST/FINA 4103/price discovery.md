@@ -82,8 +82,8 @@ A routable order arrives second. It is sent to whichever venue quotes the best p
 
 Flashcards for this section are as follows:
 
-- what a negative weighted price contribution records ::@:: That the order type pushed the price further away from the efficient price.
-- total contribution of the non-routable types against the routable ones ::@:: 115.43% against -15.43%.
-- share of taking volume and of contribution carried by the intermarket sweep ::@:: 35.69% of the volume and 90.32% of the contribution.
-- largest negative contribution in the table ::@:: The day limit order, at -13.78% on 16.37% of the taking volume.
-- which traders the evidence points to as the users of the non-routable orders ::@:: High-speed informed traders, who trade successfully on new information.
+- what a negative weighted price contribution records ::@:: That the order type pushed the price further away from the efficient price. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- total contribution of the non-routable types against the routable ones ::@:: 115.43% against -15.43%. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- share of taking volume and of contribution carried by the intermarket sweep ::@:: 35.69% of the volume and 90.32% of the contribution. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- largest negative contribution in the table ::@:: The day limit order, at -13.78% on 16.37% of the taking volume. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- which traders the evidence points to as the users of the non-routable orders ::@:: High-speed informed traders, who trade successfully on new information. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->

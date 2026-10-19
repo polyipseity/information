@@ -20,7 +20,7 @@ Video takes up most of the bytes on the Internet, and people watch more of it th
 
 Flashcards for this section are as follows:
 
-- what separates on-demand video from real-time video? ::@:: Whether the next bit has to exist before playback needs it. On-demand can wait. Real-time cannot.
+- what separates on-demand video from real-time video? ::@:: Whether the next bit has to exist before playback needs it. On-demand can wait. Real-time cannot. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## on-demand video
 
@@ -30,9 +30,9 @@ On-demand video is recorded in advance and played when the viewer wants it, film
 
 Flashcards for this section are as follows:
 
-- what falls under on-demand video? ::@:: Films, YouTube clips and TikToks.
-- what is an on-demand buffer, in one term? ::@:: A store of data fetched ahead of playback.
-- what is an on-demand client free to do, since nothing is ever late? ::@:: Fetch ahead of playback.
+- what falls under on-demand video? ::@:: Films, YouTube clips and TikToks. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what is an on-demand buffer, in one term? ::@:: A store of data fetched ahead of playback. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what is an on-demand client free to do, since nothing is ever late? ::@:: Fetch ahead of playback. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## real-time video
 
@@ -42,7 +42,7 @@ Real-time video is active communication, Skype and Zoom among them, played to th
 
 Flashcards for this section are as follows:
 
-- why is there no buffer in real-time video? ::@:: Because the content is produced as the conversation happens, so nothing can be fetched ahead of playback.
+- why is there no buffer in real-time video? ::@:: Because the content is produced as the conversation happens, so nothing can be fetched ahead of playback. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## live streaming
 
@@ -52,4 +52,4 @@ A news broadcast sits between the two. It is recorded in advance, like on-demand
 
 Flashcards for this section are as follows:
 
-- what gives a news broadcast the squeeze it is in? ::@:: Two rules pulling opposite ways: nothing has to be produced on the spot, and the viewer still cannot pause or skip ahead.
+- what gives a news broadcast the squeeze it is in? ::@:: Two rules pulling opposite ways: nothing has to be produced on the spot, and the viewer still cannot pause or skip ahead. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->

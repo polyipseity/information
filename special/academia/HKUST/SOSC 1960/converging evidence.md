@@ -18,13 +18,13 @@ You choose a method because it bears on the question. You do not choose it becau
 
 Flashcards for this section are as follows:
 
-- what sets the strength of a claim about how the brain works ::@:: No instrument measures the process directly, so a claim is only as strong as the independent methods agreeing with it.
-- what is not observable ::@:: Nothing inside a skull is directly observable.
-- why no single instrument settles a question about the brain ::@:: Each one measures something beside the process.
-- two things instruments actually read ::@:: The oxygen in the blood, and a voltage that started elsewhere and reached the scalp.
-- what a finding reported by several methods using different instruments is worth ::@:: It is worth more than the same finding reported twice with one instrument.
-- the question a researcher asks of a method ::@:: Which method bears on the question being asked.
-- what a research question also covers ::@:: What the other methods say about the same claim.
+- what sets the strength of a claim about how the brain works ::@:: No instrument measures the process directly, so a claim is only as strong as the independent methods agreeing with it. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what is not observable ::@:: Nothing inside a skull is directly observable. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why no single instrument settles a question about the brain ::@:: Each one measures something beside the process. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- two things instruments actually read ::@:: The oxygen in the blood, and a voltage that started elsewhere and reached the scalp. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a finding reported by several methods using different instruments is worth ::@:: It is worth more than the same finding reported twice with one instrument. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the question a researcher asks of a method ::@:: Which method bears on the question being asked. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a research question also covers ::@:: What the other methods say about the same claim. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## four routes into brain and cognition
 
@@ -34,9 +34,9 @@ Each of the four routes fails in its own way.
 
 Flashcards for this section are as follows:
 
-- the routes into brain and cognition ::@:: Measuring behaviour, imaging the living brain, studying deficits after brain damage, and running computational models.
-- how many routes into brain and cognition there are ::@:: There are four.
-- the reason the four routes are worth using together ::@:: Each route fails in a different way, so their agreement carries more weight than any single route.
+- the routes into brain and cognition ::@:: Measuring behaviour, imaging the living brain, studying deficits after brain damage, and running computational models. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how many routes into brain and cognition there are ::@:: There are four. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the reason the four routes are worth using together ::@:: Each route fails in a different way, so their agreement carries more weight than any single route. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ### measuring behaviour
 
@@ -46,14 +46,14 @@ Behaviour takes the least machinery and reaches the furthest. Accuracy is the pr
 
 Flashcards for this section are as follows:
 
-- what the three behavioural measures have in common ::@:: Accuracy, response time, and judgments each measure an internal process indirectly.
-- the three major behavioural measures ::@:: The three are accuracy, response time, and judgments given on a multi-point scale.
-- an example of an accuracy measure ::@:: The proportion of a word list a participant recalls.
-- an example of a response-time measure ::@:: The interval between a stimulus appearing and a key being pressed.
-- what a judgment measure is ::@:: A judgment measure is a rating the participant gives on a multi-point scale.
-- why every behavioural measure is indirect ::@:: It measures an output, and the process that produced the output can only be inferred.
-- where a behavioural measure calls for caution ::@:: At the inference from the output to the process behind it.
-- what a behavioural measure does to a claim about the mind ::@:: It constrains the claim without settling it.
+- what the three behavioural measures have in common ::@:: Accuracy, response time, and judgments each measure an internal process indirectly. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the three major behavioural measures ::@:: The three are accuracy, response time, and judgments given on a multi-point scale. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- an example of an accuracy measure ::@:: The proportion of a word list a participant recalls. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- an example of a response-time measure ::@:: The interval between a stimulus appearing and a key being pressed. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a judgment measure is ::@:: A judgment measure is a rating the participant gives on a multi-point scale. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why every behavioural measure is indirect ::@:: It measures an output, and the process that produced the output can only be inferred. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- where a behavioural measure calls for caution ::@:: At the inference from the output to the process behind it. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a behavioural measure does to a claim about the mind ::@:: It constrains the claim without settling it. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ### looking at the living brain
 
@@ -65,16 +65,16 @@ An area that lights up during a task is one whose activity is associated with th
 
 Flashcards for this section are as follows:
 
-- what limits a reading of a living brain's activity ::@:: Reading brain activity in a living person, limited by resolution, invasiveness, and cost.
-- what a method's spatial resolution measures ::@:: How precisely the method localizes the area producing a signal.
-- what a method's temporal resolution measures ::@:: How precisely the method tracks changes in activity over time.
-- why a method strong on one resolution is usually weak on the other ::@:: Some methods read a signal that reaches the sensor faster than others, a physical limit rather than a technical one.
-- what invasiveness measures about a method ::@:: How far a method has to go in putting a foreign substance into the brain.
-- what a method's cost covers ::@:: Both the equipment and each run.
-- the three living-brain methods compared here ::@:: Magnetic resonance imaging, electroencephalography, and magnetoencephalography.
-- what imaging gives rather than shows ::@:: A measurement, not a demonstration.
-- what activating a region during a task licenses ::@:: That the region's activity is associated with the task, not that the region produces it.
-- what decides which method to use ::@:: The resolution, invasiveness, and cost that suit the question.
+- what limits a reading of a living brain's activity ::@:: Reading brain activity in a living person, limited by resolution, invasiveness, and cost. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a method's spatial resolution measures ::@:: How precisely the method localizes the area producing a signal. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a method's temporal resolution measures ::@:: How precisely the method tracks changes in activity over time. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why a method strong on one resolution is usually weak on the other ::@:: Some methods read a signal that reaches the sensor faster than others, a physical limit rather than a technical one. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what invasiveness measures about a method ::@:: How far a method has to go in putting a foreign substance into the brain. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a method's cost covers ::@:: Both the equipment and each run. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the three living-brain methods compared here ::@:: Magnetic resonance imaging, electroencephalography, and magnetoencephalography. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what imaging gives rather than shows ::@:: A measurement, not a demonstration. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what activating a region during a task licenses ::@:: That the region's activity is associated with the task, not that the region produces it. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what decides which method to use ::@:: The resolution, invasiveness, and cost that suit the question. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ### deficits after brain damage
 
@@ -84,12 +84,12 @@ The evidence comes from patients with a known lesion. A region that does not wor
 
 Flashcards for this section are as follows:
 
-- what the lesion route is for ::@:: Studying the deficits that follow a known brain lesion to work out what a region contributes.
-- what brain damage shows that a signal cannot ::@:: It shows a deficit rather than a signal.
-- the three problems with lesion evidence ::@:: It is rare, irreproducible, and impossible to assign on purpose.
-- the first standard caution about brain-damaged patients ::@:: Whether the patients were typical before the damage.
-- the second standard caution ::@:: Whether a compensatory strategy is doing the work the missing region used to do.
-- the field built on studying deficits after brain damage ::@:: Cognitive neuropsychology.
+- what the lesion route is for ::@:: Studying the deficits that follow a known brain lesion to work out what a region contributes. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what brain damage shows that a signal cannot ::@:: It shows a deficit rather than a signal. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the three problems with lesion evidence ::@:: It is rare, irreproducible, and impossible to assign on purpose. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the first standard caution about brain-damaged patients ::@:: Whether the patients were typical before the damage. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the second standard caution ::@:: Whether a compensatory strategy is doing the work the missing region used to do. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the field built on studying deficits after brain damage ::@:: Cognitive neuropsychology. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ### computational modeling
 
@@ -99,12 +99,12 @@ A computational model writes a process as a program. When its performance tracks
 
 Flashcards for this section are as follows:
 
-- what a computational model can be put through that a person cannot ::@:: Writing a process as a program and running it, so it can be manipulated in ways no brain and no participant can be.
-- what a computational model is compared against ::@:: It is compared against the performance of a person on the same task.
-- what a model that performs similarly to a human licenses ::@:: Treating it as a candidate account of the human process.
-- what damaging a component of a model predicts ::@:: It predicts what the human should fail at.
-- the first advantage of modeling over a human subject ::@:: It gives an explanation rather than a correlation.
-- the second advantage ::@:: You can vary a factor inside it at will.
+- what a computational model can be put through that a person cannot ::@:: Writing a process as a program and running it, so it can be manipulated in ways no brain and no participant can be. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a computational model is compared against ::@:: It is compared against the performance of a person on the same task. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a model that performs similarly to a human licenses ::@:: Treating it as a candidate account of the human process. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what damaging a component of a model predicts ::@:: It predicts what the human should fail at. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the first advantage of modeling over a human subject ::@:: It gives an explanation rather than a correlation. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the second advantage ::@:: You can vary a factor inside it at will. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## what the agreement buys
 
@@ -114,11 +114,11 @@ An fMRI scan, a MEG recording, and the deficit profile of two lesion patients al
 
 Flashcards for this section are as follows:
 
-- what a claim gains when independent methods agree ::@:: Independent methods that agree make a stronger claim than one method reporting the same result twice.
-- the condition on a claim about a brain region ::@:: It has been reached by several instruments that do not share a failure mode.
-- why independence between methods is what makes agreement informative ::@:: One systematic error is unlikely to produce the same result in several instruments at once.
-- the strongest evidence for the role or function of a brain region ::@:: Similar findings from multiple studies that used different methods.
-- the claim most in need of a second method ::@:: A claim that rests on a single instrument.
+- what a claim gains when independent methods agree ::@:: Independent methods that agree make a stronger claim than one method reporting the same result twice. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the condition on a claim about a brain region ::@:: It has been reached by several instruments that do not share a failure mode. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why independence between methods is what makes agreement informative ::@:: One systematic error is unlikely to produce the same result in several instruments at once. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the strongest evidence for the role or function of a brain region ::@:: Similar findings from multiple studies that used different methods. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the claim most in need of a second method ::@:: A claim that rests on a single instrument. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## references
 

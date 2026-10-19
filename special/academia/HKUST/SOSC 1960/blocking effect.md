@@ -18,8 +18,8 @@ Interference is a prior association disrupting one that was learned. In blocking
 
 Flashcards for this section are as follows:
 
-- what blocking is ::@:: A cue that turns up before an event every time still acquires no association when something else already predicts the event.
-- how blocking differs from interference ::@:: Blocking stops the new association from forming. Interference is a prior association disrupting one that was learned.
+- what blocking is ::@:: A cue that turns up before an event every time still acquires no association when something else already predicts the event. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how blocking differs from interference ::@:: Blocking stops the new association from forming. Interference is a prior association disrupting one that was learned. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## the three phases
 
@@ -33,13 +33,13 @@ The second cue is easy to miss in the second phase, because it is familiar. In t
 
 Flashcards for this section are as follows:
 
-- the sequence a blocking experiment runs through ::@:: A first cue predicts the event, a second cue is added while the first keeps predicting, and the test finds no association to the second.
-- what happens in the first phase ::@:: A first cue is paired with the outcome until the organism responds to that cue alone.
-- what happens in the second phase ::@:: The first cue is still paired with the outcome. A second, previously neutral cue is presented on its own, just before the first.
-- what happens in the third phase ::@:: The second cue is presented alone. The first cue is tested in the same phase and still produces its response.
-- ![the three phases of a blocking experiment: a tone paired with food, a light before that pairing, and a test with both alone](attachments/classical_conditioning_blocking.svg) ::@:: Phase 1, a tone paired with food. Phase 2, a light before that pairing. The test, the light alone producing nothing while the tone still produces a response.
-- what makes the second cue easy to miss in the second phase ::@:: It is familiar, and the food never follows it alone.
-- why no association forms to the second cue ::@:: The first cue already predicted the outcome every time it appeared, so nothing was predicted to follow the second.
+- the sequence a blocking experiment runs through ::@:: A first cue predicts the event, a second cue is added while the first keeps predicting, and the test finds no association to the second. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what happens in the first phase ::@:: A first cue is paired with the outcome until the organism responds to that cue alone. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what happens in the second phase ::@:: The first cue is still paired with the outcome. A second, previously neutral cue is presented on its own, just before the first. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what happens in the third phase ::@:: The second cue is presented alone. The first cue is tested in the same phase and still produces its response. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- ![the three phases of a blocking experiment: a tone paired with food, a light before that pairing, and a test with both alone](attachments/classical_conditioning_blocking.svg) ::@:: Phase 1, a tone paired with food. Phase 2, a light before that pairing. The test, the light alone producing nothing while the tone still produces a response. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what makes the second cue easy to miss in the second phase ::@:: It is familiar, and the food never follows it alone. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why no association forms to the second cue ::@:: The first cue already predicted the outcome every time it appeared, so nothing was predicted to follow the second. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## prediction error and attention
 
@@ -53,13 +53,13 @@ Attention is a condition on learning, not a faculty the learner either has or la
 
 Flashcards for this section are as follows:
 
-- what must exist before an association can form ::@:: A prediction error, the chance that the conditioned stimulus will not bring the expected outcome.
-- how large the prediction error is when the expected outcome arrives on schedule ::@:: Zero, so there is nothing to attach.
-- which predictors a learner takes in ::@:: The most valid predictors of significant events, ignoring the rest.
-- what makes a predictor valid in this account ::@:: Its accuracy at predicting, not how often it is present.
-- what a redundant cue earns ::@:: Nothing, for turning up.
-- how attention is allocated across cues ::@:: In proportion to the surprise each cue generates.
-- what shows attention is a condition on learning rather than something the learner has or lacks ::@:: Preparedness, where an association forms on a cue that raises no surprise at all.
+- what must exist before an association can form ::@:: A prediction error, the chance that the conditioned stimulus will not bring the expected outcome. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how large the prediction error is when the expected outcome arrives on schedule ::@:: Zero, so there is nothing to attach. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- which predictors a learner takes in ::@:: The most valid predictors of significant events, ignoring the rest. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what makes a predictor valid in this account ::@:: Its accuracy at predicting, not how often it is present. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a redundant cue earns ::@:: Nothing, for turning up. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how attention is allocated across cues ::@:: In proportion to the surprise each cue generates. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what shows attention is a condition on learning rather than something the learner has or lacks ::@:: Preparedness, where an association forms on a cue that raises no surprise at all. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## a new manager's first announcement
 
@@ -71,14 +71,14 @@ Pairing the announcement with Jim predicts nothing new. Jim acquires no associat
 
 Flashcards for this section are as follows:
 
-- how the staff react when the new manager appears ::@:: Steve already predicts the pay-cut announcement, so pairing it with Jim blocks any association to Jim. The staff stay calm at the sight of the new manager.
-- the unconditioned stimulus in the new-manager example ::@:: The announcement that the company is making pay cuts.
-- the unconditioned response in the new-manager example ::@:: The staff's displeasure with the announcement.
-- the first conditioned stimulus in the new-manager example ::@:: Steve, who has given many unpopular announcements before.
-- the second conditioned stimulus in the new-manager example ::@:: Jim, the new manager, a neutral cue before the announcement.
-- the conditioned response in the new-manager example ::@:: Staff becoming upset at the sight of Steve.
-- what an announcement Jim makes while Steve is absent predicts ::@:: A surprise, because nothing in the room predicted it. The displeasure attaches to Jim instead.
-- what the new-manager example shows blocking is a claim about ::@:: Which cue is present when the event arrives, not which manager is more senior.
+- how the staff react when the new manager appears ::@:: Steve already predicts the pay-cut announcement, so pairing it with Jim blocks any association to Jim. The staff stay calm at the sight of the new manager. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the unconditioned stimulus in the new-manager example ::@:: The announcement that the company is making pay cuts. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the unconditioned response in the new-manager example ::@:: The staff's displeasure with the announcement. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the first conditioned stimulus in the new-manager example ::@:: Steve, who has given many unpopular announcements before. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the second conditioned stimulus in the new-manager example ::@:: Jim, the new manager, a neutral cue before the announcement. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the conditioned response in the new-manager example ::@:: Staff becoming upset at the sight of Steve. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what an announcement Jim makes while Steve is absent predicts ::@:: A surprise, because nothing in the room predicted it. The displeasure attaches to Jim instead. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the new-manager example shows blocking is a claim about ::@:: Which cue is present when the event arrives, not which manager is more senior. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## references
 

@@ -15,9 +15,9 @@ The misinformation effect is memory for an incident altered by the information i
 
 Flashcards for this section are as follows:
 
-- what the misinformation effect is ::@:: Memory for an incident altered by the information introduced when the incident is questioned, as in the classic car-accident slide experiment (Loftus et al., 1978).
-- the false presupposition in the car-accident question ::@:: The question asked whether another car passed the red car stopped in front of a stop sign, while the sign was a yield sign.
-- how misleading questions relate to interference ::@:: They implant memories, which makes them a type of retroactive interference.
+- what the misinformation effect is ::@:: Memory for an incident altered by the information introduced when the incident is questioned, as in the classic car-accident slide experiment (Loftus et al., 1978). <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the false presupposition in the car-accident question ::@:: The question asked whether another car passed the red car stopped in front of a stop sign, while the sign was a yield sign. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how misleading questions relate to interference ::@:: They implant memories, which makes them a type of retroactive interference. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## references
 

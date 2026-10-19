@@ -15,7 +15,7 @@ The photoelectric effect is the emission of electrons from a material when light
 Flashcards for this section are as follows:
 
 - the photoelectric effect: what it is ::@:: The emission of electrons from a material when light of sufficient frequency shines on it. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
-- the four ways an electron can leave a material ::@:: Light shining on it (the photoelectric effect), heat (thermionic emission), a fast particle striking it (secondary emission), and a strong external electric field pulling it out (field emission).
+- the four ways an electron can leave a material ::@:: Light shining on it (the photoelectric effect), heat (thermionic emission), a fast particle striking it (secondary emission), and a strong external electric field pulling it out (field emission). <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## historical background
 
@@ -30,8 +30,8 @@ Flashcards for this section are as follows:
 - the two observations before 1900, by Hertz and Hallwachs ::@:: Hertz's detector spark grew more vigorous under ultraviolet light in 1887, and Hallwachs found positive charges on a zinc plate in 1888, produced by electron emission. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - Thomson's 1898 finding ::@:: The number of emitted electrons varied with the intensity of the ultraviolet light. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - Lenard's systematic study: what he measured ::@:: The dependence of kinetic energy and the number of emitted electrons on the intensity and frequency of incident light. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
-- Millikan's 1916 photoelectric measurements on sodium: the threshold frequency ::@:: No photoelectrons below $4.39 \times 10^{14}\ \text{Hz}$, a wavelength of $683\ \text{nm}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- the slope of Millikan's 1916 line of maximum kinetic energy against light frequency ::@:: Planck's constant, $h = 4.1 \times 10^{-15}\ \text{eV}\cdot\text{s}$, in agreement with the value from black-body radiation. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- Millikan's 1916 photoelectric measurements on sodium: the threshold frequency ::@:: No photoelectrons below $4.39 \times 10^{14}\ \text{Hz}$, a wavelength of $683\ \text{nm}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the slope of Millikan's 1916 line of maximum kinetic energy against light frequency ::@:: Planck's constant, $h = 4.1 \times 10^{-15}\ \text{eV}\cdot\text{s}$, in agreement with the value from black-body radiation. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## experimental setup
 
@@ -54,10 +54,10 @@ Classical wave theory puts the electron's energy in the wave's intensity: bright
 
 Flashcards for this section are as follows:
 
-- classical prediction for kinetic energy: what it depends on ::@:: Light intensity.
-- classical theory and a threshold frequency: what it cannot do ::@:: It cannot produce one. Any frequency delivers energy given enough intensity, so classical theory has no cutoff below which nothing happens.
-- classical prediction at low intensity of $10^{-8}\ \text{W/m}^2$ on sodium: what should happen ::@:: A measurable waiting time before any electron escapes; classical theory gives about 15 years for a photoelectron of kinetic energy $1.00\ \text{eV}$.
-- classical prediction for the number of photoelectrons, against experiment ::@:: It rises with light intensity, and the measurements agree.
+- classical prediction for kinetic energy: what it depends on ::@:: Light intensity. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- classical theory and a threshold frequency: what it cannot do ::@:: It cannot produce one. Any frequency delivers energy given enough intensity, so classical theory has no cutoff below which nothing happens. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- classical prediction at low intensity of $10^{-8}\ \text{W/m}^2$ on sodium: what should happen ::@:: A measurable waiting time before any electron escapes; classical theory gives about 15 years for a photoelectron of kinetic energy $1.00\ \text{eV}$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- classical prediction for the number of photoelectrons, against experiment ::@:: It rises with light intensity, and the measurements agree. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## experimental results
 
@@ -85,11 +85,11 @@ Flashcards for this section are as follows:
 
 - Einstein's photon hypothesis: the energy of a single photon ::@:: $E = hf$, where $h$ is the Planck constant and $f$ is the frequency of the light. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - the photoelectric equation: maximum kinetic energy of a photoelectron ::@:: $K = hf - \Phi$, where $\Phi$ is the work function of the material. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
-- the energy-conservation balance behind the photoelectric equation: what the photon energy $hf$ splits into ::@:: The work function $\Phi$ paid to free the electron plus the kinetic energy $K$ it keeps, $hf = \Phi + K$.
-- the most energetic photoelectrons: where they are freed from, and their maximum kinetic energy $KE_{\text{max}}$ in terms of $hf$ and $\Phi$ ::@:: From the surface, with no energy spent travelling out of the metal, so $KE_{\text{max}} = hf - \Phi$.
+- the energy-conservation balance behind the photoelectric equation: what the photon energy $hf$ splits into ::@:: The work function $\Phi$ paid to free the electron plus the kinetic energy $K$ it keeps, $hf = \Phi + K$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the most energetic photoelectrons: where they are freed from, and their maximum kinetic energy $KE_{\text{max}}$ in terms of $hf$ and $\Phi$ ::@:: From the surface, with no energy spent travelling out of the metal, so $KE_{\text{max}} = hf - \Phi$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 - the work function $\Phi$: what it represents ::@:: The minimum energy an electron must gain to escape from the surface of the material. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - the threshold frequency: its relation to the work function ::@:: $f_0 = \Phi / h$; below this frequency, no electrons are emitted. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
-- the stopping voltage against frequency for a metal of work function $\Phi$ ::@:: $V_s = (h/e)f - \Phi/e$: a straight line whose slope $h/e$ is the same for every metal and whose intercept fixes the work function.
+- the stopping voltage against frequency for a metal of work function $\Phi$ ::@:: $V_s = (h/e)f - \Phi/e$: a straight line whose slope $h/e$ is the same for every metal and whose intercept fixes the work function. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## applications
 
@@ -99,7 +99,7 @@ Two instruments turn the photoelectric effect into a measurement tool.
 
 Flashcards for this section are as follows:
 
-- overview: the two applications of the photoelectric effect covered here ::@:: X-ray photoelectron spectroscopy, which reads elemental composition from binding energies, and charge-coupled device cameras, which trap photoelectrons as charge.
+- overview: the two applications of the photoelectric effect covered here ::@:: X-ray photoelectron spectroscopy, which reads elemental composition from binding energies, and charge-coupled device cameras, which trap photoelectrons as charge. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 <!-- check: ignore-next-line[header_style]: proper noun -->
 ### X-ray photoelectron spectroscopy
@@ -120,6 +120,6 @@ A CCD sensor consists of millions of tiny pixels, each built around a metal-oxid
 
 Flashcards for this section are as follows:
 
-- a CCD pixel: the component that traps photoelectrons, and what it records ::@:: A metal-oxide-semiconductor (MOS) capacitor, which creates a potential well that holds the ejected electrons; the accumulated charge is proportional to the light intensity.
-- how CCD charges are read out ::@:: Charges are transferred pixel by pixel along rows to a readout amplifier (bucket-brigade readout), where each charge packet is converted to a voltage.
-- front-illuminated CCDs and back-thinned scientific CCDs: which of them has a visible-range quantum efficiency near $40\%$ and which exceeds $90\%$? ::@:: Front-illuminated CCDs peak near $40\%$ in the visible, while back-thinned scientific CCDs exceed $90\%$.
+- a CCD pixel: the component that traps photoelectrons, and what it records ::@:: A metal-oxide-semiconductor (MOS) capacitor, which creates a potential well that holds the ejected electrons; the accumulated charge is proportional to the light intensity. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how CCD charges are read out ::@:: Charges are transferred pixel by pixel along rows to a readout amplifier (bucket-brigade readout), where each charge packet is converted to a voltage. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- front-illuminated CCDs and back-thinned scientific CCDs: which of them has a visible-range quantum efficiency near $40\%$ and which exceeds $90\%$? ::@:: Front-illuminated CCDs peak near $40\%$ in the visible, while back-thinned scientific CCDs exceed $90\%$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->

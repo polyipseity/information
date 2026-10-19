@@ -20,14 +20,14 @@ The two cover opposite ends of one range. Conditioning is strong where biology h
 
 Flashcards for this section are as follows:
 
-- what repetition and surprise cannot account for ::@:: Some associations form too easily for repetition and surprise to explain.
-- what preparedness is the name for ::@:: The gap between how easily some associations form and what repetition and surprise can explain.
-- what prediction error explains ::@:: What a learner attaches to when the outcome arrives unexpectedly.
-- why there is little prediction error to explain a prepared association ::@:: The association forms with little surprise.
-- what preparedness claims rather than just describing ::@:: A mechanism, not just a fast result.
-- how the two accounts relate ::@:: They cover opposite ends of one range.
-- biology's part in a prepared association ::@:: Conditioning is strong where biology has already tied one cue to one outcome.
-- what a cue carrying no information can still do ::@:: It can pick up learning that an equally frequent unprepared cue would not.
+- what repetition and surprise cannot account for ::@:: Some associations form too easily for repetition and surprise to explain. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what preparedness is the name for ::@:: The gap between how easily some associations form and what repetition and surprise can explain. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what prediction error explains ::@:: What a learner attaches to when the outcome arrives unexpectedly. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why there is little prediction error to explain a prepared association ::@:: The association forms with little surprise. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what preparedness claims rather than just describing ::@:: A mechanism, not just a fast result. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how the two accounts relate ::@:: They cover opposite ends of one range. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- biology's part in a prepared association ::@:: Conditioning is strong where biology has already tied one cue to one outcome. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a cue carrying no information can still do ::@:: It can pick up learning that an equally frequent unprepared cue would not. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## where the effect is clearest
 
@@ -49,16 +49,16 @@ The fall case shows the same shape, and a [phobia](phobia.md) built on an ancest
 
 Flashcards for this section are as follows:
 
-- the clearest cases of preparedness ::@:: Taste aversion and a fall from a height are the clearest cases of preparedness.
-- the US and UR in the food-poisoning case ::@:: The bacteria or toxin is the US; the nausea and vomiting are the UR.
-- the CS and CR in the food-poisoning case ::@:: The taste or smell of the food is the CS; the avoidance next time is the CR.
-- the US and UR in the fall case ::@:: The impact and sudden loss of support are the US; the reflexive panic, shock, and pain are the UR.
-- the CS and CR in the fall case ::@:: The visual cues of height and depth are the CS; the fear, racing heart, and urge to retreat are the CR.
-- the three ways a prepared association differs from ordinary conditioning ::@:: It forms in one trial and lasts for years, it attaches to the food alone rather than the plate, the chair's colour, or the music, and it ignores timing.
-- the shrimp-bowl instance ::@:: In a seafood restaurant, the smell, taste, or thought of shrimp brings on disgust and nausea, and the rest of the room is untouched.
-- what the prepared association ignores about timing ::@:: Food eaten at noon and illness arriving at midnight are still linked.
-- how many bad experiences a fear of heights needs ::@:: One.
-- what a phobia built on an ancestral threat is ::@:: The same phenomenon as an aversion built on a bad meal.
+- the clearest cases of preparedness ::@:: Taste aversion and a fall from a height are the clearest cases of preparedness. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the US and UR in the food-poisoning case ::@:: The bacteria or toxin is the US; the nausea and vomiting are the UR. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the CS and CR in the food-poisoning case ::@:: The taste or smell of the food is the CS; the avoidance next time is the CR. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the US and UR in the fall case ::@:: The impact and sudden loss of support are the US; the reflexive panic, shock, and pain are the UR. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the CS and CR in the fall case ::@:: The visual cues of height and depth are the CS; the fear, racing heart, and urge to retreat are the CR. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the three ways a prepared association differs from ordinary conditioning ::@:: It forms in one trial and lasts for years, it attaches to the food alone rather than the plate, the chair's colour, or the music, and it ignores timing. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the shrimp-bowl instance ::@:: In a seafood restaurant, the smell, taste, or thought of shrimp brings on disgust and nausea, and the rest of the room is untouched. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the prepared association ignores about timing ::@:: Food eaten at noon and illness arriving at midnight are still linked. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how many bad experiences a fear of heights needs ::@:: One. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a phobia built on an ancestral threat is ::@:: The same phenomenon as an aversion built on a bad meal. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## the evolutionary argument
 
@@ -74,17 +74,17 @@ The argument deals with the past, not the present, which is what makes it checka
 
 Flashcards for this section are as follows:
 
-- how the account explains the speed of learning a fear ::@:: An argument from selection, in which a predisposition that made a fear fast was inherited rather than acquired.
-- the argument behind the account ::@:: Fearing a threat faster meant surviving and reproducing more often, so the predisposition was inherited.
-- what determines which fears are predisposed ::@:: How dangerous a class of thing was to the ancestors who carried the predisposition, not how dangerous it has been lately.
-- the fears that form easily ::@:: Heights, darkness, and snakes.
-- the fears that rarely form ::@:: Cars and electrical outlets.
-- why the fear of a car is not the relevant case ::@:: The ancestors who were afraid of a car did not have cars.
-- whether the fear of a snake needs learning ::@:: No.
-- why taste aversion is selective for the same reason ::@:: Avoiding bad food raises the odds, while avoiding one colour or one piece of music does not.
-- what the wiring then follows ::@:: Whatever there was a gain in avoiding.
-- how far the argument reaches ::@:: The past, not the present.
-- what makes it checkable rather than only a story ::@:: It predicts where fears should be common, and that can be tested against the fears people actually have.
+- how the account explains the speed of learning a fear ::@:: An argument from selection, in which a predisposition that made a fear fast was inherited rather than acquired. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the argument behind the account ::@:: Fearing a threat faster meant surviving and reproducing more often, so the predisposition was inherited. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what determines which fears are predisposed ::@:: How dangerous a class of thing was to the ancestors who carried the predisposition, not how dangerous it has been lately. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the fears that form easily ::@:: Heights, darkness, and snakes. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the fears that rarely form ::@:: Cars and electrical outlets. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why the fear of a car is not the relevant case ::@:: The ancestors who were afraid of a car did not have cars. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- whether the fear of a snake needs learning ::@:: No. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why taste aversion is selective for the same reason ::@:: Avoiding bad food raises the odds, while avoiding one colour or one piece of music does not. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the wiring then follows ::@:: Whatever there was a gain in avoiding. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how far the argument reaches ::@:: The past, not the present. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what makes it checkable rather than only a story ::@:: It predicts where fears should be common, and that can be tested against the fears people actually have. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## equipotentiality and the alternatives
 
@@ -102,14 +102,14 @@ Studies have supported some of the predictions and not others. Neither account i
 
 Flashcards for this section are as follows:
 
-- what the disagreement with equipotentiality turns on ::@:: Preparedness denies equipotentiality, and a rival account explains the same pattern with nothing built into the organism.
-- equipotentiality ::@:: The behaviourist assumption that the same principles of learning and conditioning apply to every stimulus and every response.
-- what preparedness says instead ::@:: Some associations form more easily than the assumption allows, for reasons inside the organism.
-- how the two are connected ::@:: Preparedness was proposed to knock equipotentiality down, so evidence for one is evidence against the other.
-- the rival account to preparedness ::@:: It agrees with equipotentiality and denies inheritance, and says people fear what they expect to be dangerous.
-- does the expectation need an adaptive or ancient reason behind it ::@:: No. It stands on its own and gives the same pattern of common and rare fears.
-- how the two accounts differ ::@:: Preparedness says the pattern is what avoiding those things once paid off; the rival says it is what people expect now.
-- the state of the evidence ::@:: Some of the predictions are supported and some are not, so neither account is settled.
+- what the disagreement with equipotentiality turns on ::@:: Preparedness denies equipotentiality, and a rival account explains the same pattern with nothing built into the organism. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- equipotentiality ::@:: The behaviourist assumption that the same principles of learning and conditioning apply to every stimulus and every response. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what preparedness says instead ::@:: Some associations form more easily than the assumption allows, for reasons inside the organism. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how the two are connected ::@:: Preparedness was proposed to knock equipotentiality down, so evidence for one is evidence against the other. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the rival account to preparedness ::@:: It agrees with equipotentiality and denies inheritance, and says people fear what they expect to be dangerous. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- does the expectation need an adaptive or ancient reason behind it ::@:: No. It stands on its own and gives the same pattern of common and rare fears. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how the two accounts differ ::@:: Preparedness says the pattern is what avoiding those things once paid off; the rival says it is what people expect now. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the state of the evidence ::@:: Some of the predictions are supported and some are not, so neither account is settled. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## references
 

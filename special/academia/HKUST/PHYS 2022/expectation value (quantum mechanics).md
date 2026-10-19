@@ -16,8 +16,8 @@ The expectation value $\langle A \rangle$ of an observable is the average result
 
 Flashcards for this section are as follows:
 
-- overview: what an expectation value is ::@:: The average of many measurements on identically prepared systems — not necessarily a value that ever occurs in a single measurement.
-- why an expectation value may never be observed ::@:: It is a weighted mean of outcomes; the mean of integer-valued outcomes can be non-integer and thus never occur.
+- overview: what an expectation value is ::@:: The average of many measurements on identically prepared systems — not necessarily a value that ever occurs in a single measurement. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why an expectation value may never be observed ::@:: It is a weighted mean of outcomes; the mean of integer-valued outcomes can be non-integer and thus never occur. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## definition and position averages
 
@@ -27,9 +27,9 @@ For an observable represented by an operator $\hat{A}$, the expectation value is
 
 Flashcards for this section are as follows:
 
-- the general definition of an expectation value $\langle A \rangle$ ::@:: $\langle A \rangle = \int \Psi^* \hat{A} \Psi \, dx$ for a normalised wave function.
-- the mean position $\langle x \rangle$ ::@:: $\langle x \rangle = \int x |\Psi(x,t)|^2 dx$ — the operator $\hat{x}$ is plain multiplication.
-- the mean position $\langle x \rangle$ from a wave function that is not yet normalised ::@:: $\langle x \rangle = \frac{\int x\Psi^*\Psi\,dx}{\int \Psi^*\Psi\,dx}$, the position integral divided by the normalisation integral $\int \Psi^*\Psi\,dx$.
+- the general definition of an expectation value $\langle A \rangle$ ::@:: $\langle A \rangle = \int \Psi^* \hat{A} \Psi \, dx$ for a normalised wave function. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the mean position $\langle x \rangle$ ::@:: $\langle x \rangle = \int x |\Psi(x,t)|^2 dx$ — the operator $\hat{x}$ is plain multiplication. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the mean position $\langle x \rangle$ from a wave function that is not yet normalised ::@:: $\langle x \rangle = \frac{\int x\Psi^*\Psi\,dx}{\int \Psi^*\Psi\,dx}$, the position integral divided by the normalisation integral $\int \Psi^*\Psi\,dx$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## momentum and energy averages
 
@@ -39,11 +39,11 @@ Momentum is not a function of position, so its average uses the operator $\hat{p
 
 Flashcards for this section are as follows:
 
-- the momentum expectation value $\langle p \rangle$ ::@:: $\langle p \rangle = \int \Psi^*(-i\hbar\,\partial/\partial x)\Psi\,dx$.
-- why $\langle p \rangle$ vanishes in a real stationary state ::@:: The integrand is a total derivative of $|\Psi|^2/2$, which vanishes at both infinities.
-- the step that shows $\langle p \rangle = 0$ for a real stationary state ::@:: $\Psi\,\partial\Psi/\partial x = \tfrac{1}{2}\,\partial(\Psi^2)/\partial x$, so $\langle p \rangle = -i\hbar[\Psi^2/2]_{-\infty}^{+\infty} = 0$; a complex $\Psi$ has no such cancellation.
-- the energy expectation value $\langle E \rangle$, and its shortcut for a stationary state ::@:: $\langle E \rangle = \int \Psi^*(i\hbar\,\partial/\partial t)\Psi\,dx$, or simply the level's eigenvalue $E_n$ when $\Psi$ is a stationary state.
-- the operator behind the mean-square momentum $\langle p^2 \rangle$ ::@:: The second-derivative form $\hat{p}^2 = -\hbar^2\,\partial^2/\partial x^2$, used as $\langle p^2 \rangle = \int \Psi^*(-\hbar^2\,\partial^2/\partial x^2)\Psi\,dx$.
+- the momentum expectation value $\langle p \rangle$ ::@:: $\langle p \rangle = \int \Psi^*(-i\hbar\,\partial/\partial x)\Psi\,dx$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why $\langle p \rangle$ vanishes in a real stationary state ::@:: The integrand is a total derivative of $|\Psi|^2/2$, which vanishes at both infinities. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the step that shows $\langle p \rangle = 0$ for a real stationary state ::@:: $\Psi\,\partial\Psi/\partial x = \tfrac{1}{2}\,\partial(\Psi^2)/\partial x$, so $\langle p \rangle = -i\hbar[\Psi^2/2]_{-\infty}^{+\infty} = 0$; a complex $\Psi$ has no such cancellation. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the energy expectation value $\langle E \rangle$, and its shortcut for a stationary state ::@:: $\langle E \rangle = \int \Psi^*(i\hbar\,\partial/\partial t)\Psi\,dx$, or simply the level's eigenvalue $E_n$ when $\Psi$ is a stationary state. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the operator behind the mean-square momentum $\langle p^2 \rangle$ ::@:: The second-derivative form $\hat{p}^2 = -\hbar^2\,\partial^2/\partial x^2$, used as $\langle p^2 \rangle = \int \Psi^*(-\hbar^2\,\partial^2/\partial x^2)\Psi\,dx$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## spread and uncertainty
 
@@ -53,8 +53,8 @@ An average alone does not describe a distribution; its spread does. The variance
 
 Flashcards for this section are as follows:
 
-- the variance $\sigma_x^2$ of position from expectation values ::@:: $\sigma_x^2 = \langle x^2 \rangle - \langle x \rangle^2$, with $\Delta x = \sigma_x$.
-- what the uncertainty principle bounds, in terms of $\Delta x \cdot \Delta p$ ::@:: The product of the spreads, $\Delta x \cdot \Delta p \geq \hbar/2$, built from these variances.
+- the variance $\sigma_x^2$ of position from expectation values ::@:: $\sigma_x^2 = \langle x^2 \rangle - \langle x \rangle^2$, with $\Delta x = \sigma_x$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the uncertainty principle bounds, in terms of $\Delta x \cdot \Delta p$ ::@:: The product of the spreads, $\Delta x \cdot \Delta p \geq \hbar/2$, built from these variances. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## ground state of the box
 
@@ -78,12 +78,12 @@ The product lands at $\Delta x \cdot \Delta p \approx 0.57\,\hbar$: comfortably 
 
 Flashcards for this section are as follows:
 
-- the ground-state averages $\langle x \rangle$, $\langle p \rangle$, $\langle p^2 \rangle$ of the infinite well ::@:: $\langle x \rangle = L/2$, $\langle p \rangle = 0$, $\langle p^2 \rangle = 2mE_1 = h^2/(4L^2)$, hence $\Delta p = h/(2L)$.
-- how the ground-state momentum spread $\Delta p$ follows from the energy $E_1$ ::@:: $\langle p^2 \rangle = 2mE_1$ with $E_1 = h^2/(8mL^2)$ gives $\Delta p = \sqrt{2mE_1} = h/(2L)$.
-- the product-to-sum identity that splits the ground-state $\langle x^2 \rangle$ integral ::@:: $\sin^2(\pi x/L) = \tfrac{1}{2}\bigl(1 - \cos(2\pi x/L)\bigr)$ gives $\langle x^2 \rangle = L^2/3 - I/L$ with $I = \int_0^L x^2\cos(2\pi x/L)\,dx$.
-- why the first by-parts boundary term in $I = \int_0^L x^2\cos(2\pi x/L)\,dx$ vanishes ::@:: The term $\bigl[x^2\cdot\tfrac{L}{2\pi}\sin(2\pi x/L)\bigr]_0^L$ is zero because $\sin(0) = \sin(2\pi) = 0$.
-- the first integration-by-parts result for $I = \int_0^L x^2\cos(2\pi x/L)\,dx$ ::@:: $I = -\tfrac{L}{\pi}\int_0^L x\sin(2\pi x/L)\,dx$ once the boundary term drops.
-- the second integration-by-parts result in the ground-state $\langle x^2 \rangle$ integral ::@:: $\int_0^L x\sin(2\pi x/L)\,dx = \bigl[-\tfrac{xL}{2\pi}\cos(2\pi x/L)\bigr]_0^L + \tfrac{L}{2\pi}\int_0^L \cos(2\pi x/L)\,dx = -\tfrac{L^2}{2\pi}$: the cosine integral covers a whole period and vanishes.
-- the value of $I$ and the resulting ground-state $\langle x^2 \rangle$ ::@:: $I = L^3/(2\pi^2)$, so $\langle x^2 \rangle = L^2\bigl(\tfrac{1}{3} - \tfrac{1}{2\pi^2}\bigr)$.
-- the ground-state position spread $\Delta x$ of the infinite well ::@:: $\langle x^2 \rangle = L^2(1/3 - 1/(2\pi^2))$ gives $\Delta x = L\sqrt{1/12 - 1/(2\pi^2)} \approx 0.18L$.
-- the ground-state saturation ratio $\Delta x \cdot \Delta p$ against the bound $\hbar/2$ ::@:: $\Delta x \cdot \Delta p \approx 0.57\,\hbar$: above the floor, since only a Gaussian saturates the bound.
+- the ground-state averages $\langle x \rangle$, $\langle p \rangle$, $\langle p^2 \rangle$ of the infinite well ::@:: $\langle x \rangle = L/2$, $\langle p \rangle = 0$, $\langle p^2 \rangle = 2mE_1 = h^2/(4L^2)$, hence $\Delta p = h/(2L)$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how the ground-state momentum spread $\Delta p$ follows from the energy $E_1$ ::@:: $\langle p^2 \rangle = 2mE_1$ with $E_1 = h^2/(8mL^2)$ gives $\Delta p = \sqrt{2mE_1} = h/(2L)$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the product-to-sum identity that splits the ground-state $\langle x^2 \rangle$ integral ::@:: $\sin^2(\pi x/L) = \tfrac{1}{2}\bigl(1 - \cos(2\pi x/L)\bigr)$ gives $\langle x^2 \rangle = L^2/3 - I/L$ with $I = \int_0^L x^2\cos(2\pi x/L)\,dx$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why the first by-parts boundary term in $I = \int_0^L x^2\cos(2\pi x/L)\,dx$ vanishes ::@:: The term $\bigl[x^2\cdot\tfrac{L}{2\pi}\sin(2\pi x/L)\bigr]_0^L$ is zero because $\sin(0) = \sin(2\pi) = 0$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the first integration-by-parts result for $I = \int_0^L x^2\cos(2\pi x/L)\,dx$ ::@:: $I = -\tfrac{L}{\pi}\int_0^L x\sin(2\pi x/L)\,dx$ once the boundary term drops. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the second integration-by-parts result in the ground-state $\langle x^2 \rangle$ integral ::@:: $\int_0^L x\sin(2\pi x/L)\,dx = \bigl[-\tfrac{xL}{2\pi}\cos(2\pi x/L)\bigr]_0^L + \tfrac{L}{2\pi}\int_0^L \cos(2\pi x/L)\,dx = -\tfrac{L^2}{2\pi}$: the cosine integral covers a whole period and vanishes. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the value of $I$ and the resulting ground-state $\langle x^2 \rangle$ ::@:: $I = L^3/(2\pi^2)$, so $\langle x^2 \rangle = L^2\bigl(\tfrac{1}{3} - \tfrac{1}{2\pi^2}\bigr)$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the ground-state position spread $\Delta x$ of the infinite well ::@:: $\langle x^2 \rangle = L^2(1/3 - 1/(2\pi^2))$ gives $\Delta x = L\sqrt{1/12 - 1/(2\pi^2)} \approx 0.18L$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the ground-state saturation ratio $\Delta x \cdot \Delta p$ against the bound $\hbar/2$ ::@:: $\Delta x \cdot \Delta p \approx 0.57\,\hbar$: above the floor, since only a Gaussian saturates the bound. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->

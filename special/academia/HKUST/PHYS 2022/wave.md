@@ -17,7 +17,7 @@ Flashcards for this section are as follows:
 
 - overview: what a wave is ::@:: A perturbation of a mass distribution that propagates and carries energy. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - the two ways energy is transported ::@:: As particles and as waves. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
-- a cork and a boat on water as a wave passes: what travels, and what the two do ::@:: The energy travels: the cork bobs in place and remains, and the boat rocks, gains kinetic energy, then returns to rest.
+- a cork and a boat on water as a wave passes: what travels, and what the two do ::@:: The energy travels: the cork bobs in place and remains, and the boat rocks, gains kinetic energy, then returns to rest. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## wave and particle models
 
@@ -59,10 +59,10 @@ In classical physics, waves and particles are distinct: a wave spreads through a
 
 Flashcards for this section are as follows:
 
-- wave-particle duality: the central idea ::@:: Every quantum entity shows both wave-like and particle-like behaviour, depending on the experiment.
-- the de Broglie wavelength: its formula ::@:: $\lambda = h/p = h/mv$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- double-slit fringe spacing: the approximate formula ::@:: $\Delta x \approx \lambda L/d$, where $L$ is the slit-to-screen distance and $d$ is the slit separation. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- what placing a which-way detector at the slits does to the interference pattern ::@:: It destroys the pattern, because the measurement collapses the superposition.
+- wave-particle duality: the central idea ::@:: Every quantum entity shows both wave-like and particle-like behaviour, depending on the experiment. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the de Broglie wavelength: its formula ::@:: $\lambda = h/p = h/mv$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- double-slit fringe spacing: the approximate formula ::@:: $\Delta x \approx \lambda L/d$, where $L$ is the slit-to-screen distance and $d$ is the slit separation. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what placing a which-way detector at the slits does to the interference pattern ::@:: It destroys the pattern, because the measurement collapses the superposition. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## superposition
 
@@ -72,9 +72,9 @@ The wave equation is linear, so the sum of any two solutions is again a solution
 
 Flashcards for this section are as follows:
 
-- what superposition of two waves means ::@:: That the combined displacement at each point is the algebraic sum of the two solutions — the wave equation being linear.
-- what two waves of nearby frequencies $\omega_0 \pm \Delta\omega$ produce ::@:: Beats: a carrier at the average frequency $\omega_0$ under an envelope that rises and falls at the difference frequency $\Delta\omega$.
-- standing waves: what they are built from ::@:: Superpositions of travelling waves.
+- what superposition of two waves means ::@:: That the combined displacement at each point is the algebraic sum of the two solutions — the wave equation being linear. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what two waves of nearby frequencies $\omega_0 \pm \Delta\omega$ produce ::@:: Beats: a carrier at the average frequency $\omega_0$ under an envelope that rises and falls at the difference frequency $\Delta\omega$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- standing waves: what they are built from ::@:: Superpositions of travelling waves. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## group velocity
 
@@ -84,8 +84,8 @@ The envelope of a superposition travels with its own speed. For the two-wave cas
 
 Flashcards for this section are as follows:
 
-- the group velocity $u = d\omega/dk$ of a superposition ::@:: $u = d\omega/dk$ — the envelope speed; for two waves, $u = \Delta\omega/\Delta k$.
-- how the group velocity $u$ and phase velocity $v_{\text{ph}}$ can differ ::@:: Crests move at $v_{\text{ph}} = \omega/k$ while the envelope moves at $u = d\omega/dk$, so the two speeds differ.
+- the group velocity $u = d\omega/dk$ of a superposition ::@:: $u = d\omega/dk$ — the envelope speed; for two waves, $u = \Delta\omega/\Delta k$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how the group velocity $u$ and phase velocity $v_{\text{ph}}$ can differ ::@:: Crests move at $v_{\text{ph}} = \omega/k$ while the envelope moves at $u = d\omega/dk$, so the two speeds differ. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## dispersion
 
@@ -95,4 +95,4 @@ A medium is non-dispersive when its angular frequency is proportional to its wav
 
 Flashcards for this section are as follows:
 
-- the condition $\omega = \alpha k$ for non-dispersive propagation ::@:: $\omega = \alpha k$, so that $u = d\omega/dk = \omega/k = v_{\text{ph}} = \alpha$ and packets keep their shape.
+- the condition $\omega = \alpha k$ for non-dispersive propagation ::@:: $\omega = \alpha k$, so that $u = d\omega/dk = \omega/k = v_{\text{ph}} = \alpha$ and packets keep their shape. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->

@@ -56,7 +56,7 @@ Flashcards for this section are as follows:
 
 - why a medium, the "ether", was assumed necessary for a wave of speed $c$ ::@:: $c$ is fixed by the properties of free space, so the equations called for a space-filling "ether". <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - the status of the ether by 1895 ::@:: Its existence was one of the three unresolved problems of the period. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
-- the 1887 Michelson–Morley experiment: what it was sensitive enough to reveal, and what it found ::@:: The effects of the ether; none, and later experiments checking other possibilities were also negative.
+- the 1887 Michelson–Morley experiment: what it was sensitive enough to reveal, and what it found ::@:: The effects of the ether; none, and later experiments checking other possibilities were also negative. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## generation of electromagnetic waves
 
@@ -81,7 +81,7 @@ Flashcards for this section are as follows:
 
 - a receiving antenna: what makes it respond to the wave ::@:: The wave's electric field exerts a force $\vec{F} = -e\vec{E}$ on free electrons, driving a current at the same frequency. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - the confirmation of Maxwell's prediction: who detected the waves, when, and at what distance $d$ ::@:: Hertz, in 1886, at $d = 15\ \text{m}$. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
-- the wavelength $\lambda$ of the electromagnetic waves Hertz generated and detected against the visible range ::@:: Far outside the visible range, of order $\lambda \approx 5\ \text{m}$.
+- the wavelength $\lambda$ of the electromagnetic waves Hertz generated and detected against the visible range ::@:: Far outside the visible range, of order $\lambda \approx 5\ \text{m}$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 - Hertz on the practical use of his discovery ::@:: He called the waves "of no use whatsoever", and when asked about their applications, "Nothing, I guess." <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 
 ## wireless communication

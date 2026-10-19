@@ -18,11 +18,11 @@ Four stages sit between watching and repeating: attention, retention, initiation
 
 Flashcards for this section are as follows:
 
-- what the learner watches, and where the consequences land ::@:: A learner watches what other people do, and the consequences can fall on someone else or not appear at all.
-- other name for observational learning ::@:: Social learning theory, in Bandura's 1977 account.
-- what the two conditionings require ::@:: The behaviour reinforced has to be the learner's own.
-- social model ::@:: An authority a learner watches and tries to copy.
-- what the four stages being separate buys ::@:: Each stage can break on its own, and each one calls for a different remedy.
+- what the learner watches, and where the consequences land ::@:: A learner watches what other people do, and the consequences can fall on someone else or not appear at all. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- other name for observational learning ::@:: Social learning theory, in Bandura's 1977 account. <!--SR:!fsrs,2026-11-10T00:10:00.000Z,0,2.3065,2.11810397,1,1,0,1,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the two conditionings require ::@:: The behaviour reinforced has to be the learner's own. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- social model ::@:: An authority a learner watches and tries to copy. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the four stages being separate buys ::@:: Each stage can break on its own, and each one calls for a different remedy. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## the four stages
 
@@ -36,13 +36,13 @@ The four stages run in order, each one a step closer to repeating what the model
 
 Flashcards for this section are as follows:
 
-- what separates the four stages from one another ::@:: Four stages run in order, each one a step closer to repeating what the model did.
-- observational learning stages: ![Four stages in order: attention, the learner watches the model; retention, the behaviour is kept in memory; initiation, the learner performs it; motivation, the learner repeats it.](attachments/observational_learning_stages.svg) ::@:: The learner watches the model, keeps the behaviour in memory, performs it, and repeats it.
-- draw the four stages of learning from a model: in what order do they run? ::@:: Attention, then retention, then initiation, then motivation. <p> ![Four stages in order: attention, the learner watches the model; retention, the behaviour is kept in memory; initiation, the learner performs it; motivation, the learner repeats it.](attachments/observational_learning_stages.svg)
-- attention in the shared-notes example ::@:: It holds while the classmate is similar or a credible high-achieving student. It lapses for a stranger.
-- retention in the shared-notes example ::@:: It needs the learner to register that the shared notes will help with a quiz. It lapses when nothing links the notes to a quiz.
-- initiation in the shared-notes example ::@:: It needs access to the notes. It lapses when there is none.
-- motivation in the shared-notes example ::@:: It comes from vicarious reinforcement, a good grade without punishment, or its opposite, a teacher's warning.
+- what separates the four stages from one another ::@:: Four stages run in order, each one a step closer to repeating what the model did. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- observational learning stages: ![Four stages in order: attention, the learner watches the model; retention, the behaviour is kept in memory; initiation, the learner performs it; motivation, the learner repeats it.](attachments/observational_learning_stages.svg) ::@:: The learner watches the model, keeps the behaviour in memory, performs it, and repeats it. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- draw the four stages of learning from a model: in what order do they run? ::@:: Attention, then retention, then initiation, then motivation. <p> ![Four stages in order: attention, the learner watches the model; retention, the behaviour is kept in memory; initiation, the learner performs it; motivation, the learner repeats it.](attachments/observational_learning_stages.svg) <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- attention in the shared-notes example ::@:: It holds while the classmate is similar or a credible high-achieving student. It lapses for a stranger. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- retention in the shared-notes example ::@:: It needs the learner to register that the shared notes will help with a quiz. It lapses when nothing links the notes to a quiz. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- initiation in the shared-notes example ::@:: It needs access to the notes. It lapses when there is none. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- motivation in the shared-notes example ::@:: It comes from vicarious reinforcement, a good grade without punishment, or its opposite, a teacher's warning. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ### attention
 
@@ -52,9 +52,9 @@ A learner who is not looking never gets the behaviour in. That is attention. The
 
 Flashcards for this section are as follows:
 
-- what attention does, and on what it depends ::@:: Getting the behaviour in, which depends on the model as much as on the learner.
-- what keeps attention on a model ::@:: Similarity to the observer, or high status.
-- attention to a stranger who acts carefully ::@:: Nothing. The model matters, not how carefully the stranger acts.
+- what attention does, and on what it depends ::@:: Getting the behaviour in, which depends on the model as much as on the learner. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what keeps attention on a model ::@:: Similarity to the observer, or high status. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- attention to a stranger who acts carefully ::@:: Nothing. The model matters, not how carefully the stranger acts. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ### retention
 
@@ -64,9 +64,9 @@ Retention is what the watching leaves behind. A cooking demonstration leaves the
 
 Flashcards for this section are as follows:
 
-- what retention does after the watching stops ::@:: Keeping the behaviour in memory after the watching stops.
-- what retention keeps ::@:: The detail, not the gist.
-- retention of a cooking demonstration ::@:: The demonstrator's hand placement, rather than the fact that someone cooked.
+- what retention does after the watching stops ::@:: Keeping the behaviour in memory after the watching stops. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what retention keeps ::@:: The detail, not the gist. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- retention of a cooking demonstration ::@:: The demonstrator's hand placement, rather than the fact that someone cooked. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ### initiation
 
@@ -76,10 +76,10 @@ Initiation turns what was retained into performance, and it is the first of two 
 
 Flashcards for this section are as follows:
 
-- what initiation does with what retention kept ::@:: Turning what the learner retained into performance.
-- how a cooking demonstration is reproduced ::@:: A learner tries it in small trials and improves on what the observation showed.
-- the two stages in which the learner acts alone ::@:: Initiation and motivation.
-- what separates initiation from retention ::@:: Doing it is not remembering it.
+- what initiation does with what retention kept ::@:: Turning what the learner retained into performance. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how a cooking demonstration is reproduced ::@:: A learner tries it in small trials and improves on what the observation showed. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the two stages in which the learner acts alone ::@:: Initiation and motivation. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what separates initiation from retention ::@:: Doing it is not remembering it. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ### motivation
 
@@ -89,10 +89,10 @@ The first three stages give an ability, not a habit: a learner can watch closely
 
 Flashcards for this section are as follows:
 
-- the question motivation answers ::@:: Deciding whether the learner ever performs the behaviour again.
-- what attention, retention, and initiation together produce ::@:: An ability to perform the behaviour, not a habit of performing it.
-- what makes a model supply that reason ::@:: Admiration, reward, or similarity strong enough that the model stands in for the learner.
-- what the behaviour itself supplies as a reason ::@:: None. The reason comes from the model.
+- the question motivation answers ::@:: Deciding whether the learner ever performs the behaviour again. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what attention, retention, and initiation together produce ::@:: An ability to perform the behaviour, not a habit of performing it. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what makes a model supply that reason ::@:: Admiration, reward, or similarity strong enough that the model stands in for the learner. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the behaviour itself supplies as a reason ::@:: None. The reason comes from the model. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## what arrives with maturity
 
@@ -102,9 +102,9 @@ Age tempers what gets learned. Two things arrive late: the capacity to reflect o
 
 Flashcards for this section are as follows:
 
-- the two capacities that arrive with maturity ::@:: Both the capacity to reflect on what one has seen and the tendency to identify with other people arrive with age.
-- what a child who has imitated an aggressive act has done without ::@:: The step where the act becomes their own.
-- what empathy does ::@:: It keeps an observed act from becoming a habit of one's own.
+- the two capacities that arrive with maturity ::@:: Both the capacity to reflect on what one has seen and the tendency to identify with other people arrive with age. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a child who has imitated an aggressive act has done without ::@:: The step where the act becomes their own. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what empathy does ::@:: It keeps an observed act from becoming a habit of one's own. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## references
 

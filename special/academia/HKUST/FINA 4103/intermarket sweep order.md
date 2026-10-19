@@ -21,11 +21,11 @@ Both types are exempt from the same duty and neither guarantees the market's bes
 
 Flashcards for this section are as follows:
 
-- what an intermarket sweep order is ::@:: An order released to several exchanges at once, which must execute against the best available quote and is exempt from the order protection rule.
-- what a venue does on receiving an ISO ::@:: It matches it against its own book, with no intermarket check and no routing of the remainder.
-- instruction an ISO is typically used with ::@:: Immediate-or-cancel; a day ISO also exists.
-- what an ISO demands of whoever sends it ::@:: A connection and a quote feed to every venue in the sweep, before anything is released.
-- how a sweep and a do-not-ship instruction differ ::@:: One is placed on every venue at once, the other on one venue with the rest refused.
+- what an intermarket sweep order is ::@:: An order released to several exchanges at once, which must execute against the best available quote and is exempt from the order protection rule. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a venue does on receiving an ISO ::@:: It matches it against its own book, with no intermarket check and no routing of the remainder. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- instruction an ISO is typically used with ::@:: Immediate-or-cancel; a day ISO also exists. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what an ISO demands of whoever sends it ::@:: A connection and a quote feed to every venue in the sweep, before anything is released. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how a sweep and a do-not-ship instruction differ ::@:: One is placed on every venue at once, the other on one venue with the rest refused. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## how a sweep is split
 
@@ -43,12 +43,12 @@ The best offer anywhere is 99 dollars, and 900 shares are on offer at that price
 
 Flashcards for this section are as follows:
 
-- how a broker turns one order into a sweep ::@:: It merges the quote feeds and walks the merged book from the best price down, releasing one child order per venue in the same instant.
-- rule that governs the walk ::@:: It must consume the best prices available.
-- what becomes of a leg of a sweep that does not fill ::@:: It is cancelled on that venue, because every child order carries the immediate-or-cancel instruction.
-- shares on offer at 99 dollars across the three venues in the worked example ::@:: 900, being 100 at A, 500 at B, and 300 at C.
-- where the last 100 shares of a 1000-share sweep come from ::@:: The 100 shares C offers at 98 dollars.
-- split a broker releases for a 1000-share sweep in the worked example ::@:: 100 shares to A, 500 to B, and 400 to C.
+- how a broker turns one order into a sweep ::@:: It merges the quote feeds and walks the merged book from the best price down, releasing one child order per venue in the same instant. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- rule that governs the walk ::@:: It must consume the best prices available. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what becomes of a leg of a sweep that does not fill ::@:: It is cancelled on that venue, because every child order carries the immediate-or-cancel instruction. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- shares on offer at 99 dollars across the three venues in the worked example ::@:: 900, being 100 at A, 500 at B, and 300 at C. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- where the last 100 shares of a 1000-share sweep come from ::@:: The 100 shares C offers at 98 dollars. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- split a broker releases for a 1000-share sweep in the worked example ::@:: 100 shares to A, 500 to B, and 400 to C. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## who carries the obligation
 
@@ -62,12 +62,12 @@ A broker-dealer normally has discretion over how it splits, as long as the split
 
 Flashcards for this section are as follows:
 
-- who is answerable for the best price when an ISO is used ::@:: The broker, not the exchange.
-- what an ISO must consume ::@:: The best price, as it stood at the time the order was placed.
-- when the sweep's best-price obligation is discharged ::@:: Before anything is released, since the broker has already made the check by then.
-- what the exchanges need not do with an ISO ::@:: Check intermarket prices, or route it to another exchange.
-- where the time is saved by a sweep ::@:: In the exchange-side check and the intermarket routing that a routed order needs.
-- discretion a broker-dealer has over the split ::@:: How to divide the order, provided trading cost and delay are kept down.
+- who is answerable for the best price when an ISO is used ::@:: The broker, not the exchange. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what an ISO must consume ::@:: The best price, as it stood at the time the order was placed. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- when the sweep's best-price obligation is discharged ::@:: Before anything is released, since the broker has already made the check by then. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the exchanges need not do with an ISO ::@:: Check intermarket prices, or route it to another exchange. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- where the time is saved by a sweep ::@:: In the exchange-side check and the intermarket routing that a routed order needs. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- discretion a broker-dealer has over the split ::@:: How to divide the order, provided trading cost and delay are kept down. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## information leakage
 
@@ -79,11 +79,11 @@ The prints carry the timing as well as the size. In the worked case, executions 
 
 Flashcards for this section are as follows:
 
-- problems a sweep is meant to solve ::@:: Information leakage and stale prices, when executing a large block across several exchanges.
-- where the information leak on a routed order comes from ::@:: The pattern of executions as the order is routed from exchange to exchange.
-- what a rival infers from that pattern ::@:: That a large order is working through the market and that a remainder is still to come.
-- what a rival does with the inference ::@:: Trades ahead of the remainder.
-- times in the worked front-running case ::@:: Executions at A at 10:00:02 and at B at 10:00:03, and the rival reaches C before 10:00:06.
+- problems a sweep is meant to solve ::@:: Information leakage and stale prices, when executing a large block across several exchanges. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- where the information leak on a routed order comes from ::@:: The pattern of executions as the order is routed from exchange to exchange. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a rival infers from that pattern ::@:: That a large order is working through the market and that a remainder is still to come. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a rival does with the inference ::@:: Trades ahead of the remainder. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- times in the worked front-running case ::@:: Executions at A at 10:00:02 and at B at 10:00:03, and the rival reaches C before 10:00:06. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## observed order sizes
 
@@ -93,5 +93,5 @@ An ISO is meant to help a large block execute across exchanges. The sizes record
 
 Flashcards for this section are as follows:
 
-- average sizes of an intermarket sweep order, a plain immediate-or-cancel order, and a plain market order ::@:: 244 shares, 268 shares, and 278 shares respectively.
-- comparison of the observed intermarket sweep order sizes with what the instrument was designed for ::@:: The sizes are not large, so the reasons for using one are probably not the ones it was designed for.
+- average sizes of an intermarket sweep order, a plain immediate-or-cancel order, and a plain market order ::@:: 244 shares, 268 shares, and 278 shares respectively. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- comparison of the observed intermarket sweep order sizes with what the instrument was designed for ::@:: The sizes are not large, so the reasons for using one are probably not the ones it was designed for. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->

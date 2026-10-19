@@ -20,18 +20,18 @@ A person cannot be taken apart, and one factor cannot be varied inside a partici
 
 Flashcards for this section are as follows:
 
-- what a computational model is tested on ::@:: Behaviour, not anatomy.
-- how a computational model is tested ::@:: Run the program on the task, run the person on the task, compare.
-- the test of a computational model ::@:: A model passes when its performance on the task tracks the person's.
-- what a model that gets the same results as a person is ::@:: A working account of what that person is doing.
-- what matching behaviour does not prove ::@:: That the two work in the same way, since a different program could reach the same results.
-- whether a model has to be right to be useful ::@:: No.
-- what a model that is wrong in one particular way still argues against ::@:: Any explanation that would be wrong in the same way.
-- what cannot be done to a person ::@:: Taking them apart.
-- what cannot be done to one factor inside a participant ::@:: Varying it while holding the rest still.
-- the factors inside a model ::@:: Every factor is a parameter, and changing one gives an exact answer.
-- how researchers usually infer an account of a process ::@:: From a correlation between performance and whatever else changed with it.
-- what a person gives where a model gives something else ::@:: A number, against an explanation that comes apart piece by piece.
+- what a computational model is tested on ::@:: Behaviour, not anatomy. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how a computational model is tested ::@:: Run the program on the task, run the person on the task, compare. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the test of a computational model ::@:: A model passes when its performance on the task tracks the person's. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a model that gets the same results as a person is ::@:: A working account of what that person is doing. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what matching behaviour does not prove ::@:: That the two work in the same way, since a different program could reach the same results. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- whether a model has to be right to be useful ::@:: No. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a model that is wrong in one particular way still argues against ::@:: Any explanation that would be wrong in the same way. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what cannot be done to a person ::@:: Taking them apart. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what cannot be done to one factor inside a participant ::@:: Varying it while holding the rest still. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the factors inside a model ::@:: Every factor is a parameter, and changing one gives an exact answer. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how researchers usually infer an account of a process ::@:: From a correlation between performance and whatever else changed with it. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a person gives where a model gives something else ::@:: A number, against an explanation that comes apart piece by piece. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## reading a damaged model
 
@@ -47,16 +47,16 @@ The model's decomposition predicts one particular pattern, not that the brain us
 
 Flashcards for this section are as follows:
 
-- what happens to a face-recognition model when one component is damaged ::@:: It recognises Asian faces less well and Caucasian faces just as well.
-- what the damaged model's asymmetry predicts about people ::@:: A person with damage in the corresponding place should show the same asymmetry.
-- what the model has located when people show the asymmetry ::@:: The part of the process that both cases share.
-- what people showing that asymmetry would establish ::@:: That the account treating face recognition as one undifferentiated operation is wrong.
-- what happens when people do not show the asymmetry ::@:: The model is wrong.
-- what a damaged model can do that a person cannot ::@:: It predicts a result without a new participant.
-- what the damaged-model comparison is worth running for ::@:: A manipulation no brain could receive made the error visible.
-- what a model is best at ::@:: Diagnosing a process.
-- what the damaged-model comparison does not establish ::@:: That the brain uses the same decomposition as the model.
-- what could produce the same asymmetry in another model ::@:: A model that splits the process into different parts.
+- what happens to a face-recognition model when one component is damaged ::@:: It recognises Asian faces less well and Caucasian faces just as well. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the damaged model's asymmetry predicts about people ::@:: A person with damage in the corresponding place should show the same asymmetry. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the model has located when people show the asymmetry ::@:: The part of the process that both cases share. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what people showing that asymmetry would establish ::@:: That the account treating face recognition as one undifferentiated operation is wrong. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what happens when people do not show the asymmetry ::@:: The model is wrong. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a damaged model can do that a person cannot ::@:: It predicts a result without a new participant. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the damaged-model comparison is worth running for ::@:: A manipulation no brain could receive made the error visible. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a model is best at ::@:: Diagnosing a process. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the damaged-model comparison does not establish ::@:: That the brain uses the same decomposition as the model. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what could produce the same asymmetry in another model ::@:: A model that splits the process into different parts. <!--SR:!fsrs,2026-11-10T00:10:00.000Z,0,2.3065,2.11810397,1,1,0,1,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## references
 

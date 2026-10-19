@@ -24,18 +24,18 @@ Averaging cancels whatever has no fixed relationship to the event. The stereotyp
 
 Flashcards for this section are as follows:
 
-- where the activity an electroencephalogram records comes from ::@:: An electroencephalogram records the brain's own electrical activity.
-- what the electrodes on the scalp do ::@:: The scalp electrodes measure a voltage difference between two points on the head; they do not produce the activity.
-- what the measured signal is ::@:: The signal is the summed postsynaptic activity of the neurons beneath the electrode.
-- the method establishes about a signal ::@:: The method dates an event without locating it.
-- the temporal resolution of electroencephalography ::@:: Electroencephalography pins down when something happened very well.
-- how electroencephalography differs from functional magnetic resonance imaging ::@:: EEG reads the electrical activity itself; functional magnetic resonance imaging reads a slow consequence of it.
-- the spatial resolution of electroencephalography ::@:: Electroencephalography is poor at showing where in the brain the activity came from.
-- why the spatial resolution is poor ::@:: The field reaching one electrode could have been generated almost anywhere in the brain.
-- what a raw recording looks like before averaging ::@:: A raw recording is a mass of overlapping activity.
-- what an event-related potential is ::@:: An event-related potential is the stereotyped response left after averaging segments of a recording aligned to a specific event.
-- what the averaging does ::@:: Averaging cancels the activity that has no fixed relationship to the event and leaves the stereotyped response to it.
-- why component naming is easy to get wrong ::@:: People mix up the shape of a deflection and its sign.
+- where the activity an electroencephalogram records comes from ::@:: An electroencephalogram records the brain's own electrical activity. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the electrodes on the scalp do ::@:: The scalp electrodes measure a voltage difference between two points on the head; they do not produce the activity. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the measured signal is ::@:: The signal is the summed postsynaptic activity of the neurons beneath the electrode. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the method establishes about a signal ::@:: The method dates an event without locating it. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the temporal resolution of electroencephalography ::@:: Electroencephalography pins down when something happened very well. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how electroencephalography differs from functional magnetic resonance imaging ::@:: EEG reads the electrical activity itself; functional magnetic resonance imaging reads a slow consequence of it. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the spatial resolution of electroencephalography ::@:: Electroencephalography is poor at showing where in the brain the activity came from. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why the spatial resolution is poor ::@:: The field reaching one electrode could have been generated almost anywhere in the brain. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a raw recording looks like before averaging ::@:: A raw recording is a mass of overlapping activity. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what an event-related potential is ::@:: An event-related potential is the stereotyped response left after averaging segments of a recording aligned to a specific event. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the averaging does ::@:: Averaging cancels the activity that has no fixed relationship to the event and leaves the stereotyped response to it. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why component naming is easy to get wrong ::@:: People mix up the shape of a deflection and its sign. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## reading the waveform
 
@@ -49,22 +49,22 @@ P1 is the first positive deflection, near 80 ms. N2 is the second negative, near
 
 Flashcards for this section are as follows:
 
-- which axis carries time ::@:: The horizontal axis carries time, from the event to 500 milliseconds after it.
-- which axis carries voltage ::@:: The vertical axis carries voltage, with negative values drawn upward.
-- the polarity convention on the vertical axis ::@:: A peak above the baseline is negative, so N1 and N2 are drawn above it.
-- what a component is named for ::@:: The letter in a component name says what the deflection is, not when it occurs.
-- what the P in a component name stands for ::@:: P marks a positive deflection.
-- what the N in a component name stands for ::@:: N marks a negative deflection.
-- what the number after a component name gives ::@:: The number after the letter gives the approximate latency in tens of milliseconds.
-- the approximate latency of the P1 component ::@:: P1 has an approximate latency of 50 milliseconds.
-- the approximate latency of the N1 component ::@:: N1 has an approximate latency of 100 milliseconds.
-- the approximate latency of the P2 component ::@:: P2 has an approximate latency of 175 milliseconds.
-- the approximate latency of the N2 component ::@:: N2 has an approximate latency of 230 milliseconds.
-- the approximate latency of the P3 component ::@:: P3 has an approximate latency of 350 to 400 milliseconds, and it is the largest deflection.
-- ![an event-related potential waveform over the first 500 milliseconds: P1 dipping about 80 milliseconds, N1 rising about 120, P2 dipping about 175, N2 rising about 230, and a broad P3 dip about 400 milliseconds. Negative voltage is drawn above the baseline and positive below](attachments/ComponentsofERP.svg) ::@:: An event-related potential with its labelled components, drawn with negative voltage above the baseline.
-- draw the first two components of an event-related potential ::@:: P1 dips below the baseline at about 80 ms. N1 rises above at about 120 ms.
-- the next two components of an event-related potential ::@:: P2 dips below the baseline at about 175 ms. N2 rises above at about 230 ms.
-- the last component of an event-related potential ::@:: P3 is a broad dip below the baseline around 400 ms, the largest deflection in the trace. <p> ![an event-related potential waveform over the first 500 milliseconds: P1 dipping about 80 milliseconds, N1 rising about 120, P2 dipping about 175, N2 rising about 230, and a broad P3 dip about 400 milliseconds. Negative voltage is drawn above the baseline and positive below](attachments/ComponentsofERP.svg)
+- which axis carries time ::@:: The horizontal axis carries time, from the event to 500 milliseconds after it. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- which axis carries voltage ::@:: The vertical axis carries voltage, with negative values drawn upward. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the polarity convention on the vertical axis ::@:: A peak above the baseline is negative, so N1 and N2 are drawn above it. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a component is named for ::@:: The letter in a component name says what the deflection is, not when it occurs. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the P in a component name stands for ::@:: P marks a positive deflection. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the N in a component name stands for ::@:: N marks a negative deflection. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the number after a component name gives ::@:: The number after the letter gives the approximate latency in tens of milliseconds. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the approximate latency of the P1 component ::@:: P1 has an approximate latency of 50 milliseconds. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the approximate latency of the N1 component ::@:: N1 has an approximate latency of 100 milliseconds. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the approximate latency of the P2 component ::@:: P2 has an approximate latency of 175 milliseconds. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the approximate latency of the N2 component ::@:: N2 has an approximate latency of 230 milliseconds. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the approximate latency of the P3 component ::@:: P3 has an approximate latency of 350 to 400 milliseconds, and it is the largest deflection. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- ![an event-related potential waveform over the first 500 milliseconds: P1 dipping about 80 milliseconds, N1 rising about 120, P2 dipping about 175, N2 rising about 230, and a broad P3 dip about 400 milliseconds. Negative voltage is drawn above the baseline and positive below](attachments/ComponentsofERP.svg) ::@:: An event-related potential with its labelled components, drawn with negative voltage above the baseline. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- draw the first two components of an event-related potential ::@:: P1 dips below the baseline at about 80 ms. N1 rises above at about 120 ms. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the next two components of an event-related potential ::@:: P2 dips below the baseline at about 175 ms. N2 rises above at about 230 ms. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the last component of an event-related potential ::@:: P3 is a broad dip below the baseline around 400 ms, the largest deflection in the trace. <p> ![an event-related potential waveform over the first 500 milliseconds: P1 dipping about 80 milliseconds, N1 rising about 120, P2 dipping about 175, N2 rising about 230, and a broad P3 dip about 400 milliseconds. Negative voltage is drawn above the baseline and positive below](attachments/ComponentsofERP.svg) <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## references
 

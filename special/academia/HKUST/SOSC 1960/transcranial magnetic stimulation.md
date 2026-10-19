@@ -21,17 +21,17 @@ The field weakens with distance from the coil, so a claim about a stimulated are
 
 Flashcards for this section are as follows:
 
-- what a magnetic pulse does to processing ::@:: A brief magnetic pulse interrupts processing in a small area of cortex and then lets it resume.
-- what a transcranial magnetic stimulation pulse induces ::@:: An electric current in the tissue under the coil, which activates neurons in a small area.
-- why the method is called a transient lesion ::@:: The induced current is brief, so processing resumes when the pulse ends.
-- what a stroke is, by comparison ::@:: A permanent lesion, unlike the brief one stimulation makes.
-- what a transient lesion allows that a permanent one does not ::@:: The same person can be tested before, during, and after the disruption.
-- why the stimulation stays localized ::@:: The field weakens with distance from the coil.
-- what a claim about a stimulated region covers ::@:: That patch of cortex, not the whole hemisphere.
-- the limit on where the method can reach ::@:: The cortical surface, so nothing deep in the brain can be reached this way.
-- what the pulse does to the connections themselves ::@:: The pulse leaves them intact, so it interrupts a region temporarily rather than cutting into the pathway.
-- ![a figure-eight coil held over a rendered brain, with red dashed lines tracing the magnetic field from the coil down into the cortex and a green dashed line marking the current induced along the surface it reaches](attachments/Transcranial%20magnetic%20stimulation.jpg) ::@:: A figure-eight coil sits over the cortex, its field runs down into the brain, and the current runs along the surface it reaches.
-- draw the setup a magnetic pulse passes through ::@:: A coil sits over the cortex, field lines run down from it, and the current runs along the surface they reach. <p> ![a figure-eight coil held over a rendered brain, with red dashed lines tracing the magnetic field from the coil down into the cortex and a green dashed line marking the current induced along the surface it reaches](attachments/Transcranial%20magnetic%20stimulation.jpg)
+- what a magnetic pulse does to processing ::@:: A brief magnetic pulse interrupts processing in a small area of cortex and then lets it resume. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a transcranial magnetic stimulation pulse induces ::@:: An electric current in the tissue under the coil, which activates neurons in a small area. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why the method is called a transient lesion ::@:: The induced current is brief, so processing resumes when the pulse ends. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a stroke is, by comparison ::@:: A permanent lesion, unlike the brief one stimulation makes. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a transient lesion allows that a permanent one does not ::@:: The same person can be tested before, during, and after the disruption. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why the stimulation stays localized ::@:: The field weakens with distance from the coil. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a claim about a stimulated region covers ::@:: That patch of cortex, not the whole hemisphere. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the limit on where the method can reach ::@:: The cortical surface, so nothing deep in the brain can be reached this way. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the pulse does to the connections themselves ::@:: The pulse leaves them intact, so it interrupts a region temporarily rather than cutting into the pathway. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- ![a figure-eight coil held over a rendered brain, with red dashed lines tracing the magnetic field from the coil down into the cortex and a green dashed line marking the current induced along the surface it reaches](attachments/Transcranial%20magnetic%20stimulation.jpg) ::@:: A figure-eight coil sits over the cortex, its field runs down into the brain, and the current runs along the surface it reaches. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-10T00:10:00.000Z,0,2.3065,2.11810397,1,1,0,1,2026-11-10T00:00:00.000Z-->
+- draw the setup a magnetic pulse passes through ::@:: A coil sits over the cortex, field lines run down from it, and the current runs along the surface they reach. <p> ![a figure-eight coil held over a rendered brain, with red dashed lines tracing the magnetic field from the coil down into the cortex and a green dashed line marking the current induced along the surface it reaches](attachments/Transcranial%20magnetic%20stimulation.jpg) <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## the interference with processing
 
@@ -49,16 +49,16 @@ The repeated pulses act on plasticity, the capacity of connections between neuro
 
 Flashcards for this section are as follows:
 
-- what pulse timing and repetition control ::@:: Stimulation disrupts or amplifies processing in a defined cortical area, through pulse timing and repetition.
-- what stimulation over the motor cortex can produce ::@:: A finger twitch, or a blocked button press when the pulse arrives just before it.
-- what stimulation over visual cortex can produce ::@:: Sensations of flashes of light, and a degraded visual process where one is needed.
-- why controlling the pulse timing relative to the task matters ::@:: Timing lets the method ask when a process happens.
-- what timing control buys over a scanner ::@:: Pulse timing resolves time better than a scanner does.
-- what repeated pulses produce ::@:: Effects that last longer than the pulse itself.
-- the two directions a repeated-pulse effect can take ::@:: Either dampens activity in the stimulated area or amplifies it.
-- what decides the direction of a repeated-pulse effect ::@:: The intensity, the coil's orientation, and the frequency.
-- the property of neural connections the repeated pulses explore ::@:: Plasticity, the capacity of connections between neurons to change.
-- the clinical use of the repeated pulses ::@:: TMS treats disorders by changing how excitable the stimulated area is.
+- what pulse timing and repetition control ::@:: Stimulation disrupts or amplifies processing in a defined cortical area, through pulse timing and repetition. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what stimulation over the motor cortex can produce ::@:: A finger twitch, or a blocked button press when the pulse arrives just before it. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what stimulation over visual cortex can produce ::@:: Sensations of flashes of light, and a degraded visual process where one is needed. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why controlling the pulse timing relative to the task matters ::@:: Timing lets the method ask when a process happens. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what timing control buys over a scanner ::@:: Pulse timing resolves time better than a scanner does. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what repeated pulses produce ::@:: Effects that last longer than the pulse itself. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the two directions a repeated-pulse effect can take ::@:: Either dampens activity in the stimulated area or amplifies it. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what decides the direction of a repeated-pulse effect ::@:: The intensity, the coil's orientation, and the frequency. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the property of neural connections the repeated pulses explore ::@:: Plasticity, the capacity of connections between neurons to change. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the clinical use of the repeated pulses ::@:: TMS treats disorders by changing how excitable the stimulated area is. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## references
 

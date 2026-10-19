@@ -21,11 +21,11 @@ The exchange sets those fees, not the regulator, and the rulebook takes no accou
 
 Flashcards for this section are as follows:
 
-- the take fee, the make rebate, and the exchange's share ::@:: A take fee paid by liquidity-taking orders, a smaller rebate received by liquidity-making orders, and the difference kept by the exchange.
-- take and make fees at the New York Stock Exchange ::@:: Take 0.21 cents and make 0.13 cents per share.
-- who sets the fees, and whether the rulebook accounts for them ::@:: The exchange sets them; the rulebook takes no account of them at all.
-- exchange profit on a matched take and make ::@:: $f_{\mathrm{take}} - f_{\mathrm{make}}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- relation between the take fee and the make rebate ::@:: The rebate is always the smaller of the two, $f_{\mathrm{make}} < f_{\mathrm{take}}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- the take fee, the make rebate, and the exchange's share ::@:: A take fee paid by liquidity-taking orders, a smaller rebate received by liquidity-making orders, and the difference kept by the exchange. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- take and make fees at the New York Stock Exchange ::@:: Take 0.21 cents and make 0.13 cents per share. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- who sets the fees, and whether the rulebook accounts for them ::@:: The exchange sets them; the rulebook takes no account of them at all. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- exchange profit on a matched take and make ::@:: $f_{\mathrm{take}} - f_{\mathrm{make}}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- relation between the take fee and the make rebate ::@:: The rebate is always the smaller of the two, $f_{\mathrm{make}} < f_{\mathrm{take}}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## make and take fees
 
@@ -37,9 +37,9 @@ Fees change what an order is. The fee schedule is a statement about which behavi
 
 Flashcards for this section are as follows:
 
-- what an inverted maker-taker structure does ::@:: Pays the taker rather than the maker.
-- two ways exchanges differ in their fees ::@:: The level they charge, and the structure they use.
-- what a venue's fee schedule reveals about the venue ::@:: Which behaviour it wants: taking liquidity or making it.
+- what an inverted maker-taker structure does ::@:: Pays the taker rather than the maker. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- two ways exchanges differ in their fees ::@:: The level they charge, and the structure they use. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a venue's fee schedule reveals about the venue ::@:: Which behaviour it wants: taking liquidity or making it. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## order-routing fees
 
@@ -51,12 +51,12 @@ Rule 610 is the access rule, and it covers liquidity-provision orders, the ones 
 
 Flashcards for this section are as follows:
 
-- what an order-routing fee is ::@:: A fee charged by the exchange that routes the order out.
-- symbol for the order-routing fee ::@:: $f_{\mathrm{route}}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- cap Rule 610 places on the routing fee ::@:: 0.3 cents per share.
-- routing fee the New York Stock Exchange charges ::@:: Exactly that cap, so it loses nothing when it routes an order out.
-- how Rule 610 blurs making and taking ::@:: A make order routed to another venue arrives as a taker there, and pays the take fee instead of receiving the rebate.
-- what the fee follows ::@:: The role the order plays on arrival, not where it was posted.
+- what an order-routing fee is ::@:: A fee charged by the exchange that routes the order out. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- symbol for the order-routing fee ::@:: $f_{\mathrm{route}}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- cap Rule 610 places on the routing fee ::@:: 0.3 cents per share. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- routing fee the New York Stock Exchange charges ::@:: Exactly that cap, so it loses nothing when it routes an order out. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how Rule 610 blurs making and taking ::@:: A make order routed to another venue arrives as a taker there, and pays the take fee instead of receiving the rebate. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the fee follows ::@:: The role the order plays on arrival, not where it was posted. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## price improvement from routing
 
@@ -83,8 +83,8 @@ Price improvement is measured against the best quote available when the order ar
 
 Flashcards for this section are as follows:
 
-- what price improvement is measured against ::@:: The best quote available when the order arrived.
-- what routing is worth to each side ::@:: A liquidity-taking order usually fills better than the quote it chased; a liquidity-making one usually fills at that same quote.
-- routed day limit orders receiving no price improvement ::@:: 77.49%, against 79.51% for routed reserve orders.
-- what a routed liquidity-making order still pays ::@:: The routing fee, with no price improvement in return.
-- what sets the price of routing ::@:: The fee schedule alone: Reg NMS does not take the fees into account.
+- what price improvement is measured against ::@:: The best quote available when the order arrived. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what routing is worth to each side ::@:: A liquidity-taking order usually fills better than the quote it chased; a liquidity-making one usually fills at that same quote. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- routed day limit orders receiving no price improvement ::@:: 77.49%, against 79.51% for routed reserve orders. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a routed liquidity-making order still pays ::@:: The routing fee, with no price improvement in return. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what sets the price of routing ::@:: The fee schedule alone: Reg NMS does not take the fees into account. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->

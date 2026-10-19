@@ -18,8 +18,8 @@ A scanning probe microscope drags a sharp tip across a surface, an atom's diamet
 
 Flashcards for this section are as follows:
 
-- overview: how a scanning probe microscope builds its image ::@:: A sharp tip is scanned across the surface an atom's diameter away while feedback holds the tip–sample interaction fixed, and the tip's height at each point draws a contour map of the surface atom by atom.
-- what an STM and an AFM each feels at the tip ::@:: An STM feels the tunnelling current across the tip–surface gap, so it needs a conducting sample; an AFM feels the force on a soft cantilever, so it works on any surface.
+- overview: how a scanning probe microscope builds its image ::@:: A sharp tip is scanned across the surface an atom's diameter away while feedback holds the tip–sample interaction fixed, and the tip's height at each point draws a contour map of the surface atom by atom. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what an STM and an AFM each feels at the tip ::@:: An STM feels the tunnelling current across the tip–surface gap, so it needs a conducting sample; an AFM feels the force on a soft cantilever, so it works on any surface. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## scanning tunnelling microscope
 
@@ -37,11 +37,11 @@ Because $I$ falls by nearly an order of magnitude for each ångström of extra g
 
 Flashcards for this section are as follows:
 
-- what carries the distance information in an STM current $I \propto V e^{-2d\sqrt{2m\phi}/\hbar}$ ::@:: The tunnelling dependence $I \propto V\,e^{-2d\sqrt{2m\phi}/\hbar}$ on the tip–surface gap $d$.
-- how the STM current $I \propto V e^{-2\kappa d}$ follows from the gap transmission ::@:: The wide-gap transmission is $T_{\mathrm{gap}} \approx e^{-2\kappa d}$ with $\kappa = \sqrt{2m\phi}/\hbar$, and the current is incident flux times transmission, with the flux carrying the bias $V$.
-- the sensitivity of an STM current to a gap change $dd$ ::@:: $dI/I = -2\kappa\, dd$; with $\phi \approx 5$ eV, $\kappa \approx 1.15\ \mathrm{\AA}^{-1}$, so each extra ångström multiplies $I$ by $e^{-2.3} \approx 0.1$.
-- the sensitivity of STM to gap width ::@:: Nearly one order of magnitude of current per ångström of extra separation, enough for atomic resolution.
-- what holds an STM tip at constant current while it scans ::@:: A feedback loop moves the tip up or down until the current returns to its set value, and the tip's height at each point traces the surface contours.
+- what carries the distance information in an STM current $I \propto V e^{-2d\sqrt{2m\phi}/\hbar}$ ::@:: The tunnelling dependence $I \propto V\,e^{-2d\sqrt{2m\phi}/\hbar}$ on the tip–surface gap $d$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how the STM current $I \propto V e^{-2\kappa d}$ follows from the gap transmission ::@:: The wide-gap transmission is $T_{\mathrm{gap}} \approx e^{-2\kappa d}$ with $\kappa = \sqrt{2m\phi}/\hbar$, and the current is incident flux times transmission, with the flux carrying the bias $V$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the sensitivity of an STM current to a gap change $dd$ ::@:: $dI/I = -2\kappa\, dd$; with $\phi \approx 5$ eV, $\kappa \approx 1.15\ \mathrm{\AA}^{-1}$, so each extra ångström multiplies $I$ by $e^{-2.3} \approx 0.1$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the sensitivity of STM to gap width ::@:: Nearly one order of magnitude of current per ångström of extra separation, enough for atomic resolution. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what holds an STM tip at constant current while it scans ::@:: A feedback loop moves the tip up or down until the current returns to its set value, and the tip's height at each point traces the surface contours. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## atomic force microscope
 
@@ -55,8 +55,8 @@ Because it senses force rather than current, the AFM needs no conducting surface
 
 Flashcards for this section are as follows:
 
-- overview: how an atomic force microscope turns tip–sample force into a topographic map ::@:: The interatomic forces bend a soft cantilever carrying the tip, a laser reflected onto a position detector reads the deflection, feedback moves the sample until the deflection is fixed, and the recorded sample motion is the topography.
-- the spring constant of a microfabricated AFM cantilever, set against household aluminium foil ::@:: Silicon cantilevers reach 0.1 N/m, while a 4 mm by 1 mm piece of household aluminium foil is about 1 N/m.
-- the tracking force and tip end-size of an AFM ::@:: Tracking forces reach down to $10^{-9}$ N, and the tapered tip may end only 50 nm across. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- what an AFM needs that an STM does not, and the surfaces that follow from it ::@:: No conducting surface, no special sample preparation, and no expensive vacuum; ceramics, polymers, optical surfaces, and biological specimens can all be imaged.
-- why an AFM needs special vibrational insulation ::@:: Air currents and even human voices move the sensitive cantilever, so the instrument must be isolated from vibration.
+- overview: how an atomic force microscope turns tip–sample force into a topographic map ::@:: The interatomic forces bend a soft cantilever carrying the tip, a laser reflected onto a position detector reads the deflection, feedback moves the sample until the deflection is fixed, and the recorded sample motion is the topography. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the spring constant of a microfabricated AFM cantilever, set against household aluminium foil ::@:: Silicon cantilevers reach 0.1 N/m, while a 4 mm by 1 mm piece of household aluminium foil is about 1 N/m. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the tracking force and tip end-size of an AFM ::@:: Tracking forces reach down to $10^{-9}$ N, and the tapered tip may end only 50 nm across. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what an AFM needs that an STM does not, and the surfaces that follow from it ::@:: No conducting surface, no special sample preparation, and no expensive vacuum; ceramics, polymers, optical surfaces, and biological specimens can all be imaged. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why an AFM needs special vibrational insulation ::@:: Air currents and even human voices move the sensitive cantilever, so the instrument must be isolated from vibration. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->

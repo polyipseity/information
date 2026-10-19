@@ -67,10 +67,10 @@ The instantaneous current is the derivative of the charge with respect to time, 
 
 Flashcards for this section are as follows:
 
-- average, instantaneous, and constant current / constant current for charge $\Delta Q$ crossing uniformly in time $\Delta t$ ::@:: The current is the constant $I = \Delta Q/\Delta t$.
-- average, instantaneous, and constant current / instantaneous current for charge $q(t)$ at the instant $t$ ::@:: $i(t) = \frac{dq(t)}{dt}$.
-- average, instantaneous, and constant current / average current of $i(t)$ over $0$ to $T$ ::@:: $I = \frac{1}{T}\int_0^T i(t)\,dt$.
-- average, instantaneous, and constant current / instantaneous current for the charge $q(t) = 5t$ in coulombs with $t$ in seconds ::@:: $i(t) = \frac{dq(t)}{dt} = \frac{d}{dt}(5t) = 5\text{ A}$.
+- average, instantaneous, and constant current / constant current for charge $\Delta Q$ crossing uniformly in time $\Delta t$ ::@:: The current is the constant $I = \Delta Q/\Delta t$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- average, instantaneous, and constant current / instantaneous current for charge $q(t)$ at the instant $t$ ::@:: $i(t) = \frac{dq(t)}{dt}$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- average, instantaneous, and constant current / average current of $i(t)$ over $0$ to $T$ ::@:: $I = \frac{1}{T}\int_0^T i(t)\,dt$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- average, instantaneous, and constant current / instantaneous current for the charge $q(t) = 5t$ in coulombs with $t$ in seconds ::@:: $i(t) = \frac{dq(t)}{dt} = \frac{d}{dt}(5t) = 5\text{ A}$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## charge capacity units
 

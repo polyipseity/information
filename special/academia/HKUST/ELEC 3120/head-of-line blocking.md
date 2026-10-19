@@ -28,9 +28,9 @@ HTTP 1.0 never gets that far, because every object has a connection of its own a
 
 Flashcards for this section are as follows:
 
-- what does pipelining do to a slow object? ::@:: Nothing helps it: responses keep request order, so a slow object holds every later one on the connection and the pipe idles
-- what is application-layer HOL blocking? ::@:: Blocking the protocol itself imposes, such as HTTP 1.1 answering pipelined requests strictly in order
-- which HTTP version first puts a queue of objects on one connection? ::@:: HTTP 1.1, whose pipelining shares a connection. HTTP 1.0 gives every object a connection of its own, so nothing queues
+- what does pipelining do to a slow object? ::@:: Nothing helps it: responses keep request order, so a slow object holds every later one on the connection and the pipe idles <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what is application-layer HOL blocking? ::@:: Blocking the protocol itself imposes, such as HTTP 1.1 answering pipelined requests strictly in order <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- which HTTP version first puts a queue of objects on one connection? ::@:: HTTP 1.1, whose pipelining shares a connection. HTTP 1.0 gives every object a connection of its own, so nothing queues <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## transport-layer HOL blocking in TCP
 
@@ -40,8 +40,8 @@ TCP hands bytes over in order, so a lost packet holds up every byte queued behin
 
 Flashcards for this section are as follows:
 
-- what does a lost packet cost on a TCP connection? ::@:: Every byte behind it, since TCP hands bytes over in order and the receive buffer waits for the retransmission
-- what is still wrong with HTTP/2? ::@:: It clears the Layer 7 queue with streams, but TCP's in-order delivery still blocks every stream at Layer 4 when a packet is lost
+- what does a lost packet cost on a TCP connection? ::@:: Every byte behind it, since TCP hands bytes over in order and the receive buffer waits for the retransmission <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what is still wrong with HTTP/2? ::@:: It clears the Layer 7 queue with streams, but TCP's in-order delivery still blocks every stream at Layer 4 when a packet is lost <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## fixes across protocol generations
 
@@ -57,6 +57,6 @@ The [version comparison](HTTP.md#version%20comparison) says which queue each ver
 
 Flashcards for this section are as follows:
 
-- how do separate connections help, and what do they cost? ::@:: A slow response then blocks only its own connection. The network pays for it, since every connection runs its own congestion control
-- what do HTTP/2 streams fix? ::@:: Multiplexing on one persistent connection with out-of-order responses takes out the Layer 7 queue, and the Layer 4 queue over TCP remains
-- what does QUIC add? ::@:: Per-stream reliability over UDP takes out the Layer 4 queue as well, so a loss on one stream delays no other
+- how do separate connections help, and what do they cost? ::@:: A slow response then blocks only its own connection. The network pays for it, since every connection runs its own congestion control <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what do HTTP/2 streams fix? ::@:: Multiplexing on one persistent connection with out-of-order responses takes out the Layer 7 queue, and the Layer 4 queue over TCP remains <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what does QUIC add? ::@:: Per-stream reliability over UDP takes out the Layer 4 queue as well, so a loss on one stream delays no other <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->

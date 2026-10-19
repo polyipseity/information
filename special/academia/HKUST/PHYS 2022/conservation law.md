@@ -15,10 +15,10 @@ A _conservation law_ states that some measurable property of an isolated physica
 
 Flashcards for this section are as follows:
 
-- what is the definition of a conservation law ::@:: A statement that a measurable property of an isolated physical system does not change as the system evolves.
-- the four conserved quantities and the condition each conservation needs ::@:: Energy in all its forms and electric charge, both in all interactions; linear momentum, without external forces; and angular momentum, without external torque.
-- the quantity relativity adds to the conservation of energy, and the name the pair takes ::@:: Mass joins energy as conserved, the pair sometimes called mass-energy, though conservation of energy is still the term used.
-- the conserved quantities that appear at the level of elementary particles ::@:: Baryon number and lepton number.
+- what is the definition of a conservation law ::@:: A statement that a measurable property of an isolated physical system does not change as the system evolves. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the four conserved quantities and the condition each conservation needs ::@:: Energy in all its forms and electric charge, both in all interactions; linear momentum, without external forces; and angular momentum, without external torque. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the quantity relativity adds to the conservation of energy, and the name the pair takes ::@:: Mass joins energy as conserved, the pair sometimes called mass-energy, though conservation of energy is still the term used. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the conserved quantities that appear at the level of elementary particles ::@:: Baryon number and lepton number. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## invariances behind the laws
 
@@ -32,8 +32,8 @@ Flashcards for this section are as follows:
 - linear momentum conservation: the invariance behind it ::@:: Space invariance. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - angular momentum conservation: the invariance behind it ::@:: Rotation invariance. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - charge conservation: the invariance behind it ::@:: Gauge invariance. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
-- parameters that are invariant in some interactions and not others ::@:: Time reversal, parity, and distance.
-- the invariance of Newtonian mechanics that relativity has to give up ::@:: Newtonian, or Galilean, invariance; a new invariance principle is needed instead.
+- parameters that are invariant in some interactions and not others ::@:: Time reversal, parity, and distance. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the invariance of Newtonian mechanics that relativity has to give up ::@:: Newtonian, or Galilean, invariance; a new invariance principle is needed instead. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## status of the laws
 

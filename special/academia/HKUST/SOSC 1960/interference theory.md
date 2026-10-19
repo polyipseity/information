@@ -17,9 +17,9 @@ New learning can result in the inability to remember previously learned informat
 
 Flashcards for this section are as follows:
 
-- what retroactive and proactive interference share ::@:: Each is learning on one side of a retention interval disrupting memory for learning on the other side: retroactive runs from new to old, proactive from old to new.
-- what retroactive interference is ::@:: New learning resulting in the inability to remember previously learned information, as with an old and a new password.
-- what proactive interference is ::@:: Previously learned information interfering with memory for information learned later, as with parking in a regular or a new parking lot.
+- what retroactive and proactive interference share ::@:: Each is learning on one side of a retention interval disrupting memory for learning on the other side: retroactive runs from new to old, proactive from old to new. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what retroactive interference is ::@:: New learning resulting in the inability to remember previously learned information, as with an old and a new password. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what proactive interference is ::@:: Previously learned information interfering with memory for information learned later, as with parking in a regular or a new parking lot. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## references
 

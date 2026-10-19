@@ -18,9 +18,9 @@ It was a project about connection. Sixteen matching engines trading separately a
 
 Flashcards for this section are as follows:
 
-- what the national market system project was ::@:: The project, from the mid-1970s to 2007, that made the sixteen United States stock exchanges behave as one consolidated venue.
-- what equal execution services meant for the project ::@:: Execution at the New York Stock Exchange was to be the same as execution at Nasdaq.
-- why connection is necessary at all ::@:: Sixteen separately matching engines are not one exchange, however similar their rules.
+- what the national market system project was ::@:: The project, from the mid-1970s to 2007, that made the sixteen United States stock exchanges behave as one consolidated venue. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what equal execution services meant for the project ::@:: Execution at the New York Stock Exchange was to be the same as execution at Nasdaq. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why connection is necessary at all ::@:: Sixteen separately matching engines are not one exchange, however similar their rules. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## connecting the venues
 
@@ -34,10 +34,10 @@ The execution price has to be protected across venues, or the best price on the 
 
 Flashcards for this section are as follows:
 
-- three dimensions the exchanges had to be connected in ::@:: Information, price tick, and execution price.
-- which machinery connects the information dimension ::@:: A securities information processor that aggregates what the exchanges report.
-- which rule standardises the price tick ::@:: The sub-penny rule, Rule 612.
-- which rules protect the execution price across venues ::@:: The order protection rule and the access rule, Rules 611 and 610.
+- three dimensions the exchanges had to be connected in ::@:: Information, price tick, and execution price. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- which machinery connects the information dimension ::@:: A securities information processor that aggregates what the exchanges report. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- which rule standardises the price tick ::@:: The sub-penny rule, Rule 612. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- which rules protect the execution price across venues ::@:: The order protection rule and the access rule, Rules 611 and 610. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## from a project to a rulebook
 
@@ -47,6 +47,6 @@ The national market system was not itself a rulebook. In June 2005 the SEC adopt
 
 Flashcards for this section are as follows:
 
-- what the national market system was, as an instrument ::@:: A project rather than a rulebook.
-- what replaced it in June 2005 ::@:: Regulation NMS, which states the same aim as four numbered rules.
-- privilege that keeps venues comparable in what they can trade ::@:: Unlisted trading privileges.
+- what the national market system was, as an instrument ::@:: A project rather than a rulebook. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what replaced it in June 2005 ::@:: Regulation NMS, which states the same aim as four numbered rules. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- privilege that keeps venues comparable in what they can trade ::@:: Unlisted trading privileges. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->

@@ -60,11 +60,11 @@ Li, Ye, and Zheng (2022, _Journal of Financial Economics_) measure that race as 
 
 Flashcards for this section are as follows:
 
-- what price-time priority means ::@:: Better prices execute first, and among same-price orders, first come first served.
-- why a speed race follows a liquidity consumption ::@:: The orders queued behind the price are served next, so the first to refill it takes the front of the queue.
-- what a first responder is ::@:: A non-marketable limit order that refills the price where liquidity was consumed, within 0.1 seconds of the order that took it.
-- average first responders per day against average trades per day ::@:: 495 against 1,652.
-- share of first responders that are do-not-ship limit orders ::@:: 75.6%, against 24.4% day limit orders.
+- what price-time priority means ::@:: Better prices execute first, and among same-price orders, first come first served. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why a speed race follows a liquidity consumption ::@:: The orders queued behind the price are served next, so the first to refill it takes the front of the queue. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a first responder is ::@:: A non-marketable limit order that refills the price where liquidity was consumed, within 0.1 seconds of the order that took it. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- average first responders per day against average trades per day ::@:: 495 against 1,652. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- share of first responders that are do-not-ship limit orders ::@:: 75.6%, against 24.4% day limit orders. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## execution quality
 

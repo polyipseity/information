@@ -18,10 +18,10 @@ Positron emission tomography records blood flow. A radioactive substance is inje
 
 Flashcards for this section are as follows:
 
-- what positron emission tomography records ::@:: Blood flow.
-- when the radioactive substance is injected ::@:: Just before or while the person performs a task.
-- how an active region is picked out on a PET scan ::@:: Active regions call for more blood than inactive ones, so more of the radioactive substance is found there.
-- what a PET scan of a brain shows: ![An axial slice from a positron emission tomography scan of a brain, coloured region by region by how much of the tracer each collected](attachments/PET%20Normal%20brain.jpg) ::@:: A single axial slice of the brain, coloured region by region by how much of the tracer each part collected.
+- what positron emission tomography records ::@:: Blood flow. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- when the radioactive substance is injected ::@:: Just before or while the person performs a task. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how an active region is picked out on a PET scan ::@:: Active regions call for more blood than inactive ones, so more of the radioactive substance is found there. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a PET scan of a brain shows: ![An axial slice from a positron emission tomography scan of a brain, coloured region by region by how much of the tracer each collected](attachments/PET%20Normal%20brain.jpg) ::@:: A single axial slice of the brain, coloured region by region by how much of the tracer each part collected. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## resolution
 
@@ -33,11 +33,11 @@ The method also costs the person an injection, so a task has to be worth injecti
 
 Flashcards for this section are as follows:
 
-- the spatial resolution of a PET scan ::@:: Good.
-- the temporal resolution of a PET scan ::@:: Poor.
-- why PET's temporal resolution is poor ::@:: Blood takes at least several seconds to reach a region after it becomes active.
-- what PET and functional magnetic resonance imaging read ::@:: The blood supply rather than the neurons.
-- what PET costs that a scan without a tracer does not ::@:: An injection, so a task has to be worth injecting someone for before it is worth scanning.
+- the spatial resolution of a PET scan ::@:: Good. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the temporal resolution of a PET scan ::@:: Poor. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why PET's temporal resolution is poor ::@:: Blood takes at least several seconds to reach a region after it becomes active. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what PET and functional magnetic resonance imaging read ::@:: The blood supply rather than the neurons. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what PET costs that a scan without a tracer does not ::@:: An injection, so a task has to be worth injecting someone for before it is worth scanning. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## references
 

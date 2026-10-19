@@ -17,8 +17,8 @@ The particle in a box, the infinite square well, is the simplest system with qua
 
 Flashcards for this section are as follows:
 
-- overview: what the particle-in-a-box model is, and its levels $E_n$ ::@:: A particle of mass $m$ confined to $0 < x < L$ by impenetrable walls, with $V = 0$ inside and $V = \infty$ outside; its energies are quantised as $E_n = n^2h^2/(8mL^2)$.
-- the ground-state energy $E_1$ of the box ::@:: $E_1 = h^2/(8mL^2)$, nonzero — the particle cannot be at rest.
+- overview: what the particle-in-a-box model is, and its levels $E_n$ ::@:: A particle of mass $m$ confined to $0 < x < L$ by impenetrable walls, with $V = 0$ inside and $V = \infty$ outside; its energies are quantised as $E_n = n^2h^2/(8mL^2)$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the ground-state energy $E_1$ of the box ::@:: $E_1 = h^2/(8mL^2)$, nonzero — the particle cannot be at rest. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## standing-wave quantisation
 
@@ -28,10 +28,10 @@ Confine a wave between two fixed walls and only wavelengths that fit survive: $n
 
 Flashcards for this section are as follows:
 
-- the standing-wave condition between $\lambda$ and $L$ inside the box ::@:: $n(\lambda/2) = L$, hence $\lambda_n = 2L/n$ for $n = 1, 2, 3, \ldots$.
-- the momentum a standing wavelength $\lambda_n = 2L/n$ carries in the box ::@:: The de Broglie relation gives $p = h/\lambda_n$, so $p_n = nh/(2L)$.
-- how the energy levels $E_n$ follow from the momenta $p_n$ ::@:: $E_n = p_n^2/2m$ with $p_n = nh/(2L)$ gives $E_n = n^2h^2/(8mL^2)$.
-- how the uncertainty floor $\hbar^2/(2mL^2)$ for a box of width $L$ compares with the standing-wave ground level $E_1$ ::@:: $E_1 = \pi^2\hbar^2/(2mL^2)$ sits $\pi^2$ above the floor; both keep the ground state above zero, and the standing-wave count is the sharper calculation.
+- the standing-wave condition between $\lambda$ and $L$ inside the box ::@:: $n(\lambda/2) = L$, hence $\lambda_n = 2L/n$ for $n = 1, 2, 3, \ldots$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the momentum a standing wavelength $\lambda_n = 2L/n$ carries in the box ::@:: The de Broglie relation gives $p = h/\lambda_n$, so $p_n = nh/(2L)$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how the energy levels $E_n$ follow from the momenta $p_n$ ::@:: $E_n = p_n^2/2m$ with $p_n = nh/(2L)$ gives $E_n = n^2h^2/(8mL^2)$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how the uncertainty floor $\hbar^2/(2mL^2)$ for a box of width $L$ compares with the standing-wave ground level $E_1$ ::@:: $E_1 = \pi^2\hbar^2/(2mL^2)$ sits $\pi^2$ above the floor; both keep the ground state above zero, and the standing-wave count is the sharper calculation. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 <!-- check: ignore-next-line[header_style]: proper noun (eponym) -->
 ## Schrödinger derivation
@@ -42,17 +42,17 @@ Inside the well the time-independent Schrödinger equation is $-\frac{\hbar^2}{2
 
 Flashcards for this section are as follows:
 
-- what the boundary condition $\psi(0) = 0$ does to $\psi = A\sin kx + B\cos kx$ ::@:: $\psi(0) = 0$ sets $B = 0$, killing the cosine part.
-- what the boundary condition $\psi(L) = 0$ forces on $k$ ::@:: $\psi(L) = 0$ forces $\sin kL = 0$, so $k_n = n\pi/L$ with $n \geq 1$.
-- the normalised ground-state wave function $\psi_1(x)$ ::@:: $\psi_1(x) = \sqrt{2/L}\,\sin(\pi x/L)$, with energy $E_1 = \pi^2\hbar^2/(2mL^2) = h^2/(8mL^2)$.
-- why $n = 0$ is excluded ::@:: It gives $\psi = 0$ everywhere — no particle — and $n$ and $-n$ give the same physical state up to a sign.
-- the value of the normalisation integral $\int_0^L \sin^2(n\pi x/L)\,dx$ for the box eigenfunctions ::@:: $\int_0^L \sin^2(n\pi x/L)\,dx = L/2$ for every integer $n \geq 1$.
-- the normalised box eigenfunction that the integral $\int_0^L \sin^2(n\pi x/L)\,dx = L/2$ produces ::@:: $\psi_n(x) = \sqrt{2/L}\,\sin(n\pi x/L)$ on $0 < x < L$.
-- what forcing $\psi$ to zero across the zero width of an infinite wall does to $\psi'$ ::@:: $\psi'$ jumps at each wall, a derivative discontinuity at the boundary.
-- what the jump in $\psi'$ at an infinite wall implies physically ::@:: The discontinuity is the trace of an infinitely repulsive force; $V = \infty$ idealises a very steep finite wall rather than a physical potential.
-- Euler's formula connecting $e^{\pm ikx}$ to the trigonometric functions ::@:: $e^{\pm ikx} = \cos kx \pm i\sin kx$.
-- what Euler's formula $e^{\pm ikx} = \cos kx \pm i\sin kx$ implies for the solutions of $\psi'' = -k^2\psi$ ::@:: The complex exponentials $\psi = Ae^{ikx} + Be^{-ikx}$ and the real pair $\psi = A\sin kx + B\cos kx$ span the same solution space.
-- why the box is solved with $\sin kx$ and $\cos kx$ rather than $e^{\pm ikx}$ ::@:: For a real symmetric well the trigonometric basis keeps $\psi$ real and exposes the parity of the states.
+- what the boundary condition $\psi(0) = 0$ does to $\psi = A\sin kx + B\cos kx$ ::@:: $\psi(0) = 0$ sets $B = 0$, killing the cosine part. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the boundary condition $\psi(L) = 0$ forces on $k$ ::@:: $\psi(L) = 0$ forces $\sin kL = 0$, so $k_n = n\pi/L$ with $n \geq 1$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the normalised ground-state wave function $\psi_1(x)$ ::@:: $\psi_1(x) = \sqrt{2/L}\,\sin(\pi x/L)$, with energy $E_1 = \pi^2\hbar^2/(2mL^2) = h^2/(8mL^2)$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why $n = 0$ is excluded ::@:: It gives $\psi = 0$ everywhere — no particle — and $n$ and $-n$ give the same physical state up to a sign. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the value of the normalisation integral $\int_0^L \sin^2(n\pi x/L)\,dx$ for the box eigenfunctions ::@:: $\int_0^L \sin^2(n\pi x/L)\,dx = L/2$ for every integer $n \geq 1$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the normalised box eigenfunction that the integral $\int_0^L \sin^2(n\pi x/L)\,dx = L/2$ produces ::@:: $\psi_n(x) = \sqrt{2/L}\,\sin(n\pi x/L)$ on $0 < x < L$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what forcing $\psi$ to zero across the zero width of an infinite wall does to $\psi'$ ::@:: $\psi'$ jumps at each wall, a derivative discontinuity at the boundary. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the jump in $\psi'$ at an infinite wall implies physically ::@:: The discontinuity is the trace of an infinitely repulsive force; $V = \infty$ idealises a very steep finite wall rather than a physical potential. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- Euler's formula connecting $e^{\pm ikx}$ to the trigonometric functions ::@:: $e^{\pm ikx} = \cos kx \pm i\sin kx$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what Euler's formula $e^{\pm ikx} = \cos kx \pm i\sin kx$ implies for the solutions of $\psi'' = -k^2\psi$ ::@:: The complex exponentials $\psi = Ae^{ikx} + Be^{-ikx}$ and the real pair $\psi = A\sin kx + B\cos kx$ span the same solution space. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why the box is solved with $\sin kx$ and $\cos kx$ rather than $e^{\pm ikx}$ ::@:: For a real symmetric well the trigonometric basis keeps $\psi$ real and exposes the parity of the states. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## probability and nodes
 
@@ -62,10 +62,10 @@ The probability density $|\psi_n(x)|^2 = (2/L)\sin^2(n\pi x/L)$ oscillates $n$ t
 
 Flashcards for this section are as follows:
 
-- the node count of the $n$-th level ::@:: $n-1$ interior nodes, where $|\psi_n|^2 = 0$.
-- the mean position $\langle x \rangle$ and mean momentum $\langle p \rangle$ in any level ::@:: $\langle x \rangle = L/2$ by symmetry; $\langle p \rangle = 0$ because the state is real and stationary, while $\langle p^2 \rangle = 2mE_n \neq 0$.
-- how the quantum density $|\psi_n|^2$ approaches the classical one ::@:: As $n$ grows, the oscillations of $|\psi_n|^2$ average to the uniform density $1/L$ — the correspondence limit.
-- the level $n = 3$ of a box of width $L$: which function is drawn for it, and how many interior nodes does it have? :@: The wave function $\psi_3(x) = \sqrt{2/L}\,\sin(3\pi x/L)$, with two interior nodes at $x = L/3$ and $x = 2L/3$ splitting it into three lobes. <p> ![three axes side by side, each showing psi for one level of a box: n = 1 is a single hump above the dashed zero line, n = 2 has one node at the centre of the box, n = 3 has two nodes splitting it into three lobes, and every curve starts and ends on the line at the two walls](attachments/box_state_wave_functions.svg)
+- the node count of the $n$-th level ::@:: $n-1$ interior nodes, where $|\psi_n|^2 = 0$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the mean position $\langle x \rangle$ and mean momentum $\langle p \rangle$ in any level ::@:: $\langle x \rangle = L/2$ by symmetry; $\langle p \rangle = 0$ because the state is real and stationary, while $\langle p^2 \rangle = 2mE_n \neq 0$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how the quantum density $|\psi_n|^2$ approaches the classical one ::@:: As $n$ grows, the oscillations of $|\psi_n|^2$ average to the uniform density $1/L$ — the correspondence limit. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the level $n = 3$ of a box of width $L$: which function is drawn for it, and how many interior nodes does it have? :@: The wave function $\psi_3(x) = \sqrt{2/L}\,\sin(3\pi x/L)$, with two interior nodes at $x = L/3$ and $x = 2L/3$ splitting it into three lobes. <p> ![three axes side by side, each showing psi for one level of a box: n = 1 is a single hump above the dashed zero line, n = 2 has one node at the centre of the box, n = 3 has two nodes splitting it into three lobes, and every curve starts and ends on the line at the two walls](attachments/box_state_wave_functions.svg) <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## correspondence with the vibrating string
 
@@ -75,8 +75,8 @@ A string fixed at both ends supports the same harmonic series: its allowed wavel
 
 Flashcards for this section are as follows:
 
-- the shared structure: which $\lambda_n$ do the box and the fixed string allow? ::@:: Both allow $\lambda_n = 2L/n$ with $n-1$ interior nodes; the box adds $E_n = n^2h^2/(8mL^2)$ through $E = p^2/2m$.
-- how the box's energy ladder compares with the string's frequency ladder $f_n = nv/2L$ ::@:: String frequencies are equally spaced; box energies grow as $n^2$, so the level gaps widen with $n$, though both count modes through $\lambda_n = 2L/n$.
+- the shared structure: which $\lambda_n$ do the box and the fixed string allow? ::@:: Both allow $\lambda_n = 2L/n$ with $n-1$ interior nodes; the box adds $E_n = n^2h^2/(8mL^2)$ through $E = p^2/2m$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how the box's energy ladder compares with the string's frequency ladder $f_n = nv/2L$ ::@:: String frequencies are equally spaced; box energies grow as $n^2$, so the level gaps widen with $n$, though both count modes through $\lambda_n = 2L/n$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## three-dimensional box
 
@@ -86,8 +86,8 @@ Confining the particle to a rectangular box of sides $L_x, L_y, L_z$ adds two mo
 
 Flashcards for this section are as follows:
 
-- the energies of a rectangular box $L_x, L_y, L_z$ ::@:: $E = \frac{\pi^2\hbar^2}{2m}\left(\frac{n_x^2}{L_x^2} + \frac{n_y^2}{L_y^2} + \frac{n_z^2}{L_z^2}\right)$ from three separable one-dimensional factors.
-- the degeneracy of the cubic box at $n_x^2+n_y^2+n_z^2 = 6$ ::@:: Three states — $(2,1,1)$, $(1,2,1)$, $(1,1,2)$ — share $E = \frac{6\pi^2\hbar^2}{2mL^2}$; any symmetry-breaking perturbation splits them.
+- the energies of a rectangular box $L_x, L_y, L_z$ ::@:: $E = \frac{\pi^2\hbar^2}{2m}\left(\frac{n_x^2}{L_x^2} + \frac{n_y^2}{L_y^2} + \frac{n_z^2}{L_z^2}\right)$ from three separable one-dimensional factors. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the degeneracy of the cubic box at $n_x^2+n_y^2+n_z^2 = 6$ ::@:: Three states — $(2,1,1)$, $(1,2,1)$, $(1,1,2)$ — share $E = \frac{6\pi^2\hbar^2}{2mL^2}$; any symmetry-breaking perturbation splits them. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## confinement energy scales
 
@@ -99,10 +99,10 @@ Shrink the box to nuclear size and the same formula lands on real nuclear energi
 
 Flashcards for this section are as follows:
 
-- what the box formula $E_n = n^2h^2/(8mL^2)$ says about mass and width ::@:: Every level falls as $m$ or $L^2$ grows, so confinement energies are largest for light particles in small boxes.
-- what the box model with $E_1 = h^2/(8mL^2)$ predicts for a macroscopic object ::@:: $E_1 = h^2/(8mL^2)$ is astronomically small, the object sits at a huge $n$, and adjacent levels are too close together to resolve.
-- the ground-state and first-excited energies of a proton in a $10^{-14}$ m box ::@:: $E_1 \approx 2$ MeV and $E_2 = 4E_1 \approx 8$ MeV, so the transition energy is $\Delta E \approx 6$ MeV.
-- what the same $10^{-14}$ m box gives an electron ::@:: $E_1 \propto 1/m$ puts it near $10^4$ MeV, thousands of times the 0.511 MeV rest energy, where the nonrelativistic treatment fails and the estimate rules electrons out of nuclei.
+- what the box formula $E_n = n^2h^2/(8mL^2)$ says about mass and width ::@:: Every level falls as $m$ or $L^2$ grows, so confinement energies are largest for light particles in small boxes. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the box model with $E_1 = h^2/(8mL^2)$ predicts for a macroscopic object ::@:: $E_1 = h^2/(8mL^2)$ is astronomically small, the object sits at a huge $n$, and adjacent levels are too close together to resolve. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the ground-state and first-excited energies of a proton in a $10^{-14}$ m box ::@:: $E_1 \approx 2$ MeV and $E_2 = 4E_1 \approx 8$ MeV, so the transition energy is $\Delta E \approx 6$ MeV. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the same $10^{-14}$ m box gives an electron ::@:: $E_1 \propto 1/m$ puts it near $10^4$ MeV, thousands of times the 0.511 MeV rest energy, where the nonrelativistic treatment fails and the estimate rules electrons out of nuclei. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## beyond one dimension
 
@@ -112,5 +112,5 @@ The three-dimensional box is the base for further problems: relaxing the walls t
 
 Flashcards for this section are as follows:
 
-- what relaxing the infinite walls of the box to a finite depth $V_0$ does to the levels ::@:: Every level drops below its infinite-well value and only finitely many bound states remain — the finite potential well.
-- the two problems the three-dimensional box leads into in this course ::@:: Relaxing the walls to finite depth gives the finite potential well; a finite barrier instead of an infinite wall gives quantum tunnelling.
+- what relaxing the infinite walls of the box to a finite depth $V_0$ does to the levels ::@:: Every level drops below its infinite-well value and only finitely many bound states remain — the finite potential well. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the two problems the three-dimensional box leads into in this course ::@:: Relaxing the walls to finite depth gives the finite potential well; a finite barrier instead of an infinite wall gives quantum tunnelling. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->

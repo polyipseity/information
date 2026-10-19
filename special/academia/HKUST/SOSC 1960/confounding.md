@@ -16,9 +16,9 @@ A confounder is tied to both the manipulated variable and the measured one, stan
 
 Flashcards for this section are as follows:
 
-- how a confounder distorts a causal claim ::@:: A confounder distorts a causal claim by being tied to both the variable under study and the outcome.
-- what kind of error confounding is ::@:: A systematic error.
-- why a confounded association is still real ::@:: The pattern in the data is genuine, but it does not show that one variable causes the other.
+- how a confounder distorts a causal claim ::@:: A confounder distorts a causal claim by being tied to both the variable under study and the outcome. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what kind of error confounding is ::@:: A systematic error. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why a confounded association is still real ::@:: The pattern in the data is genuine, but it does not show that one variable causes the other. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## what makes a variable a confounder
 
@@ -34,13 +34,13 @@ The third condition rules out a mediator, the variable that carries the effect f
 
 Flashcards for this section are as follows:
 
-- what the three conditions together establish ::@:: A confounder independently predicts the outcome, is associated with the exposure, and is not on the pathway between them.
-- the first condition a confounder meets ::@:: It independently predicts the outcome, the dependent variable.
-- the second condition ::@:: It is associated with the exposure, the independent variable.
-- the third condition ::@:: It is not on the causal pathway between the exposure and the outcome.
-- what the third condition rules out ::@:: A mediator, the variable that carries the effect from the exposure to the outcome.
-- where a confounder sits ::@:: Outside the mechanism, so hold it constant.
-- where a mediator sits ::@:: Inside the mechanism, so holding it constant blocks the effect.
+- what the three conditions together establish ::@:: A confounder independently predicts the outcome, is associated with the exposure, and is not on the pathway between them. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the first condition a confounder meets ::@:: It independently predicts the outcome, the dependent variable. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the second condition ::@:: It is associated with the exposure, the independent variable. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the third condition ::@:: It is not on the causal pathway between the exposure and the outcome. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the third condition rules out ::@:: A mediator, the variable that carries the effect from the exposure to the outcome. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- where a confounder sits ::@:: Outside the mechanism, so hold it constant. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- where a mediator sits ::@:: Inside the mechanism, so holding it constant blocks the effect. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## a third variable behind an association
 
@@ -52,12 +52,12 @@ The same pattern appears with no experiment. Students pick one of two professors
 
 Flashcards for this section are as follows:
 
-- what a third variable can do to a correlated pattern ::@:: A third variable that moves with both of the correlated variables can produce the whole pattern.
-- the third variable behind a link between charitable spending and reported happiness ::@:: It is wealth, which makes generous spending possible and also makes people report more happiness.
-- what a third variable does to a causal reading ::@:: It links the two variables, so neither one causes the other.
-- the third variable in a comparison of the grades in two professors' courses ::@:: It is student intelligence, because it decided which students chose which course.
-- what the grades in those two courses end up measuring ::@:: The students who chose each course, and very little about the teaching.
-- what a correlational design cannot do with a third variable ::@:: Separate the two variables from the third.
+- what a third variable can do to a correlated pattern ::@:: A third variable that moves with both of the correlated variables can produce the whole pattern. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the third variable behind a link between charitable spending and reported happiness ::@:: It is wealth, which makes generous spending possible and also makes people report more happiness. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a third variable does to a causal reading ::@:: It links the two variables, so neither one causes the other. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the third variable in a comparison of the grades in two professors' courses ::@:: It is student intelligence, because it decided which students chose which course. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the grades in those two courses end up measuring ::@:: The students who chose each course, and very little about the teaching. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a correlational design cannot do with a third variable ::@:: Separate the two variables from the third. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## confounds an experiment introduces
 
@@ -73,14 +73,14 @@ A [double-blind procedure](blinded%20experiment.md) takes both parties' expectat
 
 Flashcards for this section are as follows:
 
-- what the design itself contributes ::@:: Some confounds are created by the design, and random assignment does not touch them.
-- what random assignment does handle ::@:: It handles the differences between conditions that nobody thought about.
-- what random assignment does not handle ::@:: A difference the design itself creates, rather than one that already existed.
-- the confound a participant creates by knowing they are being treated ::@:: A placebo effect, where a participant reports a change they expected.
-- the confound a participant creates by guessing the purpose ::@:: Participant demand, where a participant reports the result the study seems to want.
-- the confound an experimenter creates by knowing the conditions ::@:: The experimenter expectation effect, where the experimenter sees the result they expected.
-- what removes the expectations of both parties ::@:: A double-blind procedure.
-- what a study with those confounds left in cannot claim ::@:: That the independent variable produced the difference between the conditions.
+- what the design itself contributes ::@:: Some confounds are created by the design, and random assignment does not touch them. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what random assignment does handle ::@:: It handles the differences between conditions that nobody thought about. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what random assignment does not handle ::@:: A difference the design itself creates, rather than one that already existed. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the confound a participant creates by knowing they are being treated ::@:: A placebo effect, where a participant reports a change they expected. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the confound a participant creates by guessing the purpose ::@:: Participant demand, where a participant reports the result the study seems to want. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the confound an experimenter creates by knowing the conditions ::@:: The experimenter expectation effect, where the experimenter sees the result they expected. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what removes the expectations of both parties ::@:: A double-blind procedure. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a study with those confounds left in cannot claim ::@:: That the independent variable produced the difference between the conditions. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## references
 

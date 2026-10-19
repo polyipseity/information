@@ -16,8 +16,8 @@ A writer with a question needs to know what is known already, and where studies 
 
 Flashcards for this section are as follows:
 
-- what a literature review is for ::@:: A literature review sets out what is known about a question and where studies disagree.
-- what most psychology writing rests on ::@:: A literature review.
+- what a literature review is for ::@:: A literature review sets out what is known about a question and where studies disagree. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what most psychology writing rests on ::@:: A literature review. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## primary and secondary sources
 
@@ -33,9 +33,9 @@ A reader checking a method has to reach the study behind it, not an account of i
 
 Flashcards for this section are as follows:
 
-- why psychology writing asks for primary sources ::@:: A reader has to reach the study behind a method, not an account of it.
-- what a primary source is ::@:: A research article, review article, or book chapter, written and peer reviewed by researchers.
-- what a secondary source is ::@:: A newspaper, blog, website, or magazine, written by bloggers or the public.
+- why psychology writing asks for primary sources ::@:: A reader has to reach the study behind a method, not an account of it. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a primary source is ::@:: A research article, review article, or book chapter, written and peer reviewed by researchers. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a secondary source is ::@:: A newspaper, blog, website, or magazine, written by bloggers or the public. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## literature databases
 
@@ -47,7 +47,7 @@ A record's Find@HKUST link leads to the library's copy. Google Scholar reaches f
 
 Flashcards for this section are as follows:
 
-- what a literature database holds ::@:: A database holds records of journal articles, book chapters, and conference proceedings.
+- what a literature database holds ::@:: A database holds records of journal articles, book chapters, and conference proceedings. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 - what a database record carries ::@:: Its title, authors, year, and keywords. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - psychology database ::@:: APA PsycINFO, which carries abstracts and index terms. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - multi-disciplinary databases ::@:: Social Sciences Citation Index in Web of Science, and Scopus. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
@@ -55,7 +55,7 @@ Flashcards for this section are as follows:
 - how databases differ from one another ::@:: In subject coverage, interfaces, and controlled vocabulary. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - question that needs more than one database ::@:: A question spanning psychology and physical health. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - what a Find@HKUST link does ::@:: It leads from a database record to the library's copy of the article. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
-- what Google Scholar reaches ::@:: It reaches far beyond any database.
+- what Google Scholar reaches ::@:: It reaches far beyond any database. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 - why a systematic review cannot rest on Google Scholar ::@:: Its coverage and its ranking cannot produce a search that is transparent and reproducible. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 
 ## search keywords
@@ -91,7 +91,7 @@ Flashcards for this section are as follows:
 - what quotation marks around a phrase do ::@:: They limit the search to the articles that contain that phrase. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - what the APA Thesaurus widens a search with ::@:: The controlled terms that index the literature. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - limiters a psychology database offers ::@:: Publication type such as book chapters or journals, age group, population group, test measures, and methodology. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
-- what natural language searching accepts ::@:: Everyday language in place of specialised terms or codes.
+- what natural language searching accepts ::@:: Everyday language in place of specialised terms or codes. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 - how many phrasings of one question to try ::@:: A few, rather than one. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 
 <!-- check: ignore-next-line[header_style]: AI is an acronym -->
@@ -107,7 +107,7 @@ Flashcards for this section are as follows:
 - how search worked before language models ::@:: Printed books and index cards browsed by hand, then keyword search engines over lists of webpages. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - scholarly databases ::@:: Web of Science and Scopus. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - open databases ::@:: Semantic Scholar and OpenAlex. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
-- what language-model tools answer ::@:: The meaning of a question rather than its keywords.
+- what language-model tools answer ::@:: The meaning of a question rather than its keywords. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 - deep research agents, in use since 2024 ::@:: They reason over the question and return an article with its citations. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 
 ### general chatbots and academic tools
@@ -118,7 +118,7 @@ A general chatbot learns from open web knowledge, answers general questions, and
 
 Flashcards for this section are as follows:
 
-- general chatbot ::@:: Trained on open web knowledge, it answers general questions and may invent sources.
+- general chatbot ::@:: Trained on open web knowledge, it answers general questions and may invent sources. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 - academic tool ::@:: Trained on academic sources, it returns sources that really exist. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - which of the two a literature search wants ::@:: The academic tool, which looks for scholarly materials instead of answering general questions. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 
@@ -130,7 +130,7 @@ A systematic review keeps the traditional methods, which a reader can trace and 
 
 Flashcards for this section are as follows:
 
-- what generative AI gets wrong in a research context ::@:: It falls behind current research, and its content can be wrong or biased.
+- what generative AI gets wrong in a research context ::@:: It falls behind current research, and its content can be wrong or biased. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 - what generative AI writing lacks ::@:: Originality and depth. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - why generative AI cannot replace the search in a systematic review ::@:: A systematic review needs search methods that a reader can trace and repeat. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 
@@ -142,10 +142,10 @@ An AI tool shortens the search when it is a companion rather than a source. The 
 
 Flashcards for this section are as follows:
 
-- role of an AI tool in a literature search ::@:: A companion that shortens the search, never the single source for it.
-- what has to be checked in what a tool returns ::@:: Its citations and claims, checked against the studies themselves.
-- how many answers from a tool are enough ::@:: Never one on its own.
-- how to use generative AI without giving up the analysis ::@:: Write the draft first and let the tool improve it.
+- role of an AI tool in a literature search ::@:: A companion that shortens the search, never the single source for it. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what has to be checked in what a tool returns ::@:: Its citations and claims, checked against the studies themselves. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how many answers from a tool are enough ::@:: Never one on its own. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how to use generative AI without giving up the analysis ::@:: Write the draft first and let the tool improve it. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## reading a research article
 
@@ -188,8 +188,8 @@ A reader starts with the abstract, which says whether the article is worth the r
 
 Flashcards for this section are as follows:
 
-- what the abstract is read for ::@:: Its summary, to judge whether the article is worth reading.
-- what the reference list is read for ::@:: Tracing backward to related articles.
+- what the abstract is read for ::@:: Its summary, to judge whether the article is worth reading. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the reference list is read for ::@:: Tracing backward to related articles. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ### purposes of reading
 
@@ -200,9 +200,9 @@ Screening picks articles by relevance from the abstract. Quick reading takes the
 Flashcards for this section are as follows:
 
 - what sets how much of an article is read ::@:: What the reader is after. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
-- screening ::@:: Picking articles by relevance from the abstract.
+- screening ::@:: Picking articles by relevance from the abstract. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 - quick reading ::@:: Taking the main argument with the end of the introduction and the beginning of the discussion. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
-- deep reading ::@:: Following the order quick reading uses and understanding everything.
+- deep reading ::@:: Following the order quick reading uses and understanding everything. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 - purposive reading ::@:: Going after one specific part, such as the methodology, the measures, or the design. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 
 ## integrating sources
@@ -235,9 +235,9 @@ A writer compares the articles for their similarities and differences, then read
 
 Flashcards for this section are as follows:
 
-- what to do beyond each article and its conclusions ::@:: Compare the studies for their similarities and differences.
+- what to do beyond each article and its conclusions ::@:: Compare the studies for their similarities and differences. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 - what comparing the findings looks for ::@:: Where they converge and where they diverge. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
-- how the argument of a review is formed ::@:: By digesting the key points and the evidence into an overarching view.
+- how the argument of a review is formed ::@:: By digesting the key points and the evidence into an overarching view. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 - where the assignment question gets its answer ::@:: From the studies reviewed. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 
 ## references

@@ -15,10 +15,10 @@ The cerebral cortex is the outer layer of the cerebral hemispheres: grey matter,
 
 Flashcards for this section are as follows:
 
-- what the cerebral cortex is ::@:: The outer layer of the cerebral hemispheres.
-- how thick the cerebral cortex is ::@:: Two to four millimetres.
-- what the cerebral cortex is made of ::@:: Grey matter.
-- why the cortex is folded ::@:: The fold packs the surface into the space the skull allows.
+- what the cerebral cortex is ::@:: The outer layer of the cerebral hemispheres. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how thick the cerebral cortex is ::@:: Two to four millimetres. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the cerebral cortex is made of ::@:: Grey matter. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why the cortex is folded ::@:: The fold packs the surface into the space the skull allows. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## gyri and sulci
 
@@ -32,15 +32,15 @@ Of the two, the central sulcus is the one worth remembering. It is the fixed lan
 
 Flashcards for this section are as follows:
 
-- what the outward bulges of the cortex are called ::@:: Gyri.
-- what the inward grooves of the cortex are called ::@:: Sulci.
-- which way the central sulcus runs ::@:: From near the top edge of the hemisphere down its outer surface.
-- which way the lateral sulcus runs ::@:: From the front of that surface back toward the side of the head.
-- what separates the frontal lobe from the parietal ::@:: The central sulcus.
-- what separates the temporal lobe from the frontal and parietal ::@:: The lateral sulcus.
-- how a region of the cortex is located ::@:: By the sulcus it lies next to, rather than by its distance from a landmark.
-- the two sulci marked on the photograph: ![A photograph of the left side of a brain, its ridges and grooves visible, with a blue line marking the central sulcus, a blue line along the lateral sulcus, and numbers pointing at the frontal, parietal, temporal and occipital lobes and at the frontal, temporal and occipital poles](attachments/Human%20brain%20lateral%20view%20description.JPG) ::@:: A blue line running from near the top edge of the hemisphere down its outer surface for the central sulcus, a second blue line along the lateral sulcus, and numbers pointing at the four lobes and the three poles.
-- draw the photograph's numbering: which three numbers sit at the ends of the hemisphere? ::@:: 9 at the frontal pole, 10 at the occipital pole, and 11 at the temporal pole. <p> ![A photograph of the left side of a brain, its ridges and grooves visible, with a blue line marking the central sulcus, a blue line along the lateral sulcus, and numbers pointing at the frontal, parietal, temporal and occipital lobes and at the frontal, temporal and occipital poles](attachments/Human%20brain%20lateral%20view%20description.JPG)
+- what the outward bulges of the cortex are called ::@:: Gyri. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the inward grooves of the cortex are called ::@:: Sulci. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- which way the central sulcus runs ::@:: From near the top edge of the hemisphere down its outer surface. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- which way the lateral sulcus runs ::@:: From the front of that surface back toward the side of the head. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what separates the frontal lobe from the parietal ::@:: The central sulcus. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what separates the temporal lobe from the frontal and parietal ::@:: The lateral sulcus. <!--SR:!fsrs,2026-11-10T00:10:00.000Z,0,2.3065,2.11810397,1,1,0,1,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how a region of the cortex is located ::@:: By the sulcus it lies next to, rather than by its distance from a landmark. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the two sulci marked on the photograph: ![A photograph of the left side of a brain, its ridges and grooves visible, with a blue line marking the central sulcus, a blue line along the lateral sulcus, and numbers pointing at the frontal, parietal, temporal and occipital lobes and at the frontal, temporal and occipital poles](attachments/Human%20brain%20lateral%20view%20description.JPG) ::@:: A blue line running from near the top edge of the hemisphere down its outer surface for the central sulcus, a second blue line along the lateral sulcus, and numbers pointing at the four lobes and the three poles. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- draw the photograph's numbering: which three numbers sit at the ends of the hemisphere? ::@:: 9 at the frontal pole, 10 at the occipital pole, and 11 at the temporal pole. <p> ![A photograph of the left side of a brain, its ridges and grooves visible, with a blue line marking the central sulcus, a blue line along the lateral sulcus, and numbers pointing at the frontal, parietal, temporal and occipital lobes and at the frontal, temporal and occipital poles](attachments/Human%20brain%20lateral%20view%20description.JPG) <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## the four lobes
 
@@ -54,17 +54,17 @@ The occipital lobe sits at the rear of the hemisphere and carries visual process
 
 Flashcards for this section are as follows:
 
-- the four lobes of the cerebral cortex ::@:: Frontal, parietal, occipital, and temporal.
-- where the frontal lobe sits ::@:: In front of the central sulcus.
-- what the frontal lobe carries ::@:: Reasoning, planning, speech, movement, emotion, and problem solving.
-- where the parietal lobe sits ::@:: Behind the central sulcus and above the lateral sulcus.
-- what the parietal lobe carries ::@:: Visuospatial attention, body sensations, perception, and orientation.
-- where the occipital lobe sits ::@:: At the rear of the hemisphere.
-- what the occipital lobe carries ::@:: Visual processing.
-- where the temporal lobe sits ::@:: Below the lateral sulcus.
-- what the temporal lobe carries ::@:: Auditory processing, speech, visual recognition, and memory.
-- which cortex drives voluntary movement ::@:: The motor cortex, the strip immediately anterior to the central sulcus in the frontal lobe.
-- which cortex receives touch from the body ::@:: The somatosensory cortex, the strip immediately posterior to the central sulcus in the parietal lobe.
+- the four lobes of the cerebral cortex ::@:: Frontal, parietal, occipital, and temporal. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- where the frontal lobe sits ::@:: In front of the central sulcus. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the frontal lobe carries ::@:: Reasoning, planning, speech, movement, emotion, and problem solving. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- where the parietal lobe sits ::@:: Behind the central sulcus and above the lateral sulcus. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the parietal lobe carries ::@:: Visuospatial attention, body sensations, perception, and orientation. <!--SR:!fsrs,2026-11-10T00:10:00.000Z,0,2.3065,2.11810397,1,1,0,1,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- where the occipital lobe sits ::@:: At the rear of the hemisphere. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the occipital lobe carries ::@:: Visual processing. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- where the temporal lobe sits ::@:: Below the lateral sulcus. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the temporal lobe carries ::@:: Auditory processing, speech, visual recognition, and memory. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- which cortex drives voluntary movement ::@:: The motor cortex, the strip immediately anterior to the central sulcus in the frontal lobe. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- which cortex receives touch from the body ::@:: The somatosensory cortex, the strip immediately posterior to the central sulcus in the parietal lobe. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## references
 

@@ -14,9 +14,9 @@ Spectroscopy spreads radiation out after it has met matter and records how much 
 
 Flashcards for this section are as follows:
 
-- overview: what spectroscopy does ::@:: It spreads radiation out after it has met matter, records how much arrives at each wavelength, frequency, or energy, and interprets the record.
-- what identifies the substance in a spectrum ::@:: The positions of its features, since a line sits where the transitions of one particular substance can put it.
-- what in a spectrum says how much of a substance is present ::@:: The intensity of its features, since a substance emits or absorbs at a wavelength in proportion to how much of it there is.
+- overview: what spectroscopy does ::@:: It spreads radiation out after it has met matter, records how much arrives at each wavelength, frequency, or energy, and interprets the record. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what identifies the substance in a spectrum ::@:: The positions of its features, since a line sits where the transitions of one particular substance can put it. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what in a spectrum says how much of a substance is present ::@:: The intensity of its features, since a substance emits or absorbs at a wavelength in proportion to how much of it there is. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## type families
 
@@ -30,9 +30,9 @@ Flashcards for this section are as follows:
 
 Flashcards for this section are as follows:
 
-- overview: the families spectroscopy divides into ::@:: Emission, absorption, X-ray, photoelectron, and mass, set apart by what goes into the measurement and what comes out of it.
-- what emission spectroscopy reads a substance from ::@:: The wavelengths it gives off when excited.
-- what absorption spectroscopy reads a substance from ::@:: The wavelengths a beam of light loses passing through the substance.
-- what X-ray spectroscopy reads from an excited target ::@:: The characteristic line energies it emits.
-- what photoemission spectroscopy reads binding energies from ::@:: The kinetic energies of the electrons light frees from the material.
-- what mass spectrometry separates, and by what ::@:: Ionized fragments of a sample, by mass-to-charge ratio rather than by wavelength.
+- overview: the families spectroscopy divides into ::@:: Emission, absorption, X-ray, photoelectron, and mass, set apart by what goes into the measurement and what comes out of it. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what emission spectroscopy reads a substance from ::@:: The wavelengths it gives off when excited. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what absorption spectroscopy reads a substance from ::@:: The wavelengths a beam of light loses passing through the substance. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what X-ray spectroscopy reads from an excited target ::@:: The characteristic line energies it emits. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what photoemission spectroscopy reads binding energies from ::@:: The kinetic energies of the electrons light frees from the material. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what mass spectrometry separates, and by what ::@:: Ionized fragments of a sample, by mass-to-charge ratio rather than by wavelength. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->

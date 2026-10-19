@@ -15,7 +15,7 @@ Transcranial direct-current stimulation passes a mild electrical current directl
 
 Flashcards for this section are as follows:
 
-- what transcranial direct-current stimulation does ::@:: It passes a mild electrical current directly through a brain area by placing small electrodes on the skull over that area.
+- what transcranial direct-current stimulation does ::@:: It passes a mild electrical current directly through a brain area by placing small electrodes on the skull over that area. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## how it differs from TMS
 
@@ -27,10 +27,10 @@ The second difference is duration. Direct-current stimulation drives one brain a
 
 Flashcards for this section are as follows:
 
-- how transcranial magnetic stimulation reaches the brain ::@:: A brief magnetic pulse applied to the head induces a weak electrical current inside it.
-- how transcranial direct-current stimulation reaches the brain ::@:: It uses the electrical current directly, through small electrodes on the skull over the area being tested.
-- how strong the current in direct-current stimulation is ::@:: No stronger than an AA battery.
-- what the duration difference between the two methods means ::@:: The two are not interchangeable: one covers a sustained state, the other an event.
+- how transcranial magnetic stimulation reaches the brain ::@:: A brief magnetic pulse applied to the head induces a weak electrical current inside it. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how transcranial direct-current stimulation reaches the brain ::@:: It uses the electrical current directly, through small electrodes on the skull over the area being tested. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how strong the current in direct-current stimulation is ::@:: No stronger than an AA battery. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the duration difference between the two methods means ::@:: The two are not interchangeable: one covers a sustained state, the other an event. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## what it has been used for
 
@@ -40,8 +40,8 @@ Direct-current stimulation has been shown to improve performance across a range 
 
 Flashcards for this section are as follows:
 
-- the cognitive functions direct-current stimulation has improved alongside training ::@:: Mathematical ability, memory, attention, and coordination.
-- what direct-current stimulation is paired with ::@:: Cognitive training, so what improves is the training exercise running on top of it.
+- the cognitive functions direct-current stimulation has improved alongside training ::@:: Mathematical ability, memory, attention, and coordination. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what direct-current stimulation is paired with ::@:: Cognitive training, so what improves is the training exercise running on top of it. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## references
 

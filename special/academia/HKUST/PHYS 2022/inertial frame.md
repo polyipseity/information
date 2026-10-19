@@ -16,9 +16,9 @@ An _inertial frame_ is a reference frame in which a body keeps a constant veloci
 
 Flashcards for this section are as follows:
 
-- overview: what an inertial frame is ::@:: A reference frame in which a body keeps a constant velocity unless a net external force acts on it.
-- the law of motion that defines the inertial frames ::@:: Newton's first law, the law of inertia: an object keeps a constant velocity unless a net external force acts on it.
-- how a non-inertial frame differs from an inertial frame ::@:: It accelerates relative to an inertial frame, and its motion obeys Newton's second law only once fictitious forces join the real ones.
+- overview: what an inertial frame is ::@:: A reference frame in which a body keeps a constant velocity unless a net external force acts on it. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the law of motion that defines the inertial frames ::@:: Newton's first law, the law of inertia: an object keeps a constant velocity unless a net external force acts on it. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how a non-inertial frame differs from an inertial frame ::@:: It accelerates relative to an inertial frame, and its motion obeys Newton's second law only once fictitious forces join the real ones. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 <!-- check: ignore-next-line[header_style]: proper noun -->
 ## Galilean transformation
@@ -33,8 +33,8 @@ Galilean invariance fails where the relative speed of the frames approaches the 
 
 Flashcards for this section are as follows:
 
-- how the coordinates $(x, y, z, t)$ of one inertial frame read in a frame moving at speed $v$ along the $x$ axis ::@:: $x' = x - vt$, $y' = y$, $z' = z$, and $t' = t$.
-- a velocity component $v_x$ along the $x$ axis in one inertial frame, as seen from a frame moving at speed $v$ along that axis ::@:: $v_x - v$, since the Galilean transformation subtracts the frame speed.
-- Galilean invariance: what stays the same across two inertial frames related by $x' = x - vt$ and $t' = t$ ::@:: Every law of mechanics keeps its form, so measurements convert between the frames without changing the laws.
-- what the symmetry of the Galilean transformation implies for motion through space ::@:: No experiment confined to one inertial frame detects its uniform motion, so no inertial frame is absolute.
-- where Galilean invariance fails, and which transformation takes its place ::@:: It fails as the relative speed of the frames approaches the speed of light, and special relativity's Lorentz transformation takes its place.
+- how the coordinates $(x, y, z, t)$ of one inertial frame read in a frame moving at speed $v$ along the $x$ axis ::@:: $x' = x - vt$, $y' = y$, $z' = z$, and $t' = t$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- a velocity component $v_x$ along the $x$ axis in one inertial frame, as seen from a frame moving at speed $v$ along that axis ::@:: $v_x - v$, since the Galilean transformation subtracts the frame speed. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- Galilean invariance: what stays the same across two inertial frames related by $x' = x - vt$ and $t' = t$ ::@:: Every law of mechanics keeps its form, so measurements convert between the frames without changing the laws. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the symmetry of the Galilean transformation implies for motion through space ::@:: No experiment confined to one inertial frame detects its uniform motion, so no inertial frame is absolute. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- where Galilean invariance fails, and which transformation takes its place ::@:: It fails as the relative speed of the frames approaches the speed of light, and special relativity's Lorentz transformation takes its place. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->

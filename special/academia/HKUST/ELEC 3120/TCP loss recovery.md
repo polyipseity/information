@@ -21,8 +21,8 @@ A TCP sender has to notice that a segment never arrived and send it again. Two s
 
 Flashcards for this section are as follows:
 
-- two signals: which two events tell a sender that a segment was lost? ::@:: The retransmission timer running out, and three duplicate acknowledgements.
-- what a loss signal leads to: a sender has detected a lost segment; what does it do next? ::@:: Retransmits the missing segment.
+- two signals: which two events tell a sender that a segment was lost? ::@:: The retransmission timer running out, and three duplicate acknowledgements. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a loss signal leads to: a sender has detected a lost segment; what does it do next? ::@:: Retransmits the missing segment. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## duplicate acknowledgements
 

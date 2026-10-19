@@ -17,8 +17,8 @@ The Schrödinger equation is the equation of motion of non-relativistic quantum 
 
 Flashcards for this section are as follows:
 
-- overview: what the Schrödinger equation does for $\Psi(x,t)$ ::@:: It governs the time evolution of the wave function $\Psi(x,t)$, the quantum analogue of Newton's second law.
-- what the equation was built on ::@:: De Broglie's matter-wave postulate; Schrödinger postulated the equation in 1926 to reproduce atomic spectra.
+- overview: what the Schrödinger equation does for $\Psi(x,t)$ ::@:: It governs the time evolution of the wave function $\Psi(x,t)$, the quantum analogue of Newton's second law. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the equation was built on ::@:: De Broglie's matter-wave postulate; Schrödinger postulated the equation in 1926 to reproduce atomic spectra. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## time-dependent equation
 
@@ -28,8 +28,8 @@ In one dimension the equation reads $i\hbar\frac{\partial \Psi}{\partial t} = -\
 
 Flashcards for this section are as follows:
 
-- the time-dependent Schrödinger equation for $\Psi$ in one dimension ::@:: $i\hbar\,\partial\Psi/\partial t = -\frac{\hbar^2}{2m}\,\partial^2\Psi/\partial x^2 + V(x)\Psi$.
-- why the equation is called non-relativistic, given its orders in $\partial/\partial t$ and $\partial/\partial x$ ::@:: It treats time and space unequally — first order in $\partial/\partial t$, second order in $\partial^2/\partial x^2$.
+- the time-dependent Schrödinger equation for $\Psi$ in one dimension ::@:: $i\hbar\,\partial\Psi/\partial t = -\frac{\hbar^2}{2m}\,\partial^2\Psi/\partial x^2 + V(x)\Psi$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why the equation is called non-relativistic, given its orders in $\partial/\partial t$ and $\partial/\partial x$ ::@:: It treats time and space unequally — first order in $\partial/\partial t$, second order in $\partial^2/\partial x^2$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## separation of variables
 
@@ -39,8 +39,8 @@ Try a product solution $\Psi(x,t) = \psi(x)f(t)$ and substitute. Dividing by $\p
 
 Flashcards for this section are as follows:
 
-- how separation of variables splits $\Psi(x,t) = \psi(x)f(t)$ ::@:: With $\Psi(x,t) = \psi(x)f(t)$, the time factor obeys $f = e^{-iEt/\hbar}$ and the space factor obeys the time-independent Schrödinger equation.
-- what the energy eigenvalue problem for $\psi$ looks like ::@:: $-\frac{\hbar^2}{2m}\frac{d^2\psi}{dx^2} + V(x)\psi = E\psi$; its allowed $E$ values are the quantised energies.
+- how separation of variables splits $\Psi(x,t) = \psi(x)f(t)$ ::@:: With $\Psi(x,t) = \psi(x)f(t)$, the time factor obeys $f = e^{-iEt/\hbar}$ and the space factor obeys the time-independent Schrödinger equation. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the energy eigenvalue problem for $\psi$ looks like ::@:: $-\frac{\hbar^2}{2m}\frac{d^2\psi}{dx^2} + V(x)\psi = E\psi$; its allowed $E$ values are the quantised energies. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## stationary states
 
@@ -50,8 +50,8 @@ A separated solution $\Psi(x,t) = \psi(x)e^{-iEt/\hbar}$ is a stationary state: 
 
 Flashcards for this section are as follows:
 
-- what makes a state stationary, given the time dependence $e^{-iEt/\hbar}$ ::@:: Its time dependence is a pure phase $e^{-iEt/\hbar}$, so $|\Psi|^2$ and every expectation value built from it are constant.
-- why stationary states and energy eigenstates coincide, given $-\frac{\hbar^2}{2m}\psi'' + V\psi = E\psi$ ::@:: They coincide: a stationary state's spatial part satisfies $-\frac{\hbar^2}{2m}\psi'' + V\psi = E\psi$.
+- what makes a state stationary, given the time dependence $e^{-iEt/\hbar}$ ::@:: Its time dependence is a pure phase $e^{-iEt/\hbar}$, so $|\Psi|^2$ and every expectation value built from it are constant. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why stationary states and energy eigenstates coincide, given $-\frac{\hbar^2}{2m}\psi'' + V\psi = E\psi$ ::@:: They coincide: a stationary state's spatial part satisfies $-\frac{\hbar^2}{2m}\psi'' + V\psi = E\psi$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## operators and the energy relation
 
@@ -69,12 +69,12 @@ Position and momentum do not commute: $[\hat{x}, \hat{p}] = \hat{x}\hat{p} - \ha
 
 Flashcards for this section are as follows:
 
-- the momentum operator $\hat{p}$ ::@:: $\hat{p} = -i\hbar\,\partial/\partial x$.
-- the energy operators $\hat{E}$ and $\hat{K}$ ::@:: $\hat{E} = i\hbar\,\partial/\partial t$ and $\hat{K} = -\frac{\hbar^2}{2m}\partial^2/\partial x^2$, with $E = K + V$ holding as an operator identity.
-- the Hamiltonian operator $\hat{H}$ in the position representation ::@:: $\hat{H} = \hat{K} + \hat{V} = \hat{p}^2/(2m) + V(x) = -\frac{\hbar^2}{2m}\frac{\partial^2}{\partial x^2} + V(x)$, with $\hat{p} = -i\hbar\,\partial/\partial x$.
-- the time-dependent and time-independent Schrödinger equations as statements about $\hat{H}$ ::@:: $i\hbar\,\partial\Psi/\partial t = \hat{H}\Psi$ for the time evolution, and $\hat{H}\psi = E\psi$ as the energy eigenvalue problem.
-- how an energy eigenfunction $\psi_n$ with $\hat{H}\psi_n = E_n\psi_n$ feeds the time-dependent equation ::@:: $\Psi_n = \psi_n e^{-iE_n t/\hbar}$ solves it exactly, and any superposition $\sum_n c_n \psi_n e^{-iE_n t/\hbar}$ solves it by linearity.
-- the commutator $[\hat{x}, \hat{p}]$ of the position and momentum operators ::@:: $[\hat{x}, \hat{p}] = \hat{x}\hat{p} - \hat{p}\hat{x} = i\hbar$, the constant that is the algebraic root of the uncertainty relation.
+- the momentum operator $\hat{p}$ ::@:: $\hat{p} = -i\hbar\,\partial/\partial x$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the energy operators $\hat{E}$ and $\hat{K}$ ::@:: $\hat{E} = i\hbar\,\partial/\partial t$ and $\hat{K} = -\frac{\hbar^2}{2m}\partial^2/\partial x^2$, with $E = K + V$ holding as an operator identity. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the Hamiltonian operator $\hat{H}$ in the position representation ::@:: $\hat{H} = \hat{K} + \hat{V} = \hat{p}^2/(2m) + V(x) = -\frac{\hbar^2}{2m}\frac{\partial^2}{\partial x^2} + V(x)$, with $\hat{p} = -i\hbar\,\partial/\partial x$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the time-dependent and time-independent Schrödinger equations as statements about $\hat{H}$ ::@:: $i\hbar\,\partial\Psi/\partial t = \hat{H}\Psi$ for the time evolution, and $\hat{H}\psi = E\psi$ as the energy eigenvalue problem. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how an energy eigenfunction $\psi_n$ with $\hat{H}\psi_n = E_n\psi_n$ feeds the time-dependent equation ::@:: $\Psi_n = \psi_n e^{-iE_n t/\hbar}$ solves it exactly, and any superposition $\sum_n c_n \psi_n e^{-iE_n t/\hbar}$ solves it by linearity. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the commutator $[\hat{x}, \hat{p}]$ of the position and momentum operators ::@:: $[\hat{x}, \hat{p}] = \hat{x}\hat{p} - \hat{p}\hat{x} = i\hbar$, the constant that is the algebraic root of the uncertainty relation. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## three dimensions
 
@@ -84,9 +84,9 @@ The same equations carry three spatial derivatives. The energy relation $E = p^2
 
 Flashcards for this section are as follows:
 
-- the time-independent Schrödinger equation in three dimensions, with the Laplacian $\nabla^2$ ::@:: $-\frac{\hbar^2}{2m}\nabla^2\psi + V\psi = E\psi$, with $\nabla^2 = \partial^2/\partial x^2 + \partial^2/\partial y^2 + \partial^2/\partial z^2$.
-- how the Laplacian form of the equation follows from $E = p^2/2m + V$ ::@:: With $\hat{p}_i = -i\hbar\,\partial/\partial i$ on each axis, $p^2 = p_x^2 + p_y^2 + p_z^2$ turns the kinetic term into $-\frac{\hbar^2}{2m}\nabla^2$, so $-\frac{\hbar^2}{2m}\nabla^2\psi + V\psi = E\psi$.
-- the three-dimensional time-dependent Schrödinger equation in terms of $\nabla^2$ ::@:: $i\hbar\,\partial\Psi/\partial t = -\frac{\hbar^2}{2m}\nabla^2\Psi + V\Psi$, with $V$ a function of position and time.
+- the time-independent Schrödinger equation in three dimensions, with the Laplacian $\nabla^2$ ::@:: $-\frac{\hbar^2}{2m}\nabla^2\psi + V\psi = E\psi$, with $\nabla^2 = \partial^2/\partial x^2 + \partial^2/\partial y^2 + \partial^2/\partial z^2$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how the Laplacian form of the equation follows from $E = p^2/2m + V$ ::@:: With $\hat{p}_i = -i\hbar\,\partial/\partial i$ on each axis, $p^2 = p_x^2 + p_y^2 + p_z^2$ turns the kinetic term into $-\frac{\hbar^2}{2m}\nabla^2$, so $-\frac{\hbar^2}{2m}\nabla^2\psi + V\psi = E\psi$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the three-dimensional time-dependent Schrödinger equation in terms of $\nabla^2$ ::@:: $i\hbar\,\partial\Psi/\partial t = -\frac{\hbar^2}{2m}\nabla^2\Psi + V\Psi$, with $V$ a function of position and time. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## momentum representation
 
@@ -96,8 +96,8 @@ The plane waves $e^{ikx}$ are the eigenfunctions of the momentum operator: $\hat
 
 Flashcards for this section are as follows:
 
-- the eigenfunctions of the momentum operator $\hat{p} = -i\hbar\,\partial/\partial x$ and their eigenvalues ::@:: The plane waves $e^{ikx}$: $\hat{p}\,e^{ikx} = -i\hbar(ik)e^{ikx} = \hbar k\,e^{ikx}$, so the eigenvalue is $\hbar k$.
-- what rewriting $\psi$ as $\tilde{\psi}(k) = \frac{1}{\sqrt{2\pi}}\int \psi(x)e^{-ikx}\,dx$ buys ::@:: In the momentum representation $\hat{p}$ becomes multiplication by $\hbar k$ while $\hat{x}$ becomes $i\,\partial/\partial k$: the two representations trade which operator is simple.
+- the eigenfunctions of the momentum operator $\hat{p} = -i\hbar\,\partial/\partial x$ and their eigenvalues ::@:: The plane waves $e^{ikx}$: $\hat{p}\,e^{ikx} = -i\hbar(ik)e^{ikx} = \hbar k\,e^{ikx}$, so the eigenvalue is $\hbar k$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what rewriting $\psi$ as $\tilde{\psi}(k) = \frac{1}{\sqrt{2\pi}}\int \psi(x)e^{-ikx}\,dx$ buys ::@:: In the momentum representation $\hat{p}$ becomes multiplication by $\hbar k$ while $\hat{x}$ becomes $i\,\partial/\partial k$: the two representations trade which operator is simple. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## free-particle plane waves
 
@@ -107,6 +107,6 @@ A quick check on the equation takes the free case, $V = 0$, and tries the plane 
 
 Flashcards for this section are as follows:
 
-- what substituting the plane wave $\psi = e^{i(kx - \omega t)}$ into the free Schrödinger equation with $V = 0$ reduces to ::@:: It reduces to $i\hbar(-i\omega)\psi = -\frac{\hbar^2}{2m}(ik)^2\psi$, hence $\hbar\omega = \hbar^2k^2/2m$.
-- what the identifications $E = \hbar\omega$ and $p = \hbar k$ do with $\hbar\omega = \hbar^2k^2/2m$ ::@:: They give $E = p^2/2m$, the classical free relation, so the plane wave solves the free Schrödinger equation.
-- what the free-plane-wave dispersion $\omega = \hbar k^2/2m$ carries for a matter wave ::@:: With $p = \hbar k$ and $E = \hbar\omega$ it reproduces de Broglie's $\lambda = h/p$ and Planck's $E = hf$.
+- what substituting the plane wave $\psi = e^{i(kx - \omega t)}$ into the free Schrödinger equation with $V = 0$ reduces to ::@:: It reduces to $i\hbar(-i\omega)\psi = -\frac{\hbar^2}{2m}(ik)^2\psi$, hence $\hbar\omega = \hbar^2k^2/2m$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the identifications $E = \hbar\omega$ and $p = \hbar k$ do with $\hbar\omega = \hbar^2k^2/2m$ ::@:: They give $E = p^2/2m$, the classical free relation, so the plane wave solves the free Schrödinger equation. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the free-plane-wave dispersion $\omega = \hbar k^2/2m$ carries for a matter wave ::@:: With $p = \hbar k$ and $E = \hbar\omega$ it reproduces de Broglie's $\lambda = h/p$ and Planck's $E = hf$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->

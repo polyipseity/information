@@ -18,8 +18,8 @@ A _random sample_ is a collection of independent and identically distributed cop
 
 Flashcards for this section are as follows:
 
-- what makes the copies $X_1, \ldots, X_n$ of a random variable $X$ a random sample ::@:: They are independent of one another and identically distributed with the law of $X$, which is assumed unless stated otherwise.
-- which value of $X_i$ is meant by $x_i$ ::@:: The actual value taken by the $i$-th copy $X_i$ of $X$.
+- what makes the copies $X_1, \ldots, X_n$ of a random variable $X$ a random sample ::@:: They are independent of one another and identically distributed with the law of $X$, which is assumed unless stated otherwise. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- which value of $X_i$ is meant by $x_i$ ::@:: The actual value taken by the $i$-th copy $X_i$ of $X$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## the i.i.d. assumption
 
@@ -33,7 +33,7 @@ Failing both at once is the easy one to recognize. Failing exactly one is the ha
 
 Flashcards for this section are as follows:
 
-- what independence means for the copies $X_1, \ldots, X_n$ ::@:: No copy carries information about any other.
+- what independence means for the copies $X_1, \ldots, X_n$ ::@:: No copy carries information about any other. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 - for copies $X_1, \ldots, X_n$ that are independent and identically distributed, with $\operatorname{Var}(X_i) = \sigma^2$ finite for every $i$: what does $\operatorname{Var}(X_1 + \cdots + X_n)$ equal ::@:: $\operatorname{Var}(X_1) + \cdots + \operatorname{Var}(X_n)$. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - what identical distribution gives when the copies $X_1, \ldots, X_n$ come from one population with the unknown parameter $\theta$ ::@:: One parameter $\theta$ describes all $n$ copies at once, instead of one unknown per copy. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - abbreviation for independent and identically distributed copies of $X$ ::@:: i.i.d. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
@@ -80,15 +80,15 @@ Without independence the joint law is not a product at all, and the calculation 
 
 Flashcards for this section are as follows:
 
-- joint pdf of $X_1, \ldots, X_n$ i.i.d. with pdf $f_X(\cdot \mid \theta)$ from a population with unknown parameter $\theta$ ::@:: $f(x_1, \ldots, x_n \mid \theta) = \prod_{i=1}^{n} f_X(x_i \mid \theta)$.
-- joint pmf of $X_1, \ldots, X_n$ i.i.d. with pmf $p_X(\cdot \mid \theta)$ from a population with unknown parameter $\theta$ ::@:: $p(x_1, \ldots, x_n \mid \theta) = \prod_{i=1}^{n} p_X(x_i \mid \theta)$.
-- number of unknown parameters in the joint density $f(x_1, \ldots, x_n \mid \theta) = \prod_{i=1}^{n} f_X(x_i \mid \theta)$ of a random sample ::@:: One, $\theta$, carried by every factor and so by every copy.
-- independent copies with different laws $f_{X_i}$: does the joint density factorize over $i = 1, \ldots, n$ ::@:: Yes, as a product of $n$ different factors $f_{X_i}$, one per copy, rather than $n$ copies of a single $f_X$.
-- dependent continuous copies: can the joint density be written as $\prod_{i=1}^{n} f_{X_i}$ ::@:: No. A joint density factors into one term per copy exactly when the copies are independent, so a density that fails to factorize shows dependence.
-- for a random sample, is the product form of the joint density a definition or a theorem to prove ::@:: A definition, in both directions: independent copies give a product density, and a joint density that factors into one term per copy gives independent copies.
-- for components of a jointly normal vector, does a zero cross-covariance imply independence ::@:: Yes, zero covariance and independence coincide within the normal family.
-- for components of a jointly normal vector whose covariance matrix has a zero cross-covariance block, why does the joint density factorize ::@:: The zero block splits the covariance matrix into blocks, and a block-diagonal covariance matrix gives a density that is the product of the marginals.
-- for two random variables that are not jointly normal, does a zero covariance imply independence ::@:: No, a zero covariance and a dependence can sit together.
+- joint pdf of $X_1, \ldots, X_n$ i.i.d. with pdf $f_X(\cdot \mid \theta)$ from a population with unknown parameter $\theta$ ::@:: $f(x_1, \ldots, x_n \mid \theta) = \prod_{i=1}^{n} f_X(x_i \mid \theta)$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- joint pmf of $X_1, \ldots, X_n$ i.i.d. with pmf $p_X(\cdot \mid \theta)$ from a population with unknown parameter $\theta$ ::@:: $p(x_1, \ldots, x_n \mid \theta) = \prod_{i=1}^{n} p_X(x_i \mid \theta)$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- number of unknown parameters in the joint density $f(x_1, \ldots, x_n \mid \theta) = \prod_{i=1}^{n} f_X(x_i \mid \theta)$ of a random sample ::@:: One, $\theta$, carried by every factor and so by every copy. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- independent copies with different laws $f_{X_i}$: does the joint density factorize over $i = 1, \ldots, n$ ::@:: Yes, as a product of $n$ different factors $f_{X_i}$, one per copy, rather than $n$ copies of a single $f_X$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- dependent continuous copies: can the joint density be written as $\prod_{i=1}^{n} f_{X_i}$ ::@:: No. A joint density factors into one term per copy exactly when the copies are independent, so a density that fails to factorize shows dependence. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- for a random sample, is the product form of the joint density a definition or a theorem to prove ::@:: A definition, in both directions: independent copies give a product density, and a joint density that factors into one term per copy gives independent copies. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- for components of a jointly normal vector, does a zero cross-covariance imply independence ::@:: Yes, zero covariance and independence coincide within the normal family. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- for components of a jointly normal vector whose covariance matrix has a zero cross-covariance block, why does the joint density factorize ::@:: The zero block splits the covariance matrix into blocks, and a block-diagonal covariance matrix gives a density that is the product of the marginals. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- for two random variables that are not jointly normal, does a zero covariance imply independence ::@:: No, a zero covariance and a dependence can sit together. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 <!-- check: ignore-next-line[section_example_heading]: a matched pair of cases for the definition, kept together so the counterexample sits beside the definition it violates -->
 ### examples and counterexamples for the product form

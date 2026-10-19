@@ -18,10 +18,10 @@ They differ in how much the participant hands over, and they do not measure the 
 
 Flashcards for this section are as follows:
 
-- the three routes that measure a person's mood ::@:: Three routes measure a person's mood: asking the participant, reading behaviour, and reading the body.
-- what separates the routes ::@:: How much the participant hands over.
-- what follows from measuring different things ::@:: A finding from one route does not carry over to another unless the study says so.
-- what a mood measure needs before it means anything ::@:: A comparison.
+- the three routes that measure a person's mood ::@:: Three routes measure a person's mood: asking the participant, reading behaviour, and reading the body. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what separates the routes ::@:: How much the participant hands over. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what follows from measuring different things ::@:: A finding from one route does not carry over to another unless the study says so. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a mood measure needs before it means anything ::@:: A comparison. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## self-report
 
@@ -40,11 +40,11 @@ A number given on demand shows what the participant recalls and is willing to sa
 
 Flashcards for this section are as follows:
 
-- the two forms a self-report takes ::@:: A self-report is either one item or a validated set.
-- where asking sits among the three routes ::@:: The most direct of the three, and the most open to bias.
-- how a single item is asked ::@:: Once, against a fixed set of response options rather than free text.
-- the single-item response options ::@:: A rating from 0 to 9 or 1 to 7, an agreement item, a visual analogue scale running from the worst mood to the best, or a choice among words such as happy, enthusiastic, or melancholic.
-- the shared weakness ::@:: A number given on demand shows what the participant recalls and is willing to say.
+- the two forms a self-report takes ::@:: A self-report is either one item or a validated set. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- where asking sits among the three routes ::@:: The most direct of the three, and the most open to bias. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how a single item is asked ::@:: Once, against a fixed set of response options rather than free text. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the single-item response options ::@:: A rating from 0 to 9 or 1 to 7, an agreement item, a visual analogue scale running from the worst mood to the best, or a choice among words such as happy, enthusiastic, or melancholic. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the shared weakness ::@:: A number given on demand shows what the participant recalls and is willing to say. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ### validated questionnaires
 
@@ -58,14 +58,14 @@ The scoring comes published, so everyone who administers a validated instrument 
 
 Flashcards for this section are as follows:
 
-- when a study swaps the single item for a questionnaire ::@:: A study swaps the single item for a questionnaire with established scoring when it needs scores it can compare across people.
-- the usual choice ::@:: The Positive and Negative Affect Schedule, PANAS.
-- what PANAS does that a single item does not ::@:: PANAS scores current positive affect and current negative affect separately.
-- positive affect items on PANAS ::@:: Feeling enthusiastic, alert, or inspired.
-- negative affect items on PANAS ::@:: Feeling distressed, upset, or nervous.
-- what separate scoring prevents ::@:: A participant high on positive affect and low on negative affect does not average out to a neutral score.
-- why a validated instrument is preferred ::@:: Published scoring can be set beside other studies' results and samples, and a question written for the occasion cannot.
-- what a published scale also gives ::@:: Everyone who administers a validated instrument scores it the same way.
+- when a study swaps the single item for a questionnaire ::@:: A study swaps the single item for a questionnaire with established scoring when it needs scores it can compare across people. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the usual choice ::@:: The Positive and Negative Affect Schedule, PANAS. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what PANAS does that a single item does not ::@:: PANAS scores current positive affect and current negative affect separately. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- positive affect items on PANAS ::@:: Feeling enthusiastic, alert, or inspired. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- negative affect items on PANAS ::@:: Feeling distressed, upset, or nervous. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what separate scoring prevents ::@:: A participant high on positive affect and low on negative affect does not average out to a neutral score. <!--SR:!fsrs,2026-11-10T00:10:00.000Z,0,2.3065,2.11810397,1,1,0,1,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why a validated instrument is preferred ::@:: Published scoring can be set beside other studies' results and samples, and a question written for the occasion cannot. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a published scale also gives ::@:: Everyone who administers a validated instrument scores it the same way. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ### experience sampling
 
@@ -77,11 +77,11 @@ The memory bias that troubles a retrospective question is largely gone, because 
 
 Flashcards for this section are as follows:
 
-- how a participant rates their mood under experience sampling ::@:: A participant rates their mood on a phone several times a day.
-- what each rating covers ::@:: The last stretch of experience, not a day recalled.
-- what experience sampling removes ::@:: The memory bias that troubles a retrospective question is largely gone.
-- what experience sampling gains ::@:: Validity for the state it targets.
-- what experience sampling gives up ::@:: Reliability across participants.
+- how a participant rates their mood under experience sampling ::@:: A participant rates their mood on a phone several times a day. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what each rating covers ::@:: The last stretch of experience, not a day recalled. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what experience sampling removes ::@:: The memory bias that troubles a retrospective question is largely gone. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what experience sampling gains ::@:: Validity for the state it targets. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what experience sampling gives up ::@:: Reliability across participants. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## behavioural measures
 
@@ -95,15 +95,15 @@ Every measure here carries its own noise. A coded smile settles nothing outside 
 
 Flashcards for this section are as follows:
 
-- what a behavioural measure reads ::@:: A behavioural measure reads what a participant produces while doing something else.
-- the facial measures ::@:: A coder reads the face, and facial EMG reads the muscle activity underneath.
-- why facial measures are preferred to asking ::@:: A smile counts whether or not the participant decides to smile.
-- why a reaction time is trusted more than a rating ::@:: It is harder to produce on demand.
-- how easily a rating can be faked ::@:: Someone who wants to report feeling better can simply say so.
-- what faking a reaction time would take ::@:: Speeding up a lexical decision takes more than the intention to look better.
-- reaction time as an implicit mood index ::@:: A participant who classifies happy words faster against sad ones after exercise counts as being in a better mood.
-- what a coded smile does not settle ::@:: Nothing outside the situation its coding was written for.
-- what a reaction time varies with ::@:: Sleep, attention, and the choice of words.
+- what a behavioural measure reads ::@:: A behavioural measure reads what a participant produces while doing something else. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the facial measures ::@:: A coder reads the face, and facial EMG reads the muscle activity underneath. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why facial measures are preferred to asking ::@:: A smile counts whether or not the participant decides to smile. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why a reaction time is trusted more than a rating ::@:: It is harder to produce on demand. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how easily a rating can be faked ::@:: Someone who wants to report feeling better can simply say so. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what faking a reaction time would take ::@:: Speeding up a lexical decision takes more than the intention to look better. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- reaction time as an implicit mood index ::@:: A participant who classifies happy words faster against sad ones after exercise counts as being in a better mood. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a coded smile does not settle ::@:: Nothing outside the situation its coding was written for. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a reaction time varies with ::@:: Sleep, attention, and the choice of words. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## physiological measures
 
@@ -117,13 +117,13 @@ A [brain-imaging measure](functional%20magnetic%20resonance%20imaging.md#correla
 
 Flashcards for this section are as follows:
 
-- how a physiological measure reaches mood ::@:: Physiological measures read the body without asking.
-- physiological measures of mood ::@:: Heart rate variability, skin conductance, cortisol, heart rate from a wearable, and dopamine before and after the manipulation.
-- what a wearable adds ::@:: Heart rate across a whole session rather than one moment in a clinic chair. That suits a transient effect.
-- the limit on every physiological measure ::@:: They all measure arousal, and arousal is not mood.
-- why a strained nervous system reads like a happy one ::@:: A strained sympathetic nervous system does what a happy person does, for a different reason.
-- what a physiological measure is evidence of ::@:: That something happened, not what it felt like to the participant.
-- how a brain-imaging measure of mood falls short ::@:: It is correlational at best: a region active during a mood responds to it.
+- how a physiological measure reaches mood ::@:: Physiological measures read the body without asking. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- physiological measures of mood ::@:: Heart rate variability, skin conductance, cortisol, heart rate from a wearable, and dopamine before and after the manipulation. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a wearable adds ::@:: Heart rate across a whole session rather than one moment in a clinic chair. That suits a transient effect. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the limit on every physiological measure ::@:: They all measure arousal, and arousal is not mood. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why a strained nervous system reads like a happy one ::@:: A strained sympathetic nervous system does what a happy person does, for a different reason. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a physiological measure is evidence of ::@:: That something happened, not what it felt like to the participant. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how a brain-imaging measure of mood falls short ::@:: It is correlational at best: a region active during a mood responds to it. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## references
 

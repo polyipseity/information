@@ -15,9 +15,9 @@ A correlation measures how far two variables go together. It leaves the directio
 
 Flashcards for this section are as follows:
 
-- what a correlation measures, and what it leaves open ::@:: A correlation measures how far two variables go together and leaves the direction of cause open.
-- why the direction of cause is undetermined ::@:: Several causal structures produce the same pattern, and no coefficient tells them apart.
-- what turns an association into a causal finding ::@:: A design that rules the other structures out.
+- what a correlation measures, and what it leaves open ::@:: A correlation measures how far two variables go together and leaves the direction of cause open. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why the direction of cause is undetermined ::@:: Several causal structures produce the same pattern, and no coefficient tells them apart. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what turns an association into a causal finding ::@:: A design that rules the other structures out. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## three explanations of one association
 
@@ -29,14 +29,14 @@ Nothing in the correlation itself picks between them. Each structure predicts th
 
 Flashcards for this section are as follows:
 
-- which structures produce the same correlation ::@:: One variable causing the other, the other causing the one, and a third variable causing both all produce the same correlation.
-- the three structures in the Facebook use and depression case ::@:: Facebook use causing depression, depression causing more Facebook use, and having no friends causing both.
-- how the third structure differs from the other two ::@:: Its cause sits outside the two variables, while the other two name a cause and an effect between them.
-- which of the three is a causal claim about Facebook use and depression themselves ::@:: Facebook use causing depression.
-- which of the three is usually missed ::@:: The third variable causing both, because ruling it out takes a design rather than a better measure.
-- what would settle which structure holds ::@:: A design that rules out the other two. Random assignment does that fully; a quasi-experiment only partly.
-- ![three rows of boxes: Facebook pointing to depression, depression pointing to Facebook, and no friends pointing to both](attachments/correlation_causal_directions.svg) ::@:: One correlation is compatible with all three of these structures.
-- draw the three structures a correlation is compatible with ::@:: Two boxes joined by a rightward arrow. The same pair with the arrow reversed. One box with two arrows leaving it, one to each of two other boxes. <p> ![three rows of boxes: Facebook pointing to depression, depression pointing to Facebook, and no friends pointing to both](attachments/correlation_causal_directions.svg)
+- which structures produce the same correlation ::@:: One variable causing the other, the other causing the one, and a third variable causing both all produce the same correlation. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the three structures in the Facebook use and depression case ::@:: Facebook use causing depression, depression causing more Facebook use, and having no friends causing both. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how the third structure differs from the other two ::@:: Its cause sits outside the two variables, while the other two name a cause and an effect between them. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- which of the three is a causal claim about Facebook use and depression themselves ::@:: Facebook use causing depression. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- which of the three is usually missed ::@:: The third variable causing both, because ruling it out takes a design rather than a better measure. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what would settle which structure holds ::@:: A design that rules out the other two. Random assignment does that fully; a quasi-experiment only partly. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- ![three rows of boxes: Facebook pointing to depression, depression pointing to Facebook, and no friends pointing to both](attachments/correlation_causal_directions.svg) ::@:: One correlation is compatible with all three of these structures. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- draw the three structures a correlation is compatible with ::@:: Two boxes joined by a rightward arrow. The same pair with the arrow reversed. One box with two arrows leaving it, one to each of two other boxes. <p> ![three rows of boxes: Facebook pointing to depression, depression pointing to Facebook, and no friends pointing to both](attachments/correlation_causal_directions.svg) <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## the three requirements for causation
 
@@ -60,18 +60,18 @@ In one study, participants are shown face images, and an area in the inferior te
 
 Flashcards for this section are as follows:
 
-- the bar a causal claim has to clear ::@:: A causal claim has to meet three requirements, whatever structure it proposes, and a study can meet two and still show nothing causal.
-- the three requirements for causation ::@:: Temporal precedence, covariation of cause and effect, and elimination of alternative explanations.
-- temporal precedence ::@:: The cause has to come before the effect.
-- covariation of cause and effect ::@:: The two have to vary together.
-- elimination of alternative explanations ::@:: Everything else that could produce the pattern has to be ruled out.
-- how the requirements differ from the three explanations of one association ::@:: The structures say what data can show, while the requirements say what a claim has to meet.
-- which requirement the third-variable structure belongs to ::@:: Elimination of alternative explanations, and the one most often left standing.
-- what a correlational design can meet at best ::@:: Covariation, and only in the form a third variable would have produced anyway.
-- what a study showing inferior temporal activation establishes ::@:: That the region responds to faces, not that the activation produces the perception of one.
-- why temporal precedence fails in the face perception case ::@:: The interval between the activation and the perception is too short to order without specialized tools.
-- why covariation fails in the face perception case ::@:: Nothing shows the activation producing the perception.
-- why elimination of alternatives fails in the face perception case ::@:: Nothing rules out a third variable.
+- the bar a causal claim has to clear ::@:: A causal claim has to meet three requirements, whatever structure it proposes, and a study can meet two and still show nothing causal. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the three requirements for causation ::@:: Temporal precedence, covariation of cause and effect, and elimination of alternative explanations. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- temporal precedence ::@:: The cause has to come before the effect. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- covariation of cause and effect ::@:: The two have to vary together. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- elimination of alternative explanations ::@:: Everything else that could produce the pattern has to be ruled out. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how the requirements differ from the three explanations of one association ::@:: The structures say what data can show, while the requirements say what a claim has to meet. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- which requirement the third-variable structure belongs to ::@:: Elimination of alternative explanations, and the one most often left standing. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a correlational design can meet at best ::@:: Covariation, and only in the form a third variable would have produced anyway. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a study showing inferior temporal activation establishes ::@:: That the region responds to faces, not that the activation produces the perception of one. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why temporal precedence fails in the face perception case ::@:: The interval between the activation and the perception is too short to order without specialized tools. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why covariation fails in the face perception case ::@:: Nothing shows the activation producing the perception. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why elimination of alternatives fails in the face perception case ::@:: Nothing rules out a third variable. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## claims that outrun their data
 
@@ -85,12 +85,12 @@ The claim stays in circulation rather than becoming a finding until a design can
 
 Flashcards for this section are as follows:
 
-- how the televised report presented its finding ::@:: A televised report presented a comparison of diet soda drinkers with non-drinkers as evidence that diet soda causes weight gain.
-- the comparison the report was based on ::@:: People drinking two cans of diet soda a day for ten years gained more waist circumference than people who drank none.
-- the behaviour that could account for the pattern ::@:: Treating the sugar-free choice as saved calories and spending them on other food.
-- what that behaviour would be, as a causal structure ::@:: A third variable, dietary compensation, in place of the soda as the cause.
-- the status of the claim while no design rules the alternatives out ::@:: A claim in circulation, not a finding.
-- why a correlational finding is easy to misreport ::@:: The data do not say which variable came first, and a report's wording can assert a direction the data never carried.
+- how the televised report presented its finding ::@:: A televised report presented a comparison of diet soda drinkers with non-drinkers as evidence that diet soda causes weight gain. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the comparison the report was based on ::@:: People drinking two cans of diet soda a day for ten years gained more waist circumference than people who drank none. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the behaviour that could account for the pattern ::@:: Treating the sugar-free choice as saved calories and spending them on other food. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what that behaviour would be, as a causal structure ::@:: A third variable, dietary compensation, in place of the soda as the cause. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the status of the claim while no design rules the alternatives out ::@:: A claim in circulation, not a finding. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why a correlational finding is easy to misreport ::@:: The data do not say which variable came first, and a report's wording can assert a direction the data never carried. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## references
 

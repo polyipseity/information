@@ -18,7 +18,7 @@ Four question sets: types of memory, encoding, storage and interference, and ret
 
 Flashcards for this section are as follows:
 
-- the three stages memory runs through ::@:: Encoding, storage, and retrieval, each of which changes what the others can do.
+- the three stages memory runs through ::@:: Encoding, storage, and retrieval, each of which changes what the others can do. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## types of memory
 
@@ -54,12 +54,12 @@ The three systems run one loop. New information arrives in working memory, is [e
 
 Flashcards for this section are as follows:
 
-- what working memory holds and for how long ::@:: A task's information in use right now, about three to five chunks, gone as soon as attention moves on.
-- the difference between semantic and episodic memory ::@:: Semantic memory holds facts and concepts with no time and place attached; episodic memory holds your own events with when, where, and how they felt.
-- an episodic memory that has faded into semantic memory ::@:: Knowing that you learned to ride a bike at age four while the ride itself is gone.
-- what strong emotion does to an episodic memory ::@:: It deepens the encoding and the confidence in recall, without improving the accuracy of the peripheral details.
-- what collective memory belongs to ::@:: The group's shared identity, so members who never lived through an event still carry it with its stories.
-- the route information takes through the three memory systems ::@:: It enters working memory, is encoded into episodic and semantic long-term memory, and is retrieved back into working memory when a task needs it.
+- what working memory holds and for how long ::@:: A task's information in use right now, about three to five chunks, gone as soon as attention moves on. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the difference between semantic and episodic memory ::@:: Semantic memory holds facts and concepts with no time and place attached; episodic memory holds your own events with when, where, and how they felt. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- an episodic memory that has faded into semantic memory ::@:: Knowing that you learned to ride a bike at age four while the ride itself is gone. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what strong emotion does to an episodic memory ::@:: It deepens the encoding and the confidence in recall, without improving the accuracy of the peripheral details. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what collective memory belongs to ::@:: The group's shared identity, so members who never lived through an event still carry it with its stories. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the route information takes through the three memory systems ::@:: It enters working memory, is encoded into episodic and semantic long-term memory, and is retrieved back into working memory when a task needs it. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## encoding
 
@@ -95,12 +95,12 @@ How practice is arranged changes what sticks. [The spacing effect](../../spacing
 
 Flashcards for this section are as follows:
 
-- the factors that produce a flashbulb memory ::@:: Strong emotion, personal consequence, and surprise during encoding, reinforced by rehearsal straight afterwards.
-- what recoding does to information ::@:: It converts the material into a form that makes sense to you, such as an acronym, a category, or a chunk.
-- what a DRM word list exploits ::@:: The brain stores the meaning shared by the items, so an unstudied word carrying that meaning feels studied.
-- how pragmatic inference produces false recognition ::@:: The inference added while listening is stored with the words, so the implied version is later recognised as the one heard.
-- what separates the spacing effect from the generation effect ::@:: Spacing spreads the same study time over days; generation has the learner produce the answer instead of reading it.
-- why spacing and generation are desirable difficulties ::@:: The delay and the effort make learning feel worse at the time and produce stronger long-term retention.
+- the factors that produce a flashbulb memory ::@:: Strong emotion, personal consequence, and surprise during encoding, reinforced by rehearsal straight afterwards. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what recoding does to information ::@:: It converts the material into a form that makes sense to you, such as an acronym, a category, or a chunk. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a DRM word list exploits ::@:: The brain stores the meaning shared by the items, so an unstudied word carrying that meaning feels studied. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how pragmatic inference produces false recognition ::@:: The inference added while listening is stored with the words, so the implied version is later recognised as the one heard. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what separates the spacing effect from the generation effect ::@:: Spacing spreads the same study time over days; generation has the learner produce the answer instead of reading it. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why spacing and generation are desirable difficulties ::@:: The delay and the effort make learning feel worse at the time and produce stronger long-term retention. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## storage and interference
 
@@ -136,13 +136,13 @@ Retrieval itself edits [storage](../../memory.md). Recall rebuilds the trace fro
 
 Flashcards for this section are as follows:
 
-- which interference blocks old material with new, and which blocks new with old ::@:: Retroactive interference runs new to old; proactive interference runs old to new.
-- what makes an interference effect strongest ::@:: Similarity: the closer the old and new material, the more they compete for the same cue.
-- what the misinformation effect does to a memory ::@:: Information arriving after the event merges into the reconstructed trace, so a later suggestion is stored as part of the event and changes what a person reports having seen.
-- why a witness may report glass that was never there ::@:: The word "smashed" is encoded with the crash and later read back as part of it, so the glass it implies is reported as seen.
-- the difference between availability and accessibility ::@:: Availability is information still stored; accessibility is information retrievable at this moment.
-- what a tip-of-the-tongue moment shows ::@:: The memory is stored but cannot be reached right now.
-- what retrieval does to the memory it brings back ::@:: It rebuilds and restores the trace, so each recall updates the stored representation.
+- which interference blocks old material with new, and which blocks new with old ::@:: Retroactive interference runs new to old; proactive interference runs old to new. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what makes an interference effect strongest ::@:: Similarity: the closer the old and new material, the more they compete for the same cue. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the misinformation effect does to a memory ::@:: Information arriving after the event merges into the reconstructed trace, so a later suggestion is stored as part of the event and changes what a person reports having seen. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why a witness may report glass that was never there ::@:: The word "smashed" is encoded with the crash and later read back as part of it, so the glass it implies is reported as seen. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the difference between availability and accessibility ::@:: Availability is information still stored; accessibility is information retrievable at this moment. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a tip-of-the-tongue moment shows ::@:: The memory is stored but cannot be reached right now. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what retrieval does to the memory it brings back ::@:: It rebuilds and restores the trace, so each recall updates the stored representation. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## retrieval and improvement
 
@@ -178,11 +178,11 @@ The [memory palace](../../mnemonic.md), or method of loci, turns a familiar rout
 
 Flashcards for this section are as follows:
 
-- what the encoding specificity principle says about a cue ::@:: A cue works to the extent that it matches what was stored with the memory at encoding.
-- the four recall rates from the diving word study ::@:: Learned underwater: 32% recalled underwater against 23% on land. Learned on land: 38% on land against 24% underwater.
-- what makes a state-dependent memory return ::@:: The internal state during recall matches the state present during learning, because that state was encoded as a cue.
-- what cue overload means ::@:: A cue tied to many memories identifies none of them, so it retrieves its target less accurately.
-- what retrieval practice does to the item recalled ::@:: It strengthens that item, so it is easier to retrieve again next time.
-- what retrieval-induced forgetting does to the items left alone ::@:: Recalling one item weakens the related items that share its cues but were never practised.
-- how a memory palace is built ::@:: Fix a familiar route, turn each item into a vivid image, place one image at each stop, and walk the route to recall.
-- why a memory palace works ::@:: Places outlast lists, images encode more deeply than words, and the route supplies stable cues in a fixed order.
+- what the encoding specificity principle says about a cue ::@:: A cue works to the extent that it matches what was stored with the memory at encoding. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the four recall rates from the diving word study ::@:: Learned underwater: 32% recalled underwater against 23% on land. Learned on land: 38% on land against 24% underwater. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what makes a state-dependent memory return ::@:: The internal state during recall matches the state present during learning, because that state was encoded as a cue. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what cue overload means ::@:: A cue tied to many memories identifies none of them, so it retrieves its target less accurately. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what retrieval practice does to the item recalled ::@:: It strengthens that item, so it is easier to retrieve again next time. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what retrieval-induced forgetting does to the items left alone ::@:: Recalling one item weakens the related items that share its cues but were never practised. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how a memory palace is built ::@:: Fix a familiar route, turn each item into a vivid image, place one image at each stop, and walk the route to recall. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why a memory palace works ::@:: Places outlast lists, images encode more deeply than words, and the route supplies stable cues in a fixed order. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->

@@ -15,10 +15,10 @@ Flashbulb memory describes the moment a person receives significant news that se
 
 Flashcards for this section are as follows:
 
-- what a rare or distinctive event does for memory ::@:: It catches attention and is remembered better, as with seeing a giraffe on campus.
-- what flashbulb memory describes ::@:: The moment a person receives significant news that seems to etch their memory with great clarity.
-- what makes a flashbulb moment collective ::@:: A group receiving the significant news at once, such as learning of the Tai Po fire tragedy and remembering what one was doing on hearing it.
-- how accurate great confidence in a flashbulb memory is ::@:: People are often highly confident in such memories although they are not as accurate.
+- what a rare or distinctive event does for memory ::@:: It catches attention and is remembered better, as with seeing a giraffe on campus. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what flashbulb memory describes ::@:: The moment a person receives significant news that seems to etch their memory with great clarity. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what makes a flashbulb moment collective ::@:: A group receiving the significant news at once, such as learning of the Tai Po fire tragedy and remembering what one was doing on hearing it. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how accurate great confidence in a flashbulb memory is ::@:: People are often highly confident in such memories although they are not as accurate. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## references
 

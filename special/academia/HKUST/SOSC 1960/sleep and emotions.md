@@ -18,10 +18,10 @@ Sleep is also when the day's difficult experiences are taken in and soothed, so 
 
 Flashcards for this section are as follows:
 
-- how emotion changes when sleep is missing ::@:: Emotion is louder without sleep and quieter after it.
-- what emotional reactivity depends on ::@:: How much sleep the brain has had.
-- what becomes more reactive without sleep ::@:: The amygdala, the part of the brain that generates strong emotional reactions.
-- what the prefrontal cortex does without sleep ::@:: It loses the link to the amygdala.
+- how emotion changes when sleep is missing ::@:: Emotion is louder without sleep and quieter after it. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what emotional reactivity depends on ::@:: How much sleep the brain has had. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what becomes more reactive without sleep ::@:: The amygdala, the part of the brain that generates strong emotional reactions. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the prefrontal cortex does without sleep ::@:: It loses the link to the amygdala. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-10T00:10:00.000Z,0,2.3065,2.11810397,1,1,0,1,2026-11-10T00:00:00.000Z-->
 - what sleep does for the day's emotional experiences ::@:: It takes in the day's difficult experiences and soothes them, so that the next day copes. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 
 ## emotional reactivity under sleep loss
@@ -36,16 +36,16 @@ After a full night's sleep the cortex and amygdala communicate strongly. Under s
 
 Flashcards for this section are as follows:
 
-- what the amygdala is for ::@:: Generating strong emotional reactions, including negative ones.
-- how a sleep-deprivation experiment studies emotion ::@:: It scans the same people twice, once rested and once not.
-- what a full night of sleep leaves amygdala reactivity at ::@:: A moderate, fitting degree.
-- how much more responsive the amygdala is under sleep loss ::@:: Almost 60 percent.
-- where the prefrontal cortex sits ::@:: Above the eyes.
-- what the prefrontal cortex does about emotion ::@:: It makes high-level, top-down control decisions.
-- what the prefrontal cortex controls in emotion ::@:: The amygdala.
-- how the prefrontal cortex compares with other brain regions ::@:: It is among the most evolved parts of the brain.
-- what a full night's sleep does to the link between the prefrontal cortex and the amygdala ::@:: They communicate strongly.
-- what sleep loss does to the link between the prefrontal cortex and the amygdala ::@:: It essentially severs it.
+- what the amygdala is for ::@:: Generating strong emotional reactions, including negative ones. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how a sleep-deprivation experiment studies emotion ::@:: It scans the same people twice, once rested and once not. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a full night of sleep leaves amygdala reactivity at ::@:: A moderate, fitting degree. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how much more responsive the amygdala is under sleep loss ::@:: Almost 60 percent. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- where the prefrontal cortex sits ::@:: Above the eyes. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the prefrontal cortex does about emotion ::@:: It makes high-level, top-down control decisions. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the prefrontal cortex controls in emotion ::@:: The amygdala. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how the prefrontal cortex compares with other brain regions ::@:: It is among the most evolved parts of the brain. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a full night's sleep does to the link between the prefrontal cortex and the amygdala ::@:: They communicate strongly. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what sleep loss does to the link between the prefrontal cortex and the amygdala ::@:: It essentially severs it. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## emotional memory during sleep
 
@@ -57,9 +57,9 @@ Some of the healing usually credited to time happens during sleep. REM sleep is 
 
 Flashcards for this section are as follows:
 
-- when difficult emotional experiences are reprocessed ::@:: During sleep at night, so they can be coped with the next day.
-- where some of the healing usually credited to time happens ::@:: During sleep.
-- what rapid eye movement sleep offers ::@:: A form of emotional first aid.
+- when difficult emotional experiences are reprocessed ::@:: During sleep at night, so they can be coped with the next day. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- where some of the healing usually credited to time happens ::@:: During sleep. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what rapid eye movement sleep offers ::@:: A form of emotional first aid. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## references
 

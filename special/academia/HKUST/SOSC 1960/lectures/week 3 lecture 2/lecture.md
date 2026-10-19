@@ -18,8 +18,8 @@ Four question sets: research design, correlation and causation, the design of an
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Four question sets, on research design, correlation and causation, an exercise-and-mood study, and the methods used to study the brain.
-- overview / the one design written out in full ::@:: Transcranial magnetic stimulation over the parietal cortex against a vertex control.
+- overview ::@:: Four question sets, on research design, correlation and causation, an exercise-and-mood study, and the methods used to study the brain. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- overview / the one design written out in full ::@:: Transcranial magnetic stimulation over the parietal cortex against a vertex control. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## research design
 
@@ -57,14 +57,14 @@ Brain imaging fits a correlational design for the same reason, with an [MRI](../
 
 Flashcards for this section are as follows:
 
-- the one feature that tells the three designs apart ::@:: Who decides who is in which group.
-- experimental design, in short ::@:: Assigns people to conditions at random, and so earns a causal claim.
-- quasi-experimental design, in short ::@:: Compares groups that already existed.
-- correlational design, in short ::@:: Changes nothing and only measures.
-- a status that cannot be assigned at random ::@:: Whether a person is married or single, so a study of the two groups carries whatever else differs between them.
-- the two versions of the caffeine and exam-score study ::@:: Correlational: ask how much caffeine students drank and compare the answers with their exam scores, leaving confounders such as hours of study standing. Experimental: split them at random into a caffeine group and a placebo group and put both through the same exam.
-- possible values of the correlation coefficient $r$ ::@:: $-1$ to $1$.
-- why brain imaging data is usually correlational ::@:: Causal studies on the brain are very hard to run, so the correlation is what the design yields.
+- the one feature that tells the three designs apart ::@:: Who decides who is in which group. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- experimental design, in short ::@:: Assigns people to conditions at random, and so earns a causal claim. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- quasi-experimental design, in short ::@:: Compares groups that already existed. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- correlational design, in short ::@:: Changes nothing and only measures. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- a status that cannot be assigned at random ::@:: Whether a person is married or single, so a study of the two groups carries whatever else differs between them. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the two versions of the caffeine and exam-score study ::@:: Correlational: ask how much caffeine students drank and compare the answers with their exam scores, leaving confounders such as hours of study standing. Experimental: split them at random into a caffeine group and a placebo group and put both through the same exam. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- possible values of the correlation coefficient $r$ ::@:: $-1$ to $1$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why brain imaging data is usually correlational ::@:: Causal studies on the brain are very hard to run, so the correlation is what the design yields. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## correlation and causation
 
@@ -102,14 +102,14 @@ Hormone replacement therapy went with a significantly lower risk of coronary hea
 
 Flashcards for this section are as follows:
 
-- the answer to all four findings ::@:: No: an association observed without manipulation and without random assignment does not establish a cause.
-- diet coke, the reverse-causation explanation ::@:: People already gaining weight or trying to manage it switch to diet drinks, so weight gain produces the diet-coke choice.
-- diet coke, the compensatory-eating explanation ::@:: Someone who saves calories on the drink eats more elsewhere, so the extra food is the cause.
-- what imaging can never show about a region ::@:: Sufficiency, because the activity seen may be a consequence of the perception or of a metabolic process that follows it.
-- what shows necessity instead ::@:: Lesions and transcranial magnetic stimulation: damage or interference with a region shows it is necessary for a function, as in prosopagnosia.
-- the conclusion that is safe on short sleep ::@:: Students who sleep less tend to report more depression.
-- two series that rose together with nothing connecting them ::@:: US spending on science, space, and technology, and suicides by hanging, strangulation, and suffocation, both climbing across 1999 to 2009.
-- bomber planes and armor placement ::@:: Bullet holes clustered in the wings, tail, and fuselage, but only surviving planes were examined, so the armor belonged where the holes were not.
+- the answer to all four findings ::@:: No: an association observed without manipulation and without random assignment does not establish a cause. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- diet coke, the reverse-causation explanation ::@:: People already gaining weight or trying to manage it switch to diet drinks, so weight gain produces the diet-coke choice. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- diet coke, the compensatory-eating explanation ::@:: Someone who saves calories on the drink eats more elsewhere, so the extra food is the cause. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what imaging can never show about a region ::@:: Sufficiency, because the activity seen may be a consequence of the perception or of a metabolic process that follows it. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what shows necessity instead ::@:: Lesions and transcranial magnetic stimulation: damage or interference with a region shows it is necessary for a function, as in prosopagnosia. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the conclusion that is safe on short sleep ::@:: Students who sleep less tend to report more depression. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- two series that rose together with nothing connecting them ::@:: US spending on science, space, and technology, and suicides by hanging, strangulation, and suffocation, both climbing across 1999 to 2009. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- bomber planes and armor placement ::@:: Bullet holes clustered in the wings, tail, and fuselage, but only surviving planes were examined, so the armor belonged where the holes were not. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## designing an exercise-and-mood study
 
@@ -147,13 +147,13 @@ The longitudinal design tracks fifty people, 25 exercisers and 25 controls, over
 
 Flashcards for this section are as follows:
 
-- the observation the study starts from ::@:: Every time after exercise a feeling of happiness follows, and a study is wanted on the relationship between exercise and mood.
-- experimental design for exercise and mood ::@:: Randomly assign about 80 to 90 students to 30 minutes of exercise against a 30-minute lecture or nature video control.
-- how the experiment measures and compares mood ::@:: With PANAS or another validated affect scale immediately before and immediately after, comparing the change scores with a one-way ANOVA.
-- correlational design for exercise and mood ::@:: About 100 students report total exercise minutes and average mood over the same past seven days, with nobody's routine changed or assigned.
-- quasi-experimental design for exercise and mood ::@:: Split students who already exercise into two groups and compare their mood scores, with no random assignment.
-- longitudinal design for exercise and mood ::@:: Fifty people, 25 exercisers and 25 controls, tracked over a year with mood surveyed monthly or at the start and a year later.
-- the causal claim a longitudinal design can make ::@:: That the exercise level at time 1 predicts the mood at time 2, with an upward trend over the follow-up.
+- the observation the study starts from ::@:: Every time after exercise a feeling of happiness follows, and a study is wanted on the relationship between exercise and mood. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- experimental design for exercise and mood ::@:: Randomly assign about 80 to 90 students to 30 minutes of exercise against a 30-minute lecture or nature video control. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how the experiment measures and compares mood ::@:: With PANAS or another validated affect scale immediately before and immediately after, comparing the change scores with a one-way ANOVA. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- correlational design for exercise and mood ::@:: About 100 students report total exercise minutes and average mood over the same past seven days, with nobody's routine changed or assigned. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- quasi-experimental design for exercise and mood ::@:: Split students who already exercise into two groups and compare their mood scores, with no random assignment. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- longitudinal design for exercise and mood ::@:: Fifty people, 25 exercisers and 25 controls, tracked over a year with mood surveyed monthly or at the start and a year later. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the causal claim a longitudinal design can make ::@:: That the exercise level at time 1 predicts the mood at time 2, with an upward trend over the follow-up. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## the methods used to study the brain
 
@@ -191,10 +191,10 @@ The intact model scores 90% on both Asian and Caucasian faces, and damaging the 
 
 Flashcards for this section are as follows:
 
-- method for finding the region tied to word reading ::@:: fMRI, for its spatial resolution.
-- method for timing the processing of a face's expression against its identity ::@:: EEG, and specifically the event-related potentials derived from it.
-- method for testing whether the parietal region is necessary for selective attention ::@:: Transcranial magnetic stimulation, applied over the parietal cortex during a selective attention task.
-- what a drop in parietal-but-not-vertex performance shows ::@:: That the region is necessary for selective attention, a cause-and-effect result rather than a correlation.
-- what a single lesion case licenses ::@:: Only the hypothesis that the damaged region may be involved in face recognition.
-- the numbers on the group's chart ::@:: Intact model 90% on both Asian and Caucasian faces. Damaged component 60% on Asian faces and 90% on Caucasian faces.
-- the boundary on a model's conclusion ::@:: The conclusion applies to the computational model. Human behavioural and brain research is needed before it generalizes.
+- method for finding the region tied to word reading ::@:: fMRI, for its spatial resolution. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- method for timing the processing of a face's expression against its identity ::@:: EEG, and specifically the event-related potentials derived from it. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- method for testing whether the parietal region is necessary for selective attention ::@:: Transcranial magnetic stimulation, applied over the parietal cortex during a selective attention task. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a drop in parietal-but-not-vertex performance shows ::@:: That the region is necessary for selective attention, a cause-and-effect result rather than a correlation. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a single lesion case licenses ::@:: Only the hypothesis that the damaged region may be involved in face recognition. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the numbers on the group's chart ::@:: Intact model 90% on both Asian and Caucasian faces. Damaged component 60% on Asian faces and 90% on Caucasian faces. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the boundary on a model's conclusion ::@:: The conclusion applies to the computational model. Human behavioural and brain research is needed before it generalizes. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->

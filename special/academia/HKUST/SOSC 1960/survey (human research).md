@@ -16,9 +16,9 @@ A survey is a list of questions that pulls specific data from a group. Researche
 
 Flashcards for this section are as follows:
 
-- what a survey is ::@:: A survey is a list of questions for pulling specific data from a group.
-- how a survey is administered ::@:: Researchers hand out paper questionnaires or post the questions online.
-- what a survey reaches that a laboratory task does not ::@:: What people believe, feel, and prefer.
+- what a survey is ::@:: A survey is a list of questions for pulling specific data from a group. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how a survey is administered ::@:: Researchers hand out paper questionnaires or post the questions online. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a survey reaches that a laboratory task does not ::@:: What people believe, feel, and prefer. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## what a survey buys
 
@@ -32,11 +32,11 @@ In exploratory work the cheap, fast design comes first. The expensive one follow
 
 Flashcards for this section are as follows:
 
-- what a survey buys over a laboratory study ::@:: More people reached than a laboratory study, for less money and less of the participants' time.
-- how a survey reaches participants without an appointment ::@:: Participants answer in their own time, and nobody has to book a slot.
-- what a survey does not buy ::@:: Precision.
-- what a longitudinal study would buy instead ::@:: Better measurement, at a higher cost and over years.
-- when a cheap design comes first ::@:: In exploratory work, with the expensive design running only if the first results look promising.
+- what a survey buys over a laboratory study ::@:: More people reached than a laboratory study, for less money and less of the participants' time. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how a survey reaches participants without an appointment ::@:: Participants answer in their own time, and nobody has to book a slot. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a survey does not buy ::@:: Precision. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a longitudinal study would buy instead ::@:: Better measurement, at a higher cost and over years. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- when a cheap design comes first ::@:: In exploratory work, with the expensive design running only if the first results look promising. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## surveys in correlational and experimental research
 
@@ -52,13 +52,13 @@ A survey can carry an experiment. Participants read a form filled in by either a
 
 Flashcards for this section are as follows:
 
-- what a survey counts as in a research design ::@:: Data collection, not a design, so it fits correlational research and experiments alike.
-- what most surveys are ::@:: Correlational, because the questions measure rather than manipulate.
-- the two things one correlational survey measures side by side ::@:: How happy people are, and how much they gave away.
-- what a correlational survey cannot settle ::@:: Which of the two measures came first.
-- what a correlational design needs no survey for ::@:: Existing records: yearbook smile intensity compared with marriage ten years later.
-- the independent variable when participants rate surveys written by a happy or an unhappy person ::@:: The mood of the person who wrote the form.
-- the dependent variable in that rating study ::@:: How likely each participant thinks that writer is to get into heaven.
+- what a survey counts as in a research design ::@:: Data collection, not a design, so it fits correlational research and experiments alike. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what most surveys are ::@:: Correlational, because the questions measure rather than manipulate. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the two things one correlational survey measures side by side ::@:: How happy people are, and how much they gave away. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a correlational survey cannot settle ::@:: Which of the two measures came first. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a correlational design needs no survey for ::@:: Existing records: yearbook smile intensity compared with marriage ten years later. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the independent variable when participants rate surveys written by a happy or an unhappy person ::@:: The mood of the person who wrote the form. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the dependent variable in that rating study ::@:: How likely each participant thinks that writer is to get into heaven. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## references
 

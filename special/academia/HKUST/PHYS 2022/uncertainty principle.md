@@ -17,10 +17,10 @@ The uncertainty principle, introduced by Werner Heisenberg in 1927, sets a funda
 
 Flashcards for this section are as follows:
 
-- overview: what the uncertainty principle states for $\Delta x$ and $\Delta p_x$ ::@:: That certain pairs of physical quantities, such as position $x$ and momentum $p_x$, cannot both be known arbitrarily precisely: $\Delta x \cdot \Delta p_x \geq \hbar/2$.
-- where the uncertainty limit $\Delta x \cdot \Delta p_x \geq \hbar/2$ comes from ::@:: From the quantum state itself ($\Delta x \cdot \Delta p_x \geq \hbar/2$), not from shortcomings of measuring instruments.
-- other conjugate pairs beside $(x, p_x)$ and $(E, t)$, and the dimensions their products share ::@:: $(L, \theta)$ for angular momentum and angle, and $(I, \omega)$ for rotational inertia and angular velocity; each product carries the dimensions of $\hbar$.
-- whether the uncertainty principle bounds $\Delta p_z \cdot \Delta x$ ::@:: No: $p_z$ and $x$ are not a conjugate pair, so $\Delta p_z \cdot \Delta x$ has no lower bound and can be zero.
+- overview: what the uncertainty principle states for $\Delta x$ and $\Delta p_x$ ::@:: That certain pairs of physical quantities, such as position $x$ and momentum $p_x$, cannot both be known arbitrarily precisely: $\Delta x \cdot \Delta p_x \geq \hbar/2$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- where the uncertainty limit $\Delta x \cdot \Delta p_x \geq \hbar/2$ comes from ::@:: From the quantum state itself ($\Delta x \cdot \Delta p_x \geq \hbar/2$), not from shortcomings of measuring instruments. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- other conjugate pairs beside $(x, p_x)$ and $(E, t)$, and the dimensions their products share ::@:: $(L, \theta)$ for angular momentum and angle, and $(I, \omega)$ for rotational inertia and angular velocity; each product carries the dimensions of $\hbar$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- whether the uncertainty principle bounds $\Delta p_z \cdot \Delta x$ ::@:: No: $p_z$ and $x$ are not a conjugate pair, so $\Delta p_z \cdot \Delta x$ has no lower bound and can be zero. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## from wave packets to quantum uncertainty
 
@@ -30,12 +30,12 @@ A particle localised to a width $\Delta x$ is described by a wave packet built f
 
 Flashcards for this section are as follows:
 
-- the Fourier trade-off between the wave-number spread $\Delta k$ and the position spread $\Delta x$ ::@:: $\Delta k \cdot \Delta x \geq 1/2$ for any localised wave packet.
-- how the wave-number bound $\Delta k \cdot \Delta x \geq 1/2$ becomes the momentum bound ::@:: With $p = \hbar k$ the momentum spread is $\Delta p_x = \hbar \Delta k$, so $\Delta x \cdot \Delta p_x \geq \hbar/2$.
-- what perfect localisation of a particle would do to $\Delta p_x$ ::@:: Perfect localisation would need every wave number, hence every momentum, so the momentum spread $\Delta p_x$ would be unbounded.
-- the position spread of the Gaussian packet $\Psi(x) = A e^{-x^2/4(\Delta x)^2} e^{ik_0 x}$ ::@:: Its density $|\Psi|^2 \propto e^{-x^2/2(\Delta x)^2}$ is a Gaussian of standard deviation $\Delta x$.
-- the wave-number spread of the Gaussian packet $\Psi(x) = A e^{-x^2/4(\Delta x)^2} e^{ik_0 x}$ ::@:: The Fourier transform of the envelope is a Gaussian in $k$ with spread $\Delta k = 1/(2\Delta x)$.
-- the product $\Delta k \cdot \Delta x$ of the Gaussian packet's two spreads ::@:: $\Delta k \cdot \Delta x = 1/2$ exactly, the equality case of the Fourier bound $\Delta k \cdot \Delta x \geq 1/2$.
+- the Fourier trade-off between the wave-number spread $\Delta k$ and the position spread $\Delta x$ ::@:: $\Delta k \cdot \Delta x \geq 1/2$ for any localised wave packet. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how the wave-number bound $\Delta k \cdot \Delta x \geq 1/2$ becomes the momentum bound ::@:: With $p = \hbar k$ the momentum spread is $\Delta p_x = \hbar \Delta k$, so $\Delta x \cdot \Delta p_x \geq \hbar/2$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what perfect localisation of a particle would do to $\Delta p_x$ ::@:: Perfect localisation would need every wave number, hence every momentum, so the momentum spread $\Delta p_x$ would be unbounded. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the position spread of the Gaussian packet $\Psi(x) = A e^{-x^2/4(\Delta x)^2} e^{ik_0 x}$ ::@:: Its density $|\Psi|^2 \propto e^{-x^2/2(\Delta x)^2}$ is a Gaussian of standard deviation $\Delta x$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the wave-number spread of the Gaussian packet $\Psi(x) = A e^{-x^2/4(\Delta x)^2} e^{ik_0 x}$ ::@:: The Fourier transform of the envelope is a Gaussian in $k$ with spread $\Delta k = 1/(2\Delta x)$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the product $\Delta k \cdot \Delta x$ of the Gaussian packet's two spreads ::@:: $\Delta k \cdot \Delta x = 1/2$ exactly, the equality case of the Fourier bound $\Delta k \cdot \Delta x \geq 1/2$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## electron single-slit broadening
 
@@ -45,8 +45,8 @@ Send electrons through a slit of width $a$ and the diffraction angle satisfies $
 
 Flashcards for this section are as follows:
 
-- what happens to the single-slit pattern as the slit width $a$ is reduced ::@:: The band on the screen broadens, since a smaller $\Delta y$ at the slit forces a larger $\Delta p_y$, with $\Delta y \cdot \Delta p_y \geq \hbar/2$.
-- the transverse momentum spread for slit width $a$ ::@:: $\Delta p_y \approx h/a$, giving band width $\Delta y \approx \lambda L/a$.
+- what happens to the single-slit pattern as the slit width $a$ is reduced ::@:: The band on the screen broadens, since a smaller $\Delta y$ at the slit forces a larger $\Delta p_y$, with $\Delta y \cdot \Delta p_y \geq \hbar/2$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the transverse momentum spread for slit width $a$ ::@:: $\Delta p_y \approx h/a$, giving band width $\Delta y \approx \lambda L/a$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## energy and time
 
@@ -58,9 +58,9 @@ The same trade-off runs a signal through a wire. A pulse confined to a time $\De
 
 Flashcards for this section are as follows:
 
-- the energy–time uncertainty relation $\Delta E \cdot \Delta t \geq \hbar/2$ ::@:: $\Delta E \cdot \Delta t \geq \hbar/2$: a state lasting a time $\Delta t$ has an energy spread of at least $\hbar/(2\Delta t)$.
-- why spectral lines have a natural width, given $\Delta E \geq \hbar/(2\Delta t)$ ::@:: A decaying state lives for a finite $\Delta t$, so its energy is spread over $\Delta E \geq \hbar/(2\Delta t)$, spreading the emitted frequencies.
-- the bandwidth relation: the angular-frequency spread $\Delta\omega$ a signal of duration $\Delta t$ must carry ::@:: $\Delta\omega$ of order $2\pi/\Delta t$, that is $\Delta f$ of order $1/\Delta t$; a circuit passes that band to respond within the time $\Delta t$.
+- the energy–time uncertainty relation $\Delta E \cdot \Delta t \geq \hbar/2$ ::@:: $\Delta E \cdot \Delta t \geq \hbar/2$: a state lasting a time $\Delta t$ has an energy spread of at least $\hbar/(2\Delta t)$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why spectral lines have a natural width, given $\Delta E \geq \hbar/(2\Delta t)$ ::@:: A decaying state lives for a finite $\Delta t$, so its energy is spread over $\Delta E \geq \hbar/(2\Delta t)$, spreading the emitted frequencies. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the bandwidth relation: the angular-frequency spread $\Delta\omega$ a signal of duration $\Delta t$ must carry ::@:: $\Delta\omega$ of order $2\pi/\Delta t$, that is $\Delta f$ of order $1/\Delta t$; a circuit passes that band to respond within the time $\Delta t$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## measurement disturbance
 
@@ -72,9 +72,9 @@ The double-slit arrangement shows the disturbance role at work. To tell the two 
 
 Flashcards for this section are as follows:
 
-- what the gamma-ray microscope argument shows about $\Delta x$ and $\Delta p_x$ ::@:: That measuring position to within $\Delta x$ with photons of momentum $h/\Delta x$ disturbs momentum by at least that amount, reproducing $\Delta x \cdot \Delta p_x \gtrsim h$.
-- the two roles behind the uncertainty principle ::@:: Preparation uncertainty, which limits how narrow a quantum state can be, and measurement disturbance, which limits how gently a quantity can be measured.
-- an electron pinned to within $d/2$ to reveal which of two slits of separation $d$ it crosses: the transverse kick $\Delta p_y$ and the angular spread $\Delta\theta$ that follow ::@:: $\Delta p_y \geq \hbar/d$, tilting the path by $\Delta\theta = \lambda/(2\pi d)$, the order of the fringe spacing, so the interference pattern washes out.
+- what the gamma-ray microscope argument shows about $\Delta x$ and $\Delta p_x$ ::@:: That measuring position to within $\Delta x$ with photons of momentum $h/\Delta x$ disturbs momentum by at least that amount, reproducing $\Delta x \cdot \Delta p_x \gtrsim h$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the two roles behind the uncertainty principle ::@:: Preparation uncertainty, which limits how narrow a quantum state can be, and measurement disturbance, which limits how gently a quantity can be measured. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- an electron pinned to within $d/2$ to reveal which of two slits of separation $d$ it crosses: the transverse kick $\Delta p_y$ and the angular spread $\Delta\theta$ that follow ::@:: $\Delta p_y \geq \hbar/d$, tilting the path by $\Delta\theta = \lambda/(2\pi d)$, the order of the fringe spacing, so the interference pattern washes out. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## order-of-magnitude estimates
 
@@ -86,7 +86,7 @@ Shrink the region to nuclear size and the estimate turns quantitative. An electr
 
 Flashcards for this section are as follows:
 
-- the momentum scale $\Delta p_x$ of an electron confined to an atom ::@:: $\Delta p_x \approx \hbar/a_0 \approx 10^{-24}$ kg·m/s, a speed near $2 \times 10^6$ m/s.
-- why atoms are not classically stable, given a ground-state momentum near $\hbar/a_0$ ::@:: Classical physics lets an electron sit still at the potential minimum and radiate away its energy; the uncertainty relation forces a ground-state momentum near $\hbar/a_0$ and a nonzero energy.
-- the minimum energy of an electron confined to a nuclear radius $\Delta x = 6 \times 10^{-15}\ \text{m}$, from $\Delta p \geq \hbar/(2\Delta x)$ ::@:: $\Delta p \approx 1.6 \times 10^{7}\ \text{eV}/c$, so $E = \sqrt{(pc)^2 + E_0^2} = 16.4\ \text{MeV}$ and the kinetic energy is $15.9\ \text{MeV}$.
-- what the 16 MeV floor says about electrons inside the nucleus ::@:: Beta-decay electrons come out with far less energy, so the nucleus holds no electrons; beta decay creates the electron as it emits it.
+- the momentum scale $\Delta p_x$ of an electron confined to an atom ::@:: $\Delta p_x \approx \hbar/a_0 \approx 10^{-24}$ kg·m/s, a speed near $2 \times 10^6$ m/s. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why atoms are not classically stable, given a ground-state momentum near $\hbar/a_0$ ::@:: Classical physics lets an electron sit still at the potential minimum and radiate away its energy; the uncertainty relation forces a ground-state momentum near $\hbar/a_0$ and a nonzero energy. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the minimum energy of an electron confined to a nuclear radius $\Delta x = 6 \times 10^{-15}\ \text{m}$, from $\Delta p \geq \hbar/(2\Delta x)$ ::@:: $\Delta p \approx 1.6 \times 10^{7}\ \text{eV}/c$, so $E = \sqrt{(pc)^2 + E_0^2} = 16.4\ \text{MeV}$ and the kinetic energy is $15.9\ \text{MeV}$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the 16 MeV floor says about electrons inside the nucleus ::@:: Beta-decay electrons come out with far less energy, so the nucleus holds no electrons; beta decay creates the electron as it emits it. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->

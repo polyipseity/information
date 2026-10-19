@@ -16,9 +16,9 @@ _Unlisted Trading Privileges_ (UTP) let a stock listed on one exchange be traded
 
 Flashcards for this section are as follows:
 
-- what unlisted trading privileges allow ::@:: The rule letting a stock listed on one exchange be traded on all the others, so listing and trading are separate decisions.
-- which rule grants unlisted trading privileges ::@:: Rule 12(f) of the Securities Exchange Act of 1934.
-- what the listing exchange loses once listing and trading are separate ::@:: Any say over where the stock trades.
+- what unlisted trading privileges allow ::@:: The rule letting a stock listed on one exchange be traded on all the others, so listing and trading are separate decisions. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- which rule grants unlisted trading privileges ::@:: Rule 12(f) of the Securities Exchange Act of 1934. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the listing exchange loses once listing and trading are separate ::@:: Any say over where the stock trades. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## listing exchange and trading exchanges
 
@@ -28,10 +28,10 @@ Apple is listed on the New York Stock Exchange and nowhere else, and its shares 
 
 Flashcards for this section are as follows:
 
-- example of a single-listed stock that trades on other venues ::@:: Apple, listed on the New York Stock Exchange and also traded on Nasdaq and the IEX.
-- what the listing exchange carries ::@:: The listing itself, and what obtaining it cost.
-- what the trading exchanges carry ::@:: The trading, and the stock reaches them without any act of listing.
-- how a single-listed stock reaches venues that never listed it ::@:: Through unlisted trading privileges joining the listing exchange to every other venue.
+- example of a single-listed stock that trades on other venues ::@:: Apple, listed on the New York Stock Exchange and also traded on Nasdaq and the IEX. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the listing exchange carries ::@:: The listing itself, and what obtaining it cost. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the trading exchanges carry ::@:: The trading, and the stock reaches them without any act of listing. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how a single-listed stock reaches venues that never listed it ::@:: Through unlisted trading privileges joining the listing exchange to every other venue. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## what the privileges do to listing
 
@@ -43,10 +43,10 @@ The privileges blur what an exchange is. A user can trade the same stock on ever
 
 Flashcards for this section are as follows:
 
-- why cross-listed companies are rare in the United States ::@:: A stock listed anywhere can already be traded anywhere.
-- what decides a company's listing exchange once privileges apply ::@:: The brand the listing carries and the cost of obtaining it.
-- what happens to the differences between exchanges under the privileges ::@:: They stop showing up in what each venue's users can trade.
-- two examples of exchanges that grew without a listing service ::@:: BATS and Direct Edge.
+- why cross-listed companies are rare in the United States ::@:: A stock listed anywhere can already be traded anywhere. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what decides a company's listing exchange once privileges apply ::@:: The brand the listing carries and the cost of obtaining it. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what happens to the differences between exchanges under the privileges ::@:: They stop showing up in what each venue's users can trade. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- two examples of exchanges that grew without a listing service ::@:: BATS and Direct Edge. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## where the trading happens
 
@@ -74,6 +74,6 @@ One row is off-exchange volume: trade reports filed through FINRA's trade report
 
 Flashcards for this section are as follows:
 
-- 2016 monthly share volume of the NYSE-listed stock that traded off-exchange ::@:: 23.1 billion of 63.5 billion shares, through the TRF and the ADF.
-- 2016 monthly share volume of the Nasdaq-listed stock traded on Nasdaq ::@:: 11.0 billion of 40.3 billion shares.
-- whether a listing exchange trades the largest share of its own listed stock ::@:: No; the off-exchange row is larger for every stock in the breakdown, including the stock each venue lists.
+- 2016 monthly share volume of the NYSE-listed stock that traded off-exchange ::@:: 23.1 billion of 63.5 billion shares, through the TRF and the ADF. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- 2016 monthly share volume of the Nasdaq-listed stock traded on Nasdaq ::@:: 11.0 billion of 40.3 billion shares. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- whether a listing exchange trades the largest share of its own listed stock ::@:: No; the off-exchange row is larger for every stock in the breakdown, including the stock each venue lists. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->

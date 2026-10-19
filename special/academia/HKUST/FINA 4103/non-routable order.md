@@ -19,10 +19,10 @@ Li, Ye, and Zheng (2022, _Journal of Financial Economics_) work from proprietary
 
 Flashcards for this section are as follows:
 
-- what a non-routable order refuses ::@:: An order that refuses the routing Regulation NMS requires, accepting that the best price may be elsewhere.
-- two order types that are non-routable ::@:: The intermarket sweep order and the do-not-ship order.
-- share of orders in the sample that refused the routing stipulated by Reg NMS ::@:: 57%.
-- data the finding rests on ::@:: Proprietary trade-by-trade order-type data from the New York Stock Exchange.
+- what a non-routable order refuses ::@:: An order that refuses the routing Regulation NMS requires, accepting that the best price may be elsewhere. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- two order types that are non-routable ::@:: The intermarket sweep order and the do-not-ship order. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- share of orders in the sample that refused the routing stipulated by Reg NMS ::@:: 57%. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- data the finding rests on ::@:: Proprietary trade-by-trade order-type data from the New York Stock Exchange. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## how an order is classified
 
@@ -39,11 +39,11 @@ The first and fourth are the classes already described in [order (exchange)](ord
 
 Flashcards for this section are as follows:
 
-- four factors along which the study classifies every order ::@:: Price qualifier, time in force, routing decision, and display decision.
-- values the price qualifier takes ::@:: A limit price, a stop price, or no price condition.
-- values the time in force takes ::@:: Immediate-or-cancel, day, or good-till-cancel.
-- values the routing decision takes ::@:: A do-not-ship instruction, an intermarket sweep, or no routing instruction.
-- values the display decision takes ::@:: A hidden percentage, or no display instruction.
+- four factors along which the study classifies every order ::@:: Price qualifier, time in force, routing decision, and display decision. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- values the price qualifier takes ::@:: A limit price, a stop price, or no price condition. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- values the time in force takes ::@:: Immediate-or-cancel, day, or good-till-cancel. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- values the routing decision takes ::@:: A do-not-ship instruction, an intermarket sweep, or no routing instruction. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- values the display decision takes ::@:: A hidden percentage, or no display instruction. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## order size
 
@@ -68,10 +68,10 @@ The most-traded type is the DNS limit order at 44,243,300 trades, just ahead of 
 
 Flashcards for this section are as follows:
 
-- route column of the three non-routable order types ::@:: 0.00% for all three: the intermarket sweep, the DNS immediate-or-cancel order, and the DNS limit order.
-- how the DNS limit order splits its executions against the day limit order ::@:: DNS limit provides 88.57% and takes 11.43%; day limit is mixed at 55.94% provided, 29.78% taken, and 14.28% routed.
-- which order type trades most, and its average size ::@:: The DNS limit order, at 44,243,300 trades and 182.38 shares per order.
-- where the largest average order sizes sit ::@:: With the types that take liquidity and expect to fill at once, the DNS immediate-or-cancel order at 307.09 shares being the largest.
+- route column of the three non-routable order types ::@:: 0.00% for all three: the intermarket sweep, the DNS immediate-or-cancel order, and the DNS limit order. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how the DNS limit order splits its executions against the day limit order ::@:: DNS limit provides 88.57% and takes 11.43%; day limit is mixed at 55.94% provided, 29.78% taken, and 14.28% routed. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- which order type trades most, and its average size ::@:: The DNS limit order, at 44,243,300 trades and 182.38 shares per order. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- where the largest average order sizes sit ::@:: With the types that take liquidity and expect to fill at once, the DNS immediate-or-cancel order at 307.09 shares being the largest. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## who uses them
 
@@ -85,7 +85,7 @@ What these orders contribute to the price is a separate question, and the eviden
 
 Flashcards for this section are as follows:
 
-- why the question is who chooses to send one ::@:: A do-not-ship order is not faster than a plain order in itself.
-- traders suspected of choosing these orders ::@:: High-frequency traders.
-- what using an intermarket sweep order demands of its user ::@:: A fast connection to every exchange, because the broker has to see them all to split the order.
-- what a do-not-ship order demands of its user ::@:: No comparable requirement, where an intermarket sweep needs a fast connection to every exchange.
+- why the question is who chooses to send one ::@:: A do-not-ship order is not faster than a plain order in itself. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- traders suspected of choosing these orders ::@:: High-frequency traders. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what using an intermarket sweep order demands of its user ::@:: A fast connection to every exchange, because the broker has to see them all to split the order. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a do-not-ship order demands of its user ::@:: No comparable requirement, where an intermarket sweep needs a fast connection to every exchange. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->

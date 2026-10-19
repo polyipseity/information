@@ -16,8 +16,8 @@ A correlational design measures two variables and reports how far they go togeth
 
 Flashcards for this section are as follows:
 
-- what a correlational design is ::@:: A correlational design measures two variables and reports how far they go together, without intervening in either.
-- what a correlational design cannot report ::@:: Which of the two variables came first.
+- what a correlational design is ::@:: A correlational design measures two variables and reports how far they go together, without intervening in either. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a correlational design cannot report ::@:: Which of the two variables came first. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## what a correlational design measures
 
@@ -29,10 +29,10 @@ A correlational design only observes variables. That suits questions about thing
 
 Flashcards for this section are as follows:
 
-- a question a correlational design can answer ::@:: Whether the income people give to others is related to how happy they report being.
-- what a correlational design gives up by not intervening ::@:: Any claim about which variable causes which.
-- how many measures one design pairs from the same people ::@:: Only two at a time.
-- what a third variable measured at the same time is ::@:: A rival explanation, not extra information.
+- a question a correlational design can answer ::@:: Whether the income people give to others is related to how happy they report being. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a correlational design gives up by not intervening ::@:: Any claim about which variable causes which. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how many measures one design pairs from the same people ::@:: Only two at a time. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a third variable measured at the same time is ::@:: A rival explanation, not extra information. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## the correlation coefficient
 
@@ -60,13 +60,13 @@ A scatterplot shows both variables at once.
 
 Flashcards for this section are as follows:
 
-- the range of the correlation coefficient $r$ ::@:: It runs from $-1$ to $1$.
-- what the sign and the size of $r$ tell you ::@:: The sign gives the direction, and the size of the absolute value gives the strength.
-- a pair of variables with a perfect negative correlation ::@:: Age and year of birth, because everyone born earlier is older, without exception.
-- a positive correlation coefficient ::@:: The two variables go up and down together.
-- a negative correlation coefficient ::@:: One variable goes up as the other goes down.
-- a correlation coefficient of zero ::@:: The two variables show no straight-line relationship.
-- what $r = 0$ does not rule out ::@:: A curved relationship between the two variables.
+- the range of the correlation coefficient $r$ ::@:: It runs from $-1$ to $1$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the sign and the size of $r$ tell you ::@:: The sign gives the direction, and the size of the absolute value gives the strength. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- a pair of variables with a perfect negative correlation ::@:: Age and year of birth, because everyone born earlier is older, without exception. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- a positive correlation coefficient ::@:: The two variables go up and down together. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- a negative correlation coefficient ::@:: One variable goes up as the other goes down. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- a correlation coefficient of zero ::@:: The two variables show no straight-line relationship. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what $r = 0$ does not rule out ::@:: A curved relationship between the two variables. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## references
 

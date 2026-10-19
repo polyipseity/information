@@ -17,11 +17,11 @@ A role most people share is a stereotype. It says what people expect of a sex, n
 
 Flashcards for this section are as follows:
 
-- what a gender role covers ::@:: Your work, how you speak, how you react, and the habits you are supposed to have.
-- what a gender role is ::@:: What a society expects of you because of your sex.
-- when a gender role is a stereotype ::@:: When it is widely shared.
-- what a stereotype about a sex states ::@:: What people expect of that sex, not what its members are like.
-- what believing a stereotype amounts to ::@:: A claim about a group, not evidence about the people in it.
+- what a gender role covers ::@:: Your work, how you speak, how you react, and the habits you are supposed to have. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a gender role is ::@:: What a society expects of you because of your sex. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- when a gender role is a stereotype ::@:: When it is widely shared. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a stereotype about a sex states ::@:: What people expect of that sex, not what its members are like. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what believing a stereotype amounts to ::@:: A claim about a group, not evidence about the people in it. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## stereotyped behaviour
 
@@ -39,16 +39,16 @@ Everyday stereotypes divide life along sex.
 
 Flashcards for this section are as follows:
 
-- which household tasks the stereotype assigns to women ::@:: Cooking, washing, vacuuming, and housework.
+- which household tasks the stereotype assigns to women ::@:: Cooking, washing, vacuuming, and housework. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 - what the stereotype says men do at home ::@:: They rest, watch television, and sleep. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - how the stereotype contrasts women's and men's speech ::@:: Women speak longer and wander more, while a man's talk turns into a contest and women's talk overlaps. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - how the stereotype contrasts emotional response ::@:: Women cry at a romantic film that sends men to sleep. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
-- how the stereotype contrasts preparation ::@:: Women take hours over an appearance that men settle in seconds.
-- how the stereotype pictures travel ::@:: Men move around the world with ease, women stay tied to the house.
+- how the stereotype contrasts preparation ::@:: Women take hours over an appearance that men settle in seconds. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how the stereotype pictures travel ::@:: Men move around the world with ease, women stay tied to the house. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 - how the stereotype contrasts packing ::@:: Women fill the car with luggage, while men pack a single item. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - how the stereotype contrasts shopping ::@:: Men walk straight to the item they came for, while women work through every aisle. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - what the stereotype says both sexes want in a partner ::@:: Someone standing on a pedestal among cooking, cleaning, laundry, and childcare. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
-- along what axis stereotypes divide everyday life ::@:: Along sex.
+- along what axis stereotypes divide everyday life ::@:: Along sex. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## references
 

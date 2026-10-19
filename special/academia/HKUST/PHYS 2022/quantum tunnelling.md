@@ -17,8 +17,8 @@ Quantum tunnelling is the escape of a particle through a barrier it lacks the en
 
 Flashcards for this section are as follows:
 
-- overview: what quantum tunnelling is for a barrier with $E < V_0$ ::@:: The transmission of a particle through a barrier with $E < V_0$, possible because its wave function decays exponentially inside the barrier yet stays nonzero on the far side.
-- the classical verdict on a barrier with $E < V_0$ ::@:: Total reflection — the particle never crosses; tunnelling is the quantum correction to that verdict.
+- overview: what quantum tunnelling is for a barrier with $E < V_0$ ::@:: The transmission of a particle through a barrier with $E < V_0$, possible because its wave function decays exponentially inside the barrier yet stays nonzero on the far side. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the classical verdict on a barrier with $E < V_0$ ::@:: Total reflection — the particle never crosses; tunnelling is the quantum correction to that verdict. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## wave function inside the barrier
 
@@ -30,11 +30,11 @@ The uncertainty principle explains why the barrier leaks at all. Across the inte
 
 Flashcards for this section are as follows:
 
-- the decay constant $\kappa$ inside a barrier ::@:: $\kappa = \sqrt{2m(V_0 - E)}/\hbar$, with $\psi_{\mathrm{II}} = Ce^{\kappa x} + De^{-\kappa x}$ — exponential, not oscillatory, for $E < V_0$.
-- how tunnelling and finite-well binding share the decay constant $\sqrt{2m(V_0-E)}/\hbar$ ::@:: Both are exponential decay in a classically forbidden region with decay constant set by $\sqrt{2m(V_0-E)}/\hbar$.
-- the rearranged form of $-\frac{\hbar^2}{2m}\psi'' + V_0\psi = E\psi$ inside a barrier ::@:: Inside the barrier, where $V = V_0$, the equation rearranges to $\psi'' = 2m(V_0 - E)\psi/\hbar^2$.
-- what the trial $\psi = e^{\lambda x}$ requires inside a barrier ::@:: Substitution into $\psi'' = 2m(V_0 - E)\psi/\hbar^2$ forces $\lambda^2 = 2m(V_0 - E)/\hbar^2$, giving $\lambda = \pm\kappa$ with $\kappa = \sqrt{2m(V_0 - E)}/\hbar$.
-- the minimum kinetic energy the uncertainty principle allows inside a barrier, at $\Delta x = 1/\kappa$ ::@:: With the particle confined to $\Delta x = 1/\kappa$ the spread is $\Delta p \gtrsim \hbar\kappa$, so $K_{\min} = (\hbar\kappa)^2/2m = V_0 - E$, the energy deficit the barrier represents.
+- the decay constant $\kappa$ inside a barrier ::@:: $\kappa = \sqrt{2m(V_0 - E)}/\hbar$, with $\psi_{\mathrm{II}} = Ce^{\kappa x} + De^{-\kappa x}$ — exponential, not oscillatory, for $E < V_0$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how tunnelling and finite-well binding share the decay constant $\sqrt{2m(V_0-E)}/\hbar$ ::@:: Both are exponential decay in a classically forbidden region with decay constant set by $\sqrt{2m(V_0-E)}/\hbar$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the rearranged form of $-\frac{\hbar^2}{2m}\psi'' + V_0\psi = E\psi$ inside a barrier ::@:: Inside the barrier, where $V = V_0$, the equation rearranges to $\psi'' = 2m(V_0 - E)\psi/\hbar^2$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what the trial $\psi = e^{\lambda x}$ requires inside a barrier ::@:: Substitution into $\psi'' = 2m(V_0 - E)\psi/\hbar^2$ forces $\lambda^2 = 2m(V_0 - E)/\hbar^2$, giving $\lambda = \pm\kappa$ with $\kappa = \sqrt{2m(V_0 - E)}/\hbar$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the minimum kinetic energy the uncertainty principle allows inside a barrier, at $\Delta x = 1/\kappa$ ::@:: With the particle confined to $\Delta x = 1/\kappa$ the spread is $\Delta p \gtrsim \hbar\kappa$, so $K_{\min} = (\hbar\kappa)^2/2m = V_0 - E$, the energy deficit the barrier represents. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## transmission probability
 
@@ -54,20 +54,20 @@ For a thick or high barrier, $\kappa L \gg 1$, the hyperbolic sine grows exponen
 
 Flashcards for this section are as follows:
 
-- the potential shape of a rectangular barrier of height $V_0$ and width $L$, and the role of each region ::@:: The potential is zero for $x < 0$, jumps to $V_0$ across $0 < x < L$, and drops back to zero for $x > L$. Region I is the free-motion approach side, where the particle travels toward the barrier and is reflected off it. Region II is the classically forbidden interior, where $E < V_0$ rules out real oscillation and only exponential decay or growth can appear. Region III is the free-motion far side at the same potential as region I, carrying only the transmitted wave.
-- why region III of a rectangular barrier carries no leftward-moving reflected term ::@:: Nothing travels back from region III, because no wave is incident from the right, so only the transmitted wave moving away from the barrier remains there.
-- the matching condition on $\psi$ at $x = 0$ ::@:: $1 + r = A + B$, matching $\psi_{\mathrm I}$ to $\psi_{\mathrm{II}}$ at the left barrier edge.
-- the matching condition on $\psi'$ at $x = 0$ ::@:: $ik(1 - r) = \kappa(-A + B)$, matching $\psi'_{\mathrm I}$ to $\psi'_{\mathrm{II}}$ at the left barrier edge.
-- the matching condition on $\psi$ at $x = L$ ::@:: $Ae^{-\kappa L} + Be^{\kappa L} = te^{ikL}$, matching $\psi_{\mathrm{II}}$ to $\psi_{\mathrm{III}}$ at the right barrier edge.
-- the matching condition on $\psi'$ at $x = L$ ::@:: $\kappa(-Ae^{-\kappa L} + Be^{\kappa L}) = ikte^{ikL}$, matching $\psi'_{\mathrm{II}}$ to $\psi'_{\mathrm{III}}$ at the right barrier edge.
-- where $\sinh(\kappa L)$ in the closed form for $T$ comes from ::@:: The identity $e^{\kappa L} - e^{-\kappa L} = 2\sinh(\kappa L)$ rewrites the difference of exponentials left in the denominator of $|t|^2$.
-- the transmission probability $T$ in terms of the transmitted amplitude $t$ ::@:: $T = |t|^2$, with no velocity prefactor because the incident and transmitted waves have equal speeds in regions I and III.
-- the exact transmission probability $T$ of a rectangular barrier ::@:: $T = \left[1 + \frac{V_0^2 \sinh^2(\kappa L)}{4E(V_0 - E)}\right]^{-1}$.
-- the thick-barrier approximation to $T$ when $\kappa L \gg 1$ ::@:: $T \approx 16\frac{E}{V_0}\left(1 - \frac{E}{V_0}\right)e^{-2\kappa L}$.
-- what dominates the barrier-width dependence of $T$ ::@:: The exponential factor $e^{-2\kappa L}$ with $\kappa = \sqrt{2m(V_0-E)}/\hbar$ — doubling $L$ squares the suppression.
-- the factor by which the tunnelling amplitude shrinks crossing a barrier of width $L$ ::@:: The wave decays as $e^{-\kappa x}$ inside the barrier, so entry to exit multiplies the amplitude by $e^{-\kappa L}$.
-- why the transmitted probability carries $e^{-2\kappa L}$ rather than $e^{-\kappa L}$ ::@:: Probability is the amplitude squared, so the amplitude factor $e^{-\kappa L}$ becomes the probability factor $e^{-2\kappa L}$.
-- whether barrier width or barrier height suppresses tunnelling through $e^{-2\kappa L}$ more strongly, and why ::@:: Width: $L$ sits in $e^{-2\kappa L}$ directly while the height enters only through $\kappa \propto \sqrt{V_0 - E}$, so widening the barrier suppresses $T$ faster than raising it.
+- the potential shape of a rectangular barrier of height $V_0$ and width $L$, and the role of each region ::@:: The potential is zero for $x < 0$, jumps to $V_0$ across $0 < x < L$, and drops back to zero for $x > L$. Region I is the free-motion approach side, where the particle travels toward the barrier and is reflected off it. Region II is the classically forbidden interior, where $E < V_0$ rules out real oscillation and only exponential decay or growth can appear. Region III is the free-motion far side at the same potential as region I, carrying only the transmitted wave. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why region III of a rectangular barrier carries no leftward-moving reflected term ::@:: Nothing travels back from region III, because no wave is incident from the right, so only the transmitted wave moving away from the barrier remains there. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the matching condition on $\psi$ at $x = 0$ ::@:: $1 + r = A + B$, matching $\psi_{\mathrm I}$ to $\psi_{\mathrm{II}}$ at the left barrier edge. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the matching condition on $\psi'$ at $x = 0$ ::@:: $ik(1 - r) = \kappa(-A + B)$, matching $\psi'_{\mathrm I}$ to $\psi'_{\mathrm{II}}$ at the left barrier edge. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the matching condition on $\psi$ at $x = L$ ::@:: $Ae^{-\kappa L} + Be^{\kappa L} = te^{ikL}$, matching $\psi_{\mathrm{II}}$ to $\psi_{\mathrm{III}}$ at the right barrier edge. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the matching condition on $\psi'$ at $x = L$ ::@:: $\kappa(-Ae^{-\kappa L} + Be^{\kappa L}) = ikte^{ikL}$, matching $\psi'_{\mathrm{II}}$ to $\psi'_{\mathrm{III}}$ at the right barrier edge. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- where $\sinh(\kappa L)$ in the closed form for $T$ comes from ::@:: The identity $e^{\kappa L} - e^{-\kappa L} = 2\sinh(\kappa L)$ rewrites the difference of exponentials left in the denominator of $|t|^2$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the transmission probability $T$ in terms of the transmitted amplitude $t$ ::@:: $T = |t|^2$, with no velocity prefactor because the incident and transmitted waves have equal speeds in regions I and III. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the exact transmission probability $T$ of a rectangular barrier ::@:: $T = \left[1 + \frac{V_0^2 \sinh^2(\kappa L)}{4E(V_0 - E)}\right]^{-1}$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the thick-barrier approximation to $T$ when $\kappa L \gg 1$ ::@:: $T \approx 16\frac{E}{V_0}\left(1 - \frac{E}{V_0}\right)e^{-2\kappa L}$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what dominates the barrier-width dependence of $T$ ::@:: The exponential factor $e^{-2\kappa L}$ with $\kappa = \sqrt{2m(V_0-E)}/\hbar$ — doubling $L$ squares the suppression. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the factor by which the tunnelling amplitude shrinks crossing a barrier of width $L$ ::@:: The wave decays as $e^{-\kappa x}$ inside the barrier, so entry to exit multiplies the amplitude by $e^{-\kappa L}$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why the transmitted probability carries $e^{-2\kappa L}$ rather than $e^{-\kappa L}$ ::@:: Probability is the amplitude squared, so the amplitude factor $e^{-\kappa L}$ becomes the probability factor $e^{-2\kappa L}$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- whether barrier width or barrier height suppresses tunnelling through $e^{-2\kappa L}$ more strongly, and why ::@:: Width: $L$ sits in $e^{-2\kappa L}$ directly while the height enters only through $\kappa \propto \sqrt{V_0 - E}$, so widening the barrier suppresses $T$ faster than raising it. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## energy above the barrier
 
@@ -81,11 +81,11 @@ Classical mechanics allows no reflection for $E > V_0$ and total reflection for 
 
 Flashcards for this section are as follows:
 
-- the wave number of a particle with $E > V_0$ inside a barrier of height $V_0$ ::@:: $k_{\mathrm{II}} = \sqrt{2m(E - V_0)}/\hbar$, a real number, so the wave function oscillates through the barrier instead of decaying.
-- the constraint on the reflection and transmission probabilities $R = |B|^2/|A|^2$ and $T = |F|^2/|A|^2$ of a rectangular barrier ::@:: $R + T = 1$, because every particle is either reflected or transmitted.
-- the transmission probability through a barrier of height $V_0$ and width $L$ when $E > V_0$ ::@:: $T = \left[1 + \frac{V_0^2\sin^2(k_{\mathrm{II}}L)}{4E(E - V_0)}\right]^{-1}$ with $k_{\mathrm{II}} = \sqrt{2m(E - V_0)}/\hbar$.
-- when a barrier of height $V_0$ and width $L$ transmits perfectly ::@:: At $k_{\mathrm{II}}L = n\pi$, where the round trip $2L = n\lambda_{\mathrm{II}}$: the far-edge reflection returns to cancel the near-edge one, so $R = 0$.
-- the classical and quantum verdicts at a barrier for $E \gg V_0$ and $E \ll V_0$ ::@:: Classically, no reflection for $E > V_0$ and total reflection for $E < V_0$; quantum mechanically, near-total transmission for $E \gg V_0$, near-total reflection for $E \ll V_0$, and oscillating reflection where $E \sim V_0$.
+- the wave number of a particle with $E > V_0$ inside a barrier of height $V_0$ ::@:: $k_{\mathrm{II}} = \sqrt{2m(E - V_0)}/\hbar$, a real number, so the wave function oscillates through the barrier instead of decaying. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the constraint on the reflection and transmission probabilities $R = |B|^2/|A|^2$ and $T = |F|^2/|A|^2$ of a rectangular barrier ::@:: $R + T = 1$, because every particle is either reflected or transmitted. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the transmission probability through a barrier of height $V_0$ and width $L$ when $E > V_0$ ::@:: $T = \left[1 + \frac{V_0^2\sin^2(k_{\mathrm{II}}L)}{4E(E - V_0)}\right]^{-1}$ with $k_{\mathrm{II}} = \sqrt{2m(E - V_0)}/\hbar$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- when a barrier of height $V_0$ and width $L$ transmits perfectly ::@:: At $k_{\mathrm{II}}L = n\pi$, where the round trip $2L = n\lambda_{\mathrm{II}}$: the far-edge reflection returns to cancel the near-edge one, so $R = 0$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the classical and quantum verdicts at a barrier for $E \gg V_0$ and $E \ll V_0$ ::@:: Classically, no reflection for $E > V_0$ and total reflection for $E < V_0$; quantum mechanically, near-total transmission for $E \gg V_0$, near-total reflection for $E \ll V_0$, and oscillating reflection where $E \sim V_0$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## resonant transmission through a well
 
@@ -95,7 +95,7 @@ Turn the barrier into a well, $V = -V_0$ across $0 < x < L$ and zero outside, an
 
 Flashcards for this section are as follows:
 
-- what makes a potential well of width $L$ almost transparent at particular wavelengths ::@:: The wavelength inside is shorter than outside; when $L$ holds a whole or half number of interior wavelengths the far-edge reflection returns out of step with the near-edge one, the reflections cancel, and $T$ approaches 1.
+- what makes a potential well of width $L$ almost transparent at particular wavelengths ::@:: The wavelength inside is shorter than outside; when $L$ holds a whole or half number of interior wavelengths the far-edge reflection returns out of step with the near-edge one, the reflections cancel, and $T$ approaches 1. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## macroscopic and microscopic estimates
 
@@ -107,10 +107,10 @@ Replace the lion by an electron, $m \approx 10^{-30}$ kg, with $E = 1$ eV and $V
 
 Flashcards for this section are as follows:
 
-- the chain that gives $\kappa \approx 3 \times 10^{37}\ \mathrm{m^{-1}}$ inside a lion's barrier ::@:: $V_0 = mgH$ at $H = 5$ m and $E = mgh$ at $h = 3$ m give $V_0 - E = mg(H - h) = 500\ \mathrm{kg} \times 9.8\ \mathrm{m/s^2} \times 2\ \mathrm{m} \approx 10^4\ \mathrm{J}$. Then $\kappa = \sqrt{2m(V_0 - E)}/\hbar \approx \sqrt{2 \times 500 \times 10^4}/(1.055 \times 10^{-34}) \approx 3 \times 10^{37}\ \mathrm{m^{-1}}$.
-- the chain that gives $T \sim 10^{-9}$ for an electron on a one-nanometre barrier ::@:: $V_0 - E = 4\ \mathrm{eV} \approx 6.4 \times 10^{-19}\ \mathrm{J}$, $\kappa \approx \sqrt{2 \times 10^{-30} \times 6.4 \times 10^{-19}}/(1.055 \times 10^{-34}) \approx 1.1 \times 10^{10}\ \mathrm{m^{-1}}$, $L = 1\ \mathrm{nm}$ gives $\kappa L \approx 11$ and $e^{-2\kappa L} \approx 10^{-10}$, and the prefactor $16(E/V_0)(1 - E/V_0) \approx 3$ lifts the transmission to near $10^{-9}$.
-- why a lion cannot tunnel, given $\kappa \propto \sqrt{m}$ and $T \propto e^{-2\kappa L}$ ::@:: $\kappa$ grows as $\sqrt{m}$, so for a 500 kg mass and a half-metre barrier the exponent $2\kappa L$ is of order $10^{38}$ and $e^{-2\kappa L}$ is effectively zero.
-- why an electron with $m \approx 10^{-30}$ kg crosses a nanometre barrier readily ::@:: With $m \approx 10^{-30}$ kg and $L \approx 1$ nm, $\kappa L$ stays small enough that $T$ remains appreciable.
+- the chain that gives $\kappa \approx 3 \times 10^{37}\ \mathrm{m^{-1}}$ inside a lion's barrier ::@:: $V_0 = mgH$ at $H = 5$ m and $E = mgh$ at $h = 3$ m give $V_0 - E = mg(H - h) = 500\ \mathrm{kg} \times 9.8\ \mathrm{m/s^2} \times 2\ \mathrm{m} \approx 10^4\ \mathrm{J}$. Then $\kappa = \sqrt{2m(V_0 - E)}/\hbar \approx \sqrt{2 \times 500 \times 10^4}/(1.055 \times 10^{-34}) \approx 3 \times 10^{37}\ \mathrm{m^{-1}}$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the chain that gives $T \sim 10^{-9}$ for an electron on a one-nanometre barrier ::@:: $V_0 - E = 4\ \mathrm{eV} \approx 6.4 \times 10^{-19}\ \mathrm{J}$, $\kappa \approx \sqrt{2 \times 10^{-30} \times 6.4 \times 10^{-19}}/(1.055 \times 10^{-34}) \approx 1.1 \times 10^{10}\ \mathrm{m^{-1}}$, $L = 1\ \mathrm{nm}$ gives $\kappa L \approx 11$ and $e^{-2\kappa L} \approx 10^{-10}$, and the prefactor $16(E/V_0)(1 - E/V_0) \approx 3$ lifts the transmission to near $10^{-9}$. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why a lion cannot tunnel, given $\kappa \propto \sqrt{m}$ and $T \propto e^{-2\kappa L}$ ::@:: $\kappa$ grows as $\sqrt{m}$, so for a 500 kg mass and a half-metre barrier the exponent $2\kappa L$ is of order $10^{38}$ and $e^{-2\kappa L}$ is effectively zero. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why an electron with $m \approx 10^{-30}$ kg crosses a nanometre barrier readily ::@:: With $m \approx 10^{-30}$ kg and $L \approx 1$ nm, $\kappa L$ stays small enough that $T$ remains appreciable. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## alpha decay
 
@@ -124,10 +124,10 @@ A 4.2 MeV alpha in uranium-238 faces a Coulomb energy of 38 MeV at $r_N = 7$ fm,
 
 Flashcards for this section are as follows:
 
-- what traps an alpha particle of energy $E_\alpha \approx 5$ MeV inside a heavy nucleus classically ::@:: Outside $r_N$ the repulsive Coulomb energy rises to several times $E_\alpha$ while the strong force holds it in, so the alpha never has the energy to climb over.
-- why alpha emission rates span $10^{13}$ while the emitted energies span only 4–8 MeV ::@:: The escape rate follows $T \propto e^{-2\kappa L}$, so small nucleus-to-nucleus differences in barrier height and width move the rate by orders of magnitude.
-- the barrier a 4.2 MeV alpha in uranium-238 must cross, with nuclear radius $r_N = 7$ fm ::@:: The Coulomb energy at $r_N = 7$ fm is 38 MeV and the alpha's energy matches it at 63 fm, so the barrier runs from 7 fm to 63 fm, about 56 fm wide under a 38 MeV peak.
-- how a transmission probability near $10^{-41}$ gives a billion-year half-life ::@:: The alpha crosses the nucleus in $10^{-21}$ s, making $10^{21}$ attempts a second, so it escapes in about $10^{20}$ s against the measured $4.5 \times 10^9$ year (about $10^{17}$ s) half-life of uranium-238.
+- what traps an alpha particle of energy $E_\alpha \approx 5$ MeV inside a heavy nucleus classically ::@:: Outside $r_N$ the repulsive Coulomb energy rises to several times $E_\alpha$ while the strong force holds it in, so the alpha never has the energy to climb over. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why alpha emission rates span $10^{13}$ while the emitted energies span only 4–8 MeV ::@:: The escape rate follows $T \propto e^{-2\kappa L}$, so small nucleus-to-nucleus differences in barrier height and width move the rate by orders of magnitude. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the barrier a 4.2 MeV alpha in uranium-238 must cross, with nuclear radius $r_N = 7$ fm ::@:: The Coulomb energy at $r_N = 7$ fm is 38 MeV and the alpha's energy matches it at 63 fm, so the barrier runs from 7 fm to 63 fm, about 56 fm wide under a 38 MeV peak. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how a transmission probability near $10^{-41}$ gives a billion-year half-life ::@:: The alpha crosses the nucleus in $10^{-21}$ s, making $10^{21}$ attempts a second, so it escapes in about $10^{20}$ s against the measured $4.5 \times 10^9$ year (about $10^{17}$ s) half-life of uranium-238. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## tunnel diode
 
@@ -137,4 +137,4 @@ Tunnelling also carries current in a tunnel diode, a semiconductor junction only
 
 Flashcards for this section are as follows:
 
-- why a tunnel diode switches faster than an ordinary semiconductor junction ::@:: Its carriers cross the roughly 10 nm barrier by tunnelling, while an ordinary junction depends on the slower diffusion of electrons and holes across it.
+- why a tunnel diode switches faster than an ordinary semiconductor junction ::@:: Its carriers cross the roughly 10 nm barrier by tunnelling, while an ordinary junction depends on the slower diffusion of electrons and holes across it. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->

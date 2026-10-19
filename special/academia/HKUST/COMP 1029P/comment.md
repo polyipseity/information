@@ -33,7 +33,7 @@ a += 1
 
 ## docstring
 
-Docstrings are {@{documentations for classes and functions}@}. To {@{add a docstring}@}, {@{add a multiline comment right below the start of the class or function}@}: <!--SR:!2028-09-22,1315,350!2028-03-13,1168,350-->
+Docstrings are {@{documentations for classes and functions}@}. To {@{add a docstring}@}, {@{add a multiline comment right below the start of the class or function}@}: <!--SR:!2028-09-22,1315,350!2028-03-13,1168,350!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ```Python
 class A:

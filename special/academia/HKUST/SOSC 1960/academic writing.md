@@ -16,8 +16,8 @@ Coursework writing is marked on more than being right. The work must be the writ
 
 Flashcards for this section are as follows:
 
-- what marks coursework besides being right ::@:: The work is the writer's own, the ideas are understood well enough to use, and the argument is one the reader can follow.
-- what a fact in the wrong shape gets ::@:: It loses the marks.
+- what marks coursework besides being right ::@:: The work is the writer's own, the ideas are understood well enough to use, and the argument is one the reader can follow. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a fact in the wrong shape gets ::@:: It loses the marks. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## originality
 
@@ -27,9 +27,9 @@ An essay has to sound like the person who wrote it: their own voice, structure, 
 
 Flashcards for this section are as follows:
 
-- what an essay has to sound like ::@:: The person who wrote it, in their own voice, structure, logic, and ideas.
-- what happens to anything borrowed ::@:: It gets a citation.
-- what originality rules out ::@:: Leaning on the source so hard that the writer re-tells, re-orders, or reviews it instead of arguing with it.
+- what an essay has to sound like ::@:: The person who wrote it, in their own voice, structure, logic, and ideas. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what happens to anything borrowed ::@:: It gets a citation. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what originality rules out ::@:: Leaning on the source so hard that the writer re-tells, re-orders, or reviews it instead of arguing with it. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## integration of ideas
 
@@ -39,8 +39,8 @@ The essay names the theories and concepts it uses, then works them into examples
 
 Flashcards for this section are as follows:
 
-- what an essay does with the theories and concepts it uses ::@:: It names them, then works them into examples.
-- why an example is not decoration ::@:: It carries the reasoning and shows how the finding applies.
+- what an essay does with the theories and concepts it uses ::@:: It names them, then works them into examples. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why an example is not decoration ::@:: It carries the reasoning and shows how the finding applies. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## paragraphing
 
@@ -52,7 +52,7 @@ Flashcards for this section are as follows:
 
 - what one paragraph carries ::@:: One step of the argument. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - what changes when the same story is paragraphed ::@:: Only the positions of the breaks. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
-- which version a reader can follow ::@:: The version split into paragraphs.
+- which version a reader can follow ::@:: The version split into paragraphs. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## clarity and simplicity
 
@@ -65,7 +65,7 @@ Flashcards for this section are as follows:
 - what an answer has to do ::@:: Answer the question and nothing else, and name the theory or concept you apply. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - what is cut from an answer ::@:: Anything that does not serve the question. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - why a familiar definition is left out ::@:: The reader already has it. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
-- what restating the scientific method spends ::@:: Words the answer never gets back.
+- what restating the scientific method spends ::@:: Words the answer never gets back. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 - what is checked before a source is repeated ::@:: Who wrote it. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - an irrelevant and unreliable source ::@:: A careers blog listing the benefits of listening to music while studying, which answers few essay questions and is not a study. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 

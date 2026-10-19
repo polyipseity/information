@@ -18,12 +18,12 @@ A behaviour followed by a consequence that matters, such as a reward or a punish
 
 Flashcards for this section are as follows:
 
-- what operant conditioning is ::@:: Learning in which what follows a behaviour decides whether it repeats.
-- other name for operant conditioning ::@:: Instrumental conditioning.
-- what comes first ::@:: The act, and then its consequence.
-- what a consequence decides ::@:: How often the behaviour happens again, not what the behaviour is for.
-- what a behaviour is associated with ::@:: A consequence that matters, such as a reward or a punishment.
-- what operant conditioning does not need ::@:: Pairing, advance warning, or a signal.
+- what operant conditioning is ::@:: Learning in which what follows a behaviour decides whether it repeats. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- other name for operant conditioning ::@:: Instrumental conditioning. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what comes first ::@:: The act, and then its consequence. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a consequence decides ::@:: How often the behaviour happens again, not what the behaviour is for. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a behaviour is associated with ::@:: A consequence that matters, such as a reward or a punishment. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what operant conditioning does not need ::@:: Pairing, advance warning, or a signal. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## reinforcement and punishment
 
@@ -44,18 +44,18 @@ None of the four words says whether a consequence was good or bad. The same obje
 
 Flashcards for this section are as follows:
 
-- the two ways a consequence is described ::@:: By what it does to the behaviour before it, and by whether a stimulus is added or taken away.
-- reinforcer ::@:: A consequence that increases the behaviour it follows.
-- punisher ::@:: A consequence that decreases the behaviour it follows.
-- what positive and negative mean ::@:: That a stimulus was added or taken away.
-- a child who puts her toys away and is given a cookie ::@:: Positive reinforcement: a stimulus is added and the behaviour increases.
-- a child who will get no snack unless the toys are put away ::@:: Negative reinforcement: the unpleasant condition ends once the child complies, so the behaviour increases.
-- a child who is mean to a sibling and is given extra housework ::@:: Positive punishment: a stimulus is added and the behaviour decreases.
-- a child who is mean to a sibling and loses a favourite toy ::@:: Negative punishment: a stimulus is taken away and the behaviour decreases.
-- what a positive and a negative reinforcer differ in ::@:: Only whether a stimulus is added or taken away, since both increase the behaviour.
-- whether the four words say a consequence was good or bad ::@:: None of them does. The same object can be a positive reinforcer at one time and a positive punisher at another.
-- reinforcement and punishment tree: ![a tree of operant conditioning. Reinforcement increases behaviour, punishment decreases it, and each branch divides into positive and negative, marked by adding or removing a stimulus, with a worked example under each of the four. The negative reinforcement branch splits again into escape and active avoidance](attachments/Operant%20conditioning%20diagram%20rev.svg) ::@:: Reinforcement on one side and punishment on the other, each splitting into a positive and a negative branch marked by adding or removing a stimulus.
-- draw the tree of reinforcement and punishment ::@:: A first split into reinforcement and punishment, each splitting again into positive and negative, with a worked example under each of the four branches. <p> ![a tree of operant conditioning. Reinforcement increases behaviour, punishment decreases it, and each branch divides into positive and negative, marked by adding or removing a stimulus, with a worked example under each of the four. The negative reinforcement branch splits again into escape and active avoidance](attachments/Operant%20conditioning%20diagram%20rev.svg)
+- the two ways a consequence is described ::@:: By what it does to the behaviour before it, and by whether a stimulus is added or taken away. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- reinforcer ::@:: A consequence that increases the behaviour it follows. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- punisher ::@:: A consequence that decreases the behaviour it follows. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what positive and negative mean ::@:: That a stimulus was added or taken away. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- a child who puts her toys away and is given a cookie ::@:: Positive reinforcement: a stimulus is added and the behaviour increases. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- a child who will get no snack unless the toys are put away ::@:: Negative reinforcement: the unpleasant condition ends once the child complies, so the behaviour increases. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- a child who is mean to a sibling and is given extra housework ::@:: Positive punishment: a stimulus is added and the behaviour decreases. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- a child who is mean to a sibling and loses a favourite toy ::@:: Negative punishment: a stimulus is taken away and the behaviour decreases. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a positive and a negative reinforcer differ in ::@:: Only whether a stimulus is added or taken away, since both increase the behaviour. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- whether the four words say a consequence was good or bad ::@:: None of them does. The same object can be a positive reinforcer at one time and a positive punisher at another. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- reinforcement and punishment tree: ![a tree of operant conditioning. Reinforcement increases behaviour, punishment decreases it, and each branch divides into positive and negative, marked by adding or removing a stimulus, with a worked example under each of the four. The negative reinforcement branch splits again into escape and active avoidance](attachments/Operant%20conditioning%20diagram%20rev.svg) ::@:: Reinforcement on one side and punishment on the other, each splitting into a positive and a negative branch marked by adding or removing a stimulus. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- draw the tree of reinforcement and punishment ::@:: A first split into reinforcement and punishment, each splitting again into positive and negative, with a worked example under each of the four branches. <p> ![a tree of operant conditioning. Reinforcement increases behaviour, punishment decreases it, and each branch divides into positive and negative, marked by adding or removing a stimulus, with a worked example under each of the four. The negative reinforcement branch splits again into escape and active avoidance](attachments/Operant%20conditioning%20diagram%20rev.svg) <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## choice between behaviours
 
@@ -69,13 +69,13 @@ If comparing the consequences already explains the choice, there is less left fo
 
 Flashcards for this section are as follows:
 
-- what decides which of two behaviours happens ::@:: Which one has the better consequences, compared against the other.
-- what a single reward is worth ::@:: Only what you would otherwise have got.
-- the same coin to someone with no other way of getting one ::@:: A lot.
-- the same coin to someone with a machine on every street ::@:: Very little.
-- the link to reinforcer value ::@:: A reinforcer's worth is relative to the alternatives, which is what [reward devaluation](reward%20devaluation.md) measures.
-- what is left for a free act of will once the consequences explain a behaviour ::@:: Less than before, since the comparison has already explained the choice.
-- whether the feeling of free choice is a separate reason the behaviour happened ::@:: No. It describes the comparison of consequences that produced it.
+- what decides which of two behaviours happens ::@:: Which one has the better consequences, compared against the other. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a single reward is worth ::@:: Only what you would otherwise have got. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the same coin to someone with no other way of getting one ::@:: A lot. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the same coin to someone with a machine on every street ::@:: Very little. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the link to reinforcer value ::@:: A reinforcer's worth is relative to the alternatives, which is what [reward devaluation](reward%20devaluation.md) measures. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what is left for a free act of will once the consequences explain a behaviour ::@:: Less than before, since the comparison has already explained the choice. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- whether the feeling of free choice is a separate reason the behaviour happened ::@:: No. It describes the comparison of consequences that produced it. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## schedules of reinforcement
 
@@ -89,12 +89,12 @@ Gambling is the clearest case. A gambling device pays out on some plays and not 
 
 Flashcards for this section are as follows:
 
-- schedule of reinforcement ::@:: How often the reinforcement is offered: after every act, after every tenth act, once a minute. Each schedule has its own effect.
-- what decides what a behaviour becomes ::@:: The pattern of consequences, not the size of the reward.
-- variable ratio schedule ::@:: A schedule that pays out on some plays and not others, so nobody can predict which. Every gambling device is built on one.
-- what a variable ratio schedule does to a pigeon ::@:: It is enough to make the pigeon a pathological gambler.
-- how the gambling account is tested ::@:: Removing or changing the schedule removes the behaviour.
-- what explains gambling on this account ::@:: The schedule of reinforcement, not a felt urge to gamble.
+- schedule of reinforcement ::@:: How often the reinforcement is offered: after every act, after every tenth act, once a minute. Each schedule has its own effect. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what decides what a behaviour becomes ::@:: The pattern of consequences, not the size of the reward. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- variable ratio schedule ::@:: A schedule that pays out on some plays and not others, so nobody can predict which. Every gambling device is built on one. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what a variable ratio schedule does to a pigeon ::@:: It is enough to make the pigeon a pathological gambler. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how the gambling account is tested ::@:: Removing or changing the schedule removes the behaviour. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what explains gambling on this account ::@:: The schedule of reinforcement, not a felt urge to gamble. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## classical and operant conditioning
 
@@ -110,15 +110,15 @@ A habit is the one behaviour that runs without a cue. It carries on when [a rein
 
 Flashcards for this section are as follows:
 
-- what separates the two kinds of conditioning ::@:: Classical conditioning depends on involuntary behaviour, operant on how consequences influence voluntary behaviour.
-- whether the division between the two is a boundary ::@:: It is a convenience rather than a boundary.
-- what each kind of conditioning teaches ::@:: Conditioning a fear teaches what a cue announces. Operant conditioning teaches what to do.
-- the three terms both kinds of conditioning use ::@:: A stimulus, a response and an outcome.
-- occasion setting ::@:: How the stimulus acts on the response, by signalling the outcome that follows.
-- stimulus control ::@:: The direct route by which a stimulus reaches a response.
-- the behaviour that runs without a cue ::@:: A habit, which carries on when a reinforcer's worth changes.
-- conditioning relations: ![a stimulus, a response and an outcome joined by four arrows: the stimulus sets the occasion for the response and reaches it directly by stimulus control, which a habit does without, the response acts on the outcome as instrumental conditioning, and the stimulus acts on the outcome as classical conditioning](attachments/conditioning_relations.svg) ::@:: Four arrows: the stimulus to the outcome, the stimulus to the response by occasion setting, the stimulus to the response by stimulus control, and the response to the outcome as instrumental conditioning.
-- draw the relations between a stimulus, a response and an outcome, and label the two routes from the stimulus to the response ::@:: The solid arrow from the stimulus straight down to the response is stimulus control. The dashed arrow, which stops short, is occasion setting. A habit needs neither. <p> ![a stimulus, a response and an outcome joined by four arrows: the stimulus sets the occasion for the response and reaches it directly by stimulus control, which a habit does without, the response acts on the outcome as instrumental conditioning, and the stimulus acts on the outcome as classical conditioning](attachments/conditioning_relations.svg)
+- what separates the two kinds of conditioning ::@:: Classical conditioning depends on involuntary behaviour, operant on how consequences influence voluntary behaviour. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- whether the division between the two is a boundary ::@:: It is a convenience rather than a boundary. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what each kind of conditioning teaches ::@:: Conditioning a fear teaches what a cue announces. Operant conditioning teaches what to do. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the three terms both kinds of conditioning use ::@:: A stimulus, a response and an outcome. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- occasion setting ::@:: How the stimulus acts on the response, by signalling the outcome that follows. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- stimulus control ::@:: The direct route by which a stimulus reaches a response. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- the behaviour that runs without a cue ::@:: A habit, which carries on when a reinforcer's worth changes. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- conditioning relations: ![a stimulus, a response and an outcome joined by four arrows: the stimulus sets the occasion for the response and reaches it directly by stimulus control, which a habit does without, the response acts on the outcome as instrumental conditioning, and the stimulus acts on the outcome as classical conditioning](attachments/conditioning_relations.svg) ::@:: Four arrows: the stimulus to the outcome, the stimulus to the response by occasion setting, the stimulus to the response by stimulus control, and the response to the outcome as instrumental conditioning. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- draw the relations between a stimulus, a response and an outcome, and label the two routes from the stimulus to the response ::@:: The solid arrow from the stimulus straight down to the response is stimulus control. The dashed arrow, which stops short, is occasion setting. A habit needs neither. <p> ![a stimulus, a response and an outcome joined by four arrows: the stimulus sets the occasion for the response and reaches it directly by stimulus control, which a habit does without, the response acts on the outcome as instrumental conditioning, and the stimulus acts on the outcome as classical conditioning](attachments/conditioning_relations.svg) <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## references
 
