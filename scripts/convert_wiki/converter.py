@@ -36,8 +36,10 @@ Related modules
 """
 
 import re
+import unicodedata
 from collections.abc import Iterable, Mapping, MutableSet
 from os import PathLike
+from string import punctuation
 from urllib.parse import quote, unquote
 
 import pathvalidate
@@ -106,6 +108,8 @@ _COLLAPSE_EMPTY_BLOCKQUOTE_RE = re.compile(r">\n(?:>\n)+")
 _COLLAPSE_SPACES_REGEX = re.compile(r" {2,}")
 """Whitespace runs except hair space (U+200A)."""
 _WHITESPACE_EXCEPT_HAIR_RE = re.compile(r"[^\S\u200a]+")
+"""Structural whitespace translated to a plain space before stripping."""
+_NEWLINE_TO_SPACE_MAP = str.maketrans({c: " " for c in "\t\n\r\x0b\x0c"})
 """Captures the separator-prefixed display text in bold/italic processing."""
 _PROCESS_STRINGS_BI_REGEX = re.compile(r"^( *)(.*?)([\n ]*)$", re.DOTALL)
 """Matches bare URLs for autolink wrapping."""
@@ -182,6 +186,45 @@ def _collect_anchor_fragments(ele: PageElement) -> frozenset[str]:
         fragments.add(identifier)
         fragments.add(identifier.replace("_", " "))
     return frozenset(fragments)
+
+
+def _needs_marker(character: str) -> bool:
+    """Whether *character* needs a markdown separator marker beside it.
+
+    Whitespace separates, and so does punctuation -- but only punctuation.
+    ``/`` and ``_`` are the exception: both are punctuation, yet they join
+    words rather than split them, so a marker is still required.  Every
+    other character counts as word material, which is what keeps an
+    intraword marker from closing the emphasis early.
+
+    ASCII punctuation separates unconditionally.  CommonMark counts the
+    ASCII symbols (``$``, ``+``, ``<``, ``=``, ``>``, ``^``, ``|``, ``~``)
+    as punctuation too, and no renderer disagrees, so there is nothing to
+    decide.
+
+    Beyond ASCII the split is by Unicode general category, and here the
+    spec itself moved: CommonMark 0.27 called a punctuation character one
+    in the ``P`` categories alone, while 0.28 widened it to ``P`` plus
+    ``S``.  A renderer built on the older rule reads a symbol as word
+    material, so ``∂_L_`` renders as a literal underscore instead of an
+    emphasis.  Emitting the separator is right under either rule -- an
+    extra one is an invisible HTML comment, a missing one loses the
+    emphasis -- so ``P`` separates and ``S`` does not: ``∂`` (U+2202
+    PARTIAL DIFFERENTIAL) and ``⁄`` (U+2044 FRACTION SLASH) carry a
+    marker, while ``′`` (U+2032 PRIME) and ``’`` (U+2019 RIGHT SINGLE
+    QUOTE) need none.
+
+    ``_TIGHT_MATH_SIGN_CHARACTERS`` in :mod:`config` covers the one sign
+    this predicate cannot see: the ASCII ``+``, which is punctuation and so
+    looks like a separator until you notice how tightly it binds.
+    """
+    if character in "/_":
+        return True
+    if character.isspace():
+        return False
+    if ord(character) < 128:
+        return character not in punctuation
+    return unicodedata.category(character)[0] != "P"
 
 
 class WikiHtmlConverter:
@@ -274,7 +317,7 @@ class WikiHtmlConverter:
             return ""
         text = str(ele)
         # See the formatting-agnostic principle documented above.
-        text = text.translate(str.maketrans({c: " " for c in "\t\n\r\x0b\x0c"}))
+        text = text.translate(_NEWLINE_TO_SPACE_MAP)
         text = _COLLAPSE_SPACES_REGEX.sub(" ", text)
         core = text.strip(" ")
         if not core:
@@ -776,15 +819,6 @@ class WikiHtmlConverter:
     @staticmethod
     def _needs_separator_before(sibling: PageElement | None) -> bool:
         """Whether a separator is needed before the block."""
-        if isinstance(sibling, NavigableString):
-            text = str(sibling)
-            if text.rstrip(_cfg._MARKDOWN_SEPARATOR_CHARACTERS) == text:
-                return True  # Sibling does not end with a separator char.
-            # A math sign binds tightly to what follows it (``−t``, ``±c``),
-            # so an emphasis marker abutting it needs a separator of its own.
-            if text.endswith(tuple(_cfg._TIGHT_MATH_SIGN_CHARACTERS)):
-                return True
-            return False
         if isinstance(sibling, Tag):
             # Descend through spans to the last child that renders: a span's
             # emphasis markers wrap its content without changing what abuts the
@@ -792,51 +826,56 @@ class WikiHtmlConverter:
             last: PageElement = sibling
             while isinstance(last, Tag) and last.name == "span" and last.contents:
                 last = last.contents[-1]
-            if isinstance(last, NavigableString):
-                return last.rstrip(_cfg._MARKDOWN_SEPARATOR_CHARACTERS) == last
-            return isinstance(last, Tag) and (
-                last.name in _BOLD_OR_ITALIC
-                or bool(_BOLD_FONT_STYLE_REGEX.search(str(last.get("style", ""))))
-                or bool(_ITALIC_FONT_STYLE_REGEX.search(str(last.get("style", ""))))
-            )
-        return False
+            if isinstance(last, Tag):
+                return WikiHtmlConverter._renders_emphasis(last)
+            sibling = last
+        if not isinstance(sibling, NavigableString):
+            return False
+        text = str(sibling)
+        if not text or _needs_marker(text[-1]):
+            return True
+        # A math sign binds tightly to what follows it (``−t``, ``±c``),
+        # so an emphasis marker abutting it needs a separator of its own.
+        return text.endswith(tuple(_cfg._TIGHT_MATH_SIGN_CHARACTERS))
 
     @staticmethod
     def _needs_separator_after(sibling: PageElement | None) -> bool:
         """Whether a separator is needed after the block.
 
-        A transparent span containing only whitespace is a gap — the
-        whitespace is the separation, so no markdown separator is needed.
-        A transparent span with non-whitespace content (``\xa0``) is rendered
-        content, and no separator is needed either.  An empty transparent span
-        renders nothing, so the elements are already adjacent.
+        Mirrors ``_needs_separator_before``: walk to the first node that
+        renders at the block's trailing edge and ask the same question of its
+        leading character.  Transparent spans are walked past because their
+        own markers wrap their content rather than abut the block, and a span
+        holding only whitespace stops the walk, since that space is what
+        separates.  A non-text edge renders an edge of its own — an emphasis
+        run opens with its marker — so it needs no marker of ours.
         """
-        if isinstance(sibling, NavigableString):
-            text = str(sibling)
-            if text.lstrip(_cfg._MARKDOWN_SEPARATOR_CHARACTERS) == text:
-                return True  # Sibling does not start with a separator char.
+        if sibling is None:
             return False
-        if isinstance(sibling, Tag) and WikiHtmlConverter._is_transparent_span(sibling):
-            # Descend into the transparent span.  Whitespace-only → gap
-            # (separator needed).  Non-whitespace content → rendered content
-            # (no separator).  Empty → nothing (no separator).
-            first: PageElement | None = sibling
-            while isinstance(first, Tag):
-                children = [
-                    c
-                    for c in first.contents
-                    if not WikiHtmlConverter._renders_nothing(c, refs=False)
-                ]
-                if not children:
-                    return False
-                first = children[0]
-            if isinstance(first, NavigableString) and not str(first).strip():
-                return True
+        first: PageElement | None = sibling
+        while isinstance(first, Tag) and WikiHtmlConverter._is_transparent_span(first):
+            # Whitespace counts as content here: skipping it would walk past
+            # the gap span's own space to the text behind it.
+            child = next(
+                (
+                    candidate
+                    for candidate in first.contents
+                    if not isinstance(candidate, PreformattedString)
+                    and str(candidate) != ""
+                    and (
+                        isinstance(candidate, NavigableString)
+                        or not WikiHtmlConverter._renders_nothing(candidate, refs=False)
+                    )
+                ),
+                None,
+            )
+            if child is None:
+                return False
+            first = child
+        if not isinstance(first, NavigableString):
             return False
-        return (
-            isinstance(sibling, NavigableString)
-            and sibling.lstrip(_cfg._MARKDOWN_SEPARATOR_CHARACTERS) == sibling
-        )
+        text = str(first)
+        return bool(text) and _needs_marker(text[0])
 
     @classmethod
     def _rendered_edge_node(
@@ -915,9 +954,7 @@ class WikiHtmlConverter:
             if (
                 node.name == "span"
                 and cls._is_transparent_span(node)
-                and not any(
-                    not cls._renders_nothing(c, refs=refs) for c in node.contents
-                )
+                and all(cls._inert_gap_content(c, refs=refs) for c in node.contents)
             ):
                 # Continue walking to the span's next sibling (or parent's sibling)
                 # to find what lies beyond this gap.
@@ -935,6 +972,20 @@ class WikiHtmlConverter:
                 None,
             )
         return False
+
+    @classmethod
+    def _inert_gap_content(cls, child: PageElement, *, refs: bool) -> bool:
+        """Whether *child* contributes no word character to a span's edge.
+
+        Whitespace-only text (any Unicode space, including hair spaces) and
+        markup that renders nothing are both gaps: the walk steps past them
+        to the nearest word character beyond.
+        """
+        if isinstance(child, PreformattedString):
+            return cls._renders_nothing(child, refs=refs)
+        if isinstance(child, NavigableString):
+            return not str(child).strip()
+        return cls._renders_nothing(child, refs=refs)
 
     def _meets_block_boundary(
         self, ele: PageElement, *, following: bool, refs: bool
@@ -1013,7 +1064,11 @@ class WikiHtmlConverter:
             # Comments, CDATA, and doctypes are markup, never content.
             return True
         if isinstance(ele, NavigableString):
-            return not str(ele).strip()
+            # Normalized like ``_convert_text_node`` so a hair-space-only
+            # (or NBSP-only) node counts as rendering: that node keeps its
+            # non-ASCII whitespace as content (``strip(" ")``), so the
+            # rendered-edge walk must not treat it as a boundary.
+            return not str(ele).translate(_NEWLINE_TO_SPACE_MAP).strip(" ")
         if not isinstance(ele, Tag):
             return False
         if ele.name in _ATOMIC_TAGS or ele.name in _MEDIA_TAGS:
@@ -2309,9 +2364,52 @@ class WikiHtmlConverter:
             process_strings=lambda _strings: link,
         )
 
+    @classmethod
+    def _play_anchor_is_redundant(cls, ele: Tag) -> bool:
+        """Whether *ele* is a play-button anchor whose player renders the file.
+
+        Mirrors ``_handle_video``'s src resolution: the anchor is redundant
+        only when its nearest ``mw-tmh-player`` ancestor holds a ``<video>``
+        whose src resolves (``resource``, ``data-mwtitle``, a ``<source>``
+        child, or ``poster``) — that embed already emits the media link.  A
+        bare ``<audio>`` element never dispatches to a media handler, so it
+        does not count: for audio-only players the anchor stays the only
+        carrier and must keep its link.
+        """
+        player = ele.find_parent(class_="mw-tmh-player")
+        if player is None:
+            return False
+        for video in player.find_all("video"):
+            if (
+                video.get("resource") is not None
+                or video.get("data-mwtitle") is not None
+                or video.get("poster") is not None
+            ):
+                return True
+            source = next(
+                (child for child in video.find_all("source", recursive=False)),
+                None,
+            )
+            if source is not None and (source.get("resource") or source.get("src")):
+                return True
+        return False
+
     def _handle_audio(self, ele: Tag, classes: frozenset[str]) -> _HandlerConfig:
-        """Handle <audio> media elements."""
+        """Handle <audio> media elements.
+
+        A play-button anchor inside an ``mw-tmh-player`` container is a UI
+        overlay: when the container's ``<video>`` already renders the file as
+        an embed, the anchor must not emit a duplicate link.  Any other
+        carrier (audio-only players, players without a resolvable video)
+        keeps its link.
+        """
         if (src := ele.get("href")) is None:
+            return _HandlerConfig()
+        if (
+            ele.name == "a"
+            and "mw-tmh-player" not in classes
+            and self._play_anchor_is_redundant(ele)
+        ):
             return _HandlerConfig()
         return self._build_media_config(
             ele=ele,

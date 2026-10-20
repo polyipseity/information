@@ -166,6 +166,7 @@ def _discover_snapshot_cases() -> list[str]:
         "quantum harmonic oscillator",
         "path-integral formulation",
         "hydrogen atom",
+        "Zeeman effect",
     }
     return [c for c in all_cases if c in slow]
 

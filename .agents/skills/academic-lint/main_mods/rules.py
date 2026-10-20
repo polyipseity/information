@@ -3835,6 +3835,7 @@ def qa_prompt_generic(ctx: ValidationContext) -> list[ValidationMessage]:
     return errors
 
 
+"""Flashcard prompt delimiters: two-sided ``::@::`` and one-sided ``:@:``."""
 CARD_DELIMITERS = ("::@::", ":@:")
 
 

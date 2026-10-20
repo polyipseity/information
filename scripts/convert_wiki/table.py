@@ -431,6 +431,15 @@ class TableConverter:
     ) -> _HandlerConfig | None:
         """Handle ``<table>`` elements, integrating caption as a header row.
 
+        A non-empty ``<caption>`` becomes the Markdown header row when the
+        table's first structural row is not an all-``<th>`` row.  When that
+        row *is* all-``<th>`` (a genuine column-header table), Markdown has
+        no second header row to give the caption, so the caption is hoisted
+        above the table as a bold paragraph and the ``<th>`` row keeps the
+        header position.  ``infobox-header`` divider rows inside an
+        ``infobox`` table are section labels, not column headers, and never
+        trigger the hoist.
+
         Parameters
         ----------
         ele:
@@ -439,14 +448,6 @@ class TableConverter:
             Unused, kept for API compatibility with the dispatch signature.
         soup:
             The root BeautifulSoup object used to create new tags.
-
-        Raises
-        ------
-        ValueError
-            If the table has both a non-empty ``<caption>`` and an all-``<th>``
-            header row, since Markdown tables allow only one header row.
-            ``infobox-header`` divider rows inside an ``infobox`` table are
-            section labels, not column headers, and do not trigger this.
         """
         caption = ele.find("caption", recursive=False)
         if caption is None:
@@ -472,10 +473,21 @@ class TableConverter:
                     # Group divider: a section label within the infobox, not
                     # a column header competing with the caption.
                     continue
-                raise ValueError(
-                    "a table with both a <caption> and a <th> header row is "
-                    "invalid: Markdown tables allow only one header row"
-                )
+                # A genuine column-header row owns Markdown's single header
+                # row.  Hoist the caption above the table as a bold
+                # paragraph so the title survives and the headers keep
+                # their semantics.
+                hoisted = soup.new_tag("p")
+                bold = soup.new_tag("b")
+                for child in caption.children:
+                    if isinstance(child, Tag) or (
+                        isinstance(child, NavigableString) and child.strip()
+                    ):
+                        bold.append(copy(child))
+                hoisted.append(bold)
+                caption.insert_before(hoisted)
+                caption.decompose()
+                return None
             if any(c.name == "th" for c in cells):
                 target_tr = tr
                 break
