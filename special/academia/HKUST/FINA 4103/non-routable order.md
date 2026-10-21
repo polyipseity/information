@@ -13,7 +13,7 @@ tags:
 
 A _non-routable order_ is one that refuses the routing [Regulation NMS](Regulation%20NMS.md) requires. It comes in two types, an [intermarket sweep order](intermarket%20sweep%20order.md) and a [do-not-ship order](do-not-ship%20order.md), each in an immediate-or-cancel or a limit form. Either type accepts that the best price may be somewhere else.
 
-Li, Ye, and Zheng (2022, _Journal of Financial Economics_) work from proprietary trade-by-trade order-type data on the New York Stock Exchange. They find that 57% of the orders in their sample refused the routing stipulated by Regulation National Market System (Reg NMS). The reason is not obvious from the rulebook.
+Li, Ye, and Zheng (2022, _Journal of Financial Economics_ (JFE)) work from proprietary trade-by-trade order-type data on the New York Stock Exchange. They find that 57% of the orders in their sample refused the routing stipulated by Regulation National Market System (Reg NMS). More than half the order flow arrives in a non-routable form. The routing rule assumes an order travels to the best quote, and that assumption covers the minority of orders. Why a trader would refuse that routing is not obvious from the rulebook.
 
 ---
 
@@ -21,8 +21,9 @@ Flashcards for this section are as follows:
 
 - what a non-routable order refuses ::@:: An order that refuses the routing Regulation National Market System (NMS) requires, accepting that the best price may be elsewhere.
 - two order types that are non-routable ::@:: The intermarket sweep order and the do-not-ship order.
-- share of orders in the sample that refused the routing stipulated by Regulation National Market System (Reg NMS) ::@:: 57%.
+- share of orders in the sample that refused the routing stipulated by Regulation National Market System (Reg NMS) ::@:: 57%, so the rule's assumption that an order travels to the best quote covers the minority of orders.
 - data the finding rests on ::@:: Proprietary trade-by-trade order-type data from the New York Stock Exchange.
+- which study measures the share of orders that refused the routing Regulation National Market System (Reg NMS) stipulated, on proprietary trade-by-trade order-type data from the New York Stock Exchange? ::@:: Sida Li, Mao Ye and Miles Zheng, 2022, Journal of Financial Economics (JFE), "Refusing the best price?".
 
 ## how an order is classified
 

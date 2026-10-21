@@ -67,3 +67,21 @@ Flashcards for this section are as follows:
 - order rate at Abbott Laboratories in normal times against the burst ::@:: 38 orders per second on average, then 10,704 orders in one second and 5,483 in the next, with all but 14 cancelled within one second.
 - what front running requires ::@:: A trail of prints left by a large order, and the speed to trade ahead of the remainder.
 - which order types were designed to defeat front running ::@:: The ones that refuse to be routed.
+
+## message data
+
+To quantify high-frequency trading activity and its possible profits and costs, researchers read limit-order-book (LOB) datasets, available from exchange direct feeds and from consolidated datasets like Trades and Quotes (TAQ) and MIDAS. They carry a complete play-by-play of the books: every new limit order adding liquidity, every new market order taking liquidity, and every trade, with very precise millisecond timestamps. What they miss is every order that failed.
+
+In a [sniping](quote%20sniping.md) race the trader who places an [immediate-or-cancel order](immediate-or-cancel%20order.md) (IOC) to take a stale quote may win the race and execute, or lose it and be cancelled. The owner of the stale quote may revoke it in time, or be too late to cancel. These failed orders are not recorded on LOB data, so when several traders race, conventional LOB data records the winners and not the losers.
+
+Exchanges keep electronic records of these attempts. _Message data_ records every attempted order, time-stamped at the gateway, so the speed of arrival can be measured accurately. It is hard to obtain, at least for students and junior scholars. Researchers can request London Stock Exchange (LSE) data under Section 165 of the Financial Service and Markets Act. Including the failed messages significantly improves knowledge about high-frequency trading.
+
+---
+
+Flashcards for this section are as follows:
+
+- what limit-order-book (LOB) datasets record ::@:: Every new limit order adding liquidity, every new market order taking liquidity, and every trade, with very precise millisecond timestamps.
+- what conventional limit-order-book (LOB) data misses about a sniping race ::@:: The losers: an immediate-or-cancel (IOC) order that loses the race and is cancelled, and a stale quote whose cancellation arrives too late, leave no trace.
+- what message data records ::@:: Every attempted order, time-stamped at the gateway, so the speed of arrival can be measured accurately.
+- how researchers can request London Stock Exchange (LSE) message data ::@:: Under Section 165 of the Financial Service and Markets Act.
+- research value of the failed messages in message data ::@:: Including them significantly improves knowledge about high-frequency trading.

@@ -60,7 +60,7 @@ Flashcards for this section are as follows:
 
 ## price improvement from routing
 
-Price improvement is measured against the best quote available when the order arrived. Li, Ye, and Zheng (2022, _Journal of Financial Economics_) report it for routed orders on the New York Stock Exchange.
+Price improvement is measured against the best quote available when the order arrived. Li, Ye, and Zheng (2022, _Journal of Financial Economics_ (JFE)) report it for routed orders on the New York Stock Exchange.
 
 | Price improvement (dollars) | Plain market | Plain IOC | DAY limit | Reserve |
 | --- | --- | --- | --- | --- |
@@ -77,14 +77,15 @@ Price improvement is measured against the best quote available when the order ar
 | 0.10 | 0.04% | 0.66% | 0.07% | 0.05% |
 | 0.10 or more | 1.12% | 4.65% | 2.56% | 1.82% |
 
-48.58% of routed plain market orders and 70.49% of routed plain immediate-or-cancel orders filled exactly a cent better than the quote they chased. Liquidity-making orders get nothing. 77.49% of routed day limit orders and 79.51% of routed reserve orders received no improvement at all, and they still paid the routing fee.
+The two taking types differ in how often they fill at the arrival quote: 26.99% of routed plain market orders filled at it, against 0.00% of routed plain immediate-or-cancel orders. The cent is the usual fill for both, 48.58% of the market orders and 70.49% of the immediate-or-cancel orders, with 4.65% of the latter at a dime or more. Liquidity-making orders get nothing nearly four times in five: 77.49% of routed day limit orders and 79.51% of routed reserve orders received no improvement, and they still paid the routing fee. Price improvement follows the role as the fee does: it goes to the order that takes liquidity and misses the one that makes it.
 
 ---
 
 Flashcards for this section are as follows:
 
 - what price improvement is measured against ::@:: The best quote available when the order arrived.
-- what routing is worth to each side ::@:: A liquidity-taking order usually fills better than the quote it chased; a liquidity-making one usually fills at that same quote.
+- what routing is worth to each side ::@:: The taking side fills better than the quote it chased, with no plain immediate-or-cancel fill at the arrival quote; the making side fills at that same quote nearly four times in five.
 - routed day limit orders receiving no price improvement ::@:: 77.49%, against 79.51% for routed reserve orders.
 - what a routed liquidity-making order still pays ::@:: The routing fee, with no price improvement in return.
 - what sets the price of routing ::@:: The fee schedule alone: Regulation National Market System (NMS) does not take the fees into account.
+- which study reports price improvement for routed orders on the New York Stock Exchange, measured against the best quote available when the order arrived? ::@:: Sida Li, Mao Ye and Miles Zheng, 2022, Journal of Financial Economics (JFE), "Refusing the best price?".

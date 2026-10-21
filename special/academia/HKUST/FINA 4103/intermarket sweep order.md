@@ -87,11 +87,12 @@ Flashcards for this section are as follows:
 
 ## observed order sizes
 
-An ISO is meant to help a large block execute across exchanges. The sizes recorded in the order-type data of Li, Ye, and Zheng (2022) are not large. The average ISO is 244 shares, against 268 for a plain immediate-or-cancel order and 278 for a plain market order. The main reasons for using one are probably not the ones it was designed for.
+An ISO is meant to help a large block execute across exchanges. The average ISO recorded in the order-type data of Li, Ye, and Zheng (2022, _Journal of Financial Economics_ (JFE)) is 244 shares, against 268 for a plain immediate-or-cancel order and 278 for a plain market order: the smallest of the three. An instrument built for large blocks shows up carrying the smallest orders. A sweep is not being sent for the blocks it was designed to split, and the reasons for using one lie elsewhere.
 
 ---
 
 Flashcards for this section are as follows:
 
 - average sizes of an intermarket sweep order, a plain immediate-or-cancel order, and a plain market order ::@:: 244 shares, 268 shares, and 278 shares respectively.
-- comparison of the observed intermarket sweep order sizes with what the instrument was designed for ::@:: The sizes are not large, so the reasons for using one are probably not the ones it was designed for.
+- comparison of the observed intermarket sweep order sizes with what the instrument was designed for ::@:: The sweep carries the smallest average size of the three, so it is not being sent for the blocks it was designed to split.
+- which study's order-type data give the average sizes of an intermarket sweep order, a plain immediate-or-cancel order, and a plain market order? ::@:: Sida Li, Mao Ye and Miles Zheng, 2022, Journal of Financial Economics (JFE), "Refusing the best price?".

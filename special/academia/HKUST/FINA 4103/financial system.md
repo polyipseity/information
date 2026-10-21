@@ -30,14 +30,13 @@ Flashcards for this section are as follows:
 
 ## market participants
 
-Market participants are those who get involved in financial transactions. Banks and large financial institutions take part as brokers and dealers, retail investors and households trade on their own account, and governments issue and trade. The population is highly heterogeneous, and many constraints limit what each participant may do.
+Market participants are those who get involved in financial transactions, and the population is highly heterogeneous: many constraints limit what each participant may do. The classification into intermediaries, investors, speculators and arbitrageurs, hedgers, producers, and government lives in [financial market participants](financial%20market%20participants.md).
 
 ---
 
 Flashcards for this section are as follows:
 
-- who counts as a market participant ::@:: Anyone who gets involved in financial transactions: banks and large financial institutions, retail investors and households, and governments.
-- role of banks and large financial institutions as participants ::@:: Brokers and dealers.
+- who counts as a market participant ::@:: Anyone who gets involved in financial transactions.
 - a defining property of the set of market participants ::@:: It is highly heterogeneous, with many constraints on what each participant can do.
 
 ## regulation

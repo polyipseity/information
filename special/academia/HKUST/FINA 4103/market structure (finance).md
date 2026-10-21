@@ -105,7 +105,7 @@ In 1998 the New York Stock Exchange held 52% of United States equity volume and 
 
 The SEC has promoted exchange competition on the premise that competition serves consumers, and the Securities Exchange Act of 1934 is one example. The rules that make that competition workable sit in Regulation National Market System, whose Rule 611 is the order protection rule. Explicit trading fees run at roughly 0.05 basis points, yet traders still pay large costs elsewhere.
 
-The premise predicts that execution prices fall. Budish, Lee, and Shims (2023, _Journal of Political Economy_) argue that trading fees should decline and become negligible, which is what is observed. The prediction holds because the services are identical. [Unlisted trading privileges](Unlisted%20Trading%20Privileges.md) make every listed stock available on every venue, and [Regulation NMS](Regulation%20NMS.md) requires the same execution everywhere. The result resembles Bertrand competition, in which sellers of an undifferentiated service drive its price down to cost.
+The premise predicts that execution prices fall. Budish, Lee, and Shim (2023, _Journal of Political Economy_ (JPE)) argue that trading fees should decline and become negligible, which is what is observed. The prediction holds because the services are identical. [Unlisted trading privileges](Unlisted%20Trading%20Privileges.md) make every listed stock available on every venue, and [Regulation NMS](Regulation%20NMS.md) requires the same execution everywhere. The result resembles Bertrand competition, in which sellers of an undifferentiated service drive its price down to cost. A fee at cost is what that competition predicts, so the near-zero fee is evidence for the model rather than a low price to read on its own. It measures only that no venue can charge above cost for execution: a venue that cannot earn there can still earn elsewhere.
 
 The revenue question is unresolved. Exchanges earn from market data, and a _Wall Street Journal_ report of 16 October 2018 described an SEC decision blocking higher fees for certain stock-market data. That blocked a growing source of revenue that had been offsetting the declining income from trading (Osipovich, Michaels, and Morgenson).
 
@@ -124,9 +124,10 @@ Flashcards for this section are as follows:
 - United States equity market share of the NYSE and Nasdaq in 1998 ::@:: 52% and 40% respectively, with other exchanges taking 8%.
 - largest United States equity trading venue in 2015 ::@:: The Financial Industry Regulatory Authority (FINRA) trade reporting facility, at 20.3%.
 - source of the 1998 and 2015 venue shares ::@:: Credit Suisse Trading Strategy.
-- what Budish, Lee, and Shims (2023) predict for trading fees ::@:: That they decline and become negligible, which is what is observed.
+- which paper predicts exchange trading fees falling to negligible because every venue sells the same execution service, the Bertrand outcome observed in the United States? ::@:: Eric Budish, Robin S. Lee and John J. Shim, 2023, Journal of Political Economy (JPE), the paper behind the prediction that trading fees decline to negligible.
 - why the exchanges' trade-execution services are identical ::@:: Unlisted trading privileges make every listed stock available everywhere, and Regulation National Market System (NMS) requires the same execution everywhere.
 - competition the United States exchange market resembles ::@:: Bertrand competition.
+- what a near-zero trading fee establishes and what it leaves unmeasured ::@:: It shows that no venue can charge above cost for an undifferentiated execution service; it does not show what an exchange earns in total or what a trader pays in other costs.
 - where the revenue comes from once the fee is zero ::@:: Market data, whose fees the Securities and Exchange Commission (SEC) declined to let the exchanges raise in October 2018.
 
 ## electronic trading

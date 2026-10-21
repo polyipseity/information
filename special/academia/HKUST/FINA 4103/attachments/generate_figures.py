@@ -1,19 +1,31 @@
 # /// script
 # requires-python = ">=3.13.0"
 # ///
-"""Generate the definitional drawing for unlisted trading privileges.
+"""Generate the definitional drawings for the FINA 4103 notes.
 
-The drawing shows how a single-listed stock reaches trading venues other than
-its listing exchange: one box for the stock, a bus of three drops, and the
-listing exchange separated from the two unlisted trading privilege venues.
+Two figures are written beside this script:
 
-Wikimedia Commons was searched before generating (see the module docstring in
-the note's commit history): "unlisted trading privileges" returned no
+- ``utp_listing_and_trading.svg`` shows how a single-listed stock reaches
+  trading venues other than its listing exchange: one box for the stock, a bus
+  of three drops, and the listing exchange separated from the two unlisted
+  trading privilege venues.
+- ``symbol_one_share_order_book.svg`` is the one-share order book that defines
+  the Roll model notation: one share offered at the ask ``a_t``, one share
+  wanted at the bid ``b_t``, the spread ``S = a_t - b_t`` between them, and the
+  midpoint ``m_t = (a_t + b_t) / 2``.
+
+Wikimedia Commons was searched before each drawing was generated. For the
+unlisted trading privileges figure, "unlisted trading privileges" returned no
 filetype:bitmap hits, and the hits for "national market system securities
 information processor" and "Regulation NMS" were unrelated (a photograph
 titled File:HARVEST-tape.jpg, and National Monument System entries in
-Washington, Michigan, Minnesota, and Norfolk). No freely licensed figure shows
-this structure, so the drawing is generated.
+Washington, Michigan, Minnesota, and Norfolk). For the one-share order book,
+searches for "bid ask spread midpoint diagram", "limit order book schematic
+ask bid", and "Roll model bid-ask bounce diagram" returned only depth charts
+(File:Order book depth chart.gif, File:Order Book, depth of market.jpg), a
+supply-and-demand crossing (File:Price of market balance.svg), and an
+unexplained 172x220 upload (File:Bid ask.png); none carries the a_t / b_t / S /
+m_t notation the Roll model is defined by, so both drawings are generated.
 
 Run from the attachments directory:
 
@@ -128,6 +140,104 @@ def build() -> str:
     return "".join(out)
 
 
+def cell(x: float, y: float, w: float, h: float, edge: str, fill: str) -> str:
+    return (
+        f'  <rect x="{x}" y="{y}" width="{w}" height="{h}" '
+        f'fill="{fill}" stroke="{edge}" stroke-width="3"/>\n'
+    )
+
+
+def label_sub(x: float, y: float, base: str, sub: str, size: int) -> str:
+    return (
+        f'  <text x="{x}" y="{y}" font-family="{FONT}" font-size="{size}" '
+        f'fill="{TEXT}" text-anchor="middle">{base}'
+        f'<tspan dy="4" font-size="{size - 7}">{sub}</tspan></text>\n'
+    )
+
+
+def double_arrow(x: float, y1: float, y2: float) -> str:
+    head = 9
+    return (
+        f'  <line x1="{x}" y1="{y1 + head}" x2="{x}" y2="{y2 - head}" '
+        f'stroke="#555555" stroke-width="3" marker-start="url(#head-back)" '
+        'marker-end="url(#head)"/>\n'
+    )
+
+
+def build_order_book() -> str:
+    out = [
+        '<?xml version="1.0" encoding="UTF-8"?>\n',
+        '<svg xmlns="http://www.w3.org/2000/svg" width="900" height="430" '
+        'viewBox="0 0 900 430" role="img" '
+        'aria-label="A one-share order book: one share offered at the ask a, '
+        "one share wanted at the bid b, the spread S between the two prices, and "
+        'the midpoint m halfway between them">\n',
+        "  <defs>\n",
+        '    <marker id="head" markerWidth="10" markerHeight="8" refX="9" refY="4" '
+        'orient="auto">\n',
+        '      <path d="M0,0 L10,4 L0,8 z" fill="#555555"/>\n',
+        "    </marker>\n",
+        '    <marker id="head-back" markerWidth="10" markerHeight="8" refX="9" '
+        'refY="4" orient="auto-start-reverse">\n',
+        '      <path d="M0,0 L10,4 L0,8 z" fill="#555555"/>\n',
+        "    </marker>\n",
+        "  </defs>\n",
+    ]
+
+    # Column headers and the rule under them.
+    out.append(label(170, 50, "Sell", 24, "bold"))
+    out.append(label(450, 50, "price", 24, "bold"))
+    out.append(label(730, 50, "Buy", 24, "bold"))
+    out.append(
+        '  <line x1="60" y1="64" x2="840" y2="64" stroke="#555555" stroke-width="3"/>\n'
+    )
+
+    # Ask row: one share offered at the ask price.
+    out.append(cell(60, 80, 220, 80, RED_EDGE, RED_FILL))
+    out.append(label(170, 132, "1", 26))
+    out.append(cell(340, 80, 220, 80, BLUE_EDGE, BLUE_FILL))
+    out.append(label_sub(450, 132, "a", "t", 26))
+    out.append(cell(620, 80, 220, 80, "#999999", "#f2f2f2"))
+
+    # Bid row: one share wanted at the bid price.
+    out.append(cell(60, 265, 220, 80, "#999999", "#f2f2f2"))
+    out.append(cell(340, 265, 220, 80, BLUE_EDGE, BLUE_FILL))
+    out.append(label_sub(450, 317, "b", "t", 26))
+    out.append(cell(620, 265, 220, 80, RED_EDGE, RED_FILL))
+    out.append(label(730, 317, "1", 26))
+
+    # The midpoint level, drawn clear of the price column on its own leader.
+    out.append(
+        '  <line x1="100" y1="212" x2="332" y2="212" stroke="#555555" '
+        'stroke-width="2" stroke-dasharray="8 6"/>\n'
+    )
+    out.append(label_sub(82, 219, "m", "t", 22))
+    # The spread, measured between the two price levels inside the price column.
+    out.append(double_arrow(450, 161, 264))
+    out.append(label(486, 219, "S", 22))
+
+    # The two definitions the drawing exists to carry.
+    eq_left = (
+        '  <text x="300" y="400" font-family="{0}" font-size="24" fill="{1}" '
+        'text-anchor="middle">S = a'
+        '<tspan dy="5" font-size="17">t</tspan><tspan dy="-5"> − b</tspan>'
+        '<tspan dy="5" font-size="17">t</tspan></text>\n'
+    ).format(FONT, TEXT)
+    eq_right = (
+        '  <text x="620" y="385" font-family="{0}" font-size="24" fill="{1}" '
+        'text-anchor="middle">m'
+        '<tspan dy="5" font-size="17">t</tspan><tspan dy="-5"> = (a</tspan>'
+        '<tspan dy="5" font-size="17">t</tspan><tspan dy="-5"> + b</tspan>'
+        '<tspan dy="5" font-size="17">t</tspan><tspan dy="-5">) / 2</tspan>'
+        "</text>\n"
+    ).format(FONT, TEXT)
+    out.append(eq_left)
+    out.append(eq_right)
+
+    out.append("</svg>\n")
+    return "".join(out)
+
+
 def _normalise_trailing_newline(svg: str) -> str:
     """Return ``svg`` ending in exactly one newline, whatever it ended in before."""
     text = svg.rstrip() + "\n"
@@ -138,9 +248,14 @@ def _normalise_trailing_newline(svg: str) -> str:
 
 
 def main() -> None:
-    target = Path(__file__).with_name("utp_listing_and_trading.svg")
-    target.write_text(_normalise_trailing_newline(build()), encoding="utf-8")
-    print(f"wrote {target}")
+    drawings = (
+        ("utp_listing_and_trading.svg", build()),
+        ("symbol_one_share_order_book.svg", build_order_book()),
+    )
+    for name, svg in drawings:
+        target = Path(__file__).with_name(name)
+        target.write_text(_normalise_trailing_newline(svg), encoding="utf-8")
+        print(f"wrote {target}")
 
 
 if __name__ == "__main__":

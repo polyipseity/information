@@ -24,18 +24,18 @@ Flashcards for this section are as follows:
 
 ## dark pools and price efficiency
 
-Zhu (2014, _Review of Financial Studies_) compares two worlds: a lit exchange with a dark pool, and a lit exchange alone. Informed traders learn the asset value and trade on it, contributing to price discovery. Noise traders buy and sell at random, driven by exogenous needs.
+Zhu (2014, _Review of Financial Studies_ (RFS)) compares two worlds: a lit exchange with a dark pool, and a lit exchange alone. Informed traders learn the asset value and trade on it, contributing to price discovery. Noise traders buy and sell at random, driven by exogenous needs.
 
-The asset value is either high ($v_H$) or low ($v_L$) and is not publicly observable. With a dark pool alongside the lit exchange, informativeness rises and the mean-squared error of the price relative to the true value falls.
+The asset value is either high ($v_H$) or low ($v_L$) and is not publicly observable. Adding the dark pool raises the informativeness of the price and lowers its mean-squared error against the true value. The two measures improve together because both read one thing: how close the price comes to the value. The dark pool reveals nothing itself, since its trades stay hidden and print at the midpoint. What changes is who trades where, because the price improvement it offers draws noise traders out of the lit book and leaves the informed orders a larger share of it.
 
 ---
 
 Flashcards for this section are as follows:
 
-- two worlds Zhu (2014) compares ::@:: A lit exchange with a dark pool, and a lit exchange alone.
-- what informed traders do in Zhu's model ::@:: Learn the asset value and trade on it, contributing to price discovery.
-- what noise traders do in Zhu's model ::@:: Buy and sell at random, driven by exogenous needs.
-- two effects of dark pools on price efficiency ::@:: Price informativeness rises and mean-squared error of price relative to true value falls.
+- which paper compares a lit exchange holding a dark pool against a lit exchange alone, with informed traders facing execution risk in the dark and migrating to the lit venue? ::@:: Haoxiang Zhu, 2014, Review of Financial Studies (RFS), the paper behind the dark-pool price-discovery result.
+- in the comparison of a lit exchange with a dark pool against a lit exchange alone, what informed traders do ::@:: Learn the asset value and trade on it, contributing to price discovery.
+- in the comparison of a lit exchange with a dark pool against a lit exchange alone, what noise traders do ::@:: Buy and sell at random, driven by exogenous needs.
+- two effects of a dark pool on price efficiency ::@:: The price becomes more informative about the true value, and its mean-squared error against that value falls.
 
 ## price improvement versus execution risk
 

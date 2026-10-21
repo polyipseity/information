@@ -25,7 +25,7 @@ Flashcards for this section are as follows:
 
 ## who wins the race
 
-Li, Ye, and Zheng (2022, _Journal of Financial Economics_) count the races between the three immediate-or-cancel types on the New York Stock Exchange. Rows are the winners and columns the losers. Where $q > 1$ orders win or lose the same race, each is counted as $1/q$ of it. Every number is averaged at the stock-day level.
+Li, Ye, and Zheng (2022, _Journal of Financial Economics_ (JFE)) count the races between the three immediate-or-cancel types on the New York Stock Exchange. Rows are the winners and columns the losers. Where $q > 1$ orders win or lose the same race, each is counted as $1/q$ of it. Every number is averaged at the stock-day level.
 
 | Winner | Loses to plain IOC | Loses to ISO | Loses to DNS IOC | Total wins | Winning rate |
 | --- | --- | --- | --- | --- | --- |
@@ -34,15 +34,16 @@ Li, Ye, and Zheng (2022, _Journal of Financial Economics_) count the races betwe
 | DNS IOC | 4.38 | 43.69 | 43.56 | 91.63 | 37.28% |
 | Total losses | 17.37 | 134.51 | 93.88 | 244.76 | |
 
-A routed order announces its arrival, and the other side races against that announcement.
+A routed order announces its arrival, and the other side races against that announcement. The plain immediate-or-cancel order is the only one of the three types that announces, and the only one that loses more races than it wins: 13.42 wins against 17.37. The intermarket sweep order (ISO) and the do-not-ship (DNS) immediate-or-cancel order each win about half the races they enter, and the ISO enters the most. That makes the winning-rate column reflect the number of races a type enters as much as its success in them.
 
 ---
 
 Flashcards for this section are as follows:
 
-- winning rates of the three immediate-or-cancel types, plain, intermarket sweep, and do-not-ship ::@:: 5.46%, 57.26%, and 37.28% respectively.
+- winning rates of the three immediate-or-cancel types, plain, intermarket sweep, and do-not-ship ::@:: 5.46%, 57.26%, and 37.28% of all wins respectively; only the plain immediate-or-cancel type loses more races than it wins.
 - when $q > 1$ orders win or lose the same race, what is each order counted as ::@:: $1/q$ of the race, with the numbers averaged at the stock-day level.
 - why a routed order is exposed in the race ::@:: Its arrival is announced, and the other side races against that announcement.
+- which study counts the races between the three immediate-or-cancel order types by winner and loser, dividing a race that $q > 1$ orders tie into $1/q$ for each? ::@:: Sida Li, Mao Ye and Miles Zheng, 2022, Journal of Financial Economics (JFE), "Refusing the best price?".
 
 ## escaping the race
 

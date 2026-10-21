@@ -37,4 +37,5 @@ Flashcards for this section are as follows:
 - what phantom liquidity is ::@:: A quote that appears in the limit-order book (LOB) data feed but disappears when an order arrives to take it.
 - what causes phantom liquidity ::@:: Speed differences in data feeds, processing, and order placement.
 - two types of data access at NYSE ::@:: Direct data feed (raw, fast) and consolidated data feed (aggregate, slow).
-- what "Flash Boys" (Michael Lewis, 2014) is about ::@:: High-frequency trading and the speed advantages that produce phantom liquidity.
+- which book describes the speed advantage a direct data feed holds over the consolidated feed, the gap that makes a quote vanish when an order arrives to take it? ::@:: Michael Lewis, 2014, _Flash Boys_.
+- the study reporting that the share of immediate-or-cancel (IOC) orders grew dramatically through the 2000s ::@:: Cao et al., 2022, Journal of Financial Economics (JFE).
