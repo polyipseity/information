@@ -90,6 +90,35 @@ Flashcards for this section are as follows:
 - the spacing of the $(111)$ planes of a cubic cell with edge $a$ ::@:: $d_{111} = a/\sqrt{3}$, one third of the body diagonal $a\sqrt{3}$.
 - how the $(h00)$ easy case, planes $a/h$ apart, builds the general spacing $d_{hkl} = a/\sqrt{h^2+k^2+l^2}$ ::@:: For $(h00)$ the planes sit $a/h$ apart, and $d_{hkl}$ returns that value when $k$ and $l$ vanish.
 
+## peak width
+
+An ideal crystal, infinite in every direction, reflects only at the exact Bragg angle: its peak is a line with no width at all. A measured peak spreads over a small range of the scattering angle $2\theta$ instead, and that spread is quoted as the full width at half maximum $\beta$. Three things widen it: the finite size of the crystallites, the strain inside them, and the instrument.
+
+Finite size widens a peak because the cancellation that sharpens a reflection needs depth. Many parallel planes fall progressively out of step away from the exact Bragg angle and cancel each other, which is what confines an extended crystal's reflection to a narrow range of angles. A crystallite of thickness $D$ measured across the reflecting planes holds only about $D/d$ planes of a family with spacing $d$, too few to cancel the waves a little off the angle, so those waves survive and the peak spreads. The Scherrer relation turns the spread back into that thickness: $\beta\cos\theta = K\lambda/D$, with $\beta$ in radians and $K$ a shape factor near 1. Thin crystallites give wide peaks; large ones give peaks narrow enough that whatever width remains belongs to something else.
+
+Comparing materials takes the repeat unit into account, because what sets the width is how many repeat units the crystallite holds. In a molecular crystal that unit is the whole molecule; in an ionic crystal it is the whole cell. The rock-salt cell of sodium chloride spans $5.64\ \text{Å}$ and that of potassium chloride $6.29\ \text{Å}$, so a stack of the same number of cells is thicker in potassium chloride, and its peak is narrower. Widths are compared at equal domain thickness $D$, never at equal repeat-unit counts.
+
+Microstrain widens a peak by a different route. Parts of a real lattice sit stretched or compressed, so one family of planes holds a spread of spacings about $d$ rather than a single value. Each spacing has its own Bragg angle, and the peak widens to hold them all at once.
+
+Size and strain widen a peak differently as the angle grows: size broadening follows $1/\cos\theta$, strain broadening follows $\tan\theta$. The measured width is the sum of the two, and no single peak can separate them. Multiplying the sum by $\cos\theta$ removes the angle dependence from the size term, leaving $K\lambda/D$, and turns the strain term into $4\varepsilon\sin\theta$, because $\tan\theta\cos\theta = \sin\theta$. A plot of $\beta\cos\theta$ against $\sin\theta$ is then a straight line, so fitting one line through the widths of many peaks puts the size in the intercept and the strain in the slope. The Scherrer relation is trustworthy only on a strain-free sample, since strain broadening would otherwise be read as a smaller crystallite.
+
+The remaining width belongs to the apparatus. The beam has a finite divergence and the slits a finite width, the detector has its own resolution, and the $K\alpha$ line is a doublet of two wavelengths, so every powder peak is a pair of lines that overlap into one wider bump at small $2\theta$ and split into two as $2\theta$ grows. A large strain-free standard run on the same instrument measures that instrumental width, and a sample's own broadening is whatever exceeds the standard.
+
+A peak reports two things at once: its position gives the plane spacing $d$ through Bragg's law, and its width gives the size of the crystallites and the strain inside them.
+
+---
+
+Flashcards for this section are as follows:
+
+- what the full width at half maximum $\beta$ of an X-ray powder peak carries, beyond what its position gives ::@:: The crystallite size and the strain inside the crystallites, where the position gives only the plane spacing $d$ through Bragg's law.
+- why a crystallite of thickness $D$ across the reflecting planes, with planes of spacing $d$, gives a broader Bragg peak than an extended crystal ::@:: A sharp reflection needs many planes to cancel the waves a little off the exact angle; $D/d$ planes are too few, so those waves survive and the peak spreads.
+- the Scherrer relation between peak width $\beta$ in radians, Bragg angle $\theta$, wavelength $\lambda$, and crystallite thickness $D$ across the reflecting planes ::@:: $\beta\cos\theta = K\lambda/D$, with $K$ a shape factor near 1; thin crystallites give wide peaks.
+- how the size of the repeat unit, taking the $5.64\ \text{Å}$ sodium chloride cell against the $6.29\ \text{Å}$ potassium chloride cell, enters a powder peak's width ::@:: A stack of the same number of repeat units is thicker in the material with the larger unit, so its peak is narrower; widths are compared at equal domain thickness $D$, not at equal unit counts.
+- how microstrain $\varepsilon$ broadens a Bragg peak ::@:: Parts of the lattice sit stretched or compressed, so one family of planes holds a spread of spacings about $d$; each spacing has its own Bragg angle, and the peak widens to hold them all.
+- why multiplying the measured peak width $\beta$ by $\cos\theta$ gives a Williamson–Hall plot that separates size broadening from strain $\varepsilon$ ::@:: The width sums a size term proportional to $1/\cos\theta$ and a strain term proportional to $\tan\theta$; multiplying by $\cos\theta$ leaves the size term constant at $K\lambda/D$ and turns the strain term into $4\varepsilon\sin\theta$, since $\tan\theta\cos\theta = \sin\theta$, so a plot of $\beta\cos\theta$ against $\sin\theta$ is a straight line with intercept $K\lambda/D$ and slope $4\varepsilon$.
+- why the $K\alpha$ doublet widens every X-ray powder peak ::@:: The $K\alpha$ line is a doublet of two wavelengths, so each peak is a pair of lines; the pair overlaps into one wider bump at small $2\theta$ and splits into two lines at large $2\theta$.
+- what a powder diffractometer adds to peak width, including the $K\alpha$ doublet, and how that instrumental width is measured ::@:: Beam divergence, finite slit widths, detector resolution, and the $K\alpha$ doublet; a large strain-free standard run on the same instrument measures the width, and a sample's broadening is whatever exceeds the standard.
+
 <!-- check: ignore-next-line[header_style]: proper noun (acronym + eponym) -->
 ## X-ray crystallography
 

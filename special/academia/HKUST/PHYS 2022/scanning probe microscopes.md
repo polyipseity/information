@@ -25,22 +25,20 @@ Flashcards for this section are as follows:
 
 The scanning tunnelling microscope turns the exponential into a ruler. A sharp metallic tip hovers within $d < 1$ nm of a conducting surface, and a bias voltage drives a tunnelling current across the vacuum gap $d$. The current depends on the local electron density at the Fermi level. The gap itself acts as the barrier, with its height near the work function $\phi$ of the tip, because the bias shares that energy scale.
 
-The standard operating mode holds the current steady rather than the tip. A feedback loop compares the tunnelling current with its set value and moves the tip up or down to restore it as the scan runs, so the recorded tip height traces the surface contours. The currents are small, down to a few picoamperes. A gap change of only 0.4 nm moves the current by a factor of $10^4$.
+The standard operating mode holds the current steady rather than the tip. A feedback loop compares the tunnelling current with its set value and moves the tip up or down to restore it as the scan runs, so the recorded tip height traces the surface contours. The currents are small, down to a few picoamperes.
 
-For a wide gap the [transmission probability](quantum%20tunnelling.md#transmission%20probability) through the barrier is $T_{\mathrm{gap}} \approx e^{-2\kappa d}$, with $\kappa = \sqrt{2m\phi}/\hbar$ the rectangular-barrier decay constant with $V_0$ replaced by $\phi$. The current is the incident electron flux times the transmission, so the flux carries the bias voltage and the tunnelling factor is $T_{\mathrm{gap}}$. The chain gives $I \propto V e^{-2\kappa d}$.
+For a wide gap the [transmission probability](quantum%20tunnelling.md#transmission%20probability) through the barrier is $T_{\mathrm{gap}} \approx e^{-2\kappa d}$, with $\kappa = \sqrt{2m\phi}/\hbar$ the rectangular-barrier decay constant with $V_0$ replaced by $\phi$. The current is the incident electron flux times the transmission: the flux carries the bias voltage $V$, the transmission carries the tunnelling factor $T_{\mathrm{gap}}$, and the chain gives $I \propto V e^{-2\kappa d}$.
 
-The sensitivity follows from that exponential. A fractional gap change $dd$ moves the current by $dI/I = -2\kappa\, dd$. With $\phi \approx 5$ eV the decay constant is $\kappa \approx 1.15\ \mathrm{\AA}^{-1}$, so $2\kappa \approx 2.3\ \mathrm{\AA}^{-1}$. Each extra ångström of gap therefore multiplies $I$ by $e^{-2.3} \approx 0.1$, nearly an order of magnitude per ångström.
+The sensitivity follows from that exponential. A small change $\Delta d$ in the gap moves the current by $\Delta I / I = -2\kappa\, \Delta d$. With $\phi \approx 5$ eV the decay constant is $\kappa \approx 1.15\ \mathrm{\AA}^{-1}$, so $2\kappa \approx 2.3\ \mathrm{\AA}^{-1}$. Each extra ångström of gap therefore multiplies $I$ by $e^{-2.3} \approx 0.1$, nearly an order of magnitude per ångström.
 
-Because $I$ falls by nearly an order of magnitude for each ångström of extra gap, the current tracks the tip–surface distance with sub-ångström precision, and scanning the tip across the surface maps the surface atom by atom, corrugations of order 0.3 nm on gold, magnified to a visible image. The microscope measures distance through tunnelling probability itself.
+That exponential is what makes the microscope atomic. The current tracks the tip–surface distance with sub-ångström precision, so scanning the tip across the surface turns corrugations of order 0.3 nm on gold into a visible map of the surface atom by atom.
 
 ---
 
 Flashcards for this section are as follows:
 
-- what carries the distance information in a scanning tunnelling microscope (STM) current $I \propto V e^{-2d\sqrt{2m\phi}/\hbar}$ ::@:: The tunnelling dependence $I \propto V\,e^{-2d\sqrt{2m\phi}/\hbar}$ on the tip–surface gap $d$.
 - how the scanning tunnelling microscope (STM) current $I \propto V e^{-2\kappa d}$ follows from the gap transmission ::@:: The wide-gap transmission is $T_{\mathrm{gap}} \approx e^{-2\kappa d}$ with $\kappa = \sqrt{2m\phi}/\hbar$, and the current is incident flux times transmission, with the flux carrying the bias $V$.
-- the sensitivity of a scanning tunnelling microscope (STM) current to a gap change $dd$ ::@:: $dI/I = -2\kappa\, dd$; with $\phi \approx 5$ eV, $\kappa \approx 1.15\ \mathrm{\AA}^{-1}$, so each extra ångström multiplies $I$ by $e^{-2.3} \approx 0.1$.
-- the sensitivity of a scanning tunnelling microscope (STM) to gap width ::@:: Nearly one order of magnitude of current per ångström of extra separation, enough for atomic resolution.
+- the sensitivity of a scanning tunnelling microscope (STM) current $I \propto V e^{-2\kappa d}$ to a small change $\Delta d$ in the tip–surface gap $d$, with $\kappa = \sqrt{2m\phi}/\hbar$ ::@:: $\Delta I / I = -2\kappa\, \Delta d$; with $\phi \approx 5$ eV, $\kappa \approx 1.15\ \mathrm{\AA}^{-1}$, so each extra ångström multiplies $I$ by $e^{-2.3} \approx 0.1$, about one order of magnitude per ångström, enough for atomic resolution.
 - what holds a scanning tunnelling microscope (STM) tip at constant current while it scans ::@:: A feedback loop moves the tip up or down until the current returns to its set value, and the tip's height at each point traces the surface contours.
 
 ## atomic force microscope
