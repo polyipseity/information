@@ -23,7 +23,7 @@ Flashcards for this section are as follows:
 
 - source transformation: what trade does it make between the series form and the parallel form, and what stays the same at the terminals? ::@:: Source transformation converts a voltage source $V$ in series with $R$ into a current source $\frac{V}{R}$ in parallel with $R$, and back, preserving the terminal voltage and current. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
-## the two forms
+## two forms
 
 A linear network can be described by either its Thévenin or its Norton equivalent, and the validity of one proves the other. From the series form the parallel form follows by shorting the terminals, which drives $I_{sc} = \frac{V_{oc}}{R_{\text{eq}}}$ through the short. From the parallel form the series form follows by opening the terminals, where all of $I_{sc}$ passes through $R_{\text{eq}}$ and gives $V_{oc} = I_{sc}R_{\text{eq}}$.
 

@@ -21,7 +21,7 @@ Flashcards for this section are as follows:
 
 - why can a non-inverting amplifier with a $R_2$ over $R_1$ divider never attenuate, and what sets how much it amplifies? ::@:: Its gain is $1 + \frac{R_2}{R_1}$, at least one, so the output always at least equals the input; the divider of $R_2$ over $R_1$ sets how much larger it becomes.
 
-## the non-inverting circuit
+## non-inverting circuit
 
 The input $V_{\text{in}}$ drives the non-inverting terminal directly. $R_1$ drops from the inverting terminal to ground, and $R_2$ returns from the output to the inverting terminal as well, so the loop is negative feedback.
 

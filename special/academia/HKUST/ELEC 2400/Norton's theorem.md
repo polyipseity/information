@@ -23,7 +23,7 @@ Flashcards for this section are as follows:
 
 - Norton equivalent: what does a whole linear network, seen from a pair of terminals, reduce to? ::@:: An ideal current source $I_{sc}$ in parallel with a resistor $R_{\text{eq}}$. The source is the network's short-circuit current, and the resistor is the resistance at the terminals with the independent sources set to zero. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
-## the equivalent circuit
+## equivalent circuit
 
 $I_{sc}$ is the short-circuit current of the network: the current that flows when the terminals are joined. $R_{\text{eq}}$ is the resistance looking in with every independent source set to zero and the dependent sources left operative.
 

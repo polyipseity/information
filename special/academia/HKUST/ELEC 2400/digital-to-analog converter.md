@@ -21,7 +21,7 @@ Flashcards for this section are as follows:
 
 - how does a digital-to-analog converter turn a binary word into a voltage? ::@:: Each bit closes its own switch into a weighted input branch of a summing amplifier, and the word's value appears as a sum.
 
-## a 4-bit converter
+## 4-bit converter
 
 A 4-bit digital-to-analog converter (DAC) is a summing amplifier with one switched branch per bit: $b_i = 0$ leaves the switch open and $b_i = 1$ closes it. The feedback path holds $R$. The Most Significant Bit (MSB) $b_3$ enters through $2R$, then $b_2$ through $4R$, $b_1$ through $8R$, and the Least Significant Bit (LSB) $b_0$ through $16R$.
 

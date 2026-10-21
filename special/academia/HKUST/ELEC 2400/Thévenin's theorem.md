@@ -41,7 +41,7 @@ Flashcards for this section are as follows:
 - insufficient test: two networks agree at a $2\ \Omega$ load but differ at a $6\ \Omega$ load; are they equivalent? ::@:: No: equivalence requires agreement for all loads, so a single matching load proves nothing.
 - extreme loads: which two loads are enough to test a linear one-port for equivalence? ::@:: A short circuit, which fixes the short-circuit current, and an open circuit, which fixes the open-circuit voltage.
 
-## the equivalent circuit
+## equivalent circuit
 
 A linear circuit seen from its terminal pair becomes an ideal voltage source $V_{oc}$ in series with a resistor $R_{\text{eq}}$. The source is the open-circuit voltage, also called Thévenin's equivalent source. The resistor is the network's output resistance: what is left looking into the terminals once every independent source is set to zero.
 
@@ -56,7 +56,7 @@ Flashcards for this section are as follows:
 - dependent sources: what becomes of them while $R_{\text{eq}}$ is computed? ::@:: They remain operative; only the independent sources are set to zero.
 - linearity: which part of the circuit has to be linear for the theorem to apply? ::@:: The network at the terminals; the attached load may contain non-linear components.
 
-## computing the equivalent
+### computing the equivalent
 
 Set the load aside and compute the two numbers in turn. $V_{oc}$ comes first, with the terminals open. Then zero every independent source, shorting the voltage sources and opening the current ones, and reduce the dead network to a single resistance for $R_{\text{eq}}$.
 
@@ -80,7 +80,7 @@ Flashcards for this section are as follows:
 - load after the reduction: a network has $V_{oc} = 20\text{ V}$ and $R_{\text{eq}} = 2\text{ k}\Omega$; what current does a $2\text{ k}\Omega$ load carry? ::@:: $I_o = \frac{20\text{ V}}{2\text{ k}\Omega + 2\text{ k}\Omega} = 5\text{ mA}$.
 - reading a circuit line: in the notation `(X) — [elements] — (Y)`, what do the parentheses, the brackets, the dash, and `∥` mean? ::@:: `(X)` names a node, with `(GND)` the zero-volt ground node; `[...]` holds one element with its value and marks spelled out; `—` is a wire joining consecutive items; and `A ∥ B` puts A and B in parallel between the same pair of nodes.
 
-## shortcuts
+### shortcuts
 
 A resistor across an ideal voltage source can be dropped when the other circuit variables are computed: the source fixes the voltage across it, so the resistor changes nothing else. A network of $8\text{ V}$ with $2\ \Omega$ across it is therefore a bare $8\text{ V}$ source, with $V_{oc} = 8\text{ V}$ and $R_{\text{eq}} = 0\ \Omega$.
 

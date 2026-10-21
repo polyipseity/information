@@ -27,7 +27,9 @@ Flashcards for this section are in the following format:
 - the name: which mathematical operations give the operational amplifier its name, and what other functions does it perform? ::@:: Addition, subtraction, multiplication, division, integration, differentiation, logarithm and exponentiation give it the name; it also performs signal processing such as amplification, filtering, and analog-to-digital and digital-to-analog conversion.
 - early devices: which was the first monolithic integrated-circuit operational amplifier, and which device became the most successful? ::@:: The µA702, designed by Bob Widlar of Fairchild Semiconductor in 1963, was the first; the µA741, designed by Dave Fullagar of Fairchild Semiconductor in 1968, became the most successful.
 
-## amplifier types
+## amplifier background
+
+### amplifier types
 
 An ideal voltage amplifier multiplies its input voltage by a voltage gain: $V_{\text{out}} = A_v V_{\text{in}}$. A voltage-controlled voltage source models it. Its ideal input resistance is infinite and its ideal output resistance is zero.
 
@@ -50,7 +52,7 @@ Flashcards for this section are in the following format:
 - dependent sources and amplifier types: which dependent source models each of the four amplifier types? ::@:: A voltage-controlled voltage source models the voltage amplifier, a current-controlled current source the current amplifier, a current-controlled voltage source the transimpedance amplifier, and a voltage-controlled current source the transconductance amplifier.
 - power amplifier: a high-fidelity power amplifier drives a speaker; which amplifier type takes that pairing as an example? ::@:: The current amplifier: the high-fidelity power amplifier and speaker pair as an example of $I_{\text{out}} = A_i I_{\text{in}}$ with $R_i = 0$ and $R_o = \infty$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
-## loading chain of a practical voltage amplifier
+### loading chain of a practical voltage amplifier
 
 A practical voltage amplifier replaces the ideal limits with real ones: its input resistance $R_i$ is finite and its output resistance $R_o$ is non-zero. The source carries a source resistance $R_s$, and the load is a load resistor $R_L$.
 
@@ -70,7 +72,9 @@ Flashcards for this section are in the following format:
 - effective voltage gain: a source $V_s$ behind $R_s$ drives a practical voltage amplifier with input resistance $R_i$, voltage gain $A_v$ and output resistance $R_o$ into a load $R_L$; what is the gain from $V_s$ to $V_{\text{out}}$? ::@:: $\frac{V_{\text{out}}}{V_s} = A_v \frac{R_i}{R_s + R_i} \frac{R_L}{R_o + R_L}$, which falls short of $A_v$ because the $R_s$-$R_i$ divider and the $R_o$-$R_L$ divider reduce the signal twice.
 - temperature-sensor amplifier: a temperature sensor gives $V_s = 100\text{ mV}$ at $100\ {}^\circ\text{C}$ behind $R_s = 300\ \Omega$, and an amplifier with $R_i = 2\text{ k}\Omega$ and $R_o = 400\ \Omega$ must drive $R_L = 10\text{ k}\Omega$ to $V_{\text{out}} = 1\text{ V}$; what voltage gain $A_v$ is needed? ::@:: $A_v = \frac{1\text{ V}}{100\text{ mV}} \times \frac{300\ \Omega + 2\text{ k}\Omega}{2\text{ k}\Omega} \times \frac{400\ \Omega + 10\text{ k}\Omega}{10\text{ k}\Omega} = 11.96\text{ V/V}$.
 
-## circuit model of an operational amplifier
+## device model
+
+### circuit model of an operational amplifier
 
 An operational amplifier is drawn as a triangle carrying two input terminals $V_+$ and $V_-$, one output $V_o$, and two supply connections. Inside the triangle the model holds an input resistance $R_i$ across the two input terminals, a dependent voltage source $A V_{\text{in}}$ whose controlling signal is the difference between those terminals, and an output resistance $R_o$ between that source and the output.
 
@@ -86,7 +90,7 @@ Flashcards for this section are in the following format:
 - model contents: what does the circuit model of an operational amplifier place between the input terminals $V_+$ and $V_-$, and between its internal dependent source and the output $V_o$? <p> ![circuit model of a practical operational amplifier: the input resistance R i across the inputs inside the triangle, the controlled source A times the difference of the input voltages referenced to ground behind the output resistance R o, and the supply rails](attachments/op_amp_circuit_model.svg) ::@:: An input resistance $R_i$ across the input terminals, a dependent voltage source $A V_{\text{in}}$ controlled by their difference, and an output resistance $R_o$ toward the output.
 - the controlling signal: in the circuit model of an operational amplifier, what is $V_{\text{in}}$, where is it measured, and what does it control? ::@:: $V_{\text{in}} = V_+ - V_-$ is measured between the two input terminals, and it controls the dependent voltage source $A V_{\text{in}}$ that reaches the output through $R_o$.
 
-## differential voltage amplifier
+### differential voltage amplifier
 
 The operational amplifier is a voltage amplifier of extremely high gain: $V_{\text{out}} = A(V_+ - V_-)$. Its voltage gain runs, for example, above $10000\text{ V/V}$, or $80\text{ dB}$, while the ideal operational amplifier has infinite gain.
 
@@ -102,7 +106,7 @@ Flashcards for this section are in the following format:
 - differential input, single-ended output: what does it mean to describe an operational amplifier as a differential input single-ended output device? ::@:: The output responds to the difference $V_+ - V_-$ between the two input terminals, and the single output terminal carries that signal against ground rather than a pair of output terminals. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - single-supply operation: how is an operational amplifier powered nowadays compared with the past? ::@:: It once ran from two supplies such as $\pm15\text{ V}$ or $\pm5\text{ V}$; nowadays the negative supply is often $0\text{ V}$ (ground, GND), and the zero output can be defined anywhere between ground and the positive supply. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
-## input and output resistance
+### input and output resistance
 
 The input resistance decides how much of the source voltage reaches the amplifier. A source $V_s$ behind $R_s$ delivers $V_{\text{in}} = \frac{R_i}{R_s + R_i} V_s$, so a large $R_i$ leaves the input close to $V_s$.
 
@@ -116,7 +120,7 @@ Flashcards for this section are in the following format:
 - output resistance and loading: the internal source $A V_{\text{in}}$ drives the output resistance $R_o$ and a load $R_L$; how does $R_o$ set the load voltage, and what does a small $R_o$ achieve? ::@:: $V_{\text{out}} = \frac{R_L}{R_o + R_L} A V_{\text{in}}$, so a small $R_o$ keeps $V_{\text{out}}$ close to the internal source voltage under load.
 - practical resistances: what input resistance $R_i$ and output resistance $R_o$ does a practical operational amplifier present? ::@:: $R_i = 10\text{ M}\Omega$ and $R_o = 100\ \Omega$.
 
-## ideal operational amplifier characteristics
+### ideal operational amplifier characteristics
 
 The ideal operational amplifier pushes three quantities to their limits: voltage gain $A \to \infty$, input resistance $R_i \to \infty$, and output resistance $R_o \to 0$.
 
@@ -133,7 +137,9 @@ Flashcards for this section are in the following format:
 - shared input voltage: starting from $V_{\text{out}} = A(V_+ - V_-)$ with $R_o \to 0$ and $A \to \infty$, why do the input terminals of an ideal operational amplifier sit at one voltage? ::@:: $R_o \to 0$ gives $V_+ - V_- = \frac{V_{\text{out}}}{A}$, and $A \to \infty$ drives that difference to nothing, so $V_+ \approx V_-$ while $I_i \approx 0$ keeps both terminals current-free.
 - practical departures: what practical values stand in for the ideal gain, input offset voltage $V_{\text{os}}$, input offset current $I_+ - I_-$ and bandwidth (BW) of an operational amplifier? ::@:: Gain $10^5\text{ V/V}$ ($100\text{ dB}$) instead of $\infty$, $V_{\text{os}} = \pm2\text{ mV}$ instead of $0\text{ V}$, $I_+ - I_- = \pm5\text{ nA}$ instead of $0\text{ nA}$, and bandwidth $100\text{ MHz}$ using feedback instead of $\infty$.
 
-## open-loop behavior and saturation
+## open loop
+
+### open-loop behavior and saturation
 
 With no feedback the operational amplifier runs open-loop, and its output follows $V_{\text{out}} = A(V_+ - V_-)$ directly. Take $A = 10000$ with power supplies at $+15\text{ V}$ and $-15\text{ V}$: the input difference $V_+ - V_-$ stays linear only between $-1.5\text{ mV}$ and $+1.5\text{ mV}$.
 
@@ -154,7 +160,7 @@ Flashcards for this section are in the following format:
 - saturation: at open-loop gain $A = 10000$ with a $+15\text{ V}$ supply, an input difference of $10\text{ mV}$ demands $100\text{ V}$; what does the output do instead, and where does it pin for too positive and too negative a difference? ::@:: It cannot reach $100\text{ V}$: it saturates just below $+15\text{ V}$ for too positive a difference, while too negative a difference pins it at the negative rail.
 - comparator: with $V_{\text{in}}$ at one input of a high-gain operational amplifier and a reference $V_{\text{ref}}$ at the other, what is the output for $V_{\text{in}} > V_{\text{ref}}$ and for $V_{\text{in}} < V_{\text{ref}}$? ::@:: For $V_{\text{in}} > V_{\text{ref}}$ the output sits at $V_{dd}$, and for $V_{\text{in}} < V_{\text{ref}}$ it sits at $-V_{ss}$.
 
-## follower or inverter selected by a switch
+### follower or inverter selected by a switch
 
 A source $V_s$ reaches the non-inverting terminal of an ideal operational amplifier through a resistor, with a switch from that terminal to ground; another resistor ties the inverting terminal to $V_s$, a third returns from the output $V_o$ to it, and all three resistances equal $R$.
 
@@ -169,7 +175,9 @@ Flashcards for this section are in the following format:
 - switch open: a source $V_s$ feeds an ideal operational amplifier's non-inverting terminal through a resistor with a switch to ground from that terminal, while the inverting terminal connects to $V_s$ through $R$ and to the output $V_o$ through another $R$, switch open; what is $V_o$ and which circuit? ::@:: With the switch open, $I_+ = 0$ gives $V_+ = V_s$ and the virtual short gives $V_- = V_s$; then $\frac{V_o - V_-}{R} = \frac{V_- - V_s}{R}$ gives $V_o = 2V_s - V_s = V_s$, a voltage follower.
 - switch closed: a source $V_s$ feeds an ideal operational amplifier's non-inverting terminal through a resistor with a switch to ground from that terminal, while the inverting terminal connects to $V_s$ through $R$ and to the output $V_o$ through another $R$, switch closed; what is $V_o$ and which circuit? ::@:: With the switch closed, $V_+ = 0$ and the virtual short give $V_- = 0$; then $\frac{V_o - V_-}{R} = \frac{V_- - V_s}{R}$ gives $V_o = -V_s$, a voltage inverter circuit.
 
-## open-loop and closed-loop gain
+## closed-loop behaviour
+
+### open-loop and closed-loop gain
 
 Two voltage gains must be distinguished. The open-loop gain $A$ is the gain of the operational amplifier itself, measured with no feedback path, and it equals $\infty$ for the ideal device. The closed-loop gain $A_{cl} = \frac{V_{\text{out}}}{V_{\text{in}}}$ is the gain from input to output of the feedback circuit; the non-inverting amplifier has $A_{cl} = 1 + \frac{R_2}{R_1}$. Each circuit gets its own treatment: the [non-inverting amplifier](non-inverting%20amplifier.md) and the [inverting amplifier](inverting%20amplifier.md).
 
@@ -182,7 +190,7 @@ Flashcards for this section are in the following format:
 - the two gains: what distinguishes the open-loop gain $A$ of an operational amplifier from the closed-loop gain $A_{cl}$ of its feedback circuit? ::@:: The open-loop gain $A$ is the device's own gain with no feedback path, $\infty$ for the ideal device, while the closed-loop gain $A_{cl} = \frac{V_{\text{out}}}{V_{\text{in}}}$ is the gain of the feedback circuit, which is $1 + \frac{R_2}{R_1}$ for the non-inverting amplifier.
 - transfer characteristic: what does the $V_{\text{out}}$-against-$V_{\text{in}}$ characteristic of an operational amplifier under negative feedback of closed-loop gain $A_{cl}$ look like? ::@:: It is a line through the origin of slope $A_{cl}$ in the linear region, held at $V_{dd}$ once the amplifier enters positive saturation and at $-V_{ss}$ once it enters negative saturation.
 
-## operational amplifier current source
+### operational amplifier current source
 
 An operational amplifier with $R_1$, $R_2$ and $R_3$ drives a load current $I_L$ that does not depend on the load resistance $R_L$, and the load does not connect to ground. The current divides as $I_L = I_1 - I_2$, and $I_L = \frac{V_s}{R_3}\left(1+\frac{R_2}{R_1}\right)$ depends only on $V_s$ and on accurate $R_1$, $R_2$ and $R_3$.
 
@@ -219,7 +227,7 @@ Flashcards for this section are in the following format:
 - design check: why does the $2.02\text{ mA}$ operational amplifier current source with $R_2 = 1\text{ M}\Omega$ fail against $\pm15\text{ V}$ supplies, and what does the improved design with $R_2 = 500\text{ k}\Omega$ and $R_1 = 5\text{ k}\Omega$ still limit? <p> ![improved current source design: 500 kilohms of feedback and a 5 kilohm shunt keep the node at minus 10 volts and the op-amp output at minus 12 volts inside the rails, but the load resistance is still limited to 2.5 kilohms](attachments/current_source_design_improved.svg) ::@:: $20\ \mu\text{A}$ through $1\text{ M}\Omega$ puts a node at $-20\text{ V}$ and $2\text{ mA}$ through a $1\text{ k}\Omega$ load reaches $-22\text{ V}$, outside the rails even for $R_L = 0$, so the operational amplifier saturates and $V_+ = V_-$ fails; the improved design holds $-10\text{ V}$ and $-12\text{ V}$ but still limits $R_L$ to $2.5\text{ k}\Omega$ maximum.
 - draw the corrected current-source design with $500\text{ k}\Omega$ of feedback and a $5\text{ k}\Omega$ shunt: where do the node and the output now sit? ::@:: $500\text{ k}\Omega$ of feedback against a $5\text{ k}\Omega$ shunt, keeping the node at $-10\text{ V}$ and the output at $-12\text{ V}$ inside the rails, with the load resistance still limited. <p> ![improved current source design: 500 kilohms of feedback and a 5 kilohm shunt keep the node at minus 10 volts and the op-amp output at minus 12 volts inside the rails, but the load resistance is still limited to 2.5 kilohms](attachments/current_source_design_improved.svg)
 
-## entry-point circuit analysis
+### entry-point circuit analysis
 
 A circuit of two operational amplifiers, $1\text{ k}\Omega$ resistors and a $5\text{ V}$ source solves from one entry point. Every input voltage to both operational amplifiers is $5\text{ V}$ and every input current is zero, so $5\text{ V}$ across a $1\text{ k}\Omega$ resistor gives $5\text{ mA}$, and that current settles the rest: every $1\text{ k}\Omega$ resistor carries $5\text{ mA}$, one node sits at $0\text{ V}$, $V_o = 10\text{ V}$, and the source delivers $I_s = 5\text{ mA}$.
 
@@ -238,7 +246,7 @@ Flashcards for this section are in the following format:
 - entry-point solve: a circuit of two operational amplifiers, $1\text{ k}\Omega$ resistors and a $5\text{ V}$ source has every operational amplifier input at $5\text{ V}$ with zero input current; what do $V_o$ and $I_s$ become? ::@:: $5\text{ V}$ across $1\text{ k}\Omega$ gives the $5\text{ mA}$ entry point, which settles every $1\text{ k}\Omega$ resistor at $5\text{ mA}$ and yields $V_o = 10\text{ V}$ and $I_s = 5\text{ mA}$.
 - analysis method: how does one solve a circuit built from several operational amplifiers, and what check closes the analysis? ::@:: Find an entry point and solve the remaining circuit from there, then check as a final step that all the voltages seem reasonable.
 
-## finite open-loop gain
+### finite open-loop gain
 
 A practical operational amplifier's open-loop gain $A$ is not infinite: $10^4\text{ V/V}$ ($80\text{ dB}$) and $1000\text{ V/V}$ ($60\text{ dB}$) are typical values. The [inverting amplifier](inverting%20amplifier.md) is then modeled with its dependent source $A(V_+ - V_-)$, and the finite $A$ leaves its gain slightly below the ideal $-\frac{R_2}{R_1}$.
 
@@ -249,7 +257,7 @@ Flashcards for this section are in the following format:
 - practical open-loop gain: what open-loop gain $A$ does a practical operational amplifier show instead of infinity, and how do those values read in decibels (dB)? ::@:: $A = 10^4\text{ V/V}$ ($80\text{ dB}$) and $A = 1000\text{ V/V}$ ($60\text{ dB}$), in place of $\infty$.
 - finite-gain effect: how does the finite open-loop gain $A$ of a practical operational amplifier leave an inverting amplifier's gain compared with the ideal $-\frac{R_2}{R_1}$? ::@:: The dependent source is $A(V_+ - V_-)$ rather than the infinite-gain limit, and the finite $A$ leaves the gain slightly below the ideal $-\frac{R_2}{R_1}$.
 
-## gain error at finite open-loop gain
+### gain error at finite open-loop gain
 
 A worked case puts numbers on that shortfall. An inverting amplifier takes $R_1 = 1\text{ k}\Omega$ and $R_2 = 10\text{ k}\Omega$, whose ideal gain is $-\frac{R_2}{R_1} = -10$, and at open-loop gain $A$ its closed-loop gain is $A_{cl} = -\frac{10}{1 + \frac{11}{A}}$: $A = 100$ gives $-\frac{10}{1.11} = -9.01\text{ V/V}$, $A = 1000$ gives $-\frac{10}{1.011} = -9.89\text{ V/V}$, $A = 10^4$ gives $-\frac{10}{1.0011} = -9.99\text{ V/V}$, and $A = 10^5$ gives $-\frac{10}{1.00011} = -10.0\text{ V/V}$. The gain closes on the ideal value as $A$ grows, and $A = 10^5$ already matches it to the printed precision.
 

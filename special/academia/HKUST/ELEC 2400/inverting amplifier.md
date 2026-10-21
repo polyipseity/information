@@ -20,7 +20,7 @@ Flashcards for this section are as follows:
 
 - how is the gain $A_{cl}$ of an inverting amplifier set by its resistors $R_1$ and $R_2$, and what does the minus sign mean? ::@:: The ratio of the feedback resistor to the input resistor, $A_{cl} = -\frac{R_2}{R_1}$; the minus sign means the output moves opposite to the input.
 
-## the inverting circuit
+## inverting circuit
 
 The input $V_{\text{in}}$ enters the inverting terminal through $R_1$, $R_2$ returns from the output to that terminal, and the non-inverting terminal sits at ground. Grounding that input sets $V_+ = 0$, and the virtual short gives $V_- = 0$: a [virtual ground](virtual%20ground.md).
 

@@ -20,7 +20,7 @@ Flashcards for this section are as follows:
 
 - what gives a Schmitt trigger two thresholds instead of one? ::@:: Positive feedback from the output back to the non-inverting input. A noisy input then crosses once instead of chattering at the reference.
 
-## why a plain comparator chatters
+## comparator chatter
 
 A comparator built from an operational amplifier in open loop compares $V_{in}$ with a reference $V_{ref}$. Noise riding on $V_{in}$ drags the input back and forth across $V_{ref} = 0\text{ V}$. A fast comparator answers each crossing on the spot, so $V_o$ makes multiple crossings before it settles at the required value.
 
@@ -29,17 +29,6 @@ A comparator built from an operational amplifier in open loop compares $V_{in}$ 
 Flashcards for this section are in the following format:
 
 - noisy input: a comparator built from an operational amplifier in open loop compares $V_{in}$ with $V_{ref} = 0\text{ V}$ while noise rides on $V_{in}$; what does a very fast comparator do at the crossings? ::@:: It flips on the noise near $V_{ref}$ at once, so the output $V_o$ makes multiple crossings before settling at the required value.
-
-## the state it keeps
-
-Picture the circuit holding its output. It switches only when the input is pushed too far, then holds the other state. Push just as far the other way and it switches back. Between the two thresholds the input wanders freely. Neither state is in danger, so the output stays put.
-
----
-
-Flashcards for this section are in the following format:
-
-- state keeping: what does a Schmitt trigger do with the state it is in, and what makes it change? ::@:: It holds that state until the input is pushed past a threshold, then switches to the other state. A push past the second threshold sends it back.
-- input between the thresholds: why can the input of a Schmitt trigger wander between the thresholds without moving the output? ::@:: Neither state is in danger between the thresholds, so the circuit keeps its current state and the output stays put.
 
 ## circuit
 
@@ -81,6 +70,8 @@ Flashcards for this section are in the following format:
 
 ## hysteresis
 
+Picture the circuit holding its output. It switches only when the input is pushed too far, then holds the other state. Push just as far the other way and it switches back. Between the two thresholds the input wanders freely. Neither state is in danger, so the output stays put.
+
 Plotting $V_o$ against $V_{in}$ gives the direct-current (DC) transfer characteristic of the Schmitt trigger. The output sits at $+V_{dd}$ until $V_{in}$ climbs to $V_H = \frac{R_1}{R_1+R_2}V_{dd}$. There it drops to $-V_{dd}$ and stays low until $V_{in}$ falls to $V_L = -\frac{R_1}{R_1+R_2}V_{dd}$. It climbs back to $+V_{dd}$ there, and the curve never retraces itself.
 
 $\Delta V_{hys} = V_H - V_L$ is the hysteresis window. $R_1$ and $R_2$ adjust it.
@@ -97,6 +88,8 @@ Flashcards for this section are in the following format:
 - transfer characteristic: what does the direct-current (DC) transfer characteristic of a Schmitt trigger with $V_{ss} = V_{dd}$ look like as $V_{in}$ sweeps? ::@:: $V_o$ sits at $+V_{dd}$, jumps to $-V_{dd}$ at $V_{in} = V_H = \frac{R_1}{R_1+R_2}V_{dd}$, and jumps back at $V_{in} = V_L = -\frac{R_1}{R_1+R_2}V_{dd}$. The curve does not retrace itself. <p> ![Schmitt trigger transfer characteristic: the output sits at V dd until the input rises to the high threshold V H, drops to minus V dd there, stays low until the input falls to the low threshold V L, and returns to V dd there, the two thresholds spanning the hysteresis window](attachments/schmitt_hysteresis.svg)
 - draw the Schmitt trigger's transfer characteristic on $V_o$-against-$V_{in}$ axes: which way does the trace run, and what do the two vertical segments mark? ::@:: The trace runs right along $+V_{dd}$ to $V_H$, drops to $-V_{dd}$, carries on right, then comes back along $-V_{dd}$ to $V_L$ and jumps up again. Those two vertical segments are the jumps, and $\Delta V_{hys}$ is the gap between them. <p> ![Schmitt trigger transfer characteristic: the output sits at V dd until the input rises to the high threshold V H, drops to minus V dd there, stays low until the input falls to the low threshold V L, and returns to V dd there, the two thresholds spanning the hysteresis window](attachments/schmitt_hysteresis.svg)
 - noise rejection: with $V_{ref} = 0$, what does sizing the hysteresis window of a Schmitt trigger do against a noisy input, and what does it cost? ::@:: It keeps out the multiple crossings, but the output waveform shifts since $V_H \neq V_L \neq 0$.
+- state keeping: what does a Schmitt trigger do with the state it is in, and what makes it change? ::@:: It holds that state until the input is pushed past a threshold, then switches to the other state. A push past the second threshold sends it back.
+- input between the thresholds: why can the input of a Schmitt trigger wander between the thresholds without moving the output? ::@:: Neither state is in danger between the thresholds, so the circuit keeps its current state and the output stays put.
 
 ## square waveform generator
 

@@ -84,7 +84,9 @@ Flashcards for this section are as follows:
 - stored energy / charged example: a $2\text{ F}$ capacitor is charged to $2\text{ V}$; what energy does it store? ::@:: $E_c = \frac{1}{2}CV^2 = \frac{1}{2}\times2\times2^2 = 4\text{ J}$.
 - stored energy / in terms of charge: rewrite $\frac{1}{2}CV^2$ with the stored charge $Q$ in place of the voltage. ::@:: $E_c = \frac{1}{2}QV = \frac{Q^2}{2C}$.
 
-## series and parallel connections
+## circuit behaviour
+
+### series and parallel connections
 
 Capacitors in parallel sit between the same two nodes, so their charges add at each node and the capacitances add: $C_\text{eq} = C_1 + C_2 + \dots + C_N$.
 
@@ -108,7 +110,7 @@ Flashcards for this section are as follows:
 - series and parallel connections / smaller than the smallest: why is the equivalent capacitance of a series chain smaller than every capacitance in it? ::@:: $\frac{1}{C_\text{eq}}$ is the sum of positive reciprocals, so $\frac{1}{C_\text{eq}} > \frac{1}{C_i}$ for each $C_i$, which puts $C_\text{eq}$ below the smallest of them. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - series and parallel connections / worked network: $10\ \mu\text{F}\|(2\ \mu\text{F}+3\ \mu\text{F})$ in series with the pair $10\ \mu\text{F}\|15\ \mu\text{F}$; what is the equivalent capacitance? ::@:: $(10\times5)/(10+5) + (10\times15)/(10+15) = 3.33 + 6 = 9.33\ \mu\text{F}$.
 
-## response to a sinusoidal voltage
+### response to a sinusoidal voltage
 
 A capacitance $C$ driven by $v_c(t) = V_p\cos\omega t$ draws $i_c(t) = C\,dv_c/dt = -\omega C V_p\sin\omega t = \omega C V_p\cos(\omega t + \pi/2)$. The current is a sinusoid of the same frequency whose phase leads the voltage by $\pi/2$, a quarter cycle or $90^\circ$.
 
@@ -126,7 +128,7 @@ Flashcards for this section are as follows:
 - response to a sinusoidal voltage / worked amplitudes: a $10\ \mu\text{ F}$ capacitor carries a $10\text{ V}$ amplitude sinusoid at $1\text{ kHz}$, $10\text{ kHz}$, and $100\text{ kHz}$; what current flows at each frequency? ::@:: $i_c(t) = -0.628\sin(2\pi\cdot1\text{k}t)\text{ A}$, $-6.28\sin(2\pi\cdot10\text{k}t)\text{ A}$, and $-62.8\sin(2\pi\cdot100\text{k}t)\text{ A}$ respectively.
 - response to a sinusoidal voltage / average power: why does an ideal capacitor consume no average power under sinusoidal excitation? ::@:: Its current leads its voltage by $90^\circ$, so the product $v(t)i(t)$ averages to zero over a cycle: energy is stored in one half cycle and released in the other. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
-## why the frequency ends open and closed
+## frequency extremes
 
 The impedance of a capacitor is $Z_C = 1/(j\omega C)$, and its magnitude $|Z_C| = 1/(\omega C)$ gives both frequency extremes at once. As $\omega \to 0$ the magnitude rises without bound, so at any finite voltage the current $\mathbf{I}_C = \mathbf{V}_C/Z_C$ falls to zero: an open circuit. As $\omega \to \infty$ the magnitude falls to zero, so at any finite current the voltage across the capacitor falls to zero: a short circuit.
 

@@ -33,7 +33,7 @@ Flashcards for this section are in the following format:
 - swapping the feedback resistor: the inverting amplifier's gain $-\frac{R_2}{R_1}$ becomes what when $R_2$ is replaced by a capacitor $C_1$, and how does that show up on the output? ::@:: $A_{cl} = -\frac{1}{j\omega C_1 R_1}$, which grows as the frequency falls and is infinite at DC, so a steady input ramps the output instead of settling at a level.
 - why a steady input ramps: reading the gain $-\frac{1}{j\omega C_1 R_1}$, why does a constant input keep driving the output up? ::@:: An input that never changes is pure DC, and the gain there is infinite, so it keeps adding to the output at a fixed rate. That is a ramp.
 
-## the integrator circuit
+## integrator circuit
 
 An operational amplifier becomes an integrator with a resistor $R$ in the input path and a capacitor $C_1$ in the feedback path. The non-inverting terminal goes to ground, so the virtual short holds the inverting terminal at $0\text{ V}$ too. The input voltage then sets the current through the input resistor, $I(t) = \frac{V_{in}(t)}{R}$.
 

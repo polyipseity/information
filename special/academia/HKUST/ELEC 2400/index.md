@@ -254,13 +254,13 @@ ELEC 2400 is an undergraduate course in electronic circuits at HKUST covering fu
 - [electric power](electric%20power.md)
     - [§ instantaneous and average power](electric%20power.md#instantaneous%20and%20average%20power)
     - [§ direct current power](electric%20power.md#direct%20current%20power)
-        - [§ a single resistor across a source](electric%20power.md#a%20single%20resistor%20across%20a%20source)
+        - [§ single resistor across a source](electric%20power.md#single%20resistor%20across%20a%20source)
     - [§ power rating of a device](electric%20power.md#power%20rating%20of%20a%20device)
         - [§ two bulbs rated at the same voltage](electric%20power.md#two%20bulbs%20rated%20at%20the%20same%20voltage)
         - [§ resistance that varies with temperature](electric%20power.md#resistance%20that%20varies%20with%20temperature)
     - [§ sign of power under the reference direction](electric%20power.md#sign%20of%20power%20under%20the%20reference%20direction)
         - [§ flashlight bulb and battery](electric%20power.md#flashlight%20bulb%20and%20battery)
-    - [§ why the reference direction matters](electric%20power.md#why%20the%20reference%20direction%20matters)
+    - [§ sign convention](electric%20power.md#sign%20convention)
 - [voltage source](voltage%20source.md)
     - [§ ideal voltage source](voltage%20source.md#ideal%20voltage%20source)
         - [§ output voltage under several loads](voltage%20source.md#output%20voltage%20under%20several%20loads)
@@ -377,7 +377,7 @@ ELEC 2400 is an undergraduate course in electronic circuits at HKUST covering fu
 - [current divider](current%20divider.md)
     - [§ dual of the voltage divider](current%20divider.md#dual%20of%20the%20voltage%20divider)
     - [§ division ratio](current%20divider.md#division%20ratio)
-    - [§ which branch takes more current](current%20divider.md#which%20branch%20takes%20more%20current)
+    - [§ branch sharing](current%20divider.md#branch%20sharing)
 
 ## week 3 tutorial 1
 
@@ -473,7 +473,7 @@ ELEC 2400 is an undergraduate course in electronic circuits at HKUST covering fu
 - [dependent source](dependent%20source.md)
     - [§ loop with a dependent voltage source](dependent%20source.md#loop%20with%20a%20dependent%20voltage%20source)
 - [source transformation](source%20transformation.md)
-    - [§ the two forms](source%20transformation.md#the%20two%20forms)
+    - [§ two forms](source%20transformation.md#two%20forms)
     - [§ reducing a circuit by transformation](source%20transformation.md#reducing%20a%20circuit%20by%20transformation)
 
 ## week 5 lecture 1
@@ -483,17 +483,17 @@ ELEC 2400 is an undergraduate course in electronic circuits at HKUST covering fu
 - topic: equivalence and source transformation
 - [Thévenin's theorem](Th%C3%A9venin%27s%20theorem.md)
     - [§ one-port equivalence](Th%C3%A9venin%27s%20theorem.md#one-port%20equivalence)
-    - [§ the equivalent circuit](Th%C3%A9venin%27s%20theorem.md#the%20equivalent%20circuit)
+    - [§ equivalent circuit](Th%C3%A9venin%27s%20theorem.md#equivalent%20circuit)
     - [§ computing the equivalent](Th%C3%A9venin%27s%20theorem.md#computing%20the%20equivalent)
     - [§ shortcuts](Th%C3%A9venin%27s%20theorem.md#shortcuts)
     - [§ dependent sources](Th%C3%A9venin%27s%20theorem.md#dependent%20sources)
     - [§ general proof](Th%C3%A9venin%27s%20theorem.md#general%20proof)
 - [Norton's theorem](Norton%27s%20theorem.md)
-    - [§ the equivalent circuit](Norton%27s%20theorem.md#the%20equivalent%20circuit)
+    - [§ equivalent circuit](Norton%27s%20theorem.md#equivalent%20circuit)
     - [§ computing the equivalent](Norton%27s%20theorem.md#computing%20the%20equivalent)
     - [§ series and parallel shortcuts](Norton%27s%20theorem.md#series%20and%20parallel%20shortcuts)
 - [source transformation](source%20transformation.md)
-    - [§ the two forms](source%20transformation.md#the%20two%20forms)
+    - [§ two forms](source%20transformation.md#two%20forms)
     - [§ external quantities only](source%20transformation.md#external%20quantities%20only)
     - [§ reducing a circuit by transformation](source%20transformation.md#reducing%20a%20circuit%20by%20transformation)
 
@@ -549,13 +549,13 @@ ELEC 2400 is an undergraduate course in electronic circuits at HKUST covering fu
     - [§ load current by the Thévenin equivalent](tutorials/week%205%20tutorial%201/tutorial.md#load%20current%20by%20the%20Thévenin%20equivalent)
     - [§ load current by the Norton equivalent](tutorials/week%205%20tutorial%201/tutorial.md#load%20current%20by%20the%20Norton%20equivalent)
 - [Thévenin's theorem](Th%C3%A9venin%27s%20theorem.md)
-    - [§ the equivalent circuit](Th%C3%A9venin%27s%20theorem.md#the%20equivalent%20circuit)
+    - [§ equivalent circuit](Th%C3%A9venin%27s%20theorem.md#equivalent%20circuit)
     - [§ computing the equivalent](Th%C3%A9venin%27s%20theorem.md#computing%20the%20equivalent)
 - [Norton's theorem](Norton%27s%20theorem.md)
-    - [§ the equivalent circuit](Norton%27s%20theorem.md#the%20equivalent%20circuit)
+    - [§ equivalent circuit](Norton%27s%20theorem.md#equivalent%20circuit)
     - [§ computing the equivalent](Norton%27s%20theorem.md#computing%20the%20equivalent)
 - [source transformation](source%20transformation.md)
-    - [§ the two forms](source%20transformation.md#the%20two%20forms)
+    - [§ two forms](source%20transformation.md#two%20forms)
 
 ## week 6 lecture 1
 
@@ -573,10 +573,10 @@ ELEC 2400 is an undergraduate course in electronic circuits at HKUST covering fu
         - [§ virtual short and zero-input-current assumptions](virtual%20ground.md#virtual%20short%20and%20zero-input-current%20assumptions)
     - [§ follower or inverter selected by a switch](operational%20amplifier.md#follower%20or%20inverter%20selected%20by%20a%20switch)
     - [non-inverting amplifier](non-inverting%20amplifier.md)
-        - [§ the non-inverting circuit](non-inverting%20amplifier.md#the%20non-inverting%20circuit)
+        - [§ non-inverting circuit](non-inverting%20amplifier.md#non-inverting%20circuit)
     - [§ open-loop and closed-loop gain](operational%20amplifier.md#open-loop%20and%20closed-loop%20gain)
     - [inverting amplifier](inverting%20amplifier.md)
-        - [§ the inverting circuit](inverting%20amplifier.md#the%20inverting%20circuit)
+        - [§ inverting circuit](inverting%20amplifier.md#inverting%20circuit)
 
 ## week 6 lab 1
 
@@ -603,7 +603,7 @@ ELEC 2400 is an undergraduate course in electronic circuits at HKUST covering fu
     - [inverting amplifier](inverting%20amplifier.md)
         - [§ inverting amplifier with parallel feedback](inverting%20amplifier.md#inverting%20amplifier%20with%20parallel%20feedback)
     - [summing amplifier](summing%20amplifier.md)
-        - [§ the summing circuit](summing%20amplifier.md#the%20summing%20circuit)
+        - [§ summing circuit](summing%20amplifier.md#summing%20circuit)
     - [differential amplifier](differential%20amplifier.md)
         - [§ difference amplifier](differential%20amplifier.md#difference%20amplifier)
     - [instrumentation amplifier](instrumentation%20amplifier.md)
@@ -655,13 +655,13 @@ ELEC 2400 is an undergraduate course in electronic circuits at HKUST covering fu
         - [§ virtual short and zero-input-current assumptions](virtual%20ground.md#virtual%20short%20and%20zero-input-current%20assumptions)
     - [§ follower or inverter selected by a switch](operational%20amplifier.md#follower%20or%20inverter%20selected%20by%20a%20switch)
     - [non-inverting amplifier](non-inverting%20amplifier.md)
-        - [§ the non-inverting circuit](non-inverting%20amplifier.md#the%20non-inverting%20circuit)
+        - [§ non-inverting circuit](non-inverting%20amplifier.md#non-inverting%20circuit)
     - [§ open-loop and closed-loop gain](operational%20amplifier.md#open-loop%20and%20closed-loop%20gain)
     - [inverting amplifier](inverting%20amplifier.md)
-        - [§ the inverting circuit](inverting%20amplifier.md#the%20inverting%20circuit)
+        - [§ inverting circuit](inverting%20amplifier.md#inverting%20circuit)
         - [§ inverting amplifier with parallel feedback](inverting%20amplifier.md#inverting%20amplifier%20with%20parallel%20feedback)
     - [summing amplifier](summing%20amplifier.md)
-        - [§ the summing circuit](summing%20amplifier.md#the%20summing%20circuit)
+        - [§ summing circuit](summing%20amplifier.md#summing%20circuit)
     - [differential amplifier](differential%20amplifier.md)
         - [§ difference amplifier](differential%20amplifier.md#difference%20amplifier)
     - [instrumentation amplifier](instrumentation%20amplifier.md)
@@ -676,14 +676,13 @@ ELEC 2400 is an undergraduate course in electronic circuits at HKUST covering fu
         - [§ flash analog-to-digital converter](analog-to-digital%20converter.md#flash%20analog-to-digital%20converter)
     - [digital-to-analog converter](digital-to-analog%20converter.md)
     - [integrator](integrator.md)
-        - [§ the integrator circuit](integrator.md#the%20integrator%20circuit)
+        - [§ integrator circuit](integrator.md#integrator%20circuit)
     - [differentiator](differentiator.md)
-        - [§ the differentiator circuit](differentiator.md#the%20differentiator%20circuit)
+        - [§ differentiator circuit](differentiator.md#differentiator%20circuit)
     - [oscillator](oscillator.md)
         - [§ double-integrator oscillator](oscillator.md#double-integrator%20oscillator)
     - [Schmitt trigger](Schmitt%20trigger.md)
-        - [§ why a plain comparator chatters](Schmitt%20trigger.md#why%20a%20plain%20comparator%20chatters)
-        - [§ the state it keeps](Schmitt%20trigger.md#the%20state%20it%20keeps)
+        - [§ comparator chatter](Schmitt%20trigger.md#comparator%20chatter)
         - [§ circuit](Schmitt%20trigger.md#circuit)
         - [§ thresholds](Schmitt%20trigger.md#thresholds)
         - [§ hysteresis](Schmitt%20trigger.md#hysteresis)
@@ -733,7 +732,7 @@ ELEC 2400 is an undergraduate course in electronic circuits at HKUST covering fu
 - [RC circuit](RC%20circuit.md)
     - [§ solving the equation](RC%20circuit.md#solving%20the%20equation)
     - [§ complete response](RC%20circuit.md#complete%20response)
-    - [§ the time constant](RC%20circuit.md#the%20time%20constant)
+    - [§ time constant](RC%20circuit.md#time%20constant)
     - [§ step response](RC%20circuit.md#step%20response)
     - [§ frequency response](RC%20circuit.md#frequency%20response)
 
@@ -753,7 +752,7 @@ ELEC 2400 is an undergraduate course in electronic circuits at HKUST covering fu
     - [§ polar form](complex%20number.md#polar%20form)
 - [Euler's formula](Euler%27s%20formula.md)
     - [§ power series derivation](Euler%27s%20formula.md#power%20series%20derivation)
-    - [§ the two trigonometric series](Euler%27s%20formula.md#the%20two%20trigonometric%20series)
+    - [§ two trigonometric series](Euler%27s%20formula.md#two%20trigonometric%20series)
 
 ## week 9 lecture 1
 
@@ -768,9 +767,9 @@ ELEC 2400 is an undergraduate course in electronic circuits at HKUST covering fu
     - [§ Kirchhoff's laws in the phasor domain](phasor.md#Kirchhoff%27s%20laws%20in%20the%20phasor%20domain)
     - [§ superposition in the phasor domain](phasor.md#superposition%20in%20the%20phasor%20domain)
     - [§ equivalents of Thévenin and Norton in the phasor domain](phasor.md#equivalents%20of%20Th%C3%A9venin%20and%20Norton%20in%20the%20phasor%20domain)
-    - [§ a worked phasor analysis](phasor.md#a%20worked%20phasor%20analysis)
-    - [§ the phasor as a Fourier coefficient](phasor.md#the%20phasor%20as%20a%20Fourier%20coefficient)
-    - [§ why the real part carries the signal](phasor.md#why%20the%20real%20part%20carries%20the%20signal)
+    - [§ worked phasor analysis](phasor.md#worked%20phasor%20analysis)
+    - [§ phasor as a Fourier coefficient](phasor.md#phasor%20as%20a%20Fourier%20coefficient)
+    - [§ real and imaginary parts](phasor.md#real%20and%20imaginary%20parts)
     - [§ returning to the time domain](phasor.md#returning%20to%20the%20time%20domain)
 
 ## week 9 lab 1
@@ -796,9 +795,9 @@ ELEC 2400 is an undergraduate course in electronic circuits at HKUST covering fu
     - [§ combining admittances](admittance.md#combining%20admittances)
     - [§ relating admittance to impedance](admittance.md#relating%20admittance%20to%20impedance)
 - [capacitor](capacitor.md)
-    - [§ why the frequency ends open and closed](capacitor.md#why%20the%20frequency%20ends%20open%20and%20closed)
+    - [§ frequency extremes](capacitor.md#frequency%20extremes)
 - [inductor](inductor.md)
-    - [§ why the frequency ends open and closed](inductor.md#why%20the%20frequency%20ends%20open%20and%20closed)
+    - [§ frequency extremes](inductor.md#frequency%20extremes)
 
 ## week 10 lecture 1
 
@@ -811,8 +810,8 @@ ELEC 2400 is an undergraduate course in electronic circuits at HKUST covering fu
     - [§ complex power](AC%20power.md#complex%20power)
     - [§ instantaneous power](AC%20power.md#instantaneous%20power)
     - [§ power from the impedance](AC%20power.md#power%20from%20the%20impedance)
-    - [§ the resistor formulas under phasors](AC%20power.md#the%20resistor%20formulas%20under%20phasors)
-    - [§ a load at a lagging power factor](AC%20power.md#a%20load%20at%20a%20lagging%20power%20factor)
+    - [§ resistor formulas under phasors](AC%20power.md#resistor%20formulas%20under%20phasors)
+    - [§ load at a lagging power factor](AC%20power.md#load%20at%20a%20lagging%20power%20factor)
     - [§ conservation of alternating current power](AC%20power.md#conservation%20of%20alternating%20current%20power)
 
 ## midterm examination

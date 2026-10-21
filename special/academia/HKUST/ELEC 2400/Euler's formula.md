@@ -46,7 +46,7 @@ Flashcards for this section are as follows:
 - power series derivation / recognising the brackets: which two series are the brackets, and what follows for Euler's formula? ::@:: The real bracket is the Taylor series of $\cos\theta$ and the imaginary one that of $\sin\theta$, so $e^{j\theta} = \cos\theta + j\sin\theta$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - power series derivation / even and odd parts: what does the derivation make of $\cos\theta$ and $\sin\theta$ inside the exponential? ::@:: They are the even and the odd part of the exponential series, which is why $\cos$ is symmetric about zero and $\sin$ antisymmetric.
 
-## the two trigonometric series
+## two trigonometric series
 
 Read backwards, the same substitution writes the trigonometric functions with exponentials. The even and odd parts of $e^{j\theta}$ are $\cos\theta = \frac{e^{j\theta} + e^{-j\theta}}{2}$ and $\sin\theta = \frac{e^{j\theta} - e^{-j\theta}}{2}$, each one a conjugate pair.
 

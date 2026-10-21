@@ -20,7 +20,7 @@ Flashcards for this section are as follows:
 
 - how does a summing amplifier with input resistors $R_1$ and $R_2$ and feedback $R_f$ turn several inputs into one weighted output? ::@:: Each input reaches the inverting input through its own resistor, so their currents add at the virtual ground, and the single feedback resistor gives $V_o = -\frac{R_f}{R_1}V_{s1} - \frac{R_f}{R_2}V_{s2}$.
 
-## the summing circuit
+## summing circuit
 
 An inverting amplifier takes its input through $R_1$ into the inverting terminal, returns $R_f$ from the output to that terminal, and grounds the non-inverting terminal. A summing amplifier is that circuit with more than one input: $V_{s1}$ through $R_1$ and $V_{s2}$ through $R_2$ both reach the inverting terminal, and $R_f$ still returns from the output to it. The build-up is one amplifier plus one resistor per extra input, with $R_f$ the only resistor they share.
 

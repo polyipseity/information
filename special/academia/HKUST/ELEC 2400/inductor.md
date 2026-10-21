@@ -72,7 +72,9 @@ Flashcards for this section are as follows:
 - inductance of a coil / turns: the number of turns on a coil is doubled with all else fixed; how does the inductance change? ::@:: It grows fourfold, since $L$ is proportional to $N^2$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - inductance of a coil / core: how does a ferromagnetic core compare with an air core for the same coil? ::@:: Its far larger permeability raises the inductance in proportion, $L = \mu N^2A/l$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
-## series and parallel connections
+## circuit behaviour
+
+### series and parallel connections
 
 Inductors in series share one current and their voltages add, so the inductances add: $L_\text{eq} = L_1 + L_2 + \dots + L_N$.
 
@@ -95,7 +97,7 @@ Flashcards for this section are as follows:
 - series and parallel connections / two-inductor shorthand: what does $L_1\|L_2$ evaluate to? ::@:: $L_1\|L_2 = \frac{L_1L_2}{L_1+L_2}$, the same $a\|b = \frac{ab}{a+b}$ arithmetic the capacitor rules use.
 - series and parallel connections / duality with capacitors: how do the inductor rules line up with the capacitor rules? ::@:: They swap ends: capacitors add in parallel and invert in series, while inductors add in series and invert in parallel.
 
-## response to a sinusoidal voltage
+### response to a sinusoidal voltage
 
 An inductance $L$ driven by $v_\ell(t) = V_p\cos\omega t$ draws $i_\ell(t) = \frac{1}{L}\int v_\ell\,dt = \frac{V_p}{\omega L}\sin\omega t = \frac{V_p}{\omega L}\cos(\omega t - \pi/2)$. The current is a sinusoid of the same frequency whose phase lags the voltage by $\pi/2$, a quarter cycle or $90^\circ$.
 
@@ -113,7 +115,7 @@ Flashcards for this section are as follows:
 - response to a sinusoidal voltage / worked amplitudes: a $10\ \mu\text{H}$ inductor carries a $10\text{ V}$ amplitude sinusoid at $1\text{ kHz}$, $10\text{ kHz}$, and $100\text{ kHz}$; what current flows at each frequency? ::@:: $i_\ell(t) = +159\sin(2\pi\cdot1\text{k}t)\text{ A}$, $+15.9\sin(2\pi\cdot10\text{k}t)\text{ A}$, and $+1.59\sin(2\pi\cdot100\text{k}t)\text{ A}$ respectively.
 - response to a sinusoidal voltage / average power: why does an ideal inductor consume no average power under sinusoidal excitation? ::@:: Its current lags its voltage by $90^\circ$, so the product $v(t)i(t)$ averages to zero over a cycle: energy is stored in one half cycle and released in the other. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
-## why the frequency ends open and closed
+## frequency extremes
 
 The impedance of an inductor is $Z_L = j\omega L$, and its magnitude $|Z_L| = \omega L$ carries the whole frequency story. Let $\omega \to 0$: the magnitude falls to zero, so at any finite current the voltage across the inductor falls to zero, which is what a short circuit does. Let $\omega \to \infty$: the magnitude rises without bound, so at any finite voltage the current $\mathbf{I}_L = \mathbf{V}_L/Z_L$ falls to zero, which is what an open circuit does.
 

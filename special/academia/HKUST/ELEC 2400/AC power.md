@@ -37,7 +37,9 @@ Flashcards for this section are as follows:
 - root-mean-square value / the sinusoid: what RMS value does the sinusoid $V_p\cos(\omega t + \theta)$ have, and how does it compare with the peak? ::@:: $V_\text{rms} = V_p/\sqrt{2} = 0.707V_p$, since the mean of $\cos^2$ over a cycle is one half.
 - root-mean-square value / the supply: what do the $220\text{ V}$ of the Hong Kong single-phase supply mean, and what peak and peak-to-peak values follow? ::@:: $220\text{ V}$ is the root-mean-square (RMS) value: the peak is $V_p = \sqrt{2}\times220 = 311\text{ V}$ and the peak-to-peak value $2V_p = 622\text{ V}$.
 
-## average power and the power factor
+## power quantities
+
+### average power and the power factor
 
 Averaging the product of a voltage $V_p\cos(\omega t + \theta)$ and a current $I_p\cos(\omega t + \varphi)$ over a cycle gives the average AC power $P_\text{ave} = \frac{V_pI_p}{2}\cos(\theta - \varphi) = V_\text{rms}I_\text{rms}\cos(\theta - \varphi)$. The factor $\cos(\theta - \varphi)$ is the power factor. It depends only on the phase difference between the voltage and the current, and equals one when the two are in step, shrinking as they pull apart.
 
@@ -52,7 +54,7 @@ Flashcards for this section are as follows:
 - average power and the power factor / the resistor: what average power does a resistor $R$ take under $V_\text{rms}$ and $I_\text{rms}$, and why is the power factor absent? ::@:: $P_\text{ave} = V_\text{rms}I_\text{rms} = I_\text{rms}^2R = V_\text{rms}^2/R$, since the resistor's voltage and current are in step and their power factor is one.
 - average power and the power factor / storage elements: why do a capacitor and an inductor consume zero average power? ::@:: Their voltage and current sit a quarter cycle apart, so $\cos(\theta - \varphi) = \cos(\pm90^\circ) = 0$: energy stored in one half period is released in the other. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
-## instantaneous power
+### instantaneous power
 
 The average power and the reactive power both fall out of multiplying the two real waveforms. With $v(t) = V_p\cos\omega t$ and $i(t) = I_p\cos(\omega t - \phi)$, the identity $\cos A\cos B = \frac{1}{2}[\cos(A - B) + \cos(A + B)]$ gives $p(t) = v(t)i(t) = \frac{V_pI_p}{2}[\cos\phi + \cos(2\omega t - \phi)]$, one steady term and one ripple at twice the supply frequency. Expanding the ripple turns this into $p(t) = P_\text{ave}(1 + \cos2\omega t) + Q\sin2\omega t$, where $P_\text{ave} = V_\text{rms}I_\text{rms}\cos\phi$ and $Q = V_\text{rms}I_\text{rms}\sin\phi$.
 
@@ -68,7 +70,7 @@ Flashcards for this section are as follows:
 - instantaneous power / the reactive term: what average does $Q\sin2\omega t$ leave over a cycle, and what does its amplitude measure? ::@:: An average of zero, since its positive and negative parts cancel exactly; its amplitude is the reactive power $Q$, whose current still heats the wire without being spent.
 - instantaneous power / the zero crossing: when does the instantaneous power of a circuit dip below zero? ::@:: When the load has a reactive part: a purely resistive load only touches zero at the crossings of the wave, while a reactive load lets the total go negative for part of each cycle as the fields return energy.
 
-## complex power
+### complex power
 
 Complex power packs the whole swing into one number, $\mathbf{S} = \frac{1}{2}\mathbf{V}\mathbf{I}^*$, built from the peak-value phasors with the current conjugated. Expanded with $\mathbf{V} = V_p\angle\theta$ and $\mathbf{I} = I_p\angle\varphi$ it comes to $\mathbf{S} = \frac{V_pI_p}{2}\cos(\theta - \varphi) + j\frac{V_pI_p}{2}\sin(\theta - \varphi) = V_\text{rms}I_\text{rms}\cos(\theta - \varphi) + jV_\text{rms}I_\text{rms}\sin(\theta - \varphi)$.
 
@@ -100,7 +102,9 @@ Flashcards for this section are as follows:
 - complex power / mixing the conventions: what goes wrong when the two phasor conventions meet inside one calculation? ::@:: The answer doubles or halves: a $\frac{1}{2}$ kept beside root-mean-square (RMS) magnitudes halves a correct result, and one omitted beside amplitudes doubles it. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - complex power / the rotating view: with the rotating phasors $\mathbf{v}(t) = V_pe^{j(\omega t + \theta)}$ and $\mathbf{i}(t) = I_pe^{j(\omega t + \varphi)}$, why is the current conjugated rather than the voltage? ::@:: The plain product spins at $2\omega$ with the angles added and stays unsteady; conjugating the current reverses its rotation, the $\omega t$ terms cancel, and $V_pI_pe^{j(\theta - \varphi)}$ keeps the phase gap alone.
 
-## power from the impedance
+## power from circuit elements
+
+### power from the impedance
 
 Complex power follows from the impedance alone. With the current phasor $\mathbf{I} = I_p\angle\varphi$ and $Z = R + jX$, the voltage is $\mathbf{V} = \mathbf{I}Z$, so $\mathbf{S} = \frac{1}{2}\mathbf{V}\mathbf{I}^* = \frac{1}{2}|\mathbf{I}|^2Z = \frac{1}{2}I_p^2R + j\frac{1}{2}I_p^2X$. The real part counts the resistance and the imaginary part the reactance, so $P_\text{ave} = I_\text{rms}^2R$ and $Q = I_\text{rms}^2X$, while the apparent power is $|\mathbf{S}| = I_\text{rms}^2|Z| = I_\text{rms}V_\text{rms}$.
 
@@ -115,7 +119,7 @@ Flashcards for this section are as follows:
 - power from the impedance / from the voltage: what is the complex power when it is written with the voltage phasor and the impedance? ::@:: $\mathbf{S} = \frac{1}{2}|\mathbf{V}|^2/Z^*$, so the average power is $\frac{1}{2}|\mathbf{V}|^2R/|Z|^2$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - power from the impedance / the cost of reactance: why does a large reactance lower the average power twice over at a fixed voltage? ::@:: It raises $|Z|$, which lowers the current, and it lowers the fraction $R/|Z|$ of the apparent power that lands on the resistance. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
-## the resistor formulas under phasors
+### resistor formulas under phasors
 
 $P_\text{ave} = \frac{V_\text{rms}^2}{R} = I_\text{rms}^2R = V_\text{rms}I_\text{rms}$ holds for a pure resistance, with root-mean-square values throughout. Written with peak values the same statements carry the half: $P_\text{ave} = \frac{V_p^2}{2R} = \frac{I_p^2R}{2}$.
 
@@ -130,7 +134,7 @@ Flashcards for this section are as follows:
 - the resistor formulas under phasors / what fails: what do $V_\text{rms}^2/|Z|$ and $V_\text{rms}^2/R$ return for a reactive element? ::@:: $V_\text{rms}^2/|Z|$ is the apparent power, not the average, and $V_\text{rms}^2/R$ is larger still, because the whole voltage does not sit across the resistance.
 - the resistor formulas under phasors / worked numbers: a $3 + j4\ \Omega$ impedance sits across $10\text{ V}$ RMS; what average power does it take? ::@:: $|Z| = 5\ \Omega$ draws $2\text{ A}$ RMS, so $P_\text{ave} = 2^2\times3 = 12\text{ W}$; $V_\text{rms}^2/|Z| = 20\text{ VA}$ and $V_\text{rms}^2/R = 33.3\text{ W}$ are not the answer.
 
-## a load at a lagging power factor
+### load at a lagging power factor
 
 A load drawing $1\text{ kW}$ at a power factor of $0.8$ lagging from a $220\text{ V}$ RMS supply has $\cos\phi = 0.8$ and $\sin\phi = 0.6$. The apparent power is $S = P_\text{ave}/\cos\phi = 1.25\text{ kVA}$, the reactive power $Q = S\sin\phi = 750\text{ var}$, and the RMS current $I = S/V = 5.68\text{ A}$.
 

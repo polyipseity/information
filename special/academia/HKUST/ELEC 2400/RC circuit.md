@@ -57,7 +57,7 @@ Flashcards for this section are as follows:
 - complete response / the steady-state part: what amplitude and phase does the steady-state response of the RC circuit carry? ::@:: The amplitude $V_s/\sqrt{1 + \omega^2\tau^2}$, smaller than the source, and the phase lag $\theta = \tan^{-1}(\omega\tau)$, both set by the circuit and the driving frequency alone. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - complete response / what phasors deliver: which part of the RC response does phasor analysis compute? ::@:: The steady-state sinusoid alone, through $\frac{\mathbf{V}_o}{\mathbf{V}_s} = \frac{1}{1 + j\omega CR}$; the decaying transient lies outside the phasor picture. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
-## the time constant
+## time constant
 
 $\tau = RC$ sets the pace. Its units come out as seconds: $\Omega\cdot\text{F} = \frac{\text{V}}{\text{A}}\cdot\frac{\text{C}}{\text{V}} = \frac{\text{C}}{\text{A}} = \text{s}$. In $Ke^{-t/\tau}$ one time constant leaves $e^{-1} = 0.368$ of the starting gap, five leave $e^{-5} = 0.0067$, and beyond that the transient is spent.
 

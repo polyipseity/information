@@ -63,7 +63,7 @@ Flashcards for this section are as follows:
 - fixed current against fixed voltage: the larger resistance $R$ of a pair, first with the two carrying the same current $I$ and then with the same voltage $V$ across each ::@:: At the same current the larger $R$ dissipates more, $P = I^2R$; at the same voltage it dissipates less, $P = V^2/R$.
 - sign of the product: a resistor with the current arrow entering the terminal marked $+$ and leaving the terminal marked $-$, and $V$ across it ::@:: $P = VI$ comes out positive and is the power the resistor absorbs and dissipates.
 
-### a single resistor across a source
+### single resistor across a source
 
 A resistor of $R = 2\ \Omega$ sits across a $4\text{ V}$ source, so the voltage across it is $V = 4\text{ V}$. Its power follows from the voltage and the resistance alone, $P = V^2/R = (4\text{ V})^2/2\ \Omega = 8\text{ W}$. The current is $I = V/R = 4\text{ V}/2\ \Omega = 2\text{ A}$, and $P = VI = 4\text{ V}\times2\text{ A} = 8\text{ W}$ returns the same power. Sustained for $t = 2\text{ s}$, the resistor consumes $W = Pt = 8\text{ W}\times2\text{ s} = 16\text{ J}$.
 
@@ -163,7 +163,7 @@ Flashcards for this section are as follows:
 - flashlight bulb and battery / power of the battery: the loop is `[battery: V_bat = 6 V, I_bat = −2 A on its own reference direction] — [bulb: 3 Ω, V_bulb = 6 V, I_bulb = +2 A]`; the battery has $V_\text{bat} = 6\text{ V}$ and $I_\text{bat} = -2\text{ A}$ on its own reference direction; what is its power, and what does that make it? ::@:: $P_\text{bat} = V_\text{bat}\times I_\text{bat} = 6\text{ V}\times(-2\text{ A}) = -12\text{ W}$, so the battery is an active element whose generation covers the $12\text{ W}$ dissipated by the bulb.
 - reading a circuit line: in the notation `(X) — [elements] — (Y)`, what do the parentheses, the brackets, the dash, and `∥` mean? ::@:: `(X)` names a node, with `(GND)` the zero-volt ground node; `[...]` holds one element with its value and marks spelled out; `—` is a wire joining consecutive items; and `A ∥ B` puts A and B in parallel between the same pair of nodes.
 
-## why the reference direction matters
+## sign convention
 
 With the reference direction drawn, the familiar forms $V = IR$ and $P = VI$ hold as written. Without it a minus sign has to be inserted in each, giving $V = -IR$ and $P = -VI$. Mechanics runs the same way: $F = ma$ holds along the chosen positive direction, and the opposite choice demands $F = -ma$.
 

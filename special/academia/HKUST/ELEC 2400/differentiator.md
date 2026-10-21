@@ -31,7 +31,7 @@ Flashcards for this section are in the following format:
 - swapping the input resistor: the inverting amplifier's gain $-\frac{R_2}{R_1}$ becomes what when $R_1$ is replaced by a capacitor $C_1$, and how does that show up on the output? ::@:: $A_{cl} = -j\omega C_1 R_2$, which grows with frequency and falls to zero at DC, so a fast edge comes out large, a slow drift comes out small, and a steady level comes out at nothing.
 - why a flat input gives nothing: reading the edge-detector's gain $-j\omega C_1 R_2$, why does a constant input produce no output at all? ::@:: The gain falls to zero as the frequency falls, so a component that never changes is filtered out and only changes get through.
 
-## the differentiator circuit
+## differentiator circuit
 
 A differentiator is an inverting amplifier with the two parts exchanged: the capacitor sits in the input path and the resistor in the feedback path. The non-inverting terminal goes to ground, the virtual short carries that $0\text{ V}$ to the inverting terminal, and the capacitor charges at the rate the input voltage moves, $I(t) = C_1\frac{dV_{in}(t)}{dt}$.
 

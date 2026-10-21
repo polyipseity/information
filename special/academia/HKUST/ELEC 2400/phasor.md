@@ -31,7 +31,9 @@ Flashcards for this section are as follows:
 - the rotating vector: how is the sinusoid $A\cos(\omega t + \theta)$ pictured in the complex plane? <p> ![a phasor on the complex plane: a vector z of constant magnitude rotating anticlockwise about the origin at the angle theta, its projections x on the real axis and y on the vertical axis shown by dashed lines, and the angular frequency omega beside the circle](attachments/phasor_rotating_vector.svg) ::@:: As the real part of $Ae^{j\theta}e^{j\omega t}$: a vector of length $A$ at angle $\theta$ sweeping around the origin once per cycle, whose projection on the real axis traces the sinusoid.
 - the peak-value convention: what magnitude does a phasor carry, the peak value or the root-mean-square (RMS) value? ::@:: The peak value: $\mathbf{A} = A\angle\theta$ represents $A\cos(\omega t + \theta)$, whose amplitude is $A$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
-## phasor arithmetic
+## representation
+
+### phasor arithmetic
 
 Sinusoids of a common frequency add as their phasors do. For $a(t) = 10\cos(30t + 50^\circ)$ and $b(t) = 5\cos(30t + 125^\circ)$, the phasors $\mathbf{A} = 10\angle50^\circ = 6.428 + j7.660$ and $\mathbf{B} = 5\angle125^\circ = -2.868 + j4.096$ sum to $\mathbf{C} = 3.560 + j11.756 = 12.28\angle73.15^\circ$, so $c(t) = a(t) + b(t) = 12.28\cos(30t + 73.15^\circ)$. At $t = 0.1\text{ s}$ the sum reads $c(0.1) = 12.28\cos(3\text{ rad} + 73.15^\circ) = 12.28\cos(4.277\text{ rad}) = -5.18$, the argument mixing radians and degrees, as printed.
 
@@ -53,7 +55,7 @@ Flashcards for this section are as follows:
 - phasor arithmetic / different frequencies: why can $\cos 2t$ and $\cos 3t$ not be added by phasor arithmetic? ::@:: They rotate at different angular frequencies, so they share no common factor $e^{j\omega t}$ and no single phasor diagram holds them.
 - phasor arithmetic / reading a phasor back: what time function does the phasor $12.28\angle73.15^\circ$ at $\omega = 30\text{ rad/s}$ represent? ::@:: $12.28\cos(30t + 73.15^\circ)$, the magnitude as the peak value and the angle as the phase.
 
-## multiplication and the rotating frame
+### multiplication and the rotating frame
 
 Multiplying one phasor by another multiplies their lengths and adds their angles: $A\angle\theta$ times $B\angle\varphi$ gives $AB\angle(\theta + \varphi)$, and division subtracts the angles. Impedance arithmetic rests on that rule. In $\mathbf{V} = \mathbf{I}\mathbf{Z}$ the impedance scales the current's length by $|Z|$ and turns it by its own angle, so the angle of $\mathbf{Z}$ is the phase difference between the voltage and the current.
 
@@ -71,7 +73,7 @@ Flashcards for this section are as follows:
 - multiplication and the rotating frame / the snapshot: what does a phasor give at $t = 0$, and how does the waveform follow from it? ::@:: The complex amplitude $\mathbf{A} = A\angle\theta$; turning it through $\omega t$ and taking the real part gives $A\cos(\omega t + \theta)$.
 - multiplication and the rotating frame / the product of two phasors: why is the product of two phasors not the phasor of the product of the two sinusoids? ::@:: The product turns at $2\omega$ with the two angles added, and no factor $e^{j\omega t}$ remains to drop, so no single frequency describes it. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
-## differentiation and integration
+### differentiation and integration
 
 On a sinusoid, differentiation and integration become multiplication. With $x(t) = A\cos(\omega t)$ represented by the rotating vector $Ae^{j\omega t}$, $\frac{d}{dt}$ multiplies that vector by $j\omega$, raising the angle by $90^\circ$, and $\int dt$ multiplies by $1/j\omega$, lowering it by $90^\circ$. A differential equation in sinusoids becomes an algebraic equation in phasors.
 
@@ -83,7 +85,9 @@ Flashcards for this section are as follows:
 - differentiation and integration / the phase shift: why does differentiation by $j\omega$ shift a sinusoid's phase by $90^\circ$? ::@:: The factor $j = e^{j\pi/2}$ adds $\pi/2$ to the angle of the rotating vector, advancing the phase by a quarter cycle.
 - differentiation and integration / the payoff: what becomes of a linear differential equation with sinusoidal driving once differentiation is multiplication? ::@:: It becomes an algebraic equation in phasors, solvable by complex arithmetic instead of integration.
 
-## phasor analysis
+## circuit analysis in the phasor domain
+
+### phasor analysis
 
 Phasor analysis solves the sinusoidal steady state in four steps:
 
@@ -105,7 +109,7 @@ Flashcards for this section are as follows:
 - phasor analysis / one frequency per circuit: why is a phasor equivalent circuit tied to a single frequency? ::@:: The impedances $1/j\omega C$ and $j\omega L$ carry $\omega$ inside them, so an equivalent built at one frequency does not hold at another. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
 <!-- check: ignore-next-line[header_style]: Kirchhoff is a proper noun -->
-## Kirchhoff's laws in the phasor domain
+### Kirchhoff's laws in the phasor domain
 
 Kirchhoff's laws hold at every instant, and a phasor carries every instant at once. So the laws hold on the phasors themselves: the currents into a node sum to zero, $\sum\mathbf{I} = 0$, and the voltages around a loop sum to zero, $\sum\mathbf{V} = 0$, both as complex sums.
 
@@ -120,7 +124,7 @@ Flashcards for this section are as follows:
 - Kirchhoff's laws in the phasor domain / resonance: at which frequency do a series capacitor and inductor cancel, and what is left? ::@:: At $\omega = 1/\sqrt{LC}$, where their reactances are equal and opposite, so the storage voltages sum to zero and the impedance is the resistance alone. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - Kirchhoff's laws in the phasor domain / why the cancellation works: what makes an exact cancellation possible at one frequency? ::@:: The reactances are $j\omega L$ and $1/(j\omega C) = -j/(\omega C)$, opposite signs on the imaginary axis, so one frequency makes them equal in magnitude as well. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
-## superposition in the phasor domain
+### superposition in the phasor domain
 
 Independent sources are handled as before: kill every other source, solve the phasor circuit with the impedances in place, and add the phasor contributions with their signs. Dependent sources stay operative in each partial circuit ([superposition principle](superposition%20principle.md)).
 
@@ -134,7 +138,7 @@ Flashcards for this section are as follows:
 - superposition in the phasor domain / different frequencies: what must be done when two sources run at different frequencies? ::@:: Solve each frequency in its own phasor circuit and add the two waveforms in the time domain, because phasors at different frequencies share no common factor to add.
 - superposition in the phasor domain / the dependent sources: how are dependent sources treated in each partial phasor circuit? ::@:: They stay operative, with their controlling quantity recomputed for that circuit, exactly as in the resistive case.
 
-## equivalents of Thévenin and Norton in the phasor domain
+### equivalents of Thévenin and Norton in the phasor domain
 
 The open-circuit voltage phasor plays the part of $V_{th}$, and the impedance seen looking into the port with every source deactivated plays the part of $R_{th}$. That pair $(\mathbf{V}_{th}, \mathbf{Z}_{th})$ replaces any linear one-port at the one frequency it was computed for. The Norton form is its dual, with the short-circuit current phasor $\mathbf{I}_N = \mathbf{V}_{th}/\mathbf{Z}_{th}$ in parallel with the same impedance ([Thévenin's theorem](Th%C3%A9venin%27s%20theorem.md), [Norton's theorem](Norton%27s%20theorem.md)).
 
@@ -148,7 +152,7 @@ Flashcards for this section are as follows:
 - Thévenin and Norton equivalents in the phasor domain / the Norton form: how is a Norton equivalent obtained from a Thévenin one? ::@:: The short-circuit current phasor $\mathbf{I}_N = \mathbf{V}_{th}/\mathbf{Z}_{th}$ in parallel with the same $\mathbf{Z}_{th}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - Thévenin and Norton equivalents in the phasor domain / the frequency bound: why does a phasor equivalent hold at one frequency only? ::@:: Its impedances contain $\omega$, so they change with the frequency, and the equivalent describes a different circuit at any other. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
-## a worked phasor analysis
+### worked phasor analysis
 
 A source $v_s(t) = 10\cos(1000t)\text{ V}$ drives $R = 1\text{ k}\Omega$ in series with $C = 1\ \mu\text{F}$. At $\omega = 1000\text{ rad/s}$ the capacitor is $Z_C = \frac{1}{j\omega C} = -j1000\ \Omega$, so the series impedance is $1000 - j1000 = 1000\sqrt{2}\angle{-45^\circ}\ \Omega$ and the current is $\mathbf{I} = \frac{10\angle0^\circ}{1000\sqrt{2}\angle{-45^\circ}} = 7.07\angle{45^\circ}\text{ mA}$.
 
@@ -165,7 +169,9 @@ Flashcards for this section are as follows:
 - a worked phasor analysis / the KVL check: how do the two element voltages add, and what does the result show? ::@:: $7.07\angle{45^\circ} + 7.07\angle{-45^\circ} = 10\angle0^\circ\text{ V}$, the source, while the magnitudes add to $18.1\text{ V}$: a phasor sum is not a sum of magnitudes. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - a worked phasor analysis / the Thévenin check: what Thévenin equivalent across the capacitor, and what output does its divider give? ::@:: $\mathbf{V}_{th} = 10\angle0^\circ\text{ V}$ with $\mathbf{Z}_{th} = 1000\ \Omega$, whose divider $\frac{\mathbf{Z}_C}{\mathbf{Z}_{th} + \mathbf{Z}_C} = 0.707\angle{-45^\circ}$ gives $7.07\angle{-45^\circ}\text{ V}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
-## the phasor as a Fourier coefficient
+## signal interpretation
+
+### phasor as a Fourier coefficient
 
 A periodic signal of angular frequency $\omega$ is a sum of rotating exponentials, $x(t) = \sum_n c_n e^{jn\omega t}$, its Fourier series, and the coefficient of each term comes from $c_n = \frac{1}{T}\int_T x(t)e^{-jn\omega t}\,dt$. A phasor is the first of those coefficients, rescaled: the sinusoid $A\cos(\omega t + \theta)$ has $c_1 = \frac{A}{2}e^{j\theta}$ and $c_{-1} = \frac{A}{2}e^{-j\theta}$, so the phasor $\mathbf{A} = A\angle\theta$ is $2c_1$, and its conjugate sits at the negative frequency. A real signal always arrives in such a conjugate pair, which is why one complex number describes it completely.
 
@@ -180,7 +186,7 @@ Flashcards for this section are as follows:
 - the phasor as a Fourier coefficient / the eigenfunction: why does the derivative act on a phasor as multiplication by $j\omega$? ::@:: Because $e^{j\omega t}$ is an eigenfunction of $\frac{d}{dt}$ with eigenvalue $j\omega$: the derivative returns the same exponential times $j\omega$, so on one frequency it acts on the coefficient alone.
 - the phasor as a Fourier coefficient / the impedance ratio: how does the Fourier reading explain $Z_C = 1/(j\omega C)$? ::@:: The current coefficient is the voltage coefficient times $j\omega C$, so a slow voltage yields little current and a fast one yields a lot, which is what a large impedance at low frequency means.
 
-## why the real part carries the signal
+### real and imaginary parts
 
 A rotating complex number holds the signal twice over. Write the phasor as $a + jb$ with real $a$ and $b$; the rotating vector $(a + jb)e^{j\omega t}$ has the real part $a\cos\omega t - b\sin\omega t$. The first term is the cosine that the phasor's real part names. The second term is the same cosine shifted by a quarter cycle, since $-\sin\omega t = \cos(\omega t + \pi/2)$. The imaginary part of the phasor is the real signal advanced by a quarter period, $\pi/(2\omega)$ seconds, in a form that survives algebra.
 
@@ -195,7 +201,7 @@ Flashcards for this section are as follows:
 - why the real part carries the signal / the quarter turn: why does multiplying by $j$ differentiate a sinusoid? ::@:: A quarter-turn adds $\pi/2$ to the phase of every component, which is the shift a derivative produces; the factor $\omega$ beside it comes from the chain rule, since the argument advances at rate $\omega$.
 - why the real part carries the signal / integration: why is dividing by $j\omega$ the same as integrating? ::@:: It divides the amplitude by $\omega$ and turns the phase back a quarter cycle, undoing both parts of what differentiation did.
 
-## returning to the time domain
+### returning to the time domain
 
 Converting a phasor back to a signal restores what the phasor dropped. The magnitude is the peak value and the angle is the phase against a cosine, so $\mathbf{A} = A\angle\theta$ writes back as $a(t) = A\cos(\omega t + \theta)$. The angular frequency has to come from the problem, since every phasor in one circuit shares it and the symbol no longer carries it.
 
