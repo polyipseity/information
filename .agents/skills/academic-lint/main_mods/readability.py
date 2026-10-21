@@ -1,18 +1,25 @@
 """Readability rules for course notes.
 
 Seven standard readability formulas are computed for each topic note and
-compared against a band chosen for university-level prose that leans toward
-secondary school.  One formula outside its band is usually one long sentence
-or one long noun phrase; three or more mean the note is hard on every count,
-which is why the warning and the error are separate rules.
+compared against a single density limit.  Only one direction is a defect: a
+value past its limit means the text is denser than a reader at this level can
+take.  Prose written plainly is not a problem, so there is no floor.  One
+formula past its limit is usually one long sentence or one long noun phrase;
+three or more mean the note is hard on every count, which is why the warning
+and the error are separate rules.
 
-Only prose is measured: maths, code, headings, image lines, and link targets
-are removed first, and the words that name the course's own concepts are
-treated as familiar.  Gunning Fog's own definition excludes proper nouns,
-familiar jargon, and compound words, so that exclusion is part of the formula
-rather than a fudge.  The scores describe the shape of the prose, not whether
-a reader understands it: they are a target to write toward and never a number
-to game by padding or shredding a sentence.
+Prose and cards are measured apart, because they are read differently.  A
+paragraph is read for sense, so its cards and its references are removed
+first.  A card is read as a prompt and an answer, so only the card block is
+measured, and a note with too few cards to score says nothing.
+
+Maths, code, headings, image lines, and link targets carry no reading
+difficulty and are removed before counting, and the words that name the
+course's own concepts are treated as familiar.  Gunning Fog's own definition
+excludes proper nouns, familiar jargon, and compound words, so that exclusion
+is part of the formula rather than a fudge.  The scores describe the shape of
+the text, not whether a reader understands it: they are a target to write
+toward and never a number to game by padding or shredding a sentence.
 """
 
 import re
@@ -30,13 +37,19 @@ from .utils import FRONT_RE, is_topic_note
 __all__ = (
     "BANDS",
     "RULE_REGISTRY",
+    "Band",
     "ReadabilityScores",
+    "card_readability_error",
+    "card_readability_warning",
+    "card_scores",
+    "card_text",
     "english_share",
     "measure",
     "prose_text",
     "readability_error",
     "readability_warning",
     "score_text",
+    "split_parts",
     "split_sentences",
     "syllables",
     "violation_rule_id",
@@ -45,20 +58,36 @@ __all__ = (
 """Registry of the readability rules; merged by the validator."""
 RULE_REGISTRY = RuleRegistry()
 
-"""Target band per metric, as ``(low, high)`` with both ends inclusive.
+"""One metric's density limit.
 
-A value outside the band is a violation.  The grade-level metrics are
-two-sided on purpose: a note that reads like a children's book is as wrong
-for a university course as one written for a journal.
+``below`` marks the metrics that run backwards.  Flesch reading ease rises as
+the text gets easier, so a note is too dense when the number falls under its
+limit rather than over it.
 """
-BANDS: dict[str, tuple[float, float]] = {
-    "flesch": (35.0, 80.0),
-    "grade": (6.0, 13.0),
-    "fog": (6.0, 13.5),
-    "smog": (6.5, 13.0),
-    "coleman_liau": (7.5, 14.5),
-    "ari": (5.5, 13.5),
-    "dale_chall": (5.0, 8.8),
+
+
+@dataclass(frozen=True)
+class Band:
+    """A metric's limit, and which side of it counts as too dense."""
+
+    limit: float
+    below: bool = False
+
+
+"""Density limit per metric.
+
+A value past its limit is a violation.  There is no lower bound: plain, short
+sentences are the target, and a formula that rewards padding has no place in
+a linter that also asks for concision.
+"""
+BANDS: dict[str, Band] = {
+    "flesch": Band(35.0, below=True),
+    "grade": Band(13.0),
+    "fog": Band(13.5),
+    "smog": Band(13.0),
+    "coleman_liau": Band(14.5),
+    "ari": Band(13.5),
+    "dale_chall": Band(8.8),
 }
 
 """Human-readable name of each metric, in band order."""
@@ -76,6 +105,11 @@ _LABELS: dict[str, str] = {
 MINIMUM_WORDS = 120
 """Shortest note the rules speak about, in sentences."""
 MINIMUM_SENTENCES = 8
+
+"""Shortest card block the card rules speak about, in words."""
+MINIMUM_CARD_WORDS = 60
+"""Shortest card block the card rules speak about, in sentences."""
+MINIMUM_CARD_SENTENCES = 4
 
 """Sentence SMOG needs before its estimate is meaningful."""
 SMOG_SENTENCES = 10
@@ -128,17 +162,67 @@ def _load_familiar_words() -> frozenset[str]:
 _FAMILIAR = _load_familiar_words()
 
 
-def prose_text(text: str) -> str:
-    """Return the prose a learner reads, with markup and maths removed.
+"""The separator line that opens a section's card block."""
+_CARD_SEPARATOR_RE = re.compile(
+    r"^\s*flashcards? for (?:this |the )?section\b", re.IGNORECASE
+)
 
-    Frontmatter, code, maths, headings, image lines, and link targets carry no
-    reading difficulty, and counting them would report a score for text nobody
-    reads.  Link text stays, because it is read.
+"""A heading, which closes a card block and a reference list."""
+_HEADING_RE = re.compile(r"^#{1,6}\s")
+
+"""Section names that hold provenance rather than prose."""
+_REFERENCE_HEADINGS = frozenset({"references", "reference", "bibliography", "sources"})
+
+"""A thematic break, which is layout rather than prose."""
+_THEMATIC_BREAK_RE = re.compile(r"^\s*(?:-{3,}|\*{3,}|_{3,})\s*$")
+
+"""Card markup, which marks a line as a card wherever it appears."""
+_CARD_LINE_RE = re.compile(r"::@::|:@:")
+
+
+def split_parts(text: str) -> tuple[str, str]:
+    """Return the note's prose and its card text, separated.
+
+    A card block opens on the separator line the linter asks for, or on any
+    line carrying card markup, and runs to the next heading.  The references
+    section is provenance, not prose, so it is dropped from both.  Thematic
+    breaks, headings, and frontmatter go with them: none of it is read.
     """
-    body = text
     front = FRONT_RE.match(text)
-    if front:
-        body = text[front.end() :]
+    body = text[front.end() :] if front else text
+    prose_lines: list[str] = []
+    card_lines: list[str] = []
+    in_cards = False
+    skip_below = 0
+    for line in body.splitlines():
+        if _HEADING_RE.match(line):
+            in_cards = False
+            level = len(line) - len(line.lstrip("#"))
+            if skip_below:
+                if level <= skip_below:
+                    skip_below = 0
+                continue
+            title = line.lstrip("#").strip().strip(":").lower()
+            if title in _REFERENCE_HEADINGS:
+                skip_below = level
+            continue
+        if skip_below:
+            continue
+        if _THEMATIC_BREAK_RE.match(line):
+            continue
+        if _CARD_SEPARATOR_RE.match(line):
+            in_cards = True
+            continue
+        if in_cards or _CARD_LINE_RE.search(line):
+            card_lines.append(line)
+        else:
+            prose_lines.append(line)
+    return "\n".join(prose_lines), "\n".join(card_lines)
+
+
+def _clean(text: str) -> str:
+    """Strip the markup that carries no reading difficulty."""
+    body = text
     body = re.sub(r"```.*?```", " ", body, flags=re.DOTALL)
     body = re.sub(r"~~~.*?~~~", " ", body, flags=re.DOTALL)
     body = re.sub(r"`[^`]*`", " ", body)
@@ -148,11 +232,20 @@ def prose_text(text: str) -> str:
     body = re.sub(r"<[^>]+>", " ", body)
     body = re.sub(r"!\[[^\]]*\]\([^)]*\)", " ", body)
     body = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", body)
-    body = re.sub(r"^#{1,6}\s+.*$", "", body, flags=re.MULTILINE)
     body = re.sub(r"\{@\{(.*?)\}@\}", r"\1", body, flags=re.DOTALL)
     body = body.replace("::@::", ". ").replace(":@:", ". ")
     body = re.sub(r"^\s*(?:[-*+]|\d+\.)\s+", "", body, flags=re.MULTILINE)
     return body.replace("|", " ")
+
+
+def prose_text(text: str) -> str:
+    """Return the prose a learner reads, without cards, references, or markup."""
+    return _clean(split_parts(text)[0])
+
+
+def card_text(text: str) -> str:
+    """Return the card text a learner is quizzed with, without markup."""
+    return _clean(split_parts(text)[1])
 
 
 def split_sentences(prose: str) -> list[str]:
@@ -387,98 +480,142 @@ def _course_dir(parts: Sequence[str]) -> str:
 
 
 @lru_cache(maxsize=None)
-def _cached_scores(text: str, course_dir: str) -> ReadabilityScores | None:
-    """Score *text* once, however many rules ask about it."""
-    prose = prose_text(text)
-    sentences = _word_sentences(prose)
-    if sum(len(sentence) for sentence in sentences) < MINIMUM_WORDS:
+def _cached_scores(text: str, course_dir: str, cards: bool) -> ReadabilityScores | None:
+    """Score one part of *text* once, however many rules ask about it."""
+    source = card_text(text) if cards else prose_text(text)
+    sentences = _word_sentences(source)
+    minimum_words = MINIMUM_CARD_WORDS if cards else MINIMUM_WORDS
+    minimum_sentences = MINIMUM_CARD_SENTENCES if cards else MINIMUM_SENTENCES
+    if sum(len(sentence) for sentence in sentences) < minimum_words:
         return None
-    if len(sentences) < MINIMUM_SENTENCES:
+    if len(sentences) < minimum_sentences:
         return None
-    if english_share(prose) < 0.6:
+    if english_share(source) < 0.6:
         return None
-    return measure(prose, _course_vocabulary(course_dir))
+    return measure(source, _course_vocabulary(course_dir))
 
 
 def score_text(text: str, course_dir: str) -> ReadabilityScores | None:
-    """Score one note, or return ``None`` when it is too short to score."""
-    return _cached_scores(text, course_dir)
+    """Score one note's prose, or return ``None`` when it is too short."""
+    return _cached_scores(text, course_dir, False)
+
+
+def card_scores(text: str, course_dir: str) -> ReadabilityScores | None:
+    """Score one note's cards, or return ``None`` when there are too few."""
+    return _cached_scores(text, course_dir, True)
 
 
 @dataclass(frozen=True)
 class _Violation:
-    """One metric outside its band."""
+    """One metric past its density limit."""
 
     name: str
     value: float
-    low: float
-    high: float
+    limit: float
+    below: bool
 
 
 def _violations(scores: ReadabilityScores) -> list[_Violation]:
-    """Return the metrics of *scores* that sit outside their band."""
+    """Return the metrics of *scores* that sit past their limit."""
     failed: list[_Violation] = []
-    for name, (low, high) in BANDS.items():
+    for name, band in BANDS.items():
         value = getattr(scores, name)
         if value is None:
             continue
-        if value < low or value > high:
-            failed.append(_Violation(name, value, low, high))
+        dense = value < band.limit if band.below else value > band.limit
+        if dense:
+            failed.append(_Violation(name, value, band.limit, band.below))
     return failed
 
 
-def violation_rule_id(scores: ReadabilityScores) -> str | None:
-    """Return the rule that should report *scores*, or ``None`` when in band.
+def violation_rule_id(
+    scores: ReadabilityScores, prefix: str = "readability"
+) -> str | None:
+    """Return the rule that should report *scores*, or ``None`` when clean.
 
-    One or two metrics outside the band is weak evidence and stays a warning;
-    three mean the prose is hard on every count and is an error.  Six of the
-    seven formulas are strongly correlated, so a single violation is usually
-    one long sentence rather than a difficult note.
+    One or two metrics past their limit is weak evidence and stays a warning;
+    three mean the text is hard on every count and is an error.  Several of
+    the seven formulas are strongly correlated, so a single violation is
+    usually one long sentence rather than a difficult note.
     """
     count = len(_violations(scores))
     if count == 0:
         return None
-    return "readability_warning" if count <= 2 else "readability_error"
+    return f"{prefix}_{'warning' if count <= 2 else 'error'}"
 
 
-def _message(rule_id: str, failed: Sequence[_Violation]) -> ValidationMessage:
-    """Build the message both readability rules share."""
+def _message(
+    rule_id: str, failed: Sequence[_Violation], cards: bool
+) -> ValidationMessage:
+    """Build the message every readability rule shares."""
     detail = "; ".join(
         f"{_LABELS[violation.name]} {violation.value:.2f} "
-        f"(band {violation.low:g} to {violation.high:g})"
+        f"(wants {'at least' if violation.below else 'at most'} "
+        f"{violation.limit:g})"
         for violation in failed
     )
+    if cards:
+        subject = f"the card block fails {len(failed)} of 7 readability metrics"
+        advice = (
+            "Split a prompt that asks two things, and cut the answer to the "
+            "term it has to give."
+        )
+    else:
+        subject = f"{len(failed)} of 7 readability metrics are too dense"
+        advice = (
+            "Restructure rather than reword: merge or split sections, shorten "
+            "the longest sentences, and cut clauses that carry no fact."
+        )
     return ValidationMessage(
         rule_id,
-        (
-            f"{len(failed)} of 7 readability metrics outside the target band: "
-            f"{detail}. Restructure rather than reword: merge or split sections, "
-            "shorten the longest sentences, and cut clauses that carry no fact."
-        ),
-        Severity.WARNING if rule_id == "readability_warning" else Severity.ERROR,
+        f"{subject}: {detail}. {advice}",
+        Severity.WARNING if rule_id.endswith("warning") else Severity.ERROR,
     )
 
 
-def _scores_for(ctx: ValidationContext) -> ReadabilityScores | None:
+def _scores_for(
+    ctx: ValidationContext, cards: bool = False
+) -> ReadabilityScores | None:
     """Return the scores for a topic note, or ``None`` for anything else."""
     if not is_topic_note(ctx):
         return None
-    return score_text(ctx.text, _course_dir(ctx.path.parts))
+    scorer = card_scores if cards else score_text
+    return scorer(ctx.text, _course_dir(ctx.path.parts))
+
+
+def _report(
+    ctx: ValidationContext, rule_id: str, cards: bool
+) -> list[ValidationMessage]:
+    """Report *ctx* when *rule_id* is the level its scores reach."""
+    scores = _scores_for(ctx, cards)
+    if (
+        scores is None
+        or violation_rule_id(scores, "readability" if not cards else "card_readability")
+        != rule_id
+    ):
+        return []
+    return [_message(rule_id, _violations(scores), cards)]
 
 
 @RULE_REGISTRY.register()
 def readability_warning(ctx: ValidationContext) -> list[ValidationMessage]:
-    """Warn when one or two readability metrics sit outside their band."""
-    scores = _scores_for(ctx)
-    if scores is None or violation_rule_id(scores) != "readability_warning":
-        return []
-    return [_message("readability_warning", _violations(scores))]
+    """Warn when one or two prose metrics sit past their limit."""
+    return _report(ctx, "readability_warning", False)
 
 
 @RULE_REGISTRY.register()
 def readability_error(ctx: ValidationContext) -> list[ValidationMessage]:
-    """Error when three or more readability metrics sit outside their band."""
-    scores = _scores_for(ctx)
-    if scores is None or violation_rule_id(scores) != "readability_error":
-        return []
-    return [_message("readability_error", _violations(scores))]
+    """Error when three or more prose metrics sit past their limit."""
+    return _report(ctx, "readability_error", False)
+
+
+@RULE_REGISTRY.register()
+def card_readability_warning(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Warn when one or two card metrics sit past their limit."""
+    return _report(ctx, "card_readability_warning", True)
+
+
+@RULE_REGISTRY.register()
+def card_readability_error(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Error when three or more card metrics sit past their limit."""
+    return _report(ctx, "card_readability_error", True)

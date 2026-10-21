@@ -16,12 +16,17 @@ from main_mods.readability import (
     BANDS,
     RULE_REGISTRY,
     ReadabilityScores,
+    card_readability_error,
+    card_readability_warning,
+    card_scores,
+    card_text,
     english_share,
     measure,
     prose_text,
     readability_error,
     readability_warning,
     score_text,
+    split_parts,
     split_sentences,
     syllables,
     violation_rule_id,
@@ -99,10 +104,60 @@ def test_prose_text_removes_markup():
     assert "energy" in prose
 
 
-def test_prose_text_splits_a_card_into_two_sentences():
+def test_card_text_splits_a_card_into_two_sentences():
     """A two-sided card holds two sentences, not one run-on."""
-    sentences = split_sentences(prose_text("question ::@:: answer"))
+    sentences = split_sentences(card_text("question ::@:: answer"))
     assert [sentence.strip() for sentence in sentences] == ["question", "answer"]
+
+
+def test_prose_and_cards_are_separate():
+    """A card block leaves the prose, and the prose leaves the cards."""
+    text = (
+        "## section\n"
+        "Plain prose about a resistor.\n"
+        "\n"
+        "---\n"
+        "\n"
+        "Flashcards for this section are as follows:\n"
+        "- what a resistor does ::@:: it limits current\n"
+    )
+    prose, cards = split_parts(text)
+    assert "Plain prose" in prose
+    assert "resistor does" not in prose
+    assert "limits current" in cards
+    assert "Plain prose" not in cards
+
+
+def test_card_block_ends_at_the_next_heading():
+    """A heading closes the card block, so later prose is measured as prose."""
+    text = (
+        "Flashcards for this section are as follows:\n"
+        "- one ::@:: two\n"
+        "## next\n"
+        "Prose after the cards.\n"
+    )
+    prose, cards = split_parts(text)
+    assert "Prose after the cards" in prose
+    assert "Prose after the cards" not in cards
+
+
+def test_references_section_is_not_prose():
+    """Provenance is a citation list, so it is measured as neither part."""
+    text = (
+        "## body\n"
+        "A sentence of prose.\n"
+        "## references\n"
+        "- McDermott, K. B. & Roediger, H. L. III (2023). Memory.\n"
+    )
+    prose, cards = split_parts(text)
+    assert "A sentence of prose" in prose
+    assert "McDermott" not in prose + cards
+
+
+def test_thematic_break_is_not_a_sentence():
+    """A rule line is layout, and counting it would deflate the sentence mean."""
+    prose, _ = split_parts("One sentence.\n\n---\n\nAnother sentence.\n")
+    assert "---" not in prose
 
 
 def test_maths_is_not_counted_as_words():
@@ -178,6 +233,13 @@ def test_smog_is_skipped_below_ten_sentences():
     assert scores.flesch is not None
 
 
+def test_only_dense_text_violates():
+    """Plain and simple prose is the target, so nothing fires below the limit."""
+    assert violation_rule_id(replace(BASELINE, flesch=95.0)) is None
+    assert violation_rule_id(replace(BASELINE, grade=4.0)) is None
+    assert violation_rule_id(replace(BASELINE, dale_chall=2.0)) is None
+
+
 def test_level_follows_the_violation_count():
     """One or two violations warn; three make it an error; none say nothing."""
     assert violation_rule_id(BASELINE) is None
@@ -195,7 +257,7 @@ def test_rules_report_a_heavy_note_as_an_error():
     assert len(errors) == 1
     assert errors[0].severity is Severity.ERROR
     assert errors[0].rule_id == "readability_error"
-    assert "of 7 readability metrics" in errors[0].msg
+    assert "of 7 readability metrics are too dense" in errors[0].msg
     assert readability_warning(ctx) == []
 
 
@@ -206,10 +268,45 @@ def test_rules_ignore_a_container_page():
     assert readability_error(ctx) == []
 
 
+def test_card_rules_score_the_card_block_alone():
+    """Dense cards in a clean note are reported by the card rules only."""
+    cards = "".join(
+        "- electromagnetic characterization demonstration ::@:: "
+        "considerable intermodulation variability appears in the "
+        "characterization\n"
+        for _ in range(6)
+    )
+    ctx = make_ctx(
+        "## section\nA short and plain sentence of prose.\n\n---\n\n"
+        "Flashcards for this section are as follows:\n" + cards
+    )
+    assert readability_warning(ctx) == []
+    assert readability_error(ctx) == []
+    assert len(card_readability_error(ctx)) == 1
+    assert card_readability_warning(ctx) == []
+
+
+def test_card_rules_skip_a_note_with_few_cards():
+    """Four cards are needed before a card block is worth scoring."""
+    text = (
+        "## section\nProse.\nFlashcards for this section are as follows:\n"
+        "- electromagnetic characterization ::@:: intermodulation variability\n"
+    )
+    ctx = make_ctx(text)
+    assert card_scores(text, "/tmp/no-such-course") is None
+    assert card_readability_warning(ctx) == []
+    assert card_readability_error(ctx) == []
+
+
 def test_rules_are_registered_under_their_own_names():
     """The validator merges this registry, so ids must match function names."""
     ids = {rid for rid, _ in RULE_REGISTRY.items()}
-    assert ids == {"readability_warning", "readability_error"}
+    assert ids == {
+        "readability_warning",
+        "readability_error",
+        "card_readability_warning",
+        "card_readability_error",
+    }
     assert set(BANDS) == {
         "flesch",
         "grade",

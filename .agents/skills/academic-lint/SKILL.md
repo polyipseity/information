@@ -83,11 +83,25 @@ A section name is a term: `time constant`, not `the time constant`; `hysteresis`
 
 ## Readability rules
 
-Seven standard metrics score each topic note against a two-sided band: Flesch reading ease 35 to 80, Flesch-Kincaid grade 6 to 13, Gunning fog 6 to 13.5, SMOG 6.5 to 13, Coleman-Liau 7.5 to 14.5, automated readability index 5.5 to 13.5, Dale-Chall 5 to 8.8. A note with one or two metrics outside their band gets `readability_warning`; three or more gets `readability_error`. Notes under 120 words, under 8 sentences, or mostly non-English are skipped, and SMOG is skipped under ten sentences.
+Seven standard metrics score each topic note against a single density limit:
 
-A word the course already uses as a heading or alias is jargon and never counts as difficult, which is Fog's own definition, not an exemption. The bands sit where the corpus puts the edges: below grade 6 is primary-school prose, above grade 13 is graduate density.
+| Metric | Fails above |
+| --- | --- |
+| Flesch reading ease | below 35, because the scale runs backwards |
+| Flesch-Kincaid grade | 13 |
+| Gunning fog | 13.5 |
+| SMOG | 13 |
+| Coleman-Liau | 14.5 |
+| automated readability index | 13.5 |
+| Dale-Chall | 8.8 |
 
-The seven metrics measure the shape of the prose, not whether it teaches anything. Padding a sentence or shredding one into fragments moves a score and is a worse defect than the one reported. The fix for a failing metric is structural: merge or split sections, break up the longest sentences, cut clauses that carry no fact.
+Only one direction counts. Text denser than the limit is the defect; plain prose under every limit is the target, so nothing fires for writing simply. A note with one or two metrics past the limit gets `readability_warning`, three or more get `readability_error`.
+
+Prose and cards are measured apart, because they are read differently. The prose score leaves out frontmatter, headings, maths, code, the `Flashcards for this section are as follows:` separator and everything under it, and the `## references` list. The card score measures that block alone, and reports `card_readability_warning` or `card_readability_error` from the same limits. Prose needs 120 words and 8 sentences to score, cards need 60 words and 4 sentences, and a note that is mostly non-English is skipped.
+
+A word the course already uses as a heading or alias is jargon and never counts as difficult, which is Fog's own definition, not an exemption.
+
+The seven metrics measure the shape of the text, not whether it teaches anything. Padding a sentence or shredding one into fragments moves a score and is a worse defect than the one reported. The fix for a failing metric is structural: merge or split sections, break up the longest sentences, cut clauses that carry no fact. A failing card means it asks two things at once or pads an answer that should be one term.
 
 ## Suppression
 
