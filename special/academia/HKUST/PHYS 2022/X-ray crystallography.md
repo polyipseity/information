@@ -26,7 +26,7 @@ Flashcards for this section are as follows:
 
 ## reading a pattern
 
-The peak positions come first: every measured scattering angle $2\theta$ returns its plane spacing $d$ through $n\lambda = 2d\sin\theta$, and the spacings identify the lattice through its [Miller indices](Bragg%27s%20law.md#Miller%20indices%20and%20d-spacings). The intensities come second: they set how much scattering each part of the cell contributes, and the density map is built and refined until it reproduces the measured intensities.
+The peak positions come first. Every measured scattering angle $2\theta$ returns its plane spacing $d$ through $n\lambda = 2d\sin\theta$, and the spacings identify the lattice through its [Miller indices](Bragg%27s%20law.md#Miller%20indices%20and%20d-spacings). The intensities come second. They set how much scattering each part of the cell contributes, and the density map is built and refined until it reproduces them.
 
 ---
 
@@ -37,13 +37,13 @@ Flashcards for this section are as follows:
 
 ## temperature of the target
 
-The lattice that satisfies Bragg's law is the lattice of the atoms' mean positions. At any temperature the atoms vibrate about those positions, and the diffraction pattern reads the vibration as lost intensity. An atom that scatters from a displaced position reradiates waves that slip out of step with the waves from its neighbours, so the elastic Bragg peaks lose intensity to a diffuse thermal background. That loss is the Debye–Waller factor: the peak intensity falls as $\exp(-2M)$, with $M = 8\pi^2\langle u^2\rangle\sin^2\theta/\lambda^2$. Here $\langle u^2\rangle$ is the mean-square displacement of an atom along the scattering vector, the direction in which the beam's momentum changes, and it is a third of the atom's total mean-square displacement when the vibration is isotropic.
+The lattice that satisfies Bragg's law is the lattice of the atoms' mean positions. At any temperature the atoms vibrate about those positions, and the diffraction pattern reads the vibration as lost intensity. An atom that scatters from a displaced position reradiates waves out of step with those from its neighbours. The elastic Bragg peaks therefore lose intensity to a diffuse thermal background. That loss is the Debye–Waller factor: the peak intensity falls as $\exp(-2M)$, with $M = 8\pi^2\langle u^2\rangle\sin^2\theta/\lambda^2$. Here $\langle u^2\rangle$ is the mean-square displacement of an atom along the scattering vector, the direction the beam's momentum changes in. When the vibration is isotropic, it is a third of the atom's total mean-square displacement.
 
 The vibration leaves that mean lattice where it is, so it does not shift the peaks; the intensities pay for it instead. Because $M$ grows with $\sin^2\theta$, the high-angle peaks of a warm sample fade first: heating raises $\langle u^2 \rangle$ and drains the pattern into the diffuse background, while cooling restores the weak high-angle peaks. Even at absolute zero the zero-point vibration leaves a residual attenuation.
 
 Temperature reaches the peak positions by a second route. A solid expands as it warms, so every plane spacing $d$ grows, and $n\lambda = 2d\sin\theta$ then needs a smaller $\theta$: each peak moves toward the beam. The shift is small but measurable, and it makes a lattice parameter belong to the temperature at which the sample was measured. Heating the sample inside the diffractometer and following the shift measures the thermal expansion directly.
 
-Both effects belong to the diffraction family, not to X-rays alone. [Neutron diffraction](neutron%20diffraction.md) scatters from the nucleus of the vibrating atom and [low-energy electron diffraction](low-energy%20electron%20diffraction.md) from its vibrating surface layer. Every member of the family reads the same lattice, so every one loses intensity through the Debye–Waller factor and every one shifts its peaks as the crystal expands; intensities and lattice parameters are quoted at a stated target temperature.
+Both effects belong to the diffraction family, not to X-rays alone. [Neutron diffraction](neutron%20diffraction.md) scatters from the nucleus of the vibrating atom and [low-energy electron diffraction](low-energy%20electron%20diffraction.md) from its vibrating surface layer. Every member of the family reads the same lattice, so every one loses intensity through the Debye–Waller factor and shifts its peaks as the crystal expands. Intensities and lattice parameters are therefore quoted at a stated target temperature.
 
 ---
 

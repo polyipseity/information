@@ -20,7 +20,7 @@ Flashcards for this section are as follows:
 
 ## absorption transitions
 
-A photon whose energy matches the gap between two stationary states is absorbed, giving its energy to the atom and moving the electron from the lower state to the higher one. The condition is the one that governs emission as well, $hf = E_u - E_l$ with $E_u$ and $E_l$ the two state energies, so the wavelengths taken out of the light are the wavelengths those transitions can emit. The atom holds that energy only briefly: a hydrogen atom sits in the state a photon has just excited it to for about $10^{-10}\ \text{s}$, then emits a photon and returns lower.
+A photon whose energy matches the gap between two stationary states is absorbed, giving its energy to the atom and moving the electron from the lower state to the higher one. The condition is the one that governs emission as well, $hf = E_u - E_l$ with $E_u$ and $E_l$ the two state energies. So the wavelengths taken out of the light are the wavelengths those transitions can emit. The atom holds that energy only briefly: a hydrogen atom sits in the state a photon has just excited it to for about $10^{-10}\ \text{s}$, then emits a photon and returns lower.
 
 ---
 
@@ -32,7 +32,7 @@ Flashcards for this section are as follows:
 
 ## observable series
 
-Which lines show depends on where the atoms already are. At ordinary temperatures practically every hydrogen atom sits in the ground state, so only Lyman-series light can be absorbed, and those lines lie outside the visible. Sunlight spans the visible, and passing through the sun's outer atmosphere it meets hydrogen that absorbs the Balmer wavelengths: the solar absorption spectrum carries dark lines at the known Balmer wavelengths.
+Which lines show depends on where the atoms already are. At ordinary temperatures practically every hydrogen atom sits in the ground state, so only Lyman-series light can be absorbed, and those lines lie outside the visible. Sunlight spans the visible. Passing through the sun's outer atmosphere, it meets hydrogen that absorbs the Balmer wavelengths, so the solar absorption spectrum carries dark lines at the known Balmer wavelengths.
 
 ---
 

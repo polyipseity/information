@@ -27,7 +27,7 @@ Millikan set out to show Einstein wrong and spent almost ten years on the attemp
 
 Flashcards for this section are as follows:
 
-- the two observations before 1900, by Heinrich Hertz and Wilhelm Hallwachs ::@:: Heinrich Hertz's detector spark grew more vigorous under ultraviolet light in 1887, and Wilhelm Hallwachs found positive charges on a zinc plate in 1888, produced by electron emission.
+- the two observations before 1900, by Heinrich Hertz and Wilhelm Hallwachs ::@:: Heinrich Hertz's detector spark grew stronger under ultraviolet light in 1887. Wilhelm Hallwachs found positive charges on a zinc plate in 1888.
 - J. J. Thomson's 1898 finding ::@:: The number of emitted electrons varied with the intensity of the ultraviolet light.
 - Philipp Lenard's systematic study: what he measured ::@:: The dependence of kinetic energy and the number of emitted electrons on the intensity and frequency of incident light.
 - Robert Millikan's 1916 photoelectric measurements on sodium: the threshold frequency ::@:: No photoelectrons below $4.39 \times 10^{14}\ \text{Hz}$, a wavelength of $683\ \text{nm}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
@@ -120,6 +120,6 @@ A charge-coupled device (CCD) sensor consists of millions of tiny pixels, each b
 
 Flashcards for this section are as follows:
 
-- a charge-coupled device (CCD) pixel: the component that traps photoelectrons, and what it records ::@:: A metal-oxide-semiconductor (MOS) capacitor, which creates a potential well that holds the ejected electrons; the accumulated charge is proportional to the light intensity.
+- a charge-coupled device (CCD) pixel: the component that traps photoelectrons, and what it records ::@:: A metal-oxide-semiconductor (MOS) capacitor, which makes a potential well that holds the electrons. The charge built up is proportional to light intensity.
 - how charge-coupled device (CCD) charges are read out ::@:: Charges are transferred pixel by pixel along rows to a readout amplifier (bucket-brigade readout), where each charge packet is converted to a voltage.
-- front-illuminated charge-coupled devices (CCDs) and back-thinned scientific CCDs: which of them has a visible-range quantum efficiency near $40\%$ and which exceeds $90\%$? ::@:: Front-illuminated charge-coupled devices (CCDs) peak near $40\%$ in the visible, while back-thinned scientific CCDs exceed $90\%$.
+- front-illuminated and back-thinned charge-coupled devices (CCDs): which has a visible quantum efficiency near $40\%$, and which exceeds $90\%$? ::@:: The front-illuminated kind peaks near $40\%$ in the visible. Back-thinned scientific devices exceed $90\%$.
