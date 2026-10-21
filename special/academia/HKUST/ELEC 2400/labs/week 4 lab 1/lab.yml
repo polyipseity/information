@@ -1,0 +1,40 @@
+assignment:
+  comments:
+    3829264:
+      attachments: []
+      author: \[redacted\]
+      content: "Q1 -> 6/6
+
+        Q2 -> 5/5
+
+        Q3 -> 6/6
+
+        Q4 -> 5/5
+
+        Q5 -> 10/10
+
+        Q6 -> 8/8"
+      datetime: 2026-10-09 10:55:00+08:00
+      id: 3829264
+  content: No additional details were added for this assignment.
+  grade:
+    entered: 40
+    graded anonymously: false
+    possible: 40
+  id: 444011
+  properties:
+    available:
+      end: 2026-09-22 20:00:00+08:00
+      start: null
+    due: 2026-09-22 19:50:00+08:00
+    points: 40
+    submitting:
+      - a file upload
+  submissions:
+    - datetime: 2026-09-22 18:08:00+08:00
+      id: -1
+  title: ELEC2400 - Lab 1a
+course:
+  id: 72430
+  name: ELEC2400 (L1)
+type: submission/Canvas/canvas.ust.hk

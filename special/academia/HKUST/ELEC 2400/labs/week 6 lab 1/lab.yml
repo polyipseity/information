@@ -1,0 +1,26 @@
+assignment:
+  comments: {}
+  content: No additional details were added for this assignment.
+  grade:
+    entered: ""
+    graded anonymously: null
+    possible: ""
+  id: 444013
+  properties:
+    available:
+      end: 2026-10-06 20:00:00+08:00
+      start: null
+    due: 2026-10-06 19:50:00+08:00
+    file types:
+      - pdf
+    points: 100
+    submitting:
+      - a file upload
+  submissions:
+    - datetime: 2026-10-06 18:25:00+08:00
+      id: -1
+  title: ELEC2400 - Lab 2
+course:
+  id: 72430
+  name: ELEC2400 (L1)
+type: submission/Canvas/canvas.ust.hk

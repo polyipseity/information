@@ -33,7 +33,9 @@ Only the first step is a choice; everything after it is forced by the circuit.
 
 A two-node circuit with a $2\text{ A}$ source entering node $V_a$, a $1\text{ A}$ source leaving node $V_b$, resistors of $3\ \Omega$ and $2\ \Omega$ about $V_a$, and $1\ \Omega$ about $V_b$ gives $2 = \frac{V_a}{3} + \frac{V_a - V_b}{2}$, that is $5V_a - 3V_b = 12$, and $\frac{V_a - V_b}{2} = \frac{V_b}{1} + 1$, that is $V_a - 3V_b = 2$. Subtracting the second from the first leaves $4V_a = 10$, so $V_a = \frac{5}{2}\text{ V}$ and $V_b = \frac{1}{6}\text{ V}$, with $I_1 = \frac{1}{6}\text{ A}$, $I_2 = \frac{7}{6}\text{ A}$, and $I_3 = \frac{5}{6}\text{ A}$.
 
-`(GND)─[2A↑]─(Va)─[3Ω]─(GND) │ (Va)─[2Ω]─(Vb)─[1Ω]─(GND) │ (Vb)─[1A↓]─(GND)`
+Circuit lines in these notes follow one notation: `(X)` names a node, with `(GND)` the zero-volt ground node; `[...]` holds one element, its value and marks spelled out in words; `—` is a wire joining consecutive items; and `A ∥ B` puts two elements in parallel between the same pair of nodes. The line `(A) — [2 Ω] — (B)` reads node $A$ feeding a $2\ \Omega$ resistor that reaches node $B$.
+
+`(GND) — [2 A source, up] — (Va) — [3 Ω] — (GND)`, `(Va) — [2 Ω] — (Vb) — [1 Ω] — (GND)`, and `(Vb) — [1 A source, down] — (GND)`
 
 ---
 
@@ -46,6 +48,7 @@ Flashcards for this section are as follows:
 - non-listed step: how much of the procedure is a matter of choice? ::@:: Only the choice of reference node; the remaining equations are dictated by the circuit.
 - two-node solve: a $2\text{ A}$ source enters node $V_a$, a $3\ \Omega$ resistor joins $V_a$ to ground, a $2\ \Omega$ resistor joins $V_a$ to node $V_b$, a $1\ \Omega$ resistor joins $V_b$ to ground, and a $1\text{ A}$ source leaves $V_b$; write the two node equations. ::@:: $2 = \frac{V_a}{3} + \frac{V_a - V_b}{2}$, giving $5V_a - 3V_b = 12$, and $\frac{V_a - V_b}{2} = \frac{V_b}{1} + 1$, giving $V_a - 3V_b = 2$.
 - two-node solution: the equations $5V_a - 3V_b = 12$ and $V_a - 3V_b = 2$ come from a two-node circuit whose $3\ \Omega$ resistor joins $V_a$ to ground, whose $2\ \Omega$ resistor joins $V_a$ to $V_b$, and whose $1\ \Omega$ resistor joins $V_b$ to ground; find the node voltages and the current in each of those three resistors. ::@:: Subtracting the equations gives $4V_a = 10$, so $V_a = \frac{5}{2}\text{ V}$ and $V_b = \frac{1}{6}\text{ V}$, with $I_1 = \frac{1}{6}\text{ A}$ through the $1\ \Omega$, $I_2 = \frac{7}{6}\text{ A}$ through the $2\ \Omega$, and $I_3 = \frac{5}{6}\text{ A}$ through the $3\ \Omega$.
+- reading a circuit line: in the notation `(X) — [elements] — (Y)`, what do the parentheses, the brackets, the dash, and `∥` mean? ::@:: `(X)` names a node, with `(GND)` the zero-volt ground node; `[...]` holds one element with its value and marks spelled out; `—` is a wire joining consecutive items; and `A ∥ B` puts A and B in parallel between the same pair of nodes.
 
 ## reference node
 
@@ -83,7 +86,7 @@ A supernode is the region formed by grouping the two terminals of a voltage sour
 
 In a circuit of a $6\text{ V}$ source, a $2\text{ k}\Omega$ resistor, a $12\text{ V}$ source, a second $2\text{ k}\Omega$ resistor, and a $-4\text{ V}$ source, with $1\text{ k}\Omega$ and $2\text{ k}\Omega$ resistors to ground, the current $I_x$ through the $12\text{ V}$ source cannot be written in terms of $V_a$ and $V_b$. Grouping the source's terminals gives $I_1 = I_2 + I_x = I_2 + I_o + I_3$ and hence $\frac{6 - V_a}{2\text{ k}} = \frac{V_a}{1\text{ k}} + \frac{V_a + 12}{2\text{ k}} + \frac{V_a + 12 - (-4)}{2\text{ k}}$, so $V_a = -\frac{22}{5}\text{ V}$ and $I_o = \frac{V_a + 12}{2\text{ k}} = 3.8\text{ mA}$.
 
-`(GND)─[6V+↑]─[2kΩ]─(Va)─[1kΩ]─(GND) │ (Va)─[12V with + at (Vb)]─(Vb)─[2kΩ]─(GND) │ (Vb)─[−4V+@Vb]─[2kΩ]─(GND)`
+`(GND) — [6 V source, + up] — [2 kΩ] — (Va) — [1 kΩ] — (GND)`, `(Va) — [12 V source, + at (Vb)] — (Vb) — [2 kΩ] — (GND)`, and `(Vb) — [−4 V source, + at (Vb)] — [2 kΩ] — (GND)`
 
 ---
 
@@ -92,7 +95,7 @@ Flashcards for this section are as follows:
 - supernode: what is it, and how is the current law applied to it? ::@:: A supernode is the region enclosing a voltage source's two terminals, treated as one node for the current law while the source itself supplies the relation between the two node voltages.
 - why a supernode: what problem does grouping a voltage source's terminals solve? ::@:: The current through the floating source is unknown, so the current law is applied to the enclosing region instead, where every remaining current is a resistor current expressible in node voltages.
 - supernode equation: what equation does the voltage source still contribute once its terminals form a supernode? ::@:: The difference between the two node voltages, fixed by the source's value.
-- worked supernode: `(GND)─[6V+↑]─[2kΩ]─(Va)─[1kΩ]─(GND) │ (Va)─[12V with + at (Vb)]─(Vb)─[2kΩ]─(GND) │ (Vb)─[−4V+@Vb]─[2kΩ]─(GND)`, with $I_o$ the current down the $2\text{ k}\Omega$ resistor from $V_b$ to ground; what is $V_a$ and what is $I_o$? ::@:: $\frac{6 - V_a}{2\text{ k}} = \frac{V_a}{1\text{ k}} + \frac{V_a + 12}{2\text{ k}} + \frac{V_a + 12 - (-4)}{2\text{ k}}$ gives $V_a = -\frac{22}{5}\text{ V}$ and $I_o = \frac{V_a + 12}{2\text{ k}\Omega} = 3.8\text{ mA}$.
+- worked supernode: `(GND) — [6 V source, + up] — [2 kΩ] — (Va) — [1 kΩ] — (GND)`, `(Va) — [12 V source, + at (Vb)] — (Vb) — [2 kΩ] — (GND)`, and `(Vb) — [−4 V source, + at (Vb)] — [2 kΩ] — (GND)`, with $I_o$ the current down the $2\text{ k}\Omega$ resistor from $V_b$ to ground; what is $V_a$ and what is $I_o$? ::@:: $\frac{6 - V_a}{2\text{ k}} = \frac{V_a}{1\text{ k}} + \frac{V_a + 12}{2\text{ k}} + \frac{V_a + 12 - (-4)}{2\text{ k}}$ gives $V_a = -\frac{22}{5}\text{ V}$ and $I_o = \frac{V_a + 12}{2\text{ k}\Omega} = 3.8\text{ mA}$.
 
 ## dependent sources
 
@@ -100,7 +103,7 @@ A dependent source adds no new difficulty, since the current law is still writte
 
 In the circuit of a $10\text{ V}$ source feeding a $2\ \Omega$ resistor that carries $I_1$ to node $V_a$, where a $3\text{ A}$ source injects, a $1\ \Omega$ resistor returns to ground, and a dependent source $2I_1$ sits in the returning branch, the current law at the node reads $I_1 + 3 = \frac{V_a - 2I_1}{1}$. Substituting $I_1 = \frac{10 - V_a}{2}$ gives $10 - V_a + 6 = 4V_a - 20$, so $V_a = 7.2\text{ V}$ and $I_1 = 1.4\text{ A}$.
 
-`(10V+↑)─[2Ω carrying I₁]─(Va) │ (Va)─[3A↑]─(GND) │ (Va)─[1Ω]─(node held at 2I₁ by a dependent voltage source)─(GND)`
+`[10 V source, + up] — [2 Ω carrying I₁] — (Va)`, `(Va) — [3 A source, up] — (GND)`, and `(Va) — [1 Ω] — (node held at 2I₁ by a dependent voltage source) — (GND)`
 
 ---
 
@@ -108,7 +111,7 @@ Flashcards for this section are as follows:
 
 - dependent source: what does it add to the node equations? ::@:: A dependent source enters the node equations as an extra unknown that must be rewritten in node voltages, after which the system solves as before.
 - controlling quantity first: why must the controlling quantity of a dependent source be written in node voltages before solving? ::@:: The controlling quantity is itself a function of the node voltages, so the equations hold more unknowns than they can determine until it is expressed that way.
-- dependent source in a node equation: `(10V+↑)─[2Ω carrying I₁]─(Va) │ (Va)─[3A↑]─(GND) │ (Va)─[1Ω]─(node held at 2I₁ by a dependent voltage source)─(GND)`; with $I_1$ the current through the $2\ \Omega$ resistor and the dependent source holding its far node at $2I_1$, write the current law and solve. ::@:: $I_1 + 3 = \frac{V_a - 2I_1}{1}$ with $I_1 = \frac{10 - V_a}{2}$ gives $10 - V_a + 6 = 4V_a - 20$, so $V_a = 7.2\text{ V}$ and $I_1 = 1.4\text{ A}$.
+- dependent source in a node equation: `[10 V source, + up] — [2 Ω carrying I₁] — (Va)`, `(Va) — [3 A source, up] — (GND)`, and `(Va) — [1 Ω] — (node held at 2I₁ by a dependent voltage source) — (GND)`; with $I_1$ the current through the $2\ \Omega$ resistor and the dependent source holding its far node at $2I_1$, write the current law and solve. ::@:: $I_1 + 3 = \frac{V_a - 2I_1}{1}$ with $I_1 = \frac{10 - V_a}{2}$ gives $10 - V_a + 6 = 4V_a - 20$, so $V_a = 7.2\text{ V}$ and $I_1 = 1.4\text{ A}$.
 
 ## counting the equations
 

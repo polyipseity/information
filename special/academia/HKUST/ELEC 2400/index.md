@@ -29,25 +29,59 @@ ELEC 2400 is an undergraduate course in electronic circuits at HKUST covering fu
 ## children
 
 - [attachments/](attachments/)
+- [labs/](labs/index.md)
 - [tutorials/](tutorials/index.md)
+- [AC power](AC%20power.md)
+- [AGENTS](AGENTS.md)
+- [Euler's formula](Euler%27s%20formula.md)
 - [Kirchhoff's circuit laws](Kirchhoff%27s%20circuit%20laws.md)
 - [Norton's theorem](Norton%27s%20theorem.md)
 - [Ohm's law](Ohm%27s%20law.md)
+- [RC circuit](RC%20circuit.md)
+- [Schmitt trigger](Schmitt%20trigger.md)
 - [Thévenin's theorem](Th%C3%A9venin%27s%20theorem.md)
+- [admittance](admittance.md)
+- [analog-to-digital converter](analog-to-digital%20converter.md)
+- [buffer amplifier](buffer%20amplifier.md)
+- [capacitor](capacitor.md)
 - [circuit topology (electrical)](circuit%20topology%20(electrical).md)
+- [complex number](complex%20number.md)
 - [current divider](current%20divider.md)
 - [current source](current%20source.md)
+- [decibel](decibel.md)
 - [dependent source](dependent%20source.md)
+- [differential amplifier](differential%20amplifier.md)
+- [differentiator](differentiator.md)
+- [digital-to-analog converter](digital-to-analog%20converter.md)
 - [electric charge](electric%20charge.md)
 - [electric current](electric%20current.md)
 - [electric power](electric%20power.md)
+- [electrical impedance](electrical%20impedance.md)
 - [electrical network](electrical%20network.md)
+- [inductor](inductor.md)
+- [instrumentation amplifier](instrumentation%20amplifier.md)
+- [integrator](integrator.md)
+- [inverting amplifier](inverting%20amplifier.md)
+- [list of trigonometric identities](list%20of%20trigonometric%20identities.md)
+- [loading effect](loading%20effect.md)
 - [maximum power transfer theorem](maximum%20power%20transfer%20theorem.md)
 - [mesh analysis](mesh%20analysis.md)
+- [multimeter](multimeter.md)
+- [negative feedback](negative%20feedback.md)
+- [negative impedance converter](negative%20impedance%20converter.md)
 - [nodal analysis](nodal%20analysis.md)
+- [non-inverting amplifier](non-inverting%20amplifier.md)
+- [operational amplifier](operational%20amplifier.md)
+- [oscillator](oscillator.md)
+- [oscilloscope](oscilloscope.md)
+- [phasor](phasor.md)
 - [series and parallel circuits](series%20and%20parallel%20circuits.md)
+- [sine wave](sine%20wave.md)
 - [source transformation](source%20transformation.md)
+- [summing amplifier](summing%20amplifier.md)
 - [superposition principle](superposition%20principle.md)
+- [transformer](transformer.md)
+- [virtual ground](virtual%20ground.md)
 - [voltage divider](voltage%20divider.md)
 - [voltage source](voltage%20source.md)
 - [voltage](voltage.md)
@@ -121,6 +155,24 @@ ELEC 2400 is an undergraduate course in electronic circuits at HKUST covering fu
         - [source transformation](source%20transformation.md)
         - [superposition principle](superposition%20principle.md)
         - [voltage divider](voltage%20divider.md)
+    - operational amplifiers
+        - [operational amplifier](operational%20amplifier.md)
+    - AC analysis
+        - [AC power](AC%20power.md)
+        - [Euler's formula](Euler%27s%20formula.md)
+        - [capacitor](capacitor.md)
+        - [complex number](complex%20number.md)
+        - [electrical impedance](electrical%20impedance.md)
+        - [admittance](admittance.md)
+        - [inductor](inductor.md)
+        - [phasor](phasor.md)
+        - [RC circuit](RC%20circuit.md)
+        - [sine wave](sine%20wave.md)
+        - [list of trigonometric identities](list%20of%20trigonometric%20identities.md)
+        - [transformer](transformer.md)
+    - laboratory instruments
+        - [multimeter](multimeter.md)
+        - [oscilloscope](oscilloscope.md)
 - intended learning outcomes
     - apply the fundamental circuit concepts to compute the output of basic electronic circuits in response to a DC input signal
     - recognize sinusoidal steady state characteristics with phasors and compute the output of basic electronic circuits in response to an AC input
@@ -303,6 +355,12 @@ ELEC 2400 is an undergraduate course in electronic circuits at HKUST covering fu
     - [§ ground reference](Kirchhoff%27s%20circuit%20laws.md#ground%20reference)
     - [§ external ground and supply connections](Kirchhoff%27s%20circuit%20laws.md#external%20ground%20and%20supply%20connections)
 
+## week 3 lab 1
+
+- datetime: 2026-09-15T17:00:00+08:00/2026-09-15T19:50:00+08:00, PT2H50M
+- venue: Rm 2133, Lift 19, 21, 22
+- status: unscheduled
+
 ## week 3 lecture 2
 
 - datetime: 2026-09-16T09:00:00+08:00/2026-09-16T10:20:00+08:00
@@ -320,6 +378,30 @@ ELEC 2400 is an undergraduate course in electronic circuits at HKUST covering fu
     - [§ dual of the voltage divider](current%20divider.md#dual%20of%20the%20voltage%20divider)
     - [§ division ratio](current%20divider.md#division%20ratio)
     - [§ which branch takes more current](current%20divider.md#which%20branch%20takes%20more%20current)
+
+## week 3 tutorial 1
+
+- datetime: 2026-09-16T15:00:00+08:00/2026-09-16T15:50:00+08:00, PT50M
+- venue: Rm 2304, Lift 17-18
+- topic: sign of Ohm's law under the reference direction; current law at a node and voltage law round a loop; voltage divider; current divider; nodal analysis at one node
+- [tutorial](tutorials/week%203%20tutorial%201/tutorial.md)
+    - [§ sign of Ohm's law under the reference direction](tutorials/week%203%20tutorial%201/tutorial.md#sign%20of%20Ohm's%20law%20under%20the%20reference%20direction)
+    - [§ current law at a node and voltage law round a loop](tutorials/week%203%20tutorial%201/tutorial.md#current%20law%20at%20a%20node%20and%20voltage%20law%20round%20a%20loop)
+    - [§ voltage divider](tutorials/week%203%20tutorial%201/tutorial.md#voltage%20divider)
+    - [§ current divider](tutorials/week%203%20tutorial%201/tutorial.md#current%20divider)
+    - [§ nodal analysis at one node](tutorials/week%203%20tutorial%201/tutorial.md#nodal%20analysis%20at%20one%20node)
+- [Ohm's law](Ohm%27s%20law.md)
+    - [§ resistor](Ohm%27s%20law.md#resistor)
+- [Kirchhoff's circuit laws](Kirchhoff%27s%20circuit%20laws.md)
+    - [§ Kirchhoff's current law](Kirchhoff%27s%20circuit%20laws.md#Kirchhoff's%20current%20law)
+    - [§ Kirchhoff's voltage law](Kirchhoff%27s%20circuit%20laws.md#Kirchhoff's%20voltage%20law)
+- [voltage divider](voltage%20divider.md)
+    - [§ division ratio](voltage%20divider.md#division%20ratio)
+- [current divider](current%20divider.md)
+    - [§ division ratio](current%20divider.md#division%20ratio)
+    - [§ dual of the voltage divider](current%20divider.md#dual%20of%20the%20voltage%20divider)
+- [nodal analysis](nodal%20analysis.md)
+    - [§ procedure](nodal%20analysis.md#procedure)
 
 ## week 4 lecture 1
 
@@ -341,6 +423,25 @@ ELEC 2400 is an undergraduate course in electronic circuits at HKUST covering fu
     - [§ supermesh](mesh%20analysis.md#supermesh)
     - [§ against nodal analysis](mesh%20analysis.md#against%20nodal%20analysis)
 
+## week 4 lab 1
+
+- datetime: 2026-09-22T17:00:00+08:00/2026-09-22T19:50:00+08:00, PT2H50M
+- venue: Rm 2133, Lift 19, 21, 22
+- topic: bench instruments; phase difference of a series resistor-capacitor circuit from two waveforms and from a Lissajous plot; predicting the capacitor voltage
+- [lab](labs/week%204%20lab%201/lab.md)
+    - [§ bench instruments](labs/week%204%20lab%201/lab.md#bench%20instruments)
+    - [§ phase difference from two waveforms](labs/week%204%20lab%201/lab.md#phase%20difference%20from%20two%20waveforms)
+    - [§ phase difference from a Lissajous plot](labs/week%204%20lab%201/lab.md#phase%20difference%20from%20a%20Lissajous%20plot)
+    - [§ predicting the capacitor voltage](labs/week%204%20lab%201/lab.md#predicting%20the%20capacitor%20voltage)
+- [oscilloscope](oscilloscope.md)
+    - [§ probes](oscilloscope.md#probes)
+    - [§ X-Y display](oscilloscope.md#X-Y%20display)
+    - [§ math mode](oscilloscope.md#math%20mode)
+- [multimeter](multimeter.md)
+    - [§ quantities from a voltage](multimeter.md#quantities%20from%20a%20voltage)
+    - [§ alternating-current readings](multimeter.md#alternating-current%20readings)
+    - [§ bandwidth](multimeter.md#bandwidth)
+
 ## week 4 lecture 2
 
 - datetime: 2026-09-23T09:00:00+08:00/2026-09-23T10:20:00+08:00
@@ -355,6 +456,25 @@ ELEC 2400 is an undergraduate course in electronic circuits at HKUST covering fu
     - [§ power delivered to the load](maximum%20power%20transfer%20theorem.md#power%20delivered%20to%20the%20load)
     - [§ matched load](maximum%20power%20transfer%20theorem.md#matched%20load)
     - [§ high-voltage transmission](maximum%20power%20transfer%20theorem.md#high-voltage%20transmission)
+
+## week 4 tutorial 1
+
+- datetime: 2026-09-23T15:00:00+08:00/2026-09-23T15:50:00+08:00, PT50M
+- venue: Rm 2304, Lift 17-18
+- topic: superposition with independent sources; voltage law with a dependent voltage source; source transformation; reducing a network by source transformation
+- [tutorial](tutorials/week%204%20tutorial%201/tutorial.md)
+    - [§ superposition with independent sources](tutorials/week%204%20tutorial%201/tutorial.md#superposition%20with%20independent%20sources)
+    - [§ voltage law with a dependent voltage source](tutorials/week%204%20tutorial%201/tutorial.md#voltage%20law%20with%20a%20dependent%20voltage%20source)
+    - [§ source transformation](tutorials/week%204%20tutorial%201/tutorial.md#source%20transformation)
+    - [§ reducing a network by source transformation](tutorials/week%204%20tutorial%201/tutorial.md#reducing%20a%20network%20by%20source%20transformation)
+- [superposition principle](superposition%20principle.md)
+    - [§ applying superposition](superposition%20principle.md#applying%20superposition)
+    - [§ combining contributions](superposition%20principle.md#combining%20contributions)
+- [dependent source](dependent%20source.md)
+    - [§ loop with a dependent voltage source](dependent%20source.md#loop%20with%20a%20dependent%20voltage%20source)
+- [source transformation](source%20transformation.md)
+    - [§ the two forms](source%20transformation.md#the%20two%20forms)
+    - [§ reducing a circuit by transformation](source%20transformation.md#reducing%20a%20circuit%20by%20transformation)
 
 ## week 5 lecture 1
 
@@ -376,6 +496,324 @@ ELEC 2400 is an undergraduate course in electronic circuits at HKUST covering fu
     - [§ the two forms](source%20transformation.md#the%20two%20forms)
     - [§ external quantities only](source%20transformation.md#external%20quantities%20only)
     - [§ reducing a circuit by transformation](source%20transformation.md#reducing%20a%20circuit%20by%20transformation)
+
+## week 5 lab 1
+
+- datetime: 2026-09-29T17:00:00+08:00/2026-09-29T19:50:00+08:00, PT2H50M
+- venue: Rm 2133, Lift 19, 21, 22
+- topic: two-channel waveforms and math mode; alternating-current readings on a digital multimeter; the loading effect of an instrument on a voltage divider; the bandwidth of a digital multimeter
+- [lab](labs/week%205%20lab%201/lab.md)
+    - [§ waveforms on two channels](labs/week%205%20lab%201/lab.md#waveforms%20on%20two%20channels)
+    - [§ alternating-current readings on a multimeter](labs/week%205%20lab%201/lab.md#alternating-current%20readings%20on%20a%20multimeter)
+    - [§ loading effect](labs/week%205%20lab%201/lab.md#loading%20effect)
+    - [§ bandwidth of a multimeter](labs/week%205%20lab%201/lab.md#bandwidth%20of%20a%20multimeter)
+- [multimeter](multimeter.md)
+    - [§ alternating-current readings](multimeter.md#alternating-current%20readings)
+    - [§ bandwidth](multimeter.md#bandwidth)
+- [oscilloscope](oscilloscope.md)
+    - [§ math mode](oscilloscope.md#math%20mode)
+    - [§ probes](oscilloscope.md#probes)
+- [voltage divider](voltage%20divider.md)
+    - [§ loading a divider](voltage%20divider.md#loading%20a%20divider)
+
+## week 5 lecture 2
+
+- datetime: 2026-09-30T09:00:00+08:00/2026-09-30T10:20:00+08:00
+- venue: Rm 5403, Lift 17-18
+- topic: the operational amplifier; amplifier types; the loading chain of a practical voltage amplifier; decibel gain; the circuit model of an operational amplifier; ideal operational amplifier characteristics; open-loop behavior and saturation; positive and negative feedback; the unity-gain buffer
+- [operational amplifier](operational%20amplifier.md)
+    - [§ amplifier types](operational%20amplifier.md#amplifier%20types)
+    - [§ loading chain of a practical voltage amplifier](operational%20amplifier.md#loading%20chain%20of%20a%20practical%20voltage%20amplifier)
+    - [decibel](decibel.md)
+        - [§ decibel gain](decibel.md#decibel%20gain)
+    - [§ circuit model of an operational amplifier](operational%20amplifier.md#circuit%20model%20of%20an%20operational%20amplifier)
+    - [§ differential voltage amplifier](operational%20amplifier.md#differential%20voltage%20amplifier)
+    - [§ input and output resistance](operational%20amplifier.md#input%20and%20output%20resistance)
+    - [§ ideal operational amplifier characteristics](operational%20amplifier.md#ideal%20operational%20amplifier%20characteristics)
+    - [§ open-loop behavior and saturation](operational%20amplifier.md#open-loop%20behavior%20and%20saturation)
+    - [negative feedback](negative%20feedback.md)
+        - [§ positive and negative feedback](negative%20feedback.md#positive%20and%20negative%20feedback)
+    - [buffer amplifier](buffer%20amplifier.md)
+        - [§ unity-gain buffer](buffer%20amplifier.md#unity-gain%20buffer)
+
+## week 5 tutorial 1
+
+- datetime: 2026-09-30T15:00:00+08:00/2026-09-30T15:50:00+08:00, PT50M
+- venue: Rm 2304, Lift 17-18
+- topic: statement of Thévenin's theorem; open-circuit voltage; equivalent resistance; statement of Norton's theorem; load current by the Thévenin equivalent; load current by the Norton equivalent
+- [tutorial](tutorials/week%205%20tutorial%201/tutorial.md)
+    - [§ statement of Thévenin's theorem](tutorials/week%205%20tutorial%201/tutorial.md#statement%20of%20Thévenin's%20theorem)
+    - [§ open-circuit voltage](tutorials/week%205%20tutorial%201/tutorial.md#open-circuit%20voltage)
+    - [§ equivalent resistance](tutorials/week%205%20tutorial%201/tutorial.md#equivalent%20resistance)
+    - [§ statement of Norton's theorem](tutorials/week%205%20tutorial%201/tutorial.md#statement%20of%20Norton's%20theorem)
+    - [§ load current by the Thévenin equivalent](tutorials/week%205%20tutorial%201/tutorial.md#load%20current%20by%20the%20Thévenin%20equivalent)
+    - [§ load current by the Norton equivalent](tutorials/week%205%20tutorial%201/tutorial.md#load%20current%20by%20the%20Norton%20equivalent)
+- [Thévenin's theorem](Th%C3%A9venin%27s%20theorem.md)
+    - [§ the equivalent circuit](Th%C3%A9venin%27s%20theorem.md#the%20equivalent%20circuit)
+    - [§ computing the equivalent](Th%C3%A9venin%27s%20theorem.md#computing%20the%20equivalent)
+- [Norton's theorem](Norton%27s%20theorem.md)
+    - [§ the equivalent circuit](Norton%27s%20theorem.md#the%20equivalent%20circuit)
+    - [§ computing the equivalent](Norton%27s%20theorem.md#computing%20the%20equivalent)
+- [source transformation](source%20transformation.md)
+    - [§ the two forms](source%20transformation.md#the%20two%20forms)
+
+## week 6 lecture 1
+
+- datetime: 2026-10-05T09:00:00+08:00/2026-10-05T10:20:00+08:00
+- venue: Rm 5403, Lift 17-18
+- topic: Feedback stability, ideal operational amplifier assumptions, and the non-inverting and inverting amplifier configurations
+- [operational amplifier](operational%20amplifier.md)
+    - [negative feedback](negative%20feedback.md)
+        - [§ feedback stability under disturbance](negative%20feedback.md#feedback%20stability%20under%20disturbance)
+    - [buffer amplifier](buffer%20amplifier.md)
+        - [§ unity-gain buffer driving a resistive load](buffer%20amplifier.md#unity-gain%20buffer%20driving%20a%20resistive%20load)
+    - [loading effect](loading%20effect.md)
+        - [§ measuring a sensor with a voltmeter](loading%20effect.md#measuring%20a%20sensor%20with%20a%20voltmeter)
+    - [virtual ground](virtual%20ground.md)
+        - [§ virtual short and zero-input-current assumptions](virtual%20ground.md#virtual%20short%20and%20zero-input-current%20assumptions)
+    - [§ follower or inverter selected by a switch](operational%20amplifier.md#follower%20or%20inverter%20selected%20by%20a%20switch)
+    - [non-inverting amplifier](non-inverting%20amplifier.md)
+        - [§ the non-inverting circuit](non-inverting%20amplifier.md#the%20non-inverting%20circuit)
+    - [§ open-loop and closed-loop gain](operational%20amplifier.md#open-loop%20and%20closed-loop%20gain)
+    - [inverting amplifier](inverting%20amplifier.md)
+        - [§ the inverting circuit](inverting%20amplifier.md#the%20inverting%20circuit)
+
+## week 6 lab 1
+
+- datetime: 2026-10-06T17:00:00+08:00/2026-10-06T19:50:00+08:00, PT2H50M
+- venue: Rm 2133, Lift 19, 21, 22
+- topic: PSpice simulation workflow; verifying Kirchhoff's laws by simulation; the Thévenin equivalent by simulation; a circuit with a dependent source; transient simulation and resonance
+- [lab](labs/week%206%20lab%201/lab.md)
+    - [§ simulation workflow](labs/week%206%20lab%201/lab.md#simulation%20workflow)
+    - [§ verifying Kirchhoff's laws](labs/week%206%20lab%201/lab.md#verifying%20Kirchhoff%27s%20laws)
+    - [§ Thévenin equivalent by simulation](labs/week%206%20lab%201/lab.md#Th%C3%A9venin%20equivalent%20by%20simulation)
+    - [§ circuit with a dependent source](labs/week%206%20lab%201/lab.md#circuit%20with%20a%20dependent%20source)
+    - [§ transient simulation and resonance](labs/week%206%20lab%201/lab.md#transient%20simulation%20and%20resonance)
+- [Kirchhoff's circuit laws](Kirchhoff%27s%20circuit%20laws.md)
+- [Thévenin's theorem](Th%C3%A9venin%27s%20theorem.md)
+- [dependent source](dependent%20source.md)
+    - [§ voltage-controlled voltage source](dependent%20source.md#voltage-controlled%20voltage%20source)
+
+## week 6 lecture 2
+
+- datetime: 2026-10-07T09:00:00+08:00/2026-10-07T10:20:00+08:00
+- venue: Rm 5403, Lift 17-18
+- topic: Operational amplifier circuits: summing, difference and instrumentation amplifiers, load-independent current sources, resistance and voltage-to-current converters, multi-stage entry-point analysis, finite open-loop gain
+- [operational amplifier](operational%20amplifier.md)
+    - [inverting amplifier](inverting%20amplifier.md)
+        - [§ inverting amplifier with parallel feedback](inverting%20amplifier.md#inverting%20amplifier%20with%20parallel%20feedback)
+    - [summing amplifier](summing%20amplifier.md)
+        - [§ the summing circuit](summing%20amplifier.md#the%20summing%20circuit)
+    - [differential amplifier](differential%20amplifier.md)
+        - [§ difference amplifier](differential%20amplifier.md#difference%20amplifier)
+    - [instrumentation amplifier](instrumentation%20amplifier.md)
+    - [§ operational amplifier current source](operational%20amplifier.md#operational%20amplifier%20current%20source)
+    - [negative impedance converter](negative%20impedance%20converter.md)
+        - [§ as a voltage-to-current converter](negative%20impedance%20converter.md#as%20a%20voltage-to-current%20converter)
+    - [§ entry-point circuit analysis](operational%20amplifier.md#entry-point%20circuit%20analysis)
+    - [§ finite open-loop gain](operational%20amplifier.md#finite%20open-loop%20gain)
+
+## week 6 tutorial 1
+
+- datetime: 2026-10-07T15:00:00+08:00/2026-10-07T15:50:00+08:00, PT50M
+- venue: Rm 2304, Lift 17-18
+- topic: circuit model of an operational amplifier; input resistance of an operational amplifier; output resistance of an operational amplifier; ideal operational amplifier; inverting amplifier; gain with parallel feedback resistors; non-inverting amplifier
+- [tutorial](tutorials/week%206%20tutorial%201/tutorial.md)
+    - [§ circuit model of an operational amplifier](tutorials/week%206%20tutorial%201/tutorial.md#circuit%20model%20of%20an%20operational%20amplifier)
+    - [§ input resistance of an operational amplifier](tutorials/week%206%20tutorial%201/tutorial.md#input%20resistance%20of%20an%20operational%20amplifier)
+    - [§ output resistance of an operational amplifier](tutorials/week%206%20tutorial%201/tutorial.md#output%20resistance%20of%20an%20operational%20amplifier)
+    - [§ ideal operational amplifier](tutorials/week%206%20tutorial%201/tutorial.md#ideal%20operational%20amplifier)
+    - [§ inverting amplifier](tutorials/week%206%20tutorial%201/tutorial.md#inverting%20amplifier)
+    - [§ gain with parallel feedback resistors](tutorials/week%206%20tutorial%201/tutorial.md#gain%20with%20parallel%20feedback%20resistors)
+    - [§ non-inverting amplifier](tutorials/week%206%20tutorial%201/tutorial.md#non-inverting%20amplifier)
+
+## week 7 lecture 1
+
+- datetime: 2026-10-12T09:00:00+08:00/2026-10-12T10:20:00+08:00
+- venue: Rm 5403, Lift 17-18
+- topic: close of the operational amplifier chapter: gain error at finite open-loop gain; digitizing an analog signal; flash analog-to-digital and digital-to-analog converters; integrator, differentiator, and the double-integrator oscillator; comparator noise response, the bistable circuit, the Schmitt trigger, hysteresis, and the square waveform generator
+- [operational amplifier](operational%20amplifier.md)
+    - [§ amplifier types](operational%20amplifier.md#amplifier%20types)
+    - [§ loading chain of a practical voltage amplifier](operational%20amplifier.md#loading%20chain%20of%20a%20practical%20voltage%20amplifier)
+    - [decibel](decibel.md)
+        - [§ decibel gain](decibel.md#decibel%20gain)
+    - [§ circuit model of an operational amplifier](operational%20amplifier.md#circuit%20model%20of%20an%20operational%20amplifier)
+    - [§ differential voltage amplifier](operational%20amplifier.md#differential%20voltage%20amplifier)
+    - [§ input and output resistance](operational%20amplifier.md#input%20and%20output%20resistance)
+    - [§ ideal operational amplifier characteristics](operational%20amplifier.md#ideal%20operational%20amplifier%20characteristics)
+    - [§ open-loop behavior and saturation](operational%20amplifier.md#open-loop%20behavior%20and%20saturation)
+    - [negative feedback](negative%20feedback.md)
+        - [§ positive and negative feedback](negative%20feedback.md#positive%20and%20negative%20feedback)
+    - [buffer amplifier](buffer%20amplifier.md)
+        - [§ unity-gain buffer](buffer%20amplifier.md#unity-gain%20buffer)
+        - [§ unity-gain buffer driving a resistive load](buffer%20amplifier.md#unity-gain%20buffer%20driving%20a%20resistive%20load)
+    - [negative feedback](negative%20feedback.md)
+        - [§ feedback stability under disturbance](negative%20feedback.md#feedback%20stability%20under%20disturbance)
+    - [loading effect](loading%20effect.md)
+        - [§ measuring a sensor with a voltmeter](loading%20effect.md#measuring%20a%20sensor%20with%20a%20voltmeter)
+    - [virtual ground](virtual%20ground.md)
+        - [§ virtual short and zero-input-current assumptions](virtual%20ground.md#virtual%20short%20and%20zero-input-current%20assumptions)
+    - [§ follower or inverter selected by a switch](operational%20amplifier.md#follower%20or%20inverter%20selected%20by%20a%20switch)
+    - [non-inverting amplifier](non-inverting%20amplifier.md)
+        - [§ the non-inverting circuit](non-inverting%20amplifier.md#the%20non-inverting%20circuit)
+    - [§ open-loop and closed-loop gain](operational%20amplifier.md#open-loop%20and%20closed-loop%20gain)
+    - [inverting amplifier](inverting%20amplifier.md)
+        - [§ the inverting circuit](inverting%20amplifier.md#the%20inverting%20circuit)
+        - [§ inverting amplifier with parallel feedback](inverting%20amplifier.md#inverting%20amplifier%20with%20parallel%20feedback)
+    - [summing amplifier](summing%20amplifier.md)
+        - [§ the summing circuit](summing%20amplifier.md#the%20summing%20circuit)
+    - [differential amplifier](differential%20amplifier.md)
+        - [§ difference amplifier](differential%20amplifier.md#difference%20amplifier)
+    - [instrumentation amplifier](instrumentation%20amplifier.md)
+    - [§ operational amplifier current source](operational%20amplifier.md#operational%20amplifier%20current%20source)
+    - [negative impedance converter](negative%20impedance%20converter.md)
+        - [§ as a voltage-to-current converter](negative%20impedance%20converter.md#as%20a%20voltage-to-current%20converter)
+    - [§ entry-point circuit analysis](operational%20amplifier.md#entry-point%20circuit%20analysis)
+    - [§ finite open-loop gain](operational%20amplifier.md#finite%20open-loop%20gain)
+    - [§ gain error at finite open-loop gain](operational%20amplifier.md#gain%20error%20at%20finite%20open-loop%20gain)
+    - [analog-to-digital converter](analog-to-digital%20converter.md)
+        - [§ digitizing an analog signal](analog-to-digital%20converter.md#digitizing%20an%20analog%20signal)
+        - [§ flash analog-to-digital converter](analog-to-digital%20converter.md#flash%20analog-to-digital%20converter)
+    - [digital-to-analog converter](digital-to-analog%20converter.md)
+    - [integrator](integrator.md)
+        - [§ the integrator circuit](integrator.md#the%20integrator%20circuit)
+    - [differentiator](differentiator.md)
+        - [§ the differentiator circuit](differentiator.md#the%20differentiator%20circuit)
+    - [oscillator](oscillator.md)
+        - [§ double-integrator oscillator](oscillator.md#double-integrator%20oscillator)
+    - [Schmitt trigger](Schmitt%20trigger.md)
+        - [§ why a plain comparator chatters](Schmitt%20trigger.md#why%20a%20plain%20comparator%20chatters)
+        - [§ the state it keeps](Schmitt%20trigger.md#the%20state%20it%20keeps)
+        - [§ circuit](Schmitt%20trigger.md#circuit)
+        - [§ thresholds](Schmitt%20trigger.md#thresholds)
+        - [§ hysteresis](Schmitt%20trigger.md#hysteresis)
+        - [§ square waveform generator](Schmitt%20trigger.md#square%20waveform%20generator)
+
+## week 7 lab 1
+
+- datetime: 2026-10-13T17:00:00+08:00/2026-10-13T19:50:00+08:00, PT2H50M
+- venue: Rm 2133, Lift 19, 21, 22
+- status: no class
+
+## week 7 lecture 2
+
+- datetime: 2026-10-14T09:00:00+08:00/2026-10-14T10:20:00+08:00
+- venue: Rm 5403, Lift 17-18
+- topic: capacitors, inductors, and transformers
+- [capacitor](capacitor.md)
+    - [§ capacitance](capacitor.md#capacitance)
+    - [§ voltage, charge, and current](capacitor.md#voltage,%20charge,%20and%20current)
+    - [§ stored energy](capacitor.md#stored%20energy)
+    - [§ series and parallel connections](capacitor.md#series%20and%20parallel%20connections)
+- [inductor](inductor.md)
+    - [§ voltage and current](inductor.md#voltage%20and%20current)
+    - [§ stored energy](inductor.md#stored%20energy)
+    - [§ inductance of a coil](inductor.md#inductance%20of%20a%20coil)
+    - [§ series and parallel connections](inductor.md#series%20and%20parallel%20connections)
+- [transformer](transformer.md)
+
+## week 8 lecture 1
+
+- datetime: 2026-10-19T09:00:00+08:00/2026-10-19T10:20:00+08:00
+- venue: Rm 5403, Lift 17-18
+- topic: sinusoidal excitation and the resistor–capacitor response
+- [sine wave](sine%20wave.md)
+    - [§ period, frequency, and angular frequency](sine%20wave.md#period,%20frequency,%20and%20angular%20frequency)
+    - [§ phase, lead, and lag](sine%20wave.md#phase,%20lead,%20and%20lag)
+- [list of trigonometric identities](list%20of%20trigonometric%20identities.md)
+    - [§ angles added and subtracted](list%20of%20trigonometric%20identities.md#angles%20added%20and%20subtracted)
+    - [§ products of sinusoids](list%20of%20trigonometric%20identities.md#products%20of%20sinusoids)
+    - [§ squares and double angles](list%20of%20trigonometric%20identities.md#squares%20and%20double%20angles)
+    - [§ sums of sinusoids](list%20of%20trigonometric%20identities.md#sums%20of%20sinusoids)
+    - [§ quarter and half turns](list%20of%20trigonometric%20identities.md#quarter%20and%20half%20turns)
+- [capacitor](capacitor.md)
+    - [§ response to a sinusoidal voltage](capacitor.md#response%20to%20a%20sinusoidal%20voltage)
+- [inductor](inductor.md)
+    - [§ response to a sinusoidal voltage](inductor.md#response%20to%20a%20sinusoidal%20voltage)
+- [RC circuit](RC%20circuit.md)
+    - [§ solving the equation](RC%20circuit.md#solving%20the%20equation)
+    - [§ complete response](RC%20circuit.md#complete%20response)
+    - [§ the time constant](RC%20circuit.md#the%20time%20constant)
+    - [§ step response](RC%20circuit.md#step%20response)
+    - [§ frequency response](RC%20circuit.md#frequency%20response)
+
+## week 8 lab 1
+
+- datetime: 2026-10-20T17:00:00+08:00/2026-10-20T19:50:00+08:00, PT2H50M
+- venue: Rm 2133, Lift 19, 21, 22
+- status: no class
+
+## week 8 lecture 2
+
+- datetime: 2026-10-21T09:00:00+08:00/2026-10-21T10:20:00+08:00
+- venue: Rm 5403, Lift 17-18
+- topic: complex numbers and Euler's formula
+- [complex number](complex%20number.md)
+    - [§ addition, subtraction, and multiplication](complex%20number.md#addition,%20subtraction,%20and%20multiplication)
+    - [§ polar form](complex%20number.md#polar%20form)
+- [Euler's formula](Euler%27s%20formula.md)
+    - [§ power series derivation](Euler%27s%20formula.md#power%20series%20derivation)
+    - [§ the two trigonometric series](Euler%27s%20formula.md#the%20two%20trigonometric%20series)
+
+## week 9 lecture 1
+
+- datetime: 2026-10-26T09:00:00+08:00/2026-10-26T10:20:00+08:00
+- venue: Rm 5403, Lift 17-18
+- topic: phasors and phasor analysis
+- [phasor](phasor.md)
+    - [§ phasor arithmetic](phasor.md#phasor%20arithmetic)
+    - [§ multiplication and the rotating frame](phasor.md#multiplication%20and%20the%20rotating%20frame)
+    - [§ differentiation and integration](phasor.md#differentiation%20and%20integration)
+    - [§ phasor analysis](phasor.md#phasor%20analysis)
+    - [§ Kirchhoff's laws in the phasor domain](phasor.md#Kirchhoff%27s%20laws%20in%20the%20phasor%20domain)
+    - [§ superposition in the phasor domain](phasor.md#superposition%20in%20the%20phasor%20domain)
+    - [§ equivalents of Thévenin and Norton in the phasor domain](phasor.md#equivalents%20of%20Th%C3%A9venin%20and%20Norton%20in%20the%20phasor%20domain)
+    - [§ a worked phasor analysis](phasor.md#a%20worked%20phasor%20analysis)
+    - [§ the phasor as a Fourier coefficient](phasor.md#the%20phasor%20as%20a%20Fourier%20coefficient)
+    - [§ why the real part carries the signal](phasor.md#why%20the%20real%20part%20carries%20the%20signal)
+    - [§ returning to the time domain](phasor.md#returning%20to%20the%20time%20domain)
+
+## week 9 lab 1
+
+- datetime: 2026-10-27T17:00:00+08:00/2026-10-27T19:50:00+08:00, PT2H50M
+- venue: Rm 2133, Lift 19, 21, 22
+- status: no class
+
+## week 9 lecture 2
+
+- datetime: 2026-10-28T09:00:00+08:00/2026-10-28T10:20:00+08:00
+- venue: Rm 5403, Lift 17-18
+- topic: impedance and admittance
+- [electrical impedance](electrical%20impedance.md)
+    - [§ impedance of the basic elements](electrical%20impedance.md#impedance%20of%20the%20basic%20elements)
+    - [§ resistance and reactance](electrical%20impedance.md#resistance%20and%20reactance)
+    - [§ magnitude and phase](electrical%20impedance.md#magnitude%20and%20phase)
+    - [§ combining impedances and dividers](electrical%20impedance.md#combining%20impedances%20and%20dividers)
+    - [§ analysis methods in the phasor domain](electrical%20impedance.md#analysis%20methods%20in%20the%20phasor%20domain)
+- [admittance](admittance.md)
+    - [§ admittance of the basic elements](admittance.md#admittance%20of%20the%20basic%20elements)
+    - [§ conductance and susceptance](admittance.md#conductance%20and%20susceptance)
+    - [§ combining admittances](admittance.md#combining%20admittances)
+    - [§ relating admittance to impedance](admittance.md#relating%20admittance%20to%20impedance)
+- [capacitor](capacitor.md)
+    - [§ why the frequency ends open and closed](capacitor.md#why%20the%20frequency%20ends%20open%20and%20closed)
+- [inductor](inductor.md)
+    - [§ why the frequency ends open and closed](inductor.md#why%20the%20frequency%20ends%20open%20and%20closed)
+
+## week 10 lecture 1
+
+- datetime: 2026-11-02T09:00:00+08:00/2026-11-02T10:20:00+08:00
+- venue: Rm 5403, Lift 17-18
+- topic: alternating current (AC) power
+- [AC power](AC%20power.md)
+    - [§ root-mean-square value](AC%20power.md#root-mean-square%20value)
+    - [§ average power and the power factor](AC%20power.md#average%20power%20and%20the%20power%20factor)
+    - [§ complex power](AC%20power.md#complex%20power)
+    - [§ instantaneous power](AC%20power.md#instantaneous%20power)
+    - [§ power from the impedance](AC%20power.md#power%20from%20the%20impedance)
+    - [§ the resistor formulas under phasors](AC%20power.md#the%20resistor%20formulas%20under%20phasors)
+    - [§ a load at a lagging power factor](AC%20power.md#a%20load%20at%20a%20lagging%20power%20factor)
+    - [§ conservation of alternating current power](AC%20power.md#conservation%20of%20alternating%20current%20power)
 
 ## midterm examination
 

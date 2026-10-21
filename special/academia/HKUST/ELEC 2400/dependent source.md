@@ -96,3 +96,27 @@ Flashcards for this section are as follows:
 - current-controlled voltage source / definition, from the controlling $I_1$ to the output voltage $r_m I_1$ ::@:: A voltage source of value $r_m I_1$ controlled by the current $I_1$ in another branch of the circuit, with terminal voltage $V_2$ at its output port.
 - current-controlled voltage source / gain $r_m$ in the output value $r_m I_1$ ::@:: The gain $r_m$ is a transresistance, in units of voltage per current such as $1\text{ V/A}$, mapping $I_1$ into the controlled voltage $r_m I_1$; the element is also called a transresistance amplifier.
 - current-controlled voltage source / rhombus symbol for $r_m I_1$ with $V_2$ marked ::@:: The rhombus carries $+$ and $-$ marks, since the controlled quantity is a voltage. The output voltage $V_2$ is marked across it.
+
+## loop with a dependent voltage source
+
+A dependent voltage source enters the loop equation like any other element; only its value is an expression rather than a number. A loop holding a $24\text{ V}$ source, a $6\ \Omega$ resistor, a $2\ \Omega$ resistor, and a dependent source of value $3V_3$, where $V_3$ is the voltage marked across the $2\ \Omega$ and $I_1$ runs through both resistors, reads $\{3V_3 - 0\} + (-I_1)(6) + (-I_1)(2) = 0$.
+
+The controlling quantity is fixed by the same current that runs the loop, $V_3 = (-I_1)(2)$. Substituting it into the loop equation leaves one equation in the single unknown $I_1$.
+
+---
+
+Flashcards for this section are as follows:
+
+- loop equation with a dependent source: a loop holds a $24\text{ V}$ source, a $6\ \Omega$ resistor, a $2\ \Omega$ resistor, and a dependent voltage source of value $3V_3$ with $V_3$ marked across the $2\ \Omega$, all carrying $I_1$; write the voltage law round the loop. ::@:: $\{3V_3 - 0\} + (-I_1)(6) + (-I_1)(2) = 0$.
+- controlling relation: in that loop, what is $V_3$ in terms of $I_1$, and what does substituting it achieve? ::@:: $V_3 = (-I_1)(2)$, and substituting it leaves the loop equation with $I_1$ as its only unknown.
+
+## phasor-domain dependent sources
+
+A dependent source keeps its controlling relation in the phasor domain once the circuit is driven at one sinusoidal frequency: a current-controlled voltage source reads $\mathbf{V} = r\,\mathbf{I}_1$ with the controlling current as a phasor, and nodal or mesh analysis solves the network with complex algebra as before. The equivalent circuits built around such a source hold at that single frequency alone ([electrical impedance](electrical%20impedance.md)).
+
+---
+
+Flashcards for this section are follows:
+
+- phasor-domain controlling relation: a circuit driven at one sinusoidal frequency holds a current-controlled voltage source whose controlling current is the phasor $\mathbf{I}_1$; what does the source's value become, and what algebra solves the network? ::@:: The value becomes the phasor expression $\mathbf{V} = r\,\mathbf{I}_1$, and nodal or mesh analysis solves the network with complex algebra as before.
+- single-frequency scope: on what does the phasor-domain equivalent of a dependent source hold? ::@:: It holds at that single driving frequency alone.

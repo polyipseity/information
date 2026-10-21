@@ -139,3 +139,17 @@ Flashcards for this section are as follows:
 - battery symbol: what does the circuit symbol for a battery show about its terminals? <p> ![battery symbol: two parallel lines of unequal length, the longer line on top](attachments/symbol_source_battery.svg) ::@:: Two parallel lines of unequal length, with the longer line at the positive terminal and the shorter line at the negative terminal.
 - ground symbol: what does the ground symbol in a circuit diagram mark? <p> ![ground symbol: stacked horizontal strokes at a node](attachments/symbol_ground.svg) ::@:: The reference node whose potential is taken as $0\text{ V}$, drawn as stacked horizontal strokes at a node. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - draw the ground symbol: how is the node taken as $0\text{ V}$ marked on a circuit diagram? ::@:: Horizontal strokes stacked at the node and narrowing downward. <p> ![ground symbol: stacked horizontal strokes at a node](attachments/symbol_ground.svg)
+
+## alternating voltage
+
+An alternating voltage is a sinusoid, so its value swings through each cycle and a single figure must name which value it quotes ([Sine wave](sine%20wave.md)). The quoted figure is the root-mean-square (RMS) value, the square root of the mean of the squared waveform, which a sinusoid relates to its peak by $V_p = \sqrt{2}\,V_\text{rms}$.
+
+The single-phase supply in Hong Kong reads $220\text{ V}$ on that convention: the voltage peaks at $V_p = 311\text{ V}$ and swings $622\text{ V}$ from positive peak to negative peak. A meter across the socket terminals reports the $220\text{ V}$, not the peak ([AC power](AC%20power.md)).
+
+---
+
+Flashcards for this section are as follows:
+
+- alternating voltage / the quoted value: an alternating voltage swings each cycle; which of its values is quoted, $V_\text{rms}$ or $V_p$, and how does that relate to the peak? ::@:: The root-mean-square (RMS) value, related to the peak by $V_p = \sqrt{2}\,V_\text{rms}$.
+- alternating voltage / the supply: what does the $220\text{ V}$ single-phase supply in Hong Kong mean, and what peak and peak-to-peak values follow? ::@:: $220\text{ V}$ is the root-mean-square (RMS) value; the peak is $V_p = \sqrt{2}\times220 = 311\text{ V}$ and the peak-to-peak swing $2V_p = 622\text{ V}$.
+- alternating voltage / the meter reading: a voltmeter is connected across the terminals of the Hong Kong supply, quoted at $220\text{ V}$ root-mean-square (RMS); what does it read? ::@:: The $220\text{ V}$ root-mean-square (RMS) value, not the $311\text{ V}$ peak.

@@ -32,7 +32,7 @@ Electric power is the rate of doing work, equivalently the rate of change of ene
 
 At $t = 3\text{ s}$ the readings $v(3) = 12\text{ V}$ and $i(3) = 4\text{ A}$ give the instantaneous power $p(3) = v(3)\,i(3) = 12\text{ V}\times4\text{ A} = 48\text{ W}$.
 
-A time-varying element needs an average instead of a single value. If $p(t) = v(t)\,i(t)$ repeats with period $T$, the average power is $P_\text{ave} = \frac{1}{T}\int_0^T p(t)\,dt = \frac{1}{T}\int_0^T v(t)\,i(t)\,dt$.
+A time-varying element needs an average instead of a single value. If $p(t) = v(t)\,i(t)$ repeats with period $T$, the average power is $P_\text{ave} = \frac{1}{T}\int_0^T p(t)\,dt = \frac{1}{T}\int_0^T v(t)\,i(t)\,dt$. For a sinusoidal voltage and current that average takes a closed form, which [AC power](AC%20power.md) develops alongside the matching quantities for alternating current.
 
 ---
 
@@ -153,12 +153,15 @@ Flashcards for this section are as follows:
 
 A flashlight bulb modelled as a $3\ \Omega$ resistor carries $I_\text{bulb} = +2\text{ A}$ with $V_\text{bulb} = 6\text{ V}$ across it, so $P_\text{bulb} = V_\text{bulb}\times I_\text{bulb} = 6\text{ V}\times2\text{ A} = +12\text{ W}$, which the bulb dissipates. The battery of the same loop is measured on its own reference direction, giving $I_\text{bat} = -2\text{ A}$ against $V_\text{bat} = 6\text{ V}$, so $P_\text{bat} = V_\text{bat}\times I_\text{bat} = 6\text{ V}\times(-2\text{ A}) = -12\text{ W}$. The battery is an active element: it generates exactly the $12\text{ W}$ the bulb dissipates.
 
+Circuit lines in these notes follow one notation: `(X)` names a node, with `(GND)` the zero-volt ground node; `[...]` holds one element, its value and marks spelled out in words; `—` is a wire joining consecutive items; and `A ∥ B` puts two elements in parallel between the same pair of nodes. The line `(A) — [2 Ω] — (B)` reads node $A$ feeding a $2\ \Omega$ resistor that reaches node $B$
+
 ---
 
 Flashcards for this section are as follows:
 
-- flashlight bulb and battery / power of the bulb: the loop is `[battery: V_bat = 6 V, I_bat = −2 A on its own reference direction] ─ [bulb: 3 Ω, V_bulb = 6 V, I_bulb = +2 A]`; the bulb is modelled as a resistor with $V_\text{bulb} = 6\text{ V}$ across it and $I_\text{bulb} = +2\text{ A}$ through it; what power does it dissipate? ::@:: $P_\text{bulb} = V_\text{bulb}\times I_\text{bulb} = 6\text{ V}\times2\text{ A} = +12\text{ W}$, a positive power that the bulb dissipates.
-- flashlight bulb and battery / power of the battery: the loop is `[battery: V_bat = 6 V, I_bat = −2 A on its own reference direction] ─ [bulb: 3 Ω, V_bulb = 6 V, I_bulb = +2 A]`; the battery has $V_\text{bat} = 6\text{ V}$ and $I_\text{bat} = -2\text{ A}$ on its own reference direction; what is its power, and what does that make it? ::@:: $P_\text{bat} = V_\text{bat}\times I_\text{bat} = 6\text{ V}\times(-2\text{ A}) = -12\text{ W}$, so the battery is an active element whose generation covers the $12\text{ W}$ dissipated by the bulb.
+- flashlight bulb and battery / power of the bulb: the loop is `[battery: V_bat = 6 V, I_bat = −2 A on its own reference direction] — [bulb: 3 Ω, V_bulb = 6 V, I_bulb = +2 A]`; the bulb is modelled as a resistor with $V_\text{bulb} = 6\text{ V}$ across it and $I_\text{bulb} = +2\text{ A}$ through it; what power does it dissipate? ::@:: $P_\text{bulb} = V_\text{bulb}\times I_\text{bulb} = 6\text{ V}\times2\text{ A} = +12\text{ W}$, a positive power that the bulb dissipates.
+- flashlight bulb and battery / power of the battery: the loop is `[battery: V_bat = 6 V, I_bat = −2 A on its own reference direction] — [bulb: 3 Ω, V_bulb = 6 V, I_bulb = +2 A]`; the battery has $V_\text{bat} = 6\text{ V}$ and $I_\text{bat} = -2\text{ A}$ on its own reference direction; what is its power, and what does that make it? ::@:: $P_\text{bat} = V_\text{bat}\times I_\text{bat} = 6\text{ V}\times(-2\text{ A}) = -12\text{ W}$, so the battery is an active element whose generation covers the $12\text{ W}$ dissipated by the bulb.
+- reading a circuit line: in the notation `(X) — [elements] — (Y)`, what do the parentheses, the brackets, the dash, and `∥` mean? ::@:: `(X)` names a node, with `(GND)` the zero-volt ground node; `[...]` holds one element with its value and marks spelled out; `—` is a wire joining consecutive items; and `A ∥ B` puts A and B in parallel between the same pair of nodes.
 
 ## why the reference direction matters
 
