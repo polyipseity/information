@@ -25,7 +25,7 @@ Flashcards for this section are as follows:
 - data the finding rests on ::@:: Proprietary trade-by-trade order-type data from the New York Stock Exchange.
 - which study measures the share of orders that refused the routing Regulation National Market System (Reg NMS) stipulated, on proprietary trade-by-trade order-type data from the New York Stock Exchange? ::@:: Sida Li, Mao Ye and Miles Zheng, 2022, Journal of Financial Economics (JFE), "Refusing the best price?".
 
-## how an order is classified
+## order classification
 
 The study sorts every order along four factors.
 
@@ -74,7 +74,7 @@ Flashcards for this section are as follows:
 - which order type trades most, and its average size ::@:: The do-not-ship (DNS) limit order, at 44,243,300 trades and 182.38 shares per order.
 - where the largest average order sizes sit ::@:: With the types that take liquidity and expect to fill at once, the do-not-ship (DNS) immediate-or-cancel order at 307.09 shares being the largest.
 
-## who uses them
+## senders and requirements
 
 A do-not-ship order is not faster than a plain order in itself, so the question is who chooses to send one. High-frequency traders are the ones suspected of choosing them.
 

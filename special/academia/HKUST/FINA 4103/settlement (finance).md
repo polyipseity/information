@@ -35,7 +35,7 @@ Flashcards for this section are as follows:
 - what the settlement window exposes each side to ::@:: The buyer holds cash the seller has not been paid, and the seller holds an asset the buyer has not received, so a price move or a failure inside the window falls on whichever side is still waiting.
 - why a shorter settlement cycle carries less risk ::@:: Less time passes before the asset and the cash change hands, so fewer things can go wrong while each side waits on the other.
 
-## why settlement takes time
+## causes of settlement delay
 
 Futures markets use a $T+0$ rule instead. Settlement elsewhere is held back by the number of different parties involved, by default risk, and by historical reasons. Most markets are moving toward same-day settlement, or at least shorter delays, but confirmation still takes a lot of manual work.
 
@@ -87,7 +87,7 @@ Flashcards for this section are as follows:
 - how the central securities depository (CSD) builds buffers ::@:: By collecting fees from both sides.
 - why a failed trade costs the defaulter rather than its counterparty ::@:: The central securities depository (CSD) completes the trade out of the buffers those fees fund, so the side that performed still receives the asset or the cash and the defaulter faces trade restrictions.
 
-## what a trader sees
+## consequences for the trader
 
 A trader sends an order through a broker and watches it fill at once. The broker then shows the new position and the changed cash balance, so the trade looks finished. Nothing has moved between the buyer and the seller at that point. The order has been matched, and the broker has written down what it owes the trader and what the trader owes it. The transfer between the two brokers, through the clearing house, waits for the settlement date. An institution sees the same gap with one more party in it, because its custodian reports the position and the transfer runs between two custodians through the depository.
 
@@ -129,7 +129,7 @@ Flashcards for this section are as follows:
 - what a trader cannot do with a position before its purchase settles ::@:: Move the shares out of the broker, or withdraw the cash a sale produced before that sale settles.
 - the mistaken belief that a purchase puts legal title to the shares in the buyer's hands at the match ::@:: The broker records the position as the client's at once, which is beneficial ownership, while legal title moves in the depository's record on the settlement date.
 
-### what the settlement date binds
+### obligations at settlement
 
 A purchase lands in the account at once, while the settlement date appears only on the trade confirmation. The date then reads as a formality. It is where the trader's obligations come due.
 

@@ -22,7 +22,7 @@ Flashcards for this section are as follows:
 - why an over-the-counter asset has no public price ::@:: The trade is private to the two parties, so nothing publishes a price for the asset.
 - second meaning of "decentralized" in finance ::@:: Blockchain-based trading, which is decentralized in a different sense.
 
-## what over-the-counter markets trade
+## traded assets
 
 Over-the-counter markets trade non-standard securities that few investors want to hold, which makes each one illiquid: mortgages on housing, tranches of collateralized debt obligations, and synthetic derivative securities. The same arrangement lets a contract be custom-tailored, and it also carries assets as ordinary as foreign exchange and government and corporate bonds. Tradition, an inter-dealer broker, reported 2019 revenue by product group as currencies and rates at 43%, securities and security derivatives at 32%, commodities at 21%, and non-IDB online retail foreign-exchange brokerage at 4%.
 
@@ -35,7 +35,9 @@ Flashcards for this section are as follows:
 - ordinary assets that also trade over the counter ::@:: Foreign exchange and government and corporate bonds.
 - how an inter-dealer broker's 2019 revenue splits by product group ::@:: Tradition: currencies and rates 43%, securities and security derivatives 32%, commodities 21%, and non-IDB online retail foreign-exchange brokerage 4%.
 
-## dealer-customer markets
+## venue types
+
+### dealer-customer markets
 
 In the dealer-customer market, clients ask dealers, usually banks, for the availability and price of a specific security. Traditionally the request went over the telephone, by email, or face to face, and from the 2000s clients reached several dealers at once through an electronic request-for-quote platform. A request for quote is raised on an existing order: the trader picks Request for Quote and submits it, and a request window opens carrying the symbol and venue, a description such as an option on a stock, and the quantity asked for, for example 100 contracts.
 
@@ -48,7 +50,7 @@ Flashcards for this section are as follows:
 - what a request-for-quote platform does ::@:: It lets a client contact several dealers electronically and learn the potential terms of trade.
 - what a request for quote carries ::@:: The symbol and venue, a description of the instrument, and the quantity asked for.
 
-## inter-dealer markets
+### inter-dealer markets
 
 Dealers trade with each other as well, above all to unwind positions that are off their target. Because both sides are dealers rather than clients, the inter-dealer market is more stylized and more liquid than the dealer-customer market, and it looks more like a centralized limit-order book. Quotes there are made, requested, and executed through inter-dealer brokers, through request for quote, or through electronic communication networks. The structure links clients to dealers and dealers to dealers, with the inter-dealer brokers sitting between the dealers.
 
@@ -61,7 +63,7 @@ Flashcards for this section are as follows:
 - three ways inter-dealer quotes are made, requested, and executed ::@:: Inter-dealer brokers, request for quote, and electronic communication networks.
 - where inter-dealer brokers sit in the structure ::@:: Between the dealers, with clients linked to dealers and dealers linked to each other.
 
-## electronic communication networks
+### electronic communication networks
 
 An electronic communication network connects multiple market participants directly: each participant can post and observe quotes like a limit-order book, place and execute orders, and stay anonymous. Foreign exchange shows what the network changes. Before the 2000s the market was plain-vanilla over the counter; it now runs through two major electronic brokers for inter-dealer spot trading, Reuters, later Refinitiv, and Electronic Broking Services, which organize limit-order books that dealers use to submit quotes, to trade, and to take reference prices. Customer access is wider and more opaque: the venue count runs to roughly 30 secondary electronic communication networks, 22 dealers running a single-dealer proprietary platform, 12 principal trading firms, and 2 or 3 dark pools, where order information is not revealed to other participants.
 

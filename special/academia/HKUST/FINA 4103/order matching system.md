@@ -88,7 +88,7 @@ Flashcards for this section are as follows:
 - how the dissemination process affects traders ::@:: It delays their reaction to the engine's outcomes.
 - how direct data feeds differ from processed market data ::@:: Direct data feeds provide the raw data without going through the market data processor.
 
-## why speed matters
+## value of speed
 
 The engineering of the platform is what matters once trading speed is a first-order priority, and price-time priority is why speed pays: among same-priced orders the first to arrive at the engine is served first, so processing order turns milliseconds into priority. The sharpest case is the sniping race. A standing limit sell order rests at 100 dollars, new information arrives saying the stock value should be 101 dollars, and the 100-dollar quote is now stale. Takers rush to take the stale limit order and makers rush to cancel it, and latency rather than price decides the race (see [quote sniping](quote%20sniping.md)). The stale quote is a loss already made, and the race decides only who pays it. A taker who reaches it first buys for 100 dollars what is now worth 101, and a maker who has not cancelled yet sells a dollar per unit below value. Either the taker gets the unit and the maker's loss is realized, or the maker cancels in time and the taker gets nothing, so the two sides contest the same dollar and only their reaction times differ.
 

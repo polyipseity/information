@@ -115,7 +115,9 @@ Flashcards for this section are as follows:
 - one-share order book: ![one-share order book: one share offered for sale at the ask, one share wanted at the bid, the spread marked as the gap between the two prices, and the midpoint marked halfway between them](attachments/symbol_one_share_order_book.svg) ::@:: The Roll model's market for one share: one share offered for sale at the ask, one share wanted at the bid, the spread between the two prices, and the midpoint halfway between them.
 - draw the one-share order book: given the ask $a_t$, the bid $b_t$, the spread $S$, and the midpoint $m_t$, how is the market for one share drawn? ::@:: One share offered for sale at the ask on the sell side and one share wanted at the bid on the buy side, with $S = a_t - b_t$ between the two prices and $m_t = (a_t + b_t)/2$ at the midpoint. <p> ![one-share order book: one share offered for sale at the ask, one share wanted at the bid, the spread marked as the gap between the two prices, and the midpoint marked halfway between them](attachments/symbol_one_share_order_book.svg)
 
-## price dynamics
+## price process
+
+### price dynamics
 
 The price dynamics follow by substitution. With $\Delta p_t \equiv p_t - p_{t-1}$ and $p_t = m_t + \frac{S}{2} d_t$, $\Delta p_t = \frac{S}{2}(d_t - d_{t-1}) + e_t$, because $m_t - m_{t-1} = e_t$. The asset price fluctuates for two reasons: changes in fundamentals, $m_t - m_{t-1} = e_t$, and the incoming order flow, $d_t$ and $d_{t-1}$. By assumption the orders are unrelated to fundamentals, so the price is driven by fundamentals and by noise. The difference $d_t - d_{t-1}$ reads the switch of side rather than the side itself, which is why two buys in a row leave the bounce term at zero and the change equal to $e_t$: only an alternation moves the recorded price, and then by exactly $\pm S$. A run of buys parks the print at the ask, so the zigzag a reader sees in trade prices is a run of switches rather than a run of trades.
 
@@ -129,7 +131,7 @@ Flashcards for this section are as follows:
 - what a switch of side does to the recorded price over two consecutive changes, with spread $S$ and order flow $d_t$ ::@:: One switch moves the price by the full spread $S$: the first trade pushes the print to the ask, the switch brings it back toward the bid, so an observer reading both changes as news counts the spread twice, once as good news and once as bad.
 - the relation between order flow and fundamentals in the Roll model ::@:: By assumption the orders are unrelated to fundamentals, so the price is driven by fundamentals and by noise.
 
-## moments of price changes
+### moments of price changes
 
 To separate the two forces, the model assumes the order flow is random and i.i.d. across time: $d_t = +1$ with probability $\frac{1}{2}$ and $d_t = -1$ with probability $\frac{1}{2}$, so that $\operatorname{E}[d_t] = 0$, $\operatorname{E}[d_t^2] = \operatorname{Var}(d_t) = 1$, and $\operatorname{Cov}(d_t, d_k) = 0$ for all $t \neq k$. Buys and sells then happen with equal likelihood, independent of each other and of the fundamentals.
 
@@ -156,7 +158,7 @@ Flashcards for this section are as follows:
 - the bid-ask bounce percentage with spread $S$ and observed price changes $\Delta p_t$ ::@:: $100 \times \frac{S^2/2}{\operatorname{Var}(\Delta p_t)}$: the share of observed price variation the bounce accounts for.
 - what the bid-ask bounce percentage $100 \times \frac{S^2/2}{\operatorname{Var}(\Delta p_t)}$ approaches as the spread $S$ grows against the fundamental shock variance $\sigma_e^2$ ::@:: 100%: the recorded variation is nearly all trading cost, so the asset's own news explains almost none of what a reader measures.
 
-## negative autocorrelation and Roll's estimator
+### negative autocorrelation and Roll's estimator
 
 Autocorrelation measures how a variable correlates with itself across time: the covariance of the variable today with its value tomorrow. For price changes it is $\operatorname{Cov}(\Delta p_t, \Delta p_{t-1})$, and the Roll model pins it down: $\operatorname{Cov}(\Delta p_t, \Delta p_{t-1}) = -\left(\frac{S}{2}\right)^2 \times \operatorname{Var}(d_{t-1})$. Expanding $\Delta p_t = \frac{S}{2}(d_t - d_{t-1}) + e_t$ leaves only the order-flow terms, because $(e_t, d_t)$ are independent across time and across variables, and $d_{t-1}$ appears in both changes with opposite signs. With $\operatorname{Var}(d_{t-1}) = 1$ the covariance is $\operatorname{Cov}(\Delta p_t, \Delta p_{t-1}) = -\left(\frac{S}{2}\right)^2 = -\frac{S^2}{4}$. Price changes are negatively autocorrelated: the spread produces price reversal, since a buy that lifts the price to the ask hands off to a sell that drops it back toward the bid. A trade moves the price by $\frac{S}{2}$ away from the mid-point and the next trade moves it back, so consecutive changes are equal and opposite in expectation. Their covariance is negative and quadratic in $S$: the sign records the reversal, and the square records one half-spread from each of the two changes.
 

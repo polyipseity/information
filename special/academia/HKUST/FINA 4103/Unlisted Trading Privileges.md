@@ -33,7 +33,7 @@ Flashcards for this section are as follows:
 - what the trading exchanges carry ::@:: The trading, and the stock reaches them without any act of listing.
 - how a single-listed stock reaches venues that never listed it ::@:: Through unlisted trading privileges joining the listing exchange to every other venue.
 
-## what the privileges do to listing
+## effect on listing
 
 Because a stock listed anywhere can be traded anywhere, cross-listed companies are rare in the United States. What decides the listing exchange is the brand the listing carries and the cost of obtaining it.
 
@@ -48,7 +48,7 @@ Flashcards for this section are as follows:
 - what happens to the differences between exchanges under the privileges ::@:: They stop showing up in what each venue's users can trade.
 - two examples of exchanges that grew without a listing service ::@:: BATS and Direct Edge.
 
-## where the trading happens
+## venue volume breakdown
 
 The table gives one month of 2016, attributed to BATS, and breaks the volume down by venue for three stocks. Each stock is named for its listing venue: stock A on the New York Stock Exchange, stock B on NYSE Arca, and stock C on Nasdaq.
 

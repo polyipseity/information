@@ -26,7 +26,7 @@ Flashcards for this section are as follows:
 - example of a non-fundamental trading need ::@:: Needing cash, and selling a holding to get it.
 - examples of a trading venue ::@:: A stock exchange, a bond market, and a cryptocurrency exchange.
 
-## what an order specifies
+## order attributes
 
 Every order carries a price, a quantity, and a direction, buy or sell. Beyond that, three factors decide how well it serves its purpose: priority and speed, execution quality and execution risk, and transparency.
 

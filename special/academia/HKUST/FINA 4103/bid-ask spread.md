@@ -46,7 +46,7 @@ Flashcards for this section are as follows:
 - what the best ask is ::@:: The lowest ask in the standing limit orders.
 - what NBBO stands for ::@:: National Best Bid and Offer: the aggregate BBO across all markets.
 
-## why the spread exists
+## sources of the spread
 
 Three explanations say why a quote carries a spread rather than a single price: the price of immediacy, inventory cost, and information friction.
 

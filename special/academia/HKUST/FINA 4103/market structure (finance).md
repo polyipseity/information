@@ -36,7 +36,7 @@ Flashcards for this section are as follows:
 - how a bond is traded at each stage ::@:: Auctioned in the primary market on issue, then traded over the counter in the secondary market.
 - how one stock can face different trading protocols ::@:: Different venues can use different protocols, such as a dealer market and a double auction.
 
-## centralized markets
+### centralized markets
 
 In a centralized market, trading happens on a single exchange. Participants place orders into a limit-order book, and the book matches buyers with sellers by price and time. Search frictions are absent or very small, and the process is highly transparent. The trading structure of major stocks is centralized.
 
@@ -49,7 +49,7 @@ Flashcards for this section are as follows:
 - how visible the trading process is in a centralized market ::@:: Highly transparent.
 - which assets trade in a centralized structure ::@:: Major stocks.
 
-## decentralized markets
+### decentralized markets
 
 In a decentralized market there is no central book. Trading is over-the-counter and bilateral: a customer trades with a dealer, and dealers trade among themselves. Finding a counterparty costs a search-and-matching process, and that cost is what makes the market decentralized. The foreign exchange market is the standard example.
 

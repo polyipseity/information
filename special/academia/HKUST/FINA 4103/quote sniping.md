@@ -23,7 +23,7 @@ Flashcards for this section are as follows:
 - what decides a sniping race ::@:: Latency rather than price.
 - how a buyer and a seller each avoid losing the race ::@:: Both send a non-routable order, which does not announce its arrival.
 
-## who wins the race
+## race outcomes by order type
 
 Li, Ye, and Zheng (2022, _Journal of Financial Economics_ (JFE)) count the races between the three immediate-or-cancel types on the New York Stock Exchange. Rows are the winners and columns the losers. Where $q > 1$ orders win or lose the same race, each is counted as $1/q$ of it. Every number is averaged at the stock-day level.
 

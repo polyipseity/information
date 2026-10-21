@@ -21,7 +21,7 @@ Flashcards for this section are as follows:
 - guarantee the order protection rule gives ::@:: Execution at the best price among the exchanges, no matter where the order was placed.
 - why the venue a trader connects to stops mattering ::@:: The order is routed to the best price available wherever it was sent.
 
-## the routing obligation
+## routing obligation
 
 The obligation falls on the exchange that receives the order, not on the trader who sent it. That exchange has to check the prices at the other exchanges and route the order where the better quote is. A [smart order router](smart%20order%20routing.md) is what does that work.
 

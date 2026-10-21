@@ -30,7 +30,7 @@ Flashcards for this section are as follows:
 - can a do-not-ship instruction be combined with an intermarket sweep ::@:: No; they are alternative values of the same routing decision.
 - what a do-not-ship instruction does combine with ::@:: The price qualifier and the time in force, giving the limit form and the immediate-or-cancel form.
 
-## a do-not-ship limit order
+## do-not-ship limit order
 
 The check a DNS limit order goes through runs in two stages, and the second one decides its fate.
 
@@ -53,7 +53,7 @@ Flashcards for this section are as follows:
 - what a do-not-ship (DNS) limit order does when it is not marketable at all ::@:: It rests on one venue's book and nowhere else, making liquidity rather than taking it.
 - how do-not-ship (DNS) limit orders fare against routable limit orders in a sniping race ::@:: DNS limit orders escape more often; routable limit orders rarely escape at all.
 
-## a do-not-ship immediate-or-cancel order
+## do-not-ship immediate-or-cancel order
 
 The immediate-or-cancel form runs the same two checks and has two fates where the limit form has three. The missing fate is resting. The order takes what the local book offers at the limit price or better and cancels the remainder in the same instant, with no window in between. The time in force has already settled the question of cancellation, so the instruction has nothing left to settle there.
 

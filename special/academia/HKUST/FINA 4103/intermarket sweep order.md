@@ -27,7 +27,7 @@ Flashcards for this section are as follows:
 - what an intermarket sweep order (ISO) demands of whoever sends it ::@:: A connection and a quote feed to every venue in the sweep, before anything is released.
 - how a sweep and a do-not-ship instruction differ ::@:: One is placed on every venue at once, the other on one venue with the rest refused.
 
-## how a sweep is split
+## sweep construction
 
 A broker that receives an order to buy 1000 shares merges the quote feeds into one book. The sweep has to consume the best prices available, so the broker walks that merged book from the top down until the order is filled. What the walk leaves behind is three child orders, one per venue, released in the same instant. Each child carries the immediate-or-cancel instruction, so a leg that fails to fill dies on that venue instead of resting there.
 
@@ -50,7 +50,7 @@ Flashcards for this section are as follows:
 - where the last 100 shares of a 1000-share sweep come from ::@:: The 100 shares C offers at 98 dollars.
 - split a broker releases for a 1000-share sweep in the worked example ::@:: 100 shares to A, 500 to B, and 400 to C.
 
-## who carries the obligation
+## responsibility for best price
 
 Under a routed order the exchange is answerable for the best price. It checks the other venues before it acts, and the check costs time. Under a sweep the broker is answerable, and the broker has already made that check by the time anything is released. The ISO has to consume the best price as it stood when the order was placed.
 
