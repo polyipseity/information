@@ -53,7 +53,7 @@ Flashcards for this section are as follows:
 - why does a quipu carry more per signal than a beacon tower? ::@:: A knot can be tied in many patterns, not just two.
 - how is Ethernet over copper cabled and terminated? ::@:: In a cable of four twisted pairs, terminated in an 8P8C plug wired in T568A or T568B pin order.
 
-## what the medium determines
+## bandwidth and latency
 
 The type of physical medium and its length determine the link's bandwidth and its latency: bandwidth is the width of the link and propagation delay its length. The medium's other property is its error rate, which shows up as [packet loss](packet%20loss.md).
 

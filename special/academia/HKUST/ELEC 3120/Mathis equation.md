@@ -23,7 +23,7 @@ Flashcards for this section are as follows:
 - what it predicts: what does the Mathis equation predict, and from which quantities? ::@:: The Mathis equation predicts the throughput of a TCP Reno connection from the segment size, the round-trip time, and the loss probability.
 - why the square root matters: what does the $1/\sqrt{p}$ term say about the cost of a lossy path? ::@:: That throughput falls only with the square root of the loss probability.
 
-## the equation and its terms
+## equation and terms
 
 The equation reads $$\text{throughput} = \frac{MSS}{RTT} \cdot \frac{C}{\sqrt{p}}$$ with $MSS$ the maximum segment size, $RTT$ the round-trip time, $p$ the loss probability, and $C$ a constant of proportionality. It is a steady-state result for a connection already settled into congestion avoidance, so $p$ is a rate rather than a count of losses. $C$ depends on how the protocol reacts to loss, and it is the one term the equation leaves open.
 

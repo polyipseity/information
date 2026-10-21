@@ -105,7 +105,7 @@ The seven metrics measure the shape of the text, not whether it teaches anything
 
 ## Suppression
 
-Content rules accept a rationale after a colon. The three change rules refuse it, because the diff is the evidence and the file cannot hide the warning about itself.
+A suppression is an HTML comment: `<!-- check: ignore-line[rule_id]: why -->` on the line it exempts, or `<!-- check: ignore-next-line[rule_id]: why -->` on the line above. A heading takes the second form, because a comment on the heading line becomes part of the heading text. Content rules accept a rationale after a colon; the three change rules refuse one, because the diff is the evidence and the file cannot hide the warning about itself.
 
 ## Sibling tools
 

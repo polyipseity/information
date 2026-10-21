@@ -13,7 +13,7 @@ tags:
 
 # language model access
 
-## the five routes
+## access routes
 
 There are five routes to a model in Hong Kong, and each one has a cost.
 

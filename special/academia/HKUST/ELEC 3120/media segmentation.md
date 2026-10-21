@@ -62,7 +62,7 @@ Flashcards for this section are as follows:
 
 - chunk size and length: a chunk is 2 MB and Netflix's run is $4$ s, so who decides both? ::@:: The service does, not the protocol
 
-## why HTTP took over
+## advantages of HTTP
 
 Four things follow from a chunk being an ordinary file over HTTP.
 

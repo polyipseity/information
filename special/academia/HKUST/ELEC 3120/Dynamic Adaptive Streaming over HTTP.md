@@ -14,7 +14,7 @@ tags:
 
 # Dynamic Adaptive Streaming over HTTP
 
-DASH streams a video over HTTP requests for ordinary files. A quality level in a DASH manifest is one bitrate and one resolution. Nothing in the protocol says which level to ask for. The case for chunking a video at all belongs to [media segmentation](media%20segmentation.md#why%20http%20took%20over).
+DASH streams a video over HTTP requests for ordinary files. A quality level in a DASH manifest is one bitrate and one resolution. Nothing in the protocol says which level to ask for. The case for chunking a video at all belongs to [media segmentation](media%20segmentation.md#advantages%20of%20http).
 
 ---
 
@@ -22,7 +22,7 @@ Flashcards for this section are as follows:
 
 - what does DASH change about the way a video is served? ::@:: Nothing about the transport. DASH uses ordinary HTTP requests for ordinary files
 
-## the manifest
+## manifest
 
 The client opens a session by asking for a manifest file, and the reply is an ordinary file. That file is the media presentation description (MPD), an XML document. Its details need not be memorised, because three element names give it its shape.
 
@@ -37,7 +37,7 @@ Flashcards for this section are as follows:
 - what is a `Representation`? ::@:: One quality level of that stream
 - what can a client do once it has read the manifest? ::@:: Address any segment in the presentation by name
 
-## what this manifest contains
+## manifest contents
 
 The presentation is static and in the ISO main profile. It runs 3 minutes 30 seconds, with a `minBufferTime` of 1 second. It holds a single `Period`, and inside that one `AdaptationSet` for video and one for audio.
 
@@ -86,7 +86,7 @@ Flashcards for this section are as follows:
 - what does a `Representation` `id` encode? ::@:: The height and the bandwidth, as `1080_4800000` for the 1080p entry at 4.8 Mbps
 - how is the audio track fetched and decoded? ::@:: Separately from the video
 
-## what the player does
+## client-side selection
 
 The client now chooses which segments to fetch. The ABR algorithm makes that choice, and the protocol takes no part in it. Choosing well is the subject of [adaptive bitrate streaming](adaptive%20bitrate%20streaming.md).
 

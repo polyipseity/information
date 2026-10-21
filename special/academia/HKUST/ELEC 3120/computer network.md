@@ -24,7 +24,7 @@ Flashcards for this section are as follows:
 - internetwork: what does joining two or more networks give? ::@:: An internetwork.
 - which deployments of networks are in use? ::@:: Datacenters, low Earth orbit satellite constellations, and university campuses.
 
-## the parts of a network
+## parts of a network
 
 Endpoints are the devices that send and receive: workstations, servers, and printers. A hub or switch joins the endpoints on a segment, and the transmission medium carries the signals between them.
 
@@ -36,6 +36,7 @@ Flashcards for this section are as follows:
 - what joins the endpoints on a segment? ::@:: A hub or switch.
 - what are the three parts of a small wired network? ::@:: Endpoints, a joining device, and the transmission medium.
 
+<!-- check: ignore-next-line[header_generic_article]: proper noun -->
 ## the Internet
 
 The Internet is a lattice of networks rather than one network. Clients and servers sit at its edges, including high-volume server farms; local, regional, and backbone ISPs carry traffic between them; and backbone ISPs meet at exchange points. An internetwork picture labels Ethernet LANs at 10 Mbps and 100 Mbps beside satellite links and wireless LANs.

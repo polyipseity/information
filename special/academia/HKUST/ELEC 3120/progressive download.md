@@ -21,7 +21,7 @@ Flashcards for this section are as follows:
 
 - progressive download: what does the client keep on disk, and what happens to the rest of the file? ::@:: Only the next few seconds of video, with the rest of the file arriving while those play.
 
-## the client buffer
+## client buffer
 
 The client holds the next few seconds of video in a buffer. The server sends data to it at a rate $C$, and the client reads from it and plays video at a rate $R$. The buffer absorbs the difference between the two, and how much difference there is decides whether the video stalls.
 
