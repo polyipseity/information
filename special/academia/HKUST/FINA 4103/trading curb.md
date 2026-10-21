@@ -10,7 +10,7 @@ tags:
 
 # trading curb
 
-A _trading curb_, also called a circuit breaker, halts trading when the market becomes extremely volatile, whether the volatility comes from significant news or from a severe order imbalance.
+A _trading curb_, also called a circuit breaker, halts trading when the market becomes extremely volatile. The volatility may come from significant news or from a severe order imbalance.
 
 ---
 
@@ -34,7 +34,7 @@ Flashcards for this section are as follows:
 
 Whether a halt helps is contested. Chen et al. (2024, Journal of Finance), "The Dark Side of Circuit Breakers", finds that a trading halt makes the market more volatile and more fragile.
 
-Trading collapses during the halt and rebounds past its usual level immediately afterwards. Average trades per share per minute on the London Stock Exchange fall to nearly zero for hybrid investment banks, high-frequency traders, and other algorithmic firms alike while the halt's call auction runs. Every group then spikes above its pre-halt peak: hybrid investment banks from about 85 to about 133, high-frequency traders from about 29 to about 34, and other algorithmic firms from about 4 to about 13. Hybrid investment banks trade more than the high-frequency traders, who trade more than the other algorithmic firms, at every point around the halt, and each series decays back towards its baseline over the following hour.
+Trading collapses during the halt and rebounds past its usual level immediately afterwards. Average trades per share per minute on the London Stock Exchange fall to nearly zero for hybrid investment banks, high-frequency traders, and other algorithmic firms alike, while the halt's call auction runs. Every group then spikes above its pre-halt peak: hybrid investment banks from about 85 to about 133, high-frequency traders from about 29 to about 34, and other algorithmic firms from about 4 to about 13. At every point around the halt, hybrid investment banks trade more than the high-frequency traders, who trade more than the other algorithmic firms. Each series decays back towards its baseline over the following hour.
 
 Volatility behaves the same way. Plotted on a logarithmic scale it climbs into the halt, collapses to near zero through the call auction, and then spikes to about 0.0053 on the London Stock Exchange and 0.0031 on multilateral trading facilities before decaying.
 

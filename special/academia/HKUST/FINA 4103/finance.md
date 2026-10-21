@@ -34,7 +34,7 @@ Flashcards for this section are as follows:
 
 ## branches of finance
 
-Research in finance splits into three branches by the question each asks. _Asset pricing_ asks what the fair price of an asset is, and the Black–Scholes–Merton formula for option prices is its canonical result. _Corporate finance_ asks how a firm's value and its decision-making are determined, and the Modigliani–Miller theorem on capital structure is its canonical result. _Market microstructure_ asks how the details of trading shape market quality.
+Research in finance splits into three branches by the question each asks. _Asset pricing_ asks what the fair price of an asset is. Its canonical result is the Black–Scholes–Merton formula for option prices. _Corporate finance_ asks how a firm's value and its decision-making are determined. Its canonical result is the Modigliani–Miller theorem on capital structure. _Market microstructure_ asks how the details of trading shape market quality.
 
 ---
 
@@ -49,7 +49,7 @@ Flashcards for this section are as follows:
 
 ## analytical perspectives
 
-The _positive_ perspective asks what is happening, mostly about the financial system and its participants, and answers by working out who is playing what kind of game from data. The _equilibrium_ perspective asks how to play and what results: given the environment, what should an individual do, and what happens to the market when individuals behave optimally? The _normative_ perspective asks how to design and regulate: what should a government or a market designer do, typically to maximise social welfare?
+The _positive_ perspective asks what is happening, mostly about the financial system and its participants. It answers by working out who is playing what kind of game from data. The _equilibrium_ perspective asks how to play and what results: given the environment, what should an individual do, and what happens to the market when individuals behave optimally? The _normative_ perspective asks how to design and regulate: what should a government or a market designer do, typically to maximise social welfare?
 
 ---
 
@@ -62,7 +62,7 @@ Flashcards for this section are as follows:
 
 ## theoretical and empirical analysis
 
-A policy question such as what would happen if the Securities and Exchange Commission (SEC) imposed a short-selling ban is answered in two ways. _Theoretical_ analysis develops an economic model, solves it, and derives testable implications; it typically keeps a couple of important factors and omits complicated detail, and the result is a guideline for implementing the policy. _Empirical_ analysis brings data to test those implications and to find anomalies and new questions, for example to measure the actual impact of the policy once it is in place.
+A policy question such as what would happen if the Securities and Exchange Commission (SEC) imposed a short-selling ban is answered in two ways. _Theoretical_ analysis develops an economic model, solves it, and derives testable implications. It typically keeps a couple of important factors and omits complicated detail, and the result is a guideline for implementing the policy. _Empirical_ analysis brings data to test those implications and to find anomalies and new questions. One use is to measure the actual impact of the policy once it is in place.
 
 ---
 
