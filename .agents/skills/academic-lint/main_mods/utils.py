@@ -6,7 +6,7 @@ functions shared between the validator and tests.
 """
 
 import re
-from collections.abc import Iterator
+from collections.abc import Iterator, Sequence
 from dataclasses import dataclass
 from typing import TypedDict
 
@@ -24,7 +24,13 @@ from mistune.plugins.math import (
 )
 from mistune.plugins.table import table as _mistune_table
 
-from .models import AstNode, PreviewEntry, SessionHeader, ValidationMessage
+from .models import (
+    AstNode,
+    PreviewEntry,
+    SessionHeader,
+    ValidationContext,
+    ValidationMessage,
+)
 
 """Public symbols exported by this module."""
 __all__ = (
@@ -55,6 +61,9 @@ __all__ = (
     "parse_session_headers",
     # string helpers
     "html_cpt",
+    # note classification
+    "is_topic_note",
+    "is_topic_note_location",
     # markdown link helpers
     "InlineLink",
     "iter_inline_links",
@@ -339,6 +348,68 @@ def has_flash_tag(front: str) -> bool:
     ``rules`` module.
     """
     return bool(FLASH_TAG_RE.search(front))
+
+
+"""Directory names that hold something other than a topic note."""
+_NON_TOPIC_DIRECTORIES = frozenset(
+    {
+        "assignments",
+        "attachments",
+        "lectures",
+        "labs",
+        "questions",
+        "solution",
+        "submission",
+        "transcripts",
+        "tutorials",
+    }
+)
+
+"""File names that are containers rather than topic notes."""
+_NON_TOPIC_FILES = frozenset(
+    {
+        "agents.md",
+        "attempt.md",
+        "cheatsheet.md",
+        "data.md",
+        "formats.md",
+        "index.md",
+        "questions.md",
+    }
+)
+
+
+def is_topic_note(ctx: ValidationContext) -> bool:
+    """Whether *ctx* is a topic note: a flashcard-enabled concept page.
+
+    Structure, readability, and change rules all speak about topic notes, so
+    the predicate lives in one place.  A note qualifies when it carries an
+    active flashcard tag and is neither a container page nor a submission
+    artifact.
+    """
+    if not is_topic_note_location(ctx.path.parts, ctx.path.name):
+        return False
+    return any(tag.startswith("flashcard/active") for tag in ctx.data.tags)
+
+
+def is_topic_note_location(parts: Sequence[str], name: str) -> bool:
+    """Whether a path's location could hold a topic note, ignoring content.
+
+    Only directory names below ``academia`` are inspected, so a home path
+    that happens to contain one of them cannot silence the rules.
+    """
+    if name.lower() in _NON_TOPIC_FILES:
+        return False
+    return not (_academia_relative_parts(parts) & _NON_TOPIC_DIRECTORIES)
+
+
+def _academia_relative_parts(parts: Sequence[str]) -> set[str]:
+    """Return the lowercased path components that follow ``academia``."""
+    lowered = [part.lower() for part in parts]
+    for index, part in enumerate(lowered):
+        if part == "academia":
+            return set(lowered[index + 1 : -1])
+    return set(lowered[:-1])
 
 
 # excerpt/preview logic ------------------------------------------------------

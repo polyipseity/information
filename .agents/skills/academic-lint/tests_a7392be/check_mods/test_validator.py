@@ -613,3 +613,20 @@ async def test_region_requires_a_rationale(tmp_path: PathLike[str]):
 
     msgs = list(await check_markdown_file(file))
     assert sum(1 for m in msgs if m.rule_id == "suppression-missing-rationale") == 2
+
+
+@pytest.mark.anyio
+async def test_suppressing_a_change_rule_is_refused(tmp_path: PathLike[str]):
+    """A change warning cannot be suppressed, and is not then called redundant."""
+    text = (
+        "---\naliases: [a]\ntags: [language/in/English, flashcard/active/special/academia/test]\n---\n"
+        "<!-- check: ignore-file[change_append_bias]: this edit is fine -->\n"
+        "Some ordinary text.\n"
+    )
+    file = Path(tmp_path) / "change_suppression.md"
+    await file.write_text(text)
+
+    msgs = list(await check_markdown_file(file))
+    ids = [m.rule_id for m in msgs]
+    assert "suppression-not-permitted" in ids, ids
+    assert "suppression-redundant" not in ids, ids

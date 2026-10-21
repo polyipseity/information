@@ -18,7 +18,8 @@ from pydantic_yaml import parse_yaml_raw_as
 from rich.console import Console
 from rich.text import Text
 
-from . import rules
+from . import readability, rules, workspace
+from .changes import collect
 from .models import (
     AstNode,
     Frontmatter,
@@ -41,6 +42,7 @@ from .utils import (
 """Merged registry of all validation rules; used by main() to run checks."""
 RULE_REGISTRY = RuleRegistry()
 RULE_REGISTRY.include_registry(rules.RULE_REGISTRY)
+RULE_REGISTRY.include_registry(readability.RULE_REGISTRY)
 
 
 """Public symbols exported by this module."""
@@ -323,11 +325,26 @@ async def check_markdown_file(path: Path) -> list[ValidationMessage]:
 
     # before we actually apply the suppression filter, validate any rule IDs
     # in suppression directives.  If a rule ID is not registered then emit a
-    # dedicated non-existent-rule message so users can fix typos.
-    known_rule_ids = {rid for rid, _ in RULE_REGISTRY.items()}
+    # dedicated non-existent-rule message so users can fix typos.  A change
+    # warning cannot be suppressed at all: the diff is the evidence, and the
+    # file it is about must not be able to hide it.
+    known_rule_ids = {rid for rid, _ in RULE_REGISTRY.items()} | set(
+        workspace.NON_SUPPRESSIBLE_RULE_IDS
+    )
     for target, rule_map in suppressions.items():
         for rid in rule_map:
-            if rid not in known_rule_ids:
+            if rid in workspace.NON_SUPPRESSIBLE_RULE_IDS:
+                errors.append(
+                    ValidationMessage(
+                        "suppression-not-permitted",
+                        (
+                            f"rule {rid!r} reports on the change itself and cannot be "
+                            "suppressed; a change warning clears when the edit is committed"
+                        ),
+                        line=target,
+                    )
+                )
+            elif rid not in known_rule_ids:
                 errors.append(
                     ValidationMessage(
                         "suppression-non-existent-rule",
@@ -336,7 +353,18 @@ async def check_markdown_file(path: Path) -> list[ValidationMessage]:
                     )
                 )
     for rid, lineno in file_suppressions:
-        if rid not in known_rule_ids:
+        if rid in workspace.NON_SUPPRESSIBLE_RULE_IDS:
+            errors.append(
+                ValidationMessage(
+                    "suppression-not-permitted",
+                    (
+                        f"file-level suppression of {rid!r} is not permitted; a change "
+                        "warning clears when the edit is committed"
+                    ),
+                    line=lineno,
+                )
+            )
+        elif rid not in known_rule_ids:
             errors.append(
                 ValidationMessage(
                     "suppression-non-existent-rule",
@@ -384,7 +412,11 @@ async def check_markdown_file(path: Path) -> list[ValidationMessage]:
                 # A rule covering a region is judged once per region below,
                 # not once per line, or a working region would report
                 # itself redundant on every line it silences.
-                if rid not in known_rule_ids or (target, rid) in region_lines:
+                if (
+                    rid in workspace.NON_SUPPRESSIBLE_RULE_IDS
+                    or rid not in known_rule_ids
+                    or (target, rid) in region_lines
+                ):
                     continue
                 if (target, rid) not in active_pairs:
                     errors.append(
@@ -415,7 +447,7 @@ async def check_markdown_file(path: Path) -> list[ValidationMessage]:
                 )
         # file-level suppressions
         for rid, lineno in file_suppressions:
-            if rid not in known_rule_ids:
+            if rid in workspace.NON_SUPPRESSIBLE_RULE_IDS or rid not in known_rule_ids:
                 continue
             if rid not in active_rules:
                 errors.append(
@@ -435,13 +467,20 @@ async def check_markdown_file(path: Path) -> list[ValidationMessage]:
     # line number or whose rule isn't listed are kept.  Suppression map keys
     # come from comment parsing earlier.
     if suppressions or file_suppressions:
-        file_level_ids = {rid for rid, _ in file_suppressions}
+        file_level_ids = {
+            rid
+            for rid, _ in file_suppressions
+            if rid not in workspace.NON_SUPPRESSIBLE_RULE_IDS
+        }
         filtered: list[ValidationMessage] = []
         for m in errors:
             # drop any message whose rule is suppressed for the entire file
             if m.rule_id in file_level_ids:
                 continue
-            if m.line is not None:
+            if (
+                m.line is not None
+                and m.rule_id not in workspace.NON_SUPPRESSIBLE_RULE_IDS
+            ):
                 ignore_for_line = suppressions.get(m.line, {})
                 if m.rule_id in ignore_for_line:
                     continue
@@ -524,8 +563,9 @@ async def main(argv: Sequence[str] | None = None) -> None:
 
     By default the tool checks ``special/academia`` and
     ``private/special/academia``.  ``--json`` emits a machine-readable
-    summary with ``errors`` and ``warnings`` arrays; warnings are normally
-    empty under the current rule set.
+    summary with ``errors`` and ``warnings`` arrays.  Every run also audits
+    the uncommitted changes against ``HEAD``; outside a git work tree the
+    audit is skipped and the file rules still run.
     """
     parser = ArgumentParser(
         prog="main.py",
@@ -563,6 +603,30 @@ async def main(argv: Sequence[str] | None = None) -> None:
     roots = [Path(p) for p in (args.paths or DEFAULT_PATHS)]
     res = await walk_and_check(roots)
 
+    # The change audit runs on every invocation: it is read-only, it is
+    # scoped to the paths being linted, and it has no off switch.  Outside a
+    # git work tree it reports the skip and nothing else changes.
+    audit_summary: dict[str, int] | None = None
+    audit = await collect()
+    if audit is None:
+        if not args.json:
+            _CONSOLE.print(
+                "change audit: skipped (not a git work tree)", style="grey53"
+            )
+    else:
+        audit_roots = [fspath(root) for root in roots]
+        change_messages = await workspace.run_workspace_rules(audit, audit_roots)
+        for change_path, change_message in change_messages:
+            res.add(change_path, change_message)
+        audited = len(audit.under(audit_roots))
+        audit_summary = {"files": audited, "warnings": len(change_messages)}
+        if not args.json:
+            _CONSOLE.print(
+                f"change audit: {audited} file(s) vs HEAD, "
+                f"{len(change_messages)} warning(s)",
+                style="grey53",
+            )
+
     error_items = [(p, m) for p, m in res.messages if m.severity is Severity.ERROR]
     warning_items = [(p, m) for p, m in res.messages if m.severity is Severity.WARNING]
     all_items = [(p, m) for p, m in res.messages]
@@ -574,11 +638,12 @@ async def main(argv: Sequence[str] | None = None) -> None:
         # ``aggregate`` returns ``dict[str, list[PreviewEntry]]``.  When
         # emitting JSON we want a mapping of rule IDs to lists of serialized
         # entries, which is easier for consumers to index.
-        out: dict[str, dict[str, list[object]]] = {"issues": {}}
+        issues: dict[str, list[object]] = {}
 
         for key_id, entries in agg_all.items():
             # ``entries`` is ``list[PreviewEntry]``; convert them to dicts.
-            out["issues"][key_id] = [e.to_dict() for e in entries]
+            issues[key_id] = [e.to_dict() for e in entries]
+        out: dict[str, object] = {"issues": issues, "change_audit": audit_summary}
         print(json.dumps(out, ensure_ascii=False, indent=2))
         # exit codes unchanged (errors still take precedence)
         if error_items:

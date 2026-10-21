@@ -49,6 +49,7 @@ from .utils import (
     has_flash_tag,
     html_cpt,
     is_recurrent_index,
+    is_topic_note,
     iter_ast,
     iter_inline_links,
     iter_malformed_links,
@@ -1860,6 +1861,369 @@ def header_style(ctx: ValidationContext) -> list[ValidationMessage]:
                         )
                     )
     return errors
+
+
+# Heading structure ---------------------------------------------------------
+#
+# The three hierarchy rules share one metric.  ``width`` is the largest number
+# of sibling sections that a reader must scan at one level with none of them
+# opening a subsection: seven is comfortable, nine is the limit, and ten means
+# the note has grown a list where it needed a structure.
+
+"""Articles that turn a section name into a phrase pointing elsewhere."""
+_HEADING_ARTICLES = (
+    "the",
+    "a",
+    "an",
+    "this",
+    "that",
+    "these",
+    "those",
+    "its",
+    "their",
+)
+
+"""Question words that make a section name ask rather than name."""
+_HEADING_QUESTION_WORDS = (
+    "what",
+    "why",
+    "how",
+    "when",
+    "where",
+    "which",
+    "who",
+    "whom",
+    "whose",
+    "is",
+    "are",
+    "was",
+    "were",
+    "do",
+    "does",
+    "did",
+    "can",
+    "could",
+    "should",
+    "would",
+    "will",
+)
+
+"""Finite verbs whose presence turns a section name into a clause.
+
+The list holds the auxiliaries plus the common lexical verbs that show up in
+headings written as sentences.  It grows only when a real heading carries a
+clause that the auxiliaries alone do not catch.
+"""
+_HEADING_FINITE_VERB_RE = re.compile(
+    r"\b(?:is|are|was|were|has|have|had|does|do|did|can|could|will|would|should|"
+    r"must|may|might|keeps|underlies|predicts|applies|depends|comes|goes|makes|"
+    r"gives|shows|means|becomes|remains)\b",
+    re.IGNORECASE,
+)
+
+"""Sections a reader scans before reaching the next level, comfortably."""
+_COMFORTABLE_WIDTH = 7
+
+"""Widest section run a note may keep without nesting anything."""
+_MAXIMUM_WIDTH = 9
+
+
+def _heading_entries(
+    ctx: ValidationContext,
+) -> list[tuple[int, str, re.Match[str]]]:
+    """Return ``(level, title, match)`` for every H2..H6 heading.
+
+    Inline ``<!-- ... -->`` comments are dropped from *title* so a suppression
+    comment cannot make a heading look like a sentence.
+    """
+    entries: list[tuple[int, str, re.Match[str]]] = []
+    for match in _iter_regex_headings_filtered_by_ast(ctx.text, ctx.ast, min_level=2):
+        title = re.sub(r"<!--.*?-->", "", match.group(2)).strip()
+        entries.append((len(match.group(1)), title, match))
+    return entries
+
+
+def _first_word(title: str) -> str | None:
+    """Return the heading's first word, or ``None`` when it opens on code.
+
+    A heading that begins with a code span, such as `` `Do` ``, names a token
+    rather than describing anything, so the article and question tests skip it.
+    """
+    words = title.split()
+    if not words or words[0].startswith("`"):
+        return None
+    return words[0].strip(punctuation)
+
+
+def _terminal_flags(entries: list[tuple[int, str, re.Match[str]]]) -> list[bool]:
+    """Mark each heading that carries no subsection of its own."""
+    return [
+        not (index + 1 < len(entries) and entries[index + 1][0] > level)
+        for index, (level, _, _) in enumerate(entries)
+    ]
+
+
+def _widest_terminal_block(
+    entries: list[tuple[int, str, re.Match[str]]],
+) -> tuple[int, int | None]:
+    """Return ``(width, owner)`` for the widest run of section-less siblings.
+
+    *owner* is the index of the parent heading, or ``None`` for the note's top
+    level.  A heading's direct children are the members of its child block that
+    sit at the block's shallowest level.
+    """
+    if not entries:
+        return (0, None)
+    flags = _terminal_flags(entries)
+    shallowest = min(level for level, _, _ in entries)
+    widest, owner = 0, None
+    blocks: list[tuple[int | None, list[int]]] = [
+        (
+            None,
+            [
+                index
+                for index, (level, _, _) in enumerate(entries)
+                if level == shallowest
+            ],
+        )
+    ]
+    for index, (level, _, _) in enumerate(entries):
+        depth: list[int] = []
+        for member in range(index + 1, len(entries)):
+            if entries[member][0] <= level:
+                break
+            depth.append(member)
+        if not depth:
+            continue
+        child_level = min(entries[member][0] for member in depth)
+        blocks.append(
+            (index, [member for member in depth if entries[member][0] == child_level])
+        )
+    for block_owner, members in blocks:
+        width = sum(1 for member in members if flags[member])
+        if width > widest:
+            widest, owner = width, block_owner
+    return (widest, owner)
+
+
+def _hierarchy_message(
+    ctx: ValidationContext,
+    rule_id: str,
+    severity: Severity,
+    entries: list[tuple[int, str, re.Match[str]]],
+    width: int,
+    owner: int | None,
+    advice: str,
+) -> list[ValidationMessage]:
+    """Build the one message the hierarchy rules report."""
+    if owner is None:
+        where = "the note's top level"
+        anchor = entries[0][2] if entries else None
+    else:
+        where = f"'{entries[owner][1]}'"
+        anchor = entries[owner][2]
+    if anchor is None:  # pragma: no cover - guarded by the width thresholds
+        return []
+    line, col, col_end = locate_range(ctx.text, anchor.start(), len(anchor.group(0)))
+    msg = (
+        f"{width} of the sections under {where} carry no subsection "
+        f"(flatness {width / _COMFORTABLE_WIDTH:.2f}; {_COMFORTABLE_WIDTH} is comfortable, "
+        f"{_MAXIMUM_WIDTH} is the limit). {advice}"
+    )
+    return [
+        ValidationMessage(
+            rule_id=rule_id,
+            msg=msg,
+            severity=severity,
+            line=line,
+            col=col,
+            col_end=col_end,
+        )
+    ]
+
+
+@RULE_REGISTRY.register()
+def header_hierarchy_flat(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Error when a note lists more than nine section-less siblings."""
+    if not is_topic_note(ctx):
+        return []
+    entries = _heading_entries(ctx)
+    width, owner = _widest_terminal_block(entries)
+    if width <= _MAXIMUM_WIDTH:
+        return []
+    return _hierarchy_message(
+        ctx,
+        "header_hierarchy_flat",
+        Severity.ERROR,
+        entries,
+        width,
+        owner,
+        (
+            "Group these sections under a few headings that name real parts of "
+            "the concept, demote the members to '###', or merge the ones that "
+            "say the same thing."
+        ),
+    )
+
+
+@RULE_REGISTRY.register()
+def header_hierarchy_thin(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Warn when a note sits at the edge of the section-width limit."""
+    if not is_topic_note(ctx):
+        return []
+    entries = _heading_entries(ctx)
+    width, owner = _widest_terminal_block(entries)
+    if not _COMFORTABLE_WIDTH <= width <= _MAXIMUM_WIDTH:
+        return []
+    return _hierarchy_message(
+        ctx,
+        "header_hierarchy_thin",
+        Severity.WARNING,
+        entries,
+        width,
+        owner,
+        (
+            "Nest the related entries under one grouping section before adding "
+            "another, so the reader scans fewer things at once."
+        ),
+    )
+
+
+@RULE_REGISTRY.register()
+def header_hierarchy_shallow(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Warn when a long note never uses a third heading level."""
+    if not is_topic_note(ctx):
+        return []
+    entries = _heading_entries(ctx)
+    if any(level >= 3 for level, _, _ in entries):
+        return []
+    lines = ctx.text.count("\n") + 1
+    if lines < 120:
+        return []
+    width, owner = _widest_terminal_block(entries)
+    if not 5 <= width <= 6:
+        return []
+    return _hierarchy_message(
+        ctx,
+        "header_hierarchy_shallow",
+        Severity.WARNING,
+        entries,
+        width,
+        owner,
+        (
+            f"The note runs {lines} lines and never uses '###', so nothing below "
+            "the top level exists. Give the sections that carry sub-concepts "
+            "their own third-level headings."
+        ),
+    )
+
+
+@RULE_REGISTRY.register()
+def header_generic_article(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Error when a section name opens on an article or demonstrative."""
+    if not is_topic_note(ctx):
+        return []
+    messages: list[ValidationMessage] = []
+    for _, title, match in _heading_entries(ctx):
+        first = _first_word(title)
+        if first is None or first.lower() not in _HEADING_ARTICLES:
+            continue
+        line, col, col_end = locate_range(ctx.text, match.start(), len(match.group(0)))
+        messages.append(
+            ValidationMessage(
+                rule_id="header_generic_article",
+                msg=(
+                    f"section name opens on '{first}', which points at "
+                    "something the reader is assumed to hold. A section name is a "
+                    "term: drop the article, and when a clause follows, rename it "
+                    "to the concept ('the state it keeps' becomes 'hysteresis')."
+                ),
+                severity=Severity.ERROR,
+                line=line,
+                col=col,
+                col_end=col_end,
+            )
+        )
+    return messages
+
+
+@RULE_REGISTRY.register()
+def header_question_form(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Warn when a section name asks a question instead of naming a topic.
+
+    A single word is a term even when it is spelled like a question word: a
+    section named ``Do`` or ``Will`` names a keyword, so the question-word
+    branch needs at least two words.  A question mark is decisive on its own.
+    """
+    if not is_topic_note(ctx):
+        return []
+    messages: list[ValidationMessage] = []
+    for _, title, match in _heading_entries(ctx):
+        first = _first_word(title)
+        asks = title.rstrip().endswith("?") or (
+            len(title.split()) >= 2
+            and first is not None
+            and first.lower() in _HEADING_QUESTION_WORDS
+        )
+        if not asks:
+            continue
+        line, col, col_end = locate_range(ctx.text, match.start(), len(match.group(0)))
+        messages.append(
+            ValidationMessage(
+                rule_id="header_question_form",
+                msg=(
+                    "section name is a question. Name the concept the answer "
+                    "delivers: 'why the amplitude falls' becomes 'amplitude "
+                    "falloff', and the sentence that answers it stays in the "
+                    "paragraph below."
+                ),
+                severity=Severity.WARNING,
+                line=line,
+                col=col,
+                col_end=col_end,
+            )
+        )
+    return messages
+
+
+@RULE_REGISTRY.register()
+def header_sentence_like(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Warn when a section name reads as a sentence rather than as a term."""
+    if not is_topic_note(ctx):
+        return []
+    messages: list[ValidationMessage] = []
+    for _, title, match in _heading_entries(ctx):
+        words = title.split()
+        if not words:
+            continue
+        remainder = " ".join(words[1:])
+        reads_as_sentence = (
+            title.rstrip().endswith(".")
+            or len(words) > 9
+            or (
+                len(words) >= 6
+                and _HEADING_FINITE_VERB_RE.search(remainder) is not None
+            )
+        )
+        if not reads_as_sentence:
+            continue
+        line, col, col_end = locate_range(ctx.text, match.start(), len(match.group(0)))
+        messages.append(
+            ValidationMessage(
+                rule_id="header_sentence_like",
+                msg=(
+                    f"section name has {len(words)} words and reads as a "
+                    "sentence. Name the concept instead ('a stimulus that "
+                    "predicts a temperature change' becomes 'conditioned "
+                    "stimulus'), and keep the clause in the paragraph."
+                ),
+                severity=Severity.WARNING,
+                line=line,
+                col=col,
+                col_end=col_end,
+            )
+        )
+    return messages
 
 
 @RULE_REGISTRY.register()
