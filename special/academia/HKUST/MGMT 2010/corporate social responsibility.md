@@ -30,11 +30,11 @@ A company that cannot sustain itself cannot meet a higher obligation. That depen
 
 Flashcards for this section are as follows:
 
-- Carroll's CSR pyramid ::@:: From base to apex: economic (profit), legal (law), ethical (stakeholder expectations), philanthropic (voluntary good). Each level assumes the ones below are met.
-- Economic responsibility ::@:: The foundation: be profitable. Capitalism requires it, and higher duties depend on it.
-- Legal responsibility ::@:: Obey the law, which stakeholders require.
-- Ethical responsibility ::@:: Meet what stakeholders expect beyond what the law demands.
-- Philanthropic responsibility ::@:: Do what stakeholders desire, not what they require. Voluntary.
+- Carroll's CSR pyramid ::@:: Base to apex: economic (profit), legal (law), ethical (what stakeholders expect), philanthropic (voluntary good). Each rests on those below.
+- Economic responsibility ::@:: Profit comes first. Capitalism needs it, and higher duties rest on it.
+- Legal responsibility ::@:: Obey the law that stakeholders require.
+- Ethical responsibility ::@:: Meet what stakeholders expect beyond the law.
+- Philanthropic responsibility ::@:: Do what stakeholders want, not what they require. Voluntary.
 
 ## stakeholder perspective
 
@@ -46,5 +46,5 @@ When profit and ethics pull in different directions, managers face the core tens
 
 Flashcards for this section are as follows:
 
-- Doing well versus doing good ::@:: Doing well means profit. Doing good means meeting ethical and philanthropic duties beyond the law.
-- The core CSR tension ::@:: Profit can pull against what stakeholders expect. Managers then balance economic results against ethical duty.
+- Doing well versus doing good ::@:: Doing well means profit. Doing good means ethical and philanthropic duties beyond the law.
+- The core CSR tension ::@:: Profit can pull against what stakeholders expect. Managers then weigh results against ethical duty.

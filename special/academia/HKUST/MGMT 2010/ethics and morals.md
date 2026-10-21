@@ -21,7 +21,7 @@ Ethics and morals both deal with right or wrong conduct. They come from differen
 
 Ethics are the accepted procedures, customs, or habits that govern a group. Morals are personal principles rooted in individual character.
 
-The two overlap at right or wrong conduct. Most ethical dilemmas live in that overlap, where what the group demands clashes with what the individual believes.
+The two overlap at right or wrong conduct. Most ethical dilemmas live in that overlap. There, what the group demands clashes with what the individual believes.
 
 ---
 

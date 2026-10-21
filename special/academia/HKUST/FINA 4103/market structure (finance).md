@@ -22,7 +22,7 @@ Flashcards for this section are as follows:
 
 Markets differ along several axes: how fast they trade, how orders are matched and handled, how flexible and fungible the trading is, how much liquidity they carry, and how prices are set.
 
-Broadly, markets fall into three types: over-the-counter markets, fixing and auctions, and continuous trading with a central limit-order book.
+The three broad types are over-the-counter markets, fixing and auctions, and continuous trading with a central limit-order book. Whatever the type, a market is also either centralized, one exchange holding the book, or decentralized, with no central book at all.
 
 A pre-IPO stock, one before its initial public offering (IPO), is held by management, founders, and private investors rather than listed publicly, and changes hands by bilateral negotiation. A bond is auctioned in the primary market when it is first issued, then traded over the counter in the secondary market. One stock can also trade at venues that use different protocols, such as a dealer market and a double auction.
 

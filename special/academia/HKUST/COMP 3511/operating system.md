@@ -20,9 +20,9 @@ Machine-language structure is hard for programs to use, especially for I/O, so t
 
 Flashcards for this section are as follows:
 
-- what an operating system is ::@:: An operating system is system software that controls and coordinates the use of computing resources among applications and users.
+- what an operating system is ::@:: System software that controls and coordinates the use of computing resources among applications and users.
 - four components of a computer system ::@:: Hardware, the operating system, application programs, and users.
-- operating system as intermediary ::@:: The operating system is an intermediary between users or application software and the hardware, hiding its complicated details behind a simple interface.
+- operating system as intermediary ::@:: An intermediary between users or application software and the hardware. It hides the messy details behind a simple interface.
 - abstraction over hardware ::@:: Programs and users work with photos, web pages, emails, and files rather than with bytes and blocks on devices.
 - machine-language complexity ::@:: The machine-language structure of a computer is complicated for programs, especially for input/output (I/O). The operating system hides it behind an abstraction.
 - what application programs do ::@:: Application programs define how system resources are used to solve problems: editors, compilers, web browsers, databases, video games.
@@ -38,9 +38,9 @@ The purposes of an operating system pull in different directions. _User convenie
 
 Flashcards for this section are as follows:
 
-- resource allocator ::@:: The operating system manages all resources, hardware and software, and decides between conflicting requests so resources are used efficiently and fairly.
-- control program ::@:: The operating system controls the execution of programs and prevents errors and improper use of the computer.
-- goals of an operating system ::@:: User convenience, an environment where programmers can run programs conveniently, safely, and efficiently, and resource allocation in a fair and efficient manner.
+- resource allocator ::@:: It manages all resources, hardware and software, and decides between conflicting requests so resources are used fairly and efficiently.
+- control program ::@:: It controls the execution of programs and stops errors and improper use of the computer.
+- goals of an operating system ::@:: User convenience, a place where programmers can run programs safely and easily, and resource allocation in a fair and efficient way.
 - user goals versus operator goals ::@:: A user of a private machine wants convenience, ease of use and performance. The operator of a shared machine wants resources used efficiently and fairly.
 
 ## composition
@@ -57,8 +57,8 @@ Flashcards for this section are as follows:
 
 - no universal definition ::@:: There is no universally accepted definition of an operating system.
 - vendor approximation ::@:: "Everything a vendor ships when you order an operating system" is a good approximation, though what ships varies.
-- kernel ::@:: The kernel is the one program always running on a computer, and it provides the essential functionality.
-- middleware ::@:: Software frameworks that give application developers extra services, such as databases, multimedia and graphics. They are popular on mobile systems such as Apple's iOS and Google's Android.
+- kernel ::@:: The one program always running on a computer. It gives the core functions.
+- middleware ::@:: Software frameworks that give app developers extra services: databases, multimedia and graphics. They are popular on mobile systems such as Apple's iOS and Google's Android.
 - system programs ::@:: Programs that ship with the operating system but are not part of the kernel: word processors, browsers, compilers.
 - application programs versus system programs ::@:: Application programs do not belong to the operating system at all, for example apps from app stores. System programs ship with it.
 
@@ -98,11 +98,11 @@ Modern operating systems do not link libraries into executables statically. Inst
 
 Flashcards for this section are as follows:
 
-- linker ::@:: Combines relocatable object files into a single binary executable, along with libraries if needed.
-- loader ::@:: Brings an executable from secondary storage into memory for execution.
+- linker ::@:: Combines relocatable object files into one binary executable, with libraries if needed.
+- loader ::@:: Brings a program from storage into memory so it can run.
 - relocation ::@:: Assigns final addresses to program parts and adjusts code and data to match.
-- dynamically linked libraries ::@:: Libraries loaded at runtime and shared by all programs using the same version, rather than statically linked into each executable.
-- relocatable object file ::@:: A compiled file designed to be loaded at any physical memory location, before the linker combines it with others into an executable.
+- dynamically linked libraries ::@:: Libraries loaded at runtime and shared by all programs using the same version, rather than linked in when the program is built.
+- relocatable object file ::@:: A compiled file that can sit at any memory address, before the linker joins it with others into one binary.
 
 ## services
 
@@ -129,9 +129,9 @@ Flashcards for this section are as follows:
 - system-facing operating system (OS) services ::@:: Resource allocation, logging, and protection and security.
 - file-system manipulation ::@:: Programs need to read, write, create, delete, and search files and directories, and manage permissions.
 - communications: shared memory versus message passing ::@:: Processes may communicate through shared memory, a region both can read and write directly. They may instead pass messages, where the operating system (OS) moves packets between processes, locally or over a network.
-- error detection ::@:: The operating system (OS) watches constantly for errors in the central processing unit (CPU), memory, input/output (I/O) devices and user programs. It then acts on them.
-- protection versus security ::@:: Protection controls access to system resources among concurrent processes; security requires user authentication and defends against invalid external access attempts.
-- resource allocation ::@:: When several users or jobs run at once, the operating system shares out central processing unit (CPU) cycles, memory, file storage and input/output (I/O) devices.
+- error detection ::@:: The operating system (OS) watches constantly for errors in the processor, memory, input/output (I/O) devices and user programs. It then acts on them.
+- protection versus security ::@:: Protection controls access to system resources among concurrent processes. Security requires user authentication and defends against outside attacks.
+- resource allocation ::@:: When several users or jobs run at once, the operating system shares out processor cycles, memory, file storage and input/output (I/O) devices.
 - logging ::@:: The operating system tracks which users use how much and what kinds of computer resources.
 
 ### user interfaces
@@ -166,9 +166,9 @@ Flashcards for this section are as follows:
 
 - user goals for an operating system (OS) ::@:: Convenience, ease of learning and use, reliability, safety, and speed.
 - system goals for an operating system (OS) ::@:: Ease of design, implementation, and maintenance, along with flexibility, reliability, error-freedom, and efficiency.
-- policy versus mechanism ::@:: Mechanisms specify how to do things; policies decide what will be done. Separating them allows the same mechanism to support different policies without modification.
-- timer as mechanism, duration as policy ::@:: A timer construct is a mechanism for central processing unit (CPU) protection; the timer duration for a particular user is a policy decision.
-- high-level language implementation ::@:: Most modern kernels use C or C++. They are easier to port, faster to write, more compact, easier to debug, and cost almost nothing in performance on current hardware.
+- policy versus mechanism ::@:: Mechanisms say how to do things. Policies say what gets done. Separating them lets one mechanism serve different policies unchanged.
+- timer as mechanism, duration as policy ::@:: A timer is a mechanism for processor protection. The timer duration for a given user is a policy decision.
+- high-level language implementation ::@:: Most modern kernels use C or C++. They are easier to port, faster to write, more compact, easier to debug, and cost almost nothing in speed on today's hardware.
 
 ### structure
 
@@ -202,10 +202,10 @@ __macOS and iOS__ share the Darwin kernel environment. That environment combines
 
 Flashcards for this section are as follows:
 
-- simple operating system (OS) structure ::@:: No well-defined architecture; interfaces and functionality are not separated, as in MS-DOS, which was single-tasking with no dual mode or hardware protection.
-- MS-DOS memory model ::@:: At boot, the shell and kernel occupy memory; running a program overwrites everything except the kernel; on exit, the shell reloads.
-- FreeBSD multitasking ::@:: The shell calls `fork()` to create a process and `exec()` to load a program. The operating system provides central processing unit (CPU) scheduling, process coordination and memory management.
-- monolithic kernel ::@:: All operating system (OS) functionality in a single binary in one address space. It is fast, with little overhead, and hard to modify.
+- simple operating system (OS) structure ::@:: No clear architecture. Interfaces and code are mixed, as in MS-DOS, which was single-tasking with no dual mode or hardware protection.
+- MS-DOS memory model ::@:: At boot, the shell and kernel occupy memory. Running a program overwrites everything but the kernel. On exit, the shell reloads.
+- FreeBSD multitasking ::@:: The shell calls `fork()` to create a process and `exec()` to load a program. The operating system provides processor scheduling, process coordination and memory management.
+- monolithic kernel ::@:: All operating system (OS) code in one binary in one address space. It is fast, with little overhead, and hard to modify.
 - UNIX kernel and system programs ::@:: UNIX separates into the kernel (everything below the system-call interface) and system programs (shells, compilers, utilities).
 - layered approach ::@:: The operating system is divided into layers, from hardware (layer 0) to the user interface (layer N). Each layer uses the services below it and offers services above.
 - information hiding in layered operating system (OS) ::@:: A layer does not need to know how lower-layer operations are implemented, only what they do. The interface is the contract.
@@ -216,7 +216,7 @@ Flashcards for this section are as follows:
 - HAL (Android) ::@:: The hardware abstraction layer in Android, abstracting camera, GPS, and sensors so applications see a consistent interface regardless of specific hardware.
 - Bionic ::@:: Google's standard C library for Android, replacing the GNU C library (glibc) used in Linux systems.
 - Java Native Interface (JNI) ::@:: Allows Android developers to bypass the ART virtual machine and access hardware directly, at the cost of portability.
-- Darwin kernel ::@:: The hybrid XNU kernel in macOS and iOS. It combines the Mach microkernel (memory management, central processing unit (CPU) scheduling, inter-process communication (IPC)) with the BSD UNIX kernel. That kernel supplies the POSIX application program interface (API), networking, file systems and security.
+- Darwin kernel ::@:: The hybrid XNU kernel in macOS and iOS. It combines the Mach microkernel (memory management, processor scheduling, inter-process communication (IPC)) with the BSD UNIX kernel. That kernel supplies the POSIX application program interface (API), networking, file systems and security.
 - macOS versus iOS ::@:: Both share Darwin. macOS adds the Aqua graphical user interface (GUI) and Cocoa, and runs on Intel. iOS adds the Springboard touch interface and Cocoa Touch, on ARM.
 - modular versus layered ::@:: Both have well-defined interfaces, but modules can call any other module, unlike strict layering.
 - modular versus microkernel ::@:: Both have a minimal core with extensible services, but modules use direct calls rather than message passing.
