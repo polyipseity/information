@@ -18,7 +18,7 @@ tags:
 
 # TCP congestion control
 
-Congestion control keeps a sender from pushing more traffic into the network than the path can carry. Nothing tells the sender how much room the network has, so it infers it from the acknowledgements it gets back: quick acknowledgements mean room to send more, and acknowledgements that stop mean the path is overloaded. The sender keeps that estimate in a congestion window and revises it on each event.
+Congestion control keeps a sender from pushing more traffic into the network than the path can carry. Nothing tells the sender how much room the network has. It infers that room from the acknowledgements it gets back. Quick acknowledgements mean room to send more, and acknowledgements that stop mean the path is overloaded. The sender keeps the estimate in a congestion window and revises it on each event.
 
 ---
 
@@ -30,7 +30,7 @@ Flashcards for this section are as follows:
 
 ## congestion window
 
-The congestion window $CWND$ is the sender's estimate of how much it may have outstanding, kept apart from the receive window that flow control supplies. The sender starts it at one MSS and keeps a slow-start threshold alongside; the two decide how the window grows. The sending window is $\min(RWND, CWND)$ (see [sending window](flow%20control%20(data).md#sending%20window)), so congestion control bounds the connection from the network side and flow control from the receiver side.
+The congestion window $CWND$ is the sender's estimate of how much it may have outstanding. It is kept apart from the receive window that flow control supplies. The sender starts it at one MSS and keeps a slow-start threshold alongside. The two decide how the window grows. The sending window is $\min(RWND, CWND)$ (see [sending window](flow%20control%20(data).md#sending%20window)). Congestion control therefore bounds the connection from the network side, and flow control from the receiver side.
 
 ---
 
@@ -42,7 +42,7 @@ Flashcards for this section are as follows:
 
 ## slow start
 
-Slow start grows the window exponentially: it starts at $CWND = 1$ MSS and adds one MSS for every acknowledgement. One round trip brings back about as many acknowledgements as the window holds segments, so the window doubles per round trip. Once $CWND$ reaches the slow-start threshold, the window grows linearly instead.
+Slow start grows the window exponentially. It starts at $CWND = 1$ MSS and adds one MSS for every acknowledgement. One round trip brings back about as many acknowledgements as the window holds segments, so the window doubles per round trip. Once $CWND$ reaches the slow-start threshold, the window grows linearly instead.
 
 ---
 
@@ -54,7 +54,7 @@ Flashcards for this section are as follows:
 
 ## congestion avoidance
 
-Congestion avoidance grows the window linearly once $CWND$ has reached the slow-start threshold. Each acknowledgement adds $MSS/CWND$ to $CWND$, about one MSS per round trip rather than a doubling, since the growth is spread over every acknowledgement of the window. The window keeps growing while no loss is reported, looking for more room a round trip at a time.
+Congestion avoidance grows the window linearly once $CWND$ has reached the slow-start threshold. Each acknowledgement adds $MSS/CWND$ to $CWND$, about one MSS per round trip rather than a doubling. The growth is spread over every acknowledgement of the window. The window keeps growing while no loss is reported, looking for more room a round trip at a time.
 
 ---
 
@@ -66,7 +66,7 @@ Flashcards for this section are as follows:
 
 ## fast recovery
 
-Fast recovery replaces the return to slow start when duplicate acknowledgements, rather than a timeout, report the loss. On the third one the sender halves the slow-start threshold and sets $CWND$ to that threshold plus the three segments the duplicate acknowledgements account for, so the window drops by about half instead of to one MSS. Each further duplicate acknowledgement adds one MSS while the missing segment is retransmitted.
+Fast recovery replaces the return to slow start when duplicate acknowledgements, rather than a timeout, report the loss. On the third one the sender halves the slow-start threshold. It sets $CWND$ to that threshold plus the three segments the duplicate acknowledgements account for. The window then drops by about half instead of to one MSS. Each further duplicate acknowledgement adds one MSS while the missing segment is retransmitted.
 
 ---
 

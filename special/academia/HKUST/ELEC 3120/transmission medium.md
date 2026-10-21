@@ -15,7 +15,7 @@ tags:
 
 # transmission medium
 
-A transmission medium is the means by which information travels from a sender to a receiver. Data transmission is the process of sending digital or analog data over such a medium to one or more devices, and data encoding is the code that turns that data into what the medium carries. Copper, optical fiber, radio, and free space are the media a network runs on.
+A transmission medium is the means by which information travels from a sender to a receiver. Data transmission is the process of sending digital or analog data over such a medium to one or more devices. Data encoding is the code that turns that data into what the medium carries. Copper, optical fiber, radio, and free space are the media a network runs on.
 
 ---
 
@@ -26,7 +26,7 @@ Flashcards for this section are as follows:
 
 ## media
 
-Copper appears as the twisted pairs of an Ethernet cable, which carry the data as electrical signals; fiber optics carry light; radio covers mobile and wireless links; and free space carries light and radio between stations. A medium need not be electrical or optical. Beacon towers along the Great Wall carried information as light and darkness, reaching the next outpost at the speed of light, while the quipu of the Inca empire stored and carried it in up to thousands of knotted strings that moved from place to place by hand. The Internet uses all of these media at once, and each setting picks its own: a datacenter runs on copper and fiber, a satellite link on radio through free space, a campus on both copper and wireless.
+Copper appears as the twisted pairs of an Ethernet cable, which carry the data as electrical signals. Fiber optics carry light, radio covers mobile and wireless links, and free space carries light and radio between stations. A medium need not be electrical or optical. Beacon towers along the Great Wall carried information as light and darkness, reaching the next outpost at the speed of light. The quipu of the Inca empire stored and carried it in up to thousands of knotted strings, which moved from place to place by hand. The Internet uses all of these media at once, and each setting picks its own. A datacenter runs on copper and fiber, a satellite link on radio through free space, and a campus on both copper and wireless.
 
 ---
 
@@ -41,7 +41,7 @@ Flashcards for this section are as follows:
 
 ## data encoding
 
-Data encoding is the process of applying a specific code to data, converting it into an equivalent form the medium can carry: letters, symbols, and numbers become signal states. The encoding decides how much each signal carries. Beacon towers had two values, light for danger and darkness for safe, so one signal carried one bit; knots tied in a pattern in a quipu carried more, because a knot has many shapes rather than two. Ethernet over copper terminates its four twisted pairs in an 8P8C plug, whose pins 1 to 8 are wired in T568A or T568B order.
+Data encoding is the process of applying a specific code to data, converting it into an equivalent form the medium can carry: letters, symbols, and numbers become signal states. The encoding decides how much each signal carries. Beacon towers had two values, light for danger and darkness for safe, so one signal carried one bit. Knots tied in a pattern in a quipu carried more, because a knot has many shapes rather than two. Ethernet over copper terminates its four twisted pairs in an 8P8C plug, whose pins 1 to 8 are wired in T568A or T568B order.
 
 ---
 
