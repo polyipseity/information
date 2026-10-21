@@ -20,30 +20,27 @@ A course root, a submission, or a questions directory may each need raw files be
 
 ## Document-like formats (PDF, DOCX, PPTX)
 
-Documents are not opaque blobs: extraction of text, page renders, and embedded images always runs on ingest, with outputs persisted in `.extracted/` beside the source. Disposition depends on the document's role (see "Document format handling" in `academic-ingest`):
+Documents are not opaque blobs: extraction of text, page renders, and embedded images always runs on ingest, with outputs persisted under `.pi/ingest/` at the repository root rather than inside the tree. Disposition depends on the document's role (see "Document format handling" in `academic-ingest`):
 
 - __Content document__ (the document IS the course material): the `.md` file is canonical, and the original is not stored in `attachments/` unless the user explicitly requests provenance. Extracted text becomes the `.md`; images stay in `.extracted/images/`, except an embedded image copied into `attachments/` under a descriptive name when the picture itself is the material. Page renders are never attachments.
 - __Attachment document__ (the document accompanies course material): the original is canonical and is stored in `attachments/` for provenance and re-extraction. Its extracted text is read during classification but not persisted; images stay in `.extracted/images/` and are copied into `attachments/` only when the note must show one.
 
-When documents are ingested into `attachments/`, extraction outputs persist in a sibling `.extracted/` folder:
+When documents are ingested into `attachments/`, extraction outputs persist under `.pi/ingest/` at the source's path minus `special/academia/<INSTITUTION>/`, with `.extracted` appended to the leaf stem:
 
 ```text
-attachments/
-├── lecture.pdf                    # original file (attachment-role)
-├── lecture.extracted/             # extraction cache
-│   ├── text.md
-│   ├── pages/
-│   │   ├── page_001.png
-│   │   └── ...
-│   ├── images/
-│   │   ├── page_007_img_1.png
-│   │   └── ...
-│   └── manifest.json
-├── data.csv
-└── ...
+.pi/ingest/ELEC 2400/labs/week 4 lab 1/attachments/
+└── lecture.extracted/             # extraction cache, outside git
+    ├── text.md
+    ├── pages/
+    │   ├── page_001.png
+    │   └── ...
+    ├── images/
+    │   ├── page_007_img_1.png
+    │   └── ...
+    └── manifest.json
 ```
 
-`.extracted/` is a derived artifact: not tracked in `index.md` `## children`, not linked from content files. The agent checks `manifest.json` (source hash) before re-extracting, and a `.gitignore` inside `.extracted/` containing `*` keeps cached contents out of commits. Create that `.gitignore` whenever you create `.extracted/`.
+`.extracted/` is a derived artifact under `.pi/`, which sits outside git: not tracked in `index.md` `## children`, not linked from content files. The agent checks `manifest.json` (source hash) before re-extracting. No ignore rule is needed, because `.pi/` is outside git.
 
 ## Linking
 

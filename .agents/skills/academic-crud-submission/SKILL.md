@@ -156,13 +156,14 @@ Input: a Canvas assignment HTML page plus prompt files.
 2. Extract Canvas metadata from the HTML: title, due date (ISO 8601 with timezone), points, submission type, description text (verbatim, keeping `<span style>` for color), update announcements (verbatim), and the assignment ID from the URL comment.
 3. Create `index.md` with the metadata and description.
 4. Copy prompt PDFs, DOCX, PPTX, and data files to `attachments/`. For an out-of-class component the directory is its private mirror (see "Public and private split").
-5. For a PDF/DOCX/PPTX, check for an existing extraction in `attachments/<stem>.extracted/` and, when no valid cache exists, run:
+5. For a PDF/DOCX/PPTX, check for an existing extraction under `.pi/ingest/` at the source's path minus `special/academia/<INSTITUTION>/`, with `.extracted` appended to the leaf stem, and when no valid cache exists, run:
 
    ```bash
-   uv run -m scripts.special.convert_document <file> attachments/<stem>.extracted/
+   uv run -m scripts.special.convert_document attachments/<stem>.pdf \
+     ".pi/ingest/<COURSE>/<component path>/attachments/<stem>.extracted/"
    ```
 
-   Use the extracted text to understand the prompt during classification. The original in `attachments/` is canonical. Leave the images in `attachments/<stem>.extracted/pages/` and `images/`; reference an embedded image from a content file only when the picture itself is the material (see "Page image handling" in `academic-ingest`).
+   Use the extracted text to understand the prompt during classification. The original in `attachments/` is canonical. Leave the images in that `.extracted/pages/` and `.extracted/images/`; reference an embedded image from a content file only when the picture itself is the material (see "Page image handling" in `academic-ingest`).
 6. Apply the display-vs-link convention for versioned PDFs.
 
 ### What goes in `attachments/`
@@ -173,7 +174,7 @@ Input: a Canvas assignment HTML page plus prompt files.
 - Images (circuit diagrams, screenshots, pinout diagrams)
 - Quiz images extracted from PRS/iClicker HTML
 - Documents (PDF, DOCX, PPTX) that are prompt files, assignment sheets, or reference documents (attachment role)
-- `<stem>.extracted/` caches for those documents (`text.md`, `pages/`, `images/`, `manifest.json`)
+- `<stem>.extracted/` caches for those documents live under `.pi/ingest/`, never in the tree (`text.md`, `pages/`, `images/`, `manifest.json`)
 - For an out-of-class component the directory itself sits in the private tree; what goes in it does not change
 
 When adding images:

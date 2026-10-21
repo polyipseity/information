@@ -49,7 +49,7 @@ __Hard rule: ingestion never destroys a source.__ It never deletes, moves, renam
 - Leave every source byte-identical at its original path.
 - Do not delete a source because its content was "not stored in the repository". "Not stored" means not copied into the tracked content tree (`special/academia/...`); it never authorises deleting the original.
 - Do not move, rename, or truncate a source to tidy up, deduplicate, or mark it processed.
-- `.extracted/` outputs are additions beside a source, never replacements. Never remove a source to "clean up" after extraction.
+- Extraction outputs are additions, never replacements. Never remove a source to "clean up" after extraction.
 - Disposing of sources is the user's decision. If cleanup looks desirable, ask.
 
 ## Convention authority
@@ -77,7 +77,7 @@ __Hard rule: run this before classifying anything.__ A document is not "read" un
 uv run -m scripts.special.convert_document <input> <output_dir>
 ```
 
-`<output_dir>` is the `.extracted/` folder described below. Extraction happens __in place, next to the source__, whether or not the source lives inside the repository.
+`<output_dir>` is the path derived below. Extraction writes under `.pi/ingest/` at the repository root, __never inside `special/` or `private/`__: the cache is derived, and a derived folder inside the tree is a folder the repository has to ignore forever.
 
 __Never substitute an ad-hoc extractor.__ `pdftotext`, a direct `pymupdf` call, `pdfplumber`, and similar tools return text only: no page images, no manifest, nothing to cache-check. Using one is a skill violation even when the text looks correct.
 
@@ -92,10 +92,11 @@ __Read every page, write what earns its place.__ Reading is total. No page goes 
 
 Transcribe a figure the prose depends on. Attach the picture itself only when the picture is the material. If a source has no extractable text (scanned images only), say so and work from its images.
 
-Document-like formats (PDF, DOCX, PPTX) produce extraction outputs that are persisted near the source:
+Document-like formats (PDF, DOCX, PPTX) produce extraction outputs under `.pi/ingest/`. Take the source path, remove `special/academia/<INSTITUTION>/`, put `.pi/ingest/` in its place, and append `.extracted` to the leaf stem:
 
-- __Single file input__: `<stem>.extracted/` sibling folder (e.g., `lecture.pdf` → `lecture.extracted/`)
-- __Directory input__: `.extracted/` subfolder inside the directory (e.g., `materials/` → `materials/.extracted/`)
+- __Single file input__: `special/academia/HKUST/ELEC 2400/labs/week 4 lab 1/attachments/lab1a_manual.pdf` → `.pi/ingest/ELEC 2400/labs/week 4 lab 1/attachments/lab1a_manual.extracted/`
+- __Directory input__: `special/academia/HKUST/ELEC 2400/materials/` → `.pi/ingest/ELEC 2400/materials.extracted/`
+- __Source outside the repository__: the same shape, built from the course directory and the component the source belongs to
 
 Each `.extracted/` folder contains:
 
@@ -106,7 +107,7 @@ Each `.extracted/` folder contains:
 
 __Cache check__: before running `convert_document.py`, check if `.extracted/` exists with a valid `manifest.json` matching the source file's SHA-256 hash. If valid, reuse the cached extraction; use `--force` to re-extract.
 
-`.extracted/` is a derived artifact: not tracked in `index.md` `## children`, not linked from content files, safe to delete and re-extract. This applies to `.extracted/` alone, never to the source document (see "Source file preservation").
+`.extracted/` is a derived artifact under `.pi/`, which sits outside git: not tracked in `index.md` `## children`, not linked from content files, safe to delete and re-extract. This applies to `.extracted/` alone, never to the source document (see "Source file preservation").
 
 ### Page image handling
 
@@ -183,7 +184,7 @@ Document-like formats are not opaque: extraction is mandatory and runs before cl
    - __Attachment document__: the document accompanies course material (prompt PDF, reference data, supplementary reading). The original is copied to `attachments/`; its extracted text is used during processing but not persisted as a separate `.md`; images stay in `.extracted/` unless the note has to show one.
    - __When ambiguous__: ask the user whether the document is the course content or a file that accompanies it.
 
-3. __Ensure `.gitignore`__: when creating an `.extracted/` folder, create a `.gitignore` inside it containing `*`, so cached contents are never committed.
+`.pi/` is outside git, so no ignore rule is needed for the cache. Never add one inside the repository tree for it.
 
 ## Directory ingestion
 
@@ -359,7 +360,7 @@ After extraction, the material lands as follows. Nothing here authorises deletin
 - Figures → transcribed into the note; a definitional drawing is attached as a redrawn SVG (see "Definitional drawings"), and an embedded image is copied to `attachments/` under a descriptive name only when the picture itself is the material
 - Linked videos → read from their subtitles with `academic-video`; the transcript is transient reference, never stored, and a video with no usable subtitles is deferred rather than guessed
 - Extracted text → the `.md` file for content documents; ephemeral reference for attachment documents (the original is canonical)
-- `.extracted/` folders → derived cache artifacts, not tracked in `index.md`
+- `.extracted/` folders → derived cache artifacts under `.pi/ingest/`, not tracked in `index.md`
 
 Do not copy extracted-content HTML into `attachments/`. `attachments/` holds raw referenced files (PDFs, images, data, scripts), not source documents whose content has been transcribed into markdown.
 

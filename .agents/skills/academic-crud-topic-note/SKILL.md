@@ -207,11 +207,11 @@ The pass moves boundaries and headings; it never drops a fact or a card. Report 
    - Use `<p>` for paragraph breaks in single-line source, and `__` for bold, never `<b>`/`</b>`.
 6. __Figures and diagrams:__
    - When the source carries figures the prose depends on (slide diagrams, schematics, plots), extract the document per "Document extraction (mandatory)" in `academic-ingest`.
-   - Read a figure from `.extracted/images/`, not the 150 DPI page render in `.extracted/pages/`; the render is downscaled and hides the labels. Crop and upscale when the figure is still unclear.
+   - Read a figure from the extraction's `images/` under `.pi/ingest/`, not the 150 DPI page render in `pages/`; the render is downscaled and hides the labels. Crop and upscale when the figure is still unclear.
    - Default to text: transcribe a figure's labels, values, and steps into the prose, or into a Markdown table when the figure is tabular. Describe it for the point it makes in the section rather than listing what the picture contains.
    - Attach a graphic only when the picture itself is the material, and never attach a page render. Copy the embedded image into `attachments/` under a descriptive name (`attachments/lob_depth_diagram.png`, not `attachments/pages/.../page_007.png`).
    - Reference each attached graphic from the section that uses it: `![<alt text>](attachments/zener_circuit_q1.jpg)`. Alt text is plain language describing what the figure shows, never LaTeX.
-   - Follow "Page image handling" in `academic-ingest` for what may and may not be asserted about an image. Leave `.extracted/` alone; it is a cache, not an attachment source.
+   - Follow "Page image handling" in `academic-ingest` for what may and may not be asserted about an image. Leave the extraction under `.pi/ingest/` alone; it is a cache, not an attachment source.
 7. __Section levelling pass:__ re-review the written sections against "Nesting is always decided" and re-level them, then fix the anchors the review invalidated (see "Section levelling pass" above).
 8. __Update the course index:__
    - Read `special/academia/<INSTITUTION>/<COURSE>/index.md`.
