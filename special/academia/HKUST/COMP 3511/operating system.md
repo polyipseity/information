@@ -43,7 +43,9 @@ Flashcards for this section are as follows:
 - goals of an operating system ::@:: User convenience, an environment where programmers can run programs conveniently, safely, and efficiently, and resource allocation in a fair and efficient manner.
 - user goals versus operator goals ::@:: A user of a private machine wants convenience, ease of use, and performance; the operator of a shared machine wants resources used efficiently and fairly.
 
-## kernel and system programs
+## composition
+
+### kernel and system programs
 
 There is no universally accepted definition of an operating system. One good approximation is "everything a vendor ships when you order one", but what ships varies. One view takes that broad reading; the other identifies the operating system with the single program always running on the computer, the __kernel__, which provides the essential functionality.
 
@@ -59,6 +61,48 @@ Flashcards for this section are as follows:
 - middleware ::@:: Software frameworks providing extra services to application developers, such as databases, multimedia, and graphics; popular on mobile systems such as Apple's iOS and Google's Android.
 - system programs ::@:: Programs that ship with the operating system but are not part of the kernel: word processors, browsers, compilers.
 - application programs versus system programs ::@:: Application programs are not associated with the operating system at all, for example apps from app stores, whereas system programs ship with it.
+
+### system programs
+
+System programs, also called system utilities, provide a convenient environment for program development and execution. Some are simple user interfaces to system calls; others are considerably more complex. The view of the operating system seen by most users is defined by system programs, not the raw system calls.
+
+System programs fall into several categories:
+
+- __file management__ (create, delete, copy, rename, list files and directories)
+- __status information__ (date, time, memory, disk space, number of users, performance data)
+- __file modification__ (text editors, search and transformation commands)
+- __programming-language support__ (compilers, assemblers, debuggers, interpreters)
+- __program loading and execution__ (loaders, linkage editors, debugging systems)
+- __communications__ (virtual connections among processes, users, and systems — remote login, file transfer, email, web browsing)
+
+__Background services__ launch at boot time. Some terminate after completing their tasks; others continue until the system halts — known as services, subsystems, or __daemons__ — providing disk checking, process scheduling, and error logging.
+
+__Application programs__ are not part of the operating system: web browsers, word processors, spreadsheets, database systems, and games, launched by command line, mouse click, or touch.
+
+---
+
+Flashcards for this section are as follows:
+
+- system programs ::@:: Programs shipping with the operating system (OS) to provide a convenient development and execution environment; some wrap system calls, others are complex utilities.
+- categories of system programs ::@:: File management, status information, file modification, programming-language support, program loading and execution, and communications.
+- daemons ::@:: Background services that launch at boot and run until the system halts, providing disk checking, scheduling, and error logging.
+- application programs versus system programs ::@:: Application programs (browsers, editors, games) are not part of the operating system (OS); system programs ship with it.
+
+### linkers and loaders
+
+Source code is compiled into __relocatable object files__ designed to be loaded at any physical memory location. A __linker__ combines these object files into a single binary executable, along with libraries if needed. A __loader__ brings the executable from secondary storage into memory for execution. __Relocation__ assigns final addresses to program parts and adjusts code and data to match.
+
+Modern operating systems do not link libraries into executables statically. Instead, __dynamically linked libraries__ (DLLs on Windows, shared objects on Linux) are loaded when needed and shared by all programs using the same version. Object files and executables have standard formats (machine code and symbol tables), so the operating system knows how to load and start them.
+
+---
+
+Flashcards for this section are as follows:
+
+- linker ::@:: Combines relocatable object files into a single binary executable, along with libraries if needed.
+- loader ::@:: Brings an executable from secondary storage into memory for execution.
+- relocation ::@:: Assigns final addresses to program parts and adjusts code and data to match.
+- dynamically linked libraries ::@:: Libraries loaded at runtime and shared by all programs using the same version, rather than statically linked into each executable.
+- relocatable object file ::@:: A compiled file designed to be loaded at any physical memory location, before the linker combines it with others into an executable.
 
 ## services
 
@@ -90,7 +134,7 @@ Flashcards for this section are as follows:
 - resource allocation ::@:: When multiple users or jobs run concurrently, the operating system (OS) allocates central processing unit (CPU) cycles, memory, file storage, and input/output (I/O) devices to each.
 - logging ::@:: The operating system (OS) tracks which users use how much and what kinds of computer resources.
 
-## user interfaces
+### user interfaces
 
 Most operating systems provide three types of user interface. A __command-line interface__ (CLI), or command interpreter, lets users type commands directly. The CLI is sometimes implemented in the kernel, sometimes by system programs. UNIX and Linux offer multiple shells (C shell, Bourne-Again shell, Korn shell), each fetching a command from the user, interpreting it, and executing it.
 
@@ -106,49 +150,9 @@ Flashcards for this section are as follows:
 - GUI ::@:: A graphical user interface uses a desktop metaphor with windows, icons, and mouse interaction; invented at Xerox PARC, first widely used in the Apple Macintosh (1984).
 - touchscreen interface ::@:: Touchscreen devices use gestures, virtual keyboards, and voice commands instead of a mouse.
 
-## system programs
+## design
 
-System programs, also called system utilities, provide a convenient environment for program development and execution. Some are simple user interfaces to system calls; others are considerably more complex. The view of the operating system seen by most users is defined by system programs, not the raw system calls.
-
-System programs fall into several categories:
-
-- __file management__ (create, delete, copy, rename, list files and directories)
-- __status information__ (date, time, memory, disk space, number of users, performance data)
-- __file modification__ (text editors, search and transformation commands)
-- __programming-language support__ (compilers, assemblers, debuggers, interpreters)
-- __program loading and execution__ (loaders, linkage editors, debugging systems)
-- __communications__ (virtual connections among processes, users, and systems — remote login, file transfer, email, web browsing)
-
-__Background services__ launch at boot time. Some terminate after completing their tasks; others continue until the system halts — known as services, subsystems, or __daemons__ — providing disk checking, process scheduling, and error logging.
-
-__Application programs__ are not part of the operating system: web browsers, word processors, spreadsheets, database systems, and games, launched by command line, mouse click, or touch.
-
----
-
-Flashcards for this section are as follows:
-
-- system programs ::@:: Programs shipping with the operating system (OS) to provide a convenient development and execution environment; some wrap system calls, others are complex utilities.
-- categories of system programs ::@:: File management, status information, file modification, programming-language support, program loading and execution, and communications.
-- daemons ::@:: Background services that launch at boot and run until the system halts, providing disk checking, scheduling, and error logging.
-- application programs versus system programs ::@:: Application programs (browsers, editors, games) are not part of the operating system (OS); system programs ship with it.
-
-## linkers and loaders
-
-Source code is compiled into __relocatable object files__ designed to be loaded at any physical memory location. A __linker__ combines these object files into a single binary executable, along with libraries if needed. A __loader__ brings the executable from secondary storage into memory for execution. __Relocation__ assigns final addresses to program parts and adjusts code and data to match.
-
-Modern operating systems do not link libraries into executables statically. Instead, __dynamically linked libraries__ (DLLs on Windows, shared objects on Linux) are loaded when needed and shared by all programs using the same version. Object files and executables have standard formats (machine code and symbol tables), so the operating system knows how to load and start them.
-
----
-
-Flashcards for this section are as follows:
-
-- linker ::@:: Combines relocatable object files into a single binary executable, along with libraries if needed.
-- loader ::@:: Brings an executable from secondary storage into memory for execution.
-- relocation ::@:: Assigns final addresses to program parts and adjusts code and data to match.
-- dynamically linked libraries ::@:: Libraries loaded at runtime and shared by all programs using the same version, rather than statically linked into each executable.
-- relocatable object file ::@:: A compiled file designed to be loaded at any physical memory location, before the linker combines it with others into an executable.
-
-## design and implementation
+### design goals
 
 Designing an operating system starts with defining goals and specifications. __User goals__ include convenience, ease of learning and use, reliability, safety, and speed. __System goals__ include ease of design, implementation, and maintenance, along with flexibility, reliability, error-freedom, and efficiency.
 
@@ -166,7 +170,7 @@ Flashcards for this section are as follows:
 - timer as mechanism, duration as policy ::@:: A timer construct is a mechanism for central processing unit (CPU) protection; the timer duration for a particular user is a policy decision.
 - high-level language implementation ::@:: Most modern kernels use C or C++, making them easier to port, faster to write, more compact, and easier to debug, with negligible performance cost on contemporary hardware.
 
-## structure
+### structure
 
 Operating systems vary in internal structure. A __simple structure__ (such as MS-DOS) has no well-defined architecture: interfaces and functionality are not separated, and application programs can access I/O directly. MS-DOS was written for the Intel 8088 with no dual mode and no hardware protection. It is single-tasking: the shell is invoked at boot, and running a program loads it into memory, overwriting everything except the kernel. When the program exits, the shell reloads.
 

@@ -57,7 +57,7 @@ Flashcards for this section are as follows:
 - scaling with $N$ processors ::@:: The speed-up with $N$ processors is less than $N$ because of overhead such as contention for shared resources, namely the system bus or memory.
 - complexity of multiprocessor systems ::@:: They are far more complex than single-processor systems in both hardware design and software, for example in parallel programming.
 
-## asymmetric multiprocessing
+### asymmetric multiprocessing
 
 In __asymmetric multiprocessing__, often a master-slave arrangement, the master processor assigns specific tasks to the slave processors and handles input/output itself, so the processors are not equal.
 
@@ -67,7 +67,7 @@ Flashcards for this section are as follows:
 
 - asymmetric multiprocessing ::@:: A master processor assigns specific tasks to slave processors, an arrangement often described as master-slave, and the master handles input/output.
 
-## symmetric multiprocessing
+### symmetric multiprocessing
 
 Symmetric multiprocessing, or SMP, treats all processors equally. Each CPU has its own registers and a private, or local, cache, but all processors share physical memory through the system bus. Every processor performs all tasks, including operating-system functions and user processes, and any of them can handle input/output, so none is reserved as a master.
 
@@ -83,7 +83,7 @@ Flashcards for this section are as follows:
 - symmetric multiprocessing (SMP) task and input/output handling ::@:: Every processor performs all tasks, including operating-system functions and user processes, so input/output can be handled by any processor rather than by one master.
 - symmetric versus asymmetric multiprocessing ::@:: Symmetric multiprocessing treats all processors equally and lets any processor handle input/output, whereas asymmetric multiprocessing has one master central processing unit (CPU) that distributes tasks among the slave CPUs and usually performs input/output itself.
 
-## multicore systems
+### multicore systems
 
 A multicore design puts several computing cores on one chip. On-chip communication is faster than between-chip, so one such chip beats several single-core chips. It also uses significantly less power, which matters for phones and laptops running on battery.
 
@@ -99,7 +99,7 @@ Flashcards for this section are as follows:
 - why multicore power matters ::@:: Lower power use matters for battery-powered devices such as mobile devices and laptops.
 - multicore cache topology ::@:: Each core on the chip keeps its own registers and its own L1 cache, while the cores share one L2 cache sitting between them and main memory.
 
-## non-uniform memory access
+### non-uniform memory access
 
 Adding CPUs to a multiprocessor system may not scale, because contention for the system bus can become a bottleneck. One alternative gives each CPU, or group of CPUs, its own local memory reached through a small, fast local bus. The CPUs are then joined by a shared interconnect while still sharing one physical address space. This is non-uniform memory access, or NUMA.
 
