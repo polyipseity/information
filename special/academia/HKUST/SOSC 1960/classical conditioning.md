@@ -35,7 +35,7 @@ Flashcards for this section are as follows:
 - which non-food stimuli worked as stand-ins for food ::@:: Metronomes, lights, and bells.
 - what made a stimulus work as a stand-in ::@:: Its reliable signalling that food was on the way, not its kind.
 
-## the four components
+## four components
 
 Meat makes a dog salivate, and a bell alone makes it do nothing, until the two are paired often enough.
 
@@ -63,6 +63,10 @@ A bell in a laboratory produces nothing. Meat produces salivation, as it has sin
 
 Other forms of conditioning sit beside this one, with the plain pairing in the first row.
 
+In a particular house, the shower water comes out very hot or very cold every time the toilet is flushed. The person steps back. Over time the step comes on the flush alone, before the water changes.
+
+The cue is usually a sound rather than a sight, and this arrangement is easy to find outside the laboratory. The flush is the conditioned stimulus. The temperature change it predicts is the unconditioned stimulus. The step back is the conditioned response, to a change that has not happened yet.
+
 ---
 
 Flashcards for this section are as follows:
@@ -75,17 +79,6 @@ Flashcards for this section are as follows:
 - the order a neutral stimulus and an unconditioned stimulus must come in ::@:: The neutral stimulus first, the unconditioned stimulus after it.
 - ![a chart of the seven standard conditioning procedures (forward, simultaneous, second order, temporal, extinction, blocking and inhibition), each drawn as a pair of dog panels showing a stimulus beside a piece of food and then that stimulus on its own](attachments/Classical%20Conditioning.svg) ::@:: A chart of the standard conditioning procedures. The first row shows a light paired with a piece of food, then the same light alone with nothing happening.
 - draw the chart of conditioning procedures: how many does it carry, and how is each drawn? ::@:: Seven, each as a pair of dog panels: a stimulus beside a piece of food, then that stimulus on its own, with the plain pairing in the first row. <p> ![a chart of the seven standard conditioning procedures (forward, simultaneous, second order, temporal, extinction, blocking and inhibition), each drawn as a pair of dog panels showing a stimulus beside a piece of food and then that stimulus on its own](attachments/Classical%20Conditioning.svg)
-
-## a stimulus that predicts a temperature change
-
-In a particular house, the shower water comes out very hot or very cold every time the toilet is flushed. The person steps back. Over time the step comes on the flush alone, before the water changes.
-
-The cue is usually a sound rather than a sight, and this arrangement is easy to find outside the laboratory. The flush is the conditioned stimulus. The temperature change it predicts is the unconditioned stimulus. The step back is the conditioned response, to a change that has not happened yet.
-
----
-
-Flashcards for this section are as follows:
-
 - what a sound that reliably precedes a temperature change comes to do ::@:: A sound that reliably precedes a temperature change acquires the power to call up the step back the temperature change would have caused.
 - the ordinary cue in a temperature example ::@:: A sound, the flush of a toilet.
 - the conditioned stimulus in a temperature example ::@:: The flush itself, predicting the temperature change.
@@ -109,7 +102,22 @@ Flashcards for this section are as follows:
 - what the inversion means ::@:: A cue that would once have calmed now raises the response it was paired with.
 - how many pairings invert the meaning of the cue ::@:: As few as five or six.
 
-## what conditioning generates
+## prediction error
+
+A pairing is necessary, but it is not enough on its own. Presenting a neutral stimulus before an unconditioned stimulus does not always produce an association. Something has to register that the outcome was not already predicted. A cue that adds nothing to what the organism already knows gets nothing attached to it. This is the [blocking effect](blocking%20effect.md), and it puts attention and surprise at the centre of the account.
+
+---
+
+Flashcards for this section are as follows:
+
+- what presenting a neutral stimulus before an unconditioned stimulus guarantees ::@:: A neutral stimulus presented before an unconditioned stimulus does not always form an association, because nothing registers when the outcome was already predicted.
+- the relation between a pairing and the association it is meant to produce ::@:: Necessary, but not enough on its own.
+- what has to register for an association to form ::@:: That the outcome was not already predicted.
+- what happens to a cue that adds nothing to what the organism already knows ::@:: No association is attached to it.
+- the effect that shows a pairing alone is not sufficient ::@:: The blocking effect.
+- what sits at the centre of the account of what conditioning learns ::@:: Attention and surprise.
+
+## conditioning outcomes
 
 Conditioning does more than attach one response to one cue: the same cue can end up carrying several different responses, a liking or a disliking. Conditioning can underlie clinical conditions. What it cannot do is form an association from a pairing alone.
 
@@ -133,11 +141,38 @@ Flashcards for this section are as follows:
 - what decides whether conditioning produces a preference or an aversion ::@:: The sign of the unconditioned stimulus paired with the cue.
 - what an aversion conditioned onto a taste out of proportion to the number of pairings shows ::@:: Not every association needs many trials to form.
 
-### the conditions it underlies
+## applications
+
+Three places the same mechanism shows up: two clinical, one therapeutic.
+
+---
+
+Flashcards for this section are as follows:
+
+- what conditioning is applied to besides clinical conditions ::@:: Conditioning underlies phobias and panic disorder, opposes a drug's own effect, and supplies the treatment principle behind exposure.
+
+### fear conditioning in anxiety disorders
 
 Fear conditioning underlies panic disorder and phobias. A cue paired with something frightening comes to carry the fear on its own. The process is detailed in [phobia](phobia.md).
 
+---
+
+Flashcards for this section are as follows:
+
+- the clinical conditions fear conditioning underlies ::@:: Panic disorder and phobias.
+- why a conditioned compensatory response matters for drug use ::@:: The body's response to withdrawal pain is itself conditioned.
+
+### drug cues and compensatory responses
+
 In drug use, conditioned compensatory responses oppose the effect of the drug. The body's response to withdrawal pain is itself conditioned, so cues associated with morphine make a person more sensitive to pain, not less.
+
+---
+
+Flashcards for this section are as follows:
+
+- what a conditioned compensatory response does in connection with morphine ::@:: It makes a person more sensitive to pain, not less, in response to cues associated with the drug.
+
+### exposure therapy
 
 A third application is therapeutic rather than clinical, and it motivates the study of extinction. Applied as a treatment, extinction may be helpful. It is the principle exposure therapy is built on.
 
@@ -145,26 +180,7 @@ A third application is therapeutic rather than clinical, and it motivates the st
 
 Flashcards for this section are as follows:
 
-- what conditioning is applied to besides clinical conditions ::@:: Conditioning underlies phobias and panic disorder, opposes a drug's own effect, and supplies the treatment principle behind exposure.
-- the clinical conditions fear conditioning underlies ::@:: Panic disorder and phobias.
-- why a conditioned compensatory response matters for drug use ::@:: The body's response to withdrawal pain is itself conditioned.
-- what a conditioned compensatory response does in connection with morphine ::@:: It makes a person more sensitive to pain, not less, in response to cues associated with the drug.
 - which application of extinction is described as helpful ::@:: The therapeutic one: extinction is the principle exposure therapy is built on.
-
-### why a pairing alone is not enough
-
-A pairing is necessary, but it is not enough on its own. Presenting a neutral stimulus before an unconditioned stimulus does not always produce an association. Something has to register that the outcome was not already predicted. A cue that adds nothing to what the organism already knows gets nothing attached to it. This is the [blocking effect](blocking%20effect.md), and it puts attention and surprise at the centre of the account.
-
----
-
-Flashcards for this section are as follows:
-
-- what presenting a neutral stimulus before an unconditioned stimulus guarantees ::@:: A neutral stimulus presented before an unconditioned stimulus does not always form an association, because nothing registers when the outcome was already predicted.
-- the relation between a pairing and the association it is meant to produce ::@:: Necessary, but not enough on its own.
-- what has to register for an association to form ::@:: That the outcome was not already predicted.
-- what happens to a cue that adds nothing to what the organism already knows ::@:: No association is attached to it.
-- the effect that shows a pairing alone is not sufficient ::@:: The blocking effect.
-- what sits at the centre of the account of what conditioning learns ::@:: Attention and surprise.
 
 ## references
 
