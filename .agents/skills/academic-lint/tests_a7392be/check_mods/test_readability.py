@@ -154,6 +154,23 @@ def test_references_section_is_not_prose():
     assert "McDermott" not in prose + cards
 
 
+def test_table_rows_are_not_prose():
+    """A table is read cell by cell, so it never becomes one long sentence."""
+    text = (
+        "## section\n"
+        "Prose before the table.\n\n"
+        "| Term | Meaning |\n"
+        "| --- | --- |\n"
+        "| alpha | the first thing, described at length for the reader |\n\n"
+        "Prose after the table.\n"
+    )
+    prose = prose_text(text)
+    assert "Prose before" in prose
+    assert "Prose after" in prose
+    assert "alpha" not in prose
+    assert "Term" not in prose
+
+
 def test_thematic_break_is_not_a_sentence():
     """A rule line is layout, and counting it would deflate the sentence mean."""
     prose, _ = split_parts("One sentence.\n\n---\n\nAnother sentence.\n")

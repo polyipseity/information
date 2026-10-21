@@ -221,7 +221,13 @@ def split_parts(text: str) -> tuple[str, str]:
 
 
 def _clean(text: str) -> str:
-    """Strip the markup that carries no reading difficulty."""
+    """Strip the markup that carries no reading difficulty.
+
+    A table is a lookup structure read cell by cell, not prose read as a
+    sentence, so its rows leave with the code and the maths.  Left in, a
+    four-row glossary counts as one enormous sentence and drags every metric
+    with it.
+    """
     body = text
     body = re.sub(r"```.*?```", " ", body, flags=re.DOTALL)
     body = re.sub(r"~~~.*?~~~", " ", body, flags=re.DOTALL)
@@ -234,6 +240,8 @@ def _clean(text: str) -> str:
     body = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", body)
     body = re.sub(r"\{@\{(.*?)\}@\}", r"\1", body, flags=re.DOTALL)
     body = body.replace("::@::", ". ").replace(":@:", ". ")
+    body = re.sub(r"^\s*\|.*$", "", body, flags=re.MULTILINE)
+    body = re.sub(r"^\s*[-:]+\s*$", "", body, flags=re.MULTILINE)
     body = re.sub(r"^\s*(?:[-*+]|\d+\.)\s+", "", body, flags=re.MULTILINE)
     return body.replace("|", " ")
 
