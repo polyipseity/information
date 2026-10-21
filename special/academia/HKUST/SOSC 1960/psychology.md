@@ -8,7 +8,7 @@ tags:
 
 # psychology
 
-Psychology is the study of mind and behavior by scientific means. It asks two questions: how the mind works, and what causes behavior. Psychologists study how people perceive and recognize faces, how insomnia affects cognition, how children learn to read, how people interact with artificial intelligence (AI), and where individual differences in cognitive ability come from.
+Psychology is the study of mind and behavior by scientific means. It asks two questions: how the mind works, and what causes behavior. Psychologists study how people perceive and recognize faces, and how insomnia affects cognition. They study how children learn to read, how people work with artificial intelligence (AI), and where individual differences in cognitive ability come from.
 
 ---
 
@@ -19,7 +19,7 @@ Flashcards for this section are as follows:
 
 ## history of psychology
 
-In the late nineteenth century, psychology split into two founding branches: one measured mental activity in a laboratory, the other treated mental health conditions by exploring the unconscious mind.
+In the late nineteenth century, psychology split into two founding branches. One measured mental activity in a laboratory. The other treated mental health conditions by exploring the unconscious mind.
 
 ---
 
@@ -29,7 +29,7 @@ Flashcards for this section are as follows:
 
 ### first psychology laboratory
 
-Wilhelm Wundt (1832–1920) headed the first modern psychology laboratory in 1879, at Leipzig in Germany. He held that mental activity breaks down into more basic operations, and he assessed them by introspection, the self-observation of mental activity.
+Wilhelm Wundt (1832–1920) headed the first modern psychology laboratory in 1879, at Leipzig in Germany. He held that mental activity breaks down into more basic operations. He assessed those operations by introspection, the self-observation of mental activity.
 
 ---
 
@@ -54,11 +54,11 @@ Flashcards for this section are as follows:
 
 From the early 1900s until the mid-twentieth century, behaviorism dominated psychology. Behaviorists were reacting against depth psychology, which often made predictions that no experiment could test. Only observable behavior could be measured, so they dropped thoughts and other internal processes as explanations. The mind became a black box, and its workings were inferred from the input and the output.
 
-Ivan Pavlov's classical conditioning studies the stimuli that elicit reflexes. B. F. Skinner's instrumental conditioning studies the consequences that strengthen or weaken a behavior, and assesses the reinforcement history of the discriminative stimuli, the cues that signal which behavior will pay off. Together the two formed the foundation of behaviorism. The pairing still shows up wherever a response is described as elicited or as a consequence. It later reached the cognitive-behavioral therapies, which treat simple phobias, post-traumatic stress disorder, and mood disorders.
+Ivan Pavlov's classical conditioning studies the stimuli that elicit reflexes. B. F. Skinner's instrumental conditioning studies the consequences that strengthen or weaken a behavior. It assesses the reinforcement history of the discriminative stimuli, the cues that signal which behavior will pay off. Together the two formed the foundation of behaviorism. The pairing still shows up wherever a response is described as elicited or as a consequence. It later reached the cognitive-behavioral therapies, which treat simple phobias, post-traumatic stress disorder, and mood disorders.
 
-How much of the mind a behaviorist may name was itself disputed. Clark Hull treated internal events such as motivation as inferable from behavior and put them back into the theory as quantities read off the data. B. F. Skinner rejected all discussion of internal events, keeping the analysis on the stimulus and the response.
+How much of the mind a behaviorist may name was itself disputed. Clark Hull treated internal events such as motivation as inferable from behavior. He put them back into the theory as quantities read off the data. B. F. Skinner rejected all discussion of internal events, keeping the analysis on the stimulus and the response.
 
-The rule held until it met something it could not carry. Noam Chomsky's generative grammar of 1957 and his review of Skinner's account of verbal behavior in 1959 showed that a speaker produces sentences never heard before and understands ones no reinforcement history could have prepared. Behavior alone could not explain that, and the next movement grew out of the failure.
+The rule held until it met something it could not carry. Noam Chomsky's generative grammar of 1957 showed that a speaker produces sentences never heard before. A review of Skinner's account of verbal behavior, published in 1959, added that a speaker understands sentences no reinforcement history could have prepared. Behavior alone could not explain that, and the next movement grew out of the failure.
 
 ---
 
@@ -80,13 +80,13 @@ Flashcards for this section are as follows:
 
 From about 1956, the cognitive revolution reversed behaviorism's decision to rule out internal processes. By the early 1970s it had surpassed behaviorism as a paradigm.
 
-The organism became an active processor of information rather than a passive receiver of stimuli, and internal states came back as explanations for observable behavior.
+The organism became an active processor of information, not a passive receiver of stimuli. Internal states came back as explanations for observable behavior.
 
-The computer gave the movement its method. A researcher could now specify the internal mechanisms that produce behavior as a program, run it, and set its output beside a person's. An internal process became something to test rather than something to guess. The people who built that way of working were Herbert Simon and Allen Newell in artificial intelligence, and Noam Chomsky in linguistics. George Miller's 1956 paper on the magical number seven, plus or minus two, put a size on what a person can hold at once.
+The computer gave the movement its method. A researcher could now write the internal mechanisms that produce behavior as a program. The program ran, and its output went beside a person's. An internal process became something to test rather than something to guess. Herbert Simon and Allen Newell built that way of working in artificial intelligence. Noam Chomsky built it in linguistics. George Miller's 1956 paper on the magical number seven, plus or minus two, put a size on what a person can hold at once.
 
 The movement drew on psychology, linguistics, computer science, anthropology, neuroscience, and philosophy, and cognitive science grew out of it.
 
-The rest of the field now infers a process from behavior in experiments, and watches the process itself with imaging.
+The rest of the field now infers a process from behavior in experiments. It also watches the process itself with imaging..
 
 ---
 
@@ -105,15 +105,15 @@ Flashcards for this section are as follows:
 
 ## psychology as a science
 
-Many people remain skeptical that psychology is really a science, since depression, intelligence, and prejudice are not directly observable the way ocean tides or the speed of light are. Researchers work from behavior instead, as they have from the beginning. A friendly, outgoing person is read as one kind of person, and a shy, withdrawn one as another. Behavioral measures and rating scales turn thoughts and feelings into something measurable, and personality and other mental attributes are inferred from them. Educators use the same approach for academic performance, and economists for quality of life.
+Many people remain skeptical that psychology is really a science. Depression, intelligence, and prejudice are not directly observable the way ocean tides or the speed of light are. Researchers work from behavior instead, as they have from the beginning. A friendly, outgoing person is read as one kind of person, and a shy, withdrawn one as another. Behavioral measures and rating scales turn thoughts and feelings into something measurable. Personality and other mental attributes are inferred from them. Educators use the same approach for academic performance, and economists for quality of life.
 
 One such measure is a chimeric face judgment task. Researchers build two faces from the halves of a target face. The participant judges which looks more similar to the target. The judgments show a left-side bias, and researchers read that as evidence for right-hemisphere involvement in face processing.
 
 Francis Galton, Charles Darwin's cousin, pioneered several of those measures in England in the late 1800s. He used patches of color to test how well people could distinguish colors. He invented the self-report questionnaire. He used those self-reports to examine how accurately people judged distances.
 
-In 1875 he began studying twins to work out how much of their similarities and differences came from life experience. He coined the phrase "nature versus nurture". Without a modern understanding of genetics, he proposed comparing identical and fraternal twins anyway. That comparison lets researchers estimate how far genetic and social factors contribute to personality, and that puzzle is now called the nature–nurture question.
+In 1875 he began studying twins to work out how much of their similarities and differences came from life experience. He coined the phrase "nature versus nurture". Without a modern understanding of genetics, he proposed comparing identical and fraternal twins anyway. That comparison lets researchers estimate how far genetic and social factors contribute to personality. The puzzle is now called the nature–nurture question.
 
-Happiness shows why one measure will not do. People may lie about their happiness, fail to report it accurately, or use a numerical scale in their own way. Psychologists add peer report measures, asking close friends and family about the target person, and check the two reports for discrepancies. They also use memory measures: dispositionally positive people recall pleasant events more easily, and negative people recall unpleasant ones. Biological measures include saliva cortisol samples for stress, and images from functional magnetic resonance imaging (fMRI) of activation in the left prefrontal cortex, an area associated with good mood.
+Happiness shows why one measure will not do. People may lie about their happiness, fail to report it accurately, or use a numerical scale in their own way. Psychologists add peer report measures, which ask close friends and family about the target person. They then check the two reports for discrepancies. They also use memory measures: dispositionally positive people recall pleasant events more easily, and negative people recall unpleasant ones. Biological measures include saliva cortisol samples for stress. Another is an image of the left prefrontal cortex from functional magnetic resonance imaging (fMRI), an area associated with good mood.
 
 Psychology is also a young science. Physics and chemistry are hundreds of years old, whereas psychology is barely 150 years old. Most of its major findings have come in the last 60 years. Modern psychology has better study designs and statistical analysis.
 
@@ -166,9 +166,9 @@ Flashcards for this section are as follows:
 
 ## levels of organization
 
-A newer approach studies different cognitive capacities at several levels of organization at once, from group and individual behavior down to brain systems and neural networks. The nervous system runs through those levels as molecules, synapses, neurons, circuits, maps, systems, and the brain as a whole. Gene and protein networks sit at the level of molecules. Synaptic networks sit at the level of synapses. Neuronal networks cover neurons, circuits, and maps. Whole-brain networks cover systems and the brain.
+A newer approach studies different cognitive capacities at several levels of organization at once. The levels run from group and individual behavior down to brain systems and neural networks. The nervous system runs through those levels as molecules, synapses, neurons, circuits, maps, systems, and the brain as a whole. Gene and protein networks sit at the level of molecules. Synaptic networks sit at the level of synapses. Neuronal networks cover neurons, circuits, and maps. Whole-brain networks cover systems and the brain.
 
-The levels span roughly ten orders of magnitude in space, from 1 Å to 1 m, and as many in time, from a millisecond to a year. Each level has its own instruments. At the smallest scales sit metabolic pathways, transcriptional and gene regulatory networks, and interactome networks, at about 1 Å to 1 µm over milliseconds to days. Circuit dynamics and neural information flow are measured over about 100 µm to 1 cm. Optical imaging covers about 100 µm to a few millimetres. Both run from milliseconds to minutes. Electron microscopy (EM) imaging with reconstruction covers about 100 µm to 1 mm over minutes to months. Whole-brain functional networks are imaged by electroencephalography (EEG), magnetoencephalography (MEG), fMRI, functional near-infrared spectroscopy (fNIRS), and electrocorticography (ECoG), which resolve millimetre-to-centimetre structure over milliseconds to minutes. Diffusion magnetic resonance (MR) imaging and histological tract tracing reach from 1 cm to 1 m over hours to years. Those three techniques map connectome networks.
+The levels span roughly ten orders of magnitude in space, from 1 Å to 1 m, and as many in time, from a millisecond to a year. Each level has its own instruments. At the smallest scales sit metabolic pathways, transcriptional and gene regulatory networks, and interactome networks. Those run at about 1 Å to 1 µm over milliseconds to days. Circuit dynamics and neural information flow are measured over about 100 µm to 1 cm. Optical imaging covers about 100 µm to a few millimetres. Both run from milliseconds to minutes. Electron microscopy (EM) imaging with reconstruction covers about 100 µm to 1 mm over minutes to months. Whole-brain functional networks are imaged by electroencephalography (EEG), magnetoencephalography (MEG), fMRI, functional near-infrared spectroscopy (fNIRS), and electrocorticography (ECoG). Each resolves millimetre-to-centimetre structure over milliseconds to minutes. Diffusion magnetic resonance (MR) imaging and histological tract tracing reach from 1 cm to 1 m over hours to years. Those three techniques map connectome networks.
 
 Perception–action coupling and brain–behavior interactions sit at about 10 cm to 1 m over seconds to days. Social networks sit above a metre over minutes to years.
 
@@ -200,7 +200,7 @@ Flashcards for this section are as follows:
 
 ## measurement and modeling tools
 
-No single measurement settles a question, so psychological science aims at [converging evidence](converging%20evidence.md) from multiple methodologies. Psychological work runs on four routes: measuring behavior, looking at the living brain, looking at the deficits that follow brain damage, and building computational models. That note sets out the spatial and temporal trade-off in each.
+No single measurement settles a question, so psychological science aims at [converging evidence](converging%20evidence.md) from multiple methodologies. Psychological work runs on four routes. They are measuring behavior, looking at the living brain, looking at the deficits that follow brain damage, and building computational models. That note sets out the spatial and temporal trade-off in each.
 
 An eye tracker records where the eyes look, returning the sequence of fixations and the regions attended to. [Electroencephalography](electroencephalography.md) records brain waves, the electrical activity of the brain at the scalp, with very good temporal resolution and poor spatial resolution. [Magnetic resonance imaging](magnetic%20resonance%20imaging.md) and [functional magnetic resonance imaging](functional%20magnetic%20resonance%20imaging.md) read brain structure and the blood flow behind it. [Magnetoencephalography](magnetoencephalography.md) reads the magnetic field that electrical activity produces, at about 1 ms and 2 mm. [Cognitive neuropsychology](cognitive%20neuropsychology.md) works from deficits after brain damage, and [transcranial magnetic stimulation](transcranial%20magnetic%20stimulation.md) creates those deficits deliberately, if only for a moment.
 
@@ -241,7 +241,7 @@ Flashcards for this section are as follows:
 
 Psychological science produces interventions that help people live better lives. A growing body of research separates the therapies that work from those that do not. Cognitive behavioral therapy works for depression and anxiety disorders. Other kinds of therapy turn out to be harmful on average.
 
-In organizational psychology, several interventions raise productivity and satisfaction in the workplace. Human factors engineers have increased the safety and utility of products. The psychologist Alphonse Chapanis and other researchers redesigned aircraft cockpit controls so that they were less confusing and faster to respond to. The redesign cut pilot errors and crashes.
+In organizational psychology, several interventions raise productivity and satisfaction in the workplace. Human factors engineers have increased the safety and utility of products. The psychologist Alphonse Chapanis and other researchers redesigned aircraft cockpit controls. The new controls were less confusing and faster to respond to. The redesign cut pilot errors and crashes.
 
 Forensic science has made courtroom decisions more valid. Elizabeth Loftus demonstrated the limits and unreliability of eyewitness testimony and memory. Deoxyribonucleic acid (DNA) exonerations have also freed wrongly imprisoned people. How reliably a face is recognized varies with whose face it is, which is what the [cross-race effect](cross-race%20effect.md) records.
 
@@ -269,7 +269,7 @@ Testing yourself after ten minutes, a day, and a week strengthens each memory an
 
 The behavioral side works on what is observable. Praise, badges, or gentle corrections reinforce or extinguish a behavior. Unpredictable praise keeps effort high. Overrewarding can backfire.
 
-Neither side suffices alone. A learner's readiness sets the order of teaching: the prefrontal cortex cannot handle heavy abstraction until the mid-teens, so third graders build concrete models before tackling algebra. Watching a classmate work a problem adds a social route: peer modelling builds confidence and shows a concrete path to the answer.
+Neither side suffices alone. A learner's readiness sets the order of teaching. The prefrontal cortex cannot handle heavy abstraction until the mid-teens, so third graders build concrete models before they tackle algebra. Watching a classmate work a problem adds a social route. Peer modelling builds confidence and shows a concrete path to the answer.
 
 ---
 
@@ -299,7 +299,7 @@ People study psychology for several reasons:
 
 The field also answers a practical need: much of what society has to solve turns on the mind and behavior.
 
-Graduates work in education institutions, in community, social, and personal services, in commerce and industry, and in the civil service, in both the private and the public sector. They are trained in both technical and soft skills, and the roles they take include:
+Graduates work in education institutions, in community, social, and personal services, in commerce and industry, and in the civil service. Both the private and the public sector hire them. They are trained in both technical and soft skills, and the roles they take include:
 
 - training consultant
 - human resources officer
@@ -321,7 +321,7 @@ Graduates work in education institutions, in community, social, and personal ser
 - civil servant
 - talent management officer
 
-Women are 76 percent of new psychology doctorates and 74 percent of early-career psychologists, and 53 percent of the psychology workforce (American Psychological Association). The share of psychology PhDs awarded to men fell from nearly 70 percent in 1975 to less than 30 percent in 2008 (National Science Foundation).
+Women are 76 percent of new psychology doctorates and 74 percent of early-career psychologists. They are 53 percent of the psychology workforce (American Psychological Association). The share of psychology PhDs awarded to men fell from nearly 70 percent in 1975 to less than 30 percent in 2008. The figures come from the National Science Foundation..
 
 ---
 

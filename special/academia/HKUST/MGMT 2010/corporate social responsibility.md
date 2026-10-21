@@ -22,7 +22,7 @@ A. B. Carroll's model arranges corporate obligations in a pyramid. Each level as
 | Third | Ethical | Be ethical | Expected by stakeholders |
 | Top | Philanthropic | Be a good global corporate citizen | Desired by stakeholders |
 
-The base is profitability — a company that cannot sustain itself cannot fulfill any higher obligation. Legal responsibility means obeying the law, which stakeholders require. Ethical responsibility goes further: doing what stakeholders expect even when the law does not demand it. Philanthropic responsibility is voluntary — doing what stakeholders desire, not what they require.
+A company that cannot sustain itself cannot meet a higher obligation. That dependence is why economic duty sits at the base, and why each duty above it depends on the one below.
 
 > Source: Carroll, A. B. (1991). The Pyramid of Corporate Social Responsibility: Toward the Moral Management of Organizational Stakeholders. _Business Horizons_, 34(4), 39-48.
 
@@ -30,15 +30,15 @@ The base is profitability — a company that cannot sustain itself cannot fulfil
 
 Flashcards for this section are as follows:
 
-- Carroll's CSR pyramid ::@:: From base to apex: economic (profitability), legal (law), ethical (stakeholder expectations), philanthropic (voluntary good). Each level assumes the ones below are met.
-- Economic responsibility ::@:: The foundation: be profitable. Capitalism requires it; higher obligations depend on it.
-- Legal responsibility ::@:: Obey the law — what stakeholders require.
-- Ethical responsibility ::@:: Meet stakeholder expectations beyond what the law demands.
+- Carroll's CSR pyramid ::@:: From base to apex: economic (profit), legal (law), ethical (stakeholder expectations), philanthropic (voluntary good). Each level assumes the ones below are met.
+- Economic responsibility ::@:: The foundation: be profitable. Capitalism requires it, and higher duties depend on it.
+- Legal responsibility ::@:: Obey the law, which stakeholders require.
+- Ethical responsibility ::@:: Meet what stakeholders expect beyond what the law demands.
 - Philanthropic responsibility ::@:: Do what stakeholders desire, not what they require. Voluntary.
 
 ## stakeholder perspective
 
-"Doing well" and "doing good" are different things. Doing well means profitability — the economic layer at the pyramid's base. Doing good means the ethical and philanthropic layers — meeting expectations and desires beyond what the law requires or capitalism demands.
+"Doing well" and "doing good" are different things. Doing well means profitability, the economic layer at the base of the pyramid. Doing good means the ethical and philanthropic layers. It means meeting expectations and desires beyond what the law requires or capitalism demands.
 
 When profit and ethics pull in different directions, managers face the core tension of corporate social responsibility.
 
@@ -46,5 +46,5 @@ When profit and ethics pull in different directions, managers face the core tens
 
 Flashcards for this section are as follows:
 
-- Doing well versus doing good ::@:: Doing well is profitability; doing good is meeting ethical and philanthropic obligations beyond legal compliance.
-- The core CSR tension ::@:: When profit motives conflict with stakeholder expectations, managers must balance economic performance against ethical responsibility.
+- Doing well versus doing good ::@:: Doing well means profit. Doing good means meeting ethical and philanthropic duties beyond the law.
+- The core CSR tension ::@:: Profit can pull against what stakeholders expect. Managers then balance economic results against ethical duty.
