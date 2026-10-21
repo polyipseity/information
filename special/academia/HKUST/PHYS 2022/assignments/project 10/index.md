@@ -14,9 +14,26 @@ tags:
 
 - HKUST PHYS 2022
 
+---
+
+- title: 10 Beta Decay
+- due: TBD
+- points: \[missing\]
+- submitting: \[missing\]
+
+---
+
 ## attachments
 
 - [Project_10.pdf](attachments/Project_10.pdf)
+
+## submission
+
+- \[missing\]
+
+## solution
+
+- \[missing\]
 
 ## children
 

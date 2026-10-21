@@ -14,9 +14,26 @@ tags:
 
 - HKUST PHYS 2022
 
+---
+
+- title: 7 Simplified NMR
+- due: TBD
+- points: \[missing\]
+- submitting: \[missing\]
+
+---
+
 ## attachments
 
 - [Project_7.pdf](attachments/Project_7.pdf)
+
+## submission
+
+- \[missing\]
+
+## solution
+
+- \[missing\]
 
 ## children
 

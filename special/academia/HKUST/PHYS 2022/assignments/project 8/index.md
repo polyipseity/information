@@ -14,9 +14,26 @@ tags:
 
 - HKUST PHYS 2022
 
+---
+
+- title: 8 Atomic Interactions
+- due: TBD
+- points: \[missing\]
+- submitting: \[missing\]
+
+---
+
 ## attachments
 
 - [Project_8.pdf](attachments/Project_8.pdf)
+
+## submission
+
+- \[missing\]
+
+## solution
+
+- \[missing\]
 
 ## children
 

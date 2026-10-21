@@ -14,9 +14,26 @@ tags:
 
 - HKUST PHYS 2022
 
+---
+
+- title: 9 Band Structure
+- due: TBD
+- points: \[missing\]
+- submitting: \[missing\]
+
+---
+
 ## attachments
 
 - [Project_9.pdf](attachments/Project_9.pdf)
+
+## submission
+
+- \[missing\]
+
+## solution
+
+- \[missing\]
 
 ## children
 
