@@ -988,6 +988,19 @@ def test_header_flashcard_presence_applies_to_all_levels():
     ctx2 = make_ctx(txt2, path=Path("/tmp/file.md"))
     assert not header_flashcard_presence(ctx2)
 
+
+def test_header_flashcard_presence_ignores_a_suppression_comment():
+    """A comment is not content, so a heading holding only one owns nothing."""
+    txt = (
+        "# Topic\n\n"
+        "<!-- check: ignore-next-line[header_style]: proper noun -->\n"
+        "## Carroll's pyramid\n\nA claim sits here.\n\n"
+        "---\n\nFlashcards for this section are as follows:\n\n"
+        "- a claim ::@:: an answer\n"
+    )
+    ctx = make_ctx(txt, path=Path("/tmp/file.md"))
+    assert not header_flashcard_presence(ctx)
+
     # question pages under questions/ are exempt even if they lack per-section flashcard blocks
     txt3 = "# week 2 tutorial\n\n## official material\n\n> quoted question\n"
     ctx3 = make_ctx(txt3, path=Path("/tmp/course/questions/week 2 tutorial.md"))

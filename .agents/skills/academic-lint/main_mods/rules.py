@@ -2298,8 +2298,9 @@ def header_flashcard_presence(ctx: ValidationContext) -> list[ValidationMessage]
     next heading of any level. Cards written under a child heading do not
     satisfy the parent, whatever the two levels are. A heading whose own body is
     blank is a grouping heading that owns nothing to card, so it is exempt, and
-    so is one holding only a submission note's metadata block, for the same
-    reason. Index and questions pages are exempt, and so is a level-2 references
+    so is one holding only a submission note's metadata block or a suppression
+    comment, for the same reason: a comment is not read and cannot be carded.
+    Index and questions pages are exempt, and so is a level-2 references
     header, which cites sources instead of stating cards.
 
     A section of question blocks passes without a flashcard block of its own,
@@ -2318,7 +2319,8 @@ def header_flashcard_presence(ctx: ValidationContext) -> list[ValidationMessage]
         hdr_end = h.end()
         end = _own_body_end(headers, i, len(ctx.text))
         section = ctx.text[hdr_end:end]
-        if not section.strip():
+        visible = re.sub(r"<!--.*?-->", "", section, flags=re.DOTALL)
+        if not visible.strip():
             continue
         if _section_is_metadata_only(section):
             continue
