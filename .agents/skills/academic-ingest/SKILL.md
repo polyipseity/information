@@ -325,12 +325,13 @@ Show at most __3 candidates__ per phase, each with a one-line reason. If the use
 
 The repository keeps two mirrored trees: the public one at the repo root and the private one under `private/`. A file that would live at `<path>` in the public tree lives at `private/<path>` in the private tree. Nothing is re-nested or renamed on the way.
 
-__Routing is decided per material type.__ Non-in-class material — an assignment, the out-of-class component of a lab or tutorial, a take-home question set — writes its artifacts to the private tree by default:
+__Routing is decided per material type.__ A submission's artifacts write to the private tree whether the component they belong to is in-class or out-of-class; the pages and metadata that describe the work stay public:
 
 | Artifact | Tree |
 | --- | --- |
-| `attachments/`, `submission/`, `solution/` of a non-in-class submission | private |
-| The page and `attachments/` of a non-in-class question set | private |
+| `attachments/`, `submission/`, `solution/` of any submission, in-class or out-of-class | private |
+| A handout the lab itself provides (blank answer sheet, manual, data sheet) | public |
+| The page and `attachments/` of a question set | private |
 | The authored content file of a non-in-class submission (`assignment.md`) | private |
 | `index.md`, component YAML, the verbatim Canvas description | public |
 | In-class content (`lab.md`, `tutorial.md`, `lecture.md`, quiz pages) | public |
@@ -407,7 +408,8 @@ After extraction, the material lands as follows. Nothing here authorises deletin
 - Grade metadata → `tutorial.yml` / `lab.yml` / `lecture.yml`
 - Canvas submission metadata → `submission.yml`
 - Canvas announcement body → course `index.md` session entry (blockquote)
-- Prompt PDFs, data files, images → `attachments/` (only actual media/data; the private mirror of `attachments/` for non-in-class material)
+- Prompt PDFs, data files, images → `attachments/` (only actual media/data; the private mirror of `attachments/` for every submission)
+- Uploaded submission artifacts — the file submitted on Canvas and the artifacts it was produced from — → `submission/` of the private mirror, however the component is classified
 - Original HTML files → left at their original path; not copied into the repository
 - Original document files (PDF, DOCX, PPTX): content documents are left in place with the `.md` as the canonical copy; attachment documents are copied into `attachments/` and the source is left in place
 - Figures → transcribed into the note; a definitional drawing is attached as a redrawn SVG (see "Definitional drawings"), and an embedded image is copied to `attachments/` under a descriptive name only when the picture itself is the material
@@ -434,7 +436,7 @@ Extract the title and body verbatim, strip the timestamp and platform chrome, re
 
 ### In-class component detection
 
-When the input is Canvas HTML for a lab, tutorial, or lecture that already has a `submission.yml`, ask the user whether the page is the out-of-class or in-class one. The in-class page produces `lab.yml`/`tutorial.yml`/`lecture.yml` (not `submission.yml`) and a `lab.md`/`tutorial.md`/`lecture.md` content file as a child of `index.md`. That file is Canvas-sourced, so it mirrors the Canvas header block of the submission `index.md`: frontmatter, `# <type>` heading, identity bullets, the Canvas metadata bullets drawn from the component YAML, and the verbatim Canvas description. See `academic-crud-submission` for the exact format.
+When the input is Canvas HTML for a lab, tutorial, or lecture that already has a `submission.yml`, ask the user whether the page is the out-of-class or in-class one. The in-class page produces `lab.yml`/`tutorial.yml`/`lecture.yml` (not `submission.yml`) and a `lab.md`/`tutorial.md`/`lecture.md` content file as a child of `index.md`. The Canvas metadata block belongs to `index.md`, drawn from the component YAML: the metadata bullets and the verbatim Canvas description. The content file carries no Canvas assignment metadata at all — identity bullets, the parent link, and the authored content only. `## submission` in `index.md` still records the uploaded file and the artifacts it was produced from, whose files live in the private mirror. See `academic-crud-submission` for the exact format.
 
 ### 2. Attachment handling
 

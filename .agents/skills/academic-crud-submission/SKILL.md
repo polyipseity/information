@@ -17,7 +17,7 @@ The `##` sections inside `lab.md`/`tutorial.md`/`lecture.md` group the session's
 
 ## Public and private split
 
-An out-of-class component writes its artifacts to the private tree; an in-class component stays public. For a leaf at `special/academia/<INST>/<CRS>/assignments/<name>/`:
+A submission's artifacts write to the private tree whether its component is in-class or out-of-class, so an in-class lab's uploaded answer sheet is private exactly as an out-of-class one is. The pages and metadata that describe the work stay public. The lab's own handouts are not submission artifacts and travel with the lab in the public tree: a blank answer-sheet template, a manual, a data sheet, and the figures the notes generate. For a leaf at `special/academia/<INST>/<CRS>/assignments/<name>/`:
 
 | File or directory | Tree |
 | --- | --- |
@@ -25,7 +25,7 @@ An out-of-class component writes its artifacts to the private tree; an in-class 
 | `assignment.md` | private |
 | `index.md`, `submission.yml`, `submission.pdf.yml` | public, in place |
 
-A lab or tutorial with both components splits accordingly: the pre-lab or post-lab artifacts go private, the in-class `lab.md`/`lab.yml` stay public.
+A lab or tutorial splits the same way however many components it has: every artifact a component uploaded goes private, while `index.md`, the component YAML, and the `lab.md`/`tutorial.md`/`lecture.md` content stay public.
 
 An assignment's authored content never goes into `index.md`. The index keeps the Canvas metadata block and the verbatim Canvas description; the assignment itself — the problems, the specification, the requirements — is written to `assignment.md` beside it and routes private. The index links it from `## children` as `- [assignment](assignment.md)`.
 
@@ -64,8 +64,9 @@ Redirect stderr to `tutorial.yml`/`lab.yml`/`lecture.yml` for in-class component
 When a tutorial/lab/lecture has only an in-class component (no pre-lab, no take-home, no Canvas assignment outside the session):
 
 - Create `tutorial.yml`/`lab.yml`/`lecture.yml` only; do not create `submission.yml`.
-- `index.md` contains only `## submission` and `## children`, with no metadata section and no `## attachments`.
-- `tutorial.md`/`lab.md`/`lecture.md` contains the Canvas metadata block (when a Canvas page exists), then `## attachments` (if any), then the content.
+- `index.md` carries the Canvas metadata block and the verbatim Canvas description, then `## submission` and `## children`, with no `## attachments`.
+- `## submission` lists the uploaded file first — `- file:` with the component YAML, then the artifacts it was produced from: a `source:` child for one, a `sources:` list for several — then `- in-class submission` with the same component YAML. The uploaded artifacts and their sources both sit in `submission/` of the private tree, so these links are the record of what was handed in.
+- `tutorial.md`/`lab.md`/`lecture.md` carries no Canvas assignment metadata: identity bullets and parent, then the content.
 
 ```markdown
 # index.md (in-class only)
@@ -81,8 +82,24 @@ tags:
 
 - <INSTITUTION> <COURSE>
 
+---
+
+- title: <Canvas assignment title>
+- due: <ISO 8601 with timezone>
+- points: <N>
+- grade: <entered>/<possible>
+- submitting: <submission type>
+
+---
+
+<verbatim Canvas description>
+
 ## submission
 
+- file: [`<uploaded>.<ext>`](submission/<uploaded>.<ext>)
+    - metadata: [`<type>.yml`](<type>.yml)
+    - sources:
+        - [`<artifact>.<ext>`](submission/<artifact>.<ext>)
 - in-class submission
     - metadata: [`<type>.yml`](<type>.yml)
 
@@ -92,7 +109,7 @@ tags:
 ```
 
 ```markdown
-# <type>.md (in-class only, with Canvas page)
+# <type>.md (in-class only)
 
 ---
 aliases:
@@ -106,24 +123,7 @@ tags:
 - <INSTITUTION> <COURSE> <type> <N>
 - parent: [<type> <N>](index.md)
 
----
-
-- title: <Canvas assignment title>
-- points: <N>
-- grade: <entered>/<possible>
-- submitting: <submission type>
-
----
-
-<Canvas description>
-
-## attachments
-
-- [`filename.ext`](attachments/filename.ext)
-
-## quiz
-
-> question...
+## <authored content>
 ```
 
 ### Cloze flashcards in question blocks
@@ -192,7 +192,7 @@ Do not put in `attachments/`:
 Input: the artifact uploaded to Canvas (a document, rendered PDF, archive, source code, or link) plus, when it was generated from a local file, that local file.
 
 1. Add files to `submission/`. For an out-of-class component the directory is its private mirror.
-2. Update the `index.md` submission section: the uploaded artifact is the entry itself, and a local file it was generated from becomes a `source:` child (see "Submission entry model").
+2. Update the `index.md` submission section: the uploaded artifact is the entry itself, and the local artifacts it was generated from become a `source:` child when there is one or a `sources:` list when there are several (see "Submission entry model").
 3. For Apple Notes markdown:
    - Detect UUID attachment paths: `(Attachments|../attachments)/<UUID>.<ext>`
    - Rewrite paths to `../attachments/`
@@ -340,9 +340,10 @@ These child keys nest under the entry:
 
 - `metadata:`: the component YAML (`submission.yml`, `lab.yml`, `tutorial.yml`, `lecture.yml`) or rendering config such as `submission.pdf.yml`
 - `filename:`: the uploaded filename, when it differs from the canonical on-disk name
-- `source:`: the local artifact the uploaded file was generated from
+- `source:`: the single local artifact the uploaded file was generated from
+- `sources:`: the same relation when the submission rests on more than one artifact, each listed on its own nested line
 
-`source:` never names the uploaded artifact; it records what that artifact was produced from, such as a `.md` or `.docx` rendered to the submitted PDF, or a directory packed into the submitted archive. A file authored directly as the submission (a filled-in summary sheet, an assignment's own source file) has no `source:` child.
+A source never names the uploaded artifact; it records what that artifact was produced from, such as a `.md` or `.docx` rendered to the submitted PDF, a directory packed into the submitted archive, or the schematics a report's figures were exported from. Source files live in `submission/` beside the uploaded file, never in `attachments/`. Use `source:` for exactly one artifact and `sources:` as soon as there are two; never repeat `source:`. A file authored directly as the submission (a filled-in summary sheet, an assignment's own source file) has neither child.
 
 ```markdown
 - file: [`submission.pdf`](submission/submission.pdf)
@@ -352,6 +353,12 @@ These child keys nest under the entry:
 
 - file: [`submission.docx`](submission/submission.docx)
     - metadata: [`submission.yml`](submission.yml)
+
+- file: [`report.pdf`](submission/report.pdf)
+    - metadata: [`submission.yml`](submission.yml)
+    - sources:
+        - [`figure 1.asc`](submission/figure 1.asc)
+        - [`figure 2.asc`](submission/figure 2.asc)
 ```
 
 ### With in-class component (labs, tutorials, lectures)
@@ -405,7 +412,7 @@ tags:
 
 ### In-class content file (`lab.md`, `tutorial.md`, `lecture.md`)
 
-When the in-class component comes from a Canvas assignment or assignment submission page, its content file mirrors the Canvas header block of the submission `index.md`: frontmatter, `# <type>` heading, identity bullets, `---`, Canvas metadata bullets, `---`, verbatim Canvas description. Never leave the body as a bare stub.
+When the in-class component comes from a Canvas assignment or assignment submission page, the Canvas header block — `- title:`, `- due:`, `- points:`, `- grade:`, `- submitting:`, and the verbatim Canvas description — belongs to `index.md`, and the content file carries the identity bullets and the authored content instead. Never leave the content file's body as a bare stub.
 
 ```markdown
 ---
@@ -422,23 +429,10 @@ tags:
 - <INSTITUTION> <COURSE> <name>
 - parent: [<name>](index.md)
 
----
-
-- title: <Canvas title>
-- due: <ISO 8601 with timezone>
-- points: <N>
-- submitting: <Canvas submission type>
-- file types: <a, b, c>
-- available: <start>/<end>, <ISO duration>
-
----
-
-<verbatim Canvas description>
-
 ## <authored content>
 ```
 
-Draw the metadata fields from the component YAML (`lab.yml`, `tutorial.yml`, `lecture.yml`) using the same rules as the index page (see "Canvas metadata rules"), and omit fields absent from the YAML. The index-only sections (`## attachments`, `## submission`, `## solution`, `## children`) stay in `index.md`. Authored study content, if any, follows the Canvas header block.
+The Canvas header block sits in `index.md`, drawn from the component YAML (`lab.yml`, `tutorial.yml`, `lecture.yml`) by the rules in "Canvas metadata rules", and never in the content file. The index-only sections (`## attachments`, `## submission`, `## solution`, `## children`) stay in `index.md` as well.
 
 A content file that is not Canvas-sourced keeps the ordinary note format instead.
 

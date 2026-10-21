@@ -13,7 +13,7 @@ Problems and exercises from any source (lectures, labs, tutorials, problem sets,
 
 For multi-page question sets: `questions/<name>/index.md` with child pages.
 
-A question page for non-in-class material — a take-home problem set, an iPR set — is written to the private tree: `private/special/academia/<INSTITUTION>/<COURSE>/questions/<name>.md`, with its `attachments/` mirrored beside it. In-class exercise and quiz pages stay public. The public `questions/index.md` links a private page with the ordinary colocated path (see "Public and private trees" in `academic-ingest`).
+A question page for non-in-class material — a take-home problem set, an iPR set — is written to the private tree: `private/special/academia/<INSTITUTION>/<COURSE>/questions/<name>.md`, with its `attachments/` mirrored beside it. In-class exercise and quiz pages stay public, while their `attachments/` still write to the private mirror. The public `questions/index.md` links a private page with the ordinary colocated path (see "Public and private trees" in `academic-ingest`).
 
 The `##` sections inside a question page group questions by concept or question type, not by the source's layout or ordering (see "Grouping: concepts, not source layout" in `academic-crud-topic-note`).
 
