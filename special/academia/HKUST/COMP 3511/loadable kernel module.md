@@ -10,7 +10,7 @@ tags:
 
 # loadable kernel module
 
-A loadable kernel module (LKM) extends a running kernel's capabilities without recompiling the entire kernel. The kernel keeps core components — central processing unit (CPU) scheduling, memory management — and links in additional services via modules at boot time or during runtime.
+A loadable kernel module (LKM) extends a running kernel's capabilities without recompiling the entire kernel. The kernel keeps its core components, central processing unit (CPU) scheduling and memory management, and links in additional services through modules at boot time or during runtime.
 
 ---
 
@@ -21,7 +21,7 @@ Flashcards for this section are as follows:
 
 ## design
 
-The modular approach resembles a layered design: each kernel section has a well-defined, protected interface. But it is more flexible because any module can call any other. It also resembles a microkernel in having a core with loadable extensions, but modules communicate through direct function calls rather than message passing, giving better performance.
+The modular approach resembles a layered design: each kernel section has a well-defined, protected interface. But it is more flexible because any module can call any other. It also resembles a microkernel in having a core with loadable extensions. Its modules communicate through direct function calls rather than message passing, which performs better.
 
 For example, the kernel can have CPU scheduling and memory management built in, then add file system support through loadable modules. When a USB device is plugged in and the kernel lacks the driver, it can be loaded dynamically.
 
@@ -36,7 +36,7 @@ Flashcards for this section are as follows:
 <!-- check: ignore-next-line[header_style]: Linux is a proper noun, LKM is an acronym -->
 ## Linux and LKMs
 
-Linux uses loadable kernel modules primarily for device drivers and file systems. Modules can be inserted and removed at runtime, letting Linux keep a monolithic architecture for performance while supporting a wide range of hardware without rebuilding the kernel.
+Linux uses loadable kernel modules primarily for device drivers and file systems. Modules can be inserted and removed at runtime. That lets Linux keep a monolithic architecture for performance while supporting a wide range of hardware without rebuilding the kernel.
 
 ---
 

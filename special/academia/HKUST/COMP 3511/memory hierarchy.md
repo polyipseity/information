@@ -14,13 +14,13 @@ No single storage technology is fast, large, and cheap at once, so a computer ca
 
 The levels of the hierarchy differ in speed, cost per unit, capacity (size), and volatility. From top to bottom they are registers, cache, main memory, nonvolatile memory, hard-disk drives, optical disk, and magnetic tapes. Registers, cache, and main memory form primary storage; nonvolatile memory and hard-disk drives form secondary storage; optical disk and magnetic tapes form tertiary storage. Primary storage is volatile; everything below the main-memory boundary is non-volatile.
 
-The hierarchy is a trade-off: a level nearer the CPU is smaller and more expensive but much faster, while a level further down holds more data more cheaply and takes longer to reach. Each level holds only a fraction of the level below it, so the same bytes can sit at several levels at once; the copying that exploits this, and the access patterns that make it pay, are covered in [cache (computing)](cache%20(computing).md).
+The hierarchy is a trade-off. A level nearer the CPU is smaller and more expensive, but much faster. A level further down holds more data more cheaply, and takes longer to reach. Each level holds only a fraction of the level below it, so the same bytes can sit at several levels at once. The copying that exploits this, and the access patterns that make it pay, are covered in [cache (computing)](cache%20(computing).md).
 
 ---
 
 Flashcards for this section are as follows:
 
-- what a memory hierarchy is ::@:: The organization of a computer's storage devices into levels ordered by speed, size, and cost per unit, with the fastest and most expensive storage closest to the central processing unit (CPU).
+- what a memory hierarchy is ::@:: A computer's storage devices arranged in levels ordered by speed, size and cost per unit, with the fastest and most expensive storage closest to the central processing unit (CPU).
 - organizing criteria ::@:: Storage devices are organized in a hierarchy according to speed, size, and cost per unit or per byte.
 - top of the hierarchy ::@:: The levels closest to the central processing unit (CPU) are more expensive and smaller, but much faster.
 - bottom of the hierarchy ::@:: Moving down the hierarchy, cost per unit decreases while access time and capacity increase.
@@ -28,11 +28,11 @@ Flashcards for this section are as follows:
 - levels of the storage hierarchy ::@:: Registers, cache, main memory, nonvolatile memory, hard-disk drives, optical disk, and magnetic tapes, from closest to the central processing unit (CPU) outwards.
 - why storage is organized in a hierarchy ::@:: No single storage technology is fast, large, and cheap at once, so a faster, smaller, more expensive level sits close to the central processing unit (CPU) and a slower, larger, cheaper level holds the bulk of the data.
 - volatility across the levels ::@:: Registers, cache, and main memory are volatile storage, while nonvolatile memory, hard-disk drives, optical disks, and magnetic tapes are non-volatile.
-- subset relationship between levels ::@:: A higher level holds only a fraction of the content of the level below it, so the fast level serves the current working set while the slower level retains everything else.
+- subset relationship between levels ::@:: A higher level holds only a fraction of the content of the level below it. The fast level serves the current working set, and the slower level keeps everything else.
 
 ## primary, secondary, and tertiary storage
 
-Registers, cache, and main memory form __primary storage__; nonvolatile memory and hard-disk drives form __secondary storage__; optical disk and magnetic tapes form __tertiary storage__. Primary storage is volatile; everything below the main-memory boundary is non-volatile.
+Registers, cache, and main memory form __primary storage__. Nonvolatile memory and hard-disk drives form __secondary storage__. Optical disk and magnetic tapes form __tertiary storage__. Primary storage is volatile; everything below the main-memory boundary is non-volatile.
 
 ---
 
@@ -42,7 +42,7 @@ Flashcards for this section are as follows:
 
 ## main memory
 
-Main memory is the only large storage medium the CPU can access directly, and it holds both programs and data, meaning instructions as well as the data they operate on. It is volatile, typically dynamic random-access memory (DRAM), and it sits between the CPU and every storage level below it: the CPU reaches secondary storage only indirectly.
+Main memory is the only large storage medium the CPU can access directly. It holds both programs and data, meaning instructions as well as the data they operate on. It is volatile, typically dynamic random-access memory (DRAM), and it sits between the CPU and every storage level below it. The CPU reaches secondary storage only indirectly.
 
 Load and store are the basic operations on main memory, and they act on specific addresses. Main memory is byte addressable: each address refers to one byte.
 
@@ -65,7 +65,7 @@ Secondary storage extends main memory with large non-volatile capacity that hold
 
 Secondary-storage devices fall into two classes by how they store bits. Mechanical storage covers HDDs, optical disks, holographic storage, and magnetic tape. Electrical storage covers flash memory, solid-state disks (SSDs), ferroelectric RAM (FRAM), and Nano RAM (NRAM), and is usually called NVM. A hard-disk drive is the mechanical case, reached through mechanical access, while a solid-state disk built from flash has no moving parts.
 
-That contrast shapes the design: mechanical storage is generally larger and cheaper per byte, while electrical storage is smaller, more reliable, faster, and more expensive. In the hierarchy, nonvolatile memory sits above hard-disk drives, with optical disk and magnetic tape further below.
+That contrast shapes the design. Mechanical storage is generally larger and cheaper per byte, while electrical storage is smaller, more reliable, faster and more expensive. In the hierarchy, nonvolatile memory sits above hard-disk drives, with optical disk and magnetic tape further below.
 
 ---
 
@@ -74,7 +74,7 @@ Flashcards for this section are as follows:
 - secondary storage ::@:: The extension of main memory that provides large non-volatile storage capacity, holding data permanently.
 - common secondary-storage devices ::@:: Hard-disk drives (HDDs) and nonvolatile memory (NVM) devices such as solid-state disks, providing storage for both programs and data.
 - why secondary storage is needed ::@:: Main memory is volatile and cannot hold data permanently, so secondary storage supplies large non-volatile capacity for the programs and data not currently in use.
-- mechanical versus electrical storage ::@:: Mechanical storage covers hard-disk drives, optical disks, holographic storage, and magnetic tape, reached through mechanical access; electrical storage covers flash memory, solid-state disks, ferroelectric RAM (FRAM), and Nano RAM (NRAM), has no moving parts, and is usually called nonvolatile memory (NVM).
+- mechanical versus electrical storage ::@:: Mechanical storage covers hard-disk drives, optical disks, holographic storage and magnetic tape, all reached through mechanical access. Electrical storage covers flash memory, solid-state disks, ferroelectric RAM (FRAM) and Nano RAM (NRAM). It has no moving parts, and is usually called nonvolatile memory (NVM).
 - mechanical versus electrical cost and capacity ::@:: Mechanical storage is generally larger and less expensive per byte than electrical storage.
 - mechanical versus electrical reliability and speed ::@:: Electrical storage is more costly, smaller, more reliable, and faster than mechanical storage.
 
@@ -82,7 +82,7 @@ Flashcards for this section are as follows:
 
 Each level of storage is managed by a different component and backed by another. The compiler manages registers, hardware manages cache, and the operating system manages main memory, solid-state disk, and magnetic disk. Registers are backed by cache, cache by main memory, main memory by disk, solid-state disk by disk, and magnetic disk by disk or tape. Movement between levels can be explicit or implicit.
 
-Volatility divides the same levels again: registers, cache, and main memory are volatile, and every level below main memory (nonvolatile memory, hard-disk drives, optical disks, and magnetic tapes) is not.
+Volatility divides the same levels again. Registers, cache and main memory are volatile. Every level below main memory is not, which covers nonvolatile memory, hard-disk drives, optical disks and magnetic tapes.
 
 | level | typical size | implementation technology | access time (ns) | bandwidth (MB/s) | managed by | backed by |
 | --- | --- | --- | --- | --- | --- | --- |

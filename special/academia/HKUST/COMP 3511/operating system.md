@@ -10,29 +10,29 @@ tags:
 
 # operating system
 
-An operating system is the system software between a computer's hardware and everything running on it. It controls and coordinates the use of computing resources among applications and users, and hides the hardware's complications behind a simple interface. This note covers what an operating system does, the roles it plays, and how the kernel differs from the rest of what a vendor ships.
+An operating system is the system software between a computer's hardware and everything running on it. It controls and coordinates the use of computing resources among applications and users. It also hides the hardware's complications behind a simple interface. This note covers what an operating system does and the roles it plays. It also says how the kernel differs from the rest of what a vendor ships.
 
-A computer system divides into four components. _Hardware_ provides the basic computing resources: central processing unit (CPU), memory, and input/output (I/O) devices. _Application programs_ define how those resources are used to solve problems, and include editors, compilers, web browsers, databases, and video games. The _operating system_ controls and coordinates their use among applications and users. _Users_ may be people, machines, other computers, or other devices.
+A computer system divides into four components. _Hardware_ provides the basic computing resources: central processing unit (CPU), memory, and input/output (I/O) devices. _Application programs_ define how those resources are used to solve problems. They include editors, compilers, web browsers, databases and video games. The _operating system_ controls and coordinates their use among applications and users. _Users_ may be people, machines, other computers, or other devices.
 
-Machine-language structure is hard for programs to use, especially for I/O, so the operating system supplies an abstraction: programs and users work with photos, web pages, emails, and files instead of bytes and blocks on devices. It acts as an intermediary between users or application software and the hardware, as Linux, Unix, Microsoft Windows, macOS, iOS, and Android do.
+Machine-language structure is hard for programs to use, especially for I/O, so the operating system supplies an abstraction. Programs and users work with photos, web pages, emails and files instead of bytes and blocks on devices. It acts as an intermediary between users or application software and the hardware. Linux, Unix, Microsoft Windows, macOS, iOS and Android all work this way.
 
 ---
 
 Flashcards for this section are as follows:
 
-- what an operating system is ::@:: An operating system (OS) is system software that controls and coordinates the use of computing resources among various applications and users.
+- what an operating system is ::@:: An operating system is system software that controls and coordinates the use of computing resources among applications and users.
 - four components of a computer system ::@:: Hardware, the operating system, application programs, and users.
 - operating system as intermediary ::@:: The operating system is an intermediary between users or application software and the hardware, hiding its complicated details behind a simple interface.
 - abstraction over hardware ::@:: Programs and users work with photos, web pages, emails, and files rather than with bytes and blocks on devices.
-- machine-language complexity ::@:: The machine-language structure of a computer is complicated for programs, especially for input/output (I/O), which is why the operating system hides it behind an abstraction.
+- machine-language complexity ::@:: The machine-language structure of a computer is complicated for programs, especially for input/output (I/O). The operating system hides it behind an abstraction.
 - what application programs do ::@:: Application programs define how system resources are used to solve problems: editors, compilers, web browsers, databases, video games.
 - who counts as a user ::@:: Users can be people, machines, other computers, or other devices.
 
 ## roles and goals
 
-A modern computer holds many resources: processors, memory, timers, disks, mice, network interfaces, and printers. The operating system allocates them in an orderly and controlled way. As a __resource allocator__ it manages all resources, hardware and software, and decides between conflicting requests so that resources are used efficiently and fairly. As a __control program__ it controls the execution of programs and prevents errors and improper use of the computer.
+A modern computer holds many resources: processors, memory, timers, disks, mice, network interfaces, and printers. The operating system allocates them in an orderly and controlled way. As a __resource allocator__ it manages both hardware and software resources. It decides between conflicting requests so that resources are used efficiently and fairly. As a __control program__ it controls the execution of programs and prevents errors and improper use of the computer.
 
-The purposes of an operating system pull in different directions. _User convenience_ means providing an environment in which users or programmers can run programs conveniently, safely, protected, and efficiently. _Resource allocation_ means allocating resources fairly and efficiently, whether hardware such as the CPU and main memory or software such as signals and locks. Someone using a machine of their own cares about convenience, ease of use, and performance; the operator of a shared machine cares about using its resources efficiently and treating its users fairly.
+The purposes of an operating system pull in different directions. _User convenience_ means providing an environment in which users or programmers can run programs conveniently, safely, protected, and efficiently. _Resource allocation_ means sharing resources out fairly and efficiently. The resources are hardware such as the CPU and main memory, or software such as signals and locks. Someone using a machine of their own cares about convenience, ease of use and performance. The operator of a shared machine cares about using its resources efficiently and treating its users fairly.
 
 ---
 
@@ -41,15 +41,15 @@ Flashcards for this section are as follows:
 - resource allocator ::@:: The operating system manages all resources, hardware and software, and decides between conflicting requests so resources are used efficiently and fairly.
 - control program ::@:: The operating system controls the execution of programs and prevents errors and improper use of the computer.
 - goals of an operating system ::@:: User convenience, an environment where programmers can run programs conveniently, safely, and efficiently, and resource allocation in a fair and efficient manner.
-- user goals versus operator goals ::@:: A user of a private machine wants convenience, ease of use, and performance; the operator of a shared machine wants resources used efficiently and fairly.
+- user goals versus operator goals ::@:: A user of a private machine wants convenience, ease of use and performance. The operator of a shared machine wants resources used efficiently and fairly.
 
 ## composition
 
 ### kernel and system programs
 
-There is no universally accepted definition of an operating system. One good approximation is "everything a vendor ships when you order one", but what ships varies. One view takes that broad reading; the other identifies the operating system with the single program always running on the computer, the __kernel__, which provides the essential functionality.
+There is no universally accepted definition of an operating system. One good approximation is "everything a vendor ships when you order one", but what ships varies. One view takes that broad reading. The other identifies the operating system with the single program always running on the computer, the __kernel__. That program provides the essential functionality.
 
-Beyond the kernel, a shipped operating system includes other software. __Middleware__ is software frameworks that provide extra services to application developers, such as databases, multimedia, and graphics; it is popular on mobile systems such as Apple's iOS and Google's Android. __System programs__ ship with the operating system but are not part of the kernel: word processors, browsers, and compilers. __Application programs__ are not associated with the operating system at all; apps from app stores are the usual example.
+Beyond the kernel, a shipped operating system includes other software. __Middleware__ is software frameworks that provide extra services to application developers, such as databases, multimedia and graphics. It is popular on mobile systems such as Apple's iOS and Google's Android. __System programs__ ship with the operating system but are not part of the kernel: word processors, browsers, and compilers. __Application programs__ are not associated with the operating system at all; apps from app stores are the usual example.
 
 ---
 
@@ -58,9 +58,9 @@ Flashcards for this section are as follows:
 - no universal definition ::@:: There is no universally accepted definition of an operating system.
 - vendor approximation ::@:: "Everything a vendor ships when you order an operating system" is a good approximation, though what ships varies.
 - kernel ::@:: The kernel is the one program always running on a computer, and it provides the essential functionality.
-- middleware ::@:: Software frameworks providing extra services to application developers, such as databases, multimedia, and graphics; popular on mobile systems such as Apple's iOS and Google's Android.
+- middleware ::@:: Software frameworks that give application developers extra services, such as databases, multimedia and graphics. They are popular on mobile systems such as Apple's iOS and Google's Android.
 - system programs ::@:: Programs that ship with the operating system but are not part of the kernel: word processors, browsers, compilers.
-- application programs versus system programs ::@:: Application programs are not associated with the operating system at all, for example apps from app stores, whereas system programs ship with it.
+- application programs versus system programs ::@:: Application programs do not belong to the operating system at all, for example apps from app stores. System programs ship with it.
 
 ### system programs
 
@@ -68,31 +68,31 @@ System programs, also called system utilities, provide a convenient environment 
 
 System programs fall into several categories:
 
-- __file management__ (create, delete, copy, rename, list files and directories)
-- __status information__ (date, time, memory, disk space, number of users, performance data)
-- __file modification__ (text editors, search and transformation commands)
-- __programming-language support__ (compilers, assemblers, debuggers, interpreters)
-- __program loading and execution__ (loaders, linkage editors, debugging systems)
-- __communications__ (virtual connections among processes, users, and systems — remote login, file transfer, email, web browsing)
+- __file management__ (create, delete, copy, rename, list files and directories).
+- __status information__ (date, time, memory, disk space, number of users, performance data).
+- __file modification__ (text editors, search and transformation commands).
+- __programming-language support__ (compilers, assemblers, debuggers, interpreters).
+- __program loading and execution__ (loaders, linkage editors, debugging systems).
+- __communications__ (virtual connections among processes, users, and systems — remote login, file transfer, email, web browsing).
 
-__Background services__ launch at boot time. Some terminate after completing their tasks; others continue until the system halts — known as services, subsystems, or __daemons__ — providing disk checking, process scheduling, and error logging.
+__Background services__ launch at boot time. Some terminate after completing their tasks. Others continue until the system halts, and they are known as services, subsystems or __daemons__. They handle disk checking, process scheduling and error logging.
 
-__Application programs__ are not part of the operating system: web browsers, word processors, spreadsheets, database systems, and games, launched by command line, mouse click, or touch.
+__Application programs__ are not part of the operating system. Web browsers, word processors, spreadsheets, database systems and games are launched by command line, mouse click or touch.
 
 ---
 
 Flashcards for this section are as follows:
 
-- system programs ::@:: Programs shipping with the operating system (OS) to provide a convenient development and execution environment; some wrap system calls, others are complex utilities.
+- system programs ::@:: Programs that ship with the operating system to give a convenient development and execution environment. Some wrap system calls, and others are complex utilities.
 - categories of system programs ::@:: File management, status information, file modification, programming-language support, program loading and execution, and communications.
 - daemons ::@:: Background services that launch at boot and run until the system halts, providing disk checking, scheduling, and error logging.
-- application programs versus system programs ::@:: Application programs (browsers, editors, games) are not part of the operating system (OS); system programs ship with it.
+- application programs versus system programs ::@:: Application programs (browsers, editors, games) are not part of the operating system. System programs ship with it.
 
 ### linkers and loaders
 
 Source code is compiled into __relocatable object files__ designed to be loaded at any physical memory location. A __linker__ combines these object files into a single binary executable, along with libraries if needed. A __loader__ brings the executable from secondary storage into memory for execution. __Relocation__ assigns final addresses to program parts and adjusts code and data to match.
 
-Modern operating systems do not link libraries into executables statically. Instead, __dynamically linked libraries__ (DLLs on Windows, shared objects on Linux) are loaded when needed and shared by all programs using the same version. Object files and executables have standard formats (machine code and symbol tables), so the operating system knows how to load and start them.
+Modern operating systems do not link libraries into executables statically. Instead, __dynamically linked libraries__ (DLLs on Windows, shared objects on Linux) are loaded when needed. All programs using the same version share them. Object files and executables share standard formats: machine code and symbol tables. The operating system therefore knows how to load them and start them.
 
 ---
 
@@ -108,18 +108,18 @@ Flashcards for this section are as follows:
 
 An operating system provides an environment for program execution and offers services to programs and users. Its user-facing services are:
 
-- __user interface__ (command-line, graphical, or touch-screen)
-- __program execution__ (loading, running, terminating programs)
-- __I/O operations__ (file or device I/O)
-- __file-system manipulation__ (creating, deleting, reading, writing, searching files and directories, managing permissions)
-- __communications__ between processes (shared memory or message passing, locally or over a network)
-- __error detection__ (the OS must constantly watch for errors in the CPU, memory, I/O devices, or user programs)
+- __user interface__ (command-line, graphical, or touch-screen).
+- __program execution__ (loading, running, terminating programs).
+- __I/O operations__ (file or device I/O).
+- __file-system manipulation__ (creating, deleting, reading, writing, searching files and directories, managing permissions).
+- __communications__ between processes (shared memory or message passing, locally or over a network).
+- __error detection__ (the OS must constantly watch for errors in the CPU, memory, I/O devices, or user programs).
 
 System-facing services ensure efficient operation:
 
-- __resource allocation__ (CPU cycles, memory, file storage, I/O devices among concurrent jobs)
-- __logging__ (tracking which users use how much of which resources)
-- __protection and security__ (protecting information in multiuser or networked systems: protection controls access to system resources, security requires user authentication and defends against invalid external access)
+- __resource allocation__ (CPU cycles, memory, file storage, I/O devices among concurrent jobs).
+- __logging__ (tracking which users use how much of which resources).
+- __protection and security__ (protecting information in multiuser or networked systems). Protection controls access to system resources. Security requires user authentication and defends against invalid external access.
 
 ---
 
@@ -128,17 +128,17 @@ Flashcards for this section are as follows:
 - user-facing operating system (OS) services ::@:: User interface, program execution, input/output (I/O) operations, file-system manipulation, communications, and error detection.
 - system-facing operating system (OS) services ::@:: Resource allocation, logging, and protection and security.
 - file-system manipulation ::@:: Programs need to read, write, create, delete, and search files and directories, and manage permissions.
-- communications: shared memory versus message passing ::@:: Processes may communicate via shared memory (direct access to a shared region) or message passing (the operating system (OS) moves packets between processes, locally or over a network).
-- error detection ::@:: The operating system (OS) must constantly watch for errors in the central processing unit (CPU), memory, input/output (I/O) devices, or user programs and take appropriate actions.
+- communications: shared memory versus message passing ::@:: Processes may communicate through shared memory, a region both can read and write directly. They may instead pass messages, where the operating system (OS) moves packets between processes, locally or over a network.
+- error detection ::@:: The operating system (OS) watches constantly for errors in the central processing unit (CPU), memory, input/output (I/O) devices and user programs. It then acts on them.
 - protection versus security ::@:: Protection controls access to system resources among concurrent processes; security requires user authentication and defends against invalid external access attempts.
-- resource allocation ::@:: When multiple users or jobs run concurrently, the operating system (OS) allocates central processing unit (CPU) cycles, memory, file storage, and input/output (I/O) devices to each.
-- logging ::@:: The operating system (OS) tracks which users use how much and what kinds of computer resources.
+- resource allocation ::@:: When several users or jobs run at once, the operating system shares out central processing unit (CPU) cycles, memory, file storage and input/output (I/O) devices.
+- logging ::@:: The operating system tracks which users use how much and what kinds of computer resources.
 
 ### user interfaces
 
-Most operating systems provide three types of user interface. A __command-line interface__ (CLI), or command interpreter, lets users type commands directly. The CLI is sometimes implemented in the kernel, sometimes by system programs. UNIX and Linux offer multiple shells (C shell, Bourne-Again shell, Korn shell), each fetching a command from the user, interpreting it, and executing it.
+Most operating systems provide three types of user interface. A __command-line interface__ (CLI), or command interpreter, lets users type commands directly. The CLI is sometimes implemented in the kernel, sometimes by system programs. UNIX and Linux offer several shells: the C shell, the Bourne-Again shell and the Korn shell. Each fetches a command from the user, interprets it and executes it.
 
-A __graphical user interface__ (GUI) uses a desktop metaphor with windows, icons, and mouse interaction. Invented at Xerox PARC in the early 1970s and first widely used in the Apple Macintosh (1984), GUIs now dominate personal computing. Most systems provide both CLI and GUI: Windows has a GUI with a CLI "Command" shell; Mac OS X has the Aqua GUI with UNIX shells underneath; Linux has CLI with optional GUI environments (KDE, GNOME).
+A __graphical user interface__ (GUI) uses a desktop metaphor with windows, icons, and mouse interaction. Invented at Xerox PARC in the early 1970s, GUIs reached wide use first in the Apple Macintosh (1984) and now dominate personal computing. Most systems provide both a CLI and a GUI. Windows pairs a GUI with the "Command" shell. Mac OS X has the Aqua GUI over UNIX shells. Linux runs a CLI with optional GUI environments such as KDE and GNOME.
 
 __Touchscreen interfaces__ on mobile devices use gestures, virtual keyboards, and voice commands instead of a mouse.
 
@@ -147,7 +147,7 @@ __Touchscreen interfaces__ on mobile devices use gestures, virtual keyboards, an
 Flashcards for this section are as follows:
 
 - CLI ::@:: A command-line interface lets users type commands directly; shells in UNIX/Linux fetch, interpret, and execute them.
-- GUI ::@:: A graphical user interface uses a desktop metaphor with windows, icons, and mouse interaction; invented at Xerox PARC, first widely used in the Apple Macintosh (1984).
+- GUI ::@:: A graphical user interface uses a desktop metaphor of windows, icons and mouse interaction. Xerox PARC invented it, and the Apple Macintosh (1984) first used it widely.
 - touchscreen interface ::@:: Touchscreen devices use gestures, virtual keyboards, and voice commands instead of a mouse.
 
 ## design
@@ -168,15 +168,15 @@ Flashcards for this section are as follows:
 - system goals for an operating system (OS) ::@:: Ease of design, implementation, and maintenance, along with flexibility, reliability, error-freedom, and efficiency.
 - policy versus mechanism ::@:: Mechanisms specify how to do things; policies decide what will be done. Separating them allows the same mechanism to support different policies without modification.
 - timer as mechanism, duration as policy ::@:: A timer construct is a mechanism for central processing unit (CPU) protection; the timer duration for a particular user is a policy decision.
-- high-level language implementation ::@:: Most modern kernels use C or C++, making them easier to port, faster to write, more compact, and easier to debug, with negligible performance cost on contemporary hardware.
+- high-level language implementation ::@:: Most modern kernels use C or C++. They are easier to port, faster to write, more compact, easier to debug, and cost almost nothing in performance on current hardware.
 
 ### structure
 
-Operating systems vary in internal structure. A __simple structure__ (such as MS-DOS) has no well-defined architecture: interfaces and functionality are not separated, and application programs can access I/O directly. MS-DOS was written for the Intel 8088 with no dual mode and no hardware protection. It is single-tasking: the shell is invoked at boot, and running a program loads it into memory, overwriting everything except the kernel. When the program exits, the shell reloads.
+Operating systems vary in internal structure. A __simple structure__ (such as MS-DOS) has no well-defined architecture. Interfaces and functionality are not separated, and application programs can access I/O directly. MS-DOS was written for the Intel 8088 with no dual mode and no hardware protection. It is single-tasking: the shell is invoked at boot, and running a program loads it into memory. That load overwrites everything except the kernel. When the program exits, the shell reloads.
 
 __FreeBSD__, a Unix variant, demonstrates multitasking. On login, the shell calls `fork()` to create a new process, then `exec()` to load a program. The shell either waits for the process to terminate or continues accepting user commands. The OS provides CPU scheduling, process coordination, and memory management to support multiprogramming.
 
-A __monolithic kernel__ places all OS functionality into a single binary in one address space. Traditional UNIX follows this structure, with the kernel consisting of everything below the system-call interface and above the physical hardware. UNIX separates into two parts: the kernel and system programs. The kernel contains signal handling, terminal handling, I/O, file systems, CPU scheduling, memory management, and device drivers. Monolithic kernels have a performance advantage from minimal overhead, but are hard to modify because changes in one part affect others. Their speed keeps them in use in UNIX, Linux, and Windows.
+A __monolithic kernel__ places all OS functionality into a single binary in one address space. Traditional UNIX follows this structure, with the kernel consisting of everything below the system-call interface and above the physical hardware. UNIX separates into two parts: the kernel and system programs. The kernel contains signal handling, terminal handling, I/O, file systems, CPU scheduling, memory management, and device drivers. Monolithic kernels gain performance from minimal overhead. They are hard to modify, though, because a change in one part affects the others. Their speed keeps them in use in UNIX, Linux, and Windows.
 
 The __layered approach__ divides the OS into layers, each built on lower ones. Layer 0 is the hardware; layer _N_ is the user interface. Each layer consists of data structures and functions invokable by higher layers, which in turn invoke lower layers. __Information hiding__ means a layer does not need to know how lower-layer operations are implemented — only what they do. This simplifies building and debugging from the lowest layer up, but adds traversal overhead and makes layer boundaries hard to define. Few OSes use a pure layered approach; the trend is toward fewer layers with more functionality.
 
@@ -184,19 +184,19 @@ A __microkernel__ removes nonessential components from the kernel, implementing 
 
 The __modular approach__ uses loadable kernel modules (LKMs) to extend a running kernel at boot time or during runtime. Core services stay in the kernel; additional functionality — device drivers, file systems — is added dynamically. This resembles layered design in having well-defined interfaces but allows any module to call any other. It resembles microkernels in having a minimal core but avoids message-passing overhead. Linux uses LKMs for device drivers and file systems.
 
-Few operating systems use a single, strictly defined structure. __Hybrid systems__ combine approaches: Linux is monolithic with modular extensions; Windows is largely monolithic but supports separate subsystems (personalities) as user-mode processes and loadable kernel modules.
+Few operating systems use a single, strictly defined structure. __Hybrid systems__ combine approaches. Linux is monolithic with modular extensions. Windows is largely monolithic but supports separate subsystems (personalities) as user-mode processes and loadable kernel modules.
 
 __Android__ is a layered, open-source mobile OS built on a modified Linux kernel. Its architecture runs from bottom to top:
 
-- the Linux kernel (with power management for mobile)
-- a __hardware abstraction layer__ (HAL) that abstracts camera, GPS, and sensors
-- __Bionic__ (Google's standard C library, replacing glibc)
-- __native libraries__ (SQLite, OpenGL, webkit, SSL, media framework, surface manager)
-- the __Android Runtime__ (ART), a virtual machine (VM) optimized for mobile
-- __Android frameworks__ (application program interfaces (APIs) for app development)
+- the Linux kernel (with power management for mobile).
+- a __hardware abstraction layer__ (HAL) that abstracts camera, GPS, and sensors.
+- __Bionic__ (Google's standard C library, replacing glibc).
+- __native libraries__ (SQLite, OpenGL, webkit, SSL, media framework, surface manager).
+- the __Android Runtime__ (ART), a virtual machine (VM) optimized for mobile.
+- __Android frameworks__ (application program interfaces (APIs) for app development).
 - __applications__ The __Java Native Interface__ (JNI) lets developers bypass the VM to access hardware directly, at the cost of portability.
 
-__macOS and iOS__ share the Darwin kernel environment, which combines the Mach microkernel and the BSD UNIX kernel (the XNU hybrid kernel). macOS adds the Aqua GUI, Cocoa programming environment, and core frameworks (QuickTime, OpenGL). iOS adds the Springboard touch interface, Cocoa Touch, media services, and core services (cloud, databases), running on ARM rather than Intel.
+__macOS and iOS__ share the Darwin kernel environment. That environment combines the Mach microkernel and the BSD UNIX kernel, which is the XNU hybrid kernel. macOS adds the Aqua GUI, Cocoa programming environment, and core frameworks (QuickTime, OpenGL). iOS adds the Springboard touch interface, Cocoa Touch, media services, and core services (cloud, databases), running on ARM rather than Intel.
 
 ---
 
@@ -204,19 +204,19 @@ Flashcards for this section are as follows:
 
 - simple operating system (OS) structure ::@:: No well-defined architecture; interfaces and functionality are not separated, as in MS-DOS, which was single-tasking with no dual mode or hardware protection.
 - MS-DOS memory model ::@:: At boot, the shell and kernel occupy memory; running a program overwrites everything except the kernel; on exit, the shell reloads.
-- FreeBSD multitasking ::@:: The shell calls `fork()` to create a process, `exec()` to load a program; the operating system (OS) provides central processing unit (CPU) scheduling, process coordination, and memory management.
-- monolithic kernel ::@:: All operating system (OS) functionality in a single binary running in one address space; fast due to minimal overhead but hard to modify.
+- FreeBSD multitasking ::@:: The shell calls `fork()` to create a process and `exec()` to load a program. The operating system provides central processing unit (CPU) scheduling, process coordination and memory management.
+- monolithic kernel ::@:: All operating system (OS) functionality in a single binary in one address space. It is fast, with little overhead, and hard to modify.
 - UNIX kernel and system programs ::@:: UNIX separates into the kernel (everything below the system-call interface) and system programs (shells, compilers, utilities).
-- layered approach ::@:: The operating system (OS) is divided into layers from hardware (layer 0) to user interface (layer N); each layer uses services from below and offers services above.
-- information hiding in layered operating system (OS) ::@:: A layer does not need to know how lower-layer operations are implemented, only what they do — the interface is the contract.
-- microkernel ::@:: A minimal kernel providing only process management, memory management, and inter-process communication (IPC); other services run as user-level programs, improving extensibility at the cost of message-passing overhead.
+- layered approach ::@:: The operating system is divided into layers, from hardware (layer 0) to the user interface (layer N). Each layer uses the services below it and offers services above.
+- information hiding in layered operating system (OS) ::@:: A layer does not need to know how lower-layer operations are implemented, only what they do. The interface is the contract.
+- microkernel ::@:: A minimal kernel that provides only process management, memory management and inter-process communication (IPC). Other services run as user-level programs, which adds extensibility and costs message-passing overhead.
 - loadable kernel module ::@:: A module that extends a running kernel at boot or runtime without recompilation, combining monolithic performance with modular flexibility.
-- hybrid operating system ::@:: Combines multiple structures, such as Linux (monolithic with modular extensions), Windows (monolithic with subsystems and loadable modules), or macOS (Mach microkernel + BSD).
+- hybrid operating system ::@:: It combines several structures. Linux is monolithic with modular extensions, Windows is monolithic with subsystems and loadable modules, and macOS pairs the Mach microkernel with BSD.
 - Android layered architecture ::@:: From bottom: Linux kernel, hardware abstraction layer (HAL), Bionic C library, native libraries (SQLite, OpenGL, webkit), Android Runtime (ART) virtual machine (VM), Android frameworks, applications.
 - HAL (Android) ::@:: The hardware abstraction layer in Android, abstracting camera, GPS, and sensors so applications see a consistent interface regardless of specific hardware.
 - Bionic ::@:: Google's standard C library for Android, replacing the GNU C library (glibc) used in Linux systems.
 - Java Native Interface (JNI) ::@:: Allows Android developers to bypass the ART virtual machine and access hardware directly, at the cost of portability.
-- Darwin kernel ::@:: The hybrid XNU kernel in macOS and iOS combining Mach microkernel (memory management, central processing unit (CPU) scheduling, inter-process communication (IPC)) and BSD UNIX kernel (POSIX application program interface (API), networking, file system, security).
-- macOS versus iOS ::@:: Both share Darwin; macOS adds Aqua graphical user interface (GUI) and Cocoa, iOS adds Springboard touch interface and Cocoa Touch, running on ARM instead of Intel.
+- Darwin kernel ::@:: The hybrid XNU kernel in macOS and iOS. It combines the Mach microkernel (memory management, central processing unit (CPU) scheduling, inter-process communication (IPC)) with the BSD UNIX kernel. That kernel supplies the POSIX application program interface (API), networking, file systems and security.
+- macOS versus iOS ::@:: Both share Darwin. macOS adds the Aqua graphical user interface (GUI) and Cocoa, and runs on Intel. iOS adds the Springboard touch interface and Cocoa Touch, on ARM.
 - modular versus layered ::@:: Both have well-defined interfaces, but modules can call any other module, unlike strict layering.
 - modular versus microkernel ::@:: Both have a minimal core with extensible services, but modules use direct calls rather than message passing.

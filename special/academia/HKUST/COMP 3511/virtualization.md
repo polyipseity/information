@@ -10,9 +10,9 @@ tags:
 
 # virtualization
 
-Virtualization turns the hardware of one computer into several separate execution environments, so each user or program appears to have a private machine. It lets an operating system run as an application inside another, which makes running several operating systems on one physical machine practical, and it is the base for [cloud computing](cloud%20computing.md), which delivers computing, storage, and applications as a service over a network.
+Virtualization turns the hardware of one computer into several separate execution environments, so each user or program appears to have a private machine. It lets an operating system run as an application inside another, which makes several operating systems on one physical machine practical. It is also the base for [cloud computing](cloud%20computing.md), which delivers computing, storage and applications as a service over a network.
 
-The virtual system it creates is a __virtual machine__, or __VM__, on which operating systems and applications can run, and which behaves like a real computer to the software inside. Each process behaves as if it had a dedicated processor and its own memory, because it is given a virtual copy of the host rather than the machine itself. The guest operating system is therefore a process running under the host, and one machine's hardware is shared among several users or processes that each see a private computer.
+The virtual system it creates is a __virtual machine__, or __VM__, which behaves like a real computer to the software inside. Operating systems and applications run on it. Each process behaves as if it had a dedicated processor and its own memory, because it is given a virtual copy of the host rather than the machine itself. The guest operating system is therefore a process running under the host, and one machine's hardware is shared among several users or processes that each see a private computer.
 
 ---
 
@@ -66,9 +66,9 @@ Flashcards for this section are as follows:
 
 ### with virtualization
 
-In the virtualized model the virtual machine manager sits on the hardware, and above it each virtual machine holds its own kernel, exposing the same kind of programming interface to its processes.
+In the virtualized model the virtual machine manager sits on the hardware. Above it, each virtual machine holds its own kernel, which exposes the same kind of programming interface to its processes.
 
-The virtualized model stacks the same picture several times over one physical machine rather than giving programs a new interface: what the processes see above their kernel is unchanged, and the layers below it are duplicated. The layer that owns the machine is the virtual machine manager, not a kernel, and each virtual machine gives the kernel above it a virtual copy of the host. The manager runs directly on the hardware, with the virtual machines and their kernels above it.
+The virtualized model stacks the same picture several times over one physical machine instead of giving programs a new interface. What the processes see above their kernel is unchanged, and the layers below it are duplicated. The layer that owns the machine is the virtual machine manager, not a kernel, and each virtual machine gives the kernel above it a virtual copy of the host. The manager runs directly on the hardware, with the virtual machines and their kernels above it.
 
 ---
 
@@ -80,7 +80,7 @@ Flashcards for this section are as follows:
 
 ## motivations for virtualization
 
-__Server consolidation__ is the leading motivation: consolidating multiple operating systems onto fewer hardware platforms lets services run on different machines with different operating systems, or different versions of one.
+__Server consolidation__ is the leading motivation. Running several operating systems on fewer hardware platforms lets services run on different machines with different operating systems, or different versions of one.
 
 On a desktop a user can run Linux or macOS and still reach native applications on Windows. Developers can run many operating system types and versions on one machine, which makes testing and debugging easier.
 
