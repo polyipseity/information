@@ -31,7 +31,9 @@ Flashcards for this section are as follows:
 - the time-dependent Schrödinger equation for $\Psi$ in one dimension ::@:: $i\hbar\,\partial\Psi/\partial t = -\frac{\hbar^2}{2m}\,\partial^2\Psi/\partial x^2 + V(x)\Psi$.
 - why the equation is called non-relativistic, given its orders in $\partial/\partial t$ and $\partial/\partial x$ ::@:: It treats time and space unequally — first order in $\partial/\partial t$, second order in $\partial^2/\partial x^2$.
 
-## separation of variables
+## solving for stationary states
+
+### separation of variables
 
 Try a product solution $\Psi(x,t) = \psi(x)f(t)$ and substitute. Dividing by $\psi f$ separates the equation into a time part and a space part that must each equal a constant, the energy $E$: $i\hbar\frac{1}{f}\frac{df}{dt} = E$ and $-\frac{\hbar^2}{2m}\frac{1}{\psi}\frac{d^2\psi}{dx^2} + V = E$. The time equation integrates immediately to $f(t) = e^{-iEt/\hbar}$, a phase that rotates without changing $|\Psi|^2$, while the space equation is the time-independent Schrödinger equation $-\frac{\hbar^2}{2m}\frac{d^2\psi}{dx^2} + V(x)\psi = E\psi$, an eigenvalue problem whose allowed eigenvalues $E$ are the quantised energies.
 
@@ -42,7 +44,7 @@ Flashcards for this section are as follows:
 - how separation of variables splits $\Psi(x,t) = \psi(x)f(t)$ ::@:: With $\Psi(x,t) = \psi(x)f(t)$, the time factor obeys $f = e^{-iEt/\hbar}$ and the space factor obeys the time-independent Schrödinger equation.
 - what the energy eigenvalue problem for $\psi$ looks like ::@:: $-\frac{\hbar^2}{2m}\frac{d^2\psi}{dx^2} + V(x)\psi = E\psi$; its allowed $E$ values are the quantised energies.
 
-## stationary states
+### stationary states
 
 A separated solution $\Psi(x,t) = \psi(x)e^{-iEt/\hbar}$ is a stationary state: the phase rotates in time but $|\Psi(x,t)|^2 = |\psi(x)|^2$ does not move, so no expectation value built from $|\Psi|^2$ changes. Stationary states are energy eigenstates, the Schrödinger equation acting on $\psi$ returns $E$ times $\psi$, and any state can be expanded in them, with the phase factors keeping each component's clock. The infinite well's states $\psi_n = \sqrt{2/L}\sin(n\pi x/L)$ with energies $E_n = n^2h^2/(8mL^2)$ in the [particle in a box](particle%20in%20a%20box.md) are the standard example.
 
@@ -76,7 +78,9 @@ Flashcards for this section are as follows:
 - how an energy eigenfunction $\psi_n$ with $\hat{H}\psi_n = E_n\psi_n$ feeds the time-dependent equation ::@:: $\Psi_n = \psi_n e^{-iE_n t/\hbar}$ solves it exactly, and any superposition $\sum_n c_n \psi_n e^{-iE_n t/\hbar}$ solves it by linearity.
 - the commutator $[\hat{x}, \hat{p}]$ of the position and momentum operators ::@:: $[\hat{x}, \hat{p}] = \hat{x}\hat{p} - \hat{p}\hat{x} = i\hbar$, the constant that is the algebraic root of the uncertainty relation.
 
-## three dimensions
+## three dimensions and momentum states
+
+### three dimensions
 
 The same equations carry three spatial derivatives. The energy relation $E = p^2/2m + V$ holds with $p^2 = p_x^2 + p_y^2 + p_z^2$ and $\hat{p}_i = -i\hbar\,\partial/\partial i$ on each axis, so the kinetic term becomes $-\frac{\hbar^2}{2m}\left(\frac{\partial^2}{\partial x^2} + \frac{\partial^2}{\partial y^2} + \frac{\partial^2}{\partial z^2}\right)$. The bracket is the Laplacian operator $\nabla^2 = \partial^2/\partial x^2 + \partial^2/\partial y^2 + \partial^2/\partial z^2$, and the time-independent equation reads $-\frac{\hbar^2}{2m}\nabla^2\psi + V\psi = E\psi$. The time-dependent form takes the same replacement, $i\hbar\,\partial\Psi/\partial t = -\frac{\hbar^2}{2m}\nabla^2\Psi + V\Psi$, with $V$ allowed to depend on all three coordinates and on time.
 
@@ -88,7 +92,7 @@ Flashcards for this section are as follows:
 - how the Laplacian form of the equation follows from $E = p^2/2m + V$ ::@:: With $\hat{p}_i = -i\hbar\,\partial/\partial i$ on each axis, $p^2 = p_x^2 + p_y^2 + p_z^2$ turns the kinetic term into $-\frac{\hbar^2}{2m}\nabla^2$, so $-\frac{\hbar^2}{2m}\nabla^2\psi + V\psi = E\psi$.
 - the three-dimensional time-dependent Schrödinger equation in terms of $\nabla^2$ ::@:: $i\hbar\,\partial\Psi/\partial t = -\frac{\hbar^2}{2m}\nabla^2\Psi + V\Psi$, with $V$ a function of position and time.
 
-## momentum representation
+### momentum representation
 
 The plane waves $e^{ikx}$ are the eigenfunctions of the momentum operator: $\hat{p}\,e^{ikx} = -i\hbar(ik)e^{ikx} = \hbar k\,e^{ikx}$, so the eigenvalue is $\hbar k$. Any $\psi$ can be rewritten as a superposition of them, $\tilde{\psi}(k) = \frac{1}{\sqrt{2\pi}}\int \psi(x)e^{-ikx}\,dx$, the Fourier transform. In that momentum representation $\hat{p}$ becomes multiplication by $\hbar k$, while $\hat{x}$ becomes $i\,\partial/\partial k$. The two representations therefore trade which operator is simple.
 
@@ -99,7 +103,7 @@ Flashcards for this section are as follows:
 - the eigenfunctions of the momentum operator $\hat{p} = -i\hbar\,\partial/\partial x$ and their eigenvalues ::@:: The plane waves $e^{ikx}$: $\hat{p}\,e^{ikx} = -i\hbar(ik)e^{ikx} = \hbar k\,e^{ikx}$, so the eigenvalue is $\hbar k$.
 - what rewriting $\psi$ as $\tilde{\psi}(k) = \frac{1}{\sqrt{2\pi}}\int \psi(x)e^{-ikx}\,dx$ buys ::@:: In the momentum representation $\hat{p}$ becomes multiplication by $\hbar k$ while $\hat{x}$ becomes $i\,\partial/\partial k$: the two representations trade which operator is simple.
 
-## free-particle plane waves
+### free-particle plane waves
 
 A quick check on the equation takes the free case, $V = 0$, and tries the plane wave $\psi(x,t) = e^{i(kx - \omega t)}$. Substituting gives $i\hbar(-i\omega)\psi = -\frac{\hbar^2}{2m}(ik)^2\psi$, which reduces to $\hbar\omega = \hbar^2k^2/2m$. So the plane wave solves the equation when $E = \hbar\omega$ and $p = \hbar k$ satisfy the classical free relation $E = p^2/2m$, and $\omega = \hbar k^2/2m$ then carries de Broglie's $\lambda = h/p$ with $E = hf$. The check ties the equation's constants to the matter-wave relations it was built to respect.
 

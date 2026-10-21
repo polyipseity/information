@@ -78,6 +78,5 @@ Flashcards for this section are as follows:
 - what does a chunk being an ordinary file over HTTP do for the client? ::@:: Playback moves into the browser, so the client needs no new software
 - what does a chunk being an ordinary file over HTTP do for the server? ::@:: It is "stupid" again, offering up small chunks of video over stateless HTTP and holding no session state
 - what does a chunk being an ordinary file over HTTP do for caching? ::@:: Chunks can be stored in caches and CDNs, which is where the scalability comes from
-- what does segmentation allow the client to change? ::@:: Its choice of download rate, once per chunk.<br/>
-That is what makes adaptive bitrate streaming possible.
+- what does segmentation allow the client to change? ::@:: Its choice of download rate, once per chunk. That is what makes adaptive bitrate streaming possible.
 - why could a single stateful session not change its rate mid-stream? ::@:: Because it fixes the rate when the session is set up, so a network that slows down leaves the client nothing to do but wait

@@ -20,7 +20,7 @@ Flashcards for this section are as follows:
 - the defect of the planetary atom that the Bohr model answers ::@:: An orbiting electron radiates under classical electrodynamics, so the atom would drain and collapse in a fraction of a second.
 - what the Bohr model reproduces from its postulates alone ::@:: Hydrogen's spectral lines, including the Balmer formula's wavelengths.
 
-## why the classical picture fails
+## classical planetary model
 
 Rutherford's nuclear atom invites the planetary picture: a light electron held in a circular orbit by the Coulomb attraction of a heavy nucleus. Newton's second law and the Coulomb force fix the motion. The attraction provides the centripetal force, $m v^2/r = e^2/(4\pi\varepsilon_0 r^2)$, so the kinetic energy is $K = e^2/(8\pi\varepsilon_0 r)$ and the total energy, kinetic plus the Coulomb potential $-e^2/(4\pi\varepsilon_0 r)$, is $E = -e^2/(8\pi\varepsilon_0 r)$. For a hydrogen atom with $r = 0.5\ \text{Å}$ the electron speed comes out near $2.25 \times 10^6\ \text{m/s}$ and the total energy near $-14.4\ \text{eV}$.
 
@@ -41,7 +41,9 @@ Flashcards for this section are as follows:
 - the frequency $f$ a circular orbit of speed $v$ and radius $r$ radiates at ::@:: the orbital frequency $v/(2\pi r)$, near $7\times10^{15}\ \text{Hz}$ at $r = 0.5\ \text{Å}$.
 - the linear collapse estimate $t = |E|/P$ for a planetary electron at radius $r$ ::@:: $t = 12\pi^2\varepsilon_0^2 m^2 r^3 c^3/e^4$, near $4\times10^{-11}\ \text{s}$ at $r = 0.5\ \text{Å}$, and a factor of three above the integrated spiral time.
 
-## assumptions
+## quantised model
+
+### assumptions
 
 Four assumptions carry the model. Stationary states exist in the atom: orbits in which the orbiting electron does not radiate, each with a fixed definite energy $E$. Radiation is emitted or absorbed only together with a transition between two stationary states, and the photon frequency satisfies $hf = E_u - E_l$, with $E_u$ and $E_l$ the energies of the upper and lower states. Classical laws of physics do not apply to the transitions between stationary states. The angular momentum of a stationary state is an integral multiple of $\hbar = h/2\pi$, so $mvr = n\hbar$ with $n = 1, 2, 3, \ldots$
 
@@ -56,7 +58,7 @@ Flashcards for this section are as follows:
 - the angular-momentum quantisation condition on $mvr$ in terms of $\hbar = h/2\pi$ ::@:: The angular momentum of a stationary state is an integral multiple of $\hbar$, so $mvr = n\hbar$ for $n = 1, 2, 3, \ldots$
 
 <!-- check: ignore-next-line[header_style]: proper noun (eponym) -->
-## Bohr radius
+### Bohr radius
 
 Two equations now close on each other. The force balance $m v^2/r = e^2/(4\pi\varepsilon_0 r^2)$ holds on every orbit, and the quantisation condition $mvr = n\hbar$ decides which orbits survive. The quantisation sets the speed at each radius, $v = n\hbar/(mr)$, and putting that into the force balance turns it into $n^2\hbar^2/(m r^3) = e^2/(4\pi\varepsilon_0 r^2)$. Clearing denominators then leaves the allowed radii $r_n = 4\pi\varepsilon_0 n^2\hbar^2/(m e^2) = n^2 a_0$, with the Bohr radius $$a_0 = \frac{4\pi\varepsilon_0 \hbar^2}{m e^2} = 0.53\ \text{Å},$$ built from constants already known: $\hbar = 1.055 \times 10^{-34}\ \text{J s}$, $\varepsilon_0 = 8.85 \times 10^{-12}\ \text{F/m}$, $m = 9.11 \times 10^{-31}\ \text{kg}$, and $e = 1.60 \times 10^{-19}\ \text{C}$. The ground-state orbit therefore has radius about $0.53\ \text{Å}$, and hydrogen's size, a diameter near $1\ \text{Å}$, falls out of the model instead of being put in by hand.
 
@@ -70,7 +72,7 @@ Flashcards for this section are as follows:
 - how substituting $v = n\hbar/(mr)$ into $m v^2/r = e^2/(4\pi\varepsilon_0 r^2)$ isolates the allowed orbit radius ::@:: The force balance becomes $n^2\hbar^2/(m r^3) = e^2/(4\pi\varepsilon_0 r^2)$, so clearing denominators gives $r_n = 4\pi\varepsilon_0 n^2\hbar^2/(m e^2) = n^2 a_0$.
 - the ground-state orbit radius $a_0$ and the atom's diameter in the Bohr model ::@:: The ground-state orbit has radius about $0.53\ \text{Å}$, so the atom is near $1\ \text{Å}$ across.
 
-## fine structure constant
+### fine structure constant
 
 The model also fixes how fast the electron moves. Combining the force balance with the allowed radii gives $v_n = e^2/(4\pi\varepsilon_0 \hbar n)$, so the speed falls as $1/n$. In the ground state $v_1 = 2.2 \times 10^6\ \text{m/s}$, under one percent of the speed of light. The ratio of that speed to the speed of light is the fine structure constant, $$\alpha = \frac{v_1}{c} = \frac{e^2}{4\pi\varepsilon_0 \hbar c} \approx \frac{1}{137}.$$ It is dimensionless, and the model produces it from constants that were already known.
 
@@ -82,7 +84,7 @@ Flashcards for this section are as follows:
 - the ground-state electron speed $v_1$ in the Bohr model, and its share of $c$ ::@:: $v_1 = 2.2 \times 10^6\ \text{m/s}$, under one percent of the speed of light.
 - the fine structure constant $\alpha = v_1/c = e^2/(4\pi\varepsilon_0 \hbar c)$: its value ::@:: $\alpha \approx 1/137$, a dimensionless ratio the model builds from already-known constants.
 
-## energy levels
+### energy levels
 
 The total energy follows from the same orbits. Kinetic plus potential gives $E = K + V = -e^2/(8\pi\varepsilon_0 r)$, and inserting the allowed radii $r_n = n^2 a_0$ gives the stationary-state energies $$E_n = -\frac{e^2}{8\pi\varepsilon_0 a_0 n^2} = \frac{E_1}{n^2},$$ with $E_1 = -e^2/(8\pi\varepsilon_0 a_0) = -13.6\ \text{eV}$, the total energy at the ground-state radius. The magnitude $13.6\ \text{eV}$ is the energy measured to ionise hydrogen out of its ground state. The $n = 1$ level is the ground state; raising $n$ climbs the ladder towards zero, each step smaller than the last.
 
@@ -114,7 +116,9 @@ Flashcards for this section are as follows:
 - how the mutual orbit of electron and nucleus repairs the infinite-mass assumption, and the reduced-mass factor $\mu/m$ for hydrogen ::@:: Replace the electron mass $m$ with the reduced mass $\mu = mM/(m+M)$, which gives $\mu = 0.999456\,m$ for hydrogen and lowers the computed Rydberg constant to $R = (\mu/m) R_\infty$.
 - the Hα wavelengths $\lambda$ of hydrogen, deuterium, and tritium, and what sets their order ::@:: Hydrogen $656.47\ \text{nm}$, deuterium $656.29\ \text{nm}$, tritium $656.23\ \text{nm}$: the heavier nucleus gives the larger reduced mass and hence the shorter wavelength.
 
-## correspondence principle
+## limits
+
+### correspondence principle
 
 Bohr's quantum rules and classical electrodynamics disagree about radiating orbits, and they must not disagree where both should hold. The correspondence principle states the rule: in the limits where classical and quantum theories should agree, the quantum result must reduce to the classical one. The test case is hydrogen at large $n$, and the limit can be carried out directly. The adjacent levels differ by $$E_{n+1} - E_n = E_1\!\left[\frac{1}{(n+1)^2} - \frac{1}{n^2}\right] = -E_1\,\frac{2n+1}{n^2 (n+1)^2}.$$ At large $n$ the factor $(2n+1)/(n^2(n+1)^2)$ behaves as $2/n^3$, so a transition down from $n + 1$ emits a photon of frequency $$f = \frac{|E_{n+1} - E_n|}{h} \approx \frac{2\,|E_1|}{h\,n^3}.$$ The classical orbit radiates at its orbital frequency $f_{\text{orb}} = \omega/2\pi$ with $\omega = \sqrt{e^2/(4\pi\varepsilon_0 m r^3)}$ and $r = n^2 a_0$: the cube of the radius grows as $n^6$, so $f_{\text{orb}}$ falls as $1/n^3$ too, and the coefficient agrees with the quantum one exactly. The two descriptions therefore meet at large $n$, where each quantum transition runs at the frequency the classical orbit radiates. They part company only at small $n$, where classical electrodynamics was never applicable anyway. <!-- check: ignore-line[content_sentence_too_long]: the flagged sentence carries the closed-form adjacent-level difference $$E_{n+1}-E_n$$ that the correspondence derivation needs; splitting it from its formula would break the limit argument -->
 
@@ -130,7 +134,7 @@ Flashcards for this section are as follows:
 - the classical orbital angular frequency $\omega$ of the Bohr electron at orbit radius $r$ ::@:: $\omega = \sqrt{e^2/(4\pi\varepsilon_0 m r^3)}$, from the Coulomb force supplying the centripetal acceleration.
 - why the classical orbital frequency $f_{\text{orb}} = \omega/2\pi$ also falls as $1/n^3$ at large $n$ ::@:: With $r = n^2 a_0$ the cube $r^3$ grows as $n^6$, so $\omega = \sqrt{e^2/(4\pi\varepsilon_0 m r^3)}$ falls as $1/n^3$, and $f_{\text{orb}}$ with it.
 
-## limitations
+### limitations
 
 Three limitations bound the model. It works only for atoms with a single electron: hydrogen itself and hydrogen-like ions such as $\text{He}^+$ and $\text{Li}^{2+}$, to which the same derivation extends with $r_n = n^2 a_0/Z$ and $E_n = -13.6\,Z^2/n^2\ \text{eV}$ for a nucleus of charge $Ze$. The single-electron scope made a prediction in 1913: spectral lines seen in starlight and in hydrogen-helium discharge tubes, then ascribed to hydrogen, came from singly ionized helium instead, its lines falling between hydrogen's with extra lines of their own.
 

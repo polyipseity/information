@@ -21,7 +21,9 @@ Flashcards for this section are as follows:
 - what a scattering angle $\theta$ depends on ::@:: The impact parameter $b$, the charges $Z_1 e$ and $Z_2 e$ of particle and scatterer, and the particle's kinetic energy $K$.
 - what a scattering experiment learns about matter too small to see ::@:: Its structure, read from the angles at which a beam deflects off it.
 
-## backscattering results
+## experiment and formula
+
+### backscattering results
 
 Hans Geiger and Ernest Marsden, working under Ernest Rutherford, shot alpha particles at thin gold foils and counted where the particles went. In 1908 they watched how the beam spread out going through more and more material, looking only in the forward direction. In 1909 they found that about 1 alpha particle in 8,000 that struck the gold film bounced backward. In 1911 Rutherford derived a scattering formula that read the 1909 result as the signature of a very small, nearly point-like nucleus. In 1913 Geiger and Marsden tested the formula against angular measurements on different elements and amounts of material, and theory and experiment matched.
 
@@ -51,7 +53,7 @@ Flashcards for this section are as follows:
 - why the backscattering results through a gold film $6 \times 10^{-7}\ \text{m}$ thick ruled out the plum-pudding model ::@:: That model spreads the positive charge through a sphere the size of the atom, so its largest predicted deflection stays under about $7^\circ$ through such a film, and it predicts no backward scattering at all.
 - the black-box thought experiment behind the backscattering result: the two fills and what each does to a bullet ::@:: A homogeneous fill such as wood lets the bullet pass with little deviation, while a few massive steel ball bearings throw occasional bullets backward, so large-angle scattering needs compact massive scatterers.
 
-## assumptions behind the formula
+### assumptions behind the formula
 
 Rutherford's scattering formula rests on four assumptions. The scatterer is so massive that it barely recoils, and the alpha particle's initial and final kinetic energies are practically equal. The target is so thin that only a single scattering occurs. The bombarding particle and the target scatterer are so small that both may be treated as point masses and point charges. Only the Coulomb force acts.
 
@@ -71,7 +73,9 @@ Flashcards for this section are as follows:
 - how a departure of the backward counts from the Rutherford formula is read ::@:: As the point-charge assumption failing: when the closest approach of a head-on alpha reaches the nuclear surface the backward counts fall below the formula, and where the departure begins marks the size of the nucleus.
 - the distance of closest approach $r_{\min} = Z_1 Z_2 e^2/(4\pi\varepsilon_0 K)$ for 7.7-MeV alphas on aluminium, $Z_2 = 13$: its value and what it fixes ::@:: $4.9 \times 10^{-15}\ \text{m}$, close to the summed radii of the alpha particle and the aluminium nucleus; nuclear radii run from $1 \times 10^{-15}$ to $8 \times 10^{-15}\ \text{m}$.
 
-## impact parameter and scattering angle
+## geometry and cross section
+
+### impact parameter and scattering angle
 
 The trajectory of a scattered particle is fixed by two numbers. The impact parameter $b$ is the perpendicular distance between the scatterer and the incident direction the particle would have taken with no force at all. The scattering angle $\theta$ is the angle between the incoming direction and the outgoing direction. A particle that comes in far from the scatterer feels a weak push and leaves at a small angle; one aimed nearly at the scatterer is thrown back. For Coulomb repulsion the scattering angle $\theta$ and the impact parameter $b$ are locked together by conservation.
 
@@ -114,7 +118,7 @@ Flashcards for this section are as follows:
 - how the scattering angle $\theta$ changes along a family of trajectories with decreasing impact parameter $b$ ::@:: It grows: particles that come in closer to the scatterer are thrown through larger angles.
 - ![scattering geometry: an incoming particle path coming from the left and bending away as it passes a scatterer, with the impact parameter between the incident line and the scatterer, the scattering angle between the incoming and outgoing directions, and the distance from the scatterer to the particle marked](attachments/rutherford_scattering_geometry.svg) ::@:: The drawing marks the particle coming in from the left along a dashed incident line, the scatterer below it, the impact parameter $b$ between the line and the scatterer, the trajectory bending away, the scattering angle $\theta$ between the incoming and outgoing directions, and the separation $r$ from the scatterer to the particle. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
-## cross section
+### cross section
 
 Every particle whose incident line falls inside the circle of radius $b$ around the scatterer is deflected by at least the angle $\theta$ that belongs to that $b$. A smaller impact parameter $b$ belongs to a larger scattering angle $\theta$, so the disc of radius $b$ collects every particle scattered at $\theta$ or beyond, and nothing outside the disc reaches those angles. The area of that circle is the cross section $\sigma = \pi b^2$.
 
@@ -135,7 +139,7 @@ Flashcards for this section are as follows:
 - the total cross section $\sigma_{\text{tot}} = \int d\sigma$ summed over every angle, for the bare Coulomb law $b = \dfrac{a}{2}\cot\dfrac{\theta}{2}$, down to a smallest counted angle $\theta_{\min}$: what does the sum evaluate to, why does it diverge, and what makes it finite in a real atom? ::@:: The annuli telescope to the disc of the largest impact parameter, $\sigma_{\text{tot}} = \pi b(\theta_{\min})^2$; it diverges because $b \to \infty$ as $\theta_{\min} \to 0$; in a real atom the electron cloud screens the nuclear field beyond the screening radius, so $b$ saturates there and $\sigma_{\text{tot}} = \pi b_{\text{screen}}^2$ stays finite.
 
 <!-- check: ignore-next-line[header_style]: proper noun (eponym) -->
-## Rutherford scattering equation
+### Rutherford scattering equation
 
 Counting the particles that reach a detector at angle $\theta$ gives the scattering equation. The differential cross section follows from the impact parameter relation $$b = \frac{a}{2}\cot\frac{\theta}{2}, \qquad a = \frac{Z_1 Z_2 e^2}{4\pi\varepsilon_0 K},$$ with $a$ the head-on distance of closest approach.
 

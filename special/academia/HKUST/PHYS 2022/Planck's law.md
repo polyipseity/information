@@ -32,7 +32,9 @@ Flashcards for this section are as follows:
 - overview: the two relations $u_\lambda = n(\lambda)\,E(f)$ and $I_\lambda = \frac{1}{4}c\,u_\lambda$ that start the calculation, and what each quantity in them measures ::@:: The energy density $u_\lambda$ is energy per unit volume per unit wavelength, and the flux $I_\lambda$ is power per unit area per unit wavelength leaving a surface.
 - why a quoted prefactor such as $2hc^2/\lambda^5$ cannot be read on its own, and which quantity carries which prefactor ::@:: The quantity has to be named: spectral radiance per unit wavelength carries $2hc^2/\lambda^5$, and energy density per unit wavelength carries $8\pi hc/\lambda^5$ for the same curve.
 
-## two modifications
+## derivation
+
+### two modifications
 
 Planck took the radiation in the cavity to be emitted and absorbed by oscillators in the walls, then applied Boltzmann's statistical method to them. Two modifications take that approach outside classical physics.
 
@@ -56,7 +58,7 @@ Flashcards for this section are as follows:
 - what equipartition gives per degree of freedom at temperature $T$, and what the two modifications take away from it ::@:: $\tfrac{1}{2}k_BT$, which needs continuous states and continuous exchange.
 - which factor of $u_\lambda = n(\lambda)E(f)$ Max Planck's two modifications change, and why the mode count is not that factor ::@:: The mean energy $E(f)$. The mode density $n(\lambda) = 8\pi/\lambda^4$ stays the classical count, because counting standing waves and shells assumes nothing about how the energy inside a mode is distributed.
 
-## mean energy of a quantised oscillator
+### mean energy of a quantised oscillator
 
 An oscillator of frequency $f$ in level $n$ carries a Boltzmann weight $e^{-nhf/(k_BT)}$. The mean energy is a sum of energies over a sum of weights, $E(f) = \dfrac{\sum_{n} n\,hf\,e^{-nhf/(k_BT)}}{\sum_{n} e^{-nhf/(k_BT)}}$.
 
@@ -74,7 +76,7 @@ Flashcards for this section are as follows:
 - the mean energy $E(f)$ after the two sums are collapsed ::@:: $hf\,\dfrac{z/(1-z)^2}{1/(1-z)} = \dfrac{hf\,z}{1-z} = \dfrac{hf}{e^{hf/(k_BT)} - 1}$.
 - the limit in which this mean energy equals the equipartition share $k_BT$ ::@:: Where the lowest step $hf$ is small compared with $k_BT$, where $E(f) \to k_BT$.
 
-## assembling the law
+### assembling the law
 
 The mode density times that mean energy gives the energy density, $u_\lambda = \dfrac{8\pi}{\lambda^4}\cdot\dfrac{hc/\lambda}{e^{hc/(\lambda k_BT)} - 1} = \dfrac{8\pi hc}{\lambda^5}\,\dfrac{1}{e^{hc/(\lambda k_BT)} - 1}$, with $f = c/\lambda$ turning $hf$ into $hc/\lambda$.
 
@@ -93,7 +95,9 @@ Flashcards for this section are as follows:
 - where the constant $2hc^2$ comes from, and whether it can be chosen ::@:: It cannot be chosen. The mode count gives $8\pi$, the mean energy gives $hc$, and the radiance conversion gives $c/(4\pi)$, so $8\pi \times hc \times \frac{c}{4\pi} = 2hc^2$. Quoted as an energy density the prefactor is $8\pi hc$ instead, with the argument unchanged.
 - the law that comes out of the classical mode density $n(\lambda) = 8\pi/\lambda^4$ with an equipartition mean energy $k_BT$ ::@:: The Rayleigh–Jeans law, with the mode count and both solid-angle factors untouched.
 
-## two limits
+## limits and applications
+
+### two limits
 
 At long wavelengths $hf/(k_BT)$ is small, so $e^{hf/(k_BT)} - 1 \approx hf/(k_BT)$ and the mean energy per mode goes to $k_BT$. The law then gives $I_\lambda = \dfrac{2\pi c k_BT}{\lambda^4}$, the Rayleigh–Jeans law.
 
@@ -110,7 +114,7 @@ Flashcards for this section are as follows:
 - the ultraviolet catastrophe against Planck's short-wavelength limit ::@:: The exponential suppresses the ultraviolet, where Rayleigh–Jeans diverged. The divergence was an artefact of dropping the exponential.
 - the total power the law implies, and the law that names it ::@:: Integrating over all wavelengths gives the $T^4$ of the [Stefan–Boltzmann law](Stefan–Boltzmann%20law.md). <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
-## cosmic microwave background
+### cosmic microwave background
 
 The cosmic microwave background, radiation left over from the hot early universe, is the curve to test. It is a black body at $2.73\ \text{K}$, peaking at $\lambda_{\max} = 2.898 \times 10^{-3}\ \text{m}\cdot\text{K}/T \approx 1.06\ \text{mm}$ by the [Wien's displacement law](Wien's%20displacement%20law.md).
 

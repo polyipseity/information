@@ -54,7 +54,7 @@ Flashcards for this section are as follows:
 - why step 3 is the step that gives the image its meaning ::@:: A tracer that failed to bind would make the image bright wherever the isotope happened to end up, which is nowhere in particular.
 - step 6 in one phrase: what it adds that the other five steps do not ::@:: It is the only step that produces data rather than physics, turning a shower of unrelated events into a position.
 
-## what each tracer targets
+## tracer targets
 
 Each tracer binds to one thing. That molecule is what makes the image specific. F-18 and Ga-68 are isotopes, named by element symbol and mass number. Fluorodeoxyglucose (FDG), DOTA, and prostate-specific membrane antigen (PSMA) are the molecules those isotopes are attached to. Both isotopes are positron emitters with short half-lives. Each molecule was chosen for its chemistry rather than for its radioactivity.
 
@@ -80,7 +80,7 @@ Flashcards for this section are as follows:
 - a counterexample: a bright spot on a fluorodeoxyglucose (FDG) scan ::@:: A statement about metabolic activity rather than a diagnosis on its own, since inflammation and infection take up the tracer too.
 - how DOTA and prostate-specific membrane antigen (PSMA) compare in reach with fluorodeoxyglucose (FDG) ::@:: They are narrower: DOTA reaches neuroendocrine tumours, and PSMA reaches a membrane found on prostate cancer cells.
 
-## why the geometry makes the image possible
+## coincidence detection
 
 The detector surrounds the patient with a ring. A real event fires one photon into one side of the ring and the other into the opposite side. The two leave back to back, so the two detector hits and the annihilation point lie on one straight line. The line is the data. The machine collects many of them, each from a different annihilation, and intersects them to recover a position. A single pair would give a line and nothing more. A single photon gives no line at all, so the two have to be counted together.
 

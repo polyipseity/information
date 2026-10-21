@@ -23,7 +23,7 @@ Flashcards for this section are as follows:
 - the technique family energy-dispersive X-ray spectroscopy takes its place in ::@:: X-ray spectroscopy, which reads elements off their characteristic lines.
 - what makes energy-dispersive X-ray spectroscopy the standard compositional tool of scanning electron microscopy ::@:: One focused beam both forms the image and drives the X-ray emission, so the composition is read from the same point the image shows.
 
-## how it works
+## emission and detection
 
 The chain runs as it does in an X-ray tube. The incident beam ejects an inner-shell electron and leaves a hole; an outer-shell electron drops to fill it; the energy difference between the two shells leaves as an X-ray photon. Each element's shell energies are quantised and its own, so the photon energies it emits are unique, and [Moseley's law](X-ray.md#Moseley%27s%20law) predicts where they sit.
 

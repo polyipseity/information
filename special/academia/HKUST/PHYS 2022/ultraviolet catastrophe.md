@@ -12,6 +12,8 @@ tags:
 
 Classical statistical mechanics predicted an infinite radiated power. Write $I_\lambda$ for the power a surface radiates per unit area per unit wavelength. Integrated over every wavelength, it is infinite at any temperature above absolute zero. The divergence belongs to the 1900 prediction, and Paul Ehrenfest supplied the name in 1911.
 
+An ordinary discrepancy between theory and measurement stays finite. Two curves can differ by a factor of two at one wavelength. Both remain finite there, and a fit absorbs the disagreement into a parameter. A divergence is different in kind: the predicted quantity has no value to stand against the measurement, so no adjustment of anything measurable closes the gap.
+
 A mode is one standing wave pattern inside the cavity, and $k_B$ is the Boltzmann constant. One narrow assumption produces the divergence: every mode holds the equipartition share $k_BT$ whatever its frequency, the energy classical physics assigns to such a pattern at absolute temperature $T$.
 
 ---
@@ -21,15 +23,6 @@ Flashcards for this section are as follows:
 - the one assumption the failure rests on ::@:: that every mode holds the equipartition share $k_BT$ whatever its frequency. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - what a mode is here, and what $k_BT$ is ::@:: A mode is one standing wave pattern inside the cavity; $k_B$ is the Boltzmann constant, so $k_BT$ is the energy classical physics assigns to such a pattern at absolute temperature $T$.
 - who named the failure and when, against when the divergence itself appeared ::@:: Paul Ehrenfest named it in 1911; the divergence belongs to the 1900 prediction, so the name came after the result.
-
-## a divergence, not a discrepancy
-
-An ordinary discrepancy between theory and measurement stays finite. Two curves can differ by a factor of two at one wavelength. Both remain finite there, and a fit absorbs the disagreement into a parameter. A divergence is different in kind: the predicted quantity has no value to stand against the measurement, so no adjustment of anything measurable closes the gap.
-
----
-
-Flashcards for this section are as follows:
-
 - what makes this failure different in kind from an ordinary theory-measurement discrepancy ::@:: The predicted quantity is infinite where the measurement is finite, so there is no value to compare and no parameter to absorb the disagreement.
 
 ## two classical laws, and the gap in the infrared
@@ -50,7 +43,7 @@ Flashcards for this section are as follows:
 - which of the two classical laws earns the name ultraviolet catastrophe, and whether the other's error is bounded ::@:: The [Rayleigh–Jeans law](Rayleigh%E2%80%93Jeans%20law.md) earns it, since it misses by an infinite factor; the Wien error stays finite, missing by a factor of twenty or more in places.
 - why a divergence in the poorly measured ultraviolet could not be written off as an experimental gap ::@:: Because the well-measured infrared tail had to be fitted exactly right for the law to reach the ultraviolet, and no reasonable choice of constants could do both.
 
-## how wrong the classical law gets
+## size of the classical error
 
 One number measures the distance between the two limits: $x = hc/(\lambda k_BT)$, the energy of one quantum $hf$ at this wavelength divided by the thermal energy $k_BT$. A small $x$ means the classical law is nearly right; a large one means it is far out. At $500\ \text{nm}$ and $300\ \text{K}$, $x \approx 96$, so the classical law overestimates the true $I_\lambda$ by a factor $\frac{e^{x}-1}{x} \approx \frac{e^{96}}{96} \approx 4.7 \times 10^{39}$. At the other end, $\lambda = 10^{-5}\ \text{m}$ with $300\ \text{K}$ gives $x \approx 4.8$ and $x/(e^{x}-1) \approx 0.040$, a factor of about $25$.
 
@@ -62,7 +55,7 @@ Flashcards for this section are as follows:
 - the classical overestimate at $T = 300\ \text{K}$ and $\lambda = 500\ \text{nm}$ ::@:: $x \approx 96$, so the classical overestimate factor is $\frac{e^{x}-1}{x} \approx \frac{e^{96}}{96} \approx 4.7 \times 10^{39}$.
 - the classical overestimate at $T = 300\ \text{K}$ and $\lambda = 10^{-5}\ \text{m}$ ::@:: $x \approx 4.8$, giving $x/(e^{x}-1) \approx 0.040$, a factor of about $25$.
 
-## mode count is not to blame
+## mode density is fixed
 
 The tempting repair keeps the equipartition share and fixes the mode density instead. Since the divergence sits where there is very little energy anyway, the argument puts the fault in the $1/\lambda^4$.
 

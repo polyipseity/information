@@ -60,7 +60,7 @@ Flashcards for this section are as follows:
 - what the 1932 discovery left unestablished ::@:: The general pairing of matter and antimatter: the positron was the only antiparticle ever seen, so the general case stayed an inference from a single species.
 - the cloud chamber track, and what its curvature settled ::@:: That a particle of positive charge and of the electron's mass exists: the radius of the track is set by the momentum per unit charge.
 
-## how a positron is made
+## production routes
 
 Two routes produce a free positron, and they differ in where the energy comes from. In one the nucleus makes the positron itself and a neutrino carries away part of the released energy. In the other both members of the pair come out of a photon's energy at once, and a third body absorbs the recoil.
 

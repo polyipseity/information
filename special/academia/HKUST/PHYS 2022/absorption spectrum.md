@@ -18,7 +18,7 @@ Flashcards for this section are as follows:
 - how the dark lines of an absorbing gas line up with that gas's emission lines ::@:: They sit at precisely the same wavelengths, since the frequencies missing from the transmitted light are the ones the gas emits when excited.
 - the technique that identifies a substance from the wavelengths it removes from a beam passing through it ::@:: Absorption spectroscopy.
 
-## how the lines form
+## absorption transitions
 
 A photon whose energy matches the gap between two stationary states is absorbed, giving its energy to the atom and moving the electron from the lower state to the higher one. The condition is the one that governs emission as well, $hf = E_u - E_l$ with $E_u$ and $E_l$ the two state energies, so the wavelengths taken out of the light are the wavelengths those transitions can emit. The atom holds that energy only briefly: a hydrogen atom sits in the state a photon has just excited it to for about $10^{-10}\ \text{s}$, then emits a photon and returns lower.
 
@@ -30,7 +30,7 @@ Flashcards for this section are as follows:
 - why absorption removes exactly the wavelengths the gas emits ::@:: Both processes run on the same transitions between the same stationary states, so the gaps in the transmitted light sit at the emission wavelengths.
 - how long an excited hydrogen atom holds a state a photon has just moved it into ::@:: About $10^{-10}\ \text{s}$, then it emits a photon and returns to a lower state. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
-## which lines appear
+## observable series
 
 Which lines show depends on where the atoms already are. At ordinary temperatures practically every hydrogen atom sits in the ground state, so only Lyman-series light can be absorbed, and those lines lie outside the visible. Sunlight spans the visible, and passing through the sun's outer atmosphere it meets hydrogen that absorbs the Balmer wavelengths: the solar absorption spectrum carries dark lines at the known Balmer wavelengths.
 

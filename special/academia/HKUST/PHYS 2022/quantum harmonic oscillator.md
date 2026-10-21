@@ -20,7 +20,7 @@ Flashcards for this section are as follows:
 - overview: what the quantum harmonic oscillator is, and its levels $E_n$ ::@:: The quantum theory of any system with a restoring force, $V = \tfrac{1}{2}kx^2$ near its minimum, with levels $E_n = (n + \tfrac{1}{2})\hbar\omega$ and $\omega = \sqrt{k/m}$.
 - the zero-point energy $E_0$ of the oscillator ::@:: $E_0 = \tfrac{1}{2}\hbar\omega$ — the $n = 0$ level, nonzero because confinement forbids rest.
 
-## why every potential looks parabolic near its minimum
+## parabolic approximation near equilibrium
 
 Any potential can be Taylor-expanded about an equilibrium point $x_0$: $V(x) = V_0 + V_1(x - x_0) + \tfrac{1}{2}V_2(x - x_0)^2 + \cdots$. At a minimum the slope vanishes, $V_1 = 0$, so near $x_0$ the parabolic term dominates and $V(x) \approx V_0 + \tfrac{1}{2}k(x - x_0)^2$ with $k = V_2$. Shifting the origin so the minimum sits at zero potential, $V(x) = \tfrac{1}{2}kx^2$, the oscillator problem is universal: every stable equilibrium, at every energy low enough to stay near the bottom, behaves this way.
 

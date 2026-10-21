@@ -19,7 +19,7 @@ Flashcards for this section are as follows:
 - overview: the shape of the Lennard-Jones potential ::@:: A steep repulsive core under a slow attractive tail, the energy between two neutral atoms.
 - the two ways the Lennard-Jones potential is written: with $C_6$ and $C_{12}$, or with $\sigma$ and $\varepsilon$ ::@:: With the coefficients $C_6$ and $C_{12}$, or with the scales $\sigma$ and $\varepsilon$; the writings convert into each other.
 
-## the two terms
+## dispersion and exclusion terms
 
 $V(r) = -C_6/r^6 + C_{12}/r^{12}$: the $r^{-6}$ term attracts and the $r^{-12}$ term repels. The attraction is the dispersion interaction: each atom's electron cloud fluctuates into an instantaneous dipole, and the two dipoles pull on each other. The repulsion is the exclusion principle refusing the overlap of the two electron clouds as they are forced together.
 
@@ -31,7 +31,7 @@ Flashcards for this section are as follows:
 - the origin of the $r^{-6}$ attraction in the Lennard-Jones potential ::@:: The dispersion interaction: fluctuating electron clouds form instantaneous dipoles that pull on each other.
 - the origin of the $r^{-12}$ repulsion in the Lennard-Jones potential ::@:: The exclusion principle resisting the overlap of the two electron clouds as they are pushed together.
 
-## the scale form
+## reduced form
 
 Written in the scales the curve is built from, the same potential reads $V(r) = 4\varepsilon\left[(\sigma/r)^{12} - (\sigma/r)^6\right]$. There $\sigma$ is the separation where $V$ crosses zero and $\varepsilon$ is the well depth, the potential reaching $-\varepsilon$ at its bottom. Matching the two writings term by term gives $C_6 = 4\varepsilon\sigma^6$ and $C_{12} = 4\varepsilon\sigma^{12}$, so each pair of constants converts into the other: $\sigma = (C_{12}/C_6)^{1/6}$ and $\varepsilon = C_6^2/(4C_{12})$.
 

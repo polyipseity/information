@@ -33,7 +33,7 @@ Flashcards for this section are as follows:
 - how the level spacing of a nucleus behaves as the external field $B$ grows ::@:: It grows in step with the field, $\Delta E = g_N \mu_N B$ linear in $B$.
 - what a spin-zero nucleus does in an external magnetic field ::@:: Nothing: with no moment to orient it has no split levels and absorbs at no frequency.
 
-## the resonance condition
+## resonance condition
 
 A radiowave quantum $hf$ meets the level spacing exactly when $hf = g_N \mu_N B$, and the nucleus absorbs. Sweeping the frequency therefore finds the absorbing field at $B = hf/(g_N \mu_N)$: frequency and resonant field rise together, and five frequency-field pairs fall on a straight line through the origin, $f = (g_N \mu_N/h) B$. The slope $g_N \mu_N / h$ is fixed by the nucleus alone, which is what makes the line a measurement rather than a calibration.
 

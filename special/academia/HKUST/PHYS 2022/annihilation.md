@@ -50,7 +50,7 @@ Flashcards for this section are as follows:
 - a pair that is moving when it annihilates: what changes about the photon energy, against the $1.022\ \text{MeV}$ of a pair at rest ::@:: The photons carry more than $1.022\ \text{MeV}$ in total, because the kinetic energy of the pair is added to the rest energy that converts.
 - a nuclear reaction against annihilation, by the fraction of the mass converted and by where the energy ends up ::@:: A nuclear reaction converts a small fraction of the mass involved and leaves the energy as kinetic energy of the products, while annihilation converts the whole rest mass and sends it out as radiation.
 
-## why two photons back to back
+## two-photon emission
 
 Momentum conservation fixes the geometry. A pair at rest has zero total momentum, so the outgoing momenta must cancel. Two photons aimed head to tail do that, and they leave $180^\circ$ apart. A single photon carrying the full $1.022\ \text{MeV}$ would carry a momentum $E/c$ with nothing to balance it, so a pair on its own needs at least two photons to satisfy energy and momentum conservation. A nearby nucleus is the exception: it can take the missing momentum, so one photon suffices, and under some conditions three are produced. Two-photon emission remains by far the commonest mode.
 
