@@ -84,11 +84,15 @@ Add child links to parent indexes (`tutorials/index.md`, course `index.md`). Chi
 
 Whatever the group's type (lecture, lab, or tutorial), compare the material against the course's existing topic notes and extend, prune, or leave each concept, or create the note that is missing. Work from the concepts the material develops rather than the ones it names, so a passing mention stays in the `<type>.md` file, and keep the claims you looked up separate from the ones the material made, so a background claim never grows into a section of its own. See "Topic-note reconciliation (mandatory)" in the `academic-ingest` skill, and list the outcome for each note in the report. A drawing the material defines is one of those concepts, so the owning note carries the drawing itself rather than prose that describes it.
 
-## 9. Section levelling, then humanizer
+## 9. Section levelling, then a fresh writing pass
 
-Re-level every note the group created or touched before the humanizer pass: promote a sub-concept that earned its own heading, fold a section that restates the note's H1 or a lone `###` that is its parent's whole content, move material to the note that owns its concept, and re-link the session entries whose anchors a renamed heading invalidated. See "Section levelling pass" in `academic-crud-topic-note`. Settle the headings first, because the humanizer pass never touches heading text.
+Re-level every note the group created or touched before the writing pass: promote a sub-concept that earned its own heading, fold a section that restates the note's H1 or a lone `###` that is its parent's whole content, move material to the note that owns its concept, and re-link the session entries whose anchors a renamed heading invalidated. See "Section levelling pass" in `academic-crud-topic-note`. Settle the headings first, because the writing pass never touches heading text.
 
-Then load `academic-writing` and the `humanizer` skill, and apply them in that order to sweep the new and changed prose and flashcards, the reconciled topic notes included, before validating. This is a content step, not an optional polish: a group whose prose or cards were never passed is unfinished. Prose and cards fail differently, so sweep them separately. See "Humanizer pass" in the `academic-ingest` skill.
+Then run the pass in fresh-context children, one per file and at most two at once, from the brief in `.agents/prompts/academic-writing-pass.prompt.md` sent verbatim: file path, the two skill paths, the contract at `.agents/instructions/academic-notes.instructions.md`, and nothing else. No diagnosis, no before-state, no diff. A child that has read the parent's reasoning certifies it instead of reading the file. The parent accepts a result only after comparing card count, each card line's `$...$` set, heading text, the suppression list, and the whole diff against the pre-pass copy, and a report naming no moved section, deleted paragraph, or split sentence counts as no work.
+
+The default verdict is cut. A child reports words removed against words added, and removal wins; padding to lift a readability score is a worse defect than the one reported. `writing pass: loaded` goes in the per-group progress report, so a skipped pass is visible.
+
+Prose and cards fail differently, so sweep them separately. See "Humanizer pass" in the `academic-ingest` skill.
 
 ## 10. Validate
 
@@ -112,4 +116,6 @@ Reconciled topic notes:
   - voltage.md: extended (measuring voltage; ground reference)
   - Ohm's law.md: extended (resistor)
   - electric power.md: no change (already covered)
+Writing pass (one fresh child per file; loaded both skills):
+  - words added 412, removed 596; 3 sections merged, 1 deleted, 11 sentences split
 ```

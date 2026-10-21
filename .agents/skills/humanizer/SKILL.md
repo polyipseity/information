@@ -375,6 +375,8 @@ __After:__
 
 ## Workflow
 
+Register, heading grammar, reading level, and concision belong to `../academic-writing/SKILL.md`, which follows Wikipedia's Manual of Style. This skill covers machine-writing patterns only, and the fix is usually deletion rather than rewording.
+
 1. Read the full input.
 2. Mark all matching patterns.
 3. Rewrite the smallest spans needed to fix them.
