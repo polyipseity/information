@@ -20,7 +20,7 @@ Flashcards for this section are as follows:
 - what kind of error confounding is ::@:: A systematic error.
 - why a confounded association is still real ::@:: The pattern in the data is genuine, but it does not show that one variable causes the other.
 
-## what makes a variable a confounder
+## conditions for a confounder
 
 Three conditions make a variable a confounder.
 
@@ -42,7 +42,7 @@ Flashcards for this section are as follows:
 - where a confounder sits ::@:: Outside the mechanism, so hold it constant.
 - where a mediator sits ::@:: Inside the mechanism, so holding it constant blocks the effect.
 
-## a third variable behind an association
+## third variables
 
 Charitable giving and reported happiness rise together. Wealth makes generous spending possible, and it makes people report more happiness. It links the two, so neither causes the other. A correlational design cannot separate the third variable from the two it moves with; [a correlation does not imply causation](correlation%20does%20not%20imply%20causation.md) generalizes the point.
 

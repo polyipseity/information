@@ -38,7 +38,7 @@ Flashcards for this section are as follows:
 - ![three rows of boxes: Facebook pointing to depression, depression pointing to Facebook, and no friends pointing to both](attachments/correlation_causal_directions.svg) ::@:: One correlation is compatible with all three of these structures.
 - draw the three structures a correlation is compatible with ::@:: Two boxes joined by a rightward arrow. The same pair with the arrow reversed. One box with two arrows leaving it, one to each of two other boxes. <p> ![three rows of boxes: Facebook pointing to depression, depression pointing to Facebook, and no friends pointing to both](attachments/correlation_causal_directions.svg)
 
-## the three requirements for causation
+## three requirements for causation
 
 A causal claim has to meet three requirements, whichever of the three structures it proposes.
 

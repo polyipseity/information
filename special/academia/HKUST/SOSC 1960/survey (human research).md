@@ -20,7 +20,7 @@ Flashcards for this section are as follows:
 - how a survey is administered ::@:: Researchers hand out paper questionnaires or post the questions online.
 - what a survey reaches that a laboratory task does not ::@:: What people believe, feel, and prefer.
 
-## what a survey buys
+## advantages
 
 A survey reaches more people than a laboratory study. It costs less, takes less of the participants' time, and needs no appointment.
 

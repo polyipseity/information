@@ -19,7 +19,7 @@ Flashcards for this section are as follows:
 - why the light changes on its way through ::@:: Its intensity and the way it scatters shift as it passes through oxygenated blood, and again as it passes through active neurons.
 - what a diffuse optical imaging scan infers ::@:: Where and when brain activity happened, from the change in the light.
 
-## what it can reach
+## depth range
 
 The light reaches the superficial layers of the cerebral cortex, meaning the layers nearest the scalp, and no further: it typically penetrates only one to three centimetres from the scalp surface. Anything deeper than that is out of reach, however the instrument is arranged.
 
@@ -33,7 +33,7 @@ Flashcards for this section are as follows:
 - what is below the reach of diffuse optical imaging ::@:: Everything deeper than the superficial cortex, however the instrument is arranged.
 - what makes diffuse optical imaging usable outside a scanner ::@:: Flexible, safe, portable equipment, with nothing injected into the person.
 
-## the two readings
+## two readings
 
 Set up to detect the oxygenation of the blood, the method has a low temporal resolution, comparable to [functional magnetic resonance imaging](functional%20magnetic%20resonance%20imaging.md) and [positron emission tomography](positron%20emission%20tomography.md), because it is again reading the blood supply. Set up to detect the active neurons directly, it has both a high spatial and a high temporal resolution.
 

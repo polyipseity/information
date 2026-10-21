@@ -17,7 +17,7 @@ Flashcards for this section are as follows:
 - what phrenology read off the skull ::@:: The size of the brain tissue beneath each bump, and from that the strength of the faculty sitting there.
 - what phrenology is ::@:: A nineteenth-century pseudoscience that claimed the shape of the skull reflects the underlying brain tissue and the mental characteristics it carries.
 
-## what it claimed
+## claims
 
 The doctrine makes two claims and draws a conclusion. The mind is a collection of separate faculties, each with its own organ in the brain. The skull grows to fit the brain, so a heavily used organ pushes the bone outward above it, leaving a bump. Measuring the skull measures the mind.
 
@@ -37,7 +37,7 @@ Flashcards for this section are as follows:
 - draw the phrenology chart: what fills the centre of the sheet? ::@:: A large profile head called the symbolical head, its cranium packed with scenes, with the classification of the faculties in tables beneath it. <p> ![A Victorian broadside headed Chart of Mental Geometry, with a large head filled by symbolic scenes, portraits of Franz Joseph Gall and Johann Gaspar Spurzheim, and heads labelled moral type and murderer's type](attachments/Phrenological%20chart%20Wellcome%20V0009523.jpg)
 - what phrenology was at its height ::@:: A popular craze rather than a medical practice.
 
-## why it was rejected
+## rejection
 
 The skull does not mould to the brain. It is thicker in some places than in others, and it sits over the tissue with fluid and membrane in between. The outer surface of the skull follows the skull's own growth rather than the shape of the cortex under it. A bump over a region says nothing about what is under it.
 
@@ -51,7 +51,7 @@ Flashcards for this section are as follows:
 - how phrenological evidence was gathered ::@:: A bump was noticed after a trait was already known, and the cases that did not fit were not counted.
 - what was drawn first in phrenology ::@:: The map of faculties, so the bumps were read to match it.
 
-## the lasting contribution
+## lasting contribution
 
 In 1861 Paul Broca reported a patient who had lost speech while everything else in his mind stood intact, and located the damage in one region of the left frontal lobe. That settles localisation on the tissue rather than on the bone above it. What phrenology left behind is the doctrine of cerebral localisation: the brain is divided into regions that do different jobs, so damage to one region costs one function.
 

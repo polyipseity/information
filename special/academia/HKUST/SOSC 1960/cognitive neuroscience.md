@@ -19,7 +19,7 @@ Flashcards for this section are as follows:
 - what cognitive psychology contributes and leaves out ::@:: It reconstructs a process from the behaviour it produces, and says nothing about where the work happens in the brain.
 - where cognitive neuroscience grew from ::@:: The cognitive revolution, when imaging made mental activity watchable.
 
-## the structure-process trade-off
+## structure-process trade-off
 
 Zenon Pylyshyn and Stephen Kosslyn disagreed about visual mental imagery. Pylyshyn argued in 1973 that an image is a descriptive representation: a description in the form of facts that the mind reasons over. Where a thing sits is then one of those facts. Kosslyn and Daniel Pomerantz answered in 1977 that it is a depictive representation: a picture-like pattern carrying the spatial layout of what it stands for. Where a thing sits is then a position in the pattern.
 

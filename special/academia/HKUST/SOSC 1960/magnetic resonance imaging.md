@@ -28,7 +28,7 @@ Flashcards for this section are as follows:
 - what magnetic resonance imaging contributes to a study of the brain ::@:: The anatomical baseline: where a structure sits in the brain and what shape it has.
 - what a functional image is reported against ::@:: A structural scan, since naming a region means naming one piece of structure.
 
-## what a structural image establishes
+## structural evidence
 
 A structural scan resolves anatomy to a millimetre without opening the skull. Nothing that reads brain activity directly gets anatomy that fine. It never shows the brain at work. A hippocampus looks the same whether the person is recalling a word list or resting. It gives no timing and cannot show which parts of a structure are active while a process runs. The scanner's functional form gives that information: [functional magnetic resonance imaging](functional%20magnetic%20resonance%20imaging.md).
 

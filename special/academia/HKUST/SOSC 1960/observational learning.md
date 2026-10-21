@@ -24,7 +24,7 @@ Flashcards for this section are as follows:
 - social model ::@:: An authority a learner watches and tries to copy.
 - what the four stages being separate buys ::@:: Each stage can break on its own, and each one calls for a different remedy.
 
-## the four stages
+## four stages
 
 Copying a classmate's notes runs through all four. Attention holds while the classmate is similar or a credible high-achieving student. Retention needs the learner to see the notes as help for a quiz. Initiation needs access to the notes. Motivation comes from vicarious reinforcement, a good grade without punishment, or its opposite, a teacher's warning.
 
@@ -94,7 +94,7 @@ Flashcards for this section are as follows:
 - what makes a model supply that reason ::@:: Admiration, reward, or similarity strong enough that the model stands in for the learner.
 - what the behaviour itself supplies as a reason ::@:: None. The reason comes from the model.
 
-## what arrives with maturity
+## late development
 
 Age tempers what gets learned. Two things arrive late: the capacity to reflect on what one has seen, and the tendency to identify with other people. That step is empathy, and it keeps an observed act from becoming a habit of one's own. A child who imitates an aggressive act has copied it without the step where the act becomes their own.
 

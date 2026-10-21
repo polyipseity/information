@@ -29,7 +29,7 @@ Flashcards for this section are as follows:
 - biology's part in a prepared association ::@:: Conditioning is strong where biology has already tied one cue to one outcome.
 - what a cue carrying no information can still do ::@:: It can pick up learning that an equally frequent unprepared cue would not.
 
-## where the effect is clearest
+## taste aversion
 
 Oysters or raw fish, then food poisoning, and the food is finished. Taste aversion is the sharpest case of preparedness, and a fall from a high branch does the same for fear.
 
@@ -60,7 +60,7 @@ Flashcards for this section are as follows:
 - how many bad experiences a fear of heights needs ::@:: One.
 - what a phobia built on an ancestral threat is ::@:: The same phenomenon as an aversion built on a bad meal.
 
-## the evolutionary argument
+## evolutionary argument
 
 An organism that feared faster than its neighbours survived and reproduced more often. The predisposition that sped the learning was inherited, not acquired.
 

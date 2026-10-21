@@ -28,7 +28,7 @@ Privacy and confidentiality are separate duties. Researchers do not watch people
 
 Researchers weigh a study's benefits against the risks to participants. They expose anyone to risk only when the risks are fully understood and the likely benefits clearly outweigh them.
 
-A study with human participants goes to a review board. The board weighs the risks against the expected knowledge, checks the consent documents, and may require a less harmful design. It reads the proposal before anyone collects data, not after the results justify it. Neither the [1920 conditioning study](phobia.md#how%20a%20phobia%20forms) nor the [Bobo doll experiment](Bobo%20doll%20experiment.md#the%20design) had that review. A study that fails review never reaches the field, and good data cannot rescue it.
+A study with human participants goes to a review board. The board weighs the risks against the expected knowledge, checks the consent documents, and may require a less harmful design. It reads the proposal before anyone collects data, not after the results justify it. Neither the [1920 conditioning study](phobia.md#acquisition) nor the [Bobo doll experiment](Bobo%20doll%20experiment.md#procedure) had that review. A study that fails review never reaches the field, and good data cannot rescue it.
 
 Some researchers deceive participants to hide the study's true nature, usually so participants behave normally. Researchers must debrief everyone afterwards, explaining the true nature.
 

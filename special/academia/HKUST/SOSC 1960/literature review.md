@@ -134,7 +134,7 @@ Flashcards for this section are as follows:
 - what generative artificial intelligence (AI) writing lacks ::@:: Originality and depth.
 - why generative artificial intelligence (AI) cannot replace the search in a systematic review ::@:: A systematic review needs search methods that a reader can trace and repeat.
 
-### how to use an AI tool
+### using an AI tool
 
 An artificial intelligence (AI) tool shortens the search when it is a companion rather than a source. The writer still has to check its citations and claims against the studies themselves. One answer is never enough. Write the draft first and let the tool improve it. The critical analysis stays with the writer.
 
@@ -227,7 +227,7 @@ Flashcards for this section are as follows:
 - common problems with the evidence ::@:: The studies are only summarised, or the conclusions are not drawn from the studies reviewed.
 - what a run of paraphrases and summaries leaves the reader with ::@:: No argument at all.
 
-### how to integrate
+### integration
 
 A writer compares the articles for their similarities and differences, then reads the findings for where they converge and diverge. The key points and evidence go into an overarching view. The argument forms from all the articles read. The writer answers the assignment question from the studies reviewed.
 

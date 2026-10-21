@@ -19,7 +19,7 @@ Flashcards for this section are as follows:
 - why a brain location is reported against a cut ::@:: The brain is three-dimensional and every image of it is two-dimensional, so a location is reported as a position inside a slice.
 - how many cutting planes are standard for viewing the brain and body ::@:: Three.
 
-## the three planes
+## three planes
 
 The sagittal plane divides the brain into left and right parts. A sagittal cut along the body's own midline, the line down its centre, is called mid-sagittal, and the slice looks like a baked potato cut lengthwise. The coronal plane, also called the frontal plane, divides it into front and back parts. Its slice looks like a cut through a loaf of bread, seen from the front with the eyes at the front of the loaf. The transverse plane, also called the horizontal or axial plane, divides it into top and bottom parts, the way a bun is sliced.
 

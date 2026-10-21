@@ -27,7 +27,7 @@ Flashcards for this section are as follows:
 
 - the two founding branches of psychology ::@:: Psychology's founding branches were the laboratory measurement of mental activity and the clinical exploration of the unconscious mind.
 
-### the first psychology laboratory
+### first psychology laboratory
 
 Wilhelm Wundt (1832–1920) headed the first modern psychology laboratory in 1879, at Leipzig in Germany. He held that mental activity breaks down into more basic operations, and he assessed them by introspection, the self-observation of mental activity.
 
@@ -76,7 +76,7 @@ Flashcards for this section are as follows:
 - how Clark Hull and B. F. Skinner differed on internal events ::@:: Clark Hull treated internal events such as motivation as inferable from behavior, and B. F. Skinner rejected all discussion of them.
 - what behaviorism could not explain ::@:: Language, which Noam Chomsky showed in 1957 and 1959 that no reinforcement history could account for.
 
-### the cognitive revolution
+### cognitive revolution
 
 From about 1956, the cognitive revolution reversed behaviorism's decision to rule out internal processes. By the early 1970s it had surpassed behaviorism as a paradigm.
 

@@ -25,7 +25,7 @@ Flashcards for this section are as follows:
 - whether either person is at fault ::@:: Neither. Both are reacting to the information they have.
 - why random assignment is not enough on its own ::@:: It decides who gets what at random, but it does not stop a participant from guessing which pill they took.
 
-## what a double-blind procedure hides
+## biases blinding prevents
 
 A participant given the new pill and a participant given an identical fake cannot tell which one they took, and neither can the experimenter handing them out, at least until the data come in. When the code is broken, the treatment is the only difference left between the two groups.
 
@@ -52,7 +52,7 @@ Flashcards for this section are as follows:
 - how participant demand differs from deliberately misreporting ::@:: The participant is answering honestly, in response to a cue the design supplied.
 - what makes a demand characteristic easy to act on ::@:: A cover story that cannot hold together, a task that only makes sense one way, an experimenter who seems interested in one group.
 
-### the experimenter expectation effect
+### experimenter expectation effect
 
 An experimenter who knows who got the treatment finds the improvement they look for, and misses whatever is really in the group they expect to do badly. Scoring a mood from a face, counting errors, or rating a recording all let the expectation colour the score. The effect is worst when the dependent variable is the experimenter's own observation. A rating moves further when the collector does not know the conditions.
 
@@ -66,7 +66,7 @@ Flashcards for this section are as follows:
 - when the experimenter expectation effect is at its worst ::@:: When the dependent variable is the experimenter's own observation.
 - what removes it ::@:: A scorer who does not know the conditions.
 
-## where blinding is hard
+## limits of blinding
 
 Anyone can tell coffee from decaf by taste, and some interventions cannot be disguised. Blinding is not always available, so the study has to say openly who received what. The two conditions can still be made as alike as the treatment allows: an active control resembling the real thing, an identical-looking injection, the same appointment schedule in both arms. The study can also hide the conditions from whoever does the measuring, and blinding the scorer is usually possible even when blinding the participant is not. Most of the bias in the expectation effect comes from the scorer.
 

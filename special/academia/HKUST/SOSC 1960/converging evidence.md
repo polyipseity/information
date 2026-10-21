@@ -106,7 +106,7 @@ Flashcards for this section are as follows:
 - the first advantage of modeling over a human subject ::@:: It gives an explanation rather than a correlation.
 - the second advantage ::@:: You can vary a factor inside it at will.
 
-## what the agreement buys
+## inference across methods
 
 A functional magnetic resonance imaging (fMRI) scan, a magnetoencephalography (MEG) recording, and the deficit profile of two lesion patients all point at the same region. Three instruments reached it, and they do not share a failure mode, so one systematic error is unlikely to produce all three. The strongest evidence for a role or a function comes from similar findings in studies using different methods. A claim resting on one instrument alone needs a second method most.
 

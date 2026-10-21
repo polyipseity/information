@@ -26,7 +26,7 @@ Flashcards for this section are as follows:
 - observational learning ::@:: A child copying an act the child has only seen.
 - why it became the standard research ethics case ::@:: The children were too young to consent.
 
-## the design
+## procedure
 
 Children aged three to five sat in a room with an adult and a pile of toys, including a large inflatable Bobo doll. A minute in, the adult attacked the doll for roughly ten minutes: mallet blows, kicks, nonstop shouting. The child was left alone with the same toys.
 
@@ -71,7 +71,7 @@ Flashcards for this section are as follows:
 - what is still argued over ::@:: Researchers still argue over what the finding means for media and behaviour.
 - what the study opened ::@:: Nobody disputes that the study opened the area.
 
-## why it was criticized
+## criticism
 
 Critics said the study trained children toward aggression: it showed children a behaviour at length, then measured how much they picked up. The ethical objection has two parts: what happens to participants who cannot consent for themselves, and who reviews a study before it runs. Both appear under [ethical guidelines](research%20ethics.md).
 
@@ -86,7 +86,7 @@ Flashcards for this section are as follows:
 - the general ethical question ::@:: Two questions follow: what happens to participants who cannot consent for themselves, and who reviews a study before it runs.
 - what came of the criticism ::@:: A study showing an adult model harm a child now faces review before it begins, not after its data.
 
-## what it changed
+## theoretical impact
 
 Copying what a child has watched needs no stimulus and no habit. The child remembers, decides it is acceptable, and acts on a representation. Learning of that shape happens inside a person, not between a stimulus and a reflex. That was the first shift, from pure behaviorism to cognitive psychology.
 

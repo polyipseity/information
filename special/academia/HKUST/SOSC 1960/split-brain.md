@@ -23,7 +23,7 @@ Flashcards for this section are as follows:
 - how the cost of the cut is shown ::@:: By a task that routes a stimulus to one hemisphere at a time.
 - the three parts of the corpus callosum the drawing labels ::@:: The genu at the front, the rostrum below it, and the splenium at the back. <p> ![A midsagittal drawing of the brain with the corpus callosum highlighted, arching above the thalamus to join the two hemispheres](attachments/Gray%20720-emphasizing-corpus-callosum.png)
 
-## why the corpus callosum is cut
+## rationale for the cut
 
 In a healthy brain the timing of activity in different regions tends not to line up; that is what desynchronised means. An epileptic seizure is the opposite: activity across regions falls into step and the synchrony spreads. Whatever region it starts in, it reaches the rest of that hemisphere and the other hemisphere as well.
 
@@ -59,7 +59,9 @@ Flashcards for this section are as follows:
 - what those tasks need ::@:: Both hemispheres to work together.
 - whether knowledge learned in one hemisphere transfers ::@:: It does not.
 
-## the visual pathway
+## visual half-field testing
+
+### visual pathway
 
 Light reaching the retina is turned into a signal that runs along the optic nerve to the optic chiasm, where the optic nerves partially cross. Each retina has a nasal half, the half nearer the nose, and a temporal half, the half nearer the temple. The nasal fibres cross to the far side. The temporal fibres stay on their own side. What leaves the chiasm is called the optic tract. It reaches the lateral geniculate nucleus, a relay station of the thalamus, then runs on through the optic radiations to the primary visual cortex in the occipital lobe.
 
@@ -83,7 +85,7 @@ Flashcards for this section are as follows:
 - the visual pathway as drawn: ![A diagram of the visual pathway from both eyes to the occipital lobe, labelling the ipsilateral and contralateral fibres, the optic nerve, optic chiasm, optic tract, lateral geniculate nucleus, and optic radiations](attachments/Visual%20Pathway%20to%20the%20Brain.jpg) ::@:: Both eyes running back to the occipital lobe, with the ipsilateral and contralateral fibres kept apart, the optic nerve, chiasm and tract marked in turn, and the lateral geniculate nucleus feeding the optic radiations.
 - draw the visual pathway end to end: what is each segment called in turn? ::@:: The optic nerve from the eye, the optic tract after the chiasm, the lateral geniculate nucleus, then the optic radiations into the occipital lobe. <p> ![A diagram of the visual pathway from both eyes to the occipital lobe, labelling the ipsilateral and contralateral fibres, the optic nerve, optic chiasm, optic tract, lateral geniculate nucleus, and optic radiations](attachments/Visual%20Pathway%20to%20the%20Brain.jpg)
 
-## sending an image to one hemisphere
+### sending an image to one hemisphere
 
 ![A line drawing of a patient seated at a table facing a vertical screen on a stand, with small objects on the table beyond it and an examiner seated opposite](attachments/SplitBrainExperiments.jpg)
 
@@ -108,7 +110,7 @@ Flashcards for this section are as follows:
 - the split-brain test setup as drawn: ![A screen with a fixation cross and a stimulus flashed to the left of it, arrows running from the stimulus to the right-hand half of each eye, two eyes each split into a nasal and a temporal half, four fibres running to the hemispheres with the two nasal fibres crossing at the optic chiasm, and the two hemispheres joined by a corpus callosum marked as cut](attachments/split_brain_test_setup.svg) ::@:: A fixation cross with the stimulus flashed to its left, arrows to the right-hand half of each eye, the two nasal fibres crossing at the optic chiasm, and the corpus callosum marked as cut.
 - draw the test setup: which half of each retina takes a stimulus flashed left of fixation? ::@:: The nasal half of the left eye and the temporal half of the right eye, the right-hand half of each. <p> ![A screen with a fixation cross and a stimulus flashed to the left of it, arrows running from the stimulus to the right-hand half of each eye, two eyes each split into a nasal and a temporal half, four fibres running to the hemispheres with the two nasal fibres crossing at the optic chiasm, and the two hemispheres joined by a corpus callosum marked as cut](attachments/split_brain_test_setup.svg)
 
-## what the two hemispheres do separately
+### hemisphere specialisation
 
 Language areas are generally lateralised to the left hemisphere, so the right hemisphere cannot say what it has been shown. It can still act. The left hand, which the right hemisphere controls, points at or reaches for the object that matches it while the patient gives a completely different answer out loud.
 
@@ -127,7 +129,7 @@ Flashcards for this section are as follows:
 - what an Arcimboldo image is ::@:: A picture built out of fruits and vegetables that reads as a face.
 - what the two hemispheres report about an Arcimboldo image ::@:: The right hemisphere reports a face, and the left reports the fruits.
 
-## the left hemisphere as interpreter
+### left-hemisphere interpreter
 
 Shown a claw in one visual field and a snow scene in the other, the patient points to a shovel and says chicken. One picture reaches each hemisphere: the claw goes to the left, which has the speech, and the snow scene goes to the right, which moves the left hand.
 

@@ -33,7 +33,7 @@ Flashcards for this section are as follows:
 - ![a figure-eight coil held over a rendered brain, with red dashed lines tracing the magnetic field from the coil down into the cortex and a green dashed line marking the current induced along the surface it reaches](attachments/Transcranial%20magnetic%20stimulation.jpg) ::@:: A figure-eight coil sits over the cortex, its field runs down into the brain, and the current runs along the surface it reaches.
 - draw the setup a magnetic pulse passes through ::@:: A coil sits over the cortex, field lines run down from it, and the current runs along the surface they reach. <p> ![a figure-eight coil held over a rendered brain, with red dashed lines tracing the magnetic field from the coil down into the cortex and a green dashed line marking the current induced along the surface it reaches](attachments/Transcranial%20magnetic%20stimulation.jpg)
 
-## the interference with processing
+## disruption of processing
 
 A single pulse over the motor cortex can make a finger twitch. The same pulse, timed just before a participant presses a button, can block the press.
 

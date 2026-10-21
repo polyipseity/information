@@ -17,7 +17,7 @@ Flashcards for this section are as follows:
 
 - what transcranial direct-current stimulation does ::@:: It passes a mild electrical current directly through a brain area by placing small electrodes on the skull over that area.
 
-## how it differs from TMS
+## contrast with magnetic stimulation
 
 [Transcranial magnetic stimulation](transcranial%20magnetic%20stimulation.md) reaches the brain by induction: a brief magnetic pulse applied to the head sets up a weak electrical current inside the head. Direct-current stimulation skips that step and uses the current itself.
 
@@ -32,7 +32,7 @@ Flashcards for this section are as follows:
 - how strong the current in direct-current stimulation is ::@:: No stronger than an AA battery.
 - what the duration difference between the two methods means ::@:: The two are not interchangeable: one covers a sustained state, the other an event.
 
-## what it has been used for
+## applications
 
 Direct-current stimulation has been shown to improve performance across a range of cognitive functions: mathematical ability, memory, attention, and coordination. It is paired with cognitive training rather than used alone, so what improves is the training exercise running on top of it.
 
