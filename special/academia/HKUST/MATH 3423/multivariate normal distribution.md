@@ -73,7 +73,7 @@ Flashcards for this section are as follows:
 - for a bivariate normal vector $\binom{X_1}{X_2} \sim N_2\left(\binom{\mu_1}{\mu_2}, \begin{pmatrix} \sigma_{11} & \sigma_{12} \\ \sigma_{21} & \sigma_{22} \end{pmatrix}\right)$, where $\sigma_{12} = \operatorname{Cov}(X_1, X_2)$ and $\sigma_{21}$ is the matching entry below it: are $X_1$ and $X_2$ independent? ::@:: Yes, if and only if $\sigma_{12} = \sigma_{21} = 0$.
 - two components of a jointly normal vector with covariance matrix $\boldsymbol \Sigma$: does zero covariance $\operatorname{Cov}(X_i, X_j) = 0$ give independence? ::@:: Yes, because the zero cross-covariance block splits $\boldsymbol \Sigma$ into two blocks, the quadratic form splits into a sum, and the joint density factorizes into the product of the two marginal densities.
 
-### a scalar component beside a vector
+### scalar component beside a vector
 
 Let $\mathbf Y = (Y_0, Y_1, \ldots, Y_p)' \sim N_{p+1}(\boldsymbol\mu, \boldsymbol\Sigma)$ with mean components $\mu_i = E(Y_i)$ for $i = 0, \ldots, p$. Write $\mathbf Y_p = (Y_1, \ldots, Y_p)'$ for the remaining components. Separating one component from a block of the others is the shape a sample mean takes against the rest of a sample.
 

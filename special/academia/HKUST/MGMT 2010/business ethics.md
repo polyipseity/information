@@ -51,7 +51,7 @@ Flashcards for this section are as follows:
 - Stated values versus actual behaviour ::@:: 97% of students claimed they would return a wallet with money in it, yet unethical conduct is routine in organisations. What people say they would do and what they actually do diverge.
 - Environment over character ::@:: People are not inherently good or bad; the environment and incentives they face shape how they act. Changing the environment is easier than changing human nature.
 
-## where ethics come from
+## sources of ethical reasoning
 
 Students' ethical frameworks are shaped mainly by external forces. Family (44%) and society (35%) are the dominant sources, far ahead of religion (17%), personal reasoning (4%), and peer influence (1%). A strong majority (88%) believe ethics can exist without religion. The course takes these assumptions as its starting point — and then challenges them by introducing systematic ethical frameworks that demand more than intuition.
 

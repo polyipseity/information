@@ -78,7 +78,7 @@ Flashcards for this section are as follows:
 - random interval for the unknown mean $\mu$ of a normal sample $X_1, \ldots, X_n$ with known $\sigma^2$, at level $1 - \alpha$ ::@:: $\bar X \pm z_{\alpha/2} \frac{\sigma}{\sqrt{n}}$, where $z_{\alpha/2}$ is the upper $\alpha/2$ quantile of $N(0, 1)$.
 - confidence interval for the unknown mean $\mu$ of a normal sample $X_1, \ldots, X_n$ with known $\sigma^2$, built from the observed average $\bar x$ of the $n$ observations ::@:: $\bar x \pm z_{\alpha/2} \frac{\sigma}{\sqrt{n}}$, where $z_{\alpha/2}$ is the upper $\alpha/2$ quantile of $N(0, 1)$.
 
-## when the variance is unknown
+## unknown variance
 
 The same interval cannot be built once $\sigma^2$ is unknown, because $\sigma$ sits in both of its endpoints. The obvious repair is to put the quantity estimating $\sigma$ in its place and keep the same cutoff, which produces $\bar x \pm z_{\alpha/2} \frac{S_n}{\sqrt{n}}$.
 

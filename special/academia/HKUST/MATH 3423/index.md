@@ -103,7 +103,7 @@ MATH 3423 is an undergraduate course in statistical inference at HKUST.
     - [§ parametric families](parametric%20model.md#parametric%20families)
     - [§ non-parametric models](parametric%20model.md#non-parametric%20models)
 - [random sample](random%20sample.md)
-    - [§ the i.i.d. assumption](random%20sample.md#the%20i.i.d.%20assumption)
+    - [§ i.i.d. assumption](random%20sample.md#i.i.d.%20assumption)
     - [§ joint distribution under random sampling](random%20sample.md#joint%20distribution%20under%20random%20sampling)
 - [statistic](statistic.md)
     - [§ dependence on unknown parameters](statistic.md#dependence%20on%20unknown%20parameters)
@@ -133,7 +133,7 @@ MATH 3423 is an undergraduate course in statistical inference at HKUST.
 - [sample mean](sample%20mean.md)
     - [§ distribution of the sample mean](sample%20mean.md#distribution%20of%20the%20sample%20mean)
 - [sample variance](sample%20variance.md)
-    - [§ the two sample variances](sample%20variance.md#the%20two%20sample%20variances)
+    - [§ two sample variances](sample%20variance.md#two%20sample%20variances)
     - [§ distribution of the sample variance](sample%20variance.md#distribution%20of%20the%20sample%20variance)
     - [§ independence from the sample mean](sample%20variance.md#independence%20from%20the%20sample%20mean)
 
@@ -172,7 +172,7 @@ MATH 3423 is an undergraduate course in statistical inference at HKUST.
 - venue: G010, CYT Bldg
 - topic: confidence interval for the mean with unknown variance; independence of the sample mean and the sample variance; the gamma distribution and the chi-squared family
 - [confidence interval](confidence%20interval.md)
-    - [§ when the variance is unknown](confidence%20interval.md#when%20the%20variance%20is%20unknown)
+    - [§ unknown variance](confidence%20interval.md#unknown%20variance)
 - [sample variance](sample%20variance.md)
     - [§ independence from the sample mean](sample%20variance.md#independence%20from%20the%20sample%20mean)
 - [multivariate normal distribution](multivariate%20normal%20distribution.md)
@@ -198,7 +198,7 @@ MATH 3423 is an undergraduate course in statistical inference at HKUST.
 - [parametric model](parametric%20model.md)
     - [§ parametric distribution and model](parametric%20model.md#parametric%20distribution%20and%20model)
 - [random sample](random%20sample.md)
-    - [§ the i.i.d. assumption](random%20sample.md#the%20i.i.d.%20assumption)
+    - [§ i.i.d. assumption](random%20sample.md#i.i.d.%20assumption)
     - [§ joint distribution under random sampling](random%20sample.md#joint%20distribution%20under%20random%20sampling)
 - [statistic](statistic.md)
     - [§ dependence on unknown parameters](statistic.md#dependence%20on%20unknown%20parameters)
@@ -208,4 +208,4 @@ MATH 3423 is an undergraduate course in statistical inference at HKUST.
 - [sample mean](sample%20mean.md)
     - [§ distribution of the sample mean](sample%20mean.md#distribution%20of%20the%20sample%20mean)
 - [sample variance](sample%20variance.md)
-    - [§ the two sample variances](sample%20variance.md#the%20two%20sample%20variances)
+    - [§ two sample variances](sample%20variance.md#two%20sample%20variances)

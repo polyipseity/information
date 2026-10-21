@@ -104,7 +104,7 @@ The content is in teaching order.
     - [§ definitions](business%20ethics.md#definitions)
     - [§ relationship between law and ethics](business%20ethics.md#relationship%20between%20law%20and%20ethics)
     - [§ stated values versus actual behaviour](business%20ethics.md#stated%20values%20versus%20actual%20behaviour)
-    - [§ where ethics come from](business%20ethics.md#where%20ethics%20come%20from)
+    - [§ sources of ethical reasoning](business%20ethics.md#sources%20of%20ethical%20reasoning)
     - [§ ethical frameworks as lenses](business%20ethics.md#ethical%20frameworks%20as%20lenses)
 - [corporate social responsibility](corporate%20social%20responsibility.md)
     - [§ Carroll's pyramid (Carroll, 1991)](corporate%20social%20responsibility.md#carroll's%20pyramid%20(carroll,%201991))
