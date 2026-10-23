@@ -8,7 +8,7 @@ tags:
 
 # hydrogen atom
 
-- This article is about {@{the physics of the hydrogen atom}@}. For {@{a chemical description}@}, see {@{[hydrogen](hydrogen.md)}@}. For {@{monatomic hydrogen}@}, see {@{[Hydrogen § Atomic hydrogen](hydrogen.md#atomic%20hydrogen)}@}. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- This article is about {@{the physics of the hydrogen atom}@}. For {@{a chemical description}@}, see {@{[hydrogen](hydrogen.md)}@}. For {@{monatomic hydrogen}@}, see {@{[Hydrogen § Atomic hydrogen](hydrogen.md#atomic%20hydrogen)}@}. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 |                                                                                                                  | __Hydrogen atom__                                                                                                              |
 | ---------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------- |
